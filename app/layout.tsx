@@ -33,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="ja" className={`${notoSansJP.variable} h-full antialiased`}>
       <head>
+        <meta name="google-site-verification" content="MiojnMKoq58QasFBnGrCu1LDQk2Vgg0Nu6wPw1xCO2k" />
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
