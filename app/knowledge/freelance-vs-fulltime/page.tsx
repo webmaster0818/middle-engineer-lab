@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "フリーランスvs正社員【40代エンジニアはどっちが得？】",
@@ -48,6 +49,11 @@ export default function FreelanceVsFulltimePage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="フリーランスvs正社員【40代エンジニアはどっちが得？】"
+        description="40代エンジニアはフリーランスと正社員どちらが得か？年収・手取り・安定性・自由度を徹底比較。フリーランス転向のメリット・デメリットと判断基準を解説します。"
+        url="/knowledge/freelance-vs-fulltime/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

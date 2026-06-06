@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "Green（グリーン）｜IT/Web業界特化の転職サイトの評判",
@@ -75,6 +76,11 @@ export default function GreenReview() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="Green（グリーン）｜IT/Web業界特化の転職サイトの評判"
+        description="Green（グリーン）を30代・40代エンジニア目線で徹底レビュー。カジュアル面談文化、スタートアップ求人多数、「気になる」機能、エンジニア直接応募の実力を口コミで検証します。"
+        url="/review/green/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "インフラエンジニアの転職ガイド【AWS/Azure】クラウド時代のキャリア",
@@ -48,6 +49,11 @@ export default function InfrastructureSkillPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="インフラエンジニアの転職ガイド【AWS/Azure】クラウド時代のキャリア"
+        description="インフラエンジニアの転職市場をAWS/Azure/GCPの観点から徹底解説。平均年収550-850万円、クラウド移行需要、SRE転向、おすすめ転職エージェントを30代・40代向けに紹介します。"
+        url="/skill/infrastructure/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

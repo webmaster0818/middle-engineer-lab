@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   description:
     "30代・40代のITエンジニアに特化した転職エージェント比較サイト。年収UP実績・口コミ・体験談をもとに厳選10社を徹底比較。製造業からIT、金融からフィンテックなど業界横断キャリアも支援。",
-  metadataBase: new URL("https://middle-engineer-lab.pages.dev"),
+  metadataBase: new URL("https://middle-engineer.com"),
   openGraph: {
     type: "website",
     locale: "ja_JP",
@@ -37,6 +37,19 @@ export default function RootLayout({
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "ミドルエンジニア転職ラボ",
+              url: "https://middle-engineer.com",
+              description: "30代・40代のITエンジニアに特化した転職エージェント比較サイト",
+              sameAs: [],
+            }),
+          }}
+        />
       </head>
       <body className="min-h-full flex flex-col font-[var(--font-noto-sans-jp)] bg-white text-slate-800">
         <Header />
@@ -63,6 +76,8 @@ function Header() {
           <a href="/#ranking" className="hover:text-blue-400 transition-colors">ランキング</a>
           <a href="/#age" className="hover:text-blue-400 transition-colors">年代別</a>
           <a href="/#industry" className="hover:text-blue-400 transition-colors">業界別</a>
+          <a href="/company/" className="hover:text-blue-400 transition-colors">企業別</a>
+          <a href="/area/" className="hover:text-blue-400 transition-colors">エリア別</a>
           <a href="/faq/" className="hover:text-blue-400 transition-colors">お役立ち</a>
         </nav>
         <MobileMenu />
@@ -91,6 +106,8 @@ function MobileMenu() {
           <a href="/#ranking" className="hover:text-blue-400 transition-colors">ランキング</a>
           <a href="/#age" className="hover:text-blue-400 transition-colors">年代別</a>
           <a href="/#industry" className="hover:text-blue-400 transition-colors">業界別</a>
+          <a href="/company/" className="hover:text-blue-400 transition-colors">企業別</a>
+          <a href="/area/" className="hover:text-blue-400 transition-colors">エリア別</a>
           <a href="/faq/" className="hover:text-blue-400 transition-colors">お役立ち</a>
         </div>
       </nav>
@@ -102,7 +119,7 @@ function Footer() {
   return (
     <footer className="bg-[#0F172A] text-slate-400 text-sm">
       <div className="max-w-5xl mx-auto px-4 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <p className="text-white font-bold text-lg mb-2">
               ミドルエンジニア<span className="text-blue-400">転職ラボ</span>
@@ -118,6 +135,10 @@ function Footer() {
               <li><a href="/#ranking" className="hover:text-blue-400 transition-colors">エージェントランキング</a></li>
               <li><a href="/#age" className="hover:text-blue-400 transition-colors">年代別おすすめ</a></li>
               <li><a href="/#industry" className="hover:text-blue-400 transition-colors">業界別特集</a></li>
+              <li><a href="/company/" className="hover:text-blue-400 transition-colors">企業別ガイド</a></li>
+              <li><a href="/career/" className="hover:text-blue-400 transition-colors">キャリアパス</a></li>
+              <li><a href="/purpose/" className="hover:text-blue-400 transition-colors">目的別ガイド</a></li>
+              <li><a href="/area/" className="hover:text-blue-400 transition-colors">エリア別</a></li>
               <li><a href="/faq/" className="hover:text-blue-400 transition-colors">よくある質問</a></li>
             </ul>
           </div>
@@ -129,6 +150,15 @@ function Footer() {
               <li><a href="/review/mynavi-it/" className="hover:text-blue-400 transition-colors">マイナビIT AGENT</a></li>
               <li><a href="/review/workport/" className="hover:text-blue-400 transition-colors">ワークポート</a></li>
               <li><a href="/review/doda-it/" className="hover:text-blue-400 transition-colors">doda(IT特化)</a></li>
+            </ul>
+          </div>
+          <div>
+            <p className="text-white font-medium mb-2">サイト情報</p>
+            <ul className="space-y-1 text-xs">
+              <li><a href="/about/" className="hover:text-blue-400 transition-colors">運営者情報</a></li>
+              <li><a href="/editorial/" className="hover:text-blue-400 transition-colors">記事制作ポリシー</a></li>
+              <li><a href="/terms/" className="hover:text-blue-400 transition-colors">利用規約</a></li>
+              <li><a href="/privacy/" className="hover:text-blue-400 transition-colors">プライバシーポリシー</a></li>
             </ul>
           </div>
         </div>

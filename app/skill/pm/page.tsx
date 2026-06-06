@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "PM(プロジェクトマネージャー)の転職ガイド【40代でも需要あり】",
@@ -48,6 +49,11 @@ export default function PmSkillPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="PM(プロジェクトマネージャー)の転職ガイド【40代でも需要あり】"
+        description="PM(プロジェクトマネージャー)の転職市場を徹底解説。平均年収700-1000万円、40代でも需要あり、PdM転向、マネジメント経験の活かし方、おすすめ転職エージェントを紹介します。"
+        url="/skill/pm/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "Pythonエンジニアの転職ガイド【AI/データ分析】年収・将来性",
@@ -48,6 +49,11 @@ export default function PythonSkillPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="Pythonエンジニアの転職ガイド【AI/データ分析】年収・将来性"
+        description="Pythonエンジニアの転職市場をAI/データ分析の観点から徹底解説。平均年収600-900万円、AI/ML需要急増の背景、データサイエンティスト転向、おすすめ転職エージェントを紹介します。"
+        url="/skill/python/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

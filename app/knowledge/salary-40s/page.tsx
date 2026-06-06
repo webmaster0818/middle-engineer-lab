@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "40代エンジニアの年収戦略【維持・アップの方法】",
@@ -48,6 +49,11 @@ export default function Salary40sPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="40代エンジニアの年収戦略【維持・アップの方法】"
+        description="40代ITエンジニアが年収を維持・アップするための戦略を徹底解説。マネジメント路線とスペシャリスト路線の年収比較、交渉テクニック、おすすめ転職エージェントを紹介します。"
+        url="/knowledge/salary-40s/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

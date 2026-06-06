@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "Geeklyの評判・口コミ | 30代・40代エンジニア向け徹底レビュー",
@@ -75,6 +76,11 @@ export default function GeeklyReview() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="Geeklyの評判・口コミ | 30代・40代エンジニア向け徹底レビュー"
+        description="Geeklyを30代・40代エンジニア目線で徹底レビュー。平均年収UP76万円、書類選考通過率3.4倍の実力を口コミ・体験談で検証します。"
+        url="/review/geekly/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

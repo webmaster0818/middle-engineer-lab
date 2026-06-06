@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "40代エンジニアの転職完全ガイド【現実と成功法】| ミドルエンジニア転職ラボ",
@@ -48,6 +49,11 @@ export default function Age40sPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="40代エンジニアの転職完全ガイド【現実と成功法】| ミドルエンジニア転職ラボ"
+        description="40代エンジニアの転職は本当に厳しいのか？年収データ・成功事例・おすすめエージェントを交えて、40代のリアルな転職事情と成功戦略を解説します。"
+        url="/age/40s/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

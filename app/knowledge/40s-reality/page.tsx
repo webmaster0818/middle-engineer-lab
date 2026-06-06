@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "40代エンジニア転職の現実【厳しい？データで見る実態】",
@@ -48,6 +49,11 @@ export default function FortyRealityPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="40代エンジニア転職の現実【厳しい？データで見る実態】"
+        description="40代エンジニアの転職は本当に厳しいのか？求人データ、年収推移、成功率を客観的に分析し、40代エンジニアが転職で成功するための具体的な戦略を解説します。"
+        url="/knowledge/40s-reality/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

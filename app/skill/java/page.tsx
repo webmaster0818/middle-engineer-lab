@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "Javaエンジニアの転職ガイド【2026年】年収・求人・おすすめエージェント",
@@ -48,6 +49,11 @@ export default function JavaSkillPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="Javaエンジニアの転職ガイド【2026年】年収・求人・おすすめエージェント"
+        description="Javaエンジニアの転職市場を2026年最新データで徹底解説。平均年収550-700万円、金融・業務系に強い求人動向、おすすめ転職エージェントを30代・40代エンジニア向けに紹介します。"
+        url="/skill/java/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

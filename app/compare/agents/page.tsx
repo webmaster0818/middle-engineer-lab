@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "IT転職エージェント10社徹底比較【2026年最新】料金・特徴・口コミ",
@@ -61,6 +62,11 @@ export default function CompareAgentsPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="IT転職エージェント10社徹底比較【2026年最新】料金・特徴・口コミ"
+        description="IT・Webエンジニアにおすすめの転職エージェント10社を徹底比較。料金、求人数、特徴、口コミ評価を一覧表で比較し、30代・40代エンジニアに最適なエージェントを紹介します。"
+        url="/compare/agents/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

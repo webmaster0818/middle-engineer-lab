@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "30代エンジニアの年収相場【言語・職種・経験年数別】",
@@ -48,6 +49,11 @@ export default function Salary30sPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="30代エンジニアの年収相場【言語・職種・経験年数別】"
+        description="30代ITエンジニアの年収を言語別・職種別・経験年数別に徹底解説。年収600万円〜800万円を目指すキャリア戦略と、年収アップに効果的な転職エージェントの活用法を紹介します。"
+        url="/knowledge/salary-30s/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "type転職エージェントIT｜一都三県エンジニアの口コミ",
@@ -75,6 +76,11 @@ export default function TypeAgentReview() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="type転職エージェントIT｜一都三県エンジニアの口コミ"
+        description="type転職エージェントITを30代・40代エンジニア目線で徹底レビュー。東京・神奈川・千葉・埼玉に特化、IT/Web業界に強い老舗キャリアデザインセンター運営の実力を検証します。"
+        url="/review/type-agent/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

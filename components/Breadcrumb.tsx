@@ -19,7 +19,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      ...(item.href ? { item: `https://middle-engineer-lab.pages.dev${item.href}` } : {}),
+      ...(item.href ? { item: `https://middle-engineer.com${item.href}` } : {}),
     })),
   };
 

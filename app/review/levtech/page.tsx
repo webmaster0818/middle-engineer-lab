@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "レバテックキャリアの評判・口コミ | 30代・40代エンジニア向け徹底レビュー",
@@ -75,6 +76,11 @@ export default function LevtechReview() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="レバテックキャリアの評判・口コミ | 30代・40代エンジニア向け徹底レビュー"
+        description="レバテックキャリアを30代・40代エンジニア目線で徹底レビュー。年収800万以上の求人が半数、IT特化No.1の実力を口コミ・体験談で検証します。"
+        url="/review/levtech/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

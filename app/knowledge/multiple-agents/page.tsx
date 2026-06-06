@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "転職エージェントは複数登録すべき？【3社がベストな理由】",
@@ -48,6 +49,11 @@ export default function MultipleAgentsPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="転職エージェントは複数登録すべき？【3社がベストな理由】"
+        description="転職エージェントは何社に登録すべきか？複数登録のメリット・デメリット、3社がベストバランスな理由、おすすめの組み合わせパターンをエンジニア転職の観点から解説します。"
+        url="/knowledge/multiple-agents/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

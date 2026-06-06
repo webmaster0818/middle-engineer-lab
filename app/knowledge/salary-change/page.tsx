@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "エンジニア転職で年収は上がる？下がる？【データで解説】| ミドルエンジニア転職ラボ",
@@ -48,6 +49,11 @@ export default function SalaryChangePage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="エンジニア転職で年収は上がる？下がる？【データで解説】| ミドルエンジニア転職ラボ"
+        description="エンジニアが転職すると年収はどう変わるのか？年代別・職種別・業界別の年収データと、年収UPを実現するための具体的な戦略を解説します。"
+        url="/knowledge/salary-change/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

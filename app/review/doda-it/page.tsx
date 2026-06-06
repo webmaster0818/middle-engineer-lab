@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "doda(IT特化)の評判・口コミ | 30代・40代エンジニア向け徹底レビュー",
@@ -75,6 +76,11 @@ export default function DodaItReview() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="doda(IT特化)の評判・口コミ | 30代・40代エンジニア向け徹底レビュー"
+        description="doda(IT特化)を30代・40代エンジニア目線で徹底レビュー。求人数最多級、40代エンジニア向け求人の豊富さを口コミ・体験談で検証します。"
+        url="/review/doda-it/"
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "レビュー", href: "/#ranking" }, { name: "doda(IT特化)" }]} />
 

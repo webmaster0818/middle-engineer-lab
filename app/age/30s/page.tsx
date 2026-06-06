@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "30代エンジニアの転職完全ガイド【2026年最新】| ミドルエンジニア転職ラボ",
@@ -48,6 +49,11 @@ export default function Age30sPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="30代エンジニアの転職完全ガイド【2026年最新】| ミドルエンジニア転職ラボ"
+        description="30代エンジニアの転職事情を徹底解説。年収相場・成功率・おすすめエージェント・キャリアパスをデータに基づいて紹介。30代前半・後半それぞれの戦略が分かります。"
+        url="/age/30s/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

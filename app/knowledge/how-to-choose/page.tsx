@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "IT転職エージェントの選び方【失敗しない5つのポイント】",
@@ -48,6 +49,11 @@ export default function HowToChoosePage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="IT転職エージェントの選び方【失敗しない5つのポイント】"
+        description="IT転職エージェントの選び方を5つのポイントで解説。IT特化型vs総合型の違い、担当者の見極め方、失敗しないための注意点を30代・40代エンジニア向けに紹介します。"
+        url="/knowledge/how-to-choose/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

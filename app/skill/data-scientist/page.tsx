@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "データサイエンティストの転職ガイド【未経験からの道筋】",
@@ -48,6 +49,11 @@ export default function DataScientistPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="データサイエンティストの転職ガイド【未経験からの道筋】"
+        description="データサイエンティストの転職市場を徹底解説。年収相場、未経験からの転職ルート、必要スキル、おすすめ転職エージェントを30代・40代向けに紹介します。"
+        url="/skill/data-scientist/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

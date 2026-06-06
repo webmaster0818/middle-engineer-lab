@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "リクルートエージェントIT｜30代40代エンジニアの口コミと評判",
@@ -75,6 +76,11 @@ export default function RecruitItReview() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="リクルートエージェントIT｜30代40代エンジニアの口コミと評判"
+        description="リクルートエージェントITを30代・40代エンジニア目線で徹底レビュー。求人数業界最多級20万件以上、幅広い業種、面接対策が手厚い、40代求人も豊富な実力を口コミ・体験談で検証します。"
+        url="/review/recruit-it/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

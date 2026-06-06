@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "マイナビIT AGENTの評判・口コミ | 30代・40代エンジニア向け徹底レビュー",
@@ -75,6 +76,11 @@ export default function MynaviItReview() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="マイナビIT AGENTの評判・口コミ | 30代・40代エンジニア向け徹底レビュー"
+        description="マイナビIT AGENTを30代・40代エンジニア目線で徹底レビュー。社内SE求人の豊富さ、大手の安定感を口コミ・体験談で検証します。"
+        url="/review/mynavi-it/"
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "レビュー", href: "/#ranking" }, { name: "マイナビIT AGENT" }]} />
 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "35歳エンジニアの転職は限界？【リアルな実態と突破法】| ミドルエンジニア転職ラボ",
@@ -48,6 +49,11 @@ export default function Age35Page() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="35歳エンジニアの転職は限界？【リアルな実態と突破法】| ミドルエンジニア転職ラボ"
+        description="35歳限界説は本当か？35歳エンジニアの転職市場のリアルな実態を、データと成功事例で検証。35歳からのキャリア戦略と具体的な突破法を解説します。"
+        url="/age/35/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

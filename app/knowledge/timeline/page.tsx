@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "エンジニア転職のスケジュール【3ヶ月で内定を取る計画表】",
@@ -48,6 +49,11 @@ export default function TimelinePage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="エンジニア転職のスケジュール【3ヶ月で内定を取る計画表】"
+        description="エンジニア転職を3ヶ月で成功させるスケジュールを週単位で解説。準備期間、応募、面接、内定承諾、退職までの全工程を計画表で紹介します。"
+        url="/knowledge/timeline/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

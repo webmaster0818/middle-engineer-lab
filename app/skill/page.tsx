@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "スキル別エンジニア転職ガイド一覧",
@@ -31,6 +32,11 @@ const skillPages = [
 export default function SkillIndexPage() {
   return (
     <>
+      <ArticleJsonLd
+        title="スキル別エンジニア転職ガイド一覧"
+        description="プログラミング言語・職種別のエンジニア転職ガイド一覧。Java、Python、Go、フロントエンド、インフラ、データサイエンティストなど、スキルに合った転職戦略を見つけましょう。"
+        url="/skill/"
+      />
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "30代未経験からエンジニア転職は可能？【成功パターンと注意点】",
@@ -48,6 +49,11 @@ export default function Inexperienced30sPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="30代未経験からエンジニア転職は可能？【成功パターンと注意点】"
+        description="30代未経験からITエンジニアへの転職は可能なのか？成功する人の共通パターン、年収の現実、おすすめの学習ルート、転職エージェント活用法を実データとともに解説します。"
+        url="/knowledge/inexperienced-30s/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

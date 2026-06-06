@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "よくある質問 | 30代・40代エンジニア転職のQ&A",
@@ -63,6 +64,11 @@ export default function FaqPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="よくある質問 | 30代・40代エンジニア転職のQ&A"
+        description="30代・40代のITエンジニア転職に関するよくある質問をまとめました。年収、スキル、年齢制限、エージェントの選び方など、転職活動で気になる疑問にお答えします。"
+        url="/faq/"
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "よくある質問" }]} />
 

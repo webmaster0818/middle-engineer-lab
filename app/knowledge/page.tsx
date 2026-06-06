@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "お役立ちガイド一覧 | エンジニア転職ナレッジ",
@@ -49,6 +50,11 @@ const knowledgePages = [
 export default function KnowledgeIndexPage() {
   return (
     <>
+      <ArticleJsonLd
+        title="お役立ちガイド一覧 | エンジニア転職ナレッジ"
+        description="30代・40代エンジニアの転職に役立つガイド記事の一覧。職務経歴書の書き方、年収交渉、退職手続き、エージェント活用法など、転職活動で必要な知識を網羅しています。"
+        url="/knowledge/"
+      />
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },

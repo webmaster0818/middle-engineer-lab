@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "Go言語エンジニアの転職ガイド【需要急増中】年収・求人・将来性",
@@ -48,6 +49,11 @@ export default function GoSkillPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="Go言語エンジニアの転職ガイド【需要急増中】年収・求人・将来性"
+        description="Go言語エンジニアの転職市場を徹底解説。平均年収650〜950万円、マイクロサービス需要急増の背景、Goエンジニアのキャリアパス、おすすめ転職エージェントを紹介します。"
+        url="/skill/go/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

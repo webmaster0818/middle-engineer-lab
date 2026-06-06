@@ -1,1 +1,5 @@
-<!-- push test 2026年 6月 3日 水曜日 11時57分41秒 JST -->
+User-agent: *
+Allow: /
+Disallow: /_next/
+
+Sitemap: https://middle-engineer.com/sitemap.xml

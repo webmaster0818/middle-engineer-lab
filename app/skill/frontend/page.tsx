@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "フロントエンドエンジニアの転職ガイド【React/Vue】30代の市場価値",
@@ -48,6 +49,11 @@ export default function FrontendSkillPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="フロントエンドエンジニアの転職ガイド【React/Vue】30代の市場価値"
+        description="フロントエンドエンジニアの転職市場をReact/Vue/Next.jsの観点から徹底解説。平均年収500-800万円、フリーランスvs正社員比較、30代の市場価値、おすすめ転職エージェントを紹介します。"
+        url="/skill/frontend/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

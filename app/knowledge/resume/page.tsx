@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "エンジニアの職務経歴書の書き方【テンプレート付き】| ミドルエンジニア転職ラボ",
@@ -48,6 +49,11 @@ export default function ResumePage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="エンジニアの職務経歴書の書き方【テンプレート付き】| ミドルエンジニア転職ラボ"
+        description="エンジニア転職で書類選考を突破する職務経歴書の書き方を徹底解説。30代・40代エンジニア向けのテンプレートと、技術力を正しく伝えるコツを紹介します。"
+        url="/knowledge/resume/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

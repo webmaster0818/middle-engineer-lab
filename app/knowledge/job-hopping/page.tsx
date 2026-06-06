@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "エンジニアの転職回数は多いと不利？【3回以上でも大丈夫な理由】",
@@ -48,6 +49,11 @@ export default function JobHoppingPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="エンジニアの転職回数は多いと不利？【3回以上でも大丈夫な理由】"
+        description="エンジニアの転職回数が多いと不利になるのか？IT業界の転職回数の平均、企業が気にするポイント、転職回数が多くても評価される職務経歴書の書き方を解説します。"
+        url="/knowledge/job-hopping/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

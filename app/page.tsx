@@ -185,11 +185,29 @@ export default function Home() {
     })),
   };
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "30代・40代エンジニア向け転職エージェントおすすめランキング",
+    itemListOrder: "https://schema.org/ItemListOrderDescending",
+    numberOfItems: agents.length,
+    itemListElement: agents.map((agent) => ({
+      "@type": "ListItem",
+      position: agent.rank,
+      name: agent.name,
+      url: `https://middle-engineer-lab.com${agent.reviewPath}`,
+    })),
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
 
       {/* Hero */}
@@ -431,6 +449,206 @@ export default function Home() {
                 </div>
               </details>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Company Guide */}
+      <section id="company" className="bg-slate-50 py-16">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-800 text-center mb-10">
+            人気企業のエンジニア転職ガイド
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+            {[
+              { name: "Google", slug: "google" },
+              { name: "Amazon", slug: "amazon" },
+              { name: "メルカリ", slug: "mercari" },
+              { name: "LINEヤフー", slug: "line-yahoo" },
+              { name: "ソニー", slug: "sony" },
+              { name: "サイバーエージェント", slug: "cyberagent" },
+              { name: "freee", slug: "freee" },
+              { name: "SmartHR", slug: "smarthr" },
+              { name: "NRI", slug: "nri" },
+              { name: "LayerX", slug: "layerx" },
+            ].map((company) => (
+              <Link
+                key={company.slug}
+                href={`/company/${company.slug}/`}
+                className="border border-slate-200 rounded-lg p-4 text-center bg-white hover:shadow-md transition text-sm font-medium text-slate-700"
+              >
+                {company.name}
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/company/" className="text-blue-600 hover:underline font-medium text-sm">
+              すべての企業ガイドを見る →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Skill Guide */}
+      <section id="skill" className="bg-white py-16">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-800 text-center mb-10">
+            スキル・言語別 転職ガイド
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { name: "Java", slug: "java" },
+              { name: "Python", slug: "python" },
+              { name: "TypeScript", slug: "typescript" },
+              { name: "React", slug: "react" },
+              { name: "AWS", slug: "aws" },
+              { name: "Go", slug: "go" },
+              { name: "AI/ML", slug: "ai-ml" },
+              { name: "Kubernetes", slug: "kubernetes" },
+            ].map((skill) => (
+              <Link
+                key={skill.slug}
+                href={`/skill/${skill.slug}/`}
+                className="border border-slate-200 rounded-lg p-4 text-center bg-white hover:shadow-md transition text-sm font-medium text-slate-700"
+              >
+                {skill.name}
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/skill/" className="text-blue-600 hover:underline font-medium text-sm">
+              すべてのスキル別ガイドを見る →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Career Path */}
+      <section id="career" className="bg-slate-50 py-16">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-800 text-center mb-10">
+            キャリアパス別ガイド
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { name: "SE → Web系エンジニア", slug: "se-to-web" },
+              { name: "PM → CTO", slug: "pm-to-cto" },
+              { name: "SRE（サイト信頼性エンジニア）", slug: "sre" },
+              { name: "テックリード", slug: "tech-lead" },
+              { name: "大企業 → スタートアップ", slug: "enterprise-to-startup" },
+              { name: "フリーランス → 正社員", slug: "freelance-to-fulltime" },
+            ].map((career) => (
+              <Link
+                key={career.slug}
+                href={`/career/${career.slug}/`}
+                className="border border-slate-200 rounded-lg p-5 bg-white hover:shadow-md transition text-sm font-medium text-slate-700"
+              >
+                {career.name}
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/career/" className="text-blue-600 hover:underline font-medium text-sm">
+              すべてのキャリアパスを見る →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Purpose */}
+      <section id="purpose" className="bg-white py-16">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-800 text-center mb-10">
+            目的別おすすめガイド
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { name: "年収UP", slug: "salary-up" },
+              { name: "WLB重視", slug: "work-life-balance" },
+              { name: "フルリモート", slug: "full-remote" },
+              { name: "自社開発", slug: "in-house-dev" },
+              { name: "技術力UP", slug: "skill-up" },
+              { name: "安定重視", slug: "stability" },
+            ].map((purpose) => (
+              <Link
+                key={purpose.slug}
+                href={`/purpose/${purpose.slug}/`}
+                className="border border-slate-200 rounded-lg p-5 bg-white hover:shadow-md transition text-sm font-medium text-slate-700"
+              >
+                {purpose.name}
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/purpose/" className="text-blue-600 hover:underline font-medium text-sm">
+              すべての目的別ガイドを見る →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Area */}
+      <section id="area" className="bg-slate-50 py-16">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-800 text-center mb-10">
+            エリア別IT転職事情
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { name: "東京", slug: "tokyo" },
+              { name: "大阪", slug: "osaka" },
+              { name: "名古屋", slug: "nagoya" },
+              { name: "福岡", slug: "fukuoka" },
+              { name: "横浜", slug: "yokohama" },
+              { name: "札幌", slug: "sapporo" },
+              { name: "フルリモート", slug: "full-remote" },
+              { name: "地方移住", slug: "rural-migration" },
+            ].map((area) => (
+              <Link
+                key={area.slug}
+                href={`/area/${area.slug}/`}
+                className="border border-slate-200 rounded-lg p-4 text-center bg-white hover:shadow-md transition text-sm font-medium text-slate-700"
+              >
+                {area.name}
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/area/" className="text-blue-600 hover:underline font-medium text-sm">
+              すべてのエリアガイドを見る →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Agent Comparison */}
+      <section id="compare" className="bg-white py-16">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-800 text-center mb-10">
+            エージェント徹底比較
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { name: "レバテック vs Geekly", slug: "levtech-vs-geekly" },
+              { name: "30代向けランキング", slug: "best-for-30s" },
+              { name: "40代向けランキング", slug: "best-for-40s" },
+              { name: "ハイクラス比較", slug: "high-class" },
+              { name: "年収UPランキング", slug: "salary-up-ranking" },
+              { name: "リモート求人に強いエージェント", slug: "remote-friendly" },
+            ].map((compare) => (
+              <Link
+                key={compare.slug}
+                href={`/compare/${compare.slug}/`}
+                className="border border-slate-200 rounded-lg p-5 bg-white hover:shadow-md transition text-sm font-medium text-slate-700"
+              >
+                {compare.name}
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/compare/agents/" className="text-blue-600 hover:underline font-medium text-sm">
+              すべての比較記事を見る →
+            </Link>
           </div>
         </div>
       </section>

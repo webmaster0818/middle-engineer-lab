@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "エンジニア転職の年収交渉テクニック【100万円UPの実例】",
@@ -48,6 +49,11 @@ export default function SalaryNegotiationPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="エンジニア転職の年収交渉テクニック【100万円UPの実例】"
+        description="エンジニア転職で年収100万円アップを実現する交渉テクニックを解説。交渉のタイミング、伝え方、NGワード、エージェント活用法を具体例とともに紹介します。"
+        url="/knowledge/salary-negotiation/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

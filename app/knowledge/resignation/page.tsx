@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "エンジニアの退職の進め方【引き止め対策・引き継ぎガイド】",
@@ -48,6 +49,11 @@ export default function ResignationPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="エンジニアの退職の進め方【引き止め対策・引き継ぎガイド】"
+        description="エンジニアの退職の進め方を徹底解説。退職意思の伝え方、引き止め対策、引き継ぎのコツ、退職までのスケジュールを30代・40代エンジニア向けに紹介します。"
+        url="/knowledge/resignation/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

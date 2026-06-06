@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "ビズリーチでエンジニア転職｜ハイクラスIT求人の評判",
@@ -75,6 +76,11 @@ export default function BizreachItReview() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="ビズリーチでエンジニア転職｜ハイクラスIT求人の評判"
+        description="ビズリーチのIT・エンジニア向け求人を30代・40代エンジニア目線で徹底レビュー。年収600万以上のハイクラス求人、CTO/VPoEクラスのポジション、ヘッドハンター経由のスカウト型転職の実態を検証します。"
+        url="/review/bizreach-it/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

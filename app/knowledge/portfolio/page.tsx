@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "エンジニア転職のポートフォリオ作成ガイド【GitHub活用】| ミドルエンジニア転職ラボ",
@@ -48,6 +49,11 @@ export default function PortfolioPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="エンジニア転職のポートフォリオ作成ガイド【GitHub活用】| ミドルエンジニア転職ラボ"
+        description="エンジニア転職で評価されるポートフォリオの作り方を解説。GitHubプロフィールの最適化、個人プロジェクトの選び方、30代・40代エンジニアならではのアピールポイントを紹介します。"
+        url="/knowledge/portfolio/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

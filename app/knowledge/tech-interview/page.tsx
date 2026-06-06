@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "エンジニア転職の技術面接対策【よく聞かれる質問と回答例】| ミドルエンジニア転職ラボ",
@@ -48,6 +49,11 @@ export default function TechInterviewPage() {
 
   return (
     <>
+      <ArticleJsonLd
+        title="エンジニア転職の技術面接対策【よく聞かれる質問と回答例】| ミドルエンジニア転職ラボ"
+        description="エンジニア転職の技術面接でよく聞かれる質問と回答例を徹底解説。コーディングテスト、システム設計、行動面接の対策方法を30代・40代エンジニア向けに紹介します。"
+        url="/knowledge/tech-interview/"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
