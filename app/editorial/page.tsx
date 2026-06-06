@@ -46,7 +46,7 @@ export default function EditorialPage() {
                   ["求人数・質", "20点", "公開求人数、非公開求人の割合、IT・Web系に特化した求人の質"],
                   ["サポート体制", "20点", "面接対策、職務経歴書添削、年収交渉、入社後フォローの充実度"],
                   ["担当者の質", "20点", "IT業界への理解度、レスポンスの速さ、提案力、コミュニケーション力"],
-                  ["口コミ評価", "15点", "実際の利用者からのアンケート評価、満足度スコア"],
+                  ["口コミ評価", "15点", "口コミプラットフォーム等で公開されている利用者の評判の傾向分析"],
                   ["対応業界・職種", "15点", "対応するIT職種の幅広さ、業界横断キャリア支援の可否"],
                   ["利用しやすさ", "10点", "登録の手軽さ、面談の柔軟性、オンライン対応、退会のしやすさ"],
                 ].map(([name, score, desc], i) => (
@@ -98,7 +98,7 @@ export default function EditorialPage() {
               </p>
               <ul className="list-disc list-inside pl-4 space-y-1">
                 <li>6つの評価基準の総合スコア</li>
-                <li>利用者アンケートの満足度</li>
+                <li>公開されている利用者の評判・口コミの傾向</li>
                 <li>30代・40代エンジニアへの適性（当サイトの対象読者層に合致するか）</li>
               </ul>
               <p>
@@ -109,6 +109,36 @@ export default function EditorialPage() {
                 <li>広告掲載の有無</li>
                 <li>企業からのスポンサーシップ</li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* データの取得時点と鮮度 */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">データの取得時点と鮮度</h2>
+          <div className="border border-slate-200 rounded-lg p-6">
+            <div className="space-y-3 text-sm text-slate-600">
+              <p>
+                記事中の求人数・年収・実績などの数値データには、原則として<strong>「◯年◯月時点」の調査時点を明記</strong>しています。データは各サービスの公式サイト・公式発表を一次ソースとし、取得日とあわせて記録しています。
+              </p>
+              <p>
+                数値は調査時点のものであり、最新の情報と異なる場合があります。重要な判断の際は必ず各サービスの公式サイトで最新情報をご確認ください。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* 口コミ・評判の取扱い */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ・評判の取扱い</h2>
+          <div className="border border-slate-200 rounded-lg p-6">
+            <div className="space-y-3 text-sm text-slate-600">
+              <p>
+                記事内で紹介する利用者の評判・口コミは、<strong>出典（口コミプラットフォーム名等）を明記</strong>したうえで、傾向を要約して掲載しています。架空の口コミ・体験談を創作して掲載することはありません。
+              </p>
+              <p>
+                良い評判だけでなく、ネガティブな評判も公平に取り上げ、どのような人に向かないかも記載する方針です。
+              </p>
             </div>
           </div>
         </section>

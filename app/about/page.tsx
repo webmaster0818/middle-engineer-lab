@@ -94,12 +94,12 @@ export default function AboutPage() {
                 <p className="text-xs text-slate-500">各転職エージェントの公式サイトに掲載されている求人数・対応エリア・年収レンジ等のデータ</p>
               </div>
               <div>
-                <h3 className="font-bold text-slate-700 text-sm mb-1">利用者アンケート</h3>
-                <p className="text-xs text-slate-500">実際にエージェントを利用した30代・40代エンジニアへのアンケート調査（年2回実施）</p>
+                <h3 className="font-bold text-slate-700 text-sm mb-1">公開口コミ・評判の分析</h3>
+                <p className="text-xs text-slate-500">口コミプラットフォームやSNS上で公開されている利用者の声を、出典を明記したうえで傾向分析（記事内に出典記載）</p>
               </div>
               <div>
-                <h3 className="font-bold text-slate-700 text-sm mb-1">エージェント取材</h3>
-                <p className="text-xs text-slate-500">主要転職エージェントの担当者への取材・ヒアリング（随時実施）</p>
+                <h3 className="font-bold text-slate-700 text-sm mb-1">公式発表・プレスリリース</h3>
+                <p className="text-xs text-slate-500">各社の公式発表、決算資料、プレスリリース等の一次情報</p>
               </div>
               <div>
                 <h3 className="font-bold text-slate-700 text-sm mb-1">公的統計データ</h3>
