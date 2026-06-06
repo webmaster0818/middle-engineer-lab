@@ -9,6 +9,11 @@ const DESCRIPTION =
   "レバテックキャリアの評判・口コミを30代40代エンジニア目線で検証。求人数や年収アップ実績、良い評判と悪い評判、断られる・しつこいといった不安、退会方法までデータと出典付きで解説します。";
 const URL = "/review/levtech/";
 
+export const metadata: Metadata = {
+  title: TITLE,
+  description: DESCRIPTION,
+};
+
 const toc = [
   { id: "summary", label: "結論サマリ（どんな人向けか）" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },

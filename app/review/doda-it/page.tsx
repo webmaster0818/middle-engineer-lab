@@ -9,6 +9,11 @@ const DESCRIPTION =
   "doda（IT・エンジニア）の評判・口コミを30代40代エンジニア目線で検証。求人数や年収アップ実績、求人・連絡が多すぎる・専門性といった不安、スカウトの減らし方や退会方法までデータと出典付きで解説します。";
 const URL = "/review/doda-it/";
 
+export const metadata: Metadata = {
+  title: TITLE,
+  description: DESCRIPTION,
+};
+
 const toc = [
   { id: "summary", label: "結論サマリ（どんな人向けか）" },
   { id: "basic", label: "基本データ表（2026年時点）" },
