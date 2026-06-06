@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "物流業界からLogiTech転職【エンジニアガイド】| ミドルエンジニア転職ラボ",
+  title: "物流業界からLogiTech転職【エンジニアガイド】",
   description:
     "物流業界エンジニアからLogiTech・物流テック領域への転職方法を徹底解説。物流の知識が活きるIT職種、年収アップの戦略、おすすめ転職エージェントを紹介します。",
 };
@@ -50,7 +50,7 @@ export default function LogisticsPage() {
   return (
     <>
       <ArticleJsonLd
-        title="物流業界からLogiTech転職【エンジニアガイド】| ミドルエンジニア転職ラボ"
+        title="物流業界からLogiTech転職【エンジニアガイド】"
         description="物流業界エンジニアからLogiTech・物流テック領域への転職方法を徹底解説。物流の知識が活きるIT職種、年収アップの戦略、おすすめ転職エージェントを紹介します。"
         url="/industry/logistics/"
       />

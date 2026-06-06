@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "名古屋のIT転職事情【2026年】求人数・年収・おすすめエージェント | ミドルエンジニア転職ラボ",
+  title: "名古屋のIT転職事情【2026年】求人数・年収・おすすめエージェント",
   description:
     "名古屋のIT・Webエンジニア転職市場を徹底解説。トヨタ系製造DX、自動運転関連求人、名駅エリアの求人特徴、平均年収、おすすめエージェントを30代・40代向けに紹介します。",
 };

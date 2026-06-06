@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "仙台のIT転職事情【2026年】東北IT拠点・復興DX・年収相場 | ミドルエンジニア転職ラボ",
+  title: "仙台のIT転職事情【2026年】東北IT拠点・復興DX・年収相場",
   description:
     "仙台のIT・Webエンジニア転職市場を徹底解説。東北最大のIT拠点としての求人特徴、復興DX需要、平均年収、リモートワーク事情、おすすめエージェントを30代・40代向けに紹介します。",
 };

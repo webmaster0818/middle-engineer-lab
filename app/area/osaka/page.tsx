@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "大阪のIT転職事情【2026年】求人数・年収・おすすめエージェント | ミドルエンジニア転職ラボ",
+  title: "大阪のIT転職事情【2026年】求人数・年収・おすすめエージェント",
   description:
     "大阪のIT・Webエンジニア転職市場を徹底解説。梅田・難波・新大阪エリアの求人特徴、製造業DX需要、大阪万博効果、平均年収、おすすめエージェントを30代・40代向けに紹介します。",
 };

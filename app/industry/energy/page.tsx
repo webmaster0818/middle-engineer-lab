@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "エネルギー業界からCleanTech転職【エンジニアガイド】| ミドルエンジニア転職ラボ",
+  title: "エネルギー業界からCleanTech転職【エンジニアガイド】",
   description:
     "エネルギー業界エンジニアからCleanTech・GreenTech領域への転職方法を徹底解説。エネルギーの知識が活きるIT職種、年収アップの戦略を紹介します。",
 };
@@ -49,7 +49,7 @@ export default function EnergyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="エネルギー業界からCleanTech転職【エンジニアガイド】| ミドルエンジニア転職ラボ" description="エネルギー業界エンジニアからCleanTech・GreenTech領域への転職方法を徹底解説。エネルギーの知識が活きるIT職種、年収アップの戦略を紹介します。" url="/industry/energy/" />
+      <ArticleJsonLd title="エネルギー業界からCleanTech転職【エンジニアガイド】" description="エネルギー業界エンジニアからCleanTech・GreenTech領域への転職方法を徹底解説。エネルギーの知識が活きるIT職種、年収アップの戦略を紹介します。" url="/industry/energy/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "業界別ガイド" }, { name: "エネルギー業界からCleanTech転職" }]} />
 

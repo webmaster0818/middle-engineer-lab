@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "官公庁・公共系SEから民間IT転職【キャリアチェンジガイド】| ミドルエンジニア転職ラボ",
+  title: "官公庁・公共系SEから民間IT転職【キャリアチェンジガイド】",
   description:
     "官公庁・公共系システム開発エンジニアから民間IT企業への転職方法を徹底解説。GovTech・セキュリティ・SaaS領域で公共系SEの知識が活きる職種と転職戦略を紹介します。",
 };
@@ -50,7 +50,7 @@ export default function GovernmentPage() {
   return (
     <>
       <ArticleJsonLd
-        title="官公庁・公共系SEから民間IT転職【キャリアチェンジガイド】| ミドルエンジニア転職ラボ"
+        title="官公庁・公共系SEから民間IT転職【キャリアチェンジガイド】"
         description="官公庁・公共系システム開発エンジニアから民間IT企業への転職方法を徹底解説。GovTech・セキュリティ・SaaS領域で公共系SEの知識が活きる職種と転職戦略を紹介します。"
         url="/industry/government/"
       />

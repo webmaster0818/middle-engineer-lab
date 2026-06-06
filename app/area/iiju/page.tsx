@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "地方移住×IT転職ガイド【2026年】移住支援・コスパ・おすすめ地域 | ミドルエンジニア転職ラボ",
+  title: "地方移住×IT転職ガイド【2026年】移住支援・コスパ・おすすめ地域",
   description:
     "地方移住×IT転職を徹底解説。移住支援制度、生活コスパ、おすすめ移住先ランキング、フルリモート求人の探し方、成功のコツを30代・40代エンジニア向けに紹介します。",
 };

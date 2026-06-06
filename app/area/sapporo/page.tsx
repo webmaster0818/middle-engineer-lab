@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "札幌のIT転職事情【2026年】リモート移住・ニアショア・年収相場 | ミドルエンジニア転職ラボ",
+  title: "札幌のIT転職事情【2026年】リモート移住・ニアショア・年収相場",
   description:
     "札幌のIT・Webエンジニア転職市場を徹底解説。リモート移住先として人気の理由、ニアショア開発拠点、平均年収、エリア別求人特徴、おすすめエージェントを30代・40代向けに紹介します。",
 };

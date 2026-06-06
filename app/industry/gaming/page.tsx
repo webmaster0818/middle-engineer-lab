@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "ゲーム業界エンジニア転職ガイド【2026年版】| ミドルエンジニア転職ラボ",
+  title: "ゲーム業界エンジニア転職ガイド【2026年版】",
   description:
     "ゲーム業界エンジニアの転職市場を徹底解説。Unity/Unreal Engine、サーバーサイド、XR開発など、ゲームエンジニアのキャリアパスと年収アップ戦略を紹介します。",
 };
@@ -50,7 +50,7 @@ export default function GamingPage() {
   return (
     <>
       <ArticleJsonLd
-        title="ゲーム業界エンジニア転職ガイド【2026年版】| ミドルエンジニア転職ラボ"
+        title="ゲーム業界エンジニア転職ガイド【2026年版】"
         description="ゲーム業界エンジニアの転職市場を徹底解説。Unity/Unreal Engine、サーバーサイド、XR開発など、ゲームエンジニアのキャリアパスと年収アップ戦略を紹介します。"
         url="/industry/gaming/"
       />

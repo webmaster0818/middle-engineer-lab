@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "広島のIT転職事情【2026年】マツダDX・製造業IT・年収相場 | ミドルエンジニア転職ラボ",
+  title: "広島のIT転職事情【2026年】マツダDX・製造業IT・年収相場",
   description:
     "広島のIT・Webエンジニア転職市場を徹底解説。マツダDXを中心とした製造業IT需要、平均年収、エリア別求人特徴、リモートワーク事情、おすすめエージェントを30代・40代向けに紹介します。",
 };

@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "福岡のIT転職事情【2026年】求人数・年収・おすすめエージェント | ミドルエンジニア転職ラボ",
+  title: "福岡のIT転職事情【2026年】求人数・年収・おすすめエージェント",
   description:
     "福岡のIT・Webエンジニア転職市場を徹底解説。スタートアップ都市としての魅力、天神ビッグバン効果、リモートワーク移住、平均年収、おすすめエージェントを30代・40代向けに紹介します。",
 };

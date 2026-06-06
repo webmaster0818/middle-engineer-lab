@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "製造業エンジニアからIT転職【業界チェンジ成功法】| ミドルエンジニア転職ラボ",
+  title: "製造業エンジニアからIT転職【業界チェンジ成功法】",
   description:
     "製造業エンジニアからIT業界への転職方法を徹底解説。製造DX・IoT・スマートファクトリーなど、製造業の知識が活きるIT職種と転職戦略を紹介します。",
 };
@@ -50,7 +50,7 @@ export default function ManufacturingPage() {
   return (
     <>
       <ArticleJsonLd
-        title="製造業エンジニアからIT転職【業界チェンジ成功法】| ミドルエンジニア転職ラボ"
+        title="製造業エンジニアからIT転職【業界チェンジ成功法】"
         description="製造業エンジニアからIT業界への転職方法を徹底解説。製造DX・IoT・スマートファクトリーなど、製造業の知識が活きるIT職種と転職戦略を紹介します。"
         url="/industry/manufacturing/"
       />

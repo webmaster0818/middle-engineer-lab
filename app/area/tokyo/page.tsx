@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "東京のIT転職事情【2026年】求人数・年収・おすすめエージェント | ミドルエンジニア転職ラボ",
+  title: "東京のIT転職事情【2026年】求人数・年収・おすすめエージェント",
   description:
     "東京のIT・Webエンジニア転職市場を徹底解説。渋谷・六本木・品川・大手町のエリア別求人特徴、平均年収、リモートワーク事情、おすすめエージェントを30代・40代向けに紹介します。",
 };

@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "SIerからWeb系に転職するには【完全ガイド】| ミドルエンジニア転職ラボ",
+  title: "SIerからWeb系に転職するには【完全ガイド】",
   description:
     "SIerからWeb系自社開発企業への転職を徹底解説。必要なスキル、年収変動、転職準備のステップ、おすすめエージェントまで、SIer出身者のキャリアチェンジを完全サポートします。",
 };
@@ -50,7 +50,7 @@ export default function SierToWebPage() {
   return (
     <>
       <ArticleJsonLd
-        title="SIerからWeb系に転職するには【完全ガイド】| ミドルエンジニア転職ラボ"
+        title="SIerからWeb系に転職するには【完全ガイド】"
         description="SIerからWeb系自社開発企業への転職を徹底解説。必要なスキル、年収変動、転職準備のステップ、おすすめエージェントまで、SIer出身者のキャリアチェンジを完全サポートします。"
         url="/industry/sier-to-web/"
       />

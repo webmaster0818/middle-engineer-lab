@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "千葉のIT転職事情【2026年】幕張・物流DX・年収相場 | ミドルエンジニア転職ラボ",
+  title: "千葉のIT転職事情【2026年】幕張・物流DX・年収相場",
   description:
     "千葉のIT・Webエンジニア転職市場を徹底解説。幕張新都心・柏の葉・成田のエリア別求人特徴、物流DX需要、平均年収、リモートワーク事情、おすすめエージェントを30代・40代向けに紹介します。",
 };

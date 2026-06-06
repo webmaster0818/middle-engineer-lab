@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "フルリモートIT転職ガイド【2026年】地方在住×東京企業の年収・求人 | ミドルエンジニア転職ラボ",
+  title: "フルリモートIT転職ガイド【2026年】地方在住×東京企業の年収・求人",
   description:
     "フルリモートIT転職を徹底解説。地方在住のまま東京企業で働く方法、リモート求人の探し方、年収への影響、おすすめエージェント、成功のコツを30代・40代エンジニア向けに紹介します。",
 };

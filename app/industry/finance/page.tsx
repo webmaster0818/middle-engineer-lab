@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "金融業界からフィンテック転職【キャリアチェンジ完全ガイド】| ミドルエンジニア転職ラボ",
+  title: "金融業界からフィンテック転職【キャリアチェンジ完全ガイド】",
   description:
     "銀行・証券・保険業界からFinTech・決済・仮想通貨領域への転職方法を徹底解説。金融業界の知識が活きるIT職種と年収・転職戦略を紹介します。",
 };
@@ -50,7 +50,7 @@ export default function FinancePage() {
   return (
     <>
       <ArticleJsonLd
-        title="金融業界からフィンテック転職【キャリアチェンジ完全ガイド】| ミドルエンジニア転職ラボ"
+        title="金融業界からフィンテック転職【キャリアチェンジ完全ガイド】"
         description="銀行・証券・保険業界からFinTech・決済・仮想通貨領域への転職方法を徹底解説。金融業界の知識が活きるIT職種と年収・転職戦略を紹介します。"
         url="/industry/finance/"
       />

@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "SESから脱出！転職成功ガイド【おすすめエージェント】| ミドルエンジニア転職ラボ",
+  title: "SESから脱出！転職成功ガイド【おすすめエージェント】",
   description:
     "SESから自社開発・社内SEへの転職方法を徹底解説。SES脱出の具体的なステップ、必要な準備、おすすめの転職エージェントを紹介。30代・40代エンジニアのキャリアアップを支援します。",
 };
@@ -50,7 +50,7 @@ export default function SesExitPage() {
   return (
     <>
       <ArticleJsonLd
-        title="SESから脱出！転職成功ガイド【おすすめエージェント】| ミドルエンジニア転職ラボ"
+        title="SESから脱出！転職成功ガイド【おすすめエージェント】"
         description="SESから自社開発・社内SEへの転職方法を徹底解説。SES脱出の具体的なステップ、必要な準備、おすすめの転職エージェントを紹介。30代・40代エンジニアのキャリアアップを支援します。"
         url="/industry/ses-exit/"
       />

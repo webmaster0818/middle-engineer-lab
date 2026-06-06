@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "京都のIT転職事情【2026年】任天堂・研究機関・年収相場 | ミドルエンジニア転職ラボ",
+  title: "京都のIT転職事情【2026年】任天堂・研究機関・年収相場",
   description:
     "京都のIT・Webエンジニア転職市場を徹底解説。任天堂・京セラなどの大手企業、京大発スタートアップ、研究機関連携のIT求人、年収相場、おすすめエージェントを30代・40代向けに紹介します。",
 };

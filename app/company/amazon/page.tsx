@@ -2,38 +2,85 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
+import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "Amazon Japan エンジニア転職ガイド | 年収・技術スタック・面接対策【2026年版】",
+  title: "Amazon／AWS Japan エンジニア転職ガイド｜年収・OLP面接【2026年版】",
   description:
-    "Amazon Japanへのエンジニア転職を徹底解説。年収900〜1800万円、LP（リーダーシッププリンシプル）面接、技術スタックを現場目線でまとめました。",
+    "アマゾンジャパン／AWSジャパンへのエンジニア転職を、公式採用情報とlevels.fyi・OpenWork集計値で解説。Our Leadership Principles面接、Bar Raiser、年収レンジ、30代40代の現実までまとめました。",
 };
+
+const toc = [
+  { id: "conclusion", label: "結論：難易度と向くエンジニア" },
+  { id: "basic", label: "基本データ" },
+  { id: "hiring", label: "エンジニア採用の特徴" },
+  { id: "stack", label: "技術スタック・開発文化" },
+  { id: "salary", label: "年収データ（出典付き）" },
+  { id: "flow", label: "選考フロー" },
+  { id: "interview", label: "面接で重視される点（OLP）" },
+  { id: "review", label: "口コミ傾向" },
+  { id: "midage", label: "30代・40代から見たAmazon" },
+  { id: "agents", label: "おすすめエージェント" },
+  { id: "faq", label: "よくある質問" },
+  { id: "related", label: "関連記事" },
+];
+
+const basicData: [string, string][] = [
+  ["企業名", "アマゾンジャパン合同会社 / アマゾン ウェブ サービス ジャパン合同会社"],
+  ["業種", "EC・クラウドコンピューティング（AWS）"],
+  ["主な所在地", "東京（目黒・品川ほか）"],
+  ["主な部門", "AWS（クラウド）／リテール・デバイス・広告などのプロダクト開発"],
+  ["評価軸", "Our Leadership Principles（OLP・16項目）"],
+  ["技術スタック", "Java / Python / TypeScript / AWS各種（Lambda・DynamoDB・ECS等）/ React 等"],
+];
+
+const salaryRows: [string, string][] = [
+  ["L4（SDE I・若手）", "総報酬 約1,300万円前後（$90K台）"],
+  ["L5（SDE II・中堅）", "総報酬 約1,700万円前後（$116K前後）"],
+  ["L6（SDE III・シニア）", "総報酬 約2,400万円前後（$167K前後）"],
+  ["L7（Principal）", "上位レンジ（公開レポート少・変動大）"],
+];
 
 const faqs = [
   {
-    q: "Amazon Japanの面接で最も重視されるポイントは？",
-    a: "LP（Leadership Principles）への適合性が最重視されます。16のリーダーシッププリンシプルに基づいた行動面接（STAR形式）が複数回行われます。",
+    q: "Amazon／AWSジャパンの面接で最も重視されるのは？",
+    a: "Our Leadership Principles（OLP・16項目）への適合性です。AWS公式の採用案内でも、これまでどのリーダーシップ・プリンシプルをどう発揮したかを振り返り説明する準備が推奨されています。Customer Obsession、Ownership、Earn Trust などが軸になります。",
   },
   {
-    q: "Amazon Japanのエンジニア面接の流れは？",
-    a: "オンラインアセスメント → 電話スクリーニング → オンサイト面接（4〜5ラウンド）の流れです。各ラウンドでコーディングとLP質問が組み合わされます。",
+    q: "選考フローはどうなっていますか？",
+    a: "AWS公式案内によると、書類選考→1次面接（1人・45〜60分、ポジションによりOnline Assessmentあり）→ループ面接（複数面接官・各60分）→内定、という流れです。応募から内定まで1〜1.5か月程度かかる方が多いと公式に記載されています。現在はほぼオンライン実施です。",
   },
   {
-    q: "Amazon Japanのエンジニア年収はどのくらいですか？",
-    a: "SDE I（ジュニア）で約900万円、SDE II（ミドル）で約1200〜1500万円、SDE III（シニア）で約1500〜1800万円が目安です。RSU込みの総報酬です。",
+    q: "Bar Raiser（バーレイザー）とは？",
+    a: "採用対象チーム外の訓練された面接官が面接に加わり、採用基準の一貫性と質を担保する仕組みとして広く知られています。短期の人手不足で基準を下げないための役割です。",
   },
   {
-    q: "Amazon Japanの技術スタックは？",
-    a: "AWS全般、Java、Python、TypeScript、React、DynamoDB、Lambda、ECSなど自社クラウドサービスを全面的に活用しています。",
+    q: "エンジニアの年収はどのくらい？",
+    a: "アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式平均年収はありません。levels.fyi（2026年6月時点・日本拠点ソフトウェアエンジニア集計）では、L4で約$90K台、L5で約$116K前後、L6で約$167K前後の総報酬。RSU（株式報酬）は1年目5%・2年目15%・3〜4年目40%ずつのバックロード型で、初年度は基本給＋サインオンボーナス中心になりやすい点が特徴です。",
   },
   {
-    q: "Amazon Japanのワークライフバランスは？",
-    a: "チームによって差がありますが、近年は改善傾向です。ただしローンチ前やPrime Dayなどイベント時期は忙しくなることがあります。",
+    q: "AWS部門とリテール部門、どちらがおすすめ？",
+    a: "クラウド技術を深めたいならAWS、ECやデバイス等のプロダクト志向ならリテール／デバイス部門が候補です。どちらもOLPベースの評価とオーナーシップ文化は共通です。希望は応募ポジションで明確にしておくとミスマッチが減ります。",
   },
   {
-    q: "Amazon JapanはAWS部門とリテール部門どちらがおすすめ？",
-    a: "技術的チャレンジを求めるならAWS部門、プロダクト志向ならリテール部門がおすすめです。年収はAWS部門の方がやや高い傾向にあります。",
+    q: "コーディング面接はありますか？",
+    a: "ポジションによりますが、ソフトウェアエンジニア職ではコーディング／技術面接とOLPベースの行動面接が組み合わされるのが一般的に知られています。データ構造・アルゴリズムの基礎と、設計・トレードオフを説明できる準備が有効です。",
   },
+  {
+    q: "ワークライフバランスはどうですか？",
+    a: "OpenWorkのクチコミでは「有給消化率が高い」「働きやすい」という声がある一方、職種・部署・時期（大型イベント前など）で負荷が変わるとの指摘もあります。配属チームの実態を面接の逆質問で確認するのがおすすめです。",
+  },
+  {
+    q: "英語は必須ですか？",
+    a: "AWS・グローバル組織を中心に英語を使う場面が多く、ポジションによっては必須です。ドキュメント文化が強く、文章で論理的に説明する力（Writing）も重視されると一般に言われています。",
+  },
+];
+
+const sources = [
+  "AWS 採用プロセスのサポート（公式）",
+  "Amazon Our Leadership Principles（公式）",
+  "levels.fyi（2026年6月時点・ユーザー投稿集計）",
+  "OpenWork アマゾンジャパン／AWSジャパン（社員クチコミ集計）",
 ];
 
 export default function AmazonCompanyPage() {
@@ -50,8 +97,8 @@ export default function AmazonCompanyPage() {
   return (
     <>
       <ArticleJsonLd
-        title="Amazon Japan エンジニア転職ガイド"
-        description="Amazon Japanへのエンジニア転職を徹底解説。年収900〜1800万円、LP面接、技術スタックを現場目線でまとめました。"
+        title="Amazon／AWS Japan エンジニア転職ガイド【2026年版】"
+        description="アマゾンジャパン／AWSジャパンへのエンジニア転職を、公式採用情報とlevels.fyi・OpenWork集計値で解説。OLP面接・Bar Raiser・年収レンジ・30代40代の現実までまとめました。"
         url="/company/amazon/"
       />
       <script
@@ -68,91 +115,149 @@ export default function AmazonCompanyPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          Amazon Japan エンジニア転職ガイド【2026年版】
+          Amazon／AWS Japan エンジニア転職ガイド【2026年版】
         </h1>
-        <p className="text-slate-500 text-sm mb-8">
-          最終更新: 2026年6月 | AWS・リテール両部門のエンジニア採用を徹底解説
+        <p className="text-slate-500 text-sm mb-6">
+          最終更新: 2026年6月 ｜ OLP面接・Bar Raiser・年収を公式情報＋集計値で読み解く
         </p>
 
-        <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-10">
-          <table className="w-full text-sm">
-            <tbody>
-              {[
-                ["企業名", "アマゾンジャパン合同会社"],
-                ["業種", "EC・クラウドコンピューティング"],
-                ["従業員数", "約10,000名（日本法人）"],
-                ["平均年収", "900〜1,800万円（エンジニア職）"],
-                ["本社所在地", "東京都目黒区"],
-                ["技術スタック", "Java / Python / TypeScript / AWS / DynamoDB / React"],
-              ].map(([label, value], i) => (
-                <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                  <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200">{label}</th>
-                  <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <p className="text-slate-700 leading-relaxed mb-6">
+          アマゾンジャパン合同会社／アマゾン ウェブ サービス
+          ジャパン合同会社（AWSジャパン）は、ECやデバイス、そして世界最大級のクラウドAWSを支えるソフトウェアエンジニアを中途採用しています。
+          本ページは、AWS公式の採用プロセス案内とAmazonのOur Leadership
+          Principles、報酬集計サイトlevels.fyi、社員クチコミサイトOpenWorkを出典として明示し、
+          30代・40代のミドルエンジニアが現実的に判断できる形で整理しています。年収は一次情報が存在しないため、出典・時点・変動の大きさを必ず添えています。
+        </p>
 
-        <section className="mb-10">
+        <DataNote surveyedAt="2026年6月" sources={sources} />
+
+        {/* 目次 */}
+        <nav className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
+          <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
+            {toc.map((t) => (
+              <li key={t.id}>
+                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                  {t.label}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+
+        {/* 結論 */}
+        <section id="conclusion" className="mb-12 scroll-mt-20">
+          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：難易度と向くエンジニア</h2>
+            <p className="text-blue-900 text-sm leading-relaxed mb-3">
+              Amazon／AWSジャパンのエンジニア中途採用は<strong>最難関クラス</strong>ですが、Googleと比べると
+              <strong>OLP（行動・価値観）の比重が大きい</strong>のが特徴です。次の3点が揃う人に向きます。
+            </p>
+            <ul className="space-y-2 text-sm text-blue-900">
+              <li>① <strong>オーナーシップ</strong>を持ってプロジェクトを完遂した具体的エピソードを語れる</li>
+              <li>② <strong>AWS／分散システム</strong>の設計・運用に関わった経験がある</li>
+              <li>③ コーディング／技術面接の基礎と、<strong>英語・文章での論理説明</strong>に抵抗がない</li>
+            </ul>
+            <p className="text-blue-900 text-sm leading-relaxed mt-3">
+              OLP対策は
+              <Link href="/knowledge/behavioral/" className="text-blue-700 underline font-medium">行動面接（STAR法）の準備</Link>
+              、技術面は
+              <Link href="/knowledge/coding-test/" className="text-blue-700 underline font-medium">コーディングテスト対策</Link>
+              から着手するのが王道です。
+            </p>
+          </div>
+        </section>
+
+        {/* 基本データ */}
+        <section id="basic" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ</h2>
+          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+            <table className="w-full text-sm">
+              <tbody>
+                {basicData.map(([label, value], i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">
+                      {label}
+                    </th>
+                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-400 mt-2">
+            ※技術スタックは公式のAWS技術情報・採用要項から一般に知られている範囲。担当領域は組織・ポジションで異なります。
+          </p>
+        </section>
+
+        {/* 採用の特徴 */}
+        <section id="hiring" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
             <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">LP（リーダーシッププリンシプル）面接</h3>
+              <h3 className="font-bold text-blue-800 mb-2">OLP（Our Leadership Principles）が評価の核</h3>
               <p className="text-sm text-blue-700">
-                Amazonの16のリーダーシッププリンシプルに基づいた行動面接が特徴です。STAR形式（Situation, Task, Action, Result）で過去の経験を具体的に語る必要があります。Customer Obsession、Ownership、Dive Deepなどが特に重視されます。
+                Amazonは全社員がリーダーという考えのもと、16項目のOLPに沿って行動することが期待されます。面接質問の多くが特定のOLPへの適合を見るために設計されている、と一般に知られています。
               </p>
             </div>
             <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">Two-Pizza Team文化</h3>
+              <h3 className="font-bold text-blue-800 mb-2">Bar Raiser 制度</h3>
               <p className="text-sm text-blue-700">
-                少人数チーム（ピザ2枚で足りる人数）で自律的に開発を進める文化です。エンジニアはオーナーシップを持ってサービスの設計・開発・運用まで一貫して担当します。
+                対象チーム外の訓練された面接官（Bar
+                Raiser）が面接に加わり、採用基準の一貫性と質を担保します。人手不足でも基準を下げない仕組みとして知られています。
               </p>
             </div>
             <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">Bar Raiser制度</h3>
+              <h3 className="font-bold text-blue-800 mb-2">少人数・自律のチーム文化</h3>
               <p className="text-sm text-blue-700">
-                採用チーム外のBar Raiserが面接に参加し、採用基準の一貫性を担保します。「既存メンバーの平均以上の人材のみ採用する」という高い基準が維持されています。
+                小さなチームが設計・開発・運用までオーナーシップを持って担う文化（いわゆるTwo-Pizza
+                Team）が知られ、サービスを一気通貫で見られる経験が積めます。
               </p>
             </div>
           </div>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求められるスキル・経験</h2>
-          <div className="border border-slate-200 rounded-lg p-5">
-            <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>Java / Python いずれかでの実務経験3年以上</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>AWSサービスの利用経験（EC2, S3, Lambda, DynamoDB等）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>マイクロサービスアーキテクチャの設計・実装経験</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ビジネスレベルの英語力（日常業務で英語使用）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>データ構造・アルゴリズムの理解（コーディング面接対策）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>オーナーシップを持ってプロジェクトを推進した経験</li>
-            </ul>
-          </div>
+        {/* 技術スタック */}
+        <section id="stack" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック・開発文化</h2>
+          <p className="text-slate-700 text-sm leading-relaxed mb-3">
+            Amazonは自社クラウドAWSをフル活用し、Java・Python・TypeScriptなどでサービスを構築・運用していることが、公式のAWS技術ドキュメントや採用要項から広く知られています。
+            ドキュメント重視（PR/FAQやナラティブ文化）で、口頭プレゼンより文章で論点を整理する文化が知られています。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>サーバーレス／マネージドサービス（Lambda・DynamoDB・ECS等）を前提とした設計</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>運用・可用性・コストまで自チームで責任を持つオペレーション文化</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS</Link>・<Link href="/skill/java/" className="text-blue-600 hover:underline">Java</Link>・<Link href="/skill/python/" className="text-blue-600 hover:underline">Python</Link>の実務経験が評価されやすい</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>文章で設計判断を残す文化のため、ドキュメンテーション力が活きる</li>
+          </ul>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">ポジション別年収レンジ</h2>
+        {/* 年収 */}
+        <section id="salary" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（出典付き）</h2>
+          <p className="text-slate-700 text-sm leading-relaxed mb-4">
+            アマゾンジャパン／AWSジャパンは<strong>有価証券報告書を公表しておらず、公式の平均年収はありません</strong>。
+            以下は報酬集計サイトの数値で、<strong>ユーザー投稿ベースで変動が大きい</strong>点に留意してください。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-700 mb-5">
+            <li>
+              ・<strong>levels.fyi（2026年6月時点・日本拠点ソフトウェアエンジニア集計）</strong>：L4 約$90K台、L5 約$116K前後、L6 約$167K前後の総報酬（基本給＋RSU＋ボーナス換算）。
+            </li>
+            <li>
+              ・<strong>RSUの特徴</strong>：Amazonの株式付与は1年目5%／2年目15%／3年目40%／4年目40%の<strong>バックロード型</strong>。初年度は基本給＋サインオンボーナス中心になりやすく、年次が進むほど総報酬が伸びる構造です。
+            </li>
+          </ul>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-slate-100">
-                  <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">ポジション</th>
-                  <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">レベル</th>
-                  <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">年収レンジ（総報酬）</th>
+                  <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">レベル（参考）</th>
+                  <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">総報酬の目安</th>
                 </tr>
               </thead>
               <tbody>
-                {[
-                  ["SDE I（ジュニア）", "L4", "800〜1,100万円"],
-                  ["SDE II（ミドル）", "L5", "1,100〜1,500万円"],
-                  ["SDE III（シニア）", "L6", "1,500〜2,000万円"],
-                  ["プリンシパルエンジニア", "L7", "2,000〜2,800万円"],
-                  ["エンジニアリングマネージャー", "L6+", "1,800〜2,500万円"],
-                ].map(([pos, level, range], i) => (
+                {salaryRows.map(([level, range], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{pos}</td>
                     <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{level}</td>
                     <td className="px-4 py-3 text-slate-600 border-b border-slate-200 font-medium">{range}</td>
                   </tr>
@@ -160,15 +265,114 @@ export default function AmazonCompanyPage() {
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-slate-400 mt-2">
+            出典：levels.fyi（2026年6月時点・ユーザー投稿集計）。円換算は概算で為替・株価で変動します。等級の呼称・境界は目安です。
+          </p>
+          <p className="text-slate-600 text-sm mt-4">
+            年収の考え方は
+            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のやり方</Link>
+            、外資の総報酬構造は
+            <Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">オファー比較の考え方</Link>
+            も参考にしてください。
+          </p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Amazon Japan転職におすすめのエージェント</h2>
+        {/* 選考フロー */}
+        <section id="flow" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式採用案内ベース）</h2>
+          <ol className="space-y-3 text-sm text-slate-700">
+            {[
+              ["書類選考", "職務経歴をもとに選考。ポジションによりOnline Assessmentが課されることがあります。"],
+              ["1次面接（Phone Screen）", "1人の面接官と45〜60分。技術とOLPの両面を確認します。"],
+              ["ループ面接", "複数の面接官と各60分ずつ実施。コーディング／設計とOLPベースの行動面接の組み合わせ。Bar Raiserが加わります。"],
+              ["内定", "条件提示。応募から内定まで1〜1.5か月程度かかる方が多いと公式に記載。現在はほぼオンライン実施。"],
+            ].map(([title, desc], i) => (
+              <li key={i} className="flex gap-3">
+                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
+                <div>
+                  <p className="font-bold text-slate-800">{title}</p>
+                  <p className="text-slate-600">{desc}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+          <p className="text-xs text-slate-400 mt-3">出典：AWS「採用プロセスのサポート」（公式）。ポジションにより内容は異なります。</p>
+        </section>
+
+        {/* 面接で重視される点 */}
+        <section id="interview" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（OLP）</h2>
+          <p className="text-slate-700 text-sm leading-relaxed mb-3">
+            具体的な質問リストは公式には公開されていません。ここでは公式のOLPと、一般に知られている準備の方向性に留めて整理します。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>Customer Obsession</strong>：顧客起点で考え行動した経験</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>Ownership</strong>：担当範囲を超えて主体的に動いた経験</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>Dive Deep / Earn Trust</strong>：データで深掘りし、信頼を築いた経験</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>各エピソードを<strong>STAR形式（状況・課題・行動・結果）</strong>で語れること（<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">準備ガイド</Link>）</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術面はコーディング／<Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システムデザイン</Link>の基礎</li>
+          </ul>
+        </section>
+
+        {/* 口コミ */}
+        <section id="review" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミサイトでの評判傾向</h2>
+          <p className="text-slate-700 text-sm leading-relaxed mb-3">
+            OpenWork（アマゾンジャパン／AWSジャパン）の社員クチコミ集計では、次の傾向が見られます（出典に基づく傾向要約です）。
+          </p>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
+              <h3 className="font-bold text-emerald-800 text-sm mb-2">良い評判の傾向</h3>
+              <ul className="space-y-1 text-sm text-emerald-900">
+                <li>・有給消化率が高く福利厚生がしっかりという声</li>
+                <li>・優秀な同僚と成長機会が多いという声</li>
+                <li>・残業を強制されにくい部署もあるという声</li>
+              </ul>
+            </div>
+            <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
+              <h3 className="font-bold text-amber-800 text-sm mb-2">気になる点の傾向</h3>
+              <ul className="space-y-1 text-sm text-amber-900">
+                <li>・職種・部署で負荷の差が大きいとの指摘</li>
+                <li>・成果・目標（クォータ等）へのプレッシャー</li>
+                <li>・タスク管理次第で繁忙度が変わるという声</li>
+              </ul>
+            </div>
+          </div>
+          <p className="text-xs text-slate-400 mt-2">出典：OpenWork アマゾンジャパン合同会社／AWSジャパン合同会社（社員クチコミ集計・2026年6月時点参照）。</p>
+        </section>
+
+        {/* 30-40代視点 */}
+        <section id="midage" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たAmazon／AWS</h2>
+          <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
+            <p>
+              Amazonは<strong>OLPベースの行動面接の比重が大きい</strong>ため、30代・40代の「実務で何をどう判断し、やり切ったか」という蓄積がそのまま武器になりやすい企業です。
+              GAFAの中では、純粋なアルゴリズム偏重というより「実績＋オーナーシップ」を語れる人にチャンスがあります。
+            </p>
+            <p>
+              一方で、エピソードが抽象的だとOLP面接で評価されにくいのが落とし穴です。応募前に過去の主要プロジェクトを5〜8本、STAR形式で棚卸ししておくと安定します。
+              AWS経験がある場合は、設計・運用・コスト最適化まで一気通貫で語れると強いです。
+            </p>
+            <p>
+              準備は
+              <Link href="/career/domestic-to-foreign/" className="text-blue-600 hover:underline">国内企業から外資系への転職</Link>
+              、クラウド領域の伸ばし方は
+              <Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSスキルの転職市場</Link>
+              、英語面は
+              <Link href="/purpose/english/" className="text-blue-600 hover:underline">英語を使う仕事への転職</Link>
+              を参考にしてください。
+            </p>
+          </div>
+        </section>
+
+        {/* エージェント */}
+        <section id="agents" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Amazon／AWS転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で外資系企業のエンジニア求人に強い。LP面接対策もサポート。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "Amazon案件を扱うヘッドハンターが多数。ダイレクトスカウトで効率的。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web業界特化。Amazon Japanの非公開求人を保有している場合も。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。外資ITを扱うヘッドハンターと接点を作りやすい。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。技術職の選考対策・キャリアの棚卸しに強い。" },
+              { name: "Geekly（ギークリー）", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが速く、選択肢を素早く広げたい人向け。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
@@ -178,7 +382,8 @@ export default function AmazonCompanyPage() {
           </div>
         </section>
 
-        <section className="mb-10">
+        {/* FAQ */}
+        <section id="faq" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
@@ -193,27 +398,38 @@ export default function AmazonCompanyPage() {
           </div>
         </section>
 
-        <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">Amazon Japanへの転職を相談する</h2>
+        {/* CTA */}
+        <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-12 text-center">
+          <h2 className="text-xl font-bold mb-3">外資IT転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            外資IT企業への転職に強いエージェントに無料相談してみませんか？
+            OLP面接対策と非公開求人の把握から始めたい方は、ハイクラス・IT特化エージェントへの無料相談が出発点です。
           </p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link
+            href="/review/bizreach-it/"
+            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+          >
             おすすめエージェントを見る
           </Link>
         </section>
 
-        <section>
-          <h2 className="text-lg font-bold text-slate-800 mb-4">関連企業ガイド</h2>
+        {/* 関連記事 */}
+        <section id="related" className="scroll-mt-20">
+          <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { name: "Google Japan", href: "/company/google/" },
-              { name: "Microsoft Japan", href: "/company/microsoft/" },
-              { name: "Meta Japan", href: "/company/meta/" },
-              { name: "Apple Japan", href: "/company/apple/" },
+              { name: "行動面接（STAR法）の準備", href: "/knowledge/behavioral/" },
+              { name: "コーディングテスト対策", href: "/knowledge/coding-test/" },
+              { name: "AWSスキルの転職市場", href: "/skill/aws/" },
+              { name: "国内企業から外資系への転職", href: "/career/domestic-to-foreign/" },
+              { name: "Google Japan 転職ガイド", href: "/company/google/" },
+              { name: "Microsoft Japan 転職ガイド", href: "/company/microsoft/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
-                {item.name} の転職ガイド →
+              <Link
+                key={i}
+                href={item.href}
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+              >
+                {item.name} →
               </Link>
             ))}
           </div>

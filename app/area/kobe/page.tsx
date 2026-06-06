@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "神戸のIT転職事情【2026年】医療×IT・神戸デジタル・年収相場 | ミドルエンジニア転職ラボ",
+  title: "神戸のIT転職事情【2026年】医療×IT・神戸デジタル・年収相場",
   description:
     "神戸のIT・Webエンジニア転職市場を徹底解説。医療×IT、神戸デジタル構想、三宮・ポートアイランドのエリア別求人特徴、年収相場、おすすめエージェントを30代・40代向けに紹介します。",
 };

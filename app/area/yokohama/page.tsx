@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "横浜のIT転職事情【2026年】みなとみらい・自動車DX・年収相場 | ミドルエンジニア転職ラボ",
+  title: "横浜のIT転職事情【2026年】みなとみらい・自動車DX・年収相場",
   description:
     "横浜のIT・Webエンジニア転職市場を徹底解説。みなとみらい・新横浜・関内のエリア別求人特徴、自動車系DX需要、平均年収、リモートワーク事情、おすすめエージェントを30代・40代向けに紹介します。",
 };

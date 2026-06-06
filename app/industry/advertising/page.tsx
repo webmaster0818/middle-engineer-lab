@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "広告業界からAdTech転職【エンジニアガイド】| ミドルエンジニア転職ラボ",
+  title: "広告業界からAdTech転職【エンジニアガイド】",
   description:
     "広告業界エンジニアからAdTech領域への転職方法を徹底解説。広告の知識が活きるIT職種、年収アップの戦略、おすすめ転職エージェントを紹介します。",
 };
@@ -49,7 +49,7 @@ export default function AdvertisingPage() {
 
   return (
     <>
-      <ArticleJsonLd title="広告業界からAdTech転職【エンジニアガイド】| ミドルエンジニア転職ラボ" description="広告業界エンジニアからAdTech領域への転職方法を徹底解説。広告の知識が活きるIT職種、年収アップの戦略、おすすめ転職エージェントを紹介します。" url="/industry/advertising/" />
+      <ArticleJsonLd title="広告業界からAdTech転職【エンジニアガイド】" description="広告業界エンジニアからAdTech領域への転職方法を徹底解説。広告の知識が活きるIT職種、年収アップの戦略、おすすめ転職エージェントを紹介します。" url="/industry/advertising/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "業界別ガイド" }, { name: "広告業界からAdTech転職" }]} />
 

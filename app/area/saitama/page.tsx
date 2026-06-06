@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "埼玉のIT転職事情【2026年】大宮・ベッドタウン×リモート | ミドルエンジニア転職ラボ",
+  title: "埼玉のIT転職事情【2026年】大宮・ベッドタウン×リモート",
   description:
     "埼玉のIT・Webエンジニア転職市場を徹底解説。大宮・さいたま新都心・川越のエリア別求人特徴、ベッドタウン×リモートの働き方、平均年収、おすすめエージェントを30代・40代向けに紹介します。",
 };

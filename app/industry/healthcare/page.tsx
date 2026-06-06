@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "医療・製薬業界からヘルステック転職【IT転職ガイド】| ミドルエンジニア転職ラボ",
+  title: "医療・製薬業界からヘルステック転職【IT転職ガイド】",
   description:
     "医療系SE・製薬業界エンジニアからヘルステック・医療AI・遠隔医療領域への転職方法を徹底解説。医療業界の知識が活きるIT職種と転職戦略を紹介します。",
 };
@@ -50,7 +50,7 @@ export default function HealthcarePage() {
   return (
     <>
       <ArticleJsonLd
-        title="医療・製薬業界からヘルステック転職【IT転職ガイド】| ミドルエンジニア転職ラボ"
+        title="医療・製薬業界からヘルステック転職【IT転職ガイド】"
         description="医療系SE・製薬業界エンジニアからヘルステック・医療AI・遠隔医療領域への転職方法を徹底解説。医療業界の知識が活きるIT職種と転職戦略を紹介します。"
         url="/industry/healthcare/"
       />

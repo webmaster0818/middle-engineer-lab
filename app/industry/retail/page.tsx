@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "小売・流通業界からECテック転職【DXエンジニアガイド】| ミドルエンジニア転職ラボ",
+  title: "小売・流通業界からECテック転職【DXエンジニアガイド】",
   description:
     "小売・流通業界エンジニアからECテック・リテールテック・OMO領域への転職方法を徹底解説。小売業界の知識が活きるIT職種と転職戦略を紹介します。",
 };
@@ -50,7 +50,7 @@ export default function RetailPage() {
   return (
     <>
       <ArticleJsonLd
-        title="小売・流通業界からECテック転職【DXエンジニアガイド】| ミドルエンジニア転職ラボ"
+        title="小売・流通業界からECテック転職【DXエンジニアガイド】"
         description="小売・流通業界エンジニアからECテック・リテールテック・OMO領域への転職方法を徹底解説。小売業界の知識が活きるIT職種と転職戦略を紹介します。"
         url="/industry/retail/"
       />

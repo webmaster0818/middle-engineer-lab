@@ -2,191 +2,210 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
+import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "ソニーグループ エンジニア転職ガイド | 年収・技術スタック・面接対策【2026年版】",
+  title: "ソニーグループへのエンジニア転職｜年収・技術・選考フロー【2026年版】",
   description:
-    "ソニーグループへのエンジニア転職を徹底解説。年収800〜1300万円、PlayStation・半導体・AI・音楽など多彩な技術領域を現場目線でまとめました。",
+    "ソニーグループのエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説。提出会社平均年収1,118万円(2025年3月期)、ジョブ型人事、半導体・PlayStationの技術領域を中立にまとめました。",
 };
 
+const toc = [
+  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
+  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "feature", label: "エンジニア採用の特徴" },
+  { id: "stack", label: "技術スタック（公開情報）" },
+  { id: "salary", label: "年収データ" },
+  { id: "flow", label: "選考フロー" },
+  { id: "interview", label: "面接で重視される点" },
+  { id: "review", label: "社員口コミの傾向" },
+  { id: "middle", label: "30代・40代から見たソニー" },
+  { id: "agent", label: "おすすめエージェント3社" },
+  { id: "faq", label: "よくある質問" },
+  { id: "related", label: "関連記事" },
+];
+
+const basicData: [string, string][] = [
+  ["企業名", "ソニーグループ株式会社（証券コード6758・東証プライム）"],
+  ["業種", "エレクトロニクス・ゲーム・半導体・エンタテインメント（持株会社）"],
+  ["平均年収", "1,118万円（2025年3月期・提出会社＝持株会社単体／全従業員平均・賞与含む）"],
+  ["平均年齢", "42.5歳（2025年3月期・提出会社単体）"],
+  ["従業員数", "2,445名（2025年3月期・提出会社単体）／連結 約11万名"],
+  ["本社所在地", "東京都港区"],
+  ["人事制度", "ジョブグレード制（社員等級。I5までが一般社員層との社員言及あり）"],
+  ["技術スタック", "C++ / Python / TypeScript / Verilog-HDL・SystemC（半導体）/ AWS・Azure 等（事業会社により異なる）"],
+];
+
+const salaryRows: [string, string][] = [
+  ["平均年収（提出会社単体・全従業員）", "1,118万円"],
+  ["平均年齢", "42.5歳"],
+  ["対象", "ソニーグループ株式会社（持株会社）単体の従業員"],
+];
+
 const faqs = [
-  {
-    q: "ソニーグループのエンジニア採用プロセスは？",
-    a: "書類選考 → 適性検査 → 技術面接（2回）→ 最終面接の流れです。技術面接では専門分野に関する深い議論が行われ、実際のプロジェクト経験を詳しく聞かれます。",
-  },
-  {
-    q: "ソニーグループのエンジニア年収はどのくらい？",
-    a: "ジュニアで600〜800万円、ミドルで800〜1100万円、シニアで1100〜1400万円が目安です。ジョブグレード制で専門性に応じた評価がされます。",
-  },
-  {
-    q: "ソニーグループにはどんなエンジニアポジションがある？",
-    a: "PlayStation開発、半導体（イメージセンサー）設計、AI/ML研究、クラウドサービス、音楽・映画のデジタル技術など、非常に幅広いポジションがあります。",
-  },
-  {
-    q: "ソニーグループで英語力は必要？",
-    a: "グローバルプロジェクトでは英語が必要ですが、日本国内のプロジェクトでは日本語のみで問題ないポジションも多いです。ただし英語力があるとキャリアの幅が広がります。",
-  },
-  {
-    q: "ソニーグループの開発環境の特徴は？",
-    a: "研究開発（R&D）への投資が大きく、最先端技術の研究に携われます。ハードウェアとソフトウェアの両方を手がけるため、幅広い技術スキルが身につきます。",
-  },
-  {
-    q: "ソニーグループへの転職で有利な経験は？",
-    a: "組み込みシステム開発、画像処理、機械学習、ゲームエンジン開発、半導体設計のいずれかの経験が有利です。C/C++のスキルが特に重宝されます。",
-  },
+  { q: "ソニーグループはエンジニアの中途採用を行っている？", a: "はい。ソニーグループのキャリア採用ポータルや、ソニー株式会社・ソニーセミコンダクタソリューションズ・ソニーネットワークコミュニケーションズなど各事業会社の採用サイトで、経験者採用（キャリア採用）の募集が行われています。ソニーは持株会社制で多数の事業会社があるため、応募先・職種は会社ごとに分かれます。" },
+  { q: "ソニーグループの平均年収はいくら？", a: "2025年3月期の有価証券報告書によると、提出会社（ソニーグループ株式会社単体＝持株会社）の平均年間給与は1,118万円、平均年齢42.5歳です。これは持株会社の全従業員（エンジニア以外も含む）の平均で、PlayStationや半導体などの事業会社ごとの給与水準は別途異なります。" },
+  { q: "ソニーのエンジニア職の提示年収レンジは公開されている？", a: "ソニーは職種別・等級別の年収レンジを公式に開示していません。求人サイトでも常時公開されているわけではないため、当ガイドでは推測の数値表は掲載していません。基準値としては有価証券報告書の提出会社平均1,118万円が参考になりますが、これは持株会社単体の数値である点に注意が必要です。" },
+  { q: "ソニーのジョブ型人事制度とは？", a: "ソニーは専門性を重視するジョブグレード制（社員等級制度）を採用しています。OpenWork上の社員言及では「I5までが一般社員層」といった等級構造への言及が見られます。技術スペシャリストとマネジメントの双方のキャリアパスがあるとされますが、等級ごとの具体的な給与レンジは公式開示されていません。" },
+  { q: "ソニーグループにはどんなエンジニア職がある？", a: "PlayStation関連（ソニー・インタラクティブエンタテインメント）、CMOSイメージセンサー等の半導体設計（ソニーセミコンダクタソリューションズ）、ネットワーク・クラウドサービス、AV機器・カメラ・スマートフォンの製品開発など、ハードからソフト・クラウドまで幅広い領域があります。応募は各事業会社単位です。" },
+  { q: "ソニーの半導体部門で使われる技術は？", a: "ソニーセミコンダクタソリューションズの採用情報では、CMOSイメージセンサーやシステムLSIのアナログ／デジタル回路設計、FPGA設計・実装に、Verilog-HDLやSystemCなどの開発言語が用いられると記載されています。電気電子・情報・物理・材料などの専攻知識が活きる職種が多いとされています。" },
+  { q: "ソニーで英語力は必要？", a: "グローバル展開のプロジェクトや海外拠点との連携がある職種では英語が求められます。一方、国内中心のプロジェクトでは日本語主体のポジションもあります。必要な語学要件は各事業会社・各募集要項で異なるため、応募時に確認が必要です。" },
+  { q: "ソニーグループへの転職で有利な経験は？", a: "募集会社により異なりますが、組み込み・画像処理・信号処理、半導体回路設計（Verilog-HDL/SystemC）、機械学習、クラウド／Web開発、ゲームプラットフォーム開発などの専門経験が評価されやすい傾向があります。担当領域での深い専門性が中途採用では重視されます。" },
 ];
 
 export default function SonyCompanyPage() {
-  const faqJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.q,
-      acceptedAnswer: { "@type": "Answer", text: faq.a },
-    })),
-  };
+  const faqJsonLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((faq) => ({ "@type": "Question", name: faq.q, acceptedAnswer: { "@type": "Answer", text: faq.a } })) };
 
   return (
     <>
-      <ArticleJsonLd title="ソニーグループ エンジニア転職ガイド" description="ソニーグループへのエンジニア転職を徹底解説。年収800〜1300万円、PlayStation・半導体・AI・音楽など多彩な技術領域を現場目線でまとめました。" url="/company/sony/" />
+      <ArticleJsonLd title="ソニーグループ エンジニア転職ガイド" description="ソニーグループへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説。提出会社平均年収1,118万円(2025年3月期)、ジョブ型人事、半導体・PlayStationの技術領域をまとめました。" url="/company/sony/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ソニーグループ" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ソニーグループ エンジニア転職ガイド【2026年版】</h1>
-        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | PlayStation・半導体・AIの総合テクノロジー企業</p>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ソニーグループへのエンジニア転職ガイド【2026年版】</h1>
+        <p className="text-slate-600 text-sm leading-relaxed mb-2">
+          ソニーグループ株式会社（持株会社）と主要事業会社へのエンジニア中途採用について、有価証券報告書と公式採用ページの一次情報をもとに、転職難易度・年収・技術スタック・選考フローを中立にまとめました。PlayStation、世界シェア上位のイメージセンサー、AV・クラウドなど、ハードからソフトまで幅広い技術領域を持つ点が最大の特徴です。
+        </p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
-        <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-10">
-          <table className="w-full text-sm">
-            <tbody>
-              {[
-                ["企業名", "ソニーグループ株式会社"],
-                ["業種", "エレクトロニクス・エンタテインメント・半導体"],
-                ["従業員数", "約113,000名（連結）"],
-                ["平均年収", "800〜1,300万円（エンジニア職）"],
-                ["本社所在地", "東京都港区"],
-                ["技術スタック", "C++ / Python / Rust / Unity / AWS / TensorFlow"],
-              ].map(([label, value], i) => (
-                <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                  <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200">{label}</th>
-                  <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <DataNote surveyedAt="2026年6月" sources={["ソニーグループ 有価証券報告書（2025年3月期）", "ソニー各社 公式採用サイト", "日本経済新聞 会社情報", "OpenWork（口コミ傾向）"]} />
 
-        <section className="mb-10">
+        <section id="conclusion" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+            <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（専門特化・事業会社別の経験者採用）</p>
+            <ul className="space-y-2 text-sm text-blue-900">
+              <li>・半導体・PlayStation・クラウドなど<strong>領域ごとに事業会社が分かれる</strong>ため、自分の専門に合う応募先選びが起点。組み込み・画像処理・回路設計・機械学習などの専門家に向く。</li>
+              <li>・<strong>ジョブグレード制</strong>で専門性が評価される一方、等級別の給与レンジは非公開。提出会社（持株会社）平均は<strong>1,118万円（2025年3月期・有報）</strong>。</li>
+              <li>・選考は書類→専門面接が中心で、担当領域の<strong>深い技術的議論</strong>が問われやすい。</li>
+            </ul>
+            <p className="text-xs text-blue-800 mt-3">「ソニー」と一括りにせず、PlayStation（SIE）／半導体（SSS）など、どの事業会社の何の職種かを明確にして臨むことが重要です。</p>
+          </div>
+        </section>
+
+        <nav aria-label="目次" className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
+          <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+          </ol>
+        </nav>
+
+        <section id="basic" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
+            <table className="w-full text-sm"><tbody>
+              {basicData.map(([label, value], i) => (<tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}><th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">{label}</th><td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td></tr>))}
+            </tbody></table>
+          </div>
+          <p className="text-xs text-slate-500">出典：ソニーグループ「有価証券報告書」2025年3月期（提出会社＝ソニーグループ株式会社＝持株会社単体の従業員データ）、日本経済新聞 会社情報、各事業会社の採用サイト。<strong>提出会社は持株会社のため、平均年収はPlayStationや半導体などの事業会社の実態を直接表すものではありません。</strong></p>
+        </section>
+
+        <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">世界をリードする技術研究開発</h3>
-              <p className="text-sm text-blue-700">イメージセンサー世界シェアNo.1、PlayStation、AIロボティクスなど、世界をリードする技術の研究開発に携われます。R&D投資は年間1兆円規模で、最先端技術への投資が惜しみなく行われます。</p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">ジョブ型人事でスペシャリスト重視</h3>
-              <p className="text-sm text-blue-700">2022年からジョブ型人事制度を導入し、専門性の高いエンジニアが正当に評価される仕組みに。技術スペシャリストとマネジメントの2つのキャリアパスが明確に整備されています。</p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">ハードウェア×ソフトウェアの融合</h3>
-              <p className="text-sm text-blue-700">半導体からOS、アプリケーション、クラウドまでフルスタックで手がける数少ない日本企業。ハードとソフトの両方を理解するエンジニアが特に重宝されます。</p>
-            </div>
+            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">持株会社制で事業会社ごとに採用</h3><p className="text-sm text-blue-700">ソニーグループは持株会社制をとり、PlayStation（ソニー・インタラクティブエンタテインメント）、半導体（ソニーセミコンダクタソリューションズ）、ネットワーク（ソニーネットワークコミュニケーションズ）など事業会社ごとに採用窓口・職種が分かれます。応募先の選定が最初のステップです。</p></div>
+            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ジョブグレード制でスペシャリストを評価</h3><p className="text-sm text-blue-700">専門性に応じたジョブグレード制を採用しています。OpenWorkの社員言及では「I5までが一般社員層」といった等級構造への言及が見られ、技術スペシャリストとマネジメントの双方のキャリアパスがあるとされます。等級別の具体的給与は非公開です。</p></div>
+            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ハードからソフト・クラウドまでの広さ</h3><p className="text-sm text-blue-700">CMOSイメージセンサーなどの半導体から、ゲームプラットフォーム、AV機器、クラウドサービスまで、ハードとソフトを横断する技術領域を持つ点が特徴です。自分の専門が活きる領域を選びやすい反面、領域ごとに求められるスキルセットは大きく異なります。</p></div>
           </div>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求められるスキル・経験</h2>
+        <section id="stack" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック（公式採用ページの公開情報）</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-4">事業会社により技術スタックは大きく異なります。以下は各社の採用情報で公開されている範囲の例です。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>C++ / Python / Rust いずれかの実務経験3年以上</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>組み込みシステム・画像処理・信号処理の知識</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>機械学習・ディープラーニングの実装経験</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>コンピュータサイエンスの学位（修士以上推奨）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>英語でのコミュニケーション力（グローバルプロジェクト）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>論文投稿や特許出願の実績（研究職の場合）</li>
+              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>半導体（ソニーセミコンダクタソリューションズ）</strong>：Verilog-HDL・SystemCによる回路設計、FPGA設計・実装。デバイス／光学シミュレーション</span></li>
+              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>製造・オペレーション系（GMO等）</strong>：C#・ASP.NET・TypeScript・Azure・AWS など</span></li>
+              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>共通的に</strong>：C++（組み込み・製品ソフト）、Python（AI・データ）、各種クラウド（AWS／Azure）</span></li>
             </ul>
           </div>
+          <p className="text-xs text-slate-500 mt-2">出典：ソニーセミコンダクタソリューションズ採用サイト、ソニーグローバルマニュファクチャリング＆オペレーションズ募集職種、ソニー株式会社 採用情報。職種・部署により使用技術は異なります。</p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">ポジション別年収レンジ</h2>
-          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+        <section id="salary" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ</h2>
+          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
-              <thead><tr className="bg-slate-100">
-                <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">ポジション</th>
-                <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">グレード</th>
-                <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">年収レンジ</th>
-              </tr></thead>
-              <tbody>
-                {[
-                  ["ジュニアエンジニア", "I5-I6", "550〜800万円"],
-                  ["ミドルエンジニア", "I7", "800〜1,100万円"],
-                  ["シニアエンジニア", "I8", "1,100〜1,400万円"],
-                  ["プリンシパルエンジニア", "I9+", "1,400〜1,800万円"],
-                  ["エンジニアリングマネージャー", "M1+", "1,200〜1,600万円"],
-                ].map(([pos, level, range], i) => (
-                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{pos}</td>
-                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{level}</td>
-                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200 font-medium">{range}</td>
-                  </tr>
-                ))}
-              </tbody>
+              <thead><tr className="bg-slate-100"><th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">項目</th><th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">数値（2025年3月期・提出会社単体）</th></tr></thead>
+              <tbody>{salaryRows.map(([k, v], i) => (<tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}><td className="px-4 py-3 text-slate-600 border-b border-slate-200">{k}</td><td className="px-4 py-3 text-slate-700 border-b border-slate-200 font-medium">{v}</td></tr>))}</tbody>
             </table>
           </div>
+          <p className="text-sm text-slate-600 leading-relaxed mb-2">
+            上表はソニーグループの<strong>有価証券報告書（2025年3月期）</strong>に記載された提出会社（ソニーグループ株式会社＝持株会社）単体の数値です。<strong>これは持株会社のコーポレート機能を中心とした全従業員の平均</strong>であり、PlayStationや半導体といった事業会社の現場エンジニアの年収を直接表すものではありません。職種別・等級別の年収は公式に開示されていないため、当ガイドでは出典のない等級別年収表は掲載していません。
+          </p>
+          <p className="text-xs text-slate-500">出典：ソニーグループ「有価証券報告書」2025年3月期、日本経済新聞 会社情報。エンジニア職の提示年収レンジは継続的に確認できる公式・求人公開値がないため記載を控えています。</p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">ソニーグループ転職におすすめのエージェント</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <section id="flow" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式採用ページベース）</h2>
+          <ol className="space-y-3">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "大手メーカーのエンジニア求人も充実。ソニーグループの非公開求人を保有。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス求人に特化。ソニーグループのスカウトが届くことも。" },
-              { name: "doda(IT)", href: "/review/doda-it/", desc: "大手メーカーの求人が豊富。ソニーグループの各事業会社の求人を網羅。" },
-            ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
-                <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
-                <p className="text-xs text-slate-500">{agent.desc}</p>
-              </Link>
+              ["STEP 1", "応募（事業会社別）", "ソニーグループ キャリア採用ポータル、または各事業会社の採用サイトの募集要項から応募。"],
+              ["STEP 2", "書類選考", "職務経歴書・スキルシートで専門領域とのマッチを確認。"],
+              ["STEP 3", "面接（複数回）", "技術面接で担当領域の専門的議論。実プロジェクト経験を深掘りされる傾向。"],
+              ["STEP 4", "内定", "ジョブグレードに基づく処遇提示。"],
+            ].map(([step, title, desc], i) => (
+              <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
+                <span className="shrink-0 text-xs font-bold text-blue-700 bg-blue-50 rounded px-2 py-1 h-fit">{step}</span>
+                <div><p className="font-bold text-slate-800 text-sm mb-1">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
+              </li>
             ))}
+          </ol>
+          <p className="text-xs text-slate-500 mt-2">出典：ソニーグループ キャリア採用ポータル、各事業会社の採用サイト。具体的な回数・内容は事業会社・職種により異なります。</p>
+        </section>
+
+        <section id="interview" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・口コミ傾向ベース）</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。公開情報と口コミ傾向から、評価されやすいと考えられる観点を一般化して挙げます。</p>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>応募する事業会社・職種の領域（半導体／ゲーム／クラウド等）での専門的な深さ</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>実プロジェクトでの役割・技術的意思決定の具体性（深掘りされやすい）</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>自律的にキャリアを切り拓く姿勢（口コミでも自由裁量を重視する文化との言及）</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>グローバル職種では英語でのコミュニケーション力</li>
+          </ul>
+        </section>
+
+        <section id="review" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">社員口コミの傾向</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-3">
+            OpenWork等の口コミプラットフォームでは、ソニーグループについて<strong>「自由な社風」「やりたいことを形にする文化」「若いうちから幅広い仕事を任せてもらえる」</strong>といった肯定的な声が見られます。一方で<strong>「キャリアは自分で切り拓くもの、という考え方が強く、受け身では伸びにくい」</strong>という趣旨の指摘もあり、自律的なキャリア形成が前提になる傾向がうかがえます。給与制度としてはジョブグレード制への言及が多く見られます。
+          </p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価は事業会社・部署・職種により大きく異なります。</p>
+        </section>
+
+        <section id="middle" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たソニー</h2>
+          <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
+            <p>提出会社単体の<strong>平均年齢は42.5歳</strong>（2025年3月期・有報）で、持株会社は比較的シニアな年齢構成です。事業会社では領域により年齢構成は異なりますが、専門性を軸にしたジョブ型評価のため、30代・40代でも<strong>担当領域の深い専門性があれば中途で評価されやすい</strong>環境といえます。</p>
+            <p>半導体回路設計、画像処理・信号処理、組み込み、機械学習、ゲームプラットフォームなど、長年積み上げた専門性が直接活きるのがソニーの強みです。一方で「どの事業会社か」によって働き方・技術・処遇が大きく変わるため、ミドル層は応募前に事業会社単位で実態を見極めることが重要です。年収面では、提出会社平均1,118万円はあくまで持株会社の数値である点を踏まえ、内定時の処遇を個別に確認しましょう。</p>
+            <p>ハイクラス・専門職の転職では、スカウト型サービスの活用も有効です。<Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトの活用法</Link>や<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>
-          <div className="space-y-3">
-            {faqs.map((faq, i) => (
-              <details key={i} className="group border border-slate-200 rounded-lg overflow-hidden">
-                <summary className="flex items-center justify-between cursor-pointer px-5 py-3 bg-slate-50 hover:bg-slate-100 transition-colors font-medium text-sm text-slate-800">
-                  <span>Q. {faq.q}</span>
-                  <span className="ml-4 text-slate-400 group-open:rotate-180 transition-transform">&#9662;</span>
-                </summary>
-                <div className="px-5 py-3 text-sm text-slate-600 leading-relaxed">A. {faq.a}</div>
-              </details>
-            ))}
+        <section id="agent" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ソニーグループ転職におすすめのエージェント3社</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[{ name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。大手メーカーの専門職スカウトが届くことも。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人比率が高い。技術面接対策のサポートあり。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数で大手メーカー・事業会社の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
+          <p className="text-xs text-slate-500 mt-3">求人保有状況は時期により変動します。<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向け比較</Link>もあわせて参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ソニーグループへの転職を相談する</h2>
-          <p className="text-blue-100 text-sm mb-4">大手メーカーへの転職に強いエージェントに無料相談してみませんか？</p>
+          <p className="text-blue-100 text-sm mb-4">大手メーカー・ハイクラスに強いエージェントに無料相談してみませんか？</p>
           <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
         </section>
 
-        <section>
-          <h2 className="text-lg font-bold text-slate-800 mb-4">関連企業ガイド</h2>
+        <section id="faq" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>
+          <div className="space-y-3">{faqs.map((faq, i) => (<details key={i} className="group border border-slate-200 rounded-lg overflow-hidden"><summary className="flex items-center justify-between cursor-pointer px-5 py-3 bg-slate-50 hover:bg-slate-100 transition-colors font-medium text-sm text-slate-800"><span>Q. {faq.q}</span><span className="ml-4 text-slate-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-5 py-3 text-sm text-slate-600 leading-relaxed">A. {faq.a}</div></details>))}</div>
+        </section>
+
+        <section id="related">
+          <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[
-              { name: "トヨタ自動車", href: "/company/toyota/" },
-              { name: "パナソニック", href: "/company/panasonic/" },
-              { name: "日立製作所", href: "/company/hitachi/" },
-              { name: "任天堂", href: "/company/nintendo/" },
-            ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
-                {item.name} の転職ガイド →
-              </Link>
-            ))}
+            {[{ name: "任天堂の転職ガイド", href: "/company/nintendo/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "DeNAの転職ガイド", href: "/company/dena/" }, { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

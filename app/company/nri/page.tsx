@@ -2,37 +2,99 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
+import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "野村総合研究所(NRI) エンジニア転職ガイド | 年収・技術スタック・面接対策【2026年版】",
+  title: "野村総合研究所(NRI)エンジニア転職ガイド【2026年】年収・選考",
   description:
-    "野村総合研究所(NRI)へのエンジニア転職を徹底解説。年収800〜1400万円、金融系ITの最高峰、コンサル×テクノロジーの強みを現場目線でまとめました。",
+    "野村総合研究所(NRI)へのエンジニア転職を解説。有報の平均年収(2025年3月期)、コンサル×ITの採用特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の狙い目を出典付きでまとめました。",
 };
+
+const toc = [
+  { id: "conclusion", label: "結論：転職難易度とどんな人向きか" },
+  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "features", label: "エンジニア採用の特徴" },
+  { id: "tech", label: "技術スタック・領域" },
+  { id: "salary", label: "年収データ" },
+  { id: "flow", label: "選考フロー" },
+  { id: "interview", label: "面接で重視される点" },
+  { id: "review", label: "口コミ・評判の傾向" },
+  { id: "middle", label: "30代・40代の視点" },
+  { id: "agents", label: "おすすめエージェント" },
+  { id: "faq", label: "よくある質問" },
+  { id: "related", label: "関連記事" },
+];
+
+const basic: [string, string][] = [
+  ["企業名", "株式会社野村総合研究所（NRI）"],
+  ["業種", "ITソリューション・経営/システムコンサルティング"],
+  ["上場区分", "東証プライム上場（証券コード4307）"],
+  ["平均年収", "1,322万円（2025年3月期 有価証券報告書・全社員平均、平均年齢39.9歳）"],
+  ["従業員数", "連結 約1.7万名規模（公式IR）"],
+  ["本社所在地", "東京都千代田区"],
+  ["主要事業領域", "金融IT・証券IT・資産運用IT・産業IT・コンサルティング・IT基盤"],
+];
+
+const features = [
+  {
+    h: "コンサルティングとITソリューションの両輪",
+    p: "NRIは「ナビゲーション×ソリューション」を掲げ、経営/システムコンサルティングとシステム開発・運用を一社で完結させる体制が特徴です。上流の構想策定から実装・運用まで一気通貫で関わるため、要件定義より前の段階から事業に関与できます。",
+  },
+  {
+    h: "金融・証券ドメインの基幹システムが主戦場",
+    p: "公式の事業領域は金融ITソリューション・証券ITソリューション・資産運用ITソリューションが大きな柱。証券・銀行・運用会社のミッションクリティカルな基幹システムを多数手がけており、金融ドメインの知識が強く評価されます。",
+  },
+  {
+    h: "キャリア採用を通年で強化",
+    p: "NRIはキャリア採用サイト（career.nri.co.jp）を独立運営し、専門性を活かす中途人材を通年募集。リファラル（社員紹介）採用も通常選考と同じ基準で実施していることを公式に明記しています。",
+  },
+];
+
+const salaryRows: [string, string][] = [
+  ["全社員平均年収（2025年3月期）", "1,322万円（平均年齢39.9歳）"],
+  ["出典", "野村総合研究所 有価証券報告書（2025年3月期）に基づく公表値"],
+];
+
+const flow = [
+  "エントリー（公式キャリア採用サイト／エージェント経由）",
+  "書類選考",
+  "適性検査（Web。一般にSPI形式と案内される）",
+  "面接 複数回（部門により2〜3回。経歴・専門性・推進力を確認）",
+  "オファー面談（条件提示）→ 内定",
+];
 
 const faqs = [
   {
-    q: "NRIのエンジニア年収が高い理由は？",
-    a: "金融機関向けの高単価システム開発が主力事業で、1人あたり売上が業界トップクラス。利益率も高く、社員への還元が大きいことが高年収の理由です。",
+    q: "NRIのエンジニア転職の難易度は？",
+    a: "コンサル職に比べるとエンジニア職（ITソリューション部門）は門戸が比較的広いとする転職メディアの解説が複数あります。とはいえ東証プライム上場の高年収企業のため、大規模システムの設計・開発経験や金融ドメイン知識があると有利です。出典：talentsquare等の転職メディア解説。",
   },
   {
-    q: "NRIの面接プロセスは？",
-    a: "書類選考 → 適性検査（SPI）→ 面接（2〜3回）の流れです。論理的思考力、プロジェクト推進力、コミュニケーション能力が重視されます。",
+    q: "NRIの平均年収はいくら？",
+    a: "2025年3月期の有価証券報告書に基づく公表値で全社員平均1,322万円（平均年齢39.9歳）です。これは全社員平均であり、エンジニア職の個別年収レンジを示すものではありません。役職・等級で大きく幅があります。",
+  },
+  {
+    q: "選考フローはどうなっている？",
+    a: "公式採用情報・転職メディアによると、書類選考→Web適性検査（SPI形式）→面接複数回→オファー面談という流れが一般的です。部門によって面接回数やケース面接の有無が異なります。",
   },
   {
     q: "NRIのエンジニアとコンサルタントの違いは？",
-    a: "エンジニアはシステムの設計・開発・運用を担当、コンサルタントはIT戦略立案や業務改革を担当します。技術的な専門性を活かすならエンジニア職がおすすめです。",
+    a: "NRIはコンサルティング部門とITソリューション部門があり、エンジニア（システムエンジニア／ITスペシャリスト）はシステムの設計・開発・運用を担います。両者が同じプロジェクトで協働する文化が特徴です。",
   },
   {
-    q: "NRIの主な顧客は？",
-    a: "野村證券をはじめとする金融機関が主要顧客です。その他、流通・製造業・官公庁のシステムも手がけています。",
+    q: "技術スタックは？",
+    a: "金融・業務系の大規模開発が中心で、JavaやC#といったエンタープライズ言語、Oracle等のDB、AWS/Azureなどのクラウドが採用ページ・求人で示されています。詳細は応募ポジションごとに異なります。",
   },
   {
-    q: "NRIのワークライフバランスは？",
-    a: "プロジェクトの繁忙期は忙しくなりますが、近年は働き方改革が進んでいます。平均残業時間の削減やリモートワーク制度の導入が進んでいます。",
+    q: "残業やワークライフバランスは？",
+    a: "OpenWork等の口コミプラットフォームでは「残業は部署・プロジェクトによってばらつきが大きい」「待遇面の満足度は高い」という傾向の声が見られます。繁忙期は残業が増える部署もある一方、近年は抑制の流れという指摘もあります。",
   },
   {
-    q: "NRIへの転職で有利な経験は？",
-    a: "金融系システムの開発経験、大規模SIプロジェクトの経験、基盤設計・アーキテクチャ設計の経験が有利です。証券・銀行業務のドメイン知識も高く評価されます。",
+    q: "SIerからWeb系も視野に入れるべき？",
+    a: "NRIは大規模・高年収の安定路線が魅力ですが、モダンな自社開発志向ならWeb系も比較検討の価値があります。違いは「SIerからWeb系への転職」の解説をご覧ください。",
+  },
+  {
+    q: "どのエージェントを使うべき？",
+    a: "ハイクラスSIer求人を扱うビズリーチ、IT特化のレバテックキャリア、大手求人に強いdoda(IT)あたりを併用するのが現実的です。各レビューページも参考にしてください。",
   },
 ];
 
@@ -49,111 +111,190 @@ export default function NriCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="野村総合研究所(NRI) エンジニア転職ガイド" description="NRIへのエンジニア転職を徹底解説。年収800〜1400万円、金融系ITの最高峰を現場目線でまとめました。" url="/company/nri/" />
+      <ArticleJsonLd title="野村総合研究所(NRI) エンジニア転職ガイド" description="NRIへのエンジニア転職を解説。有報の平均年収(2025年3月期)、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/nri/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "野村総合研究所" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">野村総合研究所(NRI) エンジニア転職ガイド【2026年版】</h1>
-        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | 金融系IT最高峰・コンサル×テクノロジーの融合企業</p>
+        <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | 金融IT最高峰・コンサル×テクノロジーの融合企業</p>
+        <p className="text-slate-600 text-sm leading-relaxed mb-4">
+          野村総合研究所（NRI）は、経営/システムコンサルティングとITソリューションを一社で完結させる国内有数のIT企業です。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典付きで整理し、30代・40代エンジニアが転職を判断するための材料をまとめます。
+        </p>
+        <DataNote surveyedAt="2026年6月" sources={["野村総合研究所 有価証券報告書（2025年3月期）", "NRIキャリア採用サイト（career.nri.co.jp）", "OpenWork等の口コミプラットフォーム", "厚生労働省 job tag", "経済産業省 IT人材需給調査（2019年公表）"]} />
 
-        <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-10">
-          <table className="w-full text-sm">
-            <tbody>
-              {[
-                ["企業名", "株式会社野村総合研究所"],
-                ["業種", "ITコンサルティング・SIer"],
-                ["従業員数", "約16,000名（連結）"],
-                ["平均年収", "800〜1,400万円（エンジニア職）"],
-                ["本社所在地", "東京都千代田区"],
-                ["技術スタック", "Java / C# / Python / AWS / Azure / Oracle"],
-              ].map(([label, value], i) => (
-                <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                  <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200">{label}</th>
-                  <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <nav className="bg-slate-50 border border-slate-200 rounded-lg p-5 mb-10">
+          <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm">
+            {toc.map((t) => (
+              <li key={t.id}>
+                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+              </li>
+            ))}
+          </ol>
+        </nav>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
-          <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">業界トップクラスの高年収</h3>
-              <p className="text-sm text-blue-700">平均年収1,200万円超でSIer業界トップ。金融機関向け高付加価値システムの開発が収益の柱で、高い利益率が社員への報酬に反映されています。</p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">金融×テクノロジーの最前線</h3>
-              <p className="text-sm text-blue-700">証券・銀行・保険など金融機関の基幹システムを多数構築。ミッションクリティカルなシステムの設計・開発を通じて、高い技術力と金融ドメイン知識が身につきます。</p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">コンサルとエンジニアの協働</h3>
-              <p className="text-sm text-blue-700">ITコンサルタントとシステムエンジニアが一体となってプロジェクトを推進する文化。技術だけでなくビジネス視点も身につき、キャリアの幅が広がります。</p>
-            </div>
-          </div>
-        </section>
-
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求められるスキル・経験</h2>
-          <div className="border border-slate-200 rounded-lg p-5">
-            <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>Java / C# での大規模システム開発経験</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>金融系システムのドメイン知識（証券・銀行・保険）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>要件定義・基本設計などの上流工程経験</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>プロジェクトマネジメント経験</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>論理的思考力・コミュニケーション能力</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>クラウド（AWS / Azure）の活用経験（DX領域）</li>
+        <section id="conclusion" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんな人向きか</h2>
+          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+            <p className="text-slate-700 text-sm leading-relaxed mb-3">
+              <strong>結論：</strong>NRIは「金融ドメイン×大規模システム」で高い専門性と高年収（全社員平均1,322万円／2025年3月期 有報）を得たいエンジニアに向く企業です。コンサル職ほど狭き門ではなく、ITソリューション部門のエンジニア採用は通年で行われています。
+            </p>
+            <ul className="space-y-1.5 text-sm text-slate-600">
+              <li>・<strong>向いている人</strong>：金融・証券の基幹システム開発経験者、上流工程やPM経験者、安定した大手で専門性を深めたい人</li>
+              <li>・<strong>向いていない人</strong>：少人数で内製・モダンな技術スタックを高速に回したい人（その場合は<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWeb系への転職</Link>も検討）</li>
+              <li>・<strong>難易度の目安</strong>：転職メディアではエンジニア職は中程度の難易度との解説が見られます。</li>
             </ul>
           </div>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">ポジション別年収レンジ</h2>
+        <section id="basic" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
-              <thead><tr className="bg-slate-100">
-                <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">ポジション</th>
-                <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">等級</th>
-                <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">年収レンジ</th>
-              </tr></thead>
               <tbody>
-                {[
-                  ["ジュニアSE", "P1-P2", "600〜800万円"],
-                  ["ミドルSE", "P3", "800〜1,100万円"],
-                  ["シニアSE / PL", "P4", "1,100〜1,400万円"],
-                  ["プロジェクトマネージャー", "P5", "1,400〜1,700万円"],
-                  ["上級マネージャー", "M1+", "1,500〜2,000万円"],
-                ].map(([pos, level, range], i) => (
+                {basic.map(([label, value], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{pos}</td>
-                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{level}</td>
-                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200 font-medium">{range}</td>
+                    <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">{label}</th>
+                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-slate-400 mt-2">※平均年収は有価証券報告書（2025年3月期）に基づく全社員平均で、職種別の年収を示すものではありません。</p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">NRI転職におすすめのエージェント</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラスSIer求人に強い。NRI案件を扱うヘッドハンターが多数。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で金融系SIerの求人も充実。NRIの非公開求人を保有。" },
-              { name: "doda(IT)", href: "/review/doda-it/", desc: "大手SIerの求人が豊富。NRIの各事業部門の求人を網羅。" },
-            ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
-                <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
-                <p className="text-xs text-slate-500">{agent.desc}</p>
-              </Link>
+        <section id="features" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
+          <div className="space-y-4">
+            {features.map((f, i) => (
+              <div key={i} className="bg-blue-50 rounded-lg p-5">
+                <h3 className="font-bold text-blue-800 mb-2">{f.h}</h3>
+                <p className="text-sm text-blue-700 leading-relaxed">{f.p}</p>
+              </div>
             ))}
           </div>
         </section>
 
-        <section className="mb-10">
+        <section id="tech" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック・領域</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-4">
+            NRIのエンジニア職は金融・業務系の大規模開発が中心です。公式採用ページ・求人で示される技術要素は概ね以下の通りで、応募ポジションによって大きく異なります。
+          </p>
+          <div className="border border-slate-200 rounded-lg p-5">
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>エンタープライズ言語：Java / C# / C・C++（通信系・業務系）</li>
+              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>データベース：Oracle 等のリレーショナルDB</li>
+              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>クラウド：AWS / Azure（DX・基盤領域で活用）</li>
+              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>領域：金融IT・証券IT・資産運用IT・産業IT・IT基盤サービス</li>
+            </ul>
+          </div>
+          <p className="text-xs text-slate-400 mt-2">※具体的な使用技術は各求人票の記載が一次情報です。応募前に必ずご確認ください。</p>
+        </section>
+
+        <section id="salary" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ</h2>
+          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
+            <table className="w-full text-sm">
+              <tbody>
+                {salaryRows.map(([label, value], i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">{label}</th>
+                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-slate-600 leading-relaxed">
+            参考までに、IT職全体の市場水準としては、レバテックの2025年公表値で正社員SEの30代平均が約499万円、40代平均が約618万円とされています。NRIの全社員平均1,322万円はこれを大きく上回りますが、これは管理職・コンサル職を含む全社員平均である点に注意してください。エンジニア職の実際の提示年収は、求人票・オファー面談で確認するのが確実です。
+          </p>
+        </section>
+
+        <section id="flow" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー</h2>
+          <p className="text-sm text-slate-600 mb-4">公式キャリア採用情報・転職メディアの解説に基づく一般的な流れです（部門により異なります）。</p>
+          <ol className="space-y-3">
+            {flow.map((step, i) => (
+              <li key={i} className="flex items-start gap-3">
+                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                <span className="text-sm text-slate-700 pt-1">{step}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        <section id="interview" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-3">
+            公開情報・口コミの傾向から、面接では次のような点が確認されやすいと考えられます（断定ではなく傾向の整理です）。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>論理的思考力と、課題を構造化して説明できる力</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>大規模プロジェクトでの役割・推進経験の具体性</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>金融・証券などのドメイン知識やシステム経験</li>
+            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>顧客・チームとのコミュニケーション力</li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-2">※具体的な質問内容は時期・面接官・ポジションで変わります。実体験談の創作は行っていません。</p>
+        </section>
+
+        <section id="review" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ・評判の傾向</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-3">
+            OpenWork等の口コミプラットフォームでは、NRIについて次のような傾向の声が見られます（原文の転載ではなく傾向の要約です）。
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="border border-green-200 bg-green-50 rounded-lg p-5">
+              <h3 className="font-bold text-green-800 text-sm mb-2">良い傾向の声</h3>
+              <ul className="space-y-1.5 text-sm text-green-700">
+                <li>・待遇・給与水準の満足度が高いとする声</li>
+                <li>・専門性を深められる大規模案件が多い</li>
+                <li>・近年は残業抑制の流れがあるとの指摘</li>
+              </ul>
+            </div>
+            <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
+              <h3 className="font-bold text-amber-800 text-sm mb-2">気になる傾向の声</h3>
+              <ul className="space-y-1.5 text-sm text-amber-700">
+                <li>・残業時間は部署・プロジェクトでばらつきが大きい</li>
+                <li>・ワークライフバランスは案件次第という指摘</li>
+                <li>・評価制度が分かりにくいとの声</li>
+              </ul>
+            </div>
+          </div>
+          <p className="text-xs text-slate-400 mt-2">出典：OpenWork等の口コミプラットフォームに見られる傾向の要約。</p>
+        </section>
+
+        <section id="middle" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
+            <p>
+              30代・40代のミドルエンジニアにとってNRIは、これまでの大規模開発・上流工程・金融ドメインの経験を「市場価値の高い専門性」として評価してもらいやすい企業です。等級制度のもとで管理職・PM・スペシャリストといった複数のキャリアパスがあるため、マネジメントに寄せるか専門を深めるかを選びやすい点も30代・40代に向きます。
+            </p>
+            <p>
+              一方で、モダンな内製開発を高速に回したいタイプには、SIer特有のレイヤーの多さが合わない場合もあります。年収の絶対額（全社員平均1,322万円）は魅力ですが、これは全社員平均である点を踏まえ、オファー面談で自分の等級・提示額を必ず確認しましょう。年代別の年収相場は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収</Link>も参考になります。
+            </p>
+          </div>
+        </section>
+
+        <section id="agents" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">NRI転職におすすめのエージェント</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラスSIer・コンサル求人に強いスカウト型。NRI案件を扱うヘッドハンターが多い。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。金融系SIerやDX・クラウド系ポジションの提案に強み。" },
+              { name: "doda(IT)", href: "/review/doda-it/", desc: "国内最大級の求人数。大手SIerの各事業部門の求人を幅広く網羅。" },
+            ].map((agent, i) => (
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+                <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
+                <p className="text-xs text-slate-500 leading-relaxed">{agent.desc}</p>
+              </Link>
+            ))}
+          </div>
+          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数併用のコツ</Link>を参照。</p>
+        </section>
+
+        <section id="faq" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
@@ -174,17 +315,19 @@ export default function NriCompanyPage() {
           <Link href="/review/bizreach-it/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
         </section>
 
-        <section>
-          <h2 className="text-lg font-bold text-slate-800 mb-4">関連企業ガイド</h2>
+        <section id="related" className="scroll-mt-20">
+          <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { name: "アクセンチュア", href: "/company/accenture/" },
-              { name: "NTTデータ", href: "/company/ntt-data/" },
-              { name: "富士通", href: "/company/fujitsu/" },
-              { name: "日立製作所", href: "/company/hitachi/" },
+              { name: "アクセンチュア の転職ガイド", href: "/company/accenture/" },
+              { name: "NTTデータ の転職ガイド", href: "/company/ntt-data/" },
+              { name: "富士通 の転職ガイド", href: "/company/fujitsu/" },
+              { name: "日立製作所 の転職ガイド", href: "/company/hitachi/" },
+              { name: "SIerからWeb系への転職", href: "/industry/sier-to-web/" },
+              { name: "40代エンジニアの年収", href: "/knowledge/salary-40s/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
-                {item.name} の転職ガイド →
+                {item.name} →
               </Link>
             ))}
           </div>

@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "放送・メディアからデジタルメディア転職【エンジニアガイド】| ミドルエンジニア転職ラボ",
+  title: "放送・メディアからデジタルメディア転職【エンジニアガイド】",
   description:
     "放送・メディア業界エンジニアからデジタルメディア領域への転職方法を徹底解説。メディアの知識が活きるIT職種、年収アップの戦略を紹介します。",
 };
@@ -49,7 +49,7 @@ export default function MediaPage() {
 
   return (
     <>
-      <ArticleJsonLd title="放送・メディアからデジタルメディア転職【エンジニアガイド】| ミドルエンジニア転職ラボ" description="放送・メディア業界エンジニアからデジタルメディア領域への転職方法を徹底解説。メディアの知識が活きるIT職種、年収アップの戦略を紹介します。" url="/industry/media/" />
+      <ArticleJsonLd title="放送・メディアからデジタルメディア転職【エンジニアガイド】" description="放送・メディア業界エンジニアからデジタルメディア領域への転職方法を徹底解説。メディアの知識が活きるIT職種、年収アップの戦略を紹介します。" url="/industry/media/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "業界別ガイド" }, { name: "放送・メディアからデジタルメディア転職" }]} />
 

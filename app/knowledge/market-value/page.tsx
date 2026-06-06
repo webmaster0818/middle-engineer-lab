@@ -2,37 +2,48 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
+import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "自分の市場価値の調べ方【エンジニア年収診断】| ミドルエンジニア転職ラボ",
+  title: "エンジニアの市場価値の測り方【年代別年収データ】",
   description:
-    "エンジニアが自分の市場価値を正確に把握する方法を解説。年収診断ツール、転職エージェントの活用法、スキル別年収相場を30代・40代向けに紹介します。",
+    "30代・40代エンジニアが自分の市場価値を測る方法を解説。レバテック公表の年代別平均年収、市場価値を測る4つの方法、価値を高める戦略、判断チェックリストを出典付きで紹介します。",
 };
+
+const toc = [
+  { id: "what", label: "1. 市場価値とは何で決まるか" },
+  { id: "data", label: "2. 年代別・エンジニアの年収データ" },
+  { id: "how", label: "3. 市場価値を測る4つの方法" },
+  { id: "raise", label: "4. 市場価値を高める5つの戦略" },
+  { id: "check", label: "5. 転職すべきか判断チェックリスト" },
+  { id: "age", label: "6. 30代・40代の市場価値の考え方" },
+  { id: "faq", label: "7. よくある質問" },
+];
 
 const faqs = [
   {
-    q: "市場価値と現在の年収が大きく乖離しています。転職すべきですか？",
-    a: "市場価値が現年収より100万円以上高い場合は、転職で年収アップの可能性が高いです。ただし、現職の福利厚生、退職金、ストックオプションなども含めた総合的な待遇で比較しましょう。転職エージェントに相談して具体的な求人の年収レンジを確認するのが確実です。",
+    q: "市場価値と現在の年収が乖離している場合、転職すべきですか？",
+    a: "市場価値が現年収を大きく上回る場合は、転職で年収アップできる可能性があります。ただし現職の福利厚生・退職金・ストックオプションなども含めた総合的な待遇で比較しましょう。転職エージェントに相談して具体的な求人の年収レンジを確認するのが確実です。",
   },
   {
     q: "年収診断ツールの結果はどの程度信頼できますか？",
-    a: "あくまで目安です。同じスキルセットでも企業規模や地域で100〜200万円の差が出ます。より正確な市場価値を知るには、複数の転職エージェントに登録してアドバイザーの意見を比較することをおすすめします。",
+    a: "あくまで目安です。同じスキルセットでも企業規模や地域で年収が変わります。より正確に知るには、複数の転職エージェントに登録してアドバイザーの意見を比較するのがおすすめです。提示される求人の実際の年収レンジが最も信頼できる指標になります。",
   },
   {
-    q: "マネジメント経験がない場合、市場価値は下がりますか？",
-    a: "30代前半まではスペシャリストとして高い市場価値を持てます。35歳以降はマネジメント経験があると選択肢が広がりますが、技術的な専門性が突出している場合はスペシャリストとして高年収を維持できます。",
+    q: "マネジメント経験がないと市場価値は下がりますか？",
+    a: "技術的な専門性が高ければ、スペシャリストとして高い市場価値を維持できます。一方でマネジメント経験があると、選択肢（EM・テックリードなど）が広がるのも事実です。どちらの軸で価値を高めるかは、自己分析で見極めましょう。",
   },
   {
-    q: "フリーランスと正社員では市場価値の考え方が違いますか？",
-    a: "フリーランスの単価は正社員年収の1.3〜1.5倍が目安です。正社員年収600万円のスキルセットなら、フリーランス月単価65〜75万円程度になります。ただし社会保険料や安定性を考慮すると実質的な差は縮まります。",
+    q: "市場価値を上げるために効果的なスキルは何ですか？",
+    a: "クラウド（AWS/GCP）、Kubernetes、Go/Rust、AI/ML関連は需要が高い領域として挙げられます。ただし流行を追うより、自分の強みの延長線上にあるスキルを深掘りする方が市場価値は安定します。市場のニーズ（Must）はエージェント面談で確認しましょう。",
   },
   {
-    q: "市場価値を上げるために最も効果的なスキルは何ですか？",
-    a: "2026年現在、クラウドネイティブ（AWS/GCP）、Kubernetes、Go/Rust、AI/ML関連技術の需要が高く、年収プレミアムがつきやすいです。ただし流行に振り回されず、自分の強みの延長線上にあるスキルを深掘りする方が市場価値は安定します。",
+    q: "IT人材の需要は今後どうなりますか？",
+    a: "経済産業省『IT人材需給に関する調査』（2019年3月公表）の試算では、2030年に最大約79万人のIT人材不足が見込まれています。あくまで2019年公表時点の試算ですが、エンジニアの需要が中長期的に高い水準で推移する見方の根拠とされています。",
   },
   {
     q: "市場価値診断を無料で受けられるサービスはありますか？",
-    a: "レバテックキャリア、Geekly、ビズリーチなどで無料の市場価値診断を受けられます。特にレバテックキャリアはIT特化型で精度が高く、具体的な求人の年収レンジと合わせて教えてもらえます。",
+    a: "レバテックキャリア、Geekly、ビズリーチなどで無料の市場価値診断・スキルシート診断を受けられます。特にレバテックキャリアはIT特化型で、具体的な求人の年収レンジと合わせて教えてもらえます。複数併用するとより正確です。",
   },
 ];
 
@@ -50,8 +61,8 @@ export default function MarketValuePage() {
   return (
     <>
       <ArticleJsonLd
-        title="自分の市場価値の調べ方【エンジニア年収診断】| ミドルエンジニア転職ラボ"
-        description="エンジニアが自分の市場価値を正確に把握する方法を解説。年収診断ツール、転職エージェントの活用法、スキル別年収相場を30代・40代向けに紹介します。"
+        title="エンジニアの市場価値の測り方【年代別年収データ】"
+        description="30代・40代エンジニアが自分の市場価値を測る方法を解説。レバテック公表の年代別平均年収、市場価値を測る4つの方法、価値を高める戦略、判断チェックリストを出典付きで紹介します。"
         url="/knowledge/market-value/"
       />
       <script
@@ -61,92 +72,141 @@ export default function MarketValuePage() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "転職ガイド" },
-          { name: "市場価値の調べ方" },
+          { name: "転職ナレッジ" },
+          { name: "市場価値の測り方" },
         ]}
       />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          自分の市場価値の調べ方【エンジニア年収診断】
+          エンジニアの市場価値の測り方【年代別年収データ】
         </h1>
-        <p className="text-slate-500 text-sm mb-8">
-          最終更新: 2026年6月 | スキル別年収相場と診断方法
+        <p className="text-slate-500 text-sm mb-6">
+          最終更新: 2026年6月 | 年代別年収データと測定方法
         </p>
 
-        <section className="mb-10">
+        <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
-            「自分の年収は適正なのか？」「転職したらいくら稼げるのか？」エンジニアとして働く中で、一度は疑問に思ったことがあるはずです。
+            「自分の年収は適正なのか」「転職したらいくら稼げるのか」。エンジニアとして働くなかで、一度は気になるテーマです。市場価値は感覚で語られがちですが、年代別の年収データと客観的な測定方法を使えば、かなり具体的に把握できます。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、エンジニアが自分の市場価値を正確に把握するための方法と、スキル別の年収相場を解説します。
+            本記事では、<strong>出典のある年代別年収データ</strong>をもとに、30代・40代エンジニアが自分の市場価値を測り、高めるための実践的な方法を解説します。
           </p>
         </section>
 
-        {/* スキル別年収相場 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">スキル別・エンジニア年収相場（2026年版）</h2>
+        <DataNote
+          surveyedAt="2026年6月"
+          sources={["レバテック公表 年代別平均年収（2025年）", "経済産業省 IT人材需給に関する調査（2019年3月）", "厚生労働省 job tag"]}
+        />
+
+        {/* 目次 */}
+        <nav className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
+          <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
+          <ul className="space-y-2">
+            {toc.map((t) => (
+              <li key={t.id}>
+                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        {/* 1. 何で決まるか */}
+        <section id="what" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">1. 市場価値とは何で決まるか</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            エンジニアの市場価値は、ざっくり次の4要素の掛け算で決まります。年齢そのものより『何を・どの規模で・どんな再現性で出せるか』が問われます。
+          </p>
+          <div className="space-y-4">
+            {[
+              { num: "1", title: "技術スキルの深さと幅", desc: "得意領域の専門性と、周辺技術への理解。需要の高い技術を持つほど評価されやすい。" },
+              { num: "2", title: "成果・再現性", desc: "どんな成果を出してきたか、それが他社でも再現できそうか。数値で語れるほど強い。" },
+              { num: "3", title: "役割・影響範囲", desc: "個人の実装か、チームリードか、技術選定や組織課題まで踏み込んだか。" },
+              { num: "4", title: "市場の需給", desc: "その時点でどの技術・役割の求人が多いか。需要が多いほど価値は上がる。" },
+            ].map((item, i) => (
+              <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <div>
+                  <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
+                  <p className="text-sm text-slate-600">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mt-5">
+            <p className="text-sm text-amber-800">
+              <strong>需給の背景：</strong>経済産業省『IT人材需給に関する調査』（2019年3月公表）では、2030年に最大約79万人のIT人材不足が試算されています。2019年公表時点の試算ではありますが、エンジニアの需要が中長期で高水準に推移する根拠とされています。
+            </p>
+          </div>
+        </section>
+
+        {/* 2. 年代別データ */}
+        <section id="data" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">2. 年代別・エンジニアの年収データ</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            自分の市場価値を測る出発点として、まず年代別の平均水準を押さえましょう。下表はレバテックが公表する正社員SEの年代別平均年収（2025年）です。
+          </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-slate-100">
-                  <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">スキル / 役割</th>
-                  <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">経験3〜5年</th>
-                  <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">経験5〜10年</th>
-                  <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">経験10年以上</th>
+                  <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">年代</th>
+                  <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">正社員SE 平均年収</th>
+                  <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">年収1,000万円以上の割合</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">フロントエンド（React/Vue）</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">450〜600万</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">600〜800万</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">800〜1,100万</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">20代</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">約378万円</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-400">—</td>
                 </tr>
                 <tr className="bg-slate-50">
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">バックエンド（Go/Java）</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">500〜650万</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">650〜900万</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">900〜1,300万</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">30代</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">約499万円</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">8.01%</td>
                 </tr>
                 <tr>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">インフラ / SRE</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">500〜700万</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">700〜950万</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">950〜1,400万</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">40代</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">約618万円</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">12.67%</td>
                 </tr>
                 <tr className="bg-slate-50">
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">AI / ML エンジニア</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">550〜750万</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">750〜1,100万</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">1,100〜1,800万</td>
-                </tr>
-                <tr>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">EM / テックリード</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">600〜800万</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">800〜1,100万</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">1,100〜1,500万</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">50代</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">約685万円</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-400">—</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※ 東京都内・正社員の相場。企業規模や業界により変動します。</p>
+          <p className="text-xs text-slate-400 mt-2">出典：レバテック公表の年代別平均年収・年収1,000万円以上の割合（2025年）。あくまで平均値であり、企業規模・技術領域・地域により上下します。</p>
+
+          <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-5">
+            <p className="text-sm text-slate-600 mb-2">
+              <strong>参考：職種の平均値</strong>
+            </p>
+            <p className="text-sm text-slate-600">
+              厚生労働省 job tag では「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。転職全体の動向としては、パーソルキャリア「2024年度 決定年収レポート」（2025年5月公表）で、転職者の約6割が年収アップ、IT・通信の平均決定年収は469万円（2023年度）→486万円（2024年度）と公表されています。
+            </p>
+          </div>
+          <p className="text-sm text-slate-600 mt-4">
+            年代別の詳しい相場は<Link href="/knowledge/salary-30s/" className="text-blue-600 underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-blue-600 underline">40代の年収相場</Link>でも解説しています。
+          </p>
         </section>
 
-        {/* 市場価値の調べ方 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">市場価値を調べる4つの方法</h2>
+        {/* 3. 測る方法 */}
+        <section id="how" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">3. 市場価値を測る4つの方法</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">平均値はあくまで出発点です。自分の市場価値を具体的に知るには、次の方法を組み合わせます。</p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "転職エージェントの面談を受ける", desc: "最も確実な方法。IT特化型エージェントに登録し、自分のスキルセットでどの年収帯の求人を紹介してもらえるか確認しましょう。複数のエージェントを比較するとより正確な市場価値が分かります。" },
-              { num: "2", title: "スカウトサービスの提示年収を見る", desc: "ビズリーチやForkwell等に経歴を登録し、届くスカウトの提示年収から市場価値を把握できます。高いスカウトと低いスカウトの中央値が目安です。" },
-              { num: "3", title: "求人サイトの年収レンジを調査する", desc: "自分のスキルセットに合う求人を20〜30件ピックアップし、年収レンジの中央値を計算します。市場全体の相場感がつかめます。" },
-              { num: "4", title: "年収診断ツールを活用する", desc: "各転職サイトが提供する年収診断ツールで概算を把握できます。あくまで参考値ですが、最初の目安として有効です。" },
+              { num: "1", title: "転職エージェントの面談を受ける", desc: "最も確実。IT特化型エージェントに登録し、自分のスキルセットでどの年収帯の求人を紹介してもらえるか確認する。複数を比較するとより正確。" },
+              { num: "2", title: "スカウトの提示年収を見る", desc: "ビズリーチ等に経歴を登録し、届くスカウトの提示年収を集計する。高い／低いの中央値が現実的な目安になる。" },
+              { num: "3", title: "求人の年収レンジを調査する", desc: "自分のスキルに合う求人を20〜30件ピックアップし、年収レンジの中央値を計算する。市場全体の相場感がつかめる。" },
+              { num: "4", title: "年収診断ツールを使う", desc: "各社の年収診断ツールで概算を把握する。最初の目安として有効だが、あくまで参考値。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
-                  {item.num}
-                </span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -156,36 +216,73 @@ export default function MarketValuePage() {
           </div>
         </section>
 
-        {/* 市場価値を上げるスキル */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">市場価値を上げる5つの戦略</h2>
+        {/* 4. 高める戦略 */}
+        <section id="raise" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 市場価値を高める5つの戦略</h2>
           <div className="space-y-4">
             <div className="bg-blue-50 rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. T字型スキルを目指す</h3>
-              <p className="text-sm text-blue-700">1つの深い専門性 + 幅広い周辺知識。例：バックエンドが専門でも、インフラやフロントエンドの基礎を理解していると市場価値が上がります。</p>
+              <p className="text-sm text-blue-700">1つの深い専門性＋幅広い周辺知識。バックエンドが専門でも、インフラやフロントの基礎を理解していると価値が上がります。</p>
             </div>
             <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">2. ビジネスインパクトを意識する</h3>
-              <p className="text-sm text-blue-700">技術だけでなく「その技術でどのくらいのビジネスインパクトを生んだか」を語れるエンジニアは高い評価を受けます。</p>
+              <h3 className="font-bold text-blue-800 mb-2">2. ビジネスインパクトを語れるようにする</h3>
+              <p className="text-sm text-blue-700">技術だけでなく『その技術でどれだけの事業成果を生んだか』を数値で語れるエンジニアは高く評価されます。</p>
             </div>
             <div className="bg-blue-50 rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. アウトプットを増やす</h3>
-              <p className="text-sm text-blue-700">技術ブログ、OSS貢献、登壇は市場価値を可視化する手段です。スカウトの数と質が明らかに変わります。</p>
+              <p className="text-sm text-blue-700">技術ブログ・OSS・登壇は市場価値を可視化します。スカウトの数と質が変わります。関連: <Link href="/knowledge/portfolio/" className="text-blue-700 underline">ポートフォリオの見せ方</Link>。</p>
             </div>
             <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">4. マネジメント経験を積む</h3>
-              <p className="text-sm text-blue-700">35歳以降は技術力 + マネジメント力の掛け合わせで年収が大きく上がります。3〜5名のチームリード経験があると選択肢が広がります。</p>
+              <h3 className="font-bold text-blue-800 mb-2">4. リード・マネジメント経験を積む</h3>
+              <p className="text-sm text-blue-700">技術力に加えてチームを率いた経験があると、選択肢が広がります。関連: <Link href="/knowledge/management/" className="text-blue-700 underline">マネジメントキャリア</Link>。</p>
             </div>
             <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">5. 需要の高い技術を習得する</h3>
-              <p className="text-sm text-blue-700">クラウドネイティブ、Kubernetes、Go/Rust、AI/ML関連の技術は年収プレミアムがつきやすいです。自分の軸を持ちつつ取り入れましょう。</p>
+              <h3 className="font-bold text-blue-800 mb-2">5. 需要の高い技術を取り入れる</h3>
+              <p className="text-sm text-blue-700">クラウド・Kubernetes・Go/Rust・AI/ML関連は需要が高い領域です。自分の軸を保ちつつ取り入れましょう。関連: <Link href="/knowledge/continuous-learning/" className="text-blue-700 underline">継続的な学習</Link>。</p>
+            </div>
+          </div>
+        </section>
+
+        {/* 5. チェックリスト */}
+        <section id="check" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">5. 転職すべきか判断チェックリスト</h2>
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
+            <p className="text-sm text-slate-600 mb-3">3つ以上当てはまるなら、一度エージェント面談で市場価値を確かめる価値があります。</p>
+            <ul className="space-y-2">
+              {[
+                "同年代の平均年収（上表）より自分の年収が明らかに低い",
+                "ここ2〜3年、年収がほとんど上がっていない",
+                "新しい技術を学ぶ機会が職場でほとんどない",
+                "スカウトの提示年収が現年収を上回っている",
+                "求人を見ると、自分のスキルでより良い条件の枠が多くある",
+                "評価制度が不透明で、頑張りが年収に反映されない",
+              ].map((c, i) => (
+                <li key={i} className="flex gap-2 text-sm text-slate-700">
+                  <span className="text-blue-600 font-bold shrink-0">□</span>{c}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        {/* 6. 年代別 */}
+        <section id="age" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">6. 30代・40代の市場価値の考え方</h2>
+          <div className="space-y-4">
+            <div className="bg-blue-50 rounded-lg p-5">
+              <h3 className="font-bold text-blue-800 mb-2">30代：伸びしろと専門性の両方が評価される</h3>
+              <p className="text-sm text-blue-700">レバテック公表値では30代の正社員SE平均は約499万円、年収1,000万円以上は8.01%。専門性を深めつつリード経験を積むと、上位レンジに入りやすくなります。関連: <Link href="/age/30s/" className="text-blue-700 underline">30代の転職</Link>。</p>
+            </div>
+            <div className="bg-blue-50 rounded-lg p-5">
+              <h3 className="font-bold text-blue-800 mb-2">40代：再現性とマネジメントで上位レンジへ</h3>
+              <p className="text-sm text-blue-700">40代の正社員SE平均は約618万円、年収1,000万円以上は12.67%と30代より高い水準です（レバテック公表・2025年）。成果の再現性とマネジメント／高度な専門性が、上位レンジへの鍵になります。関連: <Link href="/age/40s/" className="text-blue-700 underline">40代の転職</Link>。</p>
             </div>
           </div>
         </section>
 
         {/* FAQ */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>
+        <section id="faq" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">7. よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
               <details key={i} className="group border border-slate-200 rounded-lg overflow-hidden">
@@ -202,13 +299,8 @@ export default function MarketValuePage() {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">無料で市場価値診断を受けよう</h2>
-          <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントに登録すれば、あなたのスキルセットに基づいた正確な市場価値と年収レンジを教えてもらえます。
-          </p>
-          <Link
-            href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
-          >
+          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントに登録すれば、あなたのスキルセットに基づいた市場価値と具体的な求人の年収レンジを教えてもらえます。</p>
+          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -221,12 +313,10 @@ export default function MarketValuePage() {
               { name: "40代エンジニアの年収相場", href: "/knowledge/salary-40s/" },
               { name: "年収交渉のコツ", href: "/knowledge/salary-negotiation/" },
               { name: "自己分析ガイド", href: "/knowledge/self-analysis/" },
+              { name: "キャリアプラン設計", href: "/knowledge/career-plan/" },
+              { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" },
             ].map((item, i) => (
-              <Link
-                key={i}
-                href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
-              >
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
                 {item.name} →
               </Link>
             ))}
