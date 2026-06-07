@@ -2,37 +2,54 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
+import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "PHPエンジニアの転職ガイド【Laravel/WordPress】年収・求人・将来性",
+  title: "PHPエンジニアの転職ガイド｜Laravel・年収・将来性【2026年】",
   description:
-    "PHPエンジニアの転職市場を徹底解説。平均年収400〜650万円、Laravel需要の拡大、PHPエンジニアのキャリアパスとおすすめ転職エージェントを紹介します。",
+    "PHPエンジニアの転職市場を出典付きで解説。求人数で上位を占めるPHPの市場価値、Laravelでの差別化、WordPress案件からの脱却、求人の探し方、30代・40代の戦い方を整理します。",
 };
+
+const toc = [
+  { id: "conclusion", label: "1. 結論：PHPエンジニアの転職市場の攻め方" },
+  { id: "market", label: "2. PHPの市場・年収データ（出典付き）" },
+  { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
+  { id: "career", label: "4. PHPエンジニアのキャリアパス" },
+  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "entry", label: "6. レガシー／WordPress中心から脱却するルート" },
+  { id: "age", label: "7. 30代・40代エンジニアの視点" },
+  { id: "learn", label: "8. スキルアップ・学習戦略" },
+  { id: "faq", label: "9. よくある質問" },
+];
 
 const faqs = [
   {
-    q: "PHPエンジニアの平均年収は？",
-    a: "30代で400万〜650万円が相場です。Laravel等モダンフレームワークを使いこなせるエンジニアは600万〜750万円、テックリードクラスでは800万円超も狙えます。WordPress案件のみの場合は400万〜500万円が中心です。",
+    q: "PHPエンジニアの平均年収はどのくらいですか？",
+    a: "言語単独の公的平均値は限られますが、求人ボックス「給料ナビ」では正社員のWebエンジニアの平均年収が約462万円、ソフトウェアエンジニアが約511万円と試算されています（掲載求人からの独自集計値）。年代別では、レバテック公表の正社員SE平均年収（30代約499万円・40代約618万円／2025年）が参考になります。Laravel等のモダンPHPやテックリード級では、これより上のレンジになる傾向です。",
   },
   {
-    q: "PHPの需要は今後も続く？",
-    a: "続きます。Webサイトの約77%がPHPで動いており、WordPress、Laravel、EC-CUBEなど広く使われています。新規開発ではLaravel案件が増加中で、レガシーシステムのモダナイゼーション案件も豊富です。",
+    q: "PHPの需要は今後も続きますか？",
+    a: "続く見込みです。W3Techsの集計（2026年6月時点）では、PHPはサーバーサイド言語が判明しているWebサイトの約71.8%で使われており、Webの基盤として圧倒的なシェアを保っています。WordPress・Laravel・EC-CUBEなど用途も広く、新規のLaravel案件とレガシーのモダナイゼーション案件の双方で需要があります。",
   },
   {
-    q: "PHPから他の言語に転向すべき？",
-    a: "必ずしも転向する必要はありません。LaravelでのモダンPHP開発スキルがあれば十分に市場価値があります。ただし、TypeScript（Next.js）やGo言語を掛け合わせると選択肢が広がり、年収アップにもつながります。",
+    q: "PHPから他の言語に転向すべきですか？",
+    a: "必ずしも転向は必要ありません。LaravelでのモダンPHP開発スキルがあれば十分に市場価値があります。ただしTypeScript（Next.js）やGoを掛け合わせると選択肢が広がり、年収アップにもつながります。完全転向よりスキルの幅を広げる戦略が現実的です。",
   },
   {
-    q: "PHPの求人はどんな企業が多い？",
-    a: "Web制作会社、ECサイト運営企業、SaaS企業、受託開発企業に多いです。特にLaravel案件はスタートアップからエンタープライズまで幅広く、WordPress案件はメディア・コーポレートサイト制作で根強い需要があります。",
+    q: "PHPの求人はどんな企業に多いですか？",
+    a: "Web制作会社、ECサイト運営企業、SaaS企業、受託開発企業に多く見られます。Laravel案件はスタートアップからエンタープライズまで幅広く、WordPress案件はメディア・コーポレートサイト制作で根強い需要があります。求人数や社名は時期で変動するため、エージェントで最新の保有求人を確認してください。",
   },
   {
-    q: "レガシーPHPの経験しかなくても転職できる？",
-    a: "転職可能です。ただし、Laravelなどモダンフレームワークの知識を学んでおくことが重要です。CakePHPやSymfonyの経験があれば、Laravelへの移行は比較的容易です。個人でLaravelアプリを作りポートフォリオにしましょう。",
+    q: "レガシーPHPの経験しかなくても転職できますか？",
+    a: "転職は可能ですが、Laravelなどモダンフレームワークの知識を学んでおくことが評価の分かれ目になります。CakePHPやSymfonyの経験があればLaravelへの移行は比較的容易です。個人でLaravelアプリを作りポートフォリオにすると、モダンな開発への適応力を示せます。",
   },
   {
     q: "PHPエンジニアにおすすめの転職エージェントは？",
-    a: "レバテックキャリア（PHP求人数が圧倒的に多い）、ワークポート（Web系企業の求人に強い）、Geekly（スタートアップのLaravel案件）の3社がおすすめです。PHP経験を活かした年収アップをサポートしてくれます。",
+    a: "IT特化でPHP求人が豊富なレバテックキャリア、Web系企業の求人に強く未経験歓迎求人も多いワークポート、スタートアップのLaravel案件に強いGeeklyが選択肢です。PHPは求人母数が大きいので、複数登録して質と量を比較するのが効率的です。",
+  },
+  {
+    q: "WordPress案件中心のキャリアでも年収は上げられますか？",
+    a: "WordPress案件はサイト制作で安定した需要がありますが、年収レンジはやや限られる傾向があります。Laravel等のアプリ開発スキルや、PHP 8系のモダン機能、フロント技術を掛け合わせることで、より年収レンジの広いポジションに移りやすくなります。",
   },
 ];
 
@@ -50,8 +67,8 @@ export default function PhpSkillPage() {
   return (
     <>
       <ArticleJsonLd
-        title="PHPエンジニアの転職ガイド【Laravel/WordPress】年収・求人・将来性"
-        description="PHPエンジニアの転職市場を徹底解説。平均年収400〜650万円、Laravel需要の拡大、PHPエンジニアのキャリアパスとおすすめ転職エージェントを紹介します。"
+        title="PHPエンジニアの転職ガイド｜Laravel・年収・将来性【2026年】"
+        description="PHPエンジニアの転職市場を出典付きで解説。求人数で上位を占めるPHPの市場価値、Laravelでの差別化、WordPress案件からの脱却、求人の探し方、30代・40代の戦い方を整理します。"
         url="/skill/php/"
       />
       <script
@@ -68,93 +85,170 @@ export default function PhpSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          PHPエンジニアの転職ガイド【Laravel/WordPress】年収・求人・将来性
+          PHPエンジニアの転職ガイド｜Laravel・年収・将来性【2026年】
         </h1>
-        <p className="text-slate-500 text-sm mb-8">
-          最終更新: 2026年6月 | PHPエンジニアの転職市場を徹底分析
+        <p className="text-slate-500 text-sm mb-6">
+          最終更新: 2026年6月 | PHPエンジニアの転職市場をミドル層向けに分析
         </p>
 
-        <section className="mb-10">
+        <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
-            PHPはWebの約77%で使用されている最も普及したサーバーサイド言語です。Laravel、WordPress、EC-CUBEなど豊富なエコシステムを持ち、Web開発の現場で引き続き高い需要があります。
+            PHPはWebの基盤として圧倒的なシェアを持ち、求人数でも上位を占める「機会の多い」言語です。一方で案件の幅が広く、WordPress制作中心かLaravelのアプリ開発かで年収レンジが大きく変わります。どの領域で勝負するかの設計が、転職成否を分けます。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、PHPエンジニアの年収、求人動向、将来性、転職で成功するためのポイントを解説します。
+            本記事では、<strong>公表データ・求められる経験レベル・求人の探し方・レガシー／WordPress中心からの脱却ルート</strong>を、30代・40代の視点を交えて整理します。
           </p>
         </section>
 
-        {/* 市場データ */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">PHPエンジニアの市場データ</h2>
-          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="text-center">
-                <p className="text-3xl font-bold text-blue-600">400〜650万</p>
-                <p className="text-sm text-slate-600 mt-1">30代PHPエンジニアの年収相場</p>
-              </div>
-              <div className="text-center">
-                <p className="text-3xl font-bold text-blue-600">+12%</p>
-                <p className="text-sm text-slate-600 mt-1">Laravel求人の前年比増加率</p>
-              </div>
-              <div className="text-center">
-                <p className="text-3xl font-bold text-blue-600">2.1倍</p>
-                <p className="text-sm text-slate-600 mt-1">PHP求人の求人倍率（1人あたり）</p>
-              </div>
-            </div>
+        <DataNote
+          surveyedAt="2026年6月"
+          sources={[
+            "paiza「プログラミング言語に関する調査（2025年版）」",
+            "W3Techs（2026年6月時点）",
+            "求人ボックス 給料ナビ",
+            "レバテック公表の年代別平均年収（2025年）",
+          ]}
+        />
+
+        {/* 目次 */}
+        <nav className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
+          <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
+          <ul className="space-y-2">
+            {toc.map((t) => (
+              <li key={t.id}>
+                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                  {t.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        {/* 結論 */}
+        <section id="conclusion" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PHPエンジニアの転職市場の攻め方</h2>
+          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+            <p className="text-slate-700 leading-relaxed mb-3">
+              <strong>PHPは求人数が多い分、「どの案件で戦うか」で年収が決まります。</strong>WordPress制作で止まらず、Laravelのアプリ開発やフロント・他言語の掛け合わせで、レンジの広いポジションへ移るのが攻め方です。
+            </p>
+            <ul className="space-y-2 text-sm text-slate-700">
+              <li>・paiza 2025年調査で企業ニーズ（求人数比率）<strong>3位（11.0%）</strong>。転職機会を得やすい</li>
+              <li>・W3Techs集計（2026年6月時点）でWebの<strong>約71.8%がPHP</strong>。需要の土台が大きい</li>
+              <li>・<strong>Laravel＋フロント／他言語</strong>の掛け合わせが年収アップの分岐点</li>
+            </ul>
           </div>
         </section>
 
-        {/* PHPが求められる理由 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">PHPエンジニアの需要が安定している理由</h2>
-          <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">Laravelエコシステムの成熟</h3>
-              <p className="text-sm text-blue-700">
-                LaravelはPHPフレームワークの中でも圧倒的なシェアを持ち、エコシステムが非常に充実しています。Laravel Forge、Vapor、Novaなどの公式ツールにより、モダンな開発体験が実現されています。
-              </p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">WordPress・EC-CUBEの根強い需要</h3>
-              <p className="text-sm text-blue-700">
-                WordPressは世界のWebサイトの43%で使われており、企業サイト・メディアサイトの構築・運用で安定した需要があります。EC-CUBEもECサイト構築で広く使われ、カスタマイズ需要が絶えません。
-              </p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">レガシーシステムのモダナイゼーション</h3>
-              <p className="text-sm text-blue-700">
-                古いPHPシステム（CakePHP 2系、独自フレームワーク等）をLaravelやモダンPHP 8.x系に移行するプロジェクトが多数発生しています。レガシーPHPとモダンPHPの両方を理解するエンジニアの市場価値が高まっています。
-              </p>
-            </div>
+        {/* 市場・年収データ */}
+        <section id="market" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">PHPの市場・年収データ（出典付き）</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-4">
+            PHP単独の公的平均年収は限られるため、シェア・求人数・職種別・年代別の公表データを出典と時点付きで使用します。
+          </p>
+          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
+            <table className="w-full text-sm">
+              <tbody>
+                {[
+                  ["WebサイトでのPHP利用シェア", "約71.8%（サーバーサイド言語判明分）", "W3Techs（2026年6月時点）"],
+                  ["PHPの求人数ランキング", "企業ニーズ3位（11.0%）", "paiza 2025年版調査（求人比率）"],
+                  ["Webエンジニアの平均年収（正社員）", "約462万円", "求人ボックス 給料ナビ（独自試算）"],
+                  ["ソフトウェアエンジニアの平均年収（正社員）", "約511万円", "求人ボックス 給料ナビ（同上）"],
+                  ["正社員SEの平均年収・30代／40代", "約499万円／約618万円", "レバテック公表（2025年）"],
+                ].map(([label, value, src], i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">
+                      {label}
+                    </th>
+                    <td className="px-4 py-3 text-slate-700 border-b border-slate-200 align-top">
+                      <span className="font-medium">{value}</span>
+                      <br />
+                      <span className="text-xs text-slate-500">{src}</span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
+          <p className="text-xs text-slate-500 leading-relaxed">
+            ※ W3Techsのシェアは「サーバーサイド言語が判明しているサイト」を母数とした集計です。paizaの求人比率・求人ボックスの年収はいずれも掲載求人ベースの参考値で、PHP専任の数値ではありません。Laravel案件・テックリード級の具体的なレンジはエージェントで確認してください。
+          </p>
         </section>
 
-        {/* キャリアパス */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">PHPエンジニアのキャリアパス</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {/* 求められる経験レベル */}
+        <section id="level" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-4">
+            PHP求人は「WordPress・サイト制作系」と「Laravel・アプリ開発系」で求められる要素が異なります。代表的な3層の要件を整理します。
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { role: "Laravelエンジニア", range: "500万〜750万円", note: "Laravel+Vue.js/ReactでのWebアプリ開発" },
-              { role: "WordPress開発者", range: "400万〜600万円", note: "テーマ・プラグイン開発、サイト構築" },
-              { role: "テックリード", range: "700万〜900万円", note: "PHPチームのリード、アーキテクチャ設計" },
+              { tier: "サイト制作系", req: "WordPress／テーマ・プラグイン開発／HTML・CSS・JS／受託の進め方", note: "制作会社・メディア中心" },
+              { tier: "Laravel（アプリ開発）", req: "Laravel実務2〜4年／Eloquent・API設計／RDB／テスト", note: "求人レンジが広いゾーン" },
+              { tier: "リード／設計", req: "アーキテクチャ設計／レビュー・育成／モダナイゼーション／フロント・クラウド", note: "年収レンジが上がる層" },
             ].map((item, i) => (
-              <div key={i} className="border border-slate-200 rounded-lg p-4">
-                <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
-                <p className="text-blue-600 font-bold mb-1">{item.range}</p>
-                <p className="text-xs text-slate-500">{item.note}</p>
+              <div key={i} className="border border-slate-200 rounded-lg p-5">
+                <h3 className="font-bold text-slate-800 mb-2 text-sm">{item.tier}</h3>
+                <p className="text-xs text-slate-600 mb-2 leading-relaxed">{item.req}</p>
+                <p className="text-xs text-blue-600">{item.note}</p>
               </div>
             ))}
           </div>
         </section>
 
-        {/* 転職のポイント */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">PHPエンジニア転職の成功ポイント</h2>
+        {/* キャリアパス */}
+        <section id="career" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">PHPエンジニアのキャリアパス</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {[
+              { role: "Laravelエンジニア", note: "Laravel＋Vue/ReactでのWebアプリ開発が中心" },
+              { role: "WordPress開発者", note: "テーマ・プラグイン開発、サイト構築・運用" },
+              { role: "フルスタックエンジニア", note: "PHP＋フロント＋クラウドで一気通貫に対応" },
+              { role: "テックリード", note: "PHPチームのリード・アーキテクチャ設計" },
+            ].map((item, i) => (
+              <div key={i} className="border border-slate-200 rounded-lg p-4">
+                <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
+                <p className="text-xs text-slate-500">{item.note}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-slate-500 mt-3">
+            ※ 各ポジションの年収レンジは企業・時期で変動するため断定を避けています。面談時にエージェントへ確認してください。
+          </p>
+        </section>
+
+        {/* 求人の探し方 */}
+        <section id="find" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <div className="space-y-4">
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
+              <p className="text-sm text-slate-600 mb-2">PHP求人が豊富で、技術に精通したアドバイザーが在籍。Laravel・自社開発の提案に向きます。</p>
+              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+            </div>
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-2">ワークポート（Web系・未経験歓迎も豊富）</h3>
+              <p className="text-sm text-slate-600 mb-2">IT・Webに強い総合型で、未経験歓迎求人も多くレスポンスが速いのが特徴。幅広いPHP求人を当たりたい場合に向きます。</p>
+              <Link href="/review/workport/" className="text-sm text-blue-600 hover:underline">ワークポートの詳細レビュー →</Link>
+            </div>
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <p className="text-sm text-slate-600 mb-2">IT・Web・ゲーム業界専門で提案スピードが強み。スタートアップのLaravel案件を探したい場合の選択肢です。</p>
+              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">Geeklyの詳細レビュー →</Link>
+            </div>
+          </div>
+          <p className="text-xs text-slate-500 mt-3">
+            エージェント各社の比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">転職エージェント比較</Link>も参照してください。
+          </p>
+        </section>
+
+        {/* 脱却ルート */}
+        <section id="entry" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">レガシー／WordPress中心から脱却するルート</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "Laravelの実践スキルを身につける", desc: "Eloquent ORM、Queue、Event、Policy、Livewire/Inertiaなど、Laravelの機能を実務レベルで使いこなせることが重要です。ポートフォリオアプリをLaravelで作りましょう。" },
-              { num: "2", title: "フロントエンド技術を掛け合わせる", desc: "PHP+Vue.js、PHP+React（Inertia.js）、PHP+TypeScriptの組み合わせができると、フルスタックとして年収アップが見込めます。" },
-              { num: "3", title: "PHP 8.x系のモダン機能を理解する", desc: "Enum、Fiber、名前付き引数、Union型など、PHP 8系の新機能を理解し活用できることで、モダンなPHP開発者としてアピールできます。" },
+              { num: "1", title: "Laravelの実践スキルを身につける", desc: "Eloquent ORM、Queue、Event、Policyなど、Laravelの機能を実務レベルで使えることが脱却の第一歩です。認証・CRUD・API連携を含むアプリを作り、ポートフォリオにしましょう。" },
+              { num: "2", title: "PHP 8系のモダン機能を理解する", desc: "Enum、Fiber、名前付き引数、Union型など、PHP 8系の新機能を活用できると「モダンPHP開発者」としてアピールできます。レガシーとモダンの差を語れることが評価につながります。" },
+              { num: "3", title: "フロント・他言語を掛け合わせる", desc: "PHP＋Vue/React（Inertia.js）、PHP＋TypeScriptの組み合わせができると、フルスタックとして年収レンジの広いポジションに移りやすくなります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
@@ -169,8 +263,46 @@ export default function PhpSkillPage() {
           </div>
         </section>
 
+        {/* 30代・40代視点 */}
+        <section id="age" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
+          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
+            <p>
+              <strong>求人母数の多さは年齢のリスクヘッジになる。</strong>PHPは求人数が多く、年齢で間口が極端に狭まりにくい言語です。30代・40代でも応募先を確保しやすいのは、需要の土台が大きいPHPならではの強みです。
+            </p>
+            <p>
+              <strong>「制作止まり」を脱して年収レンジを上げる。</strong>WordPress制作中心のキャリアだと年収が頭打ちになりやすいため、Laravelのアプリ開発やPHP 8系のモダン機能を一つでも持つことが分岐点です。レガシーとモダンの両方が分かる人材は、モダナイゼーション案件で重宝されます。
+            </p>
+            <p>
+              <strong>受託・業務知識を武器にする。</strong>受託開発で培った要件定義・顧客折衝の経験や、ECなどのドメイン知識は、若手では代替しにくい資産です。技術力とセットで提示すれば、40代でも設計・リードのポジションで戦えます。
+            </p>
+          </div>
+          <p className="text-xs text-slate-500 mt-3">
+            年代別の戦略は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>も参考にしてください。
+          </p>
+        </section>
+
+        {/* 学習戦略 */}
+        <section id="learn" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
+          <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
+            <p>
+              <strong>① Laravelで一気通貫の成果物を作る。</strong>認証・CRUD・API・テストを含むアプリをLaravelで作り、デプロイまで通します。モダンPHPを実務レベルで扱える証拠になります。
+            </p>
+            <p>
+              <strong>② テストと設計の質を高める。</strong>PHPUnitやPestでのテスト、サービス層の分離など、保守性を意識した設計を学ぶと、レガシー脱却・モダナイゼーション案件で評価されます。
+            </p>
+            <p>
+              <strong>③ フロント・他言語で選択肢を広げる。</strong>TypeScript（Next.js）やGoを掛け合わせると、フルスタック・新規開発の求人にも対応でき、キャリアの幅が広がります。
+            </p>
+            <p>
+              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
+            </p>
+          </div>
+        </section>
+
         {/* FAQ */}
-        <section className="mb-10">
+        <section id="faq" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
@@ -189,7 +321,7 @@ export default function PhpSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">PHPのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            PHPの求人に精通したIT特化型エージェントに登録して、年収アップの可能性を探りましょう。
+            PHPは求人母数が大きいからこそ、複数のIT特化型エージェントで質と量を比較して年収アップの可能性を探りましょう。
           </p>
           <Link
             href="/#ranking"
@@ -203,8 +335,10 @@ export default function PhpSkillPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { name: "Ruby on Rails転職ガイド", href: "/skill/ruby/" },
-              { name: "フロントエンドエンジニア転職ガイド", href: "/skill/frontend/" },
+              { name: "Ruby on Railsエンジニアの転職ガイド", href: "/skill/ruby/" },
+              { name: "TypeScriptエンジニアの転職ガイド", href: "/skill/typescript/" },
+              { name: "フロントエンドエンジニアの転職ガイド", href: "/skill/frontend/" },
+              { name: "Web系への転職（SIerから）", href: "/industry/sier-to-web/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
