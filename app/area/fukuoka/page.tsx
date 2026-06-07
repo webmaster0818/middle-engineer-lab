@@ -2,45 +2,102 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
+import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "福岡のIT転職事情【2026年】求人数・年収・おすすめエージェント",
+  title: "福岡のIT転職事情【2026年】スタートアップとリモート移住の選択肢",
   description:
-    "福岡のIT・Webエンジニア転職市場を徹底解説。スタートアップ都市としての魅力、天神ビッグバン効果、リモートワーク移住、平均年収、おすすめエージェントを30代・40代向けに紹介します。",
+    "福岡のIT・Webエンジニア転職を解説。スタートアップ支援で知られる都市の特徴、働き方の選択肢、年代別年収の考え方、エリア対応エージェント、移住の進め方を30代・40代向けに整理します。",
 };
 
-const faqs = [
+const toc = [
+  { id: "conclusion", label: "結論：福岡IT転職市場の特徴" },
+  { id: "market", label: "福岡のIT企業集積と特徴" },
+  { id: "workstyle", label: "働き方の選択肢（移住×リモート含む）" },
+  { id: "salary", label: "年収の考え方（年代別データ）" },
+  { id: "agents", label: "福岡エリアに対応するエージェント" },
+  { id: "howto", label: "転職・移住の進め方" },
+  { id: "fit", label: "福岡転職が向いている人・向いていない人" },
+  { id: "middle", label: "30代・40代エンジニアの視点" },
+  { id: "faq", label: "よくある質問" },
+];
+
+const fitYes = [
+  "スタートアップ・自社開発で裁量や成長機会を重視したい",
+  "住居費を抑え、可処分所得やQOLを上げる移住を検討している",
+  "都市機能とコミュニティの活発さの両方を大切にしたい",
+  "首都圏のフルリモート求人も含めて柔軟に選択肢を広げたい",
+];
+
+const fitNo = [
+  "大企業の安定性や手厚い福利厚生を最優先したい（首都圏の方が母数が多い）",
+  "特定領域の超大規模プロダクト開発に限定して携わりたい",
+  "出社不要のフルリモートのみを希望し、移住や地元出社は考えていない（求人選びで明示が必要）",
+];
+
+const salaryByAge = [
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手。ポテンシャル採用も多い層。" },
+  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層。" },
+  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層。" },
+  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層。" },
+];
+
+const agents = [
   {
-    q: "福岡のITエンジニアの平均年収は？",
-    a: "2026年時点で福岡のITエンジニアの平均年収は約450万円です。東京と比べると約170万円低いですが、家賃は東京の5〜6割程度であり、生活コストを考慮すると実質的な差は縮まります。スタートアップでストックオプション込みの高待遇も増えています。",
+    name: "レバテックキャリア",
+    href: "/review/levtech/",
+    point:
+      "IT/Web特化型。技術理解の高いアドバイザーが特徴で、スタートアップ・自社開発を志向するエンジニアと相性が良い。首都圏中心とされるが、フルリモート求人で福岡在住でも選択肢を広げやすい。",
   },
   {
-    q: "福岡がスタートアップ都市と呼ばれる理由は？",
-    a: "福岡市は2014年に国家戦略特区に指定され、スタートアップ支援に積極的です。法人設立の簡素化、税制優遇、官民連携のインキュベーション施設「Fukuoka Growth Next」など、創業支援の環境が充実しています。2026年時点でIT系スタートアップ数は500社を超えています。",
+    name: "ワークポート",
+    href: "/review/workport/",
+    point:
+      "全国47都道府県57拠点を構える総合型。IT・ゲーム領域に強く、地方在住からの相談に向く。レスポンスの速さに定評があり、未経験歓迎求人も比較的多い。",
   },
   {
-    q: "天神ビッグバンとは？",
-    a: "福岡市天神地区の大規模再開発プロジェクトです。老朽ビルの建替えを促進し、2024年までに30棟のビルが建替え予定。IT企業のオフィス需要も高まっており、LINEやメルカリの福岡拠点をはじめ、多くのIT企業が天神エリアに進出しています。",
+    name: "doda ITエンジニア",
+    href: "/review/doda-it/",
+    point:
+      "全国対応の総合型。検索・エージェント・スカウトのハイブリッド型で、福岡の地元求人から首都圏のフルリモート求人まで幅広く当たりやすい。求人量の多さが強み。",
   },
   {
-    q: "東京から福岡への転職・移住は現実的？",
-    a: "フルリモートの東京企業に勤めながら福岡に移住するエンジニアが増えています。東京の年収のまま福岡の生活コストで暮らせるため、可処分所得が大幅にUP。飛行機で東京まで約2時間、LCCを使えば片道5,000円程度とアクセスも良好です。",
-  },
-  {
-    q: "福岡でフルリモートの求人は見つかる？",
-    a: "福岡のIT企業のフルリモート率は約20%ですが、東京本社のフルリモート求人に福岡から応募するケースが増加中です。エージェントに「福岡在住・フルリモート希望」と伝えれば、全国対応のリモート求人を紹介してもらえます。",
-  },
-  {
-    q: "福岡のIT転職におすすめのエージェントは？",
-    a: "レバテックキャリア（福岡拠点あり、IT特化で求人豊富）、ワークポート（福岡発のIT特化型エージェント）、doda（福岡の総合求人に強い）の3社がおすすめです。特にワークポートは福岡本社のため、地元企業との繋がりが強いです。",
+    name: "Green",
+    href: "/review/green/",
+    point:
+      "成功報酬型の転職サイト（ダイレクトリクルーティング）。IT/Webベンチャー・スタートアップに強く、カジュアル面談で社風を把握しやすい。仲介サポートはない点に留意。",
   },
 ];
 
-const areas = [
-  { name: "天神エリア", companies: "IT大手拠点、Web系、スタートアップ", salary: "430〜650万円", feature: "天神ビッグバンで再開発中。LINE、メルカリ、GMOなど大手の福岡拠点が集積。", remote: "ハイブリッド中心" },
-  { name: "博多エリア", companies: "SIer、受託開発", salary: "400〜600万円", feature: "JR博多駅周辺にSIerや受託開発企業が集積。安定した案件が多い。", remote: "週3〜4出社が主流" },
-  { name: "福岡市全域", companies: "スタートアップ、フリーランス", salary: "350〜700万円", feature: "Fukuoka Growth Next周辺にスタートアップが集積。コワーキングスペースも豊富。", remote: "フルリモート率 高" },
-  { name: "北九州市", companies: "製造業IT、IoT", salary: "400〜600万円", feature: "TOTOや安川電機などの製造業DX。IoT・ロボティクス関連の開発。", remote: "出社中心" },
+const faqs = [
+  {
+    q: "福岡のITエンジニアの年収はどのくらいですか？",
+    a: "福岡エリア限定の公的平均年収データは限られます。参考値として、レバテックが公表する正社員SEの年代別平均年収（2025年・全国）では30代で約499万円、40代で約618万円とされています。福岡は住居費を抑えやすいエリアのため、同じ額面でも可処分所得に差が出やすい点を踏まえて考えるのが現実的です。",
+  },
+  {
+    q: "福岡がスタートアップに前向きな都市と言われるのはなぜですか？",
+    a: "福岡市は創業・スタートアップ支援に積極的な都市として広く知られており、官民連携の支援拠点やエンジニア向けコミュニティ・勉強会が活発という定性的な評価があります。具体的な企業数や支援制度の最新内容は時期により変わるため、断定は避け、最新情報は公式の発表をご確認ください。",
+  },
+  {
+    q: "東京から福岡への移住転職は現実的ですか？",
+    a: "フルリモート前提であれば現実的な選択肢です。居住地を福岡に移し、首都圏企業の年収水準を保ちながら福岡の生活コストで暮らすという働き方を選ぶエンジニアもいます。一方、出社頻度のある求人では通勤・出張の負担を見積もる必要があります。求人ごとの出社要件を早めに確認しましょう。",
+  },
+  {
+    q: "福岡でフルリモートの求人は見つかりますか？",
+    a: "福岡拠点の企業でもハイブリッドやフルリモートの選択肢が広がっているほか、首都圏企業のフルリモート求人に福岡在住のまま応募する方法もあります。エージェントに『福岡在住・フルリモート希望』と明確に伝えると、対象求人を絞り込んでもらいやすくなります。",
+  },
+  {
+    q: "福岡のIT転職におすすめのエージェントは？",
+    a: "IT特化で技術理解を重視するならレバテックキャリア、拠点網の広さとスピードを重視するならワークポート、求人量を重視するならdoda、スタートアップ志向ならダイレクトリクルーティングのGreenが候補です。複数併用して提案傾向を比較するのがおすすめです。",
+  },
+  {
+    q: "福岡は生活コストが安いと聞きますが本当ですか？",
+    a: "一般に住居費は首都圏より抑えやすいとされ、可処分所得の観点で魅力があると評価されます。ただし個々の家賃・生活費は条件次第で大きく異なるため、額面年収と生活コストの両面で具体的に試算して判断するのが確実です。",
+  },
+  {
+    q: "福岡でスタートアップに転職する場合の注意点は？",
+    a: "スタートアップは裁量や成長機会が大きい一方、事業フェーズによって安定性やストックオプションの扱いが異なります。給与・待遇・株式条件・キャッシュポジションなどを面談で具体的に確認することが重要です。大企業との違いは、スタートアップと大企業の比較記事もあわせて参考にしてください。",
+  },
 ];
 
 export default function FukuokaAreaPage() {
@@ -57,8 +114,8 @@ export default function FukuokaAreaPage() {
   return (
     <>
       <ArticleJsonLd
-        title="福岡のIT転職事情【2026年】求人数・年収・おすすめエージェント"
-        description="福岡のIT・Webエンジニア転職市場を徹底解説。スタートアップ都市としての魅力、天神ビッグバン効果、リモートワーク移住、おすすめエージェントを紹介します。"
+        title="福岡のIT転職事情【2026年】スタートアップとリモート移住の選択肢"
+        description="福岡のIT・Webエンジニア転職を解説。スタートアップ支援で知られる都市の特徴、働き方の選択肢、年代別年収の考え方、エリア対応エージェント、移住の進め方を紹介します。"
         url="/area/fukuoka/"
       />
       <script
@@ -75,144 +132,275 @@ export default function FukuokaAreaPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          福岡のIT転職事情【2026年】求人数・年収・おすすめエージェント
+          福岡のIT転職事情【2026年】スタートアップとリモート移住の選択肢
         </h1>
-        <p className="text-slate-500 text-sm mb-8">
-          最終更新: 2026年6月 | 福岡エリアのIT転職完全ガイド
+        <p className="text-slate-500 text-sm mb-6">
+          最終更新: 2026年6月 | 福岡エリアのIT転職ガイド
         </p>
 
-        <section className="mb-10">
-          <p className="text-slate-600 leading-relaxed mb-4">
-            福岡は「スタートアップ都市」として急成長しているIT市場です。天神ビッグバンによる再開発、国家戦略特区によるスタートアップ支援、そしてリモートワーク移住の受け皿として注目を集めています。
-          </p>
+        <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
-            本記事では、福岡のエリア別の求人特徴、年収相場、スタートアップ環境、リモートワーク移住の実情、おすすめエージェントを30代・40代エンジニア向けに詳しく解説します。
+            福岡は、創業・スタートアップ支援に前向きな都市として広く知られ、エンジニア向けのコミュニティや勉強会が活発な土地柄です。加えて、住居費を抑えやすく生活コストの面で移住先として注目される都市でもあります。本記事では、公開情報をベースに福岡のIT転職市場の特徴、働き方の選択肢、年代別の年収の考え方、エリア対応エージェントを30代・40代向けに整理します。
           </p>
         </section>
 
-        {/* 市場概要 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">福岡IT転職市場の概要</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-            <div className="bg-blue-50 rounded-lg p-5 text-center">
-              <p className="text-3xl font-bold text-blue-700 mb-1">約8,000件</p>
-              <p className="text-sm text-blue-600">IT求人数（2026年6月）</p>
+        <DataNote
+          surveyedAt="2026年6月"
+          sources={[
+            "レバテック公表の年代別平均年収（2025年）",
+            "経済産業省 IT人材需給に関する調査（2019年3月公表）",
+            "各エージェント公式・転職メディア集計",
+          ]}
+        />
+
+        {/* 結論 */}
+        <section id="conclusion" className="mb-10 scroll-mt-20">
+          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：福岡IT転職市場の特徴</h2>
+            <p className="text-sm text-blue-900 leading-relaxed mb-3">
+              福岡のIT転職は「スタートアップ・自社開発を志向するエンジニア」と「生活コストを抑えてQOLを上げたい移住希望者」の双方に選択肢が広い市場です。地元のWeb/スタートアップ求人と、首都圏のフルリモート求人を組み合わせて考えると、年収と働き方のバランスを取りやすくなります。
+            </p>
+            <ul className="text-sm text-blue-900 space-y-1.5">
+              <li>・スタートアップ支援で知られ、Web/自社開発のコミュニティが活発</li>
+              <li>・住居費を抑えやすく、可処分所得の観点で移住の魅力がある</li>
+              <li>・首都圏フルリモート求人を併用すれば年収水準の選択肢が広がる</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* 目次 */}
+        <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-lg p-5">
+          <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
+          <ol className="space-y-2 text-sm">
+            {toc.map((item) => (
+              <li key={item.id}>
+                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+
+        {/* 市場 */}
+        <section id="market" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">福岡のIT企業集積と特徴</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            福岡のIT市場を語るうえで欠かせないのが、スタートアップに前向きな都市文化です。福岡市は創業支援に積極的な都市として広く知られ、エンジニア向けのイベントや勉強会、コワーキング拠点を中心としたコミュニティが活発という定性的な評価があります。経済産業省が2019年3月に公表した「IT人材需給に関する調査」では2030年に最大約79万人のIT人材不足が試算されており、地方の中核都市である福岡でもDX・開発人材の需要は構造的に続くと見られます。
+          </p>
+          <div className="space-y-4">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 text-sm mb-2">天神・博多エリア</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                天神は再開発が進むビジネス中心地として知られ、IT企業の拠点やWeb系・自社開発の企業が見られます。博多駅周辺はSIerや受託開発企業が集まりやすく、業務系システムの案件も多い土地柄です。都市機能が集約されており、出社・ハイブリッドいずれの働き方も選びやすいのが特徴です。
+              </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5 text-center">
-              <p className="text-3xl font-bold text-blue-700 mb-1">450万円</p>
-              <p className="text-sm text-blue-600">ITエンジニア平均年収</p>
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 text-sm mb-2">スタートアップ・自社開発の層</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                福岡はスタートアップ支援で知られる都市として、Web/SaaS・自社開発を志向するエンジニアの受け皿が比較的厚いとされます。カジュアル面談を通じて社風を確かめながら選べる求人も見られ、裁量や成長機会を重視する人に向いた選択肢があります。一方で事業フェーズによる安定性の違いは、個別に確認が必要です。
+              </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5 text-center">
-              <p className="text-3xl font-bold text-blue-700 mb-1">500社以上</p>
-              <p className="text-sm text-blue-600">ITスタートアップ数</p>
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 text-sm mb-2">求められるスキルの傾向</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Web/SaaS寄りの領域では一般的なWebアプリ開発スタック、クラウド、開発プロセスの経験が評価されやすい傾向です。スタートアップでは少人数で幅広く担える柔軟性も重視されます。自分の経験が地元の自社開発に向くか、首都圏フルリモート求人に向くかを見極めることが、福岡での求人探しの起点になります。
+              </p>
+            </div>
+          </div>
+          <p className="text-xs text-slate-500 mt-3">
+            ※ 上記は公開情報に基づく一般的な傾向の整理です。特定企業の求人数・採用数の断定は避けています。
+          </p>
+        </section>
+
+        {/* 働き方 */}
+        <section id="workstyle" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">働き方の選択肢（移住×リモート含む）</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            福岡で働くエンジニアの選択肢は、大きく次の3つに整理できます。年収・出社頻度・生活コストのどれを優先するかで、軸にすべきパターンが変わります。
+          </p>
+          <div className="space-y-3">
+            <div className="flex items-start gap-3">
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">A</span>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 天神・博多の都市機能を活かしつつ、通勤負担を抑えて働ける。地域に根ざしたキャリアやコミュニティを重視する人に向きます。
+              </p>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">B</span>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                <strong>福岡のスタートアップ・自社開発でハイブリッド:</strong> 裁量や成長機会を重視するキャリア。カジュアル面談で社風を見極めながら、開発寄りのポジションを選べます。
+              </p>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">C</span>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                <strong>福岡在住×首都圏企業のフルリモート:</strong> 福岡の生活コストを保ちつつ首都圏水準の年収を狙う選択肢。
+                <Link href="/area/remote/" className="text-blue-600 hover:underline">フルリモートIT転職ガイド</Link>
+                や
+                <Link href="/area/iiju/" className="text-blue-600 hover:underline">地方移住×IT転職ガイド</Link>
+                もあわせて検討する価値があります。
+              </p>
             </div>
           </div>
         </section>
 
-        {/* エリア別特徴テーブル */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">エリア別 求人特徴と年収相場</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border-collapse min-w-[700px]">
+        {/* 年収 */}
+        <section id="salary" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方（年代別データ）</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            福岡エリア固有の平均年収を断定できる公的データは限られます。ここでは、レバテックが公表する正社員SEの年代別平均年収（2025年・全国）を参考値として示します。エリア・領域・スキルによって実際の提示額は上下する点に留意してください。
+          </p>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border-collapse min-w-[560px]">
               <thead>
                 <tr className="bg-slate-100">
-                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">エリア</th>
-                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">主な企業タイプ</th>
-                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">年収レンジ</th>
-                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">リモート</th>
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">年代</th>
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">正社員SE平均年収（2025年・全国）</th>
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">補足</th>
                 </tr>
               </thead>
               <tbody>
-                {areas.map((area, i) => (
+                {salaryByAge.map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
-                    <td className="px-3 py-3 border border-slate-200 font-medium">{area.name}</td>
-                    <td className="px-3 py-3 border border-slate-200">{area.companies}</td>
-                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{area.salary}</td>
-                    <td className="px-3 py-3 border border-slate-200">{area.remote}</td>
+                    <td className="px-3 py-3 border border-slate-200 font-medium">{row.age}</td>
+                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{row.salary}</td>
+                    <td className="px-3 py-3 border border-slate-200 text-slate-600">{row.note}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 年収レンジは2026年6月時点の概算。スキル・経験・ポジションにより異なります。</p>
+          <p className="text-xs text-slate-500 mb-4">
+            ※ 出典: レバテック公表の年代別平均年収（2025年・正社員SE）。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。いずれも全国の値で、福岡エリア限定の数値ではありません。
+          </p>
+          <p className="text-slate-600 leading-relaxed">
+            福岡で年収を考えるときは、額面と生活コストのバランスが鍵になります。住居費を抑えやすいエリアでは、同じ額面でも可処分所得が増えやすい一方、首都圏のフルリモート求人を選べば、福岡の生活コストのまま高めの額面を狙える可能性もあります。年代別の考え方は
+            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収アップ</Link>
+            ・
+            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>
+            も参考にしてください。
+          </p>
         </section>
 
-        {/* スタートアップ都市 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">スタートアップ都市・福岡の魅力</h2>
-          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
-            <p className="text-sm text-slate-600 leading-relaxed mb-4">
-              福岡市は国家戦略特区として、スタートアップの創業を全面支援しています。法人設立の簡素化、雇用規制の緩和、オフィス賃料の補助など、エンジニアにとっても魅力的な環境が整っています。
-            </p>
-            <div className="space-y-3">
-              <div className="bg-white border border-slate-200 rounded-lg p-4">
-                <h3 className="font-bold text-slate-800 text-sm mb-1">Fukuoka Growth Next</h3>
-                <p className="text-xs text-slate-600">官民連携のスタートアップ支援施設。コワーキング、メンタリング、投資家とのマッチングイベントを定期開催。</p>
-              </div>
-              <div className="bg-white border border-slate-200 rounded-lg p-4">
-                <h3 className="font-bold text-slate-800 text-sm mb-1">エンジニアフレンドリーシティ</h3>
-                <p className="text-xs text-slate-600">福岡市が「エンジニアフレンドリーシティ」を宣言。エンジニア向けイベント、勉強会が活発で、コミュニティが充実。</p>
-              </div>
-              <div className="bg-white border border-slate-200 rounded-lg p-4">
-                <h3 className="font-bold text-slate-800 text-sm mb-1">生活コストの安さ</h3>
-                <p className="text-xs text-slate-600">家賃は東京の5〜6割、食費も安い。空港から市街地まで地下鉄で11分というアクセスの良さも魅力。</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* リモートワーク移住 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">福岡へのリモートワーク移住</h2>
+        {/* エージェント */}
+        <section id="agents" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">福岡エリアに対応するエージェント</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            福岡での転職は、全国対応の総合型と、技術理解の高いIT特化型・ダイレクトリクルーティングを組み合わせるのが基本戦略です。ワークポートは全国47都道府県57拠点を構えており、地方在住からの相談に向いています。
+          </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">東京の年収 × 福岡の生活コスト</h3>
-              <p className="text-sm text-blue-700">
-                フルリモートの東京企業に勤めながら福岡で暮らすエンジニアが急増中。東京年収700万円の場合、福岡では家賃差だけで年間60〜100万円の節約に。実質年収800万円以上の生活が可能です。
-              </p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">アクセスの良さ</h3>
-              <p className="text-sm text-blue-700">
-                福岡空港は市街地から地下鉄11分。東京まで飛行機で約2時間、LCC利用なら片道5,000円〜。月1回の東京出張も負担なく対応可能です。
-              </p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">ワークライフバランス</h3>
-              <p className="text-sm text-blue-700">
-                通勤時間の短さ、自然の豊かさ、食事の美味しさ。福岡はエンジニアのQOLを大幅に向上させる環境が整っています。ストレスの少ない環境でパフォーマンスを最大化しましょう。
-              </p>
-            </div>
+            {agents.map((a, i) => (
+              <div key={i} className="bg-blue-50 rounded-lg p-5">
+                <h3 className="font-bold text-blue-800 mb-2">
+                  {i + 1}.{" "}
+                  <Link href={a.href} className="hover:underline">
+                    {a.name}
+                  </Link>
+                </h3>
+                <p className="text-sm text-blue-700 leading-relaxed">{a.point}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-slate-500 mt-3">
+            ※ 各社の対応エリア・求人傾向は時点により変動します。複数社の比較は
+            <Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント比較</Link>
+            、リモート求人特化の比較は
+            <Link href="/compare/remote-agents/" className="text-blue-600 hover:underline">リモート求人に強いエージェント比較</Link>
+            を参照してください。
+          </p>
+        </section>
+
+        {/* 進め方 */}
+        <section id="howto" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職・移住の進め方</h2>
+          <div className="space-y-3">
+            {[
+              { step: "1", title: "軸を決める", desc: "「地元の自社開発」「スタートアップ」「首都圏フルリモート」のどれを中心に据えるかを先に決める。提案される求人の質が変わります。" },
+              { step: "2", title: "エージェントを2〜3社登録", desc: "IT特化型と全国対応の総合型を組み合わせ、スタートアップ志向ならGreenのようなダイレクト型も加える。" },
+              { step: "3", title: "出社要件・移住計画を確認", desc: "求人ごとの出社頻度を確認し、移住を伴う場合は引っ越し・住居費の試算を並行して進めます。" },
+              { step: "4", title: "職務経歴書で強みを言語化", desc: "幅広く担える柔軟性やドメイン経験など、福岡市場で評価されやすい要素を具体的に示します。" },
+              { step: "5", title: "額面＋生活コストで意思決定", desc: "複数の提案を比べ、額面だけでなく生活コスト・働き方を含めて総合判断します。" },
+            ].map((s, i) => (
+              <div key={i} className="flex items-start gap-3 border border-slate-200 rounded-lg p-4">
+                <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-800 text-white text-xs font-bold shrink-0">{s.step}</span>
+                <div>
+                  <h3 className="font-bold text-slate-800 text-sm mb-1">{s.title}</h3>
+                  <p className="text-sm text-slate-600 leading-relaxed">{s.desc}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </section>
 
-        {/* おすすめエージェント */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">福岡のIT転職におすすめのエージェント3社</h2>
-          <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">1. レバテックキャリア</h3>
-              <p className="text-sm text-blue-700">
-                福岡に拠点があり、地元IT企業との太いパイプを持つ。IT特化型ならではの技術理解が高く、福岡のスタートアップ求人も豊富。対面面談にも対応。
+        {/* 向き不向き */}
+        <section id="fit" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">福岡転職が向いている人・向いていない人</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            エリアには「合う・合わない」があります。福岡の市場特性を踏まえ、どんな志向の人が力を発揮しやすいかを整理しました。あくまで傾向であり、最終的には個々の求人とのマッチングで判断するのが基本です。
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="border border-green-200 bg-green-50 rounded-lg p-5">
+              <h3 className="font-bold text-green-800 text-sm mb-3">向いている人</h3>
+              <ul className="space-y-2">
+                {fitYes.map((t, i) => (
+                  <li key={i} className="text-sm text-green-900 leading-relaxed flex gap-2">
+                    <span className="shrink-0">✓</span>
+                    <span>{t}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="border border-slate-200 bg-slate-50 rounded-lg p-5">
+              <h3 className="font-bold text-slate-700 text-sm mb-3">慎重に検討したい人</h3>
+              <ul className="space-y-2">
+                {fitNo.map((t, i) => (
+                  <li key={i} className="text-sm text-slate-700 leading-relaxed flex gap-2">
+                    <span className="shrink-0">−</span>
+                    <span>{t}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <p className="text-sm text-slate-600 leading-relaxed mt-4">
+            「慎重に検討したい人」に当てはまっても、福岡在住のまま首都圏のフルリモート求人を狙えば、希望と地域を両立できる場合があります。スタートアップ志向か安定志向か、地元出社かフルリモートかを面談で言語化しておくと、提案のミスマッチを防げます。
+          </p>
+        </section>
+
+        {/* 30代40代視点 */}
+        <section id="middle" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            福岡は、30代・40代のミドルエンジニアが「働き方とQOLを見直す」転職先として検討しやすい市場です。スタートアップで裁量を広げる道も、首都圏の年収を保ちつつ生活コストを下げる道も選べます。
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 text-sm mb-2">30代の進め方</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                技術の市場価値を高めつつ、スタートアップで裁量を広げるか、フルリモートで首都圏案件を経験するかを意識的に選ぶフェーズ。生活基盤を整えながらキャリアの幅を広げやすい時期です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">2. ワークポート</h3>
-              <p className="text-sm text-blue-700">
-                福岡発のIT特化型エージェント。地元企業との繋がりが最も強く、非公開求人が豊富。対応スピードの速さにも定評がある。福岡のIT転職なら必ず登録すべき。
-              </p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">3. doda</h3>
-              <p className="text-sm text-blue-700">
-                福岡拠点あり。総合型の強みを活かした幅広い求人ラインナップ。フルリモート可能な東京企業の求人も紹介してもらえる。
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 text-sm mb-2">40代の進め方</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                マネジメントや高度専門など役割で評価される段階。安定性と裁量のバランスを見極め、移住によるQOL向上と年収水準を両立できる形を選ぶのが現実的です。
               </p>
             </div>
           </div>
+          <p className="text-sm text-slate-600 leading-relaxed mt-4">
+            年代別の市場感は
+            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>
+            ・
+            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>
+            、スタートアップと大企業の違いは
+            <Link href="/knowledge/startup-vs-enterprise/" className="text-blue-600 hover:underline">スタートアップvs大企業</Link>
+            もあわせてご覧ください。
+          </p>
         </section>
 
         {/* FAQ */}
-        <section className="mb-10">
+        <section id="faq" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
@@ -229,9 +417,9 @@ export default function FukuokaAreaPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">福岡のIT転職・移住を成功させよう</h2>
+          <h2 className="text-xl font-bold mb-3">福岡のIT転職・移住を進めよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            スタートアップ都市・福岡でのIT転職を実現。エージェントに登録して、福岡の最新求人とリモートワーク求人をチェックしましょう。
+            スタートアップから首都圏フルリモートまで。エリア対応のエージェントに相談して、年収と働き方のバランスが取れる選択肢を見つけましょう。
           </p>
           <Link
             href="/#ranking"
@@ -245,9 +433,11 @@ export default function FukuokaAreaPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { name: "東京のIT転職事情", href: "/area/tokyo/" },
-              { name: "リモートワーク求人の探し方", href: "/knowledge/remote-work/" },
+              { name: "フルリモートIT転職ガイド", href: "/area/remote/" },
+              { name: "地方移住×IT転職ガイド", href: "/area/iiju/" },
+              { name: "名古屋のIT転職事情", href: "/area/nagoya/" },
               { name: "スタートアップvs大企業", href: "/knowledge/startup-vs-enterprise/" },
+              { name: "リモート求人に強いエージェント比較", href: "/compare/remote-agents/" },
               { name: "IT転職エージェント10社比較", href: "/compare/agents/" },
             ].map((item, i) => (
               <Link

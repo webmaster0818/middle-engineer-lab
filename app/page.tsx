@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "30代・40代エンジニア向け転職エージェント比較ランキング【2024年最新】",
+  title: "30代・40代エンジニア向け転職エージェント比較ランキング【2026年版】",
   description:
-    "30代・40代のITエンジニアにおすすめの転職エージェント5社を徹底比較。年収UP実績・口コミ・得意分野をデータで比較し、あなたに最適なエージェントが見つかります。",
+    "30代・40代のITエンジニアにおすすめの転職エージェントを徹底比較。年収UP実績・口コミ・得意分野を出典付きデータで比較し、あなたに最適なエージェントが見つかります。最終更新2026年6月。",
 };
 
 interface Agent {
@@ -22,12 +22,12 @@ const agents: Agent[] = [
   {
     rank: 1,
     name: "レバテックキャリア",
-    tagline: "IT特化No.1 - 30代エンジニアの年収UPを実現",
+    tagline: "IT・Web特化 - 高年収求人比率が高い",
     features: [
-      "IT・Web特化の求人48,000件以上",
-      "年収800万円以上の求人が全体の半数",
-      "30代の転職成功実績が豊富",
-      "専門知識を持つキャリアアドバイザーが在籍",
+      "IT・Web特化の公開求人 約5万件超(2026年5〜6月時点・複数転職メディア集計)",
+      "年収600万円以上が公開求人の約8割との二次情報",
+      "利用者の約80%が20〜30代(公式ガイド)",
+      "技術知識を持つキャリアアドバイザーが在籍",
     ],
     pros: [
       "技術トレンドを理解したアドバイザーによる的確な提案",
@@ -39,30 +39,30 @@ const agents: Agent[] = [
       "ハイクラス寄りのため未経験者向けではない",
     ],
     recommend:
-      "実務経験3年以上の30代エンジニアで、年収600万円以上を目指す方に最適。特にWeb系・SaaS企業への転職を考えている方におすすめ。",
+      "実務経験のある30代エンジニアで、年収アップを目指す方に最適。特にWeb系・SaaS企業への転職を考えている方におすすめ。",
     reviewPath: "/review/levtech/",
   },
   {
     rank: 2,
     name: "Geekly",
-    tagline: "IT/Web/ゲーム特化 - 平均年収UP76万円の実績",
+    tagline: "IT/Web/ゲーム特化 - 提案スピードが強み",
     features: [
-      "IT・Web・ゲーム業界に特化した独占求人3万件",
-      "利用者の平均年収UP額は76万円",
-      "書類選考通過率が業界平均の3.4倍",
-      "マッチング精度の高い独自AIシステム",
+      "IT・Web・ゲーム業界に特化(2026年5月時点で非公開含め46,000件以上・二次集計)",
+      "年収アップ率約81%・平均上昇額約76万円(2025年9月時点・二次情報)",
+      "希望職種への定着率97%(二次情報)",
+      "提案スピードの速さに定評",
     ],
     pros: [
-      "ゲーム・エンタメ業界の求人に圧倒的に強い",
-      "書類添削・面接対策のサポートが手厚い",
-      "内定までのスピードが早い（平均25日）",
+      "ゲーム・エンタメ・Web業界の求人に強い",
+      "レスポンスが早く選考までスムーズ(口コミ傾向)",
+      "実務経験者への提案数が多い(口コミ傾向)",
     ],
     cons: [
-      "IT業界以外の求人はほとんどない",
-      "首都圏中心の求人構成",
+      "IT/Web/ゲーム以外の求人はほとんどない",
+      "連絡がしつこい・担当の質にばらつきとの声(Qiita Job Change等)",
     ],
     recommend:
-      "ゲーム・エンタメ・Web業界への転職を狙う30代エンジニアに最適。年収を大幅UPさせたい方や、書類選考が通らず悩んでいる方に。",
+      "ゲーム・エンタメ・Web業界への転職を狙う30代エンジニアに最適。スピーディに選考を進めたい方や、実務経験を活かしたい方に。",
     reviewPath: "/review/geekly/",
   },
   {
@@ -71,18 +71,18 @@ const agents: Agent[] = [
     tagline: "大手の安定感 - 社内SE求人が豊富",
     features: [
       "マイナビグループの信頼とネットワーク",
-      "社内SE・情シス求人が業界トップクラス",
-      "20代後半〜30代前半に強い求人構成",
-      "非公開求人が全体の80%以上",
+      "20〜30代の若手層に強い求人構成",
+      "書類添削・面接対策が手厚い",
+      "転職後定着率97.5%・年収アップ率73.7%(転職メディア集計)",
     ],
     pros: [
-      "大手企業・メーカーの社内SE求人に強い",
-      "初めての転職でも安心のサポート体制",
-      "求人の質が安定している（ブラック企業が少ない）",
+      "サポートが手厚く担当がIT業界に詳しい(口コミ傾向)",
+      "初めての転職でも安心の支援体制",
+      "若手・第二新卒層への提案に強い",
     ],
     cons: [
-      "40代向けの求人は比較的少ない",
-      "ハイクラス（年収1000万以上）は他社が強い",
+      "ハイクラス・地方求人が手薄との声(axxis等)",
+      "紹介求人数が少ない場合・連絡が多いとの声",
     ],
     recommend:
       "SIerから社内SEへのキャリアチェンジを考える30代前半のエンジニアに。大手企業の安定した環境で働きたい方におすすめ。",
@@ -93,19 +93,19 @@ const agents: Agent[] = [
     name: "ワークポート",
     tagline: "IT未経験OK - 転職決定人数No.1のスピード対応",
     features: [
-      "転職決定人数No.1の実績（リクナビNEXT調べ）",
-      "IT業界未経験者でも応募できる求人が豊富",
-      "みんスク（無料プログラミングスクール）併設",
-      "コンシェルジュの対応スピードが業界最速クラス",
+      "全国47都道府県57拠点(2025年4月現在・公式)",
+      "公開求人11万件以上・うちIT関連3万件以上(公式LP・二次)",
+      "未経験歓迎求人も豊富でスピード重視",
+      "総合型だがIT・ゲーム領域が最も強い",
     ],
     pros: [
+      "紹介求人の量が多くレスポンスが早い(口コミ傾向)",
       "異業種からIT業界への転職支援に強い",
-      "対応が早く、登録から面談まで最短当日",
-      "無料スクールで未経験からのスキルアップも可能",
+      "未経験歓迎求人が豊富",
     ],
     cons: [
-      "ハイクラス求人は少なめ",
-      "アドバイザーの質にばらつきがある",
+      "連絡が多すぎるとの声(axxis/イーデス等)",
+      "希望と異なる求人紹介・担当の専門性にばらつき",
     ],
     recommend:
       "製造業や金融業からITエンジニアへのキャリアチェンジを目指す30代に。未経験からでもIT業界に入りたい方に最適。",
@@ -116,22 +116,22 @@ const agents: Agent[] = [
     name: "doda(IT特化)",
     tagline: "求人数最多級 - エージェント+サイト両方使える",
     features: [
-      "業界最多級のIT求人数を保有",
-      "エージェントとサイトの両方が使える柔軟性",
-      "40代のエンジニア向け求人も豊富",
-      "年収査定ツールなど独自の無料サービスが充実",
+      "IT・通信エンジニア求人5万件超(2026年2月時点・二次経由)",
+      "検索+エージェント+スカウトのハイブリッド型",
+      "全国対応で選択肢が広い(doda公式)",
+      "転職者の約6割が年収アップ(2024年度・パーソルキャリア公表)",
     ],
     pros: [
-      "圧倒的な求人数で選択肢が広い",
+      "求人量が多く好条件求人も多い(口コミ傾向)",
       "自分で求人を探しつつ、エージェントの提案も受けられる",
-      "40代エンジニアの転職実績が多い",
+      "全国対応でエリアを選ばない",
     ],
     cons: [
-      "求人数が多すぎて、自分に合う求人を絞りにくい",
-      "IT特化アドバイザーの専門性はレバテックに劣る",
+      "求人・連絡が多すぎるとの声(freeconsul/HonNe等)",
+      "IT専門性がやや低いとの声・担当の質にばらつき",
     ],
     recommend:
-      "40代エンジニアや、幅広い選択肢の中からじっくり選びたい方に。エージェント型と自分で探す方法の両方を使い分けたい方におすすめ。",
+      "幅広い選択肢の中からじっくり選びたい方に。エージェント型と自分で探す方法の両方を使い分けたい方におすすめ。",
     reviewPath: "/review/doda-it/",
   },
 ];
@@ -143,7 +143,7 @@ const faqs = [
   },
   {
     q: "40代エンジニアでも転職は可能ですか？",
-    a: "可能です。40代はマネジメント経験やアーキテクト経験が評価されます。ただし求人数は30代より減るため、doda(IT特化)やレバテックキャリアなど40代の実績が豊富なエージェントを選ぶことが重要です。",
+    a: "可能です。40代はマネジメント経験やアーキテクト経験が評価されます。ただし求人数は30代より減る傾向があるため、全国対応で求人量の多いdoda(IT特化)や、ハイクラス求人に強いレバテックキャリアなどを併用するのが有効です。",
   },
   {
     q: "転職エージェントは何社登録すべきですか？",
@@ -159,7 +159,7 @@ const faqs = [
   },
   {
     q: "転職で年収はどのくらいUPしますか？",
-    a: "IT特化エージェント利用者の平均では50〜100万円のUPが一般的です。Geeklyは平均76万円UP、レバテックキャリアは年収800万円以上の求人が半数を占めるなど、エージェント選びが年収UPに直結します。",
+    a: "公表値ではGeeklyが年収アップ率約81%・平均上昇額約76万円(2025年9月時点・二次情報)、dodaは転職者の約6割が年収アップ(2024年度・パーソルキャリア公表)としています。アップ幅はスキル・経験・転職先により大きく異なります。レバテックキャリアは公開求人の約8割が年収600万円以上との二次情報があります。",
   },
   {
     q: "製造業からIT業界への転職は可能ですか？",
@@ -185,6 +185,17 @@ export default function Home() {
     })),
   };
 
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "ミドルエンジニア転職ラボ",
+    alternateName: "ミドルエンジニア転職ラボ | 30代・40代エンジニア転職エージェント比較",
+    url: "https://middle-engineer.com/",
+    inLanguage: "ja",
+    description:
+      "30代・40代のITエンジニアに特化した転職エージェント比較サイト。出典付きデータで厳選サービスを比較。",
+  };
+
   const itemListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -195,12 +206,16 @@ export default function Home() {
       "@type": "ListItem",
       position: agent.rank,
       name: agent.name,
-      url: `https://middle-engineer-lab.com${agent.reviewPath}`,
+      url: `https://middle-engineer.com${agent.reviewPath}`,
     })),
   };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
@@ -235,15 +250,28 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Update / Sources note */}
+      <section className="bg-slate-50 border-b border-slate-200 py-4">
+        <div className="max-w-5xl mx-auto px-4">
+          <p className="text-xs text-slate-500 leading-relaxed text-center">
+            <span className="font-medium text-slate-600">最終更新: 2026年6月</span>
+            {" ｜ "}
+            求人数・年収などの数値は調査時点の公開情報・公的統計に基づき、出典と時点を明記しています。当サイトの評価方針は
+            <Link href="/editorial/" className="text-blue-600 hover:underline">記事制作ポリシー</Link>
+            をご覧ください。
+          </p>
+        </div>
+      </section>
+
       {/* Stats */}
       <section className="bg-white py-12 border-b border-slate-100">
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { value: "5社厳選", label: "IT特化エージェント" },
-              { value: "年収UP", label: "平均50〜100万円の実績" },
-              { value: "業界特化", label: "IT/Web/ゲーム/SaaS" },
-              { value: "体験談", label: "リアルな口コミを掲載" },
+              { value: "10社調査", label: "IT転職サービスを比較" },
+              { value: "出典付き", label: "公的統計・公式データで判断" },
+              { value: "30代/40代", label: "ミドル世代に特化" },
+              { value: "口コミ要約", label: "Qiita Job Change・みん評等" },
             ].map((stat, i) => (
               <div key={i} className="text-center p-4">
                 <p className="text-2xl md:text-3xl font-bold text-blue-600 mb-1">
@@ -372,11 +400,26 @@ export default function Home() {
                 マネジメント経験や専門性が武器に。求人数は減るが、質の高いポジションが狙える。
               </p>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li>1位: doda(IT特化) - 40代向け求人が豊富</li>
+                <li>1位: doda(IT特化) - 全国対応で選択肢が広い</li>
                 <li>2位: レバテックキャリア - ハイクラス求人に強い</li>
                 <li>3位: ワークポート - 異業種からのIT転職に</li>
               </ul>
             </div>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-6">
+            {[
+              { name: "30代エンジニアの転職", slug: "30s" },
+              { name: "35歳前後の転職", slug: "35" },
+              { name: "40代エンジニアの転職", slug: "40s" },
+            ].map((a) => (
+              <Link
+                key={a.slug}
+                href={`/age/${a.slug}/`}
+                className="border border-slate-200 rounded-lg p-4 text-center bg-slate-50 hover:shadow-md transition text-sm font-medium text-slate-700"
+              >
+                {a.name} →
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -397,30 +440,54 @@ export default function Home() {
                 from: "製造業",
                 to: "製造DX / IoTエンジニア",
                 desc: "生産管理・品質管理の知識が、スマートファクトリー推進で高く評価される",
-                agents: "ワークポート、doda(IT特化)",
+                slug: "manufacturing",
               },
               {
                 from: "金融業",
                 to: "フィンテックエンジニア",
                 desc: "金融業務知識があるエンジニアは、決済・保険テック企業で希少人材",
-                agents: "レバテックキャリア、Geekly",
+                slug: "finance",
               },
               {
                 from: "医療・製薬",
                 to: "ヘルステックエンジニア",
-                desc: "電子カルテ・医療AI・遠隔診療など、医療DXの需要が急拡大中",
-                agents: "doda(IT特化)、マイナビIT AGENT",
+                desc: "電子カルテ・医療AI・遠隔診療など、医療DXの需要が拡大",
+                slug: "healthcare",
               },
             ].map((item, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 border border-slate-200">
+              <Link
+                key={i}
+                href={`/industry/${item.slug}/`}
+                className="block bg-white rounded-xl p-6 border border-slate-200 hover:shadow-md transition"
+              >
                 <div className="flex items-center gap-2 mb-3 text-sm font-bold">
                   <span className="text-slate-600">{item.from}</span>
                   <span className="text-blue-600">→</span>
                   <span className="text-blue-600">{item.to}</span>
                 </div>
                 <p className="text-sm text-slate-500 mb-3">{item.desc}</p>
-                <p className="text-xs text-slate-400">おすすめ: {item.agents}</p>
-              </div>
+                <p className="text-xs text-blue-600 font-medium">業界別ガイドを読む →</p>
+              </Link>
+            ))}
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-6">
+            {[
+              { name: "ゲーム業界", slug: "gaming" },
+              { name: "広告・メディア", slug: "advertising" },
+              { name: "物流・運輸", slug: "logistics" },
+              { name: "小売・EC", slug: "retail" },
+              { name: "保険", slug: "insurance" },
+              { name: "不動産", slug: "realestate" },
+              { name: "官公庁・自治体", slug: "government" },
+              { name: "SIerからWeb系へ", slug: "sier-to-web" },
+            ].map((ind) => (
+              <Link
+                key={ind.slug}
+                href={`/industry/${ind.slug}/`}
+                className="border border-slate-200 rounded-lg p-3 text-center bg-white hover:shadow-md transition text-xs md:text-sm font-medium text-slate-700"
+              >
+                {ind.name}
+              </Link>
             ))}
           </div>
         </div>
@@ -535,8 +602,8 @@ export default function Home() {
               { name: "PM → CTO", slug: "pm-to-cto" },
               { name: "SRE（サイト信頼性エンジニア）", slug: "sre" },
               { name: "テックリード", slug: "tech-lead" },
-              { name: "大企業 → スタートアップ", slug: "enterprise-to-startup" },
-              { name: "フリーランス → 正社員", slug: "freelance-to-fulltime" },
+              { name: "大企業 → スタートアップ", slug: "corporate-to-startup" },
+              { name: "フリーランス → 正社員", slug: "freelance-to-permanent" },
             ].map((career) => (
               <Link
                 key={career.slug}
@@ -564,11 +631,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "年収UP", slug: "salary-up" },
-              { name: "WLB重視", slug: "work-life-balance" },
-              { name: "フルリモート", slug: "full-remote" },
-              { name: "自社開発", slug: "in-house-dev" },
-              { name: "技術力UP", slug: "skill-up" },
-              { name: "安定重視", slug: "stability" },
+              { name: "WLB重視", slug: "wlb" },
+              { name: "フルリモート", slug: "remote-full" },
+              { name: "自社開発", slug: "jigyoukaihatsu" },
+              { name: "技術力UP", slug: "growth" },
+              { name: "安定重視", slug: "stable" },
             ].map((purpose) => (
               <Link
                 key={purpose.slug}
@@ -601,8 +668,8 @@ export default function Home() {
               { name: "福岡", slug: "fukuoka" },
               { name: "横浜", slug: "yokohama" },
               { name: "札幌", slug: "sapporo" },
-              { name: "フルリモート", slug: "full-remote" },
-              { name: "地方移住", slug: "rural-migration" },
+              { name: "フルリモート", slug: "remote" },
+              { name: "地方移住・Uターン", slug: "iiju" },
             ].map((area) => (
               <Link
                 key={area.slug}
@@ -630,11 +697,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテック vs Geekly", slug: "levtech-vs-geekly" },
-              { name: "30代向けランキング", slug: "best-for-30s" },
-              { name: "40代向けランキング", slug: "best-for-40s" },
-              { name: "ハイクラス比較", slug: "high-class" },
-              { name: "年収UPランキング", slug: "salary-up-ranking" },
-              { name: "リモート求人に強いエージェント", slug: "remote-friendly" },
+              { name: "30代向けランキング", slug: "30s-agents" },
+              { name: "40代向けランキング", slug: "40s-agents" },
+              { name: "ハイクラス比較", slug: "highclass" },
+              { name: "年収UPランキング", slug: "salary-ranking" },
+              { name: "リモート求人に強いエージェント", slug: "remote-agents" },
             ].map((compare) => (
               <Link
                 key={compare.slug}
@@ -648,6 +715,41 @@ export default function Home() {
           <div className="text-center mt-8">
             <Link href="/compare/agents/" className="text-blue-600 hover:underline font-medium text-sm">
               すべての比較記事を見る →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Knowledge */}
+      <section id="knowledge" className="bg-slate-50 py-16">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-800 text-center mb-2">
+            転職ノウハウ・お役立ちガイド
+          </h2>
+          <p className="text-center text-slate-500 mb-10 text-sm">
+            職務経歴書・年収交渉・エージェントの選び方など、進め方の実践知識
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {[
+              { name: "エンジニアの職務経歴書の書き方", slug: "resume" },
+              { name: "年収交渉の進め方", slug: "salary-negotiation" },
+              { name: "転職エージェントの選び方", slug: "how-to-choose" },
+              { name: "複数エージェントの使い分け", slug: "multiple-agents" },
+              { name: "初回面談で聞かれること", slug: "agent-first-meeting" },
+              { name: "自分の市場価値の調べ方", slug: "market-value" },
+            ].map((k) => (
+              <Link
+                key={k.slug}
+                href={`/knowledge/${k.slug}/`}
+                className="border border-slate-200 rounded-lg p-5 bg-white hover:shadow-md transition text-sm font-medium text-slate-700"
+              >
+                {k.name}
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/knowledge/" className="text-blue-600 hover:underline font-medium text-sm">
+              すべての転職ノウハウを見る →
             </Link>
           </div>
         </div>

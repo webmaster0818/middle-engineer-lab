@@ -2,46 +2,80 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
+import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "京都のIT転職事情【2026年】任天堂・研究機関・年収相場",
+  title: "京都のITエンジニア転職事情【2026年】特徴と進め方",
   description:
-    "京都のIT・Webエンジニア転職市場を徹底解説。任天堂・京セラなどの大手企業、京大発スタートアップ、研究機関連携のIT求人、年収相場、おすすめエージェントを30代・40代向けに紹介します。",
+    "京都のIT・Webエンジニア転職市場を解説。任天堂をはじめとする企業集積、研究機関連携、働き方の選択肢、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。",
 };
+
+const toc = [
+  { id: "conclusion", label: "結論：京都のIT転職市場の特徴" },
+  { id: "cluster", label: "京都のIT企業集積と特徴" },
+  { id: "workstyle", label: "働き方の選択肢" },
+  { id: "salary", label: "年収の考え方（年代別）" },
+  { id: "agents", label: "京都に対応するエージェント" },
+  { id: "howto", label: "転職の進め方" },
+  { id: "middle", label: "30代・40代の視点" },
+  { id: "faq", label: "よくある質問" },
+  { id: "related", label: "関連記事" },
+];
 
 const faqs = [
   {
-    q: "京都のITエンジニアの平均年収は？",
-    a: "2026年時点で京都のITエンジニアの平均年収は約520万円です。任天堂・京セラなどの大手企業では700万円以上、30代で480〜650万円、40代で580〜800万円が目安です。",
+    q: "京都のITエンジニアの年収はどのくらいが目安ですか？",
+    a: "全国の正社員SEの年代別平均（レバテック公表・2025年）では30代約499万円、40代約618万円です。京都はメーカーや研究機関に近い専門性の高い求人がある一方、地方は首都圏より相場が下がる傾向もあります。具体的なレンジは企業規模・職種・スキルで大きく変わります。",
   },
   {
-    q: "京都で求人が多いエリアはどこ？",
-    a: "京都駅周辺（SIer・大手企業）、四条烏丸（Web系・スタートアップ）、南区・伏見区（任天堂・製造業DX）が主要エリアです。京大周辺には研究機関発のAIスタートアップも集積しています。",
+    q: "京都に任天堂の本社があるのは本当ですか？",
+    a: "はい、任天堂株式会社の本社は京都市にあります（公知の事実）。ゲーム・エンタメ領域に関心がある人にとって象徴的な企業ですが、中途採用の枠は限られます。採用情報の整理は当サイトの任天堂ページも参考にしてください。",
   },
   {
-    q: "京都の任天堂関連のIT求人は？",
-    a: "任天堂本社は京都市南区にあり、ゲーム開発エンジニア、サーバーインフラ、AI/ML、UIデザインなどのポジションがあります。ただし中途採用の門戸は狭く、関連会社やパートナー企業経由の求人が現実的です。",
+    q: "京都と大阪、どちらがIT転職で有利ですか？",
+    a: "求人の絶対数は大阪が多く、選択肢の広さでは大阪が有利です。京都はメーカー・研究機関・大学発スタートアップなど特色ある求人が見られます。京都に住みながら大阪の企業に通勤・リモート勤務する人も多く、両都市を合わせて探すのが現実的です。",
   },
   {
-    q: "大阪と京都、どちらがIT転職に有利？",
-    a: "求人数は大阪の方が圧倒的に多いですが、京都は研究機関×AI、ゲーム、精密機器など独自の強みがあります。両方に通勤可能なエリアに住み、幅広く求人を探すのがおすすめです。",
-  },
-  {
-    q: "京都のリモートワーク事情は？",
-    a: "フルリモート率は約15%とまだ低めですが、大阪の企業にリモート勤務するパターンが増えています。京都のQOLを維持しながら大阪水準の年収を得られる選択肢として人気です。",
+    q: "京都でフルリモートの求人は見つかりますか？",
+    a: "Web系・SaaS企業を中心にリモート可の求人は存在し、東京・大阪本社の全国採用求人も対象になります。一方、ゲーム開発や研究機関、メーカー系は機密性の観点から出社中心の傾向があります。出社頻度は面談で必ず確認しましょう。",
   },
   {
     q: "京都のIT転職におすすめのエージェントは？",
-    a: "レバテックキャリア（関西のIT求人が豊富）、Geekly（ゲーム業界に強い）、doda（京都の大手企業求人に強い）の3社がおすすめです。大阪の求人も合わせて探すと選択肢が広がります。",
+    a: "IT特化で全国の求人を扱うレバテックキャリア、ゲーム・Web/IT業界に強いGeekly、全国対応で求人量が多いdoda ITエンジニアが基本の選択肢です。京都だけでなく大阪の求人も合わせて提案してもらうと選択肢が広がります。",
+  },
+  {
+    q: "30代・40代でも京都で転職できますか？",
+    a: "経済産業省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれ、経験者の需要は底堅い状況です。京都のメーカー・研究機関系は専門性やマネジメント経験が評価されやすく、30代・40代でも実務経験があればチャンスがあります。",
+  },
+  {
+    q: "京都の研究機関・大学発スタートアップで働くには？",
+    a: "AI・データ・組込みなどの専門スキルが求められる傾向があります。アカデミア発の企業はカジュアル面談を実施することも多く、技術ブログや採用ページから直接応募できるケースもあります。エージェントと直接応募を併用すると間口が広がります。",
+  },
+  {
+    q: "ゲーム業界に転職したい場合、京都は有利ですか？",
+    a: "京都はゲーム・エンタメ領域の企業集積があり、関心の高い人には魅力的なエリアです。ただし人気職種は競争率が高く、ポートフォリオや実績が重要になります。ゲーム業界に強いエージェントの活用が近道です。",
   },
 ];
 
-const areas = [
-  { name: "京都駅周辺", companies: "SIer、大手企業IT部門、通信", salary: "480〜700万円", feature: "交通の要所。大手SIerやIT企業の京都拠点が集中。新幹線で東京・大阪へのアクセス良好。", remote: "ハイブリッド中心" },
-  { name: "四条烏丸", companies: "Web系、スタートアップ、EC", salary: "450〜650万円", feature: "京都のビジネス街。Web系スタートアップやEC企業が増加中。オシャレなオフィス環境。", remote: "フルリモート率 中" },
-  { name: "南区・伏見区", companies: "ゲーム、精密機器、製造業DX", salary: "520〜800万円", feature: "任天堂本社エリア。ゲーム開発や精密機器のDX関連求人。年収水準が高い。", remote: "出社中心" },
-  { name: "左京区（京大周辺）", companies: "AI、研究機関、アカデミア発SU", salary: "500〜750万円", feature: "京都大学発のAIスタートアップが集積。研究機関との連携案件が豊富。", remote: "ハイブリッド中心" },
-  { name: "桂・長岡京", companies: "電子部品、半導体関連IT", salary: "500〜720万円", feature: "村田製作所、ロームなど電子部品大手の開発拠点。組込み・IoT求人が多い。", remote: "出社中心" },
+const agents = [
+  {
+    name: "レバテックキャリア",
+    href: "/review/levtech/",
+    point:
+      "IT/Web特化で全国の求人を扱う。技術理解に基づく提案と年収交渉が強み。内定承諾者のうち応募時年収との差が70万円以上＝3人に2人（2023年1月〜2024年3月実績）。京都・大阪を含む関西の求人を相談しやすい。",
+  },
+  {
+    name: "Geekly（ギークリー）",
+    href: "/review/geekly/",
+    point:
+      "IT/Web/ゲーム業界に専門特化。提案スピードが強みで、年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）。ゲーム領域に関心がある人に向く。求人は首都圏中心のため京都求人の有無は要確認。",
+  },
+  {
+    name: "doda ITエンジニア",
+    href: "/review/doda-it/",
+    point:
+      "全国対応の国内最大級。IT・通信エンジニア求人は5万件超（2026年2月時点・二次経由）。メーカー・大手のDX求人を含め幅広くカバーし、京都・大阪の求人を同時に探しやすい。",
+  },
 ];
 
 export default function KyotoAreaPage() {
@@ -58,8 +92,8 @@ export default function KyotoAreaPage() {
   return (
     <>
       <ArticleJsonLd
-        title="京都のIT転職事情【2026年】任天堂・研究機関・年収相場"
-        description="京都のIT・Webエンジニア転職市場を徹底解説。任天堂・京大発スタートアップなどの求人特徴、年収相場、おすすめエージェントを紹介します。"
+        title="京都のITエンジニア転職事情【2026年】特徴と進め方"
+        description="京都のIT・Webエンジニア転職市場を解説。任天堂などの企業集積、研究機関連携、働き方、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。"
         url="/area/kyoto/"
       />
       <script
@@ -76,130 +110,278 @@ export default function KyotoAreaPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          京都のIT転職事情【2026年】任天堂・研究機関・年収相場
+          京都のITエンジニア転職事情【2026年】特徴と進め方
         </h1>
-        <p className="text-slate-500 text-sm mb-8">
-          最終更新: 2026年6月 | 京都エリアのIT転職完全ガイド
+        <p className="text-slate-500 text-sm mb-6">
+          最終更新: 2026年6月 | 京都エリアのIT転職ガイド
         </p>
 
-        <section className="mb-10">
-          <p className="text-slate-600 leading-relaxed mb-4">
-            京都は任天堂・京セラ・村田製作所などの世界的企業と、京都大学を中心とした研究機関が融合する独自のIT転職市場を形成しています。ゲーム、AI、電子部品という3つの柱が特徴です。
-          </p>
-          <p className="text-slate-600 leading-relaxed">
-            本記事では、京都のエリア別の求人特徴、年収相場、リモートワーク事情、おすすめエージェントを30代・40代エンジニア向けに詳しく解説します。
-          </p>
-        </section>
+        <DataNote
+          surveyedAt="2026年6月"
+          sources={[
+            "レバテック公表の年代別平均年収（2025年）",
+            "経済産業省「IT人材需給に関する調査」（2019年3月公表）",
+            "各エージェント公式・転職メディア集計値",
+          ]}
+        />
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">京都IT転職市場の概要</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-            <div className="bg-blue-50 rounded-lg p-5 text-center">
-              <p className="text-3xl font-bold text-blue-700 mb-1">約6,200件</p>
-              <p className="text-sm text-blue-600">IT求人数（2026年6月）</p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5 text-center">
-              <p className="text-3xl font-bold text-blue-700 mb-1">520万円</p>
-              <p className="text-sm text-blue-600">ITエンジニア平均年収</p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5 text-center">
-              <p className="text-3xl font-bold text-blue-700 mb-1">約35%</p>
-              <p className="text-sm text-blue-600">リモート対応求人率</p>
-            </div>
+        {/* 結論 */}
+        <section id="conclusion" className="mb-10">
+          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：京都は特色ある専門求人と大阪通勤圏の両立エリア</h2>
+            <p className="text-sm text-blue-900 leading-relaxed mb-3">
+              京都はゲーム・エンタメ、メーカー、大学・研究機関といった特色ある企業が集まる一方、求人の絶対数は大阪より少ないエリアです。京都に住みながら大阪の企業へ通勤・リモート勤務するスタイルも一般的で、京都・大阪を合わせて探すのが現実的です。任天堂株式会社の本社が京都にあることは公知の事実で、ゲーム領域に関心がある人には象徴的な土地でもあります。
+            </p>
+            <ul className="text-sm text-blue-900 space-y-1 list-disc list-inside">
+              <li>ゲーム・メーカー・研究機関など特色ある求人があり、専門性を活かしやすい</li>
+              <li>求人数は大阪に劣るため、大阪求人やフルリモート求人との併用が前提</li>
+              <li>生活環境・QOLを重視するUターン・Iターン層の受け皿になりやすい</li>
+            </ul>
           </div>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">エリア別 求人特徴と年収相場</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border-collapse min-w-[700px]">
+        {/* 目次 */}
+        <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
+          <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
+          <ul className="space-y-2 text-sm">
+            {toc.map((item) => (
+              <li key={item.id}>
+                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        {/* IT企業集積 */}
+        <section id="cluster" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">京都のIT企業集積と特徴</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            京都のIT求人は、市内中心部のビジネス街と、メーカー・研究機関の拠点が点在するエリアに分かれます。以下は公開情報から見える定性的な傾向であり、求人数・企業数の具体的な断定ではない点にご留意ください。
+          </p>
+          <div className="space-y-4">
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-2">京都駅周辺・四条烏丸</h3>
+              <p className="text-sm text-slate-600">
+                京都のビジネス中心地で、SIerの拠点やWeb系・EC・スタートアップのオフィスが見られます。交通の要所で大阪・東京へのアクセスも良好です。
+              </p>
+            </div>
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-2">ゲーム・エンタメ領域</h3>
+              <p className="text-sm text-slate-600">
+                京都はゲーム・エンタメ企業の集積で知られます。任天堂株式会社の本社が京都市にあることは公知の事実で、関連・パートナー企業を含めた裾野が広い領域です。詳しくは
+                <Link href="/company/nintendo/" className="text-blue-600 hover:underline">任天堂の転職・採用ページ</Link>
+                をご覧ください。
+              </p>
+            </div>
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-2">メーカー・電子部品系</h3>
+              <p className="text-sm text-slate-600">
+                京都には電子部品・精密機器メーカーの本社・開発拠点が立地します。組込み・IoT・業務システムなど、ハードウェアに近い領域のエンジニア求人が見られます。
+              </p>
+            </div>
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-2">大学・研究機関連携</h3>
+              <p className="text-sm text-slate-600">
+                京都大学をはじめ大学・研究機関が多く、AI・データ領域の大学発スタートアップが生まれやすい土壌があります。専門性の高い職種に関心がある人に向いた環境です。
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-6 space-y-4">
+            <p className="text-slate-600 leading-relaxed">
+              京都のIT市場を俯瞰すると、首都圏や大阪のように「Web系・SaaSの自社開発求人が層として厚い」というより、ゲーム・エンタメ、ハードウェアに近い組込み・制御、そしてアカデミア発のAI・データ領域といった、専門性で差別化された求人が点在しているのが特徴です。求人の母数自体は大阪に大きく劣るため、「京都で働く」を主目的にすると選択肢が一気に狭まります。一方で、ゲーム開発や精密機器の組込み、研究機関との連携プロジェクトなど、特定領域で経験を深めたい人にとっては、首都圏にも引けを取らない魅力的な環境が見つかることがあります。
+            </p>
+            <p className="text-slate-600 leading-relaxed">
+              また、京都は学生数の多い学術都市であり、大学発スタートアップやリサーチ寄りの企業がカジュアル面談を通じて人材を探すケースが見られます。こうした企業は転職エージェント経由の求人だけでなく、採用ページや技術ブログからの直接応募で出会えることも多いため、エージェント登録と並行して気になる企業を直接チェックしておくと、間口を広げられます。求人の探し方を一つの経路に依存しないことが、京都のような市場では特に重要です。
+            </p>
+          </div>
+        </section>
+
+        {/* 働き方 */}
+        <section id="workstyle" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">働き方の選択肢</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            京都を拠点にする場合、働き方は大きく3パターンに分けられます。京都は求人数が限られるぶん、大阪・東京を視野に入れると選択肢が広がります。
+          </p>
+          <div className="space-y-3">
+            <div className="flex items-start gap-3">
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">1</span>
+              <p className="text-sm text-slate-600"><strong>京都の企業に勤める：</strong> ゲーム・メーカー・研究機関系は出社中心の傾向。専門性を深めたい人に向く。</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">2</span>
+              <p className="text-sm text-slate-600"><strong>大阪の企業に通勤／リモート：</strong> 京都〜大阪は通勤圏内。京都のQOLを保ちながら大阪の求人にアクセスできる。</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">3</span>
+              <p className="text-sm text-slate-600"><strong>東京企業にフルリモート：</strong> 居住地は京都のまま首都圏水準の年収を狙える。全国採用のフルリモート求人が対象。</p>
+            </div>
+          </div>
+          <p className="text-slate-600 leading-relaxed mt-4">
+            京都の場合、現実的に最も選択肢が広がるのは「京都の特色ある求人」と「大阪通勤・リモートの求人」を併せて検討するパターンです。京都〜大阪は通勤圏内のため、居住地を京都に保ったまま大阪の事業会社・SIer・Web系まで対象を広げられます。さらにフルリモートを許容できれば、東京本社の全国採用求人も射程に入り、年収面の選択肢が一段と増えます。京都という土地のQOLを活かしつつ、求人の母数は大阪・東京で補うという発想が、このエリアでは特に有効です。
+          </p>
+          <p className="text-sm text-slate-500 mt-4">
+            大阪の市場は
+            <Link href="/area/osaka/" className="text-blue-600 hover:underline">大阪のIT転職事情</Link>
+            、リモート前提の探し方は
+            <Link href="/area/remote/" className="text-blue-600 hover:underline">リモートワーク求人の探し方</Link>
+            を参照してください。
+          </p>
+        </section>
+
+        {/* 年収 */}
+        <section id="salary" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方（年代別）</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            エリア単独の正確な平均年収データは公的に整備されていないため、ここでは全国の年代別データを基準に考え方を整理します。レバテックが公表した正社員SEの年代別平均年収（2025年）は次の通りです。
+          </p>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border-collapse min-w-[480px]">
               <thead>
                 <tr className="bg-slate-100">
-                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">エリア</th>
-                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">主な企業タイプ</th>
-                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">年収レンジ</th>
-                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">リモート</th>
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">年代</th>
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">正社員SE 平均年収</th>
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">年収1,000万円以上の割合</th>
                 </tr>
               </thead>
               <tbody>
-                {areas.map((area, i) => (
-                  <tr key={i} className="hover:bg-slate-50">
-                    <td className="px-3 py-3 border border-slate-200 font-medium">{area.name}</td>
-                    <td className="px-3 py-3 border border-slate-200">{area.companies}</td>
-                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{area.salary}</td>
-                    <td className="px-3 py-3 border border-slate-200">{area.remote}</td>
-                  </tr>
-                ))}
+                <tr className="hover:bg-slate-50">
+                  <td className="px-3 py-3 border border-slate-200 font-medium">20代</td>
+                  <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約378万円</td>
+                  <td className="px-3 py-3 border border-slate-200">―</td>
+                </tr>
+                <tr className="hover:bg-slate-50">
+                  <td className="px-3 py-3 border border-slate-200 font-medium">30代</td>
+                  <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約499万円</td>
+                  <td className="px-3 py-3 border border-slate-200">8.01%</td>
+                </tr>
+                <tr className="hover:bg-slate-50">
+                  <td className="px-3 py-3 border border-slate-200 font-medium">40代</td>
+                  <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約618万円</td>
+                  <td className="px-3 py-3 border border-slate-200">12.67%</td>
+                </tr>
+                <tr className="hover:bg-slate-50">
+                  <td className="px-3 py-3 border border-slate-200 font-medium">50代</td>
+                  <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約685万円</td>
+                  <td className="px-3 py-3 border border-slate-200">―</td>
+                </tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 年収レンジは2026年6月時点の概算。スキル・経験・ポジションにより異なります。</p>
+          <p className="text-xs text-slate-500 mb-4">
+            出典：レバテック公表の年代別平均年収（2025年）。全国値であり、京都エリア固有の数値ではありません。
+          </p>
+          <p className="text-slate-600 leading-relaxed">
+            京都もこの全国平均を基準に考えられますが、地方は首都圏より相場が下がる傾向があります。一方でメーカー・研究機関系の専門職は相応の待遇が期待できるケースもあります。年収を最優先するなら、大阪求人や東京企業のフルリモート求人を併用するのが有効です。年代別の考え方は
+            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>
+            ・
+            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>
+            も参照してください。
+          </p>
+          <p className="text-slate-600 leading-relaxed mt-4">
+            京都で年収を考える際の注意点として、メーカー・研究機関系は安定している一方で、ベンチャーやスタートアップとは給与体系・賞与・ストックオプションの考え方が大きく異なります。提示額の数字だけで比較せず、賞与比率・固定残業・福利厚生・昇給の仕組みまで含めて総合的に見ることが大切です。専門性を活かして長く働きたいのか、短期的な年収アップを狙うのかによって、選ぶべき企業タイプは変わります。エージェントには希望を具体的に伝え、提示額の内訳まで確認しておきましょう。
+          </p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">各エリアの詳細</h2>
+        {/* エージェント */}
+        <section id="agents" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">京都に対応するエージェント</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            京都の求人を扱うエージェントは、IT特化型・業界特化型・全国対応の総合型を組み合わせるのが基本です。以下はデータシートに基づく特徴です。
+          </p>
           <div className="space-y-4">
-            {areas.map((area, i) => (
-              <div key={i} className="border border-slate-200 rounded-lg p-5">
-                <h3 className="font-bold text-slate-800 mb-2">{area.name}</h3>
-                <p className="text-sm text-slate-600 mb-2">{area.feature}</p>
-                <div className="flex gap-4 text-xs text-slate-500">
-                  <span>企業タイプ: {area.companies}</span>
-                  <span>年収: {area.salary}</span>
-                </div>
+            {agents.map((a, i) => (
+              <div key={i} className="bg-blue-50 rounded-lg p-5">
+                <h3 className="font-bold text-blue-800 mb-2">
+                  {i + 1}.{" "}
+                  <Link href={a.href} className="hover:underline">
+                    {a.name}
+                  </Link>
+                </h3>
+                <p className="text-sm text-blue-900 leading-relaxed">{a.point}</p>
               </div>
             ))}
           </div>
+          <p className="text-sm text-slate-500 mt-4">
+            各社の比較は
+            <Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント10社比較</Link>
+            、複数登録のコツは
+            <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェントの複数登録ガイド</Link>
+            で解説しています。
+          </p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">京都のリモートワーク事情</h2>
+        {/* 進め方 */}
+        <section id="howto" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            京都での転職は、求人の母数が大阪より少ないぶん「対象範囲をどう設計するか」が成否を分けます。京都市内に閉じて探すか、大阪通勤・リモートまで広げるかで、出会える求人の数も年収レンジも大きく変わります。さらに京都は研究機関・スタートアップが直接応募で人材を探すケースもあるため、エージェント任せにせず複数の経路を併用するのが効果的です。以下の4ステップを目安に進めましょう。
+          </p>
+          <div className="space-y-3">
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-1 text-sm">1. 京都に絞るか、大阪・リモートも含めるか決める</h3>
+              <p className="text-sm text-slate-600">京都単独は求人が限られるため、最初に対象範囲を決めると効率的です。</p>
+            </div>
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-1 text-sm">2. IT特化＋業界特化＋総合型を2〜3社登録</h3>
+              <p className="text-sm text-slate-600">京都・大阪の求人提案量を比較します。<Link href="/knowledge/agent-first-meeting/" className="text-blue-600 hover:underline">初回面談の準備</Link>を済ませておくとスムーズです。</p>
+            </div>
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-1 text-sm">3. 専門領域を職務経歴書で言語化</h3>
+              <p className="text-sm text-slate-600">ゲーム・組込み・AIなど専門性を活かすなら実績を具体的に。<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>を参考に。</p>
+            </div>
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-1 text-sm">4. 出社頻度・通勤負担を面談で確認</h3>
+              <p className="text-sm text-slate-600">大阪通勤を含む場合は通勤時間も含めて条件を見極めましょう。</p>
+            </div>
+          </div>
+        </section>
+
+        {/* 30代40代 */}
+        <section id="middle" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
-            <p className="text-sm text-slate-600 leading-relaxed mb-4">
-              京都のIT企業ではリモートワークの導入が進みつつあります。大阪の企業にリモート勤務するパターンも増え、京都の生活環境を維持しながらキャリアアップを目指すエンジニアが増加しています。
+            <p className="text-sm text-slate-600 leading-relaxed mb-3">
+              30代・40代が京都で転職する場合、求人数で勝負するより、専門性やマネジメント経験を評価する企業を狙うのが現実的です。京都のメーカー・研究機関・ゲーム系は、特定領域に深い経験を持つ人材を求める傾向があります。
             </p>
-            <div className="space-y-3">
-              <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">1</span>
-                <p className="text-sm text-slate-600"><strong>フルリモート（約15%）:</strong> Web系スタートアップ中心。大阪・東京の企業にリモート勤務するケースも。</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">2</span>
-                <p className="text-sm text-slate-600"><strong>ハイブリッド（約20%）:</strong> 大手企業を中心に週2〜3日出社。大阪への通勤を含むケースも。</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">3</span>
-                <p className="text-sm text-slate-600"><strong>フル出社（約65%）:</strong> 製造業系IT、ゲーム開発、研究機関。機密性の高い開発環境。</p>
-              </div>
+            <p className="text-sm text-slate-600 leading-relaxed mb-3">
+              経済産業省が2019年に公表した試算では2030年に最大約79万人のIT人材が不足するとされており、経験者の需要は底堅い状況です。年齢よりも、これまで積み上げた専門性とリード経験をどう言語化できるかが鍵になります。
+            </p>
+            <p className="text-sm text-slate-600 leading-relaxed">
+              家庭の事情や生活環境を優先して京都を選ぶケースも多い年代です。年収だけでなく、通勤・出社頻度・将来のキャリアを総合して判断しましょう。
+              <Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代転職の現実</Link>
+              も参考になります。
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+            <div className="border border-slate-200 rounded-xl p-5">
+              <h3 className="font-bold text-slate-800 mb-3 text-sm">京都での転職が向いている人</h3>
+              <ul className="space-y-2 text-sm text-slate-600">
+                <li>✓ ゲーム・組込み・AIなど専門領域を深めたい</li>
+                <li>✓ 京都に住みながら大阪求人も視野に入れたい</li>
+                <li>✓ 学術都市ならではの研究寄り企業に関心がある</li>
+                <li>✓ 生活環境・QOLを重視している</li>
+                <li>✓ 直接応募とエージェントを併用できる</li>
+              </ul>
+            </div>
+            <div className="border border-slate-200 rounded-xl p-5">
+              <h3 className="font-bold text-slate-800 mb-3 text-sm">慎重に検討したい人</h3>
+              <ul className="space-y-2 text-sm text-slate-600">
+                <li>・京都市内だけで多くの求人を比較したい</li>
+                <li>・Web系・SaaSの自社開発求人を層で選びたい</li>
+                <li>・現職と同水準以上の高年収を最優先したい</li>
+                <li>・通勤負担を最小限にしたい</li>
+              </ul>
+              <p className="text-xs text-slate-500 mt-3">該当する場合は、大阪求人や東京企業のフルリモート求人の併用が現実的です。</p>
             </div>
           </div>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">京都のIT転職におすすめのエージェント3社</h2>
-          <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">1. レバテックキャリア</h3>
-              <p className="text-sm text-blue-700">
-                関西エリアのIT求人が豊富。京都の大手企業からスタートアップまで幅広くカバー。年収UP率80%の交渉力で、京都でも高年収を実現。
-              </p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">2. Geekly</h3>
-              <p className="text-sm text-blue-700">
-                ゲーム業界に強く、任天堂関連企業や京都のゲーム開発会社の求人が充実。Web系スタートアップの求人も多い。
-              </p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">3. doda（IT特化）</h3>
-              <p className="text-sm text-blue-700">
-                京都の大手製造業（京セラ、村田製作所等）のDX求人が充実。安定志向のエンジニアにおすすめ。大阪の求人も同時に探せる。
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="mb-10">
+        {/* FAQ */}
+        <section id="faq" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
@@ -214,10 +396,11 @@ export default function KyotoAreaPage() {
           </div>
         </section>
 
+        {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">京都のIT転職を成功させよう</h2>
+          <h2 className="text-xl font-bold mb-3">京都のIT転職を始めよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ゲーム・AI・電子部品と独自の強みを持つ京都。IT特化型エージェントで非公開求人にもアクセスしましょう。
+            京都・大阪・フルリモートを視野に、IT特化＋総合型のエージェントへ複数登録して求人提案量を比較しましょう。
           </p>
           <Link
             href="/#ranking"
@@ -227,14 +410,16 @@ export default function KyotoAreaPage() {
           </Link>
         </section>
 
-        <section>
+        <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "大阪のIT転職事情", href: "/area/osaka/" },
               { name: "神戸のIT転職事情", href: "/area/kobe/" },
-              { name: "Geekly vs Green比較", href: "/compare/geekly-vs-green/" },
+              { name: "任天堂の転職・採用", href: "/company/nintendo/" },
               { name: "IT転職エージェント10社比較", href: "/compare/agents/" },
+              { name: "30代のIT転職", href: "/age/30s/" },
+              { name: "リモートワーク求人の探し方", href: "/area/remote/" },
             ].map((item, i) => (
               <Link
                 key={i}
