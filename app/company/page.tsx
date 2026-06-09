@@ -5,9 +5,9 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "企業別エンジニア転職ガイド一覧【30社】業態別に分類",
+  title: "企業別エンジニア転職ガイド一覧【38社】業態別に分類",
   description:
-    "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲームの全30社をエンジニア転職の視点で業態分類。各社の年収レンジ・技術スタックの傾向と、企業研究の進め方を解説します。",
+    "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲームの全38社をエンジニア転職の視点で業態分類。各社の年収レンジ・技術スタックの傾向と、企業研究の進め方を解説します。",
 };
 
 const categories = [
@@ -35,6 +35,7 @@ const categories = [
       { slug: "zozo", name: "ZOZO", salary: "600〜1,000万円", tech: "Go / Kotlin / AWS / Microservices", desc: "ファッションECの技術刷新を推進。研究組織も。" },
       { slug: "visional", name: "Visional（ビズリーチ）", salary: "600〜1,000万円", tech: "Scala / TypeScript / AWS / Kubernetes", desc: "HR Tech領域。プロダクト志向のエンジニア組織。" },
       { slug: "softbank", name: "ソフトバンク", salary: "600〜1,000万円", tech: "Java / Python / AWS / AI/ML", desc: "通信×AI。大規模インフラと新規事業の両輪。" },
+      { slug: "smartnews", name: "SmartNews", salary: "公式平均は非公開", tech: "Java / Scala / Spark / AWS", desc: "大規模配信×機械学習を少数精鋭で支えるメディアテック。" },
     ],
   },
   {
@@ -47,6 +48,15 @@ const categories = [
       { slug: "sansan", name: "Sansan", salary: "600〜950万円", tech: "Kotlin / TypeScript / AWS / ML", desc: "名刺・契約管理SaaS。データ活用に強み。" },
       { slug: "plaid", name: "プレイド", salary: "600〜1,000万円", tech: "Go / TypeScript / GCP / BigQuery", desc: "CX領域のデータ処理基盤が技術的に先進。" },
       { slug: "layerx", name: "LayerX", salary: "600〜1,000万円", tech: "Go / TypeScript / AWS / Blockchain", desc: "業務効率化SaaSとフィンテックを推進。" },
+      { slug: "paypay", name: "PayPay", salary: "公式平均は非公開", tech: "Java / Spring Boot / Kubernetes / AWS", desc: "国内最大級の決済基盤。英語を使う多国籍な開発組織。" },
+      { slug: "ubie", name: "Ubie（ユビー）", salary: "職種別レンジ（公式）", tech: "Go / Node.js / TypeScript / GCP", desc: "医師×エンジニア創業のヘルステック。年齢不問・要件主義。" },
+      { slug: "kakehashi", name: "カケハシ", salary: "参考値（非公式集計）", tech: "TypeScript / React / Node.js / AWS", desc: "薬局DX。TypeScript一貫のサーバーレス。選考フロー公開。" },
+      { slug: "10x", name: "10X（テンエックス）", salary: "参考値（非公式集計）", tech: "Dart / Flutter / GCP / gRPC", desc: "ネットスーパーDX「Stailer」。クライアントもサーバーもフルDart。" },
+      { slug: "andpad", name: "ANDPAD（アンドパッド）", salary: "参考値（非公式集計）", tech: "Ruby on Rails / Go / Kubernetes", desc: "建設DXシェアNo.1クラス。SRE文化・プレIPO。" },
+      { slug: "cybozu", name: "サイボウズ", salary: "約687〜719万円(年度で差)", tech: "Java / Go / TypeScript / React", desc: "kintone等の長寿SaaSを刷新。働き方の自由度が高い。" },
+      { slug: "base", name: "BASE", salary: "700万円(全従業員平均)", tech: "PHP / Go / Next.js / AWS", desc: "ネットショップ・決済。PHP資産の進化とGo移行を両立。" },
+      { slug: "stores", name: "STORES", salary: "参考値（非公式集計）", tech: "Ruby on Rails / Go / React / AWS", desc: "店舗DX群（EC/POS/決済/予約）のマルチプロダクト。" },
+      { slug: "cookpad", name: "クックパッド", salary: "約948万円(全従業員平均)", tech: "Ruby on Rails / AWS ECS / Hako", desc: "世界最大級のRailsモノリス。規模は縮小・技術志向。" },
     ],
   },
   {
@@ -56,6 +66,7 @@ const categories = [
       { slug: "accenture", name: "アクセンチュア", salary: "600〜1,200万円", tech: "Java / SAP / AWS / Azure", desc: "戦略〜実装まで担う総合コンサル。育成体制が手厚い。" },
       { slug: "nri", name: "野村総合研究所（NRI）", salary: "700〜1,200万円", tech: "Java / AWS / Salesforce / SAP", desc: "金融系に強い国内大手。コンサル×SIの両面。" },
       { slug: "ntt-data", name: "NTTデータ", salary: "550〜950万円", tech: "Java / AWS / Azure / Spring", desc: "官公庁・金融の大規模システムに実績多数。" },
+      { slug: "ibm", name: "日本IBM", salary: "公式平均は非公開", tech: "OpenShift / IBM Cloud / watsonx / Java", desc: "バンド制の外資。コンサル・アーキ志向のミドル向け。" },
     ],
   },
   {
@@ -67,6 +78,11 @@ const categories = [
       { slug: "hitachi", name: "日立製作所", salary: "600〜950万円", tech: "Java / Python / Azure / IoT", desc: "社会インフラ×ITのLumadaを軸にDXを推進。" },
       { slug: "panasonic", name: "パナソニック", salary: "550〜900万円", tech: "C++ / Python / AWS / Embedded", desc: "家電〜車載まで組込みソフトの裾野が広い。" },
       { slug: "fujitsu", name: "富士通", salary: "550〜900万円", tech: "Java / Python / Azure / Cloud", desc: "ジョブ型へ移行。クラウド・DX人材を募集強化。" },
+      { slug: "nec", name: "NEC（日本電気）", salary: "963万円(全従業員平均)", tech: "AI / 社会インフラ / クラウド / セキュリティ", desc: "生体認証AI・社会インフラ。ジョブ型移行でミドル評価。" },
+      { slug: "keyence", name: "キーエンス", salary: "2,039万円(全従業員平均)", tech: "組込 / 画像処理 / 計測制御", desc: "高利益率FAメーカー。年収は営業含む全社員平均で突出。" },
+      { slug: "denso", name: "デンソー", salary: "863万円(全従業員平均)", tech: "車載ソフト / SOA / 組込 / AI", desc: "自動車Tier1。SDV/車載ソフト人材を積極登用。" },
+      { slug: "fujifilm", name: "富士フイルム", salary: "1,124万円(HD全従業員平均)", tech: "医療画像AI / 画像処理 / データ", desc: "医療画像AI・ヘルスケア。ディープテック寄りのR&D。" },
+      { slug: "fastretailing", name: "ファーストリテイリング", salary: "公式レンジ 580〜1,300万円", tech: "EC / SCM / クラウド基盤 / データ", desc: "「情報製造小売業」。EC/サプライチェーンのデジタル変革。" },
     ],
   },
   {
@@ -92,7 +108,7 @@ export default function CompanyIndexPage() {
     "@type": "CollectionPage",
     name: "企業別エンジニア転職ガイド一覧",
     description:
-      "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲームの全30社をエンジニア転職の視点で業態分類した一覧ページ。",
+      "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲームの全38社をエンジニア転職の視点で業態分類した一覧ページ。",
     url: "https://middle-engineer.com/company/",
     mainEntity: {
       "@type": "ItemList",
@@ -109,8 +125,8 @@ export default function CompanyIndexPage() {
   return (
     <>
       <ArticleJsonLd
-        title="企業別エンジニア転職ガイド一覧【30社】業態別に分類"
-        description="外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲームの全30社をエンジニア転職の視点で業態分類した一覧ページ。"
+        title="企業別エンジニア転職ガイド一覧【38社】業態別に分類"
+        description="外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲームの全38社をエンジニア転職の視点で業態分類した一覧ページ。"
         url="/company/"
       />
       <script
@@ -126,7 +142,7 @@ export default function CompanyIndexPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          企業別エンジニア転職ガイド一覧【30社】
+          企業別エンジニア転職ガイド一覧【38社】
         </h1>
         <p className="text-slate-600 leading-relaxed mb-4">
           GAFAMから国内メガベンチャー、SaaS、SIer、メーカー、ゲームまで、全{allCompanies.length}社を業態別に分類しました。同じ「エンジニア採用」でも、業態によって求められる経験・選考スタイル・年収レンジは大きく異なります。気になる企業のガイドでは、採用の特徴・技術スタック・年収データ・選考フロー・30代40代視点での向き不向きまで掘り下げています。

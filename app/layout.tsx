@@ -135,9 +135,14 @@ function Footer() {
               <li><a href="/#ranking" className="hover:text-blue-400 transition-colors">エージェントランキング</a></li>
               <li><a href="/#age" className="hover:text-blue-400 transition-colors">年代別おすすめ</a></li>
               <li><a href="/#industry" className="hover:text-blue-400 transition-colors">業界別特集</a></li>
+              <li><a href="/review/" className="hover:text-blue-400 transition-colors">評判・口コミ一覧</a></li>
+              <li><a href="/skill/" className="hover:text-blue-400 transition-colors">スキル別ガイド</a></li>
               <li><a href="/company/" className="hover:text-blue-400 transition-colors">企業別ガイド</a></li>
               <li><a href="/career/" className="hover:text-blue-400 transition-colors">キャリアパス</a></li>
               <li><a href="/purpose/" className="hover:text-blue-400 transition-colors">目的別ガイド</a></li>
+              <li><a href="/salary/" className="hover:text-blue-400 transition-colors">年収帯別ガイド</a></li>
+              <li><a href="/cert/" className="hover:text-blue-400 transition-colors">資格別ガイド</a></li>
+              <li><a href="/employment/" className="hover:text-blue-400 transition-colors">雇用形態別ガイド</a></li>
               <li><a href="/area/" className="hover:text-blue-400 transition-colors">エリア別</a></li>
               <li><a href="/faq/" className="hover:text-blue-400 transition-colors">よくある質問</a></li>
             </ul>
