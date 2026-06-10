@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "エンジニア転職お役立ちガイド一覧【50記事】テーマ別",
+  title: "エンジニア転職お役立ちガイド一覧【75記事】テーマ別",
   description:
     "書類・面接・年収・エージェント活用・転職プロセス・働き方・悩み・属性別まで、30代40代エンジニアの転職に役立つ全50記事をテーマ別に整理。転職ステージ別の読む順番も解説します。",
 };
@@ -15,6 +15,10 @@ const knowledgeCategories = [
     category: "書類・自己PR",
     intro: "選考突破の起点となる書類づくり。経歴の棚卸しから見せ方まで。",
     items: [
+      { name: "自己PRの書き方・例文", href: "/knowledge/self-pr/", desc: "Before/Afterと職種別例文で通る自己PRを作る。" },
+      { name: "スキルシートの書き方", href: "/knowledge/skill-sheet/", desc: "職務経歴書との違いと記入例。SES・フリー向け。" },
+      { name: "経歴の空白期間の説明方法", href: "/knowledge/career-gap/", desc: "ブランクを不利にしない理由別の説明の型と例文。" },
+      { name: "転職回数が多い場合の対策", href: "/knowledge/job-change-count/", desc: "一貫性の軸の作り方で回数の多さをカバー。" },
       { name: "職務経歴書の書き方", href: "/knowledge/resume/", desc: "テンプレート付き完全ガイド。Before/After例文あり。" },
       { name: "ポートフォリオ作成ガイド", href: "/knowledge/portfolio/", desc: "書類選考を突破するための見せ方のコツ。" },
       { name: "自己分析のやり方", href: "/knowledge/self-analysis/", desc: "強み・志向を言語化してPR軸を固める。" },
@@ -27,6 +31,9 @@ const knowledgeCategories = [
     category: "面接対策",
     intro: "技術・行動・実技まで、面接形式ごとの準備ポイント。",
     items: [
+      { name: "面接の逆質問", href: "/knowledge/reverse-questions/", desc: "評価される逆質問の例文とNG例。ミドル向けも。" },
+      { name: "外資系IT企業の面接対策", href: "/knowledge/foreign-interview/", desc: "選考フローと各ラウンドの想定問答を解説。" },
+      { name: "英語面接の準備", href: "/knowledge/english-interview/", desc: "フレーズ例と想定問答で英語面接を乗り切る。" },
       { name: "技術面接対策ガイド", href: "/knowledge/tech-interview/", desc: "よく聞かれる質問と回答の組み立て方。" },
       { name: "行動面接（ビヘイビア）対策", href: "/knowledge/behavioral/", desc: "STARフレームワークでエピソードを構造化。" },
       { name: "コーディングテスト対策", href: "/knowledge/coding-test/", desc: "出題傾向と当日までの準備計画。" },
@@ -37,6 +44,7 @@ const knowledgeCategories = [
     category: "年収・条件交渉",
     intro: "年代別の相場観と、年収を最大化するための交渉知識。",
     items: [
+      { name: "年収ダウン転職の判断軸", href: "/knowledge/salary-down/", desc: "下げてでも取るべきケースを生涯年収で判断。" },
       { name: "30代エンジニアの年収相場", href: "/knowledge/salary-30s/", desc: "言語・職種・経験年数別に相場を分析。" },
       { name: "40代エンジニアの年収戦略", href: "/knowledge/salary-40s/", desc: "年収維持・アップを実現する考え方。" },
       { name: "転職で年収は上がる？", href: "/knowledge/salary-change/", desc: "年収アップの実態を公的データで確認。" },
@@ -49,6 +57,8 @@ const knowledgeCategories = [
     category: "エージェント・求人探し",
     intro: "エージェントの選び方・使い方から、直接応募・スカウトまで。",
     items: [
+      { name: "転職サイトとエージェントの違い", href: "/knowledge/site-vs-agent/", desc: "仕組みの違いと比較表・状況別の使い分け。" },
+      { name: "エージェントの断り方・退会方法", href: "/knowledge/agent-decline/", desc: "求人を断る・退会の場面別メール例文。" },
       { name: "IT転職エージェントの選び方", href: "/knowledge/how-to-choose/", desc: "失敗しない5つのチェックポイント。" },
       { name: "エージェントは複数登録すべき？", href: "/knowledge/multiple-agents/", desc: "3社併用が基本とされる理由。" },
       { name: "エージェント初回面談の準備", href: "/knowledge/agent-first-meeting/", desc: "初回で伝えるべきこと・聞くべきこと。" },
@@ -62,6 +72,12 @@ const knowledgeCategories = [
     category: "転職プロセス・スケジュール",
     intro: "計画立案から退職・入社後の立ち上がりまでの全工程。",
     items: [
+      { name: "退職理由の伝え方", href: "/knowledge/resignation-reason/", desc: "本音→建前の言い換えと例文で円満退職。" },
+      { name: "内定承諾の期限と延長", href: "/knowledge/offer-deadline/", desc: "承諾期限の目安と延長の頼み方をメール例文付きで。" },
+      { name: "内定辞退の伝え方", href: "/knowledge/offer-decline/", desc: "メール例文と電話トークで角を立てず辞退。" },
+      { name: "リファレンスチェックの対策", href: "/knowledge/reference-check/", desc: "仕組み・同意原則・推薦者選びと準備リスト。" },
+      { name: "入社前の準備チェックリスト", href: "/knowledge/pre-onboarding/", desc: "提出書類・年金や保険の手続き・初日準備を網羅。" },
+      { name: "ボーナス時期と転職タイミング", href: "/knowledge/bonus-timing/", desc: "賞与支給日からの逆算で損しない時期を判断。" },
       { name: "転職スケジュール", href: "/knowledge/timeline/", desc: "3ヶ月で内定を取るための計画表。" },
       { name: "キャリアプランの立て方", href: "/knowledge/career-plan/", desc: "中長期の目標から逆算する設計法。" },
       { name: "退職の進め方", href: "/knowledge/resignation/", desc: "引き止め対策・引き継ぎの実務ガイド。" },
@@ -74,6 +90,7 @@ const knowledgeCategories = [
     category: "働き方・キャリア観",
     intro: "雇用形態・働く場所・ワークライフバランスの選択肢。",
     items: [
+      { name: "受託開発と自社開発の違い", href: "/knowledge/ukeoi-vs-jisha/", desc: "仕事・年収・働き方を中立比較し相性で選ぶ。" },
       { name: "フリーランスvs正社員", href: "/knowledge/freelance-vs-fulltime/", desc: "ミドルはどちらが得かを比較。" },
       { name: "リモートワーク転職", href: "/knowledge/remote-work/", desc: "フルリモート求人の探し方と現実。" },
       { name: "ワークライフバランス", href: "/knowledge/work-life-balance/", desc: "働き方を軸にした転職先の選び方。" },
@@ -86,6 +103,7 @@ const knowledgeCategories = [
     category: "悩み・メンタル",
     intro: "転職にまつわる不安・後悔・燃え尽きとの向き合い方。",
     items: [
+      { name: "転職への不安との向き合い方", href: "/knowledge/anxiety/", desc: "不安を5つに分解し行動に変える整理フレーム。" },
       { name: "転職のモチベーション維持", href: "/knowledge/motivation/", desc: "活動を続ける気持ちの保ち方。" },
       { name: "転職の後悔を防ぐには", href: "/knowledge/regret/", desc: "後悔しがちなパターンと回避策。" },
       { name: "バーンアウト（燃え尽き）対策", href: "/knowledge/burnout/", desc: "消耗した状態からの立て直し。" },
@@ -107,6 +125,19 @@ const knowledgeCategories = [
       { name: "海外で働くという選択", href: "/knowledge/overseas/", desc: "海外エンジニア就労の現実と準備。" },
       { name: "日本へ帰国してのキャリア", href: "/knowledge/return-japan/", desc: "海外経験を活かした帰国後の転職。" },
       { name: "UI/UXキャリアの考え方", href: "/knowledge/uiux/", desc: "デザイン領域への関わり方とキャリア。" },
+    ],
+  },
+  {
+    category: "お金・税金・社会保険",
+    intro: "転職・独立に伴うお金の手続き。税・社会保険・年金を公的情報ベースで整理します。",
+    items: [
+      { name: "インボイス制度とフリーランス", href: "/knowledge/invoice/", desc: "免税/課税の選択・2割特例・経過措置を国税庁情報で解説。" },
+      { name: "開業届の出し方", href: "/knowledge/kaigyo/", desc: "提出期限・提出先と青色申告承認申請の同時提出を解説。" },
+      { name: "iDeCo・企業型DCと転職", href: "/knowledge/ideco/", desc: "転職時の移換手続きと6か月放置の自動移換リスク。" },
+      { name: "失業保険の受給と転職", href: "/knowledge/unemployment-insurance/", desc: "自己都合/会社都合の給付制限・受給期間と転職活動。" },
+      { name: "健康保険の任意継続vs国保", href: "/knowledge/health-insurance/", desc: "退職後の任意継続（2年・20日期限）と国保の比較。" },
+      { name: "住民税と転職", href: "/knowledge/residence-tax/", desc: "前年所得課税の仕組みと退職時期で変わる徴収方法。" },
+      { name: "副業の確定申告", href: "/knowledge/side-job-tax/", desc: "20万円ルールの正しい意味・所得区分・住民税申告。" },
     ],
   },
 ];
@@ -141,7 +172,7 @@ export default function KnowledgeIndexPage() {
   return (
     <>
       <ArticleJsonLd
-        title="エンジニア転職お役立ちガイド一覧【50記事】テーマ別"
+        title="エンジニア転職お役立ちガイド一覧【75記事】テーマ別"
         description="書類・面接・年収・エージェント活用・プロセス・働き方・悩み・属性別まで、全50記事をテーマ別に整理した一覧。"
         url="/knowledge/"
       />
@@ -158,7 +189,7 @@ export default function KnowledgeIndexPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          エンジニア転職お役立ちガイド一覧【50記事】
+          エンジニア転職お役立ちガイド一覧【75記事】
         </h1>
         <p className="text-slate-600 leading-relaxed mb-4">
           30代・40代エンジニアの転職活動に必要な知識を、全{allKnowledge.length}記事・8テーマに整理しました。書類づくりや面接対策といった実務から、年収交渉、エージェント活用、転職後の立ち上がり、悩みやライフステージ別の事情まで、転職の全工程をカバーしています。今のフェーズに合うテーマから読み進めてください。
