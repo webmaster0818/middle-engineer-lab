@@ -147,7 +147,7 @@ const faqs = [
 ];
 
 const related = [
-  { name: "レバテックキャリアの評判（正社員IT特化）", href: "/review/levtech-career/" },
+  { name: "レバテックキャリアの評判（正社員IT特化）", href: "/review/levtech/" },
   { name: "ビズリーチ（ITハイクラス）の評判", href: "/review/bizreach-it/" },
   { name: "リクルートダイレクトスカウトの評判", href: "/review/recruit-direct-scout/" },
   { name: "スカウト型エージェントの比較", href: "/compare/scout-agents/" },
@@ -433,7 +433,7 @@ export default function TenshokuDraftReview() {
             転職ドラフトは「市場価値を金額で確認＋高年収狙い」が強みですが、イベント形式のため常時応募には向きません。常時応募できるエージェントや、他のスカウト型と組み合わせると選択肢を確保しやすくなります。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/levtech-career/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
               レバテックキャリア（IT特化・常時応募）の評判 →
             </Link>
             <Link href="/review/bizreach-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
