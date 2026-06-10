@@ -256,6 +256,86 @@ export default function CertTopPage() {
           </div>
         </section>
 
+        {/* 資格別 詳細ガイド一覧 */}
+        <section id="all-guides" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">資格別 詳細ガイド一覧</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-4">
+            当サイトで個別に解説している資格ガイドの一覧です。受験料・試験形式・合格率（公表値）・30-40代の転職での活かし方を、各ページで公式情報の出典付きで整理しています。
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-3 text-sm">国家試験（IPA）</h3>
+              <ul className="text-sm space-y-1.5">
+                {[
+                  ["ITパスポート", "/cert/it-passport/"],
+                  ["基本情報技術者", "/cert/basic-info/"],
+                  ["情報セキュリティマネジメント", "/cert/info-sec-management/"],
+                  ["応用情報技術者", "/cert/applied-info/"],
+                  ["ネットワークスペシャリスト", "/cert/network-specialist/"],
+                  ["データベーススペシャリスト", "/cert/database-specialist/"],
+                  ["情報処理安全確保支援士", "/cert/security-specialist/"],
+                  ["プロジェクトマネージャ", "/cert/project-manager/"],
+                  ["システムアーキテクト", "/cert/system-architect/"],
+                  ["システム監査技術者", "/cert/system-auditor/"],
+                  ["エンベデッドシステムスペシャリスト", "/cert/embedded-systems/"],
+                  ["ITストラテジスト", "/cert/it-strategist/"],
+                  ["ITサービスマネージャ", "/cert/it-service-manager/"],
+                ].map(([name, href]) => (
+                  <li key={href}><Link href={href} className="text-blue-600 hover:underline">{name}</Link></li>
+                ))}
+              </ul>
+            </div>
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-3 text-sm">クラウド（AWS / Azure / GCP）</h3>
+              <ul className="text-sm space-y-1.5">
+                {[
+                  ["AWS認定（総論）", "/cert/aws/"],
+                  ["AWS SAA（ソリューションアーキテクト アソシエイト）", "/cert/aws-saa/"],
+                  ["AWS SAP（同 プロフェッショナル）", "/cert/aws-sap/"],
+                  ["AWS DVA（デベロッパー アソシエイト）", "/cert/aws-dva/"],
+                  ["AWS SOA（SysOps アソシエイト）", "/cert/aws-soa/"],
+                  ["Azure Fundamentals（AZ-900）", "/cert/azure-fundamentals/"],
+                  ["Azure Administrator（AZ-104）", "/cert/azure-administrator/"],
+                  ["Azure Solutions Architect（AZ-305）", "/cert/azure-solutions-architect/"],
+                  ["Google Cloud ACE（アソシエイト）", "/cert/gcp-ace/"],
+                  ["Google Cloud PCA（プロフェッショナル）", "/cert/gcp-pca/"],
+                ].map(([name, href]) => (
+                  <li key={href}><Link href={href} className="text-blue-600 hover:underline">{name}</Link></li>
+                ))}
+              </ul>
+            </div>
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-3 text-sm">ベンダー・言語・基盤</h3>
+              <ul className="text-sm space-y-1.5">
+                {[
+                  ["CCNA（Cisco）", "/cert/ccna/"],
+                  ["CCNP（Cisco）", "/cert/ccnp/"],
+                  ["LPIC（LPI）", "/cert/lpic/"],
+                  ["LinuC（LPI-Japan）", "/cert/linuc/"],
+                  ["Oracle Java Silver", "/cert/oracle-java-silver/"],
+                  ["Oracle Java Gold", "/cert/oracle-java-gold/"],
+                  ["CKA（Kubernetes）", "/cert/cka/"],
+                  ["Terraform Associate", "/cert/terraform-associate/"],
+                  ["CISSP（情報セキュリティ）", "/cert/cissp/"],
+                ].map(([name, href]) => (
+                  <li key={href}><Link href={href} className="text-blue-600 hover:underline">{name}</Link></li>
+                ))}
+              </ul>
+            </div>
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-bold text-slate-800 mb-3 text-sm">マネジメント・AI</h3>
+              <ul className="text-sm space-y-1.5">
+                {[
+                  ["PMP（プロジェクトマネジメント）", "/cert/pmp/"],
+                  ["G検定（JDLA ディープラーニング）", "/cert/g-kentei/"],
+                ].map(([name, href]) => (
+                  <li key={href}><Link href={href} className="text-blue-600 hover:underline">{name}</Link></li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+
         {/* 掛け算 */}
         <section id="kakezan" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30-40代の価値＝実務×資格の掛け算</h2>

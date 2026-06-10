@@ -400,7 +400,11 @@ export default function EmploymentTopPage() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "正社員エンジニアという選択", href: "/employment/seishain/", desc: "安定性・年収・キャリアの土台としての正社員" },
               { name: "業務委託エンジニアの実態と単価", href: "/employment/contractor/", desc: "単価相場・手取りシミュレーション・メリデメ" },
+              { name: "業務委託という働き方", href: "/employment/gyomu-itaku/", desc: "準委任・請負の違いと契約の注意点" },
+              { name: "フリーランスエンジニアの始め方", href: "/employment/freelance/", desc: "単価・税・保険・案件の取り方" },
+              { name: "SESエンジニアの実態", href: "/employment/ses/", desc: "多重下請け・単価構造を中立に解説" },
               { name: "契約社員と無期転換5年ルール", href: "/employment/contract-employee/", desc: "『無期転換≠正社員』の重要な注意点" },
               { name: "派遣から正社員になる道", href: "/employment/dispatch/", desc: "紹介予定派遣・無期雇用派遣・登用ルート" },
               { name: "フリーランスvs正社員の損得", href: "/knowledge/freelance-vs-fulltime/", desc: "税・保険・信用の合計で比べる判断軸" },
@@ -452,7 +456,11 @@ export default function EmploymentTopPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "正社員エンジニアという選択", href: "/employment/seishain/" },
               { name: "業務委託エンジニアの実態", href: "/employment/contractor/" },
+              { name: "業務委託という働き方", href: "/employment/gyomu-itaku/" },
+              { name: "フリーランスエンジニアの始め方", href: "/employment/freelance/" },
+              { name: "SESエンジニアの実態", href: "/employment/ses/" },
               { name: "契約社員と無期転換ルール", href: "/employment/contract-employee/" },
               { name: "派遣から正社員になる道", href: "/employment/dispatch/" },
               { name: "フリーランスvs正社員", href: "/knowledge/freelance-vs-fulltime/" },

@@ -88,11 +88,25 @@ const methods = [
 
 const bandSummary = [
   {
+    band: "500万円",
+    href: "/salary/500man/",
+    itss: "ITSS L3前半（576.0万円のやや下）",
+    condition: "2〜3年の実務で開発工程を一通り独力で回せる",
+    jobs: "Web系開発・社内SE・SESからの脱出層",
+  },
+  {
     band: "600万円",
     href: "/salary/600man/",
     itss: "ITSS L3後半〜L4手前（576.0万円のやや上）",
     condition: "3年以上の実務＋DB/API/アーキ設計と小規模リーダー経験",
     jobs: "プリセールス・PM・ITコンサルの入口層",
+  },
+  {
+    band: "700万円",
+    href: "/salary/700man/",
+    itss: "ITSS L4前後（726.1万円付近）",
+    condition: "設計〜リーダー経験と特定領域の専門性",
+    jobs: "リードエンジニア・PM入口・クラウド/インフラ",
   },
   {
     band: "800万円",
@@ -102,11 +116,39 @@ const bandSummary = [
     jobs: "PM・ITコンサル・クラウド・セキュリティ・プリセールス",
   },
   {
+    band: "900万円",
+    href: "/salary/900man/",
+    itss: "ITSS L5相当（937.8万円付近）",
+    condition: "高度専門＋マネジメント、または希少スキル",
+    jobs: "EM・テックリード・スペシャリスト・ITコンサル",
+  },
+  {
     band: "1000万円",
     href: "/salary/1000man/",
     itss: "ITSS L6相当（1,129.9万円）",
     condition: "ハイクラス転職／EM・PM／希少スペシャリストの3ルート",
     jobs: "外資IT・自社プロダクト・プライムSIerのEM/PM・SaaS/ML/アーキ",
+  },
+  {
+    band: "1200万円",
+    href: "/salary/1200man/",
+    itss: "ITSS L6超（1,129.9万円を上回る層）",
+    condition: "外資・上場メガベンチャー・管理職・トップスペシャリスト",
+    jobs: "外資IT・自社プロダクトのEM/Staff・高単価PM",
+  },
+  {
+    band: "1500万円",
+    href: "/salary/1500man/",
+    itss: "国内平均を大きく超える限られた層",
+    condition: "外資の上位等級・VP/部長クラス・希少専門（株式報酬含む）",
+    jobs: "外資IT上位・CTO候補・トップスペシャリスト",
+  },
+  {
+    band: "2000万円",
+    href: "/salary/2000man/",
+    itss: "例外的水準（総報酬・株式報酬込みが前提）",
+    condition: "外資トップ等級・経営層・著名スペシャリスト",
+    jobs: "外資IT最上位・CTO/VPoE・著名スペシャリスト",
   },
 ];
 
@@ -402,9 +444,15 @@ export default function SalaryTopPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "年収500万円エンジニアの必要スキル", href: "/salary/500man/" },
               { name: "年収600万円エンジニアの必要スキル", href: "/salary/600man/" },
+              { name: "年収700万円エンジニアの必要スキル", href: "/salary/700man/" },
               { name: "年収800万円エンジニアの必要スキル", href: "/salary/800man/" },
+              { name: "年収900万円エンジニアの必要スキル", href: "/salary/900man/" },
               { name: "年収1000万円エンジニアの必要スキル", href: "/salary/1000man/" },
+              { name: "年収1200万円エンジニアの必要スキル", href: "/salary/1200man/" },
+              { name: "年収1500万円エンジニアの必要スキル", href: "/salary/1500man/" },
+              { name: "年収2000万円エンジニアの必要スキル", href: "/salary/2000man/" },
               { name: "30代エンジニアの年収相場", href: "/knowledge/salary-30s/" },
               { name: "40代エンジニアの年収相場", href: "/knowledge/salary-40s/" },
               { name: "年収アップに強いエージェント比較", href: "/compare/salary-ranking/" },
