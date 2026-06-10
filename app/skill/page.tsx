@@ -5,9 +5,9 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "スキル別エンジニア転職ガイド一覧【27スキル】言語・職種別",
+  title: "スキル別エンジニア転職ガイド一覧【52スキル】言語・職種別",
   description:
-    "プログラミング言語・クラウド・職種別に全27スキルのエンジニア転職ガイドを分類。フロント・バックエンド・インフラ・データAI・業務システム別に、30代40代に合った転職戦略の入口をまとめました。",
+    "プログラミング言語・クラウド・職種別に全52スキルのエンジニア転職ガイドを分類。フロント・バックエンド・インフラ・データAI・業務システム別に、30代40代に合った転職戦略の入口をまとめました。",
 };
 
 const skillCategories = [
@@ -21,6 +21,11 @@ const skillCategories = [
       { name: "Flutter", href: "/skill/flutter/", desc: "クロスプラットフォームのモバイル開発。スタートアップで採用が拡大。" },
       { name: "Swift（iOS）", href: "/skill/swift/", desc: "iOSネイティブの定番。事業会社のアプリチームで安定需要。" },
       { name: "Kotlin（Android）", href: "/skill/kotlin/", desc: "Androidの主流言語かつサーバーサイドでも採用増。応用範囲が広い。" },
+      { name: "Next.js", href: "/skill/nextjs/", desc: "Reactベースのモダンフロント。SSR/SSGで自社開発の標準に。" },
+      { name: "Nuxt", href: "/skill/nuxt/", desc: "Vueベースのモダンフロント。国内Vue現場で需要あり。" },
+      { name: "Angular", href: "/skill/angular/", desc: "Google製・TypeScript前提のエンタープライズSPA向け。" },
+      { name: "Svelte", href: "/skill/svelte/", desc: "コンパイル型の新興フロント。加点スキル・技術選定力の証明に。" },
+      { name: "Dart（Flutter）", href: "/skill/dart/", desc: "Flutterによるクロスプラットフォームモバイル開発の記述言語。" },
     ],
   },
   {
@@ -34,6 +39,13 @@ const skillCategories = [
       { name: "PHP", href: "/skill/php/", desc: "Web制作・自社サービスで求人が豊富。参入しやすく案件量が多い。" },
       { name: "C#", href: "/skill/csharp/", desc: ".NET業務システム・ゲーム双方で活躍。Microsoft系企業と相性良。" },
       { name: "Rust", href: "/skill/rust/", desc: "高性能・低レイヤー領域で注目。希少性が高く年収レンジも上振れ。" },
+      { name: "Scala", href: "/skill/scala/", desc: "関数型・データ基盤（Spark）。求人少だが年収トップ級の希少スキル。" },
+      { name: "C++", href: "/skill/cpp/", desc: "組込・ゲーム・低レイヤ。速度とハード制御が要る領域の定番。" },
+      { name: "Ruby on Rails", href: "/skill/rails/", desc: "MVP高速開発。スタートアップ・自社開発Webの主力フレームワーク。" },
+      { name: "Django", href: "/skill/django/", desc: "PythonのフルスタックWeb。データ・AI連携に強い。" },
+      { name: "Spring（Java）", href: "/skill/spring/", desc: "金融・エンタープライズの定番。求人母数が大きく安定需要。" },
+      { name: "Laravel", href: "/skill/laravel/", desc: "PHP主流のWebフレームワーク。求人母数が多く案件が安定。" },
+      { name: "GraphQL", href: "/skill/graphql/", desc: "API設計の付加スキル。RESTとの使い分けと設計力で市場価値。" },
     ],
   },
   {
@@ -46,6 +58,31 @@ const skillCategories = [
       { name: "Terraform（IaC）", href: "/skill/terraform/", desc: "インフラのコード化需要が急増。クラウド運用職の必須スキルに。" },
       { name: "ネットワーク", href: "/skill/network/", desc: "オンプレ＋クラウド両対応の知見は希少。基盤系で安定した需要。" },
       { name: "セキュリティ", href: "/skill/security/", desc: "人材不足が深刻な領域。経験者は年収・選択肢ともに有利。" },
+      { name: "Docker", href: "/skill/docker/", desc: "コンテナの実務スキル。DevOps/SRE・クラウド基盤として評価。" },
+      { name: "CI/CD", href: "/skill/ci-cd/", desc: "継続的インテグレーション/デリバリー。DevOps/SREの中核。" },
+    ],
+  },
+  {
+    category: "データベース・データ基盤",
+    intro: "DB設計運用とデータ基盤の領域。単体スキルというより実務とセットで評価され、データ量の増大で需要が伸びています。",
+    items: [
+      { name: "PostgreSQL", href: "/skill/postgresql/", desc: "OSS RDBの設計・運用。DB設計とバックエンド基盤で評価。" },
+      { name: "MySQL", href: "/skill/mysql/", desc: "Web定番RDBの設計・運用。求人母数の大きいDB系スキル。" },
+      { name: "MongoDB", href: "/skill/mongodb/", desc: "NoSQL（ドキュメント指向）の設計。RDBとの使い分けが鍵。" },
+      { name: "Redis", href: "/skill/redis/", desc: "インメモリKVS/キャッシュ設計。性能設計・高負荷基盤で需要。" },
+      { name: "Apache Kafka", href: "/skill/kafka/", desc: "分散ストリーミング基盤。大規模データ基盤の希少領域。" },
+      { name: "Elasticsearch", href: "/skill/elasticsearch/", desc: "検索・ログ分析基盤の構築運用。データエンジニア/SRE文脈。" },
+      { name: "Apache Spark", href: "/skill/spark/", desc: "大規模分散処理・ETL。データエンジニア職の中核。" },
+      { name: "BigQuery", href: "/skill/bigquery/", desc: "クラウドDWH。SQLが書ければデータ職の入口に立てる。" },
+    ],
+  },
+  {
+    category: "BI・デザイン",
+    intro: "データ可視化とUIデザインの領域。エンジニア職と隣接し、職種（BI・データアナリスト・デザイナー）の文脈で評価されます。",
+    items: [
+      { name: "Tableau", href: "/skill/tableau/", desc: "BIダッシュボード。BIエンジニア/データアナリスト職で需要。" },
+      { name: "Power BI", href: "/skill/powerbi/", desc: "MicrosoftのBIツール。Excel延長から入れるBI職向け。" },
+      { name: "Figma", href: "/skill/figma/", desc: "UIデザインツール。エンジニアよりデザイナー寄りと正直に整理。" },
     ],
   },
   {
@@ -90,7 +127,7 @@ export default function SkillIndexPage() {
     "@type": "CollectionPage",
     name: "スキル別エンジニア転職ガイド一覧",
     description:
-      "言語・クラウド・職種別に全27スキルのエンジニア転職ガイドを分類した一覧ページ。",
+      "言語・クラウド・職種別に全52スキルのエンジニア転職ガイドを分類した一覧ページ。",
     url: "https://middle-engineer.com/skill/",
     mainEntity: {
       "@type": "ItemList",
@@ -107,8 +144,8 @@ export default function SkillIndexPage() {
   return (
     <>
       <ArticleJsonLd
-        title="スキル別エンジニア転職ガイド一覧【27スキル】"
-        description="言語・クラウド・職種別に全27スキルのエンジニア転職ガイドを分類した一覧ページ。"
+        title="スキル別エンジニア転職ガイド一覧【52スキル】"
+        description="言語・クラウド・職種別に全52スキルのエンジニア転職ガイドを分類した一覧ページ。"
         url="/skill/"
       />
       <script
@@ -124,7 +161,7 @@ export default function SkillIndexPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          スキル別エンジニア転職ガイド一覧【27スキル】
+          スキル別エンジニア転職ガイド一覧【52スキル】
         </h1>
         <p className="text-slate-600 leading-relaxed mb-4">
           エンジニアの転職は、持っているスキルによって戦う市場も年収レンジも大きく変わります。本ページでは、言語・クラウド・職種など全{allSkills.length}スキルを6カテゴリに分類し、それぞれのガイドへの入口をまとめました。自分の主軸スキルから読み進めることで、転職市場での立ち位置と狙うべき方向性が見えてきます。
