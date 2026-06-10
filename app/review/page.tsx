@@ -22,6 +22,8 @@ const categories = [
       { slug: "workport", name: "ワークポート", desc: "全国対応・未経験歓迎求人も豊富な総合型。" },
       { slug: "type-agent", name: "type転職エージェントIT", desc: "首都圏IT/Webに強く年収交渉に注力。" },
       { slug: "cloudlink", name: "クラウドリンク（現AIdea Career）", desc: "自社内開発求人100%でSES脱出に特化。" },
+      { slug: "willof-tech", name: "ウィルオブテック", desc: "上場ウィルグループ運営。専属2名体制で年収アップに強い経験者向け。" },
+      { slug: "techclips", name: "TechClips", desc: "自社開発企業100%・年収500万円以上特化。首都圏向け。" },
     ],
   },
   {
@@ -32,6 +34,7 @@ const categories = [
       { slug: "recruit-direct-scout", name: "リクルートダイレクトスカウト", desc: "リクルート系の高年収スカウト。求人量が豊富。" },
       { slug: "doda-x", name: "doda X（旧iX転職）", desc: "年収800万円以上比率が高いハイクラススカウト。" },
       { slug: "jac-recruitment", name: "JACリクルートメント", desc: "両面型ハイクラス。40代エンジニアに最有力の一つ。" },
+      { slug: "tenshoku-draft", name: "転職ドラフト", desc: "企業が年収提示つきで指名する競争入札型。市場価値を金額で確認できる。" },
     ],
   },
   {
@@ -53,6 +56,21 @@ const categories = [
       { slug: "levtech-freelance", name: "レバテックフリーランス", desc: "案件量・単価で最大手クラス（正社員転職とは別）。" },
       { slug: "midworks", name: "Midworks", desc: "正社員並みの保障で安定重視のフリーランス向け。" },
       { slug: "itpropartners", name: "ITプロパートナーズ", desc: "週2〜3日・副業/独立準備に強い。" },
+      { slug: "geechs", name: "ギークスジョブ", desc: "リモート8割超＋福利厚生フリノベ。上場企業運営で安心。" },
+      { slug: "pe-bank", name: "PE-BANK", desc: "マージン完全公開（8〜12%）＋共済会＋全国12拠点。" },
+      { slug: "techreach", name: "TechReach", desc: "エンド直の高単価＋翌月15日支払い。フルリモート案件も豊富。" },
+      { slug: "engineer-factory", name: "エンジニアファクトリー", desc: "低マージン・エンド直の高単価。東京大阪圏中心。" },
+      { slug: "relance", name: "Relance（リランス）", desc: "スリーシェイク運営。自社開発・プライム中心の高単価×フルリモート。" },
+      { slug: "furien", name: "フリエン（現ココナラテック）", desc: "ココナラグループ運営。直請け中心・支払いサイト選択可。" },
+      { slug: "freelance-start", name: "フリーランススタート", desc: "国内最大級の案件検索エンジン。複数エージェントを横断比較する入口。" },
+    ],
+  },
+  {
+    name: "副業・20代/第二新卒向け（参考）",
+    intro: "副業・複業や20代未経験のIT就職に特化したサービス。当サイト中心読者の30-40代経験者には合致しない場合がある点を正直に整理します。",
+    items: [
+      { slug: "kasooku", name: "カソーク", desc: "ユナイテッドグループ運営。副業・複業から相性を見て転職にもつなげられる。" },
+      { slug: "uzuz-it", name: "ウズキャリIT", desc: "UZUZ運営。20代・未経験のIT就職向け。30-40代は対象外気味と正直に明記。" },
     ],
   },
   {

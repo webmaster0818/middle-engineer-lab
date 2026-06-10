@@ -5,9 +5,9 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "企業別エンジニア転職ガイド一覧【38社】業態別に分類",
+  title: "企業別エンジニア転職ガイド一覧【81社】業態別に分類",
   description:
-    "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲームの全38社をエンジニア転職の視点で業態分類。各社の年収レンジ・技術スタックの傾向と、企業研究の進め方を解説します。",
+    "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全81社をエンジニア転職の視点で業態分類。各社の年収レンジ・技術スタックの傾向と、企業研究の進め方を解説します。",
 };
 
 const categories = [
@@ -36,6 +36,8 @@ const categories = [
       { slug: "visional", name: "Visional（ビズリーチ）", salary: "600〜1,000万円", tech: "Scala / TypeScript / AWS / Kubernetes", desc: "HR Tech領域。プロダクト志向のエンジニア組織。" },
       { slug: "softbank", name: "ソフトバンク", salary: "600〜1,000万円", tech: "Java / Python / AWS / AI/ML", desc: "通信×AI。大規模インフラと新規事業の両輪。" },
       { slug: "smartnews", name: "SmartNews", salary: "公式平均は非公開", tech: "Java / Scala / Spark / AWS", desc: "大規模配信×機械学習を少数精鋭で支えるメディアテック。" },
+      { slug: "gmo-internet", name: "GMOインターネットグループ", salary: "持株693万円(2024/12)", tech: "Go / PHP / Java / TypeScript / AWS", desc: "ドメイン・クラウド・決済・金融の基盤を支える持株会社。" },
+      { slug: "dmm", name: "DMM.com", salary: "非開示(非上場)", tech: "Go / PHP / TypeScript / React / Vue", desc: "50以上の事業を展開する非上場メガベンチャー。" },
     ],
   },
   {
@@ -57,6 +59,14 @@ const categories = [
       { slug: "base", name: "BASE", salary: "700万円(全従業員平均)", tech: "PHP / Go / Next.js / AWS", desc: "ネットショップ・決済。PHP資産の進化とGo移行を両立。" },
       { slug: "stores", name: "STORES", salary: "参考値（非公式集計）", tech: "Ruby on Rails / Go / React / AWS", desc: "店舗DX群（EC/POS/決済/予約）のマルチプロダクト。" },
       { slug: "cookpad", name: "クックパッド", salary: "約948万円(全従業員平均)", tech: "Ruby on Rails / AWS ECS / Hako", desc: "世界最大級のRailsモノリス。規模は縮小・技術志向。" },
+      { slug: "note", name: "note（ノート）", salary: "全社平均763万円(2025/11)", tech: "Ruby on Rails / Go / TypeScript", desc: "クリエイター向けメディアプラットフォーム（東証グロース）。" },
+      { slug: "uzabase", name: "ユーザベース（UZABASE）", salary: "上場最終期約760万円", tech: "Elixir / Go / Next.js / TypeScript", desc: "SPEEDA・NewsPicksの経済情報PF（現在は非公開化）。" },
+      { slug: "raksul", name: "ラクスル（RAKSUL）", salary: "全社平均742万円(2025/7)", tech: "Ruby on Rails / TypeScript / Vue", desc: "産業のデジタル化を進めるプラットフォーム企業（東証プライム）。" },
+      { slug: "wantedly-inc", name: "ウォンテッドリー（Wantedly）", salary: "全社平均約681万円", tech: "Ruby on Rails / Go / React", desc: "ビジネスSNSを運営する東証グロース企業（agent口コミとは別）。" },
+      { slug: "kaonavi", name: "カオナビ", salary: "上場最終期690万円(2025/3)", tech: "PHP / Laravel / Go / React", desc: "タレントマネジメントSaaS（現在は非公開化）。" },
+      { slug: "timee", name: "タイミー（Timee）", salary: "上場時約594万円(2024/10)", tech: "Ruby on Rails / Go / Next.js", desc: "スキマバイトマッチングの2024年上場の急成長企業。" },
+      { slug: "monotaro", name: "MonotaRO（モノタロウ）", salary: "全社平均686万円(2024/12)", tech: "Python / Django / BigQuery / AWS", desc: "大規模BtoB ECとデータ基盤を内製するデータドリブン企業。" },
+      { slug: "sbi", name: "SBIホールディングス", salary: "持株単体1,062万円(2025/3)", tech: "Java / Go / AWS / ブロックチェーン", desc: "ネット証券・銀行からWeb3まで幅広い総合金融グループ。" },
     ],
   },
   {
@@ -83,6 +93,14 @@ const categories = [
       { slug: "denso", name: "デンソー", salary: "863万円(全従業員平均)", tech: "車載ソフト / SOA / 組込 / AI", desc: "自動車Tier1。SDV/車載ソフト人材を積極登用。" },
       { slug: "fujifilm", name: "富士フイルム", salary: "1,124万円(HD全従業員平均)", tech: "医療画像AI / 画像処理 / データ", desc: "医療画像AI・ヘルスケア。ディープテック寄りのR&D。" },
       { slug: "fastretailing", name: "ファーストリテイリング", salary: "公式レンジ 580〜1,300万円", tech: "EC / SCM / クラウド基盤 / データ", desc: "「情報製造小売業」。EC/サプライチェーンのデジタル変革。" },
+      { slug: "kyocera", name: "京セラ", salary: "全社平均693万円(2025/3)", tech: "電子部品 / 半導体 / 通信 / 組込", desc: "電子部品・半導体・通信を手がける多角化メーカー。" },
+      { slug: "murata", name: "村田製作所", salary: "全社平均803万円(2025/3)", tech: "電子部品(MLCC) / 通信モジュール / 組込", desc: "MLCC世界トップの電子部品大手。" },
+      { slug: "renesas", name: "ルネサスエレクトロニクス", salary: "全社平均809万円(2024/12)", tech: "半導体設計 / HDL / EDA / 組込", desc: "マイコン・SoCの半導体大手。需要逼迫で経験者評価が高い。" },
+      { slug: "tokyo-electron", name: "東京エレクトロン", salary: "全社平均1,354万円(2025/3)", tech: "装置制御 / 組込 / 画像処理 / AI", desc: "半導体製造装置の世界大手。製造業最高水準の年収。" },
+      { slug: "omron", name: "オムロン", salary: "全社平均820万円(2025/3)", tech: "FA制御 / 組込 / 画像処理AI", desc: "制御機器(FA)で世界的強み。組込・画像処理が活きる。" },
+      { slug: "preferred-networks", name: "Preferred Networks（PFN）", salary: "非開示(非上場)", tech: "深層学習 / MN-Core / PLaMo / PyTorch", desc: "深層学習とAI半導体を一貫開発する高度専門のAI企業。" },
+      { slug: "ricoh", name: "リコー", salary: "単体860万円(2025/3)", tech: "組込み / クラウド / データ・AI", desc: "複合機からデジタルサービスへ転換する精密大手。" },
+      { slug: "canon", name: "キヤノン", salary: "単体865.7万円(2024/12)", tech: "組込み / 画像処理 / AI", desc: "光学・画像・組込みを中核とする精密大手。" },
     ],
   },
   {
@@ -91,6 +109,35 @@ const categories = [
     companies: [
       { slug: "nintendo", name: "任天堂", salary: "600〜950万円", tech: "C++ / C# / Unity / 自社エンジン", desc: "ハード一体型開発。独自エンジンの知見が中心。" },
       { slug: "bandai-namco", name: "バンダイナムコ", salary: "550〜900万円", tech: "C++ / C# / Unreal Engine / Unity", desc: "IP×ゲームの大規模開発。多様な職種を擁する。" },
+      { slug: "square-enix", name: "スクウェア・エニックス", salary: "持株1,427万円(実態乖離注意)", tech: "C++ / C# / Java / 自社エンジン", desc: "FF・ドラクエを擁する大手。専門性重視の中途採用。" },
+      { slug: "capcom", name: "カプコン", salary: "918万円(2025/3単体)", tech: "C++ / 内製RE ENGINE", desc: "モンハン・スト6。内製エンジン中心の開発。" },
+      { slug: "konami", name: "コナミ", salary: "持株789万円(開発はコナミデジタル)", tech: "C / C++ / C#", desc: "eFootball・遊戯王・桃鉄の総合エンタメ。" },
+      { slug: "sega-sammy", name: "セガ（セガサミーHD）", salary: "持株939万円(開発は株式会社セガ)", tech: "C++ / C# / Hedgehog / Unreal / Unity", desc: "ソニック・龍が如く。内製＋商用エンジン併用。" },
+      { slug: "koei-tecmo", name: "コーエーテクモ", salary: "持株793万円(開発はゲームス)", tech: "C++ / 内製Katana Engine", desc: "無双・仁王・信長の野望。内製文化が強い。" },
+      { slug: "gungho", name: "ガンホー", salary: "750万円(2024/12単体)", tech: "Unity / C# / 大規模サーバー", desc: "パズドラ運営。長期運用タイトル＋サーバー開発。" },
+      { slug: "mixi", name: "MIXI（ミクシィ）", salary: "単体791万円(2025/3)", tech: "Go / Ruby / Swift / Kotlin / C++", desc: "モンスト・みてね等を展開するエンタメ企業。" },
+      { slug: "gree", name: "グリー（GREE）", salary: "持株865万円(2025/6)", tech: "PHP / Go / Unity / Swift / Kotlin", desc: "ゲーム・メタバース軸のテック企業。" },
+      { slug: "colopl", name: "コロプラ", salary: "単体681万円(2025/9)", tech: "PHP(Laravel) / Go / Unity / Spanner", desc: "白猫等のモバイルゲーム。大規模サーバー運用。" },
+      { slug: "kadokawa", name: "KADOKAWA", salary: "単体885万円(2025/3)", tech: "Scala / TypeScript / Go / Kotlin", desc: "出版・IP・ニコニコ(ドワンゴ)。開発は事業会社。" },
+    ],
+  },
+  {
+    name: "インフラ・クラウド",
+    intro: "データセンター・自社クラウド・基盤運用が中核。インフラ実務×クラウド資格（AWS等）の掛け算が効く領域です。",
+    companies: [
+      { slug: "sakura-internet", name: "さくらインターネット", salary: "全社平均612万円(2025/3)", tech: "Linux / KVM / OpenStack / K8s / Terraform", desc: "DC・自社クラウド・GPU基盤を運営する国産インフラ。" },
+      { slug: "gmo-pepabo", name: "GMOペパボ", salary: "全社平均551万円(2024/12)", tech: "Ruby / Rails / Go / Linux / K8s", desc: "ホスティング〜EC・minne。技術発信が活発。" },
+      { slug: "classmethod", name: "クラスメソッド", salary: "非公開(非上場)", tech: "AWS / Terraform / TypeScript / Python", desc: "AWSプレミアティアパートナー・DevelopersIOのクラウド専業。" },
+      { slug: "future", name: "フューチャー（Future）", salary: "親会社単体841万円(2024/12)", tech: "Java / Go / AWS / GCP / Azure / K8s", desc: "戦略から実装まで一気通貫のITコンサル。" },
+    ],
+  },
+  {
+    name: "通信・金融",
+    intro: "通信×ITや金融決済システムの大規模基盤。大企業のジョブ型移行でミドル中途の門戸が広がっています。",
+    companies: [
+      { slug: "kddi", name: "KDDI", salary: "単体1,018万円(2025/3)", tech: "5G / クラウド / データ・AI", desc: "通信×ITを軸に事業拡張する通信大手。" },
+      { slug: "ntt", name: "NTT（日本電信電話）", salary: "持株単体1,069万円(2025/3)", tech: "IOWN / AI / クラウド / ソフトウェア工学", desc: "グループのR&Dを担う持株会社。事業会社とは別。" },
+      { slug: "jcb", name: "JCB（ジェーシービー）", salary: "非開示(非上場)", tech: "Go / Java / Python / GCP / Kubernetes", desc: "日本発の国際カードブランドの決済システム。" },
     ],
   },
 ];
@@ -108,7 +155,7 @@ export default function CompanyIndexPage() {
     "@type": "CollectionPage",
     name: "企業別エンジニア転職ガイド一覧",
     description:
-      "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲームの全38社をエンジニア転職の視点で業態分類した一覧ページ。",
+      "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全81社をエンジニア転職の視点で業態分類した一覧ページ。",
     url: "https://middle-engineer.com/company/",
     mainEntity: {
       "@type": "ItemList",
@@ -125,8 +172,8 @@ export default function CompanyIndexPage() {
   return (
     <>
       <ArticleJsonLd
-        title="企業別エンジニア転職ガイド一覧【38社】業態別に分類"
-        description="外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲームの全38社をエンジニア転職の視点で業態分類した一覧ページ。"
+        title="企業別エンジニア転職ガイド一覧【81社】業態別に分類"
+        description="外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全81社をエンジニア転職の視点で業態分類した一覧ページ。"
         url="/company/"
       />
       <script
@@ -142,7 +189,7 @@ export default function CompanyIndexPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          企業別エンジニア転職ガイド一覧【38社】
+          企業別エンジニア転職ガイド一覧【81社】
         </h1>
         <p className="text-slate-600 leading-relaxed mb-4">
           GAFAMから国内メガベンチャー、SaaS、SIer、メーカー、ゲームまで、全{allCompanies.length}社を業態別に分類しました。同じ「エンジニア採用」でも、業態によって求められる経験・選考スタイル・年収レンジは大きく異なります。気になる企業のガイドでは、採用の特徴・技術スタック・年収データ・選考フロー・30代40代視点での向き不向きまで掘り下げています。
