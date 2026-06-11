@@ -35,6 +35,7 @@ const purposes = [
   { slug: "remote-allowance", title: "在宅勤務手当がある企業へ", desc: "在宅勤務手当の種類と相場感、課税の扱い、通勤手当との関係と求人での見極め方。" },
   { slug: "childcare-leave", title: "育休取得実績が豊富な企業へ", desc: "くるみん認定など公的指標の読み方、男性育休取得率の確認、制度と実態の差を解説。" },
   { slug: "training", title: "研修・学習支援が充実した企業へ", desc: "研修制度の種類、求人での見極め方、形骸化を見抜く視点を30-40代向けに整理。" },
+  { slug: "casual-dress", title: "服装自由な企業へ転職", desc: "私服・服装自由なIT企業への転職。求人での見極め方と実態を解説。" },
 ];
 
 export default function PurposeIndexPage() {

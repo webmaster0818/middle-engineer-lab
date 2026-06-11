@@ -57,6 +57,7 @@ const knowledgeCategories = [
     category: "エージェント・求人探し",
     intro: "エージェントの選び方・使い方から、直接応募・スカウトまで。",
     items: [
+      { name: "エージェントを使わない転職", href: "/knowledge/no-agent/", desc: "直接応募・リファラルで自力転職する進め方と注意点。" },
       { name: "転職サイトとエージェントの違い", href: "/knowledge/site-vs-agent/", desc: "仕組みの違いと比較表・状況別の使い分け。" },
       { name: "エージェントの断り方・退会方法", href: "/knowledge/agent-decline/", desc: "求人を断る・退会の場面別メール例文。" },
       { name: "IT転職エージェントの選び方", href: "/knowledge/how-to-choose/", desc: "失敗しない5つのチェックポイント。" },
