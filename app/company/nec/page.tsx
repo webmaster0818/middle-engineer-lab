@@ -233,7 +233,7 @@ export default function NecCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "富士通の転職ガイド", href: "/company/fujitsu/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "NTTデータの転職ガイド", href: "/company/ntt-data/" }, { name: "AI／機械学習エンジニアの転職", href: "/skill/ai-ml/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "40代エンジニアの転職", href: "/age/40s/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "富士通の転職ガイド", href: "/company/fujitsu/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "NTTデータの転職ガイド", href: "/company/ntt-data/" }, { name: "AI／機械学習エンジニアの転職", href: "/skill/ai-ml/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "40代エンジニアの転職", href: "/age/40s/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "NTT（日本電信電話）エンジニア転職ガイド【2026年版】年収・技術・選考",
+  title: "NTT（日本電信電話）の年収は平均1069万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "NTT（持株会社・日本電信電話）へのエンジニア転職を実データで解説。有価証券報告書の持株単体平均年収1,069万円（2025年3月期）、IOWN・AI・クラウド等のR&D職種、選考フロー、30代40代の現実までまとめました。事業会社（ドコモ/データ等）とは別の点も明記。",
 };
@@ -87,7 +87,7 @@ export default function NttCompanyPage() {
     <>
       <ArticleJsonLd title="NTT（日本電信電話）エンジニア転職ガイド" description="NTT（持株会社・日本電信電話）へのエンジニア転職を実データで解説。有価証券報告書の持株単体平均年収1,069万円（2025年3月期）、IOWN・AI・クラウド等のR&D職種、選考フロー、30代40代の現実までまとめました。" url="/company/ntt/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "NTT（日本電信電話）" }]} />
+      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "NTT（日本電信電話）" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">NTT（日本電信電話）エンジニア転職ガイド【2026年版】</h1>

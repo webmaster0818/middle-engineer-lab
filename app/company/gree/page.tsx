@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "グリー（GREE）エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
+  title: "グリー（GREE）の年収は平均865万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "グリー（GREEグループ）へのエンジニア転職を実データで解説。有価証券報告書の平均年収865万円（2025年6月期・持株会社単体）、Go/PHP/Unity等の技術スタック、選考フロー、30代40代の現実までまとめました。持株会社移行に伴う数字の読み方も明記。",
 };
@@ -86,7 +86,7 @@ export default function GreeCompanyPage() {
     <>
       <ArticleJsonLd title="グリー（GREE）エンジニア転職ガイド" description="グリー（GREEグループ）へのエンジニア転職を実データで解説。有価証券報告書の平均年収865万円（2025年6月期・持株会社単体）、Go/PHP/Unity等の技術スタック、選考フロー、30代40代の現実までまとめました。持株会社移行に伴う数字の読み方も明記。" url="/company/gree/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "グリー（GREE）" }]} />
+      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "グリー（GREE）" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">グリー（GREE）エンジニア転職ガイド【2026年版】</h1>

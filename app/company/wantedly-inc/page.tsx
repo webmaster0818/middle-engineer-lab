@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "ウォンテッドリー（Wantedly）エンジニア転職ガイド【2026年版】年収・技術・選考",
+  title: "ウォンテッドリー（Wantedly）の年収は平均681万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "ウォンテッドリー株式会社（3991・東証グロース）へのエンジニア転職を実データで解説。有価証券報告書の平均年収681万円（全社員平均）、Ruby on Rails/Go/Reactの技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
@@ -80,7 +80,7 @@ export default function WantedlyIncCompanyPage() {
     <>
       <ArticleJsonLd title="ウォンテッドリー エンジニア転職ガイド" description="ウォンテッドリー株式会社（3991・東証グロース）へのエンジニア転職を実データで解説。有価証券報告書の平均年収681万円（全社員平均）、Ruby on Rails/Go/Reactの技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/wantedly-inc/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ウォンテッドリー" }]} />
+      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ウォンテッドリー" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ウォンテッドリー エンジニア転職ガイド【2026年版】</h1>

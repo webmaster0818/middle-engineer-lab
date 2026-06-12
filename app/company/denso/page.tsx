@@ -212,7 +212,7 @@ export default function DensoCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "トヨタ自動車の転職ガイド", href: "/company/toyota/" }, { name: "キーエンスの転職ガイド", href: "/company/keyence/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "組込エンジニアの転職", href: "/skill/embedded/" }, { name: "製造業エンジニアの転職", href: "/industry/manufacturing/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "トヨタ自動車の転職ガイド", href: "/company/toyota/" }, { name: "キーエンスの転職ガイド", href: "/company/keyence/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "組込エンジニアの転職", href: "/skill/embedded/" }, { name: "製造業エンジニアの転職", href: "/industry/manufacturing/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

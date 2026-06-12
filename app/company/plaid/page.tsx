@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "プレイド エンジニア転職ガイド｜年収・技術スタック・選考【2026】",
+  title: "プレイドの年収は平均939万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "プレイド（東証グロース・4165）のエンジニア中途採用を一次情報で解説。有価証券報告書の平均年収、KARTEの技術スタック、選考フロー、口コミ傾向、30代40代の転職可否までまとめました。",
 };
@@ -108,7 +108,7 @@ export default function PlaidCompanyPage() {
         url="/company/plaid/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "プレイド" }]} />
+      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "プレイド" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">プレイド エンジニア転職ガイド【2026年版】</h1>

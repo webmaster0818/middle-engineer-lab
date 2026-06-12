@@ -233,7 +233,7 @@ export default function BaseCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "PHPエンジニアの転職市場", href: "/skill/php/" }, { name: "Goエンジニアの転職市場", href: "/skill/go/" }, { name: "PLAIDの転職ガイド", href: "/company/plaid/" }, { name: "STORESの転職ガイド", href: "/company/stores/" }, { name: "クックパッドの転職ガイド", href: "/company/cookpad/" }, { name: "金融・フィンテック業界の転職", href: "/industry/finance/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "PHPエンジニアの転職市場", href: "/skill/php/" }, { name: "Goエンジニアの転職市場", href: "/skill/go/" }, { name: "PLAIDの転職ガイド", href: "/company/plaid/" }, { name: "STORESの転職ガイド", href: "/company/stores/" }, { name: "クックパッドの転職ガイド", href: "/company/cookpad/" }, { name: "金融・フィンテック業界の転職", href: "/industry/finance/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

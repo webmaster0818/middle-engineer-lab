@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "オムロン エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
+  title: "オムロンの年収は平均820万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "オムロンへのエンジニア転職を実データで解説。有価証券報告書の平均年収820万円（2025年3月期・全従業員平均）、制御機器（FA）・センサ・組込・画像処理／AI・ヘルスケア機器の技術領域、選考の考え方、30代40代の現実までまとめました。",
 };
@@ -88,7 +88,7 @@ export default function OmronCompanyPage() {
     <>
       <ArticleJsonLd title="オムロン エンジニア転職ガイド" description="オムロンへのエンジニア転職を実データで解説。有価証券報告書の平均年収820万円（2025年3月期・全従業員平均）、制御機器（FA）・センサ・組込・画像処理／AI・ヘルスケア機器の技術領域、選考、30代40代の現実までまとめました。" url="/company/omron/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "オムロン" }]} />
+      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "オムロン" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">オムロン エンジニア転職ガイド【2026年版】</h1>

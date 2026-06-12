@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "トヨタ自動車 エンジニア転職ガイド｜年収・Woven・選考【2026年】",
+  title: "トヨタ自動車の年収は平均983万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "トヨタ自動車のエンジニア転職を実データで解説。有報の平均年収983万円(2025年3月期)、ソフトウェアファースト、Woven by Toyotaの選考・報酬、口コミ傾向、30代40代視点まで網羅。",
 };
@@ -85,7 +85,7 @@ export default function ToyotaCompanyPage() {
     <>
       <ArticleJsonLd title="トヨタ自動車 エンジニア転職ガイド" description="トヨタ自動車へのエンジニア転職を実データで解説。有報の平均年収983万円、ソフトウェアファースト、Woven by Toyotaの選考・報酬、口コミ傾向、30代40代視点まで網羅。" url="/company/toyota/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "トヨタ自動車" }]} />
+      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "トヨタ自動車" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">トヨタ自動車 エンジニア転職ガイド【2026年版】</h1>

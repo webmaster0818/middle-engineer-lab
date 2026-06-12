@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "Sansan エンジニア転職ガイド｜年収・技術スタック・選考【2026年版】",
+  title: "Sansanの年収は平均780万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "Sansan（4443）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収780万円(2025年5月期)、Bill Oneの技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",
 };
@@ -98,7 +98,7 @@ export default function SansanCompanyPage() {
         url="/company/sansan/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "Sansan" }]} />
+      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "Sansan" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">Sansan エンジニア転職ガイド【2026年版】</h1>

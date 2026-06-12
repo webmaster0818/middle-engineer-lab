@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "ビジョナル/ビズリーチ エンジニア転職ガイド｜年収・技術【2026】",
+  title: "ビジョナル/ビズリーチの年収は平均861万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "ビジョナル（東証プライム・4194／ビズリーチ運営）のエンジニア中途採用を一次情報で解説。有価証券報告書の平均年収、Scala中心の技術スタック、選考フロー、口コミ傾向、30代40代の転職可否までまとめました。",
 };
@@ -113,7 +113,7 @@ export default function VisionalCompanyPage() {
         url="/company/visional/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ビジョナル/ビズリーチ" }]} />
+      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ビジョナル/ビズリーチ" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ビジョナル(ビズリーチ) エンジニア転職ガイド【2026年版】</h1>

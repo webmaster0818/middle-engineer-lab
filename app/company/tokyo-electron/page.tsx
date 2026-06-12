@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "東京エレクトロン エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
+  title: "東京エレクトロンの年収は平均1354万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "東京エレクトロンへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,354万円（2025年3月期・全従業員平均）、半導体製造装置の制御ソフト・組込・画像処理・データ解析の技術領域、選考の考え方、30代40代の現実までまとめました。",
 };
@@ -88,7 +88,7 @@ export default function TokyoElectronCompanyPage() {
     <>
       <ArticleJsonLd title="東京エレクトロン エンジニア転職ガイド" description="東京エレクトロンへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,354万円（2025年3月期・全従業員平均）、半導体製造装置の制御ソフト・組込・画像処理・データ解析の技術領域、選考、30代40代の現実までまとめました。" url="/company/tokyo-electron/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "東京エレクトロン" }]} />
+      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "東京エレクトロン" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">東京エレクトロン エンジニア転職ガイド【2026年版】</h1>

@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "リクルート エンジニア転職ガイド｜年収・技術スタック・選考【2026】",
+  title: "リクルートの年収は平均1145万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "株式会社リクルートのエンジニア（テクノロジー職）中途採用を一次情報で解説。持株会社の有価証券報告書平均年収、技術スタック、ミッショングレード、選考フロー、口コミ傾向、30代40代の視点をまとめました。",
 };
@@ -106,7 +106,7 @@ export default function RecruitCompanyPage() {
         url="/company/recruit/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "リクルート" }]} />
+      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "リクルート" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">リクルート エンジニア転職ガイド【2026年版】</h1>

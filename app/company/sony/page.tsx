@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "ソニーグループへのエンジニア転職｜年収・技術・選考フロー【2026年版】",
+  title: "ソニーグループの年収は平均1118万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "ソニーグループのエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説。提出会社平均年収1,118万円(2025年3月期)、ジョブ型人事、半導体・PlayStationの技術領域を中立にまとめました。",
 };
@@ -205,7 +205,7 @@ export default function SonyCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "任天堂の転職ガイド", href: "/company/nintendo/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "DeNAの転職ガイド", href: "/company/dena/" }, { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "任天堂の転職ガイド", href: "/company/nintendo/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "DeNAの転職ガイド", href: "/company/dena/" }, { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

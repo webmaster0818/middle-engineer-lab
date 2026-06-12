@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "任天堂へのエンジニア転職｜年収・技術スタック・選考フロー【2026年版】",
+  title: "任天堂の年収は平均966万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "任天堂のエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説。平均年収966万円(2025年3月期)、選考フロー、技術スタック、30代40代の現実を中立にまとめました。",
 };
@@ -243,7 +243,7 @@ export default function NintendoCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "ソニーグループの転職ガイド", href: "/company/sony/" }, { name: "バンダイナムコの転職ガイド", href: "/company/bandai-namco/" }, { name: "DeNAの転職ガイド", href: "/company/dena/" }, { name: "サイバーエージェントの転職ガイド", href: "/company/cyberagent/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ソニーグループの転職ガイド", href: "/company/sony/" }, { name: "バンダイナムコの転職ガイド", href: "/company/bandai-namco/" }, { name: "DeNAの転職ガイド", href: "/company/dena/" }, { name: "サイバーエージェントの転職ガイド", href: "/company/cyberagent/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

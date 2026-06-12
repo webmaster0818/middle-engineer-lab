@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "カプコン エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
+  title: "カプコンの年収は平均918万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "カプコンへのエンジニア転職を実データで解説。有価証券報告書の平均年収918万円（2025年3月期・単体全社員平均）、内製エンジンRE ENGINE中心のC++技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
@@ -88,7 +88,7 @@ export default function CapcomCompanyPage() {
     <>
       <ArticleJsonLd title="カプコン エンジニア転職ガイド" description="カプコンへのエンジニア転職を実データで解説。有価証券報告書の平均年収918万円（2025年3月期・単体全社員平均）、内製エンジンRE ENGINE中心のC++技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/capcom/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "カプコン" }]} />
+      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "カプコン" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">カプコン エンジニア転職ガイド【2026年版】</h1>
