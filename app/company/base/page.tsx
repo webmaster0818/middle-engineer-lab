@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "BASEへのエンジニア転職｜年収・技術スタック・選考の現実【2026】",
+  title: "BASEの年収は平均700万円【2026年・有報】エンジニア転職・技術スタック",
   description:
     "BASE（ベイス）のエンジニア中途採用を有価証券報告書・公式技術発信の一次情報で解説。平均年収700万円(2024年12月期)、PHP+Go・決済ドメイン、30代40代の現実を中立にまとめました。",
 };

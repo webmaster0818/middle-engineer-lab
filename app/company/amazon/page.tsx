@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "Amazon／AWS Japan エンジニア転職ガイド｜年収・OLP面接【2026年版】",
+  title: "Amazon／AWS Japanの年収・給与水準とエンジニア転職【2026年】OLP面接対策",
   description:
     "アマゾンジャパン／AWSジャパンへのエンジニア転職を、公式採用情報とlevels.fyi・OpenWork集計値で解説。Our Leadership Principles面接、Bar Raiser、年収レンジ、30代40代の現実までまとめました。",
 };

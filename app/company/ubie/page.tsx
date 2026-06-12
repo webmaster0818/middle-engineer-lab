@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "Ubieへのエンジニア転職｜年収・技術スタック・選考【2026】",
+  title: "Ubieの年収・給与とエンジニア転職【2026年】技術スタック・選考",
   description:
     "Ubie（ユビー）のエンジニア中途採用を公式採用ページ・技術発信の一次情報で解説。非上場のため全社平均年収はなく、職種別レンジ・Go/Node.js/GCPの技術スタック・30代40代の転職可否を中立にまとめました。",
 };

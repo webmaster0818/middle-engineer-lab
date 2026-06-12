@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "サイボウズへのエンジニア転職｜年収・技術スタック・働き方【2026年版】",
+  title: "サイボウズの年収・給与とエンジニア転職【2026年】働き方・技術スタック",
   description:
     "サイボウズのエンジニア中途採用を有価証券報告書・公式技術発信の一次情報で解説。平均年収(全従業員平均)、kintone/Garoonの技術スタック(Java/Go/TypeScript/React)、多様な働き方、30代40代の現実を中立にまとめました。",
 };

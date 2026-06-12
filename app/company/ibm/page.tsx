@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "日本IBMへのエンジニア転職｜年収・技術領域・選考の現実【2026年版】",
+  title: "日本IBMの年収・給与レンジとエンジニア転職【2026年】選考の現実",
   description:
     "日本IBMのエンジニア中途採用を公式情報・公開情報の範囲で解説。バンド制等級、Red Hat/IBM Cloud/watsonx等の技術領域、コンサル・アーキ志向の30代40代の現実を中立にまとめました。",
 };

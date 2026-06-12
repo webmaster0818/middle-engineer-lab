@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "ANDPADへのエンジニア転職｜年収・技術・選考【2026】",
+  title: "ANDPADの年収・給与とエンジニア転職【2026年】技術スタック・選考",
   description:
     "ANDPAD（建設DX・非上場・プレIPO）のエンジニア中途採用を公式技術ブログ等の一次情報で解説。Ruby on Rails中心＋Go採用の技術スタック、SRE文化、年収の考え方、30代40代の転職可否を中立にまとめました。",
 };

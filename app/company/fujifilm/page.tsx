@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "富士フイルムへのエンジニア転職｜年収1124万の実態とAI開発【2026年版】",
+  title: "富士フイルムの年収は平均1124万円【2026年・有報】エンジニア転職とAI開発",
   description:
     "富士フイルムのエンジニア中途採用を有価証券報告書の一次情報で解説。平均年収1124万円(2025年3月期・HD単体全従業員平均)は全社員平均でエンジニア単独ではありません。医療画像AI・ヘルスケア、IT機能のHD一元化、30代40代の現実を中立にまとめました。",
 };
