@@ -445,6 +445,7 @@ export default function SalaryTopPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "IT企業の平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" },
+              { name: "プログラミング言語別の平均年収ランキング【出典付き】", href: "/salary/skill-ranking/" },
               { name: "年収500万円エンジニアの必要スキル", href: "/salary/500man/" },
               { name: "年収600万円エンジニアの必要スキル", href: "/salary/600man/" },
               { name: "年収700万円エンジニアの必要スキル", href: "/salary/700man/" },

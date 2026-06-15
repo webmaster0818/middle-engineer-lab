@@ -143,6 +143,7 @@ function Footer() {
               <li><a href="/purpose/" className="hover:text-blue-400 transition-colors">目的別ガイド</a></li>
               <li><a href="/salary/" className="hover:text-blue-400 transition-colors">年収帯別ガイド</a></li>
               <li><a href="/salary/company-ranking/" className="hover:text-blue-400 transition-colors">企業年収ランキング</a></li>
+              <li><a href="/salary/skill-ranking/" className="hover:text-blue-400 transition-colors">言語別年収ランキング</a></li>
               <li><a href="/cert/" className="hover:text-blue-400 transition-colors">資格別ガイド</a></li>
               <li><a href="/employment/" className="hover:text-blue-400 transition-colors">雇用形態別ガイド</a></li>
               <li><a href="/area/" className="hover:text-blue-400 transition-colors">エリア別ガイド</a></li>
