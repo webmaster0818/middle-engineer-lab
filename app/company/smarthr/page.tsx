@@ -89,7 +89,7 @@ export default function SmarthrCompanyPage() {
         url="/company/smarthr/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "SmartHR" }]} />
+      <Breadcrumb items={[{ name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Ruby on Railsの転職ガイド", href: "/skill/rails/" }, { name: "Rubyの転職ガイド", href: "/skill/ruby/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "SmartHR" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">SmartHR エンジニア転職ガイド【2026年版】</h1>

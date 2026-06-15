@@ -76,7 +76,7 @@ export default function LineYahooCompanyPage() {
     <>
       <ArticleJsonLd title="LINEヤフー エンジニア転職ガイド" description="LINEヤフーのエンジニア中途採用を有価証券報告書・公式採用情報・口コミ出典付きで解説。平均年収884万円(2025年3月期)、選考フロー、出社方針までまとめました。" url="/company/line-yahoo/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "LINEヤフー" }]} />
+      <Breadcrumb items={[{ name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Kotlinの転職ガイド", href: "/skill/kotlin/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "Kubernetesの転職ガイド", href: "/skill/kubernetes/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "LINEヤフー" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">LINEヤフー エンジニア転職ガイド【2026年版】</h1>

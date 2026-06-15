@@ -85,7 +85,7 @@ export default function PanasonicCompanyPage() {
     <>
       <ArticleJsonLd title="パナソニック エンジニア転職ガイド" description="パナソニックへのエンジニア転職を実データで解説。有報の平均年収956万円、持株会社制とコネクト社のDX、Blue Yonder、選考フロー、口コミ傾向、30代40代視点まで網羅。" url="/company/panasonic/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "パナソニック" }]} />
+      <Breadcrumb items={[{ name: "組込みの転職ガイド", href: "/skill/embedded/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "パナソニック" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">パナソニック エンジニア転職ガイド【2026年版】</h1>

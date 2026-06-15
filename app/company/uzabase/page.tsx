@@ -87,7 +87,7 @@ export default function UzabaseCompanyPage() {
     <>
       <ArticleJsonLd title="ユーザベース エンジニア転職ガイド" description="ユーザベースへのエンジニア転職を実データで解説。上場最終期付近の有価証券報告書の平均年収約760万円（全社員平均）、SPEEDA/NewsPicksの技術スタック（Elixir/Go/Next.js等）、選考、30代40代の現実までまとめました。" url="/company/uzabase/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ユーザベース" }]} />
+      <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "Next.jsの転職ガイド", href: "/skill/nextjs/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ユーザベース" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ユーザベース エンジニア転職ガイド【2026年版】</h1>

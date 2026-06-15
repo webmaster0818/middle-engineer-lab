@@ -88,7 +88,7 @@ export default function RaksulCompanyPage() {
     <>
       <ArticleJsonLd title="ラクスル エンジニア転職ガイド" description="ラクスル（4384・東証プライム）へのエンジニア転職を実データで解説。有価証券報告書の平均年収742万円（2025年7月期・全社員平均）、Ruby on Rails/TypeScriptの技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/raksul/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ラクスル" }]} />
+      <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "Vue.jsの転職ガイド", href: "/skill/vue/" }, { name: "Nuxtの転職ガイド", href: "/skill/nuxt/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ラクスル" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ラクスル エンジニア転職ガイド【2026年版】</h1>

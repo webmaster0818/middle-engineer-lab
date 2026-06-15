@@ -113,7 +113,7 @@ export default function FujitsuCompanyPage() {
     <>
       <ArticleJsonLd title="富士通 エンジニア転職ガイド" description="富士通へのエンジニア転職を解説。有報の平均年収(2025年3月期)、ジョブ型採用、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/fujitsu/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "富士通" }]} />
+      <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "富士通" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">富士通 エンジニア転職ガイド【2026年版】</h1>

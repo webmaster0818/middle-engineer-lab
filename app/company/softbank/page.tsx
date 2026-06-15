@@ -85,7 +85,7 @@ export default function SoftbankCompanyPage() {
     <>
       <ArticleJsonLd title="ソフトバンク エンジニア転職ガイド" description="ソフトバンクへのエンジニア転職を実データで解説。有報の平均年収849万円、AI・5G・法人DXの募集職種と選考フロー、口コミ傾向、30代40代視点まで網羅。" url="/company/softbank/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ソフトバンク" }]} />
+      <Breadcrumb items={[{ name: "AI・機械学習の転職ガイド", href: "/skill/ai-ml/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ソフトバンク" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ソフトバンク エンジニア転職ガイド【2026年版】</h1>

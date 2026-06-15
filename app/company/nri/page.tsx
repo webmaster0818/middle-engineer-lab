@@ -113,7 +113,7 @@ export default function NriCompanyPage() {
     <>
       <ArticleJsonLd title="野村総合研究所(NRI) エンジニア転職ガイド" description="NRIへのエンジニア転職を解説。有報の平均年収(2025年3月期)、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/nri/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "野村総合研究所" }]} />
+      <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "C#/.NETの転職ガイド", href: "/skill/csharp/" }, { name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "野村総合研究所" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">野村総合研究所(NRI) エンジニア転職ガイド【2026年版】</h1>

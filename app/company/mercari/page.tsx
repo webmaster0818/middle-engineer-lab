@@ -91,7 +91,7 @@ export default function MercariCompanyPage() {
     <>
       <ArticleJsonLd title="メルカリ エンジニア転職ガイド" description="メルカリへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,176万円（2025年6月期・全社員平均）、Go/GCP等の公式技術スタック、英語要件、選考フロー、30代40代の現実までまとめました。" url="/company/mercari/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "メルカリ" }]} />
+      <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "Vue.jsの転職ガイド", href: "/skill/vue/" }, { name: "Next.jsの転職ガイド", href: "/skill/nextjs/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "メルカリ" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">メルカリ エンジニア転職ガイド【2026年版】</h1>

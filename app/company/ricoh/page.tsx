@@ -87,7 +87,7 @@ export default function RicohCompanyPage() {
     <>
       <ArticleJsonLd title="リコー エンジニア転職ガイド" description="リコーへのエンジニア転職を実データで解説。有価証券報告書の平均年収860万円（2025年3月期・全社員平均）、複合機からデジタルサービスへの転換に伴うソフトウェア・クラウド・AIの募集職種、選考フロー、30代40代の現実までまとめました。" url="/company/ricoh/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "リコー" }]} />
+      <Breadcrumb items={[{ name: "組込みの転職ガイド", href: "/skill/embedded/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "リコー" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">リコー エンジニア転職ガイド【2026年版】</h1>

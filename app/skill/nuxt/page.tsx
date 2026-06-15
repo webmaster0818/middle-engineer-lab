@@ -369,6 +369,15 @@ export default function NuxtSkillPage() {
           </div>
         </section>
       </article>
-    </>
+    
+      <section className="mx-auto max-w-3xl px-4 pb-10">
+        <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
+          <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
+          <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/note/" className="text-blue-700 hover:underline">note（ノート）</a></li><li><a href="/company/raksul/" className="text-blue-700 hover:underline">ラクスル（RAKSUL）</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+        </div>
+      </section>
+      </>
   );
 }

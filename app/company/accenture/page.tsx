@@ -108,7 +108,7 @@ export default function AccentureCompanyPage() {
     <>
       <ArticleJsonLd title="アクセンチュア エンジニア転職ガイド" description="アクセンチュアへのエンジニア転職を解説。テクノロジー部門の採用領域、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/accenture/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "アクセンチュア" }]} />
+      <Breadcrumb items={[{ name: "salesforceの転職ガイド", href: "/skill/salesforce/" }, { name: "SAPの転職ガイド", href: "/skill/sap/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "アクセンチュア" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">アクセンチュア エンジニア転職ガイド【2026年版】</h1>

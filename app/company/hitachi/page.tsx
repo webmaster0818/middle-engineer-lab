@@ -85,7 +85,7 @@ export default function HitachiCompanyPage() {
     <>
       <ArticleJsonLd title="日立製作所 エンジニア転職ガイド" description="日立製作所へのエンジニア転職を実データで解説。有報の平均年収961万円、Lumada・GlobalLogic・ジョブ型採用、選考フロー、口コミ傾向、30代40代視点まで網羅。" url="/company/hitachi/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "日立製作所" }]} />
+      <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "日立製作所" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">日立製作所 エンジニア転職ガイド【2026年版】</h1>

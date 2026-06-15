@@ -91,7 +91,7 @@ export default function CyberagentCompanyPage() {
     <>
       <ArticleJsonLd title="サイバーエージェント エンジニア転職ガイド" description="サイバーエージェントへのエンジニア転職を実データで解説。有価証券報告書の平均年収913.8万円（2025年9月期・全社員平均）、ABEMA等の技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/cyberagent/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "サイバーエージェント" }]} />
+      <Breadcrumb items={[{ name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Kubernetesの転職ガイド", href: "/skill/kubernetes/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "サイバーエージェント" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">サイバーエージェント エンジニア転職ガイド【2026年版】</h1>

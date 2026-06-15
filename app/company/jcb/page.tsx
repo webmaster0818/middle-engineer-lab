@@ -82,7 +82,7 @@ export default function JcbCompanyPage() {
     <>
       <ArticleJsonLd title="JCB（ジェーシービー）エンジニア転職ガイド" description="JCB（株式会社ジェーシービー）へのエンジニア転職を実データで解説。非上場のため平均年収は公式非開示。Go/Java/Python・GCP・Kubernetes等の決済システム技術スタック、募集職種、選考、30代40代の現実までまとめました。" url="/company/jcb/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "JCB（ジェーシービー）" }]} />
+      <Breadcrumb items={[{ name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "Dockerの転職ガイド", href: "/skill/docker/" }, { name: "Kubernetesの転職ガイド", href: "/skill/kubernetes/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "JCB（ジェーシービー）" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">JCB（ジェーシービー）エンジニア転職ガイド【2026年版】</h1>

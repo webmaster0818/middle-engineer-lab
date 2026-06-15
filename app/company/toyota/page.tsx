@@ -85,7 +85,7 @@ export default function ToyotaCompanyPage() {
     <>
       <ArticleJsonLd title="トヨタ自動車 エンジニア転職ガイド" description="トヨタ自動車へのエンジニア転職を実データで解説。有報の平均年収983万円、ソフトウェアファースト、Woven by Toyotaの選考・報酬、口コミ傾向、30代40代視点まで網羅。" url="/company/toyota/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "トヨタ自動車" }]} />
+      <Breadcrumb items={[{ name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Rustの転職ガイド", href: "/skill/rust/" }, { name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "組込みの転職ガイド", href: "/skill/embedded/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "トヨタ自動車" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">トヨタ自動車 エンジニア転職ガイド【2026年版】</h1>

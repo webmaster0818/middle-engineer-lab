@@ -80,7 +80,7 @@ export default function DmmCompanyPage() {
     <>
       <ArticleJsonLd title="DMM.com エンジニア転職ガイド" description="DMM.com（合同会社DMM.com）へのエンジニア転職を実データで解説。非上場のため平均年収は公式非開示である点を明記し、Go/PHP/TypeScript等の技術スタック、50以上の事業領域、選考フロー、30代40代の現実までまとめました。" url="/company/dmm/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "DMM.com" }]} />
+      <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "Vue.jsの転職ガイド", href: "/skill/vue/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "DMM.com" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">DMM.com エンジニア転職ガイド【2026年版】</h1>

@@ -87,7 +87,7 @@ export default function NoteCompanyPage() {
     <>
       <ArticleJsonLd title="note エンジニア転職ガイド" description="note株式会社へのエンジニア転職を実データで解説。有価証券報告書の平均年収763万円（2025年11月期・全社員平均）、Ruby on Rails/Goの公式技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/note/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "note" }]} />
+      <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "Next.jsの転職ガイド", href: "/skill/nextjs/" }, { name: "Nuxtの転職ガイド", href: "/skill/nuxt/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Ruby on Railsの転職ガイド", href: "/skill/rails/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "note" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">note エンジニア転職ガイド【2026年版】</h1>

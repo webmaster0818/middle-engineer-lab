@@ -205,7 +205,7 @@ export default function DenaCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "サイバーエージェントの転職ガイド", href: "/company/cyberagent/" }, { name: "メルカリの転職ガイド", href: "/company/mercari/" }, { name: "任天堂の転職ガイド", href: "/company/nintendo/" }, { name: "バンダイナムコの転職ガイド", href: "/company/bandai-namco/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }, { name: "技術面接の進め方", href: "/knowledge/tech-interview/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Unityの転職ガイド", href: "/skill/unity/" }, { name: "Kubernetesの転職ガイド", href: "/skill/kubernetes/" }, { name: "サイバーエージェントの転職ガイド", href: "/company/cyberagent/" }, { name: "メルカリの転職ガイド", href: "/company/mercari/" }, { name: "任天堂の転職ガイド", href: "/company/nintendo/" }, { name: "バンダイナムコの転職ガイド", href: "/company/bandai-namco/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }, { name: "技術面接の進め方", href: "/knowledge/tech-interview/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>
