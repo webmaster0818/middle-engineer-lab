@@ -102,7 +102,7 @@ export default function JcbCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               JCBは<strong>24時間365日稼働する金融決済システムを、Go/GCP/Kubernetes等のモダンな技術で内製・刷新している決済インフラ企業</strong>です。可用性・セキュリティ・品質を最優先しながら、開発手法のモダン化に関わりたいエンジニアに向きます。
@@ -121,7 +121,7 @@ export default function JcbCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -159,17 +159,17 @@ export default function JcbCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">国際カードブランドの決済システムを内製</h3>
-              <p className="text-sm text-blue-700">JCBは日本発唯一の国際カードブランドとして、24時間365日稼働する決済システムを運営しています。ブランド・イシュア（カード発行）・アクワイアラ（加盟店）の各業務を支えるシステムを内製で開発・運用しており、社会インフラ級の安定性が求められます。</p>
+              <p className="text-sm text-petrol-deep">JCBは日本発唯一の国際カードブランドとして、24時間365日稼働する決済システムを運営しています。ブランド・イシュア（カード発行）・アクワイアラ（加盟店）の各業務を支えるシステムを内製で開発・運用しており、社会インフラ級の安定性が求められます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">モダンな技術スタックと開発手法</h3>
-              <p className="text-sm text-blue-700">公式情報によると、Go・Java・Python、GCP、Docker・Kubernetes、GitLab、Datadogといったモダンな技術を採用し、スクラム開発やTDD・ペアプログラミングなどの手法も取り入れています。金融でありながら開発のモダン化を進めている点が特徴です。</p>
+              <p className="text-sm text-petrol-deep">公式情報によると、Go・Java・Python、GCP、Docker・Kubernetes、GitLab、Datadogといったモダンな技術を採用し、スクラム開発やTDD・ペアプログラミングなどの手法も取り入れています。金融でありながら開発のモダン化を進めている点が特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">安心・安全・安定運用への高い意識</h3>
-              <p className="text-sm text-blue-700">決済というミスの許されない領域のため、可用性・セキュリティ・品質保証が重視されます。QAやSRE的な品質・運用の役割も明確に位置づけられており、堅牢なシステム作りに関わりたいエンジニアに向いています。</p>
+              <p className="text-sm text-petrol-deep">決済というミスの許されない領域のため、可用性・セキュリティ・品質保証が重視されます。QAやSRE的な品質・運用の役割も明確に位置づけられており、堅牢なシステム作りに関わりたいエンジニアに向いています。</p>
             </div>
           </div>
         </section>
@@ -181,11 +181,11 @@ export default function JcbCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>言語</strong>：Go、Java、Python</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>基盤・インフラ</strong>：GCP、Docker、Kubernetes</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>開発・運用ツール</strong>：GitLab、Datadog 等の監視・CI/CDツール</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>主な職種</strong>：アプリケーションエンジニア、システムプロダクトオーナー（SysPO）、社内SE（インフラ／アプリ）、QAエンジニア</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>開発スタイル</strong>：スクラム開発、TDD、リファクタリング、ペアプログラミング</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>言語</strong>：Go、Java、Python</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>基盤・インフラ</strong>：GCP、Docker、Kubernetes</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>開発・運用ツール</strong>：GitLab、Datadog 等の監視・CI/CDツール</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>主な職種</strong>：アプリケーションエンジニア、システムプロダクトオーナー（SysPO）、社内SE（インフラ／アプリ）、QAエンジニア</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>開発スタイル</strong>：スクラム開発、TDD、リファクタリング、ペアプログラミング</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: JCB公式 キャリア採用ページ（システム本部・IT/デジタル領域、2026年6月時点）。具体的な必須スキルは各求人の募集要項をご確認ください。</p>
@@ -194,7 +194,7 @@ export default function JcbCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            JCBのキャリア採用ページで公開されている一般的な流れです。最新の内容は<a href="https://www.saiyo.jcb.co.jp/careerrecruit/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式キャリア採用ページ</a>でご確認ください。
+            JCBのキャリア採用ページで公開されている一般的な流れです。最新の内容は<a href="https://www.saiyo.jcb.co.jp/careerrecruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式キャリア採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>募集ポジションの確認・応募（エントリー）</li>
@@ -211,12 +211,12 @@ export default function JcbCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>金融・決済など高可用性システムの開発・運用経験と専門性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>可用性・セキュリティ・品質保証への意識と具体的な取り組み</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>クラウド・コンテナ・自動化など、開発モダン化への適応力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>スクラム等チーム開発での協働姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>金融・決済など高可用性システムの開発・運用経験と専門性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>可用性・セキュリティ・品質保証への意識と具体的な取り組み</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド・コンテナ・自動化など、開発モダン化への適応力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>スクラム等チーム開発での協働姿勢</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、システム設計の準備は<Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システム設計面接の対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、システム設計の準備は<Link href="/knowledge/system-design/" className="text-petrol hover:underline">システム設計面接の対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -229,7 +229,7 @@ export default function JcbCompanyPage() {
               年収面は、非上場のため公式な平均年収が非開示である点に注意が必要です（本ページでは数値を創作しません）。参考値として、レバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円ですが、これはあくまで市場全体の目安です。JCBの提示額は募集ポジション・等級・経験により異なるため、個別求人・面談で確認してください。
             </p>
             <p>
-              金融・決済という領域に関心があるなら、<Link href="/industry/finance/" className="text-blue-600 hover:underline">金融業界のエンジニア転職</Link>もあわせて確認すると、業界全体の動向や求められるスキルが把握しやすくなります。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も参考にしてください。
+              金融・決済という領域に関心があるなら、<Link href="/industry/finance/" className="text-petrol hover:underline">金融業界のエンジニア転職</Link>もあわせて確認すると、業界全体の動向や求められるスキルが把握しやすくなります。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も参考にしてください。
             </p>
           </div>
         </section>
@@ -242,13 +242,13 @@ export default function JcbCompanyPage() {
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・金融・ハイクラスに強く、専門職・管理職求人や想定年収の確認に対応。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">非上場企業は年収情報が表に出にくいため、想定年収レンジの確認にはエージェントの活用が有効です。<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">非上場企業は年収情報が表に出にくいため、想定年収レンジの確認にはエージェントの活用が有効です。<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -269,7 +269,7 @@ export default function JcbCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">JCBへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">金融・決済系の転職や、非開示の想定年収確認に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -283,7 +283,7 @@ export default function JcbCompanyPage() {
               { name: "企業別エンジニア転職ガイド一覧", href: "/company/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

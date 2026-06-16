@@ -171,7 +171,7 @@ export default function Salary30sPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -182,7 +182,7 @@ export default function Salary30sPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：30代の年収相場と上げ方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               レバテックが公表する2025年の年代別平均年収では、正社員エンジニアの<strong>30代は約499万円</strong>。年収1,000万円以上の割合は<strong>30代で8.01%</strong>とされています。公的統計でも、厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円・平均年齢37.1歳</strong>です。
             </p>
@@ -209,9 +209,9 @@ export default function Salary30sPage() {
               </thead>
               <tbody>
                 {salaryData.map((row, i) => (
-                  <tr key={i} className={row.age === "30代" ? "bg-blue-50" : "hover:bg-slate-50"}>
+                  <tr key={i} className={row.age === "30代" ? "bg-petrol-soft" : "hover:bg-slate-50"}>
                     <td className="px-4 py-3 border border-slate-200 font-medium">{row.age}</td>
-                    <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">{row.salary}</td>
+                    <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">{row.salary}</td>
                     <td className="px-4 py-3 border border-slate-200 text-slate-600">{row.note}</td>
                   </tr>
                 ))}
@@ -251,7 +251,7 @@ export default function Salary30sPage() {
           <div className="space-y-4">
             {strategies.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -263,9 +263,9 @@ export default function Salary30sPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             自分の市場価値を把握するうえでは、
-            <Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>
+            <Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>
             や、複数社を比較する
-            <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェントの併用</Link>
+            <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェントの併用</Link>
             も参考になります。
           </p>
         </section>
@@ -280,7 +280,7 @@ export default function Salary30sPage() {
             <ul className="space-y-3">
               {checklist.map((item, i) => (
                 <li key={i} className="flex gap-3 text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>
+                  <span className="text-petrol font-bold shrink-0">✓</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -310,7 +310,7 @@ export default function Salary30sPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             具体的な伝え方やNG例は
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の記事</Link>
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の記事</Link>
             で詳しく解説しています。
           </p>
         </section>
@@ -319,21 +319,21 @@ export default function Salary30sPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代という年代の独自事情</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">「年収の伸びしろ」が最も大きい年代</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 レバテック公表値で30代平均約499万円→40代約618万円と、30代から40代にかけて平均が大きく伸びています。これは30代でどの軸（専門性／マネジメント）を選び、どんな実績を積むかが、40代の年収に直結することを示しています。30代は『次の10年の土台を作る』年代です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ライフイベントと年収のバランス</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30代は結婚・育児・住宅購入などライフイベントが重なりやすく、年収だけでなくリモートワークや残業時間などの労働条件も重要になります。年収の額面だけで転職先を決めず、総合的なパッケージで判断する視点が求められます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">「未経験扱い」が通用しにくくなる</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30代後半になると、即戦力としての期待が高まります。何でもこなせる『便利屋』ではなく、特定領域で頼られる存在になっているかどうかが、年収レンジを分けます。
               </p>
             </div>
@@ -364,7 +364,7 @@ export default function Salary30sPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -384,7 +384,7 @@ export default function Salary30sPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

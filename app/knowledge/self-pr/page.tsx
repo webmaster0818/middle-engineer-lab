@@ -180,7 +180,7 @@ export default function SelfPrPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -191,7 +191,7 @@ export default function SelfPrPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：自己PRの基本構成</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               通る自己PRは、<strong>「結論（強み）→ 根拠（経験）→ 成果（数値・事実）→ 再現性（応募先での貢献）」</strong>の順で組み立てます。強みは1つに絞り、抽象的な形容詞ではなく具体的なエピソードと結果で裏づけるのが鉄則です。
             </p>
@@ -210,7 +210,7 @@ export default function SelfPrPage() {
           <div className="space-y-4">
             {steps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -222,7 +222,7 @@ export default function SelfPrPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             強みが言語化できないときは
-            <Link href="/knowledge/self-analysis/" className="text-blue-600 hover:underline">自己分析のやり方</Link>
+            <Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析のやり方</Link>
             から始めると整理しやすくなります。
           </p>
         </section>
@@ -272,22 +272,22 @@ export default function SelfPrPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の自己PRの作り方</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：実績の厚みを定量的に語る</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30代は実務経験が充実し、定量的な成果を語りやすい年代です。担当した開発の規模、改善した数値、リードした取り組みを軸に、「課題発見から解決まで自走できる」点を示すと強みが伝わります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：判断力・育成・巻き込み力を前面に</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は、技術力に加えて「経験に裏打ちされた判断力」「チームを巻き込む力」「後進の育成」が武器になります。ただし過去の自慢話に終始せず、その経験が応募先で今どう活きるかまで接続することが重要です。
               </p>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             年代別の転職戦略は
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>
             も合わせてご覧ください。
           </p>
         </section>
@@ -320,7 +320,7 @@ export default function SelfPrPage() {
               "話す速度・表情・視線も評価対象。落ち着いて、自信を持って伝える。",
             ].map((tip, i) => (
               <li key={i} className="flex gap-3 items-start border border-slate-200 rounded-lg p-4">
-                <span className="text-blue-500 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span className="text-sm text-slate-600 leading-relaxed">{tip}</span>
               </li>
             ))}
@@ -351,7 +351,7 @@ export default function SelfPrPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -371,7 +371,7 @@ export default function SelfPrPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

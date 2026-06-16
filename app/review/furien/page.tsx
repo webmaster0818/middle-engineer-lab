@@ -208,7 +208,7 @@ export default function FurienReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：直請け中心の高単価案件を、支払いサイトも選びながら探したい経験者向け</span>。一言でいえば「IT実務経験があり、直請けの高単価案件とキャッシュフロー管理を両立したい30代・40代」向けのフリーランスエージェントです。
@@ -262,27 +262,27 @@ export default function FurienReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フリエン（ココナラテック）の特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 直請け中心で高単価を狙いやすい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 直請け（プライム）案件が中心で、最高単価は月額200万円（公式）。多重下請けに比べて中間マージンが抑えられ、単価が高めになりやすい構造です。関連サービス「チョクフリ」は直請け100%をうたっています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 支払いサイトを選べる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 先払い・即日払い（審査あり）・15日払いから支払いサイトを選べます。独立直後で資金繰りが不安なフリーランスにとって、報酬の受け取りタイミングを早められるのは大きな安心材料です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. ココナラグループの基盤</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 現在は日本最大級のスキルマーケット「ココナラ」のグループ企業が運営し、ココナラに登録する多数の企業から案件紹介が受けられるとされます。エージェント実績も長く、案件供給の基盤がしっかりしています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 幅広い年代に対応</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 年齢制限の明記がなく、公式では20〜60代に対応とされています。実務経験のあるミドル・シニアのエンジニアでも案件を探しやすく、40代以降のキャリアでも活用しやすいサービスです。
               </p>
             </div>
@@ -362,9 +362,9 @@ export default function FurienReview() {
             </p>
             <p>
               案件量の網羅性を補いたい場合は、案件検索エンジンの
-              <Link href="/review/freelance-start/" className="text-blue-600 hover:underline">フリーランススタート</Link>
+              <Link href="/review/freelance-start/" className="text-petrol hover:underline">フリーランススタート</Link>
               や最大手級の
-              <Link href="/review/levtech-freelance/" className="text-blue-600 hover:underline">レバテックフリーランス</Link>
+              <Link href="/review/levtech-freelance/" className="text-petrol hover:underline">レバテックフリーランス</Link>
               を併用するとよいでしょう。
             </p>
           </div>
@@ -407,7 +407,7 @@ export default function FurienReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -444,16 +444,16 @@ export default function FurienReview() {
             </table>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテックフリーランス（案件量）の評判 →
             </Link>
-            <Link href="/review/relance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/relance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Relance（高単価プライム）の評判 →
             </Link>
-            <Link href="/review/midworks/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/midworks/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Midworks（保障で安定）の評判 →
             </Link>
-            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               フリーランスエージェント比較 →
             </Link>
           </div>
@@ -481,7 +481,7 @@ export default function FurienReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは無料カウンセリングで、直請け案件の単価レンジと選べる支払いサイトを確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>
@@ -491,7 +491,7 @@ export default function FurienReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

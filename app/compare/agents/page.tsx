@@ -232,7 +232,7 @@ const agents: Agent[] = [
 
 const typeBadge = (type: Agent["type"]) =>
   type === "IT特化型"
-    ? "bg-blue-100 text-blue-700"
+    ? "bg-petrol-soft text-petrol-deep"
     : type === "ハイクラス"
     ? "bg-purple-100 text-purple-700"
     : type === "転職サイト"
@@ -303,7 +303,7 @@ export default function CompareAgentsPage() {
         {/* 目次 */}
         <nav className="bg-slate-50 border border-slate-200 rounded-lg p-5 mb-10" aria-label="目次">
           <p className="font-bold text-slate-700 mb-3">目次</p>
-          <ol className="space-y-2 text-sm text-blue-600">
+          <ol className="space-y-2 text-sm text-petrol">
             {toc.map((item) => (
               <li key={item.id}>
                 <a href={`#${item.id}`} className="hover:underline">
@@ -317,7 +317,7 @@ export default function CompareAgentsPage() {
         {/* 結論ファースト */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：30代・40代の選び方ファースト</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">
               迷ったら「IT特化型1〜2社＋総合型またはハイクラス1社」の併用が結論です。
             </p>
@@ -335,7 +335,7 @@ export default function CompareAgentsPage() {
           </div>
           <p className="text-slate-600 text-sm leading-relaxed">
             1社では求人の幅が狭く、4社以上は管理が煩雑です。特化型を軸に2〜3社へ登録し、紹介の量と質を比較しながら主軸を決めるのが、ミドル世代にとって失敗の少ない進め方です。各社の順位付けの考え方は
-            <Link href="/editorial/" className="text-blue-600 hover:underline">
+            <Link href="/editorial/" className="text-petrol hover:underline">
               記事制作ポリシー（評価基準）
             </Link>
             に基づいています。
@@ -360,7 +360,7 @@ export default function CompareAgentsPage() {
                 {agents.map((agent) => (
                   <tr key={agent.slug} className="hover:bg-slate-50 align-top">
                     <td className="px-3 py-3 border border-slate-200 font-medium">
-                      <Link href={agent.review} className="text-blue-600 hover:underline">
+                      <Link href={agent.review} className="text-petrol hover:underline">
                         {agent.name}
                       </Link>
                     </td>
@@ -434,7 +434,7 @@ export default function CompareAgentsPage() {
                   <span className="font-bold text-slate-800">向いている人：</span>
                   {agent.fit}
                 </p>
-                <Link href={agent.review} className="inline-block mt-3 text-xs text-blue-600 hover:underline">
+                <Link href={agent.review} className="inline-block mt-3 text-xs text-petrol hover:underline">
                   {agent.name}の詳細レビューを見る →
                 </Link>
               </div>
@@ -449,48 +449,48 @@ export default function CompareAgentsPage() {
         <section id="segment" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年代別・目的別の選び方セグメント</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代・専門性を高めて年収を上げたい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 レバテックキャリア＋Geekly を軸に、求人量を補う doda ITエンジニア を併用。レバテックの公式系データでは内定承諾者の3人に2人が応募時より年収70万円以上アップ（2023年1月〜2024年3月実績）と公表されており、年収レンジの引き上げを狙いやすい構成です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代・ハイクラス／管理職に進みたい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 ビズリーチ＋レバテックキャリア に、母数を確保するリクルートエージェントIT を併用。ビズリーチは年収1,000万円以上求人が全体の約4割（二次）とされ、スカウトで市場価値を測りながら管理職・外資の選択肢を広げられます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">首都圏で丁寧に進めたい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 type転職エージェントIT＋レバテックキャリア。typeは一都三県のIT/Webに強く年収交渉に注力。ミスマッチを避けたい人に向きますが、type公表の年収アップ実績は2021〜2022年の自社調査である点は割り引いて見てください。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">地方・全国で探したい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 全国対応のリクルートエージェントIT・doda ITエンジニア・ワークポート（全国47都道府県57拠点）を軸に。IT特化型は首都圏中心の社が多いため、地方では総合型で母数を確保するのが現実的です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">実力・スキルで勝負したい／自分で動きたい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 paiza転職（スキルチェックのランクでスカウト）や Green（カジュアル面談・直接応募）。いずれもエージェントの仲介サポートはない形態のため、自走できる人や社風を自分の目で確かめたい人に向きます。
               </p>
             </div>
           </div>
           <p className="text-sm text-slate-600 mt-4">
             年代別の詳しい解説は
-            <Link href="/compare/30s-agents/" className="text-blue-600 hover:underline">
+            <Link href="/compare/30s-agents/" className="text-petrol hover:underline">
               30代向けエージェント比較
             </Link>
             ・
-            <Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">
+            <Link href="/compare/40s-agents/" className="text-petrol hover:underline">
               40代向けエージェント比較
             </Link>
             、ハイクラスは
-            <Link href="/compare/highclass/" className="text-blue-600 hover:underline">
+            <Link href="/compare/highclass/" className="text-petrol hover:underline">
               ハイクラス向け比較
             </Link>
             もあわせてご覧ください。
@@ -540,7 +540,7 @@ export default function CompareAgentsPage() {
                 { n: "5", t: "内定後に年収交渉を任せる", d: "交渉は内定後が最も効果的。複数オファーがあれば交渉材料になります。気まずい交渉はエージェントに代行してもらえます。" },
               ].map((item) => (
                 <div key={item.n} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                     {item.n}
                   </span>
                   <div>
@@ -571,19 +571,19 @@ export default function CompareAgentsPage() {
             </p>
             <p>
               年代・年収の詳細は
-              <Link href="/age/30s/" className="text-blue-600 hover:underline">
+              <Link href="/age/30s/" className="text-petrol hover:underline">
                 30代エンジニアの転職
               </Link>
               ・
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">
+              <Link href="/age/40s/" className="text-petrol hover:underline">
                 40代エンジニアの転職
               </Link>
               、
-              <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">
+              <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">
                 30代の年収相場
               </Link>
               ・
-              <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">
+              <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">
                 40代の年収相場
               </Link>
               でも解説しています。
@@ -615,7 +615,7 @@ export default function CompareAgentsPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -635,7 +635,7 @@ export default function CompareAgentsPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

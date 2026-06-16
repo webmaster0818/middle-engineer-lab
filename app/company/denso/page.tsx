@@ -71,7 +71,7 @@ export default function DensoCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（車載ソフト・SDV経験者を積極登用）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・<strong>車載ソフトウェア・SDV・ADAS・自動運転・車載AI</strong>が中核領域。ソフトウェア専用採用サイトを運営し、人材登用を強化中。</li>
@@ -86,7 +86,7 @@ export default function DensoCompanyPage() {
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
@@ -106,9 +106,9 @@ export default function DensoCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">SDV化を支えるソフトウェア専用採用</h3><p className="text-sm text-blue-700">デンソーはソフトウェア人材向けの専用採用サイト（careers.denso.com/software）を運営しています。クルマの価値をソフトウェアが定義するSDV化の流れの中で、車載ソフト・SOA・自動運転・車載AIといった領域のエンジニアを積極的に登用しています。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">組込からクラウドまで幅広いレイヤー</h3><p className="text-sm text-blue-700">マイコン上で動く制御ソフトの組込領域から、SOA（サービス指向アーキテクチャ）、クラウド連携まで、車載ソフトウェアは幅広いレイヤーをカバーします。担当領域により求められるスキルセットが異なるのが特徴です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">高い定着率とミドル中核の組織</h3><p className="text-sm text-blue-700">提出会社単体の平均勤続年数は23.1年、平均年齢44.8歳（2025年3月期・有報）。長期就業者が中核を占める安定した組織で、腰を据えて専門性を磨く環境といえます。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">SDV化を支えるソフトウェア専用採用</h3><p className="text-sm text-petrol-deep">デンソーはソフトウェア人材向けの専用採用サイト（careers.denso.com/software）を運営しています。クルマの価値をソフトウェアが定義するSDV化の流れの中で、車載ソフト・SOA・自動運転・車載AIといった領域のエンジニアを積極的に登用しています。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">組込からクラウドまで幅広いレイヤー</h3><p className="text-sm text-petrol-deep">マイコン上で動く制御ソフトの組込領域から、SOA（サービス指向アーキテクチャ）、クラウド連携まで、車載ソフトウェアは幅広いレイヤーをカバーします。担当領域により求められるスキルセットが異なるのが特徴です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">高い定着率とミドル中核の組織</h3><p className="text-sm text-petrol-deep">提出会社単体の平均勤続年数は23.1年、平均年齢44.8歳（2025年3月期・有報）。長期就業者が中核を占める安定した組織で、腰を据えて専門性を磨く環境といえます。</p></div>
           </div>
         </section>
 
@@ -117,11 +117,11 @@ export default function DensoCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">デンソーは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成しません</strong>（推測での創作を避けるため）。公開情報・採用情報から確認できる技術領域は以下の通りです。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>車載ソフトウェア</strong>：ECU・車載制御ソフトの開発領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>SOA（サービス指向アーキテクチャ）</strong>：SDV化を支えるソフトウェアアーキテクチャ領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>ADAS・自動運転</strong>：先進運転支援・自動運転システムの開発領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>車載AI</strong>：認識・判断などのAI関連領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span>組込・車載領域では一般にC/C++やモデルベース開発が想定されますが、<strong>公式の統一情報がないため断定はしません</strong>。具体的言語は各募集要項で確認してください。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>車載ソフトウェア</strong>：ECU・車載制御ソフトの開発領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>SOA（サービス指向アーキテクチャ）</strong>：SDV化を支えるソフトウェアアーキテクチャ領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ADAS・自動運転</strong>：先進運転支援・自動運転システムの開発領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>車載AI</strong>：認識・判断などのAI関連領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>組込・車載領域では一般にC/C++やモデルベース開発が想定されますが、<strong>公式の統一情報がないため断定はしません</strong>。具体的言語は各募集要項で確認してください。</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：デンソー ソフトウェア採用サイト（careers.denso.com/software）で確認できる技術領域に基づく記述。具体的な開発言語・内製ツールの統一一覧は公開されていないため、推測の言語表は掲載していません。</p>
@@ -162,7 +162,7 @@ export default function DensoCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>提出会社単体の<strong>平均年齢は44.8歳、平均勤続年数23.1年</strong>（2025年3月期・有報）。ミドル〜シニア層が中核を占める組織で、30代・40代で中途入社しても年齢構成的に浮きにくい環境といえます。中途では即戦力としての専門性が問われる一方、長期就業を前提とした腰を据えたキャリア形成がしやすい点が特徴です。</p>
             <p>30代・40代の車載ソフト・組込・ADAS経験者にとって、デンソーは「<strong>SDV化という巨大変革をリードできる</strong>」希少なフィールドです。クルマのソフトウェア定義化は今後も需要が拡大する領域であり、専門性が長く活きる可能性があります。一方、Web系のみの経験からの転身は車載ドメイン・機能安全などの知識習得が前提になる点に注意が必要です。</p>
-            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>や<Link href="/skill/embedded/" className="text-blue-600 hover:underline">組込エンジニアの転職</Link>、<Link href="/industry/manufacturing/" className="text-blue-600 hover:underline">製造業エンジニアの転職</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/skill/embedded/" className="text-petrol hover:underline">組込エンジニアの転職</Link>、<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業エンジニアの転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -193,15 +193,15 @@ export default function DensoCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">デンソー転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・車載領域に強く、技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手メーカーの専門職・高年収ポジションのスカウトが届きやすい。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・車載領域に強く、技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手メーカーの専門職・高年収ポジションのスカウトが届きやすい。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">デンソーへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">車載ソフト・SDV領域の求人に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -212,7 +212,7 @@ export default function DensoCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "トヨタ自動車の転職ガイド", href: "/company/toyota/" }, { name: "キーエンスの転職ガイド", href: "/company/keyence/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "組込エンジニアの転職", href: "/skill/embedded/" }, { name: "製造業エンジニアの転職", href: "/industry/manufacturing/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "トヨタ自動車の転職ガイド", href: "/company/toyota/" }, { name: "キーエンスの転職ガイド", href: "/company/keyence/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "組込エンジニアの転職", href: "/skill/embedded/" }, { name: "製造業エンジニアの転職", href: "/industry/manufacturing/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

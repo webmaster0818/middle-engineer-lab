@@ -121,14 +121,14 @@ export default function FrontendToBackendPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：同じ開発職内なので現実的。鍵はAPIとDB設計</h2>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・プログラミング基礎は流用できる。未経験職種への転換より難度は低い。</li>
@@ -146,7 +146,7 @@ export default function FrontendToBackendPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">比較軸</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">フロントエンド（現職）</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">バックエンド（転職先）</th>
@@ -172,7 +172,7 @@ export default function FrontendToBackendPage() {
           <div className="space-y-4">
             {buildSteps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p>
@@ -220,7 +220,7 @@ export default function FrontendToBackendPage() {
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※技術・数値は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>を参照。
+            ※技術・数値は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>を参照。
           </p>
         </section>
 
@@ -240,7 +240,7 @@ export default function FrontendToBackendPage() {
             {agents.map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">
-                  <Link href={agent.href} className="text-blue-700 hover:underline">{agent.name}</Link>
+                  <Link href={agent.href} className="text-petrol-deep hover:underline">{agent.name}</Link>
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">{agent.point}</p>
               </div>
@@ -254,7 +254,7 @@ export default function FrontendToBackendPage() {
             30代・40代でバックエンドへ移る場合、フロントの実務経験という土台があるぶん、未経験からの参入より有利です。フルスタック志向のチームでは、UIとデータの両方を理解している人材が重宝されるため、「対応範囲を広げる」方向で攻めると年齢のハンデを補えます。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            一方で、若手より学習に充てられる時間が限られやすいのが現実です。API＋DB設計の成果物を在職中に1つ作り、職務経歴書で見せられるようにしておきましょう。年収の見通しは<Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>も参考にしてください。
+            一方で、若手より学習に充てられる時間が限られやすいのが現実です。API＋DB設計の成果物を在職中に1つ作り、職務経歴書で見せられるようにしておきましょう。年収の見通しは<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も参考にしてください。
           </p>
         </section>
 
@@ -276,7 +276,7 @@ export default function FrontendToBackendPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">バックエンド転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">フロント経験を活かせるバックエンド／フルスタック求人をプロが提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -285,7 +285,7 @@ export default function FrontendToBackendPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

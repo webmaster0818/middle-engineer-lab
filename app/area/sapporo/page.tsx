@@ -155,7 +155,7 @@ export default function SapporoAreaPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：札幌IT転職市場の特徴</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               札幌のIT転職は「リモート移住で生活の質を上げたいエンジニア」と相性の良い市場です。地元のSIer・Web・ニアショア開発の求人に加え、首都圏企業のフルリモート求人を組み合わせることで、年収と暮らしやすさのバランスを取りやすくなります。
@@ -174,7 +174,7 @@ export default function SapporoAreaPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -221,24 +221,24 @@ export default function SapporoAreaPage() {
           </p>
           <div className="space-y-3">
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">A</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>地元企業に出社・ハイブリッドで勤務:</strong> 札幌中心部の都市機能を活かしつつ働ける。地域に根ざしたキャリアを重視する人向け。冬季の通勤負担は出社頻度で調整します。
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">B</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>ニアショア開発拠点でハイブリッド:</strong> 首都圏案件を札幌で担いながら、月数回の出社・出張で連携する働き方。地方にいながら首都圏の開発に関わりたい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">C</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>札幌在住×首都圏企業のフルリモート:</strong> 札幌の生活コストを保ちつつ首都圏水準の年収を狙う選択肢。天候の影響を受けにくいのも利点です。
-                <Link href="/area/remote/" className="text-blue-600 hover:underline">フルリモートIT転職ガイド</Link>
+                <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
                 や
-                <Link href="/area/iiju/" className="text-blue-600 hover:underline">地方移住×IT転職ガイド</Link>
+                <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
                 もあわせて検討しましょう。
               </p>
             </div>
@@ -264,7 +264,7 @@ export default function SapporoAreaPage() {
                 {salaryByAge.map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-3 py-3 border border-slate-200 font-medium">{row.age}</td>
-                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{row.salary}</td>
+                    <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">{row.salary}</td>
                     <td className="px-3 py-3 border border-slate-200 text-slate-600">{row.note}</td>
                   </tr>
                 ))}
@@ -276,9 +276,9 @@ export default function SapporoAreaPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             札幌で年収を考えるときは、額面と生活コストのバランスが鍵になります。住居費を抑えやすいエリアでは同じ額面でも可処分所得が増えやすく、首都圏のフルリモート求人を選べば札幌の生活コストのまま高めの額面を狙える可能性もあります。年代別の考え方は
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収アップ</Link>
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収アップ</Link>
             ・
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>
             も参考にしてください。
           </p>
         </section>
@@ -291,22 +291,22 @@ export default function SapporoAreaPage() {
           </p>
           <div className="space-y-4">
             {agents.map((a, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">
                   {i + 1}.{" "}
                   <Link href={a.href} className="hover:underline">
                     {a.name}
                   </Link>
                 </h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{a.point}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{a.point}</p>
               </div>
             ))}
           </div>
           <p className="text-xs text-slate-500 mt-3">
             ※ 各社の対応エリア・求人傾向は時点により変動します。複数社の比較は
-            <Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント比較</Link>
+            <Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>
             、リモート求人特化の比較は
-            <Link href="/compare/remote-agents/" className="text-blue-600 hover:underline">リモート求人に強いエージェント比較</Link>
+            <Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモート求人に強いエージェント比較</Link>
             を参照してください。
           </p>
         </section>
@@ -390,11 +390,11 @@ export default function SapporoAreaPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             年代別の市場感は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>
             、リモート前提の働き方は
-            <Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモートワークの実情</Link>
+            <Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワークの実情</Link>
             もあわせてご覧ください。
           </p>
         </section>
@@ -423,7 +423,7 @@ export default function SapporoAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -443,7 +443,7 @@ export default function SapporoAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

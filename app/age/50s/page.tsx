@@ -120,15 +120,15 @@ export default function Age50sPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：50代は「下がる」のではなく「分散が大きい」</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               dodaの集計では50代以上IT通信エンジニアの平均年収は711万円で、40代の652万円より高い結果です。「50代は下がる」という言説は定性的な印象に過ぎず、実態は<strong>役職・企業による分散が非常に大きい</strong>こと。JAC登録者では課長未満971万円に対し本部長以上は1,372.1万円と、ポジションで数百万円の差が生じます。50代の戦略は「下がるのを恐れる」のではなく「分散の上側に自分を位置づける」ことにあります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">1.</span>50代以上IT通信エンジニア平均711万円（doda）。40代652万円より高い。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">2.</span>役職で大きく分散：JAC登録者で課長未満971万〜本部長以上1,372.1万（実績値）。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">3.</span>2030年に先端IT人材 約55万人不足の試算（経産省）で、経験者需要は根強い。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>50代以上IT通信エンジニア平均711万円（doda）。40代652万円より高い。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>役職で大きく分散：JAC登録者で課長未満971万〜本部長以上1,372.1万（実績値）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2030年に先端IT人材 約55万人不足の試算（経産省）で、経験者需要は根強い。</li>
             </ul>
           </div>
         </section>
@@ -139,7 +139,7 @@ export default function Age50sPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ol>
@@ -209,13 +209,13 @@ export default function Age50sPage() {
             50代の転職市場を支える構造的な要因が、IT人材の需給ギャップです。経済産業省・みずほ情報総研の試算（2019年3月公表）が、その規模を示しています。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
-            <div className="bg-blue-50 rounded-lg p-4 text-center">
-              <p className="text-xs text-blue-600 mb-1">2030年 IT人材不足（中位）</p>
-              <p className="text-lg font-bold text-blue-700">約45万人</p>
+            <div className="bg-petrol-soft rounded-lg p-4 text-center">
+              <p className="text-xs text-petrol mb-1">2030年 IT人材不足（中位）</p>
+              <p className="text-lg font-bold text-petrol-deep">約45万人</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-4 text-center">
-              <p className="text-xs text-blue-600 mb-1">先端IT人材 不足</p>
-              <p className="text-lg font-bold text-blue-700">約55万人</p>
+            <div className="bg-petrol-soft rounded-lg p-4 text-center">
+              <p className="text-xs text-petrol mb-1">先端IT人材 不足</p>
+              <p className="text-lg font-bold text-petrol-deep">約55万人</p>
             </div>
             <div className="bg-slate-100 rounded-lg p-4 text-center">
               <p className="text-xs text-slate-500 mb-1">従来型IT人材 余剰</p>
@@ -234,21 +234,21 @@ export default function Age50sPage() {
             50代の採用は、年功ではなく実力で評価される世界です。企業が50代に期待するのは、次の掛け算ができる人材です。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">実務 × マネジメント × 経営視点</h3>
-              <p className="text-sm text-blue-700">手を動かす実務力、チーム・プロジェクトを統括するマネジメント力、技術を経営課題に結びつける視点。この3つの掛け算が、50代の市場価値を決めます。</p>
+              <p className="text-sm text-petrol-deep">手を動かす実務力、チーム・プロジェクトを統括するマネジメント力、技術を経営課題に結びつける視点。この3つの掛け算が、50代の市場価値を決めます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ERP・基幹システム刷新の主導</h3>
-              <p className="text-sm text-blue-700">大規模な基幹システムやERPの刷新を主導できる経験は、50代固有の希少価値です。長年の業務理解とプロジェクト統括力が、若手では代替しにくい強みになります。</p>
+              <p className="text-sm text-petrol-deep">大規模な基幹システムやERPの刷新を主導できる経験は、50代固有の希少価値です。長年の業務理解とプロジェクト統括力が、若手では代替しにくい強みになります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">若手育成・技術伝承</h3>
-              <p className="text-sm text-blue-700">次世代エンジニアの育成と、組織への技術伝承。これは50代に強く期待される役割で、組織の持続性に直結する価値として評価されます。</p>
+              <p className="text-sm text-petrol-deep">次世代エンジニアの育成と、組織への技術伝承。これは50代に強く期待される役割で、組織の持続性に直結する価値として評価されます。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            マネジメントの進め方は<Link href="/knowledge/management/" className="text-blue-600 hover:underline">エンジニアのマネジメント</Link>、年収戦略の土台は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収戦略</Link>も参考になります。
+            マネジメントの進め方は<Link href="/knowledge/management/" className="text-petrol hover:underline">エンジニアのマネジメント</Link>、年収戦略の土台は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収戦略</Link>も参考になります。
           </p>
         </section>
 
@@ -280,7 +280,7 @@ export default function Age50sPage() {
               { num: "5", title: "雇用形態の選択肢も含めて比較する", desc: "正社員だけでなく、業務委託（フリーランス）も視野に入る年代です。社会保険・税・年金・案件リスクを踏まえ、手取りと保障の合計で比較して判断します。" },
             ].map((s, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{s.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{s.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{s.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{s.desc}</p>
@@ -289,7 +289,7 @@ export default function Age50sPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            雇用形態の比較は<Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスvs正社員</Link>、正社員に戻る道は<Link href="/career/freelance-to-permanent/" className="text-blue-600 hover:underline">フリーランスから正社員へ</Link>を参照してください。
+            雇用形態の比較は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員</Link>、正社員に戻る道は<Link href="/career/freelance-to-permanent/" className="text-petrol hover:underline">フリーランスから正社員へ</Link>を参照してください。
           </p>
         </section>
 
@@ -315,7 +315,7 @@ export default function Age50sPage() {
           <p className="text-blue-100 text-sm mb-4">
             役職・企業で年収が数百万円変わる50代。あなたの経験を高く評価する企業を見つけるには、ハイクラス・IT特化のエージェント活用が近道です。
           </p>
-          <Link href="/compare/highclass/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/compare/highclass/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             ハイクラス向けエージェント比較を見る
           </Link>
         </section>
@@ -332,7 +332,7 @@ export default function Age50sPage() {
               { name: "フリーランスvs正社員", href: "/knowledge/freelance-vs-fulltime/" },
               { name: "フリーランスから正社員へ", href: "/career/freelance-to-permanent/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -118,7 +118,7 @@ export default function VueSkillPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -129,7 +129,7 @@ export default function VueSkillPage() {
         {/* 違い（冒頭差別化） */}
         <section id="diff" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">まず：ReactとVueの違い・求人数の差（正直に）</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Vueの転職を考えるなら、Reactとの位置づけを正直に把握しておくことが最初の一歩です。本ページは<strong>Vue固有</strong>の戦略に絞り、フロントエンド全般や React は送客先として扱います。
             </p>
@@ -139,7 +139,7 @@ export default function VueSkillPage() {
               <li><strong>最適解</strong>：Vueを軸に<strong>React・TypeScriptも触れる</strong>と市場価値が最大化。</li>
             </ul>
             <p className="text-slate-700 leading-relaxed mt-3 text-sm">
-              React中心の戦略は<Link href="/skill/react/" className="text-blue-600 hover:underline">React転職ガイド</Link>、フロントエンド全体像は<Link href="/skill/frontend/" className="text-blue-600 hover:underline">フロントエンド転職ガイド</Link>を参照してください。本ページはVueで戦う人向けです。
+              React中心の戦略は<Link href="/skill/react/" className="text-petrol hover:underline">React転職ガイド</Link>、フロントエンド全体像は<Link href="/skill/frontend/" className="text-petrol hover:underline">フロントエンド転職ガイド</Link>を参照してください。本ページはVueで戦う人向けです。
             </p>
           </div>
         </section>
@@ -147,7 +147,7 @@ export default function VueSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Vue転職市場の攻め方</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Vueエンジニアの転職は、<strong>「Vueが書ける」から「フロント全体を設計でき、ReactもTSも扱える」へ広げて見せられるか</strong>で評価が変わります。攻め方は次の3点です。
             </p>
@@ -213,7 +213,7 @@ export default function VueSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            型の習得は<Link href="/skill/typescript/" className="text-blue-600 hover:underline">TypeScript転職ガイド</Link>が直接の続きになります。
+            型の習得は<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript転職ガイド</Link>が直接の続きになります。
           </p>
         </section>
 
@@ -241,22 +241,22 @@ export default function VueSkillPage() {
         <section id="salary-up" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収を上げる方法</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">TypeScriptで型安全な設計力を示す</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Vue3＋TypeScriptは年収を押し上げる王道。型でバグを防ぐ設計、コンポーザブルの型定義などを語れると評価が上がります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Reactも扱えるようにして母数を広げる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 VueとReactの両方を語れると応募できる求人が一気に広がります。フレームワークの考え方を移植できることが、技術選定を任される立場への近道です。
-                <Link href="/skill/react/" className="text-blue-700 underline ml-1">React転職ガイド</Link>を参照。
+                <Link href="/skill/react/" className="text-petrol-deep underline ml-1">React転職ガイド</Link>を参照。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Nuxt・パフォーマンス・テストで上流へ</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 SSR/SSG、レンダリング最適化、Core Web Vitals改善、コンポーネントテストまで踏み込むと、シニアフロントエンドとして高年収帯に届きやすくなります。
               </p>
             </div>
@@ -273,21 +273,21 @@ export default function VueSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化。Vue/Nuxtの自社開発求人を技術に明るいアドバイザー経由で探せます。高年収求人比率が高いとされます。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（ギークリー）</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム特化。Vueを使う自社サービス企業の求人に出会いやすいのが特徴です。</p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
               <p className="text-sm text-slate-600 mb-2">国内最大級の求人数。Vueに限らず幅広く比較し、母数を確保したい場合の併用先です。</p>
-              <Link href="/review/recruit-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数利用のコツ</Link>、選び方の軸は<Link href="/knowledge/how-to-choose/" className="text-blue-600 hover:underline">転職エージェントの選び方</Link>を参考にしてください。
+            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>、選び方の軸は<Link href="/knowledge/how-to-choose/" className="text-petrol hover:underline">転職エージェントの選び方</Link>を参考にしてください。
           </p>
         </section>
 
@@ -304,7 +304,7 @@ export default function VueSkillPage() {
               { n: "STEP 3", t: "ポートフォリオ＋Reactの素振り", d: "成果物をGitHubに公開。設計意図をREADMEで説明し、Reactの基礎も触って応募の母数を広げる。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -313,7 +313,7 @@ export default function VueSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            成果物づくりは<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">エンジニアのポートフォリオの作り方</Link>が参考になります。
+            成果物づくりは<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>が参考になります。
           </p>
         </section>
 
@@ -328,7 +328,7 @@ export default function VueSkillPage() {
               一方で注意点として、Vue単一スキルに固執すると求人の母数が頭打ちになりやすい点があります。<strong>React・TypeScriptを併せて扱える</strong>状態にしておくことが、年代を問わず市場価値を保つ保険になります。特定フレームワークに依存しない設計思想を持つことが、ミドルの強みです。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -357,7 +357,7 @@ export default function VueSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -377,7 +377,7 @@ export default function VueSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -390,8 +390,8 @@ export default function VueSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/dmm/" className="text-blue-700 hover:underline">DMM.com</a></li><li><a href="/company/mercari/" className="text-blue-700 hover:underline">メルカリ</a></li><li><a href="/company/plaid/" className="text-blue-700 hover:underline">プレイド</a></li><li><a href="/company/raksul/" className="text-blue-700 hover:underline">ラクスル（RAKSUL）</a></li><li><a href="/company/visional/" className="text-blue-700 hover:underline">ビジョナル/ビズリーチ</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/dmm/" className="text-petrol-deep hover:underline">DMM.com</a></li><li><a href="/company/mercari/" className="text-petrol-deep hover:underline">メルカリ</a></li><li><a href="/company/plaid/" className="text-petrol-deep hover:underline">プレイド</a></li><li><a href="/company/raksul/" className="text-petrol-deep hover:underline">ラクスル（RAKSUL）</a></li><li><a href="/company/visional/" className="text-petrol-deep hover:underline">ビジョナル/ビズリーチ</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

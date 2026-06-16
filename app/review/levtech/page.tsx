@@ -211,7 +211,7 @@ export default function LevtechReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：IT実務経験がある30代エンジニアの年収アップに強い</span>。一言でいえば「技術に詳しい担当者と、高年収のIT求人を狙いたい在職中の経験者」向けのエージェントです。
@@ -227,7 +227,7 @@ export default function LevtechReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -268,27 +268,27 @@ export default function LevtechReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">レバテックキャリアの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. IT・Web特化で求人の質が高い</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 IT・Web業界に特化し、複数転職メディアの集計では公開求人が約5万件超（2026年6月時点）とされています。公式ガイド記事では600万円以上が公開求人の約8割という二次情報もあり（時期により変動）、高年収レンジの求人を狙いやすいのが特徴です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 技術に精通した担当者</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 IT特化ゆえに、言語・フレームワーク・クラウドなど技術的な会話が通じる担当者と進めやすいのが強みです。口コミでも書類添削・面接対策が具体的という傾向の声が見られます。技術経歴の見せ方まで相談できる点は経験者に向いています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 年収アップ実績と交渉サポート</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 公式系の公表値では、内定承諾者のうち応募時年収との差が70万円以上の人が3人に2人（2023年1月〜2024年3月実績）。利用者の約80%が20〜30代という層構成（公式ガイド記事）とあわせ、30代の年収アップ転職と相性が良いといえます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. LINE完結でテンポよく進む</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Qiita Job Change等では、連絡がLINEで完結して在職中でも進めやすいという傾向の声が見られます。働きながら効率的に活動したい30代・40代に向いた連絡スタイルです。
               </p>
             </div>
@@ -428,7 +428,7 @@ export default function LevtechReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -445,16 +445,16 @@ export default function LevtechReview() {
             レバテックキャリアはIT特化・高年収・首都圏寄りが強みです。求人数の網羅性や全国対応、40代の幅を補うなら総合型の併用が有効です。具体的な比較は以下の記事で詳しく解説しています。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/compare/levtech-vs-geekly/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/levtech-vs-geekly/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテック vs Geekly の比較 →
             </Link>
-            <Link href="/compare/levtech-vs-doda/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/levtech-vs-doda/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテック vs doda の比較 →
             </Link>
-            <Link href="/compare/bizreach-vs-levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/bizreach-vs-levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ビズリーチ vs レバテック の比較 →
             </Link>
-            <Link href="/compare/30s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/30s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               30代エンジニア向けエージェント比較 →
             </Link>
           </div>
@@ -482,7 +482,7 @@ export default function LevtechReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは無料カウンセリングで、あなたの市場価値を確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>
@@ -492,7 +492,7 @@ export default function LevtechReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

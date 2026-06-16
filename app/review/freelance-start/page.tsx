@@ -205,7 +205,7 @@ export default function FreelanceStartReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：案件を横断検索して相場を把握し、エージェントを選びたい経験者の「入口」に最適</span>。一言でいえば「複数エージェントの案件を一括比較し、自分のスキルでの単価相場を掴みたい30代・40代経験者」向けの検索エンジンです。
@@ -259,27 +259,27 @@ export default function FreelanceStartReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フリーランススタートの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 複数エージェントの案件を横断検索</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 最大の強みは、複数のフリーランスエージェントの案件を一括で横断検索・比較できることです。1社ずつ登録して見比べる手間を省き、案件起点で「どのエージェント経由が良いか」を判断できます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 国内最大級の掲載数で相場が掴める</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 公式では累計掲載案件数55万件突破、月間利用者数30万人突破と発表されています。掲載数が多いほど、自分のスキル・言語での単価相場やリモート案件の有無を把握しやすくなります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 言語・単価・リモートで細かく絞れる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 開発言語・単価・勤務地・リモート可否・案件特徴などで横断検索でき、応募までワンストップで進められます。希望条件で絞って相場を可視化したい経験者に向いています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. エン・ジャパングループ提供の安心感</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 国内最大級の求人サービスを展開するエン・ジャパングループが提供しており、月額平均単価74.6万円（2025年4月）といった市場データも公式調査として発表しています。相場の一次情報を確認できる点も実用的です。
               </p>
             </div>
@@ -359,7 +359,7 @@ export default function FreelanceStartReview() {
             </p>
             <p>
               いずれの年代でも、フリーランススタートは「入口」と割り切り、実際の伴走支援は掲載元エージェントで受けるのが鉄則です。エージェントの選び方は当サイトの
-              <Link href="/compare/freelance-agents/" className="text-blue-600 hover:underline">フリーランスエージェント比較</Link>
+              <Link href="/compare/freelance-agents/" className="text-petrol hover:underline">フリーランスエージェント比較</Link>
               で整理しています。
             </p>
           </div>
@@ -402,7 +402,7 @@ export default function FreelanceStartReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -439,16 +439,16 @@ export default function FreelanceStartReview() {
             </table>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテックフリーランス（案件量）の評判 →
             </Link>
-            <Link href="/review/relance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/relance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Relance（高単価プライム）の評判 →
             </Link>
-            <Link href="/review/midworks/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/midworks/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Midworks（保障で安定）の評判 →
             </Link>
-            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               フリーランスエージェント比較 →
             </Link>
           </div>
@@ -476,7 +476,7 @@ export default function FreelanceStartReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは横断検索で、あなたのスキル・言語での単価相場とリモート案件を確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             案件を検索する
           </a>
         </section>
@@ -486,7 +486,7 @@ export default function FreelanceStartReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

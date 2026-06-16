@@ -126,15 +126,15 @@ export default function ContractEmployeePage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：無期転換は「期間の安定」、正社員化は「待遇の改善」</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               通算5年を超えた有期契約は、労働者の申込みで無期労働契約に転換できます。しかし<strong>無期転換で変わるのは「期間の定めがなくなる」ことだけ</strong>で、給与・賞与・退職金などの待遇は原則そのまま据え置かれます。「無期転換＝正社員」と誤解すると、待遇改善を期待して肩透かしを食らいます。安定だけなら無期転換、待遇改善まで望むなら正社員登用または転職を狙うのが正しい整理です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">1.</span>通算5年超＋労働者の申込み＝無期転換（使用者は断れない／出典：厚労省）。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">2.</span>無期転換≠正社員。待遇は据え置きが一般的で、「無期契約社員」という別区分になることも。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">3.</span>待遇改善を望むなら、正社員登用または正社員転職を別途狙う必要がある。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>通算5年超＋労働者の申込み＝無期転換（使用者は断れない／出典：厚労省）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>無期転換≠正社員。待遇は据え置きが一般的で、「無期契約社員」という別区分になることも。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>待遇改善を望むなら、正社員登用または正社員転職を別途狙う必要がある。</li>
             </ul>
           </div>
         </section>
@@ -145,7 +145,7 @@ export default function ContractEmployeePage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ol>
@@ -158,7 +158,7 @@ export default function ContractEmployeePage() {
             契約社員は、<strong>期間の定めのある労働契約（有期労働契約）</strong>を結んで働く労働者です。正社員（無期労働契約）と同じく「労働者」であり、社会保険・雇用保険・労災・労働法の保護を受ける点は変わりません。違いは「契約に期間の定めがあるか」という一点です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            社会保険・税・労災といった制度面は正社員とほぼ同じで、業務委託（事業主扱い）とは性質が大きく異なります。4形態の横断比較は<Link href="/employment/" className="text-blue-600 hover:underline">エンジニアの雇用形態の違い</Link>で確認できます。
+            社会保険・税・労災といった制度面は正社員とほぼ同じで、業務委託（事業主扱い）とは性質が大きく異なります。4形態の横断比較は<Link href="/employment/" className="text-petrol hover:underline">エンジニアの雇用形態の違い</Link>で確認できます。
           </p>
         </section>
 
@@ -171,7 +171,7 @@ export default function ContractEmployeePage() {
           <div className="space-y-4">
             {ruleSteps.map((s, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{s.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{s.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{s.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{s.desc}</p>
@@ -280,7 +280,7 @@ export default function ContractEmployeePage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            正社員転職に向けた実績の言語化は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>、市場価値の確認は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>を参考にしてください。
+            正社員転職に向けた実績の言語化は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>、市場価値の確認は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参考にしてください。
           </p>
         </section>
 
@@ -288,17 +288,17 @@ export default function ContractEmployeePage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代が契約社員を選ぶときの視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：正社員化の出口を最初に確認する</h3>
-              <p className="text-sm text-blue-700">30代で契約社員を選ぶなら、入社時点で正社員登用制度の有無と実績を確認しておくことが重要です。「制度はあるが登用実績はほぼない」というケースもあるため、口頭の説明だけでなく実績ベースで確認しましょう。30代はキャリアの方向が固まる時期で、ここで待遇の据え置きが長期化すると、生涯年収に与える影響が大きくなります。</p>
+              <p className="text-sm text-petrol-deep">30代で契約社員を選ぶなら、入社時点で正社員登用制度の有無と実績を確認しておくことが重要です。「制度はあるが登用実績はほぼない」というケースもあるため、口頭の説明だけでなく実績ベースで確認しましょう。30代はキャリアの方向が固まる時期で、ここで待遇の据え置きが長期化すると、生涯年収に与える影響が大きくなります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：安定だけでなく待遇改善の道を残す</h3>
-              <p className="text-sm text-blue-700">40代で無期転換を迎える場合、「雇用は安定したが待遇は据え置き」という状態に陥りやすい点に注意が必要です。40代の実務経験は転職市場で評価されるため、現職での正社員化が見込みづらいなら、経験を武器に正社員求人へ動く選択肢を早めに検討しておくと、後悔の少ない判断ができます。</p>
+              <p className="text-sm text-petrol-deep">40代で無期転換を迎える場合、「雇用は安定したが待遇は据え置き」という状態に陥りやすい点に注意が必要です。40代の実務経験は転職市場で評価されるため、現職での正社員化が見込みづらいなら、経験を武器に正社員求人へ動く選択肢を早めに検討しておくと、後悔の少ない判断ができます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ライフイベントと社会的信用</h3>
-              <p className="text-sm text-blue-700">契約社員は労働者として社会保険に加入できる一方、住宅ローンなどの審査では「期間の定めのある契約」が安定性の面で見られることがあります。無期転換すると期間の定めがなくなるため、この点では有利に働く場合があります。ライフイベントの予定と契約形態のタイミングを合わせて考えると安心です。</p>
+              <p className="text-sm text-petrol-deep">契約社員は労働者として社会保険に加入できる一方、住宅ローンなどの審査では「期間の定めのある契約」が安定性の面で見られることがあります。無期転換すると期間の定めがなくなるため、この点では有利に働く場合があります。ライフイベントの予定と契約形態のタイミングを合わせて考えると安心です。</p>
             </div>
           </div>
         </section>
@@ -325,7 +325,7 @@ export default function ContractEmployeePage() {
           <p className="text-blue-100 text-sm mb-4">
             無期転換は安定をもたらしますが、待遇は据え置かれがちです。正社員としての提示年収を知り、現職に残る場合と比較しましょう。
           </p>
-          <Link href="/compare/agents/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/compare/agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             IT転職エージェント比較を見る
           </Link>
         </section>
@@ -342,7 +342,7 @@ export default function ContractEmployeePage() {
               { name: "職務経歴書の書き方", href: "/knowledge/resume/" },
               { name: "市場価値の調べ方", href: "/knowledge/market-value/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

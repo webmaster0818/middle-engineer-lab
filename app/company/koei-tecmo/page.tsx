@@ -107,7 +107,7 @@ export default function KoeiTecmoCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               コーエーテクモは<strong>内製エンジン「Katana Engine」を含め開発ツールを自社内製し、C++でゲームを開発する企業</strong>です。ツールから内製する文化が特徴で、エンジン・グラフィックス等の専門性で勝負したいエンジニアに向きます。有報の年収（793万円）は持株会社の数字で、開発現場の水準とは別物である点に注意が必要です。
@@ -125,7 +125,7 @@ export default function KoeiTecmoCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -151,17 +151,17 @@ export default function KoeiTecmoCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">開発ツールから自社内製する文化</h3>
-              <p className="text-sm text-blue-700">公式採用情報によると、コーエーテクモはゲーム開発用のツールから社内で独自開発しており、ゲームエンジン「Katana Engine」を提供しています。外部エンジンを使うケースが多い中、クリエイターの発想をスピーディーに形にできるよう自社開発に注力しているのが特徴です。</p>
+              <p className="text-sm text-petrol-deep">公式採用情報によると、コーエーテクモはゲーム開発用のツールから社内で独自開発しており、ゲームエンジン「Katana Engine」を提供しています。外部エンジンを使うケースが多い中、クリエイターの発想をスピーディーに形にできるよう自社開発に注力しているのが特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">C++・グラフィックスの実務経験を重視</h3>
-              <p className="text-sm text-blue-700">中途採用ではC++を使用したプログラム経験、DirectXまたはOpenGLを使用したプログラミング経験などが求められます。歴史IPや無双系のアクションなど、独自の表現を支える技術力が問われます。</p>
+              <p className="text-sm text-petrol-deep">中途採用ではC++を使用したプログラム経験、DirectXまたはOpenGLを使用したプログラミング経験などが求められます。歴史IPや無双系のアクションなど、独自の表現を支える技術力が問われます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">持株会社と開発会社で性質が異なる数字</h3>
-              <p className="text-sm text-blue-700">上場は持株会社（3635）で、有報の従業員数（提出会社）は約113名ですが、連結従業員数は約2,684名（2025年3月末）です。開発の主体は事業会社のコーエーテクモゲームスである点を踏まえて応募先を確認しましょう。</p>
+              <p className="text-sm text-petrol-deep">上場は持株会社（3635）で、有報の従業員数（提出会社）は約113名ですが、連結従業員数は約2,684名（2025年3月末）です。開発の主体は事業会社のコーエーテクモゲームスである点を踏まえて応募先を確認しましょう。</p>
             </div>
           </div>
         </section>
@@ -173,10 +173,10 @@ export default function KoeiTecmoCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>主要言語</strong>：C++（ゲーム開発の中心）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>ゲームエンジン</strong>：内製「Katana Engine」、内製開発ツール群</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>グラフィックスAPI</strong>：DirectX / OpenGL</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>職種例</strong>：プログラマー（クライアント）、SP（スマートフォン）開発 ほか</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>主要言語</strong>：C++（ゲーム開発の中心）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ゲームエンジン</strong>：内製「Katana Engine」、内製開発ツール群</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>グラフィックスAPI</strong>：DirectX / OpenGL</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>職種例</strong>：プログラマー（クライアント）、SP（スマートフォン）開発 ほか</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: コーエーテクモ 公式採用ページ（2026年6月時点）。プロジェクト・職種により使用技術は異なります。</p>
@@ -214,7 +214,7 @@ export default function KoeiTecmoCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            一般的な中途採用の流れをまとめます。最新かつ職種別の詳細は<a href="https://www.koeitecmo.co.jp/recruit/career/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">コーエーテクモ 公式経験者採用ページ</a>でご確認ください。
+            一般的な中途採用の流れをまとめます。最新かつ職種別の詳細は<a href="https://www.koeitecmo.co.jp/recruit/career/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">コーエーテクモ 公式経験者採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考（職務経歴書・ポートフォリオ等）</li>
@@ -231,12 +231,12 @@ export default function KoeiTecmoCompanyPage() {
             公式が示す要件から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>C++での実装力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>DirectX/OpenGL等を用いたグラフィックスプログラミング経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ゲーム業界・ネットワーク業界での開発実績</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>これまでの開発実績・ポートフォリオ</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>C++での実装力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>DirectX/OpenGL等を用いたグラフィックスプログラミング経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ゲーム業界・ネットワーク業界での開発実績</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>これまでの開発実績・ポートフォリオ</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -249,7 +249,7 @@ export default function KoeiTecmoCompanyPage() {
               年収面では、有報の793万円は持株会社（提出会社・約113名）の数字であり、ゲーム開発職の提示水準とは性質が異なります。参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。エンジニア職の提示はポジション・等級により幅があるため、自分が当てはまる水準を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。C++/C#まわりのスキル整理は<Link href="/skill/csharp/" className="text-blue-600 hover:underline">C#エンジニアの市場価値</Link>も参考になります。
+              <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。C++/C#まわりのスキル整理は<Link href="/skill/csharp/" className="text-petrol hover:underline">C#エンジニアの市場価値</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -262,13 +262,13 @@ export default function KoeiTecmoCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。ゲーム業界の実務経験者への提案に強い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -289,7 +289,7 @@ export default function KoeiTecmoCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">コーエーテクモへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">ゲーム業界の転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/geekly/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/geekly/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -303,7 +303,7 @@ export default function KoeiTecmoCompanyPage() {
               { name: "C#エンジニアの市場価値", href: "/skill/csharp/" },
               { name: "30代エンジニアの転職事情", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

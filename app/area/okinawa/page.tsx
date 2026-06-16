@@ -154,7 +154,7 @@ export default function OkinawaAreaPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：沖縄・那覇のIT転職市場の特徴</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               沖縄のIT転職は「暮らし方と働き方を一体で考えたいエンジニア」と相性の良い市場です。地元はIT誘致でコールセンター・BPO・開発拠点が一定数ある一方、最先端のWeb自社開発は母数が限られます。首都圏フルリモート求人を併用して母数と年収の選択肢を広げるのが現実的な進め方です。
@@ -173,7 +173,7 @@ export default function OkinawaAreaPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -239,23 +239,23 @@ export default function OkinawaAreaPage() {
           </p>
           <div className="space-y-3">
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">A</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>地元の誘致企業・拠点に出社・ハイブリッドで勤務:</strong> 那覇市中心の開発拠点・BPO・サポート系で働く。地域に根ざしたキャリアや、まずは沖縄で就業基盤を作りたい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">B</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>沖縄在住×首都圏企業のフルリモート:</strong> 沖縄の暮らしを保ちつつ首都圏水準の年収・案件を狙う選択肢。地元求人の母数・額面の制約を回避できるのが最大の利点です。
-                <Link href="/purpose/remote-full/" className="text-blue-600 hover:underline">フルリモート可の求人</Link>
+                <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート可の求人</Link>
                 や
-                <Link href="/area/iiju/" className="text-blue-600 hover:underline">地方移住×IT転職ガイド</Link>
+                <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
                 もあわせて検討しましょう。
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">C</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>ワーケーション・移住で生活拠点を沖縄に:</strong> 短期のワーケーションで暮らしを体験し、相性を確かめてから移住＋フルリモート転職に進む形。生活と働き方を一体で設計したい人向けです。
               </p>
@@ -307,7 +307,7 @@ export default function OkinawaAreaPage() {
                 {salaryByAge.map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-3 py-3 border border-slate-200 font-medium">{row.age}</td>
-                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{row.salary}</td>
+                    <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">{row.salary}</td>
                     <td className="px-3 py-3 border border-slate-200 text-slate-600">{row.note}</td>
                   </tr>
                 ))}
@@ -319,9 +319,9 @@ export default function OkinawaAreaPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             沖縄で年収を考えるときは、額面と暮らし方のバランスが鍵になります。地元求人の額面が抑えめな分、首都圏のフルリモート求人を選べば沖縄に住みながら高めの額面を狙える可能性があります。年代別の考え方は
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収アップ</Link>
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収アップ</Link>
             ・
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>
             も参考にしてください。
           </p>
         </section>
@@ -334,22 +334,22 @@ export default function OkinawaAreaPage() {
           </p>
           <div className="space-y-4">
             {agents.map((a, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">
                   {i + 1}.{" "}
                   <Link href={a.href} className="hover:underline">
                     {a.name}
                   </Link>
                 </h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{a.point}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{a.point}</p>
               </div>
             ))}
           </div>
           <p className="text-xs text-slate-500 mt-3">
             ※ 各社の対応エリア・求人傾向は時点により変動します。複数社の比較は
-            <Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント比較</Link>
+            <Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>
             、リモート求人特化の比較は
-            <Link href="/compare/remote-agents/" className="text-blue-600 hover:underline">リモート求人に強いエージェント比較</Link>
+            <Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモート求人に強いエージェント比較</Link>
             を参照してください。
           </p>
         </section>
@@ -395,20 +395,20 @@ export default function OkinawaAreaPage() {
               <h3 className="font-bold text-slate-800 text-sm mb-2">30代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 技術の市場価値を高めつつ、フルリモートで首都圏案件を経験するか、地元拠点で運用・開発の経験を積むかを意識的に選ぶフェーズ。暮らし方を整えながらキャリアの幅を広げやすい時期です。
-                <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職ガイド</Link>
+                <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link>
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">40代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 マネジメントや高度専門など役割で評価される段階。地元求人は絞られますが、ハイクラスのリモート求人で年収を維持しつつ移住によるQOL向上を両立できる形を選ぶのが現実的です。
-                <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職ガイド</Link>
+                <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link>
               </p>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             リモート前提の働き方の実情は
-            <Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモートワークの実情</Link>
+            <Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワークの実情</Link>
             もあわせてご覧ください。
           </p>
         </section>
@@ -437,7 +437,7 @@ export default function OkinawaAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -450,7 +450,7 @@ export default function OkinawaAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

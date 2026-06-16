@@ -116,7 +116,7 @@ export default function TableauSkillPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -127,7 +127,7 @@ export default function TableauSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Tableauスキルの転職市場の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Tableauは「操作スキル」ではなく「ビジネス課題を可視化に翻訳する力」で評価されます。</strong>ツールを触れるだけでなく、何を可視化しどんな意思決定につなげたかが問われます。
             </p>
@@ -207,7 +207,7 @@ export default function TableauSkillPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2 text-sm">{item.tier}</h3>
                 <p className="text-xs text-slate-600 mb-2 leading-relaxed">{item.req}</p>
-                <p className="text-xs text-blue-600">{item.note}</p>
+                <p className="text-xs text-petrol">{item.note}</p>
               </div>
             ))}
           </div>
@@ -233,7 +233,7 @@ export default function TableauSkillPage() {
             ))}
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            関連スキルは<Link href="/skill/sql/" className="text-blue-600 hover:underline">SQL</Link>・<Link href="/skill/data-analyst/" className="text-blue-600 hover:underline">データアナリスト</Link>・<Link href="/skill/powerbi/" className="text-blue-600 hover:underline">Power BI</Link>のガイドもあわせてご覧ください。
+            関連スキルは<Link href="/skill/sql/" className="text-petrol hover:underline">SQL</Link>・<Link href="/skill/data-analyst/" className="text-petrol hover:underline">データアナリスト</Link>・<Link href="/skill/powerbi/" className="text-petrol hover:underline">Power BI</Link>のガイドもあわせてご覧ください。
           </p>
         </section>
 
@@ -249,25 +249,25 @@ export default function TableauSkillPage() {
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。BI・データ分析職の専門求人の提案に向きます。
               </p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 年収750万円以上を中心としたハイクラス・スカウト型。BIエンジニア・データアナリスト級の求人やスカウトに出会いやすいのが特徴です。
               </p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強み。Tableauを採用するWeb系・データ活用企業の求人を探したい場合の選択肢になります。
               </p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">Geeklyの詳細レビュー →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            エージェント各社の比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">転職エージェント比較</Link>も参照してください。
+            エージェント各社の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">転職エージェント比較</Link>も参照してください。
           </p>
         </section>
 
@@ -281,7 +281,7 @@ export default function TableauSkillPage() {
               { num: "3", title: "ビジネス課題への翻訳力を鍛える", desc: "実務やサンプルデータで『この指標を見ると何を判断できるか』を言語化する練習をします。Tableauは操作の習得より、課題を可視化要件に落とす力が問われるため、ここが差別化ポイントになります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -308,7 +308,7 @@ export default function TableauSkillPage() {
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            年代別の戦略は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>も参考にしてください。
+            年代別の戦略は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>も参考にしてください。
           </p>
         </section>
 
@@ -326,7 +326,7 @@ export default function TableauSkillPage() {
               <strong>③ 分析設計とストーリーテリングを磨く。</strong>「誰が見て、何を判断するためのダッシュボードか」を起点に設計する力は、ツールが変わっても通用します。可視化を意思決定に結びつけるストーリーテリングを意識しましょう。
             </p>
             <p>
-              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
+              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -355,7 +355,7 @@ export default function TableauSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -375,7 +375,7 @@ export default function TableauSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

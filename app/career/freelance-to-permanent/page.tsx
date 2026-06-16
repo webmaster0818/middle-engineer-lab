@@ -134,7 +134,7 @@ export default function FreelanceToPermanentPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -144,7 +144,7 @@ export default function FreelanceToPermanentPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：実質報酬で比較すれば戻る価値は十分ある</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-2">
               フリーランスの技術力・自走力は正社員転職で<strong>そのまま強み</strong>になります。埋めるべきは「組織への定着・協調をどう示すか」という一点で、ここを職務経歴書と面接で言語化できれば移行は十分に現実的です。
             </p>
@@ -164,7 +164,7 @@ export default function FreelanceToPermanentPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">領域</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">フリーランスでの状態</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">正社員で求められること</th>
@@ -190,7 +190,7 @@ export default function FreelanceToPermanentPage() {
           <div className="space-y-4">
             {builds.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -234,7 +234,7 @@ export default function FreelanceToPermanentPage() {
           </div>
           <p className="text-slate-600 text-sm mt-4 leading-relaxed">
             戻るか迷っている段階の方は、両者の総合的な損得を扱った
-            <Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスvs正社員 比較</Link>もあわせて確認してください。
+            <Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員 比較</Link>もあわせて確認してください。
           </p>
         </section>
 
@@ -276,7 +276,7 @@ export default function FreelanceToPermanentPage() {
           </div>
           <p className="text-slate-600 text-sm mt-4 leading-relaxed">
             ※守秘義務に配慮し、数値・固有名詞は記載可能な範囲で正確に。書類全体の構成は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニア職務経歴書の書き方</Link>を参照してください。
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニア職務経歴書の書き方</Link>を参照してください。
           </p>
         </section>
 
@@ -298,10 +298,10 @@ export default function FreelanceToPermanentPage() {
           </p>
           <p className="text-slate-600 text-sm leading-relaxed">
             年収帯の詳細は
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代エンジニアの年収</Link>・
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収</Link>、
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収</Link>・
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>、
             交渉の進め方は
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>を参照してください。
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>を参照してください。
           </p>
         </section>
 
@@ -337,7 +337,7 @@ export default function FreelanceToPermanentPage() {
               "完全復帰に不安があれば、副業から関係を作り段階的に正社員化するルートも検討する",
             ].map((t, i) => (
               <li key={i} className="flex gap-2">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span>{t}</span>
               </li>
             ))}
@@ -366,7 +366,7 @@ export default function FreelanceToPermanentPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -386,7 +386,7 @@ export default function FreelanceToPermanentPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

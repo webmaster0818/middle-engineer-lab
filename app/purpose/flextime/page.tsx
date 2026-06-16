@@ -86,7 +86,7 @@ export default function FlextimePage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             多くの比較サイトは、フレックス・フルフレックス・裁量労働・時差出勤を混同したまま「自由な働き方」と一括りにしています。しかしこれらは制度として全く別物で、<strong>残業代の扱いも自由度も異なります</strong>。本記事は4制度を比較表で明確に区別し、求人票の確認ポイント（コアタイムの有無・清算期間・対象範囲）を整理します。フレックスは「労働時間をいつ配置するか」の自由であり、「総労働時間を減らす」制度ではない——この前提を押さえることが、入社後のミスマッチを防ぐ第一歩です。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 子どもの送り迎えに合わせて始業・終業を調整したい</li>
@@ -99,7 +99,7 @@ export default function FlextimePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>4つの制度を比較表で区別</li>
             <li>採用企業の実態（公的データ）</li>
             <li>求人の見極めポイント</li>
@@ -114,7 +114,7 @@ export default function FlextimePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">制度</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">時間配置の自由</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">残業代</th>
@@ -167,7 +167,7 @@ export default function FlextimePage() {
               { num: "5", title: "残業の扱いを確認", desc: "フレックスでも総枠超は残業です。みなし残業（固定残業代）と併用されている場合は、その時間数と超過時の扱いを確認します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -204,11 +204,11 @@ export default function FlextimePage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             ただし繰り返しの通り、フレックスは残業を減らす制度ではありません。<strong>「時間を組み替えたい」のか「総労働時間を減らしたい」のか</strong>を自分の中で切り分けることが重要です。後者なら
-            <Link href="/purpose/no-overtime/" className="text-blue-600 hover:underline">残業少なめIT企業の見極め方</Link>
+            <Link href="/purpose/no-overtime/" className="text-petrol hover:underline">残業少なめIT企業の見極め方</Link>
             や
-            <Link href="/knowledge/work-life-balance/" className="text-blue-600 hover:underline">ワークライフバランスの考え方</Link>
+            <Link href="/knowledge/work-life-balance/" className="text-petrol hover:underline">ワークライフバランスの考え方</Link>
             、さらに労働日数自体を減らす
-            <Link href="/purpose/four-day-week/" className="text-blue-600 hover:underline">週休3日制の求人ガイド</Link>
+            <Link href="/purpose/four-day-week/" className="text-petrol hover:underline">週休3日制の求人ガイド</Link>
             を軸にしたほうが目的に合致します。
           </p>
         </section>
@@ -231,7 +231,7 @@ export default function FlextimePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">フレックス制の求人を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">制度の中身まで把握したIT特化型エージェントが、あなたの生活に合う企業を提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -245,7 +245,7 @@ export default function FlextimePage() {
               { name: "転勤なし求人の見極め方", href: "/purpose/no-relocation/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

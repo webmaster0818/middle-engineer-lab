@@ -86,7 +86,7 @@ export default function NoDegreePage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             中途のIT転職において「学歴不問」は珍しいものではなく、むしろ主流です。新卒採用と違い、中途では職務経歴・スキル・成果物で評価する企業が多数を占めるため、高卒・専門卒・大学中退からエンジニアとして活躍している人は数多くいます。<strong>ただし「学歴不問」は「誰でも受かる」ではありません。</strong>学歴というフィルターがない分、実務経験や技術力でシビアに見られます。とりわけ30-40代は、年齢に見合う実力と納得感のある動機が問われます。本記事では建前と実態の差を正直に整理し、学歴に左右されずに評価されるための見極め方を解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 高卒・専門卒・大学中退で学歴に不安がある</li>
@@ -99,7 +99,7 @@ export default function NoDegreePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>「学歴不問」の建前と実態</li>
             <li>学歴の代わりに評価される4つの要素</li>
             <li>該当しやすい企業タイプ</li>
@@ -114,7 +114,7 @@ export default function NoDegreePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">求人票の表現</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">実態として何を意味するか</th>
                 </tr>
@@ -149,7 +149,7 @@ export default function NoDegreePage() {
               { num: "4", title: "動機とキャリアの一貫性", desc: "とくに30-40代は『なぜ今エンジニアなのか』に納得感が求められます。前職の経験とどう接続するかを語れると説得力が増します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -188,9 +188,9 @@ export default function NoDegreePage() {
             </p>
             <p>
               <strong>未経験入口の求人は質の見極めが重要です。</strong>学歴不問・未経験歓迎の間口が広い求人ほど、配属や案件の質に差が出やすい面があります。入社後にどんな技術・案件に関われるか、スキルが伸びる環境かを面接で確認しましょう。30代未経験の現実的な進め方は
-              <Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのエンジニア転職</Link>
+              <Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのエンジニア転職</Link>
               、学び直しの設計は
-              <Link href="/knowledge/reskilling/" className="text-blue-600 hover:underline">リスキリングの進め方</Link>
+              <Link href="/knowledge/reskilling/" className="text-petrol hover:underline">リスキリングの進め方</Link>
               も参考にしてください。
             </p>
           </div>
@@ -207,7 +207,7 @@ export default function NoDegreePage() {
               { num: "5", title: "年齢に見合う動機を言語化したか確認", desc: "30-40代は『なぜ今か』への納得感が合否を分けます。前職との接続を語れる状態にします。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -237,7 +237,7 @@ export default function NoDegreePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">学歴に左右されない求人を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">実力ベースで評価する企業を、IT特化型エージェントがあなたの経歴に合わせて提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -251,7 +251,7 @@ export default function NoDegreePage() {
               { name: "目的別ガイド一覧", href: "/purpose/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

@@ -100,7 +100,7 @@ export default function DmmCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               DMM.comは<strong>50以上の事業を抱え、Goへの統一などモダンな技術投資も進める非上場メガベンチャー</strong>です。事業領域が非常に広く、Web・ゲームプラットフォーム・インフラなど多様なポジションがあります。非上場のため平均年収は公式非開示で、提示額は個別求人での確認が前提です。
@@ -118,7 +118,7 @@ export default function DmmCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -159,17 +159,17 @@ export default function DmmCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">50以上の事業を横断する開発機会</h3>
-              <p className="text-sm text-blue-700">DMMグループは動画・電子書籍・ゲーム・英会話・FX/金融・太陽光発電など極めて幅広い事業を展開しています。Web、ゲームプラットフォーム、インフラ、データなど多様な領域のポジションがあり、関心に合わせたキャリア選択がしやすいのが特徴です。</p>
+              <p className="text-sm text-petrol-deep">DMMグループは動画・電子書籍・ゲーム・英会話・FX/金融・太陽光発電など極めて幅広い事業を展開しています。Web、ゲームプラットフォーム、インフラ、データなど多様な領域のポジションがあり、関心に合わせたキャリア選択がしやすいのが特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Goへの統一などモダンな技術投資</h3>
-              <p className="text-sm text-blue-700">公式技術ブログによると、一部の組織では開発言語をGoに統一し、チーム間でノウハウを共有する取り組みが進められています。技術発信（inside.dmm.com等）にも積極的で、技術改善への投資が見られます。</p>
+              <p className="text-sm text-petrol-deep">公式技術ブログによると、一部の組織では開発言語をGoに統一し、チーム間でノウハウを共有する取り組みが進められています。技術発信（inside.dmm.com等）にも積極的で、技術改善への投資が見られます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">即戦力中心の中途採用</h3>
-              <p className="text-sm text-blue-700">公開情報によると、中途採用は即戦力を求めるポジションが多く、実務経験（目安3年程度）が重視されます。応募する事業・領域での経験が評価されやすい傾向です。</p>
+              <p className="text-sm text-petrol-deep">公開情報によると、中途採用は即戦力を求めるポジションが多く、実務経験（目安3年程度）が重視されます。応募する事業・領域での経験が評価されやすい傾向です。</p>
             </div>
           </div>
         </section>
@@ -181,10 +181,10 @@ export default function DmmCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>サーバーサイド</strong>：Go（言語統一の取り組みあり）、PHP、Python（Django）、Ruby（Rails）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Webフロントエンド</strong>：TypeScript、React、Vue.js</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>データベース</strong>：MySQL 等</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>インフラ</strong>：AWS、GCP、Docker（AWS Fargate等のコンテナ運用事例あり）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>サーバーサイド</strong>：Go（言語統一の取り組みあり）、PHP、Python（Django）、Ruby（Rails）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Webフロントエンド</strong>：TypeScript、React、Vue.js</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データベース</strong>：MySQL 等</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：AWS、GCP、Docker（AWS Fargate等のコンテナ運用事例あり）</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: DMMグループ公式 技術ブログ（inside.dmm.com 等）／採用情報（2026年6月時点）。事業・チーム別の構成です。</p>
@@ -193,7 +193,7 @@ export default function DmmCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公開情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            公開されている採用情報をもとにした一般的な流れです。最新の内容は<a href="https://dmm-corp.com/recruit/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
+            公開されている採用情報をもとにした一般的な流れです。最新の内容は<a href="https://dmm-corp.com/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考（スキルチェックシート・職務経歴書等）</li>
@@ -211,12 +211,12 @@ export default function DmmCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>即戦力としての実務経験・技術力（応募領域の言語/技術）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術面接・課題で示す実装力と設計の妥当性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>応募事業・プロダクトへの理解と志望動機</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>チームでの協働姿勢・主体性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>即戦力としての実務経験・技術力（応募領域の言語/技術）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術面接・課題で示す実装力と設計の妥当性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>応募事業・プロダクトへの理解と志望動機</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>チームでの協働姿勢・主体性</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -229,7 +229,7 @@ export default function DmmCompanyPage() {
               年収面では、DMMは非上場で公式の年収開示がないため、本ページでは具体額を示しません。参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円ですが、これは業界全体の目安であり、DMMの提示額は個別求人によります。30代・40代は<strong>提示額・等級・評価制度を面談で必ず確認する</strong>ことが重要です。
             </p>
             <p>
-              事業領域が広いため、これまでの専門性に合うポジションを選べる点はミドル層にメリットです。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              事業領域が広いため、これまでの専門性に合うポジションを選べる点はミドル層にメリットです。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -242,13 +242,13 @@ export default function DmmCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">非開示企業は提示年収の見極めが重要です。<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>や<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">非開示企業は提示年収の見極めが重要です。<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>や<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -269,7 +269,7 @@ export default function DmmCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">DMMへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">非開示企業の提示年収はエージェント経由で把握しやすくなります。無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -283,7 +283,7 @@ export default function DmmCompanyPage() {
               { name: "年収交渉のコツ", href: "/knowledge/salary-negotiation/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

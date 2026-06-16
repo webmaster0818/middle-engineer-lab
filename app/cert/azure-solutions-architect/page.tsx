@@ -116,7 +116,7 @@ export default function AzureArchitectCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -127,7 +127,7 @@ export default function AzureArchitectCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Azureアーキはどんな経験者に効くか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               AZ-305は<strong>「クラウド設計経験者の加点資格」</strong>です。入口資格とは性格が異なり、すでにインフラ・基盤・移行の実務があるミドルが<strong>上流（アーキテクチャ設計）へ役割を広げる土台</strong>として最も効きます。
             </p>
@@ -214,7 +214,7 @@ export default function AzureArchitectCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            Azureそのものの市場感は<Link href="/skill/azure/" className="text-blue-600 hover:underline">Azureエンジニア転職ガイド</Link>、インフラ全般は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>を参考にしてください。
+            Azureそのものの市場感は<Link href="/skill/azure/" className="text-petrol hover:underline">Azureエンジニア転職ガイド</Link>、インフラ全般は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -253,7 +253,7 @@ export default function AzureArchitectCertPage() {
             活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>。運用・構築の経験者が、設計・アーキテクトへ役割を広げたい局面で説得力を持ちます。第二に<strong>クラウド移行案件への適性証明</strong>。事業継続・ガバナンスまで含めた全体設計の素養を示せます。第三に<strong>最新技術へのキャッチアップ証明</strong>。有効期限と無料更新の仕組みにより、常に現行のAzure知識を保っていることを示せます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。AZ-305は前提資格（AZ-104）が必要で<strong>学習コストが大きく、実務がないと取得後も活かしきれません</strong>。効果が出るのは「Azureプロジェクト経験 × 資格」が成立したときです。また有効期限があるため、取りっぱなしでは失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/skill/azure/" className="text-blue-600 hover:underline">Azure</Link>の運用経験を積んでから臨むのが堅実です。
+            正直なデメリットも押さえておきましょう。AZ-305は前提資格（AZ-104）が必要で<strong>学習コストが大きく、実務がないと取得後も活かしきれません</strong>。効果が出るのは「Azureプロジェクト経験 × 資格」が成立したときです。また有効期限があるため、取りっぱなしでは失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/skill/azure/" className="text-petrol hover:underline">Azure</Link>の運用経験を積んでから臨むのが堅実です。
           </p>
         </section>
 
@@ -268,7 +268,7 @@ export default function AzureArchitectCertPage() {
               一方で過度な期待は禁物です。AZ-305を取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。クラウド移行や基盤設計の実績と組み合わせて初めて、アーキテクト職や高単価案件という形で結実します。さらに有効期限と無料更新の仕組みは、学び続ける姿勢の証明にもなります。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -283,7 +283,7 @@ export default function AzureArchitectCertPage() {
               { n: "STEP 3", t: "合格→実務で設計に関与し更新", d: "合格後は実プロジェクトで設計に関与し、有効期限前に無料更新評価で資格を維持する。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -292,7 +292,7 @@ export default function AzureArchitectCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            他クラウドと比較するなら<Link href="/cert/aws/" className="text-blue-600 hover:underline">AWS認定</Link>や<Link href="/cert/gcp-pca/" className="text-blue-600 hover:underline">Google Cloud Professional Cloud Architect</Link>、上流・マネジメント方向は<Link href="/cert/pmp/" className="text-blue-600 hover:underline">PMP</Link>との組み合わせも有効です。資格全体の位置づけは<Link href="/cert/" className="text-blue-600 hover:underline">資格で選ぶ転職ハブ</Link>で確認できます。
+            他クラウドと比較するなら<Link href="/cert/aws/" className="text-petrol hover:underline">AWS認定</Link>や<Link href="/cert/gcp-pca/" className="text-petrol hover:underline">Google Cloud Professional Cloud Architect</Link>、上流・マネジメント方向は<Link href="/cert/pmp/" className="text-petrol hover:underline">PMP</Link>との組み合わせも有効です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">資格で選ぶ転職ハブ</Link>で確認できます。
           </p>
         </section>
 
@@ -320,7 +320,7 @@ export default function AzureArchitectCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -340,7 +340,7 @@ export default function AzureArchitectCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

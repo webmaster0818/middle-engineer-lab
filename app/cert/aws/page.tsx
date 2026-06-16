@@ -112,7 +112,7 @@ export default function CertAwsPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -121,7 +121,7 @@ export default function CertAwsPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：資格×実務2-3年で効く経験者加点資格</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               AWS認定は当サイトの分類で<strong>「経験者加点資格」</strong>に位置づけられます。最も効くのは<strong>「オンプレ・インフラの実務 × AWS認定」</strong>の掛け算で、特に2〜3年の実務とセットで価値が出ます。資格単体で年収が上がる発想は禁物で、定番の注意点として正直にお伝えします。
             </p>
@@ -147,7 +147,7 @@ export default function CertAwsPage() {
               このページは「<strong>AWS認定資格を転職でどう活かすか</strong>」という資格起点の解説です。AWSエンジニアという<strong>職種そのもの</strong>の市場・キャリアパス・求人の探し方・参入ルートを知りたい方は、別記事で詳しく扱っています。
             </p>
             <p>
-              職種としての全体像は<Link href="/skill/aws/" className="text-blue-600 hover:underline font-medium">AWSエンジニア転職完全ガイド</Link>へ。隣接スキルは<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>・<Link href="/skill/terraform/" className="text-blue-600 hover:underline">Terraform/IaC転職ガイド</Link>もどうぞ。
+              職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline font-medium">AWSエンジニア転職完全ガイド</Link>へ。隣接スキルは<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>・<Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform/IaC転職ガイド</Link>もどうぞ。
             </p>
           </div>
         </section>
@@ -245,7 +245,7 @@ export default function CertAwsPage() {
             ))}
           </div>
           <p className="text-xs text-slate-500 leading-relaxed mt-3">
-            ※ リアルタイムの求人件数は変動が大きいため当サイトでは断定しません。詳細な求人傾向は<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSエンジニア転職ガイド</Link>を参照してください。
+            ※ リアルタイムの求人件数は変動が大きいため当サイトでは断定しません。詳細な求人傾向は<Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>を参照してください。
           </p>
         </section>
 
@@ -263,7 +263,7 @@ export default function CertAwsPage() {
               具体的な見せ方の例を挙げます。「データセンターの物理サーバー運用を10年担当」という経歴は、それだけだと『レガシー寄り』に見られかねません。しかし「その運用知見をもとに、SAAで学んだVPC設計・IAM権限設計を用いて、検証環境をAWS上に再構築した（GitHubにIaCコードを公開）」と添えれば、<strong>オンプレの実務とクラウドの学習が一本の線でつながり、移行案件で即戦力になれる人材像</strong>が伝わります。資格・実務・成果物の三点セットが、ミドルの説得力を最大化します。
             </p>
             <p>
-              職種としての全体像は<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSエンジニア転職ガイド</Link>、転向ルートは<Link href="/career/support-to-infra/" className="text-blue-600 hover:underline">運用保守からインフラ・クラウドへの転向</Link>、成果物の作り方は<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">エンジニアのポートフォリオの作り方</Link>が参考になります。
+              職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>、転向ルートは<Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、成果物の作り方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>が参考になります。
             </p>
           </div>
         </section>
@@ -278,7 +278,7 @@ export default function CertAwsPage() {
               { n: "STEP 3", t: "成果物化＋移行ストーリー", d: "構成をIaC（Terraform/CDK）でコード化し公開。前職経験を移行ストーリーに落とす。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -287,7 +287,7 @@ export default function CertAwsPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            併取得におすすめなのは、Linuxの土台を固める<Link href="/cert/" className="text-blue-600 hover:underline">LPIC/LinuC（資格一覧参照）</Link>や、クラウドセキュリティに広げる<Link href="/cert/security-specialist/" className="text-blue-600 hover:underline">情報処理安全確保支援士</Link>です。IaCスキルは<Link href="/skill/terraform/" className="text-blue-600 hover:underline">Terraform転職ガイド</Link>も合わせてご覧ください。
+            併取得におすすめなのは、Linuxの土台を固める<Link href="/cert/" className="text-petrol hover:underline">LPIC/LinuC（資格一覧参照）</Link>や、クラウドセキュリティに広げる<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>です。IaCスキルは<Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform転職ガイド</Link>も合わせてご覧ください。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             取得後のステップとしては、SAAの次に上位のSolutions Architect Professionalや、運用自動化に強いDevOps Engineer Professionalを目指す道があります。ただし、ここでも順序が大切です。資格を続けて取ることより、SAAで得た知識を実務で使い、その経験を踏まえて上位資格に挑むほうが、知識が定着し面接でも語れる状態になります。AWS公式もProfessional受験前に2年以上の実務経験を推奨しており、これは「資格は実務とセットで価値が出る」という本記事の主張とも一致します。クラウドは技術の更新が速いため、有効期限3年という再認定の仕組みも、知識の鮮度を保つ良い機会と前向きに捉えるとよいでしょう。学んだ内容を小さな個人プロジェクトやIaCコードとして残し続けることが、長期的な市場価値の維持につながります。
@@ -329,7 +329,7 @@ export default function CertAwsPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -349,7 +349,7 @@ export default function CertAwsPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

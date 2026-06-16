@@ -86,7 +86,7 @@ export default function HousingAllowancePage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             住宅手当・家賃補助は、30-40代エンジニアにとって毎月の固定費を大きく左右する重要な福利厚生です。しかし求人票の「住宅手当あり」という一文だけでは、実際にいくら手取りが増えるかは判断できません。<strong>現金支給の手当は課税され、借り上げ社宅は非課税になり得る</strong>という制度上の違いがあり、同じ会社コストでも従業員のメリットは変わります。本記事では、手当の種類・課税の扱い・支給条件の落とし穴を整理し、求人での見極め方を住宅ローンを含む生活設計と結びつけて解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 家賃・住宅ローンの固定費を会社の補助で軽くしたい30-40代</li>
@@ -99,7 +99,7 @@ export default function HousingAllowancePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>住宅補助の3タイプと課税の違い</li>
             <li>求人での見極めポイント</li>
             <li>該当しやすい企業タイプ</li>
@@ -113,7 +113,7 @@ export default function HousingAllowancePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">タイプ</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">内容</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">課税の扱い</th>
@@ -150,7 +150,7 @@ export default function HousingAllowancePage() {
               { num: "5", title: "基本給への統合トレンドを念頭に置く", desc: "近年は住宅手当を廃止し基本給に統合する企業も増えています。手当がなくても基本給が高ければ総支給で有利なことも。額面と手当を分けて比較しましょう。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -196,7 +196,7 @@ export default function HousingAllowancePage() {
             </p>
             <p>
               <strong>転勤・配属との連動：</strong>住宅補助が特定拠点勤務や転勤に紐づく場合、勤務地が変わると支給条件も変わります。
-              <Link href="/purpose/no-relocation/" className="text-blue-600 hover:underline">転勤なしの求人を探している人</Link>
+              <Link href="/purpose/no-relocation/" className="text-petrol hover:underline">転勤なしの求人を探している人</Link>
               は、住宅補助の前提条件を特に丁寧に確認してください。
             </p>
           </div>
@@ -220,7 +220,7 @@ export default function HousingAllowancePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">住宅補助のある企業を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">手当の中身まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -234,7 +234,7 @@ export default function HousingAllowancePage() {
               { name: "40代エンジニアの年収相場", href: "/knowledge/salary-40s/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

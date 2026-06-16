@@ -151,7 +151,7 @@ export default function CodingTestPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：領域を絞り、毎日少量を継続する</h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
               <li>・頻出は<strong>配列・文字列・ハッシュマップ・探索・BFS/DFS</strong>に集中。まずここを固める。</li>
@@ -167,7 +167,7 @@ export default function CodingTestPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2">
             {sections.map((s) => (
               <li key={s.id}>
-                <a href={`#${s.id}`} className="text-sm text-blue-600 hover:underline">{s.label}</a>
+                <a href={`#${s.id}`} className="text-sm text-petrol hover:underline">{s.label}</a>
               </li>
             ))}
           </ul>
@@ -215,7 +215,7 @@ export default function CodingTestPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <div className="flex items-center gap-3 mb-2">
                   <h3 className="font-bold text-blue-800 text-lg">{p.name}</h3>
-                  <span className="bg-blue-100 text-blue-800 text-xs font-medium px-3 py-1 rounded-full">{p.purpose}</span>
+                  <span className="bg-petrol-soft text-blue-800 text-xs font-medium px-3 py-1 rounded-full">{p.purpose}</span>
                 </div>
                 <p className="text-sm text-slate-600 mb-3">{p.detail}</p>
                 <p className="text-xs text-slate-500"><span className="font-bold text-slate-600">向いている人: </span>{p.fit}</p>
@@ -230,7 +230,7 @@ export default function CodingTestPage() {
           <div className="space-y-4">
             {plan.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-14 h-8 rounded-full bg-blue-600 text-white font-bold text-xs shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-14 h-8 rounded-full bg-petrol text-white font-bold text-xs shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -245,9 +245,9 @@ export default function CodingTestPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">当日の進め方と差がつくコツ</h2>
           <div className="space-y-4">
             {tips.map((t, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {t.t}</h3>
-                <p className="text-sm text-blue-700">{t.d}</p>
+                <p className="text-sm text-petrol-deep">{t.d}</p>
               </div>
             ))}
           </div>
@@ -291,7 +291,7 @@ export default function CodingTestPage() {
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントなら、各企業のコーディングテストの有無や難易度を事前に教えてもらえます。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -307,7 +307,7 @@ export default function CodingTestPage() {
               { name: "スカウトサービスの活用法", href: "/knowledge/scout/" },
               { name: "30代エンジニアの転職ガイド", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

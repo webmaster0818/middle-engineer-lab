@@ -101,7 +101,7 @@ export default function MetaCompanyPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {tocItems.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ul>
@@ -109,7 +109,7 @@ export default function MetaCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-3">難易度は「高い」。アルゴリズム力×大規模開発×英語が揃う人に向く。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>● <strong>向いている人</strong>：アルゴリズム・データ構造に強く、大規模分散システムの開発経験があり、英語で業務遂行できる人。ML/AIやReact系の専門性も活きる。</li>
@@ -143,24 +143,24 @@ export default function MetaCompanyPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            ※年収はlevels.fyi等の回答者ベースの参考値で、レベル・職種・株式報酬の評価額により大きく変動します。最新の募集職種・条件は<a href="https://www.metacareers.com/jobs" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Meta公式採用ページ</a>でご確認ください。
+            ※年収はlevels.fyi等の回答者ベースの参考値で、レベル・職種・株式報酬の評価額により大きく変動します。最新の募集職種・条件は<a href="https://www.metacareers.com/jobs" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">Meta公式採用ページ</a>でご確認ください。
           </p>
         </section>
 
         <section id="features" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">株式報酬（RSU）比率の高い総報酬</h3>
-              <p className="text-sm text-blue-700">外資テックの中でもRSUの比率が高いことで知られ、levels.fyi等の参考値ではシニア以上で総報酬が大きく伸びるレンジが公開されています。基本給だけでなく、株式報酬を含めた「総報酬」で評価する視点が重要です（出典: levels.fyi、2026年時点）。</p>
+              <p className="text-sm text-petrol-deep">外資テックの中でもRSUの比率が高いことで知られ、levels.fyi等の参考値ではシニア以上で総報酬が大きく伸びるレンジが公開されています。基本給だけでなく、株式報酬を含めた「総報酬」で評価する視点が重要です（出典: levels.fyi、2026年時点）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">「Move Fast」のスピード重視文化</h3>
-              <p className="text-sm text-blue-700">迅速なリリースサイクルと意思決定を重んじる文化が知られています。入社後に複数チームを経験して配属を決める仕組みが語られることもありますが、制度運用は時期により変わるため最新情報の確認が必要です。</p>
+              <p className="text-sm text-petrol-deep">迅速なリリースサイクルと意思決定を重んじる文化が知られています。入社後に複数チームを経験して配属を決める仕組みが語られることもありますが、制度運用は時期により変わるため最新情報の確認が必要です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">AI・大規模プロダクトの最先端</h3>
-              <p className="text-sm text-blue-700">PyTorchの開発元であり、生成AIや大規模インフラ、Instagram等のプロダクト開発に関われます。ML/AIや大規模システムに関心のあるエンジニアにとって魅力的な環境です。</p>
+              <p className="text-sm text-petrol-deep">PyTorchの開発元であり、生成AIや大規模インフラ、Instagram等のプロダクト開発に関われます。ML/AIや大規模システムに関心のあるエンジニアにとって魅力的な環境です。</p>
             </div>
           </div>
         </section>
@@ -223,11 +223,11 @@ export default function MetaCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5 mb-4">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>バックエンド</strong>：Hack（PHP系）/ C++ / Python 等</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>フロントエンド</strong>：React / React Native（いずれもMeta発のOSS）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>API</strong>：GraphQL（Meta発のOSS）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>ML/AI</strong>：PyTorch を中心とした機械学習基盤</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>開発文化</strong>：自社製OSSを多数生み出す内製志向＋スピード重視</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>バックエンド</strong>：Hack（PHP系）/ C++ / Python 等</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>フロントエンド</strong>：React / React Native（いずれもMeta発のOSS）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>API</strong>：GraphQL（Meta発のOSS）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>ML/AI</strong>：PyTorch を中心とした機械学習基盤</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>開発文化</strong>：自社製OSSを多数生み出す内製志向＋スピード重視</li>
             </ul>
           </div>
           <p className="text-slate-700 leading-relaxed text-sm">
@@ -281,14 +281,14 @@ export default function MetaCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>アルゴリズム・データ構造を用いた問題解決力（コーディング面接）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>大規模システムの設計力（シニア以上はシステム設計面接で確認）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>複数プロジェクトをやり切った経験と、ビジネス視点・影響力</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術を非エンジニアにも明快に説明できるコミュニケーション力と英語力</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>アルゴリズム・データ構造を用いた問題解決力（コーディング面接）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>大規模システムの設計力（シニア以上はシステム設計面接で確認）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>複数プロジェクトをやり切った経験と、ビジネス視点・影響力</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術を非エンジニアにも明快に説明できるコミュニケーション力と英語力</li>
             </ul>
           </div>
           <p className="text-slate-700 leading-relaxed text-sm mt-4">
-            コーディング対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策ガイド</Link>、設計面接は<Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システム設計面接の準備</Link>、行動面接は<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接（STAR法）対策</Link>を参考にしてください。
+            コーディング対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策ガイド</Link>、設計面接は<Link href="/knowledge/system-design/" className="text-petrol hover:underline">システム設計面接の準備</Link>、行動面接は<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STAR法）対策</Link>を参考にしてください。
           </p>
         </section>
 
@@ -299,10 +299,10 @@ export default function MetaCompanyPage() {
               <strong>年齢より「準備量」が結果を左右する企業。</strong>Metaの選考はコーディング面接の比重が高く、現場で長くマネジメント寄りに進んできた30代・40代ほど、アルゴリズム対策に意図的な準備時間を割く必要があります。逆に言えば、準備さえ積めば年齢を理由に不利になりにくい、実力本位の選考です。シニア以上ではシステム設計と「影響力の実績」が評価軸になり、ここはミドル層の経験が活きる領域です。
             </p>
             <p className="text-sm text-amber-900 leading-relaxed">
-              <strong>総報酬の「中身」を冷静に見る。</strong>提示額の多くを株式報酬（RSU）が占めるため、株価変動で実受取額が上下します。家計や生活設計の観点では、基本給の比率やベスティング条件まで確認したうえで意思決定するのが安全です。オファー比較の考え方は<Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">複数オファーの比較ガイド</Link>も参考になります。
+              <strong>総報酬の「中身」を冷静に見る。</strong>提示額の多くを株式報酬（RSU）が占めるため、株価変動で実受取額が上下します。家計や生活設計の観点では、基本給の比率やベスティング条件まで確認したうえで意思決定するのが安全です。オファー比較の考え方は<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">複数オファーの比較ガイド</Link>も参考になります。
             </p>
             <p className="text-sm text-amber-900 leading-relaxed">
-              市場価値の整理は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">エンジニアの市場価値の測り方</Link>、外資特有の進め方は<Link href="/knowledge/overseas/" className="text-blue-600 hover:underline">外資・グローバル転職ガイド</Link>も合わせてご覧ください。
+              市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">エンジニアの市場価値の測り方</Link>、外資特有の進め方は<Link href="/knowledge/overseas/" className="text-petrol hover:underline">外資・グローバル転職ガイド</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -315,13 +315,13 @@ export default function MetaCompanyPage() {
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高い。面接対策サポートも活用できる。" },
               { name: "リクルートエージェントIT", href: "/review/recruit-it/", desc: "国内最大級の求人数。非公開求人が豊富で外資系の選択肢も広い。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">外資は公式応募・リファラルも有力ルートです。併用の考え方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの併用ガイド</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">外資は公式応募・リファラルも有力ルートです。併用の考え方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの併用ガイド</Link>を参照してください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -342,7 +342,7 @@ export default function MetaCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Meta Japanへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">外資IT企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -356,7 +356,7 @@ export default function MetaCompanyPage() {
               { name: "システム設計面接の準備", href: "/knowledge/system-design/" },
               { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

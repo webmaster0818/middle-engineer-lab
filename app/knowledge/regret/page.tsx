@@ -140,14 +140,14 @@ export default function RegretPage() {
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
           <ul className="space-y-2">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ul>
         </nav>
 
         {/* 結論 */}
         <section className="mb-10">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：後悔の多くは「事前確認」で防げる</h2>
             <p className="text-sm text-blue-800 leading-relaxed">
               転職の後悔は、<strong>年収だけで決める／業務や働き方の実態を確認しない／現職の不満が解決するか検証しない</strong>ことから生まれがちです。逆に言えば、<strong>入社前チェックリストとオファー面談での質問</strong>で、多くは防げます。条件面の確認は失礼ではなく、入社後のすれ違いを避ける正当なプロセスです。
@@ -175,7 +175,7 @@ export default function RegretPage() {
           <div className="space-y-4">
             {checklist.map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -210,7 +210,7 @@ export default function RegretPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            複数の内定を比較する場合は<Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">複数内定の比較方法</Link>も参考になります。
+            複数の内定を比較する場合は<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">複数内定の比較方法</Link>も参考になります。
           </p>
         </section>
 
@@ -241,9 +241,9 @@ export default function RegretPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">後悔しない判断の心構え</h2>
           <div className="space-y-4">
             {mindset.map((m, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {m.title}</h3>
-                <p className="text-sm text-blue-700">{m.desc}</p>
+                <p className="text-sm text-petrol-deep">{m.desc}</p>
               </div>
             ))}
           </div>
@@ -260,7 +260,7 @@ export default function RegretPage() {
               <li><strong>上司・人事に相談する</strong>：オンボーディングの調整や役割の見直しで解決することもある。</li>
               <li><strong>改善が見込めない場合</strong>：試用期間中の対応も含め、エージェントに相談して選択肢を整理する。</li>
             </ul>
-            <p>適応のコツは<Link href="/knowledge/onboarding/" className="text-blue-600 hover:underline">オンボーディング成功法</Link>や<Link href="/knowledge/first-90days/" className="text-blue-600 hover:underline">転職後90日間の過ごし方</Link>も参考にしてください。</p>
+            <p>適応のコツは<Link href="/knowledge/onboarding/" className="text-petrol hover:underline">オンボーディング成功法</Link>や<Link href="/knowledge/first-90days/" className="text-petrol hover:underline">転職後90日間の過ごし方</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -275,7 +275,7 @@ export default function RegretPage() {
               年収面では、doda（パーソルキャリア）の2024年度「決定年収レポート」（2025年5月公表）で転職者の約6割が年収アップを実現したとされ、IT・通信の平均決定年収も2023年度の469万円から2024年度は486万円へと上昇したと公表されています。条件の見通しは立てやすい環境ですが、数字だけで飛びつくと後悔の典型例に陥ります。
             </p>
             <p>
-              ミドル層は「即戦力」を期待される分、業務内容の認識ズレが後で響きます。オファー面談で担当範囲を具体的に確認し、<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値</Link>を踏まえて条件の妥当性を判断しましょう。判断に迷う段階ではエージェントの内部情報も有効です。
+              ミドル層は「即戦力」を期待される分、業務内容の認識ズレが後で響きます。オファー面談で担当範囲を具体的に確認し、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値</Link>を踏まえて条件の妥当性を判断しましょう。判断に迷う段階ではエージェントの内部情報も有効です。
             </p>
           </div>
         </section>
@@ -300,7 +300,7 @@ export default function RegretPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ミスマッチを防ぐ企業情報をエージェントに聞こう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、企業の内部情報やオファー面談での確認ポイントについて助言を受けられ、入社後のミスマッチを抑えやすくなります。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -314,7 +314,7 @@ export default function RegretPage() {
               { name: "年収交渉の進め方", href: "/knowledge/salary-negotiation/" },
               { name: "燃え尽き症候群と転職判断", href: "/knowledge/burnout/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

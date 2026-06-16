@@ -126,7 +126,7 @@ export default function PlaidCompanyPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -134,7 +134,7 @@ export default function PlaidCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：プレイドはこんなエンジニアに向く</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-2">転職難易度：高め（リアルタイムデータ処理の専門性）</p>
             <p className="text-sm text-blue-900 leading-relaxed">
               KARTEは毎秒大量のイベントを数百ms以内で処理する技術難度の高いプロダクトで、設計力・データ処理経験が問われます。
@@ -164,17 +164,17 @@ export default function PlaidCompanyPage() {
         <section id="hiring" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">リアルタイムデータ処理の最前線</h3>
-              <p className="text-sm text-blue-700">KARTEは訪問者の行動をリアルタイムで解析し最適なアクションを配信。解析基盤「Blitz」は数百ms以内で応答する設計で、大規模なリアルタイム処理基盤の開発・運用に携われます（出典: PLAID公式採用ページ）。</p>
+              <p className="text-sm text-petrol-deep">KARTEは訪問者の行動をリアルタイムで解析し最適なアクションを配信。解析基盤「Blitz」は数百ms以内で応答する設計で、大規模なリアルタイム処理基盤の開発・運用に携われます（出典: PLAID公式採用ページ）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">少数精鋭で大きな裁量</h3>
-              <p className="text-sm text-blue-700">従業員約400名（2025年9月期）でKARTEシリーズを運営。エンジニア一人あたりの責任範囲が広く、アーキテクチャの意思決定にも深く関われます。</p>
+              <p className="text-sm text-petrol-deep">従業員約400名（2025年9月期）でKARTEシリーズを運営。エンジニア一人あたりの責任範囲が広く、アーキテクチャの意思決定にも深く関われます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">GCPを軸にしたデータ基盤</h3>
-              <p className="text-sm text-blue-700">BigQuery・Bigtable・Spannerなど、GCPのデータ基盤をフル活用。AI開発支援ツール（Copilot・Cursor・Devin等）の導入も進められています。</p>
+              <p className="text-sm text-petrol-deep">BigQuery・Bigtable・Spannerなど、GCPのデータ基盤をフル活用。AI開発支援ツール（Copilot・Cursor・Devin等）の導入も進められています。</p>
             </div>
           </div>
         </section>
@@ -224,8 +224,8 @@ export default function PlaidCompanyPage() {
           <p className="text-xs text-slate-400 mb-3">出典: プレイド有価証券報告書（各年9月期、IRBANK集計）。いずれも全社員平均で、職種・グレードによる差を含みます。</p>
           <p className="text-sm text-slate-600 leading-relaxed">
             エンジニア職に限った提示レンジは公式に統一公開されていないため、当ガイドでは未出典の等級別年収表は掲載していません。市場相場は
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>・
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>も参考にしてください。
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も参考にしてください。
           </p>
         </section>
 
@@ -234,10 +234,10 @@ export default function PlaidCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-2">
             <p>一般的には以下の流れで構成されます。面接回数・順序はポジション・時期により変わります。</p>
             <ul className="space-y-1.5 mt-2">
-              <li className="flex gap-2"><span className="text-blue-600">1.</span>書類選考・カジュアル面談</li>
-              <li className="flex gap-2"><span className="text-blue-600">2.</span>技術選考（職種によりコーディング課題・技術面接）</li>
-              <li className="flex gap-2"><span className="text-blue-600">3.</span>複数回の面接（設計・カルチャーフィット）</li>
-              <li className="flex gap-2"><span className="text-blue-600">4.</span>最終面接・オファー面談</li>
+              <li className="flex gap-2"><span className="text-petrol">1.</span>書類選考・カジュアル面談</li>
+              <li className="flex gap-2"><span className="text-petrol">2.</span>技術選考（職種によりコーディング課題・技術面接）</li>
+              <li className="flex gap-2"><span className="text-petrol">3.</span>複数回の面接（設計・カルチャーフィット）</li>
+              <li className="flex gap-2"><span className="text-petrol">4.</span>最終面接・オファー面談</li>
             </ul>
             <p className="text-xs text-slate-400 mt-2">公開されていない具体的な質問内容は断定していません。最新は公式採用ページ（recruit.plaid.co.jp）でご確認ください。</p>
           </div>
@@ -248,9 +248,9 @@ export default function PlaidCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
             <p className="mb-3">公開情報・口コミの傾向からは、リアルタイム処理という事業特性に直結する技術的な思考力と、裁量の大きい環境で自走できるかが見られやすいポイントです。</p>
             <ul className="space-y-1.5">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>システム設計・データ処理に関する技術的な議論</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>裁量の大きい環境での自走力・課題解決の進め方</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>プロダクト・ユーザー価値への関心</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>システム設計・データ処理に関する技術的な議論</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>裁量の大きい環境での自走力・課題解決の進め方</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>プロダクト・ユーザー価値への関心</li>
             </ul>
             <p className="text-xs text-slate-400 mt-3">具体的な質問文や合否基準は公開情報からは断定できないため、創作した質問リストは掲載していません。</p>
           </div>
@@ -269,7 +269,7 @@ export default function PlaidCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700 leading-relaxed space-y-3">
             <p>平均年齢35歳前後とミドル層が中心の組織で、<strong>データ処理・プロダクト設計の専門性を持つ30代・40代はマッチしやすい</strong>傾向です。年齢より、KARTEの技術課題に貢献できる実務経験が重視されます。</p>
-            <p>裁量が大きい分、自走力とキャッチアップ速度が求められます。家庭との両立という観点では、フレックスは追い風ですが、繁忙の波は前提に置き、面談で実態を確認しておくのが現実的です。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニア転職の現実</Link>も参考になります。</p>
+            <p>裁量が大きい分、自走力とキャッチアップ速度が求められます。家庭との両立という観点では、フレックスは追い風ですが、繁忙の波は前提に置き、面談で実態を確認しておくのが現実的です。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>も参考になります。</p>
           </div>
         </section>
 
@@ -307,13 +307,13 @@ export default function PlaidCompanyPage() {
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型媒体。カジュアル面談で社風を把握しやすい。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT・Web特化。提案スピードが速く、データテック企業の実務経験者に向く。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">エージェントの比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">転職エージェント比較</Link>もご覧ください。</p>
+          <p className="text-xs text-slate-400 mt-3">エージェントの比較は<Link href="/compare/agents/" className="text-petrol hover:underline">転職エージェント比較</Link>もご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -334,7 +334,7 @@ export default function PlaidCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">プレイドへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">SaaS・データテック企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section>
@@ -348,7 +348,7 @@ export default function PlaidCompanyPage() {
               { name: "コーディングテスト対策", href: "/knowledge/coding-test/" },
               { name: "システム設計面接の対策", href: "/knowledge/system-design/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

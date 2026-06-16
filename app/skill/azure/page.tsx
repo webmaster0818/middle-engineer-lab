@@ -114,9 +114,9 @@ export default function AzureSkillPage() {
 
         <p className="text-slate-600 leading-relaxed mb-4">
           Azure（Microsoft Azure）は売り手市場が続くクラウドですが、その価値はAWSとは違う場所にあります。Microsoft 365やActive Directoryと統合したエンタープライズ・業務系システム、大手SIer・コンサル・金融・製造IoT・公共といった「AWSとは客層の違う領域」で採用が活発です。本記事は、すでに公開している
-          <Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSエンジニア転職ガイド</Link>
+          <Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>
           と検索意図を分け、「<strong>AWSではなくAzureを選ぶ理由</strong>」に焦点を当てて整理します。GCPとの比較は
-          <Link href="/skill/gcp/" className="text-blue-600 hover:underline">GCPエンジニア転職ガイド</Link>
+          <Link href="/skill/gcp/" className="text-petrol hover:underline">GCPエンジニア転職ガイド</Link>
           をご覧ください。
         </p>
 
@@ -135,7 +135,7 @@ export default function AzureSkillPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -145,7 +145,7 @@ export default function AzureSkillPage() {
 
         <section id="diff" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AzureをAWSではなく選ぶ理由</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               先に結論です。Azure転職の核心は、<strong>「AWSの代替」ではなく「エンタープライズ・業務系に強いクラウド」として自分を位置づけること</strong>です。攻め方は次の3点です。
             </p>
@@ -156,9 +156,9 @@ export default function AzureSkillPage() {
             </ul>
             <p className="text-xs text-slate-600 mt-3">
               「Web系・幅広い求人」を狙うなら
-              <Link href="/skill/aws/" className="text-blue-700 underline">AWS</Link>、
+              <Link href="/skill/aws/" className="text-petrol-deep underline">AWS</Link>、
               「データ・ML志向」なら
-              <Link href="/skill/gcp/" className="text-blue-700 underline ml-0">GCP</Link>
+              <Link href="/skill/gcp/" className="text-petrol-deep underline ml-0">GCP</Link>
               が向きます。
             </p>
           </div>
@@ -262,9 +262,9 @@ export default function AzureSkillPage() {
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             C#の市場価値は
-            <Link href="/skill/csharp/" className="text-blue-600 hover:underline">C#エンジニア転職ガイド</Link>、
+            <Link href="/skill/csharp/" className="text-petrol hover:underline">C#エンジニア転職ガイド</Link>、
             インフラ基礎は
-            <Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>
+            <Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>
             が参考になります。
           </p>
         </section>
@@ -291,23 +291,23 @@ export default function AzureSkillPage() {
         <section id="path" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスとSES脱出</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">クラウドアーキテクト路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Azure上のエンタープライズ全体設計を担う方向。AZ-305と大規模移行経験が武器になります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">SES・客先常駐からの脱出路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 AZ認定＋小規模な構築・移行実績をセットにし、自社開発や上流設計へ移る道。前職の業務系・運用経験は移行案件で活きます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">セキュリティ・ガバナンス特化路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 金融・公共向けにEntra ID設計やコンプライアンス対応を担う方向。
-                <Link href="/career/devsecops/" className="text-blue-700 underline ml-1">DevSecOpsキャリア</Link>
+                <Link href="/career/devsecops/" className="text-petrol-deep underline ml-1">DevSecOpsキャリア</Link>
                 も関連します。
               </p>
             </div>
@@ -327,7 +327,7 @@ export default function AzureSkillPage() {
               { n: "STEP 4", t: "移行ストーリーで応募", d: "前職の業務系・運用経験を『クラウド移行で活きる経験』として職務経歴書に落とし込む。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -336,7 +336,7 @@ export default function AzureSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-blue-600 hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">エンジニアのポートフォリオの作り方</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>。
           </p>
         </section>
 
@@ -351,10 +351,10 @@ export default function AzureSkillPage() {
             </p>
             <p>
               年収面では、レバテック公表の正社員SE平均が40代で約618万円、年収1,000万円以上の割合が40代で12.67%（2025年）と、ミドルでも高年収帯は一定数存在します。年代別の市場感は
-              <Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、
+              <Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・
+              <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、
               年収交渉は
-              <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>
+              <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>
               も合わせてご覧ください。
             </p>
           </div>
@@ -373,7 +373,7 @@ export default function AzureSkillPage() {
                   A. {faq.a}
                   {faq.aLink && (
                     <>
-                      <Link href={faq.aLink.href} className="text-blue-600 hover:underline">{faq.aLink.label}</Link>
+                      <Link href={faq.aLink.href} className="text-petrol hover:underline">{faq.aLink.label}</Link>
                       {faq.aTail}
                     </>
                   )}
@@ -390,7 +390,7 @@ export default function AzureSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -410,7 +410,7 @@ export default function AzureSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -423,8 +423,8 @@ export default function AzureSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/fujitsu/" className="text-blue-700 hover:underline">富士通</a></li><li><a href="/company/hitachi/" className="text-blue-700 hover:underline">日立製作所</a></li><li><a href="/company/kddi/" className="text-blue-700 hover:underline">KDDI</a></li><li><a href="/company/nri/" className="text-blue-700 hover:underline">野村総合研究所(NRI)</a></li><li><a href="/company/ntt-data/" className="text-blue-700 hover:underline">NTTデータ</a></li><li><a href="/company/sony/" className="text-blue-700 hover:underline">ソニーグループ</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/fujitsu/" className="text-petrol-deep hover:underline">富士通</a></li><li><a href="/company/hitachi/" className="text-petrol-deep hover:underline">日立製作所</a></li><li><a href="/company/kddi/" className="text-petrol-deep hover:underline">KDDI</a></li><li><a href="/company/nri/" className="text-petrol-deep hover:underline">野村総合研究所(NRI)</a></li><li><a href="/company/ntt-data/" className="text-petrol-deep hover:underline">NTTデータ</a></li><li><a href="/company/sony/" className="text-petrol-deep hover:underline">ソニーグループ</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

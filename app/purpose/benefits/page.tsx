@@ -86,7 +86,7 @@ export default function BenefitsPage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             求人でよく見る「福利厚生充実」「各種社会保険完備」という表記。しかし社会保険（法定福利）はどの会社でも受けられる当然のもので、充実の指標にはなりません。本当に差がつくのは、会社が任意で提供する<strong>法定外福利</strong>——住宅補助・退職金・育児支援・健康支援・自己啓発支援などの中身です。さらに、現金支給か現物支給かで課税が変わり、実質的な手取りメリットも異なります。本記事では、福利厚生を法定／法定外で整理し、求人での見極め方を30-40代の生活設計に効く実利の観点で解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 「福利厚生充実」求人の中身を具体的に見極めたい30-40代</li>
@@ -99,7 +99,7 @@ export default function BenefitsPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>法定福利と法定外福利</li>
             <li>求人での見極めポイント</li>
             <li>該当しやすい企業タイプ</li>
@@ -113,7 +113,7 @@ export default function BenefitsPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">区分</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">内容</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">ポイント</th>
@@ -150,7 +150,7 @@ export default function BenefitsPage() {
               { num: "5", title: "制度の利用実績を確認する", desc: "育休・時短・資格支援などは『制度はあるが利用者ゼロ』のことも。面接や口コミで実際に使われているかを確認します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -196,9 +196,9 @@ export default function BenefitsPage() {
             </p>
             <p>
               <strong>総報酬で判断する：</strong>年収と福利厚生は分けて考え、合算した総報酬で比較します。個別制度の詳細は
-              <Link href="/purpose/housing-allowance/" className="text-blue-600 hover:underline">住宅手当</Link>
+              <Link href="/purpose/housing-allowance/" className="text-petrol hover:underline">住宅手当</Link>
               ・
-              <Link href="/purpose/taishokukin/" className="text-blue-600 hover:underline">退職金制度</Link>
+              <Link href="/purpose/taishokukin/" className="text-petrol hover:underline">退職金制度</Link>
               の各ガイドも合わせてご確認ください。
             </p>
           </div>
@@ -222,7 +222,7 @@ export default function BenefitsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">福利厚生の手厚い企業を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">制度の中身まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -236,7 +236,7 @@ export default function BenefitsPage() {
               { name: "安定した企業への転職", href: "/purpose/stable/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

@@ -108,7 +108,7 @@ export default function GmoCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               GMOインターネットグループは<strong>ドメイン・クラウド・決済・金融といった社会インフラを支える、エンジニア比率の高いメガベンチャー</strong>です。持株会社体制でグループ各社が事業を運営しており、有報の単体平均年収693万円（2024年12月期）は<strong>持株会社の数字</strong>である点に注意が必要です。応募先の事業会社により技術も待遇も異なります。
@@ -126,7 +126,7 @@ export default function GmoCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -152,17 +152,17 @@ export default function GmoCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">インターネットインフラを支える基盤技術</h3>
-              <p className="text-sm text-blue-700">ドメイン・クラウド・セキュリティ・決済といった、止められない社会インフラを扱う事業が中核です。可用性・セキュリティ・大規模トラフィックを前提とした堅牢な設計・運用の経験が活きます。</p>
+              <p className="text-sm text-petrol-deep">ドメイン・クラウド・セキュリティ・決済といった、止められない社会インフラを扱う事業が中核です。可用性・セキュリティ・大規模トラフィックを前提とした堅牢な設計・運用の経験が活きます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">決済・金融という専門ドメイン</h3>
-              <p className="text-sm text-blue-700">GMOペイメントゲートウェイ（決済）やGMOクリック証券（金融）など、決済・金融領域の事業会社を擁します。規制・信頼性の要求が高い領域での開発経験を積める点が特徴です。</p>
+              <p className="text-sm text-petrol-deep">GMOペイメントゲートウェイ（決済）やGMOクリック証券（金融）など、決済・金融領域の事業会社を擁します。規制・信頼性の要求が高い領域での開発経験を積める点が特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">エンジニア比率が高い「技術の会社」</h3>
-              <p className="text-sm text-blue-700">公式採用情報によると、グループのエンジニア（パートナー）比率は約半数とされ、技術ブログ「GMO Developers」やカンファレンスなど技術発信にも積極的です。技術志向の強い文化があります。</p>
+              <p className="text-sm text-petrol-deep">公式採用情報によると、グループのエンジニア（パートナー）比率は約半数とされ、技術ブログ「GMO Developers」やカンファレンスなど技術発信にも積極的です。技術志向の強い文化があります。</p>
             </div>
           </div>
         </section>
@@ -174,11 +174,11 @@ export default function GmoCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>サーバーサイド</strong>：Go、PHP、Java（Spring Boot）、Ruby、Python 等</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Webフロントエンド</strong>：TypeScript、React、Next.js</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>データベース</strong>：MySQL 等</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>インフラ</strong>：AWS、Docker、Kubernetes（自社データセンター・基盤も保有）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>領域特性</strong>：ドメイン・決済・金融など信頼性/セキュリティ要件の高い基盤開発</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>サーバーサイド</strong>：Go、PHP、Java（Spring Boot）、Ruby、Python 等</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Webフロントエンド</strong>：TypeScript、React、Next.js</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データベース</strong>：MySQL 等</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：AWS、Docker、Kubernetes（自社データセンター・基盤も保有）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>領域特性</strong>：ドメイン・決済・金融など信頼性/セキュリティ要件の高い基盤開発</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: GMOインターネットグループ公式 採用情報／GMO Developers等の公開情報（2026年6月時点）。事業会社別の構成です。</p>
@@ -216,7 +216,7 @@ export default function GmoCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公開情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            公開されている採用情報をもとにした一般的な流れです。最新の内容は<a href="https://recruit.group.gmo/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">グループ採用ページ</a>でご確認ください。
+            公開されている採用情報をもとにした一般的な流れです。最新の内容は<a href="https://recruit.group.gmo/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">グループ採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考（職務経歴書・ポートフォリオ等）</li>
@@ -233,12 +233,12 @@ export default function GmoCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術面接で示す実装力・設計力（応募事業会社の技術領域）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>可用性・セキュリティ・大規模システムの運用経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>決済・金融・インフラなど該当ドメインへの理解</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>チームでの協働姿勢・主体性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術面接で示す実装力・設計力（応募事業会社の技術領域）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>可用性・セキュリティ・大規模システムの運用経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>決済・金融・インフラなど該当ドメインへの理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>チームでの協働姿勢・主体性</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -251,7 +251,7 @@ export default function GmoCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。GMOの持株会社単体平均（693万円）はこれを上回りますが、これは持株会社の全社員平均で、エンジニアの提示額は応募先の事業会社次第です。30代・40代は事業会社ごとの水準を確認することが重要です。
             </p>
             <p>
-              インフラ・決済・金融といった領域での深い経験はミドル層の差別化に有効です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              インフラ・決済・金融といった領域での深い経験はミドル層の差別化に有効です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -264,13 +264,13 @@ export default function GmoCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -291,7 +291,7 @@ export default function GmoCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">GMOへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">メガベンチャーへの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -305,7 +305,7 @@ export default function GmoCompanyPage() {
               { name: "技術面接の対策", href: "/knowledge/tech-interview/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

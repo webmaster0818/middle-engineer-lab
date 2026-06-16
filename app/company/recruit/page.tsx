@@ -124,7 +124,7 @@ export default function RecruitCompanyPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -132,7 +132,7 @@ export default function RecruitCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：リクルートはこんなエンジニアに向く</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-2">転職難易度：高め（大規模サービス・データ活用の経験）</p>
             <p className="text-sm text-blue-900 leading-relaxed">
               国内最大級のプロダクト群と豊富なデータ資産が強みで、大規模Webサービスやデータ活用の経験が問われます。
@@ -162,17 +162,17 @@ export default function RecruitCompanyPage() {
         <section id="hiring" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">多彩なプロダクトでの開発経験</h3>
-              <p className="text-sm text-blue-700">SUUMO、ホットペッパー、じゃらん、Airシリーズなど国内最大級のプロダクト群を保有。各プロダクトで異なるドメインの技術課題に取り組め、社内での職務の幅が広いのが特徴です。</p>
+              <p className="text-sm text-petrol-deep">SUUMO、ホットペッパー、じゃらん、Airシリーズなど国内最大級のプロダクト群を保有。各プロダクトで異なるドメインの技術課題に取り組め、社内での職務の幅が広いのが特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">国内トップクラスのデータ資産</h3>
-              <p className="text-sm text-blue-700">公式採用ページでも「国内トップクラスのデータ資産を武器に」と打ち出しており、データドリブンな意思決定文化が根付いています。データ・MLエンジニアの活躍フィールドが広い環境です。</p>
+              <p className="text-sm text-petrol-deep">公式採用ページでも「国内トップクラスのデータ資産を武器に」と打ち出しており、データドリブンな意思決定文化が根付いています。データ・MLエンジニアの活躍フィールドが広い環境です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミッショングレード制と充実した休日</h3>
-              <p className="text-sm text-blue-700">年次より職務価値で評価するミッショングレード制を採用。年間休日145日（実質週休3日相当）、フレックス、リモート可と、働き方の条件が整っています。</p>
+              <p className="text-sm text-petrol-deep">年次より職務価値で評価するミッショングレード制を採用。年間休日145日（実質週休3日相当）、フレックス、リモート可と、働き方の条件が整っています。</p>
             </div>
           </div>
         </section>
@@ -222,8 +222,8 @@ export default function RecruitCompanyPage() {
             <p>
               市場感の参考として、doda「決定年収レポート」（2025年5月公表）ではIT・通信の平均決定年収が2024年度で486万円。
               リクルートはミッショングレード制で職務価値に応じて報酬が決まるため、高い価値の職務を担うほど水準は上がります。年代別の市場相場は
-              <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>・
-              <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>も参考にしてください。
+              <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・
+              <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も参考にしてください。
             </p>
           </div>
         </section>
@@ -233,9 +233,9 @@ export default function RecruitCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-2">
             <p>一般的には以下の流れで構成されます。面接回数・順序はポジション・時期により変わります。</p>
             <ul className="space-y-1.5 mt-2">
-              <li className="flex gap-2"><span className="text-blue-600">1.</span>公式採用ページまたはエージェント経由での応募・書類選考</li>
-              <li className="flex gap-2"><span className="text-blue-600">2.</span>複数回（2〜3回程度）の面接（現場マネージャー・部長クラス等が登場）</li>
-              <li className="flex gap-2"><span className="text-blue-600">3.</span>条件提示・オファー面談</li>
+              <li className="flex gap-2"><span className="text-petrol">1.</span>公式採用ページまたはエージェント経由での応募・書類選考</li>
+              <li className="flex gap-2"><span className="text-petrol">2.</span>複数回（2〜3回程度）の面接（現場マネージャー・部長クラス等が登場）</li>
+              <li className="flex gap-2"><span className="text-petrol">3.</span>条件提示・オファー面談</li>
             </ul>
             <p className="text-xs text-slate-400 mt-2">公開されていない具体的な質問内容は断定していません。最新は公式採用ページ（recruit.co.jp）でご確認ください。</p>
           </div>
@@ -246,9 +246,9 @@ export default function RecruitCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
             <p className="mb-3">公開情報・口コミの傾向では、技術力に加えて事業課題に技術でどう向き合うかという視点が問われやすいとされています。「自ら機会を創り出す」という同社のスタンスに沿った自走力も見られやすいポイントです。</p>
             <ul className="space-y-1.5">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>システム設計・アーキテクチャに関する技術的な議論</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>事業課題への技術的アプローチ・ビジネス感覚</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>自走力・データドリブンな意思決定の経験</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>システム設計・アーキテクチャに関する技術的な議論</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>事業課題への技術的アプローチ・ビジネス感覚</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>自走力・データドリブンな意思決定の経験</li>
             </ul>
             <p className="text-xs text-slate-400 mt-3">具体的な質問文や合否基準は公開情報からは断定できないため、創作した質問リストは掲載していません。</p>
           </div>
@@ -267,7 +267,7 @@ export default function RecruitCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700 leading-relaxed space-y-3">
             <p>ミッショングレード制で<strong>年次より職務価値が重視されるため、大規模サービスやデータ領域の専門性を持つ30代・40代は評価されやすい</strong>傾向です。社内に多様なプロダクトがあり、ドメインを変えながらキャリアを継続できる点もミドルの強みを活かしやすい要素です。</p>
-            <p>年間休日145日・フレックス・リモート可という働き方の条件は、家庭やライフプランを重視する層にとって大きな魅力です。一方で成果・自走への期待は高めなので、面談で配属チームの実態を確認しておくと安心です。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニア転職の現実</Link>も参考になります。</p>
+            <p>年間休日145日・フレックス・リモート可という働き方の条件は、家庭やライフプランを重視する層にとって大きな魅力です。一方で成果・自走への期待は高めなので、面談で配属チームの実態を確認しておくと安心です。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>も参考になります。</p>
           </div>
         </section>
 
@@ -279,13 +279,13 @@ export default function RecruitCompanyPage() {
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。職務価値の高いポジションのスカウトを受けやすい。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT・Web特化。提案スピードが速く、実務経験者への提案が豊富。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">エージェントの比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">転職エージェント比較</Link>もご覧ください。</p>
+          <p className="text-xs text-slate-400 mt-3">エージェントの比較は<Link href="/compare/agents/" className="text-petrol hover:underline">転職エージェント比較</Link>もご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -306,7 +306,7 @@ export default function RecruitCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">リクルートへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">メガベンチャー・大手テック企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section>
@@ -320,7 +320,7 @@ export default function RecruitCompanyPage() {
               { name: "ビジョナル/ビズリーチ の転職ガイド", href: "/company/visional/" },
               { name: "システム設計面接の対策", href: "/knowledge/system-design/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

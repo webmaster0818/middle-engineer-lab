@@ -203,7 +203,7 @@ export default function KasookuReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：副業・複業から始めて、相性を見ながら転職も視野に入れたい人向け</span>。一言でいえば「本業を持ちつつスキルを活かし、成長企業に副業から関わってみたい30代・40代」向けのマッチングサービスです。
@@ -219,7 +219,7 @@ export default function KasookuReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -256,27 +256,27 @@ export default function KasookuReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">カソークの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 副業・複業から転職へつなげられる導線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 副業・複業として企業に関わった後、双方が希望すれば正社員採用へ移行できる導線があるのが最大の特徴です。いきなり転職せず、まず副業で企業文化や仕事内容との相性を確かめたい人に向いています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. オンライン完結で在職中でも始めやすい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 登録から契約・稼働までオンライン中心で完結します。本業を持つ在職中のエンジニアでも、無理のない範囲で副業・複業として関わりやすい設計です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 個人は無料・スタートアップ案件が中心</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 個人（働く側）は無料で仲介手数料がかかりません。成長フェーズのスタートアップ企業が案件を出していることが多く、新しい技術や事業に副業から関わりやすいのも魅力です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 上場グループ運営の安心感</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 東証上場のユナイテッド株式会社グループ（カソーク株式会社）が運営しており、人材マッチングをコア事業に据えています。運営母体の事業基盤がはっきりしている点は、新興サービスを選ぶ際の安心材料になります。
               </p>
             </div>
@@ -333,9 +333,9 @@ export default function KasookuReview() {
             </p>
             <p>
               また副業収入は確定申告が必要になる場合があります。働き方の基礎は当サイトの
-              <Link href="/employment/freelance/" className="text-blue-600 hover:underline">フリーランス（業務委託）という働き方</Link>
+              <Link href="/employment/freelance/" className="text-petrol hover:underline">フリーランス（業務委託）という働き方</Link>
               や
-              <Link href="/employment/contractor/" className="text-blue-600 hover:underline">業務委託の基礎知識</Link>
+              <Link href="/employment/contractor/" className="text-petrol hover:underline">業務委託の基礎知識</Link>
               で整理しています。副業から相性を確かめ、将来的に転職や独立も視野に入れる、という段階的なキャリア設計と相性の良いサービスです。
             </p>
           </div>
@@ -360,7 +360,7 @@ export default function KasookuReview() {
             </p>
             <p>
               副業・複業はあくまで本業との両立が前提です。本業の転職そのものを進めたい場合は、当サイトの
-              <Link href="/review/" className="text-blue-600 hover:underline">レビュー一覧</Link>
+              <Link href="/review/" className="text-petrol hover:underline">レビュー一覧</Link>
               から特化型エージェントもあわせて検討してください。
             </p>
           </div>
@@ -403,7 +403,7 @@ export default function KasookuReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -440,16 +440,16 @@ export default function KasookuReview() {
             </table>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/itpropartners/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/itpropartners/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ITプロパートナーズ（週2-3日）の評判 →
             </Link>
-            <Link href="/review/freelance-start/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/freelance-start/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               フリーランススタート（案件検索）の評判 →
             </Link>
-            <Link href="/review/wantedly/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/wantedly/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Wantedly（カジュアル接点）の評判 →
             </Link>
-            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               フリーランスエージェント比較 →
             </Link>
           </div>
@@ -477,7 +477,7 @@ export default function KasookuReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは無料登録で、副業・複業から関われるエンジニア案件を確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
         </section>
@@ -487,7 +487,7 @@ export default function KasookuReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

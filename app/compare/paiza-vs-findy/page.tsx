@@ -118,7 +118,7 @@ export default function PaizaVsFindyPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -129,7 +129,7 @@ export default function PaizaVsFindyPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
               コーディングテストで実力を示し書類選考を飛ばすなら「paiza転職」、GitHubのアウトプットでスカウトを受けるなら「Findy」。
             </p>
@@ -171,9 +171,9 @@ export default function PaizaVsFindyPage() {
         <section id="skill" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキル評価の仕組みで比較（最大の違い）</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">paiza転職：コーディングテスト型</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 その場で解くプログラミングスキルチェックでS〜Eのランクを取得し、実力を可視化します。高ランクだと書類選考免除で応募できるため、学歴や職歴より「今の実装力」を評価されたい人に向きます。
               </p>
             </div>
@@ -192,9 +192,9 @@ export default function PaizaVsFindyPage() {
         <section id="jobs" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人数・企業数で比較</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">paiza転職</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 求人約5,100件（2026年4月更新・二次情報）・掲載1,600社以上。Web系・自社開発・スタートアップのプログラミング職を中心に、間口のやや広い構成です。
               </p>
             </div>
@@ -217,7 +217,7 @@ export default function PaizaVsFindyPage() {
               <h3 className="font-bold text-slate-800 mb-3">paiza転職が強い領域</h3>
               <div className="flex flex-wrap gap-2">
                 {["Web系", "自社開発", "スタートアップ", "プログラミング職全般", "コーディング力で勝負"].map((tag, i) => (
-                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700">{tag}</span>
+                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
               <p className="text-xs text-slate-500 mt-3">※ コーディングテストのランクで書類選考免除。実装力を試験で示したい人向け。</p>
@@ -270,9 +270,9 @@ export default function PaizaVsFindyPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">paiza転職が向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 <li>✓ コーディングテストで実力を示したい</li>
                 <li>✓ 書類選考を飛ばして応募したい</li>
                 <li>✓ Web系・自社開発に転職したい</li>
@@ -303,7 +303,7 @@ export default function PaizaVsFindyPage() {
                 { num: "3", title: "エージェント型で網を広げる", desc: "どちらも首都圏中心の傾向があるため、求人母数や地方・伴走支援を補いたい場合はレバテックキャリア等のエージェント型を併用すると安心です。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div>
                     <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                     <p className="text-sm text-slate-600">{item.desc}</p>
@@ -313,7 +313,7 @@ export default function PaizaVsFindyPage() {
             </div>
             <p className="text-xs text-slate-500 mt-4">
               スキル可視化型の比較は
-              <Link href="/compare/findy-vs-forkwell/" className="text-blue-600 hover:underline">Findy vs Forkwell</Link>
+              <Link href="/compare/findy-vs-forkwell/" className="text-petrol hover:underline">Findy vs Forkwell</Link>
               も参照してください。
             </p>
           </div>
@@ -359,7 +359,7 @@ export default function PaizaVsFindyPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -372,7 +372,7 @@ export default function PaizaVsFindyPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -211,15 +211,15 @@ export default function EmploymentTopPage() {
 
         {/* 結論ファースト */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：すべての差は「労働者か否か」から生まれる</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               正社員・契約社員・派遣はいずれも「労働契約」に基づく<strong>労働者</strong>であり、社会保険・雇用保険・労災・労働法の保護を受けます。一方、業務委託（フリーランス）は民法上の請負・準委任契約に基づく<strong>事業主</strong>で、原則これらの保護の外にいます。この線引きを理解すれば、社保・税・労災・安定性のすべての違いが一本の筋で説明できます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">1.</span>正社員・契約社員・派遣＝労働者（労働法の保護あり）／業務委託＝事業主（原則保護なし）。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">2.</span>「手取りが多い形態」は単価が高い業務委託に見えるが、社保・税の自己負担で目減りする構造。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">3.</span>2024年11月1日からフリーランスも労災に特別加入可能になり、保護の差が一部縮小した。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>正社員・契約社員・派遣＝労働者（労働法の保護あり）／業務委託＝事業主（原則保護なし）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>「手取りが多い形態」は単価が高い業務委託に見えるが、社保・税の自己負担で目減りする構造。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2024年11月1日からフリーランスも労災に特別加入可能になり、保護の差が一部縮小した。</li>
             </ul>
           </div>
         </section>
@@ -230,7 +230,7 @@ export default function EmploymentTopPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -344,7 +344,7 @@ export default function EmploymentTopPage() {
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed">
-            つまり、業務委託の高い単価は「会社が負担していた社会保険料・福利厚生・リスクを、自分で引き受ける対価」という側面があります。手取りを正しく比較するには、<strong>「単価 −（マージン）− 社会保険料 − 税 − 稼働できない期間」</strong>で実質手取りを試算し、正社員の手取り＋会社負担＋保障と並べる必要があります。詳しい損得比較は<Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスvs正社員</Link>で解説しています。
+            つまり、業務委託の高い単価は「会社が負担していた社会保険料・福利厚生・リスクを、自分で引き受ける対価」という側面があります。手取りを正しく比較するには、<strong>「単価 −（マージン）− 社会保険料 − 税 − 稼働できない期間」</strong>で実質手取りを試算し、正社員の手取り＋会社負担＋保障と並べる必要があります。詳しい損得比較は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員</Link>で解説しています。
           </p>
         </section>
 
@@ -355,13 +355,13 @@ export default function EmploymentTopPage() {
             雇用形態を考えるうえで、2024年に起きた2つの重要な制度変更を押さえておく価値があります。いずれも業務委託（フリーランス）の立場を従来より保護する方向の改正です。
           </p>
           <div className="space-y-4">
-            <div className="border border-blue-200 rounded-lg p-5">
+            <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">① 労災保険の特別加入（2024年11月1日施行）</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 これまで業種が限定されていたフリーランスの労災特別加入が、業種・職種を問わず可能になりました。ITエンジニアのフリーランスも対象で、業務中・通勤中のケガや病気に労災保険で備えられます。業務委託の最大の弱点だった「労災なし」が、任意加入で補える形になりました（出典：厚生労働省 特別加入制度ページ）。
               </p>
             </div>
-            <div className="border border-blue-200 rounded-lg p-5">
+            <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">② フリーランス新法（取引条件明示の義務化）</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 発注事業者がフリーランスに業務を委託する際、報酬額・業務内容・支払期日などの取引条件を書面・電磁的方法で明示することが義務化されました。報酬の支払遅延の禁止や、買いたたき・不当な発注内容の変更の禁止なども定められ、立場の弱いフリーランスの保護が強化されています。
@@ -384,7 +384,7 @@ export default function EmploymentTopPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <div className="flex items-center justify-between mb-2 flex-wrap gap-2">
                   <h3 className="font-bold text-slate-800">{d.title}</h3>
-                  <span className="text-xs font-bold text-blue-700 bg-blue-50 px-3 py-1 rounded-full shrink-0">{d.answer}</span>
+                  <span className="text-xs font-bold text-petrol-deep bg-petrol-soft px-3 py-1 rounded-full shrink-0">{d.answer}</span>
                 </div>
                 <p className="text-sm text-slate-600 leading-relaxed">{d.desc}</p>
               </div>
@@ -412,7 +412,7 @@ export default function EmploymentTopPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-4 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 <p className="text-sm font-bold text-slate-800 mb-1">{item.name} →</p>
                 <p className="text-xs text-slate-500">{item.desc}</p>
@@ -445,7 +445,7 @@ export default function EmploymentTopPage() {
           </p>
           <Link
             href="/compare/agents/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             IT転職エージェント比較を見る
           </Link>
@@ -470,7 +470,7 @@ export default function EmploymentTopPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

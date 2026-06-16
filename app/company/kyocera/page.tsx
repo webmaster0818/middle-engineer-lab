@@ -109,7 +109,7 @@ export default function KyoceraCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               京セラは<strong>電子部品・半導体関連部品・通信機器・組込まで技術領域が広い、多角化したメーカー大手</strong>です。年収は提出会社単体の全従業員平均で693万円（2025年3月期・有報）。製造業出身で電子部品・半導体・組込の専門性を持つミドルエンジニアにとって、これまでの業務知識が活きやすい環境です。
@@ -127,7 +127,7 @@ export default function KyoceraCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -153,17 +153,17 @@ export default function KyoceraCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">多角化した事業による幅広い技術領域</h3>
-              <p className="text-sm text-blue-700">京セラはファインセラミック・電子部品・半導体関連部品・通信機器・産業機械・スマートエナジーなど多角的な事業を持ち、ハードウェアから組込ソフト、社内DXまで技術領域が広いのが特徴です。配属事業によって求められるスキルセットが大きく異なります。</p>
+              <p className="text-sm text-petrol-deep">京セラはファインセラミック・電子部品・半導体関連部品・通信機器・産業機械・スマートエナジーなど多角的な事業を持ち、ハードウェアから組込ソフト、社内DXまで技術領域が広いのが特徴です。配属事業によって求められるスキルセットが大きく異なります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">半導体・電子部品の需要拡大を背景とした登用</h3>
-              <p className="text-sm text-blue-700">半導体・電子部品は中長期的に需要が拡大している領域で、製造業出身のミドルエンジニアの専門性が評価されやすい傾向があります。電子部品・半導体パッケージなどの実務経験は即戦力として親和性が高いと考えられます。</p>
+              <p className="text-sm text-petrol-deep">半導体・電子部品は中長期的に需要が拡大している領域で、製造業出身のミドルエンジニアの専門性が評価されやすい傾向があります。電子部品・半導体パッケージなどの実務経験は即戦力として親和性が高いと考えられます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">独自の経営理念・企業文化</h3>
-              <p className="text-sm text-blue-700">京セラフィロソフィに代表される独自の経営理念・企業文化を持つ点が特徴です（口コミ傾向）。技術力だけでなく、こうした文化への適性も中途入社後の活躍に影響しうるため、応募前に企業理念を理解しておくことが推奨されます。</p>
+              <p className="text-sm text-petrol-deep">京セラフィロソフィに代表される独自の経営理念・企業文化を持つ点が特徴です（口コミ傾向）。技術力だけでなく、こうした文化への適性も中途入社後の活躍に影響しうるため、応募前に企業理念を理解しておくことが推奨されます。</p>
             </div>
           </div>
         </section>
@@ -175,11 +175,11 @@ export default function KyoceraCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>電子部品・半導体パッケージ</strong>：コンデンサ・コネクタ・半導体実装用部品などの設計・開発領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>通信機器・端末</strong>：通信モジュール・端末の組込ソフトウェア開発領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>組込ソフトウェア</strong>：機器制御に関わる組込開発領域。一般にC/C++等が想定されるが公式の統一情報はなし</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>IoT／DX・社内システム</strong>：製造現場のIoT化・DX推進領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>電子部品・半導体パッケージ</strong>：コンデンサ・コネクタ・半導体実装用部品などの設計・開発領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>通信機器・端末</strong>：通信モジュール・端末の組込ソフトウェア開発領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>組込ソフトウェア</strong>：機器制御に関わる組込開発領域。一般にC/C++等が想定されるが公式の統一情報はなし</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>IoT／DX・社内システム</strong>：製造現場のIoT化・DX推進領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: 京セラ公式 事業情報・キャリア採用サイトで確認できる技術領域に基づく記述。推測の言語表は掲載していません。</p>
@@ -217,8 +217,8 @@ export default function KyoceraCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フローについて</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
-            <p>京セラは中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接が想定されますが、回数・内容・所要期間は募集職種や時期により変動します。最新の内容は<a href="https://www.kyocera.co.jp/recruit/career/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式キャリア採用サイト</a>でご確認ください。</p>
-            <p>具体的な面接質問リストも公式には公開されておらず、当ガイドでは<strong>出典のない面接質問や等級別年収表は掲載していません</strong>。応募時には、各募集要項で求められるスキル要件・選考プロセスを直接確認することをおすすめします。技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>も参考にしてください。</p>
+            <p>京セラは中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接が想定されますが、回数・内容・所要期間は募集職種や時期により変動します。最新の内容は<a href="https://www.kyocera.co.jp/recruit/career/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式キャリア採用サイト</a>でご確認ください。</p>
+            <p>具体的な面接質問リストも公式には公開されておらず、当ガイドでは<strong>出典のない面接質問や等級別年収表は掲載していません</strong>。応募時には、各募集要項で求められるスキル要件・選考プロセスを直接確認することをおすすめします。技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -228,10 +228,10 @@ export default function KyoceraCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>電子部品・半導体・通信・組込など、配属事業に合致する専門性と実績</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術力を基盤としたプロジェクトの実行力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>京セラフィロソフィに代表される経営理念・企業文化への適性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>長期的なキャリア形成・チームでの協働姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>電子部品・半導体・通信・組込など、配属事業に合致する専門性と実績</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術力を基盤としたプロジェクトの実行力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>京セラフィロソフィに代表される経営理念・企業文化への適性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>長期的なキャリア形成・チームでの協働姿勢</li>
           </ul>
         </section>
 
@@ -245,7 +245,7 @@ export default function KyoceraCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。京セラの全従業員平均（693万円）はこれを上回りますが、これは製造現場を含む全社平均であり、入社時の提示は職種・等級次第です。30代・40代は「自分が当てはまる職種・等級の水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              関連領域として<Link href="/skill/embedded/" className="text-blue-600 hover:underline">組込エンジニアの転職</Link>や<Link href="/industry/manufacturing/" className="text-blue-600 hover:underline">製造業エンジニアの転職</Link>、<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              関連領域として<Link href="/skill/embedded/" className="text-petrol hover:underline">組込エンジニアの転職</Link>や<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業エンジニアの転職</Link>、<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -258,13 +258,13 @@ export default function KyoceraCompanyPage() {
               { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手メーカーの専門職・高年収ポジションのスカウトが届きやすい。" },
               { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">特定企業の求人保有状況は時期により変動します。複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">特定企業の求人保有状況は時期により変動します。複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -285,7 +285,7 @@ export default function KyoceraCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">京セラへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">電子部品・半導体・組込領域の求人に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -299,7 +299,7 @@ export default function KyoceraCompanyPage() {
               { name: "製造業エンジニアの転職", href: "/industry/manufacturing/" },
               { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

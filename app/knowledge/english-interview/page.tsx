@@ -148,7 +148,7 @@ export default function EnglishInterviewPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -159,7 +159,7 @@ export default function EnglishInterviewPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：英語面接の準備方針</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               英語面接で評価されるのは、<strong>完璧な英語ではなく「技術と経験が論理的に伝わるか」</strong>です。頻出質問の回答をキーフレーズで準備し、声に出して反復練習することが、最も効果の高い対策です。
             </p>
@@ -175,7 +175,7 @@ export default function EnglishInterviewPage() {
           <div className="space-y-4">
             {steps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -201,7 +201,7 @@ export default function EnglishInterviewPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             内容の作り方は
-            <Link href="/knowledge/self-pr/" className="text-blue-600 hover:underline">自己PRの書き方</Link>
+            <Link href="/knowledge/self-pr/" className="text-petrol hover:underline">自己PRの書き方</Link>
             の4ステップを英語化すると整理しやすくなります。
           </p>
         </section>
@@ -278,22 +278,22 @@ export default function EnglishInterviewPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代が押さえるべき点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">英語は「伝われば十分」と割り切る</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 ミドル層は技術力と経験という強い土台があります。完璧な英語を目指して萎縮するより、自分の実績を具体的に語ることに集中しましょう。設計判断やリーダーシップの経験は、シンプルな英語でも十分に評価されます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">想定問答を声に出して仕上げる</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 準備量が自信に直結します。自己紹介・頻出質問・逆質問を声に出して反復し、本番で落ち着いて話せる状態を作っておくことが、最大の対策です。可能なら模擬面接やオンライン英会話で実戦感覚を養いましょう。
               </p>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             外資系の選考全体の流れは
-            <Link href="/knowledge/foreign-interview/" className="text-blue-600 hover:underline">外資系IT企業の面接対策</Link>
+            <Link href="/knowledge/foreign-interview/" className="text-petrol hover:underline">外資系IT企業の面接対策</Link>
             で解説しています。
           </p>
         </section>
@@ -322,7 +322,7 @@ export default function EnglishInterviewPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -342,7 +342,7 @@ export default function EnglishInterviewPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

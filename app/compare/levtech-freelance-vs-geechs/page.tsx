@@ -119,7 +119,7 @@ export default function LevtechFreelanceVsGeechsPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -130,7 +130,7 @@ export default function LevtechFreelanceVsGeechsPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
               高単価と案件量を重視するなら「レバテックフリーランス」、リモート中心の働き方と福利厚生の安心感を重視するなら「ギークスジョブ」。
             </p>
@@ -172,9 +172,9 @@ export default function LevtechFreelanceVsGeechsPage() {
         <section id="price" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">単価・案件数で比較</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レバテックフリーランス</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 公開案件1万件以上（公式系では約97,000件以上とも・二次情報）。利用者平均年収881万円・平均単価68万円・中央値65万円・最高145万円（いずれも二次情報）。エンド直（直請け）案件が中心で中間マージンが抑えられ、単価が高めという傾向です。
               </p>
             </div>
@@ -217,7 +217,7 @@ export default function LevtechFreelanceVsGeechsPage() {
               <h3 className="font-bold text-slate-800 mb-3">レバテックフリーランスが強い領域</h3>
               <div className="flex flex-wrap gap-2">
                 {["高単価", "案件量が豊富", "直請け案件", "IT/Web全般", "平均単価68万円（二次）"].map((tag, i) => (
-                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700">{tag}</span>
+                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
               <p className="text-xs text-slate-500 mt-3">※ 実務経験者向け。エンド直案件中心で単価が高めという傾向。</p>
@@ -270,9 +270,9 @@ export default function LevtechFreelanceVsGeechsPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">レバテックフリーランスが向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 <li>✓ 高単価の案件を狙いたい</li>
                 <li>✓ 案件量を比較して選びたい</li>
                 <li>✓ 直請け案件で単価を最大化したい</li>
@@ -303,7 +303,7 @@ export default function LevtechFreelanceVsGeechsPage() {
                 { num: "3", title: "提示単価を手取りベースで比較", desc: "両社ともマージン非公表のため、面談で手取りベースの単価と契約形態を確認し、提示条件を突き合わせて最良の案件を選びます。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div>
                     <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                     <p className="text-sm text-slate-600">{item.desc}</p>
@@ -313,7 +313,7 @@ export default function LevtechFreelanceVsGeechsPage() {
             </div>
             <p className="text-xs text-slate-500 mt-4">
               マージンの透明性を重視するなら
-              <Link href="/compare/pe-bank-vs-levtech-freelance/" className="text-blue-600 hover:underline">PE-BANK vs レバテックフリーランス</Link>
+              <Link href="/compare/pe-bank-vs-levtech-freelance/" className="text-petrol hover:underline">PE-BANK vs レバテックフリーランス</Link>
               も参照してください。
             </p>
           </div>
@@ -359,7 +359,7 @@ export default function LevtechFreelanceVsGeechsPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめサービスランキングを見る
           </Link>
@@ -372,7 +372,7 @@ export default function LevtechFreelanceVsGeechsPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

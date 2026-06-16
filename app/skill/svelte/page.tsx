@@ -119,7 +119,7 @@ export default function SvelteSkillPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -130,7 +130,7 @@ export default function SvelteSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Svelteエンジニアの転職市場の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Svelteは「将来有望だが求人母数はまだ少ない新興スキル」です。</strong>Svelte単体で転職を狙うより、React/Vue/TypeScriptなどメインスキルを土台にし、Svelteを「新技術を素早く習得できる証明」として添えるのが現実的な戦い方です。
             </p>
@@ -192,7 +192,7 @@ export default function SvelteSkillPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2 text-sm">{item.tier}</h3>
                 <p className="text-xs text-slate-600 mb-2 leading-relaxed">{item.req}</p>
-                <p className="text-xs text-blue-600">{item.note}</p>
+                <p className="text-xs text-petrol">{item.note}</p>
               </div>
             ))}
           </div>
@@ -234,25 +234,25 @@ export default function SvelteSkillPage() {
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。新興技術を扱う企業の提案にも対応しやすいのが利点です。
               </p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 年収750万円以上を中心としたハイクラス・スカウト型。フロントアーキテクトやテックリード級の求人・スカウトに出会いやすいのが特徴です。
               </p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強み。新技術に積極的なWeb系スタートアップの求人を探したい場合の選択肢になります。
               </p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">Geeklyの詳細レビュー →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            エージェント各社の比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">転職エージェント比較</Link>も参照してください。
+            エージェント各社の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">転職エージェント比較</Link>も参照してください。
           </p>
         </section>
 
@@ -266,7 +266,7 @@ export default function SvelteSkillPage() {
               { num: "3", title: "技術選定に積極的な企業を狙う", desc: "Svelteを採用する企業は技術選定に前向きなことが多く、特定フレームワーク経験より『最適な技術を選び使える力』を評価する傾向があります。エージェントに志向を伝え、そうした企業を紹介してもらうのが近道です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -293,7 +293,7 @@ export default function SvelteSkillPage() {
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            年代別の戦略は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>も参考にしてください。
+            年代別の戦略は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>も参考にしてください。
           </p>
         </section>
 
@@ -311,7 +311,7 @@ export default function SvelteSkillPage() {
               <strong>③ メインスキルの補強として位置づける。</strong>Svelteは「これ一本」で食べていく技術というより、フロント技術の引き出しを増やし、技術選定の視野を広げる学習として有効です。主軸のReact/Vue/TypeScriptを深めつつ、Svelteで比較の視点を持つのがミドル層に向いた使い方です。
             </p>
             <p>
-              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
+              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -340,7 +340,7 @@ export default function SvelteSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -360,7 +360,7 @@ export default function SvelteSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

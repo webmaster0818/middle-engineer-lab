@@ -164,7 +164,7 @@ export default function HiroshimaAreaPage() {
           ]}
         />
 
-        <section className="mb-10 bg-blue-50 border border-blue-100 rounded-xl p-6">
+        <section className="mb-10 bg-petrol-soft border border-blue-100 rounded-xl p-6">
           <h2 className="text-lg font-bold text-blue-900 mb-3">結論：広島はこう攻める</h2>
           <ul className="space-y-2 text-sm text-blue-900">
             <li>① <strong>地元勤務とフルリモートを併走</strong>させると選択肢が一気に増える。地元求人だけに絞らない。</li>
@@ -175,7 +175,7 @@ export default function HiroshimaAreaPage() {
 
         <nav className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ul className="space-y-1.5 text-sm text-blue-700">
+          <ul className="space-y-1.5 text-sm text-petrol-deep">
             <li><a href="#market" className="hover:underline">広島・中国地方IT転職市場の特徴</a></li>
             <li><a href="#areas" className="hover:underline">エリア・働き方別の求人傾向</a></li>
             <li><a href="#strategy" className="hover:underline">広島での転職の進め方</a></li>
@@ -209,7 +209,7 @@ export default function HiroshimaAreaPage() {
               <h3 className="font-bold text-slate-800 mb-2">3. フルリモートで首都圏求人にアクセス可能</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 オンライン面接の定着で、広島在住のまま首都圏企業にフルリモートで入社する道が現実的になりました。地元求人だけでは年収・職種の選択肢が限られる場面でも、フルリモート前提の求人を併せて探すことで市場が大きく広がります。地方在住者ならではの戦略は
-                <Link href="/area/remote/" className="text-blue-600 hover:underline">地方在住×フルリモート転職の戦略</Link>
+                <Link href="/area/remote/" className="text-petrol hover:underline">地方在住×フルリモート転職の戦略</Link>
                 で詳しく解説しています。
               </p>
             </div>
@@ -251,23 +251,23 @@ export default function HiroshimaAreaPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">1</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
                 <p className="text-sm text-slate-600"><strong>働き方の軸を先に決める:</strong> 「地元出社」「ハイブリッド」「フルリモートで首都圏企業」のどれを優先するかを最初に決める。これで応募先の母集団が大きく変わる。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">2</span>
-                <p className="text-sm text-slate-600"><strong>職務経歴を棚卸し:</strong> 担当領域・規模・役割（設計/実装/リーダー）を整理。製造業DXやSIerでは上流・マネジメント経験が刺さりやすい。<Link href="/knowledge/self-analysis/" className="text-blue-600 hover:underline">自己分析の進め方</Link>も参考に。</p>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
+                <p className="text-sm text-slate-600"><strong>職務経歴を棚卸し:</strong> 担当領域・規模・役割（設計/実装/リーダー）を整理。製造業DXやSIerでは上流・マネジメント経験が刺さりやすい。<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析の進め方</Link>も参考に。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">3</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
                 <p className="text-sm text-slate-600"><strong>IT特化エージェントへ登録:</strong> 地方は求人が分散しやすいため、全国型のIT特化エージェントを軸に。エリアと働き方の希望を初回面談で明確に伝える。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">4</span>
-                <p className="text-sm text-slate-600"><strong>2〜3社を併用:</strong> 1社の求人だけでは地方は母数が足りないことがある。複数社を併用して比較材料を増やす。<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェント併用のコツ</Link>を参照。</p>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">4</span>
+                <p className="text-sm text-slate-600"><strong>2〜3社を併用:</strong> 1社の求人だけでは地方は母数が足りないことがある。複数社を併用して比較材料を増やす。<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェント併用のコツ</Link>を参照。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">5</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">5</span>
                 <p className="text-sm text-slate-600"><strong>在職中に進める:</strong> 地方は選考機会が限られるため、焦りからの妥協を避けるためにも在職中に進めるのが安全。</p>
               </div>
             </div>
@@ -289,7 +289,7 @@ export default function HiroshimaAreaPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
             一般に地方は首都圏よりやや低めの提示になる傾向があります。一方で、フルリモートで首都圏企業の求人に就けば年代別の全国水準に近づけられます。広島の生活コストは首都圏より低いため、同じ年収でも可処分所得の面で有利になりやすい点も考慮材料です。年収交渉の進め方は
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>
             を参考にしてください。
           </p>
         </section>
@@ -301,10 +301,10 @@ export default function HiroshimaAreaPage() {
           </p>
           <div className="space-y-4">
             {agents.map((a, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {a.name}</h3>
-                <p className="text-sm text-blue-700 leading-relaxed mb-2">{a.point}</p>
-                <Link href={a.href} className="text-sm font-medium text-blue-700 hover:underline">
+                <p className="text-sm text-petrol-deep leading-relaxed mb-2">{a.point}</p>
+                <Link href={a.href} className="text-sm font-medium text-petrol-deep hover:underline">
                   {a.name}の詳細レビューを見る →
                 </Link>
               </div>
@@ -322,7 +322,7 @@ export default function HiroshimaAreaPage() {
               <h3 className="font-bold text-slate-800 mb-2">30代：経験を武器に選択肢を広げる</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 30代は実務経験と伸びしろのバランスが良く、地方でも歓迎されやすい層です。製造業DXやSIerの中核ポジション、社内SEのリーダー候補など、任せられる役割の幅が広いのが強み。地元勤務とフルリモートを併走させ、年収と働き方の両方を比較したうえで決めると後悔が少なくなります。
-                <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職戦略</Link>
+                <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職戦略</Link>
                 も参考に。
               </p>
             </div>
@@ -330,9 +330,9 @@ export default function HiroshimaAreaPage() {
               <h3 className="font-bold text-slate-800 mb-2">40代：マネジメント・要件定義が評価される</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 40代は求人数こそ絞られますが、製造業DXや社内DX推進、SIerの上流など「人と要件をまとめる」ポジションでは経験が直接評価されます。プレイヤーとしての実装力だけでなく、プロジェクトを前に進めた実績を具体的に語れるかが分かれ目です。
-                <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職戦略</Link>
+                <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職戦略</Link>
                 や
-                <Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代転職のリアル</Link>
+                <Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代転職のリアル</Link>
                 も確認しておきましょう。
               </p>
             </div>
@@ -361,7 +361,7 @@ export default function HiroshimaAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -374,7 +374,7 @@ export default function HiroshimaAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

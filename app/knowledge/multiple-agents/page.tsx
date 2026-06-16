@@ -172,7 +172,7 @@ export default function MultipleAgentsPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -182,7 +182,7 @@ export default function MultipleAgentsPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：2〜3社の併用が現実的</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               IT特化型1〜2社＋総合型/スカウト型1社の<strong>2〜3社</strong>が、求人の幅・担当者の比較・管理のしやすさのバランスが取れる現実解です。
@@ -205,7 +205,7 @@ export default function MultipleAgentsPage() {
                 <p className="text-sm text-slate-600 mt-1">求人の幅が狭く、担当者の良し悪しを比較できない。提案が偏る。</p>
               </div>
               <div className="text-center">
-                <p className="text-3xl font-bold text-blue-600">2〜3社</p>
+                <p className="text-3xl font-bold text-petrol">2〜3社</p>
                 <p className="text-sm text-slate-600 mt-1">求人の幅と担当者比較を確保しつつ、連絡管理も現実的に回せる。</p>
               </div>
               <div className="text-center">
@@ -220,9 +220,9 @@ export default function MultipleAgentsPage() {
         <section id="merit" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">併用のメリット・デメリット</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+            <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-5">
               <h3 className="font-bold text-blue-800 mb-3">メリット</h3>
-              <ul className="text-sm text-blue-700 space-y-2">
+              <ul className="text-sm text-petrol-deep space-y-2">
                 <li>・各社の非公開求人を横断でき、求人カバー率が上がる</li>
                 <li>・担当者の技術理解・対応速度を比較してメインを選べる</li>
                 <li>・複数オファーが交渉材料になり年収交渉を有利に進めやすい</li>
@@ -255,7 +255,7 @@ export default function MultipleAgentsPage() {
                 <p className="text-sm text-slate-600 leading-relaxed mb-2">{p.note}</p>
                 <div className="flex flex-wrap gap-2">
                   {p.links.map((l) => (
-                    <Link key={l.href} href={l.href} className="text-xs text-blue-600 hover:underline">
+                    <Link key={l.href} href={l.href} className="text-xs text-petrol hover:underline">
                       {l.name}の評判 →
                     </Link>
                   ))}
@@ -264,7 +264,7 @@ export default function MultipleAgentsPage() {
             ))}
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            自分のタイプの選び方は<Link href="/knowledge/how-to-choose/" className="text-blue-600 hover:underline">エージェントの選び方</Link>、年代別の比較は<Link href="/compare/30s-agents/" className="text-blue-600 hover:underline">30代向け比較</Link>・<Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向け比較</Link>を参照してください。
+            自分のタイプの選び方は<Link href="/knowledge/how-to-choose/" className="text-petrol hover:underline">エージェントの選び方</Link>、年代別の比較は<Link href="/compare/30s-agents/" className="text-petrol hover:underline">30代向け比較</Link>・<Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向け比較</Link>を参照してください。
           </p>
         </section>
 
@@ -355,7 +355,7 @@ export default function MultipleAgentsPage() {
               40代はマネジメント経験や専門領域が評価軸になるため、ハイクラス・スカウト型（ビズリーチ等）を1枠入れて市場価値を測りつつ、特化型で技術面を補う併用が有効です。レバテック公表の年代別平均年収では正社員SE 40代 約618万円、年収1,000万円以上の割合は40代で12.67%（2025年・ガイド記事）で、複数オファーは年収交渉の材料になります。
             </p>
             <p>
-              年代別の実態は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>も参考にしてください。
+              年代別の実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>も参考にしてください。
             </p>
           </div>
         </section>
@@ -384,7 +384,7 @@ export default function MultipleAgentsPage() {
           </p>
           <Link
             href="/compare/agents/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             IT転職エージェント10社比較を見る
           </Link>
@@ -405,7 +405,7 @@ export default function MultipleAgentsPage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -199,7 +199,7 @@ export default function LaprasReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：技術記事・OSS・登壇など『発信』が多い人の実力可視化に強い</span>。一言でいえば「Web全体にアウトプットがあり、GitHubだけでなく発信全体で評価されたいエンジニア」向けのスカウト型サービスです。
@@ -215,7 +215,7 @@ export default function LaprasReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -234,16 +234,16 @@ export default function LaprasReview() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
               LAPRASは、担当アドバイザーが求人を提案するエージェント型ではなく、AIが解析したあなたの発信を見た企業からスカウトが届くスカウト型です。担当が提案する
-              <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               のようなエージェント型とは、求人にたどり着く経路が根本的に異なります。
             </p>
             <p>
               同じスカウト・可視化系でも評価軸が違う点が重要です。<span className="font-bold text-slate-700">LAPRASはWeb全体の発信（GitHub・Qiita・note・X・connpass）をAI解析</span>するのに対し、
-              <Link href="/review/findy/" className="text-blue-600 hover:underline">Findy</Link>
+              <Link href="/review/findy/" className="text-petrol hover:underline">Findy</Link>
               はGitHub中心のスキル偏差値、
-              <Link href="/review/forkwell/" className="text-blue-600 hover:underline">Forkwell</Link>
+              <Link href="/review/forkwell/" className="text-petrol hover:underline">Forkwell</Link>
               はポートフォリオ＋コミュニティが軸です。FindyがGitHubに閉じるのに対し、LAPRASは記事・登壇まで含めて評価する点が最大の差別化です。さらにスキルチェックの解答で評価する
-              <Link href="/review/paiza/" className="text-blue-600 hover:underline">paiza</Link>
+              <Link href="/review/paiza/" className="text-petrol hover:underline">paiza</Link>
               とも入り口が異なります。
             </p>
           </div>
@@ -279,27 +279,27 @@ export default function LaprasReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">LAPRASの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. Web全体の発信をAIが自動解析</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 GitHubだけでなくQiita・note・X・connpassなどWeb上の発信をAIが自動でクロールし、ポートフォリオを生成します。GitHub中心のFindyと違い、技術記事や登壇など幅広いアウトプットを評価に乗せられるのが最大の強みです。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 手間をかけずに実績がまとまる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 自動クロールにより、自分で職務経歴やポートフォリオを一から作らなくても実績が整理されます。在職中で時間が限られるミドル層にとって、負担が軽い点は実用的です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. マッチ精度と立ち位置の可視化</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 発信内容を踏まえたスカウトが届くため、技術領域や関心に合った打診が来やすい傾向があります。スコア（平均3.0・上位約4%が3.5以上とされる二次情報）で市場での立ち位置を把握でき、定点観測にも使えます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 求職者は無料</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 求職者の利用は無料です（確認できた範囲）。費用は採用企業側が負担します。発信がある人ほどリスクなく市場評価を試せます。
               </p>
             </div>
@@ -356,22 +356,22 @@ export default function LaprasReview() {
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
               技術記事や個人開発、登壇を続けている人なら、発信がそのままポートフォリオ化され、関心領域に合った企業から声がかかりやすい年代です。GitHub中心の
-              <Link href="/review/findy/" className="text-blue-600 hover:underline">Findy</Link>
+              <Link href="/review/findy/" className="text-petrol hover:underline">Findy</Link>
               と併用すると、評価軸を広げられます。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
               長年のアウトプット（技術ブログ・登壇・OSS）が蓄積している人ほど、年齢より発信内容で評価されやすいのが利点です。書類選考での年齢ハンデを、発信の実績で補えるのは40代にとって心強い面です。一方、求人が首都圏のWeb自社開発に偏るため、求人の幅は
-              <Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向けエージェント</Link>
+              <Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向けエージェント</Link>
               で補完するのが堅実。マネジメント軸で上を狙うなら
-              <Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けサービス</Link>
+              <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けサービス</Link>
               も検討してください。
             </p>
             <p>
               いずれの年代でも、LAPRAS単独に依存せず、
-              <Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウト型サービスの使い方</Link>
+              <Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウト型サービスの使い方</Link>
               や
-              <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェント併用のコツ</Link>
+              <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェント併用のコツ</Link>
               を踏まえて使うのがおすすめです。
             </p>
           </div>
@@ -414,7 +414,7 @@ export default function LaprasReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -431,16 +431,16 @@ export default function LaprasReview() {
             LAPRASと近い領域のサービスは、評価軸の違いを押さえて使い分けると効果的です。LAPRASは<span className="font-bold">Web全体の発信のAI解析</span>、Findyは<span className="font-bold">GitHubのスキル偏差値</span>、Forkwellは<span className="font-bold">ポートフォリオ＋コミュニティ</span>が軸です。技術記事や登壇など発信が幅広いならLAPRAS、GitHub活動が豊富ならFindy、コミュニティとの接点を重視するならForkwell、という整理が目安になります。LAPRASとFindyは評価する発信の範囲が異なるため、併用すると機会を広げられます。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/findy/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/findy/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Findyの評判・口コミ →
             </Link>
-            <Link href="/review/forkwell/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/forkwell/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Forkwellの評判・口コミ →
             </Link>
-            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテックキャリアの評判・口コミ →
             </Link>
-            <Link href="/compare/30s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/30s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               30代エンジニア向けエージェント比較 →
             </Link>
           </div>
@@ -468,7 +468,7 @@ export default function LaprasReview() {
           <p className="text-blue-100 text-sm mb-4">
             これまでの発信が自動でポートフォリオに。市場での立ち位置を確かめてみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
         </section>
@@ -478,7 +478,7 @@ export default function LaprasReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

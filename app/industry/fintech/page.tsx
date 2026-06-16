@@ -142,7 +142,7 @@ export default function FintechPage() {
           <ul className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -153,7 +153,7 @@ export default function FintechPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：フィンテック転職は現実的か</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
               <span className="font-bold text-blue-800">結論：Web系・バックエンドの経験者にとって、フィンテック転職は十分現実的です。</span>
               使う技術スタックがWeb開発と重なる一方、決済・口座といった領域では堅牢性やセキュリティがより厳しく問われます。
@@ -241,7 +241,7 @@ export default function FintechPage() {
                 {skills.map(([s, j, d], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 border-t border-slate-200 align-top">{s}</th>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-t border-slate-200 align-top whitespace-nowrap">{j}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-t border-slate-200 align-top whitespace-nowrap">{j}</td>
                     <td className="px-4 py-3 text-slate-600 border-t border-slate-200">{d}</td>
                   </tr>
                 ))}
@@ -250,9 +250,9 @@ export default function FintechPage() {
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
             ポイントは「中核スキル（バックエンド・API・クラウド）で土俵に立ち、差別化要素（セキュリティ・規制知識・ML）で抜きん出る」という見せ方です。職務経歴書では、扱ったデータの重要度や可用性要件、セキュリティ対応の実績を具体化すると説得力が増します。関連スキルは
-            <Link href="/skill/security/" className="text-blue-600 hover:underline">セキュリティ</Link>・
-            <Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS</Link>・
-            <Link href="/skill/go/" className="text-blue-600 hover:underline">Go</Link>
+            <Link href="/skill/security/" className="text-petrol hover:underline">セキュリティ</Link>・
+            <Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>・
+            <Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>
             のページも参考にしてください。
           </p>
         </section>
@@ -310,7 +310,7 @@ export default function FintechPage() {
                 ].map(([k, v, src], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 border-t border-slate-200 align-top">{k}</th>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-t border-slate-200 align-top whitespace-nowrap">{v}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-t border-slate-200 align-top whitespace-nowrap">{v}</td>
                     <td className="px-4 py-3 text-slate-500 border-t border-slate-200 text-xs align-top">{src}</td>
                   </tr>
                 ))}
@@ -319,7 +319,7 @@ export default function FintechPage() {
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
             年収を上げる現実的な手段は、(1) 中核スキルで応募できる幅を広げる、(2) セキュリティや規制対応など差別化要素を積み上げる、(3) 複数エージェントで提示額を比較し交渉材料にする、の3点です。詳しくは
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">エンジニア転職で年収は上がるか</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">エンジニア転職で年収は上がるか</Link>
             も参考にしてください。
           </p>
         </section>
@@ -335,19 +335,19 @@ export default function FintechPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{name}</h3>
                 <p className="text-sm text-slate-600 mb-2">{desc}</p>
-                <p className="text-xs text-blue-700">向いている人：{fit}</p>
+                <p className="text-xs text-petrol-deep">向いている人：{fit}</p>
               </div>
             ))}
           </div>
           <p className="text-slate-500 leading-relaxed text-xs mt-4">
             個社の特徴は
-            <Link href="/company/moneyforward/" className="text-blue-600 hover:underline">マネーフォワード</Link>・
-            <Link href="/company/freee/" className="text-blue-600 hover:underline">freee</Link>・
-            <Link href="/company/plaid/" className="text-blue-600 hover:underline">Plaid</Link>・
-            <Link href="/company/layerx/" className="text-blue-600 hover:underline">LayerX</Link>・
-            <Link href="/company/paypay/" className="text-blue-600 hover:underline">PayPay</Link>・
-            <Link href="/company/sbi/" className="text-blue-600 hover:underline">SBI</Link>・
-            <Link href="/company/jcb/" className="text-blue-600 hover:underline">JCB</Link>
+            <Link href="/company/moneyforward/" className="text-petrol hover:underline">マネーフォワード</Link>・
+            <Link href="/company/freee/" className="text-petrol hover:underline">freee</Link>・
+            <Link href="/company/plaid/" className="text-petrol hover:underline">Plaid</Link>・
+            <Link href="/company/layerx/" className="text-petrol hover:underline">LayerX</Link>・
+            <Link href="/company/paypay/" className="text-petrol hover:underline">PayPay</Link>・
+            <Link href="/company/sbi/" className="text-petrol hover:underline">SBI</Link>・
+            <Link href="/company/jcb/" className="text-petrol hover:underline">JCB</Link>
             の各ページも参考にしてください。
           </p>
         </section>
@@ -363,7 +363,7 @@ export default function FintechPage() {
               { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録。求人と担当者を比較し、市場価値を客観的に把握する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.step}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -377,27 +377,27 @@ export default function FintechPage() {
         <section id="midlife" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の深さと幅を作る</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 バックエンドやインフラの実装力を磨きつつ、セキュリティや金融ドメインに踏み込めると、純粋なWebエンジニアにも代えがたい価値になります。技術への投資効果が最も高い年代です。
-                <Link href="/age/30s/" className="text-blue-700 underline">30代の転職事情</Link>
+                <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職事情</Link>
                 も参考にしてください。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：規制対応とマネジメントを軸に</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 大規模PJのマネジメントや規制対応の実績は、フィンテック企業や金融DX支援で評価されやすい強みです。実装だけで勝負するより、組み合わせの価値を打ち出すのが現実的です。
-                <Link href="/age/40s/" className="text-blue-700 underline">40代の転職事情</Link>
+                <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職事情</Link>
                 も確認しておきましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新技術だけを競うのではなく、金融×ITという希少性で差別化するのがミドル層の定石です。
-                <Link href="/knowledge/market-value/" className="text-blue-700 underline">自分の市場価値の測り方</Link>
+                <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
             </div>
@@ -416,7 +416,7 @@ export default function FintechPage() {
               { name: "ビズリーチ", desc: "ハイクラス・スカウト型。年収750万円以上の求人や管理職ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
               { name: "リクルートエージェントIT", desc: "国内最大級の求人数。フィンテックから事業会社まで幅広く比較したい場合に有効。", href: "/review/recruit-it/" },
             ].map((a, i) => (
-              <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
                 <p className="text-sm text-slate-600">{a.desc}</p>
               </Link>
@@ -446,7 +446,7 @@ export default function FintechPage() {
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -455,7 +455,7 @@ export default function FintechPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

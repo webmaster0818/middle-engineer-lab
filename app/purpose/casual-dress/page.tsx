@@ -83,7 +83,7 @@ export default function CasualDressPage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             「服装自由」を単なる服装の話で終わらせると、本質を見落とします。30-40代のミドルにとって重要なのは、服装そのものではなく<strong>その裏にある企業カルチャー</strong>です。ドレスコードの自由度は、年功序列か成果主義か、形式重視かフラットか——そうした社風を推測する<strong>代理指標</strong>として機能します。本記事は、服装自由の言葉に潜む罠（私服OK／私服でお越し／実態オフィスカジュアル）を整理し、服装を入口に社風を読み解く方法を解説します。単なる服装記事ではなく、企業選びの判断材料として服装自由を活用するのがねらいです。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- スーツ文化の堅い職場から、フラットな社風へ移りたい</li>
@@ -96,7 +96,7 @@ export default function CasualDressPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>「服装自由」の言葉に潜む罠</li>
             <li>エンジニア特有の事情（自社開発 vs 客先常駐）</li>
             <li>社風シグナルとしての読み解き方</li>
@@ -110,7 +110,7 @@ export default function CasualDressPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">表現</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">想定される実態</th>
                 </tr>
@@ -150,7 +150,7 @@ export default function CasualDressPage() {
           </div>
           <p className="text-xs text-slate-500 mt-3">
             SES・客先常駐の働き方を見直して自社開発へ移りたい場合は、
-            <Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIer・受託からWeb系への転職</Link>
+            <Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIer・受託からWeb系への転職</Link>
             も参考になります。
           </p>
         </section>
@@ -168,7 +168,7 @@ export default function CasualDressPage() {
               { num: "4", title: "面接官・社員の実際の服装を観察", desc: "求人票の表記と、実際にオフィスにいる人の服装が一致しているかを見ます。乖離があれば要注意です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -190,9 +190,9 @@ export default function CasualDressPage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             一方で正直に言えば、若手中心のラフな職場に入ると、服装だけでなくコミュニケーションのトーンや意思決定のスピードにも適応が必要で、最初は“自分だけ浮く”感覚を持つこともあります。だからこそ、服装自由を入口にしつつ、自分がその文化に馴染めるかを冷静に見極めることが大切です。社風そのものを軸に企業を選ぶなら、
-            <Link href="/purpose/growth/" className="text-blue-600 hover:underline">成長企業の見極め方</Link>
+            <Link href="/purpose/growth/" className="text-petrol hover:underline">成長企業の見極め方</Link>
             や
-            <Link href="/knowledge/startup-vs-enterprise/" className="text-blue-600 hover:underline">スタートアップと大企業の比較</Link>
+            <Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大企業の比較</Link>
             も合わせてご覧ください。
           </p>
         </section>
@@ -215,7 +215,7 @@ export default function CasualDressPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">フラットな社風の企業を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">服装の自由度だけでなく社風の実態まで把握したIT特化型エージェントが提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -229,7 +229,7 @@ export default function CasualDressPage() {
               { name: "副業OK求人の見極め方", href: "/purpose/side-job-ok/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

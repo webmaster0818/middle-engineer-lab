@@ -125,7 +125,7 @@ export default function SansanCompanyPage() {
           <ul className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -133,7 +133,7 @@ export default function SansanCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-3">結論：Rails/Kotlinの実務経験があり、複数プロダクトで技術の幅を広げたいエンジニア向き。難易度は中程度。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li className="flex gap-2"><span className="shrink-0">1.</span>「Sansan」「Bill One」など複数プロダクトで異なる技術課題に取り組め、社内異動でキャリアの幅を広げやすい。</li>
@@ -165,17 +165,17 @@ export default function SansanCompanyPage() {
         <section id="features" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マルチプロダクト戦略による技術的多様性</h3>
-              <p className="text-sm text-blue-700">「Sansan」「Bill One」「Contract One」「Eight」と複数プロダクトを展開。各プロダクトで異なる技術課題（言語・基盤も異なる）に取り組め、社内異動によってキャリアの幅を広げられます。急成長中のBill Oneなど、新規プロダクトの立ち上げ・拡大フェーズに関わるチャンスもあります。</p>
+              <p className="text-sm text-petrol-deep">「Sansan」「Bill One」「Contract One」「Eight」と複数プロダクトを展開。各プロダクトで異なる技術課題（言語・基盤も異なる）に取り組め、社内異動によってキャリアの幅を広げられます。急成長中のBill Oneなど、新規プロダクトの立ち上げ・拡大フェーズに関わるチャンスもあります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">OCR・画像処理・機械学習の活用</h3>
-              <p className="text-sm text-blue-700">名刺や請求書のデジタル化でOCR・画像処理・機械学習を活用しており、大量のビジネスデータを高精度に処理する技術的チャレンジがあります。研究開発（R&D）部門ではAI技術の研究も行われ、ML/データ系のバックグラウンドを活かせるポジションもあります。</p>
+              <p className="text-sm text-petrol-deep">名刺や請求書のデジタル化でOCR・画像処理・機械学習を活用しており、大量のビジネスデータを高精度に処理する技術的チャレンジがあります。研究開発（R&D）部門ではAI技術の研究も行われ、ML/データ系のバックグラウンドを活かせるポジションもあります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">アウトプットと技術研鑽を支援する文化</h3>
-              <p className="text-sm text-blue-700">Sansan Tech Blog（buildersbox）での技術発信や勉強会が活発で、OSS貢献・カンファレンス登壇の支援も行われています。フラットな組織で、メンバーレベルの提案を組織として取り込んでいくという社員の声も見られます。</p>
+              <p className="text-sm text-petrol-deep">Sansan Tech Blog（buildersbox）での技術発信や勉強会が活発で、OSS貢献・カンファレンス登壇の支援も行われています。フラットな組織で、メンバーレベルの提案を組織として取り込んでいくという社員の声も見られます。</p>
             </div>
           </div>
         </section>
@@ -253,7 +253,7 @@ export default function SansanCompanyPage() {
               ["内定", "選考期間は平均1ヶ月程度（希望により調整可）。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                 <div>
                   <p className="font-bold text-slate-800 text-sm">{title}</p>
                   <p className="text-sm text-slate-600">{desc}</p>
@@ -270,13 +270,13 @@ export default function SansanCompanyPage() {
             公式採用ページ・技術本部採用情報などの公開情報から読み取れる傾向です。質問文の再現や断定は避け、評価観点として整理します。
           </p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>アーキテクチャ設計・コードレビューに関する議論への対応力。</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>「出会いからイノベーションを生み出す」というミッションへの共感・カルチャーフィット。</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>Rails/Kotlin等での設計・実装力と、技術選定の意図を説明できるか。</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ML系ポジションでは画像処理・OCR・機械学習の知識と実装経験。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>アーキテクチャ設計・コードレビューに関する議論への対応力。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>「出会いからイノベーションを生み出す」というミッションへの共感・カルチャーフィット。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Rails/Kotlin等での設計・実装力と、技術選定の意図を説明できるか。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ML系ポジションでは画像処理・OCR・機械学習の知識と実装経験。</li>
           </ul>
           <p className="text-sm text-slate-600 mt-4">
-            面接全般の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策ガイド</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト攻略</Link>を参考にしてください。
+            面接全般の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策ガイド</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト攻略</Link>を参考にしてください。
           </p>
         </section>
 
@@ -316,10 +316,10 @@ export default function SansanCompanyPage() {
               平均年齢31.7歳と若い組織のため、40代はシニア寄りの立ち位置になります。アーキテクチャ設計やコードレビューの議論が選考で重視されることからも、設計力・レビュー力・チームをリードした経験を持つミドルが評価されやすいでしょう。OCR・画像処理・機械学習を扱う領域もあるため、データ/ML系のバックグラウンドを持つ30代・40代にも選択肢が広いのが特徴です。
             </p>
             <p>
-              一方で、営業文化の強さや独特のカルチャーへの適合が課題になる場合もあるため、カジュアル面談で現場の雰囲気を確かめることをおすすめします。年収の妥当性を見極めるには、<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">自分の市場価値の調べ方</Link>と<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>を押さえておくとよいでしょう。
+              一方で、営業文化の強さや独特のカルチャーへの適合が課題になる場合もあるため、カジュアル面談で現場の雰囲気を確かめることをおすすめします。年収の妥当性を見極めるには、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>と<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>を押さえておくとよいでしょう。
             </p>
             <p>
-              年代別の動向は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>、職務経歴書の書き方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の作り方</Link>も参考にしてください。
+              年代別の動向は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>、職務経歴書の書き方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の作り方</Link>も参考にしてください。
             </p>
           </div>
         </section>
@@ -332,19 +332,19 @@ export default function SansanCompanyPage() {
               { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイト。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすい。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが強みで、BtoB SaaS企業への転職実績が豊富。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">各社の特徴は<Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリアの評判</Link>などの個別レビューも参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">各社の特徴は<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリアの評判</Link>などの個別レビューも参考にしてください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Sansanへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">BtoB SaaS企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -373,7 +373,7 @@ export default function SansanCompanyPage() {
               { name: "技術面接の対策ガイド", href: "/knowledge/tech-interview/" },
               { name: "40代エンジニアの転職", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

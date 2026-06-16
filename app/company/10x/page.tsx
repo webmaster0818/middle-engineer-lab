@@ -66,7 +66,7 @@ export default function TenXCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高め（フルDart・EC/SCMドメインの即戦力志向）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・クライアント<strong>Flutter</strong>、サーバーも<strong>100% Dart</strong>という珍しい構成。Dart／Flutter経験者は直接活き、他言語経験者もキャッチアップ前提で対象になり得る。</li>
@@ -80,7 +80,7 @@ export default function TenXCompanyPage() {
         <nav aria-label="目次" className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ol>
         </nav>
 
@@ -99,9 +99,9 @@ export default function TenXCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ネットスーパーDXのプラットフォーム「Stailer」</h3><p className="text-sm text-blue-700">10Xは2017年設立で、小売事業者がネットスーパー／ネットドラッグストアを立ち上げ・運営できるプラットフォーム「Stailer」を提供しています。ECのフロントに留まらず、在庫・物流・店舗オペレーション（SCM）まで関わる複雑で社会的意義の大きいドメインが特徴です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">クライアントからサーバーまでフルDart</h3><p className="text-sm text-blue-700">10X最大の特徴は、クライアント（モバイルアプリ）をFlutterで開発するだけでなく、サーバーサイドも100% Dartで構築している点です。言語を統一することでコード共有・認知コスト低減・チーム間の流動性を高める狙いがあり、業界的にも珍しい技術選定として知られています。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">Flutter未経験からの採用事例も</h3><p className="text-sm text-blue-700">10XではFlutter／Dart未経験から入社した事例もあるとされています。言語そのものよりも、複雑なドメインを設計する力・他言語での実務経験・学習意欲が重視される傾向があり、Dart縛りが必ずしも参入障壁にならない点はミドルにとって重要です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ネットスーパーDXのプラットフォーム「Stailer」</h3><p className="text-sm text-petrol-deep">10Xは2017年設立で、小売事業者がネットスーパー／ネットドラッグストアを立ち上げ・運営できるプラットフォーム「Stailer」を提供しています。ECのフロントに留まらず、在庫・物流・店舗オペレーション（SCM）まで関わる複雑で社会的意義の大きいドメインが特徴です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">クライアントからサーバーまでフルDart</h3><p className="text-sm text-petrol-deep">10X最大の特徴は、クライアント（モバイルアプリ）をFlutterで開発するだけでなく、サーバーサイドも100% Dartで構築している点です。言語を統一することでコード共有・認知コスト低減・チーム間の流動性を高める狙いがあり、業界的にも珍しい技術選定として知られています。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">Flutter未経験からの採用事例も</h3><p className="text-sm text-petrol-deep">10XではFlutter／Dart未経験から入社した事例もあるとされています。言語そのものよりも、複雑なドメインを設計する力・他言語での実務経験・学習意欲が重視される傾向があり、Dart縛りが必ずしも参入障壁にならない点はミドルにとって重要です。</p></div>
           </div>
         </section>
 
@@ -110,15 +110,15 @@ export default function TenXCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下は10XのProduct Blog・公式採用情報で公開されている範囲の情報です。プロダクトの拡大に伴い構成は変化するため、最新は公式発信・募集要項でご確認ください。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クライアント</strong>：Flutter（Dart）でのモバイルアプリ開発</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>サーバー</strong>：100% Dart。クライアントとサーバーを同一言語で統一</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド</strong>：GCP（GKE＝Google Kubernetes Engine）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>データ</strong>：Firebase／Firestore、検索にElasticsearch</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>通信</strong>：gRPC によるサービス間通信</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>監視・運用</strong>：Datadog＋PagerDuty</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クライアント</strong>：Flutter（Dart）でのモバイルアプリ開発</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>サーバー</strong>：100% Dart。クライアントとサーバーを同一言語で統一</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：GCP（GKE＝Google Kubernetes Engine）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ</strong>：Firebase／Firestore、検索にElasticsearch</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>通信</strong>：gRPC によるサービス間通信</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>監視・運用</strong>：Datadog＋PagerDuty</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：10X Product Blog・公式採用情報。<Link href="/skill/flutter/" className="text-blue-600 hover:underline">Flutter／Dart</Link>・<Link href="/skill/gcp/" className="text-blue-600 hover:underline">GCP</Link>・<Link href="/skill/kubernetes/" className="text-blue-600 hover:underline">Kubernetes</Link>の各ガイドも市場動向の参考になります。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：10X Product Blog・公式採用情報。<Link href="/skill/flutter/" className="text-petrol hover:underline">Flutter／Dart</Link>・<Link href="/skill/gcp/" className="text-petrol hover:underline">GCP</Link>・<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>の各ガイドも市場動向の参考になります。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -144,10 +144,10 @@ export default function TenXCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・技術ドメインベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。公開されている技術スタック・事業ドメインから、評価されやすいと考えられるポイントを一般化して挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>複雑なドメイン（EC／SCM・在庫・物流）を抽象化し堅牢に設計する力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>Dart／Flutter経験（なくても他言語でのバックエンド・モバイル開発の実務）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>GCP（GKE）・gRPC・分散システムの設計・運用経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>新しい技術（フルDart）を前向きに学ぶ姿勢・カルチャーフィット</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>複雑なドメイン（EC／SCM・在庫・物流）を抽象化し堅牢に設計する力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>Dart／Flutter経験（なくても他言語でのバックエンド・モバイル開発の実務）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>GCP（GKE）・gRPC・分散システムの設計・運用経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>新しい技術（フルDart）を前向きに学ぶ姿勢・カルチャーフィット</li>
           </ul>
         </section>
 
@@ -164,7 +164,7 @@ export default function TenXCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>10Xの<strong>フルDart</strong>は、他社ではまず経験できない希少な技術選定です。30代・40代のミドルにとっては、すでに持っている設計力・ドメイン理解を土台に、Dart／Flutterという専門性を上乗せできる機会になります。Flutter未経験からの採用事例もあるとされるため、言語そのものより「複雑なドメインを堅牢に設計できるか」が問われる土俵です。</p>
             <p>EC／SCM（在庫・物流・店舗オペレーション）は業務理解が成果に直結する領域で、これまで小売・物流・基幹システムに関わってきたミドルの知見が活きやすい点も特徴です。一方で、フルDartは転職市場での横展開（他社での再利用）がしにくい側面があり、キャリアの可搬性を重視する場合は事前に整理しておきたいところです。非上場のため将来のIPOやストックオプションの扱いは公式の確定情報がなく、年収は提示額ベースで判断するのが現実的です。</p>
-            <p>SIerやSESから自社プロダクト開発へ移りたいミドルには<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWEB系への転職</Link>が、年収交渉・キャリア整理には<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>が参考になります。</p>
+            <p>SIerやSESから自社プロダクト開発へ移りたいミドルには<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWEB系への転職</Link>が、年収交渉・キャリア整理には<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>が参考になります。</p>
           </div>
         </section>
 
@@ -197,22 +197,22 @@ export default function TenXCompanyPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。小売のネットスーパー化・SCMのデジタル化は需要が拡大する領域で、10XはそのプラットフォーマーとしてStailerを展開しています。</p>
             <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均であり、10Xの実際の提示額は職種・等級で異なります（公式の年収一次情報は限定的）。</p>
-            <p>フルDartという独自性は、技術的好奇心の強いミドルにとって魅力ですが、キャリアの可搬性とのバランスは個々の価値観で判断するのが現実的です。<Link href="/skill/flutter/" className="text-blue-600 hover:underline">Flutterエンジニアの転職市場</Link>もあわせて確認してください。</p>
+            <p>フルDartという独自性は、技術的好奇心の強いミドルにとって魅力ですが、キャリアの可搬性とのバランスは個々の価値観で判断するのが現実的です。<Link href="/skill/flutter/" className="text-petrol hover:underline">Flutterエンジニアの転職市場</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">10X転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">10Xへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">スタートアップ・自社開発企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -223,7 +223,7 @@ export default function TenXCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "Ubieの転職ガイド", href: "/company/ubie/" }, { name: "カケハシの転職ガイド", href: "/company/kakehashi/" }, { name: "Flutterエンジニアの転職", href: "/skill/flutter/" }, { name: "GCPエンジニアの転職", href: "/skill/gcp/" }, { name: "SIerからWEB系への転職", href: "/industry/sier-to-web/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "Ubieの転職ガイド", href: "/company/ubie/" }, { name: "カケハシの転職ガイド", href: "/company/kakehashi/" }, { name: "Flutterエンジニアの転職", href: "/skill/flutter/" }, { name: "GCPエンジニアの転職", href: "/skill/gcp/" }, { name: "SIerからWEB系への転職", href: "/industry/sier-to-web/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

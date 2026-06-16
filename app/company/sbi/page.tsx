@@ -109,7 +109,7 @@ export default function SbiCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               SBIは<strong>金融×ITの掛け合わせで、ネット証券・銀行からWeb3まで幅広いフィンテック領域に携われる総合金融グループ</strong>です。可用性・セキュリティを重視した大規模システムの実務経験や、金融ドメイン知識が活きます。所属会社により技術・働き方が異なる点に注意が必要です。
@@ -127,7 +127,7 @@ export default function SbiCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -153,17 +153,17 @@ export default function SbiCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ネット証券・銀行を支える大規模金融システム</h3>
-              <p className="text-sm text-blue-700">SBI証券・ネット銀行などは膨大な取引を高い可用性で処理する必要があり、ミッションクリティカルな金融システムの開発・運用に携われます。品質・信頼性を重視する開発文化が特徴です。</p>
+              <p className="text-sm text-petrol-deep">SBI証券・ネット銀行などは膨大な取引を高い可用性で処理する必要があり、ミッションクリティカルな金融システムの開発・運用に携われます。品質・信頼性を重視する開発文化が特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">フィンテック・Web3への積極投資</h3>
-              <p className="text-sm text-blue-700">暗号資産・ブロックチェーン・デジタル資産など、新しい金融技術にグループとして積極的に参入していることを公式に発信しています。最新の金融技術に挑戦できる関連ポジションが存在します。</p>
+              <p className="text-sm text-petrol-deep">暗号資産・ブロックチェーン・デジタル資産など、新しい金融技術にグループとして積極的に参入していることを公式に発信しています。最新の金融技術に挑戦できる関連ポジションが存在します。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">グループ各社で多様なキャリア</h3>
-              <p className="text-sm text-blue-700">証券・銀行・保険・資産運用など多数のグループ会社があり、扱うドメイン・技術が幅広いのが特徴です。所属会社により開発スタイル・働き方が異なるため、応募時にどの会社・領域かを確認することが重要です。</p>
+              <p className="text-sm text-petrol-deep">証券・銀行・保険・資産運用など多数のグループ会社があり、扱うドメイン・技術が幅広いのが特徴です。所属会社により開発スタイル・働き方が異なるため、応募時にどの会社・領域かを確認することが重要です。</p>
             </div>
           </div>
         </section>
@@ -175,11 +175,11 @@ export default function SbiCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>バックエンド</strong>：Java、Python、Go</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>フロントエンド</strong>：TypeScript、React、JavaScript</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>インフラ</strong>：AWS、Google Cloud Platform、Docker、Kubernetes</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>データ・分析</strong>：各種RDB、DWH、データ分析基盤</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>暗号資産・Web3</strong>：ブロックチェーン関連技術（該当領域）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：Java、Python、Go</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：TypeScript、React、JavaScript</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：AWS、Google Cloud Platform、Docker、Kubernetes</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ・分析</strong>：各種RDB、DWH、データ分析基盤</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>暗号資産・Web3</strong>：ブロックチェーン関連技術（該当領域）</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: SBIグループ各社 公式 採用情報・技術ブログ（2026年6月時点）。所属会社・プロダクトにより技術構成は異なります。</p>
@@ -217,7 +217,7 @@ export default function SbiCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            SBIグループ各社の採用ページで案内されている一般的な流れです。最新の内容は<a href="https://www.sbigroup.co.jp/recruit/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">SBIグループ採用ページ</a>でご確認ください。
+            SBIグループ各社の採用ページで案内されている一般的な流れです。最新の内容は<a href="https://www.sbigroup.co.jp/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">SBIグループ採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考</li>
@@ -235,12 +235,12 @@ export default function SbiCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>大規模・高可用性システムを意識した設計・実装力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>金融ドメイン・規制業種ならではの品質／セキュリティ意識</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>事業・サービス理解と、ビジネス視点での技術選定</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>チーム・他部門との協働姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>大規模・高可用性システムを意識した設計・実装力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>金融ドメイン・規制業種ならではの品質／セキュリティ意識</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>事業・サービス理解と、ビジネス視点での技術選定</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>チーム・他部門との協働姿勢</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -253,7 +253,7 @@ export default function SbiCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。SBIホールディングス（持株会社単体）の平均（1,062万円）はこれを大きく上回りますが、これは持株会社単体・全社平均であり、実際の配属先となるグループ各社の体系とは異なります。30代・40代は「応募する会社・グレードの水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              30代40代では、クラウド（<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS</Link>）や<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-blue-600 hover:underline">AWS認定（SAA）</Link>などの資格や金融ドメイン知識を掛け合わせると評価につながりやすい領域です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              30代40代では、クラウド（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>）や<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定（SAA）</Link>などの資格や金融ドメイン知識を掛け合わせると評価につながりやすい領域です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -266,13 +266,13 @@ export default function SbiCompanyPage() {
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、金融×ITのミドル・シニア層の支援に定評。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型。金融・フィンテックのハイクラス求人が集まりやすい。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -293,7 +293,7 @@ export default function SbiCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">SBIグループへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">金融×ITの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -307,7 +307,7 @@ export default function SbiCompanyPage() {
               { name: "セキュリティエンジニアのスキル", href: "/skill/security/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

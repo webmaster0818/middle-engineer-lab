@@ -120,7 +120,7 @@ export default function InfrastructureSkillPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -128,7 +128,7 @@ export default function InfrastructureSkillPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：インフラ転職市場の攻め方</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               インフラエンジニアの転職は、<strong>「オンプレ運用」から「クラウド設計・自動化・信頼性」へ役割を上げて見せられるか</strong>で年収が変わります。攻め方は次の3点です。
             </p>
@@ -217,22 +217,22 @@ export default function InfrastructureSkillPage() {
         <section id="path" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスの選択肢</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">クラウドアーキテクト</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 AWS/Azure/GCP上のアーキテクチャ設計を担う方向。マルチクラウド戦略、コスト最適化、セキュリティ設計など全体最適の視点が求められます。AWS SAPなどの上位資格が武器になります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">SRE（Site Reliability Engineer）</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 サービスの信頼性をソフトウェアエンジニアリングで改善する方向。SLI/SLO設計、オブザーバビリティ、自動化を担います。Go/Pythonのコーディング力が必要です。
-                <Link href="/career/sre/" className="text-blue-700 underline ml-1">SRE転向ガイド</Link>も参考に。
+                <Link href="/career/sre/" className="text-petrol-deep underline ml-1">SRE転向ガイド</Link>も参考に。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">プラットフォームエンジニア</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 開発者の生産性を最大化する内部プラットフォームの構築を担う方向。Kubernetes基盤、CI/CD、開発者ポータルの設計・運用を行います。
               </p>
             </div>
@@ -248,21 +248,21 @@ export default function InfrastructureSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化。クラウドインフラ・SRE求人が豊富で、自社開発企業のインフラ求人も多く扱います。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
               <p className="text-sm text-slate-600 mb-2">国内最大級の求人数（IT公開求人110,840件・2026年5月22日時点・二次集計）。大手・金融のクラウド移行案件まで幅広く見られます。</p>
-              <Link href="/review/recruit-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
               <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型。クラウドアーキテクトやSREリード層を狙う場合に有効です。</p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数利用のコツ</Link>、選び方は<Link href="/knowledge/how-to-choose/" className="text-blue-600 hover:underline">転職エージェントの選び方</Link>を参考に。
+            併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>、選び方は<Link href="/knowledge/how-to-choose/" className="text-petrol hover:underline">転職エージェントの選び方</Link>を参考に。
           </p>
         </section>
 
@@ -276,7 +276,7 @@ export default function InfrastructureSkillPage() {
               { n: "STEP 4", t: "移行ストーリーで応募", d: "前職のオンプレ運用経験を『移行プロジェクトで活きる経験』として職務経歴書に落とし込む。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -285,7 +285,7 @@ export default function InfrastructureSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-blue-600 hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>。
           </p>
         </section>
 
@@ -299,7 +299,7 @@ export default function InfrastructureSkillPage() {
               年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%（2025年）。一方で「特定企業のレガシー運用に最適化されすぎた経験」は横展開しにくいため、クラウド・IaCという汎用スキルへ寄せておくのが転職市場での保険になります。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -314,7 +314,7 @@ export default function InfrastructureSkillPage() {
             <li>✓ 学んだことは小さな成果物にして可視化する</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            学習習慣は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>を参考に。
+            学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参考に。
           </p>
         </section>
 
@@ -340,7 +340,7 @@ export default function InfrastructureSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -360,7 +360,7 @@ export default function InfrastructureSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -373,8 +373,8 @@ export default function InfrastructureSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/classmethod/" className="text-blue-700 hover:underline">クラスメソッド</a></li><li><a href="/company/future/" className="text-blue-700 hover:underline">フューチャー（Future）</a></li><li><a href="/company/gmo-pepabo/" className="text-blue-700 hover:underline">GMOペパボ</a></li><li><a href="/company/monotaro/" className="text-blue-700 hover:underline">MonotaRO（モノタロウ）</a></li><li><a href="/company/nec/" className="text-blue-700 hover:underline">NEC</a></li><li><a href="/company/sakura-internet/" className="text-blue-700 hover:underline">さくらインターネット</a></li><li><a href="/company/sbi/" className="text-blue-700 hover:underline">SBIホールディングス</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/classmethod/" className="text-petrol-deep hover:underline">クラスメソッド</a></li><li><a href="/company/future/" className="text-petrol-deep hover:underline">フューチャー（Future）</a></li><li><a href="/company/gmo-pepabo/" className="text-petrol-deep hover:underline">GMOペパボ</a></li><li><a href="/company/monotaro/" className="text-petrol-deep hover:underline">MonotaRO（モノタロウ）</a></li><li><a href="/company/nec/" className="text-petrol-deep hover:underline">NEC</a></li><li><a href="/company/sakura-internet/" className="text-petrol-deep hover:underline">さくらインターネット</a></li><li><a href="/company/sbi/" className="text-petrol-deep hover:underline">SBIホールディングス</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

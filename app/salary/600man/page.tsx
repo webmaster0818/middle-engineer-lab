@@ -124,7 +124,7 @@ export default function Salary600Page() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -135,7 +135,7 @@ export default function Salary600Page() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収600万円の位置づけと到達条件</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収600万円は、経済産業省のITSSスキル標準レベルでみると<strong>L3（平均576.0万円）の後半からL4（726.1万円）の手前</strong>にあたります。公的統計でも、厚生労働省 job tagの「システムエンジニア（受託開発）」が平均578.5万円・平均年齢37.1歳とされ、600万円はそのやや上の位置です。
             </p>
@@ -166,9 +166,9 @@ export default function Salary600Page() {
                   <td className="px-4 py-3 border border-slate-200">499.2万円</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">まだ手前。土台となる水準</td>
                 </tr>
-                <tr className="bg-blue-50">
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">L3</td>
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">576.0万円</td>
+                <tr className="bg-petrol-soft">
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L3</td>
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">576.0万円</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">この後半が600万円帯</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
@@ -209,7 +209,7 @@ export default function Salary600Page() {
                 {jobsData.map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-4 py-3 border border-slate-200 font-medium">{row.job}</td>
-                    <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">{row.salary}</td>
+                    <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">{row.salary}</td>
                     <td className="px-4 py-3 border border-slate-200 text-slate-600">{row.note}</td>
                   </tr>
                 ))}
@@ -236,7 +236,7 @@ export default function Salary600Page() {
           <div className="space-y-4">
             {skills.map((s, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {i + 1}
                 </span>
                 <div>
@@ -259,11 +259,11 @@ export default function Salary600Page() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-3">
             <div className="border border-slate-200 rounded-lg p-5">
-              <p className="text-2xl font-bold text-blue-600 mb-1">約4,501件</p>
+              <p className="text-2xl font-bold text-petrol mb-1">約4,501件</p>
               <p className="text-sm text-slate-600">WEB系プログラマーで初年度600万円以上の求人</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <p className="text-2xl font-bold text-blue-600 mb-1">約1,515件</p>
+              <p className="text-2xl font-bold text-petrol mb-1">約1,515件</p>
               <p className="text-sm text-slate-600">制御系SEの求人</p>
             </div>
           </div>
@@ -276,26 +276,26 @@ export default function Salary600Page() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30〜40代が600万円を狙うときの視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">設計・リーダー経験の「言語化」がカギ</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30〜40代の多くは、実は600万円帯に必要なDB・API・設計やリーダー経験をすでに持っています。問題はそれを職務経歴として言語化できているかです。棚卸しができれば、現職よりも提示レンジの高い求人に届きます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">「開発のまま」より上流接続で伸ばす</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 純開発職のまま600万円を狙うより、プリセールス・PM・ITコンサルといった上流職種への接続を視野に入れると到達確率が上がります。30〜40代の業務知識はこれらの職種と相性が良い場合があります。
               </p>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             年代別の相場や汎用的な年収UP戦略は、
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>
             ・
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
             ・
-            <Link href="/purpose/salary-up/" className="text-blue-600 hover:underline">年収アップを目指す転職ガイド</Link>
+            <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収アップを目指す転職ガイド</Link>
             をご覧ください。
           </p>
         </section>
@@ -324,7 +324,7 @@ export default function Salary600Page() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -344,7 +344,7 @@ export default function Salary600Page() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

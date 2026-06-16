@@ -110,9 +110,9 @@ export default function HandoverPage() {
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             エンジニアの退職で、最も差が出るのが引き継ぎの質です。担当システムが属人化していると、退職交渉の引き止め材料になるだけでなく、退職後に後任が事故を起こしたり、自分の評判を損ねたりします。本記事では、退職時に作る<strong>引き継ぎドキュメントの構成テンプレート</strong>、属人化・インフラ・暗黙知の文書化、後任が未定のときの進め方、逆算スケジュールとチェックリストを整理します。退職の切り出し方は
-            <Link href="/knowledge/smooth-resignation/" className="text-blue-600 hover:underline">円満退職の交渉術</Link>
+            <Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>
             、退職の伝え方全般は
-            <Link href="/knowledge/resignation/" className="text-blue-600 hover:underline">退職の伝え方</Link>
+            <Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の伝え方</Link>
             を参照してください。
           </p>
         </section>
@@ -124,14 +124,14 @@ export default function HandoverPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：人ではなく仕組みに残す</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・引き継ぎは口頭説明でなく<strong>ドキュメントとリポジトリ</strong>に集約する。</li>
@@ -160,7 +160,7 @@ export default function HandoverPage() {
           <div className="space-y-3">
             {template.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.name}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -233,7 +233,7 @@ export default function HandoverPage() {
           <div className="space-y-4">
             {schedule.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center min-w-[110px] h-8 rounded-full bg-blue-600 text-white font-bold text-xs px-2 shrink-0">{item.period}</span>
+                <span className="flex items-center justify-center min-w-[110px] h-8 rounded-full bg-petrol text-white font-bold text-xs px-2 shrink-0">{item.period}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -241,7 +241,7 @@ export default function HandoverPage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 有給消化に入る前に引き継ぎを完了させる前提で計画すると安心です。有給の扱いは<Link href="/knowledge/paid-leave/" className="text-blue-600 hover:underline">有給消化の法律論</Link>、全体の段取りは<Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職スケジュール</Link>も参照。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 有給消化に入る前に引き継ぎを完了させる前提で計画すると安心です。有給の扱いは<Link href="/knowledge/paid-leave/" className="text-petrol hover:underline">有給消化の法律論</Link>、全体の段取りは<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照。</p>
         </section>
 
         <section id="no-successor" className="mb-10 scroll-mt-20">
@@ -250,9 +250,9 @@ export default function HandoverPage() {
             後任が決まっていないケースは珍しくありません。その場合でも引き継ぎは止めず、「誰が読んでも再現できるドキュメント」を残すことに集中します。
           </p>
           <ul className="space-y-3 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span><strong>優先度を付ける</strong>：すべてを完璧に文書化する時間はないため、「止まると事業に影響する領域」「障害時に困る領域」から固めます。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span><strong>チーム・上司宛に共有</strong>：特定の後任ではなく、チームや上司がアクセスできる場所にドキュメントを置き、引き継ぎ先が後から決まっても困らない状態にします。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span><strong>後任確保は会社側の課題</strong>：後任がいないこと自体を理由に退職を引き延ばす必要はありません。協力姿勢を示しつつ、できる範囲でドキュメントを残します。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>優先度を付ける</strong>：すべてを完璧に文書化する時間はないため、「止まると事業に影響する領域」「障害時に困る領域」から固めます。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>チーム・上司宛に共有</strong>：特定の後任ではなく、チームや上司がアクセスできる場所にドキュメントを置き、引き継ぎ先が後から決まっても困らない状態にします。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>後任確保は会社側の課題</strong>：後任がいないこと自体を理由に退職を引き延ばす必要はありません。協力姿勢を示しつつ、できる範囲でドキュメントを残します。</span></li>
           </ul>
         </section>
 
@@ -271,7 +271,7 @@ export default function HandoverPage() {
                 "進行中タスクの状態（着手済/レビュー待ち/未着手）を可視化した",
                 "ドキュメントを後任・チームがアクセスできる場所に保管した",
               ].map((item, i) => (
-                <li key={i} className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>{item}</span></li>
+                <li key={i} className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>{item}</span></li>
               ))}
             </ul>
           </div>
@@ -289,7 +289,7 @@ export default function HandoverPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">属人化の解消が退職交渉も楽にする</h3>
-              <p className="text-sm text-slate-600">「あなたにしか分からない」状態を解消しておくと、引き止めの材料を減らせます。引き継ぎ準備は、円満退職の交渉を有利に進める実務的な手段でもあります。交渉術は<Link href="/knowledge/smooth-resignation/" className="text-blue-600 hover:underline">円満退職の交渉術</Link>を参照。</p>
+              <p className="text-sm text-slate-600">「あなたにしか分からない」状態を解消しておくと、引き止めの材料を減らせます。引き継ぎ準備は、円満退職の交渉を有利に進める実務的な手段でもあります。交渉術は<Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>を参照。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">文書化スキルは次の職場でも武器になる</h3>
@@ -320,7 +320,7 @@ export default function HandoverPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -340,7 +340,7 @@ export default function HandoverPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

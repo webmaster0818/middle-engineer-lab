@@ -126,7 +126,7 @@ export default function GeeklyVsWorkportPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="space-y-2 text-sm text-blue-700">
+          <ol className="space-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}><a href={`#${t.id}`} className="hover:underline">{t.label}</a></li>
             ))}
@@ -135,7 +135,7 @@ export default function GeeklyVsWorkportPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-blue-800">IT/Web/ゲーム領域で経験を活かし、年収交渉まで任せたいならGeekly。</strong>特化型ゆえに提案の精度が高く、年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報の公表値）という実績を掲げています。</p>
             <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-green-800">未経験を含めて幅広く、全国で求人量を見たいならワークポート。</strong>公開11万件以上（うちIT関連3万件以上）の総量と、全国57拠点の対応力が武器です。</p>
             <p className="text-slate-700 leading-relaxed"><strong>専門性と幅を両取りしたいなら併用が最適解。</strong>Geeklyで精度の高い提案を受けつつ、ワークポートで選択肢の量を確保する——非公開求人の重複が少なく、両方無料なので合わせて登録する価値があります。</p>
@@ -169,7 +169,7 @@ export default function GeeklyVsWorkportPage() {
           <p className="text-slate-600 leading-relaxed mb-4">Geeklyは提案スピードが強み、ワークポートもレスポンスの速さが口コミで評価されています。どちらも初動は速い部類で、差は「IT/Web特化の精度（Geekly）か、量とエリアの広さ（ワークポート）か」に表れます。</p>
 
           <h3 className="text-lg font-bold text-slate-800 mb-2 mt-6">対象層・エリア</h3>
-          <p className="text-slate-600 leading-relaxed">Geeklyは首都圏中心、ワークポートは全国47都道府県57拠点で地方にも対応します。地方在住者や、首都圏外でのIT転職を考えるミドル層にはワークポートの拠点網が有利です。エリアを軸にした比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント10社比較</Link>もあわせてご確認ください。</p>
+          <p className="text-slate-600 leading-relaxed">Geeklyは首都圏中心、ワークポートは全国47都道府県57拠点で地方にも対応します。地方在住者や、首都圏外でのIT転職を考えるミドル層にはワークポートの拠点網が有利です。エリアを軸にした比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>もあわせてご確認ください。</p>
         </section>
 
         <section id="reviews" className="mb-10 scroll-mt-20">
@@ -180,7 +180,7 @@ export default function GeeklyVsWorkportPage() {
               <h3 className="font-bold text-blue-800 mb-3">Geeklyの口コミ傾向</h3>
               <ul className="space-y-2 text-sm">
                 {geeklyReviews.map((r, i) => (
-                  <li key={i} className={r.type === "good" ? "text-slate-600" : "text-slate-500"}><span className={r.type === "good" ? "text-blue-600 font-bold" : "text-rose-500 font-bold"}>{r.type === "good" ? "良い: " : "気になる: "}</span>{r.text}</li>
+                  <li key={i} className={r.type === "good" ? "text-slate-600" : "text-slate-500"}><span className={r.type === "good" ? "text-petrol font-bold" : "text-rose-500 font-bold"}>{r.type === "good" ? "良い: " : "気になる: "}</span>{r.text}</li>
                 ))}
               </ul>
             </div>
@@ -199,9 +199,9 @@ export default function GeeklyVsWorkportPage() {
         <section id="checklist" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">Geeklyが向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 {geeklyFor.map((t, i) => (<li key={i}>✓ {t}</li>))}
               </ul>
             </div>
@@ -224,7 +224,7 @@ export default function GeeklyVsWorkportPage() {
                 { num: "3", title: "併用パターン（最も効率的）", desc: "Geeklyで精度の高いIT/Web提案と年収交渉を、ワークポートで求人量とエリアの広さを確保。非公開求人の重複が少なく、両方無料で選択肢が一気に広がります。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p></div>
                 </div>
               ))}
@@ -238,7 +238,7 @@ export default function GeeklyVsWorkportPage() {
           <p className="text-slate-600 leading-relaxed mb-4">Web系やゲーム業界で実務を積んできたミドルなら、Geeklyの特化型提案が刺さりやすく、年収交渉の代行も効果的です。レバテック公表の年代別平均年収（2025年）では正社員SEは30代約499万円・40代約618万円とされ、ミドルは交渉レンジが大きいため、アップ実績を掲げるGeeklyの価値が相対的に高まります。</p>
           <p className="text-slate-600 leading-relaxed mb-4">一方、SIerやインフラ、社内SEなど領域が幅広い人、あるいは地方在住のミドルには、全国57拠点・求人量11万件以上のワークポートが現実的です。40代になると首都圏一極の特化型だけでは選択肢が細る場合があり、エリアと職種の幅を確保できる総合型は安全網になります。</p>
           <p className="text-slate-600 leading-relaxed mb-4">市場環境としては、経産省「IT人材需給に関する調査」（2019年公表の試算）で2030年に最大約79万人のIT人材不足が見込まれており、実務経験の厚いミドルの需要は底堅い見通しです。だからこそ、年代が上がるほど「特化型で深さ（Geekly）」と「総合型で幅・地方対応（ワークポート）」を併用し、求人の取りこぼしを防ぐのが合理的です。</p>
-          <p className="text-slate-600 leading-relaxed">年代別の戦略は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed">年代別の戦略は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>もあわせてご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -256,14 +256,14 @@ export default function GeeklyVsWorkportPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">迷ったら両方登録がおすすめ</h2>
           <p className="text-blue-100 text-sm mb-4">GeeklyのIT/Web特化の精度×ワークポートの全国対応・大量求人。両方無料で取りこぼしのない転職活動を。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {relatedArticles.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

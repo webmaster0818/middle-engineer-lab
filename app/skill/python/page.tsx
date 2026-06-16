@@ -115,7 +115,7 @@ export default function PythonSkillPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -126,7 +126,7 @@ export default function PythonSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Pythonエンジニアの転職市場の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Pythonは需要が広い分、領域を絞らないと埋もれます。</strong>「Web系」「データサイエンス」「AI/ML・MLOps」のどこで戦うかを定め、それに沿った成果物と職務経歴で打ち出すのが攻め方です。
             </p>
@@ -188,7 +188,7 @@ export default function PythonSkillPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2 text-sm">{item.tier}</h3>
                 <p className="text-xs text-slate-600 mb-2 leading-relaxed">{item.req}</p>
-                <p className="text-xs text-blue-600">{item.note}</p>
+                <p className="text-xs text-petrol">{item.note}</p>
               </div>
             ))}
           </div>
@@ -198,21 +198,21 @@ export default function PythonSkillPage() {
         <section id="career" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">Pythonエンジニアのキャリアパス</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">AI/機械学習エンジニア</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 機械学習モデルの開発・学習・最適化を担当。PyTorch/TensorFlow、scikit-learn、LangChainなどを使い、プロダクトにAI機能を組み込みます。LLM活用やRAG構築のスキルが特に評価される領域です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データサイエンティスト</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 データ分析・統計モデリング・ビジネスインサイトの抽出を担当。Pandas/NumPy/可視化ツールを使い、経営判断につながる分析を行います。ビジネス理解力が成果を左右します。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">MLOps／データ基盤エンジニア</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 MLモデルの本番運用、データパイプラインの構築・運用を担当。MLflow・Airflow・BigQuery等を扱い、基盤を安定運用します。インフラスキルとPythonの両方が求められます。
               </p>
             </div>
@@ -229,21 +229,21 @@ export default function PythonSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">AI/ML関連のPython求人が豊富で、技術に精通したアドバイザーがデータサイエンス領域にも対応します。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">CDO／データ責任者クラスのハイクラス求人やスカウトに出会いやすく、年収750万円以上を狙う層に向きます。</p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（求人数最大級）</h3>
               <p className="text-sm text-slate-600 mb-2">国内最大級の求人数で、金融・製造などの大手データ分析ポジションが見つかりやすいのが強みです。</p>
-              <Link href="/review/recruit-it/" className="text-sm text-blue-600 hover:underline">リクルートエージェントITの詳細レビュー →</Link>
+              <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            エージェント各社の比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">転職エージェント比較</Link>も参照してください。
+            エージェント各社の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">転職エージェント比較</Link>も参照してください。
           </p>
         </section>
 
@@ -257,7 +257,7 @@ export default function PythonSkillPage() {
               { num: "3", title: "運用・基盤の経験で差別化する", desc: "モデルを作るだけでなく、データパイプラインや本番運用（MLOps）まで経験すると、競合の少ない領域で評価されます。インフラ経験があるミドル層は特にここで強みを出せます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -284,7 +284,7 @@ export default function PythonSkillPage() {
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            年代別の戦略は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>も参考にしてください。
+            年代別の戦略は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>も参考にしてください。
           </p>
         </section>
 
@@ -302,7 +302,7 @@ export default function PythonSkillPage() {
               <strong>③ LLM活用を一段深く理解する。</strong>生成AIを「使う」だけでなく、RAGやエージェント構成、評価の仕方まで踏み込むと、需要の高い領域で差別化できます。
             </p>
             <p>
-              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
+              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -331,7 +331,7 @@ export default function PythonSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -351,7 +351,7 @@ export default function PythonSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -364,8 +364,8 @@ export default function PythonSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/amazon/" className="text-blue-700 hover:underline">Amazon／AWS Japan</a></li><li><a href="/company/apple/" className="text-blue-700 hover:underline">Apple Japan</a></li><li><a href="/company/cyberagent/" className="text-blue-700 hover:underline">サイバーエージェント</a></li><li><a href="/company/dena/" className="text-blue-700 hover:underline">DeNA</a></li><li><a href="/company/fujitsu/" className="text-blue-700 hover:underline">富士通</a></li><li><a href="/company/gmo-internet/" className="text-blue-700 hover:underline">GMOインターネットグループ</a></li><li><a href="/company/gree/" className="text-blue-700 hover:underline">グリー（GREE）</a></li><li><a href="/company/ibm/" className="text-blue-700 hover:underline">日本IBM</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/amazon/" className="text-petrol-deep hover:underline">Amazon／AWS Japan</a></li><li><a href="/company/apple/" className="text-petrol-deep hover:underline">Apple Japan</a></li><li><a href="/company/cyberagent/" className="text-petrol-deep hover:underline">サイバーエージェント</a></li><li><a href="/company/dena/" className="text-petrol-deep hover:underline">DeNA</a></li><li><a href="/company/fujitsu/" className="text-petrol-deep hover:underline">富士通</a></li><li><a href="/company/gmo-internet/" className="text-petrol-deep hover:underline">GMOインターネットグループ</a></li><li><a href="/company/gree/" className="text-petrol-deep hover:underline">グリー（GREE）</a></li><li><a href="/company/ibm/" className="text-petrol-deep hover:underline">日本IBM</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

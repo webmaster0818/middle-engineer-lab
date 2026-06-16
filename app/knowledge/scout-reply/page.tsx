@@ -164,7 +164,7 @@ export default function ScoutReplyPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          スカウトが届いても、どう返信すればよいか迷う方は多いはずです。本記事は返信の例文に特化し、興味あり・条件確認・丁寧な辞退・他社選考中・条件交渉打診の5パターンを、そのまま使える文例として網羅します。好印象を与える返信の型、件名の付け方、返信速度の目安、エージェントと企業ダイレクトのトーン差まで整理しました。スカウトの仕組みそのものは<Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトの活用法</Link>で解説しています。
+          スカウトが届いても、どう返信すればよいか迷う方は多いはずです。本記事は返信の例文に特化し、興味あり・条件確認・丁寧な辞退・他社選考中・条件交渉打診の5パターンを、そのまま使える文例として網羅します。好印象を与える返信の型、件名の付け方、返信速度の目安、エージェントと企業ダイレクトのトーン差まで整理しました。スカウトの仕組みそのものは<Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトの活用法</Link>で解説しています。
         </p>
 
         <DataNote
@@ -177,7 +177,7 @@ export default function ScoutReplyPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -186,7 +186,7 @@ export default function ScoutReplyPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：型に沿えば返信は迷わない</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               スカウト返信は「<strong>お礼 → 魅力に感じた点 → 自己アピール → 希望アクション</strong>」の型に沿えば、どの状況でも数分で書けます。興味がなくても一言返しておくと印象が良く、将来の縁にもつながります。
@@ -229,7 +229,7 @@ export default function ScoutReplyPage() {
             </table>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed">
-            自分の経歴に具体的に触れているスカウトほど、丁寧に返す価値があります。スカウトを増やすコツや見分け方は<Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトの活用法</Link>を参照してください。
+            自分の経歴に具体的に触れているスカウトほど、丁寧に返す価値があります。スカウトを増やすコツや見分け方は<Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトの活用法</Link>を参照してください。
           </p>
         </section>
 
@@ -243,7 +243,7 @@ export default function ScoutReplyPage() {
               "企業・サービスの信頼性に不審な点がないか",
             ].map((c) => (
               <li key={c} className="flex items-start gap-2 text-sm text-slate-700">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span>{c}</span>
               </li>
             ))}
@@ -266,7 +266,7 @@ export default function ScoutReplyPage() {
               { step: "希望アクション", desc: "面談希望・質問・日程提示など、次に取ってほしい行動を明示" },
             ].map((s, i) => (
               <div key={s.step} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {i + 1}
                 </span>
                 <div>
@@ -328,7 +328,7 @@ export default function ScoutReplyPage() {
             </table>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            企業ダイレクトのスカウトからカジュアル面談に進む場合は、<Link href="/knowledge/casual-interview/" className="text-blue-600 hover:underline">カジュアル面談の進め方</Link>もあわせて確認しておくと安心です。
+            企業ダイレクトのスカウトからカジュアル面談に進む場合は、<Link href="/knowledge/casual-interview/" className="text-petrol hover:underline">カジュアル面談の進め方</Link>もあわせて確認しておくと安心です。
           </p>
         </section>
 
@@ -347,7 +347,7 @@ export default function ScoutReplyPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">市場価値の確認に使う</h3>
               <p>
-                すぐ転職する気がなくても、保留・条件確認の返信（例文②）で年収レンジを聞いておくと、自分の市場価値の把握に役立ちます。詳しくは<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>を参照してください。
+                すぐ転職する気がなくても、保留・条件確認の返信（例文②）で年収レンジを聞いておくと、自分の市場価値の把握に役立ちます。詳しくは<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参照してください。
               </p>
             </div>
           </div>
@@ -375,7 +375,7 @@ export default function ScoutReplyPage() {
           </p>
           <Link
             href="/knowledge/scout/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             スカウトの活用法を見る
           </Link>
@@ -395,7 +395,7 @@ export default function ScoutReplyPage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

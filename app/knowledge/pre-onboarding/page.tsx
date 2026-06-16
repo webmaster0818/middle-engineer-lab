@@ -159,7 +159,7 @@ export default function PreOnboardingPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -170,7 +170,7 @@ export default function PreOnboardingPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：書類・手続き・心構えの3軸</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               入社前の準備は、<strong>「会社へ提出する書類」「公的手続き（年金・保険・税金）」「入社初日の準備と心構え」</strong>の3軸で整理すると漏れがありません。特に退職日と入社日の間に空白がある場合は、健康保険・年金の手続きを自分で行う必要があります。
             </p>
@@ -193,7 +193,7 @@ export default function PreOnboardingPage() {
                 <ul className="space-y-1.5">
                   {d.items.map((item, j) => (
                     <li key={j} className="text-sm text-slate-600 leading-relaxed flex gap-2">
-                      <span className="text-blue-500 shrink-0">・</span>
+                      <span className="text-petrol shrink-0">・</span>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -203,7 +203,7 @@ export default function PreOnboardingPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             退職時に受け取る書類の詳細は
-            <Link href="/knowledge/after-resignation-procedures/" className="text-blue-600 hover:underline">退職後の手続き</Link>
+            <Link href="/knowledge/after-resignation-procedures/" className="text-petrol hover:underline">退職後の手続き</Link>
             で解説しています。
           </p>
           <p className="text-slate-600 leading-relaxed mt-4">
@@ -239,7 +239,7 @@ export default function PreOnboardingPage() {
           <div className="space-y-4">
             {firstDay.map((f, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {i + 1}
                 </span>
                 <div>
@@ -251,9 +251,9 @@ export default function PreOnboardingPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             入社後の立ち上がり方は
-            <Link href="/knowledge/onboarding/" className="text-blue-600 hover:underline">入社後のオンボーディング</Link>
+            <Link href="/knowledge/onboarding/" className="text-petrol hover:underline">入社後のオンボーディング</Link>
             と
-            <Link href="/knowledge/first-90days/" className="text-blue-600 hover:underline">入社後最初の90日</Link>
+            <Link href="/knowledge/first-90days/" className="text-petrol hover:underline">入社後最初の90日</Link>
             で詳しく解説しています。
           </p>
         </section>
@@ -262,15 +262,15 @@ export default function PreOnboardingPage() {
         <section id="mindset" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の入社前の心構え</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：謙虚さと素早いキャッチアップの両立</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 即戦力として期待される一方、新しい環境のやり方を学ぶ謙虚さも必要です。前職の進め方に固執せず、まずはチームの開発フローやコード規約を観察して合わせることが、早期の信頼獲得につながります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：年下の上司・同僚への接し方</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 チームに年下のメンバーや上司がいることも珍しくありません。経験を押し付けず、敬意を持ってフラットに接する姿勢が大切です。これまでの経験は、求められた場面で具体的に役立てる形で還元しましょう。
               </p>
             </div>
@@ -314,7 +314,7 @@ export default function PreOnboardingPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -334,7 +334,7 @@ export default function PreOnboardingPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

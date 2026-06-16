@@ -150,7 +150,7 @@ export default function ReferenceCheckPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -161,7 +161,7 @@ export default function ReferenceCheckPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：同意が前提・準備で十分対応可</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               リファレンスチェックは、<strong>本人の同意を前提に</strong>、前職などの第三者へ働きぶりを照会する選考プロセスです。<strong>経歴を正確に申告し、信頼できる推薦者に事前依頼しておけば、十分に対応できます</strong>。
             </p>
@@ -211,7 +211,7 @@ export default function ReferenceCheckPage() {
                 <ul className="space-y-1.5">
                   {q.items.map((item, j) => (
                     <li key={j} className="text-sm text-slate-600 leading-relaxed flex gap-2">
-                      <span className="text-blue-500 shrink-0">・</span>
+                      <span className="text-petrol shrink-0">・</span>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -235,7 +235,7 @@ export default function ReferenceCheckPage() {
               { num: "4", title: "応募先と想定質問を共有する", desc: "応募企業名・ポジション・聞かれそうな内容を伝えておくと、推薦者が的確に答えられ、あなたの強みも伝わりやすくなります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -254,7 +254,7 @@ export default function ReferenceCheckPage() {
             <ul className="space-y-3">
               {checklist.map((item, i) => (
                 <li key={i} className="flex gap-3 items-start text-sm text-slate-700 leading-relaxed">
-                  <span className="flex items-center justify-center w-5 h-5 rounded border border-blue-400 text-blue-600 text-xs shrink-0 mt-0.5">✓</span>
+                  <span className="flex items-center justify-center w-5 h-5 rounded border border-blue-400 text-petrol text-xs shrink-0 mt-0.5">✓</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -262,7 +262,7 @@ export default function ReferenceCheckPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             職務経歴書の内容と齟齬が出ないよう、提出書類は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>
             も参考に整えておきましょう。
           </p>
         </section>
@@ -304,7 +304,7 @@ export default function ReferenceCheckPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -324,7 +324,7 @@ export default function ReferenceCheckPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

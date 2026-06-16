@@ -117,7 +117,7 @@ export default function SystemAuditorCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -128,7 +128,7 @@ export default function SystemAuditorCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：システム監査技術者は誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               システム監査技術者は<strong>「監査・内部統制の実務者が独立的評価の素養を証明する加点資格」</strong>です。午後Ⅱの論述で自身の監査・統制経験を論じる必要があるため、<strong>構造的に実務経験のあるミドルを想定した試験</strong>です。すでに監査・統制・品質保証に携わる30〜40代が、IT監査・ガバナンス領域で専門性を証明する土台として最も効きます。
             </p>
@@ -233,7 +233,7 @@ export default function SystemAuditorCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            品質・テスト方向は<Link href="/skill/qa/" className="text-blue-600 hover:underline">QA・テストエンジニア転職ガイド</Link>、セキュリティ方向は<Link href="/skill/security/" className="text-blue-600 hover:underline">セキュリティエンジニア転職ガイド</Link>を参考にしてください。
+            品質・テスト方向は<Link href="/skill/qa/" className="text-petrol hover:underline">QA・テストエンジニア転職ガイド</Link>、セキュリティ方向は<Link href="/skill/security/" className="text-petrol hover:underline">セキュリティエンジニア転職ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -248,7 +248,7 @@ export default function SystemAuditorCertPage() {
               一方で過度な期待は禁物です。AUを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「監査・統制の実務経験 × 資格」の掛け算</strong>のとき。担当した監査・内部統制の実績と組み合わせて初めて、IT監査やガバナンスのポジション、資格手当という形で結実します。さらに、午前Ⅰ免除を使えば他の高度区分にも挑みやすくなり、上流・専門の評価軸を広げられます。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -263,7 +263,7 @@ export default function SystemAuditorCertPage() {
               { n: "STEP 3", t: "合格→午前Ⅰ免除で上位へ", d: "合格後2年間の午前Ⅰ免除を活かし、情報処理安全確保支援士など他の高度資格に挑戦する。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -272,7 +272,7 @@ export default function SystemAuditorCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            前段の基礎が不安なら<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>から、セキュリティと組み合わせるなら<Link href="/cert/security-specialist/" className="text-blue-600 hover:underline">情報処理安全確保支援士</Link>、学び直しの全体像は<Link href="/knowledge/reskilling/" className="text-blue-600 hover:underline">エンジニアのリスキリング</Link>も参考にしてください。
+            前段の基礎が不安なら<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>から、セキュリティと組み合わせるなら<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>、学び直しの全体像は<Link href="/knowledge/reskilling/" className="text-petrol hover:underline">エンジニアのリスキリング</Link>も参考にしてください。
           </p>
         </section>
 
@@ -300,7 +300,7 @@ export default function SystemAuditorCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -320,7 +320,7 @@ export default function SystemAuditorCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -116,7 +116,7 @@ export default function InfoSecManagementCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -127,7 +127,7 @@ export default function InfoSecManagementCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SGは誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               情報セキュリティマネジメント試験は<strong>「利用部門のセキュリティ管理者向けの基礎資格」</strong>です。セキュリティエンジニア（守る側）の技術証明ではなく、<strong>ITを使う側の部門でルールを運用し、リスクを管理する立場</strong>に効きます。誰に効くかをはっきり分けると次のとおりです。
             </p>
@@ -191,7 +191,7 @@ export default function InfoSecManagementCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            つまりSGは、「自部門の情報を安全に扱い、ルールを守らせ、委託先を管理する」という<strong>マネジメント寄りの基礎資格</strong>です。守る側の技術者として転職市場で評価されたいなら、<Link href="/cert/security-specialist/" className="text-blue-600 hover:underline">情報処理安全確保支援士</Link>を目指すのが本道になります。
+            つまりSGは、「自部門の情報を安全に扱い、ルールを守らせ、委託先を管理する」という<strong>マネジメント寄りの基礎資格</strong>です。守る側の技術者として転職市場で評価されたいなら、<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>を目指すのが本道になります。
           </p>
         </section>
 
@@ -215,7 +215,7 @@ export default function InfoSecManagementCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            セキュリティ職全体の市場感は<Link href="/skill/security/" className="text-blue-600 hover:underline">セキュリティエンジニア転職ガイド</Link>も参考にしてください。
+            セキュリティ職全体の市場感は<Link href="/skill/security/" className="text-petrol hover:underline">セキュリティエンジニア転職ガイド</Link>も参考にしてください。
           </p>
         </section>
 
@@ -233,7 +233,7 @@ export default function InfoSecManagementCertPage() {
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            したがって、すでにセキュリティの専門性で勝負する30〜40代がSG取得だけを狙うのは費用対効果が高いとは言えません。専門職を目指すなら、<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>で土台を固め、<Link href="/cert/security-specialist/" className="text-blue-600 hover:underline">情報処理安全確保支援士</Link>へ進むのが本道です。資格全体の位置づけは<Link href="/cert/" className="text-blue-600 hover:underline">エンジニアの資格比較</Link>でご確認ください。
+            したがって、すでにセキュリティの専門性で勝負する30〜40代がSG取得だけを狙うのは費用対効果が高いとは言えません。専門職を目指すなら、<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>で土台を固め、<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>へ進むのが本道です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>でご確認ください。
           </p>
         </section>
 
@@ -268,7 +268,7 @@ export default function InfoSecManagementCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            次の一歩は<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>です。応用情報に合格すれば支援士試験の午前Ⅰが2年間免除されるため、<Link href="/cert/security-specialist/" className="text-blue-600 hover:underline">情報処理安全確保支援士</Link>への近道になります。
+            次の一歩は<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>です。応用情報に合格すれば支援士試験の午前Ⅰが2年間免除されるため、<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>への近道になります。
           </p>
         </section>
 
@@ -283,7 +283,7 @@ export default function InfoSecManagementCertPage() {
               一方で、セキュリティの専門エンジニアとして守る側でキャリアを伸ばしたい30〜40代であれば、SGは<strong>前段の基礎固め</strong>と割り切るべきです。応用情報で土台を作り、情報処理安全確保支援士へ進むことで初めて、専門職として評価される「実務 × 高度資格」のストーリーが完成します。自分の立場が「管理する側」か「守る側」かを見極めて、進む方向を選ぶことが大切です。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -298,7 +298,7 @@ export default function InfoSecManagementCertPage() {
               { n: "STEP 3", t: "守る側へ進むなら上位資格へ", d: "専門職志望なら応用情報→情報処理安全確保支援士へ。管理職志望ならそのまま実務で活かす。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -307,7 +307,7 @@ export default function InfoSecManagementCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            次に狙うべきは<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>、守る側の専門職なら<Link href="/cert/security-specialist/" className="text-blue-600 hover:underline">情報処理安全確保支援士</Link>です。資格全体の比較は<Link href="/cert/" className="text-blue-600 hover:underline">エンジニアの資格比較</Link>、セキュリティ職の市場感は<Link href="/skill/security/" className="text-blue-600 hover:underline">セキュリティエンジニア転職ガイド</Link>をご覧ください。
+            次に狙うべきは<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>、守る側の専門職なら<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>です。資格全体の比較は<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>、セキュリティ職の市場感は<Link href="/skill/security/" className="text-petrol hover:underline">セキュリティエンジニア転職ガイド</Link>をご覧ください。
           </p>
         </section>
 
@@ -335,7 +335,7 @@ export default function InfoSecManagementCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -355,7 +355,7 @@ export default function InfoSecManagementCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

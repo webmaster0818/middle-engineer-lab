@@ -132,7 +132,7 @@ export default function InsurancePage() {
           <ul className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -140,7 +140,7 @@ export default function InsurancePage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：保険SEのインシュアテック転職は現実的か</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
               <span className="font-bold text-blue-800">結論：保険ドメイン知識を持つエンジニアにとって、インシュアテック転職は十分現実的です。</span>
               ただし保険知識だけで完結するわけではなく、データ分析やモダン開発スキルとの掛け合わせが鍵になります。
@@ -198,7 +198,7 @@ export default function InsurancePage() {
                 {skillGap.map(([s, j, d], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 border-t border-slate-200 align-top">{s}</th>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-t border-slate-200 align-top whitespace-nowrap">{j}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-t border-slate-200 align-top whitespace-nowrap">{j}</td>
                     <td className="px-4 py-3 text-slate-600 border-t border-slate-200">{d}</td>
                   </tr>
                 ))}
@@ -261,7 +261,7 @@ export default function InsurancePage() {
                 ].map(([k, v, src], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 border-t border-slate-200 align-top">{k}</th>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-t border-slate-200 align-top whitespace-nowrap">{v}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-t border-slate-200 align-top whitespace-nowrap">{v}</td>
                     <td className="px-4 py-3 text-slate-500 border-t border-slate-200 text-xs align-top">{src}</td>
                   </tr>
                 ))}
@@ -270,7 +270,7 @@ export default function InsurancePage() {
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
             年収を上げる現実的な手段は、(1) 保険ドメイン知識を活かせる求人を選ぶ、(2) データ分析・モダンスキルで応募できる幅を広げる、(3) 複数エージェントで提示額を比較し交渉材料にする、の3点です。詳しくは
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">エンジニア転職で年収は上がるか</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">エンジニア転職で年収は上がるか</Link>
             も参考にしてください。
           </p>
         </section>
@@ -282,7 +282,7 @@ export default function InsurancePage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{name}</h3>
                 <p className="text-sm text-slate-600 mb-2">{desc}</p>
-                <p className="text-xs text-blue-700">向いている人：{fit}</p>
+                <p className="text-xs text-petrol-deep">向いている人：{fit}</p>
               </div>
             ))}
           </div>
@@ -298,7 +298,7 @@ export default function InsurancePage() {
               { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録。求人と担当者を比較し、市場価値を客観的に把握する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.step}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -311,23 +311,23 @@ export default function InsurancePage() {
         <section id="midlife" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：保険ドメイン知識＋データ/技術の二刀流を作る</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 保険業務を理解したうえでデータ分析やモダン開発に踏み込めると、純粋なエンジニアにも純粋な保険人材にも代えがたい価値になります。技術のキャッチアップに投資する価値が最も高い年代です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：業務理解とマネジメントを軸に</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 引受・査定の深い業務理解や大規模PJのマネジメントは、インシュアテック企業や保険DX支援で評価されやすい強みです。実装だけで勝負するより、組み合わせの価値を打ち出すのが現実的です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新技術だけを競うのではなく、保険×ITという希少性で差別化するのがミドル層の定石です。
-                <Link href="/knowledge/market-value/" className="text-blue-700 underline">自分の市場価値の測り方</Link>
+                <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
             </div>
@@ -345,7 +345,7 @@ export default function InsurancePage() {
               { name: "ビズリーチ", desc: "ハイクラス・スカウト型。年収750万円以上の求人や上流ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
               { name: "マイナビIT AGENT", desc: "書類添削・面接対策が手厚いとされる。保険・金融系IT求人を幅広く見たい場合の併用候補。", href: "/review/mynavi-it/" },
             ].map((a, i) => (
-              <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
                 <p className="text-sm text-slate-600">{a.desc}</p>
               </Link>
@@ -371,14 +371,14 @@ export default function InsurancePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">保険の知識をインシュアテックで活かそう</h2>
           <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

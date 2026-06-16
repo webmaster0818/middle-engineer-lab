@@ -107,7 +107,7 @@ export default function ReferralPage() {
         {/* 目次 */}
         <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-blue-700">
+          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -118,7 +118,7 @@ export default function ReferralPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：リファラルの本質は「速さ」より「事前に中が見えること」</h2>
             <ul className="text-sm text-blue-900 space-y-2 leading-relaxed">
               <li>・最大のメリットは<strong>入社前に内部情報を得てミスマッチを防げる</strong>こと。面接自体は通常どおりで、必ず受かるわけではない。</li>
@@ -187,7 +187,7 @@ export default function ReferralPage() {
           </div>
           <p className="text-slate-600 text-sm mt-4">
             「無理なら通常応募で構わない」と添えると、相手が断りやすくなり、関係を保ったまま依頼できます。人脈づくり自体は
-            <Link href="/knowledge/side-project/" className="text-blue-600 hover:underline">副業・個人開発でスキルを伸ばす</Link>
+            <Link href="/knowledge/side-project/" className="text-petrol hover:underline">副業・個人開発でスキルを伸ばす</Link>
             やコミュニティ活動と並行して進めるのが効果的です。
           </p>
         </section>
@@ -226,7 +226,7 @@ export default function ReferralPage() {
               { num: "5", title: "内定・条件交渉", desc: "条件交渉は人事・採用担当と行う。市場相場をエージェントで把握しておくと、根拠を持って交渉できる。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -236,8 +236,8 @@ export default function ReferralPage() {
           </div>
           <p className="text-slate-600 text-sm mt-4">
             技術面接やコーディングテストの対策は
-            <Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策ガイド</Link>
-            、<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>を参照してください。
+            <Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策ガイド</Link>
+            、<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>を参照してください。
           </p>
         </section>
 
@@ -303,12 +303,12 @@ export default function ReferralPage() {
               30代・40代は、これまでの職歴で築いた<strong>「元同僚」というリファラルの母集団</strong>が最大の資産です。過去に一緒に働いた人が各社に散らばっているため、若手よりリファラルのチャンスは多い世代といえます。前職の人間関係を良好に保っておくことが、将来の選択肢になります。
             </p>
             <p>
-              一方で、ミドル層は採用側の期待値も高く、<strong>「知り合いだから通る」わけではない</strong>点に注意が必要です。推薦があっても、相応のポジションでは技術力・リード経験がしっかり問われます。リファラルだからと準備を軽くせず、職務経歴書や面接対策は通常どおり丁寧に行いましょう（<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>）。
+              一方で、ミドル層は採用側の期待値も高く、<strong>「知り合いだから通る」わけではない</strong>点に注意が必要です。推薦があっても、相応のポジションでは技術力・リード経験がしっかり問われます。リファラルだからと準備を軽くせず、職務経歴書や面接対策は通常どおり丁寧に行いましょう（<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>）。
             </p>
             <p>
               年収面では、知り合い経由ゆえに交渉を切り出しにくい心理が働きがちです。相場をエージェントで把握し、感情と切り離して人事と交渉しましょう。年代別の年収感は
-              <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代エンジニアの年収</Link>
-              ・<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収</Link>を参考にしてください。
+              <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収</Link>
+              ・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>を参考にしてください。
             </p>
           </div>
         </section>
@@ -362,7 +362,7 @@ export default function ReferralPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -382,7 +382,7 @@ export default function ReferralPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

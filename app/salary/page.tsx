@@ -227,7 +227,7 @@ export default function SalaryTopPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -238,7 +238,7 @@ export default function SalaryTopPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収は「金額→スキルレベル・役職」の地図で見る</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               エンジニアの年収は、漠然と「頑張れば上がる」ものではなく、<strong>到達したい金額ごとに必要なスキルレベル・役職・職種がほぼ決まっています</strong>。経済産業省のITSSスキル標準レベル別平均年収では、L3で576.0万円、L4で726.1万円、L5で937.8万円、L6・7で1,129.9万円が示されています（経産省 IT関連産業の給与等に関する実態調査・IPA ITSSレベル準拠／原典の調査年版は要確認）。
             </p>
@@ -266,7 +266,7 @@ export default function SalaryTopPage() {
               <tbody>
                 {itssData.map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
-                    <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">{row.level}</td>
+                    <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">{row.level}</td>
                     <td className="px-4 py-3 border border-slate-200 font-medium">{row.salary}</td>
                     <td className="px-4 py-3 border border-slate-200 text-slate-600">{row.role}</td>
                   </tr>
@@ -295,7 +295,7 @@ export default function SalaryTopPage() {
             {roadmap.map((r, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <div className="flex flex-wrap items-baseline gap-3 mb-2">
-                  <span className="inline-flex items-center justify-center px-3 py-1 rounded-full bg-blue-600 text-white font-bold text-sm">
+                  <span className="inline-flex items-center justify-center px-3 py-1 rounded-full bg-petrol text-white font-bold text-sm">
                     {r.span}
                   </span>
                   <span className="font-bold text-slate-800">{r.band}</span>
@@ -307,9 +307,9 @@ export default function SalaryTopPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             年代別のより詳しい相場は、
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代エンジニアの年収相場</Link>
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収相場</Link>
             ・
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収相場</Link>
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>
             をご覧ください。
           </p>
         </section>
@@ -324,18 +324,18 @@ export default function SalaryTopPage() {
             {methods.map((m, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{m.title}</h3>
-                <p className="text-xs text-blue-600 font-medium mb-2">{m.range}</p>
+                <p className="text-xs text-petrol font-medium mb-2">{m.range}</p>
                 <p className="text-sm text-slate-600 leading-relaxed">{m.desc}</p>
               </div>
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             手段ごとの深掘りは、
-            <Link href="/purpose/salary-up/" className="text-blue-600 hover:underline">年収アップを目指す転職ガイド</Link>
+            <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収アップを目指す転職ガイド</Link>
             、横並び比較は
-            <Link href="/compare/salary-ranking/" className="text-blue-600 hover:underline">年収アップに強いエージェント比較</Link>
+            <Link href="/compare/salary-ranking/" className="text-petrol hover:underline">年収アップに強いエージェント比較</Link>
             、働き方の損得は
-            <Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスvs正社員</Link>
+            <Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員</Link>
             に整理しています。
           </p>
         </section>
@@ -359,7 +359,7 @@ export default function SalaryTopPage() {
               <tbody>
                 {bandSummary.map((b, i) => (
                   <tr key={i} className="hover:bg-slate-50">
-                    <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">
+                    <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">
                       <Link href={b.href} className="hover:underline">{b.band}</Link>
                     </td>
                     <td className="px-4 py-3 border border-slate-200 text-slate-600">{b.itss}</td>
@@ -375,7 +375,7 @@ export default function SalaryTopPage() {
               <Link
                 key={i}
                 href={b.href}
-                className="block border border-slate-200 rounded-lg px-4 py-4 text-center font-bold text-slate-700 hover:bg-blue-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-4 text-center font-bold text-slate-700 hover:bg-petrol-soft hover:border-petrol transition-colors"
               >
                 年収{b.band}の必要スキルを見る →
               </Link>
@@ -387,23 +387,23 @@ export default function SalaryTopPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30〜40代ミドルが年収地図を使うときの視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年齢ではなく「ITSSレベル×軸」で交渉する</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30〜40代の転職では、年齢そのものより「どのレベルの仕事を任せられるか」が評価されます。ITSSレベルの地図を使い、自分の到達レベルと希望年収帯を結びつけて語れると、希望と提示のズレを減らせます。年代別の現実は
-                <Link href="/age/40s/" className="text-blue-700 underline">40代エンジニア転職</Link>
+                <Link href="/age/40s/" className="text-petrol-deep underline">40代エンジニア転職</Link>
                 も参考にしてください。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">「一気に大幅増」より段階的アップ</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 ミドル層が現年収から一気に飛び抜けた金額を希望すると、選考で警戒されやすくなります。地図上で1段ずつ（例：L3→L4相当へ）上げる設計のほうが、800万・1000万帯への到達確率は高まります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">天井は技術力だけでは決まらない</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 同じスキルレベルでも、職種・役職、そして商流や企業の給与テーブルによって到達できる上限は変わります。特に高年収帯ほどこの構造の影響が大きく、1000万円帯の専用ページで詳しく解説しています。
               </p>
             </div>
@@ -434,7 +434,7 @@ export default function SalaryTopPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -462,7 +462,7 @@ export default function SalaryTopPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

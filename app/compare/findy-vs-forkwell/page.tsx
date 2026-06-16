@@ -83,14 +83,14 @@ export default function FindyVsForkwellPage() {
           <p className="font-bold text-slate-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・GitHubの実績で評価されたいなら「Findy」</strong>。公開リポジトリやコミット履歴を解析したスキル偏差値で実力を可視化します。</li>
@@ -117,7 +117,7 @@ export default function FindyVsForkwellPage() {
           <p className="text-slate-600 leading-relaxed mb-4">FindyとForkwellの本質的な違いは、「何を見て実力を判断するか」にあります。Findyは登録時にGitHubアカウントを連携し、公開リポジトリの言語・コミット・スター等の活動を解析して「スキル偏差値」を算出します。つまり、日々書いているコードがそのまま評価のものさしになります。普段からGitHubで手を動かしている人ほど有利です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">Forkwellはポートフォリオの作り込みと技術発信、そしてコミュニティ（勉強会200本超）での活動を軸に評価します。GitHubの数値だけでなく、何を考えてどう作ったかという文脈や、技術への向き合い方が伝わりやすい設計です。コードの量より、ポートフォリオで示せる設計力や発信の質で勝負したい人に向きます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>GitHubの活動量・コードで評価されたいならFindy、ポートフォリオと発信・学習姿勢で評価されたいならForkwell。なお、Web全体の発信（Qiita・note・X・connpass）まで含めてAI解析するLAPRASや、コーディングテストで評価する<Link href="/review/paiza/" className="text-blue-600 hover:underline">paiza</Link>とも評価軸が異なります。<Link href="/compare/scout-agents/" className="text-blue-600 hover:underline">スカウト型サービスのタイプ別マップ</Link>で全体像を確認すると選びやすくなります。</p>
+            <p className="mb-2"><strong>まとめ：</strong>GitHubの活動量・コードで評価されたいならFindy、ポートフォリオと発信・学習姿勢で評価されたいならForkwell。なお、Web全体の発信（Qiita・note・X・connpass）まで含めてAI解析するLAPRASや、コーディングテストで評価する<Link href="/review/paiza/" className="text-petrol hover:underline">paiza</Link>とも評価軸が異なります。<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービスのタイプ別マップ</Link>で全体像を確認すると選びやすくなります。</p>
           </div>
         </section>
 
@@ -125,7 +125,7 @@ export default function FindyVsForkwellPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較②：スカウトの質と量</h2>
           <p className="text-slate-600 leading-relaxed mb-4">Findyは掲載企業を800社以上に厳選（公式・2024年7月時点）しており、企業の質が一定に保たれている点が評価されています。GitHubの活動が活発なほどスカウトが届きやすく、スキル偏差値が高いと声がかかりやすい構造です。求人数自体は非明示で確認できません。</p>
           <p className="text-slate-600 leading-relaxed mb-4">Forkwellはスカウト文面の質を重視する方針で、量より質の傾向があります。求人数は媒体間で数値が割れており確認できませんが、ばら撒きではなく、ポートフォリオを読んだ上で送られる丁寧なスカウトが評価されています。どちらも「数で押す」タイプではないため、プロフィールの充実度が結果を左右します。</p>
-          <p className="text-slate-600 leading-relaxed text-sm">スカウトの仕組みと付き合い方は<Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトの仕組み解説</Link>も参考になります。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">スカウトの仕組みと付き合い方は<Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトの仕組み解説</Link>も参考になります。</p>
         </section>
 
         <section id="community" className="mb-12 scroll-mt-20">
@@ -136,7 +136,7 @@ export default function FindyVsForkwellPage() {
 
         <section id="area" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較④：求人エリア・対象層</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">正直にお伝えすると、FindyもForkwellも首都圏中心です。Findyは地方求人が少なめ、Forkwellも首都圏集中の傾向があります。地方在住の場合はフルリモート求人を狙うか、地方求人を扱うサービスとの併用が現実的です。フルリモート前提の求人探しは<Link href="/compare/remote-agents/" className="text-blue-600 hover:underline">リモート向けエージェント比較</Link>もあわせてご確認ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">正直にお伝えすると、FindyもForkwellも首都圏中心です。Findyは地方求人が少なめ、Forkwellも首都圏集中の傾向があります。地方在住の場合はフルリモート求人を狙うか、地方求人を扱うサービスとの併用が現実的です。フルリモート前提の求人探しは<Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモート向けエージェント比較</Link>もあわせてご確認ください。</p>
           <p className="text-slate-600 leading-relaxed mb-4">対象層は、Findyがモダン言語のハイスキル即戦力、Forkwellが中〜上級でWeb自社開発志向の発信好きな層です。どちらも実務経験のあるエンジニア向けで、未経験者には不向きです。</p>
         </section>
 
@@ -148,7 +148,7 @@ export default function FindyVsForkwellPage() {
               <li><strong>② 技術発信を増やす：</strong>Forkwellは発信の質が評価軸です。課題→試行→解決の思考過程が伝わる記事を投稿しておくと、スカウト文面の精度が上がります。</li>
               <li><strong>③ 技術スタックのミスマッチを疑う：</strong>Findyはモダン言語の即戦力に強い設計です。扱う言語が合っていないとスカウトが伸びにくいことがあります。</li>
               <li><strong>④ エリアの問題を切り分ける：</strong>両サービスとも首都圏中心です。地方在住ならフルリモート可の希望を明記し、地方求人を扱うサービスを併用しましょう。</li>
-              <li><strong>⑤ 評価軸の違うサービスを併用する：</strong>GitHubに活動が少ない人は、Web全体の発信を見るLAPRASやコーディングテストの<Link href="/review/paiza/" className="text-blue-600 hover:underline">paiza</Link>の方が刺さることもあります。</li>
+              <li><strong>⑤ 評価軸の違うサービスを併用する：</strong>GitHubに活動が少ない人は、Web全体の発信を見るLAPRASやコーディングテストの<Link href="/review/paiza/" className="text-petrol hover:underline">paiza</Link>の方が刺さることもあります。</li>
             </ul>
           </div>
         </section>
@@ -179,9 +179,9 @@ export default function FindyVsForkwellPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">Findyが向いている人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">{goodFindy.map((t, i) => (<li key={i}>✓ {t}</li>))}</ul>
+              <ul className="space-y-2 text-sm text-petrol-deep">{goodFindy.map((t, i) => (<li key={i}>✓ {t}</li>))}</ul>
             </div>
             <div className="bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3">Forkwellが向いている人</h3>
@@ -201,7 +201,7 @@ export default function FindyVsForkwellPage() {
                 { num: "3", title: "両方のスカウトを比較（推奨）", desc: "切り口の違う企業から届くスカウトを比較し、自分がどの軸で評価されやすいかを把握。スカウトが偏る場合は、評価軸の違うLAPRASやpaizaの併用も検討します。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p></div>
                 </div>
               ))}
@@ -213,7 +213,7 @@ export default function FindyVsForkwellPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだ30代・40代エンジニアの市場価値は高いものの、FindyとForkwellは「コードや発信で実力を示せる人」に最適化されている点を理解しておくことが大切です。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>現役でコードを書き続けているなら、FindyのGitHub偏差値は強力な武器になります。年齢ではなく技術で評価されるため、転職市場での自分の立ち位置を客観視できます。発信や学習が好きなタイプはForkwellのコミュニティとも相性が良く、両方使って市場価値を測るのがおすすめです。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>40代でもGitHubが活発であれば、Findyは年齢より技術を評価してくれます。一方で、マネジメント中心でコードを書かなくなった方は、これらのサービスでは実力が伝わりにくいのが正直なところです。その場合は、マネジメント経験を評価するハイクラススカウト型（<Link href="/compare/scout-agents/" className="text-blue-600 hover:underline">スカウト型サービス一覧</Link>のハイクラス型）の併用を検討してください。現役で手を動かす40代には、FindyとForkwellは年齢の壁を越える有効な手段です。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>40代でもGitHubが活発であれば、Findyは年齢より技術を評価してくれます。一方で、マネジメント中心でコードを書かなくなった方は、これらのサービスでは実力が伝わりにくいのが正直なところです。その場合は、マネジメント経験を評価するハイクラススカウト型（<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービス一覧</Link>のハイクラス型）の併用を検討してください。現役で手を動かす40代には、FindyとForkwellは年齢の壁を越える有効な手段です。</p>
         </section>
 
         <section id="faq" className="mb-12 scroll-mt-20">
@@ -231,7 +231,7 @@ export default function FindyVsForkwellPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">コードと発信、両方の軸で評価されよう</h2>
           <p className="text-blue-100 text-sm mb-4">FindyでGitHub実績を可視化し、Forkwellでポートフォリオと発信を見せる。どちらも無料の今、両方登録してスカウトの傾向を比較するのが最短です。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめサービスランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -245,7 +245,7 @@ export default function FindyVsForkwellPage() {
               { name: "LAPRASの評判・口コミ", href: "/review/lapras/" },
               { name: "paizaの評判・口コミ", href: "/review/paiza/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

@@ -174,7 +174,7 @@ export default function PmToCtoPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -184,7 +184,7 @@ export default function PmToCtoPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PMからの現実的な到達点はVPoE</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-2">
               PM経験者がまず狙うべきは、組織マネジメントが主領域の<strong>VPoE（または前段のEM）</strong>です。PMの調整力・推進力・経営との折衝経験がそのまま武器になります。
             </p>
@@ -204,7 +204,7 @@ export default function PmToCtoPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">ポジション</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">主な役割</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">PMからの入りやすさ</th>
@@ -231,7 +231,7 @@ export default function PmToCtoPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">領域</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">現職PMの業務</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">CTO/VPoEに必要なこと</th>
@@ -289,7 +289,7 @@ export default function PmToCtoPage() {
           <div className="space-y-4">
             {skills.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -301,8 +301,8 @@ export default function PmToCtoPage() {
           </div>
           <p className="text-slate-600 text-sm mt-4 leading-relaxed">
             PMとしての土台に加え、純粋なマネジメント力の整理は
-            <Link href="/skill/pm/" className="text-blue-600 hover:underline">PMスキルガイド</Link>や
-            <Link href="/knowledge/management/" className="text-blue-600 hover:underline">エンジニアのマネジメント転身</Link>も参考になります。
+            <Link href="/skill/pm/" className="text-petrol hover:underline">PMスキルガイド</Link>や
+            <Link href="/knowledge/management/" className="text-petrol hover:underline">エンジニアのマネジメント転身</Link>も参考になります。
           </p>
         </section>
 
@@ -344,7 +344,7 @@ export default function PmToCtoPage() {
           </div>
           <p className="text-slate-600 text-sm mt-4 leading-relaxed">
             数値は実績に基づき正確に。誇張せず、関与した意思決定の粒度を具体的に書くことが信頼につながります。書類全体の構成は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニア職務経歴書の書き方</Link>を参照してください。
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニア職務経歴書の書き方</Link>を参照してください。
           </p>
         </section>
 
@@ -358,9 +358,9 @@ export default function PmToCtoPage() {
           </p>
           <p className="text-slate-600 text-sm leading-relaxed">
             年収レンジの詳細は
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収</Link>、
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>、
             交渉の進め方は
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>も参考になります。
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>も参考になります。
           </p>
         </section>
 
@@ -396,7 +396,7 @@ export default function PmToCtoPage() {
               "副業・技術顧問で「経営に近い意思決定」を先に経験しておくと、選考での説得力が増す",
             ].map((t, i) => (
               <li key={i} className="flex gap-2">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span>{t}</span>
               </li>
             ))}
@@ -425,7 +425,7 @@ export default function PmToCtoPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -445,7 +445,7 @@ export default function PmToCtoPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

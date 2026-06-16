@@ -120,7 +120,7 @@ export default function SideProjectPage() {
 
         {/* 結論ファースト */}
         <section className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：①就業規則を確認 → ②実績を職務経歴書・面接で具体化 → ③面接を最優先に時間配分</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-2">
               副業は転職活動の強い武器になります。ただし進め方には順序があります。<strong>まず現職の就業規則で副業の可否・競業避止・秘密保持を確認</strong>し、問題なければ<strong>副業の成果を本業と同じ粒度で具体的にアピール</strong>します。両立中は<strong>日程が固定される面接を最優先</strong>に時間を配分しましょう。
@@ -134,7 +134,7 @@ export default function SideProjectPage() {
         {/* 目次 */}
         <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ul className="space-y-2 text-sm text-blue-700">
+          <ul className="space-y-2 text-sm text-petrol-deep">
             <li><a href="#rule" className="hover:underline">まず確認：現職の就業規則と注意点</a></li>
             <li><a href="#merit" className="hover:underline">副業が転職活動に効く理由</a></li>
             <li><a href="#appeal" className="hover:underline">副業実績のアピール方法（記入見本）</a></li>
@@ -174,7 +174,7 @@ export default function SideProjectPage() {
             <ul className="space-y-3">
               {checkRules.map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>
+                  <span className="text-petrol font-bold shrink-0">✓</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -193,7 +193,7 @@ export default function SideProjectPage() {
               { num: "4", title: "企業文化を体験できる", desc: "副業先での働き方を通じて、その企業の文化を事前に体験できる。そのまま正社員転職につながるケースもある。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -286,13 +286,13 @@ export default function SideProjectPage() {
         <section id="after" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職後の副業継続と確認事項</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">面接・内定後に条件を確認する</h3>
-              <p className="text-sm text-blue-700">入社後も副業を続けたい場合は、面接や内定承諾前に「副業の可否」「許可制か」「競業の範囲」を確認し、可能なら書面で残しておきましょう。条件比較は<Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">オファー比較ガイド</Link>も参考に。</p>
+              <p className="text-sm text-petrol-deep">入社後も副業を続けたい場合は、面接や内定承諾前に「副業の可否」「許可制か」「競業の範囲」を確認し、可能なら書面で残しておきましょう。条件比較は<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">オファー比較ガイド</Link>も参考に。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">転職先には正直に伝える</h3>
-              <p className="text-sm text-blue-700">副業の有無は隠さず伝え、得たスキルを前向きに説明するのが基本。隠して後から発覚するより、最初に共有して条件をすり合わせる方が信頼につながります。</p>
+              <p className="text-sm text-petrol-deep">副業の有無は隠さず伝え、得たスキルを前向きに説明するのが基本。隠して後から発覚するより、最初に共有して条件をすり合わせる方が信頼につながります。</p>
             </div>
           </div>
         </section>
@@ -301,17 +301,17 @@ export default function SideProjectPage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点での副業×転職</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：スキルの掛け算で市場価値を上げる</h3>
-              <p className="text-sm text-blue-700">本業の専門性に、副業で別領域の経験を掛け合わせることで差別化できる世代。育児等で時間に制約がある場合は、短時間で成果が見える技術ブログやOSSから始めるのも手。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>を参照。</p>
+              <p className="text-sm text-petrol-deep">本業の専門性に、副業で別領域の経験を掛け合わせることで差別化できる世代。育児等で時間に制約がある場合は、短時間で成果が見える技術ブログやOSSから始めるのも手。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参照。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：マネジメント・技術顧問の経験を実績化</h3>
-              <p className="text-sm text-blue-700">技術顧問やスポット支援など、これまでの経験を活かせる副業は40代と相性が良い。組織づくり・技術選定の経験を実績として言語化すると、シニアポジションの選考で評価されやすい。</p>
+              <p className="text-sm text-petrol-deep">技術顧問やスポット支援など、これまでの経験を活かせる副業は40代と相性が良い。組織づくり・技術選定の経験を実績として言語化すると、シニアポジションの選考で評価されやすい。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">健康と家庭への配慮を忘れない</h3>
-              <p className="text-sm text-blue-700">30代・40代は体力・家庭の負荷が増える時期。副業・転職活動を詰め込みすぎると本業にも支障が出る。優先順位を決め、休息を計画に入れることが長期的な成功につながる。</p>
+              <p className="text-sm text-petrol-deep">30代・40代は体力・家庭の負荷が増える時期。副業・転職活動を詰め込みすぎると本業にも支障が出る。優先順位を決め、休息を計画に入れることが長期的な成功につながる。</p>
             </div>
           </div>
         </section>
@@ -340,7 +340,7 @@ export default function SideProjectPage() {
           </p>
           <Link
             href="/compare/agents/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             IT転職エージェント比較を見る
           </Link>
@@ -360,7 +360,7 @@ export default function SideProjectPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

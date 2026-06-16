@@ -99,7 +99,7 @@ export default function PanasonicCompanyPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}><a href={`#${t.id}`} className="hover:underline">{t.label}</a></li>
             ))}
@@ -108,7 +108,7 @@ export default function PanasonicCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：パナソニック転職の難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
             <p><strong>難易度は高め。ただし事業会社ごとの通年採用のため、専門性が募集要件に合えば30代・40代でもチャンスは十分。IT/ソフトウェアはコネクト社が中心。</strong></p>
             <p>・<strong>向く人</strong>：B2B/SCMのDX・SaaS開発、組み込み/IoT/エッジ、クラウド、AI/画像解析の実務経験者、製造現場×ITに関心がある人。</p>
             <p>・<strong>向きにくい人</strong>：単一のWebプロダクトのみを志向する人、事業会社・部署による文化差を許容しにくい人。</p>
@@ -136,17 +136,17 @@ export default function PanasonicCompanyPage() {
         <section id="features" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 持株会社制・事業会社ごとの採用</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">パナソニックは持株会社制のもと、事業会社ごとに採用・人事制度が分かれています。IT/ソフトウェアの中心はB2B/DXを担うパナソニック コネクトで、事業会社単位で求人と報酬体系が異なる点を踏まえて応募先を選ぶことが重要です（出典：パナソニック 公式情報）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">パナソニックは持株会社制のもと、事業会社ごとに採用・人事制度が分かれています。IT/ソフトウェアの中心はB2B/DXを担うパナソニック コネクトで、事業会社単位で求人と報酬体系が異なる点を踏まえて応募先を選ぶことが重要です（出典：パナソニック 公式情報）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. パナソニック コネクトのB2B/DX・Blue Yonder活用</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">コネクト社はサプライチェーン管理、現場プロセスのDX、映像セキュリティなどのB2Bソリューションを展開。買収したSCM領域のSaaS企業Blue Yonderの研究開発を強化し、現場データ×AIによる付加価値創出に取り組んでいます（出典：パナソニック コネクト 公式・OpenWork傾向）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">コネクト社はサプライチェーン管理、現場プロセスのDX、映像セキュリティなどのB2Bソリューションを展開。買収したSCM領域のSaaS企業Blue Yonderの研究開発を強化し、現場データ×AIによる付加価値創出に取り組んでいます（出典：パナソニック コネクト 公式・OpenWork傾向）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. くらし×テクノロジー／車載電池などの幅広い技術領域</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">スマートホーム・家電IoTなど「くらし」の領域から、パナソニック エナジーの車載電池まで、組み込みからクラウドまで幅広い技術領域があります。製造DX・品質管理AIなど、現場とソフトウェアが交差する領域に強みがあります（出典：パナソニック 公式情報）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">スマートホーム・家電IoTなど「くらし」の領域から、パナソニック エナジーの車載電池まで、組み込みからクラウドまで幅広い技術領域があります。製造DX・品質管理AIなど、現場とソフトウェアが交差する領域に強みがあります（出典：パナソニック 公式情報）。</p>
             </div>
           </div>
         </section>
@@ -158,11 +158,11 @@ export default function PanasonicCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>B2B/SCM DX（Blue Yonder）</strong>：サプライチェーンSaaSの開発・AI活用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>組み込み/IoT/エッジ</strong>：家電・現場機器・映像セキュリティのコネクテッド化</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド／データ基盤</strong>：B2Bソリューション基盤の構築・運用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AI/画像解析</strong>：現場プロセスの自動化・品質管理</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>製造DX／車載電池</strong>：エナジー社などでの製造現場×ソフトウェア領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>B2B/SCM DX（Blue Yonder）</strong>：サプライチェーンSaaSの開発・AI活用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>組み込み/IoT/エッジ</strong>：家電・現場機器・映像セキュリティのコネクテッド化</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド／データ基盤</strong>：B2Bソリューション基盤の構築・運用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI/画像解析</strong>：現場プロセスの自動化・品質管理</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>製造DX／車載電池</strong>：エナジー社などでの製造現場×ソフトウェア領域</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-3">※公式統一スタックは公表されていないため、公開情報で確認できた技術領域のみを記載しています。</p>
@@ -178,7 +178,7 @@ export default function PanasonicCompanyPage() {
             </p>
           </div>
           <p className="text-slate-700 text-sm leading-relaxed">
-            パナソニックは事業会社ごとにエンジニア職の<strong>等級別年収を公式に公表していません</strong>。当ガイドでは出典の取れない等級別年収表は掲載しません。実際の提示額は応募する事業会社・職種・経験で変動するため、求人票か転職エージェント経由で確認するのが確実です。交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉ガイド</Link>、市場価値の考え方は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の見極め方</Link>を参照してください。
+            パナソニックは事業会社ごとにエンジニア職の<strong>等級別年収を公式に公表していません</strong>。当ガイドでは出典の取れない等級別年収表は掲載しません。実際の提示額は応募する事業会社・職種・経験で変動するため、求人票か転職エージェント経由で確認するのが確実です。交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉ガイド</Link>、市場価値の考え方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の見極め方</Link>を参照してください。
           </p>
         </section>
 
@@ -193,7 +193,7 @@ export default function PanasonicCompanyPage() {
               ["内定・条件提示", "オファー提示を経て決定。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                 <div><p className="font-medium text-slate-800 text-sm">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
               </li>
             ))}
@@ -207,20 +207,20 @@ export default function PanasonicCompanyPage() {
             公開情報・口コミの傾向として、次の観点が重視されると言われています（実在しない質問リストの断定は避け、傾向のみ記載）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>応募する事業会社・職種の<strong>専門要件との合致</strong>（B2B/SCM、組み込み、AI等）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>業務の<strong>規模・役割・成果</strong>を具体的に説明できるか</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>カルチャー改革・成果ベース評価への適応姿勢</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>製造現場・SCMなどドメイン知識（あれば加点要素）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>応募する事業会社・職種の<strong>専門要件との合致</strong>（B2B/SCM、組み込み、AI等）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>業務の<strong>規模・役割・成果</strong>を具体的に説明できるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>カルチャー改革・成果ベース評価への適応姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>製造現場・SCMなどドメイン知識（あれば加点要素）</li>
           </ul>
-          <p className="text-xs text-slate-400 mt-2">出典：パナソニック コネクト 公式採用情報＋口コミの傾向要約。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の準備</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-2">出典：パナソニック コネクト 公式採用情報＋口コミの傾向要約。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>を参照。</p>
         </section>
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たパナソニック転職</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>パナソニックは事業会社ごとの通年・専門性重視の採用のため、<strong>30代・40代の即戦力エンジニア</strong>が応募しやすい構造です。B2B/SCM、組み込み/IoT、製造DXなど特定領域の深い経験は、ミドル層の強みになります。</p>
-            <p>製造業・現場系の経験を持つエンジニアにとっては、パナソニックの「現場×ソフトウェア」の領域が経験を活かしやすい場面です。<Link href="/industry/manufacturing/" className="text-blue-600 hover:underline">製造業からのIT転職ガイド</Link>で、現場知識を武器に変える考え方を整理しておくと、志望動機に説得力が増します。</p>
-            <p>一方、口コミでは「カルチャー改革が進む事業会社（コネクト等）」と「年齢層が高くキャリア形成に課題を感じる現場」が混在するとの声があります。30代・40代は応募先の事業会社・部署のカルチャーと評価制度を面接段階で具体的に確認することが、転職後の満足度を左右します。40代の留意点は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>も参考にしてください。</p>
+            <p>製造業・現場系の経験を持つエンジニアにとっては、パナソニックの「現場×ソフトウェア」の領域が経験を活かしやすい場面です。<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業からのIT転職ガイド</Link>で、現場知識を武器に変える考え方を整理しておくと、志望動機に説得力が増します。</p>
+            <p>一方、口コミでは「カルチャー改革が進む事業会社（コネクト等）」と「年齢層が高くキャリア形成に課題を感じる現場」が混在するとの声があります。30代・40代は応募先の事業会社・部署のカルチャーと評価制度を面接段階で具体的に確認することが、転職後の満足度を左右します。40代の留意点は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -232,13 +232,13 @@ export default function PanasonicCompanyPage() {
               { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚い。大手メーカーへの転職支援に強く、事業会社別の選考準備をサポート。" },
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。メーカーのDX部門・SaaS・IoT関連ポジションの求人に強い。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500 leading-relaxed">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数社の併用が一般的です。使い分けは<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェント複数利用のコツ</Link>を参照してください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数社の併用が一般的です。使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェント複数利用のコツ</Link>を参照してください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -259,7 +259,7 @@ export default function PanasonicCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">パナソニックへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手メーカー・B2B/DX領域への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/doda-it/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/doda-it/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -273,7 +273,7 @@ export default function PanasonicCompanyPage() {
               { name: "富士通 エンジニア転職ガイド", href: "/company/fujitsu/" },
               { name: "40代エンジニアの転職", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

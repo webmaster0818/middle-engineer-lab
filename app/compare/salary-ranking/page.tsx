@@ -164,7 +164,7 @@ const rows: Row[] = [
 
 const typeBadge = (type: Row["type"]) =>
   type === "IT特化型"
-    ? "bg-blue-100 text-blue-700"
+    ? "bg-petrol-soft text-petrol-deep"
     : type === "ハイクラス"
     ? "bg-purple-100 text-purple-700"
     : type === "転職サイト"
@@ -235,7 +235,7 @@ export default function SalaryRankingPage() {
         {/* 目次 */}
         <nav className="bg-slate-50 border border-slate-200 rounded-lg p-5 mb-10" aria-label="目次">
           <p className="font-bold text-slate-700 mb-3">目次</p>
-          <ol className="space-y-2 text-sm text-blue-600">
+          <ol className="space-y-2 text-sm text-petrol">
             {toc.map((item) => (
               <li key={item.id}>
                 <a href={`#${item.id}`} className="hover:underline">
@@ -261,7 +261,7 @@ export default function SalaryRankingPage() {
           </div>
           <p className="text-slate-600 text-sm leading-relaxed">
             そのため本記事ではあえて順位をつけず、各社の公表値を「取得時点」と「母集団の定義」付きで並べます。年収アップを狙うなら、数値のランキングを追うより、<strong>自分の領域・年代に強いIT特化型を軸に2〜3社を併用し、複数オファーで交渉する</strong>のが現実的です。順位付けをしない方針の背景は
-            <Link href="/editorial/" className="text-blue-600 hover:underline">
+            <Link href="/editorial/" className="text-petrol hover:underline">
               記事制作ポリシー
             </Link>
             に基づいています。
@@ -286,7 +286,7 @@ export default function SalaryRankingPage() {
                 {rows.map((r) => (
                   <tr key={r.slug} className="hover:bg-slate-50 align-top">
                     <td className="px-3 py-3 border border-slate-200 font-medium">
-                      <Link href={r.review} className="text-blue-600 hover:underline">
+                      <Link href={r.review} className="text-petrol hover:underline">
                         {r.name}
                       </Link>
                     </td>
@@ -374,7 +374,7 @@ export default function SalaryRankingPage() {
                     </p>
                   )}
                   <p className="text-sm text-slate-600">{r.note}</p>
-                  <Link href={r.review} className="inline-block mt-2 text-xs text-blue-600 hover:underline">
+                  <Link href={r.review} className="inline-block mt-2 text-xs text-petrol hover:underline">
                     {r.name}の詳細レビューを見る →
                   </Link>
                 </div>
@@ -411,9 +411,9 @@ export default function SalaryRankingPage() {
                 d: "IT特化型は業界の年収相場に精通しているため、適切な交渉がしやすい傾向があります。総合型を併用して求人の母数も確保しましょう。",
               },
             ].map((item, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{item.t}</h3>
-                <p className="text-sm text-blue-700">{item.d}</p>
+                <p className="text-sm text-petrol-deep">{item.d}</p>
               </div>
             ))}
           </div>
@@ -431,7 +431,7 @@ export default function SalaryRankingPage() {
                 { num: "4", title: "内定後に交渉する", desc: "交渉は内定後が最も効果的です。企業が『採りたい』と決めた後なら余地が生まれやすく、気まずい交渉はエージェントに代行してもらえます。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                     {item.num}
                   </span>
                   <div>
@@ -444,7 +444,7 @@ export default function SalaryRankingPage() {
           </div>
           <p className="text-sm text-slate-600 mt-4">
             交渉の進め方は
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">
               年収交渉の完全ガイド
             </Link>
             で詳しく解説しています。
@@ -466,15 +466,15 @@ export default function SalaryRankingPage() {
             </p>
             <p>
               年代別の年収相場は
-              <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">
+              <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">
                 30代の年収相場
               </Link>
               ・
-              <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">
+              <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">
                 40代の年収相場
               </Link>
               、転職で年収が上がるかは
-              <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">
+              <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">
                 エンジニア転職で年収は上がる？
               </Link>
               で解説しています。
@@ -506,7 +506,7 @@ export default function SalaryRankingPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -526,7 +526,7 @@ export default function SalaryRankingPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

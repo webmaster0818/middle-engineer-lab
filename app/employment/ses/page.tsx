@@ -128,15 +128,15 @@ export default function SesPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：SESは「準委任の常駐」。会社選びで明暗が分かれる</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               SESは、SES企業に正社員として雇用され、準委任契約で客先に常駐する働き方です。雇用の安定と幅広い経験が得られる一方、多重下請けでは中間マージンが重なり給与が目減りしやすく、偽装請負のリスクもあります。「SESかどうか」より「どの階層・どんな育成方針のSESか」が重要で、会社と案件の選び方で評価が大きく分かれます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">1.</span>準委任の常駐サービス。指揮命令はSES企業側にあるのが原則。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">2.</span>多重下請けが深いほど、現場単価に対しエンジニアの給与は下がりやすい。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">3.</span>客先が直接指揮命令している実態なら偽装請負（違法）に注意。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>準委任の常駐サービス。指揮命令はSES企業側にあるのが原則。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>多重下請けが深いほど、現場単価に対しエンジニアの給与は下がりやすい。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>客先が直接指揮命令している実態なら偽装請負（違法）に注意。</li>
             </ul>
           </div>
         </section>
@@ -147,7 +147,7 @@ export default function SesPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ol>
@@ -160,7 +160,7 @@ export default function SesPage() {
             SES（システムエンジニアリングサービス）は、SES企業がエンジニアの<strong>技術力・労働力を準委任契約で提供</strong>し、客先に常駐して開発・運用などの業務を支援するサービスです。エンジニアは多くの場合、SES企業の正社員として雇用され、給与・社会保険・賞与などの保障を受けながら、契約に基づき客先で働きます。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            準委任契約であるため、SESは「業務の遂行」に対して報酬が支払われ、成果物の完成義務は原則負いません。この点で、仕事の完成に責任を負う請負とは異なります。雇用形態全体の中での位置づけは<Link href="/employment/" className="text-blue-600 hover:underline">エンジニアの雇用形態の違い</Link>で横断的に整理しています。
+            準委任契約であるため、SESは「業務の遂行」に対して報酬が支払われ、成果物の完成義務は原則負いません。この点で、仕事の完成に責任を負う請負とは異なります。雇用形態全体の中での位置づけは<Link href="/employment/" className="text-petrol hover:underline">エンジニアの雇用形態の違い</Link>で横断的に整理しています。
           </p>
         </section>
 
@@ -181,8 +181,8 @@ export default function SesPage() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-blue-50">
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">SES</td>
+                <tr className="bg-petrol-soft">
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">SES</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">準委任</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">SES企業側</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">原則なし</td>
@@ -204,7 +204,7 @@ export default function SesPage() {
           </div>
           <p className="text-xs text-slate-500 mb-2">出典: 労働者派遣法・民法上の契約類型。SESで客先が直接指揮命令している実態は偽装請負として違法になり得ます。</p>
           <p className="text-slate-600 leading-relaxed text-sm">
-            派遣エンジニアの詳細は<Link href="/employment/dispatch/" className="text-blue-600 hover:underline">派遣エンジニア</Link>、請負（業務委託）の詳細は<Link href="/employment/gyomu-itaku/" className="text-blue-600 hover:underline">業務委託（準委任・請負）</Link>で解説しています。
+            派遣エンジニアの詳細は<Link href="/employment/dispatch/" className="text-petrol hover:underline">派遣エンジニア</Link>、請負（業務委託）の詳細は<Link href="/employment/gyomu-itaku/" className="text-petrol hover:underline">業務委託（準委任・請負）</Link>で解説しています。
           </p>
         </section>
 
@@ -223,7 +223,7 @@ export default function SesPage() {
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            参考として、厚生労働省 job tag（令和7年）では業務用システムSEが約550.5万円、経済産業省の調査ではITSSレベル別にL3で約576万円・L4で約726万円とされています（いずれも同一区分・レベル別の公表値で、SES固有の平均ではありません）。SESかどうかではなく、自分のスキルレベルと所属企業の階層を踏まえて相場を捉えることが重要です。年収帯ごとの必要スキルは<Link href="/salary/" className="text-blue-600 hover:underline">年収帯別ガイド</Link>を参照してください。
+            参考として、厚生労働省 job tag（令和7年）では業務用システムSEが約550.5万円、経済産業省の調査ではITSSレベル別にL3で約576万円・L4で約726万円とされています（いずれも同一区分・レベル別の公表値で、SES固有の平均ではありません）。SESかどうかではなく、自分のスキルレベルと所属企業の階層を踏まえて相場を捉えることが重要です。年収帯ごとの必要スキルは<Link href="/salary/" className="text-petrol hover:underline">年収帯別ガイド</Link>を参照してください。
           </p>
         </section>
 
@@ -303,7 +303,7 @@ export default function SesPage() {
               ["契約と実態の整合", "指揮命令の所在が明確で、偽装請負になっていないか。"],
             ].map(([title, desc], i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{desc}</p>
@@ -317,13 +317,13 @@ export default function SesPage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代がSESと向き合う視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">『経験の中身』を上流・専門に寄せる</h3>
-              <p className="text-sm text-blue-700">30代・40代では、現場数の多さより「どんな工程・役割を担ったか」が評価されます。SESにいる場合でも、上流や専門性の高い案件に手を挙げ、経験の中身を質の高いものに寄せていくことが、次のキャリアへの分岐点になります。</p>
+              <p className="text-sm text-petrol-deep">30代・40代では、現場数の多さより「どんな工程・役割を担ったか」が評価されます。SESにいる場合でも、上流や専門性の高い案件に手を挙げ、経験の中身を質の高いものに寄せていくことが、次のキャリアへの分岐点になります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">次の雇用形態・年収帯を見据えて動く</h3>
-              <p className="text-sm text-blue-700">SESで積んだ経験は、自社開発・社内SE・上流工程・フリーランスなどの土台になります。担当業務・技術・役割を職務経歴書で再現性のある形に整理し、市場価値と相場を把握したうえで、次の<Link href="/salary/" className="text-blue-600 hover:underline">年収帯</Link>や<Link href="/employment/" className="text-blue-600 hover:underline">雇用形態</Link>を選んでいくのが現実的です。</p>
+              <p className="text-sm text-petrol-deep">SESで積んだ経験は、自社開発・社内SE・上流工程・フリーランスなどの土台になります。担当業務・技術・役割を職務経歴書で再現性のある形に整理し、市場価値と相場を把握したうえで、次の<Link href="/salary/" className="text-petrol hover:underline">年収帯</Link>や<Link href="/employment/" className="text-petrol hover:underline">雇用形態</Link>を選んでいくのが現実的です。</p>
             </div>
           </div>
         </section>
@@ -350,7 +350,7 @@ export default function SesPage() {
           <p className="text-blue-100 text-sm mb-4">
             自社開発・社内SE・上流など、次のキャリアの選択肢と提示年収を確認してから判断するのが安全です。
           </p>
-          <Link href="/compare/agents/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/compare/agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             IT転職エージェント比較を見る
           </Link>
         </section>
@@ -367,7 +367,7 @@ export default function SesPage() {
               { name: "契約社員と無期転換ルール", href: "/employment/contract-employee/" },
               { name: "年収帯別ガイド", href: "/salary/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

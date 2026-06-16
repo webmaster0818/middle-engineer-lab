@@ -112,7 +112,7 @@ export default function KaonaviCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               カオナビは<strong>PHP/LaravelとGoでタレントマネジメントSaaSを開発する、HR Tech領域のリーディング企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収690万円（2025年3月期 有報）はSaaS業界では高めの水準です。2025年のTOBで非公開化され、機動的な経営体制での非連続成長を掲げています。
@@ -130,7 +130,7 @@ export default function KaonaviCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -156,17 +156,17 @@ export default function KaonaviCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">HR Tech・タレントマネジメントというドメイン</h3>
-              <p className="text-sm text-blue-700">タレントマネジメントシステム「カオナビ」は、社員情報を一元管理し人材活用を支援するSaaSで、国内シェア上位の実績があります。人事・組織課題というドメインに技術で向き合いたいエンジニアが活きる環境です。</p>
+              <p className="text-sm text-petrol-deep">タレントマネジメントシステム「カオナビ」は、社員情報を一元管理し人材活用を支援するSaaSで、国内シェア上位の実績があります。人事・組織課題というドメインに技術で向き合いたいエンジニアが活きる環境です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">PHP/LaravelとGoのハイブリッドな構成</h3>
-              <p className="text-sm text-blue-700">公開情報によると、開発言語はPHP・Go・TypeScript・Dart、フレームワークはLaravel・Gin・React・Flutterを採用しています。既存のPHPベースのコアと、Goやモダンフロントエンドを組み合わせた開発に関われる点が特徴です。</p>
+              <p className="text-sm text-petrol-deep">公開情報によると、開発言語はPHP・Go・TypeScript・Dart、フレームワークはLaravel・Gin・React・Flutterを採用しています。既存のPHPベースのコアと、Goやモダンフロントエンドを組み合わせた開発に関われる点が特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">非公開化後のマルチプロダクト化フェーズ</h3>
-              <p className="text-sm text-blue-700">2025年のTOBによる非公開化後は、カオナビ事業のさらなる進化やマルチプロダクト化・提供サービスの拡大を掲げています（公式リリース）。事業拡大フェーズで新しいプロダクトづくりに関わりたいエンジニアに向いた局面です。</p>
+              <p className="text-sm text-petrol-deep">2025年のTOBによる非公開化後は、カオナビ事業のさらなる進化やマルチプロダクト化・提供サービスの拡大を掲げています（公式リリース）。事業拡大フェーズで新しいプロダクトづくりに関わりたいエンジニアに向いた局面です。</p>
             </div>
           </div>
         </section>
@@ -178,10 +178,10 @@ export default function KaonaviCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>バックエンド</strong>：PHP / Laravel、Go / Gin</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>フロントエンド</strong>：TypeScript、React</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>モバイル</strong>：Dart / Flutter</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>データ／インフラ</strong>：MySQL、AWS、Terraform、Docker。コード管理は GitLab</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：PHP / Laravel、Go / Gin</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：TypeScript、React</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>モバイル</strong>：Dart / Flutter</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ／インフラ</strong>：MySQL、AWS、Terraform、Docker。コード管理は GitLab</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: カオナビ公式 採用ページ・技術情報等の公開記事。2026年6月時点で確認できる範囲。</p>
@@ -237,12 +237,12 @@ export default function KaonaviCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>PHP/Laravelや Go 等での実装力と設計の妥当性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>SaaSプロダクトの開発・運用経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>好きな言語・技術選定の理由を自分の言葉で語れるか</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>HR・人事領域への関心、チームでの協働姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>PHP/Laravelや Go 等での実装力と設計の妥当性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>SaaSプロダクトの開発・運用経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>好きな言語・技術選定の理由を自分の言葉で語れるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>HR・人事領域への関心、チームでの協働姿勢</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -255,7 +255,7 @@ export default function KaonaviCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。カオナビの全社員平均（690万円）はこれを上回りますが、これは全社平均であり、入社時の提示はスキル評価次第です。30代・40代は自分の市場価値を踏まえ、個別求人・面談で水準を確認することが重要です。
             </p>
             <p>
-              非公開化後はマルチプロダクト化フェーズにあり、新規プロダクトや事業拡大に関わりたいミドル層にとっては挑戦の機会がある局面です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              非公開化後はマルチプロダクト化フェーズにあり、新規プロダクトや事業拡大に関わりたいミドル層にとっては挑戦の機会がある局面です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -268,13 +268,13 @@ export default function KaonaviCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -295,7 +295,7 @@ export default function KaonaviCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">カオナビへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">SaaS・HR Tech企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -309,7 +309,7 @@ export default function KaonaviCompanyPage() {
               { name: "技術面接の対策", href: "/knowledge/tech-interview/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

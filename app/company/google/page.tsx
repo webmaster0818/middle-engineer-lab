@@ -137,7 +137,7 @@ export default function GoogleCompanyPage() {
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -147,7 +147,7 @@ export default function GoogleCompanyPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <h2 className="text-xl font-bold text-blue-900 mb-3">結論：難易度と向くエンジニア</h2>
             <p className="text-blue-900 text-sm leading-relaxed mb-3">
               Google日本法人のエンジニア中途採用は<strong>外資ITの中でも最難関クラス</strong>です。
@@ -161,9 +161,9 @@ export default function GoogleCompanyPage() {
             <p className="text-blue-900 text-sm leading-relaxed mt-3">
               逆に、特定言語・特定フレームワークの経験年数だけを売りにする転職活動では通りにくい企業です。
               まずは
-              <Link href="/knowledge/coding-test/" className="text-blue-700 underline font-medium">コーディングテスト対策</Link>
+              <Link href="/knowledge/coding-test/" className="text-petrol-deep underline font-medium">コーディングテスト対策</Link>
               と
-              <Link href="/knowledge/system-design/" className="text-blue-700 underline font-medium">システムデザイン面接の準備</Link>
+              <Link href="/knowledge/system-design/" className="text-petrol-deep underline font-medium">システムデザイン面接の準備</Link>
               から着手するのが王道です。
             </p>
           </div>
@@ -195,22 +195,22 @@ export default function GoogleCompanyPage() {
         <section id="hiring" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">構造化面接でブレを抑える</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Googleは公式に「同じ職種には共通の質問・評価基準を用いる構造化面接」を採用していると説明しています。面接官個人の好みではなく、決められた観点で評価される仕組みです。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">採用は委員会（Hiring Committee）の合議</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 個々の面接官が合否を決めるのではなく、面接フィードバックをもとにHiring
                 Committeeが合議で判断します。1人の面接が振るわなくても総合評価で見られる一方、複数領域で一定水準が求められます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">RSU比率の高い総報酬</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 基本給に加えRSU（制限付き株式）が総報酬の大きな割合を占めます。Alphabet株の値動きで実受取額が変わるため、提示額は「変動前提」で捉える必要があります。
               </p>
             </div>
@@ -225,10 +225,10 @@ export default function GoogleCompanyPage() {
             Cloudのプロダクト群を自社で運用していることが、公式の技術情報・OSS（GoやKubernetes等）から広く知られています。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>大規模・低レイテンシなシステムを前提とした設計思想（スケーラビリティ重視）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>コードレビュー・テスト・SRE的な運用文化が根付いていることが公開情報で知られる</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>Go・Kubernetes・TensorFlowなどOSSへの貢献を多数公開</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>クラウド領域は<Link href="/skill/go/" className="text-blue-600 hover:underline">Go</Link>・<Link href="/skill/kubernetes/" className="text-blue-600 hover:underline">Kubernetes</Link>のスキルが評価されやすい</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>大規模・低レイテンシなシステムを前提とした設計思想（スケーラビリティ重視）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>コードレビュー・テスト・SRE的な運用文化が根付いていることが公開情報で知られる</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Go・Kubernetes・TensorFlowなどOSSへの貢献を多数公開</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド領域は<Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>・<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>のスキルが評価されやすい</li>
           </ul>
         </section>
 
@@ -270,7 +270,7 @@ export default function GoogleCompanyPage() {
           </p>
           <p className="text-slate-600 text-sm mt-4">
             外資の高年収レンジと国内企業の差については
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収相場</Link>
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>
             も参考にしてください。
           </p>
         </section>
@@ -287,7 +287,7 @@ export default function GoogleCompanyPage() {
               ["オファー", "条件提示。リクルーター連絡からオファーまで平均8週間程度との二次情報もあります（時期・職種で変動）。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
                 <div>
                   <p className="font-bold text-slate-800">{title}</p>
                   <p className="text-slate-600">{desc}</p>
@@ -307,10 +307,10 @@ export default function GoogleCompanyPage() {
             公式に「具体的な質問リスト」は公開されていないため、ここでは<strong>公開情報と一般に知られている範囲</strong>に留めて整理します。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>コーディング</strong>：データ構造・アルゴリズムを使い、思考過程を声に出して説明できるか</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>システムデザイン</strong>：要件整理・トレードオフ・スケーラビリティの議論ができるか（<Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">対策ガイド</Link>）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>行動面接</strong>：曖昧さへの対応・協働・学習姿勢（いわゆるGoogleyness）。<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接の答え方</Link>でSTAR法を確認</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>英語</strong>：面接・業務とも英語中心のポジションが多く、技術を英語で説明できること</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>コーディング</strong>：データ構造・アルゴリズムを使い、思考過程を声に出して説明できるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>システムデザイン</strong>：要件整理・トレードオフ・スケーラビリティの議論ができるか（<Link href="/knowledge/system-design/" className="text-petrol hover:underline">対策ガイド</Link>）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>行動面接</strong>：曖昧さへの対応・協働・学習姿勢（いわゆるGoogleyness）。<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接の答え方</Link>でSTAR法を確認</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>英語</strong>：面接・業務とも英語中心のポジションが多く、技術を英語で説明できること</li>
           </ul>
         </section>
 
@@ -355,13 +355,13 @@ export default function GoogleCompanyPage() {
             </p>
             <p>
               準備の進め方は
-              <Link href="/career/domestic-to-foreign/" className="text-blue-600 hover:underline">国内企業から外資系への転職</Link>
+              <Link href="/career/domestic-to-foreign/" className="text-petrol hover:underline">国内企業から外資系への転職</Link>
               、英語面での不安は
-              <Link href="/purpose/english/" className="text-blue-600 hover:underline">英語を使う仕事への転職</Link>
+              <Link href="/purpose/english/" className="text-petrol hover:underline">英語を使う仕事への転職</Link>
               、応募ルート設計は
-              <Link href="/knowledge/referral/" className="text-blue-600 hover:underline">リファラル採用の活用</Link>
+              <Link href="/knowledge/referral/" className="text-petrol hover:underline">リファラル採用の活用</Link>
               ・
-              <Link href="/knowledge/linkedin/" className="text-blue-600 hover:underline">LinkedIn活用</Link>
+              <Link href="/knowledge/linkedin/" className="text-petrol hover:underline">LinkedIn活用</Link>
               が参考になります。
             </p>
           </div>
@@ -376,7 +376,7 @@ export default function GoogleCompanyPage() {
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。技術職の選考対策やキャリアの棚卸しに強い。" },
               { name: "リクルートエージェントIT", href: "/review/recruit-it/", desc: "国内最大級の求人網。外資・大手の選択肢を広く比較したい人向け。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
@@ -411,7 +411,7 @@ export default function GoogleCompanyPage() {
           </p>
           <Link
             href="/review/bizreach-it/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントを見る
           </Link>
@@ -432,7 +432,7 @@ export default function GoogleCompanyPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

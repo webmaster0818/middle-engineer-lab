@@ -116,7 +116,7 @@ export default function TerraformAssociateCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -127,7 +127,7 @@ export default function TerraformAssociateCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Terraform Associateは誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Terraform Associateは<strong>「IaC実務の加点資格」</strong>です。アソシエイトレベルのため未経験を一気に押し上げるものではなく、すでにインフラ・クラウド経験のあるミドルが<strong>『コードでインフラを管理できる』ことを補強する</strong>のに最も効きます。
             </p>
@@ -214,7 +214,7 @@ export default function TerraformAssociateCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            IaC・自動化のキャリアは<Link href="/skill/terraform/" className="text-blue-600 hover:underline">Terraformエンジニア転職ガイド</Link>、DevOps全般は<Link href="/skill/devops/" className="text-blue-600 hover:underline">DevOpsエンジニア転職ガイド</Link>を参考にしてください。
+            IaC・自動化のキャリアは<Link href="/skill/terraform/" className="text-petrol hover:underline">Terraformエンジニア転職ガイド</Link>、DevOps全般は<Link href="/skill/devops/" className="text-petrol hover:underline">DevOpsエンジニア転職ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -253,7 +253,7 @@ export default function TerraformAssociateCertPage() {
             活用戦略は3つに整理できます。第一に<strong>IaCスキルの可視化</strong>。手作業中心だった経歴に、コードでインフラを管理できる客観的な裏付けを加えられます。第二に<strong>マルチクラウド対応の素養</strong>。TerraformはAWS・Azure・GCPを横断して使えるため、特定クラウドに依存しない構築力を示せます。第三に<strong>手頃な受験料での第一歩</strong>。他資格より負荷が軽く、DevOps領域への入口として取り組みやすい点が利点です。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。Terraform Associateは<strong>アソシエイトレベルのため、これ単体で年収が跳ねる資格ではありません</strong>。あくまで実務を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また有効期限が2年で、Terraformのバージョン進化に合わせた再取得が必要です。逆に言えば、すでにインフラ・クラウドの現場経験があり自動化を進めたい30〜40代にとっては、低コストで取り組める実利的な認定です。クラウド側の理解が不安な場合は、まず<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS認定</Link>などで基盤の土台を固めるのも有効です。
+            正直なデメリットも押さえておきましょう。Terraform Associateは<strong>アソシエイトレベルのため、これ単体で年収が跳ねる資格ではありません</strong>。あくまで実務を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また有効期限が2年で、Terraformのバージョン進化に合わせた再取得が必要です。逆に言えば、すでにインフラ・クラウドの現場経験があり自動化を進めたい30〜40代にとっては、低コストで取り組める実利的な認定です。クラウド側の理解が不安な場合は、まず<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>などで基盤の土台を固めるのも有効です。
           </p>
         </section>
 
@@ -268,7 +268,7 @@ export default function TerraformAssociateCertPage() {
               一方で過度な期待は禁物です。Terraform Associateを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「インフラ・クラウド実務 × 資格」の掛け算</strong>のとき。実際の構築・運用経験と組み合わせて初めて、DevOps・SREという形で結実します。さらに有効期限が2年のため、再取得の手間も前提に計画する必要があります。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -283,7 +283,7 @@ export default function TerraformAssociateCertPage() {
               { n: "STEP 3", t: "現行版004で合格→2年更新を計画", d: "最新の出題範囲を確認して受験。有効期限2年を見据え、再取得の計画も立てる。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -292,7 +292,7 @@ export default function TerraformAssociateCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            クラウド基盤を補強するなら<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS認定</Link>、コンテナ基盤へ広げるなら<Link href="/cert/cka/" className="text-blue-600 hover:underline">CKA</Link>、OS・サーバー側を固めるなら<Link href="/cert/lpic/" className="text-blue-600 hover:underline">LPIC／LinuC</Link>との組み合わせも有効です。
+            クラウド基盤を補強するなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>、コンテナ基盤へ広げるなら<Link href="/cert/cka/" className="text-petrol hover:underline">CKA</Link>、OS・サーバー側を固めるなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>との組み合わせも有効です。
           </p>
         </section>
 
@@ -320,7 +320,7 @@ export default function TerraformAssociateCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -340,7 +340,7 @@ export default function TerraformAssociateCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

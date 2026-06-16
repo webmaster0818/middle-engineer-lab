@@ -52,7 +52,7 @@ export default function EditorialPage() {
                 ].map(([name, score, desc], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <td className="px-4 py-3 font-medium text-slate-700 border-b border-slate-200">{name}</td>
-                    <td className="px-4 py-3 text-blue-700 font-medium border-b border-slate-200">{score}</td>
+                    <td className="px-4 py-3 text-petrol-deep font-medium border-b border-slate-200">{score}</td>
                     <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{desc}</td>
                   </tr>
                 ))}
@@ -73,7 +73,7 @@ export default function EditorialPage() {
               { step: "5", title: "定期更新", desc: "月次でデータの鮮度を確認し、情報が古くなった箇所を更新。サービス変更があった場合は随時対応。" },
             ].map((item) => (
               <div key={item.step} className="flex gap-4 items-start">
-                <div className="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm shrink-0">
+                <div className="w-10 h-10 bg-petrol text-white rounded-full flex items-center justify-center font-bold text-sm shrink-0">
                   {item.step}
                 </div>
                 <div>
@@ -88,7 +88,7 @@ export default function EditorialPage() {
         {/* ランキングの根拠 */}
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ランキングの根拠</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-lg p-6">
             <div className="space-y-3 text-sm text-slate-700">
               <p>
                 当サイトのランキングは、上記の評価基準に基づくスコアリング結果をもとに作成しています。
@@ -168,10 +168,10 @@ export default function EditorialPage() {
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/about/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/about/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               運営者情報 →
             </Link>
-            <Link href="/privacy/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/privacy/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               プライバシーポリシー →
             </Link>
           </div>

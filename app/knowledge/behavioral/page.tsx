@@ -146,7 +146,7 @@ export default function BehavioralPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：STAR法で型を固め、主語を「私」にする</h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
               <li>・回答は<strong>STAR法</strong>（状況→課題→行動→結果）で構造化する。思いつき順は伝わらない。</li>
@@ -162,7 +162,7 @@ export default function BehavioralPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2">
             {sections.map((s) => (
               <li key={s.id}>
-                <a href={`#${s.id}`} className="text-sm text-blue-600 hover:underline">{s.label}</a>
+                <a href={`#${s.id}`} className="text-sm text-petrol hover:underline">{s.label}</a>
               </li>
             ))}
           </ul>
@@ -177,7 +177,7 @@ export default function BehavioralPage() {
           <div className="space-y-4">
             {star.map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600 mb-2">{item.desc}</p>
@@ -222,7 +222,7 @@ export default function BehavioralPage() {
           <div className="space-y-5">
             {examples.map((e, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
-                <span className="inline-block bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full mb-2">{e.cat}</span>
+                <span className="inline-block bg-petrol-soft text-blue-800 text-xs font-bold px-3 py-1 rounded-full mb-2">{e.cat}</span>
                 <h3 className="font-bold text-slate-800 mb-2">Q. {e.q}</h3>
                 <p className="text-sm text-slate-600 bg-green-50 rounded p-4 leading-relaxed">{e.answer}</p>
               </div>
@@ -277,7 +277,7 @@ export default function BehavioralPage() {
               一方で注意したいのが、<strong>武勇伝になりすぎない</strong>ことです。過去の成功を誇るより、失敗からの学びや、若手との協働を素直に語る方が好印象です。年下の上司や若いチームに入る可能性も踏まえ、柔軟さと謙虚さが伝わる回答を意識しましょう。
             </p>
             <p>
-              準備としては、キャリア全体から『人や組織に影響を与えた場面』を5〜6個棚卸しし、STAR法で言語化しておくこと。これは<Link href="/knowledge/self-analysis/" className="text-blue-600 hover:underline">自己分析</Link>とも直結し、志望動機づくりにも流用できます。
+              準備としては、キャリア全体から『人や組織に影響を与えた場面』を5〜6個棚卸しし、STAR法で言語化しておくこと。これは<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析</Link>とも直結し、志望動機づくりにも流用できます。
             </p>
           </div>
         </section>
@@ -304,7 +304,7 @@ export default function BehavioralPage() {
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントなら、企業ごとの面接傾向に合わせた行動面接の対策をサポートしてくれます。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -320,7 +320,7 @@ export default function BehavioralPage() {
               { name: "自己分析の進め方", href: "/knowledge/self-analysis/" },
               { name: "30代エンジニアの転職ガイド", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -76,7 +76,7 @@ export default function SalaryUpPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 現在の年収が市場相場より低いと感じている</li>
               <li>- 3年以上同じ会社で年収が停滞している</li>
@@ -92,7 +92,7 @@ export default function SalaryUpPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">スキル</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">年収レンジ</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">需要</th>
@@ -112,7 +112,7 @@ export default function SalaryUpPage() {
                     <td className="px-4 py-3 font-medium text-slate-800">{row.skill}</td>
                     <td className="px-4 py-3 text-slate-600">{row.salary}</td>
                     <td className="px-4 py-3 text-slate-600">{row.demand}</td>
-                    <td className="px-4 py-3 text-slate-600 font-medium text-blue-600">{row.up}</td>
+                    <td className="px-4 py-3 text-slate-600 font-medium text-petrol">{row.up}</td>
                   </tr>
                 ))}
               </tbody>
@@ -131,7 +131,7 @@ export default function SalaryUpPage() {
               { num: "5", title: "副業でスキルと収入の両方を得る", desc: "副業で年収+100〜300万円の上乗せが可能です。副業実績は転職時のスキル証明にもなり、次の転職での年収UPにつながります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -198,7 +198,7 @@ export default function SalaryUpPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -216,7 +216,7 @@ export default function SalaryUpPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

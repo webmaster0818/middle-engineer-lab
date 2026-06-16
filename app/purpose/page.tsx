@@ -83,9 +83,9 @@ export default function PurposeIndexPage() {
             <Link
               key={purpose.slug}
               href={`/purpose/${purpose.slug}/`}
-              className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-blue-300 transition-colors group"
+              className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors group"
             >
-              <h2 className="font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">
+              <h2 className="font-bold text-slate-800 mb-2 group-hover:text-petrol transition-colors">
                 {purpose.title}
               </h2>
               <p className="text-xs text-slate-500 leading-relaxed">{purpose.desc}</p>
@@ -101,7 +101,7 @@ export default function PurposeIndexPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>

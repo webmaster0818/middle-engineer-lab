@@ -131,7 +131,7 @@ export default function RetailPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -141,7 +141,7 @@ export default function RetailPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：店舗・流通の業務知識が武器になる</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">
               小売・流通の業務知識を持つエンジニアのECテック転職は、<strong>十分に現実的</strong>です。OMOやリテールテックでは「店舗の現場で何が起きるか」「商流・在庫がどう動くか」を理解していることが価値になり、これは後から参入する純粋なIT人材が短期間で身につけにくい領域だからです。
             </p>
@@ -197,7 +197,7 @@ export default function RetailPage() {
                     <th className="px-4 py-3 text-left font-medium text-slate-700 align-top">{skill}</th>
                     <td
                       className={`px-4 py-3 font-medium whitespace-nowrap align-top ${
-                        status === "そのまま活きる" ? "text-blue-600" : "text-amber-600"
+                        status === "そのまま活きる" ? "text-petrol" : "text-amber-600"
                       }`}
                     >
                       {status}
@@ -286,8 +286,8 @@ export default function RetailPage() {
               <div className="bg-slate-100 px-4 py-2 text-xs font-bold text-slate-500">Before（伝わりにくい例）</div>
               <p className="px-4 py-3 text-sm text-slate-600">POS・在庫管理システムの保守を担当。基幹システムの改修にも携わった。</p>
             </div>
-            <div className="border border-blue-200 rounded-lg overflow-hidden">
-              <div className="bg-blue-100 px-4 py-2 text-xs font-bold text-blue-700">After（小売×ITが伝わる例）</div>
+            <div className="border border-[var(--line)] rounded-lg overflow-hidden">
+              <div className="bg-petrol-soft px-4 py-2 text-xs font-bold text-petrol-deep">After（小売×ITが伝わる例）</div>
               <p className="px-4 py-3 text-sm text-slate-700">
                 多店舗のPOS・在庫管理システムの運用と改修を担当。店舗オペレーションと欠品・過剰在庫の発生要因を踏まえた在庫データ連携を設計し、発注精度の改善に貢献。オンラインとオフラインの在庫を統合するOMOの要件定義に参画。店舗運営と商流の両面を理解している点を強みとする。
               </p>
@@ -295,7 +295,7 @@ export default function RetailPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             数値はご自身が実際に計測した範囲のみを記載してください。書き方の基本は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>
             もあわせて参考にしてください。
           </p>
         </section>
@@ -317,8 +317,8 @@ export default function RetailPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
             これらは目安です。正確な相場感はエージェントが提示する個別求人レンジで把握しましょう。年代別の考え方は
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代エンジニアの年収</Link>・
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収</Link>
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収</Link>・
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>
             も参考にしてください。
           </p>
         </section>
@@ -354,7 +354,7 @@ export default function RetailPage() {
               { step: "4", title: "IT特化エージェントで求人レンジを確認", desc: "Geekly・ワークポート・レバテックキャリアなどに登録し、実際のECテック求人と提示年収レンジを比較する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.step}
                 </span>
                 <div>
@@ -415,8 +415,8 @@ export default function RetailPage() {
             </p>
             <p className="text-slate-700 leading-relaxed">
               年齢面の不安がある場合は
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>や
-              <Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向けエージェント比較</Link>
+              <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>や
+              <Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向けエージェント比較</Link>
               も確認しておくと戦略を立てやすくなります。
             </p>
           </div>
@@ -444,7 +444,7 @@ export default function RetailPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -464,7 +464,7 @@ export default function RetailPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

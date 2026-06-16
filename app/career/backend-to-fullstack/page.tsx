@@ -220,7 +220,7 @@ export default function BackendToFullstackPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -233,7 +233,7 @@ export default function BackendToFullstackPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">
             結論：バックエンド起点のフルスタック化は再現性が高い
           </h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               バックエンドからのフルスタック転身は、再現性の高いキャリア戦略です。理由は次の3点です。
             </p>
@@ -259,7 +259,7 @@ export default function BackendToFullstackPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">領域</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">バックエンド（現職）</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">フルスタック（求められる）</th>
@@ -288,7 +288,7 @@ export default function BackendToFullstackPage() {
           <div className="space-y-4">
             {skillSteps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -300,11 +300,11 @@ export default function BackendToFullstackPage() {
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
             各技術の市場性は
-            <Link href="/skill/typescript/" className="text-blue-600 hover:underline">TypeScriptスキルガイド</Link>
+            <Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScriptスキルガイド</Link>
             ・
-            <Link href="/skill/react/" className="text-blue-600 hover:underline">Reactスキルガイド</Link>
+            <Link href="/skill/react/" className="text-petrol hover:underline">Reactスキルガイド</Link>
             ・
-            <Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSスキルガイド</Link>
+            <Link href="/skill/aws/" className="text-petrol hover:underline">AWSスキルガイド</Link>
             も参考にしてください。
           </p>
         </section>
@@ -320,7 +320,7 @@ export default function BackendToFullstackPage() {
           <div className="space-y-4">
             {moveSteps.map((s, i) => (
               <div key={i} className="border-l-4 border-blue-500 bg-slate-50 rounded-r-lg p-5">
-                <p className="text-xs font-bold text-blue-600 mb-1">{s.phase}</p>
+                <p className="text-xs font-bold text-petrol mb-1">{s.phase}</p>
                 <h3 className="font-bold text-slate-800 mb-1">{s.title}</h3>
                 <p className="text-sm text-slate-600 leading-relaxed">{s.desc}</p>
               </div>
@@ -328,7 +328,7 @@ export default function BackendToFullstackPage() {
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
             ポートフォリオの作り込み方は
-            <Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>
+            <Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>
             を合わせて確認してください。
           </p>
         </section>
@@ -349,8 +349,8 @@ export default function BackendToFullstackPage() {
                 「ECサイトのバックエンド開発を担当。PHPでAPIを実装し、MySQLのテーブル設計とクエリ改善を行った。」
               </div>
             </div>
-            <div className="border border-blue-200 rounded-lg overflow-hidden">
-              <div className="bg-blue-50 px-5 py-2 text-sm font-bold text-blue-700">After（フルスタックで評価される書き方）</div>
+            <div className="border border-[var(--line)] rounded-lg overflow-hidden">
+              <div className="bg-petrol-soft px-5 py-2 text-sm font-bold text-petrol-deep">After（フルスタックで評価される書き方）</div>
               <div className="px-5 py-4 text-sm text-slate-600 leading-relaxed">
                 「ECサイトのバックエンド設計・実装を主導。N+1クエリを解消し一覧APIの応答時間を◯%短縮。加えて管理画面の改修ではNext.js＋TypeScriptでフロントも担当し、Docker＋CI/CDでデプロイ自動化を整備。個人開発ではフロントからインフラまで一人で構築したSaaSをGitHubで公開。」
               </div>
@@ -368,7 +368,7 @@ export default function BackendToFullstackPage() {
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
             詳しい書き方は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニア職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニア職務経歴書の書き方</Link>
             を参照してください。
           </p>
         </section>
@@ -392,7 +392,7 @@ export default function BackendToFullstackPage() {
           </ul>
           <p className="text-slate-600 text-sm leading-relaxed">
             守備範囲の広さは交渉材料になりますが、結果は企業の評価基準次第です。複数社で市場価値を確認するのが安全です。
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>
             も参考になります。
           </p>
         </section>
@@ -406,7 +406,7 @@ export default function BackendToFullstackPage() {
             {agents.map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">
-                  <Link href={agent.href} className="text-blue-700 hover:underline">
+                  <Link href={agent.href} className="text-petrol-deep hover:underline">
                     {agent.name}
                   </Link>
                 </h3>
@@ -430,9 +430,9 @@ export default function BackendToFullstackPage() {
             </p>
             <p>
               年代別の市場感は
-              <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職事情</Link>
+              <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職事情</Link>
               ・
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>
+              <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>
               も合わせてご覧ください。
             </p>
           </div>
@@ -462,7 +462,7 @@ export default function BackendToFullstackPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -483,7 +483,7 @@ export default function BackendToFullstackPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

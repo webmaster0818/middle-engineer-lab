@@ -122,7 +122,7 @@ export default function CcnaCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -133,7 +133,7 @@ export default function CcnaCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：CCNAは誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               CCNAは<strong>「未経験〜若手がネットワーク／インフラ職に入るための入口資格」</strong>です。30〜40代の評価は、経験の有無で大きく分かれます。
             </p>
@@ -233,7 +233,7 @@ export default function CcnaCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            領域全体の市場感は<Link href="/skill/network/" className="text-blue-600 hover:underline">ネットワークエンジニア転職ガイド</Link>、インフラ全般は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>を参考にしてください。
+            領域全体の市場感は<Link href="/skill/network/" className="text-petrol hover:underline">ネットワークエンジニア転職ガイド</Link>、インフラ全般は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -272,7 +272,7 @@ export default function CcnaCertPage() {
             正直なデメリットとして、CCNAには<strong>3年の有効期限と再認定コスト</strong>があります。実務でネットワークに関わり続ける人には更新が自然ですが、取得後にネットワークから離れると、せっかくの認定が失効してしまう点は要注意です。受験料も米ドル建てで300USD（約42,900〜47,000円・為替変動あり）と、国家資格の7,500円と比べて高めです。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            一方の強みは<strong>実務直結性</strong>です。ルーティング・スイッチング・サブネット設計といったCCNAの学習範囲は、運用・構築の現場でそのまま使えます。「資格のための勉強」が「現場で使う知識」と一致しやすいため、学習投資が実務に還元されやすいのがベンダー資格の利点です。費用と有効期限を許容できるなら、ネットワーク／インフラ職を目指す人にとって合理的な選択になります。クラウド方向に広げるなら、同じベンダー資格の<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS認定の活かし方</Link>も併せて検討してください。
+            一方の強みは<strong>実務直結性</strong>です。ルーティング・スイッチング・サブネット設計といったCCNAの学習範囲は、運用・構築の現場でそのまま使えます。「資格のための勉強」が「現場で使う知識」と一致しやすいため、学習投資が実務に還元されやすいのがベンダー資格の利点です。費用と有効期限を許容できるなら、ネットワーク／インフラ職を目指す人にとって合理的な選択になります。クラウド方向に広げるなら、同じベンダー資格の<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定の活かし方</Link>も併せて検討してください。
           </p>
         </section>
 
@@ -290,7 +290,7 @@ export default function CcnaCertPage() {
               ミドルが特に意識したいのは、<strong>「資格＋年齢相応の付加価値」</strong>という発想です。20代の未経験者なら資格と意欲だけで通る求人でも、30〜40代には『チームでの調整経験』『顧客折衝』『前職での改善実績』など、年齢に見合う何かが求められます。CCNAはあくまでネットワーク基礎の証明であり、それ単体で年齢のハンデを覆すものではありません。前職で培った社会人としての強みと掛け合わせて初めて、ミドルの転職で武器になります。逆に言えば、その掛け算ができる人にとってCCNAは費用対効果の良い投資になり得ます。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、未経験からの30代転職は<Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのITエンジニア転職</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、未経験からの30代転職は<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのITエンジニア転職</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -305,7 +305,7 @@ export default function CcnaCertPage() {
               { n: "STEP 3", t: "模擬試験で仕上げ→受験", d: "出題範囲を模擬問題で詰め、弱点を潰してから受験。合格後は検証構成をポートフォリオ化する。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -314,7 +314,7 @@ export default function CcnaCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            併取得の方向性：サーバー／Linux側を固めるなら<Link href="/cert/lpic/" className="text-blue-600 hover:underline">LPIC／LinuC</Link>、IT全般の基礎知識を国家資格で補うなら<Link href="/cert/basic-info/" className="text-blue-600 hover:underline">基本情報技術者</Link>、クラウド基盤に広げるなら<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS認定</Link>が定番の組み合わせです。職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も参考にしてください。
+            併取得の方向性：サーバー／Linux側を固めるなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>、IT全般の基礎知識を国家資格で補うなら<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>、クラウド基盤に広げるなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>が定番の組み合わせです。職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も参考にしてください。
           </p>
         </section>
 
@@ -342,7 +342,7 @@ export default function CcnaCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -362,7 +362,7 @@ export default function CcnaCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

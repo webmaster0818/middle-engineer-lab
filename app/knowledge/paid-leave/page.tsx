@@ -117,9 +117,9 @@ export default function PaidLeavePage() {
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             退職が決まると、残った有給休暇をどこまで消化できるかが気になります。「引き継ぎが終わらないと無理」「人手不足だから」と止められた、という相談は少なくありません。本記事では、退職時の有給消化を<strong>法律の観点</strong>から整理します。時季変更権の限界、買い取りの原則と例外、消化を拒否されたときの対処までをまとめました。退職の切り出し方は
-            <Link href="/knowledge/smooth-resignation/" className="text-blue-600 hover:underline">円満退職の交渉術</Link>
+            <Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>
             、退職後の保険・年金は
-            <Link href="/knowledge/after-resignation-procedures/" className="text-blue-600 hover:underline">退職後の手続き</Link>
+            <Link href="/knowledge/after-resignation-procedures/" className="text-petrol hover:underline">退職後の手続き</Link>
             を参照してください。
           </p>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -134,14 +134,14 @@ export default function PaidLeavePage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：退職時の有給は実質的に取得できるのが原則</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・年次有給休暇は<strong>労働者の権利</strong>。退職時にも取得できるのが原則。</li>
@@ -214,7 +214,7 @@ export default function PaidLeavePage() {
           <div className="space-y-4">
             {schedule.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center min-w-[110px] h-8 rounded-full bg-blue-600 text-white font-bold text-xs px-2 shrink-0">{item.period}</span>
+                <span className="flex items-center justify-center min-w-[110px] h-8 rounded-full bg-petrol text-white font-bold text-xs px-2 shrink-0">{item.period}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -222,7 +222,7 @@ export default function PaidLeavePage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 全体の段取りは<Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職スケジュール</Link>、引き継ぎの作り方は<Link href="/knowledge/handover/" className="text-blue-600 hover:underline">引き継ぎドキュメントの作り方</Link>も参照。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 全体の段取りは<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>、引き継ぎの作り方は<Link href="/knowledge/handover/" className="text-petrol hover:underline">引き継ぎドキュメントの作り方</Link>も参照。</p>
         </section>
 
         <section id="consult" className="mb-10 scroll-mt-20">
@@ -231,9 +231,9 @@ export default function PaidLeavePage() {
             消化を一方的に拒否される、買い取りや残日数の扱いでトラブルになる、といった場合は、自己判断で諦めず公的な窓口に相談してください。
           </p>
           <ul className="space-y-3 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span><strong>労働基準監督署</strong>：労働基準法に関する相談・申告の窓口。有給休暇の取り扱いについて相談できます。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span><strong>総合労働相談コーナー</strong>：各都道府県の労働局などに設けられた、労働問題全般の相談窓口。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span><strong>弁護士・社会保険労務士</strong>：個別の事案について具体的な助言や対応を依頼できます。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>労働基準監督署</strong>：労働基準法に関する相談・申告の窓口。有給休暇の取り扱いについて相談できます。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>総合労働相談コーナー</strong>：各都道府県の労働局などに設けられた、労働問題全般の相談窓口。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>弁護士・社会保険労務士</strong>：個別の事案について具体的な助言や対応を依頼できます。</span></li>
           </ul>
           <p className="text-xs text-slate-500 mt-3">
             ※ どの窓口が適切かは状況によります。緊急性や深刻度が高い場合は、早めに専門家へ相談してください。
@@ -256,7 +256,7 @@ export default function PaidLeavePage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">次の入社日との重複に注意</h3>
-              <p className="text-sm text-slate-600">有給消化中はまだ前職に在籍しています。次の会社の入社日と消化期間が重なると、二重就労や社会保険の切り替えで問題が生じ得ます。入社日は消化期間を踏まえて設定しましょう。年収条件の調整は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉テクニック</Link>も参考に。</p>
+              <p className="text-sm text-slate-600">有給消化中はまだ前職に在籍しています。次の会社の入社日と消化期間が重なると、二重就労や社会保険の切り替えで問題が生じ得ます。入社日は消化期間を踏まえて設定しましょう。年収条件の調整は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉テクニック</Link>も参考に。</p>
             </div>
           </div>
         </section>
@@ -286,7 +286,7 @@ export default function PaidLeavePage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -306,7 +306,7 @@ export default function PaidLeavePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

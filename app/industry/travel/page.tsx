@@ -107,14 +107,14 @@ export default function TravelPage() {
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map(([id, label]) => (
-              <li key={id}><a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a></li>
+              <li key={id}><a href={`#${id}`} className="text-petrol hover:underline">{label}</a></li>
             ))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：この転職の現実性</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">予約・在庫・料金設計の業務知識を持つ旅行業界エンジニアにとって、トラベルテック領域への転職は十分に狙えるルートです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・予約フローや在庫連携、料金設計を分かる人は限られ、業務知識がそのまま差別化になりやすい。</li>
@@ -160,7 +160,7 @@ export default function TravelPage() {
                 {skillTable.map(([s, pos, note], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 border-t border-slate-200 align-top">{s}</th>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-t border-slate-200 whitespace-nowrap align-top">{pos}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-t border-slate-200 whitespace-nowrap align-top">{pos}</td>
                     <td className="px-4 py-3 text-slate-600 border-t border-slate-200">{note}</td>
                   </tr>
                 ))}
@@ -177,7 +177,7 @@ export default function TravelPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <div className="flex flex-wrap items-center gap-2 mb-1">
                   <span className="font-bold text-slate-800">{role}</span>
-                  <span className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded">{type}</span>
+                  <span className="text-xs bg-petrol-soft text-petrol-deep px-2 py-0.5 rounded">{type}</span>
                 </div>
                 <p className="text-sm text-slate-600">{note}</p>
               </div>
@@ -225,7 +225,7 @@ export default function TravelPage() {
               { step: "4", title: "職務経歴書で業務知識を翻訳", desc: "「予約・在庫・料金の実務知識」を、トラベルテック側の言葉（OTA、ダイナミックプライシング、API連携）に翻訳して伝える。必須要件への充足度を明示する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.step}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -239,8 +239,8 @@ export default function TravelPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代で旅行からトラベルテックへ移る場合、強みは「予約・在庫・料金設計の業務知識」です。旅行商品がどう作られ、どう在庫管理され、どう価格付けされるかを実務で理解している人材は、トラベルテック企業でも貴重で、若手にはない説得力を持てます。採用側はモダンな開発経験を見るため、ここを補う準備が鍵になります。</p>
-            <p>40代では、開発力に加えてプロジェクトやチームをまとめる経験が評価されやすくなります。旅行事業で培った関係者調整やオペレーション改善の経験を、プロダクト開発の文脈で語れるよう整理しておくと選択肢が広がります。年収の考え方は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの転職年収</Link>も参考にしてください。</p>
-            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職事情</Link>も合わせてどうぞ。</p>
+            <p>40代では、開発力に加えてプロジェクトやチームをまとめる経験が評価されやすくなります。旅行事業で培った関係者調整やオペレーション改善の経験を、プロダクト開発の文脈で語れるよう整理しておくと選択肢が広がります。年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの転職年収</Link>も参考にしてください。</p>
+            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>も合わせてどうぞ。</p>
           </div>
         </section>
 
@@ -259,14 +259,14 @@ export default function TravelPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">旅行の知識をトラベルテックで活かそう</h2>
           <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、あなたの経験が市場でどう評価されるかを確認しましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

@@ -114,7 +114,7 @@ export default function CertAwsDvaPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -125,7 +125,7 @@ export default function CertAwsDvaPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：DVAは誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               DVAは<strong>「開発者の加点資格」</strong>です。最も効くのは<strong>「アプリ開発の実務 × AWSでの開発・デプロイの証明」</strong>という掛け算で、クラウドネイティブ開発に関わる立場で価値が出ます。資格単体で年収が上がる発想は禁物です。
             </p>
@@ -195,7 +195,7 @@ export default function CertAwsDvaPage() {
               加えて、DVAで問われるデプロイやトラブルシューティングの知識は、開発と運用の境界をまたぐ場面でそのまま役立ちます。CI/CDパイプラインを整え、ログとモニタリングで障害を切り分け、コストとパフォーマンスを意識して実装を改善する。こうした一連の流れを理解している開発者は、チームのなかで設計から運用までを見渡せる存在として重宝されます。30〜40代がこれまで現場で培ってきた「壊れにくいものを作る」という感覚は、クラウドネイティブ開発でも確実に強みになります。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSエンジニア転職ガイド</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -237,7 +237,7 @@ export default function CertAwsDvaPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            自動化・運用方向は<Link href="/skill/devops/" className="text-blue-600 hover:underline">DevOpsエンジニア転職ガイド</Link>、設計全般は<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSエンジニア転職ガイド</Link>も参考にしてください。
+            自動化・運用方向は<Link href="/skill/devops/" className="text-petrol hover:underline">DevOpsエンジニア転職ガイド</Link>、設計全般は<Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>も参考にしてください。
           </p>
         </section>
 
@@ -251,7 +251,7 @@ export default function CertAwsDvaPage() {
               { n: "STEP 3", t: "合格→実務／上位資格へ", d: "合格後はクラウド開発の実務で深め、DevOpsや専門分野の認定へ横展開する。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -260,7 +260,7 @@ export default function CertAwsDvaPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            設計を広げるなら<Link href="/cert/aws-saa/" className="text-blue-600 hover:underline">AWS認定SAA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-blue-600 hover:underline">AWS認定SOA</Link>、上流を目指すなら<Link href="/cert/aws-sap/" className="text-blue-600 hover:underline">AWS認定SAP（プロフェッショナル）</Link>へ。
+            設計を広げるなら<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定SAA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-petrol hover:underline">AWS認定SOA</Link>、上流を目指すなら<Link href="/cert/aws-sap/" className="text-petrol hover:underline">AWS認定SAP（プロフェッショナル）</Link>へ。
           </p>
         </section>
 
@@ -288,7 +288,7 @@ export default function CertAwsDvaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -308,7 +308,7 @@ export default function CertAwsDvaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -116,7 +116,7 @@ export default function CisspCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -127,7 +127,7 @@ export default function CisspCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：CISSPは誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               CISSPは<strong>「セキュリティ経験者・管理職志望者の加点資格」</strong>です。入口資格とは性格が異なり、すでにセキュリティ実務経験のあるミドルが<strong>管理職・上位職・高年収帯へ役割を広げる土台</strong>として最も効きます。5年の実務要件があること自体が、経験者向け資格であることを物語っています。
             </p>
@@ -232,7 +232,7 @@ export default function CisspCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            セキュリティ方向のキャリアは<Link href="/skill/security/" className="text-blue-600 hover:underline">セキュリティエンジニア転職ガイド</Link>、マネジメント方向は<Link href="/skill/pm/" className="text-blue-600 hover:underline">PM・マネジメント転職ガイド</Link>を参考にしてください。
+            セキュリティ方向のキャリアは<Link href="/skill/security/" className="text-petrol hover:underline">セキュリティエンジニア転職ガイド</Link>、マネジメント方向は<Link href="/skill/pm/" className="text-petrol hover:underline">PM・マネジメント転職ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -271,7 +271,7 @@ export default function CisspCertPage() {
             活用戦略は3つに整理できます。第一に<strong>管理職・上位職への足がかり</strong>。8ドメインを横断する体系知識で、組織のセキュリティを統括する適性を示せます。第二に<strong>国際的な権威性</strong>。CISSPは世界的に認知され、外資・グローバル案件でも通用します。第三に<strong>高年収帯での差別化</strong>。セキュリティ管理職・コンサルの求人で、専門性の客観的な裏付けになります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。CISSPは<strong>受験料が749 USDと高額で、実務5年要件と3年ごと120CPE・年会費という維持コストがかかります</strong>。効果が出るのは「セキュリティ実務 × 資格」の掛け算が成立したときで、未経験者がいきなり狙う資格ではありません。逆に言えば、すでにセキュリティ現場経験があり管理職・上位職を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>や<Link href="/cert/security-specialist/" className="text-blue-600 hover:underline">情報処理安全確保支援士</Link>で土台を固めてから臨むのが堅実です。
+            正直なデメリットも押さえておきましょう。CISSPは<strong>受験料が749 USDと高額で、実務5年要件と3年ごと120CPE・年会費という維持コストがかかります</strong>。効果が出るのは「セキュリティ実務 × 資格」の掛け算が成立したときで、未経験者がいきなり狙う資格ではありません。逆に言えば、すでにセキュリティ現場経験があり管理職・上位職を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>や<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>で土台を固めてから臨むのが堅実です。
           </p>
         </section>
 
@@ -286,7 +286,7 @@ export default function CisspCertPage() {
               一方で過度な期待は禁物です。CISSPを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「セキュリティ実務 × 資格」の掛け算</strong>のとき。インシデント対応・設計・ガバナンスなどの実務と組み合わせて初めて、管理職ポジションや高年収帯という形で結実します。さらに受験料・年会費・CPE取得という継続コストも、長期的に維持する前提で計画する必要があります。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -301,7 +301,7 @@ export default function CisspCertPage() {
               { n: "STEP 3", t: "Endorsement→更新計画", d: "合格後、5年実務とEndorsementで正式認定。3年ごと120CPE・年会費の維持計画を立てる。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -310,7 +310,7 @@ export default function CisspCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            前段の基礎が不安なら<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>や国家資格の<Link href="/cert/security-specialist/" className="text-blue-600 hover:underline">情報処理安全確保支援士</Link>から、基盤・ネットワーク側を補強するなら<Link href="/cert/ccnp/" className="text-blue-600 hover:underline">CCNP</Link>、クラウドセキュリティを見据えるなら<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS認定</Link>との組み合わせも有効です。
+            前段の基礎が不安なら<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>や国家資格の<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>から、基盤・ネットワーク側を補強するなら<Link href="/cert/ccnp/" className="text-petrol hover:underline">CCNP</Link>、クラウドセキュリティを見据えるなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>との組み合わせも有効です。
           </p>
         </section>
 
@@ -338,7 +338,7 @@ export default function CisspCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -358,7 +358,7 @@ export default function CisspCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

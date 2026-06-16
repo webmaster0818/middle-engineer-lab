@@ -107,7 +107,7 @@ export default function KonamiCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               コナミは<strong>家庭用・モバイル・カード等の幅広いコンテンツを、C/C++/C#で開発する総合エンタメ企業</strong>です。レンダリング・システム・AI・サーバー等、専門領域ごとに採用しています。有報の年収（789万円）は持株会社の数字で、開発現場の水準とは別物である点に注意が必要です。
@@ -125,7 +125,7 @@ export default function KonamiCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -151,17 +151,17 @@ export default function KonamiCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">幅広いコンテンツと専門職の細分化</h3>
-              <p className="text-sm text-blue-700">公式情報によると、家庭用ゲーム、モバイルゲーム、トレーディングカードなど幅広いコンテンツを扱い、システムプログラマー、ゲームクライアントプログラマー、レンダリングエンジニア、AIプログラマーなど専門職が細分化されています。自分の強みが活きる領域を選びやすい構造です。</p>
+              <p className="text-sm text-petrol-deep">公式情報によると、家庭用ゲーム、モバイルゲーム、トレーディングカードなど幅広いコンテンツを扱い、システムプログラマー、ゲームクライアントプログラマー、レンダリングエンジニア、AIプログラマーなど専門職が細分化されています。自分の強みが活きる領域を選びやすい構造です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ゲームらしさを作るクライアント開発</h3>
-              <p className="text-sm text-blue-700">ゲームクライアントプログラマーは、キャラクター制御、敵AI、エフェクト/シェーダー、UI、システム設計など、ゲームらしさを作る最も中核的な部分を担当するとされています。</p>
+              <p className="text-sm text-petrol-deep">ゲームクライアントプログラマーは、キャラクター制御、敵AI、エフェクト/シェーダー、UI、システム設計など、ゲームらしさを作る最も中核的な部分を担当するとされています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">整備された開発環境</h3>
-              <p className="text-sm text-blue-700">公式情報では、開発者ごとにWindows PC、必要に応じてiOS開発用のMac、デュアルモニタ、開発機などが用意され、好みのソフトウェアを使える環境が整えられているとされています。</p>
+              <p className="text-sm text-petrol-deep">公式情報では、開発者ごとにWindows PC、必要に応じてiOS開発用のMac、デュアルモニタ、開発機などが用意され、好みのソフトウェアを使える環境が整えられているとされています。</p>
             </div>
           </div>
         </section>
@@ -173,10 +173,10 @@ export default function KonamiCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>主要言語</strong>：C / C++ / C#</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>グラフィックス</strong>：OpenGL / DirectX、GPU・プログラマブルシェーダー、物理ベースレンダリング</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>基盤理解</strong>：メモリ、スレッド、ファイル管理などシステムの理解</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>職種例</strong>：システムプログラマー、ゲームクライアントプログラマー、レンダリングエンジニア、AIプログラマー、サーバーサイド</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>主要言語</strong>：C / C++ / C#</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>グラフィックス</strong>：OpenGL / DirectX、GPU・プログラマブルシェーダー、物理ベースレンダリング</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>基盤理解</strong>：メモリ、スレッド、ファイル管理などシステムの理解</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>職種例</strong>：システムプログラマー、ゲームクライアントプログラマー、レンダリングエンジニア、AIプログラマー、サーバーサイド</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: コナミグループ 中途採用情報（エンジニア／プログラマー、2026年6月時点）。プロジェクト・職種により使用技術は異なります。</p>
@@ -214,7 +214,7 @@ export default function KonamiCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            一般的な中途採用の流れをまとめます。最新かつ職種別の詳細は<a href="https://www.konami.com/jobs/ja/jk/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">コナミグループ中途採用ページ</a>でご確認ください。
+            一般的な中途採用の流れをまとめます。最新かつ職種別の詳細は<a href="https://www.konami.com/jobs/ja/jk/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">コナミグループ中途採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考（職務経歴書・ポートフォリオ等）</li>
@@ -231,12 +231,12 @@ export default function KonamiCompanyPage() {
             公式が示す要件から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>C/C++/C#での実装力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ゲーム開発タイトル経験（役割を問わず1タイトル以上）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>メモリ・スレッド・ファイル管理などシステムの理解</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>応募領域（レンダリング・AI・サーバー等）の専門性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>C/C++/C#での実装力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ゲーム開発タイトル経験（役割を問わず1タイトル以上）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>メモリ・スレッド・ファイル管理などシステムの理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>応募領域（レンダリング・AI・サーバー等）の専門性</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -249,7 +249,7 @@ export default function KonamiCompanyPage() {
               年収面では、有報の789万円は持株会社（提出会社・約250名）の数字であり、ゲーム開発職の提示水準とは性質が異なります。参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。エンジニア職の提示はポジション・等級により幅があるため、自分が当てはまる水準を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。C#まわりのスキル整理は<Link href="/skill/csharp/" className="text-blue-600 hover:underline">C#エンジニアの市場価値</Link>も参考になります。
+              <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。C#まわりのスキル整理は<Link href="/skill/csharp/" className="text-petrol hover:underline">C#エンジニアの市場価値</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -262,13 +262,13 @@ export default function KonamiCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。ゲーム業界の実務経験者への提案に強い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -289,7 +289,7 @@ export default function KonamiCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">コナミへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">ゲーム業界の転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/geekly/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/geekly/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -303,7 +303,7 @@ export default function KonamiCompanyPage() {
               { name: "C#エンジニアの市場価値", href: "/skill/csharp/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

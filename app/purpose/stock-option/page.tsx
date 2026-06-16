@@ -86,7 +86,7 @@ export default function StockOptionPage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             ストックオプション（SO）は、スタートアップが上場・成長時のアップサイドを従業員と分け合う仕組みです。ただし「SOあり」という言葉だけでは実質的な価値はわかりません。<strong>税制適格か非適格かで手取りが大きく変わり</strong>、発行済株式に対する持分・ベスティング（権利確定）条件・そもそも上場できるかで最終的なリターンが決まります。本記事では、SOの仕組みと税制を公的情報に基づいて整理し、求人での見極め方を30-40代の生活設計と結びつけて解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- スタートアップのSO付きオファーを正しく評価したい</li>
@@ -99,7 +99,7 @@ export default function StockOptionPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>SO・RSUの仕組みと税制</li>
             <li>求人での見極めポイント</li>
             <li>該当しやすい企業タイプ</li>
@@ -113,7 +113,7 @@ export default function StockOptionPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">種類</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">内容</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">課税のポイント</th>
@@ -150,7 +150,7 @@ export default function StockOptionPage() {
               { num: "5", title: "現金報酬とのトレードオフを見る", desc: "SO比率が高い代わりに基本給が市場相場より低いオファーは、生活コストの高い30-40代にはリスク。現金で生活が成り立つかを基準に。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -196,7 +196,7 @@ export default function StockOptionPage() {
             </p>
             <p>
               <strong>現金報酬を犠牲にしすぎない：</strong>住宅ローンや教育費を抱える
-              <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニア</Link>
+              <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニア</Link>
               は、SOのアップサイドより、まず生活が成り立つ現金報酬の確保を優先するのが安全です。
             </p>
           </div>
@@ -220,7 +220,7 @@ export default function StockOptionPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">SO付きの企業を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">株式報酬の条件まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -234,7 +234,7 @@ export default function StockOptionPage() {
               { name: "福利厚生が充実した企業へ転職", href: "/purpose/benefits/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

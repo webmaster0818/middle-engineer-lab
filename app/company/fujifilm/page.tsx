@@ -65,7 +65,7 @@ export default function FujifilmCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（ディープテック領域の専門性重視）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・中核は<strong>医療画像AI・ヘルスケア・マテリアルズ</strong>。写真技術を医療・ライフサイエンスに展開するディープテック企業。</li>
@@ -80,7 +80,7 @@ export default function FujifilmCompanyPage() {
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
@@ -115,9 +115,9 @@ export default function FujifilmCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">医療画像AI・ヘルスケアのディープテック</h3><p className="text-sm text-blue-700">写真フィルムで培った画像技術を、医療画像診断支援などの医療画像AI、ヘルスケア領域へ展開している点が大きな特徴です。R&D色が強く、画像処理・機械学習・医療ドメインの専門性が活きるディープテック領域が中核に置かれています。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">2025年のIT機能HD一元化</h3><p className="text-sm text-blue-700">2025年にグループのIT/情報システム機能を持株会社（HD）へ一元化しました。これによりグループ横断でのデジタル基盤整備・DX推進が進めやすくなり、IT/デジタル人材の活躍領域が広がる方向にあります。採用主体・配属はこの再編の影響を受ける場合があります。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">多角化された事業ポートフォリオ</h3><p className="text-sm text-blue-700">富士フイルムはイメージング・ヘルスケア・マテリアルズなど多角的な事業を展開しています。「写真の会社」というイメージとは異なり、医療・ライフサイエンス・素材といった領域で技術者が活躍しており、自分の専門がどの事業に合うかの見極めが重要です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">医療画像AI・ヘルスケアのディープテック</h3><p className="text-sm text-petrol-deep">写真フィルムで培った画像技術を、医療画像診断支援などの医療画像AI、ヘルスケア領域へ展開している点が大きな特徴です。R&D色が強く、画像処理・機械学習・医療ドメインの専門性が活きるディープテック領域が中核に置かれています。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">2025年のIT機能HD一元化</h3><p className="text-sm text-petrol-deep">2025年にグループのIT/情報システム機能を持株会社（HD）へ一元化しました。これによりグループ横断でのデジタル基盤整備・DX推進が進めやすくなり、IT/デジタル人材の活躍領域が広がる方向にあります。採用主体・配属はこの再編の影響を受ける場合があります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">多角化された事業ポートフォリオ</h3><p className="text-sm text-petrol-deep">富士フイルムはイメージング・ヘルスケア・マテリアルズなど多角的な事業を展開しています。「写真の会社」というイメージとは異なり、医療・ライフサイエンス・素材といった領域で技術者が活躍しており、自分の専門がどの事業に合うかの見極めが重要です。</p></div>
           </div>
         </section>
 
@@ -126,10 +126,10 @@ export default function FujifilmCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">富士フイルムは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成しません</strong>（推測での創作を避けるため）。公開情報から確認できる技術領域は以下の通りです。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>医療画像AI</strong>：画像診断支援などの画像処理・機械学習領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>ヘルスケア</strong>：医療・ライフサイエンス関連のシステム・ソフトウェア領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>マテリアルズ</strong>：素材領域のデジタル技術・データ活用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span>医療画像系では一般にC++やPythonなどが想定されますが、<strong>公式の統一情報がないため断定はしません</strong>。具体的言語は各募集要項で確認してください。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>医療画像AI</strong>：画像診断支援などの画像処理・機械学習領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ヘルスケア</strong>：医療・ライフサイエンス関連のシステム・ソフトウェア領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>マテリアルズ</strong>：素材領域のデジタル技術・データ活用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>医療画像系では一般にC++やPythonなどが想定されますが、<strong>公式の統一情報がないため断定はしません</strong>。具体的言語は各募集要項で確認してください。</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：富士フイルム公式の事業・採用情報から確認できる技術領域に基づく記述。具体的な開発言語・内製ツールの統一一覧は公開されていないため、推測の言語表は掲載していません。</p>
@@ -156,7 +156,7 @@ export default function FujifilmCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>HD単体の<strong>平均年齢は43.5歳、平均勤続年数17.5年</strong>（2025年3月期・有報）。ミドル〜シニア層が中核を占める落ち着いた組織で、30代・40代で中途入社しても年齢構成的に浮きにくい環境といえます。中途では即戦力としての専門性が問われる一方、R&D志向で腰を据えたキャリア形成がしやすい点が特徴です。</p>
             <p>30代・40代の画像処理・機械学習・医療ドメイン経験者にとって、富士フイルムは「<strong>医療画像AIというディープテックR&Dに長期で関われる</strong>」希少なフィールドです。ヘルスケアは社会的な需要が拡大する領域であり、専門性が長く活きる可能性があります。一方、看板の1,124万円はあくまでHD単体の全社員平均であり、配属される事業会社・職種での実際の提示条件を冷静に確認することが大切です。Webサービス中心のキャリアからの転身は、医療・素材ドメインの習得が前提になる点にも留意してください。</p>
-            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>、医療領域を志向するなら<Link href="/industry/healthcare/" className="text-blue-600 hover:underline">ヘルスケア業界の転職</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>、医療領域を志向するなら<Link href="/industry/healthcare/" className="text-petrol hover:underline">ヘルスケア業界の転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -187,15 +187,15 @@ export default function FujifilmCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">富士フイルム転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・AI・画像処理領域に強く、技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手・R&D系の専門職・高年収ポジションのスカウトが届きやすい。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・ヘルスケアの求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・AI・画像処理領域に強く、技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手・R&D系の専門職・高年収ポジションのスカウトが届きやすい。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・ヘルスケアの求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">富士フイルムへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">医療画像AI・ヘルスケア領域の求人に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -206,7 +206,7 @@ export default function FujifilmCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "AI・機械学習の転職ガイド", href: "/skill/ai-ml/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "ソニーグループの転職ガイド", href: "/company/sony/" }, { name: "ヘルスケア業界の転職", href: "/industry/healthcare/" }, { name: "製造業エンジニアの転職", href: "/industry/manufacturing/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "AI・機械学習の転職ガイド", href: "/skill/ai-ml/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "ソニーグループの転職ガイド", href: "/company/sony/" }, { name: "ヘルスケア業界の転職", href: "/industry/healthcare/" }, { name: "製造業エンジニアの転職", href: "/industry/manufacturing/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

@@ -76,7 +76,7 @@ export default function StablePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 住宅ローンを組むために安定企業に入りたい</li>
               <li>- 家族がいるため倒産リスクの低い企業で働きたい</li>
@@ -91,7 +91,7 @@ export default function StablePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">企業タイプ</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">年収目安</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">安定度</th>
@@ -129,7 +129,7 @@ export default function StablePage() {
               { num: "5", title: "副業可否を確認する", desc: "安定企業でも副業OKの企業が増えています。本業の安定+副業の収入で最適なバランスを取りましょう。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -179,7 +179,7 @@ export default function StablePage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -197,7 +197,7 @@ export default function StablePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

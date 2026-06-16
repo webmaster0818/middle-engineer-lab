@@ -72,7 +72,7 @@ export default function AndpadCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（Rails中心・スケール局面の即戦力志向）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・<strong>Ruby on Rails 中心＋Go</strong>の構成。Rails／GoでのWebサービス開発・運用経験を持つエンジニアに向く。</li>
@@ -86,7 +86,7 @@ export default function AndpadCompanyPage() {
         <nav aria-label="目次" className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ol>
         </nav>
 
@@ -105,9 +105,9 @@ export default function AndpadCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">IT化が遅れた建設業界をDXする</h3><p className="text-sm text-blue-700">ANDPADは2012年設立（旧オクト）で、紙やFAX中心だった建設・建築の施工管理をクラウド化するサービス「ANDPAD」を提供しています。26.5万社が利用するシェアNo.1クラスのプロダクトで、巨大な業界の未IT化領域に切り込む社会的インパクトの大きいドメインが特徴です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">Rails中心＋GoとSRE文化</h3><p className="text-sm text-blue-700">技術ブログ（tech.andpad.co.jp）では、Ruby on Railsを中心に一部Goを採用し、SRE・クラウドネイティブに積極的に取り組んでいることが発信されています。KubeConへの登壇実績もあり、スケールするサービスを堅牢に支える技術組織を志向しています。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">プレIPO・約780名規模の成長フェーズ</h3><p className="text-sm text-blue-700">ANDPADは従業員約780名規模で、上場準備（プレIPO）フェーズにあるとされます。組織が拡大しプロダクトをスケールさせる局面のため、設計・運用・組織づくりに関わる裁量が大きく、ミドルの経験が活きやすい時期といえます。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">IT化が遅れた建設業界をDXする</h3><p className="text-sm text-petrol-deep">ANDPADは2012年設立（旧オクト）で、紙やFAX中心だった建設・建築の施工管理をクラウド化するサービス「ANDPAD」を提供しています。26.5万社が利用するシェアNo.1クラスのプロダクトで、巨大な業界の未IT化領域に切り込む社会的インパクトの大きいドメインが特徴です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">Rails中心＋GoとSRE文化</h3><p className="text-sm text-petrol-deep">技術ブログ（tech.andpad.co.jp）では、Ruby on Railsを中心に一部Goを採用し、SRE・クラウドネイティブに積極的に取り組んでいることが発信されています。KubeConへの登壇実績もあり、スケールするサービスを堅牢に支える技術組織を志向しています。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">プレIPO・約780名規模の成長フェーズ</h3><p className="text-sm text-petrol-deep">ANDPADは従業員約780名規模で、上場準備（プレIPO）フェーズにあるとされます。組織が拡大しプロダクトをスケールさせる局面のため、設計・運用・組織づくりに関わる裁量が大きく、ミドルの経験が活きやすい時期といえます。</p></div>
           </div>
         </section>
 
@@ -116,12 +116,12 @@ export default function AndpadCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下はANDPADの公式技術ブログ・採用情報で公開されている範囲の情報です。プロダクトの拡大に伴い構成は変化するため、最新は公式発信・募集要項でご確認ください。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Ruby on Rails</strong>：サービス開発の中心となるフレームワーク</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Go</strong>：一部のサービス・領域で採用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>SRE・クラウドネイティブ</strong>：Kubernetes等を活用した運用（KubeCon登壇実績）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Ruby on Rails</strong>：サービス開発の中心となるフレームワーク</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go</strong>：一部のサービス・領域で採用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>SRE・クラウドネイティブ</strong>：Kubernetes等を活用した運用（KubeCon登壇実績）</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：ANDPAD 技術ブログ（tech.andpad.co.jp）・公式採用情報。フロントエンド等の詳細構成は時期・チームにより異なります。<Link href="/skill/ruby/" className="text-blue-600 hover:underline">Ruby</Link>・<Link href="/skill/go/" className="text-blue-600 hover:underline">Go</Link>・<Link href="/skill/kubernetes/" className="text-blue-600 hover:underline">Kubernetes</Link>の各ガイドも市場動向の参考になります。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：ANDPAD 技術ブログ（tech.andpad.co.jp）・公式採用情報。フロントエンド等の詳細構成は時期・チームにより異なります。<Link href="/skill/ruby/" className="text-petrol hover:underline">Ruby</Link>・<Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>・<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>の各ガイドも市場動向の参考になります。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -153,10 +153,10 @@ export default function AndpadCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・技術ドメインベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。公開されている技術スタック・事業ドメインから、評価されやすいと考えられるポイントを一般化して挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>Ruby on Rails／GoでのWebサービスの設計・実装・運用力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>大規模・成長サービスをスケールさせるSRE・クラウドネイティブの経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>建設DXという未IT化ドメインを技術で解くことへの関心・共感</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>組織拡大フェーズで自律的に動ける主体性・カルチャーフィット</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>Ruby on Rails／GoでのWebサービスの設計・実装・運用力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>大規模・成長サービスをスケールさせるSRE・クラウドネイティブの経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>建設DXという未IT化ドメインを技術で解くことへの関心・共感</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>組織拡大フェーズで自律的に動ける主体性・カルチャーフィット</li>
           </ul>
         </section>
 
@@ -173,7 +173,7 @@ export default function AndpadCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>ANDPADは<strong>Ruby on Rails中心＋Go</strong>という、ミドル層に経験者が多い技術構成です。これまでRailsでWebサービスを設計・運用してきた30代・40代にとって、これまでの蓄積を即戦力として活かしやすい環境です。26.5万社・シェアNo.1クラスのプロダクトをスケールさせる局面のため、SRE・大規模運用・組織づくりの経験は特に重宝されます。</p>
             <p>プレIPO（上場準備）フェーズという点は、ミドルにとってメリットとリスクの両面があります。ストックオプション等が将来のIPOに連動して価値を持つ可能性がある一方、IPOの時期・条件は不確定です。安定した上場大企業の確実性を求める人には不向きな面もあるため、報酬の内訳（現金とSOのバランス）やリスク許容度を面談で確認しておくことが重要です。非上場のため将来の株式価値は公式の確定情報がなく、提示条件ベースで判断するのが現実的です。</p>
-            <p>建設・不動産ドメインに関心がある方や、SIer・SESから自社プロダクト開発へ移りたいミドルには<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWEB系への転職</Link>が、年収交渉・キャリア整理には<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>が参考になります。</p>
+            <p>建設・不動産ドメインに関心がある方や、SIer・SESから自社プロダクト開発へ移りたいミドルには<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWEB系への転職</Link>が、年収交渉・キャリア整理には<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>が参考になります。</p>
           </div>
         </section>
 
@@ -206,22 +206,22 @@ export default function AndpadCompanyPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。建設・建築は就業者数が多くIT化の余地が大きい産業で、ANDPADはその施工管理DXで先行するスタートアップです。</p>
             <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均で、ANDPADの集計参考値（エンジニア約731万円）はこれを上回りますが、後者は公式値ではない参考値である点に留意が必要です。</p>
-            <p>Rails経験を活かして自社プロダクト開発へ移りたいミドルにとって、ANDPADは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWEB系への転職</Link>や<Link href="/skill/ruby/" className="text-blue-600 hover:underline">Rubyエンジニアの転職市場</Link>も参考になります。</p>
+            <p>Rails経験を活かして自社プロダクト開発へ移りたいミドルにとって、ANDPADは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWEB系への転職</Link>や<Link href="/skill/ruby/" className="text-petrol hover:underline">Rubyエンジニアの転職市場</Link>も参考になります。</p>
           </div>
         </section>
 
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ANDPAD転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ANDPADへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">スタートアップ・自社開発企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -232,7 +232,7 @@ export default function AndpadCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "Ubieの転職ガイド", href: "/company/ubie/" }, { name: "カケハシの転職ガイド", href: "/company/kakehashi/" }, { name: "10Xの転職ガイド", href: "/company/10x/" }, { name: "Rubyエンジニアの転職", href: "/skill/ruby/" }, { name: "Goエンジニアの転職", href: "/skill/go/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "Ubieの転職ガイド", href: "/company/ubie/" }, { name: "カケハシの転職ガイド", href: "/company/kakehashi/" }, { name: "10Xの転職ガイド", href: "/company/10x/" }, { name: "Rubyエンジニアの転職", href: "/skill/ruby/" }, { name: "Goエンジニアの転職", href: "/skill/go/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

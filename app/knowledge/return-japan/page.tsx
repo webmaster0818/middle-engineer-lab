@@ -61,13 +61,13 @@ export default function ReturnJapanPage() {
         <nav className="mb-10 border border-slate-200 rounded-lg p-5 bg-slate-50">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
           <ul className="space-y-2 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：内定確定後に帰国するのが鉄則</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">帰国転職で最も避けたいのは「先に帰国してから無収入で活動する」状態です。次の3点を押さえれば、リスクを抑えて進められます。</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>1. <strong>オンラインで内定まで進める</strong>。多くの企業がリモート面接に対応</li>
@@ -83,12 +83,12 @@ export default function ReturnJapanPage() {
           <div className="space-y-4">
             {remoteSteps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600">{item.desc}</p></div>
               </div>
             ))}
           </div>
-          <p className="text-slate-600 leading-relaxed mt-4">面接対策の基本は<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接（STAR法）対策</Link>、技術面の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接対策</Link>も参考になります。</p>
+          <p className="text-slate-600 leading-relaxed mt-4">面接対策の基本は<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STAR法）対策</Link>、技術面の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接対策</Link>も参考になります。</p>
         </section>
 
         <section id="timing" className="mb-10 scroll-mt-20">
@@ -103,7 +103,7 @@ export default function ReturnJapanPage() {
               <li>☑ 帰国後の手続き（転入届・健康保険・税務）の段取りを把握している</li>
             </ul>
           </div>
-          <p className="text-slate-600 leading-relaxed">理想は「内定確定 → 帰国日確定 → 住居・各種手続き」の順です。最終面接だけ対面を希望される場合は、帰国時期に合わせた調整をエージェントに相談できます。タイミング全般の考え方は<Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職活動のスケジュール</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed">理想は「内定確定 → 帰国日確定 → 住居・各種手続き」の順です。最終面接だけ対面を希望される場合は、帰国時期に合わせた調整をエージェントに相談できます。タイミング全般の考え方は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職活動のスケジュール</Link>も参考にしてください。</p>
         </section>
 
         <section id="appeal" className="mb-10 scroll-mt-20">
@@ -127,23 +127,23 @@ export default function ReturnJapanPage() {
               <p className="text-sm text-slate-700">「海外が長くて日本の事情に疎いのでは」と懸念された場合は、「海外のベストプラクティスを日本の組織文脈に合わせて持ち込めること」を、具体的な導入プランとともに示すと前向きに伝わります。</p>
             </div>
           </div>
-          <p className="text-slate-600 leading-relaxed mt-4">書類全体の作り込みは<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>、自己分析は<Link href="/knowledge/self-analysis/" className="text-blue-600 hover:underline">自己分析の進め方</Link>も役立ちます。</p>
+          <p className="text-slate-600 leading-relaxed mt-4">書類全体の作り込みは<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>、自己分析は<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析の進め方</Link>も役立ちます。</p>
         </section>
 
         <section id="note" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">帰国転職で注意すべきこと</h2>
           <div className="space-y-3">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">1. 年収は「年間総額」で比較する</h3><p className="text-sm text-blue-700">日本では賞与込みで提示されることが多く、月給ベースの比較では実態がずれます。年間総額・福利厚生・残業実態を含めて判断しましょう。具体的な水準はオファー内容で確認します。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">2. 日本のビジネス文化への再適応</h3><p className="text-sm text-blue-700">報連相・コンセンサス重視のスタイルに戸惑う場合があります。海外の効率性を活かしつつ、周囲に合わせる柔軟性を意識すると立ち上がりがスムーズです。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">3. 税・社会保険の手続きは早めに確認</h3><p className="text-sm text-blue-700">帰国後の確定申告・住民税・健康保険の手続きは複雑になりがちです。制度や要件は変わることがあるため、最新情報は公式情報を確認し、必要に応じて税理士など専門家に相談しましょう。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">4. 家族のケアも計画に入れる</h3><p className="text-sm text-blue-700">配偶者のキャリア、子どもの転入学など、家族の生活も含めて計画的に進めます。<Link href="/knowledge/family/" className="text-blue-700 underline">家族持ちエンジニアの転職戦略</Link>も参考になります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">1. 年収は「年間総額」で比較する</h3><p className="text-sm text-petrol-deep">日本では賞与込みで提示されることが多く、月給ベースの比較では実態がずれます。年間総額・福利厚生・残業実態を含めて判断しましょう。具体的な水準はオファー内容で確認します。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">2. 日本のビジネス文化への再適応</h3><p className="text-sm text-petrol-deep">報連相・コンセンサス重視のスタイルに戸惑う場合があります。海外の効率性を活かしつつ、周囲に合わせる柔軟性を意識すると立ち上がりがスムーズです。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">3. 税・社会保険の手続きは早めに確認</h3><p className="text-sm text-petrol-deep">帰国後の確定申告・住民税・健康保険の手続きは複雑になりがちです。制度や要件は変わることがあるため、最新情報は公式情報を確認し、必要に応じて税理士など専門家に相談しましょう。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">4. 家族のケアも計画に入れる</h3><p className="text-sm text-petrol-deep">配偶者のキャリア、子どもの転入学など、家族の生活も含めて計画的に進めます。<Link href="/knowledge/family/" className="text-petrol-deep underline">家族持ちエンジニアの転職戦略</Link>も参考になります。</p></div>
           </div>
         </section>
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の帰国転職の視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアにとって、海外で積んだ経験は「即戦力 × グローバル対応力」という希少な組み合わせになります。市況も追い風で、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
-          <p className="text-slate-600 leading-relaxed">狙い目になりやすいのは、外資系日本法人のシニアポジション、日系グローバル企業の海外連携役、スタートアップの技術リードなど、海外経験が直接活きる役割です。ただし具体的な年収は企業・ポジションで大きく異なるため、複数のエージェントで<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値</Link>を把握したうえで交渉に臨みましょう。海外で働き続ける選択肢は<Link href="/knowledge/overseas/" className="text-blue-600 hover:underline">海外で働くエンジニアの転職</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed">狙い目になりやすいのは、外資系日本法人のシニアポジション、日系グローバル企業の海外連携役、スタートアップの技術リードなど、海外経験が直接活きる役割です。ただし具体的な年収は企業・ポジションで大きく異なるため、複数のエージェントで<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値</Link>を把握したうえで交渉に臨みましょう。海外で働き続ける選択肢は<Link href="/knowledge/overseas/" className="text-petrol hover:underline">海外で働くエンジニアの転職</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -154,7 +154,7 @@ export default function ReturnJapanPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">帰国転職のサポートはエージェントに</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントならオンラインで相談可能。時差を考慮した面接調整や、海外経験の伝え方の添削も依頼できます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -167,7 +167,7 @@ export default function ReturnJapanPage() {
               { name: "転職後90日間の過ごし方", href: "/knowledge/first-90days/" },
               { name: "年収交渉のコツ", href: "/knowledge/salary-negotiation/" },
               { name: "家族持ちエンジニアの転職戦略", href: "/knowledge/family/" },
-            ].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            ].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

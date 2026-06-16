@@ -205,7 +205,7 @@ export default function EngineerFactoryReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：東京・大阪圏で、低マージン・エンド直の高単価を狙いたい経験者向け</span>。一言でいえば「都市圏（またはリモート）で単価を取りに行きたいIT実務経験者」向けのフリーランスエージェントです。
@@ -221,7 +221,7 @@ export default function EngineerFactoryReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -258,27 +258,27 @@ export default function EngineerFactoryReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニアファクトリーの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 低マージンのエンド直高単価案件</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 低マージンのエンド直（直請け）案件が多く、中間マージンが抑えられ単価が高めになりやすいという二次情報があります。案件の平均単価76万円/月という数値もあり、経験者ほど好条件を得やすい構造です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 幅広い年代・経験に対応</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 経験の浅い20代から経験豊富な50代まで幅広く対応可能という二次情報があり、年代を問わず相談しやすいのが特徴です。30代・40代のミドル層も含め、経験に応じた案件提案を受けやすい構造です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 取引社数・案件基盤の広さ</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 取引1,700社以上・非公開案件3,000件以上という二次情報があり、希望条件に合う案件を比較しながら選べます。案件基盤の広さは、複数の選択肢を持ちたい人に有利です（数値は時点により変動）。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 丁寧なヒアリング・交渉サポート</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 希望条件のヒアリングや案件提案が丁寧だったという傾向の声があり、エンド直中心ゆえに条件交渉の相談にも乗ってもらえたという感想があります。
               </p>
             </div>
@@ -332,12 +332,12 @@ export default function EngineerFactoryReview() {
             </p>
             <p>
               実務上は、提示される単価が「自分が受け取る単価（手取りベース）」であることが多いため、面談時に①提示単価が手取りか②契約形態（準委任／請負）③対応エリア・リモート可否、の3点を確認すれば判断できます。マージンを完全公開している
-              <Link href="/review/pe-bank/" className="text-blue-600 hover:underline">PE-BANK</Link>
+              <Link href="/review/pe-bank/" className="text-petrol hover:underline">PE-BANK</Link>
               の手数料（8〜12%）と提示単価を並べて相対比較するのが最も確実です。
             </p>
             <p>
               なお、30代・40代で家族やローンがある場合、単価の高さだけでなく<span className="font-bold">案件が途切れたときの備え</span>も重要です。報酬保障の仕組みがある
-              <Link href="/review/midworks/" className="text-blue-600 hover:underline">Midworks</Link>
+              <Link href="/review/midworks/" className="text-petrol hover:underline">Midworks</Link>
               と比較したうえで、自分のリスク許容度に合うサービスを選ぶとよいでしょう。
             </p>
           </div>
@@ -362,7 +362,7 @@ export default function EngineerFactoryReview() {
             </p>
             <p>
               経産省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が見込まれており、経験あるミドル層への需要は底堅いと考えられます。「いつでも正社員に戻れる状態」を保っておくと安心です。安定雇用を希望する場合は、正社員転職の
-              <Link href="/review/levtech-career/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech-career/" className="text-petrol hover:underline">レバテックキャリア</Link>
               も検討してください。
             </p>
           </div>
@@ -405,7 +405,7 @@ export default function EngineerFactoryReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -442,16 +442,16 @@ export default function EngineerFactoryReview() {
             </table>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/pe-bank/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/pe-bank/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               PE-BANK（マージン公開・全国）の評判 →
             </Link>
-            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテックフリーランス（案件量）の評判 →
             </Link>
-            <Link href="/review/techreach/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/techreach/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               TechReach（支払いが早い）の評判 →
             </Link>
-            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               フリーランスエージェント比較 →
             </Link>
           </div>
@@ -479,7 +479,7 @@ export default function EngineerFactoryReview() {
           <p className="text-blue-100 text-sm mb-4">
             東京・大阪圏で低マージン・エンド直の高単価案件を探してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>
@@ -489,7 +489,7 @@ export default function EngineerFactoryReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -118,7 +118,7 @@ export default function LevtechVsRecruitPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -129,7 +129,7 @@ export default function LevtechVsRecruitPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
               IT/Webの専門提案と高年収狙いなら「レバテックキャリア」、求人数を最大化して幅広く比較するなら「リクルートエージェントIT」。
             </p>
@@ -171,9 +171,9 @@ export default function LevtechVsRecruitPage() {
         <section id="jobs" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人数で比較</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レバテックキャリア：約5万件超</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 2026年6月時点・複数転職メディアの集計で約5万件超。IT/Web全般に絞られているぶん、提案される求人の適合度が高くなりやすいのが特徴です。高年収求人の比率の高さも評価されています。
               </p>
             </div>
@@ -216,7 +216,7 @@ export default function LevtechVsRecruitPage() {
               <h3 className="font-bold text-slate-800 mb-3">レバテックキャリアが強い領域</h3>
               <div className="flex flex-wrap gap-2">
                 {["IT/Web全般", "高年収求人", "技術文脈の理解", "首都圏中心", "20〜30代の利用が多い"].map((tag, i) => (
-                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700">{tag}</span>
+                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
               <p className="text-xs text-slate-500 mt-3">※ 利用者の約80%が20〜30代（公式系）。高年収求人比率の高さが特徴。</p>
@@ -269,9 +269,9 @@ export default function LevtechVsRecruitPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">レバテックキャリアが向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 <li>✓ IT/Web領域でキャリアを深めたい</li>
                 <li>✓ 技術文脈を理解した提案が欲しい</li>
                 <li>✓ 高年収帯を狙いたい</li>
@@ -302,7 +302,7 @@ export default function LevtechVsRecruitPage() {
                 { num: "3", title: "提案を突き合わせて精度を上げる", desc: "両社の提案を突き合わせると、求人の網羅性（リクルート）と適合度（レバテック）の両方を担保できます。相性の良い担当者をメインに据えましょう。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div>
                     <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                     <p className="text-sm text-slate-600">{item.desc}</p>
@@ -312,7 +312,7 @@ export default function LevtechVsRecruitPage() {
             </div>
             <p className="text-xs text-slate-500 mt-4">
               併用時は同じ企業への重複応募を避けるため、応募状況を自分で管理しておきましょう。詳しくは
-              <Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント比較</Link>
+              <Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>
               も参照してください。
             </p>
           </div>
@@ -358,7 +358,7 @@ export default function LevtechVsRecruitPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -371,7 +371,7 @@ export default function LevtechVsRecruitPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

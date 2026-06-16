@@ -139,7 +139,7 @@ export default function BurnoutPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -147,7 +147,7 @@ export default function BurnoutPage() {
 
         {/* 結論 */}
         <section className="mb-10">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：先に「休む・受診」、次に「環境を変えるか」を判断する</h2>
             <p className="text-sm text-blue-800 leading-relaxed mb-3">
               燃え尽きの対処は順番が大切です。<strong>(1)身体症状があるならまず受診・休息</strong> →
@@ -196,7 +196,7 @@ export default function BurnoutPage() {
           <div className="space-y-4">
             {signs.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -297,21 +297,21 @@ export default function BurnoutPage() {
         <section id="next-env" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">繰り返さない転職先の選び方</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 残業・オンコールの「実態」を聞く</h3>
-              <p className="text-sm text-blue-700">求人票の平均値ではなく、配属予定チームの実際の残業・休日対応の頻度を、面接やエージェント経由で確認します。</p>
+              <p className="text-sm text-petrol-deep">求人票の平均値ではなく、配属予定チームの実際の残業・休日対応の頻度を、面接やエージェント経由で確認します。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 裁量とコントロール感を確認する</h3>
-              <p className="text-sm text-blue-700">バーンアウトの一因は「自分で決められない」こと。意思決定にどこまで関われるか、設計や進め方の裁量があるかを確認しましょう。</p>
+              <p className="text-sm text-petrol-deep">バーンアウトの一因は「自分で決められない」こと。意思決定にどこまで関われるか、設計や進め方の裁量があるかを確認しましょう。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. マネジメントと心理的安全性を見る</h3>
-              <p className="text-sm text-blue-700">面接で会ったマネージャーの姿勢や1on1の有無は、入社後の働きやすさをよく反映します。「困ったとき相談できそうか」を直感でも判断材料に。</p>
+              <p className="text-sm text-petrol-deep">面接で会ったマネージャーの姿勢や1on1の有無は、入社後の働きやすさをよく反映します。「困ったとき相談できそうか」を直感でも判断材料に。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 第三者の客観情報を併用する</h3>
-              <p className="text-sm text-blue-700">口コミサイトの傾向やエージェントが持つ内部情報を、自分の印象と突き合わせる。<Link href="/knowledge/regret/" className="text-blue-600 hover:underline">入社前チェックリスト</Link>も活用しましょう。</p>
+              <p className="text-sm text-petrol-deep">口コミサイトの傾向やエージェントが持つ内部情報を、自分の印象と突き合わせる。<Link href="/knowledge/regret/" className="text-petrol hover:underline">入社前チェックリスト</Link>も活用しましょう。</p>
             </div>
           </div>
         </section>
@@ -327,7 +327,7 @@ export default function BurnoutPage() {
               一方で、この年代の経験は市場で確かな価値を持ちます。IT人材は中長期的に不足が見込まれ、経済産業省「IT人材需給に関する調査」（2019年公表）の試算では、2030年に最大約79万人のIT人材が不足するとされています。設計・運用・チームをまとめた経験は、SRE・テクニカルPM・EM・技術顧問など、より負荷をコントロールしやすい役割への移行に活きます。
             </p>
             <p>
-              焦って「逃げ」だけで決めるより、回復したうえで「次にどう働きたいか」を描く方が、長い目で見て損をしません。<Link href="/knowledge/work-life-balance/" className="text-blue-600 hover:underline">ワークライフバランス重視の転職</Link>や<Link href="/knowledge/career-plan/" className="text-blue-600 hover:underline">キャリアプラン設計</Link>も合わせて検討してみてください。
+              焦って「逃げ」だけで決めるより、回復したうえで「次にどう働きたいか」を描く方が、長い目で見て損をしません。<Link href="/knowledge/work-life-balance/" className="text-petrol hover:underline">ワークライフバランス重視の転職</Link>や<Link href="/knowledge/career-plan/" className="text-petrol hover:underline">キャリアプラン設計</Link>も合わせて検討してみてください。
             </p>
           </div>
         </section>
@@ -354,7 +354,7 @@ export default function BurnoutPage() {
           <p className="text-blue-100 text-sm mb-4">
             体調面は専門医・産業医へ。キャリアの選択肢を整理したいときは、IT特化型エージェントなら「今すぐ転職しない」前提の相談も可能です。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -370,7 +370,7 @@ export default function BurnoutPage() {
               { name: "転職のタイムライン", href: "/knowledge/timeline/" },
               { name: "オンボーディング成功法", href: "/knowledge/onboarding/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

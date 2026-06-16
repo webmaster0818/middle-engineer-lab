@@ -108,7 +108,7 @@ export default function KddiCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               KDDIは<strong>5G通信という巨大インフラを土台に、クラウド・データ・AIで事業を拡張している通信大手</strong>です。ジョブ型人事のもとで専門性が評価されやすく、通信×ITの大規模領域で力を発揮したいエンジニアに向きます。
@@ -126,7 +126,7 @@ export default function KddiCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -152,17 +152,17 @@ export default function KddiCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">5G通信×IT・クラウドの大規模インフラ</h3>
-              <p className="text-sm text-blue-700">国内屈指の通信ネットワークを基盤に、5G・クラウド・AI領域へ事業を拡張しています。AWS・Azure・GCPといったメガクラウドに加え、自社クラウドサービスKCPSも展開し、提案・設計・構築までを担うクラウドエンジニアを募集しています。</p>
+              <p className="text-sm text-petrol-deep">国内屈指の通信ネットワークを基盤に、5G・クラウド・AI領域へ事業を拡張しています。AWS・Azure・GCPといったメガクラウドに加え、自社クラウドサービスKCPSも展開し、提案・設計・構築までを担うクラウドエンジニアを募集しています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ジョブ型人事制度で専門性を評価</h3>
-              <p className="text-sm text-blue-700">「KDDI版ジョブ型人事制度」を導入し、職務に応じて役割・処遇が決まります。エンジニアは専門性を高めること自体が評価される設計とされ、スペシャリスト志向の中途採用と相性が良いのが特徴です。</p>
+              <p className="text-sm text-petrol-deep">「KDDI版ジョブ型人事制度」を導入し、職務に応じて役割・処遇が決まります。エンジニアは専門性を高めること自体が評価される設計とされ、スペシャリスト志向の中途採用と相性が良いのが特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データ・AI領域の強化</h3>
-              <p className="text-sm text-blue-700">AI活用に不可欠な大規模計算基盤の整備を進めており、データ基盤・AI領域の求人ではSnowflake・Tableau等のBI、Hadoop・Spark・Kafka等の並列分散処理の経験が求められる募集も見られます。</p>
+              <p className="text-sm text-petrol-deep">AI活用に不可欠な大規模計算基盤の整備を進めており、データ基盤・AI領域の求人ではSnowflake・Tableau等のBI、Hadoop・Spark・Kafka等の並列分散処理の経験が求められる募集も見られます。</p>
             </div>
           </div>
         </section>
@@ -174,11 +174,11 @@ export default function KddiCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド</strong>：AWS／Azure／GCP、自社クラウドKCPSの提案・設計・構築・運用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>データ基盤・AI</strong>：Snowflake・Tableau等のBI、Hadoop・Spark・Kafka等の並列分散処理、機械学習</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>通信ネットワーク</strong>：5G・コアネットワーク、ネットワーク基盤の設計・運用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>法人DX・アプリケーション</strong>：法人向けDXソリューション、業務システム開発</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>セキュリティ</strong>：通信・クラウド基盤のセキュリティ</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：AWS／Azure／GCP、自社クラウドKCPSの提案・設計・構築・運用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ基盤・AI</strong>：Snowflake・Tableau等のBI、Hadoop・Spark・Kafka等の並列分散処理、機械学習</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>通信ネットワーク</strong>：5G・コアネットワーク、ネットワーク基盤の設計・運用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>法人DX・アプリケーション</strong>：法人向けDXソリューション、業務システム開発</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>セキュリティ</strong>：通信・クラウド基盤のセキュリティ</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: KDDI公式 キャリア採用ページ（2026年6月時点）。具体的な必須スキルは各求人の募集要項をご確認ください。</p>
@@ -216,7 +216,7 @@ export default function KddiCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            KDDIのキャリア採用ページで公開されている一般的な流れです。最新の内容は<a href="https://career.kddi.com/career/recruit/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式キャリア採用ページ</a>でご確認ください。
+            KDDIのキャリア採用ページで公開されている一般的な流れです。最新の内容は<a href="https://career.kddi.com/career/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式キャリア採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>募集ポジションの確認・応募（エントリー）</li>
@@ -233,12 +233,12 @@ export default function KddiCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>クラウド・データ・AI・通信など募集職務（ジョブ）における実務経験と専門性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>大規模インフラ・大量データを扱うシステムの設計・運用経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>通信とITの融合領域・事業変革に貢献する姿勢</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>多部門・パートナーと協働してプロジェクトを進める推進力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド・データ・AI・通信など募集職務（ジョブ）における実務経験と専門性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>大規模インフラ・大量データを扱うシステムの設計・運用経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>通信とITの融合領域・事業変革に貢献する姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>多部門・パートナーと協働してプロジェクトを進める推進力</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、システム設計の準備は<Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システム設計面接の対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、システム設計の準備は<Link href="/knowledge/system-design/" className="text-petrol hover:underline">システム設計面接の対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -251,7 +251,7 @@ export default function KddiCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。KDDIの全社員平均（1,018万円）はこれを大きく上回りますが、これは管理職・上位等級を含む全社平均であり、入社時の提示は職務（ジョブ）・等級次第です。30代・40代は「自分が当てはまるジョブの水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              通信という巨大インフラと、クラウド・データ・AIといったソフトウェア領域を橋渡しできる人材は希少です。通信・金融など社会基盤系の<Link href="/industry/finance/" className="text-blue-600 hover:underline">金融業界のエンジニア転職</Link>や<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>、<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              通信という巨大インフラと、クラウド・データ・AIといったソフトウェア領域を橋渡しできる人材は希少です。通信・金融など社会基盤系の<Link href="/industry/finance/" className="text-petrol hover:underline">金融業界のエンジニア転職</Link>や<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -264,13 +264,13 @@ export default function KddiCompanyPage() {
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、通信大手の専門職・管理職求人に対応。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -291,7 +291,7 @@ export default function KddiCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">KDDIへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">通信×ITの大手転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -305,7 +305,7 @@ export default function KddiCompanyPage() {
               { name: "企業別エンジニア転職ガイド一覧", href: "/company/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

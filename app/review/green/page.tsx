@@ -184,7 +184,7 @@ export default function GreenReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-xl font-bold text-blue-900 mb-3">結論：Greenはこんな人向け</h2>
             <p className="text-sm text-blue-900 mb-4 leading-relaxed">
               <span className="font-bold">総合評価：自分で動けるWeb系エンジニアに強い「直接応募型」転職サイト。</span>
@@ -204,7 +204,7 @@ export default function GreenReview() {
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((item, i) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {i + 1}. {item.label}
                 </a>
               </li>
@@ -246,7 +246,7 @@ export default function GreenReview() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            つまりGreenは、エージェントの「伴走サポート」が無い代わりに、「自由度」と「企業との距離の近さ」を提供するサービスです。サポートが欲しい場面では、<Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>などのIT特化エージェントを併用するのが、最も現実的な使い方になります。直接応募型の活用法は<Link href="/knowledge/direct-apply/" className="text-blue-600 hover:underline">直接応募型サービスの使い方</Link>もあわせてご覧ください。
+            つまりGreenは、エージェントの「伴走サポート」が無い代わりに、「自由度」と「企業との距離の近さ」を提供するサービスです。サポートが欲しい場面では、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>などのIT特化エージェントを併用するのが、最も現実的な使い方になります。直接応募型の活用法は<Link href="/knowledge/direct-apply/" className="text-petrol hover:underline">直接応募型サービスの使い方</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -275,7 +275,7 @@ export default function GreenReview() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">Greenの特徴・強み</h2>
           <div className="space-y-4">
             {strengths.map((s, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {s.title}</h3>
                 <p className="text-sm text-blue-900 leading-relaxed">{s.body}</p>
               </div>
@@ -319,15 +319,15 @@ export default function GreenReview() {
         <section id="measure" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">デメリットへの対処法</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
-            <div className="border-l-4 border-blue-300 pl-4">
+            <div className="border-l-4 border-petrol pl-4">
               <p className="font-bold text-slate-800 mb-1">「サポートが無い」への対処</p>
               <p>書類添削・面接対策・年収交渉は、IT特化エージェントを併用してカバーします。Greenで気になる企業を直接探しつつ、選考対策や交渉はエージェントに任せる二刀流が効果的です。</p>
             </div>
-            <div className="border-l-4 border-blue-300 pl-4">
+            <div className="border-l-4 border-petrol pl-4">
               <p className="font-bold text-slate-800 mb-1">「内定につながりにくい」への対処</p>
               <p>直接応募は段取りと準備が結果を左右します。カジュアル面談で得た情報を志望動機に反映し、ポートフォリオや職務経歴を企業ごとに最適化することで通過率を高められます。</p>
             </div>
-            <div className="border-l-4 border-blue-300 pl-4">
+            <div className="border-l-4 border-petrol pl-4">
               <p className="font-bold text-slate-800 mb-1">「地方・SIer求人が少ない」への対処</p>
               <p>地方在住や非Web系を志向する場合は、全国展開の総合型エージェントと併用しましょう。Greenはあくまで「Web系・ベンチャーの直接応募チャネル」と位置づけるのが現実的です。</p>
             </div>
@@ -352,7 +352,7 @@ export default function GreenReview() {
             <div>
               <h3 className="font-bold text-slate-800 mb-1">40代：専門性を打ち出し、サポートはエージェントで補う</h3>
               <p>
-                40代はベンチャー求人の母数が30代より絞られます。レバテック公表値（2025年）では正社員SEの40代平均年収は約618万円、1,000万円以上の割合は12.67%とされ、経験者としての市場価値は高い年代です。Greenを使うなら、マネジメント経験や特定技術など専門性を明確に打ち出し、企業と直接対話して相性を測るのが有効です。ただし年収交渉や選考対策は自走が前提のため、エージェント併用でサポート面を補うことを強く推奨します。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>もあわせてご覧ください。
+                40代はベンチャー求人の母数が30代より絞られます。レバテック公表値（2025年）では正社員SEの40代平均年収は約618万円、1,000万円以上の割合は12.67%とされ、経験者としての市場価値は高い年代です。Greenを使うなら、マネジメント経験や特定技術など専門性を明確に打ち出し、企業と直接対話して相性を測るのが有効です。ただし年収交渉や選考対策は自走が前提のため、エージェント併用でサポート面を補うことを強く推奨します。<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>もあわせてご覧ください。
               </p>
             </div>
             <div>
@@ -410,7 +410,7 @@ export default function GreenReview() {
               ["内定・条件確認・入社", "内定後は条件を自分で確認・交渉し、入社日を調整します。交渉に不安があればエージェントの併用が有効です。"],
             ].map(([title, body], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <span className="shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-sm">{i + 1}</span>
+                <span className="shrink-0 w-8 h-8 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-sm">{i + 1}</span>
                 <div>
                   <p className="font-bold text-slate-800 text-sm mb-1">{title}</p>
                   <p className="text-sm text-slate-600 leading-relaxed">{body}</p>
@@ -426,7 +426,7 @@ export default function GreenReview() {
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed mb-4">
             <p><span className="font-bold">Greenが向くケース：</span>Web系ベンチャーを自分のペースで探したい、カジュアル面談で社風を確かめたい、企業と直接やり取りしたい。</p>
             <p><span className="font-bold">エージェントが向くケース：</span>書類添削・面接対策・年収交渉のサポートが欲しい、地方やSIerも含めて幅広く紹介してほしい。</p>
-            <p><span className="font-bold">併用パターン：</span>Greenで気になる企業を直接探しつつ、<Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>などのエージェントで非公開求人の提案や交渉サポートを受ける二刀流が、直接応募とサポートの両取りになります。</p>
+            <p><span className="font-bold">併用パターン：</span>Greenで気になる企業を直接探しつつ、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>などのエージェントで非公開求人の提案や交渉サポートを受ける二刀流が、直接応募とサポートの両取りになります。</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
@@ -435,7 +435,7 @@ export default function GreenReview() {
               { name: "paiza転職の評判", href: "/review/paiza/" },
               { name: "ビズリーチの評判（スカウト型）", href: "/review/bizreach-it/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}
@@ -462,7 +462,7 @@ export default function GreenReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Greenに無料登録する</h2>
           <p className="text-blue-100 text-sm mb-4">まずは「気になる」を送って、カジュアルに企業との出会いを始めてみませんか？</p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">無料登録して求人を見る</a>
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料登録して求人を見る</a>
         </section>
 
         {/* 関連記事 */}
@@ -470,7 +470,7 @@ export default function GreenReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {relatedArticles.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

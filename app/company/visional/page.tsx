@@ -131,7 +131,7 @@ export default function VisionalCompanyPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -139,7 +139,7 @@ export default function VisionalCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ビジョナルはこんなエンジニアに向く</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-2">転職難易度：中〜高め（Scala・関数型の専門性）</p>
             <p className="text-sm text-blue-900 leading-relaxed">
               サーバーサイドはScala中心で関数型プログラミングを実践でき、日本では数少ない環境です。
@@ -169,17 +169,17 @@ export default function VisionalCompanyPage() {
         <section id="hiring" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Scala中心の関数型プログラミング</h3>
-              <p className="text-sm text-blue-700">ビズリーチのバックエンドはScalaが主力で、関数型プログラミングの実践的な経験が積めます。型安全性と表現力の高いコードベースで開発できる環境は日本でも数少ないものです（出典: Visional Engineering Blog）。</p>
+              <p className="text-sm text-petrol-deep">ビズリーチのバックエンドはScalaが主力で、関数型プログラミングの実践的な経験が積めます。型安全性と表現力の高いコードベースで開発できる環境は日本でも数少ないものです（出典: Visional Engineering Blog）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マルチプロダクト×専門職の幅</h3>
-              <p className="text-sm text-blue-700">ビズリーチ、HRMOSなど複数プロダクトを展開し、サーバーサイド／フロント／データ／MLに加え、SRE・DBRE・セキュリティ・LLMアプリ開発など専門職の募集も豊富。キャリアの選択肢が広がります。</p>
+              <p className="text-sm text-petrol-deep">ビズリーチ、HRMOSなど複数プロダクトを展開し、サーバーサイド／フロント／データ／MLに加え、SRE・DBRE・セキュリティ・LLMアプリ開発など専門職の募集も豊富。キャリアの選択肢が広がります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">上場企業の安定×プロダクト志向</h3>
-              <p className="text-sm text-blue-700">2021年上場・東証プライムの安定感と、エンジニアがプロダクトの意思決定に深く関わる開発文化を両立。CTOがAIネイティブ化への注力を語るなど、AI領域への投資も進んでいます。</p>
+              <p className="text-sm text-petrol-deep">2021年上場・東証プライムの安定感と、エンジニアがプロダクトの意思決定に深く関わる開発文化を両立。CTOがAIネイティブ化への注力を語るなど、AI領域への投資も進んでいます。</p>
             </div>
           </div>
         </section>
@@ -239,8 +239,8 @@ export default function VisionalCompanyPage() {
           <p className="text-xs text-slate-400 mb-3">出典: ビジョナル有価証券報告書（各年7月期、IRBANK集計）。いずれも全社員平均で、職種・グレードによる差を含みます。</p>
           <p className="text-sm text-slate-600 leading-relaxed">
             エンジニア職に限った提示レンジは公式に統一公開されていないため、当ガイドでは未出典の等級別年収表は掲載していません。年代別の市場相場は
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>・
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>も参考にしてください。
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も参考にしてください。
           </p>
         </section>
 
@@ -249,10 +249,10 @@ export default function VisionalCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-2">
             <p>中途採用では、以下の流れが一般的とされています（ワンキャリア等の公開選考体験談）。面接回数・順序はポジション・時期により変わります。</p>
             <ul className="space-y-1.5 mt-2">
-              <li className="flex gap-2"><span className="text-blue-600">1.</span>カジュアル面談（採用担当やエンジニアによる30分〜1時間程度、オンライン）</li>
-              <li className="flex gap-2"><span className="text-blue-600">2.</span>コーディングテスト（基礎的なアルゴリズムの理解が中心との体験談）</li>
-              <li className="flex gap-2"><span className="text-blue-600">3.</span>複数回の面接（技術・カルチャーフィット）</li>
-              <li className="flex gap-2"><span className="text-blue-600">4.</span>最終面接・オファー面談</li>
+              <li className="flex gap-2"><span className="text-petrol">1.</span>カジュアル面談（採用担当やエンジニアによる30分〜1時間程度、オンライン）</li>
+              <li className="flex gap-2"><span className="text-petrol">2.</span>コーディングテスト（基礎的なアルゴリズムの理解が中心との体験談）</li>
+              <li className="flex gap-2"><span className="text-petrol">3.</span>複数回の面接（技術・カルチャーフィット）</li>
+              <li className="flex gap-2"><span className="text-petrol">4.</span>最終面接・オファー面談</li>
             </ul>
             <p className="text-xs text-slate-400 mt-2">公開されていない具体的な質問内容は断定していません。最新は公式採用ページ（visional.inc）でご確認ください。</p>
           </div>
@@ -263,9 +263,9 @@ export default function VisionalCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
             <p className="mb-3">公開選考体験談では、コーディングテストは現状スキルよりポテンシャルも見られる傾向があるとされ、技術知識と組織へのカルチャーフィットの双方が評価されるとされています。</p>
             <ul className="space-y-1.5">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>基礎的なアルゴリズム・設計の理解</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>「ビジョナル・ウェイ」等の価値観へのフィット</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>プロダクト・ユーザー価値に向き合う姿勢</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>基礎的なアルゴリズム・設計の理解</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>「ビジョナル・ウェイ」等の価値観へのフィット</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>プロダクト・ユーザー価値に向き合う姿勢</li>
             </ul>
             <p className="text-xs text-slate-400 mt-3">具体的な質問文や合否基準は公開情報からは断定できないため、創作した質問リストは掲載していません。</p>
           </div>
@@ -284,7 +284,7 @@ export default function VisionalCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700 leading-relaxed space-y-3">
             <p>平均年齢38歳台とミドル層が中心の組織で、<strong>Scala／Java等の専門性やHRドメインの知見を持つ30代・40代はマッチしやすい</strong>傾向です。年齢より、プロダクトの技術課題に貢献できる実務経験が重視されます。SRE・DBRE・MLなど専門職の選択肢が多い点も、ミドルの強みを活かしやすい要素です。</p>
-            <p>上場企業の安定感は、家庭やライフプランを重視する層にとって安心材料になりやすい一方、成長スピードへの期待は高めです。自身の市場価値の測り方は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニア転職の現実</Link>も参考になります。なお、ビズリーチはハイクラス向けスカウトサービスとしても活用でき、利用は<Link href="/review/bizreach-it/" className="text-blue-600 hover:underline">ビズリーチの評判・レビュー</Link>をご覧ください。</p>
+            <p>上場企業の安定感は、家庭やライフプランを重視する層にとって安心材料になりやすい一方、成長スピードへの期待は高めです。自身の市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>も参考になります。なお、ビズリーチはハイクラス向けスカウトサービスとしても活用でき、利用は<Link href="/review/bizreach-it/" className="text-petrol hover:underline">ビズリーチの評判・レビュー</Link>をご覧ください。</p>
           </div>
         </section>
 
@@ -296,13 +296,13 @@ export default function VisionalCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT・Web・ゲーム特化。提案スピードが速く、実務経験者への提案が豊富。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型媒体。カジュアル面談で社風を把握しやすい。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">エージェントの比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">転職エージェント比較</Link>もご覧ください。</p>
+          <p className="text-xs text-slate-400 mt-3">エージェントの比較は<Link href="/compare/agents/" className="text-petrol hover:underline">転職エージェント比較</Link>もご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -323,7 +323,7 @@ export default function VisionalCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ビジョナルへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">HRテック・SaaS企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section>
@@ -337,7 +337,7 @@ export default function VisionalCompanyPage() {
               { name: "ビズリーチ（サービス）の評判", href: "/review/bizreach-it/" },
               { name: "コーディングテスト対策", href: "/knowledge/coding-test/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

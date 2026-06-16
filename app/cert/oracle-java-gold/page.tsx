@@ -118,7 +118,7 @@ export default function OracleJavaGoldCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -129,7 +129,7 @@ export default function OracleJavaGoldCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Java Goldは誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Java Goldは<strong>「中級以上のJava実装力の証明」</strong>です。基礎を示すSilverの一段上で、すでにJavaで開発してきた経験者が<strong>応用領域まで含めて独力で実装できることを客観証明</strong>する用途で効きます。
             </p>
@@ -216,7 +216,7 @@ export default function OracleJavaGoldCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            Javaそのものの市場感は<Link href="/skill/java/" className="text-blue-600 hover:underline">Javaエンジニア転職ガイド</Link>を参考にしてください。
+            Javaそのものの市場感は<Link href="/skill/java/" className="text-petrol hover:underline">Javaエンジニア転職ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -256,7 +256,7 @@ export default function OracleJavaGoldCertPage() {
             活用戦略は3つに整理できます。第一に<strong>中級以上の実装力の証明</strong>。応用領域まで含めた理解を客観的に示し、難度の高い案件への適性をアピールできます。第二に<strong>リーダー・設計寄りへの足がかり</strong>。設計者の意図を理解して実装できる中上級者の素養を示せます。第三に<strong>Silverからの上積み</strong>。Silverで基礎、Goldで実装力という一貫したキャリアストーリーを作れます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。Goldは<strong>Silver前提で難度が高く、学習コストが大きい</strong>資格です。効果が出るのは「Java実務 × 資格」が成立したときで、実務がないと取得後も活かしきれません。また受験料が約4万円（税込）と高めです。逆に言えば、Javaで開発してきた30〜40代が中級以上の実装力を客観的に示したい場合には、明確な裏づけになる資格です。基礎が不安なら、まず<Link href="/cert/oracle-java-silver/" className="text-blue-600 hover:underline">Silver</Link>から進みましょう。
+            正直なデメリットも押さえておきましょう。Goldは<strong>Silver前提で難度が高く、学習コストが大きい</strong>資格です。効果が出るのは「Java実務 × 資格」が成立したときで、実務がないと取得後も活かしきれません。また受験料が約4万円（税込）と高めです。逆に言えば、Javaで開発してきた30〜40代が中級以上の実装力を客観的に示したい場合には、明確な裏づけになる資格です。基礎が不安なら、まず<Link href="/cert/oracle-java-silver/" className="text-petrol hover:underline">Silver</Link>から進みましょう。
           </p>
         </section>
 
@@ -271,7 +271,7 @@ export default function OracleJavaGoldCertPage() {
               一方で過度な期待は禁物です。Goldを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。Javaの開発実績と組み合わせて初めて、実装力の信頼性という形で結実します。難度が高くSilverが前提のため、Silver→Goldの順で計画的に進むのが現実的です。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -286,7 +286,7 @@ export default function OracleJavaGoldCertPage() {
               { n: "STEP 3", t: "合格→実務とフレームワークへ", d: "合格後はJava実務に活かしつつ、SpringなどフレームワークやSQL・設計力へ守備範囲を広げる。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -295,7 +295,7 @@ export default function OracleJavaGoldCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            前段の基礎は<Link href="/cert/oracle-java-silver/" className="text-blue-600 hover:underline">Oracle認定Javaプログラマ Silver</Link>、上流・設計の素養を広げるなら国家資格の<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>との組み合わせも有効です。資格全体の位置づけは<Link href="/cert/" className="text-blue-600 hover:underline">資格で選ぶ転職ハブ</Link>で確認できます。
+            前段の基礎は<Link href="/cert/oracle-java-silver/" className="text-petrol hover:underline">Oracle認定Javaプログラマ Silver</Link>、上流・設計の素養を広げるなら国家資格の<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>との組み合わせも有効です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">資格で選ぶ転職ハブ</Link>で確認できます。
           </p>
         </section>
 
@@ -323,7 +323,7 @@ export default function OracleJavaGoldCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -343,7 +343,7 @@ export default function OracleJavaGoldCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

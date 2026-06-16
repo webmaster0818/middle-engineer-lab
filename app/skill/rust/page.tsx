@@ -135,7 +135,7 @@ export default function RustSkillPage() {
           <ul className="space-y-1.5">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -146,7 +146,7 @@ export default function RustSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Rust転職の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               Rust「単独」で求人を探すと選択肢が一気に狭まります。30代・40代が成果を出す攻め方は、<strong>近接スキル（C/C++・Go・低レイヤー・インフラ）×Rust</strong>の掛け算で「希少人材」として見せること。これに尽きます。
             </p>
@@ -251,21 +251,21 @@ export default function RustSkillPage() {
               <p className="text-sm text-slate-600 mb-2">
                 IT/Web専門で高年収求人比率が高く、内定承諾者のうち応募時年収との差が70万円以上が「3人に2人」という実績（2023年1月〜2024年3月）が公表されています。低レイヤー・インフラ寄りのRust案件を持つ窓口として有力です。
               </p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 年収750万円以上をハイクラスと定義するスカウト型サービス。Rustのような希少スキルは、職務経歴を登録しておくと企業側から声がかかる「待ち」のチャネルとして機能します。
               </p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（IT/Web/ゲーム特化・スピード重視）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT/Web/ゲーム業界に特化し提案スピードが強み。スタートアップやゲーム/高頻度処理系でRustを採用する企業の求人に出会いやすい窓口です。
               </p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">Geeklyの詳細レビュー →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Rust特化媒体も併用する</h3>
@@ -275,7 +275,7 @@ export default function RustSkillPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの併用ガイド</Link>、ハイクラス向けの比較は<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けエージェント比較</Link>も参考にしてください。
+            複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの併用ガイド</Link>、ハイクラス向けの比較は<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けエージェント比較</Link>も参考にしてください。
           </p>
         </section>
 
@@ -292,7 +292,7 @@ export default function RustSkillPage() {
               { num: "3", title: "ドメイン専門性を先に固める", desc: "ブロックチェーン・インフラ・セキュリティなど、Rustが使われる領域の知識を先に固めると「Rustは後から覚えられる人」として評価されます。言語より先にドメインで勝負する発想です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -311,27 +311,27 @@ export default function RustSkillPage() {
             結論として、Rustはむしろミドル層と相性の良いスキルです。理由は、Rustが評価される文脈が「言語の流行り」ではなく「メモリ安全性・信頼性が要る基盤領域」であり、そこでは過去のC/C++や分散システムの泥臭い経験がそのまま価値になるためです。
           </p>
           <div className="space-y-3">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">過去の低レイヤー経験が「掛け算の片側」になる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 若手の「Rustが書ける」だけでは差がつきにくい一方、ミドルは「障害対応・性能要件・大規模運用」の経験を持っています。これにRustを足すと、若手には出せない希少性になります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">求人母数の少なさはエージェント併用で補う</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 ミドルの転職は「数撃つ」より「合う企業に確実に届ける」ことが重要。母数が薄いRustでは、特化媒体とエージェント複数社で網を広げる戦略がそのまま効きます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年収は「同年代平均＋希少性」で考える</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 40代の正社員SE平均が約618万円（レバテック・2025年）であることを基準に、希少スキルの上乗せをどこまで引き出せるかが交渉の焦点になります。年収交渉の進め方は関連記事を参照してください。
               </p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            40代の転職市場全体の現実は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>で詳しく解説しています。
+            40代の転職市場全体の現実は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>で詳しく解説しています。
           </p>
         </section>
 
@@ -342,14 +342,14 @@ export default function RustSkillPage() {
             転職で評価されるのは「Rustを学んだ」ことではなく「Rustで何を作り、どんな問題を解いたか」です。アウトプット前提の学習が近道です。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>公式ドキュメント「The Rust Programming Language」で所有権・借用・ライフタイムを体系的に押さえる</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>小さなCLIツールやWeb API（axum等）を1本完成させ、GitHubで公開する</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>既存OSSのIssueに小さなPRを送り、コードレビューを通す経験を積む</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>自分のドメイン（インフラ/セキュリティ等）の課題をRustで解いて差別化する</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>unsafeや非同期ランタイムの挙動を説明できるようにし、面接の深掘りに備える</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>公式ドキュメント「The Rust Programming Language」で所有権・借用・ライフタイムを体系的に押さえる</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>小さなCLIツールやWeb API（axum等）を1本完成させ、GitHubで公開する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>既存OSSのIssueに小さなPRを送り、コードレビューを通す経験を積む</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>自分のドメイン（インフラ/セキュリティ等）の課題をRustで解いて差別化する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>unsafeや非同期ランタイムの挙動を説明できるようにし、面接の深掘りに備える</li>
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
-            学習を継続する仕組みづくりは<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">働きながら学び続ける方法</Link>、成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>を参考にしてください。
+            学習を継続する仕組みづくりは<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">働きながら学び続ける方法</Link>、成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>を参考にしてください。
           </p>
         </section>
 
@@ -382,7 +382,7 @@ export default function RustSkillPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            この場合、Rust単独にこだわらず<Link href="/skill/go/" className="text-blue-600 hover:underline">Go</Link>や<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラ</Link>と並行して検討すると、選択肢を確保しつつRust案件にも出会えます。
+            この場合、Rust単独にこだわらず<Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>や<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>と並行して検討すると、選択肢を確保しつつRust案件にも出会えます。
           </p>
         </section>
 
@@ -438,7 +438,7 @@ export default function RustSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -458,7 +458,7 @@ export default function RustSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -471,8 +471,8 @@ export default function RustSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/toyota/" className="text-blue-700 hover:underline">トヨタ自動車</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/toyota/" className="text-petrol-deep hover:underline">トヨタ自動車</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

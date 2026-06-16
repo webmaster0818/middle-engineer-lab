@@ -96,7 +96,7 @@ export default function SpringSkillPage() {
             SpringはJavaのアプリケーションフレームワークで、<strong>金融・保険・物流・官公庁・大手SIer</strong>などミッションクリティカルなエンタープライズシステムで広く採用されています。トランザクション管理・セキュリティ・DIといった堅牢な仕組みを備え、近年はSpring Bootによるマイクロサービス化も進んでいます。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、フレームワークとしてのSpringを軸に、転職の「攻め方」を<strong>公表年収データ・求められる経験レベル・求人の探し方・Javaからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。Java全体の市場は<Link href="/skill/java/" className="text-blue-600 hover:underline">Javaエンジニアの転職ガイド</Link>もあわせてご覧ください。
+            本記事では、フレームワークとしてのSpringを軸に、転職の「攻め方」を<strong>公表年収データ・求められる経験レベル・求人の探し方・Javaからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。Java全体の市場は<Link href="/skill/java/" className="text-petrol hover:underline">Javaエンジニアの転職ガイド</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -114,7 +114,7 @@ export default function SpringSkillPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -124,7 +124,7 @@ export default function SpringSkillPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Springエンジニアの転職市場の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Springはエンタープライズ領域で需要が安定した、求人母数の大きいフレームワークです。</strong>希少性で勝負するGoやScalaとは逆に、母数の大きさと設計力・業務知識で勝負するのが向いています。
             </p>
@@ -184,7 +184,7 @@ export default function SpringSkillPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2 text-sm">{item.tier}</h3>
                 <p className="text-xs text-slate-600 mb-2 leading-relaxed">{item.req}</p>
-                <p className="text-xs text-blue-600">{item.note}</p>
+                <p className="text-xs text-petrol">{item.note}</p>
               </div>
             ))}
           </div>
@@ -224,25 +224,25 @@ export default function SpringSkillPage() {
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web特化で求人の質が高く、技術に踏み込んで話せるアドバイザーが在籍。Java／Springの即戦力求人の提案に向きます。
               </p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（求人母数が大きい）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 求人母数が大きく、金融・保険・大手SIerなどエンタープライズのSpring求人に出会いやすいのが特徴です。
               </p>
-              <Link href="/review/recruit-it/" className="text-sm text-blue-600 hover:underline">リクルートエージェントITの詳細レビュー →</Link>
+              <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 ハイクラス・スカウト型で、アーキテクトやテックリード級のSpring求人・スカウトに出会いやすいのが特徴です。
               </p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            エージェント各社の比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">転職エージェント比較</Link>も参照してください。
+            エージェント各社の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">転職エージェント比較</Link>も参照してください。
           </p>
         </section>
 
@@ -255,7 +255,7 @@ export default function SpringSkillPage() {
               { num: "3", title: "エンタープライズ系のポテンシャル枠を狙う", desc: "金融・保険・SIerなどはJava人材を前提に、Springは入社後キャッチアップ可とするポテンシャル採用を行うことがあります。エージェントに「Javaは実務あり、Springは学習中」と伝え、そうした求人を紹介してもらうのが近道です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -281,7 +281,7 @@ export default function SpringSkillPage() {
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            年代別の戦略は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>も参考にしてください。
+            年代別の戦略は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>も参考にしてください。
           </p>
         </section>
 
@@ -298,7 +298,7 @@ export default function SpringSkillPage() {
               <strong>③ クラウド・マイクロサービスを掛け合わせる。</strong>AWS・コンテナでのデプロイや、Spring Bootによるマイクロサービス分割の経験を積むと、基幹システムのモダナイズ案件や設計・テックリード級の求人に手が届きます。
             </p>
             <p>
-              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
+              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -325,7 +325,7 @@ export default function SpringSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -345,7 +345,7 @@ export default function SpringSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

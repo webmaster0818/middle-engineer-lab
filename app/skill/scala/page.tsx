@@ -114,7 +114,7 @@ export default function ScalaSkillPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -124,7 +124,7 @@ export default function ScalaSkillPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Scalaエンジニアの転職市場の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Scalaは「求人数は少ないが年収水準は高い」希少スキル型の言語です。</strong>数で勝負するのではなく、Scalaを採用しているデータ基盤・金融系の企業に的を絞り、希少性を年収に変える戦い方が向いています。
             </p>
@@ -184,7 +184,7 @@ export default function ScalaSkillPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2 text-sm">{item.tier}</h3>
                 <p className="text-xs text-slate-600 mb-2 leading-relaxed">{item.req}</p>
-                <p className="text-xs text-blue-600">{item.note}</p>
+                <p className="text-xs text-petrol">{item.note}</p>
               </div>
             ))}
           </div>
@@ -224,25 +224,25 @@ export default function ScalaSkillPage() {
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。Scalaのような専門求人の提案に向きます。
               </p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 ハイクラス・スカウト型で、データ基盤アーキテクトやテックリード級のScala案件・スカウトに出会いやすいのが特徴です。
               </p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で提案スピードが強み。Scalaを採用するWeb系・データ系スタートアップの求人を探したい場合の選択肢になります。
               </p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">Geeklyの詳細レビュー →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            エージェント各社の比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">転職エージェント比較</Link>も参照してください。
+            エージェント各社の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">転職エージェント比較</Link>も参照してください。
           </p>
         </section>
 
@@ -255,7 +255,7 @@ export default function ScalaSkillPage() {
               { num: "3", title: "データ基盤を持つ企業のポテンシャル枠を狙う", desc: "Sparkでデータ基盤を運用する企業はScala経験者の母数不足から、入社後キャッチアップ前提の採用を行うことがあります。エージェントに「Scalaは学習中、データ処理に興味がある」と伝え、そうした求人を紹介してもらうのが近道です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -281,7 +281,7 @@ export default function ScalaSkillPage() {
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            年代別の戦略は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>も参考にしてください。
+            年代別の戦略は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>も参考にしてください。
           </p>
         </section>
 
@@ -298,7 +298,7 @@ export default function ScalaSkillPage() {
               <strong>③ Javaの資産を活かす。</strong>ScalaはJVM上でJavaライブラリを利用できます。これまでのJava経験を捨てるのではなく、Scalaの上に積み増す形で学ぶと習得が速く、移行のリスクも下げられます。
             </p>
             <p>
-              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
+              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -325,7 +325,7 @@ export default function ScalaSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -345,7 +345,7 @@ export default function ScalaSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

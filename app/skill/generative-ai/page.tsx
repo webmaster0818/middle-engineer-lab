@@ -102,7 +102,7 @@ export default function GenerativeAiSkillPage() {
 
         <p className="text-slate-600 leading-relaxed mb-4">
           「生成AIエンジニア」と「AI/MLエンジニア」は、似ているようで職務が大きく違います。一言でいえば、<strong>AI/MLエンジニアは機械学習モデルそのものを作る職</strong>、<strong>生成AIエンジニアは既存のLLM（大規模言語モデル）を活用・組み込む職</strong>です。本記事は、すでに公開している
-          <Link href="/skill/ai-ml/" className="text-blue-600 hover:underline">AI/MLエンジニア転職ガイド</Link>
+          <Link href="/skill/ai-ml/" className="text-petrol hover:underline">AI/MLエンジニア転職ガイド</Link>
           と検索意図を明確に分け、「<strong>LLMを業務・製品に組み込む生成AIエンジニア</strong>」に焦点を当てて整理します。
         </p>
 
@@ -121,7 +121,7 @@ export default function GenerativeAiSkillPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -131,7 +131,7 @@ export default function GenerativeAiSkillPage() {
 
         <section id="diff" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AI/MLエンジニアとの違い</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               先に結論です。生成AIエンジニアを目指すなら、<strong>「モデルを作る」競争ではなく「LLMを賢く組み込む」競争で勝つこと</strong>が軸になります。攻め方は次の3点です。
             </p>
@@ -142,9 +142,9 @@ export default function GenerativeAiSkillPage() {
             </ul>
             <p className="text-xs text-slate-600 mt-3">
               ゼロからモデルを学習・研究したい方は
-              <Link href="/skill/ai-ml/" className="text-blue-700 underline">AI/MLエンジニア</Link>、
+              <Link href="/skill/ai-ml/" className="text-petrol-deep underline">AI/MLエンジニア</Link>、
               土台のPythonは
-              <Link href="/skill/python/" className="text-blue-700 underline ml-0">Python</Link>
+              <Link href="/skill/python/" className="text-petrol-deep underline ml-0">Python</Link>
               が出発点です。
             </p>
           </div>
@@ -181,7 +181,7 @@ export default function GenerativeAiSkillPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             セキュリティを意識したAI開発は
-            <Link href="/career/devsecops/" className="text-blue-600 hover:underline">DevSecOpsキャリア</Link>
+            <Link href="/career/devsecops/" className="text-petrol hover:underline">DevSecOpsキャリア</Link>
             とも接続します。
           </p>
         </section>
@@ -214,9 +214,9 @@ export default function GenerativeAiSkillPage() {
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             Pythonの市場価値は
-            <Link href="/skill/python/" className="text-blue-600 hover:underline">Pythonエンジニア転職ガイド</Link>、
+            <Link href="/skill/python/" className="text-petrol hover:underline">Pythonエンジニア転職ガイド</Link>、
             モデル構築側の深掘りは
-            <Link href="/skill/ai-ml/" className="text-blue-600 hover:underline">AI/MLエンジニア転職ガイド</Link>
+            <Link href="/skill/ai-ml/" className="text-petrol hover:underline">AI/MLエンジニア転職ガイド</Link>
             が接続先です。
           </p>
         </section>
@@ -243,21 +243,21 @@ export default function GenerativeAiSkillPage() {
         <section id="path" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスの選択肢</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">LLMアプリ開発リード路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 プロダクトに生成AIを組み込むチームを率いる方向。RAG・エージェント設計と、プロダクト感覚の両方が武器になります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">AIプラットフォーム/MLOps路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 社内のAI活用基盤を整える方向。クラウド・インフラの知識が活き、安定運用を担保します。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ドメイン特化AI活用路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 金融・医療・法務など業界知識×LLMで価値を出す方向。ミドルのドメイン経験が最大の差別化になります。
               </p>
             </div>
@@ -277,7 +277,7 @@ export default function GenerativeAiSkillPage() {
               { n: "STEP 4", t: "ドメイン×LLMで応募", d: "前職の業務知識を活かした活用事例として職務経歴書・ポートフォリオに落とし込む。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -286,7 +286,7 @@ export default function GenerativeAiSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">エンジニアのポートフォリオの作り方</Link>、<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの継続的な学習</Link>。
+            関連: <Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>、<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続的な学習</Link>。
           </p>
         </section>
 
@@ -301,10 +301,10 @@ export default function GenerativeAiSkillPage() {
             </p>
             <p>
               年代別の市場感は
-              <Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、
+              <Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・
+              <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、
               年収交渉は
-              <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>
+              <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>
               も合わせてご覧ください。
             </p>
           </div>
@@ -323,7 +323,7 @@ export default function GenerativeAiSkillPage() {
                   A. {faq.a}
                   {faq.aLink && (
                     <>
-                      <Link href={faq.aLink.href} className="text-blue-600 hover:underline">{faq.aLink.label}</Link>
+                      <Link href={faq.aLink.href} className="text-petrol hover:underline">{faq.aLink.label}</Link>
                       {faq.aTail}
                     </>
                   )}
@@ -340,7 +340,7 @@ export default function GenerativeAiSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -360,7 +360,7 @@ export default function GenerativeAiSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

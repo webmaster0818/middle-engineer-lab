@@ -226,58 +226,69 @@ export default function Home() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-[#0F172A] via-[#1E293B] to-[#0F172A] text-white py-16 md:py-24">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <p className="text-blue-400 font-medium text-sm mb-4 tracking-wider uppercase">
-            Engineer Career Lab for 30s &amp; 40s
+      <section className="atmosphere bg-paper py-20 md:py-28">
+        <div className="max-w-5xl mx-auto px-4 relative z-10">
+          <p className="reveal reveal-1 font-display italic text-petrol text-base md:text-lg mb-5">
+            Career data &amp; guidance for engineers in their 30s &amp; 40s
           </p>
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
-            30代・40代エンジニアの転職を、
+          <h1 className="reveal reveal-2 font-display text-4xl md:text-6xl font-semibold leading-[1.15] tracking-tight mb-7 max-w-3xl">
+            経験を、<span className="text-petrol">次の年収</span>へ。
             <br className="hidden md:block" />
-            <span className="text-blue-400">データで支える</span>
+            30代・40代エンジニアの転職を<wbr />データで導く。
           </h1>
-          <p className="text-slate-300 text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
-            年収UP実績・口コミ・得意分野を徹底調査。
-            <br className="hidden md:block" />
-            厳選5社のエージェントを比較して、あなたに最適な1社が見つかります。
+          <p className="reveal reveal-3 text-ink-soft text-base md:text-lg max-w-2xl mb-9 leading-relaxed">
+            年収データ・口コミ・得意分野を出典付きで徹底比較。
+            厳選したエージェントと、企業別・言語別の年収データから、あなたに最適な一手が見つかります。
           </p>
-          <a
-            href="#ranking"
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-lg shadow-blue-600/30"
-          >
-            ランキングを見る
-          </a>
+          <div className="reveal reveal-4 flex flex-wrap items-center gap-4">
+            <a
+              href="#ranking"
+              className="inline-flex items-center gap-2 bg-ink text-paper font-medium py-3 px-7 rounded-full hover:bg-petrol transition-colors duration-300"
+            >
+              比較ランキングを見る
+              <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </a>
+            <a
+              href="/salary/company-ranking/"
+              className="inline-flex items-center text-ink-soft font-medium py-3 ul-grow hover:text-ink transition-colors"
+            >
+              企業年収ランキング(有報準拠)
+            </a>
+          </div>
         </div>
       </section>
 
       {/* Update / Sources note */}
-      <section className="bg-slate-50 border-b border-slate-200 py-4">
+      <section className="bg-paper border-y border-[var(--line)] py-4">
         <div className="max-w-5xl mx-auto px-4">
-          <p className="text-xs text-slate-500 leading-relaxed text-center">
-            <span className="font-medium text-slate-600">最終更新: 2026年6月</span>
+          <p className="text-xs text-ink-faint leading-relaxed text-center">
+            <span className="font-medium text-ink-soft">最終更新: 2026年6月</span>
             {" ｜ "}
-            求人数・年収などの数値は調査時点の公開情報・公的統計に基づき、出典と時点を明記しています。当サイトの評価方針は
-            <Link href="/editorial/" className="text-blue-600 hover:underline">記事制作ポリシー</Link>
+            求人数・年収などの数値は調査時点の公開情報・公的統計に基づき、出典と時点を明記しています。評価方針は
+            <Link href="/editorial/" className="text-petrol ul-grow">記事制作ポリシー</Link>
             をご覧ください。
           </p>
         </div>
       </section>
 
       {/* Stats */}
-      <section className="bg-white py-12 border-b border-slate-100">
+      <section className="bg-paper py-14">
         <div className="max-w-5xl mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { value: "10社調査", label: "IT転職サービスを比較" },
-              { value: "出典付き", label: "公的統計・公式データで判断" },
-              { value: "30代/40代", label: "ミドル世代に特化" },
-              { value: "口コミ要約", label: "Qiita Job Change・みん評等" },
+              { value: "10社", label: "IT転職サービスを比較" },
+              { value: "有報準拠", label: "企業年収を一次情報で" },
+              { value: "30/40代", label: "ミドル世代に特化" },
+              { value: "出典明記", label: "公的統計・公式データ" },
             ].map((stat, i) => (
-              <div key={i} className="text-center p-4">
-                <p className="text-2xl md:text-3xl font-bold text-blue-600 mb-1">
+              <div
+                key={i}
+                className={`reveal reveal-${i + 1} bg-paper-raised border border-[var(--line)] rounded-xl p-5 text-center lift`}
+              >
+                <p className="font-display text-3xl md:text-4xl font-semibold text-ink mb-1">
                   {stat.value}
                 </p>
-                <p className="text-xs md:text-sm text-slate-500">{stat.label}</p>
+                <p className="text-xs md:text-sm text-ink-faint leading-snug">{stat.label}</p>
               </div>
             ))}
           </div>
@@ -325,7 +336,7 @@ export default function Home() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-6">
                     {agent.features.map((f, i) => (
                       <div key={i} className="flex items-start gap-2 text-sm text-slate-600">
-                        <span className="text-blue-600 mt-0.5 shrink-0">--</span>
+                        <span className="text-petrol mt-0.5 shrink-0">--</span>
                         <span>{f}</span>
                       </div>
                     ))}
@@ -358,14 +369,14 @@ export default function Home() {
                   </div>
 
                   {/* Recommend */}
-                  <div className="bg-blue-50 rounded-lg p-4 mb-4">
+                  <div className="bg-petrol-soft rounded-lg p-4 mb-4">
                     <p className="text-sm font-bold text-blue-800 mb-1">こんな方におすすめ</p>
-                    <p className="text-sm text-blue-700">{agent.recommend}</p>
+                    <p className="text-sm text-petrol-deep">{agent.recommend}</p>
                   </div>
 
                   <Link
                     href={agent.reviewPath}
-                    className="inline-block text-blue-600 hover:text-blue-800 font-medium text-sm transition-colors"
+                    className="inline-block text-petrol hover:text-blue-800 font-medium text-sm transition-colors"
                   >
                     詳細レビューを読む →
                   </Link>
@@ -462,11 +473,11 @@ export default function Home() {
               >
                 <div className="flex items-center gap-2 mb-3 text-sm font-bold">
                   <span className="text-slate-600">{item.from}</span>
-                  <span className="text-blue-600">→</span>
-                  <span className="text-blue-600">{item.to}</span>
+                  <span className="text-petrol">→</span>
+                  <span className="text-petrol">{item.to}</span>
                 </div>
                 <p className="text-sm text-slate-500 mb-3">{item.desc}</p>
-                <p className="text-xs text-blue-600 font-medium">業界別ガイドを読む →</p>
+                <p className="text-xs text-petrol font-medium">業界別ガイドを読む →</p>
               </Link>
             ))}
           </div>
@@ -549,7 +560,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/company/" className="text-blue-600 hover:underline font-medium text-sm">
+            <Link href="/company/" className="text-petrol hover:underline font-medium text-sm">
               すべての企業ガイドを見る →
             </Link>
           </div>
@@ -583,7 +594,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/skill/" className="text-blue-600 hover:underline font-medium text-sm">
+            <Link href="/skill/" className="text-petrol hover:underline font-medium text-sm">
               すべてのスキル別ガイドを見る →
             </Link>
           </div>
@@ -615,7 +626,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/career/" className="text-blue-600 hover:underline font-medium text-sm">
+            <Link href="/career/" className="text-petrol hover:underline font-medium text-sm">
               すべてのキャリアパスを見る →
             </Link>
           </div>
@@ -647,7 +658,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/purpose/" className="text-blue-600 hover:underline font-medium text-sm">
+            <Link href="/purpose/" className="text-petrol hover:underline font-medium text-sm">
               すべての目的別ガイドを見る →
             </Link>
           </div>
@@ -681,7 +692,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/area/" className="text-blue-600 hover:underline font-medium text-sm">
+            <Link href="/area/" className="text-petrol hover:underline font-medium text-sm">
               すべてのエリアガイドを見る →
             </Link>
           </div>
@@ -713,7 +724,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/compare/agents/" className="text-blue-600 hover:underline font-medium text-sm">
+            <Link href="/compare/agents/" className="text-petrol hover:underline font-medium text-sm">
               すべての比較記事を見る →
             </Link>
           </div>
@@ -748,7 +759,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/knowledge/" className="text-blue-600 hover:underline font-medium text-sm">
+            <Link href="/knowledge/" className="text-petrol hover:underline font-medium text-sm">
               すべての転職ノウハウを見る →
             </Link>
           </div>
@@ -767,7 +778,7 @@ export default function Home() {
           </p>
           <a
             href="#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             ランキングに戻る
           </a>

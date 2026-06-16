@@ -218,7 +218,7 @@ export default function GeeklyReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：スピード提案とゲーム・Web特化が強み</span>。一言でいえば「IT・Web・ゲームの実務経験があり、在職中にテンポよく転職を進めたい20代後半〜30代エンジニア」向けのエージェントです。
@@ -234,7 +234,7 @@ export default function GeeklyReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -271,27 +271,27 @@ export default function GeeklyReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">Geeklyの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. IT・Web・ゲーム業界への専門特化</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 IT・Web・ゲーム業界に専門特化しており、公開求人37,000件以上（2026年1月時点）、非公開含め46,000件以上（2026年5月時点・二次集計）。特にゲーム・エンタメ領域の求人を扱う点が他社との差別化要素です。希望職種への定着率97%という二次情報もあります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 提案スピードが速い</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Geeklyは提案スピードを強みに掲げており、口コミでもレスポンスが早く選考までスムーズという傾向の声が見られます。在職中で時間が限られる30代・40代でも、効率よく活動を進めやすいのが特徴です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 経験者への提案数と年収アップ実績</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 実務経験者への提案数が多いという傾向の声があり、年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報の公表値）という数値も公表されています。経験を年収に反映させたいエンジニアと相性が良い指標です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 専門特化ゆえの書類・面接サポート</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 業界特化のため、技術スタックやプロジェクト経験の見せ方など、職務経歴書・面接の相談がしやすいのも利点です。選考までの段取りがスムーズという声につながっています。
               </p>
             </div>
@@ -431,7 +431,7 @@ export default function GeeklyReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -448,16 +448,16 @@ export default function GeeklyReview() {
             Geeklyはスピード・IT/Web/ゲーム特化・首都圏寄りが強みです。求人数の網羅性や全国対応、40代の幅を補うなら総合型やハイクラス型の併用が有効です。具体的な比較は以下の記事で解説しています。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/compare/levtech-vs-geekly/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/levtech-vs-geekly/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテック vs Geekly の比較 →
             </Link>
-            <Link href="/compare/geekly-vs-green/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/geekly-vs-green/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Geekly vs Green の比較 →
             </Link>
-            <Link href="/compare/geekly-vs-workport/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/geekly-vs-workport/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Geekly vs ワークポート の比較 →
             </Link>
-            <Link href="/compare/speed/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/speed/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               提案スピードで選ぶエージェント比較 →
             </Link>
           </div>
@@ -485,7 +485,7 @@ export default function GeeklyReview() {
           <p className="text-blue-100 text-sm mb-4">
             ゲーム・Web業界への転職は、業界特化のGeeklyに相談しませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>
@@ -495,7 +495,7 @@ export default function GeeklyReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

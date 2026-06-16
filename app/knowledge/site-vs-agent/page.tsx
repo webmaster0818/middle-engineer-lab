@@ -131,7 +131,7 @@ export default function SiteVsAgentPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -142,7 +142,7 @@ export default function SiteVsAgentPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：違いと使い分けの基本</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               最大の違いは、<strong>転職サイトは「自分で探して応募する」、転職エージェントは「担当者が紹介し、選考をサポートする」</strong>という点です。自由度を取るならサイト、サポートと非公開求人を取るならエージェントが向いています。
             </p>
@@ -242,9 +242,9 @@ export default function SiteVsAgentPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             エージェント選びで迷ったら
-            <Link href="/knowledge/how-to-choose/" className="text-blue-600 hover:underline">IT転職エージェントの選び方</Link>
+            <Link href="/knowledge/how-to-choose/" className="text-petrol hover:underline">IT転職エージェントの選び方</Link>
             ・
-            <Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>
+            <Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>
             が参考になります。
           </p>
         </section>
@@ -255,14 +255,14 @@ export default function SiteVsAgentPage() {
           <p className="text-slate-600 leading-relaxed mb-4">
             近年は、経歴を登録しておくと企業や担当者から打診が届くスカウト型サービスも一般的になっています。自分から探す転職サイト、紹介を受けるエージェントに対し、スカウト型は「待っていれば機会が来る」第3の選択肢です。サイト・エージェントと併用することで、受け身でも機会を集められ、在職中で活動に時間を割きにくい人にも向いています。
           </p>
-          <div className="bg-blue-50 rounded-lg p-5">
-            <p className="text-sm text-blue-700 leading-relaxed">
+          <div className="bg-petrol-soft rounded-lg p-5">
+            <p className="text-sm text-petrol-deep leading-relaxed">
               スカウト型は、登録しておくだけで思わぬ企業からの打診が届くため、在職中で忙しい人や、自分の市場価値を測りたい人に適しています。どんな企業から、どんな条件で声がかかるかを見れば、現在の市場での評価が把握できます。サイトやエージェントと組み合わせれば、攻め（自分で探す）と受け（待つ）の両面で機会を最大化できます。
             </p>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             使い方の詳細は
-            <Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトサービスの使い方</Link>
+            <Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトサービスの使い方</Link>
             で解説しています。
           </p>
         </section>
@@ -277,14 +277,14 @@ export default function SiteVsAgentPage() {
             {useCases.map((u, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{u.title}</h3>
-                <p className="text-sm font-medium text-blue-700 mb-1">おすすめ：{u.rec}</p>
+                <p className="text-sm font-medium text-petrol-deep mb-1">おすすめ：{u.rec}</p>
                 <p className="text-sm text-slate-600 leading-relaxed">{u.desc}</p>
               </div>
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             複数のエージェント併用のコツは
-            <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェントは複数登録すべき？</Link>
+            <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェントは複数登録すべき？</Link>
             をご覧ください。
           </p>
         </section>
@@ -329,7 +329,7 @@ export default function SiteVsAgentPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -349,7 +349,7 @@ export default function SiteVsAgentPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

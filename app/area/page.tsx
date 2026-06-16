@@ -140,7 +140,7 @@ export default function AreaIndexPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -158,29 +158,29 @@ export default function AreaIndexPage() {
             <li>
               <span className="font-medium text-slate-700">出社前提でエリアを選ぶ</span>
               ：通勤圏内の求人に絞る代わりに、対面のコミュニケーションやオフィス環境を重視するパターン。求人量の多い
-              <Link href="/area/tokyo/" className="text-blue-600 hover:underline">東京</Link>
+              <Link href="/area/tokyo/" className="text-petrol hover:underline">東京</Link>
               や
-              <Link href="/area/osaka/" className="text-blue-600 hover:underline">大阪</Link>
+              <Link href="/area/osaka/" className="text-petrol hover:underline">大阪</Link>
               などの都市が中心になります。
             </li>
             <li>
               <span className="font-medium text-slate-700">フルリモートで居住地の制約を外す</span>
               ：地方や郊外に住みながら、都市部水準の年収の求人に応募する考え方です。求人の探し方は
-              <Link href="/area/remote/" className="text-blue-600 hover:underline">フルリモート転職ガイド</Link>
+              <Link href="/area/remote/" className="text-petrol hover:underline">フルリモート転職ガイド</Link>
               で解説しています。
             </li>
             <li>
               <span className="font-medium text-slate-700">移住とセットで考える</span>
               ：暮らしを変えるために地方へ移り、現地企業またはリモート求人で働くパターン。
-              <Link href="/area/iiju/" className="text-blue-600 hover:underline">地方移住×IT転職</Link>
+              <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職</Link>
               で、移住前後の進め方を確認できます。
             </li>
           </ul>
           <p className="text-slate-600 leading-relaxed">
             ミドル層は家庭やライフプランの影響も大きいため、まず「出社の必要度」を決めてからエリアを選ぶと迷いません。働き方そのものを見直したい場合は、
-            <Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモートワーク転職</Link>
+            <Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワーク転職</Link>
             や
-            <Link href="/knowledge/work-life-balance/" className="text-blue-600 hover:underline">ワークライフバランス</Link>
+            <Link href="/knowledge/work-life-balance/" className="text-petrol hover:underline">ワークライフバランス</Link>
             の記事もあわせてご覧ください。
           </p>
         </section>
@@ -197,9 +197,9 @@ export default function AreaIndexPage() {
                 <Link
                   key={area.slug}
                   href={`/area/${area.slug}/`}
-                  className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors group"
+                  className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors group"
                 >
-                  <h3 className="font-bold text-slate-800 text-sm mb-1 group-hover:text-blue-600 transition-colors">
+                  <h3 className="font-bold text-slate-800 text-sm mb-1 group-hover:text-petrol transition-colors">
                     {area.name}
                   </h3>
                   <p className="text-xs text-slate-600 mb-2">{area.desc}</p>
@@ -223,7 +223,7 @@ export default function AreaIndexPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>

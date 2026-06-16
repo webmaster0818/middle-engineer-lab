@@ -96,7 +96,7 @@ export default function GenerativeAiEraPage() {
             「生成AIにエンジニアの仕事が奪われる」という言説が広がる一方、現場の感覚はもう少し冷静です。奪われていくのは<strong>定型的な『作業』</strong>であり、残り、むしろ重みを増すのは<strong>課題を定義し出力を判断する『判断』</strong>です。この切り分けを理解すると、30-40代が取るべき戦略が見えてきます。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事は<strong>生成AI時代の生き残りスキル</strong>に特化します。日々の学習戦略全般は<Link href="/knowledge/continuous-learning/" className="text-blue-600 underline">継続的な学習の進め方</Link>を、補助金を使った学び直し・職種転換は<Link href="/knowledge/reskilling/" className="text-blue-600 underline">リスキリングの進め方</Link>をあわせてご覧ください。
+            本記事は<strong>生成AI時代の生き残りスキル</strong>に特化します。日々の学習戦略全般は<Link href="/knowledge/continuous-learning/" className="text-petrol underline">継続的な学習の進め方</Link>を、補助金を使った学び直し・職種転換は<Link href="/knowledge/reskilling/" className="text-petrol underline">リスキリングの進め方</Link>をあわせてご覧ください。
           </p>
         </section>
 
@@ -107,7 +107,7 @@ export default function GenerativeAiEraPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -168,7 +168,7 @@ export default function GenerativeAiEraPage() {
               { num: "3", title: "ビジネス課題設定力", desc: "「何を解けば価値が出るか」を定義する力。AIは答えを出すのは得意でも、問いを立てるのは人間の仕事。ミドルの経験が最も活きる部分。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -212,12 +212,12 @@ export default function GenerativeAiEraPage() {
               "セキュリティ・情報漏えいリスクへの配慮（入力データの扱い）",
             ].map((t, i) => (
               <li key={i} className="flex gap-2 text-sm text-slate-600">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>{t}
+                <span className="text-petrol font-bold shrink-0">✓</span>{t}
               </li>
             ))}
           </ul>
-          <div className="bg-blue-50 rounded-lg p-5">
-            <p className="text-sm text-blue-700">体系的に学ぶなら、関連スキルの解説も参考になります。関連: <Link href="/skill/generative-ai/" className="text-blue-700 underline">生成AIスキル</Link>、<Link href="/skill/ai-ml/" className="text-blue-700 underline">AI・機械学習スキル</Link>。</p>
+          <div className="bg-petrol-soft rounded-lg p-5">
+            <p className="text-sm text-petrol-deep">体系的に学ぶなら、関連スキルの解説も参考になります。関連: <Link href="/skill/generative-ai/" className="text-petrol-deep underline">生成AIスキル</Link>、<Link href="/skill/ai-ml/" className="text-petrol-deep underline">AI・機械学習スキル</Link>。</p>
           </div>
         </section>
 
@@ -247,17 +247,17 @@ export default function GenerativeAiEraPage() {
             これが本記事の核心です。生成AIによって「コードを書く作業」のコストが下がるほど、相対的に価値が上がるのは<strong>「何を作るべきか」「この出力は正しいか」を判断する力</strong>です。そしてその判断力は、年数を重ねたミドルが最も蓄積してきたものです。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ドメイン知識が出力の良し悪しを判断する</h3>
-              <p className="text-sm text-blue-700">AIが生成したコードや仕様が「業務的に妥当か」を見抜けるのは、業界・業務を知る人です。30-40代が積んだドメイン知識は、AI出力の検証者として価値を持ちます。</p>
+              <p className="text-sm text-petrol-deep">AIが生成したコードや仕様が「業務的に妥当か」を見抜けるのは、業界・業務を知る人です。30-40代が積んだドメイン知識は、AI出力の検証者として価値を持ちます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">要件定義の経験が『問い』を立てる</h3>
-              <p className="text-sm text-blue-700">AIに何を解かせるかを決めるのは人間です。曖昧な要求を整理し、解くべき課題に落とす経験は、AI時代に希少性が増します。</p>
+              <p className="text-sm text-petrol-deep">AIに何を解かせるかを決めるのは人間です。曖昧な要求を整理し、解くべき課題に落とす経験は、AI時代に希少性が増します。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マネジメントがAI活用の現場を成果に変える</h3>
-              <p className="text-sm text-blue-700">AIを使う人・チームをどう動かし、成果に結びつけるか。組織を回す力は代替されにくく、ミドルの強みが活きます。関連: <Link href="/knowledge/management/" className="text-blue-700 underline">マネジメントキャリア</Link>。</p>
+              <p className="text-sm text-petrol-deep">AIを使う人・チームをどう動かし、成果に結びつけるか。組織を回す力は代替されにくく、ミドルの強みが活きます。関連: <Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリア</Link>。</p>
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mt-5">
@@ -279,7 +279,7 @@ export default function GenerativeAiEraPage() {
                   A. {faq.a}
                   {faq.aLink && (
                     <>
-                      <Link href={faq.aLink.href} className="text-blue-600 underline">{faq.aLink.text}</Link>
+                      <Link href={faq.aLink.href} className="text-petrol underline">{faq.aLink.text}</Link>
                       {faq.aAfter}
                     </>
                   )}
@@ -293,7 +293,7 @@ export default function GenerativeAiEraPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">AI時代のキャリアをプロに相談しよう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、生成AIを前提とした求人動向や、あなたの経験の活かし方を具体的にアドバイスしてくれます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -309,7 +309,7 @@ export default function GenerativeAiEraPage() {
               { name: "市場価値の調べ方", href: "/knowledge/market-value/" },
               { name: "40代エンジニア転職のリアル", href: "/knowledge/40s-reality/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -104,7 +104,7 @@ export default function HelloWorkPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -113,7 +113,7 @@ export default function HelloWorkPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：IT特化サービスとの併用が現実的</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               ハローワークの強みは「公的支援・職業訓練・地元求人・無料」です。一方、IT専門求人の量と質はIT特化型の転職サービスに分があります。エンジニアは、<strong>失業給付・職業訓練・地方求人の目的でハローワークを使い、求人探しはIT特化サービスで補う</strong>併用が現実的です。
@@ -161,7 +161,7 @@ export default function HelloWorkPage() {
             </div>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            技術マッチングや年収アップを重視するなら、<Link href="/knowledge/how-to-choose/" className="text-blue-600 hover:underline">IT転職エージェントの選び方</Link>で解説するIT特化型サービスの併用が有効です。
+            技術マッチングや年収アップを重視するなら、<Link href="/knowledge/how-to-choose/" className="text-petrol hover:underline">IT転職エージェントの選び方</Link>で解説するIT特化型サービスの併用が有効です。
           </p>
         </section>
 
@@ -178,13 +178,13 @@ export default function HelloWorkPage() {
               "コース内容・期間・選考は地域により異なるため、最寄りのハローワークで要確認",
             ].map((c) => (
               <li key={c} className="flex items-start gap-2 text-sm text-slate-700">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span>{c}</span>
               </li>
             ))}
           </ul>
           <p className="text-slate-600 text-sm leading-relaxed">
-            未経験から学び直す手段としては選択肢の一つですが、実務経験のあるエンジニアには物足りない場合もあります。学習戦略の全体像は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの学習戦略</Link>も参考にしてください。
+            未経験から学び直す手段としては選択肢の一つですが、実務経験のあるエンジニアには物足りない場合もあります。学習戦略の全体像は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習戦略</Link>も参考にしてください。
           </p>
         </section>
 
@@ -201,7 +201,7 @@ export default function HelloWorkPage() {
               { step: "雇用保険説明会・認定日", desc: "説明会に参加し、その後は原則4週ごとの失業認定日に求職活動の状況を申告します。認定を受けると基本手当が振り込まれます。" },
             ].map((s, i) => (
               <div key={s.step} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {i + 1}
                 </span>
                 <div>
@@ -228,7 +228,7 @@ export default function HelloWorkPage() {
               "未経験からIT職を目指し、訓練と求人をセットで使いたい人",
             ].map((c) => (
               <li key={c} className="flex items-start gap-2 text-sm text-slate-700">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span>{c}</span>
               </li>
             ))}
@@ -253,11 +253,11 @@ export default function HelloWorkPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">地方・Uターン転職では価値が上がる</h3>
               <p>
-                地方やUターン・地元志向の転職では、ハローワークが持つ地元企業の求人が役立ちます。フルリモート求人と組み合わせれば、選択肢を広げられます。地方転職の論点は<Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモートワーク転職</Link>も参考になります。
+                地方やUターン・地元志向の転職では、ハローワークが持つ地元企業の求人が役立ちます。フルリモート求人と組み合わせれば、選択肢を広げられます。地方転職の論点は<Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワーク転職</Link>も参考になります。
               </p>
             </div>
             <p>
-              年代別の転職事情は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>もご覧ください。
+              年代別の転職事情は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>もご覧ください。
             </p>
           </div>
         </section>
@@ -284,7 +284,7 @@ export default function HelloWorkPage() {
           </p>
           <Link
             href="/knowledge/how-to-choose/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             IT転職エージェントの選び方を見る
           </Link>
@@ -304,7 +304,7 @@ export default function HelloWorkPage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

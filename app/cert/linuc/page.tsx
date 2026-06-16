@@ -117,7 +117,7 @@ export default function LinuCCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -128,7 +128,7 @@ export default function LinuCCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：LinuCはどんな人に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               LinuCは<strong>「国内Linux実務の体系証明」</strong>です。レベル1は入口寄りで、インフラ・サーバ運用の経験者が<strong>我流のLinuxスキルを体系的に扱える証明</strong>として、また未経験〜若手がインフラ職の入口として使えます。
             </p>
@@ -215,7 +215,7 @@ export default function LinuCCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            Linuxそのものの市場感は<Link href="/skill/linux/" className="text-blue-600 hover:underline">Linuxエンジニア転職ガイド</Link>、インフラ全般は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>を参考にしてください。
+            Linuxそのものの市場感は<Link href="/skill/linux/" className="text-petrol hover:underline">Linuxエンジニア転職ガイド</Link>、インフラ全般は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -255,7 +255,7 @@ export default function LinuCCertPage() {
             活用戦略は3つに整理できます。第一に<strong>Linux実務の体系化</strong>。現場で覚えた我流のスキルの抜けを試験対策で埋め、体系的に整理できます。第二に<strong>インフラ職の入口・書類段階の裏づけ</strong>。Linuxを扱える基礎スキルの客観証明として、選考の通過に寄与します。第三に<strong>クラウド・コンテナへの土台</strong>。LinuCで固めたLinux基礎は、クラウドやKubernetesへ進む際の前提になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。LinuCレベル1は<strong>入口寄りの位置づけのため、これ単体で上流・高度なインフラ力まで保証する資格ではありません</strong>。効果が出るのは「インフラ実務 × 資格」が成立したときです。また有効期限が5年あり、再認定を怠ると失効します。逆に言えば、Linuxスキルを体系化したい経験者や、インフラへ進みたいミドルにとっては、費用対効果の高い土台資格です。上位を示すならレベル2以上、国際案件を視野に入れるなら<Link href="/cert/lpic/" className="text-blue-600 hover:underline">LPIC</Link>も検討しましょう。
+            正直なデメリットも押さえておきましょう。LinuCレベル1は<strong>入口寄りの位置づけのため、これ単体で上流・高度なインフラ力まで保証する資格ではありません</strong>。効果が出るのは「インフラ実務 × 資格」が成立したときです。また有効期限が5年あり、再認定を怠ると失効します。逆に言えば、Linuxスキルを体系化したい経験者や、インフラへ進みたいミドルにとっては、費用対効果の高い土台資格です。上位を示すならレベル2以上、国際案件を視野に入れるなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC</Link>も検討しましょう。
           </p>
         </section>
 
@@ -270,7 +270,7 @@ export default function LinuCCertPage() {
               一方で過度な期待は禁物です。LinuC（レベル1）を取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。インフラ・サーバ運用の実績と組み合わせて初めて、基礎の信頼性という形で評価されます。上流や高度なインフラ力まで示したい場合は、レベル2以上やクラウド資格との組み合わせが有効です。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -285,7 +285,7 @@ export default function LinuCCertPage() {
               { n: "STEP 3", t: "レベル2・クラウドへ広げる", d: "認定後は実務に活かしつつ、上位のレベル2や、クラウド・コンテナ（Kubernetes）へ守備範囲を広げる。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -294,7 +294,7 @@ export default function LinuCCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            国際案件も視野に入れるなら<Link href="/cert/lpic/" className="text-blue-600 hover:underline">LPIC</Link>、クラウドへ広げるなら<Link href="/cert/aws/" className="text-blue-600 hover:underline">AWS認定</Link>・<Link href="/cert/gcp-ace/" className="text-blue-600 hover:underline">GCP Associate Cloud Engineer</Link>、ネットワーク方向は<Link href="/cert/ccna/" className="text-blue-600 hover:underline">CCNA</Link>との組み合わせも有効です。資格全体の位置づけは<Link href="/cert/" className="text-blue-600 hover:underline">資格で選ぶ転職ハブ</Link>で確認できます。
+            国際案件も視野に入れるなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC</Link>、クラウドへ広げるなら<Link href="/cert/aws/" className="text-petrol hover:underline">AWS認定</Link>・<Link href="/cert/gcp-ace/" className="text-petrol hover:underline">GCP Associate Cloud Engineer</Link>、ネットワーク方向は<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>との組み合わせも有効です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">資格で選ぶ転職ハブ</Link>で確認できます。
           </p>
         </section>
 
@@ -322,7 +322,7 @@ export default function LinuCCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -342,7 +342,7 @@ export default function LinuCCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

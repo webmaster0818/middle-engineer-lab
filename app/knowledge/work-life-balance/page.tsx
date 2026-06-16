@@ -125,7 +125,7 @@ export default function WorkLifeBalancePage() {
 
         {/* 結論ファースト */}
         <section className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：求人票の残業時間を鵜呑みにせず、口コミ・面接・エージェントの3点で裏取りする</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-2">
               WLB重視の転職で失敗しないコツは、<strong>求人票の「残業月20時間」を信じきらず、口コミサイトの傾向・面接での具体質問・エージェントの内部情報の3つで実態を照合すること</strong>です。求人票の数字は全社平均や目安であることが多く、配属チームによって体感は大きく変わります。
@@ -139,7 +139,7 @@ export default function WorkLifeBalancePage() {
         {/* 目次 */}
         <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ul className="space-y-2 text-sm text-blue-700">
+          <ul className="space-y-2 text-sm text-petrol-deep">
             <li><a href="#points" className="hover:underline">企業のWLBを見極める5つのポイント</a></li>
             <li><a href="#zangyo" className="hover:underline">残業実態の調べ方（口コミサイトの使い方）</a></li>
             <li><a href="#interview" className="hover:underline">面接での質問例</a></li>
@@ -158,7 +158,7 @@ export default function WorkLifeBalancePage() {
           <div className="space-y-4">
             {checkPoints.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -229,21 +229,21 @@ export default function WorkLifeBalancePage() {
         <section id="balance" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">WLBとキャリア成長を両立させるコツ</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 「楽な環境」と「効率的な環境」を区別する</h3>
-              <p className="text-sm text-blue-700">WLBが良い ≠ 仕事が楽。開発プロセスが整い効率的に働ける環境なら、労働時間を抑えつつ成果を出せます。</p>
+              <p className="text-sm text-petrol-deep">WLBが良い ≠ 仕事が楽。開発プロセスが整い効率的に働ける環境なら、労働時間を抑えつつ成果を出せます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 浮いた時間を自己投資に回す</h3>
-              <p className="text-sm text-blue-700">残業が減った分を技術学習や副業に充てれば、市場価値を維持・向上できます。副業との両立は<Link href="/knowledge/side-project/" className="text-blue-600 hover:underline">副業しながら転職活動</Link>を参照。</p>
+              <p className="text-sm text-petrol-deep">残業が減った分を技術学習や副業に充てれば、市場価値を維持・向上できます。副業との両立は<Link href="/knowledge/side-project/" className="text-petrol hover:underline">副業しながら転職活動</Link>を参照。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. モダンな技術スタックの環境を選ぶ</h3>
-              <p className="text-sm text-blue-700">開発効率の高い環境は、結果的に残業も少なくなりやすい傾向があります。レガシーで非効率な環境ほど無理な残業が発生しがちです。</p>
+              <p className="text-sm text-petrol-deep">開発効率の高い環境は、結果的に残業も少なくなりやすい傾向があります。レガシーで非効率な環境ほど無理な残業が発生しがちです。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. エージェントの内部情報を使い倒す</h3>
-              <p className="text-sm text-blue-700">エージェントは求人企業の働き方の実態を把握していることがあります。求人票に載らない情報を引き出しましょう。複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの複数併用ガイド</Link>へ。</p>
+              <p className="text-sm text-petrol-deep">エージェントは求人企業の働き方の実態を把握していることがあります。求人票に載らない情報を引き出しましょう。複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>へ。</p>
             </div>
           </div>
         </section>
@@ -252,17 +252,17 @@ export default function WorkLifeBalancePage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点でのWLB転職</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：育児期と成長期が重なる時期</h3>
-              <p className="text-sm text-blue-700">保育園の送迎や急な発熱対応など、時間の融通が必要になる世代。フレックス・リモートの「実利用率」を重視しつつ、技術的な成長機会も確保できる企業を選ぶと、長期的に後悔が少なくなります。</p>
+              <p className="text-sm text-petrol-deep">保育園の送迎や急な発熱対応など、時間の融通が必要になる世代。フレックス・リモートの「実利用率」を重視しつつ、技術的な成長機会も確保できる企業を選ぶと、長期的に後悔が少なくなります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：健康・介護・マネジメント負荷への配慮</h3>
-              <p className="text-sm text-blue-700">体力面や親の介護、チームマネジメントの負荷が重なりやすい世代。オンコールや休日対応の頻度、マネジメント職の労働実態を具体的に確認したい。年収とWLBの優先順位を明確にしておくと判断がぶれません。</p>
+              <p className="text-sm text-petrol-deep">体力面や親の介護、チームマネジメントの負荷が重なりやすい世代。オンコールや休日対応の頻度、マネジメント職の労働実態を具体的に確認したい。年収とWLBの優先順位を明確にしておくと判断がぶれません。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年収とのバランス</h3>
-              <p className="text-sm text-blue-700">レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円。WLBを取りつつこの水準を維持できる企業も存在します。「WLBか年収か」の二者択一ではなく、両者の優先順位を決めて比較しましょう。</p>
+              <p className="text-sm text-petrol-deep">レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円。WLBを取りつつこの水準を維持できる企業も存在します。「WLBか年収か」の二者択一ではなく、両者の優先順位を決めて比較しましょう。</p>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">出典: レバテック公表の年代別平均年収（2025年・正社員SE）。数値は時点により変動します。</p>
@@ -292,7 +292,7 @@ export default function WorkLifeBalancePage() {
           </p>
           <Link
             href="/compare/agents/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             IT転職エージェント比較を見る
           </Link>
@@ -312,7 +312,7 @@ export default function WorkLifeBalancePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

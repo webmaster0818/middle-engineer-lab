@@ -154,14 +154,14 @@ export default function SpeedPage() {
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-4">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：スピード重視ならGeeklyとワークポート</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">提案スピードを重視するなら、IT特化で「提案スピードが強み」とされる<strong>Geekly</strong>と、「スピード重視」「レスポンスが早い」と評される<strong>ワークポート</strong>の併用が現実的です。</p>
             <ul className="space-y-2 text-sm text-slate-600">
               <li>① Geekly：IT/Web/ゲーム特化で提案が速く、選考までスムーズという声（2b-connect・転職アンテナ等）</li>
@@ -188,7 +188,7 @@ export default function SpeedPage() {
               <tbody className="align-top">
                 {agents.map((a, i) => (
                   <tr key={i} className="hover:bg-slate-50">
-                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={a.href} className="text-blue-600 hover:underline">{a.name}</Link></td>
+                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={a.href} className="text-petrol hover:underline">{a.name}</Link></td>
                     <td className="px-3 py-3 border border-slate-200">{a.company}</td>
                     <td className="px-3 py-3 border border-slate-200">{a.speedPoint}</td>
                     <td className="px-3 py-3 border border-slate-200">{a.field}</td>
@@ -238,19 +238,19 @@ export default function SpeedPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">1</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
                 <p className="text-sm text-slate-600"><strong>事前準備を徹底する:</strong> 職務経歴書・ポートフォリオを先に完成させ、登録後すぐ応募できる状態にしておく。準備不足はスピードを一番落とす要因。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">2</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
                 <p className="text-sm text-slate-600"><strong>2〜3社に同時登録する:</strong> スピードに強いGeekly・ワークポートを軸に並行して提案を受ける。最初の1〜2週間で多くの求人に触れる。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">3</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
                 <p className="text-sm text-slate-600"><strong>面接日程を集中させる:</strong> 候補日をまとめて提示し、複数企業の結果を同時期に出すと、比較検討と年収交渉がしやすくなる。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">4</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">4</span>
                 <p className="text-sm text-slate-600"><strong>連絡ルールを最初に決める:</strong> 「勝手に応募しない」「連絡はメール中心」など希望を先に共有し、スピードの副作用を抑える。</p>
               </div>
             </div>
@@ -302,7 +302,7 @@ export default function SpeedPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>当サイトの読者は30代・40代のミドルエンジニアが中心です。この年代の強みは実務経験が豊富で、エージェントがすぐに具体的な求人を提案しやすい点です。だからこそ、準備を整えればスピード転職と相性が良い層でもあります。GeeklyやワークポートのようなIT特化・スピード型は、即戦力人材への提案が速い傾向があります。</p>
             <p>一方で、30代・40代は年収・役割・マネジメント範囲など確認すべき条件が20代より多くなります。スピードを優先するあまり、年収交渉やポジションの確認を省くと、入社後に「思っていた役割と違う」というミスマッチが起きやすくなります。早く動きつつ、譲れない条件（年収の下限、出社頻度、裁量範囲）はリスト化してエージェントに先に伝えておきましょう。</p>
-            <p>また、この年代では複数オファーを比較してから決めるのが安全です。スピードは「早く動き出して選択肢を早く揃える」ために使い、最終判断は条件を見比べて行うのが後悔しないコツです。年代別の選び方は<Link href="/compare/30s-agents/" className="text-blue-600 hover:underline">30代向け比較</Link>・<Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向け比較</Link>も参考にしてください。</p>
+            <p>また、この年代では複数オファーを比較してから決めるのが安全です。スピードは「早く動き出して選択肢を早く揃える」ために使い、最終判断は条件を見比べて行うのが後悔しないコツです。年代別の選び方は<Link href="/compare/30s-agents/" className="text-petrol hover:underline">30代向け比較</Link>・<Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向け比較</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -321,14 +321,14 @@ export default function SpeedPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">スピードと質を両立させて動き出そう</h2>
           <p className="text-blue-100 text-sm mb-4">提案が速いGeekly・ワークポートを軸に、連絡ルールを決めて早く・確実に進めましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-4">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

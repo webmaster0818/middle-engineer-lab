@@ -117,7 +117,7 @@ export default function ITStrategistCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -128,7 +128,7 @@ export default function ITStrategistCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：STは誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               ITストラテジストは<strong>「上流経験者の戦略・経営証明」</strong>です。基本情報やCCNAのような未経験入口資格とは性格が異なり、すでに企画・コンサル・PMなど上流の実務経験のあるミドルが<strong>経営とITを橋渡しできる人材であることを客観的に示す</strong>のに最も効きます。
             </p>
@@ -174,7 +174,7 @@ export default function ITStrategistCertPage() {
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: IPA 公式（試験要綱、調査時点2026年6月）。免除は午前Ⅰのみで、午前Ⅱ・午後は免除されません。STは午後Ⅱの論述に学習時間を集中させたい試験のため、午前Ⅰ免除の効果が特に大きくなります。詳しくは<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>のページも参照してください。
+            出典: IPA 公式（試験要綱、調査時点2026年6月）。免除は午前Ⅰのみで、午前Ⅱ・午後は免除されません。STは午後Ⅱの論述に学習時間を集中させたい試験のため、午前Ⅰ免除の効果が特に大きくなります。詳しくは<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>のページも参照してください。
           </p>
         </section>
 
@@ -192,7 +192,7 @@ export default function ITStrategistCertPage() {
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: 国税庁「民間給与実態統計調査」（令和6年分）。ITコンサル・企画職の年収は企業・役割で幅が大きいため、最新の相場は各エージェントの市場価値診断でご確認ください。上流・マネジメント方向の相場感は<Link href="/skill/pm/" className="text-blue-600 hover:underline">PM・マネジメント転職ガイド</Link>も参考になります。
+            出典: 国税庁「民間給与実態統計調査」（令和6年分）。ITコンサル・企画職の年収は企業・役割で幅が大きいため、最新の相場は各エージェントの市場価値診断でご確認ください。上流・マネジメント方向の相場感は<Link href="/skill/pm/" className="text-petrol hover:underline">PM・マネジメント転職ガイド</Link>も参考になります。
           </p>
         </section>
 
@@ -233,7 +233,7 @@ export default function ITStrategistCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            上流・マネジメント方向は<Link href="/skill/pm/" className="text-blue-600 hover:underline">PM・マネジメント転職ガイド</Link>、プロジェクト管理の専門資格は<Link href="/cert/pmp/" className="text-blue-600 hover:underline">PMP</Link>を参考にしてください。
+            上流・マネジメント方向は<Link href="/skill/pm/" className="text-petrol hover:underline">PM・マネジメント転職ガイド</Link>、プロジェクト管理の専門資格は<Link href="/cert/pmp/" className="text-petrol hover:underline">PMP</Link>を参考にしてください。
           </p>
         </section>
 
@@ -272,7 +272,7 @@ export default function ITStrategistCertPage() {
             活用の軸は3つです。第一に<strong>経営×ITの視座の証明</strong>。STは「ITで何を実現するか」という戦略レベルの試験で、経営層と対話できる人材であることを国家資格で裏づけられます。第二に<strong>コンサル・企画・CIO候補への足がかり</strong>。戦略立案の素養を示す加点材料になります。第三に<strong>社内評価・資格手当</strong>。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。STは合格率15%前後の最難関で、特に午後Ⅱの論述には<strong>自分の上流経験を論理的に書く訓練が不可欠</strong>です。また取得しても単体で年収が跳ねる資格ではなく、効果が出るのは「戦略・企画の実務 × 資格」の掛け算が成立したときです。逆に言えば、すでに上流経験があり経営に近い役割を目指す30〜40代にとっては、投資する価値が明確な資格です。土台が不安なら、まず<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>を経由するのが堅実です。
+            正直なデメリットも押さえておきましょう。STは合格率15%前後の最難関で、特に午後Ⅱの論述には<strong>自分の上流経験を論理的に書く訓練が不可欠</strong>です。また取得しても単体で年収が跳ねる資格ではなく、効果が出るのは「戦略・企画の実務 × 資格」の掛け算が成立したときです。逆に言えば、すでに上流経験があり経営に近い役割を目指す30〜40代にとっては、投資する価値が明確な資格です。土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。
           </p>
         </section>
 
@@ -287,7 +287,7 @@ export default function ITStrategistCertPage() {
               一方で過度な期待は禁物です。STを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「戦略・企画の実務経験 × 資格」の掛け算</strong>のとき。経営課題をITで解決した経験と組み合わせて初めて、コンサル職やCIO候補という形で結実します。さらに、応用情報の午前Ⅰ免除を使えば、最難関試験への挑戦の負担を抑えられます。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -302,7 +302,7 @@ export default function ITStrategistCertPage() {
               { n: "STEP 3", t: "合格→コンサル・CIO候補へ展開", d: "国家資格の裏づけを職務経歴書・面接で活かし、戦略・企画系ポジションへの移行につなげる。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -311,7 +311,7 @@ export default function ITStrategistCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            土台が不安なら<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>から、プロジェクト管理の専門性を加えるなら<Link href="/cert/pmp/" className="text-blue-600 hover:underline">PMP</Link>、マネジメント転職の進め方は<Link href="/knowledge/management/" className="text-blue-600 hover:underline">マネジメント職への転職</Link>も有効です。資格全体の位置づけは<Link href="/cert/" className="text-blue-600 hover:underline">エンジニアの資格比較</Link>もご覧ください。
+            土台が不安なら<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>から、プロジェクト管理の専門性を加えるなら<Link href="/cert/pmp/" className="text-petrol hover:underline">PMP</Link>、マネジメント転職の進め方は<Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメント職への転職</Link>も有効です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>もご覧ください。
           </p>
         </section>
 
@@ -339,7 +339,7 @@ export default function ITStrategistCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -359,7 +359,7 @@ export default function ITStrategistCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -86,7 +86,7 @@ export default function FourDayWeekPage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             「週休3日」という言葉は同じでも、その中身は<strong>給与維持型・給与減額型・総労働時間短縮型</strong>の3類型に分かれ、世帯収入への影響がまったく異なります。多くの比較サイトはこの区別をせずに「週休3日求人」を紹介していますが、給与が据え置かれるのか8割に減るのかでは家計への意味が正反対です。本記事は3類型を明確に区別し、求人がどの型かを見極める方法、正社員週4の希少性、そして給与減額型を選ぶ場合の世帯収入試算まで、家計を預かる30-40代の視点で正直に解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 育児・介護と仕事を両立するため勤務日数を減らしたい</li>
@@ -99,7 +99,7 @@ export default function FourDayWeekPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>週休3日の3類型を区別</li>
             <li>制度の希少性（公的データ）</li>
             <li>求人がどの型か見極める方法</li>
@@ -113,7 +113,7 @@ export default function FourDayWeekPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">類型</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">給与</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">総労働時間</th>
@@ -162,7 +162,7 @@ export default function FourDayWeekPage() {
               { num: "5", title: "社会保険・賞与・昇給への影響を確認", desc: "給与減額型では標準報酬月額が下がり、社会保険・将来年金・賞与・昇給基準に影響し得ます。中長期の家計への影響まで確認します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -184,11 +184,11 @@ export default function FourDayWeekPage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             なお、ここで示した割合はあくまで考え方の例であり、実際の減額幅・社会保険の扱いは企業の制度設計によります。具体的な金額は各求人の労働条件で必ず確認してください。働き方の他の選択肢として、勤務日数は変えずに時間を柔軟にする
-            <Link href="/purpose/flextime/" className="text-blue-600 hover:underline">フレックスタイム求人の見極め方</Link>
+            <Link href="/purpose/flextime/" className="text-petrol hover:underline">フレックスタイム求人の見極め方</Link>
             、残業を抑える
-            <Link href="/purpose/no-overtime/" className="text-blue-600 hover:underline">残業少なめIT企業の見極め方</Link>
+            <Link href="/purpose/no-overtime/" className="text-petrol hover:underline">残業少なめIT企業の見極め方</Link>
             、生活全体の設計を考える
-            <Link href="/purpose/wlb/" className="text-blue-600 hover:underline">ワークライフバランス重視の転職</Link>
+            <Link href="/purpose/wlb/" className="text-petrol hover:underline">ワークライフバランス重視の転職</Link>
             も合わせてご検討ください。
           </p>
         </section>
@@ -211,7 +211,7 @@ export default function FourDayWeekPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">週休3日・時短の求人を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">制度の型まで把握したIT特化型エージェントが、あなたの働き方に合う企業を提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -225,7 +225,7 @@ export default function FourDayWeekPage() {
               { name: "副業OK求人の見極め方", href: "/purpose/side-job-ok/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

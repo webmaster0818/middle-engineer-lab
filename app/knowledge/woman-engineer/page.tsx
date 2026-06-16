@@ -68,13 +68,13 @@ export default function WomanEngineerPage() {
         <nav className="mb-10 border border-slate-200 rounded-lg p-5 bg-slate-50">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
           <ul className="space-y-2 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：見極めるべきは「制度の有無」より「使われ方」</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">育休制度・時短制度・リモート制度は、いまや多くのIT企業が「制度としては」持っています。差がつくのは<strong>その制度が実際に使われ、使った人が評価・昇給で不利になっていないか</strong>です。</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>1. 制度の有無ではなく「直近の取得実績の人数」と「復帰後のポジション」を確認する</li>
@@ -101,7 +101,7 @@ export default function WomanEngineerPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-slate-600 leading-relaxed mt-4">特に意識したいのが、育休復帰後に責任の軽い補助的業務に固定される「マミートラック」を避けることです。復帰後も技術の第一線・意思決定に関わり続けられるかは、転職先選びの段階で見極めておきたいポイントです。働き方全般の考え方は<Link href="/knowledge/work-life-balance/" className="text-blue-600 hover:underline">ワークライフバランス重視の転職</Link>も参考になります。</p>
+          <p className="text-slate-600 leading-relaxed mt-4">特に意識したいのが、育休復帰後に責任の軽い補助的業務に固定される「マミートラック」を避けることです。復帰後も技術の第一線・意思決定に関わり続けられるかは、転職先選びの段階で見極めておきたいポイントです。働き方全般の考え方は<Link href="/knowledge/work-life-balance/" className="text-petrol hover:underline">ワークライフバランス重視の転職</Link>も参考になります。</p>
         </section>
 
         <section id="company-check" className="mb-10 scroll-mt-20">
@@ -123,7 +123,7 @@ export default function WomanEngineerPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">4. エージェント経由の内部情報</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">残業実態、時短勤務者の有無、復帰後の配属傾向など、求人票に載らない情報をエージェントが把握している場合があります。<Link href="/knowledge/agent-first-meeting/" className="text-blue-600 hover:underline">初回面談</Link>の段階で「育児と両立しているエンジニアが実際にいる職場か」を遠慮なく相談しましょう。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">残業実態、時短勤務者の有無、復帰後の配属傾向など、求人票に載らない情報をエージェントが把握している場合があります。<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">初回面談</Link>の段階で「育児と両立しているエンジニアが実際にいる職場か」を遠慮なく相談しましょう。</p>
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mt-4 text-sm text-amber-800">認定制度・公的支援制度の詳細や最新の要件は、厚生労働省など公式情報を必ずご確認ください。本記事は一般的な確認方法の説明にとどめています。</div>
@@ -140,7 +140,7 @@ export default function WomanEngineerPage() {
               </div>
             ))}
           </div>
-          <p className="text-slate-600 leading-relaxed mt-4">いずれも「長期的に貢献したいので確認させてください」と前置きすると、計画性のある候補者として好印象です。面接全般の準備は<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接（STAR法）対策</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed mt-4">いずれも「長期的に貢献したいので確認させてください」と前置きすると、計画性のある候補者として好印象です。面接全般の準備は<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STAR法）対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="ng-question" className="mb-10 scroll-mt-20">
@@ -160,8 +160,8 @@ export default function WomanEngineerPage() {
         <section id="salary" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収・市場データで見る女性エンジニアの立ち位置</h2>
           <p className="text-slate-600 leading-relaxed mb-4">IT人材は不足が続くと見込まれており、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人の不足が示されています。経験者の需要が高い市況は、ライフイベントを抱える人にとっても交渉余地を生みます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">職種の平均像として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳とされています（令和7年賃金構造基本統計調査ベース）。これは男女合算・全国の参考値であり、個々の年収は経験・スキル・地域で大きく変わります。自分の市場価値は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>を参考に、複数のエージェントで客観的に確認しましょう。</p>
-          <p className="text-slate-600 leading-relaxed">時短勤務の場合でも、職務・成果が変わらないなら過度に低い提示を受け入れる必要はありません。年収交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>でも解説しています。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">職種の平均像として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳とされています（令和7年賃金構造基本統計調査ベース）。これは男女合算・全国の参考値であり、個々の年収は経験・スキル・地域で大きく変わります。自分の市場価値は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>を参考に、複数のエージェントで客観的に確認しましょう。</p>
+          <p className="text-slate-600 leading-relaxed">時短勤務の場合でも、職務・成果が変わらないなら過度に低い提示を受け入れる必要はありません。年収交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>でも解説しています。</p>
         </section>
 
         <section id="checklist" className="mb-10 scroll-mt-20">
@@ -194,9 +194,9 @@ export default function WomanEngineerPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代女性エンジニアの独自視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドル世代は、若手と違い「即戦力としての専門性」と「ライフイベントとの両立条件」を両立して交渉できる強みがあります。一方で、年齢を理由に応募を自粛してしまうケースも見られます。次の3点を意識すると、選択肢を狭めずに進められます。</p>
           <div className="space-y-3">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">経験を「マネジメント耐性」として翻訳する</h3><p className="text-sm text-blue-700">育児や家族の事情で培った段取り力・優先順位付けは、チームリードやプロジェクト管理に活きるスキルとして言語化できます。<Link href="/knowledge/management/" className="text-blue-700 underline">マネジメントへの転向</Link>も視野に入ります。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">条件は「妥協」ではなく「設計」として伝える</h3><p className="text-sm text-blue-700">時短・リモートは「お願い」ではなく、成果を出すための働き方として提示すると交渉が前向きに進みます。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">在職中に動き、内定を得てから判断する</h3><p className="text-sm text-blue-700">生活基盤を持つミドル世代は、在職中の転職活動でリスクを抑えるのが鉄則です。<Link href="/knowledge/timeline/" className="text-blue-700 underline">転職活動のスケジュール</Link>も参考にしてください。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">経験を「マネジメント耐性」として翻訳する</h3><p className="text-sm text-petrol-deep">育児や家族の事情で培った段取り力・優先順位付けは、チームリードやプロジェクト管理に活きるスキルとして言語化できます。<Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントへの転向</Link>も視野に入ります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">条件は「妥協」ではなく「設計」として伝える</h3><p className="text-sm text-petrol-deep">時短・リモートは「お願い」ではなく、成果を出すための働き方として提示すると交渉が前向きに進みます。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">在職中に動き、内定を得てから判断する</h3><p className="text-sm text-petrol-deep">生活基盤を持つミドル世代は、在職中の転職活動でリスクを抑えるのが鉄則です。<Link href="/knowledge/timeline/" className="text-petrol-deep underline">転職活動のスケジュール</Link>も参考にしてください。</p></div>
           </div>
         </section>
 
@@ -208,7 +208,7 @@ export default function WomanEngineerPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">女性エンジニアの転職をサポート</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、働き方の条件を伝えたうえで、技術にマッチした求人を紹介してもらえます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -221,7 +221,7 @@ export default function WomanEngineerPage() {
               { name: "年収交渉のコツ", href: "/knowledge/salary-negotiation/" },
               { name: "リモートワーク転職ガイド", href: "/knowledge/remote-work/" },
               { name: "エージェント初回面談の流れ", href: "/knowledge/agent-first-meeting/" },
-            ].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            ].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

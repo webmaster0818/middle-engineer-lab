@@ -108,7 +108,7 @@ export default function NttCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               NTT（持株）は<strong>IOWN・AI・クラウドなど次世代基盤の研究開発（R&D）を担う会社</strong>です。事業に近いサービス開発というより、先端技術の研究・基盤づくりに関わりたいエンジニア・研究者に向きます。サービス開発志向ならドコモ／データ等の事業会社が選択肢です。
@@ -126,7 +126,7 @@ export default function NttCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -158,7 +158,7 @@ export default function NttCompanyPage() {
             <ul className="space-y-1.5">
               <li>● <strong>持株会社（本ページ）</strong>：グループの経営戦略と基盤的R&D。NTT研究所が先端技術を担当。</li>
               <li>● <strong>NTTドコモ</strong>：モバイル通信・スマートライフ等のサービス事業。</li>
-              <li>● <strong>NTTデータグループ</strong>：SI・ITサービス（金融・公共・法人システム等）。当サイトの<Link href="/company/ntt-data/" className="text-blue-700 underline">NTTデータ ガイド</Link>を参照。</li>
+              <li>● <strong>NTTデータグループ</strong>：SI・ITサービス（金融・公共・法人システム等）。当サイトの<Link href="/company/ntt-data/" className="text-petrol-deep underline">NTTデータ ガイド</Link>を参照。</li>
               <li>● <strong>NTT東日本／西日本</strong>：地域通信インフラ。</li>
             </ul>
             <p>サービス開発に近い仕事を望むなら事業会社、先端技術の研究・基盤開発を望むなら持株会社のR&Dが選択肢になります。</p>
@@ -168,17 +168,17 @@ export default function NttCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">基盤的研究開発（R&D）が中心</h3>
-              <p className="text-sm text-blue-700">持株会社直下のNTT研究所は、グループ全体の基盤的研究開発を推進しています。IOWN構想に代表される次世代の通信・情報処理基盤など、長期視点の技術開発が中心で、研究色の強い募集が多いのが特徴です。</p>
+              <p className="text-sm text-petrol-deep">持株会社直下のNTT研究所は、グループ全体の基盤的研究開発を推進しています。IOWN構想に代表される次世代の通信・情報処理基盤など、長期視点の技術開発が中心で、研究色の強い募集が多いのが特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">IOWN・AI・クラウドの先端領域</h3>
-              <p className="text-sm text-blue-700">ネットワークサービスシステム研究所ではIOWN（光・無線）関連の研究、ソフトウェアイノベーションセンタではクラウド・コンテナ技術、AI処理基盤、IoT処理基盤、ソフトウェア工学などの研究開発が行われています。</p>
+              <p className="text-sm text-petrol-deep">ネットワークサービスシステム研究所ではIOWN（光・無線）関連の研究、ソフトウェアイノベーションセンタではクラウド・コンテナ技術、AI処理基盤、IoT処理基盤、ソフトウェア工学などの研究開発が行われています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">経験者採用（中途）の専用ルート</h3>
-              <p className="text-sm text-blue-700">NTT R&Dは経験者採用の専用サイトを設けており、研究・開発の専門性を持つ人材を中途で受け入れています。研究成果や技術的なアウトプットが評価軸になりやすい領域です。</p>
+              <p className="text-sm text-petrol-deep">NTT R&Dは経験者採用の専用サイトを設けており、研究・開発の専門性を持つ人材を中途で受け入れています。研究成果や技術的なアウトプットが評価軸になりやすい領域です。</p>
             </div>
           </div>
         </section>
@@ -190,11 +190,11 @@ export default function NttCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>IOWN・ネットワーク</strong>：光を中心とした次世代基盤、通信トラヒック・品質・オペレーション技術</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AI・データ分析</strong>：AI処理基盤、先進的なデータ分析アルゴリズム</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド・コンテナ</strong>：ITサービスを支えるクラウド・コンテナ技術</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>IoT処理基盤</strong>：膨大なデータを扱うためのIoT処理基盤技術</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>ソフトウェア工学・セキュリティ</strong>：ソフトウェア工学分野の研究、セキュリティ技術</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>IOWN・ネットワーク</strong>：光を中心とした次世代基盤、通信トラヒック・品質・オペレーション技術</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI・データ分析</strong>：AI処理基盤、先進的なデータ分析アルゴリズム</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド・コンテナ</strong>：ITサービスを支えるクラウド・コンテナ技術</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>IoT処理基盤</strong>：膨大なデータを扱うためのIoT処理基盤技術</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ソフトウェア工学・セキュリティ</strong>：ソフトウェア工学分野の研究、セキュリティ技術</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: NTT公式 採用ページ／NTT R&D 経験者採用・各研究所紹介（2026年6月時点）。具体的な必須要件は各求人をご確認ください。</p>
@@ -232,7 +232,7 @@ export default function NttCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            NTT R&D 経験者採用ページで公開されている一般的な流れです。最新の内容は<a href="https://group.ntt/jp/careers/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">NTT公式 採用ページ</a>でご確認ください。
+            NTT R&D 経験者採用ページで公開されている一般的な流れです。最新の内容は<a href="https://group.ntt/jp/careers/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">NTT公式 採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>募集ポジション（研究所・テーマ）の確認・応募（エントリー）</li>
@@ -253,7 +253,7 @@ export default function NttCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。NTT持株の全社員平均（1,069万円）はこれを大きく上回りますが、これは管理職・上位等級を含む持株単体の全社平均であり、入社時の提示は等級・役割次第です。30代・40代は「自分が当てはまる等級の水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              なお、サービス開発に近い仕事を望むなら<Link href="/company/ntt-data/" className="text-blue-600 hover:underline">NTTデータ</Link>などの事業会社、通信×ITなら<Link href="/company/kddi/" className="text-blue-600 hover:underline">KDDI</Link>や<Link href="/company/softbank/" className="text-blue-600 hover:underline">ソフトバンク</Link>も比較対象になります。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              なお、サービス開発に近い仕事を望むなら<Link href="/company/ntt-data/" className="text-petrol hover:underline">NTTデータ</Link>などの事業会社、通信×ITなら<Link href="/company/kddi/" className="text-petrol hover:underline">KDDI</Link>や<Link href="/company/softbank/" className="text-petrol hover:underline">ソフトバンク</Link>も比較対象になります。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -266,13 +266,13 @@ export default function NttCompanyPage() {
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、研究職・専門職・管理職求人に対応。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -293,7 +293,7 @@ export default function NttCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">NTTへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">研究開発・通信大手の転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -307,7 +307,7 @@ export default function NttCompanyPage() {
               { name: "企業別エンジニア転職ガイド一覧", href: "/company/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

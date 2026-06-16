@@ -108,7 +108,7 @@ export default function CertPmpPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -117,7 +117,7 @@ export default function CertPmpPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PMPは経験者加点資格、ミドルに効く</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               PMPは当サイトの分類で<strong>「経験者加点資格」</strong>に位置づけられます。受験資格自体がPM実務36ヶ月以上（大卒）を求めるため、構造的に30代・40代のミドル層向けの資格です。資格を持つこと自体がPM経験の客観証明になり、高単価案件の書類フィルタを通過しやすくなります。
             </p>
@@ -257,7 +257,7 @@ export default function CertPmpPage() {
               もう一つ、ミドルのエンジニアがPMPを取る意義として「キャリアの方向転換の旗印になる」点があります。プレイヤーとして手を動かす働き方から、チームやプロジェクトをまとめる側へ重心を移したいとき、PMPは「マネジメントへ本気で軸足を移す意思」を採用側に示すシグナルになります。技術力で勝負してきたエンジニアが40代でマネジメント職を狙う際、技術の理解とPMの体系知識を両立している点は強い差別化要因です。
             </p>
             <p>
-              職種側の市場感は<Link href="/skill/pm/" className="text-blue-600 hover:underline">PM（プロジェクトマネージャー）転職ガイド</Link>、マネジメントへの進み方は<Link href="/knowledge/management/" className="text-blue-600 hover:underline">マネジメントへのキャリア</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>も参考になります。
+              職種側の市場感は<Link href="/skill/pm/" className="text-petrol hover:underline">PM（プロジェクトマネージャー）転職ガイド</Link>、マネジメントへの進み方は<Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメントへのキャリア</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -272,7 +272,7 @@ export default function CertPmpPage() {
               { n: "STEP 3", t: "受験・取得後の更新計画", d: "受験して合格後は、3年ごと60PDUの更新計画をセットで立てる。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -281,7 +281,7 @@ export default function CertPmpPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            併取得におすすめなのは、IT全般の体系を固める<Link href="/cert/" className="text-blue-600 hover:underline">応用情報技術者（資格一覧参照）</Link>や、PJで扱う技術領域の理解を深める<Link href="/cert/aws/" className="text-blue-600 hover:underline">AWS認定</Link>です。技術×マネジメントの両輪があると、PMとしての説得力が増します。
+            併取得におすすめなのは、IT全般の体系を固める<Link href="/cert/" className="text-petrol hover:underline">応用情報技術者（資格一覧参照）</Link>や、PJで扱う技術領域の理解を深める<Link href="/cert/aws/" className="text-petrol hover:underline">AWS認定</Link>です。技術×マネジメントの両輪があると、PMとしての説得力が増します。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             学習面で押さえておきたいのは、近年のPMBOKガイドが「予測型（ウォーターフォール）」だけでなく「アジャイル」「ハイブリッド」まで含めた幅広いアプローチを扱うようになった点です。試験対策はもちろん、実務でもアジャイル開発のプロジェクトに携わる機会が増えているため、両方の進め方を理解しておくと現場での応用が利きます。エンジニア出身のPMにとっては、技術の実装イメージを持ちながらマネジメント手法を学べることが強みになり、開発チームとの対話でも信頼を得やすくなります。資格学習を「試験のため」で終わらせず、日々のプロジェクト運営に還元する姿勢が、結果的に転職時の語れる実績にもつながります。
@@ -323,7 +323,7 @@ export default function CertPmpPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -343,7 +343,7 @@ export default function CertPmpPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

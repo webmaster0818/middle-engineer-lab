@@ -44,7 +44,7 @@ export default function AboutPage() {
         {/* サイトミッション */}
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">サイトの使命</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-lg p-6">
             <p className="text-sm text-slate-700 leading-relaxed mb-3">
               「ミドルエンジニア転職ラボ」は、<strong>30代・40代のITエンジニアの転職を支援する</strong>ことを使命としています。
             </p>
@@ -66,15 +66,15 @@ export default function AboutPage() {
             </p>
             <ul className="space-y-3 text-sm text-slate-600">
               <li className="flex items-start gap-2">
-                <span className="text-blue-600 shrink-0">●</span>
+                <span className="text-petrol shrink-0">●</span>
                 Webアプリケーション開発、インフラ構築、プロジェクトマネジメントなど多様な実務経験を持つメンバーで構成
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-blue-600 shrink-0">●</span>
+                <span className="text-petrol shrink-0">●</span>
                 メンバー自身が30代・40代での転職を経験しており、当事者目線での情報提供が可能
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-blue-600 shrink-0">●</span>
+                <span className="text-petrol shrink-0">●</span>
                 転職エージェントへの取材・ヒアリングを定期的に実施し、最新の市場動向を反映
               </li>
             </ul>
@@ -115,15 +115,15 @@ export default function AboutPage() {
           <div className="border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2">
-                <span className="text-blue-600 shrink-0">●</span>
+                <span className="text-petrol shrink-0">●</span>
                 <strong>ランキング・比較記事:</strong> 月次更新（毎月最新データに基づき順位・情報を見直し）
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-blue-600 shrink-0">●</span>
+                <span className="text-petrol shrink-0">●</span>
                 <strong>企業別・エリア別ガイド:</strong> 四半期ごとに更新
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-blue-600 shrink-0">●</span>
+                <span className="text-petrol shrink-0">●</span>
                 <strong>エージェント情報:</strong> 料金・サービス変更があった場合は随時更新
               </li>
             </ul>
@@ -134,13 +134,13 @@ export default function AboutPage() {
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/editorial/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/editorial/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               記事制作ポリシー →
             </Link>
-            <Link href="/terms/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/terms/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               利用規約 →
             </Link>
-            <Link href="/privacy/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/privacy/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               プライバシーポリシー →
             </Link>
           </div>

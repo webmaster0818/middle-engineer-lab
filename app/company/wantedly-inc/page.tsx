@@ -105,7 +105,7 @@ export default function WantedlyIncCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               ウォンテッドリーは<strong>Ruby on RailsとGoでビジネスSNSを開発する、少数精鋭のプラットフォーム企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収は約681万円（直近 有報）です。
@@ -123,7 +123,7 @@ export default function WantedlyIncCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -149,17 +149,17 @@ export default function WantedlyIncCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ビジネスSNSというドメイン</h3>
-              <p className="text-sm text-blue-700">「Wantedly」は共感を軸に人と会社をつなぐビジネスSNSです。採用・マッチング・つながりといったソーシャルプラットフォーム特有の課題に向き合えるエンジニアが活きる環境です。</p>
+              <p className="text-sm text-petrol-deep">「Wantedly」は共感を軸に人と会社をつなぐビジネスSNSです。採用・マッチング・つながりといったソーシャルプラットフォーム特有の課題に向き合えるエンジニアが活きる環境です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">RailsからGoへのリアーキテクチャ経験</h3>
-              <p className="text-sm text-blue-700">公式技術ブログによると、当初はRuby on Railsで構築し、規模の大きいサービスを切り出す過程でGoへの移行を進めてきました。モノリスからマイクロサービスへの移行に技術的背景を持って取り組める点が特徴です。</p>
+              <p className="text-sm text-petrol-deep">公式技術ブログによると、当初はRuby on Railsで構築し、規模の大きいサービスを切り出す過程でGoへの移行を進めてきました。モノリスからマイクロサービスへの移行に技術的背景を持って取り組める点が特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">少数精鋭で技術選定に関われる</h3>
-              <p className="text-sm text-blue-700">従業員規模が相対的にコンパクトなため、一人ひとりが幅広いプロダクトや技術選定に関わりやすい環境です。新規事業からグロースフェーズまで、複数プロダクトに横断的に貢献したいエンジニアに向いています。</p>
+              <p className="text-sm text-petrol-deep">従業員規模が相対的にコンパクトなため、一人ひとりが幅広いプロダクトや技術選定に関わりやすい環境です。新規事業からグロースフェーズまで、複数プロダクトに横断的に貢献したいエンジニアに向いています。</p>
             </div>
           </div>
         </section>
@@ -171,10 +171,10 @@ export default function WantedlyIncCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>バックエンド</strong>：Ruby / Ruby on Rails、Go、gRPC / Protocol Buffers、Python</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>フロントエンド</strong>：React、TypeScript、GraphQL</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>CI/CD</strong>：GitHub Actions、CircleCI</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>特徴</strong>：モノリス（Rails）から大規模サービスをGoのマイクロサービスへ移行してきた構成</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：Ruby / Ruby on Rails、Go、gRPC / Protocol Buffers、Python</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：React、TypeScript、GraphQL</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>CI/CD</strong>：GitHub Actions、CircleCI</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>特徴</strong>：モノリス（Rails）から大規模サービスをGoのマイクロサービスへ移行してきた構成</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: ウォンテッドリー公式 技術ブログ・採用ページ等の公開記事。2026年6月時点で確認できる範囲。</p>
@@ -214,12 +214,12 @@ export default function WantedlyIncCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>Ruby on Rails／Go等での実装力と設計の妥当性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>SNS・マッチングプラットフォームの開発・運用経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術選定・リアーキテクチャの背景を語れるか</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ミッションへの共感・自律的に課題を見つける姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Ruby on Rails／Go等での実装力と設計の妥当性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>SNS・マッチングプラットフォームの開発・運用経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術選定・リアーキテクチャの背景を語れるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ミッションへの共感・自律的に課題を見つける姿勢</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -232,7 +232,7 @@ export default function WantedlyIncCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。ウォンテッドリーの全社員平均（約681万円）はこれを上回りますが、これは全社平均であり、入社時の提示はスキル評価次第です。30代・40代は自分の市場価値を踏まえ、個別求人・面談で水準を確認することが重要です。
             </p>
             <p>
-              少数精鋭ゆえに、技術選定や横断的な改善に踏み込める裁量がある点はミドル層にとって魅力です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              少数精鋭ゆえに、技術選定や横断的な改善に踏み込める裁量がある点はミドル層にとって魅力です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -245,13 +245,13 @@ export default function WantedlyIncCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -272,7 +272,7 @@ export default function WantedlyIncCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ウォンテッドリーへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">Web系・SaaS企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -286,7 +286,7 @@ export default function WantedlyIncCompanyPage() {
               { name: "技術面接の対策", href: "/knowledge/tech-interview/" },
               { name: "30代エンジニアの転職事情", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

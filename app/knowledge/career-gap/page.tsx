@@ -164,7 +164,7 @@ export default function CareerGapPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -175,7 +175,7 @@ export default function CareerGapPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ブランク説明の基本方針</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               ブランク説明の基本は、<strong>「理由を簡潔・正直に述べ」「空白中の過ごし方を具体的に語り」「今は就業できる状態だと明確に示す」</strong>こと。隠したりごまかしたりせず、事実をベースに前向きな現在地を伝えるのが鉄則です。
             </p>
@@ -217,7 +217,7 @@ export default function CareerGapPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             ブランク中の学習成果を見せたい場合は、
-            <Link href="/knowledge/github-showcase/" className="text-blue-600 hover:underline">GitHubでの見せ方</Link>
+            <Link href="/knowledge/github-showcase/" className="text-petrol hover:underline">GitHubでの見せ方</Link>
             も参考にしてください。
           </p>
         </section>
@@ -241,7 +241,7 @@ export default function CareerGapPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             書類全体の作り方は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>
             を参照してください。
           </p>
         </section>
@@ -259,7 +259,7 @@ export default function CareerGapPage() {
               { num: "3", title: "現在の就業可能性を示す", desc: "「現在は問題なく就業できる状態です」と締め、再現性・継続性への懸念を払拭します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -288,15 +288,15 @@ export default function CareerGapPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代で特に注意する点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：実績でブランクの不安を上回る</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30代はブランク前の実務経験が厚い分、即戦力性で空白の不安を相殺できます。ブランクの理由を簡潔に説明したうえで、過去の成果と直近の学習をセットで示し、「すぐ戦力になる」という印象を残しましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：継続就業の意思を具体的に示す</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は年齢が上がるほど、ブランクの理由と長期就業の見通しに対する説明の納得感が問われます。家庭やキャリアの状況が安定したこと、長く貢献したい意思を、事実ベースで具体的に伝えることが信頼につながります。
               </p>
             </div>
@@ -327,7 +327,7 @@ export default function CareerGapPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -347,7 +347,7 @@ export default function CareerGapPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

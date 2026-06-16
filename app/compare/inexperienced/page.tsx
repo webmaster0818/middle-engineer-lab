@@ -176,14 +176,14 @@ export default function InexperiencedPage() {
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-4">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：未経験はワークポートとdodaを軸に2〜3社</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">未経験からのIT転職なら、未経験歓迎求人が豊富な<strong>ワークポート</strong>と、求人母数が大きい<strong>doda</strong>を軸に登録するのが現実的です。</p>
             <ul className="space-y-2 text-sm text-slate-600">
               <li>① ワークポート：未経験歓迎求人が豊富で、全国47都道府県57拠点・提案スピードが速い（公式）</li>
@@ -211,7 +211,7 @@ export default function InexperiencedPage() {
               <tbody>
                 {agents.map((a, i) => (
                   <tr key={i} className="hover:bg-slate-50 align-top">
-                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={a.href} className="text-blue-600 hover:underline">{a.name}</Link></td>
+                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={a.href} className="text-petrol hover:underline">{a.name}</Link></td>
                     <td className="px-3 py-3 border border-slate-200">{a.company}</td>
                     <td className="px-3 py-3 border border-slate-200">{a.jobs}</td>
                     <td className="px-3 py-3 border border-slate-200">{a.area}</td>
@@ -322,7 +322,7 @@ export default function InexperiencedPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>当サイトの読者には30代・40代のミドル層が多いため、未経験ITの「現実」も正直に共有します。経済産業省の2019年公表の試算では2030年に最大約79万人のIT人材不足が見込まれており、業界全体としては門戸が広がる方向です。一方で、未経験歓迎求人の多くはポテンシャル採用として20代〜30代前半を想定していることが多く、年齢が上がるほど難易度は上がる傾向があります。</p>
             <p>30代後半以降の未経験者は、「ITそのものの未経験」ではなく「ITに近い経験」を作る発想が現実的です。たとえば現職の業務知識を活かせる社内SE・IT営業・PMO補佐などから入り、実務経験を積んでから本格的なエンジニア職を目指すルートがあります。これは遠回りに見えて、年齢に対する企業の懸念（即戦力性・マネジメント適性）を埋める動きになります。</p>
-            <p>年収面では、未経験入社の初年度は相場より下がるケースが一般的です。参考として、doda「2024年度 決定年収レポート」（2025年5月公表）ではIT・通信の平均決定年収が486万円（2024年度）と公表されていますが、これは未経験初年度ではなく業界平均である点に注意してください。30代・40代は「いったん年収が下がっても数年で戻せる職種か」をエージェントに確認しながら進めるのが安全です。詳しくは<Link href="/compare/30s-agents/" className="text-blue-600 hover:underline">30代向け比較</Link>・<Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向け比較</Link>も参考にしてください。</p>
+            <p>年収面では、未経験入社の初年度は相場より下がるケースが一般的です。参考として、doda「2024年度 決定年収レポート」（2025年5月公表）ではIT・通信の平均決定年収が486万円（2024年度）と公表されていますが、これは未経験初年度ではなく業界平均である点に注意してください。30代・40代は「いったん年収が下がっても数年で戻せる職種か」をエージェントに確認しながら進めるのが安全です。詳しくは<Link href="/compare/30s-agents/" className="text-petrol hover:underline">30代向け比較</Link>・<Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向け比較</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -341,14 +341,14 @@ export default function InexperiencedPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">未経験からのIT転職、まずは2〜3社の比較から</h2>
           <p className="text-blue-100 text-sm mb-4">未経験歓迎求人に強いワークポート・dodaを軸に、無理のない社数で動き出しましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-4">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

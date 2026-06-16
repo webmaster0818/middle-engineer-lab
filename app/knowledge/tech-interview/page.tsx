@@ -189,7 +189,7 @@ export default function TechInterviewPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：30代・40代は「判断の言語化」が最重要</h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
               <li>・問われるのは大きく4領域（技術知識・経験深掘り・コーディング・システム設計）。経験者は<strong>経験深掘りと設計</strong>の比重が高い。</li>
@@ -205,7 +205,7 @@ export default function TechInterviewPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2">
             {sections.map((s) => (
               <li key={s.id}>
-                <a href={`#${s.id}`} className="text-sm text-blue-600 hover:underline">{s.label}</a>
+                <a href={`#${s.id}`} className="text-sm text-petrol hover:underline">{s.label}</a>
               </li>
             ))}
           </ul>
@@ -219,9 +219,9 @@ export default function TechInterviewPage() {
           </p>
           <div className="space-y-4">
             {themes.map((t, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{t.title}</h3>
-                <p className="text-sm text-blue-700 mb-3">{t.desc}</p>
+                <p className="text-sm text-petrol-deep mb-3">{t.desc}</p>
                 <div className="bg-white rounded p-3">
                   <p className="text-xs text-slate-600">{t.examples}</p>
                 </div>
@@ -244,7 +244,7 @@ export default function TechInterviewPage() {
               { n: "4", t: "結果と学びで締める", d: "結果（できれば数値）と、その経験から得た学びを述べる。学びは次の挑戦への意欲につながる。" },
             ].map((s) => (
               <div key={s.n} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{s.n}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{s.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{s.t}</h3>
                   <p className="text-sm text-slate-600">{s.d}</p>
@@ -253,7 +253,7 @@ export default function TechInterviewPage() {
             ))}
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            ※行動面接（過去の行動を問う質問）では、これを発展させたSTAR法が有効です。詳しくは<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接（STAR法）のガイド</Link>を参照してください。
+            ※行動面接（過去の行動を問う質問）では、これを発展させたSTAR法が有効です。詳しくは<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STAR法）のガイド</Link>を参照してください。
           </p>
         </section>
 
@@ -286,7 +286,7 @@ export default function TechInterviewPage() {
           <ul className="space-y-2">
             {reverseQuestions.map((q, i) => (
               <li key={i} className="flex gap-3 border border-slate-200 rounded-lg px-4 py-3 text-sm text-slate-700">
-                <span className="text-blue-600 font-bold shrink-0">Q{i + 1}</span>
+                <span className="text-petrol font-bold shrink-0">Q{i + 1}</span>
                 <span>{q}</span>
               </li>
             ))}
@@ -300,7 +300,7 @@ export default function TechInterviewPage() {
           <div className="space-y-4">
             {schedule.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full shrink-0">{item.period}</span>
+                <span className="bg-petrol-soft text-blue-800 text-xs font-bold px-3 py-1 rounded-full shrink-0">{item.period}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -361,7 +361,7 @@ export default function TechInterviewPage() {
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントなら、企業ごとの面接傾向や技術質問のシミュレーションまでサポートしてくれます。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -377,7 +377,7 @@ export default function TechInterviewPage() {
               { name: "ポートフォリオ作成ガイド", href: "/knowledge/portfolio/" },
               { name: "30代エンジニアの転職ガイド", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

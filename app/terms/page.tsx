@@ -91,7 +91,7 @@ export default function TermsPage() {
                 当サイトは、アフィリエイトプログラムに参加しています。当サイト内のリンクを経由して商品・サービスの申し込みがあった場合、当サイト運営者が紹介報酬を受け取ることがあります。
               </p>
               <p>
-                アフィリエイト報酬の有無が、当サイトのランキングや評価に影響を与えることはありません。詳しくは<Link href="/editorial/" className="text-blue-600 hover:underline">記事制作ポリシー</Link>をご覧ください。
+                アフィリエイト報酬の有無が、当サイトのランキングや評価に影響を与えることはありません。詳しくは<Link href="/editorial/" className="text-petrol hover:underline">記事制作ポリシー</Link>をご覧ください。
               </p>
             </div>
           </section>

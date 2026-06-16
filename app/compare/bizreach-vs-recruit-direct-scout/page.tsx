@@ -83,14 +83,14 @@ export default function BizreachVsRdsPage() {
           <p className="font-bold text-slate-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・無料で気軽に始めたいなら「リクルートダイレクトスカウト」</strong>。審査なし・完全無料で、まず市場価値を測れます。</li>
@@ -139,7 +139,7 @@ export default function BizreachVsRdsPage() {
         <section id="scout" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">違い③：スカウトの主体（企業担当 vs ヘッドハンター）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">ビズリーチでは、企業の採用担当者と登録ヘッドハンター（9,700人以上・2025年4月・二次）の双方からスカウトが届きます。企業から直接届くスカウトは志望度が伝わりやすく、ヘッドハンター経由は非公開求人や交渉のサポートが期待できます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">リクルートダイレクトスカウトもヘッドハンターと企業からのスカウトが中心で、ヘッドハンターの質にばらつきがあるという声もあります（口コミ傾向）。どちらもヘッドハンター主導の側面があるため、誰から届いたスカウトかを確認し、本気度を見極めることが大切です。スカウトの見分け方は<Link href="/compare/scout-agents/" className="text-blue-600 hover:underline">スカウト型サービス比較</Link>の「怪しいスカウトの見分け方」をご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">リクルートダイレクトスカウトもヘッドハンターと企業からのスカウトが中心で、ヘッドハンターの質にばらつきがあるという声もあります（口コミ傾向）。どちらもヘッドハンター主導の側面があるため、誰から届いたスカウトかを確認し、本気度を見極めることが大切です。スカウトの見分け方は<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービス比較</Link>の「怪しいスカウトの見分け方」をご覧ください。</p>
         </section>
 
         <section id="salary" className="mb-12 scroll-mt-20">
@@ -152,7 +152,7 @@ export default function BizreachVsRdsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ITエンジニアの使い方（IT特化ではない点に注意）</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
             <p className="mb-2">どちらもIT特化サービスではなく、全業種のハイクラス求人を扱います。そのため、IT専門の現場情報や技術理解の深いサポートを期待するサービスではありません。<strong>ただし、ITエンジニアが年収レンジを一段上げる（特に管理職・上方転職）用途では有効</strong>です。</p>
-            <p>技術理解の深い提案や現場情報が欲しい場合は、IT特化のエージェント（<Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント10社比較</Link>）や、GitHub軸のスカウト型（<Link href="/compare/findy-vs-levtech/" className="text-blue-600 hover:underline">Findy vs レバテック</Link>）との併用が安全です。</p>
+            <p>技術理解の深い提案や現場情報が欲しい場合は、IT特化のエージェント（<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>）や、GitHub軸のスカウト型（<Link href="/compare/findy-vs-levtech/" className="text-petrol hover:underline">Findy vs レバテック</Link>）との併用が安全です。</p>
           </div>
         </section>
 
@@ -182,9 +182,9 @@ export default function BizreachVsRdsPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">ビズリーチが向いている人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">{goodBiz.map((t, i) => (<li key={i}>✓ {t}</li>))}</ul>
+              <ul className="space-y-2 text-sm text-petrol-deep">{goodBiz.map((t, i) => (<li key={i}>✓ {t}</li>))}</ul>
             </div>
             <div className="bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3">リクルートダイレクトスカウトが向いている人</h3>
@@ -203,12 +203,12 @@ export default function BizreachVsRdsPage() {
                 { num: "3", title: "併用で比較（推奨）", desc: "両方のスカウトを並べて、企業担当・ヘッドハンターの本気度や年収レンジを比較。最も有利な条件で意思決定します。IT専門サポートが必要ならIT特化サービスを追加します。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p></div>
                 </div>
               ))}
             </div>
-            <p className="text-xs text-slate-500 mt-4">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数利用のコツ</Link>も参考にしてください。</p>
+            <p className="text-xs text-slate-500 mt-4">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -216,7 +216,7 @@ export default function BizreachVsRdsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだ30代・40代の市場価値は高く、ハイクラススカウト型は「年収レンジを一段上げる」用途で力を発揮します。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>まだ年収の伸びしろが大きい時期です。完全無料のリクルートダイレクトスカウトで気軽に相場を測り、手応えがあればビズリーチで質の高いスカウトを比較する流れが負担なく進められます。レバテック公表の年代別平均年収（2025年）では30代のSEは約499万円が一つの目安で、ハイクラス型のスカウトで上限を知っておくと交渉に役立ちます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ビズリーチはCTO・VPoE・EMといった管理職・経営層ポジションのスカウトや外資求人に強く、マネジメント経験のある40代と噛み合います。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。一方、両サービスともIT特化ではないため、技術理解の深い提案が欲しい場面ではIT特化サービスを併せて確保しておくと安心です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>もご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ビズリーチはCTO・VPoE・EMといった管理職・経営層ポジションのスカウトや外資求人に強く、マネジメント経験のある40代と噛み合います。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。一方、両サービスともIT特化ではないため、技術理解の深い提案が欲しい場面ではIT特化サービスを併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-12 scroll-mt-20">
@@ -234,7 +234,7 @@ export default function BizreachVsRdsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">無料で測って、質で選ぶ</h2>
           <p className="text-blue-100 text-sm mb-4">完全無料のリクルートダイレクトスカウトで相場を測り、ビズリーチで質の高いスカウトを比較。30代・40代の年収アップに合理的な二段構えです。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめサービスランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -248,7 +248,7 @@ export default function BizreachVsRdsPage() {
               { name: "スカウト型サービス徹底比較", href: "/compare/scout-agents/" },
               { name: "ハイクラスIT転職エージェント比較", href: "/compare/highclass/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

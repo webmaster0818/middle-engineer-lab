@@ -113,7 +113,7 @@ export default function SqlSkillPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -124,7 +124,7 @@ export default function SqlSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：DBエンジニア転職の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               データベース領域は流行り廃りが少なく、<strong>経験の積み上げが評価されやすい</strong>安定職種です。だからこそ、トレンド追いより「自分が担保できる信頼性のレベル（障害対応・チューニング・移行）」を具体的に示すのが攻め方の軸になります。要点は3つです。
             </p>
@@ -179,21 +179,21 @@ export default function SqlSkillPage() {
         <section id="demand" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">需要が続く背景</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データ量の増加</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 IoT・EC・SaaSの普及で企業が扱うデータ量は増え続けています。大規模データを安定して管理・活用するためのDB設計・運用スキルは、地味ながら需要が途切れにくい領域です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">クラウドDBへの移行需要</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 オンプレミスからAurora、Cloud SQL、Azure SQL Database等への移行プロジェクトが各社で進行しています。移行の設計・実行・性能検証を担える人材は引く手あまたです。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データ基盤の構築</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 BigQuery・Snowflake・Redshift等を使った分析基盤の構築需要が拡大しています。DBエンジニアからデータエンジニアへのキャリアパスも広がっており、年収レンジの上限を押し上げます。
               </p>
             </div>
@@ -240,21 +240,21 @@ export default function SqlSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT特化エージェント）</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化でインフラ・DB案件に強く、高年収求人比率が高い。クラウドDBやデータ基盤のポジションを扱い、技術理解のあるアドバイザーに相談しやすいのが利点です。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">マイナビIT AGENT</h3>
               <p className="text-sm text-slate-600 mb-2">SIer系企業のDBA求人を扱い、書類添削・面接対策が手厚いとの評判。20〜30代の若手〜中堅層のサポートに強みがあります。</p>
-              <Link href="/review/mynavi-it/" className="text-sm text-blue-600 hover:underline">マイナビIT AGENTの詳細レビュー →</Link>
+              <Link href="/review/mynavi-it/" className="text-sm text-petrol hover:underline">マイナビIT AGENTの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、データアーキテクトやデータエンジニアのスカウトが届きやすい。市場価値を測る用途でも有効です。</p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの複数併用ガイド</Link>、各社比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント比較</Link>もどうぞ。
+            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>、各社比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>もどうぞ。
           </p>
         </section>
 
@@ -268,7 +268,7 @@ export default function SqlSkillPage() {
               { n: "3", t: "クラウドDBで幅を出す", d: "Aurora・BigQuery等のクラウドDBを個人でも触り、IaCでの構築を経験する。オンプレ前提で止まらない見せ方が現代の求人に刺さります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.n}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.t}</h3>
                   <p className="text-sm text-slate-600">{item.d}</p>
@@ -289,7 +289,7 @@ export default function SqlSkillPage() {
               注意点は、オンプレDB専任のまま止まると求人の幅が狭まりやすいこと。<strong>クラウドDBとデータ基盤に一歩踏み出しておく</strong>ことで、DBA→データエンジニア→データアーキテクトと年収レンジを伸ばす道が開けます。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              年代別の市場感は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収相場</Link>もどうぞ。
+              年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>もどうぞ。
             </p>
           </div>
         </section>
@@ -311,7 +311,7 @@ export default function SqlSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            学び続ける習慣は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの継続学習</Link>、成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>も参考になります。
+            学び続ける習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続学習</Link>、成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>も参考になります。
           </p>
         </section>
 
@@ -339,7 +339,7 @@ export default function SqlSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -359,7 +359,7 @@ export default function SqlSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

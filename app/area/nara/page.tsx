@@ -166,7 +166,7 @@ export default function NaraAreaPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：奈良のIT転職市場の現実</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               奈良のIT求人は、県内の母数こそ限られますが、大阪・京都圏の豊富な求人へのアクセス、良好な住環境、首都圏フルリモートの併用という三本柱で価値を出せる市場です。「奈良に住みながら関西都市部・首都圏の求人を狙う」という発想が、選択肢を大きく広げる鍵になります。
@@ -185,7 +185,7 @@ export default function NaraAreaPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -232,24 +232,24 @@ export default function NaraAreaPage() {
           </p>
           <div className="space-y-3">
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">A</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>奈良在住×大阪・京都圏に通勤:</strong> 奈良の住みやすさを保ちつつ、近鉄・JRで関西都市部のIT求人に通う働き方。求人量を確保したい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">B</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>関西企業のハイブリッド勤務:</strong> 大阪・京都の企業に在籍しつつ、週数日の出社とリモートを組み合わせる働き方。通勤負担を抑えながら関西の求人で働きたい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">C</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>奈良在住×首都圏企業のフルリモート:</strong> 奈良の住環境を保ちつつ首都圏水準の年収を狙う選択肢。
-                <Link href="/purpose/remote-full/" className="text-blue-600 hover:underline">フルリモート求人の探し方</Link>
+                <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート求人の探し方</Link>
                 や
-                <Link href="/area/iiju/" className="text-blue-600 hover:underline">地方移住×IT転職ガイド</Link>
+                <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
                 もあわせて検討しましょう。
               </p>
             </div>
@@ -293,7 +293,7 @@ export default function NaraAreaPage() {
                 {salaryByAge.map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-3 py-3 border border-slate-200 font-medium">{row.age}</td>
-                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{row.salary}</td>
+                    <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">{row.salary}</td>
                     <td className="px-3 py-3 border border-slate-200 text-slate-600">{row.note}</td>
                   </tr>
                 ))}
@@ -305,9 +305,9 @@ export default function NaraAreaPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             奈良で年収を考えるときは、勤務先の所在地と生活コストのバランスが鍵です。大阪・京都圏や首都圏フルリモートの求人を選べば、奈良の住環境を保ちながら都市部水準の額面を狙える可能性があります。年代別の考え方は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>
             も参考にしてください。
           </p>
         </section>
@@ -320,14 +320,14 @@ export default function NaraAreaPage() {
           </p>
           <div className="space-y-4">
             {agents.map((a, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">
                   {i + 1}.{" "}
                   <Link href={a.href} className="hover:underline">
                     {a.name}
                   </Link>
                 </h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{a.point}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{a.point}</p>
               </div>
             ))}
           </div>
@@ -415,11 +415,11 @@ export default function NaraAreaPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             年代別の市場感は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>
             、リモート前提の働き方は
-            <Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモートワークの実情</Link>
+            <Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワークの実情</Link>
             もあわせてご覧ください。
           </p>
         </section>
@@ -448,7 +448,7 @@ export default function NaraAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -461,7 +461,7 @@ export default function NaraAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

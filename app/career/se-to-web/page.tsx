@@ -220,7 +220,7 @@ export default function SeToWebPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -233,7 +233,7 @@ export default function SeToWebPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">
             結論：SE→Web系は30代でも十分現実的
           </h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               SIer SEからWeb系開発者への転職は、30代でも現実的です。理由は次の3点です。
             </p>
@@ -259,7 +259,7 @@ export default function SeToWebPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">領域</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">SIer SE（現職）</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">Web系開発者（求められる）</th>
@@ -288,7 +288,7 @@ export default function SeToWebPage() {
           <div className="space-y-4">
             {skillSteps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -300,9 +300,9 @@ export default function SeToWebPage() {
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
             言語選びに迷う場合は
-            <Link href="/skill/go/" className="text-blue-600 hover:underline">Goスキルガイド</Link>
+            <Link href="/skill/go/" className="text-petrol hover:underline">Goスキルガイド</Link>
             や
-            <Link href="/skill/typescript/" className="text-blue-600 hover:underline">TypeScriptスキルガイド</Link>
+            <Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScriptスキルガイド</Link>
             も参考にしてください。
           </p>
         </section>
@@ -318,7 +318,7 @@ export default function SeToWebPage() {
           <div className="space-y-4">
             {moveSteps.map((s, i) => (
               <div key={i} className="border-l-4 border-blue-500 bg-slate-50 rounded-r-lg p-5">
-                <p className="text-xs font-bold text-blue-600 mb-1">{s.phase}</p>
+                <p className="text-xs font-bold text-petrol mb-1">{s.phase}</p>
                 <h3 className="font-bold text-slate-800 mb-1">{s.title}</h3>
                 <p className="text-sm text-slate-600 leading-relaxed">{s.desc}</p>
               </div>
@@ -326,9 +326,9 @@ export default function SeToWebPage() {
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
             ポートフォリオの作り込み方は
-            <Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>
+            <Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>
             、コーディング試験の対策は
-            <Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>
+            <Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>
             も合わせて確認してください。
           </p>
         </section>
@@ -349,8 +349,8 @@ export default function SeToWebPage() {
                 「金融系基幹システムの開発プロジェクトに参画。詳細設計書をもとに、Javaで割り当てられたモジュールの実装と単体テストを担当した。」
               </div>
             </div>
-            <div className="border border-blue-200 rounded-lg overflow-hidden">
-              <div className="bg-blue-50 px-5 py-2 text-sm font-bold text-blue-700">After（Web系で評価される書き方）</div>
+            <div className="border border-[var(--line)] rounded-lg overflow-hidden">
+              <div className="bg-petrol-soft px-5 py-2 text-sm font-bold text-petrol-deep">After（Web系で評価される書き方）</div>
               <div className="px-5 py-4 text-sm text-slate-600 leading-relaxed">
                 「金融系基幹システム（同時利用者◯名規模）の開発に、要件定義から携わる。担当機能では処理の重複を見直し、バッチ処理時間を◯%短縮。チーム内のレビュー観点を整理し、手戻り削減に貢献。GitHubで個人開発したGo製APIではDocker＋AWSへのデプロイまで一人で構築。」
               </div>
@@ -368,7 +368,7 @@ export default function SeToWebPage() {
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
             より詳しい書き方は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニア職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニア職務経歴書の書き方</Link>
             を参照してください。
           </p>
         </section>
@@ -392,7 +392,7 @@ export default function SeToWebPage() {
           </ul>
           <p className="text-slate-600 text-sm leading-relaxed">
             未経験に近い領域へ移る初年度は横ばい〜一時的な減少もあり得ますが、モダン技術の実務を積めば回復・上昇の余地は大きい領域です。
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>
             も参考になります。
           </p>
         </section>
@@ -406,7 +406,7 @@ export default function SeToWebPage() {
             {agents.map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">
-                  <Link href={agent.href} className="text-blue-700 hover:underline">
+                  <Link href={agent.href} className="text-petrol-deep hover:underline">
                     {agent.name}
                   </Link>
                 </h3>
@@ -430,9 +430,9 @@ export default function SeToWebPage() {
             </p>
             <p>
               年代別の市場感は
-              <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職事情</Link>
+              <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職事情</Link>
               ・
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>
+              <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>
               も合わせてご覧ください。
             </p>
           </div>
@@ -462,7 +462,7 @@ export default function SeToWebPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -483,7 +483,7 @@ export default function SeToWebPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

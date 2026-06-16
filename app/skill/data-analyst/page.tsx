@@ -104,7 +104,7 @@ export default function DataAnalystSkillPage() {
 
         <p className="text-slate-600 leading-relaxed mb-4">
           データアナリストへの転職を考えるとき、最初に押さえるべきは<strong>「データサイエンティストとの違い」</strong>です。一言でいえば、データアナリストは<strong>SQLとBIで既存データから示唆を出す職</strong>、データサイエンティストは<strong>機械学習モデルを構築・研究する職</strong>です。アナリストの方が参入しやすく、未経験からのキャリアチェンジでも現実的な選択肢になります。本記事は、すでに公開している
-          <Link href="/skill/data-scientist/" className="text-blue-600 hover:underline">データサイエンティスト転職ガイド</Link>
+          <Link href="/skill/data-scientist/" className="text-petrol hover:underline">データサイエンティスト転職ガイド</Link>
           と検索意図を明確に分け、「<strong>示唆を出すデータアナリスト</strong>」に焦点を当てて整理します。
         </p>
 
@@ -123,7 +123,7 @@ export default function DataAnalystSkillPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -133,7 +133,7 @@ export default function DataAnalystSkillPage() {
 
         <section id="diff" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：データサイエンティストとの違い</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               先に結論です。データアナリスト転職の核心は、<strong>「モデルを作る競争」ではなく「データから示唆を出してビジネスを動かす力」で勝つこと</strong>です。攻め方は次の3点です。
             </p>
@@ -144,9 +144,9 @@ export default function DataAnalystSkillPage() {
             </ul>
             <p className="text-xs text-slate-600 mt-3">
               モデル構築・研究に踏み込みたい方は
-              <Link href="/skill/data-scientist/" className="text-blue-700 underline">データサイエンティスト</Link>、
+              <Link href="/skill/data-scientist/" className="text-petrol-deep underline">データサイエンティスト</Link>、
               30代未経験の進め方は
-              <Link href="/knowledge/inexperienced-30s/" className="text-blue-700 underline ml-0">30代未経験からのエンジニア転職</Link>
+              <Link href="/knowledge/inexperienced-30s/" className="text-petrol-deep underline ml-0">30代未経験からのエンジニア転職</Link>
               が参考になります。
             </p>
           </div>
@@ -180,9 +180,9 @@ export default function DataAnalystSkillPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             SQLの深掘りは
-            <Link href="/skill/sql/" className="text-blue-600 hover:underline">SQLエンジニア転職ガイド</Link>、
+            <Link href="/skill/sql/" className="text-petrol hover:underline">SQLエンジニア転職ガイド</Link>、
             分析の幅を広げるPythonは
-            <Link href="/skill/python/" className="text-blue-600 hover:underline">Pythonエンジニア転職ガイド</Link>
+            <Link href="/skill/python/" className="text-petrol hover:underline">Pythonエンジニア転職ガイド</Link>
             が接続先です。
           </p>
         </section>
@@ -198,7 +198,7 @@ export default function DataAnalystSkillPage() {
             </p>
             <p>
               現実的な進め方は、SQL/BIの基礎を固め、公開データを使って自分で分析した成果物を作ること。未経験からの転職全般は
-              <Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのエンジニア転職</Link>
+              <Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのエンジニア転職</Link>
               も合わせてご覧ください。
             </p>
           </div>
@@ -217,7 +217,7 @@ export default function DataAnalystSkillPage() {
               { n: "STEP 4", t: "成果物として公開", d: "ダッシュボードと考察をまとめ、誰でも見られる形で公開する。職務経歴書に紐づける。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -227,7 +227,7 @@ export default function DataAnalystSkillPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             ポートフォリオ全般のコツは
-            <Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">エンジニアのポートフォリオの作り方</Link>
+            <Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>
             が参考になります。
           </p>
         </section>
@@ -251,23 +251,23 @@ export default function DataAnalystSkillPage() {
         <section id="path" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスの選択肢</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データサイエンティスト路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Python・機械学習を足し、モデル構築・予測へ踏み込む方向。
-                <Link href="/skill/data-scientist/" className="text-blue-700 underline ml-1">データサイエンティスト転職ガイド</Link>
+                <Link href="/skill/data-scientist/" className="text-petrol-deep underline ml-1">データサイエンティスト転職ガイド</Link>
                 が次の目標になります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データ基盤エンジニア路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 分析だけでなくデータ基盤の構築・運用へ広げる方向。SQLとクラウドの知識が活きます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データ戦略・マネージャー路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 組織のデータ活用を牽引する方向。ビジネス理解とマネジメント経験のあるミドルに向きます。
               </p>
             </div>
@@ -285,10 +285,10 @@ export default function DataAnalystSkillPage() {
             </p>
             <p>
               年代別の市場感は
-              <Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、
+              <Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・
+              <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、
               年収交渉は
-              <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>
+              <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>
               も合わせてご覧ください。
             </p>
           </div>
@@ -307,7 +307,7 @@ export default function DataAnalystSkillPage() {
                   A. {faq.a}
                   {faq.aLink && (
                     <>
-                      <Link href={faq.aLink.href} className="text-blue-600 hover:underline">{faq.aLink.label}</Link>
+                      <Link href={faq.aLink.href} className="text-petrol hover:underline">{faq.aLink.label}</Link>
                       {faq.aTail}
                     </>
                   )}
@@ -324,7 +324,7 @@ export default function DataAnalystSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -344,7 +344,7 @@ export default function DataAnalystSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -114,7 +114,7 @@ export default function SecuritySkillPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -125,7 +125,7 @@ export default function SecuritySkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：セキュリティ転職の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               セキュリティは<strong>完全未経験からは難しいが、IT実務経験者の転向先としては有望</strong>な領域です。攻め方の軸は「既存のIT経験を土台に、セキュリティの専門性を一枚乗せる」こと。要点は3つです。
             </p>
@@ -183,21 +183,21 @@ export default function SecuritySkillPage() {
             セキュリティ領域の将来性は、検索でも特に関心が高いテーマです。結論として、需要は当面底堅いと考えられます。背景は次の通りです。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">IT人材不足の中でも確保が課題な領域</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 経済産業省「IT人材需給に関する調査」（2019年3月公表）では2030年に最大約79万人のIT人材不足が試算されており、専門性の高いセキュリティ人材は中でも確保が難しい領域とされています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">守る対象の拡大</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 クラウド・SaaS・リモートワークの普及で守るべき範囲が広がり、ゼロトラストやクラウドセキュリティの需要が高まっています。攻撃の高度化とともに、対応できる人材の価値が上がり続けています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">法規制・コンプライアンス対応</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 個人情報保護やセキュリティ基準への対応は企業の必須事項です。経営課題として扱われるため、セキュリティ人材は景気変動の影響を受けにくい側面があります。
               </p>
             </div>
@@ -244,21 +244,21 @@ export default function SecuritySkillPage() {
         <section id="career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスの選択肢</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">セキュリティアーキテクト路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 企業全体のセキュリティアーキテクチャを設計するスペシャリスト。ゼロトラスト設計、クラウドセキュリティ戦略、フレームワーク策定を担います。技術の深さと全体最適の視点が求められます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ペネトレーションテスター / レッドチーム路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 攻撃者視点で脆弱性を発見する専門職。高度な技術力と倫理観が求められ、希少性が高いポジションです。CEH等の資格と実機での検証経験がアピールになります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">CISO / セキュリティマネジメント路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 CSIRT運営、ポリシー策定、経営層へのリスク報告を担うCISO（最高情報セキュリティ責任者）へ。技術とビジネスの両面からセキュリティ戦略を推進する経営幹部ポジションです。
               </p>
             </div>
@@ -272,21 +272,21 @@ export default function SecuritySkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT特化エージェント）</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化でセキュリティ求人を幅広く扱い、SOC・CSIRT・脆弱性診断などをカバー。技術理解のあるアドバイザーに相談しやすいのが利点です。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（国内最大級）</h3>
               <p className="text-sm text-slate-600 mb-2">圧倒的な求人数と非公開求人が強み。金融・通信・官公庁系のセキュリティ求人やCSIRT構築案件を含め、幅広く探したい人に向きます。</p>
-              <Link href="/review/recruit-it/" className="text-sm text-blue-600 hover:underline">リクルートエージェントITの詳細レビュー →</Link>
+              <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、CISOクラスやセキュリティアーキテクトのスカウトが届きやすい。外資系の求人も見られます。</p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの複数併用ガイド</Link>、各社比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント比較</Link>もどうぞ。
+            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>、各社比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>もどうぞ。
           </p>
         </section>
 
@@ -303,7 +303,7 @@ export default function SecuritySkillPage() {
               { n: "3", t: "入り口ポジションから入る", d: "SOC監視・脆弱性診断など、未経験寄りでも入りやすいポジションを足がかりに。現職でセキュリティ関連タスクを担当し、実績を作ってから専任職へ寄せます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.n}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.t}</h3>
                   <p className="text-sm text-slate-600">{item.d}</p>
@@ -312,7 +312,7 @@ export default function SecuritySkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            インフラ側の整理は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>もあわせてどうぞ。
+            インフラ側の整理は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>もあわせてどうぞ。
           </p>
         </section>
 
@@ -327,7 +327,7 @@ export default function SecuritySkillPage() {
               30代・40代の現職エンジニアにとって、セキュリティは<strong>これまでのIT経験を捨てずに専門性を一枚乗せられる</strong>転向先です。インフラ・ネットワーク・クラウドの経験を土台に、情報処理安全確保支援士で学習を体系化すれば、年齢を強みに変えられます。金融・官公庁・大手企業では特にベテランの需要が安定しています。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              年代別の市場感は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収相場</Link>もどうぞ。
+              年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>もどうぞ。
             </p>
           </div>
         </section>
@@ -356,7 +356,7 @@ export default function SecuritySkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -376,7 +376,7 @@ export default function SecuritySkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -389,8 +389,8 @@ export default function SecuritySkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/nec/" className="text-blue-700 hover:underline">NEC</a></li><li><a href="/company/sbi/" className="text-blue-700 hover:underline">SBIホールディングス</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/nec/" className="text-petrol-deep hover:underline">NEC</a></li><li><a href="/company/sbi/" className="text-petrol-deep hover:underline">SBIホールディングス</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

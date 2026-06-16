@@ -195,7 +195,7 @@ export default function ThirtiesAgentsPage() {
         />
 
         <section className="mb-10">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <h2 className="text-lg font-bold text-blue-900 mb-2 not-prose">結論：30代はIT特化型2社＋総合型1社の併用が基本</h2>
             <ul className="text-sm text-blue-900 leading-relaxed space-y-1 list-disc pl-5">
               <li>年収アップを狙うなら<strong>レバテックキャリア</strong>を軸に。利用者の約80%が20〜30代で年代層が合い、高年収求人比率が高い。</li>
@@ -207,7 +207,7 @@ export default function ThirtiesAgentsPage() {
 
         <nav className="mb-10 border border-slate-200 rounded-lg p-5 bg-slate-50">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-blue-700">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-petrol-deep">
             <li><a href="#ranking" className="hover:underline">30代向けエージェントおすすめランキング</a></li>
             <li><a href="#detail" className="hover:underline">各エージェントの詳細</a></li>
             <li><a href="#market" className="hover:underline">30代エンジニアの転職市場・年収データ</a></li>
@@ -240,10 +240,10 @@ export default function ThirtiesAgentsPage() {
               <tbody>
                 {agents.map((a, i) => (
                   <tr key={i} className="hover:bg-slate-50 align-top">
-                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{a.rank}位</td>
-                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={a.href} className="text-blue-700 hover:underline">{a.name}</Link></td>
+                    <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">{a.rank}位</td>
+                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={a.href} className="text-petrol-deep hover:underline">{a.name}</Link></td>
                     <td className="px-3 py-3 border border-slate-200">
-                      <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-blue-100 text-blue-700" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
+                      <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-petrol-soft text-petrol-deep" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
                     </td>
                     <td className="px-3 py-3 border border-slate-200 text-xs">{a.jobs}</td>
                     <td className="px-3 py-3 border border-slate-200 text-xs">{a.area}</td>
@@ -262,8 +262,8 @@ export default function ThirtiesAgentsPage() {
             {agents.map((a, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <div className="flex items-center justify-between mb-2">
-                  <h3 className="font-bold text-slate-800">{a.rank}位. <Link href={a.href} className="text-blue-700 hover:underline">{a.name}</Link></h3>
-                  <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-blue-100 text-blue-700" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
+                  <h3 className="font-bold text-slate-800">{a.rank}位. <Link href={a.href} className="text-petrol-deep hover:underline">{a.name}</Link></h3>
+                  <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-petrol-soft text-petrol-deep" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
                 </div>
                 <p className="text-sm text-slate-600 mb-3 leading-relaxed">{a.point}</p>
                 <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1 text-xs text-slate-600">
@@ -326,7 +326,7 @@ export default function ThirtiesAgentsPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-4">
               <h3 className="font-bold text-slate-800 mb-1">4. キャリアの方向性を先に決める</h3>
-              <p>スペシャリストかマネジメントかで、見るべき求人もアピールすべき実績も変わります。<Link href="/knowledge/career-plan/" className="text-blue-600 hover:underline">キャリアプランの立て方</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>も合わせて検討してください。</p>
+              <p>スペシャリストかマネジメントかで、見るべき求人もアピールすべき実績も変わります。<Link href="/knowledge/career-plan/" className="text-petrol hover:underline">キャリアプランの立て方</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>も合わせて検討してください。</p>
             </div>
           </div>
         </section>
@@ -351,13 +351,13 @@ export default function ThirtiesAgentsPage() {
         <section id="combo" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">おすすめの併用パターン</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代前半（選択肢を広げたい）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">レバテックキャリア ＋ Geekly ＋ doda。IT特化型2社で専門性の高い提案を受けつつ、総合型で求人量とエリアを補完する構成です。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">レバテックキャリア ＋ Geekly ＋ doda。IT特化型2社で専門性の高い提案を受けつつ、総合型で求人量とエリアを補完する構成です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代後半（年収・役割を一段上げたい）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">レバテックキャリア ＋ Geekly ＋ <Link href="/compare/highclass/" className="underline">ハイクラス系</Link>。リーダー・マネジメント経験を活かせるポジションを、特化型とハイクラス両面で探します。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">レバテックキャリア ＋ Geekly ＋ <Link href="/compare/highclass/" className="underline">ハイクラス系</Link>。リーダー・マネジメント経験を活かせるポジションを、特化型とハイクラス両面で探します。</p>
             </div>
           </div>
         </section>
@@ -386,7 +386,7 @@ export default function ThirtiesAgentsPage() {
             当サイトはミドルエンジニアの転職に特化しています。30代の動き方は、その先の40代のキャリアを大きく左右します。レバテック公表値で40代の平均年収が約618万円、年収1,000万円以上の割合が12.67%（30代は8.01%）と、40代でさらに伸びる構造がある一方、40代はポジションがマネジメント中心に絞られていきます。
           </p>
           <p className="text-slate-600 leading-relaxed mb-3">
-            つまり30代のうちに「技術の専門性」と「人・プロジェクトを動かした実績」のどちらか、できれば両方を積み上げておくことが、40代の選択肢を広げます。30代後半に差しかかったら、<Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代の転職エージェント比較</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収の現実</Link>にも目を通し、長期視点で動くことをおすすめします。
+            つまり30代のうちに「技術の専門性」と「人・プロジェクトを動かした実績」のどちらか、できれば両方を積み上げておくことが、40代の選択肢を広げます。30代後半に差しかかったら、<Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代の転職エージェント比較</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収の現実</Link>にも目を通し、長期視点で動くことをおすすめします。
           </p>
         </section>
 
@@ -405,7 +405,7 @@ export default function ThirtiesAgentsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">30代は情報収集から始めよう</h2>
           <p className="text-blue-100 text-sm mb-4">スキルと経験が揃う30代は、選択肢が最も広い年代。まずはIT特化型を中心に複数登録し、提案を比較するところから始めましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -419,7 +419,7 @@ export default function ThirtiesAgentsPage() {
               { name: "30代の年収のリアル", href: "/knowledge/salary-30s/" },
               { name: "複数エージェントの使い分け", href: "/knowledge/multiple-agents/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

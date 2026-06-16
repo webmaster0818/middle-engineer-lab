@@ -91,7 +91,7 @@ export default function RetirementAgencyPage() {
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             ハラスメントや強い引き止めで、退職を自分で言い出すのが難しい——そんなときの選択肢が退職代行です。ただし退職代行は<strong>運営主体によって「できること」が大きく違い</strong>、選び方を誤ると必要な交渉ができなかったり、法的に問題のあるサービスを利用してしまったりするおそれがあります。本記事では、民間業者・労働組合・弁護士の3類型の違いと、非弁行為のリスク、SES・客先常駐特有の注意点を整理します。自分で退職を進める場合は
-            <Link href="/knowledge/smooth-resignation/" className="text-blue-600 hover:underline">円満退職の交渉術</Link>
+            <Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>
             を参照してください。
           </p>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -106,14 +106,14 @@ export default function RetirementAgencyPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：運営主体で「できること」が決まる</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・<strong>民間業者</strong>＝退職の意思を「伝える」のみ。条件交渉はできないのが原則。</li>
@@ -191,13 +191,13 @@ export default function RetirementAgencyPage() {
             SES・客先常駐で働くエンジニアの退職には、自社開発の正社員にはない論点があります。雇用主（自社）と就業先（客先）が分かれているため、退職が客先との契約に影響しやすく、引き止めの圧力も強くなりがちです。
           </p>
           <ul className="space-y-3 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span><strong>プロジェクト途中の離脱</strong>：客先との契約期間の途中で抜けると、自社が客先対応を迫られ、引き止めが強くなることがあります。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span><strong>損害賠償の脅し</strong>：「途中で抜けると損害賠償だ」と言われるケースが報告されます。退職を理由とした賠償が容易に認められるとは限りませんが、争点になりやすい論点です。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span><strong>常駐先の私物・貸与物</strong>：常駐先に置いた私物や、客先・自社双方の貸与端末・入館証の返却が複雑になりがちです。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>プロジェクト途中の離脱</strong>：客先との契約期間の途中で抜けると、自社が客先対応を迫られ、引き止めが強くなることがあります。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>損害賠償の脅し</strong>：「途中で抜けると損害賠償だ」と言われるケースが報告されます。退職を理由とした賠償が容易に認められるとは限りませんが、争点になりやすい論点です。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>常駐先の私物・貸与物</strong>：常駐先に置いた私物や、客先・自社双方の貸与端末・入館証の返却が複雑になりがちです。</span></li>
           </ul>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mt-4">
             <p className="text-sm text-slate-600 leading-relaxed">
-              これらは「交渉」や「法的対応」が絡む論点のため、争点が大きい場合は<strong>弁護士運営のサービスが安全</strong>です。SESからの脱出そのものを検討している場合は、<Link href="/industry/ses-exit/" className="text-blue-600 hover:underline">SESからの脱出ガイド</Link>もあわせて参照してください。
+              これらは「交渉」や「法的対応」が絡む論点のため、争点が大きい場合は<strong>弁護士運営のサービスが安全</strong>です。SESからの脱出そのものを検討している場合は、<Link href="/industry/ses-exit/" className="text-petrol hover:underline">SESからの脱出ガイド</Link>もあわせて参照してください。
             </p>
           </div>
         </section>
@@ -208,9 +208,9 @@ export default function RetirementAgencyPage() {
             料金は運営主体やサービス内容によって幅があります。本記事では特定の金額を断定しませんが、考え方の軸を整理します。
           </p>
           <ul className="space-y-3 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span>対応範囲が広く、交渉や法的対応まで含むほど費用は高くなりやすい傾向があります。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span>安さだけで選ぶと、交渉が必要になったときに対応できず、結局やり直しになることがあります。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">・</span><span>「基本料金に何が含まれ、追加費用はどう発生するか」を契約前に明確にしましょう。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span>対応範囲が広く、交渉や法的対応まで含むほど費用は高くなりやすい傾向があります。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span>安さだけで選ぶと、交渉が必要になったときに対応できず、結局やり直しになることがあります。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span>「基本料金に何が含まれ、追加費用はどう発生するか」を契約前に明確にしましょう。</span></li>
           </ul>
         </section>
 
@@ -240,7 +240,7 @@ export default function RetirementAgencyPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            切り出しや引き止めへの不安が中心なら、第一声の例文や引き止めの返し方を押さえるだけで自力で乗り越えられることも多いです。具体的な進め方は<Link href="/knowledge/smooth-resignation/" className="text-blue-600 hover:underline">円満退職の交渉術</Link>を参照してください。それでも難しいと判断したら、運営主体を見極めたうえで代行を使い分けるのが現実的です。
+            切り出しや引き止めへの不安が中心なら、第一声の例文や引き止めの返し方を押さえるだけで自力で乗り越えられることも多いです。具体的な進め方は<Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>を参照してください。それでも難しいと判断したら、運営主体を見極めたうえで代行を使い分けるのが現実的です。
           </p>
         </section>
 
@@ -256,11 +256,11 @@ export default function RetirementAgencyPage() {
                 "常駐先に置いた私物の引き取り方法を確認した（SES・客先常駐の場合）",
                 "料金に含まれる範囲と追加費用の発生条件を確認した",
               ].map((item, i) => (
-                <li key={i} className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>{item}</span></li>
+                <li key={i} className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>{item}</span></li>
               ))}
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 有給や退職後の手続きは<Link href="/knowledge/paid-leave/" className="text-blue-600 hover:underline">有給消化の法律論</Link>・<Link href="/knowledge/after-resignation-procedures/" className="text-blue-600 hover:underline">退職後の手続き</Link>も参照。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 有給や退職後の手続きは<Link href="/knowledge/paid-leave/" className="text-petrol hover:underline">有給消化の法律論</Link>・<Link href="/knowledge/after-resignation-procedures/" className="text-petrol hover:underline">退職後の手続き</Link>も参照。</p>
         </section>
 
         <section id="middle" className="mb-10 scroll-mt-20">
@@ -279,7 +279,7 @@ export default function RetirementAgencyPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">まず自分で伝えられないかを検討</h3>
-              <p className="text-sm text-slate-600">可能であれば自分で伝えるのが望ましいとされます。引き止めや切り出しに不安があるだけなら、<Link href="/knowledge/smooth-resignation/" className="text-blue-600 hover:underline">円満退職の交渉術</Link>で対処できる場合もあります。それでも難しい状況なら、運営主体を見極めて代行を使い分けてください。</p>
+              <p className="text-sm text-slate-600">可能であれば自分で伝えるのが望ましいとされます。引き止めや切り出しに不安があるだけなら、<Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>で対処できる場合もあります。それでも難しい状況なら、運営主体を見極めて代行を使い分けてください。</p>
             </div>
           </div>
         </section>
@@ -309,7 +309,7 @@ export default function RetirementAgencyPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -329,7 +329,7 @@ export default function RetirementAgencyPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -120,7 +120,7 @@ export default function LinkedInPage() {
         {/* 目次 */}
         <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-blue-700">
+          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -133,7 +133,7 @@ export default function LinkedInPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：LinkedInは「攻め」ではなく「置いておく武器」</h2>
             <ul className="text-sm text-blue-900 space-y-2 leading-relaxed">
               <li>・<strong>外資・グローバル・一部メガベンチャー志望なら作る価値が高い</strong>。日系SIer・SES中心ならエージェント併用が前提。</li>
@@ -165,8 +165,8 @@ export default function LinkedInPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
             つまりLinkedInは「すべての人に必須」ではなく、<strong>志望先に外資・グローバル・自社開発が含まれるなら整える価値が高い</strong>、というのが実態です。スカウト型サービス全般の使い分けは
-            <Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウト型転職サービスの活用法</Link>
-            、海外志向なら<Link href="/knowledge/overseas/" className="text-blue-600 hover:underline">海外IT企業への転職ガイド</Link>もあわせてご覧ください。
+            <Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウト型転職サービスの活用法</Link>
+            、海外志向なら<Link href="/knowledge/overseas/" className="text-petrol hover:underline">海外IT企業への転職ガイド</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -254,7 +254,7 @@ export default function LinkedInPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
             この「課題→施策→成果」の型は職務経歴書にもそのまま使えます。書類側の整え方は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書の書き方</Link>
             を参照してください。
           </p>
         </section>
@@ -270,9 +270,9 @@ export default function LinkedInPage() {
               { t: "IT専門リクルーターとつながる", d: "技術領域の合うリクルーターからのコネクション申請は承認する。直接スカウトの入口になる。" },
               { t: "技術トピックに反応する", d: "週1回程度、技術記事のシェアやコメントなど軽いアクティビティがあると、プロフィールの露出が安定しやすい。" },
             ].map((x, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-1">{i + 1}. {x.t}</h3>
-                <p className="text-sm text-blue-700">{x.d}</p>
+                <p className="text-sm text-petrol-deep">{x.d}</p>
               </div>
             ))}
           </div>
@@ -292,7 +292,7 @@ export default function LinkedInPage() {
               "自社のリクルーターには表示される可能性があるため、完全な秘匿が必要な場合は注意する",
             ].map((x, i) => (
               <li key={i} className="flex gap-3 items-start text-sm text-slate-700 border border-slate-200 rounded-lg p-4">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span>{x}</span>
               </li>
             ))}
@@ -308,13 +308,13 @@ export default function LinkedInPage() {
             </p>
             <p>
               また、ミドル層が評価されるのは「使った技術の数」ではなく<strong>「課題をどう解決し、どう成果につなげたか」「チームをどうリードしたか」</strong>です。Aboutと職歴では、技術の羅列より意思決定とリードの経験を前面に出しましょう。マネジメント志向があるなら
-              <Link href="/knowledge/management/" className="text-blue-600 hover:underline">マネジメント転身ガイド</Link>
+              <Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメント転身ガイド</Link>
               で見せ方を補強できます。
             </p>
             <p>
               年齢への不安については、LinkedInに生年や年齢を書く義務はありません。経験年数や実績で価値を示せば十分です。年齢と転職の関係は
-              <Link href="/knowledge/age-discrimination/" className="text-blue-600 hover:underline">エンジニア転職の年齢差別</Link>
-              や<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニアの転職リアル</Link>もあわせてどうぞ。
+              <Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">エンジニア転職の年齢差別</Link>
+              や<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニアの転職リアル</Link>もあわせてどうぞ。
             </p>
           </div>
         </section>
@@ -367,7 +367,7 @@ export default function LinkedInPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -387,7 +387,7 @@ export default function LinkedInPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

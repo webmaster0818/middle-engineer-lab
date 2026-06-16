@@ -169,7 +169,7 @@ export default function SierToWebPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -180,7 +180,7 @@ export default function SierToWebPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SIerからWeb系は十分狙える。ただし準備で差がつく</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               SIer出身者のWeb系転職は現実的です。設計・要件定義・大規模システムの経験は、SaaSやメガベンチャーで明確に武器になります。
             </p>
@@ -268,7 +268,7 @@ export default function SierToWebPage() {
                 ].map(([label, val], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{label}</td>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-b border-slate-200 whitespace-nowrap">{val}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-b border-slate-200 whitespace-nowrap">{val}</td>
                   </tr>
                 ))}
               </tbody>
@@ -279,11 +279,11 @@ export default function SierToWebPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             ポイントは、メガベンチャーやSaaSの中核ポジションであればSIer時代と同等以上を狙える一方、シードに近いスタートアップでは一時的に下がることもある点です。年収交渉は転職活動の終盤で大きく効くため、エージェントに相場を確認しながら進めるのが安全です。年収の考え方は
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">エンジニア転職で年収は上がる？</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">エンジニア転職で年収は上がる？</Link>
             、30代・40代の相場は
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代エンジニアの年収</Link>
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収</Link>
             ・
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収</Link>
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>
             も参考にしてください。
           </p>
         </section>
@@ -353,7 +353,7 @@ export default function SierToWebPage() {
                     <Link
                       key={j}
                       href={l.href}
-                      className="text-xs font-medium text-blue-600 border border-blue-200 rounded-full px-3 py-1 hover:bg-blue-50"
+                      className="text-xs font-medium text-petrol border border-[var(--line)] rounded-full px-3 py-1 hover:bg-petrol-soft"
                     >
                       {l.name} →
                     </Link>
@@ -376,7 +376,7 @@ export default function SierToWebPage() {
               { step: "5", title: "カルチャーフィットを確認する", desc: "面接やカジュアル面談で「なぜWeb系か」「どんなチームで働きたいか」を言語化。文化の合う企業を見極めることがミスマッチ防止の決め手。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.step}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -397,18 +397,18 @@ export default function SierToWebPage() {
               <p className="text-xs font-bold text-slate-500 mb-2">Before（SIer的な書き方）</p>
               <p className="text-sm text-slate-600">基本設計・詳細設計を担当。10名規模のプロジェクトでスケジュール管理と品質管理を実施。</p>
             </div>
-            <div className="border border-blue-200 rounded-lg p-5 bg-blue-50">
-              <p className="text-xs font-bold text-blue-600 mb-2">After（Web系に伝わる書き方）</p>
+            <div className="border border-[var(--line)] rounded-lg p-5 bg-petrol-soft">
+              <p className="text-xs font-bold text-petrol mb-2">After（Web系に伝わる書き方）</p>
               <p className="text-sm text-slate-700">基幹システムのアーキテクチャ設計を主導。Javaでバックエンドを実装し、テスト戦略を整備して障害率を低減。10名チームの技術的な意思決定をリードした。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed">
             使用技術・規模・自分の役割・成果（できれば数値）の4点を具体的に書くのが基本です。書き方の詳細は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>
             、面接準備は
-            <Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接対策ガイド</Link>
+            <Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接対策ガイド</Link>
             を参考にしてください。なお、客先常駐中心の経験から抜け出したい場合は
-            <Link href="/career/se-to-web/" className="text-blue-600 hover:underline">SEからWebエンジニアへのキャリアチェンジ</Link>
+            <Link href="/career/se-to-web/" className="text-petrol hover:underline">SEからWebエンジニアへのキャリアチェンジ</Link>
             も役立ちます。
           </p>
         </section>
@@ -420,24 +420,24 @@ export default function SierToWebPage() {
             ミドル層のSIer出身者は、若手と同じ土俵で「ポテンシャル」を競うのではなく、これまでの蓄積を活かせるポジションを選ぶことが成功率を大きく左右します。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代前半：王道ルートを狙える</h3>
-              <p className="text-sm text-blue-700">バックエンドやSREへの転向がしやすい時期。モダン技術のキャッチアップとポートフォリオで、コーディング力を示せれば選択肢は広い。年収を維持・向上させやすい層でもある。</p>
+              <p className="text-sm text-petrol-deep">バックエンドやSREへの転向がしやすい時期。モダン技術のキャッチアップとポートフォリオで、コーディング力を示せれば選択肢は広い。年収を維持・向上させやすい層でもある。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代後半：設計力・推進力で勝負</h3>
-              <p className="text-sm text-blue-700">純粋なコーディング速度より、設計・技術選定・チームの牽引が評価される。テックリードやEM、難易度の高いドメインのバックエンドが狙い目。SaaSのドメイン知識マッチングも有効。</p>
+              <p className="text-sm text-petrol-deep">純粋なコーディング速度より、設計・技術選定・チームの牽引が評価される。テックリードやEM、難易度の高いドメインのバックエンドが狙い目。SaaSのドメイン知識マッチングも有効。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：マネジメント・DXで価値を出す</h3>
-              <p className="text-sm text-blue-700">EM・アーキテクト・DX推進・社内SEなど、業務知識とリーダーシップが活きる領域が現実的。求人数は絞られるため、ハイクラス向けやエージェントの非公開求人の活用が鍵になる。</p>
+              <p className="text-sm text-petrol-deep">EM・アーキテクト・DX推進・社内SEなど、業務知識とリーダーシップが活きる領域が現実的。求人数は絞られるため、ハイクラス向けやエージェントの非公開求人の活用が鍵になる。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             年代別の戦略は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職ガイド</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職ガイド</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職ガイド</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職ガイド</Link>
             で詳しく解説しています。
           </p>
         </section>
@@ -462,7 +462,7 @@ export default function SierToWebPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">SIerからWeb系への転職、プロに相談しよう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、SIer出身者のキャリアチェンジ支援実績が豊富です。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -481,7 +481,7 @@ export default function SierToWebPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

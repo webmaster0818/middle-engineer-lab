@@ -72,7 +72,7 @@ export default function CookpadCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（少数精鋭・Railsの大規模運用経験者向け）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・中核は<strong>世界最大級規模のRuby on Railsモノリス</strong>。長寿命・大規模サービスの設計・運用経験者に向く。Rubyコミッターが在籍する技術文化が魅力。</li>
@@ -87,7 +87,7 @@ export default function CookpadCompanyPage() {
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
@@ -107,9 +107,9 @@ export default function CookpadCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">世界最大級のRailsモノリスを運用する文化</h3><p className="text-sm text-blue-700">クックパッドは長年にわたり、巨大なRuby on Railsモノリスでサービスを運用してきたことで国内外に知られています。Rubyコミッターが在籍し、OSSやRubyコミュニティへの貢献が活発な点は、Rubyエンジニアにとって大きな魅力です。大規模コードベースの設計・改善に向き合えるかが採用のポイントになります。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">少人数の中核チームで広い領域を担う</h3><p className="text-sm text-blue-700">事業再編により従業員が約100名規模に縮小した結果、一人あたりが担当する技術領域は広くなる傾向があります。フロントからインフラ、運用までを横断的に見られる自走力のあるエンジニアが活躍しやすい環境です。役割が細分化された大組織とは異なる働き方になります。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">公開された技術基盤と発信文化</h3><p className="text-sm text-blue-700">クックパッド開発者ブログ（techlife）では、AWS上のコンテナ運用、自社製デプロイツール、CI/CDの工夫などが継続的に発信されてきました。技術発信に積極的な文化があり、外部からも開発の実態を把握しやすいのが特徴です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">世界最大級のRailsモノリスを運用する文化</h3><p className="text-sm text-petrol-deep">クックパッドは長年にわたり、巨大なRuby on Railsモノリスでサービスを運用してきたことで国内外に知られています。Rubyコミッターが在籍し、OSSやRubyコミュニティへの貢献が活発な点は、Rubyエンジニアにとって大きな魅力です。大規模コードベースの設計・改善に向き合えるかが採用のポイントになります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">少人数の中核チームで広い領域を担う</h3><p className="text-sm text-petrol-deep">事業再編により従業員が約100名規模に縮小した結果、一人あたりが担当する技術領域は広くなる傾向があります。フロントからインフラ、運用までを横断的に見られる自走力のあるエンジニアが活躍しやすい環境です。役割が細分化された大組織とは異なる働き方になります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">公開された技術基盤と発信文化</h3><p className="text-sm text-petrol-deep">クックパッド開発者ブログ（techlife）では、AWS上のコンテナ運用、自社製デプロイツール、CI/CDの工夫などが継続的に発信されてきました。技術発信に積極的な文化があり、外部からも開発の実態を把握しやすいのが特徴です。</p></div>
           </div>
         </section>
 
@@ -118,13 +118,13 @@ export default function CookpadCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下はクックパッドの公式技術ブログ・公開発表で確認できる範囲の情報です。確認できない言語・ツールは記載していません。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Ruby on Rails</strong>：サービスの中核。世界最大級規模のモノリスを運用。Rubyコミッターが在籍</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AWS（ECS）</strong>：クラウド基盤。コンテナでアプリケーションを運用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Hako</strong>：自社製のコンテナデプロイツール（OSSとして公開）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>GitHub Actions（self-hosted runner）</strong>：CI/CDの実行基盤</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Ruby on Rails</strong>：サービスの中核。世界最大級規模のモノリスを運用。Rubyコミッターが在籍</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AWS（ECS）</strong>：クラウド基盤。コンテナでアプリケーションを運用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Hako</strong>：自社製のコンテナデプロイツール（OSSとして公開）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>GitHub Actions（self-hosted runner）</strong>：CI/CDの実行基盤</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：クックパッド開発者ブログ（techlife）、公開された技術登壇・OSSリポジトリ。Rubyの基礎は<Link href="/skill/ruby/" className="text-blue-600 hover:underline">Ruby/Railsエンジニアの転職市場</Link>もあわせてご覧ください。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：クックパッド開発者ブログ（techlife）、公開された技術登壇・OSSリポジトリ。Rubyの基礎は<Link href="/skill/ruby/" className="text-petrol hover:underline">Ruby/Railsエンジニアの転職市場</Link>もあわせてご覧ください。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -138,7 +138,7 @@ export default function CookpadCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-2">
             上表はクックパッドの<strong>有価証券報告書（2024年12月期）</strong>に記載された提出会社（クックパッド株式会社単体）の数値です。これは<strong>エンジニア以外も含む全従業員の平均</strong>であり、職種別・等級別の年収は公式に開示されていません。特に重要なのは、<strong>事業再編で従業員が約100名規模に縮小し、中核人材中心の構成になっている</strong>点で、これにより平均年収が高めに出ている可能性があります。そのため当ガイドでは出典のない等級別年収表は掲載していません。
           </p>
-          <p className="text-xs text-slate-500">出典：クックパッド「有価証券報告書」2024年12月期、IRBANK集計。エンジニア職の提示年収レンジは公式・求人サイトで継続的に確認できる公開値がないため記載を控えています。年代別の相場感は<Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500">出典：クックパッド「有価証券報告書」2024年12月期、IRBANK集計。エンジニア職の提示年収レンジは公式・求人サイトで継続的に確認できる公開値がないため記載を控えています。年代別の相場感は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>を参照してください。</p>
         </section>
 
         <section id="flow" className="mb-10">
@@ -151,7 +151,7 @@ export default function CookpadCompanyPage() {
               ["STEP 3", "内定", "条件提示。具体的な選考期間は公式に明示されていない。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <span className="shrink-0 text-xs font-bold text-blue-700 bg-blue-50 rounded px-2 py-1 h-fit">{step}</span>
+                <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
                 <div><p className="font-bold text-slate-800 text-sm mb-1">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
               </li>
             ))}
@@ -163,10 +163,10 @@ export default function CookpadCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・口コミ傾向ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。公開情報と口コミプラットフォームの傾向から、評価されやすいと考えられるポイントを一般化して挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>Ruby on Railsによる大規模・長寿命サービスの設計・運用への理解</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>モノリスの保守性・リファクタリングや技術的負債への向き合い方</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>少人数で広い領域を担う自走力・オーナーシップ</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>AWS上でのコンテナ運用・CI/CD整備の実務経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>Ruby on Railsによる大規模・長寿命サービスの設計・運用への理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>モノリスの保守性・リファクタリングや技術的負債への向き合い方</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>少人数で広い領域を担う自走力・オーナーシップ</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>AWS上でのコンテナ運用・CI/CD整備の実務経験</li>
           </ul>
         </section>
 
@@ -183,7 +183,7 @@ export default function CookpadCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代のRuby/Railsエンジニアにとって、クックパッドは「大規模モノリスと長く向き合ってきた技術的蓄積」を直接活かせる希少な環境です。長寿命サービスの設計判断・技術的負債との付き合い方といった、ミドル層の経験が最も価値を発揮する領域が中核にあります。Rubyコミッターが在籍する文化のなかで、自身の専門性をさらに深められる点は大きな魅力です。</p>
             <p>一方で、事業再編により従業員が約100名規模に縮小している点は、ミドル層こそ慎重に評価すべきポイントです。少人数体制は裁量と責任が大きい反面、組織の安定性や事業の方向性が流動的になりやすい側面もあります。家庭や生活基盤が固まっている40代では特に、入社前に最新のIR情報で事業の現状を確認し、自分のキャリアプランと照らし合わせることが重要です。</p>
-            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>や<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニア転職の現実</Link>、Web系への移行を考える場合は<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWeb系への転職</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>や<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>、Web系への移行を考える場合は<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -214,15 +214,15 @@ export default function CookpadCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">クックパッド転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強い。技術面接対策のサポートが受けられる。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富。Rubyやスタートアップ系に強み。" }, { name: "paiza転職", href: "/review/paiza/", desc: "コーディングスキルで評価される仕組み。技術力で勝負したい人向け。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強い。技術面接対策のサポートが受けられる。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富。Rubyやスタートアップ系に強み。" }, { name: "paiza転職", href: "/review/paiza/", desc: "コーディングスキルで評価される仕組み。技術力で勝負したい人向け。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">クックパッドへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">Web系・Ruby求人に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -233,7 +233,7 @@ export default function CookpadCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "Ruby/Railsエンジニアの転職市場", href: "/skill/ruby/" }, { name: "freeeの転職ガイド", href: "/company/freee/" }, { name: "マネーフォワードの転職ガイド", href: "/company/moneyforward/" }, { name: "BASEの転職ガイド", href: "/company/base/" }, { name: "STORESの転職ガイド", href: "/company/stores/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "Ruby/Railsエンジニアの転職市場", href: "/skill/ruby/" }, { name: "freeeの転職ガイド", href: "/company/freee/" }, { name: "マネーフォワードの転職ガイド", href: "/company/moneyforward/" }, { name: "BASEの転職ガイド", href: "/company/base/" }, { name: "STORESの転職ガイド", href: "/company/stores/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

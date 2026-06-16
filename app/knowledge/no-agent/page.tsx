@@ -102,7 +102,7 @@ export default function NoAgentPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          転職エージェントを一切使わず、直接応募やリファラルで自力で進めたいエンジニアは少なくありません。本記事は「自力運用」に主軸を置き、エージェントを使わない4つの手段、メリットとデメリット、応募管理・日程調整・年収交渉・内定後手続きまでの実務を整理します。どの直接応募サービスを使うかの比較は<Link href="/knowledge/direct-apply/" className="text-blue-600 hover:underline">直接応募とエージェントの使い分け</Link>を参照してください。
+          転職エージェントを一切使わず、直接応募やリファラルで自力で進めたいエンジニアは少なくありません。本記事は「自力運用」に主軸を置き、エージェントを使わない4つの手段、メリットとデメリット、応募管理・日程調整・年収交渉・内定後手続きまでの実務を整理します。どの直接応募サービスを使うかの比較は<Link href="/knowledge/direct-apply/" className="text-petrol hover:underline">直接応募とエージェントの使い分け</Link>を参照してください。
         </p>
 
         <DataNote
@@ -115,7 +115,7 @@ export default function NoAgentPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -124,7 +124,7 @@ export default function NoAgentPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：本命は自力、多忙なら併用が無難</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               強い志望企業がある、相場観があり交渉に自信がある人には、直接応募やリファラルでの<strong>自力運用</strong>が向きます。一方、在職中で時間が取れない、客観的な助言が欲しい人は、<strong>エージェント併用</strong>が無難です。
@@ -151,7 +151,7 @@ export default function NoAgentPage() {
             ))}
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            リファラルの具体的な進め方は<Link href="/knowledge/referral/" className="text-blue-600 hover:underline">リファラル転職</Link>、ダイレクトのスカウト返信は<Link href="/knowledge/scout-reply/" className="text-blue-600 hover:underline">スカウト返信の例文</Link>、SNS発信のためのポートフォリオは<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>で詳しく扱っています。
+            リファラルの具体的な進め方は<Link href="/knowledge/referral/" className="text-petrol hover:underline">リファラル転職</Link>、ダイレクトのスカウト返信は<Link href="/knowledge/scout-reply/" className="text-petrol hover:underline">スカウト返信の例文</Link>、SNS発信のためのポートフォリオは<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>で詳しく扱っています。
           </p>
         </section>
 
@@ -195,7 +195,7 @@ export default function NoAgentPage() {
               { step: "選考の振り返りを記録する", desc: "面接後に質問内容と手応えをメモ。フィードバックがもらえない分、自分で振り返って次の応募に活かします。" },
             ].map((s, i) => (
               <div key={s.step} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {i + 1}
                 </span>
                 <div>
@@ -206,7 +206,7 @@ export default function NoAgentPage() {
             ))}
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            活動全体のスケジュール感は<Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職活動のタイムライン</Link>、職務経歴書の書き方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニア向け職務経歴書</Link>を参考にしてください。
+            活動全体のスケジュール感は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職活動のタイムライン</Link>、職務経歴書の書き方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニア向け職務経歴書</Link>を参考にしてください。
           </p>
         </section>
 
@@ -224,13 +224,13 @@ export default function NoAgentPage() {
                 "金額だけでなく、裁量労働・リモート・等級など総合で判断する",
               ].map((c) => (
                 <li key={c} className="flex items-start gap-2 text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>
+                  <span className="text-petrol font-bold shrink-0">✓</span>
                   <span>{c}</span>
                 </li>
               ))}
             </ul>
             <p>
-              交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>、相場の調べ方は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>で詳しく解説しています。仲介手数料がない分、企業が提示額を上げやすいケースもあります。
+              交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>、相場の調べ方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>で詳しく解説しています。仲介手数料がない分、企業が提示額を上げやすいケースもあります。
             </p>
           </div>
         </section>
@@ -249,13 +249,13 @@ export default function NoAgentPage() {
                 "退職交渉・引き継ぎを並行して進める",
               ].map((c) => (
                 <li key={c} className="flex items-start gap-2 text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>
+                  <span className="text-petrol font-bold shrink-0">✓</span>
                   <span>{c}</span>
                 </li>
               ))}
             </ul>
             <p>
-              内定の比較は<Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">内定の比較・見極め方</Link>、退職の進め方は<Link href="/knowledge/resignation/" className="text-blue-600 hover:underline">退職の伝え方</Link>を参照してください。
+              内定の比較は<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">内定の比較・見極め方</Link>、退職の進め方は<Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の伝え方</Link>を参照してください。
             </p>
           </div>
         </section>
@@ -279,7 +279,7 @@ export default function NoAgentPage() {
               </p>
             </div>
             <p>
-              年代別の実情は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>も参考になります。
+              年代別の実情は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -306,7 +306,7 @@ export default function NoAgentPage() {
           </p>
           <Link
             href="/knowledge/direct-apply/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             直接応募とエージェントの使い分けを見る
           </Link>
@@ -326,7 +326,7 @@ export default function NoAgentPage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

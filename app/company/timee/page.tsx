@@ -101,7 +101,7 @@ export default function TimeeCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               タイミーは<strong>Ruby on RailsとGoで急成長中のマッチングプラットフォームを開発する、2024年上場のスタートアップ発テック企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収は約594万円（新規上場時 有報・2024年10月期）です。
@@ -119,7 +119,7 @@ export default function TimeeCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -145,17 +145,17 @@ export default function TimeeCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マッチングプラットフォームというドメイン</h3>
-              <p className="text-sm text-blue-700">「タイミー」は働きたい人と人手が欲しい事業者を即時にマッチングするプラットフォームです。需給マッチング・大量トランザクション・信頼性といったマーケットプレイス特有の技術課題に向き合えるエンジニアが活きる環境です。</p>
+              <p className="text-sm text-petrol-deep">「タイミー」は働きたい人と人手が欲しい事業者を即時にマッチングするプラットフォームです。需給マッチング・大量トランザクション・信頼性といったマーケットプレイス特有の技術課題に向き合えるエンジニアが活きる環境です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">急成長フェーズのスケーラビリティ</h3>
-              <p className="text-sm text-blue-700">登録ワーカー・導入事業所が短期間で大きく拡大しており、トラフィックやデータ量の増加に耐える設計・運用が求められます。急成長プロダクトのスケーラビリティに技術で応えたいエンジニアにとって挑戦的な環境です。</p>
+              <p className="text-sm text-petrol-deep">登録ワーカー・導入事業所が短期間で大きく拡大しており、トラフィックやデータ量の増加に耐える設計・運用が求められます。急成長プロダクトのスケーラビリティに技術で応えたいエンジニアにとって挑戦的な環境です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">人物・カルチャーフィット重視の採用</h3>
-              <p className="text-sm text-blue-700">公開情報によると、選考では物事をフラットに捉え、自分の意見を率直に表現できる人物像が重視される傾向があります。技術力に加え、変化を楽しみチームで課題に向き合う姿勢が評価されやすい文化です。</p>
+              <p className="text-sm text-petrol-deep">公開情報によると、選考では物事をフラットに捉え、自分の意見を率直に表現できる人物像が重視される傾向があります。技術力に加え、変化を楽しみチームで課題に向き合う姿勢が評価されやすい文化です。</p>
             </div>
           </div>
         </section>
@@ -167,10 +167,10 @@ export default function TimeeCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>バックエンド</strong>：Ruby / Ruby on Rails、Go</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>フロントエンド</strong>：TypeScript、React、Next.js（事業者向け管理画面等）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>モバイル</strong>：Swift（iOS）、Kotlin（Android）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>インフラ</strong>：AWS、Google Cloud</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：Ruby / Ruby on Rails、Go</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：TypeScript、React、Next.js（事業者向け管理画面等）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>モバイル</strong>：Swift（iOS）、Kotlin（Android）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：AWS、Google Cloud</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: Timee Product Team Blog（tech.timee.co.jp）・採用ページ等の公開記事。2026年6月時点で確認できる範囲。</p>
@@ -210,12 +210,12 @@ export default function TimeeCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>Ruby on Rails／Go等での実装力と設計の妥当性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>マッチング・マーケットプレイス型サービスの開発・運用経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>急成長プロダクトのスケーラビリティへの理解・経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>物事をフラットに捉え、率直に意見を表現できるカルチャーフィット</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Ruby on Rails／Go等での実装力と設計の妥当性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>マッチング・マーケットプレイス型サービスの開発・運用経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>急成長プロダクトのスケーラビリティへの理解・経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>物事をフラットに捉え、率直に意見を表現できるカルチャーフィット</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -228,7 +228,7 @@ export default function TimeeCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。タイミーの全社員平均（約594万円）は急成長スタートアップとして相応の水準ですが、これは全社平均であり、入社時の提示はスキル評価次第です。30代・40代は自分の市場価値を踏まえ、個別求人・面談で水準を確認することが重要です。
             </p>
             <p>
-              上場直後の成長フェーズで、組織・技術ともにスケールさせる経験を積みたいミドル層にとっては挑戦の機会がある局面です。一方で変化の速さは前提となるため、安定志向との相性は事前に見極めましょう。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/startup-vs-enterprise/" className="text-blue-600 hover:underline">スタートアップと大企業の比較</Link>も合わせて参考にしてください。
+              上場直後の成長フェーズで、組織・技術ともにスケールさせる経験を積みたいミドル層にとっては挑戦の機会がある局面です。一方で変化の速さは前提となるため、安定志向との相性は事前に見極めましょう。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大企業の比較</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -241,13 +241,13 @@ export default function TimeeCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -268,7 +268,7 @@ export default function TimeeCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">タイミーへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">SaaS・スタートアップへの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -282,7 +282,7 @@ export default function TimeeCompanyPage() {
               { name: "スタートアップと大企業の比較", href: "/knowledge/startup-vs-enterprise/" },
               { name: "30代エンジニアの転職事情", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

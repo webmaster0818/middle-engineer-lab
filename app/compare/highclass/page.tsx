@@ -208,7 +208,7 @@ export default function HighclassPage() {
         />
 
         <section className="mb-10">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <h2 className="text-lg font-bold text-blue-900 mb-2 not-prose">結論：ハイクラスはビズリーチ中心＋レバテック/リクルートITの併用</h2>
             <ul className="text-sm text-blue-900 leading-relaxed space-y-1 list-disc pl-5">
               <li>軸は<strong>ビズリーチ</strong>。ハイクラス定義は年収750万円以上で、年収1,000万円以上求人が全体の約4割（二次）。経歴を登録して直接スカウトを受ける。</li>
@@ -220,7 +220,7 @@ export default function HighclassPage() {
 
         <nav className="mb-10 border border-slate-200 rounded-lg p-5 bg-slate-50">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-blue-700">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-petrol-deep">
             <li><a href="#ranking" className="hover:underline">ハイクラス向けサービスおすすめランキング</a></li>
             <li><a href="#detail" className="hover:underline">各サービスの詳細</a></li>
             <li><a href="#definition" className="hover:underline">ハイクラス転職とは（年収750万円以上の定義）</a></li>
@@ -253,10 +253,10 @@ export default function HighclassPage() {
               <tbody>
                 {agents.map((a, i) => (
                   <tr key={i} className="hover:bg-slate-50 align-top">
-                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{a.rank}位</td>
-                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={a.href} className="text-blue-700 hover:underline">{a.name}</Link></td>
+                    <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">{a.rank}位</td>
+                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={a.href} className="text-petrol-deep hover:underline">{a.name}</Link></td>
                     <td className="px-3 py-3 border border-slate-200">
-                      <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-blue-100 text-blue-700" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
+                      <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-petrol-soft text-petrol-deep" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
                     </td>
                     <td className="px-3 py-3 border border-slate-200 text-xs">{a.scale}</td>
                     <td className="px-3 py-3 border border-slate-200 text-xs">{a.area}</td>
@@ -275,8 +275,8 @@ export default function HighclassPage() {
             {agents.map((a, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <div className="flex items-center justify-between mb-2">
-                  <h3 className="font-bold text-slate-800">{a.rank}位. <Link href={a.href} className="text-blue-700 hover:underline">{a.name}</Link></h3>
-                  <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-blue-100 text-blue-700" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
+                  <h3 className="font-bold text-slate-800">{a.rank}位. <Link href={a.href} className="text-petrol-deep hover:underline">{a.name}</Link></h3>
+                  <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-petrol-soft text-petrol-deep" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
                 </div>
                 <p className="text-sm text-slate-600 mb-3 leading-relaxed">{a.point}</p>
                 <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1 text-xs text-slate-600">
@@ -305,7 +305,7 @@ export default function HighclassPage() {
             <p className="text-xs text-slate-500 mt-2">出典: レバテック公表の年代別平均年収（2025年）。平均値・割合であり、役割や企業規模で差があります。</p>
           </div>
           <p className="text-slate-600 leading-relaxed">
-            つまりハイクラス帯（750万円以上、さらに1,000万円以上）は、年代が上がるほど到達率が高まる一方、依然として上位の層に位置します。ここに届くには、CTO/VPoE/EM・テックリードなどの役割や、特定領域での深い専門性が要件になります。<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>から始め、現在地と目標年収のギャップを確認しましょう。
+            つまりハイクラス帯（750万円以上、さらに1,000万円以上）は、年代が上がるほど到達率が高まる一方、依然として上位の層に位置します。ここに届くには、CTO/VPoE/EM・テックリードなどの役割や、特定領域での深い専門性が要件になります。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>から始め、現在地と目標年収のギャップを確認しましょう。
           </p>
         </section>
 
@@ -323,7 +323,7 @@ export default function HighclassPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            書き方の基本は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の作り方</Link>、スカウトの仕組みは<Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトを活かすコツ</Link>でも詳しく解説しています。
+            書き方の基本は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の作り方</Link>、スカウトの仕組みは<Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトを活かすコツ</Link>でも詳しく解説しています。
           </p>
         </section>
 
@@ -390,7 +390,7 @@ export default function HighclassPage() {
             当サイトはミドルエンジニアの転職に特化しています。ハイクラス帯は30代・40代にとって現実的な目標です。レバテック公表値では年収1,000万円以上の割合が30代で8.01%、40代で12.67%。30代は需要領域の実務とリーダー経験を、40代はマネジメント実績を軸にすると到達しやすくなります。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            年代別の具体的な進め方は<Link href="/compare/30s-agents/" className="text-blue-600 hover:underline">30代の転職エージェント比較</Link>と<Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代の転職エージェント比較</Link>で詳しく扱っています。ハイクラスは長期戦になりやすいため、早めにビズリーチへ経歴を登録し、スカウトの反応を見ながら戦略を調整するのがおすすめです。
+            年代別の具体的な進め方は<Link href="/compare/30s-agents/" className="text-petrol hover:underline">30代の転職エージェント比較</Link>と<Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代の転職エージェント比較</Link>で詳しく扱っています。ハイクラスは長期戦になりやすいため、早めにビズリーチへ経歴を登録し、スカウトの反応を見ながら戦略を調整するのがおすすめです。
           </p>
         </section>
 
@@ -409,7 +409,7 @@ export default function HighclassPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ハイクラス転職は経歴登録から始まる</h2>
           <p className="text-blue-100 text-sm mb-4">年収750万円以上のポジションは非公開が多数。まずはビズリーチに経歴を登録し、スカウトの反応を見ながら戦略を組み立てましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -423,7 +423,7 @@ export default function HighclassPage() {
               { name: "スカウトを活かすコツ", href: "/knowledge/scout/" },
               { name: "職務経歴書の作り方", href: "/knowledge/resume/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

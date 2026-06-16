@@ -121,7 +121,7 @@ export default function NetworkSkillPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -129,7 +129,7 @@ export default function NetworkSkillPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ネットワーク転職市場の攻め方</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               ネットワークエンジニアの転職は、<strong>「従来型の構築・運用」から「クラウド/セキュリティ/自動化」へ領域を広げられるか</strong>で年収が変わります。攻め方は次の3点です。
             </p>
@@ -234,7 +234,7 @@ export default function NetworkSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>、<Link href="/skill/security/" className="text-blue-600 hover:underline">セキュリティエンジニア転職ガイド</Link>。
+            関連: <Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>、<Link href="/skill/security/" className="text-petrol hover:underline">セキュリティエンジニア転職ガイド</Link>。
           </p>
         </section>
 
@@ -247,21 +247,21 @@ export default function NetworkSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化。インフラ・ネットワーク案件に強く、クラウドネットワーク求人も扱います。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">マイナビIT AGENT</h3>
               <p className="text-sm text-slate-600 mb-2">20〜30代若手層に強く、書類添削・面接対策が手厚いとされます。SIer系ネットワーク求人を探す際の選択肢です。</p>
-              <Link href="/review/mynavi-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/mynavi-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
               <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型。ネットワークアーキテクトやセキュリティ寄りの上位ポジションを狙う場合に有効です。</p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数利用のコツ</Link>を参考にしてください。
+            併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>を参考にしてください。
           </p>
         </section>
 
@@ -275,7 +275,7 @@ export default function NetworkSkillPage() {
               { n: "STEP 4", t: "自動化で差別化", d: "Ansible/Terraform/Pythonでネットワーク構成をコード化し、従来型エンジニアとの差を示す。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -284,7 +284,7 @@ export default function NetworkSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-blue-600 hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>。
           </p>
         </section>
 
@@ -298,7 +298,7 @@ export default function NetworkSkillPage() {
               年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%（2025年）。ネットワークの土台にクラウド・セキュリティを掛け合わせると、高年収帯への接続が見えてきます。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>もご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>もご覧ください。
             </p>
           </div>
         </section>
@@ -313,7 +313,7 @@ export default function NetworkSkillPage() {
             <li>✓ 学んだ構成は検証環境で再現し、設計意図を説明できる状態にする</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            学習習慣は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>を参考に。
+            学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参考に。
           </p>
         </section>
 
@@ -339,7 +339,7 @@ export default function NetworkSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -359,7 +359,7 @@ export default function NetworkSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

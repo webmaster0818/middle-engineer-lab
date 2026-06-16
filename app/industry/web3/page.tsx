@@ -142,7 +142,7 @@ export default function Web3Page() {
           <ul className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -153,7 +153,7 @@ export default function Web3Page() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Web3転職は現実的か</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
               <span className="font-bold text-blue-800">結論：Web開発の基礎がある人にとって、入り口のあるルートは存在します。</span>
               ただしスマートコントラクトや基盤開発は専門性が高く、Web3特有の技術を学ぶ投資が前提になります。
@@ -242,7 +242,7 @@ export default function Web3Page() {
                 {skills.map(([s, j, d], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 border-t border-slate-200 align-top">{s}</th>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-t border-slate-200 align-top whitespace-nowrap">{j}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-t border-slate-200 align-top whitespace-nowrap">{j}</td>
                     <td className="px-4 py-3 text-slate-600 border-t border-slate-200">{d}</td>
                   </tr>
                 ))}
@@ -251,9 +251,9 @@ export default function Web3Page() {
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
             ポイントは「中核スキル（バックエンド・フロント・セキュリティ）で土俵に立ち、専門スキル（スマートコントラクト・分散システム）で抜きん出る」という見せ方です。学習段階でも、テストネットで動くdAppやコントラクトを公開すると説得力が増します。関連スキルは
-            <Link href="/skill/rust/" className="text-blue-600 hover:underline">Rust</Link>・
-            <Link href="/skill/go/" className="text-blue-600 hover:underline">Go</Link>・
-            <Link href="/skill/security/" className="text-blue-600 hover:underline">セキュリティ</Link>
+            <Link href="/skill/rust/" className="text-petrol hover:underline">Rust</Link>・
+            <Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>・
+            <Link href="/skill/security/" className="text-petrol hover:underline">セキュリティ</Link>
             のページも参考にしてください。
           </p>
         </section>
@@ -311,7 +311,7 @@ export default function Web3Page() {
                 ].map(([k, v, src], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 border-t border-slate-200 align-top">{k}</th>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-t border-slate-200 align-top whitespace-nowrap">{v}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-t border-slate-200 align-top whitespace-nowrap">{v}</td>
                     <td className="px-4 py-3 text-slate-500 border-t border-slate-200 text-xs align-top">{src}</td>
                   </tr>
                 ))}
@@ -320,7 +320,7 @@ export default function Web3Page() {
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
             年収を上げる現実的な手段は、(1) スマートコントラクトやセキュリティなど専門性で希少性を高める、(2) 中核スキルで応募できる幅を広げる、(3) 複数エージェントで提示額を比較し交渉材料にする、の3点です。詳しくは
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">エンジニア転職で年収は上がるか</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">エンジニア転職で年収は上がるか</Link>
             も参考にしてください。
           </p>
         </section>
@@ -336,16 +336,16 @@ export default function Web3Page() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{name}</h3>
                 <p className="text-sm text-slate-600 mb-2">{desc}</p>
-                <p className="text-xs text-blue-700">向いている人：{fit}</p>
+                <p className="text-xs text-petrol-deep">向いている人：{fit}</p>
               </div>
             ))}
           </div>
           <p className="text-slate-500 leading-relaxed text-xs mt-4">
             関連する事業会社としては
-            <Link href="/company/dena/" className="text-blue-600 hover:underline">DeNA</Link>・
-            <Link href="/company/mercari/" className="text-blue-600 hover:underline">メルカリ</Link>・
-            <Link href="/company/cyberagent/" className="text-blue-600 hover:underline">サイバーエージェント</Link>・
-            <Link href="/company/gmo-internet/" className="text-blue-600 hover:underline">GMOインターネット</Link>
+            <Link href="/company/dena/" className="text-petrol hover:underline">DeNA</Link>・
+            <Link href="/company/mercari/" className="text-petrol hover:underline">メルカリ</Link>・
+            <Link href="/company/cyberagent/" className="text-petrol hover:underline">サイバーエージェント</Link>・
+            <Link href="/company/gmo-internet/" className="text-petrol hover:underline">GMOインターネット</Link>
             などの各ページも参考にしてください（Web3事業の有無・規模は各社で異なります）。
           </p>
         </section>
@@ -361,7 +361,7 @@ export default function Web3Page() {
               { step: "4", title: "企業の継続性も確認する", desc: "市況の影響を受けやすい領域のため、事業の継続性や資金状況も確認。エージェント2社以上に登録し、求人と担当者を比較する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.step}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -375,27 +375,27 @@ export default function Web3Page() {
         <section id="midlife" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：専門技術の習得に投資する</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Web3は比較的新しい領域で、専門技術を持つ人材が限られています。SolidityやRust、分散システムの習得に投資できれば、希少性の高いポジションを狙いやすくなります。
-                <Link href="/age/30s/" className="text-blue-700 underline">30代の転職事情</Link>
+                <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職事情</Link>
                 も参考にしてください。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：既存の専門性との掛け合わせ</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 金融・セキュリティ・大規模システムの経験は、規制対応や堅牢性が問われるWeb3領域で評価されやすい強みです。新技術の習得と既存の専門性を組み合わせて打ち出すのが現実的です。
-                <Link href="/age/40s/" className="text-blue-700 underline">40代の転職事情</Link>
+                <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職事情</Link>
                 も確認しておきましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新トレンドだけを競うのではなく、セキュリティや規制対応といった希少性で差別化するのがミドル層の定石です。
-                <Link href="/knowledge/market-value/" className="text-blue-700 underline">自分の市場価値の測り方</Link>
+                <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
             </div>
@@ -414,7 +414,7 @@ export default function Web3Page() {
               { name: "ビズリーチ", desc: "ハイクラス・スカウト型。年収750万円以上の求人や専門ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
               { name: "リクルートエージェントIT", desc: "国内最大級の求人数。Web3関連から事業会社まで幅広く比較したい場合に有効。", href: "/review/recruit-it/" },
             ].map((a, i) => (
-              <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
                 <p className="text-sm text-slate-600">{a.desc}</p>
               </Link>
@@ -444,7 +444,7 @@ export default function Web3Page() {
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -453,7 +453,7 @@ export default function Web3Page() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

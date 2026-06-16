@@ -118,7 +118,7 @@ export default function BizreachVsDodaXPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -129,7 +129,7 @@ export default function BizreachVsDodaXPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
               国内最大級のハイクラス求人を有料でも本格活用するなら「ビズリーチ」、まず無料で待ち型のハイクラススカウトを受けるなら「doda X」。
             </p>
@@ -171,9 +171,9 @@ export default function BizreachVsDodaXPage() {
         <section id="pricing" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">料金で比較（最大の違い）</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ビズリーチ：一部有料</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 無料会員でもスカウトの受信などは可能ですが、すべてのスカウトの閲覧・返信や一部求人検索はWeb決済5,478円/月（2022年11月改定・二次）の有料プラン対象になる場合があります。まず無料会員で自分宛のスカウト状況を見てから有料化を判断するのがおすすめです。
               </p>
             </div>
@@ -192,9 +192,9 @@ export default function BizreachVsDodaXPage() {
         <section id="jobs" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人数・年収レンジで比較</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 ハイクラス定義は年収750万円以上（二次情報）。年収1,000万円以上求人が全体の約4割（二次情報）という構成比で語られることが多く、外資・管理職を含む高年収帯に強いサービスです。
               </p>
             </div>
@@ -227,7 +227,7 @@ export default function BizreachVsDodaXPage() {
               <h3 className="font-bold text-slate-800 mb-3">ビズリーチが強い領域</h3>
               <div className="flex flex-wrap gap-2">
                 {["年収750万円以上", "外資・管理職", "会員制スカウト", "ヘッドハンター", "年収1,000万円以上求人 約4割"].map((tag, i) => (
-                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700">{tag}</span>
+                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
               <p className="text-xs text-slate-500 mt-3">※ 国内最大級の会員制ハイクラススカウト。全機能は有料プラン対象の場合あり。</p>
@@ -280,9 +280,9 @@ export default function BizreachVsDodaXPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">ビズリーチが向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 <li>✓ 現年収750万円以上のミドル〜ハイクラス層</li>
                 <li>✓ 外資・管理職ポジションも視野に入れている</li>
                 <li>✓ 課金してでも求人の幅を広げたい</li>
@@ -313,7 +313,7 @@ export default function BizreachVsDodaXPage() {
                 { num: "3", title: "ビズリーチ有料化を判断", desc: "ビズリーチで魅力的なスカウトが多ければ、全機能を解放する有料プランを検討。スカウトが乏しい場合はエージェント型（doda IT等）の併用で機会損失を防ぎます。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div>
                     <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                     <p className="text-sm text-slate-600">{item.desc}</p>
@@ -323,7 +323,7 @@ export default function BizreachVsDodaXPage() {
             </div>
             <p className="text-xs text-slate-500 mt-4">
               スカウト型の活用法は
-              <Link href="/compare/scout-agents/" className="text-blue-600 hover:underline">スカウト型サービス比較</Link>
+              <Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービス比較</Link>
               も参照してください。
             </p>
           </div>
@@ -369,7 +369,7 @@ export default function BizreachVsDodaXPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -382,7 +382,7 @@ export default function BizreachVsDodaXPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

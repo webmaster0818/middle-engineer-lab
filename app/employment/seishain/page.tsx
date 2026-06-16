@@ -145,15 +145,15 @@ export default function SeishainPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：安定と保障の基盤。額面以上の「見えない給与」がある</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               正社員は、単価では業務委託に劣ることがあっても、社会保険の会社負担・雇用安定・賞与・退職金・福利厚生という「見えない給与」を含めると、総合的な手取りと安心感で強みがあります。額面だけで他の雇用形態と比べるのではなく、会社負担分と保障を含めて比較するのが正しい見方です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">1.</span>無期雇用（期間の定めなし）で、収入と立場が安定しやすい。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">2.</span>健康保険・厚生年金を会社が約半分負担（労使折半）。雇用保険・労災もある。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">3.</span>住宅ローン等の社会的信用を得やすく、ライフイベントに強い。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>無期雇用（期間の定めなし）で、収入と立場が安定しやすい。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>健康保険・厚生年金を会社が約半分負担（労使折半）。雇用保険・労災もある。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>住宅ローン等の社会的信用を得やすく、ライフイベントに強い。</li>
             </ul>
           </div>
         </section>
@@ -164,7 +164,7 @@ export default function SeishainPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ol>
@@ -177,7 +177,7 @@ export default function SeishainPage() {
             正社員は、<strong>期間の定めのない労働契約（無期雇用）</strong>でフルタイム勤務する働き方を指す一般的な呼称です。法律に「正社員」という明確な定義語があるわけではありませんが、実務上は無期・フルタイム・直接雇用で、就業規則上の正規従業員として扱われる従業員を指します。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            労働契約であるため、労働基準法をはじめとする労働法の保護を受け、社会保険（健康保険・厚生年金）への加入、雇用保険・労災保険の適用、有給休暇の付与などが基本となります。雇用形態全体の中での位置づけは<Link href="/employment/" className="text-blue-600 hover:underline">エンジニアの雇用形態の違い</Link>で横断的に整理しています。
+            労働契約であるため、労働基準法をはじめとする労働法の保護を受け、社会保険（健康保険・厚生年金）への加入、雇用保険・労災保険の適用、有給休暇の付与などが基本となります。雇用形態全体の中での位置づけは<Link href="/employment/" className="text-petrol hover:underline">エンジニアの雇用形態の違い</Link>で横断的に整理しています。
           </p>
         </section>
 
@@ -206,7 +206,7 @@ export default function SeishainPage() {
           </div>
           <p className="text-xs text-slate-500 mb-5">出典: 厚生労働省 job tag（令和7年）。基盤SE・PM・ITコンサルの889万円は同一賃金区分の公表値で、職種ごとに精密に分けた値ではありません。実際の年収は企業規模・経験・地域で変動します。</p>
           <p className="text-slate-600 leading-relaxed text-sm">
-            参考として、経済産業省の調査ではITSSスキルレベル別の平均年収がL3で約576万円、L4で約726万円、L5で約937.8万円とされています。また国税庁「民間給与実態統計調査（令和5年分）」の全産業平均給与は約460万円で、IT・情報通信業はこれより高めの水準にあります。年収帯ごとの必要スキルは<Link href="/salary/" className="text-blue-600 hover:underline">年収帯別ガイド</Link>で詳しく解説しています。
+            参考として、経済産業省の調査ではITSSスキルレベル別の平均年収がL3で約576万円、L4で約726万円、L5で約937.8万円とされています。また国税庁「民間給与実態統計調査（令和5年分）」の全産業平均給与は約460万円で、IT・情報通信業はこれより高めの水準にあります。年収帯ごとの必要スキルは<Link href="/salary/" className="text-petrol hover:underline">年収帯別ガイド</Link>で詳しく解説しています。
           </p>
         </section>
 
@@ -226,7 +226,7 @@ export default function SeishainPage() {
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            ※ 具体的な保険料・税額は給与・自治体・年度で異なります。正社員と業務委託の損得の並べ方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスvs正社員</Link>で詳しく解説しています。
+            ※ 具体的な保険料・税額は給与・自治体・年度で異なります。正社員と業務委託の損得の並べ方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員</Link>で詳しく解説しています。
           </p>
         </section>
 
@@ -290,8 +290,8 @@ export default function SeishainPage() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-blue-50">
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">正社員</td>
+                <tr className="bg-petrol-soft">
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">正社員</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">無期・直接雇用の労働者</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">社会保険を会社が折半。安定・保障に厚い</td>
                 </tr>
@@ -314,7 +314,7 @@ export default function SeishainPage() {
             </table>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            それぞれの詳細は<Link href="/employment/contract-employee/" className="text-blue-600 hover:underline">契約社員と無期転換ルール</Link>・<Link href="/employment/dispatch/" className="text-blue-600 hover:underline">派遣エンジニア</Link>・<Link href="/employment/gyomu-itaku/" className="text-blue-600 hover:underline">業務委託エンジニア</Link>で解説しています。
+            それぞれの詳細は<Link href="/employment/contract-employee/" className="text-petrol hover:underline">契約社員と無期転換ルール</Link>・<Link href="/employment/dispatch/" className="text-petrol hover:underline">派遣エンジニア</Link>・<Link href="/employment/gyomu-itaku/" className="text-petrol hover:underline">業務委託エンジニア</Link>で解説しています。
           </p>
         </section>
 
@@ -325,11 +325,11 @@ export default function SeishainPage() {
             正社員は安定と保障に厚い一方、自由度や単価では他の形態に譲ります。自分の優先順位と照らし合わせて判断しましょう。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="border border-blue-200 rounded-lg p-5">
+            <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">向いている人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {fitYes.map((m, i) => (
-                  <li key={i} className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>{m}</li>
+                  <li key={i} className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>{m}</li>
                 ))}
               </ul>
             </div>
@@ -348,17 +348,17 @@ export default function SeishainPage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代が正社員を選ぶときの視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：信用と保障を土台にキャリアを積み上げる</h3>
-              <p className="text-sm text-blue-700">住宅ローンや家族の保障が現実になる30代は、社会的信用と社会保険の手厚さが効いてくる時期です。正社員の安定を土台に、上流・マネジメントなど次のキャリアの選択肢を広げる戦略が有効です。市場価値の把握から始めましょう。</p>
+              <p className="text-sm text-petrol-deep">住宅ローンや家族の保障が現実になる30代は、社会的信用と社会保険の手厚さが効いてくる時期です。正社員の安定を土台に、上流・マネジメントなど次のキャリアの選択肢を広げる戦略が有効です。市場価値の把握から始めましょう。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験を活かした即戦力・マネジメント採用</h3>
-              <p className="text-sm text-blue-700">40代の正社員転職は、即戦力やマネジメント候補としての需要があります。年齢で一律に不利になるわけではなく、経験の言語化と相場感が鍵です。フリーランス経験者が正社員に戻る場合の考え方は<Link href="/career/freelance-to-permanent/" className="text-blue-600 hover:underline">フリーランスから正社員へ</Link>を参照してください。</p>
+              <p className="text-sm text-petrol-deep">40代の正社員転職は、即戦力やマネジメント候補としての需要があります。年齢で一律に不利になるわけではなく、経験の言語化と相場感が鍵です。フリーランス経験者が正社員に戻る場合の考え方は<Link href="/career/freelance-to-permanent/" className="text-petrol hover:underline">フリーランスから正社員へ</Link>を参照してください。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">将来の年金・保障で他形態と比較する</h3>
-              <p className="text-sm text-blue-700">正社員は厚生年金により将来の年金が手厚くなりやすく、雇用保険・労災もあります。業務委託・フリーランスとの損得は、目先の額面だけでなく、年金や保障の長期差まで含めて比較するのが30代・40代では特に重要です。</p>
+              <p className="text-sm text-petrol-deep">正社員は厚生年金により将来の年金が手厚くなりやすく、雇用保険・労災もあります。業務委託・フリーランスとの損得は、目先の額面だけでなく、年金や保障の長期差まで含めて比較するのが30代・40代では特に重要です。</p>
             </div>
           </div>
         </section>
@@ -385,7 +385,7 @@ export default function SeishainPage() {
           <p className="text-blue-100 text-sm mb-4">
             正社員での提示年収・保障を客観的に把握してから判断するのが安全です。まずは市場価値の把握から始めましょう。
           </p>
-          <Link href="/compare/agents/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/compare/agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             IT転職エージェント比較を見る
           </Link>
         </section>
@@ -402,7 +402,7 @@ export default function SeishainPage() {
               { name: "派遣エンジニア", href: "/employment/dispatch/" },
               { name: "フリーランスから正社員へ", href: "/career/freelance-to-permanent/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

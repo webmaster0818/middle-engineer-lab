@@ -112,7 +112,7 @@ export default function CertTopPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -123,7 +123,7 @@ export default function CertTopPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：30-40代は資格より実務、資格は補強材</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               先に結論です。<strong>30代・40代の転職では、評価の中心はあくまで実務経験であり、資格はそれを客観的に裏づける「補強材」です。</strong>資格単体で年収が跳ね上がることは稀で、最も効くのは「実務×資格の掛け算」です。
             </p>
@@ -195,7 +195,7 @@ export default function CertTopPage() {
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <td className="px-3 py-3 text-slate-700 border-b border-slate-200 font-medium">
                       {href ? (
-                        <Link href={href} className="text-blue-600 hover:underline">{name}</Link>
+                        <Link href={href} className="text-petrol hover:underline">{name}</Link>
                       ) : (
                         name
                       )}
@@ -233,25 +233,25 @@ export default function CertTopPage() {
             「どの資格を取るか」は、目指す方向で決めます。代表的な4方向の対応表です。資格は「とりあえず人気だから」ではなく、<strong>5年後にどんな仕事をしていたいか</strong>から逆算して選ぶと失敗しません。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2 text-sm">マネジメントに進みたい</h3>
-              <p className="text-sm text-blue-700 mb-2">PM・PdM・上流志向なら<strong>PMP</strong>。受験資格自体がPM実務を求めるため、構造的にミドル向けです。</p>
-              <Link href="/cert/pmp/" className="text-sm text-blue-700 underline">PMPの詳細を見る →</Link>
+              <p className="text-sm text-petrol-deep mb-2">PM・PdM・上流志向なら<strong>PMP</strong>。受験資格自体がPM実務を求めるため、構造的にミドル向けです。</p>
+              <Link href="/cert/pmp/" className="text-sm text-petrol-deep underline">PMPの詳細を見る →</Link>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2 text-sm">セキュリティで信頼性を示したい</h3>
-              <p className="text-sm text-blue-700 mb-2">運用・監査の実務がある経験者なら国家資格の<strong>情報処理安全確保支援士</strong>。</p>
-              <Link href="/cert/security-specialist/" className="text-sm text-blue-700 underline">支援士の詳細を見る →</Link>
+              <p className="text-sm text-petrol-deep mb-2">運用・監査の実務がある経験者なら国家資格の<strong>情報処理安全確保支援士</strong>。</p>
+              <Link href="/cert/security-specialist/" className="text-sm text-petrol-deep underline">支援士の詳細を見る →</Link>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2 text-sm">クラウドへ寄せたい</h3>
-              <p className="text-sm text-blue-700 mb-2">オンプレ・インフラ実務がある人は<strong>AWS認定（SAA→上位）</strong>で掛け算。</p>
-              <Link href="/cert/aws/" className="text-sm text-blue-700 underline">AWS認定の詳細を見る →</Link>
+              <p className="text-sm text-petrol-deep mb-2">オンプレ・インフラ実務がある人は<strong>AWS認定（SAA→上位）</strong>で掛け算。</p>
+              <Link href="/cert/aws/" className="text-sm text-petrol-deep underline">AWS認定の詳細を見る →</Link>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2 text-sm">インフラ未経験から入口を作りたい</h3>
-              <p className="text-sm text-blue-700 mb-2"><strong>CCNA・LPIC/LinuC</strong>が入口。ただし30-40代未経験は「なぜこの年齢でIT転職か」の納得感が要ります。</p>
-              <Link href="/skill/infrastructure/" className="text-sm text-blue-700 underline">インフラ転職ガイド →</Link>
+              <p className="text-sm text-petrol-deep mb-2"><strong>CCNA・LPIC/LinuC</strong>が入口。ただし30-40代未経験は「なぜこの年齢でIT転職か」の納得感が要ります。</p>
+              <Link href="/skill/infrastructure/" className="text-sm text-petrol-deep underline">インフラ転職ガイド →</Link>
             </div>
           </div>
         </section>
@@ -281,7 +281,7 @@ export default function CertTopPage() {
                   ["ITストラテジスト", "/cert/it-strategist/"],
                   ["ITサービスマネージャ", "/cert/it-service-manager/"],
                 ].map(([name, href]) => (
-                  <li key={href}><Link href={href} className="text-blue-600 hover:underline">{name}</Link></li>
+                  <li key={href}><Link href={href} className="text-petrol hover:underline">{name}</Link></li>
                 ))}
               </ul>
             </div>
@@ -300,7 +300,7 @@ export default function CertTopPage() {
                   ["Google Cloud ACE（アソシエイト）", "/cert/gcp-ace/"],
                   ["Google Cloud PCA（プロフェッショナル）", "/cert/gcp-pca/"],
                 ].map(([name, href]) => (
-                  <li key={href}><Link href={href} className="text-blue-600 hover:underline">{name}</Link></li>
+                  <li key={href}><Link href={href} className="text-petrol hover:underline">{name}</Link></li>
                 ))}
               </ul>
             </div>
@@ -318,7 +318,7 @@ export default function CertTopPage() {
                   ["Terraform Associate", "/cert/terraform-associate/"],
                   ["CISSP（情報セキュリティ）", "/cert/cissp/"],
                 ].map(([name, href]) => (
-                  <li key={href}><Link href={href} className="text-blue-600 hover:underline">{name}</Link></li>
+                  <li key={href}><Link href={href} className="text-petrol hover:underline">{name}</Link></li>
                 ))}
               </ul>
             </div>
@@ -329,7 +329,7 @@ export default function CertTopPage() {
                   ["PMP（プロジェクトマネジメント）", "/cert/pmp/"],
                   ["G検定（JDLA ディープラーニング）", "/cert/g-kentei/"],
                 ].map(([name, href]) => (
-                  <li key={href}><Link href={href} className="text-blue-600 hover:underline">{name}</Link></li>
+                  <li key={href}><Link href={href} className="text-petrol hover:underline">{name}</Link></li>
                 ))}
               </ul>
             </div>
@@ -358,7 +358,7 @@ export default function CertTopPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            職種側の市場感は<Link href="/skill/pm/" className="text-blue-600 hover:underline">PM（プロジェクトマネージャー）転職ガイド</Link>、<Link href="/skill/security/" className="text-blue-600 hover:underline">セキュリティエンジニア転職ガイド</Link>、<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSエンジニア転職ガイド</Link>も合わせてご覧ください。
+            職種側の市場感は<Link href="/skill/pm/" className="text-petrol hover:underline">PM（プロジェクトマネージャー）転職ガイド</Link>、<Link href="/skill/security/" className="text-petrol hover:underline">セキュリティエンジニア転職ガイド</Link>、<Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>も合わせてご覧ください。
           </p>
         </section>
 
@@ -387,7 +387,7 @@ export default function CertTopPage() {
               一点、ミドルが陥りやすい罠が「資格の取りすぎ」です。学習自体は良いことですが、転職活動の文脈では一貫性のない資格が並ぶと「結局この人は何をしたいのか」が伝わらず、かえってマイナスに働くことがあります。<strong>方向性に沿って1〜2個を深く取り、面接で語れる状態にする</strong>ことを優先してください。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、自分の立ち位置の測り方は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">自分の市場価値の調べ方</Link>、マネジメント志向の方は<Link href="/knowledge/management/" className="text-blue-600 hover:underline">マネジメントへのキャリア</Link>も参考になります。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、自分の立ち位置の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>、マネジメント志向の方は<Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメントへのキャリア</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -416,7 +416,7 @@ export default function CertTopPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -436,7 +436,7 @@ export default function CertTopPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

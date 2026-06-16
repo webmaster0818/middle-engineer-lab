@@ -96,7 +96,7 @@ export default function ReskillingPage() {
             「新しい領域に挑戦したいが、学習費用も時間も負担が大きい」——30-40代の学び直しを阻むこの壁は、<strong>公的な補助金</strong>を使えば大きく下げられます。特に転職・職種転換を前提とするなら、経済産業省や厚生労働省の制度が後押しになります。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事は<strong>公的補助金を使った、転職を伴う学び直し</strong>に特化します。日々の技術力維持の学習戦略全般は<Link href="/knowledge/continuous-learning/" className="text-blue-600 underline">継続的な学習の進め方</Link>を、生成AIに絞った生き残りスキルは<Link href="/knowledge/generative-ai-era/" className="text-blue-600 underline">生成AI時代の生き残りスキル</Link>をあわせてご覧ください。
+            本記事は<strong>公的補助金を使った、転職を伴う学び直し</strong>に特化します。日々の技術力維持の学習戦略全般は<Link href="/knowledge/continuous-learning/" className="text-petrol underline">継続的な学習の進め方</Link>を、生成AIに絞った生き残りスキルは<Link href="/knowledge/generative-ai-era/" className="text-petrol underline">生成AI時代の生き残りスキル</Link>をあわせてご覧ください。
           </p>
         </section>
 
@@ -107,7 +107,7 @@ export default function ReskillingPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -131,13 +131,13 @@ export default function ReskillingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">2. リスキリングとは（リカレントとの違い）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">言葉の整理から始めます。混同されがちな2つの違いを押さえておくと、自分に合う制度を選びやすくなります。</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">リスキリング</h3>
-              <p className="text-sm text-blue-700">主に在職しながら、新しい職務・職種に必要なスキルを学び直すこと。仕事を続けながら、職種転換や役割の変化に備える。本記事の主題。</p>
+              <p className="text-sm text-petrol-deep">主に在職しながら、新しい職務・職種に必要なスキルを学び直すこと。仕事を続けながら、職種転換や役割の変化に備える。本記事の主題。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">リカレント教育</h3>
-              <p className="text-sm text-blue-700">いったん就労を離れて学び直し、また就労に戻る『社会人の学び直し』全般を広く指す概念。大学院進学なども含む広い言葉。</p>
+              <p className="text-sm text-petrol-deep">いったん就労を離れて学び直し、また就労に戻る『社会人の学び直し』全般を広く指す概念。大学院進学なども含む広い言葉。</p>
             </div>
           </div>
         </section>
@@ -230,7 +230,7 @@ export default function ReskillingPage() {
               { num: "3", title: "アウトプットに結びつく学びにする", desc: "資格取得だけで終わらせず、個人開発・記事・OSSなど検証可能な成果に結びつける。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -261,8 +261,8 @@ export default function ReskillingPage() {
               </div>
             ))}
           </div>
-          <div className="bg-blue-50 rounded-lg p-5 mt-5">
-            <p className="text-sm text-blue-700">関連: <Link href="/knowledge/self-analysis/" className="text-blue-700 underline">自己分析の進め方</Link>、<Link href="/knowledge/market-value/" className="text-blue-700 underline">市場価値の調べ方</Link>、<Link href="/knowledge/career-plan/" className="text-blue-700 underline">キャリアプランの立て方</Link>。</p>
+          <div className="bg-petrol-soft rounded-lg p-5 mt-5">
+            <p className="text-sm text-petrol-deep">関連: <Link href="/knowledge/self-analysis/" className="text-petrol-deep underline">自己分析の進め方</Link>、<Link href="/knowledge/market-value/" className="text-petrol-deep underline">市場価値の調べ方</Link>、<Link href="/knowledge/career-plan/" className="text-petrol-deep underline">キャリアプランの立て方</Link>。</p>
           </div>
         </section>
 
@@ -298,7 +298,7 @@ export default function ReskillingPage() {
                   A. {faq.a}
                   {faq.aLink && (
                     <>
-                      <Link href={faq.aLink.href} className="text-blue-600 underline">{faq.aLink.text}</Link>
+                      <Link href={faq.aLink.href} className="text-petrol underline">{faq.aLink.text}</Link>
                       {faq.aAfter}
                     </>
                   )}
@@ -312,7 +312,7 @@ export default function ReskillingPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">学び直しと転職をプロに相談しよう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、職種転換の現実的なルートや、学んだスキルの活かし方を具体的にアドバイスしてくれます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -328,7 +328,7 @@ export default function ReskillingPage() {
               { name: "市場価値の調べ方", href: "/knowledge/market-value/" },
               { name: "40代エンジニア転職のリアル", href: "/knowledge/40s-reality/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

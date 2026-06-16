@@ -121,14 +121,14 @@ export default function SalesToEngineerPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：未経験転職で難度は高い。鍵は成果物と動機の一貫性</h2>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・プログラミング未経験からの転換のため難度は高く、年齢が上がるほど厳しくなる（正直な前提）。</li>
@@ -146,7 +146,7 @@ export default function SalesToEngineerPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">比較軸</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">営業（現職）</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">エンジニア（転職先）</th>
@@ -172,7 +172,7 @@ export default function SalesToEngineerPage() {
           <div className="space-y-4">
             {buildSteps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p>
@@ -220,7 +220,7 @@ export default function SalesToEngineerPage() {
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※技術・実績は自分のものに置き換えてください。型は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>を参照。
+            ※技術・実績は自分のものに置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>を参照。
           </p>
         </section>
 
@@ -240,7 +240,7 @@ export default function SalesToEngineerPage() {
             {agents.map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">
-                  <Link href={agent.href} className="text-blue-700 hover:underline">{agent.name}</Link>
+                  <Link href={agent.href} className="text-petrol-deep hover:underline">{agent.name}</Link>
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">{agent.point}</p>
               </div>
@@ -257,7 +257,7 @@ export default function SalesToEngineerPage() {
             だからこそ、ミドルの強みである「担当業界のドメイン知識」「顧客折衝力」「課題発見力」を技術と掛け合わせる戦略が現実的です。純粋な開発職に正面から挑むより、業務システム開発・社内SE・技術営業など、これまでの経験が差別化要因になる入口を選ぶと勝率が上がります。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            まずは在職中に学習を始め、続けられるか・向いているかを早期に見極めることが大切です。<Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのエンジニア転職</Link>や<Link href="/knowledge/reskilling/" className="text-blue-600 hover:underline">リスキリングガイド</Link>も参考に、現実的な計画を立ててください。年収は<Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>も確認しておきましょう。
+            まずは在職中に学習を始め、続けられるか・向いているかを早期に見極めることが大切です。<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのエンジニア転職</Link>や<Link href="/knowledge/reskilling/" className="text-petrol hover:underline">リスキリングガイド</Link>も参考に、現実的な計画を立ててください。年収は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も確認しておきましょう。
           </p>
         </section>
 
@@ -279,7 +279,7 @@ export default function SalesToEngineerPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">エンジニア転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">営業経験とドメイン知識を活かせる入口を、プロと一緒に探せます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -288,7 +288,7 @@ export default function SalesToEngineerPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

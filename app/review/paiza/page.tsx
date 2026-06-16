@@ -186,7 +186,7 @@ export default function PaizaReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-700 mb-3">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700 list-decimal list-inside">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep list-decimal list-inside">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -200,7 +200,7 @@ export default function PaizaReview() {
         {/* 結論サマリ */}
         <section id="summary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論サマリ：どんな人向けか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3 text-lg">
               結論：「コードで実力を証明したいエンジニア」に向くスカウト型サービス
             </p>
@@ -271,7 +271,7 @@ export default function PaizaReview() {
               <tbody>
                 {ranks.map((r, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                    <td className="px-4 py-3 font-bold text-blue-700 border-t border-slate-200">{r.rank}</td>
+                    <td className="px-4 py-3 font-bold text-petrol-deep border-t border-slate-200">{r.rank}</td>
                     <td className="px-4 py-3 text-slate-600 border-t border-slate-200">{r.level}</td>
                     <td className="px-4 py-3 text-slate-600 border-t border-slate-200">{r.note}</td>
                   </tr>
@@ -299,7 +299,7 @@ export default function PaizaReview() {
         <section id="strength" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">paiza転職の特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. コーディングテストで実力を客観的に証明できる</h3>
               <p className="text-sm text-blue-900 leading-relaxed">
                 スキルチェックのランクは、自己申告ではなく実際にコードを書いた結果に基づく客観指標です。
@@ -307,21 +307,21 @@ export default function PaizaReview() {
                 これにより面接が技術力の証明ではなく、カルチャーフィットや志向のすり合わせに集中しやすくなります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. スキルランクで書類選考免除に進める</h3>
               <p className="text-sm text-blue-900 leading-relaxed">
                 一定ランク以上で書類選考免除の対象になる求人があり、書類で落とされがちなケースでも技術力で突破口を開けます。
                 学歴・前職の知名度・職歴の空白などに左右されにくい、実力本位の選考導線を持っているのが特徴です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. Web系・自社開発・スタートアップに強い</h3>
               <p className="text-sm text-blue-900 leading-relaxed">
                 掲載企業1,600社以上（2026年4月更新の二次情報）の中心はWeb系・自社開発・スタートアップで、プログラミング職と相性の良い求人が揃います。
                 技術で評価する文化のある企業が多く、コードで勝負したいエンジニアの志向と噛み合いやすい領域です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 完全無料で、テスト結果を使い回せる効率の良さ</h3>
               <p className="text-sm text-blue-900 leading-relaxed">
                 求職者は完全無料で、一度取得したスキルランクは複数企業へのアピールに繰り返し使えます。
@@ -392,7 +392,7 @@ export default function PaizaReview() {
               <p className="text-sm text-slate-600 leading-relaxed">
                 30代は実務経験とスキルが噛み合いやすい年代です。datasheetの傾向として、高ランク保持者は年齢を問わずスカウトが届きやすいという声があり、
                 スキルチェックで高ランクを取れれば「30代だから」と書類で外される展開を回避しやすくなります。
-                現年収の相場感は<Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代エンジニアの年収相場</Link>も参考に、ランクを武器に強気の応募が可能です。
+                現年収の相場感は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収相場</Link>も参考に、ランクを武器に強気の応募が可能です。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -400,7 +400,7 @@ export default function PaizaReview() {
               <p className="text-sm text-slate-600 leading-relaxed">
                 40代で技術職を続けたい人にとって、ランクで実力を示せるpaiza転職は数少ない実力本位の導線です。
                 ただしPM・マネジメント・ハイクラス求人の母数は大手エージェントに比べ限られるため、管理職志向の場合は他サービスとの併用が前提になります。
-                40代の現実的な選択肢は<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニア転職のリアル</Link>もあわせてご確認ください。
+                40代の現実的な選択肢は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>もあわせてご確認ください。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -408,7 +408,7 @@ export default function PaizaReview() {
               <p className="text-sm text-slate-600 leading-relaxed">
                 経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。
                 実装力のあるミドルエンジニアにとって追い風の市場であり、ランクで実力を可視化できるpaiza転職はこの流れに乗りやすいサービスです。
-                自分の立ち位置の把握には<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">エンジニアの市場価値の測り方</Link>が役立ちます。
+                自分の立ち位置の把握には<Link href="/knowledge/market-value/" className="text-petrol hover:underline">エンジニアの市場価値の測り方</Link>が役立ちます。
               </p>
             </div>
           </div>
@@ -467,7 +467,7 @@ export default function PaizaReview() {
               ["内定・年収交渉・入社", "内定後は条件を確認し、必要に応じて年収交渉を行います。交渉サポートが必要な場合はエージェント型サービスの併用が有効です。"],
             ].map(([head, body], i) => (
               <li key={i} className="flex gap-4">
-                <span className="shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-sm">
+                <span className="shrink-0 w-8 h-8 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-sm">
                   {i + 1}
                 </span>
                 <div>
@@ -478,8 +478,8 @@ export default function PaizaReview() {
             ))}
           </ol>
           <p className="text-sm text-slate-600 mt-4">
-            面接対策は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の準備</Link>、
-            年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>もあわせてご覧ください。
+            面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>、
+            年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -499,7 +499,7 @@ export default function PaizaReview() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -509,10 +509,10 @@ export default function PaizaReview() {
             <p className="font-bold text-amber-900 mb-2">おすすめの併用パターン</p>
             <p className="text-sm text-amber-900 leading-relaxed">
               <span className="font-medium">paiza転職（技術力で勝負・書類選考免除）</span> +{" "}
-              <Link href="/review/levtech/" className="text-blue-700 underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol-deep underline">レバテックキャリア</Link>
               （添削・年収交渉などのエージェントサポート）の組み合わせが鉄板です。
               スカウト型と仲介型を併用することで、技術アピールと交渉サポートの両面をカバーできます。複数併用のコツは
-              <Link href="/knowledge/multiple-agents/" className="text-blue-700 underline">複数エージェントの併用術</Link>を参照してください。
+              <Link href="/knowledge/multiple-agents/" className="text-petrol-deep underline">複数エージェントの併用術</Link>を参照してください。
             </p>
           </div>
         </section>
@@ -525,7 +525,7 @@ export default function PaizaReview() {
           </p>
           <a
             href="#"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             無料登録してスキルチェックを受ける
           </a>
@@ -555,7 +555,7 @@ export default function PaizaReview() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

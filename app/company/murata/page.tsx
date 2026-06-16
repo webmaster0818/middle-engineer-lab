@@ -109,7 +109,7 @@ export default function MurataCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               村田製作所は<strong>電子部品（MLCC）で世界トップシェアを持つメーカー大手</strong>で、電子部品設計・通信モジュール・組込・データ解析/AI・製造IoTと技術領域が広いのが特徴です。年収は提出会社単体の全従業員平均で803万円（2025年3月期・有報）。製造業出身で電子部品・組込・データ解析の専門性を持つミドルエンジニアの業務知識が活きやすい環境です。
@@ -127,7 +127,7 @@ export default function MurataCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -153,17 +153,17 @@ export default function MurataCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">MLCC世界トップを支える幅広い技術領域</h3>
-              <p className="text-sm text-blue-700">村田製作所はMLCC（積層セラミックコンデンサ）で世界トップシェアを持ち、電子部品の設計開発を中核としつつ、通信モジュール・センサ・電源など多様な製品を持ちます。ハードウェアから組込ソフト、製造IoTまで技術領域が広く、配属事業により求められるスキルが異なります。</p>
+              <p className="text-sm text-petrol-deep">村田製作所はMLCC（積層セラミックコンデンサ）で世界トップシェアを持ち、電子部品の設計開発を中核としつつ、通信モジュール・センサ・電源など多様な製品を持ちます。ハードウェアから組込ソフト、製造IoTまで技術領域が広く、配属事業により求められるスキルが異なります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">電子部品需要の拡大とデータ解析/AIの強化</h3>
-              <p className="text-sm text-blue-700">電子部品はスマートフォン・車載・通信インフラの拡大とともに中長期的に需要が増す領域です。加えて、品質予測や製造最適化のためのデータ解析・AI活用も進めており、製造業出身のミドルエンジニアの専門性が評価されやすい傾向があります。</p>
+              <p className="text-sm text-petrol-deep">電子部品はスマートフォン・車載・通信インフラの拡大とともに中長期的に需要が増す領域です。加えて、品質予測や製造最適化のためのデータ解析・AI活用も進めており、製造業出身のミドルエンジニアの専門性が評価されやすい傾向があります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">技術力・安定性を重視する組織文化</h3>
-              <p className="text-sm text-blue-700">電子部品の世界トップ企業として、技術力・品質・安定性を重視する文化があります（口コミ傾向）。腰を据えて専門性を磨きたいミドル層に向く一方、大企業特有の意思決定スピードや部署差がある点には留意が必要です。</p>
+              <p className="text-sm text-petrol-deep">電子部品の世界トップ企業として、技術力・品質・安定性を重視する文化があります（口コミ傾向）。腰を据えて専門性を磨きたいミドル層に向く一方、大企業特有の意思決定スピードや部署差がある点には留意が必要です。</p>
             </div>
           </div>
         </section>
@@ -175,11 +175,11 @@ export default function MurataCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>電子部品設計</strong>：MLCC・コイル・センサ・電源など電子部品の設計・開発領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>通信モジュール・組込</strong>：通信モジュール等に組み込むソフトウェア開発領域。一般にC/C++等が想定されるが公式の統一情報はなし</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>データ解析・AI</strong>：品質予測・製造最適化に向けたデータ解析／機械学習領域。一般にPython等が想定される</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>製造IoT・DX</strong>：製造現場のIoT化・スマートファクトリー推進領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>電子部品設計</strong>：MLCC・コイル・センサ・電源など電子部品の設計・開発領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>通信モジュール・組込</strong>：通信モジュール等に組み込むソフトウェア開発領域。一般にC/C++等が想定されるが公式の統一情報はなし</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ解析・AI</strong>：品質予測・製造最適化に向けたデータ解析／機械学習領域。一般にPython等が想定される</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>製造IoT・DX</strong>：製造現場のIoT化・スマートファクトリー推進領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: 村田製作所公式 事業情報・採用サイトで確認できる技術領域に基づく記述。推測の言語表は掲載していません。</p>
@@ -218,7 +218,7 @@ export default function MurataCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フローについて</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>村田製作所は中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接が想定されますが、回数・内容・所要期間は募集職種や時期により変動します。最新の内容は公式採用サイトでご確認ください。</p>
-            <p>具体的な面接質問リストも公式には公開されておらず、当ガイドでは<strong>出典のない面接質問や等級別年収表は掲載していません</strong>。応募時には、各募集要項で求められるスキル要件・選考プロセスを直接確認することをおすすめします。技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>も参考にしてください。</p>
+            <p>具体的な面接質問リストも公式には公開されておらず、当ガイドでは<strong>出典のない面接質問や等級別年収表は掲載していません</strong>。応募時には、各募集要項で求められるスキル要件・選考プロセスを直接確認することをおすすめします。技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -228,10 +228,10 @@ export default function MurataCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>電子部品・通信・組込・データ解析など、配属事業に合致する専門性と実績</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術力・品質に対する姿勢とプロジェクト遂行力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>チームでの協働姿勢と長期的なキャリア形成への意欲</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>グローバル拠点との協働を含むコミュニケーション（ポジションにより程度は異なる）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>電子部品・通信・組込・データ解析など、配属事業に合致する専門性と実績</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術力・品質に対する姿勢とプロジェクト遂行力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>チームでの協働姿勢と長期的なキャリア形成への意欲</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>グローバル拠点との協働を含むコミュニケーション（ポジションにより程度は異なる）</li>
           </ul>
         </section>
 
@@ -245,7 +245,7 @@ export default function MurataCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。村田製作所の全従業員平均（803万円）はこれを上回りますが、これは製造現場を含む全社平均であり、入社時の提示は職種・等級次第です。30代・40代は「自分が当てはまる職種・等級の水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              関連領域として<Link href="/skill/embedded/" className="text-blue-600 hover:underline">組込エンジニアの転職</Link>や<Link href="/skill/python/" className="text-blue-600 hover:underline">Pythonエンジニアの転職</Link>、<Link href="/industry/manufacturing/" className="text-blue-600 hover:underline">製造業エンジニアの転職</Link>、<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>も合わせて参考にしてください。
+              関連領域として<Link href="/skill/embedded/" className="text-petrol hover:underline">組込エンジニアの転職</Link>や<Link href="/skill/python/" className="text-petrol hover:underline">Pythonエンジニアの転職</Link>、<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業エンジニアの転職</Link>、<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -258,13 +258,13 @@ export default function MurataCompanyPage() {
               { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手メーカーの専門職・高年収ポジションのスカウトが届きやすい。" },
               { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">特定企業の求人保有状況は時期により変動します。複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">特定企業の求人保有状況は時期により変動します。複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -285,7 +285,7 @@ export default function MurataCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">村田製作所への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">電子部品・組込・データ解析領域の求人に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -299,7 +299,7 @@ export default function MurataCompanyPage() {
               { name: "製造業エンジニアの転職", href: "/industry/manufacturing/" },
               { name: "30代エンジニアの転職事情", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

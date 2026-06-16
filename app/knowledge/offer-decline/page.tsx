@@ -160,7 +160,7 @@ export default function OfferDeclinePage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -171,7 +171,7 @@ export default function OfferDeclinePage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：早く・誠実に・簡潔に</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               内定辞退の基本は、<strong>辞退を決めたら「できるだけ早く」「誠実に」「理由は簡潔に」伝える</strong>こと。承諾前ならメールでも構いませんが、入社直前や承諾後はまず電話でお詫びするのが丁寧です。
             </p>
@@ -208,7 +208,7 @@ export default function OfferDeclinePage() {
           </p>
           <p className="text-slate-600 leading-relaxed mb-4">
             法的な下限として、期間の定めのない雇用契約は民法第627条により申し入れから2週間で解約できます。ただしこれは最低限のルールであり、現実には決断後すぐの連絡がマナーです。承諾期限の延長を相談している段階で辞退が固まった場合も、期限を待たず早めに伝えましょう。期限延長の頼み方は
-            <Link href="/knowledge/offer-deadline/" className="text-blue-600 hover:underline">内定承諾の期限と延長</Link>
+            <Link href="/knowledge/offer-deadline/" className="text-petrol hover:underline">内定承諾の期限と延長</Link>
             を参照してください。
           </p>
           <p className="text-slate-600 leading-relaxed">
@@ -241,7 +241,7 @@ export default function OfferDeclinePage() {
           <div className="space-y-4">
             {phoneScript.map((s, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {i + 1}
                 </span>
                 <div>
@@ -262,7 +262,7 @@ export default function OfferDeclinePage() {
             </p>
             <p className="text-slate-700 leading-relaxed">
               理由を細かく説明する義務はありませんが、『一度承諾しておきながら』という点へのお詫びは丁寧に伝えましょう。承諾そのものを慎重に行えば、こうした事態は避けられます。承諾期限の考え方は
-              <Link href="/knowledge/offer-deadline/" className="text-blue-600 hover:underline">内定承諾の期限と延長</Link>
+              <Link href="/knowledge/offer-deadline/" className="text-petrol hover:underline">内定承諾の期限と延長</Link>
               で詳しく解説しています。
             </p>
           </div>
@@ -305,7 +305,7 @@ export default function OfferDeclinePage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -325,7 +325,7 @@ export default function OfferDeclinePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

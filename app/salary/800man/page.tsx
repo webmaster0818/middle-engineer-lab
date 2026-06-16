@@ -125,7 +125,7 @@ export default function Salary800Page() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -136,7 +136,7 @@ export default function Salary800Page() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収800万円の位置づけと到達ルート</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収800万円は、経済産業省のITSSスキル標準レベルでみると<strong>L4（726.1万円）からL5（937.8万円）の間</strong>に位置します。L4は高度専門（プロ）、L5は社内をリードするハイレベル専門家・管理者層にあたり、800万円は<strong>高度専門・指導者層</strong>の年収帯です。
             </p>
@@ -167,14 +167,14 @@ export default function Salary800Page() {
                   <td className="px-4 py-3 border border-slate-200">576.0万円</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">600万円帯。まだ手前</td>
                 </tr>
-                <tr className="bg-blue-50">
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">L4</td>
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">726.1万円</td>
+                <tr className="bg-petrol-soft">
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L4</td>
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">726.1万円</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">高度専門。800万円の下限側</td>
                 </tr>
-                <tr className="bg-blue-50">
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">L5</td>
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">937.8万円</td>
+                <tr className="bg-petrol-soft">
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L5</td>
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">937.8万円</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">指導者層。800万円の上限側</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
@@ -210,7 +210,7 @@ export default function Salary800Page() {
                 {jobtagData.map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-4 py-3 border border-slate-200 font-medium">{row.job}</td>
-                    <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">{row.salary}</td>
+                    <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">{row.salary}</td>
                     <td className="px-4 py-3 border border-slate-200 text-slate-600">{row.age}</td>
                     <td className="px-4 py-3 border border-slate-200 text-slate-600">{row.ratio.replace("求人倍率 ", "")}</td>
                   </tr>
@@ -270,7 +270,7 @@ export default function Salary800Page() {
           <div className="space-y-4">
             {route.map((r, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {i + 1}
                 </span>
                 <div>
@@ -286,26 +286,26 @@ export default function Salary800Page() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30〜40代が800万円を狙うときの視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">「マネジメントか高度専門か」の軸を決める</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 800万円帯では「どちらも中途半端」が最も評価されにくくなります。30〜40代のこれまでの経験から、PM・コンサル系のマネジメント軸か、クラウド・セキュリティ等の高度専門軸か、自分の強い軸を言語化することが到達の前提です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">段階的アップで「警戒」を避ける</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 現年収から一気に800万円を希望すると、ミドル層ほど選考で警戒されやすくなります。600万円帯で設計・リーダー経験を固め、次に上流・専門に移るという段階設計が、結果的に近道になります。
               </p>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             年代別の相場や汎用的な年収UP戦略は、
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
             ・
-            <Link href="/purpose/salary-up/" className="text-blue-600 hover:underline">年収アップを目指す転職ガイド</Link>
+            <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収アップを目指す転職ガイド</Link>
             ・
-            <Link href="/compare/salary-ranking/" className="text-blue-600 hover:underline">年収アップに強いエージェント比較</Link>
+            <Link href="/compare/salary-ranking/" className="text-petrol hover:underline">年収アップに強いエージェント比較</Link>
             をご覧ください。
           </p>
         </section>
@@ -334,7 +334,7 @@ export default function Salary800Page() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -354,7 +354,7 @@ export default function Salary800Page() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

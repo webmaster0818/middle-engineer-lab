@@ -134,7 +134,7 @@ export default function ManagementPage() {
         {/* 目次 */}
         <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-blue-700">
+          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -145,7 +145,7 @@ export default function ManagementPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：マネジメントは「昇進」ではなく「職種転換」</h2>
             <ul className="text-sm text-blue-900 space-y-2 leading-relaxed">
               <li>・<strong>EMは人と組織</strong>、<strong>PMはプロダクト</strong>が責任の軸。やりがいの源泉が違うので、年収より「どちらに面白さを感じるか」で選ぶ。</li>
@@ -175,7 +175,7 @@ export default function ManagementPage() {
                 {roleCompare.map((r, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-3 py-3 border border-slate-200 font-medium text-slate-800">{r.role}</td>
-                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{r.center}</td>
+                    <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">{r.center}</td>
                     <td className="px-3 py-3 border border-slate-200 text-slate-600">{r.work}</td>
                     <td className="px-3 py-3 border border-slate-200 text-slate-600">{r.from}</td>
                   </tr>
@@ -200,9 +200,9 @@ export default function ManagementPage() {
               { t: "技術的意思決定の素地", d: "アーキテクチャや技術的負債の優先順位を判断できる土台。マネジメント職でも技術理解は信頼の前提になる。" },
               { t: "ステークホルダー調整・伝える力", d: "経営・他部署・チームの間に立ち、合意を形成する。技術を非エンジニアに翻訳して伝える力も重要。" },
             ].map((x, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-1">{x.t}</h3>
-                <p className="text-sm text-blue-700">{x.d}</p>
+                <p className="text-sm text-petrol-deep">{x.d}</p>
               </div>
             ))}
           </div>
@@ -223,7 +223,7 @@ export default function ManagementPage() {
               { num: "5", title: "EM・PMとして転職／登用される", desc: "実績と移行意思が揃えば、EM・PMとしての転職や社内登用が見えてくる。面接ではピープル/プロダクトへの考え方が問われる。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -269,8 +269,8 @@ export default function ManagementPage() {
           </div>
           <p className="text-slate-600 text-sm mt-4">
             職務経歴書全体の構成や書き方は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書の書き方</Link>
-            、面接での伝え方は<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接（STARメソッド）対策</Link>もあわせてご覧ください。
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書の書き方</Link>
+            、面接での伝え方は<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STARメソッド）対策</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -306,11 +306,11 @@ export default function ManagementPage() {
               30代・40代は、これまでの実装経験とチームでの立ち回りが<strong>マネジメントの説得材料</strong>になります。若手より「現場を分かっているマネージャー」として期待されやすく、ミドル層の強みが活きる転身でもあります。
             </p>
             <p>
-              年収の目安として、レバテックが公表する2025年の年代別平均年収（正社員SE）は、30代が約499万円、40代が約618万円です。マネジメント職はこれより上のレンジを狙えることが多い一方、シニアIC・プリンシパルとして技術を極める道でも高い処遇を用意する企業が増えています。年収だけでなく「人・組織」と「技術」のどちらにやりがいを感じるかで選ぶのが、後悔の少ない判断です（年代別の年収は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収</Link>も参照）。
+              年収の目安として、レバテックが公表する2025年の年代別平均年収（正社員SE）は、30代が約499万円、40代が約618万円です。マネジメント職はこれより上のレンジを狙えることが多い一方、シニアIC・プリンシパルとして技術を極める道でも高い処遇を用意する企業が増えています。年収だけでなく「人・組織」と「技術」のどちらにやりがいを感じるかで選ぶのが、後悔の少ない判断です（年代別の年収は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参照）。
             </p>
             <p>
               なお、マネジメントは一度進んだら戻れない道ではありません。EMを経験してICに戻る往復はIT業界では珍しくなく、マネジメント経験はテックリードや設計でも活きます。適性は実際にやってみないと分からない面があるため、機会があれば一度試す価値があります。マネジメントを選ばず技術を深める道は
-              <Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアのスキルアップ戦略</Link>もどうぞ。
+              <Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアのスキルアップ戦略</Link>もどうぞ。
             </p>
           </div>
         </section>
@@ -339,7 +339,7 @@ export default function ManagementPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -359,7 +359,7 @@ export default function ManagementPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -122,7 +122,7 @@ export default function IdecoPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -133,7 +133,7 @@ export default function IdecoPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職時の確定拠出年金</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               企業型DCに加入していた人が転職・退職したら、<strong>資格喪失日の属する月の翌月から6か月以内に移換手続きを行う</strong>のが鉄則です。期限を過ぎると資産が国民年金基金連合会へ自動移換され、運用が止まり手数料も差し引かれます。
             </p>
@@ -205,7 +205,7 @@ export default function IdecoPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             フリーランスへ転向する場合は、
-            <Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスvs正社員の比較</Link>
+            <Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員の比較</Link>
             もあわせて検討してください。
           </p>
         </section>
@@ -221,7 +221,7 @@ export default function IdecoPage() {
               { num: "4", title: "移換完了後に運用商品を選ぶ", desc: "移換金は現金で移るため、移換先で改めて運用商品を選び直します。完了まで1〜2か月程度かかることがあります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -276,7 +276,7 @@ export default function IdecoPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -296,7 +296,7 @@ export default function IdecoPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

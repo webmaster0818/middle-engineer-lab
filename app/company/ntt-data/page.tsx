@@ -128,7 +128,7 @@ export default function NttDataCompanyPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -136,13 +136,13 @@ export default function NttDataCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんな人向きか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 text-sm leading-relaxed mb-3">
               <strong>結論：</strong>NTTデータは「社会インフラ級の大規模案件」と「安定した処遇（全社員平均923万円／2025年3月期 有報）」を両立したいエンジニアに向く企業です。人気が高く難易度は高めですが、キャリア採用は注力施策として拡大しています。
             </p>
             <ul className="space-y-1.5 text-sm text-slate-600">
               <li>・<strong>向いている人</strong>：大規模SI／PMO・PM経験者、金融・公共・通信のドメイン経験者、安定基盤で長期的にキャリアを築きたい人</li>
-              <li>・<strong>向いていない人</strong>：少人数で内製・モダン技術を高速に回したい人（<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWeb系への転職</Link>も検討）</li>
+              <li>・<strong>向いていない人</strong>：少人数で内製・モダン技術を高速に回したい人（<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>も検討）</li>
               <li>・<strong>難易度の目安</strong>：転職メディアでは難易度は高めと評されます。</li>
             </ul>
           </div>
@@ -169,9 +169,9 @@ export default function NttDataCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
             {features.map((f, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{f.h}</h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{f.p}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{f.p}</p>
               </div>
             ))}
           </div>
@@ -184,10 +184,10 @@ export default function NttDataCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>言語：Java を中心とするエンタープライズ開発、データ処理系</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>クラウド：AWS / Azure / Google Cloud（マネージドサービス活用）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>データ基盤：ビッグデータ処理（例：AWS EMR、Google Cloud Dataproc 等）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>専門職：ITスペシャリスト（クラウド）、データサイエンス領域</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>言語：Java を中心とするエンタープライズ開発、データ処理系</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド：AWS / Azure / Google Cloud（マネージドサービス活用）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>データ基盤：ビッグデータ処理（例：AWS EMR、Google Cloud Dataproc 等）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>専門職：ITスペシャリスト（クラウド）、データサイエンス領域</li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">※具体的な使用技術は各求人票・職種紹介が一次情報です。応募前にご確認ください。</p>
@@ -218,7 +218,7 @@ export default function NttDataCompanyPage() {
           <ol className="space-y-3">
             {flow.map((step, i) => (
               <li key={i} className="flex items-start gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                 <span className="text-sm text-slate-700 pt-1">{step}</span>
               </li>
             ))}
@@ -231,10 +231,10 @@ export default function NttDataCompanyPage() {
             公開情報・口コミの傾向から、面接では次のような点が確認されやすいと考えられます（傾向の整理であり、質問内容の断定ではありません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>大規模プロジェクトでの役割・推進経験の具体性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>PMO/PMやマネジメントの素養</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>金融・公共・通信などのドメイン理解</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>チーム・顧客とのコミュニケーション力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>大規模プロジェクトでの役割・推進経験の具体性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>PMO/PMやマネジメントの素養</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>金融・公共・通信などのドメイン理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>チーム・顧客とのコミュニケーション力</li>
           </ul>
           <p className="text-xs text-slate-400 mt-2">※具体的な質問内容は時期・面接官・ポジションで変わります。実体験談の創作は行っていません。</p>
         </section>
@@ -272,7 +272,7 @@ export default function NttDataCompanyPage() {
               30代・40代のミドルエンジニアにとってNTTデータは、これまでの大規模SI・PMO/PM・ドメイン経験を活かしやすく、安定基盤で長期的にキャリアを築ける選択肢です。キャリア採用が注力施策として拡大しているため、即戦力としての中途市場価値を評価してもらいやすい時期と言えます。
             </p>
             <p>
-              一方、コードを書き続ける現場志向の人には、規模が大きい分マネジメント・調整業務の比重が上がる点が合うか確認が必要です。年収の絶対額（全社員平均923万円）は高水準ですが全社員平均なので、自分の等級・提示額はオファー面談で必ず確認しましょう。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収</Link>も参考になります。
+              一方、コードを書き続ける現場志向の人には、規模が大きい分マネジメント・調整業務の比重が上がる点が合うか確認が必要です。年収の絶対額（全社員平均923万円）は高水準ですが全社員平均なので、自分の等級・提示額はオファー面談で必ず確認しましょう。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -285,13 +285,13 @@ export default function NttDataCompanyPage() {
               { name: "doda(IT)", href: "/review/doda-it/", desc: "国内最大級の求人数。NTTグループ各社の求人を幅広く網羅。" },
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でSIerのDX部門・クラウド系ポジションの提案に強み。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500 leading-relaxed">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数併用のコツ</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数併用のコツ</Link>を参照。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -312,7 +312,7 @@ export default function NttDataCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">NTTデータへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手SIerへの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/mynavi-it/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/mynavi-it/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -326,7 +326,7 @@ export default function NttDataCompanyPage() {
               { name: "SIerからWeb系への転職", href: "/industry/sier-to-web/" },
               { name: "40代エンジニアの年収", href: "/knowledge/salary-40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

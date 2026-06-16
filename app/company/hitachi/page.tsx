@@ -99,7 +99,7 @@ export default function HitachiCompanyPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}><a href={`#${t.id}`} className="hover:underline">{t.label}</a></li>
             ))}
@@ -108,7 +108,7 @@ export default function HitachiCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：日立転職の難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
             <p><strong>難易度は高め。ただしジョブ型・職種別の通年採用のため、専門性が募集要件に合えば30代・40代でもチャンスは十分。</strong></p>
             <p>・<strong>向く人</strong>：Lumada／クラウド（AWS・Azure・GCP）／生成AI／データ基盤の実務経験者、電力・鉄道・製造などの社会インフラ×ITに関心がある人、OT×ITの融合領域に魅力を感じる人。</p>
             <p>・<strong>向きにくい人</strong>：少人数・スピード最優先のプロダクト開発のみを志向する人、配属部署による文化差を許容しにくい人。</p>
@@ -136,17 +136,17 @@ export default function HitachiCompanyPage() {
         <section id="features" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. ジョブ型・職種別の通年キャリア採用</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">日立はジョブ型人事を導入し、キャリア採用ポータル（hitachi.jposting.net）で職種別に通年で募集を行っています。Lumada／クラウド／生成AI／データ分析など、職種ごとに求める専門性が明確化されているため、自分の経験と募集要件の合致度が選考通過のカギになります（出典：日立製作所 公式キャリア採用ページ）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">日立はジョブ型人事を導入し、キャリア採用ポータル（hitachi.jposting.net）で職種別に通年で募集を行っています。Lumada／クラウド／生成AI／データ分析など、職種ごとに求める専門性が明確化されているため、自分の経験と募集要件の合致度が選考通過のカギになります（出典：日立製作所 公式キャリア採用ページ）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. デジタルシステム&サービス部門が中核</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">日立は事業を3セクターに再編し、その一つ「デジタルシステム&サービス」が顧客のDXを支える中核です。Lumadaを軸にしたソリューション開発、クラウド構築、生成AI活用などITエンジニアの活躍領域が広がっています（出典：日立製作所 公式・日経クロステック等）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">日立は事業を3セクターに再編し、その一つ「デジタルシステム&サービス」が顧客のDXを支える中核です。Lumadaを軸にしたソリューション開発、クラウド構築、生成AI活用などITエンジニアの活躍領域が広がっています（出典：日立製作所 公式・日経クロステック等）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. GlobalLogic買収によるグローバル・デジタルエンジニアリング強化</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">2021年にGlobalLogicがグループ入りし、海外のデジタルエンジニアリング力を取り込みました。日立は製造・電力の現場で培ったOT（制御技術）とIT・GlobalLogicの先進技術を掛け合わせた「IT×OT」を独自の強みに掲げています（出典：日立製作所 公式情報）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">2021年にGlobalLogicがグループ入りし、海外のデジタルエンジニアリング力を取り込みました。日立は製造・電力の現場で培ったOT（制御技術）とIT・GlobalLogicの先進技術を掛け合わせた「IT×OT」を独自の強みに掲げています（出典：日立製作所 公式情報）。</p>
             </div>
           </div>
         </section>
@@ -158,11 +158,11 @@ export default function HitachiCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Lumada</strong>：IoT/AI/データ分析を活用したDXソリューション基盤。生成AIサービスとの統合を強化</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド</strong>：AWS / Azure / GCP を中心としたソリューション開発（公式募集職種に明記）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>生成AI</strong>：Lumada Solution Hub における生成AI関連ソリューション・サービス開発</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>OT×IT</strong>：電力・鉄道・製造など社会インフラの制御技術とITの融合領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>GlobalLogic連携</strong>：海外デジタルエンジニアリング拠点との協業プロジェクト</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Lumada</strong>：IoT/AI/データ分析を活用したDXソリューション基盤。生成AIサービスとの統合を強化</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：AWS / Azure / GCP を中心としたソリューション開発（公式募集職種に明記）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>生成AI</strong>：Lumada Solution Hub における生成AI関連ソリューション・サービス開発</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>OT×IT</strong>：電力・鉄道・製造など社会インフラの制御技術とITの融合領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>GlobalLogic連携</strong>：海外デジタルエンジニアリング拠点との協業プロジェクト</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-3">※プログラミング言語・フレームワークの公式統一スタックは公表されていないため、ここでは公開情報で確認できた技術領域のみを記載しています。具体的な使用技術は応募する募集職種の要件をご確認ください。</p>
@@ -177,7 +177,7 @@ export default function HitachiCompanyPage() {
             </p>
           </div>
           <p className="text-slate-700 text-sm leading-relaxed">
-            日立製作所はエンジニア職の<strong>等級別年収を公式に公表していません</strong>。そのため当ガイドでは、出典の取れない等級別年収表は掲載しません。実際の提示年収は募集職種・経験・現年収によって変動するため、具体的なレンジは応募先の求人票か転職エージェント経由で確認するのが確実です。年収交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉ガイド</Link>、ミドルの市場価値の考え方は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の見極め方</Link>も参考にしてください。
+            日立製作所はエンジニア職の<strong>等級別年収を公式に公表していません</strong>。そのため当ガイドでは、出典の取れない等級別年収表は掲載しません。実際の提示年収は募集職種・経験・現年収によって変動するため、具体的なレンジは応募先の求人票か転職エージェント経由で確認するのが確実です。年収交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉ガイド</Link>、ミドルの市場価値の考え方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の見極め方</Link>も参考にしてください。
           </p>
         </section>
 
@@ -192,7 +192,7 @@ export default function HitachiCompanyPage() {
               ["内定・条件提示", "採用条件（待遇含む）の提示を経て決定。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                 <div><p className="font-medium text-slate-800 text-sm">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
               </li>
             ))}
@@ -206,20 +206,20 @@ export default function HitachiCompanyPage() {
             公開情報・転職メディアの傾向として、書類・面接では次の観点が重視されると言われています（実在しない質問リストの断定は避け、傾向のみ記載）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>担当業務の<strong>規模・役割・成果・再現性</strong>を具体的な数字で説明できるか</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>「<strong>なぜ日立か</strong>」を事業理解と自分の経験に接続して言語化できるか</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>応募する募集職種（Lumada・クラウド・生成AI等）の<strong>専門要件との合致</strong></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>社会インフラ・OT×IT領域への関心と、長期的に取り組む姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>担当業務の<strong>規模・役割・成果・再現性</strong>を具体的な数字で説明できるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>「<strong>なぜ日立か</strong>」を事業理解と自分の経験に接続して言語化できるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>応募する募集職種（Lumada・クラウド・生成AI等）の<strong>専門要件との合致</strong></li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>社会インフラ・OT×IT領域への関心と、長期的に取り組む姿勢</li>
           </ul>
-          <p className="text-xs text-slate-400 mt-2">出典：日立製作所 公式採用情報＋転職メディアの傾向要約。具体的な面接質問の内容は選考・時期により異なります。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の準備</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-2">出典：日立製作所 公式採用情報＋転職メディアの傾向要約。具体的な面接質問の内容は選考・時期により異なります。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>を参照。</p>
         </section>
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見た日立転職</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>日立はジョブ型・職種別採用へ移行しているため、<strong>30代・40代の実務経験者</strong>が即戦力ポジションで応募しやすい構造になっています。Lumada・クラウド・生成AIなど特定領域の深い経験は、ミドル層の強みとして評価されやすい一方、募集要件との合致が前提です。</p>
-            <p>製造業・社会インフラの現場経験を持つエンジニアにとっては、OT×ITの融合領域が活きる場面が多くあります。<Link href="/industry/manufacturing/" className="text-blue-600 hover:underline">製造業からのIT転職ガイド</Link>で、現場知識を武器に変える考え方を整理しておくと、日立のような社会インフラ×IT企業への志望動機が説得力を増します。</p>
-            <p>一方、口コミでは「部署による文化差が大きい」との声が目立ちます。30代・40代は配属先のミスマッチが転職後の満足度を大きく左右するため、面接段階で配属予定部署の業務・働き方を具体的に確認することが重要です。40代特有の留意点は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>も参考にしてください。</p>
+            <p>製造業・社会インフラの現場経験を持つエンジニアにとっては、OT×ITの融合領域が活きる場面が多くあります。<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業からのIT転職ガイド</Link>で、現場知識を武器に変える考え方を整理しておくと、日立のような社会インフラ×IT企業への志望動機が説得力を増します。</p>
+            <p>一方、口コミでは「部署による文化差が大きい」との声が目立ちます。30代・40代は配属先のミスマッチが転職後の満足度を大きく左右するため、面接段階で配属予定部署の業務・働き方を具体的に確認することが重要です。40代特有の留意点は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -231,13 +231,13 @@ export default function HitachiCompanyPage() {
               { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚い。大手企業への転職支援に強みがあり、ジョブ型採用の準備をサポート。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。日立の管理職・スペシャリスト求人や非公開ポジションに出会いやすい。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500 leading-relaxed">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数社の併用が一般的です。使い分けは<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェント複数利用のコツ</Link>を参照してください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数社の併用が一般的です。使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェント複数利用のコツ</Link>を参照してください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -258,7 +258,7 @@ export default function HitachiCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">日立製作所への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手メーカー・社会インフラ企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/doda-it/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/doda-it/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -272,7 +272,7 @@ export default function HitachiCompanyPage() {
               { name: "NTTデータ エンジニア転職ガイド", href: "/company/ntt-data/" },
               { name: "40代エンジニアの転職", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

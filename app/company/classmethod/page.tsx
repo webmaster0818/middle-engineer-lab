@@ -101,7 +101,7 @@ export default function ClassmethodCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               クラスメソッドは<strong>AWSプレミアティアパートナーとして、クラウド導入・運用と技術発信を事業の核に据えるクラウド専業企業</strong>です。AWSをはじめとするクラウドの設計・構築・運用の実務経験や、資格・技術発信が直接活きます。コンサルティング要素もあり、顧客課題の解決に向き合えるエンジニアに向いています。
@@ -119,7 +119,7 @@ export default function ClassmethodCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -145,17 +145,17 @@ export default function ClassmethodCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">AWSプレミアティアパートナーとしてのクラウド専門性</h3>
-              <p className="text-sm text-blue-700">AWSパートナープログラムの最上位ティアに認定されており、各種コンピテンシーやAWS認定資格の保有数が多いのが強みです。クラウド導入・運用の最前線で、幅広い業種・規模の案件に携われます。</p>
+              <p className="text-sm text-petrol-deep">AWSパートナープログラムの最上位ティアに認定されており、各種コンピテンシーやAWS認定資格の保有数が多いのが強みです。クラウド導入・運用の最前線で、幅広い業種・規模の案件に携われます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">DevelopersIOによる技術発信文化</h3>
-              <p className="text-sm text-blue-700">自社技術ブログ「DevelopersIO」での発信が事業・採用の中心に据えられています。学んだ知見をアウトプットすることが評価・推奨される文化で、技術発信を通じて成長したいエンジニアに向いています。</p>
+              <p className="text-sm text-petrol-deep">自社技術ブログ「DevelopersIO」での発信が事業・採用の中心に据えられています。学んだ知見をアウトプットすることが評価・推奨される文化で、技術発信を通じて成長したいエンジニアに向いています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">資格取得を後押しする環境</h3>
-              <p className="text-sm text-blue-700">クラウドコンサルティングを主力とするため、AWS認定をはじめとする資格取得を会社として後押しする文化が公式に発信されています。学習意欲の高いエンジニアがスキルを伸ばしやすい環境です。</p>
+              <p className="text-sm text-petrol-deep">クラウドコンサルティングを主力とするため、AWS認定をはじめとする資格取得を会社として後押しする文化が公式に発信されています。学習意欲の高いエンジニアがスキルを伸ばしやすい環境です。</p>
             </div>
           </div>
         </section>
@@ -167,11 +167,11 @@ export default function ClassmethodCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド</strong>：AWS（中核）、Google Cloud 等</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>バックエンド</strong>：TypeScript（Node.js）、Python、Go</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>フロントエンド／モバイル</strong>：React、Flutter 等</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>IaC・運用</strong>：Terraform、AWS CDK、CI/CD、監視基盤</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>データ・AI</strong>：各種データ分析基盤、生成AI活用支援</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：AWS（中核）、Google Cloud 等</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：TypeScript（Node.js）、Python、Go</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド／モバイル</strong>：React、Flutter 等</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>IaC・運用</strong>：Terraform、AWS CDK、CI/CD、監視基盤</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ・AI</strong>：各種データ分析基盤、生成AI活用支援</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: クラスメソッド公式 採用情報・DevelopersIO（2026年6月時点）。案件・部門により技術構成は異なります。</p>
@@ -186,14 +186,14 @@ export default function ClassmethodCompanyPage() {
             <p className="leading-relaxed">クラウド専業・コンサルティングという事業特性上、AWS認定などの資格やクラウド構築・運用の実務経験は評価につながりやすい要素です。具体的な提示額はポジション・グレードにより幅があるため、求人情報や面談で確認するのが確実です。年収レンジを事前に把握したい場合は、転職エージェント経由で各求人の想定年収を確認するのが有効です。</p>
           </div>
           <p className="text-sm text-slate-600 mt-4 leading-relaxed">
-            年代別の市場水準を把握する参考として、レバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。クラウド／AWS領域は需要が高く、専門性次第で市場水準を上回る提示が得られる可能性があります。<Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収戦略</Link>・<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も参考にしてください。
+            年代別の市場水準を把握する参考として、レバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。クラウド／AWS領域は需要が高く、専門性次第で市場水準を上回る提示が得られる可能性があります。<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収戦略</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も参考にしてください。
           </p>
         </section>
 
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            クラスメソッド公式採用ページで案内されている一般的な流れです。最新の内容は<a href="https://careers.classmethod.jp/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
+            クラスメソッド公式採用ページで案内されている一般的な流れです。最新の内容は<a href="https://careers.classmethod.jp/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考</li>
@@ -211,12 +211,12 @@ export default function ClassmethodCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>AWS等クラウドの設計・構築・運用の実務理解</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>AWS認定資格や、継続的な学習・キャッチアップ姿勢</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術発信・アウトプットへの前向きさ</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>顧客課題の理解と、コンサルティング的な提案・協働姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>AWS等クラウドの設計・構築・運用の実務理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>AWS認定資格や、継続的な学習・キャッチアップ姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術発信・アウトプットへの前向きさ</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>顧客課題の理解と、コンサルティング的な提案・協働姿勢</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、技術ブログでの発信は<Link href="/knowledge/tech-blog/" className="text-blue-600 hover:underline">技術ブログの活用</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、技術ブログでの発信は<Link href="/knowledge/tech-blog/" className="text-petrol hover:underline">技術ブログの活用</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -226,10 +226,10 @@ export default function ClassmethodCompanyPage() {
               クラスメソッドは年齢よりも、クラウド・データ・コンサルティングの専門性が問われる傾向です。30代・40代のミドルエンジニアにとっては、<strong>AWSをはじめとするクラウド構築・運用の実務と、AWS認定資格の掛け合わせが強力な武器</strong>になります。資格取得を後押しする文化があるため、入社後にさらに認定を積み上げてキャリアを伸ばす道も描けます。
             </p>
             <p>
-              30代40代では、<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS</Link>や<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-blue-600 hover:underline">AWS認定ソリューションアーキテクト（SAA）</Link>や<Link href="/cert/aws-sap/" className="text-blue-600 hover:underline">プロフェッショナル（SAP）</Link>といった上位資格を掛け合わせると、クラウド専業企業での評価につながりやすくなります。
+              30代40代では、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>や<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定ソリューションアーキテクト（SAA）</Link>や<Link href="/cert/aws-sap/" className="text-petrol hover:underline">プロフェッショナル（SAP）</Link>といった上位資格を掛け合わせると、クラウド専業企業での評価につながりやすくなります。
             </p>
             <p>
-              年収は非開示のため、提示水準は求人・面談での確認が前提です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              年収は非開示のため、提示水準は求人・面談での確認が前提です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -242,13 +242,13 @@ export default function ClassmethodCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。クラウド実務経験者への提案数が多い。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型。クラウド・コンサル領域のハイクラス求人が集まりやすい。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -269,7 +269,7 @@ export default function ClassmethodCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">クラスメソッドへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">クラウド・AWSの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -283,7 +283,7 @@ export default function ClassmethodCompanyPage() {
               { name: "AWS認定ソリューションアーキテクト プロフェッショナル（SAP）", href: "/cert/aws-sap/" },
               { name: "30代エンジニアの転職事情", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

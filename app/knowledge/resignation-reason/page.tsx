@@ -188,7 +188,7 @@ export default function ResignationReasonPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -199,7 +199,7 @@ export default function ResignationReasonPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：相手で使い分ける</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               退職理由の伝え方は、<strong>「面接では前向きな動機」「現職では簡潔で角の立たない理由」</strong>と相手に合わせて整えるのが基本です。どちらも嘘をつく必要はなく、本音のうち相手に伝わりやすい側面を選んで表現します。
             </p>
@@ -279,9 +279,9 @@ export default function ResignationReasonPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             退職を切り出す時期や進め方の全体像は
-            <Link href="/knowledge/resignation/" className="text-blue-600 hover:underline">退職の進め方ガイド</Link>
+            <Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の進め方ガイド</Link>
             、円満退職のコツは
-            <Link href="/knowledge/smooth-resignation/" className="text-blue-600 hover:underline">円満退職の進め方</Link>
+            <Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の進め方</Link>
             で詳しく解説しています。
           </p>
         </section>
@@ -303,15 +303,15 @@ export default function ResignationReasonPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代が気をつける点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：一貫したキャリアの軸を見せる</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30代は実務の厚みがある一方、転職回数が増えやすい年代でもあります。各転職の退職理由に「専門性を深める」「裁量を広げる」といった一貫した軸があれば、計画的なキャリア形成として評価されます。場当たり的な転職に見えないよう、過去の理由も一本の線でつなげて語りましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：現職への配慮を厚くする</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は責任ある立場にあることが多く、退職の影響が大きいため、現職への伝え方は特に丁寧にします。十分な引き継ぎ期間を見込み、後任への配慮を示すことで円満に送り出してもらえます。面接では、役職そのものより「役職に依存しない専門性」を退職理由・志望動機の軸に据えると説得力が増します。
               </p>
             </div>
@@ -342,7 +342,7 @@ export default function ResignationReasonPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -362,7 +362,7 @@ export default function ResignationReasonPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

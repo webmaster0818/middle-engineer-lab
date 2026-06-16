@@ -72,7 +72,7 @@ export default function DenaCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：やや高い〜高い（コーディングテスト＋技術面接）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・選考で<strong>コーディングテスト（アルゴリズム）</strong>があり、Web系の基礎力が問われる。難易度は中程度とされ、対策すれば対応可能。</li>
@@ -85,7 +85,7 @@ export default function DenaCompanyPage() {
         <nav aria-label="目次" className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ol>
         </nav>
 
@@ -102,9 +102,9 @@ export default function DenaCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">多角的な事業で幅広い技術経験</h3><p className="text-sm text-blue-700">ゲーム、Pococha（ライブ配信）、ヘルスケア、スポーツDX、AIなど多様な事業を持ち、異なる技術ドメインを経験できます。事業横断での異動の機会もあり、キャリアの幅を広げやすい環境です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">技術発信・学習文化が活発</h3><p className="text-sm text-blue-700">公式技術ブログ「DeNA Engineering」や、全エンジニア向けの「TechTalk」、領域別勉強会、年次カンファレンス「DeNA TechCon」など、技術発信・学習の機会が整備されています。OSS活動や技術書執筆の支援も行われています。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">コーディングテストで地力を評価</h3><p className="text-sm text-blue-700">エンジニア採用ではコーディングテスト（アルゴリズム）を実施し、現時点のスキルだけでなくポテンシャルも見る傾向があるとされます。経験だけでなく基礎的な問題解決力が評価される選考設計です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">多角的な事業で幅広い技術経験</h3><p className="text-sm text-petrol-deep">ゲーム、Pococha（ライブ配信）、ヘルスケア、スポーツDX、AIなど多様な事業を持ち、異なる技術ドメインを経験できます。事業横断での異動の機会もあり、キャリアの幅を広げやすい環境です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">技術発信・学習文化が活発</h3><p className="text-sm text-petrol-deep">公式技術ブログ「DeNA Engineering」や、全エンジニア向けの「TechTalk」、領域別勉強会、年次カンファレンス「DeNA TechCon」など、技術発信・学習の機会が整備されています。OSS活動や技術書執筆の支援も行われています。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">コーディングテストで地力を評価</h3><p className="text-sm text-petrol-deep">エンジニア採用ではコーディングテスト（アルゴリズム）を実施し、現時点のスキルだけでなくポテンシャルも見る傾向があるとされます。経験だけでなく基礎的な問題解決力が評価される選考設計です。</p></div>
           </div>
         </section>
 
@@ -113,11 +113,11 @@ export default function DenaCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下は公式技術ブログ「DeNA Engineering」で公開されている記事タグ・内容に基づく代表的な技術です。事業・チームにより使用技術は異なります。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Go（Golang）</strong>：サーバーサイド開発の主力。新卒研修でもGoでサーバーサイドを学ぶ記事が公開されている</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AWS</strong>：CloudWatch、EKS など。インフラ／SREチームによる記事が多数</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Kubernetes（EKS）／ GitOps・ArgoCD</strong>：コンテナ基盤・継続的デリバリの実践記事</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>TypeScript ／ Python</strong>：フロントエンド・データ／ML領域で使用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Unity</strong>：ゲーム事業のクライアント開発</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go（Golang）</strong>：サーバーサイド開発の主力。新卒研修でもGoでサーバーサイドを学ぶ記事が公開されている</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AWS</strong>：CloudWatch、EKS など。インフラ／SREチームによる記事が多数</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Kubernetes（EKS）／ GitOps・ArgoCD</strong>：コンテナ基盤・継続的デリバリの実践記事</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>TypeScript ／ Python</strong>：フロントエンド・データ／ML領域で使用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Unity</strong>：ゲーム事業のクライアント開発</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：DeNA公式技術ブログ「DeNA Engineering」（engineering.dena.com）の各タグ・記事。チーム・事業により使用技術は異なります。</p>
@@ -147,7 +147,7 @@ export default function DenaCompanyPage() {
               ["STEP 4", "カルチャーフィット・内定", "価値観・カルチャーのフィットを確認のうえ条件提示。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <span className="shrink-0 text-xs font-bold text-blue-700 bg-blue-50 rounded px-2 py-1 h-fit">{step}</span>
+                <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
                 <div><p className="font-bold text-slate-800 text-sm mb-1">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
               </li>
             ))}
@@ -159,10 +159,10 @@ export default function DenaCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・口コミ傾向ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な質問リストは公式に公開されておらず、断定はできません。公開された選考傾向と口コミから、評価されやすいと考えられる観点を一般化して挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>アルゴリズム・データ構造の基礎力（コーディングテストで問われる）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>Go・AWS・Kubernetes等を用いた大規模サービスの設計・運用経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>「こと」に向かう議論ができる、技術的な意思決定の根拠の説明力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>事業ドメイン（ゲーム／ライブ配信／ヘルスケア／AI等）への関心とフィット</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>アルゴリズム・データ構造の基礎力（コーディングテストで問われる）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>Go・AWS・Kubernetes等を用いた大規模サービスの設計・運用経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>「こと」に向かう議論ができる、技術的な意思決定の根拠の説明力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>事業ドメイン（ゲーム／ライブ配信／ヘルスケア／AI等）への関心とフィット</li>
           </ul>
         </section>
 
@@ -179,22 +179,22 @@ export default function DenaCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>提出会社単体の<strong>平均年齢は37.9歳</strong>（2025年3月期・有報）で、メガベンチャーらしく比較的若い組織です。とはいえ事業領域が広く、大規模サービスの設計・SRE・MLなど高度な専門性を要するポジションが多いため、<strong>30代・40代の経験豊富なエンジニアが技術リードやスペシャリストとして活躍できる余地</strong>があります。</p>
             <p>注意したいのは選考のコーディングテストです。実務から離れてアルゴリズムに触れていないミドル層は、AtCoderの基本問題などで事前に感覚を取り戻しておくと安心です。年収は提出会社平均882.9万円が基準で、実力主義の評価ゆえにパフォーマンス次第で処遇が動く点も踏まえ、入社後の評価制度を面接で確認しておくとよいでしょう。Web系・モダン技術志向のミドルエンジニアにとっては、技術的にも事業的にも刺激の多い選択肢です。</p>
-            <p>選考準備として、<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>と<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の進め方</Link>もあわせて確認してください。</p>
+            <p>選考準備として、<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>と<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の進め方</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">DeNA転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でメガベンチャー求人に強い。技術面接対策のサポートあり。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界特化。Web系・ゲーム系企業への提案が豊富。" }, { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型サイト。カジュアル面談で社風を把握しやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でメガベンチャー求人に強い。技術面接対策のサポートあり。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界特化。Web系・ゲーム系企業への提案が豊富。" }, { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型サイト。カジュアル面談で社風を把握しやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">求人保有状況は時期により変動します。<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>もあわせて参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">求人保有状況は時期により変動します。<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>もあわせて参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">DeNAへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">メガベンチャーへの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -205,7 +205,7 @@ export default function DenaCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Unityの転職ガイド", href: "/skill/unity/" }, { name: "Kubernetesの転職ガイド", href: "/skill/kubernetes/" }, { name: "サイバーエージェントの転職ガイド", href: "/company/cyberagent/" }, { name: "メルカリの転職ガイド", href: "/company/mercari/" }, { name: "任天堂の転職ガイド", href: "/company/nintendo/" }, { name: "バンダイナムコの転職ガイド", href: "/company/bandai-namco/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }, { name: "技術面接の進め方", href: "/knowledge/tech-interview/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Unityの転職ガイド", href: "/skill/unity/" }, { name: "Kubernetesの転職ガイド", href: "/skill/kubernetes/" }, { name: "サイバーエージェントの転職ガイド", href: "/company/cyberagent/" }, { name: "メルカリの転職ガイド", href: "/company/mercari/" }, { name: "任天堂の転職ガイド", href: "/company/nintendo/" }, { name: "バンダイナムコの転職ガイド", href: "/company/bandai-namco/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }, { name: "技術面接の進め方", href: "/knowledge/tech-interview/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

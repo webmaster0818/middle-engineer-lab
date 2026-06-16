@@ -116,7 +116,7 @@ export default function NodejsSkillPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -127,7 +127,7 @@ export default function NodejsSkillPage() {
         {/* 違い（冒頭差別化） */}
         <section id="diff" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">まず：TypeScript（言語）との違い</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               「Node.js」と「TypeScript」は混同されがちですが、レイヤーが違います。最初にこの整理をしておくと、求人選びと自己PRがぶれません。
             </p>
@@ -136,7 +136,7 @@ export default function NodejsSkillPage() {
               <li><strong>TypeScript</strong>＝JavaScriptに型を加えた<strong>プログラミング言語そのもの</strong>。フロントでもバックでも使う。</li>
             </ul>
             <p className="text-slate-700 leading-relaxed mt-3 text-sm">
-              つまり「TypeScriptで書いたコードをNode.jsで動かす」という補完関係で、競合しません。本ページは<strong>Node.js（バックエンド環境）</strong>の戦略に絞ります。言語としての型スキルは<Link href="/skill/typescript/" className="text-blue-600 hover:underline">TypeScript転職ガイド</Link>を参照してください。
+              つまり「TypeScriptで書いたコードをNode.jsで動かす」という補完関係で、競合しません。本ページは<strong>Node.js（バックエンド環境）</strong>の戦略に絞ります。言語としての型スキルは<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript転職ガイド</Link>を参照してください。
             </p>
           </div>
         </section>
@@ -144,7 +144,7 @@ export default function NodejsSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Node.js転職市場の攻め方</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Node.jsエンジニアの転職は、<strong>「Expressが書ける」から「設計・スケーラビリティ・運用まで担える」へ役割を上げて見せられるか</strong>で年収が大きく変わります。攻め方は次の3点です。
             </p>
@@ -211,14 +211,14 @@ export default function NodejsSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            Linuxの基礎は<Link href="/skill/linux/" className="text-blue-600 hover:underline">Linux転職ガイド</Link>、型は<Link href="/skill/typescript/" className="text-blue-600 hover:underline">TypeScript転職ガイド</Link>も合わせてご覧ください。
+            Linuxの基礎は<Link href="/skill/linux/" className="text-petrol hover:underline">Linux転職ガイド</Link>、型は<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript転職ガイド</Link>も合わせてご覧ください。
           </p>
         </section>
 
         {/* フルスタック */}
         <section id="fullstack" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フロントとバックを繋ぐフルスタック親和性</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
               Node.js最大の強みは、<strong>フロントエンドと同じJavaScript/TypeScriptでバックエンドを書ける</strong>ことです。これにより、フロント経験者がNodeでサーバーサイドを学んでフルスタック化する、あるいはBFF（Backend for Frontend）でフロントとバックの橋渡しを担う、といった市場価値の高め方が可能になります。
             </p>
@@ -226,7 +226,7 @@ export default function NodejsSkillPage() {
               採用側から見ても「フロントもバックも一人で完結できる」人材は、特にスタートアップ・自社開発で重宝されます。React等のフロント経験があるなら、Nodeを足してフルスタックを名乗れる状態は強力な差別化になります。
             </p>
             <p>
-              フロント側は<Link href="/skill/react/" className="text-blue-600 hover:underline">React転職ガイド</Link>・<Link href="/skill/frontend/" className="text-blue-600 hover:underline">フロントエンド転職ガイド</Link>が参考になります。
+              フロント側は<Link href="/skill/react/" className="text-petrol hover:underline">React転職ガイド</Link>・<Link href="/skill/frontend/" className="text-petrol hover:underline">フロントエンド転職ガイド</Link>が参考になります。
             </p>
           </div>
         </section>
@@ -282,21 +282,21 @@ export default function NodejsSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化。Node.js/NestJSの自社開発・フルスタック求人を技術に明るいアドバイザー経由で探せます。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
               <p className="text-sm text-slate-600 mb-2">ハイクラス（年収750万円以上が一つの目安）・スカウト型。1,000万円超を狙うリード・アーキテクト層に有効です。</p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
               <p className="text-sm text-slate-600 mb-2">国内最大級の求人数。幅広く比較し、母数を確保したい場合の併用先です。</p>
-              <Link href="/review/recruit-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数利用のコツ</Link>、選び方の軸は<Link href="/knowledge/how-to-choose/" className="text-blue-600 hover:underline">転職エージェントの選び方</Link>を参考にしてください。
+            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>、選び方の軸は<Link href="/knowledge/how-to-choose/" className="text-petrol hover:underline">転職エージェントの選び方</Link>を参考にしてください。
           </p>
         </section>
 
@@ -311,7 +311,7 @@ export default function NodejsSkillPage() {
               一方で注意点として、Node.jsは技術トレンドの移り変わりが速く、特定フレームワークの記法だけに依存すると陳腐化しやすい面があります。<strong>言語・環境に依存しない設計力</strong>（API設計・分散システム・DB設計）へ寄せておくことが、年代を問わず市場価値を保つ保険になります。フルスタック親和性も併せて打ち出すと強みになります。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -340,7 +340,7 @@ export default function NodejsSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -360,7 +360,7 @@ export default function NodejsSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -373,8 +373,8 @@ export default function NodejsSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/kakehashi/" className="text-blue-700 hover:underline">カケハシ</a></li><li><a href="/company/plaid/" className="text-blue-700 hover:underline">プレイド</a></li><li><a href="/company/ubie/" className="text-blue-700 hover:underline">Ubie</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/kakehashi/" className="text-petrol-deep hover:underline">カケハシ</a></li><li><a href="/company/plaid/" className="text-petrol-deep hover:underline">プレイド</a></li><li><a href="/company/ubie/" className="text-petrol-deep hover:underline">Ubie</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

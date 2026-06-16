@@ -135,7 +135,7 @@ export default function EmbeddedSkillPage() {
           <ul className="space-y-1.5">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -146,7 +146,7 @@ export default function EmbeddedSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：組込み転職の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               組込みは「枯れたスキル」ではなく、自動車SDV化とエッジAIで再び需要が伸びている領域です。30代・40代は<strong>既存の制御/低レイヤー経験×伸びる領域（自動車・IoT・エッジAI）</strong>で年収を伸ばせます。
             </p>
@@ -251,25 +251,25 @@ export default function EmbeddedSkillPage() {
               <p className="text-sm text-slate-600 mb-2">
                 IT/Web全般に強く高年収求人比率が高い特化型。組込・制御エンジニアの求人も扱い、年収レンジの目安を相談しやすい窓口です。
               </p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（自動車・半導体のハイクラス／スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 年収750万円以上をハイクラスと定義するスカウト型。自動車・半導体の高年収ポジションや管理職求人に出会いやすく、専門性のある組込みエンジニアと相性が良い窓口です。
               </p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（求人量・地方求人）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 国内最大級の求人数を持ち全国対応。製造業の地方拠点求人も含めて網羅できるため、地域を問わず探したい人の「取りこぼし防止」枠として有効です。
               </p>
-              <Link href="/review/recruit-it/" className="text-sm text-blue-600 hover:underline">リクルートエージェントITの詳細レビュー →</Link>
+              <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            製造業全体の事情は<Link href="/industry/manufacturing/" className="text-blue-600 hover:underline">製造業のIT転職ガイド</Link>、併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの併用ガイド</Link>を参考にしてください。
+            製造業全体の事情は<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業のIT転職ガイド</Link>、併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの併用ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -286,7 +286,7 @@ export default function EmbeddedSkillPage() {
               { num: "3", title: "SES/受託から事業会社の内製チームへ", desc: "まずSES/受託で組込み実務の年数を積み、その後に自動車OEMやメーカーの内製チームへ。段階を踏むことで未経験ハードルを下げられます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -297,7 +297,7 @@ export default function EmbeddedSkillPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            SESから抜けたい場合は<Link href="/industry/ses-exit/" className="text-blue-600 hover:underline">SES脱出の転職ガイド</Link>も参考になります。
+            SESから抜けたい場合は<Link href="/industry/ses-exit/" className="text-petrol hover:underline">SES脱出の転職ガイド</Link>も参考になります。
           </p>
         </section>
 
@@ -308,27 +308,27 @@ export default function EmbeddedSkillPage() {
             組込みは流行り廃りの激しいWeb系と違い、ノウハウの蓄積が長く効く領域です。ハードの癖、リアルタイム制御、品質プロセスといった「経験でしか身につかない勘所」が評価されるため、ミドル層に向いた職種です。
           </p>
           <div className="space-y-3">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">専門規格の知識が長期の武器になる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 AUTOSARや機能安全（ISO 26262）は習得に時間がかかる分、一度身につければ陳腐化しにくく、40代以降も評価され続けます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">地方求人が多く、暮らしと両立しやすい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 製造業は地方拠点が多く、Uターン/Iターンや持ち家との両立を考えるミドルにとって選択肢が広いのが利点です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">伸びる領域を1つ足して年収を引き上げる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 既存の制御経験にエッジAIやクラウド連携を足すと、平均（約580〜604万円）から一段上の提示を狙えます。
               </p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            40代の現実は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>で詳しく解説しています。
+            40代の現実は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>で詳しく解説しています。
           </p>
         </section>
 
@@ -339,14 +339,14 @@ export default function EmbeddedSkillPage() {
             組込みは実機での経験が最も評価されます。座学だけでなく、動くものを作って語れる状態を目指しましょう。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>ARM系マイコンやESP32等で、センサー制御・通信の小作品を実機で動かす</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>RTOS（FreeRTOS/Zephyr）でのタスク設計・割り込み処理を一通り体験する</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>狙う領域（自動車/IoT/エッジAI）の規格・要素技術を1つ深掘りする</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>Rust（組込み）やPython（テスト自動化）など評価が上がりつつある言語に触れる</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>不具合解析・品質プロセスの経験を職務経歴書で言語化する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>ARM系マイコンやESP32等で、センサー制御・通信の小作品を実機で動かす</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>RTOS（FreeRTOS/Zephyr）でのタスク設計・割り込み処理を一通り体験する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>狙う領域（自動車/IoT/エッジAI）の規格・要素技術を1つ深掘りする</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>Rust（組込み）やPython（テスト自動化）など評価が上がりつつある言語に触れる</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>不具合解析・品質プロセスの経験を職務経歴書で言語化する</li>
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
-            学習継続は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">働きながら学び続ける方法</Link>、Rust併用なら<Link href="/skill/rust/" className="text-blue-600 hover:underline">Rustエンジニアの転職市場ガイド</Link>も参考にしてください。
+            学習継続は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">働きながら学び続ける方法</Link>、Rust併用なら<Link href="/skill/rust/" className="text-petrol hover:underline">Rustエンジニアの転職市場ガイド</Link>も参考にしてください。
           </p>
         </section>
 
@@ -379,7 +379,7 @@ export default function EmbeddedSkillPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            クラウド寄りに進みたい場合は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラ</Link>や<Link href="/skill/network/" className="text-blue-600 hover:underline">ネットワーク</Link>、安全性重視の言語なら<Link href="/skill/rust/" className="text-blue-600 hover:underline">Rust</Link>を併せて検討すると選択肢が広がります。
+            クラウド寄りに進みたい場合は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>や<Link href="/skill/network/" className="text-petrol hover:underline">ネットワーク</Link>、安全性重視の言語なら<Link href="/skill/rust/" className="text-petrol hover:underline">Rust</Link>を併せて検討すると選択肢が広がります。
           </p>
         </section>
 
@@ -435,7 +435,7 @@ export default function EmbeddedSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -455,7 +455,7 @@ export default function EmbeddedSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -468,8 +468,8 @@ export default function EmbeddedSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/canon/" className="text-blue-700 hover:underline">キヤノン</a></li><li><a href="/company/denso/" className="text-blue-700 hover:underline">デンソー</a></li><li><a href="/company/keyence/" className="text-blue-700 hover:underline">キーエンス</a></li><li><a href="/company/kyocera/" className="text-blue-700 hover:underline">京セラ</a></li><li><a href="/company/murata/" className="text-blue-700 hover:underline">村田製作所</a></li><li><a href="/company/omron/" className="text-blue-700 hover:underline">オムロン</a></li><li><a href="/company/panasonic/" className="text-blue-700 hover:underline">パナソニック</a></li><li><a href="/company/renesas/" className="text-blue-700 hover:underline">ルネサスエレクトロニクス</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/canon/" className="text-petrol-deep hover:underline">キヤノン</a></li><li><a href="/company/denso/" className="text-petrol-deep hover:underline">デンソー</a></li><li><a href="/company/keyence/" className="text-petrol-deep hover:underline">キーエンス</a></li><li><a href="/company/kyocera/" className="text-petrol-deep hover:underline">京セラ</a></li><li><a href="/company/murata/" className="text-petrol-deep hover:underline">村田製作所</a></li><li><a href="/company/omron/" className="text-petrol-deep hover:underline">オムロン</a></li><li><a href="/company/panasonic/" className="text-petrol-deep hover:underline">パナソニック</a></li><li><a href="/company/renesas/" className="text-petrol-deep hover:underline">ルネサスエレクトロニクス</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

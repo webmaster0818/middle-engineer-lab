@@ -126,14 +126,14 @@ export default function MotivationPage() {
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
           <ul className="space-y-2">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ul>
         </nav>
 
         {/* 結論 */}
         <section className="mb-10">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：本音は隠さず「実現したいこと」に翻訳する</h2>
             <p className="text-sm text-blue-800 leading-relaxed">
               良い転職理由は、嘘でも建前でもありません。<strong>「避けたいこと（本音）」を「次に実現したいこと」へ言い換える</strong>だけです。前職批判で終わらせず、未来志向にすること。そして<strong>転職理由と志望動機を地続きにする</strong>こと。この2点を押さえれば、深掘り質問にも一貫して答えられます。
@@ -161,7 +161,7 @@ export default function MotivationPage() {
           <div className="space-y-4">
             {organizeSteps.map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -227,7 +227,7 @@ export default function MotivationPage() {
               { num: "P", title: "Point（再結論）", desc: "「だからこそ◯◯な環境で貢献したい」と志望動機へ橋渡しする。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -260,7 +260,7 @@ export default function MotivationPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            志望動機そのものの作り込みは<Link href="/knowledge/self-analysis/" className="text-blue-600 hover:underline">自己分析ガイド</Link>や<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接（STAR法）ガイド</Link>も参考になります。
+            志望動機そのものの作り込みは<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析ガイド</Link>や<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STAR法）ガイド</Link>も参考になります。
           </p>
         </section>
 
@@ -275,7 +275,7 @@ export default function MotivationPage() {
               年収を理由の一つに挙げること自体は自然です。doda（パーソルキャリア）の2024年度「決定年収レポート」（2025年5月公表）では、転職者の約6割が年収アップを実現したと公表されています。ただし面接では、報酬は「正当な評価の結果」として位置づけ、成長や貢献と結びつけて語る方が好印象です。
             </p>
             <p>
-              本音の言語化に迷う場合は、エージェントへの壁打ちが有効です。<Link href="/knowledge/job-hopping/" className="text-blue-600 hover:underline">転職回数が多い場合の伝え方</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>もあわせて確認してみてください。
+              本音の言語化に迷う場合は、エージェントへの壁打ちが有効です。<Link href="/knowledge/job-hopping/" className="text-petrol hover:underline">転職回数が多い場合の伝え方</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>もあわせて確認してみてください。
             </p>
           </div>
         </section>
@@ -302,7 +302,7 @@ export default function MotivationPage() {
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントなら、企業ごとの選考傾向を把握したアドバイザーが、転職理由と志望動機を伝わる形に整えてくれます。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -318,7 +318,7 @@ export default function MotivationPage() {
               { name: "転職回数が多い場合の伝え方", href: "/knowledge/job-hopping/" },
               { name: "市場価値の調べ方", href: "/knowledge/market-value/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

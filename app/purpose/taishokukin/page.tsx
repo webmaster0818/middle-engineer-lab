@@ -86,7 +86,7 @@ export default function TaishokukinPage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             退職金は30-40代の老後資産設計に直結する重要な制度ですが、「退職金制度あり」という表記の中身は企業によって大きく異なります。会社が給付額を約束する<strong>退職一時金</strong>と、拠出額を約束し運用は従業員に委ねる<strong>企業型DC（確定拠出年金）</strong>では、転職時の扱い・税制・リスクが変わります。本記事では、退職金とDCの違い・退職所得控除の仕組みを公的情報で整理し、求人での見極め方を転職時のポータビリティと老後資金設計の観点で解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 老後資金を意識して退職金のある会社へ転職したい30-40代</li>
@@ -99,7 +99,7 @@ export default function TaishokukinPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>退職金・DCの種類と税制</li>
             <li>求人での見極めポイント</li>
             <li>該当しやすい企業タイプ</li>
@@ -113,7 +113,7 @@ export default function TaishokukinPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">種類</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">内容</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">転職・税制のポイント</th>
@@ -150,7 +150,7 @@ export default function TaishokukinPage() {
               { num: "5", title: "前払い型か（退職所得控除の対象外）を確認する", desc: "退職金を給与に上乗せする前払い型は、退職所得控除の優遇を受けられず、受け取り時の手取りが変わります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -196,7 +196,7 @@ export default function TaishokukinPage() {
             </p>
             <p>
               <strong>退職前後の手続きも確認を：</strong>退職金・DCの精算や移換は退職手続きと並行して進める必要があります。具体的な流れは
-              <Link href="/knowledge/after-resignation-procedures/" className="text-blue-600 hover:underline">退職後の各種手続き</Link>
+              <Link href="/knowledge/after-resignation-procedures/" className="text-petrol hover:underline">退職後の各種手続き</Link>
               も参考にしてください。
             </p>
           </div>
@@ -220,7 +220,7 @@ export default function TaishokukinPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">退職金制度のある企業を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">退職金・DCの中身まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -234,7 +234,7 @@ export default function TaishokukinPage() {
               { name: "安定した企業への転職", href: "/purpose/stable/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

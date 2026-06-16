@@ -109,7 +109,7 @@ export default function FutureCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               フューチャーは<strong>IT戦略コンサルから設計・実装まで一気通貫で携われる、技術志向のITコンサルティング企業</strong>です。アーキテクチャ設計・大規模システム開発・クラウドの実務に、課題解決のコンサルティング力を掛け合わせられるエンジニアに向いています。
@@ -127,7 +127,7 @@ export default function FutureCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -153,17 +153,17 @@ export default function FutureCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">戦略から実装まで一気通貫</h3>
-              <p className="text-sm text-blue-700">IT戦略の立案・要件定義といった上流から、設計・実装・運用までを一貫して手がけます。上流のコンサルティングに閉じず、自ら手を動かしてシステムを作り上げる『手を動かすコンサルタント／エンジニア』としての働き方が特徴です。</p>
+              <p className="text-sm text-petrol-deep">IT戦略の立案・要件定義といった上流から、設計・実装・運用までを一貫して手がけます。上流のコンサルティングに閉じず、自ら手を動かしてシステムを作り上げる『手を動かすコンサルタント／エンジニア』としての働き方が特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">技術力を重視する文化</h3>
-              <p className="text-sm text-blue-700">フューチャー技術ブログやOSS活動など、技術発信・探究を重視する文化があります。最新技術のキャッチアップや、アーキテクチャ設計力を磨きたいエンジニアに向いた環境です。</p>
+              <p className="text-sm text-petrol-deep">フューチャー技術ブログやOSS活動など、技術発信・探究を重視する文化があります。最新技術のキャッチアップや、アーキテクチャ設計力を磨きたいエンジニアに向いた環境です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">多様な業界・大規模案件</h3>
-              <p className="text-sm text-blue-700">流通・金融・製造など多様な業界の大規模システムに携われます。クラウド移行やモダナイゼーション、自社プロダクト・SaaS開発など、幅広いテーマで技術と業務知識の両方を伸ばせます。</p>
+              <p className="text-sm text-petrol-deep">流通・金融・製造など多様な業界の大規模システムに携われます。クラウド移行やモダナイゼーション、自社プロダクト・SaaS開発など、幅広いテーマで技術と業務知識の両方を伸ばせます。</p>
             </div>
           </div>
         </section>
@@ -175,11 +175,11 @@ export default function FutureCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>バックエンド</strong>：Java、Go、Python</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>フロントエンド</strong>：TypeScript、React、Vue.js、JavaScript</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド</strong>：AWS、Google Cloud Platform、Microsoft Azure</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>基盤・IaC</strong>：Docker、Kubernetes、Terraform、CI/CD</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>データ</strong>：各種RDB、DWH、データ分析・AI活用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：Java、Go、Python</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：TypeScript、React、Vue.js、JavaScript</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：AWS、Google Cloud Platform、Microsoft Azure</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>基盤・IaC</strong>：Docker、Kubernetes、Terraform、CI/CD</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ</strong>：各種RDB、DWH、データ分析・AI活用</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: フューチャー公式 採用情報・フューチャー技術ブログ（2026年6月時点）。プロジェクトにより技術構成は異なります。</p>
@@ -217,7 +217,7 @@ export default function FutureCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            フューチャー公式採用ページで案内されている一般的な流れです。最新の内容は<a href="https://www.future.co.jp/recruit/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
+            フューチャー公式採用ページで案内されている一般的な流れです。最新の内容は<a href="https://www.future.co.jp/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考</li>
@@ -235,12 +235,12 @@ export default function FutureCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>アーキテクチャ設計・大規模システム開発の実装力と設計の妥当性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>顧客課題の理解と、解決へ導くコンサルティング力・論理的思考</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>クラウド・モダン技術へのキャッチアップ姿勢</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>チーム・顧客との協働姿勢、上流から実装まで関わる意欲</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>アーキテクチャ設計・大規模システム開発の実装力と設計の妥当性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>顧客課題の理解と、解決へ導くコンサルティング力・論理的思考</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド・モダン技術へのキャッチアップ姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>チーム・顧客との協働姿勢、上流から実装まで関わる意欲</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -253,7 +253,7 @@ export default function FutureCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。フューチャーの全社員平均（841万円）はこれを上回りますが、これは全社平均であり、入社時の提示はグレード次第です。30代・40代は「自分が当てはまるグレードの水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              30代40代では、<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS</Link>などクラウドや<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-blue-600 hover:underline">AWS認定（SAA）</Link>や<Link href="/cert/pmp/" className="text-blue-600 hover:underline">PMP</Link>などの資格を掛け合わせると、コンサル×実装の評価につながりやすい領域です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              30代40代では、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>などクラウドや<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定（SAA）</Link>や<Link href="/cert/pmp/" className="text-petrol hover:underline">PMP</Link>などの資格を掛け合わせると、コンサル×実装の評価につながりやすい領域です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -266,13 +266,13 @@ export default function FutureCompanyPage() {
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、ITコンサル領域のミドル・シニア支援に定評。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型。ITコンサル・アーキテクトのハイクラス求人が集まりやすい。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -293,7 +293,7 @@ export default function FutureCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">フューチャーへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">ITコンサル・アーキテクトの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -307,7 +307,7 @@ export default function FutureCompanyPage() {
               { name: "AWS認定ソリューションアーキテクト（SAA）", href: "/cert/aws-saa/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

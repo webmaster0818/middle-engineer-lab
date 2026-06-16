@@ -114,7 +114,7 @@ export default function CertAzureAdministratorPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -125,7 +125,7 @@ export default function CertAzureAdministratorPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AZ-104は誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               AZ-104は<strong>「経験者の加点資格」</strong>です。最も効くのは<strong>「インフラ運用・仮想化の実務 × Azure運用の証明」</strong>という掛け算で、Azure環境を任される運用・基盤ポジションで価値が出ます。入門のAZ-900と違い実装寄りで、実務とセットで評価されます。
             </p>
@@ -196,7 +196,7 @@ export default function CertAzureAdministratorPage() {
               さらに、AZ-104が扱うアイデンティティ管理（Microsoft Entra ID）やガバナンス、ネットワーク構成は、AWSの同等領域とも考え方が通じます。片方のクラウドで運用設計の勘所を身につけていれば、もう一方の理解は格段に速くなります。AWSの実務経験を持つミドルがAZ-104を取得すると、「どちらのクラウドでも基盤を任せられる人材」という希少なポジションに立てます。マルチクラウドや移行・統合の案件が増えるなか、この横断性は明確な差別化要因になります。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/azure/" className="text-blue-600 hover:underline">Azureエンジニア転職ガイド</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/azure/" className="text-petrol hover:underline">Azureエンジニア転職ガイド</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -238,7 +238,7 @@ export default function CertAzureAdministratorPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            インフラの土台は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>、自動化方向は<Link href="/skill/devops/" className="text-blue-600 hover:underline">DevOpsエンジニア転職ガイド</Link>も参考にしてください。
+            インフラの土台は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>、自動化方向は<Link href="/skill/devops/" className="text-petrol hover:underline">DevOpsエンジニア転職ガイド</Link>も参考にしてください。
           </p>
         </section>
 
@@ -252,7 +252,7 @@ export default function CertAzureAdministratorPage() {
               { n: "STEP 3", t: "合格→運用実務／上位資格へ", d: "合格後はAzure運用の実務で深め、AZ-305（ソリューションアーキテクト）など上位へ進む。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -261,7 +261,7 @@ export default function CertAzureAdministratorPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            前段の基礎は<Link href="/cert/azure-fundamentals/" className="text-blue-600 hover:underline">Azure Fundamentals（AZ-900）</Link>から。AWSと比較検討するなら<Link href="/cert/aws-saa/" className="text-blue-600 hover:underline">AWS認定SAA</Link>も併せてご覧ください。
+            前段の基礎は<Link href="/cert/azure-fundamentals/" className="text-petrol hover:underline">Azure Fundamentals（AZ-900）</Link>から。AWSと比較検討するなら<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定SAA</Link>も併せてご覧ください。
           </p>
         </section>
 
@@ -289,7 +289,7 @@ export default function CertAzureAdministratorPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -309,7 +309,7 @@ export default function CertAzureAdministratorPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

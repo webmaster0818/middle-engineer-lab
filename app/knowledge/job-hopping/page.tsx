@@ -102,7 +102,7 @@ export default function JobHoppingPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -110,7 +110,7 @@ export default function JobHoppingPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="border-l-4 border-blue-600 bg-blue-50 rounded-r-xl p-6">
+          <div className="border-l-4 border-petrol bg-petrol-soft rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：回数より『一貫性』で勝負する</h2>
             <p className="text-slate-700 leading-relaxed mb-3">
               転職回数が多い場合の正攻法は、「回数を隠す」ことではなく「<strong>各社の経験を貫く一貫したテーマを示し、転職を成長のストーリーに変える</strong>」ことです。職務経歴書の冒頭で一貫性を宣言し、各社の成果を数値で裏づければ、回数の印象は大きく変わります。
@@ -135,9 +135,9 @@ export default function JobHoppingPage() {
               { t: "転職理由の一貫性", d: "『技術を深めるため』『より大規模な開発に携わるため』など方向性が一貫していれば、回数はむしろ成長意欲の表れと受け取られる。場当たり的に見えないことが重要。" },
               { t: "スキルの積み上がり", d: "転職のたびに担当範囲・責任・技術レベルが上がっていれば、回数は『成長の証』になる。各社での成果を数値で示せると説得力が増す。" },
             ].map((x, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-1.5">{x.t}</h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{x.d}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{x.d}</p>
               </div>
             ))}
           </div>
@@ -156,8 +156,8 @@ export default function JobHoppingPage() {
                 「これまで5社で勤務してきました。さまざまな開発に携わり、幅広い経験を積みました。今回もスキルアップを目指して転職を希望しています。」
               </p>
             </div>
-            <div className="border border-blue-200 rounded-lg overflow-hidden">
-              <div className="bg-blue-50 px-4 py-2 text-sm font-bold text-blue-800">After（一貫性が伝わる例）</div>
+            <div className="border border-[var(--line)] rounded-lg overflow-hidden">
+              <div className="bg-petrol-soft px-4 py-2 text-sm font-bold text-blue-800">After（一貫性が伝わる例）</div>
               <p className="px-4 py-3 text-sm text-slate-600 leading-relaxed">
                 「一貫してWebバックエンドを軸に、Java→Kotlin→Goと技術を深化させてきました。受託でスピードと品質の両立を、自社開発でプロダクト思考を、直近のSaaS企業ではチーム6名のテックリードとしてマイクロサービス設計と後輩育成を経験。『高トラフィックなプロダクトを支える設計力』を強みとして、その専門性を活かせる環境を希望しています。」
               </p>
@@ -246,7 +246,7 @@ export default function JobHoppingPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            基本フォーマットや書き方の詳細は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>を参照してください。
+            基本フォーマットや書き方の詳細は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>を参照してください。
           </p>
         </section>
 
@@ -260,7 +260,7 @@ export default function JobHoppingPage() {
               { count: "6回以上", advice: "直近の在籍が2年以上あること、今後のビジョンが明確であることが鍵。『次の転職を最後にしたい』理由を、その会社の環境と結びつけて語る。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center min-w-[60px] h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.count}</span>
+                <span className="flex items-center justify-center min-w-[60px] h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.count}</span>
                 <p className="text-sm text-slate-600 leading-relaxed">{item.advice}</p>
               </div>
             ))}
@@ -274,13 +274,13 @@ export default function JobHoppingPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">30代：回数より『伸び』を見せる</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                30代は転職のたびにスキルと年収が伸びているかが問われます。回数があっても右肩上がりのストーリーを描ければ、むしろ成長意欲として評価されます。年収の伸びは<Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代エンジニアの年収相場</Link>も参考に。
+                30代は転職のたびにスキルと年収が伸びているかが問われます。回数があっても右肩上がりのストーリーを描ければ、むしろ成長意欲として評価されます。年収の伸びは<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収相場</Link>も参考に。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">40代：『腰を据えられるか』が焦点</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                40代は回数が多いと『また辞めるのでは』という定着懸念が強まりがちです。直近の在籍を長めにし、応募先で長く貢献する具体的な理由を語ることが重要。40代の動き方は<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニア転職のリアル</Link>で深掘りしています。
+                40代は回数が多いと『また辞めるのでは』という定着懸念が強まりがちです。直近の在籍を長めにし、応募先で長く貢献する具体的な理由を語ることが重要。40代の動き方は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>で深掘りしています。
               </p>
             </div>
           </div>
@@ -308,7 +308,7 @@ export default function JobHoppingPage() {
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントなら、回数をカバーする職務経歴書の書き方から面接対策、推薦文での補強まで無料でサポートしてくれます。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -327,7 +327,7 @@ export default function JobHoppingPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

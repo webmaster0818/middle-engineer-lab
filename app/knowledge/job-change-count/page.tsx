@@ -160,7 +160,7 @@ export default function JobChangeCountPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -171,7 +171,7 @@ export default function JobChangeCountPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職回数が多いときの基本方針</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               転職回数が多いときの基本は、<strong>「キャリアを貫く一本の軸を言語化し」「各退職理由を前向きに整理し」「今回は定着したい根拠を具体的に示す」</strong>こと。回数を隠すのではなく、ストーリーで納得感を作るのが鉄則です。
             </p>
@@ -211,7 +211,7 @@ export default function JobChangeCountPage() {
               { num: "4", title: "今回の応募と接続する", desc: "その軸が応募先でどう活き、なぜ定着したいのかをつなげて語れるようにします。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -223,9 +223,9 @@ export default function JobChangeCountPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             軸の整理には
-            <Link href="/knowledge/self-analysis/" className="text-blue-600 hover:underline">自己分析の進め方</Link>
+            <Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析の進め方</Link>
             と
-            <Link href="/knowledge/career-plan/" className="text-blue-600 hover:underline">キャリアプランの立て方</Link>
+            <Link href="/knowledge/career-plan/" className="text-petrol hover:underline">キャリアプランの立て方</Link>
             も役立ちます。
           </p>
         </section>
@@ -265,7 +265,7 @@ export default function JobChangeCountPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             書類全体の作り方は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>
             を参照してください。
           </p>
         </section>
@@ -287,15 +287,15 @@ export default function JobChangeCountPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代で特に注意する点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：経験の幅を強みに変える</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30代は複数社の経験が「幅広い対応力」に転じる年代です。回数の多さを謝るのではなく、各社で得た技術・視点を一貫した軸でまとめ、即戦力としての引き出しの多さをアピールしましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：定着の見通しを具体的に示す</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は年齢が上がるほど、回数の多さに対する説明の納得感と長期就業の見通しが厳しく問われます。家庭やキャリアの状況が安定し、腰を据えて貢献したい理由を、これまでとの違いとともに事実ベースで伝えることが信頼につながります。
               </p>
             </div>
@@ -326,7 +326,7 @@ export default function JobChangeCountPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -346,7 +346,7 @@ export default function JobChangeCountPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -119,7 +119,7 @@ export default function LpicCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -130,7 +130,7 @@ export default function LpicCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：LPIC・LinuCは誰に効くか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               LPIC/LinuCは<strong>「未経験〜若手がLinux／インフラ職に入るための入口資格」</strong>であり、上位レベルは経験者の専門性証明になります。30〜40代の評価は経験とレベルで分かれます。
             </p>
@@ -252,7 +252,7 @@ export default function LpicCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            領域全体の市場感は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>、クラウド方向は<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS認定の活かし方</Link>を参考にしてください。
+            領域全体の市場感は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>、クラウド方向は<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定の活かし方</Link>を参考にしてください。
           </p>
         </section>
 
@@ -291,7 +291,7 @@ export default function LpicCertPage() {
             正直なデメリットとして、LPIC/LinuCには<strong>5年の有効期限</strong>があり、期限内に再認定しないと失効します。またレベル1だけでは基礎範囲にとどまるため、運用・構築フェーズでの差別化には弱く、レベル2・3や実務経験との組み合わせが前提になります。受験料もレベル1で計33,000円（各16,500円×2試験）と、国家資格の7,500円と比べて高めです。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            一方の強みは<strong>需要の安定性と実務直結性</strong>です。Linuxはオンプレミスからクラウドまで、サーバー基盤の中核技術であり続けています。特にLinuCは仮想化・コンテナ（Docker/Kubernetes）・クラウド（AWS）の出題が充実しており、学習がそのままモダンなインフラ・クラウド職への橋渡しになります。費用と有効期限を許容できるなら、Linux／インフラ職を目指す人にとって投資対効果は高いといえます。クラウド方向に広げるなら<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS認定の活かし方</Link>も併せて検討してください。
+            一方の強みは<strong>需要の安定性と実務直結性</strong>です。Linuxはオンプレミスからクラウドまで、サーバー基盤の中核技術であり続けています。特にLinuCは仮想化・コンテナ（Docker/Kubernetes）・クラウド（AWS）の出題が充実しており、学習がそのままモダンなインフラ・クラウド職への橋渡しになります。費用と有効期限を許容できるなら、Linux／インフラ職を目指す人にとって投資対効果は高いといえます。クラウド方向に広げるなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定の活かし方</Link>も併せて検討してください。
           </p>
         </section>
 
@@ -309,7 +309,7 @@ export default function LpicCertPage() {
               30〜40代のキャリア戦略として現実的なのは、<strong>「LinuC＋クラウド」への接続</strong>です。オンプレのLinux運用経験を持つミドルが、LinuCの仮想化・コンテナ範囲を学び、そこからAWSなどのクラウド資格へ橋渡しすれば、「オンプレ実務 × クラウド知識」という掛け算で市場価値を上げられます。年代が上がるほど、単なる作業者ではなく『移行や設計を任せられる人』としての価値が問われます。LPIC/LinuCはその土台を客観的に示す一枚として機能します。資格取得後は、検証環境の構築手順や設定ファイルをポートフォリオ化し、実務で使える知識であることを可視化しましょう。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、未経験からの30代転職は<Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのITエンジニア転職</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、未経験からの30代転職は<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのITエンジニア転職</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -324,7 +324,7 @@ export default function LpicCertPage() {
               { n: "STEP 3", t: "模擬試験→受験→成果物化", d: "模擬問題で弱点を潰して受験。合格後はWebサーバー構築などの構成を手順書・GitHubで可視化する。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -333,7 +333,7 @@ export default function LpicCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            併取得の方向性：ネットワーク側を固めるなら<Link href="/cert/ccna/" className="text-blue-600 hover:underline">CCNA</Link>、クラウドに広げるなら<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS認定</Link>、IT全般の基礎を国家資格で補うなら<Link href="/cert/basic-info/" className="text-blue-600 hover:underline">基本情報技術者</Link>が定番です。職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も参考にしてください。
+            併取得の方向性：ネットワーク側を固めるなら<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>、クラウドに広げるなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>、IT全般の基礎を国家資格で補うなら<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>が定番です。職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も参考にしてください。
           </p>
         </section>
 
@@ -361,7 +361,7 @@ export default function LpicCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -381,7 +381,7 @@ export default function LpicCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

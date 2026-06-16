@@ -206,7 +206,7 @@ export default function AxisConsultingReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：エンジニアから「ITコンサル・PM・DX人材」へキャリアチェンジしたい30〜40代に有効</span>。一言でいえば「技術力を土台に、上流・経営に近い立場へ進みたい」人向けのエージェントです。
@@ -222,7 +222,7 @@ export default function AxisConsultingReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -274,7 +274,7 @@ export default function AxisConsultingReview() {
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             そもそもコンサルに進むべきか迷っている段階なら、まず当サイトの
-            <Link href="/career/engineer-to-consultant/" className="text-blue-700 underline">エンジニアからコンサルへのキャリア</Link>
+            <Link href="/career/engineer-to-consultant/" className="text-petrol-deep underline">エンジニアからコンサルへのキャリア</Link>
             の記事で、向き不向き・年収・働き方の現実を確認することをおすすめします。方向性が定まってからアクシスのような特化エージェントに相談する方が、ミスマッチを避けられます。
           </p>
         </section>
@@ -283,21 +283,21 @@ export default function AxisConsultingReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">アクシスコンサルティングの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. コンサル業界特化の選考対策</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 ケース面接・フェルミ推定・志望動機の整理など、コンサルファーム特有の選考に踏み込んだ対策を受けられるのが最大の価値です。一般的な総合エージェントでは得にくい、ファームごとの傾向に基づく支援が期待できます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. CxO層ネットワークと非公開求人</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 CxO層とのネットワークを背景に、非公開求人比率は約77%。表に出ないコンサル・ポストコンサルのハイクラスポジションを扱い、選択肢を広げられます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. キャリアチェンジへの手厚いサポート</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 コンサル未経験からの挑戦でも伴走してもらえるサポート体制が、口コミでも評価されています。エンジニアからのキャリアチェンジという不安の大きい転職と相性が良いといえます。運営は2023年東証グロース上場のアクシスコンサルティング株式会社です。
               </p>
             </div>
@@ -392,7 +392,7 @@ export default function AxisConsultingReview() {
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
               ポテンシャル採用の側面があるコンサル業界では、40代でのキャリアチェンジは30代より難度が上がる傾向があります。ただし、特定ドメインの深い知見やマネジメント経験を「DX推進・PMO・ITコンサル」として位置づけ直せれば道はあります。年収一段アップの手段として現実的かは、まず
-              <Link href="/career/engineer-to-consultant/" className="text-blue-700 underline">エンジニアからコンサルへのキャリア</Link>
+              <Link href="/career/engineer-to-consultant/" className="text-petrol-deep underline">エンジニアからコンサルへのキャリア</Link>
               で適性を確認したうえで判断してください。
             </p>
             <p>
@@ -438,7 +438,7 @@ export default function AxisConsultingReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -455,16 +455,16 @@ export default function AxisConsultingReview() {
             アクシスはコンサル特化が強み。コンサルに限らず上場・外資・管理職を広く狙うならJACリクルートメント、純開発を続けるならIT特化型が向きます。そもそもコンサルに進むべきか迷うなら、キャリアの方向性を整理してから特化エージェントを使うのが鉄則です。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/career/engineer-to-consultant/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/career/engineer-to-consultant/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               エンジニアからコンサルへのキャリア →
             </Link>
-            <Link href="/review/jac-recruitment/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/jac-recruitment/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               JACリクルートメントの評判 →
             </Link>
-            <Link href="/compare/highclass/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/highclass/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ハイクラス向けエージェント比較 →
             </Link>
-            <Link href="/knowledge/self-analysis/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/knowledge/self-analysis/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               自己分析でキャリアの軸を決める →
             </Link>
           </div>
@@ -492,7 +492,7 @@ export default function AxisConsultingReview() {
           <p className="text-blue-100 text-sm mb-4">
             コンサル・DXへのキャリアチェンジを決めたら、業界特化の選考対策を受けてみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料相談を予約する
           </a>
         </section>
@@ -502,7 +502,7 @@ export default function AxisConsultingReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

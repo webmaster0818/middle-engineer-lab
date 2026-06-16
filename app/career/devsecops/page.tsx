@@ -212,7 +212,7 @@ export default function DevsecopsPage() {
           <ul className="space-y-2">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline text-sm">
+                <a href={`#${item.id}`} className="text-petrol hover:underline text-sm">
                   {item.label}
                 </a>
               </li>
@@ -222,7 +222,7 @@ export default function DevsecopsPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：DevSecOps転職の現実性</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>DevOps・インフラ・セキュリティのいずれかの基盤があれば、DevSecOps転職は十分に現実的です。</strong>
               ただし「セキュリティを開発に組み込んだ実績」を示せるかが分かれ目になります。
@@ -243,7 +243,7 @@ export default function DevsecopsPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">必要スキル</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">DevOps出身</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">セキュリティ出身</th>
@@ -269,7 +269,7 @@ export default function DevsecopsPage() {
           <div className="space-y-4">
             {buildSteps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {i + 1}
                 </span>
                 <div>
@@ -290,13 +290,13 @@ export default function DevsecopsPage() {
             {transitionSteps.map((step, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-3 flex items-center gap-2">
-                  <span className="text-blue-600">STEP {i + 1}</span>
+                  <span className="text-petrol">STEP {i + 1}</span>
                   {step.phase}
                 </h3>
                 <ul className="space-y-2">
                   {step.items.map((it, j) => (
                     <li key={j} className="flex gap-2 text-sm text-slate-600">
-                      <span className="text-blue-500 shrink-0">✓</span>
+                      <span className="text-petrol shrink-0">✓</span>
                       <span>{it}</span>
                     </li>
                   ))}
@@ -391,9 +391,9 @@ export default function DevsecopsPage() {
             </p>
             <p>
               専門性の高いポジションは年収交渉の余地も大きいため、
-              <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>
+              <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
               や
-              <Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けエージェントの比較</Link>
+              <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けエージェントの比較</Link>
               を押さえてから臨むと、提示レンジの妥当性を判断しやすくなります。
             </p>
           </div>
@@ -421,7 +421,7 @@ export default function DevsecopsPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -434,7 +434,7 @@ export default function DevsecopsPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

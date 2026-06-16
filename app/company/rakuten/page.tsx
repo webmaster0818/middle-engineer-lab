@@ -103,7 +103,7 @@ export default function RakutenCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               楽天グループは<strong>英語公用語のグローバル環境で、EC・金融・通信など多彩なドメインに挑戦できる大規模テック企業</strong>です。事業が広いぶんポジションも多様で、難易度はポジションにより幅があります。Javaを中心とした実務経験が活きやすい環境です。
@@ -121,7 +121,7 @@ export default function RakutenCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -147,17 +147,17 @@ export default function RakutenCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">英語公用語のグローバル環境</h3>
-              <p className="text-sm text-blue-700">公式採用情報によると社内公用語は英語で、朝会（Asakai）や部の定例会議は進行・ドキュメントとも英語です。開発部門は約半数が外国籍と公表されており、多国籍チームでの開発が日常です。</p>
+              <p className="text-sm text-petrol-deep">公式採用情報によると社内公用語は英語で、朝会（Asakai）や部の定例会議は進行・ドキュメントとも英語です。開発部門は約半数が外国籍と公表されており、多国籍チームでの開発が日常です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">楽天エコシステムの技術的チャレンジ</h3>
-              <p className="text-sm text-blue-700">EC、フィンテック（カード・銀行・証券）、モバイル通信、トラベルなど70以上のサービスを展開。ドメインごとに異なる技術的チャレンジがあり、多様なキャリアパスがあります。</p>
+              <p className="text-sm text-petrol-deep">EC、フィンテック（カード・銀行・証券）、モバイル通信、トラベルなど70以上のサービスを展開。ドメインごとに異なる技術的チャレンジがあり、多様なキャリアパスがあります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">多言語・多様なポジション</h3>
-              <p className="text-sm text-blue-700">公式の募集ではJavaを中心に、Python・Ruby・Go・Kotlin・JavaScript/TypeScriptなど多様な言語のポジションが用意されています。バックエンド・フロントエンド・DevOps・UI/UXなど職種も幅広いのが特徴です。</p>
+              <p className="text-sm text-petrol-deep">公式の募集ではJavaを中心に、Python・Ruby・Go・Kotlin・JavaScript/TypeScriptなど多様な言語のポジションが用意されています。バックエンド・フロントエンド・DevOps・UI/UXなど職種も幅広いのが特徴です。</p>
             </div>
           </div>
         </section>
@@ -169,9 +169,9 @@ export default function RakutenCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>主要言語</strong>：Java（多くの職種で言及される主力）、Python、Ruby、Go、Kotlin、JavaScript / TypeScript など</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>職種</strong>：ソフトウェアエンジニア、アプリケーションエンジニア、UI/UXエンジニア、DevOpsエンジニア等の幅広い募集</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>ドメイン</strong>：EC、フィンテック、モバイル通信、広告など多角的事業ごとに固有の技術スタック</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>主要言語</strong>：Java（多くの職種で言及される主力）、Python、Ruby、Go、Kotlin、JavaScript / TypeScript など</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>職種</strong>：ソフトウェアエンジニア、アプリケーションエンジニア、UI/UXエンジニア、DevOpsエンジニア等の幅広い募集</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ドメイン</strong>：EC、フィンテック、モバイル通信、広告など多角的事業ごとに固有の技術スタック</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: 楽天グループ公式 採用ページの募集情報（公開情報）。具体的な構成は職種・プロダクトにより異なります。</p>
@@ -208,7 +208,7 @@ export default function RakutenCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式採用ページベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            中途採用は公式採用ページまたは転職エージェント経由での応募からスタートします。公開情報をもとにした一般的な流れは以下の通りです。最新の選考内容は<a href="https://corp.rakuten.co.jp/careers/midcareer/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式中途採用ページ</a>でご確認ください。
+            中途採用は公式採用ページまたは転職エージェント経由での応募からスタートします。公開情報をもとにした一般的な流れは以下の通りです。最新の選考内容は<a href="https://corp.rakuten.co.jp/careers/midcareer/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式中途採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>エントリー（公式採用ページ／エージェント経由）</li>
@@ -226,12 +226,12 @@ export default function RakutenCompanyPage() {
             公開情報や口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>応募ポジションに直結する技術スキルと実務経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>英語でのコミュニケーション（ポジションにより求められる程度は異なる）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>多国籍チームでの協働姿勢・カルチャーフィット</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>担当ドメイン（EC・金融・通信等）への理解・関心</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>応募ポジションに直結する技術スキルと実務経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>英語でのコミュニケーション（ポジションにより求められる程度は異なる）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>多国籍チームでの協働姿勢・カルチャーフィット</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>担当ドメイン（EC・金融・通信等）への理解・関心</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -244,7 +244,7 @@ export default function RakutenCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。楽天グループの全社員平均（820万円）はこれを上回りますが、これはグレード上位層を含む全社平均であり、入社時の提示はポジション・グレード次第です。30代・40代は個別求人で具体的なレンジを確認しましょう。
             </p>
             <p>
-              働き方は部署により差があるという口コミ傾向があるため、面談時にチームの開発スタイル・残業傾向・英語の使用頻度を確認しておくと安心です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて確認してください。
+              働き方は部署により差があるという口コミ傾向があるため、面談時にチームの開発スタイル・残業傾向・英語の使用頻度を確認しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて確認してください。
             </p>
           </div>
         </section>
@@ -257,13 +257,13 @@ export default function RakutenCompanyPage() {
               { name: "doda ITエンジニア", href: "/review/doda-it/", desc: "国内最大級の求人数。大手企業の求人を幅広く網羅。" },
               { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚い。サポート重視の転職者向け。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -284,7 +284,7 @@ export default function RakutenCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">楽天グループへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手IT企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -298,7 +298,7 @@ export default function RakutenCompanyPage() {
               { name: "技術面接の対策", href: "/knowledge/tech-interview/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

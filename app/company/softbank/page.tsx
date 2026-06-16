@@ -99,7 +99,7 @@ export default function SoftbankCompanyPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}><a href={`#${t.id}`} className="hover:underline">{t.label}</a></li>
             ))}
@@ -108,7 +108,7 @@ export default function SoftbankCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ソフトバンク転職の難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
             <p><strong>難易度は中〜高。AI・通信・法人DXを通年で幅広く募集しており、専門性と「スピード文化」への適性が合えば30代・40代にもチャンスが多い。</strong></p>
             <p>・<strong>向く人</strong>：AI/ML・データ基盤、5G/通信ネットワーク、クラウド、法人向けSI/DXの実務経験者、スピード重視・新規事業に挑戦したい人。</p>
             <p>・<strong>向きにくい人</strong>：腰を据えた長期開発のみを好む人、評価制度・業務量の変動を許容しにくい人。</p>
@@ -136,17 +136,17 @@ export default function SoftbankCompanyPage() {
         <section id="features" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. AI領域の募集職種が具体的に公開されている</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">公式キャリア採用ページでは、AI/MLエンジニア、AIプラットフォーム構築エンジニア、AI-RAN関連エンジニアなど、AI・データ・研究開発の募集職種が明確に公開されています。非構造化データ処理、エッジAI、AIプラットフォーム構築など、職種ごとの担当領域が具体的に示されているのが特徴です（出典：ソフトバンク 公式キャリア採用ページ）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">公式キャリア採用ページでは、AI/MLエンジニア、AIプラットフォーム構築エンジニア、AI-RAN関連エンジニアなど、AI・データ・研究開発の募集職種が明確に公開されています。非構造化データ処理、エッジAI、AIプラットフォーム構築など、職種ごとの担当領域が具体的に示されているのが特徴です（出典：ソフトバンク 公式キャリア採用ページ）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 通信×AIの融合と法人DXの成長</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">5G/Beyond 5Gの通信基盤とデータを武器に、AI活用のソリューションや法人DXを展開しています。通信インフラとAIの両方に携われる点はソフトバンクならではの強みで、法人事業の成長に伴いクラウド・データ・セキュリティ系のエンジニアを積極採用しています（出典：ソフトバンク 公式情報）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">5G/Beyond 5Gの通信基盤とデータを武器に、AI活用のソリューションや法人DXを展開しています。通信インフラとAIの両方に携われる点はソフトバンクならではの強みで、法人事業の成長に伴いクラウド・データ・セキュリティ系のエンジニアを積極採用しています（出典：ソフトバンク 公式情報）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. スピードと挑戦の文化／新規事業</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">口コミでは「挑戦とスピード」がカルチャーとして挙げられ、通信に加えAI・ロボティクス・新規事業に若いうちから関われる成長環境が評価される一方、評価制度や業務量に課題を感じる声もあり、部署・個人の適性で評価が分かれます（出典：OpenWork・転職会議の傾向要約）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">口コミでは「挑戦とスピード」がカルチャーとして挙げられ、通信に加えAI・ロボティクス・新規事業に若いうちから関われる成長環境が評価される一方、評価制度や業務量に課題を感じる声もあり、部署・個人の適性で評価が分かれます（出典：OpenWork・転職会議の傾向要約）。</p>
             </div>
           </div>
         </section>
@@ -158,11 +158,11 @@ export default function SoftbankCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AI／MLエンジニア</strong>：自然言語・画像など非構造化データ処理システムの企画・設計・開発・導入、エッジAIデバイスの画像解析基盤開発</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AIプラットフォーム構築エンジニア</strong>：AI事業横断のAIプラットフォームの設計・構築・運用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AIエンジニア【AI-RAN】</strong>：次世代インフラ基盤上のAIアプリの企画・開発・技術検証</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>通信ネットワーク</strong>：5G/Beyond 5G、ネットワーク基盤領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド／法人DX</strong>：法人向けソリューションのインフラ・データ・セキュリティ</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI／MLエンジニア</strong>：自然言語・画像など非構造化データ処理システムの企画・設計・開発・導入、エッジAIデバイスの画像解析基盤開発</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AIプラットフォーム構築エンジニア</strong>：AI事業横断のAIプラットフォームの設計・構築・運用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AIエンジニア【AI-RAN】</strong>：次世代インフラ基盤上のAIアプリの企画・開発・技術検証</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>通信ネットワーク</strong>：5G/Beyond 5G、ネットワーク基盤領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド／法人DX</strong>：法人向けソリューションのインフラ・データ・セキュリティ</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-3">※要件例として、AI職ではPython 3年以上の実装経験や機械学習エンジニアとしての実績、海外企業とのコミュニケーション力が挙げられる募集があります（出典：ソフトバンク 公式キャリア採用ページ）。</p>
@@ -177,7 +177,7 @@ export default function SoftbankCompanyPage() {
             </p>
           </div>
           <p className="text-slate-700 text-sm leading-relaxed">
-            ソフトバンクはエンジニア職の<strong>等級別年収を公式に公表していません</strong>。当ガイドでは出典の取れない等級別年収表は掲載しません。口コミでは賞与・インセンティブが業績連動で上振れする傾向との声がありますが、制度の詳細は公式公表されていないため、提示条件は求人票か転職エージェント経由で確認するのが確実です。交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉ガイド</Link>、市場価値の考え方は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の見極め方</Link>を参照してください。
+            ソフトバンクはエンジニア職の<strong>等級別年収を公式に公表していません</strong>。当ガイドでは出典の取れない等級別年収表は掲載しません。口コミでは賞与・インセンティブが業績連動で上振れする傾向との声がありますが、制度の詳細は公式公表されていないため、提示条件は求人票か転職エージェント経由で確認するのが確実です。交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉ガイド</Link>、市場価値の考え方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の見極め方</Link>を参照してください。
           </p>
         </section>
 
@@ -192,7 +192,7 @@ export default function SoftbankCompanyPage() {
               ["内定・条件提示", "オファー提示を経て決定。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                 <div><p className="font-medium text-slate-800 text-sm">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
               </li>
             ))}
@@ -206,20 +206,20 @@ export default function SoftbankCompanyPage() {
             公開情報・口コミの傾向として、次の観点が重視されると言われています（実在しない質問リストの断定は避け、傾向のみ記載）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>応募職種（AI/ML・通信・法人DX等）の<strong>専門要件との合致</strong></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>業務の<strong>規模・役割・成果</strong>を具体的に説明できるか</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>「挑戦とスピード」の文化への適性・新規事業への意欲</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>大規模システムの設計・運用、または事業を作る視点</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>応募職種（AI/ML・通信・法人DX等）の<strong>専門要件との合致</strong></li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>業務の<strong>規模・役割・成果</strong>を具体的に説明できるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>「挑戦とスピード」の文化への適性・新規事業への意欲</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>大規模システムの設計・運用、または事業を作る視点</li>
           </ul>
-          <p className="text-xs text-slate-400 mt-2">出典：ソフトバンク 公式採用情報＋口コミの傾向要約。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の準備</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-2">出典：ソフトバンク 公式採用情報＋口コミの傾向要約。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>を参照。</p>
         </section>
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たソフトバンク転職</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>ソフトバンクは通信・AI・法人DXを通年で幅広く募集しており、<strong>30代・40代の即戦力エンジニア</strong>が応募しやすい構造です。AI/ML・大規模基盤・法人SI/DXなど特定領域の深い経験は、ミドル層の強みになります。スピード文化に適応でき、新規事業に挑戦したい人にはフィットしやすい環境です。</p>
-            <p>SIer・通信業界出身で大規模システムや法人案件の経験があるエンジニアは、その知見を活かしやすい場面が多くあります。Web/モダン開発への移行を考える場合は<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWeb系への転職</Link>の整理も役立ちます。</p>
-            <p>一方、口コミでは部署・個人の適性で評価が大きく分かれ、評価制度や業務量への不満も見られます。30代・40代は配属予定部署の業務内容・評価制度・働き方を面接段階で具体的に確認することが、転職後の満足度を左右します。年代別の留意点は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>も参考にしてください。</p>
+            <p>SIer・通信業界出身で大規模システムや法人案件の経験があるエンジニアは、その知見を活かしやすい場面が多くあります。Web/モダン開発への移行を考える場合は<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>の整理も役立ちます。</p>
+            <p>一方、口コミでは部署・個人の適性で評価が大きく分かれ、評価制度や業務量への不満も見られます。30代・40代は配属予定部署の業務内容・評価制度・働き方を面接段階で具体的に確認することが、転職後の満足度を左右します。年代別の留意点は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -231,13 +231,13 @@ export default function SoftbankCompanyPage() {
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。高年収求人比率が高く、AI・クラウドなど先端領域のエンジニア求人に強い。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。AI・法人DXの上位ポジションのスカウトに出会いやすい。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500 leading-relaxed">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数社の併用が一般的です。使い分けは<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェント複数利用のコツ</Link>を参照してください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数社の併用が一般的です。使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェント複数利用のコツ</Link>を参照してください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -258,7 +258,7 @@ export default function SoftbankCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ソフトバンクへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手通信・AI・法人DX領域への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/doda-it/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/doda-it/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -272,7 +272,7 @@ export default function SoftbankCompanyPage() {
               { name: "技術面接の準備", href: "/knowledge/tech-interview/" },
               { name: "40代エンジニアの転職", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

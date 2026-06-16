@@ -105,7 +105,7 @@ export default function MarketValuePage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -125,7 +125,7 @@ export default function MarketValuePage() {
               { num: "4", title: "市場の需給", desc: "その時点でどの技術・役割の求人が多いか。需要が多いほど価値は上がる。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -190,7 +190,7 @@ export default function MarketValuePage() {
             </p>
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            年代別の詳しい相場は<Link href="/knowledge/salary-30s/" className="text-blue-600 underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-blue-600 underline">40代の年収相場</Link>でも解説しています。
+            年代別の詳しい相場は<Link href="/knowledge/salary-30s/" className="text-petrol underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol underline">40代の年収相場</Link>でも解説しています。
           </p>
         </section>
 
@@ -206,7 +206,7 @@ export default function MarketValuePage() {
               { num: "4", title: "年収診断ツールを使う", desc: "各社の年収診断ツールで概算を把握する。最初の目安として有効だが、あくまで参考値。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -220,25 +220,25 @@ export default function MarketValuePage() {
         <section id="raise" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">4. 市場価値を高める5つの戦略</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. T字型スキルを目指す</h3>
-              <p className="text-sm text-blue-700">1つの深い専門性＋幅広い周辺知識。バックエンドが専門でも、インフラやフロントの基礎を理解していると価値が上がります。</p>
+              <p className="text-sm text-petrol-deep">1つの深い専門性＋幅広い周辺知識。バックエンドが専門でも、インフラやフロントの基礎を理解していると価値が上がります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. ビジネスインパクトを語れるようにする</h3>
-              <p className="text-sm text-blue-700">技術だけでなく『その技術でどれだけの事業成果を生んだか』を数値で語れるエンジニアは高く評価されます。</p>
+              <p className="text-sm text-petrol-deep">技術だけでなく『その技術でどれだけの事業成果を生んだか』を数値で語れるエンジニアは高く評価されます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. アウトプットを増やす</h3>
-              <p className="text-sm text-blue-700">技術ブログ・OSS・登壇は市場価値を可視化します。スカウトの数と質が変わります。関連: <Link href="/knowledge/portfolio/" className="text-blue-700 underline">ポートフォリオの見せ方</Link>。</p>
+              <p className="text-sm text-petrol-deep">技術ブログ・OSS・登壇は市場価値を可視化します。スカウトの数と質が変わります。関連: <Link href="/knowledge/portfolio/" className="text-petrol-deep underline">ポートフォリオの見せ方</Link>。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. リード・マネジメント経験を積む</h3>
-              <p className="text-sm text-blue-700">技術力に加えてチームを率いた経験があると、選択肢が広がります。関連: <Link href="/knowledge/management/" className="text-blue-700 underline">マネジメントキャリア</Link>。</p>
+              <p className="text-sm text-petrol-deep">技術力に加えてチームを率いた経験があると、選択肢が広がります。関連: <Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリア</Link>。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">5. 需要の高い技術を取り入れる</h3>
-              <p className="text-sm text-blue-700">クラウド・Kubernetes・Go/Rust・AI/ML関連は需要が高い領域です。自分の軸を保ちつつ取り入れましょう。関連: <Link href="/knowledge/continuous-learning/" className="text-blue-700 underline">継続的な学習</Link>。</p>
+              <p className="text-sm text-petrol-deep">クラウド・Kubernetes・Go/Rust・AI/ML関連は需要が高い領域です。自分の軸を保ちつつ取り入れましょう。関連: <Link href="/knowledge/continuous-learning/" className="text-petrol-deep underline">継続的な学習</Link>。</p>
             </div>
           </div>
         </section>
@@ -258,7 +258,7 @@ export default function MarketValuePage() {
                 "評価制度が不透明で、頑張りが年収に反映されない",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">□</span>{c}
+                  <span className="text-petrol font-bold shrink-0">□</span>{c}
                 </li>
               ))}
             </ul>
@@ -269,13 +269,13 @@ export default function MarketValuePage() {
         <section id="age" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">6. 30代・40代の市場価値の考え方</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：伸びしろと専門性の両方が評価される</h3>
-              <p className="text-sm text-blue-700">レバテック公表値では30代の正社員SE平均は約499万円、年収1,000万円以上は8.01%。専門性を深めつつリード経験を積むと、上位レンジに入りやすくなります。関連: <Link href="/age/30s/" className="text-blue-700 underline">30代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">レバテック公表値では30代の正社員SE平均は約499万円、年収1,000万円以上は8.01%。専門性を深めつつリード経験を積むと、上位レンジに入りやすくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：再現性とマネジメントで上位レンジへ</h3>
-              <p className="text-sm text-blue-700">40代の正社員SE平均は約618万円、年収1,000万円以上は12.67%と30代より高い水準です（レバテック公表・2025年）。成果の再現性とマネジメント／高度な専門性が、上位レンジへの鍵になります。関連: <Link href="/age/40s/" className="text-blue-700 underline">40代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">40代の正社員SE平均は約618万円、年収1,000万円以上は12.67%と30代より高い水準です（レバテック公表・2025年）。成果の再現性とマネジメント／高度な専門性が、上位レンジへの鍵になります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>。</p>
             </div>
           </div>
         </section>
@@ -300,7 +300,7 @@ export default function MarketValuePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">無料で市場価値診断を受けよう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントに登録すれば、あなたのスキルセットに基づいた市場価値と具体的な求人の年収レンジを教えてもらえます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -316,7 +316,7 @@ export default function MarketValuePage() {
               { name: "キャリアプラン設計", href: "/knowledge/career-plan/" },
               { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

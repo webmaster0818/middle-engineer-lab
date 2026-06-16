@@ -112,7 +112,7 @@ export default function CyberagentCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               サイバーエージェントは<strong>Web系メガベンチャーの中でも人気・応募が集まりやすく、実務経験と技術アウトプットが評価される実力主義の環境</strong>です。難易度は相応に高めですが、年齢よりも「任せられるロール」と直近のアウトプットが見られます。
@@ -130,7 +130,7 @@ export default function CyberagentCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -156,17 +156,17 @@ export default function CyberagentCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">実力主義・若手にも裁量を与える文化</h3>
-              <p className="text-sm text-blue-700">「21世紀を代表する会社を創る」をビジョンに掲げ、成果・スキル・役割の大きさに応じて評価される実力主義の文化があります。OpenWork等の口コミでも、早期にリード・マネジメントへ抜擢される事例が語られる傾向です（2026年6月時点の口コミ傾向）。</p>
+              <p className="text-sm text-petrol-deep">「21世紀を代表する会社を創る」をビジョンに掲げ、成果・スキル・役割の大きさに応じて評価される実力主義の文化があります。OpenWork等の口コミでも、早期にリード・マネジメントへ抜擢される事例が語られる傾向です（2026年6月時点の口コミ傾向）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">多彩な事業ドメインとキャリアの幅</h3>
-              <p className="text-sm text-blue-700">ABEMA（動画配信）、インターネット広告、ゲーム、AI領域など事業ドメインが広く、エンジニアのキャリアパスが多様です。グループ内での異動・新規事業立ち上げの機会もあります。</p>
+              <p className="text-sm text-petrol-deep">ABEMA（動画配信）、インターネット広告、ゲーム、AI領域など事業ドメインが広く、エンジニアのキャリアパスが多様です。グループ内での異動・新規事業立ち上げの機会もあります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">技術発信・OSS文化</h3>
-              <p className="text-sm text-blue-700">公式技術ブログ「CyberAgent Developers Blog」や技術カンファレンスでの発信が活発で、技術ブランディングに注力しています。技術的アウトプット（ブログ・登壇・OSS）が評価につながりやすい環境です。</p>
+              <p className="text-sm text-petrol-deep">公式技術ブログ「CyberAgent Developers Blog」や技術カンファレンスでの発信が活発で、技術ブランディングに注力しています。技術的アウトプット（ブログ・登壇・OSS）が評価につながりやすい環境です。</p>
             </div>
           </div>
         </section>
@@ -178,10 +178,10 @@ export default function CyberagentCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>バックエンド</strong>：ABEMAのマイクロサービスはほぼGoで実装。レコメンドはPython中心からGoへ移行した事例が公開されています。</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>インフラ</strong>：Google Kubernetes Engine（GKE）/ Kubernetes でマイクロサービスを運用。自社基盤（CyCloud）はKubernetes・OpenStack等のOSSで構成。</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>フロントエンド</strong>：AmebaのフロントエンドではReact・TypeScriptを採用した事例が公開されています。</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AI/生成AI</strong>：AI Coding Agentを開発プロセスに取り込む取り組みや、Kubernetes・ArgoCD・Redis・PostgreSQLを用いたクラウドネイティブ構成の事例が公開されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：ABEMAのマイクロサービスはほぼGoで実装。レコメンドはPython中心からGoへ移行した事例が公開されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：Google Kubernetes Engine（GKE）/ Kubernetes でマイクロサービスを運用。自社基盤（CyCloud）はKubernetes・OpenStack等のOSSで構成。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：AmebaのフロントエンドではReact・TypeScriptを採用した事例が公開されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI/生成AI</strong>：AI Coding Agentを開発プロセスに取り込む取り組みや、Kubernetes・ArgoCD・Redis・PostgreSQLを用いたクラウドネイティブ構成の事例が公開されています。</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: CyberAgent Developers Blog（公開記事）。記載は公開事例に基づく要約であり、全社・全プロダクトの構成を示すものではありません。</p>
@@ -219,7 +219,7 @@ export default function CyberagentCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式採用ページベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            中途採用の選考は、公式採用ページまたは転職エージェント経由での応募からスタートします。公開情報をもとにした一般的な流れは以下の通りです。最新の選考内容は<a href="https://www.cyberagent.co.jp/careers/midcareer/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式中途採用ページ</a>でご確認ください。
+            中途採用の選考は、公式採用ページまたは転職エージェント経由での応募からスタートします。公開情報をもとにした一般的な流れは以下の通りです。最新の選考内容は<a href="https://www.cyberagent.co.jp/careers/midcareer/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式中途採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>エントリー（公式採用ページ／エージェント経由）</li>
@@ -237,12 +237,12 @@ export default function CyberagentCompanyPage() {
             公開情報や口コミプラットフォームの傾向から、面接で確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>実務での開発経験と、担ってきたロール・裁量の具体性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術選定や設計上の意思決定を自分の言葉で説明できるか</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>事業・プロダクトへの当事者意識とカルチャーフィット</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術的アウトプット（ブログ・登壇・OSS・個人開発）の有無</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>実務での開発経験と、担ってきたロール・裁量の具体性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術選定や設計上の意思決定を自分の言葉で説明できるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>事業・プロダクトへの当事者意識とカルチャーフィット</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術的アウトプット（ブログ・登壇・OSS・個人開発）の有無</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -255,7 +255,7 @@ export default function CyberagentCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。サイバーエージェントの全社員平均（913.8万円）はこれを大きく上回りますが、これはグレード上位層・高成果層を含む全社平均であり、入社時の提示はポジション・グレード次第です。30代・40代は「今のグレードでいくらか」を個別求人で確認するのが現実的です。
             </p>
             <p>
-              また、配属部署によって働き方・残業に差があるという口コミ傾向があるため、面談時にチームの開発スタイルやオンコール体制を確認しておくと安心です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて確認してください。
+              また、配属部署によって働き方・残業に差があるという口コミ傾向があるため、面談時にチームの開発スタイルやオンコール体制を確認しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて確認してください。
             </p>
           </div>
         </section>
@@ -268,13 +268,13 @@ export default function CyberagentCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが速く実務経験者への提案数が多い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。直接応募・カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -295,7 +295,7 @@ export default function CyberagentCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">サイバーエージェントへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">メガベンチャーへの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -309,7 +309,7 @@ export default function CyberagentCompanyPage() {
               { name: "技術面接の対策", href: "/knowledge/tech-interview/" },
               { name: "30代エンジニアの転職事情", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

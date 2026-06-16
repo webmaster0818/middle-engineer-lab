@@ -124,7 +124,7 @@ export default function QaSkillPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -135,7 +135,7 @@ export default function QaSkillPage() {
         {/* 違い（冒頭差別化） */}
         <section id="diff" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">まず：QAエンジニアとテストエンジニアの違い</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               「QAエンジニア」と「テストエンジニア」は混同されがちですが、市場価値の設計上、最初に押さえておきたい違いがあります。
             </p>
@@ -144,7 +144,7 @@ export default function QaSkillPage() {
               <li><strong>テストエンジニア</strong>＝定義されたテストケースを<strong>実行・記録</strong>するのが中心。テスト実行の品質を担保する。</li>
             </ul>
             <p className="text-slate-700 leading-relaxed mt-3 text-sm">
-              実務では境界が曖昧で、テスト実行から入りQA設計へ広げるキャリアが一般的です。本記事はQAを軸にしつつ、テスト実行からのステップアップにも触れます。なお、ここからさらに「開発エンジニアへ抜ける」進路に関心がある方は、<Link href="/career/tester-to-developer/" className="text-blue-600 hover:underline">テスターから開発者への転向ガイド</Link>が直接の続きになります。
+              実務では境界が曖昧で、テスト実行から入りQA設計へ広げるキャリアが一般的です。本記事はQAを軸にしつつ、テスト実行からのステップアップにも触れます。なお、ここからさらに「開発エンジニアへ抜ける」進路に関心がある方は、<Link href="/career/tester-to-developer/" className="text-petrol hover:underline">テスターから開発者への転向ガイド</Link>が直接の続きになります。
             </p>
           </div>
         </section>
@@ -152,7 +152,7 @@ export default function QaSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：QA転職市場の攻め方</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               QAエンジニアの転職は、<strong>「手動テスト実行」から「品質設計＋自動化」へ役割を上げて見せられるか</strong>で年収が大きく変わります。攻め方は次の3点です。
             </p>
@@ -215,7 +215,7 @@ export default function QaSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            自動化で使う言語は<Link href="/skill/python/" className="text-blue-600 hover:underline">Python転職ガイド</Link>や<Link href="/skill/typescript/" className="text-blue-600 hover:underline">TypeScript転職ガイド</Link>も合わせて参考になります。
+            自動化で使う言語は<Link href="/skill/python/" className="text-petrol hover:underline">Python転職ガイド</Link>や<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript転職ガイド</Link>も合わせて参考になります。
           </p>
         </section>
 
@@ -255,23 +255,23 @@ export default function QaSkillPage() {
         <section id="path" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスと開発職への転向</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">QAマネージャー / テストマネージャー路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 品質保証プロセス全体を設計し、チームと品質指標を管理する方向。テスト戦略・プロセス改善・マネジメント経験が武器になり、ミドル層の強みを活かしやすい進路です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">SDET / 自動化エンジニア路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 テスト自動化基盤を開発・保守する開発寄りのQA。コードを書く比重が高く、高年収帯に届きやすい一方、継続的な技術学習が前提になります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">開発エンジニアへの転向路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 自動化でコードを書くうちに開発力が育ち、品質視点を持った開発者として転向する道。
-                <Link href="/career/tester-to-developer/" className="text-blue-700 underline ml-1">テスターから開発者への転向ガイド</Link>で具体ステップを解説しています。
+                <Link href="/career/tester-to-developer/" className="text-petrol-deep underline ml-1">テスターから開発者への転向ガイド</Link>で具体ステップを解説しています。
               </p>
             </div>
           </div>
@@ -287,21 +287,21 @@ export default function QaSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化。QA・SDET・自動化求人を技術に明るいアドバイザー経由で探せます。高年収求人比率が高いとされます。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
               <p className="text-sm text-slate-600 mb-2">国内最大級の求人数。手動テストから自動化、QAマネージャーまで幅広く比較したい場合の併用先です。</p>
-              <Link href="/review/recruit-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
               <p className="text-sm text-slate-600 mb-2">ハイクラス（年収750万円以上が一つの目安）・スカウト型。QAマネージャー/SDET層を狙う場合に有効です。</p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数利用のコツ</Link>、選び方の軸は<Link href="/knowledge/how-to-choose/" className="text-blue-600 hover:underline">転職エージェントの選び方</Link>を参考にしてください。
+            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>、選び方の軸は<Link href="/knowledge/how-to-choose/" className="text-petrol hover:underline">転職エージェントの選び方</Link>を参考にしてください。
           </p>
         </section>
 
@@ -318,7 +318,7 @@ export default function QaSkillPage() {
               { n: "STEP 3", t: "上流 or 開発へ抜ける", d: "テスト戦略・プロセス改善でQAマネージャーへ、あるいは開発知識を伸ばして開発職・SDETへ。早期に方向を決める。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -327,7 +327,7 @@ export default function QaSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            QAは仕様に沿った検証が中心のため、納期前の繁忙はあるものの計画的に働きやすいとされる職種です。ただし企業・プロジェクトにより差が大きいため、応募時に体制を確認しましょう。30代未経験での参入は<Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのITエンジニア転職</Link>も参考になります。
+            QAは仕様に沿った検証が中心のため、納期前の繁忙はあるものの計画的に働きやすいとされる職種です。ただし企業・プロジェクトにより差が大きいため、応募時に体制を確認しましょう。30代未経験での参入は<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのITエンジニア転職</Link>も参考になります。
           </p>
         </section>
 
@@ -342,7 +342,7 @@ export default function QaSkillPage() {
               一方で注意点として、手動テスト実行のみの経験は若手と競合しやすく、年収も伸びにくい傾向があります。30代・40代でQAに参入・継続するなら、<strong>自動化スキルかマネジメント</strong>のいずれかの軸を必ず持っておくことが、市場価値を保つ保険になります。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -371,7 +371,7 @@ export default function QaSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -391,7 +391,7 @@ export default function QaSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -135,7 +135,7 @@ export default function SystemDesignPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：型に沿って進め、判断の根拠を語る</h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
               <li>・<strong>要件確認 → 概算 → ハイレベル設計 → 詳細設計 → ボトルネック対策</strong>の型に沿えば、初見テーマでも進められる。</li>
@@ -151,7 +151,7 @@ export default function SystemDesignPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2">
             {sections.map((s) => (
               <li key={s.id}>
-                <a href={`#${s.id}`} className="text-sm text-blue-600 hover:underline">{s.label}</a>
+                <a href={`#${s.id}`} className="text-sm text-petrol hover:underline">{s.label}</a>
               </li>
             ))}
           </ul>
@@ -166,7 +166,7 @@ export default function SystemDesignPage() {
           <div className="space-y-4">
             {framework.map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -207,9 +207,9 @@ export default function SystemDesignPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">評価される5つのポイント</h2>
           <div className="space-y-4">
             {evaluation.map((e, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {e.t}</h3>
-                <p className="text-sm text-blue-700">{e.d}</p>
+                <p className="text-sm text-petrol-deep">{e.d}</p>
               </div>
             ))}
           </div>
@@ -224,7 +224,7 @@ export default function SystemDesignPage() {
           <div className="space-y-3">
             {exampleSteps.map((s, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
-                <span className="inline-block bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full mb-2">{s.label}</span>
+                <span className="inline-block bg-petrol-soft text-blue-800 text-xs font-bold px-3 py-1 rounded-full mb-2">{s.label}</span>
                 <p className="text-sm text-slate-600">{s.text}</p>
               </div>
             ))}
@@ -269,7 +269,7 @@ export default function SystemDesignPage() {
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントなら、企業ごとの面接出題傾向や対策のポイントを事前に教えてもらえます。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -285,7 +285,7 @@ export default function SystemDesignPage() {
               { name: "自己分析の進め方", href: "/knowledge/self-analysis/" },
               { name: "40代エンジニアの転職ガイド", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

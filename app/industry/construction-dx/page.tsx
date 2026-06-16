@@ -142,7 +142,7 @@ export default function ConstructionDxPage() {
           <ul className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -153,7 +153,7 @@ export default function ConstructionDxPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：建設DX転職は現実的か</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
               <span className="font-bold text-blue-800">結論：Web系エンジニアにとって、建設DX転職は参入しやすい領域のひとつです。</span>
               施工管理SaaSなどでは一般的なWeb・モバイル・クラウドの技術が中心で、建設ドメイン知識を学べば差別化にもつながります。
@@ -241,7 +241,7 @@ export default function ConstructionDxPage() {
                 {skills.map(([s, j, d], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 border-t border-slate-200 align-top">{s}</th>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-t border-slate-200 align-top whitespace-nowrap">{j}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-t border-slate-200 align-top whitespace-nowrap">{j}</td>
                     <td className="px-4 py-3 text-slate-600 border-t border-slate-200">{d}</td>
                   </tr>
                 ))}
@@ -250,9 +250,9 @@ export default function ConstructionDxPage() {
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
             ポイントは「Web開発の地力を主役に、ドメイン知識や3D/IoTなどの専門性を補う」という見せ方です。職務経歴書では、開発したプロダクトのユーザー規模や、業務効率化に貢献した実績を具体化すると説得力が増します。関連スキルは
-            <Link href="/skill/frontend/" className="text-blue-600 hover:underline">フロントエンド</Link>・
-            <Link href="/skill/react/" className="text-blue-600 hover:underline">React</Link>・
-            <Link href="/skill/data-analyst/" className="text-blue-600 hover:underline">データ分析</Link>
+            <Link href="/skill/frontend/" className="text-petrol hover:underline">フロントエンド</Link>・
+            <Link href="/skill/react/" className="text-petrol hover:underline">React</Link>・
+            <Link href="/skill/data-analyst/" className="text-petrol hover:underline">データ分析</Link>
             のページも参考にしてください。
           </p>
         </section>
@@ -310,7 +310,7 @@ export default function ConstructionDxPage() {
                 ].map(([k, v, src], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 border-t border-slate-200 align-top">{k}</th>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-t border-slate-200 align-top whitespace-nowrap">{v}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-t border-slate-200 align-top whitespace-nowrap">{v}</td>
                     <td className="px-4 py-3 text-slate-500 border-t border-slate-200 text-xs align-top">{src}</td>
                   </tr>
                 ))}
@@ -319,7 +319,7 @@ export default function ConstructionDxPage() {
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
             年収を上げる現実的な手段は、(1) ドメイン知識や3D/IoTで希少性を高める、(2) Web開発の地力で応募できる幅を広げる、(3) 複数エージェントで提示額を比較し交渉材料にする、の3点です。詳しくは
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">エンジニア転職で年収は上がるか</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">エンジニア転職で年収は上がるか</Link>
             も参考にしてください。
           </p>
         </section>
@@ -335,13 +335,13 @@ export default function ConstructionDxPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{name}</h3>
                 <p className="text-sm text-slate-600 mb-2">{desc}</p>
-                <p className="text-xs text-blue-700">向いている人：{fit}</p>
+                <p className="text-xs text-petrol-deep">向いている人：{fit}</p>
               </div>
             ))}
           </div>
           <p className="text-slate-500 leading-relaxed text-xs mt-4">
             個社の特徴は
-            <Link href="/company/andpad/" className="text-blue-600 hover:underline">ANDPAD</Link>
+            <Link href="/company/andpad/" className="text-petrol hover:underline">ANDPAD</Link>
             の企業ページも参考にしてください。建機・スマートコンストラクション領域ではコマツ（小松製作所）なども取り組みの例として知られています。
           </p>
         </section>
@@ -357,7 +357,7 @@ export default function ConstructionDxPage() {
               { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録。求人と担当者を比較し、市場価値を客観的に把握する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.step}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -371,27 +371,27 @@ export default function ConstructionDxPage() {
         <section id="midlife" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術力＋ドメインの掛け合わせ</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Web開発の実装力を磨きつつ、建設ドメインや3D/IoTに踏み込めると、純粋なWebエンジニアにも代えがたい価値になります。技術への投資効果が高い年代です。
-                <Link href="/age/30s/" className="text-blue-700 underline">30代の転職事情</Link>
+                <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職事情</Link>
                 も参考にしてください。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：マネジメントと業務理解を軸に</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 大規模システムのマネジメントや、業務・現場を深く理解したうえでの要件定義は、ゼネコンのDXや建設テックで評価されやすい強みです。組み合わせの価値を打ち出すのが現実的です。
-                <Link href="/age/40s/" className="text-blue-700 underline">40代の転職事情</Link>
+                <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職事情</Link>
                 も確認しておきましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新技術だけを競うのではなく、建設×ITという希少性で差別化するのがミドル層の定石です。
-                <Link href="/knowledge/market-value/" className="text-blue-700 underline">自分の市場価値の測り方</Link>
+                <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
             </div>
@@ -410,7 +410,7 @@ export default function ConstructionDxPage() {
               { name: "ビズリーチ", desc: "ハイクラス・スカウト型。年収750万円以上の求人や管理職ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
               { name: "リクルートエージェントIT", desc: "国内最大級の求人数。建設テックからゼネコンのDXまで幅広く比較したい場合に有効。", href: "/review/recruit-it/" },
             ].map((a, i) => (
-              <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
                 <p className="text-sm text-slate-600">{a.desc}</p>
               </Link>
@@ -440,7 +440,7 @@ export default function ConstructionDxPage() {
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -449,7 +449,7 @@ export default function ConstructionDxPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

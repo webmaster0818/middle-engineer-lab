@@ -185,7 +185,7 @@ export default function Salary40sPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -196,7 +196,7 @@ export default function Salary40sPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：40代の年収相場と戦略</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               レバテックが公表する2025年の年代別平均年収では、正社員エンジニアの<strong>40代は約618万円</strong>。年収1,000万円以上の割合は<strong>40代で12.67%</strong>とされ、30代の8.01%を上回ります。公的統計では、厚生労働省 job tagの「システムエンジニア（受託開発）」が平均年収<strong>578.5万円・平均年齢37.1歳</strong>です。
             </p>
@@ -223,9 +223,9 @@ export default function Salary40sPage() {
               </thead>
               <tbody>
                 {salaryData.map((row, i) => (
-                  <tr key={i} className={row.age === "40代" ? "bg-blue-50" : "hover:bg-slate-50"}>
+                  <tr key={i} className={row.age === "40代" ? "bg-petrol-soft" : "hover:bg-slate-50"}>
                     <td className="px-4 py-3 border border-slate-200 font-medium">{row.age}</td>
-                    <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">{row.salary}</td>
+                    <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">{row.salary}</td>
                     <td className="px-4 py-3 border border-slate-200 text-slate-600">{row.note}</td>
                   </tr>
                 ))}
@@ -259,9 +259,9 @@ export default function Salary40sPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             軸の選び方に迷う場合は、
-            <Link href="/knowledge/career-plan/" className="text-blue-600 hover:underline">キャリアプランの立て方</Link>
+            <Link href="/knowledge/career-plan/" className="text-petrol hover:underline">キャリアプランの立て方</Link>
             や
-            <Link href="/knowledge/management/" className="text-blue-600 hover:underline">マネジメント職への移行</Link>
+            <Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメント職への移行</Link>
             も参考にしてください。
           </p>
         </section>
@@ -272,7 +272,7 @@ export default function Salary40sPage() {
           <div className="space-y-4">
             {strategies.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -308,7 +308,7 @@ export default function Salary40sPage() {
             <ul className="space-y-3">
               {checklist.map((item, i) => (
                 <li key={i} className="flex gap-3 text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>
+                  <span className="text-petrol font-bold shrink-0">✓</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -320,21 +320,21 @@ export default function Salary40sPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">40代という年代の独自事情</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年収の「個人差」が最大化する年代</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は平均約618万円でありながら、年収1,000万円以上が12.67%いる一方で、年収が伸び悩む層もいます。30代でどの軸を選び、何を積み上げたかが、この差として表面化します。40代は『これまでの蓄積を換金する』年代であり、専門性の有無が年収を大きく分けます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">「年収維持」も立派な成功</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代の転職では、年収を大きく上げることより『下げずに維持しつつ、より良い環境に移る』ことが現実的な目標になる場合があります。家族のライフイベントや働き方を含めた総合的な判断が、20代・30代以上に重要になります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">求人の「数」より「質」で勝負する</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代向けの求人は数が絞られる分、自分の強みが活きるポジションを見極める力が求められます。ハイクラス・IT特化のエージェントを使い、応募の質を高めることが成功率を左右します。
               </p>
             </div>
@@ -365,7 +365,7 @@ export default function Salary40sPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -385,7 +385,7 @@ export default function Salary40sPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

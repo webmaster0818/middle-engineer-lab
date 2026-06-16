@@ -199,7 +199,7 @@ export default function FindyReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：モダン技術を使う現役エンジニアの『実力評価』に強い</span>。一言でいえば「GitHubで公開できる活動があり、コードで評価されてWeb自社開発企業に行きたいハイスキル層」向けのスカウト型サービスです。
@@ -215,7 +215,7 @@ export default function FindyReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -234,21 +234,21 @@ export default function FindyReview() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
               Findyは、担当アドバイザーが求人を提案する「エージェント型」ではなく、登録者のプロフィールやGitHub活動を見た企業からスカウトが届く「スカウト型」です。エージェント型の
-              <Link href="/review/recruit-it/" className="text-blue-600 hover:underline">リクルートエージェント</Link>
+              <Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルートエージェント</Link>
               などとは、求人にたどり着く経路が根本的に異なります。
             </p>
             <p>
               また同じスカウト・可視化系でも、評価の軸はサービスごとに違います。<span className="font-bold text-slate-700">FindyはGitHub中心でスキル偏差値を算出</span>するのに対し、
-              <Link href="/review/lapras/" className="text-blue-600 hover:underline">LAPRAS</Link>
+              <Link href="/review/lapras/" className="text-petrol hover:underline">LAPRAS</Link>
               はGitHubに加えQiita・note・X・connpassなどWeb全体の発信をAIが解析します。
-              <Link href="/review/forkwell/" className="text-blue-600 hover:underline">Forkwell</Link>
+              <Link href="/review/forkwell/" className="text-petrol hover:underline">Forkwell</Link>
               はポートフォリオとコミュニティ（勉強会）に強みがあります。さらにスキルチェックの解答で評価する
-              <Link href="/review/paiza/" className="text-blue-600 hover:underline">paiza</Link>
+              <Link href="/review/paiza/" className="text-petrol hover:underline">paiza</Link>
               とも評価軸が異なります。「自分の強みがどの軸で最も光るか」で選ぶのが要点です。
             </p>
             <p>
               なお、年収帯で企業・ヘッドハンターがスカウトする総合ハイクラス型の
-              <Link href="/review/recruit-it/" className="text-blue-600 hover:underline">リクルート系のスカウトサービス</Link>
+              <Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルート系のスカウトサービス</Link>
               とも仕組みが異なります。Findyはあくまでエンジニアの技術活動を可視化する点に特化しています。
             </p>
           </div>
@@ -284,27 +284,27 @@ export default function FindyReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">Findyの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. GitHub連携でスキルを偏差値化</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 FindyはGitHubの公開活動を解析し、スキルを偏差値という形で可視化します。職務経歴書の書き方や面接の話し方に左右されず、コードという客観的な成果物で評価される点が最大の特徴です。技術力に自信があるが書類の見栄えで損をしがちな人に向いています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 掲載企業が厳選されている</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 公式によると掲載企業は800社以上に厳選されています（2024年7月時点）。Go・TypeScript・Python・Rubyなどモダンな技術を扱うWeb自社開発企業が中心で、届くスカウトの質が高いという傾向の声が見られます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. キャリアの壁打ちサポート</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 スカウトを待つだけでなく、Findy側のサポートで自分の市場価値や次のキャリアを整理できるという声があります。すぐに転職しない情報収集目的でも、市場での立ち位置を確認する用途で使えます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 求職者は完全無料</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 求職者の利用は無料です。費用は採用企業側が負担します（確認できた範囲）。リスクなく自分の技術力の市場評価を試せる点はミドル層にも使いやすいポイントです。
               </p>
             </div>
@@ -365,16 +365,16 @@ export default function FindyReview() {
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
               「40代は書類で落とされやすい」という不安がある人ほど、コードで評価されるFindyの仕組みは追い風になり得ます。現役でモダン技術を触り、GitHubで活動があるなら、年齢より技術が評価されやすいのが強みです。逆に、近年はマネジメント中心でコードをほぼ書いていない場合は、スカウトが届きにくく不向きです。その場合はマネジメント経験を評価する
-              <Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けサービス</Link>
+              <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けサービス</Link>
               や、担当が提案する
-              <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               の併用が現実的です。
             </p>
             <p>
               いずれの年代でも、Findy単独に依存せず、評価軸の異なるサービスと組み合わせるのが堅実です。
-              <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェント併用のコツ</Link>
+              <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェント併用のコツ</Link>
               や
-              <Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウト型サービスの使い方</Link>
+              <Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウト型サービスの使い方</Link>
               もあわせて参考にしてください。
             </p>
           </div>
@@ -417,7 +417,7 @@ export default function FindyReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -434,16 +434,16 @@ export default function FindyReview() {
             Findyと評価軸が近いサービスは、混同せず違いを押さえて使い分けると効果的です。Findyは<span className="font-bold">GitHub中心</span>、LAPRASは<span className="font-bold">Web全体の発信をAI解析</span>、Forkwellは<span className="font-bold">ポートフォリオ＋コミュニティ</span>が軸です。GitHubの活動が豊富ならFindy、技術記事や登壇など発信が多いならLAPRAS、学習文化やコミュニティとの接点を重視するならForkwell、という整理が目安になります。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/lapras/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/lapras/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               LAPRASの評判・口コミ →
             </Link>
-            <Link href="/review/forkwell/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/forkwell/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Forkwellの評判・口コミ →
             </Link>
-            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテックキャリアの評判・口コミ →
             </Link>
-            <Link href="/compare/30s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/30s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               30代エンジニア向けエージェント比較 →
             </Link>
           </div>
@@ -471,7 +471,7 @@ export default function FindyReview() {
           <p className="text-blue-100 text-sm mb-4">
             GitHubを連携して、あなたの技術力がどう評価されるか確かめてみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
         </section>
@@ -481,7 +481,7 @@ export default function FindyReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

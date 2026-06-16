@@ -134,7 +134,7 @@ export default function UnitySkillPage() {
           <ul className="space-y-1.5">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -145,7 +145,7 @@ export default function UnitySkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Unity転職の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               Unity転職の合否は「プレイできる作品があるか」と「どの領域で年収を上げるか」でほぼ決まります。30代・40代は<strong>ポートフォリオ＋専門領域（XR・最適化・非ゲーム）</strong>で勝負するのが王道です。
             </p>
@@ -250,25 +250,25 @@ export default function UnitySkillPage() {
               <p className="text-sm text-slate-600 mb-2">
                 IT/Web/ゲーム業界に専門特化し、提案スピードが強み。ゲーム・エンタメ領域の求人保有に定評があり、Unity案件を探す主力窓口になります。
               </p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">Geeklyの詳細レビュー →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT全般＋ゲーム案件）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT/Web全般に強く高年収求人比率が高い特化型。非ゲーム領域のUnity案件（産業用途）や、Web系企業のXR部門なども含めて探せます。
               </p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Green（ベンチャー直結・カジュアル面談）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 エージェント仲介ではなく企業と直接やり取りする成功報酬型サービス。XR/メタバース系のスタートアップが多く、カジュアル面談で社風を確かめてから進められます。
               </p>
-              <Link href="/review/green/" className="text-sm text-blue-600 hover:underline">Greenの詳細レビュー →</Link>
+              <Link href="/review/green/" className="text-sm text-petrol hover:underline">Greenの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            ゲーム業界全体の事情は<Link href="/industry/gaming/" className="text-blue-600 hover:underline">ゲーム業界転職ガイド</Link>、エージェントの使い分けは<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの併用ガイド</Link>を参考にしてください。
+            ゲーム業界全体の事情は<Link href="/industry/gaming/" className="text-petrol hover:underline">ゲーム業界転職ガイド</Link>、エージェントの使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの併用ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -285,7 +285,7 @@ export default function UnitySkillPage() {
               { num: "3", title: "非ゲーム領域から入る", desc: "建築可視化・製造シミュレーション・XR業務アプリなど、自分の業界知識が活きる非ゲーム領域は競争が比較的緩やか。ゲーム未経験でもドメインで勝負できます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -304,27 +304,27 @@ export default function UnitySkillPage() {
             ゲーム業界には「若手中心・繁忙期は激務」というイメージがありますが、ミドルが価値を出せるのは、若手が苦手とする「設計」「最適化」「チームの底上げ」です。プレイヤーとしての速さより、品質と再現性で勝負するのがミドルの戦い方です。
           </p>
           <div className="space-y-3">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">最適化・テクニカルアートで希少人材になる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 パフォーマンス最適化やシェーダー/描画はノウハウの蓄積が物を言う領域。ミドルの経験が直接効くため、年収を上げやすい方向です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">非ゲーム産業はワークライフバランスを取りやすい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 建築・製造・医療などのUnity活用は、ゲーム特有の繁忙より落ち着いた働き方になりやすい傾向。家庭との両立を重視するミドルに向きます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マネジメント／リードへの分岐も視野に</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 プレイングだけでなく、リードエンジニアやテックリードへ進む道もあります。チーム経験を職務経歴書で言語化しておくと選択肢が広がります。
               </p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            年代別の現実は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、働き方の観点は<Link href="/knowledge/work-life-balance/" className="text-blue-600 hover:underline">エンジニアのワークライフバランス</Link>も参考にしてください。
+            年代別の現実は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、働き方の観点は<Link href="/knowledge/work-life-balance/" className="text-petrol hover:underline">エンジニアのワークライフバランス</Link>も参考にしてください。
           </p>
         </section>
 
@@ -335,14 +335,14 @@ export default function UnitySkillPage() {
             Unity転職では「学んだ」より「作って公開した」が評価軸です。作品を軸に逆算して学ぶのが効率的です。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>小さくても完成・リリースした作品を1本作り、プレイ可能な形で公開する</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>パフォーマンス最適化（プロファイラの読み方・Draw Call削減）を一通り実践する</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>狙う領域（XR/対戦/グラフィックス/非ゲーム）の専門スキルを1つ深掘りする</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>GitHubでソースを公開し、設計判断を説明できるよう整理する</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>C#の言語仕様・非同期処理の理解を深め、面接の技術深掘りに備える</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>小さくても完成・リリースした作品を1本作り、プレイ可能な形で公開する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>パフォーマンス最適化（プロファイラの読み方・Draw Call削減）を一通り実践する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>狙う領域（XR/対戦/グラフィックス/非ゲーム）の専門スキルを1つ深掘りする</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>GitHubでソースを公開し、設計判断を説明できるよう整理する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>C#の言語仕様・非同期処理の理解を深め、面接の技術深掘りに備える</li>
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
-            作品の見せ方は<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>、学習継続は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">働きながら学び続ける方法</Link>で詳しく解説しています。
+            作品の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>、学習継続は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">働きながら学び続ける方法</Link>で詳しく解説しています。
           </p>
         </section>
 
@@ -375,7 +375,7 @@ export default function UnitySkillPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            年収の上限を重視するなら、<Link href="/skill/csharp/" className="text-blue-600 hover:underline">C#/.NET</Link>のバックエンド方向や非ゲーム産業を併せて検討すると選択肢が広がります。
+            年収の上限を重視するなら、<Link href="/skill/csharp/" className="text-petrol hover:underline">C#/.NET</Link>のバックエンド方向や非ゲーム産業を併せて検討すると選択肢が広がります。
           </p>
         </section>
 
@@ -431,7 +431,7 @@ export default function UnitySkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -451,7 +451,7 @@ export default function UnitySkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -464,8 +464,8 @@ export default function UnitySkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/bandai-namco/" className="text-blue-700 hover:underline">バンダイナムコ</a></li><li><a href="/company/dena/" className="text-blue-700 hover:underline">DeNA</a></li><li><a href="/company/gungho/" className="text-blue-700 hover:underline">ガンホー</a></li><li><a href="/company/sega-sammy/" className="text-blue-700 hover:underline">セガ（セガサミーHD）</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/bandai-namco/" className="text-petrol-deep hover:underline">バンダイナムコ</a></li><li><a href="/company/dena/" className="text-petrol-deep hover:underline">DeNA</a></li><li><a href="/company/gungho/" className="text-petrol-deep hover:underline">ガンホー</a></li><li><a href="/company/sega-sammy/" className="text-petrol-deep hover:underline">セガ（セガサミーHD）</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

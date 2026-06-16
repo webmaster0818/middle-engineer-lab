@@ -65,7 +65,7 @@ export default function PayPayCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（大規模決済基盤の経験者・グローバル志向）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・中核は<strong>Java／Spring Boot＋AWS／Kubernetes</strong>による大規模決済基盤のマイクロサービス開発。高トラフィック・高可用性の設計運用経験者に向く。</li>
@@ -80,7 +80,7 @@ export default function PayPayCompanyPage() {
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
@@ -100,9 +100,9 @@ export default function PayPayCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">国内最大級の決済トラフィックを支える基盤開発</h3><p className="text-sm text-blue-700">PayPayはQRコード決済として国内有数の利用規模を持ち、その裏側では膨大な決済トランザクションを高い可用性で処理する分散システムが動いています。バックエンドエンジニアは、スケーラビリティ・冪等性・障害耐性といった大規模システム特有の課題に向き合うことになります。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">多国籍・英語を使う開発組織</h3><p className="text-sm text-blue-700">公式の発信では、PayPayの開発組織には多様な国籍のメンバーが在籍し、ドキュメントやコミュニケーションで英語が使われる場面があるとされています。グローバルな開発文化のなかで、技術力に加えて英語でのコラボレーション力が活きる環境です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">通年でのキャリア採用</h3><p className="text-sm text-blue-700">PayPayは採用管理システムにGreenhouseを利用し、中途（キャリア採用）を通年で積極的に行っています。バックエンド・SRE・モバイル・データなど幅広い職種が継続的に募集されますが、募集内容は時期により変動するため最新は公式採用ページで確認が必要です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">国内最大級の決済トラフィックを支える基盤開発</h3><p className="text-sm text-petrol-deep">PayPayはQRコード決済として国内有数の利用規模を持ち、その裏側では膨大な決済トランザクションを高い可用性で処理する分散システムが動いています。バックエンドエンジニアは、スケーラビリティ・冪等性・障害耐性といった大規模システム特有の課題に向き合うことになります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">多国籍・英語を使う開発組織</h3><p className="text-sm text-petrol-deep">公式の発信では、PayPayの開発組織には多様な国籍のメンバーが在籍し、ドキュメントやコミュニケーションで英語が使われる場面があるとされています。グローバルな開発文化のなかで、技術力に加えて英語でのコラボレーション力が活きる環境です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">通年でのキャリア採用</h3><p className="text-sm text-petrol-deep">PayPayは採用管理システムにGreenhouseを利用し、中途（キャリア採用）を通年で積極的に行っています。バックエンド・SRE・モバイル・データなど幅広い職種が継続的に募集されますが、募集内容は時期により変動するため最新は公式採用ページで確認が必要です。</p></div>
           </div>
         </section>
 
@@ -111,13 +111,13 @@ export default function PayPayCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下はPayPay公式技術ブログ「PayPay Inside-Out」で公開されている「PayPay Stack」に基づきます。公式に明記された範囲のみを掲載し、推測でのスタック追加は行っていません。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Java（11／17）＋Spring Boot</strong>：バックエンドの主力。決済処理の中核を担う</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Kotlin／Scala／Node.js</strong>：一部のサービス・用途で使用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AWS＋Kubernetes</strong>：マイクロサービスの実行基盤</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>RDS（Oracle／MySQL）／DynamoDB／S3／Lambda</strong>：データストアとサーバーレス</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Java（11／17）＋Spring Boot</strong>：バックエンドの主力。決済処理の中核を担う</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Kotlin／Scala／Node.js</strong>：一部のサービス・用途で使用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AWS＋Kubernetes</strong>：マイクロサービスの実行基盤</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>RDS（Oracle／MySQL）／DynamoDB／S3／Lambda</strong>：データストアとサーバーレス</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：PayPay公式技術ブログ「PayPay Inside-Out」内の技術スタック解説（PayPay Stack / blog.paypay.ne.jp）。バージョンや構成は時期・サービスにより変化する場合があります。スキル別の解説は<Link href="/skill/java/" className="text-blue-600 hover:underline">Javaエンジニア</Link>・<Link href="/skill/kubernetes/" className="text-blue-600 hover:underline">Kubernetes</Link>・<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS</Link>のページも参照してください。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：PayPay公式技術ブログ「PayPay Inside-Out」内の技術スタック解説（PayPay Stack / blog.paypay.ne.jp）。バージョンや構成は時期・サービスにより変化する場合があります。スキル別の解説は<Link href="/skill/java/" className="text-petrol hover:underline">Javaエンジニア</Link>・<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>・<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>のページも参照してください。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -126,7 +126,7 @@ export default function PayPayCompanyPage() {
             PayPayは<strong>非上場企業</strong>のため、上場企業の有価証券報告書で開示される「全従業員平均年収」のような公式の平均値は公表されていません。転職クチコミ・年収集計サイトに数値が掲載されることがありますが、これらは<strong>公式値ではない参考値</strong>であり、母数・算定方法・対象職種が不明なため、当ガイドでは具体的な平均額や等級別年収表の掲載は行いません（数値の創作も行いません）。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mb-2">
-            ミドル層が年収を見極める際は、提示額の内訳（基本給・賞与・各種手当・ストック等の有無）と、自分の経験（大規模バックエンド・決済ドメイン）の希少性を踏まえて、選考過程やエージェントを通じて確認するのが現実的です。年代別の相場感は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>もあわせてご覧ください。
+            ミドル層が年収を見極める際は、提示額の内訳（基本給・賞与・各種手当・ストック等の有無）と、自分の経験（大規模バックエンド・決済ドメイン）の希少性を踏まえて、選考過程やエージェントを通じて確認するのが現実的です。年代別の相場感は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>もあわせてご覧ください。
           </p>
           <p className="text-xs text-slate-500">出典に関する注記：当ガイドは公式の一次情報を優先します。公式の平均年収が存在しないため、ここでは断定的な金額は記載していません。</p>
         </section>
@@ -143,10 +143,10 @@ export default function PayPayCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報ベースの一般化）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。創作した質問例は掲載せず、公開されている技術スタック・事業特性から評価されやすいと一般に考えられるポイントのみを挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>Java／Spring Boot を中心としたバックエンド設計・実装力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>大規模トラフィック下でのスケーラビリティ・可用性・冪等性への理解</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>AWS／Kubernetes でのマイクロサービス運用経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>決済・金融ドメインの厳格さ（正確性・コンプライアンス）への適応力と、英語でのコラボレーション</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>Java／Spring Boot を中心としたバックエンド設計・実装力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>大規模トラフィック下でのスケーラビリティ・可用性・冪等性への理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>AWS／Kubernetes でのマイクロサービス運用経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>決済・金融ドメインの厳格さ（正確性・コンプライアンス）への適応力と、英語でのコラボレーション</li>
           </ul>
         </section>
 
@@ -163,7 +163,7 @@ export default function PayPayCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代のミドルエンジニアにとって、PayPayは<strong>「大規模決済基盤というスケールの大きさ」「Java／Kubernetesという王道スタックの経験を活かせる」</strong>という点で魅力的な選択肢です。これまで金融・EC・大規模Webなどで高トラフィックなバックエンドを支えてきた経験は、そのまま強みとして評価されやすいドメインです。</p>
             <p>一方で、成長フェーズの企業ゆえに組織やプロセスが流動的な面もあり、安定・固定的な環境を求めるキャリア観とは相性が分かれます。英語が使われる場面があることも、ミドル層にとっては強みにも壁にもなり得ます。年収面では公式の平均値が存在しないため、提示の内訳と自分の経験の希少性を冷静に見極めることが重要です。</p>
-            <p>転職活動では、ミドル層の年収交渉・市場価値の整理が鍵になります。<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>、<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の年収交渉・市場価値の整理が鍵になります。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>、<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -203,15 +203,15 @@ export default function PayPayCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">PayPay転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・モダン技術の求人比率が高く、技術面接対策のサポートが受けられる。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。フィンテック大手のポジションに出会いやすい。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。大手・グローバル企業の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・モダン技術の求人比率が高く、技術面接対策のサポートが受けられる。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。フィンテック大手のポジションに出会いやすい。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。大手・グローバル企業の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">PayPayへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">フィンテック・大規模Webに強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -222,7 +222,7 @@ export default function PayPayCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "Javaエンジニアの転職ガイド", href: "/skill/java/" }, { name: "Kubernetesエンジニアの転職", href: "/skill/kubernetes/" }, { name: "AWSエンジニアの転職", href: "/skill/aws/" }, { name: "ソフトバンクの転職ガイド", href: "/company/softbank/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "Javaエンジニアの転職ガイド", href: "/skill/java/" }, { name: "Kubernetesエンジニアの転職", href: "/skill/kubernetes/" }, { name: "AWSエンジニアの転職", href: "/skill/aws/" }, { name: "ソフトバンクの転職ガイド", href: "/company/softbank/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

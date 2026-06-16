@@ -128,7 +128,7 @@ export default function FujitsuCompanyPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -136,13 +136,13 @@ export default function FujitsuCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんな人向きか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 text-sm leading-relaxed mb-3">
               <strong>結論：</strong>富士通は「ジョブ型で専門性を評価され、DX・先端コンピューティングに関わりたい」エンジニアに向く企業です。全社員平均929万円（2025年3月期 有報）と処遇は高水準。専門性に合致した経験があれば、年齢に関係なく評価されやすい制度設計です。
             </p>
             <ul className="space-y-1.5 text-sm text-slate-600">
               <li>・<strong>向いている人</strong>：クラウド/AI/セキュリティ等の専門性を持つ人、上流〜PM経験者、ジョブ型で処遇されたい人</li>
-              <li>・<strong>向いていない人</strong>：少人数で内製・モダン技術を高速に回したい人（<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWeb系への転職</Link>も検討）</li>
+              <li>・<strong>向いていない人</strong>：少人数で内製・モダン技術を高速に回したい人（<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>も検討）</li>
               <li>・<strong>難易度の目安</strong>：転職メディアでは難易度は高めと評されます。</li>
             </ul>
           </div>
@@ -169,9 +169,9 @@ export default function FujitsuCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
             {features.map((f, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{f.h}</h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{f.p}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{f.p}</p>
               </div>
             ))}
           </div>
@@ -184,10 +184,10 @@ export default function FujitsuCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>言語：Java / Python / C 等（業務系・基盤系で利用）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>クラウド：AWS / Azure（クラウドネイティブ開発）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>先端領域：AI／データ、セキュリティ、コンピューティング（富岳・量子等の研究）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ビジネス領域：Fujitsu Uvance（DXコンサル・ビジネスアプリ）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>言語：Java / Python / C 等（業務系・基盤系で利用）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド：AWS / Azure（クラウドネイティブ開発）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>先端領域：AI／データ、セキュリティ、コンピューティング（富岳・量子等の研究）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ビジネス領域：Fujitsu Uvance（DXコンサル・ビジネスアプリ）</li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">※具体的な使用技術は各求人票（ジョブディスクリプション）が一次情報です。応募前にご確認ください。</p>
@@ -218,7 +218,7 @@ export default function FujitsuCompanyPage() {
           <ol className="space-y-3">
             {flow.map((step, i) => (
               <li key={i} className="flex items-start gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                 <span className="text-sm text-slate-700 pt-1">{step}</span>
               </li>
             ))}
@@ -231,10 +231,10 @@ export default function FujitsuCompanyPage() {
             公開情報・口コミの傾向から、面接では次のような点が確認されやすいと考えられます（傾向の整理であり質問の断定ではありません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>応募ポジション（ジョブ）への専門性・適合度</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>入社後の貢献プラン・志向（My Purpose）の言語化</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>クラウド/AI/セキュリティ等の実務経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>チーム・顧客とのコミュニケーション力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>応募ポジション（ジョブ）への専門性・適合度</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>入社後の貢献プラン・志向（My Purpose）の言語化</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>クラウド/AI/セキュリティ等の実務経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>チーム・顧客とのコミュニケーション力</li>
           </ul>
           <p className="text-xs text-slate-400 mt-2">※具体的な質問内容は時期・面接官・ポジションで変わります。実体験談の創作は行っていません。</p>
         </section>
@@ -272,7 +272,7 @@ export default function FujitsuCompanyPage() {
               30代・40代のミドルエンジニアにとって富士通は、ジョブ型採用と「管理職・リーダークラスのキャリア採用強化」という方針が追い風です。特定領域（クラウド/AI/セキュリティ等）の専門性や上流・PM経験を持つ人は、年齢ではなく職務適合で評価されやすく、即戦力ポジションを狙いやすいと言えます。平均年齢43.1歳という有報の数字からも、ミドル層が中核の企業であることが分かります。
             </p>
             <p>
-              一方、労働環境がプロジェクトによる差が大きいという口コミ傾向があるため、配属予定の領域・チームの働き方は面談で確認しましょう。年収（全社員平均929万円）は高水準ですが全社員平均なので、ジョブごとの提示額をオファーで必ず確認を。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収</Link>も参考になります。
+              一方、労働環境がプロジェクトによる差が大きいという口コミ傾向があるため、配属予定の領域・チームの働き方は面談で確認しましょう。年収（全社員平均929万円）は高水準ですが全社員平均なので、ジョブごとの提示額をオファーで必ず確認を。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -285,13 +285,13 @@ export default function FujitsuCompanyPage() {
               { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "大手SIerへの転職支援に強く、書類添削・面接対策が手厚い。" },
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でDX部門・クラウド系ポジションの提案に強み。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500 leading-relaxed">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数併用のコツ</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数併用のコツ</Link>を参照。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -312,7 +312,7 @@ export default function FujitsuCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">富士通への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手ITベンダーへの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/doda-it/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/doda-it/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -326,7 +326,7 @@ export default function FujitsuCompanyPage() {
               { name: "SIerからWeb系への転職", href: "/industry/sier-to-web/" },
               { name: "40代エンジニアの年収", href: "/knowledge/salary-40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

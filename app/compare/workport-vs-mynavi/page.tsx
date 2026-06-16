@@ -127,7 +127,7 @@ export default function WorkportVsMynaviPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="space-y-2 text-sm text-blue-700">
+          <ol className="space-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}><a href={`#${t.id}`} className="hover:underline">{t.label}</a></li>
             ))}
@@ -136,7 +136,7 @@ export default function WorkportVsMynaviPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-blue-800">求人量と全国対応、スピードを重視するならワークポート。</strong>公開11万件以上（うちIT関連3万件以上）の総量と全国57拠点で、未経験歓迎を含め幅広く当たれます。地方在住者にも現実的です。</p>
             <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-emerald-800">手厚い書類添削・面接対策を受けたいならマイナビIT AGENT。</strong>20〜30代若手層に強く、転職後定着率97.5%・年収アップ率73.7%（二次情報・転職メディア集計）という数値も参考になります。初めての転職に向いています。</p>
             <p className="text-slate-700 leading-relaxed"><strong>量とサポートを両取りしたいなら併用が最適解。</strong>ワークポートで選択肢を確保し、マイナビの手厚い対策で内定の質を高める——両方無料なので合わせて使う価値があります。</p>
@@ -170,7 +170,7 @@ export default function WorkportVsMynaviPage() {
           <p className="text-slate-600 leading-relaxed mb-4">ワークポートは口コミでレスポンスの速さが評価され、初動が速い傾向です。マイナビIT AGENTは丁寧なヒアリングを重視するため時間をかける場合があります。「早く動きたい」ならワークポート、「準備を整えてから」ならマイナビです。</p>
 
           <h3 className="text-lg font-bold text-slate-800 mb-2 mt-6">対象層・エリア</h3>
-          <p className="text-slate-600 leading-relaxed">マイナビIT AGENTは20〜30代の若手層に強く、ハイクラス・地方求人は手薄との声があります。ワークポートは全国47都道府県57拠点で地方にも対応するため、地方在住者や幅広い年代には現実的です。エリアと年代の比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント10社比較</Link>もあわせてご確認ください。</p>
+          <p className="text-slate-600 leading-relaxed">マイナビIT AGENTは20〜30代の若手層に強く、ハイクラス・地方求人は手薄との声があります。ワークポートは全国47都道府県57拠点で地方にも対応するため、地方在住者や幅広い年代には現実的です。エリアと年代の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>もあわせてご確認ください。</p>
         </section>
 
         <section id="reviews" className="mb-10 scroll-mt-20">
@@ -189,7 +189,7 @@ export default function WorkportVsMynaviPage() {
               <h3 className="font-bold text-blue-800 mb-3">マイナビIT AGENTの口コミ傾向</h3>
               <ul className="space-y-2 text-sm">
                 {mynaviReviews.map((r, i) => (
-                  <li key={i} className={r.type === "good" ? "text-slate-600" : "text-slate-500"}><span className={r.type === "good" ? "text-blue-600 font-bold" : "text-rose-500 font-bold"}>{r.type === "good" ? "良い: " : "気になる: "}</span>{r.text}</li>
+                  <li key={i} className={r.type === "good" ? "text-slate-600" : "text-slate-500"}><span className={r.type === "good" ? "text-petrol font-bold" : "text-rose-500 font-bold"}>{r.type === "good" ? "良い: " : "気になる: "}</span>{r.text}</li>
                 ))}
               </ul>
             </div>
@@ -206,9 +206,9 @@ export default function WorkportVsMynaviPage() {
                 {workportFor.map((t, i) => (<li key={i}>✓ {t}</li>))}
               </ul>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">マイナビIT AGENTが向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 {mynaviFor.map((t, i) => (<li key={i}>✓ {t}</li>))}
               </ul>
             </div>
@@ -225,7 +225,7 @@ export default function WorkportVsMynaviPage() {
                 { num: "3", title: "併用パターン（最も効率的）", desc: "ワークポートで求人量と全国の選択肢を確保し、マイナビの手厚い対策で内定の質を高める。役割が補完的で、両方無料のため取りこぼしを減らせます。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p></div>
                 </div>
               ))}
@@ -238,7 +238,7 @@ export default function WorkportVsMynaviPage() {
           <p className="text-slate-600 leading-relaxed mb-4">「ワークポート マイナビIT 比較」を30代・40代のミドルエンジニアの目線で見ると、注意点があります。マイナビIT AGENTは20〜30代若手層に強みがある一方、口コミではハイクラス・地方求人が手薄との声があります。<strong>40代やハイクラス志向のミドルは、マイナビ単独だと選択肢が細る可能性</strong>があり、求人量と全国対応を持つワークポートで母数を確保するのが現実的です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">年収面では、レバテック公表の年代別平均年収（2025年）で正社員SEは30代約499万円・40代約618万円。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。ミドルは年収レンジが広いため、マイナビの年収アップ率73.7%（二次情報・転職メディア集計）のような数値を一つの参考にしつつ、ワークポートで複数オファーを比較して交渉材料を増やすのが有効です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">市場面では、経産省「IT人材需給に関する調査」（2019年公表の試算）で2030年に最大約79万人のIT人材不足が見込まれており、実務経験の厚いミドルの需要は底堅い見通しです。ただし年代が上がるほど「若手向けの手厚いサポート（マイナビ）」だけでなく「幅広い母数と地方対応（ワークポート）」を確保しておくほうが、取りこぼしを防げます。</p>
-          <p className="text-slate-600 leading-relaxed">なお、40代でハイクラス・年収アップを本気で狙うなら、当ペアに加えてハイクラス特化サービスの検討も選択肢です。年代別の戦略は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed">なお、40代でハイクラス・年収アップを本気で狙うなら、当ペアに加えてハイクラス特化サービスの検討も選択肢です。年代別の戦略は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>もあわせてご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -256,14 +256,14 @@ export default function WorkportVsMynaviPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">迷ったら両方登録がおすすめ</h2>
           <p className="text-blue-100 text-sm mb-4">ワークポートの求人量・全国対応×マイナビの手厚いサポート。両方無料で、量と質を両立しましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {relatedArticles.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

@@ -106,7 +106,7 @@ export default function CompanySalaryRankingPage() {
                 <tr key={c.slug} className="border-b border-slate-200 hover:bg-slate-50">
                   <td className="p-2 font-bold text-slate-500">{c.rank}</td>
                   <td className="p-2">
-                    <Link href={`/company/${c.slug}/`} className="font-bold text-blue-700 hover:underline">
+                    <Link href={`/company/${c.slug}/`} className="font-bold text-petrol-deep hover:underline">
                       {c.name}
                     </Link>
                   </td>
@@ -147,9 +147,9 @@ export default function CompanySalaryRankingPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">関連ガイド</h2>
           <ul className="space-y-1 text-sm">
-            <li><Link href="/salary/" className="text-blue-700 hover:underline">エンジニアが年収を上げる転職｜ITSSレベル×年収の地図</Link></li>
-            <li><Link href="/knowledge/salary-30s/" className="text-blue-700 hover:underline">30代エンジニアの年収相場</Link></li>
-            <li><Link href="/company/" className="text-blue-700 hover:underline">企業別エンジニア転職ガイド一覧</Link></li>
+            <li><Link href="/salary/" className="text-petrol-deep hover:underline">エンジニアが年収を上げる転職｜ITSSレベル×年収の地図</Link></li>
+            <li><Link href="/knowledge/salary-30s/" className="text-petrol-deep hover:underline">30代エンジニアの年収相場</Link></li>
+            <li><Link href="/company/" className="text-petrol-deep hover:underline">企業別エンジニア転職ガイド一覧</Link></li>
           </ul>
         </div>
       </main>

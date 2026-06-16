@@ -203,7 +203,7 @@ export default function CloudLinkReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：SES・客先常駐から自社開発へ働き方を変えたいミドルに特化</span>。一言でいえば「年収最大化より、SESを抜けて社内SE・自社開発で働きたい経験者」向けのエージェントです。
@@ -234,7 +234,7 @@ export default function CloudLinkReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -271,27 +271,27 @@ export default function CloudLinkReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">特徴・強み（自社内開発100%）</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 自社内開発求人100%でSES脱却に特化</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 紹介求人を自社内開発に絞っているのが最大の特徴です。客先常駐（SES）から社内SE・自社開発へ働き方を変えたいエンジニアにとって、求人の方向性が最初から明確で、ミスマッチが起きにくい設計です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 面接手配が迅速</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 面接の日程調整・手配が早く、在職中でもテンポよく選考を進めやすいという傾向の声があります。働きながらSES脱出を目指す層に向いています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. IT専門コンサルが親身</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 IT専門のコンサルタントが、技術的な経歴の見せ方や自社開発への転換という目的を共有しながら親身に相談に乗ってくれる点が評価されています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 労働環境改善という明確な目的に合う</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 年収最大化より「労働環境を変える」ことを主目的とする層に最適化されています。利用者の66.7%が平均58.3万円の年収アップ（二次・自社系＝参考値）という数値もあり、働き方の改善と一定の年収アップを両立しやすい設計です。
               </p>
             </div>
@@ -348,7 +348,7 @@ export default function CloudLinkReview() {
             </p>
             <p>
               SES脱出の進め方や注意点は、当サイトの
-              <Link href="/industry/ses-exit/" className="text-blue-600 hover:underline">SES・客先常駐から抜け出す方法</Link>
+              <Link href="/industry/ses-exit/" className="text-petrol hover:underline">SES・客先常駐から抜け出す方法</Link>
               で体系的に整理しています。あわせて読むと、エージェント選びの判断がしやすくなります。
             </p>
           </div>
@@ -373,11 +373,11 @@ export default function CloudLinkReview() {
             </p>
             <p>
               年収を大きく上げることが最優先なら、高年収レンジに強い
-              <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               を主軸にし、本サービスは「自社開発求人の補完」として併用するのがおすすめです。エージェントの選び方や併用のコツは
-              <Link href="/knowledge/how-to-choose/" className="text-blue-600 hover:underline">後悔しないエージェントの選び方</Link>
+              <Link href="/knowledge/how-to-choose/" className="text-petrol hover:underline">後悔しないエージェントの選び方</Link>
               、
-              <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェント併用のコツ</Link>
+              <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェント併用のコツ</Link>
               も参考にしてください。
             </p>
           </div>
@@ -420,7 +420,7 @@ export default function CloudLinkReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -437,16 +437,16 @@ export default function CloudLinkReview() {
             クラウドリンク（現AIdea Career）は「自社内開発100%・SES脱出特化」が強みですが、求人の網羅性は中小規模ゆえ大手に劣ります。目的特化で使い、求人の幅や年収レンジは大手との併用で補うのが定石です。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               高年収IT求人のレバテックキャリア →
             </Link>
-            <Link href="/compare/agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               エージェント10社の比較 →
             </Link>
-            <Link href="/industry/ses-exit/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/industry/ses-exit/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               SES・客先常駐から抜け出す方法 →
             </Link>
-            <Link href="/knowledge/multiple-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/knowledge/multiple-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               複数エージェント併用のコツ →
             </Link>
           </div>
@@ -474,7 +474,7 @@ export default function CloudLinkReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは無料カウンセリングで、自社内開発への転換が可能か確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>
@@ -484,7 +484,7 @@ export default function CloudLinkReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

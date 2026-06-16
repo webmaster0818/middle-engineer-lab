@@ -136,7 +136,7 @@ export default function ResignationPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -144,7 +144,7 @@ export default function ResignationPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：意思は固く、理由は前向きに、引き継ぎは早めに</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・最初の一報は<strong>直属の上司に1対1で口頭</strong>。退職先の社名は言わなくてよい。</li>
@@ -255,7 +255,7 @@ export default function ResignationPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">引き止めパターンと対応例文</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             退職を伝えると、引き止め（カウンターオファー）を受けることがあります。意思が固いなら、感謝を示しつつ揺らがない姿勢で応じます。条件提示を受けて残留するかの判断は、
-            <Link href="/knowledge/counter-offer/" className="text-blue-600 hover:underline">カウンターオファー対応の記事</Link>
+            <Link href="/knowledge/counter-offer/" className="text-petrol hover:underline">カウンターオファー対応の記事</Link>
             も参考にしてください。
           </p>
           <div className="space-y-4">
@@ -263,7 +263,7 @@ export default function ResignationPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2">{item.q}</h3>
                 <p className="text-sm text-slate-600 mb-2">{item.a}</p>
-                <p className="text-sm text-slate-700 bg-blue-50 rounded p-3">対応例：{item.script}</p>
+                <p className="text-sm text-slate-700 bg-petrol-soft rounded p-3">対応例：{item.script}</p>
               </div>
             ))}
           </div>
@@ -280,7 +280,7 @@ export default function ResignationPage() {
             <ul className="space-y-3 text-sm text-slate-600">
               {handover.map((item, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold mt-0.5">✓</span>
+                  <span className="text-petrol font-bold mt-0.5">✓</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -294,7 +294,7 @@ export default function ResignationPage() {
           <div className="space-y-4">
             {schedule.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center min-w-[80px] h-8 rounded-full bg-blue-600 text-white font-bold text-xs shrink-0">{item.period}</span>
+                <span className="flex items-center justify-center min-w-[80px] h-8 rounded-full bg-petrol text-white font-bold text-xs shrink-0">{item.period}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -302,7 +302,7 @@ export default function ResignationPage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 週数は一例です。就業規則の通知期間や担当業務の状況に合わせて調整してください。全体の活動計画は<Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職スケジュール</Link>も参照。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 週数は一例です。就業規則の通知期間や担当業務の状況に合わせて調整してください。全体の活動計画は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照。</p>
         </section>
 
         {/* 30代40代視点 */}
@@ -314,7 +314,7 @@ export default function ResignationPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">IT業界は「再会」が多い</h3>
-              <p className="text-sm text-slate-600">元同僚が転職先や取引先にいる、リファラルで声がかかる、といったことが珍しくありません。立つ鳥跡を濁さない退職は、将来の選択肢を増やします。リファラル経由の転職については<Link href="/knowledge/referral/" className="text-blue-600 hover:underline">リファラル採用ガイド</Link>も参考に。</p>
+              <p className="text-sm text-slate-600">元同僚が転職先や取引先にいる、リファラルで声がかかる、といったことが珍しくありません。立つ鳥跡を濁さない退職は、将来の選択肢を増やします。リファラル経由の転職については<Link href="/knowledge/referral/" className="text-petrol hover:underline">リファラル採用ガイド</Link>も参考に。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">引き継ぎの質がそのまま「評判」になる</h3>
@@ -322,7 +322,7 @@ export default function ResignationPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">家庭・住宅ローンなど「引けない事情」を味方に</h3>
-              <p className="text-sm text-slate-600">引き止めで揺れそうなときほど、入社日を先に確定させておくと意思がぶれません。「次の会社と合意済み」という事実が、感情的な引き止めへの最良の盾になります。カウンターオファーで迷う場合は<Link href="/knowledge/counter-offer/" className="text-blue-600 hover:underline">こちら</Link>。</p>
+              <p className="text-sm text-slate-600">引き止めで揺れそうなときほど、入社日を先に確定させておくと意思がぶれません。「次の会社と合意済み」という事実が、感情的な引き止めへの最良の盾になります。カウンターオファーで迷う場合は<Link href="/knowledge/counter-offer/" className="text-petrol hover:underline">こちら</Link>。</p>
             </div>
           </div>
         </section>
@@ -351,7 +351,7 @@ export default function ResignationPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -371,7 +371,7 @@ export default function ResignationPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

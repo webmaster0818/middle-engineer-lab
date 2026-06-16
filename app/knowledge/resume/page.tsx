@@ -119,7 +119,7 @@ export default function ResumePage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -142,7 +142,7 @@ export default function ResumePage() {
               { num: "5", title: "保有資格・OSS・GitHub・登壇", desc: "関連資格、OSS貢献、個人開発、技術ブログ、登壇のURLを記載。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -181,7 +181,7 @@ export default function ResumePage() {
               </div>
             ))}
           </div>
-          <div className="bg-blue-50 rounded-lg p-5 mt-5">
+          <div className="bg-petrol-soft rounded-lg p-5 mt-5">
             <p className="text-sm text-blue-800">
               <strong>STARで書いた一文の例：</strong>「ピーク時にAPIタイムアウトが多発していた課題に対し（S/T）、N+1解消・Redisキャッシュ導入・インデックス再設計を主導し（A）、平均レスポンスを200ms→50msに改善、エラー率を1.2%→0.1%に低減した（R）。」
             </p>
@@ -352,7 +352,7 @@ export default function ResumePage() {
                 "社名や内部数値など守秘義務に触れる情報を出していない",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>{c}
+                  <span className="text-petrol font-bold shrink-0">✓</span>{c}
                 </li>
               ))}
             </ul>
@@ -366,21 +366,21 @@ export default function ResumePage() {
         <section id="age" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">10. 30代・40代の職務経歴書の勘所</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の幅とリード経験を両輪で示す</h3>
-              <p className="text-sm text-blue-700">
-                30代は実装力に加えて、技術選定・レビュー・小規模チームのリードを担えることを示すと評価が上がります。直近のプロジェクトでの『意思決定の中身』を具体的に書きましょう。関連: <Link href="/age/30s/" className="text-blue-700 underline">30代エンジニアの転職</Link>。
+              <p className="text-sm text-petrol-deep">
+                30代は実装力に加えて、技術選定・レビュー・小規模チームのリードを担えることを示すと評価が上がります。直近のプロジェクトでの『意思決定の中身』を具体的に書きましょう。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代エンジニアの転職</Link>。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：マネジメントと再現性のある実績を前面に</h3>
-              <p className="text-sm text-blue-700">
-                40代は『チーム・プロダクト・事業にどう貢献したか』が重視されます。プレイヤー実績だけでなく、組織課題をどう解決したかをSTARで整理しましょう。関連: <Link href="/age/40s/" className="text-blue-700 underline">40代エンジニアの転職</Link>、<Link href="/knowledge/40s-reality/" className="text-blue-700 underline">40代転職のリアル</Link>。
+              <p className="text-sm text-petrol-deep">
+                40代は『チーム・プロダクト・事業にどう貢献したか』が重視されます。プレイヤー実績だけでなく、組織課題をどう解決したかをSTARで整理しましょう。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代エンジニアの転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアル</Link>。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">経歴が長い分、取捨選択が命</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 10年以上のキャリアを全部詳細に書くと読まれません。直近3〜5年を厚く、それ以前は1〜2行の概要に圧縮。応募先に関係の薄い経験は思い切って削りましょう。
               </p>
             </div>
@@ -411,7 +411,7 @@ export default function ResumePage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -431,7 +431,7 @@ export default function ResumePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

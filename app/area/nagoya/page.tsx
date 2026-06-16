@@ -155,7 +155,7 @@ export default function NagoyaAreaPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：名古屋IT転職市場の特徴</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               名古屋・愛知のIT転職は「製造業の業務ドメイン × ITスキル」の掛け合わせが評価されやすいのが最大の特徴です。組み込み・車載・製造ラインのDXなど、ものづくりに近い領域の求人が他エリアより厚い傾向があります。
@@ -174,7 +174,7 @@ export default function NagoyaAreaPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -199,7 +199,7 @@ export default function NagoyaAreaPage() {
               <h3 className="font-bold text-slate-800 text-sm mb-2">豊田市・刈谷市・安城市エリア</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 自動車メーカーやサプライヤーが集積するこのエリアは、組み込みシステム、車載ソフトウェア、製造ラインのDXといった、ものづくりに直結する開発が多い土地柄です。トヨタ自動車が愛知県に本社を置くことは広く知られており、グループや周辺企業を含めた開発領域の裾野は広いといえます。企業ごとの採用方針や職種は時期で変わるため、個別企業の情報は
-                <Link href="/company/toyota/" className="text-blue-600 hover:underline">トヨタの転職・採用解説</Link>
+                <Link href="/company/toyota/" className="text-petrol hover:underline">トヨタの転職・採用解説</Link>
                 などもあわせて確認してください。
               </p>
             </div>
@@ -223,22 +223,22 @@ export default function NagoyaAreaPage() {
           </p>
           <div className="space-y-3">
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">A</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>地元企業に出社・ハイブリッドで勤務:</strong> 製造業系や地元SIerは出社中心の職場も多い一方、通勤負担が首都圏より軽いのが利点。地域に根ざした働き方を重視する人に向きます。
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">B</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>名古屋拠点のWeb/SaaS企業でハイブリッド:</strong> 自社開発やWebサービス系では、週数回出社のハイブリッドが広がっています。地元での人的ネットワークを保ちつつ、開発寄りのキャリアを積みたい人向け。
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">C</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>名古屋在住×首都圏企業のフルリモート:</strong> 居住地を変えずに首都圏水準の年収・案件を狙える選択肢。
-                <Link href="/area/remote/" className="text-blue-600 hover:underline">フルリモートIT転職ガイド</Link>
+                <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
                 もあわせて検討する価値があります。
               </p>
             </div>
@@ -264,7 +264,7 @@ export default function NagoyaAreaPage() {
                 {salaryByAge.map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-3 py-3 border border-slate-200 font-medium">{row.age}</td>
-                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{row.salary}</td>
+                    <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">{row.salary}</td>
                     <td className="px-3 py-3 border border-slate-200 text-slate-600">{row.note}</td>
                   </tr>
                 ))}
@@ -276,9 +276,9 @@ export default function NagoyaAreaPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             名古屋で年収を考える際は、額面だけでなく生活コストとのバランスを見るのが現実的です。住居費が首都圏より抑えやすいエリアでは、同じ額面でも可処分所得に差が出ます。逆に首都圏のフルリモート求人を選べば、名古屋の生活コストのまま高めの額面を狙える可能性もあります。年代別の考え方は
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収アップ</Link>
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収アップ</Link>
             ・
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>
             も参考にしてください。
           </p>
         </section>
@@ -291,20 +291,20 @@ export default function NagoyaAreaPage() {
           </p>
           <div className="space-y-4">
             {agents.map((a, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">
                   {i + 1}.{" "}
                   <Link href={a.href} className="hover:underline">
                     {a.name}
                   </Link>
                 </h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{a.point}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{a.point}</p>
               </div>
             ))}
           </div>
           <p className="text-xs text-slate-500 mt-3">
             ※ 各社の対応エリア・求人傾向は時点により変動します。複数社の比較は
-            <Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント比較</Link>
+            <Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>
             を参照してください。
           </p>
         </section>
@@ -388,11 +388,11 @@ export default function NagoyaAreaPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             年代別の市場感は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>
             、自分の市場価値の測り方は
-            <Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の見極め方</Link>
+            <Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の見極め方</Link>
             もあわせてご覧ください。
           </p>
         </section>
@@ -421,7 +421,7 @@ export default function NagoyaAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -441,7 +441,7 @@ export default function NagoyaAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

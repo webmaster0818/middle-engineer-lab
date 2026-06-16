@@ -104,7 +104,7 @@ export default function PortfolioPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -123,7 +123,7 @@ export default function PortfolioPage() {
               { num: "3", title: "実務知見の延長であること", desc: "業務で得た課題感を個人開発・ブログ・登壇に昇華する。守秘義務を守りつつ汎用化するのがコツ。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -142,21 +142,21 @@ export default function PortfolioPage() {
         <section id="github" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">2. GitHubの見せ方（プロフィール・ピン留め・草）</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">プロフィールREADMEで第一印象を作る</h3>
-              <p className="text-sm text-blue-700">プロフィールトップに表示されるREADMEに、得意技術・経験領域・代表的な成果物・連絡先をまとめます。採用担当が最初に見る『顔』なので、整っているだけで印象が変わります。</p>
+              <p className="text-sm text-petrol-deep">プロフィールトップに表示されるREADMEに、得意技術・経験領域・代表的な成果物・連絡先をまとめます。採用担当が最初に見る『顔』なので、整っているだけで印象が変わります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ピン留めは『見てほしい順』に厳選する</h3>
-              <p className="text-sm text-blue-700">最大6つのピン留め枠には、READMEが整っていて技術判断が伝わるリポジトリだけを置きます。中途半端な学習用リポジトリは外し、質で勝負します。</p>
+              <p className="text-sm text-petrol-deep">最大6つのピン留め枠には、READMEが整っていて技術判断が伝わるリポジトリだけを置きます。中途半端な学習用リポジトリは外し、質で勝負します。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">草（コントリビューション）は継続性の証明</h3>
-              <p className="text-sm text-blue-700">毎日埋める必要はありませんが、活動が継続していることは伝わります。業務リポジトリが非公開でも、個人開発やOSSへのコミットで可視化できます。</p>
+              <p className="text-sm text-petrol-deep">毎日埋める必要はありませんが、活動が継続していることは伝わります。業務リポジトリが非公開でも、個人開発やOSSへのコミットで可視化できます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">READMEに技術選定の理由を書く</h3>
-              <p className="text-sm text-blue-700">「アーキテクチャ図」「なぜこの構成にしたか」「工夫した点・残課題」をREADMEに書くと、コードを全部読まなくても実務力が伝わります。ミドル層が最も差をつけやすいポイントです。</p>
+              <p className="text-sm text-petrol-deep">「アーキテクチャ図」「なぜこの構成にしたか」「工夫した点・残課題」をREADMEに書くと、コードを全部読まなくても実務力が伝わります。ミドル層が最も差をつけやすいポイントです。</p>
             </div>
           </div>
         </section>
@@ -203,7 +203,7 @@ export default function PortfolioPage() {
               "新技術を実務に導入する際の検証プロセス",
             ].map((t, i) => (
               <li key={i} className="flex gap-2 text-sm text-slate-600">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>{t}
+                <span className="text-petrol font-bold shrink-0">✓</span>{t}
               </li>
             ))}
           </ul>
@@ -226,7 +226,7 @@ export default function PortfolioPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">コミュニティ運営</h3>
-              <p className="text-sm text-slate-600">勉強会の主催・運営は、影響力やリーダーシップの証明になります。EM・テックリード志向のミドル層には特に効果的です。関連: <Link href="/knowledge/management/" className="text-blue-600 underline">マネジメントキャリア</Link>。</p>
+              <p className="text-sm text-slate-600">勉強会の主催・運営は、影響力やリーダーシップの証明になります。EM・テックリード志向のミドル層には特に効果的です。関連: <Link href="/knowledge/management/" className="text-petrol underline">マネジメントキャリア</Link>。</p>
             </div>
           </div>
         </section>
@@ -263,7 +263,7 @@ export default function PortfolioPage() {
                 "業務由来のコード・社名・内部数値が含まれていない",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>{c}
+                  <span className="text-petrol font-bold shrink-0">✓</span>{c}
                 </li>
               ))}
             </ul>
@@ -274,13 +274,13 @@ export default function PortfolioPage() {
         <section id="age" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">8. 30代・40代の見せ方の違い</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の幅と設計判断を見せる</h3>
-              <p className="text-sm text-blue-700">手を動かせることに加え、技術選定やリファクタの判断ができることを成果物とブログで示すと効果的です。Web系・新領域への挑戦時はポートフォリオの効果が大きくなります。関連: <Link href="/age/30s/" className="text-blue-700 underline">30代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">手を動かせることに加え、技術選定やリファクタの判断ができることを成果物とブログで示すと効果的です。Web系・新領域への挑戦時はポートフォリオの効果が大きくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：技術の証明＋影響力を見せる</h3>
-              <p className="text-sm text-blue-700">40代は『手を動かせること』を疑われがちなので、現役性を示すGitHub・ブログが有効です。同時に登壇・OSS・コミュニティ運営など影響力の裏づけを添えると、マネジメント・テックリード採用で強みになります。関連: <Link href="/age/40s/" className="text-blue-700 underline">40代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">40代は『手を動かせること』を疑われがちなので、現役性を示すGitHub・ブログが有効です。同時に登壇・OSS・コミュニティ運営など影響力の裏づけを添えると、マネジメント・テックリード採用で強みになります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>。</p>
             </div>
           </div>
         </section>
@@ -305,7 +305,7 @@ export default function PortfolioPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">成果物の見せ方をプロに相談しよう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、応募先に刺さるポートフォリオ・成果物の見せ方を具体的にアドバイスしてくれます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -321,7 +321,7 @@ export default function PortfolioPage() {
               { name: "市場価値の調べ方", href: "/knowledge/market-value/" },
               { name: "40代エンジニア転職のリアル", href: "/knowledge/40s-reality/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

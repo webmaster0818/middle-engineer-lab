@@ -129,7 +129,7 @@ export default function DirectApplyPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -139,7 +139,7 @@ export default function DirectApplyPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：状況で使い分け、多くは併用</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               「大手・非公開求人はエージェント経由」「ベンチャー・志望が明確な企業は直接応募」が基本の使い分けです。多くの30代・40代エンジニアには、<strong>IT特化型エージェント＋Green等の直接応募の併用</strong>が現実的です。
@@ -184,7 +184,7 @@ export default function DirectApplyPage() {
         <section id="green" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">Greenなど直接応募型の使い方</h2>
           <p className="text-slate-600 text-sm leading-relaxed mb-4">
-            <Link href="/review/green/" className="text-blue-600 hover:underline">Green</Link>はエージェントではなく成功報酬型の転職サイト（ダイレクトリクルーティング）です。掲載企業9,000社以上・求人15,000件以上（媒体により30,000件以上とも・二次、幅あり）で、IT/Webベンチャー・スタートアップに強いのが特徴です。使い方の流れは次のとおりです。
+            <Link href="/review/green/" className="text-petrol hover:underline">Green</Link>はエージェントではなく成功報酬型の転職サイト（ダイレクトリクルーティング）です。掲載企業9,000社以上・求人15,000件以上（媒体により30,000件以上とも・二次、幅あり）で、IT/Webベンチャー・スタートアップに強いのが特徴です。使い方の流れは次のとおりです。
           </p>
           <div className="space-y-4">
             {[
@@ -194,7 +194,7 @@ export default function DirectApplyPage() {
               { num: "4", title: "企業の採用ページも併せてチェック", desc: "志望が固まっている企業は、採用ページから直接応募する手もあります。エージェント経由と重複しないよう管理表で整理しておきましょう。" },
             ].map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -205,7 +205,7 @@ export default function DirectApplyPage() {
             ))}
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            実力で評価されたい場合は、スキルチェックのランクでスカウトが届く<Link href="/review/paiza/" className="text-blue-600 hover:underline">paiza転職</Link>もダイレクト型の選択肢です。スカウトの使い方は<Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトの活用法</Link>を参照してください。
+            実力で評価されたい場合は、スキルチェックのランクでスカウトが届く<Link href="/review/paiza/" className="text-petrol hover:underline">paiza転職</Link>もダイレクト型の選択肢です。スカウトの使い方は<Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトの活用法</Link>を参照してください。
           </p>
         </section>
 
@@ -223,9 +223,9 @@ export default function DirectApplyPage() {
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>カジュアル面談で社風を確かめたい</span></li>
               </ul>
             </div>
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+            <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-5">
               <h3 className="font-bold text-blue-800 mb-3">エージェント経由が向いている人</h3>
-              <ul className="text-sm text-blue-700 space-y-2">
+              <ul className="text-sm text-petrol-deep space-y-2">
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>初めての転職で不安がある</span></li>
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>年収交渉を代行してほしい</span></li>
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>非公開求人にアクセスしたい</span></li>
@@ -241,9 +241,9 @@ export default function DirectApplyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">併用する場合のコツと例文</h2>
           <div className="space-y-4 mb-6">
             {combineTips.map((t) => (
-              <div key={t.title} className="bg-blue-50 rounded-lg p-5">
+              <div key={t.title} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-1">{t.title}</h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{t.desc}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{t.desc}</p>
               </div>
             ))}
           </div>
@@ -252,7 +252,7 @@ export default function DirectApplyPage() {
             <p className="px-4 py-3 text-sm text-slate-600 leading-relaxed">{declineExample.body}</p>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            併用時の管理表の作り方や断り方の例文は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数併用と管理術</Link>でまとめています。
+            併用時の管理表の作り方や断り方の例文は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数併用と管理術</Link>でまとめています。
           </p>
         </section>
 
@@ -267,7 +267,7 @@ export default function DirectApplyPage() {
               40代は年収交渉の比重が大きくなります。年収レンジの参考として、レバテック公表値では正社員SE 40代の平均年収は約618万円・年収1,000万円以上の割合は12.67%（2025年・ガイド記事）です。直接応募で自分の希望を伝えつつ、最終交渉や条件比較はエージェントの力を借りると有利に進められます。なお背景として、経産省の2019年公表の試算では2030年に最大約79万人のIT人材不足とされ、経験者の採用ニーズは依然高い状況です。
             </p>
             <p>
-              年代別の実態は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>も参考にしてください。
+              年代別の実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>も参考にしてください。
             </p>
           </div>
         </section>
@@ -296,7 +296,7 @@ export default function DirectApplyPage() {
           </p>
           <Link
             href="/compare/agents/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             IT転職エージェント10社比較を見る
           </Link>
@@ -317,7 +317,7 @@ export default function DirectApplyPage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

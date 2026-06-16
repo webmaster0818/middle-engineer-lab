@@ -147,7 +147,7 @@ export default function IijuAreaPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             なお、移住せずに地方在住のままフルリモートで働く戦略は
-            <Link href="/area/remote/" className="text-blue-600 hover:underline">地方在住×フルリモート転職の戦略</Link>
+            <Link href="/area/remote/" className="text-petrol hover:underline">地方在住×フルリモート転職の戦略</Link>
             にまとめています。本記事は「移住」という選択を含む人向けです。
           </p>
         </section>
@@ -161,7 +161,7 @@ export default function IijuAreaPage() {
           ]}
         />
 
-        <section className="mb-10 bg-blue-50 border border-blue-100 rounded-xl p-6">
+        <section className="mb-10 bg-petrol-soft border border-blue-100 rounded-xl p-6">
           <h2 className="text-lg font-bold text-blue-900 mb-3">結論：移住で失敗しないために</h2>
           <ul className="space-y-2 text-sm text-blue-900">
             <li>① <strong>転職（特にフルリモート求人の確保）を先に</strong>決めてから移住する。順番を逆にしない。</li>
@@ -172,7 +172,7 @@ export default function IijuAreaPage() {
 
         <nav className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ul className="space-y-1.5 text-sm text-blue-700">
+          <ul className="space-y-1.5 text-sm text-petrol-deep">
             <li><a href="#market" className="hover:underline">地方移住×エンジニア転職の特徴</a></li>
             <li><a href="#factors" className="hover:underline">移住先を選ぶときの判断軸</a></li>
             <li><a href="#strategy" className="hover:underline">移住と転職の進め方</a></li>
@@ -245,23 +245,23 @@ export default function IijuAreaPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">1</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
                 <p className="text-sm text-slate-600"><strong>働き方の軸を決める:</strong> 地元企業かフルリモートか。フルリモート前提なら居住地の自由度が高く、移住先を後から選べる。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">2</span>
-                <p className="text-sm text-slate-600"><strong>仕事を先に確保:</strong> フルリモート求人の確保、または現職のリモート可否を確定させてから移住する。先に移住するのはリスクが高い。<Link href="/area/remote/" className="text-blue-600 hover:underline">フルリモート転職の戦略</Link>を参照。</p>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
+                <p className="text-sm text-slate-600"><strong>仕事を先に確保:</strong> フルリモート求人の確保、または現職のリモート可否を確定させてから移住する。先に移住するのはリスクが高い。<Link href="/area/remote/" className="text-petrol hover:underline">フルリモート転職の戦略</Link>を参照。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">3</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
                 <p className="text-sm text-slate-600"><strong>移住先を下見:</strong> 通信環境・生活インフラ・作業スペースを現地で確認。可能なら季節を変えて複数回訪れる。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">4</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">4</span>
                 <p className="text-sm text-slate-600"><strong>移住支援制度を確認:</strong> 自治体により制度がある場合がある。対象条件・申請期限は必ず公式で確認（金額の事前断定はしない）。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">5</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">5</span>
                 <p className="text-sm text-slate-600"><strong>住居・ネット・コミュニティを整える:</strong> 光回線の有無を最優先で確認。現地のITコミュニティに参加すると孤立を防げる。</p>
               </div>
             </div>
@@ -303,7 +303,7 @@ export default function IijuAreaPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
             地元企業に転職する場合は首都圏よりやや低めの提示になる傾向があります。フルリモートで首都圏企業に就けば全国水準に近づけやすく、生活コスト差を考慮すると実質的な可処分所得で有利になる場合があります。ただし「移住すれば必ず得」とは断定できません。各オファーの内訳と生活コストを合わせて試算しましょう。交渉の進め方は
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>
             を参照してください。
           </p>
         </section>
@@ -315,10 +315,10 @@ export default function IijuAreaPage() {
           </p>
           <div className="space-y-4">
             {agents.map((a, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {a.name}</h3>
-                <p className="text-sm text-blue-700 leading-relaxed mb-2">{a.point}</p>
-                <Link href={a.href} className="text-sm font-medium text-blue-700 hover:underline">
+                <p className="text-sm text-petrol-deep leading-relaxed mb-2">{a.point}</p>
+                <Link href={a.href} className="text-sm font-medium text-petrol-deep hover:underline">
                   {a.name}の詳細レビューを見る →
                 </Link>
               </div>
@@ -336,7 +336,7 @@ export default function IijuAreaPage() {
               <h3 className="font-bold text-slate-800 mb-2">30代：ライフプランと合わせて移住を設計</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 30代は結婚・出産・住宅といったライフイベントと移住が重なりやすい時期です。フルリモート前提なら居住地の自由度が高く、家族の事情に合わせた地域選びがしやすくなります。仕事を確保したうえで、子育て・教育環境を含めて移住先を選ぶと後悔が少なくなります。
-                <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職戦略</Link>
+                <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職戦略</Link>
                 も参考に。
               </p>
             </div>
@@ -344,9 +344,9 @@ export default function IijuAreaPage() {
               <h3 className="font-bold text-slate-800 mb-2">40代：経験を活かしフルリモートで移住</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 40代は設計・マネジメント経験があれば、フルリモート前提でも評価されやすい層です。求人数は絞られますが、地元企業の中核ポジションや首都圏企業のリモート求人など選択肢はあります。年収だけでなく、定着して長く働ける環境かを重視して選ぶとミスマッチを防げます。
-                <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職戦略</Link>
+                <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職戦略</Link>
                 や
-                <Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代転職のリアル</Link>
+                <Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代転職のリアル</Link>
                 も確認を。
               </p>
             </div>
@@ -375,7 +375,7 @@ export default function IijuAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -388,7 +388,7 @@ export default function IijuAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

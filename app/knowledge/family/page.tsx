@@ -73,13 +73,13 @@ export default function FamilyPage() {
         <nav className="mb-10 border border-slate-200 rounded-lg p-5 bg-slate-50">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
           <ul className="space-y-2 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：判断軸は「家族の合意」と「最低年収ライン」</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">家族持ちの転職で失敗を避ける鍵は、活動を始める前に次の3点を固めることです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>1. <strong>家族の合意</strong>：検討段階から配偶者を巻き込み、方向性をすり合わせる</li>
@@ -133,7 +133,7 @@ export default function FamilyPage() {
               <ul className="space-y-2 text-sm text-red-900">{salaryAvoidCases.map((c, i) => (<li key={i}>✕ {c}</li>))}</ul>
             </div>
           </div>
-          <p className="text-slate-600 leading-relaxed mt-4">判断の前提として、自分の市場価値を複数のエージェントで把握しておくことが重要です。詳しくは<Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">転職での年収の変動</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>を参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed mt-4">判断の前提として、自分の市場価値を複数のエージェントで把握しておくことが重要です。詳しくは<Link href="/knowledge/salary-change/" className="text-petrol hover:underline">転職での年収の変動</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>を参考にしてください。</p>
         </section>
 
         <section id="relocation" className="mb-10 scroll-mt-20">
@@ -155,10 +155,10 @@ export default function FamilyPage() {
         <section id="risk" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">家族のリスクを最小化する進め方</h2>
           <div className="space-y-3">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">1. 生活防衛資金を確保してから動く</h3><p className="text-sm text-blue-700">想定外に備え、生活費の数か月分を確保したうえで活動を始めると、焦って条件の悪い内定を受けるリスクを避けられます。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">2. 在職中に内定を確保する</h3><p className="text-sm text-blue-700">収入を維持したまま選考を進めれば、納得いくまで複数社を比較できます。有給を使った面接日程の調整はエージェントに依頼可能です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">3. 複数内定で総合待遇を比較する</h3><p className="text-sm text-blue-700">年収だけでなく、リモート可否・残業・退職金・入社日の柔軟性まで含めて比較します。<Link href="/knowledge/offer-compare/" className="text-blue-700 underline">複数内定の比較方法</Link>が参考になります。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">4. 入社日を家族の都合に合わせる</h3><p className="text-sm text-blue-700">子どもの学期の区切りや家族の行事に合わせた入社日は、多くの企業が調整に応じます。遠慮せず相談しましょう。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">1. 生活防衛資金を確保してから動く</h3><p className="text-sm text-petrol-deep">想定外に備え、生活費の数か月分を確保したうえで活動を始めると、焦って条件の悪い内定を受けるリスクを避けられます。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">2. 在職中に内定を確保する</h3><p className="text-sm text-petrol-deep">収入を維持したまま選考を進めれば、納得いくまで複数社を比較できます。有給を使った面接日程の調整はエージェントに依頼可能です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">3. 複数内定で総合待遇を比較する</h3><p className="text-sm text-petrol-deep">年収だけでなく、リモート可否・残業・退職金・入社日の柔軟性まで含めて比較します。<Link href="/knowledge/offer-compare/" className="text-petrol-deep underline">複数内定の比較方法</Link>が参考になります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">4. 入社日を家族の都合に合わせる</h3><p className="text-sm text-petrol-deep">子どもの学期の区切りや家族の行事に合わせた入社日は、多くの企業が調整に応じます。遠慮せず相談しましょう。</p></div>
           </div>
         </section>
 
@@ -182,7 +182,7 @@ export default function FamilyPage() {
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の家族持ち独自視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアは、守るものがある分だけ慎重になりがちですが、市況自体は経験者に追い風です。経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されており、即戦力の需要は高い状態が続くと見込まれています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
-          <p className="text-slate-600 leading-relaxed">大切なのは、こうした市況を「家族を説得する客観材料」として使うことです。感情ではなくデータと計画で示せば、配偶者の不安も和らぎます。40代特有の現実は<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニアの転職リアル</Link>、年齢の論点は<Link href="/knowledge/age-discrimination/" className="text-blue-600 hover:underline">年齢と転職</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed">大切なのは、こうした市況を「家族を説得する客観材料」として使うことです。感情ではなくデータと計画で示せば、配偶者の不安も和らぎます。40代特有の現実は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニアの転職リアル</Link>、年齢の論点は<Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">年齢と転職</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -193,7 +193,7 @@ export default function FamilyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">家族の事情に配慮した転職をサポート</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、リモート可・残業少なめ・転勤なしの求人を条件に合わせて紹介してもらえます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -206,7 +206,7 @@ export default function FamilyPage() {
               { name: "年収交渉のコツ", href: "/knowledge/salary-negotiation/" },
               { name: "転職を後悔しないためのチェックリスト", href: "/knowledge/regret/" },
               { name: "リモートワーク転職ガイド", href: "/knowledge/remote-work/" },
-            ].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            ].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

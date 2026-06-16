@@ -118,7 +118,7 @@ export default function TenshokuDraftVsFindyPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -129,7 +129,7 @@ export default function TenshokuDraftVsFindyPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
               年収を金額で見てから動きたい・レジュメで勝負するなら「転職ドラフト」、GitHubの公開活動・コードで評価されモダン自社開発を狙うなら「Findy」。
             </p>
@@ -171,9 +171,9 @@ export default function TenshokuDraftVsFindyPage() {
         <section id="axis" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">評価される軸の違い（最重要）</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">転職ドラフト：レジュメ（経歴・成果）</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 職務経歴（技術スタック・担当領域・成果）を読み込んだ上で企業が「提示年収＋期待役割」を明示して指名します。書き込んだ分だけ評価されやすく、マネジメントや設計などコード以外の実績も伝えられるのが特徴です。
               </p>
             </div>
@@ -192,9 +192,9 @@ export default function TenshokuDraftVsFindyPage() {
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の見え方で比較</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">転職ドラフト：最初に金額が見える</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 企業が最初に提示年収を明示するため、市場価値を金額で把握できます。提示年収の中央値は概ね750〜800万円台（2024〜2025年・運営公表系の二次情報）。内定年収が提示年収の90%を下回ることを禁止する『提示年収90%ルール』で、最初の金額が大きく目減りしにくいのも特徴です。
               </p>
             </div>
@@ -217,7 +217,7 @@ export default function TenshokuDraftVsFindyPage() {
               <h3 className="font-bold text-slate-800 mb-3">転職ドラフトが向く領域</h3>
               <div className="flex flex-wrap gap-2">
                 {["ITエンジニア全般", "実務経験者", "年収最大化", "レジュメで勝負", "マネジメント・設計も可", "20代後半〜30代中心"].map((tag, i) => (
-                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700">{tag}</span>
+                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
               <p className="text-xs text-slate-500 mt-3">※ 登録者は20代後半〜30代の即戦力層が中心という二次情報。</p>
@@ -241,7 +241,7 @@ export default function TenshokuDraftVsFindyPage() {
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             FindyはGitHubの公開活動が少ないとスカウトが届きにくいという別種のハードルがあります。業務でプライベートリポジトリしか触らない場合は、公開できる範囲でサンプルコードや個人開発を置いて活動量を増やすか、Web全体の発信を評価する
-            <Link href="/review/lapras/" className="text-blue-600 hover:underline">LAPRAS</Link>
+            <Link href="/review/lapras/" className="text-petrol hover:underline">LAPRAS</Link>
             の併用が現実的です。
           </p>
         </section>
@@ -282,9 +282,9 @@ export default function TenshokuDraftVsFindyPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">転職ドラフトが向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 <li>✓ IT実務経験があり年収を上げたい</li>
                 <li>✓ 自分の市場価値を「金額」で知りたい</li>
                 <li>✓ 提示年収を見てから選考に進みたい</li>
@@ -315,7 +315,7 @@ export default function TenshokuDraftVsFindyPage() {
                 { num: "3", title: "併用＋LAPRAS／レバテックキャリア", desc: "評価軸が異なるため併用で機会が増える。Web全体の発信を評価するLAPRAS、求人数の多いレバテックキャリアを足すと、評価軸の違う複数ルートを確保できる。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div>
                     <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                     <p className="text-sm text-slate-600">{item.desc}</p>
@@ -325,7 +325,7 @@ export default function TenshokuDraftVsFindyPage() {
             </div>
             <p className="text-xs text-slate-500 mt-4">
               スカウト型サービスの比較は
-              <Link href="/compare/scout-agents/" className="text-blue-600 hover:underline">スカウト型エージェントの比較</Link>
+              <Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型エージェントの比較</Link>
               で詳しく扱っています。
             </p>
           </div>
@@ -371,7 +371,7 @@ export default function TenshokuDraftVsFindyPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -384,7 +384,7 @@ export default function TenshokuDraftVsFindyPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

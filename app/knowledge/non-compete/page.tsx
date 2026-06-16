@@ -143,7 +143,7 @@ export default function NonCompetePage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -152,7 +152,7 @@ export default function NonCompetePage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：サイン＝必ず有効ではない</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               競業避止の誓約書に署名しても、<strong>その内容が必ず有効になるわけではありません</strong>。退職後の競業避止義務は職業選択の自由を制限するため、合理的な範囲を超える部分は無効と判断されることがあります。有効性は、経済産業省が整理した6つの観点などを総合して、最終的に裁判所が判断します。
@@ -213,7 +213,7 @@ export default function NonCompetePage() {
           <div className="space-y-4">
             {criteria.map((c) => (
               <div key={c.no} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-blue-600 font-bold text-lg shrink-0">{c.no}</span>
+                <span className="text-petrol font-bold text-lg shrink-0">{c.no}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{c.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{c.desc}</p>
@@ -268,7 +268,7 @@ export default function NonCompetePage() {
               "競合への転職を予定している、または請求を受けたら、早めに弁護士へ相談する",
             ].map((c) => (
               <li key={c} className="flex items-start gap-2 text-sm text-slate-700">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span>{c}</span>
               </li>
             ))}
@@ -295,11 +295,11 @@ export default function NonCompetePage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">代償措置の有無を冷静に見る</h3>
               <p>
-                代償措置（基準⑥）がない競業避止は有効性が弱まる傾向があります。ただし有効・無効の最終判断は裁判所が行うため、「代償がないから無効に違いない」と自己判断するのは危険です。退職交渉とあわせて、必要なら専門家に確認しましょう。退職の進め方は<Link href="/knowledge/resignation/" className="text-blue-600 hover:underline">退職の伝え方</Link>も参考になります。
+                代償措置（基準⑥）がない競業避止は有効性が弱まる傾向があります。ただし有効・無効の最終判断は裁判所が行うため、「代償がないから無効に違いない」と自己判断するのは危険です。退職交渉とあわせて、必要なら専門家に確認しましょう。退職の進め方は<Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の伝え方</Link>も参考になります。
               </p>
             </div>
             <p>
-              年代別の転職事情は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>もご覧ください。
+              年代別の転職事情は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>もご覧ください。
             </p>
           </div>
         </section>
@@ -346,7 +346,7 @@ export default function NonCompetePage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

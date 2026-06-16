@@ -155,7 +155,7 @@ export default function GamingPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -166,7 +166,7 @@ export default function GamingPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ゲーム業界転職はポートフォリオと専門性が鍵</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               ゲーム業界への転職は、技術力を「見える形」で示せるかで決まります。未経験ならポートフォリオ、経験者なら専門領域での実績が武器になります。
             </p>
@@ -243,11 +243,11 @@ export default function GamingPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             技術別の市場の攻め方は
-            <Link href="/skill/unity/" className="text-blue-600 hover:underline">Unity転職ガイド</Link>
+            <Link href="/skill/unity/" className="text-petrol hover:underline">Unity転職ガイド</Link>
             ・
-            <Link href="/skill/csharp/" className="text-blue-600 hover:underline">C#/.NET転職ガイド</Link>
+            <Link href="/skill/csharp/" className="text-petrol hover:underline">C#/.NET転職ガイド</Link>
             ・
-            <Link href="/skill/go/" className="text-blue-600 hover:underline">Go転職ガイド</Link>
+            <Link href="/skill/go/" className="text-petrol hover:underline">Go転職ガイド</Link>
             も参考にしてください。
           </p>
         </section>
@@ -275,7 +275,7 @@ export default function GamingPage() {
                 ].map(([label, val], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{label}</td>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-b border-slate-200 whitespace-nowrap">{val}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-b border-slate-200 whitespace-nowrap">{val}</td>
                   </tr>
                 ))}
               </tbody>
@@ -286,7 +286,7 @@ export default function GamingPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             年収の詳しい考え方は
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">エンジニア転職で年収は上がる？</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">エンジニア転職で年収は上がる？</Link>
             を参考にしてください。
           </p>
         </section>
@@ -307,7 +307,7 @@ export default function GamingPage() {
                     <Link
                       key={j}
                       href={l.href}
-                      className="text-xs font-medium text-blue-600 border border-blue-200 rounded-full px-3 py-1 hover:bg-blue-50"
+                      className="text-xs font-medium text-petrol border border-[var(--line)] rounded-full px-3 py-1 hover:bg-petrol-soft"
                     >
                       {l.name} →
                     </Link>
@@ -325,15 +325,15 @@ export default function GamingPage() {
             ゲーム業界は専門性が高く、業界に精通した担当者がいるかどうかで提案の質が変わります。専門特化型と総合型を組み合わせるのが効率的です。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Geekly（ギークリー）：IT/Web/ゲーム特化</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 株式会社Geekly（設立2011年8月・渋谷区）が運営するIT/Web/ゲーム業界専門のエージェント。提案スピードに強みがあり、実務経験者への提案数が多いとされます。公開求人は37,000件以上（2026年1月時点・非公開含め46,000件以上[2026年5月時点]の二次集計値）、年収アップ率は約81%・平均上昇額約76万円（2025年9月時点・公表値）とされています。ゲーム・エンタメ企業の求人を探す際の有力な選択肢です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レバテックキャリア：IT全般＋ゲーム案件</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 IT/Web特化で高年収帯の求人比率が高いとされるエージェント。ゲームに限定せずIT全般を広く比較したい場合に、Geeklyと併用すると選択肢を広げられます。
               </p>
             </div>
@@ -343,11 +343,11 @@ export default function GamingPage() {
           </p>
           <p className="text-slate-600 leading-relaxed mt-4">
             各社の詳細は
-            <Link href="/review/geekly/" className="text-blue-600 hover:underline">Geeklyの評判</Link>
+            <Link href="/review/geekly/" className="text-petrol hover:underline">Geeklyの評判</Link>
             ・
-            <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリアの評判</Link>
+            <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリアの評判</Link>
             、使い分けは
-            <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの併用術</Link>
+            <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの併用術</Link>
             を参考にしてください。
           </p>
         </section>
@@ -363,7 +363,7 @@ export default function GamingPage() {
               { step: "4", title: "ゲームに強いエージェントに登録", desc: "Geekly（IT/Web/ゲーム特化）を軸に、IT全般のレバテックキャリアを併用。ポートフォリオの見せ方も相談する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.step}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -380,20 +380,20 @@ export default function GamingPage() {
             ミドル層のゲームエンジニアは、若手と同じ土俵で実装速度を競うより、専門性・リード経験・マネジメントを軸にポジションを選ぶのが現実的です。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：専門領域で市場価値を高める</h3>
-              <p className="text-sm text-blue-700">サーバー/インフラ、TA、XRなど一つの専門を深めると差別化しやすい。Web系への転身も視野に入れやすく、選択肢が広い時期。</p>
+              <p className="text-sm text-petrol-deep">サーバー/インフラ、TA、XRなど一つの専門を深めると差別化しやすい。Web系への転身も視野に入れやすく、選択肢が広い時期。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：リード・マネジメントで勝負</h3>
-              <p className="text-sm text-blue-700">リードエンジニア、テクニカルディレクター、開発マネジメントなど、チームを率いる経験が活きる。求人は絞られるため、非公開求人を持つエージェントの活用が鍵になる。</p>
+              <p className="text-sm text-petrol-deep">リードエンジニア、テクニカルディレクター、開発マネジメントなど、チームを率いる経験が活きる。求人は絞られるため、非公開求人を持つエージェントの活用が鍵になる。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             年代別の戦略は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職ガイド</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職ガイド</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職ガイド</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職ガイド</Link>
             を参考にしてください。
           </p>
         </section>
@@ -418,7 +418,7 @@ export default function GamingPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ゲーム業界でキャリアアップを目指そう</h2>
           <p className="text-blue-100 text-sm mb-4">ゲーム・エンタメに強いエージェントに相談して、年収アップと希望のポジションの可能性を探りましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -437,7 +437,7 @@ export default function GamingPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

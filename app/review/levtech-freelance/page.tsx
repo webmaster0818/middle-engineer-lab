@@ -204,7 +204,7 @@ export default function LevtechFreelanceReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：実務経験のある経験者が、高単価・案件量で独立を狙うなら最有力</span>。一言でいえば「単価と案件の選択肢を最大化したい独立志向の経験者」向けのフリーランスエージェントです。
@@ -244,7 +244,7 @@ export default function LevtechFreelanceReview() {
                         className={`px-3 py-3 border-b border-slate-200 ${i === 0 || j === 0 ? "font-medium text-slate-700" : "text-slate-600"}`}
                       >
                         {j === 3 && cell === "/review/levtech/" ? (
-                          <Link href="/review/levtech/" className="text-blue-600 hover:underline">
+                          <Link href="/review/levtech/" className="text-petrol hover:underline">
                             /review/levtech/
                           </Link>
                         ) : (
@@ -259,7 +259,7 @@ export default function LevtechFreelanceReview() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
             「安定した正社員のまま年収を上げたい」方は、本記事ではなく
-            <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリアの評判記事</Link>
+            <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリアの評判記事</Link>
             をご覧ください。本記事はフリーランス（業務委託）として働く前提の解説です。
           </p>
         </section>
@@ -267,7 +267,7 @@ export default function LevtechFreelanceReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -304,27 +304,27 @@ export default function LevtechFreelanceReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">レバテックフリーランスの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. エンド直請け中心で高単価を狙いやすい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 エンド企業からの直請け案件が中心のため、多重下請けに比べて中間マージンが抑えられ、単価が高めになりやすいのが特徴です。利用者の平均単価68万円・中央値65万円・最高145万円という二次情報があります（時点・算出条件により変動）。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 案件量が業界最大手級</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 公開案件は1万件以上、公式系では約97,000件以上とも言われます（二次情報・確認不可）。案件数の多さは、希望条件に合う案件を比較しながら選べることに直結します。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. IT特化の担当と単価交渉・更新まで相談できる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 技術に詳しい担当と進められ、参画後も単価交渉・契約更新・次案件の相談を継続して受けられる点が、フリーランス系の口コミでも評価されています。満足度92.6%という二次情報もあります（調査主体・時期に注意）。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 利用者の平均年収が高い層が中心</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 利用者の平均年収は881万円という二次情報があります。スキルの高い経験者が好条件を得やすい構造で、30代・40代の経験を単価に反映させやすいサービスです。
               </p>
             </div>
@@ -404,11 +404,11 @@ export default function LevtechFreelanceReview() {
             </p>
             <p>
               「いつでも正社員に戻れる状態」を保っておくと、独立後のリスクは大きく下がります。考え方は
-              <Link href="/career/freelance-to-permanent/" className="text-blue-600 hover:underline">フリーランスから正社員に戻るキャリア</Link>
+              <Link href="/career/freelance-to-permanent/" className="text-petrol hover:underline">フリーランスから正社員に戻るキャリア</Link>
               や
-              <Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスと正社員の比較</Link>
+              <Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスと正社員の比較</Link>
               で詳しく整理しています。安定雇用を希望する場合は、正社員転職の
-              <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               に相談するのが近道です。
             </p>
           </div>
@@ -451,7 +451,7 @@ export default function LevtechFreelanceReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -487,16 +487,16 @@ export default function LevtechFreelanceReview() {
             </table>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/midworks/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/midworks/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Midworks（保障で安定）の評判 →
             </Link>
-            <Link href="/review/itpropartners/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/itpropartners/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ITプロパートナーズ（週2-3日）の評判 →
             </Link>
-            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               フリーランスエージェント比較 →
             </Link>
-            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               安定雇用ならレバテックキャリア →
             </Link>
           </div>
@@ -524,7 +524,7 @@ export default function LevtechFreelanceReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは無料カウンセリングで、あなたのスキルでの単価レンジを確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>
@@ -534,7 +534,7 @@ export default function LevtechFreelanceReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

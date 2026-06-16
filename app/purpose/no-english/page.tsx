@@ -86,7 +86,7 @@ export default function NoEnglishPage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             英語を使わずに働けるエンジニアの仕事は確かに存在します。国内顧客向けの業務システム、官公庁・自治体案件、国内SaaSの運用、社内システム部門などは、<strong>会話・メール・会議で英語を使わずに働ける</strong>領域です。ただし正直に言えば、エンジニアである以上『公式ドキュメントやエラーメッセージが英語』という場面は職種を問わず発生します。ここでいう英語不要とは『コミュニケーションで英語を使わない』という意味であって、技術情報の英語読解まで完全にゼロにできるわけではありません。本記事では、この区別を踏まえて英語不要の環境を見極める方法と、将来も英語が発生しにくい領域を解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 英語での会話・会議・メールを避けたい</li>
@@ -99,7 +99,7 @@ export default function NoEnglishPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>「英語不要」の実態と区別</li>
             <li>英語が発生しにくい職種・領域</li>
             <li>見極めのポイント</li>
@@ -114,7 +114,7 @@ export default function NoEnglishPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">英語の種類</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">英語不要環境での実態</th>
                 </tr>
@@ -166,7 +166,7 @@ export default function NoEnglishPage() {
               { num: "4", title: "外資による買収・資本関係を確認", desc: "外資系の親会社を持つ企業は、社内公用語や報告で英語が求められるケースがあります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -185,7 +185,7 @@ export default function NoEnglishPage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             おすすめは、<strong>会話・会議の英語は避けつつ、読む英語だけは少しずつ慣れておく</strong>折衷案です。これなら英語ストレスを避けながら将来の選択肢も残せます。英語を活かす方向に興味が出たら
-            <Link href="/purpose/english/" className="text-blue-600 hover:underline">英語を活かすエンジニア転職</Link>
+            <Link href="/purpose/english/" className="text-petrol hover:underline">英語を活かすエンジニア転職</Link>
             も比較してみてください。
           </p>
         </section>
@@ -197,7 +197,7 @@ export default function NoEnglishPage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             一方で、英語不要にこだわりすぎて応募先を狭めすぎないことも大切です。継続的な学習で読む英語に少し慣れておくことは、将来の選択肢を広げます。学び直しの進め方は
-            <Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの継続学習</Link>
+            <Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続学習</Link>
             も参考になります。
           </p>
         </section>
@@ -220,7 +220,7 @@ export default function NoEnglishPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">英語を使わない環境の求人を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">国内向け開発に強いIT特化型エージェントが、英語不要な職場を厳選して提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -234,7 +234,7 @@ export default function NoEnglishPage() {
               { name: "目的別ガイド一覧", href: "/purpose/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

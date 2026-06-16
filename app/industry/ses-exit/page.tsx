@@ -133,7 +133,7 @@ export default function SesExitPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -144,7 +144,7 @@ export default function SesExitPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SES脱出は経験の“見せ方”で決まる</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               SESからの脱出は十分に現実的です。鍵は「常駐していた」事実ではなく、「何を作り、どう関わったか」を言語化して示せるかどうかにあります。
             </p>
@@ -185,9 +185,9 @@ export default function SesExitPage() {
           </p>
           <div className="space-y-4">
             {destinations.map((d, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{d.title}</h3>
-                <p className="text-sm text-blue-700 mb-2">{d.desc}</p>
+                <p className="text-sm text-petrol-deep mb-2">{d.desc}</p>
                 <p className="text-xs text-slate-600">
                   <span className="font-medium">向いている人：</span>
                   {d.fit}
@@ -197,11 +197,11 @@ export default function SesExitPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             自社開発に絞った進め方は
-            <Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWeb系への転職</Link>
+            <Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>
             、エージェント選びは
-            <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリアの評判</Link>
+            <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリアの評判</Link>
             ・
-            <Link href="/review/mynavi-it/" className="text-blue-600 hover:underline">マイナビIT AGENTの評判</Link>
+            <Link href="/review/mynavi-it/" className="text-petrol hover:underline">マイナビIT AGENTの評判</Link>
             も参考になります。
           </p>
         </section>
@@ -217,16 +217,16 @@ export default function SesExitPage() {
               <p className="text-xs font-bold text-slate-500 mb-2">Before（伝わりにくい書き方）</p>
               <p className="text-sm text-slate-600">大手通信会社のプロジェクトに常駐し、開発業務を担当しました。</p>
             </div>
-            <div className="border border-blue-200 rounded-lg p-5 bg-blue-50">
-              <p className="text-xs font-bold text-blue-600 mb-2">After（評価される書き方）</p>
+            <div className="border border-[var(--line)] rounded-lg p-5 bg-petrol-soft">
+              <p className="text-xs font-bold text-petrol mb-2">After（評価される書き方）</p>
               <p className="text-sm text-slate-700">月間数百万PVのWebサービスのバックエンドをJava/Spring Bootで開発。5名チームでAPI設計・実装・単体テストを担当し、レスポンス改善で平均応答時間を短縮した。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed">
             ポイントは「使用技術・システム規模・自分の役割・定量的な成果」をセットで書くこと。守秘義務に配慮しつつ、再現性のある形で具体化します。書き方の詳細は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>
             、退職理由の伝え方を含む面接準備は
-            <Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接対策ガイド</Link>
+            <Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接対策ガイド</Link>
             を参照してください。
           </p>
         </section>
@@ -254,7 +254,7 @@ export default function SesExitPage() {
                 ].map(([label, val], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{label}</td>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-b border-slate-200 whitespace-nowrap">{val}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-b border-slate-200 whitespace-nowrap">{val}</td>
                   </tr>
                 ))}
               </tbody>
@@ -265,9 +265,9 @@ export default function SesExitPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             年収の詳しい考え方は
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">エンジニア転職で年収は上がる？</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">エンジニア転職で年収は上がる？</Link>
             、交渉のコツは
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>
             で解説しています。
           </p>
         </section>
@@ -284,7 +284,7 @@ export default function SesExitPage() {
               { step: "5", title: "内定獲得後に退職手続き", desc: "内定を得てから退職の意思を伝える。SES契約の更新タイミングに合わせると引き継ぎがスムーズ。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.step}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -301,22 +301,22 @@ export default function SesExitPage() {
             ミドル層がSESから脱出する場合、「とにかく自社開発へ」と焦るより、これまでの経験が活きる移行先を選ぶ方が成功率は高まります。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：実務経験を武器に選択肢を広げる</h3>
-              <p className="text-sm text-blue-700">開発実務の蓄積がある30代は、自社開発・SaaS・社内SEのいずれも狙いやすい時期。モダン技術のキャッチアップで「常駐から内製へ」の説得力を高められる。</p>
+              <p className="text-sm text-petrol-deep">開発実務の蓄積がある30代は、自社開発・SaaS・社内SEのいずれも狙いやすい時期。モダン技術のキャッチアップで「常駐から内製へ」の説得力を高められる。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：上流・調整力を活かせる先を狙う</h3>
-              <p className="text-sm text-blue-700">純粋な開発職だけでなく、ベンダーコントロールや要件整理の経験が活きる社内SE・PM・DX推進が現実的。求人数は絞られるため、非公開求人を持つエージェントの活用が鍵。</p>
+              <p className="text-sm text-petrol-deep">純粋な開発職だけでなく、ベンダーコントロールや要件整理の経験が活きる社内SE・PM・DX推進が現実的。求人数は絞られるため、非公開求人を持つエージェントの活用が鍵。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             年代別の戦略は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職ガイド</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職ガイド</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職ガイド</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職ガイド</Link>
             、複数エージェントの使い分けは
-            <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの併用術</Link>
+            <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの併用術</Link>
             を参考にしてください。
           </p>
         </section>
@@ -341,7 +341,7 @@ export default function SesExitPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">SESからの脱出、今日から始めよう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントに無料登録して、自社開発・社内SEの求人をチェックしてみませんか？</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -360,7 +360,7 @@ export default function SesExitPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

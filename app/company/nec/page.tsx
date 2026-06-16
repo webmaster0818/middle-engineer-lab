@@ -73,7 +73,7 @@ export default function NecCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（社会インフラ・AI・セキュリティの専門性）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・中核は<strong>社会インフラ／AI（生体認証）／クラウド／セキュリティ</strong>。社会的影響の大きい大規模システムに、専門性を持って関わりたい人に向く。</li>
@@ -88,7 +88,7 @@ export default function NecCompanyPage() {
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
@@ -108,9 +108,9 @@ export default function NecCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">社会インフラ・AI・セキュリティの幅広い事業</h3><p className="text-sm text-blue-700">NECは生体認証などのAI、社会インフラ、クラウド、セキュリティと事業領域が非常に広く、社会的影響の大きいシステムを手がけています。担当する事業によって扱う技術やドメインが大きく異なるのが特徴で、自分の専門性を活かせる領域を選びやすい一方、配属事業の見極めが重要になります。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ジョブ型人材マネジメントへの移行</h3><p className="text-sm text-blue-700">NECはジョブ型人材マネジメントへの移行を進めています。職務（ジョブ）の難易度・専門性に応じて処遇が決まる方向で、年功序列に依存しない評価が進みつつあります。専門性やマネジメント経験を持つミドル層にとっては、経験が処遇に反映されやすくなる側面があります。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">大手ならではの安定基盤</h3><p className="text-sm text-blue-700">提出会社単体で平均勤続年数16.6年・平均年齢42.6歳（2025年3月期・有報）と、長期勤続のミドル層が中核を占める組織です。安定した処遇（全従業員平均963万円）と幅広い事業ポートフォリオが、腰を据えて専門性を深めたい人にとっての魅力になります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">社会インフラ・AI・セキュリティの幅広い事業</h3><p className="text-sm text-petrol-deep">NECは生体認証などのAI、社会インフラ、クラウド、セキュリティと事業領域が非常に広く、社会的影響の大きいシステムを手がけています。担当する事業によって扱う技術やドメインが大きく異なるのが特徴で、自分の専門性を活かせる領域を選びやすい一方、配属事業の見極めが重要になります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ジョブ型人材マネジメントへの移行</h3><p className="text-sm text-petrol-deep">NECはジョブ型人材マネジメントへの移行を進めています。職務（ジョブ）の難易度・専門性に応じて処遇が決まる方向で、年功序列に依存しない評価が進みつつあります。専門性やマネジメント経験を持つミドル層にとっては、経験が処遇に反映されやすくなる側面があります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">大手ならではの安定基盤</h3><p className="text-sm text-petrol-deep">提出会社単体で平均勤続年数16.6年・平均年齢42.6歳（2025年3月期・有報）と、長期勤続のミドル層が中核を占める組織です。安定した処遇（全従業員平均963万円）と幅広い事業ポートフォリオが、腰を据えて専門性を深めたい人にとっての魅力になります。</p></div>
           </div>
         </section>
 
@@ -119,13 +119,13 @@ export default function NecCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">NECは事業領域が非常に広く、全社で統一された開発言語・技術スタックの一覧を公式に断定的に示しているわけではありません。そのため当ガイドでは、公式に確認できない言語表を創作して掲載することはしません。以下は公開情報から確認できる主な事業・技術領域です。具体的な使用技術は配属される事業・プロジェクトにより異なります。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AI（生体認証等）</strong>：顔認証をはじめとする生体認証技術で世界的に知られる領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>社会インフラ</strong>：行政・通信・公共など、社会的影響の大きい大規模システム</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド</strong>：システム基盤・クラウドサービスの構築運用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>セキュリティ</strong>：サイバーセキュリティを含む安全・安心の領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI（生体認証等）</strong>：顔認証をはじめとする生体認証技術で世界的に知られる領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>社会インフラ</strong>：行政・通信・公共など、社会的影響の大きい大規模システム</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：システム基盤・クラウドサービスの構築運用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>セキュリティ</strong>：サイバーセキュリティを含む安全・安心の領域</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：NEC公式（事業領域の公開情報）。具体的な使用言語・スタックは案件・事業により異なるため、各募集要項でご確認ください。関連するスキル解説は<Link href="/skill/ai-ml/" className="text-blue-600 hover:underline">AI／機械学習</Link>・<Link href="/skill/security/" className="text-blue-600 hover:underline">セキュリティ</Link>・<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラ</Link>のページも参照してください。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：NEC公式（事業領域の公開情報）。具体的な使用言語・スタックは案件・事業により異なるため、各募集要項でご確認ください。関連するスキル解説は<Link href="/skill/ai-ml/" className="text-petrol hover:underline">AI／機械学習</Link>・<Link href="/skill/security/" className="text-petrol hover:underline">セキュリティ</Link>・<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>のページも参照してください。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -154,10 +154,10 @@ export default function NecCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報ベースの一般化）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。創作した質問例は掲載せず、社会インフラ・AI・セキュリティという事業特性から評価されやすいと一般に考えられるポイントのみを挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>担当領域（AI・インフラ・セキュリティ等）の専門性の深さ</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>社会的影響の大きい大規模システムに向き合う責任感・品質意識</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>顧客・関係者を巻き込むプロジェクト推進・上流の経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>ジョブ型の役割に対する適合（職務に対する明確な強み）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>担当領域（AI・インフラ・セキュリティ等）の専門性の深さ</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>社会的影響の大きい大規模システムに向き合う責任感・品質意識</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>顧客・関係者を巻き込むプロジェクト推進・上流の経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>ジョブ型の役割に対する適合（職務に対する明確な強み）</li>
           </ul>
         </section>
 
@@ -174,7 +174,7 @@ export default function NecCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>提出会社単体の<strong>平均年齢は42.6歳、平均勤続年数16.6年</strong>（2025年3月期・有報）。ミドル層が中核を占める落ち着いた組織で、30代・40代が多数派です。中途で入る場合は、即戦力としての専門性に加え、大企業ならではの進め方や品質意識に馴染めるかが定着のポイントになります。</p>
             <p>NECは<strong>ジョブ型人材マネジメントへ移行</strong>しており、職務・専門性に応じた処遇が進む方向です。これは、年功に頼らず専門性で評価されたい30代・40代にとって追い風になり得ます。AI（生体認証）・セキュリティ・社会インフラといった領域で専門性を深めてきた人にとっては、経験が活きる希少なポジションが見つかる可能性があります。一方で、モダンWeb技術やスタートアップ的なスピードを最優先したい場合は、大企業・社会インフラ特有の進め方との相性を事前に見極めることをおすすめします。</p>
-            <p>年収面では全従業員平均963万円（2025年3月期・単体）が一つの基準となり、前職年収・賞与比率との比較が重要です。転職活動では、ミドル層の年収交渉・キャリア整理の観点も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>、<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>もあわせて確認してください。</p>
+            <p>年収面では全従業員平均963万円（2025年3月期・単体）が一つの基準となり、前職年収・賞与比率との比較が重要です。転職活動では、ミドル層の年収交渉・キャリア整理の観点も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>、<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -214,15 +214,15 @@ export default function NecCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">NEC転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。大手電機・メーカー・社会インフラ系の求人を幅広くカバー。" }, { name: "リクルートエージェント（IT）", href: "/review/recruit-it/", desc: "求人数・実績が豊富で、大手企業の中途採用に強い。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。専門性の高いミドルのポジションに出会いやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。大手電機・メーカー・社会インフラ系の求人を幅広くカバー。" }, { name: "リクルートエージェント（IT）", href: "/review/recruit-it/", desc: "求人数・実績が豊富で、大手企業の中途採用に強い。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。専門性の高いミドルのポジションに出会いやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">NECへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手IT・社会インフラに強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/doda-it/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/doda-it/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -233,7 +233,7 @@ export default function NecCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "富士通の転職ガイド", href: "/company/fujitsu/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "NTTデータの転職ガイド", href: "/company/ntt-data/" }, { name: "AI／機械学習エンジニアの転職", href: "/skill/ai-ml/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "40代エンジニアの転職", href: "/age/40s/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "富士通の転職ガイド", href: "/company/fujitsu/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "NTTデータの転職ガイド", href: "/company/ntt-data/" }, { name: "AI／機械学習エンジニアの転職", href: "/skill/ai-ml/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "40代エンジニアの転職", href: "/age/40s/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

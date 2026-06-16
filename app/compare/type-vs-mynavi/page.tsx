@@ -117,7 +117,7 @@ export default function TypeVsMynaviPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -128,7 +128,7 @@ export default function TypeVsMynaviPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
               首都圏で年収交渉に強い支援を受けるなら「type転職エージェントIT」、全国対応で書類添削・面接対策の手厚いサポートなら「マイナビIT AGENT」。
             </p>
@@ -170,9 +170,9 @@ export default function TypeVsMynaviPage() {
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収アップ実績で比較</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">type転職エージェントIT</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 年収アップ希望者の約71%が増収、平均増額92万円。ITエンジニアに限ると平均増額124万円（いずれも2021年10月〜2022年9月の自社調査）。年収交渉・面接対策への注力が、具体的な増収実績に表れています。
               </p>
             </div>
@@ -205,7 +205,7 @@ export default function TypeVsMynaviPage() {
               <h3 className="font-bold text-slate-800 mb-3">type転職エージェントITが強い領域</h3>
               <div className="flex flex-wrap gap-2">
                 {["首都圏のIT/Web", "年収交渉", "面接対策", "増収実績", "ITエンジニア平均増額124万円"].map((tag, i) => (
-                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700">{tag}</span>
+                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
               <p className="text-xs text-slate-500 mt-3">※ 首都圏中心。年収交渉・面接対策への注力が特徴。</p>
@@ -258,9 +258,9 @@ export default function TypeVsMynaviPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">type転職エージェントITが向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 <li>✓ 首都圏で転職を考えている</li>
                 <li>✓ 年収交渉を任せて増収を狙いたい</li>
                 <li>✓ 実践的な面接対策を受けたい</li>
@@ -291,7 +291,7 @@ export default function TypeVsMynaviPage() {
                 { num: "3", title: "母数を補うなら総合型・ハイクラスを追加", desc: "40代や求人母数を増やしたい場合は、リクルートエージェントITやビズリーチを併用し、選択肢と交渉材料を最大化します。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div>
                     <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                     <p className="text-sm text-slate-600">{item.desc}</p>
@@ -301,7 +301,7 @@ export default function TypeVsMynaviPage() {
             </div>
             <p className="text-xs text-slate-500 mt-4">
               他のIT特化型との比較は
-              <Link href="/compare/levtech-vs-mynavi/" className="text-blue-600 hover:underline">レバテックキャリア vs マイナビIT AGENT</Link>
+              <Link href="/compare/levtech-vs-mynavi/" className="text-petrol hover:underline">レバテックキャリア vs マイナビIT AGENT</Link>
               も参照してください。
             </p>
           </div>
@@ -347,7 +347,7 @@ export default function TypeVsMynaviPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -360,7 +360,7 @@ export default function TypeVsMynaviPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

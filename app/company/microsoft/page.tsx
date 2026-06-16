@@ -134,7 +134,7 @@ export default function MicrosoftCompanyPage() {
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -144,7 +144,7 @@ export default function MicrosoftCompanyPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <h2 className="text-xl font-bold text-blue-900 mb-3">結論：難易度と向くエンジニア</h2>
             <p className="text-blue-900 text-sm leading-relaxed mb-3">
               日本マイクロソフトは外資ITの中でも難関ですが、<strong>中途比率が高く（公式公表値で2025年度99%）</strong>、
@@ -157,9 +157,9 @@ export default function MicrosoftCompanyPage() {
             </ul>
             <p className="text-blue-900 text-sm leading-relaxed mt-3">
               準備は
-              <Link href="/knowledge/coding-test/" className="text-blue-700 underline font-medium">コーディングテスト対策</Link>
+              <Link href="/knowledge/coding-test/" className="text-petrol-deep underline font-medium">コーディングテスト対策</Link>
               と
-              <Link href="/knowledge/tech-interview/" className="text-blue-700 underline font-medium">技術面接の進め方</Link>
+              <Link href="/knowledge/tech-interview/" className="text-petrol-deep underline font-medium">技術面接の進め方</Link>
               から着手するのが王道です。
             </p>
           </div>
@@ -191,21 +191,21 @@ export default function MicrosoftCompanyPage() {
         <section id="hiring" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">中途採用比率が高い</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 公式キャリアページの公表値では中途採用比率が2023年度86%・2024年度84%・2025年度99%と高く、中途人材を主力に据えています。30代・40代の経験者にとって現実的な選択肢になり得ます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Growth Mindset 重視の文化</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 公式に「可能性を育み、変化を受け入れ、学び続けることの価値を信じている」と明記。技術力だけでなく、学習姿勢・変化への適応・協働が評価される文化が知られています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">クラウド・AI領域の採用拡大</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Azure・Copilotなどクラウド／AI関連サービスの拡大に伴い、クラウドアーキテクトやML/AI関連の人材ニーズが高い傾向です。応募要件は公式募集要項で確認してください。
               </p>
             </div>
@@ -220,10 +220,10 @@ export default function MicrosoftCompanyPage() {
             Code等の公開）から広く知られています。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>Azure（クラウド）を軸にしたサービス開発・運用</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>.NET・TypeScript・VS CodeなどOSSへの積極的な貢献を公開</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><Link href="/skill/csharp/" className="text-blue-600 hover:underline">C#</Link>・<Link href="/skill/typescript/" className="text-blue-600 hover:underline">TypeScript</Link>・<Link href="/skill/python/" className="text-blue-600 hover:underline">Python</Link>の実務経験が活きる</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>AI領域はCopilot等の拡大で関連スキルの評価が高まる傾向</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Azure（クラウド）を軸にしたサービス開発・運用</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>.NET・TypeScript・VS CodeなどOSSへの積極的な貢献を公開</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><Link href="/skill/csharp/" className="text-petrol hover:underline">C#</Link>・<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript</Link>・<Link href="/skill/python/" className="text-petrol hover:underline">Python</Link>の実務経験が活きる</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>AI領域はCopilot等の拡大で関連スキルの評価が高まる傾向</li>
           </ul>
         </section>
 
@@ -265,9 +265,9 @@ export default function MicrosoftCompanyPage() {
           </p>
           <p className="text-slate-600 text-sm mt-4">
             年収交渉の考え方は
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のやり方</Link>
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のやり方</Link>
             、外資の総報酬比較は
-            <Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">オファー比較の考え方</Link>
+            <Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">オファー比較の考え方</Link>
             も参考にしてください。
           </p>
         </section>
@@ -286,7 +286,7 @@ export default function MicrosoftCompanyPage() {
               ["オファー", "条件提示。内容はポジション・等級で異なります。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
                 <div>
                   <p className="font-bold text-slate-800">{title}</p>
                   <p className="text-slate-600">{desc}</p>
@@ -306,10 +306,10 @@ export default function MicrosoftCompanyPage() {
             具体的な質問リストは公式には公開されていません。公開情報と一般に知られている範囲に留めて整理します。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>技術力</strong>：コーディング、<Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システムデザイン</Link>の基礎</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>Growth Mindset</strong>：失敗から学び、変化に適応してきた経験を語れること</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>協働・影響力</strong>：チームや組織を巻き込んで成果を出した経験（<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接の準備</Link>）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>クラウド経験</strong>：Azure／AWS等の設計・運用知見（ポジションにより必須度が異なる）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>技術力</strong>：コーディング、<Link href="/knowledge/system-design/" className="text-petrol hover:underline">システムデザイン</Link>の基礎</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>Growth Mindset</strong>：失敗から学び、変化に適応してきた経験を語れること</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>協働・影響力</strong>：チームや組織を巻き込んで成果を出した経験（<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接の準備</Link>）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>クラウド経験</strong>：Azure／AWS等の設計・運用知見（ポジションにより必須度が異なる）</li>
           </ul>
         </section>
 
@@ -354,11 +354,11 @@ export default function MicrosoftCompanyPage() {
             </p>
             <p>
               準備は
-              <Link href="/career/domestic-to-foreign/" className="text-blue-600 hover:underline">国内企業から外資系への転職</Link>
+              <Link href="/career/domestic-to-foreign/" className="text-petrol hover:underline">国内企業から外資系への転職</Link>
               、クラウドの伸ばし方は
-              <Link href="/skill/csharp/" className="text-blue-600 hover:underline">C#エンジニアの転職市場</Link>
+              <Link href="/skill/csharp/" className="text-petrol hover:underline">C#エンジニアの転職市場</Link>
               、英語面は
-              <Link href="/purpose/english/" className="text-blue-600 hover:underline">英語を使う仕事への転職</Link>
+              <Link href="/purpose/english/" className="text-petrol hover:underline">英語を使う仕事への転職</Link>
               を参考にしてください。
             </p>
           </div>
@@ -373,7 +373,7 @@ export default function MicrosoftCompanyPage() {
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。技術職の選考対策・キャリアの棚卸しに強い。" },
               { name: "doda ITエンジニア", href: "/review/doda-it/", desc: "国内最大級の総合型。外資・大手の選択肢を幅広く比較したい人向け。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
@@ -405,7 +405,7 @@ export default function MicrosoftCompanyPage() {
           </p>
           <Link
             href="/review/bizreach-it/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントを見る
           </Link>
@@ -426,7 +426,7 @@ export default function MicrosoftCompanyPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

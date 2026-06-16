@@ -117,7 +117,7 @@ export default function SmarthrCompanyPage() {
           <ul className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -125,7 +125,7 @@ export default function SmarthrCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-3">結論：Rails/Reactの実務経験があり、プロダクトに当事者意識を持って横断的に動けるエンジニア向き。難易度は中程度。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li className="flex gap-2"><span className="shrink-0">1.</span>「プロダクトエンジニア」として実装からリリースまで横断的に担うため、特定領域だけでなく幅広く動ける人が活躍しやすい。</li>
@@ -157,17 +157,17 @@ export default function SmarthrCompanyPage() {
         <section id="features" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">OSSで公開されるデザインシステム「SmartHR UI」</h3>
-              <p className="text-sm text-blue-700">SmartHRはデザインシステム「SmartHR UI」をOSSとして公開し、構築・運用のノウハウを社外に発信しています。デザインシステムやアクセシビリティに関心のあるエンジニアにとって、技術的チャレンジと社会への発信を両立できる環境です。</p>
+              <p className="text-sm text-petrol-deep">SmartHRはデザインシステム「SmartHR UI」をOSSとして公開し、構築・運用のノウハウを社外に発信しています。デザインシステムやアクセシビリティに関心のあるエンジニアにとって、技術的チャレンジと社会への発信を両立できる環境です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">職能に縛られない「プロダクトエンジニア」</h3>
-              <p className="text-sm text-blue-700">SmartHRのエンジニアは、新機能開発や既存機能の改修を中心に、実装・テストコード追加・レビュー・検証・リリースまでをプロダクト視点で横断的に担います。技術的な実装だけでなく、ユーザー課題の理解やプロダクトの方向性への貢献が求められます。</p>
+              <p className="text-sm text-petrol-deep">SmartHRのエンジニアは、新機能開発や既存機能の改修を中心に、実装・テストコード追加・レビュー・検証・リリースまでをプロダクト視点で横断的に担います。技術的な実装だけでなく、ユーザー課題の理解やプロダクトの方向性への貢献が求められます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">オープンで透明性の高い情報共有文化</h3>
-              <p className="text-sm text-blue-700">エンジニア採用にあたりエージェント向け説明会の内容を技術ブログで公開するなど、選考情報の透明性が高いのが特徴です。社員クチコミでも「Slackで全部オープン、社内会話の透明性が高い」という声が見られます。フルフレックス・基本リモートで自律的に働けます。</p>
+              <p className="text-sm text-petrol-deep">エンジニア採用にあたりエージェント向け説明会の内容を技術ブログで公開するなど、選考情報の透明性が高いのが特徴です。社員クチコミでも「Slackで全部オープン、社内会話の透明性が高い」という声が見られます。フルフレックス・基本リモートで自律的に働けます。</p>
             </div>
           </div>
         </section>
@@ -245,7 +245,7 @@ export default function SmarthrCompanyPage() {
               ["内定・オファー面談", "条件・等級・制度の説明。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                 <div>
                   <p className="font-bold text-slate-800 text-sm">{title}</p>
                   <p className="text-sm text-slate-600">{desc}</p>
@@ -262,13 +262,13 @@ export default function SmarthrCompanyPage() {
             公式採用ページ・技術ブログの公開情報から読み取れる傾向です。質問文の再現や断定は避け、評価観点として整理します。
           </p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>職能に縛られずプロダクトに向き合えるか（実装からリリース・検証まで当事者として動けるか）。</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>Rails/Reactでの開発経験の深さと、設計・技術選定の意図を説明できるか。</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ユーザー課題（人事労務領域）への理解と、プロダクト改善への姿勢。</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>オープンな情報共有・ドキュメンテーション文化に馴染めるか。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>職能に縛られずプロダクトに向き合えるか（実装からリリース・検証まで当事者として動けるか）。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Rails/Reactでの開発経験の深さと、設計・技術選定の意図を説明できるか。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ユーザー課題（人事労務領域）への理解と、プロダクト改善への姿勢。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>オープンな情報共有・ドキュメンテーション文化に馴染めるか。</li>
           </ul>
           <p className="text-sm text-slate-600 mt-4">
-            面接全般の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策ガイド</Link>、設計面接の練習は<Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システム設計面接の対策</Link>を参考にしてください。
+            面接全般の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策ガイド</Link>、設計面接の練習は<Link href="/knowledge/system-design/" className="text-petrol hover:underline">システム設計面接の対策</Link>を参考にしてください。
           </p>
         </section>
 
@@ -308,10 +308,10 @@ export default function SmarthrCompanyPage() {
               一方で「プロダクトエンジニア」として職能横断で動くことが求められるため、特定技術のスペシャリストとして閉じこもるより、上流の課題定義からリリース・改善まで一気通貫で関われる人が評価されます。マネジメント経験やドメイン理解、チームの開発生産性を上げた実績は、ミドルの強みとして活きます。
             </p>
             <p>
-              非上場のため有報の全社員平均は参照できませんが、求人の提示レンジは高水準です。現職で年収やキャリアが頭打ちと感じる30代・40代は、<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">自分の市場価値の調べ方</Link>と<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>を押さえた上で臨むと、提示額を最大化しやすくなります。
+              非上場のため有報の全社員平均は参照できませんが、求人の提示レンジは高水準です。現職で年収やキャリアが頭打ちと感じる30代・40代は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>と<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>を押さえた上で臨むと、提示額を最大化しやすくなります。
             </p>
             <p>
-              リモート前提のキャリア設計は<Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモートワーク転職の実態</Link>、年代別の動向は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>も参考にしてください。
+              リモート前提のキャリア設計は<Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワーク転職の実態</Link>、年代別の動向は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>も参考にしてください。
             </p>
           </div>
         </section>
@@ -324,19 +324,19 @@ export default function SmarthrCompanyPage() {
               { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイト。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすい。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが強みで、SaaS系企業への転職実績が豊富。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">各社の特徴は<Link href="/review/green/" className="text-blue-600 hover:underline">Greenの評判</Link>などの個別レビューも参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">各社の特徴は<Link href="/review/green/" className="text-petrol hover:underline">Greenの評判</Link>などの個別レビューも参考にしてください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">SmartHRへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">SaaS企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -365,7 +365,7 @@ export default function SmarthrCompanyPage() {
               { name: "リモートワーク転職の実態", href: "/knowledge/remote-work/" },
               { name: "40代エンジニアの転職", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -130,7 +130,7 @@ export default function Salary1000Page() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -141,7 +141,7 @@ export default function Salary1000Page() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：1000万円の希少性と3つのルート</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収1000万円以上のエンジニアは、レバテック公表（2025年）で<strong>30代8.01%・40代12.67%</strong>、エンジニアtypeでは全体<strong>約1.6%</strong>とされる希少な層です。ITSSスキル標準レベルでは<strong>L6相当（1,129.9万円）</strong>、国内で著名・世界で通用するトップ層にあたります。
             </p>
@@ -170,7 +170,7 @@ export default function Salary1000Page() {
                 {rarityData.map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-4 py-3 border border-slate-200 font-medium">{row.src}</td>
-                    <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">{row.value}</td>
+                    <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">{row.value}</td>
                     <td className="px-4 py-3 border border-slate-200 text-slate-600">{row.note}</td>
                   </tr>
                 ))}
@@ -208,9 +208,9 @@ export default function Salary1000Page() {
                   <td className="px-4 py-3 border border-slate-200">937.8万円</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層。1000万円の一歩手前</td>
                 </tr>
-                <tr className="bg-blue-50">
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">L6・7</td>
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">1,129.9万円</td>
+                <tr className="bg-petrol-soft">
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L6・7</td>
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">1,129.9万円</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">1000万円帯。国内で著名なレベル</td>
                 </tr>
               </tbody>
@@ -263,7 +263,7 @@ export default function Salary1000Page() {
             {langData.map((l, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5 text-center">
                 <p className="font-bold text-slate-800 mb-1">{l.lang}</p>
-                <p className="text-2xl font-bold text-blue-600">{l.value}</p>
+                <p className="text-2xl font-bold text-petrol">{l.value}</p>
               </div>
             ))}
           </div>
@@ -289,26 +289,26 @@ export default function Salary1000Page() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30〜40代が1000万円を狙うときの視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">「技術を上げる」より「場所を変える」が効く年代</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30〜40代で技術力を一段上げるのは時間がかかります。一方、商流の上位・給与テーブルの高い企業へ移ることは、これまでの実績を武器に短期で実現しうる打ち手です。1000万円帯ほど「場所選び」の影響が大きくなります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3ルートのうち「勝てる軸」を1つに絞る</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 ハイクラス転職・マネジメント・スペシャリストのうち、これまでの蓄積が最も活きる軸を1つに絞ることが重要です。40代では年収1000万円以上が12.67%に達しており、軸を定めて積み上げた層が到達していることがうかがえます。
               </p>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             年代別の相場や汎用的な年収UP戦略は、
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニア転職の現実</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>
             ・
-            <Link href="/purpose/salary-up/" className="text-blue-600 hover:underline">年収アップを目指す転職ガイド</Link>
+            <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収アップを目指す転職ガイド</Link>
             をご覧ください。
           </p>
         </section>
@@ -337,7 +337,7 @@ export default function Salary1000Page() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -357,7 +357,7 @@ export default function Salary1000Page() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -118,7 +118,7 @@ export default function JacVsRecruitDirectScoutPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -129,7 +129,7 @@ export default function JacVsRecruitDirectScoutPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
               コンサルに提案・伴走してもらうなら「JACリクルートメント」、レジュメを登録して幅広いハイクラススカウトを待つなら「リクルートダイレクトスカウト」。
             </p>
@@ -171,9 +171,9 @@ export default function JacVsRecruitDirectScoutPage() {
         <section id="type" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">仕組みで比較（最大の違い）</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">JAC：両面型エージェント（提案・伴走）</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 1人のコンサルタントが企業・求職者の双方を担当する両面型のため、企業の内情に精通した提案を受けられます。求人提案から面接対策、条件交渉まで一貫して伴走するスタイルです。
               </p>
             </div>
@@ -192,9 +192,9 @@ export default function JacVsRecruitDirectScoutPage() {
         <section id="jobs" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人数・年収レンジで比較</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">JACリクルートメント</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 求人数は媒体により値が割れて確認不可ですが、年収500万円以上（600万円以上が一つのライン）を目安とするハイクラス／ミドル特化です。上場・外資・管理職・専門職に強く、ITポジションも含みます。利用者満足度93%（二次情報・時点により変動）。
               </p>
             </div>
@@ -227,7 +227,7 @@ export default function JacVsRecruitDirectScoutPage() {
               <h3 className="font-bold text-slate-800 mb-3">JACリクルートメントが強い領域</h3>
               <div className="flex flex-wrap gap-2">
                 {["上場・外資系", "管理職・専門職", "両面型の伴走", "30〜40代ミドル", "年収500万円以上が目安"].map((tag, i) => (
-                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700">{tag}</span>
+                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
               <p className="text-xs text-slate-500 mt-3">※ 両面型で企業情報に精通。利用者満足度93%（二次情報）。</p>
@@ -280,9 +280,9 @@ export default function JacVsRecruitDirectScoutPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">JACリクルートメントが向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 <li>✓ コンサルに提案・伴走してほしい</li>
                 <li>✓ 上場・外資・管理職を狙いたい</li>
                 <li>✓ 企業の内情を踏まえた面接対策が欲しい</li>
@@ -313,7 +313,7 @@ export default function JacVsRecruitDirectScoutPage() {
                 { num: "3", title: "提案とスカウトを突き合わせる", desc: "JACの提案とスカウトの内容を突き合わせると、年収レンジや求人の妥当性を客観的に判断できます。優良なスカウト元はJACと比較して見極めましょう。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div>
                     <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                     <p className="text-sm text-slate-600">{item.desc}</p>
@@ -323,7 +323,7 @@ export default function JacVsRecruitDirectScoutPage() {
             </div>
             <p className="text-xs text-slate-500 mt-4">
               他のハイクラスサービスとの比較は
-              <Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けエージェント比較</Link>
+              <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けエージェント比較</Link>
               も参照してください。
             </p>
           </div>
@@ -369,7 +369,7 @@ export default function JacVsRecruitDirectScoutPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -382,7 +382,7 @@ export default function JacVsRecruitDirectScoutPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

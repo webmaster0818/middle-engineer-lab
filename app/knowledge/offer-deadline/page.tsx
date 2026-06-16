@@ -156,7 +156,7 @@ export default function OfferDeadlinePage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -167,7 +167,7 @@ export default function OfferDeadlinePage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：延長は頼める</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               内定承諾の期限は<strong>通知から1週間前後（長くても2週間程度）が一般的</strong>な目安です。短いと感じても、<strong>「早めに」「具体的な希望日を添えて」「誠実な理由で」相談すれば、延長してもらえることがほとんど</strong>です。
             </p>
@@ -207,7 +207,7 @@ export default function OfferDeadlinePage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             ただし、企業の採用スケジュールの都合で延長に応じられない場合もあります。その際は限られた期間で判断する必要があるため、内定が出そうな段階から、他社の選考状況を整理し、判断基準を先に決めておくことが大切です。判断軸の作り方は
-            <Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">複数内定の比較方法</Link>
+            <Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">複数内定の比較方法</Link>
             を参考にしてください。
           </p>
         </section>
@@ -263,7 +263,7 @@ export default function OfferDeadlinePage() {
             </p>
             <p className="text-slate-700 leading-relaxed">
               ただし、承諾後の辞退は企業の採用計画に大きな影響を与え、信頼を損ねます。だからこそ、承諾は本当に入社する意思が固まってから行うべきです。やむを得ず辞退する場合の伝え方は
-              <Link href="/knowledge/offer-decline/" className="text-blue-600 hover:underline">内定辞退の伝え方</Link>
+              <Link href="/knowledge/offer-decline/" className="text-petrol hover:underline">内定辞退の伝え方</Link>
               で解説しています。
             </p>
           </div>
@@ -293,7 +293,7 @@ export default function OfferDeadlinePage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -313,7 +313,7 @@ export default function OfferDeadlinePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

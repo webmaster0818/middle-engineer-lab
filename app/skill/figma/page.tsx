@@ -116,7 +116,7 @@ export default function FigmaSkillPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -127,7 +127,7 @@ export default function FigmaSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Figmaスキルの転職市場の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Figmaは「デザイナー職の主軸スキル」であり、エンジニアにとっては「フロントエンドに掛け合わせる強み」です。</strong>どちらの軸でキャリアを描くかを最初に決めるのが攻め方の起点になります。
             </p>
@@ -209,7 +209,7 @@ export default function FigmaSkillPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2 text-sm">{item.tier}</h3>
                 <p className="text-xs text-slate-600 mb-2 leading-relaxed">{item.req}</p>
-                <p className="text-xs text-blue-600">{item.note}</p>
+                <p className="text-xs text-petrol">{item.note}</p>
               </div>
             ))}
           </div>
@@ -235,7 +235,7 @@ export default function FigmaSkillPage() {
             ))}
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            関連スキルは<Link href="/skill/frontend/" className="text-blue-600 hover:underline">フロントエンド</Link>のガイドや、UI/UXのキャリアを扱う<Link href="/knowledge/uiux/" className="text-blue-600 hover:underline">UI/UXデザイナーへのキャリア</Link>もあわせてご覧ください。
+            関連スキルは<Link href="/skill/frontend/" className="text-petrol hover:underline">フロントエンド</Link>のガイドや、UI/UXのキャリアを扱う<Link href="/knowledge/uiux/" className="text-petrol hover:underline">UI/UXデザイナーへのキャリア</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -251,25 +251,25 @@ export default function FigmaSkillPage() {
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web特化で高年収求人の比率が高く、フロントエンドやデザイン領域に踏み込んで話せるアドバイザーが在籍。エンジニア×デザインの求人の提案に向きます。
               </p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 年収750万円以上を中心としたハイクラス・スカウト型。デザインエンジニアやリードデザイナー級の求人・スカウトに出会いやすいのが特徴です。
               </p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強み。FigmaやデザインシステムにこだわるWeb系・スタートアップの求人を探したい場合の選択肢になります。
               </p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">Geeklyの詳細レビュー →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            エージェント各社の比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">転職エージェント比較</Link>も参照してください。
+            エージェント各社の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">転職エージェント比較</Link>も参照してください。
           </p>
         </section>
 
@@ -283,7 +283,7 @@ export default function FigmaSkillPage() {
               { num: "3", title: "Figmaで作品・デザインシステムを公開する", desc: "デザイナー軸を目指すなら、FigmaでUIデザインやプロトタイプ、小さなデザインシステムを作って公開します。なぜその設計にしたかという意図を言語化すると、ツール操作以上の力を提示できます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -310,7 +310,7 @@ export default function FigmaSkillPage() {
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            年代別の戦略は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>も参考にしてください。
+            年代別の戦略は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>も参考にしてください。
           </p>
         </section>
 
@@ -328,7 +328,7 @@ export default function FigmaSkillPage() {
               <strong>③ UI/UXとユーザー体験を理解する。</strong>ツール操作よりも、なぜそのUIにするのかという体験設計の視点が長期的に通用します。生成AIによるUI生成が進むほど、設計判断ができる人材の価値が高まります。
             </p>
             <p>
-              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
+              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -357,7 +357,7 @@ export default function FigmaSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -377,7 +377,7 @@ export default function FigmaSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

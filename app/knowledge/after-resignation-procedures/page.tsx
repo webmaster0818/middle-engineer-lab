@@ -97,9 +97,9 @@ export default function AfterResignationProceduresPage() {
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             退職が決まったら、次に待っているのが社会保険まわりの手続きです。エンジニアの場合、転職先への入社まで空白期間が空くこともあり、その間の健康保険・年金・雇用保険（失業給付）を自分で手続きする必要があります。これらは<strong>期限が短いものが多く、放置すると保険料の未納や受給の遅れにつながります</strong>。本記事では、退職後にやるべき3つの手続きを期限つきで整理します。退職を切り出す前段階は
-            <Link href="/knowledge/smooth-resignation/" className="text-blue-600 hover:underline">円満退職の交渉術</Link>
+            <Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>
             、有給の扱いは
-            <Link href="/knowledge/paid-leave/" className="text-blue-600 hover:underline">有給消化の法律論</Link>
+            <Link href="/knowledge/paid-leave/" className="text-petrol hover:underline">有給消化の法律論</Link>
             を参照してください。
           </p>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -117,14 +117,14 @@ export default function AfterResignationProceduresPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：退職後3手続きは期限が短い。先に動く</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・<strong>健康保険</strong>：任意継続は退職翌日から<strong>20日以内</strong>、国保は<strong>14日以内</strong>。最優先で決める。</li>
@@ -231,9 +231,9 @@ export default function AfterResignationProceduresPage() {
             会社員のときは厚生年金に加入していますが、退職して間が空く場合は、国民年金（第1号被保険者）への切り替え手続きが必要です。手続きは原則として退職日の翌日から14日以内に、住んでいる市区町村で行います。
           </p>
           <ul className="space-y-3 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>転職先にすぐ入社する場合は、新しい会社で厚生年金に加入するため、自分での切り替えは不要なことが多い。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>配偶者の扶養（第3号被保険者）に入る場合は、配偶者の勤務先を通じた別の手続きになる。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>保険料の納付が難しい場合、免除・納付猶予の制度がある。該当しそうな場合は窓口で相談を。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>転職先にすぐ入社する場合は、新しい会社で厚生年金に加入するため、自分での切り替えは不要なことが多い。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>配偶者の扶養（第3号被保険者）に入る場合は、配偶者の勤務先を通じた別の手続きになる。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>保険料の納付が難しい場合、免除・納付猶予の制度がある。該当しそうな場合は窓口で相談を。</span></li>
           </ul>
         </section>
 
@@ -244,35 +244,35 @@ export default function AfterResignationProceduresPage() {
           </p>
           <div className="space-y-4">
             <div className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">1</span>
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">1</span>
               <div>
                 <h3 className="font-bold text-slate-800 mb-1">離職票を受け取る</h3>
                 <p className="text-sm text-slate-600">退職後、会社の手続きを経て離職票が郵送されます。届くまで時間がかかることがあるため、健康保険・年金の手続きを先に進めておきます。</p>
               </div>
             </div>
             <div className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">2</span>
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">2</span>
               <div>
                 <h3 className="font-bold text-slate-800 mb-1">ハローワークで求職申込み</h3>
                 <p className="text-sm text-slate-600">離職票・本人確認書類などを持参して求職の申込みを行い、受給資格の確認を受けます。</p>
               </div>
             </div>
             <div className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">3</span>
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">3</span>
               <div>
                 <h3 className="font-bold text-slate-800 mb-1">7日間の待期</h3>
                 <p className="text-sm text-slate-600">求職申込み後、7日間の待期期間があります。この期間は誰でも共通で、給付は発生しません。</p>
               </div>
             </div>
             <div className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">4</span>
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">4</span>
               <div>
                 <h3 className="font-bold text-slate-800 mb-1">給付制限（自己都合の場合）</h3>
                 <p className="text-sm text-slate-600">自己都合退職では、待期の後に給付制限期間があります。<strong>2025年4月以降の離職では原則2ヶ月から1ヶ月に短縮</strong>されました。ただし5年間に3回以上自己都合で離職した場合などは3ヶ月になることがあります。会社都合等の場合は給付制限がないのが原則です。</p>
               </div>
             </div>
             <div className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">5</span>
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">5</span>
               <div>
                 <h3 className="font-bold text-slate-800 mb-1">認定日ごとに受給</h3>
                 <p className="text-sm text-slate-600">決められた認定日にハローワークへ行き、求職活動の実績を報告すると、基本手当が支給されます。一定の教育訓練を受けた場合に給付制限が解除される取り扱いもあります。</p>
@@ -297,7 +297,7 @@ export default function AfterResignationProceduresPage() {
                   "年金手帳または基礎年金番号がわかるもの",
                   "退職証明書（必要に応じて）",
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>{item}</span></li>
+                  <li key={i} className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>{item}</span></li>
                 ))}
               </ul>
             </div>
@@ -311,7 +311,7 @@ export default function AfterResignationProceduresPage() {
                   "保険料の口座振替に使う通帳・キャッシュカード",
                   "扶養に入る場合は収入を証明する書類",
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>{item}</span></li>
+                  <li key={i} className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>{item}</span></li>
                 ))}
               </ul>
             </div>
@@ -335,7 +335,7 @@ export default function AfterResignationProceduresPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">空白期間は手続き漏れに注意</h3>
-              <p className="text-sm text-slate-600">じっくり転職活動をする場合、空白期間中こそ保険・年金の手続きが漏れがちです。期限の短い健康保険・年金を先に確実に処理し、失業給付は離職票到着後に進めるのが安全です。転職活動全体の段取りは<Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職スケジュール</Link>も参考に。</p>
+              <p className="text-sm text-slate-600">じっくり転職活動をする場合、空白期間中こそ保険・年金の手続きが漏れがちです。期限の短い健康保険・年金を先に確実に処理し、失業給付は離職票到着後に進めるのが安全です。転職活動全体の段取りは<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参考に。</p>
             </div>
           </div>
         </section>
@@ -365,7 +365,7 @@ export default function AfterResignationProceduresPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -385,7 +385,7 @@ export default function AfterResignationProceduresPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

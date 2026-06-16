@@ -172,7 +172,7 @@ export default function MynaviItReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-xl font-bold text-blue-900 mb-3">結論：マイナビIT AGENTはこんな人向け</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               総合評価は <span className="font-bold">★★★★☆（4.0 / 5.0・当サイト編集部の総合判断）</span>。
@@ -189,7 +189,7 @@ export default function MynaviItReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((item) => (
               <li key={item.id}>
                 <a href={`#${item.id}`} className="hover:underline">
@@ -224,27 +224,27 @@ export default function MynaviItReview() {
         <section id="strengths" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">マイナビIT AGENTの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 書類添削・面接対策の手厚さ</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 マイナビIT AGENTは、職務経歴書の添削や企業ごとの面接対策など、選考通過に直結する伴走サポートが手厚いと評価される傾向があります。Qiita Job ChangeやOUTSIDEMAGAZINE等の口コミメディアでも「初めての転職でも安心だった」という声が見られ、転職活動の進め方そのものに不安がある層にとって心強い存在です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 担当者がIT業界に詳しい</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 IT専門のキャリアアドバイザーが担当につくため、使用技術や職種（社内SE・インフラ・Webなど）への理解を前提に話が進みやすいとされています。技術スタックの説明が通じやすいことは、エンジニアにとって面談のストレスを減らす重要なポイントです。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 20〜30代若手層への強み</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 マイナビは新卒・若手領域で長年の実績を持つブランドで、IT AGENTでも20〜30代の若手エンジニアの転職支援に強みがあるとされています。転職メディアの集計では転職後定着率97.5%・年収アップ率73.7%という二次情報もあり、ミスマッチの少ない提案が期待できます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 大手ブランドの安心感</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 株式会社マイナビが運営する大手サービスである点も、初めての転職での安心材料です。サポート体制が標準化されており、はじめてエージェントを使う人でも進め方に迷いにくいのが利点です。
               </p>
             </div>
@@ -297,8 +297,8 @@ export default function MynaviItReview() {
               <h3 className="font-bold text-slate-800 mb-2">紹介求人が少ない → 総合型を併用する</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 求人数を最大化したい場合は、求人母数の大きい
-                <Link href="/review/recruit-it/" className="text-blue-600 hover:underline">リクルートエージェントIT</Link>
-                や<Link href="/review/doda-it/" className="text-blue-600 hover:underline">doda(IT特化)</Link>
+                <Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルートエージェントIT</Link>
+                や<Link href="/review/doda-it/" className="text-petrol hover:underline">doda(IT特化)</Link>
                 を併用すると、紹介の幅を補完できます。
               </p>
             </div>
@@ -306,7 +306,7 @@ export default function MynaviItReview() {
               <h3 className="font-bold text-slate-800 mb-2">ハイクラス・地方求人が手薄 → 用途で使い分ける</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 年収800万円超やマネジメント職を狙うなら
-                <Link href="/review/bizreach-it/" className="text-blue-600 hover:underline">ビズリーチ</Link>
+                <Link href="/review/bizreach-it/" className="text-petrol hover:underline">ビズリーチ</Link>
                 を、地方求人なら全国対応の総合型エージェントを軸にし、マイナビは「丁寧なサポート枠」として併用するのが効率的です。
               </p>
             </div>
@@ -327,14 +327,14 @@ export default function MynaviItReview() {
             <p>
               <span className="font-bold text-slate-800">30代後半〜40代は「併用前提」が現実的。</span>
               口コミでもハイクラス・地方求人の手薄さが指摘されており、この層が単独で使うと選択肢が物足りなくなる可能性があります。同公表値では40代の正社員SE平均年収は約618万円、年収1,000万円以上の割合は40代で12.67%とされ、ハイクラス帯を狙うなら
-              <Link href="/review/bizreach-it/" className="text-blue-600 hover:underline">ビズリーチ</Link>
+              <Link href="/review/bizreach-it/" className="text-petrol hover:underline">ビズリーチ</Link>
               や求人数の多い
-              <Link href="/review/recruit-it/" className="text-blue-600 hover:underline">リクルートエージェントIT</Link>
+              <Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルートエージェントIT</Link>
               を主軸に、マイナビは選考対策の補助として併用するのが堅実です。
             </p>
             <p>
               なお経済産業省が2019年に公表した試算では、2030年に最大約79万人のIT人材不足が見込まれており、ミドル層の経験者需要そのものは底堅いと考えられます。だからこそ「複数エージェントで求人の網を広げ、選考対策はマイナビで磨く」という分業が機能します。詳しくは
-              <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収相場</Link>
+              <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>
               も参考にしてください。
             </p>
           </div>
@@ -384,7 +384,7 @@ export default function MynaviItReview() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {compareLinks.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}
@@ -395,7 +395,7 @@ export default function MynaviItReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">マイナビIT AGENTに無料相談する</h2>
           <p className="text-blue-100 text-sm mb-4">手厚いサポートを受けたいなら、まずは無料カウンセリングから。</p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">無料カウンセリングを予約する</a>
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料カウンセリングを予約する</a>
         </section>
 
         {/* FAQ */}
@@ -419,7 +419,7 @@ export default function MynaviItReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {relatedLinks.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

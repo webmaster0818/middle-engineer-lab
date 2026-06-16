@@ -84,14 +84,14 @@ export default function LevtechFreelanceVsMidworksPage() {
           <p className="font-bold text-slate-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：単価か、保障か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・単価・年収を最大化したいなら「レバテックフリーランス」</strong>。案件量と高単価のエンド直請けに強い最大手級です。</li>
@@ -110,7 +110,7 @@ export default function LevtechFreelanceVsMidworksPage() {
               <li><strong>レバテックフリーランス（業務委託案件の紹介）≠ レバテックキャリア（正社員転職エージェント）</strong>。運営は同じレバテック株式会社ですが、契約形態がまったく異なります。</li>
               <li>本記事のMidworksも<strong>フリーランス向けサービス</strong>です。安定雇用を残したい場合は、フリーランスではなく正社員エージェントを検討してください。</li>
             </ul>
-            <p className="mt-2">正社員かフリーランスかで迷う段階の方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスと正社員の比較</Link>を先にご覧ください。</p>
+            <p className="mt-2">正社員かフリーランスかで迷う段階の方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスと正社員の比較</Link>を先にご覧ください。</p>
           </div>
         </section>
 
@@ -149,7 +149,7 @@ export default function LevtechFreelanceVsMidworksPage() {
         <section id="kuw1" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較④：案件量・働き方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">レバテックフリーランスは公開1万件以上（公式で約97,000件以上という二次値あり・時点要確認）と案件量が豊富で、エンド直請けに強い最大手級です。選択肢の多さと高単価の両立がしやすく、週5常駐でしっかり稼ぎたい層に向きます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">Midworksも常時1万件以上（非公開約80%・二次）を扱い、案件量は最大手級です。働き方としては「保障付きで安定的に稼ぐ」設計が中心で、安定志向のミドルと相性が良い構造です。なお週2〜3日の副業・少日数案件を主軸にしたい場合は、両社よりITプロパートナーズの方が選択肢が多い傾向があります。詳しくは<Link href="/compare/itpro-vs-levtech-freelance/" className="text-blue-600 hover:underline">ITプロパートナーズ vs レバテックフリーランス</Link>をご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">Midworksも常時1万件以上（非公開約80%・二次）を扱い、案件量は最大手級です。働き方としては「保障付きで安定的に稼ぐ」設計が中心で、安定志向のミドルと相性が良い構造です。なお週2〜3日の副業・少日数案件を主軸にしたい場合は、両社よりITプロパートナーズの方が選択肢が多い傾向があります。詳しくは<Link href="/compare/itpro-vs-levtech-freelance/" className="text-petrol hover:underline">ITプロパートナーズ vs レバテックフリーランス</Link>をご覧ください。</p>
         </section>
 
         <section id="yabai" className="mb-12 scroll-mt-20">
@@ -189,9 +189,9 @@ export default function LevtechFreelanceVsMidworksPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">レバテックフリーランスが向いている人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">{goodLev.map((t, i) => (<li key={i}>✓ {t}</li>))}</ul>
+              <ul className="space-y-2 text-sm text-petrol-deep">{goodLev.map((t, i) => (<li key={i}>✓ {t}</li>))}</ul>
             </div>
             <div className="bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3">Midworksが向いている人</h3>
@@ -204,8 +204,8 @@ export default function LevtechFreelanceVsMidworksPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだミドルエンジニアは、独立して単価を取りに行く選択肢が現実的です。ただし30代と40代では「許容できるリスク」が変わります。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>体力・市場価値ともに高く、稼働を切らさず回せる自信があるなら、レバテックフリーランスで単価最大化を狙うのが合理的です。万一の空白に備えたい慎重派は、Midworksの保障を入口にして独立に慣れていく進め方もあります。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安で、これを上回る手取りを安定して出せるかが独立判断の分岐点です。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>家族・住宅ローンなど固定費を抱えるケースが増え、収入の下振れリスクが重くなります。<strong>「独立したいが不安定が怖い」という40代には、報酬60%保障（審査・条件あり）と福利厚生を備えるMidworksが第一歩として向いています。</strong>単価のピークより、無収入期間を作らない安定設計が効いてきます。一方、稼働を管理でき高単価を出せる40代なら、レバテックフリーランスで手取りを最大化する選択も十分あります。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
-          <p className="text-slate-600 leading-relaxed text-sm">安定雇用を手放すことに迷いがあるなら、フリーランスではなく正社員エージェントの活用も選択肢です。<Link href="/compare/freelance-agents/" className="text-blue-600 hover:underline">フリーランスエージェント比較</Link>もご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>家族・住宅ローンなど固定費を抱えるケースが増え、収入の下振れリスクが重くなります。<strong>「独立したいが不安定が怖い」という40代には、報酬60%保障（審査・条件あり）と福利厚生を備えるMidworksが第一歩として向いています。</strong>単価のピークより、無収入期間を作らない安定設計が効いてきます。一方、稼働を管理でき高単価を出せる40代なら、レバテックフリーランスで手取りを最大化する選択も十分あります。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">安定雇用を手放すことに迷いがあるなら、フリーランスではなく正社員エージェントの活用も選択肢です。<Link href="/compare/freelance-agents/" className="text-petrol hover:underline">フリーランスエージェント比較</Link>もご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-12 scroll-mt-20">
@@ -223,7 +223,7 @@ export default function LevtechFreelanceVsMidworksPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">独立は「単価最大化」か「保障で安定」かで選ぶ</h2>
           <p className="text-blue-100 text-sm mb-4">単価を取るならレバテックフリーランス、安定を取るならMidworks。あなたの優先順位（手取りか安心か）で選ぶのが、後悔しない第一歩です。</p>
-          <Link href="/compare/freelance-agents/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">フリーランスエージェント比較を見る</Link>
+          <Link href="/compare/freelance-agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">フリーランスエージェント比較を見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -237,7 +237,7 @@ export default function LevtechFreelanceVsMidworksPage() {
               { name: "Midworksの評判・口コミ", href: "/review/midworks/" },
               { name: "40代の転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

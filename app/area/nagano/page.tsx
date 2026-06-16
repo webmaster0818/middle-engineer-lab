@@ -166,7 +166,7 @@ export default function NaganoAreaPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：長野のIT転職市場の現実</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               長野のIT求人は、Web系の母数こそ首都圏に劣りますが、精密・組込み・IoTといったものづくり領域の強みと、首都圏フルリモート求人の併用、そして暮らしやすい環境を活かしたUIターン移住という三本柱で価値を出せる市場です。地元求人だけで判断せず、働き方と居住地をセットで設計するのが鍵になります。
@@ -185,7 +185,7 @@ export default function NaganoAreaPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -232,24 +232,24 @@ export default function NaganoAreaPage() {
           </p>
           <div className="space-y-3">
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">A</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>地元の製造業IT・SIerに出社/ハイブリッド:</strong> 精密・組込み・生産システムなど、長野の産業特性を活かせる領域。地域に根ざしたキャリアを重視する人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">B</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>軽井沢・佐久・上田で新幹線ハイブリッド:</strong> 首都圏企業に在籍しつつ、月数回の出社を新幹線でこなす働き方。自然環境と首都圏アクセスを両立したい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">C</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <strong>長野在住×首都圏企業のフルリモート:</strong> 長野の生活コストを保ちつつ首都圏水準の年収を狙う選択肢。
-                <Link href="/purpose/remote-full/" className="text-blue-600 hover:underline">フルリモート求人の探し方</Link>
+                <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート求人の探し方</Link>
                 や
-                <Link href="/area/iiju/" className="text-blue-600 hover:underline">地方移住×IT転職ガイド</Link>
+                <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
                 もあわせて検討しましょう。
               </p>
             </div>
@@ -293,7 +293,7 @@ export default function NaganoAreaPage() {
                 {salaryByAge.map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-3 py-3 border border-slate-200 font-medium">{row.age}</td>
-                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{row.salary}</td>
+                    <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">{row.salary}</td>
                     <td className="px-3 py-3 border border-slate-200 text-slate-600">{row.note}</td>
                   </tr>
                 ))}
@@ -305,9 +305,9 @@ export default function NaganoAreaPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             長野で年収を考えるときは、額面と生活コストのバランスが鍵です。住居費を抑えやすいエリアでは同じ額面でも可処分所得が増えやすく、首都圏のフルリモート求人を選べば長野の生活コストのまま高めの額面を狙える可能性もあります。年代別の考え方は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>
             も参考にしてください。
           </p>
         </section>
@@ -320,14 +320,14 @@ export default function NaganoAreaPage() {
           </p>
           <div className="space-y-4">
             {agents.map((a, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">
                   {i + 1}.{" "}
                   <Link href={a.href} className="hover:underline">
                     {a.name}
                   </Link>
                 </h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{a.point}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{a.point}</p>
               </div>
             ))}
           </div>
@@ -415,11 +415,11 @@ export default function NaganoAreaPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             年代別の市場感は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>
             、リモート前提の働き方は
-            <Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモートワークの実情</Link>
+            <Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワークの実情</Link>
             もあわせてご覧ください。
           </p>
         </section>
@@ -448,7 +448,7 @@ export default function NaganoAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -461,7 +461,7 @@ export default function NaganoAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -63,14 +63,14 @@ export default function MegaventureAgentsPage() {
           <p className="font-bold text-slate-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：タイプ別に使い分ける</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・求人の母数を広げるなら「総合大手エージェント」</strong>。メガベンチャーの求人も幅広く網羅できます。</li>
@@ -92,8 +92,8 @@ export default function MegaventureAgentsPage() {
           <p className="text-slate-600 leading-relaxed mb-4">各社の年収目安（上場企業は有価証券報告書の全従業員平均、非上場は公式レンジや集計の参考値）・技術スタック・選考傾向は、当サイトの企業別ページで出典・時点付きで整理しています。志望企業が決まっている方は、まず該当ページをご覧ください。</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {companies.map((c, i) => (
-              <Link key={i} href={c.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
-                <p className="font-bold text-slate-800 mb-1">{c.name} <span className="text-blue-600 text-sm">→</span></p>
+              <Link key={i} href={c.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
+                <p className="font-bold text-slate-800 mb-1">{c.name} <span className="text-petrol text-sm">→</span></p>
                 <p className="text-xs text-slate-500 leading-relaxed">{c.note}</p>
               </Link>
             ))}
@@ -106,15 +106,15 @@ export default function MegaventureAgentsPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">① 総合大手エージェント（求人量）</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">求人の母数が多く、メガベンチャーを含む幅広い企業を網羅できます。まず選択肢を広げたい段階に向きます。比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント比較</Link>をご覧ください。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">求人の母数が多く、メガベンチャーを含む幅広い企業を網羅できます。まず選択肢を広げたい段階に向きます。比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>をご覧ください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">② IT特化エージェント（現場の一次情報）</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">技術スタックや開発文化、選考で問われる技術面の準備に強みがあります。メガベンチャーは技術理解が選考の鍵になるため、内情を深掘りする用途で効きます。<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラスIT転職エージェント比較</Link>も参考にしてください。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">技術スタックや開発文化、選考で問われる技術面の準備に強みがあります。メガベンチャーは技術理解が選考の鍵になるため、内情を深掘りする用途で効きます。<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラスIT転職エージェント比較</Link>も参考にしてください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">③ ハイクラス特化（年収帯・ポジション）</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">スカウト型で市場価値を測りつつ、リード・マネジメント級のポジションや年収の上振れを狙えます。待ち型で相場を確認したい層に向きます。スカウト型の使い分けは<Link href="/compare/scout-agents/" className="text-blue-600 hover:underline">スカウト型サービス比較</Link>をご覧ください。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">スカウト型で市場価値を測りつつ、リード・マネジメント級のポジションや年収の上振れを狙えます。待ち型で相場を確認したい層に向きます。スカウト型の使い分けは<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービス比較</Link>をご覧ください。</p>
             </div>
           </div>
         </section>
@@ -122,7 +122,7 @@ export default function MegaventureAgentsPage() {
         <section id="howto" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">メガベンチャー転職での選び方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">メガベンチャーは中途採用に積極的で、求人が総合大手・IT特化の両方に出ることが多いです。そのため、まず総合大手で求人の母数を広げ、志望企業が固まったらIT特化エージェントで技術面の準備と内情の深掘りを行う、という二段構えが効率的です。年収やポジションの上振れを狙うなら、ハイクラス特化を加えて市場価値を測ります。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">志望企業が決まっている場合は、エージェント選びと並行して、当サイトの企業別ページで年収目安・技術スタック・選考傾向を確認してください。たとえば<Link href="/company/mercari/" className="text-blue-600 hover:underline">メルカリ</Link>・<Link href="/company/cyberagent/" className="text-blue-600 hover:underline">サイバーエージェント</Link>・<Link href="/company/freee/" className="text-blue-600 hover:underline">freee</Link>では、求められる技術や開発文化が大きく異なります。応募前の情報収集が、選考通過率を左右します。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">志望企業が決まっている場合は、エージェント選びと並行して、当サイトの企業別ページで年収目安・技術スタック・選考傾向を確認してください。たとえば<Link href="/company/mercari/" className="text-petrol hover:underline">メルカリ</Link>・<Link href="/company/cyberagent/" className="text-petrol hover:underline">サイバーエージェント</Link>・<Link href="/company/freee/" className="text-petrol hover:underline">freee</Link>では、求められる技術や開発文化が大きく異なります。応募前の情報収集が、選考通過率を左右します。</p>
         </section>
 
         <section id="confusion" className="mb-12 scroll-mt-20">
@@ -140,14 +140,14 @@ export default function MegaventureAgentsPage() {
         <section id="difficulty" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">激務・難易度の期待値調整</h2>
           <p className="text-slate-600 leading-relaxed mb-4">メガベンチャーは「激務」「難易度が高い」と語られがちですが、実態は企業・部署・フェーズによって大きく異なります。急成長フェーズでは裁量が大きいぶん業務量が増える傾向はあるものの、近年は働き方の整備が進んでいる企業も多く、一律に決めつけるのは正確ではありません。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">重要なのは、入社前に<strong>カジュアル面談などで実態を確認し、期待値を調整する</strong>ことです。業務量・オンコールの有無・評価制度・開発フローなどは、面談で具体的に質問できます。事前の確認が、入社後のミスマッチを減らす最大の防御策です。面談の進め方は<Link href="/knowledge/agent-first-meeting/" className="text-blue-600 hover:underline">エージェントとの初回面談</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">重要なのは、入社前に<strong>カジュアル面談などで実態を確認し、期待値を調整する</strong>ことです。業務量・オンコールの有無・評価制度・開発フローなどは、面談で具体的に質問できます。事前の確認が、入社後のミスマッチを減らす最大の防御策です。面談の進め方は<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">エージェントとの初回面談</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。即戦力を求めるメガベンチャーにとって、実務経験を積んだ30代・40代は価値の高い層です。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>専門性を深めつつ、急成長企業で裁量を持って事業に関わりたい時期です。技術力の言語化とポートフォリオの整備が選考通過の鍵になります。IT特化エージェントで技術面の準備を固め、総合大手で求人の母数を広げると効率的です。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安で、メガベンチャーで年収を一段引き上げられるかが判断材料になります。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>要件定義・設計・マネジメントの経験は、組織を拡大するメガベンチャーで強く求められます。レバテック公表（2025年）では40代の年収1,000万円以上の割合は12.67%とされ、リード・マネジメント級のポジションで上限を狙える層です。ハイクラス特化のスカウトで市場価値を測りつつ、IT特化エージェントで現場の内情を確認する組み合わせが、40代には合理的です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>要件定義・設計・マネジメントの経験は、組織を拡大するメガベンチャーで強く求められます。レバテック公表（2025年）では40代の年収1,000万円以上の割合は12.67%とされ、リード・マネジメント級のポジションで上限を狙える層です。ハイクラス特化のスカウトで市場価値を測りつつ、IT特化エージェントで現場の内情を確認する組み合わせが、40代には合理的です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
           <p className="text-slate-600 leading-relaxed text-sm">いずれの年代でも、志望企業の実態を企業別ページで確認したうえで、目的に合ったエージェントを選ぶことが成功の近道です。</p>
         </section>
 
@@ -166,7 +166,7 @@ export default function MegaventureAgentsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">メガベンチャー転職は「企業研究×エージェント使い分け」で</h2>
           <p className="text-blue-100 text-sm mb-4">志望企業の実態を企業ページで確認し、総合大手・IT特化・ハイクラスを目的別に使い分ける。これがメガベンチャー転職の王道です。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -180,7 +180,7 @@ export default function MegaventureAgentsPage() {
               { name: "ハイクラスIT転職エージェント比較", href: "/compare/highclass/" },
               { name: "スタートアップと大企業の比較", href: "/knowledge/startup-vs-enterprise/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

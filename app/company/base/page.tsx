@@ -71,7 +71,7 @@ export default function BaseCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（PHP/Goの経験者・決済ドメイン志向に向く）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・主力サービスは<strong>PHP（CakePHP由来）</strong>、新規・決済領域は<strong>Go＋Next.js</strong>。既存資産の保守とモダン化の両方に関われる過渡期フェーズ。</li>
@@ -86,7 +86,7 @@ export default function BaseCompanyPage() {
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
@@ -106,9 +106,9 @@ export default function BaseCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">EC×決済×金融のマルチプロダクト</h3><p className="text-sm text-blue-700">ネットショップ作成「BASE」、ID決済「Pay ID」、決済API「PAY.JP」、金融「YELL BANK」と、ECを軸に決済・金融へ広がるプロダクト群を持ちます。プロダクトごとに技術スタックや求められるドメイン知識が異なるため、自分の経験に合った領域を選びやすいのが特徴です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">PHPからGoへの移行フェーズ</h3><p className="text-sm text-blue-700">主力サービス本体はPHP（CakePHP由来）で構築されている一方、新規プロダクトや決済・金融領域ではGoの採用を進めています。既存の大規模資産を保守しながら、新領域をモダンなスタックで作るという、技術選択の過渡期に立ち会える点はエンジニアにとって学びの大きい環境です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">決済ドメインならではの非機能要件</h3><p className="text-sm text-blue-700">決済・金融を扱うため、可用性・セキュリティ・トランザクション整合性といった非機能要件への要求が高い領域です。お金を扱うシステムの堅牢性に向き合った経験は強みになり、入社後もそうした品質感覚が求められます。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">EC×決済×金融のマルチプロダクト</h3><p className="text-sm text-petrol-deep">ネットショップ作成「BASE」、ID決済「Pay ID」、決済API「PAY.JP」、金融「YELL BANK」と、ECを軸に決済・金融へ広がるプロダクト群を持ちます。プロダクトごとに技術スタックや求められるドメイン知識が異なるため、自分の経験に合った領域を選びやすいのが特徴です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">PHPからGoへの移行フェーズ</h3><p className="text-sm text-petrol-deep">主力サービス本体はPHP（CakePHP由来）で構築されている一方、新規プロダクトや決済・金融領域ではGoの採用を進めています。既存の大規模資産を保守しながら、新領域をモダンなスタックで作るという、技術選択の過渡期に立ち会える点はエンジニアにとって学びの大きい環境です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">決済ドメインならではの非機能要件</h3><p className="text-sm text-petrol-deep">決済・金融を扱うため、可用性・セキュリティ・トランザクション整合性といった非機能要件への要求が高い領域です。お金を扱うシステムの堅牢性に向き合った経験は強みになり、入社後もそうした品質感覚が求められます。</p></div>
           </div>
         </section>
 
@@ -117,14 +117,14 @@ export default function BaseCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下はBASEの公式採用ページ・技術ブログで確認できる範囲の情報です。プロダクトによってスタックが異なります。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>PHP（CakePHP由来）</strong>：主力サービス「BASE」本体のサーバーサイド</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Vue / React（TypeScript）</strong>：既存サービスのフロントエンド</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Go ＋ Next.js（App Router）</strong>：ID決済「Pay ID」など新規プロダクト</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Go</strong>：金融サービス「YELL BANK」／<strong>Python</strong>：決済API「PAY.JP」</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AWS・GCP</strong>：クラウド基盤</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>PHP（CakePHP由来）</strong>：主力サービス「BASE」本体のサーバーサイド</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Vue / React（TypeScript）</strong>：既存サービスのフロントエンド</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go ＋ Next.js（App Router）</strong>：ID決済「Pay ID」など新規プロダクト</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go</strong>：金融サービス「YELL BANK」／<strong>Python</strong>：決済API「PAY.JP」</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AWS・GCP</strong>：クラウド基盤</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：BASE 公式採用サイト・技術ブログの公開情報。各言語の市場感は<Link href="/skill/php/" className="text-blue-600 hover:underline">PHPエンジニアの転職市場</Link>・<Link href="/skill/go/" className="text-blue-600 hover:underline">Goエンジニアの転職市場</Link>もあわせてご覧ください。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：BASE 公式採用サイト・技術ブログの公開情報。各言語の市場感は<Link href="/skill/php/" className="text-petrol hover:underline">PHPエンジニアの転職市場</Link>・<Link href="/skill/go/" className="text-petrol hover:underline">Goエンジニアの転職市場</Link>もあわせてご覧ください。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -138,7 +138,7 @@ export default function BaseCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-2">
             上表はBASEの<strong>有価証券報告書（2024年12月期）</strong>に記載された提出会社（BASE株式会社単体）の数値です。これは<strong>エンジニア以外も含む全従業員の平均</strong>であり、職種別・等級別の年収は公式に開示されていません。転職集計サイトでは約758万円とする値も見られますが、当ガイドでは一次情報である<strong>有価証券報告書の700万円を優先</strong>しています。出典のない等級別年収表は掲載していません。
           </p>
-          <p className="text-xs text-slate-500">出典：BASE「有価証券報告書」2024年12月期、IRBANK集計。年代別の相場感は<Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500">出典：BASE「有価証券報告書」2024年12月期、IRBANK集計。年代別の相場感は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>を参照してください。</p>
         </section>
 
         <section id="flow" className="mb-10">
@@ -151,7 +151,7 @@ export default function BaseCompanyPage() {
               ["STEP 3", "内定", "条件提示。具体的な選考期間は公式に明示されていない。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <span className="shrink-0 text-xs font-bold text-blue-700 bg-blue-50 rounded px-2 py-1 h-fit">{step}</span>
+                <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
                 <div><p className="font-bold text-slate-800 text-sm mb-1">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
               </li>
             ))}
@@ -163,10 +163,10 @@ export default function BaseCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・口コミ傾向ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。公開情報と口コミプラットフォームの傾向から、評価されやすいと考えられるポイントを一般化して挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>PHPまたはGoによるWebサービスの開発運用経験と設計力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>既存資産の保守とモダン化を両立する現実的なエンジニアリング感覚</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>決済・金融ドメインの非機能要件（可用性・セキュリティ）への理解</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>マルチプロダクト環境での自律的な課題発見・解決</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>PHPまたはGoによるWebサービスの開発運用経験と設計力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>既存資産の保守とモダン化を両立する現実的なエンジニアリング感覚</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>決済・金融ドメインの非機能要件（可用性・セキュリティ）への理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>マルチプロダクト環境での自律的な課題発見・解決</li>
           </ul>
         </section>
 
@@ -183,7 +183,7 @@ export default function BaseCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代のエンジニアにとって、BASEの「PHPの大規模資産とGoへの移行が共存する過渡期」は、経験が最も活きるフェーズです。レガシーを否定せず現実的にモダン化を進める判断力は、若手にはまだ難しく、複数の技術世代を経験してきたミドル層の強みが直接価値になります。EC×決済×金融という、お金が絡む堅牢性を求められるドメインも、慎重さと経験がものを言う領域です。</p>
             <p>一方で、グロース上場企業として事業フェーズの変化が早く、業務量の波や優先順位の変化が起きやすい点は、生活基盤が固まった40代では事前に確認しておきたいポイントです。年収面では平均700万円が一つの基準ですが、これは全従業員平均であり、自分の経験レンジに対する提示は個別に交渉・確認することが重要です。</p>
-            <p>転職活動では、ミドル層の市場価値・年収交渉の観点も押さえておきたいところです。<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>や<Link href="/industry/finance/" className="text-blue-600 hover:underline">金融・フィンテック業界の転職</Link>、<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニア転職の現実</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の市場価値・年収交渉の観点も押さえておきたいところです。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>や<Link href="/industry/finance/" className="text-petrol hover:underline">金融・フィンテック業界の転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -214,15 +214,15 @@ export default function BaseCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">BASE転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強い。技術面接対策のサポートが受けられる。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富。スタートアップ・グロース企業に強み。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けスカウト型。決済・フィンテックの上位ポジションに出会いやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強い。技術面接対策のサポートが受けられる。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富。スタートアップ・グロース企業に強み。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けスカウト型。決済・フィンテックの上位ポジションに出会いやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">BASEへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">Web系・決済ドメインに強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -233,7 +233,7 @@ export default function BaseCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "PHPエンジニアの転職市場", href: "/skill/php/" }, { name: "Goエンジニアの転職市場", href: "/skill/go/" }, { name: "PLAIDの転職ガイド", href: "/company/plaid/" }, { name: "STORESの転職ガイド", href: "/company/stores/" }, { name: "クックパッドの転職ガイド", href: "/company/cookpad/" }, { name: "金融・フィンテック業界の転職", href: "/industry/finance/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "PHPエンジニアの転職市場", href: "/skill/php/" }, { name: "Goエンジニアの転職市場", href: "/skill/go/" }, { name: "PLAIDの転職ガイド", href: "/company/plaid/" }, { name: "STORESの転職ガイド", href: "/company/stores/" }, { name: "クックパッドの転職ガイド", href: "/company/cookpad/" }, { name: "金融・フィンテック業界の転職", href: "/industry/finance/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

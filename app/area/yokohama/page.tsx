@@ -155,7 +155,7 @@ export default function YokohamaAreaPage() {
         />
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">
               結論：横浜・神奈川のIT転職市場の特徴
             </h2>
@@ -172,7 +172,7 @@ export default function YokohamaAreaPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ol>
@@ -206,21 +206,21 @@ export default function YokohamaAreaPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3">
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">1</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
               <p className="text-sm text-slate-600"><strong>県内オフィス勤務:</strong> みなとみらい・新横浜・川崎などの拠点に通勤。職住近接を実現しやすく、製造系・組込み系では出社が前提になりやすい。</p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">2</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
               <p className="text-sm text-slate-600"><strong>東京企業へハイブリッド:</strong> 神奈川在住で、週数日だけ東京都心に出社する形。通勤時間と出社頻度のバランスを取りやすい。</p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">3</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
               <p className="text-sm text-slate-600"><strong>フルリモート:</strong> Web系・SaaS企業を中心に、神奈川に住んだまま東京や全国の企業で働ける求人が存在する。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             リモート可の求人でも入社後に出社頻度が変わることがあります。週何日出社か、制度が恒久的かを面談で必ず確認しましょう。リモート前提で探すなら
-            <Link href="/area/remote/" className="text-blue-600 hover:underline">フルリモートIT転職ガイド</Link>
+            <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
             も参考になります。
           </p>
         </section>
@@ -254,7 +254,7 @@ export default function YokohamaAreaPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
             横浜・神奈川は、
-            <Link href="/area/tokyo/" className="text-blue-600 hover:underline">東京</Link>
+            <Link href="/area/tokyo/" className="text-petrol hover:underline">東京</Link>
             の求人とあわせて検討することで強みが最大化します。県内拠点と東京リモートを組み合わせ、勤務形態と居住地をセットで考えるのがおすすめです。
           </p>
         </section>
@@ -274,10 +274,10 @@ export default function YokohamaAreaPage() {
                 </tr>
               </thead>
               <tbody>
-                <tr><td className="px-3 py-3 border border-slate-200">20代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約378万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200">30代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約499万円</td><td className="px-3 py-3 border border-slate-200">8.01%</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200">40代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約618万円</td><td className="px-3 py-3 border border-slate-200">12.67%</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200">50代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約685万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">20代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約378万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">30代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約499万円</td><td className="px-3 py-3 border border-slate-200">8.01%</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">40代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約618万円</td><td className="px-3 py-3 border border-slate-200">12.67%</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">50代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約685万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
               </tbody>
             </table>
           </div>
@@ -286,7 +286,7 @@ export default function YokohamaAreaPage() {
           </p>
           <p className="text-slate-600 leading-relaxed mt-4">
             東京企業にリモート勤務する場合は東京水準の提示を受けられる可能性があります。年収を上げたいなら複数エージェントで求人を比較し、市場価値を把握したうえで交渉することが効果的です。
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">転職で年収は上がる？</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">転職で年収は上がる？</Link>
             も参照してください。
           </p>
         </section>
@@ -297,30 +297,30 @@ export default function YokohamaAreaPage() {
             神奈川の求人は首都圏のエージェントが対応範囲に含みます。IT特化型を軸に、製造系や幅広い求人を扱う総合型を併用するとよいでしょう。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レバテックキャリア（IT/Web特化）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 IT/Web特化で首都圏中心。高年収求人の比率が高いとされ、書類添削・面接対策の丁寧さが評価されます。一方で未経験者には紹介されにくいという声もあります。
                 <Link href="/review/levtech/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Geekly（IT/Web/ゲーム特化）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 IT/Web/ゲーム特化で提案スピードが強みとされます。年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）。連絡頻度や担当者の質のばらつきを指摘する声もあります。
                 <Link href="/review/geekly/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">doda ITエンジニア（全国・総合型）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 対応エリアは全国で、国内最大級の求人数を持つハイブリッド型。製造業DXを含む幅広い業界の求人を扱い、神奈川の大手・メーカー系の求人も探しやすいとされます。求人・連絡が多すぎるという声もあります。
                 <Link href="/review/doda-it/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ワークポート（全国・総合型）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 全国47都道府県57拠点を持つ総合型で、IT・ゲームに強み。未経験歓迎求人も豊富とされ、経験浅めの併用先として有効です。レスポンスの速さが評価される一方、連絡量を指摘する声もあります。
                 <Link href="/review/workport/" className="underline ml-1">詳細レビュー</Link>
               </p>
@@ -328,7 +328,7 @@ export default function YokohamaAreaPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             各社の横並び比較は
-            <Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント10社比較</Link>
+            <Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>
             にまとめています。
           </p>
         </section>
@@ -360,9 +360,9 @@ export default function YokohamaAreaPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
             目的別の比較は
-            <Link href="/compare/30s-agents/" className="text-blue-600 hover:underline">30代向けエージェント比較</Link>
+            <Link href="/compare/30s-agents/" className="text-petrol hover:underline">30代向けエージェント比較</Link>
             ・
-            <Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向けエージェント比較</Link>
+            <Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向けエージェント比較</Link>
             も参考にしてください。
           </p>
         </section>
@@ -378,7 +378,7 @@ export default function YokohamaAreaPage() {
               { t: "選考・条件交渉", d: "年収・勤務地・働き方の交渉はエージェント経由で進めやすくなります。" },
             ].map((s, i) => (
               <li key={i} className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold shrink-0">{i + 1}</span>
                 <div>
                   <p className="font-bold text-slate-800 text-sm">{s.t}</p>
                   <p className="text-sm text-slate-600 leading-relaxed">{s.d}</p>
@@ -395,8 +395,8 @@ export default function YokohamaAreaPage() {
               横浜・神奈川はミドル層にとって、生活基盤を維持しながら首都圏の求人にアクセスできるバランスの良いエリアです。経産省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれ、経験者需要は底堅いと考えられます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価される時期。県内拠点でのリードポジションや、東京企業へのリモート転職で年収を伸ばしやすい。<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職ガイド</Link></li>
-              <li>・<strong>40代</strong>：マネジメントや特定ドメインの専門性が武器。製造×ITの経験は神奈川で活きやすい。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職ガイド</Link></li>
+              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価される時期。県内拠点でのリードポジションや、東京企業へのリモート転職で年収を伸ばしやすい。<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link></li>
+              <li>・<strong>40代</strong>：マネジメントや特定ドメインの専門性が武器。製造×ITの経験は神奈川で活きやすい。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link></li>
               <li>・家族の生活拠点を変えずに転職したい層にとって、通勤圏×リモートの選択肢は大きなメリットになります。</li>
             </ul>
           </div>
@@ -424,7 +424,7 @@ export default function YokohamaAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -437,7 +437,7 @@ export default function YokohamaAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

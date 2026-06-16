@@ -111,7 +111,7 @@ export default function BasicInfoCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -122,7 +122,7 @@ export default function BasicInfoCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：基本情報は誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               基本情報技術者は<strong>「IT未経験者の入口」</strong>として効き、<strong>「経験者には基礎すぎて単体の武器性が低い」</strong>資格です。同じ資格でも対象読者で評価が真逆になります。
             </p>
@@ -209,7 +209,7 @@ export default function BasicInfoCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            未経験からの進路は<Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのITエンジニア転職</Link>、インフラ方向なら<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>を参考にしてください。
+            未経験からの進路は<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのITエンジニア転職</Link>、インフラ方向なら<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -248,7 +248,7 @@ export default function BasicInfoCertPage() {
             この体系を踏まえると、基本情報の役割がはっきりします。<strong>IT職に入る・入ったばかりの人が、共通言語としての基礎を固める</strong>ための試験です。ベンダー資格のCCNAやLPIC/LinuCが「ネットワーク」「Linux」といった特定領域に直結するのに対し、基本情報は<strong>特定領域に偏らないIT全般の土台</strong>を示します。だからこそ、どの専門に進むか未定の未経験者にとって、最初の一歩として選びやすいのです。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも明確です。基礎レベルである以上、<strong>すでに実務経験のあるエンジニアには物足りず、書類での加点効果も限定的</strong>です。経験者がこの体系で価値を出すなら、一段上の<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>へ進むべきです。応用情報に合格すれば高度試験・情報処理安全確保支援士の午前Ⅰが2年間免除され、専門資格への近道にもなります。
+            正直なデメリットも明確です。基礎レベルである以上、<strong>すでに実務経験のあるエンジニアには物足りず、書類での加点効果も限定的</strong>です。経験者がこの体系で価値を出すなら、一段上の<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>へ進むべきです。応用情報に合格すれば高度試験・情報処理安全確保支援士の午前Ⅰが2年間免除され、専門資格への近道にもなります。
           </p>
         </section>
 
@@ -266,7 +266,7 @@ export default function BasicInfoCertPage() {
               異業種出身ミドルが基本情報を活かすコツは、<strong>資格を「ゴール」ではなく「スタートの証明」として見せる</strong>ことです。採用側が異業種からの転職者に最も懸念するのは、入社後にギャップで離脱しないかという点です。基本情報の学習を通じてアルゴリズムやネットワーク、セキュリティの基礎を一通り理解していれば、「ITの全体像をわかったうえで覚悟して飛び込んでいる」という説得力が生まれます。さらに、前職で培ったコミュニケーション力や業務改善の経験、ドメイン知識（医療・金融・製造などの業界知識）と組み合わせれば、若手にはない強みとして差別化できます。基本情報単体ではなく、こうした掛け算で勝負するのがミドルの異業種転職の定石です。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -281,7 +281,7 @@ export default function BasicInfoCertPage() {
               { n: "STEP 3", t: "CBTで随時受験→次の目標へ", d: "通年受験できるため準備が整い次第予約。合格後は応用情報や専門資格へ進む。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -290,7 +290,7 @@ export default function BasicInfoCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            併取得・次のステップ：上流・経験者の加点なら<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>、インフラ実務なら<Link href="/cert/ccna/" className="text-blue-600 hover:underline">CCNA</Link>や<Link href="/cert/lpic/" className="text-blue-600 hover:underline">LPIC／LinuC</Link>、クラウドなら<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS認定</Link>が定番です。
+            併取得・次のステップ：上流・経験者の加点なら<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>、インフラ実務なら<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>、クラウドなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>が定番です。
           </p>
         </section>
 
@@ -318,7 +318,7 @@ export default function BasicInfoCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -338,7 +338,7 @@ export default function BasicInfoCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

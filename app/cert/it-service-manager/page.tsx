@@ -117,7 +117,7 @@ export default function ITServiceManagerCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -128,7 +128,7 @@ export default function ITServiceManagerCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SMは誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               ITサービスマネージャは<strong>「運用経験者のマネジメント証明」</strong>です。基本情報やCCNAのような未経験入口資格とは性格が異なり、すでに運用・保守やサービスマネジメントの実務経験のあるミドルが<strong>運用品質を統制し、サービスを止めない人材であることを客観的に示す</strong>のに最も効きます。
             </p>
@@ -174,7 +174,7 @@ export default function ITServiceManagerCertPage() {
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: IPA 公式（試験要綱、調査時点2026年6月）。免除は午前Ⅰのみで、午前Ⅱ・午後は免除されません。SMは午後Ⅱの論述に学習時間を集中させたい試験のため、午前Ⅰ免除の効果が大きくなります。詳しくは<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>のページも参照してください。
+            出典: IPA 公式（試験要綱、調査時点2026年6月）。免除は午前Ⅰのみで、午前Ⅱ・午後は免除されません。SMは午後Ⅱの論述に学習時間を集中させたい試験のため、午前Ⅰ免除の効果が大きくなります。詳しくは<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>のページも参照してください。
           </p>
         </section>
 
@@ -192,7 +192,7 @@ export default function ITServiceManagerCertPage() {
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: 国税庁「民間給与実態統計調査」（令和6年分）。運用・SRE・サービスマネジメント職の年収は企業・役割で幅が大きいため、最新の相場は各エージェントの市場価値診断でご確認ください。基盤・運用方向の相場感は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>も参考になります。
+            出典: 国税庁「民間給与実態統計調査」（令和6年分）。運用・SRE・サービスマネジメント職の年収は企業・役割で幅が大きいため、最新の相場は各エージェントの市場価値診断でご確認ください。基盤・運用方向の相場感は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>も参考になります。
           </p>
         </section>
 
@@ -233,7 +233,7 @@ export default function ITServiceManagerCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            基盤・運用方向は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>、上流・マネジメント方向は<Link href="/skill/pm/" className="text-blue-600 hover:underline">PM・マネジメント転職ガイド</Link>を参考にしてください。
+            基盤・運用方向は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>、上流・マネジメント方向は<Link href="/skill/pm/" className="text-petrol hover:underline">PM・マネジメント転職ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -272,7 +272,7 @@ export default function ITServiceManagerCertPage() {
             活用の軸は3つです。第一に<strong>運用統制力の客観証明</strong>。SMは「サービスを止めずに改善し続ける力」を問う試験で、運用品質を語れる人材であることを国家資格で裏づけられます。第二に<strong>運用責任者・SREへの足がかり</strong>。可用性・SLA・継続的改善の素養を示す加点材料になります。第三に<strong>社内評価・資格手当</strong>。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。SMは合格率15%前後の難関で、特に午後Ⅱの論述には<strong>自分の運用経験を論理的に書く訓練が不可欠</strong>です。また取得しても単体で年収が跳ねる資格ではなく、効果が出るのは「運用マネジメントの実務 × 資格」の掛け算が成立したときです。逆に言えば、すでに運用現場の経験があり管理職を目指す30〜40代にとっては、投資する価値が明確な資格です。土台が不安なら、まず<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>を経由するのが堅実です。
+            正直なデメリットも押さえておきましょう。SMは合格率15%前後の難関で、特に午後Ⅱの論述には<strong>自分の運用経験を論理的に書く訓練が不可欠</strong>です。また取得しても単体で年収が跳ねる資格ではなく、効果が出るのは「運用マネジメントの実務 × 資格」の掛け算が成立したときです。逆に言えば、すでに運用現場の経験があり管理職を目指す30〜40代にとっては、投資する価値が明確な資格です。土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。
           </p>
         </section>
 
@@ -287,7 +287,7 @@ export default function ITServiceManagerCertPage() {
               一方で過度な期待は禁物です。SMを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「運用マネジメントの実務経験 × 資格」の掛け算</strong>のとき。インシデント対応や継続的改善の経験と組み合わせて初めて、運用責任者やSREという形で結実します。さらに、応用情報の午前Ⅰ免除を使えば、高度試験への挑戦の負担を抑えられます。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -302,7 +302,7 @@ export default function ITServiceManagerCertPage() {
               { n: "STEP 3", t: "合格→運用責任者・SREへ展開", d: "国家資格の裏づけを職務経歴書・面接で活かし、運用管理・SRE職への移行につなげる。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -311,7 +311,7 @@ export default function ITServiceManagerCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            土台が不安なら<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>から、基盤・運用の専門を広げるなら<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア</Link>、マネジメント転職の進め方は<Link href="/knowledge/management/" className="text-blue-600 hover:underline">マネジメント職への転職</Link>も有効です。資格全体の位置づけは<Link href="/cert/" className="text-blue-600 hover:underline">エンジニアの資格比較</Link>もご覧ください。
+            土台が不安なら<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>から、基盤・運用の専門を広げるなら<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア</Link>、マネジメント転職の進め方は<Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメント職への転職</Link>も有効です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>もご覧ください。
           </p>
         </section>
 
@@ -339,7 +339,7 @@ export default function ITServiceManagerCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -359,7 +359,7 @@ export default function ITServiceManagerCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -86,7 +86,7 @@ export default function TrainingPage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             研修・学習支援が充実した企業は、技術の変化が速いIT業界で長く活躍するうえで大きな価値があります。<strong>ただし「制度がある」ことと「実際に学べる」ことは別問題です。</strong>書籍購入補助やカンファレンス参加支援が制度としてあっても、申請が煩雑だったり業務多忙で使えなかったりして形骸化しているケースは少なくありません。本当に見るべきは、制度の数ではなく「直近で実際に使われているか」「業務時間内に学べる余裕があるか」という学習文化の実態です。本記事では、学習支援の種類を整理しつつ、形骸化を見抜いて学び続けられる環境を選ぶ方法を解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 会社の支援を受けながらスキルアップしたい</li>
@@ -99,7 +99,7 @@ export default function TrainingPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>学習支援制度の種類</li>
             <li>形骸化を見抜く視点</li>
             <li>求人での見極め方</li>
@@ -114,7 +114,7 @@ export default function TrainingPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">支援の種類</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">内容と確認ポイント</th>
                 </tr>
@@ -144,7 +144,7 @@ export default function TrainingPage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             見抜くコツは、<strong>「制度の有無」ではなく「直近の利用実績」を聞く</strong>ことです。「直近で書籍購入やカンファレンス参加を利用した社員はいますか」「業務時間内に学習する文化はありますか」と具体的に尋ね、具体例がすらすら出てくるかで実態が透けて見えます。継続学習の進め方そのものは
-            <Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの継続学習</Link>
+            <Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続学習</Link>
             も参考になります。
           </p>
         </section>
@@ -159,7 +159,7 @@ export default function TrainingPage() {
               { num: "4", title: "社外発信・登壇支援の有無を確認", desc: "技術ブログ・勉強会・登壇を支援している企業は、学習に前向きな文化の傍証になります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -178,9 +178,9 @@ export default function TrainingPage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             研修後にどんな技術・案件に関われるか、スキルが伸びる環境かまで見極めることが大切です。30代未経験からの現実的な進め方は
-            <Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのエンジニア転職</Link>
+            <Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのエンジニア転職</Link>
             、学び直しの設計は
-            <Link href="/knowledge/reskilling/" className="text-blue-600 hover:underline">リスキリングの進め方</Link>
+            <Link href="/knowledge/reskilling/" className="text-petrol hover:underline">リスキリングの進め方</Link>
             を合わせてご覧ください。
           </p>
         </section>
@@ -192,7 +192,7 @@ export default function TrainingPage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             学習支援が充実した企業は、往々にして成長志向の文化や技術的な挑戦の機会も豊富です。スキルを伸ばし続けたいミドルにとって、
-            <Link href="/purpose/growth/" className="text-blue-600 hover:underline">成長できる環境への転職</Link>
+            <Link href="/purpose/growth/" className="text-petrol hover:underline">成長できる環境への転職</Link>
             も併せて検討する価値があります。
           </p>
         </section>
@@ -215,7 +215,7 @@ export default function TrainingPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">学び続けられる企業を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">研修・学習支援が実際に機能している企業を、IT特化型エージェントが内情を踏まえて提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -229,7 +229,7 @@ export default function TrainingPage() {
               { name: "目的別ガイド一覧", href: "/purpose/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

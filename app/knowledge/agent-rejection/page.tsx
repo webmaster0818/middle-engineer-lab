@@ -122,7 +122,7 @@ export default function AgentRejectionPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -132,7 +132,7 @@ export default function AgentRejectionPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：断られても転職はできる</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               1社に断られても、それは「あなたが転職できない」ことを意味しません。エージェントごとに得意分野が違うため、<strong>IT特化型へ登録し直す＋スカウト型や直接応募を併用する</strong>のが基本の立て直し方です。
@@ -151,7 +151,7 @@ export default function AgentRejectionPage() {
           <div className="space-y-4">
             {reasons.map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -181,35 +181,35 @@ export default function AgentRejectionPage() {
               <tbody>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
-                    <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+                    <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
                   </td>
                   <td className="px-4 py-3 border border-slate-200">IT特化。利用者の約80%が20〜30代（公式ガイド）。未経験者は紹介されにくいとの口コミ傾向（Qiita Job Change等）。</td>
                   <td className="px-4 py-3 border border-slate-200">実務経験のある30代</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
-                    <Link href="/review/workport/" className="text-blue-600 hover:underline">ワークポート</Link>
+                    <Link href="/review/workport/" className="text-petrol hover:underline">ワークポート</Link>
                   </td>
                   <td className="px-4 py-3 border border-slate-200">全国47都道府県57拠点。未経験歓迎求人も豊富（公式/二次）。求職者完全無料。</td>
                   <td className="px-4 py-3 border border-slate-200">未経験寄り・地方在住</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
-                    <Link href="/review/bizreach-it/" className="text-blue-600 hover:underline">ビズリーチ</Link>
+                    <Link href="/review/bizreach-it/" className="text-petrol hover:underline">ビズリーチ</Link>
                   </td>
                   <td className="px-4 py-3 border border-slate-200">ハイクラス・スカウト型。年収1,000万円以上求人が全体の約4割（二次）。経歴次第でスカウトが来ない場合も（二次）。</td>
                   <td className="px-4 py-3 border border-slate-200">経験豊富な40代</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
-                    <Link href="/review/paiza/" className="text-blue-600 hover:underline">paiza転職</Link>
+                    <Link href="/review/paiza/" className="text-petrol hover:underline">paiza転職</Link>
                   </td>
                   <td className="px-4 py-3 border border-slate-200">スキルチェックのランクで実力評価→スカウト。書類選考免除あり。ランクB以上でないと届きにくいとの声（二次）。</td>
                   <td className="px-4 py-3 border border-slate-200">コードで評価されたい人</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
-                    <Link href="/review/green/" className="text-blue-600 hover:underline">Green</Link>
+                    <Link href="/review/green/" className="text-petrol hover:underline">Green</Link>
                   </td>
                   <td className="px-4 py-3 border border-slate-200">エージェントではなくダイレクトリクルーティング。直接応募・カジュアル面談中心で仲介の合否判断がない。</td>
                   <td className="px-4 py-3 border border-slate-200">自分で動けるベンチャー志望</td>
@@ -218,7 +218,7 @@ export default function AgentRejectionPage() {
             </table>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            未経験・経験浅めの方の比較は<Link href="/compare/inexperienced/" className="text-blue-600 hover:underline">未経験向けエージェント比較</Link>、ハイクラス層は<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向け比較</Link>も参考になります。
+            未経験・経験浅めの方の比較は<Link href="/compare/inexperienced/" className="text-petrol hover:underline">未経験向けエージェント比較</Link>、ハイクラス層は<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向け比較</Link>も参考になります。
           </p>
         </section>
 
@@ -269,21 +269,21 @@ export default function AgentRejectionPage() {
         <section id="alternatives" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント以外の代替手段</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. スカウト型サービス</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">ビズリーチやpaiza転職にプロフィールを登録すると、企業やヘッドハンターから直接オファーが届きます。詳しくは<Link href="/knowledge/scout/" className="underline">スカウトの活用法</Link>を参照してください。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">ビズリーチやpaiza転職にプロフィールを登録すると、企業やヘッドハンターから直接オファーが届きます。詳しくは<Link href="/knowledge/scout/" className="underline">スカウトの活用法</Link>を参照してください。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. ダイレクトリクルーティング・直接応募</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">Greenや企業の採用ページから直接応募する方法。仲介の合否判断を経ずに応募できます。<Link href="/knowledge/direct-apply/" className="underline">直接応募とエージェントの使い分け</Link>もご覧ください。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">Greenや企業の採用ページから直接応募する方法。仲介の合否判断を経ずに応募できます。<Link href="/knowledge/direct-apply/" className="underline">直接応募とエージェントの使い分け</Link>もご覧ください。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. リファラル（社員紹介）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">知人の紹介で応募する方法。内部情報を事前に得やすいのが利点です。<Link href="/knowledge/referral/" className="underline">リファラル転職のメリット・デメリット</Link>で詳しく解説しています。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">知人の紹介で応募する方法。内部情報を事前に得やすいのが利点です。<Link href="/knowledge/referral/" className="underline">リファラル転職のメリット・デメリット</Link>で詳しく解説しています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. LinkedIn・技術コミュニティ経由</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">プロフィールを充実させると採用担当やリクルーターからスカウトが届きます。勉強会・OSS活動・技術ブログが目に留まることもあります。<Link href="/knowledge/linkedin/" className="underline">LinkedInを使った転職術</Link>を参照。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">プロフィールを充実させると採用担当やリクルーターからスカウトが届きます。勉強会・OSS活動・技術ブログが目に留まることもあります。<Link href="/knowledge/linkedin/" className="underline">LinkedInを使った転職術</Link>を参照。</p>
             </div>
           </div>
         </section>
@@ -294,13 +294,13 @@ export default function AgentRejectionPage() {
           <ul className="space-y-2">
             {checklist.map((c) => (
               <li key={c} className="flex items-start gap-2 text-sm text-slate-700">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span>{c}</span>
               </li>
             ))}
           </ul>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            職務経歴書の改善は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>、自分の市場価値の確認は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>が役立ちます。
+            職務経歴書の改善は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>、自分の市場価値の確認は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>が役立ちます。
           </p>
         </section>
 
@@ -315,7 +315,7 @@ export default function AgentRejectionPage() {
               40代はマネジメント経験や専門性が評価軸になります。ビズリーチは年収1,000万円以上求人が全体の約4割（二次）で、レバテック公表値では正社員SE 40代の平均年収は約618万円・年収1,000万円以上の割合は12.67%（2025年・ガイド記事）です。年齢ではなく「何ができるか」を職務経歴書で言語化し直すことが、再挑戦の最短ルートです。
             </p>
             <p>
-              年代別の実態は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>も参考にしてください。
+              年代別の実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>も参考にしてください。
             </p>
           </div>
         </section>
@@ -344,7 +344,7 @@ export default function AgentRejectionPage() {
           </p>
           <Link
             href="/compare/agents/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             IT転職エージェント10社比較を見る
           </Link>
@@ -365,7 +365,7 @@ export default function AgentRejectionPage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

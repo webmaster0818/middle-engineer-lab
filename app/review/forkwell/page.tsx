@@ -199,7 +199,7 @@ export default function ForkwellReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：発信・学習文化に合う中〜上級層の『質重視』の転職に向く</span>。一言でいえば「ポートフォリオやコミュニティを活かして、質の高いスカウトと出会いたい中〜上級エンジニア」向けのサービスです。
@@ -215,7 +215,7 @@ export default function ForkwellReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -234,16 +234,16 @@ export default function ForkwellReview() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
               Forkwellは、スカウトを受け取れるだけでなく、Forkwell Jobsで自分から求人を探したり、ポートフォリオで実績を整理したり、勉強会などのコミュニティに参加したりできる複合型のサービスです。担当アドバイザーが求人を提案する
-              <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               のようなエージェント型とは性質が異なります。
             </p>
             <p>
               同じスカウト・可視化系でも評価軸が違う点に注意が必要です。<span className="font-bold text-slate-700">Forkwellはポートフォリオ＋コミュニティ</span>が軸であるのに対し、
-              <Link href="/review/findy/" className="text-blue-600 hover:underline">Findy</Link>
+              <Link href="/review/findy/" className="text-petrol hover:underline">Findy</Link>
               はGitHubのスキル偏差値、
-              <Link href="/review/lapras/" className="text-blue-600 hover:underline">LAPRAS</Link>
+              <Link href="/review/lapras/" className="text-petrol hover:underline">LAPRAS</Link>
               はWeb全体の発信をAI解析します。さらにスキルチェックの解答で評価する
-              <Link href="/review/paiza/" className="text-blue-600 hover:underline">paiza</Link>
+              <Link href="/review/paiza/" className="text-petrol hover:underline">paiza</Link>
               とも評価の入り口が異なります。「自分の強みがどの軸で最も伝わるか」で選ぶのが要点です。
             </p>
           </div>
@@ -279,27 +279,27 @@ export default function ForkwellReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">Forkwellの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. スカウト文面の質</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 プロフィールやポートフォリオを読み込んだ個別性の高いスカウトが届く傾向があり、一斉送信のテンプレに疲れた人から評価されています。最初のやり取りで企業の本気度が伝わりやすいのが特徴です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. コミュニティ・勉強会の運営</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Forkwellは技術勉強会やイベントを多数（200本超とされる）運営しており、学習・情報交換の場としての価値があります。転職活動と並行して技術コミュニティに触れられる点は、継続学習を重視するミドル層と相性が良いといえます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. ポートフォリオで実績を整理</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 ポートフォリオ機能で経歴・スキル・成果物を整理し、そのまま企業に見てもらえる導線があります。発信や学習を継続している人ほど、強みが伝わりやすい設計です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 求職者は無料</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 求職者の利用は無料です（確認できた範囲）。費用は採用企業側が負担します。質の高いスカウトと出会う枠として、リスクなく試せます。
               </p>
             </div>
@@ -356,20 +356,20 @@ export default function ForkwellReview() {
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
               技術発信や個人開発を続けている人なら、ポートフォリオを起点に質の高いスカウトを受けやすい年代です。コミュニティ参加で企業文化を事前に知れるのも利点。求人の母数は
-              <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               などで補うとバランスが取れます。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
               継続学習や発信を続けている中〜上級層であれば、年齢より中身で評価されやすいのが強みです。ただし求人が首都圏のWeb自社開発に偏るため、選択肢の幅は
-              <Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向けエージェント</Link>
+              <Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向けエージェント</Link>
               で補完するのが堅実。マネジメント経験を前面に出したい場合は
-              <Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けサービス</Link>
+              <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けサービス</Link>
               も検討してください。
             </p>
             <p>
               いずれの年代でも、Forkwellは「質の高い出会いの枠」と位置づけ、
-              <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェント併用のコツ</Link>
+              <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェント併用のコツ</Link>
               を踏まえて使うのがおすすめです。
             </p>
           </div>
@@ -412,7 +412,7 @@ export default function ForkwellReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -429,16 +429,16 @@ export default function ForkwellReview() {
             Forkwellと近い領域のサービスは、評価軸の違いを押さえて使い分けると効果的です。Forkwellは<span className="font-bold">ポートフォリオ＋コミュニティ</span>、Findyは<span className="font-bold">GitHubのスキル偏差値</span>、LAPRASは<span className="font-bold">Web全体の発信のAI解析</span>が軸です。GitHub活動が豊富ならFindy、技術記事や登壇など発信が多いならLAPRAS、学習文化・コミュニティとの接点や質の高いスカウトを重視するならForkwell、という整理が目安になります。いずれも単独より併用が前提です。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/findy/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/findy/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Findyの評判・口コミ →
             </Link>
-            <Link href="/review/lapras/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/lapras/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               LAPRASの評判・口コミ →
             </Link>
-            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテックキャリアの評判・口コミ →
             </Link>
-            <Link href="/compare/40s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/40s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               40代エンジニア向けエージェント比較 →
             </Link>
           </div>
@@ -466,7 +466,7 @@ export default function ForkwellReview() {
           <p className="text-blue-100 text-sm mb-4">
             ポートフォリオを整えて、あなたに合った企業からのスカウトを待ってみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
         </section>
@@ -476,7 +476,7 @@ export default function ForkwellReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -71,13 +71,13 @@ export default function OverseasPage() {
         <nav className="mb-10 border border-slate-200 rounded-lg p-5 bg-slate-50">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
           <ul className="space-y-2 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：まず3つのルートから自分の現実解を選ぶ</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">海外で働く道は一つではありません。リスクと得たいものから逆算して選びます。</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>1. <strong>リスクを抑えたい</strong> → 駐在（社内異動）。会社がビザ・住居を支援</li>
@@ -157,12 +157,12 @@ export default function OverseasPage() {
               { num: "5", title: "応募・選考・ビザ確認", desc: "採用ページ・LinkedIn・リファラル経由で応募。オファー段階でビザ支援の有無と条件を必ず確認します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600">{item.desc}</p></div>
               </div>
             ))}
           </div>
-          <p className="text-slate-600 leading-relaxed mt-4">選考対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>と<Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システム設計面接の対策</Link>、プロフィール整備は<Link href="/knowledge/linkedin/" className="text-blue-600 hover:underline">LinkedInを使った転職術</Link>が参考になります。</p>
+          <p className="text-slate-600 leading-relaxed mt-4">選考対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>と<Link href="/knowledge/system-design/" className="text-petrol hover:underline">システム設計面接の対策</Link>、プロフィール整備は<Link href="/knowledge/linkedin/" className="text-petrol hover:underline">LinkedInを使った転職術</Link>が参考になります。</p>
         </section>
 
         <section id="checklist" className="mb-10 scroll-mt-20">
@@ -193,7 +193,7 @@ export default function OverseasPage() {
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代で海外を目指す視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">海外では年齢よりスキルと経験が重視される傾向があり、シニアエンジニアやアーキテクトのポジションは経験豊富なミドル世代に向きます。一方で、家族の帯同・子どもの就学・配偶者のキャリアなど、確認すべき事項は若手より増えます。</p>
-          <p className="text-slate-600 leading-relaxed">日本国内でも経験者の需要は高く、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されています。「海外」と「国内の外資系」を並行して検討し、外資系日本法人を経由して海外を目指す段階的なルートも、ミドル世代にはリスクの低い選択肢です。海外から日本に戻る場合は<Link href="/knowledge/return-japan/" className="text-blue-600 hover:underline">帰国転職ガイド</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed">日本国内でも経験者の需要は高く、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されています。「海外」と「国内の外資系」を並行して検討し、外資系日本法人を経由して海外を目指す段階的なルートも、ミドル世代にはリスクの低い選択肢です。海外から日本に戻る場合は<Link href="/knowledge/return-japan/" className="text-petrol hover:underline">帰国転職ガイド</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -211,7 +211,7 @@ export default function OverseasPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">外資系・グローバル転職をサポート</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら外資系日本法人の求人も紹介。まずは国内から英語環境のキャリアを始める手もあります。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -225,7 +225,7 @@ export default function OverseasPage() {
               { name: "リモートワーク転職ガイド", href: "/knowledge/remote-work/" },
               { name: "市場価値の把握", href: "/knowledge/market-value/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

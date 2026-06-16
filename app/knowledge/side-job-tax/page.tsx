@@ -122,7 +122,7 @@ export default function SideJobTaxPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -133,7 +133,7 @@ export default function SideJobTaxPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：副業の申告で押さえる要点</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               会社員の副業では、<strong>給与・退職所得以外の所得の合計が年間20万円を超えると所得税の確定申告が必要</strong>になるのが基本です（1か所から給与を受けている場合、国税庁）。ここで重要なのは、判断するのは「収入」ではなく経費を引いた「所得」だという点です。
             </p>
@@ -182,9 +182,9 @@ export default function SideJobTaxPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             副業を本格化させて独立を視野に入れる場合は、
-            <Link href="/knowledge/kaigyo/" className="text-blue-600 hover:underline">開業届の出し方</Link>
+            <Link href="/knowledge/kaigyo/" className="text-petrol hover:underline">開業届の出し方</Link>
             や
-            <Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスvs正社員の比較</Link>
+            <Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員の比較</Link>
             もあわせて確認してください。
           </p>
         </section>
@@ -226,7 +226,7 @@ export default function SideJobTaxPage() {
               { num: "4", title: "期限内に提出・納税する", desc: "原則として翌年2月16日〜3月15日に、e-Tax・郵送・窓口で提出し、納税額がある場合は期限内に納めます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -281,7 +281,7 @@ export default function SideJobTaxPage() {
           </p>
           <Link
             href="/review/levtech-freelance/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             フリーランス向けサービスを見る
           </Link>
@@ -301,7 +301,7 @@ export default function SideJobTaxPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

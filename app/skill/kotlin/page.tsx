@@ -130,7 +130,7 @@ export default function KotlinSkillPage() {
         {/* 目次 */}
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -144,7 +144,7 @@ export default function KotlinSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Kotlin転職の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Kotlin転職は<strong>「Android開発を軸に、サーバーサイドへ領域を広げて市場価値を上げる」</strong>のが基本戦略です。Java経験者なら短期間で参入でき、両方をKotlinで扱えると希少性が増します。
             </p>
@@ -232,7 +232,7 @@ export default function KotlinSkillPage() {
             {careerPaths.map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
-                <p className="text-xs text-blue-600 font-medium mb-2">関連資格: {item.cert}</p>
+                <p className="text-xs text-petrol font-medium mb-2">関連資格: {item.cert}</p>
                 <p className="text-sm text-slate-600">{item.note}</p>
               </div>
             ))}
@@ -248,25 +248,25 @@ export default function KotlinSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/levtech/" className="text-blue-700 hover:underline">レバテックキャリア</Link>
+                <Link href="/review/levtech/" className="text-petrol-deep hover:underline">レバテックキャリア</Link>
               </h3>
               <p className="text-sm text-slate-600">IT/Web特化でモバイル案件に強いとされる。高年収求人の比率が高いとされ（同社ガイド記事）、Android寄りの求人を探しやすい。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/geekly/" className="text-blue-700 hover:underline">Geekly（ギークリー）</Link>
+                <Link href="/review/geekly/" className="text-petrol-deep hover:underline">Geekly（ギークリー）</Link>
               </h3>
               <p className="text-sm text-slate-600">IT/Web/ゲーム特化で提案スピードに定評。Web系スタートアップのサーバーサイドKotlin求人と相性が良い。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/bizreach-it/" className="text-blue-700 hover:underline">ビズリーチ</Link>
+                <Link href="/review/bizreach-it/" className="text-petrol-deep hover:underline">ビズリーチ</Link>
               </h3>
               <p className="text-sm text-slate-600">ハイクラス・スカウト型。テックリード/アーキテクトなど高年収帯のKotlin案件に出会いやすい。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            複数登録の使い分けは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>、JVM言語の比較は<Link href="/skill/java/" className="text-blue-600 hover:underline">Java転職ガイド</Link>も参考にしてください。
+            複数登録の使い分けは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>、JVM言語の比較は<Link href="/skill/java/" className="text-petrol hover:underline">Java転職ガイド</Link>も参考にしてください。
           </p>
         </section>
 
@@ -284,7 +284,7 @@ export default function KotlinSkillPage() {
               { t: "サーバーサイドへ広げる", d: "Android＋サーバーサイドの両対応は希少性が高く、年収交渉でも有利に働く。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{s.t}</h3>
                   <p className="text-sm text-slate-600">{s.d}</p>
@@ -307,7 +307,7 @@ export default function KotlinSkillPage() {
               <li>・レバテック公表値で40代SE平均は約618万円（2025年）。設計・リード経験で上振れを狙う</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
-              年代別の相場感は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">自分の市場価値の調べ方</Link>もあわせてどうぞ。
+              年代別の相場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>もあわせてどうぞ。
             </p>
           </div>
         </section>
@@ -331,7 +331,7 @@ export default function KotlinSkillPage() {
             ))}
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
-            資格より実務・ポートフォリオが重視される領域のため、動く成果物を見せられる状態を優先しましょう。成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>、継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの学習を続けるコツ</Link>も参考にどうぞ。
+            資格より実務・ポートフォリオが重視される領域のため、動く成果物を見せられる状態を優先しましょう。成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>、継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>も参考にどうぞ。
           </p>
         </section>
 
@@ -359,7 +359,7 @@ export default function KotlinSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -379,7 +379,7 @@ export default function KotlinSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -392,8 +392,8 @@ export default function KotlinSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/gree/" className="text-blue-700 hover:underline">グリー（GREE）</a></li><li><a href="/company/line-yahoo/" className="text-blue-700 hover:underline">LINEヤフー</a></li><li><a href="/company/moneyforward/" className="text-blue-700 hover:underline">マネーフォワード</a></li><li><a href="/company/nintendo/" className="text-blue-700 hover:underline">任天堂</a></li><li><a href="/company/rakuten/" className="text-blue-700 hover:underline">楽天グループ</a></li><li><a href="/company/sansan/" className="text-blue-700 hover:underline">Sansan</a></li><li><a href="/company/zozo/" className="text-blue-700 hover:underline">ZOZO</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/gree/" className="text-petrol-deep hover:underline">グリー（GREE）</a></li><li><a href="/company/line-yahoo/" className="text-petrol-deep hover:underline">LINEヤフー</a></li><li><a href="/company/moneyforward/" className="text-petrol-deep hover:underline">マネーフォワード</a></li><li><a href="/company/nintendo/" className="text-petrol-deep hover:underline">任天堂</a></li><li><a href="/company/rakuten/" className="text-petrol-deep hover:underline">楽天グループ</a></li><li><a href="/company/sansan/" className="text-petrol-deep hover:underline">Sansan</a></li><li><a href="/company/zozo/" className="text-petrol-deep hover:underline">ZOZO</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

@@ -108,7 +108,7 @@ export default function MixiCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               MIXIは<strong>モンストのような大規模トラフィックを支えつつ、ゲーム・スポーツ・ライフスタイルと幅広い領域でプロダクト開発を行うエンタメ企業</strong>です。プロダクトごとに最適な技術を選ぶ文化で、技術の幅・深さの両方が活きます。単体の平均年収791万円（2025年3月期）はWeb系の中で標準的な水準です。
@@ -126,7 +126,7 @@ export default function MixiCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -152,17 +152,17 @@ export default function MixiCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">プロダクトごとに最適な技術を選ぶ文化</h3>
-              <p className="text-sm text-blue-700">公式技術ブログによると、MIXIはプロダクトごとに最適な技術を選定する方針です。モンストはサーバーサイドRuby・クライアントC++、みてねやFanstaはTypeScript/React/Ruby、minimoはGo/Reactなど、配属により使用技術が大きく異なります。</p>
+              <p className="text-sm text-petrol-deep">公式技術ブログによると、MIXIはプロダクトごとに最適な技術を選定する方針です。モンストはサーバーサイドRuby・クライアントC++、みてねやFanstaはTypeScript/React/Ruby、minimoはGo/Reactなど、配属により使用技術が大きく異なります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">大規模トラフィックを支える技術力</h3>
-              <p className="text-sm text-blue-700">モンスターストライクや家族アルバム みてねは大規模ユーザーを抱え、可用性・スケーラビリティを意識した設計・運用が求められます。SRE・インフラ・データ基盤のポジションも継続的に募集されています。</p>
+              <p className="text-sm text-petrol-deep">モンスターストライクや家族アルバム みてねは大規模ユーザーを抱え、可用性・スケーラビリティを意識した設計・運用が求められます。SRE・インフラ・データ基盤のポジションも継続的に募集されています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ゲーム・スポーツ・ライフスタイルの3領域</h3>
-              <p className="text-sm text-blue-700">単一サービスではなく、デジタルエンタメ・スポーツ・ライフスタイルの3領域でプロダクトを展開しているため、関心領域に合わせたキャリア選択がしやすいのが特徴です。</p>
+              <p className="text-sm text-petrol-deep">単一サービスではなく、デジタルエンタメ・スポーツ・ライフスタイルの3領域でプロダクトを展開しているため、関心領域に合わせたキャリア選択がしやすいのが特徴です。</p>
             </div>
           </div>
         </section>
@@ -174,11 +174,11 @@ export default function MixiCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>サーバーサイド</strong>：Go、Ruby（Rails）、PHP、Perl 等</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Webフロントエンド</strong>：TypeScript、React、Next.js</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>モバイル</strong>：iOS は Swift / Objective-C、Android は Kotlin / Java、クロスプラットフォームに Flutter</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>ゲーム（モンスト等）</strong>：クライアント C++、サーバーサイド Ruby</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>インフラ・データ基盤</strong>：GCP、AWS、MySQL、クラウド/オンプレのハイブリッド構成</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>サーバーサイド</strong>：Go、Ruby（Rails）、PHP、Perl 等</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Webフロントエンド</strong>：TypeScript、React、Next.js</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>モバイル</strong>：iOS は Swift / Objective-C、Android は Kotlin / Java、クロスプラットフォームに Flutter</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ゲーム（モンスト等）</strong>：クライアント C++、サーバーサイド Ruby</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ・データ基盤</strong>：GCP、AWS、MySQL、クラウド/オンプレのハイブリッド構成</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: MIXI公式 技術ブログ「ミクシル」等の公開情報（2026年6月時点）。プロダクト別の構成です。</p>
@@ -216,7 +216,7 @@ export default function MixiCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公開情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            公開されている採用情報・選考体験談をもとにした一般的な流れです。最新の内容は<a href="https://mixi.co.jp/recruit/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
+            公開されている採用情報・選考体験談をもとにした一般的な流れです。最新の内容は<a href="https://mixi.co.jp/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考（職務経歴書・ポートフォリオ等）</li>
@@ -234,12 +234,12 @@ export default function MixiCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>コーディングテスト・技術面接で示す実装力と設計の妥当性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>大規模サービス開発・運用の経験（可用性・パフォーマンス）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>プロダクト志向・ユーザー価値への意識</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>チームでの協働姿勢・技術的な意思決定の経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>コーディングテスト・技術面接で示す実装力と設計の妥当性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>大規模サービス開発・運用の経験（可用性・パフォーマンス）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>プロダクト志向・ユーザー価値への意識</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>チームでの協働姿勢・技術的な意思決定の経験</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -252,7 +252,7 @@ export default function MixiCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。MIXIの単体平均（791万円）はこれを上回りますが、これは全社平均であり、入社時の提示は等級・職種次第です。30代・40代は「自分が当てはまる等級の水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              ゲーム基盤・SRE・データ基盤・モバイルなど、特定領域での深い経験はミドル層の差別化に有効です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              ゲーム基盤・SRE・データ基盤・モバイルなど、特定領域での深い経験はミドル層の差別化に有効です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -265,13 +265,13 @@ export default function MixiCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。ゲーム企業への提案実績が豊富で提案スピードが速い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -292,7 +292,7 @@ export default function MixiCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">MIXIへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">ゲーム・エンタメ企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -306,7 +306,7 @@ export default function MixiCompanyPage() {
               { name: "技術面接の対策", href: "/knowledge/tech-interview/" },
               { name: "30代エンジニアの転職事情", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

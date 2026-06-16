@@ -109,7 +109,7 @@ export default function RaksulCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               ラクスルは<strong>Ruby on Rails中心のモダンな開発で、レガシー産業のデジタル化に挑むプラットフォーム企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収742万円（2025年7月期 有報）はWeb系の中でも高めの水準です。
@@ -127,7 +127,7 @@ export default function RaksulCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -153,17 +153,17 @@ export default function RaksulCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レガシー産業のデジタル化というドメイン</h3>
-              <p className="text-sm text-blue-700">「仕組みを変えれば、世界はもっと良くなる」をビジョンに、印刷・物流などデジタル化の遅れた産業にプラットフォームを提供しています。単なるWebサービスではなく、産業構造そのものを変える難度の高い課題に取り組める点が特徴です。</p>
+              <p className="text-sm text-petrol-deep">「仕組みを変えれば、世界はもっと良くなる」をビジョンに、印刷・物流などデジタル化の遅れた産業にプラットフォームを提供しています。単なるWebサービスではなく、産業構造そのものを変える難度の高い課題に取り組める点が特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Ruby on Rails中心のモダンな開発</h3>
-              <p className="text-sm text-blue-700">公式技術ブログによると、日々の業務で最も使われる言語はRubyで、フロントエンドはTypeScript・Vue.js・Nuxt.jsを採用しています。インフラはAWS・GCPを活用し、モダンな開発環境が整備されています。</p>
+              <p className="text-sm text-petrol-deep">公式技術ブログによると、日々の業務で最も使われる言語はRubyで、フロントエンドはTypeScript・Vue.js・Nuxt.jsを採用しています。インフラはAWS・GCPを活用し、モダンな開発環境が整備されています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">グローバルな開発体制</h3>
-              <p className="text-sm text-blue-700">エンジニアは日本のほかベトナム・インドのオフィスにも在籍し、複数拠点で開発を進めています（公式技術ブログ）。グローバルチームでの協働経験を積みたいエンジニアにとって魅力的な環境です。</p>
+              <p className="text-sm text-petrol-deep">エンジニアは日本のほかベトナム・インドのオフィスにも在籍し、複数拠点で開発を進めています（公式技術ブログ）。グローバルチームでの協働経験を積みたいエンジニアにとって魅力的な環境です。</p>
             </div>
           </div>
         </section>
@@ -175,10 +175,10 @@ export default function RaksulCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>バックエンド</strong>：Ruby / Ruby on Rails（中心）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>フロントエンド</strong>：TypeScript、Vue.js、Nuxt.js</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>インフラ</strong>：AWS（Aurora、EC2、ECS、S3、RDS、Lambda 等）、GCP（Firebase、BigQuery 等）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>開発ツール</strong>：Git／GitHub、CI/CD（CodeBuild・CodePipeline 等）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：Ruby / Ruby on Rails（中心）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：TypeScript、Vue.js、Nuxt.js</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：AWS（Aurora、EC2、ECS、S3、RDS、Lambda 等）、GCP（Firebase、BigQuery 等）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>開発ツール</strong>：Git／GitHub、CI/CD（CodeBuild・CodePipeline 等）</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: RAKSUL TechBlog（techblog.raksul.com）・採用ページ等の公開記事。2026年6月時点で確認できる範囲。</p>
@@ -234,12 +234,12 @@ export default function RaksulCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>Ruby on Rails等での実装力と設計の妥当性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>EC・プラットフォームの開発・運用経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>産業構造・業務フローを理解しプロダクトへ落とし込む力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ビジョンへの共感・チームでの協働姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Ruby on Rails等での実装力と設計の妥当性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>EC・プラットフォームの開発・運用経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>産業構造・業務フローを理解しプロダクトへ落とし込む力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ビジョンへの共感・チームでの協働姿勢</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -252,7 +252,7 @@ export default function RaksulCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。ラクスルの全社員平均（742万円）はこれを上回りますが、これは全社平均であり、入社時の提示はスキル評価次第です。30代・40代は自分の市場価値を踏まえ、個別求人・面談で水準を確認することが重要です。
             </p>
             <p>
-              業務システムや産業領域の知見を持つミドル層にとっては、これまでの経験を新しい形で活かせる選択肢になり得ます。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              業務システムや産業領域の知見を持つミドル層にとっては、これまでの経験を新しい形で活かせる選択肢になり得ます。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -265,13 +265,13 @@ export default function RaksulCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -292,7 +292,7 @@ export default function RaksulCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ラクスルへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">Web系・SaaS企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -306,7 +306,7 @@ export default function RaksulCompanyPage() {
               { name: "技術面接の対策", href: "/knowledge/tech-interview/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

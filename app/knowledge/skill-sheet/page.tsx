@@ -185,7 +185,7 @@ export default function SkillSheetPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -196,7 +196,7 @@ export default function SkillSheetPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：スキルシートの基本</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               スキルシートは、<strong>「保有スキル一覧」と「プロジェクト経歴」を表形式で正確に整理する</strong>書類です。職務経歴書が実績や強みを文章で語るのに対し、スキルシートは技術と案件経験を網羅的・客観的に示すのが役割です。
             </p>
@@ -234,7 +234,7 @@ export default function SkillSheetPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             正社員転職向けの
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>
             も合わせて確認すると、両書類を使い分けやすくなります。
           </p>
         </section>
@@ -291,7 +291,7 @@ export default function SkillSheetPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             個別の技術領域は
-            <Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSエンジニアの転職</Link>
+            <Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニアの転職</Link>
             など、職種・スキル別ページも参考になります。
           </p>
         </section>
@@ -305,7 +305,7 @@ export default function SkillSheetPage() {
           <div className="space-y-4">
             {writeSteps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -321,15 +321,15 @@ export default function SkillSheetPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の書き方のポイント</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">経歴が長い場合は取捨選択する</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 経験年数が長いほど、すべての案件を詳細に書くとシートが冗長になります。直近5年程度を厚く、それ以前は概要にとどめ、応募先・案件に関連の深い経験を目立たせましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">役割・マネジメント実績も明記する</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 ミドル層は、リーダー・PL・PMといった役割や、チーム規模・後進育成の実績も評価対象です。技術だけでなく、どの立場で何を推進したかを簡潔に添えると、即戦力としての価値が伝わります。
               </p>
             </div>
@@ -373,7 +373,7 @@ export default function SkillSheetPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -393,7 +393,7 @@ export default function SkillSheetPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

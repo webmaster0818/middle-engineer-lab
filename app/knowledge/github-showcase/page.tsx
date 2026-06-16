@@ -96,7 +96,7 @@ export default function GithubShowcasePage() {
             転職活動でGitHubのURLを添えるとき、採用担当はコードを隅々まで読むわけではありません。限られた時間で<strong>プロフィール・ピン留め・READMEをざっと眺め、「この人は今も手を動かしているか」「設計判断ができるか」を推し量ります</strong>。だからこそ、同じ成果物でも整え方ひとつで印象は大きく変わります。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事はGitHub<strong>単体</strong>の運用・整備テクニックに絞って深掘りします。GitHub・ブログ・登壇・OSSを横断してどう組み合わせるかの全体像は<Link href="/knowledge/portfolio/" className="text-blue-600 underline">ポートフォリオの見せ方</Link>を、ブログやOSSの個別深掘りはそれぞれの記事をあわせてご覧ください。
+            本記事はGitHub<strong>単体</strong>の運用・整備テクニックに絞って深掘りします。GitHub・ブログ・登壇・OSSを横断してどう組み合わせるかの全体像は<Link href="/knowledge/portfolio/" className="text-petrol underline">ポートフォリオの見せ方</Link>を、ブログやOSSの個別深掘りはそれぞれの記事をあわせてご覧ください。
           </p>
         </section>
 
@@ -107,7 +107,7 @@ export default function GithubShowcasePage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -120,13 +120,13 @@ export default function GithubShowcasePage() {
             未経験者のGitHubが「コードが書ける証明」なのに対し、実務経験のある30代・40代のGitHubに期待されるのは別物です。結論から言えば、ミドルが示すべきは次の2点です。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">現役性</h3>
-              <p className="text-sm text-blue-700">「マネジメント中心で、もう手を動かせないのでは」という40代特有の懸念を払拭する。最新のコミット・モダンな技術スタックの痕跡が効きます。</p>
+              <p className="text-sm text-petrol-deep">「マネジメント中心で、もう手を動かせないのでは」という40代特有の懸念を払拭する。最新のコミット・モダンな技術スタックの痕跡が効きます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">再現性</h3>
-              <p className="text-sm text-blue-700">「なぜその設計にしたか」をREADMEで語れること。手が動くだけでなく、判断の理由を再現可能な形で残せるのがミドルの差別化点です。</p>
+              <p className="text-sm text-petrol-deep">「なぜその設計にしたか」をREADMEで語れること。手が動くだけでなく、判断の理由を再現可能な形で残せるのがミドルの差別化点です。</p>
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
@@ -153,7 +153,7 @@ export default function GithubShowcasePage() {
               { num: "7", title: "最新性＝モダンさと現役性", desc: "数年前で更新が止まっていると不安材料に。直近に手を入れた痕跡があると現役性が伝わります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -167,7 +167,7 @@ export default function GithubShowcasePage() {
         <section id="readme" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">3. リポジトリREADMEチェックリスト</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            ポイント3・4で触れたREADMEは、GitHub運用で最も投資対効果が高い箇所です。プロフィールREADMEの雛形は<Link href="/knowledge/portfolio/" className="text-blue-600 underline">ポートフォリオの見せ方</Link>にありますので、ここでは<strong>各リポジトリのREADME</strong>に絞って、ミドルが書くべき項目をチェックリストにしました。
+            ポイント3・4で触れたREADMEは、GitHub運用で最も投資対効果が高い箇所です。プロフィールREADMEの雛形は<Link href="/knowledge/portfolio/" className="text-petrol underline">ポートフォリオの見せ方</Link>にありますので、ここでは<strong>各リポジトリのREADME</strong>に絞って、ミドルが書くべき項目をチェックリストにしました。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-5">
             <ul className="space-y-2">
@@ -182,7 +182,7 @@ export default function GithubShowcasePage() {
                 "ライセンスが明記されている",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>{c}
+                  <span className="text-petrol font-bold shrink-0">✓</span>{c}
                 </li>
               ))}
             </ul>
@@ -221,7 +221,7 @@ export default function GithubShowcasePage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">プロフィールREADMEで「顔」を作る</h3>
-              <p className="text-sm text-slate-600">プロフィールトップのREADMEに得意領域・経験年数・連絡先・アウトプット先をまとめます。雛形は<Link href="/knowledge/portfolio/" className="text-blue-600 underline">ポートフォリオの見せ方</Link>を流用してください。</p>
+              <p className="text-sm text-slate-600">プロフィールトップのREADMEに得意領域・経験年数・連絡先・アウトプット先をまとめます。雛形は<Link href="/knowledge/portfolio/" className="text-petrol underline">ポートフォリオの見せ方</Link>を流用してください。</p>
             </div>
           </div>
         </section>
@@ -269,13 +269,13 @@ export default function GithubShowcasePage() {
         <section id="age" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">7. 30代・40代でのGitHubの使い分け</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の幅と設計判断を見せる</h3>
-              <p className="text-sm text-blue-700">手が動くのは前提として、技術選定やリファクタの判断ができることをREADMEで示すと効果的です。Web系・新領域への挑戦時はGitHubの効果が大きくなります。関連: <Link href="/age/30s/" className="text-blue-700 underline">30代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">手が動くのは前提として、技術選定やリファクタの判断ができることをREADMEで示すと効果的です。Web系・新領域への挑戦時はGitHubの効果が大きくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：現役性を疑われないことが最優先</h3>
-              <p className="text-sm text-blue-700">「もう手を動かせないのでは」という先入観を、直近のコミットとモダンな構成で払拭します。マネジメント志向でも、コードを読み書きできる現役性を見せると採用の安心材料になります。関連: <Link href="/age/40s/" className="text-blue-700 underline">40代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">「もう手を動かせないのでは」という先入観を、直近のコミットとモダンな構成で払拭します。マネジメント志向でも、コードを読み書きできる現役性を見せると採用の安心材料になります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>。</p>
             </div>
           </div>
         </section>
@@ -294,7 +294,7 @@ export default function GithubShowcasePage() {
                   A. {faq.a}
                   {faq.aLink && (
                     <>
-                      <Link href={faq.aLink.href} className="text-blue-600 underline">{faq.aLink.text}</Link>
+                      <Link href={faq.aLink.href} className="text-petrol underline">{faq.aLink.text}</Link>
                       {faq.aAfter}
                     </>
                   )}
@@ -308,7 +308,7 @@ export default function GithubShowcasePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">GitHubの見せ方をプロに相談しよう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、応募先に刺さるGitHub・成果物の見せ方を具体的にアドバイスしてくれます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -324,7 +324,7 @@ export default function GithubShowcasePage() {
               { name: "技術面接対策ガイド", href: "/knowledge/tech-interview/" },
               { name: "職務経歴書の書き方", href: "/knowledge/resume/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

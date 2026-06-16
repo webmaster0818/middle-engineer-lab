@@ -86,7 +86,7 @@ export default function ChildcareLeavePage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             育休は法律で定められた制度のため、ほとんどの企業に「育休制度あり」と書かれています。<strong>しかし重要なのは制度の有無ではなく、実際に取得されているかどうか</strong>です。見極めの軸になるのが、厚生労働省の「くるみん認定」など公的な裏付けのある指標と、企業が公表する男性を含む育休取得率の数値です。くるみん認定は子育て支援に取り組む企業の客観的な証であり、取得率の数値は制度の実効性を測る具体的な手がかりになります。本記事では、これらの公的指標の読み方と、制度と実態の差を見抜く方法を整理します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 育休を取りやすい職場に転職したい</li>
@@ -99,7 +99,7 @@ export default function ChildcareLeavePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>くるみん認定など公的指標の読み方</li>
             <li>男性育休取得率の確認方法</li>
             <li>制度と実態の差を見抜く</li>
@@ -114,7 +114,7 @@ export default function ChildcareLeavePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">指標・認定</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">意味と読み方</th>
                 </tr>
@@ -158,9 +158,9 @@ export default function ChildcareLeavePage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             だからこそ、<strong>「制度の存在」ではなく「使われている実績」に注目する</strong>のが見極めの本質です。取得率の数値、直近の取得事例、復帰後の時短・リモートの選択肢——この3つが揃っている企業は信頼度が高いといえます。家庭との両立全般は
-            <Link href="/knowledge/family/" className="text-blue-600 hover:underline">家庭と両立するエンジニア転職</Link>
+            <Link href="/knowledge/family/" className="text-petrol hover:underline">家庭と両立するエンジニア転職</Link>
             、女性エンジニアの視点は
-            <Link href="/knowledge/woman-engineer/" className="text-blue-600 hover:underline">女性エンジニアの転職</Link>
+            <Link href="/knowledge/woman-engineer/" className="text-petrol hover:underline">女性エンジニアの転職</Link>
             も参考にしてください。
           </p>
         </section>
@@ -176,7 +176,7 @@ export default function ChildcareLeavePage() {
               { num: "5", title: "取得後の不利益取扱いがないか確認", desc: "育休取得が評価や配置で不利にならない文化か。エージェント経由で内情を確認します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -195,9 +195,9 @@ export default function ChildcareLeavePage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             育休を取りやすい企業は、往々にしてリモートや時短など他の両立支援も充実している傾向があります。働き方全体の柔軟性という観点で見ると、
-            <Link href="/purpose/wlb/" className="text-blue-600 hover:underline">ワークライフバランス重視の転職</Link>
+            <Link href="/purpose/wlb/" className="text-petrol hover:underline">ワークライフバランス重視の転職</Link>
             や
-            <Link href="/purpose/flextime/" className="text-blue-600 hover:underline">フレックスタイム制の企業</Link>
+            <Link href="/purpose/flextime/" className="text-petrol hover:underline">フレックスタイム制の企業</Link>
             も併せて検討する価値があります。
           </p>
         </section>
@@ -220,7 +220,7 @@ export default function ChildcareLeavePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">育休実績が豊富な企業を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">くるみん認定や両立支援に取り組む企業を、IT特化型エージェントが内情を踏まえて提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -234,7 +234,7 @@ export default function ChildcareLeavePage() {
               { name: "目的別ガイド一覧", href: "/purpose/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

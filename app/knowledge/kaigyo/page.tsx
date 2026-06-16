@@ -121,7 +121,7 @@ export default function KaigyoPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -132,7 +132,7 @@ export default function KaigyoPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：開業届の基本</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               開業届（個人事業の開業・廃業等届出書）は、<strong>事業開始から1か月以内に、納税地を所轄する税務署へ提出</strong>します（国税庁）。提出自体は無料で、e-Tax・郵送・窓口のいずれでも可能です。
             </p>
@@ -168,15 +168,15 @@ export default function KaigyoPage() {
         <section id="deadline" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">提出期限と提出先</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">提出期限：事業開始から1か月以内</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 国税庁の案内では、開業届は事業の開始等の事実があった日から1か月以内に提出することとされています。期限を過ぎても受理はされますが、青色申告の承認期限と関係するため、独立後は速やかに提出しましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">提出先：納税地を所轄する税務署</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 原則として、自宅（住所地）を納税地として、その地域を所轄する税務署に提出します。提出方法はe-Tax（電子申請）、郵送、税務署窓口のいずれも可能です。所轄税務署は国税庁サイトで検索できます。
               </p>
             </div>
@@ -215,7 +215,7 @@ export default function KaigyoPage() {
               { num: "4", title: "控えを保管する", desc: "収受印のある控え、またはe-Taxの受信通知を保管します。口座開設や共済申込みで必要になります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -270,7 +270,7 @@ export default function KaigyoPage() {
           </p>
           <Link
             href="/review/levtech-freelance/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             フリーランス向けサービスを見る
           </Link>
@@ -290,7 +290,7 @@ export default function KaigyoPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

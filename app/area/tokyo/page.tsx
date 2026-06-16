@@ -156,7 +156,7 @@ export default function TokyoAreaPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">
               結論：東京のIT転職市場の特徴
             </h2>
@@ -180,7 +180,7 @@ export default function TokyoAreaPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -224,21 +224,21 @@ export default function TokyoAreaPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3">
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">1</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
               <p className="text-sm text-slate-600"><strong>出社中心:</strong> 金融系IT、セキュリティ要件の厳しい現場、ハードウェアを扱う領域などで多い傾向。都心オフィスへの通勤が前提になる。</p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">2</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
               <p className="text-sm text-slate-600"><strong>ハイブリッド:</strong> 週数日の出社とリモートを組み合わせる形。大手IT・メガベンチャーで広く採用されている。出社日数は企業・チームで異なる。</p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">3</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
               <p className="text-sm text-slate-600"><strong>フルリモート:</strong> Web系・SaaS企業を中心に求人が存在。神奈川・埼玉・千葉など近郊や、さらに遠方からの勤務が可能なケースもある。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             注意したいのは、求人票に「リモート可」とあっても、入社後に出社頻度が変わる可能性がある点です。週何日出社か、フルリモートが恒久的な制度か一時的な運用か、必ず面談で確認しましょう。リモート前提で探す場合は
-            <Link href="/area/remote/" className="text-blue-600 hover:underline">フルリモートIT転職ガイド</Link>
+            <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
             も参考になります。
           </p>
         </section>
@@ -274,9 +274,9 @@ export default function TokyoAreaPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
             東京の生活コストがネックになる場合でも、リモート併用で
-            <Link href="/area/yokohama/" className="text-blue-600 hover:underline">横浜・神奈川</Link>、
-            <Link href="/area/saitama/" className="text-blue-600 hover:underline">埼玉</Link>、
-            <Link href="/area/chiba/" className="text-blue-600 hover:underline">千葉</Link>
+            <Link href="/area/yokohama/" className="text-petrol hover:underline">横浜・神奈川</Link>、
+            <Link href="/area/saitama/" className="text-petrol hover:underline">埼玉</Link>、
+            <Link href="/area/chiba/" className="text-petrol hover:underline">千葉</Link>
             など近郊に住みながら東京企業で働く選択肢があります。居住地と勤務形態をセットで考えると、現実的な落としどころが見つかりやすくなります。
           </p>
         </section>
@@ -299,10 +299,10 @@ export default function TokyoAreaPage() {
                 </tr>
               </thead>
               <tbody>
-                <tr><td className="px-3 py-3 border border-slate-200">20代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約378万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200">30代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約499万円</td><td className="px-3 py-3 border border-slate-200">8.01%</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200">40代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約618万円</td><td className="px-3 py-3 border border-slate-200">12.67%</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200">50代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約685万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">20代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約378万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">30代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約499万円</td><td className="px-3 py-3 border border-slate-200">8.01%</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">40代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約618万円</td><td className="px-3 py-3 border border-slate-200">12.67%</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">50代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約685万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
               </tbody>
             </table>
           </div>
@@ -311,7 +311,7 @@ export default function TokyoAreaPage() {
           </p>
           <p className="text-slate-600 leading-relaxed mt-4">
             東京は高年収求人の比率が高いとされるため、上記より高い提示を受けられる可能性があります。年収アップを狙うなら、複数エージェントで求人を比較し、現在の市場価値を把握したうえで交渉することが効果的です。詳しくは
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">転職で年収は上がる？</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">転職で年収は上がる？</Link>
             も参照してください。
           </p>
         </section>
@@ -325,30 +325,30 @@ export default function TokyoAreaPage() {
             東京の求人は多くのエージェントが扱いますが、IT特化型と首都圏特化型を軸に、必要に応じて総合型を併用するのが基本です。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レバテックキャリア（IT/Web特化）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 IT/Web特化で首都圏中心。利用者の約8割が20〜30代とされ、高年収求人の比率が高いとされます。書類添削・面接対策の丁寧さやLINEで連絡が完結する点が評価される一方、未経験者には紹介されにくいという声もあります。
                 <Link href="/review/levtech/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Geekly（IT/Web/ゲーム特化）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 IT/Web/ゲーム業界に特化し、提案スピードが強みとされます。年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）。レスポンスの速さが評価される一方、連絡頻度や担当者の質のばらつきを指摘する声もあります。
                 <Link href="/review/geekly/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">type転職エージェントIT（首都圏特化）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 首都圏（一都三県）中心で、年収交渉と面接対策に注力するエージェント。定着率の高さや首都圏非公開求人の豊富さが評価される一方、地方求人や未経験向けは手薄とされます。
                 <Link href="/review/type-agent/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 年収750万円以上をハイクラスと位置づけるスカウト型サービス。年収1,000万円以上の求人が全体の約4割（二次情報）とされ、外資・管理職に強いとされます。CTOやVPoEなど上位ポジションを狙う層向け。
                 <Link href="/review/bizreach-it/" className="underline ml-1">詳細レビュー</Link>
               </p>
@@ -356,9 +356,9 @@ export default function TokyoAreaPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             未経験・経験浅めの場合は、全国47都道府県57拠点を持ち未経験歓迎求人も扱うワークポートの併用も選択肢です（
-            <Link href="/review/workport/" className="text-blue-600 hover:underline">ワークポートのレビュー</Link>
+            <Link href="/review/workport/" className="text-petrol hover:underline">ワークポートのレビュー</Link>
             ）。各社の比較は
-            <Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント10社比較</Link>
+            <Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>
             にまとめています。
           </p>
         </section>
@@ -391,9 +391,9 @@ export default function TokyoAreaPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
             目的別の比較は
-            <Link href="/compare/30s-agents/" className="text-blue-600 hover:underline">30代向けエージェント比較</Link>
+            <Link href="/compare/30s-agents/" className="text-petrol hover:underline">30代向けエージェント比較</Link>
             ・
-            <Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向けエージェント比較</Link>
+            <Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向けエージェント比較</Link>
             も参考にしてください。
           </p>
         </section>
@@ -410,7 +410,7 @@ export default function TokyoAreaPage() {
               { t: "選考・条件交渉", d: "年収・働き方の交渉はエージェントを通すと進めやすい。複数内定があると交渉余地が広がります。" },
             ].map((s, i) => (
               <li key={i} className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold shrink-0">{i + 1}</span>
                 <div>
                   <p className="font-bold text-slate-800 text-sm">{s.t}</p>
                   <p className="text-sm text-slate-600 leading-relaxed">{s.d}</p>
@@ -428,8 +428,8 @@ export default function TokyoAreaPage() {
               東京は若手向け求人の印象が強い一方、ミドル層にとっても選択肢の多いエリアです。経産省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれており、経験者の需要は底堅いと考えられます。30代・40代の強みは、特定領域の深い実務経験とマネジメント・調整力です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価されやすい時期。リードエンジニアやテックリードのポジションで年収を伸ばしやすい。<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職ガイド</Link></li>
-              <li>・<strong>40代</strong>：マネジメント・アーキテクト・特定ドメインの専門性が武器。求人数は絞られるが、ハイクラス・スカウト型の活用で道が開ける。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職ガイド</Link></li>
+              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価されやすい時期。リードエンジニアやテックリードのポジションで年収を伸ばしやすい。<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link></li>
+              <li>・<strong>40代</strong>：マネジメント・アーキテクト・特定ドメインの専門性が武器。求人数は絞られるが、ハイクラス・スカウト型の活用で道が開ける。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link></li>
               <li>・東京の生活コストの高さは、リモート併用で近郊（神奈川・埼玉・千葉）に住む選択で緩和できる場合があります。</li>
             </ul>
           </div>
@@ -459,7 +459,7 @@ export default function TokyoAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -472,7 +472,7 @@ export default function TokyoAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

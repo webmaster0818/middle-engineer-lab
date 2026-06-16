@@ -65,7 +65,7 @@ export default function CybozuCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中（自社SaaS刷新×多様な働き方）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・<strong>kintone・Garoon</strong>という長寿の自社SaaSを刷新・拡張する開発が中核。<strong>Java／Go／TypeScript・React</strong>を公式に公開。</li>
@@ -80,7 +80,7 @@ export default function CybozuCompanyPage() {
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
@@ -100,9 +100,9 @@ export default function CybozuCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">長寿の自社SaaSを刷新し続ける開発</h3><p className="text-sm text-blue-700">kintone・Garoonは長く運用される自社プロダクトです。既存資産を保ちながら、アーキテクチャや技術スタックをモダン化し続けることが大きなテーマで、レガシーとモダンの両面に向き合うエンジニアリングが中核に置かれています。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">活発な技術発信（オープンな文化）</h3><p className="text-sm text-blue-700">サイボウズは技術ブログ「Cybozu Inside Out」や技術情報公開ページを通じて、使用技術や開発の取り組みを社外に積極的に発信しています。応募前に開発の実態をある程度つかめる点は、ミドル層の転職判断にとって大きな利点です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">多様な働き方を掲げる文化</h3><p className="text-sm text-blue-700">サイボウズは「多様な働き方」を掲げる企業として知られています。働き方の選択肢が広いことが特徴とされ、ライフスタイルとの両立を重視するエンジニアに親和性があります（具体的な制度内容は時期により変わるため応募時に確認を）。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">長寿の自社SaaSを刷新し続ける開発</h3><p className="text-sm text-petrol-deep">kintone・Garoonは長く運用される自社プロダクトです。既存資産を保ちながら、アーキテクチャや技術スタックをモダン化し続けることが大きなテーマで、レガシーとモダンの両面に向き合うエンジニアリングが中核に置かれています。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">活発な技術発信（オープンな文化）</h3><p className="text-sm text-petrol-deep">サイボウズは技術ブログ「Cybozu Inside Out」や技術情報公開ページを通じて、使用技術や開発の取り組みを社外に積極的に発信しています。応募前に開発の実態をある程度つかめる点は、ミドル層の転職判断にとって大きな利点です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">多様な働き方を掲げる文化</h3><p className="text-sm text-petrol-deep">サイボウズは「多様な働き方」を掲げる企業として知られています。働き方の選択肢が広いことが特徴とされ、ライフスタイルとの両立を重視するエンジニアに親和性があります（具体的な制度内容は時期により変わるため応募時に確認を）。</p></div>
           </div>
         </section>
 
@@ -111,10 +111,10 @@ export default function CybozuCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下はサイボウズの公式技術情報公開ページ・技術ブログ「Cybozu Inside Out」で発信されている情報に基づきます。サイボウズは使用技術を比較的オープンにしている数少ない企業です。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Java</strong>：kintone・Garoonなど自社SaaSのバックエンドで使用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Go</strong>：新しいコンポーネント・基盤領域などで採用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>TypeScript・React</strong>：フロントエンド開発で使用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span>具体的な構成・バージョン・周辺ツールはプロダクトやチームにより異なります。詳細は各募集要項・技術ブログをご確認ください。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Java</strong>：kintone・Garoonなど自社SaaSのバックエンドで使用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go</strong>：新しいコンポーネント・基盤領域などで採用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>TypeScript・React</strong>：フロントエンド開発で使用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な構成・バージョン・周辺ツールはプロダクトやチームにより異なります。詳細は各募集要項・技術ブログをご確認ください。</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：サイボウズ公式の技術情報公開ページ、技術ブログ「Cybozu Inside Out」。チーム・プロダクトごとの詳細構成は変動します。</p>
@@ -164,7 +164,7 @@ export default function CybozuCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>提出会社単体の<strong>平均年齢はおおむね35〜36歳台</strong>とされ、ミドル層が一定数いる組織です。長期運用される自社SaaSの刷新には、設計・運用・チーム開発の経験を積んだ30代・40代の知見が活きやすく、即戦力としての価値を発揮しやすい環境といえます。</p>
             <p>30代・40代のエンジニアにとって、サイボウズは「<strong>長寿SaaSの刷新に腰を据えて取り組める×働き方の自由度が高い</strong>」という組み合わせが魅力です。育児・介護などライフイベントとの両立を重視するミドル層にとって、多様な働き方の文化は大きな判断材料になります。一方で、年収は全社員平均で687〜719万円台と突出して高いわけではない点、長期運用プロダクト特有の技術的負債と向き合う必要がある点は、事前に理解しておきたいところです。</p>
-            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>や<Link href="/skill/java/" className="text-blue-600 hover:underline">Javaエンジニアの転職</Link>、<Link href="/skill/go/" className="text-blue-600 hover:underline">Goエンジニアの転職</Link>、<Link href="/skill/typescript/" className="text-blue-600 hover:underline">TypeScriptエンジニアの転職</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/skill/java/" className="text-petrol hover:underline">Javaエンジニアの転職</Link>、<Link href="/skill/go/" className="text-petrol hover:underline">Goエンジニアの転職</Link>、<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScriptエンジニアの転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -195,15 +195,15 @@ export default function CybozuCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">サイボウズ転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で自社開発SaaSの求人提案に強い。技術面接対策のサポートも。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化。自社開発企業の求人提案に強み。提案スピードが速い。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。SaaS・自社開発の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で自社開発SaaSの求人提案に強い。技術面接対策のサポートも。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化。自社開発企業の求人提案に強み。提案スピードが速い。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。SaaS・自社開発の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">サイボウズへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">自社開発SaaSの求人に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -214,7 +214,7 @@ export default function CybozuCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "freeeの転職ガイド", href: "/company/freee/" }, { name: "マネーフォワードの転職ガイド", href: "/company/moneyforward/" }, { name: "SmartHRの転職ガイド", href: "/company/smarthr/" }, { name: "Javaエンジニアの転職", href: "/skill/java/" }, { name: "Goエンジニアの転職", href: "/skill/go/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "freeeの転職ガイド", href: "/company/freee/" }, { name: "マネーフォワードの転職ガイド", href: "/company/moneyforward/" }, { name: "SmartHRの転職ガイド", href: "/company/smarthr/" }, { name: "Javaエンジニアの転職", href: "/skill/java/" }, { name: "Goエンジニアの転職", href: "/skill/go/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

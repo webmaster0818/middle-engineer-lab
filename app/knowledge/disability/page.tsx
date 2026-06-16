@@ -75,13 +75,13 @@ export default function DisabilityPage() {
         <nav className="mb-10 border border-slate-200 rounded-lg p-5 bg-slate-50">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
           <ul className="space-y-2 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：制度より「自分に必要な配慮」から逆算する</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">どの雇用区分を選ぶかは、制度の名前から入るのではなく、<strong>自分が働き続けるために何の配慮が・どの程度・継続的に必要か</strong>から逆算すると判断しやすくなります。</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>1. 必要な配慮が限定的でスキルで競えるなら一般雇用も有力</li>
@@ -119,7 +119,7 @@ export default function DisabilityPage() {
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-700">{reasonableExamples.map((e, i) => (<li key={i}>・{e}</li>))}</ul>
           </div>
-          <p className="text-slate-600 leading-relaxed mt-4">リモートワークやテキスト中心の働き方が浸透しているIT職は、こうした配慮を組み込みやすい土台がある領域といえます。ただし運用は企業ごとに大きく異なるため、個別に確認してください。働き方の選択肢は<Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモートワーク転職ガイド</Link>も参考になります。</p>
+          <p className="text-slate-600 leading-relaxed mt-4">リモートワークやテキスト中心の働き方が浸透しているIT職は、こうした配慮を組み込みやすい土台がある領域といえます。ただし運用は企業ごとに大きく異なるため、個別に確認してください。働き方の選択肢は<Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワーク転職ガイド</Link>も参考になります。</p>
         </section>
 
         <section id="disclosure" className="mb-10 scroll-mt-20">
@@ -175,13 +175,13 @@ export default function DisabilityPage() {
               <li>☑ 内定前に配慮内容を書面で確認する段取りを決めた</li>
             </ul>
           </div>
-          <p className="text-slate-600 leading-relaxed mt-4">スキルの可視化は、雇用区分にかかわらず評価の土台になります。<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>や<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>も役立ちます。</p>
+          <p className="text-slate-600 leading-relaxed mt-4">スキルの可視化は、雇用区分にかかわらず評価の土台になります。<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>や<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>も役立ちます。</p>
         </section>
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の障害のあるエンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアは、これまでの実務経験そのものが強い武器になります。市況としても経験者の需要は高く、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
-          <p className="text-slate-600 leading-relaxed">配慮を必要とすることと、市場価値が高いことは両立します。スキルで評価される土台を整えつつ、必要な配慮を具体的に伝えることが、長く働ける職場選びの近道です。年齢の論点は<Link href="/knowledge/age-discrimination/" className="text-blue-600 hover:underline">年齢と転職</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed">配慮を必要とすることと、市場価値が高いことは両立します。スキルで評価される土台を整えつつ、必要な配慮を具体的に伝えることが、長く働ける職場選びの近道です。年齢の論点は<Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">年齢と転職</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -192,7 +192,7 @@ export default function DisabilityPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">あなたに合った転職サポートを探す</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントでスキルに合う求人を探しつつ、制度の詳細は専門機関に確認するのが安心です。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -205,7 +205,7 @@ export default function DisabilityPage() {
               { name: "ポートフォリオの作り方", href: "/knowledge/portfolio/" },
               { name: "職務経歴書の書き方", href: "/knowledge/resume/" },
               { name: "転職を後悔しないためのチェックリスト", href: "/knowledge/regret/" },
-            ].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            ].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

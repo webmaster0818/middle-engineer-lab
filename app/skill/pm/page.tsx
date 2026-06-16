@@ -118,7 +118,7 @@ export default function PmSkillPage() {
         </p>
         <p className="text-slate-600 leading-relaxed mb-4">
           本記事は「すでにPMの経験・素地がある人が、PMポジションへ転職する市場」に特化して解説します。エンジニアからマネジメントへ転身する方法そのものは
-          <Link href="/knowledge/management/" className="text-blue-600 hover:underline">EM・PMへのマネジメント転身ガイド</Link>
+          <Link href="/knowledge/management/" className="text-petrol hover:underline">EM・PMへのマネジメント転身ガイド</Link>
           で扱っているため、ここでは「どの窓口で・どんな求人を・どう狙うか」という転職市場の攻め方に絞ります。
         </p>
         <DataNote
@@ -137,7 +137,7 @@ export default function PmSkillPage() {
           <ul className="space-y-1.5">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -148,7 +148,7 @@ export default function PmSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PM転職市場の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               PMは年齢の不利が小さく、ミドルの実績がそのまま武器になる数少ないポジションです。攻め方は<strong>「実績の定量化」×「ハイクラス・スカウト型の活用」</strong>。求人母数の多さに任せて数を撃つより、合うポジションへ確実に届けるのが要です。
             </p>
@@ -240,7 +240,7 @@ export default function PmSkillPage() {
             </table>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            VPoE/EMなどマネジメント職への発展は<Link href="/knowledge/management/" className="text-blue-600 hover:underline">EM・PMへのマネジメント転身ガイド</Link>で詳しく扱っています。
+            VPoE/EMなどマネジメント職への発展は<Link href="/knowledge/management/" className="text-petrol hover:underline">EM・PMへのマネジメント転身ガイド</Link>で詳しく扱っています。
           </p>
         </section>
 
@@ -256,25 +256,25 @@ export default function PmSkillPage() {
               <p className="text-sm text-slate-600 mb-2">
                 年収750万円以上をハイクラスと定義するスカウト型サービス。PM/PdMの高年収ポジションに出会いやすく、職務経歴を登録しておくと企業・ヘッドハンターから声がかかります。PMの年収帯と特に相性が良い窓口です。
               </p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（求人量・実績）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 国内最大級の求人数で全国対応。大手企業・コンサル・事業会社のPM求人が幅広く、母数の多さから自分の経歴に合うポジションを探しやすい窓口です。
               </p>
-              <Link href="/review/recruit-it/" className="text-sm text-blue-600 hover:underline">リクルートエージェントITの詳細レビュー →</Link>
+              <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT/Web/SaaSのPM・PdM）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT/Webに特化し高年収求人比率が高い窓口。SaaS/Web系のPM・PdMポジションに強く、開発出身でプロダクト寄りのPMを目指す人に向きます。
               </p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            ハイクラス向けの比較は<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けエージェント比較</Link>、併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの併用ガイド</Link>を参考にしてください。
+            ハイクラス向けの比較は<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けエージェント比較</Link>、併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの併用ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -291,7 +291,7 @@ export default function PmSkillPage() {
               { num: "3", title: "技術力×調整力の掛け算で差別化する", desc: "開発出身であれば、技術判断ができるPMという希少性を前面に。エンジニア組織を持つ事業会社では特に評価されます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -302,7 +302,7 @@ export default function PmSkillPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            マネジメントへの転身手順そのものは<Link href="/knowledge/management/" className="text-blue-600 hover:underline">EM・PMへのマネジメント転身ガイド</Link>（職務経歴書例付き）が詳しいです。
+            マネジメントへの転身手順そのものは<Link href="/knowledge/management/" className="text-petrol hover:underline">EM・PMへのマネジメント転身ガイド</Link>（職務経歴書例付き）が詳しいです。
           </p>
         </section>
 
@@ -313,27 +313,27 @@ export default function PmSkillPage() {
             純粋な開発職は年齢で見られる場面がありますが、PMは「経験の厚み」がそのまま評価される稀なポジションです。40代でも、というより40代だからこそ任される領域があります。
           </p>
           <div className="space-y-3">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年齢より「規模と再現性」で見られる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 何人・何億円のPJを、どう完遂させたか。リカバリ経験を含めて再現性を語れるミドルは、年齢を不利にしません。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">PdM/PMO/DXへの横展開で選択肢が増える</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 PMの素地は、PdM・PMO・DX推進・コンサル型PMへ広げられます。1つの軸足を複数の出口に転用できるのがミドルの強みです。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年収交渉が成立しやすい職種</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 成果が数字で語りやすいため年収交渉の根拠を作りやすく、ハイクラス・スカウト経由なら提示も高くなりがちです。
               </p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            40代の現実は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>で詳しく解説しています。
+            40代の現実は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>で詳しく解説しています。
           </p>
         </section>
 
@@ -344,14 +344,14 @@ export default function PmSkillPage() {
             PM転職の合否は職務経歴書の「実績の定量化」でほぼ決まります。応募前に次を整理しておきましょう。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>担当PJの規模を数字で（予算・チーム人数・期間・関係部署数）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>成果を定量で（納期遵守率・コスト削減率・品質改善・離脱率低下など）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>困難PJのリカバリ経験（炎上案件の立て直し・スコープ調整の判断）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>ステークホルダー調整の実績（経営層報告・顧客折衝・部門間調整）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>アジャイル/スクラムの実践経験、PMP/IPAなど資格の有無</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>担当PJの規模を数字で（予算・チーム人数・期間・関係部署数）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>成果を定量で（納期遵守率・コスト削減率・品質改善・離脱率低下など）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>困難PJのリカバリ経験（炎上案件の立て直し・スコープ調整の判断）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>ステークホルダー調整の実績（経営層報告・顧客折衝・部門間調整）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>アジャイル/スクラムの実践経験、PMP/IPAなど資格の有無</li>
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
-            職務経歴書の書き方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書ガイド</Link>、面接対策は<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接（STAR）対策</Link>を参考にしてください。
+            職務経歴書の書き方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書ガイド</Link>、面接対策は<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STAR）対策</Link>を参考にしてください。
           </p>
         </section>
 
@@ -384,7 +384,7 @@ export default function PmSkillPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            開発を続けたい場合は<Link href="/knowledge/management/" className="text-blue-600 hover:underline">マネジメント転身ガイド</Link>でEMとの違いを確認し、自分に合う方向を見極めると良いでしょう。
+            開発を続けたい場合は<Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメント転身ガイド</Link>でEMとの違いを確認し、自分に合う方向を見極めると良いでしょう。
           </p>
         </section>
 
@@ -440,7 +440,7 @@ export default function PmSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -460,7 +460,7 @@ export default function PmSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -473,8 +473,8 @@ export default function PmSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/ibm/" className="text-blue-700 hover:underline">日本IBM</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/ibm/" className="text-petrol-deep hover:underline">日本IBM</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

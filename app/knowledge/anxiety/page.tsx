@@ -168,7 +168,7 @@ export default function AnxietyPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -179,7 +179,7 @@ export default function AnxietyPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：不安との向き合い方の基本</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               不安との向き合い方の基本は、<strong>「不安の正体を書き出して分解し」「対処可能な課題に変え」「小さな行動で一つずつ潰していく」</strong>こと。不安をゼロにしようとするのではなく、コントロールできる形にすることが目標です。
             </p>
@@ -218,7 +218,7 @@ export default function AnxietyPage() {
               { num: "3", title: "次の一手を決める", desc: "対処できる不安には「エージェントに相談する」「求人を10件見る」など、具体的な行動を1つ割り当てます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -230,7 +230,7 @@ export default function AnxietyPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             自分の軸の整理には
-            <Link href="/knowledge/self-analysis/" className="text-blue-600 hover:underline">自己分析の進め方</Link>
+            <Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析の進め方</Link>
             も役立ちます。
           </p>
         </section>
@@ -248,9 +248,9 @@ export default function AnxietyPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             市場価値の確かめ方は
-            <Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>
+            <Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>
             、後悔を防ぐ視点は
-            <Link href="/knowledge/regret/" className="text-blue-600 hover:underline">転職の後悔を防ぐ方法</Link>
+            <Link href="/knowledge/regret/" className="text-petrol hover:underline">転職の後悔を防ぐ方法</Link>
             を参照してください。
           </p>
         </section>
@@ -295,15 +295,15 @@ export default function AnxietyPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代特有の不安への向き合い方</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：年齢への不安は実績で打ち消す</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30代は「もう遅いのでは」という不安を抱きがちですが、実務経験が厚く市場価値が高まる年代でもあります。漠然と年齢を不安視するより、積んできた実績を棚卸しし、市場価値を客観的に確認することで不安は和らぎます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：守るものと挑戦のバランスを取る</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は家庭やローンなど守るものが増え、不安が大きくなるのは自然です。だからこそ、生活の最低ラインを数字で固め、判断軸を明確にすることが安心につながります。在職しながらの情報収集など、リスクの低い進め方を選びましょう。
               </p>
             </div>
@@ -334,7 +334,7 @@ export default function AnxietyPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -354,7 +354,7 @@ export default function AnxietyPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

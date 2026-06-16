@@ -139,14 +139,14 @@ export default function ImposterSyndromePage() {
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
           <ul className="space-y-2">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ul>
         </nav>
 
         {/* 結論 */}
         <section className="mb-10">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：不安は「事実・数値・第三者の声」で上書きする</h2>
             <p className="text-sm text-blue-800 leading-relaxed">
               インポスター症候群は気合いでは消えません。有効なのは、<strong>(1)成果を事実と数値で書き出す</strong>、<strong>(2)第三者の評価を集める</strong>、<strong>(3)市場のものさし（求人要件・年収レンジ・エージェント評価）に照らす</strong>こと。主観的な「自分はダメ」を、客観的な証拠で上書きしていきます。面接では「準備した実績ワークシート」を拠り所にすれば、その場の不安に引きずられにくくなります。
@@ -199,7 +199,7 @@ export default function ImposterSyndromePage() {
           <div className="space-y-4">
             {steps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -240,14 +240,14 @@ export default function ImposterSyndromePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接での自己評価の歪み対策</h2>
           <div className="space-y-4">
             {interviewTips.map((t, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {t.title}</h3>
-                <p className="text-sm text-blue-700">{t.desc}</p>
+                <p className="text-sm text-petrol-deep">{t.desc}</p>
               </div>
             ))}
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            面接の組み立て自体は<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接（STAR法）ガイド</Link>や<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接対策</Link>も参考になります。
+            面接の組み立て自体は<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STAR法）ガイド</Link>や<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接対策</Link>も参考になります。
           </p>
         </section>
 
@@ -272,7 +272,7 @@ export default function ImposterSyndromePage() {
               30代・40代は「経験年数の割にできていない」という比較に陥りやすい時期です。マネジメントやアーキテクトなど新しい役割に移ると、慣れたコーディングと違って手探りになり、自己評価が下がりがちです。しかし<strong>役割移行の初期に不慣れなのは当然</strong>で、それは実力不足とは別物です。
             </p>
             <p>
-              この年代の強みは、技術知識そのものよりも「設計判断・トラブル対応・チーム調整を、再現性をもって行ってきた経験」にあります。求人市場でもミドル層の経験は評価されやすく、客観的な市場価値を知ることが自己評価の補正に直結します。<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>や<Link href="/knowledge/self-analysis/" className="text-blue-600 hover:underline">自己分析ガイド</Link>とあわせて、エージェントの客観評価も活用してみてください。
+              この年代の強みは、技術知識そのものよりも「設計判断・トラブル対応・チーム調整を、再現性をもって行ってきた経験」にあります。求人市場でもミドル層の経験は評価されやすく、客観的な市場価値を知ることが自己評価の補正に直結します。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>や<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析ガイド</Link>とあわせて、エージェントの客観評価も活用してみてください。
             </p>
           </div>
         </section>
@@ -299,7 +299,7 @@ export default function ImposterSyndromePage() {
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントのアドバイザーが、あなたのスキルを客観的に評価。第三者の視点が、自己評価の歪みを正す助けになります。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -315,7 +315,7 @@ export default function ImposterSyndromePage() {
               { name: "行動面接（STAR法）ガイド", href: "/knowledge/behavioral/" },
               { name: "職務経歴書の書き方", href: "/knowledge/resume/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

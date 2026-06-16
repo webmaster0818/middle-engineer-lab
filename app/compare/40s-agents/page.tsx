@@ -195,7 +195,7 @@ export default function FortiesAgentsPage() {
         />
 
         <section className="mb-10">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <h2 className="text-lg font-bold text-blue-900 mb-2 not-prose">結論：40代はスカウト型＋IT特化型＋総合型の3軸併用</h2>
             <ul className="text-sm text-blue-900 leading-relaxed space-y-1 list-disc pl-5">
               <li>マネジメント経験があるなら<strong>ビズリーチ</strong>を軸に。年収1,000万円以上求人が全体の約4割（二次）で、管理職スカウトを受けやすい。</li>
@@ -207,7 +207,7 @@ export default function FortiesAgentsPage() {
 
         <nav className="mb-10 border border-slate-200 rounded-lg p-5 bg-slate-50">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-blue-700">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-petrol-deep">
             <li><a href="#ranking" className="hover:underline">40代向けエージェントおすすめランキング</a></li>
             <li><a href="#detail" className="hover:underline">各エージェントの詳細</a></li>
             <li><a href="#market" className="hover:underline">40代エンジニアの転職市場・年収データ</a></li>
@@ -241,10 +241,10 @@ export default function FortiesAgentsPage() {
               <tbody>
                 {agents.map((a, i) => (
                   <tr key={i} className="hover:bg-slate-50 align-top">
-                    <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">{a.rank}位</td>
-                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={a.href} className="text-blue-700 hover:underline">{a.name}</Link></td>
+                    <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">{a.rank}位</td>
+                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={a.href} className="text-petrol-deep hover:underline">{a.name}</Link></td>
                     <td className="px-3 py-3 border border-slate-200">
-                      <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-blue-100 text-blue-700" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
+                      <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-petrol-soft text-petrol-deep" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
                     </td>
                     <td className="px-3 py-3 border border-slate-200 text-xs">{a.jobs}</td>
                     <td className="px-3 py-3 border border-slate-200 text-xs">{a.area}</td>
@@ -263,8 +263,8 @@ export default function FortiesAgentsPage() {
             {agents.map((a, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <div className="flex items-center justify-between mb-2">
-                  <h3 className="font-bold text-slate-800">{a.rank}位. <Link href={a.href} className="text-blue-700 hover:underline">{a.name}</Link></h3>
-                  <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-blue-100 text-blue-700" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
+                  <h3 className="font-bold text-slate-800">{a.rank}位. <Link href={a.href} className="text-petrol-deep hover:underline">{a.name}</Link></h3>
+                  <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${a.type === "IT特化型" ? "bg-petrol-soft text-petrol-deep" : a.type === "ハイクラス" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`}>{a.type}</span>
                 </div>
                 <p className="text-sm text-slate-600 mb-3 leading-relaxed">{a.point}</p>
                 <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1 text-xs text-slate-600">
@@ -325,7 +325,7 @@ export default function FortiesAgentsPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-4">
               <h3 className="font-bold text-slate-800 mb-1">打ち手3：長期戦の前提で構える</h3>
-              <p>40代はポジションが限定的なため、活動が長引くこともあります。スカウト型に登録して待ちつつ、IT特化型で能動的に探す両面作戦で、機会の取りこぼしを防ぎます。年齢ハードルの実態は<Link href="/knowledge/age-discrimination/" className="text-blue-600 hover:underline">年齢の壁との向き合い方</Link>でも詳しく扱っています。</p>
+              <p>40代はポジションが限定的なため、活動が長引くこともあります。スカウト型に登録して待ちつつ、IT特化型で能動的に探す両面作戦で、機会の取りこぼしを防ぎます。年齢ハードルの実態は<Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">年齢の壁との向き合い方</Link>でも詳しく扱っています。</p>
             </div>
           </div>
         </section>
@@ -342,7 +342,7 @@ export default function FortiesAgentsPage() {
             <li><strong>技術との両立</strong>：プレイングマネージャーとして担った設計・技術選定の判断</li>
           </ul>
           <p className="text-slate-600 leading-relaxed">
-            こうした整理は、ビズリーチの職務経歴登録にもそのまま活きます。書き方の具体例は<Link href="/knowledge/management/" className="text-blue-600 hover:underline">マネジメント経験の伝え方</Link>と<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の作り方</Link>を参照してください。
+            こうした整理は、ビズリーチの職務経歴登録にもそのまま活きます。書き方の具体例は<Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメント経験の伝え方</Link>と<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の作り方</Link>を参照してください。
           </p>
         </section>
 
@@ -409,7 +409,7 @@ export default function FortiesAgentsPage() {
             当サイトはミドルエンジニアの転職に特化しています。40代は、30代までに積み上げた専門性とマネジメント経験を「換金」する年代です。レバテック公表値では40代の平均年収が約618万円、年収1,000万円以上の割合が12.67%と、30代（8.01%）よりハイクラス到達率が上がります。一方でポジションは管理職・高専門職に偏るため、自分の強みがどちらに寄っているかの自己認識が成否を分けます。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            まだ30代後半の方は、40代で評価される実績を逆算して今のうちに積むのが得策です。<Link href="/compare/30s-agents/" className="text-blue-600 hover:underline">30代の転職エージェント比較</Link>や<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代転職のリアル</Link>も合わせてご覧ください。
+            まだ30代後半の方は、40代で評価される実績を逆算して今のうちに積むのが得策です。<Link href="/compare/30s-agents/" className="text-petrol hover:underline">30代の転職エージェント比較</Link>や<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代転職のリアル</Link>も合わせてご覧ください。
           </p>
         </section>
 
@@ -428,7 +428,7 @@ export default function FortiesAgentsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">40代のIT転職は戦略で決まる</h2>
           <p className="text-blue-100 text-sm mb-4">経験と実績が最も評価される40代。スカウト型・IT特化型・総合型を組み合わせ、年齢ハードルを実績で乗り越えましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -442,7 +442,7 @@ export default function FortiesAgentsPage() {
               { name: "40代の年収のリアル", href: "/knowledge/salary-40s/" },
               { name: "マネジメント経験の伝え方", href: "/knowledge/management/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

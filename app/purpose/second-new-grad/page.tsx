@@ -59,7 +59,7 @@ export default function SecondNewGradPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 入社1〜3年目で今の環境に不満がある</li>
               <li>- SES/受託から自社開発に行きたい</li>
@@ -74,7 +74,7 @@ export default function SecondNewGradPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">経験年数</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">年収相場</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">採用タイプ</th>
@@ -91,7 +91,7 @@ export default function SecondNewGradPage() {
                     <td className="px-4 py-3 font-medium text-slate-800">{row.exp}</td>
                     <td className="px-4 py-3 text-slate-600">{row.salary}</td>
                     <td className="px-4 py-3 text-slate-600">{row.type}</td>
-                    <td className="px-4 py-3 text-slate-600 font-medium text-blue-600">{row.up}</td>
+                    <td className="px-4 py-3 text-slate-600 font-medium text-petrol">{row.up}</td>
                   </tr>
                 ))}
               </tbody>
@@ -110,7 +110,7 @@ export default function SecondNewGradPage() {
               { num: "5", title: "複数エージェントに相談する", desc: "第二新卒の転職は情報戦です。3社以上のエージェントに相談して、市場の反応を確認しましょう。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -154,7 +154,7 @@ export default function SecondNewGradPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">第二新卒の転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">第二新卒エンジニア専門のアドバイザーがキャリアプランを提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -166,7 +166,7 @@ export default function SecondNewGradPage() {
               { name: "技術力を伸ばせる企業の選び方", href: "/purpose/growth/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

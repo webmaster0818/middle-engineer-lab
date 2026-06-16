@@ -84,14 +84,14 @@ export default function JacVsBizreachPage() {
           <p className="font-bold text-slate-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：競合ではなく補完で使う</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・まず市場価値を測るなら「ビズリーチ」</strong>。スカウト型で、届くオファーから自分の相場が見えます（待ち）。</li>
@@ -130,7 +130,7 @@ export default function JacVsBizreachPage() {
           <p className="text-slate-600 leading-relaxed mb-4">最大の違いは動き方です。ビズリーチは<strong>スカウト型プラットフォーム</strong>で、職務経歴を登録して企業やヘッドハンターからのスカウトを待ちます。自分から探すというより、整えたプロフィールにオファーが集まる構造です。市場価値を客観的に把握しやすい一方、能動的に動かないと進みにくい面があります。</p>
           <p className="text-slate-600 leading-relaxed mb-4">JACリクルートメントは<strong>両面型エージェント</strong>です。1人のコンサルタントが企業側と求職者側の双方を担当するため、企業の採用背景や求める人物像を踏まえた精度の高い提案ができ、推薦から年収交渉まで代行してくれます。「待ち」のビズリーチに対して、JACは「攻め」のサービスといえます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>受け身で市場価値を測るならビズリーチ、能動的に提案と交渉を任せるならJAC。この役割の違いこそが、両者を競合でなく補完にしている理由です。スカウト型の選び方は<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラスIT転職エージェント比較</Link>もあわせてご覧ください。</p>
+            <p className="mb-2"><strong>まとめ：</strong>受け身で市場価値を測るならビズリーチ、能動的に提案と交渉を任せるならJAC。この役割の違いこそが、両者を競合でなく補完にしている理由です。スカウト型の選び方は<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラスIT転職エージェント比較</Link>もあわせてご覧ください。</p>
           </div>
         </section>
 
@@ -139,29 +139,29 @@ export default function JacVsBizreachPage() {
           <p className="text-slate-600 leading-relaxed mb-4">求人数は、二次情報で約21,000件（JAC）対約140,000件（ビズリーチ）という値（いずれも2024年11月時点・二次）があり、母数ではビズリーチが大きく上回ります。幅広い業種を広く見たい段階ではビズリーチの量が有利です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">ただしJACは<strong>「数より質」と非公開求人</strong>に強みがあります。上場企業・外資・管理職といったハイクラス求人の精度が高く、表に出ていない非公開ポジションをコンサル経由で紹介してもらえる点が価値です。求人数の少なさは、裏を返せば絞り込みの精度ともいえます。求人数自体は媒体により割れて確認しづらいため、数値は参考程度に捉えるのが安全です。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>母数の広さならビズリーチ、絞り込んだ質と非公開ならJAC。年収帯ごとの相場は<Link href="/compare/salary-ranking/" className="text-blue-600 hover:underline">年収ランキング</Link>もあわせてご確認ください。</p>
+            <p className="mb-2"><strong>まとめ：</strong>母数の広さならビズリーチ、絞り込んだ質と非公開ならJAC。年収帯ごとの相場は<Link href="/compare/salary-ranking/" className="text-petrol hover:underline">年収ランキング</Link>もあわせてご確認ください。</p>
           </div>
         </section>
 
         <section id="support" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較③：サポート・交渉力</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">JACリクルートメント</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">両面型のため、企業側の事情を把握したコンサルが推薦・面接調整・年収交渉まで代行します。満足度93%（二次）という数値も公表されています。交渉ごとを任せたい人、現実的な落としどころを踏まえて動いてほしい人に向きます。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">両面型のため、企業側の事情を把握したコンサルが推薦・面接調整・年収交渉まで代行します。満足度93%（二次）という数値も公表されています。交渉ごとを任せたい人、現実的な落としどころを踏まえて動いてほしい人に向きます。</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
               <p className="text-sm text-slate-600 leading-relaxed">専任の伴走というより、企業や登録ヘッドハンター経由でやり取りが進みます。優秀なヘッドハンターに当たれば手厚い一方、質にばらつきがあるという声もあります（talentsquare等）。自走できる人がスカウトを活用する設計です。</p>
             </div>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm">交渉を任せるならJAC、自分で複数オファーを並べて比較するならビズリーチ。<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>や<Link href="/knowledge/agent-first-meeting/" className="text-blue-600 hover:underline">エージェントとの初回面談</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">交渉を任せるならJAC、自分で複数オファーを並べて比較するならビズリーチ。<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>や<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">エージェントとの初回面談</Link>も参考にしてください。</p>
         </section>
 
         <section id="target" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較④：40代ハイクラス適性</h2>
           <p className="text-slate-600 leading-relaxed mb-4">JACは主に30〜50代をターゲットとし、年収500万円以上が目安、600万円以上が一つのライン（二次）とされます。公式に<strong>40代向けのIT特設ページ</strong>を持ち、40代でも応募可能な求人が複数あるとされる点は、40代エンジニアにとって心強い材料です。マネジメント・年収アップ・外資/上場を狙う層に噛み合います。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">ビズリーチも利用者層に40代が一定数いるとされますが、割合の数値は二次・時点に留意が必要です。経歴次第でスカウトの量が左右されるため、実績を整理してプロフィールに反映できる40代ほど効果が出ます。逆に、年収500万円未満や未経験に近い場合は、JAC・ビズリーチとも紹介・スカウトが届きにくく、門前払い感が出ることがあります。その場合は<Link href="/compare/agents/" className="text-blue-600 hover:underline">総合型エージェント</Link>の併用が安全です。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">ビズリーチも利用者層に40代が一定数いるとされますが、割合の数値は二次・時点に留意が必要です。経歴次第でスカウトの量が左右されるため、実績を整理してプロフィールに反映できる40代ほど効果が出ます。逆に、年収500万円未満や未経験に近い場合は、JAC・ビズリーチとも紹介・スカウトが届きにくく、門前払い感が出ることがあります。その場合は<Link href="/compare/agents/" className="text-petrol hover:underline">総合型エージェント</Link>の併用が安全です。</p>
         </section>
 
         <section id="review" className="mb-12 scroll-mt-20">
@@ -194,9 +194,9 @@ export default function JacVsBizreachPage() {
               <h3 className="font-bold text-green-800 mb-3">JACが向いている人</h3>
               <ul className="space-y-2 text-sm text-green-700">{goodJac.map((t, i) => (<li key={i}>✓ {t}</li>))}</ul>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">ビズリーチが向いている人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">{goodBiz.map((t, i) => (<li key={i}>✓ {t}</li>))}</ul>
+              <ul className="space-y-2 text-sm text-petrol-deep">{goodBiz.map((t, i) => (<li key={i}>✓ {t}</li>))}</ul>
             </div>
           </div>
         </section>
@@ -211,20 +211,20 @@ export default function JacVsBizreachPage() {
                 { num: "3", title: "オファーを並べて意思決定（推奨）", desc: "ビズリーチで複数スカウトの条件を並べ、その材料をJACの交渉に渡す。役割が重ならないからこそ、相場づくり×交渉代行で最も有利な条件に近づけます。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p></div>
                 </div>
               ))}
             </div>
-            <p className="text-xs text-slate-500 mt-4">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数利用のコツ</Link>も参考にしてください。</p>
+            <p className="text-xs text-slate-500 mt-4">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>も参考にしてください。</p>
           </div>
         </section>
 
         <section id="middle" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだミドルエンジニアの市場価値は依然として高く、JACとビズリーチはその価値を現金化する手段として役割が異なります。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>まだマネジメントか専門職か方向が定まっていない時期です。ビズリーチで届くスカウトから市場での見られ方を確認しつつ、JACのコンサルにキャリアの選択肢を相談すると視野が広がります。レバテック公表の年代別平均年収（2025年）では正社員SEで30代約499万円が一つの目安で、JACの「年収500万円以上」ラインに届くかどうかが一つの判断材料になります。<Link href="/knowledge/career-plan/" className="text-blue-600 hover:underline">キャリアプランの立て方</Link>もあわせてご覧ください。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ここが両サービス併用の本命層です。JACは40代向けIT特設ページを持ち、上場・外資・管理職といったハイクラス求人で40代でも応募可能なものが複数あるとされます。レバテック公表（2025年）では40代の年収1,000万円以上の割合は12.67%とされ、上限を狙える層でもあります。一方で40代は年齢を理由に書類段階で苦戦することもあるため、推薦状を書いて交渉まで動いてくれるJACのコンサル支援を確保しつつ、ビズリーチで相場を測る二段構えが失敗の少ない進め方です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>もご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>まだマネジメントか専門職か方向が定まっていない時期です。ビズリーチで届くスカウトから市場での見られ方を確認しつつ、JACのコンサルにキャリアの選択肢を相談すると視野が広がります。レバテック公表の年代別平均年収（2025年）では正社員SEで30代約499万円が一つの目安で、JACの「年収500万円以上」ラインに届くかどうかが一つの判断材料になります。<Link href="/knowledge/career-plan/" className="text-petrol hover:underline">キャリアプランの立て方</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ここが両サービス併用の本命層です。JACは40代向けIT特設ページを持ち、上場・外資・管理職といったハイクラス求人で40代でも応募可能なものが複数あるとされます。レバテック公表（2025年）では40代の年収1,000万円以上の割合は12.67%とされ、上限を狙える層でもあります。一方で40代は年齢を理由に書類段階で苦戦することもあるため、推薦状を書いて交渉まで動いてくれるJACのコンサル支援を確保しつつ、ビズリーチで相場を測る二段構えが失敗の少ない進め方です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
           <p className="text-slate-600 leading-relaxed text-sm">いずれの年代でも、競合と捉えて片方に絞るのではなく、補完として両方を使うのがミドルエンジニアにとって合理的です。</p>
         </section>
 
@@ -243,7 +243,7 @@ export default function JacVsBizreachPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">40代ハイクラスは「相場づくり×交渉代行」で</h2>
           <p className="text-blue-100 text-sm mb-4">ビズリーチで市場価値を測り、JACリクルートメントに交渉を任せる。競合ではなく補完として併用するのが、40代エンジニアの年収アップに最短のルートです。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -257,7 +257,7 @@ export default function JacVsBizreachPage() {
               { name: "ビズリーチの評判・口コミ", href: "/review/bizreach-it/" },
               { name: "40代の転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

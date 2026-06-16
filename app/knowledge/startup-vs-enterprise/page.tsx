@@ -107,7 +107,7 @@ export default function StartupVsEnterprisePage() {
 
         {/* 結論ファースト */}
         <section className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：年収の額面ではなく「裁量・経験・安定性」の優先順位で選ぶ</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-2">
               スタートアップと大企業は優劣ではなく相性です。<strong>裁量・0→1経験・成長スピードを求めるならスタートアップ、大規模システム経験・安定・福利厚生を求めるなら大企業</strong>が基本軸です。スタートアップの報酬はストックオプションを含むことがありますが、これは出口が実現して初めて価値になる不確実なものなので、基本給と分けて評価します。
@@ -121,7 +121,7 @@ export default function StartupVsEnterprisePage() {
         {/* 目次 */}
         <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ul className="space-y-2 text-sm text-blue-700">
+          <ul className="space-y-2 text-sm text-petrol-deep">
             <li><a href="#axis" className="hover:underline">評価軸で見る比較表</a></li>
             <li><a href="#salary" className="hover:underline">年収・報酬の考え方</a></li>
             <li><a href="#phase" className="hover:underline">フェーズ別の違い（シード〜大企業）</a></li>
@@ -173,9 +173,9 @@ export default function StartupVsEnterprisePage() {
               { age: "40代", v: "約618万円" },
               { age: "50代", v: "約685万円" },
             ].map((d, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-4 text-center">
-                <p className="text-xs text-blue-600 mb-1">{d.age} 正社員SE</p>
-                <p className="text-lg font-bold text-blue-700">{d.v}</p>
+              <div key={i} className="bg-petrol-soft rounded-lg p-4 text-center">
+                <p className="text-xs text-petrol mb-1">{d.age} 正社員SE</p>
+                <p className="text-lg font-bold text-petrol-deep">{d.v}</p>
               </div>
             ))}
           </div>
@@ -216,7 +216,7 @@ export default function StartupVsEnterprisePage() {
         <section id="fit" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人・向いていない人</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="border border-blue-200 rounded-lg p-5">
+            <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">スタートアップ向き</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
@@ -227,7 +227,7 @@ export default function StartupVsEnterprisePage() {
                   "収入変動のリスクを受け入れられる",
                   "将来CTOや起業を視野に入れている",
                 ].map((t, i) => (
-                  <li key={i} className="flex gap-2"><span className="text-blue-600">✓</span>{t}</li>
+                  <li key={i} className="flex gap-2"><span className="text-petrol">✓</span>{t}</li>
                 ))}
               </ul>
             </div>
@@ -253,17 +253,17 @@ export default function StartupVsEnterprisePage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の選び方</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代前半：チャレンジしやすいタイミング</h3>
-              <p className="text-sm text-blue-700">学習意欲が高く家族の状況も比較的柔軟な時期。スタートアップで0→1や裁量の大きい役割に挑戦しやすい。仮にうまくいかなくても、エンジニアの需要は高く（経産省2019年公表の試算では2030年に最大約79万人不足）リカバリーの選択肢が多い。</p>
+              <p className="text-sm text-petrol-deep">学習意欲が高く家族の状況も比較的柔軟な時期。スタートアップで0→1や裁量の大きい役割に挑戦しやすい。仮にうまくいかなくても、エンジニアの需要は高く（経産省2019年公表の試算では2030年に最大約79万人不足）リカバリーの選択肢が多い。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代後半：リスクとリターンの見極め</h3>
-              <p className="text-sm text-blue-700">住宅ローンや子育てなどライフイベントが重なりやすい時期。スタートアップを選ぶならシリーズB以降など資金的に安定したフェーズを選ぶと、リスクを抑えつつチャレンジできる。基本給で生活が成り立つかを必ず確認する。</p>
+              <p className="text-sm text-petrol-deep">住宅ローンや子育てなどライフイベントが重なりやすい時期。スタートアップを選ぶならシリーズB以降など資金的に安定したフェーズを選ぶと、リスクを抑えつつチャレンジできる。基本給で生活が成り立つかを必ず確認する。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験を活かせるポジションで選ぶ</h3>
-              <p className="text-sm text-blue-700">スタートアップならCTO・VPoE・テックリード、大企業ならDX推進・アーキテクトなど、これまでの経験を最大限活かせる役割かが判断軸。組織構築・技術戦略・メンタリングの実績を言語化しておくと選考で評価されやすい。年収戦略は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収戦略</Link>も参照。</p>
+              <p className="text-sm text-petrol-deep">スタートアップならCTO・VPoE・テックリード、大企業ならDX推進・アーキテクトなど、これまでの経験を最大限活かせる役割かが判断軸。組織構築・技術戦略・メンタリングの実績を言語化しておくと選考で評価されやすい。年収戦略は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収戦略</Link>も参照。</p>
             </div>
           </div>
         </section>
@@ -292,7 +292,7 @@ export default function StartupVsEnterprisePage() {
           </p>
           <Link
             href="/compare/agents/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             IT転職エージェント比較を見る
           </Link>
@@ -312,7 +312,7 @@ export default function StartupVsEnterprisePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

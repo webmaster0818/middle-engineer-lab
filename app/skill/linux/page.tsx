@@ -117,7 +117,7 @@ export default function LinuxSkillPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -128,7 +128,7 @@ export default function LinuxSkillPage() {
         {/* 違い（冒頭差別化） */}
         <section id="diff" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">まず：インフラ・ネットワークとの違い</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Linuxは「職種」ではなく、インフラ・ネットワークといった職種を支える<strong>基盤スキル</strong>です。最初にこの位置づけを押さえると、学習と求人選びの軸が定まります。
             </p>
@@ -138,7 +138,7 @@ export default function LinuxSkillPage() {
               <li><strong>ネットワークエンジニア</strong>＝ルーター・スイッチ等の通信機器を主に扱う職種。</li>
             </ul>
             <p className="text-slate-700 leading-relaxed mt-3 text-sm">
-              職種としての全体像は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>・<Link href="/skill/network/" className="text-blue-600 hover:underline">ネットワークエンジニア転職ガイド</Link>へ。資格を深掘りするなら<Link href="/cert/lpic/" className="text-blue-600 hover:underline">LPIC資格ガイド</Link>が直接の続きです。本ページはLinuxスキルを軸にした入り方・伸ばし方に絞ります。
+              職種としての全体像は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>・<Link href="/skill/network/" className="text-petrol hover:underline">ネットワークエンジニア転職ガイド</Link>へ。資格を深掘りするなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC資格ガイド</Link>が直接の続きです。本ページはLinuxスキルを軸にした入り方・伸ばし方に絞ります。
             </p>
           </div>
         </section>
@@ -146,7 +146,7 @@ export default function LinuxSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Linuxスキルでの転職の攻め方</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Linuxスキルでの転職は、<strong>「コマンドが打てる」から「サーバを設計・運用し、クラウドへ接続できる」へ役割を上げて見せられるか</strong>で年収が大きく変わります。攻め方は次の3点です。
             </p>
@@ -200,7 +200,7 @@ export default function LinuxSkillPage() {
           </div>
           <p className="text-xs text-slate-500 mb-3">出典: LPI（lpi.org）・LPI-Japan（linuc.org）各公式（2026年6月時点）。海外も視野ならLPIC、国内重視ならLinuCが一つの目安。</p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            資格の詳細・学習順は<Link href="/cert/lpic/" className="text-blue-600 hover:underline">LPIC資格ガイド</Link>で解説しています。レベル2まで取得すると、構築を任される中核層として転職での評価が一段上がります。
+            資格の詳細・学習順は<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC資格ガイド</Link>で解説しています。レベル2まで取得すると、構築を任される中核層として転職での評価が一段上がります。
           </p>
         </section>
 
@@ -217,7 +217,7 @@ export default function LinuxSkillPage() {
               { n: "STEP 3", t: "AWS（クラウド）", d: "クラウドインフラの設計・構築へ。オンプレ運用経験を移行の武器に変え、設計領域で年収を引き上げる。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -226,7 +226,7 @@ export default function LinuxSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            各資格の詳細は<Link href="/cert/lpic/" className="text-blue-600 hover:underline">LPIC</Link>・<Link href="/cert/ccna/" className="text-blue-600 hover:underline">CCNA</Link>・<Link href="/cert/aws/" className="text-blue-600 hover:underline">AWS認定</Link>の各ガイド、クラウドの転職戦略は<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS転職ガイド</Link>を参照してください。
+            各資格の詳細は<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC</Link>・<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>・<Link href="/cert/aws/" className="text-petrol hover:underline">AWS認定</Link>の各ガイド、クラウドの転職戦略は<Link href="/skill/aws/" className="text-petrol hover:underline">AWS転職ガイド</Link>を参照してください。
           </p>
         </section>
 
@@ -265,7 +265,7 @@ export default function LinuxSkillPage() {
               { n: "STEP 3", t: "LPIC-2＋資格ルートへ", d: "実務を積みながらLPIC-2、続いてCCNA・AWSへ。運用から構築・設計へキャリアを上げる。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -274,7 +274,7 @@ export default function LinuxSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            運用保守からインフラへの転向は<Link href="/career/support-to-infra/" className="text-blue-600 hover:underline">運用保守からインフラ・クラウドへの転向</Link>、30代未経験は<Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのITエンジニア転職</Link>が参考になります。
+            運用保守からインフラへの転向は<Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、30代未経験は<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのITエンジニア転職</Link>が参考になります。
           </p>
         </section>
 
@@ -288,21 +288,21 @@ export default function LinuxSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化。インフラ・クラウド求人を技術に明るいアドバイザー経由で探せます。設計領域へ進みたい場合に有効です。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
               <p className="text-sm text-slate-600 mb-2">国内最大級の求人数。運用の入口から構築・設計まで幅広く比較したい場合の併用先です。</p>
-              <Link href="/review/recruit-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">マイナビITエージェント</h3>
               <p className="text-sm text-slate-600 mb-2">幅広い求人と20〜30代のサポートに定評。資格を活かした入口求人を探しやすいサービスです。</p>
-              <Link href="/review/mynavi-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/mynavi-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数利用のコツ</Link>、選び方の軸は<Link href="/knowledge/how-to-choose/" className="text-blue-600 hover:underline">転職エージェントの選び方</Link>を参考にしてください。
+            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>、選び方の軸は<Link href="/knowledge/how-to-choose/" className="text-petrol hover:underline">転職エージェントの選び方</Link>を参考にしてください。
           </p>
         </section>
 
@@ -317,7 +317,7 @@ export default function LinuxSkillPage() {
               一方で注意点として、特定環境のレガシー運用に最適化されすぎた経験は横展開しにくい面があります。<strong>LPIC→CCNA→AWS</strong>のように汎用的なインフラ設計力・クラウドへ学びを足しておくことが、年代を問わず市場価値を保つ保険になります。資格は学び直しの起点としても有効です。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -346,7 +346,7 @@ export default function LinuxSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -366,7 +366,7 @@ export default function LinuxSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

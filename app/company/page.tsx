@@ -210,7 +210,7 @@ export default function CompanyIndexPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -259,9 +259,9 @@ export default function CompanyIndexPage() {
                 <Link
                   key={company.slug}
                   href={`/company/${company.slug}/`}
-                  className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors group"
+                  className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors group"
                 >
-                  <h3 className="font-bold text-slate-800 text-sm mb-1 group-hover:text-blue-600 transition-colors">
+                  <h3 className="font-bold text-slate-800 text-sm mb-1 group-hover:text-petrol transition-colors">
                     {company.name}
                   </h3>
                   <p className="text-xs text-slate-600 mb-2">{company.desc}</p>
@@ -281,10 +281,10 @@ export default function CompanyIndexPage() {
         <section className="mb-10">
           <h2 className="text-lg font-bold text-slate-800 mb-4">企業選びに役立つガイド</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-            <Link href="/knowledge/startup-vs-enterprise/" className="text-blue-600 hover:underline">→ スタートアップvs大企業の選び方</Link>
-            <Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">→ 技術面接対策ガイド</Link>
-            <Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">→ 複数オファーの比較方法</Link>
-            <Link href="/skill/" className="text-blue-600 hover:underline">→ スキル別の転職戦略を見る</Link>
+            <Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">→ スタートアップvs大企業の選び方</Link>
+            <Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">→ 技術面接対策ガイド</Link>
+            <Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">→ 複数オファーの比較方法</Link>
+            <Link href="/skill/" className="text-petrol hover:underline">→ スキル別の転職戦略を見る</Link>
           </div>
         </section>
 
@@ -296,7 +296,7 @@ export default function CompanyIndexPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>

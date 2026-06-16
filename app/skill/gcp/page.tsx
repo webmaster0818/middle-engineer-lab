@@ -121,9 +121,9 @@ export default function GcpSkillPage() {
 
         <p className="text-slate-600 leading-relaxed mb-4">
           GCP（Google Cloud Platform）は、国内クラウド市場ではAWS・Azureに次ぐ3番手というのが正直な現状です。それでも、BigQueryやVertex AIに代表されるデータ分析・機械学習基盤の評価は高く、「データ活用やMLと近いクラウド」として独自のポジションを持ちます。本記事は、すでに公開している
-          <Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSエンジニア転職ガイド</Link>
+          <Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>
           と検索意図を分け、「<strong>GCPをAWSとどう差別化して転職市場で価値化するか</strong>」に絞って整理します。Azureについては
-          <Link href="/skill/azure/" className="text-blue-600 hover:underline">Azureエンジニア転職ガイド</Link>
+          <Link href="/skill/azure/" className="text-petrol hover:underline">Azureエンジニア転職ガイド</Link>
           を参照してください。
         </p>
 
@@ -143,7 +143,7 @@ export default function GcpSkillPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -153,7 +153,7 @@ export default function GcpSkillPage() {
 
         <section id="diff" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：GCPはAWSと何が違うのか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               先に結論です。GCP転職を成功させる軸は、<strong>「AWSの代替」ではなく「データ・MLに強いクラウド」として自分を位置づけること</strong>です。攻め方は次の3点です。
             </p>
@@ -164,9 +164,9 @@ export default function GcpSkillPage() {
             </ul>
             <p className="text-xs text-slate-600 mt-3">
               「まず幅広い求人で経験を積みたい」方は
-              <Link href="/skill/aws/" className="text-blue-700 underline">AWS</Link>、
+              <Link href="/skill/aws/" className="text-petrol-deep underline">AWS</Link>、
               「エンタープライズ・業務系」志向なら
-              <Link href="/skill/azure/" className="text-blue-700 underline ml-0">Azure</Link>
+              <Link href="/skill/azure/" className="text-petrol-deep underline ml-0">Azure</Link>
               が向きます。
             </p>
           </div>
@@ -234,8 +234,8 @@ export default function GcpSkillPage() {
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
             求人数の体感は媒体・時点により差があり、断定はできません。各クラウドの詳細は
-            <Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS</Link>・
-            <Link href="/skill/azure/" className="text-blue-600 hover:underline">Azure</Link>
+            <Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>・
+            <Link href="/skill/azure/" className="text-petrol hover:underline">Azure</Link>
             の各ガイドをご覧ください。
           </p>
         </section>
@@ -259,11 +259,11 @@ export default function GcpSkillPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             データ志向を深めるなら
-            <Link href="/skill/data-scientist/" className="text-blue-600 hover:underline">データサイエンティスト転職ガイド</Link>、
+            <Link href="/skill/data-scientist/" className="text-petrol hover:underline">データサイエンティスト転職ガイド</Link>、
             コンテナ運用を強化するなら
-            <Link href="/skill/kubernetes/" className="text-blue-600 hover:underline">Kubernetes転職ガイド</Link>、
+            <Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes転職ガイド</Link>、
             IaCは
-            <Link href="/skill/terraform/" className="text-blue-600 hover:underline">Terraform転職ガイド</Link>
+            <Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform転職ガイド</Link>
             が接続先になります。
           </p>
         </section>
@@ -321,27 +321,27 @@ export default function GcpSkillPage() {
         <section id="path" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスの選択肢</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データ基盤エンジニア路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 BigQueryを中心にデータ基盤を設計・運用する方向。データ活用案件で評価されやすく、
-                <Link href="/skill/data-scientist/" className="text-blue-700 underline ml-1">データサイエンティスト</Link>
+                <Link href="/skill/data-scientist/" className="text-petrol-deep underline ml-1">データサイエンティスト</Link>
                 や
-                <Link href="/skill/sql/" className="text-blue-700 underline ml-0">SQL</Link>
+                <Link href="/skill/sql/" className="text-petrol-deep underline ml-0">SQL</Link>
                 のスキルと接続します。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">クラウドアーキテクト路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 GCP上のシステム全体設計を担う方向。Professional Cloud Architect認定と大規模設計経験が武器になります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">SRE / プラットフォーム路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 GKEを中心に信頼性とスケーラビリティを担保する方向。
-                <Link href="/career/sre/" className="text-blue-700 underline ml-1">SREへの転向ガイド</Link>
+                <Link href="/career/sre/" className="text-petrol-deep underline ml-1">SREへの転向ガイド</Link>
                 も参考になります。
               </p>
             </div>
@@ -361,7 +361,7 @@ export default function GcpSkillPage() {
               { n: "STEP 4", t: "成果物化して応募", d: "構成をTerraformでコード化しGitHubに公開。設計意図をREADMEで説明できる状態にする。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -370,7 +370,7 @@ export default function GcpSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-blue-600 hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">エンジニアのポートフォリオの作り方</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>。
           </p>
         </section>
 
@@ -385,10 +385,10 @@ export default function GcpSkillPage() {
             </p>
             <p>
               年収面では、レバテック公表の正社員SE平均が40代で約618万円、年収1,000万円以上の割合が40代で12.67%（2025年）と、ミドルでも高年収帯は一定数存在します。年代別の市場感は
-              <Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、
+              <Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・
+              <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、
               年収交渉は
-              <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>
+              <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>
               も合わせてご覧ください。
             </p>
           </div>
@@ -407,7 +407,7 @@ export default function GcpSkillPage() {
                   A. {faq.a}
                   {faq.aLink && (
                     <>
-                      <Link href={faq.aLink.href} className="text-blue-600 hover:underline">{faq.aLink.label}</Link>
+                      <Link href={faq.aLink.href} className="text-petrol hover:underline">{faq.aLink.label}</Link>
                       {faq.aTail}
                     </>
                   )}
@@ -424,7 +424,7 @@ export default function GcpSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -444,7 +444,7 @@ export default function GcpSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -457,8 +457,8 @@ export default function GcpSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/10x/" className="text-blue-700 hover:underline">10X</a></li><li><a href="/company/colopl/" className="text-blue-700 hover:underline">コロプラ</a></li><li><a href="/company/cyberagent/" className="text-blue-700 hover:underline">サイバーエージェント</a></li><li><a href="/company/dmm/" className="text-blue-700 hover:underline">DMM.com</a></li><li><a href="/company/hitachi/" className="text-blue-700 hover:underline">日立製作所</a></li><li><a href="/company/jcb/" className="text-blue-700 hover:underline">JCB（ジェーシービー）</a></li><li><a href="/company/kddi/" className="text-blue-700 hover:underline">KDDI</a></li><li><a href="/company/layerx/" className="text-blue-700 hover:underline">LayerX</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/10x/" className="text-petrol-deep hover:underline">10X</a></li><li><a href="/company/colopl/" className="text-petrol-deep hover:underline">コロプラ</a></li><li><a href="/company/cyberagent/" className="text-petrol-deep hover:underline">サイバーエージェント</a></li><li><a href="/company/dmm/" className="text-petrol-deep hover:underline">DMM.com</a></li><li><a href="/company/hitachi/" className="text-petrol-deep hover:underline">日立製作所</a></li><li><a href="/company/jcb/" className="text-petrol-deep hover:underline">JCB（ジェーシービー）</a></li><li><a href="/company/kddi/" className="text-petrol-deep hover:underline">KDDI</a></li><li><a href="/company/layerx/" className="text-petrol-deep hover:underline">LayerX</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

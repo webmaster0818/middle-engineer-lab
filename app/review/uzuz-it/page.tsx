@@ -205,7 +205,7 @@ export default function UzuzItReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：当サイト読者（30-40代）には正直に</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：20代・未経験のIT就職には優秀。ただし30-40代の経験者は対象外気味</span>。一言でいえば「20代の第二新卒・既卒・未経験から、手厚いサポートでITエンジニアを目指す人」向けのサービスです。
@@ -259,27 +259,27 @@ export default function UzuzItReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ウズキャリITの特徴・強み（主に20代向け）</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 1人あたりのサポートが非常に手厚い</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 1人あたりのサポート時間が一般的な転職エージェントの数倍とされ、面接対策を企業ごとに複数回実施するなど、丁寧な伴走が最大の特徴です。社会人経験が浅い20代でも安心して進めやすい設計です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 未経験からのIT就職に強い</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 IT基礎の学習コンテンツが用意され、未経験からエンジニア就職を目指せます。内定率86%以上・入社後定着率97%（いずれも二次情報）という実績があり、ブラック企業を排除する姿勢も掲げています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 近い距離感で相談しやすい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 在籍カウンセラーの多くが既卒・第二新卒出身で年齢も近く、キャリアに不安のある20代でも相談しやすい点が支持されています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 20代・第二新卒・既卒に特化</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 運営の株式会社UZUZが20代特化の人材紹介・研修を専門としており、そのIT版がウズキャリITです。特化ゆえに20代のIT就職ノウハウが蓄積されている点が強みです（裏返すと30-40代には合致しにくい）。
               </p>
             </div>
@@ -340,13 +340,13 @@ export default function UzuzItReview() {
             <p>
               <span className="font-bold text-slate-700">実務経験のある30代・40代の場合：</span>
               年収アップや専門性を活かす転職を狙うなら、本サービスではなく経験者・ミドル層向けのエージェントを使ってください。IT特化で年収アップに強い
-              <Link href="/review/willof-tech/" className="text-blue-600 hover:underline">ウィルオブテック</Link>
+              <Link href="/review/willof-tech/" className="text-petrol hover:underline">ウィルオブテック</Link>
               や
-              <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               、年代別の選び方は
-              <Link href="/compare/30s-agents/" className="text-blue-600 hover:underline">30代向け比較</Link>
+              <Link href="/compare/30s-agents/" className="text-petrol hover:underline">30代向け比較</Link>
               ・
-              <Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向け比較</Link>
+              <Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向け比較</Link>
               が参考になります。
             </p>
           </div>
@@ -389,7 +389,7 @@ export default function UzuzItReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -426,16 +426,16 @@ export default function UzuzItReview() {
             </table>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/willof-tech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/willof-tech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ウィルオブテック（経験者・年収UP）の評判 →
             </Link>
-            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテックキャリア（IT特化）の評判 →
             </Link>
-            <Link href="/compare/30s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/30s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               30代向けエージェント比較 →
             </Link>
-            <Link href="/compare/40s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/40s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               40代向けエージェント比較 →
             </Link>
           </div>
@@ -463,7 +463,7 @@ export default function UzuzItReview() {
           <p className="text-blue-100 text-sm mb-4">
             ウズキャリITは20代・未経験のIT就職向けです。30-40代の経験者は、ミドル層向けエージェントの比較から始めましょう。
           </p>
-          <Link href="/compare/30s-agents/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/compare/30s-agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             30-40代向けの比較を見る
           </Link>
         </section>
@@ -473,7 +473,7 @@ export default function UzuzItReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

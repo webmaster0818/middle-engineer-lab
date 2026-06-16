@@ -142,7 +142,7 @@ export default function SpacePage() {
           <ul className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -153,7 +153,7 @@ export default function SpacePage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：宇宙・宇宙開発IT転職は現実的か</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
               <span className="font-bold text-blue-800">結論：地上系・データ活用の領域なら、IT系エンジニアにも現実的な入り口があります。</span>
               搭載・制御系は組込みや宇宙工学の専門性が前提ですが、衛星データやクラウド基盤はWeb系・データ系の技術が活きます。
@@ -241,7 +241,7 @@ export default function SpacePage() {
                 {skills.map(([s, j, d], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 border-t border-slate-200 align-top">{s}</th>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-t border-slate-200 align-top whitespace-nowrap">{j}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-t border-slate-200 align-top whitespace-nowrap">{j}</td>
                     <td className="px-4 py-3 text-slate-600 border-t border-slate-200">{d}</td>
                   </tr>
                 ))}
@@ -250,9 +250,9 @@ export default function SpacePage() {
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
             ポイントは「自分の強み（組込み or クラウド・データ）を主役に、足りない領域を補う」という見せ方です。職務経歴書では、高信頼性が求められた開発や、扱ったデータの規模・性質を具体化すると説得力が増します。関連スキルは
-            <Link href="/skill/embedded/" className="text-blue-600 hover:underline">組込み</Link>・
-            <Link href="/skill/data-scientist/" className="text-blue-600 hover:underline">データサイエンティスト</Link>・
-            <Link href="/skill/python/" className="text-blue-600 hover:underline">Python</Link>
+            <Link href="/skill/embedded/" className="text-petrol hover:underline">組込み</Link>・
+            <Link href="/skill/data-scientist/" className="text-petrol hover:underline">データサイエンティスト</Link>・
+            <Link href="/skill/python/" className="text-petrol hover:underline">Python</Link>
             のページも参考にしてください。
           </p>
         </section>
@@ -310,7 +310,7 @@ export default function SpacePage() {
                 ].map(([k, v, src], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 border-t border-slate-200 align-top">{k}</th>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-t border-slate-200 align-top whitespace-nowrap">{v}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-t border-slate-200 align-top whitespace-nowrap">{v}</td>
                     <td className="px-4 py-3 text-slate-500 border-t border-slate-200 text-xs align-top">{src}</td>
                   </tr>
                 ))}
@@ -319,7 +319,7 @@ export default function SpacePage() {
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
             年収を上げる現実的な手段は、(1) 組込み×高信頼設計やデータ解析など希少性を高める、(2) 応募できる領域の幅を広げる、(3) 複数エージェントで提示額を比較し交渉材料にする、の3点です。詳しくは
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">エンジニア転職で年収は上がるか</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">エンジニア転職で年収は上がるか</Link>
             も参考にしてください。
           </p>
         </section>
@@ -335,14 +335,14 @@ export default function SpacePage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{name}</h3>
                 <p className="text-sm text-slate-600 mb-2">{desc}</p>
-                <p className="text-xs text-blue-700">向いている人：{fit}</p>
+                <p className="text-xs text-petrol-deep">向いている人：{fit}</p>
               </div>
             ))}
           </div>
           <p className="text-slate-500 leading-relaxed text-xs mt-4">
             関連する大手メーカーとしては
-            <Link href="/company/nec/" className="text-blue-600 hover:underline">NEC</Link>・
-            <Link href="/company/sony/" className="text-blue-600 hover:underline">ソニー</Link>
+            <Link href="/company/nec/" className="text-petrol hover:underline">NEC</Link>・
+            <Link href="/company/sony/" className="text-petrol hover:underline">ソニー</Link>
             などの各ページも参考にしてください（宇宙関連事業の有無・規模は各社で異なります）。
           </p>
         </section>
@@ -358,7 +358,7 @@ export default function SpacePage() {
               { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録。求人と担当者を比較し、市場価値を客観的に把握する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.step}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -372,27 +372,27 @@ export default function SpacePage() {
         <section id="midlife" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：専門技術の習得に投資する</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 組込みの高信頼設計や、衛星データ解析・MLなど、宇宙領域で活きる専門技術に投資できれば、希少性の高い人材になれます。技術への投資効果が高い年代です。
-                <Link href="/age/30s/" className="text-blue-700 underline">30代の転職事情</Link>
+                <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職事情</Link>
                 も参考にしてください。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：品質・信頼性・マネジメントを軸に</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 高信頼システムの設計や品質保証、大規模プロジェクトのマネジメント経験は、再現の難しい宇宙ミッションで評価されやすい強みです。組み合わせの価値を打ち出すのが現実的です。
-                <Link href="/age/40s/" className="text-blue-700 underline">40代の転職事情</Link>
+                <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職事情</Link>
                 も確認しておきましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新技術だけを競うのではなく、高信頼設計やデータ解析という希少性で差別化するのがミドル層の定石です。
-                <Link href="/knowledge/market-value/" className="text-blue-700 underline">自分の市場価値の測り方</Link>
+                <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
             </div>
@@ -411,7 +411,7 @@ export default function SpacePage() {
               { name: "ビズリーチ", desc: "ハイクラス・スカウト型。年収750万円以上の求人や専門ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
               { name: "リクルートエージェントIT", desc: "国内最大級の求人数。大手メーカーからスタートアップまで幅広く比較したい場合に有効。", href: "/review/recruit-it/" },
             ].map((a, i) => (
-              <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
                 <p className="text-sm text-slate-600">{a.desc}</p>
               </Link>
@@ -441,7 +441,7 @@ export default function SpacePage() {
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -450,7 +450,7 @@ export default function SpacePage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

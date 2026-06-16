@@ -73,7 +73,7 @@ export default function SonyCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（専門特化・事業会社別の経験者採用）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・半導体・PlayStation・クラウドなど<strong>領域ごとに事業会社が分かれる</strong>ため、自分の専門に合う応募先選びが起点。組み込み・画像処理・回路設計・機械学習などの専門家に向く。</li>
@@ -87,7 +87,7 @@ export default function SonyCompanyPage() {
         <nav aria-label="目次" className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ol>
         </nav>
 
@@ -104,9 +104,9 @@ export default function SonyCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">持株会社制で事業会社ごとに採用</h3><p className="text-sm text-blue-700">ソニーグループは持株会社制をとり、PlayStation（ソニー・インタラクティブエンタテインメント）、半導体（ソニーセミコンダクタソリューションズ）、ネットワーク（ソニーネットワークコミュニケーションズ）など事業会社ごとに採用窓口・職種が分かれます。応募先の選定が最初のステップです。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ジョブグレード制でスペシャリストを評価</h3><p className="text-sm text-blue-700">専門性に応じたジョブグレード制を採用しています。OpenWorkの社員言及では「I5までが一般社員層」といった等級構造への言及が見られ、技術スペシャリストとマネジメントの双方のキャリアパスがあるとされます。等級別の具体的給与は非公開です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ハードからソフト・クラウドまでの広さ</h3><p className="text-sm text-blue-700">CMOSイメージセンサーなどの半導体から、ゲームプラットフォーム、AV機器、クラウドサービスまで、ハードとソフトを横断する技術領域を持つ点が特徴です。自分の専門が活きる領域を選びやすい反面、領域ごとに求められるスキルセットは大きく異なります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">持株会社制で事業会社ごとに採用</h3><p className="text-sm text-petrol-deep">ソニーグループは持株会社制をとり、PlayStation（ソニー・インタラクティブエンタテインメント）、半導体（ソニーセミコンダクタソリューションズ）、ネットワーク（ソニーネットワークコミュニケーションズ）など事業会社ごとに採用窓口・職種が分かれます。応募先の選定が最初のステップです。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ジョブグレード制でスペシャリストを評価</h3><p className="text-sm text-petrol-deep">専門性に応じたジョブグレード制を採用しています。OpenWorkの社員言及では「I5までが一般社員層」といった等級構造への言及が見られ、技術スペシャリストとマネジメントの双方のキャリアパスがあるとされます。等級別の具体的給与は非公開です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ハードからソフト・クラウドまでの広さ</h3><p className="text-sm text-petrol-deep">CMOSイメージセンサーなどの半導体から、ゲームプラットフォーム、AV機器、クラウドサービスまで、ハードとソフトを横断する技術領域を持つ点が特徴です。自分の専門が活きる領域を選びやすい反面、領域ごとに求められるスキルセットは大きく異なります。</p></div>
           </div>
         </section>
 
@@ -115,9 +115,9 @@ export default function SonyCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">事業会社により技術スタックは大きく異なります。以下は各社の採用情報で公開されている範囲の例です。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>半導体（ソニーセミコンダクタソリューションズ）</strong>：Verilog-HDL・SystemCによる回路設計、FPGA設計・実装。デバイス／光学シミュレーション</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>製造・オペレーション系（GMO等）</strong>：C#・ASP.NET・TypeScript・Azure・AWS など</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>共通的に</strong>：C++（組み込み・製品ソフト）、Python（AI・データ）、各種クラウド（AWS／Azure）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>半導体（ソニーセミコンダクタソリューションズ）</strong>：Verilog-HDL・SystemCによる回路設計、FPGA設計・実装。デバイス／光学シミュレーション</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>製造・オペレーション系（GMO等）</strong>：C#・ASP.NET・TypeScript・Azure・AWS など</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>共通的に</strong>：C++（組み込み・製品ソフト）、Python（AI・データ）、各種クラウド（AWS／Azure）</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：ソニーセミコンダクタソリューションズ採用サイト、ソニーグローバルマニュファクチャリング＆オペレーションズ募集職種、ソニー株式会社 採用情報。職種・部署により使用技術は異なります。</p>
@@ -147,7 +147,7 @@ export default function SonyCompanyPage() {
               ["STEP 4", "内定", "ジョブグレードに基づく処遇提示。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <span className="shrink-0 text-xs font-bold text-blue-700 bg-blue-50 rounded px-2 py-1 h-fit">{step}</span>
+                <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
                 <div><p className="font-bold text-slate-800 text-sm mb-1">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
               </li>
             ))}
@@ -159,10 +159,10 @@ export default function SonyCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・口コミ傾向ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。公開情報と口コミ傾向から、評価されやすいと考えられる観点を一般化して挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>応募する事業会社・職種の領域（半導体／ゲーム／クラウド等）での専門的な深さ</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>実プロジェクトでの役割・技術的意思決定の具体性（深掘りされやすい）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>自律的にキャリアを切り拓く姿勢（口コミでも自由裁量を重視する文化との言及）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>グローバル職種では英語でのコミュニケーション力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>応募する事業会社・職種の領域（半導体／ゲーム／クラウド等）での専門的な深さ</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>実プロジェクトでの役割・技術的意思決定の具体性（深掘りされやすい）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>自律的にキャリアを切り拓く姿勢（口コミでも自由裁量を重視する文化との言及）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>グローバル職種では英語でのコミュニケーション力</li>
           </ul>
         </section>
 
@@ -179,22 +179,22 @@ export default function SonyCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>提出会社単体の<strong>平均年齢は42.5歳</strong>（2025年3月期・有報）で、持株会社は比較的シニアな年齢構成です。事業会社では領域により年齢構成は異なりますが、専門性を軸にしたジョブ型評価のため、30代・40代でも<strong>担当領域の深い専門性があれば中途で評価されやすい</strong>環境といえます。</p>
             <p>半導体回路設計、画像処理・信号処理、組み込み、機械学習、ゲームプラットフォームなど、長年積み上げた専門性が直接活きるのがソニーの強みです。一方で「どの事業会社か」によって働き方・技術・処遇が大きく変わるため、ミドル層は応募前に事業会社単位で実態を見極めることが重要です。年収面では、提出会社平均1,118万円はあくまで持株会社の数値である点を踏まえ、内定時の処遇を個別に確認しましょう。</p>
-            <p>ハイクラス・専門職の転職では、スカウト型サービスの活用も有効です。<Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトの活用法</Link>や<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>もあわせて確認してください。</p>
+            <p>ハイクラス・専門職の転職では、スカウト型サービスの活用も有効です。<Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトの活用法</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ソニーグループ転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。大手メーカーの専門職スカウトが届くことも。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人比率が高い。技術面接対策のサポートあり。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数で大手メーカー・事業会社の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。大手メーカーの専門職スカウトが届くことも。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人比率が高い。技術面接対策のサポートあり。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数で大手メーカー・事業会社の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">求人保有状況は時期により変動します。<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向け比較</Link>もあわせて参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">求人保有状況は時期により変動します。<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向け比較</Link>もあわせて参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ソニーグループへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手メーカー・ハイクラスに強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -205,7 +205,7 @@ export default function SonyCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "任天堂の転職ガイド", href: "/company/nintendo/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "DeNAの転職ガイド", href: "/company/dena/" }, { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "任天堂の転職ガイド", href: "/company/nintendo/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "DeNAの転職ガイド", href: "/company/dena/" }, { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

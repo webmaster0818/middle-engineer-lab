@@ -139,7 +139,7 @@ export default function RemoteWorkPage() {
 
         {/* 結論ファースト */}
         <section className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：求人票の「リモート可」を鵜呑みにせず、配属チームの実態を確認する</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-2">
               エンジニアのリモート求人は「フルリモート」「ハイブリッド」「リモート可（実態は出社中心）」が混在しています。失敗を避ける鍵は、<strong>求人票の表記だけで判断せず、面接やエージェント経由で「配属予定チームの直近の実出社頻度」を確認すること</strong>です。
@@ -153,7 +153,7 @@ export default function RemoteWorkPage() {
         {/* 目次 */}
         <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ul className="space-y-2 text-sm text-blue-700">
+          <ul className="space-y-2 text-sm text-petrol-deep">
             <li><a href="#diff" className="hover:underline">フルリモートとハイブリッドの違い</a></li>
             <li><a href="#types" className="hover:underline">リモート求人が出やすい企業タイプ</a></li>
             <li><a href="#spot" className="hover:underline">求人票での見極めポイントと落とし穴</a></li>
@@ -265,7 +265,7 @@ export default function RemoteWorkPage() {
               { num: "4", title: "登録面談でリモート希望を最優先条件として伝える", desc: "希望条件は遠慮せず明確に。優先順位の高い順に伝えることで、ミスマッチな求人紹介を減らせます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -276,7 +276,7 @@ export default function RemoteWorkPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            リモート求人に強いエージェントの比較は<Link href="/compare/remote-agents/" className="text-blue-600 hover:underline">リモートワーク対応に強い転職エージェント比較</Link>でまとめています。複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの複数併用ガイド</Link>も参考にしてください。
+            リモート求人に強いエージェントの比較は<Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモートワーク対応に強い転職エージェント比較</Link>でまとめています。複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>も参考にしてください。
           </p>
         </section>
 
@@ -308,7 +308,7 @@ export default function RemoteWorkPage() {
             <ul className="space-y-3">
               {checkItems.map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>
+                  <span className="text-petrol font-bold shrink-0">✓</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -320,17 +320,17 @@ export default function RemoteWorkPage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点でのリモート転職</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：家庭との両立と成長機会のバランス</h3>
-              <p className="text-sm text-blue-700">育児や家事との両立でリモートの恩恵が大きい世代。一方で、リモート中心だと立ち上がりや社内人脈づくりに工夫が要るため、オンボーディング体制が整っているかを重視したい。技術的な成長機会と両立できるかも確認ポイント。</p>
+              <p className="text-sm text-petrol-deep">育児や家事との両立でリモートの恩恵が大きい世代。一方で、リモート中心だと立ち上がりや社内人脈づくりに工夫が要るため、オンボーディング体制が整っているかを重視したい。技術的な成長機会と両立できるかも確認ポイント。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：マネジメント・チームビルディングとの両立</h3>
-              <p className="text-sm text-blue-700">テックリードやマネジメント職を担う場合、リモート前提でのチーム運営経験が評価されやすい。逆に、メンバー育成や1on1を対面で重視する組織ではハイブリッドが選ばれることもある。自分の役割とチームの方針が噛み合うかを見極めたい。</p>
+              <p className="text-sm text-petrol-deep">テックリードやマネジメント職を担う場合、リモート前提でのチーム運営経験が評価されやすい。逆に、メンバー育成や1on1を対面で重視する組織ではハイブリッドが選ばれることもある。自分の役割とチームの方針が噛み合うかを見極めたい。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年収水準の考え方</h3>
-              <p className="text-sm text-blue-700">レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円。勤務形態よりも、企業の給与テーブルとポジションで年収は決まります。リモートだから下がる、と決めつけず、各社の提示条件で比較しましょう。年収交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉ガイド</Link>を参照。</p>
+              <p className="text-sm text-petrol-deep">レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円。勤務形態よりも、企業の給与テーブルとポジションで年収は決まります。リモートだから下がる、と決めつけず、各社の提示条件で比較しましょう。年収交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉ガイド</Link>を参照。</p>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">出典: レバテック公表の年代別平均年収（2025年・正社員SE）。数値は時点により変動します。</p>
@@ -360,7 +360,7 @@ export default function RemoteWorkPage() {
           </p>
           <Link
             href="/compare/remote-agents/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             リモート対応に強いエージェント比較を見る
           </Link>
@@ -380,7 +380,7 @@ export default function RemoteWorkPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -86,7 +86,7 @@ export default function RemoteAllowancePage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             在宅勤務手当（リモート手当）は、在宅勤務に伴う通信費・光熱費・備品費を会社が補助する制度です。<strong>ただし手当の有無だけで企業を選ぶと本質を見失います。</strong>金額は企業ごとに幅が大きく、月額が大きくないことも多いためです。本当に確認すべきは、「そもそもリモートが安定的に認められるか」「費用補助はどんな形か」「課税されるのか」の3点をセットで見ることです。手当があっても在宅自体ができなければ意味がなく、逆に手当がなくてもリモートが認められ実費が小さければ十分なこともあります。本記事では、リモート手当を福利厚生として正しく見極める方法を整理します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 在宅勤務の費用負担を会社に補助してほしい</li>
@@ -99,7 +99,7 @@ export default function RemoteAllowancePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>在宅勤務手当の種類</li>
             <li>課税・非課税の考え方</li>
             <li>求人での見極め方</li>
@@ -114,7 +114,7 @@ export default function RemoteAllowancePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">手当の形態</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">内容と確認ポイント</th>
                 </tr>
@@ -161,7 +161,7 @@ export default function RemoteAllowancePage() {
               { num: "4", title: "課税・非課税と手取りへの影響を確認", desc: "定額手当は課税対象になりやすい点を踏まえ、額面ではなく手取りで考えます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -180,9 +180,9 @@ export default function RemoteAllowancePage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             逆に週数日出社のハイブリッド型では、出社日の通勤費を実費精算しつつ在宅勤務手当も支給する企業もあります。<strong>どちらの制度かは手取りに直結する</strong>ため、内定前に労働条件として確認しましょう。リモートの働き方そのものを深く知りたい場合は
-            <Link href="/purpose/remote-full/" className="text-blue-600 hover:underline">フルリモート勤務ガイド</Link>
+            <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート勤務ガイド</Link>
             、在宅勤務の実態は
-            <Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモートワークの実態</Link>
+            <Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワークの実態</Link>
             も参考にしてください。
           </p>
         </section>
@@ -194,7 +194,7 @@ export default function RemoteAllowancePage() {
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             在宅環境への投資（デスク・チェア・通信環境）は、長く働くうえで生産性と健康に直結します。手当や備品貸与でこの初期投資を軽減できる企業は、エンジニアにとって働きやすさの面で有利です。家庭と仕事の両立は
-            <Link href="/knowledge/family/" className="text-blue-600 hover:underline">家庭と両立するエンジニア転職</Link>
+            <Link href="/knowledge/family/" className="text-petrol hover:underline">家庭と両立するエンジニア転職</Link>
             も合わせてご覧ください。
           </p>
         </section>
@@ -217,7 +217,7 @@ export default function RemoteAllowancePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">リモート手当のある企業を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">在宅勤務の費用補助や制度が整った企業を、IT特化型エージェントが提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -231,7 +231,7 @@ export default function RemoteAllowancePage() {
               { name: "目的別ガイド一覧", href: "/purpose/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

@@ -121,7 +121,7 @@ export default function ResidenceTaxPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -132,7 +132,7 @@ export default function ResidenceTaxPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：住民税で損しないために</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               住民税は<strong>前年の所得に課税される後払いの税金</strong>です。そのため、退職して収入が減った年でも、前年に所得があれば支払いが続きます。これが「辞めた後に住民税の請求が来て驚く」原因です。
             </p>
@@ -168,15 +168,15 @@ export default function ResidenceTaxPage() {
         <section id="methods" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">2つの徴収方法（特別徴収・普通徴収）</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">特別徴収（給与天引き）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 勤務先が毎月の給与から住民税を天引きし、本人に代わって納める方法です。会社員の多くはこの方法で、住民税を意識しないまま納めています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">普通徴収（自分で納付）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 市区町村から届く納付書で本人が自分で納める方法です。年4回程度に分けて納めるのが一般的です。退職して給与天引きができなくなると、こちらに切り替わることがあります。
               </p>
             </div>
@@ -232,7 +232,7 @@ export default function ResidenceTaxPage() {
               { num: "4", title: "転職先での特別徴収継続を検討する", desc: "間を空けずに転職する場合、所定の手続きで転職先での給与天引きを継続できることがあります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -268,7 +268,7 @@ export default function ResidenceTaxPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -288,7 +288,7 @@ export default function ResidenceTaxPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

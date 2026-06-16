@@ -131,9 +131,9 @@ export default function RemoteAreaPage() {
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             このページは、地方に住みながら「フルリモート前提」で転職する人のための戦略ガイドです。リモート求人そのものの探し方は
-            <Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモート求人の探し方・見極め方</Link>
+            <Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモート求人の探し方・見極め方</Link>
             、リモートに強いエージェント比較は
-            <Link href="/compare/remote-agents/" className="text-blue-600 hover:underline">リモートに強いエージェント比較</Link>
+            <Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモートに強いエージェント比較</Link>
             にまとめているため、ここでは重複を避け、<strong>「地方在住者が首都圏のフルリモート求人を取りに行く」</strong>という一点に絞って解説します。
           </p>
           <p className="text-slate-600 leading-relaxed">
@@ -150,7 +150,7 @@ export default function RemoteAreaPage() {
           ]}
         />
 
-        <section className="mb-10 bg-blue-50 border border-blue-100 rounded-xl p-6">
+        <section className="mb-10 bg-petrol-soft border border-blue-100 rounded-xl p-6">
           <h2 className="text-lg font-bold text-blue-900 mb-3">結論：地方在住者の勝ち筋</h2>
           <ul className="space-y-2 text-sm text-blue-900">
             <li>① <strong>「居住地は地方、勤務先は首都圏」</strong>を前提に求人を探す。地元求人に発想を縛らない。</li>
@@ -161,7 +161,7 @@ export default function RemoteAreaPage() {
 
         <nav className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ul className="space-y-1.5 text-sm text-blue-700">
+          <ul className="space-y-1.5 text-sm text-petrol-deep">
             <li><a href="#market" className="hover:underline">地方在住×フルリモート転職の特徴</a></li>
             <li><a href="#fit" className="hover:underline">向いている人・向いていない人</a></li>
             <li><a href="#strategy" className="hover:underline">フルリモート前提の転職の進め方</a></li>
@@ -195,7 +195,7 @@ export default function RemoteAreaPage() {
               <h3 className="font-bold text-slate-800 mb-2">3. 「見せかけのリモート」を見抜く必要がある</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 求人票に「リモートOK」とあっても、実態は週数回出社や、試用期間後に出社必須というケースがあります。地方在住者にとっては死活問題なので、リモートの頻度・恒久性・将来の方針をエージェント経由で必ず確認しましょう。見極めの具体策は
-                <Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモート求人の探し方・見極め方</Link>
+                <Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモート求人の探し方・見極め方</Link>
                 を参照してください。
               </p>
             </div>
@@ -235,24 +235,24 @@ export default function RemoteAreaPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">1</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
                 <p className="text-sm text-slate-600"><strong>「フルリモート必須」を条件として固定:</strong> 居住地は変えない前提で、フルリモート可否を妥協しない条件として最初に設定する。曖昧なまま進めると出社前提の求人に流される。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">2</span>
-                <p className="text-sm text-slate-600"><strong>リモート適性が伝わる職務経歴に整える:</strong> 自走で進めた案件、非同期で連携した経験、成果物（GitHub・設計資料等）を前面に。<Link href="/knowledge/self-analysis/" className="text-blue-600 hover:underline">自己分析</Link>で棚卸しを。</p>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
+                <p className="text-sm text-slate-600"><strong>リモート適性が伝わる職務経歴に整える:</strong> 自走で進めた案件、非同期で連携した経験、成果物（GitHub・設計資料等）を前面に。<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析</Link>で棚卸しを。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">3</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
                 <p className="text-sm text-slate-600"><strong>全国対応のIT特化エージェントへ登録:</strong> 居住地とフルリモート希望を初回面談で明言。地方在住OKの首都圏求人を優先的に出してもらう。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">4</span>
-                <p className="text-sm text-slate-600"><strong>リモートの実態を確認:</strong> 内定前に「出社頻度・恒久性・将来の方針」をエージェント経由で確認。見せかけのリモートを避ける。<Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">見極め方</Link>も参照。</p>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">4</span>
+                <p className="text-sm text-slate-600"><strong>リモートの実態を確認:</strong> 内定前に「出社頻度・恒久性・将来の方針」をエージェント経由で確認。見せかけのリモートを避ける。<Link href="/knowledge/remote-work/" className="text-petrol hover:underline">見極め方</Link>も参照。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">5</span>
-                <p className="text-sm text-slate-600"><strong>複数オファーを内訳で比較:</strong> 額面だけでなく、リモート手当・通信費補助・評価制度を含めて比較。<Link href="/compare/remote-agents/" className="text-blue-600 hover:underline">リモートに強いエージェント比較</Link>で併用先を選ぶ。</p>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">5</span>
+                <p className="text-sm text-slate-600"><strong>複数オファーを内訳で比較:</strong> 額面だけでなく、リモート手当・通信費補助・評価制度を含めて比較。<Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモートに強いエージェント比較</Link>で併用先を選ぶ。</p>
               </div>
             </div>
           </div>
@@ -273,7 +273,7 @@ export default function RemoteAreaPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
             注意点として、企業によってはフルリモートでも勤務地や居住地に応じた手当差を設ける場合があります。「フルリモートだから必ず首都圏と同額」とは断定できません。各オファーの内訳を確認し、生活コスト差も含めた実質可処分所得で判断するのが現実的です。具体的な交渉は
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>
             を参照してください。
           </p>
         </section>
@@ -282,15 +282,15 @@ export default function RemoteAreaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">対応エージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             地方在住からフルリモート前提で動くなら、全国対応のIT特化エージェントが軸になります。以下は当サイトのデータシートに基づく対応エージェントです（数値は時点付き）。リモート特化の比較は
-            <Link href="/compare/remote-agents/" className="text-blue-600 hover:underline">専用比較ページ</Link>
+            <Link href="/compare/remote-agents/" className="text-petrol hover:underline">専用比較ページ</Link>
             も併せてご覧ください。
           </p>
           <div className="space-y-4">
             {agents.map((a, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {a.name}</h3>
-                <p className="text-sm text-blue-700 leading-relaxed mb-2">{a.point}</p>
-                <Link href={a.href} className="text-sm font-medium text-blue-700 hover:underline">
+                <p className="text-sm text-petrol-deep leading-relaxed mb-2">{a.point}</p>
+                <Link href={a.href} className="text-sm font-medium text-petrol-deep hover:underline">
                   {a.name}の詳細レビューを見る →
                 </Link>
               </div>
@@ -308,7 +308,7 @@ export default function RemoteAreaPage() {
               <h3 className="font-bold text-slate-800 mb-2">30代：自走力と実績でリモート求人を取りに行く</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 30代は実装力と自走力のバランスが評価され、フルリモート求人で歓迎されやすい層です。地方在住という制約をデメリットにせず、「リモートでも成果を出してきた」実績を具体的に語れるかが鍵。居住地を変えずにキャリアと年収を伸ばす好機です。
-                <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職戦略</Link>
+                <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職戦略</Link>
                 も参考に。
               </p>
             </div>
@@ -316,9 +316,9 @@ export default function RemoteAreaPage() {
               <h3 className="font-bold text-slate-800 mb-2">40代：設計・リードの経験を非同期で示す</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 40代は求人が絞られる一方、フルリモートで設計・テックリード・マネジメントを担える人材は重宝されます。テキストベースでチームを動かした経験、ドキュメントで設計を共有した実績などを整理すると、地方在住でも評価が下がりにくくなります。
-                <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職戦略</Link>
+                <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職戦略</Link>
                 や
-                <Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代転職のリアル</Link>
+                <Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代転職のリアル</Link>
                 も確認を。
               </p>
             </div>
@@ -347,7 +347,7 @@ export default function RemoteAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -360,7 +360,7 @@ export default function RemoteAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

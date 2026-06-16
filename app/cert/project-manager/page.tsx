@@ -119,7 +119,7 @@ export default function ProjectManagerCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -130,7 +130,7 @@ export default function ProjectManagerCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PM試験は誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               プロジェクトマネージャ試験は<strong>「PM経験者の上流マネジメントを証明する加点資格」</strong>です。午後Ⅱの論述で自身のプロジェクト管理経験を論じる必要があるため、<strong>そもそも実務経験のあるミドルを想定した構造</strong>になっています（合格者平均年齢38.1歳）。すでにリーダー・PMを経験した30〜40代に最も効きます。
             </p>
@@ -213,7 +213,7 @@ export default function ProjectManagerCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            両方の比較や受験資格の詳細は<Link href="/cert/pmp/" className="text-blue-600 hover:underline">PMP資格と転職</Link>のページも参考にしてください。国内SIerや公共系のPM職を狙うならIPAのPM試験、外資・グローバル案件を視野に入れるならPMPが効きやすい傾向です。
+            両方の比較や受験資格の詳細は<Link href="/cert/pmp/" className="text-petrol hover:underline">PMP資格と転職</Link>のページも参考にしてください。国内SIerや公共系のPM職を狙うならIPAのPM試験、外資・グローバル案件を視野に入れるならPMPが効きやすい傾向です。
           </p>
         </section>
 
@@ -272,7 +272,7 @@ export default function ProjectManagerCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            マネジメント方向は<Link href="/skill/pm/" className="text-blue-600 hover:underline">PM（プロジェクトマネージャー）転職ガイド</Link>、キャリアの考え方は<Link href="/knowledge/management/" className="text-blue-600 hover:underline">マネジメントへのキャリア</Link>を参考にしてください。
+            マネジメント方向は<Link href="/skill/pm/" className="text-petrol hover:underline">PM（プロジェクトマネージャー）転職ガイド</Link>、キャリアの考え方は<Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメントへのキャリア</Link>を参考にしてください。
           </p>
         </section>
 
@@ -287,7 +287,7 @@ export default function ProjectManagerCertPage() {
               一方で過度な期待は禁物です。PM試験を取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「PM実務経験 × 資格」の掛け算</strong>のとき。担当した案件の規模・役割と組み合わせて初めて、上流PMポジションや資格手当という形で結実します。グローバル案件を視野に入れるなら、午前Ⅰ免除やこの経験を土台にPMPへ広げるのも有効です。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -302,7 +302,7 @@ export default function ProjectManagerCertPage() {
               { n: "STEP 3", t: "合格→PMP併取得・上位へ", d: "合格後2年間の午前Ⅰ免除を活かしつつ、グローバル志向ならPMP併取得で評価の幅を広げる。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -311,7 +311,7 @@ export default function ProjectManagerCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            前段の基礎が不安なら<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>から、グローバル志向なら<Link href="/cert/pmp/" className="text-blue-600 hover:underline">PMP</Link>、上流設計を深めるなら<Link href="/cert/system-architect/" className="text-blue-600 hover:underline">システムアーキテクト</Link>との組み合わせも有効です。
+            前段の基礎が不安なら<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>から、グローバル志向なら<Link href="/cert/pmp/" className="text-petrol hover:underline">PMP</Link>、上流設計を深めるなら<Link href="/cert/system-architect/" className="text-petrol hover:underline">システムアーキテクト</Link>との組み合わせも有効です。
           </p>
         </section>
 
@@ -339,7 +339,7 @@ export default function ProjectManagerCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -359,7 +359,7 @@ export default function ProjectManagerCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

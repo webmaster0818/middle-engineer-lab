@@ -123,7 +123,7 @@ export default function AccentureCompanyPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -131,13 +131,13 @@ export default function AccentureCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんな人向きか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 text-sm leading-relaxed mb-3">
               <strong>結論：</strong>アクセンチュアは「テクノロジー×コンサルの市場価値」を一気に高めたいエンジニアに向く企業です。エンジニア職は戦略系と別フローで募集され、ケース面接が課されないケースが多い一方、能力・経験・人柄を深く見られます。
             </p>
             <ul className="space-y-1.5 text-sm text-slate-600">
               <li>・<strong>向いている人</strong>：クラウド/DXの実務経験者、業界ドメインを持つエンジニア、成長環境と国際性を求める人</li>
-              <li>・<strong>向いていない人</strong>：腰を据えて一つのプロダクトを内製で長く育てたい人（<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWeb系への転職</Link>も検討）</li>
+              <li>・<strong>向いていない人</strong>：腰を据えて一つのプロダクトを内製で長く育てたい人（<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>も検討）</li>
               <li>・<strong>難易度の目安</strong>：転職メディアでは中〜やや高めと評されます（職種により差）。</li>
             </ul>
           </div>
@@ -164,9 +164,9 @@ export default function AccentureCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
             {features.map((f, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{f.h}</h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{f.p}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{f.p}</p>
               </div>
             ))}
           </div>
@@ -179,11 +179,11 @@ export default function AccentureCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ソフトウェアエンジニアリング／フロントエンジニア</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>クラウド（業界横断のクラウド変革支援）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>AI／データサイエンス</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>SAP／Salesforce（パッケージ導入・CRM）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>セキュリティ／テクノロジープラットフォーム</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ソフトウェアエンジニアリング／フロントエンジニア</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド（業界横断のクラウド変革支援）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>AI／データサイエンス</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>SAP／Salesforce（パッケージ導入・CRM）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>セキュリティ／テクノロジープラットフォーム</li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">※出典：アクセンチュア公式「採用職種・領域」ページ。各求人票の記載が一次情報です。</p>
@@ -207,7 +207,7 @@ export default function AccentureCompanyPage() {
           <ol className="space-y-3">
             {flow.map((step, i) => (
               <li key={i} className="flex items-start gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                 <span className="text-sm text-slate-700 pt-1">{step}</span>
               </li>
             ))}
@@ -220,10 +220,10 @@ export default function AccentureCompanyPage() {
             公式採用ブログ・口コミの傾向から、面接では次のような点が確認されやすいと考えられます（傾向の整理であり質問の断定ではありません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>これまでの技術経験と、入社後の具体的な貢献イメージ</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>論理的に考え、相手に分かりやすく伝える力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>クラウド/DXプロジェクト推進の実績</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>変化への適応力・成長意欲（カルチャーフィット）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>これまでの技術経験と、入社後の具体的な貢献イメージ</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>論理的に考え、相手に分かりやすく伝える力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>クラウド/DXプロジェクト推進の実績</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>変化への適応力・成長意欲（カルチャーフィット）</li>
           </ul>
           <p className="text-xs text-slate-400 mt-2">※エンジニア職ではケース面接が課されないケースが多いとされます。質問内容は時期・面接官・ポジションで変わります。</p>
         </section>
@@ -261,7 +261,7 @@ export default function AccentureCompanyPage() {
               30代・40代のミドルエンジニアにとってアクセンチュアは、クラウド/DXの実務経験や業界ドメインを「テクノロジー×コンサル」の市場価値に転換できる場です。アクセンチュア出身という経歴は、その後の転職市場でも評価されやすいのがミドル層にとっての大きな魅力です。マネジメント志向ならマネージャー以上のポジションでの採用強化の動きも追い風になります。
             </p>
             <p>
-              一方で、キャッチアップ負荷や繁忙度はプロジェクト次第という声があるため、体力・働き方の許容範囲を見極めることが重要です。年収は職位別の年俸で提示されるため、オファー面談で具体額を必ず確認しましょう。年代別の相場感は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収</Link>も参考になります。
+              一方で、キャッチアップ負荷や繁忙度はプロジェクト次第という声があるため、体力・働き方の許容範囲を見極めることが重要です。年収は職位別の年俸で提示されるため、オファー面談で具体額を必ず確認しましょう。年代別の相場感は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -274,13 +274,13 @@ export default function AccentureCompanyPage() {
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でコンサル×エンジニアポジションの提案に強み。" },
               { name: "doda(IT)", href: "/review/doda-it/", desc: "求人網羅性が高く、各部門の求人を幅広く保有。初めての転職にも。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500 leading-relaxed">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数併用のコツ</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数併用のコツ</Link>を参照。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -301,7 +301,7 @@ export default function AccentureCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">アクセンチュアへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">コンサル×テクノロジーの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/bizreach-it/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/bizreach-it/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -315,7 +315,7 @@ export default function AccentureCompanyPage() {
               { name: "SIerからWeb系への転職", href: "/industry/sier-to-web/" },
               { name: "40代エンジニアの年収", href: "/knowledge/salary-40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

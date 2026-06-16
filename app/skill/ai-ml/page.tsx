@@ -113,7 +113,7 @@ export default function AiMlSkillPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -124,7 +124,7 @@ export default function AiMlSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AI・MLエンジニア転職の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               AI・機械学習領域は「求人DBに大量の検索結果が並ぶ職種」ではなく、<strong>企業ごとに求める実装フェーズが大きく異なる職種</strong>です。だからこそ、求人サイトを眺めるより「自分の実装範囲（試作なのか本番運用なのか）を言語化し、それに合う企業へ狙い撃ちする」ほうが成功率が上がります。攻め方は次の3点です。
             </p>
@@ -194,21 +194,21 @@ export default function AiMlSkillPage() {
         <section id="career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスの選択肢</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">MLエンジニア / MLOps路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 機械学習モデルを本番で安定稼働させる基盤を作る役割。モデルのデプロイ・監視・再学習パイプライン構築が中心で、ソフトウェアエンジニアリングの経験が強く活きます。バックエンド/インフラ出身者が最も入りやすいルートです。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">LLMアプリケーション開発路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 生成AIを組み込んだ機能・プロダクトを設計・実装する役割。RAG構成、プロンプト・評価設計、コストとレイテンシの最適化が求められます。2026年現在、未経験職種からの参入余地が比較的大きいテーマです。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">リサーチ / AI事業責任者路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 最先端研究の応用を担うリサーチ職や、AI活用の方針を決めるリード・責任者へ。論文読解・実装力、あるいは技術とビジネスの橋渡し力が問われます。30代後半〜40代では、後者のマネジメント寄りに強みを出す人が多い領域です。
               </p>
             </div>
@@ -225,21 +225,21 @@ export default function AiMlSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT特化エージェント）</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化で高年収求人比率が高く（600万円以上が公開求人の約8割との二次情報）、AI/MLやMLOpsの専門ポジションを扱う。技術理解のあるアドバイザーに相談しやすいのが利点です。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、外資系テックやAIスタートアップのスカウトが届きやすい。市場価値を客観的に測る用途でも有効です。</p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（IT/Web/ゲーム特化）</h3>
               <p className="text-sm text-slate-600 mb-2">提案スピードが速く、SaaS・メガベンチャーのAI活用ポジションに強い。実務経験者への提案数が多いとの評判が見られます。</p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">Geeklyの詳細レビュー →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの複数併用ガイド</Link>、各社の比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント比較</Link>も参考にしてください。
+            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>、各社の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>も参考にしてください。
           </p>
         </section>
 
@@ -256,7 +256,7 @@ export default function AiMlSkillPage() {
               { n: "3", t: "成果物を外に出す", d: "Kaggle参加、GitHubでの公開、技術ブログでの再現実装など、第三者が検証できる形でアウトプットする。30代以降は『学習中』より『作った』を見せるのが効きます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.n}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.t}</h3>
                   <p className="text-sm text-slate-600">{item.d}</p>
@@ -277,7 +277,7 @@ export default function AiMlSkillPage() {
               一方で注意したいのは、「研究色の濃いリサーチサイエンティスト職」を未経験から狙うと、専門特化の若手・修士博士層と正面衝突しやすい点です。30代・40代は<strong>MLOps・データ基盤・LLMアプリ開発・AIプロジェクトのリード</strong>といった、既存経験が複利で効くポジションに照準を合わせると勝率が上がります。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              年代別の市場感は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職事情</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>もあわせてどうぞ。
+              年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>もあわせてどうぞ。
             </p>
           </div>
         </section>
@@ -299,7 +299,7 @@ export default function AiMlSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            学び続ける習慣づくりは<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの継続学習</Link>、成果物の作り方は<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>も参考になります。
+            学び続ける習慣づくりは<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続学習</Link>、成果物の作り方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>も参考になります。
           </p>
         </section>
 
@@ -327,7 +327,7 @@ export default function AiMlSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -347,7 +347,7 @@ export default function AiMlSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -360,8 +360,8 @@ export default function AiMlSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/canon/" className="text-blue-700 hover:underline">キヤノン</a></li><li><a href="/company/fujifilm/" className="text-blue-700 hover:underline">富士フイルム</a></li><li><a href="/company/ibm/" className="text-blue-700 hover:underline">日本IBM</a></li><li><a href="/company/nec/" className="text-blue-700 hover:underline">NEC</a></li><li><a href="/company/omron/" className="text-blue-700 hover:underline">オムロン</a></li><li><a href="/company/preferred-networks/" className="text-blue-700 hover:underline">Preferred Networks（PFN）</a></li><li><a href="/company/smartnews/" className="text-blue-700 hover:underline">SmartNews</a></li><li><a href="/company/softbank/" className="text-blue-700 hover:underline">ソフトバンク</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/canon/" className="text-petrol-deep hover:underline">キヤノン</a></li><li><a href="/company/fujifilm/" className="text-petrol-deep hover:underline">富士フイルム</a></li><li><a href="/company/ibm/" className="text-petrol-deep hover:underline">日本IBM</a></li><li><a href="/company/nec/" className="text-petrol-deep hover:underline">NEC</a></li><li><a href="/company/omron/" className="text-petrol-deep hover:underline">オムロン</a></li><li><a href="/company/preferred-networks/" className="text-petrol-deep hover:underline">Preferred Networks（PFN）</a></li><li><a href="/company/smartnews/" className="text-petrol-deep hover:underline">SmartNews</a></li><li><a href="/company/softbank/" className="text-petrol-deep hover:underline">ソフトバンク</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

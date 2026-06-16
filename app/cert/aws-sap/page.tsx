@@ -114,7 +114,7 @@ export default function CertAwsSapPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -125,7 +125,7 @@ export default function CertAwsSapPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SAPは誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               SAPは<strong>上流・アーキテクト職で評価される難関上位資格</strong>です。最も効くのは<strong>「設計・移行の実務 × プロフェッショナル認定」</strong>の掛け算で、複雑な環境の設計判断を任される立場で価値が出ます。入門資格ではなく、専門性を一段引き上げるための資格です。
             </p>
@@ -192,7 +192,7 @@ export default function CertAwsSapPage() {
               一方で過度な期待は禁物です。SAPは<strong>難関ではあるものの、それ単体で年収が跳ねる資格ではありません</strong>。価値が出るのは<strong>「設計・移行実務 × プロフェッショナル認定」の掛け算</strong>のとき。アーキテクト・上流ポジションへの配置や、より複雑な案件のアサインという形で結実します。逆に言えば、すでに設計実務があり上流を目指すミドルにとっては、投資する価値が明確な資格です。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSエンジニア転職ガイド</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -234,7 +234,7 @@ export default function CertAwsSapPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            自動化・基盤運用の方向は<Link href="/skill/devops/" className="text-blue-600 hover:underline">DevOpsエンジニア転職ガイド</Link>、インフラ全般は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>も参考にしてください。
+            自動化・基盤運用の方向は<Link href="/skill/devops/" className="text-petrol hover:underline">DevOpsエンジニア転職ガイド</Link>、インフラ全般は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>も参考にしてください。
           </p>
         </section>
 
@@ -248,7 +248,7 @@ export default function CertAwsSapPage() {
               { n: "STEP 3", t: "合格→アーキテクト職へ", d: "合格後はアーキテクト・移行リードの実務で深め、専門分野の認定へ横展開する。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -257,7 +257,7 @@ export default function CertAwsSapPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            土台が不安なら<Link href="/cert/aws-saa/" className="text-blue-600 hover:underline">AWS認定SAA（アソシエイト）</Link>から、開発寄りなら<Link href="/cert/aws-dva/" className="text-blue-600 hover:underline">AWS認定DVA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-blue-600 hover:underline">AWS認定SOA</Link>も併せて検討してください。
+            土台が不安なら<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定SAA（アソシエイト）</Link>から、開発寄りなら<Link href="/cert/aws-dva/" className="text-petrol hover:underline">AWS認定DVA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-petrol hover:underline">AWS認定SOA</Link>も併せて検討してください。
           </p>
         </section>
 
@@ -285,7 +285,7 @@ export default function CertAwsSapPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -305,7 +305,7 @@ export default function CertAwsSapPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

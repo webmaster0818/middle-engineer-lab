@@ -114,7 +114,7 @@ export default function CertAzureFundamentalsPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -125,7 +125,7 @@ export default function CertAzureFundamentalsPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AZ-900は誰に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               AZ-900は<strong>入門資格</strong>です。Microsoft自身が『Azureキャリアの一般的な出発点』と位置づけており、転職の決め手というより<strong>「これからAzureを学ぶための土台と姿勢の証明」</strong>として捉えるのが正直なところです。経験者は上位資格の前段として活用するのが現実的です。
             </p>
@@ -194,7 +194,7 @@ export default function CertAzureFundamentalsPage() {
               もう一つ正直に補足すると、転職市場でAZ-900そのものが応募要件に挙がることは多くありません。求人で求められるのは多くの場合、AZ-104以上のロールベース認定や実務経験です。だからこそAZ-900は「履歴書を飾る一行」ではなく、「これから本格的に学ぶための地図」として使うのが賢明です。クラウドの料金モデルやガバナンス、共有責任モデルといった概念を先に押さえておけば、その後のAZ-104の学習や、実際のクラウド移行プロジェクトでの会話が一段スムーズになります。入門資格の価値は、合格そのものより、その先の学習を加速させる点にあります。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/azure/" className="text-blue-600 hover:underline">Azureエンジニア転職ガイド</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/azure/" className="text-petrol hover:underline">Azureエンジニア転職ガイド</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -236,7 +236,7 @@ export default function CertAzureFundamentalsPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            インフラの土台は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>、クラウド職種は<Link href="/skill/azure/" className="text-blue-600 hover:underline">Azureエンジニア転職ガイド</Link>も参考にしてください。
+            インフラの土台は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>、クラウド職種は<Link href="/skill/azure/" className="text-petrol hover:underline">Azureエンジニア転職ガイド</Link>も参考にしてください。
           </p>
         </section>
 
@@ -250,7 +250,7 @@ export default function CertAzureFundamentalsPage() {
               { n: "STEP 3", t: "合格→AZ-104など上位へ", d: "全体像を掴んだら、ロールベース認定のAZ-104（Azure管理者）へ進み実装力を示す。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -259,7 +259,7 @@ export default function CertAzureFundamentalsPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            次の一手は<Link href="/cert/azure-administrator/" className="text-blue-600 hover:underline">Azure Administrator（AZ-104）</Link>。AWSと比較検討するなら<Link href="/cert/aws-saa/" className="text-blue-600 hover:underline">AWS認定SAA</Link>も併せてご覧ください。
+            次の一手は<Link href="/cert/azure-administrator/" className="text-petrol hover:underline">Azure Administrator（AZ-104）</Link>。AWSと比較検討するなら<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定SAA</Link>も併せてご覧ください。
           </p>
         </section>
 
@@ -287,7 +287,7 @@ export default function CertAzureFundamentalsPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -307,7 +307,7 @@ export default function CertAzureFundamentalsPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

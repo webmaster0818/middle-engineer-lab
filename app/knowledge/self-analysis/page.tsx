@@ -109,7 +109,7 @@ export default function SelfAnalysisPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -149,7 +149,7 @@ export default function SelfAnalysisPage() {
               { num: "4", title: "ストーリーに統合する", desc: "強み・実績・価値観・方向性を1本の物語にまとめ、書類と面接の回答に落とし込む（→ セクション8）。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -185,7 +185,7 @@ export default function SelfAnalysisPage() {
               ))}
             </div>
           </div>
-          <p className="text-xs text-slate-400 mt-3">※ 成果の数値化の具体例は<Link href="/knowledge/resume/" className="text-blue-600 underline">職務経歴書の書き方</Link>のフレーズ集が使えます。</p>
+          <p className="text-xs text-slate-400 mt-3">※ 成果の数値化の具体例は<Link href="/knowledge/resume/" className="text-petrol underline">職務経歴書の書き方</Link>のフレーズ集が使えます。</p>
         </section>
 
         {/* 4. WCM */}
@@ -196,7 +196,7 @@ export default function SelfAnalysisPage() {
           </p>
           <div className="grid gap-4 sm:grid-cols-3">
             {[
-              { t: "Will（やりたい）", d: "技術的な興味・挑戦したい領域・なりたい姿。例：『大規模分散システムの設計に深く関わりたい』", c: "bg-blue-50 text-blue-800" },
+              { t: "Will（やりたい）", d: "技術的な興味・挑戦したい領域・なりたい姿。例：『大規模分散システムの設計に深く関わりたい』", c: "bg-petrol-soft text-blue-800" },
               { t: "Can（できる）", d: "実務経験のあるスキル・実績・周囲に頼られること。棚卸しワークシートから抽出する。", c: "bg-emerald-50 text-emerald-800" },
               { t: "Must（求められる）", d: "求人市場でニーズが高い技術・役割。エージェント面談で客観的に把握する。", c: "bg-amber-50 text-amber-800" },
             ].map((w, i) => (
@@ -207,7 +207,7 @@ export default function SelfAnalysisPage() {
             ))}
           </div>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-4">
-            <p className="text-sm text-slate-600"><strong>重なりの読み解き方：</strong>Will×Canだけで動くと『やりたいけど需要がない』、Can×Mustだけだと『できるけど情熱が続かない』。3つが重なる領域こそ、長く伸ばせるキャリアの軸です。Mustはひとりではわかりにくいので<Link href="/knowledge/market-value/" className="text-blue-600 underline">市場価値の調べ方</Link>も併用しましょう。</p>
+            <p className="text-sm text-slate-600"><strong>重なりの読み解き方：</strong>Will×Canだけで動くと『やりたいけど需要がない』、Can×Mustだけだと『できるけど情熱が続かない』。3つが重なる領域こそ、長く伸ばせるキャリアの軸です。Mustはひとりではわかりにくいので<Link href="/knowledge/market-value/" className="text-petrol underline">市場価値の調べ方</Link>も併用しましょう。</p>
           </div>
         </section>
 
@@ -227,7 +227,7 @@ export default function SelfAnalysisPage() {
                 "谷に共通する条件は何か → 次の職場で避けたいもの",
               ].map((t, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-600">
-                  <span className="text-blue-600 font-bold shrink-0">Q{i + 1}.</span>{t}
+                  <span className="text-petrol font-bold shrink-0">Q{i + 1}.</span>{t}
                 </li>
               ))}
             </ul>
@@ -250,7 +250,7 @@ export default function SelfAnalysisPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            選んだ価値観は、求人を比較する際のスコアリング基準にもなります。例えば『裁量＞年収＞WLB』の人と『年収＞安定＞WLB』の人では、同じ求人でも最適解が変わります。関連: <Link href="/knowledge/work-life-balance/" className="text-blue-600 underline">ワークライフバランス</Link>。
+            選んだ価値観は、求人を比較する際のスコアリング基準にもなります。例えば『裁量＞年収＞WLB』の人と『年収＞安定＞WLB』の人では、同じ求人でも最適解が変わります。関連: <Link href="/knowledge/work-life-balance/" className="text-petrol underline">ワークライフバランス</Link>。
           </p>
         </section>
 
@@ -279,17 +279,17 @@ export default function SelfAnalysisPage() {
         <section id="apply" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">8. 分析結果を転職活動に活かす</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">職務経歴書の自己PRに反映</h3>
-              <p className="text-sm text-blue-700">棚卸しで出た『強み＋数値実績』をそのまま自己PRの軸にします。書き方は<Link href="/knowledge/resume/" className="text-blue-700 underline">職務経歴書の書き方</Link>へ。</p>
+              <p className="text-sm text-petrol-deep">棚卸しで出た『強み＋数値実績』をそのまま自己PRの軸にします。書き方は<Link href="/knowledge/resume/" className="text-petrol-deep underline">職務経歴書の書き方</Link>へ。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">志望動機・面接回答の一貫性に反映</h3>
-              <p className="text-sm text-blue-700">Will-Can-Mustと価値観を使い、『なぜ転職するか・なぜこの会社か・今後どうなりたいか』を一本の線でつなぎます。関連: <Link href="/knowledge/motivation/" className="text-blue-700 underline">志望動機の作り方</Link>。</p>
+              <p className="text-sm text-petrol-deep">Will-Can-Mustと価値観を使い、『なぜ転職するか・なぜこの会社か・今後どうなりたいか』を一本の線でつなぎます。関連: <Link href="/knowledge/motivation/" className="text-petrol-deep underline">志望動機の作り方</Link>。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">エージェント面談で軸を共有</h3>
-              <p className="text-sm text-blue-700">価値観の優先順位を伝えると、ミスマッチの少ない求人を紹介してもらえます。関連: <Link href="/knowledge/agent-first-meeting/" className="text-blue-700 underline">初回面談の準備</Link>。</p>
+              <p className="text-sm text-petrol-deep">価値観の優先順位を伝えると、ミスマッチの少ない求人を紹介してもらえます。関連: <Link href="/knowledge/agent-first-meeting/" className="text-petrol-deep underline">初回面談の準備</Link>。</p>
             </div>
           </div>
         </section>
@@ -298,13 +298,13 @@ export default function SelfAnalysisPage() {
         <section id="age" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">9. 30代・40代の自己分析の勘所</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：方向性の『選択』を意識する</h3>
-              <p className="text-sm text-blue-700">30代は専門を深めるか、マネジメントへ広げるかの分岐点です。棚卸しで『どちらに手応えを感じたか』を見極めると判断しやすくなります。関連: <Link href="/knowledge/career-plan/" className="text-blue-700 underline">キャリアプラン設計</Link>。</p>
+              <p className="text-sm text-petrol-deep">30代は専門を深めるか、マネジメントへ広げるかの分岐点です。棚卸しで『どちらに手応えを感じたか』を見極めると判断しやすくなります。関連: <Link href="/knowledge/career-plan/" className="text-petrol-deep underline">キャリアプラン設計</Link>。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：『再現性』と『譲れない価値観』を明確に</h3>
-              <p className="text-sm text-blue-700">40代は成果の再現性（どんな状況でも価値を出せること）が問われます。同時に、長く働くために譲れない価値観をはっきりさせると、後悔の少ない選択ができます。関連: <Link href="/knowledge/40s-reality/" className="text-blue-700 underline">40代転職のリアル</Link>。</p>
+              <p className="text-sm text-petrol-deep">40代は成果の再現性（どんな状況でも価値を出せること）が問われます。同時に、長く働くために譲れない価値観をはっきりさせると、後悔の少ない選択ができます。関連: <Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアル</Link>。</p>
             </div>
           </div>
         </section>
@@ -329,7 +329,7 @@ export default function SelfAnalysisPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">自己分析の『Must』をプロに確かめよう</h2>
           <p className="text-blue-100 text-sm mb-4">市場が求めること（Must）は自分では把握しにくいもの。IT特化型エージェントの面談で、客観的な市場価値とニーズを確認できます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -345,7 +345,7 @@ export default function SelfAnalysisPage() {
               { name: "エージェントとの初回面談", href: "/knowledge/agent-first-meeting/" },
               { name: "ワークライフバランス", href: "/knowledge/work-life-balance/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

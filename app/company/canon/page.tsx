@@ -108,7 +108,7 @@ export default function CanonCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               キヤノンは<strong>光学・画像・組込みという中核技術を持ち、そこにAI（ディープラーニング）・画像処理を掛け合わせて製品化する精密大手</strong>です。ハードウェアと密結合したソフトウェア開発や、画像系AIの実装に関わりたいエンジニアに向きます。
@@ -126,7 +126,7 @@ export default function CanonCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -152,17 +152,17 @@ export default function CanonCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">光学・画像・組込みの中核技術</h3>
-              <p className="text-sm text-blue-700">複合機・カメラ・半導体露光装置など、ハードウェアと密結合したソフトウェア開発が中心です。マイコン・RTOSを用いた組込みファームウェア開発が製品の品質を支えており、C/C++での製品開発経験が評価されます。</p>
+              <p className="text-sm text-petrol-deep">複合機・カメラ・半導体露光装置など、ハードウェアと密結合したソフトウェア開発が中心です。マイコン・RTOSを用いた組込みファームウェア開発が製品の品質を支えており、C/C++での製品開発経験が評価されます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">画像系AI・ディープラーニングの実装</h3>
-              <p className="text-sm text-blue-700">公式の「AI・画像処理技術開発」職では、映像/画像/ドキュメントに関するAI技術（ディープラーニング、強化学習、データマイニング）、高画質化技術、3D技術などの開発が募集されています。画像処理とAIを掛け合わせた実装力が強みになります。</p>
+              <p className="text-sm text-petrol-deep">公式の「AI・画像処理技術開発」職では、映像/画像/ドキュメントに関するAI技術（ディープラーニング、強化学習、データマイニング）、高画質化技術、3D技術などの開発が募集されています。画像処理とAIを掛け合わせた実装力が強みになります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">大手メーカーの安定基盤</h3>
-              <p className="text-sm text-blue-700">グローバルに展開する精密・電機大手として安定した事業基盤と福利厚生を持ちます。製品開発の上流から下流まで幅広く携われる一方、伝統的なものづくり文化の中での開発スタイルが基本です（口コミ傾向）。</p>
+              <p className="text-sm text-petrol-deep">グローバルに展開する精密・電機大手として安定した事業基盤と福利厚生を持ちます。製品開発の上流から下流まで幅広く携われる一方、伝統的なものづくり文化の中での開発スタイルが基本です（口コミ傾向）。</p>
             </div>
           </div>
         </section>
@@ -174,11 +174,11 @@ export default function CanonCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>組込みソフトウェア</strong>：複合機・プリンター・カメラ等の組込みファームウェア開発（C/C++、マイコン、RTOS）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AI・画像処理</strong>：ディープラーニング・強化学習・データマイニング・パターン認識、高画質化技術（Python等）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>3D・メディカル技術</strong>：イメージング・メディカル製品向け3D技術開発</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>制御・通信</strong>：制御ソフト、組込みネットワーク／セキュリティ、デバイスドライバー</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>システム開発</strong>：グループのITソリューション・業務システム開発（グループ会社）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>組込みソフトウェア</strong>：複合機・プリンター・カメラ等の組込みファームウェア開発（C/C++、マイコン、RTOS）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI・画像処理</strong>：ディープラーニング・強化学習・データマイニング・パターン認識、高画質化技術（Python等）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>3D・メディカル技術</strong>：イメージング・メディカル製品向け3D技術開発</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>制御・通信</strong>：制御ソフト、組込みネットワーク／セキュリティ、デバイスドライバー</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>システム開発</strong>：グループのITソリューション・業務システム開発（グループ会社）</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: キヤノン公式 採用ページ（職種別求人・キャリア採用、2026年6月時点）。具体的な必須スキルは各求人の募集要項をご確認ください。</p>
@@ -216,7 +216,7 @@ export default function CanonCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            キヤノンのキャリア採用ページ・採用管理システムで公開されている一般的な流れです。最新の内容は<a href="https://hrmos.co/pages/canon/jobs" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
+            キヤノンのキャリア採用ページ・採用管理システムで公開されている一般的な流れです。最新の内容は<a href="https://hrmos.co/pages/canon/jobs" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>募集要項の確認・応募（エントリー）</li>
@@ -234,12 +234,12 @@ export default function CanonCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>組込み（C/C++・RTOS）や画像処理・AIなど募集領域における実務経験と専門性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>製品開発の上流から下流まで関わる姿勢、品質への意識</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ハードウェアと連携したソフトウェア開発・制約条件下での設計力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>チームでの協働姿勢とものづくりへの理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>組込み（C/C++・RTOS）や画像処理・AIなど募集領域における実務経験と専門性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>製品開発の上流から下流まで関わる姿勢、品質への意識</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ハードウェアと連携したソフトウェア開発・制約条件下での設計力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>チームでの協働姿勢とものづくりへの理解</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -252,7 +252,7 @@ export default function CanonCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。キヤノンの全社員平均（約865.7万円）はこれを上回りますが、これは管理職・上位等級を含む全社平均であり、入社時の提示は等級・職務次第です。30代・40代は「自分が当てはまる等級の水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              光学・画像という製造業の強みと、AI・ディープラーニングというソフトウェアの世界を橋渡しできる人材は希少です。<Link href="/industry/manufacturing/" className="text-blue-600 hover:underline">製造業のエンジニア転職</Link>や<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>、<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              光学・画像という製造業の強みと、AI・ディープラーニングというソフトウェアの世界を橋渡しできる人材は希少です。<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業のエンジニア転職</Link>や<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -265,13 +265,13 @@ export default function CanonCompanyPage() {
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、メーカーの専門職・管理職求人に対応。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -292,7 +292,7 @@ export default function CanonCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">キヤノンへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手メーカーの組込み・画像系転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -306,7 +306,7 @@ export default function CanonCompanyPage() {
               { name: "企業別エンジニア転職ガイド一覧", href: "/company/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -86,7 +86,7 @@ export default function WorkationPage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             ワーケーションは、リゾート地や地方など非日常の場所で休暇を兼ねて働く働き方です。しかしこれは<strong>フルリモートが認められ、かつ居住地以外でも働ける</strong>会社でなければ実質的に成立しません。求人で「ワーケーション可」とあっても、勤務場所の範囲・日数・費用負担・労働時間管理のルールは企業によって大きく異なります。本記事では、ワーケーションの定義と種類を公的情報で整理し、求人での見極め方を労務・税務のリスクと30-40代の活用法の観点で解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 旅行・帰省を兼ねて働ける柔軟な環境へ転職したい30-40代</li>
@@ -99,7 +99,7 @@ export default function WorkationPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>ワーケーションの種類</li>
             <li>求人での見極めポイント</li>
             <li>該当しやすい企業タイプ</li>
@@ -113,7 +113,7 @@ export default function WorkationPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">種類</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">内容</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">ポイント</th>
@@ -150,7 +150,7 @@ export default function WorkationPage() {
               { num: "5", title: "労働時間管理とセキュリティ規程を確認する", desc: "勤務時間の管理方法、外部ネットワーク利用時のセキュリティルールが整備されているかで、運用の本気度がわかります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -196,7 +196,7 @@ export default function WorkationPage() {
             </p>
             <p>
               <strong>費用と家族の理解：</strong>交通費・宿泊費が自己負担のことも多く、家族帯同なら家族の予定との調整も必要です。前提となる環境は
-              <Link href="/purpose/remote-full/" className="text-blue-600 hover:underline">フルリモート求人の見極め方</Link>
+              <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート求人の見極め方</Link>
               も合わせて確認しましょう。
             </p>
           </div>
@@ -220,7 +220,7 @@ export default function WorkationPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">場所に縛られない企業を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">リモート・ワーケーションの実態まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -234,7 +234,7 @@ export default function WorkationPage() {
               { name: "福利厚生が充実した企業へ転職", href: "/purpose/benefits/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

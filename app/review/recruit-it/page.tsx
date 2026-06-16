@@ -183,7 +183,7 @@ export default function RecruitItReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-xl font-bold text-blue-900 mb-3">結論：リクルートエージェントITはこんな人向け</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               総合評価は <span className="font-bold">★★★★☆（4.2 / 5.0・当サイト編集部の総合判断）</span>。
@@ -200,7 +200,7 @@ export default function RecruitItReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((item) => (
               <li key={item.id}>
                 <a href={`#${item.id}`} className="hover:underline">
@@ -235,27 +235,27 @@ export default function RecruitItReview() {
         <section id="strengths" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">リクルートエージェントITの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 国内最大級の求人数</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 転職メディアの集計では、2026年5月22日時点でIT公開求人110,840件・IT非公開求人101,680件とされ、母数の大きさが最大の強みです。求人数が多いほど比較材料が増え、希望に合う一社に出会える確率も高まります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 非公開求人が豊富</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 公開求人とほぼ同規模の非公開求人を保有しており、一般には出回らない好条件のポジションにアクセスできる可能性があります。口コミでも「非公開求人が充実している」という声が見られます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 大手〜スタートアップまで業種横断で網羅</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 純粋なIT企業だけでなく、製造業・金融・商社などの社内SE・DX推進ポジションまで幅広くカバーします。IT特化エージェントでは見つからない非IT企業のIT求人にアクセスできるのは、総合型ならではの強みです。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 書類添削・面接対策が丁寧</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 長年蓄積された選考データを背景に、書類添削や面接対策が実用的だと評価される傾向があります。豊富な企業データを踏まえた対策を受けられる点は、選考通過率を高める助けになります。
               </p>
             </div>
@@ -308,7 +308,7 @@ export default function RecruitItReview() {
               <h3 className="font-bold text-slate-800 mb-2">サポート期間が短い → 初動を早く設計する</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 サポート期間が約3か月とされるため、登録直後に活動スケジュールを共有し、書類添削・面接対策を早めに依頼するのが鍵です。
-                <Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職スケジュールの組み方</Link>
+                <Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュールの組み方</Link>
                 も参考にしてください。
               </p>
             </div>
@@ -316,7 +316,7 @@ export default function RecruitItReview() {
               <h3 className="font-bold text-slate-800 mb-2">求人が多すぎて選べない → IT特化を併用して絞る</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 母数が多すぎて選びにくい場合は、専門性の高い
-                <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+                <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
                 を併用し、技術領域に合った求人を厳選する視点を補うと判断しやすくなります。
               </p>
             </div>
@@ -340,7 +340,7 @@ export default function RecruitItReview() {
             </p>
             <p>
               経済産業省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれており、経験豊富なミドル層への需要は底堅いと考えられます。求人数の多いリクルートを主軸に、IT特化やハイクラス特化を併用して「網の広さ」と「専門性」を両立させるのが効率的です。
-              <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェント併用のコツ</Link>
+              <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェント併用のコツ</Link>
               も参考にしてください。
             </p>
           </div>
@@ -390,7 +390,7 @@ export default function RecruitItReview() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {compareLinks.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}
@@ -401,7 +401,7 @@ export default function RecruitItReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">リクルートエージェントITに無料相談する</h2>
           <p className="text-blue-100 text-sm mb-4">国内最大級の求人から、あなたに合うIT求人を探してみませんか？</p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">無料カウンセリングを予約する</a>
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料カウンセリングを予約する</a>
         </section>
 
         {/* FAQ */}
@@ -425,7 +425,7 @@ export default function RecruitItReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {relatedLinks.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -118,7 +118,7 @@ export default function Salary1500Page() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -129,7 +129,7 @@ export default function Salary1500Page() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収1500万円の位置づけと現実</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収1500万円は、ITSSの最上位区分L6・7の平均1,129.9万円を<strong>さらに上回る</strong>、公的なレベル別平均では表現しきれない水準です。到達者は、外資系トップIT・急成長メガベンチャーのVPoE/CTO・代替不能のトップスペシャリストなど、<strong>ごく限られた層</strong>に過ぎません。
             </p>
@@ -170,9 +170,9 @@ export default function Salary1500Page() {
                   <td className="px-4 py-3 border border-slate-200">1,129.9万円</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">最上位の平均。1500万円はこれを上回る</td>
                 </tr>
-                <tr className="bg-blue-50">
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">1500万円</td>
-                  <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">—（区分外の上位）</td>
+                <tr className="bg-petrol-soft">
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">1500万円</td>
+                  <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">—（区分外の上位）</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">L6・7平均を超える、ごく限られた層の水準</td>
                 </tr>
               </tbody>
@@ -241,7 +241,7 @@ export default function Salary1500Page() {
           <div className="space-y-4">
             {route.map((r, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {i + 1}
                 </span>
                 <div>
@@ -257,26 +257,26 @@ export default function Salary1500Page() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30〜40代が1500万円を狙うときの視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">『戦う市場』を国内標準の外に置く</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30〜40代で1500万円を狙うなら、国内標準の給与テーブルの中で考えるのではなく、外資トップIT・グローバル企業・トップメガベンチャーという報酬水準が桁違いの市場を最初から想定することが現実的です。技術の磨き込みと並行して、英語や選考突破力など、その市場の入場条件を逆算して準備します。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">総報酬と権利確定（ベスティング）を理解する</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 この帯は株式報酬の比率が高く、額面1500万円でも権利確定の条件や在籍年数で実際の手取りが変わります。30〜40代は、ライフプランと照らして総報酬の構成・リスクを理解したうえで判断することが、特に重要になります。
               </p>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             年代別の相場や汎用的な年収UP戦略は、
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
             ・
-            <Link href="/purpose/salary-up/" className="text-blue-600 hover:underline">年収アップを目指す転職ガイド</Link>
+            <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収アップを目指す転職ガイド</Link>
             ・
-            <Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けエージェント比較</Link>
+            <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けエージェント比較</Link>
             をご覧ください。
           </p>
         </section>
@@ -305,7 +305,7 @@ export default function Salary1500Page() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -325,7 +325,7 @@ export default function Salary1500Page() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -111,15 +111,15 @@ export default function Age45Page() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：「45歳の壁」は統計で否定できる</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               リクルートの公表によれば、45歳以上ITエンジニアの転職決定者数は直近5年で<strong>約10倍</strong>に増えています。さらに45〜49歳の転職者は7割超が収入を減らしていません。「45歳まで」という言説は、要件に合わないポジションまで含めた古い印象論である面が大きく、経験が活きるポジションへ的確にアプローチすれば、45歳は十分に戦える年代です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">1.</span>45歳以上ITエンジニアの転職決定者数は直近5年で約10倍（リクルート2023/8/31公表）。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">2.</span>45〜49歳転職者は収入増34.2%・変わらない36.5%＝7割超が減らない（厚労省 令和4年）。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">3.</span>年齢を理由とした応募制限は法律上 原則禁止。年齢不問求人で年齢のみを理由に落とすのは法の趣旨に反する。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>45歳以上ITエンジニアの転職決定者数は直近5年で約10倍（リクルート2023/8/31公表）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>45〜49歳転職者は収入増34.2%・変わらない36.5%＝7割超が減らない（厚労省 令和4年）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>年齢を理由とした応募制限は法律上 原則禁止。年齢不問求人で年齢のみを理由に落とすのは法の趣旨に反する。</li>
             </ul>
           </div>
         </section>
@@ -130,7 +130,7 @@ export default function Age45Page() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ol>
@@ -185,20 +185,20 @@ export default function Age45Page() {
             「45歳で転職すると年収が下がる」というのも、よく聞く懸念です。しかしデータは別の事実を示します。
           </p>
           <div className="grid grid-cols-2 gap-3 mb-5">
-            <div className="bg-blue-50 rounded-lg p-4 text-center">
-              <p className="text-xs text-blue-600 mb-1">45〜49歳 収入増加</p>
-              <p className="text-xl font-bold text-blue-700">34.2%</p>
+            <div className="bg-petrol-soft rounded-lg p-4 text-center">
+              <p className="text-xs text-petrol mb-1">45〜49歳 収入増加</p>
+              <p className="text-xl font-bold text-petrol-deep">34.2%</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-4 text-center">
-              <p className="text-xs text-blue-600 mb-1">45〜49歳 変わらない</p>
-              <p className="text-xl font-bold text-blue-700">36.5%</p>
+            <div className="bg-petrol-soft rounded-lg p-4 text-center">
+              <p className="text-xs text-petrol mb-1">45〜49歳 変わらない</p>
+              <p className="text-xl font-bold text-petrol-deep">36.5%</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mb-3">
             厚生労働省の令和4年 雇用動向調査（JAC経由の整理）では、45〜49歳の転職者のうち収入増加が34.2%、変わらないが36.5%で、<strong>合わせて7割超が「減らない」</strong>結果でした。加えてリクルートの公表では、ミドルシニアITエンジニアの約3割が転職時に10%以上の賃金上昇を実現しています（2023年1〜3月期）。
           </p>
           <p className="text-slate-600 leading-relaxed text-sm">
-            下がりやすいのは、マネジメントからプレイヤーへの転向や、異業種・異職種への大きな方向転換を伴う場合です。同職種・同レベルでの移動なら、45歳でも維持〜アップが十分に狙えます。年収戦略の詳細は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収戦略</Link>も参考になります。
+            下がりやすいのは、マネジメントからプレイヤーへの転向や、異業種・異職種への大きな方向転換を伴う場合です。同職種・同レベルでの移動なら、45歳でも維持〜アップが十分に狙えます。年収戦略の詳細は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収戦略</Link>も参考になります。
           </p>
         </section>
 
@@ -225,7 +225,7 @@ export default function Age45Page() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            マネジメントとスペシャリストの選び方は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職ガイド</Link>でも詳しく扱っています。
+            マネジメントとスペシャリストの選び方は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職ガイド</Link>でも詳しく扱っています。
           </p>
         </section>
 
@@ -236,21 +236,21 @@ export default function Age45Page() {
             45歳が持たれやすい懸念は「新しい技術についていけないのでは」という見られ方です。これは、継続学習の姿勢を具体的に示すことで払拭できます。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">直近の学習・適応事例を語れるようにする</h3>
-              <p className="text-sm text-blue-700">「最近◯◯を学び、◯◯のプロジェクトで適用した」という具体例が、年齢の懸念を打ち消します。抽象的な「勉強しています」では不十分で、実務に結びついた事例が効きます。</p>
+              <p className="text-sm text-petrol-deep">「最近◯◯を学び、◯◯のプロジェクトで適用した」という具体例が、年齢の懸念を打ち消します。抽象的な「勉強しています」では不十分で、実務に結びついた事例が効きます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">経験年数が価値になる領域を強みにする</h3>
-              <p className="text-sm text-blue-700">設計力・基盤技術（DB・インフラ・セキュリティ）・大規模システムの理解は、経験年数がそのまま価値になります。最新技術の継続学習と組み合わせると、45歳ならではの厚みが生まれます。</p>
+              <p className="text-sm text-petrol-deep">設計力・基盤技術（DB・インフラ・セキュリティ）・大規模システムの理解は、経験年数がそのまま価値になります。最新技術の継続学習と組み合わせると、45歳ならではの厚みが生まれます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マネジメント経験を数値で語る</h3>
-              <p className="text-sm text-blue-700">「◯名のチームを率いた」「◯%の改善を主導した」など、貢献を数値化することで、マネジメント採用での評価が高まります。</p>
+              <p className="text-sm text-petrol-deep">「◯名のチームを率いた」「◯%の改善を主導した」など、貢献を数値化することで、マネジメント採用での評価が高まります。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            継続学習の進め方は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの継続学習</Link>、実績の言語化は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>を参考にしてください。
+            継続学習の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続学習</Link>、実績の言語化は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>を参考にしてください。
           </p>
         </section>
 
@@ -269,7 +269,7 @@ export default function Age45Page() {
               { step: "STEP 5", title: "内定比較・条件交渉", desc: "複数内定を年収・役割・働き方で比較し、必要なら条件交渉をエージェント経由で行います。短期の年収だけでなく、中期のキャリア価値で判断します。" },
             ].map((s, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-5">
-                <div className="text-blue-600 font-bold text-sm shrink-0 w-16">{s.step}</div>
+                <div className="text-petrol font-bold text-sm shrink-0 w-16">{s.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{s.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{s.desc}</p>
@@ -278,7 +278,7 @@ export default function Age45Page() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            スケジュール感は<Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職活動のスケジュール</Link>、複数エージェントの使い分けは<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェントの活用法</Link>を参照してください。
+            スケジュール感は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職活動のスケジュール</Link>、複数エージェントの使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェントの活用法</Link>を参照してください。
           </p>
         </section>
 
@@ -304,7 +304,7 @@ export default function Age45Page() {
           <p className="text-blue-100 text-sm mb-4">
             45歳以上の転職決定は5年で約10倍。あなたの経験を要件とする企業は確実に存在します。まずはエージェントで市場価値を確認しましょう。
           </p>
-          <Link href="/compare/40s-agents/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/compare/40s-agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             40代向けエージェント比較を見る
           </Link>
         </section>
@@ -321,7 +321,7 @@ export default function Age45Page() {
               { name: "年齢と転職（年齢差別）", href: "/knowledge/age-discrimination/" },
               { name: "40代向けエージェント比較", href: "/compare/40s-agents/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

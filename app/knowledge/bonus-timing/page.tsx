@@ -150,7 +150,7 @@ export default function BonusTimingPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -161,7 +161,7 @@ export default function BonusTimingPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：賞与を踏まえたタイミングの考え方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               基本方針は、<strong>「就業規則で支給条件を確認し」「支給日から逆算してスケジュールを組み」「賞与額と機会損失を金額で比較する」</strong>こと。賞与は取れるなら取るに越したことはありませんが、それだけで転職時期を決めるのは危険です。
             </p>
@@ -201,7 +201,7 @@ export default function BonusTimingPage() {
               { num: "4", title: "入社時期をすり合わせる", desc: "支給日と引き継ぎを踏まえ、転職先と現実的な入社日を合意します。事情は正直に相談します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -213,9 +213,9 @@ export default function BonusTimingPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             退職の進め方全般は
-            <Link href="/knowledge/resignation/" className="text-blue-600 hover:underline">退職の進め方ガイド</Link>
+            <Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の進め方ガイド</Link>
             、活動全体の流れは
-            <Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職スケジュールの立て方</Link>
+            <Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュールの立て方</Link>
             を参照してください。
           </p>
         </section>
@@ -246,7 +246,7 @@ export default function BonusTimingPage() {
             <ul className="space-y-3">
               {checklist.map((item, i) => (
                 <li key={i} className="flex gap-3 items-start text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">☐</span>
+                  <span className="text-petrol font-bold shrink-0">☐</span>
                   <span className="leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -271,15 +271,15 @@ export default function BonusTimingPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代で特に意識する点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：機会の価値を優先しやすい</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30代は年収が伸びる重要な時期です。賞与の取り逃しは一時的でも、転職での年収アップは長く効きます。好条件の内定が出たなら、賞与を待たずに動くほうが生涯年収で有利になることが多いと考えましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：賞与額と求人の希少性を天秤に</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は賞与額も大きくなりがちですが、年齢が上がるほど好条件の求人との出会いの希少性も高まります。賞与を待つ間に機会を逃すリスクと、確実に取れる賞与額を金額ベースで比較し、感情ではなく数字で判断しましょう。
               </p>
             </div>
@@ -310,7 +310,7 @@ export default function BonusTimingPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -330,7 +330,7 @@ export default function BonusTimingPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -87,7 +87,7 @@ export default function RelocationFriendlyPage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             フルリモートは「出社をなくす」、Uターン・Iターンは「地方企業に就職する」働き方ですが、本記事の<strong>移住・地方移住OK</strong>はそれらと軸が違います。ここで主役になるのは「どこで暮らしたいか」という<strong>生活設計</strong>です。自然の近くで子育てしたい、実家の近くに住みたい、二拠点で暮らしたい——その望む暮らしを先に決め、それを実現できる働き方（フルリモート・月数回出社・全国一律給与）を後から選ぶ。本記事は、段階的な移住ロードマップと求人の見極め、そして公的な移住支援金の活用までを、家族を持つ30-40代の現実に即して解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 自然の近くや実家の近くで子育てしたい</li>
@@ -100,7 +100,7 @@ export default function RelocationFriendlyPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>段階的移住ロードマップ</li>
             <li>移住OK求人の見極めポイント</li>
             <li>移住支援金（公的制度）の活用</li>
@@ -117,7 +117,7 @@ export default function RelocationFriendlyPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">段階</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">内容</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">確認すること</th>
@@ -151,7 +151,7 @@ export default function RelocationFriendlyPage() {
               { num: "5", title: "リモート前提の評価・コミュニケーション文化", desc: "可視性が低くても成果で評価される仕組みか。非同期コミュニケーションが定着しているか。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -197,11 +197,11 @@ export default function RelocationFriendlyPage() {
           </ul>
           <p className="text-sm text-slate-700 leading-relaxed">
             こうしたコストを踏まえても、移住支援金や全国一律給与をうまく組み合わせれば、世帯の生活満足度を上げながら収入を維持することは十分に可能です。働き方の選択肢として、
-            <Link href="/purpose/remote-full/" className="text-blue-600 hover:underline">フルリモート勤務ガイド</Link>
+            <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート勤務ガイド</Link>
             、
-            <Link href="/purpose/uturnable/" className="text-blue-600 hover:underline">Uターン・Iターン×IT転職</Link>
+            <Link href="/purpose/uturnable/" className="text-petrol hover:underline">Uターン・Iターン×IT転職</Link>
             、地方移住の実務をまとめた
-            <Link href="/area/iiju/" className="text-blue-600 hover:underline">移住・地方転職エリアガイド</Link>
+            <Link href="/area/iiju/" className="text-petrol hover:underline">移住・地方転職エリアガイド</Link>
             も合わせてご覧ください。
           </p>
         </section>
@@ -224,7 +224,7 @@ export default function RelocationFriendlyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">移住OKの求人を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">居住地不問・全国一律給与の優良企業をIT特化型エージェントが提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -238,7 +238,7 @@ export default function RelocationFriendlyPage() {
               { name: "リモートワークの実態と続け方", href: "/knowledge/remote-work/" },
               { name: "転勤なし求人の見極め方", href: "/purpose/no-relocation/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

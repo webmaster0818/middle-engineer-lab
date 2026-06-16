@@ -87,7 +87,7 @@ export default function MensChildcarePage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             男性の育児休業は、育児・介護休業法によって権利として保障されており、2022年10月施行の<strong>産後パパ育休（出生時育児休業）</strong>で取得の柔軟性も高まりました。つまり「制度があるか」は多くの企業で差がつきません。本当に重要なのは<strong>実際に男性が取得できているか（取得率・取得実績）</strong>です。本記事では、男性育休の法定ルールを公的情報で整理し、求人で「取りやすい会社」を見極める方法を、30-40代の家庭とキャリアの両立の観点から解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 出産・育児を控え、実際に育休を取れる会社へ転職したい30-40代</li>
@@ -100,7 +100,7 @@ export default function MensChildcarePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>男性育休の法定ルール</li>
             <li>求人での見極めポイント</li>
             <li>該当しやすい企業タイプ</li>
@@ -114,7 +114,7 @@ export default function MensChildcarePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">制度</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">内容</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">ポイント</th>
@@ -151,7 +151,7 @@ export default function MensChildcarePage() {
               { num: "5", title: "復帰後の働き方をセットで確認する", desc: "育休後に時短・リモート・フレックスが使えるかまで見ておくと、育児期全体を支える環境かが判断できます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -197,9 +197,9 @@ export default function MensChildcarePage() {
             </p>
             <p>
               <strong>復帰後の環境までセットで：</strong>育休はゴールではなくスタートです。復帰後に
-              <Link href="/purpose/short-hours/" className="text-blue-600 hover:underline">時短勤務</Link>
+              <Link href="/purpose/short-hours/" className="text-petrol hover:underline">時短勤務</Link>
               や
-              <Link href="/purpose/remote-full/" className="text-blue-600 hover:underline">リモートワーク</Link>
+              <Link href="/purpose/remote-full/" className="text-petrol hover:underline">リモートワーク</Link>
               が使えるかまで含めて、育児期を通して働ける環境かを判断しましょう。
             </p>
           </div>
@@ -223,7 +223,7 @@ export default function MensChildcarePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">育休実績のある企業を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">両立支援の実態まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -237,7 +237,7 @@ export default function MensChildcarePage() {
               { name: "福利厚生が充実した企業へ転職", href: "/purpose/benefits/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

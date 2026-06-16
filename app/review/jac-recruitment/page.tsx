@@ -206,7 +206,7 @@ export default function JacRecruitmentReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：年収500万円以上の30〜40代、とくに40代エンジニアの年収アップ・ハイクラス転職に最有力の一つ</span>。一言でいえば「年齢で諦めず、上場・外資・管理職クラスを狙いたい経験者」向けのエージェントです。
@@ -222,7 +222,7 @@ export default function JacRecruitmentReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -281,27 +281,27 @@ export default function JacRecruitmentReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">JACリクルートメントの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 両面型で企業の内部情報が深い</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 1人のコンサルタントが企業側と求職者の双方を担当する両面型のため、求人票に載らない社風・求める人物像・選考通過のポイントを直接共有してもらいやすいのが最大の強みです。ミドル層の転職で起きやすいミスマッチを事前に減らせます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 上場・外資系・管理職の質の高い求人</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 年収500万円以上を目安に、上場企業・外資系・管理職／専門職の求人を扱います。年収を一段上げたい、役職や裁量を上げたいミドルエンジニアの「上方転職」に向いています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 30〜50代を主対象とするミドル特化</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 利用者の中心が30〜50代で、40代でも応募可能な求人を扱う点は、年齢を理由に提案が細りがちな他サービスとの大きな違いです。公式に40代・IT向けの特設ページが用意されている点も、ミドル層を本気で対象にしている証左といえます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 東証プライム上場の運営基盤</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 運営は東証プライム上場の株式会社JACリクルートメント。利用者満足度93%（二次情報）という数値もあり、ハイクラス領域での実績の蓄積が、企業とのリレーションや交渉力につながっていると考えられます。
               </p>
             </div>
@@ -440,7 +440,7 @@ export default function JacRecruitmentReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -457,16 +457,16 @@ export default function JacRecruitmentReview() {
             JACはハイクラス・ミドル特化で「質と企業情報の深さ・40代対応」が強み。求人の網羅性やIT専門性は他サービスで補うのが定石です。なお、ビズリーチ（スカウト型）やリクルートダイレクトスカウトは「待ち型」、JACは「コンサルが伴走する両面型」で仕組みが異なります。エンジニアからコンサル・PMへの本格的なキャリアチェンジを狙うなら、コンサル特化のアクシスコンサルティング（AXIS Agent）の方が選考対策に踏み込めます。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/compare/highclass/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/highclass/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ハイクラス向けエージェント比較 →
             </Link>
-            <Link href="/compare/40s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/40s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               40代エンジニア向けエージェント比較 →
             </Link>
-            <Link href="/review/bizreach-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/bizreach-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ビズリーチ（IT）の評判 →
             </Link>
-            <Link href="/career/engineer-to-consultant/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/career/engineer-to-consultant/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               エンジニアからコンサルへのキャリア →
             </Link>
           </div>
@@ -494,7 +494,7 @@ export default function JacRecruitmentReview() {
           <p className="text-blue-100 text-sm mb-4">
             40代でも諦めない。まずは無料面談で、狙えるハイクラス求人のレンジを確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料面談を予約する
           </a>
         </section>
@@ -504,7 +504,7 @@ export default function JacRecruitmentReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

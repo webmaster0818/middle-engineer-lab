@@ -97,13 +97,13 @@ export default function AiAgentsPage() {
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AI・機械学習はどう選ぶか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・技術評価は「Findy」</strong>。Python等モダン技術をGitHubで可視化し、機械学習・データ基盤の自社開発企業とマッチ。</li>
@@ -137,13 +137,13 @@ export default function AiAgentsPage() {
             {services.map((s, i) => (
               <div key={i} className="border border-slate-200 rounded-xl p-6">
                 <div className="flex items-center gap-3 mb-3 flex-wrap">
-                  <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-blue-600 text-white">{s.rank}</span>
-                  <Link href={s.href} className="text-lg font-bold text-blue-700 hover:underline">{s.name}</Link>
+                  <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-petrol text-white">{s.rank}</span>
+                  <Link href={s.href} className="text-lg font-bold text-petrol-deep hover:underline">{s.name}</Link>
                   <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-600">{s.tag}</span>
                 </div>
                 <p className="text-sm text-slate-600 leading-relaxed mb-3">{s.reason}</p>
                 <p className="text-sm text-slate-700"><span className="font-bold">向いている人：</span>{s.fit}</p>
-                <Link href={s.href} className="inline-block mt-3 text-sm font-medium text-blue-600 hover:underline">{s.name}の詳細レビューを見る →</Link>
+                <Link href={s.href} className="inline-block mt-3 text-sm font-medium text-petrol hover:underline">{s.name}の詳細レビューを見る →</Link>
               </div>
             ))}
           </div>
@@ -151,7 +151,7 @@ export default function AiAgentsPage() {
 
         <section id="skill" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">領域・スキル別の探し方</h2>
-          <p className="text-slate-600 leading-relaxed text-sm mb-3">AI・機械学習は領域によって相性の良い探し方が変わります。当サイトでは<Link href="/skill/ai-ml/" className="text-blue-600 hover:underline">AI・機械学習</Link>、<Link href="/skill/generative-ai/" className="text-blue-600 hover:underline">生成AI</Link>、<Link href="/skill/data-scientist/" className="text-blue-600 hover:underline">データサイエンティスト</Link>、<Link href="/skill/python/" className="text-blue-600 hover:underline">Python</Link>のスキルガイドで市場・年収・求人の探し方を整理しています。扱ったモデル・データ規模・ビジネス成果を言語化したうえでFindyやレバテックキャリアに相談すると、提案精度が上がります。</p>
+          <p className="text-slate-600 leading-relaxed text-sm mb-3">AI・機械学習は領域によって相性の良い探し方が変わります。当サイトでは<Link href="/skill/ai-ml/" className="text-petrol hover:underline">AI・機械学習</Link>、<Link href="/skill/generative-ai/" className="text-petrol hover:underline">生成AI</Link>、<Link href="/skill/data-scientist/" className="text-petrol hover:underline">データサイエンティスト</Link>、<Link href="/skill/python/" className="text-petrol hover:underline">Python</Link>のスキルガイドで市場・年収・求人の探し方を整理しています。扱ったモデル・データ規模・ビジネス成果を言語化したうえでFindyやレバテックキャリアに相談すると、提案精度が上がります。</p>
           <p className="text-slate-600 leading-relaxed text-sm mb-3">転職市場でAI人材の評価を左右するのは、論文や肩書きそのものよりも「実サービスにどう機械学習を組み込み、どんなビジネス成果や精度改善につなげたか」という具体性です。研究職を目指す場合は発信や論文が、エンジニア職を目指す場合は本番運用・パイプライン構築・MLOpsの経験が、それぞれ強い武器になります。生成AI・LLM領域は特に動きが速く、扱ったフレームワークや評価手法、プロンプト設計・RAG・ファインチューニングなどの実務経験を整理しておくと、面談での説得力が増します。自分の強みが「研究・発信」か「実装・運用」かを見極め、それに合うサービス（発信評価のLAPRAS、技術評価のFindy、母数のレバテックキャリア、上位求人のビズリーチ）を軸にするのが、限られた時間で動くミドルにとって効率的です。</p>
         </section>
 
@@ -165,7 +165,7 @@ export default function AiAgentsPage() {
                 { num: "3", title: "上位はビズリーチ、発信実績はLAPRAS", desc: "リード・研究開発の上位求人はビズリーチ、論文・登壇・OSSの実績はLAPRASで評価される。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600">{item.desc}</p></div>
                 </div>
               ))}
@@ -195,14 +195,14 @@ export default function AiAgentsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">AI・機械学習は「技術評価×網羅×ハイクラス」で選ぶ</h2>
           <p className="text-blue-100 text-sm mb-4">Findyで技術評価、レバテックキャリアで母数、ビズリーチ/LAPRASで上位・発信評価。いずれも無料です。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {relatedLinks.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

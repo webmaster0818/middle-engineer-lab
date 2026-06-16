@@ -84,14 +84,14 @@ export default function BizreachVsLevtechPage() {
           <p className="font-bold text-slate-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・年収750万円以上のハイクラス・管理職・外資を狙うなら「ビズリーチ」</strong>。スカウト型で市場価値も測れます。</li>
@@ -118,7 +118,7 @@ export default function BizreachVsLevtechPage() {
           <p className="text-slate-600 leading-relaxed mb-4">ビズリーチは累計の導入企業数41,800社以上、登録ヘッドハンター9,700人以上（2025年4月時点・二次集計）という規模で、全業種のハイクラス求人を扱います。年収1,000万円以上の求人が全体の約4割（二次）とされ、求人の「上限の高さ」が際立ちます。求人を探すというより、登録したプロフィールに対してスカウトが集まる構造です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアは公開求人約5万件超（2026年5〜6月時点・複数転職メディア集計）をIT/Webに特化して保有し、公開求人の約8割が年収600万円以上（二次情報）と、ボリュームゾーンが高めです。技術職に絞った求人の「密度」が強みで、首都圏中心（二次情報）という地域特性があります。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>上限の高い求人・幅広い業種ならビズリーチ、IT特化の求人密度ならレバテックキャリア。地方在住の場合はレバテックが首都圏中心である点に注意し、<Link href="/compare/agents/" className="text-blue-600 hover:underline">総合型エージェント</Link>の併用も検討しましょう。</p>
+            <p className="mb-2"><strong>まとめ：</strong>上限の高い求人・幅広い業種ならビズリーチ、IT特化の求人密度ならレバテックキャリア。地方在住の場合はレバテックが首都圏中心である点に注意し、<Link href="/compare/agents/" className="text-petrol hover:underline">総合型エージェント</Link>の併用も検討しましょう。</p>
           </div>
         </section>
 
@@ -126,22 +126,22 @@ export default function BizreachVsLevtechPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較②：年収アップ実績</h2>
           <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアは、内定承諾者のうち応募時年収との差が70万円以上だった人が「3人に2人」（2023年1月〜2024年3月実績の公式系数値）と公表しています。具体的な年収交渉力が数値で示されている点は、堅実に年収を上げたいエンジニアにとって安心材料です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">ビズリーチは統一された年収アップ率の公表値はありませんが、年収1,000万円以上求人が全体の約4割（二次）という求人構成自体が、上限を引き上げる余地の大きさを示します。スカウト経由で複数のオファーを比較しやすく、結果的に交渉力が高まりやすい構造です。</p>
-          <p className="text-slate-600 leading-relaxed text-sm">参考として、レバテック公表の年代別平均年収（2025年）では正社員SEで30代約499万円・40代約618万円、年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。年収帯ごとの相場は<Link href="/compare/salary-ranking/" className="text-blue-600 hover:underline">年収ランキング</Link>もあわせてご確認ください。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">参考として、レバテック公表の年代別平均年収（2025年）では正社員SEで30代約499万円・40代約618万円、年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。年収帯ごとの相場は<Link href="/compare/salary-ranking/" className="text-petrol hover:underline">年収ランキング</Link>もあわせてご確認ください。</p>
         </section>
 
         <section id="support" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較③：サポート体制</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">専任の伴走支援というより、企業や登録ヘッドハンターからのスカウト経由でやり取りが進みます。優秀なヘッドハンターに当たれば手厚いサポートが受けられますが、質にばらつきがあるという声もあります（talentsquare等）。能動的に動ける人に向きます。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">専任の伴走支援というより、企業や登録ヘッドハンターからのスカウト経由でやり取りが進みます。優秀なヘッドハンターに当たれば手厚いサポートが受けられますが、質にばらつきがあるという声もあります（talentsquare等）。能動的に動ける人に向きます。</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
               <p className="text-sm text-slate-600 leading-relaxed">IT業界に精通した専任アドバイザーが書類添削・面接対策・年収交渉まで伴走します。書類添削や面接対策が丁寧、LINEで連絡が完結するといった評判が見られます（OUTSIDEMAGAZINE／Qiita Job Change／イーデス）。</p>
             </div>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm">伴走型のサポートを重視するならレバテックキャリア、自走できる人がスカウトを活用するならビズリーチ、という棲み分けです。<Link href="/knowledge/agent-first-meeting/" className="text-blue-600 hover:underline">エージェントとの初回面談の進め方</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">伴走型のサポートを重視するならレバテックキャリア、自走できる人がスカウトを活用するならビズリーチ、という棲み分けです。<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">エージェントとの初回面談の進め方</Link>も参考にしてください。</p>
         </section>
 
         <section id="speed" className="mb-12 scroll-mt-20">
@@ -153,7 +153,7 @@ export default function BizreachVsLevtechPage() {
         <section id="target" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較⑤：対象層・年代適性</h2>
           <p className="text-slate-600 leading-relaxed mb-4">ビズリーチは年収750万円以上が一つの目安とされ、管理職・外資・高年収を狙う層に向いています。経歴次第でスカウトの量が左右されるため、実績を整理してプロフィールに反映できる人ほど効果が出ます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアは利用者の約80%が20〜30代（二次情報）とされ、IT実務経験のある現場志向のエンジニアと相性が良い設計です。未経験者は紹介されにくいという評判があるため、経験の浅い方は<Link href="/compare/inexperienced/" className="text-blue-600 hover:underline">未経験向けの選択肢</Link>も検討しましょう。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアは利用者の約80%が20〜30代（二次情報）とされ、IT実務経験のある現場志向のエンジニアと相性が良い設計です。未経験者は紹介されにくいという評判があるため、経験の浅い方は<Link href="/compare/inexperienced/" className="text-petrol hover:underline">未経験向けの選択肢</Link>も検討しましょう。</p>
         </section>
 
         <section id="review" className="mb-12 scroll-mt-20">
@@ -182,9 +182,9 @@ export default function BizreachVsLevtechPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">ビズリーチが向いている人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">{goodBiz.map((t, i) => (<li key={i}>✓ {t}</li>))}</ul>
+              <ul className="space-y-2 text-sm text-petrol-deep">{goodBiz.map((t, i) => (<li key={i}>✓ {t}</li>))}</ul>
             </div>
             <div className="bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3">レバテックキャリアが向いている人</h3>
@@ -203,12 +203,12 @@ export default function BizreachVsLevtechPage() {
                 { num: "3", title: "併用パターン（推奨）", desc: "ビズリーチでスカウトを受けて市場価値と上限を把握しつつ、レバテックで能動的に求人提案を受ける。2社のオファーを比較し、最も有利な条件で意思決定します。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p></div>
                 </div>
               ))}
             </div>
-            <p className="text-xs text-slate-500 mt-4">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数利用のコツ</Link>も参考にしてください。</p>
+            <p className="text-xs text-slate-500 mt-4">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -216,7 +216,7 @@ export default function BizreachVsLevtechPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだ30代・40代エンジニアの市場価値は依然として高く、この2社はその価値を現金化する手段として相性が異なります。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>レバテックキャリアは利用者の約80%が20〜30代（二次情報）で、技術スタックを理解したアドバイザーが現場志向のキャリア相談に乗ってくれます。マネジメントか専門職かでまだ方向が定まっていない30代は、レバテックを軸に、市場価値の確認用としてビズリーチを併用すると視野が広がります。レバテック公表の年代別平均年収（2025年）では30代のSEは約499万円が一つの目安です。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ビズリーチはCTO・VPoE・EMといった管理職・経営層ポジションのスカウトや外資求人に強く、マネジメント経験のある40代と噛み合います。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。一方で40代は年齢を理由に書類段階で苦戦することもあるため、伴走して推薦状を書いてくれるレバテックのアドバイザー支援も併せて確保しておくと安心です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ビズリーチはCTO・VPoE・EMといった管理職・経営層ポジションのスカウトや外資求人に強く、マネジメント経験のある40代と噛み合います。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。一方で40代は年齢を理由に書類段階で苦戦することもあるため、伴走して推薦状を書いてくれるレバテックのアドバイザー支援も併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
           <p className="text-slate-600 leading-relaxed text-sm">いずれの年代でも、まずビズリーチで市場価値を測り、レバテックで実際の選考を伴走してもらう二段構えが、ミドルエンジニアにとって失敗の少ない進め方です。</p>
         </section>
 
@@ -235,7 +235,7 @@ export default function BizreachVsLevtechPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ハイクラスIT転職は「スカウト×伴走」の両輪で</h2>
           <p className="text-blue-100 text-sm mb-4">ビズリーチで市場価値を測り、レバテックキャリアで選考を伴走してもらう。30代・40代エンジニアの年収アップに最短のルートです。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -249,7 +249,7 @@ export default function BizreachVsLevtechPage() {
               { name: "IT転職エージェント10社比較", href: "/compare/agents/" },
               { name: "ビズリーチの評判・口コミ", href: "/review/bizreach-it/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

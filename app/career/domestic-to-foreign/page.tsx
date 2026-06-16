@@ -153,7 +153,7 @@ export default function DomesticToForeignPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -163,7 +163,7 @@ export default function DomesticToForeignPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：選考対策と英語の準備期間を見込めば現実的</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-2">
               日系での技術力は外資でも通用します。ボトルネックは<strong>選考形式の違い（コーディング面接・システムデザイン・行動面接）</strong>と<strong>英語要件</strong>の2点で、ここを計画的に準備できれば30代・40代でも狙えます。
             </p>
@@ -183,7 +183,7 @@ export default function DomesticToForeignPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">フェーズ</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">日系の傾向</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">外資系の傾向</th>
@@ -202,9 +202,9 @@ export default function DomesticToForeignPage() {
           </div>
           <p className="text-slate-600 text-sm mt-4 leading-relaxed">
             各面接の具体的な対策は
-            <Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>、
-            <Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システムデザイン面接</Link>、
-            <Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接（ビヘイビア面接）</Link>を参照してください。
+            <Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>、
+            <Link href="/knowledge/system-design/" className="text-petrol hover:underline">システムデザイン面接</Link>、
+            <Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（ビヘイビア面接）</Link>を参照してください。
           </p>
         </section>
 
@@ -216,7 +216,7 @@ export default function DomesticToForeignPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">領域</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">日系での状態</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">外資系で必要なこと</th>
@@ -245,7 +245,7 @@ export default function DomesticToForeignPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">ポジションのタイプ</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">英語要件の目安</th>
                 </tr>
@@ -262,7 +262,7 @@ export default function DomesticToForeignPage() {
           </div>
           <p className="text-slate-600 text-sm mt-4 leading-relaxed">
             英語を軸にしたキャリア設計は
-            <Link href="/purpose/english/" className="text-blue-600 hover:underline">英語を活かすエンジニア転職</Link>もあわせてご覧ください。
+            <Link href="/purpose/english/" className="text-petrol hover:underline">英語を活かすエンジニア転職</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -303,7 +303,7 @@ export default function DomesticToForeignPage() {
           <div className="space-y-4">
             {skills.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -353,7 +353,7 @@ export default function DomesticToForeignPage() {
           </div>
           <p className="text-slate-600 text-sm mt-4 leading-relaxed">
             ※数値は自身の実績に基づき正確に記載してください。職務経歴書の基本構成は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニア職務経歴書の書き方</Link>を参照。
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニア職務経歴書の書き方</Link>を参照。
           </p>
         </section>
 
@@ -374,7 +374,7 @@ export default function DomesticToForeignPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -392,9 +392,9 @@ export default function DomesticToForeignPage() {
           </p>
           <p className="text-slate-600 text-sm leading-relaxed">
             年収アップ全般の戦略は
-            <Link href="/purpose/salary-up/" className="text-blue-600 hover:underline">年収UPしたいエンジニアの戦略</Link>、
+            <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収UPしたいエンジニアの戦略</Link>、
             交渉の進め方は
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のコツ</Link>を参照してください。
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>を参照してください。
           </p>
         </section>
 
@@ -430,7 +430,7 @@ export default function DomesticToForeignPage() {
               "リファラルが選考を左右する。コミュニティやLinkedInで在職中から接点を作っておく",
             ].map((t, i) => (
               <li key={i} className="flex gap-2">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span>{t}</span>
               </li>
             ))}
@@ -459,7 +459,7 @@ export default function DomesticToForeignPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -479,7 +479,7 @@ export default function DomesticToForeignPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

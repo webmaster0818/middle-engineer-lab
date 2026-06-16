@@ -111,7 +111,7 @@ export default function FreelanceVsFulltimePage() {
 
         {/* 結論ファースト */}
         <section className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：額面ではなく「手取り・保障・信用」の合計で比べる</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-2">
               フリーランスと正社員は、<strong>額面の単価だけで比べると判断を誤ります</strong>。フリーランスは社会保険料・税金・経費が自己負担で、退職金や有給もありません。正社員は社会保険の会社負担や福利厚生など、額面に表れない価値があります。
@@ -125,7 +125,7 @@ export default function FreelanceVsFulltimePage() {
         {/* 目次 */}
         <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ul className="space-y-2 text-sm text-blue-700">
+          <ul className="space-y-2 text-sm text-petrol-deep">
             <li><a href="#salary" className="hover:underline">年収データで見る前提知識</a></li>
             <li><a href="#compare" className="hover:underline">フリーランスvs正社員 比較表</a></li>
             <li><a href="#tax" className="hover:underline">税・社会保険・信用の違い</a></li>
@@ -149,9 +149,9 @@ export default function FreelanceVsFulltimePage() {
               { age: "40代", v: "約618万円" },
               { age: "50代", v: "約685万円" },
             ].map((d, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-4 text-center">
-                <p className="text-xs text-blue-600 mb-1">{d.age} 正社員SE</p>
-                <p className="text-lg font-bold text-blue-700">{d.v}</p>
+              <div key={i} className="bg-petrol-soft rounded-lg p-4 text-center">
+                <p className="text-xs text-petrol mb-1">{d.age} 正社員SE</p>
+                <p className="text-lg font-bold text-petrol-deep">{d.v}</p>
               </div>
             ))}
           </div>
@@ -221,7 +221,7 @@ export default function FreelanceVsFulltimePage() {
               { num: "5", title: "戻れる前提を確保する", desc: "正社員に戻る選択肢を残すなら、実績の言語化とスキルの陳腐化対策をしておく。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -232,7 +232,7 @@ export default function FreelanceVsFulltimePage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            まず市場価値を測るなら<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>、正社員側の年収戦略は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収戦略</Link>も参考にしてください。
+            まず市場価値を測るなら<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、正社員側の年収戦略は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収戦略</Link>も参考にしてください。
           </p>
         </section>
 
@@ -240,14 +240,14 @@ export default function FreelanceVsFulltimePage() {
         <section id="fit" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人・向いていない人</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="border border-blue-200 rounded-lg p-5">
+            <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">フリーランス向き</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li className="flex gap-2"><span className="text-blue-600">✓</span>特定技術に深い専門性がある</li>
-                <li className="flex gap-2"><span className="text-blue-600">✓</span>自己管理・自己投資ができる</li>
-                <li className="flex gap-2"><span className="text-blue-600">✓</span>住宅ローン等は既に組み終えている</li>
-                <li className="flex gap-2"><span className="text-blue-600">✓</span>収入変動に耐える貯蓄・余裕がある</li>
-                <li className="flex gap-2"><span className="text-blue-600">✓</span>技術に集中したい・社内政治を避けたい</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>特定技術に深い専門性がある</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>自己管理・自己投資ができる</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>住宅ローン等は既に組み終えている</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>収入変動に耐える貯蓄・余裕がある</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>技術に集中したい・社内政治を避けたい</li>
               </ul>
             </div>
             <div className="border border-green-200 rounded-lg p-5">
@@ -267,17 +267,17 @@ export default function FreelanceVsFulltimePage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点での判断</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：ライフイベントとの兼ね合いを最優先に</h3>
-              <p className="text-sm text-blue-700">結婚・出産・住宅購入が重なりやすい時期。社会的信用が必要なイベントの予定があるなら、正社員のうちに済ませてからフリーランスを検討する人が多い。需要面では経産省が2019年に公表した試算で2030年に最大約79万人のIT人材不足とされ、転向の選択肢自体は取りやすい環境。</p>
+              <p className="text-sm text-petrol-deep">結婚・出産・住宅購入が重なりやすい時期。社会的信用が必要なイベントの予定があるなら、正社員のうちに済ませてからフリーランスを検討する人が多い。需要面では経産省が2019年に公表した試算で2030年に最大約79万人のIT人材不足とされ、転向の選択肢自体は取りやすい環境。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験の市場性とリスク許容度の見極め</h3>
-              <p className="text-sm text-blue-700">設計・テックリード・大規模改修などシニアの経験が評価されやすい一方、案件の波や契約途切れのリスクへの備えも重要。複数エージェントへの登録と、早めの次案件探しで安定性を補える。正社員に戻る道も残しておくと安心。</p>
+              <p className="text-sm text-petrol-deep">設計・テックリード・大規模改修などシニアの経験が評価されやすい一方、案件の波や契約途切れのリスクへの備えも重要。複数エージェントへの登録と、早めの次案件探しで安定性を補える。正社員に戻る道も残しておくと安心。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年金・保障の長期設計</h3>
-              <p className="text-sm text-blue-700">フリーランスは厚生年金がなく将来の年金額に差が出やすい。iDeCo・国民年金基金・小規模企業共済などで長期の保障を自分で設計する視点が、30代・40代では特に重要になる。</p>
+              <p className="text-sm text-petrol-deep">フリーランスは厚生年金がなく将来の年金額に差が出やすい。iDeCo・国民年金基金・小規模企業共済などで長期の保障を自分で設計する視点が、30代・40代では特に重要になる。</p>
             </div>
           </div>
         </section>
@@ -306,7 +306,7 @@ export default function FreelanceVsFulltimePage() {
           </p>
           <Link
             href="/compare/agents/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             IT転職エージェント比較を見る
           </Link>
@@ -326,7 +326,7 @@ export default function FreelanceVsFulltimePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

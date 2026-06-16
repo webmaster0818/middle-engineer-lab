@@ -29,7 +29,7 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             30代エンジニアは即戦力として評価されやすい年代です。経済産業省が2019年に公表した試算では2030年に最大約79万人のIT人材が不足するとされ（出典: 経産省「IT人材需給に関する調査」2019年公表）、経験者の需要は底堅い状況が続いています。3年以上の実務経験があれば選択肢は広く取れます。詳しくは
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職ガイド</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職ガイド</Link>
             をご覧ください。
           </>
         ),
@@ -40,9 +40,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             30代より求人数は減る傾向がありますが、十分に現実的です。マネジメント経験があればPM・テックリードとして、技術特化ならアーキテクト・スペシャリストとして評価されます。レバテック公表の年代別平均年収（2025年）では正社員SEの40代は約618万円とされています（出典: career.levtech.jp）。
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職ガイド</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職ガイド</Link>
             と
-            <Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代転職のリアル</Link>
+            <Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代転職のリアル</Link>
             も参考にしてください。
           </>
         ),
@@ -53,9 +53,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             「35歳が限界」という明確な根拠はありません。重要なのは年齢そのものより、求められる役割（マネジメントか技術スペシャリストか）を明確にし、それに合った見せ方で応募することです。
-            <Link href="/age/35/" className="text-blue-600 hover:underline">35歳前後の転職事情</Link>
+            <Link href="/age/35/" className="text-petrol hover:underline">35歳前後の転職事情</Link>
             と
-            <Link href="/knowledge/age-discrimination/" className="text-blue-600 hover:underline">年齢を理由にしないための準備</Link>
+            <Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">年齢を理由にしないための準備</Link>
             で詳しく解説しています。
           </>
         ),
@@ -66,9 +66,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             30代前半までであれば可能性はあります。即戦力採用が中心の年代のため、現職の業務知識とITスキルを組み合わせる戦略が有効です。
-            <Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのIT転職</Link>
+            <Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのIT転職</Link>
             や
-            <Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>
+            <Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>
             を参考にしてください。
           </>
         ),
@@ -85,11 +85,11 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             2〜3社の併用が一般的に効率的とされます。IT特化型1社＋総合型1社の組み合わせがおすすめです。
-            <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェントの使い分け</Link>
+            <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェントの使い分け</Link>
             や
-            <Link href="/knowledge/how-to-choose/" className="text-blue-600 hover:underline">エージェントの選び方</Link>
+            <Link href="/knowledge/how-to-choose/" className="text-petrol hover:underline">エージェントの選び方</Link>
             、
-            <Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較一覧</Link>
+            <Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較一覧</Link>
             を参考にしてください。
           </>
         ),
@@ -100,11 +100,11 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             IT特化型は技術に詳しいアドバイザーが多く、総合型は求人数と全国対応に強みがあります。両タイプの違いは
-            <Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較一覧</Link>
+            <Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較一覧</Link>
             で整理しています。代表例の詳細は
-            <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリアの評判</Link>
+            <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリアの評判</Link>
             や
-            <Link href="/review/doda-it/" className="text-blue-600 hover:underline">doda(IT特化)の評判</Link>
+            <Link href="/review/doda-it/" className="text-petrol hover:underline">doda(IT特化)の評判</Link>
             をご覧ください。
           </>
         ),
@@ -115,9 +115,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             口コミプラットフォーム（Qiita Job Change・みん評等）では、連絡頻度が高い、希望と異なる求人を提案された、といった声が見られます。連絡頻度は初回面談で調整できることが多いです。
-            <Link href="/knowledge/agent-rejection/" className="text-blue-600 hover:underline">紹介を断られたときの対処</Link>
+            <Link href="/knowledge/agent-rejection/" className="text-petrol hover:underline">紹介を断られたときの対処</Link>
             や
-            <Link href="/knowledge/agent-first-meeting/" className="text-blue-600 hover:underline">初回面談で聞かれること</Link>
+            <Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">初回面談で聞かれること</Link>
             も参考にしてください。
           </>
         ),
@@ -128,9 +128,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             年収750万円以上を狙う場合、スカウト型のビズリーチが選択肢になります（年収1,000万円以上求人が全体の約4割との二次情報）。詳細は
-            <Link href="/review/bizreach-it/" className="text-blue-600 hover:underline">ビズリーチの評判</Link>
+            <Link href="/review/bizreach-it/" className="text-petrol hover:underline">ビズリーチの評判</Link>
             や
-            <Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向け比較</Link>
+            <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向け比較</Link>
             をご覧ください。
           </>
         ),
@@ -141,7 +141,7 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             担当者への連絡や問い合わせフォームから退会・利用停止ができます。求職者に費用は発生しません。複数登録の整理の考え方は
-            <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェントの使い分け</Link>
+            <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェントの使い分け</Link>
             で解説しています。
           </>
         ),
@@ -158,9 +158,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳とされています（令和7年賃金構造基本統計調査ベース）。レバテック公表の年代別平均（2025年）では30代約499万円・40代約618万円です。年代別の詳細は
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>
             と
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
             をご覧ください。
           </>
         ),
@@ -171,9 +171,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             公表値ではdodaが転職者の約6割で年収アップ（2024年度・パーソルキャリア公表）、Geeklyが年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）としています。年収アップの進め方は
-            <Link href="/purpose/salary-up/" className="text-blue-600 hover:underline">年収UPを狙う転職ガイド</Link>
+            <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収UPを狙う転職ガイド</Link>
             と
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>
             で解説しています。
           </>
         ),
@@ -184,9 +184,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             年収交渉はエージェント利用の大きなメリットの一つです。根拠となる実績の整理は本人が行う必要があります。具体的な進め方は
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>
             、市場価値の測り方は
-            <Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">自分の市場価値の調べ方</Link>
+            <Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>
             を参考にしてください。
           </>
         ),
@@ -197,9 +197,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             複数エージェントの想定年収やスカウト内容を比較すると相場感がつかめます。スカウト型サービスの活用も有効です。詳しくは
-            <Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">自分の市場価値の調べ方</Link>
+            <Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>
             や
-            <Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトの活用法</Link>
+            <Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトの活用法</Link>
             をご覧ください。
           </>
         ),
@@ -216,9 +216,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             一般的には2〜4ヶ月程度が目安です。在職中に進めるのが一般的です。スケジュールの立て方は
-            <Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職活動の進め方とスケジュール</Link>
+            <Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職活動の進め方とスケジュール</Link>
             、退職の手順は
-            <Link href="/knowledge/resignation/" className="text-blue-600 hover:underline">円満退職の進め方</Link>
+            <Link href="/knowledge/resignation/" className="text-petrol hover:underline">円満退職の進め方</Link>
             で解説しています。
           </>
         ),
@@ -229,7 +229,7 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             担当工程・使用技術・チーム規模・役割・成果を具体的・定量的に書くことが重要です。記入見本付きの解説は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書の書き方</Link>
             をご覧ください。
           </>
         ),
@@ -240,9 +240,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             自社開発企業はアジャイル開発・モダンな技術スタックが多く、個人開発やOSS活動でモダン技術に触れておくと評価が高まります。詳しくは
-            <Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWeb系への転職</Link>
+            <Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>
             や
-            <Link href="/career/se-to-web/" className="text-blue-600 hover:underline">SEからWeb系エンジニアへ</Link>
+            <Link href="/career/se-to-web/" className="text-petrol hover:underline">SEからWeb系エンジニアへ</Link>
             をご覧ください。
           </>
         ),
@@ -253,11 +253,11 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             アルゴリズムの基礎、設計判断の言語化、トレードオフの説明を準備しておくと安心です。対策は
-            <Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>
+            <Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>
             、
-            <Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の準備</Link>
+            <Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>
             、
-            <Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システム設計面接</Link>
+            <Link href="/knowledge/system-design/" className="text-petrol hover:underline">システム設計面接</Link>
             で解説しています。
           </>
         ),
@@ -268,9 +268,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             フルリモート・ハイブリッドを採用する企業が増えています。求人ごとに条件の確認が必要です。リモート求人の探し方は
-            <Link href="/purpose/remote-full/" className="text-blue-600 hover:underline">フルリモート求人の探し方</Link>
+            <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート求人の探し方</Link>
             や
-            <Link href="/compare/remote-agents/" className="text-blue-600 hover:underline">リモート求人に強いエージェント比較</Link>
+            <Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモート求人に強いエージェント比較</Link>
             をご覧ください。
           </>
         ),
@@ -281,9 +281,9 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             「業界知識×ITスキル」の掛け算人材として評価される傾向にあります。業界別の進め方は
-            <Link href="/industry/manufacturing/" className="text-blue-600 hover:underline">製造業からのIT転職</Link>
+            <Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業からのIT転職</Link>
             や
-            <Link href="/industry/finance/" className="text-blue-600 hover:underline">金融業からのIT転職</Link>
+            <Link href="/industry/finance/" className="text-petrol hover:underline">金融業からのIT転職</Link>
             をご覧ください。
           </>
         ),
@@ -340,7 +340,7 @@ export default function FaqPage() {
           <ul className="space-y-2 text-sm">
             {categories.map((c) => (
               <li key={c.id}>
-                <a href={`#${c.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${c.id}`} className="text-petrol hover:underline">
                   {c.title}（{c.faqs.length}問）
                 </a>
               </li>
@@ -405,7 +405,7 @@ export default function FaqPage() {
           </p>
           <a
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             エージェントランキングを見る
           </a>

@@ -130,7 +130,7 @@ export default function GeeklyVsGreenPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="space-y-2 text-sm text-blue-700">
+          <ol className="space-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -141,7 +141,7 @@ export default function GeeklyVsGreenPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-blue-800">サポートを受けながら効率よく転職したいならGeekly。</strong>求人紹介・書類添削・年収交渉まで専任アドバイザーが代行してくれるため、在職中で時間がないエンジニアでも転職活動を進めやすいのが強みです。</p>
             <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-green-800">気になる企業へ自分から直接アプローチしたいならGreen。</strong>エージェントを挟まず、カジュアル面談で社風や開発環境を確かめてから応募できるため、スタートアップ・ベンチャー志望の自走型エンジニアに向いています。</p>
             <p className="text-slate-700 leading-relaxed"><strong>迷うなら併用が最適解。</strong>Geeklyに交渉と非公開求人を任せつつ、Greenで自分から狙いの企業へ動く——役割が被らないため両方無料で使い分ける価値があります。</p>
@@ -163,9 +163,9 @@ export default function GeeklyVsGreenPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">最大の論点：エージェント型（Geekly）vs 直接応募型（Green）</h2>
           <p className="text-slate-600 leading-relaxed mb-5">「Geekly Green 比較」で最も重要なのは、求人数や実績の数字よりも前に、<strong>サービスの仕組みの違い</strong>を理解することです。ここを取り違えると「思っていたサポートが受けられない」というミスマッチが起こります。</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Geekly＝転職エージェント</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">専任アドバイザーが求人を提案し、応募・日程調整・書類添削・面接対策・年収交渉まで代行します。IT/Web/ゲーム業界に特化し、提案スピードが強み。「プロに任せたい」「非公開求人を見たい」人に向く一方、口コミでは連絡頻度の多さを指摘する声もあります。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">専任アドバイザーが求人を提案し、応募・日程調整・書類添削・面接対策・年収交渉まで代行します。IT/Web/ゲーム業界に特化し、提案スピードが強み。「プロに任せたい」「非公開求人を見たい」人に向く一方、口コミでは連絡頻度の多さを指摘する声もあります。</p>
             </div>
             <div className="bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-2">Green＝直接応募型の転職サイト</h3>
@@ -193,7 +193,7 @@ export default function GeeklyVsGreenPage() {
           <p className="text-slate-600 leading-relaxed mb-4">Geeklyは提案スピードが強みとされ、アドバイザーが選考を前に進めてくれます。Greenは自分のペースで動けるぶん、本人が積極的に応募・返信すれば速く、放置すれば止まります。「背中を押してほしい」ならGeekly、「自分のリズムを守りたい」ならGreenです。</p>
 
           <h3 className="text-lg font-bold text-slate-800 mb-2 mt-6">対象層・エリア</h3>
-          <p className="text-slate-600 leading-relaxed">どちらも首都圏が中心です。Greenは地方求人が少ないという二次情報があり、地方在住のミドル層は選択肢が限られる可能性があります。広く全国・幅広い職種を見たい場合は、後述の<Link href="/compare/geekly-vs-workport/" className="text-blue-600 hover:underline">ワークポートとの比較</Link>もあわせて検討すると視野が広がります。</p>
+          <p className="text-slate-600 leading-relaxed">どちらも首都圏が中心です。Greenは地方求人が少ないという二次情報があり、地方在住のミドル層は選択肢が限られる可能性があります。広く全国・幅広い職種を見たい場合は、後述の<Link href="/compare/geekly-vs-workport/" className="text-petrol hover:underline">ワークポートとの比較</Link>もあわせて検討すると視野が広がります。</p>
         </section>
 
         <section id="reviews" className="mb-10 scroll-mt-20">
@@ -204,7 +204,7 @@ export default function GeeklyVsGreenPage() {
               <h3 className="font-bold text-blue-800 mb-3">Geeklyの口コミ傾向</h3>
               <ul className="space-y-2 text-sm">
                 {geeklyReviews.map((r, i) => (
-                  <li key={i} className={r.type === "good" ? "text-slate-600" : "text-slate-500"}><span className={r.type === "good" ? "text-blue-600 font-bold" : "text-rose-500 font-bold"}>{r.type === "good" ? "良い: " : "気になる: "}</span>{r.text}</li>
+                  <li key={i} className={r.type === "good" ? "text-slate-600" : "text-slate-500"}><span className={r.type === "good" ? "text-petrol font-bold" : "text-rose-500 font-bold"}>{r.type === "good" ? "良い: " : "気になる: "}</span>{r.text}</li>
                 ))}
               </ul>
             </div>
@@ -223,9 +223,9 @@ export default function GeeklyVsGreenPage() {
         <section id="checklist" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">Geeklyが向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 {geeklyFor.map((t, i) => (<li key={i}>✓ {t}</li>))}
               </ul>
             </div>
@@ -248,7 +248,7 @@ export default function GeeklyVsGreenPage() {
                 { num: "3", title: "併用パターン（最も効率的）", desc: "Geeklyに交渉・非公開求人・選考管理を任せつつ、Greenで気になる企業へ自分から直接アプローチ。役割が被らず、求人の重複も少ないため選択肢が一気に広がります。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p></div>
                 </div>
               ))}
@@ -262,7 +262,7 @@ export default function GeeklyVsGreenPage() {
           <p className="text-slate-600 leading-relaxed mb-4">まず年収の現実です。レバテック公表の年代別平均年収（2025年）では、正社員SEは30代で約499万円、40代で約618万円。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。ミドル層は若手より交渉のレンジが大きく、<strong>交渉を代行してくれるGeeklyの価値が相対的に高まります</strong>。「現年収を正しく評価してもらい、適正なオファーを引き出す」局面で専任アドバイザーは効いてきます。</p>
           <p className="text-slate-600 leading-relaxed mb-4">一方で40代になると、求人票だけでは分からない「マネジメント比率」「チームの年齢構成」「裁量の大きさ」が転職満足度を左右します。ここで<strong>Greenのカジュアル面談</strong>が独自の意味を持ちます。選考前に現場と直接話し、入社後のギャップを潰せるのは、失敗のコストが大きいミドル層ほど効果的です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">市場環境も追い風です。経産省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。実務経験の厚いミドルエンジニアの需要は中長期で底堅く、経験者向け提案が多いGeeklyと、即戦力を直接探すGreenの双方で評価されやすい立ち位置です。</p>
-          <p className="text-slate-600 leading-relaxed">結論として、30代・40代には<strong>「交渉と非公開求人はGeeklyに任せ、社風確認と直接アプローチはGreenで行う」併用</strong>が、年収最大化とミスマッチ回避を両立する現実的な戦略です。年代別の動き方は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed">結論として、30代・40代には<strong>「交渉と非公開求人はGeeklyに任せ、社風確認と直接アプローチはGreenで行う」併用</strong>が、年収最大化とミスマッチ回避を両立する現実的な戦略です。年代別の動き方は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>もあわせてご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -280,14 +280,14 @@ export default function GeeklyVsGreenPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">仕組みが違うから、併用に価値がある</h2>
           <p className="text-blue-100 text-sm mb-4">Geeklyのプロサポート×Greenの直接アプローチ。役割が被らない2サービスを無料で使い分けましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {relatedArticles.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

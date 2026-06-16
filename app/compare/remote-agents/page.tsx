@@ -148,14 +148,14 @@ export default function RemoteAgentsPage() {
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-4">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：IT特化＋直接応募型を併用する</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">リモート求人は、自分で勤務形態を絞り込める<strong>Green</strong>のような直接応募型と、提案力のある<strong>Geekly</strong>・母数の大きい<strong>doda</strong>などのエージェントを併用すると探しやすくなります。</p>
             <ul className="space-y-2 text-sm text-slate-600">
               <li>① Green：勤務形態で絞り込みやすく、カジュアル面談でリモートの実態を確認できる（仲介サポートはなし）</li>
@@ -182,7 +182,7 @@ export default function RemoteAgentsPage() {
               <tbody className="align-top">
                 {services.map((s, i) => (
                   <tr key={i} className="hover:bg-slate-50">
-                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={s.href} className="text-blue-600 hover:underline">{s.name}</Link></td>
+                    <td className="px-3 py-3 border border-slate-200 font-medium"><Link href={s.href} className="text-petrol hover:underline">{s.name}</Link></td>
                     <td className="px-3 py-3 border border-slate-200">{s.type}</td>
                     <td className="px-3 py-3 border border-slate-200">{s.company}</td>
                     <td className="px-3 py-3 border border-slate-200">{s.field}</td>
@@ -201,19 +201,19 @@ export default function RemoteAgentsPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">1</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
                 <p className="text-sm text-slate-600"><strong>勤務形態を最初に明言する:</strong> 「フルリモート希望」「週◯日まで出社可」など許容範囲をエージェントに伝え、条件に合う求人だけを提案してもらう。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">2</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
                 <p className="text-sm text-slate-600"><strong>直接応募型で自分でも検索する:</strong> Greenのような媒体で勤務形態を絞り込み、エージェント提案と二重に探すと取りこぼしが減る。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">3</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
                 <p className="text-sm text-slate-600"><strong>カジュアル面談で実態を確認する:</strong> 求人票が「リモート可」でも、実際の出社頻度やチーム文化は企業差が大きい。面談で運用実態を聞く。</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">4</span>
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">4</span>
                 <p className="text-sm text-slate-600"><strong>応募直前に勤務形態を再確認する:</strong> リモート条件は変動するため、応募前に最新の求人票・担当者情報で条件を再チェックする。</p>
               </div>
             </div>
@@ -296,7 +296,7 @@ export default function RemoteAgentsPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>当サイトの読者は30代・40代のミドルエンジニアが中心です。この年代がリモート転職を狙うときの強みは、すでに実務経験があり「リモートでも自走できる人材」として評価されやすい点です。Web系・クラウド系など自走しやすい領域の経験があるほど、リモート求人の選択肢は広がります。</p>
             <p>一方で注意点もあります。リモート前提の転職では、入社後のオンボーディングや人間関係の構築が対面より難しくなりがちです。30代・40代はチームを牽引する立場を期待されることも多いため、カジュアル面談の段階で「リモート下でのコミュニケーション設計」「出社頻度の実態」を確認しておくと、入社後のミスマッチを避けられます。</p>
-            <p>また、リモート可の求人は条件が変動しやすく、件数も時期で増減します。焦って件数の多さだけで選ぶより、勤務形態を明言して条件の合う求人を着実に絞り込む方が、結果的に満足度の高い転職につながります。地方在住で首都圏企業を狙う場合は、<Link href="/area/remote/" className="text-blue-600 hover:underline">フルリモートIT転職ガイド</Link>や<Link href="/area/iiju/" className="text-blue-600 hover:underline">地方移住×IT転職</Link>も合わせて確認してください。</p>
+            <p>また、リモート可の求人は条件が変動しやすく、件数も時期で増減します。焦って件数の多さだけで選ぶより、勤務形態を明言して条件の合う求人を着実に絞り込む方が、結果的に満足度の高い転職につながります。地方在住で首都圏企業を狙う場合は、<Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>や<Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職</Link>も合わせて確認してください。</p>
           </div>
         </section>
 
@@ -315,14 +315,14 @@ export default function RemoteAgentsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">リモート求人は「絞り込み」で取りこぼさない</h2>
           <p className="text-blue-100 text-sm mb-4">直接応募型と仲介型を併用し、勤務形態を明言して条件の合う求人を確実に拾いましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-4">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

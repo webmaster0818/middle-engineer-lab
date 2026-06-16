@@ -162,9 +162,9 @@ export default function SmoothResignationPage() {
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             退職の「伝え方」は知っていても、いざ切り出すと引き止めや難航ケースで揺らいでしまう——これは30代・40代のエンジニアに特に多い悩みです。本記事は、退職を伝えた後の<strong>交渉術</strong>に絞って掘り下げます。切り出す順序、カウンターオファーの返し方、後任不在・繁忙期・損害賠償の脅しといった難航ケースの打開策を、例文付きで整理しました。退職そのものの切り出し方の例文集は
-            <Link href="/knowledge/resignation/" className="text-blue-600 hover:underline">退職の伝え方</Link>
+            <Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の伝え方</Link>
             、退職後の手続きは
-            <Link href="/knowledge/after-resignation-procedures/" className="text-blue-600 hover:underline">退職後の手続き</Link>
+            <Link href="/knowledge/after-resignation-procedures/" className="text-petrol hover:underline">退職後の手続き</Link>
             にまとめています。
           </p>
         </section>
@@ -176,14 +176,14 @@ export default function SmoothResignationPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：相談ではなく報告。順序と前向きな理由で決める</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・意思が固いなら「相談」でなく<strong>「報告」</strong>として伝える。翻意の余地を見せない。</li>
@@ -254,7 +254,7 @@ export default function SmoothResignationPage() {
           <div className="space-y-4">
             {order.map((item) => (
               <div key={item.step} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.step}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -287,7 +287,7 @@ export default function SmoothResignationPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">引き止め（カウンターオファー）の返し方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             条件提示で残留するかどうかを本気で検討する場合の判断軸は、
-            <Link href="/knowledge/counter-offer/" className="text-blue-600 hover:underline">カウンターオファーへの対応</Link>
+            <Link href="/knowledge/counter-offer/" className="text-petrol hover:underline">カウンターオファーへの対応</Link>
             にまとめています。ここでは「断る」と決めた前提での返し方を例文化します。
           </p>
           <div className="space-y-4">
@@ -295,7 +295,7 @@ export default function SmoothResignationPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2">{item.q}</h3>
                 <p className="text-sm text-slate-600 mb-2">{item.a}</p>
-                <p className="text-sm text-slate-700 bg-blue-50 rounded p-3">返し方：{item.script}</p>
+                <p className="text-sm text-slate-700 bg-petrol-soft rounded p-3">返し方：{item.script}</p>
               </div>
             ))}
           </div>
@@ -311,13 +311,13 @@ export default function SmoothResignationPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2">{item.q}</h3>
                 <p className="text-sm text-slate-600 mb-2">{item.a}</p>
-                <p className="text-sm text-slate-700 bg-blue-50 rounded p-3">対応例：{item.script}</p>
+                <p className="text-sm text-slate-700 bg-petrol-soft rounded p-3">対応例：{item.script}</p>
               </div>
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
             ハラスメントを伴う強い引き止めや、心身の負担で直接の交渉が難しい場合は、第三者に間に入ってもらう選択肢もあります。運営主体ごとの違い（民間業者・労働組合・弁護士）と、SES・客先常駐特有の注意点は
-            <Link href="/knowledge/retirement-agency/" className="text-blue-600 hover:underline">退職代行の選び方</Link>
+            <Link href="/knowledge/retirement-agency/" className="text-petrol hover:underline">退職代行の選び方</Link>
             で解説しています。
           </p>
         </section>
@@ -339,13 +339,13 @@ export default function SmoothResignationPage() {
             エンジニアの退職交渉が難航しやすい最大の理由は、仕掛中の開発と属人化です。「あなたにしか分からない」状態が残っていると、それ自体が引き止めの強力な材料になります。逆に言えば、属人化を解いておくことが最良の交渉カードになります。
           </p>
           <ul className="space-y-3 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>仕掛中のタスクは状態（着手済/レビュー待ち/未着手）を早めに可視化し、いつでも他者が引き取れる形にしておく。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>属人化したコード・インフラ設定・運用手順を文書化し、「私がいないと回らない」を解消する。</span></li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>リリースや障害対応の山場を避けて切り出すと、引き止めの正当性が下がる。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>仕掛中のタスクは状態（着手済/レビュー待ち/未着手）を早めに可視化し、いつでも他者が引き取れる形にしておく。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>属人化したコード・インフラ設定・運用手順を文書化し、「私がいないと回らない」を解消する。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>リリースや障害対応の山場を避けて切り出すと、引き止めの正当性が下がる。</span></li>
           </ul>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
             引き継ぎドキュメントの具体的な構成とテンプレートは
-            <Link href="/knowledge/handover/" className="text-blue-600 hover:underline">引き継ぎドキュメントの作り方</Link>
+            <Link href="/knowledge/handover/" className="text-petrol hover:underline">引き継ぎドキュメントの作り方</Link>
             にまとめています。
           </p>
         </section>
@@ -355,7 +355,7 @@ export default function SmoothResignationPage() {
           <div className="space-y-4">
             {timeline.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center min-w-[80px] h-8 rounded-full bg-blue-600 text-white font-bold text-xs shrink-0">{item.period}</span>
+                <span className="flex items-center justify-center min-w-[80px] h-8 rounded-full bg-petrol text-white font-bold text-xs shrink-0">{item.period}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -363,7 +363,7 @@ export default function SmoothResignationPage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 週数は一例です。就業規則の通知期間や担当業務に合わせて調整してください。全体の活動計画は<Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職スケジュール</Link>も参照。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 週数は一例です。就業規則の通知期間や担当業務に合わせて調整してください。全体の活動計画は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照。</p>
         </section>
 
         <section id="middle" className="mb-10 scroll-mt-20">
@@ -378,7 +378,7 @@ export default function SmoothResignationPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">「立つ鳥跡を濁さず」が後で効く</h3>
-              <p className="text-sm text-slate-600">IT業界は転職で再会する機会が多く、元上司や元同僚が次の取引先・リファラル元になることも珍しくありません。交渉で関係を壊さないことが、将来の選択肢を守ります。年収条件の交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉テクニック</Link>も参考に。</p>
+              <p className="text-sm text-slate-600">IT業界は転職で再会する機会が多く、元上司や元同僚が次の取引先・リファラル元になることも珍しくありません。交渉で関係を壊さないことが、将来の選択肢を守ります。年収条件の交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉テクニック</Link>も参考に。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">家庭の事情を「引けない理由」に変える</h3>
@@ -409,7 +409,7 @@ export default function SmoothResignationPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -429,7 +429,7 @@ export default function SmoothResignationPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -137,7 +137,7 @@ export default function AmazonCompanyPage() {
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -147,7 +147,7 @@ export default function AmazonCompanyPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <h2 className="text-xl font-bold text-blue-900 mb-3">結論：難易度と向くエンジニア</h2>
             <p className="text-blue-900 text-sm leading-relaxed mb-3">
               Amazon／AWSジャパンのエンジニア中途採用は<strong>最難関クラス</strong>ですが、Googleと比べると
@@ -160,9 +160,9 @@ export default function AmazonCompanyPage() {
             </ul>
             <p className="text-blue-900 text-sm leading-relaxed mt-3">
               OLP対策は
-              <Link href="/knowledge/behavioral/" className="text-blue-700 underline font-medium">行動面接（STAR法）の準備</Link>
+              <Link href="/knowledge/behavioral/" className="text-petrol-deep underline font-medium">行動面接（STAR法）の準備</Link>
               、技術面は
-              <Link href="/knowledge/coding-test/" className="text-blue-700 underline font-medium">コーディングテスト対策</Link>
+              <Link href="/knowledge/coding-test/" className="text-petrol-deep underline font-medium">コーディングテスト対策</Link>
               から着手するのが王道です。
             </p>
           </div>
@@ -194,22 +194,22 @@ export default function AmazonCompanyPage() {
         <section id="hiring" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">OLP（Our Leadership Principles）が評価の核</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Amazonは全社員がリーダーという考えのもと、16項目のOLPに沿って行動することが期待されます。面接質問の多くが特定のOLPへの適合を見るために設計されている、と一般に知られています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Bar Raiser 制度</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 対象チーム外の訓練された面接官（Bar
                 Raiser）が面接に加わり、採用基準の一貫性と質を担保します。人手不足でも基準を下げない仕組みとして知られています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">少人数・自律のチーム文化</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 小さなチームが設計・開発・運用までオーナーシップを持って担う文化（いわゆるTwo-Pizza
                 Team）が知られ、サービスを一気通貫で見られる経験が積めます。
               </p>
@@ -225,10 +225,10 @@ export default function AmazonCompanyPage() {
             ドキュメント重視（PR/FAQやナラティブ文化）で、口頭プレゼンより文章で論点を整理する文化が知られています。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>サーバーレス／マネージドサービス（Lambda・DynamoDB・ECS等）を前提とした設計</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>運用・可用性・コストまで自チームで責任を持つオペレーション文化</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS</Link>・<Link href="/skill/java/" className="text-blue-600 hover:underline">Java</Link>・<Link href="/skill/python/" className="text-blue-600 hover:underline">Python</Link>の実務経験が評価されやすい</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>文章で設計判断を残す文化のため、ドキュメンテーション力が活きる</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>サーバーレス／マネージドサービス（Lambda・DynamoDB・ECS等）を前提とした設計</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>運用・可用性・コストまで自チームで責任を持つオペレーション文化</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>・<Link href="/skill/java/" className="text-petrol hover:underline">Java</Link>・<Link href="/skill/python/" className="text-petrol hover:underline">Python</Link>の実務経験が評価されやすい</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>文章で設計判断を残す文化のため、ドキュメンテーション力が活きる</li>
           </ul>
         </section>
 
@@ -270,9 +270,9 @@ export default function AmazonCompanyPage() {
           </p>
           <p className="text-slate-600 text-sm mt-4">
             年収の考え方は
-            <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉のやり方</Link>
+            <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のやり方</Link>
             、外資の総報酬構造は
-            <Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">オファー比較の考え方</Link>
+            <Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">オファー比較の考え方</Link>
             も参考にしてください。
           </p>
         </section>
@@ -288,7 +288,7 @@ export default function AmazonCompanyPage() {
               ["内定", "条件提示。応募から内定まで1〜1.5か月程度かかる方が多いと公式に記載。現在はほぼオンライン実施。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
                 <div>
                   <p className="font-bold text-slate-800">{title}</p>
                   <p className="text-slate-600">{desc}</p>
@@ -306,11 +306,11 @@ export default function AmazonCompanyPage() {
             具体的な質問リストは公式には公開されていません。ここでは公式のOLPと、一般に知られている準備の方向性に留めて整理します。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>Customer Obsession</strong>：顧客起点で考え行動した経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>Ownership</strong>：担当範囲を超えて主体的に動いた経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>Dive Deep / Earn Trust</strong>：データで深掘りし、信頼を築いた経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>各エピソードを<strong>STAR形式（状況・課題・行動・結果）</strong>で語れること（<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">準備ガイド</Link>）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術面はコーディング／<Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システムデザイン</Link>の基礎</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>Customer Obsession</strong>：顧客起点で考え行動した経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>Ownership</strong>：担当範囲を超えて主体的に動いた経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>Dive Deep / Earn Trust</strong>：データで深掘りし、信頼を築いた経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>各エピソードを<strong>STAR形式（状況・課題・行動・結果）</strong>で語れること（<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">準備ガイド</Link>）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術面はコーディング／<Link href="/knowledge/system-design/" className="text-petrol hover:underline">システムデザイン</Link>の基礎</li>
           </ul>
         </section>
 
@@ -355,11 +355,11 @@ export default function AmazonCompanyPage() {
             </p>
             <p>
               準備は
-              <Link href="/career/domestic-to-foreign/" className="text-blue-600 hover:underline">国内企業から外資系への転職</Link>
+              <Link href="/career/domestic-to-foreign/" className="text-petrol hover:underline">国内企業から外資系への転職</Link>
               、クラウド領域の伸ばし方は
-              <Link href="/skill/aws/" className="text-blue-600 hover:underline">AWSスキルの転職市場</Link>
+              <Link href="/skill/aws/" className="text-petrol hover:underline">AWSスキルの転職市場</Link>
               、英語面は
-              <Link href="/purpose/english/" className="text-blue-600 hover:underline">英語を使う仕事への転職</Link>
+              <Link href="/purpose/english/" className="text-petrol hover:underline">英語を使う仕事への転職</Link>
               を参考にしてください。
             </p>
           </div>
@@ -374,7 +374,7 @@ export default function AmazonCompanyPage() {
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。技術職の選考対策・キャリアの棚卸しに強い。" },
               { name: "Geekly（ギークリー）", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが速く、選択肢を素早く広げたい人向け。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
@@ -406,7 +406,7 @@ export default function AmazonCompanyPage() {
           </p>
           <Link
             href="/review/bizreach-it/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントを見る
           </Link>
@@ -427,7 +427,7 @@ export default function AmazonCompanyPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

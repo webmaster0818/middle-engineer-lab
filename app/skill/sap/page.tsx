@@ -145,7 +145,7 @@ export default function SapSkillPage() {
         {/* 目次 */}
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -159,7 +159,7 @@ export default function SapSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SAP転職の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               SAP転職は<strong>「特定モジュールまたはABAP開発の専門性を軸に、S/4HANA移行の文脈で売り込む」</strong>のが基本戦略です。年収レンジが広い領域のため、ハイクラス系エージェントを含めて複数比較するのが重要です。
             </p>
@@ -247,7 +247,7 @@ export default function SapSkillPage() {
             {careerPaths.map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
-                <p className="text-xs text-blue-600 font-medium mb-2">関連資格: {item.cert}</p>
+                <p className="text-xs text-petrol font-medium mb-2">関連資格: {item.cert}</p>
                 <p className="text-sm text-slate-600">{item.note}</p>
               </div>
             ))}
@@ -263,25 +263,25 @@ export default function SapSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/bizreach-it/" className="text-blue-700 hover:underline">ビズリーチ</Link>
+                <Link href="/review/bizreach-it/" className="text-petrol-deep hover:underline">ビズリーチ</Link>
               </h3>
               <p className="text-sm text-slate-600">ハイクラス・スカウト型。年収750万円以上をハイクラス層とし、年収1,000万円以上求人の比率が高いとされる（二次情報）。SAPコンサル/PM案件に強い。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/levtech/" className="text-blue-700 hover:underline">レバテックキャリア</Link>
+                <Link href="/review/levtech/" className="text-petrol-deep hover:underline">レバテックキャリア</Link>
               </h3>
               <p className="text-sm text-slate-600">IT/Web特化で専門アドバイザーが在籍。高年収求人の比率が高いとされる（同社ガイド記事）。ABAP開発寄りのSAP求人も探しやすい。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/doda-it/" className="text-blue-700 hover:underline">doda ITエンジニア</Link>
+                <Link href="/review/doda-it/" className="text-petrol-deep hover:underline">doda ITエンジニア</Link>
               </h3>
               <p className="text-sm text-slate-600">国内最大級の求人数で、検索＋エージェント＋スカウトのハイブリッド型。幅広いSAP求人を比較しやすい。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            ハイクラス向けの選び方は<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けエージェント比較</Link>、複数登録の使い分けは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>も参考にしてください。
+            ハイクラス向けの選び方は<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けエージェント比較</Link>、複数登録の使い分けは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>も参考にしてください。
           </p>
         </section>
 
@@ -299,7 +299,7 @@ export default function SapSkillPage() {
               { t: "認定資格で学習成果を可視化する", d: "対応ジャンルの認定を取得し、書類段階でスキルの裏付けを示す。最新の制度はSAP公式で確認する。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{s.t}</h3>
                   <p className="text-sm text-slate-600">{s.d}</p>
@@ -322,7 +322,7 @@ export default function SapSkillPage() {
               <li>・年収レンジが広いため、ハイクラス系エージェントで上振れを狙う価値がある</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
-              年代別の相場感は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">自分の市場価値の調べ方</Link>もあわせてどうぞ。
+              年代別の相場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>もあわせてどうぞ。
             </p>
           </div>
         </section>
@@ -342,7 +342,7 @@ export default function SapSkillPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            SAP認定資格は有効期限が見直された（2024年度・SAP社発表との情報）ため、取得後の更新要否を含め最新制度はSAP公式で確認してください。資格に加え、S/4HANA移行プロジェクトの経験を語れることが選考での決め手になります。継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの学習を続けるコツ</Link>も参考にどうぞ。
+            SAP認定資格は有効期限が見直された（2024年度・SAP社発表との情報）ため、取得後の更新要否を含め最新制度はSAP公式で確認してください。資格に加え、S/4HANA移行プロジェクトの経験を語れることが選考での決め手になります。継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>も参考にどうぞ。
           </p>
         </section>
 
@@ -370,7 +370,7 @@ export default function SapSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -390,7 +390,7 @@ export default function SapSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -403,8 +403,8 @@ export default function SapSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/accenture/" className="text-blue-700 hover:underline">アクセンチュア</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/accenture/" className="text-petrol-deep hover:underline">アクセンチュア</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

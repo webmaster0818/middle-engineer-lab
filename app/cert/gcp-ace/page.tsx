@@ -117,7 +117,7 @@ export default function GcpAceCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -128,7 +128,7 @@ export default function GcpAceCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ACEはどんな人に効く資格か</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               ACEは<strong>「GCPを扱える実務の証明」</strong>です。アソシエイト（入口寄り）の位置づけで、すでにインフラ・クラウドの経験があるミドルが<strong>GCPへ守備範囲を広げる起点</strong>として効きます。
             </p>
@@ -215,7 +215,7 @@ export default function GcpAceCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            GCPそのものの市場感は<Link href="/skill/gcp/" className="text-blue-600 hover:underline">GCPエンジニア転職ガイド</Link>、インフラ全般は<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラエンジニア転職ガイド</Link>を参考にしてください。
+            GCPそのものの市場感は<Link href="/skill/gcp/" className="text-petrol hover:underline">GCPエンジニア転職ガイド</Link>、インフラ全般は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>を参考にしてください。
           </p>
         </section>
 
@@ -255,7 +255,7 @@ export default function GcpAceCertPage() {
             活用戦略は3つに整理できます。第一に<strong>GCP案件への足がかり</strong>。GCPを扱える前提スキルを示し、書類選考の通過率を上げられます。第二に<strong>マルチクラウドの幅</strong>。AWS・Azure経験に積み増すことで、対応できるクラウドの幅をアピールできます。第三に<strong>上位資格への布石</strong>。ACEで土台を作ってからPCAへ進めば、運用から設計まで一貫したキャリアストーリーになります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。ACEは<strong>アソシエイトという位置づけのため、これ単体で上流設計まで保証する資格ではありません</strong>。効果が出るのは「GCP実務 × 資格」が成立したときです。また有効期限が3年あり、取りっぱなしでは失効します。逆に言えば、GCPに守備範囲を広げたい30〜40代の起点としては、費用対効果の高い資格です。上流まで示したいなら<Link href="/cert/gcp-pca/" className="text-blue-600 hover:underline">Professional Cloud Architect</Link>へ進みましょう。
+            正直なデメリットも押さえておきましょう。ACEは<strong>アソシエイトという位置づけのため、これ単体で上流設計まで保証する資格ではありません</strong>。効果が出るのは「GCP実務 × 資格」が成立したときです。また有効期限が3年あり、取りっぱなしでは失効します。逆に言えば、GCPに守備範囲を広げたい30〜40代の起点としては、費用対効果の高い資格です。上流まで示したいなら<Link href="/cert/gcp-pca/" className="text-petrol hover:underline">Professional Cloud Architect</Link>へ進みましょう。
           </p>
         </section>
 
@@ -270,7 +270,7 @@ export default function GcpAceCertPage() {
               一方で過度な期待は禁物です。ACEを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。GCPの運用・構築の実績と組み合わせて初めて、案件の幅や上位資格への道が開けます。上流の設計力まで示したい場合は、ACEを起点にPCAへ進むのが王道です。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -285,7 +285,7 @@ export default function GcpAceCertPage() {
               { n: "STEP 3", t: "合格→PCAで上流へ", d: "合格後はGCP実務に関わりつつ、有効期限内に更新。設計力まで示すなら上位のPCAに挑戦する。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -294,7 +294,7 @@ export default function GcpAceCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            上位を狙うなら<Link href="/cert/gcp-pca/" className="text-blue-600 hover:underline">Professional Cloud Architect</Link>、他クラウドと比較するなら<Link href="/cert/aws/" className="text-blue-600 hover:underline">AWS認定</Link>・<Link href="/cert/azure-solutions-architect/" className="text-blue-600 hover:underline">Azure Solutions Architect Expert</Link>も有効です。資格全体の位置づけは<Link href="/cert/" className="text-blue-600 hover:underline">資格で選ぶ転職ハブ</Link>で確認できます。
+            上位を狙うなら<Link href="/cert/gcp-pca/" className="text-petrol hover:underline">Professional Cloud Architect</Link>、他クラウドと比較するなら<Link href="/cert/aws/" className="text-petrol hover:underline">AWS認定</Link>・<Link href="/cert/azure-solutions-architect/" className="text-petrol hover:underline">Azure Solutions Architect Expert</Link>も有効です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">資格で選ぶ転職ハブ</Link>で確認できます。
           </p>
         </section>
 
@@ -322,7 +322,7 @@ export default function GcpAceCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -342,7 +342,7 @@ export default function GcpAceCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -119,7 +119,7 @@ export default function MidworksVsItproPartnersPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -130,7 +130,7 @@ export default function MidworksVsItproPartnersPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
               安定を最優先するなら「Midworks」、柔軟な働き方（週2-3日・副業・独立準備）を最優先するなら「ITプロパートナーズ」。
             </p>
@@ -172,9 +172,9 @@ export default function MidworksVsItproPartnersPage() {
         <section id="stability" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">保障・安定性で比較</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Midworks：報酬保障＋福利厚生</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 案件と案件の間で収入が途切れた際に報酬の60%を保障する仕組み（二次情報・適用条件あり）と、正社員並みの福利厚生が最大の差別化点です。独立後の最大の不安である「案件が切れたときの収入」を抑えられます。
               </p>
             </div>
@@ -203,9 +203,9 @@ export default function MidworksVsItproPartnersPage() {
         <section id="price" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">単価・マージン構造で比較</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Midworks：保障の対価としてのマージン</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 マージンは媒体指摘で約20%とされやや高めですが、これは公式公表値ではありません（確認不可）。報酬保障と福利厚生という付加価値の対価と捉えると評価が変わります。「安定のコストを払う」構造です。
               </p>
             </div>
@@ -218,7 +218,7 @@ export default function MidworksVsItproPartnersPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-2">
             単価・手取りだけを最大化したいなら、さらに案件量最大手級の
-            <Link href="/review/levtech-freelance/" className="text-blue-600 hover:underline">レバテックフリーランス</Link>
+            <Link href="/review/levtech-freelance/" className="text-petrol hover:underline">レバテックフリーランス</Link>
             も含めて提示単価を並べて比較するのが合理的です。保障が不要なら他社の方が手取りが増える可能性があり、保障が必要ならマージン差は「安心料」として納得しやすくなります。
           </p>
           <p className="text-xs text-slate-500">
@@ -233,7 +233,7 @@ export default function MidworksVsItproPartnersPage() {
               <h3 className="font-bold text-slate-800 mb-3">Midworksが強い領域</h3>
               <div className="flex flex-wrap gap-2">
                 {["常時1万件以上", "非公開約80%", "週5常駐フルコミット", "報酬保障", "正社員並み福利厚生", "首都圏＋リモート"].map((tag, i) => (
-                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700">{tag}</span>
+                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
               <p className="text-xs text-slate-500 mt-3">※ 保障型でありながら案件量も最大手級。登録者5万人（2025年4月・二次情報）。</p>
@@ -286,9 +286,9 @@ export default function MidworksVsItproPartnersPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">Midworksが向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 <li>✓ 独立したいが不安定が怖い経験者</li>
                 <li>✓ 家族・ローンがあり収入の安定を重視したい</li>
                 <li>✓ 福利厚生・報酬保障を受けながら始めたい</li>
@@ -319,7 +319,7 @@ export default function MidworksVsItproPartnersPage() {
                 { num: "3", title: "併用＋レバテックフリーランス", desc: "両方無料のため、安定軸のMidworksと柔軟軸のITプロパートナーズを比較。単価をさらに最大化したい場合はレバテックフリーランスも含めた3社で提示単価と条件を見比べると選択肢が最大化します。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div>
                     <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                     <p className="text-sm text-slate-600">{item.desc}</p>
@@ -329,7 +329,7 @@ export default function MidworksVsItproPartnersPage() {
             </div>
             <p className="text-xs text-slate-500 mt-4">
               フリーランス3社の住み分けは
-              <Link href="/compare/freelance-agents/" className="text-blue-600 hover:underline">フリーランスエージェント比較</Link>
+              <Link href="/compare/freelance-agents/" className="text-petrol hover:underline">フリーランスエージェント比較</Link>
               で詳しく扱っています。
             </p>
           </div>
@@ -346,11 +346,11 @@ export default function MidworksVsItproPartnersPage() {
             </p>
             <p className="text-slate-600 leading-relaxed text-sm">
               <span className="font-bold text-slate-700">40代の場合：</span>扶養家族やローンの負担が大きく、収入の安定が一段と重要です。Midworksの保障を土台にマネジメント・設計経験を活かす、またはITプロパートナーズで少日数案件を組み合わせて収入源を分散する、いずれも合理的です。「いつでも正社員に戻れる状態」を保つ意識も大切で、考え方は
-              <Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスと正社員の比較</Link>
+              <Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスと正社員の比較</Link>
               を参照してください。
             </p>
             <p className="text-xs text-slate-500">
-              ※ そもそも安定した正社員雇用を希望する場合は、正社員転職の<Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>に相談するのが近道です。
+              ※ そもそも安定した正社員雇用を希望する場合は、正社員転職の<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>に相談するのが近道です。
             </p>
           </div>
         </section>
@@ -377,7 +377,7 @@ export default function MidworksVsItproPartnersPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -390,7 +390,7 @@ export default function MidworksVsItproPartnersPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

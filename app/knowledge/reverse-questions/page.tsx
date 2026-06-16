@@ -181,7 +181,7 @@ export default function ReverseQuestionsPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -192,7 +192,7 @@ export default function ReverseQuestionsPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：逆質問の基本方針</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               逆質問の基本は、<strong>「仕事内容・技術・チーム・キャリア」の4テーマから、相手の役割に合った質問を2〜3個」</strong>用意すること。調べればわかることや待遇の詰問は避け、課題を尋ねて「自分ならどう貢献できるか」を示せる質問が高評価につながります。
             </p>
@@ -235,7 +235,7 @@ export default function ReverseQuestionsPage() {
                 <ul className="px-5 py-4 space-y-2">
                   {g.items.map((q, j) => (
                     <li key={j} className="text-sm text-slate-700 leading-relaxed flex gap-2">
-                      <span className="text-blue-500 shrink-0">・</span>
+                      <span className="text-petrol shrink-0">・</span>
                       <span>{q}</span>
                     </li>
                   ))}
@@ -253,15 +253,15 @@ export default function ReverseQuestionsPage() {
           </p>
           <div className="space-y-4">
             {midlifeQuestions.map((m, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{m.title}</h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{m.desc}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{m.desc}</p>
               </div>
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             マネジメント職への転換を考えている場合は
-            <Link href="/knowledge/management/" className="text-blue-600 hover:underline">マネジメント転身ガイド</Link>
+            <Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメント転身ガイド</Link>
             も参考になります。
           </p>
         </section>
@@ -313,7 +313,7 @@ export default function ReverseQuestionsPage() {
               "メモを取りながら聞くと、熱心さが伝わり、入社後の判断材料にもなる。",
             ].map((tip, i) => (
               <li key={i} className="flex gap-3 items-start border border-slate-200 rounded-lg p-4">
-                <span className="text-blue-500 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span className="text-sm text-slate-600 leading-relaxed">{tip}</span>
               </li>
             ))}
@@ -344,7 +344,7 @@ export default function ReverseQuestionsPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -364,7 +364,7 @@ export default function ReverseQuestionsPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

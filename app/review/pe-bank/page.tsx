@@ -203,7 +203,7 @@ export default function PeBankReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：手数料の透明性と保障・全国対応で、腰を据えて長く独立したい経験者向け</span>。一言でいえば「手取りの見える化と安定を重視するIT実務経験者」向けのフリーランスエージェントです。
@@ -219,7 +219,7 @@ export default function PeBankReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -256,27 +256,27 @@ export default function PeBankReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">PE-BANKの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 手数料（マージン）を完全公開</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 多くのフリーランスエージェントがマージン非公表の中、PE-BANKは手数料を公開しています。共同受注の仕組みで発注金額・手数料が見えるため、自分の取り分（手取り）を把握しやすいのが最大の特徴です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 長く働くほど手数料が下がる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 手数料は契約の合計月数に応じて12%（1〜12ヶ月）→10%（13〜24ヶ月）→8%（25ヶ月以上）と逓減します。長期で活動するほど取り分が増える設計で、腰を据えて続けたい人に有利です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 共済会の保障</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 共済会（月2,500〜12,850円）で、所得補償・生命/がん共済・入院日額手当て・連鎖倒産防止制度・事業資金/起業支援貸付・資格取得支援・慶弔金制度などが利用できます。独立後に手薄になりがちな保障面を補えます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 全国12拠点・30年以上の実績</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 東京・大阪・愛知だけでなく北海道・東北・岡山・広島・九州など全国12拠点があり、地方在住でも案件を探しやすいのが強みです。30年以上のIT技術者支援という歴史も安心材料です。
               </p>
             </div>
@@ -330,14 +330,14 @@ export default function PeBankReview() {
             </p>
             <p>
               一方で、手数料の低さだけで損得は決まりません。実務上は①公開手数料を踏まえた手取り②案件の単価水準（モダンな高単価案件は他社が強いことも）③共済会の保障価値、を総合的に見るのが妥当です。マージン非公表の
-              <Link href="/review/geechs/" className="text-blue-600 hover:underline">ギークスジョブ</Link>
+              <Link href="/review/geechs/" className="text-petrol hover:underline">ギークスジョブ</Link>
               や
-              <Link href="/review/levtech-freelance/" className="text-blue-600 hover:underline">レバテックフリーランス</Link>
+              <Link href="/review/levtech-freelance/" className="text-petrol hover:underline">レバテックフリーランス</Link>
               の提示単価と並べて比較すると、PE-BANKの透明性のメリットが判断しやすくなります。
             </p>
             <p>
               30代・40代で家族やローンがある場合、共済会の所得補償・連鎖倒産防止などは<span className="font-bold">案件が途切れたときの備え</span>として検討価値があります。ただし任意加入で費用がかかるため、必要な保障だけを見極めて加入を判断しましょう。報酬保障型の
-              <Link href="/review/midworks/" className="text-blue-600 hover:underline">Midworks</Link>
+              <Link href="/review/midworks/" className="text-petrol hover:underline">Midworks</Link>
               と比較し、自分のリスク許容度に合う形を選ぶとよいでしょう。
             </p>
           </div>
@@ -362,7 +362,7 @@ export default function PeBankReview() {
             </p>
             <p>
               経産省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が見込まれており、経験あるミドル層への需要は底堅いと考えられます。「いつでも正社員に戻れる状態」を保っておくと安心です。安定雇用を希望する場合は、正社員転職の
-              <Link href="/review/levtech-career/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech-career/" className="text-petrol hover:underline">レバテックキャリア</Link>
               も検討してください。
             </p>
           </div>
@@ -405,7 +405,7 @@ export default function PeBankReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -442,16 +442,16 @@ export default function PeBankReview() {
             </table>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテックフリーランス（高単価）の評判 →
             </Link>
-            <Link href="/review/geechs/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/geechs/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ギークスジョブ（リモート）の評判 →
             </Link>
-            <Link href="/review/midworks/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/midworks/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Midworks（保障で安定）の評判 →
             </Link>
-            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               フリーランスエージェント比較 →
             </Link>
           </div>
@@ -479,7 +479,7 @@ export default function PeBankReview() {
           <p className="text-blue-100 text-sm mb-4">
             手数料の透明性と保障を重視する方は、PE-BANKに相談してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で相談する
           </a>
         </section>
@@ -489,7 +489,7 @@ export default function PeBankReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -150,7 +150,7 @@ export default function SalesforceSkillPage() {
         {/* 目次 */}
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -164,7 +164,7 @@ export default function SalesforceSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Salesforce転職の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Salesforce転職は<strong>「認定資格でスキルを可視化しつつ、業務知識を掛け合わせる」</strong>のが基本戦略です。Java等の開発経験があれば開発者（Apex/LWC）、営業・CSなどの業務経験があれば管理者・コンサル職と、入口が複数あるのが特徴です。
             </p>
@@ -252,7 +252,7 @@ export default function SalesforceSkillPage() {
             {careerPaths.map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
-                <p className="text-xs text-blue-600 font-medium mb-2">関連資格: {item.cert}</p>
+                <p className="text-xs text-petrol font-medium mb-2">関連資格: {item.cert}</p>
                 <p className="text-sm text-slate-600">{item.note}</p>
               </div>
             ))}
@@ -268,25 +268,25 @@ export default function SalesforceSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/levtech/" className="text-blue-700 hover:underline">レバテックキャリア</Link>
+                <Link href="/review/levtech/" className="text-petrol-deep hover:underline">レバテックキャリア</Link>
               </h3>
               <p className="text-sm text-slate-600">IT/Web特化。利用者の多くが20〜30代で、高年収求人の比率が高いとされる（同社ガイド記事）。開発寄りのSalesforce求人を探しやすい。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/geekly/" className="text-blue-700 hover:underline">Geekly（ギークリー）</Link>
+                <Link href="/review/geekly/" className="text-petrol-deep hover:underline">Geekly（ギークリー）</Link>
               </h3>
               <p className="text-sm text-slate-600">IT/Web/ゲーム特化で提案スピードに定評。年収アップ率約81%・平均上昇額約76万円（2025年9月時点・公表値）との二次情報がある。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/bizreach-it/" className="text-blue-700 hover:underline">ビズリーチ</Link>
+                <Link href="/review/bizreach-it/" className="text-petrol-deep hover:underline">ビズリーチ</Link>
               </h3>
               <p className="text-sm text-slate-600">ハイクラス・スカウト型。コンサル/アーキテクトなど高年収帯のSalesforce案件に出会いやすい。市場価値の客観把握にも使える。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            複数登録の使い分けは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>、年収アップを狙う併用法は<Link href="/compare/salary-ranking/" className="text-blue-600 hover:underline">年収アップ実績で選ぶ</Link>も参考にしてください。
+            複数登録の使い分けは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>、年収アップを狙う併用法は<Link href="/compare/salary-ranking/" className="text-petrol hover:underline">年収アップ実績で選ぶ</Link>も参考にしてください。
           </p>
         </section>
 
@@ -304,7 +304,7 @@ export default function SalesforceSkillPage() {
               { t: "パートナー企業の育成枠を狙う", d: "導入支援企業は研修体制が整っていることが多く、実務経験を積む入口になりやすい。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{s.t}</h3>
                   <p className="text-sm text-slate-600">{s.d}</p>
@@ -327,7 +327,7 @@ export default function SalesforceSkillPage() {
               <li>・レバテック公表値で40代SE平均は約618万円（2025年）。資格＋実務で上振れを狙える</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
-              年代別の相場感は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">自分の市場価値の調べ方</Link>もあわせてどうぞ。
+              年代別の相場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>もあわせてどうぞ。
             </p>
           </div>
         </section>
@@ -347,7 +347,7 @@ export default function SalesforceSkillPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            Salesforce認定資格は複数種類が体系化され、上位資格も用意されています（Salesforce公式の認定制度より）。資格の有無だけでなく、Trailheadの実績や個人で構築したデモ環境を見せられると、学習の継続性を示せます。継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの学習を続けるコツ</Link>も参考にしてください。
+            Salesforce認定資格は複数種類が体系化され、上位資格も用意されています（Salesforce公式の認定制度より）。資格の有無だけでなく、Trailheadの実績や個人で構築したデモ環境を見せられると、学習の継続性を示せます。継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>も参考にしてください。
           </p>
         </section>
 
@@ -375,7 +375,7 @@ export default function SalesforceSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -395,7 +395,7 @@ export default function SalesforceSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -408,8 +408,8 @@ export default function SalesforceSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/accenture/" className="text-blue-700 hover:underline">アクセンチュア</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/accenture/" className="text-petrol-deep hover:underline">アクセンチュア</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

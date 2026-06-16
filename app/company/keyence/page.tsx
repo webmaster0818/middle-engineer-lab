@@ -65,7 +65,7 @@ export default function KeyenceCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（新卒中心・中途枠は限定的）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・年収は<strong>全従業員平均2,039万円（2025年3月期・有報）</strong>と国内トップ級。ただしこれは営業を含む全社員平均で、<strong>エンジニア単独の数字ではない</strong>。</li>
@@ -80,7 +80,7 @@ export default function KeyenceCompanyPage() {
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
@@ -115,9 +115,9 @@ export default function KeyenceCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">FA・計測のディープな自社商品開発</h3><p className="text-sm text-blue-700">キーエンスのエンジニアリングの中核は、FAセンサ・画像処理システム・測定器・顕微鏡といった自社商品の開発です。市場のニーズを先回りした商品企画と、それを実現する組込・アルゴリズム技術が結びついている点が特徴です。Webサービス開発を主業務とする会社ではありません。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">新卒中心・中途枠は限定的</h3><p className="text-sm text-blue-700">採用は新卒が中心で、エンジニアの中途（キャリア）採用枠は時期により限定的とされています。募集職種・有無は変動するため、最新情報は公式採用サイトで確認する必要があります。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">若い平均年齢と高い処理密度</h3><p className="text-sm text-blue-700">提出会社単体の平均年齢は34.8歳（2025年3月期・有報）と、大手メーカーとしては若い構成です。成果やスピードへのコミットが強い文化とされ、業務密度が高い傾向が口コミで指摘されています。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">FA・計測のディープな自社商品開発</h3><p className="text-sm text-petrol-deep">キーエンスのエンジニアリングの中核は、FAセンサ・画像処理システム・測定器・顕微鏡といった自社商品の開発です。市場のニーズを先回りした商品企画と、それを実現する組込・アルゴリズム技術が結びついている点が特徴です。Webサービス開発を主業務とする会社ではありません。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">新卒中心・中途枠は限定的</h3><p className="text-sm text-petrol-deep">採用は新卒が中心で、エンジニアの中途（キャリア）採用枠は時期により限定的とされています。募集職種・有無は変動するため、最新情報は公式採用サイトで確認する必要があります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">若い平均年齢と高い処理密度</h3><p className="text-sm text-petrol-deep">提出会社単体の平均年齢は34.8歳（2025年3月期・有報）と、大手メーカーとしては若い構成です。成果やスピードへのコミットが強い文化とされ、業務密度が高い傾向が口コミで指摘されています。</p></div>
           </div>
         </section>
 
@@ -126,10 +126,10 @@ export default function KeyenceCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">キーエンスは、社外向けに統一された技術スタック一覧や開発言語の公式リストを公開していません。そのため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成しません</strong>（推測での創作を避けるため）。公開情報から確実に言えるのは、以下の技術領域です。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>組込ソフトウェア開発</strong>：FAセンサ・計測器などの自社商品に搭載される制御ソフトウェアの領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>画像処理アルゴリズム</strong>：画像処理システム・外観検査などのコア技術領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>計測・センシング</strong>：測定器・顕微鏡などの計測技術と連動するソフトウェア領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span>これらの領域では組込で一般的なC/C++などが想定されますが、<strong>公式の確認情報がないため断定はしません</strong>。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>組込ソフトウェア開発</strong>：FAセンサ・計測器などの自社商品に搭載される制御ソフトウェアの領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>画像処理アルゴリズム</strong>：画像処理システム・外観検査などのコア技術領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>計測・センシング</strong>：測定器・顕微鏡などの計測技術と連動するソフトウェア領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>これらの領域では組込で一般的なC/C++などが想定されますが、<strong>公式の確認情報がないため断定はしません</strong>。</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：キーエンス公式の商品・採用情報から確認できる技術領域に基づく記述。具体的な開発言語・内製ツールは公式に公開されていないため、推測の言語一覧表は掲載していません。</p>
@@ -156,7 +156,7 @@ export default function KeyenceCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>提出会社単体の<strong>平均年齢は34.8歳</strong>（2025年3月期・有報）と、大手メーカーの中では若い組織です。30代後半〜40代で中途入社する場合、年齢構成的にはミドル〜ややシニア寄りの立ち位置になり、即戦力としての専門性が一層強く問われると考えられます。</p>
             <p>30代・40代のエンジニアにとって、キーエンスは「<strong>高待遇だが組込・画像・計測に特化</strong>」という性格を持ちます。これらの領域に深い経験がある人にはキャリアの専門性が活きます。一方、Webサービス・クラウドのモダン開発を軸にしたい人にとっては、業務内容のミスマッチが起きやすい点に注意が必要です。年収面でも、看板の2,039万円は全社員平均であり、エンジニア職としての実際の提示条件を冷静に確認することが大切です。</p>
-            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>、組込領域を志向するなら<Link href="/skill/embedded/" className="text-blue-600 hover:underline">組込エンジニアの転職</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>、組込領域を志向するなら<Link href="/skill/embedded/" className="text-petrol hover:underline">組込エンジニアの転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -187,15 +187,15 @@ export default function KeyenceCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キーエンス転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込領域に強く、高年収求人比率が高い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手メーカーの専門職・高年収ポジションのスカウトが届きやすい。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込領域に強く、高年収求人比率が高い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手メーカーの専門職・高年収ポジションのスカウトが届きやすい。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">キーエンスへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">メーカー・組込領域の高年収求人に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -206,7 +206,7 @@ export default function KeyenceCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "デンソーの転職ガイド", href: "/company/denso/" }, { name: "トヨタ自動車の転職ガイド", href: "/company/toyota/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "組込エンジニアの転職", href: "/skill/embedded/" }, { name: "製造業エンジニアの転職", href: "/industry/manufacturing/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "デンソーの転職ガイド", href: "/company/denso/" }, { name: "トヨタ自動車の転職ガイド", href: "/company/toyota/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "組込エンジニアの転職", href: "/skill/embedded/" }, { name: "製造業エンジニアの転職", href: "/industry/manufacturing/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

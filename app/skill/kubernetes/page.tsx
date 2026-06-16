@@ -122,7 +122,7 @@ export default function KubernetesSkillPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -130,7 +130,7 @@ export default function KubernetesSkillPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Kubernetes転職市場の攻め方</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Kubernetesは単体スキルではなく<strong>SRE・プラットフォーム・クラウド領域の一部</strong>として評価されます。攻め方は次の3点です。
             </p>
@@ -235,7 +235,7 @@ export default function KubernetesSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/sre/" className="text-blue-600 hover:underline">SREへの転向ガイド</Link>、<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS転職ガイド</Link>（EKS運用との相性が高い）。
+            関連: <Link href="/career/sre/" className="text-petrol hover:underline">SREへの転向ガイド</Link>、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS転職ガイド</Link>（EKS運用との相性が高い）。
           </p>
         </section>
 
@@ -248,21 +248,21 @@ export default function KubernetesSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化でインフラ・DevOps案件に強く、技術に明るいアドバイザー経由でSRE/プラットフォーム求人を探せます。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
               <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型。SREリードやプラットフォーム責任者クラスのポジションを狙う場合に有効です。</p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化。提案スピードに強みがあり、クラウドネイティブ企業の求人を扱います。</p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数利用のコツ</Link>を参考にしてください。
+            併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>を参考にしてください。
           </p>
         </section>
 
@@ -276,7 +276,7 @@ export default function KubernetesSkillPage() {
               { n: "STEP 4", t: "マネージドK8sで成果物", d: "EKS/GKE上に小さなサービスを構築し、Helm/監視/CI-CDまで含めて公開・説明できる状態にする。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -285,7 +285,7 @@ export default function KubernetesSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-blue-600 hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>。
           </p>
         </section>
 
@@ -299,7 +299,7 @@ export default function KubernetesSkillPage() {
               年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%（2025年）。Kubernetesを軸にSRE/プラットフォーム領域へ役割を広げると、高年収帯への接続が見えてきます。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>もご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>もご覧ください。
             </p>
           </div>
         </section>
@@ -314,7 +314,7 @@ export default function KubernetesSkillPage() {
             <li>✓ 障害対応・容量設計の経験を「再現可能な学び」として言語化する</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            学習習慣は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>を参考に。
+            学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参考に。
           </p>
         </section>
 
@@ -340,7 +340,7 @@ export default function KubernetesSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -360,7 +360,7 @@ export default function KubernetesSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -373,8 +373,8 @@ export default function KubernetesSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/10x/" className="text-blue-700 hover:underline">10X</a></li><li><a href="/company/andpad/" className="text-blue-700 hover:underline">ANDPAD</a></li><li><a href="/company/cyberagent/" className="text-blue-700 hover:underline">サイバーエージェント</a></li><li><a href="/company/dena/" className="text-blue-700 hover:underline">DeNA</a></li><li><a href="/company/google/" className="text-blue-700 hover:underline">Google Japan</a></li><li><a href="/company/ibm/" className="text-blue-700 hover:underline">日本IBM</a></li><li><a href="/company/jcb/" className="text-blue-700 hover:underline">JCB（ジェーシービー）</a></li><li><a href="/company/line-yahoo/" className="text-blue-700 hover:underline">LINEヤフー</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/10x/" className="text-petrol-deep hover:underline">10X</a></li><li><a href="/company/andpad/" className="text-petrol-deep hover:underline">ANDPAD</a></li><li><a href="/company/cyberagent/" className="text-petrol-deep hover:underline">サイバーエージェント</a></li><li><a href="/company/dena/" className="text-petrol-deep hover:underline">DeNA</a></li><li><a href="/company/google/" className="text-petrol-deep hover:underline">Google Japan</a></li><li><a href="/company/ibm/" className="text-petrol-deep hover:underline">日本IBM</a></li><li><a href="/company/jcb/" className="text-petrol-deep hover:underline">JCB（ジェーシービー）</a></li><li><a href="/company/line-yahoo/" className="text-petrol-deep hover:underline">LINEヤフー</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

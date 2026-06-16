@@ -152,7 +152,7 @@ export default function ScoutPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -162,7 +162,7 @@ export default function ScoutPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：仕組みを理解して使い分ける</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               スカウトは「届くのを待つ」だけでなく、<strong>プロフィールを技術名と数値で作り込み、届いたスカウトを見極めて返信する</strong>ことで価値が出ます。サービスごとに仕組みが違うので使い分けが鍵です。
@@ -181,7 +181,7 @@ export default function ScoutPage() {
           <div className="space-y-4">
             {mechanisms.map((m) => (
               <div key={m.name} className="border border-slate-200 rounded-lg p-5">
-                <Link href={m.href} className="font-bold text-slate-800 hover:text-blue-700 hover:underline">
+                <Link href={m.href} className="font-bold text-slate-800 hover:text-petrol-deep hover:underline">
                   {m.name}
                 </Link>
                 <p className="text-sm text-slate-600 leading-relaxed mt-2">{m.body}</p>
@@ -206,7 +206,7 @@ export default function ScoutPage() {
               <tbody>
                 <tr>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600 font-medium">
-                    <Link href="/review/bizreach-it/" className="text-blue-600 hover:underline">ビズリーチ</Link>
+                    <Link href="/review/bizreach-it/" className="text-petrol hover:underline">ビズリーチ</Link>
                   </td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">ハイクラス・スカウト型</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">年収1,000万円以上求人が全体の約4割（二次）。一部機能は有料プラン前提（5,478円/月・二次）。</td>
@@ -214,7 +214,7 @@ export default function ScoutPage() {
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-200 px-4 py-3 text-slate-600 font-medium">
-                    <Link href="/review/green/" className="text-blue-600 hover:underline">Green</Link>
+                    <Link href="/review/green/" className="text-petrol hover:underline">Green</Link>
                   </td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">ダイレクトリクルーティング</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">掲載企業9,000社以上（二次）。カジュアル面談で社風を把握。仲介サポートなし。</td>
@@ -222,7 +222,7 @@ export default function ScoutPage() {
                 </tr>
                 <tr>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600 font-medium">
-                    <Link href="/review/paiza/" className="text-blue-600 hover:underline">paiza転職</Link>
+                    <Link href="/review/paiza/" className="text-petrol hover:underline">paiza転職</Link>
                   </td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">スキル評価＋スカウト</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">スキルチェックのランクで評価。書類選考免除あり。ランクB以上で届きやすい（二次）。</td>
@@ -239,7 +239,7 @@ export default function ScoutPage() {
           <div className="space-y-4">
             {profileTips.map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -250,7 +250,7 @@ export default function ScoutPage() {
             ))}
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            プロフィールの土台になる職務経歴書は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>、自分の相場感は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>を参考にしてください。
+            プロフィールの土台になる職務経歴書は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>、自分の相場感は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参考にしてください。
           </p>
         </section>
 
@@ -274,25 +274,25 @@ export default function ScoutPage() {
         <section id="judge" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">良いスカウトの見極め方</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. パーソナライズされているか</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">あなたの経歴や技術に具体的に触れているスカウトは本気度が高いです。テンプレート一斉送信は優先度を下げて構いません。ビズリーチの「プラチナスカウト」は企業の本気度の目安になります。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">あなたの経歴や技術に具体的に触れているスカウトは本気度が高いです。テンプレート一斉送信は優先度を下げて構いません。ビズリーチの「プラチナスカウト」は企業の本気度の目安になります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 提示年収レンジを確認する</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">希望を大きく下回るスカウトは見送り、逆に相場より高いものは条件や募集背景をよく確認しましょう。提示が曖昧なら返信時に質問します。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">希望を大きく下回るスカウトは見送り、逆に相場より高いものは条件や募集背景をよく確認しましょう。提示が曖昧なら返信時に質問します。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 送信者を確認する</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">採用担当やCTOから直接届いたスカウトは本気度が高い傾向です。ヘッドハンター経由の場合は企業名と募集ポジションを確認しましょう。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">採用担当やCTOから直接届いたスカウトは本気度が高い傾向です。ヘッドハンター経由の場合は企業名と募集ポジションを確認しましょう。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. まずカジュアル面談を活用する</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">気になるスカウトは選考前にカジュアル面談を申し込みましょう。Greenはこの形式が中心で、社風や開発体制を把握してから選考に進めます。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">気になるスカウトは選考前にカジュアル面談を申し込みましょう。Greenはこの形式が中心で、社風や開発体制を把握してから選考に進めます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">5. 市場の反応として活用する</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">届くスカウトの数と質は、自分の市場価値の客観指標になります。プロフィール変更で反応がどう変わるかも参考になります。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">届くスカウトの数と質は、自分の市場価値の客観指標になります。プロフィール変更で反応がどう変わるかも参考になります。</p>
             </div>
           </div>
         </section>
@@ -308,7 +308,7 @@ export default function ScoutPage() {
               40代はマネジメント経験や専門領域が評価軸になります。ビズリーチは年収1,000万円以上求人が全体の約4割（二次）で、レバテック公表値では正社員SE 40代の平均年収は約618万円・年収1,000万円以上の割合は12.67%（2025年・ガイド記事）です。スカウトで複数の打診を受けておくと、年収交渉の材料にもなります。なお経歴次第ではスカウトが来ない場合もある（二次）ため、エージェントとの併用で死角を埋めるのが安全です。
             </p>
             <p>
-              年代別の実態は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>も参考にしてください。
+              年代別の実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>も参考にしてください。
             </p>
           </div>
         </section>
@@ -337,7 +337,7 @@ export default function ScoutPage() {
           </p>
           <Link
             href="/compare/agents/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             IT転職エージェント10社比較を見る
           </Link>
@@ -358,7 +358,7 @@ export default function ScoutPage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

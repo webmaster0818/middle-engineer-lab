@@ -108,7 +108,7 @@ export default function RicohCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               リコーは<strong>ハードウェア（複合機・画像）の強みを土台に、クラウド・データ・AIによるデジタルサービスへ事業を移行している大手メーカー</strong>です。組込みからSaaS・クラウドまで幅広い技術領域があり、安定基盤の中で「製造業のソフトウェア化」に関わりたいエンジニアに向きます。
@@ -126,7 +126,7 @@ export default function RicohCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -152,17 +152,17 @@ export default function RicohCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">複合機からデジタルサービスへの構造転換</h3>
-              <p className="text-sm text-blue-700">リコーは複合機・プリンターの会社から「デジタルサービスの会社」への転換を掲げ、デジタルサービス技術本部などでソフトウェア・クラウド・データ/AI人材を強化しています。ハードウェアに閉じないSaaS・クラウド領域の採用が拡大しています。</p>
+              <p className="text-sm text-petrol-deep">リコーは複合機・プリンターの会社から「デジタルサービスの会社」への転換を掲げ、デジタルサービス技術本部などでソフトウェア・クラウド・データ/AI人材を強化しています。ハードウェアに閉じないSaaS・クラウド領域の採用が拡大しています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">組込みから業務アプリ・データ活用まで幅広い領域</h3>
-              <p className="text-sm text-blue-700">複合機向けの組込みファームウェア開発から、クラウドサービス基盤、業務アプリケーション、データ分析・AIによる情報活用まで、レイヤーの異なる技術職が公式採用情報で募集されています（配属により使用技術は異なります）。</p>
+              <p className="text-sm text-petrol-deep">複合機向けの組込みファームウェア開発から、クラウドサービス基盤、業務アプリケーション、データ分析・AIによる情報活用まで、レイヤーの異なる技術職が公式採用情報で募集されています（配属により使用技術は異なります）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">大手の安定基盤と制度</h3>
-              <p className="text-sm text-blue-700">グローバルに展開する電機・精密大手として安定した事業基盤を持ち、在宅勤務など柔軟な働き方の制度も整備されています（口コミ傾向）。事業変革期ならではの推進力を求められる場面もあります。</p>
+              <p className="text-sm text-petrol-deep">グローバルに展開する電機・精密大手として安定した事業基盤を持ち、在宅勤務など柔軟な働き方の制度も整備されています（口コミ傾向）。事業変革期ならではの推進力を求められる場面もあります。</p>
             </div>
           </div>
         </section>
@@ -174,11 +174,11 @@ export default function RicohCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>組込みソフトウェア</strong>：複合機・プリンター等の組込みファームウェア開発（C/C++、RTOS等）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>アプリケーション／クラウド</strong>：クラウドサービス基盤、業務アプリケーション、Web/アプリ開発</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>データ・AI</strong>：データ分析・AIによる情報活用、デジタル技術の社会実装</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>IT基盤・セキュリティ</strong>：グループIT基盤の構築・運用、セキュリティ</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>企画・PM</strong>：IT企画／プロジェクトマネジメント、サービス企画</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>組込みソフトウェア</strong>：複合機・プリンター等の組込みファームウェア開発（C/C++、RTOS等）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>アプリケーション／クラウド</strong>：クラウドサービス基盤、業務アプリケーション、Web/アプリ開発</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ・AI</strong>：データ分析・AIによる情報活用、デジタル技術の社会実装</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>IT基盤・セキュリティ</strong>：グループIT基盤の構築・運用、セキュリティ</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>企画・PM</strong>：IT企画／プロジェクトマネジメント、サービス企画</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: リコー公式 採用ページ（職種紹介・キャリア採用、2026年6月時点）。具体的な必須スキルは各求人の募集要項をご確認ください。</p>
@@ -216,7 +216,7 @@ export default function RicohCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            リコーのキャリア採用ページで公開されている一般的な流れです。最新の内容は<a href="https://jp.ricoh.com/jobs/recruit/careers" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
+            リコーのキャリア採用ページで公開されている一般的な流れです。最新の内容は<a href="https://jp.ricoh.com/jobs/recruit/careers" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>募集要項の確認・応募（エントリー）</li>
@@ -235,12 +235,12 @@ export default function RicohCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>募集領域（組込み／クラウド／データ・AI等）における実務経験と専門性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>大規模組織・複数部門との協働でプロジェクトを進める推進力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>デジタルサービスへの事業転換に共感し、変化に前向きな姿勢</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>製造業のソフトウェア化・ハードとソフトの橋渡しへの理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>募集領域（組込み／クラウド／データ・AI等）における実務経験と専門性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>大規模組織・複数部門との協働でプロジェクトを進める推進力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>デジタルサービスへの事業転換に共感し、変化に前向きな姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>製造業のソフトウェア化・ハードとソフトの橋渡しへの理解</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -253,7 +253,7 @@ export default function RicohCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。リコーの全社員平均（860万円）はこれを上回りますが、これは管理職・上位等級を含む全社平均であり、入社時の提示は等級・役割次第です。30代・40代は「自分が当てはまる等級の水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              複合機・画像という製造業の強みと、クラウド・データ活用というソフトウェアの世界の橋渡しができる人材は希少です。<Link href="/industry/manufacturing/" className="text-blue-600 hover:underline">製造業のエンジニア転職</Link>や<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>、<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              複合機・画像という製造業の強みと、クラウド・データ活用というソフトウェアの世界の橋渡しができる人材は希少です。<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業のエンジニア転職</Link>や<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -266,13 +266,13 @@ export default function RicohCompanyPage() {
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、メーカーの管理職・専門職求人に対応。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -293,7 +293,7 @@ export default function RicohCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">リコーへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手メーカーのデジタル職転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -307,7 +307,7 @@ export default function RicohCompanyPage() {
               { name: "企業別エンジニア転職ガイド一覧", href: "/company/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

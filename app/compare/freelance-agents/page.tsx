@@ -127,14 +127,14 @@ export default function FreelanceAgentsPage() {
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-4">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：実力が固まった人はフリーランス検討の価値あり</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">正社員として実務経験を積み、得意領域が固まっている人は、フリーランス専門エージェント（IT/Web特化の<strong>レバテックフリーランス</strong>など）で単価を確認する価値があります。一方、経験が浅い・安定を重視する人は正社員転職が無難です。</p>
             <ul className="space-y-2 text-sm text-slate-600">
               <li>① 収入の上限を引き上げたい・自由度を高めたい → フリーランス専門エージェントで案件と単価を確認</li>
@@ -161,7 +161,7 @@ export default function FreelanceAgentsPage() {
                 <tr><td className="px-3 py-3 border border-slate-200 font-medium">社会保険・税</td><td className="px-3 py-3 border border-slate-200">自己負担・確定申告が必要</td><td className="px-3 py-3 border border-slate-200">会社が一部負担・年末調整</td></tr>
                 <tr><td className="px-3 py-3 border border-slate-200 font-medium">福利厚生・賞与</td><td className="px-3 py-3 border border-slate-200">基本なし（自分で備える）</td><td className="px-3 py-3 border border-slate-200">賞与・有給・各種手当あり</td></tr>
                 <tr><td className="px-3 py-3 border border-slate-200 font-medium">ローン審査</td><td className="px-3 py-3 border border-slate-200">不利になりやすい</td><td className="px-3 py-3 border border-slate-200">通りやすい</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200 font-medium">支援する窓口</td><td className="px-3 py-3 border border-slate-200">フリーランス専門エージェント</td><td className="px-3 py-3 border border-slate-200">転職エージェント（<Link href="/compare/agents/" className="text-blue-600 hover:underline">10社比較</Link>）</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200 font-medium">支援する窓口</td><td className="px-3 py-3 border border-slate-200">フリーランス専門エージェント</td><td className="px-3 py-3 border border-slate-200">転職エージェント（<Link href="/compare/agents/" className="text-petrol hover:underline">10社比較</Link>）</td></tr>
               </tbody>
             </table>
           </div>
@@ -182,8 +182,8 @@ export default function FreelanceAgentsPage() {
               </thead>
               <tbody>
                 <tr><td className="px-3 py-3 border border-slate-200 font-medium">20代</td><td className="px-3 py-3 border border-slate-200">約378万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200 font-medium">30代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約499万円</td><td className="px-3 py-3 border border-slate-200">8.01%</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200 font-medium">40代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約618万円</td><td className="px-3 py-3 border border-slate-200">12.67%</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200 font-medium">30代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約499万円</td><td className="px-3 py-3 border border-slate-200">8.01%</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200 font-medium">40代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約618万円</td><td className="px-3 py-3 border border-slate-200">12.67%</td></tr>
                 <tr><td className="px-3 py-3 border border-slate-200 font-medium">50代</td><td className="px-3 py-3 border border-slate-200">約685万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
               </tbody>
             </table>
@@ -229,7 +229,7 @@ export default function FreelanceAgentsPage() {
               <tbody className="align-top">
                 {services.map((s, i) => (
                   <tr key={i} className="hover:bg-slate-50">
-                    <td className="px-3 py-3 border border-slate-200 font-medium">{s.href ? <Link href={s.href} className="text-blue-600 hover:underline">{s.name}</Link> : s.name}</td>
+                    <td className="px-3 py-3 border border-slate-200 font-medium">{s.href ? <Link href={s.href} className="text-petrol hover:underline">{s.name}</Link> : s.name}</td>
                     <td className="px-3 py-3 border border-slate-200">{s.type}</td>
                     <td className="px-3 py-3 border border-slate-200">{s.company}</td>
                     <td className="px-3 py-3 border border-slate-200">{s.field}</td>
@@ -296,7 +296,7 @@ export default function FreelanceAgentsPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>当サイトの読者は30代・40代のミドルエンジニアが中心です。この年代の独立は「遅い」のではなく、「専門性と実績がはっきりしているほど有利」というのが実情です。レバテック公表（2025年）では40代の正社員SE平均年収が約618万円、年収1,000万円以上の割合は12.67%と、30代（8.01%）より高くなっています。つまり年齢を重ねること自体が不利なのではなく、強みが明確かどうかが分かれ目になります。</p>
             <p>一方で注意したいのは、フリーランスは正社員のような賞与・退職金・社会保険の会社負担がなく、案件の空白期間リスクも自分で背負う点です。30代・40代は住宅ローンや家族の状況など、安定が効いてくるライフイベントも多いため、額面の単価ではなく「手取り＋備え」で正社員と比較するのが安全です。</p>
-            <p>現実的なおすすめは、独立を決め打ちせず、フリーランス専門エージェントと正社員エージェントの両方に相談し、提示される単価・年収を並べて判断することです。正社員側の相場感は<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス比較</Link>や<Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向け比較</Link>も参考になります。「いつでも正社員に戻れる実績の作り方」を意識しておくと、独立後のリスクも下げられます。</p>
+            <p>現実的なおすすめは、独立を決め打ちせず、フリーランス専門エージェントと正社員エージェントの両方に相談し、提示される単価・年収を並べて判断することです。正社員側の相場感は<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス比較</Link>や<Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向け比較</Link>も参考になります。「いつでも正社員に戻れる実績の作り方」を意識しておくと、独立後のリスクも下げられます。</p>
           </div>
         </section>
 
@@ -315,14 +315,14 @@ export default function FreelanceAgentsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">独立か正社員か、両方の数字を見て決めよう</h2>
           <p className="text-blue-100 text-sm mb-4">フリーランスの単価と正社員のオファーを並べて、手取りベースで比較するのが後悔しない近道です。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-4">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

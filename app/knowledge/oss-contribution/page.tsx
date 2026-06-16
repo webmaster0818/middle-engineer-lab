@@ -96,7 +96,7 @@ export default function OssContributionPage() {
             「業務コードは公開できない。でも技術力を客観的に示したい」——30-40代の多くが抱えるこのジレンマに、OSS貢献は一つの答えになります。<strong>公開された貢献履歴は、第三者のプロジェクト上に残る客観的な証明</strong>だからです。そして貢献はプルリク（PR）だけではありません。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事はOSS貢献を<strong>単体</strong>で深掘りします。GitHub・ブログ・登壇も含めた成果物の全体像は<Link href="/knowledge/portfolio/" className="text-blue-600 underline">ポートフォリオの見せ方</Link>を、GitHub単体は<Link href="/knowledge/github-showcase/" className="text-blue-600 underline">GitHubの見せ方</Link>、発信は<Link href="/knowledge/tech-blog/" className="text-blue-600 underline">技術ブログの始め方</Link>をあわせてご覧ください。
+            本記事はOSS貢献を<strong>単体</strong>で深掘りします。GitHub・ブログ・登壇も含めた成果物の全体像は<Link href="/knowledge/portfolio/" className="text-petrol underline">ポートフォリオの見せ方</Link>を、GitHub単体は<Link href="/knowledge/github-showcase/" className="text-petrol underline">GitHubの見せ方</Link>、発信は<Link href="/knowledge/tech-blog/" className="text-petrol underline">技術ブログの始め方</Link>をあわせてご覧ください。
           </p>
         </section>
 
@@ -107,7 +107,7 @@ export default function OssContributionPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -144,7 +144,7 @@ export default function OssContributionPage() {
               { num: "8", title: "バグ修正・機能追加のPR", desc: "いわゆる『プルリク』。issueで合意を取ってから、小さく安全に出すのが基本。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -194,7 +194,7 @@ export default function OssContributionPage() {
                 "安全である根拠（なぜ壊れないか）を添えている",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>{c}
+                  <span className="text-petrol font-bold shrink-0">✓</span>{c}
                 </li>
               ))}
             </ul>
@@ -230,7 +230,7 @@ export default function OssContributionPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">『なぜ・どう』を言語化する</h3>
-              <p className="text-sm text-slate-600">面接では、なぜその課題に取り組み、どう設計・実装し、メンテナーとどうやり取りしたかを語れると深みが出ます。技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 underline">技術面接対策ガイド</Link>も参考に。</p>
+              <p className="text-sm text-slate-600">面接では、なぜその課題に取り組み、どう設計・実装し、メンテナーとどうやり取りしたかを語れると深みが出ます。技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol underline">技術面接対策ガイド</Link>も参考に。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">小さな貢献でも卑下しない</h3>
@@ -288,7 +288,7 @@ export default function OssContributionPage() {
                   A. {faq.a}
                   {faq.aLink && (
                     <>
-                      <Link href={faq.aLink.href} className="text-blue-600 underline">{faq.aLink.text}</Link>
+                      <Link href={faq.aLink.href} className="text-petrol underline">{faq.aLink.text}</Link>
                       {faq.aAfter}
                     </>
                   )}
@@ -302,7 +302,7 @@ export default function OssContributionPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">技術の証明づくりをプロに相談しよう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、OSS貢献やGitHubを応募先にどう見せるか具体的にアドバイスしてくれます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -318,7 +318,7 @@ export default function OssContributionPage() {
               { name: "技術面接対策ガイド", href: "/knowledge/tech-interview/" },
               { name: "職務経歴書の書き方", href: "/knowledge/resume/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -74,7 +74,7 @@ export default function RemoteFullPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 通勤時間をゼロにして生産性を上げたい</li>
               <li>- 地方在住のまま東京水準の給与で働きたい</li>
@@ -89,7 +89,7 @@ export default function RemoteFullPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">企業タイプ</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">年収目安</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">居住地制限</th>
@@ -127,7 +127,7 @@ export default function RemoteFullPage() {
               { num: "5", title: "チームビルディング施策を確認", desc: "オフサイトミーティング、オンライン懇親会、1on1の頻度など、孤立感を防ぐ施策があるかを確認。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -173,7 +173,7 @@ export default function RemoteFullPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">フルリモート求人を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">フルリモートで働ける優良企業をIT特化型エージェントが提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -185,7 +185,7 @@ export default function RemoteFullPage() {
               { name: "残業少なめIT企業の見極め方", href: "/purpose/no-overtime/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

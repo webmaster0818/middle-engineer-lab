@@ -133,7 +133,7 @@ export default function CounterOfferPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -141,7 +141,7 @@ export default function CounterOfferPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：原則は断る。受けるなら条件を満たすときだけ</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・退職を決めた根本理由が<strong>年収以外</strong>なら、年収アップでは解決しないため断るのが基本。</li>
@@ -190,7 +190,7 @@ export default function CounterOfferPage() {
           <div className="space-y-4">
             {judge.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -200,7 +200,7 @@ export default function CounterOfferPage() {
           </div>
           <p className="text-sm text-slate-600 mt-4">
             軸4の「総合比較」では、転職先オファーとの並列スコアリングが有効です。比較の方法は
-            <Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">複数内定の比較方法</Link>
+            <Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">複数内定の比較方法</Link>
             を参考にしてください。
           </p>
         </section>
@@ -237,7 +237,7 @@ export default function CounterOfferPage() {
             {declines.map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2">{item.title}</h3>
-                <p className="text-sm text-slate-700 bg-blue-50 rounded p-3">{item.body}</p>
+                <p className="text-sm text-slate-700 bg-petrol-soft rounded p-3">{item.body}</p>
               </div>
             ))}
           </div>
@@ -251,11 +251,11 @@ export default function CounterOfferPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-3 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>年収・等級の変更は給与改定通知など書面で確認したか</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>昇進・異動の約束は「時期」と「要件」を明文化したか</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>転職を決めた根本の不満が、本当にこの条件で解消されるか</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>内定先への辞退連絡を、誠実かつ早めに行ったか</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>残留後の社内コミュニケーションを立て直す心づもりがあるか</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>年収・等級の変更は給与改定通知など書面で確認したか</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>昇進・異動の約束は「時期」と「要件」を明文化したか</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>転職を決めた根本の不満が、本当にこの条件で解消されるか</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>内定先への辞退連絡を、誠実かつ早めに行ったか</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>残留後の社内コミュニケーションを立て直す心づもりがあるか</span></li>
             </ul>
           </div>
         </section>
@@ -269,7 +269,7 @@ export default function CounterOfferPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">「今いくら上がるか」より「この先どう上がるか」</h3>
-              <p className="text-sm text-slate-600">引き留めの年収アップが、次回以降の昇給枠を先食いしているだけだと、中長期では伸び悩みます。自分の市場価値の伸びしろは<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の測り方</Link>で確認しておきましょう。</p>
+              <p className="text-sm text-slate-600">引き留めの年収アップが、次回以降の昇給枠を先食いしているだけだと、中長期では伸び悩みます。自分の市場価値の伸びしろは<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>で確認しておきましょう。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">技術的キャリアの停滞は年収では埋まらない</h3>
@@ -277,7 +277,7 @@ export default function CounterOfferPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">そもそも引き留めさせない伝え方を</h3>
-              <p className="text-sm text-slate-600">迷いを残さないためには、退職の切り出し時点で意思を明確にしておくのが有効です。切り出し方は<Link href="/knowledge/resignation/" className="text-blue-600 hover:underline">退職の伝え方ガイド</Link>を参照してください。</p>
+              <p className="text-sm text-slate-600">迷いを残さないためには、退職の切り出し時点で意思を明確にしておくのが有効です。切り出し方は<Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の伝え方ガイド</Link>を参照してください。</p>
             </div>
           </div>
         </section>
@@ -306,7 +306,7 @@ export default function CounterOfferPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -326,7 +326,7 @@ export default function CounterOfferPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

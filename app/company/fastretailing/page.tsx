@@ -73,7 +73,7 @@ export default function FastRetailingCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（事業会社のDXをリードできる経験者向け）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・中核は<strong>「情報製造小売業」への変革</strong>。EC・サプライチェーン・店舗システムを横断するデジタル変革をビジネスとともにリードできる人に向く。</li>
@@ -88,7 +88,7 @@ export default function FastRetailingCompanyPage() {
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
@@ -108,9 +108,9 @@ export default function FastRetailingCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">「情報製造小売業」への変革をリード</h3><p className="text-sm text-blue-700">商品の企画・生産・物流・販売をデジタルでつなぎ、需要と供給をリアルタイムに最適化する小売モデルへの変革を掲げています。エンジニアはこの変革の中核を担い、ベンダー任せではなく事業会社の内側からDXを推進する立場になります。ビジネスと技術の両面に向き合える人に適した環境です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">EC・SCM・店舗システムの大規模領域</h3><p className="text-sm text-blue-700">グローバルに展開するユニクロ・GUの規模感で、EC、サプライチェーン（在庫・物流）、店舗・POSシステムといった広い領域を扱います。大規模かつ多国展開を前提としたシステムに関われる点は、事業会社のスケールならではの魅力です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">グローバル環境</h3><p className="text-sm text-blue-700">世界規模で事業を展開しているため、システムもグローバル前提で設計・運用されます。国を跨いだプロジェクトや多拠点連携の経験が活きる場面が多く、グローバルなキャリアを志向するエンジニアに適しています。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">「情報製造小売業」への変革をリード</h3><p className="text-sm text-petrol-deep">商品の企画・生産・物流・販売をデジタルでつなぎ、需要と供給をリアルタイムに最適化する小売モデルへの変革を掲げています。エンジニアはこの変革の中核を担い、ベンダー任せではなく事業会社の内側からDXを推進する立場になります。ビジネスと技術の両面に向き合える人に適した環境です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">EC・SCM・店舗システムの大規模領域</h3><p className="text-sm text-petrol-deep">グローバルに展開するユニクロ・GUの規模感で、EC、サプライチェーン（在庫・物流）、店舗・POSシステムといった広い領域を扱います。大規模かつ多国展開を前提としたシステムに関われる点は、事業会社のスケールならではの魅力です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">グローバル環境</h3><p className="text-sm text-petrol-deep">世界規模で事業を展開しているため、システムもグローバル前提で設計・運用されます。国を跨いだプロジェクトや多拠点連携の経験が活きる場面が多く、グローバルなキャリアを志向するエンジニアに適しています。</p></div>
           </div>
         </section>
 
@@ -119,13 +119,13 @@ export default function FastRetailingCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">ファーストリテイリングは、具体的な使用言語・フレームワークを一覧で大々的に公開している企業ではありません。確認できない言語表は創作せず、公開されている技術「領域」のみを示します。具体的なスタックは応募職種の募集要項でご確認ください。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>EC・大規模Webサービス</strong>：オンラインストアの開発・運用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>サプライチェーン（SCM）</strong>：在庫・物流・需給最適化システム</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>店舗システム</strong>：POS・店舗オペレーションのデジタル化</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド基盤</strong>：上記を支えるインフラ・データ基盤</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>EC・大規模Webサービス</strong>：オンラインストアの開発・運用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>サプライチェーン（SCM）</strong>：在庫・物流・需給最適化システム</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>店舗システム</strong>：POS・店舗オペレーションのデジタル化</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド基盤</strong>：上記を支えるインフラ・データ基盤</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：ファーストリテイリング 公式採用サイトの職種・領域説明。具体的な言語・フレームワークは公式に一覧公開されていないため、本ガイドでは創作せず領域のみ記載しています。小売・流通のIT変革については<Link href="/industry/retail/" className="text-blue-600 hover:underline">小売・流通業界の転職</Link>もあわせてご覧ください。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：ファーストリテイリング 公式採用サイトの職種・領域説明。具体的な言語・フレームワークは公式に一覧公開されていないため、本ガイドでは創作せず領域のみ記載しています。小売・流通のIT変革については<Link href="/industry/retail/" className="text-petrol hover:underline">小売・流通業界の転職</Link>もあわせてご覧ください。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -139,7 +139,7 @@ export default function FastRetailingCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-2">
             上表はファーストリテイリングの<strong>有価証券報告書（2025年8月期）</strong>に記載された提出会社単体の数値です。ここで最も重要なのは、<strong>この約1,251万円は店舗社員を含む全社員平均</strong>であり、エンジニア単独の年収ではないという点です。エンジニアの想定年収としては、公式採用で確認できる<strong>システム開発・クラウド基盤などの580〜1,300万円</strong>のレンジ例の方が実態に近い参考値になります。なお転職集計サイトでITエンジニア約1,072万円とする値もありますが、これは公式値ではない参考値です。当ガイドでは推測の等級別年収表は掲載していません。
           </p>
-          <p className="text-xs text-slate-500">出典：ファーストリテイリング「有価証券報告書」2025年8月期、IRBANK集計、公式採用サイトの職種別レンジ例。年代別の相場感は<Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500">出典：ファーストリテイリング「有価証券報告書」2025年8月期、IRBANK集計、公式採用サイトの職種別レンジ例。年代別の相場感は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>を参照してください。</p>
         </section>
 
         <section id="flow" className="mb-10">
@@ -152,7 +152,7 @@ export default function FastRetailingCompanyPage() {
               ["STEP 3", "内定", "条件提示。具体的な選考期間は公式に明示されていない。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <span className="shrink-0 text-xs font-bold text-blue-700 bg-blue-50 rounded px-2 py-1 h-fit">{step}</span>
+                <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
                 <div><p className="font-bold text-slate-800 text-sm mb-1">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
               </li>
             ))}
@@ -164,10 +164,10 @@ export default function FastRetailingCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・口コミ傾向ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。公開情報と口コミプラットフォームの傾向から、評価されやすいと考えられるポイントを一般化して挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>EC・SCM・店舗・クラウドなど該当領域の大規模システム経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>ビジネスサイドと連携してDXを推進する当事者意識</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>グローバル・多拠点を前提としたシステム設計への理解</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>スピードと変化に向き合うカルチャーへの適応力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>EC・SCM・店舗・クラウドなど該当領域の大規模システム経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>ビジネスサイドと連携してDXを推進する当事者意識</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>グローバル・多拠点を前提としたシステム設計への理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>スピードと変化に向き合うカルチャーへの適応力</li>
           </ul>
         </section>
 
@@ -184,7 +184,7 @@ export default function FastRetailingCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代のエンジニアにとって、ファーストリテイリングの「事業会社の内側からEC・SCM・店舗のDXをリードする」役割は、ミドル層の経験が最も活きるフィールドです。技術だけでなくビジネスと組織を動かす力が求められるため、複数のプロジェクトや部門連携を経験してきたミドルの総合力が直接価値になります。グローバル規模の大規模システムに関われる機会は、事業会社では希少です。</p>
             <p>年収の見方には特に注意が必要です。有報の平均約1,251万円は<strong>店舗社員を含む全社員平均</strong>であり、これをそのままエンジニアの想定年収と捉えると実態とずれます。IT職としては公式の580〜1,300万円のレンジ例を基準に、自分の経験に対する提示を個別に確認・交渉することが重要です。また、変化のスピードが速い文化のため、生活基盤が固まった40代では働き方の強度を事前に見極めることをおすすめします。</p>
-            <p>転職活動では、ミドル層の市場価値・年収交渉の観点も押さえておきたいところです。<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>や<Link href="/industry/retail/" className="text-blue-600 hover:underline">小売・流通業界の転職</Link>、<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWeb系への転職</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の市場価値・年収交渉の観点も押さえておきたいところです。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>や<Link href="/industry/retail/" className="text-petrol hover:underline">小売・流通業界の転職</Link>、<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -215,15 +215,15 @@ export default function FastRetailingCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ファーストリテイリング転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けスカウト型。事業会社のDX・上位ポジションに出会いやすい。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人に強い。EC・基盤系の求人提案と面接対策が受けられる。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。大手事業会社のIT求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けスカウト型。事業会社のDX・上位ポジションに出会いやすい。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人に強い。EC・基盤系の求人提案と面接対策が受けられる。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。大手事業会社のIT求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ファーストリテイリングへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手事業会社のDX・IT求人に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/bizreach-it/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/bizreach-it/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -234,7 +234,7 @@ export default function FastRetailingCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "小売・流通業界の転職", href: "/industry/retail/" }, { name: "SIerからWeb系への転職", href: "/industry/sier-to-web/" }, { name: "ZOZOの転職ガイド", href: "/company/zozo/" }, { name: "楽天グループの転職ガイド", href: "/company/rakuten/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }, { name: "市場価値の把握", href: "/knowledge/market-value/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "小売・流通業界の転職", href: "/industry/retail/" }, { name: "SIerからWeb系への転職", href: "/industry/sier-to-web/" }, { name: "ZOZOの転職ガイド", href: "/company/zozo/" }, { name: "楽天グループの転職ガイド", href: "/company/rakuten/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }, { name: "市場価値の把握", href: "/knowledge/market-value/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

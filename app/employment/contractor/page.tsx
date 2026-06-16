@@ -163,15 +163,15 @@ export default function ContractorPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：単価は高い。ただし「事業主としての設計」が前提</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               業務委託は週5稼働でSE月71万円前後（レバテックフリーランス公表・2024年1月時点）など、正社員より高い額面が期待できます。しかし社会保険・税・労災・案件途切れリスクを自分で引き受けるため、手取りは額面ほど増えません。「高い単価＝会社が負担していたコストを自分が引き受ける対価」と理解し、事業主としての設計を整えてから選ぶのが安全です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">1.</span>単価目安：PG約68万／SE約71万／インフラ約67万（月額・週5・レバテックフリーランス2024年1月）。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">2.</span>登録者平均年収約881万円は「高稼働者中心の実績値」で、全体平均ではない。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">3.</span>2024年11月の労災特別加入で、最大の弱点だった「労災なし」が一部緩和された。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>単価目安：PG約68万／SE約71万／インフラ約67万（月額・週5・レバテックフリーランス2024年1月）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>登録者平均年収約881万円は「高稼働者中心の実績値」で、全体平均ではない。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2024年11月の労災特別加入で、最大の弱点だった「労災なし」が一部緩和された。</li>
             </ul>
           </div>
         </section>
@@ -182,7 +182,7 @@ export default function ContractorPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ol>
@@ -195,7 +195,7 @@ export default function ContractorPage() {
             「業務委託契約」という名称の法律用語は厳密には存在せず、実態は<strong>準委任契約</strong>（業務の遂行に対して報酬が支払われる）か<strong>請負契約</strong>（仕事の完成に対して報酬が支払われる）のいずれかです。いずれも民法上の契約で、労働契約ではありません。そのため、業務委託エンジニアは法律上「労働者」ではなく「事業主（個人事業主）」として扱われます。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            この違いから、社会保険は国民健康保険・国民年金が基本、雇用保険なし、所得税は確定申告という構造が生まれます。雇用形態全体の中での位置づけは<Link href="/employment/" className="text-blue-600 hover:underline">エンジニアの雇用形態の違い</Link>で横断的に整理しています。
+            この違いから、社会保険は国民健康保険・国民年金が基本、雇用保険なし、所得税は確定申告という構造が生まれます。雇用形態全体の中での位置づけは<Link href="/employment/" className="text-petrol hover:underline">エンジニアの雇用形態の違い</Link>で横断的に整理しています。
           </p>
         </section>
 
@@ -255,7 +255,7 @@ export default function ContractorPage() {
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            ※ 税・社会保険の具体的な金額は個別の状況で異なります。正確な試算は税理士・税務署・年金事務所にご確認ください。正社員との損得の並べ方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスvs正社員</Link>で詳しく解説しています。
+            ※ 税・社会保険の具体的な金額は個別の状況で異なります。正確な試算は税理士・税務署・年金事務所にご確認ください。正社員との損得の並べ方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員</Link>で詳しく解説しています。
           </p>
         </section>
 
@@ -309,7 +309,7 @@ export default function ContractorPage() {
           <p className="text-slate-600 leading-relaxed mb-5">
             業務委託の最大の弱点は、長らく「労災保険の対象外」であることでした。労働者ではないため、業務中のケガや病気に労災が使えなかったのです。この点が2024年に大きく変わりました。
           </p>
-          <div className="border border-blue-200 rounded-lg p-5 mb-4">
+          <div className="border border-[var(--line)] rounded-lg p-5 mb-4">
             <h3 className="font-bold text-blue-800 mb-2">労災保険の特別加入（2024年11月1日施行）</h3>
             <p className="text-sm text-slate-600 leading-relaxed">
               業種・職種を問わず、フリーランスが労災保険に特別加入できるようになりました。ITエンジニアのフリーランスも対象です。任意加入ではありますが、業務中・通勤中のケガや病気に対して労災給付を受けられる選択肢が生まれ、業務委託のリスクを下げる手段が増えました（出典：厚生労働省 特別加入制度ページ）。
@@ -330,11 +330,11 @@ export default function ContractorPage() {
             業務委託は誰にでも合う働き方ではありません。単価の高さだけで選ぶと、事務負担や収入変動につまずきがちです。自分の状況と照らし合わせて判断しましょう。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="border border-blue-200 rounded-lg p-5">
+            <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">向いている人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {fitYes.map((m, i) => (
-                  <li key={i} className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>{m}</li>
+                  <li key={i} className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>{m}</li>
                 ))}
               </ul>
             </div>
@@ -353,17 +353,17 @@ export default function ContractorPage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代がフリーランスを選ぶときの視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：ライフイベントと信用のタイミング</h3>
-              <p className="text-sm text-blue-700">住宅ローン・賃貸審査では、フリーランスは収入の安定性証明に開業後の実績年数を求められる傾向があります。住宅購入などの予定があるなら、正社員のうちに済ませてから独立する選択も。単価の高さに引っ張られず、信用が必要なイベントの順序を先に設計しましょう。</p>
+              <p className="text-sm text-petrol-deep">住宅ローン・賃貸審査では、フリーランスは収入の安定性証明に開業後の実績年数を求められる傾向があります。住宅購入などの予定があるなら、正社員のうちに済ませてから独立する選択も。単価の高さに引っ張られず、信用が必要なイベントの順序を先に設計しましょう。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験の市場性とリスク許容度</h3>
-              <p className="text-sm text-blue-700">設計・テックリード・大規模改修などシニアの経験が単価に反映されやすい一方、案件の波や契約途切れへの備えが重要になります。複数エージェント登録と生活防衛資金、そして正社員に戻る道を残しておくと安心です。正社員復帰の考え方は<Link href="/career/freelance-to-permanent/" className="text-blue-600 hover:underline">フリーランスから正社員へ</Link>を参照してください。</p>
+              <p className="text-sm text-petrol-deep">設計・テックリード・大規模改修などシニアの経験が単価に反映されやすい一方、案件の波や契約途切れへの備えが重要になります。複数エージェント登録と生活防衛資金、そして正社員に戻る道を残しておくと安心です。正社員復帰の考え方は<Link href="/career/freelance-to-permanent/" className="text-petrol hover:underline">フリーランスから正社員へ</Link>を参照してください。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年金・保障の長期設計</h3>
-              <p className="text-sm text-blue-700">業務委託は厚生年金がなく国民年金のみのため、将来の年金額に差が出やすくなります。iDeCo・国民年金基金・小規模企業共済などで自助の保障を組み、2024年から可能になった労災特別加入もあわせて検討するのが、30代・40代では特に重要です。</p>
+              <p className="text-sm text-petrol-deep">業務委託は厚生年金がなく国民年金のみのため、将来の年金額に差が出やすくなります。iDeCo・国民年金基金・小規模企業共済などで自助の保障を組み、2024年から可能になった労災特別加入もあわせて検討するのが、30代・40代では特に重要です。</p>
             </div>
           </div>
         </section>
@@ -390,7 +390,7 @@ export default function ContractorPage() {
           <p className="text-blue-100 text-sm mb-4">
             業務委託の単価と、正社員としての提示年収・保障を並べて比較してから判断するのが安全です。まずは市場価値の把握から始めましょう。
           </p>
-          <Link href="/compare/agents/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/compare/agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             IT転職エージェント比較を見る
           </Link>
         </section>
@@ -407,7 +407,7 @@ export default function ContractorPage() {
               { name: "派遣から正社員になる道", href: "/employment/dispatch/" },
               { name: "フリーランス向けエージェント比較", href: "/compare/freelance-agents/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

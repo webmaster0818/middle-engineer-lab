@@ -132,7 +132,7 @@ export default function HealthcarePage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -143,7 +143,7 @@ export default function HealthcarePage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：医療×ITの掛け合わせは転職市場で希少</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">
               医療系の業務知識を持つエンジニアのヘルステック転職は、<strong>十分に現実的</strong>です。ヘルステックでは医療現場のワークフロー、医療情報標準（HL7 FHIR／DICOM）、医療関連法規の理解が直接価値になり、これらは後から参入する純粋なIT人材が短期間で身につけにくい領域だからです。
             </p>
@@ -201,7 +201,7 @@ export default function HealthcarePage() {
                     <th className="px-4 py-3 text-left font-medium text-slate-700 align-top">{skill}</th>
                     <td
                       className={`px-4 py-3 font-medium whitespace-nowrap align-top ${
-                        status === "そのまま活きる" ? "text-blue-600" : "text-amber-600"
+                        status === "そのまま活きる" ? "text-petrol" : "text-amber-600"
                       }`}
                     >
                       {status}
@@ -293,8 +293,8 @@ export default function HealthcarePage() {
               <div className="bg-slate-100 px-4 py-2 text-xs font-bold text-slate-500">Before（伝わりにくい例）</div>
               <p className="px-4 py-3 text-sm text-slate-600">電子カルテシステムの保守・運用を担当。要件定義から携わった。</p>
             </div>
-            <div className="border border-blue-200 rounded-lg overflow-hidden">
-              <div className="bg-blue-100 px-4 py-2 text-xs font-bold text-blue-700">After（医療×ITが伝わる例）</div>
+            <div className="border border-[var(--line)] rounded-lg overflow-hidden">
+              <div className="bg-petrol-soft px-4 py-2 text-xs font-bold text-petrol-deep">After（医療×ITが伝わる例）</div>
               <p className="px-4 py-3 text-sm text-slate-700">
                 病院向け電子カルテの導入・運用を担当。HL7に基づく外部システム連携の要件定義を主導し、医師・看護師の運用負荷を踏まえた画面設計を提案。個人情報保護・医療法の制約を満たす運用フローを整備し、現場の入力工数削減に貢献。医療標準規格と現場ワークフローの両面を理解している点を強みとする。
               </p>
@@ -302,7 +302,7 @@ export default function HealthcarePage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             数値はご自身が実際に計測した範囲のみを記載してください。書き方の基本は
-            <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>
+            <Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>
             もあわせて参考にしてください。
           </p>
         </section>
@@ -325,8 +325,8 @@ export default function HealthcarePage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
             これらはあくまで目安です。正確な相場感はエージェントが提示する個別求人レンジで把握するのが確実です。年代別の詳しい考え方は
-            <Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代エンジニアの年収</Link>・
-            <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収</Link>
+            <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収</Link>・
+            <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>
             も参考にしてください。
           </p>
         </section>
@@ -364,7 +364,7 @@ export default function HealthcarePage() {
               { step: "4", title: "IT特化エージェントで求人レンジを確認", desc: "レバテックキャリア・doda ITエンジニアなどに登録し、実際の医療IT求人と提示年収レンジを比較する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.step}
                 </span>
                 <div>
@@ -428,8 +428,8 @@ export default function HealthcarePage() {
             </p>
             <p className="text-slate-700 leading-relaxed">
               年齢に関する不安がある場合は
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>や
-              <Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向けエージェント比較</Link>
+              <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>や
+              <Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向けエージェント比較</Link>
               もあわせて確認しておくと、現実的な戦略を立てやすくなります。
             </p>
           </div>
@@ -459,7 +459,7 @@ export default function HealthcarePage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -479,7 +479,7 @@ export default function HealthcarePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

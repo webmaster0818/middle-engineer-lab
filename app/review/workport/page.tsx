@@ -177,7 +177,7 @@ export default function WorkportReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-xl font-bold text-blue-900 mb-3">結論：ワークポートはこんな人向け</h2>
             <p className="text-sm text-blue-900 mb-4 leading-relaxed">
               <span className="font-bold">総合評価：求人量とスピードで「選択肢を広げたい人」に強い総合型エージェント。</span>
@@ -197,7 +197,7 @@ export default function WorkportReview() {
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((item, i) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {i + 1}. {item.label}
                 </a>
               </li>
@@ -230,7 +230,7 @@ export default function WorkportReview() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ワークポートの特徴・強み</h2>
           <div className="space-y-4">
             {strengths.map((s, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {s.title}</h3>
                 <p className="text-sm text-blue-900 leading-relaxed">{s.body}</p>
               </div>
@@ -274,17 +274,17 @@ export default function WorkportReview() {
         <section id="measure" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">デメリットへの対処法</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
-            <div className="border-l-4 border-blue-300 pl-4">
+            <div className="border-l-4 border-petrol pl-4">
               <p className="font-bold text-slate-800 mb-1">「連絡が多い」への対処</p>
               <p>初回面談で連絡手段（メール・電話・LINE等）と希望頻度をはっきり伝えましょう。「平日夜のみ」「週1回まとめて」など具体的に指定すると、提案量の多さがストレスになりにくくなります。</p>
             </div>
-            <div className="border-l-4 border-blue-300 pl-4">
+            <div className="border-l-4 border-petrol pl-4">
               <p className="font-bold text-slate-800 mb-1">「希望と異なる求人」への対処</p>
               <p>年収下限・職種・勤務地・避けたい業態などのNG条件を最初に言語化して共有します。条件を具体化するほど、ミスマッチな提案は減ります。</p>
             </div>
-            <div className="border-l-4 border-blue-300 pl-4">
+            <div className="border-l-4 border-petrol pl-4">
               <p className="font-bold text-slate-800 mb-1">「担当の専門性のばらつき」への対処</p>
-              <p>技術的に踏み込んだ相談やハイクラス案件は、<Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>などIT特化エージェントと併用してカバーするのが現実的です。ワークポートは求人量、IT特化は選考の深さ、と役割分担すると効率的です。</p>
+              <p>技術的に踏み込んだ相談やハイクラス案件は、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>などIT特化エージェントと併用してカバーするのが現実的です。ワークポートは求人量、IT特化は選考の深さ、と役割分担すると効率的です。</p>
             </div>
           </div>
         </section>
@@ -313,7 +313,7 @@ export default function WorkportReview() {
             <div>
               <h3 className="font-bold text-slate-800 mb-1">市場背景：IT人材不足という追い風</h3>
               <p>
-                経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。ミドル層にとっても経験者需要は底堅く、求人量を確保できるワークポートは、この需要に幅広くアクセスする入口として機能します。詳しくは<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>もあわせてご覧ください。
+                経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。ミドル層にとっても経験者需要は底堅く、求人量を確保できるワークポートは、この需要に幅広くアクセスする入口として機能します。詳しくは<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>もあわせてご覧ください。
               </p>
             </div>
           </div>
@@ -365,7 +365,7 @@ export default function WorkportReview() {
               ["内定・条件交渉・入社", "内定後は年収・条件の交渉をコンシェルジュ経由で行い、入社日を調整します。"],
             ].map(([title, body], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <span className="shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-sm">{i + 1}</span>
+                <span className="shrink-0 w-8 h-8 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-sm">{i + 1}</span>
                 <div>
                   <p className="font-bold text-slate-800 text-sm mb-1">{title}</p>
                   <p className="text-sm text-slate-600 leading-relaxed">{body}</p>
@@ -381,7 +381,7 @@ export default function WorkportReview() {
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed mb-4">
             <p><span className="font-bold">ワークポートが向くケース：</span>求人量を最大化したい、未経験・地方も含めて広く探したい、スピード重視で進めたい。</p>
             <p><span className="font-bold">IT特化エージェントが向くケース：</span>技術的に深い選考対策、ハイクラス・高年収を軸に厳選したい。</p>
-            <p><span className="font-bold">併用パターン：</span>ワークポートで母数を確保しつつ、<Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>や<Link href="/review/geekly/" className="text-blue-600 hover:underline">Geekly</Link>で専門的な提案・対策を受ける二刀流が、ミドル層には効率的です。</p>
+            <p><span className="font-bold">併用パターン：</span>ワークポートで母数を確保しつつ、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>や<Link href="/review/geekly/" className="text-petrol hover:underline">Geekly</Link>で専門的な提案・対策を受ける二刀流が、ミドル層には効率的です。</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
@@ -390,7 +390,7 @@ export default function WorkportReview() {
               { name: "30代向けエージェント比較", href: "/compare/30s-agents/" },
               { name: "未経験向けエージェント比較", href: "/compare/inexperienced/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}
@@ -417,7 +417,7 @@ export default function WorkportReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ワークポートに無料相談する</h2>
           <p className="text-blue-100 text-sm mb-4">求人量とスピードで選択肢を広げたい方へ。まずは無料相談から始めてみませんか？</p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">無料カウンセリングを予約する</a>
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料カウンセリングを予約する</a>
         </section>
 
         {/* 関連記事 */}
@@ -425,7 +425,7 @@ export default function WorkportReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {relatedArticles.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

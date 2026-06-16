@@ -81,7 +81,7 @@ export default function KakehashiCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高め（TypeScript一貫・サーバーレスの即戦力志向）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・フロント<strong>React＋TypeScript</strong>、バック<strong>Node.js＋TypeScript・AWSサーバーレス</strong>。TypeScriptで一気通貫の開発経験を持つエンジニアに向く。</li>
@@ -95,7 +95,7 @@ export default function KakehashiCompanyPage() {
         <nav aria-label="目次" className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ol>
         </nav>
 
@@ -114,9 +114,9 @@ export default function KakehashiCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">薬局DXのプラットフォーム開発</h3><p className="text-sm text-blue-700">カケハシは2016年設立で、電子薬歴「Musubi」をはじめとする薬局DXのプラットフォームを開発しています。アナログな業務が多い薬局・調剤の現場を、ソフトウェアで効率化・高度化していく社会性の高いドメインが特徴です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">TypeScript一貫のモダン開発</h3><p className="text-sm text-blue-700">フロントエンドのReactからバックエンドのNode.jsまでTypeScriptで一貫して開発でき、AWSサーバーレス（Lambda・API Gateway・DynamoDB・Step Functions・CDK）を中心としたモダンな構成です。言語をまたぐ認知コストが小さく、フルスタックに動きやすい環境といえます。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">選考プロセスの透明性</h3><p className="text-sm text-blue-700">カケハシは選考フローを公式に公開しており、各ステップの担当（開発ディレクター・現場エンジニア・CTO／PdM）が明確です。応募者にとって選考の見通しが立てやすく、準備しやすい点はミドル層にとってメリットになります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">薬局DXのプラットフォーム開発</h3><p className="text-sm text-petrol-deep">カケハシは2016年設立で、電子薬歴「Musubi」をはじめとする薬局DXのプラットフォームを開発しています。アナログな業務が多い薬局・調剤の現場を、ソフトウェアで効率化・高度化していく社会性の高いドメインが特徴です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">TypeScript一貫のモダン開発</h3><p className="text-sm text-petrol-deep">フロントエンドのReactからバックエンドのNode.jsまでTypeScriptで一貫して開発でき、AWSサーバーレス（Lambda・API Gateway・DynamoDB・Step Functions・CDK）を中心としたモダンな構成です。言語をまたぐ認知コストが小さく、フルスタックに動きやすい環境といえます。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">選考プロセスの透明性</h3><p className="text-sm text-petrol-deep">カケハシは選考フローを公式に公開しており、各ステップの担当（開発ディレクター・現場エンジニア・CTO／PdM）が明確です。応募者にとって選考の見通しが立てやすく、準備しやすい点はミドル層にとってメリットになります。</p></div>
           </div>
         </section>
 
@@ -125,13 +125,13 @@ export default function KakehashiCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下はカケハシの公式採用情報・技術発信で公開されている範囲の情報です。プロダクトの拡大に伴い構成は変化するため、最新は公式発信・募集要項でご確認ください。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>フロントエンド</strong>：React＋TypeScript（Amplifyを活用）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>バックエンド</strong>：Node.js＋TypeScript・サーバーレス（Lambda／API Gateway／DynamoDB／Step Functions／CDK）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>モバイル・横断</strong>：Swift／Dart／Python／Kotlin を用途に応じて横断利用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド</strong>：AWS が中心。サーバーレス・IaC（CDK）で運用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：React＋TypeScript（Amplifyを活用）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：Node.js＋TypeScript・サーバーレス（Lambda／API Gateway／DynamoDB／Step Functions／CDK）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>モバイル・横断</strong>：Swift／Dart／Python／Kotlin を用途に応じて横断利用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：AWS が中心。サーバーレス・IaC（CDK）で運用</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：カケハシ 公式採用情報・技術発信。各言語の市場動向は<Link href="/skill/typescript/" className="text-blue-600 hover:underline">TypeScript</Link>・<Link href="/skill/nodejs/" className="text-blue-600 hover:underline">Node.js</Link>・<Link href="/skill/react/" className="text-blue-600 hover:underline">React</Link>・<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS</Link>の各ガイドも参照してください。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：カケハシ 公式採用情報・技術発信。各言語の市場動向は<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript</Link>・<Link href="/skill/nodejs/" className="text-petrol hover:underline">Node.js</Link>・<Link href="/skill/react/" className="text-petrol hover:underline">React</Link>・<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>の各ガイドも参照してください。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -157,7 +157,7 @@ export default function KakehashiCompanyPage() {
           <ol className="space-y-3">
             {flowSteps.map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <span className="shrink-0 text-xs font-bold text-blue-700 bg-blue-50 rounded px-2 py-1 h-fit">{step}</span>
+                <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
                 <div><p className="font-bold text-slate-800 text-sm mb-1">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
               </li>
             ))}
@@ -169,10 +169,10 @@ export default function KakehashiCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・選考構成ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。公開されている選考フロー（担当別の面接）と技術スタックから、評価されやすいと考えられるポイントを一般化して挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>TypeScript（React／Node.js）での設計・実装力（二次のエンジニア面接で確認されやすい）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>AWSサーバーレス（Lambda・DynamoDB・Step Functions・CDK等）の設計・運用経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>薬局DX・医療という社会的意義の高いドメインへの共感（最終のCTO／PdM面接）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>プロダクト志向・チームでの協働・カルチャーフィット</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>TypeScript（React／Node.js）での設計・実装力（二次のエンジニア面接で確認されやすい）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>AWSサーバーレス（Lambda・DynamoDB・Step Functions・CDK等）の設計・運用経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>薬局DX・医療という社会的意義の高いドメインへの共感（最終のCTO／PdM面接）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>プロダクト志向・チームでの協働・カルチャーフィット</li>
           </ul>
         </section>
 
@@ -189,7 +189,7 @@ export default function KakehashiCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>カケハシは<strong>TypeScript一貫・AWSサーバーレス</strong>というモダンかつ習得対象が明確な技術構成のため、React／Node.js／TypeScriptでのSaaS開発経験を持つミドル層にとって、これまでの経験を活かしやすい環境です。集計参考値でも30代約770万円・40代約830万円といった年代別の目安が示されており、ミドルの採用が一定数行われていることがうかがえます（いずれも公式値ではない参考値）。</p>
             <p>選考フローが公式に公開されているのも、30代・40代にとっては大きな利点です。各ステップで誰が何を見るのかが事前にわかるため、準備の精度を上げやすく、転職活動のストレスを下げられます。一方で、成長スタートアップ特有の変化の速さ・制度の整備途上は、安定した大企業からの転職では事前に許容度を確認しておきたい部分です。非上場のため将来のIPOやストックオプションの扱いは公式の確定情報がなく、年収は提示額ベースで判断するのが現実的です。</p>
-            <p>医療ドメインに関心がある方は<Link href="/industry/healthcare/" className="text-blue-600 hover:underline">ヘルステック転職の全体像</Link>もあわせて確認すると業界の立ち位置が掴みやすくなります。年収交渉やキャリア整理の観点では<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>も参考にしてください。</p>
+            <p>医療ドメインに関心がある方は<Link href="/industry/healthcare/" className="text-petrol hover:underline">ヘルステック転職の全体像</Link>もあわせて確認すると業界の立ち位置が掴みやすくなります。年収交渉やキャリア整理の観点では<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -222,22 +222,22 @@ export default function KakehashiCompanyPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。薬局・調剤を含む医療領域はDXの余地が大きく、カケハシはその中でも先行する薬局DXのスタートアップです。</p>
             <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均で、カケハシの集計参考値（30代約770万円・40代約830万円）はこれを上回りますが、後者は公式値ではない参考値である点に留意が必要です。</p>
-            <p>SIerやSESから自社プロダクト開発へ移りたいミドルにとって、TypeScript一貫のカケハシは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWEB系への転職</Link>も参考になります。</p>
+            <p>SIerやSESから自社プロダクト開発へ移りたいミドルにとって、TypeScript一貫のカケハシは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWEB系への転職</Link>も参考になります。</p>
           </div>
         </section>
 
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">カケハシ転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">カケハシへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">ヘルステック・SaaS企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -248,7 +248,7 @@ export default function KakehashiCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "Ubieの転職ガイド", href: "/company/ubie/" }, { name: "10Xの転職ガイド", href: "/company/10x/" }, { name: "ヘルステック業界への転職", href: "/industry/healthcare/" }, { name: "TypeScriptエンジニアの転職", href: "/skill/typescript/" }, { name: "Node.jsエンジニアの転職", href: "/skill/nodejs/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "Ubieの転職ガイド", href: "/company/ubie/" }, { name: "10Xの転職ガイド", href: "/company/10x/" }, { name: "ヘルステック業界への転職", href: "/industry/healthcare/" }, { name: "TypeScriptエンジニアの転職", href: "/skill/typescript/" }, { name: "Node.jsエンジニアの転職", href: "/skill/nodejs/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

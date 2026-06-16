@@ -100,7 +100,7 @@ export default function AppleCompanyPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {tocItems.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ul>
@@ -108,7 +108,7 @@ export default function AppleCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-3">難易度は「高い」。専門性×プロダクト愛×英語の3点が揃う人に向く。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>● <strong>向いている人</strong>：iOS/macOS開発、組み込み・低レイヤ、機械学習など特定領域で深い実務経験があり、ビジネスレベルの英語が使える人。</li>
@@ -141,24 +141,24 @@ export default function AppleCompanyPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            ※年収はOpenWork等の口コミを集計した参考値で、回答者の偏り・職種・等級・株式報酬の有無により大きく変動します。最新の募集職種・条件は<a href="https://jobs.apple.com/ja-jp/search?location=japan-JPNC" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Apple公式採用ポータル</a>でご確認ください。
+            ※年収はOpenWork等の口コミを集計した参考値で、回答者の偏り・職種・等級・株式報酬の有無により大きく変動します。最新の募集職種・条件は<a href="https://jobs.apple.com/ja-jp/search?location=japan-JPNC" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">Apple公式採用ポータル</a>でご確認ください。
           </p>
         </section>
 
         <section id="features" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">極めて高い秘密主義</h3>
-              <p className="text-sm text-blue-700">Appleは情報管理が非常に厳格で、選考過程でも担当予定プロジェクトの詳細が開示されないことが多いと口コミで語られています。入社後も担当外の情報にはアクセスが制限される文化に適応できるかが評価のポイントになり得ます（出典: OpenWork・転職会議等の口コミ要約）。</p>
+              <p className="text-sm text-petrol-deep">Appleは情報管理が非常に厳格で、選考過程でも担当予定プロジェクトの詳細が開示されないことが多いと口コミで語られています。入社後も担当外の情報にはアクセスが制限される文化に適応できるかが評価のポイントになり得ます（出典: OpenWork・転職会議等の口コミ要約）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">プロダクトへの深い理解・共感を重視</h3>
-              <p className="text-sm text-blue-700">技術力に加え、Appleのプロダクトやデザイン哲学（Think Different）への理解・共感が強く問われる傾向があります。「なぜAppleなのか」を自分の言葉で語れることが重要との声が多く見られます。</p>
+              <p className="text-sm text-petrol-deep">技術力に加え、Appleのプロダクトやデザイン哲学（Think Different）への理解・共感が強く問われる傾向があります。「なぜAppleなのか」を自分の言葉で語れることが重要との声が多く見られます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ハードウェア×ソフトウェアの統合開発</h3>
-              <p className="text-sm text-blue-700">チップ設計からOS、アプリケーションまで一貫して手がけるApple特有の統合的な開発環境があり、幅広い技術領域に触れられます。低レイヤや組み込みの経験が活きやすい環境です。</p>
+              <p className="text-sm text-petrol-deep">チップ設計からOS、アプリケーションまで一貫して手がけるApple特有の統合的な開発環境があり、幅広い技術領域に触れられます。低レイヤや組み込みの経験が活きやすい環境です。</p>
             </div>
           </div>
         </section>
@@ -221,11 +221,11 @@ export default function AppleCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5 mb-4">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>アプリ・OS</strong>：Swift / Objective-C を中心としたAppleエコシステム</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>低レイヤ・組み込み</strong>：C / C++</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>機械学習・データ</strong>：Python / Core ML 等</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>グラフィックス</strong>：Metal 等の独自フレームワーク</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>開発文化</strong>：OSSよりApple独自ツール・フレームワーク中心、品質・体験への高い基準</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>アプリ・OS</strong>：Swift / Objective-C を中心としたAppleエコシステム</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>低レイヤ・組み込み</strong>：C / C++</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>機械学習・データ</strong>：Python / Core ML 等</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>グラフィックス</strong>：Metal 等の独自フレームワーク</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>開発文化</strong>：OSSよりApple独自ツール・フレームワーク中心、品質・体験への高い基準</li>
             </ul>
           </div>
           <p className="text-slate-700 leading-relaxed text-sm">
@@ -279,14 +279,14 @@ export default function AppleCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>担当領域における深い専門性と、課題解決の具体例</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>コーディング・システム設計の基礎力</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>Appleのプロダクト・ユーザー体験への理解と「なぜApple」への明確な動機</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>英語でのコミュニケーション力（多くの職種でビジネスレベル）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>担当領域における深い専門性と、課題解決の具体例</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>コーディング・システム設計の基礎力</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Appleのプロダクト・ユーザー体験への理解と「なぜApple」への明確な動機</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>英語でのコミュニケーション力（多くの職種でビジネスレベル）</li>
             </ul>
           </div>
           <p className="text-slate-700 leading-relaxed text-sm mt-4">
-            コーディング対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策ガイド</Link>、設計面接は<Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システム設計面接の準備</Link>、外資特有の進め方は<Link href="/knowledge/overseas/" className="text-blue-600 hover:underline">外資・グローバル転職ガイド</Link>も参考にしてください。
+            コーディング対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策ガイド</Link>、設計面接は<Link href="/knowledge/system-design/" className="text-petrol hover:underline">システム設計面接の準備</Link>、外資特有の進め方は<Link href="/knowledge/overseas/" className="text-petrol hover:underline">外資・グローバル転職ガイド</Link>も参考にしてください。
           </p>
         </section>
 
@@ -300,7 +300,7 @@ export default function AppleCompanyPage() {
               <strong>事前に覚悟しておきたい2点。</strong>(1) 秘密主義の文化上、入社前に担当業務の詳細が見えにくく、ミスマッチが起きると軌道修正しづらいとの口コミがあります。リファラルや面接で可能な限り情報を引き出す姿勢が重要です。(2) OSS活動や登壇で外向きにブランディングしてきた人にとっては、発信が制限される文化への適応が必要です。
             </p>
             <p className="text-sm text-amber-900 leading-relaxed">
-              市場価値の整理は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">エンジニアの市場価値の測り方</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>も合わせてご覧ください。
+              市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">エンジニアの市場価値の測り方</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -313,13 +313,13 @@ export default function AppleCompanyPage() {
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高い。iOS/組み込み等の専門求人も。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界専門。外資系メーカー・専門職の求人も取り扱い。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">外資は公式応募・リファラルも有力ルートです。併用の考え方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの併用ガイド</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">外資は公式応募・リファラルも有力ルートです。併用の考え方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの併用ガイド</Link>を参照してください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -340,7 +340,7 @@ export default function AppleCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Apple Japanへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">外資IT企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -354,7 +354,7 @@ export default function AppleCompanyPage() {
               { name: "外資・グローバル転職ガイド", href: "/knowledge/overseas/" },
               { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

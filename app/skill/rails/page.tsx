@@ -96,7 +96,7 @@ export default function RailsSkillPage() {
             Ruby on Rails（Rails）はRubyで書かれたWebアプリケーションフレームワークで、<strong>MVPの高速開発</strong>に強みを持ち、スタートアップや自社サービス企業のWeb開発で広く採用されています。「設定より規約」の思想により、少人数でも素早くサービスを立ち上げられるのが特徴です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、フレームワークとしてのRailsを軸に、Railsエンジニア転職の「攻め方」を<strong>公表年収データ・求められる経験レベル・求人の探し方・他フレームワークからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。言語全体の市場は<Link href="/skill/ruby/" className="text-blue-600 hover:underline">Rubyエンジニアの転職ガイド</Link>もあわせてご覧ください。
+            本記事では、フレームワークとしてのRailsを軸に、Railsエンジニア転職の「攻め方」を<strong>公表年収データ・求められる経験レベル・求人の探し方・他フレームワークからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。言語全体の市場は<Link href="/skill/ruby/" className="text-petrol hover:underline">Rubyエンジニアの転職ガイド</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -114,7 +114,7 @@ export default function RailsSkillPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -124,7 +124,7 @@ export default function RailsSkillPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Railsエンジニアの転職市場の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Railsは自社開発・スタートアップへの入口として強いフレームワークです。</strong>MVP開発の生産性を武器に、自社サービス企業のWeb開発に的を絞るのが効率的です。
             </p>
@@ -184,7 +184,7 @@ export default function RailsSkillPage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2 text-sm">{item.tier}</h3>
                 <p className="text-xs text-slate-600 mb-2 leading-relaxed">{item.req}</p>
-                <p className="text-xs text-blue-600">{item.note}</p>
+                <p className="text-xs text-petrol">{item.note}</p>
               </div>
             ))}
           </div>
@@ -224,25 +224,25 @@ export default function RailsSkillPage() {
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で提案スピードが強み。Railsを採用するスタートアップ・自社開発の求人を探したい場合の選択肢になります。
               </p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">Geeklyの詳細レビュー →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web特化で求人の質が高く、技術に踏み込んで話せるアドバイザーが在籍。Railsを含む自社開発求人の提案に向きます。
               </p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Green（ダイレクト型・自社開発）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 自社サービス企業と直接やり取りできる成功報酬型サイト。Railsを採用する自社開発企業に直接応募したい場合の選択肢です。
               </p>
-              <Link href="/review/green/" className="text-sm text-blue-600 hover:underline">Greenの詳細レビュー →</Link>
+              <Link href="/review/green/" className="text-sm text-petrol hover:underline">Greenの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            エージェント各社の比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">転職エージェント比較</Link>も参照してください。
+            エージェント各社の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">転職エージェント比較</Link>も参照してください。
           </p>
         </section>
 
@@ -255,7 +255,7 @@ export default function RailsSkillPage() {
               { num: "3", title: "自社開発企業のポテンシャル枠を狙う", desc: "自社サービス企業はキャッチアップ前提のポテンシャル採用を行うことがあります。エージェントに「Railsは学習中、Webアプリを公開済み」と伝え、そうした求人を紹介してもらうのが近道です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -281,7 +281,7 @@ export default function RailsSkillPage() {
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            年代別の戦略は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>も参考にしてください。
+            年代別の戦略は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>・<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>も参考にしてください。
           </p>
         </section>
 
@@ -298,7 +298,7 @@ export default function RailsSkillPage() {
               <strong>③ フロントエンド・インフラを掛け合わせる。</strong>React等のフロントや、AWS・コンテナでのデプロイ・スケール経験を積むと、フルスタック・テックリード級の求人に手が届きます。Rails単体に閉じず周辺を広げるのが、市場価値を高める鍵です。
             </p>
             <p>
-              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
+              学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -325,7 +325,7 @@ export default function RailsSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -345,7 +345,7 @@ export default function RailsSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -358,8 +358,8 @@ export default function RailsSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/freee/" className="text-blue-700 hover:underline">freee</a></li><li><a href="/company/moneyforward/" className="text-blue-700 hover:underline">マネーフォワード</a></li><li><a href="/company/note/" className="text-blue-700 hover:underline">note（ノート）</a></li><li><a href="/company/sansan/" className="text-blue-700 hover:underline">Sansan</a></li><li><a href="/company/smarthr/" className="text-blue-700 hover:underline">SmartHR</a></li><li><a href="/company/wantedly-inc/" className="text-blue-700 hover:underline">ウォンテッドリー（Wantedly）</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/freee/" className="text-petrol-deep hover:underline">freee</a></li><li><a href="/company/moneyforward/" className="text-petrol-deep hover:underline">マネーフォワード</a></li><li><a href="/company/note/" className="text-petrol-deep hover:underline">note（ノート）</a></li><li><a href="/company/sansan/" className="text-petrol-deep hover:underline">Sansan</a></li><li><a href="/company/smarthr/" className="text-petrol-deep hover:underline">SmartHR</a></li><li><a href="/company/wantedly-inc/" className="text-petrol-deep hover:underline">ウォンテッドリー（Wantedly）</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

@@ -118,7 +118,7 @@ export default function SwiftSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：Swift/iOS転職の攻め方</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               iOSは自社サービス企業を中心に需要が安定しており、フリーランス案件では高単価が出やすいスキルです（フリーランスボード調査でSwift案件平均年収約945万円・2025年10月）。<strong>App Store公開アプリ＋SwiftUI/アーキテクチャ設計の実績で“即戦力”を可視化</strong>し、モバイルに強いエージェントで求人を引き出すのが効率的です。
@@ -137,7 +137,7 @@ export default function SwiftSkillPage() {
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -219,17 +219,17 @@ export default function SwiftSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化でモバイル案件に強み。技術に明るいアドバイザーが在籍し、高年収帯のマッチングに対応。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化。スタートアップ・自社開発のiOS求人が見つかりやすく、提案スピードが強み。</p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
               <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型。実績のあるiOSエンジニアは、年収を上げる選択肢としてスカウトを受けやすい。</p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
         </section>
@@ -240,7 +240,7 @@ export default function SwiftSkillPage() {
           <div className="space-y-4">
             {points.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -251,7 +251,7 @@ export default function SwiftSkillPage() {
             ))}
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            関連: <Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link> / <Link href="/skill/flutter/" className="text-blue-600 hover:underline">Flutter転職ガイド</Link>
+            関連: <Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link> / <Link href="/skill/flutter/" className="text-petrol hover:underline">Flutter転職ガイド</Link>
           </p>
         </section>
 
@@ -262,7 +262,7 @@ export default function SwiftSkillPage() {
             ミドル層は「公開アプリの運用・改善経験」「UIKit→SwiftUI移行など大きめの設計判断を主導した実績」が武器になります。レバテックの年代別公表値（2025年）でも正社員SE平均は30代約499万円・40代約618万円と、年代が上がるほど水準が上がる傾向があり、iOSの即戦力性を示せれば交渉余地は十分にあります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            40代では「最新OS・SwiftUIへの追従力」を懸念されることがあるため、直近のキャッチアップ実績を具体的に語れると安心感につながります。年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職ガイド</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職ガイド</Link>、働き方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスvs正社員ガイド</Link>も参照してください。
+            40代では「最新OS・SwiftUIへの追従力」を懸念されることがあるため、直近のキャッチアップ実績を具体的に語れると安心感につながります。年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link>、働き方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員ガイド</Link>も参照してください。
           </p>
         </section>
 
@@ -283,7 +283,7 @@ export default function SwiftSkillPage() {
             ))}
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            学び続ける習慣づくりは<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習の進め方</Link>も参考になります。
+            学び続ける習慣づくりは<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の進め方</Link>も参考になります。
           </p>
         </section>
 
@@ -352,7 +352,7 @@ export default function SwiftSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -372,7 +372,7 @@ export default function SwiftSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -385,8 +385,8 @@ export default function SwiftSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/apple/" className="text-blue-700 hover:underline">Apple Japan</a></li><li><a href="/company/zozo/" className="text-blue-700 hover:underline">ZOZO</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/apple/" className="text-petrol-deep hover:underline">Apple Japan</a></li><li><a href="/company/zozo/" className="text-petrol-deep hover:underline">ZOZO</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

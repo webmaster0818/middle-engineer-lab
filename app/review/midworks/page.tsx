@@ -203,7 +203,7 @@ export default function MidworksReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：「独立したいが不安定が怖い」ミドルの第一歩に最適</span>。一言でいえば「正社員並みの保障を受けながら、安心してフリーランスを始めたい経験者」向けのサービスです。
@@ -219,7 +219,7 @@ export default function MidworksReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -256,27 +256,27 @@ export default function MidworksReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">Midworksの特徴・強み（正社員並み保障）</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 報酬保障で収入の途切れに備えられる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 案件と案件の間で収入が途切れた場合に報酬の60%を保障するという仕組み（二次情報・適用条件あり）が、最大の差別化ポイントです。独立後の最大の不安である「案件が切れたときの収入」を抑えられる設計です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 正社員並みの福利厚生</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 福利厚生面でも正社員に近い支援を受けられる点が評価されています。フリーランスは福利厚生が弱点になりやすいため、ここを補える設計は安定志向のミドルに刺さります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 案件量も最大手級</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 常時1万件以上・非公開約80%という案件規模で、保障型でありながら案件の選択肢も確保されています。登録者数は5万人（2025年4月・二次情報）とされます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 「不安定が怖い」層の独立の第一歩に</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 保障と福利厚生があることで、家族やローンを抱える30代・40代でも独立に踏み出しやすいのが特徴です。単価最大化より安定を優先したいミドルの入り口として機能します。
               </p>
             </div>
@@ -330,7 +330,7 @@ export default function MidworksReview() {
             </p>
             <p>
               マージンの数字だけを見ると割高に映りますが、Midworksは<span className="font-bold">報酬保障と正社員並みの福利厚生</span>という付加価値を提供する設計です。「安定のコストをエージェントに払う」という構造として捉えると、評価が変わります。単価・手取りだけを最大化したいなら、エンド直で単価が高めの
-              <Link href="/review/levtech-freelance/" className="text-blue-600 hover:underline">レバテックフリーランス</Link>
+              <Link href="/review/levtech-freelance/" className="text-petrol hover:underline">レバテックフリーランス</Link>
               の提示単価と並べて比較するのが合理的です。
             </p>
             <p>
@@ -375,11 +375,11 @@ export default function MidworksReview() {
             </p>
             <p>
               「いつでも正社員に戻れる状態」を保つ意識も大切です。考え方は
-              <Link href="/career/freelance-to-permanent/" className="text-blue-600 hover:underline">フリーランスから正社員に戻るキャリア</Link>
+              <Link href="/career/freelance-to-permanent/" className="text-petrol hover:underline">フリーランスから正社員に戻るキャリア</Link>
               や
-              <Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスと正社員の比較</Link>
+              <Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスと正社員の比較</Link>
               を参照してください。そもそも安定した正社員雇用を希望する場合は、正社員転職の
-              <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               に相談するのが近道です。
             </p>
           </div>
@@ -422,7 +422,7 @@ export default function MidworksReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -456,16 +456,16 @@ export default function MidworksReview() {
             </table>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテックフリーランス（単価・案件量）の評判 →
             </Link>
-            <Link href="/review/itpropartners/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/itpropartners/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ITプロパートナーズ（週2-3日）の評判 →
             </Link>
-            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               フリーランスエージェント比較 →
             </Link>
-            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               安定雇用ならレバテックキャリア →
             </Link>
           </div>
@@ -493,7 +493,7 @@ export default function MidworksReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは無料面談で、保障の条件と自分の単価レンジを確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料面談を予約する
           </a>
         </section>
@@ -503,7 +503,7 @@ export default function MidworksReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

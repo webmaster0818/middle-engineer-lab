@@ -128,7 +128,7 @@ export default function CompareIndexPage() {
                 <Link
                   key={it.slug}
                   href={`/compare/${it.slug}/`}
-                  className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                  className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
                 >
                   {it.name} →
                 </Link>
@@ -146,7 +146,7 @@ export default function CompareIndexPage() {
               { name: "複数エージェントの使い分け", href: "/knowledge/multiple-agents/" },
               { name: "転職サイトとエージェントの違い", href: "/knowledge/site-vs-agent/" },
             ].map((x, i) => (
-              <Link key={i} href={x.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={x.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {x.name} →
               </Link>
             ))}

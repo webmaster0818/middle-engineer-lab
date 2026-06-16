@@ -85,7 +85,7 @@ export default function ShortHoursPage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             育児・介護を理由とする短時間勤務は、育児・介護休業法によって多くの企業で利用できる<strong>法定の権利</strong>です。3歳未満の子を養育する労働者には、原則1日6時間の短時間勤務制度を設ける義務が事業主に課されています。つまり「時短制度があるか」だけで会社を選ぶと差がつきにくく、本当に見るべきは<strong>何歳まで使えるか・時短中も正当に評価されるか</strong>です。本記事では、時短の法定ルールを公的情報で整理し、求人での見極め方を30-40代の育児・介護と仕事の両立の観点で解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 育児・介護のために時短で働ける会社へ転職したい30-40代</li>
@@ -98,7 +98,7 @@ export default function ShortHoursPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>時短勤務の法定ルール</li>
             <li>求人での見極めポイント</li>
             <li>該当しやすい企業タイプ</li>
@@ -112,7 +112,7 @@ export default function ShortHoursPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">制度</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">内容</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">ポイント</th>
@@ -149,7 +149,7 @@ export default function ShortHoursPage() {
               { num: "5", title: "成果で評価する文化かを確認する", desc: "エンジニアは成果が見えやすい職種。稼働時間ではなくアウトプットで評価する文化なら、時短でも正当に評価されやすいです。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -195,9 +195,9 @@ export default function ShortHoursPage() {
             </p>
             <p>
               <strong>時短だけが選択肢ではない：</strong>
-              <Link href="/purpose/flextime/" className="text-blue-600 hover:underline">フレックスタイム</Link>
+              <Link href="/purpose/flextime/" className="text-petrol hover:underline">フレックスタイム</Link>
               や
-              <Link href="/purpose/remote-full/" className="text-blue-600 hover:underline">フルリモート</Link>
+              <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート</Link>
               を組み合わせれば、給与を減らさずに育児・介護と両立できる場合があります。自分の事情に合う制度を選びましょう。
             </p>
           </div>
@@ -221,7 +221,7 @@ export default function ShortHoursPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">時短で働ける企業を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">両立支援の実態まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -235,7 +235,7 @@ export default function ShortHoursPage() {
               { name: "ワークライフバランス重視の転職", href: "/purpose/wlb/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

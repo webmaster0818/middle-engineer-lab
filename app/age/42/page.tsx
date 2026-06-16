@@ -174,15 +174,15 @@ export default function Age42Page() {
 
         {/* 結論ファースト */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：42歳は経験を「役割」に変えて勝負する</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               42歳は求人の母数こそ絞られますが、マネジメント・専門性・ドメイン知識という40代固有の武器を活かせる役割を狙えば、年収を維持・アップする転職も現実的です。40代前半は後半より選択肢が残るため、「数を追う」のではなく「経験が要件になる役割へ的確に当てる」ことが成功の前提です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">1.</span>レバテック公表では40代平均年収は約618万円で、1,000万円以上も12.67%（30代の8.01%より高い・2025年）。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">2.</span>dodaの2024年度決定年収レポートでは転職者の約6割が年収アップ（2025年5月公表）。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">3.</span>経産省試算では2030年に最大約79万人のIT人材不足（2019年公表）で、経験者需要が続く。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>レバテック公表では40代平均年収は約618万円で、1,000万円以上も12.67%（30代の8.01%より高い・2025年）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>dodaの2024年度決定年収レポートでは転職者の約6割が年収アップ（2025年5月公表）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>経産省試算では2030年に最大約79万人のIT人材不足（2019年公表）で、経験者需要が続く。</li>
             </ul>
           </div>
         </section>
@@ -193,7 +193,7 @@ export default function Age42Page() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -211,7 +211,7 @@ export default function Age42Page() {
             重要なのは、この「前半の余裕」を役割の確立に使うことです。42歳でプレイヤー枠に応募すると若手と同じ土俵で比較され、年齢が不利に働きます。逆に、テックリード・EM・アーキテクト・DX推進といった「経験が要件になる役割」へ移れば、年齢はむしろ強みになります。40代後半になるほどこの傾向は強まるため、42歳のうちに役割を固めておくことが先々の選択肢を守ります。
           </p>
           <p className="text-slate-600 leading-relaxed text-sm">
-            前後の年代との比較は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職は厳しい？</Link>や<Link href="/age/45/" className="text-blue-600 hover:underline">45歳エンジニアの転職</Link>、現実は<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニア転職の現実</Link>もあわせてご覧ください。
+            前後の年代との比較は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職は厳しい？</Link>や<Link href="/age/45/" className="text-petrol hover:underline">45歳エンジニアの転職</Link>、現実は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -268,7 +268,7 @@ export default function Age42Page() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            実績の数値化は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>、年齢の不安については<Link href="/knowledge/age-discrimination/" className="text-blue-600 hover:underline">年齢と転職</Link>でも掘り下げています。
+            実績の数値化は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>、年齢の不安については<Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">年齢と転職</Link>でも掘り下げています。
           </p>
         </section>
 
@@ -280,9 +280,9 @@ export default function Age42Page() {
           </p>
           <div className="space-y-4">
             {jobs.map((item, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{item.title}</h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{item.desc}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -298,7 +298,7 @@ export default function Age42Page() {
             doda「2024年度 決定年収レポート」（2025年5月公表）では転職者の約6割が年収アップとされます。ただしこれらは40代単位の公表値であり、42歳「ピンポイント」の平均年収を断定する公的データは存在しません。短期の年収だけでなく、中期のキャリア価値と役割で判断することが、40代前半の年収を守り伸ばす鍵です。
           </p>
           <p className="text-slate-600 leading-relaxed text-sm">
-            40代の年収は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収のリアル</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>もあわせてご覧ください。
+            40代の年収は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収のリアル</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -314,18 +314,18 @@ export default function Age42Page() {
               <p className="text-sm text-slate-600 leading-relaxed mb-3">
                 チームと組織の成果にコミットする道。エンジニアリングマネージャー（EM）、VPoE、テクニカルPMなどが該当します。ピープルマネジメント・採用・プロジェクト管理の実績が、42歳の最大の武器として評価されます。
               </p>
-              <p className="text-xs text-blue-600">向いている人: 組織やチームの成果に責任を持ちたい／調整・育成が得意</p>
+              <p className="text-xs text-petrol">向いている人: 組織やチームの成果に責任を持ちたい／調整・育成が得意</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">スペシャリストパス（IC）</h3>
               <p className="text-sm text-slate-600 leading-relaxed mb-3">
                 技術を突き詰める道。シニアアーキテクト、SRE、セキュリティ、データエンジニアなどが該当します。15年以上の経験から得た基盤技術の深さが、そのまま価値になります。ICパスを整備する企業も増えています。
               </p>
-              <p className="text-xs text-blue-600">向いている人: 技術の深さで勝負したい／マネジメントより手を動かしたい</p>
+              <p className="text-xs text-petrol">向いている人: 技術の深さで勝負したい／マネジメントより手を動かしたい</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            キャリア設計の考え方は<Link href="/knowledge/career-plan/" className="text-blue-600 hover:underline">エンジニアのキャリアプラン</Link>、市場価値の確認は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">自分の市場価値を知る方法</Link>を参考にしてください。
+            キャリア設計の考え方は<Link href="/knowledge/career-plan/" className="text-petrol hover:underline">エンジニアのキャリアプラン</Link>、市場価値の確認は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値を知る方法</Link>を参考にしてください。
           </p>
         </section>
 
@@ -340,17 +340,17 @@ export default function Age42Page() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <div className="flex items-center justify-between mb-2 flex-wrap gap-2">
                   <h3 className="font-bold text-slate-800">{agent.name}</h3>
-                  <Link href={agent.href} className="text-xs text-blue-600 hover:underline shrink-0">
+                  <Link href={agent.href} className="text-xs text-petrol hover:underline shrink-0">
                     詳しいレビューを見る →
                   </Link>
                 </div>
                 <p className="text-sm text-slate-600 mb-2 leading-relaxed">{agent.reason}</p>
-                <p className="text-xs text-blue-600 font-medium">こんな42歳向き: {agent.fit}</p>
+                <p className="text-xs text-petrol font-medium">こんな42歳向き: {agent.fit}</p>
               </div>
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            40代向けの比較は<Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代エージェント比較</Link>、ハイクラス志向なら<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けエージェント比較</Link>も参考になります。
+            40代向けの比較は<Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代エージェント比較</Link>、ハイクラス志向なら<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けエージェント比較</Link>も参考になります。
           </p>
         </section>
 
@@ -366,7 +366,7 @@ export default function Age42Page() {
               { step: "STEP 5", title: "内定比較・条件交渉・退職", desc: "複数内定を年収・役割・働き方で比較し、必要なら条件交渉をエージェント経由で行います。焦って妥協せず、中期のキャリア価値で判断します。" },
             ].map((s, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-5">
-                <div className="text-blue-600 font-bold text-sm shrink-0 w-16">{s.step}</div>
+                <div className="text-petrol font-bold text-sm shrink-0 w-16">{s.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{s.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{s.desc}</p>
@@ -375,7 +375,7 @@ export default function Age42Page() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            スケジュール感は<Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職活動のスケジュール</Link>、面接対策は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接対策ガイド</Link>を参照してください。
+            スケジュール感は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職活動のスケジュール</Link>、面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接対策ガイド</Link>を参照してください。
           </p>
         </section>
 
@@ -403,7 +403,7 @@ export default function Age42Page() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -424,7 +424,7 @@ export default function Age42Page() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

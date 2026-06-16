@@ -102,7 +102,7 @@ export default function LineYahooCompanyPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {tocItems.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ul>
@@ -110,7 +110,7 @@ export default function LineYahooCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-3">難易度は「高め」。大規模トラフィックを扱った実務経験者に向く。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>● <strong>向いている人</strong>：Java/Kotlin/TypeScript等で大規模Webサービスを開発・運用した経験があり、Kubernetes基盤やデータ処理基盤に関心がある人。</li>
@@ -143,24 +143,24 @@ export default function LineYahooCompanyPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            ※従業員数・平均給与は有価証券報告書（2025年3月期）を集計した二次情報に基づきます。求人内容や勤務条件は変動するため、最新情報は<a href="https://www.lycorp.co.jp/ja/recruit/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">LINEヤフー公式採用ページ</a>で必ずご確認ください。
+            ※従業員数・平均給与は有価証券報告書（2025年3月期）を集計した二次情報に基づきます。求人内容や勤務条件は変動するため、最新情報は<a href="https://www.lycorp.co.jp/ja/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">LINEヤフー公式採用ページ</a>で必ずご確認ください。
           </p>
         </section>
 
         <section id="features" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">国内最大級のトラフィック規模</h3>
-              <p className="text-sm text-blue-700">LINEとYahoo! JAPANという国内有数の大規模サービスを擁し、膨大なリクエストを捌くシステムの設計・運用経験を積めます。公式Tech Blogでは、社内Kubernetes as a Service基盤「ZCP」が2018年に立ち上がり、グローバルで多数のクラスタ・100万超のコンテナを運用してきたことが紹介されています。この規模感は転職先として希少です。</p>
+              <p className="text-sm text-petrol-deep">LINEとYahoo! JAPANという国内有数の大規模サービスを擁し、膨大なリクエストを捌くシステムの設計・運用経験を積めます。公式Tech Blogでは、社内Kubernetes as a Service基盤「ZCP」が2018年に立ち上がり、グローバルで多数のクラスタ・100万超のコンテナを運用してきたことが紹介されています。この規模感は転職先として希少です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">多様なサービスドメインと社内異動</h3>
-              <p className="text-sm text-blue-700">メッセンジャー、検索、EC、決済、広告、AIなど扱う領域が広く、エンジニアのキャリアパスの選択肢が豊富です。社内公募・異動の仕組みもあり、入社後にドメインを変えやすい点はミドル層にとってのメリットになります。</p>
+              <p className="text-sm text-petrol-deep">メッセンジャー、検索、EC、決済、広告、AIなど扱う領域が広く、エンジニアのキャリアパスの選択肢が豊富です。社内公募・異動の仕組みもあり、入社後にドメインを変えやすい点はミドル層にとってのメリットになります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">OSS・技術発信への積極姿勢</h3>
-              <p className="text-sm text-blue-700">Kubernetes関連OSS（kustomize等）でのコントリビューションや、KubeCon等の国際カンファレンスへの登壇・参加レポートが公式Tech Blogで多数公開されています。技術を外に発信したいエンジニアにとって、活動の土台がある環境です。</p>
+              <p className="text-sm text-petrol-deep">Kubernetes関連OSS（kustomize等）でのコントリビューションや、KubeCon等の国際カンファレンスへの登壇・参加レポートが公式Tech Blogで多数公開されています。技術を外に発信したいエンジニアにとって、活動の土台がある環境です。</p>
             </div>
           </div>
         </section>
@@ -225,11 +225,11 @@ export default function LineYahooCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5 mb-4">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>サーバーサイド</strong>：Java / Kotlin が中心。サービスによりGo・Python等も</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>フロントエンド</strong>：TypeScript / React など</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>基盤・インフラ</strong>：Kubernetes（社内KaaS「ZCP」）を全社的に活用</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>データ基盤</strong>：Apache Kafka / Apache Spark 等を大規模に運用</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><strong>開発文化</strong>：内製プラットフォーム志向＋OSSコミュニティ参加の両輪</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>サーバーサイド</strong>：Java / Kotlin が中心。サービスによりGo・Python等も</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>フロントエンド</strong>：TypeScript / React など</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>基盤・インフラ</strong>：Kubernetes（社内KaaS「ZCP」）を全社的に活用</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>データ基盤</strong>：Apache Kafka / Apache Spark 等を大規模に運用</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>開発文化</strong>：内製プラットフォーム志向＋OSSコミュニティ参加の両輪</li>
             </ul>
           </div>
           <p className="text-slate-700 leading-relaxed text-sm">
@@ -280,14 +280,14 @@ export default function LineYahooCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>大規模サービスで直面した技術課題と、その解決プロセスを具体的に語れるか</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>担当領域における技術選定の判断軸・トレードオフの理解</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>コーディング／アルゴリズムの基礎力（職種により課題で確認）</li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>チームでの協働・コミュニケーション、ステークホルダーへの説明力</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>大規模サービスで直面した技術課題と、その解決プロセスを具体的に語れるか</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>担当領域における技術選定の判断軸・トレードオフの理解</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>コーディング／アルゴリズムの基礎力（職種により課題で確認）</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>チームでの協働・コミュニケーション、ステークホルダーへの説明力</li>
             </ul>
           </div>
           <p className="text-slate-700 leading-relaxed text-sm mt-4">
-            コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策ガイド</Link>、技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の進め方</Link>も参考にしてください。
+            コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策ガイド</Link>、技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の進め方</Link>も参考にしてください。
           </p>
         </section>
 
@@ -301,7 +301,7 @@ export default function LineYahooCompanyPage() {
               <strong>確認すべきは「出社方針」と「配属部署」。</strong>2025年以降、フルリモート前提から出社中心へ段階的に移行しており、2026年4月からは週3日程度の出社が予定されています。地方在住での応募を考える場合は、ポジションの勤務地要件を必ず確認しましょう。また口コミでは部署により残業・評価の納得感に差があるため、面接で配属チームの働き方を具体的に質問するのがおすすめです。
             </p>
             <p className="text-sm text-amber-900 leading-relaxed">
-              40代の市場価値の整理は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">エンジニアの市場価値の測り方</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>も合わせてご覧ください。
+              40代の市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">エンジニアの市場価値の測り方</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -314,13 +314,13 @@ export default function LineYahooCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界専門。提案スピードと実務経験者への提案数が強み。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。年収750万円以上の求人やヘッドハンター経由の案件が豊富。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">複数併用の考え方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの併用ガイド</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">複数併用の考え方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの併用ガイド</Link>を参照してください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -341,7 +341,7 @@ export default function LineYahooCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">LINEヤフーへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">メガベンチャー・大手テックへの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -355,7 +355,7 @@ export default function LineYahooCompanyPage() {
               { name: "コーディングテスト対策ガイド", href: "/knowledge/coding-test/" },
               { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

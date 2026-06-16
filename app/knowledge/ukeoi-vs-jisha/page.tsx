@@ -142,7 +142,7 @@ export default function UkeoiVsJishaPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -153,7 +153,7 @@ export default function UkeoiVsJishaPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：優劣ではなく相性で選ぶ</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               結論として、<strong>受託開発と自社開発に絶対的な優劣はありません</strong>。受託は「幅広い経験と対応力」、自社開発は「特定プロダクトを深く育てる経験」が得やすいという、方向の違いがあるだけです。どちらが自分の志向と強みに合うかで選びましょう。
             </p>
@@ -278,7 +278,7 @@ export default function UkeoiVsJishaPage() {
               { num: "4", title: "この先のキャリアでどう活かすか", desc: "上流・マネジメントを目指すか、特定領域のスペシャリストを目指すかで、得やすい経験の方向が変わります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -290,9 +290,9 @@ export default function UkeoiVsJishaPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             企業規模やフェーズの観点では
-            <Link href="/knowledge/startup-vs-enterprise/" className="text-blue-600 hover:underline">スタートアップと大手の違い</Link>
+            <Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大手の違い</Link>
             、SESから抜ける視点は
-            <Link href="/industry/ses-exit/" className="text-blue-600 hover:underline">SESからの転職</Link>
+            <Link href="/industry/ses-exit/" className="text-petrol hover:underline">SESからの転職</Link>
             も参考にしてください。
           </p>
         </section>
@@ -301,15 +301,15 @@ export default function UkeoiVsJishaPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代での選び方</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：これまでの経験を起点に方向を決める</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30代は得意領域が固まりつつある年代です。受託で幅を広げてきたなら、その対応力を活かして上流やマネジメントへ進む道も、自社開発で特定領域を深める道もあります。ラベルで選ぶより、これまでの強みが活きる環境かで判断しましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：長く貢献できる実態かを見極める</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は、形態よりも「自分の経験が活き、腰を据えて貢献できるか」が重要です。自社開発を掲げていても実態が異なる企業もあるため、開発体制や任される範囲、事業の安定性を面接で具体的に確認し、ミスマッチを避けましょう。
               </p>
             </div>
@@ -340,7 +340,7 @@ export default function UkeoiVsJishaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -360,7 +360,7 @@ export default function UkeoiVsJishaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -62,14 +62,14 @@ export default function SierAgentsPage() {
           <p className="font-bold text-slate-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：意図で選ぶエージェントが変わる</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・SIerへ転職するなら「総合大手＋ハイクラス特化」</strong>。上場・大手SIerの求人母数と交渉力が効きます。JAC公式の「SIerからの転職」記事も参考になります。</li>
@@ -92,7 +92,7 @@ export default function SierAgentsPage() {
               <p className="text-sm text-slate-600 leading-relaxed">多重下請け・客先常駐の働き方を変えたい。自社開発・社内SE・Web系へ移りたい。この場合は、IT特化や自社内開発に強いエージェントが向きます。職種転換の方法は専用記事へ。</p>
             </div>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm mt-4">この切り分けが本記事の核です。同じ「SIer」でも、入る側と抜ける側で最適なエージェントが逆になります。脱出側の具体策は<Link href="/industry/ses-exit/" className="text-blue-600 hover:underline">SES脱出の進め方</Link>や<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWeb系への転職</Link>、<Link href="/career/se-to-web/" className="text-blue-600 hover:underline">SEからWebエンジニアへ</Link>で詳しく扱っています。</p>
+          <p className="text-slate-600 leading-relaxed text-sm mt-4">この切り分けが本記事の核です。同じ「SIer」でも、入る側と抜ける側で最適なエージェントが逆になります。脱出側の具体策は<Link href="/industry/ses-exit/" className="text-petrol hover:underline">SES脱出の進め方</Link>や<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>、<Link href="/career/se-to-web/" className="text-petrol hover:underline">SEからWebエンジニアへ</Link>で詳しく扱っています。</p>
         </section>
 
         <section id="classification" className="mb-12 scroll-mt-20">
@@ -112,19 +112,19 @@ export default function SierAgentsPage() {
         <section id="to-sier" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">意図①：SIerへ転職する場合</h2>
           <p className="text-slate-600 leading-relaxed mb-4">大規模システムの上流工程やプロジェクトマネジメントに関わりたい、グループ案件で安定して働きたい、という場合はSIerへの転職が選択肢になります。この場合に効くのは、<strong>上場・大手SIerの求人に強い総合大手エージェントと、ハイクラス・ミドル特化のエージェント</strong>です。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">特にハイクラス・ミドル特化の両面型エージェントは、SIerの元請け/下請けの位置づけや案件の実態といった情報を持つことがあり、4分類のどこに当たるかを見極めやすくなります。なおJAC公式は「SIerからの転職」に関する記事を公開しており、ハイクラス・ミドル層の転職に知見があります。求人の母数を広げつつ、質と交渉をエージェントに任せる二段構えが有効です。ハイクラス系の比較は<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラスIT転職エージェント比較</Link>をご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">特にハイクラス・ミドル特化の両面型エージェントは、SIerの元請け/下請けの位置づけや案件の実態といった情報を持つことがあり、4分類のどこに当たるかを見極めやすくなります。なおJAC公式は「SIerからの転職」に関する記事を公開しており、ハイクラス・ミドル層の転職に知見があります。求人の母数を広げつつ、質と交渉をエージェントに任せる二段構えが有効です。ハイクラス系の比較は<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラスIT転職エージェント比較</Link>をご覧ください。</p>
         </section>
 
         <section id="from-sier" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">意図②：SIerから脱出する場合</h2>
           <p className="text-slate-600 leading-relaxed mb-4">多重下請けや客先常駐の働き方を変えたい、自社開発・社内SE・Web系へ移りたい、という場合は脱出側の意図です。この場合に効くのは、<strong>IT/Web特化エージェントと、自社内開発に強いエージェント</strong>です。技術スタックや開発文化の一次情報を持ち、職種転換の選考準備を支援してくれるかどうかが選定基準になります。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">ただし「自社開発に移ればすべて良くなる」という単純化は避けてください。自社開発は腰を据えた開発がしやすい反面、技術が特定プロダクトに固定されやすい、事業フェーズによっては不安定、といったトレードオフがあります。SIerにも大規模案件・多様な業界に関われる強みがあります。<strong>自分が優先するもの（技術領域・安定・年収・働き方）で判断する</strong>のが大切です。脱出ルートの具体策は<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWeb系への転職</Link>と<Link href="/career/se-to-web/" className="text-blue-600 hover:underline">SEからWebエンジニアへ</Link>で扱っています。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">ただし「自社開発に移ればすべて良くなる」という単純化は避けてください。自社開発は腰を据えた開発がしやすい反面、技術が特定プロダクトに固定されやすい、事業フェーズによっては不安定、といったトレードオフがあります。SIerにも大規模案件・多様な業界に関われる強みがあります。<strong>自分が優先するもの（技術領域・安定・年収・働き方）で判断する</strong>のが大切です。脱出ルートの具体策は<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>と<Link href="/career/se-to-web/" className="text-petrol hover:underline">SEからWebエンジニアへ</Link>で扱っています。</p>
         </section>
 
         <section id="ses-exit" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">SES・客先常駐から脱出するなら</h2>
           <p className="text-slate-600 leading-relaxed mb-4">脱出側のなかでも、特にSES・客先常駐から社内SE・自社開発へ働き方を転換したい場合は、<strong>自社内開発求人に強いサービス</strong>が選択肢になります。クラウドリンク（2026年4月に「アイデアキャリア／AIdea Career」へ社名変更・新旧併記）は、<strong>自社内開発求人100%</strong>を最大の特徴とし、SES・客先常駐から脱却したいエンジニアに特化したIT特化エージェントです。面接手配が迅速、IT専門コンサルが親身といった評価がある一方、連絡が多いという声や、中小規模のため大手より網羅性に劣るという指摘もあります（口コミの傾向要約）。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">そのため、年収最大化より労働環境の改善が主目的の層に向き、IT特化の大手と併用するのが現実的です。詳しい評判は<Link href="/review/cloudlink/" className="text-blue-600 hover:underline">クラウドリンク（現アイデアキャリア）の評判・口コミ</Link>を、SES脱出全体の進め方は<Link href="/industry/ses-exit/" className="text-blue-600 hover:underline">SES脱出の進め方</Link>をご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">そのため、年収最大化より労働環境の改善が主目的の層に向き、IT特化の大手と併用するのが現実的です。詳しい評判は<Link href="/review/cloudlink/" className="text-petrol hover:underline">クラウドリンク（現アイデアキャリア）の評判・口コミ</Link>を、SES脱出全体の進め方は<Link href="/industry/ses-exit/" className="text-petrol hover:underline">SES脱出の進め方</Link>をご覧ください。</p>
         </section>
 
         <section id="confusion" className="mb-12 scroll-mt-20">
@@ -148,8 +148,8 @@ export default function SierAgentsPage() {
         <section id="middle" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。SIerで経験を積んだ30代・40代は、入口（SIerへ）でも出口（脱出）でも価値を発揮できる立場です。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>客先常駐・SESから自社開発へ脱出するなら、選択肢が広い30代のうちに動くのが現実的です。技術力の言語化とポートフォリオの整備を進め、IT特化や自社内開発特化のエージェントで脱出ルートを固めましょう。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安で、働き方の改善と年収のバランスをどう取るかが判断材料になります。<Link href="/industry/ses-exit/" className="text-blue-600 hover:underline">SES脱出の進め方</Link>もあわせてご覧ください。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>大規模案件のマネジメントや業界ドメインの知見は、上場・大手SIerへの転職で強く評価されます。レバテック公表（2025年）では40代の年収1,000万円以上の割合は12.67%とされ、上流・マネジメント級で上限を狙える層です。SIerへ入るならハイクラス特化で交渉を任せ、脱出するなら強みを武器にIT特化で職種転換を狙う——どちらの意図でも、まず自分の方向を確定することが先決です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>もご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>客先常駐・SESから自社開発へ脱出するなら、選択肢が広い30代のうちに動くのが現実的です。技術力の言語化とポートフォリオの整備を進め、IT特化や自社内開発特化のエージェントで脱出ルートを固めましょう。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安で、働き方の改善と年収のバランスをどう取るかが判断材料になります。<Link href="/industry/ses-exit/" className="text-petrol hover:underline">SES脱出の進め方</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>大規模案件のマネジメントや業界ドメインの知見は、上場・大手SIerへの転職で強く評価されます。レバテック公表（2025年）では40代の年収1,000万円以上の割合は12.67%とされ、上流・マネジメント級で上限を狙える層です。SIerへ入るならハイクラス特化で交渉を任せ、脱出するなら強みを武器にIT特化で職種転換を狙う——どちらの意図でも、まず自分の方向を確定することが先決です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
           <p className="text-slate-600 leading-relaxed text-sm">いずれの年代でも、本記事はエージェント選びが主題です。職種転換そのものの設計は、リンク先の業界・キャリア記事で具体的に確認してください。</p>
         </section>
 
@@ -168,7 +168,7 @@ export default function SierAgentsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">SIerは「入口」か「出口」かで選ぶ</h2>
           <p className="text-blue-100 text-sm mb-4">SIerへ転職するなら総合大手＋ハイクラス、脱出するならIT特化＋自社内開発特化。まず自分の意図を確定し、合うエージェントを選びましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -182,7 +182,7 @@ export default function SierAgentsPage() {
               { name: "ハイクラスIT転職エージェント比較", href: "/compare/highclass/" },
               { name: "IT転職エージェント比較", href: "/compare/agents/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

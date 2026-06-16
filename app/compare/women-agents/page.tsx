@@ -95,13 +95,13 @@ export default function WomenAgentsPage() {
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：女性エンジニアはどう選ぶか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・本命は「レバテックキャリア」</strong>。IT特化で求人数・高年収に強く、リモート等の働き方も相談しやすい。</li>
@@ -135,13 +135,13 @@ export default function WomenAgentsPage() {
             {services.map((s, i) => (
               <div key={i} className="border border-slate-200 rounded-xl p-6">
                 <div className="flex items-center gap-3 mb-3 flex-wrap">
-                  <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-blue-600 text-white">{s.rank}</span>
-                  <Link href={s.href} className="text-lg font-bold text-blue-700 hover:underline">{s.name}</Link>
+                  <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-petrol text-white">{s.rank}</span>
+                  <Link href={s.href} className="text-lg font-bold text-petrol-deep hover:underline">{s.name}</Link>
                   <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-600">{s.tag}</span>
                 </div>
                 <p className="text-sm text-slate-600 leading-relaxed mb-3">{s.reason}</p>
                 <p className="text-sm text-slate-700"><span className="font-bold">向いている人：</span>{s.fit}</p>
-                <Link href={s.href} className="inline-block mt-3 text-sm font-medium text-blue-600 hover:underline">{s.name}の詳細レビューを見る →</Link>
+                <Link href={s.href} className="inline-block mt-3 text-sm font-medium text-petrol hover:underline">{s.name}の詳細レビューを見る →</Link>
               </div>
             ))}
           </div>
@@ -157,7 +157,7 @@ export default function WomenAgentsPage() {
               <li><strong>残業実態：</strong>制度上の残業時間ではなく、現場の実態。</li>
               <li><strong>復帰・両立の前例：</strong>育休・時短からの復帰や、両立しているメンバーの実例があるか。</li>
             </ul>
-            <p className="mt-3">これらは求人票では見えにくいため、エージェント経由で確認するのが安全です。働き方と企業の見極め方は<Link href="/knowledge/woman-engineer/" className="text-blue-600 hover:underline">女性エンジニアの転職【両立と企業の見極め方】</Link>で詳しく扱っています。</p>
+            <p className="mt-3">これらは求人票では見えにくいため、エージェント経由で確認するのが安全です。働き方と企業の見極め方は<Link href="/knowledge/woman-engineer/" className="text-petrol hover:underline">女性エンジニアの転職【両立と企業の見極め方】</Link>で詳しく扱っています。</p>
           </div>
         </section>
 
@@ -171,7 +171,7 @@ export default function WomenAgentsPage() {
                 { num: "3", title: "サポートと交渉を補う", desc: "丁寧に伴走してほしいならマイナビ IT AGENT、首都圏で年収・条件を交渉したいならtype転職エージェントを足す。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600">{item.desc}</p></div>
                 </div>
               ))}
@@ -183,7 +183,7 @@ export default function WomenAgentsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代女性エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">30代・40代の女性エンジニアは、結婚・育児・介護などライフイベントと、これまで積んだ専門性・実績の両方を踏まえて転職先を選ぶ必要があります。重要なのは「働き方を変える＝年収を下げる」と決めつけないことです。専門性があれば、両立しやすい環境で年収を維持・向上させることは十分に狙えます。</p>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>30代の場合：</strong>スキルが市場で評価され、働き方と年収のバランスを取りやすい年代です。レバテックキャリアを軸にリモート求人を探し、年収はtype転職エージェント等で交渉しましょう。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安です。</p>
-          <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>40代の場合：</strong>専門性・マネジメント経験を武器に、両立できる環境で上位ポジションを狙えます。求人が絞られやすい分、希望する働き方と強みを明確に言語化し、複数社で母数を確保することが重要です。経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では2030年に最大約79万人のIT人材不足が見込まれ、経験あるエンジニアの需要は構造的に存在します。両立と企業の見極めは<Link href="/knowledge/woman-engineer/" className="text-blue-600 hover:underline">女性エンジニアの転職記事</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>40代の場合：</strong>専門性・マネジメント経験を武器に、両立できる環境で上位ポジションを狙えます。求人が絞られやすい分、希望する働き方と強みを明確に言語化し、複数社で母数を確保することが重要です。経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では2030年に最大約79万人のIT人材不足が見込まれ、経験あるエンジニアの需要は構造的に存在します。両立と企業の見極めは<Link href="/knowledge/woman-engineer/" className="text-petrol hover:underline">女性エンジニアの転職記事</Link>もあわせてご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-12 scroll-mt-20">
@@ -201,14 +201,14 @@ export default function WomenAgentsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">女性エンジニアは「IT特化×働き方×交渉力」で選ぶ</h2>
           <p className="text-blue-100 text-sm mb-4">レバテックキャリアを軸に、dodaで条件検索、マイナビIT AGENTでサポート、type転職エージェントで交渉。いずれも無料です。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {relatedLinks.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

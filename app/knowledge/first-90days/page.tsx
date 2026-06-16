@@ -131,7 +131,7 @@ export default function First90DaysPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -139,7 +139,7 @@ export default function First90DaysPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：最初の90日は「信頼の貯金」を作る期間</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・大きな成果を焦るより、<strong>期待値のすり合わせと小さな約束を守る</strong>ことを優先する。</li>
@@ -158,7 +158,7 @@ export default function First90DaysPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             なお、入社後の早期適応は、受け入れ側のオンボーディングの質にも左右されます。会社の受け入れ体制を活かしつつ、自分からも動く姿勢が大切です。受け入れ側の視点は
-            <Link href="/knowledge/onboarding/" className="text-blue-600 hover:underline">オンボーディング成功法</Link>
+            <Link href="/knowledge/onboarding/" className="text-petrol hover:underline">オンボーディング成功法</Link>
             も参考にしてください。
           </p>
         </section>
@@ -205,9 +205,9 @@ export default function First90DaysPage() {
                 <li>・小さくても最初のPRを出す</li>
               </ul>
             </div>
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+            <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-5">
               <h3 className="font-bold text-blue-800 mb-3">第2フェーズ（31〜60日）</h3>
-              <ul className="text-sm text-blue-700 space-y-2">
+              <ul className="text-sm text-petrol-deep space-y-2">
                 <li>・小〜中規模の機能開発を完了</li>
                 <li>・コードレビューで建設的に関与</li>
                 <li>・ドキュメント整備に貢献</li>
@@ -249,11 +249,11 @@ export default function First90DaysPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-3 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>READMEやセットアップ手順の不備を修正し、次の入社者が困らない状態にする</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>放置されていた小さなバグや警告を1〜2件解消する</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>ローカル開発環境やCIの軽微な改善（ビルド時間短縮など）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>暗黙知になっている運用手順をドキュメント化する</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 font-bold mt-0.5">✓</span><span>コードレビューで丁寧なフィードバックを返し、チームに貢献する</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>READMEやセットアップ手順の不備を修正し、次の入社者が困らない状態にする</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>放置されていた小さなバグや警告を1〜2件解消する</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>ローカル開発環境やCIの軽微な改善（ビルド時間短縮など）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>暗黙知になっている運用手順をドキュメント化する</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>コードレビューで丁寧なフィードバックを返し、チームに貢献する</span></li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 mt-4">
@@ -266,9 +266,9 @@ export default function First90DaysPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">90日間で避けるべきNG行動</h2>
           <div className="space-y-4">
             {ngActions.map((item, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {item.title}</h3>
-                <p className="text-sm text-blue-700">{item.body}</p>
+                <p className="text-sm text-petrol-deep">{item.body}</p>
               </div>
             ))}
           </div>
@@ -295,7 +295,7 @@ export default function First90DaysPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">合わないと感じても90日は様子を見る</h3>
-              <p className="text-sm text-slate-600">序盤の違和感は環境への不慣れが原因のことも多いものです。短期離職はミドルほど影響が大きいため、まず上司に相談しつつ様子を見ます。それでも難しい場合の判断は<Link href="/knowledge/probation/" className="text-blue-600 hover:underline">試用期間の記事</Link>を参考に。</p>
+              <p className="text-sm text-slate-600">序盤の違和感は環境への不慣れが原因のことも多いものです。短期離職はミドルほど影響が大きいため、まず上司に相談しつつ様子を見ます。それでも難しい場合の判断は<Link href="/knowledge/probation/" className="text-petrol hover:underline">試用期間の記事</Link>を参考に。</p>
             </div>
           </div>
         </section>
@@ -324,7 +324,7 @@ export default function First90DaysPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -344,7 +344,7 @@ export default function First90DaysPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -126,7 +126,7 @@ export default function TypeScriptSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：TypeScript転職の攻め方</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               TypeScriptは求人ボックス・paizaの言語別調査でも上位の年収帯にあり、求人母数も多い「強いスキル」です。求人DBサイトで件数を眺めるだけでなく、<strong>「React/Next.jsの実務 × 型設計 × テスト」の3点セットで自分の市場価値を言語化</strong>し、IT特化エージェントに相談して非公開求人にアクセスするのが最短ルートです。
@@ -145,7 +145,7 @@ export default function TypeScriptSkillPage() {
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -206,9 +206,9 @@ export default function TypeScriptSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスの選択肢</h2>
           <div className="space-y-4">
             {careerPaths.map((p, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{p.title}</h3>
-                <p className="text-sm text-blue-700">{p.body}</p>
+                <p className="text-sm text-petrol-deep">{p.body}</p>
               </div>
             ))}
           </div>
@@ -224,21 +224,21 @@ export default function TypeScriptSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化。高年収求人比率が高く（公開求人の高年収帯が多いとの二次情報）、Web系・SaaSのTypeScript案件に強み。技術に明るいアドバイザーが在籍。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界に特化。提案スピードが強みで、TypeScript/React求人が充実。企業の技術スタック情報の提供が手厚い。</p>
-              <Link href="/review/geekly/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Green</h3>
               <p className="text-sm text-slate-600 mb-2">成功報酬型の転職サイト（ダイレクトリクルーティング）。カジュアル面談で社風や技術文化を確かめてから進めたいスタートアップ志向の人向け。</p>
-              <Link href="/review/green/" className="text-sm text-blue-600 hover:underline">詳細レビューを見る →</Link>
+              <Link href="/review/green/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            求人母数を最大化したい場合は<Link href="/review/recruit-it/" className="text-blue-600 hover:underline">リクルートエージェントIT</Link>や<Link href="/review/doda-it/" className="text-blue-600 hover:underline">doda ITエンジニア</Link>も併用候補です。複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント複数利用ガイド</Link>を参照してください。
+            求人母数を最大化したい場合は<Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルートエージェントIT</Link>や<Link href="/review/doda-it/" className="text-petrol hover:underline">doda ITエンジニア</Link>も併用候補です。複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用ガイド</Link>を参照してください。
           </p>
         </section>
 
@@ -253,13 +253,13 @@ export default function TypeScriptSkillPage() {
               "テスト（Vitest/Playwright）やCI/CDの基礎を押さえ、品質面のアピール材料を増やす。",
             ].map((t, i) => (
               <li key={i} className="flex gap-2">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span>{t}</span>
               </li>
             ))}
           </ul>
           <p className="text-xs text-slate-500 mt-3">
-            関連: <Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link> / <Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代・実務浅めからの転職</Link>
+            関連: <Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link> / <Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代・実務浅めからの転職</Link>
           </p>
         </section>
 
@@ -270,7 +270,7 @@ export default function TypeScriptSkillPage() {
             ミドル層の強みは「型・設計・テストを含めた再現性のある開発経験」と「チームを前に進めた実績」です。レバテックの年代別公表値（2025年）でも、正社員SEの平均は30代で約499万円、40代で約618万円と年代が上がるほど水準が上がる傾向があり、TypeScriptのようなモダンスタックの即戦力性を示せれば交渉余地は十分にあります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            一方、年齢が上がるほど「マネジメントもできるのか」を問われやすくなります。テックリード・EMの両にらみで職務経歴書を整理し、技術とチーム貢献の両面を書き分けると刺さりやすくなります。年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職ガイド</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職ガイド</Link>も参照してください。
+            一方、年齢が上がるほど「マネジメントもできるのか」を問われやすくなります。テックリード・EMの両にらみで職務経歴書を整理し、技術とチーム貢献の両面を書き分けると刺さりやすくなります。年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link>も参照してください。
           </p>
         </section>
 
@@ -291,7 +291,7 @@ export default function TypeScriptSkillPage() {
             ))}
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            学び続ける習慣づくりは<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">継続的な学習の進め方</Link>も参考になります。
+            学び続ける習慣づくりは<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の進め方</Link>も参考になります。
           </p>
         </section>
 
@@ -360,7 +360,7 @@ export default function TypeScriptSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -380,7 +380,7 @@ export default function TypeScriptSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -393,8 +393,8 @@ export default function TypeScriptSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/colopl/" className="text-blue-700 hover:underline">コロプラ</a></li><li><a href="/company/cyberagent/" className="text-blue-700 hover:underline">サイバーエージェント</a></li><li><a href="/company/cybozu/" className="text-blue-700 hover:underline">サイボウズ</a></li><li><a href="/company/dena/" className="text-blue-700 hover:underline">DeNA</a></li><li><a href="/company/dmm/" className="text-blue-700 hover:underline">DMM.com</a></li><li><a href="/company/freee/" className="text-blue-700 hover:underline">freee</a></li><li><a href="/company/gmo-internet/" className="text-blue-700 hover:underline">GMOインターネットグループ</a></li><li><a href="/company/gree/" className="text-blue-700 hover:underline">グリー（GREE）</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/colopl/" className="text-petrol-deep hover:underline">コロプラ</a></li><li><a href="/company/cyberagent/" className="text-petrol-deep hover:underline">サイバーエージェント</a></li><li><a href="/company/cybozu/" className="text-petrol-deep hover:underline">サイボウズ</a></li><li><a href="/company/dena/" className="text-petrol-deep hover:underline">DeNA</a></li><li><a href="/company/dmm/" className="text-petrol-deep hover:underline">DMM.com</a></li><li><a href="/company/freee/" className="text-petrol-deep hover:underline">freee</a></li><li><a href="/company/gmo-internet/" className="text-petrol-deep hover:underline">GMOインターネットグループ</a></li><li><a href="/company/gree/" className="text-petrol-deep hover:underline">グリー（GREE）</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

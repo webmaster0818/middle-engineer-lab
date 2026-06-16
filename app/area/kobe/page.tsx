@@ -127,7 +127,7 @@ export default function KobeAreaPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：神戸は製造業の集積と大阪通勤圏を両立できるエリア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               神戸・兵庫は重工業・電機・精密機器など製造業の集積で知られ、DX関連の求人に特色があります。求人の絶対数は大阪より少ないものの、三宮から大阪・梅田へのアクセスが良く、神戸に住みながら大阪の企業に通勤・リモート勤務する人も多いエリアです。神戸・大阪を合わせて探すのが現実的です。
@@ -146,7 +146,7 @@ export default function KobeAreaPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -205,15 +205,15 @@ export default function KobeAreaPage() {
           </p>
           <div className="space-y-3">
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">1</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
               <p className="text-sm text-slate-600"><strong>神戸・兵庫の企業に勤める：</strong> 製造業・研究機関系は出社中心の傾向。専門性を深めたい人に向く。</p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">2</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
               <p className="text-sm text-slate-600"><strong>大阪の企業に通勤／リモート：</strong> 三宮〜大阪は通勤圏内。神戸のQOLを保ちながら大阪の求人にアクセスできる。</p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">3</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
               <p className="text-sm text-slate-600"><strong>東京企業にフルリモート：</strong> 居住地は神戸のまま首都圏水準の年収を狙える。全国採用のフルリモート求人が対象。</p>
             </div>
           </div>
@@ -225,9 +225,9 @@ export default function KobeAreaPage() {
           </p>
           <p className="text-sm text-slate-500 mt-4">
             大阪の市場は
-            <Link href="/area/osaka/" className="text-blue-600 hover:underline">大阪のIT転職事情</Link>
+            <Link href="/area/osaka/" className="text-petrol hover:underline">大阪のIT転職事情</Link>
             、リモート前提の探し方は
-            <Link href="/area/remote/" className="text-blue-600 hover:underline">リモートワーク求人の探し方</Link>
+            <Link href="/area/remote/" className="text-petrol hover:underline">リモートワーク求人の探し方</Link>
             を参照してください。
           </p>
         </section>
@@ -250,22 +250,22 @@ export default function KobeAreaPage() {
               <tbody>
                 <tr className="hover:bg-slate-50">
                   <td className="px-3 py-3 border border-slate-200 font-medium">20代</td>
-                  <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約378万円</td>
+                  <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約378万円</td>
                   <td className="px-3 py-3 border border-slate-200">―</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-3 py-3 border border-slate-200 font-medium">30代</td>
-                  <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約499万円</td>
+                  <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約499万円</td>
                   <td className="px-3 py-3 border border-slate-200">8.01%</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-3 py-3 border border-slate-200 font-medium">40代</td>
-                  <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約618万円</td>
+                  <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約618万円</td>
                   <td className="px-3 py-3 border border-slate-200">12.67%</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-3 py-3 border border-slate-200 font-medium">50代</td>
-                  <td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約685万円</td>
+                  <td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約685万円</td>
                   <td className="px-3 py-3 border border-slate-200">―</td>
                 </tr>
               </tbody>
@@ -276,9 +276,9 @@ export default function KobeAreaPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             神戸・兵庫もこの全国平均を基準に考えられますが、地方は首都圏より相場が下がる傾向があります。一方で大阪通勤を選べば大阪水準の求人にアクセスでき、製造業の専門職は相応の待遇が期待できるケースもあります。年収を最優先するなら、大阪求人や東京企業のフルリモート求人を併用するのが有効です。年代別の考え方は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>
             も参照してください。
           </p>
           <p className="text-slate-600 leading-relaxed mt-4">
@@ -294,7 +294,7 @@ export default function KobeAreaPage() {
           </p>
           <div className="space-y-4">
             {agents.map((a, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">
                   {i + 1}.{" "}
                   <Link href={a.href} className="hover:underline">
@@ -307,9 +307,9 @@ export default function KobeAreaPage() {
           </div>
           <p className="text-sm text-slate-500 mt-4">
             各社の比較は
-            <Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント10社比較</Link>
+            <Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>
             、複数登録のコツは
-            <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェントの複数登録ガイド</Link>
+            <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェントの複数登録ガイド</Link>
             で解説しています。
           </p>
         </section>
@@ -327,11 +327,11 @@ export default function KobeAreaPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1 text-sm">2. IT特化＋総合型を2〜3社登録</h3>
-              <p className="text-sm text-slate-600">神戸・大阪の求人提案量を比較します。<Link href="/knowledge/agent-first-meeting/" className="text-blue-600 hover:underline">初回面談の準備</Link>を済ませておくとスムーズです。</p>
+              <p className="text-sm text-slate-600">神戸・大阪の求人提案量を比較します。<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">初回面談の準備</Link>を済ませておくとスムーズです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1 text-sm">3. 製造業×ITの掛け合わせを職務経歴書で言語化</h3>
-              <p className="text-sm text-slate-600">業務知識を強みにするなら実績を具体的に。<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>を参考に。</p>
+              <p className="text-sm text-slate-600">業務知識を強みにするなら実績を具体的に。<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>を参考に。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1 text-sm">4. 出社頻度・通勤負担を面談で確認</h3>
@@ -352,7 +352,7 @@ export default function KobeAreaPage() {
             </p>
             <p className="text-sm text-slate-600 leading-relaxed">
               家庭の事情や生活環境を優先して神戸を選ぶケースも多い年代です。年収だけでなく、通勤・出社頻度・将来のキャリアを総合して判断しましょう。
-              <Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代転職の現実</Link>
+              <Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代転職の現実</Link>
               も参考になります。
             </p>
           </div>
@@ -405,7 +405,7 @@ export default function KobeAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -425,7 +425,7 @@ export default function KobeAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

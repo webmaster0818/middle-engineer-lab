@@ -183,7 +183,7 @@ export default function BizreachItReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-xl font-bold text-blue-900 mb-3">結論：ビズリーチ（エンジニア）はこんな人向け</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               総合評価は <span className="font-bold">★★★★☆（4.0 / 5.0・当サイト編集部の総合判断）</span>。
@@ -200,7 +200,7 @@ export default function BizreachItReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((item) => (
               <li key={item.id}>
                 <a href={`#${item.id}`} className="hover:underline">
@@ -253,12 +253,12 @@ export default function BizreachItReview() {
                 ※スカウトの種類によって閲覧・返信できる範囲が異なる場合があります。詳細は公式の最新情報をご確認ください。
               </p>
             </div>
-            <div className="border border-blue-200 rounded-lg p-5">
+            <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">有料プラン（Web決済5,478円/月）</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">＋</span>すべてのスカウトの閲覧・返信（範囲拡大）</li>
-                <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">＋</span>求人検索からの自主応募などの機能</li>
-                <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">＋</span>積極的に攻めたい人向け</li>
+                <li className="flex items-start gap-2"><span className="text-petrol shrink-0">＋</span>すべてのスカウトの閲覧・返信（範囲拡大）</li>
+                <li className="flex items-start gap-2"><span className="text-petrol shrink-0">＋</span>求人検索からの自主応募などの機能</li>
+                <li className="flex items-start gap-2"><span className="text-petrol shrink-0">＋</span>積極的に攻めたい人向け</li>
               </ul>
               <p className="text-xs text-slate-400 mt-3">
                 ※2022年11月改定・税込5,478円/月（二次情報）。自動更新の場合があるため不要時は更新前に解約を。
@@ -274,27 +274,27 @@ export default function BizreachItReview() {
         <section id="strengths" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ビズリーチのIT転職における特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. ハイクラスIT求人に特化</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 二次情報ではハイクラスの定義が年収750万円以上とされ、年収1,000万円以上の求人が全体の約4割を占めるとされています。CTO・VPoE・テックリード・アーキテクトなどの上流ポジションが充実しており、年収アップを狙うミドルエンジニアに適しています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. スカウト型で効率的</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 職務経歴を登録しておくだけで、企業やヘッドハンターからスカウトが届きます。忙しいエンジニアでも、待ちながら市場の反応を確認できるのが利点です。企業発の本気度が高いスカウトでは、書類選考免除で面談に進めるケースもあります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 外資・管理職・経営層ポジションに強い</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 外資系や管理職、技術経営層のポジションに強いとされ、マネジメント経験のある40代エンジニアがキャリアの次のステージを探すのに向いています。スタートアップのCTOから大企業のIT責任職まで、幅広いハイレイヤー求人にアクセスできます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 市場価値を客観把握できる</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 どんな企業から、どの年収帯でスカウトが届くかを通じて、自分の市場価値を客観的に把握できます。今すぐの転職予定がなくても、登録しておくことでキャリアの選択肢を可視化できる点が評価されています。
               </p>
             </div>
@@ -347,7 +347,7 @@ export default function BizreachItReview() {
               <h3 className="font-bold text-slate-800 mb-2">スカウトが来にくい → 職務経歴を具体化する</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 使用技術・マネジメント経験・プロジェクト規模・成果を具体的に書くとスカウト率が上がります。
-                <Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトを増やす書き方</Link>
+                <Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトを増やす書き方</Link>
                 も参考にしてください。
               </p>
             </div>
@@ -355,8 +355,8 @@ export default function BizreachItReview() {
               <h3 className="font-bold text-slate-800 mb-2">有料前提に感じる → 無料運用＋他社併用</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 費用負担を抑えたい場合は無料会員で運用し、求人母数は無料で使える
-                <Link href="/review/recruit-it/" className="text-blue-600 hover:underline">リクルートエージェントIT</Link>
-                や<Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+                <Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルートエージェントIT</Link>
+                や<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
                 で補完するのが効率的です。
               </p>
             </div>
@@ -380,9 +380,9 @@ export default function BizreachItReview() {
             </p>
             <p>
               経済産業省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれており、経験豊富なミドル層の希少性は今後も高いと考えられます。ビズリーチは「待ちながら市場価値を測る」用途と相性が良いため、エージェント型の
-              <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               などと併用し、攻め（自主応募）と受け（スカウト）を両立させるのがおすすめです。
-              <Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>
+              <Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>
               も参考にしてください。
             </p>
           </div>
@@ -432,7 +432,7 @@ export default function BizreachItReview() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {compareLinks.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}
@@ -443,7 +443,7 @@ export default function BizreachItReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ビズリーチに無料登録する</h2>
           <p className="text-blue-100 text-sm mb-4">まずは無料会員で、どんなスカウトが届くか市場価値を確かめてみませんか？</p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">無料登録してスカウトを受ける</a>
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料登録してスカウトを受ける</a>
         </section>
 
         {/* FAQ */}
@@ -467,7 +467,7 @@ export default function BizreachItReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {relatedLinks.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

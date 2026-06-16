@@ -130,7 +130,7 @@ export default function CsharpSkillPage() {
         {/* 目次 */}
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -144,7 +144,7 @@ export default function CsharpSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：C#/.NET転職の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               C#/.NET転職は<strong>「モダン.NET＋専門ドメイン（業務系・クラウド・ゲーム）の組み合わせで売り込む」</strong>のが基本戦略です。安定したエンタープライズ需要を土台に、Azureを足すと年収帯が上がりやすいのが特徴です。
             </p>
@@ -232,7 +232,7 @@ export default function CsharpSkillPage() {
             {careerPaths.map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
-                <p className="text-xs text-blue-600 font-medium mb-2">関連資格: {item.cert}</p>
+                <p className="text-xs text-petrol font-medium mb-2">関連資格: {item.cert}</p>
                 <p className="text-sm text-slate-600">{item.note}</p>
               </div>
             ))}
@@ -248,25 +248,25 @@ export default function CsharpSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/levtech/" className="text-blue-700 hover:underline">レバテックキャリア</Link>
+                <Link href="/review/levtech/" className="text-petrol-deep hover:underline">レバテックキャリア</Link>
               </h3>
               <p className="text-sm text-slate-600">IT/Web特化。業務系・クラウド寄りのC#求人を探しやすく、高年収求人の比率が高いとされる（同社ガイド記事）。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/mynavi-it/" className="text-blue-700 hover:underline">マイナビIT AGENT</Link>
+                <Link href="/review/mynavi-it/" className="text-petrol-deep hover:underline">マイナビIT AGENT</Link>
               </h3>
               <p className="text-sm text-slate-600">20〜30代若手に強く、書類添削・面接対策が手厚いとされる。SIer系の業務系C#求人と相性が良い。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
-                <Link href="/review/geekly/" className="text-blue-700 hover:underline">Geekly（ギークリー）</Link>
+                <Link href="/review/geekly/" className="text-petrol-deep hover:underline">Geekly（ギークリー）</Link>
               </h3>
               <p className="text-sm text-slate-600">IT/Web/ゲーム特化で提案スピードに定評。Unity/ゲーム系のC#求人を探すならまず候補に。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            複数登録の使い分けは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>、ゲーム系の動向は<Link href="/skill/unity/" className="text-blue-600 hover:underline">Unity転職ガイド</Link>も参考にしてください。
+            複数登録の使い分けは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>、ゲーム系の動向は<Link href="/skill/unity/" className="text-petrol hover:underline">Unity転職ガイド</Link>も参考にしてください。
           </p>
         </section>
 
@@ -284,7 +284,7 @@ export default function CsharpSkillPage() {
               { t: "SIer・パートナー企業の開発枠を狙う", d: "業務系C#は研修体制が整った企業が多く、実務経験を積む入口になりやすい。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{s.t}</h3>
                   <p className="text-sm text-slate-600">{s.d}</p>
@@ -307,7 +307,7 @@ export default function CsharpSkillPage() {
               <li>・レバテック公表値で40代SE平均は約618万円（2025年）。ドメイン×クラウドで上振れを狙う</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
-              年代別の相場感は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">自分の市場価値の調べ方</Link>もあわせてどうぞ。
+              年代別の相場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>もあわせてどうぞ。
             </p>
           </div>
         </section>
@@ -331,7 +331,7 @@ export default function CsharpSkillPage() {
             ))}
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
-            AZ-204はMicrosoft Learnの認定制度に基づく資格で、Azure上のアプリ開発スキルを検証します。継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの学習を続けるコツ</Link>、成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>も参考にどうぞ。
+            AZ-204はMicrosoft Learnの認定制度に基づく資格で、Azure上のアプリ開発スキルを検証します。継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>、成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>も参考にどうぞ。
           </p>
         </section>
 
@@ -359,7 +359,7 @@ export default function CsharpSkillPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -379,7 +379,7 @@ export default function CsharpSkillPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>
@@ -392,8 +392,8 @@ export default function CsharpSkillPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">この技術と関連の深い掲載企業</h2>
           <p className="text-xs text-slate-500 mb-2">各社の公開技術情報でこの技術への言及が確認できた掲載企業です。年収・選考は各社ページをご覧ください。</p>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/capcom/" className="text-blue-700 hover:underline">カプコン</a></li><li><a href="/company/gungho/" className="text-blue-700 hover:underline">ガンホー</a></li><li><a href="/company/koei-tecmo/" className="text-blue-700 hover:underline">コーエーテクモ</a></li><li><a href="/company/konami/" className="text-blue-700 hover:underline">コナミ</a></li><li><a href="/company/microsoft/" className="text-blue-700 hover:underline">日本マイクロソフト</a></li><li><a href="/company/nri/" className="text-blue-700 hover:underline">野村総合研究所(NRI)</a></li><li><a href="/company/sega-sammy/" className="text-blue-700 hover:underline">セガ（セガサミーHD）</a></li><li><a href="/company/square-enix/" className="text-blue-700 hover:underline">スクウェア・エニックス</a></li></ul>
-          <p className="mt-3 text-sm"><a href="/skill/" className="text-blue-700 hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-blue-700 hover:underline">企業年収ランキング</a></p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-1 text-sm"><li><a href="/company/capcom/" className="text-petrol-deep hover:underline">カプコン</a></li><li><a href="/company/gungho/" className="text-petrol-deep hover:underline">ガンホー</a></li><li><a href="/company/koei-tecmo/" className="text-petrol-deep hover:underline">コーエーテクモ</a></li><li><a href="/company/konami/" className="text-petrol-deep hover:underline">コナミ</a></li><li><a href="/company/microsoft/" className="text-petrol-deep hover:underline">日本マイクロソフト</a></li><li><a href="/company/nri/" className="text-petrol-deep hover:underline">野村総合研究所(NRI)</a></li><li><a href="/company/sega-sammy/" className="text-petrol-deep hover:underline">セガ（セガサミーHD）</a></li><li><a href="/company/square-enix/" className="text-petrol-deep hover:underline">スクウェア・エニックス</a></li></ul>
+          <p className="mt-3 text-sm"><a href="/skill/" className="text-petrol-deep hover:underline">スキル別ガイド一覧</a> ／ <a href="/salary/company-ranking/" className="text-petrol-deep hover:underline">企業年収ランキング</a></p>
         </div>
       </section>
       </>

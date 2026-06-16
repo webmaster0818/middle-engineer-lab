@@ -97,7 +97,7 @@ export default function TechBlogPage() {
             技術ブログは、応募者の名前を検索した採用担当が最初に出会う<strong>「第二の職務経歴書」</strong>になり得ます。コードを読まずとも、技術理解度・言語化能力・継続性が伝わるからです。一方で、どのプラットフォームを選ぶかで読まれ方も評価のされ方も変わります。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事は<strong>プラットフォーム選定と評価メカニズム</strong>に絞って深掘りします。GitHub・登壇・OSSも含めた成果物の全体像は<Link href="/knowledge/portfolio/" className="text-blue-600 underline">ポートフォリオの見せ方</Link>を、GitHub単体は<Link href="/knowledge/github-showcase/" className="text-blue-600 underline">GitHubの見せ方</Link>をあわせてご覧ください。
+            本記事は<strong>プラットフォーム選定と評価メカニズム</strong>に絞って深掘りします。GitHub・登壇・OSSも含めた成果物の全体像は<Link href="/knowledge/portfolio/" className="text-petrol underline">ポートフォリオの見せ方</Link>を、GitHub単体は<Link href="/knowledge/github-showcase/" className="text-petrol underline">GitHubの見せ方</Link>をあわせてご覧ください。
           </p>
         </section>
 
@@ -108,7 +108,7 @@ export default function TechBlogPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -181,8 +181,8 @@ export default function TechBlogPage() {
               </div>
             ))}
           </div>
-          <div className="bg-blue-50 rounded-lg p-5 mt-5">
-            <p className="text-sm text-blue-700"><strong>迷ったら：</strong>まずQiitaかZennのどちらか1つに絞って続けるのが最適です。複数同時運用は更新が止まりがちで、止まったブログはかえって現役性を疑わせます。続けられる1つを選びましょう。</p>
+          <div className="bg-petrol-soft rounded-lg p-5 mt-5">
+            <p className="text-sm text-petrol-deep"><strong>迷ったら：</strong>まずQiitaかZennのどちらか1つに絞って続けるのが最適です。複数同時運用は更新が止まりがちで、止まったブログはかえって現役性を疑わせます。続けられる1つを選びましょう。</p>
           </div>
         </section>
 
@@ -200,7 +200,7 @@ export default function TechBlogPage() {
               { num: "4", title: "学び・残課題", desc: "得た教訓と、残っている課題を正直に書く。誠実さが信頼につながる。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -224,7 +224,7 @@ export default function TechBlogPage() {
               "若手にレビューで伝えている設計の勘所",
             ].map((t, i) => (
               <li key={i} className="flex gap-2 text-sm text-slate-600">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>{t}
+                <span className="text-petrol font-bold shrink-0">✓</span>{t}
               </li>
             ))}
           </ul>
@@ -245,7 +245,7 @@ export default function TechBlogPage() {
                 "古い不正確な記事は加筆修正 or 非公開にしてある",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>{c}
+                  <span className="text-petrol font-bold shrink-0">✓</span>{c}
                 </li>
               ))}
             </ul>
@@ -274,13 +274,13 @@ export default function TechBlogPage() {
         <section id="age" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">8. 30代・40代の発信戦略の違い</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の深さと幅を見せる</h3>
-              <p className="text-sm text-blue-700">技術選定・設計・トラブル対応の記事で、手が動くことと判断できることの両方を示すと効果的です。関連: <Link href="/age/30s/" className="text-blue-700 underline">30代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">技術選定・設計・トラブル対応の記事で、手が動くことと判断できることの両方を示すと効果的です。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：現役性＋知見の還元を見せる</h3>
-              <p className="text-sm text-blue-700">「現役で技術を追えている」ことを最新テーマの記事で示しつつ、チーム・組織への知見還元の記事を添えると、テックリード・EM採用で強みになります。関連: <Link href="/age/40s/" className="text-blue-700 underline">40代の転職</Link>、<Link href="/knowledge/management/" className="text-blue-700 underline">マネジメントキャリア</Link>。</p>
+              <p className="text-sm text-petrol-deep">「現役で技術を追えている」ことを最新テーマの記事で示しつつ、チーム・組織への知見還元の記事を添えると、テックリード・EM採用で強みになります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>、<Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリア</Link>。</p>
             </div>
           </div>
         </section>
@@ -299,7 +299,7 @@ export default function TechBlogPage() {
                   A. {faq.a}
                   {faq.aLink && (
                     <>
-                      <Link href={faq.aLink.href} className="text-blue-600 underline">{faq.aLink.text}</Link>
+                      <Link href={faq.aLink.href} className="text-petrol underline">{faq.aLink.text}</Link>
                       {faq.aAfter}
                     </>
                   )}
@@ -313,7 +313,7 @@ export default function TechBlogPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">技術発信を転職に活かす相談をしよう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、技術ブログや成果物を応募先にどう見せるか具体的にアドバイスしてくれます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -329,7 +329,7 @@ export default function TechBlogPage() {
               { name: "職務経歴書の書き方", href: "/knowledge/resume/" },
               { name: "市場価値の調べ方", href: "/knowledge/market-value/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

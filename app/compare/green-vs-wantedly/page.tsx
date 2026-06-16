@@ -119,7 +119,7 @@ export default function GreenVsWantedlyPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -130,7 +130,7 @@ export default function GreenVsWantedlyPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
               給与・条件を見てベンチャー求人に直接応募するなら「Green」、共感軸でカジュアル面談から入るなら「Wantedly」。
             </p>
@@ -172,9 +172,9 @@ export default function GreenVsWantedlyPage() {
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">給与・条件表示で比較（最大の違い）</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Green：給与・条件が記載される</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 Greenは通常の転職サイトと同様に、求人に給与・条件が記載されます。条件を見て効率的に応募先を絞りたい人に向いており、ミスマッチが起きにくいのが利点です。
               </p>
             </div>
@@ -193,9 +193,9 @@ export default function GreenVsWantedlyPage() {
         <section id="jobs" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人数・企業数で比較</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Green</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 掲載企業9,000社以上・求人15,000件以上（媒体により30,000件以上とも・幅あり）。登録者は120万人超（二次情報・幅あり）。IT/Webベンチャー・スタートアップ・メガベンチャーの求人が豊富です。
               </p>
             </div>
@@ -228,7 +228,7 @@ export default function GreenVsWantedlyPage() {
               <h3 className="font-bold text-slate-800 mb-3">Greenが強い領域</h3>
               <div className="flex flex-wrap gap-2">
                 {["IT/Webベンチャー", "スタートアップ", "メガベンチャー", "給与・条件が見える", "「気になる」機能"].map((tag, i) => (
-                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700">{tag}</span>
+                  <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
               <p className="text-xs text-slate-500 mt-3">※ 成功報酬型の転職サイト。条件を見て直接応募・スカウトで進められる。</p>
@@ -281,9 +281,9 @@ export default function GreenVsWantedlyPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人チェックリスト</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">Greenが向く人</h3>
-              <ul className="space-y-2 text-sm text-blue-700">
+              <ul className="space-y-2 text-sm text-petrol-deep">
                 <li>✓ 給与・条件を見て応募先を絞りたい</li>
                 <li>✓ IT/Webベンチャーに転職したい</li>
                 <li>✓ 企業と直接やり取りして進めたい</li>
@@ -314,7 +314,7 @@ export default function GreenVsWantedlyPage() {
                 { num: "3", title: "エージェント型で伴走を補う", desc: "どちらも担当エージェントが付かないため、書類添削や条件交渉の伴走が欲しい場合はレバテックキャリア等のエージェント型を併用すると安心です。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div>
                     <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                     <p className="text-sm text-slate-600">{item.desc}</p>
@@ -324,7 +324,7 @@ export default function GreenVsWantedlyPage() {
             </div>
             <p className="text-xs text-slate-500 mt-4">
               ベンチャー・メガベンチャー志向の人は
-              <Link href="/compare/megaventure-agents/" className="text-blue-600 hover:underline">メガベンチャー向けエージェント比較</Link>
+              <Link href="/compare/megaventure-agents/" className="text-petrol hover:underline">メガベンチャー向けエージェント比較</Link>
               も参照してください。
             </p>
           </div>
@@ -370,7 +370,7 @@ export default function GreenVsWantedlyPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -383,7 +383,7 @@ export default function GreenVsWantedlyPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -107,7 +107,7 @@ export default function GreeCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               グリーは<strong>ゲーム・メタバースを軸に、幅広い言語・技術で開発を行うエンタメ・テック企業</strong>です。2024年10月に持株会社化しており、有報の単体平均年収865万円（2025年6月期）は<strong>持株会社（在籍123名）の数字</strong>である点に注意が必要です。実際の開発は事業会社が担い、ポジション・事業会社により技術も待遇も異なります。
@@ -125,7 +125,7 @@ export default function GreeCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -151,17 +151,17 @@ export default function GreeCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">幅広い言語・技術に対応する開発環境</h3>
-              <p className="text-sm text-blue-700">公式採用情報によると、Java・C・C++・C#・PHP・Ruby・Python・Swift・Kotlin・Rust・Go・TypeScriptなど非常に幅広い言語に対応しています。歴史あるサービスと新規プロダクトが混在し、レガシーの保守からモダンな開発まで関わる機会があります。</p>
+              <p className="text-sm text-petrol-deep">公式採用情報によると、Java・C・C++・C#・PHP・Ruby・Python・Swift・Kotlin・Rust・Go・TypeScriptなど非常に幅広い言語に対応しています。歴史あるサービスと新規プロダクトが混在し、レガシーの保守からモダンな開発まで関わる機会があります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ゲーム・メタバースという専門領域</h3>
-              <p className="text-sm text-blue-700">ゲーム開発（Unity/C++等）に加え、メタバースサービス「REALITY」のようなリアルタイム配信・3D技術を扱うプロダクトがあります。エンタメ・コミュニケーション領域の技術に関心があるエンジニアに向いています。</p>
+              <p className="text-sm text-petrol-deep">ゲーム開発（Unity/C++等）に加え、メタバースサービス「REALITY」のようなリアルタイム配信・3D技術を扱うプロダクトがあります。エンタメ・コミュニケーション領域の技術に関心があるエンジニアに向いています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">持株会社体制・事業会社ごとの採用</h3>
-              <p className="text-sm text-blue-700">2024年10月に持株会社へ移行しており、採用は事業会社・プロダクト単位で行われるのが基本です。応募時はどの事業会社・どのプロダクトのポジションかを確認することが重要です。</p>
+              <p className="text-sm text-petrol-deep">2024年10月に持株会社へ移行しており、採用は事業会社・プロダクト単位で行われるのが基本です。応募時はどの事業会社・どのプロダクトのポジションかを確認することが重要です。</p>
             </div>
           </div>
         </section>
@@ -173,11 +173,11 @@ export default function GreeCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>サーバーサイド</strong>：PHP、Go、Java、Ruby、Python 等</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>ゲーム/クライアント</strong>：C#（Unity）、C++</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Webフロントエンド</strong>：TypeScript、JavaScript</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>モバイル</strong>：iOS は Swift、Android は Kotlin</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>その他</strong>：Rust、Lua、R、SQL 等にも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>サーバーサイド</strong>：PHP、Go、Java、Ruby、Python 等</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ゲーム/クライアント</strong>：C#（Unity）、C++</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Webフロントエンド</strong>：TypeScript、JavaScript</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>モバイル</strong>：iOS は Swift、Android は Kotlin</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>その他</strong>：Rust、Lua、R、SQL 等にも対応</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: グリーグループ公式 採用情報（2026年6月時点）。対応言語の一覧であり、配属プロダクトにより実際の使用技術は異なります。</p>
@@ -215,7 +215,7 @@ export default function GreeCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公開情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            公開されている採用情報・選考体験談をもとにした一般的な流れです。最新の内容は<a href="https://hd.gree.net/jp/ja/recruit/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">グループ採用ページ</a>でご確認ください。
+            公開されている採用情報・選考体験談をもとにした一般的な流れです。最新の内容は<a href="https://hd.gree.net/jp/ja/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">グループ採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考（エントリーシート・職務経歴書）</li>
@@ -232,12 +232,12 @@ export default function GreeCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>技術面接で示す実装力・設計力（応募ポジションの言語/領域）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ゲーム・メタバース等のドメインへの理解・関心</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>サービス運用・スケールの経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>チームでの協働姿勢・主体性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術面接で示す実装力・設計力（応募ポジションの言語/領域）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ゲーム・メタバース等のドメインへの理解・関心</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>サービス運用・スケールの経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>チームでの協働姿勢・主体性</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -250,7 +250,7 @@ export default function GreeCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。グリーの単体平均（865万円）はこれを上回りますが、これは持株会社の少数在籍者の平均であり、エンジニアの提示額は事業会社・ポジション次第です。30代・40代は応募先の事業会社ごとに水準を確認することが重要です。
             </p>
             <p>
-              ゲーム・メタバース・アドテクなど、関心領域に合わせて事業会社を選べる点はミドル層にとってメリットです。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              ゲーム・メタバース・アドテクなど、関心領域に合わせて事業会社を選べる点はミドル層にとってメリットです。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -263,13 +263,13 @@ export default function GreeCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。ゲーム企業への提案実績が豊富で提案スピードが速い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -290,7 +290,7 @@ export default function GreeCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">グリーへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">ゲーム・エンタメ企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -304,7 +304,7 @@ export default function GreeCompanyPage() {
               { name: "技術面接の対策", href: "/knowledge/tech-interview/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

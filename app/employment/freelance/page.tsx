@@ -144,15 +144,15 @@ export default function FreelancePage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：自由と単価の裏に「案件確保と保障の自己責任」がある</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               フリーランスは、単価と働き方の自由で正社員を上回ることがあります。しかし案件の確保、社会保険・税の自己負担、保障の欠如をすべて自分で引き受ける働き方です。額面の単価だけで判断せず、稼働できない期間・社会保険・信用面まで含めて設計し、複数の案件確保ルートと生活防衛資金を整えてから選ぶのが安全です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">1.</span>「フリーランス＝独立した働き方」「業務委託＝契約形態」で、指す対象が異なる。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">2.</span>単価目安：SE約71万／PG約68万（月額・週5・レバテックフリーランス2024年1月）。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">3.</span>登録者平均年収約881万円は「高稼働者中心の実績値」で全体平均ではない。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>「フリーランス＝独立した働き方」「業務委託＝契約形態」で、指す対象が異なる。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>単価目安：SE約71万／PG約68万（月額・週5・レバテックフリーランス2024年1月）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>登録者平均年収約881万円は「高稼働者中心の実績値」で全体平均ではない。</li>
             </ul>
           </div>
         </section>
@@ -163,7 +163,7 @@ export default function FreelancePage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ol>
@@ -176,10 +176,10 @@ export default function FreelancePage() {
             フリーランスは、特定の企業に雇用されず、<strong>独立して仕事を請け負う立場・働き方</strong>を指す言葉です。法律上の専用の定義語ではなく、実務上は個人事業主（または一人法人）として、複数のクライアントから案件を受けて働く人を指します。
           </p>
           <p className="text-slate-600 leading-relaxed mb-4">
-            よく混同される「業務委託」は、フリーランスが案件を受けるときに結ぶ<strong>契約の形態</strong>（準委任・請負）を指す言葉です。両者は指す対象が異なり、「フリーランスという働き方」を実現する手段の一つが「業務委託という契約」だと整理すると分かりやすいです。契約面の詳細は<Link href="/employment/gyomu-itaku/" className="text-blue-600 hover:underline">業務委託（準委任・請負）の記事</Link>で解説しています。
+            よく混同される「業務委託」は、フリーランスが案件を受けるときに結ぶ<strong>契約の形態</strong>（準委任・請負）を指す言葉です。両者は指す対象が異なり、「フリーランスという働き方」を実現する手段の一つが「業務委託という契約」だと整理すると分かりやすいです。契約面の詳細は<Link href="/employment/gyomu-itaku/" className="text-petrol hover:underline">業務委託（準委任・請負）の記事</Link>で解説しています。
           </p>
           <p className="text-slate-600 leading-relaxed text-sm">
-            雇用形態全体の中での位置づけは<Link href="/employment/" className="text-blue-600 hover:underline">エンジニアの雇用形態の違い</Link>で横断的に整理しています。
+            雇用形態全体の中での位置づけは<Link href="/employment/" className="text-petrol hover:underline">エンジニアの雇用形態の違い</Link>で横断的に整理しています。
           </p>
         </section>
 
@@ -210,7 +210,7 @@ export default function FreelancePage() {
           </div>
           <p className="text-xs text-slate-500 mb-5">出典: レバテックフリーランス公表の単価データ（2024年1月時点・週5稼働）。数値は時点・案件で変動します。</p>
           <p className="text-slate-600 leading-relaxed text-sm">
-            レバテックの登録者平均年収は約881万円と公表されていますが、これは実際に稼働している高稼働・高スキル層を中心とした「稼働者の実績値」であり、フリーランス全体の平均ではありません。母集団を理解したうえで参考にしてください。実際の年収は稼働率・単価・案件継続性で大きく変動します。手取りの試算方法は<Link href="/employment/contractor/" className="text-blue-600 hover:underline">業務委託（単価・手取り）</Link>で解説しています。
+            レバテックの登録者平均年収は約881万円と公表されていますが、これは実際に稼働している高稼働・高スキル層を中心とした「稼働者の実績値」であり、フリーランス全体の平均ではありません。母集団を理解したうえで参考にしてください。実際の年収は稼働率・単価・案件継続性で大きく変動します。手取りの試算方法は<Link href="/employment/contractor/" className="text-petrol hover:underline">業務委託（単価・手取り）</Link>で解説しています。
           </p>
         </section>
 
@@ -239,7 +239,7 @@ export default function FreelancePage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            案件が途切れると即収入減につながるため、複数経路を併用し、稼働の空白を作らない仕組みづくりが重要です。エージェントの比較は<Link href="/compare/freelance-agents/" className="text-blue-600 hover:underline">フリーランス向けエージェント比較</Link>を参照してください。
+            案件が途切れると即収入減につながるため、複数経路を併用し、稼働の空白を作らない仕組みづくりが重要です。エージェントの比較は<Link href="/compare/freelance-agents/" className="text-petrol hover:underline">フリーランス向けエージェント比較</Link>を参照してください。
           </p>
         </section>
 
@@ -293,13 +293,13 @@ export default function FreelancePage() {
           <p className="text-slate-600 leading-relaxed mb-5">
             立場の弱いフリーランスの保護が、2024年に制度面で前進しました。押さえておきたい二つの変化です。
           </p>
-          <div className="border border-blue-200 rounded-lg p-5 mb-4">
+          <div className="border border-[var(--line)] rounded-lg p-5 mb-4">
             <h3 className="font-bold text-blue-800 mb-2">フリーランス新法（2024年施行）</h3>
             <p className="text-sm text-slate-600 leading-relaxed">
               フリーランス・事業者間取引適正化等法により、発注者には取引条件の明示や報酬支払期日の設定などが義務づけられました。報酬の支払遅延の禁止など、立場の弱いフリーランスを守るルールが整備されています（出典：フリーランス新法）。
             </p>
           </div>
-          <div className="border border-blue-200 rounded-lg p-5 mb-4">
+          <div className="border border-[var(--line)] rounded-lg p-5 mb-4">
             <h3 className="font-bold text-blue-800 mb-2">労災保険の特別加入（2024年11月1日施行）</h3>
             <p className="text-sm text-slate-600 leading-relaxed">
               業種・職種を問わず、フリーランスが労災保険に特別加入できるようになりました。ITエンジニアも対象で、業務中・通勤中のケガや病気に任意で備えられます。従来の弱点だった「労災なし」が一部緩和された形です（出典：厚生労働省 特別加入制度ページ）。
@@ -317,11 +317,11 @@ export default function FreelancePage() {
             フリーランスは誰にでも合う働き方ではありません。単価の高さだけで選ぶと、案件途切れや事務負担につまずきがちです。自分の状況と照らし合わせて判断しましょう。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="border border-blue-200 rounded-lg p-5">
+            <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">向いている人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {fitYes.map((m, i) => (
-                  <li key={i} className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>{m}</li>
+                  <li key={i} className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>{m}</li>
                 ))}
               </ul>
             </div>
@@ -340,17 +340,17 @@ export default function FreelancePage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代がフリーランスを選ぶときの視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：ライフイベントと信用のタイミング</h3>
-              <p className="text-sm text-blue-700">住宅ローン・賃貸審査では、フリーランスは収入の安定性証明に開業後の実績年数を求められる傾向があります。住宅購入などの予定があるなら、正社員のうちに済ませてから独立する選択も。単価の高さに引っ張られず、信用が必要なイベントの順序を先に設計しましょう。</p>
+              <p className="text-sm text-petrol-deep">住宅ローン・賃貸審査では、フリーランスは収入の安定性証明に開業後の実績年数を求められる傾向があります。住宅購入などの予定があるなら、正社員のうちに済ませてから独立する選択も。単価の高さに引っ張られず、信用が必要なイベントの順序を先に設計しましょう。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験の市場性とリスク許容度</h3>
-              <p className="text-sm text-blue-700">設計・テックリード・大規模改修などシニアの経験が単価に反映されやすい一方、案件の波や契約途切れへの備えが重要になります。複数エージェント登録と生活防衛資金、そして正社員に戻る道を残しておくと安心です。正社員復帰は<Link href="/career/freelance-to-permanent/" className="text-blue-600 hover:underline">フリーランスから正社員へ</Link>を参照してください。</p>
+              <p className="text-sm text-petrol-deep">設計・テックリード・大規模改修などシニアの経験が単価に反映されやすい一方、案件の波や契約途切れへの備えが重要になります。複数エージェント登録と生活防衛資金、そして正社員に戻る道を残しておくと安心です。正社員復帰は<Link href="/career/freelance-to-permanent/" className="text-petrol hover:underline">フリーランスから正社員へ</Link>を参照してください。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年金・保障の長期設計</h3>
-              <p className="text-sm text-blue-700">フリーランスは厚生年金がなく国民年金のみのため、将来の年金額に差が出やすくなります。iDeCo・国民年金基金・小規模企業共済などで自助の保障を組み、2024年から可能になった労災特別加入もあわせて検討するのが、30代・40代では特に重要です。</p>
+              <p className="text-sm text-petrol-deep">フリーランスは厚生年金がなく国民年金のみのため、将来の年金額に差が出やすくなります。iDeCo・国民年金基金・小規模企業共済などで自助の保障を組み、2024年から可能になった労災特別加入もあわせて検討するのが、30代・40代では特に重要です。</p>
             </div>
           </div>
         </section>
@@ -377,7 +377,7 @@ export default function FreelancePage() {
           <p className="text-blue-100 text-sm mb-4">
             フリーランスの単価と、正社員としての提示年収・保障を並べて比較してから判断するのが安全です。まずは市場価値の把握から。
           </p>
-          <Link href="/compare/freelance-agents/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/compare/freelance-agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             フリーランス向けエージェント比較を見る
           </Link>
         </section>
@@ -394,7 +394,7 @@ export default function FreelancePage() {
               { name: "フリーランスから正社員へ", href: "/career/freelance-to-permanent/" },
               { name: "フリーランス向けエージェント比較", href: "/compare/freelance-agents/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

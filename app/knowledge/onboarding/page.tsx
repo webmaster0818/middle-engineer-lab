@@ -138,14 +138,14 @@ export default function OnboardingPage() {
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
           <ul className="space-y-2">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ul>
         </nav>
 
         {/* 結論 */}
         <section className="mb-10">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：最初の1か月は「成果」より「理解」に振る</h2>
             <p className="text-sm text-blue-800 leading-relaxed">
               立ち上がりの鉄則は、<strong>(1)最初の1か月は理解に集中</strong>、<strong>(2)前職のやり方を急に持ち込まない</strong>、<strong>(3)質問は『調べた過程』を添えて早めにする</strong>こと。即戦力を焦って空回りするより、土台を固める方が中期的な成果につながります。リモート入社では「困っている状態が見えにくい」前提で、テキストでの早めの共有を心がけましょう。
@@ -160,7 +160,7 @@ export default function OnboardingPage() {
           <div className="space-y-4">
             {plan.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center min-w-16 h-8 px-2 rounded-full bg-blue-600 text-white font-bold text-xs shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center min-w-16 h-8 px-2 rounded-full bg-petrol text-white font-bold text-xs shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -175,9 +175,9 @@ export default function OnboardingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">信頼を獲得する7つのコツ</h2>
           <div className="space-y-4">
             {tips.map((t, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {t.title}</h3>
-                <p className="text-sm text-blue-700">{t.desc}</p>
+                <p className="text-sm text-petrol-deep">{t.desc}</p>
               </div>
             ))}
           </div>
@@ -227,7 +227,7 @@ export default function OnboardingPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            リモートワークの働き方全般は<Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモートワーク転職ガイド</Link>も参考になります。
+            リモートワークの働き方全般は<Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワーク転職ガイド</Link>も参考になります。
           </p>
         </section>
 
@@ -255,7 +255,7 @@ export default function OnboardingPage() {
               一方で、ミドル層の強みはチーム視点での貢献です。ドキュメント整備、レビュー文化への寄与、若手のサポート、Quick Winの発見など、コードを書く以外でも早期に価値を出せます。これらは年齢を重ねた経験があるからこそ自然にできることです。
             </p>
             <p>
-              入社後のミスマッチを防ぐには、そもそもの企業選びも重要です。<Link href="/knowledge/regret/" className="text-blue-600 hover:underline">転職の後悔を防ぐチェックリスト</Link>や<Link href="/knowledge/first-90days/" className="text-blue-600 hover:underline">転職後90日間の過ごし方</Link>とあわせて、立ち上がりの設計をしておきましょう。試用期間中に強い違和感が続く場合は、<Link href="/knowledge/probation/" className="text-blue-600 hover:underline">試用期間中の転職</Link>も選択肢です。
+              入社後のミスマッチを防ぐには、そもそもの企業選びも重要です。<Link href="/knowledge/regret/" className="text-petrol hover:underline">転職の後悔を防ぐチェックリスト</Link>や<Link href="/knowledge/first-90days/" className="text-petrol hover:underline">転職後90日間の過ごし方</Link>とあわせて、立ち上がりの設計をしておきましょう。試用期間中に強い違和感が続く場合は、<Link href="/knowledge/probation/" className="text-petrol hover:underline">試用期間中の転職</Link>も選択肢です。
             </p>
           </div>
         </section>
@@ -280,7 +280,7 @@ export default function OnboardingPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">転職後もキャリアの相談ができるエージェント</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントは転職後のフォローアップも充実。立ち上がりの悩みや、想定とのギャップも気軽に相談できます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -294,7 +294,7 @@ export default function OnboardingPage() {
               { name: "スキルアップ戦略", href: "/knowledge/continuous-learning/" },
               { name: "燃え尽き症候群と転職判断", href: "/knowledge/burnout/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

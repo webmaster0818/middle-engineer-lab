@@ -201,7 +201,7 @@ export default function RecruitDirectScoutReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：年収600万円超のミドルが、受け身で高年収を狙う・市場価値を測るのに向く</span>。一言でいえば「在職中でも登録して待つだけで、高年収のスカウトと自分の市場価値を確認したいハイクラス層」向けのサービスです。
@@ -217,7 +217,7 @@ export default function RecruitDirectScoutReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -268,11 +268,11 @@ export default function RecruitDirectScoutReview() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
             エージェント型の詳細は
-            <Link href="/review/recruit-it/" className="text-blue-600 hover:underline">リクルートエージェント（IT）の評判・口コミ</Link>
+            <Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルートエージェント（IT）の評判・口コミ</Link>
             で解説しています。また、同じスカウト型でもFindy・LAPRAS・Forkwellは「エンジニアの技術活動を可視化する」仕組みで、年収帯でスカウトする本サービスとは評価軸が異なります。技術発信で評価されたい場合は
-            <Link href="/review/findy/" className="text-blue-600 hover:underline">Findy</Link>
+            <Link href="/review/findy/" className="text-petrol hover:underline">Findy</Link>
             や
-            <Link href="/review/lapras/" className="text-blue-600 hover:underline">LAPRAS</Link>
+            <Link href="/review/lapras/" className="text-petrol hover:underline">LAPRAS</Link>
             を検討してください。
           </p>
         </section>
@@ -307,27 +307,27 @@ export default function RecruitDirectScoutReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">リクルートダイレクトスカウトの特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 高年収・非公開求人の母数</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 公開求人約59.3万件、うち年収800万円以上が約34.7万件（いずれも二次情報・2026年2月）とされ、ハイクラス求人の母数が大きいのが特徴です。ヘッドハンター経由の非公開求人にも出会える可能性があります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 登録して待つだけの受け身運用</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 レジュメを登録しておけばスカウトが届く待ち型のため、在職中で忙しいミドル層でも負担なく進められます。毎月約2万人が新規登録するとされ（二次情報）、利用者の裾野は広いといえます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 市場価値・想定年収の可視化</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 どの年収帯・どんな企業から声がかかるかで、自分の市場価値を客観的に把握できます。転職後平均年収は約950万円とされ（二次情報）、現職より上のレンジを狙う交渉材料の確認に使えます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 全業種対応で選択肢が広い</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 IT特化ではなく全業種を扱うため、エンジニア職に限らずPM・テックリード・事業会社のDX人材など、周辺の高年収ポジションまで視野に入れられます。キャリアの選択肢を広く確認したい人に向きます。
               </p>
             </div>
@@ -388,18 +388,18 @@ export default function RecruitDirectScoutReview() {
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
               マネジメントや専門性で評価されやすい年代であり、年収700万円超の40代やマネージャーの上方転職と相性が良いサービスです。「40代は書類で不利」という不安に対し、待ち型で声がかかる経験は心理的にも有効です。ただしIT特化ではない点を踏まえ、技術面接対策などは
-              <Link href="/review/recruit-it/" className="text-blue-600 hover:underline">リクルートエージェント（IT）</Link>
+              <Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルートエージェント（IT）</Link>
               や
-              <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               で補完するのが堅実です。年収相場は
-              <Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収相場</Link>
+              <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>
               もあわせてご確認ください。
             </p>
             <p>
               いずれの年代でも、待ち型に依存しすぎず、能動的に動けるエージェント型と組み合わせるのが堅実です。
-              <Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウト型サービスの使い方</Link>
+              <Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウト型サービスの使い方</Link>
               や
-              <Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けエージェント比較</Link>
+              <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けエージェント比較</Link>
               も参考にしてください。
             </p>
           </div>
@@ -442,7 +442,7 @@ export default function RecruitDirectScoutReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -459,16 +459,16 @@ export default function RecruitDirectScoutReview() {
             リクルートダイレクトスカウトは「待ち型・ハイクラス・全業種」が特徴です。能動的な伴走が欲しいならエージェント型、技術発信で評価されたいならエンジニア特化のスカウト型、というように、目的に応じて併用すると機会を広げられます。ハイクラス領域ではビズリーチも同系統のサービスとして比較されます。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/recruit-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/recruit-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               リクルートエージェント（IT）の評判・口コミ →
             </Link>
-            <Link href="/review/bizreach-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/bizreach-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ビズリーチ（IT）の評判・口コミ →
             </Link>
-            <Link href="/review/findy/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/findy/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Findyの評判・口コミ →
             </Link>
-            <Link href="/compare/highclass/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/highclass/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ハイクラス向けエージェント比較 →
             </Link>
           </div>
@@ -496,7 +496,7 @@ export default function RecruitDirectScoutReview() {
           <p className="text-blue-100 text-sm mb-4">
             レジュメを登録して、あなたにどんな高年収スカウトが届くか確かめてみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
         </section>
@@ -506,7 +506,7 @@ export default function RecruitDirectScoutReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -103,7 +103,7 @@ export default function CertSecuritySpecialistPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -112,7 +112,7 @@ export default function CertSecuritySpecialistPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：実務がある経験者に効く国家資格</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               情報処理安全確保支援士は当サイトの分類で<strong>「経験者加点資格」</strong>です。サイバー攻撃の増加でセキュリティ人材の需要は拡大しており、<strong>運用・監査などの実務に国家資格を掛け合わせることで信頼性が一段上がります</strong>。一方、未経験者が資格単体で転職するのは難しく、維持費もかかる点は正直にお伝えします。
             </p>
@@ -267,7 +267,7 @@ export default function CertSecuritySpecialistPage() {
               ミドルならではの強みとして、「複数の現場を見てきた経験の幅」があります。インフラ・ネットワーク・アプリ開発など複数領域を渡ってきた人は、セキュリティを「点」ではなく「システム全体の中の一要素」として捉えられます。攻撃者は最も弱いところを突くため、全体を俯瞰できる視点は若手にはない武器です。<strong>その俯瞰力に支援士の体系知識を重ねると、運用担当を超えて設計・監査・統括ポジションへ進む道筋が見えてきます</strong>。
             </p>
             <p>
-              職種側の市場感は<Link href="/skill/security/" className="text-blue-600 hover:underline">セキュリティエンジニア転職ガイド</Link>、隣接領域は<Link href="/skill/network/" className="text-blue-600 hover:underline">ネットワークエンジニア転職ガイド</Link>・<Link href="/career/devsecops/" className="text-blue-600 hover:underline">DevSecOpsキャリア</Link>も参考になります。
+              職種側の市場感は<Link href="/skill/security/" className="text-petrol hover:underline">セキュリティエンジニア転職ガイド</Link>、隣接領域は<Link href="/skill/network/" className="text-petrol hover:underline">ネットワークエンジニア転職ガイド</Link>・<Link href="/career/devsecops/" className="text-petrol hover:underline">DevSecOpsキャリア</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -282,7 +282,7 @@ export default function CertSecuritySpecialistPage() {
               { n: "STEP 3", t: "合格後の登録判断", d: "『登録セキスペ』を名乗るかは維持費（3年約11.5万円〜）と継続意思を踏まえて判断する。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -291,7 +291,7 @@ export default function CertSecuritySpecialistPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            併取得におすすめなのは、土台となる<Link href="/cert/" className="text-blue-600 hover:underline">応用情報技術者（資格一覧参照）</Link>と、クラウドセキュリティ領域を広げる<Link href="/cert/aws/" className="text-blue-600 hover:underline">AWS認定</Link>です。オンプレ＋クラウド双方のセキュリティを語れると市場価値が広がります。
+            併取得におすすめなのは、土台となる<Link href="/cert/" className="text-petrol hover:underline">応用情報技術者（資格一覧参照）</Link>と、クラウドセキュリティ領域を広げる<Link href="/cert/aws/" className="text-petrol hover:underline">AWS認定</Link>です。オンプレ＋クラウド双方のセキュリティを語れると市場価値が広がります。
           </p>
         </section>
 
@@ -330,7 +330,7 @@ export default function CertSecuritySpecialistPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -350,7 +350,7 @@ export default function CertSecuritySpecialistPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

@@ -115,7 +115,7 @@ export default function DataScientistPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${item.id}`} className="text-petrol hover:underline">
                   {item.label}
                 </a>
               </li>
@@ -126,7 +126,7 @@ export default function DataScientistPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：データサイエンティスト転職の攻め方</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               データサイエンティストは人気職種ゆえに志望者が多く、<strong>「分析できます」だけでは差がつきにくい</strong>のが実情です。攻め方は、自分の強みが『分析の深さ』なのか『実装・運用の確かさ』なのかを定め、それに合う企業へ寄せること。要点は3つです。
             </p>
@@ -212,21 +212,21 @@ export default function DataScientistPage() {
         <section id="career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスの選択肢</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">分析スペシャリスト路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 高度な分析・モデリングを深めるスペシャリスト。因果推論や実験設計、ドメイン特化の分析力を武器にします。事業の意思決定に効く示唆を出し続けられるかが価値の源泉です。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">MLエンジニア / データエンジニア路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 モデルや分析を本番で動かす実装・基盤側へ寄せる路線。ソフトウェアエンジニアリングの経験が活き、エンジニア出身者が強みを出しやすいルートです。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データ組織のマネジメント路線</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 分析チームのリードやデータ組織の責任者へ。技術・ビジネス・組織づくりの橋渡しが求められ、30代後半〜40代で経験を活かしやすい方向です。
               </p>
             </div>
@@ -240,21 +240,21 @@ export default function DataScientistPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT特化エージェント）</h3>
               <p className="text-sm text-slate-600 mb-2">IT/Web特化で高年収求人比率が高く、データサイエンス・ML領域の専門ポジションを扱う。技術理解のあるアドバイザーに相談しやすいのが利点です。</p>
-              <Link href="/review/levtech/" className="text-sm text-blue-600 hover:underline">レバテックキャリアの詳細レビュー →</Link>
+              <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、外資系やデータ活用に力を入れる企業のスカウトが届きやすい。市場価値を測る用途でも有効です。</p>
-              <Link href="/review/bizreach-it/" className="text-sm text-blue-600 hover:underline">ビズリーチの詳細レビュー →</Link>
+              <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（国内最大級）</h3>
               <p className="text-sm text-slate-600 mb-2">圧倒的な求人数と非公開求人が強み。大手企業のデータ活用ポジションを含め、幅広い選択肢から探したい人に向きます。</p>
-              <Link href="/review/recruit-it/" className="text-sm text-blue-600 hover:underline">リクルートエージェントITの詳細レビュー →</Link>
+              <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェントの複数併用ガイド</Link>、各社比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント比較</Link>もどうぞ。
+            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>、各社比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>もどうぞ。
           </p>
         </section>
 
@@ -269,7 +269,7 @@ export default function DataScientistPage() {
               { period: "10〜12ヶ月", title: "転職活動", desc: "DS求人に応募。未経験寄りならデータアナリストから入って実績を積み、段階的にDSへ寄せるのが現実的です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center min-w-[80px] h-8 rounded-full bg-blue-600 text-white font-bold text-xs shrink-0">{item.period}</span>
+                <span className="flex items-center justify-center min-w-[80px] h-8 rounded-full bg-petrol text-white font-bold text-xs shrink-0">{item.period}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -290,7 +290,7 @@ export default function DataScientistPage() {
               一方で、未経験から「分析専任のジュニアDS」を狙うと、統計・数理に強い若手や新卒と競合しやすくなります。30代・40代は<strong>既存の開発・運用経験が複利で効くMLOps・データ基盤・分析チームのリード</strong>に照準を合わせると勝率が上がります。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              年代別の市場感は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収相場</Link>もあわせてどうぞ。
+              年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>もあわせてどうぞ。
             </p>
           </div>
         </section>
@@ -312,7 +312,7 @@ export default function DataScientistPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            成果物の作り方は<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>、学習の続け方は<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">エンジニアの継続学習</Link>も参考になります。
+            成果物の作り方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>、学習の続け方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続学習</Link>も参考になります。
           </p>
         </section>
 
@@ -340,7 +340,7 @@ export default function DataScientistPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -360,7 +360,7 @@ export default function DataScientistPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

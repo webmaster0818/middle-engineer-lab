@@ -122,7 +122,7 @@ export default function InvoicePage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -133,7 +133,7 @@ export default function InvoicePage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：エンジニアが押さえる要点</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               フリーランスエンジニアにとっての要点は、<strong>「自分の取引先が課税事業者かどうか」を起点に、免税事業者のままでいるか、課税事業者として登録するかを判断する</strong>ことです。登録は任意ですが、取引先が課税事業者でインボイスを求める場合は、登録しないことが値引き交渉や取引見直しの材料にされることがあります。
             </p>
@@ -181,9 +181,9 @@ export default function InvoicePage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             業務委託やエージェント経由で働く形態については、
-            <Link href="/employment/gyomu-itaku/" className="text-blue-600 hover:underline">業務委託の働き方</Link>
+            <Link href="/employment/gyomu-itaku/" className="text-petrol hover:underline">業務委託の働き方</Link>
             や
-            <Link href="/employment/freelance/" className="text-blue-600 hover:underline">フリーランスの働き方</Link>
+            <Link href="/employment/freelance/" className="text-petrol hover:underline">フリーランスの働き方</Link>
             もあわせて確認してください。
           </p>
         </section>
@@ -195,15 +195,15 @@ export default function InvoicePage() {
             それぞれにメリット・デメリットがあります。取引先の区分と売上規模をふまえて判断しましょう。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">免税事業者のままでいる場合</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 消費税の納税義務がなく、申告の事務負担も生じません。取引先が免税事業者や一般消費者中心ならデメリットは小さい一方、課税事業者の取引先からインボイス発行を求められたり、消費税相当分の値引き交渉をされたりする可能性があります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">課税事業者として登録する場合</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 インボイスを発行でき、課税事業者の取引先との関係を維持しやすくなります。その代わり消費税の申告・納税義務が生じます。ただし2割特例（後述）を使えば、当面は納税負担と計算の手間を大きく抑えられます。
               </p>
             </div>
@@ -243,7 +243,7 @@ export default function InvoicePage() {
               { num: "4", title: "登録番号を請求書に記載する", desc: "通知された13桁の登録番号と、適用税率・税率ごとの消費税額などを請求書に記載してインボイスを発行します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -255,9 +255,9 @@ export default function InvoicePage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             独立にあたっては
-            <Link href="/knowledge/kaigyo/" className="text-blue-600 hover:underline">開業届の出し方</Link>
+            <Link href="/knowledge/kaigyo/" className="text-petrol hover:underline">開業届の出し方</Link>
             や
-            <Link href="/knowledge/side-job-tax/" className="text-blue-600 hover:underline">副業の確定申告</Link>
+            <Link href="/knowledge/side-job-tax/" className="text-petrol hover:underline">副業の確定申告</Link>
             もあわせて確認しておくとスムーズです。
           </p>
         </section>
@@ -286,7 +286,7 @@ export default function InvoicePage() {
           </p>
           <Link
             href="/review/levtech-freelance/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             フリーランス向けサービスを見る
           </Link>
@@ -306,7 +306,7 @@ export default function InvoicePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

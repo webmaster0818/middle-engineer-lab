@@ -74,10 +74,10 @@ export default function PrivacyPage() {
                 当サイトでは、Googleが提供するアクセス解析ツール「Google Analytics」を使用しています。Google AnalyticsはCookieを使用してデータを収集しますが、個人を特定する情報は含まれません。
               </p>
               <p>
-                Google Analyticsの利用規約については、<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Google アナリティクス利用規約</a>をご確認ください。
+                Google Analyticsの利用規約については、<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank" rel="noopener noreferrer" className="text-petrol hover:underline">Google アナリティクス利用規約</a>をご確認ください。
               </p>
               <p>
-                Google Analyticsのデータ収集を無効にしたい場合は、<a href="https://tools.google.com/dlpage/gaoptout?hl=ja" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Google アナリティクス オプトアウト アドオン</a>をご利用ください。
+                Google Analyticsのデータ収集を無効にしたい場合は、<a href="https://tools.google.com/dlpage/gaoptout?hl=ja" target="_blank" rel="noopener noreferrer" className="text-petrol hover:underline">Google アナリティクス オプトアウト アドオン</a>をご利用ください。
               </p>
             </div>
           </section>

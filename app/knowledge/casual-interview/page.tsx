@@ -154,7 +154,7 @@ export default function CasualInterviewPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -163,7 +163,7 @@ export default function CasualInterviewPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：評価でなく相互理解の場として使う</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               カジュアル面談は「合否を決める面接」ではなく「選考に進むかをお互いに見極める場」です。だからこそ、企業側に評価されることより、<strong>自分が入社後に後悔しないための情報を集めること</strong>に主眼を置くのが正解です。
@@ -212,7 +212,7 @@ export default function CasualInterviewPage() {
             </table>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed">
-            ただし「合否がつかない」のは建前で、面談で得た印象が後の選考に共有されることもあります。評価を恐れて萎縮する必要はありませんが、最低限の準備と誠実な態度は欠かせません。スカウト経由で面談に至った場合の返信の組み立ては<Link href="/knowledge/scout-reply/" className="text-blue-600 hover:underline">スカウト返信の例文</Link>を参考にしてください。
+            ただし「合否がつかない」のは建前で、面談で得た印象が後の選考に共有されることもあります。評価を恐れて萎縮する必要はありませんが、最低限の準備と誠実な態度は欠かせません。スカウト経由で面談に至った場合の返信の組み立ては<Link href="/knowledge/scout-reply/" className="text-petrol hover:underline">スカウト返信の例文</Link>を参考にしてください。
           </p>
         </section>
 
@@ -230,7 +230,7 @@ export default function CasualInterviewPage() {
               { phase: "今後の流れの確認（5分）", desc: "選考に進む場合のステップや、検討期間の確認。意欲があればその場で伝えてもOK。" },
             ].map((p, i) => (
               <div key={p.phase} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {i + 1}
                 </span>
                 <div>
@@ -254,7 +254,7 @@ export default function CasualInterviewPage() {
                 <ul className="space-y-2">
                   {c.items.map((q) => (
                     <li key={q} className="flex items-start gap-2 text-sm text-slate-700">
-                      <span className="text-blue-600 font-bold shrink-0">Q</span>
+                      <span className="text-petrol font-bold shrink-0">Q</span>
                       <span>{q}</span>
                     </li>
                   ))}
@@ -317,7 +317,7 @@ export default function CasualInterviewPage() {
               面談で興味を持ったら、終盤で「ぜひ選考に進みたい」と意思表示すると、その後の調整がスムーズになります。迷う場合は持ち帰り、後日メールで返答しても失礼にはあたりません。
             </p>
             <p>
-              選考に進むと、書類選考や面接、企業によっては技術課題が課されます。準備の全体像は<Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職活動のタイムライン</Link>、職務経歴書は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニア向け職務経歴書</Link>を参照してください。技術面接・行動面接・コーディングテストの対策は、それぞれ<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接</Link>・<Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接</Link>・<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト</Link>の各記事にまとめています。
+              選考に進むと、書類選考や面接、企業によっては技術課題が課されます。準備の全体像は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職活動のタイムライン</Link>、職務経歴書は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニア向け職務経歴書</Link>を参照してください。技術面接・行動面接・コーディングテストの対策は、それぞれ<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接</Link>・<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接</Link>・<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト</Link>の各記事にまとめています。
             </p>
           </div>
         </section>
@@ -343,7 +343,7 @@ export default function CasualInterviewPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">家庭・働き方との両立を擦り合わせる</h3>
               <p>
-                リモート比率やコアタイム、オンコールの負荷は、家庭がある世代には重要です。聞きにくければ「働き方の柔軟性について伺えますか」と切り出せば自然です。詳細は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>も参考にしてください。
+                リモート比率やコアタイム、オンコールの負荷は、家庭がある世代には重要です。聞きにくければ「働き方の柔軟性について伺えますか」と切り出せば自然です。詳細は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>も参考にしてください。
               </p>
             </div>
           </div>
@@ -371,7 +371,7 @@ export default function CasualInterviewPage() {
           </p>
           <Link
             href="/knowledge/scout-reply/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             スカウト返信の例文を見る
           </Link>
@@ -391,7 +391,7 @@ export default function CasualInterviewPage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

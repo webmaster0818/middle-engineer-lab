@@ -149,7 +149,7 @@ export default function OfferComparePage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -160,7 +160,7 @@ export default function OfferComparePage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：オファー比較の基本方針</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               オファー比較は、<strong>年収だけで決めず、比較軸を表に整理してスコアリングで定量比較する</strong>のが基本です。年収以外では、ストックオプション・リモートワーク・評価制度・技術スタック・労働時間・事業の安定性が重要な軸になります。
             </p>
@@ -242,7 +242,7 @@ export default function OfferComparePage() {
               { num: "4", title: "スコアと直感のズレを確認する", desc: "スコア上位と『自分が直感的に惹かれている企業』がズレる場合、その理由を言語化します。重みの付け方を見直す気づきになります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -285,9 +285,9 @@ export default function OfferComparePage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             退職の進め方は
-            <Link href="/knowledge/resignation/" className="text-blue-600 hover:underline">退職の進め方ガイド</Link>
+            <Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の進め方ガイド</Link>
             、入社後の立ち上がりは
-            <Link href="/knowledge/first-90days/" className="text-blue-600 hover:underline">転職後90日間の過ごし方</Link>
+            <Link href="/knowledge/first-90days/" className="text-petrol hover:underline">転職後90日間の過ごし方</Link>
             で解説しています。
           </p>
         </section>
@@ -296,15 +296,15 @@ export default function OfferComparePage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の意思決定のポイント</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：成長機会と評価制度を重視する</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30代は『次の10年の土台』を作る年代です。レバテック公表（2025年）では30代平均約499万円→40代約618万円と年代で平均が伸びるため、目先の年収差よりも、評価制度・成長機会・技術スタックといった『将来の年収カーブを押し上げる要素』を重視すると後悔しにくくなります。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：専門性の活用と持続可能性を見る</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は自分の専門性が活きるか、そして長く働ける環境かが重要です。年収（40代平均約618万円が一つの目安）に加え、労働時間や役割の明確さ、家族のライフイベントとの両立を含めて総合的に判断しましょう。
               </p>
             </div>
@@ -335,7 +335,7 @@ export default function OfferComparePage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -355,7 +355,7 @@ export default function OfferComparePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

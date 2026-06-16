@@ -125,7 +125,7 @@ export default function FreeeCompanyPage() {
           <ul className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -133,7 +133,7 @@ export default function FreeeCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-3">結論：Webアプリ開発の実務経験があり、ユーザー課題に深く向き合いたいエンジニア向き。難易度は中〜やや高。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li className="flex gap-2"><span className="shrink-0">1.</span>Ruby on Rails中心のモダンなSaaS開発経験が活き、上場済みの安定感と成長企業のスピードを両立できる。</li>
@@ -165,17 +165,17 @@ export default function FreeeCompanyPage() {
         <section id="features" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">「マジ価値」を追求するプロダクト志向の開発</h3>
-              <p className="text-sm text-blue-700">「スモールビジネスを、世界の主役に。」をミッションに、会計・人事労務・会社設立などのバックオフィスSaaSを展開。ユーザーに本質的な価値（freeeでは「マジ価値」）を届けることを重視し、エンジニアもビジネス課題の理解を求められる文化です。freeeの採用担当インタビュー（レバテックキャリア掲載）でも、変化を楽しみ新しいことへ挑戦する姿勢が重視されると語られています。</p>
+              <p className="text-sm text-petrol-deep">「スモールビジネスを、世界の主役に。」をミッションに、会計・人事労務・会社設立などのバックオフィスSaaSを展開。ユーザーに本質的な価値（freeeでは「マジ価値」）を届けることを重視し、エンジニアもビジネス課題の理解を求められる文化です。freeeの採用担当インタビュー（レバテックキャリア掲載）でも、変化を楽しみ新しいことへ挑戦する姿勢が重視されると語られています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">アクセシビリティへの公式なコミットメント</h3>
-              <p className="text-sm text-blue-700">freeeは日本のSaaS企業の中でもアクセシビリティへの取り組みを公式に発信している企業の一つで、社内向けのアクセシビリティガイドラインを公開しています。多様なユーザーが使えるプロダクトづくりに関心のあるエンジニアにとって、技術的チャレンジと社会的意義を両立できる環境です。</p>
+              <p className="text-sm text-petrol-deep">freeeは日本のSaaS企業の中でもアクセシビリティへの取り組みを公式に発信している企業の一つで、社内向けのアクセシビリティガイドラインを公開しています。多様なユーザーが使えるプロダクトづくりに関心のあるエンジニアにとって、技術的チャレンジと社会的意義を両立できる環境です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">統合型プラットフォームを志向する複数プロダクト体制</h3>
-              <p className="text-sm text-blue-700">freeeは複数プロダクトを「統合型経営プラットフォーム」として連携させる方針を掲げ、技術選定・ログ形式・インフラ管理・連携API仕様などの標準化を進めています。プロダクト単体だけでなく、横断的な基盤づくりに関わりたいエンジニアに向いた環境です。</p>
+              <p className="text-sm text-petrol-deep">freeeは複数プロダクトを「統合型経営プラットフォーム」として連携させる方針を掲げ、技術選定・ログ形式・インフラ管理・連携API仕様などの標準化を進めています。プロダクト単体だけでなく、横断的な基盤づくりに関わりたいエンジニアに向いた環境です。</p>
             </div>
           </div>
         </section>
@@ -251,7 +251,7 @@ export default function FreeeCompanyPage() {
               ["内定（オファー面談）", "条件・制度の説明。オフィス訪問での面談も可能。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                 <div>
                   <p className="font-bold text-slate-800 text-sm">{title}</p>
                   <p className="text-sm text-slate-600">{desc}</p>
@@ -268,13 +268,13 @@ export default function FreeeCompanyPage() {
             公式採用ページ・採用担当インタビュー（レバテックキャリア掲載）などの公開情報から読み取れる傾向です。特定の質問文の再現や断定は避け、評価観点として整理します。
           </p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ユーザー課題への当事者意識（「マジ価値」への共感）。技術選定の背景を語れるか。</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>変化やチャレンジを楽しめる姿勢。新しい技術・領域への適応力。</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>課題解決経験の具体性。なぜその設計・実装にしたかを自分の言葉で説明できるか。</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>サービス運営・運用の経験、技術研鑽（学習やアウトプット）への姿勢。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ユーザー課題への当事者意識（「マジ価値」への共感）。技術選定の背景を語れるか。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>変化やチャレンジを楽しめる姿勢。新しい技術・領域への適応力。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>課題解決経験の具体性。なぜその設計・実装にしたかを自分の言葉で説明できるか。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>サービス運営・運用の経験、技術研鑽（学習やアウトプット）への姿勢。</li>
           </ul>
           <p className="text-sm text-slate-600 mt-4">
-            面接全般の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策ガイド</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト攻略</Link>を参考にしてください。
+            面接全般の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策ガイド</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト攻略</Link>を参考にしてください。
           </p>
         </section>
 
@@ -314,10 +314,10 @@ export default function FreeeCompanyPage() {
               平均年齢が33.1歳（2025年6月期）と若めのため、40代は相対的にシニア寄りの立ち位置になります。マネジメントやテックリードとしての経験、ドメイン（会計・人事労務）への理解、プロダクト横断の標準化を推進した経験などは、年齢に見合った価値として評価されやすいでしょう。逆に「コードを書くだけ」のポジション期待だと、若手との差別化が難しくなります。
             </p>
             <p>
-              年収面では、現職が事業会社の維持・運用中心で頭打ちになっている30代・40代にとって、freeeの全社員平均688万円（有報）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
+              年収面では、現職が事業会社の維持・運用中心で頭打ちになっている30代・40代にとって、freeeの全社員平均688万円（有報）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
             </p>
             <p>
-              年代別の転職実態は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>も参考になります。
+              年代別の転職実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -330,19 +330,19 @@ export default function FreeeCompanyPage() {
               { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイト。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすい。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが強みで、SaaS系企業への転職実績が豊富。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">各社の特徴は<Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリアの評判</Link>などの個別レビュー、<Link href="/compare/levtech-vs-geekly/" className="text-blue-600 hover:underline">レバテック×Geekly比較</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">各社の特徴は<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリアの評判</Link>などの個別レビュー、<Link href="/compare/levtech-vs-geekly/" className="text-petrol hover:underline">レバテック×Geekly比較</Link>も参考にしてください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">freeeへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">SaaS企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -371,7 +371,7 @@ export default function FreeeCompanyPage() {
               { name: "技術面接の対策ガイド", href: "/knowledge/tech-interview/" },
               { name: "30代エンジニアの転職", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

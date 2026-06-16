@@ -99,7 +99,7 @@ export default function ToyotaCompanyPage() {
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
-          <ol className="space-y-1.5 text-sm text-blue-700">
+          <ol className="space-y-1.5 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}><a href={`#${t.id}`} className="hover:underline">{t.label}</a></li>
             ))}
@@ -108,7 +108,7 @@ export default function ToyotaCompanyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：トヨタ転職の難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
             <p><strong>難易度は高め。特にWoven by Toyotaは外資テック型の選考で、英語・コーディング・行動面接の準備が必須。</strong></p>
             <p>・<strong>向く人</strong>：自動運転・組み込み・車載ソフトウェア・クラウド基盤の実務経験者、英語での開発に抵抗がない人、社会インフラ規模のスケールに魅力を感じる人。</p>
             <p>・<strong>向きにくい人</strong>：英語の選考・業務を避けたい人（→トヨタ本体の日本語ポジションを検討）、短サイクルのWebプロダクトのみを志向する人。</p>
@@ -136,17 +136,17 @@ export default function ToyotaCompanyPage() {
         <section id="features" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. ソフトウェアファースト／SDVへの転換</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">車載OS、自動運転、コネクテッドサービスなど、自動車をソフトウェアで進化させるSDV時代に向けてソフトウェアエンジニアの採用を強化しています。開発したソフトウェアが多数の車両に搭載される、社会インフラ規模のスケールが特徴です（出典：トヨタ・Woven by Toyota 公式情報）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">車載OS、自動運転、コネクテッドサービスなど、自動車をソフトウェアで進化させるSDV時代に向けてソフトウェアエンジニアの採用を強化しています。開発したソフトウェアが多数の車両に搭載される、社会インフラ規模のスケールが特徴です（出典：トヨタ・Woven by Toyota 公式情報）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. Woven by Toyotaは外資テック型の採用</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">自動運転・ソフトウェア基盤を担うWoven by Toyotaは、選考が主に英語で行われ、テイクホーム課題やライブコーディングを含むテックカンパニー型の選考を採用しています。GAFAM経験者も含むグローバルな開発環境が特徴です（出典：Woven by Toyota 公式採用ページ、面接体験談）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">自動運転・ソフトウェア基盤を担うWoven by Toyotaは、選考が主に英語で行われ、テイクホーム課題やライブコーディングを含むテックカンパニー型の選考を採用しています。GAFAM経験者も含むグローバルな開発環境が特徴です（出典：Woven by Toyota 公式採用ページ、面接体験談）。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. トヨタ本体は日本語ポジションも多数</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">トヨタ本体や国内のIT/ソフトウェア関連部署には、日本語で完結するポジションも多くあります。英語に不安があってもトヨタグループのソフトウェア領域に関わる道は複数あり、求人ごとに言語要件を確認することが重要です。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">トヨタ本体や国内のIT/ソフトウェア関連部署には、日本語で完結するポジションも多くあります。英語に不安があってもトヨタグループのソフトウェア領域に関わる道は複数あり、求人ごとに言語要件を確認することが重要です。</p>
             </div>
           </div>
         </section>
@@ -158,11 +158,11 @@ export default function ToyotaCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Woven by Toyota</strong>：自動運転・車載ソフトウェア基盤「Arene」、スマートシティ「Woven City」関連の開発</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>SDV／車載ソフトウェア</strong>：車載OS・コネクテッド・組み込みリアルタイム領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>クラウド／データ基盤</strong>：大規模なモビリティデータの処理・分析基盤</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>機能安全・セキュリティ</strong>：車載系ポジションで重視される領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>開発言語の例</strong>：C++ / Python / Rust 等（職種により異なる。求人票で確認）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Woven by Toyota</strong>：自動運転・車載ソフトウェア基盤「Arene」、スマートシティ「Woven City」関連の開発</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>SDV／車載ソフトウェア</strong>：車載OS・コネクテッド・組み込みリアルタイム領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド／データ基盤</strong>：大規模なモビリティデータの処理・分析基盤</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>機能安全・セキュリティ</strong>：車載系ポジションで重視される領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>開発言語の例</strong>：C++ / Python / Rust 等（職種により異なる。求人票で確認）</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-3">※公式統一スタックは公表されていないため、公開情報で確認できた技術領域のみを記載しています。</p>
@@ -179,7 +179,7 @@ export default function ToyotaCompanyPage() {
             </p>
           </div>
           <p className="text-slate-700 text-sm leading-relaxed">
-            トヨタ本体・Woven by Toyotaともに<strong>等級別年収を公式に公表していません</strong>。当ガイドでは出典の取れない等級別年収表は掲載しません。具体的な提示額は経験・現年収・ポジションで変動するため、求人票か転職エージェント経由で確認するのが確実です。交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉ガイド</Link>を参照してください。
+            トヨタ本体・Woven by Toyotaともに<strong>等級別年収を公式に公表していません</strong>。当ガイドでは出典の取れない等級別年収表は掲載しません。具体的な提示額は経験・現年収・ポジションで変動するため、求人票か転職エージェント経由で確認するのが確実です。交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉ガイド</Link>を参照してください。
           </p>
         </section>
 
@@ -195,12 +195,12 @@ export default function ToyotaCompanyPage() {
               ["内定・条件提示", "オファー提示を経て決定。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
-                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
+                <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
                 <div><p className="font-medium text-slate-800 text-sm">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
               </li>
             ))}
           </ol>
-          <p className="text-xs text-slate-400 mt-3">出典：Woven by Toyota 公式採用ページ＋面接体験談の傾向要約。コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-3">出典：Woven by Toyota 公式採用ページ＋面接体験談の傾向要約。コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>を参照。</p>
         </section>
 
         <section id="interview" className="mb-10 scroll-mt-20">
@@ -209,20 +209,20 @@ export default function ToyotaCompanyPage() {
             公開情報・面接体験談の傾向として、次の観点が重視されると言われています（実在しない質問リストの断定は避け、傾向のみ記載）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>アルゴリズム・データ構造・<strong>ライブコーディング</strong>での実装力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>自分の成果が<strong>事業・チームに与えたインパクト</strong>を説明できるか</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>企業バリューに沿った<strong>問題解決アプローチ</strong>（行動面接・英語で問われる場合あり）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>自動運転・車載・機能安全など応募ポジションの専門要件との合致</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>アルゴリズム・データ構造・<strong>ライブコーディング</strong>での実装力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>自分の成果が<strong>事業・チームに与えたインパクト</strong>を説明できるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>企業バリューに沿った<strong>問題解決アプローチ</strong>（行動面接・英語で問われる場合あり）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>自動運転・車載・機能安全など応募ポジションの専門要件との合致</li>
           </ul>
-          <p className="text-xs text-slate-400 mt-2">出典：Woven by Toyota 公式採用ページ＋面接体験談の傾向要約。技術面接全般の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の準備</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-2">出典：Woven by Toyota 公式採用ページ＋面接体験談の傾向要約。技術面接全般の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>を参照。</p>
         </section>
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たトヨタ転職</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>Woven by Toyotaはジョブ型・専門性重視のため、<strong>30代・40代の即戦力エンジニア</strong>が応募しやすい構造です。自動運転・組み込み・大規模基盤など特定領域の深い経験は、ミドル層の強みになります。ただし英語での選考・業務が前提のポジションが多く、語学準備の有無が結果を左右します。</p>
-            <p>英語の選考に不安がある場合は、トヨタ本体や国内グループ会社の日本語ポジションも選択肢です。製造業の現場・品質・組み込み経験を持つエンジニアは、車載ソフトウェアの機能安全領域などで現場知識を武器にできます。<Link href="/industry/manufacturing/" className="text-blue-600 hover:underline">製造業からのIT転職ガイド</Link>で、その経験の活かし方を整理しておくと志望動機が強くなります。</p>
-            <p>40代でテックカンパニー型の選考に臨む場合、ブランクのあるアルゴリズム・コーディング対策を早めに始めることが重要です。年代別の留意点は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>を参考にしてください。</p>
+            <p>英語の選考に不安がある場合は、トヨタ本体や国内グループ会社の日本語ポジションも選択肢です。製造業の現場・品質・組み込み経験を持つエンジニアは、車載ソフトウェアの機能安全領域などで現場知識を武器にできます。<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業からのIT転職ガイド</Link>で、その経験の活かし方を整理しておくと志望動機が強くなります。</p>
+            <p>40代でテックカンパニー型の選考に臨む場合、ブランクのあるアルゴリズム・コーディング対策を早めに始めることが重要です。年代別の留意点は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>を参考にしてください。</p>
           </div>
         </section>
 
@@ -234,13 +234,13 @@ export default function ToyotaCompanyPage() {
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。高年収求人比率が高く、Woven by Toyotaのような先進的なソフトウェア組織の求人にも強い。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。Woven by Toyotaなど高報酬ポジションのスカウトに出会いやすい。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500 leading-relaxed">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数社の併用が一般的です。使い分けは<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">転職エージェント複数利用のコツ</Link>を参照してください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数社の併用が一般的です。使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェント複数利用のコツ</Link>を参照してください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -261,7 +261,7 @@ export default function ToyotaCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">トヨタ自動車への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">大手メーカー・先進的なソフトウェア組織への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/doda-it/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/doda-it/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -275,7 +275,7 @@ export default function ToyotaCompanyPage() {
               { name: "コーディングテスト対策", href: "/knowledge/coding-test/" },
               { name: "40代エンジニアの転職", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

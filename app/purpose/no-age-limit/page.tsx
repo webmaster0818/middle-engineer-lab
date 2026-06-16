@@ -86,7 +86,7 @@ export default function NoAgeLimitPage() {
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             日本では雇用対策法により、募集・採用で年齢を理由に制限することが原則禁止されています。そのため求人票には年齢制限を書けず、ほぼすべての中途求人が「年齢不問」と表記されます。<strong>つまり「年齢不問」は企業の積極的な方針というより、法律上の建前として書かれている面が大きい</strong>のです。実態としては、30-40代には年齢に見合った実務スキル・専門性・即戦力性が期待されます。年齢不問は「年齢で門前払いしない」という意味であって、「年齢を考慮しない」ではありません。本記事では、この建前と実態のギャップを正直に整理し、年齢を強みに変えて狙う方法を解説します。
           </p>
-          <div className="bg-blue-50 border border-slate-200 rounded-lg p-6">
+          <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 30-40代で年齢を理由に転職をためらっている</li>
@@ -99,7 +99,7 @@ export default function NoAgeLimitPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目次</h2>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-blue-700">
+          <ol className="list-decimal list-inside space-y-1 text-sm text-petrol-deep">
             <li>なぜ求人は「年齢不問」になるのか</li>
             <li>「年齢不問」の建前と実態</li>
             <li>年齢を強みに変える4つの打ち手</li>
@@ -124,7 +124,7 @@ export default function NoAgeLimitPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">建前（表記）</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">実態として起こりがちなこと</th>
                 </tr>
@@ -156,7 +156,7 @@ export default function NoAgeLimitPage() {
               { num: "4", title: "年代を採用している企業に絞る", desc: "実際に30-40代を採用している企業を狙えば、年齢への懸念は最初から小さくなります。エージェント経由で採用実績を確認しましょう。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -184,9 +184,9 @@ export default function NoAgeLimitPage() {
           </div>
           <p className="text-sm text-slate-700 leading-relaxed">
             注意点は、<strong>「年齢不問」の表記だけで応募先を選ばない</strong>ことです。表記と内心にギャップがある求人に応募すると、書類段階で見送られて消耗します。年代別の市場の実情は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代のエンジニア転職</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代のエンジニア転職</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代のエンジニア転職</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代のエンジニア転職</Link>
             も合わせて確認してください。
           </p>
         </section>
@@ -202,7 +202,7 @@ export default function NoAgeLimitPage() {
               { num: "5", title: "（未経験の場合）採用の合理性を語れるか確認", desc: "学習実績・成果物・前職との接続で『この年齢で採る理由』を相手に納得させます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -232,7 +232,7 @@ export default function NoAgeLimitPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">年代を歓迎する求人を無料で紹介</h2>
           <p className="text-blue-100 text-sm mb-4">30-40代の採用実績が豊富な企業を、IT特化型エージェントが厳選して提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -246,7 +246,7 @@ export default function NoAgeLimitPage() {
               { name: "目的別ガイド一覧", href: "/purpose/" },
               { name: "ミドルエンジニア転職ラボTOP", href: "/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

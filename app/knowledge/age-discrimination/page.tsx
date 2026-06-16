@@ -107,7 +107,7 @@ export default function AgeDiscriminationPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -115,7 +115,7 @@ export default function AgeDiscriminationPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="border-l-4 border-blue-600 bg-blue-50 rounded-r-xl p-6">
+          <div className="border-l-4 border-petrol bg-petrol-soft rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：年齢の壁の正体</h2>
             <p className="text-slate-700 leading-relaxed mb-3">
               年齢の壁の正体は「年齢そのもの」ではなく、<strong>年齢が上がるほど『即戦力性の証明』を強く求められる</strong>という評価軸の変化です。求人票への年齢制限は原則禁止であり、IT人材は構造的に不足しています。壁は「数の減少＋証明ハードルの上昇」であって「門前払い」ではありません。
@@ -229,7 +229,7 @@ export default function AgeDiscriminationPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            つまり改善ポイントは「年齢」ではなく①〜③です。書類の書き方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>、エージェントに見送られた場合の対処は<Link href="/knowledge/agent-rejection/" className="text-blue-600 hover:underline">エージェントに断られたとき</Link>で詳しく扱っています。
+            つまり改善ポイントは「年齢」ではなく①〜③です。書類の書き方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>、エージェントに見送られた場合の対処は<Link href="/knowledge/agent-rejection/" className="text-petrol hover:underline">エージェントに断られたとき</Link>で詳しく扱っています。
           </p>
         </section>
 
@@ -245,7 +245,7 @@ export default function AgeDiscriminationPage() {
               { num: "5", title: "スカウト型で市場価値を可視化する", desc: "スカウト型サービスに登録し、どんな年収・ポジションの声がかかるかを観測。壁の高さを感覚でなくデータで把握し、戦略を調整する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p>
@@ -254,7 +254,7 @@ export default function AgeDiscriminationPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            スカウト型の使い方は<Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトサービス活用法</Link>を参照してください。
+            スカウト型の使い方は<Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトサービス活用法</Link>を参照してください。
           </p>
         </section>
 
@@ -275,7 +275,7 @@ export default function AgeDiscriminationPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            自社開発・受託・SESや大手とスタートアップの違いは<Link href="/knowledge/startup-vs-enterprise/" className="text-blue-600 hover:underline">スタートアップvs大手</Link>でも整理しています。
+            自社開発・受託・SESや大手とスタートアップの違いは<Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップvs大手</Link>でも整理しています。
           </p>
         </section>
 
@@ -314,13 +314,13 @@ export default function AgeDiscriminationPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">30代：壁は「ほぼ通過後に問題にならない」</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                30代は書類さえ通れば年齢が決定打になることは少なく、スキルと意欲で十分戦えます。むしろ求人母数が多いため、応募の質を上げれば年収アップを狙いやすい年代です。35歳前後で評価軸が即戦力寄りに移る点だけ意識しましょう。詳細は<Link href="/age/35/" className="text-blue-600 hover:underline">35歳の壁</Link>を参照。
+                30代は書類さえ通れば年齢が決定打になることは少なく、スキルと意欲で十分戦えます。むしろ求人母数が多いため、応募の質を上げれば年収アップを狙いやすい年代です。35歳前後で評価軸が即戦力寄りに移る点だけ意識しましょう。詳細は<Link href="/age/35/" className="text-petrol hover:underline">35歳の壁</Link>を参照。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">40代：壁は「数の減少」として現れる</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                40代の壁は門前払いではなく、応募できる求人の数が絞られる形で現れます。専門性の明確化・複数エージェント併用・役割の明確なポジション狙いで母数不足をカバーするのが基本。40代特化の動き方は<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニア転職のリアル</Link>でさらに深掘りしています。
+                40代の壁は門前払いではなく、応募できる求人の数が絞られる形で現れます。専門性の明確化・複数エージェント併用・役割の明確なポジション狙いで母数不足をカバーするのが基本。40代特化の動き方は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>でさらに深掘りしています。
               </p>
             </div>
           </div>
@@ -348,7 +348,7 @@ export default function AgeDiscriminationPage() {
           <p className="text-blue-100 text-sm mb-4">
             年齢に寛容な求人を持つIT特化型エージェントなら、推薦文付きで紹介してもらえ、書類フィルタを越えやすくなります。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -367,7 +367,7 @@ export default function AgeDiscriminationPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

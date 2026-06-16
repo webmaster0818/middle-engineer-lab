@@ -116,7 +116,7 @@ export default function CareerPlanPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -136,7 +136,7 @@ export default function CareerPlanPage() {
               { num: "4", title: "独立・フリーランス", desc: "得意領域で独立する道。経験10年以上で専門が明確な人向け。自由度が高い反面、安定や継続性は自分で設計する必要がある。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -145,7 +145,7 @@ export default function CareerPlanPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            それぞれ深掘りした記事もあります: <Link href="/knowledge/management/" className="text-blue-600 underline">マネジメントキャリア</Link>、<Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 underline">フリーランスvs正社員</Link>。
+            それぞれ深掘りした記事もあります: <Link href="/knowledge/management/" className="text-petrol underline">マネジメントキャリア</Link>、<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol underline">フリーランスvs正社員</Link>。
           </p>
         </section>
 
@@ -175,7 +175,7 @@ export default function CareerPlanPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※ 年収は企業規模・職位・技術領域で大きく変動します。具体的なレンジは<Link href="/knowledge/market-value/" className="text-blue-600 underline">市場価値の測り方</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-2">※ 年収は企業規模・職位・技術領域で大きく変動します。具体的なレンジは<Link href="/knowledge/market-value/" className="text-petrol underline">市場価値の測り方</Link>を参照。</p>
         </section>
 
         {/* 3. 診断 */}
@@ -197,7 +197,7 @@ export default function CareerPlanPage() {
                 ))}
               </ul>
             </div>
-            <div className="border border-blue-200 bg-blue-50 rounded-xl p-5">
+            <div className="border border-[var(--line)] bg-petrol-soft rounded-xl p-5">
               <h3 className="font-bold text-blue-800 mb-3 text-sm">マネジメント寄り</h3>
               <ul className="space-y-2">
                 {[
@@ -212,28 +212,28 @@ export default function CareerPlanPage() {
               </ul>
             </div>
           </div>
-          <p className="text-sm text-slate-600 mt-4">どちらとも言い切れない場合は、まず<Link href="/knowledge/self-analysis/" className="text-blue-600 underline">自己分析（棚卸し・モチベーショングラフ）</Link>で過去の手応えを振り返るのがおすすめです。</p>
+          <p className="text-sm text-slate-600 mt-4">どちらとも言い切れない場合は、まず<Link href="/knowledge/self-analysis/" className="text-petrol underline">自己分析（棚卸し・モチベーショングラフ）</Link>で過去の手応えを振り返るのがおすすめです。</p>
         </section>
 
         {/* 4. 計画 */}
         <section id="plan" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">4. 5年/10年計画の立て方</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ゴールから逆算する</h3>
-              <p className="text-sm text-blue-700">10年後の理想像（役割・年収・働き方）を先に置き、そこから5年・3年・1年のマイルストーンに分解します。</p>
+              <p className="text-sm text-petrol-deep">10年後の理想像（役割・年収・働き方）を先に置き、そこから5年・3年・1年のマイルストーンに分解します。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">技術名でなくカテゴリで立てる</h3>
-              <p className="text-sm text-blue-700">『○○というFW』ではなく『大規模分散システムの設計力』のようにカテゴリで計画すると、技術変化に強くなります。</p>
+              <p className="text-sm text-petrol-deep">『○○というFW』ではなく『大規模分散システムの設計力』のようにカテゴリで計画すると、技術変化に強くなります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">基盤スキルに投資する</h3>
-              <p className="text-sm text-blue-700">設計力・問題解決力・チーム開発力は陳腐化しません。流行の技術と並行して、不変の力にも時間を割きましょう。関連: <Link href="/knowledge/continuous-learning/" className="text-blue-700 underline">継続的な学習</Link>。</p>
+              <p className="text-sm text-petrol-deep">設計力・問題解決力・チーム開発力は陳腐化しません。流行の技術と並行して、不変の力にも時間を割きましょう。関連: <Link href="/knowledge/continuous-learning/" className="text-petrol-deep underline">継続的な学習</Link>。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年1回は見直す</h3>
-              <p className="text-sm text-blue-700">市場も自分も変わります。年1回プランを点検し、ズレていたら軌道修正します。固定ではなく『更新前提』で運用しましょう。</p>
+              <p className="text-sm text-petrol-deep">市場も自分も変わります。年1回プランを点検し、ズレていたら軌道修正します。固定ではなく『更新前提』で運用しましょう。</p>
             </div>
           </div>
         </section>
@@ -282,13 +282,13 @@ export default function CareerPlanPage() {
         <section id="age" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">7. 30代・40代の選択のポイント</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：方向を『仮決め』して実績を積む</h3>
-              <p className="text-sm text-blue-700">30代は専門を深めるか、マネジメントへ広げるかの分岐点。完璧に決めきれなくても、仮の方向で小さくリード経験や専門の実績を積むと、次の判断材料になります。関連: <Link href="/age/30s/" className="text-blue-700 underline">30代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">30代は専門を深めるか、マネジメントへ広げるかの分岐点。完璧に決めきれなくても、仮の方向で小さくリード経験や専門の実績を積むと、次の判断材料になります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：強みを軸に『深さ』か『広さ』を選ぶ</h3>
-              <p className="text-sm text-blue-700">40代は積み上げた強みを軸に、専門を極める（深さ）か、組織・事業へ広げる（広さ）かを選ぶ局面です。再現性のある実績を前提に、譲れない価値観に沿った道を選びましょう。関連: <Link href="/age/40s/" className="text-blue-700 underline">40代の転職</Link>、<Link href="/knowledge/40s-reality/" className="text-blue-700 underline">40代転職のリアル</Link>。</p>
+              <p className="text-sm text-petrol-deep">40代は積み上げた強みを軸に、専門を極める（深さ）か、組織・事業へ広げる（広さ）かを選ぶ局面です。再現性のある実績を前提に、譲れない価値観に沿った道を選びましょう。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアル</Link>。</p>
             </div>
           </div>
         </section>
@@ -313,7 +313,7 @@ export default function CareerPlanPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">キャリアの方向性をプロに相談しよう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、業界動向や年収相場を踏まえて中長期のキャリアプランを一緒に整理してくれます。今すぐの転職を前提としない相談も可能です。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -329,7 +329,7 @@ export default function CareerPlanPage() {
               { name: "継続的な学習の進め方", href: "/knowledge/continuous-learning/" },
               { name: "40代エンジニア転職のリアル", href: "/knowledge/40s-reality/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

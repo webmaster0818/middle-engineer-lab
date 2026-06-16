@@ -114,7 +114,7 @@ export default function ITPassportCertPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -125,7 +125,7 @@ export default function ITPassportCertPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ITパスポートは誰に効くか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               ITパスポートは<strong>「ITの共通言語を身につける入口資格」</strong>です。エンジニアの技術証明には向きませんが、<strong>ITを扱う立場・発注する立場の人がITリテラシーを示す</strong>のには有効です。誰に効くかをはっきり分けると次のとおりです。
             </p>
@@ -171,7 +171,7 @@ export default function ITPassportCertPage() {
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            ですから、すでにエンジニアとして手を動かしている人が「転職を有利にするため」だけにITパスポートを取るのは、費用対効果の面でおすすめしません。エンジニアとしての評価を上げたいなら、まず<Link href="/cert/basic-info/" className="text-blue-600 hover:underline">基本情報技術者</Link>、さらに<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>へ進むのが本道です。資格全体の位置づけは<Link href="/cert/" className="text-blue-600 hover:underline">エンジニアの資格比較</Link>でご確認ください。
+            ですから、すでにエンジニアとして手を動かしている人が「転職を有利にするため」だけにITパスポートを取るのは、費用対効果の面でおすすめしません。エンジニアとしての評価を上げたいなら、まず<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>、さらに<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>へ進むのが本道です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>でご確認ください。
           </p>
         </section>
 
@@ -195,7 +195,7 @@ export default function ITPassportCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            異業種からIT分野への挑戦を考えている方は<Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのIT転職</Link>、学び直しの全体像は<Link href="/knowledge/reskilling/" className="text-blue-600 hover:underline">学び直し・リスキリング</Link>も参考にしてください。
+            異業種からIT分野への挑戦を考えている方は<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのIT転職</Link>、学び直しの全体像は<Link href="/knowledge/reskilling/" className="text-petrol hover:underline">学び直し・リスキリング</Link>も参考にしてください。
           </p>
         </section>
 
@@ -231,7 +231,7 @@ export default function ITPassportCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            次の一歩は<Link href="/cert/basic-info/" className="text-blue-600 hover:underline">基本情報技術者</Link>です。そこから<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>、さらに目的に応じて高度試験へ進みます。クラウドやインフラ志向なら<Link href="/cert/aws/" className="text-blue-600 hover:underline">AWS認定</Link>・<Link href="/cert/ccna/" className="text-blue-600 hover:underline">CCNA</Link>などベンダー資格との組み合わせも有効です。
+            次の一歩は<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>です。そこから<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>、さらに目的に応じて高度試験へ進みます。クラウドやインフラ志向なら<Link href="/cert/aws/" className="text-petrol hover:underline">AWS認定</Link>・<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>などベンダー資格との組み合わせも有効です。
           </p>
         </section>
 
@@ -246,7 +246,7 @@ export default function ITPassportCertPage() {
               逆に、エンジニアとしてのキャリアを真剣に伸ばしたい30〜40代であれば、ITパスポートは<strong>通過点に過ぎない</strong>と割り切るべきです。基本情報、応用情報、そして高度試験や専門資格へと進むことで初めて、転職市場で評価される「実務 × 資格」のストーリーが完成します。資格に時間を使うなら、自分の立場と目的に合った段階を選ぶことが何より大切です。
             </p>
             <p>
-              年代別の市場感は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
+              年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
             </p>
           </div>
         </section>
@@ -261,7 +261,7 @@ export default function ITPassportCertPage() {
               { n: "STEP 3", t: "止まらず上位資格へ", d: "エンジニア志望なら基本情報→応用情報へ。立場により高度試験・専門資格へ展開する。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="text-xs font-bold text-blue-600 shrink-0 w-14 pt-1">{x.n}</span>
+                <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
                   <p className="text-sm text-slate-600">{x.d}</p>
@@ -270,7 +270,7 @@ export default function ITPassportCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            次に狙うべきは<Link href="/cert/basic-info/" className="text-blue-600 hover:underline">基本情報技術者</Link>、その先は<Link href="/cert/applied-info/" className="text-blue-600 hover:underline">応用情報技術者</Link>です。資格全体の比較は<Link href="/cert/" className="text-blue-600 hover:underline">エンジニアの資格比較</Link>、学び直しの進め方は<Link href="/knowledge/reskilling/" className="text-blue-600 hover:underline">学び直し・リスキリング</Link>をご覧ください。
+            次に狙うべきは<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>、その先は<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>です。資格全体の比較は<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>、学び直しの進め方は<Link href="/knowledge/reskilling/" className="text-petrol hover:underline">学び直し・リスキリング</Link>をご覧ください。
           </p>
         </section>
 
@@ -298,7 +298,7 @@ export default function ITPassportCertPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -318,7 +318,7 @@ export default function ITPassportCertPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

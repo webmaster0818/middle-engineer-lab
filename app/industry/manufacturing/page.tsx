@@ -158,7 +158,7 @@ export default function ManufacturingPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -169,7 +169,7 @@ export default function ManufacturingPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：製造業・組み込み経験はIT転職で武器になる</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               製造業からのIT転職は現実的です。鍵は「現場の業務知識」と「低レイヤーの実装経験」を、IT側の文脈に翻訳して示せるかどうかにあります。
             </p>
@@ -233,22 +233,22 @@ export default function ManufacturingPage() {
             組み込み・制御の経験は、IT転職において「捨てる経歴」ではなく「希少な専門性」です。活かし方は大きく分けて2方向あります。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">方向①：専門性を深める（車載・FA・IoT・エッジ）</h3>
-              <p className="text-sm text-blue-700">C/C++、RTOS、ハードウェア制御の経験をそのまま活かし、車載ソフトウェア、ファクトリーオートメーション、IoT/エッジ機器の開発へ。低レイヤーを扱える人材は慢性的に不足しており、専門性で勝負できる。</p>
+              <p className="text-sm text-petrol-deep">C/C++、RTOS、ハードウェア制御の経験をそのまま活かし、車載ソフトウェア、ファクトリーオートメーション、IoT/エッジ機器の開発へ。低レイヤーを扱える人材は慢性的に不足しており、専門性で勝負できる。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">方向②：上位レイヤーへ広げる（クラウド・データ）</h3>
-              <p className="text-sm text-blue-700">デバイスから上がってくるデータを収集・蓄積・可視化するクラウド側へ。組み込みで培ったハードウェア理解は、IoTシステム全体の設計やパフォーマンス最適化で強みになる。PythonやクラウドのキャッチアップでWeb/データ領域にも広げられる。</p>
+              <p className="text-sm text-petrol-deep">デバイスから上がってくるデータを収集・蓄積・可視化するクラウド側へ。組み込みで培ったハードウェア理解は、IoTシステム全体の設計やパフォーマンス最適化で強みになる。PythonやクラウドのキャッチアップでWeb/データ領域にも広げられる。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             組み込み軸でのキャリアは
-            <Link href="/skill/embedded/" className="text-blue-600 hover:underline">組み込みエンジニアの転職ガイド</Link>
+            <Link href="/skill/embedded/" className="text-petrol hover:underline">組み込みエンジニアの転職ガイド</Link>
             、データ・クラウド側へ広げるなら
-            <Link href="/skill/python/" className="text-blue-600 hover:underline">Python転職ガイド</Link>
+            <Link href="/skill/python/" className="text-petrol hover:underline">Python転職ガイド</Link>
             ・
-            <Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS転職ガイド</Link>
+            <Link href="/skill/aws/" className="text-petrol hover:underline">AWS転職ガイド</Link>
             も参考にしてください。
           </p>
         </section>
@@ -302,7 +302,7 @@ export default function ManufacturingPage() {
                 ].map(([label, val], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{label}</td>
-                    <td className="px-4 py-3 text-blue-600 font-medium border-b border-slate-200 whitespace-nowrap">{val}</td>
+                    <td className="px-4 py-3 text-petrol font-medium border-b border-slate-200 whitespace-nowrap">{val}</td>
                   </tr>
                 ))}
               </tbody>
@@ -313,7 +313,7 @@ export default function ManufacturingPage() {
           </p>
           <p className="text-slate-600 leading-relaxed">
             年収の詳しい考え方は
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">エンジニア転職で年収は上がる？</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">エンジニア転職で年収は上がる？</Link>
             を参考にしてください。
           </p>
         </section>
@@ -334,7 +334,7 @@ export default function ManufacturingPage() {
                     <Link
                       key={j}
                       href={l.href}
-                      className="text-xs font-medium text-blue-600 border border-blue-200 rounded-full px-3 py-1 hover:bg-blue-50"
+                      className="text-xs font-medium text-petrol border border-[var(--line)] rounded-full px-3 py-1 hover:bg-petrol-soft"
                     >
                       {l.name} →
                     </Link>
@@ -356,7 +356,7 @@ export default function ManufacturingPage() {
               { step: "4", title: "転職エージェントに登録", desc: "異業種転職に対応するワークポート、求人数が多いdoda（IT特化）などに登録。組み込み・制御系は専門に強いエージェントを併用し、市場価値を確認する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.step}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -373,20 +373,20 @@ export default function ManufacturingPage() {
             ミドル層の製造業出身者は、若手と同じ「未経験Web職」を狙うより、これまでの業界知識・専門性を活かせるポジションを選ぶ方が成功率が高まります。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：専門性×ITで選択肢を広げる</h3>
-              <p className="text-sm text-blue-700">組み込み・制御の専門性を深める道と、製造DX・IoTでIT側に広げる道の両方が現実的。基礎学習を前倒しすれば、ポテンシャルと専門性の両面で評価されやすい。</p>
+              <p className="text-sm text-petrol-deep">組み込み・制御の専門性を深める道と、製造DX・IoTでIT側に広げる道の両方が現実的。基礎学習を前倒しすれば、ポテンシャルと専門性の両面で評価されやすい。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：業界知識とリーダー経験で勝負</h3>
-              <p className="text-sm text-blue-700">DX推進・要件定義・プリセールス・PMなど、現場理解とマネジメントが活きる領域が中心。求人は絞られるため、非公開求人を持つエージェントの活用が鍵になる。</p>
+              <p className="text-sm text-petrol-deep">DX推進・要件定義・プリセールス・PMなど、現場理解とマネジメントが活きる領域が中心。求人は絞られるため、非公開求人を持つエージェントの活用が鍵になる。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             年代別の戦略は
-            <Link href="/age/30s/" className="text-blue-600 hover:underline">30代エンジニアの転職ガイド</Link>
+            <Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職ガイド</Link>
             ・
-            <Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職ガイド</Link>
+            <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職ガイド</Link>
             を参考にしてください。
           </p>
         </section>
@@ -411,7 +411,7 @@ export default function ManufacturingPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">製造業・組み込みの経験をIT業界で活かそう</h2>
           <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、あなたの市場価値と狙える求人を確認しましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -430,7 +430,7 @@ export default function ManufacturingPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

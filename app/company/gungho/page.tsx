@@ -107,7 +107,7 @@ export default function GungHoCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               ガンホーは<strong>パズドラ等の長期運用タイトルを、Unity/C#のモバイル開発と大規模サーバーサイドで支える企業</strong>です。新規開発だけでなく運用・負荷対策の比重が高いのが特徴です。有報の平均年収は単体全社員平均で750万円（2024年12月期）と、コンシューマ大手と比べると中位の水準です。
@@ -125,7 +125,7 @@ export default function GungHoCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -151,17 +151,17 @@ export default function GungHoCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">長期運用タイトルの開発・運営</h3>
-              <p className="text-sm text-blue-700">主力のパズドラは長期にわたり運営されるタイトルで、新規機能開発だけでなく安定運用・負荷対策の比重が高いのが特徴です。公式の社員紹介でも、日本・北米・香港/台湾・韓国・欧州版など各地域版のサーバーサイドを担う事例が紹介されています。</p>
+              <p className="text-sm text-petrol-deep">主力のパズドラは長期にわたり運営されるタイトルで、新規機能開発だけでなく安定運用・負荷対策の比重が高いのが特徴です。公式の社員紹介でも、日本・北米・香港/台湾・韓国・欧州版など各地域版のサーバーサイドを担う事例が紹介されています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Unity/C#中心のモバイル開発</h3>
-              <p className="text-sm text-blue-700">スマートフォンタイトルではC#を用いたUnityなどの開発ミドルウェアでの開発が中心です。ゲームプログラマーはUnityでのC/C++/C#による開発経験が求められ、iOS（Objective-C/Swift）、Android（Java）の経験が歓迎されます。</p>
+              <p className="text-sm text-petrol-deep">スマートフォンタイトルではC#を用いたUnityなどの開発ミドルウェアでの開発が中心です。ゲームプログラマーはUnityでのC/C++/C#による開発経験が求められ、iOS（Objective-C/Swift）、Android（Java）の経験が歓迎されます。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">部門別の募集</h3>
-              <p className="text-sm text-blue-700">公式採用情報では、ゲーム開発部門、ゲーム運営部門、マーケティング部門、システム部門などに分かれて募集が行われています。自分の志向に合った部門・役割を選びやすい構造です。</p>
+              <p className="text-sm text-petrol-deep">公式採用情報では、ゲーム開発部門、ゲーム運営部門、マーケティング部門、システム部門などに分かれて募集が行われています。自分の志向に合った部門・役割を選びやすい構造です。</p>
             </div>
           </div>
         </section>
@@ -173,11 +173,11 @@ export default function GungHoCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>モバイルクライアント</strong>：Unity、C#（C/C++も）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>iOS</strong>：Objective-C、Swift（歓迎）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Android</strong>：Java（歓迎）</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>サーバーサイド</strong>：大規模ゲームの開発・運用、負荷低減</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>職種例</strong>：ゲームプログラマー、サーバーエンジニア、システム部門 ほか</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>モバイルクライアント</strong>：Unity、C#（C/C++も）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>iOS</strong>：Objective-C、Swift（歓迎）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Android</strong>：Java（歓迎）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>サーバーサイド</strong>：大規模ゲームの開発・運用、負荷低減</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>職種例</strong>：ゲームプログラマー、サーバーエンジニア、システム部門 ほか</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: ガンホー公式 採用ページ／社員紹介（2026年6月時点）。配属タイトル・職種により使用技術は異なります。</p>
@@ -215,7 +215,7 @@ export default function GungHoCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            一般的な中途採用の流れをまとめます。最新かつ職種別の詳細は<a href="https://www.gungho.co.jp/jp/recruit/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">ガンホー公式採用ページ</a>でご確認ください。
+            一般的な中途採用の流れをまとめます。最新かつ職種別の詳細は<a href="https://www.gungho.co.jp/jp/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">ガンホー公式採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考（職務経歴書・ポートフォリオ等）</li>
@@ -232,12 +232,12 @@ export default function GungHoCompanyPage() {
             公式が示す要件から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>UnityでのC/C++/C#による開発力（モバイル）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>サーバーサイド職は大規模サービスの開発・運用・負荷対策の経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>iOS（Objective-C/Swift）・Android（Java）の経験（歓迎）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>これまでの開発実績・ポートフォリオ</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>UnityでのC/C++/C#による開発力（モバイル）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>サーバーサイド職は大規模サービスの開発・運用・負荷対策の経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>iOS（Objective-C/Swift）・Android（Java）の経験（歓迎）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>これまでの開発実績・ポートフォリオ</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -250,7 +250,7 @@ export default function GungHoCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。ガンホーの単体全社員平均（750万円）はこれを上回りますが、これは全社平均で、入社時の提示は等級・ポジション次第です。30代・40代は「自分が当てはまる水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              <Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。Unity・C#まわりのスキル整理は<Link href="/skill/unity/" className="text-blue-600 hover:underline">Unityエンジニアの市場価値</Link>や<Link href="/skill/csharp/" className="text-blue-600 hover:underline">C#エンジニアの市場価値</Link>も参考になります。
+              <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。Unity・C#まわりのスキル整理は<Link href="/skill/unity/" className="text-petrol hover:underline">Unityエンジニアの市場価値</Link>や<Link href="/skill/csharp/" className="text-petrol hover:underline">C#エンジニアの市場価値</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -263,13 +263,13 @@ export default function GungHoCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。ゲーム業界の実務経験者への提案に強い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -290,7 +290,7 @@ export default function GungHoCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ガンホーへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">ゲーム業界の転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/geekly/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/geekly/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -304,7 +304,7 @@ export default function GungHoCompanyPage() {
               { name: "C#エンジニアの市場価値", href: "/skill/csharp/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

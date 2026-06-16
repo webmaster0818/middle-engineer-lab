@@ -100,7 +100,7 @@ export default function PreferredNetworksCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               PFNは<strong>深層学習・AI半導体（MN-Core）・基盤モデル（PLaMo）を一貫して手がける、高度専門特化のAI企業</strong>です。求められる専門性の水準は高く、難易度も高めです。<strong>非上場のため平均年収は公式に非開示</strong>であり、当ガイドでは年収額を創作・断定しません。研究実績や深い実装力を持つミドルエンジニア・リサーチャーにとって挑戦しうるフィールドです。
@@ -118,7 +118,7 @@ export default function PreferredNetworksCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -144,17 +144,17 @@ export default function PreferredNetworksCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア・リサーチャー採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">AI半導体からソフトウェアまで一貫開発</h3>
-              <p className="text-sm text-blue-700">PFNはAI半導体「MN-Core」シリーズの開発から、その上で動くソフトウェア（PyTorch対応含む）、基盤モデルまでを一貫して手がけています。ハードウェアとソフトウェアの境界を越えて、深層学習の計算基盤そのものを作る点が大きな特徴です。</p>
+              <p className="text-sm text-petrol-deep">PFNはAI半導体「MN-Core」シリーズの開発から、その上で動くソフトウェア（PyTorch対応含む）、基盤モデルまでを一貫して手がけています。ハードウェアとソフトウェアの境界を越えて、深層学習の計算基盤そのものを作る点が大きな特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">基盤モデル・各産業へのAI応用</h3>
-              <p className="text-sm text-blue-700">独自の大規模言語モデル「PLaMo」をはじめとする基盤モデルの開発に加え、製造・素材・創薬・ヘルスケア・小売・エンタメ・教育など多様な産業へAIを応用しています。研究と実応用の両面に関わる機会がある点が特徴です。</p>
+              <p className="text-sm text-petrol-deep">独自の大規模言語モデル「PLaMo」をはじめとする基盤モデルの開発に加え、製造・素材・創薬・ヘルスケア・小売・エンタメ・教育など多様な産業へAIを応用しています。研究と実応用の両面に関わる機会がある点が特徴です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">高い専門性が問われる採用</h3>
-              <p className="text-sm text-blue-700">PFNはキャリア採用（第二新卒含む）・新卒採用・インターンを実施し、エンジニア・リサーチャーを募集しています。深層学習・基盤モデル・AI半導体・コンピュータビジョンなど高度な領域が中心で、研究実績や深い実装力が評価されやすいと考えられます。</p>
+              <p className="text-sm text-petrol-deep">PFNはキャリア採用（第二新卒含む）・新卒採用・インターンを実施し、エンジニア・リサーチャーを募集しています。深層学習・基盤モデル・AI半導体・コンピュータビジョンなど高度な領域が中心で、研究実績や深い実装力が評価されやすいと考えられます。</p>
             </div>
           </div>
         </section>
@@ -166,11 +166,11 @@ export default function PreferredNetworksCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>基盤モデル・大規模言語モデル（LLM）</strong>：独自LLM「PLaMo」をはじめとする生成AI向け基盤モデルの研究開発</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>AI半導体「MN-Core」</strong>：深層学習向けプロセッサの開発、PyTorch対応の推進</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>コンピュータビジョン</strong>：3次元環境の解析・再構成などの研究</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>科学・産業応用</strong>：材料物性予測のための深層学習と数値計算の融合、オミックス解析・医用画像解析・創薬などへのAI応用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>技術スタック</strong>：研究開発基盤はPyTorchに移行。Python・C++が中核と考えられる（具体的な内製ツール等の統一一覧は公開範囲が限られるため、各募集要項で確認）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>基盤モデル・大規模言語モデル（LLM）</strong>：独自LLM「PLaMo」をはじめとする生成AI向け基盤モデルの研究開発</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI半導体「MN-Core」</strong>：深層学習向けプロセッサの開発、PyTorch対応の推進</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>コンピュータビジョン</strong>：3次元環境の解析・再構成などの研究</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>科学・産業応用</strong>：材料物性予測のための深層学習と数値計算の融合、オミックス解析・医用画像解析・創薬などへのAI応用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>技術スタック</strong>：研究開発基盤はPyTorchに移行。Python・C++が中核と考えられる（具体的な内製ツール等の統一一覧は公開範囲が限られるため、各募集要項で確認）</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: PFN公式 研究開発ページ、PyTorch移行に関する公式発表。具体的な開発言語・内製ツールの網羅的な統一一覧は公開範囲が限られるため、推測の言語表は掲載していません。</p>
@@ -191,8 +191,8 @@ export default function PreferredNetworksCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フローについて</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
-            <p>PFNは中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接（職種により技術課題・研究内容の議論等を含む場合がある）が想定されますが、回数・内容・所要期間は募集職種により変動します。最新の内容は<a href="https://www.preferred.jp/ja/careers/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式採用サイト</a>でご確認ください。</p>
-            <p>具体的な面接質問リストも公式には公開されておらず、当ガイドでは<strong>出典のない面接質問は掲載していません</strong>。応募時には、各募集要項で求められる専門性・選考プロセスを直接確認することをおすすめします。技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>も参考にしてください。</p>
+            <p>PFNは中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接（職種により技術課題・研究内容の議論等を含む場合がある）が想定されますが、回数・内容・所要期間は募集職種により変動します。最新の内容は<a href="https://www.preferred.jp/ja/careers/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式採用サイト</a>でご確認ください。</p>
+            <p>具体的な面接質問リストも公式には公開されておらず、当ガイドでは<strong>出典のない面接質問は掲載していません</strong>。応募時には、各募集要項で求められる専門性・選考プロセスを直接確認することをおすすめします。技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -202,10 +202,10 @@ export default function PreferredNetworksCompanyPage() {
             公開されている研究領域・採用情報から、評価されうる観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>深層学習・基盤モデル・コンピュータビジョン・AI半導体など、配属領域に合致する深い専門性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>研究実績（論文・学会・OSSコントリビューション等）や高度な実装力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>研究と実応用をつなぐ姿勢・課題解決力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>新しい技術・領域へ継続的に学び挑戦する意欲</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>深層学習・基盤モデル・コンピュータビジョン・AI半導体など、配属領域に合致する深い専門性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>研究実績（論文・学会・OSSコントリビューション等）や高度な実装力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>研究と実応用をつなぐ姿勢・課題解決力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>新しい技術・領域へ継続的に学び挑戦する意欲</li>
           </ul>
         </section>
 
@@ -219,7 +219,7 @@ export default function PreferredNetworksCompanyPage() {
               年収面は前述の通り非上場・非開示のため、参考値の提示にとどめます。レバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円ですが、これはPFNの提示額を示すものではありません。深層学習・AI半導体といった希少領域は市場価値が高い傾向にあるものの、実際の提示は職種・専門性・実績次第のため、面談で個別に確認することが重要です。
             </p>
             <p>
-              関連領域として<Link href="/skill/ai-ml/" className="text-blue-600 hover:underline">AI・機械学習エンジニアの転職</Link>や<Link href="/skill/python/" className="text-blue-600 hover:underline">Pythonエンジニアの転職</Link>、<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>、<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職事情</Link>も合わせて参考にしてください。
+              関連領域として<Link href="/skill/ai-ml/" className="text-petrol hover:underline">AI・機械学習エンジニアの転職</Link>や<Link href="/skill/python/" className="text-petrol hover:underline">Pythonエンジニアの転職</Link>、<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職事情</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -232,13 +232,13 @@ export default function PreferredNetworksCompanyPage() {
               { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。AI・研究開発の高度専門ポジションのスカウトが届きやすい。" },
               { name: "Findy", href: "/review/findy/", desc: "スキル偏差値で実力を可視化。先進的なテック企業・AI領域に強い。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">特定企業の求人保有状況は時期により変動します。複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">特定企業の求人保有状況は時期により変動します。複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -259,7 +259,7 @@ export default function PreferredNetworksCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">PFNへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">AI・深層学習領域の求人に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -273,7 +273,7 @@ export default function PreferredNetworksCompanyPage() {
               { name: "生成AI時代のエンジニアキャリア", href: "/knowledge/generative-ai-era/" },
               { name: "30代エンジニアの転職事情", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

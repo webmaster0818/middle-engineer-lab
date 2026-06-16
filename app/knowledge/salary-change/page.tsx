@@ -157,7 +157,7 @@ export default function SalaryChangePage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -168,7 +168,7 @@ export default function SalaryChangePage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職で年収は上がるのか</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               パーソルキャリア（doda）の2024年度「決定年収レポート」（2025年5月公表）によると、<strong>転職者の約6割が年収アップ</strong>を実現しています。IT・通信の平均決定年収は<strong>469万円（2023年度）→486万円（2024年度）</strong>へ上昇しました。データ上、転職は年収アップの有力な手段といえます。
             </p>
@@ -203,7 +203,7 @@ export default function SalaryChangePage() {
                 ].map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-4 py-3 border border-slate-200 font-medium text-slate-700">{row[0]}</td>
-                    <td className="px-4 py-3 border border-slate-200 font-bold text-blue-600">{row[1]}</td>
+                    <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">{row[1]}</td>
                     <td className="px-4 py-3 border border-slate-200 text-xs text-slate-500">{row[2]}</td>
                   </tr>
                 ))}
@@ -220,17 +220,17 @@ export default function SalaryChangePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収アップを実現する人の特徴</h2>
           <div className="space-y-4">
             {upFeatures.map((f, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {f.title}</h3>
-                <p className="text-sm text-blue-700 leading-relaxed">{f.desc}</p>
+                <p className="text-sm text-petrol-deep leading-relaxed">{f.desc}</p>
               </div>
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             自分の市場価値を把握するには
-            <Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>
+            <Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>
             、複数社を比較するには
-            <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェントの併用</Link>
+            <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェントの併用</Link>
             が参考になります。
           </p>
         </section>
@@ -243,7 +243,7 @@ export default function SalaryChangePage() {
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2">{item.case_name}</h3>
                 <p className="text-sm text-slate-600 mb-2 leading-relaxed">{item.desc}</p>
-                <p className="text-xs text-blue-600 font-medium">対策: {item.advice}</p>
+                <p className="text-xs text-petrol font-medium">対策: {item.advice}</p>
               </div>
             ))}
           </div>
@@ -259,7 +259,7 @@ export default function SalaryChangePage() {
             <ul className="space-y-3">
               {checklist.map((item, i) => (
                 <li key={i} className="flex gap-3 text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>
+                  <span className="text-petrol font-bold shrink-0">✓</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -271,15 +271,15 @@ export default function SalaryChangePage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の年収変動の考え方</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：伸びしろを最大化する</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 レバテック公表値で30代平均約499万円→40代約618万円と、平均が大きく伸びる年代です。30代の転職は『次の10年の年収カーブを決める』意味を持ちます。需要の高いスキルと数値で語れる実績をそろえ、年収アップの確度を高めましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：維持も成功と捉える</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は専門性や役職の有無で個人差が大きく開きます（年収1,000万円以上が40代で12.67%）。年収を大きく上げることだけが成功ではなく、『下げずに維持しつつ、より良い環境に移る』ことも現実的な目標です。役職に依存しない実力ベースの市場価値を把握することが重要になります。
               </p>
             </div>
@@ -310,7 +310,7 @@ export default function SalaryChangePage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -330,7 +330,7 @@ export default function SalaryChangePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

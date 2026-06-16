@@ -57,14 +57,14 @@ export default function UIUXPage() {
         {/* 目次 */}
         <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-blue-700">
+          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-petrol-deep">
             {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="hover:underline">{t.label}</a></li>))}
           </ol>
         </nav>
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：フロントエンドの「隣」へ広げる現実的な拡張</h2>
             <ul className="text-sm text-blue-900 space-y-2 leading-relaxed">
               <li>・必要なのは<strong>絵を描く力ではなく、デザインの意図を理解し高品質に実装し、仕組み化する力</strong>。デザイナーになる必要はない。</li>
@@ -143,13 +143,13 @@ export default function UIUXPage() {
               { num: "5", title: "ポートフォリオにまとめて転職活動", desc: "成果物を動くデモ＋コード＋設計意図の説明としてまとめ、デザイン知見のあるフロントエンド／デザインエンジニア求人に応募する。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600">{item.desc}</p></div>
               </div>
             ))}
           </div>
           <p className="text-slate-600 text-sm mt-4">
-            学習を継続する仕組みづくりは<Link href="/knowledge/continuous-learning/" className="text-blue-600 hover:underline">学び続ける技術（学習戦略）</Link>を参照してください。
+            学習を継続する仕組みづくりは<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">学び続ける技術（学習戦略）</Link>を参照してください。
           </p>
         </section>
 
@@ -170,7 +170,7 @@ export default function UIUXPage() {
             </ul>
           </div>
           <p className="text-slate-600 text-sm">
-            動くデモ（デプロイ済み）とコード（GitHub）の両方を見せられると説得力が増します。ポートフォリオ全般の作り方は<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオ作成ガイド</Link>もあわせてどうぞ。
+            動くデモ（デプロイ済み）とコード（GitHub）の両方を見せられると説得力が増します。ポートフォリオ全般の作り方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオ作成ガイド</Link>もあわせてどうぞ。
           </p>
         </section>
 
@@ -199,7 +199,7 @@ export default function UIUXPage() {
             </div>
           </div>
           <p className="text-slate-600 text-sm mt-4">
-            職務経歴書の全体構成は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">エンジニアの職務経歴書の書き方</Link>を参照してください。
+            職務経歴書の全体構成は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書の書き方</Link>を参照してください。
           </p>
         </section>
 
@@ -214,7 +214,7 @@ export default function UIUXPage() {
               特にデザインシステムの設計・運用は、複数プロジェクトを横断した経験や「組織全体の効率を考える」視点が求められる領域で、<strong>経験豊富なミドルの強みが活きます</strong>。若手より「全体を設計できる人」として評価されやすい方向です。
             </p>
             <p>
-              一方で、年収は企業・スキルで差が大きいため、転身前に気になる求人の提示レンジを確認したり、エージェントに自分のスキルセットでの相場を聞くのが確実です。市場での自分の位置づけは<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>、キャリアの方向づけは<Link href="/knowledge/career-plan/" className="text-blue-600 hover:underline">キャリアプラン設計</Link>もあわせてご覧ください。
+              一方で、年収は企業・スキルで差が大きいため、転身前に気になる求人の提示レンジを確認したり、エージェントに自分のスキルセットでの相場を聞くのが確実です。市場での自分の位置づけは<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、キャリアの方向づけは<Link href="/knowledge/career-plan/" className="text-petrol hover:underline">キャリアプラン設計</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -259,7 +259,7 @@ export default function UIUXPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">キャリアチェンジの相談はプロに</h2>
           <p className="text-blue-100 text-sm mb-4">IT/Web自社開発に強いエージェントなら、デザイン領域に踏み込んだフロントエンド／デザインエンジニア求人を紹介してもらえます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -273,7 +273,7 @@ export default function UIUXPage() {
               { name: "市場価値の調べ方", href: "/knowledge/market-value/" },
               { name: "セカンドキャリアとしてのエンジニア転職", href: "/knowledge/second-career/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

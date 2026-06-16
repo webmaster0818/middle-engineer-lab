@@ -125,7 +125,7 @@ export default function ReviewIndexPage() {
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -140,7 +140,7 @@ export default function ReviewIndexPage() {
                 <Link
                   key={it.slug}
                   href={`/review/${it.slug}/`}
-                  className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                  className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"
                 >
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{it.name} の評判 →</h3>
                   <p className="text-xs text-slate-500 leading-relaxed">{it.desc}</p>
@@ -161,7 +161,7 @@ export default function ReviewIndexPage() {
               { href: "/knowledge/multiple-agents/", label: "複数エージェントの併用術" },
               { href: "/knowledge/scout/", label: "スカウトの活用法" },
             ].map((l) => (
-              <Link key={l.href} href={l.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={l.href} href={l.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {l.label} →
               </Link>
             ))}

@@ -169,7 +169,7 @@ export default function SalaryDownPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -180,7 +180,7 @@ export default function SalaryDownPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収ダウンを判断する基本軸</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収ダウンを判断する基本は、<strong>「下がる理由と回復シナリオが説明でき」「生活が成り立つ範囲で」「年収以外に得られる将来価値が下げ幅に見合う」</strong>かどうか。目先の差額ではなく、生涯年収と生活の両面で考えるのが鉄則です。
             </p>
@@ -246,7 +246,7 @@ export default function SalaryDownPage() {
               { num: "4", title: "年収以外の資産も加味する", desc: "得られるスキル・経験・健康・裁量など、金額に表れない価値も判断材料に加えます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -258,9 +258,9 @@ export default function SalaryDownPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             年収の上下の全体像は
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">転職で年収は上がる？下がる？</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">転職で年収は上がる？下がる？</Link>
             、相場の確認は
-            <Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>
+            <Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>
             を参照してください。
           </p>
         </section>
@@ -272,7 +272,7 @@ export default function SalaryDownPage() {
             <ul className="space-y-3">
               {checklist.map((item, i) => (
                 <li key={i} className="flex gap-3 items-start text-sm text-slate-700">
-                  <span className="text-blue-600 font-bold shrink-0">☐</span>
+                  <span className="text-petrol font-bold shrink-0">☐</span>
                   <span className="leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -284,15 +284,15 @@ export default function SalaryDownPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代での判断の注意点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：将来性への投資として捉えやすい</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 30代はまだ年収の伸びしろが大きく、一時的なダウンを将来の上げで回収しやすい年代です。成長領域への移行やキャリアチェンジなら、下げを投資と捉える判断が生涯年収で有利に働くことがあります。ただし回復シナリオの根拠は必ず確認しましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：生活基盤への影響を最優先で見る</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は住宅ローンや教育費など固定費の負担が大きく、年収ダウンの生活への影響をより慎重に見る必要があります。回復までの期間が長くなりがちな点も踏まえ、生活の最低ラインを死守しつつ、裁量や将来性が下げ幅に見合うかを冷静に判断しましょう。
               </p>
             </div>
@@ -323,7 +323,7 @@ export default function SalaryDownPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -343,7 +343,7 @@ export default function SalaryDownPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

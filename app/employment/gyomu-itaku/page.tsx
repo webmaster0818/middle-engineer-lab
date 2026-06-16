@@ -114,7 +114,7 @@ export default function GyomuItakuPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          業務委託は、エンジニアが「事業主」として仕事を受ける<strong>契約の形態</strong>を指す言葉です。実態は準委任契約か請負契約のいずれかで、どちらかによって負う責任が変わります。本記事では、業務委託の正確な定義、準委任と請負の違い、よく混同される「フリーランス」との違い、社会保険・税の仕組み、エンジニア側・企業側のメリットデメリット、そして偽装請負や2024年の法改正の注意点までを、出典付きで整理します。単価相場や手取りの試算は、より実務寄りの<Link href="/employment/contractor/" className="text-blue-600 hover:underline">業務委託（単価・手取り）の記事</Link>もあわせてご覧ください。
+          業務委託は、エンジニアが「事業主」として仕事を受ける<strong>契約の形態</strong>を指す言葉です。実態は準委任契約か請負契約のいずれかで、どちらかによって負う責任が変わります。本記事では、業務委託の正確な定義、準委任と請負の違い、よく混同される「フリーランス」との違い、社会保険・税の仕組み、エンジニア側・企業側のメリットデメリット、そして偽装請負や2024年の法改正の注意点までを、出典付きで整理します。単価相場や手取りの試算は、より実務寄りの<Link href="/employment/contractor/" className="text-petrol hover:underline">業務委託（単価・手取り）の記事</Link>もあわせてご覧ください。
         </p>
 
         <DataNote
@@ -128,15 +128,15 @@ export default function GyomuItakuPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：業務委託は「契約形態」。準委任か請負かで責任が変わる</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               業務委託は雇用ではなく、事業主として結ぶ契約です。準委任なら「業務の遂行」に、請負なら「仕事の完成」に責任を負い、後者は完成義務・契約不適合責任まで負います。社会保険・税は自己負担で、単価が高くても手取りは額面ほど増えません。契約の種類と責任範囲を理解したうえで、事業主としての設計を整えて選ぶのが安全です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">1.</span>「業務委託＝契約形態」「フリーランス＝独立した働き方」で、指す対象が異なる。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">2.</span>準委任は遂行責任、請負は完成責任。常駐型は準委任、一括受託は請負が多い。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">3.</span>2024年のフリーランス新法・労災特別加入で、保護が一部前進した。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>「業務委託＝契約形態」「フリーランス＝独立した働き方」で、指す対象が異なる。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>準委任は遂行責任、請負は完成責任。常駐型は準委任、一括受託は請負が多い。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2024年のフリーランス新法・労災特別加入で、保護が一部前進した。</li>
             </ul>
           </div>
         </section>
@@ -147,7 +147,7 @@ export default function GyomuItakuPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ol>
@@ -160,7 +160,7 @@ export default function GyomuItakuPage() {
             「業務委託契約」という名称の法律用語は厳密には存在せず、実態は<strong>準委任契約</strong>（業務の遂行に対して報酬が支払われる）か<strong>請負契約</strong>（仕事の完成に対して報酬が支払われる）のいずれかです。いずれも民法上の契約で、労働契約ではありません。そのため、業務委託エンジニアは法律上「労働者」ではなく「事業主（個人事業主または法人）」として扱われます。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            この違いから、社会保険は国民健康保険・国民年金が基本、雇用保険なし、所得税は確定申告という構造が生まれます。雇用形態全体の中での位置づけは<Link href="/employment/" className="text-blue-600 hover:underline">エンジニアの雇用形態の違い</Link>で横断的に整理しています。
+            この違いから、社会保険は国民健康保険・国民年金が基本、雇用保険なし、所得税は確定申告という構造が生まれます。雇用形態全体の中での位置づけは<Link href="/employment/" className="text-petrol hover:underline">エンジニアの雇用形態の違い</Link>で横断的に整理しています。
           </p>
         </section>
 
@@ -216,7 +216,7 @@ export default function GyomuItakuPage() {
             多くのフリーランスエンジニアは業務委託契約で案件を受けますが、関係は一対一ではありません。たとえば、副業の会社員が休日に業務委託契約を結ぶこともあれば、フリーランスが法人化して法人として業務委託を受けることもあります。つまり「フリーランスという働き方」を実現する手段の一つが「業務委託という契約」だ、と整理すると分かりやすいです。
           </p>
           <p className="text-slate-600 leading-relaxed text-sm">
-            働き方としてのフリーランスの実態・案件確保・向き不向きは<Link href="/employment/freelance/" className="text-blue-600 hover:underline">フリーランスエンジニア</Link>で、単価相場や手取り試算は<Link href="/employment/contractor/" className="text-blue-600 hover:underline">業務委託（単価・手取り）</Link>で詳しく解説しています。
+            働き方としてのフリーランスの実態・案件確保・向き不向きは<Link href="/employment/freelance/" className="text-petrol hover:underline">フリーランスエンジニア</Link>で、単価相場や手取り試算は<Link href="/employment/contractor/" className="text-petrol hover:underline">業務委託（単価・手取り）</Link>で詳しく解説しています。
           </p>
         </section>
 
@@ -236,7 +236,7 @@ export default function GyomuItakuPage() {
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            ※ 税・社会保険の具体的な金額は個別の状況で異なります。正確な試算は税理士・税務署・年金事務所にご確認ください。正社員との損得の並べ方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスvs正社員</Link>で解説しています。
+            ※ 税・社会保険の具体的な金額は個別の状況で異なります。正確な試算は税理士・税務署・年金事務所にご確認ください。正社員との損得の並べ方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員</Link>で解説しています。
           </p>
         </section>
 
@@ -296,7 +296,7 @@ export default function GyomuItakuPage() {
               契約は業務委託でも、実態として発注者が指揮命令している場合、偽装請負として労働者派遣法・労働基準法に抵触します。業務委託エンジニアは本来、発注者の指揮命令下に入りません。常駐案件では、勤怠の管理方法や指示の出され方が、契約の建付けと矛盾しないかを確認しましょう。
             </p>
           </div>
-          <div className="border border-blue-200 rounded-lg p-5 mb-4">
+          <div className="border border-[var(--line)] rounded-lg p-5 mb-4">
             <h3 className="font-bold text-blue-800 mb-2">2024年 フリーランス新法・労災特別加入</h3>
             <p className="text-sm text-slate-600 leading-relaxed">
               2024年施行のフリーランス新法（フリーランス・事業者間取引適正化等法）により、発注者には取引条件の明示や報酬支払期日の設定などが義務づけられました。あわせて2024年11月1日から、フリーランス・業務委託で働く人が労災保険に特別加入できるようになり、業務中・通勤中のケガや病気に任意で備えられます（出典：厚生労働省 特別加入制度ページ、フリーランス新法）。
@@ -311,13 +311,13 @@ export default function GyomuItakuPage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代が業務委託を選ぶときの視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">契約の種類で背負うリスクを見極める</h3>
-              <p className="text-sm text-blue-700">同じ「業務委託」でも、準委任と請負ではリスクが大きく異なります。30代・40代で家計の責任が重い場合、完成責任・契約不適合責任を負う請負より、遂行責任にとどまる準委任のほうが読みやすいことがあります。契約書のどちらかを必ず確認しましょう。</p>
+              <p className="text-sm text-petrol-deep">同じ「業務委託」でも、準委任と請負ではリスクが大きく異なります。30代・40代で家計の責任が重い場合、完成責任・契約不適合責任を負う請負より、遂行責任にとどまる準委任のほうが読みやすいことがあります。契約書のどちらかを必ず確認しましょう。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">信用・年金の長期設計を先に組む</h3>
-              <p className="text-sm text-blue-700">業務委託は社会的信用（住宅ローン等）や厚生年金の面で正社員に劣ります。住宅購入などの予定があるなら順序を設計し、iDeCo・国民年金基金・小規模企業共済などで自助の保障を組むことが、30代・40代では特に重要です。正社員に戻る道は<Link href="/career/freelance-to-permanent/" className="text-blue-600 hover:underline">フリーランスから正社員へ</Link>を参照してください。</p>
+              <p className="text-sm text-petrol-deep">業務委託は社会的信用（住宅ローン等）や厚生年金の面で正社員に劣ります。住宅購入などの予定があるなら順序を設計し、iDeCo・国民年金基金・小規模企業共済などで自助の保障を組むことが、30代・40代では特に重要です。正社員に戻る道は<Link href="/career/freelance-to-permanent/" className="text-petrol hover:underline">フリーランスから正社員へ</Link>を参照してください。</p>
             </div>
           </div>
         </section>
@@ -344,7 +344,7 @@ export default function GyomuItakuPage() {
           <p className="text-blue-100 text-sm mb-4">
             業務委託の単価・契約条件と、正社員としての提示年収・保障を並べて比較してから判断するのが安全です。
           </p>
-          <Link href="/compare/agents/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/compare/agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             IT転職エージェント比較を見る
           </Link>
         </section>
@@ -361,7 +361,7 @@ export default function GyomuItakuPage() {
               { name: "正社員エンジニア", href: "/employment/seishain/" },
               { name: "フリーランス向けエージェント比較", href: "/compare/freelance-agents/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

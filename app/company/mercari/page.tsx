@@ -112,7 +112,7 @@ export default function MercariCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               メルカリは<strong>Go/GCPベースのマイクロサービスを英語環境で開発する、グローバル志向のテック企業</strong>です。技術力に加えミッション・バリューへの共感が重視され、難易度は高めです。年収水準（全社員平均1,176万円）はWeb系の中でもトップクラスです。
@@ -130,7 +130,7 @@ export default function MercariCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -156,17 +156,17 @@ export default function MercariCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">英語が日常的に使われるグローバル開発環境</h3>
-              <p className="text-sm text-blue-700">公式採用情報によると、所属エンジニアの約半数が外国籍で、実際に英語で業務が行われています。海外からの転職者も在籍し、グローバルスタンダードの開発プロセスが整備されています。</p>
+              <p className="text-sm text-petrol-deep">公式採用情報によると、所属エンジニアの約半数が外国籍で、実際に英語で業務が行われています。海外からの転職者も在籍し、グローバルスタンダードの開発プロセスが整備されています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Go・GCPベースのマイクロサービス</h3>
-              <p className="text-sm text-blue-700">バックエンドはGo・Pythonを中心に、Docker・Kubernetes・GCP/AWSでマイクロサービスを運用しています（公式技術スタックページ）。サービスごとに最適な技術を選ぶ方針が示されています。</p>
+              <p className="text-sm text-petrol-deep">バックエンドはGo・Pythonを中心に、Docker・Kubernetes・GCP/AWSでマイクロサービスを運用しています（公式技術スタックページ）。サービスごとに最適な技術を選ぶ方針が示されています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミッション・バリュー重視の選考</h3>
-              <p className="text-sm text-blue-700">公式ブログによると、面接は「ミッションへの共感」「バリューの体現」「カルチャーフィット」を判断するために行われます。技術力だけでなくカルチャー適合が明確に評価軸に含まれています。</p>
+              <p className="text-sm text-petrol-deep">公式ブログによると、面接は「ミッションへの共感」「バリューの体現」「カルチャーフィット」を判断するために行われます。技術力だけでなくカルチャー適合が明確に評価軸に含まれています。</p>
             </div>
           </div>
         </section>
@@ -178,12 +178,12 @@ export default function MercariCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>バックエンド</strong>：Go、Python</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Webフロントエンド</strong>：TypeScript、React、Next.js、Vue.js</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>モバイル</strong>：iOS は Swift / SwiftUI、Android は Kotlin / Jetpack Compose</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>インフラ</strong>：Docker、Kubernetes、Google Cloud Platform、Amazon Web Services</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>データ基盤</strong>：Cloud Spanner、MySQL、PostgreSQL、Redis、TiDB、BigQuery、Elasticsearch など</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>機械学習・AIツール</strong>：Python（PyTorch / scikit-learn）、GitHub Copilot 等</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：Go、Python</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Webフロントエンド</strong>：TypeScript、React、Next.js、Vue.js</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>モバイル</strong>：iOS は Swift / SwiftUI、Android は Kotlin / Jetpack Compose</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：Docker、Kubernetes、Google Cloud Platform、Amazon Web Services</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ基盤</strong>：Cloud Spanner、MySQL、PostgreSQL、Redis、TiDB、BigQuery、Elasticsearch など</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>機械学習・AIツール</strong>：Python（PyTorch / scikit-learn）、GitHub Copilot 等</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: メルカリ公式 技術スタックページ（2026年6月時点）。</p>
@@ -221,7 +221,7 @@ export default function MercariCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            メルカリのエンジニアリングブログで公開されている選考プロセスをもとにした一般的な流れです。最新の内容は<a href="https://careers.mercari.com/jobs/engineering/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
+            メルカリのエンジニアリングブログで公開されている選考プロセスをもとにした一般的な流れです。最新の内容は<a href="https://careers.mercari.com/jobs/engineering/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考</li>
@@ -239,12 +239,12 @@ export default function MercariCompanyPage() {
             公式が明言する評価軸と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>コーディングテスト・技術課題で示す実装力と設計の妥当性</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ミッションへの共感とバリュー（Go Bold等）の体現</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>カルチャーフィット・チームでの協働姿勢</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>英語を含むコミュニケーション（ポジションにより程度は異なる）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>コーディングテスト・技術課題で示す実装力と設計の妥当性</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ミッションへの共感とバリュー（Go Bold等）の体現</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>カルチャーフィット・チームでの協働姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>英語を含むコミュニケーション（ポジションにより程度は異なる）</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -257,7 +257,7 @@ export default function MercariCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。メルカリの全社員平均（1,176万円）はこれを大きく上回りますが、これは高グレード層を含む全社平均であり、入社時の提示はグレード次第です。30代・40代は「自分が当てはまるグレードの水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              英語環境は、これまで英語での業務経験がない場合でもポジションによっては挑戦可能ですが、各求人の語学要件を必ず確認しましょう。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              英語環境は、これまで英語での業務経験がない場合でもポジションによっては挑戦可能ですが、各求人の語学要件を必ず確認しましょう。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -270,13 +270,13 @@ export default function MercariCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -297,7 +297,7 @@ export default function MercariCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">メルカリへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">メガベンチャーへの転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -311,7 +311,7 @@ export default function MercariCompanyPage() {
               { name: "技術面接の対策", href: "/knowledge/tech-interview/" },
               { name: "30代エンジニアの転職事情", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

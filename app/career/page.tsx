@@ -126,7 +126,7 @@ export default function CareerIndexPage() {
           <ul className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -171,9 +171,9 @@ export default function CareerIndexPage() {
                 <Link
                   key={path.slug}
                   href={`/career/${path.slug}/`}
-                  className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors group"
+                  className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors group"
                 >
-                  <h3 className="font-bold text-slate-800 text-sm mb-1 group-hover:text-blue-600 transition-colors">
+                  <h3 className="font-bold text-slate-800 text-sm mb-1 group-hover:text-petrol transition-colors">
                     {path.from} → {path.to}
                   </h3>
                   <p className="text-xs text-slate-600 mb-2">{path.desc}</p>
@@ -181,7 +181,7 @@ export default function CareerIndexPage() {
                     <span className="bg-slate-100 text-slate-600 px-2 py-1 rounded">
                       難易度: {path.difficulty}
                     </span>
-                    <span className="bg-blue-50 text-blue-700 px-2 py-1 rounded font-medium">
+                    <span className="bg-petrol-soft text-petrol-deep px-2 py-1 rounded font-medium">
                       年収 {path.salaryChange}
                     </span>
                   </div>
@@ -195,10 +195,10 @@ export default function CareerIndexPage() {
         <section className="mb-10">
           <h2 className="text-lg font-bold text-slate-800 mb-4">キャリア設計に役立つガイド</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-            <Link href="/knowledge/career-plan/" className="text-blue-600 hover:underline">→ キャリアプランの立て方</Link>
-            <Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">→ 自分の市場価値の調べ方</Link>
-            <Link href="/skill/" className="text-blue-600 hover:underline">→ スキル別の転職戦略を見る</Link>
-            <Link href="/company/" className="text-blue-600 hover:underline">→ 企業別の転職ガイドを見る</Link>
+            <Link href="/knowledge/career-plan/" className="text-petrol hover:underline">→ キャリアプランの立て方</Link>
+            <Link href="/knowledge/market-value/" className="text-petrol hover:underline">→ 自分の市場価値の調べ方</Link>
+            <Link href="/skill/" className="text-petrol hover:underline">→ スキル別の転職戦略を見る</Link>
+            <Link href="/company/" className="text-petrol hover:underline">→ 企業別の転職ガイドを見る</Link>
           </div>
         </section>
 
@@ -210,7 +210,7 @@ export default function CareerIndexPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>

@@ -155,7 +155,7 @@ export default function SaitamaAreaPage() {
         />
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：埼玉のIT転職市場の特徴</h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
               <li>・<strong>通勤圏×リモートの相性が良い</strong>。東京企業のフルリモート／ハイブリッド求人を、埼玉の生活コストで両立しやすい。</li>
@@ -170,7 +170,7 @@ export default function SaitamaAreaPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ol>
@@ -204,23 +204,23 @@ export default function SaitamaAreaPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3">
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">1</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
               <p className="text-sm text-slate-600"><strong>県内オフィス勤務:</strong> 大宮・さいたま新都心のSIerや官公庁系など。安定した就業環境を求める層に向く。</p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">2</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
               <p className="text-sm text-slate-600"><strong>東京企業へハイブリッド:</strong> 埼玉在住で週1〜2回ほど東京に出社する形。大宮から都心まで30分前後の利便性を活かせる。</p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold shrink-0">3</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
               <p className="text-sm text-slate-600"><strong>フルリモート:</strong> 東京や全国の企業に、埼玉に住んだまま勤務。Web系・SaaS企業を中心に求人が存在する。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             リモート可の求人でも、入社後に出社頻度が変わる場合があります。週何日出社か、制度が恒久的かを面談で必ず確認しましょう。リモート前提で探すなら
-            <Link href="/area/remote/" className="text-blue-600 hover:underline">フルリモートIT転職ガイド</Link>
+            <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
             や
-            <Link href="/knowledge/remote-work/" className="text-blue-600 hover:underline">リモートワーク求人の探し方</Link>
+            <Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワーク求人の探し方</Link>
             が参考になります。
           </p>
         </section>
@@ -254,7 +254,7 @@ export default function SaitamaAreaPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
             埼玉の強みはリモート併用との相性です。
-            <Link href="/area/tokyo/" className="text-blue-600 hover:underline">東京</Link>
+            <Link href="/area/tokyo/" className="text-petrol hover:underline">東京</Link>
             の求人をリモート前提で探しつつ、県内求人も視野に入れると選択肢が広がります。
           </p>
         </section>
@@ -274,10 +274,10 @@ export default function SaitamaAreaPage() {
                 </tr>
               </thead>
               <tbody>
-                <tr><td className="px-3 py-3 border border-slate-200">20代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約378万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200">30代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約499万円</td><td className="px-3 py-3 border border-slate-200">8.01%</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200">40代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約618万円</td><td className="px-3 py-3 border border-slate-200">12.67%</td></tr>
-                <tr><td className="px-3 py-3 border border-slate-200">50代</td><td className="px-3 py-3 border border-slate-200 font-bold text-blue-600">約685万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">20代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約378万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">30代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約499万円</td><td className="px-3 py-3 border border-slate-200">8.01%</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">40代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約618万円</td><td className="px-3 py-3 border border-slate-200">12.67%</td></tr>
+                <tr><td className="px-3 py-3 border border-slate-200">50代</td><td className="px-3 py-3 border border-slate-200 font-bold text-petrol">約685万円</td><td className="px-3 py-3 border border-slate-200">—</td></tr>
               </tbody>
             </table>
           </div>
@@ -286,7 +286,7 @@ export default function SaitamaAreaPage() {
           </p>
           <p className="text-slate-600 leading-relaxed mt-4">
             埼玉の魅力は、東京企業にリモート勤務して首都圏水準の年収を得つつ、生活コストを抑えられる組み合わせにあります。年収を上げたいなら複数エージェントで求人を比較し、市場価値を把握して交渉しましょう。
-            <Link href="/knowledge/salary-change/" className="text-blue-600 hover:underline">転職で年収は上がる？</Link>
+            <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">転職で年収は上がる？</Link>
             も参照してください。
           </p>
         </section>
@@ -297,23 +297,23 @@ export default function SaitamaAreaPage() {
             埼玉では、フルリモート求人に強いIT特化型と、全国対応の総合型を組み合わせるのが基本です。
           </p>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レバテックキャリア（IT/Web特化）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 IT/Web特化で首都圏中心。埼玉在住のまま東京企業に転職する際の選択肢として、高年収・リモート可の求人を探しやすいとされます。書類添削・面接対策の丁寧さが評価される一方、未経験者には紹介されにくい声もあります。
                 <Link href="/review/levtech/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">doda ITエンジニア（全国・総合型）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 対応エリアは全国で、国内最大級の求人数。埼玉県内の求人と東京のリモート求人の両方を探しやすいのが利点です。求人・連絡が多すぎるという声もあるため、希望条件を明確に伝えるとよいでしょう。
                 <Link href="/review/doda-it/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ワークポート（全国・総合型）</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 全国47都道府県57拠点を持つ総合型で、IT・ゲームに強み。未経験歓迎求人も豊富とされ、レスポンスの速さが評価されます。埼玉在住で東京拠点の求人も紹介を受けやすい併用先です。
                 <Link href="/review/workport/" className="underline ml-1">詳細レビュー</Link>
               </p>
@@ -321,9 +321,9 @@ export default function SaitamaAreaPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
             各社の横並び比較は
-            <Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント10社比較</Link>
+            <Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>
             、リモート向きの比較は
-            <Link href="/compare/remote-agents/" className="text-blue-600 hover:underline">リモート転職に強いエージェント比較</Link>
+            <Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモート転職に強いエージェント比較</Link>
             を参照してください。
           </p>
         </section>
@@ -355,9 +355,9 @@ export default function SaitamaAreaPage() {
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
             リモート向きの比較は
-            <Link href="/compare/remote-agents/" className="text-blue-600 hover:underline">リモート転職に強いエージェント比較</Link>
+            <Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモート転職に強いエージェント比較</Link>
             、年代別は
-            <Link href="/compare/30s-agents/" className="text-blue-600 hover:underline">30代向け比較</Link>
+            <Link href="/compare/30s-agents/" className="text-petrol hover:underline">30代向け比較</Link>
             も参考にしてください。
           </p>
         </section>
@@ -373,7 +373,7 @@ export default function SaitamaAreaPage() {
               { t: "選考・条件交渉", d: "年収・勤務地・働き方の交渉はエージェント経由で進めやすくなります。" },
             ].map((s, i) => (
               <li key={i} className="flex items-start gap-3">
-                <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold shrink-0">{i + 1}</span>
                 <div>
                   <p className="font-bold text-slate-800 text-sm">{s.t}</p>
                   <p className="text-sm text-slate-600 leading-relaxed">{s.d}</p>
@@ -390,8 +390,8 @@ export default function SaitamaAreaPage() {
               埼玉はミドル層にとって、家庭の生活基盤を維持しながら首都圏の求人を狙えるバランスの良いエリアです。経産省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれ、経験者需要は底堅いと考えられます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価される時期。東京企業へのリモート転職で、生活コストを抑えつつ年収を伸ばしやすい。<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職ガイド</Link></li>
-              <li>・<strong>40代</strong>：マネジメントや特定領域の専門性が武器。県内の安定した拠点と東京リモートの両にらみで選択肢を確保できる。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職ガイド</Link></li>
+              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価される時期。東京企業へのリモート転職で、生活コストを抑えつつ年収を伸ばしやすい。<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link></li>
+              <li>・<strong>40代</strong>：マネジメントや特定領域の専門性が武器。県内の安定した拠点と東京リモートの両にらみで選択肢を確保できる。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link></li>
               <li>・住宅ローンや子育てなど生活基盤を変えたくない層にとって、通勤圏×リモートの選択肢は特に相性が良いといえます。</li>
             </ul>
           </div>
@@ -419,7 +419,7 @@ export default function SaitamaAreaPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -432,7 +432,7 @@ export default function SaitamaAreaPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

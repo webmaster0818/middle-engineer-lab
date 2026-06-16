@@ -207,7 +207,7 @@ export default function HowToChoosePage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -217,7 +217,7 @@ export default function HowToChoosePage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：まず4基準で2〜3社に絞る</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               迷ったら「①IT特化か ②担当者の技術理解 ③求人の質と量 ④自分の状況との相性」の4基準で判断し、
@@ -242,7 +242,7 @@ export default function HowToChoosePage() {
               { num: "4", title: "自分の状況との相性", desc: "年代・経験年数・勤務地・志望業界によって最適なエージェントは変わります。レバテックは首都圏中心、ワークポートは全国57拠点（公式/二次）など、対応エリアや得意層を自分の条件に照らして選びます。" },
             ].map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -288,7 +288,7 @@ export default function HowToChoosePage() {
             </table>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed">
-            なお<Link href="/review/doda-it/" className="text-blue-600 hover:underline">doda ITエンジニア</Link>は検索＋エージェント＋スカウトのハイブリッド型、<Link href="/review/green/" className="text-blue-600 hover:underline">Green</Link>や<Link href="/review/paiza/" className="text-blue-600 hover:underline">paiza転職</Link>はエージェントを介さないダイレクト/スカウト型と、形態自体が違うサービスもあります。仲介サポートの有無を必ず確認しましょう。
+            なお<Link href="/review/doda-it/" className="text-petrol hover:underline">doda ITエンジニア</Link>は検索＋エージェント＋スカウトのハイブリッド型、<Link href="/review/green/" className="text-petrol hover:underline">Green</Link>や<Link href="/review/paiza/" className="text-petrol hover:underline">paiza転職</Link>はエージェントを介さないダイレクト/スカウト型と、形態自体が違うサービスもあります。仲介サポートの有無を必ず確認しましょう。
           </p>
         </section>
 
@@ -332,7 +332,7 @@ export default function HowToChoosePage() {
             {services.map((s) => (
               <div key={s.name} className="border border-slate-200 rounded-lg p-5">
                 <div className="flex items-center justify-between gap-3 mb-2 flex-wrap">
-                  <Link href={s.href} className="font-bold text-slate-800 hover:text-blue-700 hover:underline">
+                  <Link href={s.href} className="font-bold text-slate-800 hover:text-petrol-deep hover:underline">
                     {s.name}
                   </Link>
                   <span className="text-xs bg-slate-100 text-slate-600 rounded px-2 py-1">{s.type}</span>
@@ -343,7 +343,7 @@ export default function HowToChoosePage() {
             ))}
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            10社を横並びで比べたい方は<Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント比較</Link>、年代別なら<Link href="/compare/30s-agents/" className="text-blue-600 hover:underline">30代向け比較</Link>・<Link href="/compare/40s-agents/" className="text-blue-600 hover:underline">40代向け比較</Link>もご覧ください。
+            10社を横並びで比べたい方は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>、年代別なら<Link href="/compare/30s-agents/" className="text-petrol hover:underline">30代向け比較</Link>・<Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向け比較</Link>もご覧ください。
           </p>
         </section>
 
@@ -356,13 +356,13 @@ export default function HowToChoosePage() {
           <ul className="space-y-2">
             {checklist.map((c) => (
               <li key={c} className="flex items-start gap-2 text-sm text-slate-700">
-                <span className="text-blue-600 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span>{c}</span>
               </li>
             ))}
           </ul>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
-            面談の全体像は<Link href="/knowledge/agent-first-meeting/" className="text-blue-600 hover:underline">エージェント初回面談の流れ</Link>で確認できます。
+            面談の全体像は<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">エージェント初回面談の流れ</Link>で確認できます。
           </p>
         </section>
 
@@ -411,7 +411,7 @@ export default function HowToChoosePage() {
               </p>
             </div>
             <p>
-              年代別の実態は<Link href="/age/30s/" className="text-blue-600 hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職</Link>、年収の詳細は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>も参考にしてください。
+              年代別の実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>、年収の詳細は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>も参考にしてください。
             </p>
           </div>
         </section>
@@ -440,7 +440,7 @@ export default function HowToChoosePage() {
           </p>
           <Link
             href="/compare/agents/"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             IT転職エージェント10社比較を見る
           </Link>
@@ -461,7 +461,7 @@ export default function HowToChoosePage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

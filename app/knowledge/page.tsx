@@ -209,7 +209,7 @@ export default function KnowledgeIndexPage() {
           <ul className="space-y-2 text-sm grid grid-cols-1 sm:grid-cols-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -230,45 +230,45 @@ export default function KnowledgeIndexPage() {
               <span className="font-medium text-slate-700">準備期（情報収集・自己整理）</span>
               <br />
               まずは
-              <Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>
+              <Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>
               と
-              <Link href="/knowledge/self-analysis/" className="text-blue-600 hover:underline">自己分析</Link>
+              <Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析</Link>
               で現在地を把握し、
-              <Link href="/knowledge/career-plan/" className="text-blue-600 hover:underline">キャリアプラン</Link>
+              <Link href="/knowledge/career-plan/" className="text-petrol hover:underline">キャリアプラン</Link>
               で方向性を決めます。年代に不安がある人は
-              <Link href="/knowledge/age-discrimination/" className="text-blue-600 hover:underline">年齢による不利</Link>
+              <Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">年齢による不利</Link>
               の記事も先に。
             </li>
             <li>
               <span className="font-medium text-slate-700">応募準備期（書類・エージェント）</span>
               <br />
-              <Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書</Link>
+              <Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書</Link>
               と
-              <Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオ</Link>
+              <Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオ</Link>
               を整え、
-              <Link href="/knowledge/how-to-choose/" className="text-blue-600 hover:underline">エージェントの選び方</Link>
+              <Link href="/knowledge/how-to-choose/" className="text-petrol hover:underline">エージェントの選び方</Link>
               ・
-              <Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数登録</Link>
+              <Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数登録</Link>
               で求人ルートを確保します。
             </li>
             <li>
               <span className="font-medium text-slate-700">選考期（面接・交渉）</span>
               <br />
-              <Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接</Link>
+              <Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接</Link>
               ・
-              <Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接</Link>
+              <Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接</Link>
               の対策を進め、内定が出たら
-              <Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉</Link>
+              <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉</Link>
               と
-              <Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">オファー比較</Link>
+              <Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">オファー比較</Link>
               で条件を確定します。
             </li>
             <li>
               <span className="font-medium text-slate-700">移行期（退職・入社後）</span>
               <br />
-              <Link href="/knowledge/resignation/" className="text-blue-600 hover:underline">退職の進め方</Link>
+              <Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の進め方</Link>
               で円満に引き継ぎ、
-              <Link href="/knowledge/first-90days/" className="text-blue-600 hover:underline">入社後90日プラン</Link>
+              <Link href="/knowledge/first-90days/" className="text-petrol hover:underline">入社後90日プラン</Link>
               で新環境に早く馴染みます。
             </li>
           </ol>
@@ -286,9 +286,9 @@ export default function KnowledgeIndexPage() {
                 <Link
                   key={i}
                   href={item.href}
-                  className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors group"
+                  className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors group"
                 >
-                  <h3 className="font-bold text-slate-800 text-sm group-hover:text-blue-600 transition-colors">{item.name}</h3>
+                  <h3 className="font-bold text-slate-800 text-sm group-hover:text-petrol transition-colors">{item.name}</h3>
                   <p className="text-xs text-slate-500 mt-0.5">{item.desc}</p>
                 </Link>
               ))}
@@ -304,7 +304,7 @@ export default function KnowledgeIndexPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -322,7 +322,7 @@ export default function KnowledgeIndexPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

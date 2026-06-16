@@ -65,7 +65,7 @@ export default function IbmCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（コンサル・アーキ志向の経験者）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・中核は<strong>顧客課題を技術で解決するITコンサル／アーキテクト</strong>。Red Hat OpenShift・IBM Cloud・watsonx・Java/Python などを案件に応じて扱う。</li>
@@ -80,7 +80,7 @@ export default function IbmCompanyPage() {
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
@@ -100,9 +100,9 @@ export default function IbmCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ITコンサル・アーキテクト志向</h3><p className="text-sm text-blue-700">日本IBMはコンサルティング・システムインテグレーションの比重が大きく、顧客の課題を技術で解決する役割が中核です。要件定義・アーキテクチャ設計・クラウド移行・AI活用など、上流から関わりたいエンジニアに向いています。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">バンド制（職務等級）</h3><p className="text-sm text-blue-700">日本IBMは職務の難易度・責任に応じて等級が決まるバンド制を採用していることが一般に知られています。AI・クラウドなどの先端領域は高バンドになりやすい傾向があるとされますが、当ガイドではバンドごとの年収表は公式に確認できないため掲載していません。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">グローバル基盤と先端領域</h3><p className="text-sm text-blue-700">Red Hat（OpenShift）、IBM Cloud、watsonx（AI基盤）など、グローバルで展開される製品・技術に触れられる点が外資系ならではの特徴です。先端領域に挑戦したいミドルにとって、ナレッジとプロダクト基盤の厚みは魅力になります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ITコンサル・アーキテクト志向</h3><p className="text-sm text-petrol-deep">日本IBMはコンサルティング・システムインテグレーションの比重が大きく、顧客の課題を技術で解決する役割が中核です。要件定義・アーキテクチャ設計・クラウド移行・AI活用など、上流から関わりたいエンジニアに向いています。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">バンド制（職務等級）</h3><p className="text-sm text-petrol-deep">日本IBMは職務の難易度・責任に応じて等級が決まるバンド制を採用していることが一般に知られています。AI・クラウドなどの先端領域は高バンドになりやすい傾向があるとされますが、当ガイドではバンドごとの年収表は公式に確認できないため掲載していません。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">グローバル基盤と先端領域</h3><p className="text-sm text-petrol-deep">Red Hat（OpenShift）、IBM Cloud、watsonx（AI基盤）など、グローバルで展開される製品・技術に触れられる点が外資系ならではの特徴です。先端領域に挑戦したいミドルにとって、ナレッジとプロダクト基盤の厚みは魅力になります。</p></div>
           </div>
         </section>
 
@@ -111,13 +111,13 @@ export default function IbmCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下は公開情報の範囲で確認できる技術領域です。日本IBMはコンサル・SIの比重が大きく、使用技術は担当案件・プロジェクトに依存するため、全社で統一された固定スタックの一覧は提示しません（推測でのスタック追加・固定化は行いません）。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Red Hat OpenShift</strong>：コンテナ／クラウドネイティブ基盤</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>IBM Cloud</strong>：クラウドプラットフォーム</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>watsonx</strong>：AI／生成AIの基盤</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Java／Python</strong>：開発言語（案件・プロジェクトに依存）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Red Hat OpenShift</strong>：コンテナ／クラウドネイティブ基盤</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>IBM Cloud</strong>：クラウドプラットフォーム</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>watsonx</strong>：AI／生成AIの基盤</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Java／Python</strong>：開発言語（案件・プロジェクトに依存）</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：公開情報。具体的な使用技術は案件により大きく異なります。関連するスキル解説は<Link href="/skill/java/" className="text-blue-600 hover:underline">Java</Link>・<Link href="/skill/python/" className="text-blue-600 hover:underline">Python</Link>・<Link href="/skill/kubernetes/" className="text-blue-600 hover:underline">Kubernetes</Link>・<Link href="/skill/ai-ml/" className="text-blue-600 hover:underline">AI／機械学習</Link>のページも参照してください。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：公開情報。具体的な使用技術は案件により大きく異なります。関連するスキル解説は<Link href="/skill/java/" className="text-petrol hover:underline">Java</Link>・<Link href="/skill/python/" className="text-petrol hover:underline">Python</Link>・<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>・<Link href="/skill/ai-ml/" className="text-petrol hover:underline">AI／機械学習</Link>のページも参照してください。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -126,7 +126,7 @@ export default function IbmCompanyPage() {
             日本IBMは<strong>非上場（米IBMの日本法人）</strong>のため、上場企業の有価証券報告書で開示される「全従業員平均年収」のような公式の平均値は公表されていません。OpenMoney等の集計サイトに<strong>約912〜920万円</strong>という記載が見られますが、これは口コミをもとにした<strong>集計の参考値であり公式値ではありません</strong>。母数・算定方法が不明なため、当ガイドでは具体額の断定や、バンド別の年収表（創作）は行いません。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mb-2">
-            等級はバンド制で、先端領域（AI・クラウド）や上流の役割は高バンド傾向とされますが、実額は職務・経験・バンドにより個人差が大きいのが実情です。ミドル層は提示の内訳とバンドの位置づけを、選考過程やエージェントを通じて確認するのが現実的です。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>もあわせてご覧ください。
+            等級はバンド制で、先端領域（AI・クラウド）や上流の役割は高バンド傾向とされますが、実額は職務・経験・バンドにより個人差が大きいのが実情です。ミドル層は提示の内訳とバンドの位置づけを、選考過程やエージェントを通じて確認するのが現実的です。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>もあわせてご覧ください。
           </p>
           <p className="text-xs text-slate-500">出典：OpenMoney等の年収集計（参考値）。公式の平均年収が存在しないため、ここでは断定的な金額は記載していません。</p>
         </section>
@@ -143,10 +143,10 @@ export default function IbmCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報ベースの一般化）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。創作した質問例は掲載せず、コンサル・アーキ志向という組織特性から評価されやすいと一般に考えられるポイントのみを挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>顧客課題を構造化し、技術で解決する課題解決力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>アーキテクチャ設計・クラウド移行など上流工程の経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>クラウド（OpenShift／IBM Cloud）・AI（watsonx）領域の知見</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>チーム・顧客を巻き込むコミュニケーション、グローバル環境への適応</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>顧客課題を構造化し、技術で解決する課題解決力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>アーキテクチャ設計・クラウド移行など上流工程の経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>クラウド（OpenShift／IBM Cloud）・AI（watsonx）領域の知見</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>チーム・顧客を巻き込むコミュニケーション、グローバル環境への適応</li>
           </ul>
         </section>
 
@@ -163,7 +163,7 @@ export default function IbmCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代のミドルエンジニアにとって、日本IBMは<strong>「上流・アーキテクチャ経験を活かせる」「先端領域（AI/クラウド）に外資系の基盤で挑戦できる」</strong>という点で魅力的な選択肢です。コンサル・SIで培った要件定義・設計・PMの経験は、そのままバンド（等級）の評価につながりやすいドメインです。</p>
             <p>一方で、組織再編やプロジェクト変動が大きく、受け身では評価されにくい外資系特有の文化があります。単一プロダクトの内製開発に専念したい志向とは方向性が異なる点にも注意が必要です。年収は公式平均が存在しないため、バンドの位置づけと提示内訳を冷静に見極めることが重要です。</p>
-            <p>転職活動では、ミドル層の市場価値整理とキャリアの言語化が鍵になります。<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>、<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の市場価値整理とキャリアの言語化が鍵になります。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>、<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -203,15 +203,15 @@ export default function IbmCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">日本IBM転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。外資系・コンサルの上位ポジションに出会いやすい。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・クラウド/AI求人に強く、技術面の整理を支援。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。大手・外資の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。外資系・コンサルの上位ポジションに出会いやすい。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・クラウド/AI求人に強く、技術面の整理を支援。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。大手・外資の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラス向けエージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けエージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">日本IBMへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">外資系・ITコンサルに強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/bizreach-it/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/bizreach-it/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -222,7 +222,7 @@ export default function IbmCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "アクセンチュアの転職ガイド", href: "/company/accenture/" }, { name: "AI／機械学習エンジニアの転職", href: "/skill/ai-ml/" }, { name: "Kubernetesエンジニアの転職", href: "/skill/kubernetes/" }, { name: "PMの転職ガイド", href: "/skill/pm/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "市場価値の把握", href: "/knowledge/market-value/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "アクセンチュアの転職ガイド", href: "/company/accenture/" }, { name: "AI／機械学習エンジニアの転職", href: "/skill/ai-ml/" }, { name: "Kubernetesエンジニアの転職", href: "/skill/kubernetes/" }, { name: "PMの転職ガイド", href: "/skill/pm/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "市場価値の把握", href: "/knowledge/market-value/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

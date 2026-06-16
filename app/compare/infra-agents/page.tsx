@@ -104,13 +104,13 @@ export default function InfraAgentsPage() {
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：インフラ・クラウドはどう選ぶか</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・本命は「レバテックキャリア」</strong>。IT特化でインフラ・SRE・クラウドの技術文脈を理解した提案を受けやすい。</li>
@@ -144,13 +144,13 @@ export default function InfraAgentsPage() {
             {services.map((s, i) => (
               <div key={i} className="border border-slate-200 rounded-xl p-6">
                 <div className="flex items-center gap-3 mb-3 flex-wrap">
-                  <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-blue-600 text-white">{s.rank}</span>
-                  <Link href={s.href} className="text-lg font-bold text-blue-700 hover:underline">{s.name}</Link>
+                  <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-petrol text-white">{s.rank}</span>
+                  <Link href={s.href} className="text-lg font-bold text-petrol-deep hover:underline">{s.name}</Link>
                   <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-600">{s.tag}</span>
                 </div>
                 <p className="text-sm text-slate-600 leading-relaxed mb-3">{s.reason}</p>
                 <p className="text-sm text-slate-700"><span className="font-bold">向いている人：</span>{s.fit}</p>
-                <Link href={s.href} className="inline-block mt-3 text-sm font-medium text-blue-600 hover:underline">{s.name}の詳細レビューを見る →</Link>
+                <Link href={s.href} className="inline-block mt-3 text-sm font-medium text-petrol hover:underline">{s.name}の詳細レビューを見る →</Link>
               </div>
             ))}
           </div>
@@ -158,12 +158,12 @@ export default function InfraAgentsPage() {
 
         <section id="freelance" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フリーランス・高単価で関わるなら</h2>
-          <p className="text-slate-600 leading-relaxed text-sm mb-3">フリーランス（業務委託）でインフラ・クラウド案件に関わりたい場合は、案件紹介エージェントが選択肢です。当サイトでレビューしている<Link href="/review/relance/" className="text-blue-600 hover:underline">relance</Link>はSRE領域のテックカンパニー（スリーシェイク）が運営し、自社開発・プライム案件中心でフルリモート案件70%以上（公式表記）とされ、SRE・クラウド領域と相性があります。<Link href="/review/geechs/" className="text-blue-600 hover:underline">geechs</Link>もリモート案件比率が高い二次情報があります。いずれも面談で対象領域を必ず確認してください。フリーランス全体の選び方は<Link href="/compare/freelance-agents/" className="text-blue-600 hover:underline">フリーランスエージェント比較</Link>を参照してください。</p>
+          <p className="text-slate-600 leading-relaxed text-sm mb-3">フリーランス（業務委託）でインフラ・クラウド案件に関わりたい場合は、案件紹介エージェントが選択肢です。当サイトでレビューしている<Link href="/review/relance/" className="text-petrol hover:underline">relance</Link>はSRE領域のテックカンパニー（スリーシェイク）が運営し、自社開発・プライム案件中心でフルリモート案件70%以上（公式表記）とされ、SRE・クラウド領域と相性があります。<Link href="/review/geechs/" className="text-petrol hover:underline">geechs</Link>もリモート案件比率が高い二次情報があります。いずれも面談で対象領域を必ず確認してください。フリーランス全体の選び方は<Link href="/compare/freelance-agents/" className="text-petrol hover:underline">フリーランスエージェント比較</Link>を参照してください。</p>
         </section>
 
         <section id="skill" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">クラウド・スキル別の探し方</h2>
-          <p className="text-slate-600 leading-relaxed text-sm mb-3">インフラ・クラウドは扱う技術によって相性の良い探し方が変わります。当サイトでは<Link href="/skill/infrastructure/" className="text-blue-600 hover:underline">インフラ</Link>、<Link href="/skill/aws/" className="text-blue-600 hover:underline">AWS</Link>、<Link href="/skill/gcp/" className="text-blue-600 hover:underline">GCP</Link>、<Link href="/skill/azure/" className="text-blue-600 hover:underline">Azure</Link>、<Link href="/skill/terraform/" className="text-blue-600 hover:underline">Terraform</Link>、<Link href="/skill/kubernetes/" className="text-blue-600 hover:underline">Kubernetes</Link>のスキルガイドで市場・年収・求人の探し方を整理しています。保有資格と構築・運用の実績を言語化したうえでレバテックキャリアに相談すると、提案精度が上がります。</p>
+          <p className="text-slate-600 leading-relaxed text-sm mb-3">インフラ・クラウドは扱う技術によって相性の良い探し方が変わります。当サイトでは<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>、<Link href="/skill/gcp/" className="text-petrol hover:underline">GCP</Link>、<Link href="/skill/azure/" className="text-petrol hover:underline">Azure</Link>、<Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform</Link>、<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>のスキルガイドで市場・年収・求人の探し方を整理しています。保有資格と構築・運用の実績を言語化したうえでレバテックキャリアに相談すると、提案精度が上がります。</p>
         </section>
 
         <section id="combo" className="mb-12 scroll-mt-20">
@@ -176,12 +176,12 @@ export default function InfraAgentsPage() {
                 { num: "3", title: "上流はJAC／ビズリーチ", desc: "アーキテクト・SREリード・マネージャー級は、ハイクラス特化・スカウト型で交渉力と上位求人を確保する。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                   <div><h3 className="font-bold text-slate-800 mb-1">{item.title}</h3><p className="text-sm text-slate-600">{item.desc}</p></div>
                 </div>
               ))}
             </div>
-            <p className="text-xs text-slate-500 mt-4">ハイクラス系の比較は<Link href="/compare/highclass/" className="text-blue-600 hover:underline">ハイクラスIT転職エージェント比較</Link>もご覧ください。</p>
+            <p className="text-xs text-slate-500 mt-4">ハイクラス系の比較は<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラスIT転職エージェント比較</Link>もご覧ください。</p>
           </div>
         </section>
 
@@ -207,14 +207,14 @@ export default function InfraAgentsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">インフラ・クラウドは「IT特化×母数×ハイクラス」で選ぶ</h2>
           <p className="text-blue-100 text-sm mb-4">レバテックキャリアを軸に、リクルート/dodaで母数、JAC/ビズリーチで上位ポジション。いずれも無料です。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {relatedLinks.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

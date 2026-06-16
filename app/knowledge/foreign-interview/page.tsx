@@ -158,7 +158,7 @@ export default function ForeignInterviewPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -169,7 +169,7 @@ export default function ForeignInterviewPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：外資系面接の攻略方針</h2>
-          <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               外資系IT企業の面接は、<strong>「技術面接（コーディング・システムデザイン）」と「行動面接（バリュー）」の両輪</strong>で評価されます。技術力に加え、自分の貢献を『I』で明確に語り、企業のバリューに沿ったエピソードを準備することが鍵です。
             </p>
@@ -188,7 +188,7 @@ export default function ForeignInterviewPage() {
           <div className="space-y-4">
             {flowSteps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -216,9 +216,9 @@ export default function ForeignInterviewPage() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             各ラウンドの詳細は
-            <Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>
+            <Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>
             ・
-            <Link href="/knowledge/system-design/" className="text-blue-600 hover:underline">システムデザイン面接</Link>
+            <Link href="/knowledge/system-design/" className="text-petrol hover:underline">システムデザイン面接</Link>
             も合わせてご覧ください。
           </p>
         </section>
@@ -238,14 +238,14 @@ export default function ForeignInterviewPage() {
               "深掘り質問（なぜそうしたか、他の選択肢は）を想定し、判断の理由を説明できるようにする。",
             ].map((tip, i) => (
               <li key={i} className="flex gap-3 items-start border border-slate-200 rounded-lg p-4">
-                <span className="text-blue-500 font-bold shrink-0">✓</span>
+                <span className="text-petrol font-bold shrink-0">✓</span>
                 <span className="text-sm text-slate-600 leading-relaxed">{tip}</span>
               </li>
             ))}
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             STARの組み立て方は
-            <Link href="/knowledge/behavioral/" className="text-blue-600 hover:underline">行動面接対策ガイド</Link>
+            <Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接対策ガイド</Link>
             で詳しく解説しています。
           </p>
         </section>
@@ -270,22 +270,22 @@ export default function ForeignInterviewPage() {
         <section id="midlife" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代が外資で評価されるには</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">設計力・専門性で差をつける</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 システムデザインや専門ディープダイブのラウンドは、実務経験の厚いミドル層が力を発揮できる場です。実際に下した設計判断とその理由を、具体例として語れるよう整理しておきましょう。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">リーダーシップを成果で示す</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">
+              <p className="text-sm text-petrol-deep leading-relaxed">
                 外資系は職位が上がるほどリーダーシップを重視します。チームをどう巻き込み、どんな成果を出したかを、バリューに沿ったエピソードで語れると評価が高まります。年齢ではなく実績で勝負しましょう。
               </p>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             英語面接が想定される場合は
-            <Link href="/knowledge/english-interview/" className="text-blue-600 hover:underline">英語面接の準備</Link>
+            <Link href="/knowledge/english-interview/" className="text-petrol hover:underline">英語面接の準備</Link>
             も合わせて対策してください。
           </p>
         </section>
@@ -327,7 +327,7 @@ export default function ForeignInterviewPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -347,7 +347,7 @@ export default function ForeignInterviewPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

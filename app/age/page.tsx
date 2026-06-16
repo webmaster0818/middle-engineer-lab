@@ -94,7 +94,7 @@ export default function AgeIndexPage() {
                 <Link
                   key={it.slug}
                   href={`/age/${it.slug}/`}
-                  className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                  className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
                 >
                   {it.name} →
                 </Link>
@@ -114,7 +114,7 @@ export default function AgeIndexPage() {
               { name: "40代向けエージェント比較", href: "/compare/40s-agents/" },
               { name: "年収帯別ガイド", href: "/salary/" },
             ].map((x, i) => (
-              <Link key={i} href={x.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={x.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {x.name} →
               </Link>
             ))}

@@ -51,7 +51,7 @@ const types = [
 ];
 
 const colorMap: Record<string, string> = {
-  blue: "bg-blue-50 border-blue-200 text-blue-900",
+  blue: "bg-petrol-soft border-[var(--line)] text-blue-900",
   indigo: "bg-indigo-50 border-indigo-200 text-indigo-900",
   green: "bg-green-50 border-green-200 text-green-900",
   amber: "bg-amber-50 border-amber-200 text-amber-900",
@@ -79,14 +79,14 @@ export default function ScoutAgentsPage() {
           <p className="font-bold text-slate-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：タイプ別おすすめマップ</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">あなたの強みで選ぶのが近道です。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・コードで実力を示せる</strong> → スキル評価型（<Link href="/review/findy/" className="underline">Findy</Link>／<Link href="/review/paiza/" className="underline">paiza</Link>）</li>
@@ -102,7 +102,7 @@ export default function ScoutAgentsPage() {
         <section id="what" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スカウト型とは（エージェント型との違い）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">スカウト型は、プロフィールやGitHub・技術発信を整えて「待つ」仕組みです。企業やヘッドハンターがあなたのプロフィールを見てスカウトを送ってくるため、市場からどう評価されるかを客観的に把握できます。受け身で進められる一方、プロフィールが薄いとスカウトが届かないという特性があります。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">対してエージェント型は、専任アドバイザーが求人提案から書類添削・面接対策・年収交渉まで伴走します。選考をプロに任せたい人に向きます。両者は対立するものではなく、市場価値の把握はスカウト型、選考の伴走はエージェント型、と役割分担して併用するのが王道です。エージェント型の比較は<Link href="/compare/agents/" className="text-blue-600 hover:underline">IT転職エージェント10社比較</Link>をご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">対してエージェント型は、専任アドバイザーが求人提案から書類添削・面接対策・年収交渉まで伴走します。選考をプロに任せたい人に向きます。両者は対立するものではなく、市場価値の把握はスカウト型、選考の伴走はエージェント型、と役割分担して併用するのが王道です。エージェント型の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>をご覧ください。</p>
         </section>
 
         <section id="types" className="mb-12 scroll-mt-20">
@@ -125,7 +125,7 @@ export default function ScoutAgentsPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse min-w-[760px]">
               <thead><tr className="bg-slate-100"><th className="text-left px-3 py-3 border border-slate-200 font-medium">サービス</th><th className="text-left px-3 py-3 border border-slate-200 font-medium">タイプ</th><th className="text-left px-3 py-3 border border-slate-200 font-medium">特徴・主なデータ</th><th className="text-left px-3 py-3 border border-slate-200 font-medium">主な対象</th></tr></thead>
-              <tbody>{table.map((row, i) => (<tr key={i} className="hover:bg-slate-50 align-top"><td className="px-3 py-3 border border-slate-200 font-medium"><Link href={row.review} className="text-blue-600 hover:underline">{row.name}</Link></td><td className="px-3 py-3 border border-slate-200">{row.type}</td><td className="px-3 py-3 border border-slate-200">{row.point}</td><td className="px-3 py-3 border border-slate-200">{row.target}</td></tr>))}</tbody>
+              <tbody>{table.map((row, i) => (<tr key={i} className="hover:bg-slate-50 align-top"><td className="px-3 py-3 border border-slate-200 font-medium"><Link href={row.review} className="text-petrol hover:underline">{row.name}</Link></td><td className="px-3 py-3 border border-slate-200">{row.type}</td><td className="px-3 py-3 border border-slate-200">{row.point}</td><td className="px-3 py-3 border border-slate-200">{row.target}</td></tr>))}</tbody>
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-2">※ 求人数・登録者数・ヘッドハンター数は2026年6月時点の公式または転職メディア集計値で、変動が大きく多くが二次情報です。各時点は表内に併記しています。サービス名はdodaX＝旧iX転職（2022年10月改称）など改称があり、本文で混同回避を明記しています。</p>
@@ -144,7 +144,7 @@ export default function ScoutAgentsPage() {
               <ul className="text-sm text-green-700 space-y-1 list-disc pl-5"><li>プロフィールやGitHub・ポートフォリオに具体的に言及</li><li>ポジションと求める経験が明確</li><li>年収レンジが提示されている</li><li>ビズリーチのプラチナスカウト等、上位種別</li><li>ヘッドハンター/担当者の実名・実績が分かる</li></ul>
             </div>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm mt-4">スカウトの仕組みと付き合い方は<Link href="/knowledge/scout/" className="text-blue-600 hover:underline">スカウトの仕組み解説</Link>もあわせてご確認ください。</p>
+          <p className="text-slate-600 leading-relaxed text-sm mt-4">スカウトの仕組みと付き合い方は<Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトの仕組み解説</Link>もあわせてご確認ください。</p>
         </section>
 
         <section id="increase" className="mb-12 scroll-mt-20">
@@ -164,7 +164,7 @@ export default function ScoutAgentsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだ30代・40代の市場価値は高く、スカウト型は「自分の市場価値を測る」用途で特に有効です。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>現役でコードを書いているなら、スキル評価型（Findy/paiza）や発信AI解析型（LAPRAS）で年齢より技術が評価されます。レバテック公表の年代別平均年収（2025年）では30代のSEは約499万円が一つの目安。市場価値の確認用にスキル評価型、年収レンジ確認にハイクラス型を併用すると視野が広がります。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>40代でもGitHubや発信が活発なら、スキル評価型・発信AI解析型は年齢より技術を見てくれます。マネジメント経験を活かして年収を上げたいなら、ハイクラス型（リクルートダイレクトスカウト・dodaX・ビズリーチ）が有効です。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>もご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>40代でもGitHubや発信が活発なら、スキル評価型・発信AI解析型は年齢より技術を見てくれます。マネジメント経験を活かして年収を上げたいなら、ハイクラス型（リクルートダイレクトスカウト・dodaX・ビズリーチ）が有効です。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-12 scroll-mt-20">
@@ -182,7 +182,7 @@ export default function ScoutAgentsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">強みに合ったスカウト型を2〜3社</h2>
           <p className="text-blue-100 text-sm mb-4">評価軸の違うサービスを併用して、自分がどの軸で評価されやすいかを把握。多くが完全無料です。30代・40代の市場価値の棚卸しに最適です。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめサービスランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 
         <section id="related" className="scroll-mt-20">
@@ -202,7 +202,7 @@ export default function ScoutAgentsPage() {
               { name: "ビズリーチの評判・口コミ", href: "/review/bizreach-it/" },
               { name: "Wantedlyの評判・口コミ", href: "/review/wantedly/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

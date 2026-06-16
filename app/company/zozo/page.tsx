@@ -112,7 +112,7 @@ export default function ZozoCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               ZOZOは<strong>大規模ファッションECをGoベースのマイクロサービスへ刷新中の、技術投資に積極的なテック企業</strong>です。コーディングテストはなく、現場エンジニアとの面接で技術力と相性を見極める選考が特徴。働き方は比較的柔軟という口コミ傾向です。
@@ -130,7 +130,7 @@ export default function ZozoCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -156,17 +156,17 @@ export default function ZozoCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">大規模ECプラットフォームの技術基盤</h3>
-              <p className="text-sm text-blue-700">ZOZOTOWNを支える大規模ECプラットフォームの開発・運用が中心です。高トラフィック・高可用性が求められるシステムの設計経験を積める環境です。</p>
+              <p className="text-sm text-petrol-deep">ZOZOTOWNを支える大規模ECプラットフォームの開発・運用が中心です。高トラフィック・高可用性が求められるシステムの設計経験を積める環境です。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Goベースのマイクロサービスへの段階的移行</h3>
-              <p className="text-sm text-blue-700">公式技術ブログ「ZOZO TECH BLOG」では、モノリスからGoベースのマイクロサービスへの段階的移行、AWS/EKS上のコンテナ運用、カナリアリリースやサービス間通信の信頼性向上などモダンな取り組みが公開されています。</p>
+              <p className="text-sm text-petrol-deep">公式技術ブログ「ZOZO TECH BLOG」では、モノリスからGoベースのマイクロサービスへの段階的移行、AWS/EKS上のコンテナ運用、カナリアリリースやサービス間通信の信頼性向上などモダンな取り組みが公開されています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ファッション×テクノロジーの融合</h3>
-              <p className="text-sm text-blue-700">足の計測などの計測技術や、ファッション領域での推薦・機械学習の活用など、ファッション×テクノロジーならではの技術チャレンジがあります。</p>
+              <p className="text-sm text-petrol-deep">足の計測などの計測技術や、ファッション領域での推薦・機械学習の活用など、ファッション×テクノロジーならではの技術チャレンジがあります。</p>
             </div>
           </div>
         </section>
@@ -178,10 +178,10 @@ export default function ZozoCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>バックエンド</strong>：ZOZOTOWNのマイクロサービス移行でGoを採用。軽量・起動速度・並行処理の強みを評価した技術選定が公開されています。</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>インフラ</strong>：AWS上のEKS（マネージドKubernetes）でコンテナ基盤を運用。IaC/CI/CDやセキュリティ標準（govulncheck・ECRイメージスキャン等）の事例が公開されています。</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>アプリ・フロント</strong>：Kotlin / Swift（モバイル）、TypeScript（Web）など。</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>その他</strong>：Java、Python なども領域により使用されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：ZOZOTOWNのマイクロサービス移行でGoを採用。軽量・起動速度・並行処理の強みを評価した技術選定が公開されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：AWS上のEKS（マネージドKubernetes）でコンテナ基盤を運用。IaC/CI/CDやセキュリティ標準（govulncheck・ECRイメージスキャン等）の事例が公開されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>アプリ・フロント</strong>：Kotlin / Swift（モバイル）、TypeScript（Web）など。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>その他</strong>：Java、Python なども領域により使用されています。</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: ZOZO TECH BLOG・公開インタビュー（公開情報）。記載は公開事例に基づく要約であり、全社・全プロダクトの構成を示すものではありません。</p>
@@ -219,7 +219,7 @@ export default function ZozoCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式・公開情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            ZOZOの中途採用は、コーディングテストを実施せず、現場エンジニアとの面接で技術力を見極めるのが特徴です。公開情報をもとにした一般的な流れは以下の通りです。最新の選考内容は<a href="https://corp.zozo.com/recruit/mid-career/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">公式中途採用ページ</a>でご確認ください。
+            ZOZOの中途採用は、コーディングテストを実施せず、現場エンジニアとの面接で技術力を見極めるのが特徴です。公開情報をもとにした一般的な流れは以下の通りです。最新の選考内容は<a href="https://corp.zozo.com/recruit/mid-career/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式中途採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>エントリー（公式採用ページ／エージェント経由）</li>
@@ -236,12 +236,12 @@ export default function ZozoCompanyPage() {
             公開情報や口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>実務での開発経験と、技術的な意思決定を対話で説明できるか</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>現場エンジニアとの「一緒に働きたいか」という相互理解・カルチャーフィット</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>大規模EC・マイクロサービス等のドメインへの理解・関心</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>自分の強み・志向を自分の言葉で語れるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>実務での開発経験と、技術的な意思決定を対話で説明できるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>現場エンジニアとの「一緒に働きたいか」という相互理解・カルチャーフィット</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>大規模EC・マイクロサービス等のドメインへの理解・関心</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>自分の強み・志向を自分の言葉で語れるか</li>
           </ul>
-          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>も参考にしてください。</p>
+          <p className="text-sm text-slate-600 mt-3">技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -254,7 +254,7 @@ export default function ZozoCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。ZOZOの全社員平均（656万円）は販売・物流など全職種を含む値であり、エンジニア職の提示はポジション・グレード次第です。前期から全社平均が減少している点も踏まえ、提示額は個別求人で必ず確認しましょう。
             </p>
             <p>
-              働き方は、コアタイムなしのフレックスで残業少なめ・有給を取得しやすいという口コミ傾向がある一方、部署差の指摘もあります。面談時にチームの開発スタイルや働き方を確認しておくと安心です。<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収戦略</Link>も合わせて確認してください。
+              働き方は、コアタイムなしのフレックスで残業少なめ・有給を取得しやすいという口コミ傾向がある一方、部署差の指摘もあります。面談時にチームの開発スタイルや働き方を確認しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて確認してください。
             </p>
           </div>
         </section>
@@ -267,13 +267,13 @@ export default function ZozoCompanyPage() {
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。EC系企業への提案実績が豊富で提案スピードが速い。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイト。カジュアル面談で社風を把握しやすい。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -294,7 +294,7 @@ export default function ZozoCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ZOZOへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">EC系・Web系企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -308,7 +308,7 @@ export default function ZozoCompanyPage() {
               { name: "技術面接の対策", href: "/knowledge/tech-interview/" },
               { name: "30代エンジニアの転職事情", href: "/age/30s/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

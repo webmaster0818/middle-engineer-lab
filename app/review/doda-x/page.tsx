@@ -209,7 +209,7 @@ export default function DodaXReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：年収700万円超の30代後半〜40代が、待ち型でハイクラス転職を狙う用途に強い</span>。一言でいえば「在職中で時間がなく、年収800万円前後以上のスカウトを受け取りたい経験者」向けのサービスです。
@@ -225,7 +225,7 @@ export default function DodaXReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -266,7 +266,7 @@ export default function DodaXReview() {
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
             ポイントは「担当に伴走してほしいか（エージェント型のdoda・doda IT）／スカウトを待ちたいか（doda X）」の違いです。doda ITのエージェント型レビューは
-            <Link href="/review/doda-it/" className="text-blue-700 underline">review/doda-it</Link>
+            <Link href="/review/doda-it/" className="text-petrol-deep underline">review/doda-it</Link>
             で別途扱っています。本記事はあくまでスカウト型のdoda Xのレビューです。
           </p>
         </section>
@@ -314,21 +314,21 @@ export default function DodaXReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">doda X の特徴・強み</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 年収800万円以上の求人比率が高い</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 公開求人約106,491件のうち、年収800万円以上が約95,069件、1,000万円以上が約50,902件（いずれも二次情報・2026年5月時点）。ハイクラスに明確に照準を合わせた構成で、年収を一段上げたいミドル層に向いています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. ヘッドハンターの質と再利用意向</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 約7,300人（2025年4月時点）のヘッドハンターが在籍し、再利用意向は89.8%（二次情報）。業界知識を踏まえた提案を受けやすく、リピートされる満足度の高さがうかがえます。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 待ち型で在職中でも進めやすい</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 レジュメを登録しておけばスカウトが届く受け身の仕組みのため、在職中で時間が取りづらいミドル層でも活動を続けやすいのが強みです。自分では見つけにくい非公開のハイクラス求人に出会えます。
               </p>
             </div>
@@ -467,7 +467,7 @@ export default function DodaXReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -484,16 +484,16 @@ export default function DodaXReview() {
             doda X はハイクラス・待ち型が強み。自分から動けるエージェント型のdoda IT、両面型でコンサルが伴走するJACリクルートメント、同じくスカウト型のビズリーチなどと使い分けるのが定石です。スカウト型同士（doda X・ビズリーチ）はレジュメを登録して待つ仕組みが共通します。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/doda-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/doda-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               doda IT（エージェント型）の評判 →
             </Link>
-            <Link href="/review/bizreach-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/bizreach-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ビズリーチ（IT）の評判 →
             </Link>
-            <Link href="/compare/highclass/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/highclass/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               ハイクラス向けエージェント比較 →
             </Link>
-            <Link href="/compare/40s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/40s-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               40代エンジニア向けエージェント比較 →
             </Link>
           </div>
@@ -521,7 +521,7 @@ export default function DodaXReview() {
           <p className="text-blue-100 text-sm mb-4">
             レジュメを登録して、ハイクラスのスカウトを受け取ってみませんか？まずは市場価値の確認から。
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料でレジュメを登録する
           </a>
         </section>
@@ -531,7 +531,7 @@ export default function DodaXReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -121,14 +121,14 @@ export default function DesignerToFrontendPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：デザインは強い武器。鍵はJSとReactの習得</h2>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・HTML/CSSとデザインの素養が土台。まったくの異職種より移行しやすい部類。</li>
@@ -146,7 +146,7 @@ export default function DesignerToFrontendPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-blue-50">
+                <tr className="bg-petrol-soft">
                   <th className="text-left px-4 py-3 font-medium text-slate-700">比較軸</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">Webデザイナー（現職）</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">フロントエンド（転職先）</th>
@@ -172,7 +172,7 @@ export default function DesignerToFrontendPage() {
           <div className="space-y-4">
             {buildSteps.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p>
@@ -220,7 +220,7 @@ export default function DesignerToFrontendPage() {
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※技術・実績は自分のものに置き換えてください。型は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオの作り方</Link>を参照。
+            ※技術・実績は自分のものに置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>を参照。
           </p>
         </section>
 
@@ -240,7 +240,7 @@ export default function DesignerToFrontendPage() {
             {agents.map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">
-                  <Link href={agent.href} className="text-blue-700 hover:underline">{agent.name}</Link>
+                  <Link href={agent.href} className="text-petrol-deep hover:underline">{agent.name}</Link>
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">{agent.point}</p>
               </div>
@@ -257,7 +257,7 @@ export default function DesignerToFrontendPage() {
             鍵は、デザインという強みを実装と掛け合わせ、「なぜこの年齢でエンジニアに移るのか」に一貫した答えを用意することです。純粋なフロント職に正面から挑むより、デザインエンジニア・UIエンジニアなど、デザイン素養が差別化要因になる入口を選ぶと勝率が上がります。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            在職中に学習を始め、デザイン×実装の作品を1つ作って続けられるかを見極めましょう。<Link href="/knowledge/inexperienced-30s/" className="text-blue-600 hover:underline">30代未経験からのエンジニア転職</Link>も参考になります。年収は<Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>も確認しておきましょう。
+            在職中に学習を始め、デザイン×実装の作品を1つ作って続けられるかを見極めましょう。<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのエンジニア転職</Link>も参考になります。年収は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も確認しておきましょう。
           </p>
         </section>
 
@@ -279,7 +279,7 @@ export default function DesignerToFrontendPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">フロントエンド転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">デザイン経験を活かせるフロント／デザインエンジニア求人をプロが提案します。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -288,7 +288,7 @@ export default function DesignerToFrontendPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

@@ -127,7 +127,7 @@ export default function ProbationPage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ul>
@@ -135,7 +135,7 @@ export default function ProbationPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：試用期間も通常の労働契約。過度に怖がらない</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・試用期間中でも<strong>労働者としての基本的な保護は適用される</strong>のが一般的な考え方。</li>
@@ -193,7 +193,7 @@ export default function ProbationPage() {
           <div className="space-y-4">
             {leaveCriteria.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -208,7 +208,7 @@ export default function ProbationPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">短期離職を次の転職でどう説明するか</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             試用期間中の退職は「説明の仕方」で印象が大きく変わります。ポイントは、(1) 誰が聞いても納得できる客観的な事実を起点にすること、(2) 不満ではなく次にやりたいことに着地させること、(3) 同じ失敗を繰り返さない再発防止策を示すことです。転職回数が多い場合の見せ方は
-            <Link href="/knowledge/job-hopping/" className="text-blue-600 hover:underline">転職回数が多い場合の対策</Link>
+            <Link href="/knowledge/job-hopping/" className="text-petrol hover:underline">転職回数が多い場合の対策</Link>
             も参考になります。
           </p>
         </section>
@@ -220,16 +220,16 @@ export default function ProbationPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">① 技術スタックのミスマッチ</h3>
               <p className="text-sm text-slate-600 bg-slate-50 rounded p-3 mb-2"><strong>Before:</strong>「面接の説明と全然違って、レガシーな環境で嫌になってしまって……」</p>
-              <p className="text-sm text-slate-600 bg-blue-50 rounded p-3"><strong>After:</strong>「入社前は◯◯（モダンなスタック）での開発と伺っていましたが、実際は△△の保守が中心でした。自分が伸ばしたい◯◯のスキルを活かせる環境で長く貢献したいと考え、転職を決めました。」</p>
+              <p className="text-sm text-slate-600 bg-petrol-soft rounded p-3"><strong>After:</strong>「入社前は◯◯（モダンなスタック）での開発と伺っていましたが、実際は△△の保守が中心でした。自分が伸ばしたい◯◯のスキルを活かせる環境で長く貢献したいと考え、転職を決めました。」</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">② 役割・業務範囲の相違</h3>
               <p className="text-sm text-slate-600 bg-slate-50 rounded p-3 mb-2"><strong>Before:</strong>「開発がやりたかったのに雑用ばかりで、聞いていた話と違いました」</p>
-              <p className="text-sm text-slate-600 bg-blue-50 rounded p-3"><strong>After:</strong>「設計・実装に主体的に携われると理解して入社しましたが、実際の役割は想定と異なりました。次は◯◯領域で開発の中核を担い、成果を出していきたいと考えています。」</p>
+              <p className="text-sm text-slate-600 bg-petrol-soft rounded p-3"><strong>After:</strong>「設計・実装に主体的に携われると理解して入社しましたが、実際の役割は想定と異なりました。次は◯◯領域で開発の中核を担い、成果を出していきたいと考えています。」</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">③ 再発防止を添える一文</h3>
-              <p className="text-sm text-slate-600 bg-blue-50 rounded p-3">「前回はミスマッチを防ぎきれなかった反省から、今回は◯◯（技術スタック・役割・チーム体制）を具体的に確認したうえで応募しています。御社では長期的に貢献したいと考えています。」</p>
+              <p className="text-sm text-slate-600 bg-petrol-soft rounded p-3">「前回はミスマッチを防ぎきれなかった反省から、今回は◯◯（技術スタック・役割・チーム体制）を具体的に確認したうえで応募しています。御社では長期的に貢献したいと考えています。」</p>
             </div>
           </div>
         </section>
@@ -241,7 +241,7 @@ export default function ProbationPage() {
             <ul className="space-y-3 text-sm text-slate-600">
               {checklist.map((item, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="text-blue-600 font-bold mt-0.5">✓</span>
+                  <span className="text-petrol font-bold mt-0.5">✓</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -258,7 +258,7 @@ export default function ProbationPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">実績の重心を「前々職まで」に置く</h3>
-              <p className="text-sm text-slate-600">直近の短期在籍は経緯を簡潔に説明し、アピールの中心は積み上げてきたキャリア全体に置きます。これまでの成果を整理する方法は<Link href="/knowledge/self-analysis/" className="text-blue-600 hover:underline">自己分析の進め方</Link>を参考に。</p>
+              <p className="text-sm text-slate-600">直近の短期在籍は経緯を簡潔に説明し、アピールの中心は積み上げてきたキャリア全体に置きます。これまでの成果を整理する方法は<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析の進め方</Link>を参考に。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">次こそミスマッチを防ぐ「確認力」を示す</h3>
@@ -266,7 +266,7 @@ export default function ProbationPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">在職中に動いてブランクを作らない</h3>
-              <p className="text-sm text-slate-600">ミドル層はブランクが長引くほど不利になりやすいため、可能な限り在職中に次を決めてから退職します。在職中の進め方は<Link href="/knowledge/timeline/" className="text-blue-600 hover:underline">転職スケジュール</Link>を参照してください。</p>
+              <p className="text-sm text-slate-600">ミドル層はブランクが長引くほど不利になりやすいため、可能な限り在職中に次を決めてから退職します。在職中の進め方は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>を参照してください。</p>
             </div>
           </div>
         </section>
@@ -295,7 +295,7 @@ export default function ProbationPage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -315,7 +315,7 @@ export default function ProbationPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

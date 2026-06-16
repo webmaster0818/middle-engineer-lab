@@ -55,14 +55,14 @@ export default function ContinuousLearningPage() {
         {/* 目次 */}
         <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-blue-700">
+          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-petrol-deep">
             {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="hover:underline">{t.label}</a></li>))}
           </ol>
         </nav>
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：ミドルの学習は「量」より「選定」と「仕組み化」</h2>
             <ul className="text-sm text-blue-900 space-y-2 leading-relaxed">
               <li>・学ぶ対象は<strong>「今の業務で困っていること」＋「市場で需要のある方向」</strong>に絞る。網羅は捨てる。</li>
@@ -90,10 +90,10 @@ export default function ContinuousLearningPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">何を学ぶか：4つの方向性</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">時間が限られるミドルは「全部」を狙えません。次の4方向から、今の自分に必要なものを1〜2つ選びます。</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+            <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-5">
               <h3 className="font-bold text-blue-800 mb-3">1. 深掘り（Deepening）</h3>
-              <p className="text-sm text-blue-700 mb-2">今の専門分野をさらに深める。</p>
-              <ul className="text-sm text-blue-600 space-y-1">
+              <p className="text-sm text-petrol-deep mb-2">今の専門分野をさらに深める。</p>
+              <ul className="text-sm text-petrol space-y-1">
                 <li>・パフォーマンスチューニング</li>
                 <li>・分散システムの設計パターン</li>
                 <li>・セキュリティの専門知識</li>
@@ -129,7 +129,7 @@ export default function ContinuousLearningPage() {
           </div>
           <p className="text-slate-600 text-sm mt-4">
             「市場でどの方向が求められているか」が分からないときは、気になる求人の技術要件を分析するのが手っ取り早い方法です。やり方は
-            <Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>を参照してください。
+            <Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参照してください。
           </p>
         </section>
 
@@ -151,7 +151,7 @@ export default function ContinuousLearningPage() {
             </div>
           </div>
           <p className="text-slate-600 text-sm mt-4">
-            年代ごとの転職の実態は<Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代エンジニアの年収</Link>・<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニアの転職リアル</Link>もあわせてどうぞ。
+            年代ごとの転職の実態は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収</Link>・<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニアの転職リアル</Link>もあわせてどうぞ。
           </p>
         </section>
 
@@ -224,7 +224,7 @@ export default function ContinuousLearningPage() {
             </table>
           </div>
           <p className="text-slate-600 text-sm">
-            最も効率的なのは<strong>業務と学習を統合する</strong>こと。「次のプロジェクトで新しい技術を試したい」と提案できれば、業務時間が学習時間になります。アウトプット駆動（ブログ・社内LT前提で学ぶ）も定着を加速させます。個人開発で伸ばす方法は<Link href="/knowledge/side-project/" className="text-blue-600 hover:underline">副業・個人開発でスキルを伸ばす</Link>を参照してください。
+            最も効率的なのは<strong>業務と学習を統合する</strong>こと。「次のプロジェクトで新しい技術を試したい」と提案できれば、業務時間が学習時間になります。アウトプット駆動（ブログ・社内LT前提で学ぶ）も定着を加速させます。個人開発で伸ばす方法は<Link href="/knowledge/side-project/" className="text-petrol hover:underline">副業・個人開発でスキルを伸ばす</Link>を参照してください。
           </p>
         </section>
 
@@ -261,7 +261,7 @@ export default function ContinuousLearningPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">市場で求められるスキルをプロに聞こう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、最新の技術トレンドと求人での需要を踏まえ、学ぶべき方向のアドバイスがもらえます。転職予定がなくても市場感の把握に役立ちます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -274,7 +274,7 @@ export default function ContinuousLearningPage() {
               { name: "ポートフォリオ作成ガイド", href: "/knowledge/portfolio/" },
               { name: "40代エンジニアの転職リアル", href: "/knowledge/40s-reality/" },
               { name: "マネジメント転身ガイド", href: "/knowledge/management/" },
-            ].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            ].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

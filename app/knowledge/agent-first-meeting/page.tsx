@@ -144,7 +144,7 @@ export default function AgentFirstMeetingPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：準備の質が紹介の質を決める</h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
               <li>・事前に<strong>経歴・転職理由・希望条件の優先順位</strong>の3点を整理しておく。これが紹介精度を決める。</li>
@@ -160,7 +160,7 @@ export default function AgentFirstMeetingPage() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2">
             {sections.map((s) => (
               <li key={s.id}>
-                <a href={`#${s.id}`} className="text-sm text-blue-600 hover:underline">{s.label}</a>
+                <a href={`#${s.id}`} className="text-sm text-petrol hover:underline">{s.label}</a>
               </li>
             ))}
           </ul>
@@ -175,7 +175,7 @@ export default function AgentFirstMeetingPage() {
           <div className="space-y-4">
             {flow.map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -228,9 +228,9 @@ export default function AgentFirstMeetingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">伝えるべきこと</h2>
           <div className="space-y-4">
             {tell.map((t, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{i + 1}. {t.t}</h3>
-                <p className="text-sm text-blue-700">{t.d}</p>
+                <p className="text-sm text-petrol-deep">{t.d}</p>
               </div>
             ))}
           </div>
@@ -242,7 +242,7 @@ export default function AgentFirstMeetingPage() {
           <div className="space-y-4">
             {after.map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600">{item.desc}</p>
@@ -251,7 +251,7 @@ export default function AgentFirstMeetingPage() {
             ))}
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            複数社の使い分けは<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェントの活用法</Link>も参考にしてください。
+            複数社の使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェントの活用法</Link>も参考にしてください。
           </p>
         </section>
 
@@ -266,7 +266,7 @@ export default function AgentFirstMeetingPage() {
               市場全体としては、経済産業省が2019年に公表した試算で2030年に最大約79万人のIT人材不足が見込まれており、経験者の需要は底堅い状況です。年齢だけで過度に悲観する必要はありませんが、『何ができるか』を具体的に語れることが前提になります。実務での判断や成果を棚卸ししておくと、市場価値のフィードバックも精度が上がります。
             </p>
             <p>
-              また、ミドル世代こそ<strong>担当者との相性</strong>を見極めましょう。提案が的外れだったり、年収交渉に消極的だったりする場合は、担当変更や他社併用を遠慮なく検討してよい場面です。自分の市場価値の把握には<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>も合わせて活用してください。
+              また、ミドル世代こそ<strong>担当者との相性</strong>を見極めましょう。提案が的外れだったり、年収交渉に消極的だったりする場合は、担当変更や他社併用を遠慮なく検討してよい場面です。自分の市場価値の把握には<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>も合わせて活用してください。
             </p>
           </div>
         </section>
@@ -293,7 +293,7 @@ export default function AgentFirstMeetingPage() {
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントなら、エンジニアの転職に精通したアドバイザーが無料で相談に乗ってくれます。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -309,7 +309,7 @@ export default function AgentFirstMeetingPage() {
               { name: "市場価値の調べ方", href: "/knowledge/market-value/" },
               { name: "エージェントの選び方", href: "/knowledge/how-to-choose/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

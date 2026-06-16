@@ -202,7 +202,7 @@ export default function ItproPartnersReview() {
 
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：週2-3日・副業・独立準備のミドルに最適</span>。一言でいえば「本業と並行したい、あるいは独立準備のために柔軟に働きたい経験者」向けのサービスです。
@@ -218,7 +218,7 @@ export default function ItproPartnersReview() {
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-blue-700">
+          <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">
@@ -255,27 +255,27 @@ export default function ItproPartnersReview() {
         <section id="strength" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ITプロパートナーズの特徴・強み（週2-3日・リモート）</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 週2〜3日・リモート案件の多さが業界トップクラス</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 少日数案件が全体の3〜4割を占めるとされ、リモート可案件も豊富です。週5常駐が前提になりがちなフリーランス市場の中で、柔軟な働き方を選べる点が最大の差別化ポイントです。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. エンド直9割で単価が高め</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 エンド企業からの直請けが約9割で、中間マージンが抑えられ単価が高めになりやすい構造です。少日数でも単価効率を確保しやすく、時間あたりの収入を重視する働き方に向いています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 起業・独立準備フェーズと相性が良い</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 スタートアップ系の案件も扱い、週数日の案件で生活費を確保しながら自分の事業や学習に時間を割く、という使い方ができます。独立を一気に決めずに段階的に準備したい層に適しています。
               </p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 副業・複業で収入を分散できる</h3>
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-petrol-deep">
                 本業を持ちながら週数日の案件を組み合わせることで、収入源を分散できます。1社依存のリスクを下げたいミドル層にとって、ポートフォリオ的な働き方の入り口になります。
               </p>
             </div>
@@ -343,7 +343,7 @@ export default function ItproPartnersReview() {
             </ul>
             <p>
               この「試しながら準備する」アプローチは、家族やローンを抱える30代・40代がリスクを抑えて独立を検討するうえで合理的です。合わなければ正社員に戻る選択肢も残せます（
-              <Link href="/career/freelance-to-permanent/" className="text-blue-600 hover:underline">フリーランスから正社員に戻るキャリア</Link>
+              <Link href="/career/freelance-to-permanent/" className="text-petrol hover:underline">フリーランスから正社員に戻るキャリア</Link>
               ）。
             </p>
           </div>
@@ -368,11 +368,11 @@ export default function ItproPartnersReview() {
             </p>
             <p>
               なお、安定や福利厚生を最優先するなら保障型の
-              <Link href="/review/midworks/" className="text-blue-600 hover:underline">Midworks</Link>
+              <Link href="/review/midworks/" className="text-petrol hover:underline">Midworks</Link>
               、そもそも安定した正社員雇用を希望するなら正社員転職の
-              <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               に相談するのが近道です。フリーランスと正社員のどちらが自分に合うかは
-              <Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスと正社員の比較</Link>
+              <Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスと正社員の比較</Link>
               も参考にしてください。
             </p>
           </div>
@@ -415,7 +415,7 @@ export default function ItproPartnersReview() {
           <div className="space-y-3">
             {flow.map((f, i) => (
               <div key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <div className="shrink-0 text-blue-700 font-bold text-sm w-16">{f.step}</div>
+                <div className="shrink-0 text-petrol-deep font-bold text-sm w-16">{f.step}</div>
                 <div>
                   <h3 className="font-bold text-slate-800 text-sm mb-1">{f.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{f.body}</p>
@@ -449,16 +449,16 @@ export default function ItproPartnersReview() {
             </table>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech-freelance/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテックフリーランス（単価・案件量）の評判 →
             </Link>
-            <Link href="/review/midworks/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/midworks/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               Midworks（保障で安定）の評判 →
             </Link>
-            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/compare/freelance-agents/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               フリーランスエージェント比較 →
             </Link>
-            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               安定雇用ならレバテックキャリア →
             </Link>
           </div>
@@ -486,7 +486,7 @@ export default function ItproPartnersReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは無料相談で、週2〜3日・リモートで参画できる案件を確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料相談を予約する
           </a>
         </section>
@@ -496,7 +496,7 @@ export default function ItproPartnersReview() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

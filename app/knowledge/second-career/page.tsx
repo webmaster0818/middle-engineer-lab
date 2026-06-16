@@ -277,7 +277,7 @@ export default function SecondCareerPage() {
         {/* 目次 */}
         <nav className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>
-          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-blue-700">
+          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm text-petrol-deep">
             {toc.map((t) => (
               <li key={t.id}>
                 <a href={`#${t.id}`} className="hover:underline">{t.label}</a>
@@ -288,7 +288,7 @@ export default function SecondCareerPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：セカンドキャリアは「年収」ではなく「価値の出し方」で選ぶ</h2>
             <ul className="text-sm text-blue-900 space-y-2 leading-relaxed">
               <li>・選択肢は大きく<strong>7つ</strong>。人・組織を動かす（PM/EM）、課題を解く（ITコンサル）、伝える（講師）、顧客とつなぐ（CRE）、書く（テクニカルライター）、事業を支える（社内SE）、自分で稼ぐ（独立）。</li>
@@ -361,7 +361,7 @@ export default function SecondCareerPage() {
                   <div className="flex gap-2"><dt className="font-bold text-slate-700 shrink-0 w-28">収入の考え方</dt><dd>{d.income}</dd></div>
                 </dl>
                 {d.link && (
-                  <Link href={d.link.href} className="text-sm text-blue-700 hover:underline font-medium">
+                  <Link href={d.link.href} className="text-sm text-petrol-deep hover:underline font-medium">
                     詳しく見る：{d.link.label} →
                   </Link>
                 )}
@@ -405,7 +405,7 @@ export default function SecondCareerPage() {
           <div className="space-y-4">
             {steps.map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
                   {item.num}
                 </span>
                 <div>
@@ -436,7 +436,7 @@ export default function SecondCareerPage() {
             </p>
           </div>
           <p className="text-slate-600 leading-relaxed">
-            一方で、社内SEのように「残業が少なく安定」を選ぶと年収は横ばい〜やや控えめになるケースもあります。収入は<strong>「金額」と「時間・安定・発展性」のトレードオフ</strong>で見ることが大切です。自分の市場価値の調べ方は <Link href="/knowledge/market-value/" className="text-blue-700 hover:underline">市場価値の調べ方</Link> も参考にしてください。
+            一方で、社内SEのように「残業が少なく安定」を選ぶと年収は横ばい〜やや控えめになるケースもあります。収入は<strong>「金額」と「時間・安定・発展性」のトレードオフ</strong>で見ることが大切です。自分の市場価値の調べ方は <Link href="/knowledge/market-value/" className="text-petrol-deep hover:underline">市場価値の調べ方</Link> も参考にしてください。
           </p>
         </section>
 
@@ -448,28 +448,28 @@ export default function SecondCareerPage() {
           </p>
           <ul className="space-y-3 mb-4">
             <li className="flex gap-3 text-sm text-slate-600">
-              <span className="text-blue-600 font-bold shrink-0">●</span>
+              <span className="text-petrol font-bold shrink-0">●</span>
               <span><strong>「未経験ゼロから」より「経験の翻訳」が現実的。</strong>40代・50代で全く新しい職種にゼロから挑むのは時間的に不利。これまで担った領域を、新職種の言葉に置き換えて見せる戦略が通りやすい。</span>
             </li>
             <li className="flex gap-3 text-sm text-slate-600">
-              <span className="text-blue-600 font-bold shrink-0">●</span>
+              <span className="text-petrol font-bold shrink-0">●</span>
               <span><strong>ドメイン知識・人脈が最大の武器。</strong>特定業界（金融・医療・製造など）の深い理解や社内外の人脈は、若手にはない強み。ITコンサル・社内SE・CREでそのまま価値になる。</span>
             </li>
             <li className="flex gap-3 text-sm text-slate-600">
-              <span className="text-blue-600 font-bold shrink-0">●</span>
+              <span className="text-petrol font-bold shrink-0">●</span>
               <span><strong>社内SE・講師は年齢の壁が比較的低い受け皿。</strong>幅広い技術と調整力が求められる社内SE、経験の伝達が価値になる講師は、40代・50代の需要が一定ある。</span>
             </li>
             <li className="flex gap-3 text-sm text-slate-600">
-              <span className="text-blue-600 font-bold shrink-0">●</span>
+              <span className="text-petrol font-bold shrink-0">●</span>
               <span><strong>収入は「金額の最大化」だけで決めない。</strong>家族・健康・働く年数を踏まえ、安定・労働時間とのバランスで選ぶ方が長期的な満足度は高い。</span>
             </li>
             <li className="flex gap-3 text-sm text-slate-600">
-              <span className="text-blue-600 font-bold shrink-0">●</span>
+              <span className="text-petrol font-bold shrink-0">●</span>
               <span><strong>独立は「実績・人脈・資金」が揃ってから。</strong>年齢が上がるほど再就職のハードルも上がるため、生活防衛資金と継続案件の見通しを確認してから踏み切る。</span>
             </li>
           </ul>
           <p className="text-slate-600 leading-relaxed">
-            40代以降の動き方は <Link href="/knowledge/40s-reality/" className="text-blue-700 hover:underline">40代エンジニア転職の現実</Link> や <Link href="/knowledge/salary-40s/" className="text-blue-700 hover:underline">40代エンジニアの年収事情</Link> で具体的に整理しています。
+            40代以降の動き方は <Link href="/knowledge/40s-reality/" className="text-petrol-deep hover:underline">40代エンジニア転職の現実</Link> や <Link href="/knowledge/salary-40s/" className="text-petrol-deep hover:underline">40代エンジニアの年収事情</Link> で具体的に整理しています。
           </p>
         </section>
 
@@ -538,7 +538,7 @@ export default function SecondCareerPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">セカンドキャリアの方向性をプロに相談</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、開発経験を前提にPM/EM・コンサル・社内SEまで含めた求人提案と、市場価値の客観情報が得られます。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントランキングを見る</Link>
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
@@ -552,7 +552,7 @@ export default function SecondCareerPage() {
               { name: "フリーランスと正社員の比較", href: "/knowledge/freelance-vs-fulltime/" },
               { name: "40代エンジニア転職の現実", href: "/knowledge/40s-reality/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}
           </div>
         </section>

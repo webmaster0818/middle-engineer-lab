@@ -114,7 +114,7 @@ export default function FortyRealityPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -122,7 +122,7 @@ export default function FortyRealityPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="border-l-4 border-blue-600 bg-blue-50 rounded-r-xl p-6">
+          <div className="border-l-4 border-petrol bg-petrol-soft rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：40代転職のリアルを一言で</h2>
             <p className="text-slate-700 leading-relaxed mb-3">
               40代エンジニアの転職は「求人の<strong>数</strong>は確実に絞られるが、<strong>1件あたりの年収水準は高く</strong>、専門性・マネジメント・直近のキャッチアップの3点が揃えば年収アップも十分狙える」のが現実です。
@@ -219,7 +219,7 @@ export default function FortyRealityPage() {
             </table>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            年代ごとの年収相場や戦略は<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代エンジニアの年収戦略</Link>、35歳前後の壁については<Link href="/age/35/" className="text-blue-600 hover:underline">35歳エンジニアの転職</Link>も合わせて確認すると立体的に把握できます。
+            年代ごとの年収相場や戦略は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収戦略</Link>、35歳前後の壁については<Link href="/age/35/" className="text-petrol hover:underline">35歳エンジニアの転職</Link>も合わせて確認すると立体的に把握できます。
           </p>
         </section>
 
@@ -256,7 +256,7 @@ export default function FortyRealityPage() {
               { num: "4", title: "フリーランス併走型", desc: "正社員にこだわらず高単価案件で年収を確保する道。安定性は下がるが、専門性が高い40代には現実的な選択肢。詳細は関連記事を参照。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{item.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p>
@@ -265,7 +265,7 @@ export default function FortyRealityPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            正社員かフリーランスかで迷う場合は<Link href="/knowledge/freelance-vs-fulltime/" className="text-blue-600 hover:underline">フリーランスvs正社員</Link>、マネジメントへ寄せるなら<Link href="/knowledge/management/" className="text-blue-600 hover:underline">エンジニアからマネジメントへ</Link>が参考になります。
+            正社員かフリーランスかで迷う場合は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員</Link>、マネジメントへ寄せるなら<Link href="/knowledge/management/" className="text-petrol hover:underline">エンジニアからマネジメントへ</Link>が参考になります。
           </p>
         </section>
 
@@ -282,8 +282,8 @@ export default function FortyRealityPage() {
                 「大手SIerにて15年間、開発からプロジェクトリーダーまで幅広く担当。マネジメント経験あり。」
               </p>
             </div>
-            <div className="border border-blue-200 rounded-lg overflow-hidden">
-              <div className="bg-blue-50 px-4 py-2 text-sm font-bold text-blue-800">After（即戦力性が伝わる例）</div>
+            <div className="border border-[var(--line)] rounded-lg overflow-hidden">
+              <div className="bg-petrol-soft px-4 py-2 text-sm font-bold text-blue-800">After（即戦力性が伝わる例）</div>
               <p className="px-4 py-3 text-sm text-slate-600 leading-relaxed">
                 「金融系基幹システムのバックエンドを軸に15年。直近5年はAWS移行プロジェクトでテックリード（チーム6名）を担当し、オンプレからのクラウド移行で運用コストを年間約20%削減。CI/CD整備によりリリース頻度を月1回→週1回に改善。直近は個人開発でGo＋コンテナ構成のAPIを設計・公開し、モダン開発の手を動かし続けている。」
               </p>
@@ -299,7 +299,7 @@ export default function FortyRealityPage() {
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            職務経歴書の基本フォーマットは<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>で詳しく解説しています。
+            職務経歴書の基本フォーマットは<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>で詳しく解説しています。
           </p>
         </section>
 
@@ -318,13 +318,13 @@ export default function FortyRealityPage() {
               "目先の額面だけでなく、賞与比率・残業・リモート・裁量を含めた実質条件で判断する",
             ].map((s, i) => (
               <div key={i} className="flex gap-3 items-start border border-slate-200 rounded-lg p-4">
-                <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white font-bold text-xs shrink-0">{i + 1}</span>
+                <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white font-bold text-xs shrink-0">{i + 1}</span>
                 <p className="text-sm text-slate-600 leading-relaxed">{s}</p>
               </div>
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            交渉の具体的な進め方は<Link href="/knowledge/salary-negotiation/" className="text-blue-600 hover:underline">年収交渉の進め方</Link>、複数内定の比較は<Link href="/knowledge/offer-compare/" className="text-blue-600 hover:underline">オファー比較</Link>を参照してください。
+            交渉の具体的な進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>、複数内定の比較は<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">オファー比較</Link>を参照してください。
           </p>
         </section>
 
@@ -343,7 +343,7 @@ export default function FortyRealityPage() {
                 "年下上司・新しいやり方を受け入れる姿勢を具体例で語れる",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2.5 items-start">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>
+                  <span className="text-petrol font-bold shrink-0">✓</span>
                   <span>{c}</span>
                 </li>
               ))}
@@ -372,7 +372,7 @@ export default function FortyRealityPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            自分の市場価値を客観把握したい場合は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>、年齢の壁の実態は<Link href="/knowledge/age-discrimination/" className="text-blue-600 hover:underline">エンジニア転職の年齢の壁</Link>も参考になります。
+            自分の市場価値を客観把握したい場合は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、年齢の壁の実態は<Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">エンジニア転職の年齢の壁</Link>も参考になります。
           </p>
         </section>
 
@@ -398,7 +398,7 @@ export default function FortyRealityPage() {
           <p className="text-blue-100 text-sm mb-4">
             ハイクラス・IT特化のエージェントに登録すれば、自分にどんな年収・ポジションの提案が来るかが分かります。現在地の把握から始めましょう。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -417,7 +417,7 @@ export default function FortyRealityPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

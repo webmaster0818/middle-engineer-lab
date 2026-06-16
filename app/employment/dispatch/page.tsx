@@ -138,15 +138,15 @@ export default function DispatchPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：派遣は「正社員への通過点」として戦略的に使える</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               派遣から正社員になる道は1つではありません。なかでも<strong>紹介予定派遣は直接雇用を前提とした仕組み</strong>で、厚労省の令和4年度集計では直接雇用化率が約56.5%と、半数強が直接雇用に至っています。実際に働いて相性を確認してから正社員化を判断できるため、ミスマッチを避けたい人に向きます。雇用の安定をまず得たいなら無期雇用派遣、待遇改善を最短で狙うなら正社員転職と、目的に応じてルートを選べます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">1.</span>正社員化のルートは「派遣先登用」「紹介予定派遣」「無期雇用派遣」「転職」の4つ。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">2.</span>紹介予定派遣の直接雇用化率は約56.5%（厚労省 令和4年度集計／2026年6月時点引用）。</li>
-              <li className="flex gap-2"><span className="text-blue-600 font-bold shrink-0">3.</span>派遣の経験は実務経験として正社員転職でも評価される。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>正社員化のルートは「派遣先登用」「紹介予定派遣」「無期雇用派遣」「転職」の4つ。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>紹介予定派遣の直接雇用化率は約56.5%（厚労省 令和4年度集計／2026年6月時点引用）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>派遣の経験は実務経験として正社員転職でも評価される。</li>
             </ul>
           </div>
         </section>
@@ -157,7 +157,7 @@ export default function DispatchPage() {
           <ol className="space-y-1.5 text-sm">
             {toc.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} className="text-blue-600 hover:underline">{item.label}</a>
+                <a href={`#${item.id}`} className="text-petrol hover:underline">{item.label}</a>
               </li>
             ))}
           </ol>
@@ -170,7 +170,7 @@ export default function DispatchPage() {
             派遣は、<strong>派遣元（派遣会社）と労働契約を結び、実際の指揮命令は派遣先が行う</strong>働き方です。雇用主は派遣元なので、社会保険・雇用保険・労災は派遣元を通じて適用されます。派遣社員は労働者派遣法に基づく「労働者」であり、業務委託（事業主扱い）とは性質が異なります。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            重要なのが<strong>3年ルール</strong>です。同一の組織単位での派遣就業は原則3年が上限で、この節目に派遣先での直接雇用、無期雇用派遣への切り替えなどが検討されます。雇用形態全体での位置づけは<Link href="/employment/" className="text-blue-600 hover:underline">エンジニアの雇用形態の違い</Link>で確認できます。
+            重要なのが<strong>3年ルール</strong>です。同一の組織単位での派遣就業は原則3年が上限で、この節目に派遣先での直接雇用、無期雇用派遣への切り替えなどが検討されます。雇用形態全体での位置づけは<Link href="/employment/" className="text-petrol hover:underline">エンジニアの雇用形態の違い</Link>で確認できます。
           </p>
         </section>
 
@@ -196,7 +196,7 @@ export default function DispatchPage() {
           <p className="text-slate-600 leading-relaxed mb-5">
             正社員化を狙ううえで最も有効なルートの一つが紹介予定派遣です。これは<strong>最初から直接雇用を前提</strong>に、原則最長6か月の派遣期間を経て、双方の合意で直接雇用に移行する仕組みです。実際に働いて職場との相性を確認できるため、ミスマッチによる早期離職を避けやすいのが特徴です。
           </p>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-3">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-3">
             <p className="text-sm text-blue-900 leading-relaxed mb-2">
               厚生労働省の令和4年度の集計では、紹介予定派遣を経て直接雇用に結びついた割合は<strong>約56.5%（26,313人中14,865人が直接雇用）</strong>でした。半数強が直接雇用に至っている計算で、正社員化の現実的な手段として機能していることがわかります。
             </p>
@@ -280,7 +280,7 @@ export default function DispatchPage() {
               { num: "4", title: "転職という選択肢も並行検討", desc: "現職での正社員化が見込みづらい場合は、実務経験を武器にした正社員転職が待遇改善の近道になることも。まず転職エージェントで市場価値を把握します。" },
             ].map((s, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm shrink-0">{s.num}</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{s.num}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{s.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{s.desc}</p>
@@ -289,7 +289,7 @@ export default function DispatchPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            実績の言語化は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>、市場価値の確認は<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の調べ方</Link>を参考にしてください。
+            実績の言語化は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>、市場価値の確認は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参考にしてください。
           </p>
         </section>
 
@@ -297,17 +297,17 @@ export default function DispatchPage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代が派遣から正社員を目指す視点</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：紹介予定派遣を「お試し正社員」として使う</h3>
-              <p className="text-sm text-blue-700">30代は実務経験が一定積み上がり、紹介予定派遣で直接雇用に至る確度を高めやすい時期です。直接雇用化率が約56.5%（厚労省 令和4年度集計）という数字も、30代の即戦力にとっては心強い目安です。職場との相性を確認してから正社員化できるため、ミスマッチによる早期離職を避けたい人に向いています。</p>
+              <p className="text-sm text-petrol-deep">30代は実務経験が一定積み上がり、紹介予定派遣で直接雇用に至る確度を高めやすい時期です。直接雇用化率が約56.5%（厚労省 令和4年度集計）という数字も、30代の即戦力にとっては心強い目安です。職場との相性を確認してから正社員化できるため、ミスマッチによる早期離職を避けたい人に向いています。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：実務経験を武器に直接雇用・転職を狙う</h3>
-              <p className="text-sm text-blue-700">40代は派遣で積んだ設計・運用・リーダー経験が評価されやすく、派遣先での直接雇用や正社員転職の交渉材料になります。受け身で派遣を続けるより、3年ルールの節目を意識して直接雇用化や転職を能動的に仕掛けることが、待遇改善の近道です。40代の転職戦略は<Link href="/age/40s/" className="text-blue-600 hover:underline">40代エンジニアの転職ガイド</Link>も参考になります。</p>
+              <p className="text-sm text-petrol-deep">40代は派遣で積んだ設計・運用・リーダー経験が評価されやすく、派遣先での直接雇用や正社員転職の交渉材料になります。受け身で派遣を続けるより、3年ルールの節目を意識して直接雇用化や転職を能動的に仕掛けることが、待遇改善の近道です。40代の転職戦略は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職ガイド</Link>も参考になります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">社会保険・年金の継続性を確認する</h3>
-              <p className="text-sm text-blue-700">派遣は派遣元を通じて厚生年金・健康保険に加入できますが、案件の切れ目で空白が生じると保険の継続に影響することがあります。無期雇用派遣に切り替えると雇用が継続するため、保険の面でも安定します。30代・40代は将来の年金にも関わるため、継続性を意識した形態選びが重要です。</p>
+              <p className="text-sm text-petrol-deep">派遣は派遣元を通じて厚生年金・健康保険に加入できますが、案件の切れ目で空白が生じると保険の継続に影響することがあります。無期雇用派遣に切り替えると雇用が継続するため、保険の面でも安定します。30代・40代は将来の年金にも関わるため、継続性を意識した形態選びが重要です。</p>
             </div>
           </div>
         </section>
@@ -334,7 +334,7 @@ export default function DispatchPage() {
           <p className="text-blue-100 text-sm mb-4">
             派遣で積んだ実務経験は、正社員転職で評価されます。まず転職エージェントで提示年収レンジを知り、現職での正社員化と比較しましょう。
           </p>
-          <Link href="/compare/agents/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/compare/agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             IT転職エージェント比較を見る
           </Link>
         </section>
@@ -351,7 +351,7 @@ export default function DispatchPage() {
               { name: "職務経歴書の書き方", href: "/knowledge/resume/" },
               { name: "市場価値の調べ方", href: "/knowledge/market-value/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

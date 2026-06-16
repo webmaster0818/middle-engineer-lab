@@ -107,7 +107,7 @@ export default function Inexperienced30sPage() {
           <ol className="space-y-2 text-sm">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a>
+                <a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a>
               </li>
             ))}
           </ol>
@@ -115,7 +115,7 @@ export default function Inexperienced30sPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <div className="border-l-4 border-blue-600 bg-blue-50 rounded-r-xl p-6">
+          <div className="border-l-4 border-petrol bg-petrol-soft rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：30代未経験の現実的な戦い方</h2>
             <p className="text-slate-700 leading-relaxed mb-3">
               30代未経験のIT転職は「<strong>現実的な入り口で実務経験を作り、2ステップでキャリアアップする</strong>」のが成功率の高い王道です。最初から理想の職種を狙うより、足場を固める方が結果的に早く到達できます。
@@ -176,21 +176,21 @@ export default function Inexperienced30sPage() {
             </table>
           </div>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-1.5">テスター／QAの注意点</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">手動テスト中心の現場に長居すると開発スキルが伸びにくい。テスト自動化（コードを書く領域）や開発へ移る計画を最初から持つこと。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">手動テスト中心の現場に長居すると開発スキルが伸びにくい。テスト自動化（コードを書く領域）や開発へ移る計画を最初から持つこと。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-1.5">SESの注意点</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">配属案件によって経験の質に差が出る（案件ガチャ）。面談で『どんな案件に入れるか』『開発に携われるか』を必ず確認し、運用監視だけで終わらない環境を選ぶ。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">配属案件によって経験の質に差が出る（案件ガチャ）。面談で『どんな案件に入れるか』『開発に携われるか』を必ず確認し、運用監視だけで終わらない環境を選ぶ。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-1.5">前職の掛け算を忘れない</h3>
-              <p className="text-sm text-blue-700 leading-relaxed">営業出身ならカスタマーサクセス、金融出身ならFinTechの社内SEなど、前職のドメイン知識が活きるポジションは未経験でも通りやすい。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">営業出身ならカスタマーサクセス、金融出身ならFinTechの社内SEなど、前職のドメイン知識が活きるポジションは未経験でも通りやすい。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            未経験向けの求人に強いエージェントの比較は<Link href="/compare/inexperienced/" className="text-blue-600 hover:underline">未経験向けエージェント比較</Link>を参照してください。
+            未経験向けの求人に強いエージェントの比較は<Link href="/compare/inexperienced/" className="text-petrol hover:underline">未経験向けエージェント比較</Link>を参照してください。
           </p>
         </section>
 
@@ -210,7 +210,7 @@ export default function Inexperienced30sPage() {
               { period: "6か月目", title: "転職活動開始", desc: "職務経歴書作成、エージェント登録、現実的な入り口の求人へ応募。学習は継続したまま進める。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="flex items-center justify-center min-w-[88px] h-8 rounded-full bg-blue-600 text-white font-bold text-xs shrink-0 px-2">{item.period}</span>
+                <span className="flex items-center justify-center min-w-[88px] h-8 rounded-full bg-petrol text-white font-bold text-xs shrink-0 px-2">{item.period}</span>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">{item.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p>
@@ -229,10 +229,10 @@ export default function Inexperienced30sPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-4">
             <p className="text-sm font-bold text-slate-700 mb-3">未経験者がpaizaを使うメリット</p>
             <ul className="text-sm text-slate-600 space-y-2">
-              <li className="flex gap-2.5 items-start"><span className="text-blue-600 font-bold shrink-0">✓</span><span>スキルが数値（ランク）で可視化され、『実績がない』弱点を客観指標で補える</span></li>
-              <li className="flex gap-2.5 items-start"><span className="text-blue-600 font-bold shrink-0">✓</span><span>学歴・経歴の壁が低く、コードで評価される（二次情報の評判）</span></li>
-              <li className="flex gap-2.5 items-start"><span className="text-blue-600 font-bold shrink-0">✓</span><span>高ランクなら年齢を問わずスカウトが届くという声がある</span></li>
-              <li className="flex gap-2.5 items-start"><span className="text-blue-600 font-bold shrink-0">✓</span><span>書類選考免除のケースがあり、職歴で弾かれにくい</span></li>
+              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>スキルが数値（ランク）で可視化され、『実績がない』弱点を客観指標で補える</span></li>
+              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>学歴・経歴の壁が低く、コードで評価される（二次情報の評判）</span></li>
+              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>高ランクなら年齢を問わずスカウトが届くという声がある</span></li>
+              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>書類選考免除のケースがあり、職歴で弾かれにくい</span></li>
             </ul>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
@@ -244,7 +244,7 @@ export default function Inexperienced30sPage() {
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            使い方は<Link href="/review/paiza/" className="text-blue-600 hover:underline">paiza転職の評判・使い方</Link>、コーディングテスト全般の対策は<Link href="/knowledge/coding-test/" className="text-blue-600 hover:underline">コーディングテスト対策</Link>で詳しく解説しています。
+            使い方は<Link href="/review/paiza/" className="text-petrol hover:underline">paiza転職の評判・使い方</Link>、コーディングテスト全般の対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>で詳しく解説しています。
           </p>
         </section>
 
@@ -264,14 +264,14 @@ export default function Inexperienced30sPage() {
                 "工夫した点・つまずいた点・改善案を言語化できる",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2.5 items-start">
-                  <span className="text-blue-600 font-bold shrink-0">✓</span>
+                  <span className="text-petrol font-bold shrink-0">✓</span>
                   <span>{c}</span>
                 </li>
               ))}
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            作り込み方は<Link href="/knowledge/portfolio/" className="text-blue-600 hover:underline">ポートフォリオ作成ガイド</Link>を参照してください。
+            作り込み方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオ作成ガイド</Link>を参照してください。
           </p>
         </section>
 
@@ -286,7 +286,7 @@ export default function Inexperienced30sPage() {
               職種全体で見れば、システムエンジニア（受託開発）の平均年収は約578.5万円・平均年齢37.1歳（厚生労働省 job tag／令和7年賃金構造基本統計調査ベース）という水準です。未経験で入った直後はこの平均を下回ることが多いですが、実務経験を積みスキルを伸ばせば、平均水準への到達は現実的な目標になります。
             </p>
             <p className="text-sm text-slate-600 leading-relaxed">
-              30代の年収相場やキャリア設計は<Link href="/knowledge/salary-30s/" className="text-blue-600 hover:underline">30代エンジニアの年収相場</Link>、長期のキャリア設計は<Link href="/knowledge/career-plan/" className="text-blue-600 hover:underline">キャリアプラン設計</Link>で扱っています。
+              30代の年収相場やキャリア設計は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収相場</Link>、長期のキャリア設計は<Link href="/knowledge/career-plan/" className="text-petrol hover:underline">キャリアプラン設計</Link>で扱っています。
             </p>
           </div>
         </section>
@@ -321,7 +321,7 @@ export default function Inexperienced30sPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">30代後半：前職の掛け算で勝負する</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                30代後半は『純粋未経験』より、前職のドメイン知識×ITを掛け合わせたポジション（社内SE・DX推進・業界特化のサポート等）が現実的です。40代に向けた動き方は<Link href="/knowledge/40s-reality/" className="text-blue-600 hover:underline">40代エンジニア転職のリアル</Link>も参考になります。
+                30代後半は『純粋未経験』より、前職のドメイン知識×ITを掛け合わせたポジション（社内SE・DX推進・業界特化のサポート等）が現実的です。40代に向けた動き方は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>も参考になります。
               </p>
             </div>
           </div>
@@ -349,7 +349,7 @@ export default function Inexperienced30sPage() {
           <p className="text-blue-100 text-sm mb-4">
             未経験向け求人に強いエージェントなら、現実的な入り口の求人紹介から職務経歴書の添削まで無料でサポートしてくれます。
           </p>
-          <Link href="/#ranking" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">
+          <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>
         </section>
@@ -368,7 +368,7 @@ export default function Inexperienced30sPage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

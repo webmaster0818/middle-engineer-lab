@@ -145,7 +145,7 @@ export default function TimelinePage() {
           <ul className="space-y-2">
             {toc.map((t) => (
               <li key={t.id}>
-                <a href={`#${t.id}`} className="text-sm text-blue-600 hover:underline">
+                <a href={`#${t.id}`} className="text-sm text-petrol hover:underline">
                   {t.label}
                 </a>
               </li>
@@ -155,7 +155,7 @@ export default function TimelinePage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6">
+          <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：在職中に約3ヶ月、週次で淡々と</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・<strong>準備1ヶ月・応募と面接1ヶ月・内定と退職1ヶ月</strong>の3フェーズに分けると、在職中でも破綻しにくい。</li>
@@ -197,11 +197,11 @@ export default function TimelinePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">3ヶ月の週次計画表（在職中モデル）</h2>
 
           <div className="mb-6">
-            <h3 className="font-bold text-lg text-blue-700 mb-3 border-l-4 border-blue-600 pl-3">1ヶ月目: 準備フェーズ</h3>
+            <h3 className="font-bold text-lg text-petrol-deep mb-3 border-l-4 border-petrol pl-3">1ヶ月目: 準備フェーズ</h3>
             <div className="space-y-3">
               {month1.map((item, i) => (
                 <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-4">
-                  <span className="font-bold text-blue-600 text-sm min-w-[60px]">{item.week}</span>
+                  <span className="font-bold text-petrol text-sm min-w-[60px]">{item.week}</span>
                   <p className="text-sm text-slate-600">{item.tasks}</p>
                 </div>
               ))}
@@ -209,11 +209,11 @@ export default function TimelinePage() {
           </div>
 
           <div className="mb-6">
-            <h3 className="font-bold text-lg text-blue-700 mb-3 border-l-4 border-blue-600 pl-3">2ヶ月目: 応募・面接フェーズ</h3>
+            <h3 className="font-bold text-lg text-petrol-deep mb-3 border-l-4 border-petrol pl-3">2ヶ月目: 応募・面接フェーズ</h3>
             <div className="space-y-3">
               {month2.map((item, i) => (
                 <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-4">
-                  <span className="font-bold text-blue-600 text-sm min-w-[60px]">{item.week}</span>
+                  <span className="font-bold text-petrol text-sm min-w-[60px]">{item.week}</span>
                   <p className="text-sm text-slate-600">{item.tasks}</p>
                 </div>
               ))}
@@ -221,11 +221,11 @@ export default function TimelinePage() {
           </div>
 
           <div className="mb-6">
-            <h3 className="font-bold text-lg text-blue-700 mb-3 border-l-4 border-blue-600 pl-3">3ヶ月目: 内定・退職フェーズ</h3>
+            <h3 className="font-bold text-lg text-petrol-deep mb-3 border-l-4 border-petrol pl-3">3ヶ月目: 内定・退職フェーズ</h3>
             <div className="space-y-3">
               {month3.map((item, i) => (
                 <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-4">
-                  <span className="font-bold text-blue-600 text-sm min-w-[60px]">{item.week}</span>
+                  <span className="font-bold text-petrol text-sm min-w-[60px]">{item.week}</span>
                   <p className="text-sm text-slate-600">{item.tasks}</p>
                 </div>
               ))}
@@ -233,7 +233,7 @@ export default function TimelinePage() {
           </div>
           <p className="text-xs text-slate-500">
             ※ 週数はあくまで標準モデルです。選考スピードや繁忙期によって前後します。退職に必要な期間は就業規則や担当業務の状況で変わるため、
-            <Link href="/knowledge/resignation/" className="text-blue-600 hover:underline">退職の進め方ガイド</Link>
+            <Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の進め方ガイド</Link>
             も合わせて確認してください。
           </p>
         </section>
@@ -247,14 +247,14 @@ export default function TimelinePage() {
           <div className="space-y-3">
             {weekly.map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
-                <span className="font-bold text-blue-600 text-sm min-w-[160px] shrink-0">{item.slot}</span>
+                <span className="font-bold text-petrol text-sm min-w-[160px] shrink-0">{item.slot}</span>
                 <p className="text-sm text-slate-600">{item.action}</p>
               </div>
             ))}
           </div>
-          <div className="mt-5 bg-blue-50 rounded-lg p-5">
+          <div className="mt-5 bg-petrol-soft rounded-lg p-5">
             <h3 className="font-bold text-blue-800 mb-2">週次チェックリスト（毎週末に確認）</h3>
-            <ul className="space-y-2 text-sm text-blue-700">
+            <ul className="space-y-2 text-sm text-petrol-deep">
               <li>✓ 今週応募した社数・通過した社数を記録したか</li>
               <li>✓ 来週の面接日程はカレンダーに入っているか（本業の予定と衝突していないか）</li>
               <li>✓ 面接の振り返りメモを残したか</li>
@@ -306,9 +306,9 @@ export default function TimelinePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">活動を効率化する実務テクニック</h2>
           <div className="space-y-4">
             {tips.map((item, i) => (
-              <div key={i} className="bg-blue-50 rounded-lg p-5">
+              <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-2">{item.title}</h3>
-                <p className="text-sm text-blue-700">{item.body}</p>
+                <p className="text-sm text-petrol-deep">{item.body}</p>
               </div>
             ))}
           </div>
@@ -323,7 +323,7 @@ export default function TimelinePage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">窓口を絞って探索コストを下げる</h3>
-              <p className="text-sm text-slate-600">求人を自力で広く探すと時間が溶けます。IT特化型エージェント2〜3社に窓口を絞り、求人探しと日程調整を任せると、本業との両立がしやすくなります。エージェントの使い分けは<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">複数エージェント併用ガイド</Link>を参照してください。</p>
+              <p className="text-sm text-slate-600">求人を自力で広く探すと時間が溶けます。IT特化型エージェント2〜3社に窓口を絞り、求人探しと日程調整を任せると、本業との両立がしやすくなります。エージェントの使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェント併用ガイド</Link>を参照してください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">面接を週1〜2に絞り、繁忙期は止める</h3>
@@ -331,7 +331,7 @@ export default function TimelinePage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">職務経歴書は「常時メンテ」状態にしておく</h3>
-              <p className="text-sm text-slate-600">直前にゼロから書くと負荷が一気に高まります。日頃から成果を箇条書きでストックし、応募時に整える運用にすると、活動開始のハードルが下がります。書き方は<Link href="/knowledge/resume/" className="text-blue-600 hover:underline">職務経歴書の書き方</Link>を参考に。</p>
+              <p className="text-sm text-slate-600">直前にゼロから書くと負荷が一気に高まります。日頃から成果を箇条書きでストックし、応募時に整える運用にすると、活動開始のハードルが下がります。書き方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>を参考に。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">退職・引き継ぎの時間を先取りで予約する</h3>
@@ -364,7 +364,7 @@ export default function TimelinePage() {
           </p>
           <Link
             href="/#ranking"
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             おすすめエージェントランキングを見る
           </Link>
@@ -384,7 +384,7 @@ export default function TimelinePage() {
               <Link
                 key={i}
                 href={item.href}
-                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors"
+                className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors"
               >
                 {item.name} →
               </Link>

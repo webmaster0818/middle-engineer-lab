@@ -109,7 +109,7 @@ export default function OmronCompanyPage() {
         />
 
         <section id="conclusion" className="mb-10">
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               オムロンは<strong>制御機器（FA）で世界的な強みを持つメーカー大手</strong>で、FA制御機器の組込ソフト・センサ・画像処理/AI・制御アルゴリズム・ヘルスケア機器と技術領域が広いのが特徴です。年収は提出会社単体の全従業員平均で820万円（2025年3月期・有報）。製造業出身でFA・組込・画像処理・制御の専門性を持つミドルエンジニアの業務知識が活きやすい環境です。
@@ -127,7 +127,7 @@ export default function OmronCompanyPage() {
           <ol className="grid grid-cols-1 sm:grid-cols-2 gap-y-1.5 gap-x-4 text-sm">
             {toc.map(([id, label]) => (
               <li key={id}>
-                <a href={`#${id}`} className="text-blue-600 hover:underline">{label}</a>
+                <a href={`#${id}`} className="text-petrol hover:underline">{label}</a>
               </li>
             ))}
           </ol>
@@ -153,17 +153,17 @@ export default function OmronCompanyPage() {
         <section id="features" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">制御機器（FA）の世界的な強み</h3>
-              <p className="text-sm text-blue-700">オムロンは制御機器（FA）で世界的な強みを持ち、PLC・センサ・画像処理装置などの制御機器を支える組込ソフトウェア・制御アルゴリズムの専門人材を求めています。FA関連の実務経験は親和性が高く評価されやすい傾向があります。</p>
+              <p className="text-sm text-petrol-deep">オムロンは制御機器（FA）で世界的な強みを持ち、PLC・センサ・画像処理装置などの制御機器を支える組込ソフトウェア・制御アルゴリズムの専門人材を求めています。FA関連の実務経験は親和性が高く評価されやすい傾向があります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">組込・画像処理・AIまで幅広い技術領域</h3>
-              <p className="text-sm text-blue-700">制御機器を動かす組込ソフトから、検査・制御に用いる画像処理・AI、制御アルゴリズム、さらにヘルスケア機器の組込まで技術領域が広いのが特徴です。配属する事業・職種により求められるスキルが大きく異なります。</p>
+              <p className="text-sm text-petrol-deep">制御機器を動かす組込ソフトから、検査・制御に用いる画像処理・AI、制御アルゴリズム、さらにヘルスケア機器の組込まで技術領域が広いのが特徴です。配属する事業・職種により求められるスキルが大きく異なります。</p>
             </div>
-            <div className="bg-blue-50 rounded-lg p-5">
+            <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">社会課題解決を掲げる企業文化</h3>
-              <p className="text-sm text-blue-700">オムロンは「企業は社会の公器である」といった理念のもと、社会課題の解決を事業の軸に据えています（口コミ傾向）。技術力に加え、こうした理念への共感もミドル層の定着・活躍に影響しうるため、応募前に企業理念を理解しておくことが推奨されます。</p>
+              <p className="text-sm text-petrol-deep">オムロンは「企業は社会の公器である」といった理念のもと、社会課題の解決を事業の軸に据えています（口コミ傾向）。技術力に加え、こうした理念への共感もミドル層の定着・活躍に影響しうるため、応募前に企業理念を理解しておくことが推奨されます。</p>
             </div>
           </div>
         </section>
@@ -175,11 +175,11 @@ export default function OmronCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>FA制御機器の組込ソフトウェア</strong>：PLC・センサ・制御機器を動かす組込開発領域。一般にC/C++等が想定される</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>制御アルゴリズム・モーション制御</strong>：高精度な機器制御に関わるアルゴリズム領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>画像処理・AI</strong>：検査・制御に用いる画像処理／機械学習領域。一般にC++/Python等が想定される</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>ヘルスケア機器の組込</strong>：血圧計などのヘルスケア機器に関わる組込開発領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>FA制御機器の組込ソフトウェア</strong>：PLC・センサ・制御機器を動かす組込開発領域。一般にC/C++等が想定される</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>制御アルゴリズム・モーション制御</strong>：高精度な機器制御に関わるアルゴリズム領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>画像処理・AI</strong>：検査・制御に用いる画像処理／機械学習領域。一般にC++/Python等が想定される</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ヘルスケア機器の組込</strong>：血圧計などのヘルスケア機器に関わる組込開発領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: オムロン公式 事業情報・採用サイトで確認できる技術領域に基づく記述。推測の言語表は掲載していません。</p>
@@ -218,7 +218,7 @@ export default function OmronCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フローについて</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>オムロンは中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接が想定されますが、回数・内容・所要期間は募集職種や時期により変動します。最新の内容は公式採用サイトでご確認ください。</p>
-            <p>具体的な面接質問リストも公式には公開されておらず、当ガイドでは<strong>出典のない面接質問や等級別年収表は掲載していません</strong>。応募時には、各募集要項で求められるスキル要件・選考プロセスを直接確認することをおすすめします。技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-blue-600 hover:underline">技術面接の対策</Link>も参考にしてください。</p>
+            <p>具体的な面接質問リストも公式には公開されておらず、当ガイドでは<strong>出典のない面接質問や等級別年収表は掲載していません</strong>。応募時には、各募集要項で求められるスキル要件・選考プロセスを直接確認することをおすすめします。技術面接の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -228,10 +228,10 @@ export default function OmronCompanyPage() {
             公開情報と口コミ傾向から、確認される観点をまとめます（断定的な「質問リスト」は出典が不確かなため掲載していません）。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>FA・組込・画像処理・制御アルゴリズムなど、配属領域に合致する専門性と実績</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>ハードウェアと連携した課題解決力・現物への理解</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>社会課題解決を掲げる企業理念への共感</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span>チームでの協働姿勢と長期的なキャリア形成への意欲</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>FA・組込・画像処理・制御アルゴリズムなど、配属領域に合致する専門性と実績</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ハードウェアと連携した課題解決力・現物への理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>社会課題解決を掲げる企業理念への共感</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>チームでの協働姿勢と長期的なキャリア形成への意欲</li>
           </ul>
         </section>
 
@@ -245,7 +245,7 @@ export default function OmronCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。オムロンの全従業員平均（820万円）はこれを上回りますが、これは全社平均であり、入社時の提示は職種・等級次第です。30代・40代は「自分が当てはまる職種・等級の水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              関連領域として<Link href="/skill/embedded/" className="text-blue-600 hover:underline">組込エンジニアの転職</Link>や<Link href="/skill/ai-ml/" className="text-blue-600 hover:underline">AI・機械学習エンジニアの転職</Link>、<Link href="/industry/manufacturing/" className="text-blue-600 hover:underline">製造業エンジニアの転職</Link>、<Link href="/age/40s/" className="text-blue-600 hover:underline">40代の転職事情</Link>も合わせて参考にしてください。
+              関連領域として<Link href="/skill/embedded/" className="text-petrol hover:underline">組込エンジニアの転職</Link>や<Link href="/skill/ai-ml/" className="text-petrol hover:underline">AI・機械学習エンジニアの転職</Link>、<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業エンジニアの転職</Link>、<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -258,13 +258,13 @@ export default function OmronCompanyPage() {
               { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手メーカーの専門職・高年収ポジションのスカウトが届きやすい。" },
               { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" },
             ].map((agent, i) => (
-              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
                 <p className="text-xs text-slate-500">{agent.desc}</p>
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">特定企業の求人保有状況は時期により変動します。複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-blue-600 hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
+          <p className="text-xs text-slate-400 mt-3">特定企業の求人保有状況は時期により変動します。複数エージェントの併用については<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント併用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10">
@@ -285,7 +285,7 @@ export default function OmronCompanyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">オムロンへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">FA・組込・画像処理領域の求人に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="related">
@@ -299,7 +299,7 @@ export default function OmronCompanyPage() {
               { name: "製造業エンジニアの転職", href: "/industry/manufacturing/" },
               { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" },
             ].map((item, i) => (
-              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">
+              <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
                 {item.name} →
               </Link>
             ))}

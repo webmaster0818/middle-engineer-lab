@@ -71,7 +71,7 @@ export default function UbieCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高め（要件主義・即戦力志向のスタートアップ）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・全社で<strong>Go・Node.js に技術を標準化</strong>。GoまたはNode.js／TypeScriptでのバックエンド・フロント実務経験を持つエンジニアに向く。</li>
@@ -85,7 +85,7 @@ export default function UbieCompanyPage() {
         <nav aria-label="目次" className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
-            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>))}
+            {toc.map((t) => (<li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>))}
           </ol>
         </nav>
 
@@ -104,9 +104,9 @@ export default function UbieCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">医師×エンジニアの共同創業ヘルステック</h3><p className="text-sm text-blue-700">Ubieは2017年に医師とエンジニアが共同創業した企業で、症状検索エンジン「ユビー」など生活者・医療機関の双方に向けたプロダクトを展開しています。医療という規制と専門性の高い領域に、ソフトウェアで切り込む社会性の高い事業ドメインが特徴です。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">年齢不問・要件主義の採用</h3><p className="text-sm text-blue-700">Ubieは年齢を採用基準にせず、求める要件（スキル・経験・カルチャーフィット）を満たすかを重視する方針を掲げています。これは30代・40代のミドルエンジニアにとって、年齢で足切りされにくいという点で重要なポイントです。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">技術スタックの全社標準化</h3><p className="text-sm text-blue-700">Ubieは公式の技術発信で、全社の技術スタックをGoとNode.jsに標準化したことを明らかにしています（以前のKotlin等からの移行）。技術を揃えることでチーム間の異動・コードの共有・採用要件の明確化を進めており、入社後に習得すべき技術が読みやすい環境といえます。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">医師×エンジニアの共同創業ヘルステック</h3><p className="text-sm text-petrol-deep">Ubieは2017年に医師とエンジニアが共同創業した企業で、症状検索エンジン「ユビー」など生活者・医療機関の双方に向けたプロダクトを展開しています。医療という規制と専門性の高い領域に、ソフトウェアで切り込む社会性の高い事業ドメインが特徴です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">年齢不問・要件主義の採用</h3><p className="text-sm text-petrol-deep">Ubieは年齢を採用基準にせず、求める要件（スキル・経験・カルチャーフィット）を満たすかを重視する方針を掲げています。これは30代・40代のミドルエンジニアにとって、年齢で足切りされにくいという点で重要なポイントです。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">技術スタックの全社標準化</h3><p className="text-sm text-petrol-deep">Ubieは公式の技術発信で、全社の技術スタックをGoとNode.jsに標準化したことを明らかにしています（以前のKotlin等からの移行）。技術を揃えることでチーム間の異動・コードの共有・採用要件の明確化を進めており、入社後に習得すべき技術が読みやすい環境といえます。</p></div>
           </div>
         </section>
 
@@ -115,14 +115,14 @@ export default function UbieCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下はUbieの公式採用ページ・技術発信（Zenn等のEngineering記事）で公開されている範囲の情報です。組織・プロダクトの拡大に伴い構成は変化するため、最新は公式発信・募集要項でご確認ください。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Go / Node.js</strong>：全社で標準化されたバックエンドの主力。以前はKotlin等も使われていたが移行を進めた</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>TypeScript / Next.js</strong>：フロントエンド開発の中心</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>gRPC</strong>：マイクロサービス間の通信に利用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>GraphQL</strong>：外部・クライアント向けのAPIに利用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>GCP</strong>：クラウドインフラの基盤</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go / Node.js</strong>：全社で標準化されたバックエンドの主力。以前はKotlin等も使われていたが移行を進めた</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>TypeScript / Next.js</strong>：フロントエンド開発の中心</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>gRPC</strong>：マイクロサービス間の通信に利用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>GraphQL</strong>：外部・クライアント向けのAPIに利用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>GCP</strong>：クラウドインフラの基盤</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：Ubie 技術発信（Zenn等）・公式採用ページ。具体的なミドルウェア構成・バージョンはチーム・時期で異なります。各言語の市場動向は<Link href="/skill/go/" className="text-blue-600 hover:underline">Go</Link>・<Link href="/skill/nodejs/" className="text-blue-600 hover:underline">Node.js</Link>・<Link href="/skill/typescript/" className="text-blue-600 hover:underline">TypeScript</Link>・<Link href="/skill/gcp/" className="text-blue-600 hover:underline">GCP</Link>の各ガイドも参照してください。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：Ubie 技術発信（Zenn等）・公式採用ページ。具体的なミドルウェア構成・バージョンはチーム・時期で異なります。各言語の市場動向は<Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>・<Link href="/skill/nodejs/" className="text-petrol hover:underline">Node.js</Link>・<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript</Link>・<Link href="/skill/gcp/" className="text-petrol hover:underline">GCP</Link>の各ガイドも参照してください。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -154,10 +154,10 @@ export default function UbieCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・要件主義ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。公開されている採用方針（要件主義）と募集要項から、評価されやすいと考えられるポイントを一般化して挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>Go／Node.js／TypeScriptでのバックエンド・フロントの実務的な設計・実装力</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>マイクロサービス（gRPC）・API（GraphQL）・GCP上での開発・運用経験</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>医療という社会的意義の高いドメインへの共感と、課題を技術で解く姿勢</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>変化の速い環境で自律的に動ける主体性・カルチャーフィット</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>Go／Node.js／TypeScriptでのバックエンド・フロントの実務的な設計・実装力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>マイクロサービス（gRPC）・API（GraphQL）・GCP上での開発・運用経験</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>医療という社会的意義の高いドメインへの共感と、課題を技術で解く姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>変化の速い環境で自律的に動ける主体性・カルチャーフィット</li>
           </ul>
         </section>
 
@@ -174,7 +174,7 @@ export default function UbieCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>Ubie最大のポイントは<strong>「年齢不問・要件主義」を明示している</strong>ことです。30代・40代のミドルエンジニアにとって、年齢で足切りされにくいというのは大きな安心材料です。GoやNode.js、TypeScript／Next.jsでのSaaS開発経験、GCP上での設計・運用経験を持つ人であれば、年齢よりもスキルで評価される土俵に立てます。</p>
             <p>技術が全社でGo・Node.jsに標準化されているため、入社後に習得すべき技術が読みやすく、これまでのバックエンド・フロント経験を活かしやすい点もミドル向きです。一方で、スタートアップ特有の変化の速さ・組織の流動性は、安定した大企業からの転職では事前に許容度を確認しておきたい部分です。非上場のため将来のIPOやストックオプションの扱いは公式の確定情報がなく、年収は公式の職種別レンジを基準に考えるのが現実的です。</p>
-            <p>医療ドメインに関心がある方は<Link href="/industry/healthcare/" className="text-blue-600 hover:underline">ヘルステック転職の全体像</Link>もあわせて確認すると、業界としての立ち位置が掴みやすくなります。年収交渉やキャリア整理の観点では<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>も参考にしてください。</p>
+            <p>医療ドメインに関心がある方は<Link href="/industry/healthcare/" className="text-petrol hover:underline">ヘルステック転職の全体像</Link>もあわせて確認すると、業界としての立ち位置が掴みやすくなります。年収交渉やキャリア整理の観点では<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -207,22 +207,22 @@ export default function UbieCompanyPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。医療×ITは規制・専門性が高く参入障壁がある一方、社会課題の大きさから成長が期待される領域で、Ubieはその代表的なスタートアップの一つです。</p>
             <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均であり、Ubieの公式職種別レンジ（例：PdM 800〜1,200万円）は職種によってこれを上回り得ますが、レンジには幅がある点に留意が必要です。</p>
-            <p>SIerやSESから自社プロダクト開発へ移りたいミドルにとって、Ubieのような技術標準化の進んだヘルステックは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-blue-600 hover:underline">SIerからWEB系への転職</Link>も参考になります。</p>
+            <p>SIerやSESから自社プロダクト開発へ移りたいミドルにとって、Ubieのような技術標準化の進んだヘルステックは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWEB系への転職</Link>も参考になります。</p>
           </div>
         </section>
 
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">Ubie転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Ubieへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">ヘルステック・SaaS企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/levtech/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/levtech/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -233,7 +233,7 @@ export default function UbieCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "カケハシの転職ガイド", href: "/company/kakehashi/" }, { name: "10Xの転職ガイド", href: "/company/10x/" }, { name: "ヘルステック業界への転職", href: "/industry/healthcare/" }, { name: "Goエンジニアの転職", href: "/skill/go/" }, { name: "Node.jsエンジニアの転職", href: "/skill/nodejs/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "カケハシの転職ガイド", href: "/company/kakehashi/" }, { name: "10Xの転職ガイド", href: "/company/10x/" }, { name: "ヘルステック業界への転職", href: "/industry/healthcare/" }, { name: "Goエンジニアの転職", href: "/skill/go/" }, { name: "Node.jsエンジニアの転職", href: "/skill/nodejs/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

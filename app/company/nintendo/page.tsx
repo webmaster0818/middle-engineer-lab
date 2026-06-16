@@ -73,7 +73,7 @@ export default function NintendoCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：かなり高い（経験者・専門特化型）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・自社ハード（Nintendo Switch等）の制約下で最高の体験を作る、C++中心の低レイヤー最適化が中核。<strong>コンソールゲーム開発・組み込み近傍の経験者</strong>に向く。</li>
@@ -88,7 +88,7 @@ export default function NintendoCompanyPage() {
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
             {toc.map((t) => (
-              <li key={t.id}><a href={`#${t.id}`} className="text-blue-600 hover:underline">{t.label}</a></li>
+              <li key={t.id}><a href={`#${t.id}`} className="text-petrol hover:underline">{t.label}</a></li>
             ))}
           </ol>
         </nav>
@@ -108,9 +108,9 @@ export default function NintendoCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ハード×ソフトの一体開発</h3><p className="text-sm text-blue-700">ゲーム機本体からシステムソフト、ライブラリ、ゲームソフトまでを自社で一体開発する数少ない企業です。ハードの性能を引き出すための最適化や、限られたリソースの中で体験品質を高めるエンジニアリングが中核に置かれています。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">世界的IPのゲーム／サービス開発</h3><p className="text-sm text-blue-700">公式の職種紹介では、ゲーム開発はグラフィックス・物理演算・AI・サウンド・UI・ゲームシステム・通信など多岐にわたるプログラム実装を担当すると説明されています。ネットワークサービス開発はWebアプリケーション領域として独立した職種があります。</p></div>
-            <div className="bg-blue-50 rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">安定した財務基盤</h3><p className="text-sm text-blue-700">有価証券報告書ベースで平均勤続年数は14.4年と長く、定着率の高さがうかがえます。業績好調時には賞与の比重が大きくなる給与構造で、これが平均年収966万円（2025年3月期）を支える一因とされています。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ハード×ソフトの一体開発</h3><p className="text-sm text-petrol-deep">ゲーム機本体からシステムソフト、ライブラリ、ゲームソフトまでを自社で一体開発する数少ない企業です。ハードの性能を引き出すための最適化や、限られたリソースの中で体験品質を高めるエンジニアリングが中核に置かれています。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">世界的IPのゲーム／サービス開発</h3><p className="text-sm text-petrol-deep">公式の職種紹介では、ゲーム開発はグラフィックス・物理演算・AI・サウンド・UI・ゲームシステム・通信など多岐にわたるプログラム実装を担当すると説明されています。ネットワークサービス開発はWebアプリケーション領域として独立した職種があります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">安定した財務基盤</h3><p className="text-sm text-petrol-deep">有価証券報告書ベースで平均勤続年数は14.4年と長く、定着率の高さがうかがえます。業績好調時には賞与の比重が大きくなる給与構造で、これが平均年収966万円（2025年3月期）を支える一因とされています。</p></div>
           </div>
         </section>
 
@@ -119,10 +119,10 @@ export default function NintendoCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下は任天堂の公式採用サイト（職種紹介・募集要項）で公開されている情報に基づきます。社外向け技術ブログを大々的に運営する企業ではないため、求人記載が主な一次情報になります。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>C++</strong>：ゲーム機本体・システムソフト・ライブラリ、およびゲームソフト開発の主力言語</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>Go / Kotlin / Java / Ruby / JavaScript</strong>：ネットワークサービス（Webアプリケーション）開発で使用</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span><strong>C# / Python / Ruby</strong>：ゲーム開発職の歓迎スキル（スクリプト言語）として記載される例</span></li>
-              <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">●</span><span>3Dグラフィックス・物理演算・サウンド・通信など、ゲームシステム全般のプログラミング領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>C++</strong>：ゲーム機本体・システムソフト・ライブラリ、およびゲームソフト開発の主力言語</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go / Kotlin / Java / Ruby / JavaScript</strong>：ネットワークサービス（Webアプリケーション）開発で使用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>C# / Python / Ruby</strong>：ゲーム開発職の歓迎スキル（スクリプト言語）として記載される例</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>3Dグラフィックス・物理演算・サウンド・通信など、ゲームシステム全般のプログラミング領域</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：任天堂 公式採用サイト「職種紹介（ゲーム開発／ネットワークサービス開発）」「キャリア採用 募集要項」。具体的な内製エンジン名やバージョンは公開されていません。</p>
@@ -152,7 +152,7 @@ export default function NintendoCompanyPage() {
               ["STEP 4", "内定", "採用条件の提示。応募から内定まで2〜3か月程度、書類結果まで約1か月。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
-                <span className="shrink-0 text-xs font-bold text-blue-700 bg-blue-50 rounded px-2 py-1 h-fit">{step}</span>
+                <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
                 <div><p className="font-bold text-slate-800 text-sm mb-1">{title}</p><p className="text-sm text-slate-600">{desc}</p></div>
               </li>
             ))}
@@ -164,10 +164,10 @@ export default function NintendoCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・口コミ傾向ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">具体的な面接質問リストは公式に公開されておらず、断定はできません。公開されている募集要項と口コミプラットフォームの傾向から、評価されやすいと考えられるポイントを一般化して挙げます。</p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>C++を中心とした実装力と、ハード制約下での最適化・パフォーマンスへの理解</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>「遊び」の体験価値を技術でどう高めるかという、プロダクト志向の思考</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>長期での品質追求・モノづくりへの姿勢（定着率の高い文化との整合）</li>
-            <li className="flex items-start gap-2"><span className="text-blue-600 shrink-0">✓</span>担当領域（グラフィックス／ネットワーク／組み込み等）の専門的な深さ</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>C++を中心とした実装力と、ハード制約下での最適化・パフォーマンスへの理解</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>「遊び」の体験価値を技術でどう高めるかという、プロダクト志向の思考</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>長期での品質追求・モノづくりへの姿勢（定着率の高い文化との整合）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>担当領域（グラフィックス／ネットワーク／組み込み等）の専門的な深さ</li>
           </ul>
         </section>
 
@@ -184,7 +184,7 @@ export default function NintendoCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>提出会社単体の<strong>平均年齢は40.2歳、平均勤続年数14.4年</strong>（2025年3月期・有報）。新卒からの長期勤続者が中核を占める組織で、年齢構成としては30代・40代のミドル層が多数派の落ち着いた環境といえます。中途で入る場合は、即戦力としての専門性に加え、長期での品質追求文化に馴染めるかが定着のポイントになります。</p>
             <p>30代・40代のコンソールゲーム開発経験者・組み込み近傍のC++エンジニアにとっては、キャリアの専門性が直接活きる希少なポジションです。一方で、Webモダン技術やフルリモートを最優先するキャリア観の場合は、京都本社中心・自社技術中心の環境との相性を事前に見極めることをおすすめします。年収面では平均966万円が一つの基準となり、前職年収との比較や賞与比率の確認が重要です。</p>
-            <p>転職活動では、ミドル層の年収交渉・キャリア整理の観点も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-blue-600 hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-blue-600 hover:underline">市場価値の把握</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の年収交渉・キャリア整理の観点も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -224,15 +224,15 @@ export default function NintendoCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">任天堂転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化。ゲーム企業の求人提案に強み。提案スピードが速い。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人比率が高く、技術面接対策のサポートが受けられる。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-blue-300 transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化。ゲーム企業の求人提案に強み。提案スピードが速い。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人比率が高く、技術面接対策のサポートが受けられる。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-blue-600 hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">任天堂への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">ゲーム企業への転職に強いエージェントに無料相談してみませんか？</p>
-          <Link href="/review/geekly/" className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors">おすすめエージェントを見る</Link>
+          <Link href="/review/geekly/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントを見る</Link>
         </section>
 
         <section id="faq" className="mb-10">
@@ -243,7 +243,7 @@ export default function NintendoCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "Rubyの転職ガイド", href: "/skill/ruby/" }, { name: "Kotlinの転職ガイド", href: "/skill/kotlin/" }, { name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ソニーグループの転職ガイド", href: "/company/sony/" }, { name: "バンダイナムコの転職ガイド", href: "/company/bandai-namco/" }, { name: "DeNAの転職ガイド", href: "/company/dena/" }, { name: "サイバーエージェントの転職ガイド", href: "/company/cyberagent/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-blue-300 transition-colors">{item.name} →</Link>))}
+            {[{ name: "Rubyの転職ガイド", href: "/skill/ruby/" }, { name: "Kotlinの転職ガイド", href: "/skill/kotlin/" }, { name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ソニーグループの転職ガイド", href: "/company/sony/" }, { name: "バンダイナムコの転職ガイド", href: "/company/bandai-namco/" }, { name: "DeNAの転職ガイド", href: "/company/dena/" }, { name: "サイバーエージェントの転職ガイド", href: "/company/cyberagent/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>
