@@ -82,14 +82,24 @@ const NAV = [
 
 function Wordmark({ light = false }: { light?: boolean }) {
   return (
-    <a href="/" className="flex items-baseline gap-2 group">
-      <span
-        className={`font-display text-xl font-semibold tracking-tight ${light ? "text-paper" : "text-ink"}`}
-      >
-        Caree<span className="text-petrol">HUB</span>
-      </span>
-      <span className={`text-[10px] tracking-[0.18em] uppercase ${light ? "text-paper/55" : "text-ink-faint"}`}>
-        for Mid Engineer
+    <a href="/" className="flex items-center gap-2.5 group">
+      <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden className="shrink-0">
+        <rect width="64" height="64" rx="14" fill={light ? "#16191c" : "#16191c"} />
+        <line x1="32" y1="32" x2="20" y2="18" stroke="#f6f4ef" strokeWidth="2.5" opacity="0.55" />
+        <line x1="32" y1="32" x2="46" y2="20" stroke="#f6f4ef" strokeWidth="2.5" opacity="0.55" />
+        <line x1="32" y1="32" x2="40" y2="46" stroke="#f6f4ef" strokeWidth="2.5" opacity="0.55" />
+        <circle cx="32" cy="32" r="8" fill="#0e6e68" />
+        <circle cx="20" cy="18" r="4.5" fill="#f6f4ef" />
+        <circle cx="46" cy="20" r="4.5" fill="#f6f4ef" />
+        <circle cx="40" cy="46" r="4.5" fill="#f6f4ef" />
+      </svg>
+      <span className="flex items-baseline gap-2">
+        <span className={`font-display text-xl font-semibold tracking-tight ${light ? "text-paper" : "text-ink"}`}>
+          Caree<span className="text-petrol">HUB</span>
+        </span>
+        <span className={`hidden sm:inline text-[10px] tracking-[0.18em] uppercase ${light ? "text-paper/55" : "text-ink-faint"}`}>
+          for Mid Engineer
+        </span>
       </span>
     </a>
   );
