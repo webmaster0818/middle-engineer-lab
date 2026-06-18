@@ -381,6 +381,10 @@ export default function AwsSkillPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "AWS認定SAA（ソリューションアーキテクト）の活かし方", href: "/cert/aws-saa/" },
+              { name: "AWS認定DVA（デベロッパー）の活かし方", href: "/cert/aws-dva/" },
+              { name: "AWS認定SAP（プロフェッショナル）の活かし方", href: "/cert/aws-sap/" },
+              { name: "AWS認定SOA（SysOps）の活かし方", href: "/cert/aws-soa/" },
               { name: "Kubernetes/コンテナ転職ガイド", href: "/skill/kubernetes/" },
               { name: "Terraform/IaC転職ガイド", href: "/skill/terraform/" },
               { name: "インフラエンジニア転職ガイド", href: "/skill/infrastructure/" },
