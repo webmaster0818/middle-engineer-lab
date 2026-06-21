@@ -74,9 +74,9 @@ export default function RootLayout({
 const NAV = [
   { href: "/#ranking", label: "比較ランキング" },
   { href: "/salary/company-ranking/", label: "企業年収" },
-  { href: "/salary/skill-ranking/", label: "言語別年収" },
   { href: "/company/", label: "企業別" },
   { href: "/skill/", label: "スキル別" },
+  { href: "/cert/", label: "資格別" },
   { href: "/faq/", label: "お役立ち" },
 ];
 
