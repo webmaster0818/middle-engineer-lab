@@ -180,6 +180,7 @@ export default function TechStackSalaryPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連データ・ガイド</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
             <Link href="/salary/company-ranking/" className="text-petrol hover:underline">→ 企業年収ランキング（有報43社）</Link>
+            <Link href="/salary/job-type-salary/" className="text-petrol hover:underline">→ 職種別 年収ランキング</Link>
             <Link href="/skill/" className="text-petrol hover:underline">→ スキル別の転職戦略</Link>
             <Link href="/company/" className="text-petrol hover:underline">→ 企業別 転職ガイド一覧</Link>
             <Link href="/cert/" className="text-petrol hover:underline">→ 資格別 転職ガイド</Link>

@@ -117,6 +117,7 @@ export default function AgeSalaryPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連データ・ガイド</h2>
           <div className="flex flex-wrap gap-2 text-sm">
             <Link href="/age/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">年齢別 転職ガイド（33〜50代）</Link>
+            <Link href="/salary/job-type-salary/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">職種別 年収ランキング</Link>
             <Link href="/salary/tech-stack-salary/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">技術スタック×企業年収</Link>
             <Link href="/salary/company-ranking/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">企業年収ランキング</Link>
             <Link href="/cert/compare/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">IT資格 比較一覧</Link>

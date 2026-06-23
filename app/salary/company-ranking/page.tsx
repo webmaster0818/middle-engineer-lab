@@ -147,6 +147,7 @@ export default function CompanySalaryRankingPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">関連ガイド</h2>
           <ul className="space-y-1 text-sm">
+            <li><Link href="/salary/job-type-salary/" className="text-petrol-deep hover:underline">職種別 年収ランキング（PM・データサイエンティスト・SE…）</Link></li>
             <li><Link href="/salary/age-salary/" className="text-petrol-deep hover:underline">年代別 年収・転職難易度 早見表</Link></li>
             <li><Link href="/salary/tech-stack-salary/" className="text-petrol-deep hover:underline">技術スタック×企業年収 相関データ（使用言語から逆引き）</Link></li>
             <li><Link href="/salary/" className="text-petrol-deep hover:underline">エンジニアが年収を上げる転職｜ITSSレベル×年収の地図</Link></li>
