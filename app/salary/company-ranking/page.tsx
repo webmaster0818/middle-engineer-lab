@@ -147,6 +147,7 @@ export default function CompanySalaryRankingPage() {
         <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
           <h2 className="font-bold text-slate-900 mb-2">関連ガイド</h2>
           <ul className="space-y-1 text-sm">
+            <li><Link href="/salary/industry-salary/" className="text-petrol-deep hover:underline">業界別 年収ランキング（半導体/電機/通信/ゲーム/Web）</Link></li>
             <li><Link href="/salary/job-type-salary/" className="text-petrol-deep hover:underline">職種別 年収ランキング（PM・データサイエンティスト・SE…）</Link></li>
             <li><Link href="/salary/age-salary/" className="text-petrol-deep hover:underline">年代別 年収・転職難易度 早見表</Link></li>
             <li><Link href="/salary/tech-stack-salary/" className="text-petrol-deep hover:underline">技術スタック×企業年収 相関データ（使用言語から逆引き）</Link></li>
