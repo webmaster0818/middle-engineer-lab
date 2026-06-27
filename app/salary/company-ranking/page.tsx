@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "IT企業の平均年収ランキング43社【2026年・有価証券報告書準拠】エンジニア転職の給与データベース";
+const TITLE = "IT企業の平均年収ランキング47社【2026年・有価証券報告書準拠】エンジニア転職の給与データベース";
 const DESCRIPTION =
-  "IT・テック企業43社の平均年収を有価証券報告書（有報）の公表値だけでランキング化。キーエンス2,039万円から各社の最新有報数値と決算期を一覧掲載し、各社のエンジニア転職ガイドへリンク。出典が明確な年収データベースです。";
+  "IT・テック企業47社の平均年収を有価証券報告書（有報）の公表値だけでランキング化。キーエンス2,039万円から各社の最新有報数値と決算期を一覧掲載し、各社のエンジニア転職ガイドへリンク。出典が明確な年収データベースです。";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -24,39 +24,43 @@ const companies = [
   { rank: 8, slug: "ntt", name: "NTT（日本電信電話）", salary: 1069, period: "2025年3月期" },
   { rank: 9, slug: "kddi", name: "KDDI", salary: 1018, period: "2025年3月期・全社員平均" },
   { rank: 10, slug: "toyota", name: "トヨタ自動車", salary: 983, period: "2025年3月期" },
-  { rank: 11, slug: "nintendo", name: "任天堂", salary: 966, period: "2025年3月期" },
-  { rank: 12, slug: "nec", name: "NEC", salary: 963, period: "2025年3月期・単体全従業員" },
-  { rank: 13, slug: "hitachi", name: "日立製作所", salary: 961, period: "2025年3月期" },
-  { rank: 14, slug: "panasonic", name: "パナソニック", salary: 956, period: "2025年3月期・HD" },
-  { rank: 15, slug: "plaid", name: "プレイド", salary: 939, period: "直近有報" },
-  { rank: 16, slug: "capcom", name: "カプコン", salary: 918, period: "2025年3月期・単体全社員平均" },
-  { rank: 17, slug: "kadokawa", name: "KADOKAWA", salary: 885, period: "2025年3月期・単体" },
-  { rank: 18, slug: "line-yahoo", name: "LINEヤフー", salary: 884, period: "2025年3月期" },
-  { rank: 19, slug: "gree", name: "グリー（GREE）", salary: 865, period: "2025年6月期・持株会社単体" },
-  { rank: 20, slug: "denso", name: "デンソー", salary: 863, period: "2025年3月期・全従業員平均" },
-  { rank: 21, slug: "visional", name: "ビジョナル/ビズリーチ", salary: 861, period: "直近有報" },
-  { rank: 22, slug: "ricoh", name: "リコー", salary: 860, period: "2025年3月期・全社員平均" },
-  { rank: 23, slug: "softbank", name: "ソフトバンク", salary: 849, period: "2025年3月期" },
-  { rank: 24, slug: "omron", name: "オムロン", salary: 820, period: "2025年3月期・全従業員平均" },
-  { rank: 25, slug: "rakuten", name: "楽天グループ", salary: 820, period: "2024年12月期・全社員平均" },
-  { rank: 26, slug: "renesas", name: "ルネサスエレクトロニクス", salary: 809, period: "2024年12月期・全従業員平均" },
-  { rank: 27, slug: "murata", name: "村田製作所", salary: 803, period: "2025年3月期・全従業員平均" },
-  { rank: 28, slug: "mixi", name: "MIXI（ミクシィ）", salary: 791, period: "2025年3月期・単体" },
-  { rank: 29, slug: "sansan", name: "Sansan", salary: 780, period: "2025年5月期" },
-  { rank: 30, slug: "note", name: "note（ノート）", salary: 763, period: "2025年11月期・全社員平均" },
-  { rank: 31, slug: "gungho", name: "ガンホー", salary: 750, period: "2024年12月期・単体全社員平均" },
-  { rank: 32, slug: "raksul", name: "ラクスル（RAKSUL）", salary: 742, period: "2025年7月期・全社員平均" },
-  { rank: 33, slug: "moneyforward", name: "マネーフォワード", salary: 723, period: "2025年11月期" },
-  { rank: 34, slug: "apple", name: "Apple Japan", salary: 700, period: "直近有報" },
-  { rank: 35, slug: "base", name: "BASE", salary: 700, period: "2024年12月期" },
-  { rank: 36, slug: "gmo-internet", name: "GMOインターネットグループ", salary: 693, period: "2024年12月期・持株会社単体" },
-  { rank: 37, slug: "kyocera", name: "京セラ", salary: 693, period: "2025年3月期・全従業員平均" },
-  { rank: 38, slug: "kaonavi", name: "カオナビ", salary: 690, period: "2025年3月期・全社員平均" },
-  { rank: 39, slug: "freee", name: "freee", salary: 688, period: "2025年6月期" },
-  { rank: 40, slug: "colopl", name: "コロプラ", salary: 681, period: "2025年9月期・単体" },
-  { rank: 41, slug: "wantedly-inc", name: "ウォンテッドリー（Wantedly）", salary: 681, period: "直近有報" },
-  { rank: 42, slug: "zozo", name: "ZOZO", salary: 656, period: "2025年3月期・全社員平均" },
-  { rank: 43, slug: "timee", name: "タイミー（Timee）", salary: 594, period: "2024年10月期・全社員平均" }
+  { rank: 11, slug: "m3", name: "エムスリー（M3）", salary: 975, period: "2026年3月期・全社員平均" },
+  { rank: 12, slug: "nintendo", name: "任天堂", salary: 966, period: "2025年3月期" },
+  { rank: 13, slug: "nec", name: "NEC", salary: 963, period: "2025年3月期・単体全従業員" },
+  { rank: 14, slug: "hitachi", name: "日立製作所", salary: 961, period: "2025年3月期" },
+  { rank: 15, slug: "panasonic", name: "パナソニック", salary: 956, period: "2025年3月期・HD" },
+  { rank: 16, slug: "plaid", name: "プレイド", salary: 939, period: "直近有報" },
+  { rank: 17, slug: "capcom", name: "カプコン", salary: 918, period: "2025年3月期・単体全社員平均" },
+  { rank: 18, slug: "kadokawa", name: "KADOKAWA", salary: 885, period: "2025年3月期・単体" },
+  { rank: 19, slug: "line-yahoo", name: "LINEヤフー", salary: 884, period: "2025年3月期" },
+  { rank: 20, slug: "gree", name: "グリー（GREE）", salary: 865, period: "2025年6月期・持株会社単体" },
+  { rank: 21, slug: "denso", name: "デンソー", salary: 863, period: "2025年3月期・全従業員平均" },
+  { rank: 22, slug: "visional", name: "ビジョナル/ビズリーチ", salary: 861, period: "直近有報" },
+  { rank: 23, slug: "ricoh", name: "リコー", salary: 860, period: "2025年3月期・全社員平均" },
+  { rank: 24, slug: "softbank", name: "ソフトバンク", salary: 849, period: "2025年3月期" },
+  { rank: 25, slug: "omron", name: "オムロン", salary: 820, period: "2025年3月期・全従業員平均" },
+  { rank: 26, slug: "rakuten", name: "楽天グループ", salary: 820, period: "2024年12月期・全社員平均" },
+  { rank: 27, slug: "renesas", name: "ルネサスエレクトロニクス", salary: 809, period: "2024年12月期・全従業員平均" },
+  { rank: 28, slug: "murata", name: "村田製作所", salary: 803, period: "2025年3月期・全従業員平均" },
+  { rank: 29, slug: "scsk", name: "SCSK", salary: 796, period: "2026年3月期・全社員平均" },
+  { rank: 30, slug: "mixi", name: "MIXI（ミクシィ）", salary: 791, period: "2025年3月期・単体" },
+  { rank: 31, slug: "sansan", name: "Sansan", salary: 780, period: "2025年5月期" },
+  { rank: 32, slug: "note", name: "note（ノート）", salary: 763, period: "2025年11月期・全社員平均" },
+  { rank: 33, slug: "gungho", name: "ガンホー", salary: 750, period: "2024年12月期・単体全社員平均" },
+  { rank: 34, slug: "raksul", name: "ラクスル（RAKSUL）", salary: 742, period: "2025年7月期・全社員平均" },
+  { rank: 35, slug: "moneyforward", name: "マネーフォワード", salary: 723, period: "2025年11月期" },
+  { rank: 36, slug: "apple", name: "Apple Japan", salary: 700, period: "直近有報" },
+  { rank: 37, slug: "base", name: "BASE", salary: 700, period: "2024年12月期" },
+  { rank: 38, slug: "gmo-internet", name: "GMOインターネットグループ", salary: 693, period: "2024年12月期・持株会社単体" },
+  { rank: 39, slug: "kyocera", name: "京セラ", salary: 693, period: "2025年3月期・全従業員平均" },
+  { rank: 40, slug: "kaonavi", name: "カオナビ", salary: 690, period: "2025年3月期・全社員平均" },
+  { rank: 41, slug: "freee", name: "freee", salary: 688, period: "2025年6月期" },
+  { rank: 42, slug: "shift", name: "SHIFT", salary: 684, period: "2025年8月期・全社員平均" },
+  { rank: 43, slug: "colopl", name: "コロプラ", salary: 681, period: "2025年9月期・単体" },
+  { rank: 44, slug: "wantedly-inc", name: "ウォンテッドリー（Wantedly）", salary: 681, period: "直近有報" },
+  { rank: 45, slug: "rakus", name: "ラクス（RAKUS）", salary: 664, period: "2026年3月期・全社員平均" },
+  { rank: 46, slug: "zozo", name: "ZOZO", salary: 656, period: "2025年3月期・全社員平均" },
+  { rank: 47, slug: "timee", name: "タイミー（Timee）", salary: 594, period: "2024年10月期・全社員平均" }
 ];
 
 export default function CompanySalaryRankingPage() {
@@ -77,10 +81,10 @@ export default function CompanySalaryRankingPage() {
       />
       <main className="mx-auto max-w-4xl px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-4">
-          IT企業の平均年収ランキング43社【2026年・有報準拠】
+          IT企業の平均年収ランキング47社【2026年・有報準拠】
         </h1>
         <p className="text-slate-600 mb-6 leading-relaxed">
-          当サイトに掲載しているIT・テック企業のうち、有価証券報告書（有報）で平均年間給与を公表している43社をランキング化しました。
+          当サイトに掲載しているIT・テック企業のうち、有価証券報告書（有報）で平均年間給与を公表している47社をランキング化しました。
           推計値や口コミ集計ではなく、<strong>各社が金融庁に提出した有報の公表値のみ</strong>を採用しています（決算期を併記）。
           社名をクリックすると、技術スタック・選考・エンジニア職の給与レンジまで掘り下げた各社の転職ガイドに移動できます。
         </p>
