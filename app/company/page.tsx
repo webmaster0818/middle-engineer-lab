@@ -5,9 +5,9 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "企業別エンジニア転職ガイド一覧【90社】業態別に分類",
+  title: "企業別エンジニア転職ガイド一覧【95社】業態別に分類",
   description:
-    "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全90社をエンジニア転職の視点で業態分類。各社の年収レンジ・技術スタックの傾向と、企業研究の進め方を解説します。",
+    "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全95社をエンジニア転職の視点で業態分類。各社の年収レンジ・技術スタックの傾向と、企業研究の進め方を解説します。",
 };
 
 const categories = [
@@ -20,6 +20,7 @@ const categories = [
       { slug: "apple", name: "Apple Japan", salary: "1,000〜1,800万円", tech: "Swift / Objective-C / C++ / ML", desc: "プロダクト志向。ハード×ソフトの統合領域が強み。" },
       { slug: "meta", name: "Meta Japan", salary: "1,200〜2,200万円", tech: "React / Hack / Python / C++", desc: "大規模分散システムとフロント技術の最先端。" },
       { slug: "microsoft", name: "Microsoft Japan", salary: "1,000〜1,800万円", tech: "C# / TypeScript / Azure / Python", desc: "クラウド・エンタープライズに強い外資。働き方も柔軟。" },
+      { slug: "oracle-japan", name: "日本オラクル", salary: "全社平均1,259万円(2025/5)", tech: "Oracle DB / OCI / SaaS・PaaS・IaaS", desc: "データベース×クラウドの外資系大手。国内トップクラスの年収水準（東証スタンダード）。" },
     ],
   },
   {
@@ -85,6 +86,9 @@ const categories = [
       { slug: "tis", name: "TIS", salary: "全社平均828万円(2026/3)", tech: "Java / Python / TypeScript / AWS / Azure / GCP", desc: "決済・金融に強い国内大手SIer（TISインテックグループ中核）。" },
       { slug: "obic", name: "オービック（OBIC）", salary: "全社平均1,129万円(2026/3)", tech: "ERP「OBIC7」/ 基幹システム開発・導入", desc: "統合ERPをワンストップ提供する高収益・高年収のIT企業。" },
       { slug: "fujisoft", name: "富士ソフト", salary: "全社平均640万円(2024/12)", tech: "C / C++ / Java / Web・クラウド / AI・ロボット", desc: "組込みから業務システム・AIまで幅広い独立系総合SIer。" },
+      { slug: "ctc", name: "CTC（伊藤忠テクノソリューションズ）", salary: "全社平均1,028万円(2024/3)", tech: "Java / Python / AWS / Azure / OCI / 生成AI・セキュリティ", desc: "伊藤忠グループの事業開発力を持つ高年収の大手SIer。" },
+      { slug: "biprogy", name: "BIPROGY（旧日本ユニシス）", salary: "全社平均884万円(2026/3)", tech: "Java / Spring Boot / Azure / Flutter / DX", desc: "旧日本ユニシス。基幹システムからクラウド・DXまで手がける大手SIer。" },
+      { slug: "dts", name: "DTS", salary: "全社平均658万円(2026/3)", tech: "Java / Python / JavaScript / AWS / OCI / Azure", desc: "創業50年以上・盤石経営の独立系トータルSIer（東証プライム）。" },
     ],
   },
   {
@@ -138,6 +142,7 @@ const categories = [
       { slug: "classmethod", name: "クラスメソッド", salary: "非公開(非上場)", tech: "AWS / Terraform / TypeScript / Python", desc: "AWSプレミアティアパートナー・DevelopersIOのクラウド専業。" },
       { slug: "future", name: "フューチャー（Future）", salary: "親会社単体841万円(2024/12)", tech: "Java / Go / AWS / GCP / Azure / K8s", desc: "戦略から実装まで一気通貫のITコンサル。" },
       { slug: "iij", name: "IIJ（インターネットイニシアティブ）", salary: "全社平均747万円(2026/3)", tech: "ネットワーク / クラウド基盤 / セキュリティ / IoT", desc: "日本のインターネットを支えてきたネットワーク・クラウドの老舗。" },
+      { slug: "trendmicro", name: "トレンドマイクロ", salary: "全社平均988万円(2025/12)", tech: "C/C++ / Python / Go / AWS / 脅威解析・機械学習", desc: "サイバーセキュリティのグローバル大手。専門性と高年収を両立（東証プライム）。" },
     ],
   },
   {
@@ -164,7 +169,7 @@ export default function CompanyIndexPage() {
     "@type": "CollectionPage",
     name: "企業別エンジニア転職ガイド一覧",
     description:
-      "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全90社をエンジニア転職の視点で業態分類した一覧ページ。",
+      "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全95社をエンジニア転職の視点で業態分類した一覧ページ。",
     url: "https://middle-engineer.com/company/",
     mainEntity: {
       "@type": "ItemList",
@@ -182,7 +187,7 @@ export default function CompanyIndexPage() {
     <>
       <ArticleJsonLd
         title="企業別エンジニア転職ガイド一覧【90社】業態別に分類"
-        description="外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全90社をエンジニア転職の視点で業態分類した一覧ページ。"
+        description="外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全95社をエンジニア転職の視点で業態分類した一覧ページ。"
         url="/company/"
       />
       <script
@@ -198,7 +203,7 @@ export default function CompanyIndexPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          企業別エンジニア転職ガイド一覧【90社】
+          企業別エンジニア転職ガイド一覧【95社】
         </h1>
         <p className="text-slate-600 leading-relaxed mb-4">
           GAFAMから国内メガベンチャー、SaaS、SIer、メーカー、ゲームまで、全{allCompanies.length}社を業態別に分類しました。同じ「エンジニア採用」でも、業態によって求められる経験・選考スタイル・年収レンジは大きく異なります。気になる企業のガイドでは、採用の特徴・技術スタック・年収データ・選考フロー・30代40代視点での向き不向きまで掘り下げています。
