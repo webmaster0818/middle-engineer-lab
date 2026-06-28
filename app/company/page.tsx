@@ -5,9 +5,9 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "企業別エンジニア転職ガイド一覧【85社】業態別に分類",
+  title: "企業別エンジニア転職ガイド一覧【90社】業態別に分類",
   description:
-    "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全85社をエンジニア転職の視点で業態分類。各社の年収レンジ・技術スタックの傾向と、企業研究の進め方を解説します。",
+    "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全90社をエンジニア転職の視点で業態分類。各社の年収レンジ・技術スタックの傾向と、企業研究の進め方を解説します。",
 };
 
 const categories = [
@@ -54,6 +54,7 @@ const categories = [
       { slug: "ubie", name: "Ubie（ユビー）", salary: "職種別レンジ（公式）", tech: "Go / Node.js / TypeScript / GCP", desc: "医師×エンジニア創業のヘルステック。年齢不問・要件主義。" },
       { slug: "kakehashi", name: "カケハシ", salary: "参考値（非公式集計）", tech: "TypeScript / React / Node.js / AWS", desc: "薬局DX。TypeScript一貫のサーバーレス。選考フロー公開。" },
       { slug: "m3", name: "エムスリー（M3）", salary: "全社平均975万円(2026/3)", tech: "Kotlin / Scala / TypeScript / Ruby / Go", desc: "医療×ITのプラットフォーム。チーム裁量の技術選定と高収益。" },
+      { slug: "medpeer", name: "メドピア（MedPeer）", salary: "単体618万円(2024/9)", tech: "Ruby on Rails / TypeScript / React / Vue / AWS", desc: "医師向けプラットフォームを核に医療DXを進める東証プライムのヘルステック。" },
       { slug: "rakus", name: "ラクス（RAKUS）", salary: "全社平均664万円(2026/3)", tech: "Java / PHP / Go / Vue.js / TypeScript", desc: "楽楽精算等のバックオフィスSaaS。堅実な自社開発（4384とは別）。" },
       { slug: "10x", name: "10X（テンエックス）", salary: "参考値（非公式集計）", tech: "Dart / Flutter / GCP / gRPC", desc: "ネットスーパーDX「Stailer」。クライアントもサーバーもフルDart。" },
       { slug: "andpad", name: "ANDPAD（アンドパッド）", salary: "参考値（非公式集計）", tech: "Ruby on Rails / Go / Kubernetes", desc: "建設DXシェアNo.1クラス。SRE文化・プレIPO。" },
@@ -81,6 +82,9 @@ const categories = [
       { slug: "ibm", name: "日本IBM", salary: "公式平均は非公開", tech: "OpenShift / IBM Cloud / watsonx / Java", desc: "バンド制の外資。コンサル・アーキ志向のミドル向け。" },
       { slug: "scsk", name: "SCSK", salary: "全社平均796万円(2026/3)", tech: "Java / Python / AWS / Azure / クラウドネイティブ", desc: "住友商事系のフルラインナップ大手SIer。働き方改革に積極的。" },
       { slug: "shift", name: "SHIFT", salary: "全社平均684万円(2025/8)", tech: "ソフトウェアテスト / 品質保証(QA) / テスト自動化", desc: "ソフトウェア品質保証(QA)を軸に急成長する東証プライム企業。" },
+      { slug: "tis", name: "TIS", salary: "全社平均828万円(2026/3)", tech: "Java / Python / TypeScript / AWS / Azure / GCP", desc: "決済・金融に強い国内大手SIer（TISインテックグループ中核）。" },
+      { slug: "obic", name: "オービック（OBIC）", salary: "全社平均1,129万円(2026/3)", tech: "ERP「OBIC7」/ 基幹システム開発・導入", desc: "統合ERPをワンストップ提供する高収益・高年収のIT企業。" },
+      { slug: "fujisoft", name: "富士ソフト", salary: "全社平均640万円(2024/12)", tech: "C / C++ / Java / Web・クラウド / AI・ロボット", desc: "組込みから業務システム・AIまで幅広い独立系総合SIer。" },
     ],
   },
   {
@@ -133,6 +137,7 @@ const categories = [
       { slug: "gmo-pepabo", name: "GMOペパボ", salary: "全社平均551万円(2024/12)", tech: "Ruby / Rails / Go / Linux / K8s", desc: "ホスティング〜EC・minne。技術発信が活発。" },
       { slug: "classmethod", name: "クラスメソッド", salary: "非公開(非上場)", tech: "AWS / Terraform / TypeScript / Python", desc: "AWSプレミアティアパートナー・DevelopersIOのクラウド専業。" },
       { slug: "future", name: "フューチャー（Future）", salary: "親会社単体841万円(2024/12)", tech: "Java / Go / AWS / GCP / Azure / K8s", desc: "戦略から実装まで一気通貫のITコンサル。" },
+      { slug: "iij", name: "IIJ（インターネットイニシアティブ）", salary: "全社平均747万円(2026/3)", tech: "ネットワーク / クラウド基盤 / セキュリティ / IoT", desc: "日本のインターネットを支えてきたネットワーク・クラウドの老舗。" },
     ],
   },
   {
@@ -159,7 +164,7 @@ export default function CompanyIndexPage() {
     "@type": "CollectionPage",
     name: "企業別エンジニア転職ガイド一覧",
     description:
-      "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全85社をエンジニア転職の視点で業態分類した一覧ページ。",
+      "外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全90社をエンジニア転職の視点で業態分類した一覧ページ。",
     url: "https://middle-engineer.com/company/",
     mainEntity: {
       "@type": "ItemList",
@@ -176,8 +181,8 @@ export default function CompanyIndexPage() {
   return (
     <>
       <ArticleJsonLd
-        title="企業別エンジニア転職ガイド一覧【85社】業態別に分類"
-        description="外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全85社をエンジニア転職の視点で業態分類した一覧ページ。"
+        title="企業別エンジニア転職ガイド一覧【90社】業態別に分類"
+        description="外資ビッグテック・メガベンチャー・SaaS・SIer・メーカー・ゲーム・インフラ・通信金融の全90社をエンジニア転職の視点で業態分類した一覧ページ。"
         url="/company/"
       />
       <script
@@ -193,7 +198,7 @@ export default function CompanyIndexPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          企業別エンジニア転職ガイド一覧【85社】
+          企業別エンジニア転職ガイド一覧【90社】
         </h1>
         <p className="text-slate-600 leading-relaxed mb-4">
           GAFAMから国内メガベンチャー、SaaS、SIer、メーカー、ゲームまで、全{allCompanies.length}社を業態別に分類しました。同じ「エンジニア採用」でも、業態によって求められる経験・選考スタイル・年収レンジは大きく異なります。気になる企業のガイドでは、採用の特徴・技術スタック・年収データ・選考フロー・30代40代視点での向き不向きまで掘り下げています。
