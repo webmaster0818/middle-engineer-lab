@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 export const metadata: Metadata = {
   title: "転職エージェント・スカウト・フリーランス評判一覧【30代40代向け】",
   description:
-    "30代・40代ITエンジニア向けに、転職エージェント・ハイクラススカウト・スキル可視化スカウト・フリーランスエージェント計22サービスの評判と使い分けをタイプ別に整理。各サービスの強み・向き不向きを比較できます。",
+    "30代・40代ITエンジニア向けに、転職エージェント・ハイクラススカウト・スキル可視化スカウト・フリーランスエージェントの評判と使い分けをタイプ別に整理。各サービスの強み・向き不向きを比較できます。",
 };
 
 const categories = [
@@ -24,6 +24,9 @@ const categories = [
       { slug: "cloudlink", name: "クラウドリンク（現AIdea Career）", desc: "自社内開発求人100%でSES脱出に特化。" },
       { slug: "willof-tech", name: "ウィルオブテック", desc: "上場ウィルグループ運営。専属2名体制で年収アップに強い経験者向け。" },
       { slug: "techclips", name: "TechClips", desc: "自社開発企業100%・年収500万円以上特化。首都圏向け。" },
+      { slug: "unison-career", name: "ユニゾンキャリア", desc: "IT/Web業界専門。未経験〜経験者まで幅広く対応する特化型。" },
+      { slug: "techgate-expert", name: "テックゲートエキスパート", desc: "株式会社セルバ運営。ハイクラスSE・ITコンサルへのキャリアアップに強い。" },
+      { slug: "edb-agent", name: "EDBエージェント", desc: "エンジニアデータバンク運営。実務経験者アドバイザー＋OB/OG面談が特徴。" },
     ],
   },
   {
@@ -35,6 +38,7 @@ const categories = [
       { slug: "doda-x", name: "doda X（旧iX転職）", desc: "年収800万円以上比率が高いハイクラススカウト。" },
       { slug: "jac-recruitment", name: "JACリクルートメント", desc: "両面型ハイクラス。40代エンジニアに最有力の一つ。" },
       { slug: "tenshoku-draft", name: "転職ドラフト", desc: "企業が年収提示つきで指名する競争入札型。市場価値を金額で確認できる。" },
+      { slug: "levtech-direct", name: "レバテックダイレクト", desc: "レバレジーズのIT/Web特化スカウト型。企業から直接スカウトが届く（エージェント型のレバテックキャリアとは別商品）。" },
     ],
   },
   {
