@@ -27,6 +27,7 @@ const categories = [
       { slug: "unison-career", name: "ユニゾンキャリア", desc: "IT/Web業界専門。未経験〜経験者まで幅広く対応する特化型。" },
       { slug: "techgate-expert", name: "テックゲートエキスパート", desc: "株式会社セルバ運営。ハイクラスSE・ITコンサルへのキャリアアップに強い。" },
       { slug: "edb-agent", name: "EDBエージェント", desc: "エンジニアデータバンク運営。実務経験者アドバイザー＋OB/OG面談が特徴。" },
+      { slug: "techgo", name: "テックゴー（TechGo）", desc: "MyVision運営のIT特化。模擬面接を何度も実施、年収交渉に強み。" },
     ],
   },
   {
