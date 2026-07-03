@@ -263,6 +263,7 @@ export default function CertTopPage() {
             当サイトで個別に解説している資格ガイドの一覧です。受験料・試験形式・合格率（公表値）・30-40代の転職での活かし方を、各ページで公式情報の出典付きで整理しています。
           </p>
           <p className="text-sm mb-4"><Link href="/cert/compare/" className="text-petrol-deep font-medium hover:underline">▶ 32資格の受験料・合格率を一覧で横断比較する（IT資格 比較データ）</Link></p>
+          <p className="text-sm mb-4"><Link href="/cert/salary/" className="text-petrol-deep font-medium hover:underline">▶ 資格別の想定年収・資格手当データを見る（基本情報・支援士・AWS等）</Link></p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3 text-sm">国家試験（IPA）</h3>

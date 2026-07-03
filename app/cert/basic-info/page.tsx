@@ -290,7 +290,7 @@ export default function BasicInfoCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            併取得・次のステップ：上流・経験者の加点なら<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>、インフラ実務なら<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>、クラウドなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>が定番です。
+            年収との関係は<Link href="/cert/salary/" className="text-petrol hover:underline">基本情報技術者の年収・資格手当データ</Link>で詳しく整理しています。併取得・次のステップ：上流・経験者の加点なら<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>、インフラ実務なら<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>、クラウドなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>が定番です。
           </p>
         </section>
 

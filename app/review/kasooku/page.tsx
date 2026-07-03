@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "カソーク（Kasooku）の評判・口コミ｜30代40代エンジニアの本音";
+const TITLE = "カソーク（Kasooku）の評判・口コミは？怪しくない？【2026年7月】副業から転職の仕組みを検証";
 const DESCRIPTION =
-  "カソーク（Kasooku）の評判・口コミを30代40代エンジニア目線で検証。副業・複業から転職にもつながるマッチングプラットフォームの仕組み、エンジニア案件の有無、料金無料、口コミが少ない点までデータと出典付きで解説します。";
+  "カソーク（Kasooku）の評判・口コミは？怪しい？に直答。上場ユナイテッドグループ運営という実態、副業・複業から相性を見て転職につなげる仕組み、エンジニア案件の有無、料金無料の理由、口コミが少ない点の正直な評価まで出典付きで解説します（2026年7月確認）。";
 const URL = "/review/kasooku/";
 
 export const metadata: Metadata = {

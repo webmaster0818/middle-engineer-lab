@@ -318,6 +318,7 @@ export default function SalaryChangePage() {
 
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
+          <p className="text-sm mb-3"><Link href="/knowledge/retirement-allowance/" className="text-petrol-deep font-medium hover:underline">▶ 転職すると退職金はどうなる？（退職所得控除・DC移換の手続き）</Link></p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "30代エンジニアの年収相場", href: "/knowledge/salary-30s/" },

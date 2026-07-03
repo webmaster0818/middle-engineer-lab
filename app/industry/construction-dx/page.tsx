@@ -447,6 +447,7 @@ export default function ConstructionDxPage() {
 
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
+          <p className="text-sm mb-3"><Link href="/company/andpad/" className="text-petrol-deep font-medium hover:underline">▶ アンドパッドの転職難易度・年収・選考対策を見る（建設DXの代表企業）</Link></p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">

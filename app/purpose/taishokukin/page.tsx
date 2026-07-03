@@ -83,6 +83,13 @@ export default function TaishokukinPage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：「退職金あり」は中身（一時金かDCか）で意味が変わる</h2>
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-6">
+            <p className="text-sm text-amber-900">
+              💡 <strong>「転職すると今の退職金・企業型DCはどうなる？」という手続きを知りたい方はこちら</strong>：
+              <Link href="/knowledge/retirement-allowance/" className="underline font-bold">転職すると退職金はどうなる？退職所得控除・DC移換・脱退一時金の手続き</Link>
+              （本ページは「退職金制度がある企業の選び方」を扱います）
+            </p>
+          </div>
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             退職金は30-40代の老後資産設計に直結する重要な制度ですが、「退職金制度あり」という表記の中身は企業によって大きく異なります。会社が給付額を約束する<strong>退職一時金</strong>と、拠出額を約束し運用は従業員に委ねる<strong>企業型DC（確定拠出年金）</strong>では、転職時の扱い・税制・リスクが変わります。本記事では、退職金とDCの違い・退職所得控除の仕組みを公的情報で整理し、求人での見極め方を転職時のポータビリティと老後資金設計の観点で解説します。
           </p>
