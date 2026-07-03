@@ -379,6 +379,7 @@ export default function AwsSkillPage() {
 
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
+          <p className="text-sm mb-3"><Link href="/company/aws-japan/" className="text-petrol-deep font-medium hover:underline">▶ AWSジャパン（企業）への転職・年収・評判を見る（クラウド職種特化ページ）</Link></p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "AWS認定SAA（ソリューションアーキテクト）の活かし方", href: "/cert/aws-saa/" },

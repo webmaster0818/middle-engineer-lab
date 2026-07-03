@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "Google Japan エンジニア転職ガイド｜年収・選考・技術【2026年版】",
+  title: "Google（グーグル）の年収とエンジニア転職【2026年】レベル別給与・選考・技術を解説",
   description:
     "Google合同会社（日本法人）へのエンジニア転職を、公式採用情報とlevels.fyi・OpenWork等の集計値をもとに解説。年収レンジ・選考フロー・面接の特徴・30代40代の現実までまとめました。",
 };
