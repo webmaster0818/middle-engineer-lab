@@ -225,6 +225,19 @@ export default function IndustrySalaryPage() {
           <p className="text-blue-100 text-sm mb-4">業界・企業・職種でレンジは大きく変わります。IT特化エージェントに相談して、自分のスキルで狙える業界と年収を把握しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
+        {/* 一次データ相互リンク（2026-07-04 リンク完全性の是正） */}
+        <section className="mb-10">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">当サイトの一次データ集（あわせて読む）</h2>
+          <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm list-disc pl-5">
+            <li><Link href="/salary/tech-stack-salary/" className="text-petrol-deep hover:underline">技術スタック×企業年収の相関データ【有報43社】</Link></li>
+            <li><Link href="/cert/compare/" className="text-petrol-deep hover:underline">IT資格の受験料・合格率 比較一覧【32資格】</Link></li>
+            <li><Link href="/salary/age-salary/" className="text-petrol-deep hover:underline">年代別エンジニア年収・転職難易度 早見表</Link></li>
+            <li><Link href="/salary/job-type-salary/" className="text-petrol-deep hover:underline">職種別エンジニア年収ランキング</Link></li>
+            <li><Link href="/cert/salary/" className="text-petrol-deep hover:underline">資格別の想定年収・資格手当データ</Link></li>
+            <li><Link href="/knowledge/retirement-allowance/" className="text-petrol-deep hover:underline">転職すると退職金はどうなる？（手続き解説）</Link></li>
+          </ul>
+        </section>
+
       </article>
     </>
   );
