@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "ソニーグループの年収は平均1118万円【2026年・有報】エンジニア転職・選考ガイド",
+  title: "ソニーグループの転職難易度と年収は？平均1118万円【2026年・有報】エンジニア転職ガイド",
   description:
     "ソニーグループのエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説。提出会社平均年収1,118万円(2025年3月期)、ジョブ型人事、半導体・PlayStationの技術領域を中立にまとめました。",
 };

@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "KDDIの年収は平均1018万円【2026年・有報】エンジニア転職・選考ガイド",
+  title: "KDDIの転職難易度と年収は？平均1018万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "KDDIへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,018万円（2025年3月期・全社員平均）、5G・クラウド（AWS/GCP/Azure/KCPS）・データ・AIの募集職種、ジョブ型人事、選考フロー、30代40代の現実までまとめました。",
 };

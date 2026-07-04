@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "MIXI（ミクシィ）の年収は平均791万円【2026年・有報】エンジニア転職・選考ガイド",
+  title: "MIXI（ミクシィ）の転職難易度と年収は？平均791万円【2026年・有報】エンジニア転職ガイド",
   description:
     "MIXI（ミクシィ）へのエンジニア転職を実データで解説。有価証券報告書の平均年収791万円（2025年3月期・単体）、モンスト/家族アルバム みてね等の技術スタック、選考フロー、30代40代の現実までまとめました。",
 };

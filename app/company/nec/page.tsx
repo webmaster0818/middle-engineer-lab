@@ -5,7 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
-  title: "NECの年収は平均963万円【2026年・有報】エンジニア転職・ジョブ型の現実",
+  title: "NECの転職難易度と年収は？平均963万円【2026年・有報】ジョブ型のエンジニア転職",
   description:
     "NEC（日本電気）のエンジニア中途採用を有価証券報告書の一次情報で解説。平均年収963万円(2025年3月期・単体全従業員)、ジョブ型移行、社会インフラ/AIの事業、30代40代の現実を中立にまとめました。",
 };
