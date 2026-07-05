@@ -98,6 +98,7 @@ export default function PythonSkillPage() {
           <p className="text-slate-600 leading-relaxed">
             本記事では、<strong>公表年収データ・求められる経験レベル・求人の探し方・Web系からAI/MLへの転向ルート</strong>を、30代・40代の視点を交えて整理します。
           </p>
+                  <p className="text-sm mt-3 text-slate-600">言語別の年収比較は<Link href="/salary/skill-ranking/" className="text-petrol underline font-semibold">プログラミング言語別 年収ランキング</Link>、企業別の有報年収は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング</Link>をご覧ください。</p>
         </section>
 
         <DataNote

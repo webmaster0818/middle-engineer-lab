@@ -57,7 +57,7 @@ export default function AgeSalaryPage() {
           ITエンジニアの<strong>年代別の平均年収（公表値）</strong>と、<strong>転職難易度・狙える年収レンジ・年代ごとの戦い方</strong>を1つの早見表にまとめました。「自分の年齢で、何を武器にどのレンジを狙えるか」を、ミドル（30代・40代・50代）の視点で整理しています。
         </p>
         <DataNote surveyedAt="2026年6月" sources={["レバテック公表 年代別平均年収", "厚生労働省 job tag", "doda 決定年収レポート"]} />
-        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月｜平均年収は公表値の参考レンジです。同年代でも企業・職種・スキルでレンジは大きく変わります。</p>
+        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年7月｜平均年収は公表値の参考レンジです。同年代でも企業・職種・スキルでレンジは大きく変わります。</p>
 
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年代別 年収・転職難易度 比較表</h2>
@@ -86,6 +86,49 @@ export default function AgeSalaryPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：レバテック公表の年代別平均年収、厚労省 job tag、doda 決定年収レポート（2026年6月時点）。転職難易度・レンジは公的統計と市場傾向にもとづく当サイトの整理で、断定ではありません。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年齢階級別の推定年収（厚労省・令和7年賃金構造基本統計調査）</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-4">
+            公的統計で最も新しい年齢別データです（2026年3月公表・e-Statの原表から当サイトが集計）。<strong>推定年収＝きまって支給する現金給与額×12＋年間賞与</strong>（一般労働者・企業規模計・男女計）。残業代込みの平均値のため、中央値の体感より高めに出る点に注意してください。
+          </p>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-slate-100">
+                  <th className="border border-slate-200 p-2 text-left">年齢階級</th>
+                  <th className="border border-slate-200 p-2 text-left">ソフトウェア作成者<br /><span className="font-normal text-xs">（プログラマー・SE 81.8万人）</span></th>
+                  <th className="border border-slate-200 p-2 text-left">システムコンサル・設計者<br /><span className="font-normal text-xs">（17.4万人）</span></th>
+                  <th className="border border-slate-200 p-2 text-left">全産業平均</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["20-24歳", "363.0万円", "476.6万円", "361.4万円"],
+                  ["25-29歳", "484.7万円", "641.6万円", "448.2万円"],
+                  ["30-34歳", "559.5万円", "866.1万円", "507.3万円"],
+                  ["35-39歳", "636.0万円", "968.1万円", "556.7万円"],
+                  ["40-44歳", "686.3万円", "1,189.0万円", "594.7万円"],
+                  ["45-49歳", "729.2万円", "1,226.3万円", "613.6万円"],
+                  ["50-54歳", "722.4万円", "1,103.7万円", "633.9万円"],
+                  ["55-59歳", "719.5万円", "1,163.8万円", "641.4万円"],
+                  ["全年齢", "578.5万円", "889.0万円", "545.6万円"],
+                ].map((row, i) => (
+                  <tr key={i} className={i === 8 ? "bg-slate-50 font-bold" : ""}>
+                    {row.map((cell, j) => (
+                      <td key={j} className="border border-slate-200 p-2">{cell}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <ul className="text-xs text-slate-400 space-y-1 leading-relaxed mb-3">
+            <li>・出典: 厚生労働省「令和7年賃金構造基本統計調査」職種別第5表（e-Stat・2026年3月24日公開）より当サイト推計。</li>
+            <li>・エンジニア（ソフトウェア作成者）は全年齢で全産業平均を上回り、<strong className="text-slate-600">45-49歳では＋115.6万円</strong>と年齢が上がるほど差が拡大します。「35歳限界説」を公的データは支持していません。</li>
+            <li>・上流（システムコンサルタント・設計者）へ職種転換すると40代で推定1,100万円超と、同年齢のソフトウェア作成者より約500万円高い水準です。</li>
+          </ul>
         </section>
 
         <section className="mb-12">

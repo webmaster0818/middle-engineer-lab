@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "ゲーム業界エンジニア転職ガイド｜職種・年収・進め方";
+const TITLE = "ゲーム業界のエンジニア転職【2026年】年収ランキング（有報）・職種・未経験からの進め方";
 const DESCRIPTION =
   "ゲーム業界エンジニアの転職を徹底解説。Unity/Unreal Engine、サーバーサイド、XRなどの職種、求められるスキル、年収の考え方、ゲームに強いエージェントの選び方、30代・40代の戦略までガイドします。";
 
@@ -255,6 +255,44 @@ export default function GamingPage() {
         {/* 年収 */}
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方（公表データ）</h2>
+          <div className="bg-white rounded-xl border border-slate-200 p-5 mb-6">
+            <h3 className="font-bold text-slate-800 mb-3">ゲーム関連 上場企業の平均年収ランキング（有価証券報告書・当サイト企業DBより）</h3>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-slate-100 text-slate-700">
+                    <th className="px-3 py-2 text-left">企業</th>
+                    <th className="px-3 py-2 text-left">平均年間給与（有報）</th>
+                    <th className="px-3 py-2 text-left">決算期</th>
+                  </tr>
+                </thead>
+                <tbody className="text-slate-600">
+                  {[
+                    ["square-enix", "スクウェア・エニックスHD", "1,427万円※", "2022年3月期"],
+                    ["bandai-namco", "バンダイナムコHD", "1,216万円※", "2025年3月期"],
+                    ["sony", "ソニーグループ", "1,118万円※", "2025年3月期"],
+                    ["nintendo", "任天堂", "966万円", "2025年3月期"],
+                    ["sega-sammy", "セガサミーHD", "939万円※", "2025年3月期"],
+                    ["capcom", "カプコン", "918万円", "2025年3月期"],
+                    ["dena", "ディー・エヌ・エー", "約883万円", "2025年3月期"],
+                    ["gree", "グリー", "865万円", "2025年6月期"],
+                    ["mixi", "MIXI", "791万円", "2025年3月期"],
+                    ["konami", "コナミグループ", "789万円※", "2025年3月期"],
+                    ["colopl", "コロプラ", "681万円", "2025年9月期"],
+                  ].map(([slug, name, salary, term]) => (
+                    <tr key={slug} className="border-t border-slate-100">
+                      <td className="px-3 py-2"><Link href={`/company/${slug}/`} className="text-petrol underline font-medium">{name}</Link></td>
+                      <td className="px-3 py-2 font-semibold">{salary}</td>
+                      <td className="px-3 py-2">{term}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-slate-400 mt-3 leading-relaxed">
+              ※印は持株会社（提出会社単体）の数値で、本社機能スタッフの平均です（例: スクウェア・エニックスHDは対象27名）。開発現場の事業会社（スクウェア・エニックス、セガ、KONAMIデジタルエンタテインメント等）の給与水準とは異なります。各社の詳細・最新の決算期は企業ページをご確認ください。
+            </p>
+          </div>
           <p className="text-slate-600 leading-relaxed mb-4">
             ゲーム職に限定した平均年収の公的な公表値は限られるため、当サイトでは断定を避け、IT職全般の公表データを参考値として示します。実際の提示額は職種・企業・経験で大きく変わります。
           </p>

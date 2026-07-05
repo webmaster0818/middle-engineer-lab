@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "プログラミング言語別の平均年収ランキング【2026年・出典付き】レバテック/求人ボックス公表データ";
+const TITLE = "プログラマーの年収ランキング【2026年】言語別×年齢別・出典付き公表データ";
 const DESCRIPTION =
   "プログラミング言語・IT職種別の平均年収を、レバテックキャリア収入統計（正社員・2025年1月時点）と求人ボックス給料ナビ（2026年5月）の公表データで整理。出典・調査時点つきで、TypeScript・Go・Scalaなど言語別、データサイエンティスト等の職種別を一覧化しています。";
 
@@ -21,6 +21,14 @@ export default function SkillSalaryRankingPage() {
           言語・スキル別の年収は、調査会社によって集計条件（正社員かフリーランスか、平均か中央値か、調査時点）が大きく異なります。当ページでは<strong>「同じ調査の中で横断比較できる」公表データ</strong>のみを、出典・時点つきで整理しました。ソースをまたいだ単純比較はできない点にご注意ください。各言語名はスキル別の転職ガイドにリンクしています。
         </p>
         <DataNote surveyedAt="2026年6月15日" sources={["レバテックキャリア 収入統計（2025年1月時点）", "求人ボックス 給料ナビ（2026年5月7日更新）"]} />
+
+        <h2 className="text-xl font-bold text-slate-900 mb-2 mt-8">まず全体相場：プログラマーの平均年収（公的統計）</h2>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          厚生労働省「令和7年賃金構造基本統計調査」（2026年3月公表・e-Stat原表から当サイト推計）によると、<strong>ソフトウェア作成者（プログラマー・SE）の推定年収は全年齢平均578.5万円</strong>（きまって支給する現金給与額×12＋年間賞与・残業代込みの平均値）。全産業平均545.6万円を上回り、30-34歳559.5万円→40-44歳686.3万円→45-49歳729.2万円と年齢とともに差が広がります。上流のシステムコンサルタント・設計者は全年齢平均889.0万円です。
+        </p>
+        <p className="text-sm text-slate-600 leading-relaxed mb-6">
+          年齢階級別の詳細は<Link href="/salary/age-salary/" className="text-petrol underline font-semibold">年代別エンジニア年収 早見表</Link>、企業ごとの実額は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング（有報95社DB）</Link>へ。以下は言語別・職種別の公表データです。
+        </p>
 
         <h2 className="text-xl font-bold text-slate-900 mb-2 mt-8">言語別 平均年収（レバテックキャリア・正社員）</h2>
         <p className="text-sm text-slate-500 mb-3">出典: レバテックキャリア 収入統計（掲載求人ベース・2025年1月時点）。平均年収・中央値を同一基準で比較できます。</p>

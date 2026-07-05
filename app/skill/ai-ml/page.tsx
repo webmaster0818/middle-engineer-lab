@@ -134,6 +134,7 @@ export default function AiMlSkillPage() {
               <li>③ IT特化エージェント（レバテックキャリア等）とハイクラススカウト（ビズリーチ）を<strong>併用</strong>し、非公開のAI専任ポジションを拾う。</li>
             </ul>
           </div>
+                  <p className="text-sm mt-3 text-slate-600">言語別の年収比較は<Link href="/salary/skill-ranking/" className="text-petrol underline font-semibold">プログラミング言語別 年収ランキング</Link>、企業別の有報年収は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング</Link>をご覧ください。</p>
         </section>
 
         {/* 市場・年収データ */}
