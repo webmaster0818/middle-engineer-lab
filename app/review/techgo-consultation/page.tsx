@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import TechgoCta from "@/components/TechgoCta";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
@@ -201,6 +202,8 @@ export default function TechgoConsultation() {
             </ul>
           </div>
         </section>
+
+        <TechgoCta heading="無料キャリア面談を予約する（最短60秒・公式）" />
 
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
@@ -547,6 +550,8 @@ export default function TechgoConsultation() {
         </section>
 
         {/* 関連記事 */}
+        <TechgoCta heading="転職を決めていなくても相談OK（公式FAQ明記）" buttonText="テックゴーの無料キャリア面談を予約する（公式）" />
+
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

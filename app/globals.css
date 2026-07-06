@@ -139,3 +139,17 @@ body {
   .atmosphere::after { animation: none; }
   .lift { transition: none; }
 }
+
+/* アフィリエイトCTAボタン(生HTML用) */
+.techgo-cta-btn {
+  display: inline-block;
+  background: var(--petrol);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  padding: 0.875rem 2rem;
+  font-size: 0.875rem;
+  text-align: center;
+  transition: opacity 0.2s;
+}
+.techgo-cta-btn:hover { opacity: 0.9; }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { TechgoCtaInline } from "@/components/TechgoCta";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -404,6 +405,7 @@ export default function Home() {
                   >
                     詳細レビューを読む →
                   </Link>
+                  {agent.reviewPath === "/review/techgo/" && <TechgoCtaInline />}
                 </div>
               </div>
             ))}
