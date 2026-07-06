@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニア転職の面接で「何か質問はありますか」と聞かれたときの逆質問を、評価される具体例・場面別の例文・避けるべきNG質問まで実践的に解説。30代40代がマネジメント・技術選定・裁量を見極めるための質問もまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/reverse-questions/" },
   title: TITLE,
   description: DESCRIPTION,
 };

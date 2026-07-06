@@ -9,6 +9,7 @@ const DESCRIPTION =
   "転職エージェントの上手な断り方と退会方法を解説。求人紹介を断る・連絡を控えてもらう・担当変更を依頼する・退会するの4つの場面別にメール例文を用意。30代・40代が角を立てずに付き合い方を整理するための実務をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/agent-decline/" },
   title: TITLE,
   description: DESCRIPTION,
 };

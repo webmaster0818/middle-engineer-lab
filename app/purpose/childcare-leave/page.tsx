@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/childcare-leave/" },
   title: "育休取得実績が豊富な企業へ転職【くるみん認定の見極め】",
   description:
     "育休取得実績が豊富なIT企業への転職を解説。くるみん認定など公的な指標の読み方、男性育休取得率の見極め方、制度と実態の差、注意点を30-40代エンジニア向けに整理します。",

@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IPAの国家資格・基本情報技術者試験（FE）が転職で評価される場面を、未経験入口資格としての位置づけから30代・40代向けに整理。CBT通年化後の合格率、年収相場（出典明記）、限界も正直に解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/basic-info/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

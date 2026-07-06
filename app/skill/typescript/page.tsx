@@ -10,6 +10,7 @@ const DESCRIPTION =
   "TypeScriptエンジニアの転職市場を公表データで解説。求人ボックス・paizaの言語別年収、求人の探し方、30代・40代の参入ルート、おすすめエージェントまで実用的にまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/typescript/" },
   title: TITLE,
   description: DESCRIPTION,
 };

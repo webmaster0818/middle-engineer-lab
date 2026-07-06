@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/40s/" },
   title: "40代エンジニア転職は厳しい？理由と現実的な戦略【2026年6月】",
   description:
     "「40代エンジニアの転職は厳しい」と言われる理由に正面から回答。レバテック公表の40代平均年収約618万円や経産省のIT人材不足試算など実データで現実を整理し、強みの活かし方、おすすめエージェント、進め方、FAQまで解説します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/paid-leave/" },
   title: "退職時の有給消化【時季変更権・買い取り・拒否への対処】",
   description:
     "退職時の有給消化を法律の観点から解説。年次有給休暇は労働者の権利であり、退職日を超えた時季変更権は行使できない点や、買い取りの原則と例外、消化拒否への対処を30代・40代エンジニア向けに整理します。",

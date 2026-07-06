@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/manager-to-ic/" },
   title: "管理職→現場エンジニア復帰（IC）への転職ガイド【2026年版】",
   description:
     "マネージャーから個人貢献者（IC）として現場エンジニアに復帰するための現実性、技術キャッチアップの進め方、在職中の準備ステップ、職務経歴書のBefore/After例文を公的データに基づき解説します。",

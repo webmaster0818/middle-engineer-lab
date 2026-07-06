@@ -9,6 +9,7 @@ const DESCRIPTION =
   "年収700万円のITエンジニアに必要なスキルレベル・役職・職種・求人傾向を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理。ITSS L4（高度専門・プロ）に相当し、リーダー・上級SE・クラウド/インフラ高度専門に広がる求人傾向と、30〜40代の狙い方を解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/700man/" },
   title: TITLE,
   description: DESCRIPTION,
 };

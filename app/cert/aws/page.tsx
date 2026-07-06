@@ -9,6 +9,7 @@ const PAGE_DESC =
   "AWS認定資格（SAA中心）は30代・40代の転職で有利か。受験料・有効期限、保有者の年収相場、実務2-3年とセットで効く理由、オンプレ実務×AWSの掛け算の活かし方を、資格だけでは上がりにくい現実も含めて解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/aws/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

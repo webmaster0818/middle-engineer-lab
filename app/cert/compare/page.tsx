@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IPA国家試験からAWS・Azure・GCP・Cisco・LPIC・CISSPまで、IT系32資格の受験料と合格率（公式公表値）を一覧で横断比較。エンジニア転職で資格を選ぶときに、難易度とコストを一目で比べられる独自データです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/compare/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

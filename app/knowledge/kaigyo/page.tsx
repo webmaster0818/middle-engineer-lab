@@ -9,6 +9,7 @@ const DESCRIPTION =
   "会社員エンジニアからフリーランスへ転向する際の開業届の出し方を、提出期限・提出先・青色申告承認申請との同時提出・必要書類まで国税庁の公式情報に基づいて解説。30代・40代が独立初期につまずかないための実務ガイドです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/kaigyo/" },
   title: TITLE,
   description: DESCRIPTION,
 };

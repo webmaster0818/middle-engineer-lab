@@ -9,6 +9,7 @@ const DESC =
   "モビリティ・自動車IT業界（CASE・自動運転・車載ソフト・MaaS）へエンジニア転職する現実的な方法を解説。求められる技術とスキル、参入ルート、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/mobility/" },
   title: TITLE,
   description: DESC,
 };

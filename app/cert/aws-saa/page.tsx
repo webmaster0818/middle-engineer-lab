@@ -9,6 +9,7 @@ const PAGE_DESC =
   "AWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）を、経験者の加点資格という観点から30代・40代向けに解説。受験料・試験形式・合格スコア・有効期限・出題範囲を公式情報で整理し、クラウド移行需要のなかで実務とセットで効く理由と限界をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/aws-saa/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

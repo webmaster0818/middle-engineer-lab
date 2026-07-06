@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/no-relocation/" },
   title: "転勤なしのエンジニア求人の見極め方【2026年版】",
   description:
     "「転勤なし」のエンジニア求人を勤務地限定の観点で解説。原則・当面・選択制の罠、SES客先常駐・出向で崩れる落とし穴、年収とのトレードオフまで30-40代向けに正直に整理。",

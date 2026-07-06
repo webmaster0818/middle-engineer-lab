@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/smartnews/" },
   title: "SmartNewsへのエンジニア転職｜年収・技術スタック・難易度【2026年版】",
   description:
     "SmartNewsのエンジニア中途採用を公式Engineering Blog等の一次情報で解説。Java中心＋Scala/Sparkの配信・ML基盤、少数精鋭の難易度、30代40代の現実を中立にまとめました。",

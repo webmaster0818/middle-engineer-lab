@@ -9,6 +9,7 @@ const DESC =
   "官公庁・公共系SEから民間IT企業・GovTech・セキュリティ領域へ転職する現実的な方法を解説。活かせる公共系の経験と埋めるギャップ、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/government/" },
   title: TITLE,
   description: DESC,
 };

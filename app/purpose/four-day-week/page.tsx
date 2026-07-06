@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/four-day-week/" },
   title: "週休3日制のエンジニア求人の見極め方【2026年版】",
   description:
     "週休3日制を「給与維持型・給与減額型・総労働時間短縮型」の3類型で整理。求人がどの型か見極める方法、正社員週4の希少性、30-40代の世帯収入試算まで正直に解説。",

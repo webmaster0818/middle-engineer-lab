@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/uzabase/" },
   title: "ユーザベース（UZABASE）エンジニア転職ガイド【2026年版】年収・技術・選考",
   description:
     "ユーザベース（旧3991→3966）へのエンジニア転職を実データで解説。上場最終期付近の有価証券報告書の平均年収約760万円（全社員平均）、SPEEDA/NewsPicksの技術スタック（Elixir/Go/Next.js等）、選考、30代40代の現実までまとめました。",

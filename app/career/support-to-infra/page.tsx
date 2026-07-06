@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/support-to-infra/" },
   title: "サポート→インフラエンジニアへの転職完全ガイド【2026年版】",
   description:
     "ヘルプデスク・ITサポートからインフラエンジニアへ転職するための現実性、スキルギャップ比較、資格、在職中の準備、職務経歴書のBefore/After例文を解説します。",

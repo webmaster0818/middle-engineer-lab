@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/trendmicro/" },
   title: "トレンドマイクロの年収は平均988万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "トレンドマイクロ（4704）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年間給与988万円(2025年12月期 有報・全社員平均)、サイバーセキュリティを軸とする技術領域、選考フロー、30代40代の戦い方まで。",

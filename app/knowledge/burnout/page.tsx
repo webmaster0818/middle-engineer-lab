@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニアの燃え尽き症候群（バーンアウト）のサインをセルフチェック。休職と転職の判断基準、「逃げの転職」の考え方を30代・40代向けに解説します。専門医・産業医への相談前提でまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/burnout/" },
   title: TITLE,
   description: DESCRIPTION,
 };

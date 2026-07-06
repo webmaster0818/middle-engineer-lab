@@ -9,6 +9,7 @@ const DESCRIPTION =
   "受託開発と自社開発の違いを、仕事の進め方・スキルの伸び方・年収・働き方の観点で中立に比較。どちらが優れているかではなく、自分に合うのはどちらかを判断するための軸を、30代・40代向けに実践的にまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/ukeoi-vs-jisha/" },
   title: TITLE,
   description: DESCRIPTION,
 };

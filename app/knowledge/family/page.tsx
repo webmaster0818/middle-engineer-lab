@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/family/" },
   title: "家族持ちエンジニアの転職【相談・年収・転居の判断】",
   description:
     "家族を持つ30代・40代エンジニアの転職を解説。家族への相談タイミングと伝え方の例文、年収ダウンを許容する考え方、転居を伴う場合の判断チェックリストを紹介します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/scsk/" },
   title: "SCSKの年収は平均796万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "SCSK（9719）へのエンジニア転職を実データで解説。有価証券報告書の平均年収796万円（2026年3月期・全社員平均）、住友商事系の大手SIerとしての事業、Java・クラウド(AWS/Azure)の募集領域、選考フロー、30代40代の現実までまとめました。",

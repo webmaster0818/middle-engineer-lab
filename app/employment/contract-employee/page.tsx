@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/employment/contract-employee/" },
   title: "契約社員エンジニアと無期転換5年ルール｜『無期転換≠正社員』の注意点",
   description:
     "契約社員エンジニアの制度を正確に解説。通算5年超で使える無期転換ルール（5年ルール）の仕組みと、見落とされがちな『無期転換＝正社員ではない』という最重要ポイント、契約期間の上限まで厚労省ベースで整理します。",

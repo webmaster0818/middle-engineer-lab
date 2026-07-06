@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/career-plan/" },
   title: "エンジニアのキャリアプラン設計【選択肢の整理】",
   description:
     "30代・40代エンジニアのキャリアプラン設計を解説。マネジメントvsスペシャリスト、CTO・独立を含む4つのパスを比較し、適性診断・5年/10年計画の立て方・後悔しない選び方を実用的に紹介します。",

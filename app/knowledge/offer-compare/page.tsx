@@ -9,6 +9,7 @@ const DESCRIPTION =
   "複数内定を後悔なく比較する方法を解説。年収以外の比較軸（ストックオプション・リモート・評価制度）、そのまま使える比較表テンプレート、内定辞退の伝え方例文まで、30代・40代向けに実践的にまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/offer-compare/" },
   title: TITLE,
   description: DESCRIPTION,
 };

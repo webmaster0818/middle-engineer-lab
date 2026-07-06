@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/reskilling/" },
   title: "リスキリングとは｜補助金で職種転換する30-40代の進め方",
   description:
     "30-40代エンジニア向けに、転職を伴うリスキリングを公的補助金とともに解説。経産省のリスキリング支援事業（最大70%）と厚労省教育訓練給付の違い・併用、優先順位、失敗パターンまで整理します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/generative-ai-era/" },
   title: "生成AI時代に生き残るエンジニアのスキル【30-40代の戦い方】",
   description:
     "生成AIで奪われる仕事・残る仕事の切り分けから、求められる3要素、伸ばすべきスキルまで30-40代エンジニア向けに解説。経験・要件定義・マネジメントがAI時代にむしろ価値を増す理由を、誇張せず整理します。",

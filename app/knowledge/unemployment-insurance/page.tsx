@@ -9,6 +9,7 @@ const DESCRIPTION =
   "失業保険（雇用保険の基本手当）の受給を、自己都合と会社都合の給付制限の違い、待期7日間、受給期間1年、転職活動との関係まで厚生労働省・ハローワークの情報に基づいて解説。30代・40代が損なく受給するための実務ガイドです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/unemployment-insurance/" },
   title: TITLE,
   description: DESCRIPTION,
 };

@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニア転職のコーディングテスト対策を徹底解説。頻出アルゴリズム領域、LeetCode・AtCoder・paizaの使い分け、当日の進め方を30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/coding-test/" },
   title: TITLE,
   description: DESCRIPTION,
 };

@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/wlb/" },
   title: "ワークライフバランス重視のIT転職先【残業少なめ企業の見つけ方】",
   description:
     "ワークライフバランスを重視するエンジニア向けの転職先選び方を解説。残業少なめIT企業の特徴、年収とのバランス、おすすめ企業タイプを紹介します。",

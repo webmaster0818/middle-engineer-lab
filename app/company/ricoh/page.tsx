@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/ricoh/" },
   title: "リコーの年収は平均860万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "リコーへのエンジニア転職を実データで解説。有価証券報告書の平均年収860万円（2025年3月期・全社員平均）、複合機からデジタルサービスへの転換に伴うソフトウェア・クラウド・AIの募集職種、選考フロー、30代40代の現実までまとめました。",

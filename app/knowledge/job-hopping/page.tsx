@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/job-hopping/" },
   title: "転職回数が多いエンジニアの見せ方【職務経歴書の例文集】",
   description:
     "転職回数が多いエンジニア向けに、職務経歴書での見せ方と一貫性の語り方を例文つきで解説。キャリアサマリーのBefore/After、面接での離職理由の伝え方、回数別の対策を実践的にまとめました。",

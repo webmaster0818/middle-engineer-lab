@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/counter-offer/" },
   title: "カウンターオファー対応【受けるべきか・断り方例文】",
   description:
     "退職を申し出た際のカウンターオファー（引き留め）への対応を解説。受けるべきかの判断軸、断り方の例文、30代・40代エンジニアが後悔しない選び方を紹介します。",

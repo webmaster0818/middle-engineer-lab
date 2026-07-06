@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/english/" },
   title: "英語を活かすエンジニア転職【外資・グローバル企業の年収】",
   description:
     "英語力を活かせるエンジニア転職先を解説。外資系IT、グローバル企業、海外リモートの年収相場、必要な英語力レベル、転職成功事例を紹介します。",

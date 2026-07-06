@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/fukuoka/" },
   title: "福岡のIT転職事情【2026年】スタートアップとリモート移住の選択肢",
   description:
     "福岡のIT・Webエンジニア転職を解説。スタートアップ支援で知られる都市の特徴、働き方の選択肢、年代別年収の考え方、エリア対応エージェント、移住の進め方を30代・40代向けに整理します。",

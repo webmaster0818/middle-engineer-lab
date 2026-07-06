@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/sql/" },
   title: "データベースエンジニア転職の攻め方｜年収・将来性【2026年】",
   description:
     "データベースエンジニア（DBA／SQL）の転職市場を2026年6月時点の公的データで整理。job tag・レバテック年代別年収、求められる経験レベル、求人の探し方、アプリ開発からの転向ルートまで実務目線で解説します。",

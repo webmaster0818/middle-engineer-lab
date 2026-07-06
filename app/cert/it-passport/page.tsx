@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IPAの国家試験・ITパスポート（iパス）を、ITの基礎証明という観点から30代・40代向けに正直に解説。受験料・合格率（IPA公表値）・通年CBTを整理し、エンジニア転職での加点は限定的という現実と、非IT職・管理職に効く場面を誠実にまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/it-passport/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

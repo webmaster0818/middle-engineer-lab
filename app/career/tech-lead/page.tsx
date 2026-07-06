@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/tech-lead/" },
   title: "テックリード転職ガイド｜シニアエンジニアからの移行ステップと職務経歴書",
   description:
     "シニアエンジニアからテックリードへステップアップする方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文つきで解説します。",

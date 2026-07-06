@@ -9,6 +9,7 @@ const PAGE_DESC =
   "転職エージェントに断られた・登録を断られた時の理由と代替手段を解説。30代・40代エンジニアが別ルートで転職を成功させる具体策とチェックリストを紹介します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/agent-rejection/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

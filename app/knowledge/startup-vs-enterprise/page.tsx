@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/startup-vs-enterprise/" },
   title: "スタートアップvs大企業｜エンジニアの評価軸比較とフェーズ別の違い",
   description:
     "スタートアップと大企業のエンジニア転職を評価軸で比較。フェーズ別の働き方の違い、年収データ、30代・40代の選び方を解説。後悔しないキャリア選択の判断軸を整理します。",

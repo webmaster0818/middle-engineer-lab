@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/cpp/" },
   title: "C++エンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
     "C++エンジニアの転職市場を出典付きで解説。組込み・ゲーム・低レイヤでのC++需要、求人ボックスやフリーランス調査の公表年収、他言語からの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",

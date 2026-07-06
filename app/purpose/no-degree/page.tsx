@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/no-degree/" },
   title: "学歴不問でエンジニア転職【30-40代の実態と見極め方】",
   description:
     "「学歴不問」のエンジニア求人の建前と実態を正直に解説。30-40代が学歴より問われる実力・実務経験、求人票の見極め方、該当する企業タイプ、注意点を整理します。",

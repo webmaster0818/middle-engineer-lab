@@ -9,6 +9,7 @@ const PAGE_DESC =
   "AWS認定デベロッパー – アソシエイト（DVA-C02）を、開発者の加点資格という観点から30代・40代向けに解説。受験料・試験形式・合格スコア・有効期限・出題範囲を公式情報で整理し、アプリ開発×クラウドの掛け算で効く理由と限界をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/aws-dva/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/" },
   title: "転職エージェント比較ガイド一覧【目的別・2社比較】",
   description:
     "ITエンジニア向け転職エージェントの比較記事を一覧化。30代40代向け・ハイクラス・フリーランス・ゲーム/インフラ/AI特化などの目的別おすすめと、レバテックvsリクルートなどの2社直接比較を、出典付きで整理しています。",

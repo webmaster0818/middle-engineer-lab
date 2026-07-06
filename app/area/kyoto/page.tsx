@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/kyoto/" },
   title: "京都のITエンジニア転職事情【2026年】特徴と進め方",
   description:
     "京都のIT・Webエンジニア転職市場を解説。任天堂をはじめとする企業集積、研究機関連携、働き方の選択肢、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。",

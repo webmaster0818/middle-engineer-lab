@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/" },
   title: "業界別エンジニア転職ガイド一覧【全25業界】",
   description:
     "金融・製造・ゲーム・SaaS・フィンテック・Web3・セキュリティ・モビリティなど、ITエンジニアの主要な転職先業界を網羅。各業界で求められる技術・参入ルート・年収傾向と、30代40代の評価のされ方を解説します。",

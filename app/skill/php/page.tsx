@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/php/" },
   title: "PHPエンジニアの転職ガイド｜Laravel・年収・将来性【2026年】",
   description:
     "PHPエンジニアの転職市場を出典付きで解説。求人数で上位を占めるPHPの市場価値、Laravelでの差別化、WordPress案件からの脱却、求人の探し方、30代・40代の戦い方を整理します。",

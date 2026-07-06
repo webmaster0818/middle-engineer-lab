@@ -9,6 +9,7 @@ const PAGE_DESC =
   "LPI-JapanのLinux技術者認定LinuCを、30代・40代向けに解説。受験料16,500円・試験形式・有効期限5年、国内インフラ／サーバ職での評価、年収の考え方を公式情報をもとに限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/linuc/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

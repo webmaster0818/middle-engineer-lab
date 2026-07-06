@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/handover/" },
   title: "引き継ぎドキュメントの作り方【エンジニア向けテンプレと逆算術】",
   description:
     "エンジニアの退職時に作る引き継ぎドキュメントの構成テンプレートを公開。属人化コード・インフラ・暗黙知の文書化、後任未定時の進め方、逆算スケジュールとチェックリストを30代・40代向けに解説します。",

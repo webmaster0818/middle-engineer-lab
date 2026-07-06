@@ -9,6 +9,7 @@ const PAGE_DESC =
   "転職エージェントは何社併用すべきか。30代・40代エンジニア向けに併用パターン、スプレッドシート管理法、重複応募の防ぎ方、断り方の例文まで具体的に解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/multiple-agents/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

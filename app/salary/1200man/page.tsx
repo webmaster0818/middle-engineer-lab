@@ -9,6 +9,7 @@ const DESCRIPTION =
   "年収1200万円のITエンジニアに必要なスキルレベル・役職・職種を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理。ITSS L6・7（最上位）に相当し、外資・上場メガベンチャー・管理職・トップスペシャリストなど限られた層である現実と、30〜40代の狙い方を誠実に解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/1200man/" },
   title: TITLE,
   description: DESCRIPTION,
 };

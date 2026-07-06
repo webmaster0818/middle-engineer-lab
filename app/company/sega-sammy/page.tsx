@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/sega-sammy/" },
   title: "セガ（セガサミーHD）エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
     "セガ（セガサミーホールディングス／株式会社セガ）へのエンジニア転職を実データで解説。有価証券報告書の数字（持株会社6460は提出会社平均939万円）の注意点、内製Hedgehog Engineや内製/Unreal/UnityのC++/C#技術、選考フロー、30代40代の現実までまとめました。",

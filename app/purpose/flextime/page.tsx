@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/flextime/" },
   title: "フレックスタイム制のエンジニア求人の見極め方【2026年版】",
   description:
     "フレックス・フルフレックス・裁量労働・時差出勤の違いを制度比較表で整理。コアタイム・清算期間の確認ポイント、残業は減らない正直な注意点、30-40代の活用法まで解説。",

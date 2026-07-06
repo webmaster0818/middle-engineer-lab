@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/fujisoft/" },
   title: "富士ソフトの年収は平均640万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "富士ソフト株式会社（9749）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収640万円(2024年12月期・全社員平均)、組込み/業務システム/インフラの幅広い技術領域、選考フロー・面接観点、30代40代の戦い方まで。確認できない数値は記載していません。",

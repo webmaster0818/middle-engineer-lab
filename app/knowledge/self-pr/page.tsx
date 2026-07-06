@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニア転職の自己PRを、構成テンプレート・Before/After例文・職種別の例文・NG例まで実践的に解説。30代40代が経験を強みに変え、書類選考と面接で通用する自己PRを作るための手順をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/self-pr/" },
   title: TITLE,
   description: DESCRIPTION,
 };

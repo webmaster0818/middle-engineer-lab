@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/" },
   title: "年齢別エンジニア転職ガイド一覧【30代・40代・50代】",
   description:
     "30代・40代・50代の年齢別にITエンジニアの転職市場の現実をまとめた一覧。各年齢で問われる強み・求人傾向・年収の考え方を、33歳〜48歳のピンポイント年齢まで公的データの出典付きで解説します。",

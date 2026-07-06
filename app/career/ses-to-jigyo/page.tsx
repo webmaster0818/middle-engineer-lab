@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/ses-to-jigyo/" },
   title: "SES→自社開発エンジニアへの転職ガイド【2026年版】",
   description:
     "SES（客先常駐）から自社開発企業へ転職するための現実性、選考で問われるポートフォリオ・主体性、在職中の準備ステップ、職務経歴書のBefore/After例文を公的データに基づき解説します。",

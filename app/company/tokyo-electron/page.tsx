@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/tokyo-electron/" },
   title: "東京エレクトロンの年収は平均1354万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "東京エレクトロンへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,354万円（2025年3月期・全従業員平均）、半導体製造装置の制御ソフト・組込・画像処理・データ解析の技術領域、選考の考え方、30代40代の現実までまとめました。",

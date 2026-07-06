@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/terms/" },
   title: "利用規約",
   description:
     "ミドルエンジニア転職ラボの利用規約です。免責事項、著作権、リンクポリシー等について定めています。",

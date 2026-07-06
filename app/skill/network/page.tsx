@@ -9,6 +9,7 @@ const PAGE_DESC =
   "ネットワークエンジニアの転職市場を2026年最新の公表データで解説。レバテック公表の平均年収、Cisco認定資格の活かし方、クラウドネットワークへの転向、求人の探し方を30代・40代エンジニア向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/network/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

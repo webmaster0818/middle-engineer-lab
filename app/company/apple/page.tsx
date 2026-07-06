@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/apple/" },
   title: "Apple Japanの年収は平均700万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "Apple Japanのエンジニア中途採用を公式採用情報・口コミ出典付きで解説。年収の考え方、秘密主義の開発文化、英語要件、選考フロー、30代40代の注意点までまとめました。",

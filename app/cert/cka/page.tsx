@@ -9,6 +9,7 @@ const PAGE_DESC =
   "CNCF／Linux FoundationのCKA（Certified Kubernetes Administrator）を、コンテナ基盤の実務スキルを証明する加点資格という観点から30代・40代向けに解説。受験料445 USD、実技（CLI）形式、2年の有効期限、実務とセットで効く理由を限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/cka/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

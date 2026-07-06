@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/48/" },
   title: "48歳エンジニアの転職｜管理職・高度専門で勝つ40代後半の現実【2026年6月】",
   description:
     "48歳エンジニアの転職市場を正直に解説。レバテック公表の40代平均年収約618万円・1,000万円以上12.67%などの公表値をもとに、管理職・高度専門でないと難度が上がる40代後半の現実、それでも通る戦い方、狙うべき求人、年収の考え方、おすすめエージェント、FAQまで網羅します。",

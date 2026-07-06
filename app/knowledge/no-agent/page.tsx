@@ -9,6 +9,7 @@ const PAGE_DESC =
   "30代・40代エンジニア向けに、転職エージェントを使わず自力で進める方法を解説。直接応募・リファラル・ダイレクト・SNSの使い分け、メリットとデメリット、応募管理表・日程調整・年収交渉・内定後手続きまでの実務をまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/no-agent/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

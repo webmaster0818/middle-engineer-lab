@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/referral/" },
   title: "リファラル転職の実態と注意点【例文・断り方付き】",
   description:
     "リファラル（社員紹介）転職の声のかけ方・かけられ方、選考の実態、断りにくさへの対処を例文付きで解説。30代・40代エンジニアが人脈を活かして転職するための実践ガイド。",

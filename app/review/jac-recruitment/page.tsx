@@ -10,6 +10,7 @@ const DESCRIPTION =
 const URL = "/review/jac-recruitment/";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/jac-recruitment/" },
   title: TITLE,
   description: DESCRIPTION,
 };

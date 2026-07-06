@@ -9,6 +9,7 @@ const DESCRIPTION =
   "年収600万円のITエンジニアに必要なスキルレベル・役職・職種・求人傾向を、経産省ITSSレベルや厚労省job tag、doda職種別データなど出典付きで整理。ITSS L3後半〜L4手前という位置づけと、3年以上の実務＋設計・リーダー経験という到達条件を解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/600man/" },
   title: TITLE,
   description: DESCRIPTION,
 };

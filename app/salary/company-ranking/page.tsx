@@ -9,6 +9,7 @@ const DESCRIPTION =
   "IT・テック企業57社の平均年収を有価証券報告書（有報）の公表値だけでランキング化。キーエンス2,039万円から各社の最新有報数値と決算期を一覧掲載し、各社のエンジニア転職ガイドへリンク。出典が明確な年収データベースです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/company-ranking/" },
   title: TITLE,
   description: DESCRIPTION,
 };

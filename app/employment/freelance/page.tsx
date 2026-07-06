@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/employment/freelance/" },
   title: "フリーランスエンジニアの実態｜年収傾向・案件確保・メリットデメリット",
   description:
     "フリーランスエンジニアの定義（業務委託との違い）、年収・単価傾向、案件の確保方法、社会保険・税の現実、エンジニア側・企業側の二軸メリットデメリットを出典付きで解説。2024年の労災特別加入・新法、30代40代の選び方も整理します。",

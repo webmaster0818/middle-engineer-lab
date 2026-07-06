@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニアのスキルシート（技術経歴書）の書き方を、職務経歴書との違い・必須項目・プロジェクト記入例・スキルレベルの表記まで実践的に解説。30代40代が経験を正確に伝え、書類選考を通過するための作り方をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/skill-sheet/" },
   title: TITLE,
   description: DESCRIPTION,
 };

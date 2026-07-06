@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/benefits/" },
   title: "福利厚生が充実した企業へ転職【法定外福利の見極め方2026】",
   description:
     "法定福利と法定外福利の違いを公的情報ベースで整理し、求人での福利厚生の見極め方を解説。実質価値・課税の落とし穴、該当しやすい企業タイプ、30-40代の選び方まで。",

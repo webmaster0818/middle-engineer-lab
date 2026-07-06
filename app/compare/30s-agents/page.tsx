@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/30s-agents/" },
   title: "30代エンジニアの転職エージェントおすすめ比較【2026年6月】",
   description:
     "30代エンジニアにおすすめのIT転職エージェントを2026年6月時点のデータで比較。レバテックの年代別平均年収（30代約499万円）など公的・公表値をもとに、選び方・口コミ傾向・併用パターンを解説します。",

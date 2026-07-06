@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/uturnable/" },
   title: "Uターン・Iターン×IT転職ガイド【地方で働くエンジニア】",
   description:
     "Uターン・Iターンで地方のIT企業に転職する方法を解説。地方IT企業の年収、リモートワーク活用法、地域別の求人状況を紹介します。",

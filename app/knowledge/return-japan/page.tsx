@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/return-japan/" },
   title: "海外から日本へ帰国転職【リモート面接・タイミング・アピール】",
   description:
     "海外在住エンジニアの帰国転職を解説。時差を踏まえたリモート面接の進め方、帰国タイミングの決め方、海外経験を強みに変えるアピール方法を30代・40代向けに紹介します。",

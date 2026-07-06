@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/data-scientist/" },
   title: "データサイエンティスト転職の攻め方｜年収・未経験ルート【2026年】",
   description:
     "データサイエンティストの転職市場を2026年6月時点の公的データで整理。厚労省job tagの平均年収611.9万円、求められる経験レベル、求人の探し方、エンジニアからの転向・未経験参入ルートまで実務目線で解説します。",

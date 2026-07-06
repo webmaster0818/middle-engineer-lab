@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/ruby/" },
   title: "Rubyエンジニアの転職ガイド｜言語の年収・求人・将来性【2026年】",
   description:
     "プログラミング言語Rubyエンジニアの転職市場を出典付きで解説。paiza調査で提示年収3位のRubyの市場価値、スタートアップ・自社開発での需要、求人の探し方、30代・40代の戦い方を整理します。フレームワークの詳細はRuby on Railsガイドも参照。",

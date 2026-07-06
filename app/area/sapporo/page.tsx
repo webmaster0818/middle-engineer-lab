@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/sapporo/" },
   title: "札幌のIT転職事情【2026年】リモート移住と北海道の選択肢",
   description:
     "札幌・北海道のIT・Webエンジニア転職を解説。リモート移住先としての特徴、ニアショア開発、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを30代・40代向けに整理します。",

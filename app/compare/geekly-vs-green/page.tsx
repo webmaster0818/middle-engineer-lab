@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/geekly-vs-green/" },
   title: "Geekly Green 比較｜エージェント型と直接応募型の違い",
   description:
     "Geekly（ギークリー）とGreen（グリーン）を徹底比較。最大の違いは「専任エージェント型」と「企業へ直接応募する転職サイト型」という仕組みの差。30代40代エンジニア視点で使い分けと併用法を解説します。",

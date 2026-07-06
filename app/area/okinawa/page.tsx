@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/okinawa/" },
   title: "沖縄・那覇のIT転職事情【2026年】IT誘致×リモート移住の現実",
   description:
     "沖縄・那覇のITエンジニア転職を30代・40代向けに正直に解説。IT・コールセンター誘致やリゾートワークの実情、地元IT求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。",

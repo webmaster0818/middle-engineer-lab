@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/microsoft/" },
   title: "日本マイクロソフト エンジニア転職ガイド｜年収・選考【2026年版】",
   description:
     "日本マイクロソフトへのエンジニア転職を、公式キャリア情報とlevels.fyi・OpenWork集計値で解説。Growth Mindset文化、Azure中心の技術、年収レンジ、選考、30代40代の現実までまとめました。",

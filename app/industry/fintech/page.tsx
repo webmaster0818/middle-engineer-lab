@@ -9,6 +9,7 @@ const DESC =
   "フィンテック（決済・融資・資産運用・暗号資産）へエンジニア転職する現実的な方法を解説。求められる技術とスキル、参入ルート、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/fintech/" },
   title: TITLE,
   description: DESC,
 };

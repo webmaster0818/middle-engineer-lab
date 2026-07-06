@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/findy-vs-levtech/" },
   title: "Findyとレバテックの比較｜どっちがおすすめ？【2026年6月】",
   description:
     "Findy（GitHub連携スカウト型）とレバテックキャリア（IT特化エージェント型）を評価軸・年収・サポート・対象層で比較。スカウトで待つか伴走してもらうか、30代40代エンジニアの選び方と併用術を解説します。",

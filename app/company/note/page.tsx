@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/note/" },
   title: "note（ノート）の年収は平均763万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "note株式会社へのエンジニア転職を実データで解説。有価証券報告書の平均年収763万円（2025年11月期・全社員平均）、Ruby on Rails/Goの公式技術スタック、選考フロー、30代40代の現実までまとめました。",

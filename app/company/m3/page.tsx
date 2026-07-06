@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/m3/" },
   title: "エムスリーの年収は平均975万円【2026年・有報】エンジニア転職・技術スタック解説",
   description:
     "エムスリー（2413）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収975万円(2026年3月期・全社員平均)、Kotlin/Scala/TypeScript中心の技術スタック、チーム裁量の技術選定、選考フロー、30代40代の戦い方まで。",

@@ -8,7 +8,7 @@ const TITLE = "プログラマーの年収ランキング【2026年】言語別�
 const DESCRIPTION =
   "プログラミング言語・IT職種別の平均年収を、レバテックキャリア収入統計（正社員・2025年1月時点）と求人ボックス給料ナビ（2026年5月）の公表データで整理。出典・調査時点つきで、TypeScript・Go・Scalaなど言語別、データサイエンティスト等の職種別を一覧化しています。";
 
-export const metadata: Metadata = { title: TITLE, description: DESCRIPTION };
+export const metadata: Metadata = { alternates: { canonical: "/salary/skill-ranking/" }, title: TITLE, description: DESCRIPTION };
 
 export default function SkillSalaryRankingPage() {
   return (

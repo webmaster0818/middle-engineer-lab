@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/healthcare/" },
   title: "医療・製薬業界からヘルステック転職【30代40代ガイド】",
   description:
     "医療系SE・製薬エンジニアからヘルステック・医療AI・遠隔医療への転職方法を解説。活かせるスキルと埋めるギャップ、年収の考え方、進め方を30代40代視点で紹介。",

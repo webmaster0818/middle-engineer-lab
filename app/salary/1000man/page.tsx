@@ -9,6 +9,7 @@ const DESCRIPTION =
   "年収1000万円のITエンジニアの割合・必要スキル・職種を、レバテックやエンジニアtype、paiza言語別データなど出典付きで整理。ITSS L6相当という位置づけ、ハイクラス転職・マネジメント・スペシャリストの3ルート、商流と給与テーブルが天井を決める構造を解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/1000man/" },
   title: TITLE,
   description: DESCRIPTION,
 };

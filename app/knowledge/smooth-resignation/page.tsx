@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/smooth-resignation/" },
   title: "円満退職の交渉術【切り出す順序・引き止め返し・難航打開】",
   description:
     "エンジニアの円満退職を実現する交渉術を例文付きで解説。直属上司への切り出し順序、カウンターオファーの返し方、後任不在や損害賠償の脅しへの打開策を30代・40代向けに整理しました。",

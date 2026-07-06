@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/jigyoukaihatsu/" },
   title: "自社開発企業への転職ガイド【受託から自社サービスへ】",
   description:
     "受託開発から自社サービス開発企業への転職方法を解説。自社開発のメリット・デメリット、年収、必要スキル、企業の見分け方を紹介します。",

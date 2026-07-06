@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/media/" },
   title: "メディア業界からデジタルメディア転職【30代40代ガイド】",
   description:
     "放送・出版・新聞などメディア業界のエンジニアがデジタルメディア領域へ転職する道筋を解説。活かせるスキル、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。",

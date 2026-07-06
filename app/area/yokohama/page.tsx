@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/yokohama/" },
   title: "横浜・神奈川のIT転職事情【2026年】エリア特徴と年収",
   description:
     "横浜・神奈川のITエンジニア転職を30代・40代向けに解説。みなとみらい・新横浜などのIT企業集積、東京通勤圏×リモート併用の働き方、年代別年収の考え方、対応エージェントの選び方をまとめました。",

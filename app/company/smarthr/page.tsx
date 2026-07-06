@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/smarthr/" },
   title: "SmartHR エンジニア転職ガイド｜年収・技術スタック・選考【2026年版】",
   description:
     "SmartHRへのエンジニア転職を公式採用ページ・技術ブログの一次情報で解説。非上場のため有報なし。公式求人の想定年収レンジ、Rails/React技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",

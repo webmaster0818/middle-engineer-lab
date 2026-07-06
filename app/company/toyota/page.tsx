@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/toyota/" },
   title: "トヨタ自動車の年収は平均983万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "トヨタ自動車のエンジニア転職を実データで解説。有報の平均年収983万円(2025年3月期)、ソフトウェアファースト、Woven by Toyotaの選考・報酬、口コミ傾向、30代40代視点まで網羅。",

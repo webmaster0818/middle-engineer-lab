@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/sbi/" },
   title: "SBIホールディングス エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
     "SBIホールディングスへのエンジニア転職を実データで解説。有価証券報告書の平均年収（2025年3月期）、フィンテック・ネット証券・ネット銀行のシステム、技術スタック、選考フロー、30代40代の現実までまとめました。",

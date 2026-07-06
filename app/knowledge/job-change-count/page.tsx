@@ -9,6 +9,7 @@ const DESCRIPTION =
   "転職回数が多いエンジニアが選考で不利にならないための対策を、職務経歴書のまとめ方・退職理由の伝え方・面接での回答の型まで実践的に解説。30代・40代が一貫性と再現性を示すための準備をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/job-change-count/" },
   title: TITLE,
   description: DESCRIPTION,
 };

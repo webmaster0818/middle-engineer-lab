@@ -9,6 +9,7 @@ const DESCRIPTION =
   "40代ITエンジニアの年収相場を公的統計とエージェント公表値で解説。レバテック公表の40代平均約618万円・年収1,000万円以上12.67%などを時点付きで紹介し、年収を維持・アップする戦略と下落リスクの対策をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/salary-40s/" },
   title: TITLE,
   description: DESCRIPTION,
 };

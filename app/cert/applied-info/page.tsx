@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IPAの国家資格・応用情報技術者試験（AP）を、経験者の加点資格という観点から30代・40代向けに解説。合格率、上流職への土台としての価値、年収相場（出典明記）、高度試験への免除メリットまで限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/applied-info/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

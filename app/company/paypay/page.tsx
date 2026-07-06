@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/paypay/" },
   title: "PayPayへのエンジニア転職｜年収・技術スタック・選考の現実【2026年版】",
   description:
     "PayPayのエンジニア中途採用を公式技術ブログ等の一次情報で解説。大規模決済基盤のJava/Kubernetes、英語環境、年収の考え方、30代40代の現実を中立にまとめました。",

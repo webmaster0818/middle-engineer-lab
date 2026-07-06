@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/koei-tecmo/" },
   title: "コーエーテクモ エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
     "コーエーテクモ（コーエーテクモホールディングス／コーエーテクモゲームス）へのエンジニア転職を実データで解説。有価証券報告書の数字（持株会社3635は提出会社113名平均793万円）の注意点、内製Katana EngineとC++技術、選考フロー、30代40代の現実までまとめました。",

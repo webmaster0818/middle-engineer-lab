@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/faq/" },
   title: "30代・40代エンジニア転職のよくある質問15選｜年代・年収・進め方",
   description:
     "30代・40代ITエンジニアの転職に関するよくある質問を、年代別・エージェント選び・年収・進め方の4カテゴリで解説。出典付きデータと各テーマの詳細ガイドへのリンク付き。最終更新2026年6月。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/ai-ml/" },
   title: "AI・機械学習エンジニア転職の攻め方｜年収・求人の探し方【2026年】",
   description:
     "AI・機械学習エンジニアの転職市場を2026年6月時点の公的データで整理。job tag・レバテック年代別年収、求められる経験レベル、求人の探し方、30代・40代の参入ルートまで実務目線で解説します。",

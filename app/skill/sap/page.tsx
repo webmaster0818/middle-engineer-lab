@@ -91,6 +91,7 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/sap/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/obic/" },
   title: "オービックの年収は平均1,129万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "株式会社オービック（4684）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収1,129万円(2026年3月期・全社員平均)、統合基幹業務システム「OBIC7」を支える技術、選考フロー・面接観点、30代40代の戦い方まで。確認できない数値は記載していません。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/tester-to-developer/" },
   title: "テスター/QA→開発者への転職完全ガイド【2026年版】",
   description:
     "QA・テストエンジニアから開発者へ転職するための現実性、スキルギャップ比較、在職中の準備、職務経歴書のBefore/After例文を公的データに基づき解説します。",

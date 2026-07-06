@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニア転職の英語面接を、準備の手順・自己紹介の型・頻出質問の回答フレーズ・コーディング面接で使う英語・聞き返し表現まで実践的に解説。30代40代が英語に自信がなくても乗り切るための準備をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/english-interview/" },
   title: TITLE,
   description: DESCRIPTION,
 };

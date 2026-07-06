@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/after-resignation-procedures/" },
   title: "退職後の手続き【健康保険・年金・失業給付の期限と進め方】",
   description:
     "エンジニアの退職後に必要な手続きを期限つきで整理。健康保険3択（任意継続・国保・扶養）の比較、年金切り替え、雇用保険（失業給付）の流れと2025年4月の給付制限変更まで30代・40代向けに解説します。",

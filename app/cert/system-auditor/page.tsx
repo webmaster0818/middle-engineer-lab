@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IPAの高度試験・システム監査技術者試験（AU）を、監査・内部統制・IT統制の実務者が独立的評価の素養を証明する観点から30代・40代向けに解説。合格率、午前Ⅰ免除、論述試験、年収の考え方まで限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/system-auditor/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

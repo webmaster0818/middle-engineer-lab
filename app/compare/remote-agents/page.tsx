@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/remote-agents/" },
   title: "リモートワークに強いエンジニア転職エージェント【2026年6月】",
   description:
     "フルリモート・ハイブリッド求人の探し方を、Green・Geekly・dodaなどの特徴から解説。リモート求人は変動が大きいため件数の断定を避け、確実に絞り込む方法を30代・40代視点で紹介します。",

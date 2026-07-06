@@ -9,6 +9,7 @@ const DESCRIPTION =
   "内定承諾の期限はどれくらいが一般的か、延長は頼めるのかを解説。そのまま使える延長依頼メールの例文、複数社の選考を待ってもらう伝え方、承諾後の辞退の可否まで、30代・40代エンジニアが後悔しない判断をするための実務をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/offer-deadline/" },
   title: TITLE,
   description: DESCRIPTION,
 };

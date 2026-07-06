@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Google CloudのProfessional Cloud Architect（PCA）を、30代・40代の経験者向けに解説。受験料200 USD・ケーススタディ形式・有効期限2年、上流設計／基盤アーキ職での評価、年収の考え方を公式情報をもとに限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/gcp-pca/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

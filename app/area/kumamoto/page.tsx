@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/kumamoto/" },
   title: "熊本のIT転職事情【2026年】半導体集積×リモート移住の現実",
   description:
     "熊本のITエンジニア転職を30代・40代向けに正直に解説。TSMC進出で進む半導体集積の影響、地元IT求人の実情、首都圏フルリモート併用、UIターン移住支援、年収の現実をまとめました。",

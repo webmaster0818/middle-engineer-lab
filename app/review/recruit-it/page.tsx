@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/recruit-it/" },
   title: "リクルートエージェントITの評判・口コミ｜30代40代エンジニア徹底レビュー",
   description:
     "リクルートエージェントITの評判を30代・40代エンジニア目線で徹底解説。IT公開求人11万件超という圧倒的な求人数と、対応が事務的・サポート期間が短いといったデメリットを口コミ傾向と実データで検証します。",

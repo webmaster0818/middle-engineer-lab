@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/angular/" },
   title: "Angularエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
     "Angularエンジニアの転職市場を出典付きで解説。求人ボックス・求人媒体の公表値をもとに、エンタープライズSPA向けフレームワークの市場価値、求人傾向、他技術からの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",

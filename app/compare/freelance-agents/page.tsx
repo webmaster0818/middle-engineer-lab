@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/freelance-agents/" },
   title: "フリーランスエンジニアのエージェント比較【2026年6月】",
   description:
     "フリーランスエンジニア向けエージェントの選び方を、正社員転職との比較視点で解説。レバテックの年代別年収データを基に、独立すべきか正社員のままかを30代・40代目線で整理します。",

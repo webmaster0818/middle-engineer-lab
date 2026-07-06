@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/remote/" },
   title: "地方在住×フルリモート転職の戦略【2026年】首都圏求人を取りに行く",
   description:
     "地方在住エンジニアがフルリモート前提で転職する戦略を解説。首都圏求人への向き合い方、年収の考え方、対応エージェント、30代・40代の進め方、FAQをまとめた実用ガイドです。",

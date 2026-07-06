@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/renesas/" },
   title: "ルネサスエレクトロニクスの年収は平均809万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "ルネサスエレクトロニクスへのエンジニア転職を実データで解説。有価証券報告書の平均年収809万円（2024年12月期・全従業員平均）、半導体（マイコン/SoC/アナログ）・組込・EDA・ファームウェアの技術領域、選考の考え方、30代40代の現実までまとめました。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/nextjs/" },
   title: "Next.jsエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
     "Next.jsエンジニアの転職市場を出典付きで解説。求人ボックス・レバテックの公表値をもとに、Reactを土台にしたモダンフロントエンドの市場価値、求人傾向、他技術からの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",

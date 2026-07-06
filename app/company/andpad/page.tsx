@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/andpad/" },
   title: "ANDPAD（アンドパッド）の転職難易度・年収とエンジニア転職【2026年】",
   description:
     "ANDPAD（建設DX・非上場・プレIPO）のエンジニア中途採用を公式技術ブログ等の一次情報で解説。Ruby on Rails中心＋Go採用の技術スタック、SRE文化、年収の考え方、30代40代の転職可否を中立にまとめました。",

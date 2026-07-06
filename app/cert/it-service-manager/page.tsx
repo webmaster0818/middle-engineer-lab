@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IPAの高度国家試験・ITサービスマネージャ試験（SM）を、ITサービス運用・保守マネジメントの専門性証明という観点から30代・40代向けに解説。合格率、午前Ⅰ免除制度、年収の考え方（出典明記）まで限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/it-service-manager/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/aws-japan/" },
   title: "AWSジャパンへの転職・年収・評判【2026年】クラウドエンジニア/SAの採用と難易度",
   description:
     "アマゾン ウェブ サービス ジャパン（AWSジャパン）への転職を、年収（levels.fyi集計）・評判（OpenWork）・選考（OLP/Bar Raiser）・職種（SDE/ソリューションアーキテクト/TAM）で解説。AWS認定資格の活かし方や、未経験・30代40代の現実までまとめた転職ガイドです。",

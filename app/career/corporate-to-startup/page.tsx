@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/corporate-to-startup/" },
   title: "大企業からスタートアップへの転職｜進め方とスキルギャップ",
   description:
     "大企業エンジニアからスタートアップへの転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説。SO確認の注意点や30代40代の進め方も紹介します。",

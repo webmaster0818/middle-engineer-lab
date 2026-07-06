@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/freelance-vs-fulltime/" },
   title: "フリーランスvs正社員｜エンジニアの税・保険・信用の違いと判断軸",
   description:
     "エンジニアのフリーランスと正社員を比較。税金・社会保険・社会的信用の違い、年収データ、判断フレームワークを30代・40代向けに解説。後悔しない働き方選びの軸を整理します。",

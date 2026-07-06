@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/megaventure-agents/" },
   title: "メガベンチャー転職エージェントおすすめ｜選び方とタイプ別【2026年6月】",
   description:
     "メルカリ・freee・SmartHR・サイバーエージェント・DeNA・楽天などメガベンチャーへの転職に強いエージェントをタイプ別に解説。総合大手・IT特化・ハイクラスの使い分け、激務の期待値調整、企業別の年収目安まで30代40代エンジニア向けに整理します。",

@@ -9,6 +9,7 @@ const PAGE_DESC =
   "30代・40代エンジニア向けに競業避止義務を解説。在職中と退職後の違い、経済産業省が示す有効性の6判断基準、サインしても必ず有効とは限らない理由、違反のリスク、弁護士に相談すべきケースを出典付きで整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/non-compete/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/employment/ses/" },
   title: "SESエンジニアの実態｜仕組み・年収傾向・多重下請けの現実と選び方",
   description:
     "SES（システムエンジニアリングサービス）の正確な仕組み、派遣・請負との違い、年収傾向、多重下請け構造の現実、偽装請負の注意点、エンジニア側・企業側の二軸メリットデメリットを中立に解説。30代40代の選び方も整理します。",

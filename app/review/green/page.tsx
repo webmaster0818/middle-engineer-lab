@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/green/" },
   title: "Greenの転職評判は？エージェントとの違いを徹底解説",
   description:
     "Green（グリーン）の評判をエンジニア目線で検証。エージェントではなく直接応募型転職サイトである違い、カジュアル面談、口コミの傾向、30代40代の使い分け戦略を出典付きで解説。",

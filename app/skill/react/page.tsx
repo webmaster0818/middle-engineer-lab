@@ -9,6 +9,7 @@ const DESCRIPTION =
   "Reactエンジニアの転職市場を公表データで解説。レバテック・求人ボックスの年収傾向、求人の探し方、30代・40代の参入ルート、おすすめエージェントまで実用的にまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/react/" },
   title: TITLE,
   description: DESCRIPTION,
 };

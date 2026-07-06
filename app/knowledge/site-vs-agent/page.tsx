@@ -9,6 +9,7 @@ const DESCRIPTION =
   "転職サイトと転職エージェントの違いを、仕組み・メリット/デメリット・比較表・状況別の使い分けまで実践的に解説。30代40代エンジニアがスカウト型も含めて最適な使い方を選ぶための判断軸をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/site-vs-agent/" },
   title: TITLE,
   description: DESCRIPTION,
 };

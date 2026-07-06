@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/matsuyama/" },
   title: "松山・愛媛のIT転職事情【2026年】四国のIT拠点×リモート移住",
   description:
     "松山・愛媛のITエンジニア転職を30代・40代向けに正直に解説。四国最大の都市圏としてのIT拠点の実情、地元求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。",

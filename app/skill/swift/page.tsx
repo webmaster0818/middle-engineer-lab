@@ -9,6 +9,7 @@ const DESCRIPTION =
   "Swift/iOSエンジニアの転職市場を公表データで解説。求人ボックス・フリーランスボードの年収データ、求人の探し方、Android/未経験からの参入ルート、30代・40代の視点をまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/swift/" },
   title: TITLE,
   description: DESCRIPTION,
 };

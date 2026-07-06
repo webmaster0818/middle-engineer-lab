@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/resume/" },
   title: "エンジニアの職務経歴書の書き方【見本・テンプレ付き】",
   description:
     "30代・40代エンジニア向けに職務経歴書の書き方を徹底解説。職務要約・職務経歴・スキル一覧・自己PRのBefore/After例文、STARフレームワーク、成果の数値化例、NG例まで実用テンプレで紹介します。",

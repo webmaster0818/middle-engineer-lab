@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニアの転職で年収はどう変わるのか。dodaの決定年収レポート（約6割が年収アップ・IT通信469→486万円）などの出典付きデータで解説し、年収アップする人の特徴と下がるケースの対策をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/salary-change/" },
   title: TITLE,
   description: DESCRIPTION,
 };

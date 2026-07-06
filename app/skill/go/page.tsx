@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/go/" },
   title: "Go言語エンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
     "Go言語エンジニアの転職市場を出典付きで解説。paiza調査で提示年収3年連続1位のGoの市場価値、求人の探し方、他言語からの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",

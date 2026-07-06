@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/jcb/" },
   title: "JCB（ジェーシービー）エンジニア転職ガイド【2026年版】技術・選考の実態",
   description:
     "JCB（株式会社ジェーシービー）へのエンジニア転職を実データで解説。非上場のため平均年収は公式非開示。Go/Java/Python・GCP・Kubernetes等の決済システム技術スタック、アプリ/SysPO/QA等の募集職種、選考、30代40代の現実までまとめました。",

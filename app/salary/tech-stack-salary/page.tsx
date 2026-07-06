@@ -9,6 +9,7 @@ const PAGE_DESC =
   "有価証券報告書の平均年収43社と各社の主要技術スタックを突き合わせた独自データ。Go・AWS・C++など、どの技術がどの年収帯の企業で使われているかを一覧化。使用言語からエンジニア転職先を逆引きできます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/tech-stack-salary/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -9,6 +9,7 @@ const DESCRIPTION =
   "転職の入社前にやるべき準備を、提出書類・年金や保険の手続き・税金・入社初日の準備・心構えまでチェックリストで網羅。30代・40代エンジニアが退職から入社までの空白なく、スムーズに新天地へ移るための実務をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/pre-onboarding/" },
   title: TITLE,
   description: DESCRIPTION,
 };

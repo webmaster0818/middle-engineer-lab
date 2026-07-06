@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/second-new-grad/" },
   title: "第二新卒エンジニアの転職戦略【1〜3年目の最適な動き方】",
   description:
     "第二新卒（入社1〜3年目）のエンジニア向け転職戦略を解説。転職すべきタイミング、年収変化、おすすめ企業、面接対策を紹介します。",

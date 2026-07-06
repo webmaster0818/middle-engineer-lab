@@ -10,6 +10,7 @@ const DESCRIPTION =
 const URL = "/review/geechs/";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/geechs/" },
   title: TITLE,
   description: DESCRIPTION,
 };
@@ -60,7 +61,7 @@ const badReviews = [
   {
     title: "実務経験が前提で未経験には案件が出にくい",
     body: "業務委託案件のため即戦力前提で、実務経験が浅い場合は紹介される案件が限られたという傾向の声がエンジニア系の口コミで見られる。",
-    cope: "実務経験が浅いうちは無理に独立せず、まず正社員で経験を積むのが現実的。安定雇用で経験を積みたい場合は正社員転職のレバテックキャリア（/review/levtech-career/）を検討するとよい。",
+    cope: "実務経験が浅いうちは無理に独立せず、まず正社員で経験を積むのが現実的。安定雇用で経験を積みたい場合は正社員転職のレバテックキャリア（/review/levtech/）を検討するとよい。",
   },
   {
     title: "案件・拠点が都市圏中心",
@@ -136,7 +137,7 @@ const faqs = [
   },
   {
     q: "未経験でも案件を紹介してもらえますか？",
-    a: "業務委託案件は即戦力前提のため、IT実務経験が浅い場合は紹介できる案件が限られます。経験が浅い方は、まず正社員で実務経験を積んでから独立する方が現実的です。安定雇用での経験積みは正社員転職のレバテックキャリア（/review/levtech-career/）が向いています。",
+    a: "業務委託案件は即戦力前提のため、IT実務経験が浅い場合は紹介できる案件が限られます。経験が浅い方は、まず正社員で実務経験を積んでから独立する方が現実的です。安定雇用での経験積みは正社員転職のレバテックキャリア（/review/levtech/）が向いています。",
   },
   {
     q: "登録は無料ですか？",
@@ -362,7 +363,7 @@ export default function GeechsReview() {
             </p>
             <p>
               経産省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が見込まれており、経験あるミドル層への需要は底堅いと考えられます。「いつでも正社員に戻れる状態」を保っておくと、独立後のリスクは大きく下がります。安定雇用を希望する場合は、正社員転職の
-              <Link href="/review/levtech-career/" className="text-petrol hover:underline">レバテックキャリア</Link>
+              <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               も検討してください。
             </p>
           </div>

@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/remote-full/" },
   title: "フルリモート勤務のエンジニア求人ガイド【2026年版】",
   description:
     "フルリモートで働けるエンジニア求人の見つけ方を解説。フルリモート企業の特徴、年収、注意点、おすすめ企業タイプを紹介します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/stores/" },
   title: "STORESへのエンジニア転職｜年収・技術スタック・選考の現実",
   description:
     "STORES（旧hey）のエンジニア中途採用を公式採用・技術発信の一次情報で解説。非上場のため公式平均年収はなく集計は参考値。Ruby/Go・店舗DXマルチプロダクト、30代40代の現実を中立にまとめました。",

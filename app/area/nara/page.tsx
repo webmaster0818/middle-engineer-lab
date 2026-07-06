@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/nara/" },
   title: "奈良のIT転職事情【2026年】大阪通勤圏・住環境とリモート",
   description:
     "奈良県のITエンジニア転職を30代・40代向けに解説。大阪・京都通勤圏というベッドタウンの立地、良好な住環境、首都圏フルリモート併用、UIターン移住支援（出典付き）、年収の現実を公開情報をもとに正直に整理します。",

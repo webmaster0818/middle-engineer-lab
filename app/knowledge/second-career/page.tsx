@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/second-career/" },
   title: "エンジニアのセカンドキャリア｜選択肢7つを徹底比較",
   description:
     "エンジニアのセカンドキャリアの選択肢を整理。PM/EM・ITコンサル・講師・CRE・テクニカルライター・社内SE・独立を比較表で。活かせるスキル・準備・収入の考え方と移行ステップを30代・40代向けに解説。",

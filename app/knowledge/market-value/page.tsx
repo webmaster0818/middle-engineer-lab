@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/market-value/" },
   title: "エンジニアの市場価値の測り方【年代別年収データ】",
   description:
     "30代・40代エンジニアが自分の市場価値を測る方法を解説。レバテック公表の年代別平均年収、市場価値を測る4つの方法、価値を高める戦略、判断チェックリストを出典付きで紹介します。",

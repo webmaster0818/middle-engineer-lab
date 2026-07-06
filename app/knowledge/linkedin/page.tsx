@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/linkedin/" },
   title: "エンジニアのLinkedIn活用術【プロフィール見本付き】",
   description:
     "LinkedInでスカウトを増やすプロフィールの書き方を見本付きで解説。Open to Work設定、日本のIT転職での実際の使われ方を30代・40代エンジニア向けに整理しました。",

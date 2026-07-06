@@ -9,6 +9,7 @@ const DESCRIPTION =
   "30代ITエンジニアの年収相場を公的統計と転職エージェント公表値で解説。レバテック公表の30代平均約499万円・年収1,000万円以上8.01%などを時点付きで紹介し、年収アップの戦略とチェックリストをまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/salary-30s/" },
   title: TITLE,
   description: DESCRIPTION,
 };

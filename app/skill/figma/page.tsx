@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/figma/" },
   title: "Figmaスキルの転職ガイド｜年収・求人・将来性【2026年】",
   description:
     "Figmaスキルを軸にした転職市場を出典付きで解説。UIデザイン・フロントエンド連携での用途、UIデザイナー職種としての年収相場、エンジニアより設計寄りである点も正直に整理。求人の探し方と30代・40代の戦い方をミドル向けにまとめます。",

@@ -11,6 +11,7 @@ const URL = "/review/edb-agent/";
 const OFFICIAL_URL = "https://engineer-data-bank.com/edb-agent/";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/edb-agent/" },
   title: TITLE,
   description: DESCRIPTION,
 };

@@ -9,6 +9,7 @@ const DESCRIPTION =
   "年収2000万円のITエンジニアに到達する職種・役割を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理。ITSS最上位平均をはるかに超える、外資トップIT・CTO/VPoE・代替不能のトップスペシャリストなどごく一握りの層である現実を誠実に解説します。30〜40代の狙い方も示します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/2000man/" },
   title: TITLE,
   description: DESCRIPTION,
 };

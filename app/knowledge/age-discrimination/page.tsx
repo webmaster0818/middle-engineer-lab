@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/age-discrimination/" },
   title: "エンジニア転職の年齢の壁【実態と突破法】30代・40代向け",
   description:
     "エンジニア転職の年齢の壁を実務目線で解説。年齢制限禁止のルール（一般的説明）、実務上の現実、書類で落ちる仕組み、35歳・40代が壁を突破する具体パターンを年収データとともにまとめました。",

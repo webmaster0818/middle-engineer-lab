@@ -9,7 +9,7 @@ const DESC =
   "営業職からエンジニアへ未経験で転職する進め方を、スキルギャップ比較表・学習ステップ・職務経歴書のBefore/After例文付きで解説。30代40代で難度が上がる現実も正直に紹介します。";
 const URL = "/career/sales-to-engineer/";
 
-export const metadata: Metadata = { title: TITLE, description: DESC };
+export const metadata: Metadata = { alternates: { canonical: "/career/sales-to-engineer/" }, title: TITLE, description: DESC };
 
 const toc = [
   { id: "conclusion", label: "結論：現実性と正直な難度" },

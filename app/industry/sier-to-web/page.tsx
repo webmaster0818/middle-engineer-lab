@@ -114,6 +114,7 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/sier-to-web/" },
   title: TITLE,
   description: DESCRIPTION,
 };

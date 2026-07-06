@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/resignation/" },
   title: "エンジニアの退職の伝え方【切り出し方・引き止め対応・引き継ぎ】",
   description:
     "エンジニアの退職の伝え方を例文付きで解説。上司への切り出し方、引き止め対応、引き継ぎ計画、退職の法的な基礎知識まで、30代・40代向けに整理しました。",

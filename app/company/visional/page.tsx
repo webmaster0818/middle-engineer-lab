@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/visional/" },
   title: "ビジョナル/ビズリーチの年収は平均861万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "ビジョナル（東証プライム・4194／ビズリーチ運営）のエンジニア中途採用を一次情報で解説。有価証券報告書の平均年収、Scala中心の技術スタック、選考フロー、口コミ傾向、30代40代の転職可否までまとめました。",

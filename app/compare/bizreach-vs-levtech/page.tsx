@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/bizreach-vs-levtech/" },
   title: "ビズリーチとレバテックの比較｜どっちがおすすめ？【2026年6月】",
   description:
     "ビズリーチとレバテックキャリアを求人数・年収・サポート・スピード・対象層で徹底比較。ハイクラス×スカウト型とIT特化エージェント型の違い、30代40代エンジニアの選び方、口コミ傾向、併用術まで解説します。",

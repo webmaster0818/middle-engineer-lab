@@ -9,6 +9,7 @@ const PAGE_DESC =
   "ITエンジニアの年代別の平均年収（公表値）と、転職難易度・狙える年収レンジ・年代ごとの戦い方を1つの早見表で比較。30代・40代・50代のミドルエンジニアが、自分の年齢で何を武器に転職すべきかがわかります。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/age-salary/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

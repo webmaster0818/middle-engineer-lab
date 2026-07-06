@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Linux技術者認定のLPICとLinuCの違い、転職での評価、保有者の年収相場（出典明記）を30代・40代向けに解説。未経験入口資格としての位置づけ、CCNA・AWSとの併取得戦略まで限界も含めて正直にまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/lpic/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

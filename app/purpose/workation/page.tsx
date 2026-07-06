@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/workation/" },
   title: "ワーケーションができる企業へ転職【制度の見極め方2026】",
   description:
     "ワーケーションの定義と種類を公的情報ベースで解説。求人での見極め方、労働時間・労災・費用負担の注意点、該当しやすい企業タイプ、30-40代の活用法まで。",

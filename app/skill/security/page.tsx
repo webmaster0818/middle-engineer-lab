@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/security/" },
   title: "セキュリティエンジニア転職の攻め方｜年収・資格・未経験【2026年】",
   description:
     "セキュリティエンジニアの転職市場を2026年6月時点の公的データで整理。job tag・レバテック年代別年収、情報処理安全確保支援士など資格の使いどころ、未経験可否、将来性、求人の探し方を実務目線で解説します。",

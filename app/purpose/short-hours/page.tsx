@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/short-hours/" },
   title: "時短勤務ができる企業へ転職【制度と求人の見極め方2026】",
   description:
     "短時間勤務（時短）の法定ルールと、求人での見極め方を公的情報ベースで解説。育児・介護の時短、給与への影響、該当しやすい企業タイプ、30-40代の働き方設計まで。",

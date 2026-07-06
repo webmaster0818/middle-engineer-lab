@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Vue.jsエンジニアの転職市場を2026年最新の公表データで解説。Reactとの求人数の差、Vue3・Nuxt・Piniaのエコシステム、年収を上げる方法、React/TypeScriptを併用する価値を30代・40代エンジニア向けに正直にまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/vue/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

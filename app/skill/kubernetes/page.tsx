@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Kubernetes/コンテナエンジニアの転職市場を2026年最新の公表データで解説。年代別の年収目安、CKA/CKAD/CKS認定の活かし方、求人の探し方、参入ルートを30代・40代エンジニア向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/kubernetes/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/workport-vs-mynavi/" },
   title: "ワークポート マイナビIT 比較｜量と全国対応 vs 手厚いサポート",
   description:
     "ワークポートとマイナビIT AGENTを徹底比較。全国対応・求人量のワークポートと、書類添削・面接対策が手厚いマイナビIT。求人数・サポート・スピード・対象層を実データで整理し、30代40代エンジニアの選び方を解説します。",

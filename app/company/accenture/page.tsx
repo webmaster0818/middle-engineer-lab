@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/accenture/" },
   title: "アクセンチュア エンジニア転職ガイド【2026年】選考・年収",
   description:
     "アクセンチュアへのエンジニア転職を解説。テクノロジー部門の採用領域、公式採用ページの選考フロー、口コミ傾向、30代・40代の狙い目を出典付きで整理。日本法人は有報なしのため年収は公式情報・口コミ集計値で説明します。",

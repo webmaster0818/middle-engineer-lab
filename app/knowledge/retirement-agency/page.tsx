@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/retirement-agency/" },
   title: "退職代行の選び方【3類型と非弁行為・SES客先常駐の注意点】",
   description:
     "退職代行サービスの運営主体3類型（民間業者・労働組合・弁護士）の違いと、非弁行為のリスクを正確に解説。SES・客先常駐特有の注意点や使う前のチェックリストを30代・40代エンジニア向けに整理します。",

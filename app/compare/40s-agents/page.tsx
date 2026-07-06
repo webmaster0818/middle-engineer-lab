@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/40s-agents/" },
   title: "40代エンジニアの転職エージェントおすすめ比較【2026年6月】",
   description:
     "40代エンジニアにおすすめのIT転職エージェントを2026年6月時点のデータで比較。40代の平均年収約618万円などの公表値、マネジメント経験の活かし方、年齢ハードルへの向き合い方まで解説します。",

@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Oracle認定JavaプログラマGold（OCJP Gold SE）を、30代・40代向けに解説。受験料・試験形式・Silver前提・有効期限なし、中級以上のJava実装力の証明としての価値、年収の考え方を公式情報をもとに限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/oracle-java-gold/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

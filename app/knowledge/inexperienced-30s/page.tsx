@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/inexperienced-30s/" },
   title: "30代未経験からのIT転職【現実的な入り口と学習ロードマップ】",
   description:
     "30代未経験からのIT転職を現実目線で解説。テスター・サポート・SESなど現実的な入り口、6か月学習ロードマップ、paizaスキルチェックの活用、年収の現実と注意点を実践的にまとめました。",

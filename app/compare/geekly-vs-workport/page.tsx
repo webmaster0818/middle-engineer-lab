@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/geekly-vs-workport/" },
   title: "Geekly ワークポート 比較｜IT特化と総合型の違い",
   description:
     "Geekly（ギークリー）とワークポートを徹底比較。IT/Web/ゲーム特化のGeeklyと、全国対応の総合型ワークポート。求人数・年収・サポート・スピード・対象層を実データで解説し、30代40代エンジニアの選び方を示します。",

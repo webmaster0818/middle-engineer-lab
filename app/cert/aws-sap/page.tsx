@@ -9,6 +9,7 @@ const PAGE_DESC =
   "AWS認定ソリューションアーキテクト – プロフェッショナル（SAP-C02）を、上流・アーキテクト職での評価という観点から30代・40代向けに解説。受験料・試験形式・合格スコア・有効期限・出題範囲を公式情報で整理し、難関上位資格としての価値と限界をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/aws-sap/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

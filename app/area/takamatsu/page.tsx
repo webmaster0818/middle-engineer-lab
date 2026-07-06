@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/takamatsu/" },
   title: "高松・香川のIT転職事情【2026年】四国の玄関口×リモート移住",
   description:
     "高松・香川のITエンジニア転職を30代・40代向けに正直に解説。四国の経済の玄関口としてのIT拠点・支店経済の実情、地元求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。",

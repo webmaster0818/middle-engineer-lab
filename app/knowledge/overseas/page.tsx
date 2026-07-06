@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/overseas/" },
   title: "海外で働くエンジニアの転職【ルート・英語・ビザ】",
   description:
     "海外で働くエンジニアの転職方法を解説。現地採用・駐在・リモートの3ルートの違い、英語要件の目安、ビザの一般知識を30代・40代向けに整理。制度は公式情報の確認を案内します。",

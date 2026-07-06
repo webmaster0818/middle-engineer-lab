@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/housing-allowance/" },
   title: "住宅手当・家賃補助がある企業へ転職【求人の見極め方2026】",
   description:
     "住宅手当・家賃補助の実態と求人での見極め方を解説。手当の種類・課税の扱い・支給条件の落とし穴、該当しやすい企業タイプ、30-40代の住宅設計まで具体的に。",

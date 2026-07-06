@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/no-age-limit/" },
   title: "年齢不問のエンジニア求人の狙い方【30-40代の実態】",
   description:
     "「年齢不問」のエンジニア求人の建前と実態を正直に解説。法律上の年齢制限禁止の背景、30-40代に本当に問われる実力と納得感、求人の見極め方、注意点を整理します。",

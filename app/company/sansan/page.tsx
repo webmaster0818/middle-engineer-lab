@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/sansan/" },
   title: "Sansanの年収は平均780万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "Sansan（4443）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収780万円(2025年5月期)、Bill Oneの技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",

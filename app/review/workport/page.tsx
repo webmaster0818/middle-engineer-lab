@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/workport/" },
   title: "ワークポートの評判は？30代40代エンジニア向け徹底レビュー",
   description:
     "ワークポートの評判をエンジニア目線で検証。求人数・対応スピード・口コミの傾向、未経験DX転職の実態、30代40代の活用戦略までデータと出典付きで解説します。",

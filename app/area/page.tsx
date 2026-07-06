@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/" },
   title: "エリア別IT転職ガイド一覧【全14エリア】求人・年収",
   description:
     "東京・大阪・名古屋・福岡など全国14エリアのIT転職事情を、求人数の目安・平均年収とともに分類。エリアとフルリモートを組み合わせて考えるためのガイドもまとめました。",

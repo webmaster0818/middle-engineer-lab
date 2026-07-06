@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/powerbi/" },
   title: "Power BIエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
     "Power BIスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の戦い方をミドル向けに整理します。",

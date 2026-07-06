@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/embedded-to-web/" },
   title: "組込みエンジニア→Web系エンジニアへの転職ガイド【2026年版】",
   description:
     "組込み・ファームウェアエンジニアからWeb系エンジニアへ転職するための現実性、スキルギャップ比較、在職中の準備ステップ、職務経歴書のBefore/After例文を公的データに基づき解説します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/bandai-namco/" },
   title: "バンダイナムコの転職難易度と年収は？平均1216万円【2026年・有報】エンジニア転職ガイド",
   description:
     "バンダイナムコのエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説。持株会社平均年収1,216万円(2025年3月期)の注意点、内製エンジンSOL-AVES等の技術、選考を中立にまとめました。",

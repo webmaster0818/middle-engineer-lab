@@ -10,6 +10,7 @@ const DESCRIPTION =
 const URL = "/review/techclips/";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/techclips/" },
   title: TITLE,
   description: DESCRIPTION,
 };
@@ -59,7 +60,7 @@ const badReviews = [
   {
     title: "対応エリアが首都圏に限られる",
     body: "対応エリアが首都圏（東京・神奈川・埼玉・千葉中心）に限られ、「今は東京の求人しかない」という利用者の声も見られる。地方在住・地方転職には向きにくい。",
-    cope: "地方やフルリモートを希望する場合は、全国対応のdodaや、リモート求人も扱うレバテックキャリア（/review/levtech-career/）を併用すると選択肢が広がる。",
+    cope: "地方やフルリモートを希望する場合は、全国対応のdodaや、リモート求人も扱うレバテックキャリア（/review/levtech/）を併用すると選択肢が広がる。",
   },
   {
     title: "未経験・経験が浅いと紹介求人が限られる",
@@ -131,7 +132,7 @@ const faqs = [
   },
   {
     q: "地方在住でも利用できますか？",
-    a: "対応エリアは首都圏（東京・神奈川・埼玉・千葉中心）に限られ、「今は東京の求人しかない」という利用者の声もあります。地方やフルリモートを希望する場合は、全国対応のdodaやリモート求人も扱うレバテックキャリア（/review/levtech-career/）の併用を検討してください。",
+    a: "対応エリアは首都圏（東京・神奈川・埼玉・千葉中心）に限られ、「今は東京の求人しかない」という利用者の声もあります。地方やフルリモートを希望する場合は、全国対応のdodaやリモート求人も扱うレバテックキャリア（/review/levtech/）の併用を検討してください。",
   },
   {
     q: "未経験でも使えますか？「未経験お断り」は本当ですか？",
@@ -148,7 +149,7 @@ const faqs = [
 ];
 
 const related = [
-  { name: "レバテックキャリアの評判（IT特化・全国）", href: "/review/levtech-career/" },
+  { name: "レバテックキャリアの評判（IT特化・全国）", href: "/review/levtech/" },
   { name: "ビズリーチ（ITハイクラス）の評判", href: "/review/bizreach-it/" },
   { name: "doda（総合型・全国対応）の評判", href: "/review/doda-it/" },
   { name: "IT転職エージェントの比較", href: "/compare/agents/" },
@@ -434,7 +435,7 @@ export default function TechClipsReview() {
             TechClipsは自社開発100%・高年収・首都圏が強みです。求人数の網羅性や全国対応、受託・SIerも含めた比較を補うなら、IT特化大手・総合型・ハイクラスの併用が有効です。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/review/levtech-career/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
+            <Link href="/review/levtech/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">
               レバテックキャリア（IT特化・全国）の評判 →
             </Link>
             <Link href="/review/bizreach-it/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">

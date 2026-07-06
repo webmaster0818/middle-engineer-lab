@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/gmo-internet/" },
   title: "GMOインターネットグループの年収は平均693万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "GMOインターネットグループへのエンジニア転職を実データで解説。有価証券報告書の平均年収693万円（2024年12月期・持株会社単体）、ドメイン/クラウド/決済/金融のインフラ技術、選考フロー、30代40代の現実までまとめました。グループ各社の数字の読み方も明記。",

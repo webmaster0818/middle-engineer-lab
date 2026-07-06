@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Redis（インメモリDB／KVS）スキルを軸にした転職市場を出典付きで解説。Redisは単体スキルではなくバックエンド・インフラの実務基盤として評価される点を整理。求人ボックス公表のデータベース／インフラエンジニア年収、求人傾向、30代・40代の戦い方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/redis/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

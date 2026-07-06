@@ -79,6 +79,7 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/ses-exit/" },
   title: TITLE,
   description: DESCRIPTION,
 };

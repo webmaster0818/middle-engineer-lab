@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IPAの高度試験・プロジェクトマネージャ試験（PM）を、PM経験者の上流マネジメント証明という観点から30代・40代向けに解説。合格率、午前Ⅰ免除、論述試験、PMP との違い、年収の考え方まで限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/project-manager/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

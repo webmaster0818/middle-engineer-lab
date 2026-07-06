@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/dmm/" },
   title: "DMM.com エンジニア転職ガイド【2026年版】技術・選考の実態と年収の考え方",
   description:
     "DMM.com（合同会社DMM.com）へのエンジニア転職を実データで解説。非上場のため平均年収は公式非開示である点を明記し、Go/PHP/TypeScript等の技術スタック、50以上の事業領域、選考フロー、30代40代の現実までまとめました。",

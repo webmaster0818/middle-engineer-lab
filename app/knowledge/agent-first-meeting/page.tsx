@@ -9,6 +9,7 @@ const DESCRIPTION =
   "転職エージェント初回面談の準備リスト、聞かれること、伝えるべきこと、面談後の動きを徹底解説。30代・40代エンジニアが良い求人を引き出すコツを紹介します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/agent-first-meeting/" },
   title: TITLE,
   description: DESCRIPTION,
 };
@@ -302,7 +303,7 @@ export default function AgentFirstMeetingPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { name: "テックゴーの無料キャリア面談の流れ", href: "/knowledge/techgo-consultation/" },
+              { name: "テックゴーの無料キャリア面談の流れ", href: "/review/techgo-consultation/" },
               { name: "エージェントに断られた時の対処法", href: "/knowledge/agent-rejection/" },
               { name: "直接応募vsエージェント", href: "/knowledge/direct-apply/" },
               { name: "複数エージェントの活用法", href: "/knowledge/multiple-agents/" },

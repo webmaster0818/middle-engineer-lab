@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/employment/seishain/" },
   title: "正社員エンジニアの実態｜年収傾向・社会保険・メリットデメリット",
   description:
     "正社員エンジニアの定義、年収傾向、社会保険・税の仕組み、エンジニア側・企業側の二軸メリットデメリットを解説。業務委託・派遣・契約社員との違いと、30代・40代が正社員を選ぶ視点を出典付きで整理します。",

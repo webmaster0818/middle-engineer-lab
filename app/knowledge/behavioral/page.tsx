@@ -9,6 +9,7 @@ const DESCRIPTION =
   "行動面接（Behavioral Interview）の対策をSTAR法で徹底解説。頻出質問カテゴリ、一般化した回答例文、NG回答を30代・40代エンジニア向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/behavioral/" },
   title: TITLE,
   description: DESCRIPTION,
 };

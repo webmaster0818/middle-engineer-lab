@@ -9,6 +9,7 @@ const DESCRIPTION =
   "フロントエンドエンジニアの転職市場を公表データで解説。求人ボックス・レバテックの年収傾向、React/Vueの求人状況、30代・40代の市場価値、おすすめエージェントを実用的にまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/frontend/" },
   title: TITLE,
   description: DESCRIPTION,
 };

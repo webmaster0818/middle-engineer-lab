@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/" },
   title: "エンジニア転職お役立ちガイド一覧【75記事】テーマ別",
   description:
     "書類・面接・年収・エージェント活用・転職プロセス・働き方・悩み・属性別まで、30代40代エンジニアの転職に役立つ全50記事をテーマ別に整理。転職ステージ別の読む順番も解説します。",

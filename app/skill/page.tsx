@@ -8,6 +8,7 @@ const DESCRIPTION =
   "プログラミング言語・クラウド・データ/AIなど領域別に、エンジニア転職ガイドをまとめた一覧です。各スキルの公表年収データ・資格・求人の探し方・30〜40代の参入ルートを個別ページで解説しています。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/" },
   title: TITLE,
   description: DESCRIPTION,
 };

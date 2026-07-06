@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/" },
   title: "目的別エンジニア転職ガイド一覧【2026年版】12の転職目的に対応",
   description:
     "年収UP・ワークライフバランス・リモートワーク・大企業・英語力活用など、12の転職目的別にエンジニア向けの転職戦略とおすすめエージェントを紹介。",

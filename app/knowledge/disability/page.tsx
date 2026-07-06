@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/disability/" },
   title: "障害のあるエンジニアの転職【一般雇用と障害者雇用】",
   description:
     "障害のあるエンジニアの転職を解説。一般雇用と障害者雇用の違い、合理的配慮の一般知識、障害を開示するタイミングの考え方を整理。制度詳細は専門機関への相談を案内します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/pm/" },
   title: "PMの転職市場ガイド｜年収・求人の探し方【30代40代】",
   description:
     "プロジェクトマネージャー(PM)ポジションへの転職市場を30代・40代視点で解説。doda・レバテックの年収データ、求められる経験レベル、求人の探し方、PdM/PMOへの選択肢、FAQを網羅します。",

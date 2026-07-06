@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/wantedly-inc/" },
   title: "ウォンテッドリー（Wantedly）の年収は平均681万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "ウォンテッドリー株式会社（3991・東証グロース）へのエンジニア転職を実データで解説。有価証券報告書の平均年収681万円（全社員平均）、Ruby on Rails/Go/Reactの技術スタック、選考フロー、30代40代の現実までまとめました。",

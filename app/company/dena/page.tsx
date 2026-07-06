@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/dena/" },
   title: "DeNAへのエンジニア転職｜年収・技術スタック・選考フロー【2026年版】",
   description:
     "DeNAのエンジニア中途採用を有価証券報告書・公式採用ページ・技術ブログの一次情報で解説。提出会社平均年収882.9万円(2025年3月期)、コーディングテスト、Go/AWS等の技術を中立にまとめました。",

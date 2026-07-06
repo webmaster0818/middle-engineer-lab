@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/dart/" },
   title: "Dartエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
     "Dart（Flutter）エンジニアの転職市場を出典付きで解説。モバイルアプリ開発でのFlutter需要、求人ボックスやレバテックの公表年収、Web・ネイティブからの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",

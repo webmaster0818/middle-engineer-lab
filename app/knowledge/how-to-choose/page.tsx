@@ -9,6 +9,7 @@ const PAGE_DESC =
   "30代・40代エンジニア向けにIT転職エージェントの選び方を解説。4つの選定基準、IT特化型と総合型の違い、タイプ別マトリクスと10社の使い分けを具体例とチェックリストで紹介します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/how-to-choose/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/saitama/" },
   title: "埼玉のIT転職事情【2026年】ベッドタウン×リモートの働き方",
   description:
     "埼玉のITエンジニア転職を30代・40代向けに解説。大宮・さいたま新都心などのエリア特徴、東京通勤圏×リモート併用の働き方、年代別年収の考え方、対応エージェントの選び方をまとめました。",

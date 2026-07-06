@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/remote-work/" },
   title: "リモートワーク求人の探し方｜エンジニア転職の見極めポイント",
   description:
     "エンジニア向けリモートワーク求人の探し方を解説。フルリモートとハイブリッドの違い、求人票での見極めポイント、面接での確認事項、求人票の落とし穴まで30代・40代向けに紹介します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/kanazawa/" },
   title: "金沢・石川のIT転職事情【2026年】リモート活用とUIターン移住",
   description:
     "金沢・石川県のITエンジニア転職を30代・40代向けに解説。地場のIT・ものづくり産業の特徴、首都圏フルリモートという現実的な選択肢、石川県・金沢市の移住支援金、年収の考え方、対応エージェントを公開情報をもとに整理します。",

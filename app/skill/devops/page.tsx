@@ -9,6 +9,7 @@ const PAGE_DESC =
   "DevOpsエンジニアの転職を2026年最新データで解説。SRE・インフラとの違い（開発と運用の橋渡し vs 信頼性のエンジニアリング）、CI/CD・IaC・コンテナ・監視の必須スキル、年収1,000万円超の現実性、未経験歓迎と即戦力高報酬の二極化を30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/devops/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

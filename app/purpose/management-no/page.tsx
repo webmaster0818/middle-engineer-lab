@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/management-no/" },
   title: "マネジメントしたくないエンジニアの転職【IC キャリア完全ガイド】",
   description:
     "マネジメントをせずに技術で勝負したいエンジニア向けのキャリアパスを解説。ICトラック、スタッフエンジニア、年収、おすすめ企業を紹介します。",

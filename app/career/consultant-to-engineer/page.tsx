@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/consultant-to-engineer/" },
   title: "ITコンサルからエンジニアへの転職｜進め方とスキルギャップ",
   description:
     "ITコンサルタントからエンジニアへの転職活動の進め方を、スキルギャップ比較表・学習ロードマップ・職務経歴書のBefore/After例文付きで解説。30代40代の現実的なルートも紹介します。",

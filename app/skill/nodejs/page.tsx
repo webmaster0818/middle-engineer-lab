@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Node.jsエンジニアの転職市場を2026年最新の公表データで解説。TypeScript（言語）との違い、Express/NestJSなどのスキルセット、フルスタック親和性、年収1,000万円超の実在、IoT・リアルタイムのユースケースを30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/nodejs/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

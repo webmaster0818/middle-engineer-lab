@@ -9,6 +9,7 @@ const DESCRIPTION =
   "外資系IT企業の面接対策を、選考フローの特徴・コーディング/システムデザイン/行動面接の準備・想定問答・英語面接への備えまで実践的に解説。30代40代エンジニアが外資転職で評価されるための準備をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/foreign-interview/" },
   title: TITLE,
   description: DESCRIPTION,
 };

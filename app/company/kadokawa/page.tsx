@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/kadokawa/" },
   title: "KADOKAWAの年収は平均885万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "KADOKAWA（ドワンゴ・ニコニコ含む）へのエンジニア転職を実データで解説。有価証券報告書の平均年収885万円（2025年3月期・単体）、Scala/TypeScript/Kotlin等の技術スタック、選考フロー、30代40代の現実までまとめました。",

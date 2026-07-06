@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/relocation-friendly/" },
   title: "移住・地方移住OKのエンジニア求人ガイド【2026年版】",
   description:
     "移住・二拠点を起点にIT転職を設計するガイド。段階的移住ロードマップ、居住地不問・全国一律給与の見極め、移住支援金（公的制度）の活用、30-40代の二拠点コストまで解説。",

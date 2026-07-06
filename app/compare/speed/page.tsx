@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/speed/" },
   title: "対応が早い・スピード重視のIT転職エージェント【2026年6月】",
   description:
     "提案スピードが早いと評判のIT転職エージェントを、Geekly・ワークポートを中心に出典付きで比較。スピード転職のコツと、早さと質を両立させる注意点を30代・40代視点で解説します。",

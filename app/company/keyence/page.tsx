@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/keyence/" },
   title: "キーエンスの年収は平均2039万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "キーエンスのエンジニア中途採用を有価証券報告書の一次情報で解説。平均年収2039万円(2025年3月期・全従業員平均)は営業を含む全社員平均でエンジニア単独ではありません。難易度・職種・30代40代の現実を中立にまとめました。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/agents/" },
   title: "エンジニア転職エージェントおすすめ10社比較【30代40代向け】",
   description:
     "30代・40代エンジニア向けに転職エージェントおすすめ10社を統一フォーマットで比較。運営会社・求人数・得意領域・評判（出典付き）を整理し、年代別・目的別の選び方と併用パターンを解説します。",

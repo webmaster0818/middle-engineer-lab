@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/kagoshima/" },
   title: "鹿児島のIT転職事情【2026年】南九州のIT誘致とリモート移住",
   description:
     "鹿児島県のITエンジニア転職を30代・40代向けに解説。南九州のIT企業誘致・サテライトオフィスの動き、首都圏フルリモート併用、UIターン移住支援（出典付き）、年収の現実を公開情報をもとに正直に整理します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/timee/" },
   title: "タイミー（Timee）の年収は平均594万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "タイミー（215A・東証グロース）へのエンジニア転職を実データで解説。新規上場時の有価証券報告書の平均年収594万円（2024年10月期・全社員平均）、Ruby on Rails/Go/Next.jsの技術スタック、選考フロー、30代40代の現実までまとめました。",

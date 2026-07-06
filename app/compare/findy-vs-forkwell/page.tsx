@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/findy-vs-forkwell/" },
   title: "FindyとForkwellの比較｜どっちがおすすめ？【2026年6月】",
   description:
     "FindyとForkwellをスカウト型サービスの評価軸・スカウトの質・コミュニティ・対象層で比較。GitHub実績で評価されたいか発信の質で評価されたいか、30代40代エンジニアの選び方とスカウトが来ない時の対処を解説します。",

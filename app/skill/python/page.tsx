@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/python/" },
   title: "Pythonエンジニアの転職ガイド｜AI・データ分析の年収と将来性",
   description:
     "Pythonエンジニアの転職市場をAI・データ分析の観点から出典付きで解説。求人ボックスやレバテックの公表年収、Web系からAI/MLへの転向、求人の探し方、30代・40代の戦い方を整理します。",

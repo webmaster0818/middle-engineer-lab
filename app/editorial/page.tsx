@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/editorial/" },
   title: "記事制作ポリシー",
   description:
     "ミドルエンジニア転職ラボの記事制作ポリシーです。評価基準、制作フロー、ランキングの根拠、アフィリエイト収益の透明性について説明しています。",

@@ -11,6 +11,7 @@ const URL = "/review/techgate-expert/";
 const OFFICIAL_URL = "https://www.selva-i.co.jp/tecgate/highclass/";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/techgate-expert/" },
   title: TITLE,
   description: DESCRIPTION,
 };

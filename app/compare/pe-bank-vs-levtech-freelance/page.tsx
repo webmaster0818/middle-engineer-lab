@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/pe-bank-vs-levtech-freelance/" },
   title: "PE-BANKとレバテックフリーランス比較｜どっちがおすすめ【2026年6月】",
   description:
     "PE-BANKとレバテックフリーランスをどっちがおすすめか即答。マージン完全公開（8〜12%）と共済会のPE-BANK、高単価・案件量のレバテックフリーランスを、手数料・案件数・福利厚生・対応エリアで時点付き実データで徹底比較。30代40代エンジニアの独立の選び方を解説します。",

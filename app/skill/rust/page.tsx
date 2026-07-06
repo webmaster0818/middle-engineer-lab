@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/rust/" },
   title: "Rustエンジニアの転職市場ガイド｜年収・求人の探し方",
   description:
     "Rustエンジニアの転職市場を30代・40代視点で解説。求人提示年収のレンジ、求められる経験レベル、求人の探し方、C/C++・Goからの参入ルート、学習戦略、FAQまで実用情報を網羅します。",

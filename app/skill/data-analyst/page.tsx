@@ -9,6 +9,7 @@ const PAGE_DESC =
   "データアナリストの転職を2026年最新データで解説。データサイエンティストとの違い（SQL/BIで示唆を出す職 vs モデル構築・研究の職）、必須スキル（SQL・統計・BI）、30代未経験の可否と難易度、ポートフォリオ、キャリアパスを30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/data-analyst/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

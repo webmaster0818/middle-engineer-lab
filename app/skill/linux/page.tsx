@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Linuxスキルを軸にした転職を2026年最新データで解説。LPIC/LinuCの資格体系、LPIC→CCNA→AWSで年収600〜900万円を狙う王道ルート、具体スキル、未経験でのLPIC活用、インフラ・ネットワークとの違いを30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/linux/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

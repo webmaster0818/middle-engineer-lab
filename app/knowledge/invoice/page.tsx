@@ -9,6 +9,7 @@ const DESCRIPTION =
   "インボイス制度がフリーランスエンジニアに与える影響を、免税事業者と課税事業者の選択、2割特例、経過措置、登録手続きまで国税庁の公式情報をもとに解説。会社員から独立する30代・40代が判断を誤らないための実務ガイドです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/invoice/" },
   title: TITLE,
   description: DESCRIPTION,
 };

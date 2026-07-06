@@ -11,6 +11,7 @@ const URL = "/review/levtech-direct/";
 const OFFICIAL_URL = "https://levtech-direct.jp/";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/levtech-direct/" },
   title: TITLE,
   description: DESCRIPTION,
 };

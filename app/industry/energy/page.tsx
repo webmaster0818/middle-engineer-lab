@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/energy/" },
   title: "エネルギー業界からエネテック転職【30代40代ガイド】",
   description:
     "電力・エネルギー業界のエンジニアがエネテック（CleanTech/GreenTech）領域へ転職する道筋を解説。系統・制御の知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。",

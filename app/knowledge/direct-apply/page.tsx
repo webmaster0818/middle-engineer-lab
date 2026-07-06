@@ -9,6 +9,7 @@ const PAGE_DESC =
   "転職の直接応募とエージェント経由の違いを徹底比較。Green等のダイレクト型の使い方、メリット・デメリット、30代・40代エンジニアの使い分け方を例文とともに解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/direct-apply/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

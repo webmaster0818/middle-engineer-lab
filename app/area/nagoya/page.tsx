@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/nagoya/" },
   title: "名古屋のIT転職事情【2026年】製造業DXとエンジニアの選択肢",
   description:
     "名古屋・愛知のIT・Webエンジニア転職を解説。自動車産業を核とした製造DXの集積、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを30代・40代向けに整理します。",

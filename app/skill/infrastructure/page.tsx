@@ -9,6 +9,7 @@ const PAGE_DESC =
   "インフラエンジニアの転職市場を2026年最新の公表データで解説。レバテック公表の平均年収、クラウド/SRE転向のルート、おすすめの資格、求人の探し方を30代・40代エンジニア向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/infrastructure/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

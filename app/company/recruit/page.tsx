@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/recruit/" },
   title: "リクルートの年収は平均1145万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "株式会社リクルートのエンジニア（テクノロジー職）中途採用を一次情報で解説。持株会社の有価証券報告書平均年収、技術スタック、ミッショングレード、選考フロー、口コミ傾向、30代40代の視点をまとめました。",

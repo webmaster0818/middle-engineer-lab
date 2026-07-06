@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/infra-agents/" },
   title: "インフラ・クラウド特化の転職エージェントおすすめ｜選び方【2026年6月】",
   description:
     "インフラ・クラウド（SRE／AWS・GCP・Azure）エンジニアに強い転職エージェントを、当サイトに実在するサービスから根拠付きで厳選。IT/Web全般のレバテックキャリア、最大級の求人数のリクルート/doda、ハイクラスのJAC・ビズリーチまで、30代40代向けに選び方を整理します。",

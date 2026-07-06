@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/10x/" },
   title: "10Xの年収・給与とエンジニア転職【2026年】フルDartの技術環境",
   description:
     "10X（テンエックス・非上場）のエンジニア中途採用を公式Product Blog等の一次情報で解説。クライアントからサーバーまで100% Dartという珍しい技術スタック、Stailerの開発、年収の考え方、30代40代の転職可否を中立にまとめました。",

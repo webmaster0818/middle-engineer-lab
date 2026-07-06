@@ -100,6 +100,7 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/gaming/" },
   title: TITLE,
   description: DESCRIPTION,
 };

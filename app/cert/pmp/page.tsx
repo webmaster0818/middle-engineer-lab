@@ -9,6 +9,7 @@ const PAGE_DESC =
   "PMP（プロジェクトマネジメント・プロフェッショナル）は30代・40代の転職で有利か。PMI公式Salary Surveyの年収データ、受験資格・試験概要、評価される場面、実務×資格の活かし方とデメリットまで正直に解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/pmp/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

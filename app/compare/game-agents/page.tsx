@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/game-agents/" },
   title: "ゲーム業界に強い転職エージェントおすすめ｜選び方【2026年6月】",
   description:
     "ゲーム業界に強い転職エージェントを、当サイトに実在するサービスから根拠付きで厳選。ゲーム特化のGeekly、IT/Web全般のレバテックキャリア、ベンチャー直応募のGreen、Unityなど職種別の探し方まで、30代40代エンジニア向けに選び方を整理します。",

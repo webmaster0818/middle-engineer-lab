@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/utsunomiya/" },
   title: "宇都宮・栃木のIT転職事情【2026年】製造業×IT×新幹線通勤圏",
   description:
     "宇都宮・栃木のITエンジニア転職を30代・40代向けに正直に解説。北関東の製造業集積×ITの実情、新幹線で東京通勤圏という立地、地元求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。",

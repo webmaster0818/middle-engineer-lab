@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/" },
   title: "転職エージェント・スカウト・フリーランス評判一覧【30代40代向け】",
   description:
     "30代・40代ITエンジニア向けに、転職エージェント・ハイクラススカウト・スキル可視化スカウト・フリーランスエージェントの評判と使い分けをタイプ別に整理。各サービスの強み・向き不向きを比較できます。",

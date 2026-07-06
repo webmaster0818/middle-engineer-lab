@@ -9,6 +9,7 @@ const PAGE_DESC =
   "30代・40代エンジニア向けにカジュアル面談の進め方を解説。面接との違い、30〜60分の進行フロー、技術スタック・開発フロー・評価制度などカテゴリ別の逆質問20問、NG質問、選考に進む流れまでをまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/casual-interview/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

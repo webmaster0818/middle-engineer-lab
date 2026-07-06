@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/daikigyo/" },
   title: "大企業ITエンジニアポジションガイド【社内SE・DX推進・IT子会社】",
   description:
     "大企業のITエンジニアポジションを解説。社内SE、DX推進、IT子会社、情シスの年収、仕事内容、転職方法を紹介します。",

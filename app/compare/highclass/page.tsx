@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/highclass/" },
   title: "エンジニアのハイクラス転職おすすめ比較【2026年6月】",
   description:
     "エンジニアのハイクラス転職に強いサービスを2026年6月時点のデータで比較。ビズリーチを中心に年収750万円以上の定義、スカウトを増やす職務経歴書のコツ、レバテック・リクルートITの使い分けを解説します。",

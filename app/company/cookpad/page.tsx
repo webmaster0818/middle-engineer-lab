@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/cookpad/" },
   title: "クックパッドへのエンジニア転職｜年収・技術スタック・選考の現実",
   description:
     "クックパッドのエンジニア中途採用を有価証券報告書・公式技術ブログの一次情報で解説。平均年収約948万円(2024年12月期)、世界最大級のRailsモノリス、30代40代の現実を中立にまとめました。",

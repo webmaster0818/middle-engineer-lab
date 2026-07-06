@@ -9,6 +9,7 @@ const PAGE_DESC =
   "30代・40代エンジニアの転職で資格は本当に有利か。PMP・情報処理安全確保支援士・AWS認定など主要8資格を合格率・年収・有効期限で比較し、目的別マトリクスと『実務×資格』の活かし方を公的データで解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

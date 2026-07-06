@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/devsecops/" },
   title: "DevSecOps転職ガイド｜DevOps・インフラからの移行ステップと職務経歴書",
   description:
     "DevOps／インフラ／セキュリティ担当からDevSecOpsエンジニアへ転職する方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文つきで解説します。",

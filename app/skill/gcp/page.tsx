@@ -9,6 +9,7 @@ const PAGE_DESC =
   "GCP（Google Cloud）エンジニアの転職を2026年最新データで解説。AWS/Azureとの3クラウド比較、Google Cloud認定体系、BigQuery・Vertex AIというデータ/ML親和性の強み、年収相場の出典付き整理を30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/gcp/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

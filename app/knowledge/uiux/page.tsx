@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/uiux/" },
   title: "UI/UXエンジニアへの転身ガイド【フロントエンドから】",
   description:
     "フロントエンドエンジニアからUI/UXエンジニア（デザインエンジニア）へ転身する方法を解説。必要なスキル拡張、ポートフォリオの作り方、デザイナーとの違いを30代・40代向けに整理。",

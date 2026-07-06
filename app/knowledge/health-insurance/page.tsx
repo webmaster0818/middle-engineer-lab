@@ -9,6 +9,7 @@ const DESCRIPTION =
   "退職後の健康保険を、任意継続（最長2年・全額自己負担・期限20日）と国民健康保険のどちらにすべきか、保険料の決まり方・手続き期限・比較の手順まで全国健康保険協会などの情報に基づいて解説。30代・40代が損をしないための実務ガイドです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/health-insurance/" },
   title: TITLE,
   description: DESCRIPTION,
 };

@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IPAの国家試験・情報セキュリティマネジメント試験（SG）を、利用部門のセキュリティ管理者という観点から30代・40代向けに正直に解説。受験料・合格率（IPA公表値）・通年CBTを整理し、専門エンジニアの加点との違いと効く場面を誠実にまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/info-sec-management/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

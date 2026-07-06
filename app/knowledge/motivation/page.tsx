@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニア転職の転職理由を整理し、面接で伝わる形にする方法を解説。ネガティブ→ポジティブ変換の例文集、避けるべきNG理由、志望動機との一貫性の作り方を30代・40代向けに紹介します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/motivation/" },
   title: TITLE,
   description: DESCRIPTION,
 };

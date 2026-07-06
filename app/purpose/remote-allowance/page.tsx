@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/remote-allowance/" },
   title: "在宅勤務手当（リモート手当）がある企業へ転職【見極め方】",
   description:
     "在宅勤務手当・リモート手当のある企業への転職を解説。手当の種類と相場感、求人での見極め方、課税の扱い、通勤手当との関係、注意点を30-40代エンジニア向けに整理します。",

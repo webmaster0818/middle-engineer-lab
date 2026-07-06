@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/timeline/" },
   title: "エンジニア転職のスケジュール【在職中・週次の進め方】",
   description:
     "在職中に進めるエンジニア転職のスケジュールを週単位で解説。準備・応募・面接・内定・退職までの標準的な進め方と、30代・40代の週次の動き方モデルを紹介します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/jac-vs-bizreach/" },
   title: "JACとビズリーチの比較｜40代ハイクラスはどっち【2026年6月】",
   description:
     "JACリクルートメントとビズリーチを求人数・サポート・40代適性で徹底比較。両面型エージェントとスカウト型プラットフォームの違い、競合ではなく補完として使う併用術、口コミ傾向まで30代40代エンジニア向けに解説します。",

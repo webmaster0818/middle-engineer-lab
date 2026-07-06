@@ -9,6 +9,7 @@ const PAGE_DESC =
   "CI/CD（継続的インテグレーション／デリバリー）スキルを軸にした転職市場を出典付きで解説。CI/CDは単体スキルではなくDevOps/SRE実務の基盤として評価される点を整理。求人ボックス公表の関連職種年収、求人傾向、30代・40代の戦い方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/ci-cd/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/domestic-to-foreign/" },
   title: "日系→外資系IT企業への転職ガイド｜英語要件と選考の違い",
   description:
     "日系から外資系IT企業へ移行するためのスキルギャップ、英語要件、コーディング・システムデザイン面接など選考プロセスの違い、職務経歴書の見せ方を30代・40代視点で解説します。",

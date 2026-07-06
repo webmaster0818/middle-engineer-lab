@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/capcom/" },
   title: "カプコンの年収は平均918万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "カプコンへのエンジニア転職を実データで解説。有価証券報告書の平均年収918万円（2025年3月期・単体全社員平均）、内製エンジンRE ENGINE中心のC++技術スタック、選考フロー、30代40代の現実までまとめました。",

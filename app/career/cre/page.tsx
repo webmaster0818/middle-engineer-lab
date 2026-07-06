@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/cre/" },
   title: "CRE転職ガイド｜サポート・バックエンドからの移行ステップと職務経歴書",
   description:
     "テクニカルサポート／バックエンド／SREからCRE（カスタマーリライアビリティエンジニア）へ転職する方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文つきで解説します。",

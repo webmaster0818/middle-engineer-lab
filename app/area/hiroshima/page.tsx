@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/hiroshima/" },
   title: "広島のIT転職事情【2026年】製造業DX・中国地方の市場と進め方",
   description:
     "広島・中国地方のIT/Webエンジニア転職を解説。製造業DXを軸にした求人の特徴、年収の考え方、対応エージェント、30代・40代の戦略、FAQをまとめた実用ガイドです。",

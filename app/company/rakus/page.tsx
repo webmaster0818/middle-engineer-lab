@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/rakus/" },
   title: "ラクスの年収は平均664万円【2026年・有報】エンジニア転職・技術スタック解説",
   description:
     "ラクス（3923／楽楽精算・メールディーラー等）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収664万円(2026年3月期・全社員平均)、Java/PHP中心の技術スタック、選考フロー、口コミ傾向、30代40代の戦い方まで。ラクスル(4384)とは別会社です。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/women-agents/" },
   title: "女性エンジニアの転職エージェントおすすめ｜選び方【2026年6月】",
   description:
     "女性エンジニアの転職に役立つエージェントを、当サイトに実在するサービスから根拠付きで厳選。IT特化のレバテックキャリア、総合大手のdoda、サポート手厚いマイナビIT AGENT、首都圏特化のtype転職エージェントまで、30代40代の両立・働き方の見極め方とあわせて選び方を整理します。",

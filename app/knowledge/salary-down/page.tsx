@@ -9,6 +9,7 @@ const DESCRIPTION =
   "年収が下がる転職を受け入れるべきか迷う人へ、判断軸・許容できるケースとNGケース・生涯年収で考えるフレームを実践的に解説。30代・40代が目先の年収だけで損をしないための考え方をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/salary-down/" },
   title: TITLE,
   description: DESCRIPTION,
 };

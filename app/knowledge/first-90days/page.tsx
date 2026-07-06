@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/first-90days/" },
   title: "入社後90日の過ごし方【30/60/90日プランと信頼構築】",
   description:
     "転職後の最初の90日間で信頼を構築し早期に成果を出すための30/60/90日プランを解説。30代・40代エンジニアが新しい職場で立ち上がるロードマップを紹介します。",

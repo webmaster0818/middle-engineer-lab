@@ -11,6 +11,7 @@ const URL = "/review/techgo/";
 const OFFICIAL_URL = "https://tech-go.jp/";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/techgo/" },
   title: TITLE,
   description: DESCRIPTION,
 };

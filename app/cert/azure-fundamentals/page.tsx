@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Microsoft Azure Fundamentals（AZ-900）を、入門レベルの資格という観点から30代・40代向けに正直に解説。受験料・試験形式・合格スコア・出題範囲を公式情報で整理し、Azure学習の出発点としての価値と、それ単体では弱いという限界をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/azure-fundamentals/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

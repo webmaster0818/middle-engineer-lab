@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IT資格保有者の想定年収を、求人ボックス給料ナビ（2026年6月時点）の資格名求人の平均年収で比較。基本情報技術者491万、情報処理安全確保支援士746万など実ページ取得値と、資格手当・合格報奨金の相場をまとめました。IPAは資格別年収を公表していないため、民間求人データの正しい読み方も解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/salary/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

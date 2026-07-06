@@ -9,6 +9,7 @@ const DESCRIPTION =
   "転職先での適応戦略、質問の仕方、リモートオンボーディングの注意点を解説。30代・40代エンジニアが新環境で早期に信頼を獲得し、無理なく立ち上がるための実践ガイドです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/onboarding/" },
   title: TITLE,
   description: DESCRIPTION,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/plaid/" },
   title: "プレイドの年収は平均939万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "プレイド（東証グロース・4165）のエンジニア中途採用を一次情報で解説。有価証券報告書の平均年収、KARTEの技術スタック、選考フロー、口コミ傾向、30代40代の転職可否までまとめました。",

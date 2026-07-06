@@ -10,6 +10,7 @@ const PAGE_DESC =
   "転職時に退職金はどうなる？退職所得控除の計算（勤続年数別）、企業型確定拠出年金（DC）の移換手続き、6ヶ月放置で自動移換されるリスク、脱退一時金が原則受け取れない理由を、国税庁・厚労省・iDeCo公式の情報にもとづいて解説。ミドルエンジニアの転職前に押さえるべきお金の知識です。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/retirement-allowance/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -9,6 +9,7 @@ const DESCRIPTION =
   "転職に有利な時期を公表データで解説。dodaの転職求人倍率は2026年5月に2.44倍、エンジニア（IT・通信）は10.68倍（2026年3月）。求人が増える1〜3月・9〜10月の理由、ボーナスとの兼ね合い、応募から入社までの逆算スケジュールまで、30代・40代エンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/best-timing/" },
   title: TITLE,
   description: DESCRIPTION,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/bizreach-it/" },
   title: "ビズリーチのエンジニア評判・口コミ｜有料プランと無料の使い方",
   description:
     "ビズリーチのエンジニア向け評判を30代・40代目線で徹底解説。有料プラン（Web決済5,478円/月・2022年11月改定）の要否と、無料会員でできる範囲を正直に整理。ハイクラス・スカウト型の実態を口コミ傾向と実データで検証します。",

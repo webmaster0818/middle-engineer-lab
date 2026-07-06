@@ -103,6 +103,7 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/manufacturing/" },
   title: TITLE,
   description: DESCRIPTION,
 };

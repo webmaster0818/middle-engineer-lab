@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/no-english/" },
   title: "英語不要のIT企業へ転職【国内向け開発の見極め方】",
   description:
     "英語を使わずに働けるエンジニア転職先を正直に解説。英語不要な企業・職種の実態、求人での見極め方、将来も英語が発生しにくい領域、注意点を30-40代向けに整理します。",

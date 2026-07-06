@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Google CloudのAssociate Cloud Engineer（ACE）を、30代・40代の経験者向けに解説。受験料125 USD・試験形式・有効期限3年、GCP運用／基盤職での評価、年収の考え方を公式情報をもとに限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/gcp-ace/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

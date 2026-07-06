@@ -9,6 +9,7 @@ const PAGE_DESC =
   "AWS認定SysOpsアドミニストレーター – アソシエイト（SOA）を、運用者の加点資格という観点から30代・40代向けに解説。受験料・試験形式・合格スコア・有効期限・出題範囲を公式情報で整理。2025年9月にCloudOps Engineer（SOA-C03）へ名称・内容が更新された経緯も含めてまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/aws-soa/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

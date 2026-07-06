@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/tech-blog/" },
   title: "技術ブログの始め方｜Qiita・Zenn・noteの選び方と評価軸",
   description:
     "30-40代エンジニア向けに、技術ブログのプラットフォーム選定（Qiita/Zenn/note/個人ブログ）と転職での評価メカニズムを深掘り。第二の職務経歴書としての見せ方、評価される記事の型、炎上リスク回避まで解説します。",

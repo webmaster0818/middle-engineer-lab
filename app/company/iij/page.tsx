@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/iij/" },
   title: "IIJの年収は平均747万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "株式会社インターネットイニシアティブ（IIJ・3774）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収747万円(2026年3月期・全社員平均)、ネットワーク/クラウド/セキュリティの技術領域、選考フロー・面接観点、30代40代の戦い方まで。確認できない数値は記載していません。",

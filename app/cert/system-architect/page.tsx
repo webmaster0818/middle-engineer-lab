@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IPAの高度試験・システムアーキテクト試験（SA）を、設計実務者の上流（要件定義・アーキテクチャ設計）証明という観点から30代・40代向けに解説。合格率、午前Ⅰ免除、論述試験、年収の考え方まで限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/system-architect/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

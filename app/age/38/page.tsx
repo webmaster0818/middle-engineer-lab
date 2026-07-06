@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/38/" },
   title: "38歳エンジニアの転職｜40代を見据えた30代ラストの一手【2026年6月】",
   description:
     "38歳エンジニアの転職市場を実データで解説。SE平均年齢37.1歳・30代平均年収約499万円・40代約618万円などの公表値をもとに、30代最後の局面でのポジショニング、40代を見据えた軸づくり、狙うべき求人、年収の考え方、おすすめエージェント、FAQまで網羅します。",

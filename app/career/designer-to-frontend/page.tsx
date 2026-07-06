@@ -9,7 +9,7 @@ const DESC =
   "Webデザイナーからフロントエンドエンジニアへキャリアチェンジする進め方を、スキルギャップ比較表・学習ステップ・職務経歴書のBefore/After例文付きで解説。30代40代の現実も正直に紹介します。";
 const URL = "/career/designer-to-frontend/";
 
-export const metadata: Metadata = { title: TITLE, description: DESC };
+export const metadata: Metadata = { alternates: { canonical: "/career/designer-to-frontend/" }, title: TITLE, description: DESC };
 
 const toc = [
   { id: "conclusion", label: "結論：現実性と正直な難度" },

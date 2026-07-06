@@ -9,6 +9,7 @@ const PAGE_DESC =
   "情報処理安全確保支援士（登録セキスペ）は30代・40代の転職で有利か。IPAの合格率、経産省データの年収、登録維持費まで正直に解説。『実務×国家資格』でセキュリティ人材としての信頼性を高める活かし方をまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/security-specialist/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

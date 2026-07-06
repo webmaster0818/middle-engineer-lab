@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/42/" },
   title: "42歳エンジニアの転職｜40代前半で経験を武器にする現実的戦略【2026年6月】",
   description:
     "42歳エンジニアの転職市場を実データで解説。レバテック公表の40代平均年収約618万円・1,000万円以上12.67%・SE平均年齢37.1歳などの公表値をもとに、40代前半でマネジメント・専門性・ドメインを武器にする戦い方、狙うべき求人、年収の考え方、おすすめエージェント、FAQまで網羅します。",

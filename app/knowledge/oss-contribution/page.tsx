@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/oss-contribution/" },
   title: "OSS貢献の始め方｜プルリクだけじゃない8種の貢献と進め方",
   description:
     "30-40代エンジニア向けに、OSS貢献が転職で効く理由と『プルリクだけじゃない』8種の貢献方法を深掘り。good first issueの探し方、マージされやすいPRの条件、業務コードを出せない人の証明づくりまで解説します。",

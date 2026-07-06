@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/panasonic/" },
   title: "パナソニックの年収は平均956万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "パナソニックのエンジニア転職を実データで解説。有報の平均年収956万円(2025年3月期・HD)、持株会社制とコネクト社のDX、Blue Yonder、選考フロー、口コミ傾向、30代40代視点まで網羅。",

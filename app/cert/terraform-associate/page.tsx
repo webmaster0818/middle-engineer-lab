@@ -9,6 +9,7 @@ const PAGE_DESC =
   "HashiCorp Certified: Terraform Associateを、Infrastructure as Code（IaC）の実務を補強する加点資格という観点から30代・40代向けに解説。受験料70.50 USD、選択式・1時間、2年の有効期限、実務とセットで効く理由を限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/terraform-associate/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

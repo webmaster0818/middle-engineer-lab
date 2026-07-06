@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/45/" },
   title: "45歳エンジニアの転職｜「45歳の壁」を統計で検証する現実",
   description:
     "「45歳の壁」「転職は45歳まで」は本当か。45歳以上ITエンジニアの転職決定者数が直近5年で約10倍というリクルートの実績や、賃金が下がらない割合などの公的・実績データで検証。年齢制限の法律と45歳の現実的な戦略を解説します。",

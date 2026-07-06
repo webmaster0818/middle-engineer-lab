@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/kobe/" },
   title: "神戸・兵庫のITエンジニア転職事情【2026年】特徴と進め方",
   description:
     "神戸・兵庫のIT・Webエンジニア転職市場を解説。三宮や製造業の集積、働き方の選択肢、年代別年収の考え方、対応エージェント、大阪通勤、30代・40代の進め方まで網羅します。",

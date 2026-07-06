@@ -9,6 +9,7 @@ const PAGE_DESC =
   "生成AIエンジニアの転職を2026年最新データで解説。AI/MLエンジニアとの違い（モデルを作る職 vs LLMを活用・組込む職）、必須3領域（LLM開発・MLOps・AIエージェント設計）、RAG設計の需要、年収相場、未経験ロードマップを30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/generative-ai/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

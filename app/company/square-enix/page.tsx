@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/square-enix/" },
   title: "スクウェア・エニックス エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
     "スクウェア・エニックスへのエンジニア転職を実データで解説。有価証券報告書の数字（持株会社9684は提出会社27名平均1,427万円）の落とし穴、C++中心の内製エンジン技術スタック、選考フロー、30代40代の現実までまとめました。",

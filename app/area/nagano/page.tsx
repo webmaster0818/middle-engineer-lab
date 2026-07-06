@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/nagano/" },
   title: "長野のIT転職事情【2026年】精密・IoTとリモート移住の選択肢",
   description:
     "長野県のITエンジニア転職を30代・40代向けに解説。精密機器・組込み・IoTの産業集積、軽井沢などのリモート移住、首都圏フルリモート併用、UIターン移住支援、年収の現実を公開情報をもとに正直に整理します。",

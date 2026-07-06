@@ -9,6 +9,7 @@ const DESCRIPTION =
   "転職時のiDeCo・企業型DC（確定拠出年金）の移換手続きを、6か月放置による自動移換のリスク、企業型DCからiDeCoへの移換、転職先に制度がある場合の対応まで解説。30代・40代が老後資産を守るための実務ガイドです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/ideco/" },
   title: TITLE,
   description: DESCRIPTION,
 };

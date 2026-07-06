@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/future/" },
   title: "フューチャー（Future） エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
     "フューチャー（Future）へのエンジニア転職を実データで解説。有価証券報告書の平均年収（2024年12月期）、IT戦略コンサルから実装まで一気通貫の特徴、技術スタック、選考フロー、30代40代の現実までまとめました。",

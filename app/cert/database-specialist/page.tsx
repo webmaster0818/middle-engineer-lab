@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IPAの高度試験・データベーススペシャリスト試験（DB）を、データ基盤実務者の専門性証明という観点から30代・40代向けに解説。合格率、午前Ⅰ免除、設計・データ基盤職での評価、年収の考え方まで限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/database-specialist/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

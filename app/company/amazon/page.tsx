@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/amazon/" },
   title: "Amazon／AWS Japanの転職難易度と年収【2026年】OLP面接対策・エンジニア転職ガイド",
   description:
     "アマゾンジャパン／AWSジャパンへのエンジニア転職を、公式採用情報とlevels.fyi・OpenWork集計値で解説。Our Leadership Principles面接、Bar Raiser、年収レンジ、30代40代の現実までまとめました。",

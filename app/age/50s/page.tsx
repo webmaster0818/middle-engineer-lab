@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/50s/" },
   title: "50代エンジニアの転職｜需給ギャップと役職別年収の分散を読む",
   description:
     "50代エンジニアの転職を、doda年代別平均年収やJAC登録者の役職別年収、経産省のIT人材需給ギャップ試算で読み解く。50代は「下がりやすい」のか、それとも役職・企業で分散が大きいのか。50代固有の戦い方を解説します。",

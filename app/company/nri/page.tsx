@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/nri/" },
   title: "野村総合研究所(NRI)エンジニア転職ガイド【2026年】年収・選考",
   description:
     "野村総合研究所(NRI)へのエンジニア転職を解説。有報の平均年収(2025年3月期)、コンサル×ITの採用特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の狙い目を出典付きでまとめました。",

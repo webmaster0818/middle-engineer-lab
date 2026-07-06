@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/about/" },
   title: "運営者情報・サイトについて",
   description:
     "ミドルエンジニア転職ラボの運営者情報、サイトの使命、編集チーム紹介、データソース、更新頻度について説明しています。",

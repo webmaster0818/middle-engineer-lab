@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/ntt/" },
   title: "NTT（日本電信電話）の年収は平均1069万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "NTT（持株会社・日本電信電話）へのエンジニア転職を実データで解説。有価証券報告書の持株単体平均年収1,069万円（2025年3月期）、IOWN・AI・クラウド等のR&D職種、選考フロー、30代40代の現実までまとめました。事業会社（ドコモ/データ等）とは別の点も明記。",

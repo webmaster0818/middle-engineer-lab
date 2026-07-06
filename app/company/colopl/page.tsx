@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/colopl/" },
   title: "コロプラの年収は平均681万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "コロプラへのエンジニア転職を実データで解説。有価証券報告書の平均年収681万円（2025年9月期・単体）、Unity/C#/PHP/Go等の技術スタック、技術テスト、選考フロー、30代40代の現実までまとめました。",

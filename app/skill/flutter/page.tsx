@@ -9,6 +9,7 @@ const DESCRIPTION =
   "Flutterエンジニアの転職市場を公表データで解説。フリーランスボード調査の案件年収、求人の探し方、ネイティブ未経験からの参入ルート、30代・40代の視点、おすすめエージェントをまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/flutter/" },
   title: TITLE,
   description: DESCRIPTION,
 };

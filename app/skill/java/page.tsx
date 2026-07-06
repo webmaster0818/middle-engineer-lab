@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/java/" },
   title: "Javaエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
     "Javaエンジニアの転職市場を出典付きで解説。求人数で上位を占めるJavaの市場価値、SIerから自社開発への移行、Spring Boot・クラウドでの差別化、30代・40代の戦い方をミドル向けに整理します。",

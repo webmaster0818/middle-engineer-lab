@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/kakehashi/" },
   title: "カケハシの年収・給与とエンジニア転職【2026年】技術・選考",
   description:
     "カケハシ（薬局DX・非上場）のエンジニア中途採用を公式採用・技術発信の一次情報で解説。TypeScript一貫のサーバーレス技術スタック、公式の選考フロー、年収の考え方、30代40代の転職可否を中立にまとめました。",

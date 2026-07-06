@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/portfolio/" },
   title: "30-40代エンジニアのポートフォリオの見せ方【GitHub・登壇】",
   description:
     "実務経験のある30代・40代エンジニア向けに、GitHub・技術ブログ・登壇・OSSの見せ方を解説。即席アプリより実務の裏づけを示す構成、プロフィールREADMEの作り方、NG例まで実用テンプレで紹介します。",

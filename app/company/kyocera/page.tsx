@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/kyocera/" },
   title: "京セラの転職難易度と年収は？平均693万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "京セラへのエンジニア転職を実データで解説。有価証券報告書の平均年収693万円（2025年3月期・全従業員平均）、電子部品・半導体部品・通信機器・組込の技術領域、選考の考え方、30代40代の現実までまとめました。",

@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/growth/" },
   title: "技術力を伸ばせる企業の選び方【成長環境の見極めポイント】",
   description:
     "エンジニアとして技術力を伸ばせる企業の選び方を解説。技術投資の指標、エンジニア文化の見極め方、成長環境のチェックリストを紹介します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/work-life-balance/" },
   title: "ワークライフバランス重視のIT転職｜見極め方と残業実態の調べ方",
   description:
     "ワークライフバランス重視のIT転職を解説。WLBが良い企業の見極め方、面接での質問例、口コミサイトを使った残業実態の調べ方を30代・40代エンジニア向けに紹介します。",

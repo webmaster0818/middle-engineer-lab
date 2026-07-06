@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニア転職で経歴のブランク（空白期間）をどう説明するか、理由別の伝え方・職務経歴書での書き方・面接での回答の型を実践的に解説。30代・40代が空白を不利にしないための準備をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/career-gap/" },
   title: TITLE,
   description: DESCRIPTION,
 };

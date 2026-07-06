@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/niigata/" },
   title: "新潟のIT転職事情【2026年】リモート活用とUIターン移住",
   description:
     "新潟県のITエンジニア転職を30代・40代向けに解説。新潟市のソフトウェア産業など地場IT集積の特徴、首都圏フルリモートという現実的な選択肢、新潟県・新潟市の移住支援金、年収の考え方、対応エージェントを公開情報をもとに整理します。",

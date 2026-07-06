@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/preferred-networks/" },
   title: "Preferred Networks（PFN）エンジニア転職ガイド【2026年版】研究・技術・年収の実態",
   description:
     "Preferred Networks（PFN）へのエンジニア転職を公式一次情報で解説。非上場のため平均年収は公式非開示である点を明記し、深層学習・AI半導体MN-Core・基盤モデルPLaMoの研究領域、Python/C++中心の技術、職種、30代40代の視点までまとめました。",

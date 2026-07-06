@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニアの副業（受託開発・技術ブログ・登壇など）の確定申告を、20万円ルールの正しい意味、所得区分、経費、住民税の申告まで国税庁の情報に基づいて解説。会社にバレにくくする方法の誤解も整理した、30代・40代向けの実務ガイドです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/side-job-tax/" },
   title: TITLE,
   description: DESCRIPTION,
 };

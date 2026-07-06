@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Azure（Microsoft Azure）エンジニアの転職を2026年最新データで解説。AWS以外を選ぶ理由（エンタープライズ・M365統合）、MS認定（AZ-900→AZ-104→AZ-305）、採用が活発な業界、C#/.NET親和性、SES脱出ルートを30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/azure/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

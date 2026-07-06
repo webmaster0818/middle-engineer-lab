@@ -9,6 +9,7 @@ const PAGE_DESC =
   "AWSエンジニアの転職市場を2026年最新の公表データで解説。レバテック公表の平均年収、AWS認定資格の活かし方、求人の探し方、経験浅めからの参入ルートを30代・40代エンジニア向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/aws/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

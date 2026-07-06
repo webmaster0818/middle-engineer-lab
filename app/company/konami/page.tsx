@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/konami/" },
   title: "コナミ エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
     "コナミ（コナミグループ／コナミデジタルエンタテインメント）へのエンジニア転職を実データで解説。有価証券報告書の数字（持株会社9766は提出会社250名平均789万円）の注意点、C/C++/C#の技術スタック、選考フロー、30代40代の現実までまとめました。",

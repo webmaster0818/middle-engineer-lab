@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/stable/" },
   title: "安定重視のエンジニア転職【大企業・公共系・社内SE】",
   description:
     "安定を重視するエンジニア向けの転職先を解説。大企業、公共系、社内SE、金融系の特徴、年収、福利厚生を比較します。",

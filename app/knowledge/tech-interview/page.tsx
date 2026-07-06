@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニア転職の技術面接でよく問われるテーマ領域、回答の組み立て方、逆質問例を徹底解説。30代・40代が経験を強みに変える面接対策をテンプレ付きで紹介します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/tech-interview/" },
   title: TITLE,
   description: DESCRIPTION,
 };

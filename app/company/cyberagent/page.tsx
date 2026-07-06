@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/cyberagent/" },
   title: "サイバーエージェントの転職難易度と年収・技術【2026年】エンジニア転職・選考ガイド",
   description:
     "サイバーエージェントへのエンジニア転職を実データで解説。有価証券報告書の平均年収913.8万円（2025年9月期・全社員平均）、ABEMA等の技術スタック、選考フロー、30代40代の現実までまとめました。",

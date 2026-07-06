@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニア転職の年収交渉を、ベストなタイミング・伝え方の例文・エージェント経由の交渉・NG行動まで実践的に解説。30代・40代が市場相場と実績を根拠に損せず交渉するための手順をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/salary-negotiation/" },
   title: TITLE,
   description: DESCRIPTION,
 };

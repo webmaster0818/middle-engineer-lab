@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/doda-x-vs-recruit-direct-scout/" },
   title: "dodaXとリクルートダイレクトスカウト比較【2026年6月】",
   description:
     "dodaXとリクルートダイレクトスカウトを応募形態・得意領域・年収帯で比較。自分でも応募したいか完全に待ちたいか、IT特化でないハイクラススカウト型の使い分けと、dodaブランドの混同回避を30代40代視点で解説します。",

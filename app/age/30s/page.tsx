@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/30s/" },
   title: "30代エンジニア転職の完全ガイド｜年収相場と進め方【2026年6月】",
   description:
     "30代エンジニアの転職は今がチャンス。レバテック公表の30代平均年収約499万円や経産省のIT人材不足試算など実データで市場を解説し、前半・後半別の戦略、おすすめエージェント、進め方、FAQまで網羅します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/pg-to-se/" },
   title: "プログラマー（PG）→システムエンジニア（SE）転職ガイド【2026年版】",
   description:
     "プログラマー（PG）からシステムエンジニア（SE）へ上流工程に進むための現実性、スキルギャップ比較、在職中の準備ステップ、職務経歴書のBefore/After例文を公的データに基づき解説します。",

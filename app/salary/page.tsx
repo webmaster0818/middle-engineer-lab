@@ -9,6 +9,7 @@ const DESCRIPTION =
   "ITエンジニアが年収を上げるための「金額→必要スキルレベル・役職・職種」の対応地図を、経産省ITSSレベル別平均年収やdoda発表値など出典付きで整理。経験年数別ロードマップと600万・800万・1000万への到達条件を解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/" },
   title: TITLE,
   description: DESCRIPTION,
 };

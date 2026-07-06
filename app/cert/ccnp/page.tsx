@@ -9,6 +9,7 @@ const PAGE_DESC =
   "CiscoのプロフェッショナルレベルCCNP（Cisco Certified Network Professional）を、ネットワーク経験者の加点資格という観点から30代・40代向けに解説。受験料、コア＋コンセントレーション試験の構成、3年の有効期限、実務とセットで効く理由を限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/ccnp/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

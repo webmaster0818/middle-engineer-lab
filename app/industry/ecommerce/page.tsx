@@ -9,6 +9,7 @@ const DESC =
   "ECプラットフォーム・ネットショップ・モールを扱うeコマース業界へエンジニア転職する方法を解説。活かせるスキルと埋めるギャップ、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/ecommerce/" },
   title: TITLE,
   description: DESC,
 };

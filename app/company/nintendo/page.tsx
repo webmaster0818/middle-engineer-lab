@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/nintendo/" },
   title: "任天堂の年収は平均966万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "任天堂のエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説。平均年収966万円(2025年3月期)、選考フロー、技術スタック、30代40代の現実を中立にまとめました。",

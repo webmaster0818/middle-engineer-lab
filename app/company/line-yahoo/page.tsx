@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/line-yahoo/" },
   title: "LINEヤフーの年収は平均884万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "LINEヤフーのエンジニア中途採用を有価証券報告書・公式採用情報・口コミ出典付きで解説。平均年収884万円(2025年3月期)、選考フロー、出社方針、30代40代の狙い目までまとめました。",

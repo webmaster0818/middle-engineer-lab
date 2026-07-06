@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/inexperienced/" },
   title: "エンジニア未経験向け転職エージェント比較【2026年6月】",
   description:
     "未経験からITエンジニアを目指す人向けに、ワークポート・dodaなど未経験歓迎求人に強い転職エージェントを比較。経験者特化型で断られるケースや30代・40代の現実も正直に解説します。",

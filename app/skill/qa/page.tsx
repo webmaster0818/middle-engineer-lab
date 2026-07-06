@@ -9,6 +9,7 @@ const PAGE_DESC =
   "QAエンジニアの転職市場を2026年最新の公表データで解説。テストエンジニアとの違い、経験段階別の年収目安、JSTQB等の資格、テスト自動化が年収を分ける理由、開発職への転向ルートを30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/qa/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/travel/" },
   title: "旅行業界からトラベルテック転職【30代40代ガイド】",
   description:
     "旅行業界のエンジニアがトラベルテック（TravelTech）領域へ転職する道筋を解説。予約・在庫・価格の業務知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。",

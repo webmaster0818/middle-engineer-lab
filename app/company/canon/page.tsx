@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/canon/" },
   title: "キヤノン エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
     "キヤノンへのエンジニア転職を実データで解説。有価証券報告書の平均年収865.7万円（2024年12月期・全社員平均）、組込み・画像処理・AI・ディープラーニングの募集職種、選考フロー、30代40代の現実までまとめました。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/" },
   title: "キャリアパス別エンジニア転職ガイド一覧【27ルート】",
   description:
     "エンジニアのキャリアチェンジ・キャリアアップ・職種特化の27パターンを難易度と年収変化つきで分類。30代40代がキャリアパスを選ぶ考え方と、各ルートの実現性を解説します。",

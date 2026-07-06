@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/github-showcase/" },
   title: "GitHubの見せ方｜採用担当が見る7ポイントと運用テク",
   description:
     "30-40代エンジニア向けに、転職でGitHubを単体でどう運用・整備するかを深掘り。採用担当が見る7ポイント、READMEチェックリスト、業務コードを出せない時の代替策、NG例まで実例で解説します。",

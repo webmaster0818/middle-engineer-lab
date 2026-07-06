@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/layerx/" },
   title: "LayerX エンジニア転職ガイド｜年収・技術スタック・選考【2026】",
   description:
     "LayerXのエンジニア中途採用を、公式採用ページ・技術ブログ・口コミの一次情報から解説。バクラク／AI事業の技術スタック、トライアル入社、年収レンジ、30代40代の転職可否までまとめました。",

@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニアに多いインポスター症候群の正体と、実力を客観的に見える化する方法を解説。面接での自己評価の歪みを正すワークシートや言い換え例を、30代・40代向けに紹介します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/imposter-syndrome/" },
   title: TITLE,
   description: DESCRIPTION,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/casual-dress/" },
   title: "服装自由のエンジニア求人の読み解き方【2026年版】",
   description:
     "「服装自由」を企業カルチャーの代理指標として読み解くガイド。私服OKと私服でお越しの違い、自社開発とSES客先常駐の差、30-40代が見るべき社風シグナルまで解説。",

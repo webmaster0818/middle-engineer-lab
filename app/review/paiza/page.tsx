@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/paiza/" },
   title: "paiza転職の評判は？スキルチェックの仕組みを徹底解説",
   description:
     "paiza転職の評判をスキルチェック(コーディングテスト)のランク制度を軸に解説。書類選考免除の仕組み、良い評判・悪い評判の傾向、30代・40代エンジニアの使い方まで2026年6月時点で検証します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/django/" },
   title: "Djangoエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
     "Django（Python）エンジニアの転職市場を出典付きで解説。Web開発・データ／AI連携でのDjango需要、求人ボックスやレバテックの公表年収、他フレームワークからの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",

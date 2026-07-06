@@ -9,6 +9,7 @@ const PAGE_DESC =
   "ITエンジニアの職種別の平均年収を、doda平均年収ランキング2025と求人ボックス給料ナビ（2026年6月時点）の公表値だけで比較。プロジェクトマネージャー・データサイエンティスト・インフラ・フロントエンド・SE/PGなど、職種で年収がどう変わるかが出典付きでわかる年収データベースです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/job-type-salary/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

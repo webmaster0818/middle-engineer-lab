@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/employment/gyomu-itaku/" },
   title: "業務委託エンジニアとは｜準委任・請負の違い・契約・税のポイント",
   description:
     "業務委託エンジニアの正確な定義（準委任・請負）、契約形態ごとの違い、社会保険・税の仕組み、フリーランスとの違い、偽装請負・2024年フリーランス新法/労災特別加入の注意点まで出典付きで解説。30代40代の選び方も整理します。",

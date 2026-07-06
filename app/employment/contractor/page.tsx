@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/employment/contractor/" },
   title: "業務委託エンジニアの実態｜単価相場・手取り・メリットデメリット",
   description:
     "業務委託（フリーランス）エンジニアの単価相場、社会保険・税を差し引いた手取りの考え方、エンジニア側・企業側の二軸メリットデメリットを解説。2024年11月の労災特別加入によるデメリット緩和まで実データで整理します。",

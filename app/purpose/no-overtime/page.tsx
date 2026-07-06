@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/no-overtime/" },
   title: "残業少なめIT企業の見極め方【月20時間以下の企業を見つける】",
   description:
     "残業が少ないIT企業の見極め方を解説。口コミの読み方、面接での確認方法、残業が少ない企業の特徴、おすすめ企業タイプを紹介します。",

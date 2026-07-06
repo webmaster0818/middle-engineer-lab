@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Oracle認定JavaプログラマSilver（OCJP Silver SE）を、30代・40代向けに解説。受験料・試験形式・有効期限なし、Java実務の体系的理解の証明としての価値、年収の考え方を公式情報をもとに限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/oracle-java-silver/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

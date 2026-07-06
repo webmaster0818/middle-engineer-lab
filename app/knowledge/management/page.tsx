@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/management/" },
   title: "EM・PMへのマネジメント転身ガイド【職務経歴書例付き】",
   description:
     "エンジニアからEM・PMへ転身する方法を解説。EM/PMの違い、必要スキル、ICからの移行ステップ、職務経歴書での見せ方をBefore/After例付きで30代・40代向けに整理。",

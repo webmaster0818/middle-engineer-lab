@@ -9,6 +9,7 @@ const PAGE_DESC =
   "IT・テック企業43社の有価証券報告書の平均年収を、半導体・電子部品／総合電機・精密／通信／自動車／ゲーム・エンタメ／Web・ネット・SaaSの業界別に分類して比較。どの業界が稼げるか、業界ごとの代表企業と平均年収を出典付き（有報）で一覧化したエンジニア向けの年収データベースです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/industry-salary/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/denso/" },
   title: "デンソーの転職難易度と年収は？平均863万円【2026年・有報】車載・SDV開発への転職",
   description:
     "デンソーのソフトウェアエンジニア中途採用を有価証券報告書・公式採用情報の一次情報で解説。平均年収863万円(2025年3月期・全従業員平均)、車載ソフト・SDV・ADASの開発、30代40代の現実を中立にまとめました。",

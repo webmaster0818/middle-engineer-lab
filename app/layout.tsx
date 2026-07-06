@@ -1,3 +1,4 @@
+import Analytics from "@/components/Analytics";
 import type { Metadata } from "next";
 import { Zen_Kaku_Gothic_New, Fraunces } from "next/font/google";
 import "./globals.css";
@@ -61,11 +62,24 @@ export default function RootLayout({
             }),
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: SITE_NAME,
+              url: "https://middle-engineer.com",
+              publisher: { "@type": "Organization", name: SITE_NAME, url: "https://middle-engineer.com" },
+            }),
+          }}
+        />
       </head>
       <body className="min-h-full flex flex-col bg-paper text-ink">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
@@ -171,6 +185,7 @@ function Footer() {
               <li><a href="/company/" className="hover:text-petrol transition-colors">企業別ガイド</a></li>
               <li><a href="/career/" className="hover:text-petrol transition-colors">キャリアパス</a></li>
               <li><a href="/knowledge/" className="hover:text-petrol transition-colors">転職ノウハウ</a></li>
+              <li><a href="/industry/" className="hover:text-petrol transition-colors">業界別ガイド</a></li>
               <li><a href="/salary/" className="hover:text-petrol transition-colors">年収帯別ガイド</a></li>
               <li><a href="/cert/" className="hover:text-petrol transition-colors">資格別ガイド</a></li>
               <li><a href="/area/" className="hover:text-petrol transition-colors">エリア別ガイド</a></li>

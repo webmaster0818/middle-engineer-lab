@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/retail/" },
   title: "小売・流通からECテック転職【30代40代DXガイド】",
   description:
     "小売・流通業界エンジニアからECテック・リテールテック・OMO領域への転職方法を解説。活かせるスキルと埋めるギャップ、年収の考え方、進め方を30代40代視点で紹介。",

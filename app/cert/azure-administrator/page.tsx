@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Microsoft Azure Administrator Associate（AZ-104）を、経験者の加点資格という観点から30代・40代向けに解説。受験料・試験形式・合格スコア・更新要件・出題範囲を公式情報で整理し、Azure運用実務とセットで効く理由と限界をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/azure-administrator/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

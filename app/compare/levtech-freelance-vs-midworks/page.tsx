@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/levtech-freelance-vs-midworks/" },
   title: "レバテックフリーランスとMidworksの比較｜単価か保障か【2026年6月】",
   description:
     "レバテックフリーランスとMidworksをマージン・単価・案件量・報酬保障で徹底比較。単価最大化か正社員並みの保障かで選ぶ判断軸、「やばい」と検索される理由、口コミ傾向まで30代40代エンジニア向けに解説します。",

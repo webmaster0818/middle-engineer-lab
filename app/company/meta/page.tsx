@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/meta/" },
   title: "Meta Japan エンジニア転職ガイド｜年収・選考・開発文化【2026年版】",
   description:
     "Meta（旧Facebook）Japanのエンジニア中途採用を公式採用情報・levels.fyi等の出典付きで解説。総報酬の考え方、コーディング面接、英語要件、30代40代の戦い方までまとめました。",

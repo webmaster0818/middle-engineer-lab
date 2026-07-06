@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/sier-agents/" },
   title: "SIer転職エージェントおすすめ｜転職と脱出で選び方が違う【2026年6月】",
   description:
     "SIerへの転職とSIerからの脱出は、選ぶエージェントが異なります。SIerの4分類、35歳・客先常駐脱出の現実、SES脱却に強いサービスまで、2つの意図を切り分けて30代40代エンジニア向けにエージェント選びを整理します。",

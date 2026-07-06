@@ -9,6 +9,7 @@ const DESCRIPTION =
   "ボーナス（賞与）を取り逃さない転職タイミングを、支給日と退職日の関係・逆算スケジュール・損得の考え方まで実践的に解説。30代・40代が賞与を踏まえて損なく転職するための判断軸をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/bonus-timing/" },
   title: TITLE,
   description: DESCRIPTION,
 };
@@ -119,7 +120,8 @@ export default function BonusTimingPage() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "転職ナレッジ", href: "/knowledge/" },
+          { name: "転職は何月がベスト？求人が増える時期", href: "/knowledge/best-timing/" },
+            { name: "転職ナレッジ", href: "/knowledge/" },
           { name: "ボーナス時期と転職タイミング" },
         ]}
       />

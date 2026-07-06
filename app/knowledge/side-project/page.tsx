@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/side-project/" },
   title: "副業しながら転職活動｜就業規則の確認・実績の活かし方・時間管理",
   description:
     "副業しながら転職活動するエンジニア向けガイド。就業規則の確認方法、副業実績を職務経歴書・面接でアピールする方法、両立のための時間管理を30代・40代向けに解説します。",

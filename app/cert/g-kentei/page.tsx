@@ -9,6 +9,7 @@ const PAGE_DESC =
   "JDLAのG検定（ジェネラリスト検定）を、AI・ディープラーニングのビジネス活用力を示す加点資格という観点から30代・40代向けに解説。受験料13,200円、合格率（JDLA公表値）、E資格との違い、実務とセットで効く理由を限界も含めて整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/g-kentei/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/shizuoka/" },
   title: "静岡のIT転職事情【2026年】リモート活用と東京通勤圏の両立",
   description:
     "静岡市・静岡県中部のITエンジニア転職を30代・40代向けに解説。模型・ものづくりなど地場産業の特徴、新幹線による東京通勤圏×首都圏フルリモートという選択肢、静岡県の移住支援金、年収の考え方、対応エージェントを公開情報をもとに整理します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/mens-childcare/" },
   title: "男性育休が取りやすい企業へ転職【取得率の見極め方2026】",
   description:
     "男性の育児休業の法定ルール（産後パパ育休・育休制度）と、求人での取りやすさの見極め方を公的情報ベースで解説。取得率の確認方法、該当しやすい企業タイプまで。",

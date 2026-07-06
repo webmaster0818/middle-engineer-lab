@@ -9,6 +9,7 @@ const DESCRIPTION =
   "年収500万円のITエンジニアに必要なスキルレベル・役職・職種・求人傾向を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理。ITSS L3を中心とした一人前〜中堅層という位置づけと、Web系開発・社内SE・インフラに広がる求人傾向、30〜40代の狙い方を解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/500man/" },
   title: TITLE,
   description: DESCRIPTION,
 };

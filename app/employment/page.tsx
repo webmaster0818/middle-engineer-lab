@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/employment/" },
   title: "エンジニアの雇用形態の違い｜正社員・契約社員・派遣・業務委託を比較",
   description:
     "エンジニアの正社員・契約社員・派遣・業務委託の違いを、契約の性質・社会保険・税・労災・契約期間まで制度横断で正確に比較。SES・請負・派遣の混同を解き、向き不向きと『手取りが多い形態』の落とし穴も解説します。",

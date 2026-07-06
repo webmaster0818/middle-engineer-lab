@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/tokyo/" },
   title: "東京のIT転職事情【2026年】エリア特徴・年収・エージェント",
   description:
     "東京のITエンジニア転職を30代・40代向けに解説。渋谷・六本木・品川・大手町など主要エリアのIT企業集積、リモート併用の働き方、年代別年収の考え方、対応エージェントの選び方をまとめました。",

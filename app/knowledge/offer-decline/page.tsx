@@ -9,6 +9,7 @@ const DESCRIPTION =
   "内定辞退はメール・電話どちらで伝えるべきか、いつまでに連絡するか、承諾後でも辞退できるのかを解説。そのまま使える辞退メールの例文と電話のトークスクリプト付き。30代・40代エンジニアが角を立てずに辞退するための実務をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/offer-decline/" },
   title: TITLE,
   description: DESCRIPTION,
 };

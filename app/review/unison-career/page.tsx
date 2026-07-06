@@ -11,6 +11,7 @@ const URL = "/review/unison-career/";
 const OFFICIAL_URL = "https://unison-career.jp/";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/unison-career/" },
   title: TITLE,
   description: DESCRIPTION,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/dts/" },
   title: "DTSの年収は平均658万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "株式会社DTS（9682）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年間給与658万円(2026年3月期 有報・全社員平均)、Java/Python中心の独立系トータルSIerの技術領域、選考フロー、30代40代の戦い方まで。",

@@ -9,6 +9,7 @@ const DESCRIPTION =
   "年収800万円のITエンジニアに必要なスキルレベル・役職・職種・求人傾向を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理。ITSS L4〜L5の高度専門・指導者層という位置づけと、PM・ITコンサル・クラウド・セキュリティに集中する求人傾向を解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/salary/800man/" },
   title: TITLE,
   description: DESCRIPTION,
 };

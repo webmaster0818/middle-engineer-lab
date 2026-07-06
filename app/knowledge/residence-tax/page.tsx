@@ -9,6 +9,7 @@ const DESCRIPTION =
   "住民税は前年所得に課税される後払いの税金。転職・退職の時期によって特別徴収・普通徴収・一括徴収のどれになるかが変わり、退職後にまとめて請求されることがあります。30代・40代が想定外の出費を避けるための実務ガイドです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/residence-tax/" },
   title: TITLE,
   description: DESCRIPTION,
 };

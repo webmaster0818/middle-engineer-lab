@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/toyama/" },
   title: "富山のIT転職事情【2026年】ものづくりとリモート移住の現実",
   description:
     "富山県のITエンジニア転職を30代・40代向けに解説。ものづくり県としての産業集積、製造業のIT・DX需要、首都圏フルリモート併用、UIターン移住支援（出典付き）、年収の現実を公開情報をもとに正直に整理します。",

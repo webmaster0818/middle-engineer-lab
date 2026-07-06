@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/moneyforward/" },
   title: "マネーフォワードの年収は平均723万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "マネーフォワード（3994）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収723万円(2025年11月期)、Ruby/Go/Kotlinの技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",

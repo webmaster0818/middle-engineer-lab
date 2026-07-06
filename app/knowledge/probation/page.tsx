@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/probation/" },
   title: "試用期間とは【制度の仕組み・注意点・期間中の転職】",
   description:
     "試用期間の一般的な制度の仕組み、期間中の解雇・退職の考え方、注意点を解説。30代・40代エンジニアが試用期間中に転職を検討する際のポイントも紹介します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/40s-reality/" },
   title: "40代エンジニア転職のリアル【現実と対策を深掘り】",
   description:
     "40代エンジニア転職の現実を年収・市場データで定量的に解説。30代との違い、書類が通らない原因、年収を落とさない交渉、応募から内定までの動き方を実践的にまとめました。",

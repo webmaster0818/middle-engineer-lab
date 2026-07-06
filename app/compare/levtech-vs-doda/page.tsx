@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/levtech-vs-doda/" },
   title: "レバテックキャリアとdoda比較｜どっちがおすすめ【2026年6月】",
   description:
     "レバテックキャリアとdoda（ITエンジニア）をどっちがおすすめか即答。IT特化型vs総合型の求人数・年収アップ・サポート・スピード・対象層を時点付き実データで徹底比較し、30代40代の選び方を解説します。",

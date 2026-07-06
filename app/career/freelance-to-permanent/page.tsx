@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/freelance-to-permanent/" },
   title: "フリーランス→正社員に戻る転職ガイド｜実務と年収換算",
   description:
     "フリーランスエンジニアが正社員へ戻る際の実務に特化。スキルギャップ、在職案件中の準備ステップ、職務経歴書の書き方、単価から年収への実質換算の考え方を解説します。",

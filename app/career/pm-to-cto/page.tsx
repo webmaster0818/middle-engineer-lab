@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/pm-to-cto/" },
   title: "PM→CTO/VPoEへのキャリアパス｜必要スキルと移行ステップ",
   description:
     "プロジェクトマネージャーからCTO・VPoEへ移行するためのスキルギャップ、在職中にできる準備、職務経歴書の書き方、年収の考え方を30代・40代視点で解説します。",

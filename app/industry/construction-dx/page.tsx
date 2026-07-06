@@ -9,6 +9,7 @@ const DESC =
   "建設DX業界（施工管理SaaS・BIM/CIM・建設テック・スマートコンストラクション）へエンジニア転職する現実的な方法を解説。求められる技術とスキル、参入ルート、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/construction-dx/" },
   title: TITLE,
   description: DESC,
 };

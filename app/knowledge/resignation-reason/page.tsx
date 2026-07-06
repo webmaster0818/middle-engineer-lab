@@ -9,6 +9,7 @@ const DESCRIPTION =
   "退職理由を面接と現職それぞれにどう伝えるかを、本音と建前の整理・前向きな言い換え・そのまま使える例文で解説。30代・40代エンジニアが円満退職と転職成功を両立させるための伝え方をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/resignation-reason/" },
   title: TITLE,
   description: DESCRIPTION,
 };

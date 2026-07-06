@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/advertising/" },
   title: "広告業界からアドテック転職【30代40代エンジニアガイド】",
   description:
     "広告業界のエンジニアがアドテック（AdTech）領域へ転職する道筋を解説。活かせるスキル、埋めるギャップ、職種×企業タイプ、年収の考え方、進め方を30代40代視点で整理します。",

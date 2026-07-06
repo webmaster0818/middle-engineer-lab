@@ -9,6 +9,7 @@ const DESCRIPTION =
   "転職のリファレンスチェックとは何か、同意は必要か、何を聞かれるのか、推薦者は誰に頼むべきかを解説。個人情報保護法に基づく同意原則や、推薦者への依頼マナー、当日の流れまで、30代・40代エンジニアが落ち着いて対応するための実務をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/reference-check/" },
   title: TITLE,
   description: DESCRIPTION,
 };

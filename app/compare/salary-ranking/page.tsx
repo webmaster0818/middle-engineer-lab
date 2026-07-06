@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/salary-ranking/" },
   title: "転職エージェント年収アップ実績の公表値一覧と読み方【2026年】",
   description:
     "転職エージェント各社の年収アップ実績は計測時期も定義もバラバラで横並び比較はできません。本記事は公表値を取得時点付きで一覧化し、数値の読み方と30代・40代の年収アップ戦略を誠実に解説します。",

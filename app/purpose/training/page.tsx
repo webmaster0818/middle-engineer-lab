@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/training/" },
   title: "研修・学習支援が充実した企業へ転職【見極め方ガイド】",
   description:
     "研修・学習支援が充実したIT企業への転職を解説。書籍購入・資格取得・カンファレンス参加などの制度の種類、求人での見極め方、形骸化を見抜く視点、注意点を30-40代向けに整理します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/gungho/" },
   title: "ガンホーの年収は平均750万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "ガンホー（パズドラ運営）へのエンジニア転職を実データで解説。有価証券報告書の平均年収750万円（2024年12月期・単体全社員平均）、Unity/C#・サーバーサイドの技術スタック、選考フロー、30代40代の現実までまとめました。",

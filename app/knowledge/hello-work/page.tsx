@@ -9,6 +9,7 @@ const PAGE_DESC =
   "30代・40代エンジニア向けに、ハローワークをIT転職でどう使うかを解説。IT求人の質と量の傾向、職業訓練（ハロートレーニング）、失業給付の流れ、IT特化サービスとの併用が現実的な理由を、公的制度の出典付きで整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/hello-work/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

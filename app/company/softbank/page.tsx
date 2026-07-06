@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/softbank/" },
   title: "ソフトバンクの年収は平均849万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "ソフトバンクのエンジニア転職を実データで解説。有報の平均年収849万円(2025年3月期)、AI・5G・法人DXの募集職種と選考フロー、口コミ傾向、30代40代視点まで網羅。",

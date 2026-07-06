@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/sendai/" },
   title: "仙台のIT転職事情【2026年】東北の拠点とリモートの選択肢",
   description:
     "仙台・東北のIT・Webエンジニア転職を解説。東北の中核都市としての特徴、ニアショア開発、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを30代・40代向けに整理します。",

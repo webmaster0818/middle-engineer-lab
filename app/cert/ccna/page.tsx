@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Cisco認定CCNAが転職で評価される場面を、未経験入口資格としての位置づけから30代・40代向けに整理。受験概要、保有者の年収相場（出典明記）、未経験ルートの現実、併取得すべき資格まで正直に解説します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cert/ccna/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

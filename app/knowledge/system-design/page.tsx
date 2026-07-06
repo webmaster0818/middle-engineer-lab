@@ -9,6 +9,7 @@ const DESCRIPTION =
   "システム設計面接の進め方フレームワーク、頻出テーマ、評価ポイントを徹底解説。30代・40代エンジニアが実務経験を武器に合格するための実践ガイドです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/system-design/" },
   title: TITLE,
   description: DESCRIPTION,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/scala/" },
   title: "Scalaエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
     "Scalaエンジニアの転職市場を出典付きで解説。求人ボックス集計で言語別年収トップ級のScalaの市場価値、関数型・データ基盤での需要、Javaからの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",

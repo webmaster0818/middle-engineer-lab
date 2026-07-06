@@ -9,6 +9,7 @@ const DESC =
   "BtoB SaaS・バーティカルSaaS企業へエンジニア転職する方法を解説。活かせるスキルと埋めるギャップ、マルチテナント設計、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industry/saas-industry/" },
   title: TITLE,
   description: DESC,
 };

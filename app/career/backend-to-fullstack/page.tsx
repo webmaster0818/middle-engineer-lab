@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/career/backend-to-fullstack/" },
   title: "バックエンド→フルスタックへの転身完全ガイド【2026年版】",
   description:
     "バックエンドエンジニアからフルスタックへ転身するための現実性、スキルギャップ比較、在職中の準備、職務経歴書のBefore/After例文を公表データに基づき解説します。",

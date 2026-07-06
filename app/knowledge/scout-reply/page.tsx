@@ -9,6 +9,7 @@ const PAGE_DESC =
   "30代・40代エンジニア向けにスカウト返信の例文を網羅。興味あり・条件確認・丁寧な辞退・他社選考中・条件交渉打診の5パターンを、好印象の型と件名・返信速度のコツとともに紹介。コピペで使える文例集です。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/scout-reply/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

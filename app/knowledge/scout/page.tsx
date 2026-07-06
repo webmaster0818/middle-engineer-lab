@@ -9,6 +9,7 @@ const PAGE_DESC =
   "スカウト型転職サービスの仕組みと活用法を解説。ビズリーチ・Green・paiza転職の違い、スカウトを増やすプロフィール、返信例文、良いスカウトの見極め方を30代・40代向けに紹介します。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/scout/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

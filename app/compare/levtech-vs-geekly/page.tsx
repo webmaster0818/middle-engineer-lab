@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/levtech-vs-geekly/" },
   title: "レバテックキャリアとGeekly比較｜どっちがおすすめ【2026年6月】",
   description:
     "レバテックキャリアとGeekly（ギークリー）をどっちがおすすめか即答。求人数・年収アップ実績・サポート・スピード・対象層を時点付き実データで徹底比較し、30代40代エンジニアの選び方を解説します。",

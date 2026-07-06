@@ -9,6 +9,7 @@ const DESCRIPTION =
   "転職への不安を整理し、行動に変えるための向き合い方を、不安の種類別の対処法・思考の整理フレーム・準備のステップまで実践的に解説。30代・40代が漠然とした不安に振り回されないための考え方をまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/anxiety/" },
   title: TITLE,
   description: DESCRIPTION,
 };

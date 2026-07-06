@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/employment/dispatch/" },
   title: "派遣エンジニアから正社員になる道｜紹介予定派遣・無期雇用派遣の比較",
   description:
     "派遣エンジニアが正社員になるための4つのルート（派遣先登用・紹介予定派遣・無期雇用派遣・転職）を解説。紹介予定派遣の直接雇用化率や派遣労働者数など厚労省の集計値をもとに、正社員化の現実的な道筋を整理します。",

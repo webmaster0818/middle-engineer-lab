@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/side-job-ok/" },
   title: "副業OKのエンジニア求人の見極め方【2026年版】",
   description:
     "副業OKのエンジニア求人を「許可制・届出制・完全自由」の3段階で解説。就業規則の落とし穴、知財・労働時間通算の注意点、30-40代の現実的な副業設計まで。",

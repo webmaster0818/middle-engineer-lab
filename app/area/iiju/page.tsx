@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/iiju/" },
   title: "地方移住×エンジニア転職【2026年】移住して働く戦略と進め方",
   description:
     "地方移住とエンジニア転職を両立する戦略を解説。移住先の選び方、転職の進め方、年収の考え方、移住支援制度の調べ方、対応エージェント、30代・40代の視点をまとめた実用ガイドです。",

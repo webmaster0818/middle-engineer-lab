@@ -76,6 +76,7 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/kotlin/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

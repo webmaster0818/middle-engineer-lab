@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/self-analysis/" },
   title: "エンジニアの自己分析【キャリア棚卸しワークシート】",
   description:
     "30代・40代エンジニア向けの自己分析ガイド。キャリアの棚卸しワークシート、Will-Can-Must・モチベーショングラフ・価値観リストなど、書き込むだけで強みと方向性が見える実践フレームワークを紹介します。",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/privacy/" },
   title: "プライバシーポリシー",
   description:
     "ミドルエンジニア転職ラボのプライバシーポリシーです。Cookie使用、Google Analytics、アフィリエイトリンクの開示、個人情報の取扱いについて説明しています。",

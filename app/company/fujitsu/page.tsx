@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/fujitsu/" },
   title: "富士通 エンジニア転職ガイド【2026年】年収・ジョブ型採用",
   description:
     "富士通へのエンジニア転職を解説。有報の平均年収(2025年3月期)、ジョブ型採用の特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の狙い目を出典付きでまとめました。",

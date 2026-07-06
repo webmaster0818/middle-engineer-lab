@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/unity/" },
   title: "Unityエンジニアの転職市場ガイド｜年収・求人の探し方",
   description:
     "Unityエンジニアの転職市場を30代・40代視点で解説。平均年収の実データ、求められる経験レベル、ゲーム・XR・非ゲーム領域のキャリアパス、求人の探し方、ポートフォリオ戦略、FAQを網羅します。",

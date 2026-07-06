@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/stock-option/" },
   title: "ストックオプションがある企業へ転職【税制と見極め方2026】",
   description:
     "ストックオプション（SO）の仕組み・税制適格と非適格の違い・RSUとの違いを公的情報ベースで解説。求人での見極め方、上場前後のリスク、30-40代の判断軸まで。",

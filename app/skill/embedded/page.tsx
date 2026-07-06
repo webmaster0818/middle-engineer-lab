@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/embedded/" },
   title: "組込みエンジニアの転職市場ガイド｜年収・求人の探し方",
   description:
     "組込みエンジニアの転職市場を30代・40代視点で解説。経産省・レバテックの年収データ、求められる経験レベル、自動車・IoT・エッジAIのキャリアパス、求人の探し方、学習戦略、FAQを網羅します。",

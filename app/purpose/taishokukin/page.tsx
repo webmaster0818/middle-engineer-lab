@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/taishokukin/" },
   title: "退職金制度がある企業へ転職【DC・退職金の見極め方2026】",
   description:
     "退職金（退職一時金）と企業型DC（確定拠出年金）の違い、退職所得控除の仕組みを公的情報ベースで解説。求人での見極め方、転職時のポータビリティ、老後資金設計まで。",

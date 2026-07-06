@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/continuous-learning/" },
   title: "30代・40代エンジニアの学び続ける技術【学習戦略】",
   description:
     "30代・40代エンジニアが学び続けるための学習戦略を解説。資格の費用対効果の考え方、忙しくても学習時間を作る方法、何を学ぶかの選び方を実践フレームで整理します。",

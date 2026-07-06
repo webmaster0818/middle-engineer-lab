@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/woman-engineer/" },
   title: "女性エンジニアの転職【30代40代・両立と企業の見極め方】",
   description:
     "女性エンジニアが30代・40代で転職を成功させる方法。ライフイベントとの両立、産育休実績・女性管理職の確認方法、面接で聞いてよいこと・例文を具体的に解説します。",

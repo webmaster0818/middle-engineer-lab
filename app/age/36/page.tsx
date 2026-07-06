@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/age/36/" },
   title: "36歳エンジニアの転職｜「35歳の壁」の先で勝つ戦い方【2026年6月】",
   description:
     "36歳エンジニアの転職市場を実データで解説。SE平均年齢37.1歳・30代平均年収約499万円などの公表値をもとに、35歳を過ぎた36歳ならではの「軸を確定して即戦力で勝負する」戦い方、狙うべき求人、年収の考え方、おすすめエージェント、FAQまで網羅します。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/fastretailing/" },
   title: "ファーストリテイリングの年収とITエンジニア転職の現実【2026年】",
   description:
     "ユニクロを擁するファーストリテイリングのエンジニア中途採用を有価証券報告書・公式採用の一次情報で解説。平均年収約1,251万円(2025年8月期)の留意点、情報製造小売業のEC/SCM変革、30代40代の現実を中立にまとめました。",

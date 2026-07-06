@@ -96,6 +96,7 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/salesforce/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

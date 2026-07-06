@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/area/osaka/" },
   title: "大阪のITエンジニア転職事情【2026年】特徴と進め方",
   description:
     "大阪のIT・Webエンジニア転職市場を解説。梅田・本町などのIT企業集積、製造業DX、働き方の選択肢、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。",

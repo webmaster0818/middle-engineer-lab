@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/purpose/salary-up/" },
   title: "年収UPしたいエンジニアの転職戦略【100万円以上UP実例】",
   description:
     "エンジニアが転職で年収100万円以上アップを実現するための戦略を解説。年収が上がるスキル、企業タイプ、交渉術、成功事例を紹介します。",

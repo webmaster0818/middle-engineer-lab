@@ -9,6 +9,7 @@ const DESCRIPTION =
   "エンジニア転職でよくある後悔パターンと、入社前に確認すべきチェックリスト、オファー面談で聞くべき質問例を解説。30代・40代がミスマッチを防ぎ、納得して入社するための実践ガイドです。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/knowledge/regret/" },
   title: TITLE,
   description: DESCRIPTION,
 };

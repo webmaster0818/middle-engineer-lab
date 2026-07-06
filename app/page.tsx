@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: "30代・40代エンジニア向け転職エージェント比較ランキング【2026年版】",
   description:
     "30代・40代のITエンジニアにおすすめの転職エージェントを徹底比較。年収UP実績・口コミ・得意分野を出典付きデータで比較し、あなたに最適なエージェントが見つかります。最終更新2026年6月。",

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/compare/doda-vs-mynavi/" },
   title: "dodaとマイナビITの比較｜IT転職どっちがおすすめ【2026年6月】",
   description:
     "doda ITとマイナビIT AGENTを求人数・年収・サポート・スピード・対象層で徹底比較。総合型と IT特化型の違い、30代40代エンジニアの選び方、口コミ傾向、併用術まで実データで解説します。",

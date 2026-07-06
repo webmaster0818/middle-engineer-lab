@@ -9,6 +9,7 @@ const PAGE_DESC =
   "Docker（コンテナ）スキルを軸にした転職市場を出典付きで解説。Dockerは単体スキルというより、DevOps/SRE・クラウド実務の基盤として評価される点を整理。求人ボックス公表の関連職種年収、求人傾向、30代・40代の戦い方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/skill/docker/" },
   title: PAGE_TITLE,
   description: PAGE_DESC,
 };

@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/company/gree/" },
   title: "グリー（GREE）の年収は平均865万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
     "グリー（GREEグループ）へのエンジニア転職を実データで解説。有価証券報告書の平均年収865万円（2025年6月期・持株会社単体）、Go/PHP/Unity等の技術スタック、選考フロー、30代40代の現実までまとめました。持株会社移行に伴う数字の読み方も明記。",

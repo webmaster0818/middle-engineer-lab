@@ -5,6 +5,7 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/review/type-agent/" },
   title: "type転職エージェントIT 評判｜首都圏特化の実力を検証",
   description:
     "type転職エージェントITの評判を首都圏特化の強みと実績データ(2021-2022年計測)を軸に検証。良い評判・悪い評判の傾向、デメリット対処法、30代・40代の使い方戦略を2026年6月時点でレビューします。",
