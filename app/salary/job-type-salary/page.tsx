@@ -163,6 +163,7 @@ export default function JobTypeSalaryPage() {
             <Link href="/salary/company-ranking/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">企業別 年収ランキング43社</Link>
             <Link href="/salary/tech-stack-salary/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">技術スタック×企業年収</Link>
             <Link href="/salary/age-salary/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">年代別 年収・転職難易度</Link>
+            <Link href="/salary/infra-engineer/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">インフラエンジニアの年収（統計差を解明）</Link>
             <Link href="/cert/salary/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">資格別 想定年収・資格手当</Link>
             <Link href="/cert/compare/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">IT資格 比較一覧</Link>
           </div>
