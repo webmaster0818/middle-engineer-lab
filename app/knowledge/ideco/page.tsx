@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TechgoCta from "@/components/TechgoCta";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
@@ -284,6 +285,12 @@ export default function IdecoPage() {
         </section>
 
         <section>
+      <TechgoCta
+        heading="DC・iDeCoの移換とあわせて「年収の見直し」も"
+        note="運用資産を守る次の一手は年収アップ。テックゴーは年収アップ平均138万円（2025年6〜7月内定者平均・公式公表）のIT特化エージェントです。"
+        buttonText="無料キャリア面談を予約する（公式）"
+      />
+
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <p className="text-sm mb-3"><Link href="/knowledge/retirement-allowance/" className="text-petrol-deep font-medium hover:underline">▶ 転職すると退職金・企業型DCはどうなる？（移換・脱退一時金の手続き）</Link></p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

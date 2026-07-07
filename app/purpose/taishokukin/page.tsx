@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TechgoCta from "@/components/TechgoCta";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
@@ -232,6 +233,12 @@ export default function TaishokukinPage() {
         </section>
 
         <section>
+      <TechgoCta
+        heading="退職金が少ない会社から「年収の高い会社」へ"
+        note="テックゴーは年収交渉成功率100%（2025年9月時点・公式公表）を掲げるミドル向けIT特化エージェント。面談は完全無料です。"
+        buttonText="無料キャリア面談を予約する（公式）"
+      />
+
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[

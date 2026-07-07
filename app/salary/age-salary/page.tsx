@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TechgoCta from "@/components/TechgoCta";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
@@ -158,6 +159,12 @@ export default function AgeSalaryPage() {
         </section>
 
         <section className="mb-10">
+      <TechgoCta
+        heading="あなたの年齢の「平均」を超えるための一手"
+        note="テックゴーは年収アップ平均138万円（2025年6〜7月内定者平均・公式公表）・年収交渉成功率100%（2025年9月時点・公式公表）のIT特化エージェント。面談は完全無料です。"
+        buttonText="無料キャリア面談で市場価値を確認する（公式）"
+      />
+
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連データ・ガイド</h2>
           <div className="flex flex-wrap gap-2 text-sm">
             <Link href="/age/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">年齢別 転職ガイド（33〜50代）</Link>

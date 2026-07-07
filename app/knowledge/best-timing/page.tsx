@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TechgoCta from "@/components/TechgoCta";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
@@ -268,6 +269,12 @@ export default function BestTimingPage() {
             転職エージェントおすすめランキングを見る
           </Link>
         </div>
+
+      <TechgoCta
+        heading="ベストな時期に動くなら、面接対策は今から"
+        note="テックゴーは回数無制限の選考対策・模擬面接が特徴（公式明記）。求人が増える時期の前に準備を始められます。"
+        buttonText="無料キャリア面談を予約する（公式）"
+      />
 
         {/* 関連記事 */}
         <section>

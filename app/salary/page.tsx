@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TechgoCta from "@/components/TechgoCta";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
@@ -442,6 +443,12 @@ export default function SalaryTopPage() {
         </section>
 
         <section>
+      <TechgoCta
+        heading="年収データを見たら、次は自分の市場価値"
+        note="テックゴーは年収アップ平均138万円（2025年6〜7月内定者平均・公式公表）を公表するミドル向けIT特化エージェント。無料面談で相場観を確認できます。"
+        buttonText="無料キャリア面談を予約する（公式）"
+      />
+
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[

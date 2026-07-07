@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TechgoCta from "@/components/TechgoCta";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
@@ -54,6 +55,23 @@ export default function RetirementAllowancePage() {
           転職を考えるとき、見落とされがちなのが<strong>退職金と確定拠出年金（DC）のお金</strong>です。「退職金にかかる税金」「企業型DCの移し方」「脱退一時金は受け取れるのか」を、<strong>国税庁・厚生労働省・iDeCo公式</strong>の情報にもとづいて、ミドルエンジニア向けに整理しました。手続きを誤ると手数料の無駄や税負担増につながるため、転職前に押さえておきましょう。
         </p>
         <DataNote surveyedAt="2026年6月" sources={["国税庁 No.1420 退職所得", "厚生労働省 年金資産の持ち運び（ポータビリティ）", "iDeCo公式（国民年金基金連合会）"]} />
+
+      {/* 直答: 脱退一時金 受け取るべき？(P6-C1) */}
+      <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職時、確定拠出年金の脱退一時金は受け取るべき？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3">
+            <strong>結論: そもそも原則「受け取れません」。受け取れる例外に該当しても、移換して運用を続ける方が有利なケースが大半です。</strong>
+          </p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+            <li>・確定拠出年金（企業型DC・iDeCo）は<strong>原則60歳まで引き出せない</strong>制度です。転職は引き出し理由になりません</li>
+            <li>・脱退一時金は、通算の拠出期間が短い・資産額が少額（25万円以下等）・iDeCoに加入できない事情がある——といった<strong>法令の要件をすべて満たす例外的な場合のみ</strong></li>
+            <li>・例外に該当しても、受け取ると<strong>老後資金の取り崩し＋退職所得控除等の税優遇の放棄</strong>になります。原則は転職先の企業型DCまたはiDeCoへの<strong>移換</strong>です</li>
+            <li>・注意すべきはむしろ<strong>「6か月放置による自動移換」</strong>——運用が止まり手数料だけ引かれ続けます（下で詳述）</li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-3">出典: 厚生労働省・iDeCo公式サイトの制度情報にもとづく解説（個別の要件判定は運営管理機関にご確認ください）</p>
+        </div>
+      </section>
 
         <section className="mb-12 mt-6">
           <h2 className="text-xl font-bold text-slate-800 mb-3">① 退職金にかかる税金（退職所得控除）</h2>
@@ -134,6 +152,12 @@ export default function RetirementAllowancePage() {
         </section>
 
         <section className="mb-12">
+      <TechgoCta
+        heading="退職金・DCの次は「年収」の話——交渉に強いエージェント"
+        note="テックゴーは年収交渉成功率100%（2025年9月時点・公式公表）・年収アップ平均138万円（2025年6〜7月内定者平均・公式公表）。退職金の目減り分は次の年収で取り返せます。"
+        buttonText="無料キャリア面談で年収交渉の相談をする（公式）"
+      />
+
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連ガイド</h2>
           <div className="flex flex-wrap gap-2 text-sm">
             <Link href="/knowledge/ideco/" className="px-3 py-1.5 rounded border border-slate-200 text-petrol hover:bg-slate-50">iDeCoとエンジニアの資産形成</Link>
