@@ -221,6 +221,7 @@ export default function InfraEngineerSalaryPage() {
           <div className="grid sm:grid-cols-2 gap-3">
             {[
               { href: "/salary/project-manager/", label: "プロジェクトマネージャーの年収（891.5万円の正体）" },
+              { href: "/salary/it-consultant/", label: "ITコンサルタントの年収（有報6社の実額）" },
               { href: "/salary/job-type-salary/", label: "IT職種別 年収ランキング（公表値準拠）" },
               { href: "/salary/age-salary/", label: "年代別エンジニア年収・転職難易度 早見表" },
               { href: "/salary/tech-stack-salary/", label: "技術スタック別 年収データ" },

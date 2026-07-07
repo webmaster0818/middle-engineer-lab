@@ -207,6 +207,7 @@ export default function ProjectManagerSalaryPage() {
           <div className="grid sm:grid-cols-2 gap-3">
             {[
               { href: "/salary/infra-engineer/", label: "インフラエンジニアの年収（統計差の解明）" },
+              { href: "/salary/it-consultant/", label: "ITコンサルタントの年収（有報6社の実額）" },
               { href: "/salary/job-type-salary/", label: "IT職種別 年収ランキング（公表値準拠）" },
               { href: "/salary/age-salary/", label: "年代別エンジニア年収・転職難易度 早見表" },
               { href: "/knowledge/best-timing/", label: "転職のベストタイミングはいつ？" },
