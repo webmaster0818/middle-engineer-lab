@@ -137,6 +137,15 @@ export default function EnglishInterviewPage() {
           最終更新: 2026年6月 | 自信がなくても乗り切る準備とフレーズ集
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】英語に自信がなくても英語面接は乗り切れる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 評価されるのは完璧な英語ではなく「技術と経験が論理的に伝わるか」。頻出質問をキーフレーズで準備し、声に出して反復練習するのが最も効果的です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・丸暗記より要点を自分の言葉で話せる状態を目指し、聞き返し・言い直しの表現も用意する</li><li>・技術面接では考える過程を英語で実況（think aloud）できると評価される</li><li>・ミドル層は技術力と実績が土台。英語は「伝われば十分」と割り切って臨む</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           外資系やグローバルポジションでは、英語面接が避けられないこともあります。とはいえ、英語面接で問われるのは完璧な語学力ではなく「内容が伝わるか」です。本記事では、準備のステップ、自己紹介の型、頻出質問の回答フレーズ、コーディング面接で使う英語、聞き返しの表現まで、そのまま使える形でまとめます。
         </p>

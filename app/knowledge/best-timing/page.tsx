@@ -101,6 +101,15 @@ export default function BestTimingPage() {
           最終更新: 2026年7月 | 公表データにもとづく月別の求人動向と動き出しの目安
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニア転職は何月がベスト？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 狙い目は「9〜10月」と「1〜3月」。大手エージェントの公式解説が共通して挙げる求人の増加期で、dodaでは新規求人数が最も多いのは1月と10月とされています。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・増加期は上期・下期の切り替わりに当たる1〜3月と9〜10月。逆に少ないのは8月・11月・12月（dodaの法人向け解説）。</li><li>・応募〜内定は一般に2〜3ヶ月。次の波の9〜10月を狙うなら、7〜8月に職務経歴書とエージェント登録を済ませておくのが逆算の答え。</li><li>・エンジニア（IT・通信）の求人倍率は10.68倍（doda・2026年3月）で全職種平均2.44倍の4倍以上。「時期を待つ」より「いい求人が出た瞬間に動ける準備」が重要。</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           「転職するなら何月がいいのか」。答えは公表データにかなりはっきり出ています。本記事では、dodaの転職求人倍率レポート・厚生労働省の一般職業紹介状況・大手エージェント各社の公式解説をもとに、求人が増える時期とその理由、そして狙った時期に間に合わせるための逆算スケジュールを解説します。
         </p>

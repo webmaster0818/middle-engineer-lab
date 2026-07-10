@@ -147,6 +147,15 @@ export default function ForeignInterviewPage() {
           最終更新: 2026年6月 | 選考フローと各ラウンドの準備を実践解説
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】外資系IT企業の面接はどう攻略する？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「技術面接（コーディング・システムデザイン）」と「行動面接（バリュー）」の両輪で評価されます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・自分の貢献を『I』で明確に語り、企業のバリューに沿ったエピソードを準備する</li><li>・複数ラウンド構成で、思考プロセスを声に出して共有する姿勢が重視される</li><li>・実力・成果重視の文化のため、年齢より「何ができるか」が問われる</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           外資系IT企業の面接は、日本企業とは選考の構造も評価軸も大きく異なります。複数ラウンドの技術面接、バリューに沿った行動面接、そして実力・成果を重視する文化への理解が欠かせません。本記事では、選考フローの全体像、ラウンド別の対策、想定問答、ミドル層が評価されるための準備まで、実践的に解説します。
         </p>

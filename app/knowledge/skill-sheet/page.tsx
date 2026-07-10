@@ -174,6 +174,15 @@ export default function SkillSheetPage() {
           最終更新: 2026年6月 | 経験を正確に伝える技術経歴書の作り方
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】スキルシートは職務経歴書と何が違い、どう書く？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: スキルシートは「保有スキル一覧」と「プロジェクト経歴」を表形式で正確に整理する書類です。実績を文章で語る職務経歴書に対し、技術と案件経験を網羅的・客観的に示すのが役割です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・SES・フリーランス・客先常駐の案件選定で特に重視される</li><li>・技術名を羅列するだけでなく、経験年数・レベル・担当工程まで添える</li><li>・プロジェクト経歴は直近中心に5〜10件が目安。守秘義務のある案件は業種・規模で表現</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           スキルシート（技術経歴書）は、保有技術とプロジェクト経験を一覧で示す書類です。SESやフリーランスの案件選定では特に重視され、書き方ひとつで参画できる案件が変わります。本記事では、職務経歴書との違い、必須項目、プロジェクト経歴の記入例、スキルレベルの表記方法、ミドル層が長くなりがちな経歴をどう整理するかまで、実践的に解説します。
         </p>

@@ -117,6 +117,15 @@ export default function InvoicePage() {
           ]}
         />
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】フリーランスエンジニアはインボイス登録すべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 登録は任意で、「自分の取引先が課税事業者かどうか」を起点に、免税事業者のままでいるか課税事業者として登録するかを判断します。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・取引先が課税事業者でインボイスを求める場合、未登録が値引き交渉や取引見直しの材料にされることがある</li><li>・取引先が免税事業者・一般消費者中心なら影響は限定的で、登録しない選択も合理的</li><li>・登録して課税事業者になる場合も、2割特例（国税庁）を使えば納税負担と計算の手間を抑えられる</li><li>・最終的な判断は国税庁の最新情報や税務署・税理士への相談で確定させる</li></ul>
+          </div>
+        </section>
+
         {/* 目次 */}
         <nav className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-800 mb-3 text-sm">目次</p>

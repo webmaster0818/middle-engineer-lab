@@ -121,6 +121,21 @@ export default function NonCompetePage() {
           最終更新: 2026年6月 | 30代・40代エンジニアのための競業避止義務の基礎知識
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】競業避止の誓約書にサインしたら、転職先は必ず制限される？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3">
+              <strong>結論: 署名しても内容が必ず有効になるわけではなく、合理的な範囲を超える部分は無効と判断されることがあります。有効性は経済産業省が整理した6つの観点などを総合し、最終的に裁判所が判断します。</strong>
+            </p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+              <li>・在職中は特約の有無を問わず、退職後は就業規則や個別の特約がある場合に義務が生じる</li>
+              <li>・有効性は「守るべき企業利益・従業員の地位・地域・期間・禁止範囲・代償措置」の6観点を総合して判断される</li>
+              <li>・署名の有無だけで有効・無効は決まらないため、不安があれば自己判断せず必ず弁護士に相談する</li>
+            </ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           転職時に「競業避止義務」の誓約書を求められ、不安になるエンジニアは少なくありません。本記事では、競業避止義務の在職中と退職後の違い、経済産業省が整理した有効性の6つの判断基準、署名しても必ず有効とは限らない理由、違反のリスク、弁護士に相談すべきケースを、出典とともに正確に整理します。正確性が問われるテーマのため、最終的な判断は必ず専門家にご相談ください。
         </p>

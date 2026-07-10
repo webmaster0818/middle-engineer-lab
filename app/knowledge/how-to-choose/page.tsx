@@ -189,6 +189,21 @@ export default function HowToChoosePage() {
           最終更新: 2026年6月 | 30代・40代エンジニアのためのエージェント選び完全ガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】IT転職エージェントはどう選べばいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3">
+              <strong>結論: 「①IT特化か ②担当者の技術理解 ③求人の質と量 ④自分の状況との相性」の4基準で判断し、IT特化型1〜2社＋総合型/スカウト型1社の2〜3社体制から始めるのが失敗しない型です。</strong>
+            </p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+              <li>・IT特化型は技術マッチングの精度と年収交渉力、総合型は求人の幅と全国カバーが強み。役割を分担させる</li>
+              <li>・登録は2〜3社が目安。1社では比較ができず、5社以上は連絡管理が煩雑で重複応募のリスクも上がる</li>
+              <li>・タイプ別の起点例：実務経験ある30代はレバテックキャリア＋Geekly、40代・ハイクラス志向はビズリーチを軸に特化型を併用</li>
+            </ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           IT転職エージェントは数十社あり、どれを選ぶか迷う方が多いはずです。選び方を間違えると、的外れな求人ばかり届いたり、年収交渉で損をしたりします。本記事では、エンジニアがエージェントを選ぶときの4つの基準、IT特化型と総合型の違い、タイプ別マトリクス、主要10社の使い分けを、面談チェックリストとともに解説します。
         </p>

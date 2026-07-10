@@ -118,6 +118,15 @@ export default function ManagementPage() {
           最終更新: 2026年6月 | EM/PMの違い・必要スキル・ICからの移行ステップ
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアからEM・PMへ転身するには？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: マネジメントは「昇進」ではなく「職種転換」です。EMは人と組織、PMはプロダクトが責任の軸で、年収よりどちらに面白さを感じるかで選ぶのが後悔の少ない判断です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・EMはピープルマネジメント、PM／PdMはプロダクトの成功が責任の軸で、やりがいの源泉が異なる</li><li>・移行は現職でのリード経験づくりから部分的マネジメント、EM候補ポジションへと進むのが王道</li><li>・職務経歴書は「マネジメント経験あり」では弱く、チーム規模・担当範囲・もたらした変化の3点で書く</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
             30代・40代のエンジニアにとって、「このまま技術を続けるか、マネジメントに進むか」は大きな分岐点です。マネジメントといってもEM・PM・テックリードなど役割は分かれており、それぞれ責任の軸が異なります。本記事では、EM/PMの違い、必要スキル、IC（個人貢献者）からの移行ステップ、そして<strong>職務経歴書での見せ方</strong>をBefore/After例付きで整理します。

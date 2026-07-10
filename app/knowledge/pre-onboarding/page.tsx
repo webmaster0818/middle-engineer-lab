@@ -142,6 +142,15 @@ export default function PreOnboardingPage() {
           最終更新: 2026年6月 | 退職から入社まで空白なくスムーズに
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】入社前には何を準備すればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「会社へ提出する書類」「公的手続き（年金・保険・税金）」「入社初日の準備と心構え」の3軸で整理すると漏れがありません。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・退職翌日に入社（空白なし）なら、保険・年金は新しい会社が切れ目なく手続きする</li><li>・空白がある場合は、退職翌日から14日以内などの期限で自分で切り替えが必要</li><li>・最大のリスクは書類の受け取り漏れと手続きの放置。退職前から段取りを確認しておく</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           内定承諾から入社までの期間は、書類の準備や公的手続きでやるべきことが意外と多いものです。特に退職日と入社日に空白がある場合は、保険や年金の手続きを自分で行う必要があります。本記事では、会社へ提出する書類、年金・保険・税金の手続き、入社初日に向けた準備、そして30代・40代ならではの心構えまでを、チェックリスト形式で整理します。
         </p>

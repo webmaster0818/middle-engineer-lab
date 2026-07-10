@@ -160,6 +160,15 @@ export default function SmoothResignationPage() {
           最終更新: 2026年6月 | 切り出す順序・カウンターオファー対応・難航ケースの打開策
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】円満退職の交渉、どう進めれば引き止めに揺らがない？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 意思が固いなら「相談」ではなく「報告」として、直属上司から順に伝え、前向きな個人的理由で決めるのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・切り出す順序は直属上司が最初。同僚や他部署へ先に漏らさない</li><li>・カウンターオファーは感謝のうえで断る。「次の会社と入社日を合意済み」が最も効く</li><li>・損害賠償の脅しに動揺しない。書面請求など個別の事案は弁護士など専門家に相談する</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             退職の「伝え方」は知っていても、いざ切り出すと引き止めや難航ケースで揺らいでしまう——これは30代・40代のエンジニアに特に多い悩みです。本記事は、退職を伝えた後の<strong>交渉術</strong>に絞って掘り下げます。切り出す順序、カウンターオファーの返し方、後任不在・繁忙期・損害賠償の脅しといった難航ケースの打開策を、例文付きで整理しました。退職そのものの切り出し方の例文集は

@@ -107,6 +107,15 @@ export default function LinkedInPage() {
           最終更新: 2026年6月 | プロフィール最適化とスカウト獲得の実践ガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】LinkedInは日本のエンジニア転職で使える？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 外資・グローバル・一部メガベンチャー志望なら作る価値が高く、日系SIer・SES中心ならエージェント併用が前提です。「置いておく武器」として、スカウトが届く状態を作っておくのが基本方針です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・外資系IT・グローバル・一部メガベンチャーでは採用チャネルとして機能。日系SIer・SES中心はエージェント併用が前提</li><li>・スカウトを左右するのはヘッドライン・About・職歴の3点で、リクルーターの検索キーワードに合わせる</li><li>・Open to Work（リクルーター限定公開）をオンにし編集の更新通知をオフにすれば、現職にバレずに転職意思を示せる</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
             LinkedInは、エンジニアが「自分から応募しなくても声がかかる」状態を作るためのツールです。特に外資系IT企業・グローバル展開企業・一部のメガベンチャーでは採用チャネルとして機能しており、プロフィールを整えておくだけでスカウトが届く可能性があります。本記事では、スカウトが届くプロフィールの書き方を見本付きで示し、設定の最適化と日本のIT転職での実際の使われ方を、30代・40代の視点で整理します。

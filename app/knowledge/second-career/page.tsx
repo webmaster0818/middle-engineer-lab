@@ -260,6 +260,19 @@ export default function SecondCareerPage() {
           最終更新: 2026年6月 | PM/EM・ITコンサル・講師・CRE・社内SE・独立まで
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアのセカンドキャリアにはどんな選択肢がある？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 代表的な選択肢は7つ。年収の高低より「価値の出し方」で選ぶと失敗しにくいです。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+              <li>・PM/EM・ITコンサル・講師/教育・CRE/サポート・テクニカルライター・社内SE・独立/フリーランスの7ルート。</li>
+              <li>・いきなり転職・独立より、現職でリード経験・登壇・ドキュメント整備など小さく試すのが王道。</li>
+              <li>・40代・50代ほど「これまで担った領域」が評価軸。社内SE・コンサル・CRE・講師が受け皿になりやすい。</li>
+            </ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
             「このまま開発を続けるか、次の道に進むか」。30代・40代のエンジニアにとって、セカンドキャリアの検討は避けて通れないテーマです。エンジニア経験は、マネジメント・コンサル・教育・サポート・ライティング・社内SE・独立など、想像以上に多くの道へつながります。本記事では代表的な<strong>7つの選択肢</strong>を比較表で整理し、それぞれの<strong>活かせるスキル・必要な準備・収入の考え方</strong>、移行ステップ、そして40代・50代の現実的な見方までをまとめます。

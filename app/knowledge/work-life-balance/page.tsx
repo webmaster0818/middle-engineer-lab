@@ -119,6 +119,15 @@ export default function WorkLifeBalancePage() {
           最終更新: 2026年6月 | WLB重視で働ける企業の見極め方
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】WLB重視で働ける企業はどう見極める？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 求人票の残業時間を鵜呑みにせず、口コミサイトの傾向・面接での具体質問・エージェントの内部情報の3点で実態を照合するのが失敗しないコツです。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・求人票の残業時間は全社平均や目安であることが多く、配属チームによって体感は大きく変わる</li><li>・口コミ・面接・エージェントの3つを突き合わせ、1つの情報源に依存しない</li><li>・「楽さ」だけを基準にせず、WLBと技術的成長の両立という視点で企業を選ぶ</li></ul>
+          </div>
+        </section>
+
         <DataNote
           surveyedAt="2026年6月"
           sources={["レバテック公表の年代別平均年収（2025年）"]}

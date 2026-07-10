@@ -139,6 +139,15 @@ export default function OfferDeadlinePage() {
           最終更新: 2026年6月 | 後悔しない決断のための時間の確保
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】内定承諾の期限は延長できる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 延長は頼めます。承諾期限は通知から1週間前後（長くても2週間程度）が一般的な目安で、「早めに」「具体的な希望日を添えて」「誠実な理由で」相談すればほとんどの場合応じてもらえます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・承諾期限は法律で定められた日数ではなく慣行上の目安で、中途採用は新卒より短い傾向がある</li><li>・延長依頼は原則一度、具体的な期日と前向きな志望度を添えて誠実に伝える</li><li>・無断の期限超過・曖昧な理由での複数回延長・音信不通はNG。承諾後でも入社日前なら辞退は法的に可能</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           内定をもらったとき、承諾期限が思ったより短く焦った経験はないでしょうか。他社の選考を待ちたい、家族と相談したい——そんなとき、承諾期限は誠実に頼めば延長してもらえることがほとんどです。本記事では、承諾期限の一般的な目安、延長を頼むコツ、そのまま使えるメール例文、そして承諾後の辞退の可否まで、後悔しない判断のための実務を解説します。
         </p>

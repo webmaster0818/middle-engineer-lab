@@ -87,6 +87,15 @@ export default function HelloWorkPage() {
           最終更新: 2026年6月 | 30代・40代エンジニアのためのハローワーク活用ガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ハローワークだけでIT・エンジニア転職はできる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: できますが非効率です。ハローワークは失業給付・職業訓練・地元求人の窓口として使い、求人探しはIT特化サービスと併用するのが現実的です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・利用は完全無料。求人検索・職業相談・失業給付の手続き・職業訓練の申し込みまで公的機関で対応</li><li>・IT専門求人は数・質ともに限られ、モダンな技術環境やハイクラス求人は少なめ</li><li>・自己都合退職の給付制限は2025年4月以降の離職で原則1か月に短縮（厚生労働省・令和6年雇用保険法改正）</li><li>・地方在住・公的支援や職業訓練を使いたい人ほど価値が高い</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           ハローワークは無料で使える公的な職業紹介機関ですが、IT・エンジニア転職で「使えるのか」は気になるところです。本記事では、ハローワークのIT求人の質と量の傾向、職業訓練（ハロートレーニング）、失業給付の流れを、公的制度の出典とともに整理します。結論から言えば、エンジニアにとってはIT特化サービスとの併用が現実的です。
         </p>

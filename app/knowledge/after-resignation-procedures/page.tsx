@@ -95,6 +95,15 @@ export default function AfterResignationProceduresPage() {
           最終更新: 2026年6月 | 健康保険3択・年金切り替え・失業給付の流れ
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職後の手続きは何をいつまでにやる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 健康保険・年金・失業給付の3つ。期限が短いものが多いので、先に動くのが鉄則です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・健康保険は任意継続が退職翌日から20日以内、国保が14日以内。最優先で決める</li><li>・年金は厚生年金→国民年金（第1号）への切り替えを原則14日以内</li><li>・失業給付は離職票が届き次第ハローワークへ。自己都合の給付制限は2025年4月以降の離職で原則1ヶ月に短縮</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             退職が決まったら、次に待っているのが社会保険まわりの手続きです。エンジニアの場合、転職先への入社まで空白期間が空くこともあり、その間の健康保険・年金・雇用保険（失業給付）を自分で手続きする必要があります。これらは<strong>期限が短いものが多く、放置すると保険料の未納や受給の遅れにつながります</strong>。本記事では、退職後にやるべき3つの手続きを期限つきで整理します。退職を切り出す前段階は

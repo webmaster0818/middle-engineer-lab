@@ -58,6 +58,15 @@ export default function OverseasPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">海外で働くエンジニアの転職【ルート・英語要件・ビザの基礎】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 現地採用・駐在・リモートの選び方</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】海外で働くエンジニアはどうやって転職する？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 現地採用・駐在・リモートの3ルートから、自分のリスク許容度と目的に合うものを選ぶのが出発点です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・リスクを抑えるなら駐在（社内異動）。会社がビザ・住居を支援してくれる</li><li>・現地キャリアを積むなら現地採用、移住せず関わるならリモート</li><li>・英語は技術英語の読み書きと技術面接での説明が土台。ビザ要件は必ず公式情報で確認する</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">「海外で働きたい」と一口に言っても、現地採用・駐在・リモートでは進め方も難易度もまったく異なります。本記事では、3つのルートの違い、英語要件の目安、ビザの一般知識を整理し、30代・40代のミドルエンジニアが自分の現実解を選べるようにまとめます。制度の詳細は公式情報での確認が前提です。</p>
         </section>

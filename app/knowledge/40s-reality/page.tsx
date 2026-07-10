@@ -96,6 +96,15 @@ export default function FortyRealityPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">{TITLE}</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 40代エンジニア転職の現実と具体的な対策</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】40代エンジニアの転職は本当に厳しい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 求人の「数」は確実に絞られますが、1件あたりの年収水準は高く、専門性・マネジメント・直近のキャッチアップの3点が揃えば年収アップも十分狙えます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・40代の正社員SE平均年収は約618万円（レバテック公表値・2025年）で、30代の約499万円を上回る</li><li>・落ちる原因の多くは「年齢」そのものより、即戦力性を言語化できていないこと</li><li>・在職中の活動・複数エージェント併用・専門性の明確化が3本柱</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-2">
           「40代のエンジニア転職は厳しい」という言葉だけが独り歩きしていますが、実際の年収データを見ると、40代は20代・30代より平均年収が高く、高年収層の割合も大きい年代です。本記事は、煽りでも気休めでもなく、公表データに基づいて40代エンジニア転職の「現実」と「対策」を深掘りします。
         </p>

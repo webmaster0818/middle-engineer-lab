@@ -93,6 +93,15 @@ export default function UnemploymentInsurancePage() {
           最終更新: 2026年6月 | 損なく受給するための基礎
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】失業保険はいつから、いつまで受け取れる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 離職理由を問わず7日間の待期があり、自己都合は2025年4月から原則1か月の給付制限が加わります。受け取れる期限は原則として離職日の翌日から1年間です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・自己都合の給付制限は2025年4月から原則1か月（5年以内に3回以上の自己都合離職は3か月、厚生労働省）</li><li>・会社都合は7日間の待期後すぐに受給が始まることが多く、所定給付日数も長くなる傾向</li><li>・すでに転職先が確定している場合や開業した場合は「失業の状態」に当たらず受給できない</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           退職して次の仕事を探す間、生活を支えてくれるのが失業保険（雇用保険の基本手当）です。ただし、自己都合か会社都合かで受給開始のタイミングが変わり、受給には期限もあります。本記事では、給付制限の違い、待期7日間、受給期間、手続きの流れを、厚生労働省・ハローワークの情報に基づいて整理します。なお、個別の支給可否や金額はハローワークの判断によります。本記事は一般的な情報提供である点をご了承ください。
         </p>

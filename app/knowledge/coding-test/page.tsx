@@ -144,6 +144,15 @@ export default function CodingTestPage() {
 
         <DataNote surveyedAt="2026年6月" sources={["paiza公式・転職メディア集計", "Qiita Job Change 等の口コミ"]} />
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニア転職のコーディングテストはどう対策すればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 頻出領域を絞り、目的別にプラットフォームを使い分けて毎日少量を継続するのが最短です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・頻出の配列・文字列・ハッシュマップ・探索・BFS/DFSに集中して固める</li><li>・面接対策はLeetCode、地力強化はAtCoder、日系スカウト狙いはpaizaと使い分ける</li><li>・苦手ならコーディングテストなしの求人を選ぶ戦略も有効</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             コーディングテストは、特にメガベンチャーや外資系IT企業でほぼ確実に通る関門です。実務経験が長くても、アルゴリズム問題は別スキルなので対策は必須。本記事では、頻出アルゴリズム領域、LeetCode・AtCoder・paizaの使い分け、当日の進め方を、30代・40代の視点を交えて解説します。

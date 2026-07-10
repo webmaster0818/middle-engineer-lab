@@ -151,6 +151,15 @@ export default function AnxietyPage() {
           最終更新: 2026年6月 | 漠然とした不安を行動に変える整理術
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職の不安とはどう向き合えばいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 不安はゼロにするものではなく、正体を書き出して対処可能な課題に分解し、小さな行動で一つずつ潰していくものです。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・不安は「金銭・スキル・失敗・環境変化・現状を変えること」の5つに分解すると扱いやすくなる</li><li>・「何が不安か→自分でコントロールできるか→次の一手」の順に書き出すと行動に変わる</li><li>・在職しながら情報を集め、エージェントに市場価値を聞くなど低リスクの一歩から始める</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           転職を考えると、年収・スキル・失敗・環境変化など、さまざまな不安が押し寄せます。不安そのものは自然な感情で、なくす必要はありません。重要なのは、漠然とした不安を具体的な課題に分解し、対処可能なものに変えていくことです。本記事では、不安を5つに分解する方法、行動に変える整理フレーム、種類別の対処法、準備のステップまで、不安に振り回されないための向き合い方を実践的に解説します。
         </p>

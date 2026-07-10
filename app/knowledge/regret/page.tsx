@@ -125,6 +125,15 @@ export default function RegretPage() {
         </h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | ミスマッチを防ぐ事前確認とオファー面談の質問</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職の後悔はどう防ぐ？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: よくある後悔パターンを知り、入社前チェックリストとオファー面談の質問で事前確認すれば、ミスマッチは大きく防げます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・年収は「基本給・賞与・手当の総額」で見て、働き方とのバランスで総合判断する</li><li>・求人票の平均残業や「リモート可」を鵜呑みにせず、配属チームの実態を裏取りする</li><li>・完璧な会社はない。優先順位を事前に決め、焦らず判断する</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             「こんなはずじゃなかった」。転職後にそう感じないために、本記事では<strong>よくある後悔パターン</strong>、<strong>入社前チェックリスト</strong>、そして<strong>オファー面談で聞くべき質問例</strong>を具体的にまとめます。特に30代・40代は家庭やキャリアへの影響が大きいため、納得して入社するための確認が欠かせません。

@@ -93,6 +93,19 @@ export default function TechBlogPage() {
           最終更新: 2026年6月 | プラットフォーム選定と評価メカニズムの深掘り
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】技術ブログは転職で本当に評価される？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 採用担当・面接官は応募者の名前で検索するため、技術ブログは「第二の職務経歴書」として機能します。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+              <li>・コードを読まずとも、技術理解度・言語化能力・継続性が記事から伝わる。</li>
+              <li>・30-40代は入門記事の量産より、設計判断・トラブル対応・技術選定を深く掘った1本が刺さる。</li>
+              <li>・まずQiitaかZennのどちらか1つに絞って続けるのが最適。炎上・不正確な記事はマイナスになり得るため注意。</li>
+            </ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             技術ブログは、応募者の名前を検索した採用担当が最初に出会う<strong>「第二の職務経歴書」</strong>になり得ます。コードを読まずとも、技術理解度・言語化能力・継続性が伝わるからです。一方で、どのプラットフォームを選ぶかで読まれ方も評価のされ方も変わります。

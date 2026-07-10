@@ -132,6 +132,15 @@ export default function TimelinePage() {
           最終更新: 2026年6月 | 在職中に進める標準スケジュールと週次の動き方モデル
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニア転職のスケジュールはどう組めばいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 在職中なら約3ヶ月を目安に、準備・応募と面接・内定と退職の3フェーズへ分け、週次ルーティンで淡々と進めるのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・準備1ヶ月・応募と面接1ヶ月・内定と退職1ヶ月の3フェーズに分けると、在職中でも破綻しにくい</li><li>・朝昼はスマホで返信、夜と週末にまとめ作業、という週次ルーティンに落とす</li><li>・入社希望日から逆算し、退職に必要な期間（通知＋引き継ぎ＋有給消化）を先に確保する</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             転職活動は「思い立ったら即応募」ではなく、準備→応募→面接→内定→退職の各フェーズを計画的に進めることで、在職中でも無理なく完走できます。本記事では、在職中のエンジニアが週単位でこなす標準スケジュールと、忙しい30代・40代向けの「週次の動き方」モデルを解説します。

@@ -139,6 +139,15 @@ export default function SalaryChangePage() {
           最終更新: 2026年6月 | 出典付きデータでみる転職と年収の関係
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニア転職で年収は上がる？下がる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: dodaの決定年収レポート（2024年度・2025年5月公表）では転職者の約6割が年収アップを実現しており、データ上は年収アップの有力な手段です（ただし全員が上がるわけではありません）。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・IT・通信の平均決定年収は469万円（2023年度）から486万円（2024年度）へ上昇</li><li>・上がる人の共通点は、市場価値の高いスキル・複数社の比較・実績を数値で語る・交渉をエージェントに任せること</li><li>・下がりやすいのは、安定企業からアーリーステージのスタートアップ、マネジメントからプレイヤー、評価されにくい異業種転職</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           エンジニアの転職で最も気になるのが年収の変動です。「転職すれば上がる」と言われる一方で「下がった」という声もあります。本記事では、dodaの決定年収レポートなど出典のあるデータをもとに、転職で年収がどう変わるのか、上がる人・下がる人の違いと対策を解説します。
         </p>

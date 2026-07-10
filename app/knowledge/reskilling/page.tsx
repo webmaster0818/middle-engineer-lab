@@ -92,6 +92,21 @@ export default function ReskillingPage() {
           最終更新: 2026年6月 | 公的補助金を使った学び直しと職種転換のガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】30-40代がリスキリングで職種転換するには、補助金をどう使えばいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3">
+              <strong>結論: 転職・職種転換を伴う学び直しなら、経済産業省・厚生労働省の公的補助金で受講費用の負担を大きく下げられます（金額・条件は年度ごとに変動するため要公式確認）。</strong>
+            </p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+              <li>・経産省「リスキリングを通じたキャリアアップ支援事業」は、受講費用が段階的に補助され最大約70%（上限の目安 約56万円）が支給される枠組み</li>
+              <li>・厚労省の教育訓練給付制度も指定講座の受講費用の一部を給付。所管も建て付けも異なり、併用可否は制度・年度・講座の条件次第</li>
+              <li>・30-40代は経験と地続きの領域（例：開発経験を活かしてSRE・クラウド・データ領域へ）を優先し、学びを個人開発・記事・OSSなどのアウトプットに結びつける</li>
+            </ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             「新しい領域に挑戦したいが、学習費用も時間も負担が大きい」——30-40代の学び直しを阻むこの壁は、<strong>公的な補助金</strong>を使えば大きく下げられます。特に転職・職種転換を前提とするなら、経済産業省や厚生労働省の制度が後押しになります。

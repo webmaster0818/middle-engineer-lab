@@ -160,6 +160,15 @@ export default function BonusTimingPage() {
           </ol>
         </nav>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ボーナスをもらってから転職すべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 就業規則で支給条件を確認し、支給日から逆算してスケジュールを組み、賞与額と機会損失を金額で比較して判断します。賞与だけで転職時期を決めるのは危険です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・多くの企業は「支給日に在籍していること」が支給条件のため、就業規則の確認が必須</li><li>・賞与の数十万円は一時的な金額。転職先の選択は生涯年収やキャリアに長く影響する</li><li>・好条件の内定が先に出たなら、賞与を見送ってでも動いたほうが得なこともある</li></ul>
+          </div>
+        </section>
+
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：賞与を踏まえたタイミングの考え方</h2>

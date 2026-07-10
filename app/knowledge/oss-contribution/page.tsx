@@ -92,6 +92,15 @@ export default function OssContributionPage() {
           最終更新: 2026年6月 | 業務コードを出せないミドルのための客観的な証明づくり
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】OSS貢献はどう始め、転職にどう効く？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: OSS貢献は第三者のプロジェクトに残る「公開された客観的な証明」で、業務コードを出せないミドルほど価値があります。プルリクだけでなくドキュメント改善やissue報告から始められ、派手さより丁寧で誠実な貢献が信頼を生みます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・貢献はPRだけでなくドキュメント改善・翻訳・issue報告・テスト追加・レビューなど8種ある</li><li>・自分が業務や個人開発で使うライブラリの「good first issue」等のラベルから着手すると始めやすい</li><li>・職務経歴書・面接では貢献の量や有名度より、どんな課題にどう向き合ったかの中身が見られる</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             「業務コードは公開できない。でも技術力を客観的に示したい」——30-40代の多くが抱えるこのジレンマに、OSS貢献は一つの答えになります。<strong>公開された貢献履歴は、第三者のプロジェクト上に残る客観的な証明</strong>だからです。そして貢献はプルリク（PR）だけではありません。

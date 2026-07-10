@@ -100,6 +100,15 @@ export default function CareerPlanPage() {
           最終更新: 2026年6月 | 4つのキャリアパスと計画の立て方
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアはどうキャリアプランを設計すればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 4つの主要パスから自分の志向と市場ニーズの重なりで方向を選び、10年後の理想像から逆算して計画するのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・キャリアは「スペシャリスト／マネジメント／技術経営／独立」の4方向に整理でき、優劣はない</li><li>・マネジメントとスペシャリストの適性を診断し、迷えば自己分析で過去の手応えを振り返る</li><li>・10年後の理想像から逆算し、技術名でなくカテゴリで計画を立て、年1回見直す</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             30代・40代のエンジニアにとって、キャリアプランの設計は避けて通れない課題です。「このまま開発を続けるか」「マネジメントに進むか」「専門を極めるか」「独立するか」――選択肢は多く、迷うのが普通です。

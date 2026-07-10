@@ -151,6 +151,15 @@ export default function SalaryNegotiationPage() {
           最終更新: 2026年6月 | 損しないための実践的な交渉手順
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】年収交渉はいつ・どう切り出せばいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 最終面接後〜内定提示の前後に、「市場相場・スキルの希少性・他社オファー」を根拠にレンジで伝えるのが基本です。エージェント経由なら交渉をプロに任せます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ベストタイミングは企業が採用を決めた最終面接後〜内定提示前後。一次面接など早い段階は避ける</li><li>・有効な根拠は「市場相場」「スキルの希少性」「他社オファー」の3つ。個人的事情や前職年収だけを根拠にしない</li><li>・dodaの2024年度「決定年収レポート」（2025年5月公表）では転職者の約6割が年収アップを実現</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           エンジニア転職で年収交渉をしないのは、もったいない選択です。とはいえ「どう切り出せばいいか分からない」「印象を損ねたくない」と感じる人も多いはず。本記事では、交渉のベストタイミング、根拠の作り方、そのまま使える例文、エージェント経由の進め方、避けるべきNG行動まで、実践的に解説します。
         </p>

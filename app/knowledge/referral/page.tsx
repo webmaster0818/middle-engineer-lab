@@ -97,6 +97,15 @@ export default function ReferralPage() {
           最終更新: 2026年6月 | 声のかけ方・選考の実態・断りにくさへの対処
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リファラル転職の本質と注意点は？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 最大のメリットは「速さ」より、入社前に内部情報を得てミスマッチを防げること。面接自体は通常どおりで、必ず受かるわけではありません。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・最大の注意点は断りにくさ。合わないと感じたら早く・丁寧に伝える</li><li>・年収相場は紹介者ではなくエージェントで確認し、条件が適正か客観的に判断する</li><li>・リファラルとエージェントは併用が安全</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
             リファラル転職（社員紹介）は、知り合いの社員を通じて応募する転職方法です。IT業界では一般的なチャネルの一つで、内部情報を得てミスマッチを防げる点が大きな魅力です。一方で「知り合い経由だからこそ断りにくい」「紹介者に気を遣う」といった、通常の転職にはない難しさもあります。本記事では、声のかけ方・かけられ方、選考の実態、そして断りにくさへの具体的な対処を、例文付きで整理します。

@@ -114,6 +114,15 @@ export default function ProbationPage() {
           最終更新: 2026年6月 | 制度の一般論と試用期間中の転職の進め方
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】試用期間中でも解雇や退職はどうなる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 試用期間も通常の労働契約で、労働者としての基本的な保護は適用されます。過度に怖がる必要はありません。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・「試用期間だから自由に解雇できる」は誤解。解雇には合理的な理由が求められると解される</li><li>・期間中の退職も可能だが、就業規則を確認し在職中に次を決めてから動くのが安全</li><li>・個別の法的判断は専門家に相談すること（本記事は一般論の整理）</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             「入社してみたら想像と違った」「技術スタックが面接の説明と異なる」。試用期間中にこうした不安を感じるエンジニアは少なくありません。本記事では、試用期間という制度の一般的な仕組みと注意点を整理したうえで、試用期間中に転職を検討する場合の判断基準と進め方を解説します。

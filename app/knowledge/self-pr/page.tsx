@@ -169,6 +169,15 @@ export default function SelfPrPage() {
           最終更新: 2026年6月 | 経験を強みに変える書き方を例文で解説
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの自己PRはどう書けばいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「結論（強み）→根拠（経験）→成果（数値・事実）→再現性（応募先での貢献）」の順で組み立て、強みは1つに絞るのが鉄則です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・抽象的な形容詞ではなく、具体的なエピソードと結果で裏づける</li><li>・作業内容の羅列ではなく「課題に対して何をして、どう改善したか」を成果ベースで語る</li><li>・30代・40代は判断力・育成・巻き込み力を、応募先で今どう活きるかまで接続する</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           自己PRは、書類選考と面接の両方で評価を左右する重要な要素です。とはいえ「強みが思いつかない」「作業内容の羅列になってしまう」と悩む人は少なくありません。本記事では、自己PRを組み立てる4ステップ、Before/Afterで見る改善例、職種別の例文、ミドル層ならではの作り方、避けるべきNG表現まで、そのまま使える形で解説します。
         </p>

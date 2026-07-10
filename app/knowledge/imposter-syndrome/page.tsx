@@ -118,6 +118,15 @@ export default function ImposterSyndromePage() {
         </h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 実力を正しく評価し、面接の歪みを正す</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】インポスター症候群のまま転職活動を乗り切るには？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 主観的な「自分はダメ」を、事実・数値・第三者の声という客観的な証拠で上書きしていくのが有効です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・成果を事実と数値で書き出し、第三者の評価を集め、市場のものさし（求人要件・年収レンジ・エージェント評価）に照らす</li><li>・面接では準備した実績ワークシートを拠り所にすると、その場の不安に引きずられにくい</li><li>・インポスター症候群は診断名ではなく、強い不安・不眠・落ち込みが続く場合は専門医・カウンセラー・産業医に相談する</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             「自分には転職できるほどのスキルがない」「面接で見抜かれるのが怖い」。こうした不安は、優秀なエンジニアほど抱きやすい<strong>インポスター症候群</strong>（実力を過小評価してしまう心理傾向）かもしれません。本記事では、実力を客観的に見える化する方法と、面接で自己評価の歪みに足を引っ張られないための具体策を、30代・40代の視点でまとめます。

@@ -141,6 +141,22 @@ export default function CasualInterviewPage() {
           最終更新: 2026年6月 | 30代・40代エンジニアのためのカジュアル面談ガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアのカジュアル面談はどう進め、何を質問すればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3">
+              <strong>結論: カジュアル面談は合否のつかない相互理解・情報交換の場。現場の判断や運用に踏み込む逆質問を3〜5問用意し、入社後に後悔しない情報を集めるのが正解です。</strong>
+            </p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+              <li>・面接と違い合否は原則つかず、選考に進むかをお互いに見極める場（ただし印象は残る）。</li>
+              <li>・進行は30〜60分で、後半の逆質問（10〜20分）が最も重要な時間。</li>
+              <li>・逆質問は技術スタック・開発フロー・評価制度など、現場の実態に踏み込む内容を厳選する。</li>
+              <li>・「調べれば分かること」「給与だけに終始」「質問ゼロ」はNG。興味があれば終盤で選考意思を伝える。</li>
+            </ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           カジュアル面談は、選考に入る前に企業と相互理解を深める情報交換の場です。面接とは目的が異なり、合否がつかないことが一般的ですが、担当者に印象は残ります。本記事では、面談と面接の違い、30〜60分の進行フロー、エンジニアが現場の実態を見抜くためのカテゴリ別逆質問20問、避けたいNG質問、そして選考へ進む流れまでを、30代・40代の視点で整理します。
         </p>

@@ -171,6 +171,15 @@ export default function ResignationReasonPage() {
           最終更新: 2026年6月 | 円満退職と転職成功を両立させる伝え方
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職理由は面接と現職でどう伝え分ける？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 面接では「次の環境で実現したいこと」を前向きな動機として、現職では「角の立たない簡潔な理由」を伝えるのが基本です（どちらも嘘をつく必要はありません）。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・面接では退職理由・志望動機・キャリアプランを一貫させ、不満からの逃避ではなく前向きな動機として語る</li><li>・現職には理由を詳しく説明する義務はなく、感謝と引き継ぎへの姿勢を添えて簡潔に伝える</li><li>・給与や人間関係などの本音の不満は、「次の環境に求めるもの」へ言い換えて表現する</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           退職理由は、転職活動で最も多く問われる質問の一つでありながら、現職にどう伝えるかでも悩みやすいテーマです。本音をそのまま口にすると角が立ち、取り繕いすぎると矛盾が生じます。本記事では、面接と現職という二つの場面で目的の違いを整理し、本音を前向きに言い換える考え方と、そのまま使える例文を解説します。嘘をつくのではなく、事実の伝え方を整えるのがポイントです。
         </p>

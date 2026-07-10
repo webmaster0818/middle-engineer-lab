@@ -118,6 +118,19 @@ export default function First90DaysPage() {
           最終更新: 2026年6月 | 最初の90日で信頼を築き早期に成果を出す方法
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職後の最初の90日で何をすべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 大きな成果を焦るより、「信頼の貯金」を作ることを最優先にします。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+              <li>・30日＝理解、60日＝貢献、90日＝自走のリズムで段階的に立ち上がる。</li>
+              <li>・期待値のすり合わせと小さな約束を守ること、成果はクイックウィンから重ねる。</li>
+              <li>・前職比較・いきなりの大改革・抱え込みはNG行動。まず背景理解を先に。</li>
+            </ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             「最初の90日で転職の成否が決まる」と言われるほど、入社直後の立ち上がりは重要です。本記事では、30代・40代のミドルエンジニアが新しい職場で信頼を獲得し、早期に成果を出すための30/60/90日プランを、具体的なアクションとともに解説します。

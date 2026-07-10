@@ -65,6 +65,15 @@ export default function FamilyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">家族持ちエンジニアの転職【30代・40代】相談・年収・転居の判断</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 家族を守りながらキャリアアップする</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】家族持ちの転職で最初に決めるべきことは？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 活動を始める前に「家族の合意」と「最低年収ライン」を固め、在職中に動くことが失敗を避ける鍵です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・検討段階から配偶者を巻き込み、方向性をすり合わせる（事後報告は不信のもと）</li><li>・固定支出から逆算した「下回れない最低年収ライン」を明確にする</li><li>・収入を維持したまま在職中に内定を取り、焦りによる妥協を避ける</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">家族を持つ30代・40代エンジニアの転職は、自分一人の決断ではありません。配偶者・子どもの生活、住宅ローン、教育費、転居の有無まで含めて判断する必要があります。本記事では、家族への相談タイミングと伝え方の例文、年収ダウンを許容してよいかの判断軸、転居を伴う場合のチェックリストを、実務で使える形でまとめます。</p>
         </section>

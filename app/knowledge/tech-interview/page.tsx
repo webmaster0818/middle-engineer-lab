@@ -180,6 +180,15 @@ export default function TechInterviewPage() {
           最終更新: 2026年6月 | よく問われるテーマ領域・回答の型・逆質問例
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの技術面接、何を準備すればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 技術知識・プロジェクト経験の深掘り・コーディング・システム設計の4領域に備え、経験を「なぜそう判断したか」まで語れるようにするのが軸です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・技術知識は「定義→実務での使い方→トレードオフ」の3点セットで答える</li><li>・プロジェクトは主語を「私」にし、課題→行動→結果と学びの流れで語る</li><li>・30代・40代は技術選定の判断力やチームへの影響、障害対応の実績が重視される</li></ul>
+          </div>
+        </section>
+
         <DataNote surveyedAt="2026年6月" sources={["厚生労働省 job tag", "レバテック公表データ"]} />
 
         <section className="mb-8">

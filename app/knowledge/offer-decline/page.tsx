@@ -143,6 +143,22 @@ export default function OfferDeclinePage() {
           最終更新: 2026年6月 | 角を立てずに誠実に辞退するために
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】内定辞退はどう伝える？音信不通（バックレ）でもいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3">
+              <strong>結論: 辞退を決めたら「できるだけ早く・誠実に・簡潔に」連絡し、音信不通（バックレ）だけは絶対に避けるのが鉄則です。</strong>
+            </p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+              <li>・承諾前で余裕があればメールでも失礼にはならないが、入社直前や承諾後はまず電話でお詫びし、後からメールで記録を残すのが丁寧。</li>
+              <li>・辞退を決めたらできるだけ早く伝える。連絡が遅れるほど企業の採用機会の損失が広がる。</li>
+              <li>・内定承諾後でも入社日前なら辞退は法的に可能で、通常は損害賠償の心配もない。</li>
+              <li>・理由は「キャリアを総合的に検討した結果」程度で十分で、詳細を語る義務はない。</li>
+            </ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           複数社から内定をもらえば、必ずどこかを辞退することになります。とはいえ、お世話になった企業への辞退連絡は気が重いものです。本記事では、メールと電話の使い分け、連絡のタイミング、そのまま使える辞退メールの例文と電話のトークスクリプト、承諾後の辞退の伝え方までを解説します。最も大切なのは、放置せず、早く・誠実に・簡潔に伝えることです。
         </p>

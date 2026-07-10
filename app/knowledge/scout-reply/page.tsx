@@ -164,6 +164,15 @@ export default function ScoutReplyPage() {
           最終更新: 2026年6月 | 30代・40代エンジニアのためのスカウト返信ガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】スカウトにはどう返信すればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「お礼→魅力に感じた点→自己アピール→希望アクション」の型に沿えば、どの状況でも数分で書けます。興味がなくても一言返しておくと印象が良く、将来の縁にもつながります。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・返信は24〜48時間以内。即レスは交渉上不利になることもある</li><li>・件名は「用件＋氏名」で一目で分かるように</li><li>・条件交渉は返信段階では「打診」にとどめる</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           スカウトが届いても、どう返信すればよいか迷う方は多いはずです。本記事は返信の例文に特化し、興味あり・条件確認・丁寧な辞退・他社選考中・条件交渉打診の5パターンを、そのまま使える文例として網羅します。好印象を与える返信の型、件名の付け方、返信速度の目安、エージェントと企業ダイレクトのトーン差まで整理しました。スカウトの仕組みそのものは<Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトの活用法</Link>で解説しています。
         </p>

@@ -125,6 +125,15 @@ export default function UkeoiVsJishaPage() {
           最終更新: 2026年6月 | どちらが上ではなく、自分に合うのはどちらか
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】受託開発と自社開発、どちらを選ぶべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 絶対的な優劣はありません。伸びるスキルや働き方の方向が違うだけで、自分の志向と強みに合うのはどちらかで選ぶのが正解です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・受託は幅広い経験と対応力、自社開発は特定プロダクトを深く育てる経験が得やすい</li><li>・年収も働き方も、形態のラベルより個別企業の実態で決まる</li><li>・求人票の言葉ではなく、任される範囲・開発体制・技術裁量・待遇を一社ずつ確認する</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           エンジニアの転職先を考えるとき、「受託開発と自社開発、どちらがいいのか」と悩む人は多いはずです。ネットでは自社開発を持ち上げる声も目立ちますが、実際にはどちらが優れているという話ではなく、伸びるスキルや働き方の方向が違うだけです。本記事では、両者の違いを仕事の進め方・スキル・年収・働き方の観点で中立に比較し、自分に合うのはどちらかを見極める判断軸を解説します。
         </p>

@@ -47,6 +47,15 @@ export default function UIUXPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">UI/UXエンジニアへの転身ガイド【フロントエンドから】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | フロントエンドからのスキル拡張・ポートフォリオ・デザイナーとの違い</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】フロントエンドからUI/UXエンジニアへ転身できる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 転身できます。ゼロからの職種転換ではなく、既存の実装スキルの隣にデザイン視点を1歩広げる拡張型のキャリアで、絵を描ける必要はありません。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・必要なのは絵を描く力ではなく、デザインの意図を理解し高品質に実装し、仕組み化する力</li><li>・既存の実装スキルにデザイン基礎・UX設計・デザインシステム・Figmaの読み書きを足していく</li><li>・評価の鍵はポートフォリオ。動くデモ＋コード＋「なぜその設計か」の説明をセットで見せる</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
             UI/UXエンジニア（デザインエンジニア）は、デザインとフロントエンド実装の橋渡しをする職種です。フロントエンドエンジニアにとっては、ゼロからの職種転換ではなく<strong>「今の専門の隣に1歩広げる」スキル拡張</strong>として現実的なキャリアの一つです。本記事では、デザイナー・フロントエンドとの違い、フロントエンドからのスキル拡張ロードマップ、そしてポートフォリオの作り方を、30代・40代の視点で整理します。

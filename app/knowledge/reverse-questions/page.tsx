@@ -170,6 +170,15 @@ export default function ReverseQuestionsPage() {
           最終更新: 2026年6月 | 評価される逆質問とNG例を実例で解説
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】面接の逆質問は何をどう聞けばいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「仕事内容・技術・チーム・キャリア」の4テーマから、相手の役割に合った質問を2〜3個用意するのが基本です。調べればわかることや待遇の詰問は避けます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・課題を尋ねて「自分ならどう貢献できるか」を示せる質問が高評価につながる</li><li>・「特にありません」は志望度が低いと受け取られかねないため避ける</li><li>・30代・40代は裁量・マネジメントの比重・組織課題を確認できる質問が有効</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           面接終盤の「何か質問はありますか」は、単なる確認ではなく評価の一部です。逆質問は志望度・理解度・課題意識を示す絶好の機会であり、準備の差がはっきり出る場面でもあります。本記事では、そのまま使える逆質問の例文を場面別に紹介し、ミドル層ならではの質問、避けるべきNG質問、選考フェーズごとの使い分けまで実践的に解説します。
         </p>

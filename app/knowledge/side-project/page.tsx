@@ -117,6 +117,15 @@ export default function SideProjectPage() {
           最終更新: 2026年6月 | 副業×転職活動の両立ガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】副業しながら転職活動はできる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: できます。ただし①現職の就業規則を確認 → ②副業実績を本業と同じ粒度で具体化 → ③面接を最優先に時間配分、という順序が前提です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・まず副業の可否・競業避止・秘密保持を就業規則で確認する</li><li>・副業のプロジェクト経験・使用技術・成果は職務経歴書や面接でアピールできる</li><li>・日程が固定される面接を最優先にし、休息も計画に入れて体調を崩さない</li></ul>
+          </div>
+        </section>
+
         <DataNote surveyedAt="2026年6月" />
 
         {/* 結論ファースト */}

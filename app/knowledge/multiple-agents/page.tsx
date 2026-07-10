@@ -158,6 +158,15 @@ export default function MultipleAgentsPage() {
           最終更新: 2026年6月 | エージェント複数併用の実践ガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職エージェントは何社併用すべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 2〜3社の併用が現実的です。IT特化型を軸に総合型やスカウト型を組み合わせ、数を増やしすぎると管理が煩雑になり重複応募のリスクも上がります。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・1社だけだと求人の幅が狭く担当者の比較ができず、5社以上は面談・連絡の管理が煩雑になる</li><li>・同じ求人を複数ルートから紹介されたら必ず1社に絞って応募し、重複応募を避ける</li><li>・応募先はスプレッドシートで企業名・応募ルート・選考ステータスを一元管理する</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           転職エージェントは1社に絞るべきか、複数併用すべきか。結論は「2〜3社の併用」です。ただし数を増やすほど管理は煩雑になり、重複応募などのトラブルも起こりやすくなります。本記事では、タイプ別の併用パターン、スプレッドシートでの管理方法、重複応募の防ぎ方、そして断り方・退会の例文テンプレまで、実際に手を動かせる形で解説します。
         </p>

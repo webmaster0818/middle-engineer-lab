@@ -86,6 +86,15 @@ export default function MarketValuePage() {
           最終更新: 2026年6月 | 年代別年収データと測定方法
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの市場価値（適正年収）はどう測る？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 年代別の平均年収を出発点に、転職エージェントの面談・スカウトの提示年収・求人の年収レンジを組み合わせて具体化するのが確実です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・市場価値は「技術スキルの深さと幅」「成果・再現性」「役割・影響範囲」「市場の需給」の4要素で決まる</li><li>・レバテック公表（2025年）の正社員SE平均年収は30代 約499万円、40代 約618万円</li><li>・最も確実なのはIT特化型エージェントの面談で、自分のスキルに対する求人の年収レンジを確認すること</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             「自分の年収は適正なのか」「転職したらいくら稼げるのか」。エンジニアとして働くなかで、一度は気になるテーマです。市場価値は感覚で語られがちですが、年代別の年収データと客観的な測定方法を使えば、かなり具体的に把握できます。

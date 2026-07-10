@@ -92,6 +92,21 @@ export default function GenerativeAiEraPage() {
           最終更新: 2026年6月 | 経験を武器にAI時代を生き抜くミドルの戦略
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】生成AI時代、30-40代エンジニアは何を武器に生き残ればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3">
+              <strong>結論: 奪われるのは定型的な「作業」で、残り価値が増すのは課題を定義し出力を判断する「判断」。30-40代は自分の経験×AIで、判断と課題設定の領域で勝負するのが王道です。</strong>
+            </p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+              <li>・AIに置き換わりやすいのは定型コードの生成・補完・調査などの「作業」、人間に残りやすいのは要件定義・技術選定・合意形成などの「判断」</li>
+              <li>・評価されるのはAI実装力・エンジニアリング力・ビジネス課題設定力の3要素を掛け合わせられる人材</li>
+              <li>・ミドルのドメイン知識・要件定義・マネジメント経験はAI出力の検証と「問い」を立てる力に直結し、AI時代にむしろ価値が上がる</li>
+            </ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             「生成AIにエンジニアの仕事が奪われる」という言説が広がる一方、現場の感覚はもう少し冷静です。奪われていくのは<strong>定型的な『作業』</strong>であり、残り、むしろ重みを増すのは<strong>課題を定義し出力を判断する『判断』</strong>です。この切り分けを理解すると、30-40代が取るべき戦略が見えてきます。

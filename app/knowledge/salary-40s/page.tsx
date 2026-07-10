@@ -194,6 +194,15 @@ export default function Salary40sPage() {
           </ol>
         </nav>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】40代エンジニアの年収相場はいくら？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: レバテック公表（2025年）の年代別平均では、正社員エンジニアの40代は約618万円が相場の目安です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・レバテック公表（2025年）で40代の平均は約618万円。年収1,000万円以上は40代で12.67%（30代の8.01%を上回る）。</li><li>・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収578.5万円・平均年齢37.1歳。</li><li>・40代は個人差が最も開く年代。マネジメントかスペシャリストかの軸を明確にすることが鍵。</li><li>・古い技術のまま／「なんでも屋」のままだと年収が下がるリスクがあり、専門性の打ち出しが重要。</li></ul>
+          </div>
+        </section>
+
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：40代の年収相場と戦略</h2>

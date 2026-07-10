@@ -158,6 +158,15 @@ export default function AgentDeclinePage() {
           </ol>
         </nav>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職エージェントはどう断って・退会すればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 率直に・簡潔に伝えて構いません。利用は無料で、断ることにも退会することにもペナルティはなく、どのサービスをいつ辞めるかは求職者の自由です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・求人を断る／連絡を控えてもらう／担当を変更する／退会する、の4場面で使い分ける</li><li>・最も避けるべきは気まずさから連絡を放置すること。一言伝えれば無駄な紹介や電話が止まる</li><li>・退会時は進行中の選考を整理し、必要に応じて登録情報の削除も依頼する（個人情報保護法で利用停止・消去を請求できる）</li></ul>
+          </div>
+        </section>
+
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：率直に・簡潔に伝えてよい</h2>

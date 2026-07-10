@@ -108,6 +108,22 @@ export default function HandoverPage() {
           最終更新: 2026年6月 | 構成テンプレート・属人化の解消・後任未定時の進め方
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの引き継ぎドキュメントはどう作る？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3">
+              <strong>結論: 引き継ぎは口頭ではなくドキュメントとリポジトリに集約し、8項目のテンプレに沿って「後任が読めば作業を再現できる」粒度で残すのが基本です。</strong>
+            </p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+              <li>・構成は8項目（担当業務／システム構成／運用手順／アカウント・権限／定例タスク／連絡先／トラブル履歴／残課題）を骨組みにする。</li>
+              <li>・属人化コードや暗黙知は「なぜそうしたか」まで言語化し、手作業やインフラ操作は手順を明文化する。</li>
+              <li>・後任が未定でも引き継ぎは止めず、優先度を付けてチーム・上司がアクセスできる場所に文書化しておく。</li>
+              <li>・引き継ぎの完了を退職の条件にはできないが、質の高い引き継ぎは業界内の評判やリファレンスに直結する。</li>
+            </ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             エンジニアの退職で、最も差が出るのが引き継ぎの質です。担当システムが属人化していると、退職交渉の引き止め材料になるだけでなく、退職後に後任が事故を起こしたり、自分の評判を損ねたりします。本記事では、退職時に作る<strong>引き継ぎドキュメントの構成テンプレート</strong>、属人化・インフラ・暗黙知の文書化、後任が未定のときの進め方、逆算スケジュールとチェックリストを整理します。退職の切り出し方は

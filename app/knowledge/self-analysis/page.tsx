@@ -93,6 +93,15 @@ export default function SelfAnalysisPage() {
           最終更新: 2026年6月 | 書き込むだけで強みと方向性が見える
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの自己分析は何をすればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: キャリアの棚卸し・Will-Can-Must・モチベーショングラフ・価値観リストの順に手を動かせば、自分の強みと方向性が自然に見えてきます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・30代・40代は経験が長い分、棚卸しをすると強みが埋もれていることが多い</li><li>・Will（やりたい）・Can（できる）・Must（求められる）の3つが重なる領域が、長く伸ばせるキャリアの軸</li><li>・分析結果は職務経歴書の自己PR・志望動機・面接回答の一貫した軸にする</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             自己分析は『自分の言葉でキャリアを語れる状態』を作る作業です。30代・40代は経験が長い分、棚卸しをすると強みが埋もれていることが少なくありません。逆に言えば、整理するだけで職務経歴書も面接も一気に通りやすくなります。

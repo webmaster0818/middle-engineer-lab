@@ -135,6 +135,22 @@ export default function AgentFirstMeetingPage() {
           最終更新: 2026年6月 | 準備リスト・聞かれること・伝えること・面談後の動き
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職エージェントの初回面談は何を準備し、何を伝えればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3">
+              <strong>結論: 初回面談は面接ではなく合う求人を引き出す「すり合わせの場」。経歴・転職理由・希望条件の優先順位の3点を整理し、本音で伝えることが紹介の質を決めます。</strong>
+            </p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+              <li>・事前準備は「経歴の整理」「転職理由の言語化」「希望条件の優先順位づけ」の3点が必須。</li>
+              <li>・流れは自己紹介→経歴ヒアリング→希望条件の確認→市場価値のフィードバック→求人紹介で、所要は60〜90分。</li>
+              <li>・現年収・希望年収や不安な点も正直に伝えるほど、精度の高い求人が出る。</li>
+              <li>・面談後は紹介求人へ早めに反応し、2〜3社を併用しつつ応募経路は1社に絞る。</li>
+            </ul>
+          </div>
+        </section>
+
         <DataNote surveyedAt="2026年6月" sources={["各社公式サイト", "経済産業省 IT人材需給調査（2019年公表）"]} />
 
         <section className="mb-8">

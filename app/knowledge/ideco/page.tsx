@@ -132,6 +132,15 @@ export default function IdecoPage() {
           </ol>
         </nav>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職したらiDeCo・企業型DCはどうすればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 企業型DCに加入していた人は、資格喪失日の属する月の翌月から6か月以内に資産の移換手続きを行うのが鉄則です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・6か月以内に移換しないと、資産が国民年金基金連合会へ自動移換され、運用が止まり手数料も差し引かれる。</li><li>・転職先に企業型DCがあればそこへ、なければiDeCoへ移換する。フリーランスになる場合もiDeCoが基本。</li><li>・手続きは申込みから完了まで1〜2か月程度かかることがあるため、退職後すぐに着手する。</li><li>・すでに自動移換された資産も、iDeCoや企業型DCへ移換する手続きは可能。</li></ul>
+          </div>
+        </section>
+
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職時の確定拠出年金</h2>

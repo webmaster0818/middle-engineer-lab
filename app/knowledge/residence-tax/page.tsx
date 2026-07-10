@@ -104,6 +104,15 @@ export default function ResidenceTaxPage() {
           最終更新: 2026年6月 | 後払いの税金で慌てないために
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】住民税は転職・退職でどう変わる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 住民税は前年所得への後払い課税のため、退職して収入が減っても支払いが続き、退職する時期によって一括徴収か普通徴収かが変わります。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・1〜5月退職は、残りの住民税が最後の給与や退職金から一括徴収されるのが原則</li><li>・6〜12月退職は、残りが普通徴収（自分で納付）に切り替わるのが一般的</li><li>・前年所得が高い人ほど負担が大きいため、退職前に勤務先や市区町村へ確認し住民税分の資金を手元に残す</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           転職や退職で意外と見落とされがちなのが住民税です。住民税は前年の所得にかかる「後払い」の税金のため、退職して収入が減っても支払いが続き、退職時期によっては最後の給与からまとめて引かれたり、後日まとめて請求が来たりします。本記事では、住民税の仕組みと、退職時期で変わる徴収パターンを整理します。なお、徴収方法の取り扱いは勤務先や市区町村によって異なるため、本記事は一般的な情報提供である点をご了承ください。
         </p>

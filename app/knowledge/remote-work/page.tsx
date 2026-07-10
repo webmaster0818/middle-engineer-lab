@@ -130,6 +130,15 @@ export default function RemoteWorkPage() {
           最終更新: 2026年6月 | エンジニアのリモートワーク転職ガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リモートワーク求人はどう見極める？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 求人票の「リモート可」を鵜呑みにせず、配属予定チームの直近の実出社頻度を面接やエージェント経由で確認するのが鍵です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・求人には「フルリモート」「ハイブリッド」「リモート可（実態は出社中心）」が混在する</li><li>・地方移住や通勤負担の解消が目的ならフルリモート、対面の関係構築を残すならハイブリッド</li><li>・リモート勤務が就業規則・労働条件通知書に明記されるか、書面で確認する</li></ul>
+          </div>
+        </section>
+
         <DataNote
           surveyedAt="2026年6月"
           sources={[

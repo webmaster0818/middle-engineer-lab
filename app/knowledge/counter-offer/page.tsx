@@ -120,6 +120,15 @@ export default function CounterOfferPage() {
           最終更新: 2026年6月 | 引き留めの判断軸と断り方の例文
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職時のカウンターオファー（引き留め）は受けるべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 原則は断り、限られた条件がすべて揃うときだけ慎重に受けるのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・退職理由が年収以外なら年収アップでは解決しないため断るのが基本</li><li>・受けるのは「理由が年収のみ・提示に完全納得・書面で確約」の3条件が揃うときだけ</li><li>・断るときは理由を語りすぎず、「入社日を合意済み」を添えるとスムーズ</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             退職を申し出たら、上司から「年収を上げるから残ってくれ」と言われた——こうした引き留め（カウンターオファー）を経験する30代・40代エンジニアは少なくありません。対応を誤ると、その後のキャリアに長く影響します。本記事では、受けるべきかの判断軸、残留のリスク、そして角を立てない断り方の例文を整理します。

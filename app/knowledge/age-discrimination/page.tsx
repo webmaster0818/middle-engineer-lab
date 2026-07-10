@@ -89,6 +89,15 @@ export default function AgeDiscriminationPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">{TITLE}</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | ミドルエンジニアのための年齢の壁・突破法</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニア転職に年齢の壁は本当にある？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 壁の正体は「年齢そのもの」ではなく、年齢が上がるほど『即戦力性の証明』を強く求められるという評価軸の変化です。門前払いではありません。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・募集・採用での年齢制限は原則禁止（一般的な制度説明。詳細は労働局へ）</li><li>・40代の平均年収は約618万円（レバテック公表値・2025年）と30代を上回る</li><li>・突破の鍵は「即戦力性の言語化」「直近のモダン経験」「エージェント経由応募」</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-2">
           「35歳限界説」「40代は無理」――エンジニア転職の年齢に関する言説は多いものの、ルール（年齢制限の禁止）と実務上の現実は分けて理解する必要があります。本記事では、制度の一般的な説明、実務で年齢が効いてしまう仕組み、そして30代・40代が壁を突破するための具体パターンを、公表データに基づいて解説します。
         </p>

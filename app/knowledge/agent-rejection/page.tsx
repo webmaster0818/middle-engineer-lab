@@ -131,6 +131,15 @@ export default function AgentRejectionPage() {
           </ol>
         </nav>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職エージェントに登録を断られたらどうすればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 1社に断られても転職はできます。多くは市場価値ではなく「そのエージェントとの相性」の問題です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総合型で断られたら、エンジニアの技術を正しく評価するIT特化型へ登録し直す</li><li>・スカウト型や企業への直接応募を併用し、仲介の合否判断を経ないルートも使う</li><li>・希望条件に優先順位をつけ、職務経歴書で技術スタックと実績を数値化してから再挑戦する</li></ul>
+          </div>
+        </section>
+
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">

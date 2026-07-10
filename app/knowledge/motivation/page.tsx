@@ -111,6 +111,15 @@ export default function MotivationPage() {
         </h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 本音を前向きに翻訳して伝える</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職理由はどう整理して伝える？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 本音は隠さず、避けたいこと（本音）を次に実現したいことへ言い換えます。前職批判で終わらせず未来志向にし、転職理由と志望動機を地続きにするのが要点です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・整理は本音の書き出し、現職で解決できるかの切り分け、避けたいことを実現したいことへの翻訳の3ステップ</li><li>・「残業が多い」を「持続可能なペースで長く技術を磨ける環境で働きたい」のようにネガポジ変換する</li><li>・前職の悪口・「なんとなく」・年収だけ・嘘はNG。転職理由と志望動機を一貫させる</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             転職理由は、面接でほぼ必ず聞かれ、合否を左右する重要な要素です。本音がネガティブでも、それを正直に「実現したいこと」へ翻訳できれば、説得力のある転職理由になります。本記事では、転職理由の整理手順、<strong>ネガティブ→ポジティブ変換の例文集</strong>、避けるべきNG理由、志望動機との一貫性の作り方を、30代・40代の視点で解説します。

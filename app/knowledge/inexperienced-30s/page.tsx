@@ -102,6 +102,15 @@ export default function Inexperienced30sPage() {
           ]}
         />
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】30代未経験からITエンジニアに転職できる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 可能です。現実的な入り口で実務経験を作り、2ステップでキャリアアップするのが成功率の高い王道です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・入り口はテスター（QA）／サポート／SESが現実的（未経験枠が多い）</li><li>・学習は「1言語をポートフォリオまで」＋paizaスキルチェックで実力を可視化する</li><li>・最初の1〜2年は「投資期間」と割り切り、年収より実務経験を優先する</li></ul>
+          </div>
+        </section>
+
         {/* 目次 */}
         <nav className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>

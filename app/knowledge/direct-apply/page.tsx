@@ -115,6 +115,15 @@ export default function DirectApplyPage() {
           最終更新: 2026年6月 | どちらが有利？使い分け方を解説
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】直接応募とエージェント経由、どちらを使うべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 状況で使い分けるのが基本で、多くの30代・40代エンジニアはIT特化型エージェントとGreen等の直接応募を併用するのが現実的です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・大手・非公開求人はエージェント経由、ベンチャー・志望が明確な企業は直接応募が基本</li><li>・直接応募は年収交渉や日程調整を自分で行い、非公開求人にはアクセスできない</li><li>・同じ企業に両ルートで応募しないことが鉄則</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           転職活動を始めるとき、「エージェントに登録すべきか」「企業に直接応募すべきか」で迷う方は多いはずです。結論から言えば、両者にメリット・デメリットがあり、状況に応じた使い分け、あるいは併用が最も効果的です。本記事では、直接応募とエージェント経由の違い、Greenなどダイレクト型の使い方、向き不向き、併用のコツと例文まで解説します。
         </p>

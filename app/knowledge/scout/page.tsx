@@ -138,6 +138,15 @@ export default function ScoutPage() {
           最終更新: 2026年6月 | スカウトを増やし、見極めて使いこなす
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】スカウト型サービスはどう使い分ける？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: プロフィールを技術名と数値で作り込み、届いたスカウトを見極めて返信することで価値が出ます。サービスごとに仕組みが違うため、使い分けが鍵です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ハイクラス志向はビズリーチ（年収1,000万円以上求人が全体の約4割・二次）</li><li>・ベンチャー・直接やり取り志向はGreen（カジュアル面談中心）</li><li>・実力で評価されたいならpaiza転職（スキルチェックのランク）</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           スカウト型サービスは、プロフィールを登録しておくだけで企業やヘッドハンターからオファーが届く仕組みです。在職中で忙しいエンジニアでも効率的に転職活動を進められます。ただしサービスごとに「仕組み」が違うため、それを理解しないと届くスカウトの質も活かし方も変わります。本記事ではビズリーチ・Green・paiza転職の仕組みを整理し、スカウトを増やすプロフィール、返信例文、良いスカウトの見極め方まで解説します。
         </p>

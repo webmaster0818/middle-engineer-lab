@@ -123,6 +123,15 @@ export default function ResignationPage() {
           最終更新: 2026年6月 | 切り出し方の例文・引き止め対応・引き継ぎ計画まで
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】どうすれば円満に退職を進められる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 最初の一報を直属の上司に1対1で口頭で伝え、理由は前向きに変換し、引き継ぎを早めに文書化するのが円満退職の基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・最初の一報は直属の上司に1対1で口頭。退職先の社名は伝えなくてよい</li><li>・退職理由は不満ではなく「次でやりたいこと」に変換して伝える</li><li>・引き止め（カウンターオファー）には「入社日を合意済み」が最も効く</li><li>・就業規則の通知期間を確認し、引き継ぎ計画を早めに文書化する</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             転職先が決まったら、次の関門は現職の退職です。エンジニアの退職には、コードの引き継ぎ、ドキュメント整備、プロジェクトのタイミング調整といった独自の論点があります。本記事では、退職の切り出し方の例文、引き止めへの対応、引き継ぎ計画の立て方、そして退職にまつわる法的な基礎知識（一般論）までを整理します。

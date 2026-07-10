@@ -45,6 +45,15 @@ export default function ContinuousLearningPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">30代・40代エンジニアの学び続ける技術【学習戦略】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 学習戦略・資格の費用対効果・学習時間の作り方</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】30代・40代エンジニアは何を・どう学び続ければいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 学ぶ対象を「業務の困りごと＋市場で需要のある方向」に1〜2つ絞り、短く毎日決まった時間に仕組み化すれば、忙しくても学び続けられます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・学ぶ対象は「今の業務で困っていること」＋「市場で需要のある方向」に絞る（網羅は捨てる）</li><li>・資格は「強制力」と「客観的証明」を買うもの。実務直結のクラウド系は費用対効果を実感しやすい</li><li>・時間は捻出でなく「短く・毎日・決まった時間」に固定。1日30分でも積み上がる</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
             IT業界は技術の移り変わりが速く、学びを止めると市場価値は少しずつ下がります。とはいえ30代・40代は仕事も家庭も忙しく、20代と同じやり方では続きません。本記事では、ミドルエンジニアが<strong>限られた時間で何を・どう学ぶか</strong>、資格の費用対効果の考え方、そして学習時間の作り方を、実践的なフレームと時間割例で整理します。

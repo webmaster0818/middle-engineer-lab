@@ -126,6 +126,15 @@ export default function SystemDesignPage() {
           最終更新: 2026年6月 | 進め方の型・頻出テーマ・評価ポイント
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】システム設計面接はどう進めれば合格できる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「要件確認→概算→ハイレベル設計→詳細設計→ボトルネック対策」のフレームワークに沿い、実務経験を設計判断の根拠として語ることが鍵です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・正解は一つではなく、トレードオフを要件に紐づけて説明できるかが最重要</li><li>・準備は2〜4週間が目安。頻出テーマ8〜10個を各30分で説明できるよう練習する</li><li>・30代・40代は障害対応・スケーリング・技術選定の実務経験が強みになる</li></ul>
+          </div>
+        </section>
+
         <DataNote surveyedAt="2026年6月" sources={["レバテック公表データ", "経済産業省 IT人材需給調査（2019年公表）"]} />
 
         <section className="mb-8">

@@ -98,6 +98,15 @@ export default function StartupVsEnterprisePage() {
           最終更新: 2026年6月 | エンジニアのキャリア選択ガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】スタートアップと大企業、エンジニアはどちらを選ぶべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 優劣ではなく相性です。裁量・0→1経験・成長スピードを求めるならスタートアップ、大規模システム経験・安定・福利厚生を求めるなら大企業が基本軸です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・スタートアップの報酬はストックオプションを含むが、出口が実現して初めて価値になる不確実なもの</li><li>・30代・40代の経験はシニア・テックリードとして即戦力になり、若い組織で歓迎されやすい</li><li>・スタートアップを選ぶなら資金調達フェーズ（シリーズB以降など）を確認してリスクを抑える</li></ul>
+          </div>
+        </section>
+
         <DataNote
           surveyedAt="2026年6月"
           sources={[

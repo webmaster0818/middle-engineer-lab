@@ -120,6 +120,15 @@ export default function SiteVsAgentPage() {
           最終更新: 2026年6月 | 仕組みの違いと状況別の使い分けを解説
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職サイトとエージェント、どちらを使うべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 目的次第で、多くの場合は併用が効率的です。自分のペースで幅広く探すならサイト、書類添削・面接対策・年収交渉などのサポートや非公開求人が欲しいならエージェントが向いています。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・サイトは自分で検索して応募、エージェントは求人紹介やサポート・交渉を代行</li><li>・スカウト型を加えた3種併用が最も機会損失を防ぎやすい</li><li>・求職者はいずれも基本無料。同じ求人への複数経路応募は避け、応募状況は自分で管理</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           「転職サイトと転職エージェントはどう違うのか」「どちらを使えばいいのか」は、転職活動を始める多くの人が抱く疑問です。両者は仕組みもサポート内容も異なり、向き不向きがあります。違いを理解せずに片方だけを使うと、本来出会えたはずの求人やサポートを逃してしまうこともあります。本記事では、それぞれの仕組み、メリット・デメリット、比較表、スカウト型も含めた状況別の使い分け、併用時の注意点まで、実践的に解説します。
         </p>

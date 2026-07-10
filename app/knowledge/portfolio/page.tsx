@@ -88,6 +88,15 @@ export default function PortfolioPage() {
           最終更新: 2026年6月 | 実務経験者ならではの技術力の見せ方
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】30〜40代エンジニアのポートフォリオはどう見せればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「コードが書ける証明」ではなく「どんな技術判断ができ、どんな問題を解いてきたか」を示すこと。見せ方を変えるだけで評価は大きく変わります。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・チュートリアルの即席アプリを量産するより、①整ったGitHub ②設計やトラブル対応の技術ブログ ③登壇・OSSの方が費用対効果が高い。</li><li>・GitHubはプロフィールREADME・ピン留めの厳選・技術選定の理由をREADMEに書くことで、コードを全部読ませなくても実務力が伝わる。</li><li>・業務コードはそのまま公開せず、守秘義務を守って知見を汎用化して見せる（社名・内部数値は出さない）。</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             未経験者のポートフォリオが『コードが書ける証明』なのに対し、実務経験のある30代・40代のポートフォリオは『どんな技術判断ができ、どんな問題を解いてきたか』を示すものです。同じ成果物でも、見せ方を変えるだけで評価は大きく変わります。

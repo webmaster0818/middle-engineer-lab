@@ -104,6 +104,15 @@ export default function HealthInsurancePage() {
           最終更新: 2026年6月 | 退職後20日以内に判断を
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職後の健康保険は任意継続と国保どちらを選ぶ？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: どちらが安いかは人によって異なるため、両方の保険料を試算して比較するのが確実です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・任意継続は最長2年・原則全額自己負担だが標準報酬月額に上限あり（協会けんぽの令和8年度上限は32万円）</li><li>・任意継続の申請は退職翌日から20日以内と短いため、退職前に見込み額を確認しておく</li><li>・国保は前年の所得などで決まり、前年所得が高かった人は国保が高くなりやすい</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           退職してから次の入社まで間が空く場合や、フリーランスになる場合、健康保険を自分で選ぶ必要があります。選択肢は主に「任意継続」と「国民健康保険」。任意継続は退職翌日から20日以内という短い期限があるため、判断を後回しにできません。本記事では、両者の仕組みと比較の手順を、全国健康保険協会などの情報に基づいて整理します。なお保険料は加入先や自治体により異なるため、本記事は一般的な情報提供である点をご了承ください。
         </p>

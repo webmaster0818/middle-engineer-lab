@@ -114,6 +114,15 @@ export default function BurnoutPage() {
         </h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | バーンアウトのセルフチェックと判断基準</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】燃え尽きたら、休職と転職どちらを選ぶべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: まず休息・受診を最優先し、原因が「環境」にあって半年以上改善しないなら転職を検討する、という順番が安全です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・不眠・頭痛・動悸などの身体症状があるなら、転職より先に専門医・産業医の受診を優先する</li><li>・原因が「一時的」か「環境」かを切り分け、環境要因で半年以上改善しないなら転職が現実的な選択肢</li><li>・疲弊した状態での即決は避け、「逃げたい」を「次に向かいたい方向」に翻訳してから動く</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             「コードを書くのが辛い」「月曜が来るのが憂鬱」「以前は楽しかった技術に興味が持てない」。こうした状態が続いているなら、それは燃え尽き症候群（バーンアウト）のサインかもしれません。本記事では、サインのセルフチェック、休職と転職の判断、そして「逃げの転職」をどう考えるかを、30代・40代の視点で整理します。

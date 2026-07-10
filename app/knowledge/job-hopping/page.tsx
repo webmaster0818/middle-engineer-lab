@@ -109,6 +109,15 @@ export default function JobHoppingPage() {
           </ol>
         </nav>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職回数が多いと転職で不利になる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: IT業界では回数そのものより「1社あたりの在籍期間」と「キャリアの一貫性」が重視されるため、一貫したテーマを示せれば回数は不利になりにくいです。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・企業が見るのは回数より「1社の在籍期間」と「キャリアの一貫性」</li><li>・職務経歴書の冒頭のキャリアサマリーで一貫したテーマを先に示す</li><li>・離職理由は事実ベースで前向きに言い換える（嘘はつかない）</li></ul>
+          </div>
+        </section>
+
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="border-l-4 border-petrol bg-petrol-soft rounded-r-xl p-6">

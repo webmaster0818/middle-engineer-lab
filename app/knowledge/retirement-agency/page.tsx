@@ -89,6 +89,15 @@ export default function RetirementAgencyPage() {
           最終更新: 2026年6月 | 運営主体3類型・非弁行為・SES特有の注意点
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職代行サービスはどう選べばいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「会社に何を求めるか（意思を伝えるだけか、交渉が必要か）」で運営主体を選ぶのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・民間業者は退職の意思を「伝える」のみで、条件交渉はできないのが原則</li><li>・有給・退職日などの交渉が必要なら労働組合、損害賠償・未払い賃金などの法的対応まで必要なら弁護士</li><li>・SES・客先常駐で契約や損害賠償が絡みそうなら弁護士運営が安全</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             ハラスメントや強い引き止めで、退職を自分で言い出すのが難しい——そんなときの選択肢が退職代行です。ただし退職代行は<strong>運営主体によって「できること」が大きく違い</strong>、選び方を誤ると必要な交渉ができなかったり、法的に問題のあるサービスを利用してしまったりするおそれがあります。本記事では、民間業者・労働組合・弁護士の3類型の違いと、非弁行為のリスク、SES・客先常駐特有の注意点を整理します。自分で退職を進める場合は

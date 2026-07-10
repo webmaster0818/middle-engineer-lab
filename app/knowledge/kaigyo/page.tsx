@@ -104,6 +104,15 @@ export default function KaigyoPage() {
           最終更新: 2026年6月 | 独立初期の手続きを最短で
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】開業届はどう出せばいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 開業届（個人事業の開業・廃業等届出書）は事業開始から1か月以内に、納税地を所轄する税務署へ提出します。提出は無料で、「所得税の青色申告承認申請書」を同時に出すのが得策です（国税庁）。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・提出はe-Tax・郵送・税務署窓口のいずれでも可能で、手数料はかからない</li><li>・青色申告なら最大65万円の特別控除や赤字の繰越しが使える</li><li>・青色申告承認申請の期限は原則その年の3月15日、1月16日以後の開業はその日から2か月以内</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           会社員エンジニアからフリーランスに転向したら、最初に行いたい手続きが開業届の提出です。難しい書類ではありませんが、青色申告承認申請書を同時に出すかどうかで、初年度の税金が大きく変わることがあります。本記事では、提出期限・提出先・青色申告との関係・提出の流れを、国税庁の公式情報に基づいて整理します。なお本記事は一般的な情報であり、個別の判断は税務署や税理士にご確認ください。
         </p>

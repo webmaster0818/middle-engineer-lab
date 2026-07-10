@@ -139,6 +139,15 @@ export default function BehavioralPage() {
 
         <DataNote surveyedAt="2026年6月" sources={["Qiita Job Change 等の口コミ", "各社採用情報（公開情報）"]} />
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】行動面接（ビヘイビア面接）はどう対策すればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: STAR法で回答を構造化し、主語を「私」にしてテーマ別のエピソードを事前に準備することが要です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・回答はSTAR法（状況→課題→行動→結果）で構造化する</li><li>・主語を「私」にし、チームの成果と自分の貢献を区別する</li><li>・テーマ別に8〜10個のエピソードを準備し、複数の質問へ使い回す</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             行動面接（Behavioral Interview）は、過去の行動から将来のパフォーマンスを予測する面接手法です。技術力が同等の候補者の中で合否を分けるのは、しばしばこの協働力・問題解決の姿勢です。30代・40代にとっては、豊富な実務経験を武器にできる場でもあります。本記事では、STAR法の使い方、頻出質問カテゴリ、一般化した回答例文、NG回答をまとめます。

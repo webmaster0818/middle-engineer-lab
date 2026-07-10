@@ -92,6 +92,15 @@ export default function GithubShowcasePage() {
           最終更新: 2026年6月 | 30-40代エンジニアのためのGitHub単体運用ガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職でGitHubは採用担当にどう見られ、何を見せればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 採用担当はコードを隅々まで読まず、プロフィール・ピン留め・READMEをざっと眺めて「今も手を動かしているか（現役性）」「設計判断ができるか（再現性）」を推し量ります。数より1〜2個の完成度で示すのが効果的です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・見られるのは主にプロフィール・ピン留め・README。限られた時間でざっと判断されます</li><li>・ミドルが示すべきは現役性（直近のコミット・モダンな構成）と再現性（なぜその設計かをREADMEで語ること）</li><li>・業務コードは公開せず、固有情報を除いた汎用版・OSS貢献・技術記事で代替できます</li><li>・即席アプリの量産より、整ったプロフィール＋設計判断が伝わるリポジトリ1〜2個＋継続の痕跡に投資する</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             転職活動でGitHubのURLを添えるとき、採用担当はコードを隅々まで読むわけではありません。限られた時間で<strong>プロフィール・ピン留め・READMEをざっと眺め、「この人は今も手を動かしているか」「設計判断ができるか」を推し量ります</strong>。だからこそ、同じ成果物でも整え方ひとつで印象は大きく変わります。

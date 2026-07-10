@@ -60,6 +60,15 @@ export default function WomanEngineerPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">女性エンジニアの転職【30代・40代】ライフイベントとの両立と企業の見極め方</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | ライフイベントとキャリアを両立する転職戦略</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】女性エンジニアが30代・40代で転職を成功させるには？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 見極めるべきは「制度の有無」より「使われ方」です。育休・時短・リモートの制度が実際に使われ、使った人が評価・昇給で不利になっていないかを確認しましょう。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・制度の有無ではなく「直近の取得実績の人数」と「復帰後のポジション」を確認する</li><li>・女性管理職の有無は、上場企業なら有価証券報告書の女性管理職比率で客観的に確認できる</li><li>・面接で聞いてよい。むしろ「長く働きたいから確認したい」という前向きな姿勢として伝わる</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">女性エンジニアの30代・40代の転職では、「技術力をどう評価してもらうか」と「ライフイベントと両立できる環境をどう見極めるか」の二つを同時に進める必要があります。本記事では、産育休実績や女性管理職の確認方法、面接で聞いてよいことの具体的な例文、避けたい企業の見分け方まで、実務で使える形でまとめます。30代・40代のミドルエンジニアの視点に特化した内容です。</p>
         </section>

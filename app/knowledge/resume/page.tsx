@@ -103,6 +103,15 @@ export default function ResumePage() {
           最終更新: 2026年6月 | 書類選考突破率を上げる職務経歴書のコツ
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの職務経歴書はどう書けば書類選考を突破できる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 成果を改善前後の数値で示し、使用技術を規模感とともに書くこと。同じ経歴でもこの2点で通過率は変わります。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・構成は職務要約・技術スキル一覧・職務経歴・自己PR・保有資格/OSSの5ブロック。分量はA4で2〜3枚（経験10年以上でも最大4枚）、直近3〜5年を厚く書く。</li><li>・成果はSTARフレームワークで整理し、改善前後の数値か改善率で示す（例：レスポンスを200ms→50msに改善）。</li><li>・使用技術は経験年数・習熟度・規模感をセットで記載。1通を全社に使い回さず、職務要約と自己PRは応募先ごとに微調整する。</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             エンジニア転職では、職務経歴書が最初の関門です。技術力を持っていても、その伝え方を誤ると書類選考で落ちてしまいます。逆に、同じ経歴でも「成果を数値で示す」「使用技術を規模感とともに書く」だけで通過率は変わります。

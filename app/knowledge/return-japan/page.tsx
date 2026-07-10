@@ -53,6 +53,15 @@ export default function ReturnJapanPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">海外から日本へ帰国転職【リモート面接・帰国タイミング・海外経験のアピール】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 海外経験を最大限活かす帰国転職戦略</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】海外からの帰国転職はいつ帰るのが正解？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 内定が確定してから帰国するのが鉄則です。多くの企業がリモート面接に対応しているため、渡航前にオンラインで内定まで進めれば、無収入の空白期間や焦りによる妥協を避けられます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・リモート面接は、時差を踏まえた日程設計・通信環境の事前テスト・要点先出しの伝え方が基本</li><li>・海外経験は「海外にいた」ことではなく、日本でどう活かせるかを行動と結果で語る</li><li>・年収は月給ベースではなく、賞与込みの年間総額で比較する</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">家族の事情、キャリアの方向転換、日本の技術コミュニティへの貢献など、海外から日本への帰国転職を考えるエンジニアは少なくありません。本記事では、時差を踏まえたリモート面接の進め方、帰国タイミングの決め方、海外経験を強みに変えるアピール方法を、30代・40代のミドルエンジニア向けに実務的にまとめます。</p>
         </section>

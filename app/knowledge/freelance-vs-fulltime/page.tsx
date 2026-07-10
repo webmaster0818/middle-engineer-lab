@@ -110,6 +110,15 @@ export default function FreelanceVsFulltimePage() {
           ]}
         />
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアはフリーランスと正社員のどちらを選ぶべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 額面の単価だけで比べず、「手取り・保障・信用」の合計で比較するのが後悔しない判断の近道です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・フリーランスは社会保険料・税金・経費が自己負担で、退職金や有給もない</li><li>・正社員は社会保険の会社負担や福利厚生など、額面に表れない価値がある</li><li>・レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円</li><li>・まず正社員としての市場価値を把握し、フリーランスの想定単価と手取り・保障・信用の差を並べて比較する</li></ul>
+          </div>
+        </section>
+
         {/* 結論ファースト */}
         <section className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">

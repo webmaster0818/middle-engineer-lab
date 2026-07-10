@@ -104,6 +104,15 @@ export default function SideJobTaxPage() {
           最終更新: 2026年6月 | 20万円ルールの誤解を解く
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】副業の確定申告、20万円以下なら本当に不要？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 所得税は「所得20万円以下」なら不要になる場合がありますが、住民税は別途申告が必要になることがあります。20万円基準は所得税だけのものと理解しておきましょう。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・判断は売上（収入）ではなく、経費を引いた「所得」で行う</li><li>・所得税が不要でも住民税の申告や、医療費控除等で確定申告する場合は20万円以下も含めて申告</li><li>・「会社に絶対バレない方法」は断定できない。まず就業規則で副業可否を確認する</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           受託開発、技術ブログ、登壇、OSS関連の収入など、エンジニアの副業の形は多様です。副業で収入を得たら気になるのが確定申告。「20万円以下なら申告不要」という話は有名ですが、これには住民税という落とし穴があります。本記事では、20万円ルールの正しい意味、所得区分、経費、申告の流れを、国税庁の情報に基づいて整理します。なお本記事は一般的な情報提供であり、個別の判断は税務署や税理士にご確認ください。
         </p>

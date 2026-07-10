@@ -62,6 +62,15 @@ export default function DisabilityPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">障害のあるエンジニアの転職【一般雇用と障害者雇用・合理的配慮・開示のタイミング】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 雇用区分・配慮・開示の一般知識</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】一般雇用と障害者雇用、どちらで転職を進めるべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 制度名から選ぶのではなく、自分に必要な配慮の量と継続性から逆算して選ぶと判断しやすくなります。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・配慮が限定的でスキルで競えるなら一般雇用、継続的・明確な配慮が前提なら障害者雇用枠が候補</li><li>・障害の開示は範囲もタイミングも自分でコントロールできる</li><li>・制度の要件・最新情報はハローワークや支援センターなど専門機関に確認するのが前提</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">障害のあるエンジニアの転職では、「一般雇用と障害者雇用のどちらで進めるか」「合理的配慮をどう求めるか」「障害をいつ開示するか」が大きな論点になります。本記事はこれらを一般的な知識として整理するものです。具体的な制度の要件や個別の判断は、状況によって異なります。</p>
         </section>

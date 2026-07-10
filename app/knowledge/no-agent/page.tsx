@@ -102,6 +102,15 @@ export default function NoAgentPage() {
           最終更新: 2026年6月 | 30代・40代エンジニアのための自力転職ガイド
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職エージェントを使わず自力で転職できる？どう進める？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 直接応募・リファラル・ダイレクト・SNSの4手段で自力運用は可能です。ただし応募管理・日程調整・年収交渉・内定後手続きはすべて自分の責任になるため、在職中で多忙ならエージェント併用が無難です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・手段は直接応募・リファラル・ダイレクトリクルーティング・SNS発信の4つ。組み合わせて使うのが現実的</li><li>・志望度が伝わり選考が速く、手数料がない分交渉で有利な場合も。反面、不採用理由が分かりにくく自己管理の負担が大きい</li><li>・本命は自力、幅出しはエージェントという併用も可能。応募経路は企業ごとに一本化する</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           転職エージェントを一切使わず、直接応募やリファラルで自力で進めたいエンジニアは少なくありません。本記事は「自力運用」に主軸を置き、エージェントを使わない4つの手段、メリットとデメリット、応募管理・日程調整・年収交渉・内定後手続きまでの実務を整理します。どの直接応募サービスを使うかの比較は<Link href="/knowledge/direct-apply/" className="text-petrol hover:underline">直接応募とエージェントの使い分け</Link>を参照してください。
         </p>

@@ -123,6 +123,15 @@ export default function OnboardingPage() {
         </h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 新環境で無理なく立ち上がるための実践ガイド</p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職先で早く立ち上がり信頼を得るには、最初の数か月をどう過ごす？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 最初の1か月は「成果」より「理解」に集中し、前職のやり方を急に持ち込まず、質問は「調べた過程」を添えて早めにするのが立ち上がりの鉄則です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・30/60/90日プランで、〜30日は理解、〜60日は小さな成果、〜90日は独り立ちを目安に置く</li><li>・前職のやり方は「まず聞く→理解する→提案する」の順で。いきなり変革を提案しない</li><li>・質問は丸投げでなく調べた過程＋仮説を添える。リモートは困っている状態が見えにくい前提でテキストで早めに共有する</li></ul>
+          </div>
+        </section>
+
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
             転職はゴールではなくスタートです。特に30代・40代のミドルエンジニアは「即戦力」を期待されるため、最初の数か月の過ごし方が、その後の評価と働きやすさを大きく左右します。本記事では、<strong>新環境への適応戦略</strong>、<strong>質問の仕方</strong>、<strong>リモートオンボーディングの注意点</strong>を、具体的なテンプレートとともに解説します。

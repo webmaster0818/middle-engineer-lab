@@ -152,6 +152,15 @@ export default function SalaryDownPage() {
           最終更新: 2026年6月 | 下げてでも取るべき時、見送るべき時
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】年収が下がる転職は受け入れるべき？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 一律に避ける必要はありません。下がる理由と回復シナリオが説明でき、生活が成り立ち、年収以外に得られる将来価値が下げ幅に見合うかで判断します。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・将来性・裁量・成長機会が下げ幅を上回るなら、投資として合理的</li><li>・回復の根拠が曖昧・生活が成り立たない・現職から逃げるだけなら見送る</li><li>・目先の差額ではなく、数年単位の生涯年収と家計の数字で判断する</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           魅力的な求人だけれど年収が下がる。そんなとき「受け入れるべきか」と悩むのは当然です。年収ダウンは避けたいものですが、一律に「下がる転職はダメ」と切り捨てると、将来につながる機会を逃すこともあります。本記事では、下げてでも取るべきかを見極める判断軸、許容してよいケースと避けるべきケース、生涯年収で考えるフレームまで、目先の年収だけで損をしないための考え方を実践的に解説します。
         </p>

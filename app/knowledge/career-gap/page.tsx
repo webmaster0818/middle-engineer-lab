@@ -151,6 +151,15 @@ export default function CareerGapPage() {
           経歴にブランク（空白期間）があると、「転職で不利になるのでは」と不安になる人は多いはずです。しかし企業が本当に見ているのは、空白の長さそのものではなく「その間に何をしていたか」「今、就業できる状態か」です。本記事では、企業が見ているポイント、理由別の説明の型、職務経歴書での書き方、面接での回答テンプレートまで、ブランクを不利にしないための準備を実践的に解説します。
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】経歴の空白期間（ブランク）はどう説明すればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 理由を簡潔・正直に述べ、空白中の過ごし方を具体的に語り、今は就業できる状態だと明確に示すのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・企業が見るのは空白の長さより「その間に何をしていたか」「今、就業できる状態か」</li><li>・隠したりごまかしたりせず、在籍期間は正確に、理由は事実ベースで伝える</li><li>・懸念される再現性・継続性には、直近の技術キャッチアップの状況を添えて答える</li></ul>
+          </div>
+        </section>
+
         <DataNote
           surveyedAt="2026年6月"
           sources={[

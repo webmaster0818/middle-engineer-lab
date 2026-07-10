@@ -133,6 +133,15 @@ export default function ReferenceCheckPage() {
           最終更新: 2026年6月 | 同意を前提に、落ち着いて対応するために
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リファレンスチェックは何を準備すればいい？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 本人の同意を前提に行われる選考プロセスで、経歴を正確に申告し推薦者に事前依頼しておけば十分に対応できます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・個人情報保護法の趣旨から、企業は本人の同意なしに無断で照会することはできない</li><li>・最も避けるべきは「経歴を盛ること」と「推薦者への無断依頼」</li><li>・実施は最終面接前後〜内定前後が多く、過度に身構える必要はない</li></ul>
+          </div>
+        </section>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           リファレンスチェックと聞くと「前職に何を言われるのか」と不安になる人も多いはずです。しかし、これは本人の同意を前提に行われる選考プロセスであり、事前に準備すれば過度に恐れる必要はありません。本記事では、リファレンスチェックの仕組み、同意の法的な前提、実際に聞かれる質問、推薦者の選び方と依頼のマナー、事前準備のチェックリストまでを解説します。
         </p>

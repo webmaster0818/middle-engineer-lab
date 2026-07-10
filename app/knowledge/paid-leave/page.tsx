@@ -115,6 +115,15 @@ export default function PaidLeavePage() {
           最終更新: 2026年6月 | 時季変更権・買い取りの原則・消化拒否への対処
         </p>
 
+        {/* 直答box (P6-C2) */}
+        <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
+          <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職時に有給休暇は消化できる？</h2>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 年次有給休暇は労働者の権利で、退職時は時季変更権が実質的に及ばないため、消化できるのが原則です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・会社の時季変更権は退職日を超えて行使できず、退職時には実質的に拒否しにくい</li><li>・買い取りは原則不可。退職時に消滅する残日数のみ例外的に可（会社の義務ではない）</li><li>・一方的に拒否されたら自己判断で諦めず、労働基準監督署など公的窓口に相談する</li></ul>
+          </div>
+        </section>
+
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
             退職が決まると、残った有給休暇をどこまで消化できるかが気になります。「引き継ぎが終わらないと無理」「人手不足だから」と止められた、という相談は少なくありません。本記事では、退職時の有給消化を<strong>法律の観点</strong>から整理します。時季変更権の限界、買い取りの原則と例外、消化を拒否されたときの対処までをまとめました。退職の切り出し方は
