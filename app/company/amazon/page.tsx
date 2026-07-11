@@ -122,6 +122,13 @@ export default function AmazonCompanyPage() {
           最終更新: 2026年6月 ｜ OLP面接・Bar Raiser・年収を公式情報＋集計値で読み解く
         </p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Amazon／AWSジャパンのエンジニア年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年6月時点）ではL5（中堅）で約$116K前後（約1,700万円）が目安です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬目安：L4 約1,300万円前後（$90K台）、L5 約1,700万円前後（$116K前後）、L6 約2,400万円前後（$167K前後）（levels.fyi・2026年6月時点、日本拠点SWE集計）。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型。初年度は基本給＋サインオンボーナス中心になりやすい構造です。</li><li>・いずれもユーザー投稿ベースの集計値で、為替・株価により円換算額は変動します。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           アマゾンジャパン合同会社／アマゾン ウェブ サービス
           ジャパン合同会社（AWSジャパン）は、ECやデバイス、そして世界最大級のクラウドAWSを支えるソフトウェアエンジニアを中途採用しています。

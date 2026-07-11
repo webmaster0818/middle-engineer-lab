@@ -95,6 +95,13 @@ export default function KyoceraCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">京セラ エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 電子部品・半導体・通信のメーカー大手のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】京セラの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 京セラの有価証券報告書（2025年3月期・提出会社単体）に記載された平均年間給与は693万円、平均年齢は40.0歳です（技術職に限定しない全従業員平均）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与693万円（2025年3月期 有価証券報告書・提出会社単体／全従業員平均、平均年齢40.0歳）</li><li>・近年は680〜720万円台で推移（2022年3月期725万円→2024年3月期692万円→2025年3月期693万円）</li><li>・賞与・基準外賃金を含む全従業員平均で、エンジニア個人の年収は職種・等級・実績により異なる</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           京セラは、ファインセラミックを起点に電子部品・半導体関連部品・通信機器・産業機械など多角的に事業を展開する東証プライム上場（証券コード6971）の電子部品・電子機器メーカーです。本ページでは、有価証券報告書・公式キャリア採用情報・口コミプラットフォームの公開情報をもとに、30代・40代ミドルエンジニアの視点で転職の実態を整理します。
         </p>

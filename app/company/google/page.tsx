@@ -121,6 +121,13 @@ export default function GoogleCompanyPage() {
           最終更新: 2026年6月 ｜ 公式採用情報＋levels.fyi・OpenWork集計値で読み解く外資ITトップ企業
         </p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Google（グーグル）日本法人の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Google日本法人は有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年6月時点）のソフトウェアエンジニア総報酬は中央値 約2,550万円が目安です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総報酬の中央値 約2,550万円（levels.fyi・2026年6月時点、日本拠点SWE集計）。L3 約1,600万円〜、L6 約4,000万円超のレポートも。</li><li>・会社全体の平均年収 約1,719万円、開発職 約2,151万円（OpenWork・社員クチコミ集計）。</li><li>・いずれもユーザー投稿ベースの集計値。RSU（株式報酬）比率が高く、株価・付与額・入社時期で実受取額は大きく変動します。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           Google合同会社（Google Japan）は、検索・広告・Android・Google
           Cloud・YouTubeなどを支えるソフトウェアエンジニアを中途採用しています。

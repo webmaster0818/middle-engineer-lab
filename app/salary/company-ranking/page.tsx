@@ -94,6 +94,12 @@ export default function CompanySalaryRankingPage() {
         <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-4">
           IT企業の平均年収ランキング57社【2026年・有報準拠】
         </h1>
+        {/* 直答box (P0/年収ランキング) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】IT企業で平均年収が高いのは？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 有価証券報告書で平均年間給与を公表しているIT・テック57社では、キーエンスの2,039万円がトップです。当ページは推計や口コミではなく、各社が金融庁に提出した有報の公表値だけを決算期つきでランキング化しています。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・掲載は全て有報の公表値（全従業員平均・平均年間給与）で、出典が明確</li><li>・社名クリックで各社の技術スタック・選考・エンジニア給与レンジまで確認できる</li><li>・平均年齢や残業時間の差で高く出る場合があるため、同一企業の経年変化も併せて見るのが実務的</li></ul>
+        </div>
         <p className="text-slate-600 mb-6 leading-relaxed">
           当サイトに掲載しているIT・テック企業のうち、有価証券報告書（有報）で平均年間給与を公表している57社をランキング化しました。
           推計値や口コミ集計ではなく、<strong>各社が金融庁に提出した有報の公表値のみ</strong>を採用しています（決算期を併記）。

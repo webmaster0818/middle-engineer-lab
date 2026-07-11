@@ -70,6 +70,13 @@ export default function FastRetailingCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ファーストリテイリングの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 有価証券報告書（2025年8月期・提出会社単体）の平均年間給与は約1,251万円ですが、これは店舗社員を含む全社員平均です。IT職は公式採用で580〜1,300万円のレンジ提示例が確認できます。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・有報の平均年収 約1,251万円（2025年8月期・提出会社単体／全従業員平均・賞与含む、平均年齢38.5歳）</li><li>・システム開発・クラウド基盤などのIT職は公式採用で580〜1,300万円のレンジ提示例</li><li>・平均1,251万円は店舗社員を含む全社員平均でありエンジニア単独の年収ではない点に強く留意</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["ファーストリテイリング 有価証券報告書（2025年8月期）", "ファーストリテイリング 公式採用サイト", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

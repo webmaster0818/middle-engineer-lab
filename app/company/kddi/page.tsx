@@ -94,6 +94,13 @@ export default function KddiCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">KDDI エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 通信×IT・クラウドを軸に事業領域を広げる通信大手のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】KDDIの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: KDDIの平均年間給与は1,018万円です（2025年3月期 有価証券報告書・提出会社の全社員平均、平均年齢42.0歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,018万円（2025年3月期 有報・提出会社単体の全社員平均）。近年は954万円（2021年3月期）から上昇傾向。</li><li>・参考：レバテック公表の正社員SE年代別平均は30代 約499万円・40代 約618万円（2025年）。KDDIの全社平均はこれを上回るが管理職・上位等級を含む値。</li><li>・エンジニア職限定の公式レンジは一次情報が乏しく非公表。ジョブ型のため提示額は職務・等級で幅があり、個別求人での確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           KDDIは「au」を中核に、5G通信・法人DX・クラウド・金融・エネルギーなどを展開する東証プライム上場（証券コード9433）の通信大手です。近年は通信とIT・クラウド・AIを融合させたトランスフォーメーションを掲げ、エンジニア採用を強化しています。本ページでは、有価証券報告書・公式採用情報・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

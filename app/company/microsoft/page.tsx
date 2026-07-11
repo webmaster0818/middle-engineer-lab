@@ -120,6 +120,13 @@ export default function MicrosoftCompanyPage() {
           最終更新: 2026年6月 ｜ Growth Mindset・Azure・年収を公式情報＋集計値で読み解く
         </p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】日本マイクロソフトの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 日本マイクロソフトは有価証券報告書を公表しておらず公式平均年収は非公表です。報酬集計サイトlevels.fyi（2026年6月時点・日本拠点ソフトウェアエンジニア集計）では総報酬の中央値が約1,874万円と示されています。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・levels.fyi（2026年6月時点）の総報酬は中央値 約1,874万円、レンジは約1,266万円〜約2,607万円（ユーザー投稿集計）</li><li>・参考レベルではLevel 62前後で総報酬 約1,800万円前後とされる</li><li>・RSU（株式報酬・おおむね4〜5年ベスティング）とボーナスを含むため、株価・入社時期で実受取額が変動する点に注意</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           日本マイクロソフト株式会社は、AzureやCopilotをはじめとするクラウド／AI領域を牽引する外資ITです。
           公式キャリア情報では中途採用比率が非常に高く、中途人材を主力に据えている点が特徴です。

@@ -69,6 +69,13 @@ export default function DenaCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】DeNAの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: DeNAの有価証券報告書（2025年3月期・提出会社単体）の平均年間給与は882.9万円、平均年齢は37.9歳です（エンジニア以外も含む全従業員平均）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与882.9万円（2025年3月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）</li><li>・平均年齢37.9歳と比較的若い組織（従業員数は単体1,448名／連結2,572名）</li><li>・職種別・等級別の年収は公式非開示。エンジニア職の提示レンジは個別確認が必要</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["DeNA 有価証券報告書（2025年3月期）", "DeNA 公式採用サイト", "DeNA Engineering（技術ブログ）", "OpenWork・受験記（口コミ／選考傾向）"]} />
 
         <section id="conclusion" className="mb-10">

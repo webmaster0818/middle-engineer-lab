@@ -101,6 +101,13 @@ export default function BiprogyCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">BIPROGY（旧日本ユニシス） エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 ｜ DXを推進する大手SIer（旧日本ユニシス）</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】BIPROGY（旧日本ユニシス）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: BIPROGY株式会社の有価証券報告書（2026年3月期）に記載された全社員の平均年間給与は884万円、平均年齢は46.3歳です（エンジニア職に限った値ではなく全社員平均）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与884万円（2026年3月期 有価証券報告書・全社員平均、平均年齢46.3歳）</li><li>・近年は800万円台後半で推移（2024年3月期850万円→2025年3月期846万円→2026年3月期884万円）</li><li>・全社員平均でエンジニア単独の数値ではなく、職種・等級別の公式年収表は未公開。提示額は求人ごとに個別決定</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           ＢＩＰＲＯＧＹ株式会社（旧 日本ユニシス・証券コード8056・東証プライム）は、金融・流通・製造・公共・社会インフラなど幅広い業界にシステム開発・運用、クラウド・DX支援、デジタルプラットフォーム事業を提供する大手SIerです。
           このページでは、有価証券報告書・公式採用サイトといった一次情報をもとに、BIPROGYへのエンジニア転職の難易度・年収・技術領域・選考フロー・口コミ傾向を、
