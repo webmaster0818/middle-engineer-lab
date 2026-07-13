@@ -62,6 +62,13 @@ export default function KeyenceCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】キーエンスの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: キーエンスの平均年収は2,039万円です（2025年3月期 有価証券報告書・提出会社単体の全従業員平均・賞与含む、平均年齢34.8歳）。ただしこれは営業を含む全社員平均で、エンジニア単独の数値ではありません。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 2,039万円（2025年3月期 有報・賞与含む・4年連続で2,000万円超）。営業（コンサルティングセールス）を含む全職種・全社員の平均です。</li><li>・高水準の背景は高い営業利益率を原資とした業績連動賞与の比重の大きさとされ、個人の年収は等級・年次・業績で大きく異なります。</li><li>・職種別・等級別の年収内訳は公式に非開示。エンジニアとして入社した場合に必ずこの金額が得られるわけではなく、応募職種の具体的な提示条件の確認が必要です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["キーエンス 有価証券報告書（2025年3月期）", "キーエンス 公式採用サイト", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

@@ -68,6 +68,13 @@ export default function StoresCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】STORESの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: STORESは非上場のため公式の全社員平均年収（有価証券報告書）は非公表です。集計サイトに平均約695万円・中央値約635万円、ITエンジニア約796万円という記載がありますが、いずれも公式値ではない参考値です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場で有報がなく、公式の全社員平均は存在しません。</li><li>・集計サイトの参考値は平均約695万円・中央値約635万円、ITエンジニア約796万円（いずれも公式値ではない）。求人では400〜600万円のレンジ提示例もあります。</li><li>・職種・等級・経験で大きく異なるため、推測の等級別年収表は掲載せず、実際の提示は応募職種・経験に応じて個別確認が必要です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["STORES 公式採用サイト・技術発信", "転職クチコミ・集計サイト（参考値）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

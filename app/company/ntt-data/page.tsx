@@ -119,6 +119,13 @@ export default function NttDataCompanyPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">NTTデータ エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | 国内最大級SIer・グローバルITサービス企業</p>
+
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】NTTデータの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 全社員平均の平均年収は923万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢39.7歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 923万円（2025年3月期 有報、平均年齢39.7歳）。管理職等を含む全社員平均で、職種別の年収を示す値ではありません。</li><li>・東証プライム上場（NTTグループ）の国内最大級SIerで、キャリア採用は注力施策として拡大しています。</li><li>・エンジニア職の個別レンジは非公表。実際の提示額は求人票・オファー面談での確認が必要です。</li></ul>
+        </div>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
           NTTデータは、金融・公共・通信といった社会インフラを支える国内最大級のSIerです。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典付きで整理し、30代・40代エンジニアが転職を判断する材料をまとめます。
         </p>

@@ -95,6 +95,13 @@ export default function MonotaroCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">MonotaRO（モノタロウ） エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 内製EC・データ基盤を軸にするBtoBテック企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】MonotaRO（モノタロウ）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社MonotaROの平均年間給与は686万円です（2024年12月期 有価証券報告書・全社員平均、平均年齢35.7歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 686万円（2024年12月期 有報）。物流・カスタマーサポート等も含む全社員平均です。</li><li>・近年は緩やかな上昇傾向で、2023年12月期668万円から2024年12月期686万円（各期 有報）。</li><li>・全社平均には多職種が含まれ、エンジニア職の提示は職種・グレードで変動します。個別求人での確認が確実です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           MonotaRO（モノタロウ）は、工場・工事現場・自動車整備などの事業者向け間接資材を販売するBtoB Eコマースを主力とする東証プライム上場（証券コード3064）企業です。1,800万点超とも言われる商品データを扱う大規模ECを自社で内製開発している点が特徴です。本ページでは、有価証券報告書・公式採用情報・技術ブログの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

@@ -119,6 +119,14 @@ export default function FujitsuCompanyPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">富士通 エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | DX推進と最先端コンピューティングの総合ITベンダー</p>
+
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】富士通の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 富士通株式会社の平均年収は929万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢43.1歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 929万円（2025年3月期 有報）。全社員平均で、エンジニア職個別の年収レンジを示すものではありません。</li><li>・ジョブ型人材マネジメントを採用しており、職務・等級により金額に幅があります。</li><li>・エンジニア職の実際の提示額は求人票（ジョブディスクリプション）・オファーで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
           富士通は、DXブランド「Fujitsu Uvance」を軸にSIからの事業変革を進める総合ITベンダーです。ジョブ型人材マネジメントによる通年採用が特徴。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典付きで整理します。
         </p>

@@ -94,6 +94,13 @@ export default function KadokawaCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">KADOKAWA エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 出版・IP・ニコニコ（ドワンゴ）を擁するメディアミックス企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】KADOKAWAの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社KADOKAWAの平均年間給与は885万円です（2025年3月期 有価証券報告書・提出会社単体、平均年齢41.3歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 885万円（2025年3月期 有報）。株式会社KADOKAWA単体（約2,343名）の全社員平均で、出版・IP職を含みます。</li><li>・推移は2023年3月期857万円→2024年・2025年3月期は885万円（各期 有報）。エンジニアが多く所属するドワンゴ等の水準とは分けて読む必要があります。</li><li>・エンジニア職の提示額は応募する会社（ドワンゴ等）・ポジション・等級により幅があるため、個別求人・面談で確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           KADOKAWAは、出版を起点にアニメ・ゲーム・実写などのIP事業、教育（N高/角川ドワンゴ学園）、ニコニコ動画などのWebサービスを展開する東証プライム上場（証券コード9468）のメディアミックス企業です。エンジニアの多くは中核事業会社の株式会社ドワンゴ等に所属します。本ページでは、有価証券報告書・公式採用情報・公開技術情報をもとに、エンジニア転職の実態を整理します。
         </p>

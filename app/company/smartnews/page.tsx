@@ -62,6 +62,13 @@ export default function SmartNewsCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SmartNewsの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SmartNewsは非上場のため公式の全従業員平均年収（有価証券報告書）は非公表です。年収集計サイトに約1,300万円台という記載がありますが、これは公式値ではない参考値です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場で、上場企業の有報のような公式の全従業員平均年収は公表されていません。</li><li>・集計サイトの約1,300万円台は母数・算定方法・対象職種が不明な参考値で、公式値ではありません。</li><li>・少数精鋭で技術難易度が高く集計値が高めに出る可能性があり、実額は職種・経験で個人差が大きいため選考過程で確認が必要です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["SmartNews 公式 Engineering Blog", "SmartNews 公式採用ページ", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

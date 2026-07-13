@@ -87,6 +87,13 @@ export default function TimeeCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">タイミー エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | スキマバイトプラットフォームのエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】タイミー（Timee）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社タイミー（215A）の平均年間給与は約594万円です（新規上場時の有価証券報告書・2024年10月期・全社員平均、平均年齢31.5歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約594万円（2024年10月期・新規上場時 有報・全社員平均）。技術職に限らない全社員平均です。</li><li>・2024年7月上場で開示年数が限られ、長期推移は未蓄積のため単年の数値のみ掲載しています。</li><li>・エンジニア職限定の公式提示レンジは非公表。提示額はポジション・スキル評価で個別決定、求人で確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           株式会社タイミーは、スキマバイト（スポットワーク）マッチングプラットフォーム「タイミー」を運営する東証グロース上場（証券コード215A）の企業です。2024年7月に上場し、人手不足という社会課題にプロダクトで応えています。本ページでは、有価証券報告書・公式採用情報・公式技術ブログ・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

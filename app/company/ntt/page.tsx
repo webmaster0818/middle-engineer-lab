@@ -94,6 +94,13 @@ export default function NttCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">NTT（日本電信電話）エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | グループのR&Dを担う持株会社のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】NTT（日本電信電話）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（持株会社・日本電信電話株式会社単体）の平均年間給与は1,069万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢41.8歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,069万円（2025年3月期 有報・持株単体／全社員平均）。ドコモ・データ・東西など事業会社の数字とは異なります。</li><li>・推移は2021年3月期930万円→2023年3月期971万円→2024年3月期1,023万円→2025年3月期1,069万円と上昇傾向（各期 有報）。</li><li>・職種・等級別の公式レンジは非公表。提示は等級・役割で決まるため、求人・面談での確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           日本電信電話株式会社（NTT）は、グループ全体の経営戦略と基盤的研究開発（R&D）を担う東証プライム上場（証券コード9432）の持株会社です。通信・ITサービスはNTTドコモ、NTTデータグループ、NTT東日本／西日本などの事業会社が担っており、本ページが扱うのは<strong>持株会社（および直下のNTT研究所）</strong>です。有価証券報告書・公式採用情報・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

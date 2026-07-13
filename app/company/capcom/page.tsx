@@ -95,6 +95,13 @@ export default function CapcomCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">カプコン エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 内製エンジンRE ENGINEを擁する大手ゲーム企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】カプコンの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社カプコンの平均年間給与は918万円です（2025年3月期 有価証券報告書・提出会社単体／全社員平均、平均年齢38.0歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 918万円（2025年3月期 有報・単体全社員平均）。技術職に限らない全社平均です。</li><li>・業績連動型報酬を背景に2021年3月期603万円から2025年3月期918万円へと5年で300万円以上上昇（各期 有報）。</li><li>・持株会社を介さず上場会社自身が開発するため有報の数字が現場像に比較的近い一方、提示は等級・ポジションで幅があり個別求人でご確認ください。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           カプコンは、「モンスターハンター」「ストリートファイター」「バイオハザード」などを擁する東証プライム上場（証券コード9697）の大手ゲーム企業です。持株会社を持たず上場会社自身が開発・販売を行うため、有価証券報告書の数字が比較的そのまま現場像に近いのが特徴です。本ページでは、有価証券報告書・公式採用情報の公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

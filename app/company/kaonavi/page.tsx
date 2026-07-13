@@ -94,6 +94,13 @@ export default function KaonaviCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">カオナビ エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | タレントマネジメントSaaSのリーディングカンパニーのエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】カオナビの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社カオナビの平均年間給与は690万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢34.2歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 690万円（上場最終期の2025年3月期 有報・全社員平均）。技術職に限らない値です。</li><li>・推移は2021年3月期589万円から一貫して上昇し2025年3月期690万円（各期 有報）。ただし2025年のTOBで非公開化され、以降の同種数値の公開は限定されます。</li><li>・エンジニア職限定の公式な提示年収レンジは一次情報が乏しく非公表。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-sm text-amber-900 mb-6">
           <p>カオナビは2025年のTOB（公開買付け）成立により、同年6月に東証グロース市場を上場廃止・非公開化されました。本ページの有価証券報告書ベースの数値は、<strong>上場最終期である2025年3月期まで</strong>の公開情報に基づきます。非公開化以降の最新の年収・人員データは公開が限定されます。</p>
         </div>

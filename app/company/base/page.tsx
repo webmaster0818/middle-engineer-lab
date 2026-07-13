@@ -68,6 +68,13 @@ export default function BaseCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】BASE（ベイス）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: BASE株式会社の平均年間給与は700万円です（2024年12月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 700万円（2024年12月期 有報・単体全従業員平均）。エンジニア以外も含む平均で、職種別・等級別の内訳は非開示です。</li><li>・転職集計サイトでは約758万円とする値もありますが、当ガイドは一次情報である有報の700万円を優先しています。</li><li>・職種別の年収レンジは公式に常時開示されていないため、提示は自分の経験レンジに対し個別交渉・確認が必要です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["BASE 有価証券報告書（2024年12月期）", "BASE 公式採用サイト・技術ブログ", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

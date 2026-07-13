@@ -95,6 +95,13 @@ export default function SbiCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">SBIホールディングス エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | フィンテックを牽引する総合金融グループのエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SBIホールディングスの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SBIホールディングス（持株会社=提出会社）の平均年間給与は1,062万円です（2025年3月期 有価証券報告書・単体／全社員平均、平均年齢41.0歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,062万円（2025年3月期 有報・持株会社単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2021年3月期977万円から2025年3月期1,062万円へ増加傾向（各期 有報・持株会社単体）。</li><li>・SBI証券などグループ各社・エンジニア個人の年収は所属会社・職種・グレードで異なり、提示額は個別求人で確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           SBIホールディングスは、ネット証券（SBI証券）・ネット銀行・保険・資産運用・暗号資産など幅広い金融サービスを展開する東証プライム上場（証券コード8473）の総合金融グループです。大規模な金融取引システムからフィンテック・Web3まで、エンジニアの担当領域が広いのが特徴です。本ページでは、有価証券報告書・公式採用情報・グループ各社の技術発信の公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

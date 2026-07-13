@@ -114,6 +114,13 @@ export default function AccentureCompanyPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">アクセンチュア エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | 世界最大級のテクノロジーコンサルティング企業</p>
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】アクセンチュアの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: アクセンチュア日本法人は非上場で有価証券報告書がなく、公的な全社員平均年収は公表されていません。口コミ集計値では高水準とされますが、出典・対象が異なる参考値です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・日本法人は非上場・有報なしのため公式平均年収は確認できません（米Accenture plcはニューヨーク証券取引所上場）。</li><li>・職位（アナリスト／コンサルタント／マネージャー等）に応じた年俸制で、提示額はオファー面談で確認するのが確実です。</li><li>・参考としてIT職全般はレバテック2025年公表で30代約499万円・40代約618万円。アクセンチュア固有の値ではありません。</li></ul>
+        </div>
+
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
           アクセンチュアは、戦略立案からシステム構築・運用まで一気通貫で支援する世界最大級のテクノロジーコンサルティング企業です。本記事では、公式採用ページの採用領域・選考フロー、口コミの傾向を出典付きで整理します。日本法人は非上場で有価証券報告書がないため、年収は公的平均値ではなく公式情報・口コミ集計値で説明します。
         </p>

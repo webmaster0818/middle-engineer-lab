@@ -83,6 +83,13 @@ export default function LineYahooCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">LINEヤフー エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 国内最大級のユーザー基盤を持つ上場テック企業</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】LINEヤフーの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: LINEヤフー株式会社の平均年間給与は884万円です（2025年3月期・平均年齢38.4歳。有価証券報告書を集計した二次情報）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 884万円（2025年3月期・有報二次集計、全職種平均）。</li><li>・前年度（2024年3月期）の集計値は819万円で、近年は上昇傾向との報告があります。</li><li>・全職種平均であり、エンジニア職・グレード別の年収表は非公表。実際のレンジはオファー内容で確認してください。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-4">
           LINEヤフー株式会社（東証プライム上場）は、メッセンジャー「LINE」と「Yahoo! JAPAN」を中核に、検索・EC・決済・広告・AIなど幅広いサービスを展開する国内最大級のインターネット企業です。本ガイドは、有価証券報告書・公式採用情報・公開技術ブログ・口コミサイトの公開情報のみを根拠に、エンジニア中途採用の実像を出典付きで整理します。30代・40代のミドルエンジニアが「自分に勝ち目があるか」を判断できるよう、年収・選考・働き方を具体的に解説します。
         </p>

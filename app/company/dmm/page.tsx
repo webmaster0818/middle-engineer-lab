@@ -87,6 +87,13 @@ export default function DmmCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">DMM.com エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 50以上の事業を展開する非上場メガベンチャーのエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】DMM.comの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: DMM.com（合同会社DMM.com）の公式平均年収は非公表です（非上場の合同会社で有価証券報告書の提出義務がないため）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与・平均年齢とも公式には非公表。本ページでは出典のない年収額の創作は行っていません。</li><li>・口コミサイトの参考値はサンプル数・母集団が不明で、有報ベースの公式データとは性質が異なります。</li><li>・実際の提示額は募集ポジション・等級・スキルで決定されるため、公式求人票・エージェント経由での確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           DMM.com（合同会社DMM.com）は、動画配信・電子書籍・オンラインゲーム・オンライン英会話・FX/金融・太陽光発電など50以上の事業を展開する企業グループです。<strong>非上場の合同会社であり、上場企業のような有価証券報告書による平均年収の開示はありません。</strong>本ページでは、公式採用ページ・公式技術ブログ等の公開情報をもとに、創作した数値を用いずにエンジニア転職の実態を整理します。
         </p>

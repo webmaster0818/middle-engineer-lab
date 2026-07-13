@@ -90,6 +90,13 @@ export default function RakutenCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">楽天グループ エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | EC・フィンテック・モバイルの総合テックカンパニー</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】楽天グループの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 楽天グループ株式会社の全社員平均年収は820万円です（2024年12月期 有価証券報告書・平均年齢35.3歳・平均勤続年数5.8年）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 820万円（2024年12月期 有報）。技術職に限らない全社員平均です。</li><li>・エンジニア職に限定した公式な提示年収レンジは一次情報が乏しく、当ガイドでは断定していません。</li><li>・実際の提示額はポジション・グレードにより幅があるため、個別求人・エージェント経由での確認が現実的です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           楽天グループは、EC・フィンテック・モバイル通信など70以上のサービスを展開する東証プライム上場（証券コード4755）の総合テックカンパニーです。本ページでは、有価証券報告書・公式採用ページ・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

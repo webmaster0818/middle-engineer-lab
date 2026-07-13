@@ -101,6 +101,13 @@ export default function RakusCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ラクス エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 ｜「楽楽精算」などバックオフィスSaaSを展開する東証プライム企業</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ラクスの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ラクスの全社員平均年収は664万円です（2026年3月期 有価証券報告書・平均年齢32.7歳）。印刷のラクスル（4384）とは別会社です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 664万円（2026年3月期 有報）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年3月期619万円から緩やかに上昇し、2026年3月期は664万円（各期 有報）。平均年齢32.7歳と若めの組織での水準です。</li><li>・職種・等級別の公式な年収表は非公開。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           株式会社ラクス（証券コード3923・東証プライム）は、経費精算「楽楽精算」、電子請求書「楽楽明細」、メール共有「メールディーラー」などの自社SaaSを展開するクラウド企業です（印刷・物流のプラットフォーム企業ラクスル／RAKSUL・4384とは別会社です）。
           このページでは、有価証券報告書・公式採用ページ・公式技術ブログといった一次情報をもとに、ラクスへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミ傾向を、

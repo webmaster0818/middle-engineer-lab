@@ -83,6 +83,13 @@ export default function MetaCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">Meta Japan エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 業界最高水準の総報酬で知られるSNS・AI企業</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Meta Japanの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Meta Japan（Facebook Japan合同会社）は合同会社のため、有価証券報告書による公式の平均年収は非公表です。年収比較サイトlevels.fyi等で総報酬（基本給・株式報酬・ボーナスの合計）がレベル別に参考値として公開されています。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・公式平均は非公表（合同会社のため有報開示なし）。</li><li>・levels.fyi等の参考値では、シニア以上で株式報酬（RSU）が総報酬を大きく押し上げます（2026年時点・回答者ベース・変動大）。</li><li>・出典の取れる等級別年収表はなく、正確なレンジはオファー内容での確認が前提です。RSUは株価変動の影響を受けます。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-4">
           Meta（旧Facebook）の日本法人は、Instagram等のプロダクトやAI・インフラ領域に関わるエンジニアリング職を擁します。本ガイドは、公式採用ページ（metacareers.com）、年収比較サイトlevels.fyi、各種選考解説の公開情報のみを根拠に、エンジニア中途採用の実像を出典付きで整理します。合同会社のため有価証券報告書による年収開示がない点を踏まえ、年収は「変動の大きい参考値」として扱います。30代・40代のミドルエンジニアが現実的に準備を進められる情報を重視しました。
         </p>

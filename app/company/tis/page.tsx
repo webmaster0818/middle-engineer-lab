@@ -102,6 +102,13 @@ export default function TisCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">TIS エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 ｜ 決済・金融に強い国内大手SIer（TISインテックグループ中核）</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】TISの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: TIS株式会社の平均年間給与は828万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢40.7歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 828万円（2026年3月期 有報）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2022年3月期の741万円から上昇し、2026年3月期は828万円（各期 有報）。大手SIerの中でも高めの水準です。</li><li>・職種・等級別の公式な年収表は非公表。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           TIS株式会社（証券コード3626・東証プライム）は、システムインテグレーションを中核に、クレジット・決済プラットフォーム、業種別ソリューション、クラウド・DX支援を展開する国内大手SIer（TISインテックグループの中核会社）です。
           このページでは、有価証券報告書・公式キャリア採用サイト・公式技術情報サイト「Fintan」といった一次情報をもとに、TISへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミ傾向を、

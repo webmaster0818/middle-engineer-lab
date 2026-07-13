@@ -89,6 +89,13 @@ export default function JcbCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">JCB（ジェーシービー）エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 日本発の国際カードブランド・決済システムを支えるエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】JCBの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ジェーシービー（JCB）は非上場のため、公式の平均年収は非開示です（有価証券報告書での開示なし）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場企業であり、上場企業に義務づけられる有価証券報告書を提出していないため、平均年間給与・平均年齢といった全社員平均の年収データは公式に開示されていません。</li><li>・当ページでは出典のない年収額や推定値は記載していません（従業員数は4,472名・2026年3月時点、公式会社概要）。</li><li>・年収・処遇は募集ポジション・等級・経験により異なるため、具体的な提示額は個別求人の募集要項や面談・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           株式会社ジェーシービー（JCB）は、日本発唯一の国際カードブランド「JCB」を運営する総合決済サービス企業です。<strong>非上場企業のため有価証券報告書による平均年収等の開示はなく</strong>、本ページでは公式の会社概要・採用情報・公開情報をもとに、出典の明確な範囲でエンジニア転職の実態を整理します（年収額は創作せず、非開示は非開示と明記します）。
         </p>

@@ -95,6 +95,13 @@ export default function FutureCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">フューチャー（Future） エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 戦略から実装まで一気通貫するITコンサルティング企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】フューチャーの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: フューチャー株式会社の平均年間給与は841万円です（2024年12月期 有価証券報告書・親会社単体／全社員平均、平均年齢35.4歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 841万円（2024年12月期 有報・親会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2020年12月期773万円から上昇を続け、2024年12月期841万円（各期 有報）。</li><li>・エンジニア個人の年収はグレード・職種により異なり、公式な職種別レンジは非公表。求人票・面談で確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           フューチャー（Future）は、IT戦略の立案から要件定義・設計・実装・運用までを一気通貫で手がける東証プライム上場（証券コード4722）のITコンサルティング企業です。技術力を強みとし、上流のコンサルティングと実際のシステム開発の両方に関われる点が特徴で、自社プロダクト・SaaSの開発も行っています。本ページでは、有価証券報告書・公式採用情報・技術ブログの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

@@ -94,6 +94,13 @@ export default function GmoCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">GMOインターネットグループ エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | インターネットインフラ・決済・金融を支えるメガベンチャーのエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】GMOインターネットグループの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: GMOインターネットグループ株式会社（持株会社単体）の平均年間給与は693万円です（2024年12月期 有価証券報告書、平均年齢37.9歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 693万円（2024年12月期 有報・提出会社=持株会社単体約723名）。全社員平均です。</li><li>・推移は2022年12月期660万円から緩やかに上昇し、2024年12月期693万円（各期 有報）。</li><li>・これは持株会社の数字で、エンジニアが多く所属する各事業会社（GMOインターネット、GMOペイメントゲートウェイ等）の水準とは異なります。提示額は応募先の事業会社・求人で確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           GMOインターネットグループは、ドメイン・クラウド・セキュリティ・決済・ECなどのインターネットインフラ事業を中核に、広告/メディア・金融・暗号資産事業を展開する東証プライム上場（証券コード9449）の持株会社です。上場会社はGMOインターネットグループ株式会社（持株会社）で、実際の事業はGMOインターネット株式会社、GMOペイメントゲートウェイ等のグループ各社が担います。本ページでは、有価証券報告書・公式採用情報・公開技術情報をもとに、エンジニア転職の実態を整理します。
         </p>

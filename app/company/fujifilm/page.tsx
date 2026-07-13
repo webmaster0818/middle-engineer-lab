@@ -62,6 +62,13 @@ export default function FujifilmCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】富士フイルムの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 富士フイルムホールディングス（持株会社）単体の全従業員平均給与は約1,124万円です（2025年3月期 有価証券報告書、平均年齢43.5歳・賞与を含む全社員平均）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・約1,124万円は持株会社HD単体の全職種・全社員平均（2025年3月期 有報）。エンジニア職単独の平均ではありません。</li><li>・持株会社は本社機能・管理部門が中心のため平均が高めに出やすく、事業会社の従業員はこの平均に直接含まれません。</li><li>・職種別・等級別・事業会社別の年収レンジは非開示。応募する事業会社・職種の提示条件は求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["富士フイルムホールディングス 有価証券報告書（2025年3月期）", "富士フイルム 公式採用情報", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

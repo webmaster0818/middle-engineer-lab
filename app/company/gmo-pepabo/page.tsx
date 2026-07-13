@@ -95,6 +95,13 @@ export default function GmoPepaboCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">GMOペパボ エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | ホスティングからEC・ハンドメイドまで手がけるテック企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】GMOペパボの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: GMOペパボの平均年間給与は551万円です（2024年12月期 有価証券報告書・全社員平均、平均年齢36.0歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 551万円（2024年12月期 有報）。技術職に限らない全社員平均で、エンジニア個人の年収は職種・グレードにより異なります。</li><li>・推移は2020年12月期の489万円から緩やかに上昇し、2024年12月期に551万円（各期 有報）。</li><li>・職種・グレード別の公式な年収表は非公表。専門性の高いポジションや技術リード層は全社平均と異なる場合があり、求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           GMOペパボは、ホスティングサービス「ロリポップ！」、EC支援「カラーミーショップ」、ハンドメイドマーケット「minne」などを運営する東証スタンダード上場（証券コード3633）のテック企業です。インフラ寄りのホスティング基盤からtoC向けWebサービスまで、幅広い事業を持ち、Ruby文化と活発な技術発信で知られます。本ページでは、有価証券報告書・公式採用情報・技術ブログの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

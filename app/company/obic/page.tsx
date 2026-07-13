@@ -101,6 +101,13 @@ export default function ObicCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">オービック エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 ｜ 統合ERP「OBIC7」を一貫提供する高収益・高年収のIT企業</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】オービックの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社オービックの平均年間給与は1,129万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢35.8歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,129万円（2026年3月期 有報・全社員平均）。営業職等も含む全社員平均で、エンジニアに限った値ではありません。</li><li>・推移は2022年3月期959万円→2023年3月期1,005万円→2024年3月期1,078万円→2025年3月期1,103万円→2026年3月期1,129万円（各期 有報／IRBANK）。</li><li>・平均年齢35.8歳と若めながらIT/ERP企業でもトップクラス。職種・等級別の年収表は非公表で、提示額は求人ごとに個別決定されます。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           株式会社オービック（証券コード4684・東証プライム）は、統合基幹業務システム（ERP）「OBIC7」シリーズの開発・販売・導入・運用をワンストップで手がける高収益IT企業です。
           このページでは、有価証券報告書・公式採用ページといった一次情報をもとに、オービックへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミ傾向を、

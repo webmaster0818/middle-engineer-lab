@@ -96,6 +96,13 @@ export default function ShiftCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">SHIFT エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | ソフトウェアの品質保証（QA）を軸に急成長する東証プライム企業</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SHIFTの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SHIFT（提出会社単体）の平均年間給与は684万円です（2025年8月期 有価証券報告書・全社員平均、平均年齢38.0歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 684万円（2025年8月期 有報・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2021年8月期591万円から2025年8月期684万円へ毎期上昇傾向（各期 有報）。</li><li>・QA職・開発職など職種別の公式年収レンジは非公表。成果に応じた評価制度で、提示額は職務・等級・評価により個別決定です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           株式会社SHIFTは、ソフトウェアの品質保証（QA）・ソフトウェアテストを中核に、ソフトウェア開発やITコンサルティングまで手がける東証プライム上場（証券コード3697）企業です。独自のテスト方法論と「開発とテストの分業化」を武器に急成長し、エンジニア・QA人材を大規模に採用してきました。本ページでは、有価証券報告書・公式採用情報・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

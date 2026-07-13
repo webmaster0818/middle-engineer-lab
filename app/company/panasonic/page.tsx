@@ -92,6 +92,13 @@ export default function PanasonicCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">パナソニック エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 持株会社制とコネクト社のB2B/DXで変革する総合電機メーカー</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】パナソニックの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（パナソニック ホールディングス）の平均年間給与は956万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢44.0歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 956万円（2025年3月期 有報・HD提出会社ベース／全社員平均、平均勤続年数17.9年）。</li><li>・これは持株会社（HD）ベースの全社員平均で、パナソニック株式会社や各事業会社（コネクト等）、グループ全体の平均とは異なります。</li><li>・事業会社・職種別の公式レンジは非公表。具体額はエージェント・求人での確認が現実的です。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           パナソニックは持株会社制（パナソニック ホールディングス傘下に事業会社が並ぶ構造）を採り、IT/ソフトウェアエンジニアの主戦場は<strong>B2B/DXを担うパナソニック コネクト</strong>です。同社はSCM領域のSaaS企業<strong>Blue Yonder</strong>を取り込み、現場データ×AIによる付加価値創出を進めています。本ガイドでは、有価証券報告書・公式採用ページ・口コミプラットフォームなど<strong>出典が確認できる情報のみ</strong>を使い、エンジニア転職の実態を整理します。製造業の現場知識を持つミドルエンジニアにも接点の多い企業です。
         </p>

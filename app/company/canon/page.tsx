@@ -94,6 +94,13 @@ export default function CanonCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">キヤノン エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 光学・画像・組込みを中核とする精密大手のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】キヤノンの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: キヤノン株式会社の平均年間給与は約865.7万円です（2024年12月期 有価証券報告書・提出会社単体／全社員平均、平均年齢44.2歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約865.7万円（2024年12月期 有報・単体全社員平均）。技術職に限らない全社平均です。</li><li>・推移は2020年12月期769万円から一貫して上昇し、2024年12月期865.7万円（各期 有報）。</li><li>・エンジニア職限定の提示年収レンジは一次情報が乏しく断定しません。提示は等級・職務で幅があり個別求人でご確認ください。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           キヤノンは、複合機・プリンター、カメラ、メディカル、半導体露光装置などを手がける東証プライム上場（証券コード7751）の精密・電機大手です。光学・画像処理・組込みを中核技術とし、近年はAI（ディープラーニング）を製品に取り込む動きを強めています。本ページでは、有価証券報告書・公式採用情報・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

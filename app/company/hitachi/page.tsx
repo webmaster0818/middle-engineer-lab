@@ -92,6 +92,13 @@ export default function HitachiCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">日立製作所 エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ Lumada・GlobalLogic・ジョブ型採用で変革する総合電機・社会インフラ企業</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】日立製作所の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 日立製作所の平均年間給与は961万円です（2025年3月期 有価証券報告書・提出会社単体の全社員平均、平均年齢42.6歳・平均勤続18.7年）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 961万円（2025年3月期 有報）。株式会社日立製作所単体の全従業員平均で、特定職種の数値ではありません。</li><li>・エンジニア職に限定した公式の年収レンジは公表されていません。日本経済新聞の企業年収データなど二次情報も同水準（約961万円）を報じています。</li><li>・具体的な提示年収は募集職種・経験・現年収により変動するため、求人票かエージェント経由で確認するのが確実です。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           日立製作所は「デジタルシステム&サービス」を中核に、IoT/AIプラットフォーム<strong>Lumada</strong>とGlobalLogicの買収を通じてグローバルなデジタルエンジニアリング企業への変革を進めています。本ガイドでは、有価証券報告書・公式採用ページ・口コミプラットフォームなど<strong>出典が確認できる情報のみ</strong>を使い、エンジニア転職に必要な実データを整理します。製造業・社会インフラの現場からIT/DX領域へキャリアを広げたいミドルエンジニアにとっても示唆の多い企業です。
         </p>

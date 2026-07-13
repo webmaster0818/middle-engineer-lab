@@ -62,6 +62,13 @@ export default function PayPayCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】PayPayの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: PayPayは非上場で有価証券報告書がなく、公式の全社員平均年収は非公表です（当ガイド調査時点で確認できず）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場で有報の提出義務がないため、上場企業のような公式の平均年間給与は存在しません（PayPay公式採用ページ・技術ブログの範囲で確認）。</li><li>・転職クチコミ・年収集計サイトの数値は母数・算定方法が不明な参考値であり、当ガイドでは具体的な平均額を断定していません。</li><li>・提示額は職種・等級・経験で個人差が大きいため、実額はエージェントや選考過程で確認するのが現実的です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["PayPay 公式技術ブログ（PayPay Inside-Out / blog.paypay.ne.jp）", "PayPay 公式採用ページ", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

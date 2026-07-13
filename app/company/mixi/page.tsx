@@ -94,6 +94,13 @@ export default function MixiCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">MIXI（ミクシィ）エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | ゲーム・スポーツ・ライフスタイルを展開するエンタメ企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】MIXI（ミクシィ）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社MIXIの平均年間給与は791万円です（2025年3月期 有価証券報告書・提出会社単体、平均年齢37.4歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 791万円（2025年3月期 有報・単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・緩やかな上昇傾向で、2024年3月期746万円から2025年3月期791万円（各期 有報・単体）。</li><li>・エンジニア職限定の公式な提示年収レンジは非公表。提示額は等級・職種で変動するため個別求人での確認が確実です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           MIXI（ミクシィ）は、スマホゲーム「モンスターストライク」、公営競技サービス「TIPSTAR」、家族向け写真・動画アプリ「家族アルバム みてね」などを展開する東証プライム上場（証券コード2121）のエンタメ企業です。本ページでは、有価証券報告書・公式採用情報・公式技術ブログ・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

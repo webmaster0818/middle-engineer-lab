@@ -95,6 +95,13 @@ export default function KoeiTecmoCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">コーエーテクモ エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 無双・信長の野望・仁王等を擁する歴史IPに強いゲーム企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】コーエーテクモの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 持株会社コーエーテクモホールディングス（3635）の有価証券報告書では、提出会社の平均年間給与は793万円です（2025年3月期・平均年齢38.2歳）。ただし持株会社=提出会社（対象約113名）の数字です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 793万円（2025年3月期 有報・持株会社=提出会社、対象約113名）。</li><li>・推移は2024年3月期の810万円から2025年3月期は793万円（各期 有報・持株会社）。</li><li>・実際にゲームを開発するコーエーテクモゲームスの従業員は含まれず、開発職の提示水準とは性質が異なります。提示額は個別求人での確認が確実です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           コーエーテクモは、「信長の野望」「三國志」「無双シリーズ」「仁王」などを擁するゲーム企業です。上場しているのは持株会社の株式会社コーエーテクモホールディングス（証券コード3635・東証プライム）で、実際のゲーム開発は事業会社である株式会社コーエーテクモゲームスが担います。本ページでは、有価証券報告書・公式採用情報の公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

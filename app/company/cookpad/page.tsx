@@ -69,6 +69,13 @@ export default function CookpadCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】クックパッドの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: クックパッド株式会社の平均年間給与は約948万円です（2024年12月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。ただし事業再編で従業員が約100名規模に縮小しており、中核人材中心で平均が高めに出ている可能性があります。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 約948万円（2024年12月期 有報・単体全従業員平均）。エンジニア以外も含む平均です。</li><li>・事業再編で従業員が約100名規模に縮小し、中核人材中心の構成のため平均が高めに出ている可能性に留意が必要です。</li><li>・職種別・等級別の年収レンジは非開示。当ガイドでは創作した数値表は掲載していません。実額は求人・面談でご確認ください。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["クックパッド 有価証券報告書（2024年12月期）", "クックパッド開発者ブログ（techlife）", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

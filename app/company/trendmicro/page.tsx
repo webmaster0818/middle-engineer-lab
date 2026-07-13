@@ -101,6 +101,13 @@ export default function TrendmicroCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">トレンドマイクロ エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 ｜ サイバーセキュリティのグローバル大手</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】トレンドマイクロの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: トレンドマイクロ株式会社の平均年間給与は988万円です（2025年12月期 有価証券報告書・全社員平均、平均年齢40.3歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 988万円（2025年12月期 有報）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2022年12月期885万円・2024年12月期900万円から上昇し、2025年12月期は988万円（各期 有報。一部の期は公表値が確認できず）。</li><li>・職種・等級別の公式な年収表は非公表。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           トレンドマイクロ株式会社（証券コード4704・東証プライム）は、クラウド・ネットワーク・エンドポイントを横断するサイバーセキュリティのプラットフォームを提供するグローバル企業です。
           このページでは、有価証券報告書・公式採用情報・技術リサーチといった一次情報をもとに、トレンドマイクロへのエンジニア転職の難易度・年収・技術領域・選考フロー・口コミ傾向を、

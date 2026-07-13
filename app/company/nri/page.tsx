@@ -119,6 +119,13 @@ export default function NriCompanyPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">野村総合研究所(NRI) エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | 金融IT最高峰・コンサル×テクノロジーの融合企業</p>
+
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】NRI（野村総合研究所）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 全社員平均の平均年収は1,322万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢39.9歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 1,322万円（2025年3月期 有報、平均年齢39.9歳）。管理職・コンサル職を含む全社員平均です。</li><li>・東証プライム上場（証券コード4307）の高年収企業で、役職・等級により年収の幅が大きい構造です。</li><li>・エンジニア職（ITソリューション部門）の個別レンジは非公表。実際の提示額は求人票・オファー面談での確認が必要です。</li></ul>
+        </div>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
           野村総合研究所（NRI）は、経営/システムコンサルティングとITソリューションを一社で完結させる国内有数のIT企業です。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典付きで整理し、30代・40代エンジニアが転職を判断するための材料をまとめます。
         </p>

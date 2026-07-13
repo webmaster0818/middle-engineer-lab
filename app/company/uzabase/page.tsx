@@ -94,6 +94,13 @@ export default function UzabaseCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ユーザベース エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 経済情報プラットフォーム企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ユーザベースの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ユーザベースの平均年間給与は約760万円です（2021年12月期 有価証券報告書・全社員平均、平均年齢33.0歳／上場最終期付近）。2023年2月の非公開化以降は同種数値の公開が限定されます。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約760万円（2021年12月期 有報）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2018年12月期の約670万円から上昇し、2020年12月期約797万円・2021年12月期約760万円（各期 有報）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表。提示額はスキル評価で個別決定されるため、個別求人・面談で確認が必要です。</li></ul>
+        </div>
+
         <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-sm text-amber-900 mb-6">
           <p>ユーザベースは2022年のTOB（公開買付け）成立により、2023年2月に東証マザーズ市場を上場廃止・非公開化されました。本ページの有価証券報告書ベースの数値は、<strong>上場最終期付近である2021年12月期まで</strong>の公開情報に基づきます。非公開化以降の最新の年収・人員データは公開が限定されます。</p>
         </div>

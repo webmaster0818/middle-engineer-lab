@@ -87,6 +87,13 @@ export default function ClassmethodCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">クラスメソッド エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | AWSプレミアティアパートナー・技術発信に強いクラウド企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】クラスメソッドの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: クラスメソッド株式会社は非上場で有価証券報告書がなく、平均年収は公式に開示されていません。本ガイドでは推測による年収額の創作は行いません。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場・有報なしのため公式の平均年収は非開示。提示額はポジション・グレードにより幅があります。</li><li>・参考としてレバテック2025年公表の正社員SEは30代約499万円・40代約618万円。クラウド/AWS領域は専門性次第で市場水準を上回る可能性があります。</li><li>・具体的な提示水準は求人情報・面談、またはエージェント経由の想定年収でご確認ください。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           クラスメソッドは、AWSをはじめとするクラウドのコンサルティング・導入・運用や、データ分析、モバイル／Web開発、生成AI活用支援などを手がける非上場のIT企業です。AWSパートナープログラムの最上位ティアであるプレミアティアサービスパートナーに認定され、自社技術ブログ「DevelopersIO」での活発な技術発信で知られます。本ページでは、公式採用情報・公式発表・技術ブログの公開情報をもとに、エンジニア転職の実態を整理します。なお、<strong>クラスメソッドは非上場のため有価証券報告書がなく、平均年収は公式に開示されていません</strong>。本ページでは年収額の創作は行いません。
         </p>

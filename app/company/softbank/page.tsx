@@ -92,6 +92,13 @@ export default function SoftbankCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ソフトバンク エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 通信×AI×法人DXの総合テクノロジー企業</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ソフトバンクの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: ソフトバンク株式会社（9434・提出会社）の平均年間給与は849万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢41.7歳／平均勤続14.5年）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 849万円（2025年3月期 有報・提出会社の全社員平均）。エンジニア職限定の数値ではありません。</li><li>・ソフトバンクグループ（9984）とは別法人。日本経済新聞の企業年収データなど二次情報も同水準（約849万円）です。</li><li>・職種別の公式年収レンジは非公表。賞与・インセンティブが業績連動で上振れするとの口コミあり。提示条件は求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           ソフトバンク株式会社（証券コード9434）は、コンシューマ通信を基盤に、<strong>AI・5G・法人DX</strong>へ事業を広げる総合テクノロジー企業です。公式キャリア採用ページでは、AI/MLエンジニアやAIプラットフォーム構築エンジニア、AI-RAN関連など、AI・データ・研究開発領域の募集職種が具体的に公開されています。本ガイドでは、有価証券報告書・公式採用ページ・口コミプラットフォームなど<strong>出典が確認できる情報のみ</strong>を使い、エンジニア転職の実態を整理します。
         </p>

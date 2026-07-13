@@ -96,6 +96,13 @@ export default function SmarthrCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">SmartHR エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 ｜ 人事労務SaaSのリーディングカンパニー</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SmartHRの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SmartHRは非上場のため公式の全社員平均年収（有価証券報告書）は非公表です。公式求人（doda掲載の技術職）の想定年収レンジは、一般ポジション700万〜1,000万円台、上位・シニア1,000万〜1,500万円台です（2026年6月時点・求人提示例）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場で有報による全社員平均は存在しません。掲載値は公式求人の想定年収レンジです。</li><li>・技術職（一般）700万〜1,000万円台、技術職（上位・シニア）1,000万〜1,500万円台（doda掲載・2026年6月時点）。</li><li>・想定年収は「月次給与×12＋成果給」で算出し、年2回の評価で等級・金額を個別決定。実額は求人ごとに確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           株式会社SmartHRは、人事・労務クラウド「SmartHR」を中心にHR領域のSaaSを展開する企業です。
           このページでは、公式採用ページ・公式技術ブログ（SmartHR Tech Blog）・公開求人といった一次情報をもとに、SmartHRへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミ傾向を、

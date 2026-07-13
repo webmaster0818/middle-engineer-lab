@@ -98,6 +98,13 @@ export default function ZozoCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ZOZO エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 日本最大級のファッションECプラットフォーム</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ZOZOの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ZOZOの平均年間給与は656万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢34.3歳）。前期692万円からは減少しています。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 656万円（2025年3月期 有報）。販売・物流など全職種を含む全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2021年3月期547万円から上昇し2024年3月期692万円、2025年3月期は656万円に減少（各期 有報）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表。提示額はポジション・グレードで幅があるため、求人・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           ZOZOは、ファッションEC「ZOZOTOWN」と計測技術などのファッションテックを展開する東証プライム上場（証券コード3092）のテックカンパニーです。本ページでは、有価証券報告書・公式採用ページ・公式技術ブログ・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

@@ -63,6 +63,13 @@ export default function TenXCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】10X（テンエックス）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社10Xは非上場のため、有価証券報告書による全社員平均年収は公表されていません。集計サイトの数値も公式値ではない参考値です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場ゆえ公式の平均年収は存在せず（有報なし）、集計サイトの値も公式値ではない参考値です。</li><li>・当ガイドでは創作した等級別年収表は掲載していません。提示額は職種・等級・スキルにより幅があります。</li><li>・フルDartという希少スキルは中長期の市場価値につながり得ます。正確な提示額は応募・面談でご確認ください。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["10X 公式採用サイト", "10X Product Blog（技術発信）", "集計サイトの年収参考値（公式値ではない）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

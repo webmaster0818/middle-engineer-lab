@@ -102,6 +102,13 @@ export default function FujiSoftCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">富士ソフト エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 ｜ 組込みから業務システム・AIまで幅広く手がける独立系総合SIer</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】富士ソフトの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 富士ソフト株式会社の平均年間給与は640万円です（2024年12月期 有価証券報告書・全社員平均、平均年齢35.6歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 640万円（2024年12月期 有報・単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2020年12月期590万円から上昇傾向で、2024年12月期は640万円（各期 有報・IRBANK）。</li><li>・職種・等級別の公式な年収表は非公表。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           富士ソフト株式会社（証券コード9749・東証プライム）は、組込み・制御系ソフトウェアから業務系システム開発（SI）、インフラ構築、AI・ロボットまで幅広く手がける独立系の総合SIerです。
           このページでは、有価証券報告書・公式採用ページといった一次情報をもとに、富士ソフトへのエンジニア転職の難易度・年収・技術領域・選考フロー・口コミ傾向を、

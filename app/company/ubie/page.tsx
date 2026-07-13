@@ -68,6 +68,13 @@ export default function UbieCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Ubieの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Ubieは非上場のため公式の全社員平均年収は公表されていません。公式採用ページ提示の職種別レンジが最も信頼できる一次情報です（例: プロダクトマネージャー 800〜1,200万円）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収は非公表（非上場・有価証券報告書なし）。集計サイトの数値は公式値ではない参考値です。</li><li>・公式採用ページの職種別レンジ例: プロダクトマネージャー 800〜1,200万円、QA・事業開発など 600〜1,200万円。</li><li>・エンジニア職の等級別レンジは時期により変動。具体的な提示額は応募・面談で確認が必要です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["Ubie 公式採用サイト（職種別年収レンジ）", "Ubie 技術発信（Zenn等のEngineering記事）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

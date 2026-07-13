@@ -78,6 +78,13 @@ export default function KakehashiCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】カケハシの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: カケハシは非上場のため、有価証券報告書による公式の全社員平均年収は非公表です。集計サイトの参考値は年代別で30代約770万円・40代約830万円ですが、いずれも公式値ではありません。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場企業のため、上場企業のような有報ベースの全社員平均年収は存在しません。</li><li>・集計サイトの参考値は全体で456〜1,000万円程度、年代別で20代約550万円・30代約770万円・40代約830万円（いずれも公式値ではない参考値・2026年6月時点）。</li><li>・等級別の細かい年収表は公式に開示されていないため創作していません。正確な提示額は職種・等級・スキルにより幅があり、応募・面談で確認が必要です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["カケハシ 公式採用サイト（選考フロー・技術情報）", "カケハシ 技術発信（Engineering）", "集計サイトの年収参考値（公式値ではない）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

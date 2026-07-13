@@ -94,6 +94,13 @@ export default function RicohCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">リコー エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 複合機メーカーからデジタルサービス企業へ転換する大手のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リコーの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社リコー（提出会社単体）の平均年間給与は860万円です（2025年3月期 有価証券報告書・平均年齢45.4歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 860万円（2025年3月期 有報・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2021年3月期802万円から緩やかに上昇し、2025年3月期は860万円（各期 有報）。</li><li>・エンジニア職に限定した公式な提示レンジは非公開。提示額は等級・役割により幅があるため、個別求人・面談で確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           リコーは、複合機・プリンターを源流に、ITサービスや業務プロセス変革支援を含む「デジタルサービスの会社」への構造転換を進める東証プライム上場（証券コード7752）の電機・精密大手です。本ページでは、有価証券報告書・公式採用情報・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

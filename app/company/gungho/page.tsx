@@ -95,6 +95,13 @@ export default function GungHoCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ガンホー エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | パズドラを運営するモバイル/オンラインゲーム企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ガンホーの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: ガンホーの平均年間給与は750万円です（2024年12月期 有価証券報告書・提出会社=単体全社員平均、平均年齢41.7歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 750万円（2024年12月期 有報）。技術職に限らない全社員平均で、ガンホーは12月決算です。</li><li>・推移は2020年12月期の645万円から緩やかに上昇し、2022年12月期・2024年12月期はともに750万円（各期 有報）。</li><li>・職種・等級別の公式な年収表は非公表。エンジニア個人の提示額は募集ポジション・等級により異なるため、求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           ガンホー・オンライン・エンターテイメントは、「パズル＆ドラゴンズ（パズドラ）」を主力とする東証プライム上場（証券コード3765）のゲーム企業です。モバイルゲームを中心に、PCオンライン・家庭用ゲームの企画・開発・運営・配信を行います。コンシューマ専業の各社とは異なり、長期運用タイトルのサーバーサイドやUnity/C#でのモバイル開発が中心です。本ページでは、有価証券報告書・公式採用情報の公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

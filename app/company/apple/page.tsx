@@ -83,6 +83,13 @@ export default function AppleCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">Apple Japan エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 世界最高峰のプロダクトを支えるエンジニア組織</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Apple Japanの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Apple Japanは合同会社のため有価証券報告書による平均年収の公式開示がありません。OpenWork集計では全社平均700万円台、エンジニア・専門職では2,000万円超の回答例も見られます（2026年時点・変動大）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・合同会社ゆえ公式の平均年収は非公表。OpenWork集計で全社平均は700万円台（2026年時点の口コミ参考値）。</li><li>・エンジニア・専門職では株式報酬（RSU）等を含め2,000万円超の回答例もありますが、職種・等級・回答者の偏りで大きく変動します。</li><li>・参考としてレバテック2025年公表の正社員SEは30代約499万円・40代約618万円。正確なレンジはオファー内容でご確認ください。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-4">
           Apple Japan合同会社は、iPhone・Mac・Apple Watch等を支えるソフトウェア／ハードウェア開発、機械学習、品質、ローカライゼーションなどのエンジニアリング職を擁する日本法人です。本ガイドは、公式採用ポータル（jobs.apple.com）と口コミサイトの公開情報のみを根拠に、エンジニア中途採用の実像を出典付きで整理します。合同会社のため有価証券報告書による年収開示がない点を踏まえ、年収は「変動の大きい参考値」として扱います。30代・40代のミドルエンジニアが現実的に判断できる情報を重視しました。
         </p>

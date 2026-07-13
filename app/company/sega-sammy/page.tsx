@@ -95,6 +95,13 @@ export default function SegaSammyCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">セガ（セガサミーHD）エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | ソニック・龍が如く等を擁する大手ゲーム企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】セガ（セガサミーHD）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 有価証券報告書上の平均年間給与は939万円ですが、これは持株会社セガサミーHD（6460・提出会社／全社員平均、平均年齢42.6歳、2025年3月期）の数値で、開発現場の水準ではありません。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・持株会社=提出会社の平均年間給与 939万円（2025年3月期 有報）。ゲーム開発を担う株式会社セガ等の従業員は含まれません。</li><li>・推移は2021年3月期744万円から2025年3月期939万円へ増加（各期 有報・持株会社）。</li><li>・実際にゲームを開発するのは事業会社（株式会社セガ等）で、エンジニアの提示額はポジション・等級により個別。求人で確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           セガは、「ソニック」「龍が如く」「ペルソナ」などを擁する大手ゲーム企業です。上場しているのは持株会社のセガサミーホールディングス株式会社（証券コード6460・東証プライム）で、実際のゲーム開発は事業会社である株式会社セガ等が担います。本ページでは、有価証券報告書・公式採用情報の公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

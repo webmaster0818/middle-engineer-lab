@@ -93,6 +93,13 @@ export default function GreeCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">グリー（GREE）エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | ゲーム・メタバースを軸とするエンタメ・テック企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】グリー（GREE）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: グリーホールディングスの平均年間給与は865万円です（2025年6月期 有価証券報告書・提出会社＝持株会社単体、平均年齢40.2歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 865万円（2025年6月期 有報）。ただし2024年10月の持株会社移行後の数字で、持株会社単体の在籍者は123名と少数です。</li><li>・実際の開発を担うのは事業会社グリー株式会社等であり、この単体平均がエンジニア全体の給与水準をそのまま示すものではありません。</li><li>・エンジニア職の提示額は応募する事業会社・ポジション・等級により幅があるため、個別求人・面談で確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           グリー（GREEグループ）は、ゲーム事業を中核に、メタバースサービス「REALITY」、DX・コマース・広告事業を展開するエンタメ・テック企業です。2024年10月に持株会社体制へ移行し、上場会社はグリーホールディングス株式会社（東証プライム・証券コード3632）、実際の事業運営はグリー株式会社等が担います。本ページでは、有価証券報告書・公式採用情報・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

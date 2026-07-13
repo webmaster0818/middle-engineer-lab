@@ -95,6 +95,13 @@ export default function ScskCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">SCSK エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 住友商事グループの中核を担うフルラインナップ大手SIer</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SCSKの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SCSK（提出会社単体）の平均年間給与は796万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢約42.7歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 796万円（2026年3月期 有報・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2022年3月期752万円から2026年3月期796万円へ上昇傾向（各期 有報）。2025年3月期は787万円。</li><li>・平均勤続年数16.7年とベテラン中心で平均年収は高く出やすく、職種別の公式年収表は非公表。提示額は等級・職務で個別決定です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           SCSK株式会社は、住友商事グループの中核IT企業として、コンサルティングからシステム開発・検証・ITインフラ構築・運用・BPOまでをフルラインナップで提供する東証プライム上場（証券コード9719）の大手SIerです。働き方改革と待遇改善に早くから取り組んできた企業としても知られます。本ページでは、有価証券報告書・公式採用情報・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

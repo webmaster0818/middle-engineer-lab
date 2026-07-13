@@ -94,6 +94,13 @@ export default function NoteCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">note エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | メディアプラットフォーム企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】noteの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: note株式会社の平均年間給与は763万円です（2025年11月期 有価証券報告書・全社員平均、平均年齢39.4歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 763万円（2025年11月期 有報・全社員平均）。技術職に限らない全社員平均値です。</li><li>・推移は2022年11月期680万円→2023年11月期700万円→2024年11月期699万円→2025年11月期763万円と上場以降は上昇傾向（各期 有報）。</li><li>・職種・等級別の公式レンジは非公表。提示額はスキル評価で個別決定されるため、求人票・面談での確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           note株式会社は、クリエイターが文章・画像・音声・動画を投稿できるメディアプラットフォーム「note」を運営する東証グロース上場（証券コード5243）のテックカンパニーです。本ページでは、有価証券報告書・公式採用情報・公式エンジニアブログ・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

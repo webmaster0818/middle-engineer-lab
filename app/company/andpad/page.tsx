@@ -69,6 +69,13 @@ export default function AndpadCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ANDPAD（アンドパッド）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社アンドパッドは非上場で有価証券報告書による全社員平均年収は存在せず、Indeed等の集計ではエンジニア約731万円という参考値が見られます（公式値ではない参考値・2026年6月時点）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・集計サイト（Indeed等）のエンジニア参考値は約731万円（公式値ではない参考値・2026年6月時点）。</li><li>・非上場のため公式の全社員平均・等級別年収表は開示なし。当ガイドでは創作した数値表は掲載していません。</li><li>・プレIPOのため報酬にストックオプション等が含まれる場合がありますが、価値は将来のIPOに依存し不確定です。実額は面談でご確認ください。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["ANDPAD 公式採用サイト", "ANDPAD 技術ブログ（tech.andpad.co.jp）", "Indeed等の年収参考値（公式値ではない）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

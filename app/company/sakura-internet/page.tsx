@@ -95,6 +95,13 @@ export default function SakuraInternetCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">さくらインターネット エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | データセンター・クラウドを自社運営するインフラ企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】さくらインターネットの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: さくらインターネット株式会社の全社員平均年収は612万円です（2025年3月期 有価証券報告書・平均年齢37.9歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 612万円（2025年3月期 有報）。技術職に限らない全社員平均です。</li><li>・推移は2021年3月期519万円から一貫して上昇し、2025年3月期は612万円（各期 有報）。</li><li>・専門性の高いインフラ・SREポジションでは全社平均と異なる水準が提示される場合があり、実額は個別求人・面談で確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           さくらインターネットは、データセンターを自社で運営し、IaaS「さくらのクラウド」や生成AI向けGPUクラウドを提供する東証プライム上場（証券コード3778）のインフラ企業です。レンタルサーバーから大規模クラウド基盤まで、低レイヤーを含むインフラ技術が事業の中核にある点が特徴です。本ページでは、有価証券報告書・公式採用情報・技術ブログの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

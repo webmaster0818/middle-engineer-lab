@@ -112,6 +112,14 @@ export default function RecruitCompanyPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">リクルート エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | 国内最大級のプロダクト群を持つテック企業</p>
+
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リクルートの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 事業会社リクルート単独は非上場で有報がなく、持株会社リクルートホールディングス（6098）の有価証券報告書（2025年3月期）で全社員平均年収1,145万円（平均年齢40.5歳）が公表されています。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・1,145万円は持株会社の全社員平均であり、エンジニア（テクノロジー職）に限定した値ではありません（2025年3月期 有報）。</li><li>・ミッショングレード制で年次より職務価値に応じて報酬が決まるため、高い価値の職務を担うほど水準は上がります。</li><li>・エンジニア職に限った提示レンジは公式に統一公開されていないため、正確な提示額は公式求人・面談で確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
           株式会社リクルートは、SUUMO・ホットペッパー・Airシリーズなど国内最大級のプロダクト群を運営する事業会社で、東証プライム上場のリクルートホールディングス（6098）傘下にあります。
           本ガイドでは、持株会社の有価証券報告書・公式採用ページ・技術発信・口コミサイトの傾向という一次／公開情報のみをもとに、エンジニア（テクノロジー職）転職の実像を整理します。

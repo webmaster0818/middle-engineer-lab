@@ -62,6 +62,13 @@ export default function IbmCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】日本IBMの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 日本IBMは非上場（米IBMの日本法人）のため、公式の全社員平均年収は非公表です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・上場企業のような有価証券報告書での公式な平均年収は存在しません。OpenMoney等の年収集計サイトに約912〜920万円との記載がありますが、これは口コミ集計の参考値で公式値ではありません。</li><li>・等級はバンド制（職務等級）で、AI・クラウドなどの先端領域は高バンド傾向とされます。バンド別の公式な年収表は確認できないため掲載していません。</li><li>・実額はバンド・職務・経験により個人差が大きいため、選考過程やエージェントを通じて提示内訳を確認するのが現実的です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["日本IBM 公式採用ページ", "OpenMoney（年収集計・公式値ではない参考値）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

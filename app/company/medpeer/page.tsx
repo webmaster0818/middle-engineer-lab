@@ -102,6 +102,13 @@ export default function MedPeerCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">メドピア エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 ｜ 医師向けプラットフォームを核に医療DXを進めるヘルステック企業</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】メドピアの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: メドピア株式会社の平均年間給与は618万円です（2024年9月期 有価証券報告書・単体／全社員平均、平均年齢35.8歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 618万円（2024年9月期 有報・単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・近年は600万円前後で推移し、2023年9月期615万円から2024年9月期618万円（各期 有報・単体）。</li><li>・職種・等級別の公式な年収表は非公表。提示額はスキル評価で個別決定されるため求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           メドピア株式会社（証券コード6095・東証プライム）は、医師向けプラットフォーム「MedPeer」を中核に、ヘルスケアソリューション・医療機関支援・予防医療などを展開する医療×ITのヘルステック企業です。
           このページでは、有価証券報告書・公式採用ページ・技術発信といった一次情報をもとに、メドピアへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミ傾向を、

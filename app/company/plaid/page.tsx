@@ -114,6 +114,14 @@ export default function PlaidCompanyPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">プレイド エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | CXプラットフォーム「KARTE」を提供する東証グロース上場のデータテック企業</p>
+
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】プレイドの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社プレイドの全社員平均年収は939万円です（2025年9月期 有価証券報告書・平均年齢35.2歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 939万円（2025年9月期 有報）。エンジニア職限定の数値ではありません。</li><li>・推移は2023年9月期の1,040万円をピークに、2024年9月期955万円→2025年9月期939万円と低下（各期 有報）。</li><li>・職種・グレード別の公式な年収表は非公開。実際の提示額は公式求人・面談で確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
           株式会社プレイド（証券コード4165）は、Webサイト・アプリの訪問者をリアルタイム解析するCXプラットフォーム「KARTE」を提供する上場テック企業です。
           本ガイドでは、有価証券報告書・公式採用ページ・技術ブログ・口コミサイトの傾向という一次／公開情報のみをもとに、エンジニア転職の実像を整理します。

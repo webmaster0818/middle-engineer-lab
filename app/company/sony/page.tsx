@@ -70,6 +70,13 @@ export default function SonyCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ソニーグループの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 有価証券報告書上の平均年間給与は1,118万円ですが、これは持株会社ソニーグループ株式会社（6758・提出会社単体、全従業員平均、平均年齢42.5歳、2025年3月期）の数値で、事業会社の現場エンジニアの水準を直接表すものではありません。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・提出会社=持株会社単体の平均年間給与 1,118万円（2025年3月期 有報・全従業員平均、対象2,445名）。</li><li>・持株会社のコーポレート機能中心の数値で、PlayStation・半導体などの事業会社の現場エンジニア年収を直接表しません。</li><li>・職種別・等級別（ジョブグレード制）の年収は非公開。提示は内定時に事業会社単位で個別確認が必要です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["ソニーグループ 有価証券報告書（2025年3月期）", "ソニー各社 公式採用サイト", "日本経済新聞 会社情報", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

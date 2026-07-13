@@ -105,6 +105,13 @@ export default function MoneyforwardCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">マネーフォワード エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 ｜ フィンテックSaaSのリーディングカンパニー</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】マネーフォワードの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社マネーフォワードの平均年間給与は723万円です（2025年11月期 有価証券報告書・全社員平均、平均年齢34.3歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 723万円（2025年11月期 有報）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・直近5年で648万円から723万円へ上昇傾向（各期 有報）。</li><li>・職種・等級別の公式な年収表は非公表。提示額はスキル評価で個別決定されるため求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-700 leading-relaxed mb-6">
           株式会社マネーフォワード（証券コード3994・東証プライム）は、個人向け家計簿アプリ「マネーフォワード ME」や法人向けクラウドサービス「マネーフォワード クラウド」などを展開するフィンテックSaaSの代表的企業です。
           このページでは、有価証券報告書・公式採用ページ・公式技術ブログといった一次情報をもとに、マネーフォワードへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミ傾向を、

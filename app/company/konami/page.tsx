@@ -95,6 +95,13 @@ export default function KonamiCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">コナミ エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | eFootball・遊戯王・桃鉄等を擁する総合エンタメ企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】コナミの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 持株会社コナミグループ（9766）の有価証券報告書では、提出会社の平均年間給与は789万円です（2025年3月期・平均年齢35.6歳）。ただし持株会社=提出会社（対象約250名）の数字です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 789万円（2025年3月期 有報・持株会社=提出会社、対象約250名）。</li><li>・推移は2024年3月期の710万円から2025年3月期は789万円（各期 有報・持株会社）。</li><li>・実際にゲームを開発するコナミデジタルエンタテインメント等の従業員は含まれず、開発職の提示水準とは性質が異なります。提示額は個別求人での確認が確実です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           コナミは、「eFootball」「遊戯王」「桃太郎電鉄」「メタルギア」などを擁する総合エンタテインメント企業です。上場しているのは持株会社のコナミグループ株式会社（証券コード9766・東証プライム）で、実際のゲーム開発は事業会社である株式会社コナミデジタルエンタテインメント等が担います。本ページでは、有価証券報告書・公式採用情報の公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

@@ -93,6 +93,13 @@ export default function ColoplCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">コロプラ エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | モバイルゲームを主力とするエンタテインメント企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】コロプラの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社コロプラの平均年間給与は681万円です（2025年9月期 有価証券報告書・提出会社単体、平均年齢36.6歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 681万円（2025年9月期 有報・単体全社員平均）。技術職に限らない全社平均です。</li><li>・推移は2023年9月期661万円から2025年9月期681万円へと緩やかに上昇（各期 有報）。</li><li>・エンジニア職限定の提示レンジは非開示。提示は等級・職種で幅があり個別求人でご確認ください。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           コロプラは、「白猫プロジェクト」などのモバイルオンラインゲームを主力とする東証プライム上場（証券コード3668）のエンタテインメント企業です。位置情報ゲームやVRなどの技術にも取り組んできました。本ページでは、有価証券報告書・公式採用情報・公開された技術テスト情報・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>

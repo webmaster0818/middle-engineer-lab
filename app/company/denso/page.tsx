@@ -68,6 +68,13 @@ export default function DensoCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】デンソーの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社デンソー（単体）の正社員平均年間給与は約863万円です（2025年3月期 有価証券報告書、平均年齢44.8歳・賞与を含む全従業員平均）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・正社員平均年間給与 約863万円（2025年3月期・提出会社単体 有報）。ソフトウェアエンジニア単独ではなく全従業員平均です。</li><li>・平均年齢44.8歳・平均勤続年数23.1年（同・有報）と、ミドル〜シニア層が中核の組織です。</li><li>・職種別・等級別の年収は非開示。ソフトウェアエンジニア職の提示レンジは求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["デンソー 有価証券報告書（2025年3月期）", "デンソー ソフトウェア採用サイト（careers.denso.com/software）", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

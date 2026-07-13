@@ -87,6 +87,13 @@ export default function PreferredNetworksCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">Preferred Networks（PFN）エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 深層学習・AI半導体を手がける非上場AI企業のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Preferred Networks（PFN）の年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: PFNは非上場で有価証券報告書の提出義務がなく、公式の平均年間給与は非開示です。当ガイドでは出典のない年収額を創作・断定しません。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場のため平均年間給与・平均年齢・従業員数といった有報ベースの数値は公式に開示されていません（PFN公式 会社概要・採用情報の範囲）。</li><li>・参考値としてレバテック公表の正社員SE平均年収（2025年）は30代約499万円・40代約618万円ですが、これはPFNの提示額を示すものではありません。</li><li>・深層学習・AI半導体など高度専門領域は市場価値が高い傾向。実額は職種・専門性・実績で大きく異なり、面談での個別確認が確実です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           株式会社Preferred Networks（PFN）は、2014年に設立された深層学習・AIの研究開発を中核とする<strong>非上場</strong>の企業です。AI半導体「MN-Core」シリーズの開発から、独自の大規模言語モデル「PLaMo」をはじめとする基盤モデル、製造・素材・創薬・ヘルスケアなど各産業向けのAIソリューションまで、ハードウェアとソフトウェアの両面で高度な技術開発を行っています。本ページでは、公式の研究開発・採用情報をもとに、30代・40代ミドルエンジニアの視点で転職の実態を整理します。
         </p>

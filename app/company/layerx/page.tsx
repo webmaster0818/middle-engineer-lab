@@ -115,6 +115,14 @@ export default function LayerxCompanyPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">LayerX エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | バクラク・AI事業で急成長する非上場SaaS企業</p>
+
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】LayerXの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: LayerXは非上場のため、有価証券報告書による公式の平均年収は非公表です。口コミ・年収調査サイトの二次集計では全社平均でおおむね650〜850万円台とされます（2026年時点）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・公式平均は非公表（非上場のため有報開示なし）。</li><li>・二次集計値は全社平均650〜850万円台、レンジ600〜1,500万円程度（OpenWork等・2026年時点、変動大）。</li><li>・公開求人はシニア・専門職中心。正確な提示額は公式求人・面談での確認が前提です。</li></ul>
+        </div>
+
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
           LayerX（株式会社LayerX）は法人支出管理SaaS「バクラク」を主力に、Ai Workforce・Fintech・Securityの各事業を展開する非上場のテック企業です。
           本ガイドでは、公式採用ページ・公開されている技術情報・口コミサイトの傾向という一次／公開情報のみをもとに、エンジニア転職の実像を整理します。

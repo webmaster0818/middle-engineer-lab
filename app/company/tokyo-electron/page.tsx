@@ -95,6 +95,13 @@ export default function TokyoElectronCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">東京エレクトロン エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 半導体製造装置の世界大手のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】東京エレクトロンの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 東京エレクトロン株式会社の平均年間給与は1,354万円です（2025年3月期 有価証券報告書・提出会社単体／全従業員平均、平均年齢43.5歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,354万円（2025年3月期 有報・単体）。全従業員平均で技術職に限った数値ではありません。</li><li>・推移は2021年3月期1,179万円から変動し、2023年3月期に1,398万円をつけた後、2025年3月期は1,354万円（各期 有報）。業績連動賞与の比重が大きく年度で上下します。</li><li>・職種・等級別の公式な年収表は非公表。提示額は職種・等級・業績で変動するため、求人票・エージェントで確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           東京エレクトロン（TEL）は、半導体製造装置で世界トップクラスのシェアを持つ東証プライム上場（証券コード8035）のメーカーです。コータ/デベロッパ・エッチング・成膜・洗浄といった半導体の前工程装置を主力とし、世界の半導体生産を支えています。本ページでは、有価証券報告書・公式採用情報・口コミプラットフォームの公開情報をもとに、30代・40代ミドルエンジニアの視点で転職の実態を整理します。半導体関連は需要拡大により中途人材の評価が高い領域です。
         </p>

@@ -95,6 +95,13 @@ export default function OmronCompanyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">オムロン エンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 制御機器（FA）・ヘルスケアのメーカー大手のエンジニア採用</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】オムロンの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（オムロン株式会社単体）の平均年間給与は820万円です（2025年3月期 有価証券報告書・全従業員平均、平均年齢44.5歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 820万円（2025年3月期 有報・提出会社単体／全従業員平均）。技術職に限定した値ではありません。</li><li>・推移は2021年3月期803万円→2022年3月期849万円→2023年3月期898万円→2024年3月期873万円→2025年3月期820万円と変動（各期 有報）。</li><li>・職種・等級別の公式レンジは非公表。提示額は職種・等級・実績で個別決定されるため、求人票・面談での確認が必要です。</li></ul>
+        </div>
+
         <p className="text-slate-600 leading-relaxed mb-4">
           オムロンは、制御機器（ファクトリーオートメーション／FA）で世界的な強みを持つ東証プライム上場（証券コード6645）のメーカーです。PLC・センサ・画像処理装置といったFA機器を中核に、ソーシアルシステム・ヘルスケア機器（血圧計など）まで幅広く展開しています。本ページでは、有価証券報告書・公式採用情報・口コミプラットフォームの公開情報をもとに、30代・40代ミドルエンジニアの視点で転職の実態を整理します。
         </p>

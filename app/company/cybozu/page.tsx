@@ -62,6 +62,13 @@ export default function CybozuCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】サイボウズの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: サイボウズ株式会社（単体）の全従業員平均給与は687万円（2024年12月期）／719万円（2025年12月期）です（有価証券報告書、賞与を含む全従業員平均）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全従業員平均で687万円（2024年12月期）・719万円（2025年12月期）（提出会社単体 有報）。エンジニア単独の数字ではありません。</li><li>・平均年齢はおおむね35〜36歳台（提出会社単体）。年度の対応に出典差があるため両年度を併記しています。</li><li>・職種別・等級別の年収は非開示。確定値は最新の有価証券報告書での確認を推奨します。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["サイボウズ 有価証券報告書", "サイボウズ 公式技術情報公開ページ／技術ブログ Cybozu Inside Out", "サイボウズ 公式採用サイト", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">

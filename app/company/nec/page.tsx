@@ -70,6 +70,13 @@ export default function NecCompanyPage() {
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
+        {/* 直答box (P0/company年収) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】NECの年収は？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（日本電気株式会社単体）の平均年間給与は963万円です（2025年3月期 有価証券報告書・全従業員平均・賞与含む、平均年齢42.6歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 963万円（2025年3月期 有報・提出会社単体／全従業員平均・賞与含む）。エンジニアに限定した値ではありません。</li><li>・平均年齢42.6歳・平均勤続年数16.6年（同 有報）とミドル層が中核。提出会社単体の従業員数は約22,271名。</li><li>・2021年以降ジョブ型人材マネジメントへ移行。職種別・等級別レンジは非公表で、提示額は求人・面談での確認が必要です。</li></ul>
+        </div>
+
         <DataNote surveyedAt="2026年6月" sources={["NEC 有価証券報告書（2025年3月期・提出会社単体）", "IRBANK", "NEC 公式採用ページ", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
