@@ -242,7 +242,7 @@ export default function FastRetailingCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "小売・流通業界の転職", href: "/industry/retail/" }, { name: "SIerからWeb系への転職", href: "/industry/sier-to-web/" }, { name: "ZOZOの転職ガイド", href: "/company/zozo/" }, { name: "楽天グループの転職ガイド", href: "/company/rakuten/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }, { name: "市場価値の把握", href: "/knowledge/market-value/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
+            {[{ name: "トヨタ自動車の転職ガイド", href: "/company/toyota/" }, { name: "ソニーグループの転職ガイド", href: "/company/sony/" }, { name: "日立製作所の転職ガイド", href: "/company/hitachi/" }, { name: "パナソニックの転職ガイド", href: "/company/panasonic/" }, { name: "小売・流通業界の転職", href: "/industry/retail/" }, { name: "SIerからWeb系への転職", href: "/industry/sier-to-web/" }, { name: "ZOZOの転職ガイド", href: "/company/zozo/" }, { name: "楽天グループの転職ガイド", href: "/company/rakuten/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }, { name: "市場価値の把握", href: "/knowledge/market-value/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

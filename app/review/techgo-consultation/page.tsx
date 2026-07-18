@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "テックゴーの無料キャリア面談とは？流れ・準備・断り方【2026年】";
 const DESCRIPTION =
-  "テックゴー（TechGo）の無料キャリア面談を徹底解説。本当に無料なのか（公式FAQの根拠）、申し込みから面談までの流れ、オンライン面談の形式・時間帯、事前準備、転職を決めていない場合の利用可否、断り方まで出典付きでまとめます。";
+  "テックゴー（TechGo）の無料キャリア面談を徹底解説。本当に無料なのか（公式FAQの根拠）、申し込みから面談までの流れ、オンライン面談の形式・時間帯、事前準備、しつこい勧誘はあるか、転職を決めていない場合の利用可否、断り方まで出典付きでまとめます。";
 const URL = "/review/techgo-consultation/";
 const OFFICIAL_URL = "https://tech-go.jp/";
 

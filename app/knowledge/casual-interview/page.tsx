@@ -404,6 +404,7 @@ export default function CasualInterviewPage() {
               { name: "スカウトの活用法", href: "/knowledge/scout/" },
               { name: "転職活動のタイムライン", href: "/knowledge/timeline/" },
               { name: "エージェント初回面談の流れ", href: "/knowledge/agent-first-meeting/" },
+              { name: "テックゴーの無料キャリア面談とは", href: "/review/techgo-consultation/" },
             ].map((item) => (
               <Link
                 key={item.href}

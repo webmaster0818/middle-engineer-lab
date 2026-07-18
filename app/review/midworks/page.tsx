@@ -178,7 +178,7 @@ export default function MidworksReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "Midworks" },
         ]}
       />
@@ -497,6 +497,36 @@ export default function MidworksReview() {
           <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料面談を予約する
           </a>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-3">
+            本記事の評判・口コミは、以下の公式情報および口コミ・評判メディアで公開されている内容の傾向を参照し、当サイトが要約したものです（原文・スコアの転載ではありません）。各リンクは外部サイトへ移動します。
+          </p>
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li>
+                <a href="https://mid-works.com/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  Midworks公式（サービス内容・報酬保障・福利厚生）
+                </a>
+              </li>
+              <li>
+                <a href="https://jobs.qiita.com/midworks/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  Qiita Job Change：Midworksの評判・口コミ
+                </a>
+              </li>
+              <li>
+                <a href="https://freeconsul.co.jp/cs/midworks/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  フリーコンサル：Midworksの評判・口コミ
+                </a>
+              </li>
+            </ul>
+            <p className="text-xs text-slate-400 mt-3">
+              ※リンク先の内容・URLは変更される場合があります。参照確認日：2026年7月17日。
+            </p>
+          </div>
         </section>
 
         {/* 関連記事 */}

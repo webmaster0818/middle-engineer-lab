@@ -159,6 +159,7 @@ const related = [
   { name: "ワークポートの評判（未経験も）", href: "/review/workport/" },
   { name: "IT転職エージェント比較", href: "/compare/agents/" },
   { name: "30代向けエージェント比較", href: "/compare/30s-agents/" },
+  { name: "テックゴーの評判（IT特化・経験者向け）", href: "/review/techgo/" },
   { name: "正社員という働き方", href: "/employment/seishain/" },
 ];
 
@@ -183,7 +184,7 @@ export default function WillofTechReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "ウィルオブテック" },
         ]}
       />
@@ -470,6 +471,33 @@ export default function WillofTechReview() {
               </details>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判／悪い評判」の傾向は、以下の口コミ・評判メディアで公開されている情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各ページは2026年7月に確認しています。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <a href="https://talentsquare.co.jp/career/willof-techcareer-reputation/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">talentsquare（タレントスクエア）</a>
+              <span className="text-slate-500"> ：ウィルオブテックキャリアの評判・口コミ解説</span>
+            </li>
+            <li>
+              <a href="https://tenshoku.asiro.co.jp/engineer/63290/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">キャリアアップステージ</a>
+              <span className="text-slate-500"> ：ウィルオブテックの評判・口コミ解説</span>
+            </li>
+            <li>
+              <a href="https://outside.no-limit.careers/will-of-tech-reputation/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">OUTSIDEMAGAZINE</a>
+              <span className="text-slate-500"> ：ウィルオブテックの評判・年収UP実績の解説</span>
+            </li>
+            <li>
+              <a href="https://engineer-shukatu.jp/tensyoku/willoftech-reputation/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">IT転職コラム</a>
+              <span className="text-slate-500"> ：ウィルオブテックキャリアの評判（独自取材）</span>
+            </li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-3">※外部サイトの内容・URLは変更される場合があります（最終確認：2026年7月）。数値は各サイトの記載時点のものです。</p>
         </section>
 
         {/* CTA */}

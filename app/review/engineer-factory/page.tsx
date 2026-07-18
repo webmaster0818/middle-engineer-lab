@@ -26,6 +26,7 @@ const toc = [
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "登録から参画までの5ステップ" },
   { id: "compare", label: "フリーランス各社の使い分け" },
+  { id: "sources", label: "評判・口コミの参照元" },
   { id: "faq", label: "よくある質問" },
 ];
 
@@ -178,7 +179,7 @@ export default function EngineerFactoryReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "エンジニアファクトリー" },
         ]}
       />
@@ -456,6 +457,37 @@ export default function EngineerFactoryReview() {
               フリーランスエージェント比較 →
             </Link>
           </div>
+        </section>
+
+        {/* 参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4">
+            本記事が傾向としてまとめた口コミ・評判は、以下のメディアの該当ページを参照しています（原文・スコアの転載は行っていません）。詳細は各リンク先をご確認ください。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>
+              ・
+              <a href="https://www.a-tm.co.jp/top/job-change/engineer-factory/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                イーデス｜エンジニアファクトリーの評判・口コミ
+              </a>
+            </li>
+            <li>
+              ・
+              <a href="https://sakufuri.jp/media/engineer-factory/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                サクフリ｜エンジニアファクトリーの口コミ・評判
+              </a>
+            </li>
+            <li>
+              ・
+              <a href="https://nomadoya.ne.jp/engineer-factory/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                ノマド家｜エンジニアファクトリーの口コミ・評判
+              </a>
+            </li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-3">
+            ※リンク先は各メディアの記事です。掲載内容・URLは変更される場合があります。最終リンク確認：2026年7月。
+          </p>
         </section>
 
         {/* FAQ */}

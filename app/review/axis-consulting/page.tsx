@@ -151,6 +151,7 @@ const faqs = [
 const related = [
   { name: "エンジニアからコンサルへのキャリア", href: "/career/engineer-to-consultant/" },
   { name: "JACリクルートメントの評判（ハイクラス・ミドル特化）", href: "/review/jac-recruitment/" },
+  { name: "明光キャリアパートナーズの評判（明光義塾グループ）", href: "/review/meiko-career/" },
   { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" },
   { name: "40代エンジニア向けエージェント比較", href: "/compare/40s-agents/" },
   { name: "40代エンジニアの転職リアル", href: "/age/40s/" },
@@ -178,7 +179,7 @@ export default function AxisConsultingReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "アクシスコンサルティング" },
         ]}
       />
@@ -485,6 +486,25 @@ export default function AxisConsultingReview() {
               </details>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判／悪い評判の傾向」は、以下の口コミ・評判メディアで公開されているアクシスコンサルティング（AXIS Agent）の情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各リンクは2026年7月17日時点で実在を確認しています。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>
+              <a href="https://www.a-tm.co.jp/top/job-change/tenshoku-agent/axis-consulting/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">イーデス（アクシスコンサルティングの評判・口コミページ）</a>
+            </li>
+            <li>
+              <a href="https://minhyo.jp/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">みん評（口コミプラットフォーム・トップ）</a>
+            </li>
+            <li>
+              <a href="https://www.openwork.jp/company.php?m_id=a0C30000003CJ1M" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">OpenWork（アクシスコンサルティングの社員クチコミページ）</a>
+            </li>
+          </ul>
         </section>
 
         {/* CTA */}

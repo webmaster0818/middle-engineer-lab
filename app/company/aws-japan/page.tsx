@@ -82,6 +82,7 @@ export default function AwsJapanCompanyPage() {
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】AWSジャパンの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年6月時点）ではL5（中堅・SDE II相当）で約$116K前後（約1,700万円）が目安です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬目安：L4 約1,300万円前後（$90K台）、L5 約1,700万円前後（$116K前後）、L6 約2,400万円前後（$167K前後）（levels.fyi・2026年6月時点、日本拠点SWE集計）。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型のため、初年度は基本給＋サインオンボーナス中心になりやすい点に注意。</li><li>・ユーザー投稿ベースの集計値で、為替・個人の交渉・RSUの株価により変動します。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mt-3">有報を公表する国内IT企業の実額比較は<Link href="/salary/company-ranking/" className="text-petrol-deep underline font-medium">IT企業の平均年収ランキング（有報57社）</Link>をご覧ください（外資系は非公表のため本ランキングには含まれません）。</p>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-4">

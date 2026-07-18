@@ -159,7 +159,7 @@ export default function WorkportReview() {
         url="/review/workport/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "レビュー", href: "/#ranking" }, { name: "ワークポート" }]} />
+      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "評判・口コミ一覧", href: "/review/" }, { name: "ワークポート" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
@@ -412,6 +412,33 @@ export default function WorkportReview() {
               </details>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判／悪い評判」の傾向は、以下の口コミ・評判メディアで公開されている情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各ページは2026年7月に確認しています。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <a href="https://jobs.qiita.com/workport/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">Qiita Job Change</a>
+              <span className="text-slate-500"> ：ワークポートの評判（利用者21名の口コミ調査）</span>
+            </li>
+            <li>
+              <a href="https://morejob.co.jp/mirai/workport/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">morejob</a>
+              <span className="text-slate-500"> ：ワークポートの評判口コミ・活用のコツ</span>
+            </li>
+            <li>
+              <a href="https://axxis.co.jp/magazine/55349" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">すべらない転職（axxis）</a>
+              <span className="text-slate-500"> ：ワークポートの口コミ・評判を現役エージェントが解説</span>
+            </li>
+            <li>
+              <a href="https://career.a-tm.co.jp/top/job-change/career-change-it/workport/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">イーデス転職</a>
+              <span className="text-slate-500"> ：ワークポートの口コミ・評判の実態解説</span>
+            </li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-3">※外部サイトの内容・URLは変更される場合があります（最終確認：2026年7月）。数値は各サイトの記載時点のものです。</p>
         </section>
 
         {/* CTA */}

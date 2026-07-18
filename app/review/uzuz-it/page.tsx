@@ -48,7 +48,7 @@ const goodReviews = [
   },
   {
     title: "未経験からのIT就職に強く定着率が高い",
-    body: "イーデスやマーケットエックス等では、IT基礎の学習コンテンツが用意され、未経験からエンジニア就職を目指せる点が評価されている。入社後定着率97%・内定率86%以上という二次情報もあり、ブラック企業を排除する姿勢も挙げられている。",
+    body: "イーデス等の口コミ系では、IT基礎の学習コンテンツが用意され、未経験からエンジニア就職を目指せる点が評価されている。入社後定着率97%・内定率86%以上という二次情報もあり、ブラック企業を排除する姿勢も挙げられている。",
   },
   {
     title: "相談しやすい・近い距離感",
@@ -178,7 +178,7 @@ export default function UzuzItReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "ウズキャリIT" },
         ]}
       />
@@ -456,6 +456,29 @@ export default function UzuzItReview() {
               </details>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判／悪い評判」の傾向は、以下の口コミ・評判メディアで公開されている情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各ページは2026年7月に確認しています。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <a href="https://talentsquare.co.jp/career/uzuz-reputation/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">talentsquare（タレントスクエア）</a>
+              <span className="text-slate-500"> ：UZUZ（ウズキャリ）の評判・口コミ解説</span>
+            </li>
+            <li>
+              <a href="https://job.or.jp/uzuz-hyoban/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">一般社団法人キャリア協会</a>
+              <span className="text-slate-500"> ：ウズキャリ（UZUZ）利用者の口コミ・レビュー</span>
+            </li>
+            <li>
+              <a href="https://www.a-tm.co.jp/top/other/best-programming-school/uzuz-college/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">イーデス</a>
+              <span className="text-slate-500"> ：ウズウズカレッジ（IT学習コンテンツ）の評判解説</span>
+            </li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-3">※外部サイトの内容・URLは変更される場合があります（最終確認：2026年7月）。数値は各サイトの記載時点のものです。</p>
         </section>
 
         {/* CTA（誠実に：20代向けと明記） */}

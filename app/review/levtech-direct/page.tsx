@@ -350,6 +350,26 @@ export default function LevtechDirectReview() {
           </div>
         </section>
 
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4">
+            本記事で「傾向」として紹介した評判・口コミは、以下の外部メディアのレバテックダイレクト該当ページを参照しています（原文転載ではなく傾向の要約です）。リンク先の最終確認日：2026年7月。
+          </p>
+          <ul className="border border-slate-200 rounded-lg divide-y divide-slate-200 overflow-hidden">
+            <li className="px-4 py-3 text-sm">
+              <a href="https://jobs.qiita.com/levtech-direct/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                Qiita Job Change｜レバテックダイレクトの評判・口コミ
+              </a>
+            </li>
+            <li className="px-4 py-3 text-sm">
+              <a href="https://outside.no-limit.careers/levtechdirect-reputation/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                OUTSIDEMAGAZINE｜レバテックダイレクトの評判・口コミ
+              </a>
+            </li>
+          </ul>
+        </section>
+
         {/* ミドル視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">

@@ -473,6 +473,8 @@ export default function HowToChoosePage() {
               { name: "40代向けエージェント比較", href: "/compare/40s-agents/" },
               { name: "スカウトの活用法", href: "/knowledge/scout/" },
               { name: "直接応募とエージェントの使い分け", href: "/knowledge/direct-apply/" },
+              { name: "テックゴー（TechGo）の評判・特徴", href: "/review/techgo/" },
+              { name: "テックゴーの無料キャリア面談の流れ", href: "/review/techgo-consultation/" },
             ].map((item) => (
               <Link
                 key={item.href}

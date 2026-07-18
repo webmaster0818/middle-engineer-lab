@@ -367,6 +367,7 @@ export default function TrendmicroCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "AWSジャパンの転職ガイド", href: "/company/aws-japan/" },
               { name: "IIJ の転職ガイド", href: "/company/iij/" },
               { name: "NEC の転職ガイド", href: "/company/nec/" },
               { name: "CTC（伊藤忠テクノソリューションズ） の転職ガイド", href: "/company/ctc/" },

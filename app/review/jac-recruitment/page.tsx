@@ -154,6 +154,7 @@ const related = [
   { name: "40代エンジニア向けエージェント比較", href: "/compare/40s-agents/" },
   { name: "40代エンジニアの転職リアル", href: "/age/40s/" },
   { name: "エンジニアからコンサルへのキャリア", href: "/career/engineer-to-consultant/" },
+  { name: "明光キャリアパートナーズの評判（明光義塾グループ・M&A/コンサル/エンジニア）", href: "/review/meiko-career/" },
   { name: "複数エージェント併用のコツ", href: "/knowledge/multiple-agents/" },
 ];
 
@@ -178,7 +179,7 @@ export default function JacRecruitmentReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "JACリクルートメント" },
         ]}
       />
@@ -345,6 +346,31 @@ export default function JacRecruitmentReview() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4">
+            本記事で「傾向」として紹介した評判・口コミは、以下の外部メディアのJACリクルートメント該当ページを参照しています（原文転載ではなく傾向の要約です）。リンク先の最終確認日：2026年7月。
+          </p>
+          <ul className="border border-slate-200 rounded-lg divide-y divide-slate-200 overflow-hidden">
+            <li className="px-4 py-3 text-sm">
+              <a href="https://www.a-tm.co.jp/top/job-change/tenshoku-agent/jac-reviews/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                イーデス｜JACリクルートメントの評判・口コミ
+              </a>
+            </li>
+            <li className="px-4 py-3 text-sm">
+              <a href="https://www.openwork.jp/company.php?m_id=a0910000000Fqhy" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                OpenWork｜ジェイエイシーリクルートメントの社員クチコミ
+              </a>
+            </li>
+            <li className="px-4 py-3 text-sm">
+              <a href="https://minhyo.jp/jac-recruitment" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                みん評｜JACリクルートメントの口コミ・評判
+              </a>
+            </li>
+          </ul>
         </section>
 
         {/* 年収相場データ */}

@@ -173,7 +173,7 @@ export default function LaprasReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "LAPRAS" },
         ]}
       />
@@ -343,6 +343,31 @@ export default function LaprasReview() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4">
+            LAPRASの口コミは、特定の口コミ専用ページではなく、X（旧Twitter）やはてなブックマーク等のエンジニア個人発信を横断的に参照し、傾向として要約したものです（原文転載・スコア転載は行っていません）。参照した主なプラットフォームと公式情報は以下のとおりです。最終確認日：2026年7月。
+          </p>
+          <ul className="border border-slate-200 rounded-lg divide-y divide-slate-200 overflow-hidden">
+            <li className="px-4 py-3 text-sm">
+              <a href="https://lapras.com/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                LAPRAS 公式サイト
+              </a>
+            </li>
+            <li className="px-4 py-3 text-sm">
+              <a href="https://b.hatena.ne.jp/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                はてなブックマーク（エンジニアの発信・ブックマーク）
+              </a>
+            </li>
+            <li className="px-4 py-3 text-sm">
+              <a href="https://x.com/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                X（旧Twitter）（エンジニアの個人発信）
+              </a>
+            </li>
+          </ul>
         </section>
 
         {/* 30代40代視点 */}

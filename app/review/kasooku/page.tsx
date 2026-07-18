@@ -43,7 +43,7 @@ const basicData: [string, string][] = [
 const goodReviews = [
   {
     title: "副業・複業から始めて転職にもつなげられる",
-    body: "副業人材ドットコムやパラレルキャリア系メディアの紹介では、副業・複業として関わった後に正社員採用へ移行できる導線がある点が特徴として挙げられている。いきなり転職せず、まず副業で相性を確かめてから本格的にジョインしたい人と相性が良いという傾向の声が見られる。",
+    body: "パラレルキャリア系メディア等の紹介では、副業・複業として関わった後に正社員採用へ移行できる導線がある点が特徴として挙げられている。いきなり転職せず、まず副業で相性を確かめてから本格的にジョインしたい人と相性が良いという傾向の声が見られる。",
   },
   {
     title: "オンライン完結で在職中でも始めやすい",
@@ -177,7 +177,7 @@ export default function KasookuReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "カソーク" },
         ]}
       />
@@ -197,7 +197,6 @@ export default function KasookuReview() {
           sources={[
             "カソーク公式サイト",
             "ユナイテッド／ドゥーファ プレスリリース（PR TIMES）",
-            "副業人材ドットコム",
             "パラレルキャリア系メディア集計値",
           ]}
         />
@@ -320,6 +319,21 @@ export default function KasookuReview() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4">
+            本記事で「傾向」として紹介した評判・口コミは、以下の外部メディアのカソーク（Kasooku）該当ページを参照しています（原文転載ではなく傾向の要約です）。口コミの蓄積が少ないサービスのため、公式情報とあわせてご確認ください。リンク先の最終確認日：2026年7月。
+          </p>
+          <ul className="border border-slate-200 rounded-lg divide-y divide-slate-200 overflow-hidden">
+            <li className="px-4 py-3 text-sm">
+              <a href="https://parallel-career.net/kasooku/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                パラレルキャリア系メディア（parallel-career.net）｜Kasooku（カソーク）の評判・口コミ
+              </a>
+            </li>
+          </ul>
         </section>
 
         {/* 副業・複業の働き方 */}

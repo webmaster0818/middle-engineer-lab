@@ -178,7 +178,7 @@ export default function CloudLinkReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "クラウドリンク（現AIdea Career）" },
         ]}
       />
@@ -467,6 +467,22 @@ export default function CloudLinkReview() {
               </details>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判／悪い評判の傾向」は、以下のIT・Web系の口コミ・評判メディアで公開されているクラウドリンク（現AIdea Career）の情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各リンクは2026年7月17日時点で実在を確認しています。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>
+              <a href="https://studio-tale.co.jp/career-stories/guide/crowd-link-review-and-features/" target="_blank" rel="nofollow noopener" className="text-petrol hover:underline">studio-tale（クラウドリンクの評判・特徴の解説ページ）</a>
+            </li>
+            <li>
+              <a href="https://tenshoku.asiro.co.jp/engineer/166229/" target="_blank" rel="nofollow noopener" className="text-petrol hover:underline">キャリアアップステージ（クラウドリンク／現AIdea Careerの評判・口コミページ）</a>
+            </li>
+          </ul>
         </section>
 
         {/* CTA */}

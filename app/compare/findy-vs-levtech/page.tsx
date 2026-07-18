@@ -253,6 +253,7 @@ export default function FindyVsLevtechPage() {
               { name: "レバテック vs doda 比較", href: "/compare/levtech-vs-doda/" },
               { name: "ビズリーチ vs レバテック 比較", href: "/compare/bizreach-vs-levtech/" },
               { name: "IT転職エージェント10社比較", href: "/compare/agents/" },
+              { name: "テックゴー（TechGo）の評判・特徴", href: "/review/techgo/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

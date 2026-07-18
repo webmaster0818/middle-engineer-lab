@@ -148,7 +148,7 @@ export default function CompanySalaryRankingPage() {
             <strong>平均年齢・残業時間が異なる</strong>：平均年齢が高い企業ほど平均年収は高く出る傾向があります。単純な横並び比較ではなく「同じ会社の経年変化」も合わせて見るのが実務的です。
           </li>
           <li>
-            <strong>非上場企業は載っていない</strong>：Google日本法人・AWSジャパン・スタートアップ各社など有報のない企業はこの表に含まれません（各社ガイドでは公表レンジ・水準感を解説しています）。
+            <strong>非上場企業は載っていない</strong>：<Link href="/company/google/" className="text-petrol-deep hover:underline">Google日本法人</Link>・<Link href="/company/aws-japan/" className="text-petrol-deep hover:underline">AWSジャパン</Link>・スタートアップ各社など有報のない企業はこの表に含まれません（各社ガイドでは公表レンジ・水準感を解説しています）。
           </li>
         </ul>
 

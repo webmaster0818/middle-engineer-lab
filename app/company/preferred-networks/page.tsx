@@ -274,6 +274,10 @@ export default function PreferredNetworksCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "トヨタ自動車の転職ガイド", href: "/company/toyota/" },
+              { name: "ソニーグループの転職ガイド", href: "/company/sony/" },
+              { name: "日立製作所の転職ガイド", href: "/company/hitachi/" },
+              { name: "パナソニックの転職ガイド", href: "/company/panasonic/" },
               { name: "オムロン エンジニア転職ガイド", href: "/company/omron/" },
               { name: "ルネサスエレクトロニクス 転職ガイド", href: "/company/renesas/" },
               { name: "AI・機械学習エンジニアの転職", href: "/skill/ai-ml/" },

@@ -230,7 +230,7 @@ export default function SmartNewsCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "Javaエンジニアの転職ガイド", href: "/skill/java/" }, { name: "Goエンジニアの転職", href: "/skill/go/" }, { name: "AI／機械学習エンジニアの転職", href: "/skill/ai-ml/" }, { name: "メルカリの転職ガイド", href: "/company/mercari/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
+            {[{ name: "LINEヤフーの転職ガイド", href: "/company/line-yahoo/" }, { name: "サイバーエージェントの転職ガイド", href: "/company/cyberagent/" }, { name: "楽天グループの転職ガイド", href: "/company/rakuten/" }, { name: "DeNAの転職ガイド", href: "/company/dena/" }, { name: "Javaエンジニアの転職ガイド", href: "/skill/java/" }, { name: "Goエンジニアの転職", href: "/skill/go/" }, { name: "AI／機械学習エンジニアの転職", href: "/skill/ai-ml/" }, { name: "メルカリの転職ガイド", href: "/company/mercari/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "コーディングテスト対策", href: "/knowledge/coding-test/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

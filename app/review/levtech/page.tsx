@@ -158,9 +158,11 @@ const related = [
   { name: "レバテックキャリアとGeeklyを比較", href: "/compare/levtech-vs-geekly/" },
   { name: "レバテックキャリアとdodaを比較", href: "/compare/levtech-vs-doda/" },
   { name: "ビズリーチとレバテックを比較", href: "/compare/bizreach-vs-levtech/" },
+  { name: "type転職エージェントITとレバテックを比較", href: "/compare/type-it-vs-levtech/" },
   { name: "30代エンジニア向けエージェント比較", href: "/compare/30s-agents/" },
   { name: "40代エンジニアの転職リアル", href: "/knowledge/40s-reality/" },
   { name: "複数エージェント併用のコツ", href: "/knowledge/multiple-agents/" },
+  { name: "テックゴーの評判（IT特化・年収交渉に強み）", href: "/review/techgo/" },
 ];
 
 export default function LevtechReview() {
@@ -184,7 +186,7 @@ export default function LevtechReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "レバテックキャリア" },
         ]}
       />
@@ -332,6 +334,31 @@ export default function LevtechReview() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4">
+            本記事で「傾向」として紹介した評判・口コミは、以下の外部メディアのレバテックキャリア該当ページを参照しています（原文転載ではなく傾向の要約です）。リンク先の最終確認日：2026年7月。
+          </p>
+          <ul className="border border-slate-200 rounded-lg divide-y divide-slate-200 overflow-hidden">
+            <li className="px-4 py-3 text-sm">
+              <a href="https://www.a-tm.co.jp/top/job-change/levtech/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                イーデス｜レバテックキャリアの評判・口コミ
+              </a>
+            </li>
+            <li className="px-4 py-3 text-sm">
+              <a href="https://outside.no-limit.careers/levateccareer-reputation/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                OUTSIDEMAGAZINE｜レバテックキャリアの評判・口コミ
+              </a>
+            </li>
+            <li className="px-4 py-3 text-sm">
+              <a href="https://jobs.qiita.com/levtechcareer/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+                Qiita Job Change｜レバテックキャリアの評判・口コミ
+              </a>
+            </li>
+          </ul>
         </section>
 
         {/* 年収相場データ */}

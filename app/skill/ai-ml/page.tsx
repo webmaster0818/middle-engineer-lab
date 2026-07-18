@@ -339,6 +339,7 @@ export default function AiMlSkillPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "AI・機械学習エンジニアのエージェント選び・使い分け", href: "/compare/ai-agents/" },
               { name: "データサイエンティスト転職ガイド", href: "/skill/data-scientist/" },
               { name: "Pythonエンジニア転職ガイド", href: "/skill/python/" },
               { name: "AWSエンジニア転職ガイド", href: "/skill/aws/" },

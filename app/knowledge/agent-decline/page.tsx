@@ -315,6 +315,7 @@ export default function AgentDeclinePage() {
               { name: "内定辞退の伝え方", href: "/knowledge/offer-decline/" },
               { name: "退職の進め方ガイド", href: "/knowledge/resignation/" },
               { name: "30代の転職", href: "/age/30s/" },
+              { name: "テックゴーの無料キャリア面談（断り方も解説）", href: "/review/techgo-consultation/" },
             ].map((item, i) => (
               <Link
                 key={i}

@@ -64,6 +64,7 @@ const relatedLinks = [
   { name: "レバテックキャリア vs doda", href: "/compare/levtech-vs-doda/" },
   { name: "リクルートエージェント vs doda", href: "/compare/recruit-vs-doda/" },
   { name: "40代におすすめのエージェント", href: "/compare/40s-agents/" },
+  { name: "テックゴー（TechGo）の評判・特徴", href: "/review/techgo/" },
 ];
 
 export default function LevtechVsRecruitPage() {

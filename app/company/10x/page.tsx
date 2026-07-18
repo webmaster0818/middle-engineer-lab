@@ -231,7 +231,7 @@ export default function TenXCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "Ubieの転職ガイド", href: "/company/ubie/" }, { name: "カケハシの転職ガイド", href: "/company/kakehashi/" }, { name: "Flutterエンジニアの転職", href: "/skill/flutter/" }, { name: "GCPエンジニアの転職", href: "/skill/gcp/" }, { name: "SIerからWEB系への転職", href: "/industry/sier-to-web/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
+            {[{ name: "freeeの転職ガイド", href: "/company/freee/" }, { name: "SmartHRの転職ガイド", href: "/company/smarthr/" }, { name: "マネーフォワードの転職ガイド", href: "/company/moneyforward/" }, { name: "Sansanの転職ガイド", href: "/company/sansan/" }, { name: "Ubieの転職ガイド", href: "/company/ubie/" }, { name: "カケハシの転職ガイド", href: "/company/kakehashi/" }, { name: "Flutterエンジニアの転職", href: "/skill/flutter/" }, { name: "GCPエンジニアの転職", href: "/skill/gcp/" }, { name: "SIerからWEB系への転職", href: "/industry/sier-to-web/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

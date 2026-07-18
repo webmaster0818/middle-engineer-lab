@@ -100,6 +100,8 @@ const faqs = [
 
 const related = [
   { name: "レバテックキャリアの評判・口コミ", href: "/review/levtech/" },
+  { name: "Relance（リランス）の評判（高単価・フルリモート）", href: "/review/relance/" },
+  { name: "フリーランススタートの評判（案件検索エンジン）", href: "/review/freelance-start/" },
   { name: "ハイクラスIT転職エージェント比較", href: "/compare/highclass/" },
   { name: "ビズリーチの評判・口コミ", href: "/review/bizreach-it/" },
   { name: "フルリモートIT転職ガイド", href: "/area/remote/" },

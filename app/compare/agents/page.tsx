@@ -629,9 +629,13 @@ export default function CompareAgentsPage() {
               { name: "30代エンジニア向けエージェント比較", href: "/compare/30s-agents/" },
               { name: "40代エンジニア向けエージェント比較", href: "/compare/40s-agents/" },
               { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" },
+              { name: "AI・機械学習エンジニア向けエージェント比較", href: "/compare/ai-agents/" },
+              { name: "type転職エージェントIT vs レバテック比較", href: "/compare/type-it-vs-levtech/" },
               { name: "転職エージェント別 年収UPランキング", href: "/compare/salary-ranking/" },
               { name: "IT転職エージェントの選び方", href: "/knowledge/how-to-choose/" },
               { name: "転職エージェントは複数登録すべき？", href: "/knowledge/multiple-agents/" },
+              { name: "テックゴー（TechGo）の評判・特徴", href: "/review/techgo/" },
+              { name: "テックゴーの無料キャリア面談の流れ", href: "/review/techgo-consultation/" },
             ].map((item, i) => (
               <Link
                 key={i}

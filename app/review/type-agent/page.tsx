@@ -121,6 +121,7 @@ const faqs = [
 ];
 
 const relatedPosts: { name: string; href: string }[] = [
+  { name: "type転職エージェントIT vs レバテックキャリア 比較", href: "/compare/type-it-vs-levtech/" },
   { name: "自分に合う転職サービスの選び方", href: "/knowledge/how-to-choose/" },
   { name: "複数エージェントの併用術", href: "/knowledge/multiple-agents/" },
   { name: "年収交渉の進め方", href: "/knowledge/salary-negotiation/" },
@@ -150,7 +151,7 @@ export default function TypeAgentReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "type転職エージェントIT" },
         ]}
       />
@@ -542,6 +543,32 @@ export default function TypeAgentReview() {
               </details>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section className="mb-12">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
+          <p className="text-xs text-slate-500 leading-relaxed mb-3">
+            本記事の「評判・口コミの傾向」は、以下の各メディアが公開するtype転職エージェントの評判・口コミ記事を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各リンク先の内容は各運営者に帰属します。最終確認日：2026年7月17日。
+          </p>
+          <ul className="text-sm space-y-2 text-slate-600 list-disc pl-5">
+            <li>
+              <a href="https://r-andg.jp/blog/1702" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                株式会社R&amp;G「type転職エージェントの評判は？」
+              </a>
+            </li>
+            <li>
+              <a href="https://outside.no-limit.careers/type-reputation/" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                OUTSIDEMAGAZINE（株式会社アシロ運営）「type転職エージェントの評判」
+              </a>
+            </li>
+            <li>
+              <a href="https://job.or.jp/" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                一般社団法人キャリア協会（job.or.jp）
+              </a>
+              <span className="text-xs text-slate-400">（type個別記事は確認時点でURL変更・非公開のため公式トップを表示）</span>
+            </li>
+          </ul>
         </section>
 
         {/* 関連記事 */}

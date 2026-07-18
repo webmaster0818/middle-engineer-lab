@@ -84,6 +84,7 @@ const categories = [
     intro: "ITコンサル・PM・DX人材へのキャリアチェンジを狙う層向け。純粋な開発職志向には不向きな点に注意。",
     items: [
       { slug: "axis-consulting", name: "アクシスコンサルティング（AXIS Agent）", desc: "コンサル業界特化。ポストコンサル・CxO層に強い。" },
+      { slug: "meiko-career", name: "明光キャリアパートナーズ（STRATEGY CAREER）", desc: "東証プライム明光ネットワークジャパン（明光義塾）グループ。M&A・コンサル等のハイキャリア＋エンジニア転職。" },
     ],
   },
 ];

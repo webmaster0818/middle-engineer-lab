@@ -61,6 +61,7 @@ const relatedLinks = [
   { name: "マイナビIT AGENTの詳細レビュー", href: "/review/mynavi-it/" },
   { name: "IT転職エージェント比較", href: "/compare/agents/" },
   { name: "レバテックキャリア vs マイナビIT AGENT", href: "/compare/levtech-vs-mynavi/" },
+  { name: "type転職エージェントIT vs レバテックキャリア", href: "/compare/type-it-vs-levtech/" },
   { name: "doda vs マイナビIT AGENT", href: "/compare/doda-vs-mynavi/" },
   { name: "30代におすすめのエージェント", href: "/compare/30s-agents/" },
 ];

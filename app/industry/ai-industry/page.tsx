@@ -82,6 +82,7 @@ const faqs = [
 
 const related = [
   { name: "AI・機械学習エンジニア転職ガイド（スキル）", href: "/skill/ai-ml/" },
+  { name: "AI・機械学習エンジニアのエージェント比較・使い分け", href: "/compare/ai-agents/" },
   { name: "生成AIエンジニア転職ガイド（スキル）", href: "/skill/generative-ai/" },
   { name: "データサイエンティスト転職ガイド（スキル）", href: "/skill/data-scientist/" },
   { name: "Preferred Networksの転職難易度・評判", href: "/company/preferred-networks/" },

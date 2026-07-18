@@ -308,6 +308,10 @@ export default function MonotaroCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "freeeの転職ガイド", href: "/company/freee/" },
+              { name: "SmartHRの転職ガイド", href: "/company/smarthr/" },
+              { name: "マネーフォワードの転職ガイド", href: "/company/moneyforward/" },
+              { name: "Sansanの転職ガイド", href: "/company/sansan/" },
               { name: "さくらインターネット エンジニア転職ガイド", href: "/company/sakura-internet/" },
               { name: "GMOペパボ エンジニア転職ガイド", href: "/company/gmo-pepabo/" },
               { name: "企業別エンジニア転職ガイド一覧", href: "/company/" },

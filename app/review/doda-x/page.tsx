@@ -181,7 +181,7 @@ export default function DodaXReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "doda X" },
         ]}
       />
@@ -514,6 +514,25 @@ export default function DodaXReview() {
               </details>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判／悪い評判の傾向」は、以下の口コミ・評判メディアで公開されているdoda X（旧iX転職）の情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各リンクは2026年7月17日時点で実在を確認しています。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>
+              <a href="https://www.a-tm.co.jp/top/job-change/best-job-change-site/ix-tenshoku/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">イーデス（doda X／旧iX転職の評判・口コミページ）</a>
+            </li>
+            <li>
+              <a href="https://minhyo.jp/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">みん評（口コミプラットフォーム・トップ）</a>
+            </li>
+            <li>
+              <a href="https://www.openwork.jp/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">OpenWork（口コミプラットフォーム・トップ）</a>
+            </li>
+          </ul>
         </section>
 
         {/* CTA */}

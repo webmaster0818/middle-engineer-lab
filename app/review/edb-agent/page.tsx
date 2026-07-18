@@ -25,6 +25,7 @@ const toc = [
   { id: "middle", label: "30代・40代エンジニアの活用視点" },
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "利用の流れ" },
+  { id: "sources", label: "評判・口コミの参照元" },
   { id: "faq", label: "よくある質問" },
 ];
 
@@ -374,6 +375,26 @@ export default function EdbAgentReview() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* 参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4">
+            本記事は、サービスの特徴・料金など事実情報を公式サイトで確認し、評判・傾向は複数の転職メディアの紹介記事を横断的に参照してまとめています。EDBエージェントは比較的新しいサービスで、独立系の口コミデータベース上に個別の該当ページとして特定できる評判の蓄積が限定的なため、個別メディアの深リンクは付さず、一次情報である公式サイトを主な参照元として明示します。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>
+              ・
+              <a href={OFFICIAL_URL} rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                EDBエージェント公式サイト（エンジニアデータバンク）
+              </a>
+              — サービス内容・料金・サポート内容の確認元
+            </li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-3">
+            ※対応エリアなど公式に明記のない項目は本文で「要確認」としています。掲載内容・URLは変更される場合があります。最終リンク確認：2026年7月。
+          </p>
         </section>
 
         {/* FAQ */}

@@ -64,6 +64,7 @@ const relatedLinks = [
   { name: "doda vs マイナビIT比較", href: "/compare/doda-vs-mynavi/" },
   { name: "40代におすすめのエージェント", href: "/compare/40s-agents/" },
   { name: "エージェントの複数併用の進め方", href: "/knowledge/multiple-agents/" },
+  { name: "テックゴー（TechGo）の評判・特徴", href: "/review/techgo/" },
 ];
 
 export default function LevtechVsDodaPage() {

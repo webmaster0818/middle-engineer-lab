@@ -26,6 +26,7 @@ const toc = [
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "登録からスカウト・内定までの流れ" },
   { id: "compare", label: "LAPRAS・Forkwellとの使い分け" },
+  { id: "sources", label: "評判・口コミの参照元" },
   { id: "faq", label: "よくある質問" },
 ];
 
@@ -173,7 +174,7 @@ export default function FindyReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "Findy（ファインディ）" },
         ]}
       />
@@ -448,6 +449,40 @@ export default function FindyReview() {
               30代エンジニア向けエージェント比較 →
             </Link>
           </div>
+        </section>
+
+        {/* 参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4">
+            本記事の「評判・口コミの傾向」は、特定の口コミデータベースではなく、現役エンジニアの発信が集まる以下のプラットフォーム上の投稿・記事を傾向として参照したものです（原文・スコアの転載は行っていません）。個別の投稿を断定的な出典として提示することは避けています。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>
+              ・
+              <a href="https://x.com/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                X（旧Twitter）
+              </a>
+              — 現役エンジニアによる利用体験の投稿
+            </li>
+            <li>
+              ・
+              <a href="https://b.hatena.ne.jp/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                はてなブックマーク
+              </a>
+              — エンジニアブログ・技術記事のブックマーク
+            </li>
+            <li>
+              ・
+              <a href="https://findy-code.io/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                Findy（ファインディ）公式サイト
+              </a>
+              — 掲載企業数など公式公表値の確認元
+            </li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-3">
+            ※プラットフォーム上の個別投稿は削除・変更される場合があります。掲載企業数（800社以上・2024年7月時点）は公式公表値です。最終リンク確認：2026年7月。
+          </p>
         </section>
 
         {/* FAQ */}

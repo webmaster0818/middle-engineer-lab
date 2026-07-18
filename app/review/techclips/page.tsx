@@ -26,6 +26,7 @@ const toc = [
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "登録から内定までの5ステップ" },
   { id: "compare", label: "他社との使い分け" },
+  { id: "sources", label: "評判・口コミの参照元" },
   { id: "faq", label: "よくある質問" },
 ];
 
@@ -178,7 +179,7 @@ export default function TechClipsReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "TechClips" },
         ]}
       />
@@ -448,6 +449,36 @@ export default function TechClipsReview() {
               IT転職エージェントの比較 →
             </Link>
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判・悪い評判の傾向」は、以下の口コミ・評判メディアの公開情報を参照し、傾向として要約したものです（原文・スコアの転載は行っていません）。最終確認日：2026年7月17日。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li className="border border-slate-200 rounded-lg px-4 py-3">
+              <a
+                href="https://sakufuri.jp/media/techclips/"
+                rel="nofollow noopener"
+                target="_blank"
+                className="text-petrol hover:underline font-medium"
+              >
+                TechClipsエージェントの口コミ・評判（サクフリ）
+              </a>
+            </li>
+            <li className="border border-slate-200 rounded-lg px-4 py-3">
+              <a
+                href="https://jobs.qiita.com/tech-clips/"
+                rel="nofollow noopener"
+                target="_blank"
+                className="text-petrol hover:underline font-medium"
+              >
+                TechClipsエージェントの評判・口コミ（Qiita Job Change）
+              </a>
+            </li>
+          </ul>
         </section>
 
         {/* FAQ */}

@@ -27,6 +27,7 @@ const toc = [
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "使い方の5ステップ" },
   { id: "compare", label: "エージェントとの使い分け" },
+  { id: "sources", label: "評判・口コミの参照元" },
   { id: "faq", label: "よくある質問" },
 ];
 
@@ -179,7 +180,7 @@ export default function FreelanceStartReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "フリーランススタート" },
         ]}
       />
@@ -453,6 +454,32 @@ export default function FreelanceStartReview() {
               フリーランスエージェント比較 →
             </Link>
           </div>
+        </section>
+
+        {/* 参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4">
+            本記事が傾向としてまとめた口コミ・評判は、以下のメディアを参照しています（原文の転載は行っていません）。詳細は各リンク先をご確認ください。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>
+              ・
+              <a href="https://nomadoya.ne.jp/freelance-start/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                ノマド家｜フリーランススタートの口コミ・評判
+              </a>
+            </li>
+            <li>
+              ・
+              <a href="https://www.edmondo.jp/media/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                Edmondo NEXT（メディアトップ）
+              </a>
+              <span className="text-xs text-slate-400">（該当記事のURLが確認できなかったため、メディアトップにリンクしています）</span>
+            </li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-3">
+            ※掲載案件数・利用者数・平均単価などの数値は、記事中に併記した公式プレスリリース／公式調査に基づきます。リンク先の掲載内容・URLは変更される場合があります。最終リンク確認：2026年7月。
+          </p>
         </section>
 
         {/* FAQ */}

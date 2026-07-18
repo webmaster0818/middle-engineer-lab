@@ -18,6 +18,7 @@ const categories = [
     companies: [
       { slug: "google", name: "Google Japan", salary: "1,200〜2,000万円", tech: "Go / Python / Kubernetes / GCP", desc: "コーディング面接の比重が高い世界水準のテック企業。" },
       { slug: "amazon", name: "Amazon Japan", salary: "1,000〜1,800万円", tech: "Java / AWS / Python / TypeScript", desc: "Leadership Principlesに沿った行動面接が特徴。" },
+      { slug: "aws-japan", name: "AWSジャパン", salary: "約1,300〜2,400万円(levels.fyi集計/有報非公表)", tech: "AWS / クラウド / SA / SDE", desc: "クラウドエンジニア・ソリューションアーキテクトが中心。年収は非公表のためlevels.fyi集計値。" },
       { slug: "apple", name: "Apple Japan", salary: "1,000〜1,800万円", tech: "Swift / Objective-C / C++ / ML", desc: "プロダクト志向。ハード×ソフトの統合領域が強み。" },
       { slug: "meta", name: "Meta Japan", salary: "1,200〜2,200万円", tech: "React / Hack / Python / C++", desc: "大規模分散システムとフロント技術の最先端。" },
       { slug: "microsoft", name: "Microsoft Japan", salary: "1,000〜1,800万円", tech: "C# / TypeScript / Azure / Python", desc: "クラウド・エンタープライズに強い外資。働き方も柔軟。" },

@@ -164,7 +164,7 @@ export default function BizreachItReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "ビズリーチ(IT)" },
         ]}
       />
@@ -438,6 +438,22 @@ export default function BizreachItReview() {
               </Link>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判／悪い評判の傾向」は、以下の口コミ・評判メディアで公開されているビズリーチの情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各リンクは2026年7月17日時点で実在を確認しています。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>
+              <a href="https://miraitorch-career.com/job-change/post-2941/" target="_blank" rel="nofollow noopener" className="text-petrol hover:underline">ミライトーチMedia（ビズリーチの評判・口コミページ）</a>
+            </li>
+            <li>
+              <a href="https://morejob.co.jp/mirai/bizreach/" target="_blank" rel="nofollow noopener" className="text-petrol hover:underline">morejob（ビズリーチの口コミ調査ページ）</a>
+            </li>
+          </ul>
         </section>
 
         {/* CTA */}

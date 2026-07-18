@@ -156,7 +156,7 @@ export default function MynaviItReview() {
     <>
       <ArticleJsonLd title={PAGE_TITLE} description={PAGE_DESC} url="/review/mynavi-it/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "レビュー", href: "/#ranking" }, { name: "マイナビIT AGENT" }]} />
+      <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "評判・口コミ一覧", href: "/review/" }, { name: "マイナビIT AGENT" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
@@ -412,6 +412,36 @@ export default function MynaviItReview() {
                 <div className="px-5 py-3 text-sm text-slate-600 leading-relaxed">A. {faq.a}</div>
               </details>
             ))}
+          </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-3 leading-relaxed">
+            本記事の評判・口コミは、以下の公式情報および口コミ・評判メディアで公開されている内容の傾向を参照し、当サイトが要約したものです（原文・スコアの転載ではありません）。各リンクは外部サイトへ移動します。
+          </p>
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li>
+                <a href="https://mynavi-agent.jp/it/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  マイナビIT AGENT公式（サービス内容・実績）
+                </a>
+              </li>
+              <li>
+                <a href="https://jobs.qiita.com/mynavi-it-agent/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  Qiita Job Change：マイナビ転職 IT AGENTの評判・口コミ
+                </a>
+              </li>
+              <li>
+                <a href="https://outside.no-limit.careers/mainavi-it-reputation/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  OUTSIDEMAGAZINE：マイナビ転職 IT AGENTの評判・口コミ
+                </a>
+              </li>
+            </ul>
+            <p className="text-xs text-slate-400 mt-3">
+              ※リンク先の内容・URLは変更される場合があります。参照確認日：2026年7月17日。
+            </p>
           </div>
         </section>
 

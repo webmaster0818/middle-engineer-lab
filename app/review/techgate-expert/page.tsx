@@ -25,6 +25,7 @@ const toc = [
   { id: "middle", label: "30代・40代エンジニアの活用視点" },
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "利用の流れ" },
+  { id: "sources", label: "評判・口コミの参照元" },
   { id: "faq", label: "よくある質問" },
 ];
 
@@ -371,6 +372,46 @@ export default function TechgateExpertReview() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の特徴・評判の傾向は、公式サイトおよび以下の各転職メディアの公開情報を参照し、傾向として要約したものです（原文の転載は行っていません）。最終確認日：2026年7月17日。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li className="border border-slate-200 rounded-lg px-4 py-3">
+              <a
+                href={OFFICIAL_URL}
+                rel="nofollow noopener"
+                target="_blank"
+                className="text-petrol hover:underline font-medium"
+              >
+                テックゲートエキスパート公式（株式会社セルバ）
+              </a>
+            </li>
+            <li className="border border-slate-200 rounded-lg px-4 py-3">
+              <a
+                href="https://sakufuri.jp/media/tecgate/"
+                rel="nofollow noopener"
+                target="_blank"
+                className="text-petrol hover:underline font-medium"
+              >
+                テックゲートエキスパートの口コミ・評判（サクフリ）
+              </a>
+            </li>
+            <li className="border border-slate-200 rounded-lg px-4 py-3">
+              <a
+                href="https://freedash.jp/techgate-expert/"
+                rel="nofollow noopener"
+                target="_blank"
+                className="text-petrol hover:underline font-medium"
+              >
+                テックゲートエキスパートの評判・口コミ（フリーダッシュ）
+              </a>
+            </li>
+          </ul>
         </section>
 
         {/* FAQ */}

@@ -188,7 +188,7 @@ export default function DodaItReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "doda(IT特化)" },
         ]}
       />
@@ -476,6 +476,28 @@ export default function DodaItReview() {
               </details>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判／悪い評判の傾向」は、以下の口コミ・評判メディアで公開されているdoda（デューダ）の情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各リンクは2026年7月17日時点で実在を確認しています。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>
+              <a href="https://studio-tale.co.jp/career-stories/guide/doda-review-and-features/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">studio-tale（dodaの評判・特徴の解説ページ）</a>
+            </li>
+            <li>
+              <a href="https://www.best-w.com/reputations/10" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">ベストワーク（dodaエージェントサービスの口コミページ）</a>
+            </li>
+            <li>
+              <a href="https://freeconsul.co.jp/cs/doda/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">freeconsul（dodaの評判・口コミページ）</a>
+            </li>
+            <li>
+              <a href="https://exidea.co.jp/blog/job/tenshoku-site-agent/doda/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">HonNe（ホンネ）（dodaの評判・口コミページ）</a>
+            </li>
+          </ul>
         </section>
 
         {/* CTA */}

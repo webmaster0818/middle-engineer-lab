@@ -424,6 +424,10 @@ export default function MicrosoftCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "AWSジャパンの転職ガイド", href: "/company/aws-japan/" },
+              { name: "Apple Japanの転職ガイド", href: "/company/apple/" },
+              { name: "Meta Japanの転職ガイド", href: "/company/meta/" },
+              { name: "日本オラクルの転職ガイド", href: "/company/oracle-japan/" },
               { name: "技術面接の進め方", href: "/knowledge/tech-interview/" },
               { name: "コーディングテスト対策", href: "/knowledge/coding-test/" },
               { name: "国内企業から外資系への転職", href: "/career/domestic-to-foreign/" },

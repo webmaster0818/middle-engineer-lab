@@ -6,9 +6,9 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/layerx/" },
-  title: "LayerX エンジニア転職ガイド｜年収・技術スタック・選考【2026】",
+  title: "LayerXの評判・年収は？エンジニア転職ガイド【2026】｜技術スタック・選考",
   description:
-    "LayerXのエンジニア中途採用を、公式採用ページ・技術ブログ・口コミの一次情報から解説。バクラク／AI事業の技術スタック、トライアル入社、年収レンジ、30代40代の転職可否までまとめました。",
+    "LayerXの評判・口コミの傾向とエンジニア中途採用を、公式採用ページ・技術ブログ・口コミの一次情報から解説。バクラク／AI事業の技術スタック、トライアル入社、年収レンジ、30代40代の転職可否までまとめました。",
 };
 
 const tableRows: [string, string][] = [
@@ -88,7 +88,7 @@ const toc = [
   { id: "salary", label: "年収データ" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
-  { id: "review", label: "口コミの傾向" },
+  { id: "review", label: "評判・口コミの傾向" },
   { id: "middle", label: "30代・40代の視点" },
   { id: "fit", label: "向いている人・向いていない人" },
   { id: "agents", label: "おすすめエージェント" },
@@ -268,7 +268,7 @@ export default function LayerxCompanyPage() {
         </section>
 
         <section id="review" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミの傾向（出典名付き要約）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">LayerXの評判・口コミの傾向（出典名付き要約）</h2>
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-3">
             <p><strong>良い評価の傾向：</strong>OpenWork・転職会議等の口コミプラットフォームでは、(1)フルリモート・フレックスで働き方の自由度が高い、(2)残業代が実態に応じて支払われる「ホワイト寄り」、(3)技術レベルが高く刺激的な環境、といった声が見られます（2026年時点）。</p>
             <p><strong>気をつけたい点の傾向：</strong>同サイトでは、(1)急成長フェーズゆえ繁忙の波がある、(2)裁量が大きい分、自走力・キャッチアップの速さが求められる、(3)成果主義で評価のメリハリが大きい、といった指摘も見られます。</p>

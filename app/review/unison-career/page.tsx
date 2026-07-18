@@ -400,6 +400,21 @@ export default function UnisonCareerReview() {
           </a>
         </section>
 
+        {/* 評判・口コミの参照元 */}
+        <section className="mb-10">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
+          <p className="text-xs text-slate-500 leading-relaxed mb-3">
+            ユニゾンキャリアは2021年設立の運営会社による比較的新しいサービスで、独立系口コミプラットフォーム上の声は本文のとおり蓄積が限定的なため、本記事は個別スコアを引用していません。評判の傾向は、公式サイトの公表情報（サービス概要・会社情報）と各転職メディアの紹介記事を参照し、傾向として要約したものです。一次情報の出典は以下のとおりです。最終確認日：2026年7月17日。
+          </p>
+          <ul className="text-sm space-y-2 text-slate-600 list-disc pl-5">
+            <li>
+              <a href="https://unison-career.jp/" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                ユニゾンキャリア公式サイト（サービス概要・会社情報）
+              </a>
+            </li>
+          </ul>
+        </section>
+
         {/* 関連記事 */}
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>

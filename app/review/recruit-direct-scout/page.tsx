@@ -26,6 +26,7 @@ const toc = [
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "登録からスカウト・内定までの流れ" },
   { id: "compare", label: "他サービスとの使い分け" },
+  { id: "sources", label: "評判・口コミの参照元" },
   { id: "faq", label: "よくある質問" },
 ];
 
@@ -175,7 +176,7 @@ export default function RecruitDirectScoutReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "リクルートダイレクトスカウト" },
         ]}
       />
@@ -473,6 +474,39 @@ export default function RecruitDirectScoutReview() {
               ハイクラス向けエージェント比較 →
             </Link>
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判・悪い評判の傾向」は、以下の口コミ・評判メディアの公開情報を参照し、傾向として要約したものです（原文・スコアの転載は行っていません）。最終確認日：2026年7月17日。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li className="border border-slate-200 rounded-lg px-4 py-3">
+              <a
+                href="https://jobs.qiita.com/directscout-recruit/"
+                rel="nofollow noopener"
+                target="_blank"
+                className="text-petrol hover:underline font-medium"
+              >
+                リクルートダイレクトスカウトの評判・口コミ（Qiita Job Change）
+              </a>
+            </li>
+            <li className="border border-slate-200 rounded-lg px-4 py-3">
+              <a
+                href="https://minhyo.jp/"
+                rel="nofollow noopener"
+                target="_blank"
+                className="text-petrol hover:underline font-medium"
+              >
+                みん評（口コミサイト・トップ）
+              </a>
+              <span className="text-xs text-slate-400 block mt-1">
+                ※本サービス専用の口コミページは確認できなかったため、口コミサイトのトップを掲載しています。
+              </span>
+            </li>
+          </ul>
         </section>
 
         {/* FAQ */}

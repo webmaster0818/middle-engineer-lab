@@ -338,6 +338,7 @@ export default function OfferDeclinePage() {
               { name: "引き止め（カウンターオファー）への対応", href: "/knowledge/counter-offer/" },
               { name: "退職の進め方ガイド", href: "/knowledge/resignation/" },
               { name: "30代の転職", href: "/age/30s/" },
+              { name: "テックゴーの無料キャリア面談とは", href: "/review/techgo-consultation/" },
             ].map((item, i) => (
               <Link
                 key={i}

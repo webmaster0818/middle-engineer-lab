@@ -123,6 +123,7 @@ const related = [
   { name: "フルリモートIT転職ガイド", href: "/area/remote/" },
   { name: "Greenの評判・口コミ", href: "/review/green/" },
   { name: "Geeklyの評判・口コミ", href: "/review/geekly/" },
+  { name: "Relance（フルリモート・高単価フリーランス）の評判", href: "/review/relance/" },
   { name: "地方移住×IT転職ガイド", href: "/area/iiju/" },
   { name: "札幌のIT転職事情", href: "/area/sapporo/" },
   { name: "IT転職エージェント10社比較", href: "/compare/agents/" },

@@ -230,7 +230,7 @@ export default function IbmCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "アクセンチュアの転職ガイド", href: "/company/accenture/" }, { name: "AI／機械学習エンジニアの転職", href: "/skill/ai-ml/" }, { name: "Kubernetesエンジニアの転職", href: "/skill/kubernetes/" }, { name: "PMの転職ガイド", href: "/skill/pm/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "市場価値の把握", href: "/knowledge/market-value/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
+            {[{ name: "野村総合研究所（NRI）の転職ガイド", href: "/company/nri/" }, { name: "NTTデータの転職ガイド", href: "/company/ntt-data/" }, { name: "SCSKの転職ガイド", href: "/company/scsk/" }, { name: "SHIFTの転職ガイド", href: "/company/shift/" }, { name: "アクセンチュアの転職ガイド", href: "/company/accenture/" }, { name: "AI／機械学習エンジニアの転職", href: "/skill/ai-ml/" }, { name: "Kubernetesエンジニアの転職", href: "/skill/kubernetes/" }, { name: "PMの転職ガイド", href: "/skill/pm/" }, { name: "40代の年収相場", href: "/knowledge/salary-40s/" }, { name: "市場価値の把握", href: "/knowledge/market-value/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

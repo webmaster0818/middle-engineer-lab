@@ -70,6 +70,7 @@ const faqs = [
 const relatedLinks = [
   { name: "Green（ベンチャー直応募）の評判", href: "/review/green/" },
   { name: "Wantedly（共感軸・カジュアル面談）の評判", href: "/review/wantedly/" },
+  { name: "Green vs Wantedly 比較（直応募2サービスの使い分け）", href: "/compare/green-vs-wantedly/" },
   { name: "Findy（GitHubスキル偏差値）の評判", href: "/review/findy/" },
   { name: "メガベンチャー向けエージェント比較", href: "/compare/megaventure-agents/" },
   { name: "スタートアップと大企業どちらを選ぶか", href: "/knowledge/startup-vs-enterprise/" },

@@ -26,6 +26,7 @@ const toc = [
   { id: "checklist", label: "向いている人／向いていない人" },
   { id: "flow", label: "登録から内定までの5ステップ" },
   { id: "compare", label: "他社との比較・使い分け" },
+  { id: "sources", label: "評判・口コミの参照元" },
   { id: "faq", label: "よくある質問" },
   { id: "related", label: "関連記事" },
 ];
@@ -164,7 +165,7 @@ export default function RecruitItReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "リクルートエージェントIT" },
         ]}
       />
@@ -403,6 +404,26 @@ export default function RecruitItReview() {
           <h2 className="text-xl font-bold mb-3">リクルートエージェントITに無料相談する</h2>
           <p className="text-blue-100 text-sm mb-4">国内最大級の求人から、あなたに合うIT求人を探してみませんか？</p>
           <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料カウンセリングを予約する</a>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判・悪い評判の傾向」は、以下の口コミ・評判メディアの公開情報を参照し、傾向として要約したものです（原文・スコアの転載は行っていません）。最終確認日：2026年7月17日。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li className="border border-slate-200 rounded-lg px-4 py-3">
+              <a
+                href="https://jobs.qiita.com/r-agent-it/"
+                rel="nofollow noopener"
+                target="_blank"
+                className="text-petrol hover:underline font-medium"
+              >
+                リクルートエージェントITの評判・口コミ（Qiita Job Change）
+              </a>
+            </li>
+          </ul>
         </section>
 
         {/* FAQ */}

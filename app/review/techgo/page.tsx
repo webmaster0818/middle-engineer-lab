@@ -5,9 +5,9 @@ import TechgoCta from "@/components/TechgoCta";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "テックゴーの評判は？年収アップ実績と特徴を検証【2026年】";
+const TITLE = "テックゴーの評判・口コミは？年収アップ実績と特徴を検証【2026年】";
 const DESCRIPTION =
-  "テックゴー（TechGo・株式会社MyVision運営）の評判・特徴を30代40代ミドルエンジニア目線で検証。公式公表の年収アップ平均138万円の注記条件、無料キャリア面談、向く人・向かない人、利用の流れを出典付きで解説します。";
+  "テックゴー（TechGo・株式会社MyVision運営）の評判・口コミを30代40代ミドルエンジニア目線で検証。「やばい」と検索される理由、公式公表の年収アップ平均138万円の注記条件、無料キャリア面談、向く人・向かない人、利用の流れを出典付きで解説します。";
 const URL = "/review/techgo/";
 const OFFICIAL_URL = "https://tech-go.jp/";
 
@@ -672,6 +672,21 @@ export default function TechgoReview() {
 
         {/* 関連記事 */}
         <TechgoCta heading="まずは無料キャリア面談で相性を確かめる" buttonText="テックゴーの無料キャリア面談を予約する（公式）" />
+
+        {/* 評判・口コミの参照元 */}
+        <section className="mb-10">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
+          <p className="text-xs text-slate-500 leading-relaxed mb-3">
+            テックゴーは2025年開始の新しいサービスで、独立系口コミプラットフォーム上の個別スコアは本文のとおり蓄積が限定的なため、本記事は個別スコアを引用していません。評判の傾向は、公式サイトの公表情報（サービス概要・FAQ・会社概要）と各転職メディアの紹介記事を参照し、傾向として要約したものです。一次情報の出典は以下のとおりです。最終確認日：2026年7月17日。
+          </p>
+          <ul className="text-sm space-y-2 text-slate-600 list-disc pl-5">
+            <li>
+              <a href="https://tech-go.jp/" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                テックゴー公式サイト（サービス概要・FAQ・会社概要）
+              </a>
+            </li>
+          </ul>
+        </section>
 
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>

@@ -48,7 +48,7 @@ const goodReviews = [
   },
   {
     title: "案件量が業界最大手級で選択肢が広い",
-    body: "Geek Jobsやエンジニアスタイル等の口コミ系では、公開案件が豊富で希望に合う案件を比較しながら選べたという傾向の声が見られる。レバテック公式系では満足度92.6%という二次情報もある（時期・調査主体に注意）。",
+    body: "エンジニアスタイル等のフリーランス系メディアでは、公開案件が豊富で希望に合う案件を比較しながら選べたという傾向の声が見られる。レバテック公式系では満足度92.6%という二次情報もある（時期・調査主体に注意）。",
   },
   {
     title: "担当が技術・業界に詳しく交渉してくれる",
@@ -152,6 +152,8 @@ const related = [
   { name: "正社員転職のレバテックキャリアの評判", href: "/review/levtech/" },
   { name: "Midworksの評判（正社員並み保障）", href: "/review/midworks/" },
   { name: "ITプロパートナーズの評判（週2-3日）", href: "/review/itpropartners/" },
+  { name: "Relance（リランス）の評判（高単価プライム・フルリモート）", href: "/review/relance/" },
+  { name: "フリーランススタートの評判（案件検索で横断比較）", href: "/review/freelance-start/" },
   { name: "フリーランスエージェント比較", href: "/compare/freelance-agents/" },
   { name: "業務委託という働き方の基礎", href: "/employment/contractor/" },
   { name: "フリーランスと正社員どちらが得か", href: "/knowledge/freelance-vs-fulltime/" },
@@ -178,7 +180,7 @@ export default function LevtechFreelanceReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "レバテックフリーランス" },
         ]}
       />
@@ -528,6 +530,36 @@ export default function LevtechFreelanceReview() {
           <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-3">
+            本記事の評判・口コミは、以下の公式情報および口コミ・評判メディアで公開されている内容の傾向を参照し、当サイトが要約したものです（原文・スコアの転載ではありません）。各リンクは外部サイトへ移動します。
+          </p>
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li>
+                <a href="https://freelance.levtech.jp/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  レバテックフリーランス公式（案件・利用者データ）
+                </a>
+              </li>
+              <li>
+                <a href="https://freelance-start.com/agents/42/review" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  フリーランススタート：レバテックフリーランスの評判・口コミ
+                </a>
+              </li>
+              <li>
+                <a href="https://engineer-style.jp/articles/12223" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  エンジニアスタイル：レバテックフリーランスの評判・口コミ
+                </a>
+              </li>
+            </ul>
+            <p className="text-xs text-slate-400 mt-3">
+              ※リンク先の内容・URLは変更される場合があります。参照確認日：2026年7月17日。
+            </p>
+          </div>
         </section>
 
         {/* 関連記事 */}

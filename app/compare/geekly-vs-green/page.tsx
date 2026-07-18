@@ -96,6 +96,7 @@ const relatedArticles = [
   { name: "Geekly vs ワークポート比較", href: "/compare/geekly-vs-workport/" },
   { name: "IT転職エージェント10社比較", href: "/compare/agents/" },
   { name: "30代におすすめエージェント", href: "/compare/30s-agents/" },
+  { name: "テックゴー（TechGo）の評判・特徴", href: "/review/techgo/" },
 ];
 
 const toc = [

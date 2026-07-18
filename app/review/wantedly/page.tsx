@@ -147,6 +147,7 @@ const faqs = [
 const related = [
   { name: "スタートアップ転職のキャリア（企業からスタートアップへ）", href: "/career/corporate-to-startup/" },
   { name: "Green（ダイレクトリクルーティング）の評判", href: "/review/green/" },
+  { name: "Green vs Wantedly 比較（どちらを使うべきか）", href: "/compare/green-vs-wantedly/" },
   { name: "30代エンジニア向けエージェント比較", href: "/compare/30s-agents/" },
   { name: "40代エンジニアの転職リアル", href: "/age/40s/" },
   { name: "副業・サイドプロジェクトの始め方", href: "/knowledge/side-project/" },
@@ -174,7 +175,7 @@ export default function WantedlyReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "Wantedly" },
         ]}
       />
@@ -477,6 +478,29 @@ export default function WantedlyReview() {
               </details>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判／悪い評判」の傾向は、以下の口コミ・評判メディアで公開されている情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各ページは2026年7月に確認しています。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <a href="https://www.a-tm.co.jp/top/job-change/best-job-change-site/wantedly/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">イーデス</a>
+              <span className="text-slate-500"> ：Wantedly（ウォンテッドリー）の評判・口コミレビュー</span>
+            </li>
+            <li>
+              <a href="https://minhyo.jp/wantedly" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">みん評</a>
+              <span className="text-slate-500"> ：Wantedly（ウォンテッドリー）利用者の口コミ</span>
+            </li>
+            <li>
+              <a href="https://www.openwork.jp/company.php?m_id=a0C1000000tgYLO" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">OpenWork</a>
+              <span className="text-slate-500"> ：ウォンテッドリー株式会社の社員クチコミ</span>
+            </li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-3">※外部サイトの内容・URLは変更される場合があります（最終確認：2026年7月）。数値は各サイトの記載時点のものです。</p>
         </section>
 
         {/* CTA */}

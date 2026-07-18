@@ -26,6 +26,7 @@ const toc = [
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "登録から内定までの5ステップ" },
   { id: "compare", label: "他社との比較" },
+  { id: "sources", label: "評判・口コミの参照元" },
   { id: "faq", label: "よくある質問" },
 ];
 
@@ -191,7 +192,7 @@ export default function GeeklyReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "Geekly" },
         ]}
       />
@@ -462,6 +463,37 @@ export default function GeeklyReview() {
               提案スピードで選ぶエージェント比較 →
             </Link>
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の「良い評判・悪い評判の傾向」は、以下の各メディアに掲載された口コミ・レビューを参照して傾向を要約したものです（原文・スコアの転載ではありません）。最新の内容は各リンク先でご確認ください。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5 bg-slate-50">
+            <li className="flex items-start gap-2">
+              <span className="text-petrol shrink-0">›</span>
+              <a href="https://2b-connect.jp/tensyoku-connect/brand-geekly/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">
+                2b-connect（転職コネクト）：Geekly（ギークリー）の評判・口コミ
+              </a>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-petrol shrink-0">›</span>
+              <a href="https://tenshoku-antenna.com/geekly-reputation" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">
+                転職アンテナ：Geekly（ギークリー）の口コミと評判
+              </a>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-petrol shrink-0">›</span>
+              <a href="https://jobs.qiita.com/geekly/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">
+                Qiita Job Change：Geekly（ギークリー）の評判・口コミ
+              </a>
+            </li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-3">
+            ※各リンク先の実在は2026年7月時点で確認しています。外部サイトの内容・URLは予告なく変更される場合があります。求人数・年収アップ実績などの数値は最新を公式サイトでご確認ください。
+          </p>
         </section>
 
         {/* FAQ */}

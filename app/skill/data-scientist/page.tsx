@@ -352,6 +352,7 @@ export default function DataScientistPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "AI・機械学習エンジニア転職ガイド", href: "/skill/ai-ml/" },
+              { name: "AI・機械学習エンジニア向けエージェント比較", href: "/compare/ai-agents/" },
               { name: "Pythonエンジニア転職ガイド", href: "/skill/python/" },
               { name: "データベースエンジニア転職ガイド", href: "/skill/sql/" },
               { name: "40代エンジニアの転職事情", href: "/age/40s/" },

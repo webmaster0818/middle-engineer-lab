@@ -178,7 +178,7 @@ export default function TechReachReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "TechReach" },
         ]}
       />
@@ -482,6 +482,26 @@ export default function TechReachReview() {
           <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section className="mb-10">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
+          <p className="text-xs text-slate-500 leading-relaxed mb-3">
+            本記事の「評判・口コミの傾向」は、以下の各メディアが公開するTechReach（テックリーチ）の評判・口コミ記事を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各リンク先の内容は各運営者に帰属します。最終確認日：2026年7月17日。
+          </p>
+          <ul className="text-sm space-y-2 text-slate-600 list-disc pl-5">
+            <li>
+              <a href="https://caswitch.com/tech-reach/" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                キャリアスイッチ通信「TechReach（テックリーチ）」評判・口コミ記事
+              </a>
+            </li>
+            <li>
+              <a href="https://shincru.jp/tech-reach/" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                フリーランスの攻略本「TechReach（テックリーチ）」評判・口コミ記事
+              </a>
+            </li>
+          </ul>
         </section>
 
         {/* 関連記事 */}

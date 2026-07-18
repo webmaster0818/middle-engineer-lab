@@ -430,6 +430,11 @@ export default function GoogleCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "IT企業の平均年収ランキング（有報57社）", href: "/salary/company-ranking/" },
+              { name: "AWSジャパンの転職ガイド", href: "/company/aws-japan/" },
+              { name: "Apple Japanの転職ガイド", href: "/company/apple/" },
+              { name: "Meta Japanの転職ガイド", href: "/company/meta/" },
+              { name: "日本オラクルの転職ガイド", href: "/company/oracle-japan/" },
               { name: "コーディングテスト対策", href: "/knowledge/coding-test/" },
               { name: "システムデザイン面接の準備", href: "/knowledge/system-design/" },
               { name: "国内企業から外資系への転職", href: "/career/domestic-to-foreign/" },

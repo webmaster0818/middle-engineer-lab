@@ -308,6 +308,11 @@ export default function GmoPepaboCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "AWSジャパンの転職ガイド", href: "/company/aws-japan/" },
+              { name: "クラスメソッドの転職ガイド", href: "/company/classmethod/" },
+              { name: "フューチャー（Future）の転職ガイド", href: "/company/future/" },
+              { name: "IIJ（インターネットイニシアティブ）の転職ガイド", href: "/company/iij/" },
+              { name: "トレンドマイクロの転職ガイド", href: "/company/trendmicro/" },
               { name: "さくらインターネット エンジニア転職ガイド", href: "/company/sakura-internet/" },
               { name: "MonotaRO エンジニア転職ガイド", href: "/company/monotaro/" },
               { name: "企業別エンジニア転職ガイド一覧", href: "/company/" },

@@ -177,7 +177,7 @@ export default function TenshokuDraftReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "転職ドラフト" },
         ]}
       />
@@ -474,6 +474,26 @@ export default function TenshokuDraftReview() {
           <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section className="mb-10">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
+          <p className="text-xs text-slate-500 leading-relaxed mb-3">
+            本記事の「評判・口コミの傾向」および提示年収の水準感は、運営元リブセンスの公表系情報と、以下のエンジニアの体験・分析記事を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各リンク先の内容は各運営者に帰属します。最終確認日：2026年7月17日。
+          </p>
+          <ul className="text-sm space-y-2 text-slate-600 list-disc pl-5">
+            <li>
+              <a href="https://job-draft.jp/articles/191" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                転職ドラフトReport（運営リブセンスによる提示年収データ分析記事）
+              </a>
+            </li>
+            <li>
+              <a href="https://note.com/uroshi/n/n301ba8f9fa00" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                note：エンジニアによる転職ドラフト利用の考察記事
+              </a>
+            </li>
+          </ul>
         </section>
 
         {/* 関連記事 */}

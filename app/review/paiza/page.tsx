@@ -159,7 +159,7 @@ export default function PaizaReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "paiza転職" },
         ]}
       />
@@ -545,6 +545,41 @@ export default function PaizaReview() {
                 <div className="px-5 py-3 text-sm text-slate-600 leading-relaxed">A. {faq.a}</div>
               </details>
             ))}
+          </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-12 scroll-mt-20">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-3 leading-relaxed">
+            本記事の評判・口コミは、以下の公式情報および口コミ・評判メディアで公開されている内容の傾向を参照し、当サイトが要約したものです（原文・スコアの転載ではありません）。各リンクは外部サイトへ移動します。
+          </p>
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li>
+                <a href="https://paiza.jp/career" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  paiza転職 公式（スキルチェック・書類選考免除の仕組み）
+                </a>
+              </li>
+              <li>
+                <a href="https://jobs.qiita.com/paiza/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  Qiita Job Change：paiza転職の評判・口コミ
+                </a>
+              </li>
+              <li>
+                <a href="https://asiro.co.jp/media-career/58765/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  キャリアアップステージ（asiro）：paiza転職の評判・口コミ
+                </a>
+              </li>
+              <li>
+                <a href="https://freeconsul.co.jp/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                  フリーコンサル（口コミメディア・トップ）
+                </a>
+              </li>
+            </ul>
+            <p className="text-xs text-slate-400 mt-3">
+              ※リンク先の内容・URLは変更される場合があります。参照確認日：2026年7月17日。
+            </p>
           </div>
         </section>
 

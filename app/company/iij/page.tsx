@@ -367,6 +367,7 @@ export default function IijCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "AWSジャパンの転職ガイド", href: "/company/aws-japan/" },
               { name: "さくらインターネット の転職ガイド", href: "/company/sakura-internet/" },
               { name: "NTT（日本電信電話） の転職ガイド", href: "/company/ntt/" },
               { name: "KDDI の転職ガイド", href: "/company/kddi/" },

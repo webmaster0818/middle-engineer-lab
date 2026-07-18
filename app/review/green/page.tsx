@@ -23,6 +23,7 @@ const toc = [
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "登録から内定までの5ステップ" },
   { id: "compare", label: "他社との比較・使い分け" },
+  { id: "sources", label: "評判・口コミの参照元" },
   { id: "faq", label: "よくある質問" },
   { id: "related", label: "関連記事" },
 ];
@@ -134,6 +135,7 @@ const faqs = [
 
 const relatedArticles = [
   { name: "Geekly vs Green 比較", href: "/compare/geekly-vs-green/" },
+  { name: "Green vs Wantedly 比較（直応募2サービスの違い）", href: "/compare/green-vs-wantedly/" },
   { name: "直接応募型サービスの使い方", href: "/knowledge/direct-apply/" },
   { name: "スカウト型転職の活用法", href: "/knowledge/scout/" },
   { name: "スタートアップ vs 大手の選び方", href: "/knowledge/startup-vs-enterprise/" },
@@ -163,7 +165,7 @@ export default function GreenReview() {
       <Breadcrumb
         items={[
           { name: "ホーム", href: "/" },
-          { name: "レビュー", href: "/#ranking" },
+          { name: "評判・口コミ一覧", href: "/review/" },
           { name: "Green" },
         ]}
       />
@@ -441,6 +443,37 @@ export default function GreenReview() {
               </Link>
             ))}
           </div>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            本記事の口コミ傾向は、Green自体のレビューではなく、第三者の口コミ・評判メディアに掲載された声を参照して傾向を要約したものです（原文・スコアの転載ではありません）。最新の内容は各リンク先でご確認ください。
+          </p>
+          <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5 bg-slate-50">
+            <li className="flex items-start gap-2">
+              <span className="text-petrol shrink-0">›</span>
+              <a href="https://minhyo.jp/green-japan" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">
+                みん評：Green（グリーン）の口コミ・評判
+              </a>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-petrol shrink-0">›</span>
+              <a href="https://axxis.co.jp/magazine/55798" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">
+                axxis（すべらない転職）：Greenの口コミ・評判調査
+              </a>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-petrol shrink-0">›</span>
+              <a href="https://exidea.co.jp/blog/job/job-change/green/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">
+                HonNe（ホンネ）：Green（グリーン）の評判・口コミと求人の特徴
+              </a>
+            </li>
+          </ul>
+          <p className="text-xs text-slate-400 mt-3">
+            ※各リンク先の実在は2026年7月時点で確認しています。外部サイトの内容・URLは予告なく変更される場合があります。掲載企業数・求人数などの数値は最新を公式サイトでご確認ください。
+          </p>
         </section>
 
         {/* FAQ */}
