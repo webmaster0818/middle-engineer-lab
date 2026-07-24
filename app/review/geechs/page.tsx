@@ -506,7 +506,7 @@ export default function GeechsReview() {
           <p className="text-blue-100 text-sm mb-4">
             リモート中心で柔軟に働きたい方は、福利厚生のあるギークスジョブに相談してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://geechs-job.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>

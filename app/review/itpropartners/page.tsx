@@ -513,7 +513,7 @@ export default function ItproPartnersReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは無料相談で、週2〜3日・リモートで参画できる案件を確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://itpropartners.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料相談を予約する
           </a>
         </section>

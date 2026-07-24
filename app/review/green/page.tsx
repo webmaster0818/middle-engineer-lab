@@ -496,7 +496,7 @@ export default function GreenReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Greenに無料登録する</h2>
           <p className="text-blue-100 text-sm mb-4">まずは「気になる」を送って、カジュアルに企業との出会いを始めてみませんか？</p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料登録して求人を見る</a>
+          <a href="https://www.green-japan.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料登録して求人を見る</a>
         </section>
 
         {/* 関連記事 */}

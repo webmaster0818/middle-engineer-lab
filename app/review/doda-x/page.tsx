@@ -541,7 +541,7 @@ export default function DodaXReview() {
           <p className="text-blue-100 text-sm mb-4">
             レジュメを登録して、ハイクラスのスカウトを受け取ってみませんか？まずは市場価値の確認から。
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://doda-x.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料でレジュメを登録する
           </a>
         </section>

@@ -503,7 +503,7 @@ export default function TechClipsReview() {
           <p className="text-blue-100 text-sm mb-4">
             自社開発企業への高年収転職を、エンジニア視点のエージェントに相談してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://tech-clips.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>

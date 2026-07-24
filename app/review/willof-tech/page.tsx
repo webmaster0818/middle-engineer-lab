@@ -506,7 +506,7 @@ export default function WillofTechReview() {
           <p className="text-blue-100 text-sm mb-4">
             経験を年収に反映させたいなら、専属2名体制のウィルオブテックに相談しませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://willof.jp/techcareer/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>

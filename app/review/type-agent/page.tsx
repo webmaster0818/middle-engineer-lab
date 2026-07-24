@@ -522,7 +522,7 @@ export default function TypeAgentReview() {
             首都圏でのIT転職をお考えなら、まずは無料カウンセリングから始めてみませんか？
           </p>
           <a
-            href="#"
+            href="https://type.career-agent.jp/" target="_blank" rel="nofollow noopener"
             className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             無料カウンセリングを予約する

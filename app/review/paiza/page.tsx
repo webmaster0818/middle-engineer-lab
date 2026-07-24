@@ -525,7 +525,7 @@ export default function PaizaReview() {
             スキルチェックであなたのランクを確認し、書類選考免除のスカウトを受け取ってみませんか？
           </p>
           <a
-            href="#"
+            href="https://paiza.jp/" target="_blank" rel="nofollow noopener"
             className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors"
           >
             無料登録してスキルチェックを受ける

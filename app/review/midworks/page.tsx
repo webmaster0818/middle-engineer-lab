@@ -494,7 +494,7 @@ export default function MidworksReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは無料面談で、保障の条件と自分の単価レンジを確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://mid-works.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料面談を予約する
           </a>
         </section>

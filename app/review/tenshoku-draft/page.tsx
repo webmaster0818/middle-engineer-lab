@@ -471,7 +471,7 @@ export default function TenshokuDraftReview() {
           <p className="text-blue-100 text-sm mb-4">
             企業からの提示年収で、あなたのいまの市場価値を金額で確かめてみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://job-draft.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
         </section>

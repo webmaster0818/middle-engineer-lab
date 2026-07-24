@@ -403,7 +403,7 @@ export default function RecruitItReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">リクルートエージェントITに無料相談する</h2>
           <p className="text-blue-100 text-sm mb-4">国内最大級の求人から、あなたに合うIT求人を探してみませんか？</p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料カウンセリングを予約する</a>
+          <a href="https://www.r-agent.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料カウンセリングを予約する</a>
         </section>
 
         {/* 評判・口コミの参照元 */}

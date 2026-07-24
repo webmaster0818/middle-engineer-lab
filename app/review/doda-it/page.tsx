@@ -506,7 +506,7 @@ export default function DodaItReview() {
           <p className="text-blue-100 text-sm mb-4">
             40代エンジニアの転職も、dodaなら豊富な求人から選択肢を広げられます。
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://doda.jp/engineer/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>

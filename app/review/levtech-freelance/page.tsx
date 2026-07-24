@@ -527,7 +527,7 @@ export default function LevtechFreelanceReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは無料カウンセリングで、あなたのスキルでの単価レンジを確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://freelance.levtech.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>

@@ -502,7 +502,7 @@ export default function ForkwellReview() {
           <p className="text-blue-100 text-sm mb-4">
             ポートフォリオを整えて、あなたに合った企業からのスカウトを待ってみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://forkwell.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
         </section>

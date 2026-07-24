@@ -460,7 +460,7 @@ export default function BizreachItReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ビズリーチに無料登録する</h2>
           <p className="text-blue-100 text-sm mb-4">まずは無料会員で、どんなスカウトが届くか市場価値を確かめてみませんか？</p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料登録してスカウトを受ける</a>
+          <a href="https://www.bizreach.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料登録してスカウトを受ける</a>
         </section>
 
         {/* FAQ */}

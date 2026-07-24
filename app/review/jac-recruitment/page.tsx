@@ -521,7 +521,7 @@ export default function JacRecruitmentReview() {
           <p className="text-blue-100 text-sm mb-4">
             40代でも諦めない。まずは無料面談で、狙えるハイクラス求人のレンジを確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://www.jac-recruitment.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料面談を予約する
           </a>
         </section>

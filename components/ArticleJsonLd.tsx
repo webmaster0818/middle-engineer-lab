@@ -1,3 +1,5 @@
+import pageDates from "./page-dates.json";
+
 interface ArticleJsonLdProps {
   title: string;
   description: string;
@@ -11,16 +13,21 @@ export default function ArticleJsonLd({
   description,
   url,
   datePublished = "2026-06-05",
-  dateModified = "2026-06-05",
+  dateModified,
 }: ArticleJsonLdProps) {
+  // dateModified は「実際の最終編集日」(git履歴由来・scripts/gen-page-dates.mjs)を優先。
+  // 偽の一括鮮度更新を避け、正確な鮮度シグナルのみを出力する。
+  const modified =
+    (pageDates as Record<string, string>)[url] ?? dateModified ?? datePublished;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
     description,
+    inLanguage: "ja",
     url: `https://middle-engineer.com${url}`,
     datePublished,
-    dateModified,
+    dateModified: modified,
     author: {
       "@type": "Organization",
       name: "ミドルエンジニア転職ラボ",

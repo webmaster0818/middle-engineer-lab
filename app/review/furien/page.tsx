@@ -508,7 +508,7 @@ export default function FurienReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは無料カウンセリングで、直請け案件の単価レンジと選べる支払いサイトを確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://furien.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>

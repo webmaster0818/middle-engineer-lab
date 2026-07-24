@@ -507,7 +507,7 @@ export default function FindyReview() {
           <p className="text-blue-100 text-sm mb-4">
             GitHubを連携して、あなたの技術力がどう評価されるか確かめてみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://findy-code.io/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
         </section>

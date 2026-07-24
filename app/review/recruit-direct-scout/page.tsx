@@ -531,7 +531,7 @@ export default function RecruitDirectScoutReview() {
           <p className="text-blue-100 text-sm mb-4">
             レジュメを登録して、あなたにどんな高年収スカウトが届くか確かめてみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://directscout.recruit.co.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
         </section>

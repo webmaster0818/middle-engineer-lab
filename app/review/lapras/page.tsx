@@ -494,7 +494,7 @@ export default function LaprasReview() {
           <p className="text-blue-100 text-sm mb-4">
             これまでの発信が自動でポートフォリオに。市場での立ち位置を確かめてみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://lapras.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
         </section>

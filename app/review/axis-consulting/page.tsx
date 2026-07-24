@@ -513,7 +513,7 @@ export default function AxisConsultingReview() {
           <p className="text-blue-100 text-sm mb-4">
             コンサル・DXへのキャリアチェンジを決めたら、業界特化の選考対策を受けてみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://www.axc.ne.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料相談を予約する
           </a>
         </section>

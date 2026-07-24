@@ -445,7 +445,7 @@ export default function WorkportReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ワークポートに無料相談する</h2>
           <p className="text-blue-100 text-sm mb-4">求人量とスピードで選択肢を広げたい方へ。まずは無料相談から始めてみませんか？</p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料カウンセリングを予約する</a>
+          <a href="https://www.workport.co.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料カウンセリングを予約する</a>
         </section>
 
         {/* 関連記事 */}

@@ -6,9 +6,9 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/cybozu/" },
-  title: "サイボウズの転職難易度と年収・給与【2026年】働き方・技術スタック・エンジニア転職",
+  title: "サイボウズの転職難易度と年収は？平均719万円【2026年・有報】働き方・技術スタック・エンジニア転職",
   description:
-    "サイボウズのエンジニア中途採用を有価証券報告書・公式技術発信の一次情報で解説。平均年収(全従業員平均)、kintone/Garoonの技術スタック(Java/Go/TypeScript/React)、多様な働き方、30代40代の現実を中立にまとめました。",
+    "サイボウズのエンジニア中途採用を有価証券報告書・公式技術発信の一次情報で解説。平均年収は全従業員平均で719万円(2025年12月期・有報／687万円=2024年12月期)。平均年齢は35〜36歳台。kintone/Garoonの技術スタック(Java/Go/TypeScript/React)、多様な働き方、30代40代の現実を中立にまとめました。",
 };
 
 const toc = [

@@ -504,7 +504,7 @@ export default function FreelanceStartReview() {
           <p className="text-blue-100 text-sm mb-4">
             まずは横断検索で、あなたのスキル・言語での単価相場とリモート案件を確認してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://freelance-start.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             案件を検索する
           </a>
         </section>

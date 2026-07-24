@@ -512,7 +512,7 @@ export default function EngineerFactoryReview() {
           <p className="text-blue-100 text-sm mb-4">
             東京・大阪圏で低マージン・エンド直の高単価案件を探してみませんか？
           </p>
-          <a href="#" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
+          <a href="https://www.engineer-factory.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する
           </a>
         </section>
