@@ -36,10 +36,10 @@ const basicData: [string, string][] = [
 ];
 
 const salaryRows: [string, string][] = [
-  ["L3（SWE II・若手）", "総報酬 中央値の目安 約1,600万円〜"],
-  ["L4（SWE III）", "総報酬 約2,000万円台前半"],
-  ["L5（Senior SWE）", "総報酬 約2,500万円前後"],
-  ["L6（Staff SWE）", "総報酬 約3,000万円超のレポートも"],
+  ["L3（SWE II・若手）", "総報酬 中央値 約1,621万円（基本給約1,199万＋株式約257万＋賞与約165万）"],
+  ["L4（SWE III）", "総報酬 中央値 約2,301万円（基本給約1,461万＋株式約650万＋賞与約190万）"],
+  ["L5（Senior SWE）", "総報酬 中央値 約3,233万円（基本給約1,793万＋株式約1,189万＋賞与約251万）"],
+  ["L6（Staff SWE）", "総報酬 中央値 約4,090万円（基本給約2,049万＋株式約1,581万＋賞与約460万）"],
 ];
 
 const faqs = [
@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     q: "ソフトウェアエンジニアの年収はどのくらい？",
-    a: "Google日本法人は有価証券報告書を公表していないため平均年収の一次情報はありません。levels.fyi（2026年6月時点）の日本拠点ソフトウェアエンジニアの総報酬は中央値で約2,550万円、L3で約1,600万円〜、L6で約4,000万円超のレポートもあります。RSU（株式報酬）の比率が高く、株価や成績で大きく変動する点に注意が必要です。",
+    a: "Google日本法人は有価証券報告書を公表していないため平均年収の一次情報はありません。levels.fyi（2026年7月25日時点）の日本拠点ソフトウェアエンジニアの総報酬は中央値で約2,581万円、L3で約1,621万円、L6で約4,090万円です。RSU（株式報酬）の比率が高く、株価や成績で大きく変動する点に注意が必要です。",
   },
   {
     q: "選考フローはどうなっていますか？",
@@ -79,7 +79,7 @@ const faqs = [
 
 const sources = [
   "Google Careers 採用プロセス（公式）",
-  "levels.fyi（2026年6月時点・ユーザー投稿集計）",
+  "levels.fyi（2026年7月25日時点・ユーザー投稿集計）",
   "OpenWork グーグル合同会社（社員クチコミ集計）",
 ];
 
@@ -118,14 +118,14 @@ export default function GoogleCompanyPage() {
           Google Japan（Google合同会社）エンジニア転職ガイド【2026年版】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ 公式採用情報＋levels.fyi・OpenWork集計値で読み解く外資ITトップ企業
+          最終更新: 2026年7月 ｜ 公式採用情報＋levels.fyi・OpenWork集計値で読み解く外資ITトップ企業
         </p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Google（グーグル）日本法人の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Google日本法人は有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年6月時点）のソフトウェアエンジニア総報酬は中央値 約2,550万円が目安です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総報酬の中央値 約2,550万円（levels.fyi・2026年6月時点、日本拠点SWE集計）。L3 約1,600万円〜、L6 約4,000万円超のレポートも。</li><li>・会社全体の平均年収 約1,719万円、開発職 約2,151万円（OpenWork・社員クチコミ集計）。</li><li>・いずれもユーザー投稿ベースの集計値。RSU（株式報酬）比率が高く、株価・付与額・入社時期で実受取額は大きく変動します。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Google日本法人は有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年7月25日時点）のソフトウェアエンジニア総報酬は中央値 約2,581万円が目安です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総報酬の中央値 約2,581万円（levels.fyi・2026年7月25日時点、日本拠点SWE集計）。L3 約1,621万円、L6 約4,090万円。</li><li>・会社全体の平均年収 約1,719万円、開発職 約2,151万円（OpenWork・社員クチコミ集計）。</li><li>・いずれもユーザー投稿ベースの集計値。RSU（株式報酬）比率が高く、株価・付与額・入社時期で実受取額は大きく変動します。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -137,7 +137,7 @@ export default function GoogleCompanyPage() {
           年収は有価証券報告書のような一次情報が存在しないため、出典・時点・変動が大きい旨を必ず添えて記載しています。
         </p>
 
-        <DataNote surveyedAt="2026年6月" sources={sources} />
+        <DataNote surveyedAt="2026年7月" sources={sources} />
 
         {/* 目次 */}
         <nav className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
@@ -249,7 +249,7 @@ export default function GoogleCompanyPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-700 mb-5">
             <li>
-              ・<strong>levels.fyi（2026年6月時点・日本拠点のソフトウェアエンジニア集計）</strong>：総報酬の中央値 約2,550万円、L3 約1,600万円〜、L6 約4,000万円超のレポートも。基本給＋RSU＋ボーナスの合計値。
+              ・<strong>levels.fyi（2026年7月25日時点・日本拠点のソフトウェアエンジニア集計）</strong>：総報酬の中央値 約2,581万円、L3 約1,621万円、L6 約4,090万円。基本給＋RSU＋ボーナスの合計値。
             </li>
             <li>
               ・<strong>OpenWork（グーグル合同会社・社員クチコミ集計）</strong>：会社全体の平均年収 約1,719万円、開発職 約2,151万円という集計値が公開されている。
@@ -274,8 +274,43 @@ export default function GoogleCompanyPage() {
             </table>
           </div>
           <p className="text-xs text-slate-400 mt-2">
-            出典：levels.fyi（2026年6月時点・ユーザー投稿集計）。RSUの株価変動・付与額・入社時期で実受取額は大きく動きます。等級の呼称・境界は公式に公開されたものではなく目安です。
+            出典：levels.fyi（2026年7月25日時点・ユーザー投稿集計）。RSUの株価変動・付与額・入社時期で実受取額は大きく動きます。等級の呼称・境界は公式に公開されたものではなく目安です。
           </p>
+
+          {/* 外資IT3社 年収横断比較（levels.fyi日本拠点・2026年7月25日時点） */}
+          <h3 className="text-lg font-bold text-slate-800 mt-8 mb-3">外資IT3社の年収を横断比較（levels.fyi・日本拠点SWE）</h3>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse min-w-[560px]">
+              <thead>
+                <tr className="bg-slate-100">
+                  <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">企業（日本法人）</th>
+                  <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">総報酬 中央値</th>
+                  <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">レベル別レンジ（総報酬）</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-white">
+                  <td className="px-4 py-3 text-slate-600 border-b border-slate-200 font-medium"><Link href="/company/google/" className="text-petrol hover:underline">Google</Link></td>
+                  <td className="px-4 py-3 text-slate-800 border-b border-slate-200 font-bold">約2,581万円</td>
+                  <td className="px-4 py-3 text-slate-600 border-b border-slate-200">L3 約1,621万〜L6 約4,090万円</td>
+                </tr>
+                <tr className="bg-slate-50">
+                  <td className="px-4 py-3 text-slate-600 border-b border-slate-200 font-medium"><Link href="/company/microsoft/" className="text-petrol hover:underline">Microsoft</Link></td>
+                  <td className="px-4 py-3 text-slate-800 border-b border-slate-200 font-bold">約1,897万円</td>
+                  <td className="px-4 py-3 text-slate-600 border-b border-slate-200">L61 約1,281万〜L64 約1,910万〜3,157万円</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="px-4 py-3 text-slate-600 border-b border-slate-200 font-medium"><Link href="/company/amazon/" className="text-petrol hover:underline">Amazon</Link></td>
+                  <td className="px-4 py-3 text-slate-800 border-b border-slate-200 font-bold">約1,679万円</td>
+                  <td className="px-4 py-3 text-slate-600 border-b border-slate-200">L4 約1,429万〜L6 約2,666万円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-400 mt-2">
+            出典：levels.fyi 各社「Japan」ロケーションのSoftware Engineer/SDE集計（2026年7月25日時点・ユーザー投稿ベースの中央値）。Amazonは基本給比率が高くRSUは4年バックローデッド、Google/Microsoftは株式（RSU）比率が高いなど、同じ総報酬でも内訳の構造が異なります。いずれも実受取額は株価・付与額・入社時期で変動します。
+          </p>
+
           <p className="text-slate-600 text-sm mt-4">
             外資の高年収レンジと国内企業の差については
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>
@@ -346,7 +381,7 @@ export default function GoogleCompanyPage() {
               </ul>
             </div>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典：OpenWork グーグル合同会社（社員クチコミ集計・2026年6月時点参照）。</p>
+          <p className="text-xs text-slate-400 mt-2">出典：OpenWork グーグル合同会社（社員クチコミ集計・2026年7月25日時点参照）。</p>
         </section>
 
         {/* 30-40代視点 */}

@@ -36,9 +36,9 @@ const basicData: [string, string][] = [
 ];
 
 const salaryRows: [string, string][] = [
-  ["L4（SDE I・若手）", "総報酬 約1,300万円前後（$90K台）"],
-  ["L5（SDE II・中堅）", "総報酬 約1,700万円前後（$116K前後）"],
-  ["L6（SDE III・シニア）", "総報酬 約2,400万円前後（$167K前後）"],
+  ["L4（SDE I・若手）", "総報酬 中央値 約1,429万円（基本給約1,115万＋株式約258万＋賞与約56万）"],
+  ["L5（SDE II・中堅）", "総報酬 中央値 約1,973万円"],
+  ["L6（SDE III・シニア）", "総報酬 中央値 約2,666万円"],
   ["L7（Principal）", "上位レンジ（公開レポート少・変動大）"],
 ];
 
@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     q: "エンジニアの年収はどのくらい？",
-    a: "アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式平均年収はありません。levels.fyi（2026年6月時点・日本拠点ソフトウェアエンジニア集計）では、L4で約$90K台、L5で約$116K前後、L6で約$167K前後の総報酬。RSU（株式報酬）は1年目5%・2年目15%・3〜4年目40%ずつのバックロード型で、初年度は基本給＋サインオンボーナス中心になりやすい点が特徴です。",
+    a: "アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式平均年収はありません。levels.fyi（2026年7月25日時点・日本拠点SDE集計）では、SDE総報酬の中央値 約1,679万円、L4 約1,429万円、L5 約1,973万円、L6 約2,666万円。RSU（株式報酬）は1年目5%・2年目15%・3〜4年目40%ずつのバックロード型で、初年度は基本給＋サインオンボーナス中心になりやすい点が特徴です。",
   },
   {
     q: "AWS部門とリテール部門、どちらがおすすめ？",
@@ -80,7 +80,7 @@ const faqs = [
 const sources = [
   "AWS 採用プロセスのサポート（公式）",
   "Amazon Our Leadership Principles（公式）",
-  "levels.fyi（2026年6月時点・ユーザー投稿集計）",
+  "levels.fyi（2026年7月25日時点・ユーザー投稿集計）",
   "OpenWork アマゾンジャパン／AWSジャパン（社員クチコミ集計）",
 ];
 
@@ -119,14 +119,14 @@ export default function AmazonCompanyPage() {
           Amazon／AWS Japan エンジニア転職ガイド【2026年版】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ OLP面接・Bar Raiser・年収を公式情報＋集計値で読み解く
+          最終更新: 2026年7月 ｜ OLP面接・Bar Raiser・年収を公式情報＋集計値で読み解く
         </p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Amazon／AWSジャパンのエンジニア年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年6月時点）ではL5（中堅）で約$116K前後（約1,700万円）が目安です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬目安：L4 約1,300万円前後（$90K台）、L5 約1,700万円前後（$116K前後）、L6 約2,400万円前後（$167K前後）（levels.fyi・2026年6月時点、日本拠点SWE集計）。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型。初年度は基本給＋サインオンボーナス中心になりやすい構造です。</li><li>・いずれもユーザー投稿ベースの集計値で、為替・株価により円換算額は変動します。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年7月25日時点）ではSDE総報酬の中央値 約1,679万円が目安です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬（levels.fyi・2026年7月25日時点、日本拠点SDE集計）：中央値 約1,679万円、L4 約1,429万円、L5 約1,973万円、L6 約2,666万円。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型。初年度は基本給＋サインオンボーナス中心になりやすい構造です。</li><li>・いずれもユーザー投稿ベースの集計値で、為替・株価により円換算額は変動します。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -137,7 +137,7 @@ export default function AmazonCompanyPage() {
           30代・40代のミドルエンジニアが現実的に判断できる形で整理しています。年収は一次情報が存在しないため、出典・時点・変動の大きさを必ず添えています。
         </p>
 
-        <DataNote surveyedAt="2026年6月" sources={sources} />
+        <DataNote surveyedAt="2026年7月" sources={sources} />
 
         {/* 目次 */}
         <nav className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
@@ -249,7 +249,7 @@ export default function AmazonCompanyPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-700 mb-5">
             <li>
-              ・<strong>levels.fyi（2026年6月時点・日本拠点ソフトウェアエンジニア集計）</strong>：L4 約$90K台、L5 約$116K前後、L6 約$167K前後の総報酬（基本給＋RSU＋ボーナス換算）。
+              ・<strong>levels.fyi（2026年7月25日時点・日本拠点SDE集計）</strong>：SDE総報酬の中央値 約1,679万円（L4 約1,429万円／L5 約1,973万円／L6 約2,666万円）。基本給＋RSU＋ボーナスの合計。
             </li>
             <li>
               ・<strong>RSUの特徴</strong>：Amazonの株式付与は1年目5%／2年目15%／3年目40%／4年目40%の<strong>バックロード型</strong>。初年度は基本給＋サインオンボーナス中心になりやすく、年次が進むほど総報酬が伸びる構造です。
@@ -274,7 +274,7 @@ export default function AmazonCompanyPage() {
             </table>
           </div>
           <p className="text-xs text-slate-400 mt-2">
-            出典：levels.fyi（2026年6月時点・ユーザー投稿集計）。円換算は概算で為替・株価で変動します。等級の呼称・境界は目安です。
+            出典：levels.fyi（2026年7月25日時点・ユーザー投稿集計）。円換算は概算で為替・株価で変動します。等級の呼称・境界は目安です。
           </p>
           <p className="text-slate-600 text-sm mt-4">
             年収の考え方は
@@ -346,7 +346,7 @@ export default function AmazonCompanyPage() {
               </ul>
             </div>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典：OpenWork アマゾンジャパン合同会社／AWSジャパン合同会社（社員クチコミ集計・2026年6月時点参照）。</p>
+          <p className="text-xs text-slate-400 mt-2">出典：OpenWork アマゾンジャパン合同会社／AWSジャパン合同会社（社員クチコミ集計・2026年7月25日時点参照）。</p>
         </section>
 
         {/* 30-40代視点 */}
