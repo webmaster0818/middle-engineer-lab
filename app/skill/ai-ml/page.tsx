@@ -96,8 +96,20 @@ export default function AiMlSkillPage() {
           AI・機械学習エンジニア転職の攻め方｜年収・求人の探し方【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 | AI・機械学習エンジニアの転職市場を公的データと年代別データで整理
+          最終更新: 2026年7月 | AI・機械学習エンジニアの転職市場を公的データと年代別データで整理
         </p>
+
+        {/* 直答box (柱3/skill転職意図) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】AI・機械学習エンジニアへの転職は難しい？未経験・年代別のリアル</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 需要は伸びていますが専門性が要る領域です。厚労省 job tag「AIエンジニア」区分は平均約609.8万円（令和7年賃金構造基本統計調査を加工）。統計＋分析ライブラリ＋本番運用（MLOps）まで語れると差別化できます。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+            <li>・<strong>難易度</strong>：モデル構築だけでなくデータ基盤・本番運用まで担える人材が不足＝経験者は有利。</li>
+            <li>・<strong>未経験／転向</strong>：Web系Python等の実務を土台に、NumPy/Pandas/scikit-learn＋統計で成果物を1つ作るのが現実的なルート。</li>
+            <li>・<strong>年代別</strong>：レバテック公表の正社員SE年収（2025）で30代約499万円・40代約618万円が目安。AI評価企業では上振れも。</li>
+            <li>・<strong>進め方</strong>：AI・データ領域に強い転職エージェントで、job tag等の公的相場と求人票レンジを照合。</li>
+          </ul>
+        </div>
 
         <DataNote
           surveyedAt="2026年6月"

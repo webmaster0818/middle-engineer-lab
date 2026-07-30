@@ -329,6 +329,7 @@ export default function FujitsuCompanyPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "NTTデータ の転職ガイド", href: "/company/ntt-data/" },
+              { name: "ソニーグループの転職ガイド", href: "/company/sony/" },
               { name: "日立製作所 の転職ガイド", href: "/company/hitachi/" },
               { name: "野村総合研究所 の転職ガイド", href: "/company/nri/" },
               { name: "パナソニック の転職ガイド", href: "/company/panasonic/" },

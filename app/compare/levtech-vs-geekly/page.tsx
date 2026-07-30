@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/levtech-vs-geekly/" },
-  title: "レバテックキャリアとGeekly比較｜どっちがおすすめ【2026年6月】",
+  title: "レバテックキャリアとGeekly比較｜どっちがおすすめ【2026年7月】",
   description:
     "レバテックキャリアとGeekly（ギークリー）をどっちがおすすめか即答。求人数・年収アップ実績・サポート・スピード・対象層を時点付き実データで徹底比較し、30代40代エンジニアの選び方を解説します。",
 };
@@ -80,7 +80,7 @@ export default function LevtechVsGeeklyPage() {
   return (
     <>
       <ArticleJsonLd
-        title="レバテックキャリアとGeekly比較｜どっちがおすすめ【2026年6月】"
+        title="レバテックキャリアとGeekly比較｜どっちがおすすめ【2026年7月】"
         description="レバテックキャリアとGeeklyをどっちがおすすめか即答。求人数・年収アップ・サポート・スピード・対象層を時点付き実データで徹底比較します。"
         url="/compare/levtech-vs-geekly/"
       />
@@ -101,8 +101,18 @@ export default function LevtechVsGeeklyPage() {
           レバテックキャリアとGeekly（ギークリー）比較｜どっちがおすすめ？
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ IT特化型エージェント2社を実データで徹底比較
+          最終更新: 2026年7月 ｜ IT特化型エージェント2社を実データで徹底比較
         </p>
+
+        {/* 冒頭直答box */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-600 rounded-r-lg p-5 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【結論】どっちがおすすめ？</h2>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+            <li>・<strong>IT/Web全般から高年収求人を幅広く見たい → レバテックキャリア</strong>（約5万件超・2026年6月時点の二次集計）</li>
+            <li>・<strong>Web系・ゲーム業界に絞ってスピード感ある提案を受けたい → Geekly</strong>（IT/Web/ゲーム特化・提案スピードが強み）</li>
+            <li>・得意領域が異なる2社のため、<strong>両方無料登録して比較するのが最も効率的</strong>です（本文の比較表・チェックリストで詳細を確認できます）。</li>
+          </ul>
+        </div>
 
         <p className="text-slate-600 leading-relaxed mb-2">
           IT/Web特化型エージェントの代表格であるレバテックキャリアと、IT/Web/ゲーム業界に専門特化するGeekly（ギークリー）。どちらも経験者から支持を集めていますが、得意領域・提案スピード・年収アップの打ち出し方には明確な違いがあります。本記事では公開されている実データと口コミ傾向をもとに、30代・40代エンジニア視点で「どっちを選ぶべきか」を整理します。

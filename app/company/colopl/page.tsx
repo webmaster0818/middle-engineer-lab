@@ -307,6 +307,7 @@ export default function ColoplCompanyPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "MIXI（ミクシィ）エンジニア転職ガイド", href: "/company/mixi/" },
+              { name: "サイバーエージェントの転職ガイド", href: "/company/cyberagent/" },
               { name: "グリー（GREE）エンジニア転職ガイド", href: "/company/gree/" },
               { name: "バンダイナムコ エンジニア転職ガイド", href: "/company/bandai-namco/" },
               { name: "DeNA エンジニア転職ガイド", href: "/company/dena/" },

@@ -249,6 +249,7 @@ export default function FindyVsLevtechPage() {
             {[
               { name: "Findyの評判・口コミ", href: "/review/findy/" },
               { name: "Findy vs Forkwell 比較", href: "/compare/findy-vs-forkwell/" },
+              { name: "レバテックキャリア vs Geekly比較", href: "/compare/levtech-vs-geekly/" },
               { name: "スカウト型サービス徹底比較", href: "/compare/scout-agents/" },
               { name: "レバテック vs doda 比較", href: "/compare/levtech-vs-doda/" },
               { name: "ビズリーチ vs レバテック 比較", href: "/compare/bizreach-vs-levtech/" },

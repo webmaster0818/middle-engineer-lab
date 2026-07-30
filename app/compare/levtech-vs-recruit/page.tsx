@@ -61,6 +61,7 @@ const relatedLinks = [
   { name: "レバテックキャリアの詳細レビュー", href: "/review/levtech/" },
   { name: "リクルートエージェントITの詳細レビュー", href: "/review/recruit-it/" },
   { name: "IT転職エージェント比較", href: "/compare/agents/" },
+  { name: "レバテックキャリア vs Geekly比較", href: "/compare/levtech-vs-geekly/" },
   { name: "レバテックキャリア vs doda", href: "/compare/levtech-vs-doda/" },
   { name: "リクルートエージェント vs doda", href: "/compare/recruit-vs-doda/" },
   { name: "40代におすすめのエージェント", href: "/compare/40s-agents/" },

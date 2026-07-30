@@ -89,8 +89,20 @@ export default function JavaSkillPage() {
           Javaエンジニアの転職ガイド｜年収・求人・将来性【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 | Java転職市場の動向を30代・40代エンジニア向けに解説
+          最終更新: 2026年7月 | Java転職市場の動向を30代・40代エンジニア向けに解説
         </p>
+
+        {/* 直答box (柱3/skill転職意図) */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Javaエンジニアの転職は難しい？未経験・40代でもいける？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Javaは求人の母数が大きく、経験者の転職難易度は比較的低めです。paiza 2025年調査で企業ニーズ（求人数比率）2位（13.9%）と、転職機会を得やすい言語です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
+            <li>・<strong>難易度</strong>：金融・保険・官公庁など基幹系で需要が安定。実務経験者は求人が多く、選択肢が広い。</li>
+            <li>・<strong>未経験から</strong>：完全未経験の直接転職は簡単ではないが、求人数が多く学習コストに見合う言語。Spring Boot等で実務相当の成果物を作るのが近道。</li>
+            <li>・<strong>40代・ミドル</strong>：SIerでの設計・PM経験や、Spring Boot＋クラウド（AWS等）の掛け合わせで自社開発への移行も現実的。</li>
+            <li>・<strong>進め方</strong>：Java・SIer案件に強い転職エージェントを複数併用し、求人票で年収レンジと役割を確認するのが確実。</li>
+          </ul>
+        </div>
 
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">

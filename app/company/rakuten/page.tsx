@@ -300,6 +300,7 @@ export default function RakutenCompanyPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "LINEヤフー エンジニア転職ガイド", href: "/company/line-yahoo/" },
+              { name: "freeeの転職ガイド", href: "/company/freee/" },
               { name: "メルカリ エンジニア転職ガイド", href: "/company/mercari/" },
               { name: "サイバーエージェント エンジニア転職ガイド", href: "/company/cyberagent/" },
               { name: "リクルート エンジニア転職ガイド", href: "/company/recruit/" },

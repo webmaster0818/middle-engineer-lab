@@ -306,6 +306,7 @@ export default function GreeCompanyPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "MIXI（ミクシィ）エンジニア転職ガイド", href: "/company/mixi/" },
+              { name: "サイバーエージェントの転職ガイド", href: "/company/cyberagent/" },
               { name: "コロプラ エンジニア転職ガイド", href: "/company/colopl/" },
               { name: "DeNA エンジニア転職ガイド", href: "/company/dena/" },
               { name: "バンダイナムコ エンジニア転職ガイド", href: "/company/bandai-namco/" },
