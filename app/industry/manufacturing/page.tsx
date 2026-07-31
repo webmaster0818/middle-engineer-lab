@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "製造業からIT転職する方法｜組み込み経験を活かす戦略";
+const TITLE = "製造業からIT転職はできる？未経験からの進め方と組み込み経験の活かし方【2026年】";
 const DESCRIPTION =
-  "製造業エンジニア・組み込みエンジニアからIT業界への転職を徹底解説。製造DX・IoT・組み込み経験の活かし方、活かせるスキルと埋めるべきギャップ、年収の考え方、おすすめエージェントをガイドします。";
+  "製造業からIT転職はできます。製造業エンジニア・組み込みエンジニアがIT業界へ移る進め方を徹底解説。製造DX・IoT・組み込み経験の活かし方、活かせるスキルと埋めるべきギャップ、年収の考え方、おすすめエージェントをガイドします。";
 
 const toc = [
   { id: "conclusion", label: "結論：製造業・組み込み経験はIT転職で武器になる" },

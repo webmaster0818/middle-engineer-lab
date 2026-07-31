@@ -310,7 +310,8 @@ export default function CyberagentCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { name: "メルカリ エンジニア転職ガイド", href: "/company/mercari/" },
+              { name: "東京のIT・エンジニア転職", href: "/area/tokyo/" },
+{ name: "メルカリ エンジニア転職ガイド", href: "/company/mercari/" },
               { name: "DeNA エンジニア転職ガイド", href: "/company/dena/" },
               { name: "LINEヤフー エンジニア転職ガイド", href: "/company/line-yahoo/" },
               { name: "楽天グループ エンジニア転職ガイド", href: "/company/rakuten/" },

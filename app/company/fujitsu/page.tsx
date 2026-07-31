@@ -328,7 +328,8 @@ export default function FujitsuCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { name: "NTTデータ の転職ガイド", href: "/company/ntt-data/" },
+              { name: "横浜・神奈川のIT・エンジニア転職", href: "/area/yokohama/" },
+{ name: "NTTデータ の転職ガイド", href: "/company/ntt-data/" },
               { name: "ソニーグループの転職ガイド", href: "/company/sony/" },
               { name: "日立製作所 の転職ガイド", href: "/company/hitachi/" },
               { name: "野村総合研究所 の転職ガイド", href: "/company/nri/" },

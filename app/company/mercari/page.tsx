@@ -312,7 +312,8 @@ export default function MercariCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { name: "LINEヤフー エンジニア転職ガイド", href: "/company/line-yahoo/" },
+              { name: "東京のIT・エンジニア転職", href: "/area/tokyo/" },
+{ name: "LINEヤフー エンジニア転職ガイド", href: "/company/line-yahoo/" },
               { name: "サイバーエージェント エンジニア転職ガイド", href: "/company/cyberagent/" },
               { name: "DeNA エンジニア転職ガイド", href: "/company/dena/" },
               { name: "楽天グループ エンジニア転職ガイド", href: "/company/rakuten/" },
