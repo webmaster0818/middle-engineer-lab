@@ -15,6 +15,7 @@ const toc = [
   { id: "embedded", label: "組み込みエンジニアの強みの活かし方" },
   { id: "patterns", label: "転職パターン（職種×企業タイプ）" },
   { id: "salary", label: "年収の考え方（公表データ）" },
+  { id: "company-salary", label: "製造業経験が活きる主要企業の平均年収（有報実額）" },
   { id: "company-types", label: "主な企業タイプと具体例" },
   { id: "steps", label: "転職の進め方" },
   { id: "middle", label: "30代・40代の視点" },
@@ -316,6 +317,65 @@ export default function ManufacturingPage() {
             年収の詳しい考え方は
             <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">エンジニア転職で年収は上がる？</Link>
             を参考にしてください。
+          </p>
+        </section>
+
+        <section id="company-salary" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">製造業経験が活きる主要企業の平均年収（有報実額）</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            製造業からの転職先候補になりやすい企業の平均年収を、各社の有価証券報告書の実額で並べました。いずれも当サイトの企業別ガイドで選考情報・口コミ傾向まで解説しています。
+          </p>
+          {[
+            {
+              group: "総合電機・メーカー（DX/IT部門・組み込みの受け皿）",
+              rows: [
+                { name: "ソニーグループ", href: "/company/sony/", salary: "1,155万円", note: "2026年3月期" },
+                { name: "富士フイルムHD", href: "/company/fujifilm/", salary: "1,124万円", note: "2025年3月期・HD単体" },
+                { name: "トヨタ自動車", href: "/company/toyota/", salary: "983万円", note: "2025年3月期" },
+                { name: "日立製作所", href: "/company/hitachi/", salary: "961万円", note: "2025年3月期" },
+                { name: "パナソニックHD", href: "/company/panasonic/", salary: "956万円", note: "2025年3月期・HD" },
+                { name: "デンソー", href: "/company/denso/", salary: "863万円", note: "2025年3月期" },
+              ],
+            },
+            {
+              group: "電子部品・装置（組み込み・制御・FAの専門性が直結）",
+              rows: [
+                { name: "キーエンス", href: "/company/keyence/", salary: "2,039万円", note: "2025年3月期" },
+                { name: "東京エレクトロン", href: "/company/tokyo-electron/", salary: "1,354万円", note: "2025年3月期・単体" },
+                { name: "リコー", href: "/company/ricoh/", salary: "860万円", note: "2025年3月期・単体" },
+                { name: "オムロン", href: "/company/omron/", salary: "820万円", note: "2025年3月期・単体" },
+                { name: "ルネサスエレクトロニクス", href: "/company/renesas/", salary: "809万円", note: "2024年12月期・単体" },
+                { name: "京セラ", href: "/company/kyocera/", salary: "693万円", note: "2025年3月期・単体" },
+              ],
+            },
+            {
+              group: "SIer・ITベンダー（製造業DX案件で業務知識が武器）",
+              rows: [
+                { name: "野村総合研究所（NRI）", href: "/company/nri/", salary: "1,322万円", note: "2025年3月期" },
+                { name: "富士通", href: "/company/fujitsu/", salary: "929万円", note: "2025年3月期" },
+                { name: "NTTデータ", href: "/company/ntt-data/", salary: "923万円", note: "2025年3月期" },
+              ],
+            },
+          ].map((g, gi) => (
+            <div key={gi} className="mb-4">
+              <h3 className="font-bold text-slate-700 text-sm mb-2">{g.group}</h3>
+              <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                <table className="w-full text-sm">
+                  <tbody>
+                    {g.rows.map((r, i) => (
+                      <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                        <td className="px-4 py-2.5 border-b border-slate-200"><Link href={r.href} className="text-petrol-deep hover:underline font-medium">{r.name}</Link></td>
+                        <td className="px-4 py-2.5 text-petrol font-bold border-b border-slate-200 whitespace-nowrap">{r.salary}</td>
+                        <td className="px-4 py-2.5 text-xs text-slate-500 border-b border-slate-200 whitespace-nowrap">{r.note}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          ))}
+          <p className="text-slate-500 text-xs leading-relaxed">
+            ※各社の有価証券報告書に記載された全社員（提出会社）平均の実額で、エンジニア職に限定した値ではありません。持株会社単体の値を含みます。詳細な出典・時点は各企業ガイドに記載しています。
           </p>
         </section>
 

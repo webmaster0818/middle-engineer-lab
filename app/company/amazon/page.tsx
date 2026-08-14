@@ -425,6 +425,7 @@ export default function AmazonCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "ITハイクラス転職の比較（年収750万円以上）", href: "/compare/highclass/" },
               { name: "IT企業の平均年収ランキング（有報57社）", href: "/salary/company-ranking/" },
               { name: "行動面接（STAR法）の準備", href: "/knowledge/behavioral/" },
               { name: "コーディングテスト対策", href: "/knowledge/coding-test/" },

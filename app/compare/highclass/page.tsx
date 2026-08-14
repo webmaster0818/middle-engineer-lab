@@ -6,9 +6,9 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/highclass/" },
-  title: "エンジニアのハイクラス転職おすすめ比較【2026年6月】",
+  title: "ITハイクラス転職とは？エンジニア向けサービス比較と年収の実額【2026年】",
   description:
-    "エンジニアのハイクラス転職に強いサービスを2026年6月時点のデータで比較。ビズリーチを中心に年収750万円以上の定義、スカウトを増やす職務経歴書のコツ、レバテック・リクルートITの使い分けを解説します。",
+    "ITハイクラス転職の目安は年収750万円以上。エンジニア向けハイクラス転職サービスを公開データで比較し、平均年収1,000万円超の実在企業（有報実額）、スカウトを増やす職務経歴書のコツ、ビズリーチ・レバテック・リクルートITの使い分けを解説します。",
 };
 
 const agents = [
@@ -181,15 +181,15 @@ export default function HighclassPage() {
   return (
     <>
       <ArticleJsonLd
-        title="エンジニアのハイクラス転職おすすめ比較【2026年6月】"
-        description="エンジニアのハイクラス転職に強いサービスを2026年6月時点のデータで比較。年収750万円以上の定義やスカウトを増やす職務経歴書のコツを解説します。"
+        title="ITハイクラス転職とは？エンジニア向けサービス比較と年収の実額【2026年】"
+        description="ITハイクラス転職の目安は年収750万円以上。エンジニア向けサービス比較と平均年収1,000万円超企業の有報実額、スカウトを増やすコツを解説します。"
         url="/compare/highclass/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "エンジニアのハイクラス転職比較" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">エンジニアのハイクラス転職おすすめ比較【2026年6月】</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ITハイクラス転職とは？エンジニア向けサービス比較と年収の実額【2026年】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | ハイクラスIT転職に強いサービスを5社厳選</p>
 
         <section className="mb-8">
@@ -224,7 +224,8 @@ export default function HighclassPage() {
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-petrol-deep">
             <li><a href="#ranking" className="hover:underline">ハイクラス向けサービスおすすめランキング</a></li>
             <li><a href="#detail" className="hover:underline">各サービスの詳細</a></li>
-            <li><a href="#definition" className="hover:underline">ハイクラス転職とは（年収750万円以上の定義）</a></li>
+            <li><a href="#definition" className="hover:underline">ITハイクラス転職とは（年収750万円以上の定義）</a></li>
+            <li><a href="#companies" className="hover:underline">平均年収1,000万円超の実在企業（有報実額）</a></li>
             <li><a href="#resume" className="hover:underline">スカウトを増やす職務経歴書のコツ</a></li>
             <li><a href="#choose" className="hover:underline">ハイクラス転職サービスの選び方</a></li>
             <li><a href="#reviews" className="hover:underline">口コミ・評判の傾向</a></li>
@@ -293,7 +294,7 @@ export default function HighclassPage() {
         </section>
 
         <section id="definition" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">ハイクラス転職とは（年収750万円以上の定義）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ITハイクラス転職とは（年収750万円以上の定義）</h2>
           <p className="text-slate-600 leading-relaxed mb-3">
             「ハイクラス転職」に厳密な公的定義はありませんが、目安として広く使われるのが年収750万円以上のラインです。ビズリーチはハイクラスを年収750万円以上と位置づけており（二次情報）、同サービスでは年収1,000万円以上の求人が全体の約4割を占めるとされます（二次情報）。
           </p>
@@ -307,6 +308,44 @@ export default function HighclassPage() {
           </div>
           <p className="text-slate-600 leading-relaxed">
             つまりハイクラス帯（750万円以上、さらに1,000万円以上）は、年代が上がるほど到達率が高まる一方、依然として上位の層に位置します。ここに届くには、CTO/VPoE/EM・テックリードなどの役割や、特定領域での深い専門性が要件になります。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>から始め、現在地と目標年収のギャップを確認しましょう。
+          </p>
+        </section>
+
+        <section id="companies" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">平均年収1,000万円超の実在企業（有報実額）</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            「ITハイクラス求人は本当にあるのか」を実額で確認できるよう、有価証券報告書で全社員平均年収が1,000万円を超える主要企業を並べました。いずれも当サイトの企業別ガイドで選考難易度・技術スタックまで解説しています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse min-w-[520px]">
+              <thead>
+                <tr className="bg-slate-100">
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">企業</th>
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">平均年収（有報）</th>
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">時点</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { name: "キーエンス", href: "/company/keyence/", salary: "2,039万円", note: "2025年3月期" },
+                  { name: "東京エレクトロン", href: "/company/tokyo-electron/", salary: "1,354万円", note: "2025年3月期・単体" },
+                  { name: "野村総合研究所（NRI）", href: "/company/nri/", salary: "1,322万円", note: "2025年3月期" },
+                  { name: "メルカリ", href: "/company/mercari/", salary: "1,176万円", note: "2025年6月期" },
+                  { name: "ソニーグループ", href: "/company/sony/", salary: "1,155万円", note: "2026年3月期" },
+                  { name: "リクルートHD", href: "/company/recruit/", salary: "1,145万円", note: "2025年3月期・持株全社員" },
+                  { name: "富士フイルムHD", href: "/company/fujifilm/", salary: "1,124万円", note: "2025年3月期・HD単体" },
+                ].map((r, i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <td className="px-3 py-2.5 border border-slate-200"><Link href={r.href} className="text-petrol-deep hover:underline font-medium">{r.name}</Link></td>
+                    <td className="px-3 py-2.5 border border-slate-200 font-bold text-petrol whitespace-nowrap">{r.salary}</td>
+                    <td className="px-3 py-2.5 border border-slate-200 text-xs text-slate-500 whitespace-nowrap">{r.note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-500 mt-2">
+            ※各社の有価証券報告書に記載された全社員（提出会社・持株会社）平均の実額で、エンジニア職やハイクラス求人の提示額を保証するものではありません。詳細な出典は各企業ガイドに記載しています。
           </p>
         </section>
 

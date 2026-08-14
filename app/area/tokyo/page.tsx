@@ -17,6 +17,7 @@ const toc = [
   { id: "workstyle", label: "働き方の選択肢（通勤圏・リモート併用）" },
   { id: "fit", label: "東京での転職が向いている人・向いていない人" },
   { id: "salary", label: "年収の考え方（年代別データ）" },
+  { id: "company-salary", label: "東京本社の主要IT企業と平均年収（有報実額）" },
   { id: "agents", label: "東京に対応するエージェント" },
   { id: "combo", label: "エージェントの併用パターン" },
   { id: "process", label: "転職の進め方" },
@@ -314,6 +315,48 @@ export default function TokyoAreaPage() {
             東京は高年収求人の比率が高いとされるため、上記より高い提示を受けられる可能性があります。年収アップを狙うなら、複数エージェントで求人を比較し、現在の市場価値を把握したうえで交渉することが効果的です。詳しくは
             <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">転職で年収は上がる？</Link>
             も参照してください。
+          </p>
+        </section>
+
+        <section id="company-salary" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">東京本社の主要IT企業と平均年収（有報実額）</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            東京（首都圏）に本社を置く主要IT企業の平均年収を、各社の有価証券報告書の実額で並べました。エリアの年収水準を「実在する企業の実額」で掴めます。各社とも当サイトの企業別ガイドで選考情報まで解説しています。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse min-w-[520px]">
+              <thead>
+                <tr className="bg-slate-100">
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">企業</th>
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">平均年収（有報）</th>
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">時点</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { name: "野村総合研究所（NRI）", href: "/company/nri/", salary: "1,322万円", note: "2025年3月期" },
+                  { name: "メルカリ", href: "/company/mercari/", salary: "1,176万円", note: "2025年6月期" },
+                  { name: "リクルートHD", href: "/company/recruit/", salary: "1,145万円", note: "2025年3月期・持株全社員" },
+                  { name: "NTTデータ", href: "/company/ntt-data/", salary: "923万円", note: "2025年3月期" },
+                  { name: "サイバーエージェント", href: "/company/cyberagent/", salary: "913.8万円", note: "2025年9月期" },
+                  { name: "LINEヤフー", href: "/company/line-yahoo/", salary: "884万円", note: "2025年3月期・二次集計" },
+                  { name: "ソフトバンク", href: "/company/softbank/", salary: "849万円", note: "2025年3月期" },
+                  { name: "楽天グループ", href: "/company/rakuten/", salary: "820万円", note: "2024年12月期" },
+                  { name: "MIXI", href: "/company/mixi/", salary: "791万円", note: "2025年3月期・単体" },
+                  { name: "Sansan", href: "/company/sansan/", salary: "780万円", note: "2025年5月期" },
+                  { name: "freee", href: "/company/freee/", salary: "688万円", note: "2025年6月期" },
+                ].map((r, i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <td className="px-3 py-2.5 border border-slate-200"><Link href={r.href} className="text-petrol-deep hover:underline font-medium">{r.name}</Link></td>
+                    <td className="px-3 py-2.5 border border-slate-200 font-bold text-petrol whitespace-nowrap">{r.salary}</td>
+                    <td className="px-3 py-2.5 border border-slate-200 text-xs text-slate-500 whitespace-nowrap">{r.note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-500 mt-2">
+            ※各社の有価証券報告書に記載された全社員（または提出会社・持株会社）平均の実額で、エンジニア職に限定した値ではありません。詳細な出典・時点は各企業ガイドに記載しています。
           </p>
         </section>
 

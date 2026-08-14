@@ -327,6 +327,7 @@ export default function NriCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
+              { name: "ITハイクラス転職の比較（年収750万円以上）", href: "/compare/highclass/" },
               { name: "アクセンチュア の転職ガイド", href: "/company/accenture/" },
               { name: "NTTデータ の転職ガイド", href: "/company/ntt-data/" },
               { name: "富士通 の転職ガイド", href: "/company/fujitsu/" },
