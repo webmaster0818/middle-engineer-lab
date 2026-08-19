@@ -6,9 +6,9 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/kddi/" },
-  title: "KDDIの転職難易度と年収は？平均1018万円【2026年・有報】エンジニア転職・選考ガイド",
+  title: "KDDIの転職難易度と年収は？平均1051万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "KDDIへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,018万円・平均年齢42.0歳（2025年3月期・全社員平均）、5G・クラウド（AWS/GCP/Azure/KCPS）・データ・AIの募集職種、ジョブ型人事、選考フロー、30代40代の現実までまとめました。",
+    "KDDIへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,051万円・平均年齢42.3歳（2026年3月期・全社員平均）、5G・クラウド（AWS/GCP/Azure/KCPS）・データ・AIの募集職種、ジョブ型人事、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -17,13 +17,14 @@ const salaryTrend: [string, string][] = [
   ["2023年3月期", "974万円"],
   ["2024年3月期", "988万円"],
   ["2025年3月期", "1,018万円"],
+  ["2026年3月期", "1,051万円"],
 ];
 
 const basicData: [string, string][] = [
   ["企業名", "KDDI株式会社（東証プライム・9433）"],
   ["事業領域", "パーソナル（au等の通信・5G）、ビジネス（法人DX・クラウド）、金融、エネルギー、グローバル等"],
-  ["平均年間給与", "1,018万円（2025年3月期 有価証券報告書・提出会社の全社員平均）"],
-  ["平均年齢", "42.0歳（2025年3月期 有価証券報告書・提出会社）"],
+  ["平均年間給与", "1,051万円（2026年3月期 有価証券報告書・提出会社の全社員平均）"],
+  ["平均年齢", "42.3歳（2026年3月期 有価証券報告書・提出会社）"],
   ["本社所在地", "東京都千代田区"],
   ["技術領域（公式採用情報）", "5G・通信ネットワーク、クラウド（AWS/Azure/GCP/KCPS）、データ基盤・AI、法人DX、セキュリティ"],
 ];
@@ -49,7 +50,7 @@ const faqs = [
   },
   {
     q: "KDDIの平均年収はいくらですか？",
-    a: "2025年3月期の有価証券報告書によると、提出会社（KDDI株式会社単体）の平均年間給与は1,018万円、平均年齢は42.0歳です。これは技術職に限らない全社員平均値であり、エンジニア個人の年収は等級・職務（ジョブ）により異なります。",
+    a: "2026年3月期の有価証券報告書によると、提出会社（KDDI株式会社単体）の平均年間給与は1,051万円、平均年齢は42.3歳です。これは技術職に限らない全社員平均値であり、エンジニア個人の年収は等級・職務（ジョブ）により異なります。",
   },
   {
     q: "KDDIはどんな技術領域でエンジニアを募集していますか？",
@@ -86,7 +87,7 @@ export default function KddiCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="KDDI エンジニア転職ガイド" description="KDDIへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,018万円（2025年3月期・全社員平均）、5G・クラウド・データ・AIの募集職種、ジョブ型人事、選考フロー、30代40代の現実までまとめました。" url="/company/kddi/" />
+      <ArticleJsonLd title="KDDI エンジニア転職ガイド" description="KDDIへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,051万円（2026年3月期・全社員平均）、5G・クラウド・データ・AIの募集職種、ジョブ型人事、選考フロー、30代40代の現実までまとめました。" url="/company/kddi/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "KDDI" }]} />
 
@@ -97,8 +98,8 @@ export default function KddiCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】KDDIの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: KDDIの平均年間給与は1,018万円です（2025年3月期 有価証券報告書・提出会社の全社員平均、平均年齢42.0歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,018万円（2025年3月期 有報・提出会社単体の全社員平均）。近年は954万円（2021年3月期）から上昇傾向。</li><li>・参考：レバテック公表の正社員SE年代別平均は30代 約499万円・40代 約618万円（2025年）。KDDIの全社平均はこれを上回るが管理職・上位等級を含む値。</li><li>・エンジニア職限定の公式レンジは一次情報が乏しく非公表。ジョブ型のため提示額は職務・等級で幅があり、個別求人での確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: KDDIの平均年間給与は1,051万円です（2026年3月期 有価証券報告書・提出会社の全社員平均、平均年齢42.3歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,051万円（2026年3月期 有報・提出会社単体の全社員平均）。近年は954万円（2021年3月期）から上昇傾向。</li><li>・参考：レバテック公表の正社員SE年代別平均は30代 約499万円・40代 約618万円（2025年）。KDDIの全社平均はこれを上回るが管理職・上位等級を含む値。</li><li>・エンジニア職限定の公式レンジは一次情報が乏しく非公表。ジョブ型のため提示額は職務・等級で幅があり、個別求人での確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -108,7 +109,7 @@ export default function KddiCompanyPage() {
         <DataNote
           surveyedAt="2026年6月"
           sources={[
-            "KDDI 有価証券報告書（2025年3月期）",
+            "KDDI 有価証券報告書（2026年3月期）",
             "KDDI公式 キャリア採用ページ・採用オウンドメディア",
             "KDDIグループ各社の採用情報",
             "OpenWork（口コミ傾向）",
@@ -124,7 +125,7 @@ export default function KddiCompanyPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：クラウド（AWS/GCP/Azure）・データ基盤・AI・通信ネットワークの実務経験があり、大規模インフラに関わりたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：少人数の裁量重視・スピード最優先のスタートアップ的働き方を求める人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢42.0歳のミドル中心組織で、専門性があれば中途の枠は現実的</li>
+              <li>● <strong>30代・40代</strong>：平均年齢42.3歳のミドル中心組織で、専門性があれば中途の枠は現実的</li>
             </ul>
           </div>
         </section>
@@ -154,7 +155,7 @@ export default function KddiCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年3月期 有価証券報告書に基づく提出会社（KDDI株式会社単体）の全社員平均値。技術領域は公式採用情報（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく提出会社（KDDI株式会社単体）の全社員平均値。技術領域は公式採用情報（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -195,7 +196,7 @@ export default function KddiCompanyPage() {
         <section id="salary" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有価証券報告書ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            上場企業であるKDDIは、有価証券報告書で提出会社（KDDI株式会社単体）の平均年間給与を開示しています。<strong>2025年3月期は1,018万円（平均年齢42.0歳・全社員平均）</strong>で、近年は上昇傾向にあります。
+            上場企業であるKDDIは、有価証券報告書で提出会社（KDDI株式会社単体）の平均年間給与を開示しています。<strong>2026年3月期は1,051万円（平均年齢42.3歳・全社員平均）</strong>で、2024年3月期986万円→2025年3月期1,018万円→2026年3月期1,051万円と上昇傾向が続いています。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -253,10 +254,10 @@ export default function KddiCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              KDDIは提出会社の平均年齢42.0歳（2025年3月期・全社員平均）と、通信大手らしくミドル層が中心の組織です。ジョブ型人事のもとで専門性が評価されるため、30代・40代のミドルエンジニアでも<strong>クラウド・データ・AI・通信などの専門領域の実績があれば即戦力として歓迎されやすい</strong>環境です。
+              KDDIは提出会社の平均年齢42.3歳（2026年3月期・全社員平均）と、通信大手らしくミドル層が中心の組織です。ジョブ型人事のもとで専門性が評価されるため、30代・40代のミドルエンジニアでも<strong>クラウド・データ・AI・通信などの専門領域の実績があれば即戦力として歓迎されやすい</strong>環境です。
             </p>
             <p>
-              年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。KDDIの全社員平均（1,018万円）はこれを大きく上回りますが、これは管理職・上位等級を含む全社平均であり、入社時の提示は職務（ジョブ）・等級次第です。30代・40代は「自分が当てはまるジョブの水準」を個別求人・面談で確認することが重要です。
+              年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。KDDIの全社員平均（1,051万円）はこれを大きく上回りますが、これは管理職・上位等級を含む全社平均であり、入社時の提示は職務（ジョブ）・等級次第です。30代・40代は「自分が当てはまるジョブの水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
               通信という巨大インフラと、クラウド・データ・AIといったソフトウェア領域を橋渡しできる人材は希少です。通信・金融など社会基盤系の<Link href="/industry/finance/" className="text-petrol hover:underline">金融業界のエンジニア転職</Link>や<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。

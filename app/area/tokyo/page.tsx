@@ -334,15 +334,15 @@ export default function TokyoAreaPage() {
               </thead>
               <tbody>
                 {[
-                  { name: "野村総合研究所（NRI）", href: "/company/nri/", salary: "1,322万円", note: "2025年3月期" },
+                  { name: "野村総合研究所（NRI）", href: "/company/nri/", salary: "1,333万円", note: "2026年3月期" },
                   { name: "メルカリ", href: "/company/mercari/", salary: "1,176万円", note: "2025年6月期" },
                   { name: "リクルートHD", href: "/company/recruit/", salary: "1,145万円", note: "2025年3月期・持株全社員" },
                   { name: "NTTデータ", href: "/company/ntt-data/", salary: "923万円", note: "2025年3月期" },
                   { name: "サイバーエージェント", href: "/company/cyberagent/", salary: "913.8万円", note: "2025年9月期" },
-                  { name: "LINEヤフー", href: "/company/line-yahoo/", salary: "884万円", note: "2025年3月期・二次集計" },
+                  { name: "LINEヤフー", href: "/company/line-yahoo/", salary: "902万円", note: "2026年3月期・二次集計" },
                   { name: "ソフトバンク", href: "/company/softbank/", salary: "849万円", note: "2025年3月期" },
                   { name: "楽天グループ", href: "/company/rakuten/", salary: "820万円", note: "2024年12月期" },
-                  { name: "MIXI", href: "/company/mixi/", salary: "791万円", note: "2025年3月期・単体" },
+                  { name: "MIXI", href: "/company/mixi/", salary: "847万円", note: "2026年3月期・単体" },
                   { name: "Sansan", href: "/company/sansan/", salary: "780万円", note: "2025年5月期" },
                   { name: "freee", href: "/company/freee/", salary: "688万円", note: "2025年6月期" },
                 ].map((r, i) => (

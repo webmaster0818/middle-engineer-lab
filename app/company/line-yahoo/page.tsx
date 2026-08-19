@@ -6,9 +6,9 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/line-yahoo/" },
-  title: "LINEヤフーの年収は平均884万円【2026年・有報】エンジニア転職・選考ガイド",
+  title: "LINEヤフーの年収は平均902万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "LINEヤフーのエンジニア中途採用を有価証券報告書・公式採用情報・口コミ出典付きで解説。平均年収884万円(2025年3月期)、選考フロー、出社方針、30代40代の狙い目までまとめました。",
+    "LINEヤフーのエンジニア中途採用を有価証券報告書・公式採用情報・口コミ出典付きで解説。平均年収902万円(2026年3月期)、選考フロー、出社方針、30代40代の狙い目までまとめました。",
 };
 
 const tocItems = [
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "LINEヤフーの平均年収はいくらですか？",
-    a: "有価証券報告書（2025年3月期）によると、提出会社であるLINEヤフー株式会社の平均年間給与は884万円、平均年齢38.4歳です（出典: 有報データベース等の二次集計、2025年3月期）。これは全社・全職種の平均で、エンジニア職や役職・グレードによって実際の年収は上下します。",
+    a: "有価証券報告書（2026年3月期）によると、提出会社であるLINEヤフー株式会社の平均年間給与は902万円、平均年齢39歳です（出典: 有報収録値の二次集計）。これは全社・全職種の平均で、エンジニア職や役職・グレードによって実際の年収は上下します。",
   },
   {
     q: "選考でコーディングテストはありますか？",
@@ -75,7 +75,7 @@ export default function LineYahooCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="LINEヤフー エンジニア転職ガイド" description="LINEヤフーのエンジニア中途採用を有価証券報告書・公式採用情報・口コミ出典付きで解説。平均年収884万円(2025年3月期)、選考フロー、出社方針までまとめました。" url="/company/line-yahoo/" />
+      <ArticleJsonLd title="LINEヤフー エンジニア転職ガイド" description="LINEヤフーのエンジニア中途採用を有価証券報告書・公式採用情報・口コミ出典付きで解説。平均年収902万円(2026年3月期)、選考フロー、出社方針までまとめました。" url="/company/line-yahoo/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Kotlinの転職ガイド", href: "/skill/kotlin/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "Kubernetesの転職ガイド", href: "/skill/kubernetes/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "LINEヤフー" }]} />
 
@@ -86,8 +86,8 @@ export default function LineYahooCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】LINEヤフーの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: LINEヤフー株式会社の平均年間給与は884万円です（2025年3月期・平均年齢38.4歳。有価証券報告書を集計した二次情報）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 884万円（2025年3月期・有報二次集計、全職種平均）。</li><li>・前年度（2024年3月期）の集計値は819万円で、近年は上昇傾向との報告があります。</li><li>・全職種平均であり、エンジニア職・グレード別の年収表は非公表。実際のレンジはオファー内容で確認してください。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: LINEヤフー株式会社の平均年間給与は902万円です（2026年3月期・平均年齢39歳。有価証券報告書を集計した二次情報）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 902万円（2026年3月期・有報二次集計、全職種平均）。</li><li>・推移は2024年3月期819万円→2025年3月期884万円→2026年3月期902万円と上昇が続いています（各期集計値）。</li><li>・全職種平均であり、エンジニア職・グレード別の年収表は非公表。実際のレンジはオファー内容で確認してください。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-4">
@@ -97,7 +97,7 @@ export default function LineYahooCompanyPage() {
         <DataNote
           surveyedAt="2026年6月"
           sources={[
-            "LINEヤフー有価証券報告書(2025年3月期)・有報データベース二次集計",
+            "LINEヤフー有価証券報告書(2026年3月期)・有報収録値の二次集計",
             "LINEヤフー公式採用情報・採用note(lycorp_recruit)",
             "LINEヤフー Tech Blog(techblog.lycorp.co.jp)",
             "ITmedia NEWS(出社方針)",
@@ -137,8 +137,8 @@ export default function LineYahooCompanyPage() {
                   ["企業名", "LINEヤフー株式会社（東証プライム上場）"],
                   ["事業内容", "メディア・コマース・戦略事業（検索/メッセンジャー/EC/決済/広告/AI等）"],
                   ["連結従業員数", "27,003名（2025年3月期・有報二次集計）"],
-                  ["提出会社従業員数", "11,035名（2025年3月期・有報二次集計）"],
-                  ["平均年間給与", "884万円・平均年齢38.4歳（2025年3月期・有報二次集計、全職種平均）"],
+                  ["提出会社従業員数", "10,577名（2026年3月期・有報二次集計）"],
+                  ["平均年間給与", "902万円・平均年齢39歳（2026年3月期・有報二次集計、全職種平均）"],
                   ["技術スタック", "Java / Kotlin / TypeScript / React / Kubernetes / Apache Kafka / Spark 等（公式Tech Blog公開情報）"],
                   ["出社方針", "2025年4月〜事業部門は原則週1回・他部門は原則月1回／2026年4月〜週3日程度予定（公式発表）"],
                 ].map(([label, value], i) => (
@@ -151,7 +151,7 @@ export default function LineYahooCompanyPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            ※従業員数・平均給与は有価証券報告書（2025年3月期）を集計した二次情報に基づきます。求人内容や勤務条件は変動するため、最新情報は<a href="https://www.lycorp.co.jp/ja/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">LINEヤフー公式採用ページ</a>で必ずご確認ください。
+            ※従業員数・平均給与は有価証券報告書（2026年3月期）を集計した二次情報に基づきます。求人内容や勤務条件は変動するため、最新情報は<a href="https://www.lycorp.co.jp/ja/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">LINEヤフー公式採用ページ</a>で必ずご確認ください。
           </p>
         </section>
 
@@ -183,7 +183,7 @@ export default function LineYahooCompanyPage() {
               <h3 className="font-bold text-green-800 mb-3 text-sm">メリット</h3>
               <ul className="space-y-2 text-sm text-green-900">
                 <li>● 国内最大級のトラフィックと、クラウドネイティブな大規模基盤に触れられる</li>
-                <li>● 平均年収884万円（2025年3月期・有報集計）とIT平均を大きく上回る待遇水準</li>
+                <li>● 平均年収902万円（2026年3月期・有報集計）とIT平均を大きく上回る待遇水準</li>
                 <li>● GAFA系外資より英語ハードルが低いポジションが多く、日本語中心でも挑戦しやすい</li>
                 <li>● サービスドメインが広く、社内公募・異動でキャリアの選択肢を変えやすい</li>
                 <li>● OSS貢献・カンファレンス登壇など技術発信の土台がある</li>
@@ -248,7 +248,7 @@ export default function LineYahooCompanyPage() {
         <section id="salary" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ</h2>
           <p className="text-slate-700 leading-relaxed mb-4">
-            LINEヤフーは上場企業のため、有価証券報告書で<strong>全社・全職種の平均年間給与</strong>が開示されています。最新の2025年3月期では<strong>平均884万円・平均年齢38.4歳</strong>でした（有報を集計した二次情報）。前年度（2024年3月期）の集計値は819万円とされ、ここ数年で上昇傾向との報告があります。
+            LINEヤフーは上場企業のため、有価証券報告書で<strong>全社・全職種の平均年間給与</strong>が開示されています。最新の2026年3月期では<strong>平均902万円・平均年齢39歳</strong>でした（有報を集計した二次情報）。前年度（2025年3月期）の集計値は884万円とされ、ここ数年で上昇傾向が続いています。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-4">
             <p className="text-sm text-slate-700 leading-relaxed">

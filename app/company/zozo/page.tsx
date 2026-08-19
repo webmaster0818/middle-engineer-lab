@@ -6,9 +6,9 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/zozo/" },
-  title: "ZOZOの年収は平均656万円【2026年・有報】エンジニア転職・選考ガイド",
+  title: "ZOZOの年収は平均856万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "ZOZOへのエンジニア転職を実データで解説。有価証券報告書の平均年収656万円（2025年3月期・全社員平均）、Go/Kubernetes等の技術スタック、コーディングテストなしの選考フロー、30代40代の現実までまとめました。",
+    "ZOZOへのエンジニア転職を実データで解説。有価証券報告書の平均年収856万円（2026年3月期・全社員平均）、Go/Kubernetes等の技術スタック、コーディングテストなしの選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -17,13 +17,14 @@ const salaryTrend: [string, string][] = [
   ["2023年3月期", "645万円"],
   ["2024年3月期", "692万円"],
   ["2025年3月期", "656万円"],
+  ["2026年3月期", "856万円"],
 ];
 
 const basicData: [string, string][] = [
   ["企業名", "株式会社ZOZO（東証プライム・3092）"],
   ["事業領域", "ファッションEC（ZOZOTOWN）・計測技術・ファッションテック"],
-  ["平均年間給与", "656万円（2025年3月期 有価証券報告書・全社員平均）"],
-  ["平均年齢", "34.3歳（2025年3月期 有価証券報告書）"],
+  ["平均年間給与", "856万円（2026年3月期 有価証券報告書・全社員平均）"],
+  ["平均年齢", "34.7歳（2026年3月期 有価証券報告書）"],
   ["本社所在地", "千葉県千葉市（幕張）"],
   ["技術スタック（公開情報）", "Go / Java / Kotlin / Swift / TypeScript / Python / Kubernetes（EKS）/ AWS"],
 ];
@@ -49,7 +50,7 @@ const faqs = [
   },
   {
     q: "ZOZOの平均年収はいくらですか？",
-    a: "2025年3月期の有価証券報告書によると、全社員平均の平均年間給与は656万円、平均年齢は34.3歳です。これは技術職に限らない全社員平均値であり、前期（2024年3月期692万円）からは減少しています。エンジニア個人の年収は職種・グレードにより異なります。",
+    a: "2026年3月期の有価証券報告書によると、全社員平均の平均年間給与は856万円、平均年齢は34.7歳です。これは技術職に限らない全社員平均値で、前期（2025年3月期656万円）から200万円の大幅増となりました。エンジニア個人の年収は職種・グレードにより異なります。",
   },
   {
     q: "ZOZOの技術スタックは？",
@@ -73,7 +74,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもZOZOに転職できますか？",
-    a: "平均年齢34.3歳の組織で、年齢よりも担えるロールと専門性が重視される傾向です。大規模EC・マイクロサービス・計測技術などの経験を活かせるかが鍵になります。",
+    a: "平均年齢34.7歳の組織で、年齢よりも担えるロールと専門性が重視される傾向です。大規模EC・マイクロサービス・計測技術などの経験を活かせるかが鍵になります。",
   },
 ];
 
@@ -90,7 +91,7 @@ export default function ZozoCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="ZOZO エンジニア転職ガイド" description="ZOZOへのエンジニア転職を実データで解説。有価証券報告書の平均年収656万円（2025年3月期・全社員平均）、Go/Kubernetes等の技術スタック、コーディングテストなしの選考フロー、30代40代の現実までまとめました。" url="/company/zozo/" />
+      <ArticleJsonLd title="ZOZO エンジニア転職ガイド" description="ZOZOへのエンジニア転職を実データで解説。有価証券報告書の平均年収856万円（2026年3月期・全社員平均）、Go/Kubernetes等の技術スタック、コーディングテストなしの選考フロー、30代40代の現実までまとめました。" url="/company/zozo/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Kotlinの転職ガイド", href: "/skill/kotlin/" }, { name: "App Storeにアプリを公開するの転職ガイド", href: "/skill/swift/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ZOZO" }]} />
 
@@ -101,8 +102,8 @@ export default function ZozoCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ZOZOの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ZOZOの平均年間給与は656万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢34.3歳）。前期692万円からは減少しています。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 656万円（2025年3月期 有報）。販売・物流など全職種を含む全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2021年3月期547万円から上昇し2024年3月期692万円、2025年3月期は656万円に減少（各期 有報）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表。提示額はポジション・グレードで幅があるため、求人・エージェントで確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ZOZOの平均年間給与は856万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢34.7歳）。前期656万円から200万円の大幅増です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 856万円（2026年3月期 有報）。販売・物流など全職種を含む全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2024年3月期692万円→2025年3月期656万円→2026年3月期856万円と、直近期に200万円の大幅増（各期 有報）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表。提示額はポジション・グレードで幅があるため、求人・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -112,7 +113,7 @@ export default function ZozoCompanyPage() {
         <DataNote
           surveyedAt="2026年6月"
           sources={[
-            "ZOZO 有価証券報告書（2025年3月期）",
+            "ZOZO 有価証券報告書（2026年3月期）",
             "ZOZO公式 中途採用ページ／公開インタビュー",
             "ZOZO TECH BLOG",
             "OpenWork（口コミ傾向）",
@@ -127,7 +128,7 @@ export default function ZozoCompanyPage() {
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：大規模EC・マイクロサービス・Go/Kubernetes等の経験があり、対話で技術を語れるエンジニア</li>
-              <li>● <strong>向いていない人</strong>：英語環境や超高年収を最優先する人（全社員平均は656万円）</li>
+              <li>● <strong>向いていない人</strong>：英語環境や超高年収を最優先する人（全社員平均は856万円）</li>
               <li>● <strong>30代・40代</strong>：大規模EC・計測技術・基盤刷新の経験を活かせるかが鍵</li>
             </ul>
           </div>
@@ -158,7 +159,7 @@ export default function ZozoCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年3月期 有価証券報告書に基づく全社員平均値。技術スタックは公式技術ブログ等の公開情報。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく全社員平均値。技術スタックは公式技術ブログ等の公開情報。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -198,7 +199,7 @@ export default function ZozoCompanyPage() {
         <section id="salary" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有価証券報告書ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            上場企業であるZOZOは、有価証券報告書で全社員平均の平均年間給与を開示しています。<strong>2025年3月期は656万円（平均年齢34.3歳・全社員平均）</strong>で、前期（692万円）からは減少しています。
+            上場企業であるZOZOは、有価証券報告書で全社員平均の平均年間給与を開示しています。<strong>2026年3月期は856万円（平均年齢34.7歳・全社員平均）</strong>で、前期（656万円）から200万円の大幅増となりました。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -256,7 +257,7 @@ export default function ZozoCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              ZOZOは平均年齢34.3歳（2025年3月期・全社員平均）の組織です。コーディングテストがなく対話重視の選考は、<strong>これまでの実務経験と意思決定を言語化できる30代・40代のミドルエンジニアにとってはアピールしやすい形式</strong>と言えます。大規模EC・マイクロサービス移行・計測技術などの経験を活かせるかが評価の鍵です。
+              ZOZOは平均年齢34.7歳（2026年3月期・全社員平均）の組織です。コーディングテストがなく対話重視の選考は、<strong>これまでの実務経験と意思決定を言語化できる30代・40代のミドルエンジニアにとってはアピールしやすい形式</strong>と言えます。大規模EC・マイクロサービス移行・計測技術などの経験を活かせるかが評価の鍵です。
             </p>
             <p>
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。ZOZOの全社員平均（656万円）は販売・物流など全職種を含む値であり、エンジニア職の提示はポジション・グレード次第です。前期から全社平均が減少している点も踏まえ、提示額は個別求人で必ず確認しましょう。

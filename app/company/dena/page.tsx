@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/dena/" },
   title: "DeNAへのエンジニア転職｜年収・技術スタック・選考フロー【2026年版】",
   description:
-    "DeNAのエンジニア中途採用を有価証券報告書・公式採用ページ・技術ブログの一次情報で解説。提出会社平均年収882.9万円(2025年3月期)、コーディングテスト、Go/AWS等の技術を中立にまとめました。",
+    "DeNAのエンジニア中途採用を有価証券報告書・公式採用ページ・技術ブログの一次情報で解説。提出会社平均年収1,117.9万円(2026年3月期)、コーディングテスト、Go/AWS等の技術を中立にまとめました。",
 };
 
 const toc = [
@@ -29,23 +29,23 @@ const toc = [
 const basicData: [string, string][] = [
   ["企業名", "株式会社ディー・エヌ・エー（証券コード2432・東証プライム）"],
   ["業種", "ゲーム・スポーツ・ヘルスケア・ライブストリーミング・AI 等"],
-  ["平均年収", "882.9万円（2025年3月期・提出会社単体／全従業員平均・賞与含む）"],
-  ["平均年齢", "37.9歳（2025年3月期・提出会社単体）"],
-  ["従業員数", "1,448名（2025年3月期・提出会社単体）／連結 2,572名"],
+  ["平均年収", "1,117.9万円（2026年3月期・提出会社単体／全従業員平均・賞与含む）"],
+  ["平均年齢", "38.6歳（2026年3月期・提出会社単体）"],
+  ["従業員数", "1,400名（2026年3月期・提出会社単体）"],
   ["本社所在地", "東京都渋谷区"],
   ["技術スタック", "Go ／ Python ／ TypeScript ／ AWS ／ Kubernetes（EKS）／ Unity（ゲーム）等"],
 ];
 
 const salaryRows: [string, string][] = [
-  ["平均年収（提出会社単体・全従業員）", "882.9万円"],
-  ["平均年齢", "37.9歳"],
+  ["平均年収（提出会社単体・全従業員）", "1,117.9万円"],
+  ["平均年齢", "38.6歳"],
   ["従業員数（提出会社単体／連結）", "1,448名／2,572名"],
 ];
 
 const faqs = [
   { q: "DeNAはエンジニアの中途採用を行っている？", a: "はい。ゲーム、ライブストリーミング（Pococha）、ヘルスケア、スポーツDX、AIなど各事業でエンジニアの中途採用を継続的に行っています。サーバーサイド、フロントエンド、SRE／インフラ、機械学習エンジニアなど幅広い職種があります。" },
-  { q: "DeNAの平均年収はいくら？", a: "2025年3月期の有価証券報告書によると、提出会社（株式会社ディー・エヌ・エー単体）の平均年間給与は882.9万円、平均年齢37.9歳です。これは賞与・基準外賃金を含む全従業員（エンジニア以外も含む）の平均で、職種別・等級別の内訳は公式には開示されていません。" },
-  { q: "DeNAのエンジニア職の提示年収レンジは公開されている？", a: "DeNAは職種別・等級別の年収レンジを公式に常時開示しているわけではありません。求人サイトでも提示レンジが常に公開されているとは限らないため、当ガイドでは推測の数値表は掲載していません。基準値としては有価証券報告書の平均882.9万円（2025年3月期）が参考になります。" },
+  { q: "DeNAの平均年収はいくら？", a: "2026年3月期の有価証券報告書によると、提出会社（株式会社ディー・エヌ・エー単体）の平均年間給与は1,117.9万円、平均年齢38.6歳です。前期（2025年3月期）の882.9万円から大きく増加しました。これは賞与・基準外賃金を含む全従業員（エンジニア以外も含む）の平均で、職種別・等級別の内訳は公式には開示されていません。" },
+  { q: "DeNAのエンジニア職の提示年収レンジは公開されている？", a: "DeNAは職種別・等級別の年収レンジを公式に常時開示しているわけではありません。求人サイトでも提示レンジが常に公開されているとは限らないため、当ガイドでは推測の数値表は掲載していません。基準値としては有価証券報告書の平均1,117.9万円（2026年3月期）が参考になります。" },
   { q: "DeNAの選考にはコーディングテストがある？", a: "エンジニア職では一般的に、書類選考の後にコーディングテスト（オンラインで自宅受験可・所要約2時間とされる）を実施し、その後に技術面接（複数回）という流れが知られています。アルゴリズム・データ構造・数学的思考が問われ、難易度は極端に高くはなく、ポテンシャルも見る傾向があると複数の受験記で語られています。" },
   { q: "DeNAの技術スタックは？", a: "公式技術ブログ「DeNA Engineering」では、Go（サーバーサイド）、AWS、Kubernetes（EKS）、GitOps／ArgoCD、TypeScript、Pythonなどに関する記事が継続的に公開されています。ゲーム事業ではUnityやサーバーサイド、AI事業では機械学習関連の技術が用いられます。" },
   { q: "DeNAの開発文化の特徴は？", a: "全エンジニア向けの「TechTalk」や、iOS／Androidなど領域別の勉強会、年次の技術カンファレンス「DeNA TechCon」など、社内外への技術発信・学習機会が整備されています。口コミでも若手の成長環境やフラットな技術文化への言及が見られます。" },
@@ -58,7 +58,7 @@ export default function DenaCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="DeNA エンジニア転職ガイド" description="DeNAへのエンジニア転職を有価証券報告書・公式採用ページ・技術ブログの一次情報で解説。提出会社平均年収882.9万円(2025年3月期)、コーディングテスト、Go/AWS等の技術をまとめました。" url="/company/dena/" />
+      <ArticleJsonLd title="DeNA エンジニア転職ガイド" description="DeNAへのエンジニア転職を有価証券報告書・公式採用ページ・技術ブログの一次情報で解説。提出会社平均年収1,117.9万円(2026年3月期)、コーディングテスト、Go/AWS等の技術をまとめました。" url="/company/dena/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "DeNA" }]} />
 
@@ -72,11 +72,11 @@ export default function DenaCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】DeNAの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: DeNAの有価証券報告書（2025年3月期・提出会社単体）の平均年間給与は882.9万円、平均年齢は37.9歳です（エンジニア以外も含む全従業員平均）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与882.9万円（2025年3月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）</li><li>・平均年齢37.9歳と比較的若い組織（従業員数は単体1,448名／連結2,572名）</li><li>・職種別・等級別の年収は公式非開示。エンジニア職の提示レンジは個別確認が必要</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: DeNAの有価証券報告書（2026年3月期・提出会社単体）の平均年間給与は1,117.9万円、平均年齢は38.6歳です（エンジニア以外も含む全従業員平均）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与1,117.9万円（2026年3月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。前期882.9万円から大幅増</li><li>・平均年齢38.6歳と比較的若い組織（従業員数は単体1,400名）</li><li>・職種別・等級別の年収は公式非開示。エンジニア職の提示レンジは個別確認が必要</li></ul>
         </div>
 
-        <DataNote surveyedAt="2026年6月" sources={["DeNA 有価証券報告書（2025年3月期）", "DeNA 公式採用サイト", "DeNA Engineering（技術ブログ）", "OpenWork・受験記（口コミ／選考傾向）"]} />
+        <DataNote surveyedAt="2026年8月" sources={["DeNA 有価証券報告書（2026年3月期）", "DeNA 公式採用サイト", "DeNA Engineering（技術ブログ）", "OpenWork・受験記（口コミ／選考傾向）"]} />
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
@@ -85,7 +85,7 @@ export default function DenaCompanyPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・選考で<strong>コーディングテスト（アルゴリズム）</strong>があり、Web系の基礎力が問われる。難易度は中程度とされ、対策すれば対応可能。</li>
               <li>・<strong>Go・AWS・Kubernetes</strong>を軸にしたモダンな開発環境。サーバーサイド／SRE／ML／ゲームと事業が広く、Web系・大規模サービス経験者に向く。</li>
-              <li>・提出会社単体の平均年収は<strong>882.9万円（2025年3月期・有報）</strong>、平均年齢37.9歳と比較的若い組織。</li>
+              <li>・提出会社単体の平均年収は<strong>1,117.9万円（2026年3月期・有報）</strong>、平均年齢38.6歳と比較的若い組織。</li>
             </ul>
           </div>
         </section>
@@ -104,7 +104,7 @@ export default function DenaCompanyPage() {
               {basicData.map(([label, value], i) => (<tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}><th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">{label}</th><td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td></tr>))}
             </tbody></table>
           </div>
-          <p className="text-xs text-slate-500">出典：DeNA「有価証券報告書」2025年3月期（提出会社＝株式会社ディー・エヌ・エー単体の従業員データ／賞与・基準外賃金を含む）、DeNA公式採用サイト、技術ブログ「DeNA Engineering」。平均年収は全従業員平均で、職種別の内訳ではありません。</p>
+          <p className="text-xs text-slate-500">出典：DeNA「有価証券報告書」2026年3月期（提出会社＝株式会社ディー・エヌ・エー単体の従業員データ／賞与・基準外賃金を含む）、DeNA公式採用サイト、技術ブログ「DeNA Engineering」。平均年収は全従業員平均で、職種別の内訳ではありません。</p>
         </section>
 
         <section id="feature" className="mb-10">
@@ -135,14 +135,14 @@ export default function DenaCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
-              <thead><tr className="bg-slate-100"><th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">項目</th><th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">数値（2025年3月期・提出会社単体）</th></tr></thead>
+              <thead><tr className="bg-slate-100"><th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">項目</th><th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200">数値（2026年3月期・提出会社単体）</th></tr></thead>
               <tbody>{salaryRows.map(([k, v], i) => (<tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}><td className="px-4 py-3 text-slate-600 border-b border-slate-200">{k}</td><td className="px-4 py-3 text-slate-700 border-b border-slate-200 font-medium">{v}</td></tr>))}</tbody>
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-2">
-            上表はDeNAの<strong>有価証券報告書（2025年3月期）</strong>に記載された提出会社（株式会社ディー・エヌ・エー単体）の数値です。賞与・基準外賃金を含む<strong>エンジニア以外も含む全従業員の平均</strong>であり、職種別・等級別の年収は公式に開示されていません。そのため、当ガイドでは出典のない等級別年収表は掲載していません。
+            上表はDeNAの<strong>有価証券報告書（2026年3月期）</strong>に記載された提出会社（株式会社ディー・エヌ・エー単体）の数値です。賞与・基準外賃金を含む<strong>エンジニア以外も含む全従業員の平均</strong>であり、職種別・等級別の年収は公式に開示されていません。そのため、当ガイドでは出典のない等級別年収表は掲載していません。
           </p>
-          <p className="text-xs text-slate-500">出典：DeNA「有価証券報告書」2025年3月期。エンジニア職の提示年収レンジは継続的に確認できる公式・求人公開値がないため記載を控えています。</p>
+          <p className="text-xs text-slate-500">出典：DeNA「有価証券報告書」2026年3月期。エンジニア職の提示年収レンジは継続的に確認できる公式・求人公開値がないため記載を控えています。</p>
         </section>
 
         <section id="flow" className="mb-10">
@@ -185,8 +185,8 @@ export default function DenaCompanyPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たDeNA</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>提出会社単体の<strong>平均年齢は37.9歳</strong>（2025年3月期・有報）で、メガベンチャーらしく比較的若い組織です。とはいえ事業領域が広く、大規模サービスの設計・SRE・MLなど高度な専門性を要するポジションが多いため、<strong>30代・40代の経験豊富なエンジニアが技術リードやスペシャリストとして活躍できる余地</strong>があります。</p>
-            <p>注意したいのは選考のコーディングテストです。実務から離れてアルゴリズムに触れていないミドル層は、AtCoderの基本問題などで事前に感覚を取り戻しておくと安心です。年収は提出会社平均882.9万円が基準で、実力主義の評価ゆえにパフォーマンス次第で処遇が動く点も踏まえ、入社後の評価制度を面接で確認しておくとよいでしょう。Web系・モダン技術志向のミドルエンジニアにとっては、技術的にも事業的にも刺激の多い選択肢です。</p>
+            <p>提出会社単体の<strong>平均年齢は38.6歳</strong>（2026年3月期・有報）で、メガベンチャーらしく比較的若い組織です。とはいえ事業領域が広く、大規模サービスの設計・SRE・MLなど高度な専門性を要するポジションが多いため、<strong>30代・40代の経験豊富なエンジニアが技術リードやスペシャリストとして活躍できる余地</strong>があります。</p>
+            <p>注意したいのは選考のコーディングテストです。実務から離れてアルゴリズムに触れていないミドル層は、AtCoderの基本問題などで事前に感覚を取り戻しておくと安心です。年収は提出会社平均1,117.9万円（2026年3月期）が基準で、実力主義の評価ゆえにパフォーマンス次第で処遇が動く点も踏まえ、入社後の評価制度を面接で確認しておくとよいでしょう。Web系・モダン技術志向のミドルエンジニアにとっては、技術的にも事業的にも刺激の多い選択肢です。</p>
             <p>選考準備として、<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>と<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の進め方</Link>もあわせて確認してください。</p>
           </div>
         </section>

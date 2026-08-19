@@ -6,9 +6,9 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/mixi/" },
-  title: "MIXI（ミクシィ）の転職難易度と年収は？平均791万円【2026年・有報】エンジニア転職ガイド",
+  title: "MIXI（ミクシィ）の転職難易度と年収は？平均847万円【2026年・有報】エンジニア転職ガイド",
   description:
-    "MIXI（ミクシィ）へのエンジニア転職を実データで解説。有価証券報告書の平均年収791万円（2025年3月期・単体）、モンスト/家族アルバム みてね等の技術スタック、選考フロー、30代40代の現実までまとめました。",
+    "MIXI（ミクシィ）へのエンジニア転職を実データで解説。有価証券報告書の平均年収847万円（2026年3月期・単体）、モンスト/家族アルバム みてね等の技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -16,14 +16,15 @@ const salaryTrend: [string, string][] = [
   ["2023年3月期", "738万円"],
   ["2024年3月期", "746万円"],
   ["2025年3月期", "791万円"],
+  ["2026年3月期", "847万円"],
 ];
 
 const basicData: [string, string][] = [
   ["企業名", "株式会社MIXI（東証プライム・2121）"],
   ["事業領域", "デジタルエンタメ（モンスターストライク等）・スポーツ（公営競技TIPSTAR等）・ライフスタイル（家族アルバム みてね）"],
-  ["平均年間給与", "791万円（2025年3月期 有価証券報告書・提出会社単体）"],
-  ["平均年齢", "37.4歳（2025年3月期 有価証券報告書・単体）"],
-  ["従業員数", "1,259名（2025年3月期・単体／連結はこれを上回る）"],
+  ["平均年間給与", "847万円（2026年3月期 有価証券報告書・提出会社単体）"],
+  ["平均年齢", "38.1歳（2026年3月期 有価証券報告書・単体）"],
+  ["従業員数", "1,316名（2026年3月期・単体／連結はこれを上回る）"],
   ["本社所在地", "東京都渋谷区"],
   ["技術スタック（公式情報ベース）", "Go / Ruby / PHP / TypeScript / React / Next.js / Swift / Kotlin / C++ / Flutter / MySQL / GCP / AWS"],
 ];
@@ -49,7 +50,7 @@ const faqs = [
   },
   {
     q: "MIXIの平均年収はいくらですか？",
-    a: "2025年3月期の有価証券報告書（提出会社単体）によると、平均年間給与は791万円、平均年齢は37.4歳です。これは技術職に限らない全社員平均値で、上場以降緩やかな上昇傾向にあります。エンジニア個人の年収は等級・職種により異なります。",
+    a: "2026年3月期の有価証券報告書（提出会社単体）によると、平均年間給与は847万円、平均年齢は38.1歳です。これは技術職に限らない全社員平均値で、上場以降緩やかな上昇傾向にあります。エンジニア個人の年収は等級・職種により異なります。",
   },
   {
     q: "MIXIの技術スタックは？",
@@ -65,7 +66,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもMIXIに転職できますか？",
-    a: "単体の平均年齢は37.4歳（2025年3月期）と、年齢層に幅のある組織です。大規模サービスのサーバーサイド・モバイル・ゲーム開発、SRE、データ基盤などの専門性や実績があれば、30代・40代でも評価されやすい傾向です。",
+    a: "単体の平均年齢は38.1歳（2026年3月期）と、年齢層に幅のある組織です。大規模サービスのサーバーサイド・モバイル・ゲーム開発、SRE、データ基盤などの専門性や実績があれば、30代・40代でも評価されやすい傾向です。",
   },
   {
     q: "MIXIへの転職難易度は高いですか？",
@@ -86,7 +87,7 @@ export default function MixiCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="MIXI（ミクシィ）エンジニア転職ガイド" description="MIXI（ミクシィ）へのエンジニア転職を実データで解説。有価証券報告書の平均年収791万円（2025年3月期・単体）、モンスト/家族アルバム みてね等の技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/mixi/" />
+      <ArticleJsonLd title="MIXI（ミクシィ）エンジニア転職ガイド" description="MIXI（ミクシィ）へのエンジニア転職を実データで解説。有価証券報告書の平均年収847万円（2026年3月期・単体）、モンスト/家族アルバム みてね等の技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/mixi/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "Next.jsの転職ガイド", href: "/skill/nextjs/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "MIXI（ミクシィ）" }]} />
 
@@ -97,8 +98,8 @@ export default function MixiCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】MIXI（ミクシィ）の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社MIXIの平均年間給与は791万円です（2025年3月期 有価証券報告書・提出会社単体、平均年齢37.4歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 791万円（2025年3月期 有報・単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・緩やかな上昇傾向で、2024年3月期746万円から2025年3月期791万円（各期 有報・単体）。</li><li>・エンジニア職限定の公式な提示年収レンジは非公表。提示額は等級・職種で変動するため個別求人での確認が確実です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社MIXIの平均年間給与は847万円です（2026年3月期 有価証券報告書・提出会社単体、平均年齢38.1歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 847万円（2026年3月期 有報・単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・上昇傾向が続き、2024年3月期746万円→2025年3月期791万円→2026年3月期847万円（各期 有報・単体）。</li><li>・エンジニア職限定の公式な提示年収レンジは非公表。提示額は等級・職種で変動するため個別求人での確認が確実です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -108,7 +109,7 @@ export default function MixiCompanyPage() {
         <DataNote
           surveyedAt="2026年6月"
           sources={[
-            "MIXI 有価証券報告書（2025年3月期）",
+            "MIXI 有価証券報告書（2026年3月期）",
             "MIXI公式 採用ページ／技術ブログ（ミクシル）",
             "IRBANK（有報ベース推移データ）",
             "口コミプラットフォーム（傾向）",
@@ -119,7 +120,7 @@ export default function MixiCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              MIXIは<strong>モンストのような大規模トラフィックを支えつつ、ゲーム・スポーツ・ライフスタイルと幅広い領域でプロダクト開発を行うエンタメ企業</strong>です。プロダクトごとに最適な技術を選ぶ文化で、技術の幅・深さの両方が活きます。単体の平均年収791万円（2025年3月期）はWeb系の中で標準的な水準です。
+              MIXIは<strong>モンストのような大規模トラフィックを支えつつ、ゲーム・スポーツ・ライフスタイルと幅広い領域でプロダクト開発を行うエンタメ企業</strong>です。プロダクトごとに最適な技術を選ぶ文化で、技術の幅・深さの両方が活きます。単体の平均年収847万円（2026年3月期）はWeb系の中で標準的な水準です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：大規模サービスのサーバーサイド・モバイル・ゲーム開発の実務経験があり、プロダクト志向の強いエンジニア</li>
@@ -154,7 +155,7 @@ export default function MixiCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2025年3月期 有価証券報告書の提出会社（単体）数値。技術スタックは公式技術ブログ等の公開情報ベース（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2026年3月期 有価証券報告書の提出会社（単体）数値。技術スタックは公式技術ブログ等の公開情報ベース（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -195,7 +196,7 @@ export default function MixiCompanyPage() {
         <section id="salary" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有価証券報告書ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            上場企業であるMIXIは、有価証券報告書で提出会社（単体）の平均年間給与を開示しています。<strong>2025年3月期は791万円（平均年齢37.4歳・単体）</strong>で、緩やかな上昇傾向にあります。
+            上場企業であるMIXIは、有価証券報告書で提出会社（単体）の平均年間給与を開示しています。<strong>2026年3月期は847万円（平均年齢38.1歳・単体）</strong>で、上昇傾向が続いています。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -254,7 +255,7 @@ export default function MixiCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              MIXIは単体の平均年齢37.4歳（2025年3月期）と、Web・ゲーム系の中では年齢層に幅があります。モンストのような長期運用タイトルや、みてねのような成長プロダクトを抱えるため、<strong>運用・スケール・技術的負債との向き合いといったミドルエンジニアの強みが活きる場面</strong>が多いのが特徴です。
+              MIXIは単体の平均年齢38.1歳（2026年3月期）と、Web・ゲーム系の中では年齢層に幅があります。モンストのような長期運用タイトルや、みてねのような成長プロダクトを抱えるため、<strong>運用・スケール・技術的負債との向き合いといったミドルエンジニアの強みが活きる場面</strong>が多いのが特徴です。
             </p>
             <p>
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。MIXIの単体平均（791万円）はこれを上回りますが、これは全社平均であり、入社時の提示は等級・職種次第です。30代・40代は「自分が当てはまる等級の水準」を個別求人・面談で確認することが重要です。

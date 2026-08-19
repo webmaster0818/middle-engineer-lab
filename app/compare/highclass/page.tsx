@@ -328,8 +328,8 @@ export default function HighclassPage() {
               <tbody>
                 {[
                   { name: "キーエンス", href: "/company/keyence/", salary: "2,039万円", note: "2025年3月期" },
-                  { name: "東京エレクトロン", href: "/company/tokyo-electron/", salary: "1,354万円", note: "2025年3月期・単体" },
-                  { name: "野村総合研究所（NRI）", href: "/company/nri/", salary: "1,322万円", note: "2025年3月期" },
+                  { name: "東京エレクトロン", href: "/company/tokyo-electron/", salary: "1,380万円", note: "2026年3月期・単体" },
+                  { name: "野村総合研究所（NRI）", href: "/company/nri/", salary: "1,333万円", note: "2026年3月期" },
                   { name: "メルカリ", href: "/company/mercari/", salary: "1,176万円", note: "2025年6月期" },
                   { name: "ソニーグループ", href: "/company/sony/", salary: "1,155万円", note: "2026年3月期" },
                   { name: "リクルートHD", href: "/company/recruit/", salary: "1,145万円", note: "2025年3月期・持株全社員" },

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/nri/" },
   title: "野村総合研究所(NRI)エンジニア転職ガイド【2026年】年収・選考",
   description:
-    "野村総合研究所(NRI)へのエンジニア転職を解説。有報の平均年収(2025年3月期)、コンサル×ITの採用特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の狙い目を出典付きでまとめました。",
+    "野村総合研究所(NRI)へのエンジニア転職を解説。有報の平均年収(2026年3月期)、コンサル×ITの採用特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の狙い目を出典付きでまとめました。",
 };
 
 const toc = [
@@ -30,7 +30,7 @@ const basic: [string, string][] = [
   ["企業名", "株式会社野村総合研究所（NRI）"],
   ["業種", "ITソリューション・経営/システムコンサルティング"],
   ["上場区分", "東証プライム上場（証券コード4307）"],
-  ["平均年収", "1,322万円（2025年3月期 有価証券報告書・全社員平均、平均年齢39.9歳）"],
+  ["平均年収", "1,333万円（2026年3月期 有価証券報告書・全社員平均、平均年齢39.7歳）"],
   ["従業員数", "連結 約1.7万名規模（公式IR）"],
   ["本社所在地", "東京都千代田区"],
   ["主要事業領域", "金融IT・証券IT・資産運用IT・産業IT・コンサルティング・IT基盤"],
@@ -52,8 +52,8 @@ const features = [
 ];
 
 const salaryRows: [string, string][] = [
-  ["全社員平均年収（2025年3月期）", "1,322万円（平均年齢39.9歳）"],
-  ["出典", "野村総合研究所 有価証券報告書（2025年3月期）に基づく公表値"],
+  ["全社員平均年収（2026年3月期）", "1,333万円（平均年齢39.7歳）"],
+  ["出典", "野村総合研究所 有価証券報告書（2026年3月期）に基づく公表値"],
 ];
 
 const flow = [
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     q: "NRIの平均年収はいくら？",
-    a: "2025年3月期の有価証券報告書に基づく公表値で全社員平均1,322万円（平均年齢39.9歳）です。これは全社員平均であり、エンジニア職の個別年収レンジを示すものではありません。役職・等級で大きく幅があります。",
+    a: "2026年3月期の有価証券報告書に基づく公表値で全社員平均1,333万円（平均年齢39.7歳）です。これは全社員平均であり、エンジニア職の個別年収レンジを示すものではありません。役職・等級で大きく幅があります。",
   },
   {
     q: "選考フローはどうなっている？",
@@ -112,7 +112,7 @@ export default function NriCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="野村総合研究所(NRI) エンジニア転職ガイド" description="NRIへのエンジニア転職を解説。有報の平均年収(2025年3月期)、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/nri/" />
+      <ArticleJsonLd title="野村総合研究所(NRI) エンジニア転職ガイド" description="NRIへのエンジニア転職を解説。有報の平均年収(2026年3月期)、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/nri/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "C#/.NETの転職ガイド", href: "/skill/csharp/" }, { name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "野村総合研究所" }]} />
 
@@ -123,13 +123,13 @@ export default function NriCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】NRI（野村総合研究所）の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 全社員平均の平均年収は1,322万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢39.9歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 1,322万円（2025年3月期 有報、平均年齢39.9歳）。管理職・コンサル職を含む全社員平均です。</li><li>・東証プライム上場（証券コード4307）の高年収企業で、役職・等級により年収の幅が大きい構造です。</li><li>・エンジニア職（ITソリューション部門）の個別レンジは非公表。実際の提示額は求人票・オファー面談での確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 全社員平均の平均年収は1,333万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢39.7歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 1,333万円（2026年3月期 有報、平均年齢39.7歳）。管理職・コンサル職を含む全社員平均です。前期（2025年3月期）の1,322万円から微増です。</li><li>・東証プライム上場（証券コード4307）の高年収企業で、役職・等級により年収の幅が大きい構造です。</li><li>・エンジニア職（ITソリューション部門）の個別レンジは非公表。実際の提示額は求人票・オファー面談での確認が必要です。</li></ul>
         </div>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
           野村総合研究所（NRI）は、経営/システムコンサルティングとITソリューションを一社で完結させる国内有数のIT企業です。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典付きで整理し、30代・40代エンジニアが転職を判断するための材料をまとめます。
         </p>
-        <DataNote surveyedAt="2026年6月" sources={["野村総合研究所 有価証券報告書（2025年3月期）", "NRIキャリア採用サイト（career.nri.co.jp）", "OpenWork等の口コミプラットフォーム", "厚生労働省 job tag", "経済産業省 IT人材需給調査（2019年公表）"]} />
+        <DataNote surveyedAt="2026年8月" sources={["野村総合研究所 有価証券報告書（2026年3月期）", "NRIキャリア採用サイト（career.nri.co.jp）", "OpenWork等の口コミプラットフォーム", "厚生労働省 job tag", "経済産業省 IT人材需給調査（2019年公表）"]} />
 
         <nav className="bg-slate-50 border border-slate-200 rounded-lg p-5 mb-10">
           <p className="font-bold text-slate-700 text-sm mb-3">目次</p>
@@ -146,7 +146,7 @@ export default function NriCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんな人向きか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 text-sm leading-relaxed mb-3">
-              <strong>結論：</strong>NRIは「金融ドメイン×大規模システム」で高い専門性と高年収（全社員平均1,322万円／2025年3月期 有報）を得たいエンジニアに向く企業です。コンサル職ほど狭き門ではなく、ITソリューション部門のエンジニア採用は通年で行われています。
+              <strong>結論：</strong>NRIは「金融ドメイン×大規模システム」で高い専門性と高年収（全社員平均1,333万円／2026年3月期 有報）を得たいエンジニアに向く企業です。コンサル職ほど狭き門ではなく、ITソリューション部門のエンジニア採用は通年で行われています。
             </p>
             <ul className="space-y-1.5 text-sm text-slate-600">
               <li>・<strong>向いている人</strong>：金融・証券の基幹システム開発経験者、上流工程やPM経験者、安定した大手で専門性を深めたい人</li>
@@ -170,7 +170,7 @@ export default function NriCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年収は有価証券報告書（2025年3月期）に基づく全社員平均で、職種別の年収を示すものではありません。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年収は有価証券報告書（2026年3月期）に基づく全社員平均で、職種別の年収を示すものではありません。</p>
         </section>
 
         <section id="features" className="mb-10 scroll-mt-20">
@@ -280,7 +280,7 @@ export default function NriCompanyPage() {
               30代・40代のミドルエンジニアにとってNRIは、これまでの大規模開発・上流工程・金融ドメインの経験を「市場価値の高い専門性」として評価してもらいやすい企業です。等級制度のもとで管理職・PM・スペシャリストといった複数のキャリアパスがあるため、マネジメントに寄せるか専門を深めるかを選びやすい点も30代・40代に向きます。
             </p>
             <p>
-              一方で、モダンな内製開発を高速に回したいタイプには、SIer特有のレイヤーの多さが合わない場合もあります。年収の絶対額（全社員平均1,322万円）は魅力ですが、これは全社員平均である点を踏まえ、オファー面談で自分の等級・提示額を必ず確認しましょう。年代別の年収相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
+              一方で、モダンな内製開発を高速に回したいタイプには、SIer特有のレイヤーの多さが合わない場合もあります。年収の絶対額（全社員平均1,333万円）は魅力ですが、これは全社員平均である点を踏まえ、オファー面談で自分の等級・提示額を必ず確認しましょう。年代別の年収相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
             </p>
           </div>
         </section>

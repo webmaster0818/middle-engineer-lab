@@ -341,7 +341,7 @@ export default function ManufacturingPage() {
               group: "電子部品・装置（組み込み・制御・FAの専門性が直結）",
               rows: [
                 { name: "キーエンス", href: "/company/keyence/", salary: "2,039万円", note: "2025年3月期" },
-                { name: "東京エレクトロン", href: "/company/tokyo-electron/", salary: "1,354万円", note: "2025年3月期・単体" },
+                { name: "東京エレクトロン", href: "/company/tokyo-electron/", salary: "1,380万円", note: "2026年3月期・単体" },
                 { name: "リコー", href: "/company/ricoh/", salary: "860万円", note: "2025年3月期・単体" },
                 { name: "オムロン", href: "/company/omron/", salary: "820万円", note: "2025年3月期・単体" },
                 { name: "ルネサスエレクトロニクス", href: "/company/renesas/", salary: "809万円", note: "2024年12月期・単体" },
@@ -351,8 +351,8 @@ export default function ManufacturingPage() {
             {
               group: "SIer・ITベンダー（製造業DX案件で業務知識が武器）",
               rows: [
-                { name: "野村総合研究所（NRI）", href: "/company/nri/", salary: "1,322万円", note: "2025年3月期" },
-                { name: "富士通", href: "/company/fujitsu/", salary: "929万円", note: "2025年3月期" },
+                { name: "野村総合研究所（NRI）", href: "/company/nri/", salary: "1,333万円", note: "2026年3月期" },
+                { name: "富士通", href: "/company/fujitsu/", salary: "1,012万円", note: "2026年3月期" },
                 { name: "NTTデータ", href: "/company/ntt-data/", salary: "923万円", note: "2025年3月期" },
               ],
             },

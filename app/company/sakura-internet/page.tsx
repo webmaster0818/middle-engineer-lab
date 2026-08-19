@@ -8,23 +8,21 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/sakura-internet/" },
   title: "さくらインターネット エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
-    "さくらインターネットへのエンジニア転職を実データで解説。有価証券報告書の平均年収（2025年3月期）、データセンター・クラウド・GPUインフラの技術、選考フロー、30代40代の現実までまとめました。",
+    "さくらインターネットへのエンジニア転職を実データで解説。有価証券報告書の平均年収（2026年3月期）、データセンター・クラウド・GPUインフラの技術、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
-  ["2021年3月期", "519万円"],
-  ["2022年3月期", "538万円"],
-  ["2023年3月期", "557万円"],
-  ["2024年3月期", "587万円"],
-  ["2025年3月期", "612万円"],
+  ["2024年3月期", "614万円"],
+  ["2025年3月期", "700万円"],
+  ["2026年3月期", "741万円"],
 ];
 
 const basicData: [string, string][] = [
   ["企業名", "さくらインターネット株式会社（東証プライム・3778）"],
   ["事業領域", "データセンター運営・クラウドコンピューティング（さくらのクラウド等）・GPUクラウド"],
-  ["平均年間給与", "612万円（2025年3月期 有価証券報告書・全社員平均）"],
-  ["平均年齢", "37.9歳（2025年3月期 有価証券報告書）"],
-  ["従業員数", "単体 約700名規模（2025年3月期 有価証券報告書）"],
+  ["平均年間給与", "741万円（2026年3月期 有価証券報告書・全社員平均）"],
+  ["平均年齢", "40.3歳（2026年3月期 有価証券報告書）"],
+  ["従業員数", "934名（2026年3月期 有価証券報告書・単体）"],
   ["本社所在地", "大阪府大阪市（東京・福岡等にも拠点）"],
   ["技術スタック（公式）", "Go / Python / Ruby / TypeScript / React / Linux / KVM / OpenStack / Kubernetes / Terraform"],
 ];
@@ -50,7 +48,7 @@ const faqs = [
   },
   {
     q: "さくらインターネットの平均年収はいくらですか？",
-    a: "2025年3月期の有価証券報告書によると、全社員平均の平均年間給与は612万円、平均年齢は37.9歳です。これは技術職に限らない全社員平均値であり、エンジニア個人の年収は職種・グレードにより異なります。",
+    a: "2026年3月期の有価証券報告書によると、全社員平均の平均年間給与は741万円、平均年齢は40.3歳です。これは技術職に限らない全社員平均値であり、エンジニア個人の年収は職種・グレードにより異なります。",
   },
   {
     q: "さくらインターネットはどんなエンジニアが活躍していますか？",
@@ -70,7 +68,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもさくらインターネットに転職できますか？",
-    a: "平均年齢37.9歳と幅のある組織で、年齢よりもインフラ・クラウドの専門性が問われます。データセンター運用・ネットワーク・大規模クラウド基盤・SREの経験があると、30代40代のミドルエンジニアでも年齢はハンデになりにくい傾向です。",
+    a: "平均年齢40.3歳と幅のある組織で、年齢よりもインフラ・クラウドの専門性が問われます。データセンター運用・ネットワーク・大規模クラウド基盤・SREの経験があると、30代40代のミドルエンジニアでも年齢はハンデになりにくい傾向です。",
   },
 ];
 
@@ -98,8 +96,8 @@ export default function SakuraInternetCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】さくらインターネットの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: さくらインターネット株式会社の全社員平均年収は612万円です（2025年3月期 有価証券報告書・平均年齢37.9歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 612万円（2025年3月期 有報）。技術職に限らない全社員平均です。</li><li>・推移は2021年3月期519万円から一貫して上昇し、2025年3月期は612万円（各期 有報）。</li><li>・専門性の高いインフラ・SREポジションでは全社平均と異なる水準が提示される場合があり、実額は個別求人・面談で確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: さくらインターネット株式会社の全社員平均年収は741万円です（2026年3月期 有価証券報告書・平均年齢40.3歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 741万円（2026年3月期 有報）。技術職に限らない全社員平均です。</li><li>・推移は2024年3月期614万円→2025年3月期700万円→2026年3月期741万円と2年で120万円超の上昇（各期 有報）。</li><li>・専門性の高いインフラ・SREポジションでは全社平均と異なる水準が提示される場合があり、実額は個別求人・面談で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -109,7 +107,7 @@ export default function SakuraInternetCompanyPage() {
         <DataNote
           surveyedAt="2026年6月"
           sources={[
-            "さくらインターネット 有価証券報告書（2025年3月期）",
+            "さくらインターネット 有価証券報告書（2026年3月期）",
             "さくらインターネット公式 採用ページ／技術ブログ（さくらのナレッジ等）",
             "さくらインターネット公式 企業情報・IRリリース（GPUクラウド関連）",
             "OpenWork（口コミ傾向）",
@@ -155,7 +153,7 @@ export default function SakuraInternetCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年3月期 有価証券報告書に基づく全社員平均値。技術スタックは公式採用情報・技術ブログ（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく全社員平均値。技術スタックは公式採用情報・技術ブログ（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -196,7 +194,7 @@ export default function SakuraInternetCompanyPage() {
         <section id="salary" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有価証券報告書ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            上場企業であるさくらインターネットは、有価証券報告書で全社員平均の平均年間給与を開示しています。<strong>2025年3月期は612万円（平均年齢37.9歳・全社員平均）</strong>で、近年は上昇傾向にあります。
+            上場企業であるさくらインターネットは、有価証券報告書で全社員平均の平均年間給与を開示しています。<strong>2026年3月期は741万円（平均年齢40.3歳・全社員平均）</strong>です。2024年3月期614万円→2025年3月期700万円→2026年3月期741万円と、2年間で120万円を超える大幅な上昇が続いています。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -255,10 +253,10 @@ export default function SakuraInternetCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              さくらインターネットは平均年齢37.9歳（2025年3月期・全社員平均）で、年齢層に幅のある組織です。年齢よりもインフラ・クラウドの専門性が問われるため、30代・40代のミドルエンジニアでも<strong>データセンター運用・ネットワーク・大規模クラウド基盤・SREの実務経験があれば年齢自体は大きなハンデになりにくい</strong>のが特徴です。
+              さくらインターネットは平均年齢40.3歳（2026年3月期・全社員平均）で、年齢層に幅のある組織です。年齢よりもインフラ・クラウドの専門性が問われるため、30代・40代のミドルエンジニアでも<strong>データセンター運用・ネットワーク・大規模クラウド基盤・SREの実務経験があれば年齢自体は大きなハンデになりにくい</strong>のが特徴です。
             </p>
             <p>
-              年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。さくらインターネットの全社員平均（612万円）はこのレンジに近い水準で、入社時の提示は職種・グレード次第です。30代・40代は「自分が当てはまるポジションの水準」を個別求人・面談で確認することが重要です。
+              年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。さくらインターネットの全社員平均（741万円）は40代平均を上回る水準で、入社時の提示は職種・グレード次第です。30代・40代は「自分が当てはまるポジションの水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
               インフラ企業ならではの強みとして、<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>や<Link href="/skill/aws/" className="text-petrol hover:underline">クラウド</Link>の実務に、<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定（SAA）</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC</Link>などの資格を掛け合わせると、専門性を客観的に示しやすくなります。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
