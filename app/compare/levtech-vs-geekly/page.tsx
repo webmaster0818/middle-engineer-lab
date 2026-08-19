@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BusySeasonNote from "@/components/BusySeasonNote";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/levtech-vs-geekly/" },
-  title: "レバテックキャリアとGeekly比較｜どっちがおすすめ【2026年7月】",
+  title: "レバテックキャリアとGeekly比較｜どっちがおすすめ【2026年8月】",
   description:
     "レバテックキャリアとGeekly（ギークリー）をどっちがおすすめか即答。求人数・年収アップ実績・サポート・スピード・対象層を時点付き実データで徹底比較し、30代40代エンジニアの選び方を解説します。",
 };
@@ -80,7 +81,7 @@ export default function LevtechVsGeeklyPage() {
   return (
     <>
       <ArticleJsonLd
-        title="レバテックキャリアとGeekly比較｜どっちがおすすめ【2026年7月】"
+        title="レバテックキャリアとGeekly比較｜どっちがおすすめ【2026年8月】"
         description="レバテックキャリアとGeeklyをどっちがおすすめか即答。求人数・年収アップ・サポート・スピード・対象層を時点付き実データで徹底比較します。"
         url="/compare/levtech-vs-geekly/"
       />
@@ -387,6 +388,8 @@ export default function LevtechVsGeeklyPage() {
         </section>
 
         {/* FAQ */}
+        <BusySeasonNote />
+
         <section id="faq" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>
           <div className="space-y-3">

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/paiza-vs-findy/" },
-  title: "paiza転職とFindy比較｜スキル評価型はどっちがおすすめ【2026年6月】",
+  title: "paiza転職とFindy比較｜スキル評価型はどっちがおすすめ【2026年8月】",
   description:
     "paiza転職とFindyをどっちがおすすめか即答。コーディングテスト型とGitHub連携スキル偏差値型を、評価軸・求人数・得意言語・対象層で時点付き実データで徹底比較。30代40代エンジニアの選び方を解説します。",
 };
@@ -80,7 +80,7 @@ export default function PaizaVsFindyPage() {
   return (
     <>
       <ArticleJsonLd
-        title="paiza転職とFindy比較｜スキル評価型はどっちがおすすめ【2026年6月】"
+        title="paiza転職とFindy比較｜スキル評価型はどっちがおすすめ【2026年8月】"
         description="paiza転職とFindyをどっちがおすすめか即答。スキル評価の仕組み・求人数・得意言語・対象層を時点付き実データで徹底比較します。"
         url="/compare/paiza-vs-findy/"
       />

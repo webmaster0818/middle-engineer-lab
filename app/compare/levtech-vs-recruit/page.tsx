@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BusySeasonNote from "@/components/BusySeasonNote";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/levtech-vs-recruit/" },
-  title: "レバテックキャリアとリクルートエージェントIT比較｜どっちがおすすめ【2026年6月】",
+  title: "レバテックキャリアとリクルートエージェントIT比較｜どっちがおすすめ【2026年8月】",
   description:
     "レバテックキャリアとリクルートエージェントITをどっちがおすすめか即答。IT特化型と国内最大級の総合型を、求人数・専門性・サポート・対象層で時点付き実データで徹底比較し、30代40代エンジニアの選び方を解説します。",
 };
@@ -82,7 +83,7 @@ export default function LevtechVsRecruitPage() {
   return (
     <>
       <ArticleJsonLd
-        title="レバテックキャリアとリクルートエージェントIT比較｜どっちがおすすめ【2026年6月】"
+        title="レバテックキャリアとリクルートエージェントIT比較｜どっちがおすすめ【2026年8月】"
         description="レバテックキャリアとリクルートエージェントITをどっちがおすすめか即答。求人数・専門性・サポート・対象層を時点付き実データで徹底比較します。"
         url="/compare/levtech-vs-recruit/"
       />
@@ -338,6 +339,8 @@ export default function LevtechVsRecruitPage() {
             </p>
           </div>
         </section>
+
+        <BusySeasonNote />
 
         <section id="faq" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>

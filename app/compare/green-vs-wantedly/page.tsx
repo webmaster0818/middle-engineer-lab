@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/green-vs-wantedly/" },
-  title: "GreenとWantedly比較｜ベンチャー転職はどっちがおすすめ【2026年6月】",
+  title: "GreenとWantedly比較｜ベンチャー転職はどっちがおすすめ【2026年8月】",
   description:
     "GreenとWantedlyをどっちがおすすめか即答。ダイレクトリクルーティング型2社を、給与表示・求人数・使い方・対象層で時点付き実データで徹底比較。30代40代エンジニアのベンチャー・スタートアップ転職の選び方を解説します。",
 };
@@ -81,7 +81,7 @@ export default function GreenVsWantedlyPage() {
   return (
     <>
       <ArticleJsonLd
-        title="GreenとWantedly比較｜ベンチャー転職はどっちがおすすめ【2026年6月】"
+        title="GreenとWantedly比較｜ベンチャー転職はどっちがおすすめ【2026年8月】"
         description="GreenとWantedlyをどっちがおすすめか即答。給与表示・求人数・使い方・対象層を時点付き実データで徹底比較します。"
         url="/compare/green-vs-wantedly/"
       />

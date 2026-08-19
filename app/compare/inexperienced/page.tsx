@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/inexperienced/" },
-  title: "エンジニア未経験向け転職エージェント比較【2026年6月】",
+  title: "エンジニア未経験向け転職エージェント比較【2026年8月】",
   description:
     "未経験からITエンジニアを目指す人向けに、ワークポート・dodaなど未経験歓迎求人に強い転職エージェントを比較。経験者特化型で断られるケースや30代・40代の現実も正直に解説します。",
 };
@@ -161,12 +161,12 @@ export default function InexperiencedPage() {
 
   return (
     <>
-      <ArticleJsonLd title="エンジニア未経験向け転職エージェント比較【2026年6月】" description="未経験からITエンジニアを目指す人向けに、ワークポート・dodaなど未経験歓迎求人に強い転職エージェントを比較します。" url="/compare/inexperienced/" />
+      <ArticleJsonLd title="エンジニア未経験向け転職エージェント比較【2026年8月】" description="未経験からITエンジニアを目指す人向けに、ワークポート・dodaなど未経験歓迎求人に強い転職エージェントを比較します。" url="/compare/inexperienced/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "未経験向けエージェント比較" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">エンジニア未経験向け転職エージェント比較【2026年6月】</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">エンジニア未経験向け転職エージェント比較【2026年8月】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 未経験からのIT転職に強いエージェントを正直に比較</p>
 
         <p className="text-slate-600 leading-relaxed mb-4">「エンジニア未経験でも転職エージェントは使えるのか」「むしろ断られるのでは」——この記事は、未経験からITエンジニアを目指す人が最初に押さえるべきエージェント選びを、誇張せずに整理したものです。結論を先に示し、各社の求人数・対応エリア・口コミの傾向を出典付きで比較します。</p>

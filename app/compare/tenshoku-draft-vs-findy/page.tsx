@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/tenshoku-draft-vs-findy/" },
-  title: "転職ドラフトとFindy比較｜どっちがおすすめ【2026年6月】",
+  title: "転職ドラフトとFindy比較｜どっちがおすすめ【2026年8月】",
   description:
     "転職ドラフト（リブセンス）とFindy（ファインディ）をどっちがおすすめか即答。評価軸（年収提示の入札 vs GitHubスキル偏差値）・対象スキル・年収の見え方・向き不向きを時点付き実データで徹底比較し、30代40代エンジニアの選び方を解説します。",
 };
@@ -80,7 +80,7 @@ export default function TenshokuDraftVsFindyPage() {
   return (
     <>
       <ArticleJsonLd
-        title="転職ドラフトとFindy比較｜どっちがおすすめ【2026年6月】"
+        title="転職ドラフトとFindy比較｜どっちがおすすめ【2026年8月】"
         description="転職ドラフトとFindyをどっちがおすすめか即答。評価軸・対象スキル・年収の見え方・向き不向きを時点付き実データで徹底比較します。"
         url="/compare/tenshoku-draft-vs-findy/"
       />

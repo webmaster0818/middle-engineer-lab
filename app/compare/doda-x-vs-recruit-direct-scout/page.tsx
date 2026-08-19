@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BusySeasonNote from "@/components/BusySeasonNote";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/doda-x-vs-recruit-direct-scout/" },
-  title: "dodaXとリクルートダイレクトスカウト比較【2026年6月】",
+  title: "dodaXとリクルートダイレクトスカウト比較【2026年8月】",
   description:
     "dodaXとリクルートダイレクトスカウトを応募形態・得意領域・年収帯で比較。自分でも応募したいか完全に待ちたいか、IT特化でないハイクラススカウト型の使い分けと、dodaブランドの混同回避を30代40代視点で解説します。",
 };
@@ -212,6 +213,8 @@ export default function DodaXVsRdsPage() {
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>主体的に動きたい時期です。dodaXは自己応募もできるため、ヘッドハンター任せにせず自分のペースで上方転職を進められます。IT/Webに強い点もエンジニアに有利です。レバテック公表の年代別平均年収（2025年）では30代のSEは約499万円が一つの目安で、ハイクラス型で上限を知っておくと交渉に役立ちます。完全無料のリクルートダイレクトスカウトを併用すれば、業種の幅も広げられます。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>dodaXは再利用意向89.8%（二次）と満足度が高く、年収800万円以上の比率が厚いため、年収700万円超のマネージャー層の上方転職に向きます。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。両サービスともIT特化ではないため、技術理解の深い提案が欲しい場面ではIT特化サービスを併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
         </section>
+
+        <BusySeasonNote />
 
         <section id="faq" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>

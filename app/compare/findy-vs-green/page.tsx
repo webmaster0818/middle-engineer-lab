@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BusySeasonNote from "@/components/BusySeasonNote";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/findy-vs-green/" },
-  title: "FindyとGreenの比較｜違いとどっちがおすすめ？【2026年6月】",
+  title: "FindyとGreenの比較｜違いとどっちがおすすめ？【2026年8月】",
   description:
     "Findy（GitHub技術力評価型のスカウト）とGreen（国内最大級のIT求人×多職種の直接応募/スカウト）を、サービス形態・評価軸・対象・マッチ方式で比較。技術力で評価されたいか、職種の広さから直接応募したいか、選び方と併用術を出典付きで解説します。",
 };
@@ -224,6 +225,8 @@ export default function FindyVsGreenPage() {
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>現役でコードを書いているなら、FindyのGitHub技術力評価が強い武器になります。同時に、Greenで職種や条件の広い求人に直接応募すれば、選択肢を横に広げられます。市場価値の確認をFindy、幅広い応募をGreen、と二段構えにすると視野が広がります。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>40代でもGitHubが活発であれば、Findyは年齢より技術で評価してくれます。一方、マネジメントや専門領域など職種の幅を活かしたい場合は、多職種を掲載するGreenで直接応募する動きが有効です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
         </section>
+
+        <BusySeasonNote />
 
         <section id="faq" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/startup-agents/" },
-  title: "スタートアップ転職に強いエージェント・サービスおすすめ｜選び方【2026年6月】",
+  title: "スタートアップ転職に強いエージェント・サービスおすすめ｜選び方【2026年8月】",
   description:
     "スタートアップ・ベンチャー転職に強い転職サービスを、当サイトに実在するサービスから根拠付きで厳選。直接やり取りのGreen、共感軸のWantedly、GitHub評価のFindy、IT特化のレバテックキャリアまで、30代40代エンジニア向けに選び方とリスクの見極めを整理します。",
 };

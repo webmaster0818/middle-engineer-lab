@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/remote-agents/" },
-  title: "リモートワークに強いエンジニア転職エージェント【2026年6月】",
+  title: "リモートワークに強いエンジニア転職エージェント【2026年8月】",
   description:
     "フルリモート・ハイブリッド求人の探し方を、Green・Geekly・dodaなどの特徴から解説。リモート求人は変動が大きいため件数の断定を避け、確実に絞り込む方法を30代・40代視点で紹介します。",
 };
@@ -134,12 +134,12 @@ export default function RemoteAgentsPage() {
 
   return (
     <>
-      <ArticleJsonLd title="リモートワークに強いエンジニア転職エージェント【2026年6月】" description="フルリモート・ハイブリッド求人の探し方を、Green・Geekly・dodaなどの特徴から解説します。" url="/compare/remote-agents/" />
+      <ArticleJsonLd title="リモートワークに強いエンジニア転職エージェント【2026年8月】" description="フルリモート・ハイブリッド求人の探し方を、Green・Geekly・dodaなどの特徴から解説します。" url="/compare/remote-agents/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "リモート求人に強いエージェント比較" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">リモートワークに強いエンジニア転職エージェント【2026年6月】</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">リモートワークに強いエンジニア転職エージェント【2026年8月】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | フルリモート・ハイブリッド求人の現実的な探し方</p>
 
         <p className="text-slate-600 leading-relaxed mb-4">リモートワーク中心で働きたいエンジニアにとって大切なのは、「リモート求人が多いと宣伝するサービス」を選ぶことではなく、<strong>勤務形態でしっかり絞り込めるサービスを組み合わせる</strong>ことです。リモート求人は企業方針や時期で変動が大きいため、この記事では具体的な件数の断定を避け、Green・Geekly・dodaなどの特徴と、取りこぼさない探し方を出典付きで整理します。</p>

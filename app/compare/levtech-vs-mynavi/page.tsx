@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/levtech-vs-mynavi/" },
-  title: "レバテックキャリアとマイナビIT比較｜どっち【2026年6月】",
+  title: "レバテックキャリアとマイナビIT比較｜どっち【2026年8月】",
   description:
     "レバテックキャリアとマイナビIT AGENTをどっちがおすすめか即答。求人数・年収アップ・サポート・スピード・対象層を時点付き実データで徹底比較し、30代40代エンジニアの選び方を解説します。",
 };
@@ -80,7 +80,7 @@ export default function LevtechVsMynaviPage() {
   return (
     <>
       <ArticleJsonLd
-        title="レバテックキャリアとマイナビIT AGENT比較｜どっちがおすすめ【2026年6月】"
+        title="レバテックキャリアとマイナビIT AGENT比較｜どっちがおすすめ【2026年8月】"
         description="レバテックキャリアとマイナビIT AGENTをどっちがおすすめか即答。求人数・年収・サポート・スピード・対象層を実データで徹底比較します。"
         url="/compare/levtech-vs-mynavi/"
       />

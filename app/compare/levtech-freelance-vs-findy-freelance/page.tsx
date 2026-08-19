@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/levtech-freelance-vs-findy-freelance/" },
-  title: "レバテックフリーランスとFindy Freelanceの比較｜どっち？【2026年7月】",
+  title: "レバテックフリーランスとFindy Freelanceの比較｜どっち？【2026年8月】",
   description:
     "レバテックフリーランスとFindy Freelanceを契約形態・案件傾向・サポート・リモート率・支払いで比較。案件量と手厚いコーディネーターか、フルリモート・直接契約・モダン/スタートアップかで選ぶ判断軸を30代40代エンジニア向けに解説します。",
 };

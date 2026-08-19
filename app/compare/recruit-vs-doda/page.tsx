@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/recruit-vs-doda/" },
-  title: "リクルートエージェントとdodaの比較｜IT転職どっち【2026年6月】",
+  title: "リクルートエージェントとdodaの比較｜IT転職どっち【2026年8月】",
   description:
     "リクルートエージェントITとdoda ITを求人数・年収・サポート・スピード・対象層で徹底比較。総合型2大エージェントのIT求人の違い、30代40代エンジニアの選び方、口コミ傾向、IT特化型との併用術まで解説します。",
 };

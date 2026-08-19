@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/ai-agents/" },
-  title: "AI・機械学習エンジニアの転職エージェントおすすめ｜選び方【2026年6月】",
+  title: "AI・機械学習エンジニアの転職エージェントおすすめ｜選び方【2026年8月】",
   description:
     "AI・機械学習（ML／生成AI／データサイエンス）エンジニアに強い転職エージェントを、当サイトに実在するサービスから根拠付きで厳選。GitHub評価のFindy、IT/Web全般のレバテックキャリア、ハイクラスのビズリーチ、Web発信評価のLAPRASまで、30代40代向けに選び方を整理します。",
 };

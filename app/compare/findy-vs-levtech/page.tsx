@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BusySeasonNote from "@/components/BusySeasonNote";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/findy-vs-levtech/" },
-  title: "Findyとレバテックの比較｜どっちがおすすめ？【2026年6月】",
+  title: "Findyとレバテックの比較｜どっちがおすすめ？【2026年8月】",
   description:
     "Findy（GitHub連携スカウト型）とレバテックキャリア（IT特化エージェント型）を評価軸・年収・サポート・対象層で比較。スカウトで待つか伴走してもらうか、30代40代エンジニアの選び方と併用術を解説します。",
 };
@@ -224,6 +225,8 @@ export default function FindyVsLevtechPage() {
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>現役でコードを書いているなら、FindyのGitHub偏差値が強い武器になります。同時に、レバテックキャリアは利用者の約80%が20〜30代（二次情報）で、技術スタックを理解したアドバイザーが現場志向のキャリア相談に乗ってくれます。市場価値の確認をFindy、選考対策をレバテックキャリア、と二段構えにすると視野が広がります。レバテック公表の年代別平均年収（2025年）では30代のSEは約499万円が一つの目安です。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>40代でもGitHubが活発であれば、Findyは年齢より技術で評価してくれます。一方、書類段階で年齢を理由に苦戦することもあるため、推薦状を書いて伴走してくれるレバテックキャリアのアドバイザー支援を併せて確保しておくと安心です。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層でもあります。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
         </section>
+
+        <BusySeasonNote />
 
         <section id="faq" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>

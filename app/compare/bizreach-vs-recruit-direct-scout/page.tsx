@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/bizreach-vs-recruit-direct-scout/" },
-  title: "ビズリーチとリクルートダイレクトスカウト比較【2026年6月】",
+  title: "ビズリーチとリクルートダイレクトスカウト比較【2026年8月】",
   description:
     "ビズリーチとリクルートダイレクトスカウトを審査・料金・スカウト主体・年収帯で比較。無料で気軽に使うか質で選ぶか、IT特化でないハイクラススカウト型の使い分けと30代40代エンジニアの併用術を解説します。",
 };

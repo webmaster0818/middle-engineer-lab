@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BusySeasonNote from "@/components/BusySeasonNote";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/findy-vs-forkwell/" },
-  title: "FindyとForkwellの比較｜どっちがおすすめ？【2026年6月】",
+  title: "FindyとForkwellの比較｜どっちがおすすめ？【2026年8月】",
   description:
     "FindyとForkwellをスカウト型サービスの評価軸・スカウトの質・コミュニティ・対象層で比較。GitHub実績で評価されたいか発信の質で評価されたいか、30代40代エンジニアの選び方とスカウトが来ない時の対処を解説します。",
 };
@@ -216,6 +217,8 @@ export default function FindyVsForkwellPage() {
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>現役でコードを書き続けているなら、FindyのGitHub偏差値は強力な武器になります。年齢ではなく技術で評価されるため、転職市場での自分の立ち位置を客観視できます。発信や学習が好きなタイプはForkwellのコミュニティとも相性が良く、両方使って市場価値を測るのがおすすめです。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>40代でもGitHubが活発であれば、Findyは年齢より技術を評価してくれます。一方で、マネジメント中心でコードを書かなくなった方は、これらのサービスでは実力が伝わりにくいのが正直なところです。その場合は、マネジメント経験を評価するハイクラススカウト型（<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービス一覧</Link>のハイクラス型）の併用を検討してください。現役で手を動かす40代には、FindyとForkwellは年齢の壁を越える有効な手段です。</p>
         </section>
+
+        <BusySeasonNote />
 
         <section id="faq" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>

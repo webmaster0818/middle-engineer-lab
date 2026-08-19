@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BusySeasonNote from "@/components/BusySeasonNote";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/bizreach-vs-levtech/" },
-  title: "ビズリーチとレバテックの比較｜どっちがおすすめ？【2026年6月】",
+  title: "ビズリーチとレバテックの比較｜どっちがおすすめ？【2026年8月】",
   description:
     "ビズリーチとレバテックキャリアを求人数・年収・サポート・スピード・対象層で徹底比較。ハイクラス×スカウト型とIT特化エージェント型の違い、30代40代エンジニアの選び方、口コミ傾向、併用術まで解説します。",
 };
@@ -220,6 +221,8 @@ export default function BizreachVsLevtechPage() {
           <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ビズリーチはCTO・VPoE・EMといった管理職・経営層ポジションのスカウトや外資求人に強く、マネジメント経験のある40代と噛み合います。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。一方で40代は年齢を理由に書類段階で苦戦することもあるため、伴走して推薦状を書いてくれるレバテックのアドバイザー支援も併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
           <p className="text-slate-600 leading-relaxed text-sm">いずれの年代でも、まずビズリーチで市場価値を測り、レバテックで実際の選考を伴走してもらう二段構えが、ミドルエンジニアにとって失敗の少ない進め方です。</p>
         </section>
+
+        <BusySeasonNote />
 
         <section id="faq" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>

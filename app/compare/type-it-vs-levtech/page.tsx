@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/type-it-vs-levtech/" },
-  title: "type転職エージェントITとレバテックの比較｜どっちがおすすめ？【2026年6月】",
+  title: "type転職エージェントITとレバテックの比較｜どっちがおすすめ？【2026年8月】",
   description:
     "type転職エージェントIT（首都圏・成長企業に強い）とレバテックキャリア（IT/Web特化）を、得意領域・対象年代・求人傾向・サポート・連絡手段・実績数値で比較。25〜35歳を中心とした30代エンジニアの選び方と併用術を、出典と時点を明記して解説します。",
 };

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/consulting-agents/" },
-  title: "ITコンサル転職に強いエージェントおすすめ｜選び方【2026年6月】",
+  title: "ITコンサル転職に強いエージェントおすすめ｜選び方【2026年8月】",
   description:
     "ITコンサル・DXコンサル転職に強い転職エージェントを、当サイトに実在するサービスから根拠付きで厳選。コンサル業界特化のアクシスコンサルティング、ハイクラス両面型のJAC、スカウトのビズリーチ、母数のレバテックキャリアまで、30代40代エンジニア向けに選び方を整理します。",
 };

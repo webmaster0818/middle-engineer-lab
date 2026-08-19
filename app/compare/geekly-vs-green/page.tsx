@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BusySeasonNote from "@/components/BusySeasonNote";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
@@ -266,6 +267,8 @@ export default function GeeklyVsGreenPage() {
           <p className="text-slate-600 leading-relaxed mb-4">市場環境も追い風です。経産省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。実務経験の厚いミドルエンジニアの需要は中長期で底堅く、経験者向け提案が多いGeeklyと、即戦力を直接探すGreenの双方で評価されやすい立ち位置です。</p>
           <p className="text-slate-600 leading-relaxed">結論として、30代・40代には<strong>「交渉と非公開求人はGeeklyに任せ、社風確認と直接アプローチはGreenで行う」併用</strong>が、年収最大化とミスマッチ回避を両立する現実的な戦略です。年代別の動き方は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>もあわせてご覧ください。</p>
         </section>
+
+        <BusySeasonNote />
 
         <section id="faq" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>

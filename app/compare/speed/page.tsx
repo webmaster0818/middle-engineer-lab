@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/speed/" },
-  title: "対応が早い・スピード重視のIT転職エージェント【2026年6月】",
+  title: "対応が早い・スピード重視のIT転職エージェント【2026年8月】",
   description:
     "提案スピードが早いと評判のIT転職エージェントを、Geekly・ワークポートを中心に出典付きで比較。スピード転職のコツと、早さと質を両立させる注意点を30代・40代視点で解説します。",
 };
@@ -139,12 +139,12 @@ export default function SpeedPage() {
 
   return (
     <>
-      <ArticleJsonLd title="対応が早い・スピード重視のIT転職エージェント【2026年6月】" description="提案スピードが早いと評判のIT転職エージェントを、Geekly・ワークポートを中心に出典付きで比較します。" url="/compare/speed/" />
+      <ArticleJsonLd title="対応が早い・スピード重視のIT転職エージェント【2026年8月】" description="提案スピードが早いと評判のIT転職エージェントを、Geekly・ワークポートを中心に出典付きで比較します。" url="/compare/speed/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "スピード重視のエージェント比較" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">対応が早い・スピード重視のIT転職エージェント【2026年6月】</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">対応が早い・スピード重視のIT転職エージェント【2026年8月】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 提案スピードが早いと評判のエージェントを出典付きで比較</p>
 
         <p className="text-slate-600 leading-relaxed mb-4">「今すぐ動きたい」「退職日が決まっている」——スピードが求められるIT転職では、<strong>提案・連絡のレスポンスが早いエージェント</strong>を選ぶことが効きます。この記事では、提案スピードに定評のあるGeekly・ワークポートを中心に、口コミの傾向を出典付きで整理し、早さと質を両立させるコツまで解説します。</p>

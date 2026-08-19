@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/freelance-agents/" },
-  title: "フリーランスエンジニアのエージェント比較【2026年6月】",
+  title: "フリーランスエンジニアのエージェント比較【2026年8月】",
   description:
     "フリーランスエンジニア向けエージェントの選び方を、正社員転職との比較視点で解説。レバテックの年代別年収データを基に、独立すべきか正社員のままかを30代・40代目線で整理します。",
 };
@@ -114,12 +114,12 @@ export default function FreelanceAgentsPage() {
 
   return (
     <>
-      <ArticleJsonLd title="フリーランスエンジニアのエージェント比較【2026年6月】" description="フリーランスエンジニア向けエージェントの選び方を、正社員転職との比較視点でレバテックの年収データを基に解説します。" url="/compare/freelance-agents/" />
+      <ArticleJsonLd title="フリーランスエンジニアのエージェント比較【2026年8月】" description="フリーランスエンジニア向けエージェントの選び方を、正社員転職との比較視点でレバテックの年収データを基に解説します。" url="/compare/freelance-agents/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "フリーランスエージェント比較" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">フリーランスエンジニアのエージェント比較【2026年6月】</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">フリーランスエンジニアのエージェント比較【2026年8月】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 正社員転職との比較視点で「独立すべきか」を考える</p>
 
         <p className="text-slate-600 leading-relaxed mb-4">「フリーランスエンジニアのエージェントを比較したい」という人の多くは、本当のところ<strong>「正社員のまま転職するか、独立するか」</strong>で迷っています。この記事は、フリーランスエージェントの選び方だけでなく、レバテックが公表する年代別年収データを使って正社員との損得を整理し、30代・40代が後悔しない判断をできるようにまとめたものです。</p>

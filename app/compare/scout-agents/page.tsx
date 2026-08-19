@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/scout-agents/" },
-  title: "スカウト型転職サービス比較｜エンジニア向け6社【2026年6月】",
+  title: "スカウト型転職サービス比較｜エンジニア向け6社【2026年8月】",
   description:
     "エンジニア向けスカウト型サービスをタイプ別に整理。スキル評価型・発信AI解析型・コミュニティ型・ハイクラス型・共感型の違い、怪しいスカウトの見分け方、スカウトを増やすコツを30代40代視点で解説します。",
 };

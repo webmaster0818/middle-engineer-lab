@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/midworks-vs-itpropartners/" },
-  title: "MidworksとITプロパートナーズ比較｜どっちがおすすめ【2026年6月】",
+  title: "MidworksとITプロパートナーズ比較｜どっちがおすすめ【2026年8月】",
   description:
     "Midworks（ミッドワークス）とITプロパートナーズをどっちがおすすめか即答。保障・週稼働日数・単価構造・案件量・対象層を時点付き実データで徹底比較し、30代40代フリーランスエンジニアの選び方を解説します。",
 };
@@ -80,7 +80,7 @@ export default function MidworksVsItproPartnersPage() {
   return (
     <>
       <ArticleJsonLd
-        title="MidworksとITプロパートナーズ比較｜どっちがおすすめ【2026年6月】"
+        title="MidworksとITプロパートナーズ比較｜どっちがおすすめ【2026年8月】"
         description="MidworksとITプロパートナーズをどっちがおすすめか即答。保障・週稼働日数・単価構造・案件量・対象層を時点付き実データで徹底比較します。"
         url="/compare/midworks-vs-itpropartners/"
       />

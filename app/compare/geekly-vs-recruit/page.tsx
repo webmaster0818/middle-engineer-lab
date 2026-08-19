@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BusySeasonNote from "@/components/BusySeasonNote";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/geekly-vs-recruit/" },
-  title: "Geekly（ギークリー）とリクルートエージェントIT比較｜どっちがおすすめ【2026年6月】",
+  title: "Geekly（ギークリー）とリクルートエージェントIT比較｜どっちがおすすめ【2026年8月】",
   description:
     "Geekly（ギークリー）とリクルートエージェントITをどっちがおすすめか即答。IT/Web/ゲーム特化型と国内最大級の総合型を、専門性・求人量・対応エリア・サポート・実績で時点付きデータで比較し、30代40代エンジニアの選び方を解説します。",
 };
@@ -80,7 +81,7 @@ export default function GeeklyVsRecruitPage() {
   return (
     <>
       <ArticleJsonLd
-        title="Geekly（ギークリー）とリクルートエージェントIT比較｜どっちがおすすめ【2026年6月】"
+        title="Geekly（ギークリー）とリクルートエージェントIT比較｜どっちがおすすめ【2026年8月】"
         description="Geekly（ギークリー）とリクルートエージェントITをどっちがおすすめか即答。専門性・求人量・対応エリア・サポート・実績を時点付きデータで比較します。"
         url="/compare/geekly-vs-recruit/"
       />
@@ -346,6 +347,8 @@ export default function GeeklyVsRecruitPage() {
             </p>
           </div>
         </section>
+
+        <BusySeasonNote />
 
         <section id="faq" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくある質問</h2>

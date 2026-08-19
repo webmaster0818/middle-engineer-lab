@@ -108,6 +108,9 @@ export default function BestTimingPage() {
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 狙い目は「9〜10月」と「1〜3月」。大手エージェントの公式解説が共通して挙げる求人の増加期で、dodaでは新規求人数が最も多いのは1月と10月とされています。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・増加期は上期・下期の切り替わりに当たる1〜3月と9〜10月。逆に少ないのは8月・11月・12月（dodaの法人向け解説）。</li><li>・応募〜内定は一般に2〜3ヶ月。次の波の9〜10月を狙うなら、7〜8月に職務経歴書とエージェント登録を済ませておくのが逆算の答え。</li><li>・エンジニア（IT・通信）の求人倍率は10.68倍（doda・2026年3月）で全職種平均2.44倍の4倍以上。「時期を待つ」より「いい求人が出た瞬間に動ける準備」が重要。</li></ul>
           </div>
+          <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50/60 p-5">
+            <p className="text-sm leading-7 text-slate-700"><strong>いま（2026年8月）の現在地:</strong> 8月は新規求人が少ない月（dodaの法人向け解説）ですが、次の増加期である<strong>9〜10月の直前=準備の最適期</strong>です。応募〜内定は通常1〜2ヶ月かかるため、今月中に職務経歴書の整備とエージェント登録を済ませておくと、9月からの求人増にそのまま乗れます。準備の具体的な進め方は下の逆算スケジュールをご覧ください。</p>
+          </div>
         </section>
 
         <p className="text-slate-600 leading-relaxed mb-4">

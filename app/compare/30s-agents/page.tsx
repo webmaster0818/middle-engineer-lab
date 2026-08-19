@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/30s-agents/" },
-  title: "30代エンジニアの転職エージェントおすすめ比較【2026年6月】",
+  title: "30代エンジニアの転職エージェントおすすめ比較【2026年8月】",
   description:
     "30代エンジニアにおすすめのIT転職エージェントを2026年6月時点のデータで比較。レバテックの年代別平均年収（30代約499万円）など公的・公表値をもとに、選び方・口コミ傾向・併用パターンを解説します。",
 };
@@ -168,7 +168,7 @@ export default function ThirtiesAgentsPage() {
   return (
     <>
       <ArticleJsonLd
-        title="30代エンジニアの転職エージェントおすすめ比較【2026年6月】"
+        title="30代エンジニアの転職エージェントおすすめ比較【2026年8月】"
         description="30代エンジニアにおすすめのIT転職エージェントを2026年6月時点のデータで比較。年代別平均年収などの公表値をもとに選び方・口コミ傾向を解説します。"
         url="/compare/30s-agents/"
       />
@@ -176,7 +176,7 @@ export default function ThirtiesAgentsPage() {
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "30代エンジニアの転職エージェント比較" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">30代エンジニアの転職エージェントおすすめ比較【2026年6月】</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">30代エンジニアの転職エージェントおすすめ比較【2026年8月】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 30代エンジニア向けに5社を厳選比較</p>
 
         <section className="mb-8">

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/40s-agents/" },
-  title: "40代エンジニアの転職エージェントおすすめ比較【2026年6月】",
+  title: "40代エンジニアの転職エージェントおすすめ比較【2026年8月】",
   description:
     "40代エンジニアにおすすめのIT転職エージェントを2026年6月時点のデータで比較。40代の平均年収約618万円などの公表値、マネジメント経験の活かし方、年齢ハードルへの向き合い方まで解説します。",
 };
@@ -168,7 +168,7 @@ export default function FortiesAgentsPage() {
   return (
     <>
       <ArticleJsonLd
-        title="40代エンジニアの転職エージェントおすすめ比較【2026年6月】"
+        title="40代エンジニアの転職エージェントおすすめ比較【2026年8月】"
         description="40代エンジニアにおすすめのIT転職エージェントを2026年6月時点のデータで比較。平均年収やマネジメント経験の活かし方、年齢ハードルへの向き合い方を解説します。"
         url="/compare/40s-agents/"
       />
@@ -176,7 +176,7 @@ export default function FortiesAgentsPage() {
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "40代エンジニアの転職エージェント比較" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">40代エンジニアの転職エージェントおすすめ比較【2026年6月】</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">40代エンジニアの転職エージェントおすすめ比較【2026年8月】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 40代エンジニア向けに5社を厳選比較</p>
 
         <section className="mb-8">
