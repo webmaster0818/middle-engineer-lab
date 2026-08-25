@@ -30,14 +30,14 @@ const salaryRows: [string, string][] = [
 const sources = [
   "AWS 採用プロセスのサポート（公式）",
   "Amazon Our Leadership Principles（公式）",
-  "levels.fyi（2026年6月時点・日本拠点ソフトウェアエンジニア集計）",
+  "levels.fyi（2026年8月25日時点・日本拠点Amazon SDE集計。AWS部門を含むAmazon全体の値で、AWS単独の分計は公表されていません）",
   "OpenWork アマゾンジャパン／AWSジャパン（社員クチコミ集計）",
 ];
 
 const faqs = [
   {
     q: "AWSジャパンの年収はどのくらいですか？",
-    a: "AWSジャパンは有価証券報告書を公表しておらず公式の平均年収はありません。報酬集計サイトlevels.fyi（2026年6月時点）では、ソフトウェアエンジニアでL4（若手）約$90K台、L5（中堅）約$116K前後、L6（シニア）約$167K前後の総報酬です。RSU（株式報酬）は1年目5%・2年目15%・3〜4年目40%ずつのバックロード型のため、初年度は基本給＋サインオンボーナス中心になりやすい点に注意してください。",
+    a: "AWSジャパンは有価証券報告書を公表しておらず公式の平均年収はありません。報酬集計サイトlevels.fyi（2026年8月25日時点・日本拠点Amazon SDE集計＝AWS部門を含む）では、総報酬の中央値 約1,583万円、L4 約1,270万円、L5 約1,944万円、L6 約2,302万円です。AWS単独の分計は公表されていません。RSU（株式報酬）は1年目5%・2年目15%・3〜4年目40%ずつのバックロード型のため、初年度は基本給＋サインオンボーナス中心になりやすい点に注意してください。",
   },
   {
     q: "AWS認定資格は転職に有利ですか？",
@@ -75,7 +75,7 @@ export default function AwsJapanCompanyPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">AWSジャパンへの転職・年収・評判【2026年】クラウドエンジニア/SA</h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 年収・評判・選考（OLP）をクラウド職種の視点で解説</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年8月 ｜ 年収・評判・選考（OLP）をクラウド職種の視点で解説</p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">

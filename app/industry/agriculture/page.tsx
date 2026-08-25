@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industry/agriculture/" },
-  title: "農業からアグリテック転職【30代40代エンジニアガイド】",
+  title: "農業からアグリテック（AgriTech）転職【30代40代エンジニアガイド】",
   description:
     "農業・農業関連のエンジニアがアグリテック（AgriTech）領域へ転職する道筋を解説。現場知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。",
 };
@@ -92,13 +92,24 @@ export default function AgriculturePage() {
 
   return (
     <>
-      <ArticleJsonLd title="農業からアグリテック転職【30代40代エンジニアガイド】" description="農業・農業関連のエンジニアがアグリテック（AgriTech）領域へ転職する道筋を解説。現場知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。" url="/industry/agriculture/" />
+      <ArticleJsonLd title="農業からアグリテック（AgriTech）転職【30代40代エンジニアガイド】" description="農業・農業関連のエンジニアがアグリテック（AgriTech）領域へ転職する道筋を解説。現場知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。" url="/industry/agriculture/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "業界別ガイド" }, { name: "農業からアグリテック転職" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">農業からアグリテック転職【30代40代エンジニアガイド】</h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 農業現場・ドメインの知識をアグリテック領域で活かす</p>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">農業からアグリテック（AgriTech）転職【30代40代エンジニアガイド】</h1>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年8月 | 農業現場・ドメインの知識をアグリテック領域で活かす</p>
+
+        {/* 直答box */}
+        <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】アグリテック（AgriTech）転職はできる？</h2>
+          <p className="text-sm leading-7 text-slate-700 mb-2"><strong>結論: 農業現場・ドメインデータの知識を持つ人は、IoT（センサー収集）やデータ分析（Python/SQL）を補強すれば現実的に狙えます。</strong>現場を理解した上で技術を設計できる人材はAgriTech企業側に少なく、30代・40代の経験の厚さはむしろ強みになります。</p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1">
+            <li>・主な職種は4系統: スマート農業プラットフォーム開発／農業データ分析・予測／ドローン・ロボティクス／トレーサビリティ・流通テック</li>
+            <li>・年収目安は正社員SE平均で30代約499万円・40代約618万円（レバテック公表2025年）。スタートアップ中心のため企業ステージで差が大きい</li>
+            <li>・準備の第一歩は「農業ドメイン知識」と「実装できる技術」を職務経歴書で分けて示すこと（詳細は本文）</li>
+          </ul>
+        </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">担い手不足という構造的な課題を背景に、IoTセンサー、ドローン、画像認識、ロボティクスなどで農業を省力化・データ化する動きが各所で見られます。農業現場やドメインデータの知識を持つエンジニアは、IoTやデータ分析のスキルを足すことでアグリテック領域に移りやすくなります。本記事では活かせる経験と埋めるべきギャップを30代・40代視点で整理します。</p>
 
