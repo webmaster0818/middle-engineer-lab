@@ -36,9 +36,9 @@ const basicData: [string, string][] = [
 ];
 
 const salaryRows: [string, string][] = [
-  ["L4（SDE I・若手）", "総報酬 中央値 約1,270万円（基本給約1,007万＋株式約197万＋賞与約67万）"],
-  ["L5（SDE II・中堅）", "総報酬 中央値 約1,944万円（基本給約1,497万＋株式約420万＋賞与約28万）"],
-  ["L6（SDE III・シニア）", "総報酬 中央値 約2,302万円（基本給約1,723万＋株式約504万＋賞与約75万）"],
+  ["L4（SDE I・若手）", "総報酬 中央値 約1,267万円（サンプル内訳の中央値: 基本給約1,027万・株式約180万・賞与約40万）"],
+  ["L5（SDE II・中堅）", "総報酬 中央値 約1,939万円（サンプル内訳の中央値: 基本給約1,509万・株式約498万・賞与中央値0円）"],
+  ["L6（SDE III・シニア）", "総報酬 中央値 約2,295万円（サンプル内訳の中央値: 基本給約1,741万・株式約314万・賞与中央値0円・サンプル4件）"],
   ["L7（Principal）", "上位レンジ（公開レポート少・変動大）"],
 ];
 
@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     q: "エンジニアの年収はどのくらい？",
-    a: "アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式平均年収はありません。levels.fyi（2026年8月25日時点・日本拠点SDE集計）では、SDE総報酬の中央値 約1,583万円、L4 約1,270万円、L5 約1,944万円、L6 約2,302万円。RSU（株式報酬）は1年目5%・2年目15%・3〜4年目40%ずつのバックロード型で、初年度は基本給＋サインオンボーナス中心になりやすい点が特徴です。",
+    a: "アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式平均年収はありません。levels.fyi（2026年9月6日時点・日本拠点SDE集計）では、SDE総報酬の中央値 約1,480万円、L4 約1,267万円、L5 約1,939万円、L6 約2,295万円。RSU（株式報酬）は1年目5%・2年目15%・3〜4年目40%ずつのバックロード型で、初年度は基本給＋サインオンボーナス中心になりやすい点が特徴です。",
   },
   {
     q: "AWS部門とリテール部門、どちらがおすすめ？",
@@ -80,7 +80,7 @@ const faqs = [
 const sources = [
   "AWS 採用プロセスのサポート（公式）",
   "Amazon Our Leadership Principles（公式）",
-  "levels.fyi（2026年8月25日時点・ユーザー投稿集計）",
+  "levels.fyi（2026年9月6日時点・ユーザー投稿集計）",
   "OpenWork アマゾンジャパン／AWSジャパン（社員クチコミ集計）",
 ];
 
@@ -125,8 +125,8 @@ export default function AmazonCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Amazon／AWSジャパンのエンジニア年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年8月25日時点）ではSDE総報酬の中央値 約1,583万円が目安です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬（levels.fyi・2026年8月25日時点、日本拠点SDE集計）：中央値 約1,583万円、L4 約1,270万円、L5 約1,944万円、L6 約2,302万円。直近1ヶ月で集計値が下方修正されており（7月時点は中央値約1,679万円）、投稿ベースの変動が大きい点に注意。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型。初年度は基本給＋サインオンボーナス中心になりやすい構造です。</li><li>・いずれもユーザー投稿ベースの集計値で、為替・株価により円換算額は変動します。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年9月6日時点）ではSDE総報酬の中央値 約1,480万円が目安です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬（levels.fyi・2026年9月6日時点、日本拠点SDE集計）：中央値 約1,480万円、L4 約1,267万円、L5 約1,939万円、L6 約2,295万円。中央値は7月約1,679万→8月約1,583万→9月約1,480万と3ヶ月連続で下方修正されており、投稿ベースの集計値は変動が大きい点に注意。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型。初年度は基本給＋サインオンボーナス中心になりやすい構造です。</li><li>・いずれもユーザー投稿ベースの集計値で、為替・株価により円換算額は変動します。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -249,7 +249,7 @@ export default function AmazonCompanyPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-700 mb-5">
             <li>
-              ・<strong>levels.fyi（2026年8月25日時点・日本拠点SDE集計）</strong>：SDE総報酬の中央値 約1,583万円（L4 約1,270万円／L5 約1,944万円／L6 約2,302万円）。基本給＋RSU＋ボーナスの合計。
+              ・<strong>levels.fyi（2026年9月6日時点・日本拠点SDE集計）</strong>：SDE総報酬の中央値 約1,480万円（L4 約1,267万円／L5 約1,939万円／L6 約2,295万円）。基本給＋RSU＋ボーナスの合計。
             </li>
             <li>
               ・<strong>RSUの特徴</strong>：Amazonの株式付与は1年目5%／2年目15%／3年目40%／4年目40%の<strong>バックロード型</strong>。初年度は基本給＋サインオンボーナス中心になりやすく、年次が進むほど総報酬が伸びる構造です。
@@ -274,12 +274,12 @@ export default function AmazonCompanyPage() {
             </table>
           </div>
           <p className="text-xs text-slate-400 mt-2">
-            出典：levels.fyi（2026年8月25日時点・ユーザー投稿集計）。円換算は概算で為替・株価で変動します。等級の呼称・境界は目安です。
+            出典：levels.fyi（2026年9月6日時点・ユーザー投稿集計・1ドル=157.03円換算）。円換算は概算で為替・株価で変動します。等級の呼称・境界は目安です。内訳のサンプル中央値は総報酬中央値と算出母集団が異なるため合計は一致しません。
           </p>
           <div id="bonus" className="mt-6 bg-slate-50 border border-slate-200 rounded-xl p-5">
             <h3 className="font-bold text-slate-800 mb-2">ボーナス・RSU（株式報酬）の仕組み</h3>
             <p className="text-sm leading-7 text-slate-700 mb-2">
-              Amazon／AWSジャパンの報酬は「基本給＋RSU＋（入社時のみ）サインオンボーナス」の構成で、<strong>日本企業のような年2回の定期賞与はなく、現金ボーナスの比率は小さい</strong>のが特徴です。levels.fyi（2026年8月25日時点・日本拠点SDE集計）の内訳では、賞与相当は年約28万〜75万円に対し、株式（RSU）はL4約197万円・L5約420万円・L6約504万円と、上位レベルほど株式の比重が大きくなります。
+              Amazon／AWSジャパンの報酬は「基本給＋RSU＋（入社時のみ）サインオンボーナス」の構成で、<strong>日本企業のような年2回の定期賞与はなく、現金ボーナスの比率は小さい</strong>のが特徴です。levels.fyi（2026年9月6日時点・日本拠点SDE集計）のサンプル内訳中央値では、現金賞与は0〜約40万円に対し、株式（RSU）はL4約180万円・L5約498万円と大きく、報酬に占める株式の比重が高い構造です。
             </p>
             <p className="text-sm leading-7 text-slate-700">
               RSUの権利確定は1年目5%／2年目15%／3〜4年目各40%のバックロード型のため、<strong>1〜2年目の現金収入はサインオンボーナスで補填される設計</strong>です。転職時のオファー比較では「4年トータルの総報酬」と「初年度の現金」を分けて見るのが失敗しないコツです。
@@ -442,6 +442,7 @@ export default function AmazonCompanyPage() {
               { name: "国内企業から外資系への転職", href: "/career/domestic-to-foreign/" },
               { name: "Google Japan 転職ガイド", href: "/company/google/" },
               { name: "Microsoft Japan 転職ガイド", href: "/company/microsoft/" },
+              { name: "外資ITエンジニア年収ランキング【levels.fyi実測】", href: "/salary/gaishi-ranking/" },
             ].map((item, i) => (
               <Link
                 key={i}
