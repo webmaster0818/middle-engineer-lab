@@ -245,6 +245,7 @@ export default function FindyVsForkwellPage() {
               { name: "Findyの評判・口コミ", href: "/review/findy/" },
               { name: "Forkwellの評判・口コミ", href: "/review/forkwell/" },
               { name: "Findy vs レバテック 比較", href: "/compare/findy-vs-levtech/" },
+              { name: "Forkwell vs レバテック 比較", href: "/compare/forkwell-vs-levtech/" },
               { name: "スカウト型サービス徹底比較", href: "/compare/scout-agents/" },
               { name: "LAPRASの評判・口コミ", href: "/review/lapras/" },
               { name: "paizaの評判・口コミ", href: "/review/paiza/" },

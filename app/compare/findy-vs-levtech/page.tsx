@@ -251,6 +251,7 @@ export default function FindyVsLevtechPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "Findyの評判・口コミ", href: "/review/findy/" },
+              { name: "Forkwell vs レバテック 比較", href: "/compare/forkwell-vs-levtech/" },
               { name: "Findy vs Forkwell 比較", href: "/compare/findy-vs-forkwell/" },
               { name: "レバテックキャリア vs Geekly比較", href: "/compare/levtech-vs-geekly/" },
               { name: "スカウト型サービス徹底比較", href: "/compare/scout-agents/" },

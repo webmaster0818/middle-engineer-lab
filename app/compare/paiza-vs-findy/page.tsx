@@ -63,6 +63,7 @@ const relatedLinks = [
   { name: "IT転職エージェント比較", href: "/compare/agents/" },
   { name: "Findy vs Forkwell", href: "/compare/findy-vs-forkwell/" },
   { name: "Findy vs レバテックキャリア", href: "/compare/findy-vs-levtech/" },
+  { name: "paiza vs Green", href: "/compare/paiza-vs-green/" },
   { name: "30代におすすめのエージェント", href: "/compare/30s-agents/" },
 ];
 

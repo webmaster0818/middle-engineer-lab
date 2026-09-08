@@ -63,6 +63,7 @@ const relatedLinks = [
   { name: "Wantedlyの詳細レビュー", href: "/review/wantedly/" },
   { name: "IT転職エージェント比較", href: "/compare/agents/" },
   { name: "Geekly vs Green", href: "/compare/geekly-vs-green/" },
+  { name: "Wantedly vs Findy", href: "/compare/wantedly-vs-findy/" },
   { name: "メガベンチャー向けエージェント比較", href: "/compare/megaventure-agents/" },
   { name: "30代におすすめのエージェント", href: "/compare/30s-agents/" },
 ];
