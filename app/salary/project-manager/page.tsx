@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "プロジェクトマネージャーの年収はいくら？【2026年】「891.5万円」が9年前のデータである件と最新統計の実像";
 const PAGE_DESC =
-  "ITプロジェクトマネージャー（PM）の年収を最新データで検証。多くのサイトが引用する「891.5万円」は2017年公表（2016年度調査）の9年前の数値です。本記事はdoda2025年版（707万円・40代855万円）、令和7年賃金構造基本統計、ITSSレベル別分布を一次資料で確認し、PMの年収の実像と上げ方を解説します。";
+  "ITプロジェクトマネージャー（PM）の年収を最新データで検証。多くのサイトが引用する「891.5万円」は2017年公表（2016年度調査）の9年前の数値です。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/project-manager/" },

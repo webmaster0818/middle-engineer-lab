@@ -1,6 +1,6 @@
 // テックゴー アフィリエイトCTA（もしもアフィリエイト・2026-07-06 施主提供コード）
 // トラッキングコード（a_id/p_id/pc_id/pl_id・rel・referrerpolicy・attributionsrc・impression画像）は提供コードから一切改変しないこと。
-const AFF_HTML = (text: string) => `<a href="//af.moshimo.com/af/c/click?a_id=5663317&p_id=6722&pc_id=19209&pl_id=85793" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc class="techgo-cta-btn">${text}</a><img src="//i.moshimo.com/af/i/impression?a_id=5663317&p_id=6722&pc_id=19209&pl_id=85793" width="1" height="1" style="border:none;" loading="lazy">`;
+const AFF_HTML = (text: string) => `<a href="//af.moshimo.com/af/c/click?a_id=5663317&p_id=6722&pc_id=19209&pl_id=85793" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc class="techgo-cta-btn">${text}</a><img src="//i.moshimo.com/af/i/impression?a_id=5663317&p_id=6722&pc_id=19209&pl_id=85793" width="1" height="1" alt="" style="border:none;" loading="lazy">`;
 
 export default function TechgoCta({
   heading = "テックゴーの無料キャリア面談を予約する",

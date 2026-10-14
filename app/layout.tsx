@@ -31,6 +31,7 @@ export const metadata: Metadata = {
     "30代・40代のITエンジニアに特化した転職エージェント比較メディア。年収データ・口コミ・体験談をもとに厳選10社を徹底比較。企業別年収(有報準拠)・言語別年収・スキル別ガイドも提供します。",
   metadataBase: new URL("https://middle-engineer.com"),
   openGraph: {
+    images: ["/og.png"],
     type: "website",
     locale: "ja_JP",
     siteName: SITE_NAME,
@@ -190,6 +191,9 @@ function Footer() {
               <li><a href="/salary/" className="hover:text-petrol transition-colors">年収帯別ガイド</a></li>
               <li><a href="/cert/" className="hover:text-petrol transition-colors">資格別ガイド</a></li>
               <li><a href="/area/" className="hover:text-petrol transition-colors">エリア別ガイド</a></li>
+              <li><a href="/age/" className="hover:text-petrol transition-colors">年齢別ガイド</a></li>
+              <li><a href="/employment/" className="hover:text-petrol transition-colors">雇用形態別ガイド</a></li>
+              <li><a href="/purpose/" className="hover:text-petrol transition-colors">目的別ガイド</a></li>
               <li><a href="/faq/" className="hover:text-petrol transition-colors">よくある質問</a></li>
             </ul>
           </div>

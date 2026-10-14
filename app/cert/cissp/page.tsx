@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "CISSPは転職に効くか｜セキュリティ管理職の加点資格と年収【2026年】";
 const PAGE_DESC =
-  "ISC2のCISSP（Certified Information Systems Security Professional）を、セキュリティ経験者・管理職志望者の加点資格という観点から30代・40代向けに解説。受験料749 USD、5年の実務要件とEndorsement、Associate of ISC2、3年・120CPEの更新まで限界も含めて整理します。";
+  "ISC2のCISSP（Certified Information Systems Security Professional）を、セキュリティ経験者・管理職志望者の加点資格という観点から30代・40代向けに解説。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/cissp/" },
