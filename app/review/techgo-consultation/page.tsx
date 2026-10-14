@@ -398,7 +398,7 @@ export default function TechgoConsultation() {
         <section id="after" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">面談後の流れ（利用を続ける場合）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            面談後に転職活動を進める場合、公式の流れでは「求人紹介・応募先選定（応募手続き代行）→選考対策（模擬面接を何度も実施）→内定獲得・条件交渉→入社」と進みます。公式FAQによれば転職期間の目安は平均1〜3ヶ月程度です。公表実績（年収アップ平均138万円※2025年6〜7月の内定承諾者平均、年収交渉成功率100%※2025年9月時点）を含むサービス全体の評価は、
+            面談後に転職活動を進める場合、公式の流れでは「求人紹介・応募先選定（応募手続き代行）→選考対策（模擬面接を何度も実施）→内定獲得・条件交渉→入社」と進みます。公式FAQによれば転職期間の目安は平均1〜3ヶ月程度です。公表実績（年収アップ平均144万円※2026年3月の内定承諾者平均、年収アップ成功率86%※同期間の内定承諾者のうち年収アップした割合）を含むサービス全体の評価は、
             <Link href="/review/techgo/" className="text-petrol-deep underline hover:no-underline">
               テックゴーの評判・特徴の検証記事
             </Link>
