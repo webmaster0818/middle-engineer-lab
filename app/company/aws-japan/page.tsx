@@ -21,23 +21,23 @@ const basicData: [string, string][] = [
 ];
 
 const salaryRows: [string, string][] = [
-  ["L4（若手・SDE I 相当）", "総報酬 約1,300万円前後（$90K台）"],
-  ["L5（中堅・SDE II 相当）", "総報酬 約1,700万円前後（$116K前後）"],
-  ["L6（シニア・SDE III 相当）", "総報酬 約2,400万円前後（$167K前後）"],
+  ["L4（若手・SDE I 相当）", "総報酬 中央値 約1,448万円（$91K前後・10件）"],
+  ["L5（中堅・SDE II 相当）", "総報酬 中央値 約1,765万円（$111K前後・11件）"],
+  ["L6（シニア・SDE III 相当）", "総報酬 中央値 約2,602万円（$164K前後・5件）"],
   ["L7（Principal）", "上位レンジ（公開データ少・変動大）"],
 ];
 
 const sources = [
   "AWS 採用プロセスのサポート（公式）",
   "Amazon Our Leadership Principles（公式）",
-  "levels.fyi（2026年8月25日時点・日本拠点Amazon SDE集計。AWS部門を含むAmazon全体の値で、AWS単独の分計は公表されていません）",
+  "levels.fyi（2026年10月15日時点・日本拠点Amazon SDE集計。AWS部門を含むAmazon全体の値で、AWS単独の分計は公表されていません）",
   "OpenWork アマゾンジャパン／AWSジャパン（社員クチコミ集計）",
 ];
 
 const faqs = [
   {
     q: "AWSジャパンの年収はどのくらいですか？",
-    a: "AWSジャパンは有価証券報告書を公表しておらず公式の平均年収はありません。報酬集計サイトlevels.fyi（2026年8月25日時点・日本拠点Amazon SDE集計＝AWS部門を含む）では、総報酬の中央値 約1,583万円、L4 約1,270万円、L5 約1,944万円、L6 約2,302万円です。AWS単独の分計は公表されていません。RSU（株式報酬）は1年目5%・2年目15%・3〜4年目40%ずつのバックロード型のため、初年度は基本給＋サインオンボーナス中心になりやすい点に注意してください。",
+    a: "AWSジャパンは有価証券報告書を公表しておらず公式の平均年収はありません。報酬集計サイトlevels.fyi（2026年10月15日時点・日本拠点Amazon SDE集計＝AWS部門を含む）では、総報酬の中央値 約1,802万円、L4 約1,448万円、L5 約1,765万円、L6 約2,602万円です。AWS単独の分計は公表されていません。RSU（株式報酬）は1年目5%・2年目15%・3〜4年目40%ずつのバックロード型のため、初年度は基本給＋サインオンボーナス中心になりやすい点に注意してください。",
   },
   {
     q: "AWS認定資格は転職に有利ですか？",
@@ -75,13 +75,13 @@ export default function AwsJapanCompanyPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">AWSジャパンへの転職・年収・評判【2026年】クラウドエンジニア/SA</h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年8月 ｜ 年収・評判・選考（OLP）をクラウド職種の視点で解説</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年10月 ｜ 年収・評判・選考（OLP）をクラウド職種の視点で解説</p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】AWSジャパンの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年6月時点）ではL5（中堅・SDE II相当）で約$116K前後（約1,700万円）が目安です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬目安：L4 約1,300万円前後（$90K台）、L5 約1,700万円前後（$116K前後）、L6 約2,400万円前後（$167K前後）（levels.fyi・2026年6月時点、日本拠点SWE集計）。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型のため、初年度は基本給＋サインオンボーナス中心になりやすい点に注意。</li><li>・ユーザー投稿ベースの集計値で、為替・個人の交渉・RSUの株価により変動します。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年10月15日時点・日本拠点Amazon SDE集計）では総報酬の中央値 約1,802万円、L5（中堅・SDE II相当）で約1,765万円が目安です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬中央値：L4 約1,448万円、L5 約1,765万円、L6 約2,602万円（levels.fyi・2026年10月15日時点、日本拠点Amazon SDE集計・AWS部門を含む）。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型のため、初年度は基本給＋サインオンボーナス中心になりやすい点に注意。</li><li>・ユーザー投稿ベースの集計値で、為替・個人の交渉・RSUの株価により変動します。</li></ul>
           <p className="text-sm leading-7 text-slate-700 mt-3">有報を公表する国内IT企業の実額比較は<Link href="/salary/company-ranking/" className="text-petrol-deep underline font-medium">IT企業の平均年収ランキング（有報57社）</Link>をご覧ください（外資系は非公表のため本ランキングには含まれません）。</p>
         </div>
 
@@ -92,7 +92,7 @@ export default function AwsJapanCompanyPage() {
            EC・デバイス・広告などを含むアマゾン全体の総合的な解説は <Link href="/company/amazon/" className="text-petrol-deep underline font-medium">Amazon／AWS Japan 転職ガイド</Link> をご覧ください。本ページはAWS（クラウド事業）に特化しています。
         </div>
 
-        <DataNote surveyedAt="2026年6月" sources={sources} />
+        <DataNote surveyedAt="2026年10月" sources={sources} />
 
         <section className="mb-12 mt-6">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
@@ -124,7 +124,7 @@ export default function AwsJapanCompanyPage() {
 
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-3">年収データ（出典付き）</h2>
-          <p className="text-slate-600 text-sm mb-4">AWSジャパンは有報非公表のため、levels.fyi（2026年6月時点・日本拠点SWE集計）の総報酬レンジを掲載します。RSUはバックロード型（1年目5%／2年目15％／3〜4年目40%）です。</p>
+          <p className="text-slate-600 text-sm mb-4">AWSジャパンは有報非公表のため、levels.fyi（2026年10月15日時点・日本拠点Amazon SDE集計＝AWS部門を含む）の総報酬中央値を掲載します。RSUはバックロード型（1年目5%／2年目15％／3〜4年目40%）です。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -143,7 +143,7 @@ export default function AwsJapanCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：levels.fyi（2026年6月時点・ユーザー投稿集計）。為替・個人の交渉・RSUの株価で変動します。AWSジャパンは有価証券報告書を公表していません。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：levels.fyi（2026年10月15日時点・ユーザー投稿集計・1ドル=158.493円換算）。為替・個人の交渉・RSUの株価で変動します。AWSジャパンは有価証券報告書を公表していません。</p>
         </section>
 
         <section className="mb-12">

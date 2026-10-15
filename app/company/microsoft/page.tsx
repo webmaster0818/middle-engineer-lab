@@ -36,9 +36,11 @@ const basicData: [string, string][] = [
 ];
 
 const salaryRows: [string, string][] = [
-  ["SDE（若手〜中堅）", "総報酬 約1,300万円前後（$80K台〜）"],
-  ["Level 62 前後", "総報酬 約1,800万円前後（$119K前後）"],
-  ["Senior 以上", "より上位レンジ（公開レポート少・変動大）"],
+  ["Level 60〜61（SDE II・若手〜中堅）", "総報酬 中央値 Lv60 約1,648万円（3件）／Lv61 約1,271万円（3件）"],
+  ["Level 62", "総報酬 中央値 約1,890万円（2件）"],
+  ["Level 63（Senior SDE）", "総報酬 中央値 約2,046万円（7件）"],
+  ["Level 64", "総報酬 中央値 約2,618万円（3件）"],
+  ["Level 65 以上（Principal）", "より上位レンジ（公開レポート少・変動大）"],
 ];
 
 const faqs = [
@@ -52,7 +54,7 @@ const faqs = [
   },
   {
     q: "エンジニアの年収はどのくらい？",
-    a: "日本マイクロソフトは有価証券報告書を公表しておらず公式平均年収はありません。levels.fyi（2026年6月時点・日本拠点ソフトウェアエンジニア集計）では総報酬の中央値が約1,874万円、レンジは約1,266万円〜約2,607万円。RSU（株式報酬・複数年ベスティング）とボーナスを含む値で、変動が大きい点に注意してください。",
+    a: "日本マイクロソフトは有価証券報告書を公表しておらず公式平均年収はありません。levels.fyi（2026年10月15日時点・日本拠点ソフトウェアエンジニア集計）では総報酬の中央値が約1,882万円、レベル別中央値はLv61 約1,271万円〜Lv64 約2,618万円。RSU（株式報酬・複数年ベスティング）とボーナスを含む値で、変動が大きい点に注意してください。",
   },
   {
     q: "Growth Mindset とは何ですか？",
@@ -78,7 +80,7 @@ const faqs = [
 
 const sources = [
   "日本マイクロソフト キャリア採用情報（公式）",
-  "levels.fyi（2026年6月時点・ユーザー投稿集計）",
+  "levels.fyi（2026年10月15日時点・ユーザー投稿集計）",
   "OpenWork 日本マイクロソフト（社員クチコミ集計）",
 ];
 
@@ -117,14 +119,14 @@ export default function MicrosoftCompanyPage() {
           日本マイクロソフト エンジニア転職ガイド【2026年版】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ Growth Mindset・Azure・年収を公式情報＋集計値で読み解く
+          最終更新: 2026年10月 ｜ Growth Mindset・Azure・年収を公式情報＋集計値で読み解く
         </p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】日本マイクロソフトの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 日本マイクロソフトは有価証券報告書を公表しておらず公式平均年収は非公表です。報酬集計サイトlevels.fyi（2026年6月時点・日本拠点ソフトウェアエンジニア集計）では総報酬の中央値が約1,874万円と示されています。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・levels.fyi（2026年6月時点）の総報酬は中央値 約1,874万円、レンジは約1,266万円〜約2,607万円（ユーザー投稿集計）</li><li>・参考レベルではLevel 62前後で総報酬 約1,800万円前後とされる</li><li>・RSU（株式報酬・おおむね4〜5年ベスティング）とボーナスを含むため、株価・入社時期で実受取額が変動する点に注意</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 日本マイクロソフトは有価証券報告書を公表しておらず公式平均年収は非公表です。報酬集計サイトlevels.fyi（2026年10月15日時点・日本拠点ソフトウェアエンジニア集計）では総報酬の中央値が約1,882万円と示されています。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・levels.fyi（2026年10月15日時点）の総報酬は中央値 約1,882万円、レベル別中央値はLv61 約1,271万円〜Lv64 約2,618万円（ユーザー投稿集計・レベル別18件）</li><li>・参考レベルではLevel 62で総報酬 約1,890万円、Level 63（Senior SDE）で約2,046万円</li><li>・RSU（株式報酬・おおむね4〜5年ベスティング）とボーナスを含むため、株価・入社時期で実受取額が変動する点に注意</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -134,7 +136,7 @@ export default function MicrosoftCompanyPage() {
           30代・40代のミドルエンジニアが現実的に判断できるよう整理しました。年収は一次情報が存在しないため、出典・時点・変動の大きさを必ず添えています。
         </p>
 
-        <DataNote surveyedAt="2026年6月" sources={sources} />
+        <DataNote surveyedAt="2026年10月" sources={sources} />
 
         {/* 目次 */}
         <nav className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
@@ -244,7 +246,7 @@ export default function MicrosoftCompanyPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-700 mb-5">
             <li>
-              ・<strong>levels.fyi（2026年6月時点・日本拠点ソフトウェアエンジニア集計）</strong>：総報酬の中央値 約1,874万円、レンジは約1,266万円〜約2,607万円。基本給＋RSU＋ボーナス換算。
+              ・<strong>levels.fyi（2026年10月15日時点・日本拠点ソフトウェアエンジニア集計）</strong>：総報酬の中央値 約1,882万円、レベル別中央値はLv61 約1,271万円〜Lv64 約2,618万円。基本給＋RSU＋ボーナス換算。
             </li>
             <li>
               ・<strong>RSUの特徴</strong>：複数年（おおむね4〜5年）でベスティングされる株式報酬が含まれ、株価・付与額・入社時期で実受取額が変動します。
@@ -269,7 +271,7 @@ export default function MicrosoftCompanyPage() {
             </table>
           </div>
           <p className="text-xs text-slate-400 mt-2">
-            出典：levels.fyi（2026年6月時点・ユーザー投稿集計）。円換算は概算で為替・株価で変動します。等級の呼称・境界は目安です。
+            出典：levels.fyi（2026年10月15日時点・ユーザー投稿集計・1ドル=158.493円換算）。円換算は概算で為替・株価で変動します。等級の呼称・境界は目安です。
           </p>
           <p className="text-slate-600 text-sm mt-4">
             年収交渉の考え方は
