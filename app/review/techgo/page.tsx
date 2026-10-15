@@ -5,9 +5,9 @@ import TechgoCta from "@/components/TechgoCta";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "テックゴーの評判・口コミは？年収アップ実績と特徴を検証【2026年】";
+const TITLE = "テックゴーの評判・口コミは？評判記事10本を集計し公式実績と照合【2026年10月】";
 const DESCRIPTION =
-  "テックゴー（TechGo・株式会社MyVision運営）の評判・口コミを30代40代ミドルエンジニア目線で検証。「やばい」と検索される理由、公式公表の年収アップ平均144万円の注記条件、無料キャリア面談、向く人・向かない人、利用の流れを出典付きで解説します。";
+  "テックゴー（TechGo）の評判・口コミを、評判記事10本の集計で検証。面接対策・年収アップは10本すべてで高評価、未経験は対象外も10本すべてが指摘。記事で出回る「成功率100%」と公式の現行値86%の違い、30代40代の向き不向きまで出典付きで解説。";
 const URL = "/review/techgo/";
 const OFFICIAL_URL = "https://tech-go.jp/";
 
@@ -27,6 +27,7 @@ const toc = [
   { id: "compare", label: "IT特化エージェント比較（レバテック・Geekly）" },
   { id: "good", label: "良い評判の傾向" },
   { id: "bad", label: "気になる評判の傾向と対処法" },
+  { id: "tally", label: "評判記事10本の集計" },
   { id: "middle", label: "30代・40代エンジニアの活用視点" },
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "利用の流れ（公式5ステップ）" },
@@ -561,6 +562,63 @@ export default function TechgoReview() {
           </div>
         </section>
 
+
+        {/* 評判記事10本の集計 */}
+        <section id="tally" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評判記事10本では何が挙がっている？（2026年10月15日 集計）</h2>
+          <p className="text-sm text-slate-600 mb-4">
+            「テックゴー 評判」で上位に出る評判記事10本を当サイトが読み、良い評価・悪い評価が何本の記事で挙がっているかを数えました。口コミの出所は記事によって異なり、Googleマップ（BLITZキャリア・あなたの転職エージェント）、クラウドソーシングのアンケートと担当者取材（キャリアアップステージ）、自社アンケート（トレオンメディア）のほかは出所の記載がありません。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-slate-200">
+              <thead className="bg-slate-50">
+                <tr><th className="px-3 py-2 text-left border-b border-slate-200">評価</th><th className="px-3 py-2 text-left border-b border-slate-200">挙げた記事</th></tr>
+              </thead>
+              <tbody>
+                {[
+                  ["◎ 面接対策・模擬面接が手厚い", "10本／10本"],
+                  ["◎ 年収交渉・年収アップ", "10本／10本"],
+                  ["◎ 求人の質（メガベンチャー・大手・独占選考ルート）", "9本／10本"],
+                  ["◎ アドバイザーがIT業界に詳しい", "8本／10本"],
+                  ["◎ 1Day選考会がある", "7本／10本"],
+                  ["◎ 対応が早い・連絡手段が柔軟", "6本／10本"],
+                  ["△ 未経験は求人が限られる・対象外", "10本／10本"],
+                  ["△ 大手より求人数が少ない", "7本／10本"],
+                  ["△ 担当者による差・相性", "5本／10本"],
+                  ["△ 地方の求人が少ない", "4本／10本"],
+                  ["△ 連絡が多い・押しが強い", "4本／10本"],
+                  ["△ 連絡が遅い・放置された", "4本／10本"],
+                ].map(([k, v], i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50/50"}><td className="px-3 py-2 border-b border-slate-200">{k}</td><td className="px-3 py-2 border-b border-slate-200 whitespace-nowrap">{v}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4">
+            <p className="text-sm font-bold text-amber-900 mb-2">記事で出回っている数字と、公式の現行表記（2026年10月15日 tech-go.jp で確認）</p>
+            <ul className="text-sm text-amber-900 space-y-1 leading-relaxed">
+              <li>・<strong>年収アップ金額</strong>：公式は平均144万円（2026年3月に内定承諾し年収アップした人の平均）。記事では138万・145万・156万円など、時期や集計範囲の違う数字が混在しています（156万円は運営会社MyVision全体の数字と注記した記事あり）</li>
+              <li>・<strong>「年収交渉成功率100%」</strong>：4本の記事が記載していますが、公式トップの現行表記は<strong>「年収アップ成功率86%」</strong>（同期間の内定承諾者のうち年収アップした人の割合）で、100%の表記はありません</li>
+              <li>・<strong>「年収アップ率95%」</strong>：3本の記事が記載していますが、公式の表記には見当たりません</li>
+              <li>・<strong>求人数</strong>：公式は「ITエンジニア向け求人が10,000件以上」。記事では約5,800件・6,354件など別の数字もあります</li>
+            </ul>
+          </div>
+          <p className="text-xs text-slate-500 leading-relaxed">
+            集計した記事：
+            <a href="https://exidea.co.jp/blog/job/job-change/tech-go/" target="_blank" rel="nofollow noopener" className="underline">HonNe（EXIDEA）</a>・
+            <a href="https://blitzcareer.jp/tech-go-review/" target="_blank" rel="nofollow noopener" className="underline">BLITZキャリア</a>・
+            <a href="https://tenshoku.asiro.co.jp/engineer/181324/" target="_blank" rel="nofollow noopener" className="underline">キャリアアップステージ（アシロ）</a>・
+            <a href="https://tleon.co.jp/media/techgo-review/" target="_blank" rel="nofollow noopener" className="underline">トレオンメディア</a>・
+            <a href="https://cb-tokyo.co.jp/career/1559" target="_blank" rel="nofollow noopener" className="underline">キャリア・ブレーン</a>・
+            <a href="https://sakufuri.jp/media/tech-go/" target="_blank" rel="nofollow noopener" className="underline">サクフリ</a>・
+            <a href="https://your-tenshoku.com/article/tech-go/" target="_blank" rel="nofollow noopener" className="underline">あなたの転職エージェント</a>・
+            <a href="https://talentsquare.co.jp/career/techgo-reputation/" target="_blank" rel="nofollow noopener" className="underline">タレントスクエア</a>・
+            <a href="https://freedash.jp/tech-go/" target="_blank" rel="nofollow noopener" className="underline">フリーダッシュ</a>・
+            <a href="https://yield-marketing.co.jp/blog/tech-go/" target="_blank" rel="nofollow noopener" className="underline">イールドマーケティング</a>
+            （2026年10月15日閲覧）。多くは紹介報酬を受け取る形式の記事で、評価が好意的に偏っている可能性があります。分類は当サイトの判断で、サービス紹介の文だけで評価になっていない記述は数えていません。
+          </p>
+        </section>
+
         {/* ミドル視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">
@@ -677,7 +735,7 @@ export default function TechgoReview() {
         <section className="mb-10">
           <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
           <p className="text-xs text-slate-500 leading-relaxed mb-3">
-            テックゴーは2025年開始の新しいサービスで、独立系口コミプラットフォーム上の個別スコアは本文のとおり蓄積が限定的なため、本記事は個別スコアを引用していません。評判の傾向は、公式サイトの公表情報（サービス概要・FAQ・会社概要）と各転職メディアの紹介記事を参照し、傾向として要約したものです。一次情報の出典は以下のとおりです。最終確認日：2026年7月17日。
+            テックゴーは2025年開始の新しいサービスで、みん評などの独立系口コミサイトでの蓄積は限定的なため、本記事は個別スコアを引用していません。評判の傾向は、公式サイトの公表情報（サービス概要・FAQ・会社概要）と、上の「評判記事10本の集計」に挙げた各記事を参照して要約したものです。公式の実績値の最終確認日：2026年10月15日。
           </p>
           <ul className="text-sm space-y-2 text-slate-600 list-disc pl-5">
             <li>
