@@ -170,7 +170,7 @@ export default function NoAgeLimitPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 該当しやすい企業タイプと注意点（実情）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 該当しやすい企業タイプと注意点</h2>
           <div className="space-y-3 mb-4">
             {[
               { type: "人手不足の自社開発・受託企業", point: "経験者を年齢問わず求める傾向です。ミドルの即戦力が歓迎されやすいです。" },

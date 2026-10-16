@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const toc = [
   { id: "conclusion", label: "結論：熊本のIT転職市場の特徴" },
   { id: "market", label: "熊本のIT・産業集積と半導体の影響" },
-  { id: "reality", label: "求人の実情（市場の実情）" },
+  { id: "reality", label: "求人の実情" },
   { id: "workstyle", label: "働き方の選択肢（地元×リモート移住）" },
   { id: "iju", label: "UIターン移住支援・公的制度" },
   { id: "salary", label: "年収の考え方（年代別データ）" },
@@ -215,7 +215,7 @@ export default function KumamotoAreaPage() {
 
         {/* 求人の実情 */}
         <section id="reality" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の実情（市場の実情）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の実情</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             ご説明すると、熊本の地元IT求人は首都圏や福岡と比べて母数が限られます。「ソフトウェアエンジニアの求人が無数にある」という状況ではありません。これは熊本に限らず多くの地方都市に共通する現実です。だからこそ、求人の探し方を工夫することが転職成功の鍵になります。
           </p>

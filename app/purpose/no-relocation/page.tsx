@@ -176,7 +176,7 @@ export default function NoRelocationPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 年収とのトレードオフ（実情）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 年収とのトレードオフ</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
             勤務地限定を選ぶことには、知っておくべきトレードオフがあります。一部の企業では、地域限定職は全国転勤型の総合職に比べて昇給上限・賞与・各種手当でやや差がつく制度設計になっています。これは「転勤という会社都合への柔軟性を提供しない対価」という位置づけです。
           </p>

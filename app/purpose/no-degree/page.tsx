@@ -182,7 +182,7 @@ export default function NoDegreePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 30-40代が押さえる注意点（実情）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 30-40代が押さえる注意点</h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               <strong>「学歴不問＝年齢不問」ではありません。</strong>学歴の壁がなくても、30-40代の未経験者は20代と同じようには評価されません。企業側は『この年齢で採用して育成コストに見合うか』を慎重に見ます。だからこそ、独学やスクールでの学習実績、簡単でも動く成果物、前職経験との接続という『年齢を納得感に変える材料』を用意することが欠かせません。

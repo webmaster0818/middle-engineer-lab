@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "ウィルオブテックの評判・口コミ｜30代40代エンジニアの本音";
 const DESCRIPTION =
-  "ウィルオブテック（WILLOF TECH）の評判・口コミを30代40代エンジニア目線で検証します。専属2名体制のサポート、非公開求人約7割、年収アップ実績、未経験は不利という率直な点、退会方法までデータと出典付きで解説します。";
+  "ウィルオブテック（WILLOF TECH）の評判・口コミを30代40代エンジニア目線で検証します。専属2名体制のサポート、非公開求人約7割、年収アップ実績、未経験は不利という注意点、退会方法までデータと出典付きで解説します。";
 const URL = "/review/willof-tech/";
 
 export const metadata: Metadata = {

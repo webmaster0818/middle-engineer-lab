@@ -175,7 +175,7 @@ export default function RemoteAllowancePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 通勤手当とのトレードオフ（実情）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 通勤手当とのトレードオフ</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
             フルリモートを導入する企業では、<strong>通勤手当を廃止して在宅勤務手当に置き換える</strong>ケースがあります。出社しない以上は通勤費が発生しないという考え方で、合理的ではあるものの、在宅勤務手当の額が以前の通勤手当より小さければ実質的に手当の総額は減ることになります。
           </p>

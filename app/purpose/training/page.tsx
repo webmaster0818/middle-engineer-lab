@@ -139,7 +139,7 @@ export default function TrainingPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">2. 形骸化を見抜く視点（実情）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">2. 形骸化を見抜く視点</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
             実際には、<strong>「学習支援制度あり」を掲げる企業の中には、制度が名ばかりになっているところがあります。</strong>書籍購入補助があっても申請が面倒で誰も使わない、カンファレンス参加費が出ても業務が忙しくて行けない、業務時間内の学習制度があっても実際は業務に追われて取れない——こうした形骸化は珍しくありません。
           </p>

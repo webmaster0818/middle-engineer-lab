@@ -180,7 +180,7 @@ export default function NoEnglishPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 注意点とキャリアのトレードオフ（実情）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 注意点とキャリアのトレードオフ</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
             英語不要を最優先にすると、知っておくべきトレードオフがあります。英語ができるエンジニアは外資系IT・海外案件で年収プレミアムを得やすく、その選択肢は英語不要にこだわると狭まります。また、国内向けの業務系・公共系は安定している一方、最新技術の一次情報は英語で出ることが多く、読む英語を完全に避けると技術習得の効率が落ちる面があります。
           </p>

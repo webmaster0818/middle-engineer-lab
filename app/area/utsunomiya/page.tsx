@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const toc = [
   { id: "conclusion", label: "結論：宇都宮・栃木のIT転職市場の特徴" },
   { id: "market", label: "宇都宮・栃木のIT・製造業集積" },
-  { id: "reality", label: "求人の実情（市場の実情）" },
+  { id: "reality", label: "求人の実情" },
   { id: "workstyle", label: "働き方の選択肢（新幹線通勤×リモート）" },
   { id: "iju", label: "UIターン移住支援・公的制度" },
   { id: "salary", label: "年収の考え方（年代別データ）" },
@@ -214,7 +214,7 @@ export default function UtsunomiyaAreaPage() {
 
         {/* 求人の実情 */}
         <section id="reality" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の実情（市場の実情）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の実情</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             ご説明すると、宇都宮・栃木の地元IT求人は製造業×ITに偏りがあり、純粋なWeb/SaaS自社開発に絞ると母数は首都圏より限られます。一方で、新幹線通勤圏という立地のおかげで、他の地方都市より「都内の求人を現実的な選択肢に含めやすい」という強みがあります。この立地特性を活かすことが転職成功の鍵になります。
           </p>

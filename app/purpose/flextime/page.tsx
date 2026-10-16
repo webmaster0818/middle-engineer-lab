@@ -181,7 +181,7 @@ export default function FlextimePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. フルフレックスの注意点（実情）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. フルフレックスの注意点</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
               コアタイムのないフルフレックスは魅力的ですが、自由度が高いぶん落とし穴もあります。

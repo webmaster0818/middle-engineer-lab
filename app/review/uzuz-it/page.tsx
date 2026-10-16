@@ -207,7 +207,7 @@ export default function UzuzItReview() {
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：当サイト読者（30-40代）には率直に</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：当サイト読者（30-40代）への注意点</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：20代・未経験のIT就職には優秀です。ただし30-40代の経験者は対象外気味です</span>。要約すると「20代の第二新卒・既卒・未経験から、手厚いサポートでITエンジニアを目指す人」向けのサービスです。
             </p>

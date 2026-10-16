@@ -153,7 +153,7 @@ export default function ChildcareLeavePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">3. 制度と実態の差を見抜く（実情）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">3. 制度と実態の差を見抜く</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
             実際には、<strong>「育休制度あり」と「育休が取りやすい」はまったく別物</strong>です。育休は法定の制度であるため、ほぼすべての企業に制度自体は存在します。問題は、制度が実際に使われているか、取得後に不利益な扱いを受けないか、復帰後も働き続けられるかです。認定や数値が整っていても、配属される部署や上司次第で取得しやすさに差が出るのが現実です。
           </p>
