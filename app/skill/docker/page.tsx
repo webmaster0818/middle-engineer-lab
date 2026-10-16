@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Dockerスキルの転職での活かし方" },
-  { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
+  { id: "market", label: "2. 関連職種の市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Dockerスキルを活かせるキャリアパス" },
   { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
@@ -148,7 +148,7 @@ export default function DockerSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             「Dockerエンジニア」という職種で年収が単体公表されているわけではないため、ここではDockerスキルが評価される近接職種の公表値を、出典と時点を明示して掲載します。
           </p>
@@ -287,7 +287,7 @@ export default function DockerSkillPage() {
               <strong>ドメイン知識との組み合わせが強みになります。</strong>金融・物流・製造など、これまで携わってきた業務ドメインの知識を、コンテナ基盤というモダンな実装手段と結びつけて語れると、ミドル層ならではの説得力が出ます。
             </p>
             <p>
-              <strong>マネジメント経験も資産になります。</strong>プラットフォームチームのリードやSREのマネージャー求人では、技術力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それをコンテナ・クラウドの実務とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>プラットフォームチームのリードやSREのマネージャー求人では、技術力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それをコンテナ・クラウドの実務とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

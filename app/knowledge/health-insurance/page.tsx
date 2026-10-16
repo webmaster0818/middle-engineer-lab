@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "任意継続の保険料はどう決まりますか？",
-    a: "原則として退職時の標準報酬月額に基づいて計算されますが、上限が設けられています。協会けんぽの場合、令和8年度の任意継続被保険者の標準報酬月額の上限は32万円です(全国健康保険協会)。在職中は会社と折半していた保険料を全額自分で負担するため、自己負担額が増える点に注意してください。具体的な保険料は加入先に確認しましょう。",
+    a: "原則として退職時の標準報酬月額に基づいて計算されますが、上限が設けられています。協会けんぽの場合、令和8年度の任意継続被保険者の標準報酬月額の上限は32万円です(全国健康保険協会)。在職中は会社と折半していた保険料を全額自分で負担するため、自己負担額が増える点に注意してください。具体的な保険料は加入先にご確認ください。",
   },
   {
     q: "国民健康保険の保険料はどう決まりますか？",
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "退職後に手続きしないとどうなりますか？",
-    a: "日本では国民皆保険のため、何らかの公的医療保険に加入する必要があります。手続きをしないと無保険状態になり、医療費が全額自己負担になるリスクがあります。国保は加入の届出が原則必要で、遅れても加入日にさかのぼって保険料がかかることがあります。退職後は速やかに手続きしましょう。",
+    a: "日本では国民皆保険のため、何らかの公的医療保険に加入する必要があります。手続きをしないと無保険状態になり、医療費が全額自己負担になるリスクがあります。国保は加入の届出が原則必要で、遅れても加入日にさかのぼって保険料がかかることがあります。退職後は速やかに手続きしてください。",
   },
 ];
 
@@ -145,7 +145,7 @@ export default function HealthInsurancePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">退職後の健康保険の選び方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              退職後の主な選択肢は<strong>「任意継続」と「国民健康保険」</strong>です。どちらが安いかは人によって異なるため、両方の保険料を試算して比較するのが確実です。任意継続は<strong>退職翌日から20日以内の申請</strong>が必要であるため、退職前に見込み額を確認しておきましょう。
+              退職後の主な選択肢は<strong>「任意継続」と「国民健康保険」</strong>です。どちらが安いかは人によって異なるため、両方の保険料を試算して比較するのが確実です。任意継続は<strong>退職翌日から20日以内の申請</strong>が必要であるため、退職前に見込み額を確認しておくことをおすすめします。
             </p>
             <p className="text-slate-700 leading-relaxed">
               任意継続は<strong>最長2年間・原則全額自己負担</strong>ですが、標準報酬月額に上限があり（協会けんぽの令和8年度上限は32万円）、在職時の給与が高かった人は割安になることもあります。国保は前年所得で決まるため、前年の所得が高い人は国保が高くなりやすい傾向があります。最終的な金額は加入先・市区町村に確認してください。
@@ -206,7 +206,7 @@ export default function HealthInsurancePage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">減免制度の対象になる場合</h3>
-              <p className="text-sm text-slate-600">所得が大きく減った場合や非自発的失業の場合などに、保険料の軽減・減免を受けられることがあります。該当するかは市区町村に確認しましょう。</p>
+              <p className="text-sm text-slate-600">所得が大きく減った場合や非自発的失業の場合などに、保険料の軽減・減免を受けられることがあります。該当するかは市区町村にご確認ください。</p>
             </div>
           </div>
         </section>
@@ -240,7 +240,7 @@ export default function HealthInsurancePage() {
           <div className="space-y-4">
             <div className="bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 mb-2">任意継続は途中で「やっぱり国保」が難しい場合がある</h3>
-              <p className="text-sm text-amber-700 leading-relaxed">任意継続は2年間の継続を前提とした制度で、保険料を納付期日までに納めないと資格を失うなどのルールがあります。切り替え条件は加入先に確認しましょう。</p>
+              <p className="text-sm text-amber-700 leading-relaxed">任意継続は2年間の継続を前提とした制度で、保険料を納付期日までに納めないと資格を失うなどのルールがあります。切り替え条件は加入先にご確認ください。</p>
             </div>
             <div className="bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 mb-2">年金（国民年金）の切り替えも忘れずに</h3>
@@ -248,7 +248,7 @@ export default function HealthInsurancePage() {
             </div>
             <div className="bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 mb-2">扶養の収入要件は事前に確認する</h3>
-              <p className="text-sm text-amber-700 leading-relaxed">家族の被扶養者になる場合、収入要件があります。フリーランスとして収入が見込まれる場合は要件を満たさないことがあるため、加入先に確認しましょう。</p>
+              <p className="text-sm text-amber-700 leading-relaxed">家族の被扶養者になる場合、収入要件があります。フリーランスとして収入が見込まれる場合は要件を満たさないことがあるため、加入先にご確認ください。</p>
             </div>
           </div>
         </section>
@@ -271,9 +271,9 @@ export default function HealthInsurancePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">転職のブランクを最小限に抑えましょう</h2>
+          <h2 className="text-xl font-bold mb-3">転職のブランクを最小限に抑える</h2>
           <p className="text-blue-100 text-sm mb-4">
-            次の職場が早く決まれば、保険切り替えの負担も抑えられます。IT特化エージェントで効率よく探しましょう。
+            次の職場が早く決まれば、保険切り替えの負担も抑えられます。IT特化エージェントで効率よく探してください。
           </p>
           <Link
             href="/#ranking"

@@ -107,7 +107,7 @@ export default function Salary600Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収600万円は、多くのITエンジニアにとって「現実的に狙える最初の節目」です。本記事では、この600万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag、doda職種別データなど出典付きで整理します。要点として、3年以上の実務に設計・リーダー経験が少し加われば射程に入る年収帯です。
+          年収600万円は、多くのITエンジニアにとって「現実的に狙える最初の節目」です。本記事では、この600万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag、doda職種別データなど出典を明記して整理します。要点として、3年以上の実務に設計・リーダー経験が少し加われば射程に入る年収帯です。
         </p>
 
         <DataNote
@@ -321,7 +321,7 @@ export default function Salary600Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">600万円が射程か、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化エージェントに登録して、いまのスキルで600万円求人に届くかを客観的に確認しましょう。
+            IT特化エージェントに登録して、いまのスキルで600万円求人に届くかを客観的にご確認ください。
           </p>
           <Link
             href="/#ranking"

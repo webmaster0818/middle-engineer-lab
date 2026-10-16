@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Laravelエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. Laravelの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. Laravelの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Laravelエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
@@ -145,7 +145,7 @@ export default function LaravelSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Laravelの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Laravelの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             言語・フレームワーク別の年収は媒体によって定義が異なります。ここでは出典と時点を明示できる公表データのみを使用します。
           </p>
@@ -186,7 +186,7 @@ export default function LaravelSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "PHPまたは他言語でのWeb開発1〜2年／HTML・CSS・SQL基礎／LaravelはGitHub等での自習レベル", note: "Laravel未経験OK求人がここに該当" },
+              { tier: "入口（ポテンシャル）", req: "PHPまたは他言語でのWeb開発1〜2年／HTML・CSS・SQL基礎／LaravelはGitHub等での自習レベル", note: "Laravel未経験可の求人がここに該当" },
               { tier: "即戦力（ミドル）", req: "LaravelでのWebアプリ・API開発実務／Eloquent・MVC・認証／DB設計／テスト実装", note: "求人の中心ゾーン" },
               { tier: "ハイクラス", req: "Laravel基盤の設計・テックリード／パフォーマンス・セキュリティ／インフラ／技術選定", note: "年収700万円以上が狙える層" },
             ].map((item, i) => (
@@ -287,10 +287,10 @@ export default function LaravelSkillPage() {
               <strong>求人母数の多さは年齢のハードルを下げます。</strong>Laravelは求人が多いぶん、年齢や経歴の条件が幅広い案件が存在します。30代・40代でPHP/Web開発の実務を積んでいるなら、即戦力として受け入れられる求人を見つけやすいのが強みです。
             </p>
             <p>
-              <strong>掛け算で年収を伸ばします。</strong>Laravel単体では年収の上限が見えやすいため、「Laravel＋フロント（React/Vue）」「Laravel＋インフラ・設計」「Laravel＋過去のドメイン知識（EC・業務系など）」の掛け合わせがミドル層の強みになります。年齢を重ねた分の業務知識を実装力と結びつけて語りましょう。
+              <strong>掛け算で年収を伸ばします。</strong>Laravel単体では年収の上限が見えやすいため、「Laravel＋フロント（React/Vue）」「Laravel＋インフラ・設計」「Laravel＋過去のドメイン知識（EC・業務系など）」の掛け合わせがミドル層の強みになります。年齢を重ねた分の業務知識を実装力と結びつけて語ってください。
             </p>
             <p>
-              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのLaravel求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのLaravel求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

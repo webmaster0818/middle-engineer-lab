@@ -22,7 +22,7 @@ const basicData: [string, string][] = [
 
 const toc = [
   ["conclusion", "難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["basic", "基本データ（出典明記）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -136,7 +136,7 @@ export default function RakutenCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -249,7 +249,7 @@ export default function RakutenCompanyPage() {
               楽天グループは平均年齢35.3歳（2024年12月期・全社員平均）で、70以上のサービスを抱える大規模組織です。30代・40代のミドルエンジニアにとっては、<strong>特定ドメイン（EC・金融・通信など）の深い経験やマネジメント経験を活かしやすい</strong>という特徴があります。一方、社内公用語が英語であるため、英語環境への適応は事前に意識しておきたいポイントです。
             </p>
             <p>
-              年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。楽天グループの全社員平均（820万円）はこれを上回りますが、これはグレード上位層を含む全社平均であり、入社時の提示はポジション・グレード次第です。30代・40代は個別求人で具体的なレンジを確認しましょう。
+              年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。楽天グループの全社員平均（820万円）はこれを上回りますが、これはグレード上位層を含む全社平均であり、入社時の提示はポジション・グレード次第です。30代・40代は個別求人で具体的なレンジをご確認ください。
             </p>
             <p>
               働き方は部署により差があるという口コミ傾向があるため、面談時にチームの開発スタイル・残業傾向・英語の使用頻度を確認しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて確認してください。

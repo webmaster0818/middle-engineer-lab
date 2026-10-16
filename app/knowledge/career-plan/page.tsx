@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     q: "スペシャリストとマネジメント、どちらが年収が高いですか？",
-    a: "一概には言えません。一般にマネジメント職は年収が上がりやすい傾向がありますが、技術力が突出したスペシャリストも上級職で高年収を得られます。メガベンチャーや外資系ITではIC（Individual Contributor）の上位職が用意されており、マネジメントと遜色ない処遇のケースもあります。実際の年収レンジはエージェントで確認しましょう。",
+    a: "一概には言えません。一般にマネジメント職は年収が上がりやすい傾向がありますが、技術力が突出したスペシャリストも上級職で高年収を得られます。メガベンチャーや外資系ITではIC（Individual Contributor）の上位職が用意されており、マネジメントと遜色ない処遇のケースもあります。実際の年収レンジはエージェントでご確認ください。",
   },
   {
     q: "キャリアプランは面接でどう答えればいいですか？",
-    a: "『3年後にテックリード、5年後にEM』のように具体的なマイルストーンを示しましょう。その上で『御社の○○の環境でそれが実現できる』と志望動機につなげると説得力が増します。抽象的な回答は避けてください。",
+    a: "『3年後にテックリード、5年後にEM』のように具体的なマイルストーンを示してください。その上で『御社の○○の環境でそれが実現できる』と志望動機につなげると説得力が増します。抽象的な回答は避けてください。",
   },
   {
     q: "技術の変化が速くて長期計画が立てられません",
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "フリーランスへの転向はキャリアプランとして有効ですか？",
-    a: "経験10年以上で得意分野が明確なエンジニアにとっては有効な選択肢です。ただし安定性やキャリアの継続性も考慮し、十分な準備期間（半年〜1年）を設けることをおすすめします。単価や実態は、正社員との違いも含めて検討しましょう。詳しくはフリーランスvs正社員の比較記事を参照してください。",
+    a: "経験10年以上で得意分野が明確なエンジニアにとっては有効な選択肢です。ただし安定性やキャリアの継続性も考慮し、十分な準備期間（半年〜1年）を設けることをおすすめします。単価や実態は、正社員との違いも含めて検討することをおすすめします。詳しくはフリーランスvs正社員の比較記事を参照してください。",
   },
   {
     q: "マネジメントに興味が持てない場合、キャリアは頭打ちですか？",
@@ -239,11 +239,11 @@ export default function CareerPlanPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">基盤スキルに投資する</h3>
-              <p className="text-sm text-petrol-deep">設計力・問題解決力・チーム開発力は陳腐化しません。流行の技術と並行して、不変の力にも時間を割きましょう。関連: <Link href="/knowledge/continuous-learning/" className="text-petrol-deep underline">継続的な学習</Link>。</p>
+              <p className="text-sm text-petrol-deep">設計力・問題解決力・チーム開発力は陳腐化しません。流行の技術と並行して、不変の力にも時間を割いてください。関連: <Link href="/knowledge/continuous-learning/" className="text-petrol-deep underline">継続的な学習</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年1回は見直す</h3>
-              <p className="text-sm text-petrol-deep">市場も自分も変わります。年1回プランを点検し、ズレていたら軌道修正します。固定ではなく『更新前提』で運用しましょう。</p>
+              <p className="text-sm text-petrol-deep">市場も自分も変わります。年1回プランを点検し、ズレていたら軌道修正します。固定ではなく『更新前提』で運用してください。</p>
             </div>
           </div>
         </section>
@@ -278,7 +278,7 @@ export default function CareerPlanPage() {
             {[
               { t: "周囲に流されて方向を決めないこと", d: "『年上だからマネジメント』『同期が独立したから自分も』と周囲に合わせると後悔しがちです。自分の手応えと価値観を軸にします。" },
               { t: "一度の選択を不可逆だと思い込まないこと", d: "マネジメントからICへ戻る人も、ICからマネジメントへ進む人もいます。1回の選択で人生が固定されるわけではありません。" },
-              { t: "年収だけで決めないこと", d: "目先の年収だけで選ぶと、やりがいや継続性を失うことがあります。価値観の優先順位とセットで判断しましょう。" },
+              { t: "年収だけで決めないこと", d: "目先の年収だけで選ぶと、やりがいや継続性を失うことがあります。価値観の優先順位とセットで判断することをおすすめします。" },
             ].map((n, i) => (
               <div key={i} className="bg-amber-50 border border-amber-200 rounded-lg p-5">
                 <h3 className="font-bold text-amber-800 mb-1">{n.t}</h3>
@@ -298,7 +298,7 @@ export default function CareerPlanPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：強みを軸に『深さ』か『広さ』を選ぶ</h3>
-              <p className="text-sm text-petrol-deep">40代は積み上げた強みを軸に、専門を極める（深さ）か、組織・事業へ広げる（広さ）かを選ぶ局面です。再現性のある実績を前提に、譲れない価値観に沿った道を選びましょう。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアル</Link>。</p>
+              <p className="text-sm text-petrol-deep">40代は積み上げた強みを軸に、専門を極める（深さ）か、組織・事業へ広げる（広さ）かを選ぶ局面です。再現性のある実績を前提に、譲れない価値観に沿った道を選んでください。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアル</Link>。</p>
             </div>
           </div>
         </section>
@@ -321,7 +321,7 @@ export default function CareerPlanPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">キャリアの方向性をエージェントに相談しましょう</h2>
+          <h2 className="text-xl font-bold mb-3">キャリアの方向性をエージェントに相談する</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、業界動向や年収相場を踏まえて中長期のキャリアプランを一緒に整理してくれます。今すぐの転職を前提としない相談も可能です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

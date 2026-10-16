@@ -256,7 +256,7 @@ export default function GcpAceCertPage() {
             活用戦略は3つに整理できます。第一に<strong>GCP案件への足がかり</strong>です。GCPを扱える前提スキルを示し、書類選考の通過率を上げられます。第二に<strong>マルチクラウド対応の幅</strong>です。AWS・Azure経験に加えることで、対応できるクラウドの幅を示せます。第三に<strong>上位資格への布石</strong>です。ACEで土台を作ってからPCAへ進めば、運用から設計まで一貫したキャリアストーリーになります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。ACEは<strong>アソシエイトという位置づけのため、これ単体で上流設計まで保証する資格ではありません</strong>。効果が出るのは、GCP実務と資格がそろったときです。また有効期限が3年あり、取りっぱなしでは失効します。逆に言えば、GCPに対応範囲を広げたい30〜40代の起点としては、費用対効果の高い資格です。上流まで示したいなら<Link href="/cert/gcp-pca/" className="text-petrol hover:underline">Professional Cloud Architect</Link>へ進みましょう。
+            注意すべきデメリットも押さえておくことをおすすめします。ACEは<strong>アソシエイトという位置づけのため、これ単体で上流設計まで保証する資格ではありません</strong>。効果が出るのは、GCP実務と資格がそろったときです。また有効期限が3年あり、取りっぱなしでは失効します。逆に言えば、GCPに対応範囲を広げたい30〜40代の起点としては、費用対効果の高い資格です。上流まで示したいなら<Link href="/cert/gcp-pca/" className="text-petrol hover:underline">Professional Cloud Architect</Link>へ進んでください。
           </p>
         </section>
 
@@ -319,7 +319,7 @@ export default function GcpAceCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">クラウド・GCP案件への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ACEを活かせるGCP運用・基盤求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            ACEを活かせるGCP運用・基盤求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

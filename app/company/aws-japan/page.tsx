@@ -86,7 +86,7 @@ export default function AwsJapanCompanyPage() {
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-4">
-          アマゾン ウェブ サービス ジャパン合同会社（AWSジャパン）は、世界最大級のクラウド「AWS」の法人向け提供・技術支援・開発を担う組織です。本ページは<strong>AWS（クラウド）職種</strong>に焦点を当て、年収（levels.fyi集計）・評判（OpenWork）・選考（OLP／Bar Raiser）・職種（SDE／ソリューションアーキテクト／TAM）を出典付きで整理します。年収は一次情報が存在しないため、出典・時点・変動の大きさを必ず添えています。
+          アマゾン ウェブ サービス ジャパン合同会社（AWSジャパン）は、世界最大級のクラウド「AWS」の法人向け提供・技術支援・開発を担う組織です。本ページは<strong>AWS（クラウド）職種</strong>に焦点を当て、年収（levels.fyi集計）・評判（OpenWork）・選考（OLP／Bar Raiser）・職種（SDE／ソリューションアーキテクト／TAM）を出典を明記して整理します。年収は一次情報が存在しないため、出典・時点・変動の大きさを必ず添えています。
         </p>
         <div className="rounded-lg bg-amber-50 border border-amber-200 p-3 text-sm text-slate-700 mb-6">
            EC・デバイス・広告などを含むアマゾン全体の総合的な解説は <Link href="/company/amazon/" className="text-petrol-deep underline font-medium">Amazon／AWS Japan 転職ガイド</Link> をご覧ください。本ページはAWS（クラウド事業）に特化しています。
@@ -123,7 +123,7 @@ export default function AwsJapanCompanyPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-slate-800 mb-3">年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-3">年収データ（出典明記）</h2>
           <p className="text-slate-600 text-sm mb-4">AWSジャパンは有価証券報告書非公表のため、levels.fyi（2026年10月15日時点・日本拠点Amazon SDE集計＝AWS部門を含む）の総報酬中央値を掲載します。RSUはバックロード型（1年目5%／2年目15％／3〜4年目40%）です。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
@@ -187,8 +187,8 @@ export default function AwsJapanCompanyPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-3">AWSジャパンの求人・想定年収を確認しよう</h2>
-          <p className="text-blue-100 text-sm mb-4">AWS求人は非公開のことも多く、想定年収はエージェント経由で把握するのが確実です。IT特化エージェントに相談して、自分の経験で狙えるレベル・年収を確認しましょう。</p>
+          <h2 className="text-xl font-bold mb-3">AWSジャパンの求人・想定年収を確認する</h2>
+          <p className="text-blue-100 text-sm mb-4">AWS求人は非公開のことも多く、想定年収はエージェント経由で把握するのが確実です。IT特化エージェントに相談して、自分の経験で狙えるレベル・年収をご確認ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
       </article>

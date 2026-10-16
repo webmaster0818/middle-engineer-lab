@@ -220,7 +220,7 @@ export default function AreaIndexPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
           <h2 className="text-xl font-bold mb-3">希望エリアの求人を探す</h2>
           <p className="text-blue-100 text-sm mb-4">
-            エリアに強いIT転職エージェントに相談して、ご自身の希望勤務地の求人を紹介してもらいましょう。
+            エリアに強いIT転職エージェントに相談して、ご自身の希望勤務地の求人を紹介してもらってください。
           </p>
           <Link
             href="/#ranking"

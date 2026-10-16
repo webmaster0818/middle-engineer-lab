@@ -337,7 +337,7 @@ export default function GenerativeAiSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">生成AIスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            生成AI・LLM案件を扱うIT特化型エージェントで、ご自身のスキルの市場価値を確認しましょう。
+            生成AI・LLM案件を扱うIT特化型エージェントで、ご自身のスキルの市場価値をご確認ください。
           </p>
           <Link
             href="/#ranking"

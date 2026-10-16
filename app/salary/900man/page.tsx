@@ -108,7 +108,7 @@ export default function Salary900Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収900万円は、ITエンジニアにとって「指導者・統括層」の年収帯です。本記事では、この900万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典付きで整理します。要点として、ITSS L5（指導者層）に相当し、PM・ITコンサル・エンジニアリングマネージャー・希少スペシャリストに集中する年収帯です。
+          年収900万円は、ITエンジニアにとって「指導者・統括層」の年収帯です。本記事では、この900万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典を明記して整理します。要点として、ITSS L5（指導者層）に相当し、PM・ITコンサル・エンジニアリングマネージャー・希少スペシャリストに集中する年収帯です。
         </p>
 
         <DataNote
@@ -331,7 +331,7 @@ export default function Salary900Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">900万円帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハイクラス・IT特化エージェントに登録して、ご自身の軸が活きる900万円求人を確認しましょう。
+            ハイクラス・IT特化エージェントに登録して、ご自身の軸が活きる900万円求人をご確認ください。
           </p>
           <Link
             href="/#ranking"

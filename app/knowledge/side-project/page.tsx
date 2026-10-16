@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "現職の就業規則はどこを確認すればいい？",
-    a: "「副業・兼業の可否」「許可制か届出制か」「競業避止義務」「秘密保持」の4点を確認します。社内ポータルの就業規則や、人事に問い合わせて確認しましょう。許可制の場合は、無断で始めず所定の手続きを取ることが重要です。",
+    a: "「副業・兼業の可否」「許可制か届出制か」「競業避止義務」「秘密保持」の4点を確認します。社内ポータルの就業規則や、人事に問い合わせてご確認ください。許可制の場合は、無断で始めず所定の手続きを取ることが重要です。",
   },
   {
     q: "副業で得た経験は職務経歴書に書ける？",
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "副業と転職活動の時間管理のコツは？",
-    a: "面接は日程が固定されるため最優先で押さえ、副業は自分のペースで調整できるものを選ぶのが基本です。平日夜と週末で「本業・副業・転職活動」のブロックを分け、無理のない範囲で回しましょう。体調を崩すとすべてが止まるため、休む時間も計画に入れることが重要です。",
+    a: "面接は日程が固定されるため最優先で押さえ、副業は自分のペースで調整できるものを選ぶのが基本です。平日夜と週末で「本業・副業・転職活動」のブロックを分け、無理のない範囲で回してください。体調を崩すとすべてが止まるため、休む時間も計画に入れることが重要です。",
   },
   {
     q: "副業がきっかけで転職先が見つかることはある？",
@@ -133,7 +133,7 @@ export default function SideProjectPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">①就業規則を確認 → ②実績を職務経歴書・面接で具体化 → ③面接を最優先に時間配分</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-2">
-              副業は転職活動での強みになります。ただし進め方には順序があります。<strong>まず現職の就業規則で副業の可否・競業避止・秘密保持を確認</strong>し、問題なければ<strong>副業の成果を本業と同じ粒度で具体的にアピール</strong>します。両立中は<strong>日程が固定される面接を最優先</strong>に時間を配分しましょう。
+              副業は転職活動での強みになります。ただし進め方には順序があります。<strong>まず現職の就業規則で副業の可否・競業避止・秘密保持を確認</strong>し、問題なければ<strong>副業の成果を本業と同じ粒度で具体的にアピール</strong>します。両立中は<strong>日程が固定される面接を最優先</strong>に時間を配分してください。
             </p>
             <p className="text-sm text-blue-900 leading-relaxed">
               副業収入の金額は案件内容や稼働量で大きく異なるため、本記事では具体的な金額の断定は避け、進め方と注意点に絞って解説します。
@@ -159,7 +159,7 @@ export default function SideProjectPage() {
         <section id="rule" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">まず確認：現職の就業規則と注意点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            副業を始める前に必ず確認したいのが現職の就業規則です。トラブルを避けるため、以下の4点を確認しましょう。
+            副業を始める前に必ず確認したいのが現職の就業規則です。トラブルを避けるため、以下の4点をご確認ください。
           </p>
           <div className="space-y-4 mb-6">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -239,7 +239,7 @@ export default function SideProjectPage() {
         <section id="appeal" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">副業実績のアピール方法（記入見本）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            副業実績は「書き方」で印象が大きく変わります。漠然とした記述ではなく、課題・役割・行動・成果を本業と同じ粒度で具体化しましょう。守秘義務に触れる固有名詞・数値は一般化して書きます。
+            副業実績は「書き方」で印象が大きく変わります。漠然とした記述ではなく、課題・役割・行動・成果を本業と同じ粒度で具体化してください。守秘義務に触れる固有名詞・数値は一般化して書きます。
           </p>
           <div className="space-y-4 mb-6">
             {beforeAfter.map((ex, i) => (
@@ -260,7 +260,7 @@ export default function SideProjectPage() {
               <li><strong>A（行動）</strong>：技術選定・設計・実装など具体的にとった行動</li>
               <li><strong>R（結果）</strong>：リリース・改善・継続利用など得られた成果</li>
             </ul>
-            <p className="text-xs text-slate-500 mt-3">※ 守秘義務のある内容は「業務管理SaaS」など一般化した表現に置き換えて語りましょう。</p>
+            <p className="text-xs text-slate-500 mt-3">※ 守秘義務のある内容は「業務管理SaaS」など一般化した表現に置き換えて語ってください。</p>
           </div>
         </section>
 
@@ -268,7 +268,7 @@ export default function SideProjectPage() {
         <section id="schedule" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">両立のための時間管理</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            本業・副業・転職活動を同時に回すには、優先順位の固定と時間ブロックの分割が重要です。以下は一例で、自分の生活リズムに合わせて調整しましょう。
+            本業・副業・転職活動を同時に回すには、優先順位の固定と時間ブロックの分割が重要です。以下は一例で、自分の生活リズムに合わせて調整してください。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-4">
             <div className="space-y-3 text-sm">
@@ -279,7 +279,7 @@ export default function SideProjectPage() {
                 </div>
               ))}
             </div>
-            <p className="text-xs text-slate-500 mt-4">※ 面接日程が入ったら副業を調整し、面接を最優先にしましょう。</p>
+            <p className="text-xs text-slate-500 mt-4">※ 面接日程が入ったら副業を調整し、面接を最優先にしてください。</p>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
             <h3 className="font-bold text-amber-900 mb-2">時間管理で崩れやすいポイント</h3>
@@ -298,7 +298,7 @@ export default function SideProjectPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">面接・内定後に条件を確認する</h3>
-              <p className="text-sm text-petrol-deep">入社後も副業を続けたい場合は、面接や内定承諾前に「副業の可否」「許可制か」「競業の範囲」を確認し、可能なら書面で残しておきましょう。条件比較は<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">オファー比較ガイド</Link>もご参照ください。</p>
+              <p className="text-sm text-petrol-deep">入社後も副業を続けたい場合は、面接や内定承諾前に「副業の可否」「許可制か」「競業の範囲」を確認し、可能なら書面で残しておくことをおすすめします。条件比較は<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">オファー比較ガイド</Link>もご参照ください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">転職先には率直に伝える</h3>
@@ -344,7 +344,7 @@ export default function SideProjectPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">副業の実績を活かして転職しよう</h2>
+          <h2 className="text-xl font-bold mb-3">副業の実績を活かして転職する</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントに登録すれば、副業経験を評価してくれる企業を紹介してもらえます。
           </p>

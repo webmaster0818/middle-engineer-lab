@@ -301,7 +301,7 @@ export default function KnowledgeIndexPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">転職活動を始める準備はできましたか？</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントに登録して、アドバイザーのサポートを受けながら転職活動を進めましょう。すべて無料です。
+            IT特化型エージェントに登録して、アドバイザーのサポートを受けながら転職活動を進めてください。すべて無料です。
           </p>
           <Link
             href="/#ranking"

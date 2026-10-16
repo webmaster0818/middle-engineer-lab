@@ -149,7 +149,7 @@ export default function SierAgentsPage() {
         <section id="middle" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。SIerで経験を積んだ30代・40代は、入口（SIerへ）でも出口（脱出）でも価値を発揮できる立場です。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>客先常駐・SESから自社開発へ脱出するなら、選択肢が広い30代のうちに動くのが現実的です。技術力の言語化とポートフォリオの整備を進め、IT特化や自社内開発特化のエージェントで脱出ルートを固めましょう。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安で、働き方の改善と年収のバランスをどう取るかが判断材料になります。<Link href="/industry/ses-exit/" className="text-petrol hover:underline">SES脱出の進め方</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>客先常駐・SESから自社開発へ脱出するなら、選択肢が広い30代のうちに動くのが現実的です。技術力の言語化とポートフォリオの整備を進め、IT特化や自社内開発特化のエージェントで脱出ルートを固めてください。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安で、働き方の改善と年収のバランスをどう取るかが判断材料になります。<Link href="/industry/ses-exit/" className="text-petrol hover:underline">SES脱出の進め方</Link>もあわせてご覧ください。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>大規模案件のマネジメントや業界ドメインの知見は、上場・大手SIerへの転職で強く評価されます。レバテック公表（2025年）では40代の年収1,000万円以上の割合は12.67%とされ、上流・マネジメント級で上限を狙える層です。SIerへ入るならハイクラス特化で交渉を任せ、脱出するならこれまでの経験を強みにIT特化で職種転換を狙う——どちらの意図でも、まず自分の方向を確定することが先決です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
           <p className="text-slate-600 leading-relaxed text-sm">いずれの年代でも、本記事はエージェント選びが主題です。職種転換そのものの設計は、リンク先の業界・キャリア記事で具体的に確認してください。</p>
         </section>
@@ -168,7 +168,7 @@ export default function SierAgentsPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">SIerは「入口」か「出口」かで選ぶ</h2>
-          <p className="text-blue-100 text-sm mb-4">SIerへ転職するなら総合大手＋ハイクラス、脱出するならIT特化＋自社内開発特化です。まず自分の意図を確定し、合うエージェントを選びましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">SIerへ転職するなら総合大手＋ハイクラス、脱出するならIT特化＋自社内開発特化です。まず自分の意図を確定し、合うエージェントを選んでください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

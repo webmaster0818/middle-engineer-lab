@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Power BIスキルの転職市場での進め方" },
-  { id: "market", label: "2. 年収・市場データ（出典付き）" },
+  { id: "market", label: "2. 年収・市場データ（出典明記）" },
   { id: "use", label: "3. Power BIの用途と求人傾向" },
   { id: "level", label: "4. 求められる経験レベルと求人要件" },
   { id: "career", label: "5. キャリアパスと関連技術" },
@@ -142,7 +142,7 @@ export default function PowerBISkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収・市場データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収・市場データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Power BI単体の平均年収を集計した公表値は乏しいため、ここでは関連する職種の公表年収で代替します。いずれも出典と時点を明示できる公開データのみを使用します。
           </p>
@@ -201,7 +201,7 @@ export default function PowerBISkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "Excel・SQLでの分析・レポーティング実務／Power BIは自習レベル／基本的なダッシュボード作成", note: "未経験OK求人がここに該当" },
+              { tier: "入口（ポテンシャル）", req: "Excel・SQLでの分析・レポーティング実務／Power BIは自習レベル／基本的なダッシュボード作成", note: "未経験可の求人がここに該当" },
               { tier: "即戦力（ミドル）", req: "Power BIでのダッシュボード構築／Power Query・DAXによるデータモデリング／SQLでのデータ抽出", note: "求人の中心ゾーン" },
               { tier: "ハイクラス", req: "BI基盤の設計・運用／データソース・Microsoft Fabricの整備／組織のデータ活用推進・教育", note: "年収800万円前後を狙える層" },
             ].map((item, i) => (
@@ -305,7 +305,7 @@ export default function PowerBISkillPage() {
               <strong>掛け算で差別化します。</strong>「Power BI＋SQL／DAX」「Power BI＋過去のドメイン知識（製造・小売・金融など）」の掛け合わせがミドル層の強みです。可視化を業務知識と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>データ活用推進の経験も資産になります。</strong>Excel運用からの脱却を主導し、組織のデータドリブンな文化づくりを後押しした経験は、ハイクラス求人で評価されます。教育や推進の実績があれば、技術力とセットで提示しましょう。
+              <strong>データ活用推進の経験も資産になります。</strong>Excel運用からの脱却を主導し、組織のデータドリブンな文化づくりを後押しした経験は、ハイクラス求人で評価されます。教育や推進の実績があれば、技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -324,7 +324,7 @@ export default function PowerBISkillPage() {
               <strong>② SQLとデータモデリングを学びます。</strong>Power BIの裏にはデータソースがあります。SQLでデータを抽出し、スタースキーマなどのデータモデリングを理解すると、可視化の質と担当範囲が広がります。
             </p>
             <p>
-              <strong>③ Microsoftエコシステムと分析設計を磨きます。</strong>Azure・Microsoft Fabricとの連携や、「誰が見て何を判断するためのダッシュボードか」を起点にした分析設計は、ツールが変わっても通用します。データ統合と意思決定への翻訳力を意識しましょう。
+              <strong>③ Microsoftエコシステムと分析設計を磨きます。</strong>Azure・Microsoft Fabricとの連携や、「誰が見て何を判断するためのダッシュボードか」を起点にした分析設計は、ツールが変わっても通用します。データ統合と意思決定への翻訳力を意識してください。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。

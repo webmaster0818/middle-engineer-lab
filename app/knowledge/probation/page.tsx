@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: "試用期間中の退職は次の転職で不利になりますか？",
-    a: "1回であれば、合理的な理由を一貫して説明できれば大きなマイナスにはなりにくいとされます。『入社前に聞いていた業務内容や技術スタックが実態と大きく異なった』など、誰が聞いても納得できる経緯であれば理解は得られやすい傾向があります。むしろ問題視されやすいのは、説明が曖昧だったり、短期離職を繰り返していたりするケースです。次の会社では長く貢献したい意思を具体的に示しましょう。",
+    a: "1回であれば、合理的な理由を一貫して説明できれば大きなマイナスにはなりにくいとされます。『入社前に聞いていた業務内容や技術スタックが実態と大きく異なった』など、誰が聞いても納得できる経緯であれば理解は得られやすい傾向があります。むしろ問題視されやすいのは、説明が曖昧だったり、短期離職を繰り返していたりするケースです。次の会社では長く貢献したい意思を具体的に示してください。",
   },
   {
     q: "試用期間中の退職理由はどう説明すればよいですか？",
@@ -183,10 +183,10 @@ export default function ProbationPage() {
               <p className="text-sm text-slate-600"><strong className="text-slate-800">誤解：試用期間中は自由に解雇できる →</strong> 一般には、試用期間中でも解雇には合理的な理由と相当性が必要と解されています。「試用期間だから」を理由にした安易な解雇が常に有効とは限りません。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-4">
-              <p className="text-sm text-slate-600"><strong className="text-slate-800">誤解：試用期間中は退職できない →</strong> 期間の定めのない雇用なら、通常の退職と同様に申し出が可能と解されています。ただし就業規則の手続きは確認しましょう。</p>
+              <p className="text-sm text-slate-600"><strong className="text-slate-800">誤解：試用期間中は退職できない →</strong> 期間の定めのない雇用なら、通常の退職と同様に申し出が可能と解されています。ただし就業規則の手続きはご確認ください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-4">
-              <p className="text-sm text-slate-600"><strong className="text-slate-800">注意：労働条件が本採用後と異なる場合がある →</strong> 試用期間中の賃金などが異なる旨が契約で定められていることがあります。入社前に条件を確認しておきましょう。</p>
+              <p className="text-sm text-slate-600"><strong className="text-slate-800">注意：労働条件が本採用後と異なる場合がある →</strong> 試用期間中の賃金などが異なる旨が契約で定められていることがあります。入社前に条件を確認しておくことをおすすめします。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-4">
               <p className="text-sm text-slate-600"><strong className="text-slate-800">注意：在籍記録は残る →</strong> 社会保険の加入記録などから在籍の事実が後で確認される可能性があります。経歴は隠すより、説明できるよう整理しておくのが安全です。</p>
@@ -198,7 +198,7 @@ export default function ProbationPage() {
         <section id="leave" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">試用期間中に辞めるべきか判断する基準</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            「合わないから辞める」は短期離職を増やすリスクがあります。一方で、明らかなミスマッチや健康への影響を我慢し続けるのも得策ではありません。以下の基準で冷静に判断しましょう。
+            「合わないから辞める」は短期離職を増やすリスクがあります。一方で、明らかなミスマッチや健康への影響を我慢し続けるのも得策ではありません。以下の基準で冷静に判断することをおすすめします。
           </p>
           <div className="space-y-4">
             {leaveCriteria.map((item, i) => (

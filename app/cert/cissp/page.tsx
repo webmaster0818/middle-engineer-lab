@@ -272,7 +272,7 @@ export default function CisspCertPage() {
             活用戦略は3つに整理できます。第一に<strong>管理職・上位職への足がかり</strong>です。8ドメインを横断する体系知識で、組織のセキュリティを統括する適性を示せます。第二に<strong>国際的な権威性</strong>です。CISSPは世界的に認知され、外資・グローバル案件でも通用します。第三に<strong>高年収帯での差別化</strong>です。セキュリティ管理職・コンサルの求人で、専門性の客観的な裏付けになります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。CISSPは<strong>受験料が749 USDと高額で、実務5年要件と3年ごと120CPE・年会費という維持コストがかかります</strong>。効果が出るのはセキュリティ実務と資格が組み合わさったときであり、未経験者がいきなり狙う資格ではありません。逆に言えば、すでにセキュリティ現場経験があり管理職・上位職を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>や<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>で土台を固めてから臨むのが堅実です。
+            注意すべきデメリットも押さえておくことをおすすめします。CISSPは<strong>受験料が749 USDと高額で、実務5年要件と3年ごと120CPE・年会費という維持コストがかかります</strong>。効果が出るのはセキュリティ実務と資格が組み合わさったときであり、未経験者がいきなり狙う資格ではありません。逆に言えば、すでにセキュリティ現場経験があり管理職・上位職を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>や<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>で土台を固めてから臨むのが堅実です。
           </p>
         </section>
 
@@ -335,7 +335,7 @@ export default function CisspCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">セキュリティ管理職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            CISSPを活かせる管理職・上位セキュリティ求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            CISSPを活かせる管理職・上位セキュリティ求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

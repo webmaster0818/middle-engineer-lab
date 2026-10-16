@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "アクシスコンサルティングの評判｜エンジニアのコンサル転職";
 const DESCRIPTION =
-  "アクシスコンサルティング（AXIS Agent）の評判・口コミを30代40代エンジニア目線で検証します。コンサル業界特化の強み、非公開求人約77%、ITコンサル・PM・DXへのキャリアチェンジ用途、純開発志向には不向きな点までデータと出典付きで解説します。";
+  "アクシスコンサルティング（AXIS Agent）の評判・口コミを30代40代エンジニア目線で検証します。コンサル業界特化の強み、非公開求人約77%、ITコンサル・PM・DXへのキャリアチェンジ用途、純開発志向には不向きな点までデータと出典を明記して解説します。";
 const URL = "/review/axis-consulting/";
 
 export const metadata: Metadata = {
@@ -308,7 +308,7 @@ export default function AxisConsultingReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載・スコア転載ではありません）。
           </p>

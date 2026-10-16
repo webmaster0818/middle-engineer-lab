@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. PostgreSQLスキルの転職での活かし方" },
-  { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
+  { id: "market", label: "2. 関連職種の市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. PostgreSQLスキルが効くキャリアパス" },
   { id: "find", label: "5. 求人の探し方と主なエージェント" },
@@ -152,7 +152,7 @@ export default function PostgresqlSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             「PostgreSQLエンジニア」という職種で年収が単体公表されているわけではないため、ここではPostgreSQLスキルが評価される近接職種の公表値を、出典と時点を明示して掲載します。
           </p>
@@ -291,7 +291,7 @@ export default function PostgresqlSkillPage() {
               <strong>掛け算で差別化します。</strong>PostgreSQL単体より「PostgreSQL＋アプリ開発」「PostgreSQL＋ドメイン知識（金融・物流など）」の掛け合わせのほうが強みになります。業務の文脈を理解したデータモデリングは、ミドル層ならではの説得力があります。
             </p>
             <p>
-              <strong>トラブル対応の経験が資産になります。</strong>本番DBのスロークエリ、ロック競合、データ移行といった困難な局面に対応した経験は、面接で具体的に語れる有力な材料です。40代のリード経験があれば、それを技術力とセットで提示しましょう。
+              <strong>トラブル対応の経験が資産になります。</strong>本番DBのスロークエリ、ロック競合、データ移行といった困難な局面に対応した経験は、面接で具体的に語れる有力な材料です。40代のリード経験があれば、それを技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

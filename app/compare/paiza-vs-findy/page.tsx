@@ -357,7 +357,7 @@ export default function PaizaVsFindyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">迷った場合は両方への登録がおすすめです</h2>
           <p className="text-blue-100 text-sm mb-4">
-            paiza転職とFindyは、いずれも無料で利用できます。試験型と実績型で評価軸が異なるため、両方に登録し、自分の強みが評価される方を見極めましょう。
+            paiza転職とFindyは、いずれも無料で利用できます。試験型と実績型で評価軸が異なるため、両方に登録し、自分の強みが評価される方を見極めてください。
           </p>
           <Link
             href="/#ranking"

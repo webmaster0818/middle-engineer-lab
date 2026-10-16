@@ -98,7 +98,7 @@ const timeline = [
 const faqs = [
   {
     q: "退職は「相談」として伝えるべきですか？",
-    a: "意思が固まっているなら「相談」ではなく「報告」として伝えるのが基本です。『相談したいことがあります』という入り方は、上司に『説得すれば翻意する余地がある』と受け取られ、引き止め交渉が長引く原因になります。日程調整の連絡だけは『ご相談が』としても構いませんが、本題の第一声は『◯月末で退職させていただきたくご報告に参りました』と結論から伝えましょう。退職を伝える際の例文全般は、退職の伝え方の記事も参考にしてください。",
+    a: "意思が固まっているなら「相談」ではなく「報告」として伝えるのが基本です。『相談したいことがあります』という入り方は、上司に『説得すれば翻意する余地がある』と受け取られ、引き止め交渉が長引く原因になります。日程調整の連絡だけは『ご相談が』としても構いませんが、本題の第一声は『◯月末で退職させていただきたくご報告に参りました』と結論から伝えてください。退職を伝える際の例文全般は、退職の伝え方の記事も参考にしてください。",
   },
   {
     q: "退職は法律上、何日前に言えば良いのですか？",
@@ -225,7 +225,7 @@ export default function SmoothResignationPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">法定2週間と「実務目安」は別物</h3>
               <p className="text-sm text-slate-600">
-                法律上の2週間は、あくまで「申し入れから契約が終了するまで」の最短ラインの考え方です。一方、円満退職と丁寧な引き継ぎのためには、退職希望日の1.5〜2ヶ月前に切り出す人が多いとされます。この2つを混同すると、「2週間で辞められるから」と急いで関係を壊したり、逆に必要以上に長く拘束されたりします。交渉では両者を切り分けて考えましょう。
+                法律上の2週間は、あくまで「申し入れから契約が終了するまで」の最短ラインの考え方です。一方、円満退職と丁寧な引き継ぎのためには、退職希望日の1.5〜2ヶ月前に切り出す人が多いとされます。この2つを混同すると、「2週間で辞められるから」と急いで関係を壊したり、逆に必要以上に長く拘束されたりします。交渉では両者を切り分けて考えてください。
               </p>
             </div>
           </div>
@@ -241,12 +241,12 @@ export default function SmoothResignationPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-              <h3 className="font-bold text-red-800 mb-2">NG：相談フレーム</h3>
+              <h3 className="font-bold text-red-800 mb-2">避けたい伝え方：相談の形で切り出す</h3>
               <p className="text-sm text-slate-600">「キャリアについて少し悩んでいて、ご相談したくて……」</p>
               <p className="text-xs text-slate-500 mt-2">→ 翻意の余地ありと受け取られ、引き止め交渉が長引きます。</p>
             </div>
             <div className="bg-green-50 border border-green-200 rounded-xl p-5">
-              <h3 className="font-bold text-green-800 mb-2">OK：報告フレーム</h3>
+              <h3 className="font-bold text-green-800 mb-2">望ましい伝え方：報告の形で伝える</h3>
               <p className="text-sm text-slate-600">「◯月末をもって退職させていただきたく、ご報告に参りました。」</p>
               <p className="text-xs text-slate-500 mt-2">→ 結論を先に置くことで、議論が引き継ぎへ向かいます。</p>
             </div>
@@ -338,8 +338,8 @@ export default function SmoothResignationPage() {
             退職理由は、引き止めの口実を与えないために「会社が解決できない、前向きで個人的な事情」に整理するのが基本です。改善提案で潰せる不満を語ると、それがそのままカウンターオファーの材料になります。
           </p>
           <div className="space-y-3">
-            <div className="bg-slate-50 rounded p-3 text-sm text-slate-600"><strong>NG：</strong>「評価制度に納得できない」「レガシーな環境に限界を感じる」→ 制度改定や異動を提案され、断りにくくなります。</div>
-            <div className="bg-slate-50 rounded p-3 text-sm text-slate-600"><strong>OK：</strong>「今後は◯◯領域に深く関わりたい」「家庭の事情で働き方を変えたい」→ 会社側で解決しにくく、引き止めの口実になりにくい傾向があります。</div>
+            <div className="bg-slate-50 rounded p-3 text-sm text-slate-600"><strong>避けたい例：</strong>「評価制度に納得できない」「レガシーな環境に限界を感じる」→ 制度改定や異動を提案され、断りにくくなります。</div>
+            <div className="bg-slate-50 rounded p-3 text-sm text-slate-600"><strong>望ましい例：</strong>「今後は◯◯領域に深く関わりたい」「家庭の事情で働き方を変えたい」→ 会社側で解決しにくく、引き止めの口実になりにくい傾向があります。</div>
           </div>
         </section>
 

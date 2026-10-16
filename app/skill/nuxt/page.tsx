@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Nuxtエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. Nuxtの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. Nuxtの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Nuxtエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方と主なエージェント" },
@@ -145,7 +145,7 @@ export default function NuxtSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Nuxtの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Nuxtの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Nuxt単体の公表平均年収は乏しいため、ここでは関連職種・関連技術（フロントエンド職／Vue.js）の公表値で代替し、出典と時点を明示します。創作した数値は使用していません。
           </p>
@@ -187,7 +187,7 @@ export default function NuxtSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "JavaScriptでのWeb開発1〜3年／HTML・CSS・Vue基礎／NuxtはGitHub等での自習レベル", note: "Nuxt未経験OK求人がここに該当" },
+              { tier: "入口（ポテンシャル）", req: "JavaScriptでのWeb開発1〜3年／HTML・CSS・Vue基礎／NuxtはGitHub等での自習レベル", note: "Nuxt未経験可の求人がここに該当" },
               { tier: "即戦力（ミドル）", req: "Vue/Nuxtでの開発実務／TypeScript／Composition API／SSR・SSGの理解／状態管理・API連携", note: "求人の中心ゾーン" },
               { tier: "ハイクラス", req: "大規模フロント設計・テックリード／パフォーマンス最適化／フロントの技術選定・規約整備", note: "年収700万円以上が狙える層" },
             ].map((item, i) => (
@@ -291,7 +291,7 @@ export default function NuxtSkillPage() {
               <strong>掛け算で差別化します。</strong>「Nuxt＋バックエンド」「Nuxt＋過去のドメイン知識（EC・メディアなど）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、モダンフロントという実装手段と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>マネジメント経験も資産になります。</strong>テックリードやフロントアーキテクトの求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやフロントアーキテクトの求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

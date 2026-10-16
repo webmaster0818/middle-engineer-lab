@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "40代の年収相場と戦略" },
-  { id: "data", label: "40代エンジニアの年収データ（出典付き）" },
+  { id: "data", label: "40代エンジニアの年収データ（出典明記）" },
   { id: "career", label: "キャリアの軸と年収の関係" },
   { id: "strategy", label: "40代で年収を維持・アップする5つの戦略" },
   { id: "risk", label: "40代で年収が下がるリスクと対策" },
@@ -125,7 +125,7 @@ const faqs = [
   },
   {
     q: "40代の年収交渉で気をつけることは？",
-    a: "市場相場を正確に把握したうえで臨むことが重要です。役職手当を前提にした希望ではなく、実力ベースの市場価値を根拠にしましょう。エージェント経由なら、企業の予算感を踏まえた交渉を任せられます。詳しくは年収交渉の記事を参照してください。",
+    a: "市場相場を正確に把握したうえで臨むことが重要です。役職手当を前提にした希望ではなく、実力ベースの市場価値を根拠にしてください。エージェント経由なら、企業の予算感を踏まえた交渉を任せられます。詳しくは年収交渉の記事を参照してください。",
   },
   {
     q: "IT人材の需要は40代にも続きますか？",
@@ -218,7 +218,7 @@ export default function Salary40sPage() {
 
         {/* データ */}
         <section id="data" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">40代エンジニアの年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">40代エンジニアの年収データ（出典明記）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             レバテックが公表する2025年の年代別平均年収（正社員・システムエンジニア等）は以下のとおりです。40代は30代から平均が大きく伸びる一方、個人差が最も開く年代でもあります。
           </p>
@@ -371,7 +371,7 @@ export default function Salary40sPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">40代の年収アップをプロがサポート</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハイクラス向けエージェントに登録して、年収維持・アップの可能性を無料で診断してもらいましょう。
+            ハイクラス向けエージェントに登録して、年収維持・アップの可能性を無料で診断してもらってください。
           </p>
           <Link
             href="/#ranking"

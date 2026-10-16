@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const tocItems = [
   { id: "conclusion", label: "転職難易度と向いている人" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "basic", label: "基本データ（出典明記）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "proscons", label: "入社のメリット・デメリット" },
   { id: "fit", label: "向いている人・向いていない人" },
@@ -91,7 +91,7 @@ export default function AppleCompanyPage() {
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-4">
-          Apple Japan合同会社は、iPhone・Mac・Apple Watch等を支えるソフトウェア／ハードウェア開発、機械学習、品質、ローカライゼーションなどのエンジニアリング職を擁する日本法人です。本ガイドは、公式採用ポータル（jobs.apple.com）と口コミサイトの公開情報のみを根拠に、エンジニア中途採用の実像を出典付きで整理します。合同会社のため有価証券報告書による年収開示がない点を踏まえ、年収は「変動の大きい参考値」として扱います。30代・40代のミドルエンジニアが現実的に判断できる情報を重視しました。
+          Apple Japan合同会社は、iPhone・Mac・Apple Watch等を支えるソフトウェア／ハードウェア開発、機械学習、品質、ローカライゼーションなどのエンジニアリング職を擁する日本法人です。本ガイドは、公式採用ポータル（jobs.apple.com）と口コミサイトの公開情報のみを根拠に、エンジニア中途採用の実像を出典を明記して整理します。合同会社のため有価証券報告書による年収開示がない点を踏まえ、年収は「変動の大きい参考値」として扱います。30代・40代のミドルエンジニアが現実的に判断できる情報を重視しました。
         </p>
 
         <DataNote
@@ -127,7 +127,7 @@ export default function AppleCompanyPage() {
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -174,7 +174,7 @@ export default function AppleCompanyPage() {
         <section id="proscons" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">入社のメリット・デメリット</h2>
           <p className="text-slate-700 leading-relaxed mb-4">
-            公式採用情報とOpenWork・転職会議等の口コミ傾向から、メリット・デメリットの両面を整理します。秘密主義など独自の文化があるため、注意点も具体的に確認しておきましょう。
+            公式採用情報とOpenWork・転職会議等の口コミ傾向から、メリット・デメリットの両面を整理します。秘密主義など独自の文化があるため、注意点も具体的に確認しておくことをおすすめします。
           </p>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">

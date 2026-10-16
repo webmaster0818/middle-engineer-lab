@@ -86,7 +86,7 @@ const faqs = [
   },
   {
     q: "SAPコンサルタントの仕事は「きつい・激務」なのでしょうか？",
-    a: "大規模な移行プロジェクトでは繁忙期に負荷が高まる場面があり、出張や長時間労働を伴うケースもあります。一方で運用・保守フェーズ中心のポジションや、リモート可の案件も増えています。働き方は企業・フェーズで差が大きいため、面談で体制・残業・稼働率を具体的に確認しましょう。",
+    a: "大規模な移行プロジェクトでは繁忙期に負荷が高まる場面があり、出張や長時間労働を伴うケースもあります。一方で運用・保守フェーズ中心のポジションや、リモート可の案件も増えています。働き方は企業・フェーズで差が大きいため、面談で体制・残業・稼働率を具体的にご確認ください。",
   },
 ];
 
@@ -259,7 +259,7 @@ export default function SapSkillPage() {
         <section id="find" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            SAP求人は年収レンジが広く、ハイクラス帯はスカウト型で出会えるケースが多いのが特徴です。タイプの異なるエージェントを併用しましょう。
+            SAP求人は年収レンジが広く、ハイクラス帯はスカウト型で出会えるケースが多いのが特徴です。タイプの異なるエージェントを併用することをおすすめします。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -290,7 +290,7 @@ export default function SapSkillPage() {
         <section id="entry" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">経験浅めからの参入ルート</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            SAPは完全未経験からの参入は難しめですが、隣接スキルを足がかりにできます。次のルートを検討しましょう。
+            SAPは完全未経験からの参入は難しめですが、隣接スキルを足がかりにできます。次のルートを検討することをおすすめします。
           </p>
           <ol className="space-y-3">
             {[
@@ -332,7 +332,7 @@ export default function SapSkillPage() {
         <section id="study" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            SAP認定資格は3ジャンルに分かれており、自分のキャリア軸に合わせて選ぶのが基本です。各ジャンルの位置づけを押さえておきましょう。
+            SAP認定資格は3ジャンルに分かれており、自分のキャリア軸に合わせて選ぶのが基本です。各ジャンルの位置づけを押さえておくことをおすすめします。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
             {certGenres.map((c, i) => (
@@ -367,7 +367,7 @@ export default function SapSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">SAPのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            SAP求人に精通したIT特化型・ハイクラスエージェントに登録して、年収アップの可能性を探りましょう。
+            SAP求人に精通したIT特化型・ハイクラスエージェントに登録して、年収アップの可能性を探ってください。
           </p>
           <Link
             href="/#ranking"

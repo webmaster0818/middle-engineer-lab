@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "レバテックダイレクトの評判・口コミは？特徴・料金・対応【2026年】";
 const DESCRIPTION =
-  "レバテックダイレクト（レバレジーズ）の評判・特徴を30代40代ミドルエンジニア目線で検証します。スカウト型の仕組み、エージェント型のレバテックキャリアとの違い、料金、向く人・向かない人、利用の流れ、FAQを出典付きで解説します。";
+  "レバテックダイレクト（レバレジーズ）の評判・特徴を30代40代ミドルエンジニア目線で検証します。スカウト型の仕組み、エージェント型のレバテックキャリアとの違い、料金、向く人・向かない人、利用の流れ、FAQを出典を明記して解説します。";
 const URL = "/review/levtech-direct/";
 const OFFICIAL_URL = "https://levtech-direct.jp/";
 
@@ -314,7 +314,7 @@ export default function LevtechDirectReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は公式情報および口コミプラットフォーム・各転職メディアの傾向をまとめたものです（原文転載ではありません）。
           </p>
@@ -385,7 +385,7 @@ export default function LevtechDirectReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
-              スカウト型は届く量が経歴に左右されやすいため、ダイレクト単独に頼りすぎず、ハイクラス特化のビズリーチや両面型のJACリクルートメントを併用して求人の幅と交渉力を確保するのが堅実です。マネジメント・アーキテクト経験はプロフィールで明確に打ち出しましょう。
+              スカウト型は届く量が経歴に左右されやすいため、ダイレクト単独に頼りすぎず、ハイクラス特化のビズリーチや両面型のJACリクルートメントを併用して求人の幅と交渉力を確保するのが堅実です。マネジメント・アーキテクト経験はプロフィールで明確に打ち出してください。
             </p>
           </div>
         </section>

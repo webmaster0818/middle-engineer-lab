@@ -208,7 +208,7 @@ export default function DataAnalystSkillPage() {
         <section id="portfolio" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ポートフォリオの作り方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            未経験・経験浅めなら、ポートフォリオが即戦力要求を越えるための有効な手段になります。「分析して、示唆を出して、見せる」までを一連の流れとして示しましょう。
+            未経験・経験浅めなら、ポートフォリオが即戦力要求を越えるための有効な手段になります。「分析して、示唆を出して、見せる」までを一連の流れとして示してください。
           </p>
           <div className="space-y-3">
             {[
@@ -321,7 +321,7 @@ export default function DataAnalystSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">データアナリストへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            データ分析職の求人を扱うIT特化型エージェントで、ご自身の強みの活かし方を確認しましょう。
+            データ分析職の求人を扱うIT特化型エージェントで、ご自身の強みの活かし方をご確認ください。
           </p>
           <Link
             href="/#ranking"

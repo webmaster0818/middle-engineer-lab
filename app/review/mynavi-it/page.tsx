@@ -81,7 +81,7 @@ const steps = [
   },
   {
     title: "4. 面接対策・選考",
-    body: "企業ごとの傾向を踏まえた面接対策を受けて選考に進みます。技術面接・人物面接の両面で準備できるよう相談しておきましょう。",
+    body: "企業ごとの傾向を踏まえた面接対策を受けて選考に進みます。技術面接・人物面接の両面で準備できるよう相談しておくことをおすすめします。",
   },
   {
     title: "5. 内定・条件交渉・入社",
@@ -291,7 +291,7 @@ export default function MynaviItReview() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">連絡頻度が多い → 連絡ルールを最初に決める</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                初回面談で「連絡はメール中心」「電話は平日19時以降」など希望を明確に伝えましょう。連絡手段と頻度を最初に合意しておくことで、しつこさのストレスは大きく軽減できます。
+                初回面談で「連絡はメール中心」「電話は平日19時以降」など希望を明確に伝えてください。連絡手段と頻度を最初に合意しておくことで、しつこさのストレスは大きく軽減できます。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">

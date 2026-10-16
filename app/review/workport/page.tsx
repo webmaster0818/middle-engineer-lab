@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/review/workport/" },
   title: "ワークポートの評判は？30代40代エンジニア向けレビュー",
   description:
-    "ワークポートの評判をエンジニア目線で検証します。求人数・対応スピード・口コミの傾向、未経験DX転職の実態、30代40代の活用戦略までデータと出典付きで解説します。",
+    "ワークポートの評判をエンジニア目線で検証します。求人数・対応スピード・口コミの傾向、未経験DX転職の実態、30代40代の活用戦略までデータと出典を明記して解説します。",
 };
 
 const toc = [
@@ -155,7 +155,7 @@ export default function WorkportReview() {
     <>
       <ArticleJsonLd
         title="ワークポートの評判は？30代40代エンジニア向けレビュー"
-        description="ワークポートの評判をエンジニア目線で検証します。求人数・対応スピード・口コミの傾向、未経験DX転職の実態、30代40代の活用戦略までデータと出典付きで解説します。"
+        description="ワークポートの評判をエンジニア目線で検証します。求人数・対応スピード・口コミの傾向、未経験DX転職の実態、30代40代の活用戦略までデータと出典を明記して解説します。"
         url="/review/workport/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -165,7 +165,7 @@ export default function WorkportReview() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           ワークポートの評判は？30代・40代エンジニア向けレビュー
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 求人量・対応スピード・口コミの傾向を出典付きで検証</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 求人量・対応スピード・口コミの傾向を出典を明記して検証</p>
 
         <p className="text-slate-700 leading-relaxed mb-6">
           ワークポートは、IT・ゲーム領域に注力する「総合型」転職エージェントです。求人量の多さと対応スピード、全国57拠点のネットワークが特徴で、未経験・異業種からのIT転職の入口としても選ばれています。本記事では、株式会社ワークポートの公式情報と口コミプラットフォームの傾向をもとに、30代・40代エンジニアが使う場合の実態と戦略を、出典を明示しながら検証します。
@@ -259,7 +259,7 @@ export default function WorkportReview() {
         <section id="bad" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">悪い評判の傾向</h2>
           <p className="text-sm text-slate-600 mb-4 leading-relaxed">
-            一方で、axxis・イーデス等の口コミプラットフォームでは次のような不満の傾向も見られます。公平性のため、デメリットも具体的に確認しておきましょう。
+            一方で、axxis・イーデス等の口コミプラットフォームでは次のような不満の傾向も見られます。公平性のため、デメリットも具体的に確認しておくことをおすすめします。
           </p>
           <div className="space-y-4">
             {badReviews.map((r, i) => (
@@ -277,7 +277,7 @@ export default function WorkportReview() {
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <div className="border-l-4 border-petrol pl-4">
               <p className="font-bold text-slate-800 mb-1">「連絡が多い」への対処</p>
-              <p>初回面談で連絡手段（メール・電話・LINE等）と希望頻度をはっきり伝えましょう。「平日夜のみ」「週1回まとめて」など具体的に指定すると、提案量の多さがストレスになりにくくなります。</p>
+              <p>初回面談で連絡手段（メール・電話・LINE等）と希望頻度をはっきり伝えてください。「平日夜のみ」「週1回まとめて」など具体的に指定すると、提案量の多さがストレスになりにくくなります。</p>
             </div>
             <div className="border-l-4 border-petrol pl-4">
               <p className="font-bold text-slate-800 mb-1">「希望と異なる求人」への対処</p>
@@ -302,7 +302,7 @@ export default function WorkportReview() {
             <div>
               <h3 className="font-bold text-slate-800 mb-1">30代：求人量で選択肢を広げる使い方</h3>
               <p>
-                30代は実務経験を強みにしつつ、まだ職種転換やキャリアの軌道修正が利く年代です。ワークポートの求人量を使って選択肢を広げ、Web系・SIer・ゲーム・社内SEなど複数方向を同時に比較するのに向きます。参考までに、レバテック公表の年代別平均年収（2025年）では正社員SEの30代は約499万円、年収1,000万円以上の割合は30代で8.01%とされています。求人量で母数を確保しつつ、年収条件は妥協せずフィルタリングしましょう。
+                30代は実務経験を強みにしつつ、まだ職種転換やキャリアの軌道修正が利く年代です。ワークポートの求人量を使って選択肢を広げ、Web系・SIer・ゲーム・社内SEなど複数方向を同時に比較するのに向きます。参考までに、レバテック公表の年代別平均年収（2025年）では正社員SEの30代は約499万円、年収1,000万円以上の割合は30代で8.01%とされています。求人量で母数を確保しつつ、年収条件は妥協せずフィルタリングしてください。
               </p>
             </div>
             <div>
@@ -361,7 +361,7 @@ export default function WorkportReview() {
             {[
               ["無料登録", "公式サイトからプロフィールを入力して登録します。完全無料で、登録後に担当コンシェルジュがつきます。"],
               ["面談・ヒアリング", "希望条件・経歴・キャリアの方向性をすり合わせます。ここで連絡頻度やNG条件を明確に伝えるのが満足度を左右します。"],
-              ["求人紹介・応募", "条件に合う求人を提案してもらい、応募先を絞り込みます。求人量が多いぶん、優先順位付けを意識しましょう。"],
+              ["求人紹介・応募", "条件に合う求人を提案してもらい、応募先を絞り込みます。求人量が多いぶん、優先順位付けを意識してください。"],
               ["選考・面接対策", "書類添削・面接対策のサポートを受けつつ選考を進めます。専門的な対策はIT特化エージェントと併用するのも有効です。"],
               ["内定・条件交渉・入社", "内定後は年収・条件の交渉をコンシェルジュ経由で行い、入社日を調整します。"],
             ].map(([title, body], i) => (

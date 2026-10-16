@@ -77,7 +77,7 @@ const faqs = [
   },
   {
     q: "実務経験浅めでもフロントエンドで転職できますか？",
-    a: "HTML/CSS/JavaScriptの基礎とReact/Vueの公開ポートフォリオがあれば、中小プロダクトやWeb制作会社のモダン化案件から実務年数を作るのが現実的です。状態管理・テスト・パフォーマンス配慮を見せられる成果物を用意して臨みましょう。",
+    a: "HTML/CSS/JavaScriptの基礎とReact/Vueの公開ポートフォリオがあれば、中小プロダクトやWeb制作会社のモダン化案件から実務年数を作るのが現実的です。状態管理・テスト・パフォーマンス配慮を見せられる成果物を用意して臨んでください。",
   },
 ];
 
@@ -359,7 +359,7 @@ export default function FrontendSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">フロントエンドのスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントに登録して、ご自身のスキルの市場価値と非公開求人を確認しましょう。
+            IT特化型エージェントに登録して、ご自身のスキルの市場価値と非公開求人をご確認ください。
           </p>
           <Link
             href="/#ranking"

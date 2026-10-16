@@ -28,7 +28,7 @@ const toc = [
 const faqs = [
   {
     q: "職務経歴書の適切な長さは？",
-    a: "A4で2〜3枚が適切です。10年以上の経歴がある30代後半〜40代でも最大4枚を目安にしましょう。直近3〜5年の経験を厚く、それ以前は概要のみにする構成が読みやすくなります。採用担当は1人あたり数分しか目を通さないため、情報の密度より「読みやすさ」を優先します。",
+    a: "A4で2〜3枚が適切です。10年以上の経歴がある30代後半〜40代でも最大4枚を目安にしてください。直近3〜5年の経験を厚く、それ以前は概要のみにする構成が読みやすくなります。採用担当は1人あたり数分しか目を通さないため、情報の密度より「読みやすさ」を優先します。",
   },
   {
     q: "使用技術の書き方にコツはありますか？",
@@ -40,11 +40,11 @@ const faqs = [
   },
   {
     q: "転職回数が多い場合はどう書くべきですか？",
-    a: "在籍期間が短い会社が並ぶ場合は、冒頭の職務要約で『キャリアの一貫したテーマ』を示すのが有効です。例：『一貫してバックエンド開発に従事し、Java→Kotlin→Goと技術領域を広げてきました』のように、転職を通じた成長のストーリーが伝わる書き方にしましょう。",
+    a: "在籍期間が短い会社が並ぶ場合は、冒頭の職務要約で『キャリアの一貫したテーマ』を示すのが有効です。例：『一貫してバックエンド開発に従事し、Java→Kotlin→Goと技術領域を広げてきました』のように、転職を通じた成長のストーリーが伝わる書き方にしてください。",
   },
   {
     q: "GitHubやポートフォリオは記載すべきですか？",
-    a: "可能であれば記載しましょう。特にWeb系企業はGitHubのコードや活動を参考にすることがあります。OSS活動・個人開発・技術ブログのURLを添えると、書類だけでは伝わらない技術力の裏づけになります。詳しくはポートフォリオ作成ガイドを参照してください。",
+    a: "可能であれば記載してください。特にWeb系企業はGitHubのコードや活動を参考にすることがあります。OSS活動・個人開発・技術ブログのURLを添えると、書類だけでは伝わらない技術力の裏づけになります。詳しくはポートフォリオ作成ガイドを参照してください。",
   },
   {
     q: "ブランク期間がある場合はどう説明しますか？",
@@ -310,7 +310,7 @@ export default function ResumePage() {
         <section id="number" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">7. 成果の数値化フレーズ集</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            「改善した」を数値に置き換えるだけで説得力が変わります。下表の左（曖昧表現）を、右（数値化した書き方）に変換しましょう。改善前後の値か改善率を入れるのがコツです。
+            「改善した」を数値に置き換えるだけで説得力が変わります。下表の左（曖昧表現）を、右（数値化した書き方）に変換してください。改善前後の値か改善率を入れるのがコツです。
           </p>
           <div className="space-y-3">
             {numberPhrases.map((p, i) => (
@@ -323,7 +323,7 @@ export default function ResumePage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">※ 数値は記載例です。ご自身の実績に置き換えてください。守秘義務に触れる具体的な金額・社名は、概算や比率にぼかして記載しましょう。</p>
+          <p className="text-xs text-slate-400 mt-3">※ 数値は記載例です。ご自身の実績に置き換えてください。守秘義務に触れる具体的な金額・社名は、概算や比率にぼかして記載してください。</p>
         </section>
 
         {/* 8. NG例 */}
@@ -333,7 +333,7 @@ export default function ResumePage() {
             {[
               { t: "NG1：スキル名の羅列のみ", d: "言語やツール名を並べるだけでは、習熟度も実務経験も伝わりません。必ず『経験年数・習熟度・使用規模』をセットにします。" },
               { t: "NG2：成果がすべて定性表現", d: "『改善した』『貢献した』だけでは比較も評価もできません。改善前後の数値か改善率を入れ、STARで状況と行動も添えます。" },
-              { t: "NG3：1通の書類の全社への使い回し", d: "応募先の技術スタックや求めるスキルに合わせて、強調するプロジェクトや表現を調整しないと『評価されにくい』書類になります。最低でも職務要約と自己PRは応募先ごとに微調整しましょう。" },
+              { t: "NG3：1通の書類の全社への使い回し", d: "応募先の技術スタックや求めるスキルに合わせて、強調するプロジェクトや表現を調整しないと『評価されにくい』書類になります。最低でも職務要約と自己PRは応募先ごとに微調整してください。" },
             ].map((n, i) => (
               <div key={i} className="bg-red-50 border border-red-200 rounded-lg p-5">
                 <h3 className="font-bold text-red-700 mb-1">{n.t}</h3>
@@ -347,7 +347,7 @@ export default function ResumePage() {
         <section id="checklist" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">9. 提出前チェックリスト</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            提出前に次の項目を確認しましょう。1つでも欠けていると、書類選考の通過率が下がる原因になります。書き上げた直後ではなく、一晩おいて読み返すと粗が見つかりやすくなります。
+            提出前に次の項目をご確認ください。1つでも欠けていると、書類選考の通過率が下がる原因になります。書き上げた直後ではなく、一晩おいて読み返すと粗が見つかりやすくなります。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-2">
@@ -379,19 +379,19 @@ export default function ResumePage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の幅とリード経験を両輪で示す</h3>
               <p className="text-sm text-petrol-deep">
-                30代は実装力に加えて、技術選定・レビュー・小規模チームのリードを担えることを示すと評価が上がります。直近のプロジェクトでの『意思決定の中身』を具体的に書きましょう。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代エンジニアの転職</Link>。
+                30代は実装力に加えて、技術選定・レビュー・小規模チームのリードを担えることを示すと評価が上がります。直近のプロジェクトでの『意思決定の中身』を具体的に書いてください。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代エンジニアの転職</Link>。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：マネジメントと再現性のある実績を前面に</h3>
               <p className="text-sm text-petrol-deep">
-                40代は『チーム・プロダクト・事業にどう貢献したか』が重視されます。プレイヤー実績だけでなく、組織課題をどう解決したかをSTARで整理しましょう。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代エンジニアの転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアル</Link>。
+                40代は『チーム・プロダクト・事業にどう貢献したか』が重視されます。プレイヤー実績だけでなく、組織課題をどう解決したかをSTARで整理してください。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代エンジニアの転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアル</Link>。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">経歴が長い分、取捨選択が重要</h3>
               <p className="text-sm text-petrol-deep">
-                10年以上のキャリアを全部詳細に書くと読まれません。直近3〜5年を厚く、それ以前は1〜2行の概要に圧縮します。応募先に関係の薄い経験は思い切って削りましょう。
+                10年以上のキャリアを全部詳細に書くと読まれません。直近3〜5年を厚く、それ以前は1〜2行の概要に圧縮します。応募先に関係の薄い経験は思い切って削ってください。
               </p>
             </div>
           </div>
@@ -415,7 +415,7 @@ export default function ResumePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">職務経歴書のプロ添削を無料で受けよう</h2>
+          <h2 className="text-xl font-bold mb-3">職務経歴書の添削を無料で受ける</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントに登録すれば、エンジニアの職務経歴書に精通したアドバイザーが無料で添削してくれます。
           </p>

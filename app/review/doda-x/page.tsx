@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "doda X（旧iX転職）の評判｜40代エンジニアのハイクラス活用";
 const DESCRIPTION =
-  "doda X（旧iX転職）の評判・口コミを30代40代エンジニア目線で検証します。ハイクラススカウト型の仕組み、年収800万以上の求人比率、dodaやdoda ITとの違い、スカウトが来ない不安と対処法までデータと出典付きで解説します。";
+  "doda X（旧iX転職）の評判・口コミを30代40代エンジニア目線で検証します。ハイクラススカウト型の仕組み、年収800万以上の求人比率、dodaやdoda ITとの違い、スカウトが来ない不安と対処法までデータと出典を明記して解説します。";
 const URL = "/review/doda-x/";
 
 export const metadata: Metadata = {
@@ -338,7 +338,7 @@ export default function DodaXReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載・スコア転載ではありません）。
           </p>

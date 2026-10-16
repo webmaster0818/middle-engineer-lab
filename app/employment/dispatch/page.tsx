@@ -333,7 +333,7 @@ export default function DispatchPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">正社員化を目指すなら、まず市場価値の把握から</h2>
           <p className="text-blue-100 text-sm mb-4">
-            派遣で積んだ実務経験は、正社員転職で評価されます。まず転職エージェントで提示年収レンジを知り、現職での正社員化と比較しましょう。
+            派遣で積んだ実務経験は、正社員転職で評価されます。まず転職エージェントで提示年収レンジを知り、現職での正社員化と比較することをおすすめします。
           </p>
           <Link href="/compare/agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             IT転職エージェント比較を見る

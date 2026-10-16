@@ -215,7 +215,7 @@ export default function SeishainPage() {
         <section id="insurance" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">社会保険・税の仕組み（会社が半分負担）</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            正社員の大きな価値は、社会保険の会社負担にあります。額面の数字には表れない「見えない給与」を理解しましょう。
+            正社員の大きな価値は、社会保険の会社負担にあります。額面の数字には表れない「見えない給与」を理解してください。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-5">
             <p className="text-sm font-bold text-slate-700 mb-3">正社員の保険・税のポイント</p>
@@ -323,7 +323,7 @@ export default function SeishainPage() {
         <section id="fit" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">正社員に向いている人・向いていない人</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            正社員は安定と保障に厚い一方、自由度や単価では他の形態に譲ります。自分の優先順位と照らし合わせて判断しましょう。
+            正社員は安定と保障に厚い一方、自由度や単価では他の形態に譲ります。自分の優先順位と照らし合わせて判断することをおすすめします。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-[var(--line)] rounded-lg p-5">
@@ -351,7 +351,7 @@ export default function SeishainPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：信用と保障を土台にキャリアを積み上げる</h3>
-              <p className="text-sm text-petrol-deep">住宅ローンや家族の保障が現実になる30代は、社会的信用と社会保険の手厚さが重要になる時期です。正社員の安定を土台に、上流・マネジメントなど次のキャリアの選択肢を広げる戦略が有効です。市場価値の把握から始めましょう。</p>
+              <p className="text-sm text-petrol-deep">住宅ローンや家族の保障が現実になる30代は、社会的信用と社会保険の手厚さが重要になる時期です。正社員の安定を土台に、上流・マネジメントなど次のキャリアの選択肢を広げる戦略が有効です。市場価値の把握から始めてください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験を活かした即戦力・マネジメント採用</h3>
@@ -384,7 +384,7 @@ export default function SeishainPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">正社員としての市場価値を無料で確認</h2>
           <p className="text-blue-100 text-sm mb-4">
-            正社員での提示年収・保障を客観的に把握してから判断するのが安全です。まずは市場価値の把握から始めましょう。
+            正社員での提示年収・保障を客観的に把握してから判断するのが安全です。まずは市場価値の把握から始めてください。
           </p>
           <Link href="/compare/agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             IT転職エージェント比較を見る

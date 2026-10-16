@@ -254,7 +254,7 @@ export default function AzureArchitectCertPage() {
             活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>です。運用・構築の経験者が、設計・アーキテクトへ役割を広げたい局面で説得力を持ちます。第二に<strong>クラウド移行案件への適性証明</strong>です。事業継続・ガバナンスまで含めた全体設計の素養を示せます。第三に<strong>最新技術を学び続けていることの証明</strong>です。有効期限と無料更新の仕組みにより、常に現行のAzure知識を保っていることを示せます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。AZ-305は前提資格（AZ-104）が必要で<strong>学習コストが大きく、実務がないと取得後も活かしきれません</strong>。効果が出るのは、Azureプロジェクト経験と資格がそろったときです。また有効期限があるため、取りっぱなしでは失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/skill/azure/" className="text-petrol hover:underline">Azure</Link>の運用経験を積んでから臨むのが堅実です。
+            注意すべきデメリットも押さえておくことをおすすめします。AZ-305は前提資格（AZ-104）が必要で<strong>学習コストが大きく、実務がないと取得後も活かしきれません</strong>。効果が出るのは、Azureプロジェクト経験と資格がそろったときです。また有効期限があるため、取りっぱなしでは失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/skill/azure/" className="text-petrol hover:underline">Azure</Link>の運用経験を積んでから臨むのが堅実です。
           </p>
         </section>
 
@@ -317,7 +317,7 @@ export default function AzureArchitectCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">クラウド上流・設計職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            AZ-305を活かせるクラウドアーキテクト・基盤設計求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            AZ-305を活かせるクラウドアーキテクト・基盤設計求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

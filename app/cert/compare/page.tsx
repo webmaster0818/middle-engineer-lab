@@ -125,7 +125,7 @@ export default function CertComparePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
           <h2 className="text-xl font-bold mb-3">資格を活かせる転職先を探す</h2>
-          <p className="text-blue-100 text-sm mb-4">取得した資格・実務経験が評価される求人を、IT特化エージェントに無料相談して紹介してもらいましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">取得した資格・実務経験が評価される求人を、IT特化エージェントに無料相談して紹介してもらってください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
         {/* 一次データ相互リンク（2026-07-04 リンク完全性の是正） */}

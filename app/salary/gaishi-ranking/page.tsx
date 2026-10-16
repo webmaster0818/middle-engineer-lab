@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "外資ITエンジニア年収ランキング【2026年10月実測】levels.fyi日本拠点データ横断比較";
 const DESCRIPTION =
-  "外資ITエンジニアの日本拠点年収をlevels.fyiの投稿集計から実測してランキング化です(2026年10月15日取得・円換算)。Apple中央値2,861万円・Google 2,560万円・Indeed 2,404万円・Microsoft 1,882万円・Amazon 1,802万円です。";
+  "外資ITエンジニアの日本拠点年収をlevels.fyiの投稿集計から実測し、ランキングにまとめました(2026年10月15日取得・円換算)。Apple中央値2,861万円・Google 2,560万円・Indeed 2,404万円・Microsoft 1,882万円・Amazon 1,802万円です。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/gaishi-ranking/" },

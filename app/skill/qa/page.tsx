@@ -328,7 +328,7 @@ export default function QaSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            QAは仕様に沿った検証が中心のため、納期前の繁忙はあるものの計画的に働きやすいとされる職種です。ただし企業・プロジェクトにより差が大きいため、応募時に体制を確認しましょう。30代未経験での参入は<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのITエンジニア転職</Link>も参考になります。
+            QAは仕様に沿った検証が中心のため、納期前の繁忙はあるものの計画的に働きやすいとされる職種です。ただし企業・プロジェクトにより差が大きいため、応募時に体制をご確認ください。30代未経験での参入は<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのITエンジニア転職</Link>も参考になります。
           </p>
         </section>
 
@@ -368,7 +368,7 @@ export default function QaSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">QAスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            QA・自動化・SDET求人に強いIT特化型エージェントで、ご自身の品質保証スキルの市場価値を確認しましょう。
+            QA・自動化・SDET求人に強いIT特化型エージェントで、ご自身の品質保証スキルの市場価値をご確認ください。
           </p>
           <Link
             href="/#ranking"

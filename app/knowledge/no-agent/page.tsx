@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "エージェントと自力は併用できますか？",
-    a: "併用できます。志望度の高い企業には直接応募やリファラルで志望度を示し、応募先の幅を広げる目的でエージェントも使う、といった使い分けが現実的です。ただし、同じ企業に両方のルートで応募すると混乱を招くため、応募経路は企業ごとに一本化しましょう。",
+    a: "併用できます。志望度の高い企業には直接応募やリファラルで志望度を示し、応募先の幅を広げる目的でエージェントも使う、といった使い分けが現実的です。ただし、同じ企業に両方のルートで応募すると混乱を招くため、応募経路は企業ごとに一本化してください。",
   },
 ];
 
@@ -168,7 +168,7 @@ export default function NoAgentPage() {
         <section id="pros-cons" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">メリットとデメリット</h2>
           <p className="text-slate-600 text-sm leading-relaxed mb-4">
-            自力運用には明確な長所と短所があります。両面を理解したうえで選びましょう。
+            自力運用には明確な長所と短所があります。両面を理解したうえで選んでください。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-green-50 rounded-lg p-5">
@@ -285,7 +285,7 @@ export default function NoAgentPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">実績がある人ほど自力での活動が有効</h3>
               <p>
-                技術発信や明確な実績がある人は、リファラルやダイレクト、SNS経由で志望企業に直接アプローチできます。ミドル層の強みは「実績で語れること」です。客観的フィードバックが得にくい弱点だけ、コミュニティや知人で補いましょう。
+                技術発信や明確な実績がある人は、リファラルやダイレクト、SNS経由で志望企業に直接アプローチできます。ミドル層の強みは「実績で語れること」です。客観的フィードバックが得にくい弱点だけ、コミュニティや知人で補ってください。
               </p>
             </div>
             <p>

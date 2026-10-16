@@ -85,7 +85,7 @@ const faqs = [
   },
   {
     q: "製造・自動車系のIT求人はどう探せばよいですか？",
-    a: "横浜・川崎は製造業の拠点が多く、組込み・制御・データ活用などの領域で求人が見込めます。doda ITエンジニアのように幅広い業界の求人を扱うエージェントや、対象企業の公式採用ページを併用して探すのが効率的です。実在企業の採用情報は各社公式で確認しましょう。",
+    a: "横浜・川崎は製造業の拠点が多く、組込み・制御・データ活用などの領域で求人が見込めます。doda ITエンジニアのように幅広い業界の求人を扱うエージェントや、対象企業の公式採用ページを併用して探すのが効率的です。実在企業の採用情報は各社公式でご確認ください。",
   },
   {
     q: "30代・40代でも横浜で転職先は見つかりますか？",
@@ -220,7 +220,7 @@ export default function YokohamaAreaPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
-            リモート可の求人でも入社後に出社頻度が変わることがあります。週何日出社か、制度が恒久的かを面談で必ず確認しましょう。リモート前提で探すなら
+            リモート可の求人でも入社後に出社頻度が変わることがあります。週何日出社か、制度が恒久的かを面談で必ずご確認ください。リモート前提で探すなら
             <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
             も参考になります。
           </p>
@@ -231,7 +231,7 @@ export default function YokohamaAreaPage() {
             横浜・神奈川での転職が向いている人・向いていない人
           </h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            横浜・神奈川は東京と地方の中間的なポジションを持つエリアです。自分の優先順位と照らして判断しましょう。
+            横浜・神奈川は東京と地方の中間的なポジションを持つエリアです。自分の優先順位と照らして判断することをおすすめします。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
@@ -263,7 +263,7 @@ export default function YokohamaAreaPage() {
         <section id="salary" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方（年代別データ）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            「神奈川のITエンジニアの平均年収は◯◯万円」という断定は行いません。エリア単位の確定統計が乏しく、職種・スキル・企業規模で大きく振れるためです。年代別の参考データを起点に自分の現在地を把握しましょう。
+            「神奈川のITエンジニアの平均年収は◯◯万円」という断定は行いません。エリア単位の確定統計が乏しく、職種・スキル・企業規模で大きく振れるためです。年代別の参考データを起点に自分の現在地を把握してください。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse min-w-[480px]">
@@ -337,7 +337,7 @@ export default function YokohamaAreaPage() {
         <section id="combo" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェントの併用パターン</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            神奈川の求人を効率よく比較するには、目的別にエージェントを組み合わせるのが有効です。担当者との相性も結果を左右するため、合わなければ担当変更や別社への切り替えも検討しましょう。代表的な組み合わせを挙げます。
+            神奈川の求人を効率よく比較するには、目的別にエージェントを組み合わせるのが有効です。担当者との相性も結果を左右するため、合わなければ担当変更や別社への切り替えも検討することをおすすめします。代表的な組み合わせを挙げます。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -421,7 +421,7 @@ export default function YokohamaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">横浜・神奈川のIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
-            県内拠点も東京リモートも選べるエリアです。IT特化型エージェントに登録して市場価値を確認しましょう。
+            県内拠点も東京リモートも選べるエリアです。IT特化型エージェントに登録して市場価値をご確認ください。
           </p>
           <Link
             href="/#ranking"

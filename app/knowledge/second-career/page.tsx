@@ -491,7 +491,7 @@ export default function SecondCareerPage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている選択肢チェックリスト</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            当てはまる項目が多いものが、ご自身に向いた方向性の候補です。複数当てはまる場合は、移行5ステップの「小さく試す」で適性を確かめましょう。
+            当てはまる項目が多いものが、ご自身に向いた方向性の候補です。複数当てはまる場合は、移行5ステップの「小さく試す」で適性を確かめてください。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border border-slate-200 rounded-lg p-5">

@@ -256,7 +256,7 @@ export default function LinuCCertPage() {
             活用戦略は3つに整理できます。第一に<strong>Linux実務の体系化</strong>です。現場で覚えた自己流のスキルの不足を試験対策で補い、体系的に整理できます。第二に<strong>インフラ職の入口・書類段階の裏づけ</strong>です。Linuxを扱える基礎スキルの客観証明として、選考の通過に寄与します。第三に<strong>クラウド・コンテナへの土台</strong>です。LinuCで固めたLinux基礎は、クラウドやKubernetesへ進む際の前提になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。LinuCレベル1は<strong>入口寄りの位置づけのため、これ単体で上流・高度なインフラ力まで保証する資格ではありません</strong>。効果が出るのは、インフラ実務と資格がそろったときです。また有効期限が5年あり、再認定を怠ると失効します。逆に言えば、Linuxスキルを体系化したい経験者や、インフラへ進みたいミドルにとっては、費用対効果の高い土台資格です。上位を示すならレベル2以上、国際案件を視野に入れるなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC</Link>も検討しましょう。
+            注意すべきデメリットも押さえておくことをおすすめします。LinuCレベル1は<strong>入口寄りの位置づけのため、これ単体で上流・高度なインフラ力まで保証する資格ではありません</strong>。効果が出るのは、インフラ実務と資格がそろったときです。また有効期限が5年あり、再認定を怠ると失効します。逆に言えば、Linuxスキルを体系化したい経験者や、インフラへ進みたいミドルにとっては、費用対効果の高い土台資格です。上位を示すならレベル2以上、国際案件を視野に入れるなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC</Link>も検討することをおすすめします。
           </p>
         </section>
 
@@ -319,7 +319,7 @@ export default function LinuCCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">インフラ・サーバ案件への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            LinuCを活かせるインフラ・サーバ運用求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            LinuCを活かせるインフラ・サーバ運用求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

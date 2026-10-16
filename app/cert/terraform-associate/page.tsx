@@ -254,7 +254,7 @@ export default function TerraformAssociateCertPage() {
             活用戦略は3つに整理できます。第一に<strong>IaCスキルの可視化</strong>です。手作業中心だった経歴に、コードでインフラを管理できる客観的な裏付けを加えられます。第二に<strong>マルチクラウド対応の素養</strong>です。TerraformはAWS・Azure・GCPを横断して使えるため、特定クラウドに依存しない構築力を示せます。第三に<strong>手頃な受験料で始められる第一歩</strong>です。他資格より負荷が軽く、DevOps領域への入口として取り組みやすい点が利点です。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。Terraform Associateは<strong>アソシエイトレベルのため、これ単体で年収が大きく上がる資格ではありません</strong>。あくまで実務を補強する位置づけであり、効果が出るのは実務経験と資格が組み合わさったときです。また有効期限が2年で、Terraformのバージョン進化に合わせた再取得が必要です。逆に言えば、すでにインフラ・クラウドの現場経験があり自動化を進めたい30〜40代にとっては、低コストで取り組める実利的な認定です。クラウド側の理解が不安な場合は、まず<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>などで基盤の土台を固めるのも有効です。
+            注意すべきデメリットも押さえておくことをおすすめします。Terraform Associateは<strong>アソシエイトレベルのため、これ単体で年収が大きく上がる資格ではありません</strong>。あくまで実務を補強する位置づけであり、効果が出るのは実務経験と資格が組み合わさったときです。また有効期限が2年で、Terraformのバージョン進化に合わせた再取得が必要です。逆に言えば、すでにインフラ・クラウドの現場経験があり自動化を進めたい30〜40代にとっては、低コストで取り組める実利的な認定です。クラウド側の理解が不安な場合は、まず<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>などで基盤の土台を固めるのも有効です。
           </p>
         </section>
 
@@ -317,7 +317,7 @@ export default function TerraformAssociateCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">DevOps・クラウドインフラ職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Terraform AssociateとIaCスキルを活かせる求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            Terraform AssociateとIaCスキルを活かせる求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

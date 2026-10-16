@@ -418,7 +418,7 @@ export default function NagoyaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">名古屋のIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
-            製造DXからWeb/SaaS、フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、自分に合う働き方の選択肢を広げましょう。
+            製造DXからWeb/SaaS、フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、自分に合う働き方の選択肢を広げてください。
           </p>
           <Link
             href="/#ranking"

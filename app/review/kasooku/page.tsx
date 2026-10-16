@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "カソーク（Kasooku）の評判・口コミは？怪しくない？【2026年7月】副業から転職の仕組みを検証";
 const DESCRIPTION =
-  "カソーク（Kasooku）の評判・口コミは？怪しい？に直接お答えします。上場ユナイテッドグループ運営という実態、副業・複業から相性を見て転職につなげる仕組み、エンジニア案件の有無、料金無料の理由、口コミが少ない点の客観的な評価まで出典付きで解説します（2026年7月確認）。";
+  "カソーク（Kasooku）の評判・口コミと「怪しいのでは」という疑問についてお答えします。上場ユナイテッドグループ運営という実態、副業・複業から相性を見て転職につなげる仕組み、エンジニア案件の有無、料金無料の理由、口コミが少ない点の客観的な評価まで、出典を明記して解説します（2026年7月確認）。";
 const URL = "/review/kasooku/";
 
 export const metadata: Metadata = {
@@ -285,7 +285,7 @@ export default function KasookuReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は紹介メディア・公開情報上の傾向をまとめたものです（原文転載ではありません）。口コミ蓄積はまだ少なめである点に留意してください。
           </p>
@@ -367,7 +367,7 @@ export default function KasookuReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              本業のスキルを活かしつつ、成長企業に副業から関わって新しい技術領域や事業フェーズを経験できる年代です。将来の転職・独立に向けた実績作りや人脈形成として使うと効果的です。本業の副業規定だけは必ず確認しましょう。
+              本業のスキルを活かしつつ、成長企業に副業から関わって新しい技術領域や事業フェーズを経験できる年代です。将来の転職・独立に向けた実績作りや人脈形成として使うと効果的です。本業の副業規定だけは必ずご確認ください。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>

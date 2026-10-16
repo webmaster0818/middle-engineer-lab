@@ -317,7 +317,7 @@ export default function RetailPage() {
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            これらは目安です。正確な相場感はエージェントが提示する個別求人レンジで把握しましょう。年代別の考え方は
+            これらは目安です。正確な相場感はエージェントが提示する個別求人レンジで把握してください。年代別の考え方は
             <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収</Link>・
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>
             も参考にしてください。
@@ -441,7 +441,7 @@ export default function RetailPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">小売・流通の知識をECテックで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
-            まずはIT特化型エージェントに相談し、ECテック求人の実際のレンジと自分の市場価値を確認しましょう。
+            まずはIT特化型エージェントに相談し、ECテック求人の実際のレンジと自分の市場価値をご確認ください。
           </p>
           <Link
             href="/#ranking"

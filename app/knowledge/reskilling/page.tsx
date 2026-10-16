@@ -326,7 +326,7 @@ export default function ReskillingPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">学び直しと転職をプロに相談しよう</h2>
+          <h2 className="text-xl font-bold mb-3">学び直しと転職を専門家に相談する</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、職種転換の現実的なルートや、学んだスキルの活かし方を具体的にアドバイスしてくれます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

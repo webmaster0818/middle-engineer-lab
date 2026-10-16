@@ -295,7 +295,7 @@ export default function ITPassportCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">IT・エンジニア転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ご自身の経験と目的に合ったキャリアの方向性を、IT特化型エージェントで市場価値とともに確認しましょう。
+            ご自身の経験と目的に合ったキャリアの方向性を、IT特化型エージェントで市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

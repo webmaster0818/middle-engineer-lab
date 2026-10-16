@@ -247,7 +247,7 @@ export default function ManagementPage() {
         <section id="resume" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">職務経歴書での見せ方【Before/After例】</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            マネジメント志望で最も差がつくのが職務経歴書です。「マネジメント経験あり」と書くだけでは伝わりません。<strong>チーム規模・担当範囲・もたらした変化</strong>の3点をセットで書きましょう。
+            マネジメント志望で最も差がつくのが職務経歴書です。「マネジメント経験あり」と書くだけでは伝わりません。<strong>チーム規模・担当範囲・もたらした変化</strong>の3点をセットで書いてください。
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">

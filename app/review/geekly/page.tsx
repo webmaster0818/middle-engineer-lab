@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "Geeklyの評判・口コミ｜30代40代エンジニアの本音レビュー";
 const DESCRIPTION =
-  "Geekly（ギークリー）の評判・口コミを30代40代エンジニア目線で検証します。求人数や年収アップ実績、レスポンスの速さ、しつこい・勝手に応募といった不安、退会方法までデータと出典付きで解説します。";
+  "Geekly（ギークリー）の評判・口コミを30代40代エンジニア目線で検証します。求人数や年収アップ実績、レスポンスの速さ、しつこい・勝手に応募といった不安、退会方法までデータと出典を明記して解説します。";
 const URL = "/review/geekly/";
 
 export const metadata: Metadata = {
@@ -302,7 +302,7 @@ export default function GeeklyReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載ではありません）。
           </p>
@@ -384,7 +384,7 @@ export default function GeeklyReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              提案数・スピードの恩恵を最も受けやすい年代です。中心となる特化エージェントとして使い、面談では「上げたい年収」と「使いたい技術・行きたい領域（Web／ゲーム等）」を明確にすると、スピード提案の精度が上がります。応募の同意プロセスだけは最初に確認しておきましょう。
+              提案数・スピードの恩恵を最も受けやすい年代です。中心となる特化エージェントとして使い、面談では「上げたい年収」と「使いたい技術・行きたい領域（Web／ゲーム等）」を明確にすると、スピード提案の精度が上がります。応募の同意プロセスだけは最初に確認しておくことをおすすめします。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>

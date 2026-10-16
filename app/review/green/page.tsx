@@ -174,7 +174,7 @@ export default function GreenReview() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           Greenの転職評判は？エージェントとの違いを解説
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 直接応募型転職サイトの仕組みと口コミ傾向を出典付きで検証</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 直接応募型転職サイトの仕組みと口コミ傾向を出典を明記して検証</p>
 
         <p className="text-slate-700 leading-relaxed mb-6">
           Green（グリーン）は、株式会社アトラエが運営するIT/Web業界特化の転職サービスです。ここで最初に押さえておきたい最重要ポイントは、<span className="font-bold">Greenは転職エージェントではなく、企業と直接やり取りする「ダイレクトリクルーティング型の転職サイト」</span>だということです。担当アドバイザーがつくエージェントとは仕組みも使い方も大きく異なります。本記事では、この「エージェントとの違い」を軸に、Greenの特徴・口コミ傾向・30代40代の使い分け戦略を、出典を明示しながら解説します。
@@ -219,7 +219,7 @@ export default function GreenReview() {
         <section id="vs-agent" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">Greenはエージェントではない：違いを理解する</h2>
           <p className="text-sm text-slate-600 mb-4 leading-relaxed">
-            Greenを正しく使うために、まず「転職エージェント」と「直接応募型転職サイト（ダイレクトリクルーティング）」の違いを理解しましょう。この違いを知らずに「サポートしてくれない」と感じてしまうのは、仕組みのミスマッチです。
+            Greenを正しく使うために、まず「転職エージェント」と「直接応募型転職サイト（ダイレクトリクルーティング）」の違いを理解してください。この違いを知らずに「サポートしてくれない」と感じてしまうのは、仕組みのミスマッチです。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -306,7 +306,7 @@ export default function GreenReview() {
         <section id="bad" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">悪い評判の傾向</h2>
           <p className="text-sm text-slate-600 mb-4 leading-relaxed">
-            一方で、axxis・HonNe等の口コミプラットフォームでは次のような不満の傾向も見られます。公平性のため、デメリットも具体的に確認しておきましょう。
+            一方で、axxis・HonNe等の口コミプラットフォームでは次のような不満の傾向も見られます。公平性のため、デメリットも具体的に確認しておくことをおすすめします。
           </p>
           <div className="space-y-4">
             {badReviews.map((r, i) => (
@@ -332,7 +332,7 @@ export default function GreenReview() {
             </div>
             <div className="border-l-4 border-petrol pl-4">
               <p className="font-bold text-slate-800 mb-1">「地方・SIer求人が少ない」への対処</p>
-              <p>地方在住や非Web系を志向する場合は、全国展開の総合型エージェントと併用しましょう。Greenはあくまで「Web系・ベンチャーの直接応募チャネル」と位置づけるのが現実的です。</p>
+              <p>地方在住や非Web系を志向する場合は、全国展開の総合型エージェントと併用することをおすすめします。Greenはあくまで「Web系・ベンチャーの直接応募チャネル」と位置づけるのが現実的です。</p>
             </div>
           </div>
         </section>

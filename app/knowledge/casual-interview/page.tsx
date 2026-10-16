@@ -95,7 +95,7 @@ const faqs = [
   },
   {
     q: "逆質問は何個くらい用意すべきですか？",
-    a: "5〜8問を準備し、会話の流れで3〜5問使えれば十分です。本記事のカテゴリ別リストから、自分が最も知りたい領域を中心に選びましょう。調べれば分かる内容ではなく、現場の判断や運用に踏み込む質問が好印象です。",
+    a: "5〜8問を準備し、会話の流れで3〜5問使えれば十分です。本記事のカテゴリ別リストから、自分が最も知りたい領域を中心に選んでください。調べれば分かる内容ではなく、現場の判断や運用に踏み込む質問が好印象です。",
   },
   {
     q: "給与や待遇は聞いてもいいですか？",
@@ -236,7 +236,7 @@ export default function CasualInterviewPage() {
         <section id="flow" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">進行フロー（30〜60分）</h2>
           <p className="text-slate-600 text-sm leading-relaxed mb-4">
-            多くのカジュアル面談は30〜60分で、おおむね次の流れで進みます。後半に逆質問の時間が用意されることが多いので、聞きたいことを優先順位順に整理しておきましょう。
+            多くのカジュアル面談は30〜60分で、おおむね次の流れで進みます。後半に逆質問の時間が用意されることが多いので、聞きたいことを優先順位順に整理しておくことをおすすめします。
           </p>
           <div className="space-y-3">
             {[
@@ -309,7 +309,7 @@ export default function CasualInterviewPage() {
             <div className="bg-red-50 rounded-lg p-5">
               <h3 className="font-bold text-red-800 mb-2">調べれば分かることを聞く</h3>
               <p className="text-sm text-red-700 leading-relaxed">
-                「どんな事業をしていますか」「設立はいつですか」など、コーポレートサイトや求人票に書かれている内容を聞くと、準備不足の印象を与えます。基本情報は事前に押さえておきましょう。
+                「どんな事業をしていますか」「設立はいつですか」など、コーポレートサイトや求人票に書かれている内容を聞くと、準備不足の印象を与えます。基本情報は事前に押さえておくことをおすすめします。
               </p>
             </div>
             <div className="bg-red-50 rounded-lg p-5">
@@ -321,7 +321,7 @@ export default function CasualInterviewPage() {
             <div className="bg-red-50 rounded-lg p-5">
               <h3 className="font-bold text-red-800 mb-2">受け身で質問が一つも出ない</h3>
               <p className="text-sm text-red-700 leading-relaxed">
-                「特にありません」で終わると、関心の低さと映ります。たとえ条件が合わなくても、一つは現場に踏み込む質問を用意しておきましょう。
+                「特にありません」で終わると、関心の低さと映ります。たとえ条件が合わなくても、一つは現場に踏み込む質問を用意しておくことをおすすめします。
               </p>
             </div>
           </div>
@@ -348,7 +348,7 @@ export default function CasualInterviewPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">期待役割と裁量を確認する</h3>
               <p>
-                「このポジションに期待する役割」「入社後3〜6か月で求める成果」を聞くと、ミドルとしての期待値が分かります。プレイヤーとして採るのか、技術リードやマネジメントを任せたいのかを早期に擦り合わせましょう。
+                「このポジションに期待する役割」「入社後3〜6か月で求める成果」を聞くと、ミドルとしての期待値が分かります。プレイヤーとして採るのか、技術リードやマネジメントを任せたいのかを早期に擦り合わせてください。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -384,7 +384,7 @@ export default function CasualInterviewPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">スカウト経由のカジュアル面談を活かす</h2>
           <p className="text-blue-100 text-sm mb-4">
-            カジュアル面談はスカウト経由で届くことが多い機会です。スカウトの仕組みと返信の組み立てを押さえて、面談の質を高めましょう。
+            カジュアル面談はスカウト経由で届くことが多い機会です。スカウトの仕組みと返信の組み立てを押さえて、面談の質を高めてください。
           </p>
           <Link
             href="/knowledge/scout-reply/"

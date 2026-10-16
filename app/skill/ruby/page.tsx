@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Railsエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. Rubyの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. Rubyの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Railsエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方と主なエージェント" },
@@ -140,7 +140,7 @@ export default function RubySkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Rubyの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Rubyの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             言語別年収は媒体により定義が異なります。ここでは出典と時点を明示できる公表データのみを使用します。
           </p>
@@ -269,10 +269,10 @@ export default function RubySkillPage() {
               <strong>スタートアップは「即戦力＋幅広さ」を求めます。</strong>Railsの中心的な活躍領域であるスタートアップは少人数のため、コードを書く力に加えて設計判断やフロント対応まで幅広く担える人を求めます。30代・40代でフルスタックの経験があるなら、それがそのまま強みになります。
             </p>
             <p>
-              <strong>CTO／リード候補としての需要があります。</strong>技術選定・採用・チームビルディングを担えるシニアは、スタートアップで重宝されます。マネジメントやプロダクト視点の経験があるなら、Railsの実装力とセットで打ち出しましょう。
+              <strong>CTO／リード候補としての需要があります。</strong>技術選定・採用・チームビルディングを担えるシニアは、スタートアップで重宝されます。マネジメントやプロダクト視点の経験があるなら、Railsの実装力とセットで打ち出してください。
             </p>
             <p>
-              <strong>カルチャーフィットの確認も重要です。</strong>スタートアップは事業フェーズや働き方の幅が大きいため、年齢を重ねた分だけ条件・カルチャーの見極めが重要です。Greenのカジュアル面談などを活用し、入社前に社風を確認しておきましょう。
+              <strong>カルチャーフィットの確認も重要です。</strong>スタートアップは事業フェーズや働き方の幅が大きいため、年齢を重ねた分だけ条件・カルチャーの見極めが重要です。Greenのカジュアル面談などを活用し、入社前に社風を確認しておくことをおすすめします。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -319,7 +319,7 @@ export default function RubySkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Railsのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Railsはスタートアップ求人が中心だからこそ、仲介型エージェントとダイレクト型サイトの併用で間口を広げましょう。
+            Railsはスタートアップ求人が中心だからこそ、仲介型エージェントとダイレクト型サイトの併用で間口を広げてください。
           </p>
           <Link
             href="/#ranking"

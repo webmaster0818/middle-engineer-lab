@@ -160,7 +160,7 @@ export default function FindyVsLevtechPage() {
         <section id="target" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較④：対象層・年代適性</h2>
           <p className="text-slate-600 leading-relaxed mb-4">Findyはモダン言語のハイスキル即戦力・Web自社開発志向の層に最適化されています。GitHubの活動が評価軸のため、コードを書き続けている人ほど効果が出ます。地方求人は少なめで首都圏中心です。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアは利用者の約80%が20〜30代（二次情報）とされ、IT実務経験のある現場志向のエンジニアと相性が良い設計です。未経験者は紹介されにくいという評判があるため、経験の浅い方は<Link href="/compare/inexperienced/" className="text-petrol hover:underline">未経験向けの選択肢</Link>も検討しましょう。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアは利用者の約80%が20〜30代（二次情報）とされ、IT実務経験のある現場志向のエンジニアと相性が良い設計です。未経験者は紹介されにくいという評判があるため、経験の浅い方は<Link href="/compare/inexperienced/" className="text-petrol hover:underline">未経験向けの選択肢</Link>も検討することをおすすめします。</p>
         </section>
 
         <section id="review" className="mb-12 scroll-mt-20">

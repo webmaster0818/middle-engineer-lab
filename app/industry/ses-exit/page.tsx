@@ -46,7 +46,7 @@ const destinations: { title: string; desc: string; fit: string }[] = [
 const faqs = [
   {
     q: "SESから転職するベストなタイミングは？",
-    a: "プロジェクトの切れ目（契約更新のタイミング）が引き継ぎ面でスムーズです。ただし在職中に転職活動を始めることが基本であり、内定を得てから退職の意思を伝えましょう。情報収集やエージェント登録は今すぐ始めても問題ありません。",
+    a: "プロジェクトの切れ目（契約更新のタイミング）が引き継ぎ面でスムーズです。ただし在職中に転職活動を始めることが基本であり、内定を得てから退職の意思を伝えてください。情報収集やエージェント登録は今すぐ始めても問題ありません。",
   },
   {
     q: "SES経験しかなくても自社開発企業に転職できますか？",
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "SESを辞めたい理由を面接でどう伝えるべきですか？",
-    a: "「SESが嫌だから」ではなく、「プロダクトに一貫して関わりたい」「技術選定から携わりたい」「チームで継続的に改善する開発がしたい」など前向きな理由に変換しましょう。ネガティブな転職理由はマイナス評価につながりやすいためです。",
+    a: "「SESが嫌だから」ではなく、「プロダクトに一貫して関わりたい」「技術選定から携わりたい」「チームで継続的に改善する開発がしたい」など前向きな理由に変換してください。ネガティブな転職理由はマイナス評価につながりやすいためです。",
   },
   {
     q: "SESからの転職で年収は上がりますか？",
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "SESの経験年数が短くても転職できますか？",
-    a: "開発経験が1年以上あれば選択肢はあります。経験が浅い場合は、ポートフォリオ作成やモダン技術の学習を並行しましょう。未経験寄りの方は別記事も参考にしてください。",
+    a: "開発経験が1年以上あれば選択肢はあります。経験が浅い場合は、ポートフォリオ作成やモダン技術の学習を並行してください。未経験寄りの方は別記事も参考にしてください。",
   },
   {
     q: "「SES＝悪」なのでしょうか？",
@@ -161,7 +161,7 @@ export default function SesExitPage() {
         <section id="issues" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">SESで抱えがちな課題</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            まず、自分の不満が「SESという形態」由来なのか「今の会社・案件」由来なのかを切り分けましょう。下記の課題に強く当てはまるなら、転職で環境を変える価値が高いと言えます。
+            まず、自分の不満が「SESという形態」由来なのか「今の会社・案件」由来なのかを切り分けてください。下記の課題に強く当てはまるなら、転職で環境を変える価値が高いと言えます。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
@@ -236,7 +236,7 @@ export default function SesExitPage() {
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方（公表データ）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            SESは多重下請けの構造上、現場で生み出す価値より年収が低く抑えられているケースが少なくありません。そのため、市場価値を正しく評価される環境に移れば年収が改善する可能性があります。公表データを基準に現実的な期待値を持ちましょう。
+            SESは多重下請けの構造上、現場で生み出す価値より年収が低く抑えられているケースが少なくありません。そのため、市場価値を正しく評価される環境に移れば年収が改善する可能性があります。公表データを基準に現実的な期待値を持ってください。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -340,7 +340,7 @@ export default function SesExitPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">SESからの転職準備を始めましょう</h2>
+          <h2 className="text-xl font-bold mb-3">SESからの転職準備を始める</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントに無料登録して、自社開発・社内SEの求人をチェックしてみませんか？</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

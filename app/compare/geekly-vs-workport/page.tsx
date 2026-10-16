@@ -92,7 +92,7 @@ const relatedArticles = [
   { name: "Geekly vs Green比較", href: "/compare/geekly-vs-green/" },
   { name: "ワークポート vs マイナビIT比較", href: "/compare/workport-vs-mynavi/" },
   { name: "IT転職エージェント10社比較", href: "/compare/agents/" },
-  { name: "未経験OKエージェント比較", href: "/compare/inexperienced/" },
+  { name: "未経験可のエージェント比較", href: "/compare/inexperienced/" },
 ];
 
 const toc = [

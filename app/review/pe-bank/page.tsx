@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "PE-BANKの評判・口コミ｜30代40代フリーランスエンジニア";
 const DESCRIPTION =
-  "PE-BANK（株式会社PE-BANK運営）の評判・口コミを30代40代エンジニア目線で検証します。マージン完全公開（8〜12%）、共済会の保障、全国12拠点、向き不向きを公式情報と出典付きで解説します。";
+  "PE-BANK（株式会社PE-BANK運営）の評判・口コミを30代40代エンジニア目線で検証します。マージン完全公開（8〜12%）、共済会の保障、全国12拠点、向き不向きを公式情報と出典を明記して解説します。";
 const URL = "/review/pe-bank/";
 
 export const metadata: Metadata = {
@@ -286,7 +286,7 @@ export default function PeBankReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載・スコア転載ではありません）。
           </p>
@@ -337,7 +337,7 @@ export default function PeBankReview() {
               の提示単価と並べて比較すると、PE-BANKの透明性のメリットが判断しやすくなります。
             </p>
             <p>
-              30代・40代で家族やローンがある場合、共済会の所得補償・連鎖倒産防止などは<span className="font-bold">案件が途切れたときの備え</span>として検討価値があります。ただし任意加入で費用がかかるため、必要な保障だけを見極めて加入を判断しましょう。報酬保障型の
+              30代・40代で家族やローンがある場合、共済会の所得補償・連鎖倒産防止などは<span className="font-bold">案件が途切れたときの備え</span>として検討価値があります。ただし任意加入で費用がかかるため、必要な保障だけを見極めて加入を判断することをおすすめします。報酬保障型の
               <Link href="/review/midworks/" className="text-petrol hover:underline">Midworks</Link>
               と比較し、自分のリスク許容度に合う形を選ぶとよいでしょう。
             </p>

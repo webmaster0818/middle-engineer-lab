@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/bandai-namco/" },
   title: "バンダイナムコの転職難易度と年収は？平均984万円【2026年・有報】エンジニア転職ガイド",
   description:
-    "バンダイナムコオンラインの平均年齢は34歳・従業員212名です(2022年3月時点の公表値)。同社は2025年4月1日付でバンダイナムコエンターテインメントに吸収合併され消滅しました。あわせてバンダイナムコのエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説します。",
+    "バンダイナムコオンラインの平均年齢は34歳・従業員212名（2022年3月時点の公表値）です。同社は2025年4月1日付でバンダイナムコエンターテインメントに吸収合併され消滅しました。あわせてバンダイナムコのエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説します。",
 };
 
 const toc = [
   { id: "conclusion", label: "転職難易度と向いている人" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "basic", label: "基本データ（出典明記）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
   { id: "salary", label: "年収データ（重要な注意点あり）" },
@@ -94,7 +94,7 @@ export default function BandaiNamcoCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm"><tbody>
               {basicData.map(([label, value], i) => (<tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}><th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">{label}</th><td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td></tr>))}

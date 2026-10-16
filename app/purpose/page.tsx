@@ -76,7 +76,7 @@ export default function PurposeIndexPage() {
           目的別エンジニア転職ガイド一覧【2026年版】
         </h1>
         <p className="text-slate-500 text-sm mb-8">
-          ご自身の転職目的に合わせたガイドを全{purposes.length}件ご用意しています。目的を明確にして、最適な転職戦略を立てましょう。
+          ご自身の転職目的に合わせたガイドを全{purposes.length}件ご用意しています。目的を明確にして、最適な転職戦略を立ててください。
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
@@ -98,7 +98,7 @@ export default function PurposeIndexPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
           <h2 className="text-xl font-bold mb-3">転職の目的が決まったら</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントに相談して、ご自身の目的に合った求人を紹介してもらいましょう。
+            IT特化型エージェントに相談して、ご自身の目的に合った求人を紹介してもらってください。
           </p>
           <Link
             href="/#ranking"

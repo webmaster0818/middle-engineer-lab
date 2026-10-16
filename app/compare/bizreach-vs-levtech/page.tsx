@@ -120,7 +120,7 @@ export default function BizreachVsLevtechPage() {
           <p className="text-slate-600 leading-relaxed mb-4">ビズリーチは累計の導入企業数41,800社以上、登録ヘッドハンター9,700人以上（2025年4月時点・二次集計）という規模で、全業種のハイクラス求人を扱います。年収1,000万円以上の求人が全体の約4割（二次）とされ、求人の「上限の高さ」が際立ちます。求人を探すというより、登録したプロフィールに対してスカウトが集まる構造です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアは公開求人約5万件超（2026年5〜6月時点・複数転職メディア集計）をIT/Webに特化して保有し、公開求人の約8割が年収600万円以上（二次情報）と、ボリュームゾーンが高めです。技術職に絞った求人の「密度」が強みで、首都圏中心（二次情報）という地域特性があります。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2">上限の高い求人・幅広い業種ならビズリーチ、IT特化の求人密度ならレバテックキャリアが適しています。地方在住の場合はレバテックが首都圏中心である点に注意し、<Link href="/compare/agents/" className="text-petrol hover:underline">総合型エージェント</Link>の併用も検討しましょう。</p>
+            <p className="mb-2">上限の高い求人・幅広い業種ならビズリーチ、IT特化の求人密度ならレバテックキャリアが適しています。地方在住の場合はレバテックが首都圏中心である点に注意し、<Link href="/compare/agents/" className="text-petrol hover:underline">総合型エージェント</Link>の併用も検討することをおすすめします。</p>
           </div>
         </section>
 
@@ -155,7 +155,7 @@ export default function BizreachVsLevtechPage() {
         <section id="target" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較⑤：対象層・年代適性</h2>
           <p className="text-slate-600 leading-relaxed mb-4">ビズリーチは年収750万円以上が一つの目安とされ、管理職・外資・高年収を狙う層に向いています。経歴次第でスカウトの量が左右されるため、実績を整理してプロフィールに反映できる人ほど効果が出ます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアは利用者の約80%が20〜30代（二次情報）とされ、IT実務経験のある現場志向のエンジニアと相性が良い設計です。未経験者は紹介されにくいという評判があるため、経験の浅い方は<Link href="/compare/inexperienced/" className="text-petrol hover:underline">未経験向けの選択肢</Link>も検討しましょう。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアは利用者の約80%が20〜30代（二次情報）とされ、IT実務経験のある現場志向のエンジニアと相性が良い設計です。未経験者は紹介されにくいという評判があるため、経験の浅い方は<Link href="/compare/inexperienced/" className="text-petrol hover:underline">未経験向けの選択肢</Link>も検討することをおすすめします。</p>
         </section>
 
         <section id="review" className="mb-12 scroll-mt-20">

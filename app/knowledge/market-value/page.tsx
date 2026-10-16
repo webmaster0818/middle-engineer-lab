@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/market-value/" },
   title: "エンジニアの市場価値の測り方【年代別年収データ】",
   description:
-    "30代・40代エンジニアが自分の市場価値を測る方法を解説します。レバテック公表の年代別平均年収、市場価値を測る4つの方法、価値を高める戦略、判断チェックリストを出典付きで紹介します。",
+    "30代・40代エンジニアが自分の市場価値を測る方法を解説します。レバテック公表の年代別平均年収、市場価値を測る4つの方法、価値を高める戦略、判断チェックリストを出典を明記して紹介します。",
 };
 
 const toc = [
@@ -24,7 +24,7 @@ const toc = [
 const faqs = [
   {
     q: "市場価値と現在の年収が乖離している場合、転職すべきですか？",
-    a: "市場価値が現年収を大きく上回る場合は、転職で年収アップできる可能性があります。ただし現職の福利厚生・退職金・ストックオプションなども含めた総合的な待遇で比較しましょう。転職エージェントに相談して具体的な求人の年収レンジを確認するのが確実です。",
+    a: "市場価値が現年収を大きく上回る場合は、転職で年収アップできる可能性があります。ただし現職の福利厚生・退職金・ストックオプションなども含めた総合的な待遇で比較することをおすすめします。転職エージェントに相談して具体的な求人の年収レンジを確認するのが確実です。",
   },
   {
     q: "年収診断ツールの結果はどの程度信頼できますか？",
@@ -32,11 +32,11 @@ const faqs = [
   },
   {
     q: "マネジメント経験がないと市場価値は下がりますか？",
-    a: "技術的な専門性が高ければ、スペシャリストとして高い市場価値を維持できます。一方でマネジメント経験があると、選択肢（EM・テックリードなど）が広がるのも事実です。どちらの軸で価値を高めるかは、自己分析で見極めましょう。",
+    a: "技術的な専門性が高ければ、スペシャリストとして高い市場価値を維持できます。一方でマネジメント経験があると、選択肢（EM・テックリードなど）が広がるのも事実です。どちらの軸で価値を高めるかは、自己分析で見極めてください。",
   },
   {
     q: "市場価値を上げるために効果的なスキルは何ですか？",
-    a: "クラウド（AWS/GCP）、Kubernetes、Go/Rust、AI/ML関連は需要が高い領域として挙げられます。ただし流行を追うより、自分の強みの延長線上にあるスキルを深掘りする方が市場価値は安定します。市場のニーズ（Must）はエージェント面談で確認しましょう。",
+    a: "クラウド（AWS/GCP）、Kubernetes、Go/Rust、AI/ML関連は需要が高い領域として挙げられます。ただし流行を追うより、自分の強みの延長線上にあるスキルを深掘りする方が市場価値は安定します。市場のニーズ（Must）はエージェント面談でご確認ください。",
   },
   {
     q: "IT人材の需要は今後どうなりますか？",
@@ -63,7 +63,7 @@ export default function MarketValuePage() {
     <>
       <ArticleJsonLd
         title="エンジニアの市場価値の測り方【年代別年収データ】"
-        description="30代・40代エンジニアが自分の市場価値を測る方法を解説します。レバテック公表の年代別平均年収、市場価値を測る4つの方法、価値を高める戦略、判断チェックリストを出典付きで紹介します。"
+        description="30代・40代エンジニアが自分の市場価値を測る方法を解説します。レバテック公表の年代別平均年収、市場価値を測る4つの方法、価値を高める戦略、判断チェックリストを出典を明記して紹介します。"
         url="/knowledge/market-value/"
       />
       <script
@@ -154,7 +154,7 @@ export default function MarketValuePage() {
         <section id="data" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">2. 年代別・エンジニアの年収データ</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            自分の市場価値を測る出発点として、まず年代別の平均水準を押さえましょう。下表はレバテックが公表する正社員SEの年代別平均年収（2025年）です。
+            自分の市場価値を測る出発点として、まず年代別の平均水準を押さえてください。下表はレバテックが公表する正社員SEの年代別平均年収（2025年）です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
@@ -248,7 +248,7 @@ export default function MarketValuePage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">5. 需要の高い技術を取り入れる</h3>
-              <p className="text-sm text-petrol-deep">クラウド・Kubernetes・Go/Rust・AI/ML関連は需要が高い領域です。自分の軸を保ちつつ取り入れましょう。関連: <Link href="/knowledge/continuous-learning/" className="text-petrol-deep underline">継続的な学習</Link>。</p>
+              <p className="text-sm text-petrol-deep">クラウド・Kubernetes・Go/Rust・AI/ML関連は需要が高い領域です。自分の軸を保ちつつ取り入れてください。関連: <Link href="/knowledge/continuous-learning/" className="text-petrol-deep underline">継続的な学習</Link>。</p>
             </div>
           </div>
         </section>

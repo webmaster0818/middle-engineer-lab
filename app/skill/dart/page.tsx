@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Dartエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. Dart/Flutterの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. Dart/Flutterの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Dartエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
@@ -138,7 +138,7 @@ export default function DartSkillPage() {
         </section>
 
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Dart/Flutterの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Dart/Flutterの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             DartやFlutterに限定した公的な平均年収の公表は乏しいため、ここでは年代別・職種別の公表データで代替します。出典と時点を明示できる値のみを使用します。
           </p>
@@ -178,7 +178,7 @@ export default function DartSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "Web／ネイティブのアプリ開発実務2〜3年／HTTP・APIの基礎／FlutterはGitHub・個人アプリでの自習レベル", note: "Flutter未経験OK求人がここに該当" },
+              { tier: "入口（ポテンシャル）", req: "Web／ネイティブのアプリ開発実務2〜3年／HTTP・APIの基礎／FlutterはGitHub・個人アプリでの自習レベル", note: "Flutter未経験可の求人がここに該当" },
               { tier: "即戦力（ミドル）", req: "Flutterでのアプリ開発・ストアリリース実務／状態管理／ネイティブ連携・テスト実装", note: "求人の中心ゾーン" },
               { tier: "ハイクラス", req: "Flutterアプリの設計・テックリード／CI/CD・大規模化／技術選定", note: "年収800万円以上が狙える層" },
             ].map((item, i) => (
@@ -278,7 +278,7 @@ export default function DartSkillPage() {
               <strong>掛け算で差別化します。</strong>Flutter単体より「Flutter＋バックエンド」「Flutter＋特定業界のアプリ知見（金融・医療・小売など）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識をアプリという実装手段と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>マネジメント経験も資産になります。</strong>テックリードやモバイル基盤のFlutter求人では、実装力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやモバイル基盤のFlutter求人では、実装力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -290,13 +290,13 @@ export default function DartSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 公式ドキュメントとWidgetの理解から始めます。</strong>Flutterは公式ドキュメントが充実しています。宣言的UIとWidgetツリーの考え方を最初に押さえると、その後の学習がスムーズです。Dartの言語仕様もあわせて学びましょう。
+              <strong>① 公式ドキュメントとWidgetの理解から始めます。</strong>Flutterは公式ドキュメントが充実しています。宣言的UIとWidgetツリーの考え方を最初に押さえると、その後の学習がスムーズです。Dartの言語仕様もあわせて学んでください。
             </p>
             <p>
-              <strong>② 状態管理を実プロジェクトで使います。</strong>Riverpod／Blocなどの状態管理はFlutterの実務で必ず問われます。API連携を伴う実用的なアプリを作り、状態管理の設計を経験として語れる状態にしましょう。
+              <strong>② 状態管理を実プロジェクトで使います。</strong>Riverpod／Blocなどの状態管理はFlutterの実務で必ず問われます。API連携を伴う実用的なアプリを作り、状態管理の設計を経験として語れる状態にしてください。
             </p>
             <p>
-              <strong>③ ストアリリースとCI/CDを経験します。</strong>アプリをストアに公開し、可能ならCI/CDで配信を自動化すると、実務に近い開発フローを示せます。クロスプラットフォームの強みを実証できる題材を選びましょう。
+              <strong>③ ストアリリースとCI/CDを経験します。</strong>アプリをストアに公開し、可能ならCI/CDで配信を自動化すると、実務に近い開発フローを示せます。クロスプラットフォームの強みを実証できる題材を選んでください。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。

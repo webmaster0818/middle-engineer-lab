@@ -43,10 +43,10 @@ const salaryAvoidCases = [
 
 const faqs = [
   { q: "家族持ちの転職で最初に決めるべきことは何ですか？", a: "「絶対に下回れない最低年収ライン」「勤務地・リモートの希望」「転職活動に使える期間と生活費」の3点を先に固めることです。これを配偶者と共有してから動くと、後戻りや家庭内のすれ違いを防げます。" },
-  { q: "家族への相談はいつ切り出すべきですか？", a: "「転職を考え始めた」検討段階で共有するのがおすすめです。内定が出てから初めて伝えると事後報告の印象になり、反対されやすくなります。方向性の段階で巻き込み、面接・内定の節目ごとに進捗を共有しましょう。" },
+  { q: "家族への相談はいつ切り出すべきですか？", a: "「転職を考え始めた」検討段階で共有するのがおすすめです。内定が出てから初めて伝えると事後報告の印象になり、反対されやすくなります。方向性の段階で巻き込み、面接・内定の節目ごとに進捗を共有してください。" },
   { q: "年収が下がる転職は避けるべきですか？", a: "一概には言えません。残業削減やリモート化で可処分時間・可処分所得が改善する、中期で回収できる見込みがある、といった場合は年収ダウンが合理的なこともあります。逆に固定支出をカバーできない水準まで下がる場合や、回収の道筋が描けない場合は慎重に判断すべきです。" },
   { q: "住宅ローンがある場合、転職に影響しますか？", a: "転職直後は勤続年数が短くなるため、住宅ローンの新規審査では不利に働くことがあります。借入の予定があるなら先に済ませる、または既存ローンの返済に支障が出ない年収レンジで転職先を選ぶ、といった配慮が必要です。具体的な審査基準は金融機関にご確認ください。" },
-  { q: "子どもの転校が心配です。転勤の少ない会社はどう探せばよいですか？", a: "「勤務地固定」「転勤なし」「フルリモート可」を条件にエージェントへ伝えましょう。IT企業は職種特性上、全国転勤が前提でない求人やフルリモート求人が比較的見つけやすい領域です。" },
+  { q: "子どもの転校が心配です。転勤の少ない会社はどう探せばよいですか？", a: "「勤務地固定」「転勤なし」「フルリモート可」を条件にエージェントへ伝えてください。IT企業は職種特性上、全国転勤が前提でない求人やフルリモート求人が比較的見つけやすい領域です。" },
   { q: "配偶者に転職を反対されたらどうすればよいですか？", a: "感情論ではなく、転職理由・期待できるメリット・想定リスクとその対策を具体的に説明します。複数のエージェントで把握した市場価値や、在職中に内定を確保する計画を示すと、不安が和らぎやすくなります。" },
   { q: "転居を伴う転職を判断する基準はありますか？", a: "年収の増加分が転居コスト・生活費の差・配偶者の収入変化を上回るか、子どもの就学・進学の節目と合うか、配偶者のキャリアやサポート体制が成り立つか、を総合で見ます。本ページのチェックリストを使って一つずつ確認してください。" },
   { q: "在職中と退職後、どちらで転職活動すべきですか？", a: "家族の生活基盤を守る観点では、在職中の活動が基本です。収入を維持したまま、内定を得てから現職を辞める流れにすれば、空白期間や焦りによる妥協を避けられます。" },
@@ -101,7 +101,7 @@ export default function FamilyPage() {
 
         <section id="consult" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">家族への相談タイミングと伝え方（例文付き）</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">家族が転職に反対する多くの理由は「いきなり決まった話を聞かされた」という事後報告の不信感です。タイミングを分けて段階的に共有しましょう。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">家族が転職に反対する多くの理由は「いきなり決まった話を聞かされた」という事後報告の不信感です。タイミングを分けて段階的に共有してください。</p>
           <div className="overflow-x-auto mb-5">
             <table className="w-full text-sm border-collapse">
               <thead><tr className="bg-slate-100"><th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">段階</th><th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">相談タイミング</th><th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">理由</th></tr></thead>
@@ -148,7 +148,7 @@ export default function FamilyPage() {
 
         <section id="relocation" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">転居を伴う転職の判断チェックリスト</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">転居は家族全員に影響します。以下の項目をすべて確認し、一つでも大きな懸念が残る場合は、フルリモートや勤務地固定の選択肢も含めて再検討しましょう。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">転居は家族全員に影響します。以下の項目をすべて確認し、一つでも大きな懸念が残る場合は、フルリモートや勤務地固定の選択肢も含めて再検討することをおすすめします。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-3 text-sm text-slate-700">
               <li>☑ 年収の増加分が、転居費用・地域による生活費差・配偶者の収入変化を上回るか</li>
@@ -168,7 +168,7 @@ export default function FamilyPage() {
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">1. 生活防衛資金を確保してから動く</h3><p className="text-sm text-petrol-deep">想定外に備え、生活費の数か月分を確保したうえで活動を始めると、焦って条件の悪い内定を受けるリスクを避けられます。</p></div>
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">2. 在職中に内定を確保する</h3><p className="text-sm text-petrol-deep">収入を維持したまま選考を進めれば、納得いくまで複数社を比較できます。有給を使った面接日程の調整はエージェントに依頼可能です。</p></div>
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">3. 複数内定で総合待遇を比較する</h3><p className="text-sm text-petrol-deep">年収だけでなく、リモート可否・残業・退職金・入社日の柔軟性まで含めて比較します。<Link href="/knowledge/offer-compare/" className="text-petrol-deep underline">複数内定の比較方法</Link>が参考になります。</p></div>
-            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">4. 入社日を家族の都合に合わせる</h3><p className="text-sm text-petrol-deep">子どもの学期の区切りや家族の行事に合わせた入社日は、多くの企業が調整に応じます。遠慮せず相談しましょう。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">4. 入社日を家族の都合に合わせる</h3><p className="text-sm text-petrol-deep">子どもの学期の区切りや家族の行事に合わせた入社日は、多くの企業が調整に応じます。遠慮せず相談することをおすすめします。</p></div>
           </div>
         </section>
 

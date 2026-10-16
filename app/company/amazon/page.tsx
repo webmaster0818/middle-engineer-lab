@@ -16,7 +16,7 @@ const toc = [
   { id: "basic", label: "基本データ" },
   { id: "hiring", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック・開発文化" },
-  { id: "salary", label: "年収データ（出典付き）" },
+  { id: "salary", label: "年収データ（出典明記）" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点（OLP）" },
   { id: "review", label: "口コミ傾向" },
@@ -242,7 +242,7 @@ export default function AmazonCompanyPage() {
 
         {/* 年収 */}
         <section id="salary" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（出典明記）</h2>
           <p className="text-slate-700 text-sm leading-relaxed mb-4">
             アマゾンジャパン／AWSジャパンは<strong>有価証券報告書を公表しておらず、公式の平均年収はありません</strong>。
             以下は報酬集計サイトの数値で、<strong>ユーザー投稿ベースで変動が大きい</strong>点に留意してください。

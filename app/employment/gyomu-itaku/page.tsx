@@ -294,7 +294,7 @@ export default function GyomuItakuPage() {
           <div className="border border-amber-200 bg-amber-50 rounded-lg p-5 mb-4">
             <h3 className="font-bold text-amber-800 mb-2">偽装請負・偽装委託に注意</h3>
             <p className="text-sm text-slate-700 leading-relaxed">
-              契約は業務委託でも、実態として発注者が指揮命令している場合、偽装請負として労働者派遣法・労働基準法に抵触します。業務委託エンジニアは本来、発注者の指揮命令下に入りません。常駐案件では、勤怠の管理方法や指示の出され方が、契約の建付けと矛盾しないかを確認しましょう。
+              契約は業務委託でも、実態として発注者が指揮命令している場合、偽装請負として労働者派遣法・労働基準法に抵触します。業務委託エンジニアは本来、発注者の指揮命令下に入りません。常駐案件では、勤怠の管理方法や指示の出され方が、契約の建付けと矛盾しないかをご確認ください。
             </p>
           </div>
           <div className="border border-[var(--line)] rounded-lg p-5 mb-4">
@@ -314,7 +314,7 @@ export default function GyomuItakuPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">契約の種類で背負うリスクを見極める</h3>
-              <p className="text-sm text-petrol-deep">同じ「業務委託」でも、準委任と請負ではリスクが大きく異なります。30代・40代で家計の責任が重い場合、完成責任・契約不適合責任を負う請負より、遂行責任にとどまる準委任のほうがリスクを見通しやすいことがあります。契約がどちらに該当するかを、契約書で必ず確認しましょう。</p>
+              <p className="text-sm text-petrol-deep">同じ「業務委託」でも、準委任と請負ではリスクが大きく異なります。30代・40代で家計の責任が重い場合、完成責任・契約不適合責任を負う請負より、遂行責任にとどまる準委任のほうがリスクを見通しやすいことがあります。契約がどちらに該当するかを、契約書で必ずご確認ください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">信用・年金の長期設計を先に組む</h3>

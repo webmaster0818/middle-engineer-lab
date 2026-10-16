@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. MongoDBスキルの転職での活かし方" },
-  { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
+  { id: "market", label: "2. 関連職種の市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. MongoDBスキルを活かせるキャリアパス" },
   { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
@@ -152,7 +152,7 @@ export default function MongodbSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             「MongoDBエンジニア」という職種で年収が単体公表されているわけではないため、ここではMongoDBスキルが評価される近接職種の公表値を、出典と時点を明示して掲載します。
           </p>
@@ -291,7 +291,7 @@ export default function MongodbSkillPage() {
               <strong>掛け算で差別化します。</strong>MongoDB単体より「MongoDB＋RDB」「MongoDB＋ドメイン知識」の掛け合わせが強みです。柔軟なデータ構造が必要な業務（カタログ、IoT、ログ分析など）の知見があると、設計の説得力が増します。
             </p>
             <p>
-              <strong>運用・スケールの経験は希少です。</strong>レプリカセットやシャーディングを伴う本番運用の経験は、求人市場で高く評価されます。障害対応やデータ移行の具体的なエピソードを用意しておきましょう。
+              <strong>運用・スケールの経験は希少です。</strong>レプリカセットやシャーディングを伴う本番運用の経験は、求人市場で高く評価されます。障害対応やデータ移行の具体的なエピソードを用意しておくことをおすすめします。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

@@ -336,7 +336,7 @@ export default function NetworkSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ネットワークスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ネットワーク・インフラ求人に強いIT特化型エージェントで、年収アップの可能性を確認しましょう。
+            ネットワーク・インフラ求人に強いIT特化型エージェントで、年収アップの可能性をご確認ください。
           </p>
           <Link
             href="/#ranking"

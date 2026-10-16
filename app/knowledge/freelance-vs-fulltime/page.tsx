@@ -150,7 +150,7 @@ export default function FreelanceVsFulltimePage() {
         <section id="salary" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収データで見る前提知識</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            判断の出発点として、正社員エンジニアの年収水準を押さえておきましょう。フリーランスの報酬は案件・稼働・スキルで大きく変わるため一律の平均では表しにくく、まずは正社員の客観データを基準にするのが現実的です。
+            判断の出発点として、正社員エンジニアの年収水準を押さえておくことをおすすめします。フリーランスの報酬は案件・稼働・スキルで大きく変わるため一律の平均では表しにくく、まずは正社員の客観データを基準にするのが現実的です。
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
             {[
@@ -203,7 +203,7 @@ export default function FreelanceVsFulltimePage() {
         <section id="tax" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">税・社会保険・信用の違い</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            額面に現れない3つの違いが、フリーランスと正社員の実質的な差を生みます。順に整理しましょう。
+            額面に現れない3つの違いが、フリーランスと正社員の実質的な差を生みます。順に整理してください。
           </p>
           <div className="space-y-4">
             {taxPoints.map((p, i) => (
@@ -220,7 +220,7 @@ export default function FreelanceVsFulltimePage() {
         <section id="framework" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">判断フレームワーク</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            感覚ではなく条件で決めるために、次の手順で比較しましょう。
+            感覚ではなく条件で決めるために、次の手順で比較することをおすすめします。
           </p>
           <div className="space-y-4">
             {[
@@ -310,9 +310,9 @@ export default function FreelanceVsFulltimePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">まずは市場価値の把握から始めましょう</h2>
+          <h2 className="text-xl font-bold mb-3">まずは市場価値の把握から始める</h2>
           <p className="text-blue-100 text-sm mb-4">
-            フリーランスと正社員、どちらが自分に合うか迷ったら、まず転職エージェントで正社員としての市場価値を確認しましょう。
+            フリーランスと正社員、どちらが自分に合うか迷ったら、まず転職エージェントで正社員としての市場価値をご確認ください。
           </p>
           <Link
             href="/compare/agents/"

@@ -148,7 +148,7 @@ export default function CareerIndexPage() {
             </li>
             <li>
               <span className="font-medium text-slate-700">年収の上下と納得感</span>
-              ：コンサルや外資、SREのように上振れしやすい道がある一方、フリーランスから正社員への転換のように一時的に下がる選択もあります。短期の年収だけでなく、数年後の到達点で比較しましょう。
+              ：コンサルや外資、SREのように上振れしやすい道がある一方、フリーランスから正社員への転換のように一時的に下がる選択もあります。短期の年収だけでなく、数年後の到達点で比較することをおすすめします。
             </li>
             <li>
               <span className="font-medium text-slate-700">在職中にできる準備</span>

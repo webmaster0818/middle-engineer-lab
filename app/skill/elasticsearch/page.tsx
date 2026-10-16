@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Elasticsearchスキルの転職市場での進め方" },
-  { id: "market", label: "2. 年収・市場データ（出典付き）" },
+  { id: "market", label: "2. 年収・市場データ（出典明記）" },
   { id: "use", label: "3. Elasticsearchの用途と求人傾向" },
   { id: "level", label: "4. 求められる経験レベルと求人要件" },
   { id: "career", label: "5. キャリアパスと関連技術" },
@@ -142,7 +142,7 @@ export default function ElasticsearchSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収・市場データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収・市場データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Elasticsearch単体の平均年収を集計した公表値は乏しいため、ここでは関連する職種の公表年収で代替します。いずれも出典と時点を明示できる公開データのみを使用します。
           </p>
@@ -201,7 +201,7 @@ export default function ElasticsearchSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "バックエンドまたはインフラの実務2〜3年／Elasticsearchは自習レベル／基本的なクエリDSL", note: "未経験OK求人がここに該当" },
+              { tier: "入口（ポテンシャル）", req: "バックエンドまたはインフラの実務2〜3年／Elasticsearchは自習レベル／基本的なクエリDSL", note: "未経験可の求人がここに該当" },
               { tier: "即戦力（ミドル）", req: "検索基盤またはELKログ基盤の構築運用／インデックス・シャード設計／チューニング経験", note: "求人の中心ゾーン" },
               { tier: "ハイクラス", req: "大規模クラスタの設計・運用／検索精度の継続改善／ベクトル検索やRAG基盤の設計", note: "年収800万円以上が狙える層" },
             ].map((item, i) => (
@@ -305,7 +305,7 @@ export default function ElasticsearchSkillPage() {
               <strong>掛け算で差別化します。</strong>「Elasticsearch＋クラウド」「Elasticsearch＋過去のドメイン知識（EC・金融など）」の掛け合わせがミドル層の強みです。検索や分析という課題を業務知識と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>基盤の意思決定経験も資産になります。</strong>検索基盤・ログ基盤の技術選定やコスト最適化を主導した経験は、ハイクラス求人で評価されます。マネジメントや技術選定の実績があれば、技術力とセットで提示しましょう。
+              <strong>基盤の意思決定経験も資産になります。</strong>検索基盤・ログ基盤の技術選定やコスト最適化を主導した経験は、ハイクラス求人で評価されます。マネジメントや技術選定の実績があれば、技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

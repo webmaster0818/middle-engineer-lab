@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "ユニゾンキャリアの評判・口コミは？特徴・料金・対応【2026年】";
 const DESCRIPTION =
-  "ユニゾンキャリア（株式会社ユニゾン・テクノロジー）の評判・特徴を30代40代ミドルエンジニア目線で検証します。IT/Web専門の転職支援の強み、料金、向く人・向かない人、利用の流れ、FAQを出典付きで解説します。";
+  "ユニゾンキャリア（株式会社ユニゾン・テクノロジー）の評判・特徴を30代40代ミドルエンジニア目線で検証します。IT/Web専門の転職支援の強み、料金、向く人・向かない人、利用の流れ、FAQを出典を明記して解説します。";
 const URL = "/review/unison-career/";
 const OFFICIAL_URL = "https://unison-career.jp/";
 
@@ -265,7 +265,7 @@ export default function UnisonCareerReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は公式情報および各転職メディアの紹介を傾向としてまとめたものです（原文転載ではありません）。
           </p>

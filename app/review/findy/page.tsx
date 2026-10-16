@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "Findy（ファインディ）の評判・口コミ｜30代40代エンジニアの本音";
 const DESCRIPTION =
-  "FindyはGitHub連携でスキル偏差値を出すスカウト型サービスです。30代40代エンジニア目線で評判・口コミ、掲載企業の質、スカウトが来ない原因、年齢とコード評価の関係を出典付きで検証します。";
+  "FindyはGitHub連携でスキル偏差値を出すスカウト型サービスです。30代40代エンジニア目線で評判・口コミ、掲載企業の質、スカウトが来ない原因、年齢とコード評価の関係を出典を明記して検証します。";
 const URL = "/review/findy/";
 
 export const metadata: Metadata = {
@@ -315,7 +315,7 @@ export default function FindyReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載・スコア転載ではありません）。
           </p>

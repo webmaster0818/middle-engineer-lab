@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "非弁行為とは何ですか？退職代行は違法ではないのですか？",
-    a: "弁護士法72条は、弁護士でない者が報酬を得る目的で法律事務（交渉や紛争解決など）を業として行うことを原則禁止しています。これに反する行為は一般に『非弁行為』と呼ばれます。退職の意思を会社へ『伝える』だけであれば、ただちに法律事務にあたるとは限りませんが、有給や退職日、賃金などの『条件交渉』を弁護士でない民間業者が行うと、非弁行為にあたるおそれがあります。『労働組合と提携している』と称する民間業者でも、実際にどの主体が交渉するのかが重要です。利用前に、交渉が必要かどうかと、その交渉を誰が行うのかを確認してください。判断に迷う場合は弁護士に相談しましょう。",
+    a: "弁護士法72条は、弁護士でない者が報酬を得る目的で法律事務（交渉や紛争解決など）を業として行うことを原則禁止しています。これに反する行為は一般に『非弁行為』と呼ばれます。退職の意思を会社へ『伝える』だけであれば、ただちに法律事務にあたるとは限りませんが、有給や退職日、賃金などの『条件交渉』を弁護士でない民間業者が行うと、非弁行為にあたるおそれがあります。『労働組合と提携している』と称する民間業者でも、実際にどの主体が交渉するのかが重要です。利用前に、交渉が必要かどうかと、その交渉を誰が行うのかを確認してください。判断に迷う場合は弁護士に相談することをおすすめします。",
   },
   {
     q: "SES・客先常駐でも退職代行は使えますか？",
@@ -137,7 +137,7 @@ export default function RetirementAgencyPage() {
         <section id="types" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">退職代行の3類型と対応範囲</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            退職代行は「誰が運営しているか」で対応できる範囲が変わります。自分のケースで交渉が必要かどうかを基準に選びましょう。
+            退職代行は「誰が運営しているか」で対応できる範囲が変わります。自分のケースで交渉が必要かどうかを基準に選んでください。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg">
@@ -186,7 +186,7 @@ export default function RetirementAgencyPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">「労組提携」をうたう民間業者への注意</h3>
-              <p className="text-sm text-slate-600">「労働組合と提携しているから交渉できる」と説明する民間業者もありますが、重要なのは<strong>実際にどの主体が交渉を行うのか</strong>です。形式上だけの提携で、実態として民間業者が交渉していれば問題になり得ます。誰が交渉の当事者になるのかを契約前に確認しましょう。</p>
+              <p className="text-sm text-slate-600">「労働組合と提携しているから交渉できる」と説明する民間業者もありますが、重要なのは<strong>実際にどの主体が交渉を行うのか</strong>です。形式上だけの提携で、実態として民間業者が交渉していれば問題になり得ます。誰が交渉の当事者になるのかを契約前にご確認ください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">迷ったら交渉権限のある主体を選ぶ</h3>
@@ -220,14 +220,14 @@ export default function RetirementAgencyPage() {
           <ul className="space-y-3 text-sm text-slate-600">
             <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span>対応範囲が広く、交渉や法的対応まで含むほど費用は高くなりやすい傾向があります。</span></li>
             <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span>安さだけで選ぶと、交渉が必要になったときに対応できず、結局やり直しになることがあります。</span></li>
-            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span>「基本料金に何が含まれ、追加費用はどう発生するか」を契約前に明確にしましょう。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span>「基本料金に何が含まれ、追加費用はどう発生するか」を契約前に明確にしてください。</span></li>
           </ul>
         </section>
 
         <section id="judge" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">そもそも代行を使うべきかの判断基準</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            退職代行は便利な選択肢ですが、すべての退職に必要なわけではありません。費用もかかり、前職との関係が残りにくくなるトレードオフもあります。まずは「自分のケースで本当に代行が必要か」を切り分けてから検討しましょう。判断の目安を整理します。
+            退職代行は便利な選択肢ですが、すべての退職に必要なわけではありません。費用もかかり、前職との関係が残りにくくなるトレードオフもあります。まずは「自分のケースで本当に代行が必要か」を切り分けてから検討することをおすすめします。判断の目安を整理します。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-green-50 border border-green-200 rounded-xl p-5">
@@ -285,7 +285,7 @@ export default function RetirementAgencyPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">人脈・評判とのトレードオフ</h3>
-              <p className="text-sm text-slate-600">一方で、円満退職に比べると前職の良好な関係は残りにくくなります。IT業界は再会が多く、元同僚がリファラル元や取引先になることもあるため、その点はトレードオフとして理解しておきましょう。</p>
+              <p className="text-sm text-slate-600">一方で、円満退職に比べると前職の良好な関係は残りにくくなります。IT業界は再会が多く、元同僚がリファラル元や取引先になることもあるため、その点はトレードオフとして理解しておくことをおすすめします。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">まず自分で伝えられないかを検討</h3>

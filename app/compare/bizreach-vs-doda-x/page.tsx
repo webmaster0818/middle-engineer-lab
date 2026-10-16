@@ -18,7 +18,7 @@ const toc = [
   { id: "jobs", label: "求人数・年収レンジで比較" },
   { id: "scout", label: "スカウトの質・仕組みで比較" },
   { id: "target", label: "対象層で比較" },
-  { id: "reviews", label: "口コミ傾向（出典付き）" },
+  { id: "reviews", label: "口コミ傾向（出典明記）" },
   { id: "checklist", label: "向いている人チェックリスト" },
   { id: "combo", label: "併用ガイド" },
   { id: "middle", label: "30代・40代エンジニアの視点" },
@@ -246,7 +246,7 @@ export default function BizreachVsDodaXPage() {
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ傾向（出典明記）</h2>
           <p className="text-sm text-slate-500 mb-4">
             以下は、イーデス・みん評・各種転職口コミメディアに見られる傾向を要約したものです（原文転載ではありません）。
           </p>
@@ -366,7 +366,7 @@ export default function BizreachVsDodaXPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">まずは無料の範囲で両方に登録することをおすすめします</h2>
           <p className="text-blue-100 text-sm mb-4">
-            doda Xは完全無料、ビズリーチも無料会員があります。スカウトの量と質を比較し、ビズリーチの有料化はそのあとで判断しましょう。
+            doda Xは完全無料、ビズリーチも無料会員があります。スカウトの量と質を比較し、ビズリーチの有料化はそのあとで判断することをおすすめします。
           </p>
           <Link
             href="/#ranking"

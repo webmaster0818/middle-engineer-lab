@@ -282,7 +282,7 @@ export default function CertAwsSapPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">アーキテクト・上流職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            SAPを活かせるアーキテクト・移行リード求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            SAPを活かせるアーキテクト・移行リード求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

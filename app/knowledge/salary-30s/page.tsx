@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "30代の年収相場と上げ方" },
-  { id: "data", label: "30代エンジニアの年収データ（出典付き）" },
+  { id: "data", label: "30代エンジニアの年収データ（出典明記）" },
   { id: "factors", label: "30代の年収を左右する4つの要因" },
   { id: "strategy", label: "30代で年収を上げる5つの戦略" },
   { id: "checklist", label: "年収アップに動くべき人チェックリスト" },
@@ -197,14 +197,14 @@ export default function Salary30sPage() {
               レバテックが公表する2025年の年代別平均年収では、正社員エンジニアの<strong>30代は約499万円です</strong>。年収1,000万円以上の割合は<strong>30代で8.01%</strong>とされています。公的統計でも、厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円・平均年齢37.1歳</strong>です。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              相場より上を狙うなら、(1) 需要の高い技術・領域に軸足を移す、(2) マネジメントかスペシャリストの軸を決める、(3) 転職エージェントで市場価値を定期的に確認する、の3点が効果的です。社内昇給だけに頼らず、転職市場での評価を一度把握してから判断しましょう。
+              相場より上を狙うなら、(1) 需要の高い技術・領域に軸足を移す、(2) マネジメントかスペシャリストの軸を決める、(3) 転職エージェントで市場価値を定期的に確認する、の3点が効果的です。社内昇給だけに頼らず、転職市場での評価を一度把握してから判断することをおすすめします。
             </p>
           </div>
         </section>
 
         {/* データ */}
         <section id="data" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代エンジニアの年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代エンジニアの年収データ（出典明記）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             レバテックが公表する2025年の年代別平均年収（正社員・システムエンジニア等）は以下のとおりです。年代が上がるにつれて平均が上昇し、個人差も大きくなっていく傾向が読み取れます。
           </p>
@@ -315,7 +315,7 @@ export default function Salary30sPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">タイミングは内定提示前後</h3>
-              <p className="text-sm text-slate-600">企業が「採用したい」と判断した段階での交渉が最も通りやすくなります。一次面接の段階で年収の話を前面に出すのは避けましょう。</p>
+              <p className="text-sm text-slate-600">企業が「採用したい」と判断した段階での交渉が最も通りやすくなります。一次面接の段階で年収の話を前面に出すのは避けてください。</p>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
@@ -368,7 +368,7 @@ export default function Salary30sPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">ご自身の市場価値を無料で診断しよう</h2>
+          <h2 className="text-xl font-bold mb-3">ご自身の市場価値を無料で確認する</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントに登録すれば、現在のスキルに見合った年収レンジを無料で教えてもらえます。
           </p>

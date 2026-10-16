@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "転職ドラフトの評判・口コミ｜30代40代エンジニアの本音レビュー";
 const DESCRIPTION =
-  "転職ドラフト（リブセンス運営）の評判・口コミを30代40代エンジニア目線で検証します。年収提示型の競争入札の仕組み、提示年収90%ルール、レジュメ審査、向き不向きを公式情報と出典付きで解説します。";
+  "転職ドラフト（リブセンス運営）の評判・口コミを30代40代エンジニア目線で検証します。年収提示型の競争入札の仕組み、提示年収90%ルール、レジュメ審査、向き不向きを公式情報と出典を明記して解説します。";
 const URL = "/review/tenshoku-draft/";
 
 export const metadata: Metadata = {
@@ -286,7 +286,7 @@ export default function TenshokuDraftReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム・体験記・運営公表系の声を傾向としてまとめたものです（原文転載・スコア転載ではありません）。
           </p>

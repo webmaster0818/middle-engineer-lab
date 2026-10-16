@@ -87,7 +87,7 @@ const faqs = [
   },
   {
     q: "製造業からIT転職で有利な資格はありますか？",
-    a: "基本情報技術者試験やAWS認定資格（クラウドプラクティショナー等）は基礎力の証明になります。加えて品質管理検定や生産管理系の資格を持っていると、製造DX領域で差別化ポイントになります。資格より実際に手を動かした成果物の方が評価されやすい点は意識しましょう。",
+    a: "基本情報技術者試験やAWS認定資格（クラウドプラクティショナー等）は基礎力の証明になります。加えて品質管理検定や生産管理系の資格を持っていると、製造DX領域で差別化ポイントになります。資格より実際に手を動かした成果物の方が評価されやすい点は意識してください。",
   },
   {
     q: "製造業から転職しやすいIT職種は何ですか？",
@@ -198,7 +198,7 @@ export default function ManufacturingPage() {
         <section id="gap" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">活かせるスキル / 埋めるべきギャップ</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            自分の経験のどこが強みになり、どこを補えばよいかを整理しましょう。製造業・組み込みの経験は「捨てる」のではなく「翻訳して活かす」のが基本戦略です。
+            自分の経験のどこが強みになり、どこを補えばよいかを整理してください。製造業・組み込みの経験は「捨てる」のではなく「翻訳して活かす」のが基本戦略です。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5">
@@ -285,7 +285,7 @@ export default function ManufacturingPage() {
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方（公表データ）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            「製造業からITに移ると年収が上がる／下がる」と一律には言えません。移行先の職種・企業タイプと、自分の市場価値で変わります。IT職全般の公表データを基準に、現実的な期待値を持ちましょう。
+            「製造業からITに移ると年収が上がる／下がる」と一律には言えません。移行先の職種・企業タイプと、自分の市場価値で変わります。IT職全般の公表データを基準に、現実的な期待値を持ってください。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -471,7 +471,7 @@ export default function ManufacturingPage() {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">製造業・組み込みの経験をIT業界で活かすために</h2>
-          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の市場価値と狙える求人を確認しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の市場価値と狙える求人をご確認ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>

@@ -243,7 +243,7 @@ export default function UnitySkillPage() {
         <section id="find" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方（窓口ごとの特徴）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            ゲーム/エンタメ求人は専門エージェントの保有数が成果を左右します。性質の違う窓口を組み合わせましょう。
+            ゲーム/エンタメ求人は専門エージェントの保有数が成果を左右します。性質の違う窓口を組み合わせてください。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -428,7 +428,7 @@ export default function UnitySkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Unityのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ゲーム・XR求人はエージェントの保有数で差が出ます。特化型エージェントを併用して、ポートフォリオを活かしましょう。
+            ゲーム・XR求人はエージェントの保有数で差が出ます。特化型エージェントを併用して、ポートフォリオを活かしてください。
           </p>
           <Link
             href="/#ranking"

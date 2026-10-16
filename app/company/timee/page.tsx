@@ -23,7 +23,7 @@ const basicData: [string, string][] = [
 
 const toc = [
   ["conclusion", "難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["basic", "基本データ（出典明記）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -134,7 +134,7 @@ export default function TimeeCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -236,7 +236,7 @@ export default function TimeeCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。タイミーの全社員平均（約594万円）は急成長スタートアップとして相応の水準ですが、これは全社平均であり、入社時の提示はスキル評価次第です。30代・40代は自分の市場価値を踏まえ、個別求人・面談で水準を確認することが重要です。
             </p>
             <p>
-              上場直後の成長フェーズで、組織・技術ともにスケールさせる経験を積みたいミドル層にとっては挑戦の機会がある局面です。一方で変化の速さは前提となるため、安定志向との相性は事前に見極めましょう。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大企業の比較</Link>も合わせて参考にしてください。
+              上場直後の成長フェーズで、組織・技術ともにスケールさせる経験を積みたいミドル層にとっては挑戦の機会がある局面です。一方で変化の速さは前提となるため、安定志向との相性は事前に見極めてください。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大企業の比較</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>

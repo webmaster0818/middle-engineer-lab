@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     q: "Salesforceエンジニアの仕事は「しんどい・きつい」のでしょうか？",
-    a: "導入プロジェクトでは要件変更や納期に追われる場面もあり、業務理解と技術の両方を求められる点を負担に感じる人もいます。一方で運用・改善フェーズが中心のポジションは比較的安定しています。働き方は企業・案件で差が大きいため、面談で残業・体制・フェーズを具体的に確認しましょう。",
+    a: "導入プロジェクトでは要件変更や納期に追われる場面もあり、業務理解と技術の両方を求められる点を負担に感じる人もいます。一方で運用・改善フェーズが中心のポジションは比較的安定しています。働き方は企業・案件で差が大きいため、面談で残業・体制・フェーズを具体的にご確認ください。",
   },
 ];
 
@@ -295,7 +295,7 @@ export default function SalesforceSkillPage() {
         <section id="entry" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">経験浅めからの参入ルート</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            Salesforceは未経験寄りでも入口を作りやすいスキルです。次のステップで「学習→可視化→実務」の橋渡しを設計しましょう。
+            Salesforceは未経験寄りでも入口を作りやすいスキルです。次のステップで「学習→可視化→実務」の橋渡しを設計してください。
           </p>
           <ol className="space-y-3">
             {[
@@ -337,7 +337,7 @@ export default function SalesforceSkillPage() {
         <section id="study" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            Salesforceの学習は資格体系が明確であるため、ロードマップを描きやすいのが利点です。主な認定資格の位置づけを押さえておきましょう。
+            Salesforceの学習は資格体系が明確であるため、ロードマップを描きやすいのが利点です。主な認定資格の位置づけを押さえておくことをおすすめします。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             {certs.map((c, i) => (
@@ -372,7 +372,7 @@ export default function SalesforceSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Salesforceのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Salesforce求人に精通したIT特化型エージェントに登録して、年収アップの可能性を探りましょう。
+            Salesforce求人に精通したIT特化型エージェントに登録して、年収アップの可能性を探ってください。
           </p>
           <Link
             href="/#ranking"

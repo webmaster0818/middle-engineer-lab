@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "JACリクルートメントの評判｜40代エンジニアの本音と活用法";
 const DESCRIPTION =
-  "JACリクルートメントの評判・口コミを30代40代エンジニア目線で検証します。両面型ハイクラス支援の強み、40代でも応募できる求人、年収500万以上の目安、断られる不安や対処法までデータと出典付きで解説します。";
+  "JACリクルートメントの評判・口コミを30代40代エンジニア目線で検証します。両面型ハイクラス支援の強み、40代でも応募できる求人、年収500万以上の目安、断られる不安や対処法までデータと出典を明記して解説します。";
 const URL = "/review/jac-recruitment/";
 
 export const metadata: Metadata = {
@@ -312,7 +312,7 @@ export default function JacRecruitmentReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載・スコア転載ではありません）。
           </p>
@@ -379,7 +379,7 @@ export default function JacRecruitmentReview() {
             30代・40代エンジニアの年収相場データ
           </h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            JACは年収500万円以上が目安のため、自分の年代の相場を把握しておくと、紹介求人や年収交渉の妥当性を判断しやすくなります。公的データで相場感を確認しておきましょう。
+            JACは年収500万円以上が目安のため、自分の年代の相場を把握しておくと、紹介求人や年収交渉の妥当性を判断しやすくなります。公的データで相場感を確認しておくことをおすすめします。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">

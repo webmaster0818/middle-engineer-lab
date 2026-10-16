@@ -336,7 +336,7 @@ export default function SqlSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">データベースのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            DB/データエンジニアの求人に精通したIT特化型エージェントに登録して、年収アップの可能性を探りましょう。
+            DB/データエンジニアの求人に精通したIT特化型エージェントに登録して、年収アップの可能性を探ってください。
           </p>
           <Link
             href="/#ranking"

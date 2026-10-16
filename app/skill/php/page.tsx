@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. PHPエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. PHPの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. PHPの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. PHPエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方と主なエージェント" },
@@ -142,9 +142,9 @@ export default function PhpSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">PHPの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">PHPの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            PHP単独の公的平均年収は限られるため、シェア・求人数・職種別・年代別の公表データを出典と時点付きで使用します。
+            PHP単独の公的平均年収は限られるため、シェア・求人数・職種別・年代別の公表データを出典と時点を明記して使用します。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -247,7 +247,7 @@ export default function PhpSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">レガシー／WordPress中心から脱却するルート</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "Laravelの実践スキルを身につける", desc: "Eloquent ORM、Queue、Event、Policyなど、Laravelの機能を実務レベルで使えることが脱却の第一歩です。認証・CRUD・API連携を含むアプリを作り、ポートフォリオにしましょう。" },
+              { num: "1", title: "Laravelの実践スキルを身につける", desc: "Eloquent ORM、Queue、Event、Policyなど、Laravelの機能を実務レベルで使えることが脱却の第一歩です。認証・CRUD・API連携を含むアプリを作り、ポートフォリオにしてください。" },
               { num: "2", title: "PHP 8系のモダン機能を理解する", desc: "Enum、Fiber、名前付き引数、Union型など、PHP 8系の新機能を活用できると「モダンPHP開発者」としてアピールできます。レガシーとモダンの差を語れることが評価につながります。" },
               { num: "3", title: "フロント・他言語を掛け合わせる", desc: "PHP＋Vue/React（Inertia.js）、PHP＋TypeScriptの組み合わせができると、フルスタックとして年収レンジの広いポジションに移りやすくなります。" },
             ].map((item, i) => (
@@ -322,7 +322,7 @@ export default function PhpSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">PHPのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            PHPは求人母数が大きいからこそ、複数のIT特化型エージェントで質と量を比較して年収アップの可能性を探りましょう。
+            PHPは求人母数が大きいからこそ、複数のIT特化型エージェントで質と量を比較して年収アップの可能性を探ってください。
           </p>
           <Link
             href="/#ranking"

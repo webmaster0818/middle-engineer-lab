@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "フルリモートで地方移住は可能ですか？",
-    a: "勤務先がフルリモートを正式制度として運用していれば可能です。ただし「月1回の出社」「四半期に一度のチーム合宿」などオフラインの集まりを求められるケースもあるため、移住前に出社・集合の頻度と交通費負担の扱いを必ず確認しましょう。",
+    a: "勤務先がフルリモートを正式制度として運用していれば可能です。ただし「月1回の出社」「四半期に一度のチーム合宿」などオフラインの集まりを求められるケースもあるため、移住前に出社・集合の頻度と交通費負担の扱いを必ずご確認ください。",
   },
   {
     q: "リモートワークの面接ではどんな点を見られますか？",
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "入社後にフルリモートが廃止されることはありますか？",
-    a: "あり得ます。勤務形態の方針は経営判断で変わることがあるため、内定承諾前に「リモート勤務は就業規則・労働条件通知書に明記されるか」を確認しておくと安心です。口頭の約束だけでなく、書面での条件を確かめましょう。",
+    a: "あり得ます。勤務形態の方針は経営判断で変わることがあるため、内定承諾前に「リモート勤務は就業規則・労働条件通知書に明記されるか」を確認しておくと安心です。口頭の約束だけでなく、書面での条件を確かめてください。",
   },
 ];
 
@@ -179,7 +179,7 @@ export default function RemoteWorkPage() {
         <section id="diff" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フルリモートとハイブリッドの違い</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            「リモートワーク」とひとことで言っても、その中身は大きく分かれます。同じ「リモート」でも、フルリモートとハイブリッドでは生活設計も求められるスキルも変わるため、まずは両者の違いを整理しておきましょう。
+            「リモートワーク」とひとことで言っても、その中身は大きく分かれます。同じ「リモート」でも、フルリモートとハイブリッドでは生活設計も求められるスキルも変わるため、まずは両者の違いを整理しておくことをおすすめします。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse min-w-[600px]">
@@ -247,7 +247,7 @@ export default function RemoteWorkPage() {
           <div className="space-y-4">
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
               <h3 className="font-bold text-amber-900 mb-2">落とし穴1：「リモート可」=「フルリモート」ではない</h3>
-              <p className="text-sm text-amber-900">「リモート可」は制度の存在を示すだけで、実態は出社中心ということもあります。フルリモートを希望するなら「原則出社不要か」を明確に確認しましょう。</p>
+              <p className="text-sm text-amber-900">「リモート可」は制度の存在を示すだけで、実態は出社中心ということもあります。フルリモートを希望するなら「原則出社不要か」を明確にご確認ください。</p>
             </div>
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
               <h3 className="font-bold text-amber-900 mb-2">落とし穴2：「リモート中心」の「中心」が曖昧</h3>
@@ -255,11 +255,11 @@ export default function RemoteWorkPage() {
             </div>
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
               <h3 className="font-bold text-amber-900 mb-2">落とし穴3：入社直後だけ出社、のケース</h3>
-              <p className="text-sm text-amber-900">オンボーディング期間は出社必須で、その後リモート移行という運用もあります。「立ち上がり期間の出社条件」も合わせて確認しましょう。</p>
+              <p className="text-sm text-amber-900">オンボーディング期間は出社必須で、その後リモート移行という運用もあります。「立ち上がり期間の出社条件」も合わせてご確認ください。</p>
             </div>
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
               <h3 className="font-bold text-amber-900 mb-2">落とし穴4：チーム単位で方針が違う</h3>
-              <p className="text-sm text-amber-900">全社では「リモート可」でも、配属されるチームは出社中心ということがあります。必ず「配属予定チームの実態」を聞きましょう。</p>
+              <p className="text-sm text-amber-900">全社では「リモート可」でも、配属されるチームは出社中心ということがあります。必ず「配属予定チームの実態」を聞いてください。</p>
             </div>
           </div>
         </section>
@@ -340,7 +340,7 @@ export default function RemoteWorkPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年収水準の考え方</h3>
-              <p className="text-sm text-petrol-deep">レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円です。勤務形態よりも、企業の給与テーブルとポジションで年収は決まります。リモートだから下がる、と決めつけず、各社の提示条件で比較しましょう。年収交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉ガイド</Link>をご参照ください。</p>
+              <p className="text-sm text-petrol-deep">レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円です。勤務形態よりも、企業の給与テーブルとポジションで年収は決まります。リモートだから下がる、と決めつけず、各社の提示条件で比較することをおすすめします。年収交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉ガイド</Link>をご参照ください。</p>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">出典: レバテック公表の年代別平均年収（2025年・正社員SE）。数値は時点により変動します。</p>

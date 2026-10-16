@@ -218,7 +218,7 @@ export default function PmSkillPage() {
         <section id="career" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">PMポジションの種類と選択肢</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            一口にPM転職と言っても、狙うポジションで求人母数と年収帯が変わります。自分の経歴がどこに当てはまるかを見極めましょう。
+            一口にPM転職と言っても、狙うポジションで求人母数と年収帯が変わります。自分の経歴がどこに当てはまるかを見極めてください。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl overflow-hidden">
             <table className="w-full text-sm">
@@ -249,7 +249,7 @@ export default function PmSkillPage() {
         <section id="find" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方（窓口ごとの特徴）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            PMは年収帯が高く、非公開・スカウト経由の好条件求人が多いポジションです。性質の違う窓口を併用しましょう。
+            PMは年収帯が高く、非公開・スカウト経由の好条件求人が多いポジションです。性質の違う窓口を併用することをおすすめします。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -342,7 +342,7 @@ export default function PmSkillPage() {
         <section id="learning" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">市場価値を上げる準備</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            PM転職の合否は職務経歴書の「実績の定量化」に大きく左右されます。応募前に次を整理しておきましょう。
+            PM転職の合否は職務経歴書の「実績の定量化」に大きく左右されます。応募前に次を整理しておくことをおすすめします。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>担当PJの規模の数値（予算・チーム人数・期間・関係部署数）</li>
@@ -437,7 +437,7 @@ export default function PmSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">PMの市場価値を確認する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ご自身のマネジメント実績が今の市場でどう評価されるか、ハイクラス求人に強いエージェントに相談してみましょう。
+            ご自身のマネジメント実績が今の市場でどう評価されるか、ハイクラス求人に強いエージェントに相談してみることをおすすめします。
           </p>
           <Link
             href="/#ranking"

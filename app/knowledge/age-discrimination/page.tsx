@@ -293,7 +293,7 @@ export default function AgeDiscriminationPage() {
         <section id="phrases" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">面接での年齢懸念への返し方（例文）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            面接官が直接「年齢」を聞かなくても、「柔軟性は？」「年下のメンバーと働けるか？」という質問の裏に年齢への懸念があることがあります。事実ベースで前向きに返す例文を用意しておきましょう。
+            面接官が直接「年齢」を聞かなくても、「柔軟性は？」「年下のメンバーと働けるか？」という質問の裏に年齢への懸念があることがあります。事実ベースで前向きに返す例文を用意しておくことをおすすめします。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg overflow-hidden">
@@ -324,7 +324,7 @@ export default function AgeDiscriminationPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">30代：書類を通過すれば年齢はほぼ問題にならない</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                30代は書類さえ通れば年齢が決定打になることは少なく、スキルと意欲で十分に評価されます。むしろ求人母数が多いため、応募の質を上げれば年収アップを狙いやすい年代です。35歳前後で評価軸が即戦力寄りに移る点だけ意識しましょう。詳細は<Link href="/age/35/" className="text-petrol hover:underline">35歳の壁</Link>をご参照ください。
+                30代は書類さえ通れば年齢が決定打になることは少なく、スキルと意欲で十分に評価されます。むしろ求人母数が多いため、応募の質を上げれば年収アップを狙いやすい年代です。35歳前後で評価軸が即戦力寄りに移る点だけ意識してください。詳細は<Link href="/age/35/" className="text-petrol hover:underline">35歳の壁</Link>をご参照ください。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">

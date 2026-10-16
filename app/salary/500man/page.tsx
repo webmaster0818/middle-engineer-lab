@@ -108,7 +108,7 @@ export default function Salary500Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収500万円は、ITエンジニアにとって「実務を一人で回せる中堅層」の年収帯です。本記事では、この500万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典付きで整理します。要点として、ITSS L3を中心とした一人前〜中堅層に相当し、Web系開発・業務システムSE・社内SE・インフラ運用など幅広い職種に広がる、実務経験で現実的に狙える年収帯です。
+          年収500万円は、ITエンジニアにとって「実務を一人で回せる中堅層」の年収帯です。本記事では、この500万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典を明記して整理します。要点として、ITSS L3を中心とした一人前〜中堅層に相当し、Web系開発・業務システムSE・社内SE・インフラ運用など幅広い職種に広がる、実務経験で現実的に狙える年収帯です。
         </p>
 
         <DataNote
@@ -331,7 +331,7 @@ export default function Salary500Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">500万円帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化エージェントに登録して、ご自身の実務経験が活きる500万円求人を確認しましょう。
+            IT特化エージェントに登録して、ご自身の実務経験が活きる500万円求人をご確認ください。
           </p>
           <Link
             href="/#ranking"

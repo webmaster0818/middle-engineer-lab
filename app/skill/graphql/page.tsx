@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. GraphQLエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. GraphQLの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. GraphQLの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. GraphQLエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
@@ -145,7 +145,7 @@ export default function GraphqlSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">GraphQLの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">GraphQLの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             GraphQLはAPI設計の技術で、単体職種としての公表平均年収は乏しいため、ここでは関連職種（Web／ソフトウェアエンジニア）の公表値と求人媒体の提示年収で代替し、出典と時点を明示します。創作した数値は使用していません。
           </p>

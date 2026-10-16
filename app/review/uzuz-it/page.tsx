@@ -191,7 +191,7 @@ export default function UzuzItReview() {
           最終更新: 2026年6月 ｜ 20代特化のIT就職支援を、当サイト読者（30-40代）向けに検証
         </p>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
-          ウズキャリIT（UZUZ IT）は、株式会社UZUZが運営する<span className="font-bold">20代（第二新卒・既卒・フリーター）特化のIT就職／転職エージェント</span>です。手厚いサポートと未経験からのIT就職に強みがあります。ただし、当サイトの中心読者である30代・40代の実務経験者にとっては<span className="font-bold">主対象から外れる</span>サービスです。本記事ではその点を最初に説明したうえで、評判・口コミを出典付きで整理し、30-40代向けの代替も案内します。架空の体験談は掲載しません。
+          ウズキャリIT（UZUZ IT）は、株式会社UZUZが運営する<span className="font-bold">20代（第二新卒・既卒・フリーター）特化のIT就職／転職エージェント</span>です。手厚いサポートと未経験からのIT就職に強みがあります。ただし、当サイトの中心読者である30代・40代の実務経験者にとっては<span className="font-bold">主対象から外れる</span>サービスです。本記事ではその点を最初に説明したうえで、評判・口コミを出典を明記して整理し、30-40代向けの代替も案内します。架空の体験談は掲載しません。
         </p>
         <DataNote
           surveyedAt="2026年6月"
@@ -289,7 +289,7 @@ export default function UzuzItReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載ではありません）。主に20代利用者の評価である点に留意してください。
           </p>
@@ -485,7 +485,7 @@ export default function UzuzItReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ご自身の年代・経験に合うサービスを選ぶ</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ウズキャリITは20代・未経験のIT就職向けです。30-40代の経験者は、ミドル層向けエージェントの比較から始めましょう。
+            ウズキャリITは20代・未経験のIT就職向けです。30-40代の経験者は、ミドル層向けエージェントの比較から始めてください。
           </p>
           <Link href="/compare/30s-agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             30-40代向けの比較を見る

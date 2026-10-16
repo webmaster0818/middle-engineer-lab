@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Goエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. Goの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. Goの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Goエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
@@ -141,7 +141,7 @@ export default function GoSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Goの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Goの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             言語別の年収は媒体によって定義が異なります。ここでは出典と時点を明示できる公表データのみを使用します。
           </p>
@@ -182,7 +182,7 @@ export default function GoSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "他言語でのバックエンド実務2〜3年／HTTP・DBの基礎／GoはGitHub等での自習レベル", note: "Go未経験OK求人がここに該当" },
+              { tier: "入口（ポテンシャル）", req: "他言語でのバックエンド実務2〜3年／HTTP・DBの基礎／GoはGitHub等での自習レベル", note: "Go未経験可の求人がここに該当" },
               { tier: "即戦力（ミドル）", req: "GoでのAPI・マイクロサービス開発の実務／goroutine等の並行処理／テスト実装", note: "求人の中心ゾーン" },
               { tier: "ハイクラス", req: "Go基盤の設計・テックリード／Kubernetes等インフラ／チームの技術選定", note: "年収800万円以上が狙える層" },
             ].map((item, i) => (
@@ -259,7 +259,7 @@ export default function GoSkillPage() {
           <div className="space-y-4">
             {[
               { num: "1", title: "関連言語の実務経験を土台にする", desc: "Java・C++・TypeScriptなど静的型付け言語のバックエンド経験があれば、それを土台に「Goは未経験だがキャッチアップ可」とアピールできます。完全未経験よりポテンシャル採用の対象になりやすくなります。" },
-              { num: "2", title: "GitHubに実務に近いGoプロジェクトを公開する", desc: "REST APIサーバー、CLIツール、KubernetesオペレーターなどをGoで書いて公開します。テストの充実度・ドキュメント・パッケージ構成も見られるため、動くだけでなく設計の意図が伝わる状態にしましょう。" },
+              { num: "2", title: "GitHubに実務に近いGoプロジェクトを公開する", desc: "REST APIサーバー、CLIツール、KubernetesオペレーターなどをGoで書いて公開します。テストの充実度・ドキュメント・パッケージ構成も見られるため、動くだけでなく設計の意図が伝わる状態にしてください。" },
               { num: "3", title: "Go採用企業のポテンシャル枠を狙う", desc: "マイクロサービス移行中の企業はGo経験者の母数不足から、入社後キャッチアップ前提の採用を行うことがあります。エージェントに「Goは未経験だが学習中」と伝え、そうした求人を紹介してもらう方法が現実的です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -286,7 +286,7 @@ export default function GoSkillPage() {
               <strong>掛け算で差別化します。</strong>Go単体より「Go＋クラウドインフラ」「Go＋過去のドメイン知識（金融・物流など）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、Goという実装手段と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのGo求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのGo求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

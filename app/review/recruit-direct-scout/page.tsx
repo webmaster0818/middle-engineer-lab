@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "リクルートダイレクトスカウトの評判・口コミ｜30代40代の本音";
 const DESCRIPTION =
-  "リクルートダイレクトスカウトはレジュメを登録して待つハイクラススカウト型です。30代40代エンジニア目線で評判・口コミ、高年収求人、スカウトが来ない原因、リクルートエージェントとの違いを出典付きで解説します。";
+  "リクルートダイレクトスカウトはレジュメを登録して待つハイクラススカウト型です。30代40代エンジニア目線で評判・口コミ、高年収求人、スカウトが来ない原因、リクルートエージェントとの違いを出典を明記して解説します。";
 const URL = "/review/recruit-direct-scout/";
 
 export const metadata: Metadata = {
@@ -338,7 +338,7 @@ export default function RecruitDirectScoutReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載・スコア転載ではありません）。
           </p>
@@ -385,7 +385,7 @@ export default function RecruitDirectScoutReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              年収600万円前後を超えてきた層なら、上方のスカウトを受けながら市場価値を測るのに向きます。すぐ転職しなくても、想定年収の相場観を得る目的で登録しておく価値があります。技術面の細かいサポートが欲しいときは、IT特化サービスを併用しましょう。
+              年収600万円前後を超えてきた層なら、上方のスカウトを受けながら市場価値を測るのに向きます。すぐ転職しなくても、想定年収の相場観を得る目的で登録しておく価値があります。技術面の細かいサポートが欲しいときは、IT特化サービスを併用することをおすすめします。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>

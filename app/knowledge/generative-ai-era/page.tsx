@@ -307,7 +307,7 @@ export default function GenerativeAiEraPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">AI時代のキャリアをエージェントに相談しましょう</h2>
+          <h2 className="text-xl font-bold mb-3">AI時代のキャリアをエージェントに相談する</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、生成AIを前提とした求人動向や、ご自身の経験の活かし方を具体的にアドバイスしてくれます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

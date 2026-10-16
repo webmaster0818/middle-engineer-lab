@@ -256,7 +256,7 @@ export default function GcpPcaCertPage() {
             活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>です。運用・構築の経験者が、設計・アーキテクトへ役割を広げたい局面で説得力を持ちます。第二に<strong>GCPが得意とする領域での差別化</strong>です。データ分析・AI/MLなどGCPが強い領域の設計案件で、専門性の裏づけになります。第三に<strong>マルチクラウド設計力の証明</strong>です。AWSのSAPやAzureのAZ-305とあわせて保有することで、複数クラウドの設計力を示せます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。PCAはケーススタディを含む<strong>難度の高い試験で、実務がないと取得後も活かしきれません</strong>。効果が出るのは、GCPプロジェクト経験と資格がそろったときです。また有効期限が2年と短めで、更新を怠ると失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/cert/gcp-ace/" className="text-petrol hover:underline">Associate Cloud Engineer</Link>から段階的に進むのが堅実です。
+            注意すべきデメリットも押さえておくことをおすすめします。PCAはケーススタディを含む<strong>難度の高い試験で、実務がないと取得後も活かしきれません</strong>。効果が出るのは、GCPプロジェクト経験と資格がそろったときです。また有効期限が2年と短めで、更新を怠ると失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/cert/gcp-ace/" className="text-petrol hover:underline">Associate Cloud Engineer</Link>から段階的に進むのが堅実です。
           </p>
         </section>
 
@@ -319,7 +319,7 @@ export default function GcpPcaCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">クラウド上流・設計職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            PCAを活かせるGCPアーキテクト・基盤設計求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            PCAを活かせるGCPアーキテクト・基盤設計求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

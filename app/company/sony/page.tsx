@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "転職難易度と向いている人" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "basic", label: "基本データ（出典明記）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
   { id: "salary", label: "年収データ" },
@@ -100,7 +100,7 @@ export default function SonyCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm"><tbody>
               {basicData.map(([label, value], i) => (<tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}><th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">{label}</th><td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td></tr>))}
@@ -186,7 +186,7 @@ export default function SonyCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たソニー</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>提出会社単体の<strong>平均年齢は42.7歳</strong>（2026年3月期・有価証券報告書）で、持株会社は比較的シニアな年齢構成です。事業会社では領域により年齢構成は異なりますが、専門性を軸にしたジョブ型評価のため、30代・40代でも<strong>担当領域の深い専門性があれば中途で評価されやすい</strong>環境といえます。</p>
-            <p>半導体回路設計、画像処理・信号処理、組み込み、機械学習、ゲームプラットフォームなど、長年積み上げた専門性が直接活きるのがソニーの強みです。一方で「どの事業会社か」によって働き方・技術・処遇が大きく変わるため、ミドル層は応募前に事業会社単位で実態を見極めることが重要です。年収面では、提出会社平均1,155万円はあくまで持株会社の数値である点を踏まえ、内定時の処遇を個別に確認しましょう。</p>
+            <p>半導体回路設計、画像処理・信号処理、組み込み、機械学習、ゲームプラットフォームなど、長年積み上げた専門性が直接活きるのがソニーの強みです。一方で「どの事業会社か」によって働き方・技術・処遇が大きく変わるため、ミドル層は応募前に事業会社単位で実態を見極めることが重要です。年収面では、提出会社平均1,155万円はあくまで持株会社の数値である点を踏まえ、内定時の処遇を個別にご確認ください。</p>
             <p>ハイクラス・専門職の転職では、スカウト型サービスの活用も有効です。<Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトの活用法</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。</p>
           </div>
         </section>

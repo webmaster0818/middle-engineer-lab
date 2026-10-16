@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. BigQueryスキルの転職市場での進め方" },
-  { id: "market", label: "2. 年収・市場データ（出典付き）" },
+  { id: "market", label: "2. 年収・市場データ（出典明記）" },
   { id: "use", label: "3. BigQueryの用途と求人傾向" },
   { id: "level", label: "4. 求められる経験レベルと求人要件" },
   { id: "career", label: "5. キャリアパスと関連技術" },
@@ -142,7 +142,7 @@ export default function BigQuerySkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収・市場データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収・市場データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             BigQuery単体の平均年収を集計した公表値は乏しいため、ここでは関連する職種の公表年収で代替します。いずれも出典と時点を明示できる公開データのみを使用します。
           </p>
@@ -201,7 +201,7 @@ export default function BigQuerySkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "SQLでの分析・集計の実務2〜3年／BigQueryは自習レベル／基本的なクエリ", note: "未経験OK求人がここに該当" },
+              { tier: "入口（ポテンシャル）", req: "SQLでの分析・集計の実務2〜3年／BigQueryは自習レベル／基本的なクエリ", note: "未経験可の求人がここに該当" },
               { tier: "即戦力（ミドル）", req: "BigQueryでのデータ基盤運用／パーティション・クラスタリングによるコスト最適化／dbt・Airflowでのパイプライン", note: "求人の中心ゾーン" },
               { tier: "ハイクラス", req: "分析基盤のアーキテクチャ設計／データモデリング／コストガバナンス／チームのデータ活用推進", note: "年収800万円以上が狙える層" },
             ].map((item, i) => (
@@ -305,7 +305,7 @@ export default function BigQuerySkillPage() {
               <strong>掛け算で差別化します。</strong>「BigQuery＋Google Cloud」「BigQuery＋過去のドメイン知識（小売・広告など）」の掛け合わせがミドル層の強みです。データ分析を業務知識と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>データ活用の推進経験も資産になります。</strong>分析基盤を整備し、組織のデータドリブンな意思決定を後押しした経験は、ハイクラス求人で評価されます。データ活用推進やチーム育成の実績があれば、技術力とセットで提示しましょう。
+              <strong>データ活用の推進経験も資産になります。</strong>分析基盤を整備し、組織のデータドリブンな意思決定を後押しした経験は、ハイクラス求人で評価されます。データ活用推進やチーム育成の実績があれば、技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

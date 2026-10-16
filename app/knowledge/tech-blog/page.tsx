@@ -136,7 +136,7 @@ export default function TechBlogPage() {
           </p>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
             <p className="text-sm text-amber-800">
-              30-40代は流行りの入門記事を量産するより、<strong>設計判断・トラブル対応・技術選定を深く掘った1本</strong>の方が評価されます。「車輪の再発明」的な記事ではなく、自分が実際に詰まり、試行錯誤して解いた過程を書きましょう。学習の継続そのものについては<Link href="/knowledge/continuous-learning/" className="text-amber-900 underline">継続的な学習の進め方</Link>も参考になります。
+              30-40代は流行りの入門記事を量産するより、<strong>設計判断・トラブル対応・技術選定を深く掘った1本</strong>の方が評価されます。「車輪の再発明」的な記事ではなく、自分が実際に詰まり、試行錯誤して解いた過程を書いてください。学習の継続そのものについては<Link href="/knowledge/continuous-learning/" className="text-amber-900 underline">継続的な学習の進め方</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -196,7 +196,7 @@ export default function TechBlogPage() {
             ))}
           </div>
           <div className="bg-petrol-soft rounded-lg p-5 mt-5">
-            <p className="text-sm text-petrol-deep"><strong>迷ったら：</strong>まずQiitaかZennのどちらか1つに絞って続けることをおすすめします。複数同時運用は更新が止まりがちで、止まったブログはかえって現役性を疑わせます。続けられる1つを選びましょう。</p>
+            <p className="text-sm text-petrol-deep"><strong>迷ったら：</strong>まずQiitaかZennのどちらか1つに絞って続けることをおすすめします。複数同時運用は更新が止まりがちで、止まったブログはかえって現役性を疑わせます。続けられる1つを選んでください。</p>
           </div>
         </section>
 
@@ -325,7 +325,7 @@ export default function TechBlogPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">技術発信を転職に活かす相談をしよう</h2>
+          <h2 className="text-xl font-bold mb-3">技術発信を転職に活かす方法を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、技術ブログや成果物を応募先にどう見せるか具体的にアドバイスしてくれます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

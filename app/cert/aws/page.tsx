@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "AWS認定資格は転職に有利？SAAの年収・難易度・活かし方【2026年】";
 const PAGE_DESC =
-  "AWS認定資格（SAA中心）は30代・40代の転職で有利か。受験料・有効期限、保有者の年収相場、実務2-3年と組み合わせることで評価される理由、オンプレ実務とAWSを組み合わせた活かし方を、資格だけでは上がりにくい現実も含めて解説します。";
+  "AWS認定資格（SAA中心）は30代・40代の転職で有利なのでしょうか。受験料・有効期限、保有者の年収相場、実務2-3年と組み合わせることで評価される理由、オンプレ実務とAWSを組み合わせた活かし方を、資格だけでは上がりにくい現実も含めて解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/aws/" },
@@ -326,7 +326,7 @@ export default function CertAwsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">AWS認定と実務を活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ご自身の実務とAWS認定がどう評価されるか、クラウドに強いIT特化型エージェントで確認しましょう。
+            ご自身の実務とAWS認定がどう評価されるか、クラウドに強いIT特化型エージェントでご確認ください。
           </p>
           <Link
             href="/#ranking"

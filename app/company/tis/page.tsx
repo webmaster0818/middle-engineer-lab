@@ -33,7 +33,7 @@ const basicData: [string, string][] = [
 
 const toc = [
   { id: "conclusion", label: "転職難易度と向いている人" },
-  { id: "basic", label: "基本データ（企業概要・出典付き）" },
+  { id: "basic", label: "基本データ（企業概要・出典明記）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
   { id: "salary", label: "年収データ（有価証券報告書）" },
@@ -149,7 +149,7 @@ export default function TisCompanyPage() {
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（企業概要・出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（企業概要・出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>

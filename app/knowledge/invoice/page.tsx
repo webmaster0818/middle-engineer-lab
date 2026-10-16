@@ -35,7 +35,7 @@ const impacts = [
   },
   {
     title: "取引先が免税事業者・一般消費者の場合",
-    desc: "取引先が免税事業者や一般消費者の場合、相手は仕入税額控除を行わないため、インボイス発行を求められないことが多く、影響は限定的です。自分の主要な取引先がどちらかをまず確認しましょう。",
+    desc: "取引先が免税事業者や一般消費者の場合、相手は仕入税額控除を行わないため、インボイス発行を求められないことが多く、影響は限定的です。自分の主要な取引先がどちらかをまずご確認ください。",
   },
 ];
 
@@ -148,7 +148,7 @@ export default function InvoicePage() {
               フリーランスエンジニアにとっての要点は、<strong>「自分の取引先が課税事業者かどうか」を起点に、免税事業者のままでいるか、課税事業者として登録するかを判断する</strong>ことです。登録は任意ですが、取引先が課税事業者でインボイスを求める場合は、登録しないことが値引き交渉や取引見直しの材料にされることがあります。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              登録して課税事業者になる場合でも、<strong>2割特例</strong>（令和8年=2026年9月30日までの日の属する各課税期間が対象、国税庁）を使えば納税負担と計算の手間を抑えられます。制度は経過措置や改正が多いため、最終的な判断は必ず国税庁の最新情報や税務署・税理士への相談で確定させましょう。
+              登録して課税事業者になる場合でも、<strong>2割特例</strong>（令和8年=2026年9月30日までの日の属する各課税期間が対象、国税庁）を使えば納税負担と計算の手間を抑えられます。制度は経過措置や改正が多いため、最終的な判断は必ず国税庁の最新情報や税務署・税理士への相談で確定させてください。
             </p>
           </div>
         </section>
@@ -179,7 +179,7 @@ export default function InvoicePage() {
         <section id="impact" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フリーランスエンジニアへの影響</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            影響の大きさは、ご自身の取引先がどんな事業者かによって変わります。まずは主要な取引先の区分を確認しましょう。
+            影響の大きさは、ご自身の取引先がどんな事業者かによって変わります。まずは主要な取引先の区分をご確認ください。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {impacts.map((r, i) => (
@@ -202,7 +202,7 @@ export default function InvoicePage() {
         <section id="choice" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">免税事業者か課税事業者かの選択</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            それぞれにメリット・デメリットがあります。取引先の区分と売上規模をふまえて判断しましょう。
+            それぞれにメリット・デメリットがあります。取引先の区分と売上規模をふまえて判断することをおすすめします。
           </p>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">

@@ -222,8 +222,8 @@ export default function IndustrySalaryPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-3">狙う業界の想定年収を確認しよう</h2>
-          <p className="text-blue-100 text-sm mb-4">業界・企業・職種でレンジは大きく変わります。IT特化エージェントに相談して、自分のスキルで狙える業界と年収を把握しましょう。</p>
+          <h2 className="text-xl font-bold mb-3">狙う業界の想定年収を確認する</h2>
+          <p className="text-blue-100 text-sm mb-4">業界・企業・職種でレンジは大きく変わります。IT特化エージェントに相談して、自分のスキルで狙える業界と年収を把握してください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
         {/* 一次データ相互リンク（2026-07-04 リンク完全性の是正） */}

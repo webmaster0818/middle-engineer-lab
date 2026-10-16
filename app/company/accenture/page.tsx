@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "転職難易度と向いている人" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "basic", label: "基本データ（出典明記）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "tech", label: "採用領域・技術スタック" },
   { id: "salary", label: "年収データ（注意点あり）" },
@@ -107,7 +107,7 @@ export default function AccentureCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="アクセンチュア エンジニア転職ガイド" description="アクセンチュアへのエンジニア転職を解説します。テクノロジー部門の採用領域、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/accenture/" />
+      <ArticleJsonLd title="アクセンチュア エンジニア転職ガイド" description="アクセンチュアへのエンジニア転職を解説します。テクノロジー部門の採用領域、選考フロー、口コミ傾向を出典を明記してまとめました。" url="/company/accenture/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "salesforceの転職ガイド", href: "/skill/salesforce/" }, { name: "SAPの転職ガイド", href: "/skill/sap/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "アクセンチュア" }]} />
 
@@ -122,7 +122,7 @@ export default function AccentureCompanyPage() {
         </div>
 
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
-          アクセンチュアは、戦略立案からシステム構築・運用まで一気通貫で支援する世界最大級のテクノロジーコンサルティング企業です。本記事では、公式採用ページの採用領域・選考フロー、口コミの傾向を出典付きで整理します。日本法人は非上場で有価証券報告書がないため、年収は公的平均値ではなく公式情報・口コミ集計値で説明します。
+          アクセンチュアは、戦略立案からシステム構築・運用まで一気通貫で支援する世界最大級のテクノロジーコンサルティング企業です。本記事では、公式採用ページの採用領域・選考フロー、口コミの傾向を出典を明記して整理します。日本法人は非上場で有価証券報告書がないため、年収は公的平均値ではなく公式情報・口コミ集計値で説明します。
         </p>
         <DataNote surveyedAt="2026年6月" sources={["アクセンチュア公式採用ページ（accenture.com/jp-ja/careers）", "アクセンチュア公式採用ブログ", "OpenWork等の口コミプラットフォーム", "厚生労働省 job tag", "経済産業省 IT人材需給調査（2019年公表）"]} />
 
@@ -152,7 +152,7 @@ export default function AccentureCompanyPage() {
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -269,7 +269,7 @@ export default function AccentureCompanyPage() {
               30代・40代のミドルエンジニアにとってアクセンチュアは、クラウド/DXの実務経験や業界ドメインを「テクノロジー×コンサル」の市場価値に転換できる場です。アクセンチュア出身という経歴は、その後の転職市場でも評価されやすい点も、ミドル層にとっての大きな特徴です。マネジメント志向の方にとっては、マネージャー以上のポジションでの採用強化の動きも判断材料になります。
             </p>
             <p>
-              一方で、キャッチアップ負荷や繁忙度はプロジェクト次第という声があるため、体力・働き方の許容範囲を見極めることが重要です。年収は職位別の年俸で提示されるため、オファー面談で具体額を必ず確認しましょう。年代別の相場感は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
+              一方で、キャッチアップ負荷や繁忙度はプロジェクト次第という声があるため、体力・働き方の許容範囲を見極めることが重要です。年収は職位別の年俸で提示されるため、オファー面談で具体額を必ずご確認ください。年代別の相場感は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
             </p>
           </div>
         </section>

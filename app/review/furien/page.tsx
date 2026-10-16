@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "フリエン（現ココナラテック）の評判・口コミ｜30代40代エンジニア";
 const DESCRIPTION =
-  "フリエン（furien／現ココナラテック）の評判・口コミを30代40代エンジニア目線で検証します。ココナラグループ運営の業務委託案件、最高単価200万円、直請け中心、選べる支払いサイト、マージン非公開への向き合い方をデータと出典付きで解説します。";
+  "フリエン（furien／現ココナラテック）の評判・口コミを30代40代エンジニア目線で検証します。ココナラグループ運営の業務委託案件、最高単価200万円、直請け中心、選べる支払いサイト、マージン非公開への向き合い方をデータと出典を明記して解説します。";
 const URL = "/review/furien/";
 
 export const metadata: Metadata = {
@@ -293,7 +293,7 @@ export default function FurienReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載・スコア転載ではありません）。
           </p>

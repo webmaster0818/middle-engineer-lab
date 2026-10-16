@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: "沖縄に住みながら首都圏企業で働けますか？",
-    a: "オンライン面接が一般化し、フルリモート可の求人であれば沖縄在住のまま首都圏企業で働ける場合があります。エージェントに『沖縄在住・フルリモート希望』と明確に伝えると、対象求人を絞り込んでもらいやすくなります。離島・遠隔地ゆえに出社頻度や移動コストが論点になりやすいため、面談で出社要件を必ず確認しましょう。",
+    a: "オンライン面接が一般化し、フルリモート可の求人であれば沖縄在住のまま首都圏企業で働ける場合があります。エージェントに『沖縄在住・フルリモート希望』と明確に伝えると、対象求人を絞り込んでもらいやすくなります。離島・遠隔地ゆえに出社頻度や移動コストが論点になりやすいため、面談で出社要件を必ずご確認ください。",
   },
   {
     q: "沖縄へのUIターン移住に使える支援制度はありますか？",
@@ -252,7 +252,7 @@ export default function OkinawaAreaPage() {
                 <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート可の求人</Link>
                 や
                 <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
-                もあわせて検討しましょう。
+                もあわせて検討することをおすすめします。
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -434,7 +434,7 @@ export default function OkinawaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">沖縄でリモートを活かしたIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
-            地元の誘致企業・拠点から首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、暮らしと年収のバランスが取れる選択肢を見つけましょう。
+            地元の誘致企業・拠点から首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、暮らしと年収のバランスが取れる選択肢を見つけてください。
           </p>
           <Link
             href="/#ranking"

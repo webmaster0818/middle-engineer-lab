@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "ソフトバンク転職の難易度と向いている人" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "basic", label: "基本データ（出典明記）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "tech", label: "技術領域・募集職種（AI・5G・DX）" },
   { id: "salary", label: "年収データ" },
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     q: "未出典の等級別年収表はなぜ掲載していないのですか？",
-    a: "当サイトは確認できた一次情報・出典付き情報のみを掲載する方針です。ソフトバンクはエンジニア職の等級別年収を公式公表していないため、推測による等級別レンジ表は掲載していません。具体額は求人票やエージェント経由で確認するのが現実的です。",
+    a: "当サイトは確認できた一次情報・出典のある情報のみを掲載する方針です。ソフトバンクはエンジニア職の等級別年収を公式公表していないため、推測による等級別レンジ表は掲載していません。具体額は求人票やエージェント経由で確認するのが現実的です。",
   },
 ];
 
@@ -125,7 +125,7 @@ export default function SoftbankCompanyPage() {
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>

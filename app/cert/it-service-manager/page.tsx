@@ -273,7 +273,7 @@ export default function ITServiceManagerCertPage() {
             活用の軸は3つです。第一に<strong>運用統制力の客観証明</strong>です。SMは「サービスを止めずに改善し続ける力」を問う試験で、運用品質を語れる人材であることを国家資格で裏づけられます。第二に<strong>運用責任者・SREへの足がかり</strong>です。可用性・SLA・継続的改善の素養を示す加点材料になります。第三に<strong>社内評価・資格手当</strong>です。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。SMは合格率15%前後の難関で、特に午後Ⅱの論述には<strong>自分の運用経験を論理的に書く訓練が不可欠</strong>です。また取得しても単体で年収が大きく上がる資格ではなく、効果が出るのは運用マネジメントの実務と資格が組み合わさったときです。逆に言えば、すでに運用現場の経験があり管理職を目指す30〜40代にとっては、投資する価値が明確な資格です。土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。
+            注意すべきデメリットも押さえておくことをおすすめします。SMは合格率15%前後の難関で、特に午後Ⅱの論述には<strong>自分の運用経験を論理的に書く訓練が不可欠</strong>です。また取得しても単体で年収が大きく上がる資格ではなく、効果が出るのは運用マネジメントの実務と資格が組み合わさったときです。逆に言えば、すでに運用現場の経験があり管理職を目指す30〜40代にとっては、投資する価値が明確な資格です。土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。
           </p>
         </section>
 
@@ -336,7 +336,7 @@ export default function ITServiceManagerCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">運用管理・SRE職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            SMを活かせる運用マネジメント・SRE・インフラ運用求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            SMを活かせる運用マネジメント・SRE・インフラ運用求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

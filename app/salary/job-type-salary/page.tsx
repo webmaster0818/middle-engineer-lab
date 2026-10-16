@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "ITエンジニア職種別 年収ランキング【2026年・公表値準拠】PM・データサイエンティスト・SEまで比較";
 const PAGE_DESC =
-  "ITエンジニアの職種別の平均年収を、doda平均年収ランキング2025と求人ボックス給料ナビ（2026年6月時点）の公表値だけで比較します。プロジェクトマネージャー・データサイエンティスト・インフラ・フロントエンド・SE/PGなど、職種で年収がどう変わるかが出典付きで分かる年収データベースです。";
+  "ITエンジニアの職種別の平均年収を、doda平均年収ランキング2025と求人ボックス給料ナビ（2026年6月時点）の公表値だけで比較します。プロジェクトマネージャー・データサイエンティスト・インフラ・フロントエンド・SE/PGなど、職種で年収がどう変わるかが出典を明記して分かる年収データベースです。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/job-type-salary/" },
@@ -84,7 +84,7 @@ export default function JobTypeSalaryPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ITエンジニア 職種別 年収ランキング【2026年・公表値準拠】</h1>
         <p className="text-slate-600 leading-relaxed mb-4">
-          ITエンジニアは<strong>職種によって平均年収が大きく変わります</strong>。本ページでは、推計値や口コミ集計ではなく、<strong>doda「平均年収ランキング2025」</strong>と<strong>求人ボックス給料ナビ（2026年6月時点）</strong>の<strong>公表値だけ</strong>を使って、職種別の年収を比較します。「どの職種が高いのか」「自分の職種の相場はいくらか」を出典付きで確認できます。
+          ITエンジニアは<strong>職種によって平均年収が大きく変わります</strong>。本ページでは、推計値や口コミ集計ではなく、<strong>doda「平均年収ランキング2025」</strong>と<strong>求人ボックス給料ナビ（2026年6月時点）</strong>の<strong>公表値だけ</strong>を使って、職種別の年収を比較します。「どの職種が高いのか」「自分の職種の相場はいくらか」を出典を明記して確認できます。
         </p>
         <DataNote surveyedAt="2026年6月" sources={["doda 平均年収ランキング2025（職種別）", "求人ボックス 給料ナビ（職種別）"]} />
         <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月｜数値は各社の公表値です。調査主体・対象・時点が異なるため、ソースをまたいだ単純比較ではなく職種内の相場の目安としてご覧ください。</p>
@@ -183,8 +183,8 @@ export default function JobTypeSalaryPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-3">自分の職種の想定年収を把握しよう</h2>
-          <p className="text-blue-100 text-sm mb-4">同じ職種でも経験・技術範囲でレンジは大きく変わります。IT特化エージェントに相談して、自分の市場価値と狙える年収を把握しましょう。</p>
+          <h2 className="text-xl font-bold mb-3">自分の職種の想定年収を把握する</h2>
+          <p className="text-blue-100 text-sm mb-4">同じ職種でも経験・技術範囲でレンジは大きく変わります。IT特化エージェントに相談して、自分の市場価値と狙える年収を把握してください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
         {/* 一次データ相互リンク（2026-07-04 リンク完全性の是正） */}

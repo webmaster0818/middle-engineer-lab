@@ -17,7 +17,7 @@ const toc = [
   { id: "salary", label: "レバテックの年代別年収データで見る相場" },
   { id: "select", label: "フリーランスエージェントの選び方" },
   { id: "table", label: "代表的なエージェント・媒体の比較表" },
-  { id: "reviews", label: "口コミの傾向（出典付き）" },
+  { id: "reviews", label: "口コミの傾向（出典明記）" },
   { id: "checklist", label: "フリーランスに向いている人・向いていない人" },
   { id: "age", label: "30代・40代でフリーランス独立は遅い？" },
   { id: "faq", label: "よくある質問" },
@@ -90,12 +90,12 @@ const fitNo = [
 const faqs = [
   { q: "フリーランスエンジニアと正社員、どちらが良いですか？", a: "収入の上限を自分のスキルで引き上げたいならフリーランス、安定性・福利厚生・社会保険の会社負担を重視するなら正社員が向きます。一般的には正社員で実務経験を積みスキルが固まった段階で独立を検討する流れが多く、当サイトは『まず正社員で土台を作る』ことを基本に置いています。" },
   { q: "フリーランスの年収はどのくらいが目安ですか？", a: "案件の単価・稼働日数・領域で大きく変わるため一概には言えません。参考として、レバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。フリーランスはこれを上回るケースもありますが、空白期間や経費・税負担を差し引いた手取りで比較する必要があります。" },
-  { q: "フリーランスエージェントは何社登録すべきですか？", a: "2〜3社が目安です。案件の選択肢を広げつつ、連絡や面談を無理なく管理できる社数に抑えましょう。IT/Web特化のレバテックフリーランスのような専門エージェントを軸に検討するのが一般的です。" },
+  { q: "フリーランスエージェントは何社登録すべきですか？", a: "2〜3社が目安です。案件の選択肢を広げつつ、連絡や面談を無理なく管理できる社数に抑えてください。IT/Web特化のレバテックフリーランスのような専門エージェントを軸に検討するのが一般的です。" },
   { q: "フリーランスのデメリットは何ですか？", a: "案件の空白期間リスク、確定申告・経理の手間、社会保険・年金の自己負担、ローン審査のハードルが代表的です。会社員のような有給・賞与・退職金もありません。これらを踏まえて手取りベースで正社員と比較することが大切です。" },
   { q: "30代・40代からフリーランスになるのは遅いですか？", a: "遅すぎることはありませんが、年齢が上がるほど『専門性』と『過去の実績』が問われやすくなります。30代・40代は得意領域が明確なほど有利で、逆に強みが曖昧なまま独立すると単価が伸びにくい傾向があります。正社員転職とフリーランス、両方の選択肢を並行して検討するのが安全です。" },
   { q: "フリーランスから正社員に戻れますか？", a: "戻ることは可能です。ハイクラス採用のビズリーチや、IT特化のレバテックキャリアなど、実務経験を評価する正社員エージェントがあります。フリーランス期間の実績を職務経歴として整理しておくと、正社員転職時の交渉材料になります。" },
   { q: "エージェントを使わず直接契約はできますか？", a: "GreenのようなダイレクトリクルーティングやSNS経由で企業と直接やり取りする方法もあります。ただし単価交渉・契約・支払い管理を自分で行う必要があり、初めての独立ではエージェント経由の方が手間を抑えられます。" },
-  { q: "フリーランスエージェントの利用に料金はかかりますか？", a: "求職者（エンジニア側）は無料で利用できるのが一般的です。エージェントはエンド企業から受け取る金額の一部をマージンとして得る仕組みです。マージン率の扱いはサービスにより異なるため、契約前に条件を確認しましょう。" },
+  { q: "フリーランスエージェントの利用に料金はかかりますか？", a: "求職者（エンジニア側）は無料で利用できるのが一般的です。エージェントはエンド企業から受け取る金額の一部をマージンとして得る仕組みです。マージン率の扱いはサービスにより異なるため、契約前に条件をご確認ください。" },
 ];
 
 const related = [
@@ -168,7 +168,7 @@ export default function FreelanceAgentsPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-slate-600 leading-relaxed mt-4">額面の単価だけを見ると独立が有利に見えますが、経費・税・社会保険・空白期間・福利厚生の差を引いた「手取り」で比べると差は縮まります。判断は必ず手取りベースで行いましょう。</p>
+          <p className="text-sm text-slate-600 leading-relaxed mt-4">額面の単価だけを見ると独立が有利に見えますが、経費・税・社会保険・空白期間・福利厚生の差を引いた「手取り」で比べると差は縮まります。判断は必ず手取りベースで行ってください。</p>
         </section>
 
         <section id="salary" className="mb-10 scroll-mt-4">
@@ -199,11 +199,11 @@ export default function FreelanceAgentsPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">1. 自分の得意領域の案件を多く扱うか</h3>
-              <p>IT/Web特化のフリーランスエージェントは、得意領域（バックエンド、フロントエンド、インフラ等）の案件が集まりやすい傾向があります。まずは自分のスキルと合う領域に強いサービスを選びましょう。</p>
+              <p>IT/Web特化のフリーランスエージェントは、得意領域（バックエンド、フロントエンド、インフラ等）の案件が集まりやすい傾向があります。まずは自分のスキルと合う領域に強いサービスを選んでください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">2. 契約・単価交渉のサポートがあるか</h3>
-              <p>初めての独立では、契約条件の確認や単価交渉を代行してもらえると安心です。サポート範囲（契約・支払い管理・福利厚生的な制度の有無）を比較しましょう。</p>
+              <p>初めての独立では、契約条件の確認や単価交渉を代行してもらえると安心です。サポート範囲（契約・支払い管理・福利厚生的な制度の有無）を比較することをおすすめします。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">3. 正社員の選択肢も同時に確認する</h3>
@@ -211,7 +211,7 @@ export default function FreelanceAgentsPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">4. 直接契約型の媒体も知っておく</h3>
-              <p>Greenのような成功報酬型サイトでは企業と直接やり取りできますが、契約や支払い管理は自分で行う必要があります。仲介の手厚さと自由度のバランスで選びましょう。</p>
+              <p>Greenのような成功報酬型サイトでは企業と直接やり取りできますが、契約や支払い管理は自分で行う必要があります。仲介の手厚さと自由度のバランスで選んでください。</p>
             </div>
           </div>
         </section>
@@ -246,7 +246,7 @@ export default function FreelanceAgentsPage() {
         </section>
 
         <section id="reviews" className="mb-10 scroll-mt-4">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミの傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミの傾向（出典明記）</h2>
           <p className="text-sm text-slate-500 mb-4">※口コミプラットフォームに見られる傾向の要約です。原文転載ではありません。</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
@@ -316,7 +316,7 @@ export default function FreelanceAgentsPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">独立か正社員か、両方の数字を見て決めましょう</h2>
+          <h2 className="text-xl font-bold mb-3">独立と正社員の両方の数字を比べて決める</h2>
           <p className="text-blue-100 text-sm mb-4">フリーランスの単価と正社員のオファーを並べて、手取りベースで比較することが、後悔しない判断につながります。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>

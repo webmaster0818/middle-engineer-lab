@@ -20,7 +20,7 @@ const toc = [
   { id: "area", label: "対応エリアで比較" },
   { id: "support", label: "サポート体制で比較" },
   { id: "field", label: "得意職種・実績で比較" },
-  { id: "reviews", label: "口コミ傾向（出典付き）" },
+  { id: "reviews", label: "口コミ傾向（出典明記）" },
   { id: "checklist", label: "向いている人チェックリスト" },
   { id: "combo", label: "併用ガイド" },
   { id: "middle", label: "30代・40代エンジニアの視点" },
@@ -46,7 +46,7 @@ const faqs = [
   { q: "専門性が高いのはどちらですか？", a: "Geeklyです。IT・Web・ゲーム特化型で、アドバイザーが技術やポジションの文脈を理解した提案をしやすい点が強みです。Geeklyは書類通過率1.5倍・入社後活躍率90%（いずれも公式）を掲げています。リクルートエージェントITは総合型のIT領域支援で網羅性が強みですが、担当者の対応が事務的との声も口コミに見られます。" },
   { q: "地方在住でも利用できますか？", a: "リクルートエージェントITは全国47都道府県の求人を扱い、地方在住でもオンライン面談で利用できます。Geeklyも全国対応ですが、公式では関東・関西・東海が中心とされるため、それ以外の地方求人を広く見たい場合はリクルートを軸にするとよいでしょう。" },
   { q: "40代エンジニアにはどちらが適していますか？", a: "求人の母数を確保しやすいリクルートエージェントITを軸にしつつ、IT/Web/ゲーム領域の専門提案を受けるためにGeeklyを併用する形が現実的です。リクルートは求人数が多いため、40代でもPM・PL経験や特定業界の知見があれば紹介につながりやすい傾向があります。" },
-  { q: "両方に登録しても問題ありませんか？", a: "問題なく、むしろ求人の網（リクルート）と専門性（Geekly）を両立できるため合理的です。両方とも求職者は無料です。同じ企業へ重複応募しないよう、応募状況は自分で管理しておきましょう。" },
+  { q: "両方に登録しても問題ありませんか？", a: "問題なく、むしろ求人の網（リクルート）と専門性（Geekly）を両立できるため合理的です。両方とも求職者は無料です。同じ企業へ重複応募しないよう、応募状況は自分で管理しておくことをおすすめします。" },
 ];
 
 const geeklyReviews = {
@@ -246,7 +246,7 @@ export default function GeeklyVsRecruitPage() {
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ傾向（出典明記）</h2>
           <p className="text-sm text-slate-500 mb-4">
             以下は、Qiita Job Change・みん評・各種転職口コミメディアに見られる傾向を要約したものです（原文転載ではありません）。
           </p>
@@ -311,7 +311,7 @@ export default function GeeklyVsRecruitPage() {
               {[
                 { num: "1", title: "リクルートで母数を確保", desc: "まず求人量の多いリクルートエージェントITに登録し、業界・職種・エリアを横断して市場全体を把握します。非公開求人の母数を押さえます。" },
                 { num: "2", title: "Geeklyで専門提案を受ける", desc: "並行してGeeklyに登録し、IT/Web/ゲームに絞った技術文脈の通じる提案を受けます。ゲーム領域や書類通過率の高い選考支援もここで活用します。" },
-                { num: "3", title: "提案を突き合わせて精度を上げる", desc: "両社の提案を突き合わせると、求人の網羅性（リクルート）と適合度（Geekly）の両方を担保できます。相性の良い担当者をメインに据えましょう。" },
+                { num: "3", title: "提案を突き合わせて精度を上げる", desc: "両社の提案を突き合わせると、求人の網羅性（リクルート）と適合度（Geekly）の両方を担保できます。相性の良い担当者をメインに据えてください。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -323,7 +323,7 @@ export default function GeeklyVsRecruitPage() {
               ))}
             </div>
             <p className="text-xs text-slate-500 mt-4">
-              併用時は同じ企業への重複応募を避けるため、応募状況を自分で管理しておきましょう。詳しくは
+              併用時は同じ企業への重複応募を避けるため、応募状況を自分で管理しておくことをおすすめします。詳しくは
               <Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>
               も参照してください。
             </p>
@@ -368,7 +368,7 @@ export default function GeeklyVsRecruitPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">迷った場合は両方への登録をおすすめします</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Geekly（ギークリー）とリクルートエージェントITは両方無料です。専門特化と求人量という強みが異なるため、2社に登録して提案を比較しましょう。
+            Geekly（ギークリー）とリクルートエージェントITは両方無料です。専門特化と求人量という強みが異なるため、2社に登録して提案を比較することをおすすめします。
           </p>
           <Link
             href="/#ranking"

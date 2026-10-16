@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "明光キャリアパートナーズの評判・口コミは？特徴・料金・対応【2026年】";
 const DESCRIPTION =
-  "明光キャリアパートナーズ（STRATEGY CAREER）の評判・特徴を30代40代ミドルエンジニア目線で検証します。東証プライム明光ネットワークジャパンのグループ会社という信頼背景、有料職業紹介の許可番号、M&A・コンサル・エンジニアなど複数領域の実態、料金、向く人・向かない人を出典付きで解説します。";
+  "明光キャリアパートナーズ（STRATEGY CAREER）の評判・特徴を30代40代ミドルエンジニア目線で検証します。東証プライム明光ネットワークジャパンのグループ会社という信頼背景、有料職業紹介の許可番号、M&A・コンサル・エンジニアなど複数領域の実態、料金、向く人・向かない人を出典を明記して解説します。";
 const URL = "/review/meiko-career/";
 const OFFICIAL_URL = "https://meiko-career.jp/";
 
@@ -274,7 +274,7 @@ export default function MeikoCareerReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は公式情報および各口コミメディアの紹介を傾向としてまとめたものです（原文転載ではありません）。
           </p>

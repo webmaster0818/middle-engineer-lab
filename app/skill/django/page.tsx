@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Djangoエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. Djangoの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. Djangoの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Djangoエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
@@ -138,7 +138,7 @@ export default function DjangoSkillPage() {
         </section>
 
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Djangoの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Djangoの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Djangoはフレームワークのため言語単独の公的平均値は乏しく、ここでは職種別・年代別の公表データで代替します。出典と時点を明示できる値のみを使用します。
           </p>
@@ -178,7 +178,7 @@ export default function DjangoSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "他言語でのWeb開発実務2〜3年（またはPythonでのスクリプト・データ経験）／DB・HTTPの基礎／Djangoは自習レベル", note: "Django未経験OK求人がここに該当" },
+              { tier: "入口（ポテンシャル）", req: "他言語でのWeb開発実務2〜3年（またはPythonでのスクリプト・データ経験）／DB・HTTPの基礎／Djangoは自習レベル", note: "Django未経験可の求人がここに該当" },
               { tier: "即戦力（ミドル）", req: "DjangoでのWebアプリ・API開発の実務／ORM・テスト／Django REST framework等", note: "求人の中心ゾーン" },
               { tier: "ハイクラス", req: "Django基盤の設計・テックリード／データ・AI連携／技術選定", note: "年収800万円以上が狙える層" },
             ].map((item, i) => (
@@ -253,7 +253,7 @@ export default function DjangoSkillPage() {
             {[
               { num: "1", title: "Web開発またはPython経験を土台にする", desc: "Rails／Laravel／SpringなどのWeb開発経験、またはPythonでのデータ・スクリプト経験があれば、それを土台に「Djangoは未経験だがキャッチアップ可」とアピールできます。完全未経験より有利です。" },
               { num: "2", title: "DjangoアプリをGitHubに公開する", desc: "認証・CRUD・APIを備えたDjangoアプリを作って公開します。admin・ORM・Django REST frameworkといった標準機能を使いこなせることが伝わると、フレームワークの理解を示せます。" },
-              { num: "3", title: "データ・AI連携を絡めて差別化する", desc: "機械学習の結果を返すAPIや、データ集計の管理画面など、Pythonエコシステムを活かした題材を作ると、他フレームワーク出身者との差別化になります。エージェントにその志向を伝え、データ寄りのDjango求人を紹介してもらいましょう。" },
+              { num: "3", title: "データ・AI連携を絡めて差別化する", desc: "機械学習の結果を返すAPIや、データ集計の管理画面など、Pythonエコシステムを活かした題材を作ると、他フレームワーク出身者との差別化になります。エージェントにその志向を伝え、データ寄りのDjango求人を紹介してもらってください。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -278,7 +278,7 @@ export default function DjangoSkillPage() {
               <strong>データ・AIとの掛け算で差別化します。</strong>Django単体より「Django＋データ／AI」「Django＋特定ドメイン（医療・製造・金融など）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、Pythonエコシステムと結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのDjango求人では、実装力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのDjango求人では、実装力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -293,7 +293,7 @@ export default function DjangoSkillPage() {
               <strong>① 標準機能（admin・ORM・認証）を使いこなします。</strong>Djangoは「電池付属」で標準機能が豊富です。公式チュートリアルに沿ってアプリを作り、adminやORM、認証の使い方を押さえると、Djangoらしい開発を効率よく身につけられます。
             </p>
             <p>
-              <strong>② API開発（DRF）を経験します。</strong>Django REST frameworkを使ったAPI開発は実務で頻出です。フロントやモバイルと連携するAPIを設計・実装し、認証やシリアライザの扱いを経験として語れる状態にしましょう。
+              <strong>② API開発（DRF）を経験します。</strong>Django REST frameworkを使ったAPI開発は実務で頻出です。フロントやモバイルと連携するAPIを設計・実装し、認証やシリアライザの扱いを経験として語れる状態にしてください。
             </p>
             <p>
               <strong>③ データ・AIエコシステムを掛け合わせます。</strong>pandasや機械学習の成果をDjangoで配信するなど、Pythonの強みを活かす題材に取り組むと、データ寄りの高付加価値ポジションに近づきます。Web単体に閉じないことが、市場価値を高めるうえで重要です。

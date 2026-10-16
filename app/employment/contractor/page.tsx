@@ -328,7 +328,7 @@ export default function ContractorPage() {
         <section id="fit" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">業務委託に向いている人・向いていない人</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            業務委託は誰にでも合う働き方ではありません。単価の高さだけで選ぶと、事務負担や収入変動につまずきがちです。自分の状況と照らし合わせて判断しましょう。
+            業務委託は誰にでも合う働き方ではありません。単価の高さだけで選ぶと、事務負担や収入変動につまずきがちです。自分の状況と照らし合わせて判断することをおすすめします。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-[var(--line)] rounded-lg p-5">
@@ -356,7 +356,7 @@ export default function ContractorPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：ライフイベントと信用のタイミング</h3>
-              <p className="text-sm text-petrol-deep">住宅ローン・賃貸審査では、フリーランスは収入の安定性証明に開業後の実績年数を求められる傾向があります。住宅購入などの予定があるなら、正社員のうちに済ませてから独立する選択肢もあります。単価の高さに引っ張られず、信用が必要なイベントの順序を先に設計しましょう。</p>
+              <p className="text-sm text-petrol-deep">住宅ローン・賃貸審査では、フリーランスは収入の安定性証明に開業後の実績年数を求められる傾向があります。住宅購入などの予定があるなら、正社員のうちに済ませてから独立する選択肢もあります。単価の高さに引っ張られず、信用が必要なイベントの順序を先に設計してください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験の市場性とリスク許容度</h3>
@@ -389,7 +389,7 @@ export default function ContractorPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">独立の前に「正社員としての市場価値」を確認</h2>
           <p className="text-blue-100 text-sm mb-4">
-            業務委託の単価と、正社員としての提示年収・保障を並べて比較してから判断するのが安全です。まずは市場価値の把握から始めましょう。
+            業務委託の単価と、正社員としての提示年収・保障を並べて比較してから判断するのが安全です。まずは市場価値の把握から始めてください。
           </p>
           <Link href="/compare/agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             IT転職エージェント比較を見る

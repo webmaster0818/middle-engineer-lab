@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "フリーランススタートの評判・口コミ｜30代40代エンジニアの本音";
 const DESCRIPTION =
-  "フリーランススタート（freelance-start）の評判・口コミを30代40代エンジニア目線で検証します。エン・ジャパングループ運営の国内最大級・案件横断検索の仕組み、累計55万件・平均単価データ、案件サイトとの違いと併用術を出典付きで解説します。";
+  "フリーランススタート（freelance-start）の評判・口コミを30代40代エンジニア目線で検証します。エン・ジャパングループ運営の国内最大級・案件横断検索の仕組み、累計55万件・平均単価データ、案件サイトとの違いと併用術を出典を明記して解説します。";
 const URL = "/review/freelance-start/";
 
 export const metadata: Metadata = {
@@ -290,7 +290,7 @@ export default function FreelanceStartReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載ではありません）。
           </p>

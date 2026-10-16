@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "転職先が決まっている場合はどうなりますか？",
-    a: "受給資格決定前にすでに就職が決まっている場合は、失業状態に当たらないため基本手当は受けられません。一方、受給期間中に早期に再就職できた場合は、要件を満たせば『再就職手当』を受けられることがあります。早く決まると損というわけではないので、ハローワークで該当制度を確認しましょう。",
+    a: "受給資格決定前にすでに就職が決まっている場合は、失業状態に当たらないため基本手当は受けられません。一方、受給期間中に早期に再就職できた場合は、要件を満たせば『再就職手当』を受けられることがあります。早く決まると損というわけではないので、ハローワークで該当制度をご確認ください。",
   },
   {
     q: "教育訓練を受けると給付制限が解除されると聞きました。",
@@ -137,7 +137,7 @@ export default function UnemploymentInsurancePage() {
               失業保険（基本手当）は、<strong>離職理由を問わず7日間の待期</strong>があり、<strong>自己都合の場合は2025年4月から原則1か月の給付制限</strong>が加わります（5年以内3回以上の自己都合離職は3か月、厚生労働省）。会社都合は待期後すぐに受給が始まることが多く、給付日数も手厚い傾向があります。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              受給できる期限は<strong>原則として離職日の翌日から1年間</strong>です。離職票が届いたら早めにハローワークで手続きしましょう。なお、すでに転職先が確定している場合や開業した場合は『失業の状態』に当たらず受給できません。最終的な可否はハローワークの判断によります。
+              受給できる期限は<strong>原則として離職日の翌日から1年間</strong>です。離職票が届いたら早めにハローワークで手続きしてください。なお、すでに転職先が確定している場合や開業した場合は『失業の状態』に当たらず受給できません。最終的な可否はハローワークの判断によります。
             </p>
           </div>
         </section>
@@ -242,7 +242,7 @@ export default function UnemploymentInsurancePage() {
           <div className="space-y-4">
             <div className="bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 mb-2">転職活動は求職活動として要件に沿う</h3>
-              <p className="text-sm text-amber-700 leading-relaxed">エージェント経由の応募や面接などの転職活動は、受給に必要な求職活動として認められる場合があります。何が求職活動実績になるかはハローワークで確認しましょう。</p>
+              <p className="text-sm text-amber-700 leading-relaxed">エージェント経由の応募や面接などの転職活動は、受給に必要な求職活動として認められる場合があります。何が求職活動実績になるかはハローワークでご確認ください。</p>
             </div>
             <div className="bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 mb-2">早期再就職なら再就職手当の可能性</h3>
@@ -275,7 +275,7 @@ export default function UnemploymentInsurancePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">再就職はIT特化エージェントで効率化</h2>
           <p className="text-blue-100 text-sm mb-4">
-            求職活動を進めながら、エンジニア向けの求人を効率よく探しましょう。
+            求職活動を進めながら、エンジニア向けの求人を効率よく探してください。
           </p>
           <Link
             href="/#ranking"

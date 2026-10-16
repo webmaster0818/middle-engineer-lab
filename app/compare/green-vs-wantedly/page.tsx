@@ -18,7 +18,7 @@ const toc = [
   { id: "jobs", label: "求人数・企業数で比較" },
   { id: "usage", label: "使い方・選考フローで比較" },
   { id: "target", label: "対象層・得意領域で比較" },
-  { id: "reviews", label: "口コミ傾向（出典付き）" },
+  { id: "reviews", label: "口コミ傾向（出典明記）" },
   { id: "checklist", label: "向いている人チェックリスト" },
   { id: "combo", label: "併用ガイド" },
   { id: "middle", label: "30代・40代エンジニアの視点" },
@@ -248,7 +248,7 @@ export default function GreenVsWantedlyPage() {
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ傾向（出典明記）</h2>
           <p className="text-sm text-slate-500 mb-4">
             以下は、みん評・axxis・HonNe・各種転職口コミメディアに見られる傾向を要約したものです（原文転載ではありません）。
           </p>
@@ -368,7 +368,7 @@ export default function GreenVsWantedlyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">迷った場合は両方への登録をおすすめします</h2>
           <p className="text-blue-100 text-sm mb-4">
-            GreenとWantedlyは両方無料です。条件重視ならGreen・共感重視ならWantedlyと入口を使い分け、ベンチャー求人の接点を最大化しましょう。
+            GreenとWantedlyは両方無料です。条件重視ならGreen・共感重視ならWantedlyと入口を使い分け、ベンチャー求人の接点を最大化してください。
           </p>
           <Link
             href="/#ranking"

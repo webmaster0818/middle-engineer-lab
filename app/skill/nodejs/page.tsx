@@ -337,7 +337,7 @@ export default function NodejsSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Node.jsスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Node.js/NestJSの自社開発・フルスタック求人に強いIT特化型エージェントで、ご自身のバックエンドスキルの市場価値を確認しましょう。
+            Node.js/NestJSの自社開発・フルスタック求人に強いIT特化型エージェントで、ご自身のバックエンドスキルの市場価値をご確認ください。
           </p>
           <Link
             href="/#ranking"

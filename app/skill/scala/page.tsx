@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Scalaエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. Scalaの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. Scalaの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Scalaエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方と主なエージェント" },
@@ -138,7 +138,7 @@ export default function ScalaSkillPage() {
         </section>
 
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Scalaの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Scalaの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             言語別の年収は媒体によって定義が異なります。ここでは出典と時点を明示できる公表データのみを使用します。Scalaは求人母数が小さく、集計値が高めに振れやすい点に注意してください。
           </p>
@@ -178,7 +178,7 @@ export default function ScalaSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "Java／Kotlin等JVM言語のバックエンド実務2〜3年／関数型の基礎／ScalaはGitHub等での自習レベル", note: "Scala未経験OK求人がここに該当" },
+              { tier: "入口（ポテンシャル）", req: "Java／Kotlin等JVM言語のバックエンド実務2〜3年／関数型の基礎／ScalaはGitHub等での自習レベル", note: "Scala未経験可の求人がここに該当" },
               { tier: "即戦力（ミドル）", req: "ScalaでのAPI・バッチ・データ処理の実務／immutable設計／Spark等の経験", note: "求人の中心ゾーン" },
               { tier: "ハイクラス", req: "Spark基盤・データプラットフォームの設計／テックリード／技術選定", note: "年収800万円以上が狙える層" },
             ].map((item, i) => (
@@ -252,7 +252,7 @@ export default function ScalaSkillPage() {
           <div className="space-y-4">
             {[
               { num: "1", title: "JVM言語の実務経験を土台にする", desc: "Java・Kotlinなど静的型付けJVM言語のバックエンド経験があれば、それを土台に「Scalaは未経験だがキャッチアップ可」とアピールできます。完全未経験よりポテンシャル採用の対象になりやすくなります。" },
-              { num: "2", title: "関数型・Sparkの実績をGitHubに公開する", desc: "Scalaで書いたAPIサーバーや、Sparkを使った集計バッチを公開します。immutableなデータ設計、パターンマッチ、テストの充実度まで見られるため、関数型の理解が伝わる状態にしましょう。" },
+              { num: "2", title: "関数型・Sparkの実績をGitHubに公開する", desc: "Scalaで書いたAPIサーバーや、Sparkを使った集計バッチを公開します。immutableなデータ設計、パターンマッチ、テストの充実度まで見られるため、関数型の理解が伝わる状態にしてください。" },
               { num: "3", title: "データ基盤を持つ企業のポテンシャル枠を狙う", desc: "Sparkでデータ基盤を運用する企業はScala経験者の母数不足から、入社後キャッチアップ前提の採用を行うことがあります。エージェントに「Scalaは学習中、データ処理に興味がある」と伝え、そうした求人を紹介してもらうのが近道です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -278,7 +278,7 @@ export default function ScalaSkillPage() {
               <strong>掛け算で差別化します。</strong>Scala単体より「Scala＋データ基盤」「Scala＋金融・広告などのドメイン知識」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、Scalaという実装手段と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのScala求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのScala求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

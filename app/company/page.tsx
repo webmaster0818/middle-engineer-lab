@@ -251,7 +251,7 @@ export default function CompanyIndexPage() {
             </li>
             <li>
               <span className="font-medium text-slate-700">年収の構造</span>
-              ：上場企業は有価証券報告書の平均年収が一つの目安になりますが、これは全社平均であり、エンジニア職や等級によってレンジは上下します。提示レンジは求人ベースで確認しましょう。
+              ：上場企業は有価証券報告書の平均年収が一つの目安になりますが、これは全社平均であり、エンジニア職や等級によってレンジは上下します。提示レンジは求人ベースでご確認ください。
             </li>
             <li>
               <span className="font-medium text-slate-700">働き方とカルチャー</span>
@@ -308,7 +308,7 @@ export default function CompanyIndexPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
           <h2 className="text-xl font-bold mb-3">ご自身に合った企業を探す</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントに無料相談して、最適な企業をマッチングしてもらいましょう。
+            IT特化型エージェントに無料相談して、最適な企業をマッチングしてもらってください。
           </p>
           <Link
             href="/#ranking"

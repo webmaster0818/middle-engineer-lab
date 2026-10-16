@@ -252,7 +252,7 @@ export default function CcnpCertPage() {
             活用戦略は3つに整理できます。第一に<strong>設計・上位運用への足がかり</strong>です。ルーティング・スイッチングの深い理解とSD-WANなどの専門知識を客観的に示せます。第二に<strong>トラック選択による専門化</strong>です。Enterprise／Security／Data Centerなどから自分の実務に合うコンセントレーションを選び、専門性を深められます。第三に<strong>SIer・パートナーでの評価・手当</strong>です。Cisco製品を扱う現場ではCCNP保有が評価対象になりやすく、実利があります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。CCNPは<strong>取得しても単体で年収が大きく上がる資格ではありません</strong>。あくまで実機での構築・トラブルシュート経験を補強する位置づけであり、効果が出るのは実務経験と資格が組み合わさったときです。また有効期限が3年であり、更新を怠ると失効します。逆に言えば、すでにネットワーク現場経験があり設計・上位運用を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>で土台を固めてから臨むのが堅実です。
+            注意すべきデメリットも押さえておくことをおすすめします。CCNPは<strong>取得しても単体で年収が大きく上がる資格ではありません</strong>。あくまで実機での構築・トラブルシュート経験を補強する位置づけであり、効果が出るのは実務経験と資格が組み合わさったときです。また有効期限が3年であり、更新を怠ると失効します。逆に言えば、すでにネットワーク現場経験があり設計・上位運用を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>で土台を固めてから臨むのが堅実です。
           </p>
         </section>
 
@@ -315,7 +315,7 @@ export default function CcnpCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ネットワーク・インフラ職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            CCNPを活かせる設計・上位運用求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            CCNPを活かせる設計・上位運用求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

@@ -123,7 +123,7 @@ export default function JacVsBizreachPage() {
               <tbody>{comparison.map((row, i) => (<tr key={i} className="hover:bg-slate-50 align-top"><td className="px-3 py-3 border border-slate-200 font-medium">{row.item}</td><td className="px-3 py-3 border border-slate-200">{row.a}</td><td className="px-3 py-3 border border-slate-200">{row.b}</td></tr>))}</tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 求人数・年収帯・利用者構成は二次情報・時点付きの参考値です。求人数は時期により変動します。料金は2022年11月改定の二次情報です。満足度93%はJAC側の二次値です。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 求人数・年収帯・利用者構成は二次情報で、時点を明記した参考値です。求人数は時期により変動します。料金は2022年11月改定の二次情報です。満足度93%はJAC側の二次値です。</p>
         </section>
 
         <section id="type" className="mb-12 scroll-mt-20">

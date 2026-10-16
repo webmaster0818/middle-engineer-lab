@@ -241,7 +241,7 @@ export default function DomesticToForeignPage() {
         <section id="english" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる英語力の目安</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            「外資系＝高い英語力が必須」と一括りにするのは誤解です。配属チームと役割によって必要レベルは大きく変わります。まず志望ポジションの実態を確認しましょう。
+            「外資系＝高い英語力が必須」と一括りにするのは誤解です。配属チームと役割によって必要レベルは大きく変わります。まず志望ポジションの実態をご確認ください。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">

@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "開業届の控えは保管しておくべきですか？",
-    a: "はい。事業用の銀行口座開設、小規模企業共済の申込み、各種補助金の申請などで開業届の控え（収受印のあるもの、またはe-Taxの受信通知）の提示を求められることがあります。提出後は必ず控えを保管しておきましょう。",
+    a: "はい。事業用の銀行口座開設、小規模企業共済の申込み、各種補助金の申請などで開業届の控え（収受印のあるもの、またはe-Taxの受信通知）の提示を求められることがあります。提出後は必ず控えを保管しておくことをおすすめします。",
   },
 ];
 
@@ -165,7 +165,7 @@ export default function KaigyoPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">青色申告の前提になる</h3>
-              <p className="text-sm text-slate-600">青色申告の承認を受けるには、開業届の提出が前提になります。節税メリットの大きい青色申告を使うためにも、開業届は早めに出しておきましょう。</p>
+              <p className="text-sm text-slate-600">青色申告の承認を受けるには、開業届の提出が前提になります。節税メリットの大きい青色申告を使うためにも、開業届は早めに出しておくことをおすすめします。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">事業用口座や共済の申込みに使える</h3>
@@ -181,7 +181,7 @@ export default function KaigyoPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">提出期限：事業開始から1か月以内</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                国税庁の案内では、開業届は事業の開始等の事実があった日から1か月以内に提出することとされています。期限を過ぎても受理はされますが、青色申告の承認期限と関係するため、独立後は速やかに提出しましょう。
+                国税庁の案内では、開業届は事業の開始等の事実があった日から1か月以内に提出することとされています。期限を過ぎても受理はされますが、青色申告の承認期限と関係するため、独立後は速やかに提出してください。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -247,11 +247,11 @@ export default function KaigyoPage() {
             </div>
             <div className="bg-red-50 rounded-lg p-5">
               <h3 className="font-bold text-red-800 mb-2">インボイス登録は別の判断</h3>
-              <p className="text-sm text-red-700 leading-relaxed">開業届とインボイス（適格請求書発行事業者）の登録は別の手続きです。取引先や売上規模をふまえて、登録するかどうかを検討しましょう。</p>
+              <p className="text-sm text-red-700 leading-relaxed">開業届とインボイス（適格請求書発行事業者）の登録は別の手続きです。取引先や売上規模をふまえて、登録するかどうかを検討することをおすすめします。</p>
             </div>
             <div className="bg-red-50 rounded-lg p-5">
               <h3 className="font-bold text-red-800 mb-2">失業保険との関係に注意</h3>
-              <p className="text-sm text-red-700 leading-relaxed">開業すると原則として失業保険（基本手当）の受給対象から外れます。受給を検討している場合は、開業のタイミングをハローワークに確認しましょう。</p>
+              <p className="text-sm text-red-700 leading-relaxed">開業すると原則として失業保険（基本手当）の受給対象から外れます。受給を検討している場合は、開業のタイミングをハローワークにご確認ください。</p>
             </div>
           </div>
         </section>

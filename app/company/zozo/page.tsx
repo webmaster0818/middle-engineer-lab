@@ -31,7 +31,7 @@ const basicData: [string, string][] = [
 
 const toc = [
   ["conclusion", "難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["basic", "基本データ（出典明記）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -146,7 +146,7 @@ export default function ZozoCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -260,7 +260,7 @@ export default function ZozoCompanyPage() {
               ZOZOは平均年齢34.7歳（2026年3月期・全社員平均）の組織です。コーディングテストがなく対話重視の選考は、<strong>これまでの実務経験と意思決定を言語化できる30代・40代のミドルエンジニアにとってはアピールしやすい形式</strong>と言えます。大規模EC・マイクロサービス移行・計測技術などの経験を活かせるかが評価の鍵です。
             </p>
             <p>
-              年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。ZOZOの全社員平均（656万円）は販売・物流など全職種を含む値であり、エンジニア職の提示はポジション・グレード次第です。前期から全社平均が減少している点も踏まえ、提示額は個別求人で必ず確認しましょう。
+              年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。ZOZOの全社員平均（656万円）は販売・物流など全職種を含む値であり、エンジニア職の提示はポジション・グレード次第です。前期から全社平均が減少している点も踏まえ、提示額は個別求人で必ずご確認ください。
             </p>
             <p>
               働き方は、コアタイムなしのフレックスで残業少なめ・有給を取得しやすいという口コミ傾向がある一方、部署差の指摘もあります。面談時にチームの開発スタイルや働き方を確認しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて確認してください。

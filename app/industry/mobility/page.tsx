@@ -388,7 +388,7 @@ export default function MobilityPage() {
               <p className="text-sm text-petrol-deep">
                 機能安全や品質保証、大規模開発のマネジメント経験は、人命に関わる自動車領域で評価されやすい強みです。実装だけを強みにするより、組み合わせの価値を打ち出すのが現実的です。
                 <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職事情</Link>
-                も確認しておきましょう。
+                も確認しておくことをおすすめします。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -442,7 +442,7 @@ export default function MobilityPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ご自身の技術をモビリティで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
-            まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
+            まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的にご確認ください。
           </p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

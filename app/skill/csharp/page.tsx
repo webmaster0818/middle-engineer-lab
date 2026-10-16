@@ -244,7 +244,7 @@ export default function CsharpSkillPage() {
         <section id="find" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            C#は領域が広いため、狙うドメインによって相性の良いエージェントが変わります。タイプの異なる3社を併用しましょう。
+            C#は領域が広いため、狙うドメインによって相性の良いエージェントが変わります。タイプの異なる3社を併用することをおすすめします。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -356,7 +356,7 @@ export default function CsharpSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">C#/.NETのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            C#の求人に精通したIT特化型エージェントに登録して、年収アップの可能性を探りましょう。
+            C#の求人に精通したIT特化型エージェントに登録して、年収アップの可能性を探ってください。
           </p>
           <Link
             href="/#ranking"

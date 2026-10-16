@@ -313,10 +313,10 @@ export default function ReferralPage() {
               30代・40代は、これまでの職歴で築いた<strong>「元同僚」というリファラルの母集団</strong>が最大の資産です。過去に一緒に働いた人が各社に散らばっているため、若手よりリファラルのチャンスは多い世代といえます。前職の人間関係を良好に保っておくことが、将来の選択肢になります。
             </p>
             <p>
-              一方で、ミドル層は採用側の期待値も高く、<strong>「知り合いだから通る」わけではない</strong>点に注意が必要です。推薦があっても、相応のポジションでは技術力・リード経験がしっかり問われます。リファラルだからと準備を軽くせず、職務経歴書や面接対策は通常どおり丁寧に行いましょう（<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>）。
+              一方で、ミドル層は採用側の期待値も高く、<strong>「知り合いだから通る」わけではない</strong>点に注意が必要です。推薦があっても、相応のポジションでは技術力・リード経験がしっかり問われます。リファラルだからと準備を軽くせず、職務経歴書や面接対策は通常どおり丁寧に行ってください（<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>）。
             </p>
             <p>
-              年収面では、知り合い経由ゆえに交渉を切り出しにくい心理が働きがちです。相場をエージェントで把握し、感情と切り離して人事と交渉しましょう。年代別の年収感は
+              年収面では、知り合い経由ゆえに交渉を切り出しにくい心理が働きがちです。相場をエージェントで把握し、感情と切り離して人事と交渉してください。年代別の年収感は
               <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収</Link>
               ・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>を参考にしてください。
             </p>
@@ -368,7 +368,7 @@ export default function ReferralPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">リファラルとあわせてエージェントも活用する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            リファラル先の条件が適正か判断するには、市場相場を知ることが欠かせません。IT特化型エージェントで相場を確認し、交渉を有利に進めましょう。
+            リファラル先の条件が適正か判断するには、市場相場を知ることが欠かせません。IT特化型エージェントで相場を確認し、交渉を有利に進めてください。
           </p>
           <Link
             href="/#ranking"

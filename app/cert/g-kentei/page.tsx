@@ -290,7 +290,7 @@ export default function GKenteiCertPage() {
             活用戦略は3つに整理できます。第一に<strong>AI活用の推進役としての素養証明</strong>です。AIの能力と限界を理解していることを示し、DX推進やPoCの企画ポジションで評価されます。第二に<strong>技術者と事業の橋渡し</strong>です。データサイエンティストや開発者と事業部門をつなぐ役割として、共通言語の理解が役立ちます。第三に<strong>手頃な受験料で始められる第一歩</strong>です。受験資格に制限がなく費用も抑えめで、AIリテラシーを客観的に示す入口として取り組みやすい点が利点です。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。G検定は<strong>AIモデルを実装する技術力を直接保証する資格ではありません</strong>。あくまでAI活用の素養を補強する位置づけであり、効果が出るのはIT・企画・マネジメント実務と資格が組み合わさったときです。AIエンジニアとして手を動かす職を目指すなら、G検定ではなくE資格や実装経験が必要です。逆に言えば、すでに実務経験があり、AI活用の推進役へ役割を広げたい30〜40代にとっては、低コストで取り組める実利的な検定です。生成AIの実務的な活用は<Link href="/skill/generative-ai/" className="text-petrol hover:underline">生成AI関連の転職ガイド</Link>も参考になります。
+            注意すべきデメリットも押さえておくことをおすすめします。G検定は<strong>AIモデルを実装する技術力を直接保証する資格ではありません</strong>。あくまでAI活用の素養を補強する位置づけであり、効果が出るのはIT・企画・マネジメント実務と資格が組み合わさったときです。AIエンジニアとして手を動かす職を目指すなら、G検定ではなくE資格や実装経験が必要です。逆に言えば、すでに実務経験があり、AI活用の推進役へ役割を広げたい30〜40代にとっては、低コストで取り組める実利的な検定です。生成AIの実務的な活用は<Link href="/skill/generative-ai/" className="text-petrol hover:underline">生成AI関連の転職ガイド</Link>も参考になります。
           </p>
         </section>
 
@@ -353,7 +353,7 @@ export default function GKenteiCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">AI活用・DX推進職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            G検定で示せるAIリテラシーを活かせる企画・推進求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            G検定で示せるAIリテラシーを活かせる企画・推進求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

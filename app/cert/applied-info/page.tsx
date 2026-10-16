@@ -249,7 +249,7 @@ export default function AppliedInfoCertPage() {
             活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>です。設計・PMへ役割を広げたい経験者が、要件定義やマネジメント領域の素養を客観的に示せます。第二に<strong>高度資格への布石</strong>です。午前Ⅰの2年間免除を使えば、情報処理安全確保支援士などの上位試験に効率よく挑戦できます。第三に<strong>社内評価・資格手当</strong>です。応用情報を評価対象とする企業は多く、昇給・評価の根拠として実利があります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。応用情報は<strong>取得しても単体で年収が大きく上がる資格ではありません</strong>。あくまで実務経験を補強する位置づけであり、効果が出るのは実務経験と資格が組み合わさったときです。また午後の記述試験は難度が高く、相応の学習時間が必要です。逆に言えば、すでに現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格だといえます。基礎が不安な場合は、まず<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>で土台を固めてから臨むのが堅実です。
+            注意すべきデメリットも押さえておくことをおすすめします。応用情報は<strong>取得しても単体で年収が大きく上がる資格ではありません</strong>。あくまで実務経験を補強する位置づけであり、効果が出るのは実務経験と資格が組み合わさったときです。また午後の記述試験は難度が高く、相応の学習時間が必要です。逆に言えば、すでに現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格だといえます。基礎が不安な場合は、まず<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>で土台を固めてから臨むのが堅実です。
           </p>
         </section>
 
@@ -312,7 +312,7 @@ export default function AppliedInfoCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">上流・専門職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            応用情報を活かせる上流・設計求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            応用情報を活かせる上流・設計求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

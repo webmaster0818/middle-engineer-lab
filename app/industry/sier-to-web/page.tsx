@@ -101,7 +101,7 @@ const faqs = [
   },
   {
     q: "客先常駐（SES寄り）のSIer経験でも評価されますか？",
-    a: "評価されます。担当した技術・規模・役割を具体的に語れることが鍵です。「どのプロジェクトで、何の技術を使い、どんな課題をどう解決したか」を整理しましょう。SES形態からの脱出を主眼にする場合は、別記事も参考にしてください。",
+    a: "評価されます。担当した技術・規模・役割を具体的に語れることが鍵です。「どのプロジェクトで、何の技術を使い、どんな課題をどう解決したか」を整理してください。SES形態からの脱出を主眼にする場合は、別記事も参考にしてください。",
   },
   {
     q: "ポートフォリオは必須ですか？",
@@ -208,7 +208,7 @@ export default function SierToWebPage() {
         <section id="gap" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術ギャップ・文化ギャップの正体</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            まずはSIerとWeb系の違いを具体的に把握しましょう。下表は一般的な傾向であり、SIerにもアジャイル・内製寄りの組織はあります。あくまで「自分の現職がどちら寄りか」を測る物差しとして使ってください。
+            まずはSIerとWeb系の違いを具体的に把握してください。下表は一般的な傾向であり、SIerにもアジャイル・内製寄りの組織はあります。あくまで「自分の現職がどちら寄りか」を測る物差しとして使ってください。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-6">
             <table className="w-full text-sm">
@@ -249,7 +249,7 @@ export default function SierToWebPage() {
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の現実（公的・公表データ）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            「Web系=高年収」というイメージは、一面では正しいものの誤解も含んでいます。実際には企業タイプと自分の市場価値で大きく変わります。公表されているデータを基準に、現実的な期待値を持ちましょう。
+            「Web系=高年収」というイメージは、一面では正しいものの誤解も含んでいます。実際には企業タイプと自分の市場価値で大きく変わります。公表されているデータを基準に、現実的な期待値を持ってください。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">

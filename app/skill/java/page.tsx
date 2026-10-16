@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Javaエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. Javaの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. Javaの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Javaエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "SIerから自社開発に転職できますか？",
-    a: "可能です。SIerで培ったJava開発・大規模システムの経験は自社開発企業でも評価されます。ただしモダンなフレームワーク（Spring Boot等）やアジャイル開発の理解、そしてGitHub等での活動実績があるとより有利になります。「設計書通りに作る」だけでなく「自分で設計・改善した」経験を言語化しておきましょう。",
+    a: "可能です。SIerで培ったJava開発・大規模システムの経験は自社開発企業でも評価されます。ただしモダンなフレームワーク（Spring Boot等）やアジャイル開発の理解、そしてGitHub等での活動実績があるとより有利になります。「設計書通りに作る」だけでなく「自分で設計・改善した」経験を言語化しておくことをおすすめします。",
   },
   {
     q: "Javaエンジニアにおすすめの転職エージェントは？",
@@ -154,9 +154,9 @@ export default function JavaSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Javaの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Javaの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Java単独の公的平均年収は限られるため、求人数・年代別・職種別の公表データを出典と時点付きで使用します。
+            Java単独の公的平均年収は限られるため、求人数・年代別・職種別の公表データを出典と時点を明記して使用します。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -344,7 +344,7 @@ export default function JavaSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Javaエンジニアの市場価値を確認する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ご自身のJavaスキルが今の市場でどう評価されるか、複数のIT特化型エージェントで保有求人を比較してみましょう。
+            ご自身のJavaスキルが今の市場でどう評価されるか、複数のIT特化型エージェントで保有求人を比較してみることをおすすめします。
           </p>
           <Link
             href="/#ranking"

@@ -135,7 +135,7 @@ const faqs = [
   },
   {
     q: "担当者の技術理解度はどう見極める？",
-    a: "初回面談で自分の経験技術について具体的に質問してくるか、求人を「なぜ合うか」理由付きで説明できるかを見ます。求人を一方的に大量送付するだけ、希望と無関係な提案が続く場合は、担当変更を依頼するか別エージェントへ切り替えましょう。",
+    a: "初回面談で自分の経験技術について具体的に質問してくるか、求人を「なぜ合うか」理由付きで説明できるかを見ます。求人を一方的に大量送付するだけ、希望と無関係な提案が続く場合は、担当変更を依頼するか別エージェントへ切り替えてください。",
   },
   {
     q: "担当者と相性が合わない場合は？",
@@ -147,7 +147,7 @@ const faqs = [
   },
   {
     q: "地方在住でも使えるエージェントは？",
-    a: "全国対応の総合型が向きます。doda ITエンジニア・リクルートエージェントITは全国対応、ワークポートは全国47都道府県57拠点を持ちます（いずれも2026年時点・公式/二次）。レバテックキャリアは首都圏中心の傾向があるため、地方ではフルリモート求人の有無を面談で確認しましょう。",
+    a: "全国対応の総合型が向きます。doda ITエンジニア・リクルートエージェントITは全国対応、ワークポートは全国47都道府県57拠点を持ちます（いずれも2026年時点・公式/二次）。レバテックキャリアは首都圏中心の傾向があるため、地方ではフルリモート求人の有無を面談でご確認ください。",
   },
   {
     q: "未経験寄りでも紹介してもらえる？",
@@ -254,7 +254,7 @@ export default function HowToChoosePage() {
             {[
               { num: "1", title: "IT/Web業界に特化しているか", desc: "IT特化型は技術トレンドや開発文化に精通しています。「Goでのマイクロサービス開発」「Kubernetes運用2年」など具体的な技術要件を理解できる担当がいるかが、求人精度を左右します。" },
               { num: "2", title: "担当者の技術理解度", desc: "初回面談で「ご自身のGoでのAPI開発について詳しく教えてください」と具体的に踏み込んでくる担当は信頼できます。逆に求人を一方的に大量送付するだけの担当は要注意です。" },
-              { num: "3", title: "求人の質と量（公開＋非公開）", desc: "公開求人だけでなく非公開求人をどれだけ保有するかも重要です。リクルートエージェントITはIT公開110,840件/非公開101,680件（2026年5月22日時点・二次集計）と量が突出しています。量だけでなく、登録後に届く求人の質で判断しましょう。" },
+              { num: "3", title: "求人の質と量（公開＋非公開）", desc: "公開求人だけでなく非公開求人をどれだけ保有するかも重要です。リクルートエージェントITはIT公開110,840件/非公開101,680件（2026年5月22日時点・二次集計）と量が突出しています。量だけでなく、登録後に届く求人の質で判断することをおすすめします。" },
               { num: "4", title: "自分の状況との相性", desc: "年代・経験年数・勤務地・志望業界によって最適なエージェントは変わります。レバテックは首都圏中心、ワークポートは全国57拠点（公式/二次）など、対応エリアや得意層を自分の条件に照らして選びます。" },
             ].map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -304,7 +304,7 @@ export default function HowToChoosePage() {
             </table>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed">
-            なお<Link href="/review/doda-it/" className="text-petrol hover:underline">doda ITエンジニア</Link>は検索＋エージェント＋スカウトのハイブリッド型、<Link href="/review/green/" className="text-petrol hover:underline">Green</Link>や<Link href="/review/paiza/" className="text-petrol hover:underline">paiza転職</Link>はエージェントを介さないダイレクト/スカウト型と、形態自体が違うサービスもあります。仲介サポートの有無を必ず確認しましょう。
+            なお<Link href="/review/doda-it/" className="text-petrol hover:underline">doda ITエンジニア</Link>は検索＋エージェント＋スカウトのハイブリッド型、<Link href="/review/green/" className="text-petrol hover:underline">Green</Link>や<Link href="/review/paiza/" className="text-petrol hover:underline">paiza転職</Link>はエージェントを介さないダイレクト/スカウト型と、形態自体が違うサービスもあります。仲介サポートの有無を必ずご確認ください。
           </p>
         </section>
 
@@ -367,7 +367,7 @@ export default function HowToChoosePage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">面談で見極めるチェックリスト</h2>
           <p className="text-slate-600 text-sm leading-relaxed mb-4">
-            初回面談はエージェント側がご自身を見る場であると同時に、ご自身が担当を見極める場です。次の項目を確認しましょう。
+            初回面談はエージェント側がご自身を見る場であると同時に、ご自身が担当を見極める場です。次の項目をご確認ください。
           </p>
           <ul className="space-y-2">
             {checklist.map((c) => (
@@ -389,13 +389,13 @@ export default function HowToChoosePage() {
             <div className="bg-red-50 rounded-lg p-5">
               <h3 className="font-bold text-red-800 mb-2">求人数だけで選んでしまう</h3>
               <p className="text-sm text-red-700 leading-relaxed">
-                求人数は重要ですが、量が多くても自分の技術領域に合う求人が少なければ意味がありません。量（総合型）と精度（特化型）を役割分担させましょう。
+                求人数は重要ですが、量が多くても自分の技術領域に合う求人が少なければ意味がありません。量（総合型）と精度（特化型）を役割分担させてください。
               </p>
             </div>
             <div className="bg-red-50 rounded-lg p-5">
               <h3 className="font-bold text-red-800 mb-2">急かす担当に流される</h3>
               <p className="text-sm text-red-700 leading-relaxed">
-                「今週中に応募しないと締め切られます」と頻繁に急かす担当は、自社の都合を優先している可能性があります。納得できるペースを守りましょう。
+                「今週中に応募しないと締め切られます」と頻繁に急かす担当は、自社の都合を優先している可能性があります。納得できるペースを守ってください。
               </p>
             </div>
             <div className="bg-red-50 rounded-lg p-5">
@@ -452,7 +452,7 @@ export default function HowToChoosePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">まずはIT特化型エージェントに無料相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            エンジニア転職に精通したアドバイザーが、ご自身のキャリアに合う求人を無料で紹介します。10社の比較から始めましょう。
+            エンジニア転職に精通したアドバイザーが、ご自身のキャリアに合う求人を無料で紹介します。10社の比較から始めてください。
           </p>
           <Link
             href="/compare/agents/"

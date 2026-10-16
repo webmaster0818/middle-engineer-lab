@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "LAPRASの評判・口コミ｜30代40代エンジニアの本音と使い方";
 const DESCRIPTION =
-  "LAPRASはGitHubやQiita・X・connpassなどWeb全体の発信をAIが解析するスカウト型です。30代40代目線で評判・口コミ、スコアの仕組み、発信がない時の対処、Findyとの違いを出典付きで解説します。";
+  "LAPRASはGitHubやQiita・X・connpassなどWeb全体の発信をAIが解析するスカウト型です。30代40代目線で評判・口コミ、スコアの仕組み、発信がない時の対処、Findyとの違いを出典を明記して解説します。";
 const URL = "/review/lapras/";
 
 export const metadata: Metadata = {
@@ -309,7 +309,7 @@ export default function LaprasReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載・スコア転載ではありません）。
           </p>

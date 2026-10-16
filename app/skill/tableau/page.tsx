@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Tableauスキルの転職市場での進め方" },
-  { id: "market", label: "2. 年収・市場データ（出典付き）" },
+  { id: "market", label: "2. 年収・市場データ（出典明記）" },
   { id: "use", label: "3. Tableauの用途と求人傾向" },
   { id: "level", label: "4. 求められる経験レベルと求人要件" },
   { id: "career", label: "5. キャリアパスと関連技術" },
@@ -142,7 +142,7 @@ export default function TableauSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収・市場データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収・市場データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Tableau単体の平均年収を集計した公表値は乏しいため、ここでは関連する職種の公表年収で代替します。いずれも出典と時点を明示できる公開データのみを使用します。
           </p>
@@ -201,7 +201,7 @@ export default function TableauSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "Excel・SQLでの分析・レポーティング実務／Tableauは自習レベル／基本的なダッシュボード作成", note: "未経験OK求人がここに該当" },
+              { tier: "入口（ポテンシャル）", req: "Excel・SQLでの分析・レポーティング実務／Tableauは自習レベル／基本的なダッシュボード作成", note: "未経験可の求人がここに該当" },
               { tier: "即戦力（ミドル）", req: "TableauでのBIダッシュボード構築／SQLでのデータ抽出／分析要件の整理・可視化設計", note: "求人の中心ゾーン" },
               { tier: "ハイクラス", req: "BI基盤の設計・運用／データソース（DWH）の整備／組織のデータ活用推進・教育", note: "年収800万円前後を狙える層" },
             ].map((item, i) => (
@@ -305,7 +305,7 @@ export default function TableauSkillPage() {
               <strong>掛け算で差別化します。</strong>「Tableau＋SQL／DWH」「Tableau＋過去のドメイン知識（小売・製造・金融など）」の掛け合わせがミドル層の強みです。可視化を業務知識と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>データ活用推進の経験も資産になります。</strong>ダッシュボードを通じて組織のデータドリブンな文化づくりを後押しした経験は、ハイクラス求人で評価されます。教育や推進の実績があれば、技術力とセットで提示しましょう。
+              <strong>データ活用推進の経験も資産になります。</strong>ダッシュボードを通じて組織のデータドリブンな文化づくりを後押しした経験は、ハイクラス求人で評価されます。教育や推進の実績があれば、技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -324,7 +324,7 @@ export default function TableauSkillPage() {
               <strong>② SQLとデータソースを学びます。</strong>Tableauの裏にはデータベースやDWHがあります。SQLでデータを抽出・整形できると、可視化の質も担当できる範囲も広がります。BigQuery・Snowflakeなどのデータソースへの接続経験があると強みになります。
             </p>
             <p>
-              <strong>③ 分析設計とストーリーテリングを磨きます。</strong>「誰が見て、何を判断するためのダッシュボードか」を起点に設計する力は、ツールが変わっても通用します。可視化を意思決定に結びつけるストーリーテリングを意識しましょう。
+              <strong>③ 分析設計とストーリーテリングを磨きます。</strong>「誰が見て、何を判断するためのダッシュボードか」を起点に設計する力は、ツールが変わっても通用します。可視化を意思決定に結びつけるストーリーテリングを意識してください。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。

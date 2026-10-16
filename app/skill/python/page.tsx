@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Pythonエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. Pythonの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. Pythonの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Pythonエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方と主なエージェント" },
@@ -154,9 +154,9 @@ export default function PythonSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Pythonの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Pythonの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Python単独の公的平均年収は公表が限られるため、ここでは職種別・年代別の公表データを出典と時点付きで使用します。
+            Python単独の公的平均年収は公表が限られるため、ここでは職種別・年代別の公表データを出典と時点を明記して使用します。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -266,7 +266,7 @@ export default function PythonSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">Web系・未経験からAI/MLへ進むルート</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "Web系Pythonの実務を土台にする", desc: "Django/FastAPIでのバックエンド経験は、データを扱う基礎として強い土台になります。まずはここでPythonの実務実績を作り、API設計・DB・クラウドの経験を語れる状態にしましょう。" },
+              { num: "1", title: "Web系Pythonの実務を土台にする", desc: "Django/FastAPIでのバックエンド経験は、データを扱う基礎として強い土台になります。まずはここでPythonの実務実績を作り、API設計・DB・クラウドの経験を語れる状態にしてください。" },
               { num: "2", title: "統計と分析ライブラリで橋渡しする", desc: "NumPy/Pandas/scikit-learnと統計の基礎を学び、実データで分析・モデリングの成果物を一つ作ります。Kaggleや業務データを題材にすると、面接で具体的に語れます。" },
               { num: "3", title: "運用・基盤の経験で差別化する", desc: "モデルを作るだけでなく、データパイプラインや本番運用（MLOps）まで経験すると、競合の少ない領域で評価されます。インフラ経験があるミドル層は特にここで強みを出せます。" },
             ].map((item, i) => (
@@ -341,7 +341,7 @@ export default function PythonSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Pythonエンジニアの市場価値を確認する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            AI/ML時代のPythonスキルがどう評価されるか、IT特化型エージェントで保有求人を比較してみましょう。
+            AI/ML時代のPythonスキルがどう評価されるか、IT特化型エージェントで保有求人を比較してみることをおすすめします。
           </p>
           <Link
             href="/#ranking"

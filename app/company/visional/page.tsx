@@ -86,7 +86,7 @@ const faqs = [
 
 const toc = [
   { id: "conclusion", label: "難易度とどんな人向けか" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "basic", label: "基本データ（出典明記）" },
   { id: "hiring", label: "エンジニア採用の特徴" },
   { id: "positions", label: "募集職種（公式）" },
   { id: "tech", label: "技術スタック" },
@@ -159,7 +159,7 @@ export default function VisionalCompanyPage() {
         </section>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -281,7 +281,7 @@ export default function VisionalCompanyPage() {
         </section>
 
         <section id="review" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミの傾向（出典名付き要約）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミの傾向（出典名を明記した要約）</h2>
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-3">
             <p><strong>良い評価の傾向：</strong>OpenWork・就活会議・エン カイシャの評判等の口コミプラットフォームでは、(1)新卒研修やメンター制度など成長環境が充実、(2)若手でも早期にマネージャー登用される事例がある、(3)プロダクト志向で裁量が大きい、といった声が見られます（2026年時点）。</p>
             <p><strong>気をつけたい点の傾向：</strong>同サイトでは、(1)成長スピードへの期待が高く負荷を感じる時期がある、(2)プロダクト・部署により文化や進め方に差がある、といった指摘も見られます。</p>

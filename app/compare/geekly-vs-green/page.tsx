@@ -176,7 +176,7 @@ export default function GeeklyVsGreenPage() {
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
-            <p className="text-sm text-amber-800 leading-relaxed"><strong>注意：</strong>「Greenにも担当者が付いて求人を紹介してくれる」と誤解したまま登録すると、想定したサポートが受けられず戸惑うことがあります。Greenは"自分で動く"サービスである点を理解したうえで使うのが前提です。手厚い仲介を期待するならGeekly側に寄せましょう。</p>
+            <p className="text-sm text-amber-800 leading-relaxed"><strong>注意：</strong>「Greenにも担当者が付いて求人を紹介してくれる」と誤解したまま登録すると、想定したサポートが受けられず戸惑うことがあります。Greenは"自分で動く"サービスである点を理解したうえで使うのが前提です。手厚い仲介を期待するならGeekly側に寄せてください。</p>
           </div>
         </section>
 
@@ -284,7 +284,7 @@ export default function GeeklyVsGreenPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">仕組みが違うから、併用に価値がある</h2>
-          <p className="text-blue-100 text-sm mb-4">Geeklyのプロによるサポートと、Greenの直接アプローチを組み合わせる方法です。役割が被らない2サービスを無料で使い分けましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">Geeklyのプロによるサポートと、Greenの直接アプローチを組み合わせる方法です。役割が被らない2サービスを無料で使い分けてください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

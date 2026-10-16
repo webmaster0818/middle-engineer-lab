@@ -83,7 +83,7 @@ const steps = [
   },
   {
     title: "4. 書類添削・面接対策・選考",
-    body: "豊富な選考データを踏まえた書類添削・面接対策を受けられます。サポート期間が限られるため、対策は早めに依頼しましょう。",
+    body: "豊富な選考データを踏まえた書類添削・面接対策を受けられます。サポート期間が限られるため、対策は早めに依頼してください。",
   },
   {
     title: "5. 内定・条件交渉・入社",
@@ -303,7 +303,7 @@ export default function RecruitItReview() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">対応が事務的 → 担当変更も選択肢に</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                対応が事務的に感じる場合は、遠慮なく担当変更を申し出ましょう。利用者数が多い大手だからこそ担当の幅も広く、相性の良いアドバイザーに当たる確率を上げられます。
+                対応が事務的に感じる場合は、遠慮なく担当変更を申し出てください。利用者数が多い大手だからこそ担当の幅も広く、相性の良いアドバイザーに当たる確率を上げられます。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">

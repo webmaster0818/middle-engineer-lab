@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "テックゲートエキスパートの評判・口コミは？特徴・料金・対応【2026年】";
 const DESCRIPTION =
-  "テックゲートエキスパート（株式会社セルバ）の評判・特徴を30代40代ミドルエンジニア目線で検証します。ハイクラスSE・ITコンサル転職の強み、料金、向く人・向かない人、利用の流れ、FAQを出典付きで解説します。";
+  "テックゲートエキスパート（株式会社セルバ）の評判・特徴を30代40代ミドルエンジニア目線で検証します。ハイクラスSE・ITコンサル転職の強み、料金、向く人・向かない人、利用の流れ、FAQを出典を明記して解説します。";
 const URL = "/review/techgate-expert/";
 const OFFICIAL_URL = "https://www.selva-i.co.jp/tecgate/highclass/";
 
@@ -271,7 +271,7 @@ export default function TechgateExpertReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は公式情報および各転職メディアの紹介・口コミ集計を傾向としてまとめたものです（原文転載ではありません）。
           </p>

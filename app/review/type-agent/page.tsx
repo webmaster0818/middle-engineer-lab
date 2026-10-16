@@ -404,7 +404,7 @@ export default function TypeAgentReview() {
               <p className="text-sm text-slate-600 leading-relaxed">
                 経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。
                 首都圏のIT求人需要は底堅く、年収交渉に強いtype転職エージェントITはこの需要を交渉に活かしやすいサービスです。
-                自分の立ち位置は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">エンジニアの市場価値の測り方</Link>で確認しておきましょう。
+                自分の立ち位置は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">エンジニアの市場価値の測り方</Link>で確認しておくことをおすすめします。
               </p>
             </div>
           </div>

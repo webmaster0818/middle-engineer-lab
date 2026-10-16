@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/age/45/" },
   title: "45歳エンジニアの転職｜「45歳の壁」を統計で検証する現実",
   description:
-    "「45歳の壁」「転職は45歳まで」は本当か。45歳以上ITエンジニアの転職決定者数が直近5年で約10倍というリクルートの実績や、賃金が下がらない割合などの公的・実績データで検証します。年齢制限の法律と45歳の現実的な戦略を解説します。",
+    "「45歳の壁」「転職は45歳まで」は本当なのでしょうか。45歳以上ITエンジニアの転職決定者数が直近5年で約10倍というリクルートの実績や、賃金が下がらない割合などの公的・実績データで検証します。年齢制限の法律と45歳の現実的な戦略を解説します。",
 };
 
 const toc = [
@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     q: "45歳はメンバー採用とマネジメント採用、どちらを狙うべきですか？",
-    a: "45歳の転職では、若手と同じプレイヤー（メンバー）枠で競うより、PM・PL・テックリード・アーキテクトなど経験が活きるポジションを狙うのが基本です。メンバー採用では年齢相応の単価と若手の伸びしろを比較されがちですが、マネジメント・上流・高度専門のポジションでは経験そのものが要件になり、45歳が有利に働きます。自分の強みがマネジメント寄りか専門性寄りかを見極めて狙いを定めましょう。",
+    a: "45歳の転職では、若手と同じプレイヤー（メンバー）枠で競うより、PM・PL・テックリード・アーキテクトなど経験が活きるポジションを狙うのが基本です。メンバー採用では年齢相応の単価と若手の伸びしろを比較されがちですが、マネジメント・上流・高度専門のポジションでは経験そのものが要件になり、45歳が有利に働きます。自分の強みがマネジメント寄りか専門性寄りかを見極めて狙いを定めてください。",
   },
   {
     q: "45歳でスキルが古いと感じています。転職できますか？",
@@ -74,7 +74,7 @@ export default function Age45Page() {
     <>
       <ArticleJsonLd
         title="45歳エンジニアの転職｜「45歳の壁」を統計で検証する現実"
-        description="「45歳の壁」は本当か。45歳以上ITエンジニアの転職決定者数が約10倍というリクルートの実績や、賃金が下がらない割合などの公的・実績データで検証し、戦略を解説します。"
+        description="「45歳の壁」は本当なのでしょうか。45歳以上ITエンジニアの転職決定者数が約10倍というリクルートの実績や、賃金が下がらない割合などの公的・実績データで検証し、戦略を解説します。"
         url="/age/45/"
       />
       <script
@@ -141,7 +141,7 @@ export default function Age45Page() {
         <section id="wall" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">「45歳まで説」を統計で検証する</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            印象ではなく数字で見ましょう。45歳前後の転職に関する、出典の明確なデータを並べます。
+            印象ではなく数字で見てください。45歳前後の転職に関する、出典の明確なデータを並べます。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -303,7 +303,7 @@ export default function Age45Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">「45歳の壁」にとらわれず、経験が活きる企業を探す</h2>
           <p className="text-blue-100 text-sm mb-4">
-            45歳以上の転職決定は5年で約10倍です。ご自身の経験を要件とする企業は存在します。まずはエージェントで市場価値を確認しましょう。
+            45歳以上の転職決定は5年で約10倍です。ご自身の経験を要件とする企業は存在します。まずはエージェントで市場価値をご確認ください。
           </p>
           <Link href="/compare/40s-agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             40代向けエージェント比較を見る

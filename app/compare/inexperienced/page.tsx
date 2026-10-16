@@ -16,7 +16,7 @@ const toc = [
   { id: "table", label: "未経験向けエージェント比較表" },
   { id: "details", label: "各サービスの特徴と注意点" },
   { id: "select", label: "未経験ならではの選び方" },
-  { id: "reviews", label: "口コミの傾向（出典付き）" },
+  { id: "reviews", label: "口コミの傾向（出典明記）" },
   { id: "checklist", label: "向いている人・向いていない人" },
   { id: "age", label: "30代・40代の未経験IT転職の実情" },
   { id: "faq", label: "よくある質問" },
@@ -139,7 +139,7 @@ const fitNo = [
 const faqs = [
   { q: "未経験からITエンジニアに転職できますか？", a: "可能性はあります。経済産業省「IT人材需給に関する調査」（2019年3月公表）では2030年に最大約79万人のIT人材不足が試算されており、未経験歓迎求人やポテンシャル採用の枠は存在します。ただし全員が必ず転職できるわけではなく、年齢・学習状況・職種選びで難易度は変わります。" },
   { q: "未経験だと転職エージェントに断られることはありますか？", a: "あります。特にレバテックキャリアのような経験者・高年収特化型のエージェントでは、口コミプラットフォーム（OUTSIDEMAGAZINE・Qiita Job Change等）で『未経験者は紹介されにくい』という声が見られます。未経験ならワークポートやdodaなど未経験歓迎求人を多く扱うサービスを軸にするのが現実的です。" },
-  { q: "未経験で狙いやすい職種は何ですか？", a: "一般的にインフラエンジニア、テストエンジニア、ヘルプデスク／社内SE補佐などが入りやすいとされます。資格（CCNA等）や論理的思考力、コミュニケーション力で差別化しやすい領域です。希望職種はエージェント登録時に伝えて求人を絞り込みましょう。" },
+  { q: "未経験で狙いやすい職種は何ですか？", a: "一般的にインフラエンジニア、テストエンジニア、ヘルプデスク／社内SE補佐などが入りやすいとされます。資格（CCNA等）や論理的思考力、コミュニケーション力で差別化しやすい領域です。希望職種はエージェント登録時に伝えて求人を絞り込んでください。" },
   { q: "プログラミングスクールに通う必要はありますか？", a: "必須ではありません。無料教材（Progate、paizaラーニング等）で基礎に触れてから相談する人もいます。スクールはお金がかかるため、費用対効果を冷静に判断し、まずは無料の範囲で基礎学習＋エージェント相談を並行するのがおすすめです。" },
   { q: "未経験エージェントは何社登録すべきですか？", a: "2〜3社が目安です。ワークポートとdodaを軸に、サポート重視ならマイナビIT AGENT、母数重視ならリクルートエージェントを足す形が無理なく管理できます。" },
   { q: "連絡が多いと聞きますが、問題ありませんか？", a: "ワークポート・dodaともに口コミでは『連絡が多すぎる』という指摘が見られます。希望の連絡手段（メール中心、連絡は週◯回など）を最初に伝えておくと、やり取りの負担を減らせます。" },
@@ -169,7 +169,7 @@ export default function InexperiencedPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">エンジニア未経験向け転職エージェント比較【2026年8月】</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 未経験からのIT転職に強いエージェントを比較</p>
 
-        <p className="text-slate-600 leading-relaxed mb-4">「エンジニア未経験でも転職エージェントは使えるのか」「むしろ断られるのでは」——この記事は、未経験からITエンジニアを目指す人が最初に押さえるべきエージェント選びを、誇張せずに整理したものです。要点を先に示し、各社の求人数・対応エリア・口コミの傾向を出典付きで比較します。</p>
+        <p className="text-slate-600 leading-relaxed mb-4">「エンジニア未経験でも転職エージェントは使えるのか」「むしろ断られるのでは」——この記事は、未経験からITエンジニアを目指す人が最初に押さえるべきエージェント選びを、誇張せずに整理したものです。要点を先に示し、各社の求人数・対応エリア・口コミの傾向を出典を明記して比較します。</p>
 
         <DataNote surveyedAt="2026年6月" sources={["各サービス公式サイト・LP", "doda 2024年度 決定年収レポート（2025年5月公表）", "経済産業省 IT人材需給に関する調査（2019年3月公表）", "Qiita Job Change・みん評等の口コミプラットフォーム"]} />
 
@@ -252,7 +252,7 @@ export default function InexperiencedPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">1. 「未経験歓迎」を扱う総合型を軸にする</h3>
-              <p>経験者・高年収に特化したエージェントは、未経験だと紹介できる求人が少なく断られる場合があります。まずはワークポートやdodaのように未経験歓迎求人や母数の大きいサービスを軸に据えましょう。</p>
+              <p>経験者・高年収に特化したエージェントは、未経験だと紹介できる求人が少なく断られる場合があります。まずはワークポートやdodaのように未経験歓迎求人や母数の大きいサービスを軸に据えてください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">2. 入りやすい職種から逆算する</h3>
@@ -260,7 +260,7 @@ export default function InexperiencedPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">3. サポートの手厚さと連絡頻度を見極める</h3>
-              <p>初めての転職ならマイナビIT AGENTのようにサポートが手厚いと評判のサービスが安心です。一方、口コミでは各社とも『連絡が多すぎる』という声があるため、希望の連絡手段・頻度を最初に伝えておきましょう。</p>
+              <p>初めての転職ならマイナビIT AGENTのようにサポートが手厚いと評判のサービスが安心です。一方、口コミでは各社とも『連絡が多すぎる』という声があるため、希望の連絡手段・頻度を最初に伝えておくことをおすすめします。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">4. 併用パターン</h3>
@@ -270,7 +270,7 @@ export default function InexperiencedPage() {
         </section>
 
         <section id="reviews" className="mb-10 scroll-mt-4">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミの傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミの傾向（出典明記）</h2>
           <p className="text-sm text-slate-500 mb-4">※口コミプラットフォームに見られる傾向の要約です。原文転載ではなく、当サイトが傾向をまとめています。</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
@@ -341,7 +341,7 @@ export default function InexperiencedPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">未経験からのIT転職、まずは2〜3社の比較から</h2>
-          <p className="text-blue-100 text-sm mb-4">未経験歓迎求人に強いワークポート・dodaを軸に、無理のない社数で動き出しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">未経験歓迎求人に強いワークポート・dodaを軸に、無理のない社数で動き出してください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

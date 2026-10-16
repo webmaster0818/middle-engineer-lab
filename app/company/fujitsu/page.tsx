@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/fujitsu/" },
   title: "富士通 エンジニア転職ガイド【2026年】年収・ジョブ型採用",
   description:
-    "富士通へのエンジニア転職を解説します。有価証券報告書の平均年収(2026年3月期)、ジョブ型採用の特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の有力な選択肢を出典付きでまとめました。",
+    "富士通へのエンジニア転職を解説します。有価証券報告書の平均年収(2026年3月期)、ジョブ型採用の特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の有力な選択肢を出典を明記してまとめました。",
 };
 
 const toc = [
   { id: "conclusion", label: "転職難易度と向いている人" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "basic", label: "基本データ（出典明記）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "tech", label: "技術スタック・領域" },
   { id: "salary", label: "年収データ" },
@@ -112,7 +112,7 @@ export default function FujitsuCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="富士通 エンジニア転職ガイド" description="富士通へのエンジニア転職を解説します。有価証券報告書の平均年収(2026年3月期)、ジョブ型採用、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/fujitsu/" />
+      <ArticleJsonLd title="富士通 エンジニア転職ガイド" description="富士通へのエンジニア転職を解説します。有価証券報告書の平均年収(2026年3月期)、ジョブ型採用、選考フロー、口コミ傾向を出典を明記してまとめました。" url="/company/fujitsu/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "富士通" }]} />
 
@@ -128,7 +128,7 @@ export default function FujitsuCompanyPage() {
         </div>
 
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
-          富士通は、DXブランド「Fujitsu Uvance」を軸にSIからの事業変革を進める総合ITベンダーです。ジョブ型人材マネジメントによる通年採用が特徴です。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典付きで整理します。
+          富士通は、DXブランド「Fujitsu Uvance」を軸にSIからの事業変革を進める総合ITベンダーです。ジョブ型人材マネジメントによる通年採用が特徴です。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典を明記して整理します。
         </p>
         <DataNote surveyedAt="2026年8月" sources={["富士通株式会社 有価証券報告書（2026年3月期）", "富士通 キャリア採用情報／ジョブ型採用方針プレスリリース（公式）", "OpenWork等の口コミプラットフォーム", "厚生労働省 job tag", "経済産業省 IT人材需給調査（2019年公表）"]} />
 
@@ -158,7 +158,7 @@ export default function FujitsuCompanyPage() {
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -217,7 +217,7 @@ export default function FujitsuCompanyPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            参考までに、IT職全体の市場水準としては、レバテックの2025年公表値で正社員SEの30代平均が約499万円、40代平均が約618万円とされています。富士通の全社員平均929万円はこれを上回りますが、管理職等を含む全社員平均です。ジョブ型のため、エンジニア職の実際の提示額は求人票（ジョブディスクリプション）・オファーで確認しましょう。
+            参考までに、IT職全体の市場水準としては、レバテックの2025年公表値で正社員SEの30代平均が約499万円、40代平均が約618万円とされています。富士通の全社員平均929万円はこれを上回りますが、管理職等を含む全社員平均です。ジョブ型のため、エンジニア職の実際の提示額は求人票（ジョブディスクリプション）・オファーでご確認ください。
           </p>
         </section>
 
@@ -281,7 +281,7 @@ export default function FujitsuCompanyPage() {
               30代・40代のミドルエンジニアにとって富士通は、ジョブ型採用と「管理職・リーダークラスのキャリア採用強化」という方針が転職の後押しになります。特定領域（クラウド/AI/セキュリティ等）の専門性や上流・PM経験を持つ人は、年齢ではなく職務適合で評価されやすく、即戦力ポジションを狙いやすいと言えます。平均年齢42.7歳という有価証券報告書の数字からも、ミドル層が中核の企業であることが分かります。
             </p>
             <p>
-              一方、労働環境がプロジェクトによる差が大きいという口コミ傾向があるため、配属予定の領域・チームの働き方は面談で確認しましょう。年収（全社員平均1,012万円）は高水準ですが全社員平均であるため、ジョブごとの提示額をオファーで必ずご確認ください。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
+              一方、労働環境がプロジェクトによる差が大きいという口コミ傾向があるため、配属予定の領域・チームの働き方は面談でご確認ください。年収（全社員平均1,012万円）は高水準ですが全社員平均であるため、ジョブごとの提示額をオファーで必ずご確認ください。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
             </p>
           </div>
         </section>

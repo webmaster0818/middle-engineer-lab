@@ -224,7 +224,7 @@ export default function ContractEmployeePage() {
             有期労働契約の1回あたりの契約期間は、<strong>原則として上限3年</strong>です。ただし、高度な専門的知識等を有する人や満60歳以上の人など、一定の場合は上限が5年になります（出典：厚生労働省）。
           </p>
           <p className="text-slate-600 leading-relaxed mb-4">
-            この期間内で更新を繰り返し、通算5年を超えた時点で無期転換の申込権が発生する、という関係です。「1回の契約期間の上限（原則3年）」と「無期転換に必要な通算期間（5年超）」は別の概念であるため、混同しないよう注意しましょう。
+            この期間内で更新を繰り返し、通算5年を超えた時点で無期転換の申込権が発生する、という関係です。「1回の契約期間の上限（原則3年）」と「無期転換に必要な通算期間（5年超）」は別の概念であるため、混同しないよう注意してください。
           </p>
           <p className="text-slate-600 leading-relaxed">
             たとえば「1年契約を毎年更新」している場合、6回目の更新で通算が5年を超えるため、その契約期間中に無期転換の申込権が生じます。「3年契約を1回更新」した場合は、2回目の契約期間中（通算3年超〜6年）に5年を超える時点で申込権が発生します。契約の刻み方によって申込権が生まれるタイミングが変わるため、自分の契約がいつ5年を超えるのかを把握しておくことが大切です。
@@ -235,7 +235,7 @@ export default function ContractEmployeePage() {
         <section id="merit" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">契約社員のメリット・デメリット</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            契約社員は「正社員より不利」と一括りにされがちですが、業務委託（事業主扱い）と比べれば労働者としての保護があり、入り口としての利点もあります。両面を冷静に整理しましょう。
+            契約社員は「正社員より不利」と一括りにされがちですが、業務委託（事業主扱い）と比べれば労働者としての保護があり、入り口としての利点もあります。両面を冷静に整理してください。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-green-200 rounded-lg p-5">
@@ -264,7 +264,7 @@ export default function ContractEmployeePage() {
         <section id="strategy" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">正社員を目指すための現実的な戦略</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            「安定」だけでなく「待遇改善」まで望むなら、無期転換を待つだけでは不十分です。次の3つの選択肢を比較して進めましょう。
+            「安定」だけでなく「待遇改善」まで望むなら、無期転換を待つだけでは不十分です。次の3つの選択肢を比較して進めてください。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -277,7 +277,7 @@ export default function ContractEmployeePage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">③ 実務経験を強みに正社員へ転職</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">契約社員として積んだ開発経験は実務経験として評価されます。待遇改善が現職で見込めないなら、転職が最も早い手段になることがあります。まずは転職エージェントで正社員としての市場価値を把握しましょう。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">契約社員として積んだ開発経験は実務経験として評価されます。待遇改善が現職で見込めないなら、転職が最も早い手段になることがあります。まずは転職エージェントで正社員としての市場価値を把握してください。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
@@ -291,7 +291,7 @@ export default function ContractEmployeePage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：正社員化の出口を最初に確認する</h3>
-              <p className="text-sm text-petrol-deep">30代で契約社員を選ぶなら、入社時点で正社員登用制度の有無と実績を確認しておくことが重要です。「制度はあるが登用実績はほぼない」というケースもあるため、口頭の説明だけでなく実績ベースで確認しましょう。30代はキャリアの方向が固まる時期で、ここで待遇の据え置きが長期化すると、生涯年収に与える影響が大きくなります。</p>
+              <p className="text-sm text-petrol-deep">30代で契約社員を選ぶなら、入社時点で正社員登用制度の有無と実績を確認しておくことが重要です。「制度はあるが登用実績はほぼない」というケースもあるため、口頭の説明だけでなく実績ベースでご確認ください。30代はキャリアの方向が固まる時期で、ここで待遇の据え置きが長期化すると、生涯年収に与える影響が大きくなります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：安定だけでなく待遇改善の道を残す</h3>
@@ -324,7 +324,7 @@ export default function ContractEmployeePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">待遇改善まで望むなら、市場価値の把握から</h2>
           <p className="text-blue-100 text-sm mb-4">
-            無期転換は安定をもたらしますが、待遇は据え置かれがちです。正社員としての提示年収を知り、現職に残る場合と比較しましょう。
+            無期転換は安定をもたらしますが、待遇は据え置かれがちです。正社員としての提示年収を知り、現職に残る場合と比較することをおすすめします。
           </p>
           <Link href="/compare/agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             IT転職エージェント比較を見る

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. MySQLスキルの転職での活かし方" },
-  { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
+  { id: "market", label: "2. 関連職種の市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. MySQLスキルが効くキャリアパス" },
   { id: "find", label: "5. 求人の探し方と主なエージェント" },
@@ -152,7 +152,7 @@ export default function MysqlSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             「MySQLエンジニア」という職種で年収が単体公表されているわけではないため、ここではMySQLスキルが評価される近接職種の公表値を、出典と時点を明示して掲載します。
           </p>
@@ -288,10 +288,10 @@ export default function MysqlSkillPage() {
               <strong>DB設計は経験が成果を左右する領域です。</strong>テーブル設計やパフォーマンス改善は、実プロジェクトでの試行錯誤の蓄積が効きます。30代・40代でMySQLの実務を積んでいるなら、その設計判断の引き出しの多さが、若手にはない強みになります。
             </p>
             <p>
-              <strong>大規模運用の経験は希少です。</strong>レプリケーション、スロークエリ対応、データ移行、無停止メンテナンスといった大規模サービスの運用経験は、求人市場で高く評価されます。障害対応や移行作業など、困難な局面に対応した具体的なエピソードを用意しておきましょう。
+              <strong>大規模運用の経験は希少です。</strong>レプリケーション、スロークエリ対応、データ移行、無停止メンテナンスといった大規模サービスの運用経験は、求人市場で高く評価されます。障害対応や移行作業など、困難な局面に対応した具体的なエピソードを用意しておくことをおすすめします。
             </p>
             <p>
-              <strong>掛け算で差別化します。</strong>MySQL単体より「MySQL＋アプリ開発」「MySQL＋ドメイン知識」の掛け合わせのほうが強みになります。40代でリード経験があれば、それを技術力とセットで提示しましょう。
+              <strong>掛け算で差別化します。</strong>MySQL単体より「MySQL＋アプリ開発」「MySQL＋ドメイン知識」の掛け合わせのほうが強みになります。40代でリード経験があれば、それを技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

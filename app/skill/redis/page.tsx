@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Redisスキルの転職での活かし方" },
-  { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
+  { id: "market", label: "2. 関連職種の市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Redisスキルが効くキャリアパス" },
   { id: "find", label: "5. 求人の探し方と主なエージェント" },
@@ -152,7 +152,7 @@ export default function RedisSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             「Redisエンジニア」という職種で年収が単体公表されているわけではないため、ここではRedisスキルが評価される近接職種の公表値を、出典と時点を明示して掲載します。
           </p>
@@ -291,7 +291,7 @@ export default function RedisSkillPage() {
               <strong>掛け算で差別化します。</strong>Redis単体より「Redis＋バックエンド開発」「Redis＋インフラ運用」の掛け合わせのほうが強みになります。高負荷サービスの設計・運用経験と結びつけて語れると、ミドル層ならではの説得力が出ます。
             </p>
             <p>
-              <strong>障害対応の経験は希少です。</strong>キャッシュ起因の障害、メモリ枯渇、フェイルオーバーといったトラブルへの対応経験は、求人市場で高く評価されます。具体的なエピソードを定量で語れるよう準備しておきましょう。
+              <strong>障害対応の経験は希少です。</strong>キャッシュ起因の障害、メモリ枯渇、フェイルオーバーといったトラブルへの対応経験は、求人市場で高く評価されます。具体的なエピソードを定量で語れるよう準備しておくことをおすすめします。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -307,7 +307,7 @@ export default function RedisSkillPage() {
               <strong>① データ型と用途を結びつけて学びます。</strong>String・Hash・List・Set・Sorted Setの各データ型を、キャッシュ・ランキング・キューといった具体的な用途と紐づけて理解します。「どの用途にどの型を使うか」を語れると実務力が伝わります。
             </p>
             <p>
-              <strong>② RDBとの併用を前提に設計します。</strong>RedisはRDBの前段に置くキャッシュとして使われることが多く、<Link href="/skill/sql/" className="text-petrol hover:underline">SQL／データベース</Link>の理解があるとキャッシュ戦略の設計が的確になります。一貫性とパフォーマンスのトレードオフを語れるようにしましょう。
+              <strong>② RDBとの併用を前提に設計します。</strong>RedisはRDBの前段に置くキャッシュとして使われることが多く、<Link href="/skill/sql/" className="text-petrol hover:underline">SQL／データベース</Link>の理解があるとキャッシュ戦略の設計が的確になります。一貫性とパフォーマンスのトレードオフを語れるようにしてください。
             </p>
             <p>
               <strong>③ 運用・周辺領域へ広げます。</strong>コンテナでの運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドサービス（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link> ElastiCache等）、レプリケーション・クラスタ構成まで広げると、SRE／インフラ寄りの高年収求人にも応募しやすくなります。

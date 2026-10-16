@@ -112,7 +112,7 @@ export default function Salary1000Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収1000万円は、ITエンジニアにとって一つの到達点です。本記事では、まずその<strong>希少性</strong>をデータで確認し、ITSS L6相当という位置づけ、ハイクラス転職・マネジメント・スペシャリストという<strong>3つの到達ルート</strong>、そして「技術力だけでは決まらない天井の構造」を出典付きで解説します。1000万円は実力に加え、職種・役職・商流・企業の給与テーブルの選択が効いてくる年収帯です。
+          年収1000万円は、ITエンジニアにとって一つの到達点です。本記事では、まずその<strong>希少性</strong>をデータで確認し、ITSS L6相当という位置づけ、ハイクラス転職・マネジメント・スペシャリストという<strong>3つの到達ルート</strong>、そして「技術力だけでは決まらない天井の構造」を出典を明記して解説します。1000万円は実力に加え、職種・役職・商流・企業の給与テーブルの選択が効いてくる年収帯です。
         </p>
 
         <DataNote
@@ -334,7 +334,7 @@ export default function Salary1000Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">1000万円帯への「場所選び」をプロに相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハイクラス・IT特化エージェントに登録して、給与テーブルの高い企業の求人を確認しましょう。
+            ハイクラス・IT特化エージェントに登録して、給与テーブルの高い企業の求人をご確認ください。
           </p>
           <Link
             href="/#ranking"

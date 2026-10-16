@@ -121,7 +121,7 @@ export default function ItproVsLevtechFreelancePage() {
               <tbody>{comparison.map((row, i) => (<tr key={i} className="hover:bg-slate-50 align-top"><td className="px-3 py-3 border border-slate-200 font-medium">{row.item}</td><td className="px-3 py-3 border border-slate-200">{row.a}</td><td className="px-3 py-3 border border-slate-200">{row.b}</td></tr>))}</tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 案件数・登録者数・単価・少日数比率は二次情報・時点付きの参考値です。稼働日数の割合は媒体により幅があり断定しません。求人数・案件数は時期により変動します。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 案件数・登録者数・単価・少日数比率は二次情報で、時点を明記した参考値です。稼働日数の割合は媒体により幅があり断定しません。求人数・案件数は時期により変動します。</p>
         </section>
 
         <section id="kadoubi" className="mb-12 scroll-mt-20">
@@ -210,7 +210,7 @@ export default function ItproVsLevtechFreelancePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">独立は「稼働日数」で選ぶ</h2>
-          <p className="text-blue-100 text-sm mb-4">週2〜3日の副業・独立準備ならITプロパートナーズ、週5常駐でフルに稼ぐならレバテックフリーランスです。自分の働き方に合うほうを選びましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">週2〜3日の副業・独立準備ならITプロパートナーズ、週5常駐でフルに稼ぐならレバテックフリーランスです。自分の働き方に合うほうを選んでください。</p>
           <Link href="/compare/freelance-agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">フリーランスエージェント比較を見る</Link>
         </section>
 

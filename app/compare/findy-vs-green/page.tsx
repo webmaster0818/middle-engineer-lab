@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/findy-vs-green/" },
   title: "FindyとGreenの比較｜違いとどっちがおすすめ？【2026年8月】",
   description:
-    "Findy（GitHub技術力評価型のスカウト）とGreen（国内最大級のIT求人×多職種の直接応募/スカウト）を、サービス形態・評価軸・対象・マッチ方式で比較します。技術力で評価されたいか、職種の広さから直接応募したいか、選び方と併用術を出典付きで解説します。",
+    "Findy（GitHub技術力評価型のスカウト）とGreen（国内最大級のIT求人×多職種の直接応募/スカウト）を、サービス形態・評価軸・対象・マッチ方式で比較します。技術力で評価されたいか、職種の広さから直接応募したいか、選び方と併用術を出典を明記して解説します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function FindyVsGreenPage() {
 
   return (
     <>
-      <ArticleJsonLd title="FindyとGreenの比較｜違いとどっちがおすすめか" description="Findy（GitHub技術力評価型のスカウト）とGreen（国内最大級のIT求人×多職種の直接応募/スカウト）を、サービス形態・評価軸・対象・マッチ方式で比較します。選び方を出典付きで解説します。" url="/compare/findy-vs-green/" />
+      <ArticleJsonLd title="FindyとGreenの比較｜違いとどっちがおすすめか" description="Findy（GitHub技術力評価型のスカウト）とGreen（国内最大級のIT求人×多職種の直接応募/スカウト）を、サービス形態・評価軸・対象・マッチ方式で比較します。選び方を出典を明記して解説します。" url="/compare/findy-vs-green/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "Findy vs Green" }]} />
 
@@ -110,7 +110,7 @@ export default function FindyVsGreenPage() {
             <ul className="space-y-2 list-disc pl-5">
               <li><strong>Findy</strong>＝GitHub連携でスキル偏差値を出す、技術力評価型のスカウトサービスです。プロフィールとコードを整えてスカウトを待つのが基本です。</li>
               <li><strong>Green</strong>＝IT・IT関連求人が国内最大級（公式）の求人サイトです。求職者が自分から直接応募でき、企業からのスカウトや「気になる」機能も使えます。</li>
-              <li><strong>共通点</strong>＝いずれも求職者は無料で、能動的に動くほど選択肢が広がります。書類添削や年収交渉までを一貫して任せたい場合は、別途エージェント型の併用も検討しましょう。</li>
+              <li><strong>共通点</strong>＝いずれも求職者は無料で、能動的に動くほど選択肢が広がります。書類添削や年収交渉までを一貫して任せたい場合は、別途エージェント型の併用も検討することをおすすめします。</li>
             </ul>
           </div>
         </section>
@@ -160,7 +160,7 @@ export default function FindyVsGreenPage() {
         <section id="target" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較④：対象層・職種の広さ</h2>
           <p className="text-slate-600 leading-relaxed mb-4">Findyはプログラミング経験者を中心としたエンジニア向けで、対象には正社員に加えて副業も含みます。GitHubの活動が評価軸のため、コードを書き続けているエンジニアほど効果が出ます。技術力を強みにしたい経験者に最適化されています。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">Greenは対象の職種が広く、エンジニアに加えてマーケティング・営業・人事・経理・法務などの求人も掲載しています。エンジニアからIT企業のビジネス職への越境を考える場合や、職種を横断して検討したい場合はGreenの選択肢が広がります。経験の浅い方は<Link href="/compare/inexperienced/" className="text-petrol hover:underline">未経験向けの選択肢</Link>もあわせて検討しましょう。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">Greenは対象の職種が広く、エンジニアに加えてマーケティング・営業・人事・経理・法務などの求人も掲載しています。エンジニアからIT企業のビジネス職への越境を考える場合や、職種を横断して検討したい場合はGreenの選択肢が広がります。経験の浅い方は<Link href="/compare/inexperienced/" className="text-petrol hover:underline">未経験向けの選択肢</Link>もあわせて検討することをおすすめします。</p>
         </section>
 
         <section id="review" className="mb-12 scroll-mt-20">

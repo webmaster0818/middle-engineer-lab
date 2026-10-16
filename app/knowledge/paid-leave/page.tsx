@@ -168,7 +168,7 @@ export default function PaidLeavePage() {
             年次有給休暇は、一定期間勤務した労働者に法律上当然に発生する権利です。取得には原則として理由を問われず、いつ取るか（時季）を指定するのは労働者側です（時季指定権）。会社が「許可」して与えるものではない、というのが出発点になります。
           </p>
           <p className="text-slate-600 leading-relaxed mb-4">
-            また、労働基準法では、年次有給休暇が一定日数以上付与される労働者について、会社が年5日を確実に取得させる義務を負うとされています（年5日取得義務）。これは在職中の取得を促す制度で、退職時の消化とは別の前提知識として押さえておきましょう。
+            また、労働基準法では、年次有給休暇が一定日数以上付与される労働者について、会社が年5日を確実に取得させる義務を負うとされています（年5日取得義務）。これは在職中の取得を促す制度で、退職時の消化とは別の前提知識として押さえておくことをおすすめします。
           </p>
         </section>
 
@@ -266,7 +266,7 @@ export default function PaidLeavePage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">次の入社日との重複に注意</h3>
-              <p className="text-sm text-slate-600">有給消化中はまだ前職に在籍しています。次の会社の入社日と消化期間が重なると、二重就労や社会保険の切り替えで問題が生じ得ます。入社日は消化期間を踏まえて設定しましょう。年収条件の調整は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉テクニック</Link>もご参照ください。</p>
+              <p className="text-sm text-slate-600">有給消化中はまだ前職に在籍しています。次の会社の入社日と消化期間が重なると、二重就労や社会保険の切り替えで問題が生じ得ます。入社日は消化期間を踏まえて設定してください。年収条件の調整は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉テクニック</Link>もご参照ください。</p>
             </div>
           </div>
         </section>

@@ -247,7 +247,7 @@ export default function UtsunomiyaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>宇都宮在住×都内企業のハイブリッド勤務:</strong> 新幹線通勤圏の立地を活かし、週数回出社で都内企業に通います。宇都宮の暮らしと都内水準の求人・年収を両立したい人に適しています。交通費・通勤時間は求人ごとに確認しましょう。
+                <strong>宇都宮在住×都内企業のハイブリッド勤務:</strong> 新幹線通勤圏の立地を活かし、週数回出社で都内企業に通います。宇都宮の暮らしと都内水準の求人・年収を両立したい人に適しています。交通費・通勤時間は求人ごとにご確認ください。
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -257,7 +257,7 @@ export default function UtsunomiyaAreaPage() {
                 <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート可の求人</Link>
                 や
                 <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
-                もあわせて検討しましょう。
+                もあわせて検討することをおすすめします。
               </p>
             </div>
           </div>
@@ -433,7 +433,7 @@ export default function UtsunomiyaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">宇都宮で通勤圏・リモートを活かしたIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
-            地元の製造業×ITから都内ハイブリッド・首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、年収と暮らしのバランスが取れる選択肢を見つけましょう。
+            地元の製造業×ITから都内ハイブリッド・首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、年収と暮らしのバランスが取れる選択肢を見つけてください。
           </p>
           <Link
             href="/#ranking"

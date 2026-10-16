@@ -244,7 +244,7 @@ export default function KotlinSkillPage() {
         <section id="find" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            Kotlin求人はモバイル・Web系スタートアップに多く、担当者の業界理解で提案の質が変わります。タイプの異なる3社を併用しましょう。
+            Kotlin求人はモバイル・Web系スタートアップに多く、担当者の業界理解で提案の質が変わります。タイプの異なる3社を併用することをおすすめします。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -275,7 +275,7 @@ export default function KotlinSkillPage() {
         <section id="entry" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">経験浅めからの参入ルート</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            Kotlinは特にJava経験者にとって参入しやすいスキルです。次のステップで実務への橋渡しを設計しましょう。
+            Kotlinは特にJava経験者にとって参入しやすいスキルです。次のステップで実務への橋渡しを設計してください。
           </p>
           <ol className="space-y-3">
             {[
@@ -332,7 +332,7 @@ export default function KotlinSkillPage() {
             ))}
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
-            資格より実務・ポートフォリオが重視される領域のため、動く成果物を見せられる状態を優先しましょう。成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>、継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>もご参照ください。
+            資格より実務・ポートフォリオが重視される領域のため、動く成果物を見せられる状態を優先することをおすすめします。成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>、継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>もご参照ください。
           </p>
         </section>
 
@@ -356,7 +356,7 @@ export default function KotlinSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Kotlinのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Kotlinの求人に精通したIT特化型エージェントに登録して、年収アップの可能性を探りましょう。
+            Kotlinの求人に精通したIT特化型エージェントに登録して、年収アップの可能性を探ってください。
           </p>
           <Link
             href="/#ranking"

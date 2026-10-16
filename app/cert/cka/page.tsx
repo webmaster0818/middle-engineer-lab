@@ -254,7 +254,7 @@ export default function CkaCertPage() {
             活用戦略は3つに整理できます。第一に<strong>実技力の客観証明</strong>です。実機操作を問う試験のため、「手を動かせる」ことを採用側に直接示せます。第二に<strong>クラウドネイティブ職への足がかり</strong>です。SRE・プラットフォームエンジニアなど需要の高い職種への移行を後押しします。第三に<strong>CKAD・CKSへの土台</strong>です。特にCKSはCKA合格が前提のため、セキュリティ特化へ進む布石になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。CKAは<strong>取得しても単体で年収が大きく上がる資格ではありません</strong>。あくまで実際の運用経験を補強する位置づけであり、効果が出るのは実務経験と資格が組み合わさったときです。また有効期限が2年と短く、Kubernetesのバージョン進化に合わせた再認定が必要です。逆に言えば、すでにインフラ・コンテナの現場経験があり基盤領域を深めたい30〜40代にとっては、投資する価値が明確な実技資格です。基礎が不安な場合は、まず<Link href="/skill/linux/" className="text-petrol hover:underline">Linux</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>でOS・基盤の土台を固めてから臨むのが堅実です。
+            注意すべきデメリットも押さえておくことをおすすめします。CKAは<strong>取得しても単体で年収が大きく上がる資格ではありません</strong>。あくまで実際の運用経験を補強する位置づけであり、効果が出るのは実務経験と資格が組み合わさったときです。また有効期限が2年と短く、Kubernetesのバージョン進化に合わせた再認定が必要です。逆に言えば、すでにインフラ・コンテナの現場経験があり基盤領域を深めたい30〜40代にとっては、投資する価値が明確な実技資格です。基礎が不安な場合は、まず<Link href="/skill/linux/" className="text-petrol hover:underline">Linux</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>でOS・基盤の土台を固めてから臨むのが堅実です。
           </p>
         </section>
 
@@ -317,7 +317,7 @@ export default function CkaCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">コンテナ基盤・SRE職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            CKAを活かせるプラットフォーム・SRE求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            CKAを活かせるプラットフォーム・SRE求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

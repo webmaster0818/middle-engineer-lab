@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "エンジニアの資格は転職に有利？30・40代におすすめ8資格を比較【2026年】";
 const PAGE_DESC =
-  "30代・40代エンジニアの転職で資格は本当に有利か。PMP・情報処理安全確保支援士・AWS認定など主要8資格を合格率・年収・有効期限で比較し、目的別マトリクスと、実務と資格を組み合わせた活かし方を公的データで解説します。";
+  "30代・40代エンジニアの転職で資格は本当に有利なのでしょうか。PMP・情報処理安全確保支援士・AWS認定など主要8資格を合格率・年収・有効期限で比較し、目的別マトリクスと、実務と資格を組み合わせた活かし方を公的データで解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/" },
@@ -415,7 +415,7 @@ export default function CertTopPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">資格を活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            実務と資格をどう示せば評価されるか。IT特化型エージェントでご自身の市場価値を確認しましょう。
+            実務と資格をどう示せば評価されるか。IT特化型エージェントでご自身の市場価値をご確認ください。
           </p>
           <Link
             href="/#ranking"

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const toc = [
   { id: "conclusion", label: "仕組みを理解して使い分ける" },
   { id: "mechanism", label: "3サービスのスカウトの仕組み" },
-  { id: "compare", label: "サービス比較（出典付き）" },
+  { id: "compare", label: "サービス比較（出典明記）" },
   { id: "profile", label: "スカウトを増やすプロフィール" },
   { id: "reply", label: "返信例文テンプレ" },
   { id: "judge", label: "良いスカウトの見極め方" },
@@ -51,8 +51,8 @@ const profileTips = [
   { num: "1", title: "技術スタックを具体的に書く", desc: "「Webエンジニア」ではなく「Go / gRPC / Kubernetes / AWS / Terraform」のように具体的に示します。企業はキーワード検索でスカウト対象を探すため、使った技術名を網羅的に書くほど見つかりやすくなります。" },
   { num: "2", title: "成果を数値で書く", desc: "「パフォーマンス改善」ではなく「API応答時間200ms→50msに改善」「月間1,000万PVのサービスを運用」のように数値化します。実績の具体性がスカウトの質を左右します。" },
   { num: "3", title: "希望条件を明確に設定する", desc: "年収・勤務地・リモート可否・企業規模の希望を明示すると、マッチ精度が上がり的外れなスカウトが減ります。" },
-  { num: "4", title: "プロフィールを定期的に更新する", desc: "最終更新が古いとスカウトは減りがちです。月1回は見直し、新しいスキルや実績を追加しましょう。paizaはスキルチェックのランクを上げ直すのも有効です。" },
-  { num: "5", title: "ログイン頻度を保つ", desc: "多くのサービスで最近ログインしたユーザーが優先表示される傾向があります。週2〜3回のログインを目安にしましょう。" },
+  { num: "4", title: "プロフィールを定期的に更新する", desc: "最終更新が古いとスカウトは減りがちです。月1回は見直し、新しいスキルや実績を追加してください。paizaはスキルチェックのランクを上げ直すのも有効です。" },
+  { num: "5", title: "ログイン頻度を保つ", desc: "多くのサービスで最近ログインしたユーザーが優先表示される傾向があります。週2〜3回のログインを目安にしてください。" },
 ];
 
 const replyTemplates = [
@@ -84,11 +84,11 @@ const faqs = [
   },
   {
     q: "スカウトの年収提示額は信頼できる？",
-    a: "スカウト段階の提示はあくまで想定レンジで、実際の年収は面接と条件交渉で確定します。提示額が希望を大きく下回るスカウトは、最終的にも低い傾向があるため見送っても良いでしょう。提示が曖昧な場合は返信時に年収レンジを確認しましょう。",
+    a: "スカウト段階の提示はあくまで想定レンジで、実際の年収は面接と条件交渉で確定します。提示額が希望を大きく下回るスカウトは、最終的にも低い傾向があるため見送っても良いでしょう。提示が曖昧な場合は返信時に年収レンジをご確認ください。",
   },
   {
     q: "現職に知られずにスカウト型を使える？",
-    a: "多くのサービスに現職をブロックする機能があります。ビズリーチでは現職や関連企業を非表示にできる機能があります（公式）。登録直後に必ず設定しておきましょう。",
+    a: "多くのサービスに現職をブロックする機能があります。ビズリーチでは現職や関連企業を非表示にできる機能があります（公式）。登録直後に必ず設定しておくことをおすすめします。",
   },
   {
     q: "どのスカウト型サービスに登録すべき？",
@@ -153,7 +153,7 @@ export default function ScoutPage() {
 
         <DataNote
           surveyedAt="2026年6月"
-          sources={["各社公式サイト・公式ガイド", "転職メディア集計値（時点付き）", "Qiita Job Change等の口コミ傾向"]}
+          sources={["各社公式サイト・公式ガイド", "転職メディア集計値（時点明記）", "Qiita Job Change等の口コミ傾向"]}
         />
 
         {/* 目次 */}
@@ -202,14 +202,14 @@ export default function ScoutPage() {
 
         {/* 比較表 */}
         <section id="compare" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">サービス比較（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">サービス比較（出典明記）</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-slate-100">
                   <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">サービス</th>
                   <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">形態</th>
-                  <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">特徴（出典付き）</th>
+                  <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">特徴（出典明記）</th>
                   <th className="border border-slate-200 px-4 py-3 text-left font-bold text-slate-700">向く人</th>
                 </tr>
               </thead>
@@ -290,15 +290,15 @@ export default function ScoutPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 提示年収レンジを確認する</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">希望を大きく下回るスカウトは見送り、逆に相場より高いものは条件や募集背景をよく確認しましょう。提示が曖昧なら返信時に質問します。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">希望を大きく下回るスカウトは見送り、逆に相場より高いものは条件や募集背景をよくご確認ください。提示が曖昧なら返信時に質問します。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. 送信者を確認する</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">採用担当やCTOから直接届いたスカウトは本気度が高い傾向があります。ヘッドハンター経由の場合は企業名と募集ポジションを確認しましょう。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">採用担当やCTOから直接届いたスカウトは本気度が高い傾向があります。ヘッドハンター経由の場合は企業名と募集ポジションをご確認ください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. まずカジュアル面談を活用する</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">気になるスカウトは選考前にカジュアル面談を申し込みましょう。Greenはこの形式が中心で、社風や開発体制を把握してから選考に進めます。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">気になるスカウトは選考前にカジュアル面談を申し込んでください。Greenはこの形式が中心で、社風や開発体制を把握してから選考に進めます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">5. 市場の反応として活用する</h3>
@@ -341,9 +341,9 @@ export default function ScoutPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">スカウトとエージェントを併用しよう</h2>
+          <h2 className="text-xl font-bold mb-3">スカウトとエージェントを併用する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            スカウト型で市場の反応を見つつ、IT特化型エージェントの非公開求人にもアクセスして選択肢を最大化しましょう。
+            スカウト型で市場の反応を見つつ、IT特化型エージェントの非公開求人にもアクセスして選択肢を最大化してください。
           </p>
           <Link
             href="/compare/agents/"

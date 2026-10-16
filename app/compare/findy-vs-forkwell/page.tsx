@@ -146,10 +146,10 @@ export default function FindyVsForkwellPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スカウトが来ない時の対処</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
             <ul className="space-y-3 text-sm text-slate-700">
-              <li><strong>① 公開リポジトリ・ポートフォリオを整える：</strong>FindyはGitHubの公開活動が評価対象です。privateばかりだと実力が伝わりません。公開できるリポジトリを用意し、READMEや技術選定の意図を残しましょう。Forkwellはポートフォリオの作り込みが有効です。</li>
+              <li><strong>① 公開リポジトリ・ポートフォリオを整える：</strong>FindyはGitHubの公開活動が評価対象です。privateばかりだと実力が伝わりません。公開できるリポジトリを用意し、READMEや技術選定の意図を残してください。Forkwellはポートフォリオの作り込みが有効です。</li>
               <li><strong>② 技術発信を増やす：</strong>Forkwellは発信の質が評価軸です。課題→試行→解決の思考過程が伝わる記事を投稿しておくと、スカウト文面の精度が上がります。</li>
               <li><strong>③ 技術スタックのミスマッチを疑う：</strong>Findyはモダン言語の即戦力に強い設計です。扱う言語が合っていないとスカウトが伸びにくいことがあります。</li>
-              <li><strong>④ エリアの問題を切り分ける：</strong>両サービスとも首都圏中心です。地方在住ならフルリモート可の希望を明記し、地方求人を扱うサービスを併用しましょう。</li>
+              <li><strong>④ エリアの問題を切り分ける：</strong>両サービスとも首都圏中心です。地方在住ならフルリモート可の希望を明記し、地方求人を扱うサービスを併用することをおすすめします。</li>
               <li><strong>⑤ 評価軸の違うサービスを併用する：</strong>GitHubに活動が少ない人は、Web全体の発信を見るLAPRASやコーディングテストの<Link href="/review/paiza/" className="text-petrol hover:underline">paiza</Link>の方が評価されることもあります。</li>
             </ul>
           </div>
@@ -233,7 +233,7 @@ export default function FindyVsForkwellPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">コードと発信、両方の軸で評価を受けましょう</h2>
+          <h2 className="text-xl font-bold mb-3">コードと発信の両方で評価を受ける</h2>
           <p className="text-blue-100 text-sm mb-4">FindyでGitHub実績を可視化し、Forkwellでポートフォリオと発信を見せます。どちらも無料のため、両方登録してスカウトの傾向を比較するのが効率的です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>

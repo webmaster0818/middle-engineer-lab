@@ -337,7 +337,7 @@ export default function EmbeddedSkillPage() {
         <section id="learning" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            組込みは実機での経験が最も評価されます。座学だけでなく、動くものを作って語れる状態を目指しましょう。
+            組込みは実機での経験が最も評価されます。座学だけでなく、動くものを作って語れる状態を目指してください。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>ARM系マイコンやESP32等で、センサー制御・通信の小作品を実機で動かします</li>
@@ -432,7 +432,7 @@ export default function EmbeddedSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">組込みのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            組込み求人は地方拠点も多く、IT特化型と総合型の併用が有効です。複数登録で非公開求人も含めて探しましょう。
+            組込み求人は地方拠点も多く、IT特化型と総合型の併用が有効です。複数登録で非公開求人も含めて探してください。
           </p>
           <Link
             href="/#ranking"

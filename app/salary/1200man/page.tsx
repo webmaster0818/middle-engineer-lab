@@ -102,7 +102,7 @@ export default function Salary1200Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収1200万円は、ITエンジニアにとって「最上位の実力者」の年収帯であり、外資・上場メガベンチャー・管理職・トップスペシャリストなど<strong>限られた層</strong>が到達する水準です。本記事では、この1200万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典付きで整理します。誰でも到達できる帯ではない点も含め、誠実に解説します。
+          年収1200万円は、ITエンジニアにとって「最上位の実力者」の年収帯であり、外資・上場メガベンチャー・管理職・トップスペシャリストなど<strong>限られた層</strong>が到達する水準です。本記事では、この1200万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典を明記して整理します。誰でも到達できる帯ではない点も含め、誠実に解説します。
         </p>
 
         <DataNote
@@ -297,7 +297,7 @@ export default function Salary1200Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">1200万円帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハイクラス・スカウト型エージェントに登録して、ご自身の市場価値と1200万円求人を確認しましょう。
+            ハイクラス・スカウト型エージェントに登録して、ご自身の市場価値と1200万円求人をご確認ください。
           </p>
           <Link
             href="/#ranking"

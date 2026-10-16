@@ -87,7 +87,7 @@ const faqs = [
   },
   {
     q: "ゲーム業界に強い転職エージェントはどこですか？",
-    a: "Geekly（ギークリー）はIT/Web/ゲーム業界に専門特化したエージェントで、ゲーム・エンタメ企業の求人に強みがあります。IT全般を広く見るならレバテックキャリアを併用し、求人と担当者を比較するのが基本です。複数登録で選択肢を広げましょう。",
+    a: "Geekly（ギークリー）はIT/Web/ゲーム業界に専門特化したエージェントで、ゲーム・エンタメ企業の求人に強みがあります。IT全般を広く見るならレバテックキャリアを併用し、求人と担当者を比較するのが基本です。複数登録で選択肢を広げてください。",
   },
   {
     q: "ポートフォリオはどの程度作り込むべきですか？",
@@ -194,7 +194,7 @@ export default function GamingPage() {
         <section id="positions" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">主要なエンジニアポジション</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            ゲーム開発のエンジニア職は大きく4つに分かれます。自分の経験がどこに当てはまるか、どこを伸ばすかを意識しましょう。
+            ゲーム開発のエンジニア職は大きく4つに分かれます。自分の経験がどこに当てはまるか、どこを伸ばすかを意識してください。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-6">
             <table className="w-full text-sm">
@@ -456,7 +456,7 @@ export default function GamingPage() {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ゲーム業界でのキャリアアップに向けて</h2>
-          <p className="text-blue-100 text-sm mb-4">ゲーム・エンタメに強いエージェントに相談して、年収アップと希望のポジションの可能性を探りましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">ゲーム・エンタメに強いエージェントに相談して、年収アップと希望のポジションの可能性を探ってください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>

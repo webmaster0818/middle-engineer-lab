@@ -27,7 +27,7 @@ const toc = [
 const faqs = [
   {
     q: "自己分析にはどのくらいの時間をかけるべきですか？",
-    a: "最低でも1週間は確保しましょう。1日30分〜1時間、過去のプロジェクトを振り返りながら書き出す作業を繰り返します。急いで済ませると表面的な分析になり、面接での深掘り質問に答えられなくなります。",
+    a: "最低でも1週間は確保してください。1日30分〜1時間、過去のプロジェクトを振り返りながら書き出す作業を繰り返します。急いで済ませると表面的な分析になり、面接での深掘り質問に答えられなくなります。",
   },
   {
     q: "技術力以外にアピールできる強みが見つかりません",
@@ -35,11 +35,11 @@ const faqs = [
   },
   {
     q: "キャリアの棚卸しで最初にやるべきことは？",
-    a: "まず全プロジェクトを時系列で書き出しましょう。各プロジェクトについて『使用技術・役割・チーム規模・成果・学び』を記録します。スプレッドシートで一覧化すると、自分のスキルの変遷やパターンが見えてきます。",
+    a: "まず全プロジェクトを時系列で書き出してください。各プロジェクトについて『使用技術・役割・チーム規模・成果・学び』を記録します。スプレッドシートで一覧化すると、自分のスキルの変遷やパターンが見えてきます。",
   },
   {
     q: "Will-Can-Mustフレームワークの使い方は？",
-    a: "Will（やりたいこと）・Can（できること）・Must（市場から求められること）の3つの円の重なりがキャリアの最適解です。Will＝技術的興味、Can＝実務経験のあるスキル、Must＝求人市場でニーズが高い技術、として書き出しましょう。",
+    a: "Will（やりたいこと）・Can（できること）・Must（市場から求められること）の3つの円の重なりがキャリアの最適解です。Will＝技術的興味、Can＝実務経験のあるスキル、Must＝求人市場でニーズが高い技術、として書き出してください。",
   },
   {
     q: "自分の市場価値が分からず不安です",
@@ -202,7 +202,7 @@ export default function SelfAnalysisPage() {
         <section id="wcm" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">4. Will-Can-Mustワークシート</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            3つの円の重なりがキャリアの最適解です。各欄を10個ずつ書き出してみましょう。
+            3つの円の重なりがキャリアの最適解です。各欄を10個ずつ書き出してみることをおすすめします。
           </p>
           <div className="grid gap-4 sm:grid-cols-3">
             {[
@@ -217,7 +217,7 @@ export default function SelfAnalysisPage() {
             ))}
           </div>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-4">
-            <p className="text-sm text-slate-600"><strong>重なりの読み解き方：</strong>Will×Canだけで動くと『やりたいけど需要がない』、Can×Mustだけだと『できるけど情熱が続かない』状態になりがちです。3つが重なる領域こそ、長く伸ばせるキャリアの軸です。Mustはひとりでは分かりにくいので<Link href="/knowledge/market-value/" className="text-petrol underline">市場価値の調べ方</Link>も併用しましょう。</p>
+            <p className="text-sm text-slate-600"><strong>重なりの読み解き方：</strong>Will×Canだけで動くと『やりたいけど需要がない』、Can×Mustだけだと『できるけど情熱が続かない』状態になりがちです。3つが重なる領域こそ、長く伸ばせるキャリアの軸です。Mustはひとりでは分かりにくいので<Link href="/knowledge/market-value/" className="text-petrol underline">市場価値の調べ方</Link>も併用することをおすすめします。</p>
           </div>
         </section>
 
@@ -337,7 +337,7 @@ export default function SelfAnalysisPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">自己分析の『Must』をプロに確かめよう</h2>
+          <h2 className="text-xl font-bold mb-3">自己分析の『Must』を専門家と確かめる</h2>
           <p className="text-blue-100 text-sm mb-4">市場が求めること（Must）は自分では把握しにくいものです。IT特化型エージェントの面談で、客観的な市場価値とニーズを確認できます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

@@ -336,7 +336,7 @@ export default function TerraformSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Terraform/IaCスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            インフラ自動化の求人に強いIT特化型エージェントで、年収アップの可能性を確認しましょう。
+            インフラ自動化の求人に強いIT特化型エージェントで、年収アップの可能性をご確認ください。
           </p>
           <Link
             href="/#ranking"

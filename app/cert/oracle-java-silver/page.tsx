@@ -257,7 +257,7 @@ export default function OracleJavaSilverCertPage() {
             活用戦略は3つに整理できます。第一に<strong>独学の体系化</strong>です。現場で覚えたJavaの知識の不足を試験対策で補い、基礎を整理できます。第二に<strong>書類段階の裏づけ</strong>です。Javaを扱える基礎スキルの客観証明として、選考の通過に寄与します。第三に<strong>上位資格への布石</strong>です。SilverはGoldの前提資格でもあり、SilverからGoldへ進むことで中級以上の実装力まで示せます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。Silverは<strong>基礎レベルの位置づけのため、これ単体で高い実装力まで保証する資格ではありません</strong>。効果が出るのは、Java実務と資格がそろったときです。また受験料が約4万円（税込）と国家資格に比べ高めで、費用対効果は目的次第です。逆に言えば、独学のJava知識を体系化し基礎を固めたい30〜40代にとっては、明確な到達点になる資格です。中級以上を示したいなら<Link href="/cert/oracle-java-gold/" className="text-petrol hover:underline">Gold</Link>へ進みましょう。
+            注意すべきデメリットも押さえておくことをおすすめします。Silverは<strong>基礎レベルの位置づけのため、これ単体で高い実装力まで保証する資格ではありません</strong>。効果が出るのは、Java実務と資格がそろったときです。また受験料が約4万円（税込）と国家資格に比べ高めで、費用対効果は目的次第です。逆に言えば、独学のJava知識を体系化し基礎を固めたい30〜40代にとっては、明確な到達点になる資格です。中級以上を示したいなら<Link href="/cert/oracle-java-gold/" className="text-petrol hover:underline">Gold</Link>へ進んでください。
           </p>
         </section>
 
@@ -320,7 +320,7 @@ export default function OracleJavaSilverCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Java案件への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Java Silverを活かせる開発求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            Java Silverを活かせる開発求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

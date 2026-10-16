@@ -189,8 +189,8 @@ export default function TechStackSalaryPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-3">使用技術を活かせる企業を見つけよう</h2>
-          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントに無料相談して、ご自身の技術スタックが評価される求人を紹介してもらいましょう。</p>
+          <h2 className="text-xl font-bold mb-3">使用技術を活かせる企業を見つける</h2>
+          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントに無料相談して、ご自身の技術スタックが評価される求人を紹介してもらってください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
         {/* 一次データ相互リンク（2026-07-04 リンク完全性の是正） */}

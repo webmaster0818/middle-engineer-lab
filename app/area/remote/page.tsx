@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "フルリモートで採用されやすい職種は？",
-    a: "Web系のバックエンド・フロントエンド、クラウド系インフラ・SRE、データ系など、成果物とコードで評価しやすい職種はフルリモートに適している傾向があります。逆に、物理的な現場対応やハードウェア連携が必要な職種は在宅が難しくなりがちです。自分のスキルがリモート前提の求人と合うかを見極めましょう。",
+    a: "Web系のバックエンド・フロントエンド、クラウド系インフラ・SRE、データ系など、成果物とコードで評価しやすい職種はフルリモートに適している傾向があります。逆に、物理的な現場対応やハードウェア連携が必要な職種は在宅が難しくなりがちです。自分のスキルがリモート前提の求人と合うかを見極めてください。",
   },
   {
     q: "地方在住であることは選考で不利になりますか？",
@@ -195,7 +195,7 @@ export default function RemoteAreaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">3. 「見せかけのリモート」を見抜く必要がある</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                求人票に「リモートOK」とあっても、実態は週数回出社や、試用期間後に出社必須というケースがあります。地方在住者にとっては勤務の継続に直結する問題であるため、リモートの頻度・恒久性・将来の方針をエージェント経由で必ず確認しましょう。見極めの具体策は
+                求人票に「リモートOK」とあっても、実態は週数回出社や、試用期間後に出社必須というケースがあります。地方在住者にとっては勤務の継続に直結する問題であるため、リモートの頻度・恒久性・将来の方針をエージェント経由で必ずご確認ください。見極めの具体策は
                 <Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモート求人の探し方・見極め方</Link>
                 を参照してください。
               </p>
@@ -245,7 +245,7 @@ export default function RemoteAreaPage() {
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-                <p className="text-sm text-slate-600"><strong>全国対応のIT特化エージェントへ登録:</strong> 居住地とフルリモート希望を初回面談で明言します。地方在住OKの首都圏求人を優先的に出してもらいます。</p>
+                <p className="text-sm text-slate-600"><strong>全国対応のIT特化エージェントへ登録:</strong> 居住地とフルリモート希望を初回面談で明言します。地方在住者を受け入れる首都圏求人を優先的に紹介してもらいます。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">4</span>
@@ -344,7 +344,7 @@ export default function RemoteAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">居住地を変えずにキャリアを広げる</h2>
           <p className="text-blue-100 text-sm mb-4">
-            地方在住のまま首都圏のフルリモート求人に応募する方法があります。全国対応のIT特化エージェントで、自分のスキルが正当に評価される求人を探しましょう。
+            地方在住のまま首都圏のフルリモート求人に応募する方法があります。全国対応のIT特化エージェントで、自分のスキルが正当に評価される求人を探してください。
           </p>
           <Link
             href="/#ranking"

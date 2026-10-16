@@ -404,8 +404,8 @@ export default function ThirtiesAgentsPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">30代は情報収集から始めましょう</h2>
-          <p className="text-blue-100 text-sm mb-4">スキルと経験が揃う30代は、選択肢が最も広い年代です。まずはIT特化型を中心に複数登録し、提案を比較するところから始めましょう。</p>
+          <h2 className="text-xl font-bold mb-3">30代の転職を情報収集から始める</h2>
+          <p className="text-blue-100 text-sm mb-4">スキルと経験が揃う30代は、選択肢が最も広い年代です。まずはIT特化型を中心に複数登録し、提案を比較するところから始めてください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

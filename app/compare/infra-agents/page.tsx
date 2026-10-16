@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/infra-agents/" },
   title: "インフラ・クラウド特化の転職エージェントおすすめ｜選び方【2026年8月】",
   description:
-    "インフラ・クラウド（SRE／AWS・GCP・Azure）エンジニアに強い転職エージェントを、当サイトに実在するサービスから根拠付きで厳選しています。IT/Web全般のレバテックキャリア、最大級の求人数のリクルート/doda、ハイクラスのJAC・ビズリーチまで、30代40代向けに選び方を整理します。",
+    "インフラ・クラウド（SRE／AWS・GCP・Azure）エンジニアに強い転職エージェントを、当サイトに実在するサービスから根拠を示して厳選しています。IT/Web全般のレバテックキャリア、最大級の求人数のリクルート/doda、ハイクラスのJAC・ビズリーチまで、30代40代向けに選び方を整理します。",
 };
 
 const toc = [
@@ -73,7 +73,7 @@ const faqs = [
   { q: "SRE・クラウドアーキテクトとして年収を上げるにはどうすればよいですか？", a: "上流・管理職レンジで年収を上げたいなら、ハイクラス・ミドル特化のJACリクルートメント（両面型・年収500万円以上が目安）や、スカウト型のビズリーチ（年収1,000万円以上求人が約4割・二次）が向きます。アーキテクト・リードの実績を言語化し、母数はレバテックキャリアやリクルートで確保するのが現実的です。" },
   { q: "フリーランス・高単価でインフラ案件に関わる方法はありますか？", a: "フリーランス（業務委託）でインフラ・クラウド案件に関わりたい場合は、案件紹介エージェントが選択肢です。当サイトでレビューしているrelance（スリーシェイク運営・SRE領域のテックカンパニー）は自社開発・プライム案件中心でフルリモート案件70%以上（公式表記）とされ、SRE・クラウド領域と相性があります。geechsもリモート案件比率が高い二次情報があります。面談で対象領域を必ず確認してください。" },
   { q: "40代のインフラエンジニアでも転職できますか？", a: "インフラ・クラウドは運用設計・大規模構築・マネジメントの経験が評価されやすく、40代の強みを活かしやすい領域です。JACリクルートメント（主に30〜50代対象）やビズリーチでハイクラス求人を狙いつつ、母数はレバテックキャリアやリクルートで確保するのが現実的です。" },
-  { q: "複数登録した方がいいですか？", a: "はい。IT特化のレバテックキャリアを軸に、求人数最大級のリクルート/doda、ハイクラスのJAC/ビズリーチを組み合わせると、母数と上位ポジションの両面を確保できます。いずれも無料です。同じ企業への重複応募は避け、応募状況を自分で管理しましょう。" },
+  { q: "複数登録した方がいいですか？", a: "はい。IT特化のレバテックキャリアを軸に、求人数最大級のリクルート/doda、ハイクラスのJAC/ビズリーチを組み合わせると、母数と上位ポジションの両面を確保できます。いずれも無料です。同じ企業への重複応募は避け、応募状況を自分で管理してください。" },
 ];
 
 const relatedLinks = [
@@ -90,15 +90,15 @@ export default function InfraAgentsPage() {
 
   return (
     <>
-      <ArticleJsonLd title="インフラ・クラウド特化の転職エージェントおすすめ｜選び方" description="インフラ・クラウド（SRE／AWS・GCP・Azure）に強い転職エージェントを実在サービスから根拠付きで厳選し、選び方を整理します。" url="/compare/infra-agents/" />
+      <ArticleJsonLd title="インフラ・クラウド特化の転職エージェントおすすめ｜選び方" description="インフラ・クラウド（SRE／AWS・GCP・Azure）に強い転職エージェントを実在サービスから根拠を示して厳選し、選び方を整理します。" url="/compare/infra-agents/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "インフラ・クラウド特化エージェント" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">インフラ・クラウド特化の転職エージェントおすすめ｜実在サービスから根拠付きで選ぶ</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">インフラ・クラウド特化の転職エージェントおすすめ｜実在サービスから根拠を示して選ぶ</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ IT特化×最大級の母数×ハイクラスを組み合わせて選ぶ</p>
 
-        <p className="text-slate-600 leading-relaxed mb-4">インフラ・クラウド（SRE／AWS・GCP・Azure）エンジニアの転職は、<strong>IT特化で技術文脈を理解できるエージェント</strong>を軸に、求人数最大級の総合大手で母数を補い、上流・管理職はハイクラス特化で狙う、という組み合わせが現実的です。本記事は当サイトに実在するサービスの中から、各社の公式・公表情報に基づいてインフラ・クラウドと相性の良いものを根拠付きで選定しています。架空のサービスや順位の捏造はしていません。</p>
+        <p className="text-slate-600 leading-relaxed mb-4">インフラ・クラウド（SRE／AWS・GCP・Azure）エンジニアの転職は、<strong>IT特化で技術文脈を理解できるエージェント</strong>を軸に、求人数最大級の総合大手で母数を補い、上流・管理職はハイクラス特化で狙う、という組み合わせが現実的です。本記事は当サイトに実在するサービスの中から、各社の公式・公表情報に基づいてインフラ・クラウドと相性の良いものを根拠を示して選定しています。架空のサービスや順位の捏造はしていません。</p>
 
         <DataNote surveyedAt="2026年6月" sources={["レバテックキャリア公式系ガイド", "リクルート（IT求人数・転職メディア集計）", "doda（パーソルキャリア）公表値", "JACリクルートメント公式", "ビズリーチ二次情報・口コミの傾向要約"]} />
 
@@ -139,8 +139,8 @@ export default function InfraAgentsPage() {
         </section>
 
         <section id="ranking" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">インフラ・クラウドに強いサービス（根拠付き）</h2>
-          <p className="text-slate-600 leading-relaxed text-sm mb-6">順位は「インフラ・クラウドとの相性」を基準に、各社の公式・公表情報に基づいて整理しています。数値はすべて出典・時点付きの公開情報です。</p>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">インフラ・クラウドに強いサービス（選定根拠を明記）</h2>
+          <p className="text-slate-600 leading-relaxed text-sm mb-6">順位は「インフラ・クラウドとの相性」を基準に、各社の公式・公表情報に基づいて整理しています。数値はすべて出典・時点を明記した公開情報です。</p>
           <div className="space-y-5">
             {services.map((s, i) => (
               <div key={i} className="border border-slate-200 rounded-xl p-6">
@@ -189,7 +189,7 @@ export default function InfraAgentsPage() {
         <section id="middle" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">クラウド移行・SRE・基盤運用の需要は構造的に高く、インフラ・クラウドは経験を積んだミドルが価値を発揮しやすい領域です。経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では2030年に最大約79万人のIT人材不足が見込まれ、信頼性・スケーラビリティを担える人材の需要は続くと考えられます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>30代の場合：</strong>主要クラウドの設計・運用経験と資格を強みに、レバテックキャリアを軸に母数を広げましょう。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安で、現年収との差が交渉材料になります。</p>
+          <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>30代の場合：</strong>主要クラウドの設計・運用経験と資格を強みに、レバテックキャリアを軸に母数を広げてください。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安で、現年収との差が交渉材料になります。</p>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>40代の場合：</strong>大規模基盤の設計・運用やマネジメント経験は、JACリクルートメント（主に30〜50代対象）やビズリーチのハイクラス求人で高く評価されやすくなります。レバテック公表（2025年）では40代の年収1,000万円以上の割合は12.67%とされ、上流・専門領域で高い年収帯を目指せる層です。上位ポジションを狙いつつ、母数はレバテック/リクルートで確保してください。</p>
         </section>
 

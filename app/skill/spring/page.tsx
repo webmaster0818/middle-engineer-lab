@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Springエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. Springの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. Springの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Springエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方と主なエージェント" },
@@ -138,7 +138,7 @@ export default function SpringSkillPage() {
         </section>
 
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Springの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Springの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Springはフレームワークのため言語単独の公的平均値は乏しく、ここでは記述言語Javaや職種別データで代替します。出典と時点を明示できる値のみを使用します。
           </p>
@@ -178,7 +178,7 @@ export default function SpringSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "Javaでのバックエンド実務2〜3年／DB・HTTP・オブジェクト指向の基礎／SpringはGitHub等での自習レベル", note: "Spring未経験OK求人がここに該当" },
+              { tier: "入口（ポテンシャル）", req: "Javaでのバックエンド実務2〜3年／DB・HTTP・オブジェクト指向の基礎／SpringはGitHub等での自習レベル", note: "Spring未経験可の求人がここに該当" },
               { tier: "即戦力（ミドル）", req: "Spring Bootでの業務システム・API開発の実務／DI・トランザクション／テスト・DBアクセス", note: "求人の中心ゾーン" },
               { tier: "ハイクラス（設計・管理）", req: "アーキテクチャ設計／マイクロサービス・クラウド／PM・技術選定", note: "年収800万円以上が狙える層" },
             ].map((item, i) => (
@@ -278,7 +278,7 @@ export default function SpringSkillPage() {
               <strong>掛け算で差別化します。</strong>Spring単体より「Spring＋クラウド・マイクロサービス」「Spring＋金融・保険などのドメイン知識」の掛け合わせが、ミドル層の強みです。基幹システムのモダナイズ案件では、業務知識と実装力の両方を語れる人材が重宝されます。
             </p>
             <p>
-              <strong>マネジメント経験も資産になります。</strong>アーキテクトやPM／PLのSpring求人では、実装力に加えて大規模開発の進行管理・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>アーキテクトやPM／PLのSpring求人では、実装力に加えて大規模開発の進行管理・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示してください。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -293,7 +293,7 @@ export default function SpringSkillPage() {
               <strong>① Spring Bootから始めます。</strong>SpringはSpring Bootを使うことで設定が簡素化され、学習のハードルが下がります。公式ガイドに沿ってREST APIを作り、DIや自動設定の仕組みを押さえると、Springの全体像をつかめます。
             </p>
             <p>
-              <strong>② トランザクション・DBアクセスを深めます。</strong>Spring Data JPAやトランザクション管理はエンタープライズ開発の核心です。実際にDBを伴うアプリを作り、トランザクション境界や例外処理を経験として語れる状態にしましょう。
+              <strong>② トランザクション・DBアクセスを深めます。</strong>Spring Data JPAやトランザクション管理はエンタープライズ開発の核心です。実際にDBを伴うアプリを作り、トランザクション境界や例外処理を経験として語れる状態にしてください。
             </p>
             <p>
               <strong>③ クラウド・マイクロサービスを掛け合わせます。</strong>AWS・コンテナでのデプロイや、Spring Bootによるマイクロサービス分割の経験を積むと、基幹システムのモダナイズ案件や設計・テックリード級の求人も視野に入ります。

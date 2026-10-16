@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "ギークスジョブの評判・口コミ｜30代40代フリーランスエンジニア";
 const DESCRIPTION =
-  "ギークスジョブ（geechs job／ギークス株式会社運営）の評判・口コミを30代40代エンジニア目線で検証します。リモート案件比率、福利厚生フリノベ、マージン非公開、支援実績20年、向き不向きを公式情報と出典付きで解説します。";
+  "ギークスジョブ（geechs job／ギークス株式会社運営）の評判・口コミを30代40代エンジニア目線で検証します。リモート案件比率、福利厚生フリノベ、マージン非公開、支援実績20年、向き不向きを公式情報と出典を明記して解説します。";
 const URL = "/review/geechs/";
 
 export const metadata: Metadata = {
@@ -289,7 +289,7 @@ export default function GeechsReview() {
 
         {/* 良い評判 */}
         <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
           <p className="text-sm text-slate-600 mb-4">
             以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載・スコア転載ではありません）。
           </p>
@@ -356,7 +356,7 @@ export default function GeechsReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              スキルが市場で評価されやすく、リモートで働きながら単価アップを狙える年代です。フリノベで確定申告・健康面の不安を補いつつ、最初の数案件は慎重に選んで実績を積むのが堅実です。独立に不安があれば、保障型のMidworksと比較して入口を選びましょう。
+              スキルが市場で評価されやすく、リモートで働きながら単価アップを狙える年代です。フリノベで確定申告・健康面の不安を補いつつ、最初の数案件は慎重に選んで実績を積むのが堅実です。独立に不安があれば、保障型のMidworksと比較して入口を選んでください。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>

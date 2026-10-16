@@ -337,7 +337,7 @@ export default function DataScientistPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">データサイエンスの転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            AI/ML領域の求人を扱うIT特化型エージェントに登録して、データサイエンティストのキャリアを相談しましょう。
+            AI/ML領域の求人を扱うIT特化型エージェントに登録して、データサイエンティストのキャリアを相談することをおすすめします。
           </p>
           <Link
             href="/#ranking"

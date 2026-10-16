@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Svelteエンジニアの転職市場での進め方" },
-  { id: "market", label: "2. Svelteの市場・年収データ（出典付き）" },
+  { id: "market", label: "2. Svelteの市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Svelteエンジニアのキャリアパス" },
   { id: "find", label: "5. 求人の探し方と主なエージェント" },
@@ -145,7 +145,7 @@ export default function SvelteSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Svelteの市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Svelteの市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Svelteは新興技術で求人母数が限られ、Svelte特化の公表平均年収は乏しいため、ここでは関連職種（フロントエンド職）の公表値で代替し、出典と時点を明示します。創作した数値は使用していません。
           </p>

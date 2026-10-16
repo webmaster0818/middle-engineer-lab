@@ -30,7 +30,7 @@ const basicData: [string, string][] = [
 
 const toc = [
   ["conclusion", "転職難易度と向いている人"],
-  ["basic", "基本データ（出典付き）"],
+  ["basic", "基本データ（出典明記）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -145,7 +145,7 @@ export default function CyberagentCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>

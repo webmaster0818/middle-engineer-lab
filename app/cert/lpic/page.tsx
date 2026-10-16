@@ -261,7 +261,7 @@ export default function LpicCertPage() {
         <section id="vendor" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">資格としての特性と注意点</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            LPIC/LinuCは民間の認定資格であり、IPA系の国家資格（基本情報・応用情報など）とは性格が異なります。取得を検討する前に、両者の違いとデメリットを正確に把握しておきましょう。
+            LPIC/LinuCは民間の認定資格であり、IPA系の国家資格（基本情報・応用情報など）とは性格が異なります。取得を検討する前に、両者の違いとデメリットを正確に把握しておくことをおすすめします。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -307,7 +307,7 @@ export default function LpicCertPage() {
               一方、インフラ経験のあるミドルにとっては、<strong>レベル2・3＋実務</strong>の組み合わせで本来の価値が生まれます。高可用性設計やセキュリティといった上位範囲は、設計・リードポジションへの説得力になります。Linuxはオンプレからクラウドまで基盤技術として汎用性が高く、「特定企業のレガシー運用に偏った経験」を汎用的なスキルとして示す手段にもなります。
             </p>
             <p>
-              30〜40代のキャリア戦略として現実的なのは、<strong>「LinuC＋クラウド」への接続</strong>です。オンプレのLinux運用経験を持つミドルが、LinuCの仮想化・コンテナ範囲を学び、そこからAWSなどのクラウド資格へ橋渡しすれば、オンプレ実務とクラウド知識を組み合わせることで市場価値を高められます。年代が上がるほど、単なる作業者ではなく『移行や設計を任せられる人』としての価値が問われます。LPIC/LinuCはその土台を客観的に示す資格として機能します。資格取得後は、検証環境の構築手順や設定ファイルをポートフォリオとしてまとめ、実務で使える知識であることを示しましょう。
+              30〜40代のキャリア戦略として現実的なのは、<strong>「LinuC＋クラウド」への接続</strong>です。オンプレのLinux運用経験を持つミドルが、LinuCの仮想化・コンテナ範囲を学び、そこからAWSなどのクラウド資格へ橋渡しすれば、オンプレ実務とクラウド知識を組み合わせることで市場価値を高められます。年代が上がるほど、単なる作業者ではなく『移行や設計を任せられる人』としての価値が問われます。LPIC/LinuCはその土台を客観的に示す資格として機能します。資格取得後は、検証環境の構築手順や設定ファイルをポートフォリオとしてまとめ、実務で使える知識であることを示してください。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、未経験からの30代転職は<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのITエンジニア転職</Link>も合わせてご覧ください。
@@ -358,7 +358,7 @@ export default function LpicCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Linux・インフラ職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            LPIC/LinuCを活かせる求人や、未経験からの現実的なルートをIT特化型エージェントで確認しましょう。
+            LPIC/LinuCを活かせる求人や、未経験からの現実的なルートをIT特化型エージェントでご確認ください。
           </p>
           <Link
             href="/#ranking"

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "PMPは転職に有利？30・40代の年収・受験資格・活かし方【2026年】";
 const PAGE_DESC =
-  "PMP（プロジェクトマネジメント・プロフェッショナル）は30代・40代の転職で有利か。PMI公式Salary Surveyの年収データ、受験資格・試験概要、評価される場面、実務と資格を組み合わせた活かし方とデメリットまで解説します。";
+  "PMP（プロジェクトマネジメント・プロフェッショナル）は30代・40代の転職で有利なのでしょうか。PMI公式Salary Surveyの年収データ、受験資格・試験概要、評価される場面、実務と資格を組み合わせた活かし方とデメリットまで解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/pmp/" },
@@ -320,7 +320,7 @@ export default function CertPmpPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">PMPとPM経験を活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ご自身のPM実績がどの年収帯で評価されるか、IT特化型エージェントで確認しましょう。
+            ご自身のPM実績がどの年収帯で評価されるか、IT特化型エージェントでご確認ください。
           </p>
           <Link
             href="/#ranking"

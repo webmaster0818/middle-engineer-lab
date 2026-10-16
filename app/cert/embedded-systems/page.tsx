@@ -273,7 +273,7 @@ export default function EmbeddedSystemsCertPage() {
             活用の軸は3つです。第一に<strong>専門性の客観証明</strong>です。組込み領域は実務スキルが外部から見えにくく、最高ランクの国家資格は「この人は組込みの体系を理解している」ことの有力な裏づけになります。第二に<strong>上流・リーダーへの足がかり</strong>です。アーキテクチャ設計や若手指導を担う立場への移行で加点されます。第三に<strong>社内評価・資格手当</strong>です。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。ESは合格率15%台の難関で、<strong>相応の学習時間が必要</strong>です。また取得しても単体で年収が大きく上がる資格ではなく、効果が出るのは組込み実務と資格が組み合わさったときです。逆に言えば、すでに組込み現場の経験があり専門性を客観的に示したい30〜40代にとっては、投資する価値が明確な資格です。基礎や中位の土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。
+            注意すべきデメリットも押さえておくことをおすすめします。ESは合格率15%台の難関で、<strong>相応の学習時間が必要</strong>です。また取得しても単体で年収が大きく上がる資格ではなく、効果が出るのは組込み実務と資格が組み合わさったときです。逆に言えば、すでに組込み現場の経験があり専門性を客観的に示したい30〜40代にとっては、投資する価値が明確な資格です。基礎や中位の土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。
           </p>
         </section>
 
@@ -336,7 +336,7 @@ export default function EmbeddedSystemsCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">組込み・上流職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ESを活かせる組込み・IoT・設計求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            ESを活かせる組込み・IoT・設計求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"

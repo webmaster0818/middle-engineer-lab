@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "ピン留めリポジトリには何を選べばいいですか？",
-    a: "最大6枠には『最も見てほしいもの』を厳選します。READMEが整っていて技術判断が伝わるリポジトリ、設計の工夫が見えるもの、OSS貢献のフォーク先などが候補です。チュートリアルそのままの学習用リポジトリや、READMEのない未完成リポジトリは外し、質を重視しましょう。",
+    a: "最大6枠には『最も見てほしいもの』を厳選します。READMEが整っていて技術判断が伝わるリポジトリ、設計の工夫が見えるもの、OSS貢献のフォーク先などが候補です。チュートリアルそのままの学習用リポジトリや、READMEのない未完成リポジトリは外し、質を重視することをおすすめします。",
   },
   {
     q: "古いリポジトリが残っていると印象が悪いですか？",
@@ -141,7 +141,7 @@ export default function GithubShowcasePage() {
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
             <p className="text-sm text-amber-800">
-              <strong>ミドルの優先順位：</strong>即席アプリを量産するより、<strong>①整ったプロフィール ＋ ②設計判断が伝わるリポジトリ1〜2個 ＋ ③継続の痕跡</strong>に時間を投資する方が費用対効果が高いケースが多く見られます。数ではなく、1つひとつの完成度を重視しましょう。
+              <strong>ミドルの優先順位：</strong>即席アプリを量産するより、<strong>①整ったプロフィール ＋ ②設計判断が伝わるリポジトリ1〜2個 ＋ ③継続の痕跡</strong>に時間を投資する方が費用対効果が高いケースが多く見られます。数ではなく、1つひとつの完成度を重視することをおすすめします。
             </p>
           </div>
         </section>
@@ -219,7 +219,7 @@ export default function GithubShowcasePage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ピン留めは「見てほしい順」に並べ替える</h3>
-              <p className="text-sm text-slate-600">ピン留めは表示順を手動で変えられます。最も自信のあるリポジトリを左上に置きましょう。OSS貢献のフォーク先や、業務に近い技術構成のものを前に出すと、応募先に評価されます。</p>
+              <p className="text-sm text-slate-600">ピン留めは表示順を手動で変えられます。最も自信のあるリポジトリを左上に置いてください。OSS貢献のフォーク先や、業務に近い技術構成のものを前に出すと、応募先に評価されます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">古い・未完成リポジトリはアーカイブで整理</h3>
@@ -240,7 +240,7 @@ export default function GithubShowcasePage() {
         <section id="private" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">5. 業務コードを出せない人の代替策</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            30-40代の多くは「業務コードは公開できないし、家庭や仕事で個人開発の時間も取りにくい」という現実を抱えています。GitHubが薄いこと自体は珍しくありません。出せないなら、別の形で現役性と再現性を示しましょう。
+            30-40代の多くは「業務コードは公開できないし、家庭や仕事で個人開発の時間も取りにくい」という現実を抱えています。GitHubが薄いこと自体は珍しくありません。出せないなら、別の形で現役性と再現性を示してください。
           </p>
           <div className="space-y-4">
             {[
@@ -262,7 +262,7 @@ export default function GithubShowcasePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">6. ミドルがやりがちなNG例</h2>
           <div className="space-y-4">
             {[
-              { t: "NG1：bot的なコミットで草を量産", d: "自動コミットや空更新で草を埋めると、見る人が見れば不自然さに気づきます。継続性を偽装するより、薄くても本物の活動を残しましょう。" },
+              { t: "NG1：bot的なコミットで草を量産", d: "自動コミットや空更新で草を埋めると、見る人が見れば不自然さに気づきます。継続性を偽装するより、薄くても本物の活動を残してください。" },
               { t: "NG2：フォークしただけのリポジトリが大量", d: "スター代わりにフォークしたリポジトリが並ぶと、自分の成果物が埋もれます。フォークは整理し、貢献したものだけ残します。" },
               { t: "NG3：READMEのない空リポジトリを放置", d: "コードがあってもREADMEがないと読まれません。説明のないリポジトリは公開しないか、最低限の概要を付けます。" },
               { t: "NG4：業務コードをそのまま公開", d: "守秘義務・著作権違反になり、信頼を大きく損ないます。社名・内部数値・固有構成は出さず、汎用化してから公開します。" },
@@ -316,7 +316,7 @@ export default function GithubShowcasePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">GitHubの見せ方をエージェントに相談しましょう</h2>
+          <h2 className="text-xl font-bold mb-3">GitHubの見せ方をエージェントに相談する</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、応募先に評価されるGitHub・成果物の見せ方を具体的にアドバイスしてくれます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

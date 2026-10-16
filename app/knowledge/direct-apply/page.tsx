@@ -69,7 +69,7 @@ const faqs = [
   },
   {
     q: "直接応募とエージェント経由は併用していい？",
-    a: "併用が最も効果的です。ただし同じ企業に両方のルートから応募するのは避けてください。企業側で情報が重複し印象が悪くなります。どの企業をどのルートで受けるかを事前に整理しておきましょう。",
+    a: "併用が最も効果的です。ただし同じ企業に両方のルートから応募するのは避けてください。企業側で情報が重複し印象が悪くなります。どの企業をどのルートで受けるかを事前に整理しておくことをおすすめします。",
   },
   {
     q: "スタートアップは直接応募の方がいい？",
@@ -199,9 +199,9 @@ export default function DirectApplyPage() {
           <div className="space-y-4">
             {[
               { num: "1", title: "プロフィールを作り込む", desc: "技術スタックを具体名で、実績は数値で記載します。企業は検索で候補者を探すため、使った技術名を網羅するほど見つかりやすくなります。" },
-              { num: "2", title: "「気になる」やカジュアル面談を活用する", desc: "Greenでは企業と直接やり取りでき、選考前のカジュアル面談で社風や開発体制を把握できます。気軽に複数社と話して比較しましょう。" },
+              { num: "2", title: "「気になる」やカジュアル面談を活用する", desc: "Greenでは企業と直接やり取りでき、選考前のカジュアル面談で社風や開発体制を把握できます。気軽に複数社と話して比較することをおすすめします。" },
               { num: "3", title: "自分で日程調整・条件確認を行う", desc: "仲介サポートがないため、面接日程や年収・条件の確認は自分で進めます。年収交渉に不安があればエージェント経由の企業と併用してバランスを取ります。" },
-              { num: "4", title: "企業の採用ページも併せて確認する", desc: "志望が固まっている企業は、採用ページから直接応募する手もあります。エージェント経由と重複しないよう管理表で整理しておきましょう。" },
+              { num: "4", title: "企業の採用ページも併せて確認する", desc: "志望が固まっている企業は、採用ページから直接応募する手もあります。エージェント経由と重複しないよう管理表で整理しておくことをおすすめします。" },
             ].map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -300,7 +300,7 @@ export default function DirectApplyPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">直接応募と並行してエージェントも活用しましょう</h2>
+          <h2 className="text-xl font-bold mb-3">直接応募と並行してエージェントも活用する</h2>
           <p className="text-blue-100 text-sm mb-4">
             エージェントは完全無料です。登録しておけば、直接応募ではアクセスできない非公開求人も紹介してもらえます。
           </p>

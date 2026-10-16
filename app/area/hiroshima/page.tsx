@@ -334,7 +334,7 @@ export default function HiroshimaAreaPage() {
                 <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職戦略</Link>
                 や
                 <Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代転職のリアル</Link>
-                も確認しておきましょう。
+                も確認しておくことをおすすめします。
               </p>
             </div>
           </div>
@@ -358,7 +358,7 @@ export default function HiroshimaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">広島のIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
-            製造業DXを軸にした地元求人に加え、フルリモートで首都圏企業に就く選択肢もあります。両方を比較して、自分に合う働き方を見つけましょう。
+            製造業DXを軸にした地元求人に加え、フルリモートで首都圏企業に就く選択肢もあります。両方を比較して、自分に合う働き方を見つけてください。
           </p>
           <Link
             href="/#ranking"

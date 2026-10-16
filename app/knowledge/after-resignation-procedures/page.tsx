@@ -180,7 +180,7 @@ export default function AfterResignationProceduresPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">A：退職日の翌日に次の会社へ入社（ブランクなし）</h3>
-              <p className="text-sm text-slate-600">健康保険・厚生年金は新しい会社で加入手続きが行われるため、自分での健保・年金の切り替えは基本的に不要です。失業給付も受給できません。退職前の会社から受け取る源泉徴収票・年金関係の書類を、新しい会社に提出する準備だけしておきましょう。</p>
+              <p className="text-sm text-slate-600">健康保険・厚生年金は新しい会社で加入手続きが行われるため、自分での健保・年金の切り替えは基本的に不要です。失業給付も受給できません。退職前の会社から受け取る源泉徴収票・年金関係の書類を、新しい会社に提出する準備だけしておくことをおすすめします。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">B：数日〜1ヶ月程度の短い空白がある</h3>
@@ -337,7 +337,7 @@ export default function AfterResignationProceduresPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">扶養家族がいると任意継続が有利になりやすい</h3>
-              <p className="text-sm text-slate-600">任意継続は扶養家族が増えても保険料が変わらない傾向があるため、家族を扶養している場合は国保より有利になることがあります。ただし前年所得が低ければ国保が安いこともあり、必ず両方を試算しましょう。</p>
+              <p className="text-sm text-slate-600">任意継続は扶養家族が増えても保険料が変わらない傾向があるため、家族を扶養している場合は国保より有利になることがあります。ただし前年所得が低ければ国保が安いこともあり、必ず両方を試算してください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">前年所得が高いと国保が割高になりやすい</h3>

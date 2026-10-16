@@ -102,7 +102,7 @@ export default function Salary2000Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収2000万円は、ITエンジニアの中でも<strong>ごく一握り</strong>が到達する頂点クラスの水準です。外資系トップIT（GAFAM級）の上位職、CTO・VPoEなどの技術経営層、世界的に取り合われるトップスペシャリスト、事業の当事者などが中心で、国内一般企業の給与体系の延長ではほぼ到達しません。本記事では、この2000万円が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理しつつ、到達が容易でない現実を解説します。
+          年収2000万円は、ITエンジニアの中でも<strong>ごく一握り</strong>が到達する頂点クラスの水準です。外資系トップIT（GAFAM級）の上位職、CTO・VPoEなどの技術経営層、世界的に取り合われるトップスペシャリスト、事業の当事者などが中心で、国内一般企業の給与体系の延長ではほぼ到達しません。本記事では、この2000万円が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベルや厚労省job tag（令和7年）など出典を明記して整理しつつ、到達が容易でない現実を解説します。
         </p>
 
         <DataNote
@@ -297,7 +297,7 @@ export default function Salary2000Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">最上位帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハイクラス・外資に強いスカウト型エージェントに登録して、ご自身の市場価値と上位求人を確認しましょう。
+            ハイクラス・外資に強いスカウト型エージェントに登録して、ご自身の市場価値と上位求人をご確認ください。
           </p>
           <Link
             href="/#ranking"

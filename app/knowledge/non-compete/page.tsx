@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "競業避止義務とは｜エンジニアの転職で知るべき6判断基準";
 const PAGE_DESC =
-  "30代・40代エンジニア向けに競業避止義務を解説します。在職中と退職後の違い、経済産業省が示す有効性の6判断基準、サインしても必ず有効とは限らない理由、違反のリスク、弁護士に相談すべきケースを出典付きで整理します。";
+  "30代・40代エンジニア向けに競業避止義務を解説します。在職中と退職後の違い、経済産業省が示す有効性の6判断基準、サインしても必ず有効とは限らない理由、違反のリスク、弁護士に相談すべきケースを出典を明記して整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/non-compete/" },
@@ -305,13 +305,13 @@ export default function NonCompetePage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">同業・同領域への転職前に契約を確認する</h3>
               <p>
-                キャリアを積むほど、転職先が前職と同じ業界・同じ技術領域になりやすくなります。在職中の就業規則や、過去に署名した誓約書に競業避止条項がないかを、転職活動の早い段階で確認しておきましょう。
+                キャリアを積むほど、転職先が前職と同じ業界・同じ技術領域になりやすくなります。在職中の就業規則や、過去に署名した誓約書に競業避止条項がないかを、転職活動の早い段階で確認しておくことをおすすめします。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">代償措置の有無を冷静に見る</h3>
               <p>
-                代償措置（基準⑥）がない競業避止は有効性が弱まる傾向があります。ただし有効・無効の最終判断は裁判所が行うため、「代償がないから無効に違いない」と自己判断するのは危険です。退職交渉とあわせて、必要なら専門家に確認しましょう。退職の進め方は<Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の伝え方</Link>も参考になります。
+                代償措置（基準⑥）がない競業避止は有効性が弱まる傾向があります。ただし有効・無効の最終判断は裁判所が行うため、「代償がないから無効に違いない」と自己判断するのは危険です。退職交渉とあわせて、必要なら専門家にご確認ください。退職の進め方は<Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の伝え方</Link>も参考になります。
               </p>
             </div>
             <p>

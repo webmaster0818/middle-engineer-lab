@@ -185,7 +185,7 @@ export default function PaizaVsGreenPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">テストによる実力証明と接点の数を両立する</h2>
-          <p className="text-blue-100 text-sm mb-4">paizaでランクを取り、Greenで接点を広げます。評価軸が重ならない2つを無料で併用して、反応の差から自分に有効な方法を見つけましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">paizaでランクを取り、Greenで接点を広げます。評価軸が重ならない2つを無料で併用して、反応の差から自分に有効な方法を見つけてください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 

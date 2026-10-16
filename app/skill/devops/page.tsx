@@ -194,7 +194,7 @@ export default function DevopsSkillPage() {
         <section id="cicd" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">CI/CDが必須である理由</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            DevOpsの中核はCI/CD（継続的インテグレーション／継続的デリバリー）です。ビルド・テスト・デプロイを自動化し、リリースを速く安全に回す仕組みを作るのが主業務です。代表的なツールを押さえておきましょう。
+            DevOpsの中核はCI/CD（継続的インテグレーション／継続的デリバリー）です。ビルド・テスト・デプロイを自動化し、リリースを速く安全に回す仕組みを作るのが主業務です。代表的なツールを押さえておくことをおすすめします。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -377,7 +377,7 @@ export default function DevopsSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">DevOpsスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            CI/CD・自動化案件を扱うIT特化型エージェントで、ご自身のDevOpsスキルの市場価値を確認しましょう。
+            CI/CD・自動化案件を扱うIT特化型エージェントで、ご自身のDevOpsスキルの市場価値をご確認ください。
           </p>
           <Link
             href="/#ranking"

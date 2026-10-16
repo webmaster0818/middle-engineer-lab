@@ -8,7 +8,7 @@ import DataNote from "@/components/DataNote";
 const PAGE_TITLE =
   "転職すると退職金はどうなる？【2026年】退職所得控除・企業型DC移換・脱退一時金の手続き";
 const PAGE_DESC =
-  "転職時に退職金はどうなる？退職所得控除の計算（勤続年数別）、企業型確定拠出年金（DC）の移換手続き、6ヶ月放置で自動移換されるリスク、脱退一時金が原則受け取れない理由を、国税庁・厚労省・iDeCo公式の情報にもとづいて解説します。ミドルエンジニアの転職前に押さえるべきお金の知識です。";
+  "転職時に退職金はどうなるのでしょうか。退職所得控除の計算（勤続年数別）、企業型確定拠出年金（DC）の移換手続き、6ヶ月放置で自動移換されるリスク、脱退一時金が原則受け取れない理由を、国税庁・厚労省・iDeCo公式の情報にもとづいて解説します。ミドルエンジニアの転職前に押さえるべきお金の知識です。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/retirement-allowance/" },
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "企業型DCは転職時に何をすればいいですか？",
-    a: "転職先に企業型DCがあれば転職先のDCへ、なければiDeCoへ移換します。重要なのは、退職後6ヶ月以内に手続きをしないと国民年金基金連合会へ『自動移換』されてしまう点です。自動移換されると、資産が運用されないまま管理手数料だけがかかり、その期間は通算加入者等期間にも算入されません。必ず期限内に手続きしましょう。",
+    a: "転職先に企業型DCがあれば転職先のDCへ、なければiDeCoへ移換します。重要なのは、退職後6ヶ月以内に手続きをしないと国民年金基金連合会へ『自動移換』されてしまう点です。自動移換されると、資産が運用されないまま管理手数料だけがかかり、その期間は通算加入者等期間にも算入されません。必ず期限内に手続きしてください。",
   },
   {
     q: "確定拠出年金を脱退一時金として受け取れますか？",
@@ -52,7 +52,7 @@ export default function RetirementAllowancePage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">転職と退職金・確定拠出年金の手続き【2026年】</h1>
         <p className="text-slate-600 leading-relaxed mb-4">
-          転職を考えるとき、見落とされがちなのが<strong>退職金と確定拠出年金（DC）のお金</strong>です。「退職金にかかる税金」「企業型DCの移し方」「脱退一時金は受け取れるのか」を、<strong>国税庁・厚生労働省・iDeCo公式</strong>の情報にもとづいて、ミドルエンジニア向けに整理しました。手続きを誤ると手数料の無駄や税負担増につながるため、転職前に押さえておきましょう。
+          転職を考えるとき、見落とされがちなのが<strong>退職金と確定拠出年金（DC）のお金</strong>です。「退職金にかかる税金」「企業型DCの移し方」「脱退一時金は受け取れるのか」を、<strong>国税庁・厚生労働省・iDeCo公式</strong>の情報にもとづいて、ミドルエンジニア向けに整理しました。手続きを誤ると手数料の無駄や税負担増につながるため、転職前に押さえておくことをおすすめします。
         </p>
         <DataNote surveyedAt="2026年6月" sources={["国税庁 No.1420 退職所得", "厚生労働省 年金資産の持ち運び（ポータビリティ）", "iDeCo公式（国民年金基金連合会）"]} />
 
@@ -122,7 +122,7 @@ export default function RetirementAllowancePage() {
           </ul>
           <div className="rounded-lg bg-amber-50 border border-amber-200 p-4 text-sm text-slate-700">
             <p className="font-bold mb-1">⚠ 6ヶ月放置した場合の「自動移換」のデメリット</p>
-            <p>退職後<strong>6ヶ月以内</strong>に移換などの手続きをしないと、資産が<strong>国民年金基金連合会へ自動移換</strong>されます。自動移換されると、(1) 資産が<strong>運用されない</strong>（現金のまま）、(2) <strong>管理手数料がかかる</strong>、(3) その期間は<strong>通算加入者等期間に算入されず</strong>、受給開始年齢が遅れる可能性がある、というデメリットがあります。転職時は早めに手続きしましょう。</p>
+            <p>退職後<strong>6ヶ月以内</strong>に移換などの手続きをしないと、資産が<strong>国民年金基金連合会へ自動移換</strong>されます。自動移換されると、(1) 資産が<strong>運用されない</strong>（現金のまま）、(2) <strong>管理手数料がかかる</strong>、(3) その期間は<strong>通算加入者等期間に算入されず</strong>、受給開始年齢が遅れる可能性がある、というデメリットがあります。転職時は早めに手続きしてください。</p>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：厚生労働省「離職・転職時等の年金資産の持ち運び（ポータビリティ）」、iDeCo公式（2026年6月確認）。自動移換時や移換時の手数料額は改定されることがあるため、最新額は運営管理機関でご確認ください。</p>
         </section>
@@ -146,7 +146,7 @@ export default function RetirementAllowancePage() {
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-3">④ そもそも退職金制度は「ある会社・ない会社」がある</h2>
           <p className="text-slate-600 text-sm">
-            退職金の支給は<strong>法律上の義務ではなく、企業の任意制度</strong>です（ただし就業規則などで支給基準を定めている場合は支払義務が生じます）。IT・ベンチャー企業では、退職金がない代わりに<strong>給与・賞与に上乗せする「前払い制度」</strong>や、退職金の代わりに<strong>企業型DCのみ</strong>という会社もあります。転職先を選ぶ際は、額面年収だけでなく<strong>退職給付の有無・形態（一時金／DB／DC／前払い）</strong>も確認しましょう。確定拠出年金（DC・iDeCo）は持ち運びしやすいため、転職回数が多くなりがちなエンジニアほど、その仕組みを理解しておくことが大切です。
+            退職金の支給は<strong>法律上の義務ではなく、企業の任意制度</strong>です（ただし就業規則などで支給基準を定めている場合は支払義務が生じます）。IT・ベンチャー企業では、退職金がない代わりに<strong>給与・賞与に上乗せする「前払い制度」</strong>や、退職金の代わりに<strong>企業型DCのみ</strong>という会社もあります。転職先を選ぶ際は、額面年収だけでなく<strong>退職給付の有無・形態（一時金／DB／DC／前払い）</strong>もご確認ください。確定拠出年金（DC・iDeCo）は持ち運びしやすいため、転職回数が多くなりがちなエンジニアほど、その仕組みを理解しておくことが大切です。
           </p>
           <p className="text-xs text-slate-500 mt-2">参考：労働基準法（退職手当の定めがある場合の明示・就業規則）。2026年1月以後はDC一時金と退職金の受給時期に関する税制（いわゆる「10年ルール」）の改正も施行されています。受給の順序・時期は、額が大きい場合は専門家へご相談ください。</p>
         </section>
@@ -180,8 +180,8 @@ export default function RetirementAllowancePage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-3">退職給付も含めて転職先を見極めよう</h2>
-          <p className="text-blue-100 text-sm mb-4">額面年収だけでなく、退職金・企業型DC・各種手当まで含めた「実質的な条件」で比較するのが転職を成功させるポイントです。IT特化エージェントに相談して条件を引き出しましょう。</p>
+          <h2 className="text-xl font-bold mb-3">退職給付も含めて転職先を見極める</h2>
+          <p className="text-blue-100 text-sm mb-4">額面年収だけでなく、退職金・企業型DC・各種手当まで含めた「実質的な条件」で比較するのが転職を成功させるポイントです。IT特化エージェントに相談して条件を引き出してください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
         {/* 一次データ相互リンク（2026-07-04 リンク完全性の是正） */}

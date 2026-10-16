@@ -102,7 +102,7 @@ export default function Salary1500Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収1500万円は、ITエンジニアの中でも<strong>ごく限られた層</strong>が到達する最上位水準です。外資系トップIT・GAFAM級・VPoE/CTO・代替不能のトップスペシャリストなどが中心で、国内の標準的な給与テーブルの延長では到達困難な帯です。本記事では、この1500万円が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理しつつ、到達が容易でない現実を解説します。
+          年収1500万円は、ITエンジニアの中でも<strong>ごく限られた層</strong>が到達する最上位水準です。外資系トップIT・GAFAM級・VPoE/CTO・代替不能のトップスペシャリストなどが中心で、国内の標準的な給与テーブルの延長では到達困難な帯です。本記事では、この1500万円が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベルや厚労省job tag（令和7年）など出典を明記して整理しつつ、到達が容易でない現実を解説します。
         </p>
 
         <DataNote
@@ -302,7 +302,7 @@ export default function Salary1500Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">1500万円帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハイクラス・外資に強いスカウト型エージェントに登録して、ご自身の市場価値を確認しましょう。
+            ハイクラス・外資に強いスカウト型エージェントに登録して、ご自身の市場価値をご確認ください。
           </p>
           <Link
             href="/#ranking"

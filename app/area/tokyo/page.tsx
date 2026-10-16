@@ -239,7 +239,7 @@ export default function TokyoAreaPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
-            注意したいのは、求人票に「リモート可」とあっても、入社後に出社頻度が変わる可能性がある点です。週何日出社か、フルリモートが恒久的な制度か一時的な運用か、必ず面談で確認しましょう。リモート前提で探す場合は
+            注意したいのは、求人票に「リモート可」とあっても、入社後に出社頻度が変わる可能性がある点です。週何日出社か、フルリモートが恒久的な制度か一時的な運用か、必ず面談でご確認ください。リモート前提で探す場合は
             <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
             も参考になります。
           </p>
@@ -251,7 +251,7 @@ export default function TokyoAreaPage() {
             東京での転職が向いている人・向いていない人
           </h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            東京は選択肢が多い分、すべての人にとって最適とは限りません。自分の優先順位と照らし合わせて判断しましょう。
+            東京は選択肢が多い分、すべての人にとって最適とは限りません。自分の優先順位と照らし合わせて判断することをおすすめします。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
@@ -411,7 +411,7 @@ export default function TokyoAreaPage() {
         <section id="combo" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェントの併用パターン</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            東京の求人を効率よく比較するには、目的別にエージェントを組み合わせるのが有効です。担当者との相性も結果を左右するため、合わないと感じたら担当変更を申し出るか、別社をメインに切り替える判断も持っておきましょう。代表的な組み合わせを挙げます。
+            東京の求人を効率よく比較するには、目的別にエージェントを組み合わせるのが有効です。担当者との相性も結果を左右するため、合わないと感じたら担当変更を申し出るか、別社をメインに切り替える判断も持っておくことをおすすめします。代表的な組み合わせを挙げます。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -499,7 +499,7 @@ export default function TokyoAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">東京のIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
-            東京は求人の選択肢が国内最大級です。IT特化型エージェントに登録して、まず自分の市場価値を確認しましょう。
+            東京は求人の選択肢が国内最大級です。IT特化型エージェントに登録して、まず自分の市場価値をご確認ください。
           </p>
           <Link
             href="/#ranking"

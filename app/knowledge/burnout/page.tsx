@@ -73,7 +73,7 @@ const faqs = [
   },
   {
     q: "燃え尽きを繰り返さない転職先の選び方は？",
-    a: "残業の実態、オンコール体制、有給取得率、開発チームの裁量、上司のマネジメントスタイルを、面接や口コミサイト・エージェント経由で確認しましょう。求人票の「平均残業20時間」は平均値にすぎないため、配属予定チームの実態まで踏み込んで聞くことが重要です。",
+    a: "残業の実態、オンコール体制、有給取得率、開発チームの裁量、上司のマネジメントスタイルを、面接や口コミサイト・エージェント経由でご確認ください。求人票の「平均残業20時間」は平均値にすぎないため、配属予定チームの実態まで踏み込んで聞くことが重要です。",
   },
   {
     q: "40代でも燃え尽きからのキャリアチェンジは可能ですか？",
@@ -313,7 +313,7 @@ export default function BurnoutPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 裁量とコントロール感を確認する</h3>
-              <p className="text-sm text-petrol-deep">バーンアウトの一因は「自分で決められない」ことです。意思決定にどこまで関われるか、設計や進め方の裁量があるかを確認しましょう。</p>
+              <p className="text-sm text-petrol-deep">バーンアウトの一因は「自分で決められない」ことです。意思決定にどこまで関われるか、設計や進め方の裁量があるかをご確認ください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. マネジメントと心理的安全性を見る</h3>
@@ -321,7 +321,7 @@ export default function BurnoutPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 第三者の客観情報を併用する</h3>
-              <p className="text-sm text-petrol-deep">口コミサイトの傾向やエージェントが持つ内部情報を、自分の印象と突き合わせます。<Link href="/knowledge/regret/" className="text-petrol hover:underline">入社前チェックリスト</Link>も活用しましょう。</p>
+              <p className="text-sm text-petrol-deep">口コミサイトの傾向やエージェントが持つ内部情報を、自分の印象と突き合わせます。<Link href="/knowledge/regret/" className="text-petrol hover:underline">入社前チェックリスト</Link>も活用してください。</p>
             </div>
           </div>
         </section>
@@ -360,7 +360,7 @@ export default function BurnoutPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">キャリアの整理は専門家に相談しましょう</h2>
+          <h2 className="text-xl font-bold mb-3">キャリアの整理を専門家に相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
             体調面は専門医・産業医に相談してください。キャリアの選択肢を整理したいときは、IT特化型エージェントなら「今すぐ転職しない」前提の相談も可能です。
           </p>

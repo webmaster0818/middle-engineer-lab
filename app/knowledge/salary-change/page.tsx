@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "エンジニア転職で年収は上がる？下がる？【2026年データ】";
 const DESCRIPTION =
-  "エンジニアの転職で年収はどう変わるのか。dodaの決定年収レポート（約6割が年収アップ・IT通信469→486万円）などの出典付きデータで解説し、年収アップする人の特徴と下がるケースの対策をまとめます。";
+  "エンジニアの転職で年収はどう変わるのでしょうか。dodaの決定年収レポート（約6割が年収アップ・IT通信469→486万円）などの出典付きデータで解説し、年収アップする人の特徴と下がるケースの対策をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/salary-change/" },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "転職で年収は上がるのか" },
-  { id: "data", label: "転職と年収のデータ（出典付き）" },
+  { id: "data", label: "転職と年収のデータ（出典明記）" },
   { id: "up", label: "年収アップを実現する人の特徴" },
   { id: "down", label: "年収が下がるケースと対策" },
   { id: "checklist", label: "年収アップ転職の準備チェックリスト" },
@@ -85,7 +85,7 @@ const faqs = [
   },
   {
     q: "年収交渉はどうすればいいですか？",
-    a: "エージェント経由なら年収交渉を任せるのが効果的です。エージェントは企業の予算感や他候補の状況を把握しており、個人で交渉するより進めやすい立場にあります。希望年収は率直に伝え、下限ラインも事前に決めておきましょう。詳しくは年収交渉の記事を参照してください。",
+    a: "エージェント経由なら年収交渉を任せるのが効果的です。エージェントは企業の予算感や他候補の状況を把握しており、個人で交渉するより進めやすい立場にあります。希望年収は率直に伝え、下限ラインも事前に決めておくことをおすすめします。詳しくは年収交渉の記事を参照してください。",
   },
   {
     q: "30代の転職で年収はどのくらい変わりますか？",
@@ -93,7 +93,7 @@ const faqs = [
   },
   {
     q: "フリーランスと正社員、どちらが年収が高いですか？",
-    a: "額面ではフリーランスが高くなる傾向がありますが、社会保険料の自己負担、有給・退職金がないこと、案件途切れのリスクなどを考慮すると、実質的な差は縮まります。安定性と収入のバランスで判断しましょう。フリーランスと正社員の比較記事も参考にしてください。",
+    a: "額面ではフリーランスが高くなる傾向がありますが、社会保険料の自己負担、有給・退職金がないこと、案件途切れのリスクなどを考慮すると、実質的な差は縮まります。安定性と収入のバランスで判断することをおすすめします。フリーランスと正社員の比較記事も参考にしてください。",
   },
   {
     q: "年収を上げるには転職と昇給どちらが有効ですか？",
@@ -190,7 +190,7 @@ export default function SalaryChangePage() {
 
         {/* データ */}
         <section id="data" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">転職と年収のデータ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職と年収のデータ（出典明記）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             出典が明確なデータで、転職と年収の実態を確認します。
           </p>
@@ -263,7 +263,7 @@ export default function SalaryChangePage() {
         <section id="checklist" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収アップ転職の準備チェックリスト</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            年収アップを実現する人ほど、事前準備が整っています。以下を一つずつ確認しましょう。
+            年収アップを実現する人ほど、事前準備が整っています。以下を一つずつご確認ください。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-3">
@@ -284,7 +284,7 @@ export default function SalaryChangePage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：伸びしろを最大化する</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                レバテック公表値で30代平均約499万円→40代約618万円と、平均が大きく伸びる年代です。30代の転職は『次の10年の年収カーブを決める』意味を持ちます。需要の高いスキルと数値で語れる実績をそろえ、年収アップの確度を高めましょう。
+                レバテック公表値で30代平均約499万円→40代約618万円と、平均が大きく伸びる年代です。30代の転職は『次の10年の年収カーブを決める』意味を持ちます。需要の高いスキルと数値で語れる実績をそろえ、年収アップの確度を高めてください。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">

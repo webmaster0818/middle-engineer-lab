@@ -315,7 +315,7 @@ export default function FreelancePage() {
         <section id="fit" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フリーランスに向いている人・向いていない人</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            フリーランスは誰にでも合う働き方ではありません。単価の高さだけで選ぶと、案件途切れや事務負担につまずきがちです。自分の状況と照らし合わせて判断しましょう。
+            フリーランスは誰にでも合う働き方ではありません。単価の高さだけで選ぶと、案件途切れや事務負担につまずきがちです。自分の状況と照らし合わせて判断することをおすすめします。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-[var(--line)] rounded-lg p-5">
@@ -343,7 +343,7 @@ export default function FreelancePage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：ライフイベントと信用のタイミング</h3>
-              <p className="text-sm text-petrol-deep">住宅ローン・賃貸審査では、フリーランスは収入の安定性証明に開業後の実績年数を求められる傾向があります。住宅購入などの予定があるなら、正社員のうちに済ませてから独立する選択肢もあります。単価の高さに引っ張られず、信用が必要なイベントの順序を先に設計しましょう。</p>
+              <p className="text-sm text-petrol-deep">住宅ローン・賃貸審査では、フリーランスは収入の安定性証明に開業後の実績年数を求められる傾向があります。住宅購入などの予定があるなら、正社員のうちに済ませてから独立する選択肢もあります。単価の高さに引っ張られず、信用が必要なイベントの順序を先に設計してください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験の市場性とリスク許容度</h3>

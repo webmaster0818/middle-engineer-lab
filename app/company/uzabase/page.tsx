@@ -30,7 +30,7 @@ const basicData: [string, string][] = [
 
 const toc = [
   ["conclusion", "難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["basic", "基本データ（出典明記）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -65,7 +65,7 @@ const faqs = [
   },
   {
     q: "ユーザベースで活きる経験は？",
-    a: "Web/SaaSアプリケーション開発の実務経験が基本です。Elixir・Go・TypeScript・Next.jsなどモダンな技術の経験、データ・情報プラットフォームの開発・運用経験、マイクロサービスやコンテナ基盤の経験などが活きやすい傾向があります。チームごとに使用技術が異なるため、希望領域の技術を確認しましょう。",
+    a: "Web/SaaSアプリケーション開発の実務経験が基本です。Elixir・Go・TypeScript・Next.jsなどモダンな技術の経験、データ・情報プラットフォームの開発・運用経験、マイクロサービスやコンテナ基盤の経験などが活きやすい傾向があります。チームごとに使用技術が異なるため、希望領域の技術をご確認ください。",
   },
   {
     q: "30代・40代でもユーザベースに転職できますか？",
@@ -145,7 +145,7 @@ export default function UzabaseCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典明記）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -263,7 +263,7 @@ export default function UzabaseCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。ユーザベースの上場最終期付近の全社員平均（約760万円）はこれを上回りますが、これは全社平均かつ過年度の値であり、入社時の提示はスキル評価次第です。30代・40代は自分の市場価値を踏まえ、個別求人・面談で水準を確認することが重要です。
             </p>
             <p>
-              チームで技術を選ぶ文化や再上場を目指す改革フェーズは、技術選定や組織づくりに踏み込みたいミドル層にとって機会となり得る側面です。一方で非公開化中という前提は理解しておきましょう。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大企業の比較</Link>も合わせて参考にしてください。
+              チームで技術を選ぶ文化や再上場を目指す改革フェーズは、技術選定や組織づくりに踏み込みたいミドル層にとって機会となり得る側面です。一方で非公開化中という前提は理解しておくことをおすすめします。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大企業の比較</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>

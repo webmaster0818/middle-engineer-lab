@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "SES企業の「自社開発あり」は信用できますか？",
-    a: "注意が必要です。一部のSES企業は客先常駐がメインなのに「自社開発あり」と謳うケースがあります。面接で「自社開発と客先常駐の比率」「配属予定プロジェクト」を具体的に確認しましょう。",
+    a: "注意が必要です。一部のSES企業は客先常駐がメインなのに「自社開発あり」と謳うケースがあります。面接で「自社開発と客先常駐の比率」「配属予定プロジェクト」を具体的にご確認ください。",
   },
 ];
 
@@ -106,11 +106,11 @@ export default function JigyouKaihatsuPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">自社開発企業への転職ポイント</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "ポートフォリオで個人プロダクトを見せる", desc: "受託開発の経験に加えて、個人でWebアプリやOSSを開発し、GitHubで公開しておきましょう。プロダクト志向をアピールする材料になります。" },
-              { num: "2", title: "プロダクト志向をアピールする", desc: "「ユーザーにとって何が価値か」を考えて開発してきた経験をアピールしましょう。受託でも顧客提案の経験は活かせます。" },
-              { num: "3", title: "モダンな技術スタックを習得する", desc: "自社開発企業はTypeScript、React、Go、Kubernetes等のモダン技術を使うケースが多く見られます。事前に学習しておきましょう。" },
-              { num: "4", title: "SESの「自社開発あり」に注意する", desc: "面接で「全社員のうち自社開発に携わる割合」「配属予定のプロジェクト」を具体的に確認しましょう。" },
-              { num: "5", title: "カジュアル面談を活用する", desc: "GreenやWantedlyでカジュアル面談を申し込み、開発体制や技術スタックを直接確認しましょう。" },
+              { num: "1", title: "ポートフォリオで個人プロダクトを見せる", desc: "受託開発の経験に加えて、個人でWebアプリやOSSを開発し、GitHubで公開しておくことをおすすめします。プロダクト志向をアピールする材料になります。" },
+              { num: "2", title: "プロダクト志向をアピールする", desc: "「ユーザーにとって何が価値か」を考えて開発してきた経験をアピールしてください。受託でも顧客提案の経験は活かせます。" },
+              { num: "3", title: "モダンな技術スタックを習得する", desc: "自社開発企業はTypeScript、React、Go、Kubernetes等のモダン技術を使うケースが多く見られます。事前に学習しておくことをおすすめします。" },
+              { num: "4", title: "SESの「自社開発あり」に注意する", desc: "面接で「全社員のうち自社開発に携わる割合」「配属予定のプロジェクト」を具体的にご確認ください。" },
+              { num: "5", title: "カジュアル面談を活用する", desc: "GreenやWantedlyでカジュアル面談を申し込み、開発体制や技術スタックを直接確認してください。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>

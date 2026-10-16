@@ -140,7 +140,7 @@ export default function OssContributionPage() {
         <section id="eight" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">2. プルリクエスト以外も含む8種の貢献</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            OSS貢献=機能追加のPR、と思うとハードルが高く感じます。実際にはコードを大量に書かなくてもできる貢献が多くあります。下の8種から、自分が始めやすいものを選びましょう。
+            OSS貢献=機能追加のPR、と思うとハードルが高く感じます。実際にはコードを大量に書かなくてもできる貢献が多くあります。下の8種から、自分が始めやすいものを選んでください。
           </p>
           <div className="space-y-4">
             {[
@@ -190,7 +190,7 @@ export default function OssContributionPage() {
         {/* 4. マージされやすいPR */}
         <section id="merge" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">4. マージされやすいPRの条件</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">メンテナーは限られた時間でレビューします。取り込みやすいPRには共通点があります。チェックリストで確認しましょう。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">メンテナーは限られた時間でレビューします。取り込みやすいPRには共通点があります。チェックリストでご確認ください。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-5">
             <ul className="space-y-2">
               {[
@@ -244,7 +244,7 @@ export default function OssContributionPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">小さな貢献でも卑下しない</h3>
-              <p className="text-sm text-slate-600">ドキュメント修正やissue報告も立派な貢献です。「小さいですが」と過度に卑下せず、何を改善したかを淡々と事実で伝えましょう。</p>
+              <p className="text-sm text-slate-600">ドキュメント修正やissue報告も立派な貢献です。「小さいですが」と過度に卑下せず、何を改善したかを淡々と事実で伝えてください。</p>
             </div>
           </div>
         </section>

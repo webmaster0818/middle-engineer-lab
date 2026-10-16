@@ -92,7 +92,7 @@ const relatedArticles = [
   { name: "マイナビIT AGENTの評判・口コミ", href: "/review/mynavi-it/" },
   { name: "Geekly vs ワークポート比較", href: "/compare/geekly-vs-workport/" },
   { name: "doda vs マイナビIT比較", href: "/compare/doda-vs-mynavi/" },
-  { name: "未経験OKエージェント比較", href: "/compare/inexperienced/" },
+  { name: "未経験可のエージェント比較", href: "/compare/inexperienced/" },
   { name: "IT転職エージェント10社比較", href: "/compare/agents/" },
 ];
 
@@ -256,7 +256,7 @@ export default function WorkportVsMynaviPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">迷った場合は両方への登録がおすすめです</h2>
-          <p className="text-blue-100 text-sm mb-4">求人量・全国対応のワークポートと、手厚いサポートのマイナビは、いずれも無料で利用できます。両方を併用し、量と質を両立しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">求人量・全国対応のワークポートと、手厚いサポートのマイナビは、いずれも無料で利用できます。両方を併用し、量と質を両立してください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "情報処理安全確保支援士は転職に有利？年収・合格率・維持費【2026年】";
 const PAGE_DESC =
-  "情報処理安全確保支援士（登録セキスペ）は30代・40代の転職で有利か。IPAの合格率、経産省データの年収、登録維持費まで解説します。実務と国家資格を組み合わせ、セキュリティ人材としての信頼性を高める活かし方をまとめました。";
+  "情報処理安全確保支援士（登録セキスペ）は30代・40代の転職で有利なのでしょうか。IPAの合格率、経産省データの年収、登録維持費まで解説します。実務と国家資格を組み合わせ、セキュリティ人材としての信頼性を高める活かし方をまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/security-specialist/" },
@@ -327,7 +327,7 @@ export default function CertSecuritySpecialistPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">セキュリティ実務と国家資格を活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ご自身の実務と資格がどう評価されるか、IT特化型エージェントで確認しましょう。
+            ご自身の実務と資格がどう評価されるか、IT特化型エージェントでご確認ください。
           </p>
           <Link
             href="/#ranking"

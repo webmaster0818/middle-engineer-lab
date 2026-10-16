@@ -42,7 +42,7 @@ const careerPaths = [
 ];
 
 const points = [
-  { num: "1", title: "FlutterアプリをApp Store/Google Playに公開する", desc: "ストアに公開されたアプリは最も有効なアピール材料になります。Riverpod/BLoCによる状態管理、API連携、プッシュ通知など実務レベルの機能を含めましょう。" },
+  { num: "1", title: "FlutterアプリをApp Store/Google Playに公開する", desc: "ストアに公開されたアプリは最も有効なアピール材料になります。Riverpod/BLoCによる状態管理、API連携、プッシュ通知など実務レベルの機能を含めてください。" },
   { num: "2", title: "Dart言語の深い理解を示す", desc: "isolate、Stream、非同期処理、ジェネリクスなどDartの特性を理解していることが面接で評価されます。pub.devでのパッケージ公開も有効です。" },
   { num: "3", title: "ネイティブ連携の知識を持つ", desc: "プラットフォームチャネルによるネイティブ連携、カメラ・GPS・Bluetoothなどデバイス機能へのアクセス経験があると市場価値が高まります。" },
 ];
@@ -214,7 +214,7 @@ export default function FlutterSkillPage() {
         <section id="find" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Flutter求人はネイティブ求人ほど母数が多くないため、スタートアップ・自社開発の求人を多く扱うチャネルを押さえるのが効率的です。フリーランス志向なら案件サイトとの併用も検討しましょう。
+            Flutter求人はネイティブ求人ほど母数が多くないため、スタートアップ・自社開発の求人を多く扱うチャネルを押さえるのが効率的です。フリーランス志向なら案件サイトとの併用も検討することをおすすめします。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -349,7 +349,7 @@ export default function FlutterSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Flutterのスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            モバイル求人を扱うIT特化型エージェントに登録して、年収アップの可能性と非公開求人を確認しましょう。
+            モバイル求人を扱うIT特化型エージェントに登録して、年収アップの可能性と非公開求人をご確認ください。
           </p>
           <Link
             href="/#ranking"

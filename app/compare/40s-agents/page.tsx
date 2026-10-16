@@ -352,7 +352,7 @@ export default function FortiesAgentsPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <div className="border border-slate-200 rounded-lg p-4">
               <h3 className="font-bold text-slate-800 mb-1">1. スカウト型で非公開の入口を確保する</h3>
-              <p>ビズリーチのようなスカウト型は、企業側から経歴を見て声がかかるため、年齢で機械的に絞られにくい入口になります。まず登録して職務経歴を充実させておきましょう。</p>
+              <p>ビズリーチのようなスカウト型は、企業側から経歴を見て声がかかるため、年齢で機械的に絞られにくい入口になります。まず登録して職務経歴を充実させておくことをおすすめします。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-4">
               <h3 className="font-bold text-slate-800 mb-1">2. IT特化型で専門性を能動的に売り込む</h3>
@@ -428,7 +428,7 @@ export default function FortiesAgentsPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">40代のIT転職では戦略が重要です</h2>
-          <p className="text-blue-100 text-sm mb-4">40代は経験と実績が最も評価される年代です。スカウト型・IT特化型・総合型を組み合わせ、年齢ハードルを実績で乗り越えましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">40代は経験と実績が最も評価される年代です。スカウト型・IT特化型・総合型を組み合わせ、年齢ハードルを実績で乗り越えてください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

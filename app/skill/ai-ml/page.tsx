@@ -337,7 +337,7 @@ export default function AiMlSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">AI・機械学習エンジニアの市場価値を確認する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントとハイクラススカウトを併用して、AI・MLスキルの今の評価を確かめましょう。
+            IT特化型エージェントとハイクラススカウトを併用して、AI・MLスキルの今の評価を確かめてください。
           </p>
           <Link
             href="/#ranking"

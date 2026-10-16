@@ -18,7 +18,7 @@ const toc = [
   { id: "jobs", label: "求人数・年収レンジで比較" },
   { id: "support", label: "サポート・伴走で比較" },
   { id: "target", label: "対象層で比較" },
-  { id: "reviews", label: "口コミ傾向（出典付き）" },
+  { id: "reviews", label: "口コミ傾向（出典明記）" },
   { id: "checklist", label: "向いている人チェックリスト" },
   { id: "combo", label: "併用ガイド" },
   { id: "middle", label: "30代・40代エンジニアの視点" },
@@ -45,7 +45,7 @@ const faqs = [
   { q: "30代エンジニアにはどちらが適していますか？", a: "コンサルの提案を受けながら管理職・専門職を狙う30代はJACリクルートメント、レジュメを登録して幅広いハイクラススカウトを受けたい30代はリクルートダイレクトスカウトが向きます。JACは30〜40代のミドル層が中心で、30代後半以降と特に相性が良いサービスです。" },
   { q: "40代エンジニアにはどちらが適していますか？", a: "どちらも30〜50代のミドル〜ハイクラスが主対象のため、40代と相性が良いサービスです。管理職・専門職で伴走支援を受けたいならJAC、年収レンジの広いスカウトを受け身で受けたいならリクルートダイレクトスカウトを軸にし、両方併用すると機会損失を防げます。" },
   { q: "現年収が低めでも利用できますか？", a: "両社ともハイクラス〜ミドル（JACは年収500万円以上が目安、リクルートダイレクトスカウトは600〜2,000万円）が主対象のため、現年収が低めだと紹介・スカウトが限定的になることがあります。その場合は求人母数の多い総合型（リクルートエージェントIT）やIT特化型で市場価値を高めてから本格活用するのが効率的です。" },
-  { q: "両方に登録しても問題ありませんか？", a: "問題なく、むしろエージェント型（JAC）と待ち型（リクルートダイレクトスカウト）を併用することで、能動的な提案と受け身のスカウトの両方を得られます。両方無料です。同じ企業への重複応募を避けるため、応募状況は自分で管理しておきましょう。" },
+  { q: "両方に登録しても問題ありませんか？", a: "問題なく、むしろエージェント型（JAC）と待ち型（リクルートダイレクトスカウト）を併用することで、能動的な提案と受け身のスカウトの両方を得られます。両方無料です。同じ企業への重複応募を避けるため、応募状況は自分で管理しておくことをおすすめします。" },
 ];
 
 const jacReviews = {
@@ -246,7 +246,7 @@ export default function JacVsRecruitDirectScoutPage() {
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ傾向（出典明記）</h2>
           <p className="text-sm text-slate-500 mb-4">
             以下は、各種転職口コミメディアに見られる傾向を要約したものです（原文転載ではありません）。
           </p>
@@ -311,7 +311,7 @@ export default function JacVsRecruitDirectScoutPage() {
               {[
                 { num: "1", title: "JACで提案・伴走を受ける", desc: "両面型のJACリクルートメントに登録し、コンサルから企業内情を踏まえた提案と面接・交渉の伴走を受けます。" },
                 { num: "2", title: "リクルートダイレクトスカウトでスカウトを待つ", desc: "並行してレジュメを登録し、ヘッドハンター・企業からの幅広いスカウトを受け身で受け取ります。市場価値の確認にもなります。" },
-                { num: "3", title: "提案とスカウトを突き合わせる", desc: "JACの提案とスカウトの内容を突き合わせると、年収レンジや求人の妥当性を客観的に判断できます。優良なスカウト元はJACと比較して見極めましょう。" },
+                { num: "3", title: "提案とスカウトを突き合わせる", desc: "JACの提案とスカウトの内容を突き合わせると、年収レンジや求人の妥当性を客観的に判断できます。優良なスカウト元はJACと比較して見極めてください。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -366,7 +366,7 @@ export default function JacVsRecruitDirectScoutPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">迷った場合は両方への登録をおすすめします</h2>
           <p className="text-blue-100 text-sm mb-4">
-            JACリクルートメントとリクルートダイレクトスカウトは両方無料です。エージェント型の伴走と待ち型のスカウトという強みが異なるため、2社で提案を比較しましょう。
+            JACリクルートメントとリクルートダイレクトスカウトは両方無料です。エージェント型の伴走と待ち型のスカウトという強みが異なるため、2社で提案を比較することをおすすめします。
           </p>
           <Link
             href="/#ranking"

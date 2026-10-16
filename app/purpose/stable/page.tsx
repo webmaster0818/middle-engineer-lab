@@ -123,11 +123,11 @@ export default function StablePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">安定重視の転職戦略</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "福利厚生込みの実質報酬で比較する", desc: "年収だけでなく、住宅手当、退職金、企業年金、持株会を含めた総合報酬で比較しましょう。大企業は実質+100〜200万円の価値があります。" },
-              { num: "2", title: "業界の安定性を確認する", desc: "インフラ、金融、通信、医療は景気変動の影響を受けにくい傾向があります。IT投資を増やしている業界を選びましょう。" },
+              { num: "1", title: "福利厚生込みの実質報酬で比較する", desc: "年収だけでなく、住宅手当、退職金、企業年金、持株会を含めた総合報酬で比較することをおすすめします。大企業は実質+100〜200万円の価値があります。" },
+              { num: "2", title: "業界の安定性を確認する", desc: "インフラ、金融、通信、医療は景気変動の影響を受けにくい傾向があります。IT投資を増やしている業界を選んでください。" },
               { num: "3", title: "社内異動制度の有無を確認する", desc: "大企業は社内異動で部署変更が可能です。DX推進部門への異動で技術的なキャリアも維持できます。" },
-              { num: "4", title: "離職率を確認する", desc: "離職率が低い企業は社員の満足度が高いことを示す指標の一つです。OpenWorkの口コミや企業の開示情報で確認しましょう。" },
-              { num: "5", title: "副業可否を確認する", desc: "安定企業でも副業OKの企業が増えています。本業の安定+副業の収入で最適なバランスを取りましょう。" },
+              { num: "4", title: "離職率を確認する", desc: "離職率が低い企業は社員の満足度が高いことを示す指標の一つです。OpenWorkの口コミや企業の開示情報でご確認ください。" },
+              { num: "5", title: "副業可否を確認する", desc: "安定企業でも副業可の企業が増えています。本業の安定+副業の収入で最適なバランスを取ってください。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Apache Kafkaスキルで転職｜年収・求人・将来性【2026年】";
 const PAGE_DESC =
-  "Apache Kafka（分散ストリーミング基盤）スキルを軸にした転職市場を出典付きで解説します。Kafkaは単体スキルではなく大規模データ基盤・バックエンドの実務基盤として評価される点を整理します。求人ボックス公表のデータ／インフラエンジニア年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
+  "Apache Kafka（分散ストリーミング基盤）スキルを軸にした転職市場を、出典を明記して解説します。Kafkaは単体スキルではなく大規模データ基盤・バックエンドの実務基盤として評価される点を整理します。求人ボックス公表のデータ／インフラエンジニア年収、求人傾向、30代・40代の進め方をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/kafka/" },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "conclusion", label: "1. Kafkaスキルの転職での活かし方" },
-  { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
+  { id: "market", label: "2. 関連職種の市場・年収データ（出典明記）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Kafkaスキルを活かせるキャリアパス" },
   { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
@@ -152,7 +152,7 @@ export default function KafkaSkillPage() {
 
         {/* 市場・年収データ */}
         <section id="market" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">関連職種の市場・年収データ（出典明記）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             「Kafkaエンジニア」という職種で年収が単体公表されているわけではないため、ここではKafkaスキルが評価される近接職種の公表値を、出典と時点を明示して掲載します。
           </p>

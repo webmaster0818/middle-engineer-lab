@@ -77,7 +77,7 @@ const agents = [
 const resumeTips = [
   {
     title: "希望年収と現年収を正確に登録する",
-    body: "ビズリーチはスカウトを送る企業側が年収帯で絞り込むため、現年収・希望年収を空欄にするとマッチング対象から外れやすくなります。ハイクラス（年収750万円以上）を狙うなら、根拠ある希望年収を明記しましょう。",
+    body: "ビズリーチはスカウトを送る企業側が年収帯で絞り込むため、現年収・希望年収を空欄にするとマッチング対象から外れやすくなります。ハイクラス（年収750万円以上）を狙うなら、根拠ある希望年収を明記してください。",
   },
   {
     title: "成果を数値で書く",
@@ -159,7 +159,7 @@ const faqs = [
   },
   {
     q: "スカウトが来ないときはどうすればよいですか？",
-    a: "経歴の登録内容が薄い、年収・希望条件が未入力、更新が止まっている、などが主因です。職務経歴を数値で具体化し、技術キーワードを補い、定期的に最新化することでスカウト数は変わります。並行してレバテックキャリア等で能動的に応募し、両面で機会を作りましょう。",
+    a: "経歴の登録内容が薄い、年収・希望条件が未入力、更新が止まっている、などが主因です。職務経歴を数値で具体化し、技術キーワードを補い、定期的に最新化することでスカウト数は変わります。並行してレバテックキャリア等で能動的に応募し、両面で機会を作ってください。",
   },
   {
     q: "ハイクラス転職の活動期間はどのくらいですか？",
@@ -307,7 +307,7 @@ export default function HighclassPage() {
             <p className="text-xs text-slate-500 mt-2">出典: レバテック公表の年代別平均年収（2025年）。平均値・割合であり、役割や企業規模で差があります。</p>
           </div>
           <p className="text-slate-600 leading-relaxed">
-            つまりハイクラス帯（750万円以上、さらに1,000万円以上）は、年代が上がるほど到達率が高まる一方、依然として上位の層に位置します。ここに届くには、CTO/VPoE/EM・テックリードなどの役割や、特定領域での深い専門性が要件になります。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>から始め、現在地と目標年収のギャップを確認しましょう。
+            つまりハイクラス帯（750万円以上、さらに1,000万円以上）は、年代が上がるほど到達率が高まる一方、依然として上位の層に位置します。ここに届くには、CTO/VPoE/EM・テックリードなどの役割や、特定領域での深い専門性が要件になります。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>から始め、現在地と目標年収のギャップをご確認ください。
           </p>
         </section>
 
@@ -448,7 +448,7 @@ export default function HighclassPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ハイクラス転職は経歴登録から始まる</h2>
-          <p className="text-blue-100 text-sm mb-4">年収750万円以上のポジションは非公開が多数です。まずはビズリーチに経歴を登録し、スカウトの反応を見ながら戦略を組み立てましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">年収750万円以上のポジションは非公開が多数です。まずはビズリーチに経歴を登録し、スカウトの反応を見ながら戦略を組み立ててください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

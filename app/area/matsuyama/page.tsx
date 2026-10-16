@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: "松山に住みながら首都圏企業で働けますか？",
-    a: "オンライン面接が一般化し、フルリモート可の求人であれば松山在住のまま首都圏企業で働ける場合があります。エージェントに『松山在住・フルリモート希望』と明確に伝えると、対象求人を絞り込んでもらいやすくなります。ただし入社後に出社頻度が変わる可能性もあるため、面談で運用実態（恒久的な制度か、月数回の出社があるか）を必ず確認しましょう。",
+    a: "オンライン面接が一般化し、フルリモート可の求人であれば松山在住のまま首都圏企業で働ける場合があります。エージェントに『松山在住・フルリモート希望』と明確に伝えると、対象求人を絞り込んでもらいやすくなります。ただし入社後に出社頻度が変わる可能性もあるため、面談で運用実態（恒久的な制度か、月数回の出社があるか）を必ずご確認ください。",
   },
   {
     q: "松山・愛媛へのUIターン移住に使える支援制度はありますか？",
@@ -251,7 +251,7 @@ export default function MatsuyamaAreaPage() {
                 <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート可の求人</Link>
                 や
                 <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
-                もあわせて検討しましょう。
+                もあわせて検討することをおすすめします。
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -433,7 +433,7 @@ export default function MatsuyamaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">松山でリモートを活かしたIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
-            地元のSIer・受託から首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、年収と暮らしのバランスが取れる選択肢を見つけましょう。
+            地元のSIer・受託から首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、年収と暮らしのバランスが取れる選択肢を見つけてください。
           </p>
           <Link
             href="/#ranking"

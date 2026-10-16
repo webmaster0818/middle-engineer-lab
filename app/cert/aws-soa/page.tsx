@@ -276,7 +276,7 @@ export default function CertAwsSoaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">クラウド運用・SRE職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            SOA／CloudOpsを活かせる運用・SRE求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
+            SOA／CloudOpsを活かせる運用・SRE求人を、IT特化型エージェントでご自身の市場価値とともにご確認ください。
           </p>
           <Link
             href="/#ranking"
