@@ -9,7 +9,7 @@ const DESCRIPTION =
   "製造業からIT転職はできます。製造業エンジニア・組み込みエンジニアがIT業界へ移る進め方を解説します。製造DX・IoT・組み込み経験の活かし方、活かせるスキルと埋めるべきギャップ、年収の考え方、おすすめエージェントをガイドします。";
 
 const toc = [
-  { id: "conclusion", label: "結論：製造業・組み込み経験はIT転職で強みになる" },
+  { id: "conclusion", label: "製造業・組み込み経験はIT転職で強みになる" },
   { id: "trend", label: "製造業のIT化・採用動向" },
   { id: "gap", label: "活かせるスキル / 埋めるべきギャップ" },
   { id: "embedded", label: "組み込みエンジニアの強みの活かし方" },
@@ -33,8 +33,8 @@ const activeRows: [string, string][] = [
 
 const fillRows: [string, string][] = [
   ["Web・クラウドの基礎", "AWS/Azure/GCPの基礎、Webアプリやネットワークの仕組みを理解します"],
-  ["モダンな言語・開発環境", "PythonやSQL、Git/GitHubの実務運用に慣れます。組み込み経験者はC系の素地が活きる"],
-  ["アジャイル・チーム開発", "ウォーターフォール中心の現場が多いため、反復的な開発文化への適応が必要"],
+  ["モダンな言語・開発環境", "PythonやSQL、Git/GitHubの実務運用に慣れます。組み込み経験者はC系の素地が活きます"],
+  ["アジャイル・チーム開発", "ウォーターフォール中心の現場が多いため、反復的な開発文化への適応が必要です"],
   ["IoT/クラウド連携の知識", "センサーデータの収集・蓄積・可視化までのデータパイプラインを理解します"],
   ["公開できる成果物", "個人開発やデータ分析の成果をGitHub等で示せると、IT適性の証明になります"],
 ];
@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: "プログラミング未経験でもIT転職できますか？",
-    a: "現場の制御・生産技術の経験があれば、製造DXやIoT領域を中心に可能性があります。ただしWeb/クラウドが未経験の場合は、PythonやSQL、クラウドの基礎を独学で身につけてから活動を始めるのが現実的です。年齢が上がるほど学習の前倒しが効いてきます。",
+    a: "現場の制御・生産技術の経験があれば、製造DXやIoT領域を中心に可能性があります。ただしWeb/クラウドが未経験の場合は、PythonやSQL、クラウドの基礎を独学で身につけてから活動を始めるのが現実的です。年齢が上がるほど、学習を前倒しする効果が大きくなります。",
   },
   {
     q: "製造業からIT転職すると年収はどうなりますか？",
@@ -170,7 +170,7 @@ export default function ManufacturingPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：製造業・組み込み経験はIT転職で強みになる</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">製造業・組み込み経験はIT転職で強みになる</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               製造業からのIT転職は現実的です。鍵は「現場の業務知識」と「低レイヤーの実装経験」を、IT側の文脈に翻訳して示せるかどうかにあります。
@@ -190,7 +190,7 @@ export default function ManufacturingPage() {
             スマートファクトリー、予知保全、デジタルツインなど、製造業ではデジタル技術の活用が広がっています。こうした取り組みでは、ITだけでなく「現場の業務と設備を理解した人材」が不可欠です。製造業の現場を知るエンジニアがIT側に回ることで、要件定義の精度や導入の現実性が大きく高まります。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            IT人材の不足も追い風です。経済産業省の「IT人材需給に関する調査」（2019年3月公表）では、2030年に最大約79万人のIT人材不足が試算されています。製造業向けSaaSやDX推進の現場では、業界知識を持つエンジニアの採用ニーズが続いており、異業種からの転職組も含めて受け入れが進んでいます。
+            IT人材の不足も背景にあります。経済産業省の「IT人材需給に関する調査」（2019年3月公表）では、2030年に最大約79万人のIT人材不足が試算されています。製造業向けSaaSやDX推進の現場では、業界知識を持つエンジニアの採用ニーズが続いており、異業種からの転職組も含めて受け入れが進んでいます。
           </p>
         </section>
 
@@ -237,7 +237,7 @@ export default function ManufacturingPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">方向①：専門性を深める（車載・FA・IoT・エッジ）</h3>
-              <p className="text-sm text-petrol-deep">C/C++、RTOS、ハードウェア制御の経験をそのまま活かし、車載ソフトウェア、ファクトリーオートメーション、IoT/エッジ機器の開発へ進む道があります。低レイヤーを扱える人材は慢性的に不足しており、専門性で勝負できます。</p>
+              <p className="text-sm text-petrol-deep">C/C++、RTOS、ハードウェア制御の経験をそのまま活かし、車載ソフトウェア、ファクトリーオートメーション、IoT/エッジ機器の開発へ進む道があります。低レイヤーを扱える人材は慢性的に不足しており、専門性を強みにできます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">方向②：上位レイヤーへ広げる（クラウド・データ）</h3>
@@ -413,8 +413,8 @@ export default function ManufacturingPage() {
             {[
               { step: "1", title: "ITの基礎知識を身につける", desc: "Python・SQL・クラウド（AWS/Azure）の基礎を学びます。Git/GitHubの操作にも慣れます。組み込み経験者はC系の素地を活かして低レイヤー系へ進む選択肢もあります。" },
               { step: "2", title: "製造業・組み込みの経験を棚卸しする", desc: "生産管理・品質管理・設備保全・制御開発の経験を具体的に整理します。可能なら数値で成果を表現します。" },
-              { step: "3", title: "製造DX・IoTのトレンドをキャッチアップ", desc: "スマートファクトリー、予知保全、IoT/エッジ、デジタルツインなどを把握し、自分の経験を「製造業×IT」の文脈で語れるようにします。" },
-              { step: "4", title: "転職エージェントに登録", desc: "異業種転職に対応するワークポート、求人数が多いdoda（IT特化）などに登録します。組み込み・制御系は専門に強いエージェントを併用し、市場価値を確認します。" },
+              { step: "3", title: "製造DX・IoTのトレンドをキャッチアップする", desc: "スマートファクトリー、予知保全、IoT/エッジ、デジタルツインなどを把握し、自分の経験を「製造業×IT」の文脈で語れるようにします。" },
+              { step: "4", title: "転職エージェントに登録する", desc: "異業種転職に対応するワークポート、求人数が多いdoda（IT特化）などに登録します。組み込み・制御系は専門に強いエージェントを併用し、市場価値を確認します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -436,10 +436,10 @@ export default function ManufacturingPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：専門性×ITで選択肢を広げる</h3>
-              <p className="text-sm text-petrol-deep">組み込み・制御の専門性を深める道と、製造DX・IoTでIT側に広げる道の両方が現実的です。基礎学習を前倒しすれば、ポテンシャルと専門性の両面で評価されやすいです。</p>
+              <p className="text-sm text-petrol-deep">組み込み・制御の専門性を深める道と、製造DX・IoTでIT側に広げる道の両方が現実的です。基礎学習を前倒しすれば、ポテンシャルと専門性の両面で評価されやすい傾向があります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">40代：業界知識とリーダー経験で勝負</h3>
+              <h3 className="font-bold text-blue-800 mb-2">40代：業界知識とリーダー経験を軸にする</h3>
               <p className="text-sm text-petrol-deep">DX推進・要件定義・プリセールス・PMなど、現場理解とマネジメントが活きる領域が中心です。求人は絞られるため、非公開求人を持つエージェントの活用が鍵になります。</p>
             </div>
           </div>
@@ -470,7 +470,7 @@ export default function ManufacturingPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">製造業・組み込みの経験をIT業界で活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">製造業・組み込みの経験をIT業界で活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の市場価値と狙える求人を確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

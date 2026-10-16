@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：バックエンド起点のフルスタック化は再現性が高い" },
+  { id: "conclusion", label: "バックエンド起点のフルスタック化が再現性の高い理由" },
   { id: "gap", label: "バックエンドとフルスタックのスキルギャップ比較表" },
   { id: "skills", label: "埋めるべきスキルの身につけ方" },
   { id: "steps", label: "在職中にできる移行ステップ" },
@@ -27,8 +27,8 @@ const toc = [
 const gapRows = [
   {
     area: "フロントエンド",
-    back: "APIを返す側です。画面実装はフロント担当に委譲",
-    full: "React/Next.js等でUIを自分で実装できます",
+    back: "APIを提供する側。画面実装はフロント担当に委譲",
+    full: "React/Next.js等によるUIの自力実装",
     action: "TypeScript→Reactの順で個人開発で実装",
   },
   {
@@ -39,19 +39,19 @@ const gapRows = [
   },
   {
     area: "UI/UX設計",
-    back: "画面仕様は受け取る側です。デザインは範囲外",
+    back: "画面仕様を受け取る側。デザインは範囲外",
     full: "レスポンシブ・状態管理・基本的なUX判断",
-    action: "Tailwind CSSとコンポーネント設計を学びます",
+    action: "Tailwind CSSとコンポーネント設計の習得",
   },
   {
     area: "インフラ/DevOps",
-    back: "アプリ実装中心。基盤は別チームの現場も",
-    full: "Docker・CI/CD・クラウドを自分で扱います",
-    action: "自作アプリをCI/CDでデプロイする経験を作ります",
+    back: "アプリ実装中心。基盤は別チーム担当の現場もあり",
+    full: "Docker・CI/CD・クラウドの自力運用",
+    action: "自作アプリをCI/CDでデプロイする経験の蓄積",
   },
   {
     area: "全体設計",
-    back: "サーバー側のドメイン設計に強いです",
+    back: "サーバー側のドメイン設計に強み",
     full: "フロントからインフラまで一気通貫で設計",
     action: "個人開発でフロント〜インフラを横断構築",
   },
@@ -119,13 +119,13 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型です。Web系・モダン技術の求人に強く、フルスタックを求める自社開発企業の案件も扱います。技術背景を理解したアドバイザーが在籍するとされます（出典：レバテック公式ガイド、転職メディア集計）。",
+      "IT/Web領域に特化したエージェントです。Web系・モダン技術の求人に強みがあり、フルスタックを求める自社開発企業の案件も扱います。技術背景を理解したアドバイザーが在籍するとされます（出典：レバテック公式ガイド、転職メディア集計）。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     point:
-      "ハイクラス・スカウト型です。年収750万円以上をハイクラスと定義し、年収1,000万円以上求人が全体の約4割との二次情報もあります。フルスタックの市場価値を客観把握する用途に向きます。",
+      "ハイクラス向けのスカウト型サービスです。年収750万円以上をハイクラスと定義し、年収1,000万円以上求人が全体の約4割との二次情報もあります。フルスタックの市場価値を客観把握する用途に向きます。",
   },
   {
     name: "Green",
@@ -229,10 +229,10 @@ export default function BackendToFullstackPage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">
-            結論：バックエンド起点のフルスタック化は再現性が高い
+            バックエンド起点のフルスタック化が再現性の高い理由
           </h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
@@ -244,7 +244,7 @@ export default function BackendToFullstackPage() {
               <li>③ 守備範囲の広さは、特に少人数の自社開発・スタートアップで強く評価されます。</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
-              鍵は「フロントを業務または個人開発で実際に実装した実績」を持つことです。学習しただけでなく、動くものを作った事実が評価を左右します。
+              重要なのは「フロントを業務または個人開発で実際に実装した実績」を持つことです。学習しただけでなく、動くものを作った事実が評価を左右します。
             </p>
           </div>
         </section>
@@ -385,10 +385,10 @@ export default function BackendToFullstackPage() {
               ・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円</strong>・平均年齢37.1歳です（令和7年賃金構造基本統計調査ベース）。
             </li>
             <li>
-              ・dodaの2024年度決定年収レポート（2025年5月公表）では、転職者の約6割が年収アップを実現しています。IT・通信の平均決定年収は2024年度<strong>486万円です</strong>。
+              ・dodaの2024年度決定年収レポート（2025年5月公表）では、転職者の約6割が年収アップを実現しています。IT・通信の平均決定年収は2024年度<strong>486万円</strong>です。
             </li>
             <li>
-              ・レバテック公表の年代別平均年収（2025年）では、正社員SEで30代約<strong>499万円</strong>、40代約<strong>618万円です</strong>。年収1,000万円以上の割合は30代8.01%・40代12.67%です。
+              ・レバテック公表の年代別平均年収（2025年）では、正社員SEで30代約<strong>499万円</strong>、40代約<strong>618万円</strong>です。年収1,000万円以上の割合は30代8.01%・40代12.67%です。
             </li>
           </ul>
           <p className="text-slate-600 text-sm leading-relaxed">
@@ -457,7 +457,7 @@ export default function BackendToFullstackPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">フルスタック転職を無料で相談しよう</h2>
+          <h2 className="text-xl font-bold mb-3">フルスタック転職の無料相談</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントが、バックエンドの強みを活かせるフルスタックポジションを提案します。
           </p>

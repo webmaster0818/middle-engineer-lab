@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "salary-truth", label: "年収1124万円の正しい読み方" },
   { id: "feature", label: "エンジニア採用の特徴" },
@@ -37,13 +37,13 @@ const basicData: [string, string][] = [
 ];
 
 const faqs = [
-  { q: "富士フイルムの平均年収1124万円はエンジニアの年収？", a: "いいえ。約1,124万円は2025年3月期の有価証券報告書に記載された、富士フイルムホールディングス（持株会社）単体の全従業員平均給与で、賞与を含みます。これは持株会社に在籍する全職種・全社員の平均であり、エンジニア職単独の平均ではありません。職種別・等級別の内訳は公式に開示されておらず、エンジニアとして入社した場合に必ずこの金額になるわけではない点に注意が必要です。" },
-  { q: "富士フイルムはエンジニアの中途採用を行っている？", a: "富士フイルムグループは、医療画像AI・ヘルスケア・マテリアルズなどの領域でデジタル/ソフトウェア人材のキャリア採用を行っています。2025年にグループのIT機能を持株会社（HD）へ一元化しており、グループ横断のデジタル変革を担う人材ニーズがあります。募集職種・採用主体は時期や領域により異なるため、最新は公式採用情報をご確認ください。" },
-  { q: "富士フイルムではどんなソフトウェア開発をしている？", a: "代表的なのは医療画像診断支援などの医療画像AI、ヘルスケア関連のシステム、マテリアルズ領域のデジタル技術です。写真フィルムで培った画像技術を、医療・ヘルスケアといったディープテック領域に展開している点が特徴です。具体的な使用言語・ツールは領域・募集により異なります。" },
-  { q: "富士フイルムの開発言語は？", a: "医療画像系ではC++やPythonなどが想定されますが、富士フイルムは統一された技術スタック一覧を社外に体系公開していません。そのため当ガイドでは推測の言語一覧表は掲載していません。具体的な言語・フレームワークは、応募する領域・職種の各募集要項で確認する必要があります。" },
-  { q: "2025年のIT機能のHD一元化とは？", a: "富士フイルムは2025年に、グループの情報システム・IT機能を持株会社（ホールディングス）へ一元化しました。これによりグループ横断でのデジタル基盤整備・DX推進が進めやすくなり、IT/デジタル人材の活躍領域が広がる方向にあります。採用の主体や配属がこの再編の影響を受ける場合があるため、応募時に確認が必要です。" },
-  { q: "富士フイルムへの転職難易度は？", a: "医療画像AI・ヘルスケアといったディープテック領域では、画像処理・機械学習・医療ドメインの専門性が高く評価される一方、即戦力性が問われます。写真・印刷のイメージが強い会社ですが、実態は医療・ヘルスケア・マテリアルズを軸とする多角的な企業であり、自分の専門領域がどの事業とマッチするかの見極めが重要です。" },
-  { q: "富士フイルムの選考フローは？", a: "富士フイルムは中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接が想定されますが、回数・内容は募集領域・職種により変わります。当ガイドでは出典のない面接質問リストや等級別年収表は掲載していません。最新の選考内容は応募時に確認してください。" },
+  { q: "富士フイルムの平均年収1124万円はエンジニアの年収ですか？", a: "いいえ。約1,124万円は2025年3月期の有価証券報告書に記載された、富士フイルムホールディングス（持株会社）単体の全従業員平均給与で、賞与を含みます。これは持株会社に在籍する全職種・全社員の平均であり、エンジニア職単独の平均ではありません。職種別・等級別の内訳は公式に開示されておらず、エンジニアとして入社した場合に必ずこの金額になるわけではない点に注意が必要です。" },
+  { q: "富士フイルムはエンジニアの中途採用を行っていますか？", a: "富士フイルムグループは、医療画像AI・ヘルスケア・マテリアルズなどの領域でデジタル/ソフトウェア人材のキャリア採用を行っています。2025年にグループのIT機能を持株会社（HD）へ一元化しており、グループ横断のデジタル変革を担う人材ニーズがあります。募集職種・採用主体は時期や領域により異なるため、最新は公式採用情報をご確認ください。" },
+  { q: "富士フイルムではどのようなソフトウェア開発をしていますか？", a: "代表的なのは医療画像診断支援などの医療画像AI、ヘルスケア関連のシステム、マテリアルズ領域のデジタル技術です。写真フィルムで培った画像技術を、医療・ヘルスケアといったディープテック領域に展開している点が特徴です。具体的な使用言語・ツールは領域・募集により異なります。" },
+  { q: "富士フイルムの開発言語を教えてください。", a: "医療画像系ではC++やPythonなどが想定されますが、富士フイルムは統一された技術スタック一覧を社外に体系公開していません。そのため当ガイドでは推測の言語一覧表は掲載していません。具体的な言語・フレームワークは、応募する領域・職種の各募集要項で確認する必要があります。" },
+  { q: "2025年のIT機能のHD一元化とは何ですか？", a: "富士フイルムは2025年に、グループの情報システム・IT機能を持株会社（ホールディングス）へ一元化しました。これによりグループ横断でのデジタル基盤整備・DX推進が進めやすくなり、IT/デジタル人材の活躍領域が広がる方向にあります。採用の主体や配属がこの再編の影響を受ける場合があるため、応募時に確認が必要です。" },
+  { q: "富士フイルムへの転職難易度はどの程度ですか？", a: "医療画像AI・ヘルスケアといったディープテック領域では、画像処理・機械学習・医療ドメインの専門性が高く評価される一方、即戦力性が問われます。写真・印刷のイメージが強い会社ですが、実態は医療・ヘルスケア・マテリアルズを軸とする多角的な企業であり、自分の専門領域がどの事業とマッチするかの見極めが重要です。" },
+  { q: "富士フイルムの選考フローを教えてください。", a: "富士フイルムは中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接が想定されますが、回数・内容は募集領域・職種により変わります。当ガイドでは出典のない面接質問リストや等級別年収表は掲載していません。最新の選考内容は応募時に確認してください。" },
 ];
 
 export default function FujifilmCompanyPage() {
@@ -58,29 +58,29 @@ export default function FujifilmCompanyPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">富士フイルムへのエンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
-          富士フイルムホールディングスへのエンジニア中途採用について、有価証券報告書の一次情報をもとに、転職難易度・年収・技術領域を中立にまとめました。写真フィルムのイメージを超え、<strong>医療画像AI・ヘルスケア・マテリアルズ</strong>を軸とするディープテック企業へと変貌した同社の実態と、「平均1,124万円」の正しい読み方を、ミドル層の視点で整理します。
+          富士フイルムホールディングスへのエンジニア中途採用について、有価証券報告書の一次情報をもとに、転職難易度・年収・技術領域を中立にまとめました。写真フィルムの事業から<strong>医療画像AI・ヘルスケア・マテリアルズ</strong>を軸とするディープテック企業へと事業領域を広げた同社の実態と、「平均1,124万円」の正しい読み方を、ミドル層の視点で整理します。
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】富士フイルムの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 富士フイルムホールディングス（持株会社）単体の全従業員平均給与は約1,124万円です（2025年3月期 有価証券報告書、平均年齢43.5歳・賞与を含む全社員平均）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>富士フイルムホールディングス（持株会社）単体の全従業員平均給与は約1,124万円です（2025年3月期 有価証券報告書、平均年齢43.5歳・賞与を含む全社員平均）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・約1,124万円は持株会社HD単体の全職種・全社員平均です（2025年3月期 有価証券報告書）。エンジニア職単独の平均ではありません。</li><li>・持株会社は本社機能・管理部門が中心のため平均が高めに出やすく、事業会社の従業員はこの平均に直接含まれません。</li><li>・職種別・等級別・事業会社別の年収レンジは非開示です。応募する事業会社・職種の提示条件は求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["富士フイルムホールディングス 有価証券報告書（2025年3月期）", "富士フイルム 公式採用情報", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（ディープテック領域の専門性重視）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・中核は<strong>医療画像AI・ヘルスケア・マテリアルズです</strong>。写真技術を医療・ライフサイエンスに展開するディープテック企業です。</li>
-              <li>・年収は<strong>HD単体の全従業員平均で約1,124万円です（2025年3月期・有価証券報告書）</strong>。これは<strong>エンジニア単独でなく全社員平均です</strong>。</li>
+              <li>・中核は<strong>医療画像AI・ヘルスケア・マテリアルズ</strong>です。写真技術を医療・ライフサイエンスに展開するディープテック企業です。</li>
+              <li>・年収は<strong>HD単体の全従業員平均で約1,124万円（2025年3月期・有価証券報告書）</strong>です。これは<strong>エンジニア単独ではなく全社員平均</strong>の数値です。</li>
               <li>・2025年に<strong>グループのIT機能をHDへ一元化</strong>し、グループ横断のデジタル人材ニーズが拡大しています。</li>
             </ul>
-            <p className="text-xs text-blue-800 mt-3">「高年収」の看板だけで判断せず、自分の専門（画像処理/機械学習/医療ドメイン等）がどの事業とマッチするかを最優先に見極めることが重要です。</p>
+            <p className="text-xs text-blue-800 mt-3">「高年収」という印象だけで判断せず、自分の専門（画像処理/機械学習/医療ドメイン等）がどの事業とマッチするかを最優先に見極めることが重要です。</p>
           </div>
         </section>
 
@@ -110,7 +110,7 @@ export default function FujifilmCompanyPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-4">
             <p className="text-sm text-amber-900 font-bold mb-2">この数字は「エンジニアの年収」ではありません</p>
             <p className="text-sm text-amber-900 leading-relaxed">
-              富士フイルムの平均年収<strong>約1,124万円（2025年3月期・HD単体・全従業員平均・賞与含む）</strong>は、持株会社（富士フイルムホールディングス）に在籍する<strong>全職種・全社員の平均</strong>です。持株会社は本社機能・管理部門などが中心となるため、平均年収が高めに出やすい構造でもあります。これは<strong>エンジニア職単独の平均ではなく</strong>、エンジニアとして事業会社に入社した場合に必ずこの金額が得られるわけではない点を、強く認識しておく必要があります。
+              富士フイルムの平均年収<strong>約1,124万円（2025年3月期・HD単体・全従業員平均・賞与含む）</strong>は、持株会社（富士フイルムホールディングス）に在籍する<strong>全職種・全社員の平均</strong>です。持株会社は本社機能・管理部門などが中心となるため、平均年収が高めに出やすい構造でもあります。これは<strong>エンジニア職単独の平均ではなく</strong>、エンジニアとして事業会社に入社した場合に必ずこの金額が得られるわけではない点を、十分に認識しておく必要があります。
             </p>
           </div>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
@@ -131,13 +131,13 @@ export default function FujifilmCompanyPage() {
 
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術領域（公開情報の範囲）</h2>
-          <p className="text-sm text-slate-600 leading-relaxed mb-4">富士フイルムは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成しません</strong>（推測での創作を避けるため）。公開情報から確認できる技術領域は以下のとおりです。</p>
+          <p className="text-sm text-slate-600 leading-relaxed mb-4">富士フイルムは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成していません</strong>（推測での創作を避けるため）。公開情報から確認できる技術領域は以下のとおりです。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>医療画像AI</strong>：画像診断支援などの画像処理・機械学習領域</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ヘルスケア</strong>：医療・ライフサイエンス関連のシステム・ソフトウェア領域</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>マテリアルズ</strong>：素材領域のデジタル技術・データ活用</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>医療画像系では一般にC++やPythonなどが想定されますが、<strong>公式の統一情報がないため断定はしません</strong>。具体的言語は各募集要項で確認してください。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>医療画像系では一般にC++やPythonなどが想定されますが、<strong>公式の統一情報がないため断定はしていません</strong>。具体的言語は各募集要項で確認してください。</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：富士フイルム公式の事業・採用情報から確認できる技術領域に基づく記述です。具体的な開発言語・内製ツールの統一一覧は公開されていないため、推測の言語表は掲載していません。</p>
@@ -162,9 +162,9 @@ export default function FujifilmCompanyPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見た富士フイルム</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>HD単体の<strong>平均年齢は43.5歳、平均勤続年数17.5年です</strong>（2025年3月期・有価証券報告書）。ミドル〜シニア層が中核を占める落ち着いた組織で、30代・40代で中途入社しても年齢構成的に浮きにくい環境といえます。中途では即戦力としての専門性が問われる一方、R&D志向で腰を据えたキャリア形成がしやすい点が特徴です。</p>
-            <p>30代・40代の画像処理・機械学習・医療ドメイン経験者にとって、富士フイルムは「<strong>医療画像AIというディープテックR&Dに長期で関われる</strong>」希少なフィールドです。ヘルスケアは社会的な需要が拡大する領域であり、専門性が長く活きる可能性があります。一方、看板の1,124万円はあくまでHD単体の全社員平均であり、配属される事業会社・職種での実際の提示条件を冷静に確認することが大切です。Webサービス中心のキャリアからの転身は、医療・素材ドメインの習得が前提になる点にも留意してください。</p>
-            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>、医療領域を志向するなら<Link href="/industry/healthcare/" className="text-petrol hover:underline">ヘルスケア業界の転職</Link>もあわせて確認してください。</p>
+            <p>HD単体の<strong>平均年齢は43.5歳、平均勤続年数は17.5年</strong>です（2025年3月期・有価証券報告書）。ミドル〜シニア層が中核を占める落ち着いた組織で、30代・40代で中途入社しても年齢構成的に浮きにくい環境といえます。中途では即戦力としての専門性が問われる一方、R&D志向で腰を据えたキャリア形成がしやすい点が特徴です。</p>
+            <p>30代・40代の画像処理・機械学習・医療ドメイン経験者にとって、富士フイルムは「<strong>医療画像AIというディープテックR&Dに長期で関われる</strong>」数少ない環境です。ヘルスケアは社会的な需要が拡大する領域であり、専門性が長く活きる可能性があります。一方、公表されている1,124万円はあくまでHD単体の全社員平均であり、配属される事業会社・職種での実際の提示条件を冷静に確認することが大切です。Webサービス中心のキャリアからの転身は、医療・素材ドメインの習得が前提になる点にも留意してください。</p>
+            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も確認しておくことをおすすめします。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>、医療領域を志向するなら<Link href="/industry/healthcare/" className="text-petrol hover:underline">ヘルスケア業界の転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -195,7 +195,7 @@ export default function FujifilmCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">富士フイルム転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・AI・画像処理領域に強く、技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手・R&D系の専門職・高年収ポジションのスカウトが届きやすいです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・ヘルスケアの求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・AI・画像処理領域に強く、技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手・R&D系の専門職・高年収ポジションのスカウトが届きやすくなります。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数を持ち、メーカー・ヘルスケアの求人も幅広く取り扱っています。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

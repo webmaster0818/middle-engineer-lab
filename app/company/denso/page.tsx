@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術領域（公開情報の範囲）" },
@@ -43,13 +43,13 @@ const salaryRows: [string, string][] = [
 ];
 
 const faqs = [
-  { q: "デンソーの平均年収はいくら？", a: "2025年3月期の有価証券報告書によると、提出会社（株式会社デンソー単体）の正社員平均年間給与は約863万円、平均年齢44.8歳、平均勤続年数23.1年です。これは賞与を含む全従業員（エンジニア以外も含む）の平均で、ソフトウェアエンジニア職単独・等級別の内訳は公式には開示されていません。" },
-  { q: "デンソーはソフトウェアエンジニアの中途採用を行っている？", a: "はい。デンソーはソフトウェア人材向けの専用採用サイト（careers.denso.com/software）を運営しており、車載ソフトウェア・SDV・自動運転・車載AIなどの領域でキャリア採用を積極的に行っています。SDV（Software Defined Vehicle）化に伴うソフトウェア人材の登用を強化している点が特徴です。募集職種は時期により変動するため、最新は公式採用サイトをご確認ください。" },
-  { q: "デンソーではどんなソフトウェア開発をしている？", a: "車載ソフトウェア全般、SOA（サービス指向アーキテクチャ）、ADAS・自動運転、車載AIなどが中核領域です。クルマがソフトウェアで価値を定義されるSDV化の流れの中で、組込ソフトウェアからクラウド連携まで幅広いレイヤーの開発が行われています。具体的な使用言語・ツールは募集職種により異なるため、各求人で確認が必要です。" },
-  { q: "デンソーの開発言語は？", a: "車載・組込領域では一般にC/C++やモデルベース開発（MBD）が想定されますが、デンソーは統一された技術スタック一覧を社外に体系公開していません。SDV・クラウド連携領域ではモダンな言語が使われる募集もあるため、具体的な言語・フレームワークは各募集要項で確認する必要があります。当ガイドでは推測の言語一覧表は掲載していません。" },
-  { q: "デンソーへの転職難易度は？", a: "自動車部品の世界的大手であり、車載ソフト・SDV領域の経験者は高く評価される一方、即戦力としての専門性が問われます。組込・車載ソフト・ADAS・モデルベース開発などの実務経験があると親和性が高いと考えられます。Web系のみの経験からの転身は、ドメイン知識の習得が前提になります。" },
-  { q: "デンソーの選考フローは？", a: "デンソーは中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接が想定されますが、回数・内容は募集職種により変わります。当ガイドでは出典のない面接質問リストや等級別年収表は掲載していません。最新の選考内容は応募時に確認してください。" },
-  { q: "デンソーは40代エンジニアでも転職できる？", a: "提出会社単体の平均年齢は44.8歳、平均勤続年数23.1年（2025年3月期・有価証券報告書）と、ミドル〜シニア層が中核の組織です。車載ソフト・SDV・自動運転などの専門性を持つ40代エンジニアにとっては、経験が直接活きるポジションが想定されます。年齢よりも、SDV化を支える専門スキルと実績が評価の鍵になります。" },
+  { q: "デンソーの平均年収はいくらですか？", a: "2025年3月期の有価証券報告書によると、提出会社（株式会社デンソー単体）の正社員平均年間給与は約863万円、平均年齢44.8歳、平均勤続年数23.1年です。これは賞与を含む全従業員（エンジニア以外も含む）の平均で、ソフトウェアエンジニア職単独・等級別の内訳は公式には開示されていません。" },
+  { q: "デンソーはソフトウェアエンジニアの中途採用を行っていますか？", a: "はい。デンソーはソフトウェア人材向けの専用採用サイト（careers.denso.com/software）を運営しており、車載ソフトウェア・SDV・自動運転・車載AIなどの領域でキャリア採用を積極的に行っています。SDV（Software Defined Vehicle）化に伴うソフトウェア人材の登用を強化している点が特徴です。募集職種は時期により変動するため、最新は公式採用サイトをご確認ください。" },
+  { q: "デンソーではどのようなソフトウェア開発をしていますか？", a: "車載ソフトウェア全般、SOA（サービス指向アーキテクチャ）、ADAS・自動運転、車載AIなどが中核領域です。クルマがソフトウェアで価値を定義されるSDV化の流れの中で、組込ソフトウェアからクラウド連携まで幅広いレイヤーの開発が行われています。具体的な使用言語・ツールは募集職種により異なるため、各求人で確認が必要です。" },
+  { q: "デンソーの開発言語を教えてください。", a: "車載・組込領域では一般にC/C++やモデルベース開発（MBD）が想定されますが、デンソーは統一された技術スタック一覧を社外に体系公開していません。SDV・クラウド連携領域ではモダンな言語が使われる募集もあるため、具体的な言語・フレームワークは各募集要項で確認する必要があります。当ガイドでは推測の言語一覧表は掲載していません。" },
+  { q: "デンソーへの転職難易度はどの程度ですか？", a: "自動車部品の世界的大手であり、車載ソフト・SDV領域の経験者は高く評価される一方、即戦力としての専門性が問われます。組込・車載ソフト・ADAS・モデルベース開発などの実務経験があると親和性が高いと考えられます。Web系のみの経験からの転身は、ドメイン知識の習得が前提になります。" },
+  { q: "デンソーの選考フローを教えてください。", a: "デンソーは中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接が想定されますが、回数・内容は募集職種により変わります。当ガイドでは出典のない面接質問リストや等級別年収表は掲載していません。最新の選考内容は応募時に確認してください。" },
+  { q: "デンソーは40代エンジニアでも転職できますか？", a: "提出会社単体の平均年齢は44.8歳、平均勤続年数23.1年（2025年3月期・有価証券報告書）と、ミドル〜シニア層が中核の組織です。車載ソフト・SDV・自動運転などの専門性を持つ40代エンジニアにとっては、経験が直接活きるポジションが想定されます。年齢よりも、SDV化を支える専門スキルと実績が評価のポイントになります。" },
 ];
 
 export default function DensoCompanyPage() {
@@ -71,22 +71,22 @@ export default function DensoCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】デンソーの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社デンソー（単体）の正社員平均年間給与は約863万円です（2025年3月期 有価証券報告書、平均年齢44.8歳・賞与を含む全従業員平均）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社デンソー（単体）の正社員平均年間給与は約863万円です（2025年3月期 有価証券報告書、平均年齢44.8歳・賞与を含む全従業員平均）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・正社員平均年間給与 約863万円です（2025年3月期・提出会社単体 有価証券報告書）。ソフトウェアエンジニア単独ではなく全従業員平均です。</li><li>・平均年齢44.8歳・平均勤続年数23.1年（同・有価証券報告書）と、ミドル〜シニア層が中核の組織です。</li><li>・職種別・等級別の年収は非開示です。ソフトウェアエンジニア職の提示レンジは求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["デンソー 有価証券報告書（2025年3月期）", "デンソー ソフトウェア採用サイト（careers.denso.com/software）", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（車載ソフト・SDV経験者を積極登用）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・<strong>車載ソフトウェア・SDV・ADAS・自動運転・車載AI</strong>が中核領域です。ソフトウェア専用採用サイトを運営し、人材登用を強化中します。</li>
-              <li>・年収は<strong>正社員平均約863万円です（2025年3月期・有価証券報告書）</strong>。これはエンジニア単独でなく全社員平均です。</li>
-              <li>・平均勤続年数23.1年と定着率が高く、組込・車載ソフトの専門性を持つ即戦力に向きます。</li>
+              <li>・<strong>車載ソフトウェア・SDV・ADAS・自動運転・車載AI</strong>が中核領域です。ソフトウェア専用採用サイトを運営し、人材登用を強化しています。</li>
+              <li>・年収は<strong>正社員平均約863万円（2025年3月期・有価証券報告書）</strong>です。エンジニア単独ではなく全社員平均の数値です。</li>
+              <li>・平均勤続年数23.1年と定着率が高く、組込・車載ソフトの専門性を持つ即戦力に向いています。</li>
             </ul>
-            <p className="text-xs text-blue-800 mt-3">クルマのソフトウェア化という巨大な変革をリードできる一方、ドメイン知識（車載・安全規格）の習得が前提になる点に留意が必要です。</p>
+            <p className="text-xs text-blue-800 mt-3">クルマのソフトウェア化という大きな変革に関われる一方、ドメイン知識（車載・安全規格）の習得が前提になる点に留意が必要です。</p>
           </div>
         </section>
 
@@ -122,14 +122,14 @@ export default function DensoCompanyPage() {
 
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術領域（公開情報の範囲）</h2>
-          <p className="text-sm text-slate-600 leading-relaxed mb-4">デンソーは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成しません</strong>（推測での創作を避けるため）。公開情報・採用情報から確認できる技術領域は以下のとおりです。</p>
+          <p className="text-sm text-slate-600 leading-relaxed mb-4">デンソーは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成していません</strong>（推測での創作を避けるため）。公開情報・採用情報から確認できる技術領域は以下のとおりです。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>車載ソフトウェア</strong>：ECU・車載制御ソフトの開発領域</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>SOA（サービス指向アーキテクチャ）</strong>：SDV化を支えるソフトウェアアーキテクチャ領域</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ADAS・自動運転</strong>：先進運転支援・自動運転システムの開発領域</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>車載AI</strong>：認識・判断などのAI関連領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>組込・車載領域では一般にC/C++やモデルベース開発が想定されますが、<strong>公式の統一情報がないため断定はしません</strong>。具体的言語は各募集要項で確認してください。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>組込・車載領域では一般にC/C++やモデルベース開発が想定されますが、<strong>公式の統一情報がないため断定はしていません</strong>。具体的言語は各募集要項で確認してください。</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：デンソー ソフトウェア採用サイト（careers.denso.com/software）で確認できる技術領域に基づく記述です。具体的な開発言語・内製ツールの統一一覧は公開されていないため、推測の言語表は掲載していません。</p>
@@ -168,9 +168,9 @@ export default function DensoCompanyPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たデンソー</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>提出会社単体の<strong>平均年齢は44.8歳、平均勤続年数23.1年です</strong>（2025年3月期・有価証券報告書）。ミドル〜シニア層が中核を占める組織で、30代・40代で中途入社しても年齢構成的に浮きにくい環境といえます。中途では即戦力としての専門性が問われる一方、長期就業を前提とした腰を据えたキャリア形成がしやすい点が特徴です。</p>
-            <p>30代・40代の車載ソフト・組込・ADAS経験者にとって、デンソーは「<strong>SDV化という巨大変革をリードできる</strong>」希少なフィールドです。クルマのソフトウェア定義化は今後も需要が拡大する領域であり、専門性が長く活きる可能性があります。一方、Web系のみの経験からの転身は車載ドメイン・機能安全などの知識習得が前提になる点に注意が必要です。</p>
-            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/skill/embedded/" className="text-petrol hover:underline">組込エンジニアの転職</Link>、<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業エンジニアの転職</Link>もあわせて確認してください。</p>
+            <p>提出会社単体の<strong>平均年齢は44.8歳、平均勤続年数は23.1年</strong>です（2025年3月期・有価証券報告書）。ミドル〜シニア層が中核を占める組織で、30代・40代で中途入社しても年齢構成的に浮きにくい環境といえます。中途では即戦力としての専門性が問われる一方、長期就業を前提とした腰を据えたキャリア形成がしやすい点が特徴です。</p>
+            <p>30代・40代の車載ソフト・組込・ADAS経験者にとって、デンソーは「<strong>SDV化という大きな変革に関われる</strong>」数少ない環境です。クルマのソフトウェア定義化は今後も需要が拡大する領域であり、専門性が長く活きる可能性があります。一方、Web系のみの経験からの転身は車載ドメイン・機能安全などの知識習得が前提になる点に注意が必要です。</p>
+            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も確認しておくことをおすすめします。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/skill/embedded/" className="text-petrol hover:underline">組込エンジニアの転職</Link>、<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業エンジニアの転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -182,7 +182,7 @@ export default function DensoCompanyPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>車載ソフト・組込・ADASの専門性を持つ即戦力</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>SDV・自動運転という大きなテーマに長期で関わりたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>大手メーカーの安定性と腰を据えたキャリア形成を重視</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>大手メーカーの安定性と腰を据えたキャリア形成を重視する</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>SOA・クラウド連携など新しいアーキテクチャに挑戦したい</li>
               </ul>
             </div>
@@ -201,7 +201,7 @@ export default function DensoCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">デンソー転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・車載領域に強く、技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・車載領域に強く、技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手メーカーの専門職・高年収ポジションのスカウトが届きやすくなります。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数を持ち、メーカー・大手の求人も幅広く取り扱っています。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

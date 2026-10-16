@@ -16,7 +16,7 @@ const PAGE_DESC =
   "マイナビIT AGENTの評判を30代・40代エンジニア目線で解説します。手厚いサポート、IT業界に詳しい担当者という強みと、ハイクラス・地方求人が手薄なデメリットを口コミ傾向と実データで検証します。";
 
 const toc = [
-  { id: "summary", label: "結論：マイナビIT AGENTはこのような方向け" },
+  { id: "summary", label: "マイナビIT AGENTはこのような方向け" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strengths", label: "特徴・強み" },
   { id: "good", label: "良い評判の傾向" },
@@ -171,18 +171,18 @@ export default function MynaviItReview() {
           sources={["マイナビ公式", "Qiita Job Change", "OUTSIDEMAGAZINE等の口コミメディア集計"]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：マイナビIT AGENTはこのような方向け</h2>
+            <h2 className="text-xl font-bold text-blue-900 mb-3">マイナビIT AGENTはこのような方向け</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               総合評価は <span className="font-bold">★★★★☆（4.0 / 5.0・当サイト編集部の総合判断）</span>。
               <span className="font-bold">「20代後半〜30代で、丁寧な伴走サポートを受けながら初めて／久しぶりの転職をしたいエンジニア」</span>に向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・書類添削・面接対策の手厚さが強みです。初めての転職でも準備を整えやすいです</li>
-              <li>・担当者がIT業界に詳しく、職種理解のうえで提案してくれる傾向</li>
-              <li>・一方でハイクラス求人・地方求人は手薄です。40代や年収800万円超狙いは他社併用が前提</li>
+              <li>・書類添削・面接対策の手厚さが強みです。初めての転職でも準備を整えやすくなります</li>
+              <li>・担当者がIT業界に詳しく、職種理解のうえで提案を受けられる傾向があります</li>
+              <li>・一方でハイクラス求人・地方求人は手薄です。40代や年収800万円超を狙う場合は他社との併用をおすすめします</li>
             </ul>
           </div>
         </section>
@@ -228,7 +228,7 @@ export default function MynaviItReview() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 書類添削・面接対策の手厚さ</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                マイナビIT AGENTは、職務経歴書の添削や企業ごとの面接対策など、選考通過に直結する伴走サポートが手厚いと評価される傾向があります。Qiita Job ChangeやOUTSIDEMAGAZINE等の口コミメディアでも「初めての転職でも安心だった」という声が見られ、転職活動の進め方そのものに不安がある層にとって心強い存在です。
+                マイナビIT AGENTは、職務経歴書の添削や企業ごとの面接対策など、選考通過に直結する伴走サポートが手厚いと評価される傾向があります。Qiita Job ChangeやOUTSIDEMAGAZINE等の口コミメディアでも「初めての転職でも安心だった」という声が見られ、転職活動の進め方そのものに不安がある層に適したサービスです。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -289,7 +289,7 @@ export default function MynaviItReview() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">デメリットへの対処法</h2>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">連絡頻度が多い → 連絡ルールを最初に握る</h3>
+              <h3 className="font-bold text-slate-800 mb-2">連絡頻度が多い → 連絡ルールを最初に決める</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 初回面談で「連絡はメール中心」「電話は平日19時以降」など希望を明確に伝えましょう。連絡手段と頻度を最初に合意しておくことで、しつこさのストレスは大きく軽減できます。
               </p>

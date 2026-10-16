@@ -14,13 +14,13 @@ export const metadata: Metadata = {
 const knowledgeCategories = [
   {
     category: "書類・自己PR",
-    intro: "選考突破の起点となる書類づくり。経歴の棚卸しから見せ方までを解説します。",
+    intro: "選考突破の起点となる書類づくりについて、経歴の棚卸しから見せ方までを解説します。",
     items: [
-      { name: "自己PRの書き方・例文", href: "/knowledge/self-pr/", desc: "Before/Afterと職種別例文で通る自己PRを作ります。" },
-      { name: "スキルシートの書き方", href: "/knowledge/skill-sheet/", desc: "職務経歴書との違いと記入例です。SES・フリー向けです。" },
+      { name: "自己PRの書き方・例文", href: "/knowledge/self-pr/", desc: "Before/Afterと職種別例文で、評価される自己PRの作り方を解説します。" },
+      { name: "スキルシートの書き方", href: "/knowledge/skill-sheet/", desc: "職務経歴書との違いと記入例を、SES・フリーランス向けに解説します。" },
       { name: "経歴の空白期間の説明方法", href: "/knowledge/career-gap/", desc: "ブランクを不利にしない理由別の説明の型と例文です。" },
       { name: "転職回数が多い場合の対策", href: "/knowledge/job-change-count/", desc: "一貫性の軸の作り方で回数の多さをカバーします。" },
-      { name: "職務経歴書の書き方", href: "/knowledge/resume/", desc: "テンプレート付きガイドです。Before/After例文があります。" },
+      { name: "職務経歴書の書き方", href: "/knowledge/resume/", desc: "Before/After例文を含むテンプレート付きのガイドです。" },
       { name: "ポートフォリオ作成ガイド", href: "/knowledge/portfolio/", desc: "書類選考を突破するための見せ方のコツです。" },
       { name: "自己分析のやり方", href: "/knowledge/self-analysis/", desc: "強み・志向を言語化してPR軸を固めます。" },
       { name: "市場価値の調べ方", href: "/knowledge/market-value/", desc: "自分の経歴が今いくらで評価されるかを把握します。" },
@@ -32,7 +32,7 @@ const knowledgeCategories = [
     category: "面接対策",
     intro: "技術・行動・実技まで、面接形式ごとの準備ポイントです。",
     items: [
-      { name: "面接の逆質問", href: "/knowledge/reverse-questions/", desc: "評価される逆質問の例文とNG例です。ミドル向けの記事もあります。" },
+      { name: "面接の逆質問", href: "/knowledge/reverse-questions/", desc: "ミドル層向けに、評価される逆質問の例文とNG例を紹介します。" },
       { name: "外資系IT企業の面接対策", href: "/knowledge/foreign-interview/", desc: "選考フローと各ラウンドの想定問答を解説します。" },
       { name: "英語面接の準備", href: "/knowledge/english-interview/", desc: "フレーズ例と想定問答で英語面接を乗り切ります。" },
       { name: "技術面接対策ガイド", href: "/knowledge/tech-interview/", desc: "よく聞かれる質問と回答の組み立て方です。" },
@@ -51,7 +51,7 @@ const knowledgeCategories = [
       { name: "転職で年収は上がる？", href: "/knowledge/salary-change/", desc: "年収アップの実態を公的データで確認します。" },
       { name: "年収交渉テクニック", href: "/knowledge/salary-negotiation/", desc: "オファー後に条件を引き上げる進め方です。" },
       { name: "複数オファーの比較方法", href: "/knowledge/offer-compare/", desc: "年収だけで決めないための比較軸です。" },
-      { name: "カウンターオファーへの対応", href: "/knowledge/counter-offer/", desc: "現職からの引き止めにどう向き合うか。" },
+      { name: "カウンターオファーへの対応", href: "/knowledge/counter-offer/", desc: "現職からの引き止めへの向き合い方です。" },
     ],
   },
   {
@@ -59,7 +59,7 @@ const knowledgeCategories = [
     intro: "エージェントの選び方・使い方から、直接応募・スカウトまでを解説します。",
     items: [
       { name: "エージェントを使わない転職", href: "/knowledge/no-agent/", desc: "直接応募・リファラルで自力転職する進め方と注意点です。" },
-      { name: "転職サイトとエージェントの違い", href: "/knowledge/site-vs-agent/", desc: "仕組みの違いと比較表・状況別の使い分け。" },
+      { name: "転職サイトとエージェントの違い", href: "/knowledge/site-vs-agent/", desc: "仕組みの違いと比較表、状況別の使い分けを解説します。" },
       { name: "エージェントの断り方・退会方法", href: "/knowledge/agent-decline/", desc: "求人を断る・退会の場面別メール例文です。" },
       { name: "IT転職エージェントの選び方", href: "/knowledge/how-to-choose/", desc: "確認すべき5つのチェックポイントです。" },
       { name: "エージェントは複数登録すべき？", href: "/knowledge/multiple-agents/", desc: "3社併用が基本とされる理由です。" },
@@ -74,9 +74,9 @@ const knowledgeCategories = [
     category: "転職プロセス・スケジュール",
     intro: "計画立案から退職・入社後の立ち上がりまでの全工程です。",
     items: [
-      { name: "退職理由の伝え方", href: "/knowledge/resignation-reason/", desc: "本音→建前の言い換えと例文で円満退職。" },
+      { name: "退職理由の伝え方", href: "/knowledge/resignation-reason/", desc: "本音から建前への言い換えと例文で、円満退職を目指します。" },
       { name: "内定承諾の期限と延長", href: "/knowledge/offer-deadline/", desc: "承諾期限の目安と延長の頼み方をメール例文付きで解説します。" },
-      { name: "内定辞退の伝え方", href: "/knowledge/offer-decline/", desc: "メール例文と電話トークで角を立てず辞退です。" },
+      { name: "内定辞退の伝え方", href: "/knowledge/offer-decline/", desc: "メール例文と電話トークで、角を立てずに辞退する方法を解説します。" },
       { name: "リファレンスチェックの対策", href: "/knowledge/reference-check/", desc: "仕組み・同意原則・推薦者選びと準備リストです。" },
       { name: "入社前の準備チェックリスト", href: "/knowledge/pre-onboarding/", desc: "提出書類・年金や保険の手続き・初日準備を網羅しています。" },
       { name: "ボーナス時期と転職タイミング", href: "/knowledge/bonus-timing/", desc: "賞与支給日からの逆算で不利にならない時期を判断します。" },
@@ -97,7 +97,7 @@ const knowledgeCategories = [
       { name: "リモートワーク転職", href: "/knowledge/remote-work/", desc: "フルリモート求人の探し方と現実です。" },
       { name: "ワークライフバランス", href: "/knowledge/work-life-balance/", desc: "働き方を軸にした転職先の選び方です。" },
       { name: "スタートアップvs大企業", href: "/knowledge/startup-vs-enterprise/", desc: "規模で変わる働き方とリスクです。" },
-      { name: "マネジメントへの道", href: "/knowledge/management/", desc: "プレイヤーから管理職への移行。" },
+      { name: "マネジメントへの道", href: "/knowledge/management/", desc: "プレイヤーから管理職への移行の進め方です。" },
       { name: "継続的な学習戦略", href: "/knowledge/continuous-learning/", desc: "働きながらスキルを伸ばす方法です。" },
     ],
   },
@@ -108,7 +108,7 @@ const knowledgeCategories = [
       { name: "転職への不安との向き合い方", href: "/knowledge/anxiety/", desc: "不安を5つに分解し行動に変える整理フレームです。" },
       { name: "転職のモチベーション維持", href: "/knowledge/motivation/", desc: "活動を続ける気持ちの保ち方です。" },
       { name: "転職の後悔を防ぐには", href: "/knowledge/regret/", desc: "後悔しがちなパターンと回避策です。" },
-      { name: "バーンアウト（燃え尽き）対策", href: "/knowledge/burnout/", desc: "消耗した状態からの立て直し。" },
+      { name: "バーンアウト（燃え尽き）対策", href: "/knowledge/burnout/", desc: "消耗した状態からの立て直し方です。" },
       { name: "インポスター症候群", href: "/knowledge/imposter-syndrome/", desc: "「自分なんて」と感じる心理への対処です。" },
       { name: "転職回数は多いと不利？", href: "/knowledge/job-hopping/", desc: "回数が多くても評価されるための見せ方です。" },
     ],
@@ -124,8 +124,8 @@ const knowledgeCategories = [
       { name: "家庭と両立する転職", href: "/knowledge/family/", desc: "家族がいる人の意思決定と進め方です。" },
       { name: "女性エンジニアの転職", href: "/knowledge/woman-engineer/", desc: "女性ならではの観点とキャリア設計です。" },
       { name: "障害のある人の転職", href: "/knowledge/disability/", desc: "配慮事項と働きやすい環境の探し方です。" },
-      { name: "海外で働くという選択", href: "/knowledge/overseas/", desc: "海外エンジニア就労の現実と準備します。" },
-      { name: "日本へ帰国してのキャリア", href: "/knowledge/return-japan/", desc: "海外経験を活かした帰国後の転職。" },
+      { name: "海外で働くという選択", href: "/knowledge/overseas/", desc: "海外エンジニア就労の現実と準備です。" },
+      { name: "日本へ帰国してのキャリア", href: "/knowledge/return-japan/", desc: "海外経験を活かした帰国後の転職の進め方です。" },
       { name: "UI/UXキャリアの考え方", href: "/knowledge/uiux/", desc: "デザイン領域への関わり方とキャリアです。" },
     ],
   },
@@ -137,9 +137,9 @@ const knowledgeCategories = [
       { name: "開業届の出し方", href: "/knowledge/kaigyo/", desc: "提出期限・提出先と青色申告承認申請の同時提出を解説します。" },
       { name: "iDeCo・企業型DCと転職", href: "/knowledge/ideco/", desc: "転職時の移換手続きと6か月放置の自動移換リスクです。" },
       { name: "失業保険の受給と転職", href: "/knowledge/unemployment-insurance/", desc: "自己都合/会社都合の給付制限・受給期間と転職活動です。" },
-      { name: "健康保険の任意継続vs国保", href: "/knowledge/health-insurance/", desc: "退職後の任意継続（2年・20日期限）と国保の比較。" },
+      { name: "健康保険の任意継続vs国保", href: "/knowledge/health-insurance/", desc: "退職後の任意継続（2年・20日期限）と国保の比較です。" },
       { name: "住民税と転職", href: "/knowledge/residence-tax/", desc: "前年所得課税の仕組みと退職時期で変わる徴収方法です。" },
-      { name: "副業の確定申告", href: "/knowledge/side-job-tax/", desc: "20万円ルールの正しい意味・所得区分・住民税申告。" },
+      { name: "副業の確定申告", href: "/knowledge/side-job-tax/", desc: "20万円ルールの正しい意味・所得区分・住民税申告を解説します。" },
     ],
   },
 ];
@@ -301,7 +301,7 @@ export default function KnowledgeIndexPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">転職活動を始める準備はできましたか？</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントに登録して、プロのサポートを受けながら転職活動を進めましょう。すべて無料です。
+            IT特化型エージェントに登録して、アドバイザーのサポートを受けながら転職活動を進めましょう。すべて無料です。
           </p>
           <Link
             href="/#ranking"

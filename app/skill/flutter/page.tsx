@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：Flutter転職の進め方" },
+  { id: "conclusion", label: "Flutter転職の進め方" },
   { id: "market", label: "市場・年収データ（公表値）" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
-  { id: "find", label: "求人の探し方・強いエージェント" },
+  { id: "find", label: "求人の探し方・エージェントの選び方" },
   { id: "entry", label: "ネイティブ未経験からの参入ルート" },
   { id: "middle", label: "30代・40代の視点" },
   { id: "study", label: "スキルアップ・学習戦略" },
@@ -36,13 +36,13 @@ const salaryRows = [
 ];
 
 const careerPaths = [
-  { role: "Flutterモバイルエンジニア", note: "iOS/Android両対応のアプリ開発。1人で両OSをカバーできる効率性が評価される中心ポジションです。" },
-  { role: "モバイルテックリード", note: "Flutter導入推進、状態管理・アーキテクチャ設計、チームのリード。30代後半〜40代の中心的な活躍領域です。" },
-  { role: "フリーランス（Flutter案件）", note: "スタートアップのMVP開発やBtoCアプリ案件です。フルリモート比率が高い傾向です（2025年調査で79%超）。" },
+  { role: "Flutterモバイルエンジニア", note: "iOS/Android両対応のアプリ開発を担います。1人で両OSをカバーできる効率性が評価される中心ポジションです。" },
+  { role: "モバイルテックリード", note: "Flutter導入推進、状態管理・アーキテクチャ設計、チームのリードを担います。30代後半〜40代の中心的な活躍領域です。" },
+  { role: "フリーランス（Flutter案件）", note: "スタートアップのMVP開発やBtoCアプリ案件が中心です。フルリモート比率が高い傾向があります（2025年調査で79%超）。" },
 ];
 
 const points = [
-  { num: "1", title: "FlutterアプリをApp Store/Google Playに公開する", desc: "ストアに公開されたアプリが最大のアピールです。Riverpod/BLoCによる状態管理、API連携、プッシュ通知など実務レベルの機能を含めましょう。" },
+  { num: "1", title: "FlutterアプリをApp Store/Google Playに公開する", desc: "ストアに公開されたアプリは最も有効なアピール材料になります。Riverpod/BLoCによる状態管理、API連携、プッシュ通知など実務レベルの機能を含めましょう。" },
   { num: "2", title: "Dart言語の深い理解を示す", desc: "isolate、Stream、非同期処理、ジェネリクスなどDartの特性を理解していることが面接で評価されます。pub.devでのパッケージ公開も有効です。" },
   { num: "3", title: "ネイティブ連携の知識を持つ", desc: "プラットフォームチャネルによるネイティブ連携、カメラ・GPS・Bluetoothなどデバイス機能へのアクセス経験があると市場価値が高まります。" },
 ];
@@ -54,11 +54,11 @@ const faqs = [
   },
   {
     q: "Flutterの需要は今後も続きますか？",
-    a: "拡大傾向と見られます。GoogleがFlutterの開発に注力し、モバイル・Web・デスクトップのマルチプラットフォーム対応が進んでいます。スタートアップを中心に開発効率を重視する企業の採用が見られます。ただし将来予測は断定できないため、フリーランス案件調査などの公表データで継続的に傾向を確認するのが安全です。",
+    a: "拡大傾向と見られます。GoogleがFlutterの開発に注力し、モバイル・Web・デスクトップのマルチプラットフォーム対応が進んでいます。スタートアップを中心に開発効率を重視する企業の採用が見られます。ただし将来予測は断定できないため、フリーランス案件調査などの公表データで継続的に傾向を確認することをおすすめします。",
   },
   {
     q: "React NativeとFlutterはどちらが有利ですか？",
-    a: "求人数ではReact Nativeがやや多い傾向ですが、Flutterはパフォーマンスやマルチプラットフォーム対応で支持されています。Dart言語の習得が必要ですが、TypeScript経験者は比較的スムーズに移行できます。両方の概念を理解しておくとモバイル全般で選択肢が広がります。",
+    a: "求人数ではReact Nativeがやや多い傾向がありますが、Flutterはパフォーマンスやマルチプラットフォーム対応で支持されています。Dart言語の習得が必要ですが、TypeScript経験者は比較的スムーズに移行できます。両方の概念を理解しておくとモバイル全般で選択肢が広がります。",
   },
   {
     q: "Flutterの求人はどんな企業に多いですか？",
@@ -66,11 +66,11 @@ const faqs = [
   },
   {
     q: "ネイティブ開発経験がなくてもFlutterで転職できますか？",
-    a: "可能です。FlutterはWidget単位でUIを構築するため、UIKit/Jetpack Composeの知識がなくても開発できます。ただしプラットフォームチャネルによるネイティブ連携の知識があると評価が高まります。まずは公開アプリで実績を作るのが近道です。",
+    a: "可能です。FlutterはWidget単位でUIを構築するため、UIKit/Jetpack Composeの知識がなくても開発できます。ただしプラットフォームチャネルによるネイティブ連携の知識があると評価が高まります。まずは公開アプリで実績を作るのが現実的です。",
   },
   {
     q: "Flutterエンジニアにおすすめの転職エージェントは？",
-    a: "スタートアップのFlutter求人が見つかりやすいGeekly、モバイル案件全般に強いレバテックキャリア、ハイクラス・スカウト型のビズリーチが候補です。公開済みのポートフォリオアプリを準備して臨むと選考が進みやすくなります。",
+    a: "スタートアップのFlutter求人が見つかりやすいGeekly、モバイル案件全般に強みを持つレバテックキャリア、ハイクラス・スカウト型のビズリーチが候補です。公開済みのポートフォリオアプリを準備して臨むと選考が進みやすくなります。",
   },
 ];
 
@@ -120,12 +120,12 @@ export default function FlutterSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：Flutter転職の進め方</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">Flutter転職の進め方</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              Flutterは「1人でiOS/Android両対応できる効率性」が評価され、フリーランス案件では高単価が出やすいスキルです（フリーランスボード調査で案件平均年収約927万円・2025年）。正社員求人は母数がネイティブほど多くないため、<strong>公開済みアプリ＋Dart/状態管理の実績で“即戦力”を可視化</strong>し、モバイルに強いエージェントで案件を引き出すのが効率的です。
+              Flutterは「1人でiOS/Android両対応できる効率性」が評価され、フリーランス案件では高単価が出やすいスキルです（フリーランスボード調査で案件平均年収約927万円・2025年）。正社員求人は母数がネイティブほど多くないため、<strong>公開済みアプリ＋Dart/状態管理の実績で“即戦力”を可視化</strong>し、モバイル求人を扱うエージェントから紹介を受けるのが効率的です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・正社員は中小・スタートアップが中心、フリーランスはフルリモート比率が高いです。</li>
+              <li>・正社員は中小・スタートアップが中心、フリーランスはフルリモート比率が高い傾向があります。</li>
               <li>・ネイティブ未経験でも公開アプリで実績を作れば参入可能です。</li>
               <li>・エージェントはGeekly／レバテックキャリア／ビズリーチが候補です。</li>
             </ul>
@@ -212,14 +212,14 @@ export default function FlutterSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Flutter求人はネイティブ求人ほど母数が多くないため、スタートアップ・自社開発に強いチャネルを押さえるのが効率的です。フリーランス志向なら案件サイトとの併用も検討しましょう。
+            Flutter求人はネイティブ求人ほど母数が多くないため、スタートアップ・自社開発の求人を多く扱うチャネルを押さえるのが効率的です。フリーランス志向なら案件サイトとの併用も検討しましょう。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化です。スタートアップ・自社開発のモバイル求人が見つかりやすく、提案スピードが強みです。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化型のエージェントです。スタートアップ・自社開発のモバイル求人が見つかりやすく、提案スピードが強みです。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -229,7 +229,7 @@ export default function FlutterSkillPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型です。実績のあるモバイルエンジニアは、年収を上げる選択肢としてスカウトを受けやすいです。</p>
+              <p className="text-sm text-slate-600 mb-2">ハイクラス向けのスカウト型サービスです。実績のあるモバイルエンジニアは、年収を上げる選択肢としてスカウトを受けやすくなります。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -298,8 +298,8 @@ export default function FlutterSkillPage() {
                 {[
                   "1人でiOS/Android両対応をこなし、開発効率で価値を出したい",
                   "スタートアップでMVPを高速に立ち上げる経験を積みたい",
-                  "フルリモート中心の働き方を志向しています",
-                  "新しい技術を自分で学び、公開アプリで実績を作れます",
+                  "フルリモート中心の働き方を志向している",
+                  "新しい技術を自分で学び、公開アプリで実績を作れる",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -312,7 +312,7 @@ export default function FlutterSkillPage() {
                   "大企業の安定した正社員求人を多数比較したい（母数がネイティブより少なめ）",
                   "ネイティブ専任として深い最適化に特化したい",
                   "確立された巨大コードベースの保守を中心にしたい",
-                  "Dartの学習に時間を割く余裕が今はありません",
+                  "Dartの学習に時間を割く余裕が今はない",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">･</span><span>{t}</span></li>
                 ))}
@@ -349,7 +349,7 @@ export default function FlutterSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Flutterのスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            モバイル求人に強いIT特化型エージェントに登録して、年収アップの可能性と非公開求人を確認しましょう。
+            モバイル求人を扱うIT特化型エージェントに登録して、年収アップの可能性と非公開求人を確認しましょう。
           </p>
           <Link
             href="/#ranking"

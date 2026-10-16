@@ -7,32 +7,32 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/remote-full/" },
   title: "フルリモート勤務のエンジニア求人ガイド【2026年版】",
   description:
-    "フルリモートで働けるエンジニア求人の見つけ方を解説します。フルリモート企業の特徴、年収、注意点、おすすめ企業タイプを紹介します。",
+    "フルリモートで働けるエンジニア求人の見つけ方について、フルリモート企業の特徴、年収、注意点、おすすめ企業タイプを解説します。",
 };
 
 const faqs = [
   {
-    q: "フルリモートの求人は減っている？",
-    a: "2024年のオフィス回帰トレンド後、2026年現在はハイブリッド（週1〜2出社）が主流です。ただしIT業界ではフルリモート求人も依然として一定数あり、特にSaaS企業やスタートアップに多いです。",
+    q: "フルリモートの求人は減っていますか？",
+    a: "2024年のオフィス回帰トレンド後、2026年現在はハイブリッド（週1〜2出社）が主流です。ただしIT業界ではフルリモート求人も依然として一定数あり、特にSaaS企業やスタートアップに多い傾向があります。",
   },
   {
-    q: "フルリモートで年収は下がる？",
+    q: "フルリモートで年収は下がりますか？",
     a: "企業によります。地方在住でも東京水準の給与を支払う企業もあれば、居住地で給与を調整する企業もあります。求人情報で「居住地不問」「全国一律給与」を確認しましょう。",
   },
   {
-    q: "フルリモートのデメリットは？",
+    q: "フルリモートのデメリットは何ですか？",
     a: "コミュニケーション不足、孤独感、オンオフの切り替えの難しさ、キャリアアップの機会減少（可視性の低下）が主なデメリットです。自律的に働ける人でないと厳しい面があります。",
   },
   {
-    q: "フルリモートで地方移住は可能？",
+    q: "フルリモートで地方移住は可能ですか？",
     a: "「居住地不問」の企業であれば可能です。ただし月1回程度のオフサイトミーティングへの参加が求められるケースもあるため、交通アクセスは考慮しましょう。",
   },
   {
-    q: "フルリモートに向いている職種は？",
-    a: "バックエンド、フロントエンド、SRE、データエンジニア、テクニカルライターが特に向いています。逆にハードウェア関連やセキュリティ系は出社が必要なケースが多いです。",
+    q: "フルリモートに向いている職種は何ですか？",
+    a: "バックエンド、フロントエンド、SRE、データエンジニア、テクニカルライターが特に向いています。逆にハードウェア関連やセキュリティ系は出社が必要なケースが多く見られます。",
   },
   {
-    q: "フルリモートの面接はどう進む？",
+    q: "フルリモートの面接はどのように進みますか？",
     a: "すべてオンラインで完結するケースがほとんどです。ビデオ面接ツール（Zoom/Google Meet）とコーディングツール（CoderPad等）を使った技術面接が一般的です。",
   },
 ];
@@ -52,7 +52,7 @@ export default function RemoteFullPage() {
     <>
       <ArticleJsonLd
         title="フルリモート勤務のエンジニア求人ガイド【2026年版】"
-        description="フルリモートで働けるエンジニア求人の見つけ方を解説します。フルリモート企業の特徴、年収、注意点、おすすめ企業タイプを紹介します。"
+        description="フルリモートで働けるエンジニア求人の見つけ方について、フルリモート企業の特徴、年収、注意点、おすすめ企業タイプを解説します。"
         url="/purpose/remote-full/"
       />
       <script
@@ -71,16 +71,16 @@ export default function RemoteFullPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           フルリモート勤務のエンジニア求人ガイド
         </h1>
-        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | フルリモートで働くガイド</p>
+        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | フルリモートで働くためのガイド</p>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 通勤時間をゼロにして生産性を上げたい</li>
-              <li>- 地方在住のまま東京水準の給与で働きたい</li>
-              <li>- 子育て・介護と両立したい</li>
-              <li>- 自分のペースで集中して仕事したい</li>
+              <li>- 通勤時間をゼロにして生産性を上げたい方</li>
+              <li>- 地方在住のまま東京水準の給与で働きたい方</li>
+              <li>- 子育て・介護と仕事を両立したい方</li>
+              <li>- 自分のペースで集中して仕事をしたい方</li>
             </ul>
           </div>
         </section>
@@ -102,7 +102,7 @@ export default function RemoteFullPage() {
                   { type: "フルリモートSaaS", salary: "550〜850万円", loc: "不問", office: "月0〜1回" },
                   { type: "リモートファーストスタートアップ", salary: "500〜800万円", loc: "不問", office: "四半期1回" },
                   { type: "大手IT（リモート可）", salary: "600〜900万円", loc: "関東圏", office: "月2〜4回" },
-                  { type: "外資系IT", salary: "800〜1,500万円", loc: "不問が多いです", office: "月0〜2回" },
+                  { type: "外資系IT", salary: "800〜1,500万円", loc: "不問が多い傾向", office: "月0〜2回" },
                   { type: "フリーランス（フルリモート案件）", salary: "月60〜100万円", loc: "不問", office: "なし" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
@@ -121,10 +121,10 @@ export default function RemoteFullPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">フルリモート企業を見極めるポイント</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "「フルリモート」の定義を確認", desc: "完全出社不要なのか、月1回出社ありなのか。「居住地不問」と明記されているかを確認しましょう。" },
-              { num: "2", title: "給与体系を確認", desc: "全国一律給与か、居住地による調整ありか。リモートワーク手当（月5,000〜15,000円）の有無も確認します。" },
+              { num: "1", title: "「フルリモート」の定義を確認", desc: "完全に出社不要なのか、月1回の出社があるのかを確認します。あわせて「居住地不問」と明記されているかも確認しましょう。" },
+              { num: "2", title: "給与体系を確認", desc: "全国一律給与か、居住地による調整があるかを確認します。リモートワーク手当（月5,000〜15,000円）の有無もあわせて確認しましょう。" },
               { num: "3", title: "リモートワークの文化を確認", desc: "非同期コミュニケーション（Slack/Notion）の活用度、ドキュメント文化の充実度を確認しましょう。" },
-              { num: "4", title: "評価制度を確認", desc: "成果ベースの評価制度が整っているか。「可視性が低い=評価されない」にならない仕組みがあるかを確認します。" },
+              { num: "4", title: "評価制度を確認", desc: "成果ベースの評価制度が整っているか、「可視性が低い=評価されない」とならない仕組みがあるかを確認します。" },
               { num: "5", title: "チームビルディング施策を確認", desc: "オフサイトミーティング、オンライン懇親会、1on1の頻度など、孤立感を防ぐ施策があるかを確認します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -144,8 +144,8 @@ export default function RemoteFullPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", point: "フルリモート求人のフィルタリングが可能です。企業のリモート文化の情報も提供しています。" },
-              { name: "Green", point: "リモート求人が豊富です。企業のリモートワーク実態を口コミで確認できます。" },
+              { name: "レバテックキャリア", point: "フルリモート求人に絞り込んで検索でき、企業のリモート文化に関する情報も提供しています。" },
+              { name: "Green", point: "リモート求人が豊富で、企業のリモートワーク実態を口コミで確認できます。" },
               { name: "Reworker", point: "リモートワーク求人に特化した転職サイトです。フルリモート求人を効率的に探せます。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -173,7 +173,7 @@ export default function RemoteFullPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">フルリモート求人を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">フルリモートで働ける優良企業をIT特化型エージェントが提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">フルリモートで働ける企業を、IT特化型エージェントが提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

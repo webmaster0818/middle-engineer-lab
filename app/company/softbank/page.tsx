@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：ソフトバンク転職の難易度と向くエンジニア" },
+  { id: "conclusion", label: "ソフトバンク転職の難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "tech", label: "技術領域・募集職種（AI・5G・DX）" },
@@ -95,7 +95,7 @@ export default function SoftbankCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ソフトバンクの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: ソフトバンク株式会社（9434・提出会社）の平均年間給与は849万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢41.7歳／平均勤続14.5年）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>ソフトバンク株式会社（9434・提出会社）の平均年間給与は849万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢41.7歳／平均勤続14.5年）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 849万円です（2025年3月期 有価証券報告書・提出会社の全社員平均）。エンジニア職限定の数値ではありません。</li><li>・ソフトバンクグループ（9984）とは別法人です。日本経済新聞の企業年収データなど二次情報も同水準（約849万円）です。</li><li>・職種別の公式年収レンジは非公表です。賞与・インセンティブが業績連動で上振れするとの口コミがあります。提示条件は求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
@@ -115,11 +115,11 @@ export default function SoftbankCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ソフトバンク転職の難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ソフトバンク転職の難易度と向いている人</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
-            <p><strong>難易度は中〜高。AI・通信・法人DXを通年で幅広く募集しており、専門性と「スピード文化」への適性が合えば30代・40代にもチャンスが多いです。</strong></p>
-            <p>・<strong>向く人</strong>：AI/ML・データ基盤、5G/通信ネットワーク、クラウド、法人向けSI/DXの実務経験者、スピード重視・新規事業に挑戦したい人です。</p>
-            <p>・<strong>向きにくい人</strong>：腰を据えた長期開発のみを好む人、評価制度・業務量の変動を許容しにくい人です。</p>
+            <p><strong>難易度は中〜高めです。AI・通信・法人DXを通年で幅広く募集しており、専門性と「スピード文化」への適性が合えば30代・40代にも機会が多い傾向にあります。</strong></p>
+            <p>・<strong>向いている人</strong>：AI/ML・データ基盤、5G/通信ネットワーク、クラウド、法人向けSI/DXの実務経験者、スピード重視・新規事業に挑戦したい人です。</p>
+            <p>・<strong>向いていない人</strong>：腰を据えた長期開発のみを好む人、評価制度・業務量の変動を許容しにくい人です。</p>
             <p>・<strong>年収の目安</strong>：全社員平均は849万円です（2025年3月期有価証券報告書）。賞与・インセンティブが業績連動で上振れする傾向との口コミがあります。職種別の公式レンジは非公表です。</p>
           </div>
         </section>
@@ -236,8 +236,8 @@ export default function SoftbankCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量です。大手通信・IT企業の求人を幅広く保有しています。検索とエージェントを併用できます。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。高年収求人比率が高く、AI・クラウドなど先端領域のエンジニア求人に強いです。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。AI・法人DXの上位ポジションのスカウトに出会いやすいです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。高年収求人比率が高く、AI・クラウドなど先端領域のエンジニア求人に強みがあります。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。AI・法人DXの上位ポジションのスカウトに出会いやすくなります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

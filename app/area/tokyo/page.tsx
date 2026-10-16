@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：東京のIT転職市場の特徴" },
+  { id: "conclusion", label: "東京のIT転職市場の特徴" },
   { id: "areas", label: "東京のIT企業集積とエリア特徴" },
   { id: "workstyle", label: "働き方の選択肢（通勤圏・リモート併用）" },
   { id: "fit", label: "東京での転職が向いている人・向いていない人" },
@@ -31,7 +31,7 @@ const areas = [
     name: "渋谷・恵比寿エリア",
     type: "メガベンチャー・Web系",
     feature:
-      "サイバーエージェント、DeNA、ミクシィ、GMOインターネットグループなどの本社・主要拠点が集まる、いわゆる「ビットバレー」。Web/モバイルサービスの自社開発企業が多く、モダンな開発文化を持つ会社が集中する印象が強いエリアです。",
+      "サイバーエージェント、DeNA、ミクシィ、GMOインターネットグループなどの本社・主要拠点が集まり、いわゆる「ビットバレー」と呼ばれるエリアです。Web/モバイルサービスの自社開発企業が多く、モダンな開発文化を持つ会社が集中している印象があります。",
   },
   {
     name: "六本木・赤坂エリア",
@@ -156,18 +156,18 @@ export default function TokyoAreaPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 市場の特徴 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">
-              結論：東京のIT転職市場の特徴
+              東京のIT転職市場の特徴
             </h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
               <li>
-                ・<strong>求人の選択肢が国内最大級です</strong>。企業タイプ（自社開発・受託・SIer・外資・スタートアップ）と技術領域の幅が広く、希望条件に合う求人を探しやすいです。
+                ・<strong>求人の選択肢が国内最大級です</strong>。企業タイプ（自社開発・受託・SIer・外資・スタートアップ）と技術領域の幅が広く、希望条件に合う求人を探しやすくなります。
               </li>
               <li>
-                ・<strong>高年収求人の比率が高い</strong>とされ、年収交渉やキャリアアップの選択肢を取りやすいです。一方で競争も激しいです。
+                ・<strong>高年収求人の比率が高い</strong>とされ、年収交渉やキャリアアップの選択肢を取りやすくなります。一方で競争も激しくなっています。
               </li>
               <li>
                 ・<strong>リモート・ハイブリッドの求人も探せます</strong>が、運用は企業差が大きいため面談での確認が前提です。地方在住からの応募もしやすくなっています。
@@ -196,7 +196,7 @@ export default function TokyoAreaPage() {
             東京のIT企業集積とエリア特徴
           </h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            東京のIT求人は特定の駅・エリアに企業が集まる傾向があります。どのエリアにどんなタイプの企業が多いかを把握しておくと、求人を見る際の解像度が上がります。以下は公開情報をもとにした各エリアの定性的な特徴です（求人数や企業数の具体的な断定は避け、傾向として整理しています）。
+            東京のIT求人は特定の駅・エリアに企業が集まる傾向があります。どのエリアにどんなタイプの企業が多いかを把握しておくと、求人を見る際の判断材料になります。以下は公開情報をもとにした各エリアの定性的な特徴です（求人数や企業数の具体的な断定は避け、傾向として整理しています）。
           </p>
           <div className="space-y-4">
             {areas.map((area, i) => (
@@ -227,7 +227,7 @@ export default function TokyoAreaPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3">
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
-              <p className="text-sm text-slate-600"><strong>出社中心:</strong> 金融系IT、セキュリティ要件の厳しい現場、ハードウェアを扱う領域などで多い傾向です。都心オフィスへの通勤が前提になります。</p>
+              <p className="text-sm text-slate-600"><strong>出社中心:</strong> 金融系IT、セキュリティ要件の厳しい現場、ハードウェアを扱う領域などで多い傾向があります。都心オフィスへの通勤が前提になります。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
@@ -321,7 +321,7 @@ export default function TokyoAreaPage() {
         <section id="company-salary" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">東京本社の主要IT企業と平均年収（有価証券報告書の実額）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            東京（首都圏）に本社を置く主要IT企業の平均年収を、各社の有価証券報告書の実額で並べました。エリアの年収水準を「実在する企業の実額」で掴めます。各社とも当サイトの企業別ガイドで選考情報まで解説しています。
+            東京（首都圏）に本社を置く主要IT企業の平均年収を、各社の有価証券報告書に記載された実額でまとめました。エリアの年収水準を「実在する企業の実額」で把握できます。各社とも当サイトの企業別ガイドで選考情報まで解説しています。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse min-w-[520px]">
@@ -372,7 +372,7 @@ export default function TokyoAreaPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レバテックキャリア（IT/Web特化）</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                IT/Web特化で首都圏中心です。利用者の約8割が20〜30代とされ、高年収求人の比率が高いとされます。書類添削・面接対策の丁寧さやLINEで連絡が完結する点が評価される一方、未経験者には紹介されにくいという声もあります。
+                IT/Web領域に特化し、首都圏の求人を中心に扱っています。利用者の約8割が20〜30代とされ、高年収求人の比率が高いとされます。書類添削・面接対策の丁寧さやLINEで連絡が完結する点が評価される一方、未経験者には紹介されにくいという声もあります。
                 <Link href="/review/levtech/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
@@ -393,7 +393,7 @@ export default function TokyoAreaPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                年収750万円以上をハイクラスと位置づけるスカウト型サービスです。年収1,000万円以上の求人が全体の約4割（二次情報）とされ、外資・管理職に強いとされます。CTOやVPoEなど上位ポジションを狙う層向けです。
+                年収750万円以上をハイクラスと位置づけるスカウト型サービスです。年収1,000万円以上の求人が全体の約4割（二次情報）とされ、外資・管理職に強いとされます。CTOやVPoEなど上位ポジションを狙う層に適しています。
                 <Link href="/review/bizreach-it/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
@@ -451,7 +451,7 @@ export default function TokyoAreaPage() {
               { t: "職務経歴書の準備", d: "担当プロジェクトの規模・役割・技術スタック・成果を具体的に記述します。30代・40代はマネジメントや改善実績も明記します。" },
               { t: "エージェント2〜3社に登録", d: "特化型1〜2社＋総合型1社が基本です。初回面談で希望を伝え、紹介求人の質を見ます。" },
               { t: "求人比較と応募", d: "複数オファーを比較できるよう、応募タイミングをある程度そろえます。リモート運用は面談で必ず確認します。" },
-              { t: "選考・条件交渉", d: "年収・働き方の交渉はエージェントを通すと進めやすいです。複数内定があると交渉余地が広がります。" },
+              { t: "選考・条件交渉", d: "年収・働き方の交渉はエージェントを通すと進めやすくなります。複数内定があると交渉余地が広がります。" },
             ].map((s, i) => (
               <li key={i} className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold shrink-0">{i + 1}</span>
@@ -472,8 +472,8 @@ export default function TokyoAreaPage() {
               東京は若手向け求人の印象が強い一方、ミドル層にとっても選択肢の多いエリアです。経産省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれており、経験者の需要は底堅いと考えられます。30代・40代の強みは、特定領域の深い実務経験とマネジメント・調整力です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価されやすい時期です。リードエンジニアやテックリードのポジションで年収を伸ばしやすいです。<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link></li>
-              <li>・<strong>40代</strong>：マネジメント・アーキテクト・特定ドメインの専門性が強みです。求人数は絞られますが、ハイクラス・スカウト型の活用で道が開けます。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link></li>
+              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価されやすい時期です。リードエンジニアやテックリードのポジションで年収を伸ばしやすくなります。<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link></li>
+              <li>・<strong>40代</strong>：マネジメント・アーキテクト・特定ドメインの専門性が強みです。求人数は絞られますが、ハイクラス・スカウト型を活用すると選択肢を確保しやすくなります。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link></li>
               <li>・東京の生活コストの高さは、リモート併用で近郊（神奈川・埼玉・千葉）に住む選択で緩和できる場合があります。</li>
             </ul>
           </div>

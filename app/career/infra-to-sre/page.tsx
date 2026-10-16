@@ -12,7 +12,7 @@ const URL = "/career/infra-to-sre/";
 export const metadata: Metadata = { alternates: { canonical: "/career/infra-to-sre/" }, title: TITLE, description: DESC };
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と進め方" },
+  { id: "conclusion", label: "現実性と進め方" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -25,8 +25,8 @@ const toc = [
 ];
 
 const gapRows = [
-  { axis: "サーバー・ネットワーク運用", infra: "◎ 構築・運用が主業務", sre: "○ 前提知識として活きます（信頼性視点が加わる）", gap: "活用" },
-  { axis: "プログラミング（Go/Python）", infra: "△ シェル中心で本格開発は少なめ", sre: "◎ 運用自動化をコードで実装します", gap: "大" },
+  { axis: "サーバー・ネットワーク運用", infra: "◎ 構築・運用が主業務", sre: "○ 前提知識として活用可能（信頼性視点が加わる）", gap: "活用" },
+  { axis: "プログラミング（Go/Python）", infra: "△ シェル中心で本格開発は少なめ", sre: "◎ 運用自動化のコード実装", gap: "大" },
   { axis: "IaC（Terraform等）", infra: "○ 導入現場では経験あり", sre: "◎ インフラ全体をコード管理する前提", gap: "中" },
   { axis: "監視・SLI/SLO設計", infra: "○ 死活監視・アラート運用の経験", sre: "◎ SLO設計とエラーバジェット運用が中核", gap: "中" },
   { axis: "ソフトウェアエンジニアリング思考", infra: "△ 手順書・手作業文化が残る場合も", sre: "◎ トイル削減を開発として進める姿勢", gap: "大" },
@@ -47,14 +47,14 @@ const migrationSteps = [
 ];
 
 const agents = [
-  { name: "レバテックキャリア", point: "IT/Web特化で技術に詳しいアドバイザーが在籍しています。SRE系ポジションの要件をすり合わせやすく、インフラ出身者の強みを活かす求人提案に向きます。", href: "/review/levtech/" },
-  { name: "ビズリーチ", point: "ハイクラス・スカウト型です。SRE求人のスカウトを受けることで、自分の運用経験が市場でどう評価されるかを客観的に把握できます。", href: "/review/bizreach-it/" },
-  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数です。大手からスタートアップまでSRE/インフラ求人を幅広く比較でき、選択肢を確保しやすいです。", href: "/review/recruit-it/" },
+  { name: "レバテックキャリア", point: "IT/Web領域に特化しており、技術に詳しいアドバイザーが在籍しています。SRE系ポジションの要件をすり合わせやすく、インフラ出身者の強みを活かす求人提案に向きます。", href: "/review/levtech/" },
+  { name: "ビズリーチ", point: "ハイクラス向けのスカウト型サービスです。SRE求人のスカウトを受けることで、自分の運用経験が市場でどう評価されるかを客観的に把握できます。", href: "/review/bizreach-it/" },
+  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数を保有しています。大手からスタートアップまでSRE/インフラ求人を幅広く比較でき、選択肢を確保しやすくなります。", href: "/review/recruit-it/" },
 ];
 
 const faqs = [
   { q: "インフラエンジニアからSREへの転職は可能？", a: "インフラ運用の経験は有力な出発点です。不足しがちなのはプログラミングとIaC、SLO設計の経験であるため、在職中に手作業を自動化した実績を作り、Go/Pythonでのツール開発をポートフォリオ化すると移行しやすくなります。" },
-  { q: "SREとインフラエンジニアの違いは？", a: "インフラエンジニアはサーバー・ネットワークの構築運用が中心ですが、SREはソフトウェアエンジニアリングのアプローチで信頼性を高めます。SLI/SLOの設定、トイル削減、自動化が主要業務で、運用課題をコードで解く点が大きな違いです。" },
+  { q: "SREとインフラエンジニアの違いは？", a: "インフラエンジニアはサーバー・ネットワークの構築運用が中心ですが、SREはソフトウェアエンジニアリングのアプローチで信頼性を高めます。SLI/SLOの設定、トイル削減、自動化が主要業務で、運用課題をコードで解く点に大きな違いがあります。" },
   { q: "プログラミングはどれくらいできれば応募できる？", a: "Go・Python・Bashでの自動化スクリプト作成が最低限で、加えてTerraform等のIaC、CI/CDパイプライン構築の経験が求められます。アプリ機能開発ほど高度でなくても、運用基盤を自分で書ける水準は必要です。" },
   { q: "資格は必要？", a: "必須ではありませんが、AWS SAP・GCP Professional Cloud Architect・CKA（Certified Kubernetes Administrator）が代表的で、独学スキルの客観的証明として書類選考で有効に働きます。" },
   { q: "オンコール対応は大変？", a: "オンコールは多くのSREチームで必要ですが、ローテーション制が一般的です。SLOベースで不要アラートを減らす取り組みも進んでいるため、面接時に運用負荷やオンコール体制を確認しておくとミスマッチを防げます。" },
@@ -128,10 +128,10 @@ export default function InfraToSrePage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：運用経験は土台になります。鍵は「コードで解く力」</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">運用経験が土台。重点は「コードで解く力」</h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・サーバー運用・障害対応の経験はそのまま活きます。SREは運用知見のあるミドル層が評価されやすいです。</li>
-              <li>・ギャップが大きいのは「プログラミング」と「SLO設計」。手作業をコード化した実績が決め手になります。</li>
+              <li>・サーバー運用・障害対応の経験はそのまま活きます。SREは運用知見のあるミドル層が評価されやすい傾向があります。</li>
+              <li>・ギャップが大きいのは「プログラミング」と「SLO設計」です。手作業をコード化した実績が重要な判断材料になります。</li>
               <li>・職務経歴書は『監視した・対応した』から『信頼性をどう改善し、何を自動化したか』へ書き換えます。</li>
             </ul>
           </div>
@@ -208,13 +208,13 @@ export default function InfraToSrePage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（運用作業の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                AWS上のWebシステムの運用保守を担当。サーバーの監視、障害発生時の対応、定期的なバックアップ、ミドルウェアのバージョンアップを実施します。手順書に沿ってメンテナンス作業を行った。
+                AWS上のWebシステムの運用保守を担当。サーバーの監視、障害発生時の対応、定期的なバックアップ、ミドルウェアのバージョンアップを実施。手順書に沿ってメンテナンス作業を行った。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（信頼性改善と自動化を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                AWS上のWebシステムの信頼性向上を担当。手動のデプロイ・バックアップ作業をTerraformとPythonでコード化し定常作業の工数を削減。主要APIにSLI/SLOを定義してダッシュボードを整備し、アラート優先度を見直したことで夜間の不要アラートと対応負荷を低減。障害対応では原因分析と再発防止策の自動化まで担当しました。
+                AWS上のWebシステムの信頼性向上を担当。手動のデプロイ・バックアップ作業をTerraformとPythonでコード化し定常作業の工数を削減。主要APIにSLI/SLOを定義してダッシュボードを整備し、アラート優先度を見直したことで夜間の不要アラートと対応負荷を低減。障害対応では原因分析と再発防止策の自動化まで担当。
               </p>
             </div>
           </div>

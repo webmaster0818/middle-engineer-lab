@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：インフラ転職市場での進め方" },
+  { id: "conclusion", label: "インフラ転職市場での進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "cert", label: "評価される資格" },
   { id: "level", label: "求められる経験レベル" },
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     q: "40代のインフラエンジニアでも転職できますか？",
-    a: "インフラ領域は経験がものを言う分野のため、ミドル層でも需要は安定しています。レバテック公表の正社員SE年代別平均は40代約618万円、年収1,000万円以上の割合は40代で12.67%です（2025年）。クラウド移行のリード、セキュリティ設計、大規模インフラの設計経験があると評価されやすいです。",
+    a: "インフラ領域は経験がものを言う分野のため、ミドル層でも需要は安定しています。レバテック公表の正社員SE年代別平均は40代約618万円、年収1,000万円以上の割合は40代で12.67%です（2025年）。クラウド移行のリード、セキュリティ設計、大規模インフラの設計経験があると評価されやすい傾向があります。",
   },
 ];
 
@@ -62,10 +62,10 @@ const salaryTable = [
 ];
 
 const certTable = [
-  ["クラウド（AWS）", "Solutions Architect Associate/Professional", "国内求人数が最多。まず狙う中心"],
-  ["クラウド（Azure）", "Azure Administrator Associate など", "金融・大手・官公庁で評価されやすいです"],
+  ["クラウド（AWS）", "Solutions Architect Associate/Professional", "国内求人数が最多。最初に取得を目指す中心資格"],
+  ["クラウド（Azure）", "Azure Administrator Associate など", "金融・大手・官公庁で評価されやすい傾向"],
   ["クラウド（GCP）", "Professional Cloud Architect", "データ分析・AI領域で需要"],
-  ["基礎（Linux）", "LinuC / LPIC", "OS・運用の基礎力を示します"],
+  ["基礎（Linux）", "LinuC / LPIC", "OS・運用の基礎力の証明"],
 ];
 
 export default function InfrastructureSkillPage() {
@@ -128,7 +128,7 @@ export default function InfrastructureSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：インフラ転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">インフラ転職市場での進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               インフラエンジニアの転職は、<strong>「オンプレ運用」から「クラウド設計・自動化・信頼性」へ役割を上げて見せられるか</strong>で年収が変わります。進め方は次の3点です。
@@ -203,9 +203,9 @@ export default function InfrastructureSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "運用・構築層", d: "サーバー/ネットワーク/OSの構築・運用、監視、障害対応。オンプレ経験はクラウド移行で活きます。" },
-              { t: "クラウド設計層", d: "AWS/Azure上での冗長化設計、IaC（Terraform/CloudFormation）、コンテナです（Docker/Kubernetes）。年収帯が一段上がります。" },
-              { t: "アーキテクト/SRE層", d: "マルチクラウド設計、SLI/SLO、コスト最適化、セキュリティガバナンスです。Professional認定やコーディング力が後押し。" },
+              { t: "運用・構築層", d: "サーバー/ネットワーク/OSの構築・運用、監視、障害対応が中心です。オンプレ経験はクラウド移行で活きます。" },
+              { t: "クラウド設計層", d: "AWS/Azure上での冗長化設計、IaC（Terraform/CloudFormation）、コンテナ（Docker/Kubernetes）が求められます。年収帯が一段上がります。" },
+              { t: "アーキテクト/SRE層", d: "マルチクラウド設計、SLI/SLO、コスト最適化、セキュリティガバナンスを担います。Professional認定やコーディング力が後押しになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -248,17 +248,17 @@ export default function InfrastructureSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化です。クラウドインフラ・SRE求人が豊富で、自社開発企業のインフラ求人も多く扱います。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化型のエージェントです。クラウドインフラ・SRE求人が豊富で、自社開発企業のインフラ求人も多く扱います。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
-              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数です（IT公開求人110,840件・2026年5月22日時点・二次集計）。大手・金融のクラウド移行案件まで幅広く見られます。</p>
+              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数を保有しています（IT公開求人110,840件・2026年5月22日時点・二次集計）。大手・金融のクラウド移行案件まで幅広く見られます。</p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型です。クラウドアーキテクトやSREリード層を狙う場合に有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">ハイクラス向けのスカウト型サービスです。クラウドアーキテクトやSREリード層を目指す場合に有効です。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -271,9 +271,9 @@ export default function InfrastructureSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">オンプレからクラウドへの転向ルート</h2>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "土台の棚卸し", d: "ネットワーク・Linux・セキュリティの経験を整理します。クラウドでもそのまま価値になります。" },
+              { n: "STEP 1", t: "土台の棚卸し", d: "ネットワーク・Linux・セキュリティの経験を整理します。これらはクラウドでもそのまま活かせます。" },
               { n: "STEP 2", t: "SAA取得＋ハンズオン", d: "AWS Solutions Architect Associateを取得し、無料利用枠でVPC/EC2/S3/IAMの小構成を自作します。" },
-              { n: "STEP 3", t: "IaC・コンテナで自動化", d: "Terraformで構成をコード化、Dockerでコンテナ化です。手作業から自動化への移行を体験します。" },
+              { n: "STEP 3", t: "IaC・コンテナで自動化", d: "Terraformで構成をコード化し、Dockerでコンテナ化します。手作業から自動化への移行を経験します。" },
               { n: "STEP 4", t: "移行ストーリーで応募", d: "前職のオンプレ運用経験を『移行プロジェクトで活きる経験』として職務経歴書に落とし込みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -297,7 +297,7 @@ export default function InfrastructureSkillPage() {
               ミドル層のインフラ転職では、<strong>経験の蓄積がそのまま強みになる</strong>のがこの領域の特徴です。障害対応・移行プロジェクトのリード・セキュリティ設計といった経験は、若手では代替しにくい価値になります。
             </p>
             <p>
-              年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%です（2025年）。一方で「特定企業のレガシー運用に最適化されすぎた経験」は横展開しにくいため、クラウド・IaCという汎用スキルへ寄せておくのが転職市場での保険になります。
+              年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%です（2025年）。一方で「特定企業のレガシー運用に最適化されすぎた経験」は横展開しにくいため、クラウド・IaCという汎用スキルへ寄せておくことが転職市場でのリスクへの備えになります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
@@ -308,11 +308,11 @@ export default function InfrastructureSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ クラウド（まずAWS）を軸に、SAA → 実務 → Professional の順で積む</li>
-            <li>✓ IaC（Terraform）を習得し、手作業からコード管理へ移行する</li>
-            <li>✓ コンテナ（Docker/Kubernetes）とCI/CDで自動化スキルを上乗せ</li>
-            <li>✓ SRE方向ならGo/Pythonとオブザーバビリティを学ぶ</li>
-            <li>✓ 学んだことは小さな成果物にして可視化する</li>
+            <li>✓ クラウド（まずAWS）を軸に、SAA → 実務 → Professional の順で積みます</li>
+            <li>✓ IaC（Terraform）を習得し、手作業からコード管理へ移行します</li>
+            <li>✓ コンテナ（Docker/Kubernetes）とCI/CDで自動化スキルを上乗せします</li>
+            <li>✓ SRE方向ならGo/Pythonとオブザーバビリティを学びます</li>
+            <li>✓ 学んだことは小さな成果物にして可視化します</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>をご参照ください。
@@ -337,7 +337,7 @@ export default function InfrastructureSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">インフラスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            クラウド・SRE求人に強いIT特化型エージェントで、ご自身のスキルの市場価値を確認しましょう。
+            クラウド・SRE求人を扱うIT特化型エージェントで、ご自身のスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

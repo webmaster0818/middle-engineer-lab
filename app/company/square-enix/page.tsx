@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/square-enix/" },
   title: "スクウェア・エニックス エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
-    "スクウェア・エニックスへのエンジニア転職を実データで解説します。有価証券報告書の数字（持株会社9684は提出会社27名平均1,427万円）の落とし穴、C++中心の内製エンジン技術スタック、選考フロー、30代40代の現実までまとめました。",
+    "スクウェア・エニックスへのエンジニア転職を実データで解説します。有価証券報告書の数字（持株会社9684は提出会社27名平均1,427万円）の注意点、C++中心の内製エンジン技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -30,7 +30,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもスクウェア・エニックスに転職できますか？",
-    a: "中途採用では大規模開発から運用まで多様なプロジェクトがあり、特定領域（グラフィックス、サーバー、ツール等）の専門性や開発実績があれば年齢自体は大きなハンデになりにくい傾向です。提出会社の平均年齢が47.1歳と高めなのは少人数の持株会社の数字である点に注意してください。",
+    a: "中途採用では大規模開発から運用まで多様なプロジェクトがあり、特定領域（グラフィックス、サーバー、ツール等）の専門性や開発実績があれば年齢自体は大きなハンデになりにくい傾向があります。提出会社の平均年齢が47.1歳と高めなのは少人数の持株会社の数字である点に注意してください。",
   },
   {
     q: "持株会社と事業会社のどちらに応募することになりますか？",
@@ -87,7 +87,7 @@ export default function SquareEnixCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="スクウェア・エニックス エンジニア転職ガイド" description="スクウェア・エニックスへのエンジニア転職を実データで解説します。有価証券報告書の数字（持株会社9684は提出会社27名平均1,427万円）の落とし穴、C++中心の内製エンジン技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/square-enix/" />
+      <ArticleJsonLd title="スクウェア・エニックス エンジニア転職ガイド" description="スクウェア・エニックスへのエンジニア転職を実データで解説します。有価証券報告書の数字（持株会社9684は提出会社27名平均1,427万円）の注意点、C++中心の内製エンジン技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/square-enix/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "スクウェア・エニックス" }]} />
 
@@ -98,7 +98,7 @@ export default function SquareEnixCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】スクウェア・エニックスの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 有価証券報告書上の平均年間給与は1,427万円ですが、これは持株会社スクウェア・エニックス・ホールディングス（9684・提出会社、対象27名の全社員平均、平均年齢47.1歳、2022年3月期）の数値で、ゲーム開発現場の水準ではありません。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>有価証券報告書上の平均年間給与は1,427万円ですが、これは持株会社スクウェア・エニックス・ホールディングス（9684・提出会社、対象27名の全社員平均、平均年齢47.1歳、2022年3月期）の数値で、ゲーム開発現場の水準ではありません。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・持株会社=提出会社の平均年間給与 1,427万円です（2022年3月期 有価証券報告書、対象27名の少数）。事業会社（株式会社スクウェア・エニックス）の従業員は含まれません。</li><li>・推移は2018年3月期1,391万円、2020年3月期1,487万円、2022年3月期1,427万円です（各期 有価証券報告書・持株会社）。</li><li>・実際にゲームを開発するのは事業会社で、エンジニアの提示額はポジション・等級により個別です。求人で確認が必要です。</li></ul>
         </div>
 
@@ -117,14 +117,14 @@ export default function SquareEnixCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              スクウェア・エニックスは<strong>C++を中心とした大規模ゲーム開発に、特定領域の専門性で貢献するエンジニア</strong>を求めています。大規模コンシューマからソーシャルゲームまでプロジェクトが広く、在籍エンジニアのレベルは高めです。一方、有価証券報告書の高年収（1,427万円）は持株会社の数字で、開発現場の水準とは別物である点に注意が必要です。
+              スクウェア・エニックスは<strong>C++を中心とした大規模ゲーム開発に、特定領域の専門性で貢献するエンジニア</strong>を求めています。大規模コンシューマからソーシャルゲームまでプロジェクトが広く、在籍エンジニアのレベルは高めです。一方、有価証券報告書の高年収（1,427万円）は持株会社の数字で、開発現場の水準とは異なる点に注意が必要です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：C/C++等での実務経験があり、レンダリング・ツール・サーバー等の専門性を深めたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：Web系の高速な技術更新やフルリモート前提を強く希望する人</li>
-              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢はハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢はハンデになりにくい傾向</li>
             </ul>
           </div>
         </section>
@@ -268,7 +268,7 @@ export default function SquareEnixCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。ゲーム企業の求人も扱い、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム業界の実務経験者への提案に強いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム業界の実務経験者への提案に強みがあります。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

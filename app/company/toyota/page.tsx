@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：トヨタ転職の難易度と向くエンジニア" },
+  { id: "conclusion", label: "トヨタ転職の難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "tech", label: "技術スタック・開発組織（Woven by Toyota）" },
@@ -95,7 +95,7 @@ export default function ToyotaCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】トヨタ自動車の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: トヨタ自動車（提出会社単体）の平均年間給与は983万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢40.7歳）。ソフトウェア子会社Woven by Toyotaのエンジニア報酬は別水準です。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>トヨタ自動車（提出会社単体）の平均年間給与は983万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢40.7歳）。ソフトウェア子会社Woven by Toyotaのエンジニア報酬は別水準です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 983万円です（2025年3月期 有価証券報告書・提出会社単体、平均勤続15.6年）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・Woven by Toyotaのソフトウェアエンジニア報酬は年1,000万円台〜2,000万円超（中央値1,400万円台。Levels.fyi・2026年6月確認の二次集計で、個人報告に基づく目安です）。</li><li>・トヨタ本体・Woven by Toyotaとも等級別年収は非公表です。提示額は経験・ポジションで変動するため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
@@ -115,11 +115,11 @@ export default function ToyotaCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：トヨタ転職の難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">トヨタ転職の難易度と向いている人</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
             <p><strong>難易度は高めです。特にWoven by Toyotaは外資テック型の選考で、英語・コーディング・行動面接の準備が必須です。</strong></p>
-            <p>・<strong>向く人</strong>：自動運転・組み込み・車載ソフトウェア・クラウド基盤の実務経験者、英語での開発に抵抗がない人、社会インフラ規模のスケールに魅力を感じる人です。</p>
-            <p>・<strong>向きにくい人</strong>：英語の選考・業務を避けたい人（→トヨタ本体の日本語ポジションを検討）、短サイクルのWebプロダクトのみを志向する人です。</p>
+            <p>・<strong>向いている人</strong>：自動運転・組み込み・車載ソフトウェア・クラウド基盤の実務経験者、英語での開発に抵抗がない人、社会インフラ規模の開発に関心がある人です。</p>
+            <p>・<strong>向いていない人</strong>：英語の選考・業務を避けたい人（→トヨタ本体の日本語ポジションを検討）、短サイクルのWebプロダクトのみを志向する人です。</p>
             <p>・<strong>年収の目安</strong>：トヨタ本体の全社員平均は983万円です（2025年3月期有価証券報告書）。Woven by Toyotaのソフトウェアエンジニア報酬は二次集計で1,000万円台〜2,000万円超です（Levels.fyi、目安）。</p>
           </div>
         </section>
@@ -199,7 +199,7 @@ export default function ToyotaCompanyPage() {
               ["書類選考", "職務経歴・成果が事業やチームに与えたインパクトが見られます。"],
               ["テイクホーム課題", "数時間規模の課題を1週間以内に提出します（Woven by Toyota）。"],
               ["技術面接", "ソフトウェア設計・アルゴリズム・データ構造などをライブコーディング含めて確認します。"],
-              ["行動面接（バリュー）", "企業バリューや問題解決アプローチを問う、外資テック型の面接。"],
+              ["行動面接（バリュー）", "企業バリューや問題解決アプローチを問う、外資テック型の面接が行われます。"],
               ["内定・条件提示", "オファー提示を経て決定します。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
@@ -229,7 +229,7 @@ export default function ToyotaCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たトヨタ転職</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>Woven by Toyotaはジョブ型・専門性重視のため、<strong>30代・40代の即戦力エンジニア</strong>が応募しやすい構造です。自動運転・組み込み・大規模基盤など特定領域の深い経験は、ミドル層の強みになります。ただし英語での選考・業務が前提のポジションが多く、語学準備の有無が結果を左右します。</p>
-            <p>英語の選考に不安がある場合は、トヨタ本体や国内グループ会社の日本語ポジションも選択肢です。製造業の現場・品質・組み込み経験を持つエンジニアは、車載ソフトウェアの機能安全領域などで現場知識を強みにできます。<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業からのIT転職ガイド</Link>で、その経験の活かし方を整理しておくと志望動機が強くなります。</p>
+            <p>英語の選考に不安がある場合は、トヨタ本体や国内グループ会社の日本語ポジションも選択肢です。製造業の現場・品質・組み込み経験を持つエンジニアは、車載ソフトウェアの機能安全領域などで現場知識を強みにできます。<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業からのIT転職ガイド</Link>で、その経験の活かし方を整理しておくと志望動機の説得力が増します。</p>
             <p>40代でテックカンパニー型の選考に臨む場合、ブランクのあるアルゴリズム・コーディング対策を早めに始めることが重要です。年代別の留意点は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>を参考にしてください。</p>
           </div>
         </section>
@@ -239,8 +239,8 @@ export default function ToyotaCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量です。トヨタ本体・グループ会社の幅広い求人を保有しています。検索とエージェントを併用できます。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。高年収求人比率が高く、Woven by Toyotaのような先進的なソフトウェア組織の求人にも強いです。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。Woven by Toyotaなど高報酬ポジションのスカウトに出会いやすいです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。高年収求人比率が高く、Woven by Toyotaのような先進的なソフトウェア組織の求人にも強みがあります。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。Woven by Toyotaなど高報酬ポジションのスカウトに出会いやすくなります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

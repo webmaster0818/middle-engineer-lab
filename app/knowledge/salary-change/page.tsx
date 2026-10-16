@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職で年収は上がるのか" },
+  { id: "conclusion", label: "転職で年収は上がるのか" },
   { id: "data", label: "転職と年収のデータ（出典付き）" },
   { id: "up", label: "年収アップを実現する人の特徴" },
   { id: "down", label: "年収が下がるケースと対策" },
@@ -26,23 +26,23 @@ const toc = [
 
 const upFeatures = [
   {
-    title: "市場価値の高いスキルを持っている",
+    title: "市場価値の高いスキルを持っている人",
     desc: "クラウド（AWS/GCP）、コンテナ（Docker/Kubernetes）、需要の伸びている言語・領域のスキルは、転職市場で評価されやすく、年収交渉の材料になります。",
   },
   {
-    title: "複数のエージェント・求人を比較している",
+    title: "複数のエージェント・求人を比較している人",
     desc: "複数社の選考を並行し、提示を比較する人ほど、結果的に良い条件を引き出しやすい傾向があります。1社のみだと相場が分からず、交渉の材料も不足します。",
   },
   {
-    title: "実績を数値で説明できる",
+    title: "実績を数値で説明できる人",
     desc: "「改善した」ではなく「レスポンスタイムを40%短縮した」のように定量的に語れると、適正な評価を受けやすくなります。",
   },
   {
-    title: "年収だけでなく総合パッケージで判断する",
+    title: "年収だけでなく総合パッケージで判断する人",
     desc: "基本給・賞与・ストックオプション・福利厚生・リモート可否・残業時間まで含めて判断する人は、満足度の高い転職を実現しやすくなります。",
   },
   {
-    title: "年収交渉をエージェントに任せている",
+    title: "年収交渉をエージェントに任せている人",
     desc: "エージェントは企業の予算感を把握しており、候補者本人より交渉を進めやすい立場にあります。直接言いにくい条件のすり合わせも代行してもらえます。",
   },
 ];
@@ -56,12 +56,12 @@ const downCases = [
   {
     case_name: "マネジメント → プレイヤー",
     desc: "管理職から現場エンジニアに戻ると、役職手当の分だけ年収が下がることがあります。",
-    advice: "テックリードなど技術とマネジメントのハイブリッド職を狙うと、年収を維持しやすいです。",
+    advice: "テックリードなど技術とマネジメントのハイブリッド職を狙うと、年収を維持しやすくなります。",
   },
   {
     case_name: "異業種 → IT業界（未経験要素が大きい）",
     desc: "前職の経験がそのまま評価されにくい移り方をすると、一時的に年収が下がる傾向があります。",
-    advice: "前職の業界知識が活きるDX推進ポジションなどを選ぶと、年収ダウンを抑えやすいです。",
+    advice: "前職の業界知識が活きるDX推進ポジションなどを選ぶと、年収ダウンを抑えやすくなります。",
   },
 ];
 
@@ -143,7 +143,7 @@ export default function SalaryChangePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニア転職で年収は上がる？下がる？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: dodaの決定年収レポート（2024年度・2025年5月公表）では転職者の約6割が年収アップを実現しており、データ上は年収アップの有力な手段です（ただし全員が上がるわけではありません）。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>dodaの決定年収レポート（2024年度・2025年5月公表）では転職者の約6割が年収アップを実現しており、データ上は年収アップの有力な手段です（ただし全員が上がるわけではありません）。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・IT・通信の平均決定年収は469万円（2023年度）から486万円（2024年度）へ上昇</li><li>・上がる人の共通点は、市場価値の高いスキル・複数社の比較・実績を数値で語る・交渉をエージェントに任せること</li><li>・下がりやすいのは、安定企業からアーリーステージのスタートアップ、マネジメントからプレイヤー、評価されにくい異業種転職</li></ul>
           </div>
         </section>
@@ -177,7 +177,7 @@ export default function SalaryChangePage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職で年収は上がるのか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職で年収は上がるのか</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               パーソルキャリア（doda）の2024年度「決定年収レポート」（2025年5月公表）によると、<strong>転職者の約6割が年収アップ</strong>を実現しています。IT・通信の平均決定年収は<strong>469万円（2023年度）→486万円（2024年度）</strong>へ上昇しました。データ上、転職は年収アップの有力な手段といえます。
@@ -221,7 +221,7 @@ export default function SalaryChangePage() {
             </table>
           </div>
           <p className="text-xs text-slate-500">
-            ※ dodaの決定年収レポートはパーソルキャリアの公表値。レバテックの年代別平均はcareer.levtech.jp / freelance.levtech.jpガイド記事です（2025年）。数値は時期により変動します。
+            ※ dodaの決定年収レポートはパーソルキャリアの公表値、レバテックの年代別平均はcareer.levtech.jp / freelance.levtech.jpガイド記事（2025年）にもとづきます。数値は時期により変動します。
           </p>
         </section>
 

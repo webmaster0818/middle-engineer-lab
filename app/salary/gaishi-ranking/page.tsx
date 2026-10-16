@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     q: "MetaやStripeなど他の外資は掲載しないのですか？",
-    a: `掲載しない理由はデータがないためです。${SURVEYED}時点のlevels.fyiでは、Meta・SAP・Cisco・Adobe・Datadog・Stripe・Elasticの日本拠点ソフトウェアエンジニア集計は表示されませんでした（投稿不足）。推計で埋めることはせず、実測できた企業のみ掲載しています（Salesforce・NVIDIA・オラクルは前回値を日付つきの参考値として別掲）。`,
+    a: `掲載しない理由はデータがないためです。${SURVEYED}時点のlevels.fyiでは、Meta・SAP・Cisco・Adobe・Datadog・Stripe・Elasticの日本拠点ソフトウェアエンジニア集計は表示されませんでした（投稿不足）。推計で埋めることはせず、実測できた企業のみ掲載しています（Salesforce・NVIDIA・オラクルは前回値を日付を明記した参考値として別掲）。`,
   },
 ];
 
@@ -81,7 +81,7 @@ export default function GaishiRankingPage() {
         </h1>
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】外資ITの日本拠点エンジニア年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: levels.fyiの日本拠点ソフトウェアエンジニア集計（{SURVEYED}に当サイト実測・円換算）では、総報酬の中央値はApple 約2,861万円＞Google 約2,560万円＞Indeed 約2,404万円＞Microsoft 約1,882万円＞Amazon 約1,802万円です。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>levels.fyiの日本拠点ソフトウェアエンジニア集計（{SURVEYED}に当サイト実測・円換算）では、総報酬の中央値はApple 約2,861万円＞Google 約2,560万円＞Indeed 約2,404万円＞Microsoft 約1,882万円＞Amazon 約1,802万円です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
             <li>・金額は基本給＋株式（RSU）＋賞与の<strong>総報酬です</strong>。国内企業の有価証券報告書平均年収（現金ベース）とは性質が異なります</li>
             <li>・すべて投稿集計値でサンプル数を併記します。サンプルが少ない企業は参考値として分離しています</li>

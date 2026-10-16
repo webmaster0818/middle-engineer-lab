@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：CKAは誰に効く資格か" },
+  { id: "conclusion", label: "CKAはどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・有効期限）" },
   { id: "salary", label: "保有者の年収相場と注意点" },
   { id: "scenes", label: "転職で評価される具体場面" },
   { id: "jobs", label: "活きるポジション" },
   { id: "position", label: "実技資格としての活用戦略" },
-  { id: "middle", label: "30代・40代の価値＝経験者の加点装置" },
+  { id: "middle", label: "30代・40代にとっての価値" },
   { id: "steps", label: "取得3ステップ／次に狙う資格" },
   { id: "faq", label: "よくある質問" },
 ];
@@ -29,7 +29,7 @@ const toc = [
 const faqs = [
   {
     q: "CKAは40代の転職で意味がありますか？",
-    a: "意味があります。CKAは知識穴埋めではなく、実際にコマンドラインでKubernetesクラスタを操作する実技試験です。そのため『コンテナ基盤を実務で扱える』ことを直接的に証明でき、すでにインフラ・DevOps経験のある30〜40代がコンテナ基盤の専門性を示す加点材料として機能します。ただし資格単体ではなく、実際の運用経験とセットで効く点が前提です。",
+    a: "意味があります。CKAは知識の穴埋め問題ではなく、実際にコマンドラインでKubernetesクラスタを操作する実技試験です。そのため『コンテナ基盤を実務で扱える』ことを直接的に証明でき、すでにインフラ・DevOps経験のある30〜40代がコンテナ基盤の専門性を示す加点材料として機能します。ただし資格単体ではなく、実際の運用経験と組み合わせて評価される点が前提です。",
   },
   {
     q: "CKAの受験料はいくらですか？",
@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "CKAに有効期限はありますか？",
-    a: "あります。CKA認定の有効期限は取得から2年です。維持するには、有効期限内に当時の最新バージョンの試験に再度合格する必要があります（Linux Foundation公式、2026年6月時点）。Kubernetesはバージョンの進化が速いため、2年ごとの再認定は最新仕様へのキャッチアップという意味でも実務的な意義があります。",
+    a: "あります。CKA認定の有効期限は取得から2年です。維持するには、有効期限内に当時の最新バージョンの試験に再度合格する必要があります（Linux Foundation公式、2026年6月時点）。Kubernetesはバージョンの進化が速いため、2年ごとの再認定は最新仕様を習得するという意味でも実務的な意義があります。",
   },
   {
     q: "CKAの試験形式は知識問題ですか？",
@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "CKAの合格率はどのくらいですか？",
-    a: "CNCF／Linux Foundationは試験ごとの合格率を公表していません。したがって当サイトでは具体的な合格率の数値は提示しません（創作を避けるため）。実技試験のため、ドキュメント参照に慣れ、kubectl操作を体に覚えさせるハンズオン中心の対策が有効とされます。",
+    a: "CNCF／Linux Foundationは試験ごとの合格率を公表していません。したがって当サイトでは具体的な合格率の数値は提示しません（創作を避けるため）。実技試験のため、ドキュメント参照に慣れ、kubectl操作に習熟するためのハンズオン中心の対策が有効とされます。",
   },
   {
     q: "CKADやCKSとは何が違いますか？",
@@ -59,9 +59,9 @@ const overviewTable = [
   ["受験料", "445 USD（試験のみ・標準価格／バンドルは別途）"],
   ["試験形式", "実技（CLIでの課題解決）・オンライン監督"],
   ["試験時間", "2時間"],
-  ["再試験", "受験パッケージに1回分の再受験を含みます"],
+  ["再試験", "受験パッケージに1回分の再受験を含む"],
   ["有効期限", "2年（最新版試験への再合格で更新）"],
-  ["合格率", "CNCF非公表（当サイトは創作しません）"],
+  ["合格率", "CNCF非公表（当サイトでは数値を創作せず）"],
 ];
 
 export default function CkaCertPage() {
@@ -99,7 +99,7 @@ export default function CkaCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          CKA（Certified Kubernetes Administrator）は、CNCF／Linux Foundationが認定する<strong>Kubernetes管理者向けの実技試験</strong>です。本記事は「CKAを取れば転職で有利になるか」という疑問に対し、<strong>知識の暗記ではなく『コンテナ基盤を実務で扱える』ことを直接証明する加点資格</strong>という性格を軸に、その価値を公式情報をもとに整理します。資格単体では年収は跳ねないという留意点もご説明します。
+          CKA（Certified Kubernetes Administrator）は、CNCF／Linux Foundationが認定する<strong>Kubernetes管理者向けの実技試験</strong>です。本記事は「CKAを取れば転職で有利になるか」という疑問に対し、<strong>知識の暗記ではなく『コンテナ基盤を実務で扱える』ことを直接証明する加点資格</strong>という性格を軸に、その価値を公式情報をもとに整理します。資格単体では年収が大きく上がるわけではないという留意点についてもご説明します。
         </p>
 
         <DataNote
@@ -127,14 +127,14 @@ export default function CkaCertPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：CKAは誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">CKAはどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              CKAは<strong>「コンテナ基盤実務の加点資格」</strong>です。暗記型の知識資格とは性格が異なり、実際にクラスタを操作する実技試験であるため、すでにインフラ・DevOps経験のあるミドルが<strong>コンテナ基盤の専門性を直接証明する</strong>のに最も効きます。
+              CKAは<strong>「コンテナ基盤実務の加点資格」</strong>です。暗記型の知識資格とは性格が異なり、実際にクラスタを操作する実技試験であるため、すでにインフラ・DevOps経験のあるミドルが<strong>コンテナ基盤の専門性を直接証明する</strong>うえで最も効果を発揮します。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>インフラ・DevOps経験のある30〜40代</strong>：コンテナ基盤を扱える実技力の証明として加点されます</li>
-              <li>② <strong>未経験のミドル</strong>：実技難度が高く入口には不向きです。まずLinux・コンテナ基礎を固めるべきです</li>
+              <li>② <strong>未経験のミドル</strong>：実技難度が高く入口には不向きです。まずLinux・コンテナの基礎を固めることをおすすめします</li>
               <li>③ <strong>クラウドネイティブを深めたい人</strong>：CKAD・CKSへの土台として体系化できます</li>
             </ul>
           </div>
@@ -168,13 +168,13 @@ export default function CkaCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・CKA保有者限定の国内公的年収統計は<strong>存在しません（当サイトでは推計値を作成していません）</strong></li>
+              <li>・CKA保有者限定の国内公的年収統計は<strong>存在しない（当サイトでは推計値も未作成）</strong></li>
               <li>・評価される領域：<strong>SRE・プラットフォームエンジニア・DevOpsなど需要の高い職種</strong></li>
               <li>・実態：<strong>年収は実務経験・役割で決まり、CKAは実技力の補強材</strong></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: 公的な水準感は国税庁「民間給与実態統計調査」の給与所得者平均461万円（令和6年分）を参考にしてください。CKAはクラウドネイティブ領域で評価される実技資格ですが、保有者平均年収の公開データは乏しいため、当サイトでは断定を避け、実務経験との掛け算で評価することを推奨します。
+            出典: 公的な水準感は国税庁「民間給与実態統計調査」の給与所得者平均461万円（令和6年分）を参考にしてください。CKAはクラウドネイティブ領域で評価される実技資格ですが、保有者平均年収の公開データは乏しいため、当サイトでは断定を避け、実務経験とあわせて評価することを推奨します。
           </p>
         </section>
 
@@ -185,7 +185,7 @@ export default function CkaCertPage() {
             {[
               { t: "コンテナ基盤の運用・構築ポジション", d: "実技試験を通過した事実が、クラスタの構築・運用・トラブルシュートを任せられる根拠になります。" },
               { t: "DevOps・SREへの役割転換", d: "Kubernetesは現代の基盤運用の中核です。CKAが基盤自動化・信頼性領域への移行を後押しします。" },
-              { t: "実技力の客観証明", d: "暗記ではなく実際の操作を問う試験のため、『手を動かせる』ことの信頼性が高いです。" },
+              { t: "実技力の客観証明", d: "暗記ではなく実際の操作を問う試験のため、『手を動かせる』ことの信頼性が高いといえます。" },
               { t: "クラウドネイティブ案件への参画", d: "コンテナ前提のモダンな案件・チームで、共通言語としての認定が評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -251,22 +251,22 @@ export default function CkaCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>実技力の客観証明です</strong>。実機操作を問う試験のため、「手を動かせる」ことを採用側に直接示せます。第二に<strong>クラウドネイティブ職への足がかり</strong>です。SRE・プラットフォームエンジニアなど需要の高い職種への移行を後押しします。第三に<strong>CKAD・CKSへの土台です</strong>。特にCKSはCKA合格が前提のため、セキュリティ特化へ進む布石になります。
+            活用戦略は3つに整理できます。第一に<strong>実技力の客観証明</strong>です。実機操作を問う試験のため、「手を動かせる」ことを採用側に直接示せます。第二に<strong>クラウドネイティブ職への足がかり</strong>です。SRE・プラットフォームエンジニアなど需要の高い職種への移行を後押しします。第三に<strong>CKAD・CKSへの土台</strong>です。特にCKSはCKA合格が前提のため、セキュリティ特化へ進む布石になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。CKAは<strong>取得しても単体で年収が跳ねる資格ではありません</strong>。あくまで実際の運用経験を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また有効期限が2年と短く、Kubernetesのバージョン進化に合わせた再認定が必要です。逆に言えば、すでにインフラ・コンテナの現場経験があり基盤領域を深めたい30〜40代にとっては、投資する価値が明確な実技資格です。基礎が不安な場合は、まず<Link href="/skill/linux/" className="text-petrol hover:underline">Linux</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>でOS・基盤の土台を固めてから臨むのが堅実です。
+            注意すべきデメリットも押さえておきましょう。CKAは<strong>取得しても単体で年収が大きく上がる資格ではありません</strong>。あくまで実際の運用経験を補強する位置づけであり、効果が出るのは実務経験と資格が組み合わさったときです。また有効期限が2年と短く、Kubernetesのバージョン進化に合わせた再認定が必要です。逆に言えば、すでにインフラ・コンテナの現場経験があり基盤領域を深めたい30〜40代にとっては、投資する価値が明確な実技資格です。基礎が不安な場合は、まず<Link href="/skill/linux/" className="text-petrol hover:underline">Linux</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>でOS・基盤の土台を固めてから臨むのが堅実です。
           </p>
         </section>
 
         {/* 30-40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝経験者の加点装置</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代にとっての価値</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              CKAは、暗記型の入口資格とは<strong>立ち位置が異なります</strong>。CKAは<strong>「すでに現場にいる経験者が、コンテナ基盤の実務力を客観的に証明するための加点装置」</strong>として最も効きます。実技試験であるため、インフラ・DevOps経験のある30〜40代にとって、自分のスキルを採用側に示しやすい資格です。
+              CKAは、暗記型の入口資格とは<strong>立ち位置が異なります</strong>。CKAは<strong>すでに現場にいる経験者がコンテナ基盤の実務力を客観的に証明するための加点資格</strong>として最も効果を発揮します。実技試験であるため、インフラ・DevOps経験のある30〜40代にとって、自分のスキルを採用側に示しやすい資格です。
             </p>
             <p>
-              一方で過度な期待は禁物です。CKAを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。実際の運用・トラブルシュート経験と組み合わせて初めて、SRE・プラットフォーム職という形で結実します。さらに有効期限が2年と短いため、再認定の手間も前提に計画する必要があります。
+              一方で過度な期待は禁物です。CKAを取っても、それ単体で年収が大きく上がるわけではありません。価値が生まれるのは<strong>実務経験と資格を組み合わせたとき</strong>です。実際の運用・トラブルシュート経験と組み合わせて初めて、SRE・プラットフォーム職という形で評価につながります。さらに有効期限が2年と短いため、再認定の手間も前提に計画する必要があります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -279,9 +279,9 @@ export default function CkaCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "Linux・コンテナの基礎を固めます", d: "kubectlの前提となるLinux操作・Docker等のコンテナ基礎を押さえます。基盤経験者は短縮可能です。" },
-              { n: "STEP 2", t: "実技演習を徹底反復", d: "Killer.shのシミュレータや実クラスタで課題を反復します。公式ドキュメント参照に慣れることが鍵です。" },
-              { n: "STEP 3", t: "合格→CKAD／CKSで専門化→2年更新", d: "合格後はCKAD・CKSへ専門化します。有効期限2年を見据え、再認定の計画も立てます。" },
+              { n: "STEP 1", t: "Linux・コンテナの基礎を固める", d: "kubectlの前提となるLinux操作・Docker等のコンテナ基礎を押さえます。基盤経験者は短縮可能です。" },
+              { n: "STEP 2", t: "実技演習を繰り返す", d: "Killer.shのシミュレータや実クラスタで課題を反復します。公式ドキュメントの参照に慣れることが重要です。" },
+              { n: "STEP 3", t: "合格後はCKAD／CKSで専門化し2年ごとに更新", d: "合格後はCKAD・CKSへ専門化します。有効期限2年を見据え、再認定の計画も立てます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：MongoDBスキルの転職での活かし方" },
+  { id: "conclusion", label: "1. MongoDBスキルの転職での活かし方" },
   { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
-  { id: "career", label: "4. MongoDBスキルが効くキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "career", label: "4. MongoDBスキルを活かせるキャリアパス" },
+  { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
   { id: "entry", label: "6. 経験浅めからNoSQL実務に入るルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "MongoDBの求人はどんな企業に多いですか？",
-    a: "スキーマが変化しやすいサービス、ログ・イベント・カタログなど柔軟なデータ構造を扱うWeb系・SaaS・スタートアップに多く見られます。Node.js系のスタックと組み合わせて採用されるケースも多いです。具体的な求人数や社名は時期で変動するため、エージェントで最新の保有求人を確認してください。",
+    a: "スキーマが変化しやすいサービス、ログ・イベント・カタログなど柔軟なデータ構造を扱うWeb系・SaaS・スタートアップに多く見られます。Node.js系のスタックと組み合わせて採用されるケースも少なくありません。具体的な求人数や社名は時期で変動するため、エージェントで最新の保有求人を確認してください。",
   },
   {
     q: "MongoDB未経験でもNoSQL寄りのポジションに転職できますか？",
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: "MongoDBとRDB、どちらを学ぶべきですか？",
-    a: "まずRDBの基礎を固めるのが基本です。多くのシステムは依然としてRDBが主役で、RDBの設計力は転用性が高いためです。そのうえでMongoDBを学ぶと、「RDBとNoSQLを使い分けられる」希少性が出ます。MongoDB単体より、RDBとの併用・使い分けを語れることが市場価値につながります。",
+    a: "まずRDBの基礎を固めるのが基本です。多くのシステムでは依然としてRDBが中心であり、RDBの設計力は転用性が高いためです。そのうえでMongoDBを学ぶと、「RDBとNoSQLを使い分けられる」希少性が出ます。MongoDB単体より、RDBとの併用・使い分けを語れることが市場価値につながります。",
   },
   {
     q: "MongoDBスキルを証明する手段はありますか？",
@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     q: "MongoDBスキルを活かす転職におすすめのエージェントは？",
-    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でデータ基盤級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強いGeeklyの併用が選択肢です。NoSQL系は求人母数がRDBより限られるため、複数登録して保有求人を横断比較するのが現実的です。",
+    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でデータ基盤級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強みを持つGeeklyの併用が選択肢です。NoSQL系は求人母数がRDBより限られるため、複数登録して保有求人を横断比較するのが現実的です。",
   },
 ];
 
@@ -137,7 +137,7 @@ export default function MongodbSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：MongoDBスキルの転職での活かし方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">MongoDBスキルの転職での活かし方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>MongoDBは「これ単体で転職する」スキルではなく、RDBと使い分けられるDB設計力としてバックエンド職の市場価値を底上げする実務基盤です。</strong>NoSQLのデータモデリングを掛け合わせることで、応募の幅と希少性が広がります。
@@ -145,7 +145,7 @@ export default function MongodbSkillPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・MongoDB単体の職種別年収は公表が乏しく、<strong>データベースエンジニア約453万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握します</li>
               <li>・求人では「NoSQLでのデータ設計」「RDBとの使い分け」「DB選定を伴うバックエンド開発」の文脈で問われます</li>
-              <li>・RDB＋MongoDBの両刀使いは、設計の引き出しの多さとして評価されやすいです</li>
+              <li>・RDBとMongoDBの両方を扱えることは、設計の引き出しの多さとして評価されやすい傾向があります</li>
             </ul>
           </div>
         </section>
@@ -202,14 +202,14 @@ export default function MongodbSkillPage() {
 
         {/* キャリアパス */}
         <section id="career" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">MongoDBスキルが効くキャリアパス</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">MongoDBスキルを活かせるキャリアパス</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             MongoDBは開発からデータ基盤領域へ橋渡しするスキルです。掛け合わせる技術によって到達できるレンジが変わります。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "バックエンドエンジニア（DB選定込み）", note: "アプリ開発＋RDB/NoSQLの選定・設計を担当" },
-              { role: "データベースエンジニア（NoSQL）", note: "NoSQLの設計・運用・スケール設計が中心" },
+              { role: "バックエンドエンジニア（DB選定込み）", note: "アプリ開発に加え、RDB/NoSQLの選定・設計を担当します" },
+              { role: "データベースエンジニア（NoSQL）", note: "NoSQLの設計・運用・スケール設計が中心です" },
               { role: "データ基盤エンジニア", note: "MongoDBを起点にイベント・ログ基盤、データ分析へ広げます" },
               { role: "SRE（DB信頼性）", note: "レプリカセット・シャーディングの可用性をソフトウェア工学で支えます" },
             ].map((item, i) => (
@@ -226,7 +226,7 @@ export default function MongodbSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             NoSQL系はRDBより求人母数が限られるため、複数のチャネルを横断するのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -246,7 +246,7 @@ export default function MongodbSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web・ゲーム業界特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。MongoDBを採用するWeb系スタートアップの求人を探したい場合の選択肢です。
               </p>
@@ -265,7 +265,7 @@ export default function MongodbSkillPage() {
             {[
               { num: "1", title: "RDB・開発経験を土台にする", desc: "バックエンド開発やRDBの実務経験があれば、それを土台に「NoSQLも設計から扱える」ことを示せます。RDBとの使い分けを語れると、設計力の広さとして評価されます。" },
               { num: "2", title: "個人開発でMongoDBを設計から触る", desc: "アクセスパターンに合わせたドキュメント設計、インデックス、aggregationによる集計までを個人開発で経験し、「なぜRDBではなくMongoDBにしたか」を語れる状態にしておきます。" },
-              { num: "3", title: "DB選定を伴うバックエンド求人を狙う", desc: "NoSQL専任よりも「RDB/NoSQLの選定込みのバックエンド」のほうが入口は広い傾向です。エージェントに「NoSQLの設計経験を伸ばしたい」と伝え、そうした要素を含む求人を紹介してもらうのが近道です。" },
+              { num: "3", title: "DB選定を伴うバックエンド求人を狙う", desc: "NoSQL専任よりも「RDB/NoSQLの選定込みのバックエンド」のほうが入口は広い傾向があります。エージェントに「NoSQLの設計経験を伸ばしたい」と伝え、そうした要素を含む求人を紹介してもらう方法が現実的です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -310,7 +310,7 @@ export default function MongodbSkillPage() {
               <strong>② アクセスパターン起点で設計します。</strong>MongoDBはクエリのされ方を前提にドキュメント構造を決めます。埋め込みと参照の使い分け、インデックス設計、aggregationパイプラインを個人開発で試すと、面接で語れる経験になります。
             </p>
             <p>
-              <strong>③ 運用・周辺領域へ広げます。</strong>コンテナでのDB運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドサービス（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>等）まで広げると、基盤側の求人にも手が届きます。RDBの<Link href="/cert/database-specialist/" className="text-petrol hover:underline">データベーススペシャリスト</Link>で設計の基礎を固めるのも有効です。
+              <strong>③ 運用・周辺領域へ広げます。</strong>コンテナでのDB運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドサービス（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>等）まで広げると、基盤側の求人にも応募しやすくなります。RDBの<Link href="/cert/database-specialist/" className="text-petrol hover:underline">データベーススペシャリスト</Link>で設計の基礎を固めるのも有効です。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -338,7 +338,7 @@ export default function MongodbSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">MongoDBスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            NoSQL系は求人母数が限られるからこそ、複数のIT特化型エージェントで保有求人を横断比較するのが近道です。
+            NoSQL系は求人母数が限られるからこそ、複数のIT特化型エージェントで保有求人を横断比較するのが効率的です。
           </p>
           <Link
             href="/#ranking"

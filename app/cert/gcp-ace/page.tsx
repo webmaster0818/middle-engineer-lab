@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：ACEはどんな人に効く資格か" },
+  { id: "conclusion", label: "ACEはどのような人に効果がある資格か" },
   { id: "overview", label: "試験概要（受験料・形式・有効期限）" },
   { id: "salary", label: "保有者の年収の考え方と注意点" },
   { id: "scenes", label: "転職で評価される具体場面" },
   { id: "jobs", label: "活きるポジション" },
   { id: "position", label: "アソシエイト資格としての活用戦略" },
-  { id: "middle", label: "30代・40代の価値＝GCP実務の起点" },
+  { id: "middle", label: "30代・40代にとっての価値：GCP実務の起点" },
   { id: "steps", label: "取得3ステップ／次に狙う資格" },
   { id: "faq", label: "よくある質問" },
 ];
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: "AWSやAzureを使っていてもGCPの資格は役立ちますか？",
-    a: "役立ちます。クラウドの基本概念は共通点が多く、AWS・Azure経験者がGCPを学ぶハードルは未経験者より低い傾向です。マルチクラウド対応を求める現場や、GCPを採用するWeb系・データ基盤の企業では、ACEがGCPも扱える裏づけになります。ただし実プロジェクトでの利用経験とセットで効く点は他クラウドと同じです。",
+    a: "役立ちます。クラウドの基本概念は共通点が多く、AWS・Azure経験者がGCPを学ぶハードルは未経験者より低い傾向があります。マルチクラウド対応を求める現場や、GCPを採用するWeb系・データ基盤の企業では、ACEがGCPも扱える裏づけになります。ただし実プロジェクトでの利用経験と組み合わせて評価される点は、他クラウドと同じです。",
   },
 ];
 
@@ -101,7 +101,7 @@ export default function GcpAceCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          Associate Cloud Engineer（ACE）は、Google Cloudの<strong>アソシエイト認定で、GCPのデプロイ・運用・監視という実務スキルを証明</strong>する試験です。本記事は「ACEを取れば転職で有利になるか」という疑問に対し、<strong>GCPを扱える実務の証明</strong>という観点から、運用・基盤職での評価、有効期限や更新の仕組みを公式情報とともに整理します。資格単体では年収は跳ねないという留意点もご説明します。
+          Associate Cloud Engineer（ACE）は、Google Cloudの<strong>アソシエイト認定で、GCPのデプロイ・運用・監視という実務スキルを証明</strong>する試験です。本記事は「ACEを取れば転職で有利になるか」という疑問に対し、<strong>GCPを扱える実務の証明</strong>という観点から、運用・基盤職での評価、有効期限や更新の仕組みを公式情報とともに整理します。資格単体では年収が大きく上がるわけではないという留意点についてもご説明します。
         </p>
 
         <DataNote
@@ -128,10 +128,10 @@ export default function GcpAceCertPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ACEはどんな人に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ACEはどのような人に効果がある資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              ACEは<strong>「GCPを扱える実務の証明」</strong>です。アソシエイト（入口寄り）の位置づけで、すでにインフラ・クラウドの経験があるミドルが<strong>GCPへ守備範囲を広げる起点</strong>として効きます。
+              ACEは<strong>「GCPを扱える実務の証明」</strong>です。アソシエイト（入口寄り）の位置づけで、すでにインフラ・クラウドの経験があるミドルが<strong>GCPへ対応範囲を広げる起点</strong>として効果があります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>インフラ・クラウド実務のある30〜40代</strong>：GCPを扱える証明として書類段階で加点されます</li>
@@ -157,7 +157,7 @@ export default function GcpAceCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: Google Cloud 公式（cloud.google.com/learn/certification/cloud-engineer、2026年6月時点）。受験料は125 USD（税別）、試験時間2時間、出題50〜60問の選択式です。日本語に対応します。合格率・合格基準点はGoogle Cloudが公表しておらず、当サイトでは創作しません。有効期限は3年で、75 USD・20問・1時間の更新試験、または通常試験の再受験で更新できます。
+            出典: Google Cloud 公式（cloud.google.com/learn/certification/cloud-engineer、2026年6月時点）。受験料は125 USD（税別）、試験時間2時間、出題50〜60問の選択式です。日本語にも対応しています。合格率・合格基準点はGoogle Cloudが公表しておらず、当サイトでは数値を創作していません。有効期限は3年で、75 USD・20問・1時間の更新試験、または通常試験の再受験で更新できます。
           </p>
         </section>
 
@@ -170,8 +170,8 @@ export default function GcpAceCertPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・クラウド人材は需要が高い傾向（<strong>実務・役割が主因</strong>）</li>
-              <li>・ACEは<strong>GCPを扱える入口の証明</strong>として書類通過に効く加点材</li>
-              <li>・実態：<strong>年収はGCP実務経験 × 資格の掛け算</strong>で決まる</li>
+              <li>・ACEは<strong>GCPを扱える入口の証明</strong>として書類通過に役立つ加点材</li>
+              <li>・実態：<strong>年収はGCP実務経験と資格の組み合わせ</strong>で決定</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -184,7 +184,7 @@ export default function GcpAceCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "GCPを採用する現場への応募", d: "Web系・データ基盤・スタートアップなどGCP採用企業で、扱える前提のスキル証明として書類段階で効きます。" },
+              { t: "GCPを採用する現場への応募", d: "Web系・データ基盤・スタートアップなどGCP採用企業で、扱える前提のスキル証明として書類段階で評価されます。" },
               { t: "マルチクラウド対応の証明", d: "AWS・Azure経験に加えGCPも扱えることを示し、対応できるクラウドの幅を広げられます。" },
               { t: "運用・デプロイ業務の担当", d: "GCPのデプロイ・監視・運用の実務スキルを問う試験のため、運用ポジションへの適性を裏づけます。" },
               { t: "上位資格・上流への布石", d: "ACEで土台を作り、上位のProfessional Cloud Architectで設計力まで示す段階的なキャリア設計に使えます。" },
@@ -206,7 +206,7 @@ export default function GcpAceCertPage() {
           <div className="space-y-3">
             {[
               { t: "クラウドエンジニア（GCP運用）", d: "GCP上のデプロイ・運用・監視を担う役割です。ACEがそのまま職務スキルの裏づけになります。" },
-              { t: "インフラエンジニア（クラウド移行寄り）", d: "オンプレ経験を活かしつつGCPへ守備範囲を広げる際の起点になります。" },
+              { t: "インフラエンジニア（クラウド移行寄り）", d: "オンプレ経験を活かしつつGCPへ対応範囲を広げる際の起点になります。" },
               { t: "データ基盤・SRE寄り", d: "GCPのデータ／運用基盤に関わる職種で、扱える前提スキルとして評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -224,7 +224,7 @@ export default function GcpAceCertPage() {
         <section id="position" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">アソシエイト資格としての活用戦略</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            ACEは「アソシエイト（入口寄り）の証明資格」です。上位のProfessional Cloud Architect（PCA）とは狙いが異なり、段階的に使い分けるのがコツです。
+            ACEは「アソシエイト（入口寄り）の証明資格」です。上位のProfessional Cloud Architect（PCA）とは狙いが異なり、段階的に使い分けることが重要です。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -239,7 +239,7 @@ export default function GcpAceCertPage() {
                 {[
                   ["主な対象", "GCP実務これから〜運用担当", "設計・基盤経験のある中堅"],
                   ["狙い", "GCPを扱える実務の証明", "アーキテクチャ設計力の証明"],
-                  ["効き方", "書類通過・運用職への入口", "上流（設計・アーキ）への配置"],
+                  ["期待できる効果", "書類通過・運用職への入口", "上流（設計・アーキ）への配置"],
                   ["受験料の目安", "125 USD", "200 USD"],
                   ["有効期限", "3年", "2年"],
                 ].map(([k, a, b], i) => (
@@ -253,22 +253,22 @@ export default function GcpAceCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>GCP案件への足がかり</strong>です。GCPを扱える前提スキルを示し、書類選考の通過率を上げられます。第二に<strong>マルチクラウドの幅です</strong>。AWS・Azure経験に積み増すことで、対応できるクラウドの幅をアピールできます。第三に<strong>上位資格への布石です</strong>。ACEで土台を作ってからPCAへ進めば、運用から設計まで一貫したキャリアストーリーになります。
+            活用戦略は3つに整理できます。第一に<strong>GCP案件への足がかり</strong>です。GCPを扱える前提スキルを示し、書類選考の通過率を上げられます。第二に<strong>マルチクラウド対応の幅</strong>です。AWS・Azure経験に加えることで、対応できるクラウドの幅を示せます。第三に<strong>上位資格への布石</strong>です。ACEで土台を作ってからPCAへ進めば、運用から設計まで一貫したキャリアストーリーになります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。ACEは<strong>アソシエイトという位置づけのため、これ単体で上流設計まで保証する資格ではありません</strong>。効果が出るのは「GCP実務 × 資格」が成立したときです。また有効期限が3年あり、取りっぱなしでは失効します。逆に言えば、GCPに守備範囲を広げたい30〜40代の起点としては、費用対効果の高い資格です。上流まで示したいなら<Link href="/cert/gcp-pca/" className="text-petrol hover:underline">Professional Cloud Architect</Link>へ進みましょう。
+            注意すべきデメリットも押さえておきましょう。ACEは<strong>アソシエイトという位置づけのため、これ単体で上流設計まで保証する資格ではありません</strong>。効果が出るのは、GCP実務と資格がそろったときです。また有効期限が3年あり、取りっぱなしでは失効します。逆に言えば、GCPに対応範囲を広げたい30〜40代の起点としては、費用対効果の高い資格です。上流まで示したいなら<Link href="/cert/gcp-pca/" className="text-petrol hover:underline">Professional Cloud Architect</Link>へ進みましょう。
           </p>
         </section>
 
         {/* 30-40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝GCP実務の起点</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代にとっての価値：GCP実務の起点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              ACEは、未経験がゼロからIT職に入るための入口資格とは少し違います。すでにインフラ・クラウドの土台がある経験者が<strong>「GCPという新しい守備範囲を扱える」と示すための起点</strong>として最も効きます。AWS・Azure経験のある30〜40代がマルチクラウド対応を広げる一手として、費用対効果は高めです。
+              ACEは、未経験者がゼロからIT職に入るための入口資格とは性格が異なります。すでにインフラ・クラウドの土台がある経験者が<strong>GCPという新しい領域も扱えることを示すための起点</strong>として最も効果を発揮します。AWS・Azure経験のある30〜40代がマルチクラウド対応を広げる手段として、費用対効果は高めです。
             </p>
             <p>
-              一方で過度な期待は禁物です。ACEを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。GCPの運用・構築の実績と組み合わせて初めて、案件の幅や上位資格への道が開けます。上流の設計力まで示したい場合は、ACEを起点にPCAへ進むのが一般的です。
+              一方で過度な期待は禁物です。ACEを取っても、それ単体で年収が大きく上がるわけではありません。価値が生まれるのは<strong>実務経験と資格を組み合わせたとき</strong>です。GCPの運用・構築の実績と組み合わせて初めて、案件の幅や上位資格への道が開けます。上流の設計力まで示したい場合は、ACEを起点にPCAへ進むのが一般的です。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -281,9 +281,9 @@ export default function GcpAceCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "GCPの基礎を実機で触ります", d: "Compute Engine・Cloud Storage・IAMなど主要サービスを実際のコンソールやコマンドで操作し、感覚を掴みます。" },
-              { n: "STEP 2", t: "出題範囲を演習で網羅", d: "デプロイ・運用・監視・アクセス管理を、公式模擬試験と実機演習で固めます。50〜60問の選択式に慣れます。" },
-              { n: "STEP 3", t: "合格→PCAで上流へ", d: "合格後はGCP実務に関わりつつ、有効期限内に更新します。設計力まで示すなら上位のPCAに挑戦します。" },
+              { n: "STEP 1", t: "GCPの基礎を実機で操作する", d: "Compute Engine・Cloud Storage・IAMなど主要サービスを実際のコンソールやコマンドで操作し、感覚を掴みます。" },
+              { n: "STEP 2", t: "出題範囲を演習で確認", d: "デプロイ・運用・監視・アクセス管理を、公式模擬試験と実機演習で固めます。50〜60問の選択式に慣れます。" },
+              { n: "STEP 3", t: "合格後はPCAで上流を目指す", d: "合格後はGCP実務に関わりつつ、有効期限内に更新します。設計力まで示すなら上位のPCAに挑戦します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

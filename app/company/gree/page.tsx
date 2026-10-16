@@ -28,7 +28,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "転職難易度と向いている人"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
@@ -43,7 +43,7 @@ const toc = [
 
 const faqs = [
   {
-    q: "グリーのエンジニア選考フローは？",
+    q: "グリーのエンジニア選考フローを教えてください。",
     a: "公開されている採用情報・選考体験談によると、おおむね「書類選考（エントリーシート）」「複数回の面接（技術面接を含む）」「内定」の流れです。職種・新卒/中途により段階数が変動するため、各求人の募集要項で確認するのが確実です。",
   },
   {
@@ -51,20 +51,20 @@ const faqs = [
     a: "2025年6月期の有価証券報告書によると、提出会社（グリーホールディングス＝持株会社）単体の平均年間給与は865万円、平均年齢は40.2歳です。ただしこれは2024年10月の持株会社移行後の数字で、持株会社単体の在籍者は123名と少数です。実際の開発を担うのは事業会社グリー株式会社等であり、この単体平均がエンジニア全体の給与水準をそのまま示すものではない点に注意が必要です。",
   },
   {
-    q: "グリーは持株会社になったのですか？数字の見方は？",
+    q: "グリーは持株会社になったのですか？数字はどのように見ればよいですか？",
     a: "グリーは2024年10月にグリーホールディングス株式会社へ商号変更し、持株会社体制へ移行しました。証券コード3632は持株会社のものです。有価証券報告書の「提出会社（単体）」の数値は持株会社の在籍者（2025年6月期で123名）に基づくため、エンジニアが多数所属する事業会社グリー株式会社の実態とは分けて読む必要があります。連結従業員数は1,489名（2025年6月期）です。",
   },
   {
-    q: "グリーの技術スタックは？",
+    q: "グリーの技術スタックを教えてください。",
     a: "公式採用情報によると、Java・C・C++・C#・PHP・Ruby・Python・Swift・Kotlin・Rust・Go・TypeScript・JavaScript・SQLなど幅広い言語に対応しています。ゲーム開発ではUnity（C#）、サーバーサイドではPHP・Goなどがプロダクトにより使い分けられています。",
   },
   {
-    q: "グリーは何の会社ですか？事業領域は？",
+    q: "グリーはどのような会社ですか？事業領域を教えてください。",
     a: "グリーグループはゲーム事業を中核に、メタバースサービス「REALITY」、DX事業、コマース事業、アドテク（広告）事業などを展開しています。SNS「GREE」発祥の企業で、現在はゲーム・メタバースを軸とした多角的なエンタメ・テック企業です。",
   },
   {
     q: "30代・40代でもグリーに転職できますか？",
-    a: "持株会社単体の平均年齢は40.2歳（2025年6月期）と、相対的に年齢層が高めの組織です。ゲーム基盤・サーバーサイド・メタバース技術などの専門性や運用経験があれば、30代・40代のミドルエンジニアも評価されやすい傾向です。",
+    a: "持株会社単体の平均年齢は40.2歳（2025年6月期）と、相対的に年齢層が高めの組織です。ゲーム基盤・サーバーサイド・メタバース技術などの専門性や運用経験があれば、30代・40代のミドルエンジニアも評価されやすい傾向があります。",
   },
   {
     q: "グリーへの転職難易度は高いですか？",
@@ -96,7 +96,7 @@ export default function GreeCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】グリー（GREE）の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: グリーホールディングスの平均年間給与は865万円です（2025年6月期 有価証券報告書・提出会社＝持株会社単体、平均年齢40.2歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>グリーホールディングスの平均年間給与は865万円です（2025年6月期 有価証券報告書・提出会社＝持株会社単体、平均年齢40.2歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 865万円です（2025年6月期 有価証券報告書）。ただし2024年10月の持株会社移行後の数字で、持株会社単体の在籍者は123名と少数です。</li><li>・実際の開発を担うのは事業会社グリー株式会社等であり、この単体平均がエンジニア全体の給与水準をそのまま示すものではありません。</li><li>・エンジニア職の提示額は応募する事業会社・ポジション・等級により幅があるため、個別求人・面談で確認が必要です。</li></ul>
         </div>
 
@@ -116,14 +116,14 @@ export default function GreeCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">転職難易度と向いている人</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               グリーは<strong>ゲーム・メタバースを軸に、幅広い言語・技術で開発を行うエンタメ・テック企業</strong>です。2024年10月に持株会社化しており、有価証券報告書の単体平均年収865万円（2025年6月期）は<strong>持株会社（在籍123名）の数字</strong>である点に注意が必要です。実際の開発は事業会社が担い、ポジション・事業会社により技術も待遇も異なります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：ゲーム・メタバース領域に関心があり、サーバーサイドやクライアント（Unity等）の実務経験があるエンジニア</li>
               <li>● <strong>向いていない人</strong>：エンタメ領域への関心が薄く、業務系・受託のみを志向する人</li>
-              <li>● <strong>30代・40代</strong>：ゲーム基盤・メタバース・運用などの専門性があれば年齢層が高めの組織で活きやすいです</li>
+              <li>● <strong>30代・40代</strong>：ゲーム基盤・メタバース・運用などの専門性があれば、年齢層が高めの組織で経験を活かしやすい環境</li>
             </ul>
           </div>
         </section>
@@ -153,7 +153,7 @@ export default function GreeCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年6月期 有価証券報告書の提出会社（持株会社単体）数値。持株会社移行（2024年10月）に伴い、単体在籍者は123名と少数です。技術スタックは公式採用情報ベースです（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年6月期 有価証券報告書の提出会社（持株会社単体）の数値です。持株会社移行（2024年10月）に伴い、単体在籍者は123名と少数です。技術スタックは公式採用情報に基づきます（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -258,7 +258,7 @@ export default function GreeCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。グリーの単体平均（865万円）はこれを上回りますが、これは持株会社の少数在籍者の平均であり、エンジニアの提示額は事業会社・ポジション次第です。30代・40代は応募先の事業会社ごとに水準を確認することが重要です。
             </p>
             <p>
-              ゲーム・メタバース・アドテクなど、関心領域に合わせて事業会社を選べる点はミドル層にとってメリットです。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              ゲーム・メタバース・アドテクなど、関心領域に合わせて事業会社を選べる点はミドル層にとって利点です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -268,7 +268,7 @@ export default function GreeCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。メガベンチャー求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム企業への提案実績が豊富で提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム企業への提案実績が豊富で提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論サマリ（どんな人向けか）" },
+  { id: "summary", label: "要点（どんな人向けか）" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strength", label: "特徴・強み" },
   { id: "good", label: "良い評判の傾向" },
@@ -70,7 +70,7 @@ const badReviews = [
   {
     title: "マージン非公表で手取り感が読みにくい",
     body: "マージン（手数料）が非公表のため、提示単価のうちどれだけが自分の取り分かが事前に分かりづらいという不安の声が見られます。",
-    cope: "提示されるのは原則「自分が受け取る単価」であることが多いため、面談時に手取りベースの単価と契約形態（準委任／請負）を必ず確認します。マージンを公開するPE-BANKと比較すると相場感をつかみやすいです。",
+    cope: "提示されるのは原則「自分が受け取る単価」であることが多いため、面談時に手取りベースの単価と契約形態（準委任／請負）を必ず確認します。マージンを公開するPE-BANKと比較すると相場感をつかみやすくなります。",
   },
 ];
 
@@ -79,14 +79,14 @@ const fitYes = [
   "エンド直の高単価案件を狙いたい独立志向の経験者",
   "支払いサイトの速さ（翌月15日）を重視したい",
   "フルリモートで働きたい",
-  "大手・メガベンチャー案件に関心があります",
+  "大手・メガベンチャー案件に関心がある",
 ];
 
 const fitNo = [
-  "IT実務未経験・経験が浅く即戦力アピールが難しいです",
+  "IT実務未経験・経験が浅く即戦力アピールが難しい",
   "とにかく案件数の多さを最優先したい（→レバテックフリーランス）",
   "マージンが完全公開されたサービスで選びたい（→PE-BANK）",
-  "地方の常駐案件中心で探しています",
+  "地方の常駐案件中心で探している",
 ];
 
 const flow = [
@@ -203,17 +203,17 @@ export default function TechReachReview() {
           ]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：このような方におすすめ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">このような方におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
-              <span className="font-bold">総合評価：エンド直の高単価とキャッシュフローの良さを両取りしたい経験者向けです</span>。要約すると「高単価案件を、支払いの速さとフルリモートで取りに行きたいIT実務経験者」向けのフリーランスエージェントです。
+              <span className="font-bold">総合評価：エンド直の高単価とキャッシュフローの良さを両立したい経験者向けです</span>。要約すると「高単価案件を、支払いの速さとフルリモートで探したいIT実務経験者」向けのフリーランスエージェントです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・大手・メガベンチャーのエンド直案件中心で高単価を狙いやすいです。</li>
-              <li>・月末締め・翌月15日支払いと業界最速クラスです（二次情報）。フルリモート案件も豊富です。</li>
-              <li>・一方で実務経験が前提・マージン非公表です。案件量重視はレバテックフリーランス併用が現実的です。</li>
+              <li>・大手・メガベンチャーのエンド直案件中心で高単価を狙いやすくなります。</li>
+              <li>・支払いサイトは月末締め・翌月15日で、業界最速クラスとされています（二次情報）。フルリモート案件も豊富です。</li>
+              <li>・一方で実務経験が前提・マージン非公表です。案件量重視はレバテックフリーランスとの併用が現実的です。</li>
             </ul>
           </div>
         </section>
@@ -328,7 +328,7 @@ export default function TechReachReview() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">単価・マージン・支払いサイトの考え方</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              TechReachの魅力は「エンド直の高単価」と「翌月15日という支払いの速さ」の両立です。一方で<span className="font-bold">マージン（手数料）は非公表</span>です（確認不可）。エンド直は中間マージンが抑えられる構造ですが、エージェントの手数料そのものが公開されているわけではない点には注意が必要です。
+              TechReachの特徴は「エンド直の高単価」と「翌月15日という支払いの速さ」の両立です。一方で<span className="font-bold">マージン（手数料）は非公表</span>です（確認不可）。エンド直は中間マージンが抑えられる構造ですが、エージェントの手数料そのものが公開されているわけではない点には注意が必要です。
             </p>
             <p>
               実務上は、提示される単価が「自分が受け取る単価（手取りベース）」であることが多いため、面談時に①提示単価が手取りか②契約形態（準委任／請負）③支払いサイト・リモート可否、の3点を確認すれば判断できます。マージンを完全公開している
@@ -350,11 +350,11 @@ export default function TechReachReview() {
           </h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              当サイトはミドルエンジニアのキャリアを扱う立場から、年代別の使い方を整理します。TechReachはエンド直の高単価と支払いの速さが強みのため、即戦力の経験者が単価を取りに行く30代・40代と相性が良いサービスです。
+              当サイトはミドルエンジニアのキャリアを扱う立場から、年代別の使い方を整理します。TechReachはエンド直の高単価と支払いの速さが強みのため、即戦力の経験者が高単価を目指す30代・40代と相性が良いサービスです。
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              スキルが市場で評価されやすく、エンド直の高単価で独立効果を最大化しやすい年代です。支払いの速さでキャッシュフローを安定させつつ、最初の数案件は安全側に倒して実績を積むのが堅実です。案件量を補うため、レバテックフリーランスとの併用も有効です。
+              スキルが市場で評価されやすく、エンド直の高単価で独立効果を最大化しやすい年代です。支払いの速さでキャッシュフローを安定させつつ、最初の数案件は慎重に選んで実績を積むのが堅実です。案件量を補うため、レバテックフリーランスとの併用も有効です。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
@@ -419,7 +419,7 @@ export default function TechReachReview() {
         <section id="compare" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フリーランス各社の使い分け</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            フリーランスエージェントは「何を重視するか」で選ぶと失敗しにくいです。TechReachは「エンド直・高単価・支払いの速さ」が強みで、案件量や透明性を重視するなら他社との併用が有効です。
+            フリーランスエージェントは「何を重視するか」で選ぶと失敗しにくい傾向があります。TechReachは「エンド直・高単価・支払いの速さ」が強みで、案件量や透明性を重視するなら他社との併用が有効です。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -477,7 +477,7 @@ export default function TechReachReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">TechReachに無料相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            エンド直の高単価案件を、支払いの速さとフルリモートで取りに行きませんか？
+            エンド直の高単価案件を、支払いの速さとフルリモートで探してみませんか？
           </p>
           <a href="https://tech-reach.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料カウンセリングを予約する

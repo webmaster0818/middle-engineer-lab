@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：PostgreSQLスキルの転職での活かし方" },
+  { id: "conclusion", label: "1. PostgreSQLスキルの転職での活かし方" },
   { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. PostgreSQLスキルが効くキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "find", label: "5. 求人の探し方と主なエージェント" },
   { id: "entry", label: "6. 経験浅めからDB実務に入るルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "PostgreSQLは単体のスキルとして転職市場で評価されますか？",
-    a: "PostgreSQL単体を必須にする求人もありますが、多くは「RDBの設計・運用経験」「SQLチューニング」「バックエンド開発でのDB設計」という文脈で問われます。テーブル設計、インデックス設計、実行計画の読み解き、トランザクション設計といった、製品をまたいで通用するRDBの基礎力とセットで評価されるのが実態です。PostgreSQLは特にWeb系・スタートアップで採用が多く、その経験は転用性が高いです。",
+    a: "PostgreSQL単体を必須にする求人もありますが、多くは「RDBの設計・運用経験」「SQLチューニング」「バックエンド開発でのDB設計」という文脈で問われます。テーブル設計、インデックス設計、実行計画の読み解き、トランザクション設計といった、製品をまたいで通用するRDBの基礎力とセットで評価されるのが実態です。PostgreSQLは特にWeb系・スタートアップで採用が多く、その経験は転用性が高い傾向があります。",
   },
   {
     q: "MySQLの経験はPostgreSQLに活かせますか？",
@@ -135,9 +135,9 @@ export default function PostgresqlSkillPage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PostgreSQLスキルの転職での活かし方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">PostgreSQLスキルの転職での活かし方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>PostgreSQLは「これ単体で転職する」スキルではなく、DB設計・運用やバックエンド職の市場価値を底上げする実務基盤です。</strong>RDBの設計・チューニングを掛け合わせることで、応募できる求人の幅と年収レンジが広がります。
@@ -145,7 +145,7 @@ export default function PostgresqlSkillPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・PostgreSQL単体の職種別年収は公表が乏しく、<strong>データベースエンジニア約453万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握します</li>
               <li>・求人では「RDBの設計・運用」「SQLチューニング」「DB設計を伴うバックエンド開発」の文脈で問われます</li>
-              <li>・PostgreSQL＋アプリ開発、＋データ基盤の掛け合わせで、希少性の高いポジションに手が届きます</li>
+              <li>・PostgreSQL＋アプリ開発、＋データ基盤の掛け合わせで、希少性の高いポジションも視野に入ります</li>
             </ul>
           </div>
         </section>
@@ -208,8 +208,8 @@ export default function PostgresqlSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "バックエンドエンジニア（DB設計込み）", note: "アプリ開発＋テーブル・SQL設計を一気通貫で担当" },
-              { role: "データベースエンジニア／DBA", note: "RDBの設計・運用・チューニング・可用性設計が中心" },
+              { role: "バックエンドエンジニア（DB設計込み）", note: "アプリ開発に加え、テーブル・SQL設計まで一貫して担当します" },
+              { role: "データベースエンジニア／DBA", note: "RDBの設計・運用・チューニング・可用性設計が中心です" },
               { role: "データ基盤エンジニア", note: "PostgreSQLを起点にデータ分析基盤・ETLへ広げます" },
               { role: "SRE（DB信頼性）", note: "DBのパフォーマンス・可用性をソフトウェア工学で支えます" },
             ].map((item, i) => (
@@ -226,7 +226,7 @@ export default function PostgresqlSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             DB系は職種の表現が企業ごとに異なるため、希望（DB設計・DBA・データ基盤）を明確にして求人を引き出すのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -246,7 +246,7 @@ export default function PostgresqlSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強み）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。PostgreSQLを採用するWeb系企業の求人を探したい場合の選択肢です。
               </p>
@@ -265,7 +265,7 @@ export default function PostgresqlSkillPage() {
             {[
               { num: "1", title: "既存の開発／他RDB経験を土台にする", desc: "アプリ開発やMySQL・Oracle等の経験があれば、それを土台に「PostgreSQLでもRDBの設計・運用ができる」ことを示せます。RDBの基礎は共通であるため、製品差分のキャッチアップで応募余地が生まれます。" },
               { num: "2", title: "個人開発でPostgreSQLを設計から触る", desc: "テーブル設計・インデックス設計・実行計画（EXPLAIN）の確認・遅いクエリの改善までを個人開発で経験し、その判断を語れる状態にしておきます。設計の意図が伝わると評価につながります。" },
-              { num: "3", title: "DB設計を伴うバックエンド求人を狙う", desc: "DB専任よりも「DB設計込みのバックエンド」のほうが入口は広い傾向です。エージェントに「DB設計・チューニングを伸ばしたい」と伝え、そうした要素を含む求人を紹介してもらうのが近道です。" },
+              { num: "3", title: "DB設計を伴うバックエンド求人を狙う", desc: "DB専任よりも「DB設計込みのバックエンド」のほうが入口が広い傾向があります。エージェントに「DB設計・チューニングを伸ばしたい」と伝え、そうした要素を含む求人を紹介してもらうのが近道です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -285,13 +285,13 @@ export default function PostgresqlSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>DB設計は経験がものを言う領域です。</strong>テーブル設計やパフォーマンス改善は、実プロジェクトでの試行錯誤の蓄積が効きます。30代・40代でRDBの実務を積んでいるなら、その設計判断の引き出しの多さが、若手にはない強みになります。
+              <strong>DB設計は経験が成果を左右する領域です。</strong>テーブル設計やパフォーマンス改善は、実プロジェクトでの試行錯誤の蓄積が効きます。30代・40代でRDBの実務を積んでいるなら、その設計判断の引き出しの多さが、若手にはない強みになります。
             </p>
             <p>
-              <strong>掛け算で差別化します。</strong>PostgreSQL単体より「PostgreSQL＋アプリ開発」「PostgreSQL＋ドメイン知識（金融・物流など）」の掛け合わせが強みです。業務の文脈を理解したデータモデリングは、ミドル層ならではの説得力があります。
+              <strong>掛け算で差別化します。</strong>PostgreSQL単体より「PostgreSQL＋アプリ開発」「PostgreSQL＋ドメイン知識（金融・物流など）」の掛け合わせのほうが強みになります。業務の文脈を理解したデータモデリングは、ミドル層ならではの説得力があります。
             </p>
             <p>
-              <strong>トラブル対応の経験が資産になります。</strong>本番DBのスロークエリ、ロック競合、データ移行といった修羅場をくぐった経験は、面接で具体的に語れる強力な材料です。40代のリード経験があれば、それを技術力とセットで提示しましょう。
+              <strong>トラブル対応の経験が資産になります。</strong>本番DBのスロークエリ、ロック競合、データ移行といった困難な局面に対応した経験は、面接で具体的に語れる有力な材料です。40代のリード経験があれば、それを技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -310,7 +310,7 @@ export default function PostgresqlSkillPage() {
               <strong>② 実行計画を読む習慣をつけます。</strong>EXPLAIN/EXPLAIN ANALYZEで遅いクエリの原因を特定し、インデックスや書き換えで改善する経験を積みます。チューニングは面接で最も語りやすい実務スキルの一つです。
             </p>
             <p>
-              <strong>③ 周辺領域へ広げます。</strong>コンテナでのDB運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドDB（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link> RDS/Aurora等）まで広げると、運用・基盤側の求人にも手が届きます。資格では<Link href="/cert/database-specialist/" className="text-petrol hover:underline">データベーススペシャリスト</Link>が指針になります。
+              <strong>③ 周辺領域へ広げます。</strong>コンテナでのDB運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドDB（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link> RDS/Aurora等）まで広げると、運用・基盤側の求人にも応募しやすくなります。資格では<Link href="/cert/database-specialist/" className="text-petrol hover:underline">データベーススペシャリスト</Link>が指針になります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。

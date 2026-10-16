@@ -31,7 +31,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術領域（公開情報の範囲）"],
@@ -99,7 +99,7 @@ export default function TokyoElectronCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】東京エレクトロンの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 東京エレクトロン株式会社の平均年間給与は1,380万円です（2026年3月期 有価証券報告書・提出会社単体／全従業員平均、平均年齢43.1歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>東京エレクトロン株式会社の平均年間給与は1,380万円です（2026年3月期 有価証券報告書・提出会社単体／全従業員平均、平均年齢43.1歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,380万円です（2026年3月期 有価証券報告書・単体）。全従業員平均で技術職に限った数値ではありません。</li><li>・推移は2021年3月期1,179万円から変動し、2023年3月期1,398万円→2025年3月期1,354万円→2026年3月期1,380万円です（各期 有価証券報告書）。業績連動賞与の比重が大きく年度で上下します。</li><li>・職種・等級別の公式な年収表は非公表です。提示額は職種・等級・業績で変動するため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
@@ -119,14 +119,14 @@ export default function TokyoElectronCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               東京エレクトロンは<strong>半導体製造装置で世界トップクラスのシェアを持つメーカー大手</strong>で、装置制御ソフト・組込・画像処理・データ解析/AIと技術領域が広いのが特徴です。年収は提出会社単体の全従業員平均で1,380万円（2026年3月期・有価証券報告書）と製造業の中でも高水準です。装置制御・組込・画像処理の専門性を持つミドルエンジニアの業務知識が活きやすい環境です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：装置制御・組込/リアルタイム制御・画像処理・データ解析の実務経験があり、半導体製造ドメインで専門性を磨きたい人</li>
               <li>● <strong>向いていない人</strong>：純粋なWeb系のモダン開発のみを志向し、装置・ハードウェアに関心が持てない人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢43.1歳と年齢層に幅があり、専門性・実績があれば年齢はハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：平均年齢43.1歳と年齢層に幅があり、専門性・実績があれば年齢はハンデになりにくい傾向</li>
             </ul>
           </div>
         </section>
@@ -264,7 +264,7 @@ export default function TokyoElectronCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・半導体領域に強く、技術面接対策のサポートも受けられます。" },
-              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。半導体・大手メーカーの高年収ポジションのスカウトが届きやすいです。" },
+              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。半導体・大手メーカーの高年収ポジションのスカウトが届きやすくなります。" },
               { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。半導体・メーカーの求人を幅広くカバーします。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

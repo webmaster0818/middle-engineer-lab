@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：難易度と向くエンジニア" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ" },
   { id: "hiring", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック・開発文化" },
@@ -44,7 +44,7 @@ const salaryRows: [string, string][] = [
 
 const faqs = [
   {
-    q: "Amazon／AWSジャパンの面接で最も重視されるのは？",
+    q: "Amazon／AWSジャパンの面接で最も重視される点は何ですか？",
     a: "Our Leadership Principles（OLP・16項目）への適合性です。AWS公式の採用案内でも、これまでどのリーダーシップ・プリンシプルをどう発揮したかを振り返り説明する準備が推奨されています。Customer Obsession、Ownership、Earn Trust などが軸になります。",
   },
   {
@@ -52,20 +52,20 @@ const faqs = [
     a: "AWS公式案内によると、書類選考→1次面接（1人・45〜60分、ポジションによりOnline Assessmentあり）→ループ面接（複数面接官・各60分）→内定、という流れです。応募から内定まで1〜1.5か月程度かかる方が多いと公式に記載されています。現在はほぼオンライン実施です。",
   },
   {
-    q: "Bar Raiser（バーレイザー）とは？",
+    q: "Bar Raiser（バーレイザー）とは何ですか？",
     a: "採用対象チーム外の訓練された面接官が面接に加わり、採用基準の一貫性と質を担保する仕組みとして広く知られています。短期の人手不足で基準を下げないための役割です。",
   },
   {
-    q: "エンジニアの年収はどのくらい？",
+    q: "エンジニアの年収はどのくらいですか？",
     a: "アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式平均年収はありません。levels.fyi（2026年10月15日時点・日本拠点SDE集計）では、SDE総報酬の中央値 約1,802万円、L4 約1,448万円、L5 約1,765万円、L6 約2,602万円です。RSU（株式報酬）は1年目5%・2年目15%・3〜4年目40%ずつのバックロード型で、初年度は基本給＋サインオンボーナス中心になりやすい点が特徴です。",
   },
   {
-    q: "AWS部門とリテール部門、どちらがおすすめ？",
+    q: "AWS部門とリテール部門、どちらがおすすめですか？",
     a: "クラウド技術を深めたいならAWS（詳しくは AWSジャパン特化ページ /company/aws-japan/ を参照）、ECやデバイス等のプロダクト志向ならリテール／デバイス部門が候補です。どちらもOLPベースの評価とオーナーシップ文化は共通です。希望は応募ポジションで明確にしておくとミスマッチが減ります。",
   },
   {
     q: "コーディング面接はありますか？",
-    a: "ポジションによりますが、ソフトウェアエンジニア職ではコーディング／技術面接とOLPベースの行動面接が組み合わされるのが一般的に知られています。データ構造・アルゴリズムの基礎と、設計・トレードオフを説明できる準備が有効です。",
+    a: "ポジションによりますが、ソフトウェアエンジニア職ではコーディング／技術面接とOLPベースの行動面接が組み合わされることが一般に知られています。データ構造・アルゴリズムの基礎と、設計・トレードオフを説明できる準備が有効です。",
   },
   {
     q: "ワークライフバランスはどうですか？",
@@ -125,8 +125,8 @@ export default function AmazonCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Amazon／AWSジャパンのエンジニア年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年10月15日時点）ではSDE総報酬の中央値 約1,802万円が目安です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬（levels.fyi・2026年10月15日時点、日本拠点SDE集計・レベル別26件）：中央値 約1,802万円、L4 約1,448万円、L5 約1,765万円、L6 約2,602万円です。中央値は7月約1,679万→8月約1,583万→9月約1,480万と3ヶ月連続で下方修正された後、10月は約1,802万へ上方修正です（集計件数も9月37件→10月26件と入れ替わっており、サンプル構成の変化による変動）。投稿ベースの集計値は変動が大きい点に注意が必要です。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型です。初年度は基本給＋サインオンボーナス中心になりやすい構造です。</li><li>・いずれもユーザー投稿ベースの集計値で、為替・株価により円換算額は変動します。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>アマゾンジャパン／AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年10月15日時点）ではSDE総報酬の中央値 約1,802万円が目安です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬（levels.fyi・2026年10月15日時点、日本拠点SDE集計・レベル別26件）：中央値 約1,802万円、L4 約1,448万円、L5 約1,765万円、L6 約2,602万円です。中央値は7月約1,679万→8月約1,583万→9月約1,480万と3ヶ月連続で下方修正された後、10月は約1,802万へ上方修正されています（集計件数も9月37件→10月26件と入れ替わっており、サンプル構成の変化による変動）。投稿ベースの集計値は変動が大きい点に注意が必要です。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型です。初年度は基本給＋サインオンボーナス中心になりやすい構造です。</li><li>・いずれもユーザー投稿ベースの集計値で、為替・株価により円換算額は変動します。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -153,18 +153,18 @@ export default function AmazonCompanyPage() {
           </ol>
         </nav>
 
-        {/* 結論 */}
+        {/* 難易度と向いている人 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
-            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：難易度と向くエンジニア</h2>
+            <h2 className="text-xl font-bold text-blue-900 mb-3">転職難易度と向いている人</h2>
             <p className="text-blue-900 text-sm leading-relaxed mb-3">
               Amazon／AWSジャパンのエンジニア中途採用は<strong>最難関クラス</strong>ですが、Googleと比べると
-              <strong>OLP（行動・価値観）の比重が大きい</strong>のが特徴です。次の3点が揃う人に向きます。
+              <strong>OLP（行動・価値観）の比重が大きい</strong>のが特徴です。次の3点が揃う人に向いています。
             </p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>① <strong>オーナーシップ</strong>を持ってプロジェクトを完遂した具体的エピソードを語れます</li>
-              <li>② <strong>AWS／分散システム</strong>の設計・運用に関わった経験があります</li>
-              <li>③ コーディング／技術面接の基礎と、<strong>英語・文章での論理説明</strong>に抵抗がない</li>
+              <li>① <strong>オーナーシップ</strong>を持ってプロジェクトを完遂した具体的エピソードを語れること</li>
+              <li>② <strong>AWS／分散システム</strong>の設計・運用に関わった経験があること</li>
+              <li>③ コーディング／技術面接の基礎と、<strong>英語・文章での論理説明</strong>に抵抗がないこと</li>
             </ul>
             <p className="text-blue-900 text-sm leading-relaxed mt-3">
               OLP対策は
@@ -194,7 +194,7 @@ export default function AmazonCompanyPage() {
             </table>
           </div>
           <p className="text-xs text-slate-400 mt-2">
-            ※技術スタックは公式のAWS技術情報・採用要項から一般に知られている範囲。担当領域は組織・ポジションで異なります。
+            ※技術スタックは公式のAWS技術情報・採用要項から一般に知られている範囲です。担当領域は組織・ポジションで異なります。
           </p>
         </section>
 
@@ -230,12 +230,12 @@ export default function AmazonCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック・開発文化</h2>
           <p className="text-slate-700 text-sm leading-relaxed mb-3">
             Amazonは自社クラウドAWSをフル活用し、Java・Python・TypeScriptなどでサービスを構築・運用していることが、公式のAWS技術ドキュメントや採用要項から広く知られています。
-            ドキュメント重視（PR/FAQやナラティブ文化）で、口頭プレゼンより文章で論点を整理する文化が知られています。
+            ドキュメント重視（PR/FAQやナラティブ文化）で、口頭プレゼンより文章で論点を整理する文化があるとされています。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>サーバーレス／マネージドサービス（Lambda・DynamoDB・ECS等）を前提とした設計</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>運用・可用性・コストまで自チームで責任を持つオペレーション文化</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>・<Link href="/skill/java/" className="text-petrol hover:underline">Java</Link>・<Link href="/skill/python/" className="text-petrol hover:underline">Python</Link>の実務経験が評価されやすいです</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>・<Link href="/skill/java/" className="text-petrol hover:underline">Java</Link>・<Link href="/skill/python/" className="text-petrol hover:underline">Python</Link>の実務経験が評価されやすい傾向があります</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>文章で設計判断を残す文化のため、ドキュメンテーション力が活きます</li>
           </ul>
         </section>
@@ -252,7 +252,7 @@ export default function AmazonCompanyPage() {
               ・<strong>levels.fyi（2026年10月15日時点・日本拠点SDE集計）</strong>：SDE総報酬の中央値 約1,802万円です（L4 約1,448万円／L5 約1,765万円／L6 約2,602万円）。基本給＋RSU＋ボーナスの合計です。
             </li>
             <li>
-              ・<strong>RSUの特徴</strong>：Amazonの株式付与は1年目5%／2年目15%／3年目40%／4年目40%の<strong>バックロード型です</strong>。初年度は基本給＋サインオンボーナス中心になりやすく、年次が進むほど総報酬が伸びる構造です。
+              ・<strong>RSUの特徴</strong>：Amazonの株式付与は1年目5%／2年目15%／3年目40%／4年目40%の<strong>バックロード型</strong>です。初年度は基本給＋サインオンボーナス中心になりやすく、年次が進むほど総報酬が伸びる構造です。
             </li>
           </ul>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
@@ -282,7 +282,7 @@ export default function AmazonCompanyPage() {
               Amazon／AWSジャパンの報酬は「基本給＋RSU＋（入社時のみ）サインオンボーナス」の構成で、<strong>日本企業のような年2回の定期賞与はなく、現金ボーナスの比率は小さい</strong>のが特徴です。levels.fyi（2026年10月15日時点・日本拠点SDE集計）のレベル別内訳では、現金賞与は約10万〜60万円に対し、株式（RSU）はL4約257万円・L5約363万円・L6約617万円と大きく、上位レベルほど株式の比重が高い構造です。
             </p>
             <p className="text-sm leading-7 text-slate-700">
-              RSUの権利確定は1年目5%／2年目15%／3〜4年目各40%のバックロード型のため、<strong>1〜2年目の現金収入はサインオンボーナスで補填される設計</strong>です。転職時のオファー比較では「4年トータルの総報酬」と「初年度の現金」を分けて見るのが重要なポイントです。
+              RSUの権利確定は1年目5%／2年目15%／3〜4年目各40%のバックロード型のため、<strong>1〜2年目の現金収入はサインオンボーナスで補填される設計</strong>です。転職時のオファー比較では「4年トータルの総報酬」と「初年度の現金」を分けて確認することが重要です。
             </p>
           </div>
           <p className="text-slate-600 text-sm mt-4">
@@ -300,9 +300,9 @@ export default function AmazonCompanyPage() {
           <ol className="space-y-3 text-sm text-slate-700">
             {[
               ["書類選考", "職務経歴をもとに選考します。ポジションによりOnline Assessmentが課されることがあります。"],
-              ["1次面接（Phone Screen）", "1人の面接官と45〜60分。技術とOLPの両面を確認します。"],
-              ["ループ面接", "複数の面接官と各60分ずつ実施します。コーディング／設計とOLPベースの行動面接の組み合わせ。Bar Raiserが加わります。"],
-              ["内定", "条件が提示されます。応募から内定まで1〜1.5か月程度かかる方が多いと公式に記載します。現在はほぼオンライン実施。"],
+              ["1次面接（Phone Screen）", "1人の面接官と45〜60分行い、技術とOLPの両面を確認します。"],
+              ["ループ面接", "複数の面接官と各60分ずつ実施します。コーディング／設計とOLPベースの行動面接を組み合わせ、Bar Raiserも加わります。"],
+              ["内定", "条件が提示されます。応募から内定まで1〜1.5か月程度かかる方が多いと公式に記載されています。現在はほぼオンラインで実施されています。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
@@ -341,8 +341,8 @@ export default function AmazonCompanyPage() {
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <h3 className="font-bold text-emerald-800 text-sm mb-2">良い評判の傾向</h3>
               <ul className="space-y-1 text-sm text-emerald-900">
-                <li>・有給消化率が高く福利厚生がしっかりという声</li>
-                <li>・優秀な同僚と成長機会が多いという声</li>
+                <li>・有給消化率が高く福利厚生が充実しているという声</li>
+                <li>・優秀な同僚が多く成長機会があるという声</li>
                 <li>・残業を強制されにくい部署もあるという声</li>
               </ul>
             </div>
@@ -350,7 +350,7 @@ export default function AmazonCompanyPage() {
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる点の傾向</h3>
               <ul className="space-y-1 text-sm text-amber-900">
                 <li>・職種・部署で負荷の差が大きいとの指摘</li>
-                <li>・成果・目標（クォータ等）へのプレッシャー</li>
+                <li>・成果・目標（クォータ等）へのプレッシャーを指摘する声</li>
                 <li>・タスク管理次第で繁忙度が変わるという声</li>
               </ul>
             </div>
@@ -364,11 +364,11 @@ export default function AmazonCompanyPage() {
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               Amazonは<strong>OLPベースの行動面接の比重が大きい</strong>ため、30代・40代の「実務で何をどう判断し、やり切ったか」という蓄積がそのまま強みになりやすい企業です。
-              GAFAの中では、純粋なアルゴリズム偏重というより「実績＋オーナーシップ」を語れる人にチャンスがあります。
+              GAFAの中では、純粋なアルゴリズム偏重というより「実績＋オーナーシップ」を語れる人が評価されやすい傾向があります。
             </p>
             <p>
-              一方で、エピソードが抽象的だとOLP面接で評価されにくいのが落とし穴です。応募前に過去の主要プロジェクトを5〜8本、STAR形式で棚卸ししておくと安定します。
-              AWS経験がある場合は、設計・運用・コスト最適化まで一気通貫で語れると強いです。
+              一方で、エピソードが抽象的だとOLP面接で評価されにくい点に注意が必要です。応募前に過去の主要プロジェクトを5〜8本、STAR形式で棚卸ししておくと、回答の質が安定します。
+              AWS経験がある場合は、設計・運用・コスト最適化まで一気通貫で語れると有利です。
             </p>
             <p>
               準備は
@@ -387,8 +387,8 @@ export default function AmazonCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">Amazon／AWS転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資ITを扱うヘッドハンターと接点を作りやすいです。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。技術職の選考対策・キャリアの棚卸しに強いです。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資ITを扱うヘッドハンターと接点を作りやすくなります。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。技術職の選考対策・キャリアの棚卸しに強みがあります。" },
               { name: "Geekly（ギークリー）", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが速く、選択肢を素早く広げたい人向けです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

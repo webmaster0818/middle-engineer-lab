@@ -31,7 +31,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術領域・募集職種（公式採用情報ベース）"],
@@ -67,11 +67,11 @@ const faqs = [
   },
   {
     q: "SHIFTへの転職難易度は高いですか？",
-    a: "品質保証（QA）職は大規模採用が続いており、IT業界への入口としては挑戦しやすい部類です。一方で、テスト自動化・開発・上流コンサルなど専門性が高いポジションは実務経験が問われます。論理的思考力・几帳面さ・品質への当事者意識が評価されやすい傾向です。",
+    a: "品質保証（QA）職は大規模採用が続いており、IT業界への入口としては挑戦しやすい部類です。一方で、テスト自動化・開発・上流コンサルなど専門性が高いポジションは実務経験が問われます。論理的思考力・几帳面さ・品質への当事者意識が評価されやすい傾向があります。",
   },
   {
     q: "30代・40代でもSHIFTに転職できますか？",
-    a: "提出会社の平均年齢は38.0歳とミドル層が中心で、30代・40代の中途採用は現実的です。前職のドメイン知識（金融・製造・流通など）や、テスト・品質管理・プロジェクトマネジメントの経験があると、上流工程やリーダー職で評価されやすい傾向です。",
+    a: "提出会社の平均年齢は38.0歳とミドル層が中心で、30代・40代の中途採用は現実的です。前職のドメイン知識（金融・製造・流通など）や、テスト・品質管理・プロジェクトマネジメントの経験があると、上流工程やリーダー職で評価されやすい傾向があります。",
   },
 ];
 
@@ -99,8 +99,8 @@ export default function ShiftCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SHIFTの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SHIFT（提出会社単体）の平均年間給与は684万円です（2025年8月期 有価証券報告書・全社員平均、平均年齢38.0歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 684万円です（2025年8月期 有価証券報告書・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2021年8月期591万円から2025年8月期684万円へ毎期上昇傾向です（各期 有価証券報告書）。</li><li>・QA職・開発職など職種別の公式年収レンジは非公表です。成果に応じた評価制度で、提示額は職務・等級・評価により個別決定です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>SHIFT（提出会社単体）の平均年間給与は684万円です（2025年8月期 有価証券報告書・全社員平均、平均年齢38.0歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 684万円です（2025年8月期 有価証券報告書・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2021年8月期591万円から2025年8月期684万円へ毎期上昇傾向です（各期 有価証券報告書）。</li><li>・QA職・開発職など職種別の公式年収レンジは非公表です。成果に応じた評価制度で、提示額は職務・等級・評価により個別に決定されます。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -119,14 +119,14 @@ export default function ShiftCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              SHIFTは<strong>ソフトウェアの品質保証（QA）を事業の柱に据え、未経験採用から専門職まで幅広く受け入れる急成長企業</strong>です。品質・テストという専門領域でキャリアを築きたい人、IT業界への入口を探すミドルに向きます。
+              SHIFTは<strong>ソフトウェアの品質保証（QA）を事業の柱に据え、未経験採用から専門職まで幅広く受け入れる急成長企業</strong>です。品質・テストという専門領域でキャリアを築きたい人、IT業界への入口を探すミドルに適しています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：品質保証・テスト・プロジェクト管理に関心があり、論理的思考と几帳面さで品質に向き合えるエンジニア</li>
               <li>● <strong>向いていない人</strong>：自社プロダクトを一から作り込む開発に専念したい人、安定・低変動な環境を最優先する人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢38.0歳です。ドメイン知識・管理経験があれば上流・リーダー職で評価されやすいです</li>
+              <li>● <strong>30代・40代</strong>：平均年齢38.0歳。ドメイン知識・管理経験があれば上流・リーダー職で評価されやすい傾向</li>
             </ul>
           </div>
         </section>
@@ -271,7 +271,7 @@ export default function ShiftCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。QA・テスト・開発系の求人にも対応し、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、上流コンサル・リーダー職の求人に対応しています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

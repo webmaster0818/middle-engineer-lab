@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：年収1200万円の位置づけと到達ルート" },
+  { id: "conclusion", label: "年収1200万円の位置づけと到達ルート" },
   { id: "position", label: "年収1200万円はITSSのどのレベルか" },
   { id: "jobtag", label: "公的データでみる高年収クラスの実在" },
   { id: "jobs", label: "1200万円に近い職種・座" },
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "1200万円はどんな人が到達していますか？",
-    a: "外資系IT企業のシニアエンジニア・マネージャー、上場メガベンチャーの上級ポジション、開発組織を統括するエンジニアリングマネージャー／VPoE、アーキテクト・AI・セキュリティなどのトップスペシャリスト、ITコンサルのマネージャー層などです。共通するのは『報酬テーブルの高い環境』に『代替の利かない実力』で入っている点で、誰でも到達できる帯ではない点はご説明します。",
+    a: "外資系IT企業のシニアエンジニア・マネージャー、上場メガベンチャーの上級ポジション、開発組織を統括するエンジニアリングマネージャー／VPoE、アーキテクト・AI・セキュリティなどのトップスペシャリスト、ITコンサルのマネージャー層などです。共通するのは『報酬テーブルの高い環境』に『代替の利かない実力』で入っている点で、誰でも到達できる帯ではない点にご留意ください。",
   },
   {
     q: "国内の一般的なSIerやSESでも1200万円は狙えますか？",
@@ -129,7 +129,7 @@ export default function Salary1200Page() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収1200万円の位置づけと到達ルート</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収1200万円の位置づけと到達ルート</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収1200万円は、経済産業省のITSSスキル標準レベルでみると<strong>L6・7（1,129.9万円）</strong>に相当する最上位帯です。L6・7は社内のみならず市場でも認知される最高レベルの専門家・統括者層にあたり、1200万円は<strong>最上位の実力者</strong>の年収帯です。
@@ -159,17 +159,17 @@ export default function Salary1200Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L4</td>
                   <td className="px-4 py-3 border border-slate-200">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門です。700万円帯です。手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門。700万円帯（手前）</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L5</td>
                   <td className="px-4 py-3 border border-slate-200">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層です。900万円帯です。手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層。900万円帯（手前）</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L6・7</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">1,129.9万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">最上位です。1200万円が含まれる帯</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">最上位。1200万円が含まれる帯</td>
                 </tr>
               </tbody>
             </table>
@@ -226,7 +226,7 @@ export default function Salary1200Page() {
               1200万円帯の求人は、<strong>外資・上場メガベンチャー・コンサル・希少スペシャリスト</strong>に集中します。多くはヘッドハンティングやスカウト型で動き、一般公募に出ないことも珍しくありません。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              実際には、この帯は<strong>限られた層の水準</strong>です。実力があっても、報酬テーブルの低い環境にいれば届きにくく、逆に環境を選べば同じ実力で大きく変わります。「到達は容易ではない」「環境選択が決定的に効く」という二点を誠実に理解したうえで、長期の設計として狙う帯です。
+              実際には、この帯は<strong>限られた層の水準</strong>です。実力があっても、報酬テーブルの低い環境にいれば届きにくく、逆に環境を選べば同じ実力で大きく変わります。「到達は容易ではない」「環境選択が決定的に効く」という二点を理解したうえで、長期の設計として狙う帯です。
             </p>
           </div>
         </section>

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：判断軸は「家族の合意」と「最低年収ライン」" },
+  { id: "conclusion", label: "判断軸は「家族の合意」と「最低年収ライン」" },
   { id: "consult", label: "家族への相談タイミングと伝え方（例文付き）" },
   { id: "salary-down", label: "年収ダウンを許容してよい場合・避ける場合" },
   { id: "relocation", label: "転居を伴う転職の判断チェックリスト" },
@@ -23,7 +23,7 @@ const toc = [
 ];
 
 const consultSteps = [
-  { phase: "①検討段階（応募前）", timing: "転職を「考え始めた」時点で共有します", why: "事後報告は不信感のもとになります。方向性のすり合わせを先にします" },
+  { phase: "①検討段階（応募前）", timing: "転職を「考え始めた」時点で共有", why: "事後報告は不信感のもとになります。方向性のすり合わせを先にします" },
   { phase: "②活動本格化（応募〜面接）", timing: "面接が入り始めた段階で進捗を共有", why: "面接日程・有給取得など家族の協力が必要になります" },
   { phase: "③内定・意思決定", timing: "オファー条件が出た段階で最終合意", why: "年収・勤務地・入社日など生活に直結する条件を一緒に判断します" },
 ];
@@ -36,7 +36,7 @@ const salaryAllowCases = [
 ];
 const salaryAvoidCases = [
   "住宅ローン・教育費など固定支出をカバーできなくなる水準まで下がります",
-  "「とりあえず現職を辞めたい」という理由が先行し、回収見込みが曖昧",
+  "「とりあえず現職を辞めたい」という理由が先行し、回収見込みが曖昧なままです",
   "下がった年収を取り戻す具体的なキャリアパスが描けません",
   "生活防衛資金が不足したまま、賭けのような転職になっています",
 ];
@@ -69,7 +69,7 @@ export default function FamilyPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】家族持ちの転職で最初に決めるべきことは？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 活動を始める前に「家族の合意」と「最低年収ライン」を固め、在職中に動くことが失敗を避ける鍵です。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>活動を始める前に「家族の合意」と「最低年収ライン」を固め、在職中に動くことが失敗を避ける鍵です。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・検討段階から配偶者を巻き込み、方向性をすり合わせます（事後報告は不信のもと）</li><li>・固定支出から逆算した「下回れない最低年収ライン」を明確にします</li><li>・収入を維持したまま在職中に内定を取り、焦りによる妥協を避けます</li></ul>
           </div>
         </section>
@@ -88,7 +88,7 @@ export default function FamilyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：判断軸は「家族の合意」と「最低年収ライン」</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">判断軸は「家族の合意」と「最低年収ライン」</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">家族持ちの転職で失敗を避ける鍵は、活動を始める前に次の3点を固めることです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
@@ -191,7 +191,7 @@ export default function FamilyPage() {
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の家族持ち独自視点</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアは、守るものがある分だけ慎重になりがちですが、市況自体は経験者に追い風です。経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されており、即戦力の需要は高い状態が続くと見込まれています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアは、守るものがある分だけ慎重になりがちですが、市況自体は経験者にとって有利な状況です。経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されており、即戦力の需要は高い状態が続くと見込まれています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
           <p className="text-slate-600 leading-relaxed">大切なのは、こうした市況を「家族を説得する客観材料」として使うことです。感情ではなくデータと計画で示せば、配偶者の不安も和らぎます。40代特有の現実は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニアの転職リアル</Link>、年齢の論点は<Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">年齢と転職</Link>も参考にしてください。</p>
         </section>
 

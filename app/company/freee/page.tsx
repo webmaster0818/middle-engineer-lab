@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんなエンジニア向きか" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（企業概要・出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
@@ -47,35 +47,35 @@ const salaryTrend: [string, string, string][] = [
 
 const faqs = [
   {
-    q: "freeeのエンジニア転職の難易度は高い？",
-    a: "クラウド会計のリーディングSaaSとして人気が高く、Webアプリケーション開発の実務経験は前提になります。一方で職種ごとに通年で複数ポジションを募集しており、Ruby on Railsなどモダンな技術での開発経験と、ユーザー課題に向き合う姿勢があれば30代・40代でも十分に挑戦できます。学歴よりも実務での課題解決経験が見られる傾向です。",
+    q: "freeeのエンジニア転職の難易度は高いですか？",
+    a: "クラウド会計のリーディングSaaSとして人気が高く、Webアプリケーション開発の実務経験は前提になります。一方で職種ごとに通年で複数ポジションを募集しており、Ruby on Railsなどモダンな技術での開発経験と、ユーザー課題に向き合う姿勢があれば30代・40代でも十分に挑戦できます。学歴よりも実務での課題解決経験が見られる傾向があります。",
   },
   {
-    q: "freeeのエンジニアの平均年収はいくら？",
+    q: "freeeのエンジニアの平均年収はいくらですか？",
     a: "freee株式会社の有価証券報告書（2025年6月期）に記載された全社員の平均年間給与は688万円、平均年齢33.1歳です（エンジニア職に限った数値ではなく全社員平均）。職種・等級別の正式な年収表は公開されていないため、個別の提示額は求人ごと・スキル評価ごとに決定されます。",
   },
   {
-    q: "freeeの技術スタックは？",
+    q: "freeeの技術スタックを教えてください。",
     a: "freee Developers Hub（公式技術ブログ）などの公開情報によると、バックエンドはRuby on Rails、フロントエンドはReact/TypeScriptが中心です。社内デザインシステム「Vibes」を整備し、複数プロダクト横断での技術標準化（API仕様・インフラ管理・ログ基盤等）を進めています。",
   },
   {
-    q: "freeeの選考フローは？",
+    q: "freeeの選考フローを教えてください。",
     a: "公式採用ページ（キャリア採用）によると、任意のカジュアル面談 → エントリー（書類選考）→ 面接約3回 → 内定（オファー面談）が基本です。エンジニア職では選考過程でコードテストが実施される場合があり、全職種でリファレンスチェックが行われることがあります。",
   },
   {
-    q: "freeeはアクセシビリティに力を入れていると聞きましたが本当？",
-    a: "freeeは日本のSaaS企業の中でもアクセシビリティへの取り組みを公式に発信している企業の一つで、アクセシビリティガイドラインを公開しています。プロダクト開発でアクセシビリティやUXへの関心があると評価されやすい土壌があります。",
+    q: "freeeはアクセシビリティに力を入れていると聞きましたが、本当ですか？",
+    a: "freeeは日本のSaaS企業の中でもアクセシビリティへの取り組みを公式に発信している企業の一つで、アクセシビリティガイドラインを公開しています。プロダクト開発でアクセシビリティやUXへの関心があると評価されやすい環境があります。",
   },
   {
-    q: "freeeはリモートワークできる？残業は多い？",
+    q: "freeeはリモートワークできますか？残業は多いですか？",
     a: "freeeはフレックスタイム制とリモートワークを併用できる体制を採っています。OpenWorkの社員クチコミでは、エンジニア職は比較的残業が少ないという声が見られますが、職種・時期によって変動します。最新の勤務条件は応募時に各求人で確認してください。",
   },
   {
-    q: "freeeへの転職で有利な経験は？",
-    a: "Ruby on Railsを中心としたWebアプリケーションの実務経験、SaaSプロダクトの開発・運用経験が基本です。会計・人事労務などバックオフィス領域のドメイン知識、アクセシビリティやUXへの関心があると加点されやすい傾向です。",
+    q: "freeeへの転職で有利になる経験を教えてください。",
+    a: "Ruby on Railsを中心としたWebアプリケーションの実務経験、SaaSプロダクトの開発・運用経験が基本です。会計・人事労務などバックオフィス領域のドメイン知識、アクセシビリティやUXへの関心があると加点されやすい傾向があります。",
   },
   {
-    q: "freeeはエージェント経由と直接応募どちらがいい？",
+    q: "freeeはエージェント経由と直接応募のどちらがよいですか？",
     a: "freeeは公式採用ページから直接応募もカジュアル面談も受け付けています。書類添削や年収交渉のサポートが欲しい場合はSaaSに強いエージェント経由、自分のペースで進めたい場合は直接応募と、目的で使い分けるのがおすすめです。複数経路の併用も可能です。",
   },
 ];
@@ -108,7 +108,7 @@ export default function FreeeCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】freeeの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: freee株式会社の平均年間給与は688万円です（2025年6月期 有価証券報告書・全社員平均、平均年齢33.1歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>freee株式会社の平均年間給与は688万円です（2025年6月期 有価証券報告書・全社員平均、平均年齢33.1歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 688万円です（2025年6月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年6月期の716万円をピークに微減し、2025年6月期は688万円に回復しています（各期 有価証券報告書）。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
@@ -140,13 +140,13 @@ export default function FreeeCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：Webアプリ開発の実務経験があり、ユーザー課題に深く向き合いたいエンジニア向きです。難易度は中〜やや高。</p>
+            <p className="font-bold text-blue-900 mb-3">Webアプリ開発の実務経験があり、ユーザー課題に深く向き合いたいエンジニアに向いています。難易度は中〜やや高めです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li className="flex gap-2"><span className="shrink-0">1.</span>Ruby on Rails中心のモダンなSaaS開発経験が活き、上場済みの安定感と成長企業のスピードを両立できます。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は688万円です（2025年6月期 有価証券報告書）。SaaS業界では高めの水準で、ミドル層の年収維持・向上を狙いやすいです。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>「マジ価値」を掲げるプロダクト志向の文化で、技術力だけでなくユーザー課題への当事者意識が問われます。手を動かすだけの人より、課題を定義できる人が評価されやすいです。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は688万円です（2025年6月期 有価証券報告書）。SaaS業界では高めの水準で、ミドル層にとって年収維持・向上の選択肢になり得ます。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>「マジ価値」を掲げるプロダクト志向の文化で、技術力だけでなくユーザー課題への当事者意識が問われます。手を動かすだけの人より、課題を定義できる人が評価されやすい傾向があります。</li>
             </ul>
           </div>
         </section>
@@ -238,7 +238,7 @@ export default function FreeeCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mb-4">出典: freee株式会社 有価証券報告書（各期）。2022年6月期の716万円をピークに微減し、2025年6月期は688万円に回復します。</p>
+          <p className="text-xs text-slate-400 mb-4">出典: freee株式会社 有価証券報告書（各期）。2022年6月期の716万円をピークに微減し、2025年6月期は688万円に回復しています。</p>
           <p className="text-slate-700 text-sm leading-relaxed">
             参考として、IT・通信業界の転職者の平均決定年収は486万円（パーソルキャリア「decision年収レポート」2024年度・2025年5月公表）であり、freeeの全社員平均はこれを上回ります。
             個別のエンジニア求人の提示額はスキル評価で個別決定されるため、本ページでは確認できる出典のない等級別レンジは掲載していません。実際の提示額は求人票またはエージェント経由でご確認ください。
@@ -252,11 +252,11 @@ export default function FreeeCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["カジュアル面談（任意）", "選考要素のない1on1。現場メンバーから実際の働き方や仕事の魅力を聞けます。オンライン（Google Meet）が基本でオフラインも可。"],
+              ["カジュアル面談（任意）", "選考要素のない1on1で、現場メンバーから実際の働き方や仕事の魅力を聞けます。オンライン（Google Meet）が基本で、オフラインも可能です。"],
               ["エントリー（書類選考）", "募集職種から応募し書類を提出します。合否に関わらず1週間以内に連絡があるとされます。"],
               ["面接（約3回）", "現場メンバー・マネージャー等との面接が行われます。エンジニア職の初回は技術ディスカッション中心で、課題解決経験・技術研鑽・サービス運営経験などを問われます。"],
               ["コードテスト／リファレンスチェック", "エンジニア職では選考過程でコードテストが実施される場合があります。全職種でリファレンスチェックが行われることがあります。"],
-              ["内定（オファー面談）", "条件・制度の説明。オフィス訪問での面談も可能。"],
+              ["内定（オファー面談）", "条件・制度の説明を受けます。オフィス訪問での面談も可能です。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -276,10 +276,10 @@ export default function FreeeCompanyPage() {
             公式採用ページ・採用担当インタビュー（レバテックキャリア掲載）などの公開情報から読み取れる傾向です。特定の質問文の再現や断定は避け、評価観点として整理します。
           </p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ユーザー課題への当事者意識です（「マジ価値」への共感）。技術選定の背景を語れるか。</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>変化やチャレンジを楽しめる姿勢です。新しい技術・領域への適応力です。</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>課題解決経験の具体性です。なぜその設計・実装にしたかを自分の言葉で説明できるか。</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>サービス運営・運用の経験、技術研鑽（学習やアウトプット）への姿勢です。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ユーザー課題への当事者意識（「マジ価値」への共感）と、技術選定の背景を語れるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>変化やチャレンジを楽しめる姿勢と、新しい技術・領域への適応力</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>課題解決経験の具体性と、なぜその設計・実装にしたかを自分の言葉で説明できるか</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>サービス運営・運用の経験と、技術研鑽（学習やアウトプット）への姿勢</li>
           </ul>
           <p className="text-sm text-slate-600 mt-4">
             面接全般の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策ガイド</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト攻略</Link>を参考にしてください。
@@ -296,8 +296,8 @@ export default function FreeeCompanyPage() {
               <h3 className="font-bold text-green-800 mb-2 text-sm">ポジティブな傾向</h3>
               <ul className="space-y-1.5 text-sm text-green-900">
                 <li>「やりたい仕事を任せてもらえる」「マルチプロダクト開発に関われる」という働きがいの声（OpenWork）</li>
-                <li>ビジネスモデルと事業内容の一貫性、ホワイトな環境を入社理由に挙げる声（OpenWork）</li>
-                <li>エンジニア職は残業が比較的少ないという投稿も見られます（OpenWork）</li>
+                <li>ビジネスモデルと事業内容の一貫性、働きやすい環境を入社理由に挙げる声（OpenWork）</li>
+                <li>エンジニア職は残業が比較的少ないという投稿（OpenWork）</li>
               </ul>
             </div>
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
@@ -305,7 +305,7 @@ export default function FreeeCompanyPage() {
               <ul className="space-y-1.5 text-sm text-amber-900">
                 <li>成果主義のため評価により昇給・賞与の幅が大きく、安定的な昇給を期待する人には合わない場合があります（OpenWork）</li>
                 <li>事業環境の変化が速く、プロダクトや組織の変化への適応が求められます</li>
-                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
+                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意が必要です</li>
               </ul>
             </div>
           </div>
@@ -319,7 +319,7 @@ export default function FreeeCompanyPage() {
               freeeは上場済みで事業基盤が安定しつつ、SaaS市場の成長を取り込めるフェーズにあります。30代・40代のミドルエンジニアにとっては、「スタートアップの不確実性は避けたいが、レガシーで停滞した環境にも戻りたくない」というニーズに合致しやすい選択肢です。
             </p>
             <p>
-              平均年齢が33.1歳（2025年6月期）と若めのため、40代は相対的にシニア寄りの立ち位置になります。マネジメントやテックリードとしての経験、ドメイン（会計・人事労務）への理解、プロダクト横断の標準化を推進した経験などは、年齢に見合った価値として評価されやすいでしょう。逆に「コードを書くだけ」のポジション期待だと、若手との差別化が難しくなります。
+              平均年齢が33.1歳（2025年6月期）と若めのため、40代は相対的にシニア寄りの立ち位置になります。マネジメントやテックリードとしての経験、ドメイン（会計・人事労務）への理解、プロダクト横断の標準化を推進した経験などは、年齢に見合った価値として評価されやすいと考えられます。一方で、「コードを書くだけ」のポジション期待だと、若手との差別化が難しくなります。
             </p>
             <p>
               年収面では、現職が事業会社の維持・運用中心で頭打ちになっている30代・40代にとって、freeeの全社員平均688万円（有価証券報告書）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
@@ -334,8 +334,8 @@ export default function FreeeCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">freee転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。SaaS企業の非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
-              { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイトです。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすいです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人の比率が高い傾向があります。SaaS企業の非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
+              { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイトです。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすくなります。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、SaaS系企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

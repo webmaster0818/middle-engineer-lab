@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "PMPは転職に有利？30・40代の年収・受験資格・活かし方【2026年】";
 const PAGE_DESC =
-  "PMP（プロジェクトマネジメント・プロフェッショナル）は30代・40代の転職で有利か。PMI公式Salary Surveyの年収データ、受験資格・試験概要、評価される場面、実務×資格の活かし方とデメリットまで解説します。";
+  "PMP（プロジェクトマネジメント・プロフェッショナル）は30代・40代の転職で有利か。PMI公式Salary Surveyの年収データ、受験資格・試験概要、評価される場面、実務と資格を組み合わせた活かし方とデメリットまで解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/pmp/" },
@@ -15,12 +15,12 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：PMPは経験者加点資格、ミドルに効く" },
+  { id: "conclusion", label: "PMPはミドル層に適した経験者加点資格" },
   { id: "overview", label: "試験概要・受験資格" },
   { id: "salary", label: "保有者の年収相場" },
   { id: "scene", label: "転職で評価される場面" },
   { id: "jobs", label: "求人で求められる要件" },
-  { id: "kakezan", label: "30-40代の価値＝実務×資格" },
+  { id: "kakezan", label: "30-40代にとっての価値：実務と資格の組み合わせ" },
   { id: "steps", label: "取得3ステップ・併取得資格" },
   { id: "demerit", label: "デメリット・留意点" },
   { id: "faq", label: "よくある質問" },
@@ -29,7 +29,7 @@ const toc = [
 const faqs = [
   {
     q: "PMPは30代・40代の転職で本当に有利ですか？",
-    a: "経験者にとっては有利に働きやすい資格です。理由は受験資格自体がPM実務（大卒で36ヶ月以上、非大卒で60ヶ月以上）を求めるため、PMPを持っていること自体が一定のPM経験の客観的証明になるからです。PMI公式のSalary Survey 13th Edition（2023）では、日本のPMP保有者の年収中央値は891万円で、非保有者の817万円を上回ると報告されています。ただし資格単体ではなく、実際のプロジェクト実績とセットで語れることが前提です。",
+    a: "経験者にとっては有利に働きやすい資格です。理由は受験資格自体がPM実務（大卒で36ヶ月以上、非大卒で60ヶ月以上）を求めるため、PMPを持っていること自体が一定のPM経験の客観的証明になるからです。PMI公式のSalary Survey 13th Edition（2023）では、日本のPMP保有者の年収中央値は891万円で、非保有者の817万円を上回ると報告されています。ただし資格単体ではなく、実際のプロジェクト実績とあわせて説明できることが前提です。",
   },
   {
     q: "PMPの受験資格を満たしているか分かりません。",
@@ -45,12 +45,12 @@ const faqs = [
   },
   {
     q: "PMPとIPAの応用情報、どちらを先に取るべきですか？",
-    a: "目的次第です。マネジメント・PM職を明確に狙うならPMPが直接効きます。一方、上流・設計の土台を国家資格で固めたい、あるいはPMPの受験資格（実務36ヶ月）にまだ届かない場合は、先に応用情報技術者でIT全般の体系知識を固めるのが現実的です。PMPは実務経験が前提のため、経験が浅い段階では応用情報→経験を積む→PMPという順序が無理がありません。",
+    a: "目的次第です。マネジメント・PM職を明確に目指すならPMPが直接評価につながります。一方、上流・設計の土台を国家資格で固めたい、あるいはPMPの受験資格（実務36ヶ月）にまだ届かない場合は、先に応用情報技術者でIT全般の体系知識を固めるのが現実的です。PMPは実務経験が前提のため、経験が浅い段階では、応用情報を取得し、経験を積んでからPMPに挑戦する順序が無理のない進め方です。",
   },
 ];
 
 const salaryByAge = [
-  ["30代", "約949万円", "PM経験を積み高単価案件に乗る時期"],
+  ["30代", "約949万円", "PM経験を積み高単価案件に参画する時期"],
   ["40代", "約1,212万円", "PMO・複数PJ統括など責任拡大層"],
   ["50代", "約1,217万円", "プログラム/ポートフォリオ管理層"],
 ];
@@ -90,7 +90,7 @@ export default function CertPmpPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          PMP（Project Management Professional）は、PMI（Project Management Institute）が認定する国際的なプロジェクトマネジメント資格です。本記事は「30代・40代の転職でPMPは効くのか」という情報意図に絞り、<strong>受験資格が構造的にミドル向け</strong>であること、PMI公式の年収データ、そして「実務×資格の掛け算」での活かし方を、デメリットも含めて整理します。
+          PMP（Project Management Professional）は、PMI（Project Management Institute）が認定する国際的なプロジェクトマネジメント資格です。本記事は「30代・40代の転職でPMPは評価されるのか」という情報意図に絞り、<strong>受験資格が構造的にミドル向け</strong>であること、PMI公式の年収データ、そして実務と資格を組み合わせた活かし方を、デメリットも含めて整理します。
         </p>
 
         <DataNote
@@ -117,22 +117,22 @@ export default function CertPmpPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PMPは経験者加点資格、ミドルに効く</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">PMPはミドル層に適した経験者加点資格</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              PMPは当サイトの分類で<strong>「経験者加点資格」</strong>に位置づけられます。受験資格自体がPM実務36ヶ月以上（大卒）を求めるため、構造的に30代・40代のミドル層向けの資格です。資格を持つこと自体がPM経験の客観証明になり、高単価案件の書類フィルタを通過しやすくなります。
+              PMPは当サイトの分類で<strong>「経験者加点資格」</strong>に位置づけられます。受験資格自体がPM実務36ヶ月以上（大卒）を求めるため、構造的に30代・40代のミドル層向けの資格です。資格を持つこと自体がPM経験の客観証明になり、高単価案件の書類選考を通過しやすくなります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 受験資格が<strong>PM実務前提</strong>＝持っているだけで経験の裏づけになります</li>
-              <li>② PMI公式データで保有者中央値<strong>891万円です</strong>（非保有817万円・2023）</li>
-              <li>③ ただし<strong>3年ごと60PDU更新</strong>が必要で、取りっぱなしにはできません</li>
+              <li>① 受験資格が<strong>PM実務を前提</strong>としているため、保有しているだけで経験の裏づけになります</li>
+              <li>② PMI公式データでは保有者の年収中央値が<strong>891万円</strong>です（非保有817万円・2023）</li>
+              <li>③ ただし<strong>3年ごとに60PDUでの更新</strong>が必要で、取りっぱなしにはできません</li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            PMPが他のIT資格と決定的に違うのは、<strong>「合格すること」より「受験資格を満たすこと」のハードルが高い</strong>点です。基本情報やCCNAは実務未経験でも挑戦できますが、PMPはそもそもプロジェクトマネジメントの実務経験がないとスタートラインに立てません。この構造が、結果としてPMPを「ミドル層の経験を裏づける資格」にしています。20代で取得している人が相対的に少ないのもこのためで、30-40代がキャリアの棚卸しと並行して狙うのに適した資格と言えます。
+            PMPが他のIT資格と大きく異なるのは、<strong>「合格すること」より「受験資格を満たすこと」のハードルが高い</strong>点です。基本情報やCCNAは実務未経験でも挑戦できますが、PMPはそもそもプロジェクトマネジメントの実務経験がないとスタートラインに立てません。この構造が、結果としてPMPを「ミドル層の経験を裏づける資格」にしています。20代で取得している人が相対的に少ないのもこのためで、30-40代がキャリアの棚卸しと並行して狙うのに適した資格と言えます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mt-3">
-            一方で、PMPは「持っているだけで案件が降ってくる魔法の資格」ではありません。最終的に評価されるのは、担当したプロジェクトをどう成功（あるいは火消し）させたかという実績です。資格はその実績に「国際標準のPM知識を体系的に持っている」という保証を付ける役割だと理解しておくと、取得後の期待値のズレを防げます。
+            一方で、PMPは保有しているだけで案件を獲得できる資格ではありません。最終的に評価されるのは、担当したプロジェクトをどう成功させたか（あるいは問題をどう収拾したか）という実績です。資格はその実績に「国際標準のPM知識を体系的に持っている」という保証を付ける役割だと理解しておくと、取得後の期待値のズレを防げます。
           </p>
         </section>
 
@@ -190,7 +190,7 @@ export default function CertPmpPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed mb-3">
-            出典: PMI Salary Survey 13th Edition（2023）。年代別の平均・賞与含みます。
+            出典: PMI Salary Survey 13th Edition（2023）。年代別の平均値で、賞与を含みます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             参考値として、転職メディアGeeklyの2025年集計では取得者平均896万円、年代別に20代483万円・30代721万円・40代947万円・50代1,000万円超とされています（参考値）。集計の母集団・定義が異なるため数値に幅があり、目安としてご覧ください。日経の「転職に役立つ資格」関連でもPMPは上位で言及されることがあります。
@@ -204,11 +204,11 @@ export default function CertPmpPage() {
         <section id="scene" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される場面</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            PMPが具体的にどんな場面で効くのかを、転職活動のシーン別に整理します。共通するのは「PM経験を客観的に証明する必要がある場面」で力を発揮するという点です。
+            PMPが具体的にどのような場面で評価されるのかを、転職活動のシーン別に整理します。共通するのは「PM経験を客観的に証明する必要がある場面」で力を発揮するという点です。
           </p>
           <div className="space-y-3">
             {[
-              { t: "高単価PM案件・SIerやコンサルの上流", d: "PMP保有が応募要件・歓迎要件になっている求人で、書類選考のフィルタを通過しやすいです。" },
+              { t: "高単価PM案件・SIerやコンサルの上流", d: "PMP保有が応募要件・歓迎要件になっている求人で、書類選考を通過しやすくなります。" },
               { t: "PM経験の客観証明が必要な転職", d: "社内でPMをしてきたが肩書きが曖昧な人でも、PMPで『国際標準のPM知識を持つ』ことを示せます。" },
               { t: "外資・グローバルPJへの参画", d: "PMPは国際資格のため、海外拠点・多国籍チームのPMロールで共通言語として評価されます。" },
               { t: "PMO・プログラム管理への昇格", d: "複数プロジェクトの統括ポジションで、体系的なマネジメント知識の裏づけになります。" },
@@ -229,8 +229,8 @@ export default function CertPmpPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "PMジュニア〜ミドル層", d: "数百万〜数千万規模のPJ管理、進捗・課題・要員管理の実務です。PMP歓迎要件になりやすいです。" },
-              { t: "シニアPM層", d: "大規模・複数ベンダー横断のPJ統括、予算・リスク管理。PMP保有が応募要件になることがあります。" },
+              { t: "PMジュニア〜ミドル層", d: "数百万〜数千万規模のPJ管理、進捗・課題・要員管理の実務です。PMP歓迎要件になりやすい傾向があります。" },
+              { t: "シニアPM層", d: "大規模・複数ベンダー横断のPJ統括、予算・リスク管理が求められます。PMP保有が応募要件になることがあります。" },
               { t: "PMO・プログラム管理層", d: "全社PJポートフォリオの標準化・ガバナンスです。PMPに加えPgMP等の上位や実績が問われます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -246,16 +246,16 @@ export default function CertPmpPage() {
 
         {/* 掛け算 */}
         <section id="kakezan" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30-40代の価値＝実務×資格</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30-40代にとっての価値：実務と資格の組み合わせ</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              PMPは「実務×資格の掛け算」が最も自然に成立する資格です。<strong>そもそも実務（36ヶ月以上）がないと受験すらできない</strong>ため、保有＝経験の証明という構造になっています。
+              PMPは、実務と資格の組み合わせが最も自然に成立する資格です。<strong>そもそも実務（36ヶ月以上）がないと受験できない</strong>ため、保有していることが経験の証明になる構造です。
             </p>
             <p>
-              ミドル層の活かし方は、職務経歴書に「PMP」と書くだけでなく、<strong>担当したPJの規模・体制・成果に、PMPで学んだ知識（リスク管理・スコープ管理・ステークホルダー対応）をどう適用したかを紐づける</strong>ことです。これで面接の深掘りに強くなります。
+              ミドル層の活かし方は、職務経歴書に「PMP」と書くだけでなく、<strong>担当したPJの規模・体制・成果に、PMPで学んだ知識（リスク管理・スコープ管理・ステークホルダー対応）をどう適用したかを紐づける</strong>ことです。これにより、面接で詳しく質問された際にも具体的に回答できます。
             </p>
             <p>
-              もう一つ、ミドルのエンジニアがPMPを取る意義として「キャリアの方向転換の旗印になる」点があります。プレイヤーとして手を動かす働き方から、チームやプロジェクトをまとめる側へ重心を移したいとき、PMPは「マネジメントへ本気で軸足を移す意思」を採用側に示すシグナルになります。技術力で勝負してきたエンジニアが40代でマネジメント職を狙う際、技術の理解とPMの体系知識を両立している点は強い差別化要因です。
+              もう一つ、ミドルのエンジニアがPMPを取る意義として「キャリアの方向転換の意思を示せる」点があります。プレイヤーとして手を動かす働き方から、チームやプロジェクトをまとめる側へ重心を移したいとき、PMPは「マネジメントへ軸足を移す意思」を採用側に示す材料になります。技術力を強みとしてきたエンジニアが40代でマネジメント職を目指す際、技術の理解とPMの体系知識を両立している点は差別化の要素になります。
             </p>
             <p>
               職種側の市場感は<Link href="/skill/pm/" className="text-petrol hover:underline">PM（プロジェクトマネージャー）転職ガイド</Link>、マネジメントへの進み方は<Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメントへのキャリア</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>も参考になります。
@@ -270,7 +270,7 @@ export default function CertPmpPage() {
             {[
               { n: "STEP 1", t: "受験資格の棚卸し", d: "学歴に応じたPM実務（大卒36ヶ月／非大卒60ヶ月）と35時間研修の要件を満たすか確認します。" },
               { n: "STEP 2", t: "35時間研修＋PMBOK学習", d: "公式要件の研修を受け、最新版PMBOKガイドの考え方（予測型・アジャイル・ハイブリッド）を押さえます。" },
-              { n: "STEP 3", t: "受験・取得後の更新計画", d: "受験して合格後は、3年ごと60PDUの更新計画をセットで立てます。" },
+              { n: "STEP 3", t: "受験・取得後の更新計画", d: "受験して合格した後は、3年ごとの60PDU更新の計画もあわせて立てます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -282,7 +282,7 @@ export default function CertPmpPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            併取得におすすめなのは、IT全般の体系を固める<Link href="/cert/" className="text-petrol hover:underline">応用情報技術者（資格一覧参照）</Link>や、PJで扱う技術領域の理解を深める<Link href="/cert/aws/" className="text-petrol hover:underline">AWS認定</Link>です。技術×マネジメントの両輪があると、PMとしての説得力が増します。
+            併取得におすすめなのは、IT全般の体系を固める<Link href="/cert/" className="text-petrol hover:underline">応用情報技術者（資格一覧参照）</Link>や、PJで扱う技術領域の理解を深める<Link href="/cert/aws/" className="text-petrol hover:underline">AWS認定</Link>です。技術とマネジメントの両方の知見があると、PMとしての説得力が増します。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             学習面で押さえておきたいのは、近年のPMBOKガイドが「予測型（ウォーターフォール）」だけでなく「アジャイル」「ハイブリッド」まで含めた幅広いアプローチを扱うようになった点です。試験対策はもちろん、実務でもアジャイル開発のプロジェクトに携わる機会が増えているため、両方の進め方を理解しておくと現場での応用が利きます。エンジニア出身のPMにとっては、技術の実装イメージを持ちながらマネジメント手法を学べることが強みになり、開発チームとの対話でも信頼を得やすくなります。資格学習を「試験のため」で終わらせず、日々のプロジェクト運営に還元する姿勢が、結果的に転職時の語れる実績にもつながります。
@@ -293,9 +293,9 @@ export default function CertPmpPage() {
         <section id="demerit" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">デメリット・留意点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
-            <p>① <strong>受験のハードルが高いです。</strong>そもそもPM実務36ヶ月以上が前提のため、経験が浅い人はすぐには受験できません。</p>
+            <p>① <strong>受験のハードルが高い傾向があります。</strong>そもそもPM実務36ヶ月以上が前提のため、経験が浅い人はすぐには受験できません。</p>
             <p>② <strong>更新コストがかかります。</strong>3年ごとに60PDUと更新手続きが必要で、継続学習・費用の負担があります。</p>
-            <p>③ <strong>資格だけでは案件は取れません。</strong>PMPはあくまで知識・経験の証明であり、実際のPJ成果やコミュニケーション力が伴わないと評価されません。</p>
+            <p>③ <strong>資格だけで案件を獲得できるわけではありません。</strong>PMPはあくまで知識・経験の証明であり、実際のPJ成果やコミュニケーション力が伴わないと評価されません。</p>
             <p>④ <strong>受験料が比較的高めです。</strong>非会員$655と費用がかかるため、会員になって受験するなど計画的な準備が必要です。</p>
           </div>
         </section>
@@ -318,7 +318,7 @@ export default function CertPmpPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">PMP×PM経験を活かした転職を相談する</h2>
+          <h2 className="text-xl font-bold mb-3">PMPとPM経験を活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
             ご自身のPM実績がどの年収帯で評価されるか、IT特化型エージェントで確認しましょう。
           </p>

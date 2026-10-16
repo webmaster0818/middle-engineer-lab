@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：仙台IT転職市場の特徴" },
+  { id: "conclusion", label: "仙台IT転職市場の特徴" },
   { id: "market", label: "仙台・東北のIT企業集積と特徴" },
   { id: "workstyle", label: "働き方の選択肢（移住×リモート含む）" },
   { id: "salary", label: "年収の考え方（年代別データ）" },
@@ -26,18 +26,18 @@ const toc = [
 const fitYes = [
   "東北の中核都市の安定性と、首都圏へのアクセスの良さを両立したい",
   "ニアショア開発で要件定義から実装まで幅広く担いたい",
-  "住居費を抑え、可処分所得やQOLを上げる移住を検討しています",
+  "住居費を抑え、可処分所得やQOLを上げる移住を検討している",
   "新幹線での通勤・出張を許容しつつ首都圏案件に関わりたい",
 ];
 
 const fitNo = [
   "最先端のWeb/SaaS自社開発の選択肢を最大限に広げたい（首都圏の方が母数が多い）",
-  "完全フルリモートのみを希望し、出社・ハイブリッドは考えていません（求人選びで明示が必要）",
+  "完全フルリモートのみを希望し、出社・ハイブリッドは考えていない（求人選びで明示が必要）",
   "短期間で大幅な年収アップだけを最優先したい（領域・スキル次第で差が大きい）",
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も多い層です。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手の層です。ポテンシャル採用も多く見られます。" },
   { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
   { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層です。" },
   { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
@@ -48,19 +48,19 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して仙台在住のまま首都圏企業を狙う転職と相性が良いです。高年収求人比率の高さも特徴とされます。",
+      "IT/Web領域に特化したエージェントです。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して仙台在住のまま首都圏企業を狙う転職と相性が良いといえます。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型です。IT・ゲーム領域に強く、地方在住からの相談に向きます。レスポンスの速さに定評があり、未経験歓迎求人も比較的多いです。",
+      "全国47都道府県57拠点を構える総合型のエージェントです。IT・ゲーム領域に強みを持ち、地方在住者からの相談にも対応しています。レスポンスの速さに定評があり、未経験歓迎求人も比較的多く見られます。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、仙台の地元求人から首都圏フルリモート求人まで幅広く当たりやすいです。求人量の多さが強みです。",
+      "全国対応の総合型エージェントです。検索・エージェント・スカウトを組み合わせたハイブリッド型で、仙台の地元求人から首都圏フルリモート求人まで幅広く探しやすくなります。求人量の多さが強みです。",
   },
   {
     name: "リクルートエージェントIT",
@@ -93,7 +93,7 @@ const faqs = [
   },
   {
     q: "仙台から首都圏企業に転職するのは現実的ですか？",
-    a: "フルリモート前提であれば現実的な選択肢です。仙台は東北新幹線で首都圏とのアクセスが良く、出社頻度のある求人でも移動の負担を抑えやすい立地です。求人ごとの出社要件を早めに確認し、生活設計と両立できるかを軸に判断するのがおすすめです。",
+    a: "フルリモート前提であれば現実的な選択肢です。仙台は東北新幹線で首都圏とのアクセスが良く、出社頻度のある求人でも移動の負担を抑えやすい立地にあります。求人ごとの出社要件を早めに確認し、生活設計と両立できるかを軸に判断するのがおすすめです。",
   },
   {
     q: "仙台のIT企業の特徴は何ですか？",
@@ -154,15 +154,15 @@ export default function SendaiAreaPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 市場の特徴 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：仙台IT転職市場の特徴</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">仙台IT転職市場の特徴</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               仙台のIT転職は「東北の中核都市の安定性」と「首都圏へのアクセスの良さ」を両立できる市場です。地元のSIer・受託・ニアショア開発の求人に加え、首都圏企業のフルリモート求人を組み合わせることで、年収と暮らしやすさのバランスを取りやすくなります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・東北の中核都市として大手SIerの拠点が集まりやすいです</li>
+              <li>・東北の中核都市として大手SIerの拠点が集まりやすい傾向があります</li>
               <li>・新幹線でのアクセスを活かしたニアショア開発・ハイブリッドの選択肢があります</li>
               <li>・首都圏フルリモート求人の併用で年収水準の選択肢が広がります</li>
             </ul>
@@ -205,7 +205,7 @@ export default function SendaiAreaPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">求められるスキルの傾向</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                受託・ニアショア寄りの領域では要件定義から実装まで担える幅広さが、Web/SaaS寄りでは一般的なWebアプリ開発スタックやクラウド、開発プロセスの経験が評価されやすい傾向です。自分の経験が地元の求人に向くか、首都圏フルリモート求人に向くかを見極めることが、仙台での求人探しの起点になります。
+                受託・ニアショア寄りの領域では要件定義から実装まで担える幅広さが、Web/SaaS寄りでは一般的なWebアプリ開発スタックやクラウド、開発プロセスの経験が評価されやすい傾向があります。自分の経験が地元の求人に向くか、首都圏フルリモート求人に向くかを見極めることが、仙台での求人探しの起点になります。
               </p>
             </div>
           </div>
@@ -224,13 +224,13 @@ export default function SendaiAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 仙台中心部の都市機能を活かしつつ、通勤負担を抑えて働けます。地域に根ざしたキャリアを重視する人向けです。
+                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 仙台中心部の都市機能を活かしつつ、通勤負担を抑えて働けます。地域に根ざしたキャリアを重視する人に向いています。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>ニアショア開発拠点でハイブリッド:</strong> 首都圏案件を仙台で担いながら、新幹線での移動を活かして月数回出社する働き方です。地方にいながら首都圏の開発に関わりたい人向けです。
+                <strong>ニアショア開発拠点でハイブリッド:</strong> 首都圏案件を仙台で担いながら、新幹線での移動を活かして月数回出社する働き方です。地方にいながら首都圏の開発に関わりたい人に適しています。
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -418,7 +418,7 @@ export default function SendaiAreaPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">仙台のIT転職を進めよう</h2>
+          <h2 className="text-xl font-bold mb-3">仙台のIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
             ニアショア開発から首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、年収と暮らしのバランスが取れる選択肢を見つけましょう。
           </p>

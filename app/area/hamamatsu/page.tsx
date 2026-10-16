@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：浜松のIT転職市場の特徴" },
+  { id: "conclusion", label: "浜松のIT転職市場の特徴" },
   { id: "market", label: "浜松のものづくり×ITの集積と現実" },
   { id: "workstyle", label: "働き方の選択肢（リモート×製造業DX）" },
-  { id: "iju", label: "移住支援制度（UIターンを使う）" },
+  { id: "iju", label: "移住支援制度（UIターン時に活用）" },
   { id: "salary", label: "年収の考え方（地方転職で下がる場合も）" },
   { id: "agents", label: "浜松に対応するエージェント" },
   { id: "howto", label: "転職・移住の進め方" },
@@ -26,7 +26,7 @@ const toc = [
 ];
 
 const fitYes = [
-  "製造業・ものづくりのDXや組込み・生産システムに関心があります",
+  "製造業・ものづくりのDXや組込み・生産システムに関心がある",
   "首都圏のフルリモート求人で年収を保ちつつ、浜松で暮らしたい",
   "温暖な気候と都市機能を保ちつつ住居費を抑えたい",
   "事業会社の社内IT・データ活用に腰を据えて取り組みたい",
@@ -39,7 +39,7 @@ const fitNo = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も多い層です。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手の層です。ポテンシャル採用も多く見られます。" },
   { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
   { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層です。" },
   { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
@@ -50,25 +50,25 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人を介して浜松在住のまま応募する転職と相性が良いです。高年収求人比率の高さも特徴とされます。",
+      "IT/Web領域に特化したエージェントです。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人を介して浜松在住のまま応募する転職と相性が良いといえます。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型です。IT・ゲーム領域に強く、地方在住からの相談に向きます。レスポンスの速さに定評があり、未経験歓迎求人も比較的多いです。",
+      "全国47都道府県57拠点を構える総合型のエージェントです。IT・ゲーム領域に強みを持ち、地方在住者からの相談にも対応しています。レスポンスの速さに定評があり、未経験歓迎求人も比較的多く見られます。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、浜松の製造業系IT求人から首都圏フルリモート求人まで幅広く当たりやすいです。求人量の多さが強みです。",
+      "全国対応の総合型エージェントです。検索・エージェント・スカウトを組み合わせたハイブリッド型で、浜松の製造業系IT求人から首都圏フルリモート求人まで幅広く探しやすくなります。求人量の多さが強みです。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     point:
-      "ハイクラス・スカウト型です。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、浜松在住のまま探したい人に向きます。市場価値を客観的に把握しやすいです。",
+      "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、浜松在住のまま探したい人に向きます。市場価値を客観的に把握しやすくなります。",
   },
 ];
 
@@ -167,10 +167,10 @@ export default function HamamatsuAreaPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 市場の特徴 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：浜松のIT転職市場の特徴</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">浜松のIT転職市場の特徴</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               浜松のIT転職は、「製造業×ITの地域特性を活かして地場で働く」か「首都圏フルリモート求人を活用して暮らしの質を上げる」かの二択を軸に考えると整理しやすい市場です。公開求人は首都圏比で限定的なため、製造業DXという地域特性とリモート活用を組み合わせるのが現実的です。
             </p>
@@ -237,13 +237,13 @@ export default function HamamatsuAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>製造業・地場企業に出社・ハイブリッドで勤務:</strong> 製造業DXや組込み・生産システムなど、浜松ならではの地域特性を活かせます。ものづくりの現場に近い環境で働きたい人向けです。
+                <strong>製造業・地場企業に出社・ハイブリッドで勤務:</strong> 製造業DXや組込み・生産システムなど、浜松ならではの地域特性を活かせます。ものづくりの現場に近い環境で働きたい人に向いています。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>浜松在住×首都圏企業のフルリモート:</strong> 浜松の生活コストを保ちつつ首都圏水準の年収・案件を狙う選択肢です。求人の母数を最も広げやすいです。
+                <strong>浜松在住×首都圏企業のフルリモート:</strong> 浜松の生活コストを保ちつつ首都圏水準の年収・案件を狙う選択肢です。求人の母数を最も広げやすくなります。
                 <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
                 も参考になります。
               </p>
@@ -261,7 +261,7 @@ export default function HamamatsuAreaPage() {
 
         {/* 移住支援 */}
         <section id="iju" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">移住支援制度（UIターンを使う）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">移住支援制度（UIターン時に活用）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             首都圏から浜松へのUIターンを考えるなら、公的な移住支援制度の活用を検討しましょう。浜松市は静岡県内にあるため、静岡県の移住支援金制度の対象です。以下は調査時点（2026年6月）の公開情報に基づく概要です。金額・要件は年度・市町村で変わるため、申請前に必ず静岡県・浜松市の公式サイトで最新条件を確認してください。
           </p>
@@ -458,7 +458,7 @@ export default function HamamatsuAreaPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">浜松×製造業DX×リモートでIT転職を進めよう</h2>
+          <h2 className="text-xl font-bold mb-3">浜松で製造業DX・リモートを活かしたIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
             ものづくりの地域特性と首都圏フルリモートの両方を活かせます。エリア対応のエージェントに相談して、年収と暮らしのバランスが取れる選択肢を見つけましょう。
           </p>

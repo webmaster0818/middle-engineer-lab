@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論サマリ（どんな人向けか）" },
+  { id: "summary", label: "要点（どんな人向けか）" },
   { id: "type", label: "LAPRASの仕組みと他サービスとの違い" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strength", label: "特徴・強み" },
@@ -85,7 +85,7 @@ const fitNo = [
   "Web上の発信・アウトプットがほとんどない",
   "発信を増やす時間が取れません",
   "地方の対面サポートやSIer・非Web求人を最優先したい",
-  "担当者がすべて求人提案してくれるエージェント型を希望します",
+  "担当者がすべて求人提案してくれるエージェント型を希望する",
 ];
 
 const flow = [
@@ -107,7 +107,7 @@ const flow = [
   {
     step: "STEP4",
     title: "カジュアル面談・選考",
-    body: "興味のあるスカウトはカジュアル面談で社風・技術スタックを確認してから選考に進みます。発信内容が会話のきっかけになりやすいです。",
+    body: "興味のあるスカウトはカジュアル面談で社風・技術スタックを確認してから選考に進みます。発信内容が会話のきっかけになりやすい傾向があります。",
   },
   {
     step: "STEP5",
@@ -198,17 +198,17 @@ export default function LaprasReview() {
           ]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：このような方におすすめ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">このような方におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
-              <span className="font-bold">総合評価：技術記事・OSS・登壇など『発信』が多い人の実力可視化に強いです</span>。要約すると「Web全体にアウトプットがあり、GitHubだけでなく発信全体で評価されたいエンジニア」向けのスカウト型サービスです。
+              <span className="font-bold">総合評価：技術記事・OSS・登壇など『発信』が多い人の実力可視化に強みがあります</span>。要約すると「Web全体にアウトプットがあり、GitHubだけでなく発信全体で評価されたいエンジニア」向けのスカウト型サービスです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
               <li>・GitHub・Qiita・note・X・connpassをAIが解析し、ポートフォリオを自動生成します。</li>
-              <li>・FindyがGitHub中心なのに対し、LAPRASはWeb全体の発信を評価する点が差別化します。</li>
-              <li>・発信が少ない人・地方非Web志向には不向きです。Findy併用が有効です。</li>
+              <li>・FindyがGitHub中心なのに対し、LAPRASはWeb全体の発信を評価する点で差別化されています。</li>
+              <li>・発信が少ない方や、地方・非Web志向の方には適していません。Findyとの併用が有効です。</li>
             </ul>
           </div>
         </section>
@@ -387,7 +387,7 @@ export default function LaprasReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
-              長年のアウトプット（技術ブログ・登壇・OSS）が蓄積している人ほど、年齢より発信内容で評価されやすいのが利点です。書類選考での年齢ハンデを、発信の実績で補えるのは40代にとって心強い面です。一方、求人が首都圏のWeb自社開発に偏るため、求人の幅は
+              長年のアウトプット（技術ブログ・登壇・OSS）が蓄積している人ほど、年齢より発信内容で評価されやすいのが利点です。書類選考での年齢ハンデを、発信の実績で補えるのは40代にとって有利な点です。一方、求人が首都圏のWeb自社開発に偏るため、求人の幅は
               <Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向けエージェント</Link>
               で補完するのが堅実です。マネジメント軸で上を狙うなら
               <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けサービス</Link>

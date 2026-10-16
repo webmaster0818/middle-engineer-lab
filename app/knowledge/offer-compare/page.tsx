@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：オファー比較の基本方針" },
+  { id: "conclusion", label: "オファー比較の基本方針" },
   { id: "axes", label: "年収以外の比較軸" },
   { id: "table", label: "オファー比較表テンプレート" },
   { id: "scoring", label: "スコアリングで定量比較する手順" },
@@ -44,7 +44,7 @@ const axes = [
   },
   {
     title: "労働時間・ワークライフバランス",
-    desc: "残業の実態、オンコール有無、繁忙期の働き方などです。年収が高くても持続できなければ意味がありません。口コミやエージェント経由で実態を確認しましょう。",
+    desc: "残業の実態、オンコールの有無、繁忙期の働き方などを確認します。年収が高くても持続できなければ意味がありません。口コミやエージェント経由で実態を確認しましょう。",
   },
   {
     title: "事業の安定性・将来性",
@@ -63,7 +63,7 @@ const declineExamples = [
   },
   {
     scene: "理由を簡潔に添える場合",
-    text: "「複数社を比較した結果、自身のキャリアの方向性により合致する企業からのオファーをお受けすることにいたしました。」（理由は詳述不要。簡潔・丁寧に）",
+    text: "「複数社を比較した結果、自身のキャリアの方向性により合致する企業からのオファーをお受けすることにいたしました。」（理由の詳述は不要です。簡潔かつ丁寧に伝えます）",
   },
 ];
 
@@ -81,7 +81,7 @@ const faqs = [
     a: "本文の比較表テンプレートのように、比較軸を縦に、企業を横に並べた表を作るのが基本です。各軸に自分なりの重要度（★）を付け、企業ごとに評価を埋めていくと、感覚ではなく構造的に比較できます。スコアリングで点数化するとさらに判断しやすくなります。",
   },
   {
-    q: "内定を辞退する場合のマナーは？",
+    q: "内定を辞退する際のマナーはありますか？",
     a: "できるだけ早く、丁寧に辞退の意思を伝えましょう。理由を詳しく説明する必要はなく、『他社とのご縁をいただきました』程度で十分です。エージェント経由なら辞退の連絡も代行してもらえます。本文に辞退の例文を掲載しています。",
   },
   {
@@ -93,7 +93,7 @@ const faqs = [
     a: "エージェント経由の場合は任せるのがおすすめです。年収・入社日・条件のすり合わせを代行してくれ、候補者が直接言いにくいことも適切に伝えてくれます。直接応募の場合は自分で交渉する必要があります。",
   },
   {
-    q: "30代・40代で内定を比較する際の注意点は？",
+    q: "30代・40代で内定を比較する際の注意点はありますか？",
     a: "30代は成長機会と評価制度を、40代は専門性が活きるかと労働環境の持続性を重視すると後悔しにくくなります。いずれも年収の額面だけでなく、ライフイベントや働き方を含めた総合的なパッケージで判断することが大切です。",
   },
 ];
@@ -162,14 +162,14 @@ export default function OfferComparePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】複数内定はどうやって比較・決定すればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 年収の額面だけで決めず、比較軸を表に整理し、重要度で重みづけしてスコアリングで定量比較するのが後悔しない基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・年収以外にストックオプション・リモート・評価制度・技術スタック・労働時間・事業の安定性を含めて総合比較する</li><li>・比較軸を縦・企業を横に並べた表に重要度（★）を付け、「重み×点数」で総合スコアを出す</li><li>・辞退は早く丁寧に伝えます。回答期限は一般に1〜2週間で、延長も相談できる</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>年収の額面だけで決めず、比較軸を表に整理し、重要度で重みづけしてスコアリングで定量比較するのが後悔しない基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・年収以外にストックオプション・リモート・評価制度・技術スタック・労働時間・事業の安定性を含めて総合比較します</li><li>・比較軸を縦・企業を横に並べた表に重要度（★）を付け、「重み×点数」で総合スコアを出します</li><li>・辞退は早く丁寧に伝えます。回答期限は一般に1〜2週間で、延長も相談できます</li></ul>
           </div>
         </section>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：オファー比較の基本方針</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">オファー比較の基本方針</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               オファー比較は、<strong>年収だけで決めず、比較軸を表に整理してスコアリングで定量比較する</strong>のが基本です。年収以外では、ストックオプション・リモートワーク・評価制度・技術スタック・労働時間・事業の安定性が重要な軸になります。
@@ -268,7 +268,7 @@ export default function OfferComparePage() {
         <section id="decline" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">内定辞退の伝え方例文</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            辞退は早く・丁寧に伝えるのが鉄則です。理由を詳述する必要はありません。場面別の例文を用意しました。
+            辞退は早く・丁寧に伝えるのが基本です。理由を詳述する必要はありません。場面別の例文を用意しました。
           </p>
           <div className="space-y-4">
             {declineExamples.map((e, i) => (
@@ -339,9 +339,9 @@ export default function OfferComparePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">オファー交渉をプロに任せよう</h2>
+          <h2 className="text-xl font-bold mb-3">オファー交渉をエージェントに任せる</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントなら、年収交渉や入社日調整、辞退の連絡まで代行します。最適な条件で入社できるようサポートします。
+            IT特化型エージェントなら、年収交渉や入社日調整、辞退の連絡まで代行します。納得できる条件で入社できるよう支援します。
           </p>
           <Link
             href="/#ranking"

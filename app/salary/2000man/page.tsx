@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "年収2000万円のエンジニアに必要なスキル・役職・職種【到達ルートと現実】";
 const DESCRIPTION =
-  "年収2000万円のITエンジニアに到達する職種・役割を、経産省ITSSレベルや厚労省job tag（令和7年）など出典を明記して整理します。ITSS最上位平均をはるかに超える、外資トップIT・CTO/VPoE・代替不能のトップスペシャリストなどごく一握りの層である現実を誠実に解説します。30〜40代の狙い方も示します。";
+  "年収2000万円のITエンジニアに到達する職種・役割を、経産省ITSSレベルや厚労省job tag（令和7年）など出典を明記して整理します。ITSS最上位平均をはるかに超える、外資トップIT・CTO/VPoE・代替不能のトップスペシャリストなどごく一握りの層である現実を解説します。30〜40代の狙い方も示します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/2000man/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：年収2000万円の位置づけと現実" },
+  { id: "conclusion", label: "年収2000万円の位置づけと現実" },
   { id: "position", label: "年収2000万円はITSS最上位平均をはるかに超える帯" },
   { id: "jobtag", label: "公的データとの距離（掲載範囲の説明）" },
   { id: "jobs", label: "2000万円に届く座（ごく一握り）" },
@@ -28,7 +28,7 @@ const toc = [
 const route = [
   {
     title: "報酬テーブルが最上位の市場（外資トップIT・経営層）に立つ",
-    desc: "2000万円は、外資系トップIT（GAFAM級）の上位エンジニア・マネージャー、または企業の経営層（CTO等）でなければ届きにくい水準です。国内一般企業の給与体系の延長では、ほぼ到達しないとご説明します。",
+    desc: "2000万円は、外資系トップIT（GAFAM級）の上位エンジニア・マネージャー、または企業の経営層（CTO等）でなければ届きにくい水準です。国内一般企業の給与体系の延長では、ほぼ到達しません。",
   },
   {
     title: "経営の一翼を担う、または世界レベルの代替不能の専門家になる",
@@ -51,11 +51,11 @@ const faqs = [
   },
   {
     q: "2000万円はどんな人が到達していますか？",
-    a: "外資系トップIT企業（GAFAM級）のシニア／スタッフ／プリンシパルエンジニアや上位マネージャー、企業のCTO・VPoE、AI・大規模分散・セキュリティ等で世界的に取り合われるトップスペシャリスト、共同創業者・事業のキーパーソンなどです。いずれも報酬テーブルが最上位の環境に、代替の利かない実力や事業当事者として入っている層で、エンジニア全体のごく一握りに過ぎない点はご説明します。",
+    a: "外資系トップIT企業（GAFAM級）のシニア／スタッフ／プリンシパルエンジニアや上位マネージャー、企業のCTO・VPoE、AI・大規模分散・セキュリティ等で世界的に取り合われるトップスペシャリスト、共同創業者・事業のキーパーソンなどです。いずれも報酬テーブルが最上位の環境に、代替の利かない実力や事業当事者として入っている層で、エンジニア全体のごく一握りに過ぎない点にご留意ください。",
   },
   {
     q: "国内の一般的な企業で2000万円は狙えますか？",
-    a: "国内の標準的なSIer・SES・事業会社の給与テーブルでは、2000万円は役員・経営層クラスに限られ、エンジニア職の延長で到達するのはほぼ困難です。現実的には、外資トップ企業、株式報酬を含む総報酬の高いグローバル企業、または起業・経営参画など、報酬の上限が外れる立場が前提になります。環境を変えずに到達することは原則期待できない、と誠実に捉えるべき帯です。",
+    a: "国内の標準的なSIer・SES・事業会社の給与テーブルでは、2000万円は役員・経営層クラスに限られ、エンジニア職の延長で到達するのはほぼ困難です。現実的には、外資トップ企業、株式報酬を含む総報酬の高いグローバル企業、または起業・経営参画など、報酬の上限が外れる立場が前提になります。環境を変えずに到達することは原則期待できない、と捉えるべき帯です。",
   },
   {
     q: "2000万円の年収はどんな構成になっていますか？",
@@ -102,7 +102,7 @@ export default function Salary2000Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収2000万円は、ITエンジニアの中でも<strong>ごく一握り</strong>が到達する頂点クラスの水準です。外資系トップIT（GAFAM級）の上位職、CTO・VPoEなどの技術経営層、世界的に取り合われるトップスペシャリスト、事業の当事者などが中心で、国内一般企業の給与体系の延長ではほぼ到達しません。本記事では、この2000万円が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理しつつ、到達が容易でない現実を誠実に解説します。
+          年収2000万円は、ITエンジニアの中でも<strong>ごく一握り</strong>が到達する頂点クラスの水準です。外資系トップIT（GAFAM級）の上位職、CTO・VPoEなどの技術経営層、世界的に取り合われるトップスペシャリスト、事業の当事者などが中心で、国内一般企業の給与体系の延長ではほぼ到達しません。本記事では、この2000万円が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理しつつ、到達が容易でない現実を解説します。
         </p>
 
         <DataNote
@@ -129,7 +129,7 @@ export default function Salary2000Page() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収2000万円の位置づけと現実</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収2000万円の位置づけと現実</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収2000万円は、ITSSの最上位区分L6・7の平均1,129.9万円を<strong>約1.8倍上回る</strong>、公的なレベル別平均では到底捉えられない頂点クラスの水準です。到達者は、外資系トップITの上位職・CTO/VPoE・世界レベルのトップスペシャリスト・事業当事者など、<strong>ごく一握り</strong>に限られます。
@@ -159,12 +159,12 @@ export default function Salary2000Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L5</td>
                   <td className="px-4 py-3 border border-slate-200">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層です。900万円帯</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層。900万円帯</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L6・7</td>
                   <td className="px-4 py-3 border border-slate-200">1,129.9万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">最上位の平均です。2000万円はこの約1.8倍</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">最上位の平均。2000万円はこの約1.8倍</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">2000万円</td>
@@ -226,7 +226,7 @@ export default function Salary2000Page() {
               2000万円帯の機会は、<strong>外資トップIT・経営層ポジション・世界レベルの専門職・事業当事者</strong>にほぼ限られます。多くは公募ではなくヘッドハンティングや経営層ネットワーク、あるいは創業・参画という形で生まれ、求人票として表に出ること自体が稀です。報酬も基本給ではなく総報酬で構成されます。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              実際には、2000万円は<strong>エンジニアのごく一部</strong>が、技術力だけでなく経営・事業・市場のタイミングを味方につけて到達する頂点の水準です。「努力すれば誰でも届く」性質の帯ではありません。だからこそ、目標にする場合は、立場の転換（経営層・世界レベル専門家・事業当事者）を伴う長期戦として、現実を誠実に見据えて設計することが大切です。
+              実際には、2000万円は<strong>エンジニアのごく一部</strong>が、技術力だけでなく経営・事業・市場のタイミングを味方につけて到達する頂点の水準です。「努力すれば誰でも届く」性質の帯ではありません。だからこそ、目標にする場合は、立場の転換（経営層・世界レベル専門家・事業当事者）を伴う長期戦として、現実を見据えて設計することが大切です。
             </p>
           </div>
         </section>

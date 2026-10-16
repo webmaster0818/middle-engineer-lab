@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：制度より「自分に必要な配慮」から逆算する" },
+  { id: "conclusion", label: "制度より「自分に必要な配慮」から逆算する" },
   { id: "two-routes", label: "一般雇用と障害者雇用の違い（比較表）" },
   { id: "reasonable", label: "合理的配慮とは（一般的な知識）" },
   { id: "disclosure", label: "開示するか・するならいつか（タイミング）" },
@@ -24,10 +24,10 @@ const toc = [
 
 const routeCompare = [
   { item: "応募できる求人", general: "一般の求人すべて", disability: "障害者雇用枠の求人" },
-  { item: "障害の開示", general: "任意（開示しない選択も可）", disability: "前提として開示します" },
-  { item: "合理的配慮", general: "申し出により事業者が検討（法的義務の対象）", disability: "前提として配慮を織り込みやすいです" },
-  { item: "職務・キャリア", general: "他の社員と同じ前提が基本", disability: "求人により幅があります（要確認）" },
-  { item: "向くケース", general: "配慮が限定的で、スキルで一般枠と競えます", disability: "継続的・明確な配慮が必要" },
+  { item: "障害の開示", general: "任意（開示しない選択も可）", disability: "開示が前提" },
+  { item: "合理的配慮", general: "申し出により事業者が検討（法的義務の対象）", disability: "配慮を前提として織り込みやすい環境" },
+  { item: "職務・キャリア", general: "他の社員と同じ前提が基本", disability: "求人により幅あり（要確認）" },
+  { item: "向くケース", general: "配慮が限定的で、スキルで一般枠と競える場合", disability: "継続的・明確な配慮が必要な場合" },
 ];
 
 const reasonableExamples = [
@@ -39,7 +39,7 @@ const reasonableExamples = [
 ];
 
 const faqs = [
-  { q: "一般雇用と障害者雇用、どちらで応募すべきですか？", a: "必要な配慮の「量と継続性」で考えるのが分かりやすいです。配慮が限定的でスキルで競えるなら一般雇用、継続的・明確な配慮が前提なら障害者雇用枠が候補になります。両方に応募して選択肢を広げる進め方も可能です。どちらが適切かは状況により異なるため、障害者就業・生活支援センターやハローワークの専門窓口など専門機関への相談をおすすめします。" },
+  { q: "一般雇用と障害者雇用、どちらで応募すべきですか？", a: "必要な配慮の「量と継続性」で考えると判断しやすくなります。配慮が限定的でスキルで競えるなら一般雇用、継続的・明確な配慮が前提なら障害者雇用枠が候補になります。両方に応募して選択肢を広げる進め方も可能です。どちらが適切かは状況により異なるため、障害者就業・生活支援センターやハローワークの専門窓口など専門機関への相談をおすすめします。" },
   { q: "障害者手帳がないと障害者雇用枠には応募できませんか？", a: "障害者雇用枠は原則として手帳を前提とする運用が一般的ですが、要件は制度・自治体・企業によって異なります。最新の正確な要件は、ハローワークや障害者就業・生活支援センターなどの公式・専門機関でご確認ください。本記事は一般的な説明にとどめています。" },
   { q: "障害は開示すべきですか？", a: "合理的配慮が必要な場合は、必要な範囲で開示する方が入社後のミスマッチを防げます。一般雇用では開示は任意で、開示しない選択もできます。一方、配慮を受けたいのに開示しないと、配慮の前提が整わないことがあります。開示の範囲・タイミングは自分でコントロールできます。" },
   { q: "開示するタイミングはいつがよいですか？", a: "一般的には、選考が進み合理的配慮の具体的な相談が必要になる段階（最終面接前後や内定前後）で伝えるケースが多く見られます。早く伝えるほど配慮の調整がしやすい一方、伝える範囲は自分で選べます。正解は一つではないため、専門機関やエージェントに相談しながら決めるとよいでしょう。" },
@@ -66,8 +66,8 @@ export default function DisabilityPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】一般雇用と障害者雇用、どちらで転職を進めるべき？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 制度名から選ぶのではなく、自分に必要な配慮の量と継続性から逆算して選ぶと判断しやすくなります。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・配慮が限定的でスキルで競えるなら一般雇用、継続的・明確な配慮が前提なら障害者雇用枠が候補</li><li>・障害の開示は範囲もタイミングも自分でコントロールできます</li><li>・制度の要件・最新情報はハローワークや支援センターなど専門機関に確認するのが前提</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>制度名から選ぶのではなく、自分に必要な配慮の量と継続性から逆算して選ぶと判断しやすくなります。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・配慮が限定的でスキルで競えるなら一般雇用、継続的・明確な配慮が前提なら障害者雇用枠が候補になります</li><li>・障害の開示は範囲もタイミングも自分でコントロールできます</li><li>・制度の要件・最新情報はハローワークや支援センターなど専門機関に確認することが前提です</li></ul>
           </div>
         </section>
 
@@ -90,7 +90,7 @@ export default function DisabilityPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：制度より「自分に必要な配慮」から逆算する</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">制度より「自分に必要な配慮」から逆算する</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">どの雇用区分を選ぶかは、制度の名前から入るのではなく、<strong>自分が働き続けるために何の配慮が・どの程度・継続的に必要か</strong>から逆算すると判断しやすくなります。</p>
             <ul className="space-y-2 text-sm text-slate-700">
@@ -178,7 +178,7 @@ export default function DisabilityPage() {
             <ul className="space-y-3 text-sm text-slate-700">
               <li>☑ 自分に必要な配慮を「具体的な行動レベル」で書き出しました（頻度・時間・方法）</li>
               <li>☑ 一般雇用／障害者雇用のどちらで進めるか、配慮ニーズから検討しました</li>
-              <li>☑ 開示の範囲とタイミングの方針を決めました（専門機関にも相談した）</li>
+              <li>☑ 開示の範囲とタイミングの方針を決めました（専門機関にも相談しました）</li>
               <li>☑ ハローワーク専門窓口・支援センター等、公的な相談先を把握しました</li>
               <li>☑ 障害者雇用に対応したエージェントとIT特化型エージェントの併用を検討しました</li>
               <li>☑ ポートフォリオ・GitHub等でスキルを客観的に示せる状態にしました</li>
@@ -190,8 +190,8 @@ export default function DisabilityPage() {
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の障害のあるエンジニアの視点</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアは、これまでの実務経験そのものが強い強みになります。市況としても経験者の需要は高く、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
-          <p className="text-slate-600 leading-relaxed">配慮を必要とすることと、市場価値が高いことは両立します。スキルで評価される土台を整えつつ、必要な配慮を具体的に伝えることが、長く働ける職場選びの近道です。年齢の論点は<Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">年齢と転職</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアは、これまでの実務経験そのものが大きな強みになります。市況としても経験者の需要は高く、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
+          <p className="text-slate-600 leading-relaxed">配慮を必要とすることと、市場価値が高いことは両立します。スキルで評価される土台を整えつつ、必要な配慮を具体的に伝えることが、長く働ける職場選びにつながります。年齢の論点は<Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">年齢と転職</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：札幌IT転職市場の特徴" },
+  { id: "conclusion", label: "札幌IT転職市場の特徴" },
   { id: "market", label: "札幌・北海道のIT企業集積と特徴" },
   { id: "workstyle", label: "働き方の選択肢（移住×リモート含む）" },
   { id: "salary", label: "年収の考え方（年代別データ）" },
@@ -24,20 +24,20 @@ const toc = [
 ];
 
 const fitYes = [
-  "都市機能を保ちつつ住居費を抑え、QOLを上げる移住を検討しています",
+  "都市機能を保ちつつ住居費を抑え、QOLを上げる移住を検討している",
   "フルリモートで首都圏案件に関わりながら北海道で暮らしたい",
   "ニアショア開発で要件定義から実装まで幅広く担いたい",
-  "自然環境やアウトドアを含めた暮らし方を重視しています",
+  "自然環境やアウトドアを含めた暮らし方を重視している",
 ];
 
 const fitNo = [
   "毎日出社が必須の働き方で、冬季の通勤負担を避けたい（働き方の選択で調整が必要）",
   "最先端のWeb/SaaS自社開発の選択肢を最大限に広げたい（首都圏の方が母数が多い）",
-  "本州への頻繁な出張・移動を負担に感じます（フルリモート求人で軽減可能）",
+  "本州への頻繁な出張・移動を負担に感じる（フルリモート求人で軽減可能）",
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も多い層です。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手の層です。ポテンシャル採用も多く見られます。" },
   { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
   { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層です。" },
   { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
@@ -48,25 +48,25 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して札幌在住のまま首都圏企業を狙う転職と相性が良いです。高年収求人比率の高さも特徴とされます。",
+      "IT/Web領域に特化したエージェントです。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して札幌在住のまま首都圏企業を狙う転職と相性が良いといえます。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型です。IT・ゲーム領域に強く、地方在住からの相談に向きます。レスポンスの速さに定評があり、未経験歓迎求人も比較的多いです。",
+      "全国47都道府県57拠点を構える総合型のエージェントです。IT・ゲーム領域に強みを持ち、地方在住者からの相談にも対応しています。レスポンスの速さに定評があり、未経験歓迎求人も比較的多く見られます。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、札幌の地元求人から首都圏フルリモート求人まで幅広く当たりやすいです。求人量の多さが強みです。",
+      "全国対応の総合型エージェントです。検索・エージェント・スカウトを組み合わせたハイブリッド型で、札幌の地元求人から首都圏フルリモート求人まで幅広く探しやすくなります。求人量の多さが強みです。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     point:
-      "ハイクラス・スカウト型です。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、札幌在住のまま探したい人に向きます。市場価値を客観的に把握しやすいです。",
+      "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、札幌在住のまま探したい人に向きます。市場価値を客観的に把握しやすくなります。",
   },
 ];
 
@@ -77,7 +77,7 @@ const faqs = [
   },
   {
     q: "札幌がリモート移住先として人気と言われるのはなぜですか？",
-    a: "札幌は政令指定都市としての都市機能と、首都圏より抑えやすい住居費、豊かな自然環境を併せ持つ都市として、定性的に移住先の魅力が語られます。新千歳空港経由で本州へのアクセスも確保しやすく、月数回の出社・出張を伴う働き方とも両立しやすい点が評価されています。",
+    a: "札幌は政令指定都市としての都市機能と、首都圏より抑えやすい住居費、豊かな自然環境を併せ持つ都市として、定性的に移住先としての利点が語られます。新千歳空港経由で本州へのアクセスも確保しやすく、月数回の出社・出張を伴う働き方とも両立しやすい点が評価されています。",
   },
   {
     q: "札幌のニアショア開発とは何ですか？",
@@ -154,15 +154,15 @@ export default function SapporoAreaPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 市場の特徴 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：札幌IT転職市場の特徴</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">札幌IT転職市場の特徴</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               札幌のIT転職は「リモート移住で生活の質を上げたいエンジニア」と相性の良い市場です。地元のSIer・Web・ニアショア開発の求人に加え、首都圏企業のフルリモート求人を組み合わせることで、年収と暮らしやすさのバランスを取りやすくなります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・都市機能を保ちながら住居費を抑えやすく、移住の魅力があります</li>
+              <li>・都市機能を保ちながら住居費を抑えやすく、移住先としての利点があります</li>
               <li>・ニアショア開発を含め、首都圏案件を北海道で担う選択肢があります</li>
               <li>・首都圏フルリモート求人の併用で年収水準の選択肢が広がります</li>
             </ul>
@@ -205,7 +205,7 @@ export default function SapporoAreaPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">求められるスキルの傾向</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Web/SaaS寄りの領域では一般的なWebアプリ開発スタック、クラウド、開発プロセスの経験が、受託・ニアショア寄りでは要件定義から実装まで担える幅広さが評価されやすい傾向です。自分の経験が地元の求人に向くか、首都圏フルリモート求人に向くかを見極めることが、札幌での求人探しの起点になります。
+                Web/SaaS寄りの領域では一般的なWebアプリ開発スタック、クラウド、開発プロセスの経験が、受託・ニアショア寄りでは要件定義から実装まで担える幅広さが評価されやすい傾向があります。自分の経験が地元の求人に向くか、首都圏フルリモート求人に向くかを見極めることが、札幌での求人探しの起点になります。
               </p>
             </div>
           </div>
@@ -224,13 +224,13 @@ export default function SapporoAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 札幌中心部の都市機能を活かしつつ働けます。地域に根ざしたキャリアを重視する人向けです。冬季の通勤負担は出社頻度で調整します。
+                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 札幌中心部の都市機能を活かしつつ働けます。地域に根ざしたキャリアを重視する人に向いています。冬季の通勤負担は出社頻度で調整します。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>ニアショア開発拠点でハイブリッド:</strong> 首都圏案件を札幌で担いながら、月数回の出社・出張で連携する働き方です。地方にいながら首都圏の開発に関わりたい人向けです。
+                <strong>ニアショア開発拠点でハイブリッド:</strong> 首都圏案件を札幌で担いながら、月数回の出社・出張で連携する働き方です。地方にいながら首都圏の開発に関わりたい人に適しています。
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -418,7 +418,7 @@ export default function SapporoAreaPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">札幌×リモートでIT転職を進めよう</h2>
+          <h2 className="text-xl font-bold mb-3">札幌でリモートを活かしたIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
             ニアショア開発から首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、年収と暮らしのバランスが取れる選択肢を見つけましょう。
           </p>

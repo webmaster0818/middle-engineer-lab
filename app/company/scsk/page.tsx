@@ -30,7 +30,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術領域・募集職種（公式採用情報ベース）"],
@@ -62,11 +62,11 @@ const faqs = [
   },
   {
     q: "SCSKへの転職難易度は高いですか？",
-    a: "システム開発・運用の実務経験（目安3年以上）が一般的な基準とされ、Java等の開発経験やクラウド（AWS/Azure）の経験があると評価されやすい傾向です。中途採用比率も高く、即戦力のエンジニアを継続的に採用しています。上流工程・PM経験やドメイン知識があると、より高いポジションで挑戦できます。",
+    a: "システム開発・運用の実務経験（目安3年以上）が一般的な基準とされ、Java等の開発経験やクラウド（AWS/Azure）の経験があると評価されやすい傾向があります。中途採用比率も高く、即戦力のエンジニアを継続的に採用しています。上流工程・PM経験やドメイン知識があると、より高いポジションで挑戦できます。",
   },
   {
     q: "30代・40代でもSCSKに転職できますか？",
-    a: "提出会社の平均年齢は約42.7歳、平均勤続年数は約16.7年と、ミドル・ベテラン層が中心の安定した組織です。30代・40代の中途採用は現実的で、システム開発・運用の実務経験やPM・上流工程の経験があると即戦力として歓迎されやすい傾向です。長期就業しやすい環境を求めるミドルにも向いています。",
+    a: "提出会社の平均年齢は約42.7歳、平均勤続年数は約16.7年と、ミドル・ベテラン層が中心の安定した組織です。30代・40代の中途採用は現実的で、システム開発・運用の実務経験やPM・上流工程の経験があると即戦力として歓迎されやすい傾向があります。長期就業しやすい環境を求めるミドルにも向いています。",
   },
   {
     q: "SCSKは大手SIerの中でどんな位置づけですか？",
@@ -98,8 +98,8 @@ export default function ScskCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SCSKの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SCSK（提出会社単体）の平均年間給与は796万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢約42.7歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 796万円です（2026年3月期 有価証券報告書・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2022年3月期752万円から2026年3月期796万円へ上昇傾向です（各期 有価証券報告書）。2025年3月期は787万円です。</li><li>・平均勤続年数16.7年とベテラン中心で平均年収は高く出やすく、職種別の公式年収表は非公表です。提示額は等級・職務で個別決定です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>SCSK（提出会社単体）の平均年間給与は796万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢約42.7歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 796万円です（2026年3月期 有価証券報告書・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2022年3月期752万円から2026年3月期796万円へ上昇傾向です（各期 有価証券報告書）。2025年3月期は787万円です。</li><li>・平均勤続年数16.7年とベテラン中心で平均年収は高く出やすく、職種別の公式年収表は非公表です。提示額は等級・職務に応じて個別に決定されます。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -118,14 +118,14 @@ export default function ScskCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              SCSKは<strong>住友商事グループの安定基盤の上で、コンサルから開発・運用まで一気通貫のITサービスを提供する大手SIer</strong>です。大規模案件と上流工程に関わりつつ、働きやすい環境で長く働きたいエンジニアに向きます。
+              SCSKは<strong>住友商事グループの安定基盤の上で、コンサルから開発・運用まで一気通貫のITサービスを提供する大手SIer</strong>です。大規模案件と上流工程に関わりつつ、働きやすい環境で長く働きたいエンジニアに適しています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Java等の開発やクラウド（AWS/Azure）の実務経験があり、上流工程・大規模案件・安定基盤を重視するエンジニア</li>
               <li>● <strong>向いていない人</strong>：自社プロダクトを少人数で高速に作るスタートアップ的な働き方を最優先する人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢42.7歳・平均勤続16.7年のベテラン中心組織です。経験者の中途は現実的で長期就業もしやすいです</li>
+              <li>● <strong>30代・40代</strong>：平均年齢42.7歳・平均勤続16.7年のベテラン中心の組織。経験者の中途採用は現実的で、長期就業もしやすい環境</li>
             </ul>
           </div>
         </section>
@@ -171,7 +171,7 @@ export default function ScskCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">働き方改革・待遇改善に積極的</h3>
-              <p className="text-sm text-petrol-deep">SCSKは残業削減・有給取得促進などの働き方改革を早くから進めてきた企業として知られ、近年は給与水準の引き上げも継続しています。平均勤続年数が約16.7年と長く、安定して長く働ける環境を求めるミドルにとって魅力的な特徴です。</p>
+              <p className="text-sm text-petrol-deep">SCSKは残業削減・有給取得促進などの働き方改革を早くから進めてきた企業として知られ、近年は給与水準の引き上げも継続しています。平均勤続年数が約16.7年と長く、安定して長く働ける環境を求めるミドルに適しています。</p>
             </div>
           </div>
         </section>
@@ -271,7 +271,7 @@ export default function ScskCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。SIer・クラウド系の求人にも対応し、非公開求人も豊富です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・ハイクラスに強く、大手SIerの専門職・管理職求人に対応しています。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

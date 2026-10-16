@@ -15,7 +15,7 @@ const basicData: [string, string][] = [
   ["企業名", "株式会社ジェーシービー（JCB）"],
   ["上場区分", "非上場（有価証券報告書なし＝平均年収等は公式非開示）"],
   ["事業領域", "クレジットカード事業（カード発行・加盟店業務）、決済関連サービス、ファイナンス、ギフトカード等。日本発の国際カードブランド「JCB」を運営"],
-  ["平均年間給与", "公式非開示（非上場のため有価証券報告書での開示なし。本ページでは創作せず記載しません）"],
+  ["平均年間給与", "公式非開示（非上場のため有価証券報告書での開示なし。出典のない数値は本ページに記載せず）"],
   ["設立", "1961年1月25日（公式 会社概要）"],
   ["資本金", "106億円（2025年6月時点・公式 会社概要）"],
   ["従業員数", "4,472名（2026年3月時点・公式 会社概要）"],
@@ -24,8 +24,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["conclusion", "難易度と向いているエンジニア"],
+  ["basic", "基本データ（出典あり）"],
   ["salary-note", "年収について（非上場・公式非開示）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック・募集職種（公式採用情報ベース）"],
@@ -60,11 +60,11 @@ const faqs = [
   },
   {
     q: "JCBへの転職難易度は高いですか？",
-    a: "金融・決済という社会インフラを支えるシステムを扱うため、可用性・セキュリティ・品質への理解と、該当領域の開発経験が重視されます。モダンな技術スタックへの移行も進めており、クラウド・コンテナ・自動化の経験があると評価されやすい傾向です。",
+    a: "金融・決済という社会インフラを支えるシステムを扱うため、可用性・セキュリティ・品質への理解と、該当領域の開発経験が重視されます。モダンな技術スタックへの移行も進めており、クラウド・コンテナ・自動化の経験があると評価されやすい傾向があります。",
   },
   {
     q: "30代・40代でもJCBに転職できますか？",
-    a: "金融・決済システムの開発・運用経験や、クラウド・品質保証・プロジェクト推進の実績があるミドル層の中途採用は現実的です。安定運用が重視される領域のため、大規模システムでの経験が活きやすい傾向です。",
+    a: "金融・決済システムの開発・運用経験や、クラウド・品質保証・プロジェクト推進の実績があるミドル層の中途採用は現実的です。安定運用が重視される領域のため、大規模システムでの経験が活きやすい傾向にあります。",
   },
 ];
 
@@ -92,7 +92,7 @@ export default function JcbCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】JCBの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ジェーシービー（JCB）は非上場のため、公式の平均年収は非開示です（有価証券報告書での開示なし）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社ジェーシービー（JCB）は非上場のため、公式の平均年収は非開示です（有価証券報告書での開示なし）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場企業であり、上場企業に義務づけられる有価証券報告書を提出していないため、平均年間給与・平均年齢といった全社員平均の年収データは公式に開示されていません。</li><li>・当ページでは出典のない年収額や推定値は記載していません（従業員数は4,472名・2026年3月時点、公式会社概要）。</li><li>・年収・処遇は募集ポジション・等級・経験により異なるため、具体的な提示額は個別求人の募集要項や面談・エージェントで確認が必要です。</li></ul>
         </div>
 
@@ -111,14 +111,14 @@ export default function JcbCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              JCBは<strong>24時間365日稼働する金融決済システムを、Go/GCP/Kubernetes等のモダンな技術で内製・刷新している決済インフラ企業</strong>です。可用性・セキュリティ・品質を最優先しながら、開発手法のモダン化に関わりたいエンジニアに向きます。
+              JCBは<strong>24時間365日稼働する金融決済システムを、Go/GCP/Kubernetes等のモダンな技術で内製・刷新している決済インフラ企業</strong>です。可用性・セキュリティ・品質を最優先しながら、開発手法のモダン化に関わりたいエンジニアに向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：金融・決済など高可用性が求められるシステムの開発・運用経験があり、品質と安定運用を重視できるエンジニア</li>
               <li>● <strong>向いていない人</strong>：仕様や品質より開発スピードを最優先したい人</li>
-              <li>● <strong>30代・40代</strong>：大規模・基幹システムの経験が活きやすく、ミドル中途の枠は現実的</li>
+              <li>● <strong>30代・40代</strong>：大規模・基幹システムの経験が活きやすく、ミドル層の中途採用も現実的な選択肢</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">※平均年収は非上場のため公式非開示です（後述）。</p>
           </div>
@@ -136,7 +136,7 @@ export default function JcbCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -247,8 +247,8 @@ export default function JcbCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。金融・決済系のシステム求人にも対応し、非公開求人も豊富です。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・金融・ハイクラスに強く、専門職・管理職求人や想定年収の確認に対応しています。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・金融・ハイクラス領域に強みがあり、専門職・管理職求人や想定年収の確認に対応しています。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：SaaS業界への転職は現実的か" },
+  { id: "conclusion", label: "SaaS業界への転職は現実的か" },
   { id: "trend", label: "SaaS業界の概要・採用動向" },
   { id: "skill-gap", label: "活かせるスキルと埋めるべきギャップ" },
   { id: "patterns", label: "転職パターン（職種×企業タイプ）" },
@@ -28,25 +28,25 @@ const toc = [
 ];
 
 const skillGap = [
-  ["Webアプリケーション開発の実務経験", "そのまま強みになります", "サーバーサイド＋フロントの開発経験はSaaSプロダクト開発の中核で評価されます"],
-  ["特定業界・業務のドメイン知識", "そのまま強みになります", "バーティカルSaaSでは現場業務を理解した要件定義ができる人材が希少で価値が高いです"],
-  ["受託・SES中心のシステム開発経験", "部分的に活かせます", "設計・実装力は活きますが、プロダクト改善サイクルやデータ活用への適応が課題です"],
-  ["マルチテナント・SaaS基盤の設計", "埋めるべきギャップ", "テナント分離・権限設計・課金・SLAなどSaaS特有の設計知見が問われやすいです"],
-  ["プロダクト志向・グロース思考", "埋めるべきギャップ", "指標を見て改善を回す姿勢や、カスタマーサクセスと連携する動き方への適応が必要"],
+  ["Webアプリケーション開発の実務経験", "そのまま強み", "サーバーサイド＋フロントの開発経験はSaaSプロダクト開発の中核で評価されます"],
+  ["特定業界・業務のドメイン知識", "そのまま強み", "バーティカルSaaSでは現場業務を理解した要件定義ができる人材が希少で価値が高いといえます"],
+  ["受託・SES中心のシステム開発経験", "部分的に活用可能", "設計・実装力は活きますが、プロダクト改善サイクルやデータ活用への適応が課題になります"],
+  ["マルチテナント・SaaS基盤の設計", "埋めるべきギャップ", "テナント分離・権限設計・課金・SLAなどSaaS特有の設計知見が問われやすい傾向があります"],
+  ["プロダクト志向・グロース思考", "埋めるべきギャップ", "指標を見て改善を回す姿勢や、カスタマーサクセスと連携する動き方への適応が必要です"],
 ];
 
 const patterns = [
-  ["プロダクトエンジニア", "BtoB SaaS全般", "Web開発＋プロダクト志向。機能開発と改善を主体的に担う代表的なルート"],
-  ["バックエンドエンジニア", "SaaS基盤・課金・API", "マルチテナント設計やAPI公開を担います。基盤系の経験者に向く"],
-  ["バーティカルSaaSのドメインエンジニア", "建設・医療・物流など特化型SaaS", "業界知識＋開発。現場を理解した人材が希少で評価されやすい"],
-  ["SRE・プラットフォームエンジニア", "成長期のSaaS企業", "可用性・スケーラビリティを支えます。インフラ・クラウド経験者に需要"],
+  ["プロダクトエンジニア", "BtoB SaaS全般", "Web開発とプロダクト志向の両方が求められます。機能開発と改善を主体的に担う代表的なルートです"],
+  ["バックエンドエンジニア", "SaaS基盤・課金・API", "マルチテナント設計やAPI公開を担います。基盤系の経験者に向いています"],
+  ["バーティカルSaaSのドメインエンジニア", "建設・医療・物流など特化型SaaS", "業界知識と開発力を組み合わせます。現場を理解した人材は希少で、評価されやすい傾向があります"],
+  ["SRE・プラットフォームエンジニア", "成長期のSaaS企業", "可用性・スケーラビリティを支えます。インフラ・クラウド経験者に需要があります"],
 ];
 
 const companyTypes = [
-  ["ホリゾンタルSaaS", "業種を問わず使える汎用SaaS（人事・会計・営業支援など）。利用社数が多く基盤の堅牢性が問われる", "汎用的なプロダクトをスケールさせたい人"],
-  ["バーティカルSaaS", "特定業界に特化したSaaS（建設・医療・小売など）。業界知識が強みになる", "特定業界のドメインに強みを持ちたい人"],
-  ["コンパウンド・マルチプロダクトSaaS", "複数プロダクトを連携させて提供しています。基盤やデータ統合の設計が重要", "プロダクト横断の設計に関心がある人"],
-  ["成長期スタートアップ", "プロダクトマーケットフィットを追う段階。裁量が大きく成長機会が多い", "スピード感と裁量を求める人"],
+  ["ホリゾンタルSaaS", "業種を問わず使える汎用SaaS（人事・会計・営業支援など）です。利用社数が多く、基盤の堅牢性が問われます", "汎用的なプロダクトをスケールさせたい人"],
+  ["バーティカルSaaS", "特定業界に特化したSaaS（建設・医療・小売など）です。業界知識が強みになります", "特定業界のドメインに強みを持ちたい人"],
+  ["コンパウンド・マルチプロダクトSaaS", "複数プロダクトを連携させて提供しています。基盤やデータ統合の設計が重要になります", "プロダクト横断の設計に関心がある人"],
+  ["成長期スタートアップ", "プロダクトマーケットフィットを追う段階の企業です。裁量が大きく、成長機会が多い傾向があります", "スピード感と裁量を求める人"],
 ];
 
 const faqs = [
@@ -56,11 +56,11 @@ const faqs = [
   },
   {
     q: "受託・SESからSaaSの自社開発に移れますか？",
-    a: "移っている人は多くいます。設計・実装力はそのまま活きますが、プロダクトの継続的改善やデータ活用、カスタマーサクセスとの連携といった働き方への適応が課題になりやすいです。個人開発やOSS、技術ブログなどで「プロダクトを良くする視点」を示すと評価につながります。",
+    a: "移っている人は多くいます。設計・実装力はそのまま活きますが、プロダクトの継続的改善やデータ活用、カスタマーサクセスとの連携といった働き方への適応が課題になりやすい傾向があります。個人開発やOSS、技術ブログなどで「プロダクトを良くする視点」を示すと評価につながります。",
   },
   {
     q: "バーティカルSaaSとホリゾンタルSaaSはどちらが転職しやすいですか？",
-    a: "一概には言えません。特定業界の実務経験がある人はバーティカルSaaSで業界知識が強みになります。汎用的な技術力やスケーラビリティの経験がある人はホリゾンタルSaaSで活きやすいです。自分の経験がどちらに近いかで選ぶのが現実的です。",
+    a: "一概には言えません。特定業界の実務経験がある人はバーティカルSaaSで業界知識が強みになります。汎用的な技術力やスケーラビリティの経験がある人はホリゾンタルSaaSで活きやすくなります。自分の経験がどちらに近いかで選ぶのが現実的です。",
   },
   {
     q: "SaaS転職で年収はどう変わりますか？",
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "SaaSではどんな技術が求められますか？",
-    a: "求人傾向としてはバックエンド（Ruby/Java/Go/PHP/Node.jsなど）、フロント（React/TypeScript/Vue）、クラウド（AWS/GCP）、API設計、マルチテナント設計が基本になりやすいです。SREやデータ基盤の知識があると差別化につながります。具体的な要件は企業ごとに異なるため、求人票で確認してください。",
+    a: "求人傾向としてはバックエンド（Ruby/Java/Go/PHP/Node.jsなど）、フロント（React/TypeScript/Vue）、クラウド（AWS/GCP）、API設計、マルチテナント設計が基本になりやすい傾向があります。SREやデータ基盤の知識があると差別化につながります。具体的な要件は企業ごとに異なるため、求人票で確認してください。",
   },
   {
     q: "代表的なSaaS企業にはどんなところがありますか？",
@@ -151,20 +151,20 @@ export default function SaasIndustryPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SaaS業界への転職は現実的か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">SaaS業界への転職は現実的か</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <span className="font-bold text-blue-800">結論：Web開発経験やドメイン知識を持つエンジニアにとって、SaaS転職は十分現実的です。</span>
+              <span className="font-bold text-blue-800">Web開発経験やドメイン知識を持つエンジニアにとって、SaaS転職は十分現実的です。</span>
               ただし「Web開発ができれば十分」ではなく、SaaS特有の設計とプロダクト志向との掛け合わせが鍵になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Web開発と特定業界のドメイン知識はSaaSで価値が高いです</li>
+              <li>・Web開発と特定業界のドメイン知識はSaaSで価値が高いといえます</li>
               <li>・一方でマルチテナント設計やプロダクト改善の進め方は多くの求人で問われます</li>
-              <li>・30代は技術＋プロダクト志向、40代はマネジメント＋業界知識を強みにしやすいです</li>
+              <li>・30代は技術＋プロダクト志向、40代はマネジメント＋業界知識を強みにしやすくなります</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            まずは「自分の経験がホリゾンタル（汎用）とバーティカル（業界特化）のどちらに活きるか」を見極め、不足する技術を補う計画を立てるのが近道です。
+            まずは「自分の経験がホリゾンタル（汎用）とバーティカル（業界特化）のどちらに活きるか」を見極め、不足する技術を補う計画を立てると、効率よく準備を進められます。
           </p>
         </section>
 
@@ -182,7 +182,7 @@ export default function SaasIndustryPage() {
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という追い風</h3>
+              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という背景</h3>
               <p className="text-sm text-slate-600">
                 経済産業省「IT人材需給に関する調査」（2019年公表）では、2030年に最大約79万人のIT人材不足が試算されています（2019年公表の試算）。Web開発×ドメイン知識のように専門性を掛け合わせられる人材は、こうした需給環境のなかで相対的に動きやすい立場にあります。
               </p>
@@ -346,7 +346,7 @@ export default function SaasIndustryPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">30代：技術＋プロダクト志向の二刀流を作る</h3>
+              <h3 className="font-bold text-blue-800 mb-2">30代：技術とプロダクト志向の両方を身につける</h3>
               <p className="text-sm text-petrol-deep">
                 Web開発に加えて、指標を見て改善を回すプロダクト志向を身につけると、純粋な実装者に代えがたい価値になります。技術とプロダクト視点の両方に投資する価値が最も高い年代です。
               </p>
@@ -358,7 +358,7 @@ export default function SaasIndustryPage() {
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
+              <h3 className="font-bold text-blue-800 mb-2">ミドル層は「希少性」で差別化する</h3>
               <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新技術だけを競うのではなく、業界知識やマネジメントという希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
@@ -376,9 +376,9 @@ export default function SaasIndustryPage() {
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や管理職ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。汎用SaaSから業界特化SaaSまで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあるため、ミドル層は経歴を丁寧に伝えることが大切です。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人や管理職ポジションを狙う際の選択肢になります。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数を持つサービスです。汎用SaaSから業界特化SaaSまで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -406,7 +406,7 @@ export default function SaasIndustryPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">Web開発とドメイン知識をSaaSで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">Web開発とドメイン知識をSaaSで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>

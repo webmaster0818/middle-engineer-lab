@@ -12,12 +12,12 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Apache Sparkスキルの転職市場での進め方" },
+  { id: "conclusion", label: "1. Apache Sparkスキルの転職市場での進め方" },
   { id: "market", label: "2. 年収・市場データ（出典付き）" },
   { id: "use", label: "3. Sparkの用途と求人傾向" },
   { id: "level", label: "4. 求められる経験レベルと求人要件" },
   { id: "career", label: "5. キャリアパスと関連技術" },
-  { id: "find", label: "6. 求人の探し方・強いエージェント" },
+  { id: "find", label: "6. 求人の探し方と主なエージェント" },
   { id: "entry", label: "7. 経験浅めから参入するルート" },
   { id: "age", label: "8. 30代・40代エンジニアの視点" },
   { id: "learn", label: "9. スキルアップ・学習戦略" },
@@ -95,7 +95,7 @@ export default function SparkSkillPage() {
 
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
-            Apache Sparkは、大規模データの分散処理を高速に実現するエンジンです。テラバイト級のETL・バッチ処理から機械学習の前処理、ストリーム処理まで、データ基盤の中核を担います。Databricksをはじめとするデータレイクハウスの普及で利用シーンは広がっており、求人ではデータエンジニア職種の文脈で評価されるのが特徴です。
+            Apache Sparkは、大規模データの分散処理を高速に実現するエンジンです。テラバイト級のETL・バッチ処理から機械学習の前処理、ストリーム処理まで、データ基盤の中核を担います。Databricksをはじめとするデータレイクハウスの普及で利用シーンは広がっており、求人ではデータエンジニア職種の文脈で評価される傾向があります。
           </p>
           <p className="text-slate-600 leading-relaxed">
             本記事では、Sparkスキルを軸にした転職の「進め方」を、<strong>公表年収データ・用途と求人傾向・求められる経験レベル・関連技術・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
@@ -125,9 +125,9 @@ export default function SparkSkillPage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Apache Sparkスキルの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Apache Sparkスキルの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Sparkは「単体スキル」ではなく「データ基盤・パイプライン構築力」として評価されます。</strong>ツールの使い方より、大規模データをどう処理・設計したかの経験が問われます。
@@ -184,8 +184,8 @@ export default function SparkSkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               { use: "大規模ETL・バッチ処理", note: "テラバイト級のデータ加工・集計。データパイプラインの中核" },
-              { use: "機械学習の前処理（MLlib）", note: "特徴量生成・大規模前処理です。MLOps基盤と連携" },
-              { use: "ストリーム処理（Structured Streaming）", note: "準リアルタイム処理です。Kafkaと組み合わせる構成" },
+              { use: "機械学習の前処理（MLlib）", note: "特徴量生成・大規模前処理。MLOps基盤と連携" },
+              { use: "ストリーム処理（Structured Streaming）", note: "準リアルタイム処理。Kafkaと組み合わせる構成" },
               { use: "データレイクハウス（Databricks）", note: "Delta Lake上でのETL・分析。クラウドデータ基盤の中心" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -223,7 +223,7 @@ export default function SparkSkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               { role: "データエンジニア", note: "データパイプラインの設計運用。SQL・Python・クラウドとの掛け合わせ" },
-              { role: "機械学習基盤エンジニア（MLOps）", note: "大規模前処理・特徴量基盤です。データサイエンスチームを支えます" },
+              { role: "機械学習基盤エンジニア（MLOps）", note: "大規模前処理・特徴量基盤。データサイエンスチームの支援" },
               { role: "データプラットフォームエンジニア", note: "レイクハウス・データ基盤のアーキテクチャ設計とコスト最適化" },
               { role: "アナリティクスエンジニア", note: "Spark／SQLでの分析基盤整備。BIチームとデータ基盤の橋渡し" },
             ].map((item, i) => (
@@ -240,7 +240,7 @@ export default function SparkSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Sparkを軸にした求人は母数が限られるため、特定の1社に絞るより複数チャネルを横断するのが効率的です。
           </p>
@@ -260,7 +260,7 @@ export default function SparkSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強み）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。Sparkを採用するWeb系・データ活用企業の求人を探したい場合の選択肢になります。
               </p>
@@ -279,7 +279,7 @@ export default function SparkSkillPage() {
             {[
               { num: "1", title: "SQL・Pythonのデータ処理経験を土台にする", desc: "SQLでの集計やPythonでのETL経験があれば、それを土台に「Sparkは未経験だがキャッチアップ可」とアピールできます。データを扱う基礎があると分散処理への移行は段階的に進められます。" },
               { num: "2", title: "PySparkでパイプラインを組んで公開する", desc: "Databricks Community Editionやローカル環境でPySparkを動かし、公開データセットの加工・集計パイプラインを組んでGitHubで公開します。パーティション・シャッフルなど分散処理の挙動を理解した過程を言語化すると評価につながります。" },
-              { num: "3", title: "クラウドのマネージドSparkを触る", desc: "AWS Glue／EMR、GCP Dataproc、Databricksなどのマネージド環境で小さなジョブを動かすと、実務に近い運用経験として語れます。コストや実行時間をどう改善したかが面接で効きます。" },
+              { num: "3", title: "クラウドのマネージドSparkを触る", desc: "AWS Glue／EMR、GCP Dataproc、Databricksなどのマネージド環境で小さなジョブを動かすと、実務に近い運用経験として語れます。コストや実行時間をどう改善したかが面接で評価されます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -324,7 +324,7 @@ export default function SparkSkillPage() {
               <strong>② パイプライン全体を組みます。</strong>Spark単体ではなく、Airflowなどのワークフロー管理、ストレージ（S3／GCS／Delta Lake）との連携まで含めてパイプラインを組むと、データエンジニアとして語れる経験になります。
             </p>
             <p>
-              <strong>③ クラウドとレイクハウスを掛け合わせます。</strong>Databricksやクラウドのマネージドサービスでレイクハウス構成を経験すると、データプラットフォーム領域の求人に手が届きます。性能チューニングとコスト最適化の実践が差別化要因です。
+              <strong>③ クラウドとレイクハウスを掛け合わせます。</strong>Databricksやクラウドのマネージドサービスでレイクハウス構成を経験すると、データプラットフォーム領域の求人も視野に入ります。性能チューニングとコスト最適化の実践が差別化要因です。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。

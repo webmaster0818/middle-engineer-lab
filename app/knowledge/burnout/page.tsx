@@ -29,17 +29,17 @@ const signs = [
   { num: "1", title: "慢性的な疲労感", desc: "十分に睡眠を取っても疲れが取れません。週末も回復できず、月曜日がつらい状態が数週間続きます。" },
   { num: "2", title: "仕事への無関心・冷笑", desc: "以前は興味があった技術やプロダクトに関心が持てません。「どうせ変わらない」という諦めが強くなります。" },
   { num: "3", title: "達成感の低下", desc: "何を成し遂げても満たされません。自分の仕事に意味を感じられず、有能感が下がります。" },
-  { num: "4", title: "集中力・判断力の低下", desc: "以前なら半日で終わるタスクに丸一日かかります。ケアレスミスが増えます。" },
+  { num: "4", title: "集中力・判断力の低下", desc: "以前なら半日で終わるタスクに丸一日かかるようになり、ケアレスミスも増えます。" },
   { num: "5", title: "身体のサイン", desc: "頭痛、胃腸の不調、不眠、動悸、肩こりなど身体に変化が出ます。これは受診を検討すべき重要なサインです。" },
-  { num: "6", title: "プライベートへの影響", desc: "趣味を楽しめない、家族との時間に集中できない、休日も仕事のことが頭から離れません。" },
+  { num: "6", title: "プライベートへの影響", desc: "趣味を楽しめない、家族との時間に集中できないといった変化が現れ、休日も仕事のことが頭から離れなくなります。" },
 ];
 
 const causes = [
   { cause: "長時間労働・恒常的な残業", example: "デスマーチ、納期に追われ続ける状態", action: "労働時間の記録、上司・人事への相談、環境の見直し" },
-  { cause: "オンコール・障害対応の負荷", example: "深夜・休日の呼び出しが頻発し休めません", action: "ローテーションの是正を提案、運用体制の見直し" },
-  { cause: "コントロール感の欠如", example: "裁量がなく、決定に関与できません", action: "担当範囲の調整、役割の再設計を相談" },
-  { cause: "評価・報酬のミスマッチ", example: "成果や負荷が年収・評価に反映されません", action: "市場価値の確認、社内での交渉、転職活動" },
-  { cause: "技術的な停滞", example: "レガシー保守のみで学びがない", action: "社内異動、新規プロジェクトへの参画提案" },
+  { cause: "オンコール・障害対応の負荷", example: "深夜・休日の呼び出しが頻発し、休息が取れない状態", action: "ローテーション是正の提案、運用体制の見直し" },
+  { cause: "コントロール感の欠如", example: "裁量がなく、決定に関与できない状態", action: "担当範囲の調整、役割の再設計の相談" },
+  { cause: "評価・報酬のミスマッチ", example: "成果や負荷が年収・評価に反映されない状態", action: "市場価値の確認、社内での交渉、転職活動" },
+  { cause: "技術的な停滞", example: "レガシー保守のみで学びがない状態", action: "社内異動、新規プロジェクトへの参画提案" },
   { cause: "人間関係・心理的安全性の低さ", example: "上司やチームとの不和、相談しにくい空気", action: "人事への相談、部署異動の打診" },
 ];
 
@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     q: "燃え尽きのサインが出ています。まず何をすべきですか？",
-    a: "まずは休息と受診の検討を最優先にしてください。不眠・頭痛・動悸などの身体症状がある場合は、転職の前に専門医・産業医への相談してください。キャリア面の整理はその後で構いません。多くの企業には産業医や相談窓口があり、メンタル面の相談は人事評価に直結しないよう配慮されるのが一般的です。",
+    a: "まずは休息と受診の検討を最優先にしてください。不眠・頭痛・動悸などの身体症状がある場合は、転職の前に専門医・産業医に相談してください。キャリア面の整理はその後で構いません。多くの企業には産業医や相談窓口があり、メンタル面の相談は人事評価に直結しないよう配慮されるのが一般的です。",
   },
   {
     q: "燃え尽きの状態で転職活動をしても良いですか？",
@@ -118,7 +118,7 @@ export default function BurnoutPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】燃え尽きたら、休職と転職どちらを選ぶべき？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: まず休息・受診を最優先し、原因が「環境」にあって半年以上改善しないなら転職を検討する、という順番が安全です。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>まず休息・受診を最優先し、原因が「環境」にあって半年以上改善しないなら転職を検討する、という順番が安全です。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・不眠・頭痛・動悸などの身体症状があるなら、転職より先に専門医・産業医の受診を優先します</li><li>・原因が「一時的」か「環境」かを切り分け、環境要因で半年以上改善しないなら転職が現実的な選択肢です</li><li>・疲弊した状態での即決は避け、「逃げたい」を「次に向かいたい方向」に翻訳してから動きます</li></ul>
           </div>
         </section>
@@ -158,7 +158,7 @@ export default function BurnoutPage() {
         {/* 結論 */}
         <section className="mb-10">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：先に「休む・受診」、次に「環境を変えるか」を判断する</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">先に「休む・受診」、次に「環境を変えるか」を判断する</h2>
             <p className="text-sm text-blue-800 leading-relaxed mb-3">
               燃え尽きの対処は順番が大切です。<strong>(1)身体症状があるならまず受診・休息</strong> →
               <strong>(2)原因が「環境」か「一時的」かを切り分け</strong> →
@@ -254,7 +254,7 @@ export default function BurnoutPage() {
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">STEP 2. 原因は「一時的」か「環境」か</h3>
-              <p className="text-sm text-slate-600">繁忙期や特定プロジェクト由来の一時的なものなら、休養・配置調整で回復する可能性が高いです。長時間労働・評価制度・人間関係など<strong>構造的な要因</strong>なら、環境を変える方が根本解決に近づきます。</p>
+              <p className="text-sm text-slate-600">繁忙期や特定プロジェクト由来の一時的なものなら、休養・配置調整で回復する可能性が高いといえます。長時間労働・評価制度・人間関係など<strong>構造的な要因</strong>なら、環境を変える方が根本解決に近づきます。</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">STEP 3. 社内で改善を試みたか</h3>
@@ -360,7 +360,7 @@ export default function BurnoutPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">キャリアの整理はプロに相談しよう</h2>
+          <h2 className="text-xl font-bold mb-3">キャリアの整理は専門家に相談しましょう</h2>
           <p className="text-blue-100 text-sm mb-4">
             体調面は専門医・産業医に相談してください。キャリアの選択肢を整理したいときは、IT特化型エージェントなら「今すぐ転職しない」前提の相談も可能です。
           </p>

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "副業の確定申告【エンジニアの副業と税金】";
 const DESCRIPTION =
-  "エンジニアの副業（受託開発・技術ブログ・登壇など）の確定申告を、20万円ルールの正しい意味、所得区分、経費、住民税の申告まで国税庁の情報に基づいて解説します。会社にバレにくくする方法の誤解も整理した、30代・40代向けの実務ガイドです。";
+  "エンジニアの副業（受託開発・技術ブログ・登壇など）の確定申告を、20万円ルールの正しい意味、所得区分、経費、住民税の申告まで国税庁の情報に基づいて解説します。会社に知られにくくする方法をめぐる誤解も整理した、30代・40代向けの実務ガイドです。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/side-job-tax/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：副業の申告で押さえる要点" },
+  { id: "conclusion", label: "副業の申告で押さえる要点" },
   { id: "rule", label: "20万円ルールの正しい意味" },
   { id: "income", label: "副業の所得区分（事業所得・雑所得）" },
   { id: "expense", label: "経費にできるもの・帳簿づけ" },
@@ -108,13 +108,13 @@ export default function SideJobTaxPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】副業の確定申告、20万円以下なら本当に不要？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 所得税は「所得20万円以下」なら不要になる場合がありますが、住民税は別途申告が必要になることがあります。20万円基準は所得税だけのものと理解しておきましょう。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>所得税は「所得20万円以下」なら不要になる場合がありますが、住民税は別途申告が必要になることがあります。20万円基準は所得税だけのものと理解しておきましょう。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・判断は売上（収入）ではなく、経費を引いた「所得」で行います</li><li>・所得税が不要でも住民税の申告や、医療費控除等で確定申告する場合は20万円以下も含めて申告します</li><li>・「会社に絶対バレない方法」は断定できません。まず就業規則で副業可否を確認します</li></ul>
           </div>
         </section>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          受託開発、技術ブログ、登壇、OSS関連の収入など、エンジニアの副業の形は多様です。副業で収入を得たら気になるのが確定申告です。「20万円以下なら申告不要」という話は有名ですが、これには住民税という落とし穴があります。本記事では、20万円ルールの正しい意味、所得区分、経費、申告の流れを、国税庁の情報に基づいて整理します。なお本記事は一般的な情報提供であり、個別の判断は税務署や税理士にご確認ください。
+          受託開発、技術ブログ、登壇、OSS関連の収入など、エンジニアの副業の形は多様です。副業で収入を得たら気になるのが確定申告です。「20万円以下なら申告不要」という話は有名ですが、住民税については注意すべき点があります。本記事では、20万円ルールの正しい意味、所得区分、経費、申告の流れを、国税庁の情報に基づいて整理します。なお本記事は一般的な情報提供であり、個別の判断は税務署や税理士にご確認ください。
         </p>
 
         <DataNote
@@ -142,7 +142,7 @@ export default function SideJobTaxPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：副業の申告で押さえる要点</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">副業の申告で押さえる要点</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               会社員の副業では、<strong>給与・退職所得以外の所得の合計が年間20万円を超えると所得税の確定申告が必要</strong>になるのが基本です（1か所から給与を受けている場合、国税庁）。ここで重要なのは、判断するのは「収入」ではなく経費を引いた「所得」だという点です。

@@ -16,7 +16,7 @@ const DESC =
   "30代未経験からのIT転職を現実目線で解説します。テスター・サポート・SESなど現実的な入り口、6か月学習ロードマップ、paizaスキルチェックの活用、年収の現実と注意点を実践的にまとめました。";
 
 const toc = [
-  { id: "conclusion", label: "結論：30代未経験の現実的な進め方" },
+  { id: "conclusion", label: "30代未経験の現実的な進め方" },
   { id: "market", label: "市場の前提：人材不足という追い風" },
   { id: "entry", label: "現実的な入り口（テスター/サポート/SES）" },
   { id: "roadmap", label: "6か月学習ロードマップ" },
@@ -54,8 +54,8 @@ const faqs = [
     a: "Web系を目指すならJavaScript／TypeScript、業務系ならJava、インフラ系ならLinux＋クラウド（AWS等）の基礎がおすすめです。複数に手を広げず、まず1つの言語でポートフォリオを作れるレベルまで深めましょう。paizaのスキルチェックは対応言語が幅広いため、学んだ言語で実力を可視化できます。",
   },
   {
-    q: "SES企業に入るのはありですか？",
-    a: "最初の足場としてはありです。SESは未経験採用枠が多く、実務経験を積む場として機能します。ただし配属案件によって経験の質に差が出る（いわゆる案件ガチャ）ため、1〜2年で実務経験を作ったら、自社開発や希望領域への転職を計画的に検討しましょう。",
+    q: "SES企業への入社は選択肢になりますか？",
+    a: "最初の足場としては有効な選択肢です。SESは未経験採用枠が多く、実務経験を積む場として機能します。ただし配属案件によって経験の質に差が出る（いわゆる案件ガチャ）ため、1〜2年で実務経験を作ったら、自社開発や希望領域への転職を計画的に検討しましょう。",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function Inexperienced30sPage() {
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 30代未経験からのIT転職ロードマップ</p>
 
         <p className="text-slate-600 leading-relaxed mb-2">
-          「30代・未経験からITエンジニアは無理なのでは」と不安に思う方は多いですが、可能です。ただし大切なのは『いきなり花形の自社開発を狙う』のではなく、テスター・サポート・SESといった現実的な入り口から実務経験を作ることです。本記事では、入り口の選び方・6か月の学習ロードマップ・paizaスキルチェックの活用まで、30代に最適化した道筋を解説します。
+          「30代・未経験からITエンジニアは無理なのでは」と不安に思う方は多いですが、可能です。ただし大切なのは、『いきなり自社開発を狙う』のではなく、テスター・サポート・SESといった現実的な入り口から実務経験を作ることです。本記事では、入り口の選び方・6か月の学習ロードマップ・paizaスキルチェックの活用まで、30代に最適化した道筋を解説します。
         </p>
 
         <DataNote
@@ -106,7 +106,7 @@ export default function Inexperienced30sPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】30代未経験からITエンジニアに転職できる？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 可能です。現実的な入り口で実務経験を作り、2ステップでキャリアアップするのが成功率の高い代表的な方法です。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>可能です。現実的な入り口で実務経験を作り、2ステップでキャリアアップするのが成功率の高い代表的な方法です。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・入り口はテスター（QA）／サポート／SESが現実的です（未経験枠が多い）</li><li>・学習は「1言語をポートフォリオまで」＋paizaスキルチェックで実力を可視化します</li><li>・最初の1〜2年は「投資期間」と割り切り、年収より実務経験を優先します</li></ul>
           </div>
         </section>
@@ -123,17 +123,17 @@ export default function Inexperienced30sPage() {
           </ol>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="border-l-4 border-petrol bg-petrol-soft rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：30代未経験の現実的な進め方</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">30代未経験の現実的な進め方</h2>
             <p className="text-slate-700 leading-relaxed mb-3">
               30代未経験のIT転職は「<strong>現実的な入り口で実務経験を作り、2ステップでキャリアアップする</strong>」のが成功率の高い代表的な方法です。最初から理想の職種を狙うより、足場を固める方が結果的に早く到達できます。
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
               <li>・入り口はテスター（QA）／サポート／SESが現実的です（未経験枠が多い）</li>
               <li>・学習は『1言語をポートフォリオまで』＋paizaスキルチェックで実力を可視化します</li>
-              <li>・最初の1〜2年は『投資期間』。年収より実務経験を優先します</li>
+              <li>・最初の1〜2年は『投資期間』と捉え、年収より実務経験を優先します</li>
             </ul>
           </div>
         </section>
@@ -146,7 +146,7 @@ export default function Inexperienced30sPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <p className="text-sm text-slate-600 leading-relaxed">
-              一方で「未経験歓迎」と書かれていても、企業は『最低限のコードが書けるか』『学び続けられるか』を見ています。追い風はあくまで土台で、内定の決め手になるのは事前の準備（学習・ポートフォリオ・スキル可視化）です。職種全体の到達水準としては、厚生労働省 job tag のシステムエンジニア（受託開発）で平均年収約578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）という数字があり、経験を積めば射程に入ります。
+              一方で「未経験歓迎」と書かれていても、企業は『最低限のコードが書けるか』『学び続けられるか』を見ています。追い風はあくまで土台で、内定の決め手になるのは事前の準備（学習・ポートフォリオ・スキル可視化）です。職種全体の到達水準としては、厚生労働省 job tag のシステムエンジニア（受託開発）で平均年収約578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）という数字があり、経験を積めば到達も視野に入ります。
             </p>
           </div>
         </section>
@@ -169,17 +169,17 @@ export default function Inexperienced30sPage() {
               <tbody>
                 <tr>
                   <td className="border border-slate-200 px-4 py-3 text-slate-700 font-medium">テスター／QA</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">丁寧さ・観察力が強みです。まず開発現場の進め方を知りたい人</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">丁寧さ・観察力が強みで、まず開発現場の進め方を知りたい人</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">テスト自動化エンジニア → 開発</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-200 px-4 py-3 text-slate-700 font-medium">テクニカルサポート／ヘルプデスク</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">前職が接客・営業など対人系です。製品理解と切り分け力を活かせる人</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">前職が接客・営業など対人系で、製品理解と切り分け力を活かせる人</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">社内SE・インフラ・カスタマーサクセス</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-200 px-4 py-3 text-slate-700 font-medium">SES（客先常駐）</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">まず開発・運用の実務経験を作りたい人です。採用枠が多い</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">まず開発・運用の実務経験を作りたい人（採用枠が多め）</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">自社開発・受託（1〜2年後）</td>
                 </tr>
               </tbody>
@@ -188,15 +188,15 @@ export default function Inexperienced30sPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-1.5">テスター／QAの注意点</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">手動テスト中心の現場に長居すると開発スキルが伸びにくいです。テスト自動化（コードを書く領域）や開発へ移る計画を最初から持つことです。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">手動テスト中心の現場に長居すると開発スキルが伸びにくい傾向があります。テスト自動化（コードを書く領域）や開発へ移る計画を最初から持っておくことが大切です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-1.5">SESの注意点</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">配属案件によって経験の質に差が出ます（案件ガチャ）。面談で『どんな案件に入れるか』『開発に携われるか』を必ず確認し、運用監視だけで終わらない環境を選びます。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">配属案件によって経験の質に差が出ます（いわゆる案件ガチャ）。面談で『どんな案件に入れるか』『開発に携われるか』を必ず確認し、運用監視だけで終わらない環境を選びます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-1.5">前職の掛け算を忘れない</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">営業出身ならカスタマーサクセス、金融出身ならFinTechの社内SEなど、前職のドメイン知識が活きるポジションは未経験でも通りやすいです。</p>
+              <h3 className="font-bold text-blue-800 mb-1.5">前職との掛け合わせを意識する</h3>
+              <p className="text-sm text-petrol-deep leading-relaxed">営業出身ならカスタマーサクセス、金融出身ならFinTechの社内SEなど、前職のドメイン知識が活きるポジションは未経験でも通りやすくなります。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
@@ -212,10 +212,10 @@ export default function Inexperienced30sPage() {
           </p>
           <div className="space-y-4">
             {[
-              { period: "1〜2か月目", title: "基礎学習", desc: "HTML/CSS/JavaScript（または学びたい1言語）の基礎です。ProgateやドットインストールなどでOKです。1日1〜2時間を習慣化します。" },
-              { period: "2か月目末", title: "paizaスキルチェック（初回）", desc: "まず1度受けて現在地を把握します。Dランクからでも問題ないです。継続学習の指標として使います。" },
+              { period: "1〜2か月目", title: "基礎学習", desc: "HTML/CSS/JavaScript（または学びたい1言語）の基礎を学びます。教材はProgateやドットインストールなどで十分です。1日1〜2時間の学習を習慣化します。" },
+              { period: "2か月目末", title: "paizaスキルチェック（初回）", desc: "まず1度受けて現在地を把握します。Dランクからでも問題ありません。継続学習の指標として使います。" },
               { period: "3〜4か月目", title: "フレームワーク／実践", desc: "React・Vue、またはサーバーサイド（Rails・Laravel等）を学習します。小さなアプリを写経ではなく自分で組みます。" },
-              { period: "5か月目", title: "ポートフォリオ制作", desc: "オリジナルWebアプリを1つ企画・設計・開発。GitHub公開＋READMEで設計意図を説明します。" },
+              { period: "5か月目", title: "ポートフォリオ制作", desc: "オリジナルWebアプリを1つ企画・設計・開発し、GitHubで公開したうえでREADMEに設計意図を記載します。" },
               { period: "5か月目末", title: "paizaスキルチェック（再挑戦）", desc: "ランクアップを狙います。B以上だとスカウトが届きやすくなります（二次情報）。スコアを職務経歴書の補強材料にします。" },
               { period: "6か月目", title: "転職活動開始", desc: "職務経歴書作成、エージェント登録、現実的な入り口の求人へ応募します。学習は継続したまま進めます。" },
             ].map((item, i) => (
@@ -239,10 +239,10 @@ export default function Inexperienced30sPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-4">
             <p className="text-sm font-bold text-slate-700 mb-3">未経験者がpaizaを使うメリット</p>
             <ul className="text-sm text-slate-600 space-y-2">
-              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>スキルが数値（ランク）で可視化され、『実績がない』弱点を客観指標で補える</span></li>
+              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>スキルが数値（ランク）で可視化され、『実績がない』弱点を客観指標で補えます</span></li>
               <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>学歴・経歴の壁が低く、コードで評価されます（二次情報の評判）</span></li>
-              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>高ランクなら年齢を問わずスカウトが届くという声がある</span></li>
-              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>書類選考免除のケースがあり、職歴で弾かれにくい</span></li>
+              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>高ランクなら年齢を問わずスカウトが届くという声があります</span></li>
+              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>書類選考免除のケースがあり、職歴だけで不採用になりにくくなります</span></li>
             </ul>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
@@ -267,7 +267,7 @@ export default function Inexperienced30sPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-2.5 text-sm text-slate-700">
               {[
-                "自分で企画したオリジナルのテーマです（チュートリアルの丸写しでない）",
+                "自分で企画したオリジナルのテーマになっています（チュートリアルの丸写しではありません）",
                 "CRUD（作成・閲覧・更新・削除）など基本機能が一通り動きます",
                 "GitHubで公開され、READMEに『何を・なぜ・どう作ったか』が書いてあります",
                 "可能ならデプロイ済みで、実際に触れるURLがあります",
@@ -306,9 +306,9 @@ export default function Inexperienced30sPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">避けるべき3つの失敗</h2>
           <div className="space-y-4">
             {[
-              { t: "高額スクールに頼り切ります", d: "数十万円のスクールに通えば自動で転職できるわけではありません。スクールは学習のペースメーカーです。最終的に自分でコードを書ける状態を作らないと面接で見抜かれます。" },
-              { t: "最初から年収・職種を絞りすぎます", d: "『自社開発しか受けない』『年収は下げたくない』と最初から絞ると、実務経験を作る機会を逃します。まずは足場を作り、経験を強みに次で狙います。" },
-              { t: "学習だけで応募しません", d: "完璧を目指して学習を続け、いつまでも応募しないのは機会損失です。ポートフォリオが最低ラインに達したら、学習を続けながら応募を始めます。" },
+              { t: "高額スクールに頼り切ること", d: "数十万円のスクールに通えば自動で転職できるわけではありません。スクールは学習のペースメーカーです。最終的に自分でコードを書ける状態を作らないと面接で見抜かれます。" },
+              { t: "最初から年収・職種を絞りすぎること", d: "『自社開発しか受けない』『年収は下げたくない』と最初から絞ると、実務経験を作る機会を逃します。まずは足場を作り、その経験を強みに次の転職で希望条件を目指します。" },
+              { t: "学習を続けるだけで応募しないこと", d: "完璧を目指して学習を続け、いつまでも応募しないのは機会損失です。ポートフォリオが最低ラインに達したら、学習を続けながら応募を始めます。" },
             ].map((x, i) => (
               <div key={i} className="bg-red-50 rounded-lg p-5">
                 <h3 className="font-bold text-red-800 mb-1.5">{x.t}</h3>
@@ -323,7 +323,7 @@ export default function Inexperienced30sPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代前半と後半で戦略は変わる</h2>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">30代前半：純粋な未経験ルートが効く</h3>
+              <h3 className="font-bold text-slate-800 mb-2">30代前半：純粋な未経験ルートが通用しやすい</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 30代前半は未経験歓迎の開発・SES求人がまだ一定数あります。学習→ポートフォリオ→paizaで実力を示す代表的な方法が通用しやすい年代です。早めに動くほど選択肢が広がります。
               </p>
@@ -357,7 +357,7 @@ export default function Inexperienced30sPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">未経験からの第一歩を、無料で相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            未経験向け求人に強いエージェントなら、現実的な入り口の求人紹介から職務経歴書の添削まで無料でサポートしてくれます。
+            未経験向け求人に強いエージェントなら、現実的な入り口の求人紹介から職務経歴書の添削まで無料で支援を受けられます。
           </p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

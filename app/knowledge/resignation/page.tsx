@@ -12,22 +12,22 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：固い意思・前向きな理由・早めの引き継ぎ" },
+  { id: "conclusion", label: "固い意思・前向きな理由・早めの引き継ぎ" },
   { id: "law", label: "退職の法的な基礎知識（一般論）" },
   { id: "timing", label: "いつ・誰に・どう切り出すか" },
   { id: "scripts", label: "退職の切り出し方 例文集" },
   { id: "counter", label: "引き止めパターンと対応例文" },
   { id: "handover", label: "引き継ぎ計画の立て方とチェックリスト" },
   { id: "schedule", label: "退職までのスケジュール" },
-  { id: "middle", label: "30代・40代視点：円満退職が後々効く理由" },
+  { id: "middle", label: "30代・40代視点：円満退職が後のキャリアに影響する理由" },
   { id: "faq", label: "よくある質問" },
   { id: "related", label: "関連記事" },
 ];
 
 const schedule = [
-  { period: "8週間前", title: "退職意思を上司に伝える", desc: "直属の上司に1対1で伝えます。メールではなく対面（またはビデオ通話）が基本です。転職先の社名は伝えなくても問題ありません。" },
-  { period: "6週間前", title: "引き継ぎ計画を作成", desc: "担当プロジェクト・システム・タスクを一覧化し、引き継ぎスケジュールを上司と合意します。" },
-  { period: "4〜5週間前", title: "引き継ぎ作業を実施", desc: "コードのドキュメント整備、運用手順書の作成、後任者へのレクチャーを進めます。" },
+  { period: "8週間前", title: "上司への退職意思の伝達", desc: "直属の上司に1対1で伝えます。メールではなく対面（またはビデオ通話）が基本です。転職先の社名は伝えなくても問題ありません。" },
+  { period: "6週間前", title: "引き継ぎ計画の作成", desc: "担当プロジェクト・システム・タスクを一覧化し、引き継ぎスケジュールを上司と合意します。" },
+  { period: "4〜5週間前", title: "引き継ぎ作業の実施", desc: "コードのドキュメント整備、運用手順書の作成、後任者へのレクチャーを進めます。" },
   { period: "2〜3週間前", title: "退職届の提出", desc: "人事に正式な退職届（退職願ではなく届）を提出します。書式は就業規則に従います。" },
   { period: "最終週", title: "有給消化・最終出社", desc: "引き継ぎ完了後に有給休暇を消化します。最終出社日にPC・セキュリティカード返却、アカウント整理を行います。" },
 ];
@@ -53,7 +53,7 @@ const counters = [
 const faqs = [
   {
     q: "退職は何ヶ月前に伝えるべきですか？",
-    a: "まず勤務先の就業規則を確認してください。退職の申し出時期が定められている場合はそれに従うのが基本です。一般論として、引き継ぎを丁寧に行う観点から1〜2ヶ月前に伝える人が多いとされます。エンジニアの場合、リリースやプロジェクトの節目に合わせると引き継ぎがスムーズになりやすいです。なお法律上の取り扱いについては本記事『退職の法的な基礎知識』も参照しつつ、個別の事情は専門家に相談してください。",
+    a: "まず勤務先の就業規則を確認してください。退職の申し出時期が定められている場合はそれに従うのが基本です。一般論として、引き継ぎを丁寧に行う観点から1〜2ヶ月前に伝える人が多いとされます。エンジニアの場合、リリースやプロジェクトの節目に合わせると引き継ぎがスムーズになりやすい傾向があります。なお法律上の取り扱いについては本記事『退職の法的な基礎知識』も参照しつつ、個別の事情は専門家に相談してください。",
   },
   {
     q: "退職はメールで伝えても良いですか？",
@@ -77,7 +77,7 @@ const faqs = [
   },
   {
     q: "退職代行サービスは使うべきですか？",
-    a: "ハラスメント等で直接伝えることが心身の負担になる場合には選択肢になります。一方、円満退職や将来の人脈維持を重視するなら、自分で伝えるほうが望ましいとされます。IT業界は転職で再会する機会が多いため、可能であれば直接の挨拶を残しておくと後々のキャリアにプラスに働きやすいです。利用する場合はサービス内容と費用、対応範囲を事前に確認しましょう。",
+    a: "ハラスメント等で直接伝えることが心身の負担になる場合には選択肢になります。一方、円満退職や将来の人脈維持を重視するなら、自分で伝えるほうが望ましいとされます。IT業界は転職で再会する機会が多いため、可能であれば直接の挨拶を残しておくと後々のキャリアにプラスに働きやすくなります。利用する場合はサービス内容と費用、対応範囲を事前に確認しましょう。",
   },
   {
     q: "退職の意思を撤回することはできますか？",
@@ -127,8 +127,8 @@ export default function ResignationPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】どうすれば円満に退職を進められる？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 最初の一報を直属の上司に1対1で口頭で伝え、理由は前向きに変換し、引き継ぎを早めに文書化するのが円満退職の基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・最初の一報は直属の上司に1対1で、口頭で伝えます。退職先の社名は伝えなくてよいです</li><li>・退職理由は不満ではなく「次でやりたいこと」に変換して伝えます</li><li>・引き止め（カウンターオファー）には「入社日を合意済み」が最も効きます</li><li>・就業規則の通知期間を確認し、引き継ぎ計画を早めに文書化します</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>最初の一報を直属の上司に1対1で口頭で伝え、理由は前向きに変換し、引き継ぎを早めに文書化するのが円満退職の基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・最初の一報は直属の上司に1対1で、口頭で伝えます。退職先の社名は伝えなくても問題ありません</li><li>・退職理由は不満ではなく「次でやりたいこと」に変換して伝えます</li><li>・引き止め（カウンターオファー）には「入社日を合意済み」と伝えるのが最も有効です</li><li>・就業規則の通知期間を確認し、引き継ぎ計画を早めに文書化します</li></ul>
           </div>
         </section>
 
@@ -152,14 +152,14 @@ export default function ResignationPage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：意思は固く、理由は前向きに、引き継ぎは早めに</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">意思は固く、理由は前向きに、引き継ぎは早めに</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・最初の一報は<strong>直属の上司に1対1で、口頭で伝えます</strong>。退職先の社名は言わなくてよいです。</li>
+              <li>・最初の一報は<strong>直属の上司に1対1で、口頭で伝えます</strong>。退職先の社名は言わなくても問題ありません。</li>
               <li>・退職理由は不満ではなく<strong>「次でやりたいこと」</strong>に変換して伝えます。</li>
-              <li>・引き止め（カウンターオファー）には<strong>「入社日を合意済み」</strong>が最も効きます。</li>
+              <li>・引き止め（カウンターオファー）には<strong>「入社日を合意済み」</strong>と伝えるのが最も有効です。</li>
               <li>・就業規則の通知期間を確認し、<strong>引き継ぎ計画を早めに文書化</strong>しておきます。</li>
             </ul>
           </div>
@@ -236,7 +236,7 @@ export default function ResignationPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">③ 理由を前向きに伝える（不満を語らない）</h3>
-              <p className="text-sm text-slate-600 bg-slate-50 rounded p-3 mb-2"><strong>Before（NG例）:</strong>「率直、今の評価制度に納得できず、レガシーな環境にも限界を感じていて……」</p>
+              <p className="text-sm text-slate-600 bg-slate-50 rounded p-3 mb-2"><strong>Before（NG例）:</strong>「率直に申し上げると、今の評価制度に納得できず、レガシーな環境にも限界を感じていて……」</p>
               <p className="text-sm text-slate-600 bg-slate-50 rounded p-3"><strong>After（推奨）:</strong>「今後は◯◯領域のプロダクト開発に深く関わっていきたいと考え、それが実現できる環境に挑戦する決断をしました。」</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -312,12 +312,12 @@ export default function ResignationPage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 週数は一例です。就業規則の通知期間や担当業務の状況に合わせて調整してください。全体の活動計画は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照します。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 週数は一例です。就業規則の通知期間や担当業務の状況に合わせて調整してください。全体の活動計画は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照してください。</p>
         </section>
 
         {/* 30代40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点：円満退職が後々効く理由</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点：円満退職が後のキャリアに影響する理由</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             30代・40代の退職は、20代の退職とは重みが違います。担当領域が広く引き継ぎが重い一方で、業界内の人脈が今後のキャリアに直結するためです。
           </p>
@@ -331,8 +331,8 @@ export default function ResignationPage() {
               <p className="text-sm text-slate-600">中堅・ベテランほど担当のブラックボックス化が起きがちです。退職時にドキュメントを整え、後任が困らない状態を残せるかは、エンジニアとしての成熟度の証明にもなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">家庭・住宅ローンなど「引けない事情」を味方に</h3>
-              <p className="text-sm text-slate-600">引き止めで揺れそうなときほど、入社日を先に確定させておくと意思がぶれません。「次の会社と合意済み」という事実が、感情的な引き止めへの最良の盾になります。カウンターオファーで迷う場合は<Link href="/knowledge/counter-offer/" className="text-petrol hover:underline">こちら</Link>。</p>
+              <h3 className="font-bold text-slate-800 mb-2">家庭・住宅ローンなど「引けない事情」を意思の支えにする</h3>
+              <p className="text-sm text-slate-600">引き止めで揺れそうなときほど、入社日を先に確定させておくと意思がぶれません。「次の会社と合意済み」という事実が、感情的な引き止めを断る際の確かな根拠になります。カウンターオファーで迷う場合は<Link href="/knowledge/counter-offer/" className="text-petrol hover:underline">こちらの記事</Link>をご覧ください。</p>
             </div>
           </div>
         </section>
@@ -355,7 +355,7 @@ export default function ResignationPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">退職の進め方に迷ったら相談を</h2>
+          <h2 className="text-xl font-bold mb-3">退職の進め方に迷う場合の相談先</h2>
           <p className="text-blue-100 text-sm mb-4">
             退職のタイミングや引き止め対応に不安があれば、IT特化型エージェントに無料で相談できます。
           </p>

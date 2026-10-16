@@ -30,7 +30,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "ラクスルで活きる経験は？",
-    a: "Ruby on Railsを中心としたWebアプリケーション開発の実務経験が基本です。ECやプラットフォームの開発・運用経験、業務フローや産業構造を理解してプロダクトに落とし込む力、フロントエンド（Vue/Nuxt）の経験などが活きやすい傾向です。",
+    a: "Ruby on Railsを中心としたWebアプリケーション開発の実務経験が基本です。ECやプラットフォームの開発・運用経験、業務フローや産業構造を理解してプロダクトに落とし込む力、フロントエンド（Vue/Nuxt）の経験などが活きやすい傾向があります。",
   },
   {
     q: "30代・40代でもラクスルに転職できますか？",
@@ -98,7 +98,7 @@ export default function RaksulCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ラクスルの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: ラクスル株式会社の全社員平均年収は742万円です（2025年7月期 有価証券報告書・平均年齢35.9歳・単体）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>ラクスル株式会社の全社員平均年収は742万円です（2025年7月期 有価証券報告書・平均年齢35.9歳・単体）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 742万円です（2025年7月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年7月期631万円から上昇傾向で、2025年7月期は742万円です（各期 有価証券報告書）。</li><li>・職種・等級別の公式な提示レンジは非公開です。実際の提示額は求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
@@ -118,14 +118,14 @@ export default function RaksulCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              ラクスルは<strong>Ruby on Rails中心のモダンな開発で、レガシー産業のデジタル化に挑むプラットフォーム企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収742万円（2025年7月期 有価証券報告書）はWeb系の中でも高めの水準です。
+              ラクスルは<strong>Ruby on Rails中心のモダンな開発で、レガシー産業のデジタル化に挑むプラットフォーム企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高めです。全社員平均年収742万円（2025年7月期 有価証券報告書）はWeb系の中でも高めの水準です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Rubyでの実務経験があり、産業構造や業務フローを理解してプロダクト化することに関心があるエンジニア</li>
               <li>● <strong>向いていない人</strong>：toC娯楽サービス中心の開発を強く志向する人、ドメイン理解より純粋な技術追求を優先したい人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢35.9歳と年齢層に幅があり、設計・ドメイン課題解決の実績があればハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：平均年齢35.9歳と年齢層に幅があり、設計・ドメイン課題解決の実績があればハンデになりにくい傾向</li>
             </ul>
           </div>
         </section>
@@ -171,7 +171,7 @@ export default function RaksulCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">グローバルな開発体制</h3>
-              <p className="text-sm text-petrol-deep">エンジニアは日本のほかベトナム・インドのオフィスにも在籍し、複数拠点で開発を進めています（公式技術ブログ）。グローバルチームでの協働経験を積みたいエンジニアにとって魅力的な環境です。</p>
+              <p className="text-sm text-petrol-deep">エンジニアは日本のほかベトナム・インドのオフィスにも在籍し、複数拠点で開発を進めています（公式技術ブログ）。グローバルチームでの協働経験を積める環境といえます。</p>
             </div>
           </div>
         </section>
@@ -270,7 +270,7 @@ export default function RaksulCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。SaaS・Web系の求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：在職中に3ヶ月、週単位で計画的に進める" },
+  { id: "conclusion", label: "在職中に3ヶ月、週単位で計画的に進める" },
   { id: "overview", label: "全体像：標準スケジュールの考え方" },
   { id: "plan", label: "3ヶ月の週次計画表（在職中モデル）" },
   { id: "weekly", label: "在職中の「週次の動き方」モデル" },
@@ -24,7 +24,7 @@ const toc = [
 ];
 
 const month1 = [
-  { week: "1週目", tasks: "キャリアの棚卸し。これまでの経験・スキル・成果を一覧化し、転職の軸（年収・技術・ポジション・働き方）を3つ程度に絞ります。求人を眺める前に「何を満たせば成功か」を言語化しておきます。" },
+  { week: "1週目", tasks: "キャリアの棚卸しを行います。これまでの経験・スキル・成果を一覧化し、転職の軸（年収・技術・ポジション・働き方）を3つ程度に絞ります。求人を眺める前に「何を満たせば成功か」を言語化しておきます。" },
   { week: "2週目", tasks: "職務経歴書・履歴書の初稿を作成し、GitHub・ポートフォリオを整理します。IT特化型エージェント2〜3社に登録し、初回面談（オンライン可）を予約します。" },
   { week: "3週目", tasks: "エージェント初回面談を実施します。市場価値の確認、希望条件のすり合わせ、書類の添削依頼を行います。並行して気になる企業の採用ページ・技術ブログを読み込みます。" },
   { week: "4週目", tasks: "応募企業を選定します。エージェント紹介と自己応募をあわせて候補を10〜20社挙げ、優先度（第1志望群・練習群）を分けておきます。" },
@@ -82,7 +82,7 @@ const faqs = [
   },
   {
     q: "何社くらい応募すればよいですか？",
-    a: "明確な正解はありませんが、第1志望群だけに絞らず、練習を兼ねた企業も含めて複数社を並行するのが現実的です。書類や面接は受けるほど精度が上がるため、序盤は通過率にこだわりすぎず母数を確保し、終盤に本命を集中させる進め方が効率的です。応募数の感覚はエージェントに相談すると、自分の市場価値に応じた目安を教えてもらえます。",
+    a: "明確な正解はありませんが、第1志望群だけに絞らず、練習を兼ねた企業も含めて複数社を並行するのが現実的です。書類や面接は受けるほど精度が上がるため、序盤は通過率にこだわりすぎず母数を確保し、終盤に第1志望群を集中させる進め方が効率的です。応募数の感覚はエージェントに相談すると、自分の市場価値に応じた目安を教えてもらえます。",
   },
   {
     q: "仕事が忙しくて活動の時間が取れません。どうすればよいですか？",
@@ -136,8 +136,8 @@ export default function TimelinePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニア転職のスケジュールはどう組めばいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 在職中なら約3ヶ月を目安に、準備・応募と面接・内定と退職の3フェーズへ分け、週次の習慣として計画的に進めるのが基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・準備1ヶ月・応募と面接1ヶ月・内定と退職1ヶ月の3フェーズに分けると、在職中でも破綻しにくいです</li><li>・朝昼はスマホで返信、夜と週末にまとめ作業、という週次ルーティンに落とします</li><li>・入社希望日から逆算し、退職に必要な期間（通知＋引き継ぎ＋有給消化）を先に確保します</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>在職中なら約3ヶ月を目安に、準備・応募と面接・内定と退職の3フェーズへ分け、週次の習慣として計画的に進めるのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・準備1ヶ月・応募と面接1ヶ月・内定と退職1ヶ月の3フェーズに分けると、在職中でも破綻しにくい傾向があります</li><li>・朝昼はスマホで返信、夜と週末にまとめ作業、という週次ルーティンに落とします</li><li>・入社希望日から逆算し、退職に必要な期間（通知＋引き継ぎ＋有給消化）を先に確保します</li></ul>
           </div>
         </section>
 
@@ -166,9 +166,9 @@ export default function TimelinePage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：在職中に約3ヶ月、週単位で計画的に進める</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">在職中に約3ヶ月、週単位で計画的に進める</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・<strong>準備1ヶ月・応募と面接1ヶ月・内定と退職1ヶ月</strong>の3フェーズに分けると、在職中でも破綻しにくいです。</li>
+              <li>・<strong>準備1ヶ月・応募と面接1ヶ月・内定と退職1ヶ月</strong>の3フェーズに分けると、在職中でも破綻しにくい傾向があります。</li>
               <li>・活動の大半は「<strong>朝昼はスマホで返信、夜と週末にまとめ作業</strong>」の週次ルーティンに落とせます。</li>
               <li>・入社希望日から逆算し、退職に必要な期間（通知＋引き継ぎ＋有給消化）を先に確保しておくのがコツです。</li>
             </ul>
@@ -293,17 +293,17 @@ export default function TimelinePage() {
                 <tr>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">4月入社</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">前年12月〜1月ごろ</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">年明けに求人が増える時期と重なり選択肢が多い</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">年明けに求人が増える時期と重なり、選択肢が豊富</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">7月入社</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">4月ごろ</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">新年度の体制が固まり欠員が見えてくる</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">新年度の体制が固まり、欠員が見えてくる時期</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">10月入社</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">7月ごろ</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">下期に向けた増員・体制づくりの求人が出やすい</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">下期に向けた増員・体制づくりの求人が出やすい時期</td>
                 </tr>
               </tbody>
             </table>
@@ -341,7 +341,7 @@ export default function TimelinePage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">職務経歴書は「常時メンテ」状態にしておく</h3>
-              <p className="text-sm text-slate-600">直前にゼロから書くと負荷が一気に高まります。日頃から成果を箇条書きでストックし、応募時に整える運用にすると、活動開始のハードルが下がります。書き方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>をご参照ください。</p>
+              <p className="text-sm text-slate-600">直前にゼロから書くと負荷が大きくなります。日頃から成果を箇条書きでストックし、応募時に整える運用にすると、活動開始のハードルが下がります。書き方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>をご参照ください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">退職・引き継ぎの時間を先取りで予約する</h3>

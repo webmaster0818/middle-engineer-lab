@@ -47,7 +47,7 @@ const techStack = [
 const faqs = [
   {
     q: "プレイドのエンジニア転職難易度は高い？",
-    a: "KARTEは毎秒大量のイベントをリアルタイム処理する技術的難度の高いプロダクトで、設計力・データ処理経験が問われるため難易度は高めです。一方で公開選考体験談ではポテンシャルも見られる傾向があり、TypeScript／Node.jsやデータ基盤の実務経験があるミドルには十分チャンスがあります。",
+    a: "KARTEは毎秒大量のイベントをリアルタイム処理する技術的難度の高いプロダクトで、設計力・データ処理経験が問われるため難易度は高めです。一方で公開選考体験談ではポテンシャルも見られる傾向があり、TypeScript／Node.jsやデータ基盤の実務経験があるミドル層にも十分に機会があります。",
   },
   {
     q: "プレイドのエンジニア年収はどのくらい？",
@@ -75,12 +75,12 @@ const faqs = [
   },
   {
     q: "30代・40代でもプレイドに転職できる？",
-    a: "平均年齢35歳前後とミドル層が中心の組織で、データ処理やプロダクト設計の専門性を持つ30代・40代はマッチしやすい傾向です。年齢より、KARTEの技術課題に貢献できる実務経験が重視されます。",
+    a: "平均年齢35歳前後とミドル層が中心の組織で、データ処理やプロダクト設計の専門性を持つ30代・40代はマッチしやすい傾向があります。年齢より、KARTEの技術課題に貢献できる実務経験が重視されます。",
   },
 ];
 
 const toc = [
-  { id: "conclusion", label: "結論：難易度とどんな人向けか" },
+  { id: "conclusion", label: "難易度とどんな人向けか" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "hiring", label: "エンジニア採用の特徴" },
   { id: "tech", label: "技術スタック" },
@@ -118,7 +118,7 @@ export default function PlaidCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】プレイドの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社プレイドの全社員平均年収は939万円です（2025年9月期 有価証券報告書・平均年齢35.2歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社プレイドの全社員平均年収は939万円です（2025年9月期 有価証券報告書・平均年齢35.2歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 939万円です（2025年9月期 有価証券報告書）。エンジニア職限定の数値ではありません。</li><li>・推移は2023年9月期の1,040万円をピークに、2024年9月期955万円→2025年9月期939万円と低下しています（各期 有価証券報告書）。</li><li>・職種・グレード別の公式な年収表は非公開です。実際の提示額は公式求人・面談で確認が必要です。</li></ul>
         </div>
 
@@ -142,7 +142,7 @@ export default function PlaidCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：プレイドはこんなエンジニアに向く</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">プレイドに向いているエンジニア</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-2">転職難易度：高め（リアルタイムデータ処理の専門性）</p>
             <p className="text-sm text-blue-900 leading-relaxed">
@@ -174,7 +174,7 @@ export default function PlaidCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">リアルタイムデータ処理の最前線</h3>
+              <h3 className="font-bold text-blue-800 mb-2">リアルタイムデータ処理基盤の開発</h3>
               <p className="text-sm text-petrol-deep">KARTEは訪問者の行動をリアルタイムで解析し最適なアクションを配信します。解析基盤「Blitz」は数百ms以内で応答する設計で、大規模なリアルタイム処理基盤の開発・運用に携われます（出典: PLAID公式採用ページ）。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -183,7 +183,7 @@ export default function PlaidCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">GCPを軸にしたデータ基盤</h3>
-              <p className="text-sm text-petrol-deep">BigQuery・Bigtable・Spannerなど、GCPのデータ基盤をフル活用しています。AI開発支援ツール（Copilot・Cursor・Devin等）の導入も進められています。</p>
+              <p className="text-sm text-petrol-deep">BigQuery・Bigtable・Spannerなど、GCPのデータ基盤を幅広く活用しています。AI開発支援ツール（Copilot・Cursor・Devin等）の導入も進められています。</p>
             </div>
           </div>
         </section>
@@ -277,8 +277,8 @@ export default function PlaidCompanyPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700 leading-relaxed space-y-3">
-            <p>平均年齢35歳前後とミドル層が中心の組織で、<strong>データ処理・プロダクト設計の専門性を持つ30代・40代はマッチしやすい</strong>傾向です。年齢より、KARTEの技術課題に貢献できる実務経験が重視されます。</p>
-            <p>裁量が大きい分、自走力とキャッチアップ速度が求められます。家庭との両立という観点では、フレックスは追い風ですが、繁忙の波は前提に置き、面談で実態を確認しておくのが現実的です。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>も参考になります。</p>
+            <p>平均年齢35歳前後とミドル層が中心の組織で、<strong>データ処理・プロダクト設計の専門性を持つ30代・40代はマッチしやすい</strong>傾向があります。年齢より、KARTEの技術課題に貢献できる実務経験が重視されます。</p>
+            <p>裁量が大きい分、自走力とキャッチアップ速度が求められます。家庭との両立という観点では、フレックス制度は両立の助けになりますが、繁忙の波は前提に置き、面談で実態を確認しておくのが現実的です。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>も参考になります。</p>
           </div>
         </section>
 
@@ -312,9 +312,9 @@ export default function PlaidCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">プレイド転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強いです。SaaS・データテックの非公開求人を保有していることがあります。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型媒体です。カジュアル面談で社風を把握しやすいです。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT・Webに特化しています。提案スピードが速く、データテック企業の実務経験者に向きます。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強みがあります。SaaS・データテックの非公開求人を保有していることがあります。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型媒体です。カジュアル面談で社風を把握しやすくなります。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT・Webに特化しています。提案スピードが速く、データテック企業の実務経験者に適しています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

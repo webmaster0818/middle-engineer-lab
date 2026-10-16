@@ -12,7 +12,7 @@ const URL = "/career/frontend-to-backend/";
 export const metadata: Metadata = { alternates: { canonical: "/career/frontend-to-backend/" }, title: TITLE, description: DESC };
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と進め方" },
+  { id: "conclusion", label: "現実性と進め方" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -25,8 +25,8 @@ const toc = [
 ];
 
 const gapRows = [
-  { axis: "プログラミング基礎", front: "◎ JavaScript/TypeScriptで開発", back: "○ 言語は異なっても基礎は流用できます", gap: "活用" },
-  { axis: "API設計・実装", front: "△ 利用側（fetch）が中心", back: "◎ REST/GraphQL APIを設計・実装します", gap: "大" },
+  { axis: "プログラミング基礎", front: "◎ JavaScript/TypeScriptで開発", back: "○ 言語は異なっても基礎は流用可能", gap: "活用" },
+  { axis: "API設計・実装", front: "△ 利用側（fetch）が中心", back: "◎ REST/GraphQL APIの設計・実装", gap: "大" },
   { axis: "データベース設計", front: "△ 触れる機会が限定的", back: "◎ スキーマ設計・正規化・SQL最適化が中核", gap: "大" },
   { axis: "サーバー・インフラ理解", front: "△ デプロイ先として利用する程度", back: "○ 実行環境・スケーリングの理解が必要", gap: "中" },
   { axis: "非同期・並行処理", front: "○ Promise/async は日常的に使用", back: "◎ 排他制御・トランザクション設計まで", gap: "中" },
@@ -48,9 +48,9 @@ const migrationSteps = [
 ];
 
 const agents = [
-  { name: "レバテックキャリア", point: "IT/Web特化で技術理解のあるアドバイザーが在籍しています。フロント経験を活かしつつバックエンド／フルスタック寄りの求人を相談しやすいです。", href: "/review/levtech/" },
-  { name: "ビズリーチ", point: "ハイクラス・スカウト型です。バックエンド求人のスカウトを通じて、自分の技術スタックの市場評価を客観的に把握できます。", href: "/review/bizreach-it/" },
-  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数です。Web系からSIerまで幅広く、職種転換を含む転職でも選択肢を確保しやすいです。", href: "/review/recruit-it/" },
+  { name: "レバテックキャリア", point: "IT/Web領域に特化しており、技術理解のあるアドバイザーが在籍しています。フロント経験を活かしつつバックエンド／フルスタック寄りの求人を相談しやすくなります。", href: "/review/levtech/" },
+  { name: "ビズリーチ", point: "ハイクラス向けのスカウト型サービスです。バックエンド求人のスカウトを通じて、自分の技術スタックの市場評価を客観的に把握できます。", href: "/review/bizreach-it/" },
+  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数を保有しています。Web系からSIerまで幅広く、職種転換を含む転職でも選択肢を確保しやすくなります。", href: "/review/recruit-it/" },
 ];
 
 const faqs = [
@@ -129,10 +129,10 @@ export default function FrontendToBackendPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：同じ開発職内なので現実的です。鍵はAPIとDB設計</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">同じ開発職内の移行で現実的。重点はAPIとDB設計</h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・プログラミング基礎は流用できます。未経験職種への転換より難度は低いです。</li>
-              <li>・ギャップが大きいのは「API設計」と「データベース設計」。ここを成果物で示すのが鍵です。</li>
+              <li>・プログラミング基礎は流用できます。未経験職種への転換より難度は低い傾向があります。</li>
+              <li>・ギャップが大きいのは「API設計」と「データベース設計」です。この2点を成果物で示すことが重要です。</li>
               <li>・職務経歴書は『画面を作った』から『データとAPIをどう設計したか』へ書き換えます。</li>
             </ul>
           </div>
@@ -209,13 +209,13 @@ export default function FrontendToBackendPage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（画面実装の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                ECサイトのフロントエンド開発を担当。React/TypeScriptで商品一覧・カート画面を実装し、APIからデータを取得して表示です。レスポンシブ対応とパフォーマンス改善を実施しました。
+                ECサイトのフロントエンド開発を担当。React/TypeScriptで商品一覧・カート画面を実装し、APIからデータを取得して表示。レスポンシブ対応とパフォーマンス改善を実施。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（API・DB設計を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                ECサイト開発で、個人開発として商品・在庫・注文のスキーマを設計し、Node.js/NestJSで認証付きのREST APIを実装・デプロイです。N+1問題をインデックスとクエリ最適化で解消し、フロント経験を活かしてAPIのレスポンス設計を利用側目線で最適化しました。GitHubでコードを公開します。
+                ECサイト開発で、個人開発として商品・在庫・注文のスキーマを設計し、Node.js/NestJSで認証付きのREST APIを実装・デプロイ。N+1問題をインデックスとクエリ最適化で解消し、フロント経験を活かしてAPIのレスポンス設計を利用側目線で最適化。GitHubでコードを公開。
               </p>
             </div>
           </div>
@@ -251,7 +251,7 @@ export default function FrontendToBackendPage() {
         <section id="midage" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の進め方</h2>
           <p className="text-slate-600 leading-relaxed mb-3">
-            30代・40代でバックエンドへ移る場合、フロントの実務経験という土台があるぶん、未経験からの参入より有利です。フルスタック志向のチームでは、UIとデータの両方を理解している人材が重宝されるため、「対応範囲を広げる」方向で攻めると年齢のハンデを補えます。
+            30代・40代でバックエンドへ移る場合、フロントの実務経験という土台があるぶん、未経験からの参入より有利です。フルスタック志向のチームでは、UIとデータの両方を理解している人材が重宝されるため、「対応範囲を広げる」方向で応募すると、年齢面の不利を補いやすくなります。
           </p>
           <p className="text-slate-600 leading-relaxed">
             一方で、若手より学習に充てられる時間が限られやすいのが現実です。API＋DB設計の成果物を在職中に1つ作り、職務経歴書で見せられるようにしておきましょう。年収の見通しは<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も参考にしてください。

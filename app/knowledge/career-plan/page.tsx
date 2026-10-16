@@ -56,10 +56,10 @@ const faqs = [
 const compareRows = [
   ["評価される力", "技術選定・実装・問題解決の深さ", "目標設定・育成・評価・調整"],
   ["主な役割例", "アーキテクト / SRE / AI・MLエンジニア / IC上級職", "EM / テックリード / 開発部長 / VPoE"],
-  ["年収の傾向", "上級ICは管理職と遜色ない例もあります", "一般に上がりやすいですが、組織規模に依存します"],
-  ["やりがいの源泉", "技術的な探究・難問の解決", "チームの成長・事業へのレバレッジ"],
-  ["きつい点", "技術の陳腐化リスク・専門の狭さ", "板挟み・採用や評価の負荷・実装から離れます"],
-  ["向いている人", "手を動かし続けたい / 一点突破型", "人と事業を動かしたい / 全体最適型"],
+  ["年収の傾向", "上級ICは管理職と遜色ない例も存在", "一般に上がりやすい傾向（組織規模に依存）"],
+  ["やりがいの源泉", "技術的な探究・難問の解決", "チームの成長・事業への影響"],
+  ["負担になりやすい点", "技術の陳腐化リスク・専門の狭さ", "板挟み・採用や評価の負荷・実装からの距離"],
+  ["向いている人", "手を動かし続けたい人 / 特定領域を深める型", "人と事業を動かしたい人 / 全体最適型"],
 ];
 
 export default function CareerPlanPage() {
@@ -104,8 +104,8 @@ export default function CareerPlanPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアはどうキャリアプランを設計すればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 4つの主要パスから自分の志向と市場ニーズの重なりで方向を選び、10年後の理想像から逆算して計画するのが基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・キャリアは「スペシャリスト／マネジメント／技術経営／独立」の4方向に整理でき、優劣はない</li><li>・マネジメントとスペシャリストの適性を診断し、迷えば自己分析で過去の手応えを振り返ります</li><li>・10年後の理想像から逆算し、技術名でなくカテゴリで計画を立て、年1回見直します</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>4つの主要パスから自分の志向と市場ニーズの重なりで方向を選び、10年後の理想像から逆算して計画するのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・キャリアは「スペシャリスト／マネジメント／技術経営／独立」の4方向に整理でき、優劣はありません</li><li>・マネジメントとスペシャリストの適性を診断し、迷えば自己分析で過去の手応えを振り返ります</li><li>・10年後の理想像から逆算し、技術名でなくカテゴリで計画を立て、年1回見直します</li></ul>
           </div>
         </section>
 
@@ -140,10 +140,10 @@ export default function CareerPlanPage() {
           </p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "スペシャリスト（IC）", desc: "技術を極める道です。アーキテクト・SRE・AI/MLエンジニアなどです。手を動かし続けたい人向けです。上級ICは管理職に近い処遇のケースもあります。" },
-              { num: "2", title: "マネジメント", desc: "人と事業を動かす道です。EM・テックリード・開発部長・VPoEです。チームや組織の成果でレバレッジを効かせたい人向けです。" },
-              { num: "3", title: "CTO・技術経営", desc: "技術と経営をつなぐ道です。スタートアップのCTOや技術責任者です。技術判断と事業判断の両方に踏み込みます。" },
-              { num: "4", title: "独立・フリーランス", desc: "得意領域で独立する道です。経験10年以上で専門が明確な人向けです。自由度が高い反面、安定や継続性は自分で設計する必要があります。" },
+              { num: "1", title: "スペシャリスト（IC）", desc: "技術を極める道で、アーキテクト・SRE・AI/MLエンジニアなどが該当します。手を動かし続けたい人に向いており、上級ICは管理職に近い処遇のケースもあります。" },
+              { num: "2", title: "マネジメント", desc: "人と事業を動かす道で、EM・テックリード・開発部長・VPoEなどが該当します。チームや組織の成果を通じて事業に貢献したい人に向いています。" },
+              { num: "3", title: "CTO・技術経営", desc: "技術と経営をつなぐ道で、スタートアップのCTOや技術責任者などが該当します。技術判断と事業判断の両方に踏み込みます。" },
+              { num: "4", title: "独立・フリーランス", desc: "得意領域で独立する道で、経験10年以上で専門が明確な人に向いています。自由度が高い反面、安定や継続性は自分で設計する必要があります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -155,7 +155,7 @@ export default function CareerPlanPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            それぞれ深掘りした記事もあります: <Link href="/knowledge/management/" className="text-petrol underline">マネジメントキャリア</Link>、<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol underline">フリーランスvs正社員</Link>。
+            それぞれ詳しく解説した記事もあります: <Link href="/knowledge/management/" className="text-petrol underline">マネジメントキャリア</Link>、<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol underline">フリーランスvs正社員</Link>。
           </p>
         </section>
 
@@ -197,11 +197,11 @@ export default function CareerPlanPage() {
               <h3 className="font-bold text-emerald-800 mb-3 text-sm">スペシャリスト寄り</h3>
               <ul className="space-y-2">
                 {[
-                  "難しい技術課題を解いている時が一番楽しいです",
+                  "難しい技術課題を解いている時が一番楽しい",
                   "自分で手を動かし続けたい",
                   "1つの領域を深く極めたい",
                   "会議や調整より実装に集中したい",
-                  "最新技術のキャッチアップが苦になりません",
+                  "最新技術のキャッチアップが苦にならない",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2 text-sm text-emerald-900"><span className="font-bold shrink-0">✓</span>{t}</li>
                 ))}
@@ -211,10 +211,10 @@ export default function CareerPlanPage() {
               <h3 className="font-bold text-blue-800 mb-3 text-sm">マネジメント寄り</h3>
               <ul className="space-y-2">
                 {[
-                  "チームの成果が上がると自分のこと以上に嬉しいです",
+                  "チームの成果が上がると自分のこと以上に嬉しい",
                   "人の成長を支援するのが好き",
-                  "技術だけでなく事業全体に関心があります",
-                  "調整や交渉が苦になりません",
+                  "技術だけでなく事業全体に関心がある",
+                  "調整や交渉が苦にならない",
                   "全体最適のために動くのが得意",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2 text-sm text-blue-900"><span className="font-bold shrink-0">✓</span>{t}</li>
@@ -235,7 +235,7 @@ export default function CareerPlanPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">技術名でなくカテゴリで立てる</h3>
-              <p className="text-sm text-petrol-deep">『○○というFW』ではなく『大規模分散システムの設計力』のようにカテゴリで計画すると、技術変化に強くなります。</p>
+              <p className="text-sm text-petrol-deep">『○○というFW』ではなく『大規模分散システムの設計力』のようにカテゴリで計画すると、技術の変化に対応しやすくなります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">基盤スキルに投資する</h3>
@@ -276,9 +276,9 @@ export default function CareerPlanPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">6. 後悔しないための注意点</h2>
           <div className="space-y-4">
             {[
-              { t: "周りに流されて方向を決めません", d: "『年上だからマネジメント』『同期が独立したから自分も』と周囲に合わせると後悔しがちです。自分の手応えと価値観を軸にします。" },
-              { t: "一度の選択を不可逆だと思い込みません", d: "マネジメントからICへ戻る人も、ICからマネジメントへ進む人もいます。1回の選択で人生が固定されるわけではありません。" },
-              { t: "年収だけで決めません", d: "目先の年収だけで選ぶと、やりがいや継続性を失うことがあります。価値観の優先順位とセットで判断しましょう。" },
+              { t: "周囲に流されて方向を決めないこと", d: "『年上だからマネジメント』『同期が独立したから自分も』と周囲に合わせると後悔しがちです。自分の手応えと価値観を軸にします。" },
+              { t: "一度の選択を不可逆だと思い込まないこと", d: "マネジメントからICへ戻る人も、ICからマネジメントへ進む人もいます。1回の選択で人生が固定されるわけではありません。" },
+              { t: "年収だけで決めないこと", d: "目先の年収だけで選ぶと、やりがいや継続性を失うことがあります。価値観の優先順位とセットで判断しましょう。" },
             ].map((n, i) => (
               <div key={i} className="bg-amber-50 border border-amber-200 rounded-lg p-5">
                 <h3 className="font-bold text-amber-800 mb-1">{n.t}</h3>
@@ -321,7 +321,7 @@ export default function CareerPlanPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">キャリアの方向性をプロに相談しよう</h2>
+          <h2 className="text-xl font-bold mb-3">キャリアの方向性をエージェントに相談しましょう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、業界動向や年収相場を踏まえて中長期のキャリアプランを一緒に整理してくれます。今すぐの転職を前提としない相談も可能です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

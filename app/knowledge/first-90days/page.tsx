@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：最初の90日は「信頼の貯金」を作る期間" },
+  { id: "conclusion", label: "最初の90日は「信頼の貯金」を作る期間" },
   { id: "why", label: "なぜ最初の90日が重要なのか" },
   { id: "roadmap", label: "30/60/90日プラン ロードマップ" },
   { id: "phase", label: "各フェーズで意識すべきこと" },
@@ -25,16 +25,16 @@ const toc = [
 ];
 
 const roadmap = [
-  { span: "1〜30日", theme: "理解します（Learn）", action: "コードベース把握、開発環境構築、関係者と1on1、ドメイン知識の吸収", goal: "環境への適応と関係づくりの土台" },
-  { span: "31〜60日", theme: "貢献します（Contribute）", action: "小〜中規模タスクの完了、コードレビュー参加、改善提案を1つ以上", goal: "最初の目に見える成果を出します" },
-  { span: "61〜90日", theme: "自走します（Lead）", action: "機能の設計から実装まで独力で担当、技術的提案、新メンバー支援", goal: "独り立ちと信頼の確立" },
+  { span: "1〜30日", theme: "理解（Learn）", action: "コードベース把握、開発環境構築、関係者と1on1、ドメイン知識の吸収", goal: "環境への適応と関係づくりの土台" },
+  { span: "31〜60日", theme: "貢献（Contribute）", action: "小〜中規模タスクの完了、コードレビュー参加、改善提案を1つ以上", goal: "最初の目に見える成果" },
+  { span: "61〜90日", theme: "自走（Lead）", action: "機能の設計から実装まで独力で担当、技術的提案、新メンバー支援", goal: "独り立ちと信頼の確立" },
 ];
 
 const trust = [
   { title: "期待値を先にすり合わせる", body: "入社初週に上司と1on1を持ち、「30日後・60日後・90日後に何ができていれば良いか」を言語化して合意します。期待値が曖昧なまま走ると、頑張りが評価につながりません。" },
   { title: "約束を小さく守り続ける", body: "「明日までに調べます」を確実に守ります。小さな約束の積み重ねが『この人は任せられる』という信頼に直結します。大きな成果より先に、信頼の土台を作ります。" },
   { title: "分からないことを早く聞く", body: "中途入社は遠慮して抱え込みがちですが、序盤の質問は歓迎されます。『◯◯まで調べた上で、△△が分かりません』と調査の跡を見せて聞くと印象が良くなります。" },
-  { title: "チームの「なぜ」を尊重する", body: "現状の非効率に見える部分も、背景や制約があることが多いものです。批判の前に『なぜこうなっているか』を理解する姿勢が、受け入れられる近道です。" },
+  { title: "チームの「なぜ」を尊重する", body: "現状の非効率に見える部分も、背景や制約があることが多いものです。批判の前に『なぜこうなっているか』を理解する姿勢が、チームに受け入れられることにつながります。" },
 ];
 
 const ngActions = [
@@ -42,7 +42,7 @@ const ngActions = [
   { title: "いきなり大きな変革を提案する", body: "問題点が見えても、まず背景を理解します。改善提案は小さく始め、信頼が貯まってから大きなものへ広げます。" },
   { title: "一人で抱え込む", body: "質問せず悩むとチームとの距離が広がります。詰まったら早めに共有し、巻き込む姿勢を見せましょう。" },
   { title: "最初から完璧を目指す", body: "最初のPRは完璧でなくて構いません。フィードバックを受けて素早く直す姿勢が評価されます。" },
-  { title: "関係構築の機会を避ける", body: "ランチや雑談、チームイベントは人間関係の近道です。最初の90日が最も効果的な時期です。" },
+  { title: "関係構築の機会を避ける", body: "ランチや雑談、チームイベントは人間関係を築く機会になります。最初の90日が最も効果的な時期です。" },
 ];
 
 const faqs = [
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: "技術スタックが違う場合のキャッチアップ方法は？",
-    a: "まずチームの先輩にキャッチアップ計画を相談するのが近道です。公式ドキュメントの通読、既存コードの読解、ペアプログラミングでの学習が効果的とされます。最初の数ヶ月は業務時間外の自主学習が必要になる場合もありますが、無理のない範囲で記載します。新しいスタックでも、これまで培った設計力・問題解決力は十分に活きます。継続学習の進め方は継続的なスキルアップの記事も参考にしてください。",
+    a: "まずチームの先輩にキャッチアップ計画を相談するのが効率的です。公式ドキュメントの通読、既存コードの読解、ペアプログラミングでの学習が効果的とされます。最初の数ヶ月は業務時間外の自主学習が必要になる場合もありますが、無理のない範囲で進めましょう。新しいスタックでも、これまで培った設計力・問題解決力は十分に活きます。継続学習の進め方は継続的なスキルアップの記事も参考にしてください。",
   },
   {
     q: "早期に成果を出すにはどうすればよいですか？",
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     q: "90日を過ぎても馴染めない場合はどうすればよいですか？",
-    a: "まずは上司や人事に状況を率直に相談しましょう。期待値のずれや業務の進め方は、対話で解消できることが少なくありません。それでも改善が見込めず、健康やキャリアへの悪影響が続く場合は、次の選択肢を検討するのも一つです。ただし短期離職は次の転職に影響しうるため慎重に判断してください。試用期間中の判断については試用期間の記事も参考にしてください。",
+    a: "まずは上司や人事に状況を率直に相談しましょう。期待値のずれや業務の進め方は、対話で解消できることが少なくありません。それでも改善が見込めず、健康やキャリアへの悪影響が続く場合は、次の選択肢を検討することも一つの方法です。ただし短期離職は次の転職に影響しうるため慎重に判断してください。試用期間中の判断については試用期間の記事も参考にしてください。",
   },
   {
     q: "オンボーディングが整っていない会社ではどうすればよいですか？",
@@ -122,10 +122,10 @@ export default function First90DaysPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職後の最初の90日で何をすべき？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 大きな成果を焦るより、「信頼の貯金」を作ることを最優先にします。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>大きな成果を焦るより、「信頼の貯金」を作ることを最優先にします。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
               <li>・30日＝理解、60日＝貢献、90日＝自走のリズムで段階的に立ち上がります。</li>
-              <li>・期待値のすり合わせと小さな約束を守ること、成果はクイックウィンから重ねます。</li>
+              <li>・期待値をすり合わせて小さな約束を守り、成果はクイックウィンから積み重ねます。</li>
               <li>・前職比較・いきなりの大改革・抱え込みはNG行動です。まず背景の理解を優先します。</li>
             </ul>
           </div>
@@ -154,12 +154,12 @@ export default function First90DaysPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：最初の90日は「信頼の貯金」を作る期間</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">最初の90日は「信頼の貯金」を作る期間</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・大きな成果を焦るより、<strong>期待値のすり合わせと小さな約束を守る</strong>ことを優先します。</li>
               <li>・<strong>30日＝理解、60日＝貢献、90日＝自走</strong>のリズムで段階的に立ち上がります。</li>
               <li>・成果は<strong>クイックウィン</strong>から始めます。短期で終わる改善を早めに重ねて存在感を出します。</li>
-              <li>・前職比較・いきなりの大改革・抱え込みは<strong>NG行動です</strong>。背景の理解を優先します。</li>
+              <li>・前職比較・いきなりの大改革・抱え込みは<strong>NG行動</strong>です。背景の理解を優先します。</li>
             </ul>
           </div>
         </section>
@@ -214,9 +214,9 @@ export default function First90DaysPage() {
               <ul className="text-sm text-green-700 space-y-2">
                 <li>・主要メンバーと1on1を実施</li>
                 <li>・開発環境を完全にセットアップ</li>
-                <li>・アーキテクチャを自分で図にしてみます</li>
-                <li>・気づいた改善点をメモに残します</li>
-                <li>・小さくても最初のPRを出します</li>
+                <li>・アーキテクチャを自分で図にして整理</li>
+                <li>・気づいた改善点をメモに記録</li>
+                <li>・小さくても最初のPRを提出</li>
               </ul>
             </div>
             <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-5">
@@ -224,8 +224,8 @@ export default function First90DaysPage() {
               <ul className="text-sm text-petrol-deep space-y-2">
                 <li>・小〜中規模の機能開発を完了</li>
                 <li>・コードレビューで建設的に関与</li>
-                <li>・ドキュメント整備に貢献します</li>
-                <li>・改善提案を1つ以上行います</li>
+                <li>・ドキュメント整備に貢献</li>
+                <li>・改善提案を1つ以上実施</li>
                 <li>・上司と中間振り返りを実施</li>
               </ul>
             </div>
@@ -234,7 +234,7 @@ export default function First90DaysPage() {
               <ul className="text-sm text-orange-700 space-y-2">
                 <li>・機能を設計から実装まで独力で担当</li>
                 <li>・チームの意思決定に参加</li>
-                <li>・新メンバーをサポートする側へ</li>
+                <li>・新メンバーのサポートを担当</li>
                 <li>・3ヶ月の振り返りと次の目標設定</li>
                 <li>・自分の強みを活かした貢献を確立</li>
               </ul>
@@ -263,11 +263,11 @@ export default function First90DaysPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-3 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>READMEやセットアップ手順の不備を修正し、次の入社者が困らない状態にする</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>放置されていた小さなバグや警告を1〜2件解消する</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>ローカル開発環境やCIの軽微な改善（ビルド時間短縮など）</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>暗黙知になっている運用手順をドキュメント化する</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>コードレビューで丁寧なフィードバックを返し、チームに貢献する</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>READMEやセットアップ手順の不備を修正し、次の入社者が困らない状態にします</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>放置されていた小さなバグや警告を1〜2件解消します</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>ローカル開発環境やCIを軽微に改善します（ビルド時間短縮など）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>暗黙知になっている運用手順をドキュメント化します</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>コードレビューで丁寧なフィードバックを返し、チームに貢献します</span></li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 mt-4">
@@ -292,7 +292,7 @@ export default function First90DaysPage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点：即戦力プレッシャーとの付き合い方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            ミドル層の中途入社は「即戦力」を強く期待されます。その期待を力に変えつつ、空回りを避けるには、年齢相応の立ち回りが効きます。
+            ミドル層の中途入社は「即戦力」を強く期待されます。その期待を力に変えつつ、空回りを避けるには、年齢相応の振る舞いが有効です。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">

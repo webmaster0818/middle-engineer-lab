@@ -29,7 +29,7 @@ const referenceRows = [
   { cert: "応用情報技術者", val: "平均月給 約38.3万円（年換算 約456万円）", note: "求人ボックスに資格名の平均年収表記がなく月給ベース" },
   { cert: "ネットワークスペシャリスト", val: "平均月給 約38.1万円（年換算 約457万円）", note: "同上（月給ベースの参考換算）" },
   { cert: "CCNA（Cisco）", val: "平均月給 約34.7万円（年換算 約416万円）", note: "同上（月給ベースの参考換算）" },
-  { cert: "Azure（AZ-305 等）", val: "求人例 約500〜900万円", note: "「Microsoft Azure」求人のレンジです。単一の平均値は抽出不可" },
+  { cert: "Azure（AZ-305 等）", val: "求人例 約500〜900万円", note: "「Microsoft Azure」求人のレンジ。単一の平均値は抽出不可" },
   { cert: "AWS認定（SAA 等）", val: "約487万円（クラウドエンジニア職で代替）", note: "資格名の平均年収ページがなく近接職種で代替" },
   { cert: "PMP", val: "約692万円（プロジェクトマネージャー職で代替）", note: "資格名の平均年収ページがなく近接職種で代替" },
 ];
@@ -85,7 +85,7 @@ export default function CertSalaryPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">IT資格別 想定年収・資格手当の相場【2026年】</h1>
         <p className="text-slate-600 leading-relaxed mb-4">
-          「この資格を取ったら年収はどれくらい？」に、<strong>求人ボックス給料ナビ（2026年6月時点）</strong>の資格名求人の平均年収と、<strong>資格手当・合格報奨金の相場</strong>でお答えします。基本情報技術者・情報処理安全確保支援士・AWS・CCNAなど、需要の高い資格を出典付きで比較できます。
+          「この資格を取ったら年収はどれくらい？」に、<strong>求人ボックス給料ナビ（2026年6月時点）</strong>の資格名求人の平均年収と、<strong>資格手当・合格報奨金の相場</strong>でお答えします。基本情報技術者・情報処理安全確保支援士・AWS・CCNAなど、需要の高い資格を出典を明記して比較しています。
         </p>
         <DataNote surveyedAt="2026年6月" sources={["求人ボックス 給料ナビ（資格名・職種別）", "Geekly Media 資格手当の相場一覧"]} />
 
@@ -121,7 +121,7 @@ export default function CertSalaryPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：求人ボックス 給料ナビ 各資格名ページ（2026年6月時点で取得）。セキュリティ・AI・高度試験系が高い傾向です。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：求人ボックス 給料ナビ 各資格名ページ（2026年6月時点で取得）。セキュリティ・AI・高度試験系が高い傾向があります。</p>
         </section>
 
         <section className="mb-12">
@@ -152,7 +152,7 @@ export default function CertSalaryPage() {
 
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-3">③ 資格手当・合格報奨金の相場</h2>
-          <p className="text-slate-600 text-sm mb-4">資格による収入アップは「手当」として現れることも多いです。IT人材紹介Geeklyの調査（2026年3月更新）による目安です。</p>
+          <p className="text-slate-600 text-sm mb-4">資格による収入アップは「手当」として現れることも少なくありません。IT人材紹介Geeklyの調査（2026年3月更新）による目安です。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -199,7 +199,7 @@ export default function CertSalaryPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-3">資格を活かして年収を上げる転職を</h2>
+          <h2 className="text-xl font-bold mb-3">資格を活かして年収アップを目指す転職</h2>
           <p className="text-blue-100 text-sm mb-4">資格は「応募できる求人の幅」を広げます。IT特化エージェントに相談して、資格を活かせる求人と想定年収を確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>

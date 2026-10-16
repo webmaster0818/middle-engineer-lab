@@ -30,7 +30,7 @@ const sources = [
 const faqs = [
   {
     q: "LayerXのエンジニア転職難易度は高い？",
-    a: "公開求人の多くがシニア／専門領域（AI・LLM、機械学習、Fintech等）であり、即戦力性が問われるためミドル以上では難易度は高めです。一方でトライアル入社・インターン選考といった相互理解の仕組みがあり、スキルとカルチャーフィットの両面で見極める設計になっています（LayerX公式採用ページ）。",
+    a: "公開求人の多くがシニア／専門領域（AI・LLM、機械学習、Fintech等）であり、即戦力性が問われるためミドル以上では難易度が高い水準にあります。一方でトライアル入社・インターン選考といった相互理解の仕組みがあり、スキルとカルチャーフィットの両面で見極める設計になっています（LayerX公式採用ページ）。",
   },
   {
     q: "LayerXの選考フローは？",
@@ -54,18 +54,18 @@ const faqs = [
   },
   {
     q: "30代・40代でもLayerXに転職できる？",
-    a: "年齢より、シニア／専門ポジションの要件を満たす実務経験が重視される傾向です。30代・40代でアーキテクチャ設計やドメイン専門性、AI活用の実装経験を持つ人はむしろマッチしやすい一方、要件はシニア寄りのため、未経験領域への挑戦としては難度が上がります。",
+    a: "年齢より、シニア／専門ポジションの要件を満たす実務経験が重視される傾向があります。30代・40代でアーキテクチャ設計やドメイン専門性、AI活用の実装経験を持つ人はむしろマッチしやすい一方、要件はシニア寄りのため、未経験領域への挑戦としては難度が上がります。",
   },
   {
     q: "LayerXの求人はどこで見つかる？",
-    a: "公式採用ページ（jobs.layerx.co.jp）が一次情報です。加えて、SaaS・スタートアップ求人に強いレバテックキャリアやGreen、IT特化のGeeklyなどのエージェント・媒体経由でも募集に出会えることがあります。非公開求人の有無はエージェントに確認するとよいでしょう。",
+    a: "公式採用ページ（jobs.layerx.co.jp）が一次情報です。加えて、SaaS・スタートアップ求人に強いレバテックキャリアやGreen、IT特化のGeeklyなどのエージェント・媒体経由でも募集に出会えることがあります。非公開求人の有無はエージェントに確認することをおすすめします。",
   },
 ];
 
 const positions = [
-  { name: "シニアAI・LLMエンジニア", desc: "AIエージェント開発全般をリードします。LLMを用いた業務自動化プロダクトの設計・実装。" },
-  { name: "シニアソフトウェアエンジニア（バックエンド／AI・ML領域）", desc: "Goを中心としたバックエンド設計と、AI・機械学習領域のアーキテクチャです。" },
-  { name: "シニア機械学習エンジニア", desc: "機械学習モデルの設計・実装・運用します（MLOps含む）。" },
+  { name: "シニアAI・LLMエンジニア", desc: "AIエージェント開発全般のリード。LLMを用いた業務自動化プロダクトの設計・実装。" },
+  { name: "シニアソフトウェアエンジニア（バックエンド／AI・ML領域）", desc: "Goを中心としたバックエンド設計と、AI・機械学習領域のアーキテクチャ設計。" },
+  { name: "シニア機械学習エンジニア", desc: "機械学習モデルの設計・実装・運用（MLOps含む）。" },
   { name: "ソフトウェアエンジニア（フルスタック・HCM領域）", desc: "人的資本管理プロダクトのフロント〜バックエンド開発。" },
   { name: "ソフトウェアエンジニア（プロダクト改善自動化／CRE）", desc: "顧客課題を起点にしたプロダクト改善サイクルの構築。" },
   { name: "ソフトウェアエンジニア（プロダクト連携基盤）", desc: "API基盤・連携基盤の設計・開発・運用。" },
@@ -80,8 +80,8 @@ const techStack = [
 ];
 
 const toc = [
-  { id: "conclusion", label: "結論：難易度とどんな人向けか" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "conclusion", label: "難易度と向いている人" },
+  { id: "basic", label: "基本データ（出典あり）" },
   { id: "hiring", label: "エンジニア採用の特徴" },
   { id: "positions", label: "募集職種（公式）" },
   { id: "tech", label: "技術スタック" },
@@ -119,7 +119,7 @@ export default function LayerxCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】LayerXの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: LayerXは非上場のため、有価証券報告書による公式の平均年収は非公表です。口コミ・年収調査サイトの二次集計では全社平均でおおむね650〜850万円台とされます（2026年時点）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>LayerXは非上場のため、有価証券報告書による公式の平均年収は非公表です。口コミ・年収調査サイトの二次集計では全社平均でおおむね650〜850万円台とされます（2026年時点）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・公式平均は非公表です（非上場のため有価証券報告書開示なし）。</li><li>・二次集計値は全社平均650〜850万円台、レンジ600〜1,500万円程度です（OpenWork等・2026年時点、変動大）。</li><li>・公開求人はシニア・専門職中心です。正確な提示額は公式求人・面談での確認が前提です。</li></ul>
         </div>
 
@@ -143,7 +143,7 @@ export default function LayerxCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：LayerXはこんなエンジニアに向く</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">LayerXの転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-2">転職難易度：高め（シニア・専門領域中心）</p>
             <p className="text-sm text-blue-900 leading-relaxed">
@@ -156,7 +156,7 @@ export default function LayerxCompanyPage() {
         </section>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -169,15 +169,15 @@ export default function LayerxCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: LayerX公式採用ページ（jobs.layerx.co.jp）。技術スタックは公式採用・技術ブログの公開情報に基づく要約します。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: LayerX公式採用ページ（jobs.layerx.co.jp）。技術スタックは公式採用・技術ブログの公開情報に基づく要約です。</p>
         </section>
 
         <section id="hiring" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">AI・LLMの実務実装をリードできる</h3>
-              <p className="text-sm text-petrol-deep">公式採用ページではAi Workforce事業を「企業と成長を共にするAIプラットフォーム」と位置づけ、AIエージェント開発をリードするシニア職を募集します。請求書処理など実業務の自動化にLLMを落とし込む経験が積めます。</p>
+              <h3 className="font-bold text-blue-800 mb-2">AI・LLMの実務実装をリードするポジション</h3>
+              <p className="text-sm text-petrol-deep">公式採用ページではAi Workforce事業を「企業と成長を共にするAIプラットフォーム」と位置づけ、AIエージェント開発をリードするシニア職を募集しています。請求書処理など実業務の自動化にLLMを落とし込む経験が積めます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マルチプロダクトの急成長SaaS</h3>
@@ -233,7 +233,7 @@ export default function LayerxCompanyPage() {
             </p>
             <p>
               市場感の参考として、doda「決定年収レポート」（2025年5月公表）ではIT・通信の平均決定年収が2024年度で486万円です。
-              SaaS・スタートアップのシニア職はこれを上回るレンジが中心になりやすい一方、年俸制でみなし残業を含む設計が一般的な点は確認しておくとよいでしょう。年代別の市場相場は
+              SaaS・スタートアップのシニア職はこれを上回るレンジが中心になりやすい一方、年俸制でみなし残業を含む設計が一般的な点も事前に確認しておくことをおすすめします。年代別の市場相場は
               <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・
               <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も参考にしてください。
             </p>
@@ -268,7 +268,7 @@ export default function LayerxCompanyPage() {
         </section>
 
         <section id="review" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">LayerXの評判・口コミの傾向（出典名付き要約）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">LayerXの評判・口コミの傾向（出典名を明記した要約）</h2>
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-3">
             <p><strong>良い評価の傾向：</strong>OpenWork・転職会議等の口コミプラットフォームでは、(1)フルリモート・フレックスで働き方の自由度が高い、(2)残業代が実態に応じて支払われる「ホワイト寄り」、(3)技術レベルが高く刺激的な環境、といった声が見られます（2026年時点）。</p>
             <p><strong>気をつけたい点の傾向：</strong>同サイトでは、(1)急成長フェーズゆえ繁忙の波がある、(2)裁量が大きい分、自走力・キャッチアップの速さが求められる、(3)成果主義で評価のメリハリが大きい、といった指摘も見られます。</p>
@@ -280,7 +280,7 @@ export default function LayerxCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700 leading-relaxed space-y-3">
             <p>LayerXの公開求人はシニア／専門領域が中心のため、<strong>30代・40代でアーキテクチャ設計・ドメイン専門性・AI実装の経験を持つ層はむしろマッチしやすい</strong>傾向があります。年齢そのものより、シニア要件を満たす実務実績が重視される設計です。</p>
-            <p>一方で、未経験領域（例: 機械学習未経験からのML職）への挑戦としては難度が上がります。家庭との両立という観点では、フルリモート・フレックスは追い風ですが、成長フェーズの繁忙の波は前提に置き、面談で実態を確認しておくのが現実的です。</p>
+            <p>一方で、未経験領域（例: 機械学習未経験からのML職）への挑戦としては難度が上がります。家庭との両立という観点では、フルリモート・フレックスは利点となりますが、成長フェーズの繁忙の波は前提に置き、面談で実態を確認しておくのが現実的です。</p>
             <p>40代での意思決定の進め方は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>、自身の市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>も参考になります。</p>
           </div>
         </section>
@@ -315,9 +315,9 @@ export default function LayerxCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">LayerX転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強いです。SaaS・スタートアップの非公開求人を保有していることがあります。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャー・スタートアップに強い成功報酬型媒体です。カジュアル面談で社風を把握しやすいです。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web・ゲームに特化しています。提案スピードが速く、急成長スタートアップの実務経験者に向きます。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化型で、高年収求人に強みがあります。SaaS・スタートアップの非公開求人を保有していることがあります。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャー・スタートアップに強い成功報酬型媒体です。カジュアル面談で社風を把握しやすくなります。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web・ゲームに特化しています。提案スピードが速く、急成長スタートアップの実務経験者に適しています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

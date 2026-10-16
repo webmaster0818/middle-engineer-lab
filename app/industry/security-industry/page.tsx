@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：セキュリティ業界への転職は現実的か" },
+  { id: "conclusion", label: "セキュリティ業界への転職は現実的か" },
   { id: "trend", label: "セキュリティ業界の概要・採用動向" },
   { id: "skill-gap", label: "活かせるスキルと埋めるべきギャップ" },
   { id: "patterns", label: "転職パターン（職種×企業タイプ）" },
@@ -28,25 +28,25 @@ const toc = [
 ];
 
 const skillGap = [
-  ["ネットワーク・インフラ運用の経験", "そのまま強みになります", "通信やログ、機器構成を理解した運用経験はSOCや診断業務の土台として評価されます"],
-  ["サーバー・OS・クラウドの構築運用", "そのまま強みになります", "攻撃面を理解するうえで、実際に作って守った経験は説得力を持ちます"],
-  ["開発（Web/アプリ）の実務経験", "部分的に活かせます", "脆弱性診断やセキュアコーディングで活きますが、攻撃者視点の知識は別途必要です"],
-  ["セキュリティ専門知識（脅威・攻撃手法・対策）", "埋めるべきギャップ", "OWASP・脆弱性・インシデント対応など、体系的な学習と実践が問われやすいです"],
+  ["ネットワーク・インフラ運用の経験", "そのまま強み", "通信やログ、機器構成を理解した運用経験はSOCや診断業務の土台として評価されます"],
+  ["サーバー・OS・クラウドの構築運用", "そのまま強み", "攻撃面を理解するうえで、実際に作って守った経験は説得力を持ちます"],
+  ["開発（Web/アプリ）の実務経験", "部分的に活用可能", "脆弱性診断やセキュアコーディングで活きますが、攻撃者視点の知識は別途必要です"],
+  ["セキュリティ専門知識（脅威・攻撃手法・対策）", "埋めるべきギャップ", "OWASP・脆弱性・インシデント対応など、体系的な学習と実践が問われやすい傾向があります"],
   ["関連資格・実践経験（CTF・診断実績）", "埋めるべきギャップ", "情報処理安全確保支援士やベンダー資格、手を動かした実績が裏付けになります"],
 ];
 
 const patterns = [
-  ["SOCアナリスト・セキュリティ監視", "SOC運用・MSSP", "ログ監視・インシデント検知。ネットワーク/インフラ運用経験者に向く入口"],
-  ["脆弱性診断・ペネトレーションテスト", "診断ベンダー・セキュリティ企業", "Web/アプリ/ネットワーク診断。開発経験＋攻撃者視点を磨くルート"],
-  ["セキュリティエンジニア（製品・基盤）", "セキュリティ製品ベンダー・SIer", "認証・暗号・WAF・SIEMなどの設計実装。インフラ/開発経験が活きる"],
-  ["コーポレートセキュリティ・社内SOC", "事業会社の情シス・CSIRT", "自社の対策・規程・教育を担います。業務理解とIT運用経験が活きる"],
+  ["SOCアナリスト・セキュリティ監視", "SOC運用・MSSP", "ログ監視・インシデント検知を担います。ネットワーク/インフラ運用経験者に向いた入口です"],
+  ["脆弱性診断・ペネトレーションテスト", "診断ベンダー・セキュリティ企業", "Web/アプリ/ネットワークの診断を行います。開発経験を土台に攻撃者視点を磨くルートです"],
+  ["セキュリティエンジニア（製品・基盤）", "セキュリティ製品ベンダー・SIer", "認証・暗号・WAF・SIEMなどを設計・実装します。インフラ/開発の経験が活きます"],
+  ["コーポレートセキュリティ・社内SOC", "事業会社の情シス・CSIRT", "自社の対策・規程・教育を担います。業務理解とIT運用経験が活きます"],
 ];
 
 const companyTypes = [
-  ["セキュリティ専門ベンダー", "脆弱性診断、SOC/MSSP、製品開発などを専門に行います。専門性を深めやすい", "セキュリティを軸にキャリアを築きたい人"],
-  ["SIer・ITベンダーのセキュリティ部門", "顧客向けにセキュリティ設計・構築・運用を提供しています。上流から関われる", "顧客折衝や上流志向の人"],
-  ["クラウド・プラットフォーム事業者", "自社サービスのセキュリティを担います。クラウドセキュリティの知見が活きる", "クラウド領域に強みを持ちたい人"],
-  ["事業会社のCSIRT・社内SOC", "自社のインシデント対応・ガバナンス・教育を担います。業務に近い立場で守る", "自社を守る立場で幅広く関わりたい人"],
+  ["セキュリティ専門ベンダー", "脆弱性診断、SOC/MSSP、製品開発などを専門に行います。専門性を深めやすい環境です", "セキュリティを軸にキャリアを築きたい人"],
+  ["SIer・ITベンダーのセキュリティ部門", "顧客向けにセキュリティ設計・構築・運用を提供しています。上流工程から関われます", "顧客折衝や上流志向の人"],
+  ["クラウド・プラットフォーム事業者", "自社サービスのセキュリティを担います。クラウドセキュリティの知見が活きます", "クラウド領域に強みを持ちたい人"],
+  ["事業会社のCSIRT・社内SOC", "自社のインシデント対応・ガバナンス・教育を担います。業務に近い立場で自社を守る役割です", "自社を守る立場で幅広く関わりたい人"],
 ];
 
 const faqs = [
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "セキュリティではどんな技術が求められますか？",
-    a: "求人傾向としてはネットワーク・OS・クラウドの基礎、ログ分析、脆弱性（OWASP Top10など）、インシデント対応が基本になりやすいです。SOCならSIEM、診断ならWeb/ネットワーク診断、製品開発なら認証・暗号の知識が問われます。具体的な要件は企業ごとに異なるため、求人票で確認してください。",
+    a: "求人傾向としてはネットワーク・OS・クラウドの基礎、ログ分析、脆弱性（OWASP Top10など）、インシデント対応が基本になりやすい傾向があります。SOCならSIEM、診断ならWeb/ネットワーク診断、製品開発なら認証・暗号の知識が問われます。具体的な要件は企業ごとに異なるため、求人票で確認してください。",
   },
   {
     q: "30代・40代でもセキュリティに転職できますか？",
@@ -151,20 +151,20 @@ export default function SecurityIndustryPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：セキュリティ業界への転職は現実的か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">セキュリティ業界への転職は現実的か</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <span className="font-bold text-blue-800">結論：インフラ・ネットワーク・開発の経験を持つエンジニアにとって、セキュリティ転職は十分現実的です。</span>
+              <span className="font-bold text-blue-800">インフラ・ネットワーク・開発の経験を持つエンジニアにとって、セキュリティ転職は十分現実的です。</span>
               守る対象を理解している人は、攻撃者視点の知識を加えることでセキュリティ職に踏み込みやすくなります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・ネットワーク・OS・クラウドの運用経験はSOCや診断の土台として活きます</li>
               <li>・一方で脅威・攻撃手法・インシデント対応など専門知識は多くの求人で問われます</li>
-              <li>・30代は専門知識の習得、40代はガバナンス＋マネジメントを強みにしやすいです</li>
+              <li>・30代は専門知識の習得、40代はガバナンス＋マネジメントを強みにしやすくなります</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            まずは「自分の経験がどの領域（SOC・診断・製品・社内CSIRT）で活きるか」を見極め、不足する専門知識を補う計画を立てるのが近道です。
+            まずは「自分の経験がどの領域（SOC・診断・製品・社内CSIRT）で活きるか」を見極め、不足する専門知識を補う計画を立てると、効率よく準備を進められます。
           </p>
         </section>
 
@@ -182,7 +182,7 @@ export default function SecurityIndustryPage() {
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という追い風</h3>
+              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という背景</h3>
               <p className="text-sm text-slate-600">
                 経済産業省「IT人材需給に関する調査」（2019年公表）では、2030年に最大約79万人のIT人材不足が試算されています（2019年公表の試算）。セキュリティのように専門性が問われる人材は、こうした需給環境のなかで相対的に動きやすい立場にあります。
               </p>
@@ -336,7 +336,7 @@ export default function SecurityIndustryPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">30代：素地＋専門知識の二刀流を作る</h3>
+              <h3 className="font-bold text-blue-800 mb-2">30代：技術の素地と専門知識の両方を身につける</h3>
               <p className="text-sm text-petrol-deep">
                 インフラや開発を理解したうえでセキュリティの専門知識を積めると、純粋な運用者にも純粋なセキュリティ志望者にも代えがたい価値になります。専門知識の習得に投資する価値が最も高い年代です。
               </p>
@@ -348,7 +348,7 @@ export default function SecurityIndustryPage() {
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
+              <h3 className="font-bold text-blue-800 mb-2">ミドル層は「希少性」で差別化する</h3>
               <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新技術だけを競うのではなく、運用経験×セキュリティ専門性という希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
@@ -366,9 +366,9 @@ export default function SecurityIndustryPage() {
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や管理職ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。セキュリティ専門ベンダーから事業会社まで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあるため、ミドル層は経歴を丁寧に伝えることが大切です。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人や管理職ポジションを狙う際の選択肢になります。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数を持つサービスです。セキュリティ専門ベンダーから事業会社まで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -396,7 +396,7 @@ export default function SecurityIndustryPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">インフラ・開発の経験をセキュリティで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">インフラ・開発の経験をセキュリティで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>

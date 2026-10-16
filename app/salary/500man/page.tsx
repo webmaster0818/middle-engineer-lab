@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：年収500万円の位置づけと到達ルート" },
+  { id: "conclusion", label: "年収500万円の位置づけと到達ルート" },
   { id: "position", label: "年収500万円はITSSのどのレベルか" },
   { id: "jobtag", label: "厚労省job tagでみる500万円クラスの職種" },
   { id: "jobs", label: "500万円に近い職種・働き方" },
@@ -108,7 +108,7 @@ export default function Salary500Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収500万円は、ITエンジニアにとって「実務を一人で回せる中堅層」の年収帯です。本記事では、この500万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典付きで整理します。結論として、ITSS L3を中心とした一人前〜中堅層に相当し、Web系開発・業務システムSE・社内SE・インフラ運用など幅広い職種に広がる、実務経験で現実的に狙える年収帯です。
+          年収500万円は、ITエンジニアにとって「実務を一人で回せる中堅層」の年収帯です。本記事では、この500万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典付きで整理します。要点として、ITSS L3を中心とした一人前〜中堅層に相当し、Web系開発・業務システムSE・社内SE・インフラ運用など幅広い職種に広がる、実務経験で現実的に狙える年収帯です。
         </p>
 
         <DataNote
@@ -136,7 +136,7 @@ export default function Salary500Page() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収500万円の位置づけと到達ルート</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収500万円の位置づけと到達ルート</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収500万円は、経済産業省のITSSスキル標準レベルでみると<strong>L2（478.6万円）からL3（576.0万円）にまたがる帯</strong>に位置します。L3は「要求された作業を独力で遂行できる」中堅・一人前のレベルにあたり、500万円は<strong>実務を一人で回せる中堅層</strong>の年収帯です。
@@ -166,22 +166,22 @@ export default function Salary500Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L1</td>
                   <td className="px-4 py-3 border border-slate-200">438.6万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">入門・新人です。500万円の手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">入門・新人。500万円の手前</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L2</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">478.6万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">上位者の指導下で遂行します。500万円の下限側</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">上位者の指導下で遂行。500万円の下限側</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L3</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">576.0万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">独力で遂行できる一人前です。500万円の中心〜上限側</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">独力で遂行できる一人前。500万円の中心〜上限側</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L4</td>
                   <td className="px-4 py-3 border border-slate-200">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門です。700万円帯です。次の目標の先</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門。700万円帯。次の目標の先</td>
                 </tr>
               </tbody>
             </table>

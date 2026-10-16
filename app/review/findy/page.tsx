@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論サマリ（どんな人向けか）" },
+  { id: "summary", label: "要点（どんな人向けか）" },
   { id: "type", label: "Findyの仕組み（スカウト型）と他サービスとの違い" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strength", label: "特徴・強み" },
@@ -70,23 +70,23 @@ const badReviews = [
   {
     title: "スキル偏差値が上がらないと焦る",
     body: "スキル偏差値という数値が出る性質上、想定より低く出て落ち込んだ、数値に一喜一憂してしまうという傾向の声があります。",
-    cope: "偏差値はGitHubの公開活動を元にした一指標に過ぎず、実務での設計・マネジメント経験は反映されにくいです。数値は参考程度に捉え、面談で実務経験を直接アピールするとよいでしょう。",
+    cope: "偏差値はGitHubの公開活動を元にした一指標に過ぎず、実務での設計・マネジメント経験は反映されにくい傾向があります。数値は参考程度に捉え、面談で実務経験を直接アピールするとよいでしょう。",
   },
 ];
 
 const fitYes = [
   "Go／TypeScript／Python／Ruby等のモダン技術で開発している現役エンジニア",
-  "GitHubで公開できるコードやOSS活動があります",
+  "GitHubで公開できるコードやOSS活動がある",
   "Web系自社開発企業に転職したい",
   "コードや技術力で客観的に評価されたい",
-  "首都圏勤務またはフルリモートを希望しています",
+  "首都圏勤務またはフルリモートを希望している",
 ];
 
 const fitNo = [
   "GitHubに公開できる活動がほとんどない",
-  "マネジメント専業でコードをほぼ書いていません",
+  "マネジメント専業でコードをほぼ書いていない",
   "地方の対面サポートやSIer・非Web求人を最優先したい",
-  "担当者がすべて求人提案してくれるエージェント型を希望します",
+  "担当者がすべて求人提案してくれるエージェント型を希望する",
 ];
 
 const flow = [
@@ -199,16 +199,16 @@ export default function FindyReview() {
           ]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：このような方におすすめ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">このような方におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
-              <span className="font-bold">総合評価：モダン技術を使う現役エンジニアの『実力評価』に強いです</span>。要約すると「GitHubで公開できる活動があり、コードで評価されてWeb自社開発企業に行きたいハイスキル層」向けのスカウト型サービスです。
+              <span className="font-bold">総合評価：モダン技術を使う現役エンジニアの『実力評価』に強みがあります</span>。要約すると「GitHubで公開できる活動があり、コードで評価されてWeb自社開発企業に行きたいハイスキル層」向けのスカウト型サービスです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
               <li>・GitHub連携でスキル偏差値を可視化します。掲載企業は800社以上に厳選されています（公式・2024年7月）。</li>
-              <li>・40代でもGitHubが活発なら、年齢より技術活動が評価されやすいです。</li>
+              <li>・40代でもGitHubが活発なら、年齢より技術活動が評価されやすい傾向があります。</li>
               <li>・一方でGitHub活動が乏しい人・マネジメント専業・地方非Web志向には不向きです。</li>
             </ul>
           </div>
@@ -246,7 +246,7 @@ export default function FindyReview() {
               <Link href="/review/forkwell/" className="text-petrol hover:underline">Forkwell</Link>
               はポートフォリオとコミュニティ（勉強会）に強みがあります。さらにスキルチェックの解答で評価する
               <Link href="/review/paiza/" className="text-petrol hover:underline">paiza</Link>
-              とも評価軸が異なります。「自分の強みがどの軸で最も光るか」で選ぶのが要点です。
+              とも評価軸が異なります。「自分の強みがどの軸で最も評価されるか」で選ぶのが要点です。
             </p>
             <p>
               なお、年収帯で企業・ヘッドハンターがスカウトする総合ハイクラス型の
@@ -366,7 +366,7 @@ export default function FindyReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
-              「40代は書類で落とされやすい」という不安がある人ほど、コードで評価されるFindyの仕組みは追い風になり得ます。現役でモダン技術を触り、GitHubで活動があるなら、年齢より技術が評価されやすいのが強みです。逆に、近年はマネジメント中心でコードをほぼ書いていない場合は、スカウトが届きにくく不向きです。その場合はマネジメント経験を評価する
+              「40代は書類で落とされやすい」という不安がある人ほど、コードで評価されるFindyの仕組みは有利に働く可能性があります。現役でモダン技術を触り、GitHubで活動があるなら、年齢より技術が評価されやすいのが強みです。逆に、近年はマネジメント中心でコードをほぼ書いていない場合は、スカウトが届きにくく不向きです。その場合はマネジメント経験を評価する
               <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けサービス</Link>
               や、担当が提案する
               <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>

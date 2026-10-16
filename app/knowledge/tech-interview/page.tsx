@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "逆質問は何を聞けばいいですか？",
-    a: "開発プロセス（コードレビュー・CI/CD・テスト文化）、技術的負債への向き合い方、チーム構成と自分に期待される役割、技術選定の意思決定プロセスなどがおすすめです。給与・休日だけの質問は熱意が伝わりにくいので、技術や働き方の解像度を上げる質問を1〜2個は用意しましょう。",
+    a: "開発プロセス（コードレビュー・CI/CD・テスト文化）、技術的負債への向き合い方、チーム構成と自分に期待される役割、技術選定の意思決定プロセスなどがおすすめです。給与・休日だけの質問は熱意が伝わりにくいので、技術や働き方への理解を深める質問を1〜2個は用意しましょう。",
   },
   {
     q: "オンライン面接で気をつけるポイントは？",
@@ -50,7 +50,7 @@ const faqs = [
 ];
 
 const sections = [
-  { id: "conclusion", label: "結論：何を準備すべきか" },
+  { id: "conclusion", label: "何を準備すべきか" },
   { id: "themes", label: "よく問われる4つのテーマ領域" },
   { id: "structure", label: "回答の組み立て方フレームワーク" },
   { id: "questions", label: "頻出質問と回答の型（テンプレ）" },
@@ -99,7 +99,7 @@ const answerQuestions = [
     q: "直近で最も技術的に難しかった課題は？",
     bad: "「いろいろ大変でしたが、なんとか乗り切りました」と抽象的に終えます",
     good: "「課題は〜でした（背景）。原因を〜と特定し（分析）、〜という方針で実装しました（行動）。結果〜が改善し、〜を学びました（結果と学び）」",
-    point: "背景→分析→行動→結果＆学びの順で伝えます。数値は覚えている範囲で記載します。曖昧なら『正確な値は記憶が曖昧』と前置きします。",
+    point: "背景→分析→行動→結果＆学びの順で伝えます。数値は覚えている範囲で示します。曖昧なら『正確な値は記憶が曖昧』と前置きします。",
   },
   {
     q: "なぜその技術を選んだのですか？",
@@ -115,7 +115,7 @@ const answerQuestions = [
   },
   {
     q: "5年後のキャリアビジョンを教えてください",
-    bad: "「まだ具体的には考えていません」と方向性を示せません",
+    bad: "「まだ具体的には考えていません」と答え、方向性を示しません",
     good: "「テックリードとして設計と若手育成の両方に責任を持ちたいです。御社の〜な環境であれば、〜の経験を活かしながらその方向に成長できると考えています」",
     point: "テックリード・アーキテクト・EMなど方向性を示し、その企業でどう実現するかと結びつけます。",
   },
@@ -131,16 +131,16 @@ const reverseQuestions = [
 ];
 
 const schedule = [
-  { period: "1〜2週目", title: "基礎固め", desc: "データ構造・アルゴリズムの復習。職務経歴の棚卸しを行い、各プロジェクトの『技術選定理由・課題・打ち手・結果』を1枚にまとめます。" },
+  { period: "1〜2週目", title: "基礎固め", desc: "データ構造・アルゴリズムを復習します。職務経歴の棚卸しを行い、各プロジェクトの『技術選定理由・課題・打ち手・結果』を1枚にまとめます。" },
   { period: "3〜4週目", title: "応用と調査", desc: "コーディングのMedium問題に着手します。志望企業の技術ブログ・採用ページを読み、逆質問と志望動機の素材を集めます。" },
-  { period: "5〜6週目", title: "実践練習", desc: "模擬面接です（友人やエージェント）。プロジェクト深掘りへの回答を声に出して練習。システム設計の典型問題も触れます。" },
-  { period: "7〜8週目", title: "仕上げ", desc: "苦手分野の重点復習。企業ごとの面接傾向を整理します。回線・照明・IDE設定など環境の最終確認。" },
+  { period: "5〜6週目", title: "実践練習", desc: "友人やエージェントと模擬面接を行います。プロジェクト深掘りへの回答を声に出して練習し、システム設計の典型問題にも取り組みます。" },
+  { period: "7〜8週目", title: "仕上げ", desc: "苦手分野を重点的に復習し、企業ごとの面接傾向を整理します。回線・照明・IDE設定など環境も最終確認します。" },
 ];
 
 const dayChecklist = [
   "職務経歴書・ポートフォリオのURLを手元に開いておきます",
   "志望動機と逆質問を1〜2個ずつ最終確認します",
-  "オンラインの場合: 回線・カメラ・マイク・画面共有を事前テスト",
+  "オンラインの場合: 回線・カメラ・マイク・画面共有を事前にテストします",
   "静かで明るい環境を確保し、背景を整えます",
   "水を用意し、開始10分前には着席します",
   "主要プロジェクトの『選定理由・課題・打ち手・結果』をもう一度声に出します",
@@ -184,7 +184,7 @@ export default function TechInterviewPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの技術面接、何を準備すればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 技術知識・プロジェクト経験の深掘り・コーディング・システム設計の4領域に備え、経験を「なぜそう判断したか」まで語れるようにするのが軸です。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>技術知識・プロジェクト経験の深掘り・コーディング・システム設計の4領域に備え、経験を「なぜそう判断したか」まで語れるようにするのが軸です。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・技術知識は「定義→実務での使い方→トレードオフ」の3点セットで答えます</li><li>・プロジェクトは主語を「私」にし、課題→行動→結果と学びの流れで語ります</li><li>・30代・40代は技術選定の判断力やチームへの影響、障害対応の実績が重視されます</li></ul>
           </div>
         </section>
@@ -200,11 +200,11 @@ export default function TechInterviewPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：30代・40代は「判断の言語化」が最重要</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">30代・40代は「判断の言語化」が最重要</h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
-              <li>・問われるのは大きく4領域です（技術知識・経験深掘り・コーディング・システム設計）。経験者は<strong>経験深掘りと設計</strong>の比重が高いです。</li>
+              <li>・問われるのは大きく4領域です（技術知識・経験深掘り・コーディング・システム設計）。経験者は<strong>経験深掘りと設計</strong>の比重が高い傾向があります。</li>
               <li>・回答は「定義／背景 → 自分の判断と行動 → 結果と学び」の型で組み立てると、知識だけでなく判断力を示せます。</li>
-              <li>・<strong>逆質問</strong>は技術文化・期待役割を1〜2個用意です。これが志望度と思考の解像度を伝えます。</li>
+              <li>・<strong>逆質問</strong>は技術文化・期待役割について1〜2個用意します。これにより志望度と思考の深さが伝わります。</li>
             </ul>
           </div>
         </section>
@@ -271,7 +271,7 @@ export default function TechInterviewPage() {
         <section id="questions" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">頻出質問と回答の型（テンプレ）</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            以下はよく問われる質問への回答例です。具体的な企業・数値はご自身自身の経験に置き換えてください（いずれも一般化したサンプル回答です）。
+            以下はよく問われる質問への回答例です。具体的な企業・数値はご自身の経験に置き換えてください（いずれも一般化したサンプル回答です）。
           </p>
           <div className="space-y-5">
             {answerQuestions.map((item, i) => (
@@ -291,7 +291,7 @@ export default function TechInterviewPage() {
         <section id="reverse" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">逆質問の例文</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            「何か質問はありますか？」は意欲と思考の解像度を測る質問でもあります。技術文化や期待役割に踏み込む質問を1〜2個用意しましょう。そのまま使える例文を挙げます。
+            「何か質問はありますか？」は意欲と思考の深さを測る質問でもあります。技術文化や期待役割に踏み込む質問を1〜2個用意しましょう。そのまま使える例文を挙げます。
           </p>
           <ul className="space-y-2">
             {reverseQuestions.map((q, i) => (

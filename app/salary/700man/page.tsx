@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：年収700万円の位置づけと到達ルート" },
+  { id: "conclusion", label: "年収700万円の位置づけと到達ルート" },
   { id: "position", label: "年収700万円はITSSのどのレベルか" },
   { id: "jobtag", label: "厚労省job tagでみる700万円クラスの職種" },
   { id: "jobs", label: "700万円に近い職種・役割" },
@@ -108,7 +108,7 @@ export default function Salary700Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収700万円は、ITエンジニアにとって「一人前から高度専門・リーダー層へ移る境界」の年収帯です。本記事では、この700万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典付きで整理します。結論として、ITSS L4（高度専門・プロ）に相当し、上級SE・テックリード・クラウド/インフラ高度専門などに広がる年収帯です。
+          年収700万円は、ITエンジニアにとって「一人前から高度専門・リーダー層へ移る境界」の年収帯です。本記事では、この700万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典付きで整理します。要点として、ITSS L4（高度専門・プロ）に相当し、上級SE・テックリード・クラウド/インフラ高度専門などに広がる年収帯です。
         </p>
 
         <DataNote
@@ -136,7 +136,7 @@ export default function Salary700Page() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収700万円の位置づけと到達ルート</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収700万円の位置づけと到達ルート</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収700万円は、経済産業省のITSSスキル標準レベルでみると<strong>L4（726.1万円）の中心付近</strong>に位置し、L3（576.0万円）からL4にまたがる帯です。L4は「高度専門（プロ）」として、チームの技術をリードしたり高度な専門領域を担う層にあたり、700万円は<strong>一人前から高度専門・リーダー層へ移る境界</strong>の年収帯です。
@@ -166,22 +166,22 @@ export default function Salary700Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L2</td>
                   <td className="px-4 py-3 border border-slate-200">478.6万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">500万円帯です。まだ手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">500万円帯。まだ手前</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L3</td>
                   <td className="px-4 py-3 border border-slate-200">576.0万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">一人前です。600万円帯です。手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">一人前。600万円帯。手前</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L4</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">高度専門です（プロ）。700万円の中心</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">高度専門（プロ）。700万円の中心</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L5</td>
                   <td className="px-4 py-3 border border-slate-200">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層です。800〜900万円帯です。次の目標</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層。800〜900万円帯。次の目標</td>
                 </tr>
               </tbody>
             </table>
@@ -224,7 +224,7 @@ export default function Salary700Page() {
           </p>
           <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg p-5">
             <p className="text-sm text-amber-800 leading-relaxed">
-              <strong>注記：</strong>700万円ちょうどの公表区分は限られますが、業務用システムSEの区分（約550.5万円）と基盤システムSE・PMの区分（約889万円）の間に位置する帯だと捉えると分かりやすいです。実際の700万円求人は、上級SE・テックリードなど、この移行帯の中で経験・企業規模に応じて分布します。
+              <strong>注記：</strong>700万円ちょうどの公表区分は限られますが、業務用システムSEの区分（約550.5万円）と基盤システムSE・PMの区分（約889万円）の間に位置する帯だと捉えると分かりやすくなります。実際の700万円求人は、上級SE・テックリードなど、この移行帯の中で経験・企業規模に応じて分布します。
             </p>
           </div>
         </section>

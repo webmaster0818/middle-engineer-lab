@@ -162,7 +162,7 @@ export default function TechStackSalaryPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：各社有価証券報告書（平均年収・決算期は表内に明記）、各社公式採用ページ・技術ブログ（技術スタック）。2026年6月集計です。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：各社有価証券報告書（平均年収・決算期は表内に明記）、各社公式採用ページ・技術ブログ（技術スタック）。2026年6月に集計しました。</p>
         </section>
 
         {/* 読み解き */}

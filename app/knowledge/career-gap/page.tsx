@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：ブランク説明の基本方針" },
+  { id: "conclusion", label: "ブランク説明の基本方針" },
   { id: "what-matters", label: "企業がブランクで見ている3点" },
   { id: "by-reason", label: "理由別の説明の型" },
   { id: "resume", label: "職務経歴書での書き方" },
@@ -42,23 +42,23 @@ const whatMatters = [
 
 const byReason = [
   {
-    scene: "学習・スキルアップに充てた",
+    scene: "学習・スキルアップに充てた場合",
     text: "「前職退職後の○か月は、○○（言語・領域）を集中的に学習する期間にあてました。具体的には△△を作り、GitHubで公開しています。実務にすぐ活かせる状態まで仕上げました。」",
   },
   {
-    scene: "療養・体調回復のため",
+    scene: "療養・体調回復の場合",
     text: "「体調を崩し、○か月療養に専念しました。現在は完全に回復しており、就業に支障はありません。再発防止のため生活リズムも整えています。」",
   },
   {
-    scene: "育児・介護のため",
+    scene: "育児・介護の場合",
     text: "「家庭の事情で育児（介護）に専念する期間が必要でした。現在は体制が整い、フルタイムで就業できる環境です。ブランク中も○○でスキルの維持に努めました。」",
   },
   {
-    scene: "転職活動が長引いた",
+    scene: "転職活動が長引いた場合",
     text: "「自分のキャリアの方向性を見直し、納得できる環境を慎重に探していました。その間に○○の学習を進め、応募先の選定軸も明確になりました。」",
   },
   {
-    scene: "前職を早期に離職しました",
+    scene: "前職を早期に離職した場合",
     text: "「前職は○○という事情で短期間での退職となりましたが、そこから○○を整理し、次は腰を据えて長く貢献できる環境を選んでいます。」",
   },
 ];
@@ -155,8 +155,8 @@ export default function CareerGapPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】経歴の空白期間（ブランク）はどう説明すればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 理由を簡潔・率直に述べ、空白中の過ごし方を具体的に語り、今は就業できる状態だと明確に示すのが基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・企業が見るのは空白の長さより「その間に何をしていたか」「今、就業できる状態か」</li><li>・隠したりごまかしたりせず、在籍期間は正確に、理由は事実ベースで伝えます</li><li>・懸念される再現性・継続性には、直近の技術キャッチアップの状況を添えて答えます</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>理由を簡潔・率直に述べ、空白中の過ごし方を具体的に語り、今は就業できる状態だと明確に示すのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・企業が見るのは空白の長さより「その間に何をしていたか」「今、就業できる状態か」です</li><li>・隠したりごまかしたりせず、在籍期間は正確に、理由は事実ベースで伝えます</li><li>・懸念される再現性・継続性には、直近の技術キャッチアップの状況を添えて答えます</li></ul>
           </div>
         </section>
 
@@ -184,10 +184,10 @@ export default function CareerGapPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ブランク説明の基本方針</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ブランク説明の基本方針</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              ブランク説明の基本は、<strong>「理由を簡潔・率直に述べ」「空白中の過ごし方を具体的に語り」「今は就業できる状態だと明確に示す」</strong>ことです。隠したりごまかしたりせず、事実をベースに前向きな現在地を伝えるのが鉄則です。
+              ブランク説明の基本は、<strong>「理由を簡潔・率直に述べ」「空白中の過ごし方を具体的に語り」「今は就業できる状態だと明確に示す」</strong>ことです。隠したりごまかしたりせず、事実をベースに前向きな現在地を伝えることが基本です。
             </p>
             <p className="text-slate-700 leading-relaxed">
               空白期間そのものを問題視されることは、それほど多くありません。懸念されるのは「同じ理由で再びブランクが生じないか」「技術的に復帰できるか」という再現性と継続性です。理由ごとに説明の型を用意し、直近のキャッチアップ状況を添えれば、ブランクは十分に乗り越えられます。
@@ -331,7 +331,7 @@ export default function CareerGapPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">ブランクの説明はプロに相談しよう</h2>
+          <h2 className="text-xl font-bold mb-3">ブランクの説明はエージェントに相談しましょう</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントは、空白期間に寛容な求人の紹介や説明の仕方のアドバイスで力になってくれます。
           </p>

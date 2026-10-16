@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：モビリティ・自動車IT転職は現実的か" },
+  { id: "conclusion", label: "モビリティ・自動車IT転職は現実的か" },
   { id: "overview", label: "モビリティ・自動車IT業界の概要" },
   { id: "trend", label: "技術トレンドと採用動向" },
   { id: "skills", label: "求められる技術・スキル" },
@@ -29,26 +29,26 @@ const toc = [
 ];
 
 const skills = [
-  ["C/C++・組込みソフトウェア開発", "中核スキル", "車載ECUやリアルタイム制御の中心。組込み経験はこの業界で直接的に評価される"],
+  ["C/C++・組込みソフトウェア開発", "中核スキル", "車載ECUやリアルタイム制御の中心となるスキルです。組込み経験はこの業界で直接的に評価されます"],
   ["車載通信・規格（CAN/AUTOSAR等）", "専門スキル", "車載ネットワークやAUTOSARなどの規格理解が車載ソフト開発で問われます"],
-  ["自動運転・認識（C++/Python・ROS等）", "専門スキル", "センサーフュージョンや認識・制御の開発。ロボティクスやMLの素養が活きる"],
-  ["クラウド・バックエンド（コネクテッド）", "中核スキル", "コネクテッドカーやMaaSのデータ基盤・APIを担います。Web系のクラウド経験が活きる"],
-  ["機能安全・品質（ISO 26262等）", "差別化要素", "安全規格を踏まえた開発プロセスの理解は、車載領域で希少価値が高いです"],
-  ["AI/ML・データ分析", "差別化要素", "認識モデルや走行データ分析でMLの知見が役立ちます。データエンジニアにも門戸がある"],
+  ["自動運転・認識（C++/Python・ROS等）", "専門スキル", "センサーフュージョンや認識・制御の開発を担います。ロボティクスやMLの素養が活きます"],
+  ["クラウド・バックエンド（コネクテッド）", "中核スキル", "コネクテッドカーやMaaSのデータ基盤・APIを担います。Web系のクラウド経験が活きます"],
+  ["機能安全・品質（ISO 26262等）", "差別化要素", "安全規格を踏まえた開発プロセスの理解は、車載領域で希少価値が高いといえます"],
+  ["AI/ML・データ分析", "差別化要素", "認識モデルや走行データ分析でMLの知見が役立ちます。データエンジニアにも門戸が開かれています"],
 ];
 
 const routes = [
-  ["車載ソフトウェアエンジニア", "自動車メーカー・部品メーカー", "C/C++でECUや制御ソフトを開発します。組込み経験者の代表的なルート"],
-  ["自動運転・ADASエンジニア", "メーカー・自動運転開発企業", "認識・制御・センサーフュージョン。ロボティクスやML経験者に向く"],
-  ["コネクテッド・MaaSエンジニア", "メーカーのデジタル部門・モビリティSaaS", "クラウド・API・アプリ開発。Web系のバックエンド経験が活きる"],
-  ["データ／AIエンジニア", "メーカー・サプライヤー・スタートアップ", "走行データ分析や認識モデルの開発。データ分析・ML経験者に向く"],
+  ["車載ソフトウェアエンジニア", "自動車メーカー・部品メーカー", "C/C++でECUや制御ソフトを開発します。組込み経験者の代表的なルートです"],
+  ["自動運転・ADASエンジニア", "メーカー・自動運転開発企業", "認識・制御・センサーフュージョンを担います。ロボティクスやML経験者に向いています"],
+  ["コネクテッド・MaaSエンジニア", "メーカーのデジタル部門・モビリティSaaS", "クラウド・API・アプリを開発します。Web系のバックエンド経験が活きます"],
+  ["データ／AIエンジニア", "メーカー・サプライヤー・スタートアップ", "走行データ分析や認識モデルを開発します。データ分析・ML経験者に向いています"],
 ];
 
 const companyTypes = [
-  ["完成車メーカー（OEM）", "車両全体のソフト開発、車載OS、コネクテッド、自動運転まで幅広い。大規模かつ安全性が前提。トヨタなどが代表例", "大規模・高品質な開発を志向する人"],
-  ["部品メーカー（Tier1サプライヤー）", "ECU、ADAS、車載システムの開発。組込みと先端技術の両面を担います。デンソーなどが代表例", "組込み技術を深めたい人"],
-  ["コネクテッド・MaaS／モビリティIT", "車載クラウド、配車・カーシェア、モビリティアプリ。Web系の技術が活きる", "クラウド・アプリ寄りの志向がある人"],
-  ["自動運転・先端技術スタートアップ", "自動運転やロボティクスの先端開発。少人数でモダンな技術に取り組める", "先端領域でスピード感を求める人"],
+  ["完成車メーカー（OEM）", "車両全体のソフト開発、車載OS、コネクテッド、自動運転まで幅広く手がけます。大規模かつ安全性が前提の開発です。トヨタなどが代表例です", "大規模・高品質な開発を志向する人"],
+  ["部品メーカー（Tier1サプライヤー）", "ECU、ADAS、車載システムの開発を通じて、組込みと先端技術の両面を担います。デンソーなどが代表例です", "組込み技術を深めたい人"],
+  ["コネクテッド・MaaS／モビリティIT", "車載クラウド、配車・カーシェア、モビリティアプリを扱います。Web系の技術が活きます", "クラウド・アプリ寄りの志向がある人"],
+  ["自動運転・先端技術スタートアップ", "自動運転やロボティクスの先端開発を行います。少人数でモダンな技術に取り組めます", "先端領域でスピード感を求める人"],
 ];
 
 const faqs = [
@@ -153,10 +153,10 @@ export default function MobilityPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：モビリティ・自動車IT転職は現実的か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">モビリティ・自動車IT転職は現実的か</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <span className="font-bold text-blue-800">結論：組込み経験者にもWeb系経験者にも、それぞれ現実的なルートがあります。</span>
+              <span className="font-bold text-blue-800">組込み経験者にもWeb系経験者にも、それぞれ現実的なルートがあります。</span>
               車載ソフトは組込みの専門性が、コネクテッド・MaaSはWeb系の技術が活きる、と領域で求めるものが分かれます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
@@ -166,7 +166,7 @@ export default function MobilityPage() {
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            まずは「車載ソフト・自動運転・コネクテッド・MaaS」のどの領域で自分の経験が活きるかを見極め、不足する技術を補う計画を立てるのが近道です。
+            まずは「車載ソフト・自動運転・コネクテッド・MaaS」のどの領域で自分の経験が活きるかを見極め、不足する技術を補う計画を立てると、効率よく準備を進められます。
           </p>
         </section>
 
@@ -180,7 +180,7 @@ export default function MobilityPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">車載ソフトウェア・制御</h3>
               <p className="text-sm text-slate-600">
-                ECUの制御ソフト、車載OS、AUTOSARなどの規格に基づく開発します。リアルタイム性と安全性が厳しく問われる領域です。
+                ECUの制御ソフト、車載OS、AUTOSARなどの規格に基づく開発です。リアルタイム性と安全性が厳しく問われる領域です。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
@@ -218,7 +218,7 @@ export default function MobilityPage() {
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という追い風</h3>
+              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という背景</h3>
               <p className="text-sm text-slate-600">
                 経済産業省「IT人材需給に関する調査」（2019年公表）では、2030年に最大約79万人のIT人材不足が試算されています（2019年公表の試算）。組込みと先端技術を掛け合わせられる人材は、こうした需給環境のなかで相対的に動きやすい立場にあります。
               </p>
@@ -392,7 +392,7 @@ export default function MobilityPage() {
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
+              <h3 className="font-bold text-blue-800 mb-2">ミドル層は「希少性」で差別化する</h3>
               <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新技術だけを競うのではなく、組込み×ソフトや品質・安全という希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
@@ -410,9 +410,9 @@ export default function MobilityPage() {
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や専門ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。メーカーからモビリティITまで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあるため、ミドル層は経歴を丁寧に伝えることが大切です。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人や専門ポジションを狙う際の選択肢になります。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数を持つサービスです。メーカーからモビリティITまで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -440,7 +440,7 @@ export default function MobilityPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">ご自身の技術をモビリティで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">ご自身の技術をモビリティで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const groups = [
   {
     label: "IT・Web・SaaS系",
-    intro: "プロダクト開発とドメイン知識が両立する成長領域です。モダン技術と事業理解の両輪が評価されます。",
+    intro: "プロダクト開発とドメイン知識が両立する成長領域です。モダン技術と事業理解の両方が評価されます。",
     items: [
       { slug: "saas-industry", name: "SaaS業界" },
       { slug: "ai-industry", name: "AI業界（生成AI含む）" },
@@ -31,7 +31,7 @@ const groups = [
   },
   {
     label: "伝統産業×IT・DX",
-    intro: "既存産業のデジタル化を担う領域です。業務知識を持つミドルが業界の文脈を活かしやすい選択肢です。",
+    intro: "既存産業のデジタル化を担う領域です。業務知識を持つミドル層が、業界の文脈を活かしやすい選択肢です。",
     items: [
       { slug: "finance", name: "金融業界" },
       { slug: "insurance", name: "保険業界" },
@@ -51,7 +51,7 @@ const groups = [
   },
   {
     label: "業態を変える転職パターン",
-    intro: "今いる業態から別の業態へ移るルートです。よくある悩みに正面から答えます。",
+    intro: "今いる業態から別の業態へ移るルートです。よくある悩みについて解説します。",
     items: [
       { slug: "ses-exit", name: "SESから抜け出す転職" },
       { slug: "sier-to-web", name: "SIerからWeb系への転職" },
@@ -95,7 +95,7 @@ export default function IndustryIndexPage() {
           業界別エンジニア転職ガイド一覧
         </h1>
         <p className="text-slate-600 leading-relaxed mb-4">
-          同じエンジニア職でも、どの業界に身を置くかで求められる技術・年収水準・働き方は大きく変わります。本ページでは、SaaS・フィンテック・AI・Web3などの成長領域から、金融・製造・モビリティなどの伝統産業×IT、さらにSES脱出やSIerからWeb系への業態転換まで、主要な転職先業界を分類しました。各ページで求められる技術・参入ルート・年収傾向を、出典付きで解説しています。
+          同じエンジニア職でも、どの業界に身を置くかで求められる技術・年収水準・働き方は大きく変わります。本ページでは、SaaS・フィンテック・AI・Web3などの成長領域から、金融・製造・モビリティなどの伝統産業×IT、さらにSES脱出やSIerからWeb系への業態転換まで、主要な転職先業界を分類しました。各ページでは、求められる技術・参入ルート・年収傾向を、出典を明記して解説しています。
         </p>
         <DataNote
           surveyedAt="2026年6月"

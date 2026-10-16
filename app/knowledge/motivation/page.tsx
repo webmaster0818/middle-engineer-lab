@@ -26,28 +26,28 @@ const toc = [
 ];
 
 const organizeSteps = [
-  { num: "1", title: "本音をすべて書き出す（人に見せない前提）", desc: "「残業がきつい」「評価されない」「上司と合わない」など、まずは整えずに本音を全部書き出します。ここで取り繕う必要はありません。原因の解像度を上げるのが目的です。" },
+  { num: "1", title: "本音をすべて書き出す（人に見せない前提）", desc: "「残業がきつい」「評価されない」「上司と合わない」など、まずは整えずに本音を全部書き出します。ここで取り繕う必要はありません。原因を具体的に把握することが目的です。" },
   { num: "2", title: "「現職では解決できない」かを切り分ける", desc: "書き出した不満のうち、異動や相談で解決し得るものと、構造的に変えられないものを分けます。転職で本当に解決するのはどれかを見極めます。" },
   { num: "3", title: "「避けたいこと」を「実現したいこと」に翻訳する", desc: "不満は『次に何を求めるか』の裏返しです。「裁量がない」→「設計から関わりたい」のように、向かいたい方向へ言い換えます。これが面接で語る転職理由の核になります。" },
 ];
 
 const convertExamples = [
   { neg: "残業が多くて限界", pos: "持続可能なペースで開発し、長期的に技術を磨ける環境で働きたい" },
-  { neg: "給与が上がりません", pos: "成果が正当に評価され、貢献に応じた報酬で報われる環境を求めています" },
+  { neg: "給与が上がらない", pos: "成果が正当に評価され、貢献に応じた報酬で報われる環境で働きたい" },
   { neg: "技術が古い・レガシーばかり", pos: "モダンな技術スタックで開発手法をアップデートし、市場価値を高めたい" },
-  { neg: "上司・チームと合いません", pos: "フィードバックし合える、心理的安全性の高いチームで成果を出したい" },
+  { neg: "上司・チームと合わない", pos: "フィードバックし合える、心理的安全性の高いチームで成果を出したい" },
   { neg: "評価制度が不透明", pos: "目標と評価が明確な環境で、納得感を持って成長したい" },
   { neg: "裁量がなく言われた通り作るだけ", pos: "設計や意思決定から関わり、プロダクトに当事者として貢献したい" },
   { neg: "会社の将来性が不安", pos: "成長フェーズの事業で、自分の技術が事業インパクトに直結する経験を積みたい" },
-  { neg: "雑用ばかりで開発できません", pos: "コア開発に集中できる体制で、エンジニアとしての専門性を深めたい" },
+  { neg: "雑用ばかりで開発できない", pos: "コア開発に集中できる体制で、エンジニアとしての専門性を深めたい" },
 ];
 
 const ngReasons = [
-  { ng: "前職の悪口・批判に終始します", why: "「環境のせい」と捉える人に見え、入社後も同じ不満を言うのではと懸念されます。" },
-  { ng: "「なんとなく」「雰囲気で」", why: "転職理由が曖昧だと、すぐ辞めるリスクが高いと判断されやすいです。" },
-  { ng: "「年収を上げたい」だけを前面に出します", why: "条件面のみだと、より高い条件があれば離れる人と見られます。動機の一つに留めます。" },
-  { ng: "「人間関係が嫌で」とだけ伝えます", why: "対人で問題を抱えやすい人という印象を与えかねません。前向きな表現に変換します。" },
-  { ng: "嘘・話を誇張します", why: "深掘り質問で矛盾が出ます。一貫性が崩れると信頼を一気に失います。" },
+  { ng: "前職の悪口・批判に終始する理由", why: "「環境のせい」と捉える人に見え、入社後も同じ不満を言うのではと懸念されます。" },
+  { ng: "「なんとなく」「雰囲気で」という曖昧な理由", why: "転職理由が曖昧だと、すぐ辞めるリスクが高いと判断されやすい傾向があります。" },
+  { ng: "「年収を上げたい」だけを前面に出した理由", why: "条件面のみだと、より高い条件があれば離れる人と見られます。動機の一つに留めます。" },
+  { ng: "「人間関係が嫌で」とだけ伝える理由", why: "対人で問題を抱えやすい人という印象を与えかねません。前向きな表現に変換します。" },
+  { ng: "嘘や誇張を含む理由", why: "深掘り質問で矛盾が出ます。一貫性が崩れると信頼を大きく損ないます。" },
   { ng: "志望動機と矛盾する転職理由", why: "「WLB重視」と言いながら激務歓迎の志望動機など、整合しないと不信を招きます。" },
 ];
 
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     q: "面接で転職理由はどのくらいの長さで話せばいいですか？",
-    a: "1分前後（200〜300字程度）で簡潔にまとめ、深掘り質問に答える余地を残すのが理想です。長く語りすぎると言い訳がましく聞こえます。結論（何を求めて転職するか）を先に述べ、補足は問われてから足す構成が話しやすいです。",
+    a: "1分前後（200〜300字程度）で簡潔にまとめ、深掘り質問に答える余地を残すのが理想です。長く語りすぎると言い訳がましく聞こえます。要点（何を求めて転職するか）を先に述べ、補足は問われてから足す構成が話しやすくなります。",
   },
   {
     q: "本音と建前が乖離していて、伝え方に迷います",
@@ -115,7 +115,7 @@ export default function MotivationPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職理由はどう整理して伝える？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 本音は隠さず、避けたいこと（本音）を次に実現したいことへ言い換えます。前職批判で終わらせず未来志向にし、転職理由と志望動機を地続きにするのが要点です。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>本音は隠さず、避けたいこと（本音）を次に実現したいことへ言い換えます。前職批判で終わらせず未来志向にし、転職理由と志望動機を地続きにするのが要点です。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・整理は本音の書き出し、現職で解決できるかの切り分け、避けたいことを実現したいことへの翻訳の3ステップです</li><li>・「残業が多い」を「持続可能なペースで長く技術を磨ける環境で働きたい」のようにネガポジ変換します</li><li>・前職の悪口・「なんとなく」・年収だけ・嘘はNGです。転職理由と志望動機を一貫させます</li></ul>
           </div>
         </section>
@@ -141,12 +141,12 @@ export default function MotivationPage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section className="mb-10">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：本音は隠さず「実現したいこと」に翻訳する</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">本音は隠さず「実現したいこと」に翻訳する</h2>
             <p className="text-sm text-blue-800 leading-relaxed">
-              良い転職理由は、嘘でも建前でもありません。<strong>「避けたいこと（本音）」を「次に実現したいこと」へ言い換える</strong>だけです。前職批判で終わらせず、未来志向にすることが重要です。そして<strong>転職理由と志望動機を地続きにする</strong>ことです。この2点を押さえれば、深掘り質問にも一貫して答えられます。
+              良い転職理由は、嘘でも建前でもなく、<strong>「避けたいこと（本音）」を「次に実現したいこと」へ言い換えた</strong>ものです。押さえるべき点は、前職批判で終わらせず未来志向にすること、そして<strong>転職理由と志望動機を地続きにする</strong>ことの2点です。これらを押さえれば、深掘り質問にも一貫して答えられます。
             </p>
           </div>
         </section>
@@ -157,9 +157,9 @@ export default function MotivationPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>面接官が転職理由を尋ねるのは、ご自身を否定するためではなく、次の3点を確かめるためです。</p>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>定着するか</strong>：同じ不満で早期に辞めないか。原因が自社で解決できるか。</li>
-              <li><strong>当事者意識があるか</strong>：問題を環境のせいだけにせず、自分で動こうとする人か。</li>
-              <li><strong>志望動機と整合するか</strong>：転職理由と「うちに入りたい理由」が地続きか。</li>
+              <li><strong>定着するか</strong>：同じ不満で早期に辞めないか、原因が自社で解決できるかを確認します。</li>
+              <li><strong>当事者意識があるか</strong>：問題を環境のせいだけにせず、自分で動こうとする人かを見ています。</li>
+              <li><strong>志望動機と整合するか</strong>：転職理由と「うちに入りたい理由」が地続きになっているかを確かめます。</li>
             </ul>
             <p>つまり、転職理由は「過去の説明」であると同時に「未来への橋渡し」です。前向きに語れるかどうかで印象が大きく変わります。</p>
           </div>
@@ -231,10 +231,10 @@ export default function MotivationPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">伝え方テンプレート（PREP法）</h2>
           <div className="space-y-4">
             {[
-              { num: "P", title: "Point（結論）", desc: "「◯◯を実現したくて転職を考えています」と、求めるものを先に述べます。" },
+              { num: "P", title: "Point（要点）", desc: "「◯◯を実現したくて転職を考えています」と、求めるものを先に述べます。" },
               { num: "R", title: "Reason（理由）", desc: "現職では構造的に難しい点を、批判ではなく事実として簡潔に示します。" },
               { num: "E", title: "Example（具体）", desc: "これまでの経験やスキルが、その実現にどうつながるかを示します。" },
-              { num: "P", title: "Point（再結論）", desc: "「だからこそ◯◯な環境で貢献したい」と志望動機へ橋渡しします。" },
+              { num: "P", title: "Point（要点の再提示）", desc: "「だからこそ◯◯な環境で貢献したい」と志望動機へ橋渡しします。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -263,9 +263,9 @@ export default function MotivationPage() {
                 </tr>
               </thead>
               <tbody>
-                <tr><td className="border border-slate-200 px-4 py-3 text-slate-600 font-medium">上流から関わりたい</td><td className="border border-slate-200 px-4 py-3 text-slate-600">保守中心で設計に関われない</td><td className="border border-slate-200 px-4 py-3 text-slate-600">企画段階からエンジニアが関与する開発体制に惹かれた</td></tr>
-                <tr className="bg-slate-50"><td className="border border-slate-200 px-4 py-3 text-slate-600 font-medium">技術を更新したい</td><td className="border border-slate-200 px-4 py-3 text-slate-600">レガシー保守が中心</td><td className="border border-slate-200 px-4 py-3 text-slate-600">モダンな技術スタックと技術投資に魅力を感じた</td></tr>
-                <tr><td className="border border-slate-200 px-4 py-3 text-slate-600 font-medium">持続可能に働きたい</td><td className="border border-slate-200 px-4 py-3 text-slate-600">長時間労働が常態化</td><td className="border border-slate-200 px-4 py-3 text-slate-600">健全な開発プロセスと働き方の透明性に共感した</td></tr>
+                <tr><td className="border border-slate-200 px-4 py-3 text-slate-600 font-medium">上流から関わりたい</td><td className="border border-slate-200 px-4 py-3 text-slate-600">保守中心で設計に関われない状況</td><td className="border border-slate-200 px-4 py-3 text-slate-600">企画段階からエンジニアが関与する開発体制に惹かれた</td></tr>
+                <tr className="bg-slate-50"><td className="border border-slate-200 px-4 py-3 text-slate-600 font-medium">技術を更新したい</td><td className="border border-slate-200 px-4 py-3 text-slate-600">レガシー保守が中心の業務</td><td className="border border-slate-200 px-4 py-3 text-slate-600">モダンな技術スタックと技術投資に魅力を感じた</td></tr>
+                <tr><td className="border border-slate-200 px-4 py-3 text-slate-600 font-medium">持続可能に働きたい</td><td className="border border-slate-200 px-4 py-3 text-slate-600">長時間労働の常態化</td><td className="border border-slate-200 px-4 py-3 text-slate-600">健全な開発プロセスと働き方の透明性に共感した</td></tr>
               </tbody>
             </table>
           </div>
@@ -279,7 +279,7 @@ export default function MotivationPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアならではの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              30代・40代は「なぜこの年齢で転職するのか」という観点も見られます。だからこそ、転職理由を<strong>キャリアの一貫性</strong>として語れると強いです。これまでの選択に共通する軸（例：一貫して◯◯領域の専門性を深めてきた）を示せると、衝動的な転職ではなく戦略的な意思決定として受け取られます。
+              30代・40代は「なぜこの年齢で転職するのか」という観点も見られます。だからこそ、転職理由を<strong>キャリアの一貫性</strong>として語れると有利です。これまでの選択に共通する軸（例：一貫して◯◯領域の専門性を深めてきた）を示せると、衝動的な転職ではなく戦略的な意思決定として受け取られます。
             </p>
             <p>
               年収を理由の一つに挙げること自体は自然です。doda（パーソルキャリア）の2024年度「決定年収レポート」（2025年5月公表）では、転職者の約6割が年収アップを実現したと公表されています。ただし面接では、報酬は「正当な評価の結果」として位置づけ、成長や貢献と結びつけて語る方が好印象です。
@@ -308,9 +308,9 @@ export default function MotivationPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">転職理由のプロ添削を無料で受けよう</h2>
+          <h2 className="text-xl font-bold mb-3">転職理由の添削を無料で受ける</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントなら、企業ごとの選考傾向を把握したアドバイザーが、転職理由と志望動機を伝わる形に整えてくれます。
+            IT特化型エージェントなら、企業ごとの選考傾向を把握したアドバイザーが、転職理由と志望動機を伝わる形に整える支援をします。
           </p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

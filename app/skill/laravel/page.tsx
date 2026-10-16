@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Laravelエンジニアの転職市場での進め方" },
+  { id: "conclusion", label: "1. Laravelエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Laravelの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Laravelエンジニアのキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
   { id: "entry", label: "6. 経験浅めからLaravelに参入するルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "Laravel未経験でも転職は可能ですか？",
-    a: "PHPでのWeb開発経験があれば、Laravel未経験でもポテンシャル採用の対象になりやすいです。他言語のWebフレームワーク（Ruby on Rails、Django等）の経験も、MVCやORMの考え方が共通するため土台になります。GitHubにLaravelで作ったWebアプリやAPIを公開し、設計・テスト・DB周りまで示せると基礎力が伝わります。求人母数が多いぶん、未経験可・ポテンシャル枠も比較的見つけやすい言語です。",
+    a: "PHPでのWeb開発経験があれば、Laravel未経験でもポテンシャル採用の対象になりやすい傾向があります。他言語のWebフレームワーク（Ruby on Rails、Django等）の経験も、MVCやORMの考え方が共通するため土台になります。GitHubにLaravelで作ったWebアプリやAPIを公開し、設計・テスト・DB周りまで示せると基礎力が伝わります。求人母数が多いぶん、未経験可・ポテンシャル枠も比較的見つけやすい言語です。",
   },
   {
     q: "Laravelの将来性はどうですか？",
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     q: "Laravelエンジニアにおすすめの転職エージェントは？",
-    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型のビズリーチ、Web系の提案に強いGeeklyの併用が選択肢です。Laravelは求人母数が多いため、複数登録して条件のよい求人を横断的に比較すると、年収やマッチ度の高い案件に出会いやすくなります。",
+    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型のビズリーチ、Web系の提案に強みを持つGeeklyの併用が選択肢です。Laravelは求人母数が多いため、複数登録して条件のよい求人を横断的に比較すると、年収やマッチ度の高い案件に出会いやすくなります。",
   },
   {
     q: "Laravelエンジニアはしつこく営業されたり断られたりしますか？",
@@ -101,7 +101,7 @@ export default function LaravelSkillPage() {
             LaravelはPHPの主流Webアプリケーションフレームワークで、MVC設計・Eloquent ORM・認証・ルーティングなどを標準で備え、Webサービスやシステムを効率的に開発できます。PHPは国内のWeb開発で長年使われてきた実績があり、Laravelは現在のPHP開発の中心的な選択肢です。求人母数が多く、スタートアップから中小・中堅企業まで採用層が広いのが特徴です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、Laravelエンジニア転職の「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。フレームワーク単体ではなく「PHPの言語力＋Web開発の実務」で評価される点も誠実にお伝えします。
+            本記事では、Laravelエンジニア転職の「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。フレームワーク単体ではなく「PHPの言語力＋Web開発の実務」で評価される点もご説明します。
           </p>
         </section>
 
@@ -130,14 +130,14 @@ export default function LaravelSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Laravelエンジニアの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Laravelエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Laravelは「求人母数が多く、案件が安定している実用スキル」です。</strong>希少性より安定性が強みなため、母数の多さを活かして条件のよい求人を比較しつつ、PHPの言語力と設計力で年収を伸ばすのが転職成功の軸になります。
+              <strong>Laravelは「求人母数が多く、案件が安定している実用スキル」です。</strong>希少性より安定性が強みであるため、母数の多さを活かして条件のよい求人を比較しつつ、PHPの言語力と設計力で年収を伸ばすのが転職成功の軸になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Laravelエンジニアの平均年収は<strong>500万円・中央値550万円です</strong>（レバテック公表・2025年）。Webエンジニア平均（約462万円）より高め</li>
-              <li>・PHPや他のWebフレームワークの経験があれば、Laravel未経験でもポテンシャル採用に乗りやすいです</li>
+              <li>・Laravelエンジニアの平均年収は<strong>500万円・中央値550万円</strong>です（レバテック公表・2025年）。Webエンジニア平均（約462万円）より高めの水準です</li>
+              <li>・PHPや他のWebフレームワークの経験があれば、Laravel未経験でもポテンシャル採用の対象になりやすい傾向があります</li>
               <li>・Laravelは<strong>フロント・インフラ・設計</strong>との掛け合わせで年収レンジが上がります</li>
             </ul>
           </div>
@@ -207,10 +207,10 @@ export default function LaravelSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "Webバックエンドエンジニア", note: "LaravelでのWebアプリ・API開発が中心です。求人の最も多いゾーン" },
-              { role: "フルスタックエンジニア", note: "Laravel＋フロント（React/Vue）まで担当します。スタートアップで需要" },
-              { role: "テックリード／アーキテクト", note: "Laravel基盤のシステム設計＋技術選定＋チームリード" },
-              { role: "フリーランス（Laravel案件）", note: "Webサービス・受託開発案件です。求人母数が多く案件が見つかりやすいです" },
+              { role: "Webバックエンドエンジニア", note: "LaravelでのWebアプリ・API開発が中心です。求人数が最も多い領域にあたります" },
+              { role: "フルスタックエンジニア", note: "Laravel＋フロント（React/Vue）まで担当します。スタートアップで需要があります" },
+              { role: "テックリード／アーキテクト", note: "Laravel基盤のシステム設計、技術選定、チームリードを担います" },
+              { role: "フリーランス（Laravel案件）", note: "Webサービス・受託開発案件が中心です。求人母数が多く案件が見つかりやすくなります" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -225,7 +225,7 @@ export default function LaravelSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Laravelは求人母数が多いため、複数のチャネルを横断して条件のよい求人を比較するのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -245,7 +245,7 @@ export default function LaravelSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web・ゲーム業界特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。Laravelを採用するWeb系・スタートアップの求人を探したい場合の選択肢になります。
               </p>
@@ -264,7 +264,7 @@ export default function LaravelSkillPage() {
             {[
               { num: "1", title: "PHPまたはWebフレームワークの経験を土台にする", desc: "PHPでのWeb開発経験はもちろん、Ruby on RailsやDjangoなど他言語のWebフレームワーク経験も、MVCやORMの考え方が共通するため土台になります。「Laravelは未経験だがWeb開発の基礎はある」とアピールできます。" },
               { num: "2", title: "GitHubに実務に近いLaravelアプリを公開する", desc: "認証・CRUD・API・DB設計を含むWebアプリをLaravelで作って公開します。Eloquentの使い方、テスト、バリデーション、セキュリティ配慮まで示せると、動くだけでなく設計の意図が伝わる状態になります。" },
-              { num: "3", title: "求人母数の多さを活かしてポテンシャル枠を狙う", desc: "Laravelは求人が多く、未経験可・ポテンシャル枠も比較的見つかります。エージェントに「Laravelは学習中、PHP/Web開発の基礎はある」と伝え、入社後キャッチアップ前提の求人を紹介してもらうのが近道です。" },
+              { num: "3", title: "求人母数の多さを活かしてポテンシャル枠を狙う", desc: "Laravelは求人が多く、未経験可・ポテンシャル枠も比較的見つかります。エージェントに「Laravelは学習中、PHP/Web開発の基礎はある」と伝え、入社後キャッチアップ前提の求人を紹介してもらう方法が現実的です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -337,7 +337,7 @@ export default function LaravelSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Laravelのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Laravelは求人母数が多いからこそ、複数のIT特化型エージェントで条件のよい求人を横断比較するのが近道です。
+            Laravelは求人母数が多いからこそ、複数のIT特化型エージェントで条件のよい求人を横断比較するのが効率的です。
           </p>
           <Link
             href="/#ranking"

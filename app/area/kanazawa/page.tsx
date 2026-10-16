@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：金沢・石川のIT転職市場の特徴" },
+  { id: "conclusion", label: "金沢・石川のIT転職市場の特徴" },
   { id: "market", label: "金沢・石川のIT・産業の集積と現実" },
   { id: "workstyle", label: "働き方の選択肢（リモート×UIターン）" },
-  { id: "iju", label: "移住支援制度（UIターンを使う）" },
+  { id: "iju", label: "移住支援制度（UIターン時に活用）" },
   { id: "salary", label: "年収の考え方（地方転職で下がる場合も）" },
   { id: "agents", label: "金沢・石川に対応するエージェント" },
   { id: "howto", label: "転職・移住の進め方" },
@@ -39,7 +39,7 @@ const fitNo = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も多い層です。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手の層です。ポテンシャル採用も多く見られます。" },
   { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
   { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層です。" },
   { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
@@ -50,32 +50,32 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人を介して金沢在住のまま応募する転職と相性が良いです。高年収求人比率の高さも特徴とされます。",
+      "IT/Web領域に特化したエージェントです。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人を介して金沢在住のまま応募する転職と相性が良いといえます。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型です。IT・ゲーム領域に強く、地方在住からの相談に向きます。レスポンスの速さに定評があり、未経験歓迎求人も比較的多いです。",
+      "全国47都道府県57拠点を構える総合型のエージェントです。IT・ゲーム領域に強みを持ち、地方在住者からの相談にも対応しています。レスポンスの速さに定評があり、未経験歓迎求人も比較的多く見られます。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、北陸の地元求人から首都圏フルリモート求人まで幅広く当たりやすいです。求人量の多さが強みです。",
+      "全国対応の総合型エージェントです。検索・エージェント・スカウトを組み合わせたハイブリッド型で、北陸の地元求人から首都圏フルリモート求人まで幅広く探しやすくなります。求人量の多さが強みです。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     point:
-      "ハイクラス・スカウト型です。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、金沢在住のまま探したい人に向きます。市場価値を客観的に把握しやすいです。",
+      "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、金沢在住のまま探したい人に向きます。市場価値を客観的に把握しやすくなります。",
   },
 ];
 
 const faqs = [
   {
     q: "金沢・石川にはITエンジニアの求人はどのくらいありますか？",
-    a: "公開求人は首都圏に比べて限定的というのが実際のところです。地場のSIer・受託開発・ものづくり企業の社内IT部門などに一定の求人がありますが、件数の断定は避けるべき性質のものです。実数は時期で変動するため、地方在住の相談に対応するエージェントで最新の求人状況を確認するのが確実です。求人の母数を広げたい場合は、首都圏企業のフルリモート求人を併用するのが現実的です。",
+    a: "公開求人は首都圏に比べて限定的というのが実際のところです。地場のSIer・受託開発・ものづくり企業の社内IT部門などに一定の求人がありますが、件数を断定できる性質のものではありません。実数は時期で変動するため、地方在住の相談に対応するエージェントで最新の求人状況を確認するのが確実です。求人の母数を広げたい場合は、首都圏企業のフルリモート求人を併用するのが現実的です。",
   },
   {
     q: "金沢に転職すると年収は下がりますか？",
@@ -166,10 +166,10 @@ export default function KanazawaAreaPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 市場の特徴 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：金沢・石川のIT転職市場の特徴</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">金沢・石川のIT転職市場の特徴</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               金沢・石川のIT転職は、「地場企業に通勤で勤める」か「首都圏フルリモート求人を活用して暮らしの質を上げる」かの二択を軸に考えると整理しやすい市場です。公開求人は首都圏比で限定的なため、リモート活用が現実的な選択肢になります。
             </p>
@@ -199,7 +199,7 @@ export default function KanazawaAreaPage() {
         <section id="market" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">金沢・石川のIT・産業の集積と現実</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            まず、金沢・石川のITエンジニアの公開求人は、首都圏に比べて限定的です。求人件数や平均年収を断定的な数値で示すことは、この記事ではしません。一方で、地域の産業構造を理解しておくと、どんな求人に出会いやすいかの解像度は上がります。石川県は伝統工芸からものづくりまで産業の裾野が広く、製造業の社内システムやDX推進の需要が生まれやすい土地柄です。経済産業省が2019年3月に公表した「IT人材需給に関する調査」では2030年に最大約79万人のIT人材不足が試算されており、地方でもDX人材の需要は構造的に続くと見られます。
+            まず、金沢・石川のITエンジニアの公開求人は、首都圏に比べて限定的です。求人件数や平均年収を断定的な数値で示すことは、この記事ではしません。一方で、地域の産業構造を理解しておくと、どのような求人に出会いやすいかを具体的に把握できます。石川県は伝統工芸からものづくりまで産業の裾野が広く、製造業の社内システムやDX推進の需要が生まれやすい土地柄です。経済産業省が2019年3月に公表した「IT人材需給に関する調査」では2030年に最大約79万人のIT人材不足が試算されており、地方でもDX人材の需要は構造的に続くと見られます。
           </p>
           <div className="space-y-4">
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
@@ -236,13 +236,13 @@ export default function KanazawaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地場企業に出社・ハイブリッドで勤務:</strong> 地域に根ざしたキャリアを重視する人向けです。求人の母数は限られますが、要件定義から運用まで幅広く担える経験を積みやすいです。
+                <strong>地場企業に出社・ハイブリッドで勤務:</strong> 地域に根ざしたキャリアを重視する人に向いています。求人の母数は限られますが、要件定義から運用まで幅広く担える経験を積みやすくなります。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>金沢在住×首都圏企業のフルリモート:</strong> 金沢の生活コストを保ちつつ首都圏水準の年収・案件を狙う選択肢です。求人の母数を最も広げやすいです。
+                <strong>金沢在住×首都圏企業のフルリモート:</strong> 金沢の生活コストを保ちつつ首都圏水準の年収・案件を狙う選択肢です。求人の母数を最も広げやすくなります。
                 <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
                 も参考になります。
               </p>
@@ -260,7 +260,7 @@ export default function KanazawaAreaPage() {
 
         {/* 移住支援 */}
         <section id="iju" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">移住支援制度（UIターンを使う）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">移住支援制度（UIターン時に活用）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             首都圏から金沢・石川へのUIターンを考えるなら、公的な移住支援制度の活用を検討しましょう。以下は調査時点（2026年6月）の公開情報に基づく概要です。金額・要件は年度で変わるため、申請前に必ず石川県・金沢市の公式サイトで最新条件を確認してください。
           </p>
@@ -457,7 +457,7 @@ export default function KanazawaAreaPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">金沢×リモートでIT転職を進めよう</h2>
+          <h2 className="text-xl font-bold mb-3">金沢でリモートを活かしたIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
             地場求人は限られても、首都圏フルリモート求人を組み合わせれば選択肢は広がります。エリア対応のエージェントに相談して、年収と暮らしのバランスが取れる選択肢を見つけましょう。
           </p>

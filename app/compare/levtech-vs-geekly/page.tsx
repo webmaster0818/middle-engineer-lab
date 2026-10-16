@@ -9,18 +9,18 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/levtech-vs-geekly/" },
   title: "レバテックキャリアとGeekly比較｜どっちがおすすめ【2026年8月】",
   description:
-    "レバテックキャリアとGeekly（ギークリー）をどちらがおすすめかをご説明します。求人数・年収アップ実績・サポート・スピード・対象層を時点付き実データで比較し、30代40代エンジニアの選び方を解説します。",
+    "レバテックキャリアとGeekly（ギークリー）のどちらがおすすめかをご説明します。求人数・年収アップ実績・サポート・スピード・対象層を、時点を明記した実データで比較し、30代40代エンジニアの選び方を解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どちらがおすすめか" },
+  { id: "conclusion", label: "どちらがおすすめか" },
   { id: "basic", label: "基本データ比較表（2026年6月時点）" },
   { id: "jobs", label: "求人数で比較" },
   { id: "salary", label: "年収アップ実績で比較" },
   { id: "support", label: "サポート体制で比較" },
   { id: "speed", label: "提案スピードで比較" },
   { id: "target", label: "対象層で比較" },
-  { id: "reviews", label: "口コミ傾向（出典付き）" },
+  { id: "reviews", label: "口コミ傾向と出典" },
   { id: "checklist", label: "向いている人チェックリスト" },
   { id: "combo", label: "併用ガイド" },
   { id: "middle", label: "30代・40代エンジニアの視点" },
@@ -32,30 +32,30 @@ const comparison = [
   { item: "運営会社", levtech: "レバテック株式会社（レバレジーズグループ・二次情報）", geekly: "株式会社Geekly（2011年8月設立・渋谷区／公式会社概要）" },
   { item: "公開求人数", levtech: "約5万件超（2026年6月時点・複数転職メディア集計）", geekly: "公開37,000件以上（2026年1月時点）／非公開含め46,000件以上（2026年5月時点・二次集計）" },
   { item: "対応エリア", levtech: "首都圏中心（二次情報）", geekly: "首都圏中心（二次情報）" },
-  { item: "得意領域", levtech: "IT/Web全般。高年収求人比率が高い", geekly: "IT/Web/ゲーム業界に専門特化します。提案スピードが強み" },
+  { item: "得意領域", levtech: "IT/Web全般。高年収求人の比率が高い傾向", geekly: "IT/Web/ゲーム業界に専門特化。提案スピードが強み" },
   { item: "年収アップ実績", levtech: "応募時年収との差70万円以上が3人に2人（2023年1月〜2024年3月実績）", geekly: "年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）" },
-  { item: "利用者層", levtech: "利用者の約80%が20〜30代（公式系）", geekly: "実務経験者への提案数が多いです（二次情報）" },
+  { item: "利用者層", levtech: "利用者の約80%が20〜30代（公式系）", geekly: "実務経験者への提案数が多い傾向（二次情報）" },
   { item: "料金", levtech: "求職者無料", geekly: "求職者無料" },
 ];
 
 const faqs = [
-  { q: "レバテックキャリアとGeeklyはどちらがおすすめ？", a: "IT/Web全般から高年収求人を幅広く見たいならレバテックキャリア、Web系・ゲーム業界に絞ってスピード感のある提案を受けたいならGeeklyがおすすめです。得意領域が異なるため、両方無料で登録して比較するのが効率的です。" },
+  { q: "レバテックキャリアとGeeklyはどちらがおすすめですか？", a: "IT/Web全般から高年収求人を幅広く見たいならレバテックキャリア、Web系・ゲーム業界に絞ってスピード感のある提案を受けたいならGeeklyがおすすめです。得意領域が異なるため、両方無料で登録して比較するのが効率的です。" },
   { q: "年収アップしやすいのはどちらですか？", a: "レバテックキャリアは内定承諾者のうち応募時年収との差が70万円以上の人が3人に2人です（2023年1月〜2024年3月実績）。Geeklyは年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）を公表しています。集計基準が異なるため単純比較はできませんが、いずれも高年収帯の実績を打ち出しています。" },
   { q: "求人数が多いのはどちらですか？", a: "レバテックキャリアが約5万件超（2026年6月時点・複数転職メディア集計）、Geeklyは公開37,000件以上（2026年1月時点）・非公開含め46,000件以上（2026年5月時点・二次集計）です。いずれも時点と集計元が異なる二次情報のため、件数の多寡だけで優劣は判断しないことをおすすめします。" },
-  { q: "Geeklyは連絡がしつこい？", a: "口コミプラットフォーム（Qiita Job Change等）では「レスポンスが早い」と評価する声がある一方、「連絡がしつこい」「勝手に応募されたとの報告例」という声も見られます。連絡頻度や応募範囲は初回面談で明確に希望を伝えておくと、ミスマッチを避けやすくなります。" },
-  { q: "Geeklyは断られることがある？", a: "Geeklyは実務経験者への提案数が多いとされる一方、IT/Web/ゲーム特化のため、経験や希望条件によっては紹介が限定的になる場合があります。レバテックキャリアも「未経験者は紹介されにくい」との声が見られます。経験が浅い場合は総合型エージェントの併用も検討するとよいでしょう。" },
+  { q: "Geeklyは連絡がしつこいというのは本当ですか？", a: "口コミプラットフォーム（Qiita Job Change等）では「レスポンスが早い」と評価する声がある一方、「連絡がしつこい」「勝手に応募されたとの報告例」という声も見られます。連絡頻度や応募範囲は初回面談で明確に希望を伝えておくと、ミスマッチを避けやすくなります。" },
+  { q: "Geeklyは断られることがありますか？", a: "Geeklyは実務経験者への提案数が多いとされる一方、IT/Web/ゲーム特化のため、経験や希望条件によっては紹介が限定的になる場合があります。レバテックキャリアも「未経験者は紹介されにくい」との声が見られます。経験が浅い場合は総合型エージェントの併用も検討するとよいでしょう。" },
   { q: "30代エンジニアにはどちらが適していますか？", a: "Web系・ゲーム業界志望でスピード重視ならGeekly、SIerやインフラ・社内SEも含め幅広く見たいならレバテックキャリアが向きます。レバテックは利用者の約80%が20〜30代（公式系）で、30代の利用実績が豊富です。" },
   { q: "40代エンジニアにはどちらが適していますか？", a: "どちらも年代別の明確な実績公表はありませんが、求人レンジの広さからレバテックキャリアを軸に、Web系・ゲーム特化求人を見るためにGeeklyを併用する形が現実的です。40代は求人が絞られやすいため、複数登録で母数を確保することをおすすめします。" },
-  { q: "両方登録しても大丈夫？退会は簡単？", a: "両方登録は問題なく、むしろ非公開求人の幅が広がるため推奨されます。退会はいずれも担当者へ連絡するか、登録時の手続き経由で可能です。同じ企業へ重複応募しないよう、応募状況を自分で管理しておきましょう。" },
+  { q: "両方に登録しても問題ありませんか？退会は簡単ですか？", a: "両方への登録は問題ありません。非公開求人の幅が広がるため、併用をおすすめします。退会はいずれも担当者へ連絡するか、登録時の手続き経由で可能です。同じ企業へ重複応募しないよう、応募状況を自分で管理しておきましょう。" },
 ];
 
 const levtechReviews = {
-  good: ["書類添削・面接対策が丁寧", "LINEで連絡が完結します", "高年収求人が多いです"],
-  bad: ["未経験者は紹介されにくいです", "初回面談後の連絡が遅い場合があります", "希望と異なる求人提案の例"],
+  good: ["書類添削・面接対策が丁寧です", "LINEで連絡が完結します", "高年収求人が多い傾向にあります"],
+  bad: ["未経験者は紹介されにくい傾向があります", "初回面談後の連絡が遅い場合があります", "希望と異なる求人が提案される場合があります"],
 };
 const geeklyReviews = {
-  good: ["レスポンスが早いです", "選考までスムーズ", "実務経験者への提案数が多いです"],
-  bad: ["連絡がしつこい", "担当者の質にばらつき", "勝手に応募されたとの報告例"],
+  good: ["レスポンスが早い点が特徴です", "選考までスムーズに進みます", "実務経験者への提案数が多い傾向にあります"],
+  bad: ["連絡がしつこいとの声があります", "担当者の質にばらつきがあります", "勝手に応募されたとの報告例があります"],
 };
 
 const relatedLinks = [
@@ -82,7 +82,7 @@ export default function LevtechVsGeeklyPage() {
     <>
       <ArticleJsonLd
         title="レバテックキャリアとGeekly比較｜どっちがおすすめ【2026年8月】"
-        description="レバテックキャリアとGeeklyをどちらがおすすめかをご説明します。求人数・年収アップ・サポート・スピード・対象層を時点付き実データで比較します。"
+        description="レバテックキャリアとGeeklyのどちらがおすすめかをご説明します。求人数・年収アップ・サポート・スピード・対象層を、時点を明記した実データで比較します。"
         url="/compare/levtech-vs-geekly/"
       />
       <script
@@ -107,7 +107,7 @@ export default function LevtechVsGeeklyPage() {
 
         {/* 冒頭直答box */}
         <div className="bg-emerald-50 border-l-4 border-emerald-600 rounded-r-lg p-5 mb-6">
-          <h2 className="text-lg font-bold text-slate-900 mb-2">【結論】どちらがおすすめ？</h2>
+          <h2 className="text-lg font-bold text-slate-900 mb-2">どちらがおすすめ？</h2>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
             <li>・<strong>IT/Web全般から高年収求人を幅広く見たい → レバテックキャリア</strong>（約5万件超・2026年6月時点の二次集計）</li>
             <li>・<strong>Web系・ゲーム業界に絞ってスピード感ある提案を受けたい → Geekly</strong>（IT/Web/ゲーム特化・提案スピードが強み）</li>
@@ -116,7 +116,7 @@ export default function LevtechVsGeeklyPage() {
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-2">
-          IT/Web特化型エージェントの代表格であるレバテックキャリアと、IT/Web/ゲーム業界に専門特化するGeeklyです（ギークリー）。どちらも経験者から支持を集めていますが、得意領域・提案スピード・年収アップの打ち出し方には明確な違いがあります。本記事では公開されている実データと口コミ傾向をもとに、30代・40代エンジニア視点で「どちらを選ぶべきか」を整理します。
+          本記事では、IT/Web特化型エージェントの代表格であるレバテックキャリアと、IT/Web/ゲーム業界に専門特化するGeekly（ギークリー）を比較します。どちらも経験者から支持を集めていますが、得意領域・提案スピード・年収アップの打ち出し方には明確な違いがあります。本記事では公開されている実データと口コミ傾向をもとに、30代・40代エンジニア視点で「どちらを選ぶべきか」を整理します。
         </p>
 
         <DataNote
@@ -143,15 +143,15 @@ export default function LevtechVsGeeklyPage() {
 
         {/* 結論ファースト */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">どちらがおすすめか</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
-              幅広いIT/Web求人から高年収を狙うなら「レバテックキャリア」、Web系・ゲーム業界に絞りスピード重視なら「Geekly」。
+              幅広いIT/Web求人から高年収を狙うなら「レバテックキャリア」、Web系・ゲーム業界に絞りスピードを重視するなら「Geekly」がおすすめです。
             </p>
             <ul className="space-y-2 text-sm text-blue-800">
               <li>① レバテックキャリアは求人レンジが広く、高年収求人比率が高いとされます（二次情報）。LINEで連絡が完結する手軽さも評価されています。</li>
-              <li>② GeeklyはIT/Web/ゲーム特化で提案スピードが強みです。年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）を公表します。</li>
-              <li>③ 得意領域が重ならない部分が多いため、両方無料で登録し非公開求人を比較するのが最も損のない選び方です。</li>
+              <li>② GeeklyはIT/Web/ゲーム特化で提案スピードが強みです。年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）を公表しています。</li>
+              <li>③ 得意領域が重ならない部分が多いため、両方無料で登録し、非公開求人を比較する方法が効率的です。</li>
             </ul>
           </div>
         </section>
@@ -213,13 +213,13 @@ export default function LevtechVsGeeklyPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レバテックキャリア</h3>
               <p className="text-sm text-petrol-deep">
-                内定承諾者のうち応募時年収との差が70万円以上の人が「3人に2人」（2023年1月〜2024年3月実績・公式系）。高年収求人の比率の高さが、年収交渉の土台になっています。
+                内定承諾者のうち応募時年収との差が70万円以上の人が「3人に2人」です（2023年1月〜2024年3月実績・公式系）。高年収求人の比率の高さが、年収交渉の土台になっています。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
               <p className="text-sm text-slate-600">
-                年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）を公表します。希望職種への定着率97%（二次）とされ、ミスマッチの少なさを打ち出しています。
+                年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）を公表しています。希望職種への定着率は97%（二次）とされ、ミスマッチの少なさを打ち出しています。
               </p>
             </div>
           </div>
@@ -262,11 +262,11 @@ export default function LevtechVsGeeklyPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">レバテックキャリアが強い領域</h3>
               <div className="flex flex-wrap gap-2">
-                {["Web系全般", "SIer", "社内SE", "インフラ", "高年収求人", "20〜30代の利用が多いです"].map((tag, i) => (
+                {["Web系全般", "SIer", "社内SE", "インフラ", "高年収求人", "20〜30代の利用が中心"].map((tag, i) => (
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
-              <p className="text-xs text-slate-500 mt-3">※ 利用者の約80%が20〜30代（公式系）。高年収求人比率の高さが特徴です。</p>
+              <p className="text-xs text-slate-500 mt-3">※ 利用者の約80%が20〜30代です（公式系）。高年収求人の比率の高さが特徴です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">Geeklyが強い領域</h3>
@@ -275,14 +275,14 @@ export default function LevtechVsGeeklyPage() {
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-700">{tag}</span>
                 ))}
               </div>
-              <p className="text-xs text-slate-500 mt-3">※ IT/Web/ゲーム業界専門特化。希望職種への定着率97%です（二次）。</p>
+              <p className="text-xs text-slate-500 mt-3">※ IT/Web/ゲーム業界に専門特化しており、希望職種への定着率は97%とされています（二次）。</p>
             </div>
           </div>
         </section>
 
         {/* 口コミ傾向 */}
         <section id="reviews" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ傾向（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ傾向と出典</h2>
           <p className="text-sm text-slate-500 mb-4">
             以下は、Qiita Job Change・みん評・各種転職口コミメディアに見られる傾向を要約したものです（原文転載ではありません）。
           </p>
@@ -349,7 +349,7 @@ export default function LevtechVsGeeklyPage() {
               {[
                 { num: "1", title: "レバテックキャリアが向くケース", desc: "SIer・インフラ・社内SEを含め幅広く比較したい、高年収求人の母数を増やしたい場合はレバテックキャリアを軸にすることをおすすめします。" },
                 { num: "2", title: "Geeklyが向くケース", desc: "Web系・ゲーム業界に絞り、スピード感を持って選考を進めたい場合はGeeklyを軸にすることをおすすめします。" },
-                { num: "3", title: "併用パターン", desc: "両方無料のため、まず2社に登録し非公開求人と担当者の提案を比較します。相性の良い担当者をメインに据え、もう一方を補助的に使うと選択肢と交渉材料が最大化します。" },
+                { num: "3", title: "併用パターン", desc: "両方無料のため、まず2社に登録し非公開求人と担当者の提案を比較します。相性の良い担当者をメインに据え、もう一方を補助的に使うと、選択肢と交渉材料を増やせます。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -379,10 +379,10 @@ export default function LevtechVsGeeklyPage() {
               GeeklyはWeb系・ゲーム業界の実務経験者への提案数が多いとされ、現場の即戦力としてのキャリアを継続したい人に向きます。一方、両社とも年代別の明確な実績は公表していないため、40代では求人の母数が絞られやすい点に注意が必要です。
             </p>
             <p className="text-slate-600 leading-relaxed text-sm">
-              背景として、経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では2030年に最大約79万人のIT人材不足が見込まれており、経験を積んだミドルエンジニアの需要は構造的に存在します。だからこそ、年代でターゲットを絞り込みすぎず、複数のIT特化型エージェントで母数を確保し、自分の専門領域に強い担当者を見極めることが、30代・40代の転職成功の近道です。
+              背景として、経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では2030年に最大約79万人のIT人材不足が見込まれており、経験を積んだミドルエンジニアの需要は構造的に存在します。だからこそ、年代でターゲットを絞り込みすぎず、複数のIT特化型エージェントで母数を確保し、自分の専門領域に強い担当者を見極めることが、30代・40代の転職では重要です。
             </p>
             <p className="text-xs text-slate-500">
-              ※ 厚労省 job tag「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）。年収交渉時の相場感の参考になります。
+              ※ 厚労省 job tag「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳です（令和7年賃金構造基本統計調査ベース）。年収交渉時の相場感の参考になります。
             </p>
           </div>
         </section>
@@ -407,9 +407,9 @@ export default function LevtechVsGeeklyPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">迷ったら両方登録がおすすめ</h2>
+          <h2 className="text-xl font-bold mb-3">迷った場合は両方への登録がおすすめです</h2>
           <p className="text-blue-100 text-sm mb-4">
-            レバテックキャリアとGeeklyは両方無料です。得意領域が異なるため、2社に登録して非公開求人と提案を比較しましょう。
+            レバテックキャリアとGeeklyは、いずれも無料で利用できます。得意領域が異なるため、2社に登録して非公開求人と提案を比較しましょう。
           </p>
           <Link
             href="/#ranking"

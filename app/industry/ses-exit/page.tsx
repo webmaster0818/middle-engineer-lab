@@ -9,7 +9,7 @@ const DESCRIPTION =
   "SESから自社開発・社内SEへ抜け出すための具体的な道筋を解説します。SES経験の正しい見せ方、脱出先の選び方、年収の現実、30代・40代の戦略、おすすめエージェントまでガイドします。";
 
 const toc = [
-  { id: "conclusion", label: "結論：SES脱出は経験の“見せ方”で決まる" },
+  { id: "conclusion", label: "SES脱出は経験の“見せ方”で決まる" },
   { id: "issues", label: "SESで抱えがちな課題" },
   { id: "destinations", label: "主な脱出先と選び方" },
   { id: "show", label: "SES経験の見せ方（Before/After）" },
@@ -23,17 +23,17 @@ const toc = [
 const destinations: { title: string; desc: string; fit: string }[] = [
   {
     title: "Web系自社開発企業",
-    desc: "自社プロダクトに一貫して関われます。技術選定の自由度が高く、モダン技術・リモートワークの環境が多いです。レバテックキャリアやGeeklyが強い領域です。",
+    desc: "自社プロダクトに一貫して関われます。技術選定の自由度が高く、モダン技術・リモートワークの環境が多い傾向にあります。レバテックキャリアやGeeklyが強い領域です。",
     fit: "プロダクトに当事者として関わりたい人 / モダン技術を使いたい人",
   },
   {
     title: "社内SE（事業会社の情報システム部門）",
-    desc: "社内システムの企画・運用・ベンダーコントロールを担当します。残業が比較的少なく、安定した環境で腰を据えて働きやすいです。マイナビIT AGENTが強い領域です。",
+    desc: "社内システムの企画・運用・ベンダーコントロールを担当します。残業が比較的少なく、安定した環境で腰を据えて働きやすくなります。マイナビIT AGENTが強い領域です。",
     fit: "ワークライフバランス重視 / 安定志向 / 上流・調整が得意な人",
   },
   {
     title: "SaaS企業",
-    desc: "安定した収益基盤の上でプロダクト改善に集中できます。業務システムの知識がドメイン理解として活きるケースも多いです。",
+    desc: "安定した収益基盤の上でプロダクト改善に集中できます。業務システムの知識がドメイン理解として活きるケースも少なくありません。",
     fit: "業務知識を活かしたい人 / 長期でプロダクトを育てたい人",
   },
   {
@@ -46,11 +46,11 @@ const destinations: { title: string; desc: string; fit: string }[] = [
 const faqs = [
   {
     q: "SESから転職するベストなタイミングは？",
-    a: "プロジェクトの切れ目（契約更新のタイミング）が引き継ぎ面でスムーズです。ただし在職中に転職活動を始めるのが鉄則で、内定を得てから退職の意思を伝えましょう。情報収集やエージェント登録は今すぐ始めても問題ありません。",
+    a: "プロジェクトの切れ目（契約更新のタイミング）が引き継ぎ面でスムーズです。ただし在職中に転職活動を始めることが基本であり、内定を得てから退職の意思を伝えましょう。情報収集やエージェント登録は今すぐ始めても問題ありません。",
   },
   {
     q: "SES経験しかなくても自社開発企業に転職できますか？",
-    a: "可能です。SESでの開発経験は立派な実務経験として評価されます。重要なのは「何の技術で、どんなシステムを、どんな役割で開発したか」を具体的に語れることが重要です。ポートフォリオやGitHubの活動があるとさらに有利です。",
+    a: "可能です。SESでの開発経験は立派な実務経験として評価されます。重要なのは、「何の技術で、どんなシステムを、どんな役割で開発したか」を具体的に語れることです。ポートフォリオやGitHubの活動があるとさらに有利です。",
   },
   {
     q: "SESを辞めたい理由を面接でどう伝えるべきですか？",
@@ -58,11 +58,11 @@ const faqs = [
   },
   {
     q: "SESからの転職で年収は上がりますか？",
-    a: "SESは多重下請けの構造上、現場での評価が自社に伝わりにくく年収が抑えられがちなため、転職で上がるケースは多いです。参考としてdoda（パーソルキャリア）の2024年度決定年収レポート（2025年5月公表）では転職者の約6割が年収アップ、IT・通信の平均決定年収は2024年度486万円とされています。ただし上がるかは現職水準と移行先次第で、保証はありません。",
+    a: "SESは多重下請けの構造上、現場での評価が自社に伝わりにくく年収が抑えられがちなため、転職で上がるケースは多い傾向にあります。参考としてdoda（パーソルキャリア）の2024年度決定年収レポート（2025年5月公表）では転職者の約6割が年収アップ、IT・通信の平均決定年収は2024年度486万円とされています。ただし上がるかは現職水準と移行先次第で、保証はありません。",
   },
   {
     q: "SES脱出におすすめの転職エージェントは？",
-    a: "Web系自社開発を狙うならIT/Web特化のレバテックキャリアやGeekly、社内SE・安定環境ならマイナビIT AGENTが定番です。スキルアップ途上なら未経験歓迎求人も扱うワークポートも選択肢です。複数社に登録して比較するのが基本です。",
+    a: "Web系自社開発を狙うならIT/Web特化のレバテックキャリアやGeekly、社内SE・安定環境ならマイナビIT AGENTが代表的な選択肢です。スキルアップ途上なら未経験歓迎求人も扱うワークポートも選択肢です。複数社に登録して比較するのが基本です。",
   },
   {
     q: "SESの経験年数が短くても転職できますか？",
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     q: "「SES＝悪」なのでしょうか？",
-    a: "そうとは限りません。教育体制が整い、希望に沿った案件を選べるSES企業もあります。問題は会社の運用と本人のキャリア志向のミスマッチです。今の不満が「SESという形態」由来か「今の会社・案件」由来かを切り分けると、転職先の判断がぶれません。",
+    a: "そうとは限りません。教育体制が整い、希望に沿った案件を選べるSES企業もあります。問題は会社の運用と本人のキャリア志向のミスマッチです。今の不満が「SESという形態」由来か「今の会社・案件」由来かを切り分けると、転職先を判断しやすくなります。",
   },
   {
     q: "退会・登録解除はあとからできますか？",
@@ -144,7 +144,7 @@ export default function SesExitPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SES脱出は経験の“見せ方”で決まる</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">SES脱出は経験の“見せ方”で決まる</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               SESからの脱出は十分に現実的です。鍵は「常駐していた」事実ではなく、「何を作り、どう関わったか」を言語化して示せるかどうかにあります。
@@ -152,7 +152,7 @@ export default function SesExitPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① 脱出先は自社開発・社内SE・SaaS・自社内受託の4タイプです。志向に合わせて選びます。</li>
               <li>② SES経験は「使用技術×規模×役割×成果」に翻訳すれば立派な実務経験になります。</li>
-              <li>③ 年収は抑えられているケースが多く、転職で改善する可能性が高いです（ただし保証はない）。</li>
+              <li>③ 年収は抑えられているケースが多く、転職で改善する可能性が高いといえます（ただし保証はありません）。</li>
             </ul>
           </div>
         </section>
@@ -165,10 +165,10 @@ export default function SesExitPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { title: "スキルの停滞", desc: "案件に依存するため技術選択の自由が小さく、レガシー技術に固定されやすいです。" },
+              { title: "スキルの停滞", desc: "案件に依存するため技術選択の自由が小さく、レガシー技術に固定されやすい傾向があります。" },
               { title: "評価の不透明さ", desc: "現場評価が自社に正しく伝わらず、スキルに見合わない年収になりがちです。多重下請けで中間マージンも発生します。" },
-              { title: "キャリアの不確実性", desc: "次の案件が読めない「案件ガチャ」で、中長期のキャリア設計が難しいです。" },
-              { title: "帰属意識の薄さ", desc: "客先で働くため自社への帰属意識が持ちにくく、チームの一体感を感じにくいです。" },
+              { title: "キャリアの不確実性", desc: "次の案件が読めない「案件ガチャ」で、中長期のキャリア設計が難しくなります。" },
+              { title: "帰属意識の薄さ", desc: "客先で働くため自社への帰属意識が持ちにくく、チームの一体感を感じにくい傾向があります。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2">{item.title}</h3>
@@ -211,7 +211,7 @@ export default function SesExitPage() {
         <section id="show" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">SES経験の見せ方（Before/After）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            職務経歴書で「常駐していた」事実を書くだけでは、技術力が伝わりません。担当した技術・規模・役割・成果に翻訳することで、SES経験は強力なアピール材料になります。
+            職務経歴書で「常駐していた」事実を書くだけでは、技術力が伝わりません。担当した技術・規模・役割・成果に翻訳することで、SES経験は有効なアピール材料になります。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div className="border border-slate-200 rounded-lg p-5 bg-slate-50">
@@ -282,7 +282,7 @@ export default function SesExitPage() {
               { step: "2", title: "不足スキルを補強する", desc: "モダンなフレームワークやクラウドを学習します。GitHubにコードを公開し、技術力を示せる状態にします。" },
               { step: "3", title: "転職エージェントに登録する", desc: "IT特化型エージェント2〜3社に登録します。SESからの転職実績が豊富な担当者に相談します。" },
               { step: "4", title: "書類・面接対策を行う", desc: "職務経歴書を移行先に合わせて最適化します。退職理由は「何を実現したいか」に変換して語れるようにします。" },
-              { step: "5", title: "内定獲得後に退職手続き", desc: "内定を得てから退職の意思を伝えます。SES契約の更新タイミングに合わせると引き継ぎがスムーズです。" },
+              { step: "5", title: "内定獲得後に退職手続きを行う", desc: "内定を得てから退職の意思を伝えます。SES契約の更新タイミングに合わせると引き継ぎがスムーズです。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -340,7 +340,7 @@ export default function SesExitPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">SESからの脱出、今日から始めよう</h2>
+          <h2 className="text-xl font-bold mb-3">SESからの転職準備を始めましょう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントに無料登録して、自社開発・社内SEの求人をチェックしてみませんか？</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

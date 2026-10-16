@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：賞与を踏まえたタイミングの考え方" },
+  { id: "conclusion", label: "賞与を踏まえたタイミングの考え方" },
   { id: "rule", label: "賞与支給の基本ルール" },
   { id: "schedule", label: "支給日から逆算するスケジュール" },
   { id: "tradeoff", label: "賞与待ちと早期転職のトレードオフ" },
@@ -27,7 +27,7 @@ const toc = [
 
 const rules = [
   {
-    title: "支給日在籍が条件のことが多い",
+    title: "多くの企業で支給日在籍が条件",
     desc: "多くの企業は「支給日に在籍していること」を賞与支給の条件にしています。支給日前に退職すると受け取れない可能性があるため、就業規則の確認が必須です。",
   },
   {
@@ -35,7 +35,7 @@ const rules = [
     desc: "賞与は過去の一定期間（算定期間）の勤務・評価に対して支払われます。退職予定を伝えた後の評価が下がるケースもあるため、伝達のタイミングも考慮します。",
   },
   {
-    title: "規定は会社ごとに異なる",
+    title: "会社ごとに異なる規定",
     desc: "支給条件・支給日・減額規定は就業規則で会社ごとに違います。一般論で判断せず、必ず自社の規定を確認することが大前提です。",
   },
 ];
@@ -75,7 +75,7 @@ const faqs = [
   },
   {
     q: "支給日前に退職するとボーナスはもらえませんか？",
-    a: "多くの企業が「支給日に在籍していること」を条件にしているため、支給日前の退職だと受け取れない可能性が高いです。ただし規定は会社ごとに異なり、支給日後でも退職予定者は減額される規定がある場合もあります。必ず自社の就業規則を確認してください。",
+    a: "多くの企業が「支給日に在籍していること」を条件にしているため、支給日前の退職だと受け取れない可能性が高いといえます。ただし規定は会社ごとに異なり、支給日後でも退職予定者は減額される規定がある場合もあります。必ず自社の就業規則を確認してください。",
   },
   {
     q: "退職を伝えるのは賞与支給の前後どちらがいいですか？",
@@ -164,14 +164,14 @@ export default function BonusTimingPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ボーナスをもらってから転職すべき？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 就業規則で支給条件を確認し、支給日から逆算してスケジュールを組み、賞与額と機会損失を金額で比較して判断します。賞与だけで転職時期を決めるのは危険です。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>就業規則で支給条件を確認し、支給日から逆算してスケジュールを組み、賞与額と機会損失を金額で比較して判断します。賞与だけで転職時期を決めるのは危険です。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・多くの企業は「支給日に在籍していること」が支給条件のため、就業規則の確認が必須です</li><li>・賞与の数十万円は一時的な金額です。転職先の選択は生涯年収やキャリアに長く影響します</li><li>・好条件の内定が先に出たなら、賞与を見送ってでも動いたほうが得なこともあります</li></ul>
           </div>
         </section>
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：賞与を踏まえたタイミングの考え方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">賞与を踏まえたタイミングの考え方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               基本方針は、<strong>「就業規則で支給条件を確認し」「支給日から逆算してスケジュールを組み」「賞与額と機会損失を金額で比較する」</strong>ことです。賞与は取れるなら取るに越したことはありませんが、それだけで転職時期を決めるのは危険です。
@@ -244,7 +244,7 @@ export default function BonusTimingPage() {
             <div className="bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 mb-2">早期に動くメリット</h3>
               <p className="text-sm text-amber-700 leading-relaxed">
-                好条件の求人を逃さず、年収アップや裁量の大きいポジションを早く掴めることが重要です。転職後の年収増が、待った賞与額を上回ることも珍しくありません。賞与額と機会の価値を金額で比較しましょう。
+                好条件の求人を逃さず、年収アップや裁量の大きいポジションを早く得られることが利点です。転職後の年収増が、待った賞与額を上回ることも珍しくありません。賞与額と機会の価値を金額で比較しましょう。
               </p>
             </div>
           </div>
@@ -285,11 +285,11 @@ export default function BonusTimingPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：機会の価値を優先しやすい</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                30代は年収が伸びる重要な時期です。賞与の取り逃しは一時的でも、転職での年収アップは長く効きます。好条件の内定が出たなら、賞与を待たずに動くほうが生涯年収で有利になることが多いと考えましょう。
+                30代は年収が伸びる重要な時期です。賞与の取り逃しは一時的でも、転職での年収アップは長く影響します。好条件の内定が出たなら、賞与を待たずに動くほうが生涯年収で有利になることが多いと考えましょう。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">40代：賞与額と求人の希少性を天秤に</h3>
+              <h3 className="font-bold text-blue-800 mb-2">40代：賞与額と求人の希少性の比較が重要</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
                 40代は賞与額も大きくなりがちですが、年齢が上がるほど好条件の求人との出会いの希少性も高まります。賞与を待つ間に機会を逃すリスクと、確実に取れる賞与額を金額ベースで比較し、感情ではなく数字で判断しましょう。
               </p>
@@ -315,7 +315,7 @@ export default function BonusTimingPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">入社時期の調整はプロに任せよう</h2>
+          <h2 className="text-xl font-bold mb-3">入社時期の調整はエージェントに相談しましょう</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントなら、賞与や引き継ぎを踏まえた入社時期の交渉も代行してくれます。
           </p>

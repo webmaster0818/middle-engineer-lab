@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：宇都宮・栃木のIT転職市場の特徴" },
+  { id: "conclusion", label: "宇都宮・栃木のIT転職市場の特徴" },
   { id: "market", label: "宇都宮・栃木のIT・製造業集積" },
   { id: "reality", label: "求人の実情" },
   { id: "workstyle", label: "働き方の選択肢（新幹線通勤×リモート）" },
@@ -26,7 +26,7 @@ const toc = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も見られる層です。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手の層です。ポテンシャル採用も見られます。" },
   { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
   { age: "40代", salary: "約618万円", note: "マネジメント・高度専門で年収が伸びやすい層です。" },
   { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
@@ -37,25 +37,25 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人や新幹線通勤圏の都内求人を介して宇都宮在住のまま都市部水準の案件を狙う使い方と相性が良いです。高年収求人比率の高さも特徴とされます。",
+      "IT/Web領域に特化したエージェントです。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人や新幹線通勤圏の都内求人を介して宇都宮在住のまま都市部水準の案件を狙う使い方と相性が良いといえます。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型です。地方在住からの相談に向き、未経験歓迎求人も比較的多いです。北関東・栃木の地元求人と首都圏求人の双方に当たりやすいです。",
+      "全国47都道府県57拠点を構える総合型のエージェントです。地方在住者からの相談に対応し、未経験歓迎求人も比較的多く見られます。北関東・栃木の地元求人と首都圏求人の双方を探しやすくなります。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、求人母数の多さが強みです。製造業DXの求人や首都圏通勤圏の求人など、幅広く当たりやすいです。",
+      "全国対応の総合型エージェントです。検索・エージェント・スカウトを組み合わせたハイブリッド型で、求人母数の多さが強みです。製造業DXの求人や首都圏通勤圏の求人など、幅広く探しやすくなります。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     point:
-      "ハイクラス・スカウト型です。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、宇都宮在住のまま探したい人向けです。市場価値を客観的に把握しやすいです。",
+      "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、宇都宮在住のまま探したい人に適しています。市場価値を客観的に把握しやすくなります。",
   },
 ];
 
@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "宇都宮・栃木へのUIターン移住に使える支援制度はありますか？",
-    a: "栃木県や宇都宮市など各市町村は移住・定住の相談窓口や支援情報を公開しています。国の地方創生施策である移住支援金（東京圏からの移住で要件を満たすと交付される制度です。金額・要件は自治体ごとに異なる）の対象になる場合もあります。ただし宇都宮・栃木は東京圏の通勤圏という性格もあり、移住支援金の対象範囲は地域・要件で変わります。必ず栃木県・移住先市町村の公式サイトや相談窓口で最新の要件を確認してください。",
+    a: "栃木県や宇都宮市など各市町村は移住・定住の相談窓口や支援情報を公開しています。国の地方創生施策である移住支援金（東京圏からの移住で要件を満たすと交付される制度で、金額・要件は自治体ごとに異なります）の対象になる場合もあります。ただし宇都宮・栃木は東京圏の通勤圏という性格もあり、移住支援金の対象範囲は地域・要件で変わります。必ず栃木県・移住先市町村の公式サイトや相談窓口で最新の要件を確認してください。",
   },
   {
     q: "宇都宮・栃木のIT転職におすすめのエージェントは？",
@@ -86,7 +86,7 @@ const faqs = [
   },
   {
     q: "Web系志望ですが宇都宮で転職先はありますか？",
-    a: "宇都宮・栃木は製造業×ITの実需がある一方、純粋なWeb/SaaS自社開発の地元求人は母数が限られます。Web系を志望する場合は、新幹線通勤圏の都内求人（ハイブリッド）や首都圏企業のフルリモート求人を中心に探すのが現実的です。宇都宮の暮らしを保ちつつ、都内水準のWeb開発の案件に関われる可能性があります。地元求人だけに絞らないことが選択肢を広げる鍵です。",
+    a: "宇都宮・栃木は製造業×ITの実需がある一方、純粋なWeb/SaaS自社開発の地元求人は母数が限られます。Web系を志望する場合は、新幹線通勤圏の都内求人（ハイブリッド）や首都圏企業のフルリモート求人を中心に探すのが現実的です。宇都宮の暮らしを保ちつつ、都内水準のWeb開発の案件に関われる可能性があります。地元求人だけに絞らないことが、選択肢を広げるうえで重要です。",
   },
 ];
 
@@ -152,16 +152,16 @@ export default function UtsunomiyaAreaPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 市場の特徴 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：宇都宮・栃木のIT転職市場の特徴</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">宇都宮・栃木のIT転職市場の特徴</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              宇都宮・栃木は「製造業×ITの実需」と「新幹線で東京通勤圏」という2つの強みを併せ持つ稀有なエリアです。地元の製造業DX・社内SE求人に加え、都内ハイブリッド求人や首都圏フルリモートを組み合わせれば、地方都市の中でも選択肢を広げやすい立地です。
+              宇都宮・栃木は「製造業×ITの実需」と「新幹線で東京通勤圏」という2つの特徴を併せ持つエリアです。地元の製造業DX・社内SE求人に加え、都内ハイブリッド求人や首都圏フルリモートを組み合わせれば、地方都市の中でも選択肢を広げやすい立地です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・北関東の製造業集積を背景に、製造業×IT・社内DXの実需がある</li>
-              <li>・東北新幹線で東京駅まで概ね1時間弱です。都内ハイブリッド勤務が現実的に取れる立地</li>
+              <li>・北関東の製造業集積を背景に、製造業×IT・社内DXの実需があります</li>
+              <li>・東北新幹線で東京駅まで概ね1時間弱で、都内企業へのハイブリッド勤務も現実的な選択肢になります</li>
               <li>・Web/SaaS自社開発の地元求人は限られます。フルリモート・都内通勤圏の併用で補います</li>
             </ul>
           </div>
@@ -197,7 +197,7 @@ export default function UtsunomiyaAreaPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">新幹線通勤圏という立地</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                宇都宮駅から東京駅までは東北新幹線で概ね1時間弱です。地方都市でありながら東京の求人を通勤圏として捉えられる稀有な立地です。週数回出社のハイブリッド勤務であれば、宇都宮に住みながら都内企業で働く選択肢が現実的に取れます。
+                宇都宮駅から東京駅までは東北新幹線で概ね1時間弱です。地方都市でありながら、東京の求人を通勤圏として捉えられる立地です。週数回出社のハイブリッド勤務であれば、宇都宮に住みながら都内企業で働く選択肢が現実的に取れます。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
@@ -226,7 +226,7 @@ export default function UtsunomiyaAreaPage() {
               <strong>自分の専門の向き先を見極める：</strong> 製造業×IT・社内SE志向なら地元求人、Web/SaaS志向なら都内ハイブリッドかフルリモート、と専門によって有利な方向が変わります。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              <strong>件数の数字を鵜呑みにしない：</strong> 求人件数は時期・媒体・エージェントで大きく変動します。本記事では具体的な件数を断定しません。最新の実数は複数のエージェントに当たって確認してください。
+              <strong>件数の数字を鵜呑みにしない：</strong> 求人件数は時期・媒体・エージェントで大きく変動します。本記事では具体的な件数を断定しません。最新の実数は複数のエージェントに問い合わせて確認してください。
             </p>
           </div>
         </section>
@@ -241,19 +241,19 @@ export default function UtsunomiyaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元の製造業×IT・社内SEに勤務:</strong> 宇都宮・栃木の製造業や関連企業で、組み込み・制御・生産技術・社内DXを担います。ものづくりを支えるITに関心がある人や、地域に根ざして働きたい人向けです。
+                <strong>地元の製造業×IT・社内SEに勤務:</strong> 宇都宮・栃木の製造業や関連企業で、組み込み・制御・生産技術・社内DXを担います。ものづくりを支えるITに関心がある人や、地域に根ざして働きたい人に適しています。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>宇都宮在住×都内企業のハイブリッド勤務:</strong> 新幹線通勤圏の立地を活かし、週数回出社で都内企業に通います。宇都宮の暮らしと都内水準の求人・年収を両立したい人向けです。交通費・通勤時間は求人ごとに確認しましょう。
+                <strong>宇都宮在住×都内企業のハイブリッド勤務:</strong> 新幹線通勤圏の立地を活かし、週数回出社で都内企業に通います。宇都宮の暮らしと都内水準の求人・年収を両立したい人に適しています。交通費・通勤時間は求人ごとに確認しましょう。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>宇都宮在住×首都圏企業のフルリモート:</strong> 通勤すら省き、宇都宮の生活コストを保ちつつ首都圏水準の年収・案件を狙う選択肢です。
+                <strong>宇都宮在住×首都圏企業のフルリモート:</strong> 通勤をなくし、宇都宮の生活コストを保ちつつ首都圏水準の年収・案件を狙う選択肢です。
                 <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート可の求人</Link>
                 や
                 <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
@@ -318,7 +318,7 @@ export default function UtsunomiyaAreaPage() {
             ※ 出典: レバテック公表の年代別平均年収（2025年・正社員SE）。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。いずれも全国の値で、宇都宮・栃木エリア限定の数値ではありません。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            宇都宮で年収を考えるときは、立地を活かすのが鍵です。都内ハイブリッドやフルリモート求人を選べば、宇都宮の生活コストのまま都内水準の額面を狙える可能性があります。年代別の考え方は
+            宇都宮で年収を考えるときは、立地を活かすことが重要です。都内ハイブリッドやフルリモート求人を選べば、宇都宮の生活コストのまま都内水準の額面を狙える可能性があります。年代別の考え方は
             <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収アップ</Link>
             ・
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>
@@ -374,13 +374,13 @@ export default function UtsunomiyaAreaPage() {
               <h3 className="font-bold text-slate-700 text-sm mb-3">慎重に検討したい人</h3>
               <ul className="space-y-2 text-sm text-slate-700">
                 <li className="flex gap-2"><span className="shrink-0">−</span><span>最先端のWeb/SaaS自社開発を地元の出社求人だけで探したい（母数は限られる）</span></li>
-                <li className="flex gap-2"><span className="shrink-0">−</span><span>毎日の新幹線通勤の交通費・時間を負担に感じます（ハイブリッド・フルリモートで調整）</span></li>
+                <li className="flex gap-2"><span className="shrink-0">−</span><span>毎日の新幹線通勤の交通費・時間を負担に感じる（ハイブリッド・フルリモートで調整）</span></li>
                 <li className="flex gap-2"><span className="shrink-0">−</span><span>製造業×ITの領域に関心がない（地元求人の主軸とミスマッチになりやすい）</span></li>
               </ul>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            「慎重に検討したい人」に当てはまっても、宇都宮在住のまま都内ハイブリッドや首都圏フルリモートの求人を選べば、希望の案件・年収に近づける場合があります。立地の強みを活かして働き方の選択肢を広げることが宇都宮での転職成功の近道です。
+            「慎重に検討したい人」に当てはまっても、宇都宮在住のまま都内ハイブリッドや首都圏フルリモートの求人を選べば、希望の案件・年収に近づける場合があります。立地の強みを活かして働き方の選択肢を広げることが宇都宮での転職を進めるうえで有効です。
           </p>
         </section>
 
@@ -431,7 +431,7 @@ export default function UtsunomiyaAreaPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">宇都宮×リモート・通勤圏でIT転職を進めよう</h2>
+          <h2 className="text-xl font-bold mb-3">宇都宮で通勤圏・リモートを活かしたIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
             地元の製造業×ITから都内ハイブリッド・首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、年収と暮らしのバランスが取れる選択肢を見つけましょう。
           </p>

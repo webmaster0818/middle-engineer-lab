@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Microsoft Azure Fundamentals(AZ-900)は転職に効くか【2026年】";
 const PAGE_DESC =
-  "Microsoft Azure Fundamentals（AZ-900）を、入門レベルの資格という観点から30代・40代向けに解説します。受験料・試験形式・合格スコア・出題範囲を公式情報で整理し、Azure学習の出発点としての価値と、それ単体では弱いという限界をまとめます。";
+  "Microsoft Azure Fundamentals（AZ-900）を、入門レベルの資格という観点から30代・40代向けに解説します。受験料・試験形式・合格スコア・出題範囲を公式情報で整理し、Azure学習の出発点としての価値と、それ単体では評価されにくいという限界をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/azure-fundamentals/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：AZ-900は誰に効く資格か" },
+  { id: "conclusion", label: "AZ-900はどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・合格基準）" },
   { id: "scope", label: "出題範囲（3分野）" },
   { id: "value", label: "30代・40代経験者にとっての価値（客観的な評価）" },
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "AZ-900の受験料はいくらですか？",
-    a: "Microsoft公式によると、AZ-900の受験料は米国で監督付き受験の場合99 USDです（日本円では概ね1万円台前半が目安。価格は受験国・地域や為替で変動します、2026年6月時点です）。最新の正確な金額は、Pearson VUEでのスケジュール時にMicrosoft Learnでご確認ください。",
+    a: "Microsoft公式によると、AZ-900の受験料は米国で監督付き受験の場合99 USDです（日本円では概ね1万円台前半が目安。価格は受験国・地域や為替で変動します。2026年6月時点）。最新の正確な金額は、Pearson VUEでのスケジュール時にMicrosoft Learnでご確認ください。",
   },
   {
     q: "AZ-900の試験形式と合格スコアを教えてください。",
@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     q: "AZ-900とAZ-104はどちらを取るべきですか？",
-    a: "実務でAzureを扱う経験があるなら、AZ-104（Azure管理者アソシエイト）の方が転職での評価につながりやすいです。AZ-900はあくまで入門で、クラウド・Azureの全体像を初めて押さえる人向けです。すでにインフラ運用の経験があるミドルは、AZ-900を飛ばしてAZ-104を直接狙う、あるいはAZ-900で全体像を素早く掴んでからAZ-104へ進む、のいずれかが効率的です。",
+    a: "実務でAzureを扱う経験があるなら、AZ-104（Azure管理者アソシエイト）の方が転職での評価につながりやすい傾向があります。AZ-900はあくまで入門で、クラウド・Azureの全体像を初めて押さえる人向けです。すでにインフラ運用の経験があるミドルは、AZ-900を飛ばしてAZ-104を直接狙う、あるいはAZ-900で全体像を素早く掴んでからAZ-104へ進む、のいずれかが効率的です。",
   },
 ];
 
@@ -125,15 +125,15 @@ export default function CertAzureFundamentalsPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AZ-900は誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">AZ-900はどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              AZ-900は<strong>入門資格</strong>です。Microsoft自身が『Azureキャリアの一般的な出発点』と位置づけており、転職の決め手というより<strong>「これからAzureを学ぶための土台と姿勢の証明」</strong>として捉えるのが実際のところです。経験者は上位資格の前段として活用するのが現実的です。
+              AZ-900は<strong>入門資格</strong>です。Microsoft自身が『Azureキャリアの一般的な出発点』と位置づけており、転職の決め手というより<strong>「これからAzureを学ぶための土台と姿勢の証明」</strong>として捉えるのが実態に近いといえます。経験者は上位資格の前段として活用するのが現実的です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>これからAzureを学ぶ人</strong>：全体像を短期間で体系的に押さえる入口として有効です</li>
-              <li>② <strong>インフラ実務のあるミドル</strong>：AZ-900は基礎的すぎる場合があります。AZ-104を直接狙う選択も</li>
-              <li>③ <strong>転職の決め手としては弱い</strong>：単体ではなく、上位資格・実務とセットで意味を持ちます</li>
+              <li>② <strong>インフラ実務のあるミドル</strong>：AZ-900は基礎的すぎる場合があります。AZ-104を直接狙う選択肢もあります</li>
+              <li>③ <strong>転職の決め手にはなりにくい</strong>：単体ではなく、上位資格・実務と組み合わせることで意味を持ちます</li>
             </ul>
           </div>
         </section>
@@ -166,9 +166,9 @@ export default function CertAzureFundamentalsPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "クラウドの概念について説明します", d: "クラウドコンピューティングの基礎、サービスモデル（IaaS/PaaS/SaaS）やメリットの理解です。" },
-              { t: "Azureのアーキテクチャとサービスについて説明します", d: "Compute・ネットワーク・Storageなど、Azureのコアサービスと構成要素の理解です。" },
-              { t: "Azureの管理とガバナンスについて説明します", d: "コスト管理、セキュリティ・コンプライアンス、ガバナンスのツールと機能の理解です。" },
+              { t: "クラウドの概念の説明", d: "クラウドコンピューティングの基礎、サービスモデル（IaaS/PaaS/SaaS）やメリットの理解。" },
+              { t: "Azureのアーキテクチャとサービスの説明", d: "Compute・ネットワーク・Storageなど、Azureのコアサービスと構成要素の理解。" },
+              { t: "Azureの管理とガバナンスの説明", d: "コスト管理、セキュリティ・コンプライアンス、ガバナンスのツールと機能の理解。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -186,13 +186,13 @@ export default function CertAzureFundamentalsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代経験者にとっての価値（客観的な評価）</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              実際には、AZ-900は<strong>それ単体で転職を後押しする力は強くありません</strong>。Microsoft自身が『初級』『Azureキャリアの出発点』と位置づける入門資格であり、実装スキルを問うものではないためです。すでにインフラ運用などの実務経験があるミドルにとっては、内容が基礎的すぎると感じる場面もあるでしょう。
+              実際には、AZ-900は<strong>それ単体で転職を後押しする効果は大きくありません</strong>。Microsoft自身が『初級』『Azureキャリアの出発点』と位置づける入門資格であり、実装スキルを問うものではないためです。すでにインフラ運用などの実務経験があるミドルにとっては、内容が基礎的すぎると感じる場面もあるでしょう。
             </p>
             <p>
               それでも価値はあります。Azureを扱う案件は官公庁・大企業を中心に根強く、<strong>クラウド全体像を短期間で体系化し、上位資格（AZ-104など）へ進む土台を作る</strong>には効率的です。学習意欲の客観的な証明にもなり、AWSしか触れてこなかった人がAzureへ間口を広げる第一歩としても機能します。重要なのは、AZ-900を「ゴール」ではなく「通過点」と位置づけることです。
             </p>
             <p>
-              もう一つ補足すると、転職市場でAZ-900そのものが応募要件に挙がることは多くありません。求人で求められるのは多くの場合、AZ-104以上のロールベース認定や実務経験です。だからこそAZ-900は「履歴書を飾る一行」ではなく、「これから本格的に学ぶための地図」として使うのが賢明です。クラウドの料金モデルやガバナンス、共有責任モデルといった概念を先に押さえておけば、その後のAZ-104の学習や、実際のクラウド移行プロジェクトでの会話が一段スムーズになります。入門資格の価値は、合格そのものより、その先の学習を加速させる点にあります。
+              もう一つ補足すると、転職市場でAZ-900そのものが応募要件に挙がることは多くありません。求人で求められるのは多くの場合、AZ-104以上のロールベース認定や実務経験です。そのためAZ-900は、履歴書に記載する資格としてよりも、これから本格的に学ぶための全体像の把握に活用するのが適切です。クラウドの料金モデルやガバナンス、共有責任モデルといった概念を先に押さえておけば、その後のAZ-104の学習や、実際のクラウド移行プロジェクトでのやり取りが円滑になります。入門資格の価値は、合格そのものより、その先の学習を効率化できる点にあります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/azure/" className="text-petrol hover:underline">Azureエンジニア転職ガイド</Link>も合わせてご覧ください。
@@ -206,7 +206,7 @@ export default function CertAzureFundamentalsPage() {
           <div className="space-y-3">
             {[
               { t: "Azure未経験からの学習スタートの証明", d: "AWS経験者などがAzureへ間口を広げる際、基礎理解と学習姿勢の客観的な証明になります。" },
-              { t: "クラウド全体像の理解の土台", d: "サービスモデルやガバナンスの基礎を押さえ、上位資格・実務の理解を加速させます。" },
+              { t: "クラウド全体像の理解の土台", d: "サービスモデルやガバナンスの基礎を押さえ、上位資格・実務の理解を深めやすくなります。" },
               { t: "資格手当・社内評価の対象", d: "入門資格でも手当・評価の対象とする企業があり、社内での学習評価の入口になります。" },
               { t: "AZ-104など上位資格への布石", d: "Azureの全体像を先に掴むことで、ロールベース認定の学習効率が上がります。" },
             ].map((x, i) => (
@@ -227,7 +227,7 @@ export default function CertAzureFundamentalsPage() {
           <div className="space-y-3">
             {[
               { t: "Azureインフラエンジニア（AZ-104の先）", d: "全体像を押さえたうえでAZ-104へ進み、Azure環境の構築・運用を担います。" },
-              { t: "クラウドインフラエンジニア（マルチクラウド）", d: "AWS×Azureの両方を理解する人材として、マルチクラウド案件で評価されます。" },
+              { t: "クラウドインフラエンジニア（マルチクラウド）", d: "AWSとAzureの両方を理解する人材として、マルチクラウド案件で評価されます。" },
               { t: "社内SE・情シス（クラウド移行担当）", d: "クラウド基礎の共通言語として、移行プロジェクトの初期検討で役立ちます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -246,9 +246,9 @@ export default function CertAzureFundamentalsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "Microsoft Learnの無料教材で学びます", d: "公式の無料ラーニングパスで、クラウド概念・Azureサービス・ガバナンスの3分野を押さえます。" },
+              { n: "STEP 1", t: "Microsoft Learnの無料教材で学ぶ", d: "公式の無料ラーニングパスで、クラウド概念・Azureサービス・ガバナンスの3分野を押さえます。" },
               { n: "STEP 2", t: "公式の練習評価で確認", d: "Microsoft Learnの練習評価（プラクティス）で出題スタイルと理解度を確認します。" },
-              { n: "STEP 3", t: "合格→AZ-104など上位へ", d: "全体像を掴んだら、ロールベース認定のAZ-104（Azure管理者）へ進み実装力を示します。" },
+              { n: "STEP 3", t: "合格後はAZ-104など上位資格を目指す", d: "全体像を掴んだら、ロールベース認定のAZ-104（Azure管理者）へ進み実装力を示します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -260,7 +260,7 @@ export default function CertAzureFundamentalsPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            次の一手は<Link href="/cert/azure-administrator/" className="text-petrol hover:underline">Azure Administratorです（AZ-104）</Link>。AWSと比較検討するなら<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定SAA</Link>も併せてご覧ください。
+            次に目指す資格は<Link href="/cert/azure-administrator/" className="text-petrol hover:underline">Azure Administrator（AZ-104）</Link>です。AWSと比較検討するなら<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定SAA</Link>も併せてご覧ください。
           </p>
         </section>
 

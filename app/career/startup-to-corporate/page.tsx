@@ -17,7 +17,7 @@ const DESC =
 const URL = "/career/startup-to-corporate/";
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と進め方" },
+  { id: "conclusion", label: "現実性と進め方" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "大企業選考に向けた準備" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -50,14 +50,14 @@ const gapRows = [
   },
   {
     axis: "意思決定",
-    startup: "現場裁量が大きいです",
+    startup: "現場裁量が大きい傾向",
     corp: "承認プロセスがあり合議的",
     gap: "大",
   },
   {
     axis: "そのまま活きる力",
     startup: "0→1構築・自走力・横断的な技術経験",
-    corp: "DX推進・新規事業部門で重宝されます",
+    corp: "DX推進・新規事業部門で重宝される経験",
     gap: "活用",
   },
   {
@@ -114,19 +114,19 @@ const agents = [
   {
     name: "リクルートエージェント（IT）",
     point:
-      "国内最大級の求人数です。大手企業のDX推進・新規事業部門の非公開求人が豊富で、大企業転職の主力にしやすいです（IT公開求人110,840件／非公開101,680件・2026年5月22日時点・二次集計）。",
+      "国内最大級の求人数を保有しています。大手企業のDX推進・新規事業部門の非公開求人が豊富で、大企業転職の主な相談先として利用できます（IT公開求人110,840件／非公開101,680件・2026年5月22日時点・二次集計）。",
     href: "/review/recruit-it/",
   },
   {
     name: "ビズリーチ",
     point:
-      "ハイクラス・スカウト型です。年収750万円以上の大企業ポジションのスカウトが届きやすく、市場価値の把握にも使えます（二次情報）。",
+      "ハイクラス向けのスカウト型サービスです。年収750万円以上の大企業ポジションのスカウトが届きやすく、市場価値の把握にも使えます（二次情報）。",
     href: "/review/bizreach-it/",
   },
   {
     name: "レバテックキャリア",
     point:
-      "IT/Web特化です。技術力を評価する求人に強く、大手Web企業のテックリード求人なども扱います。書類添削や面接対策が丁寧との声がQiitaJobChange等で見られます。",
+      "IT/Web領域に特化したエージェントです。技術力を評価する求人に強みがあり、大手Web企業のテックリード求人なども扱います。書類添削や面接対策が丁寧との声がQiitaJobChange等で見られます。",
     href: "/review/levtech/",
   },
 ];
@@ -134,7 +134,7 @@ const agents = [
 const faqs = [
   {
     q: "スタートアップから大企業への転職は不利？",
-    a: "不利とは限りません。0→1構築や自走力、横断的な技術経験は大企業のDX推進・新規事業部門で歓迎されます。鍵は、属人的な成果を再現性のある形で語れるかどうかです。",
+    a: "不利とは限りません。0→1構築や自走力、横断的な技術経験は大企業のDX推進・新規事業部門で歓迎されます。重要なのは、属人的な成果を再現性のある形で語れるかどうかです。",
   },
   {
     q: "年収は上がる？",
@@ -154,7 +154,7 @@ const faqs = [
   },
   {
     q: "コーディングテストや適性検査が不安です。",
-    a: "大企業では選考にコーディングテストや適性検査が入ることが多いです。基本的なアルゴリズムと、行動面接のSTAR法整理を事前に対策しておけば落ち着いて臨めます。",
+    a: "大企業では選考にコーディングテストや適性検査が含まれる場合が多くあります。基本的なアルゴリズムと、行動面接のSTAR法整理を事前に対策しておけば落ち着いて臨めます。",
   },
   {
     q: "在職中と退職後、どちらで活動すべき？",
@@ -238,12 +238,12 @@ export default function StartupToCorporatePage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">
-              結論：0→1経験は強みです。再現性とSTAR整理が選考突破の鍵
+              0→1経験が強み。重点は再現性の説明とSTAR法での整理
             </h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・自走力・横断経験はDX推進や新規事業部門で歓迎されます。カルチャーが近い部門を狙います。</li>
+              <li>・自走力・横断経験はDX推進や新規事業部門で歓迎されます。カルチャーが近い部門を選ぶと移行しやすくなります。</li>
               <li>・ギャップは選考プロセスと意思決定スピードです。STAR法整理とテスト対策で備えます。</li>
-              <li>・属人的な成果を『再現性のある形』に翻訳して職務経歴書・面接で語るのが突破口です。</li>
+              <li>・属人的な成果を『再現性のある形』に翻訳して職務経歴書・面接で語ることが選考通過のポイントです。</li>
             </ul>
           </div>
         </section>
@@ -321,13 +321,13 @@ export default function StartupToCorporatePage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（幅広さの羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                スタートアップにてフロントからインフラまで幅広く担当。少人数チームで開発・運用を兼任し、必要に応じてあらゆる業務に対応しました。
+                スタートアップにてフロントからインフラまで幅広く担当。少人数チームで開発・運用を兼任し、必要に応じてあらゆる業務に対応。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（課題→打ち手→定量成果＋再現性）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                急成長に伴う負荷増大という課題に対し、ボトルネックを分析のうえキャッシュ戦略とインフラ構成を再設計し、レスポンスとコストを改善。0→1のサービス立ち上げを技術選定から主導しました。属人化していた運用を手順化・ドキュメント化し、再現性のある形で他メンバーに展開しました。
+                急成長に伴う負荷増大という課題に対し、ボトルネックを分析のうえキャッシュ戦略とインフラ構成を再設計し、レスポンスとコストを改善。0→1のサービス立ち上げを技術選定から主導。属人化していた運用を手順化・ドキュメント化し、再現性のある形で他メンバーに展開。
               </p>
             </div>
           </div>
@@ -388,7 +388,7 @@ export default function StartupToCorporatePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">大企業への転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            スタートアップ経験を最大限に評価してくれる大企業ポジションをプロが提案します。
+            スタートアップ経験を適切に評価する大企業ポジションをプロが提案します。
           </p>
           <Link
             href="/#ranking"

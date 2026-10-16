@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "ハローワークのIT転職での使い方｜職業訓練と失業給付";
 const PAGE_DESC =
-  "30代・40代エンジニア向けに、ハローワークをIT転職でどう使うかを解説します。IT求人の質と量の傾向、職業訓練（ハロートレーニング）、失業給付の流れ、IT特化サービスとの併用が現実的な理由を、公的制度の出典付きで整理します。";
+  "30代・40代エンジニア向けに、ハローワークをIT転職でどう使うかを解説します。IT求人の質と量の傾向、職業訓練（ハロートレーニング）、失業給付の流れ、IT特化サービスとの併用が現実的な理由を、公的制度の出典とともに整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/hello-work/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：IT特化サービスとの併用が現実的" },
+  { id: "conclusion", label: "IT特化サービスとの併用が現実的" },
   { id: "what", label: "ハローワークとは" },
   { id: "pros-cons", label: "IT転職でのメリットとデメリット" },
   { id: "training", label: "職業訓練（ハロートレーニング）" },
@@ -29,7 +29,7 @@ const toc = [
 const faqs = [
   {
     q: "ハローワークにIT・エンジニアの求人はありますか？",
-    a: "あります。ただしIT専門の求人は、IT特化型の転職サービスと比べると数が限られ、質にもばらつきがある傾向です。地元の中小企業や社内SE、未経験歓迎の求人が中心になりやすく、ハイクラスやモダンな技術環境の求人は少なめです。求人の幅を確保するには、IT特化サービスとの併用が現実的です。",
+    a: "あります。ただしIT専門の求人は、IT特化型の転職サービスと比べると数が限られ、質にもばらつきがある傾向があります。地元の中小企業や社内SE、未経験歓迎の求人が中心になりやすく、ハイクラスやモダンな技術環境の求人は少なめです。求人の幅を確保するには、IT特化サービスとの併用が現実的です。",
   },
   {
     q: "ハローワークの利用は無料ですか？",
@@ -91,8 +91,8 @@ export default function HelloWorkPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ハローワークだけでIT・エンジニア転職はできる？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: できますが非効率です。ハローワークは失業給付・職業訓練・地元求人の窓口として使い、求人探しはIT特化サービスと併用するのが現実的です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・利用は完全無料です。求人検索・職業相談・失業給付の手続き・職業訓練の申し込みまで公的機関で対応</li><li>・IT専門求人は数・質ともに限られ、モダンな技術環境やハイクラス求人は少なめ</li><li>・自己都合退職の給付制限は2025年4月以降の離職で原則1か月に短縮（厚生労働省・令和6年雇用保険法改正）</li><li>・地方在住・公的支援や職業訓練を使いたい人ほど価値が高いです</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>できますが非効率です。ハローワークは失業給付・職業訓練・地元求人の窓口として使い、求人探しはIT特化サービスと併用するのが現実的です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・利用は完全無料です。求人検索・職業相談・失業給付の手続き・職業訓練の申し込みまで公的機関で対応しています</li><li>・IT専門求人は数・質ともに限られ、モダンな技術環境やハイクラス求人は少なめです</li><li>・自己都合退職の給付制限は2025年4月以降の離職で原則1か月に短縮されました（厚生労働省・令和6年雇用保険法改正）</li><li>・地方在住・公的支援や職業訓練を使いたい人ほど価値が高いといえます</li></ul>
           </div>
         </section>
 
@@ -124,14 +124,14 @@ export default function HelloWorkPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：IT特化サービスとの併用が現実的</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">IT特化サービスとの併用が現実的</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               ハローワークの強みは「公的支援・職業訓練・地元求人・無料」です。一方、IT専門求人の量と質はIT特化型の転職サービスに分があります。エンジニアは、<strong>失業給付・職業訓練・地方求人の目的でハローワークを使い、求人探しはIT特化サービスで補う</strong>併用が現実的です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>・失業給付や職業訓練の窓口としては必須です</li>
-              <li>・IT専門求人は数・質ともに限られる傾向です</li>
-              <li>・地方在住・公的支援を使いたい人ほど価値が高いです</li>
+              <li>・IT専門求人は数・質ともに限られる傾向があります</li>
+              <li>・地方在住・公的支援を使いたい人ほど価値が高いといえます</li>
             </ul>
           </div>
         </section>
@@ -153,7 +153,7 @@ export default function HelloWorkPage() {
               <h3 className="font-bold text-green-800 mb-2">メリット</h3>
               <ul className="text-sm text-green-700 space-y-1.5">
                 <li>・完全無料で利用できます</li>
-                <li>・地元・地方の求人に強いです</li>
+                <li>・地元・地方の求人に強みがあります</li>
                 <li>・公的職業訓練（ハロートレーニング）と連携します</li>
                 <li>・失業給付の手続き窓口になります</li>
                 <li>・職業相談で客観的な助言が得られます</li>
@@ -162,9 +162,9 @@ export default function HelloWorkPage() {
             <div className="bg-red-50 rounded-lg p-5">
               <h3 className="font-bold text-red-800 mb-2">デメリット</h3>
               <ul className="text-sm text-red-700 space-y-1.5">
-                <li>・IT専門求人が少なめ</li>
+                <li>・IT専門求人は少なめです</li>
                 <li>・求人の質にばらつきがあります</li>
-                <li>・モダンな技術環境・ハイクラス求人は少ないです</li>
+                <li>・モダンな技術環境・ハイクラス求人は少ない傾向にあります</li>
                 <li>・技術に精通した相談員は限られます</li>
                 <li>・年収交渉や技術面接の対策は手薄です</li>
               </ul>
@@ -183,9 +183,9 @@ export default function HelloWorkPage() {
           <ul className="space-y-2 mb-4">
             {[
               "雇用保険を受給できる人向けの「公共職業訓練」と、受給できない人向けの「求職者支援訓練」があります",
-              "受講料は基本無料（テキスト代等は自己負担）",
+              "受講料は基本無料です（テキスト代等は自己負担）",
               "条件を満たすと訓練期間中も失業給付が支給され、給付制限が解除される場合があります",
-              "コース内容・期間・選考は地域により異なるため、最寄りのハローワークで要確認",
+              "コース内容・期間・選考は地域により異なるため、最寄りのハローワークでの確認が必要です",
             ].map((c) => (
               <li key={c} className="flex items-start gap-2 text-sm text-slate-700">
                 <span className="text-petrol font-bold shrink-0">✓</span>
@@ -207,7 +207,7 @@ export default function HelloWorkPage() {
             {[
               { step: "離職票を提出し求職申込み", desc: "前職から受け取った離職票を持参し、ハローワークで求職の申し込みと受給資格の決定を受けます。" },
               { step: "待期7日間", desc: "受給資格決定日から通算7日間は「待期」期間で、この間は支給対象になりません。自己都合・会社都合を問わず共通です。" },
-              { step: "給付制限（自己都合のみ）", desc: "自己都合退職は、2025年4月以降の離職で給付制限が原則1か月に短縮されました（改正前は原則2か月）。5年以内に3回以上の自己都合離職は3か月です。会社都合は給付制限なし。" },
+              { step: "給付制限（自己都合のみ）", desc: "自己都合退職は、2025年4月以降の離職で給付制限が原則1か月に短縮されました（改正前は原則2か月）。5年以内に3回以上の自己都合離職は3か月です。会社都合の場合、給付制限はありません。" },
               { step: "雇用保険説明会・認定日", desc: "説明会に参加し、その後は原則4週ごとの失業認定日に求職活動の状況を申告します。認定を受けると基本手当が振り込まれます。" },
             ].map((s, i) => (
               <div key={s.step} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">

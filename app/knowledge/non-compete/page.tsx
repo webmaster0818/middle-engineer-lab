@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：サイン＝必ず有効ではない" },
+  { id: "conclusion", label: "サイン＝必ず有効ではない" },
   { id: "what", label: "競業避止義務とは" },
   { id: "in-out", label: "在職中と退職後の違い" },
   { id: "criteria", label: "有効性を判断する6つの基準（経産省）" },
@@ -63,7 +63,7 @@ const criteria = [
 const faqs = [
   {
     q: "誓約書にサインしたら、競業避止義務は必ず有効になりますか？",
-    a: "いいえ。署名した誓約書や就業規則に競業避止条項があっても、その内容が必ず有効とは限りません。退職後の競業避止義務は、従業員の職業選択の自由を制限するため、合理的な範囲を超える部分は無効と判断されることがあります。裁判では、経済産業省が整理した6つの観点（守るべき企業利益・従業員の地位・地域・期間・禁止範囲・代償措置）などを総合して有効性が判断されます。署名の有無だけで結論は決まりません。",
+    a: "いいえ。署名した誓約書や就業規則に競業避止条項があっても、その内容が必ず有効とは限りません。退職後の競業避止義務は、従業員の職業選択の自由を制限するため、合理的な範囲を超える部分は無効と判断されることがあります。裁判では、経済産業省が整理した6つの観点（守るべき企業利益・従業員の地位・地域・期間・禁止範囲・代償措置）などを総合して有効性が判断されます。署名の有無だけで有効・無効は決まりません。",
   },
   {
     q: "在職中も競業避止義務はありますか？",
@@ -126,7 +126,7 @@ export default function NonCompetePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】競業避止の誓約書にサインしたら、転職先は必ず制限される？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3">
-              <strong>結論: 署名しても内容が必ず有効になるわけではなく、合理的な範囲を超える部分は無効と判断されることがあります。有効性は経済産業省が整理した6つの観点などを総合し、最終的に裁判所が判断します。</strong>
+              <strong>署名しても内容が必ず有効になるわけではなく、合理的な範囲を超える部分は無効と判断されることがあります。有効性は経済産業省が整理した6つの観点などを総合し、最終的に裁判所が判断します。</strong>
             </p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
               <li>・在職中は特約の有無を問わず、退職後は就業規則や個別の特約がある場合に義務が生じます</li>
@@ -169,7 +169,7 @@ export default function NonCompetePage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：サイン＝必ず有効ではない</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">サイン＝必ず有効ではない</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               競業避止の誓約書に署名しても、<strong>その内容が必ず有効になるわけではありません</strong>。退職後の競業避止義務は職業選択の自由を制限するため、合理的な範囲を超える部分は無効と判断されることがあります。有効性は、経済産業省が整理した6つの観点などを総合して、最終的に裁判所が判断します。
             </p>
@@ -205,7 +205,7 @@ export default function NonCompetePage() {
               <tbody>
                 {[
                   { k: "在職中", b: "特約の有無を問わず生じるのが一般的", p: "労働契約上の誠実義務として、勤務先と競合する活動は原則控える必要があります" },
-                  { k: "退職後", b: "就業規則・個別の特約がある場合に限る", p: "特約があっても、合理的範囲を超える部分は無効と判断されることがあります" },
+                  { k: "退職後", b: "就業規則・個別の特約がある場合のみ", p: "特約があっても、合理的範囲を超える部分は無効と判断されることがあります" },
                 ].map((row) => (
                   <tr key={row.k} className="hover:bg-slate-50">
                     <td className="px-4 py-3 border border-slate-200 font-medium">{row.k}</td>
@@ -248,7 +248,7 @@ export default function NonCompetePage() {
             エンジニアは、システムの設計情報や独自アルゴリズム、未公開のソースコード、顧客固有の技術情報など、企業が守るべき技術秘密にアクセスする立場にあることが多い職種です。基準①（守るべき企業利益）や基準②（従業員の地位）の観点から、こうした秘密に深く関与していた場合は、競業避止特約の必要性が認められやすい傾向があります。
           </p>
           <p className="text-slate-600 text-sm leading-relaxed">
-            もっとも、これは「エンジニアなら競業避止が常に有効」という意味ではありません。地域・期間・禁止範囲が広すぎたり、代償措置がなかったりすれば、有効性は弱まります。あくまで6つの基準を総合した判断であり、職種だけで結論は出ません。
+            もっとも、これは「エンジニアなら競業避止が常に有効」という意味ではありません。地域・期間・禁止範囲が広すぎたり、代償措置がなかったりすれば、有効性は弱まります。あくまで6つの基準を総合した判断であり、職種だけで有効性は判断できません。
           </p>
         </section>
 
@@ -280,7 +280,7 @@ export default function NonCompetePage() {
             {[
               "署名前に、禁止される期間・地域・業務範囲・代償措置の有無を確認します",
               "内容に納得できない場合、署名は法的に強制されるものではないと理解しておきます",
-              "前職の営業秘密・ソースコードは持ち出さない、転職先で使いません",
+              "前職の営業秘密・ソースコードは持ち出さず、転職先でも使いません",
               "競合への転職を予定している、または請求を受けたら、早めに弁護士へ相談します",
             ].map((c) => (
               <li key={c} className="flex items-start gap-2 text-sm text-slate-700">
@@ -336,7 +336,7 @@ export default function NonCompetePage() {
         </section>
 
         <section className="bg-gradient-to-r from-slate-700 to-slate-900 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">判断に迷ったら専門家へ</h2>
+          <h2 className="text-xl font-bold mb-3">判断に迷う場合の相談先</h2>
           <p className="text-slate-200 text-sm mb-4">
             競業避止義務の有効性は個別事情で大きく変わります。同業への転職や誓約書の内容に不安があれば、労働問題に詳しい弁護士に相談してください。本記事は一般的な情報の整理であり、法的助言ではありません。
           </p>

@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Svelteエンジニアの転職市場での進め方" },
+  { id: "conclusion", label: "1. Svelteエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Svelteの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Svelteエンジニアのキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "find", label: "5. 求人の探し方と主なエージェント" },
   { id: "entry", label: "6. 経験浅めからSvelteに参入するルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -101,7 +101,7 @@ export default function SvelteSkillPage() {
             Svelteはコンパイル時に最適化を行い、仮想DOMを使わず軽量なコードを生成する新興のフロントエンドフレームワークです。記述量の少なさとパフォーマンスの高さから開発者満足度の調査で高く評価されています。アプリケーションフレームワークのSvelteKitを使えばSSR/SSGも可能です。技術的な支持は厚い一方、日本の求人母数はReact/Vueに比べてまだ限られます。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、Svelteエンジニア転職の現実的な「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。Svelteは新興技術ゆえ、フレームワーク単体ではなく「JavaScript／TypeScriptの言語力＋フロント全般の実務」で評価される点を誠実にお伝えします。
+            本記事では、Svelteエンジニア転職の現実的な「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。Svelteは新興技術ゆえ、フレームワーク単体ではなく「JavaScript／TypeScriptの言語力＋フロント全般の実務」で評価される点をご説明します。
           </p>
         </section>
 
@@ -128,16 +128,16 @@ export default function SvelteSkillPage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Svelteエンジニアの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Svelteエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Svelteは「将来有望だが求人母数はまだ少ない新興スキル」です。</strong>Svelte単体で転職を狙うより、React/Vue/TypeScriptなどメインスキルを土台にし、Svelteを「新技術を素早く習得できる証明」として添えるのが現実的な進め方です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・関連職種のフロントエンドエンジニア平均年収は<strong>約460万円です</strong>（求人ボックス・2026年6月）。Svelte特化求人は少数です</li>
-              <li>・React/Vueの実務があれば、Svelteは学習材料として加点要素になりやすいです</li>
+              <li>・関連職種のフロントエンドエンジニア平均年収は<strong>約460万円</strong>（求人ボックス・2026年6月）で、Svelte特化の求人は少数です</li>
+              <li>・React/Vueの実務があれば、Svelteは学習材料として加点要素になりやすい傾向があります</li>
               <li>・Svelteは<strong>パフォーマンス意識・技術選定力</strong>の文脈で語ると市場価値につながります</li>
             </ul>
           </div>
@@ -186,7 +186,7 @@ export default function SvelteSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { tier: "入口（ポテンシャル）", req: "JavaScriptでのWeb開発1〜3年／HTML・CSS／Svelteは個人開発レベル", note: "フロント未経験可求人に付随することが多いです" },
+              { tier: "入口（ポテンシャル）", req: "JavaScriptでのWeb開発1〜3年／HTML・CSS／Svelteは個人開発レベル", note: "フロント未経験可求人に付随することが多い層" },
               { tier: "即戦力（ミドル）", req: "React/Vue等でのフロント開発実務／TypeScript／コンポーネント設計／Svelteは歓迎要件", note: "求人の中心ゾーン（Svelteは加点）" },
               { tier: "ハイクラス", req: "フロントの設計・テックリード／パフォーマンス最適化／技術選定（Svelte採用判断を含む）", note: "年収700万円以上が狙える層" },
             ].map((item, i) => (
@@ -207,10 +207,10 @@ export default function SvelteSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "フロントエンドエンジニア", note: "React/Vueを主軸にSvelteも扱います。求人の最も多いゾーン" },
-              { role: "フルスタックエンジニア", note: "SvelteKit＋バックエンドまで担当します。スタートアップで需要" },
-              { role: "テックリード／フロントアーキテクト", note: "フロントの設計＋技術選定（Svelte採用の是非を含む）" },
-              { role: "フリーランス（フロント案件）", note: "モダンフロント案件全般です。Svelteは差別化要素として活用" },
+              { role: "フロントエンドエンジニア", note: "React/Vueを主軸にSvelteも扱う役割。求人数が最も多いゾーン" },
+              { role: "フルスタックエンジニア", note: "SvelteKitからバックエンドまで担当。スタートアップでの需要が中心" },
+              { role: "テックリード／フロントアーキテクト", note: "フロントの設計、技術選定（Svelte採用の是非を含む）" },
+              { role: "フリーランス（フロント案件）", note: "モダンフロント案件全般。Svelteは差別化要素" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -225,7 +225,7 @@ export default function SvelteSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Svelteは求人母数が少ないため、Svelte限定で探すより、フロントエンド全般で登録しSvelteを扱う企業を横断的に探すのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -245,7 +245,7 @@ export default function SvelteSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強み）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。新技術に積極的なWeb系スタートアップの求人を探したい場合の選択肢になります。
               </p>
@@ -287,10 +287,10 @@ export default function SvelteSkillPage() {
               <strong>新技術は「学び続ける姿勢」の証明になります。</strong>30代・40代で懸念されがちなのが技術の陳腐化です。Svelteのような新興技術を自ら学び個人開発で試している事実は、年齢を重ねても学習意欲が衰えていないことの具体的な証拠になります。
             </p>
             <p>
-              <strong>軸はメインスキル、Svelteは加点です。</strong>Svelte単体で年収を狙うのは現実的ではありません。React/Vue/TypeScriptなど実務の主軸を持ちつつ、Svelteを「技術トレンドを追える人材」の補強材料として位置づけると、ミドル層の強みになります。
+              <strong>メインスキルを軸にし、Svelteは加点要素と位置づけます。</strong>Svelte単体で年収を狙うのは現実的ではありません。React/Vue/TypeScriptなど実務の主軸を持ちつつ、Svelteを「技術トレンドを追える人材」の補強材料として位置づけると、ミドル層の強みになります。
             </p>
             <p>
-              <strong>技術選定力を語れると強いです。</strong>テックリードやアーキテクトの求人では、「なぜその技術を選ぶ／選ばないか」を判断できる力が評価されます。Svelteを含む複数フレームワークの長短を理解し選定理由を語れると、40代の設計・判断力の証明になります。
+              <strong>技術選定力を語れると有利です。</strong>テックリードやアーキテクトの求人では、「なぜその技術を選ぶ／選ばないか」を判断できる力が評価されます。Svelteを含む複数フレームワークの長短を理解し選定理由を語れると、40代の設計・判断力の証明になります。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -303,13 +303,13 @@ export default function SvelteSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 公式チュートリアルで設計思想を理解します。</strong>Svelteは公式のインタラクティブチュートリアルが充実しています。仮想DOMを使わずコンパイルで最適化するという他フレームワークと異なる発想を理解すると、なぜSvelteがパフォーマンスやDXで評価されるかが腑に落ちます。
+              <strong>① 公式チュートリアルで設計思想を理解します。</strong>Svelteは公式のインタラクティブチュートリアルが充実しています。仮想DOMを使わずコンパイルで最適化するという他フレームワークと異なる発想を理解すると、なぜSvelteがパフォーマンスやDXで評価されるかを理解しやすくなります。
             </p>
             <p>
               <strong>② TypeScriptとSvelteKitを組み合わせます。</strong>実務水準を意識するなら、SvelteKitでSSR/SSG・ルーティングを扱い、TypeScriptで型安全に書く構成を経験しておきます。主流フレームワークと共通する設計知識が、そのままSvelteでも活きます。
             </p>
             <p>
-              <strong>③ メインスキルの補強として位置づけます。</strong>Svelteは「これ一本」で食べていく技術というより、フロント技術の引き出しを増やし、技術選定の視野を広げる学習として有効です。主軸のReact/Vue/TypeScriptを深めつつ、Svelteで比較の視点を持つのがミドル層に向いた使い方です。
+              <strong>③ メインスキルの補強として位置づけます。</strong>Svelteは単独でキャリアを築く技術というより、フロント技術の引き出しを増やし、技術選定の視野を広げる学習として有効です。主軸のReact/Vue/TypeScriptを深めつつ、Svelteで比較の視点を持つのがミドル層に向いた使い方です。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。

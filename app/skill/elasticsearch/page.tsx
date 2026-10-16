@@ -12,12 +12,12 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Elasticsearchスキルの転職市場での進め方" },
+  { id: "conclusion", label: "1. Elasticsearchスキルの転職市場での進め方" },
   { id: "market", label: "2. 年収・市場データ（出典付き）" },
   { id: "use", label: "3. Elasticsearchの用途と求人傾向" },
   { id: "level", label: "4. 求められる経験レベルと求人要件" },
   { id: "career", label: "5. キャリアパスと関連技術" },
-  { id: "find", label: "6. 求人の探し方・強いエージェント" },
+  { id: "find", label: "6. 求人の探し方・エージェントの選び方" },
   { id: "entry", label: "7. 経験浅めから参入するルート" },
   { id: "age", label: "8. 30代・40代エンジニアの視点" },
   { id: "learn", label: "9. スキルアップ・学習戦略" },
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "Elasticsearchエンジニアにおすすめの転職エージェントは？",
-    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でデータ基盤・SRE級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強いGeeklyの併用が選択肢です。Elasticsearchを軸にした求人は母数が限られるため、複数登録して保有求人を横断比較するのが現実的です。",
+    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でデータ基盤・SRE級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強みを持つGeeklyの併用が選択肢です。Elasticsearchを軸にした求人は母数が限られるため、複数登録して保有求人を横断比較するのが現実的です。",
   },
 ];
 
@@ -127,10 +127,10 @@ export default function ElasticsearchSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Elasticsearchスキルの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Elasticsearchスキルの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Elasticsearchは「単体スキル」ではなく「検索・ログ基盤の構築運用力」として評価されます。</strong>言語そのものより、何を解決した経験があるか（検索精度・大規模ログ・可観測性）が問われます。
+              <strong>Elasticsearchは「単体スキル」ではなく「検索・ログ基盤の構築運用力」として評価されます。</strong>ツールの操作そのものより、何を解決した経験があるか（検索精度・大規模ログ・可観測性）が問われます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Elasticsearch単体の公表年収は乏しいため、<strong>データエンジニア／データアナリスト等の職種年収で代替</strong>して捉えるのが実態です</li>
@@ -183,8 +183,8 @@ export default function ElasticsearchSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { use: "全文検索・サイト内検索", note: "EC商品検索、アプリ内検索。アナライザ・スコアリング設計が問われます" },
-              { use: "ログ分析・可観測性（ELK）", note: "Kibana・Logstash・Beatsと組み合わせたログ基盤・監視です。SRE領域と重なります" },
+              { use: "全文検索・サイト内検索", note: "EC商品検索、アプリ内検索。アナライザ・スコアリング設計が重要" },
+              { use: "ログ分析・可観測性（ELK）", note: "Kibana・Logstash・Beatsと組み合わせたログ基盤・監視。SRE領域と重複" },
               { use: "ベクトル検索・セマンティック検索", note: "埋め込みベクトルによる意味検索。RAG基盤としての採用が増加" },
               { use: "大規模データの集計・分析", note: "Aggregationによるリアルタイム集計。ダッシュボード用途" },
             ].map((item, i) => (
@@ -223,8 +223,8 @@ export default function ElasticsearchSkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               { role: "データエンジニア", note: "検索・ログ基盤の構築運用。SQL・Python・クラウドとの掛け合わせ" },
-              { role: "SRE／オブザーバビリティエンジニア", note: "ELKによる監視・ログ基盤です。Kubernetes・可観測性ツールと連携" },
-              { role: "検索基盤エンジニア", note: "検索精度の改善・ランキング設計。自然言語処理の知識が活きます" },
+              { role: "SRE／オブザーバビリティエンジニア", note: "ELKによる監視・ログ基盤。Kubernetes・可観測性ツールとの連携" },
+              { role: "検索基盤エンジニア", note: "検索精度の改善・ランキング設計。自然言語処理の知識が有効" },
               { role: "バックエンドエンジニア", note: "アプリ内検索の実装。API設計とElasticsearch運用の両立" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -240,7 +240,7 @@ export default function ElasticsearchSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Elasticsearchを軸にした求人は母数が限られるため、特定の1社に絞るより複数チャネルを横断するのが効率的です。
           </p>
@@ -260,7 +260,7 @@ export default function ElasticsearchSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web・ゲーム業界特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。Elasticsearchを採用するWeb系企業の求人を探したい場合の選択肢になります。
               </p>
@@ -318,13 +318,13 @@ export default function ElasticsearchSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 公式ドキュメントとクエリDSLから学びます。</strong>Elasticsearchは公式ドキュメントが充実しています。インデックスのマッピング、アナライザ、クエリDSL、Aggregationという基礎を、実際にデータを入れて手を動かしながら理解するのが近道です。
+              <strong>① 公式ドキュメントとクエリDSLから学びます。</strong>Elasticsearchは公式ドキュメントが充実しています。インデックスのマッピング、アナライザ、クエリDSL、Aggregationという基礎を、実際にデータを入れて手を動かしながら理解するのが効率的です。
             </p>
             <p>
               <strong>② ELKスタック全体を触ります。</strong>Elasticsearch単体ではなく、Kibanaでの可視化、Logstash／Beatsでのデータ収集まで一通り触ると、検索とログ分析の両方の文脈で語れるようになります。
             </p>
             <p>
-              <strong>③ クラウドと運用設計を掛け合わせます。</strong>AWS OpenSearchやElastic CloudなどマネージドサービスとKubernetes運用を組み合わせると、SRE／データ基盤領域の求人に手が届きます。シャード設計や性能チューニングの実践経験が差別化要因です。
+              <strong>③ クラウドと運用設計を掛け合わせます。</strong>AWS OpenSearchやElastic CloudなどマネージドサービスとKubernetes運用を組み合わせると、SRE／データ基盤領域の求人にも応募しやすくなります。シャード設計や性能チューニングの実践経験が差別化要因です。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -352,7 +352,7 @@ export default function ElasticsearchSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Elasticsearchのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            検索・データ基盤の求人は母数が限られるからこそ、複数のIT特化型エージェントで保有求人を横断比較するのが近道です。
+            検索・データ基盤の求人は母数が限られるからこそ、複数のIT特化型エージェントで保有求人を横断比較するのが効率的です。
           </p>
           <Link
             href="/#ranking"

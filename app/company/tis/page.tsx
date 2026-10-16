@@ -32,7 +32,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんなエンジニア向きか" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（企業概要・出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
@@ -49,7 +49,7 @@ const toc = [
 const faqs = [
   {
     q: "TISのエンジニア転職の難易度は高い？",
-    a: "国内大手SIerであり通年で幅広い職種を募集しているため、Web系の最先端企業と比べると門戸は広めです。一方で大規模システムの上流（要件定義・設計）やプロジェクト推進を担える人材が求められ、Java等での開発経験やSIの実務経験があると評価されやすい傾向です。平均年齢が40歳台と高めの組織のため、30代・40代の経験者にとっては相性の良い選択肢になり得ます。",
+    a: "国内大手SIerであり通年で幅広い職種を募集しているため、Web系の最先端企業と比べると門戸は広めです。一方で大規模システムの上流（要件定義・設計）やプロジェクト推進を担える人材が求められ、Java等での開発経験やSIの実務経験があると評価されやすい傾向があります。平均年齢が40歳台と高めの組織のため、30代・40代の経験者にとっては相性の良い選択肢になり得ます。",
   },
   {
     q: "TISのエンジニアの平均年収はいくら？",
@@ -73,7 +73,7 @@ const faqs = [
   },
   {
     q: "TISへの転職で有利な経験は？",
-    a: "Java等でのシステム開発経験、要件定義・基本設計などの上流工程経験、プロジェクトマネジメント経験、金融・決済ドメインの知見、クラウド（AWS等）の設計・構築経験などが評価されやすい傾向です。30代・40代では、技術力に加えて顧客折衝やチーム推進の経験が強みになります。",
+    a: "Java等でのシステム開発経験、要件定義・基本設計などの上流工程経験、プロジェクトマネジメント経験、金融・決済ドメインの知見、クラウド（AWS等）の設計・構築経験などが評価されやすい傾向があります。30代・40代では、技術力に加えて顧客折衝やチーム推進の経験が強みになります。",
   },
 ];
 
@@ -105,7 +105,7 @@ export default function TisCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】TISの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: TIS株式会社の平均年間給与は828万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢40.7歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>TIS株式会社の平均年間給与は828万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢40.7歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 828万円です（2026年3月期 有価証券報告書）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2022年3月期の741万円から上昇し、2026年3月期は828万円です（各期 有価証券報告書）。大手SIerの中でも高めの水準です。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
@@ -137,13 +137,13 @@ export default function TisCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：大規模システムの上流・運用や決済ドメインに関わりたい経験者向きです。難易度は中。30代・40代と相性が良いです。</p>
+            <p className="font-bold text-blue-900 mb-3">大規模システムの上流・運用や決済ドメインに関わりたい経験者に適しています。難易度は中程度で、30代・40代と相性が良いといえます。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li className="flex gap-2"><span className="shrink-0">1.</span>Javaを中心としたSI開発経験・上流工程・PM経験が活きます。金融/決済ドメインに強みがあります。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は828万円です（2026年3月期 有価証券報告書）。大手SIerの中でも高めで、安定基盤と待遇を両立しやすいです。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>平均年齢40.7歳と経験者の多い組織です。30代・40代のミドルが評価されやすく、長く働ける環境を求める人に向きます。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は828万円です（2026年3月期 有価証券報告書）。大手SIerの中でも高めで、安定基盤と待遇を両立しやすくなります。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>平均年齢40.7歳と経験者の多い組織です。30代・40代のミドルが評価されやすく、長く働ける環境を求める人に適しています。</li>
             </ul>
           </div>
         </section>
@@ -330,7 +330,7 @@ export default function TisCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">TIS転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。SIer・大手の非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高い傾向があります。SIer・大手の非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高い大手・専門職の求人に対応しています。ミドル層に強みがあります。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、SI・自社開発の双方に実績があります。" },
             ].map((agent, i) => (

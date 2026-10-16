@@ -29,7 +29,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
@@ -65,7 +65,7 @@ const faqs = [
   },
   {
     q: "ユーザベースで活きる経験は？",
-    a: "Web/SaaSアプリケーション開発の実務経験が基本です。Elixir・Go・TypeScript・Next.jsなどモダンな技術の経験、データ・情報プラットフォームの開発・運用経験、マイクロサービスやコンテナ基盤の経験などが活きやすい傾向です。チームごとに使用技術が異なるため、希望領域の技術を確認しましょう。",
+    a: "Web/SaaSアプリケーション開発の実務経験が基本です。Elixir・Go・TypeScript・Next.jsなどモダンな技術の経験、データ・情報プラットフォームの開発・運用経験、マイクロサービスやコンテナ基盤の経験などが活きやすい傾向があります。チームごとに使用技術が異なるため、希望領域の技術を確認しましょう。",
   },
   {
     q: "30代・40代でもユーザベースに転職できますか？",
@@ -97,7 +97,7 @@ export default function UzabaseCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ユーザベースの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ユーザベースの平均年間給与は約760万円です（2021年12月期 有価証券報告書・全社員平均、平均年齢33.0歳／上場最終期付近）。2023年2月の非公開化以降は同種数値の公開が限定されます。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社ユーザベースの平均年間給与は約760万円です（2021年12月期 有価証券報告書・全社員平均、平均年齢33.0歳／上場最終期付近）。2023年2月の非公開化以降は同種数値の公開が限定されます。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約760万円です（2021年12月期 有価証券報告書）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2018年12月期の約670万円から上昇し、2020年12月期約797万円・2021年12月期約760万円です（各期 有価証券報告書）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表です。提示額はスキル評価で個別決定されるため、個別求人・面談で確認が必要です。</li></ul>
         </div>
 
@@ -121,9 +121,9 @@ export default function UzabaseCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              ユーザベースは<strong>ElixirやGo、Next.jsなどモダンな技術で経済情報プラットフォームを開発する企業</strong>です。Web/SaaS開発の実務経験が前提で、難易度は中〜やや高。上場最終期付近の全社員平均年収は約760万円（2021年12月期 有価証券報告書）でWeb系の中でも高めの水準でした。2023年のTOBで非公開化され、再上場を目指した改革フェーズにあります。
+              ユーザベースは<strong>ElixirやGo、Next.jsなどモダンな技術で経済情報プラットフォームを開発する企業</strong>です。Web/SaaS開発の実務経験が前提で、難易度は中〜やや高めです。上場最終期付近の全社員平均年収は約760万円（2021年12月期 有価証券報告書）でWeb系の中でも高めの水準でした。2023年のTOBで非公開化され、再上場を目指した改革フェーズにあります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Elixir/Go/TypeScript等での実務経験があり、経済・データ情報のプラットフォームに関心があるエンジニア</li>
@@ -263,7 +263,7 @@ export default function UzabaseCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。ユーザベースの上場最終期付近の全社員平均（約760万円）はこれを上回りますが、これは全社平均かつ過年度の値であり、入社時の提示はスキル評価次第です。30代・40代は自分の市場価値を踏まえ、個別求人・面談で水準を確認することが重要です。
             </p>
             <p>
-              チームで技術を選ぶ文化や再上場を目指す改革フェーズは、技術選定や組織づくりに踏み込みたいミドル層にとって魅力的な側面です。一方で非公開化中という前提は理解しておきましょう。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大企業の比較</Link>も合わせて参考にしてください。
+              チームで技術を選ぶ文化や再上場を目指す改革フェーズは、技術選定や組織づくりに踏み込みたいミドル層にとって機会となり得る側面です。一方で非公開化中という前提は理解しておきましょう。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大企業の比較</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -273,7 +273,7 @@ export default function UzabaseCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。SaaS・スタートアップの求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "AWS認定資格は転職に有利？SAAの年収・難易度・活かし方【2026年】";
 const PAGE_DESC =
-  "AWS認定資格（SAA中心）は30代・40代の転職で有利か。受験料・有効期限、保有者の年収相場、実務2-3年とセットで効く理由、オンプレ実務×AWSの掛け算の活かし方を、資格だけでは上がりにくい現実も含めて解説します。";
+  "AWS認定資格（SAA中心）は30代・40代の転職で有利か。受験料・有効期限、保有者の年収相場、実務2-3年と組み合わせることで評価される理由、オンプレ実務とAWSを組み合わせた活かし方を、資格だけでは上がりにくい現実も含めて解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/aws/" },
@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：資格×実務2-3年で効く経験者加点資格" },
+  { id: "conclusion", label: "実務2-3年と組み合わせて評価される経験者加点資格" },
   { id: "scope", label: "この記事の対象（資格×転職）" },
   { id: "overview", label: "試験概要・有効期限" },
   { id: "salary", label: "保有者の年収相場" },
   { id: "scene", label: "転職で評価される場面" },
   { id: "jobs", label: "求人で求められる要件" },
-  { id: "kakezan", label: "30-40代の価値＝オンプレ×AWSの掛け算" },
+  { id: "kakezan", label: "30-40代の価値：オンプレ経験とAWSの組み合わせ" },
   { id: "steps", label: "取得3ステップ・併取得資格" },
   { id: "demerit", label: "デメリット・留意点" },
   { id: "faq", label: "よくある質問" },
@@ -30,11 +30,11 @@ const toc = [
 const faqs = [
   {
     q: "AWS認定資格を取れば年収は上がりますか？",
-    a: "定番の注意点ですが、資格だけで年収が上がることは稀です。AWS認定（SAAなど）は『実務2〜3年とセット』で初めて評価されると考えてください。technolog集計の参考値ではSAA保有者平均572万円・SAP保有者745万円とされますが、これは保有者の経験差を含んだ数値です。レバテック（2026年4月）ではAWSエンジニアの平均約509万円・中央値約550万円です。資格は書類通過や手当の後押しにはなりますが、年収の本体は実務の深さで決まります。",
+    a: "よく指摘される点ですが、資格だけで年収が上がることは稀です。AWS認定（SAAなど）は実務2〜3年と組み合わせて初めて評価されると考えてください。technolog集計の参考値ではSAA保有者平均572万円・SAP保有者745万円とされますが、これは保有者の経験差を含んだ数値です。レバテック（2026年4月）ではAWSエンジニアの平均約509万円・中央値約550万円です。資格は書類通過や手当の後押しにはなりますが、年収は主に実務の深さで決まります。",
   },
   {
     q: "未経験でもAWS認定を取れば転職できますか？",
-    a: "資格だけで実務未経験を補うのは難しいのが実情です。ただし、オンプレ・ネットワーク・Linuxの実務がある人が、AWS Solutions Architect Associate（SAA）を取得し、無料利用枠で小さなハンズオン環境を作る、というルートは現実的です。『資格＋手を動かした成果物』をセットで示すことが、未経験領域を埋める鍵になります。完全未経験から資格単体での転職は期待しすぎないほうが安全です。",
+    a: "資格だけで実務未経験を補うのは難しいのが実情です。ただし、オンプレ・ネットワーク・Linuxの実務がある人が、AWS Solutions Architect Associate（SAA）を取得し、無料利用枠で小さなハンズオン環境を作る、というルートは現実的です。『資格＋手を動かした成果物』をあわせて示すことが、未経験領域を補ううえで重要です。完全未経験から資格単体での転職は期待しすぎないほうが安全です。",
   },
   {
     q: "AWS認定に有効期限はありますか？",
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "AWS認定とLPIC、どちらを先に取るべきですか？",
-    a: "クラウドへ寄せたいならAWS認定（SAA）が直接効きます。一方、Linuxの基礎がまだ固まっていない場合は、先にLPIC/LinuCでOS・インフラの土台を作ると、AWS学習の理解が深まります。オンプレ・インフラ運用の経験がすでにある人は、SAAから入ってクラウド移行ストーリーを作るのが効率的です。",
+    a: "クラウドへ軸足を移したいならAWS認定（SAA）が直接評価につながります。一方、Linuxの基礎がまだ固まっていない場合は、先にLPIC/LinuCでOS・インフラの土台を作ると、AWS学習の理解が深まります。オンプレ・インフラ運用の経験がすでにある人は、SAAから入ってクラウド移行ストーリーを作るのが効率的です。",
   },
 ];
 
@@ -94,7 +94,7 @@ export default function CertAwsPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          AWS認定資格（中でもSolutions Architect Associate＝SAA）は、クラウド人材の入口として人気の高い資格です。本記事は「<strong>AWS認定資格を転職でどう価値化するか</strong>」という資格起点の情報意図に絞り、受験料・有効期限・年収相場と、「実務×資格の掛け算」での活かし方を、<strong>資格だけでは年収が上がりにくいという現実</strong>も含めて解説します。
+          AWS認定資格（中でもSolutions Architect Associate＝SAA）は、クラウド人材の入口として人気の高い資格です。本記事は「<strong>AWS認定資格を転職でどう活かすか</strong>」という資格起点の情報意図に絞り、受験料・有効期限・年収相場と、実務と資格を組み合わせた活かし方を、<strong>資格だけでは年収が上がりにくいという現実</strong>も含めて解説します。
         </p>
 
         <DataNote
@@ -121,22 +121,22 @@ export default function CertAwsPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：資格×実務2-3年で効く経験者加点資格</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">実務2-3年と組み合わせて評価される経験者加点資格</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              AWS認定は当サイトの分類で<strong>「経験者加点資格」</strong>に位置づけられます。最も効くのは<strong>「オンプレ・インフラの実務 × AWS認定」</strong>の掛け算で、特に2〜3年の実務とセットで価値が出ます。資格単体で年収が上がる発想は禁物で、定番の注意点としてご説明します。
+              AWS認定は当サイトの分類で<strong>「経験者加点資格」</strong>に位置づけられます。最も効果を発揮するのは<strong>オンプレ・インフラの実務とAWS認定を組み合わせた場合</strong>で、特に2〜3年の実務とあわせて示すことで価値が生まれます。資格単体で年収が上がると考えるのは避けるべきであり、この点は本記事でも繰り返しご説明します。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 資格だけでは年収は上がりにくいです。<strong>実務2-3年とセット</strong>が前提です</li>
-              <li>② オンプレ／インフラ実務×AWSで<strong>クラウド移行案件</strong>に乗れます</li>
-              <li>③ 有効期限<strong>3年です</strong>。再認定が必要で取りっぱなしにできません</li>
+              <li>① 資格だけでは年収は上がりにくい傾向があります。<strong>実務2-3年との組み合わせ</strong>が前提です</li>
+              <li>② オンプレ／インフラ実務とAWSを組み合わせることで<strong>クラウド移行案件</strong>に参画しやすくなります</li>
+              <li>③ 有効期限は<strong>3年</strong>です。再認定が必要で、取りっぱなしにはできません</li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            AWS認定が人気を集める理由は明確で、国内のクラウド求人でAWSのシェアが大きく、設計思想を一つ深く理解すればAzureやGCPへ横展開しやすいからです。SAAは数あるAWS認定の中でも「実務1年程度を想定したアソシエイト」に位置づけられ、転職でまず狙う層として定番です。ただし繰り返しになりますが、<strong>SAAは『クラウドの基礎を体系的に理解している』ことの証明であって、現場で使える即戦力性そのものを保証するものではありません</strong>。
+            AWS認定が人気を集める理由は明確で、国内のクラウド求人でAWSのシェアが大きく、設計思想を一つ深く理解すればAzureやGCPへ横展開しやすいからです。SAAは数あるAWS認定の中でも「実務1年程度を想定したアソシエイト」に位置づけられ、転職でまず取得を検討する資格として広く選ばれています。ただし繰り返しになりますが、<strong>SAAは『クラウドの基礎を体系的に理解している』ことの証明であって、現場で使える即戦力性そのものを保証するものではありません</strong>。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mt-3">
-            だからこそミドルにとってに有効な方法は「資格×実務」です。これまでオンプレやインフラ、ネットワーク、Linuxといった領域で積み上げてきた経験は、クラウドでもそのまま価値になります。むしろ、オンプレの事情を理解したうえでクラウドへ移行できる人材は、クラウドしか知らない若手にはない強みを持っています。SAAはその橋渡しを「目に見える形」にする道具です。
+            そのため、ミドル層にとって有効なのは資格と実務を組み合わせる方法です。これまでオンプレやインフラ、ネットワーク、Linuxといった領域で積み上げてきた経験は、クラウドでもそのまま価値になります。むしろ、オンプレの事情を理解したうえでクラウドへ移行できる人材は、クラウドしか知らない若手にはない強みを持っています。SAAはその橋渡しを目に見える形で示す手段です。
           </p>
         </section>
 
@@ -148,7 +148,7 @@ export default function CertAwsPage() {
               このページは「<strong>AWS認定資格を転職でどう活かすか</strong>」という資格起点の解説です。AWSエンジニアという<strong>職種そのもの</strong>の市場・キャリアパス・求人の探し方・参入ルートを知りたい方は、別記事で詳しく扱っています。
             </p>
             <p>
-              職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline font-medium">AWSエンジニア転職ガイド</Link>をご覧ください。隣接スキルは<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>・<Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform/IaC転職ガイド</Link>もご覧ください。
+              職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline font-medium">AWSエンジニア転職ガイド</Link>をご覧ください。隣接スキルは<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>・<Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform/IaC転職ガイド</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -202,7 +202,7 @@ export default function CertAwsPage() {
             出典: AWSエンジニア平均はレバテック（2026年4月）。SAA/SAP保有者平均・経験年数別レンジはtechnolog等の集計による参考値で、母集団・定義により幅があります。資格保有者の数値は経験差を含むため、資格単体の効果として読むことはできません。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            この表で注目してほしいのは、SAA保有者平均（約572万円）とSAP（Solutions Architect Professional）保有者平均（約745万円）の差です。一見すると「上位資格を取れば年収が約170万円上がる」ように見えますが、実態はそうではありません。SAPは上位資格ゆえに、もともと設計・運用の経験が豊富な人が取得しているケースが多く、年収差の大部分は<strong>資格そのものではなく経験の差</strong>です。経験年数別のレンジ（3〜5年で450〜700万円、10年以上で900〜1,500万円）を見ても、年収を左右する最大の要因が経験であることが分かります。資格は「次の経験を積める案件に乗るためのチケット」と捉えるのが実態に近いでしょう。
+            この表で注目していただきたいのは、SAA保有者平均（約572万円）とSAP（Solutions Architect Professional）保有者平均（約745万円）の差です。一見すると「上位資格を取れば年収が約170万円上がる」ように見えますが、実態はそうではありません。SAPは上位資格ゆえに、もともと設計・運用の経験が豊富な人が取得しているケースが多く、年収差の大部分は<strong>資格そのものではなく経験の差</strong>です。経験年数別のレンジ（3〜5年で450〜700万円、10年以上で900〜1,500万円）を見ても、年収を左右する最大の要因が経験であることが分かります。資格は次の経験を積める案件に参画するための手段と捉えるのが、実態に近いといえます。
           </p>
         </section>
 
@@ -210,11 +210,11 @@ export default function CertAwsPage() {
         <section id="scene" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される場面</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            AWS認定が具体的に効くのは、次のような場面です。いずれも「資格が単独で評価される」のではなく、「実務や成果物と組み合わさったときに後押しになる」点が共通しています。
+            AWS認定が具体的に評価につながるのは、次のような場面です。いずれも「資格が単独で評価される」のではなく、「実務や成果物と組み合わさったときに後押しになる」点が共通しています。
           </p>
           <div className="space-y-3">
             {[
-              { t: "クラウド移行プロジェクト", d: "オンプレからAWSへの移行案件で、SAAの設計知識×前職のオンプレ運用経験が直接活きます。" },
+              { t: "クラウド移行プロジェクト", d: "オンプレからAWSへの移行案件で、SAAの設計知識と前職のオンプレ運用経験が直接活きます。" },
               { t: "書類選考でのスクリーニング通過", d: "AWS歓迎要件の求人で、最低限のクラウド知識を持つ証明として書類通過の後押しになります。" },
               { t: "資格手当・報奨金の対象", d: "企業によってはAWS認定が手当・合格報奨金の対象になります（金額は各社制度次第・要確認）。" },
               { t: "スカウト経由のオファー", d: "スカウト型サービスで、AWS認定の記載がクラウド人材としての検索ヒット率を上げる声があります。" },
@@ -235,9 +235,9 @@ export default function CertAwsPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "構築・運用層（実務1〜3年）", d: "EC2/VPC/S3/IAMの基本構成、監視・障害対応。SAA保有が歓迎要件になりやすいです。" },
-              { t: "設計・自動化層（実務3〜6年）", d: "マルチアカウント設計、IaC、CI/CD、コンテナです。年収帯が一段上がる中核ゾーンです。" },
-              { t: "アーキテクト/SRE層（実務6年以上）", d: "全体設計、コスト最適化、ガバナンスです。Professional認定が後押しになります。" },
+              { t: "構築・運用層（実務1〜3年）", d: "主な要件はEC2/VPC/S3/IAMの基本構成、監視・障害対応です。SAA保有が歓迎要件になりやすい傾向があります。" },
+              { t: "設計・自動化層（実務3〜6年）", d: "主な要件はマルチアカウント設計、IaC、CI/CD、コンテナです。年収帯が一段上がる中心的な層にあたります。" },
+              { t: "アーキテクト/SRE層（実務6年以上）", d: "主な要件は全体設計、コスト最適化、ガバナンスです。Professional認定が評価の後押しになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -252,16 +252,16 @@ export default function CertAwsPage() {
 
         {/* 掛け算 */}
         <section id="kakezan" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30-40代の価値＝オンプレ×AWSの掛け算</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30-40代の価値：オンプレ経験とAWSの組み合わせ</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              ミドル層がAWS認定で最も価値を出せるのは、<strong>これまでのオンプレ・インフラ・ネットワーク・Linuxの実務に、AWSを掛け合わせる</strong>パターンです。クラウド移行案件では「オンプレの事情を分かったうえでAWSへ移せる人」が重宝され、まさにミドルの強みが活きます。
+              ミドル層がAWS認定で最も価値を出せるのは、<strong>これまでのオンプレ・インフラ・ネットワーク・Linuxの実務に、AWSを組み合わせる</strong>パターンです。クラウド移行案件では「オンプレの事情を分かったうえでAWSへ移せる人」が重宝され、ミドル層の強みが活きます。
             </p>
             <p>
-              一方、若手と同じ土俵で「AWSの新しさ」だけを売りにすると差別化しづらくなります。<strong>前職の運用経験を『移行で活きる経験』として言語化</strong>し、SAAで得た設計知識を紐づけるのがミドルに有効な方法です。
+              一方、若手と同じ条件で「AWSの新しさ」だけを強調すると差別化しづらくなります。<strong>前職の運用経験を『移行で活きる経験』として言語化</strong>し、SAAで得た設計知識を紐づけるのがミドルに有効な方法です。
             </p>
             <p>
-              具体的な見せ方の例を挙げます。「データセンターの物理サーバー運用を10年担当」という経歴は、それだけだと『レガシー寄り』に見られかねません。しかし「その運用知見をもとに、SAAで学んだVPC設計・IAM権限設計を用いて、検証環境をAWS上に再構築した（GitHubにIaCコードを公開）」と添えれば、<strong>オンプレの実務とクラウドの学習が一本の線でつながり、移行案件で即戦力になれる人材像</strong>が伝わります。資格・実務・成果物の三点セットが、ミドルの説得力を最大化します。
+              具体的な見せ方の例を挙げます。「データセンターの物理サーバー運用を10年担当」という経歴は、それだけだと『レガシー寄り』に見られかねません。しかし「その運用知見をもとに、SAAで学んだVPC設計・IAM権限設計を用いて、検証環境をAWS上に再構築した（GitHubにIaCコードを公開）」と添えれば、<strong>オンプレの実務とクラウドの学習が一貫したものとして示され、移行案件で即戦力になれる人材像</strong>が伝わります。資格・実務・成果物の3点をそろえることで、ミドル層の説得力が高まります。
             </p>
             <p>
               職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>、転向ルートは<Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、成果物の作り方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>が参考になります。
@@ -276,7 +276,7 @@ export default function CertAwsPage() {
             {[
               { n: "STEP 1", t: "土台の確認＋CLF（任意）", d: "ネットワーク・Linux・OSの基礎を整理します。入口としてCloud Practitioner（CLF）で全体像を掴むのも有効です。" },
               { n: "STEP 2", t: "SAA取得＋ハンズオン", d: "SAAを取得し、無料利用枠でVPC/EC2/S3/IAMの小構成を自作します。" },
-              { n: "STEP 3", t: "成果物化＋移行ストーリー", d: "構成をIaC（Terraform/CDK）でコード化し公開します。前職経験を移行ストーリーに落とします。" },
+              { n: "STEP 3", t: "成果物化＋移行ストーリー", d: "構成をIaC（Terraform/CDK）でコード化し公開します。前職経験は移行のストーリーとしてまとめます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -291,7 +291,7 @@ export default function CertAwsPage() {
             併取得におすすめなのは、Linuxの土台を固める<Link href="/cert/" className="text-petrol hover:underline">LPIC/LinuC（資格一覧参照）</Link>や、クラウドセキュリティに広げる<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>です。IaCスキルは<Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform転職ガイド</Link>も合わせてご覧ください。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            取得後のステップとしては、SAAの次に上位のSolutions Architect Professionalや、運用自動化に強いDevOps Engineer Professionalを目指す道があります。ただし、ここでも順序が大切です。資格を続けて取ることより、SAAで得た知識を実務で使い、その経験を踏まえて上位資格に挑むほうが、知識が定着し面接でも語れる状態になります。AWS公式もProfessional受験前に2年以上の実務経験を推奨しており、これは「資格は実務とセットで価値が出る」という本記事の主張とも一致します。クラウドは技術の更新が速いため、有効期限3年という再認定の仕組みも、知識の鮮度を保つ良い機会と前向きに捉えるとよいでしょう。学んだ内容を小さな個人プロジェクトやIaCコードとして残し続けることが、長期的な市場価値の維持につながります。
+            取得後のステップとしては、SAAの次に上位のSolutions Architect Professionalや、運用自動化を扱うDevOps Engineer Professionalを目指す道があります。ただし、ここでも順序が大切です。資格を続けて取ることより、SAAで得た知識を実務で使い、その経験を踏まえて上位資格に挑むほうが、知識が定着し面接でも語れる状態になります。AWS公式もProfessional受験前に2年以上の実務経験を推奨しており、これは「資格は実務と組み合わせることで価値が生まれる」という本記事の主張とも一致します。クラウドは技術の更新が速いため、有効期限3年という再認定の仕組みも、知識の鮮度を保つ良い機会と前向きに捉えるとよいでしょう。学んだ内容を小さな個人プロジェクトやIaCコードとして残し続けることが、長期的な市場価値の維持につながります。
           </p>
         </section>
 
@@ -299,10 +299,10 @@ export default function CertAwsPage() {
         <section id="demerit" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">デメリット・留意点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
-            <p>① <strong>資格だけでは年収は上がりにくいです。</strong>定番の注意点で、実務2〜3年とセットで初めて評価されます。</p>
-            <p>② <strong>有効期限3年です。</strong>再認定が必要で、更新の手間・費用がかかります。</p>
-            <p>③ <strong>未経験単体では弱いです。</strong>完全未経験から資格だけで転職するのは難しく、ハンズオン成果物が要ります。</p>
-            <p>④ <strong>合格率が非公表です。</strong>難易度の客観指標が乏しいため、模試・公式問題で実力を測る必要があります。</p>
+            <p>① <strong>資格だけでは年収は上がりにくい傾向があります。</strong>実務2〜3年と組み合わせて初めて評価されます。</p>
+            <p>② <strong>有効期限は3年です。</strong>再認定が必要で、更新の手間・費用がかかります。</p>
+            <p>③ <strong>未経験単体では評価されにくい傾向があります。</strong>完全未経験から資格だけで転職するのは難しく、ハンズオン成果物が要ります。</p>
+            <p>④ <strong>合格率は公表されていません。</strong>難易度の客観指標が乏しいため、模試・公式問題で実力を測る必要があります。</p>
           </div>
         </section>
 
@@ -324,7 +324,7 @@ export default function CertAwsPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">AWS認定×実務を活かした転職を相談する</h2>
+          <h2 className="text-xl font-bold mb-3">AWS認定と実務を活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
             ご自身の実務とAWS認定がどう評価されるか、クラウドに強いIT特化型エージェントで確認しましょう。
           </p>

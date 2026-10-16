@@ -27,7 +27,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術領域・募集職種（公式採用情報ベース）"],
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもリコーに転職できますか？",
-    a: "提出会社の平均年齢は45.4歳と相対的に高く、ミドル層の中途採用も現実的です。組込み・クラウド・データ/AIなど自身の専門領域の実績と、大規模組織でのプロジェクト推進経験があると評価されやすい傾向です。",
+    a: "提出会社の平均年齢は45.4歳と相対的に高く、ミドル層の中途採用も現実的です。組込み・クラウド・データ/AIなど自身の専門領域の実績と、大規模組織でのプロジェクト推進経験があると評価されやすい傾向があります。",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function RicohCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リコーの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社リコー（提出会社単体）の平均年間給与は906万円です（2026年3月期 有価証券報告書・平均年齢45.4歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社リコー（提出会社単体）の平均年間給与は906万円です（2026年3月期 有価証券報告書・平均年齢45.4歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 906万円です（2026年3月期 有価証券報告書・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2023年3月期838万円→2024年3月期860万円→2026年3月期906万円と上昇しています（各期 有価証券報告書）。</li><li>・エンジニア職に限定した公式な提示レンジは非公開です。提示額は等級・役割により幅があるため、個別求人・面談で確認が必要です。</li></ul>
         </div>
 
@@ -115,9 +115,9 @@ export default function RicohCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              リコーは<strong>ハードウェア（複合機・画像）の強みを土台に、クラウド・データ・AIによるデジタルサービスへ事業を移行している大手メーカー</strong>です。組込みからSaaS・クラウドまで幅広い技術領域があり、安定基盤の中で「製造業のソフトウェア化」に関わりたいエンジニアに向きます。
+              リコーは<strong>ハードウェア（複合機・画像）の強みを土台に、クラウド・データ・AIによるデジタルサービスへ事業を移行している大手メーカー</strong>です。組込みからSaaS・クラウドまで幅広い技術領域があり、安定基盤の中で「製造業のソフトウェア化」に関わりたいエンジニアに適しています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：組込み／クラウド／データ・AIの実務経験があり、大企業の事業変革を内側から推進したいエンジニア</li>
@@ -270,7 +270,7 @@ export default function RicohCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。大手メーカーのデジタル職求人にも対応し、非公開求人も豊富です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、メーカーの管理職・専門職求人に対応しています。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

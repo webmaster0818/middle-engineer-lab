@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論：テックゴーのキャリア面談は完全無料" },
+  { id: "summary", label: "テックゴーのキャリア面談は完全無料" },
   { id: "basic", label: "無料キャリア面談の基本データ" },
   { id: "why-free", label: "なぜ無料なのか（費用の仕組み）" },
   { id: "flow", label: "申し込みから面談までの流れ" },
@@ -179,31 +179,31 @@ export default function TechgoConsultation() {
           ]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">
-              結論：テックゴーのキャリア面談は完全無料です。転職未確定でも利用できる
+              テックゴーのキャリア面談は完全無料で、転職を決めていない段階でも利用できます
             </h2>
             <ul className="text-sm text-blue-900 space-y-1">
               <li>
                 ・<span className="font-bold">料金は完全無料</span>
-                。公式FAQが「ご登録から、キャリアカウンセリング、求人紹介、面接対策、条件交渉、入社までのフォローアップまで」無料と明記します。
+                。公式FAQが「ご登録から、キャリアカウンセリング、求人紹介、面接対策、条件交渉、入社までのフォローアップまで」無料と明記されています。
               </li>
               <li>
                 ・面談は<span className="font-bold">オンライン中心（Zoom・Google Meet等）で、平日夜間・土曜も実施</span>
-                （公式FAQ）。在職中でも受けやすいです。
+                （公式FAQ）。在職中でも受けやすくなります。
               </li>
               <li>
                 ・<span className="font-bold">転職の意向が固まっていない段階の相談も可</span>
-                と公式FAQに明記します。市場価値の確認目的でも使えます。
+                と公式FAQに明記しています。市場価値の確認目的でも使えます。
               </li>
               <li>・断る場合は担当者に連絡すればよく、面談を受けたら転職しなければならない義務はありません。</li>
             </ul>
           </div>
         </section>
 
-        <TechgoCta heading="無料キャリア面談を予約します（最短60秒・公式）" />
+        <TechgoCta heading="無料キャリア面談を予約する（最短60秒・公式）" />
 
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
@@ -550,7 +550,7 @@ export default function TechgoConsultation() {
         </section>
 
         {/* 関連記事 */}
-        <TechgoCta heading="転職を決めていなくても相談OK（公式FAQ明記）" buttonText="テックゴーの無料キャリア面談を予約します（公式）" />
+        <TechgoCta heading="転職を決めていなくても相談OK（公式FAQ明記）" buttonText="テックゴーの無料キャリア面談を予約する（公式）" />
 
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>

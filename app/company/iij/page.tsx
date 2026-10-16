@@ -26,13 +26,13 @@ const basicData: [string, string][] = [
   ["平均年齢", "37.5歳（2026年3月期 有価証券報告書）"],
   ["平均勤続年数", "約9.3年（2026年3月期 有価証券報告書）"],
   ["本社所在地", "東京都千代田区"],
-  ["技術スタック（公開情報）", "ネットワーク（ルーティング/バックボーン）、クラウド基盤、セキュリティ、IoT、サービス開発。日本のインターネット黎明期からの技術発信で知られる"],
+  ["技術スタック（公開情報）", "ネットワーク（ルーティング/バックボーン）、クラウド基盤、セキュリティ、IoT、サービス開発。日本のインターネット黎明期からの技術発信で知られる点が特徴"],
   ["採用ページ", "iij.ad.jp/recruit（採用サイト）"],
 ];
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんなエンジニア向きか" },
-  { id: "basic", label: "基本データ（企業概要・出典付き）" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
+  { id: "basic", label: "基本データ（企業概要・出典あり）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
   { id: "salary", label: "年収データ（有価証券報告書）" },
@@ -48,7 +48,7 @@ const toc = [
 const faqs = [
   {
     q: "IIJのエンジニア転職の難易度は高い？",
-    a: "日本のインターネットの草分けとして技術力に定評があり、ネットワーク・クラウド・セキュリティといった専門領域の実務経験が評価されます。職種が幅広く通年で募集しているため門戸はありますが、希望領域での実務経験や深い技術理解が求められる傾向です。インフラ・ネットワークのバックグラウンドを持つ30代・40代にとっては相性の良い選択肢です。",
+    a: "日本のインターネットの草分けとして技術力に定評があり、ネットワーク・クラウド・セキュリティといった専門領域の実務経験が評価されます。職種が幅広く通年で募集しているため門戸はありますが、希望領域での実務経験や深い技術理解が求められる傾向にあります。インフラ・ネットワークのバックグラウンドを持つ30代・40代にとっては相性の良い選択肢です。",
   },
   {
     q: "IIJのエンジニアの平均年収はいくら？",
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     q: "IIJへの転職で有利な経験は？",
-    a: "ネットワーク（ルーティング・バックボーン運用）、クラウド基盤の設計・構築・運用、セキュリティ、IoT・サービス開発などの実務経験が評価されやすい傾向です。30代・40代では、専門領域での深い経験に加えて、プロジェクト推進やチームをリードした経験が強みになります。",
+    a: "ネットワーク（ルーティング・バックボーン運用）、クラウド基盤の設計・構築・運用、セキュリティ、IoT・サービス開発などの実務経験が評価されやすい傾向があります。30代・40代では、専門領域での深い経験に加えて、プロジェクト推進やチームをリードした経験が強みになります。",
   },
 ];
 
@@ -104,7 +104,7 @@ export default function IijCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】IIJの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社インターネットイニシアティブの平均年間給与は747万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢37.5歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社インターネットイニシアティブの平均年間給与は747万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢37.5歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 747万円です（2026年3月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・近年は720〜740万円台で推移しています（2025年3月期726万円→2026年3月期747万円、各期 有価証券報告書）。安定したインフラ事業を背景にした堅実な水準です。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
@@ -136,19 +136,19 @@ export default function IijCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：ネットワーク・クラウド・セキュリティの専門性を深めたいインフラ系エンジニア向きです。難易度は中。</p>
+            <p className="font-bold text-blue-900 mb-3">ネットワーク・クラウド・セキュリティの専門性を深めたいインフラ系エンジニアに向いている企業です。難易度は中程度です。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li className="flex gap-2"><span className="shrink-0">1.</span>日本のインターネットを支えてきた技術力の高い組織です。ネットワーク・クラウド・セキュリティの経験が活きます。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は747万円です（2026年3月期 有価証券報告書）。安定したインフラ事業を背景に堅実な水準です。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>技術者を尊重する文化と技術発信の活発さ。専門性を軸にキャリアを築きたい30代・40代に向きます。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は747万円（2026年3月期 有価証券報告書）で、安定したインフラ事業を背景にした堅実な水準といえます。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>技術者を尊重する文化があり、技術発信も活発です。専門性を軸にキャリアを築きたい30代・40代に向いています。</li>
             </ul>
           </div>
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（企業概要・出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（企業概要・出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -195,7 +195,7 @@ export default function IijCompanyPage() {
                 {[
                   ["ネットワーク", "バックボーン運用 / ルーティング / 大規模ネットワーク設計・構築"],
                   ["クラウド・基盤", "自社クラウドサービス基盤、インフラ運用、サービス開発"],
-                  ["セキュリティ・その他", "セキュリティ、IoT、モバイル（IIJmio）など。サービスにより技術は異なる"],
+                  ["セキュリティ・その他", "セキュリティ、IoT、モバイル（IIJmio）など。使用技術はサービスごとに異なる点に留意"],
                 ].map(([label, value], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">{label}</th>
@@ -314,7 +314,7 @@ export default function IijCompanyPage() {
               IIJは平均年齢37.5歳（2026年3月期）と落ち着いた組織で、技術者を尊重する文化を持ちます。30代・40代のミドルエンジニアにとっては、「ネットワーク・クラウド・セキュリティといった専門性を、安定した基盤事業の中で深めたい」というニーズに合致しやすい選択肢です。
             </p>
             <p>
-              バックボーン運用やクラウド基盤の設計・構築・運用、セキュリティといった専門領域での深い経験は、年齢に見合った価値として評価されやすいでしょう。インフラ・ネットワークのバックグラウンドを持つミドルにとっては、これまでの経験をそのまま活かしやすい環境です。
+              バックボーン運用やクラウド基盤の設計・構築・運用、セキュリティといった専門領域での深い経験は、年齢に見合った価値として評価されやすいと考えられます。インフラ・ネットワークのバックグラウンドを持つミドルにとっては、これまでの経験をそのまま活かしやすい環境です。
             </p>
             <p>
               年収面では、IIJの全社員平均747万円（有価証券報告書）は安定したインフラ事業を背景にした堅実な水準です。急成長Web系のような大幅な伸びを最優先するなら他の選択肢との比較も有効ですが、専門性と安定性を重視するなら有力な候補になります。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
@@ -329,9 +329,9 @@ export default function IijCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">IIJ転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。インフラ・ネットワーク系の求人にも対応しています。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、インフラ・SI領域にも実績です。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高い専門職の求人に対応しています。ミドル層に強みがあります。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化型で、高年収求人の比率が高い傾向があります。インフラ・ネットワーク系の求人にも対応しています。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、インフラ・SI領域にも実績があります。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス求人を中心に、年収帯の高い専門職の求人を扱っています。ミドル層の支援に強みがあります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

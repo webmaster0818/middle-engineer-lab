@@ -30,7 +30,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "SBIへの転職難易度は高いですか？",
-    a: "金融×ITの掛け合わせが評価されるため、金融ドメイン知識や、可用性・セキュリティを意識した大規模システムの実務経験があると有利です。フィンテック・クラウドの経験に加え、規制業種ならではの品質意識が問われる傾向です。",
+    a: "金融×ITの掛け合わせが評価されるため、金融ドメイン知識や、可用性・セキュリティを意識した大規模システムの実務経験があると有利です。フィンテック・クラウドの経験に加え、規制業種ならではの品質意識が問われる傾向があります。",
   },
   {
     q: "30代・40代でもSBIに転職できますか？",
@@ -93,12 +93,12 @@ export default function SbiCompanyPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">SBIホールディングス エンジニア転職ガイド【2026年版】</h1>
-        <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | フィンテックを牽引する総合金融グループのエンジニア採用</p>
+        <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | フィンテック領域にも注力する総合金融グループのエンジニア採用</p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SBIホールディングスの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SBIホールディングス（持株会社=提出会社）の平均年間給与は1,062万円です（2025年3月期 有価証券報告書・単体／全社員平均、平均年齢41.0歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>SBIホールディングス（持株会社=提出会社）の平均年間給与は1,062万円です（2025年3月期 有価証券報告書・単体／全社員平均、平均年齢41.0歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,062万円です（2025年3月期 有価証券報告書・持株会社単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2021年3月期977万円から2025年3月期1,062万円へ増加傾向です（各期 有価証券報告書・持株会社単体）。</li><li>・SBI証券などグループ各社・エンジニア個人の年収は所属会社・職種・グレードで異なり、提示額は個別求人で確認が必要です。</li></ul>
         </div>
 
@@ -118,14 +118,14 @@ export default function SbiCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               SBIは<strong>金融×ITの掛け合わせで、ネット証券・銀行からWeb3まで幅広いフィンテック領域に携われる総合金融グループ</strong>です。可用性・セキュリティを重視した大規模システムの実務経験や、金融ドメイン知識が活きます。所属会社により技術・働き方が異なる点に注意が必要です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：金融ドメインに関心があり、可用性・セキュリティを意識した大規模システム開発の経験があるエンジニア</li>
               <li>● <strong>向いていない人</strong>：規制・品質要件の厳しさを敬遠する人、単一の小規模プロダクトに集中したい人</li>
-              <li>● <strong>30代・40代</strong>：金融ドメイン・セキュリティ・マネジメントの専門性を活かしやすいです</li>
+              <li>● <strong>30代・40代</strong>：金融ドメイン・セキュリティ・マネジメントの専門性を活かしやすい環境</li>
             </ul>
           </div>
         </section>
@@ -261,7 +261,7 @@ export default function SbiCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。SBIホールディングス（持株会社単体）の平均（1,062万円）はこれを大きく上回りますが、これは持株会社単体・全社平均であり、実際の配属先となるグループ各社の体系とは異なります。30代・40代は「応募する会社・グレードの水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              30代40代では、クラウド（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>）や<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定（SAA）</Link>などの資格や金融ドメイン知識を掛け合わせると評価につながりやすい領域です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              30代40代では、クラウド（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>）や<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定（SAA）</Link>などの資格や金融ドメイン知識を掛け合わせることで、評価につながりやすくなります。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -272,7 +272,7 @@ export default function SbiCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。金融系・大規模システムの求人にも対応し、非公開求人も豊富です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、金融×ITのミドル・シニア層の支援に定評があります。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。金融・フィンテックのハイクラス求人が集まりやすいです。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。金融・フィンテックのハイクラス求人が集まりやすい傾向があります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

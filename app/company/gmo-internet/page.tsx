@@ -25,11 +25,11 @@ const basicData: [string, string][] = [
   ["平均年齢", "37.9歳（2024年12月期 有価証券報告書・持株会社単体）"],
   ["従業員数", "提出会社（持株会社）単体723名／連結は数千名規模（2024年12月期）"],
   ["本社所在地", "東京都渋谷区"],
-  ["技術スタック（公式情報ベース）", "Go / PHP / Java（Spring Boot）/ Ruby / Python / TypeScript / React / Next.js / MySQL / AWS / Docker / Kubernetes（事業会社により異なる）"],
+  ["技術スタック（公式情報ベース）", "Go / PHP / Java（Spring Boot）/ Ruby / Python / TypeScript / React / Next.js / MySQL / AWS / Docker / Kubernetes（事業会社により異なる場合あり）"],
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "転職難易度と向いている人"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
@@ -44,7 +44,7 @@ const toc = [
 
 const faqs = [
   {
-    q: "GMOインターネットグループのエンジニア選考フローは？",
+    q: "GMOインターネットグループのエンジニア選考フローを教えてください。",
     a: "公開されている採用情報によると、おおむね「書類選考」「複数回の面接（技術面接を含む）」「内定」の流れです。GMOはグループ各社・各事業で採用を行うため、応募する事業会社・ポジションにより選考内容が異なります。最新は各社の募集要項で確認するのが確実です。",
   },
   {
@@ -52,24 +52,24 @@ const faqs = [
     a: "2024年12月期の有価証券報告書によると、提出会社（GMOインターネットグループ＝持株会社）単体の平均年間給与は693万円、平均年齢は37.9歳です。これは持株会社単体（約723名）の数字で、グループ各事業会社（GMOインターネット、GMOペイメントゲートウェイ等）の待遇はそれぞれ異なります。",
   },
   {
-    q: "GMOは持株会社ですか？グループ各社の数字の見方は？",
+    q: "GMOは持株会社ですか？グループ各社の数字はどのように見ればよいですか？",
     a: "GMOインターネットグループ株式会社（証券コード9449）は持株会社で、傘下にGMOインターネット株式会社、GMOペイメントゲートウェイ、GMOフィナンシャルホールディングス（GMOクリック証券等）など多数の上場・非上場の事業会社があります。有価証券報告書の提出会社（単体）の平均年収693万円は持株会社のもので、エンジニアが多く所属する事業会社の水準とは分けて読む必要があります。",
   },
   {
-    q: "GMOインターネットグループの技術スタックは？",
+    q: "GMOインターネットグループの技術スタックを教えてください。",
     a: "事業会社により大きく異なります。公開情報ではGo・PHP・Java（Spring Boot）・Ruby・Python・TypeScript・React・Next.jsなどの言語、MySQL、AWS、Docker/Kubernetesなどが用いられています。ドメイン・クラウド・決済・金融といったインフラ寄りの基盤を扱うため、信頼性・セキュリティを意識した開発が求められます。",
   },
   {
-    q: "GMOインターネットグループは何の会社ですか？事業領域は？",
+    q: "GMOインターネットグループはどのような会社ですか？事業領域を教えてください。",
     a: "GMOインターネットグループは、ドメイン・クラウド・セキュリティ・決済・ECなどのインターネットインフラ事業を中核に、広告・メディア事業、金融（証券・銀行）事業、暗号資産事業などを展開する持株会社です。社会基盤としてのインターネットインフラを支える点が特徴です。",
   },
   {
-    q: "GMOのエンジニア比率は？",
+    q: "GMOのエンジニア比率はどのくらいですか？",
     a: "公式採用情報によると、グループのエンジニア（パートナー）比率は約半数とされており（2026年時点の公表値）、技術者が多く在籍する組織です。インフラ・決済・金融といった領域でエンジニアの需要が継続的にあります。",
   },
   {
     q: "30代・40代でもGMOに転職できますか？",
-    a: "持株会社単体の平均年齢は37.9歳（2024年12月期）です。決済・金融・インフラといった信頼性が重視される領域では、運用・セキュリティ・大規模システムの経験を持つミドルエンジニアが評価されやすい傾向です。応募先の事業会社により求める専門性が異なります。",
+    a: "持株会社単体の平均年齢は37.9歳（2024年12月期）です。決済・金融・インフラといった信頼性が重視される領域では、運用・セキュリティ・大規模システムの経験を持つミドルエンジニアが評価されやすい傾向があります。応募先の事業会社により求める専門性が異なります。",
   },
 ];
 
@@ -97,8 +97,8 @@ export default function GmoCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】GMOインターネットグループの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: GMOインターネットグループ株式会社（持株会社単体）の平均年間給与は693万円です（2024年12月期 有価証券報告書、平均年齢37.9歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 693万円です（2024年12月期 有価証券報告書・提出会社=持株会社単体約723名）。全社員平均です。</li><li>・推移は2022年12月期660万円から緩やかに上昇し、2024年12月期693万円です（各期 有価証券報告書）。</li><li>・これは持株会社の数字で、エンジニアが多く所属する各事業会社（GMOインターネット、GMOペイメントゲートウェイ等）の水準とは異なります。提示額は応募先の事業会社・求人で確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>GMOインターネットグループ株式会社（持株会社単体）の平均年間給与は693万円です（2024年12月期 有価証券報告書、平均年齢37.9歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 693万円です（2024年12月期 有価証券報告書・提出会社=持株会社単体約723名）。全社員平均です。</li><li>・2022年12月期の660万円から緩やかに上昇し、2024年12月期は693万円となっています（各期 有価証券報告書）。</li><li>・これは持株会社の数字で、エンジニアが多く所属する各事業会社（GMOインターネット、GMOペイメントゲートウェイ等）の水準とは異なります。提示額は応募先の事業会社・求人で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -117,14 +117,14 @@ export default function GmoCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">転職難易度と向いている人</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               GMOインターネットグループは<strong>ドメイン・クラウド・決済・金融といった社会インフラを支える、エンジニア比率の高いメガベンチャー</strong>です。持株会社体制でグループ各社が事業を運営しており、有価証券報告書の単体平均年収693万円（2024年12月期）は<strong>持株会社の数字</strong>である点に注意が必要です。応募先の事業会社により技術も待遇も異なります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：インフラ・決済・金融など信頼性が重視される領域で、運用・セキュリティ・大規模システムの経験を活かしたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：単一プロダクトに深く長く関わりたい人（グループは事業領域が非常に広い）</li>
-              <li>● <strong>30代・40代</strong>：基盤・運用・セキュリティの専門性があればミドル層も活きやすいです</li>
+              <li>● <strong>30代・40代</strong>：基盤・運用・セキュリティの専門性があればミドル層の経験を活かしやすい環境</li>
             </ul>
           </div>
         </section>
@@ -154,7 +154,7 @@ export default function GmoCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2024年12月期 有価証券報告書の提出会社（持株会社単体）数値。グループ全体の規模はこれを大きく上回ります。技術スタックは公式採用情報・GMO Developers等の公開情報ベースです（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2024年12月期 有価証券報告書の提出会社（持株会社単体）の数値です。グループ全体の規模はこれを大きく上回ります。技術スタックは公式採用情報・GMO Developers等の公開情報に基づきます（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -189,7 +189,7 @@ export default function GmoCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>領域特性</strong>：ドメイン・決済・金融など信頼性/セキュリティ要件の高い基盤開発</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: GMOインターネットグループ公式 採用情報／GMO Developers等の公開情報（2026年6月時点）。事業会社別の構成です。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: GMOインターネットグループ公式 採用情報／GMO Developers等の公開情報（2026年6月時点）。構成は事業会社により異なります。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -253,7 +253,7 @@ export default function GmoCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              GMOインターネットグループは持株会社単体の平均年齢が37.9歳（2024年12月期）です。決済・金融・インフラといった<strong>止められないシステムを扱う領域は、堅牢性・運用・セキュリティの経験を持つミドルエンジニアの強みが活きやすい</strong>のが特徴です。事業領域が非常に広いため、これまでの専門性に合う事業会社・ポジションを選べます。
+              GMOインターネットグループは持株会社単体の平均年齢が37.9歳（2024年12月期）です。決済・金融・インフラといった<strong>止められないシステムを扱う領域は、堅牢性・運用・セキュリティの経験を持つミドルエンジニアの強みが活きやすい</strong>点が特徴です。事業領域が非常に広いため、これまでの専門性に合う事業会社・ポジションを選べます。
             </p>
             <p>
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。GMOの持株会社単体平均（693万円）はこれを上回りますが、これは持株会社の全社員平均で、エンジニアの提示額は応募先の事業会社次第です。30代・40代は事業会社ごとの水準を確認することが重要です。
@@ -269,7 +269,7 @@ export default function GmoCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。メガベンチャー求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

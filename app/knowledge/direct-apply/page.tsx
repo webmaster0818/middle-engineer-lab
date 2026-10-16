@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：状況で使い分け、多くは併用" },
+  { id: "conclusion", label: "状況で使い分け、多くは併用" },
   { id: "difference", label: "直接応募とエージェント経由の違い" },
   { id: "green", label: "Greenなど直接応募型の使い方" },
   { id: "fit", label: "どちらが向いているか" },
@@ -30,16 +30,16 @@ const compareRows = [
   { item: "年収交渉", direct: "自分で交渉", agent: "エージェントが代行" },
   { item: "非公開求人", direct: "アクセス不可", agent: "アクセス可能" },
   { item: "面接対策", direct: "自分で準備", agent: "企業別の対策あり" },
-  { item: "スピード", direct: "自分のペース", agent: "担当と連携して進みます" },
-  { item: "企業の内部情報", direct: "口コミサイト・面談で収集", agent: "担当から詳細情報を得やすいです" },
+  { item: "スピード", direct: "自分のペース", agent: "担当と連携して進行" },
+  { item: "企業の内部情報", direct: "口コミサイト・面談で収集", agent: "担当から詳細情報を入手可能" },
   { item: "求職者の費用", direct: "無料", agent: "無料（企業が成功報酬を負担）" },
   { item: "向く企業", direct: "ベンチャー・採用ページ整備企業", agent: "大手・非公開募集の企業" },
 ];
 
 const combineTips = [
-  { title: "1. 応募先の管理表を作る", desc: "どの企業にどのルートで応募したかをスプレッドシートで管理し、重複応募を防ぎます。管理表の作り方は複数併用の記事を参照してください。" },
-  { title: "2. エージェントには直接応募の存在を伝える", desc: "直接応募している企業があることをエージェントに共有しておくと、同じ企業を重複して進めるトラブルを防げます。隠す方がリスクです。" },
-  { title: "3. 大手・非公開求人はエージェント経由", desc: "大手IT企業は推薦付きの応募を好む傾向があり、非公開求人はエージェント経由でしかアクセスできません。ここは仲介の強みが出ます。" },
+  { title: "1. 応募先の管理表の作成", desc: "どの企業にどのルートで応募したかをスプレッドシートで管理し、重複応募を防ぎます。管理表の作り方は複数併用の記事を参照してください。" },
+  { title: "2. 直接応募の存在をエージェントに共有", desc: "直接応募している企業があることをエージェントに共有しておくと、同じ企業を重複して進めるトラブルを防げます。隠すとかえってトラブルの原因になります。" },
+  { title: "3. 大手・非公開求人はエージェント経由", desc: "大手IT企業は推薦付きの応募を好む傾向があり、非公開求人はエージェント経由でしかアクセスできません。仲介の強みが生きる領域です。" },
   { title: "4. ベンチャー・スタートアップは直接応募", desc: "採用予算が限られるベンチャーはGreen等からの直接応募やカジュアル面談を歓迎する傾向があります。社風を確かめてから選考に進めます。" },
   { title: "5. 内定比較・最終交渉はエージェントを活用", desc: "複数内定が出た際の条件比較や年収交渉は、エージェントの力を借りると有利に進めやすくなります。" },
 ];
@@ -73,7 +73,7 @@ const faqs = [
   },
   {
     q: "スタートアップは直接応募の方がいい？",
-    a: "Greenや企業の採用ページからの直接応募が効果的なことが多いです。採用予算が限られるスタートアップは成功報酬を避ける傾向があり、直接応募やカジュアル面談を歓迎するケースが目立ちます。",
+    a: "Greenや企業の採用ページからの直接応募が効果的なことが多くあります。採用予算が限られるスタートアップは成功報酬を避ける傾向があり、直接応募やカジュアル面談を歓迎するケースが目立ちます。",
   },
   {
     q: "結局どちらを選べばいい？",
@@ -119,8 +119,8 @@ export default function DirectApplyPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】直接応募とエージェント経由、どちらを使うべき？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 状況で使い分けるのが基本で、多くの30代・40代エンジニアはIT特化型エージェントとGreen等の直接応募を併用するのが現実的です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・大手・非公開求人はエージェント経由、ベンチャー・志望が明確な企業は直接応募が基本</li><li>・直接応募は年収交渉や日程調整を自分で行い、非公開求人にはアクセスできません</li><li>・同じ企業に両ルートで応募しないことが鉄則</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>状況で使い分けるのが基本で、多くの30代・40代エンジニアはIT特化型エージェントとGreen等の直接応募を併用するのが現実的です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・大手・非公開求人はエージェント経由、ベンチャー・志望が明確な企業は直接応募が基本です</li><li>・直接応募は年収交渉や日程調整を自分で行い、非公開求人にはアクセスできません</li><li>・同じ企業に両ルートで応募しないことが重要です</li></ul>
           </div>
         </section>
 
@@ -130,7 +130,7 @@ export default function DirectApplyPage() {
 
         <DataNote
           surveyedAt="2026年6月"
-          sources={["各社公式サイト・公式ガイド", "経済産業省 IT人材需給に関する調査（2019年公表）", "転職メディア集計値（時点付き）"]}
+          sources={["各社公式サイト・公式ガイド", "経済産業省 IT人材需給に関する調査（2019年公表）", "転職メディア集計値（時点を明記）"]}
         />
 
         {/* 目次 */}
@@ -150,14 +150,14 @@ export default function DirectApplyPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：状況で使い分け、多くは併用</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">状況で使い分け、多くは併用</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               「大手・非公開求人はエージェント経由」「ベンチャー・志望が明確な企業は直接応募」が基本の使い分けです。多くの30代・40代エンジニアには、<strong>IT特化型エージェント＋Green等の直接応募の併用</strong>が現実的です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>・直接応募の代表：<Link href="/review/green/" className="font-semibold underline">Green</Link>（カジュアル面談中心のダイレクト型）</li>
               <li>・非公開求人・推薦が欲しいなら：<Link href="/review/levtech/" className="font-semibold underline">レバテックキャリア</Link>等のIT特化型</li>
-              <li>・同じ企業に両ルートで応募しないことが鉄則</li>
+              <li>・注意点：同じ企業に両ルートで応募しないこと</li>
             </ul>
           </div>
         </section>
@@ -166,7 +166,7 @@ export default function DirectApplyPage() {
         <section id="difference" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">直接応募とエージェント経由の違い</h2>
           <p className="text-slate-600 text-sm leading-relaxed mb-4">
-            両者は「自分で動くか、プロに仲介してもらうか」の違いです。下表で要点を整理します。
+            両者は「自分で動くか、専門家に仲介してもらうか」の違いです。下表で要点を整理します。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
@@ -201,7 +201,7 @@ export default function DirectApplyPage() {
               { num: "1", title: "プロフィールを作り込む", desc: "技術スタックを具体名で、実績は数値で記載します。企業は検索で候補者を探すため、使った技術名を網羅するほど見つかりやすくなります。" },
               { num: "2", title: "「気になる」やカジュアル面談を活用する", desc: "Greenでは企業と直接やり取りでき、選考前のカジュアル面談で社風や開発体制を把握できます。気軽に複数社と話して比較しましょう。" },
               { num: "3", title: "自分で日程調整・条件確認を行う", desc: "仲介サポートがないため、面接日程や年収・条件の確認は自分で進めます。年収交渉に不安があればエージェント経由の企業と併用してバランスを取ります。" },
-              { num: "4", title: "企業の採用ページも併せてチェック", desc: "志望が固まっている企業は、採用ページから直接応募する手もあります。エージェント経由と重複しないよう管理表で整理しておきましょう。" },
+              { num: "4", title: "企業の採用ページも併せて確認する", desc: "志望が固まっている企業は、採用ページから直接応募する手もあります。エージェント経由と重複しないよう管理表で整理しておきましょう。" },
             ].map((item) => (
               <div key={item.num} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -300,7 +300,7 @@ export default function DirectApplyPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">直接応募と並行してエージェントも活用しよう</h2>
+          <h2 className="text-xl font-bold mb-3">直接応募と並行してエージェントも活用しましょう</h2>
           <p className="text-blue-100 text-sm mb-4">
             エージェントは完全無料です。登録しておけば、直接応募ではアクセスできない非公開求人も紹介してもらえます。
           </p>

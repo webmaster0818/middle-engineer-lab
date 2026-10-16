@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：ネットワーク転職市場での進め方" },
+  { id: "conclusion", label: "ネットワーク転職市場での進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "cert", label: "Cisco認定資格の活かし方" },
   { id: "level", label: "求められる経験レベル" },
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     q: "ネットワークエンジニアにおすすめの転職サービスは？",
-    a: "インフラ・ネットワーク案件に強いレバテックキャリア、SIer系ネットワーク求人が豊富なマイナビIT AGENT、ハイクラスインフラ案件を狙えるビズリーチの併用が定番です（2026年6月時点・各社公表/二次情報）。",
+    a: "インフラ・ネットワーク案件に強いレバテックキャリア、SIer系ネットワーク求人が豊富なマイナビIT AGENT、ハイクラスインフラ案件を狙えるビズリーチの併用が一般的な選択肢です（2026年6月時点・各社公表/二次情報）。",
   },
 ];
 
@@ -64,8 +64,8 @@ const salaryTable = [
 const certTable = [
   ["エントリー", "CCT など", "未経験者向けの入口"],
   ["アソシエイト", "CCNA", "基礎力の証明。転職でまず狙う層"],
-  ["プロフェッショナル", "CCNP", "中級。専門性とキャリアの前進を示す"],
-  ["エキスパート", "CCIE", "上級。難関資格として高く評価される"],
+  ["プロフェッショナル", "CCNP", "中級。専門性とキャリアの前進を示す資格"],
+  ["エキスパート", "CCIE", "上級。難関資格として高い評価"],
   ["アーキテクト", "CCAr", "最上位の設計者向け"],
 ];
 
@@ -129,7 +129,7 @@ export default function NetworkSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ネットワーク転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ネットワーク転職市場での進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               ネットワークエンジニアの転職は、<strong>「従来型の構築・運用」から「クラウド/セキュリティ/自動化」へ領域を広げられるか</strong>で年収が変わります。進め方は次の3点です。
@@ -207,9 +207,9 @@ export default function NetworkSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "構築・運用層", d: "LAN/WANの設計・構築・運用、ルーティング/スイッチング、ファイアウォール設定、障害対応。CCNA保有が歓迎されやすいです。" },
+              { t: "構築・運用層", d: "LAN/WANの設計・構築・運用、ルーティング/スイッチング、ファイアウォール設定、障害対応。CCNA保有が歓迎されやすい傾向があります。" },
               { t: "セキュリティ/クラウド層", d: "ゼロトラスト設計、SASE導入、AWS VPC/Azure VNetのネットワーク設計。希少性が高く年収帯が上がります。" },
-              { t: "アーキテクト層", d: "大規模・マルチサイトのネットワーク設計、クラウド/オンプレ統合、ネットワーク自動化の標準化です。CCIE等が後押し。" },
+              { t: "アーキテクト層", d: "大規模・マルチサイトのネットワーク設計、クラウド/オンプレ統合、ネットワーク自動化の標準化。CCIE等の資格が評価を後押しします。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -226,7 +226,7 @@ export default function NetworkSkillPage() {
               { role: "ネットワークエンジニア", note: "LAN/WANの設計・構築・運用" },
               { role: "セキュリティネットワークエンジニア", note: "ゼロトラスト設計、SASE導入" },
               { role: "クラウドネットワークアーキテクト", note: "AWS/Azure/GCPのネットワーク設計" },
-              { role: "インフラ/SREへの横展開", note: "ネットワーク基礎を土台にクラウド基盤へ" },
+              { role: "インフラ/SREへの横展開", note: "ネットワーク基礎を土台にしたクラウド基盤への展開" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.role}</h3>
@@ -247,7 +247,7 @@ export default function NetworkSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化です。インフラ・ネットワーク案件に強く、クラウドネットワーク求人も扱います。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Webに特化したエージェントです。インフラ・ネットワーク案件に強みがあり、クラウドネットワーク求人も扱っています。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -271,9 +271,9 @@ export default function NetworkSkillPage() {
           <div className="space-y-3">
             {[
               { n: "STEP 1", t: "基礎の棚卸し", d: "TCP/IP・DNS・ルーティング・ファイアウォールの経験を整理します。クラウドでもそのまま活きます。" },
-              { n: "STEP 2", t: "クラウドのネットワークを学びます", d: "AWS VPC/サブネット/ルートテーブル/Transit Gatewayなど、既存知識の延長で理解できる領域から着手します。" },
-              { n: "STEP 3", t: "資格で裏付けます", d: "AWS Advanced Networking等の認定で、クラウドネットワークのスキルを可視化します。" },
-              { n: "STEP 4", t: "自動化で差別化", d: "Ansible/Terraform/Pythonでネットワーク構成をコード化し、従来型エンジニアとの差を示します。" },
+              { n: "STEP 2", t: "クラウドネットワークの学習", d: "AWS VPC/サブネット/ルートテーブル/Transit Gatewayなど、既存知識の延長で理解できる領域から着手します。" },
+              { n: "STEP 3", t: "資格による裏付け", d: "AWS Advanced Networking等の認定で、クラウドネットワークのスキルを可視化します。" },
+              { n: "STEP 4", t: "自動化による差別化", d: "Ansible/Terraform/Pythonでネットワーク構成をコード化し、従来型エンジニアとの差を示します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -293,10 +293,10 @@ export default function NetworkSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              ミドル層のネットワーク転職では、<strong>「物理機器の設定ができる」だけでなく「クラウド・セキュリティへ領域を広げられる」</strong>ことが評価軸になります。従来型の構築・運用に閉じると年収が頭打ちになりやすいため、クラウドネットワークやゼロトラストへ踏み出すのが鍵です。
+              ミドル層のネットワーク転職では、<strong>「物理機器の設定ができる」だけでなく「クラウド・セキュリティへ領域を広げられる」</strong>ことが評価軸になります。従来型の構築・運用に閉じると年収が頭打ちになりやすいため、クラウドネットワークやゼロトラストへ領域を広げることが重要です。
             </p>
             <p>
-              年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%です（2025年）。ネットワークの土台にクラウド・セキュリティを掛け合わせると、高年収帯への接続が見えてきます。
+              年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%です（2025年）。ネットワークの土台にクラウド・セキュリティを掛け合わせると、高年収帯の求人も視野に入ります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>もご覧ください。
@@ -307,11 +307,11 @@ export default function NetworkSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ CCNAで基礎を固め、CCNP/CCIEで専門性を段階的に示す</li>
-            <li>✓ クラウドネットワーク（VPC/VNet）を学び、AWS Advanced Networking等で裏付ける</li>
-            <li>✓ ゼロトラスト/SASEの設計知識を加え、セキュリティ×ネットワークの希少性を作る</li>
-            <li>✓ Ansible/Terraform/Pythonでネットワーク自動化（NaC）を体験する</li>
-            <li>✓ 学んだ構成は検証環境で再現し、設計意図を説明できる状態にする</li>
+            <li>✓ CCNAで基礎を固め、CCNP/CCIEで専門性を段階的に示します</li>
+            <li>✓ クラウドネットワーク（VPC/VNet）を学び、AWS Advanced Networking等の認定で裏付けます</li>
+            <li>✓ ゼロトラスト/SASEの設計知識を加え、セキュリティ×ネットワークの希少性を高めます</li>
+            <li>✓ Ansible/Terraform/Pythonでネットワーク自動化（NaC）を経験します</li>
+            <li>✓ 学んだ構成は検証環境で再現し、設計意図を説明できる状態にします</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>をご参照ください。

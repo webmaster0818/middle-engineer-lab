@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：沖縄・那覇のIT転職市場の特徴" },
+  { id: "conclusion", label: "沖縄・那覇のIT転職市場の特徴" },
   { id: "market", label: "沖縄のIT・産業集積と誘致政策" },
   { id: "reality", label: "求人の実情" },
   { id: "workstyle", label: "働き方の選択肢（地元×リモート×リゾートワーク）" },
@@ -26,7 +26,7 @@ const toc = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も見られる層です。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手の層です。ポテンシャル採用も見られます。" },
   { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
   { age: "40代", salary: "約618万円", note: "マネジメント・高度専門で年収が伸びやすい層です。" },
   { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
@@ -37,25 +37,25 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人を介して沖縄在住のまま都市部水準の案件を狙う使い方と相性が良いです。高年収求人比率の高さも特徴とされます。",
+      "IT/Web領域に特化したエージェントです。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人を介して沖縄在住のまま都市部水準の案件を狙う使い方と相性が良いといえます。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型です。地方在住からの相談に向き、未経験歓迎求人も比較的多いです。沖縄の地元求人と首都圏求人の双方に当たりやすいです。",
+      "全国47都道府県57拠点を構える総合型のエージェントです。地方在住者からの相談に対応し、未経験歓迎求人も比較的多く見られます。沖縄の地元求人と首都圏求人の双方を探しやすくなります。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、求人母数の多さが強みです。地元求人が限られる地方では、母数の大きいサービスで取りこぼしを防ぐ意味が大きいです。",
+      "全国対応の総合型エージェントです。検索・エージェント・スカウトを組み合わせたハイブリッド型で、求人母数の多さが強みです。地元求人が限られる地方では、母数の大きいサービスで取りこぼしを防ぐ意味が大きいといえます。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     point:
-      "ハイクラス・スカウト型です。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、沖縄在住のまま探したい人向けです。市場価値を客観的に把握しやすいです。",
+      "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、沖縄在住のまま探したい人に適しています。市場価値を客観的に把握しやすくなります。",
   },
 ];
 
@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "沖縄へのUIターン移住に使える支援制度はありますか？",
-    a: "沖縄県や各市町村は移住・定住の相談窓口や支援情報を公開しています。国の地方創生施策である移住支援金（東京圏からの移住で要件を満たすと交付される制度です。金額・要件は自治体ごとに異なる）の対象になる場合もあります。制度は年度や居住地によって変わるため、必ず沖縄県・移住先市町村の公式サイトや相談窓口で最新の要件を確認してください。",
+    a: "沖縄県や各市町村は移住・定住の相談窓口や支援情報を公開しています。国の地方創生施策である移住支援金（東京圏からの移住で要件を満たすと交付される制度で、金額・要件は自治体ごとに異なります）の対象になる場合もあります。制度は年度や居住地によって変わるため、必ず沖縄県・移住先市町村の公式サイトや相談窓口で最新の要件を確認してください。",
   },
   {
     q: "沖縄のIT転職におすすめのエージェントは？",
@@ -153,17 +153,17 @@ export default function OkinawaAreaPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 市場の特徴 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：沖縄・那覇のIT転職市場の特徴</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">沖縄・那覇のIT転職市場の特徴</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               沖縄のIT転職は「暮らし方と働き方を一体で考えたいエンジニア」と相性の良い市場です。地元はIT誘致でコールセンター・BPO・開発拠点が一定数ある一方、最先端のWeb自社開発は母数が限られます。首都圏フルリモート求人を併用して母数と年収の選択肢を広げるのが現実的な進め方です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・地元はIT誘致でコールセンター・BPO・開発拠点が立地です。一方Web自社開発の母数は限られます</li>
-              <li>・リゾート地特性を活かしたワーケーション・リモートワークと相性が良いです</li>
-              <li>・地元求人は額面が抑えめになりやすいです。首都圏フルリモート併用で年収の選択肢を広げられます</li>
+              <li>・地元にはIT誘致によりコールセンター・BPO・開発拠点が立地していますが、Web自社開発の母数は限られます</li>
+              <li>・リゾート地特性を活かしたワーケーション・リモートワークと相性が良いといえます</li>
+              <li>・地元求人は額面が抑えめになりやすい傾向があります。首都圏フルリモート併用で年収の選択肢を広げられます</li>
             </ul>
           </div>
         </section>
@@ -227,7 +227,7 @@ export default function OkinawaAreaPage() {
               <strong>額面の傾向を理解する：</strong> 沖縄は賃金水準が高いエリアとはされず、地元求人では額面が抑えめになりやすい傾向があります。年収を重視するなら、フルリモートで首都圏水準の求人を狙う選択が現実的です。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              <strong>件数の数字を鵜呑みにしない：</strong> 求人件数は時期・媒体・エージェントで大きく変動します。本記事では具体的な件数を断定しません。最新の実数は複数のエージェントに当たって確認してください。
+              <strong>件数の数字を鵜呑みにしない：</strong> 求人件数は時期・媒体・エージェントで大きく変動します。本記事では具体的な件数を断定しません。最新の実数は複数のエージェントに問い合わせて確認してください。
             </p>
           </div>
         </section>
@@ -242,7 +242,7 @@ export default function OkinawaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元の誘致企業・拠点に出社・ハイブリッドで勤務:</strong> 那覇市中心の開発拠点・BPO・サポート系で働きます。地域に根ざしたキャリアや、まずは沖縄で就業基盤を作りたい人向けです。
+                <strong>地元の誘致企業・拠点に出社・ハイブリッドで勤務:</strong> 那覇市中心の開発拠点・BPO・サポート系で働きます。地域に根ざしたキャリアや、まずは沖縄で就業基盤を作りたい人に向いています。
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -258,7 +258,7 @@ export default function OkinawaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>ワーケーション・移住で生活拠点を沖縄に:</strong> 短期のワーケーションで暮らしを体験し、相性を確かめてから移住＋フルリモート転職に進む形です。生活と働き方を一体で設計したい人向けです。
+                <strong>ワーケーション・移住で生活拠点を沖縄に:</strong> 短期のワーケーションで暮らしを体験し、相性を確かめてから移住＋フルリモート転職に進む形です。生活と働き方を一体で設計したい人に適しています。
               </p>
             </div>
           </div>
@@ -374,14 +374,14 @@ export default function OkinawaAreaPage() {
             <div className="border border-slate-200 bg-slate-50 rounded-lg p-5">
               <h3 className="font-bold text-slate-700 text-sm mb-3">慎重に検討したい人</h3>
               <ul className="space-y-2 text-sm text-slate-700">
-                <li className="flex gap-2"><span className="shrink-0">−</span><span>最先端のWeb/SaaS自社開発の選択肢を地元で最大化したい（母数は首都圏が圧倒的）</span></li>
+                <li className="flex gap-2"><span className="shrink-0">−</span><span>最先端のWeb/SaaS自社開発の選択肢を地元で最大化したい（母数は首都圏の方が大幅に多い）</span></li>
                 <li className="flex gap-2"><span className="shrink-0">−</span><span>地元求人の額面だけで大幅な年収アップを狙いたい（賃金水準・フルリモート併用が論点）</span></li>
-                <li className="flex gap-2"><span className="shrink-0">−</span><span>頻繁な本州出張・対面前提の働き方を負担に感じます（フルリモート求人で軽減可能）</span></li>
+                <li className="flex gap-2"><span className="shrink-0">−</span><span>頻繁な本州出張・対面前提の働き方を負担に感じる（フルリモート求人で軽減可能）</span></li>
               </ul>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            「慎重に検討したい人」に当てはまっても、沖縄在住のまま首都圏のフルリモート求人を選べば、希望の案件・年収に近づける場合があります。地元にこだわりすぎず、働き方の選択肢を広げることが沖縄での転職成功の近道です。
+            「慎重に検討したい人」に当てはまっても、沖縄在住のまま首都圏のフルリモート求人を選べば、希望の案件・年収に近づける場合があります。地元にこだわりすぎず、働き方の選択肢を広げることが沖縄での転職を進めるうえで有効です。
           </p>
         </section>
 
@@ -432,7 +432,7 @@ export default function OkinawaAreaPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">沖縄×リモートでIT転職を進めよう</h2>
+          <h2 className="text-xl font-bold mb-3">沖縄でリモートを活かしたIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
             地元の誘致企業・拠点から首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、暮らしと年収のバランスが取れる選択肢を見つけましょう。
           </p>

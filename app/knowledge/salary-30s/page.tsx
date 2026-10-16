@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：30代の年収相場と上げ方" },
+  { id: "conclusion", label: "30代の年収相場と上げ方" },
   { id: "data", label: "30代エンジニアの年収データ（出典付き）" },
   { id: "factors", label: "30代の年収を左右する4つの要因" },
   { id: "strategy", label: "30代で年収を上げる5つの戦略" },
@@ -27,7 +27,7 @@ const toc = [
 
 const salaryData = [
   { age: "20代", salary: "約378万円", note: "経験を積みながら市場価値を高める時期" },
-  { age: "30代", salary: "約499万円", note: "キャリアの分岐点です。専門性かマネジメントかで差が広がります" },
+  { age: "30代", salary: "約499万円", note: "専門性かマネジメントかで差が広がるキャリアの分岐点" },
   { age: "40代", salary: "約618万円", note: "役職・専門性が反映され、最も差が開く年代" },
   { age: "50代", salary: "約685万円", note: "管理職・高度専門職が牽引" },
 ];
@@ -80,12 +80,12 @@ const strategies = [
 ];
 
 const checklist = [
-  "3年以上、額面年収がほとんど上がっていません",
+  "3年以上、額面年収がほとんど上がっていない",
   "現職の年収テーブルの上限が見えてきた",
   "自分の市場価値を一度も客観的に確認したことがない",
-  "需要の高いスキルを持っているのに評価に反映されていません",
-  "マネジメントかスペシャリストか、キャリアの軸が定まっていません",
-  "残業や責任に対して報酬が見合っていないと感じます",
+  "需要の高いスキルを持っているのに評価に反映されていない",
+  "マネジメントかスペシャリストか、キャリアの軸が定まっていない",
+  "残業や責任に対して報酬が見合っていないと感じる",
 ];
 
 const faqs = [
@@ -184,14 +184,14 @@ export default function Salary30sPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】30代エンジニアの年収相場はいくら？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: レバテック公表（2025年）の年代別平均では、正社員エンジニアの30代は約499万円が相場の目安です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・レバテック公表（2025年）で30代の平均は約499万円です。年収1,000万円以上は30代で8.01%です。</li><li>・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収578.5万円・平均年齢37.1歳です。</li><li>・年収を上げる鍵は、需要の高い技術・領域への軸足移動と、スペシャリスト／マネジメントの軸決め。</li><li>・転職エージェントで市場価値を定期的に確認し、社内昇給頼みにしないことが有効です。</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>レバテック公表（2025年）の年代別平均では、正社員エンジニアの30代は約499万円が相場の目安です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・レバテック公表（2025年）で30代の平均は約499万円です。年収1,000万円以上は30代で8.01%です。</li><li>・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収578.5万円・平均年齢37.1歳です。</li><li>・年収を上げる鍵は、需要の高い技術・領域への軸足移動と、スペシャリスト／マネジメントの軸を決めることです。</li><li>・転職エージェントで市場価値を定期的に確認し、社内昇給頼みにしないことが有効です。</li></ul>
           </div>
         </section>
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：30代の年収相場と上げ方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代の年収相場と上げ方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               レバテックが公表する2025年の年代別平均年収では、正社員エンジニアの<strong>30代は約499万円です</strong>。年収1,000万円以上の割合は<strong>30代で8.01%</strong>とされています。公的統計でも、厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円・平均年齢37.1歳</strong>です。

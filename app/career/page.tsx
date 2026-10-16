@@ -17,42 +17,42 @@ const categories = [
     intro: "今の職種から別領域へ移るルートです。在職中の準備と見せ方次第で実現性が変わります。",
     paths: [
       { slug: "se-to-web", from: "SE（SIer）", to: "Web系エンジニア", difficulty: "中", salaryChange: "+50〜150万円", desc: "受託からモダン開発へ進む道があります。最も相談の多い代表的なルートです。" },
-      { slug: "consultant-to-engineer", from: "ITコンサルタント", to: "エンジニア", difficulty: "中", salaryChange: "-50〜+50万円", desc: "上流から実装側へ進む道があります。技術力の証明が鍵になります。" },
+      { slug: "consultant-to-engineer", from: "ITコンサルタント", to: "エンジニア", difficulty: "中", salaryChange: "-50〜+50万円", desc: "上流から実装側へ移るルートです。技術力の証明が重要になります。" },
       { slug: "tester-to-developer", from: "テスター/QA", to: "開発エンジニア", difficulty: "中〜高", salaryChange: "+50〜200万円", desc: "品質知見を強みに開発職へ移行する道筋です。" },
-      { slug: "support-to-infra", from: "ヘルプデスク/運用", to: "インフラエンジニア", difficulty: "中", salaryChange: "+50〜150万円", desc: "運用経験を土台にクラウド構築側へ進む道があります。" },
-      { slug: "engineer-to-consultant", from: "エンジニア", to: "ITコンサルタント", difficulty: "中", salaryChange: "+100〜300万円", desc: "技術力を活かし上流・高年収を狙います。" },
-      { slug: "domestic-to-foreign", from: "日系企業", to: "外資系IT企業", difficulty: "高", salaryChange: "+200〜500万円", desc: "英語と選考対策が必須です。年収インパクト大。" },
-      { slug: "sales-to-engineer", from: "営業", to: "エンジニア", difficulty: "高", salaryChange: "-150〜±0万円", desc: "未経験からの転職のため難度が高いです。成果物と動機の一貫性が鍵です。" },
-      { slug: "designer-to-frontend", from: "Webデザイナー", to: "フロントエンドエンジニア", difficulty: "中〜高", salaryChange: "-50〜+100万円", desc: "デザイン強みを実装と掛け合わせ希少性を強みにします。" },
-      { slug: "ses-to-jigyo", from: "SES（客先常駐）", to: "自社開発エンジニア", difficulty: "中〜高", salaryChange: "横ばい〜上昇", desc: "人気ルートだが選考でポートフォリオ・主体性が問われます。" },
-      { slug: "embedded-to-web", from: "組込みエンジニア", to: "Web系エンジニア", difficulty: "高", salaryChange: "横ばい〜一時減", desc: "低レイヤ基礎力と品質文化は強みです。文化差の学習が前提です。" },
+      { slug: "support-to-infra", from: "ヘルプデスク/運用", to: "インフラエンジニア", difficulty: "中", salaryChange: "+50〜150万円", desc: "運用経験を土台にクラウド構築側へ進むルートです。" },
+      { slug: "engineer-to-consultant", from: "エンジニア", to: "ITコンサルタント", difficulty: "中", salaryChange: "+100〜300万円", desc: "技術力を活かし、上流工程と高年収を目指すルートです。" },
+      { slug: "domestic-to-foreign", from: "日系企業", to: "外資系IT企業", difficulty: "高", salaryChange: "+200〜500万円", desc: "英語と選考対策が必須で、年収への影響が大きいルートです。" },
+      { slug: "sales-to-engineer", from: "営業", to: "エンジニア", difficulty: "高", salaryChange: "-150〜±0万円", desc: "未経験からの転職のため難度が高い傾向があります。成果物と動機の一貫性が重要です。" },
+      { slug: "designer-to-frontend", from: "Webデザイナー", to: "フロントエンドエンジニア", difficulty: "中〜高", salaryChange: "-50〜+100万円", desc: "デザインの強みを実装と掛け合わせ、希少性のある人材を目指します。" },
+      { slug: "ses-to-jigyo", from: "SES（客先常駐）", to: "自社開発エンジニア", difficulty: "中〜高", salaryChange: "横ばい〜上昇", desc: "希望者の多いルートですが、選考ではポートフォリオと主体性が問われます。" },
+      { slug: "embedded-to-web", from: "組込みエンジニア", to: "Web系エンジニア", difficulty: "高", salaryChange: "横ばい〜一時減", desc: "低レイヤの基礎力と品質文化を強みにできる一方、文化差を埋める学習が前提になります。" },
     ],
   },
   {
     name: "キャリアアップ",
     intro: "役割・ポジションを上げるルートです。マネジメントや裁量の拡大を志向する人向けです。",
     paths: [
-      { slug: "pm-to-cto", from: "PM", to: "CTO/VPoE", difficulty: "高", salaryChange: "+200〜500万円", desc: "技術組織の責任者を目指す道があります。経営視点が問われます。" },
+      { slug: "pm-to-cto", from: "PM", to: "CTO/VPoE", difficulty: "高", salaryChange: "+200〜500万円", desc: "技術組織の責任者を目指すルートです。経営視点が問われます。" },
       { slug: "tech-lead", from: "シニアエンジニア", to: "テックリード", difficulty: "中", salaryChange: "+100〜200万円", desc: "技術と人を束ねるリーダー職への一歩です。" },
-      { slug: "corporate-to-startup", from: "大企業エンジニア", to: "スタートアップCTO", difficulty: "高", salaryChange: "±0〜+SO", desc: "裁量とストックオプションを取りに行きます。" },
-      { slug: "startup-to-corporate", from: "スタートアップ", to: "大企業エンジニア", difficulty: "低〜中", salaryChange: "+50〜200万円", desc: "安定と待遇を求めて大手へ移る選択。" },
+      { slug: "corporate-to-startup", from: "大企業エンジニア", to: "スタートアップCTO", difficulty: "高", salaryChange: "±0〜+SO", desc: "裁量の大きさとストックオプションを求めて移るルートです。" },
+      { slug: "startup-to-corporate", from: "スタートアップ", to: "大企業エンジニア", difficulty: "低〜中", salaryChange: "+50〜200万円", desc: "安定と待遇を求めて大手へ移る選択肢です。" },
       { slug: "freelance-to-permanent", from: "フリーランス", to: "正社員", difficulty: "低", salaryChange: "-100〜+50万円", desc: "安定や役割拡大を理由に正社員へ戻る道です。" },
-      { slug: "engineer-to-em", from: "現場エンジニア", to: "エンジニアリングマネージャー", difficulty: "中", salaryChange: "横ばい〜上昇", desc: "個人の成果からチームの成果へ進む道があります。ミドルの代表的なキャリアパスです。" },
-      { slug: "se-to-pm", from: "SE", to: "プロジェクトマネージャー", difficulty: "中", salaryChange: "上昇傾向", desc: "上流・技術判断が土台です。QCD全体管理と折衝がギャップです。" },
-      { slug: "pg-to-se", from: "プログラマー", to: "システムエンジニア", difficulty: "低〜中", salaryChange: "上昇傾向", desc: "実装経験を設計力の土台にします。代表的なステップアップ。" },
-      { slug: "manager-to-ic", from: "管理職", to: "現場エンジニア（IC）", difficulty: "高", salaryChange: "横ばい〜一時減", desc: "技術キャッチアップが最大の壁です。直近のコードで証明します。" },
+      { slug: "engineer-to-em", from: "現場エンジニア", to: "エンジニアリングマネージャー", difficulty: "中", salaryChange: "横ばい〜上昇", desc: "個人の成果からチームの成果へ役割を移すルートで、ミドルの代表的なキャリアパスです。" },
+      { slug: "se-to-pm", from: "SE", to: "プロジェクトマネージャー", difficulty: "中", salaryChange: "上昇傾向", desc: "上流工程と技術判断の経験が土台となり、QCD全体の管理と折衝がギャップになります。" },
+      { slug: "pg-to-se", from: "プログラマー", to: "システムエンジニア", difficulty: "低〜中", salaryChange: "上昇傾向", desc: "実装経験を設計力の土台にする、代表的なステップアップのルートです。" },
+      { slug: "manager-to-ic", from: "管理職", to: "現場エンジニア（IC）", difficulty: "高", salaryChange: "横ばい〜一時減", desc: "技術のキャッチアップが最大の課題で、直近のコードで実力を示す必要があります。" },
     ],
   },
   {
     name: "職種特化",
     intro: "専門領域を深めて希少性を高めるルートです。需要の伸びる領域で年収アップを狙えます。",
     paths: [
-      { slug: "backend-to-fullstack", from: "バックエンド", to: "フルスタック", difficulty: "中", salaryChange: "+50〜150万円", desc: "対応範囲を広げて市場価値を底上げ。" },
-      { slug: "sre", from: "インフラ/開発", to: "SRE", difficulty: "中〜高", salaryChange: "+100〜250万円", desc: "信頼性エンジニアリングで高需要・高年収です。" },
+      { slug: "backend-to-fullstack", from: "バックエンド", to: "フルスタック", difficulty: "中", salaryChange: "+50〜150万円", desc: "対応範囲を広げて市場価値を高めるルートです。" },
+      { slug: "sre", from: "インフラ/開発", to: "SRE", difficulty: "中〜高", salaryChange: "+100〜250万円", desc: "信頼性エンジニアリングを担う職種で、需要と年収水準が高い傾向があります。" },
       { slug: "devsecops", from: "開発/インフラ", to: "DevSecOps", difficulty: "中〜高", salaryChange: "+100〜200万円", desc: "セキュリティ×開発の希少ポジションです。" },
       { slug: "cre", from: "CS/開発", to: "CRE（顧客信頼性）", difficulty: "中", salaryChange: "+50〜150万円", desc: "顧客対応と技術を橋渡しする新興職種です。" },
-      { slug: "infra-to-sre", from: "インフラエンジニア", to: "SRE", difficulty: "中", salaryChange: "-50〜+150万円", desc: "運用経験を信頼性改善力に翻訳します。コードで解く力が鍵です。" },
-      { slug: "frontend-to-backend", from: "フロントエンド", to: "バックエンド", difficulty: "中", salaryChange: "±0〜+100万円", desc: "同じ開発職内の移行。API・DB設計を成果物で示します。" },
+      { slug: "infra-to-sre", from: "インフラエンジニア", to: "SRE", difficulty: "中", salaryChange: "-50〜+150万円", desc: "運用経験を信頼性改善の力として示すルートで、コードで課題を解く力が重要です。" },
+      { slug: "frontend-to-backend", from: "フロントエンド", to: "バックエンド", difficulty: "中", salaryChange: "±0〜+100万円", desc: "同じ開発職内の移行で、API・DB設計の力を成果物で示します。" },
       { slug: "backend-to-frontend", from: "バックエンド", to: "フロントエンド", difficulty: "中", salaryChange: "-50〜+100万円", desc: "設計力を流用しReactとUI/UXを習得して移行します。" },
       { slug: "data-analyst-to-scientist", from: "データアナリスト", to: "データサイエンティスト", difficulty: "中〜高", salaryChange: "±0〜+150万円", desc: "SQL・ビジネス理解を土台に統計と機械学習を証明します。" },
     ],
@@ -207,7 +207,7 @@ export default function CareerIndexPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
           <h2 className="text-xl font-bold mb-3">キャリアチェンジを相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントがご自身の経歴に合ったキャリアパスを提案してくれます。
+            IT特化型エージェントがご自身の経歴に合ったキャリアパスを提案します。
           </p>
           <Link
             href="/#ranking"

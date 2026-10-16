@@ -12,19 +12,19 @@ export const metadata: Metadata = {
 };
 
 const skillTable = [
-  ["電力系統・SCADA・監視制御の理解", "そのまま強み", "系統や制御を分かる人は技術側に少なく、エネテック企業で評価されやすいです"],
+  ["電力系統・SCADA・監視制御の理解", "そのまま強み", "系統や制御を分かる人は技術側に少なく、エネテック企業で評価されやすい傾向があります"],
   ["再エネ設備・EMSの運用知識", "そのまま強み", "需給制御や設備監視の前提知識がプロダクト設計で活きます"],
   ["電力市場・規制まわりの業務知識", "差別化要素", "需給調整・取引・排出量算定など制度面の理解が重宝されます"],
-  ["IoT・時系列データ処理", "埋めるギャップ", "センサーデータ収集・制御や時系列の分析基盤の経験を補強したい"],
-  ["クラウド／データ分析（Python/SQL）", "埋めるギャップ", "可視化・最適化のための言語・基盤を扱える幅を広げたい"],
+  ["IoT・時系列データ処理", "埋めるギャップ", "センサーデータ収集・制御や時系列の分析基盤の経験を補強しておきたい領域です"],
+  ["クラウド／データ分析（Python/SQL）", "埋めるギャップ", "可視化・最適化に向けて、扱える言語・基盤の幅を広げておきたい領域です"],
   ["最適化アルゴリズム基礎", "伸ばすと有利", "需給最適化・充電制御などに関わるなら関連手法の理解が役立ちます"],
 ];
 
 const jobTypes = [
-  ["EMS／エネルギー管理プロダクト開発", "エネテックベンダー、電力系スタートアップ", "需給の可視化・制御。系統・設備の業務知識が直接活きる"],
-  ["スマートグリッド・需給最適化", "電力・系統寄りの企業", "系統制御・最適化。制御知識＋データ／アルゴリズム素養が求められる"],
-  ["EV充電インフラ・V2G", "充電インフラ・モビリティ系企業", "充電制御・スマートチャージング。電力制御の理解が活きる"],
-  ["カーボン／排出量管理", "カーボンテック、サステナ系企業", "排出量算定・クレジット管理。制度・業務知識が強みになる"],
+  ["EMS／エネルギー管理プロダクト開発", "エネテックベンダー、電力系スタートアップ", "需給の可視化・制御。系統・設備の業務知識を直接活かせる領域"],
+  ["スマートグリッド・需給最適化", "電力・系統寄りの企業", "系統制御・最適化。制御知識とデータ／アルゴリズムの素養が求められる領域"],
+  ["EV充電インフラ・V2G", "充電インフラ・モビリティ系企業", "充電制御・スマートチャージング。電力制御の理解を活かせる領域"],
+  ["カーボン／排出量管理", "カーボンテック、サステナ系企業", "排出量算定・クレジット管理。制度・業務知識が強みになる領域"],
 ];
 
 const faqs = [
@@ -68,7 +68,7 @@ const related = [
 ];
 
 const toc = [
-  ["conclusion", "結論：この転職の現実性"],
+  ["conclusion", "この転職の現実性"],
   ["trend", "エネルギーのIT化・採用動向"],
   ["skills", "活かせるスキル／埋めるギャップ"],
   ["patterns", "転職パターン（職種×企業タイプ）"],
@@ -114,11 +114,11 @@ export default function EnergyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：この転職の現実性</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">この転職の現実性</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">系統・制御・設備の知識を持つエネルギー業界エンジニアにとって、エネテック領域への転職は十分に狙えるルートです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・電力系統やSCADA、EMSを分かる人は技術側に少なく、業務知識がそのまま差別化になりやすいです。</li>
+              <li>・電力系統やSCADA、EMSを分かる人は技術側に少なく、業務知識がそのまま差別化になりやすい傾向があります。</li>
               <li>・求人の多くはIoTや時系列データ処理の実装経験を求めます。ここが主なギャップです。</li>
               <li>・受け皿は大手の新規事業からスタートアップまで幅広く、給与・働き方の差が出やすい点に注意が必要です。</li>
             </ul>
@@ -202,10 +202,10 @@ export default function EnergyPage() {
           <p className="text-slate-600 leading-relaxed mb-4">エネテック領域の受け皿は、おおまかに次のタイプに分かれます。どこが自分の経験を活かせるかで応募戦略を決めます。</p>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              ["電力・エネルギー大手の新規事業／IT部門", "既存事業のデジタル化。系統・制御の知識との親和性が高い"],
-              ["エネテック系スタートアップ", "需給管理・EMSなどのプロダクト開発。裁量が大きい"],
-              ["EV充電・モビリティ系企業", "充電制御・インフラ管理。電力制御の理解が活きる"],
-              ["カーボンテック・サステナ系企業", "排出量算定・クレジット管理。制度・業務知識が評価されやすい"],
+              ["電力・エネルギー大手の新規事業／IT部門", "既存事業のデジタル化。系統・制御の知識と親和性の高い環境"],
+              ["エネテック系スタートアップ", "需給管理・EMSなどのプロダクト開発。裁量の大きい環境"],
+              ["EV充電・モビリティ系企業", "充電制御・インフラ管理。電力制御の理解を活かせる環境"],
+              ["カーボンテック・サステナ系企業", "排出量算定・クレジット管理。制度・業務知識が評価されやすい環境"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <p className="font-bold text-slate-800 text-sm mb-1">{t}</p>
@@ -241,7 +241,7 @@ export default function EnergyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代でエネルギーからエネテックへ移る場合、強みは「系統・制御・設備の業務知識」です。電力がどう流れ、どう監視・制御され、どんな制約があるかを実務で理解している人材は、技術側に少なく貴重です。採用側はIoTやデータ処理の実装経験を見るため、ここを補う準備が鍵になります。</p>
             <p>40代では、開発力に加えてプロジェクトや関係者をまとめる経験が評価されやすくなります。エネルギー事業で培った安全管理・関係者調整の経験を、プロダクト開発の文脈で語れるよう整理しておくと選択肢が広がります。受け皿の幅が広い領域のため、年収だけでなく事業の方向性や働き方も含めて検討するとよいでしょう。年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの転職年収</Link>も参考にしてください。</p>
-            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>も合わせてどうぞ。</p>
+            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安については<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>もあわせてご覧ください。</p>
           </div>
         </section>
 
@@ -258,7 +258,7 @@ export default function EnergyPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">エネルギーの知識をエネテックで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">エネルギーの知識をエネテックで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の経験が市場でどう評価されるかを確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>

@@ -12,45 +12,45 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：セキュリティ転職の進め方" },
+  { id: "conclusion", label: "セキュリティ転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "future", label: "将来性と需要の背景" },
   { id: "qualification", label: "資格の使いどころ（支援士・CISSP等）" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
-  { id: "find", label: "求人の探し方（強いサービス）" },
+  { id: "find", label: "求人の探し方（主なサービス）" },
   { id: "entry", label: "未経験・他職種からの参入ルート" },
   { id: "middle", label: "30代・40代エンジニアの視点" },
   { id: "faq", label: "よくある質問" },
 ];
 
 const qualifications = [
-  { name: "情報処理安全確保支援士（登録セキスペ）", note: "国家資格です。セキュリティ分野で唯一の士業系国家資格で、官公庁・金融・大手SIerの求人や入札要件で重視されやすいです。日本の現場で評価の通りが良いです。" },
-  { name: "CISSP", note: "国際的に通用するセキュリティ資格です。一定の実務経験が受験要件で、ハイクラス・外資系・マネジメント寄りのポジションで強いです。" },
-  { name: "CEH（Certified Ethical Hacker）", note: "攻撃者視点の知識を体系化します。ペネトレーションテスト・脆弱性診断系の職種でアピールしやすいです。" },
+  { name: "情報処理安全確保支援士（登録セキスペ）", note: "セキュリティ分野で唯一の士業系国家資格です。官公庁・金融・大手SIerの求人や入札要件で重視されやすく、日本の現場で評価されやすい資格といえます。" },
+  { name: "CISSP", note: "国際的に通用するセキュリティ資格です。一定の実務経験が受験要件で、ハイクラス・外資系・マネジメント寄りのポジションで評価されやすい資格です。" },
+  { name: "CEH（Certified Ethical Hacker）", note: "攻撃者視点の知識を体系化します。ペネトレーションテスト・脆弱性診断系の職種でアピールしやすくなります。" },
   { name: "クラウドセキュリティ認定", note: "AWS Security Specialty、Google Cloud Security Engineer等です。クラウドセキュリティ案件の増加で価値が上がっています。" },
 ];
 
 const faqs = [
   {
-    q: "セキュリティエンジニアの平均年収は？",
+    q: "セキュリティエンジニアの平均年収はどのくらいですか？",
     a: "厚生労働省 job tagの「セキュリティエキスパート（オペレーション）」「セキュリティエキスパート（脆弱性診断）」区分では、いずれも平均年収約609.8万円・平均年齢42.2歳（令和7年賃金構造基本統計調査の結果を加工）と公表されています。ただしこれは情報処理・通信技術者を広くまとめた区分の参考値です。年代別の目安としては、レバテック公表の正社員SE年収（2025年）で20代約378万円・30代約499万円・40代約618万円が参考になります。CISO・セキュリティアーキテクト等のハイクラス帯はこれより高い水準も見られます。",
   },
   {
-    q: "セキュリティエンジニアは未経験でもなれる？",
+    q: "セキュリティエンジニアは未経験でもなれますか？",
     a: "完全未経験からいきなりは難しいものの、IT実務経験者からの転向は十分現実的です。ネットワーク・サーバー・クラウドの知識はセキュリティの土台になるため、インフラ／運用エンジニアからの転向が代表的な方法です。まずはSOCや脆弱性診断など入り口になりやすいポジションを狙い、現職でセキュリティ関連業務を担当して実績を作るのが近道です。情報処理安全確保支援士やCTFへの参加が学習の道しるべになります。",
   },
   {
-    q: "セキュリティエンジニアの将来性は？",
+    q: "セキュリティエンジニアの将来性はどうですか？",
     a: "サイバー攻撃の高度化・増加を背景に、需要は底堅いと考えられます。経済産業省「IT人材需給に関する調査」（2019年3月公表）では2030年に最大約79万人のIT人材不足が試算されており、セキュリティはその中でも人材確保が課題とされる領域です。法規制対応やクラウド普及で守る対象が増え続けるため、当面は売り手寄りの市場が続く見通しです。ただし具体的な不足人数の断定は避けるのが無難です。",
   },
   {
-    q: "セキュリティエンジニアの転職で有利な資格は？",
-    a: "日本の現場では情報処理安全確保支援士（登録セキスペ）が評価の通りが良く、官公庁・金融・大手SIerの求人で重視されやすい国家資格です。国際的・ハイクラス寄りならCISSP、攻撃者視点を示すならCEHが定番です。クラウド案件にはAWS Security SpecialtyやGoogle Cloud Security Engineer認定が有利に働きます。ただし採用判断の主役は実務経験で、資格は学習の体系化と書類選考の目印と位置づけるのが現実的です。",
+    q: "セキュリティエンジニアの転職で有利な資格は何ですか？",
+    a: "日本の現場では情報処理安全確保支援士（登録セキスペ）が評価されやすく、官公庁・金融・大手SIerの求人で重視されやすい国家資格です。国際的・ハイクラス寄りならCISSP、攻撃者視点を示すならCEHが代表的です。クラウド案件にはAWS Security SpecialtyやGoogle Cloud Security Engineer認定が有利に働きます。ただし採用判断で最も重視されるのは実務経験で、資格は学習の体系化と書類選考の目印と位置づけるのが現実的です。",
   },
   {
     q: "インフラエンジニアからセキュリティへの転向は可能ですか？",
-    a: "相性が良い転向です。ネットワーク・サーバー・クラウドの知識はそのままセキュリティの基盤になります。情報処理安全確保支援士やCISSPの取得、CTF参加、セキュリティツールのハンズオンで知識を補い、現職でセキュリティ関連タスクを担当して実績を積むと、転向のハードルが下がります。",
+    a: "相性の良い転向先といえます。ネットワーク・サーバー・クラウドの知識はそのままセキュリティの基盤になります。情報処理安全確保支援士やCISSPの取得、CTF参加、セキュリティツールのハンズオンで知識を補い、現職でセキュリティ関連タスクを担当して実績を積むと、転向のハードルが下がります。",
   },
   {
     q: "セキュリティエンジニアにおすすめの転職エージェントは？",
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     q: "40代のセキュリティエンジニアでも転職できますか？",
-    a: "むしろ有利に働きやすい分野です。セキュリティは経験と知見が重視され、CSIRT構築・インシデント対応・セキュリティポリシー策定などの経験を持つ層は、金融・官公庁・大手企業で評価されやすい傾向です。レバテック公表（2025年）でも年収は年代とともに上がる傾向で、積み上げが効く職種といえます。",
+    a: "むしろ有利に働きやすい分野です。セキュリティは経験と知見が重視され、CSIRT構築・インシデント対応・セキュリティポリシー策定などの経験を持つ層は、金融・官公庁・大手企業で評価されやすい傾向があります。レバテック公表（2025年）でも年収は年代とともに上がる傾向にあり、経験の積み上げが評価される職種といえます。",
   },
 ];
 
@@ -123,17 +123,17 @@ export default function SecuritySkillPage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：セキュリティ転職の進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">セキュリティ転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              セキュリティは<strong>完全未経験からは難しいものの、IT実務経験者の転向先としては有望</strong>な領域です。進め方の軸は「既存のIT経験を土台に、セキュリティの専門性を一枚乗せる」ことです。要点は3つです。
+              セキュリティは<strong>完全未経験からは難しいものの、IT実務経験者の転向先としては有望</strong>な領域です。進め方の軸は「既存のIT経験を土台に、セキュリティの専門性を上乗せする」ことです。要点は3つです。
             </p>
             <ul className="text-sm text-blue-900 space-y-2">
               <li>① <strong>インフラ／ネットワーク／クラウドの経験</strong>を土台に、SOC・脆弱性診断など入り口ポジションから入ります。</li>
-              <li>② <strong>情報処理安全確保支援士（登録セキスペ）</strong>を中心に、日本の現場で通りの良い資格で学習と書類選考を補強します。</li>
-              <li>③ IT特化エージェント（レバテックキャリア等）と<strong>金融・官公庁に強いリクルートエージェントIT</strong>を併用し、専任ポジションを拾います。</li>
+              <li>② <strong>情報処理安全確保支援士（登録セキスペ）</strong>を中心に、日本の現場で評価されやすい資格で学習と書類選考を補強します。</li>
+              <li>③ IT特化エージェント（レバテックキャリア等）と<strong>金融・官公庁に強いリクルートエージェントIT</strong>を併用し、専任ポジションを探します。</li>
             </ul>
           </div>
         </section>
@@ -181,11 +181,11 @@ export default function SecuritySkillPage() {
         <section id="future" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">将来性と需要の背景</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            セキュリティ領域の将来性は、検索でも特に関心が高いテーマです。結論として、需要は当面底堅いと考えられます。背景は次のとおりです。
+            セキュリティ領域の将来性は、検索でも特に関心が高いテーマです。要点として、需要は当面底堅いと考えられます。背景は次のとおりです。
           </p>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">IT人材不足の中でも確保が課題な領域</h3>
+              <h3 className="font-bold text-blue-800 mb-2">IT人材不足の中でも確保が課題となっている領域</h3>
               <p className="text-sm text-petrol-deep">
                 経済産業省「IT人材需給に関する調査」（2019年3月公表）では2030年に最大約79万人のIT人材不足が試算されており、専門性の高いセキュリティ人材は中でも確保が難しい領域とされています。
               </p>
@@ -209,7 +209,7 @@ export default function SecuritySkillPage() {
         <section id="qualification" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">資格の使いどころ（支援士・CISSP等）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            セキュリティは資格が評価につながりやすい数少ない領域です。とはいえ「資格があれば受かる」わけではなく、<strong>学習の体系化と書類選考での目印</strong>として活用するのが正しい使い方です。目的別に整理します。
+            セキュリティは資格が評価につながりやすい数少ない領域です。とはいえ「資格があれば受かる」わけではなく、<strong>学習の体系化と書類選考での目印</strong>として活用するのが適切な使い方です。目的別に整理します。
           </p>
           <div className="space-y-3">
             {qualifications.map((item, i) => (
@@ -220,7 +220,7 @@ export default function SecuritySkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            日本国内の求人で評価の通りが良いのは<strong>情報処理安全確保支援士（登録セキスペ）</strong>です。とくに官公庁・金融・大手SIerでは入札要件や採用条件で重視されるケースがあり、転向の足がかりとして取得を検討する価値があります。
+            日本国内の求人で評価されやすいのは<strong>情報処理安全確保支援士（登録セキスペ）</strong>です。とくに官公庁・金融・大手SIerでは入札要件や採用条件で重視されるケースがあり、転向の足がかりとして取得を検討する価値があります。
           </p>
         </section>
 
@@ -229,9 +229,9 @@ export default function SecuritySkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              { t: "土台として求められやすいです", d: "ネットワーク（TCP/IP・ファイアウォール）、サーバー/OS、クラウド（AWS/GCP/Azureいずれか）の基礎です。既存のインフラ・運用経験はそのまま評価対象になります。" },
-              { t: "セキュリティの中核として見られます", d: "脆弱性診断、ログ・インシデント分析、SIEM/EDR等のツール運用、セキュリティ基準（NIST/ISO等）の理解です。" },
-              { t: "差別化になります", d: "CSIRT構築・運営、ペネトレーションテスト、ゼロトラスト/クラウドセキュリティ設計、セキュリティポリシー策定・経営層への報告経験。" },
+              { t: "土台として求められやすいスキル", d: "ネットワーク（TCP/IP・ファイアウォール）、サーバー/OS、クラウド（AWS/GCP/Azureいずれか）の基礎です。既存のインフラ・運用経験はそのまま評価対象になります。" },
+              { t: "セキュリティの中核となるスキル", d: "脆弱性診断、ログ・インシデント分析、SIEM/EDR等のツール運用、セキュリティ基準（NIST/ISO等）の理解です。" },
+              { t: "差別化につながる経験", d: "CSIRT構築・運営、ペネトレーションテスト、ゼロトラスト/クラウドセキュリティ設計、セキュリティポリシー策定・経営層への報告経験などです。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.t}</h3>
@@ -268,7 +268,7 @@ export default function SecuritySkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方（どのサービスが強いか）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方（サービスごとの特徴）</h2>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT特化エージェント）</h3>
@@ -277,12 +277,12 @@ export default function SecuritySkillPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（国内最大級）</h3>
-              <p className="text-sm text-slate-600 mb-2">圧倒的な求人数と非公開求人が強みです。金融・通信・官公庁系のセキュリティ求人やCSIRT構築案件を含め、幅広く探したい人に向きます。</p>
+              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数と非公開求人が強みです。金融・通信・官公庁系のセキュリティ求人やCSIRT構築案件を含め、幅広く探したい人に向きます。</p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
-              <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、CISOクラスやセキュリティアーキテクトのスカウトが届きやすいです。外資系の求人も見られます。</p>
+              <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、CISOクラスやセキュリティアーキテクトのスカウトが届きやすくなります。外資系の求人も見られます。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
           </div>
@@ -325,7 +325,7 @@ export default function SecuritySkillPage() {
               セキュリティは<strong>経験と知見が重視され、年齢が不利になりにくい</strong>数少ない領域です。job tagのセキュリティエキスパート区分の平均年齢が<strong>42.2歳</strong>であることからも、ベテラン層が一定の比率を占めることが分かります。CSIRT構築・インシデント対応・ポリシー策定などの経験は、30代・40代だからこそ厚みを持って語れます。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed mb-4">
-              30代・40代の現職エンジニアにとって、セキュリティは<strong>これまでのIT経験を捨てずに専門性を一枚乗せられる</strong>転向先です。インフラ・ネットワーク・クラウドの経験を土台に、情報処理安全確保支援士で学習を体系化すれば、年齢を強みに変えられます。金融・官公庁・大手企業では特にベテランの需要が安定しています。
+              30代・40代の現職エンジニアにとって、セキュリティは<strong>これまでのIT経験を活かしながら専門性を上乗せできる</strong>転向先です。インフラ・ネットワーク・クラウドの経験を土台に、情報処理安全確保支援士で学習を体系化すれば、年齢を強みに変えられます。金融・官公庁・大手企業では特にベテランの需要が安定しています。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
               年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>もご覧ください。

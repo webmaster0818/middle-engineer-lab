@@ -26,16 +26,16 @@ const toc = [
 ];
 
 const types = [
-  { type: "完璧主義者", feature: "100%でないと失敗と感じます", example: "コードレビューの指摘を全否定と受け取ります" },
-  { type: "スーパーヒーロー", feature: "人より多く働かないと価値がない", example: "常に残業し続けて燃え尽きます" },
-  { type: "天才型", feature: "努力が必要＝才能がない", example: "新技術の習得に時間がかかると自信を失う" },
-  { type: "ソリスト", feature: "助けを借りたら能力不足", example: "分からないことを同僚に聞けません" },
-  { type: "エキスパート", feature: "すべてを知らないと専門家ではありません", example: "知らないFWがあると自分を素人だと感じます" },
+  { type: "完璧主義者", feature: "100%でなければ失敗だと捉える思考", example: "コードレビューの指摘を全否定と受け取ってしまいます" },
+  { type: "スーパーヒーロー", feature: "人より多く働かなければ価値がないという思考", example: "常に残業を続け、燃え尽きてしまいます" },
+  { type: "天才型", feature: "努力が必要なのは才能がないからだという思考", example: "新技術の習得に時間がかかると自信を失います" },
+  { type: "ソリスト", feature: "助けを借りるのは能力不足だという思考", example: "分からないことを同僚に聞けません" },
+  { type: "エキスパート", feature: "すべてを知らなければ専門家ではないという思考", example: "知らないFWがあると自分を素人だと感じます" },
 ];
 
 const steps = [
   { num: "1", title: "成果を「事実」と「数値」で書き出す", desc: "「パフォーマンスを改善した」ではなく「レスポンスタイムを200ms→50msに短縮（75%削減）」「障害対応の平均復旧時間を半減」のように、解釈を排して事実だけを書きます。数字は感情に左右されません。" },
-  { num: "2", title: "第三者からの評価を集める", desc: "1on1のコメント、コードレビューでの称賛、Slackで受けた感謝、社内表彰、顧客の声などを1か所にメモです。自己評価の歪みを「外部の証拠」で補正します。" },
+  { num: "2", title: "第三者からの評価を集める", desc: "1on1のコメント、コードレビューでの称賛、Slackで受けた感謝、社内表彰、顧客の声などを1か所に記録しておきます。自己評価の歪みを「外部の証拠」で補正します。" },
   { num: "3", title: "「できること」と「これから学ぶこと」を分ける", desc: "知らない技術があるのは当然です。今できることのリストと、学習中・未経験のリストを物理的に分けると、過小評価が和らぎます。" },
   { num: "4", title: "市場のものさしを当てる", desc: "求人票の応募要件や年収レンジ、エージェントの客観評価に自分のスキルを照らすと、「思っていたより通用する」ことに気づけます。" },
 ];
@@ -122,8 +122,8 @@ export default function ImposterSyndromePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】インポスター症候群のまま転職活動を乗り切るには？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 主観的な「自分はダメ」を、事実・数値・第三者の声という客観的な証拠で上書きしていくのが有効です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・成果を事実と数値で書き出し、第三者の評価を集め、市場のものさし（求人要件・年収レンジ・エージェント評価）に照らします</li><li>・面接では準備した実績ワークシートを拠り所にすると、その場の不安に引きずられにくいです</li><li>・インポスター症候群は診断名ではなく、強い不安・不眠・落ち込みが続く場合は専門医・カウンセラー・産業医に相談します</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>主観的な「自分はダメ」を、事実・数値・第三者の声という客観的な証拠で上書きしていくのが有効です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・成果を事実と数値で書き出し、第三者の評価を集め、市場のものさし（求人要件・年収レンジ・エージェント評価）に照らします</li><li>・面接では準備した実績ワークシートを拠り所にすると、その場の不安に引きずられにくい傾向があります</li><li>・インポスター症候群は診断名ではありません。強い不安・不眠・落ち込みが続く場合は、専門医・カウンセラー・産業医への相談を検討します</li></ul>
           </div>
         </section>
 
@@ -154,12 +154,12 @@ export default function ImposterSyndromePage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section className="mb-10">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：不安は「事実・数値・第三者の声」で上書きする</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">不安は「事実・数値・第三者の声」で上書きする</h2>
             <p className="text-sm text-blue-800 leading-relaxed">
-              インポスター症候群は気合いでは消えません。有効なのは、<strong>(1)成果を事実と数値で書き出す</strong>、<strong>(2)第三者の評価を集める</strong>、<strong>(3)市場のものさし（求人要件・年収レンジ・エージェント評価）に照らす</strong>ことです。主観的な「自分はダメ」を、客観的な証拠で上書きしていきます。面接では「準備した実績ワークシート」を拠り所にすれば、その場の不安に引きずられにくくなります。
+              インポスター症候群は精神論だけでは解消しません。有効なのは、<strong>(1)成果を事実と数値で書き出す</strong>、<strong>(2)第三者の評価を集める</strong>、<strong>(3)市場のものさし（求人要件・年収レンジ・エージェント評価）に照らす</strong>ことです。主観的な「自分はダメ」を、客観的な証拠で上書きしていきます。面接では「準備した実績ワークシート」を拠り所にすれば、その場の不安に引きずられにくくなります。
             </p>
           </div>
         </section>
@@ -241,7 +241,7 @@ export default function ImposterSyndromePage() {
             </table>
           </div>
           <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-            <p className="text-sm text-green-800"><strong>使い方：</strong>埋めた内容はそのまま<Link href="/knowledge/resume/" className="text-green-700 underline">職務経歴書</Link>や面接の回答に流用できます。面接直前に見返す「お守り」にもなります。</p>
+            <p className="text-sm text-green-800"><strong>使い方：</strong>埋めた内容はそのまま<Link href="/knowledge/resume/" className="text-green-700 underline">職務経歴書</Link>や面接の回答に流用できます。面接直前に見返す資料としても役立ちます。</p>
           </div>
         </section>
 
@@ -305,7 +305,7 @@ export default function ImposterSyndromePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">客観的な市場価値を聞いてみよう</h2>
+          <h2 className="text-xl font-bold mb-3">客観的な市場価値を確認する</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントのアドバイザーが、ご自身のスキルを客観的に評価します。第三者の視点が、自己評価の歪みを正す助けになります。
           </p>

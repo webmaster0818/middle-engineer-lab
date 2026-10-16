@@ -22,7 +22,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     q: "タイミーで活きる経験は？",
-    a: "Ruby on RailsやGoを用いたWebアプリケーション開発の実務経験が基本です。マッチング・マーケットプレイス型サービスの開発・運用経験、急成長プロダクトのスケーラビリティ対応、React/Next.jsでのフロントエンドやモバイル開発の経験などが活きやすい傾向です。",
+    a: "Ruby on RailsやGoを用いたWebアプリケーション開発の実務経験が基本です。マッチング・マーケットプレイス型サービスの開発・運用経験、急成長プロダクトのスケーラビリティ対応、React/Next.jsでのフロントエンドやモバイル開発の経験などが活きやすい傾向があります。",
   },
   {
     q: "30代・40代でもタイミーに転職できますか？",
@@ -90,8 +90,8 @@ export default function TimeeCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】タイミー（Timee）の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社タイミー（215A）の平均年間給与は約594万円です（新規上場時の有価証券報告書・2024年10月期・全社員平均、平均年齢31.5歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約594万円です（2024年10月期・新規上場時 有価証券報告書・全社員平均）。技術職に限らない全社員平均です。</li><li>・2024年7月上場で開示年数が限られ、長期推移は未蓄積のため単年の数値のみ掲載しています。</li><li>・エンジニア職限定の公式提示レンジは非公表です。提示額はポジション・スキル評価で個別決定、求人で確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社タイミー（215A）の平均年間給与は約594万円です（新規上場時の有価証券報告書・2024年10月期・全社員平均、平均年齢31.5歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約594万円です（2024年10月期・新規上場時 有価証券報告書・全社員平均）。技術職に限らない全社員平均です。</li><li>・2024年7月上場で開示年数が限られ、長期推移は未蓄積のため単年の数値のみ掲載しています。</li><li>・エンジニア職限定の公式提示レンジは非公表です。提示額はポジション・スキル評価で個別に決定されるため、求人で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -110,9 +110,9 @@ export default function TimeeCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              タイミーは<strong>Ruby on RailsとGoで急成長中のマッチングプラットフォームを開発する、2024年上場のスタートアップ発テック企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収は約594万円（新規上場時 有価証券報告書・2024年10月期）です。
+              タイミーは<strong>Ruby on RailsとGoで急成長中のマッチングプラットフォームを開発する、2024年上場のスタートアップ発テック企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高めです。全社員平均年収は約594万円（新規上場時 有価証券報告書・2024年10月期）です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Ruby/Goでの実務経験があり、マッチング・マーケットプレイスや急成長フェーズのスケーラビリティに関心があるエンジニア</li>
@@ -246,7 +246,7 @@ export default function TimeeCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。SaaS・スタートアップの求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

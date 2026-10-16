@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：タイプ別に使い分ける" },
+  { id: "conclusion", label: "タイプ別に使い分ける" },
   { id: "what", label: "メガベンチャーとは（定義と具体企業）" },
   { id: "companies", label: "代表的なメガベンチャーと企業ページ" },
   { id: "types", label: "エージェントのタイプ別マップ" },
@@ -25,12 +25,12 @@ const toc = [
 ];
 
 const companies = [
-  { name: "メルカリ", href: "/company/mercari/", note: "フリマアプリのメガベンチャーです。マイクロサービス・英語環境です。詳細は企業ページをご覧ください。" },
-  { name: "freee", href: "/company/freee/", note: "会計・人事労務SaaSのメガベンチャーです。SMB向けクラウドです。詳細は企業ページをご覧ください。" },
-  { name: "SmartHR", href: "/company/smarthr/", note: "労務・人事SaaSです。急成長フェーズです。詳細は企業ページをご覧ください。" },
-  { name: "サイバーエージェント", href: "/company/cyberagent/", note: "メディア・広告・ゲームの大型ベンチャーです。子会社群が多いです。詳細は企業ページをご覧ください。" },
-  { name: "DeNA", href: "/company/dena/", note: "ゲーム・ヘルスケア・スポーツ等の多角化メガベンチャーです。詳細は企業ページをご覧ください。" },
-  { name: "楽天", href: "/company/rakuten/", note: "EC・金融・通信のグループです。社内英語公用語化で知られます。詳細は企業ページをご覧ください。" },
+  { name: "メルカリ", href: "/company/mercari/", note: "フリマアプリを運営するメガベンチャーで、マイクロサービスと英語環境が特徴です。詳細は企業ページをご覧ください。" },
+  { name: "freee", href: "/company/freee/", note: "会計・人事労務SaaSを提供するメガベンチャーで、SMB向けのクラウドサービスを展開しています。詳細は企業ページをご覧ください。" },
+  { name: "SmartHR", href: "/company/smarthr/", note: "労務・人事SaaSを提供しており、急成長フェーズにあります。詳細は企業ページをご覧ください。" },
+  { name: "サイバーエージェント", href: "/company/cyberagent/", note: "メディア・広告・ゲームを手がける大型ベンチャーで、子会社が多い点が特徴です。詳細は企業ページをご覧ください。" },
+  { name: "DeNA", href: "/company/dena/", note: "ゲーム・ヘルスケア・スポーツ等に事業を多角化しているメガベンチャーです。詳細は企業ページをご覧ください。" },
+  { name: "楽天", href: "/company/rakuten/", note: "EC・金融・通信を展開するグループで、社内英語公用語化で知られています。詳細は企業ページをご覧ください。" },
 ];
 
 const faqs = [
@@ -56,7 +56,7 @@ export default function MegaventureAgentsPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">メガベンチャー転職エージェントおすすめ｜選び方とタイプ別の使い分け</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 総合大手・IT特化・ハイクラスを目的別に使い分ける</p>
 
-        <p className="text-slate-600 leading-relaxed mb-4">「メガベンチャー 転職 エージェント」で検索する方の多くは、メルカリ・サイバーエージェント・DeNA・楽天といった急成長企業を狙っています。結論として、メガベンチャー専門のエージェントが主流なわけではなく、<strong>総合大手・IT特化・ハイクラスのエージェントを目的別に使い分ける</strong>のが実態です。本記事は30代・40代のITエンジニア向けに、その使い分けを整理し、企業別の詳細は各企業ページへ案内するハブとして構成しています。</p>
+        <p className="text-slate-600 leading-relaxed mb-4">「メガベンチャー 転職 エージェント」で検索する方の多くは、メルカリ・サイバーエージェント・DeNA・楽天といった急成長企業を狙っています。要点として、メガベンチャー専門のエージェントが主流なわけではなく、<strong>総合大手・IT特化・ハイクラスのエージェントを目的別に使い分ける</strong>のが実態です。本記事は30代・40代のITエンジニア向けに、その使い分けを整理し、企業別の詳細は各企業ページへ案内するハブとして構成しています。</p>
 
         <DataNote surveyedAt="2026年6月" sources={["各社採用ページ・技術ブログ", "有価証券報告書／IRBANK", "OpenWork等の傾向要約（参考値）", "当サイト企業別記事"]} />
 
@@ -70,7 +70,7 @@ export default function MegaventureAgentsPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：タイプ別に使い分ける</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">タイプ別に使い分ける</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
@@ -90,7 +90,7 @@ export default function MegaventureAgentsPage() {
 
         <section id="companies" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">代表的なメガベンチャーと企業ページ</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">各社の年収目安（上場企業は有価証券報告書の全従業員平均、非上場は公式レンジや集計の参考値）・技術スタック・選考傾向は、当サイトの企業別ページで出典・時点付きで整理しています。志望企業が決まっている方は、まず該当ページをご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">各社の年収目安（上場企業は有価証券報告書の全従業員平均、非上場は公式レンジや集計の参考値）・技術スタック・選考傾向は、当サイトの企業別ページで出典と時点を明記して整理しています。志望企業が決まっている方は、まず該当ページをご覧ください。</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {companies.map((c, i) => (
               <Link key={i} href={c.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
@@ -111,7 +111,7 @@ export default function MegaventureAgentsPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">② IT特化エージェント（現場の一次情報）</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">技術スタックや開発文化、選考で問われる技術面の準備に強みがあります。メガベンチャーは技術理解が選考の鍵になるため、内情を深掘りする用途で効きます。<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラスIT転職エージェント比較</Link>も参考にしてください。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">技術スタックや開発文化、選考で問われる技術面の準備に強みがあります。メガベンチャーは技術理解が選考の鍵になるため、内情を詳しく確認する用途に適しています。<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラスIT転職エージェント比較</Link>も参考にしてください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">③ ハイクラス特化（年収帯・ポジション）</h3>
@@ -122,7 +122,7 @@ export default function MegaventureAgentsPage() {
 
         <section id="howto" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">メガベンチャー転職での選び方</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">メガベンチャーは中途採用に積極的で、求人が総合大手・IT特化の両方に出ることが多いです。そのため、まず総合大手で求人の母数を広げ、志望企業が固まったらIT特化エージェントで技術面の準備と内情の深掘りを行う、という二段構えが効率的です。年収やポジションの上振れを狙うなら、ハイクラス特化を加えて市場価値を測ります。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">メガベンチャーは中途採用に積極的で、求人が総合大手・IT特化の両方に出ることが多くあります。そのため、まず総合大手で求人の母数を広げ、志望企業が固まったらIT特化エージェントで技術面の準備と内情の深掘りを行う、という二段構えが効率的です。年収やポジションの上振れを狙うなら、ハイクラス特化を加えて市場価値を測ります。</p>
           <p className="text-slate-600 leading-relaxed mb-4">志望企業が決まっている場合は、エージェント選びと並行して、当サイトの企業別ページで年収目安・技術スタック・選考傾向を確認してください。たとえば<Link href="/company/mercari/" className="text-petrol hover:underline">メルカリ</Link>・<Link href="/company/cyberagent/" className="text-petrol hover:underline">サイバーエージェント</Link>・<Link href="/company/freee/" className="text-petrol hover:underline">freee</Link>では、求められる技術や開発文化が大きく異なります。応募前の情報収集が、選考通過率を左右します。</p>
         </section>
 
@@ -131,9 +131,9 @@ export default function MegaventureAgentsPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700">
             <p className="mb-2">エージェント選びで名前が似たサービスを混同しないよう、整理しておきます。</p>
             <ul className="space-y-1.5 list-disc pl-5">
-              <li><strong>レバテックキャリア（IT特化の正社員転職エージェント）≠ レバテックフリーランス（業務委託案件の紹介）です</strong>。メガベンチャーへの正社員転職を狙うなら前者です。</li>
-              <li><strong>リクルートエージェント（担当が提案するエージェント型）≠ リクルートダイレクトスカウト（スカウトを待つハイクラス型）です</strong>。役割が違います。</li>
-              <li><strong>doda（IT特化エージェント型）≠ dodaX（ハイクラススカウト型）です</strong>。dodaブランドで混同しやすいので注意してください。</li>
+              <li><strong>レバテックキャリア（IT特化の正社員転職エージェント）とレバテックフリーランス（業務委託案件の紹介）は別のサービスです</strong>。メガベンチャーへの正社員転職を狙うなら前者です。</li>
+              <li><strong>リクルートエージェント（担当が提案するエージェント型）とリクルートダイレクトスカウト（スカウトを待つハイクラス型）は別のサービスです</strong>。役割が違います。</li>
+              <li><strong>doda（IT特化エージェント型）とdodaX（ハイクラススカウト型）は別のサービスです</strong>。dodaブランドで混同しやすいので注意してください。</li>
             </ul>
           </div>
         </section>
@@ -141,7 +141,7 @@ export default function MegaventureAgentsPage() {
         <section id="difficulty" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">激務・難易度の期待値調整</h2>
           <p className="text-slate-600 leading-relaxed mb-4">メガベンチャーは「激務」「難易度が高い」と語られがちですが、実態は企業・部署・フェーズによって大きく異なります。急成長フェーズでは裁量が大きいぶん業務量が増える傾向はあるものの、近年は働き方の整備が進んでいる企業も多く、一律に決めつけるのは正確ではありません。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">重要なのは、入社前に<strong>カジュアル面談などで実態を確認し、期待値を調整する</strong>ことです。業務量・オンコールの有無・評価制度・開発フローなどは、面談で具体的に質問できます。事前の確認が、入社後のミスマッチを減らす最大の防御策です。面談の進め方は<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">エージェントとの初回面談</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">重要なのは、入社前に<strong>カジュアル面談などで実態を確認し、期待値を調整する</strong>ことです。業務量・オンコールの有無・評価制度・開発フローなどは、面談で具体的に質問できます。事前の確認は、入社後のミスマッチを減らすうえで最も有効な方法です。面談の進め方は<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">エージェントとの初回面談</Link>も参考にしてください。</p>
         </section>
 
         <section id="middle" className="mb-12 scroll-mt-20">
@@ -149,7 +149,7 @@ export default function MegaventureAgentsPage() {
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。即戦力を求めるメガベンチャーにとって、実務経験を積んだ30代・40代は価値の高い層です。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>専門性を深めつつ、急成長企業で裁量を持って事業に関わりたい時期です。技術力の言語化とポートフォリオの整備が選考通過の鍵になります。IT特化エージェントで技術面の準備を固め、総合大手で求人の母数を広げると効率的です。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安で、メガベンチャーで年収を一段引き上げられるかが判断材料になります。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>要件定義・設計・マネジメントの経験は、組織を拡大するメガベンチャーで強く求められます。レバテック公表（2025年）では40代の年収1,000万円以上の割合は12.67%とされ、リード・マネジメント級のポジションで上限を狙える層です。ハイクラス特化のスカウトで市場価値を測りつつ、IT特化エージェントで現場の内情を確認する組み合わせが、40代には合理的です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
-          <p className="text-slate-600 leading-relaxed text-sm">いずれの年代でも、志望企業の実態を企業別ページで確認したうえで、目的に合ったエージェントを選ぶことが成功の近道です。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">いずれの年代でも、志望企業の実態を企業別ページで確認したうえで、目的に合ったエージェントを選ぶことが重要です。</p>
         </section>
 
         <section id="faq" className="mb-12 scroll-mt-20">
@@ -165,7 +165,7 @@ export default function MegaventureAgentsPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">メガベンチャー転職は「企業研究×エージェント使い分け」で</h2>
+          <h2 className="text-xl font-bold mb-3">メガベンチャー転職は「企業研究×エージェントの使い分け」で進める</h2>
           <p className="text-blue-100 text-sm mb-4">志望企業の実態を企業ページで確認し、総合大手・IT特化・ハイクラスを目的別に使い分けます。これがメガベンチャー転職の代表的な方法です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>

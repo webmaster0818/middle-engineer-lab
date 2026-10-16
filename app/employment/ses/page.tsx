@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：SESは『準委任の常駐』。会社選びで明暗が分かれる" },
+  { id: "conclusion", label: "SESは『準委任の常駐』。会社選びで待遇が大きく変わる" },
   { id: "what", label: "SESとは（準委任契約の常駐サービス）" },
   { id: "diff", label: "派遣・請負との違い（指揮命令と完成責任）" },
   { id: "salary", label: "年収傾向と多重下請けが単価に与える影響" },
@@ -25,14 +25,14 @@ const toc = [
 
 const meritEngineer = [
   "正社員（多くはSES企業の正社員）として雇用され、社会保険・賞与などの保障があります",
-  "様々な現場・技術を経験でき、若手は実務経験を積みやすいです",
-  "案件が変わっても雇用は続くため、フリーランスより収入が安定しやすいです",
-  "未経験・経験浅めからでも現場に入りやすく、キャリアの入口になりやすいです",
+  "様々な現場・技術を経験でき、若手は実務経験を積みやすい環境です",
+  "案件が変わっても雇用は続くため、フリーランスより収入が安定する傾向があります",
+  "未経験・経験浅めからでも現場に入りやすく、キャリアの入口として活用できます",
 ];
 
 const demeritEngineer = [
-  "多重下請けだと中間マージンが重なり、現場の単価に対して給与が低くなりやすいです",
-  "客先常駐のため帰属意識が持ちにくく、評価・育成が会社任せになりがち",
+  "多重下請けだと中間マージンが重なり、現場の単価に対して給与が低くなる傾向があります",
+  "客先常駐のため帰属意識を持ちにくく、評価・育成が会社任せになりやすい面があります",
   "案件・現場を自分で選びにくく、スキルと無関係な配属になることがあります",
   "偽装請負（実態が派遣）の現場に当たるリスクがあります",
 ];
@@ -45,7 +45,7 @@ const meritCompany = [
 
 const demeritCompany = [
   "（SES企業）エンジニアの定着・育成・評価を遠隔で行う難しさがあります",
-  "多重下請けでは中間マージンが利益を圧迫しやすいです",
+  "多重下請けでは中間マージンが利益を圧迫する傾向があります",
   "偽装請負と判断されると法的リスクを負います",
 ];
 
@@ -91,7 +91,7 @@ export default function SesPage() {
     <>
       <ArticleJsonLd
         title="SESエンジニアの実態｜仕組み・年収傾向・多重下請けの現実と選び方"
-        description="SESの仕組み・派遣請負との違い・年収傾向・多重下請けの現実・偽装請負の注意点を中立に解説します。エンジニア側企業側の二軸メリデメと30代40代の選び方も整理します。"
+        description="SESの仕組み・派遣請負との違い・年収傾向・多重下請けの現実・偽装請負の注意点を中立に解説します。エンジニア側・企業側のメリット・デメリットと30代40代の選び方も整理します。"
         url="/employment/ses/"
       />
       <script
@@ -127,16 +127,16 @@ export default function SesPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：SESは「準委任の常駐」。会社選びで明暗が分かれる</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">SESは「準委任の常駐」。会社選びで待遇が大きく変わる</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               SESは、SES企業に正社員として雇用され、準委任契約で客先に常駐する働き方です。雇用の安定と幅広い経験が得られる一方、多重下請けでは中間マージンが重なり給与が目減りしやすく、偽装請負のリスクもあります。「SESかどうか」より「どの階層・どんな育成方針のSESか」が重要で、会社と案件の選び方で評価が大きく分かれます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>準委任の常駐サービスです。指揮命令はSES企業側にあるのが原則です。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>多重下請けが深いほど、現場単価に対しエンジニアの給与は下がりやすいです。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>多重下請けが深いほど、現場単価に対しエンジニアの給与は下がる傾向があります。</li>
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>客先が直接指揮命令している実態なら偽装請負（違法）に注意が必要です。</li>
             </ul>
           </div>
@@ -218,8 +218,8 @@ export default function SesPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-5">
             <p className="text-sm font-bold text-slate-700 mb-3">年収を左右する要素</p>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>元請けに近い一次請けのSESほど、現場単価が高く給与に反映されやすいです</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>下請け階層が深いほど、各社の中間マージンが積み重なり、給与が目減りしやすいです</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>元請けに近い一次請けのSESほど、現場単価が高く給与に反映されやすくなります</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>下請け階層が深いほど、各社の中間マージンが積み重なり、給与が目減りする傾向があります</li>
               <li className="flex gap-2"><span className="text-slate-400">▸</span>SES企業の評価・昇給制度がスキルに連動しているかで、年収の伸びが変わります</li>
             </ul>
           </div>
@@ -241,7 +241,7 @@ export default function SesPage() {
             </p>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            一方で、多重下請けが必ず悪いわけではありません。下請けでも、上流に近い工程を任され、教育・評価のしっかりした企業であれば、経験を積みながら安定して働けます。重要なのは「自分の所属がどの階層か」「育成・評価がスキルに連動しているか」を見極めることです。煽り情報に振り回されず、構造を冷静に理解したうえで会社を選ぶ姿勢が大切です。
+            一方で、多重下請けが必ず悪いわけではありません。下請けでも、上流に近い工程を任され、教育・評価のしっかりした企業であれば、経験を積みながら安定して働けます。重要なのは「自分の所属がどの階層か」「育成・評価がスキルに連動しているか」を見極めることです。過度に不安をあおる情報に左右されず、構造を冷静に理解したうえで会社を選ぶ姿勢が大切です。
           </p>
         </section>
 
@@ -297,11 +297,11 @@ export default function SesPage() {
           </p>
           <div className="space-y-3">
             {[
-              ["商流（何次請けか）", "元請け・一次請けに近いほど単価が高く、給与に反映されやすい。商流の深さを確認します。"],
-              ["案件の選択・キャリア面談", "希望する技術・現場を選べる余地があるか、定期的なキャリア面談があるか。"],
-              ["評価・昇給制度", "スキルや実績に応じて昇給する仕組みか、現場任せで放置されないか。"],
-              ["教育・帰属意識への配慮", "客先常駐でも、自社研修・交流・フォロー体制があるか。"],
-              ["契約と実態の整合", "指揮命令の所在が明確で、偽装請負になっていないか。"],
+              ["商流（何次請けか）", "元請け・一次請けに近いほど単価が高く、給与に反映されやすくなります。商流の深さを確認します。"],
+              ["案件の選択・キャリア面談", "希望する技術・現場を選べる余地があるか、定期的なキャリア面談があるかを確認します。"],
+              ["評価・昇給制度", "スキルや実績に応じて昇給する仕組みか、現場任せで放置されないかを確認します。"],
+              ["教育・帰属意識への配慮", "客先常駐でも、自社研修・交流・フォロー体制があるかを確認します。"],
+              ["契約と実態の整合", "指揮命令の所在が明確で、偽装請負になっていないかを確認します。"],
             ].map(([title, desc], i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>

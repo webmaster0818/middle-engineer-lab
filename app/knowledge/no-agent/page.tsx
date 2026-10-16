@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：本命は自力、多忙なら併用が無難" },
+  { id: "conclusion", label: "第一志望は自力、多忙なら併用が無難" },
   { id: "channels", label: "エージェントを使わない4つの手段" },
   { id: "pros-cons", label: "メリットとデメリット" },
   { id: "ops", label: "自力運用の実務4ステップ" },
@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "エージェントと自力は併用できますか？",
-    a: "併用できます。本命企業は直接応募やリファラルで志望度を示し、幅を広げる目的でエージェントも使う、といった使い分けが現実的です。ただし、同じ企業に両方のルートで応募すると混乱を招くため、応募経路は企業ごとに一本化しましょう。",
+    a: "併用できます。志望度の高い企業には直接応募やリファラルで志望度を示し、応募先の幅を広げる目的でエージェントも使う、といった使い分けが現実的です。ただし、同じ企業に両方のルートで応募すると混乱を招くため、応募経路は企業ごとに一本化しましょう。",
   },
 ];
 
@@ -106,8 +106,8 @@ export default function NoAgentPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職エージェントを使わず自力で転職できる？どう進める？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 直接応募・リファラル・ダイレクト・SNSの4手段で自力運用は可能です。ただし応募管理・日程調整・年収交渉・内定後手続きはすべて自分の責任になるため、在職中で多忙ならエージェント併用が無難です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・手段は直接応募・リファラル・ダイレクトリクルーティング・SNS発信の4つ。組み合わせて使うのが現実的です</li><li>・志望度が伝わり選考が速く、手数料がない分交渉で有利な場合もあります。反面、不採用理由が分かりにくく自己管理の負担が大きいです</li><li>・本命は自力、幅出しはエージェントという併用も可能です。応募経路は企業ごとに一本化します</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>直接応募・リファラル・ダイレクト・SNSの4手段で自力運用は可能です。ただし応募管理・日程調整・年収交渉・内定後手続きはすべて自分の責任になるため、在職中で多忙ならエージェント併用が無難です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・手段は直接応募・リファラル・ダイレクトリクルーティング・SNS発信の4つで、組み合わせて使うのが現実的です</li><li>・志望度が伝わり選考が速く、手数料がない分交渉で有利な場合もあります。反面、不採用理由が分かりにくく自己管理の負担が大きいといえます</li><li>・第一志望の企業は自力で応募し、応募先の幅を広げる部分はエージェントを使う併用も可能です。応募経路は企業ごとに一本化します</li></ul>
           </div>
         </section>
 
@@ -135,12 +135,12 @@ export default function NoAgentPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：本命は自力、多忙なら併用が無難</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">第一志望は自力、多忙なら併用が無難</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               強い志望企業がある、相場観があり交渉に自信がある人には、直接応募やリファラルでの<strong>自力運用</strong>が向きます。一方、在職中で時間が取れない、客観的な助言が欲しい人は、<strong>エージェント併用</strong>が無難です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・本命は直接応募やリファラルで志望度を示します</li>
+              <li>・第一志望の企業には、直接応募やリファラルで志望度を示します</li>
               <li>・自己管理（応募・日程・交渉）はすべて自分の責任になります</li>
               <li>・受かりやすさは一概に言えません。準備度とスキル次第です</li>
             </ul>
@@ -175,7 +175,7 @@ export default function NoAgentPage() {
               <h3 className="font-bold text-green-800 mb-2">メリット</h3>
               <ul className="text-sm text-green-700 space-y-1.5">
                 <li>・志望度がダイレクトに伝わります</li>
-                <li>・仲介を挟まず選考が速く進みやすいです</li>
+                <li>・仲介を挟まず選考が速く進みやすくなります</li>
                 <li>・仲介手数料がない分、条件交渉で有利な場合があります</li>
                 <li>・自分のペースで進められます</li>
               </ul>
@@ -183,9 +183,9 @@ export default function NoAgentPage() {
             <div className="bg-red-50 rounded-lg p-5">
               <h3 className="font-bold text-red-800 mb-2">デメリット</h3>
               <ul className="text-sm text-red-700 space-y-1.5">
-                <li>・不採用理由が分からないことが多いです</li>
+                <li>・不採用理由が分からないことが多くあります</li>
                 <li>・応募・日程・交渉の自己管理がすべて自分に集中します</li>
-                <li>・書類添削や模擬面接など客観的な助言が得にくいです</li>
+                <li>・書類添削や模擬面接など客観的な助言が得にくい傾向があります</li>
                 <li>・年収交渉を自力で行う負担があります</li>
               </ul>
             </div>
@@ -201,8 +201,8 @@ export default function NoAgentPage() {
             {[
               { step: "応募管理表を作ります", desc: "スプレッドシートに「企業名・応募日・応募経路・選考ステータス・次回日程・連絡先・メモ」を列で用意します。複数社を並行しても抜け漏れを防げます。" },
               { step: "書類を自分で磨きます", desc: "職務経歴書は応募先ごとに要点を調整します。客観視点が得にくいため、第三者やコミュニティにレビューを依頼すると精度が上がります。" },
-              { step: "日程調整を自分で行います", desc: "面接日程は企業と直接やり取り。候補日を複数提示し、リマインドを自分で設定します。在職中は現職の予定との衝突に注意します。" },
-              { step: "選考の振り返りを記録します", desc: "面接後に質問内容と手応えをメモです。フィードバックがもらえない分、自分で振り返って次の応募に活かします。" },
+              { step: "日程調整を自分で行います", desc: "面接日程は企業と直接やり取りするため、候補日を複数提示し、リマインドも自分で設定します。在職中は現職の予定との衝突に注意します。" },
+              { step: "選考の振り返りを記録します", desc: "面接後に質問内容と手応えを記録しておきます。フィードバックがもらえない分、自分で振り返って次の応募に活かします。" },
             ].map((s, i) => (
               <div key={s.step} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -279,13 +279,13 @@ export default function NoAgentPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">時間が取れないなら併用が無難</h3>
               <p>
-                マネジメントや家庭で多忙な世代は、応募管理・日程調整・交渉をすべて自力でこなすのが負担になりがちです。本命だけ自力で攻め、幅出しはエージェントに任せる併用が現実的です。
+                マネジメントや家庭で多忙な世代は、応募管理・日程調整・交渉をすべて自力でこなすのが負担になりがちです。第一志望の企業だけ自力で応募し、応募先の幅を広げる部分はエージェントに任せる併用が現実的です。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-1">実績がある人ほど自力が効く</h3>
+              <h3 className="font-bold text-slate-800 mb-1">実績がある人ほど自力での活動が有効</h3>
               <p>
-                技術発信や明確な実績がある人は、リファラルやダイレクト、SNS経由で本命に直接アプローチできます。ミドルの強みは「実績で語れること」。客観的フィードバックが得にくい弱点だけ、コミュニティや知人で補いましょう。
+                技術発信や明確な実績がある人は、リファラルやダイレクト、SNS経由で志望企業に直接アプローチできます。ミドル層の強みは「実績で語れること」です。客観的フィードバックが得にくい弱点だけ、コミュニティや知人で補いましょう。
               </p>
             </div>
             <p>
@@ -312,7 +312,7 @@ export default function NoAgentPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">直接応募サービスを比較する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            自力運用の起点になる直接応募サービスと、エージェントとの使い分けを整理しました。どのルートで動くか迷ったらこちら。
+            自力運用の起点になる直接応募サービスと、エージェントとの使い分けを整理しました。どのルートで動くか迷う場合は、こちらをご覧ください。
           </p>
           <Link
             href="/knowledge/direct-apply/"

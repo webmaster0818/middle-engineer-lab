@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論サマリ（どんな人向けか）" },
+  { id: "summary", label: "要点（どんな人向けか）" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "scope", label: "コンサル特化＝純開発志向には不向き" },
   { id: "strength", label: "特徴・強み" },
@@ -60,7 +60,7 @@ const badReviews = [
   {
     title: "コンサル以外の求人には不向き",
     body: "コンサル業界に特化しているため、純粋な開発職や事業会社の一般的なエンジニア求人を探す場合は紹介が乏しいと感じたという傾向の声がみん評等で見られます。これは特化型ゆえの構造的な側面です。",
-    cope: "純開発志向ならIT特化エージェント（レバテックキャリア等）が本筋です。アクシスは『コンサル／DX人材へキャリアチェンジしたい』場合に限って使うのが適切です。方向性に迷うなら、まず当サイトの『エンジニアからコンサルへ』の記事で適性を確認すると良いです。",
+    cope: "純開発志向ならIT特化エージェント（レバテックキャリア等）が本筋です。アクシスは『コンサル／DX人材へキャリアチェンジしたい』場合に限って使うのが適切です。方向性に迷うなら、まず当サイトの『エンジニアからコンサルへ』の記事で適性を確認することをおすすめします。",
   },
   {
     title: "東京中心で地方は選択肢が限られる",
@@ -77,16 +77,16 @@ const badReviews = [
 const fitYes = [
   "エンジニアからITコンサル・PM・DX人材へキャリアチェンジしたい30〜40代",
   "技術力を土台に、上流・経営に近い立場で価値を出したい",
-  "年収を一段上げる手段としてコンサル業界を検討しています",
+  "年収を一段上げる手段としてコンサル業界を検討している",
   "コンサルファーム特有の選考（ケース面接等）の対策を受けたい",
   "非公開のコンサル・ポストコンサル求人を知りたい",
 ];
 
 const fitNo = [
   "純粋な開発職にこだわり、コードを書き続けたい（IT特化型が向く）",
-  "コンサル業界に関心がなく、事業会社のエンジニアを探しています",
+  "コンサル業界に関心がなく、事業会社のエンジニアを探している",
   "地方勤務を最優先したい（東京中心のため）",
-  "コンサル特有の働き方（高負荷・論理思考の徹底）に抵抗があります",
+  "コンサル特有の働き方（高負荷・論理思考の徹底）に抵抗がある",
 ];
 
 const flow = [
@@ -206,16 +206,16 @@ export default function AxisConsultingReview() {
           ]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：このような方におすすめ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">このような方におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：エンジニアから「ITコンサル・PM・DX人材」へキャリアチェンジしたい30〜40代に有効です</span>。要約すると「技術力を土台に、上流・経営に近い立場へ進みたい」人向けのエージェントです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・コンサル業界特化の選考対策（ケース面接等）とCxO層ネットワークです。非公開求人比率は約77%です。</li>
-              <li>・年収を一段上げる手段としてのコンサル転身と相性が良いです。サポートが手厚いです。</li>
+              <li>・コンサル業界特化の選考対策（ケース面接等）とCxO層ネットワークが強みです。非公開求人比率は約77%です。</li>
+              <li>・年収を一段上げる手段としてのコンサル転身と相性が良いといえます。サポートが手厚い点が特徴です。</li>
               <li>・<span className="font-bold">純粋な開発職にこだわる人には不向き</span>。コンサル以外・地方中心・経歴次第で断られる点に注意が必要です。</li>
             </ul>
           </div>
@@ -264,11 +264,11 @@ export default function AxisConsultingReview() {
         {/* コンサル特化＝純開発には不向き */}
         <section id="scope" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">
-            コンサル特化＝純開発志向のエンジニアには不向き（最初に明記）
+            コンサル特化＝純開発志向のエンジニアには不向き
           </h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-4">
             <p className="text-sm text-amber-900 leading-relaxed">
-              先に率直にお伝えすると、アクシスコンサルティング（AXIS Agent）は<span className="font-bold">純粋な開発職にこだわるエンジニアには向いていません</span>。コンサル業界に特化しており、ITコンサル・PM・DX人材といった上流・経営に近いポジションが中心だからです。
+              アクシスコンサルティング（AXIS Agent）は<span className="font-bold">純粋な開発職にこだわるエンジニアには向いていません</span>。コンサル業界に特化しており、ITコンサル・PM・DX人材といった上流・経営に近いポジションが中心だからです。
             </p>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
@@ -358,7 +358,7 @@ export default function AxisConsultingReview() {
                 {([
                   ["システムエンジニア（受託開発）平均年収", "約578.5万円"],
                   ["同・平均年齢", "約37.1歳"],
-                  ["コンサル転身で狙う方向性", "上流・経営に近いポジションで年収を一段上げます"],
+                  ["コンサル転身で狙う方向性", "上流・経営に近いポジションでの年収アップ"],
                 ] as [string, string][]).map(([a, b], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/2 border-b border-slate-200 align-top">
@@ -454,7 +454,7 @@ export default function AxisConsultingReview() {
         <section id="compare" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">他社との比較・使い分け</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            アクシスはコンサル特化が強みです。コンサルに限らず上場・外資・管理職を広く狙うならJACリクルートメント、純開発を続けるならIT特化型が向きます。そもそもコンサルに進むべきか迷うなら、キャリアの方向性を整理してから特化エージェントを使うのが鉄則です。
+            アクシスはコンサル特化が強みです。コンサルに限らず上場・外資・管理職を広く狙うならJACリクルートメント、純開発を続けるならIT特化型が向きます。そもそもコンサルに進むべきか迷うなら、キャリアの方向性を整理してから特化エージェントを使うのが基本です。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <Link href="/career/engineer-to-consultant/" className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">

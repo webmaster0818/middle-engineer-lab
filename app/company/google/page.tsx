@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：難易度と向くエンジニア" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ" },
   { id: "hiring", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック・開発文化" },
@@ -44,7 +44,7 @@ const salaryRows: [string, string][] = [
 
 const faqs = [
   {
-    q: "Google日本法人のエンジニア中途採用の難易度は？",
+    q: "Google日本法人のエンジニア中途採用の難易度はどの程度ですか？",
     a: "外資ITの中でも最難関クラスとされます。複数回のコーディング面接・システムデザイン面接に加え、社内公用語が英語のため英語力も必要です。国内IT企業で数年の実務経験を積み、アルゴリズムと英語を準備してから挑むのが現実的です。",
   },
   {
@@ -52,7 +52,7 @@ const faqs = [
     a: "Googleは社内公用語が英語で、面接の多くも英語で実施されると一般に知られています。ビジネスレベルの英語でのコミュニケーションが前提になるポジションが中心です。詳細は応募ポジションごとに公式の募集要項を確認してください。",
   },
   {
-    q: "ソフトウェアエンジニアの年収はどのくらい？",
+    q: "ソフトウェアエンジニアの年収はどのくらいですか？",
     a: "Google日本法人は有価証券報告書を公表していないため平均年収の一次情報はありません。levels.fyi（2026年10月15日時点）の日本拠点ソフトウェアエンジニアの総報酬は中央値で約2,560万円、L3で約1,571万円、L6で約4,105万円です。RSU（株式報酬）の比率が高く、株価や成績で大きく変動する点に注意が必要です。",
   },
   {
@@ -124,7 +124,7 @@ export default function GoogleCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Google（グーグル）日本法人の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Google日本法人は有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年10月15日時点）のソフトウェアエンジニア総報酬は中央値 約2,560万円が目安です。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>Google日本法人は有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年10月15日時点）のソフトウェアエンジニア総報酬は中央値 約2,560万円が目安です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総報酬の中央値 約2,560万円です（levels.fyi・2026年10月15日時点、日本拠点SWE集計・レベル別52件）。L3 約1,571万円、L6 約4,105万円です。</li><li>・会社全体の平均年収 約1,719万円、開発職 約2,151万円です（OpenWork・社員クチコミ集計）。</li><li>・いずれもユーザー投稿ベースの集計値です。RSU（株式報酬）比率が高く、株価・付与額・入社時期で実受取額は大きく変動します。</li></ul>
         </div>
 
@@ -153,21 +153,21 @@ export default function GoogleCompanyPage() {
           </ol>
         </nav>
 
-        {/* 結論 */}
+        {/* 難易度と向いている人 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
-            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：難易度と向くエンジニア</h2>
+            <h2 className="text-xl font-bold text-blue-900 mb-3">転職難易度と向いている人</h2>
             <p className="text-blue-900 text-sm leading-relaxed mb-3">
               Google日本法人のエンジニア中途採用は<strong>外資ITの中でも最難関クラス</strong>です。
               次の3つに当てはまる人ほど現実的な挑戦になります。
             </p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>① データ構造・アルゴリズムを<strong>コーディング面接で発揮できる</strong>レベルまで磨いています</li>
-              <li>② 大規模・分散システムの設計／運用に<strong>関与した実績</strong>があります</li>
-              <li>③ <strong>英語でのコミュニケーション</strong>に抵抗がない（面接・業務とも英語中心のポジションが多い）</li>
+              <li>① データ構造・アルゴリズムを<strong>コーディング面接で発揮できる</strong>レベルまで磨いていること</li>
+              <li>② 大規模・分散システムの設計／運用に<strong>関与した実績</strong>があること</li>
+              <li>③ <strong>英語でのコミュニケーション</strong>に抵抗がないこと（面接・業務とも英語中心のポジションが多い）</li>
             </ul>
             <p className="text-blue-900 text-sm leading-relaxed mt-3">
-              逆に、特定言語・特定フレームワークの経験年数だけを売りにする転職活動では通りにくい企業です。
+              一方で、特定言語・特定フレームワークの経験年数だけを強みとして打ち出す転職活動では、選考を通過しにくい企業です。
               まずは
               <Link href="/knowledge/coding-test/" className="text-petrol-deep underline font-medium">コーディングテスト対策</Link>
               と
@@ -195,7 +195,7 @@ export default function GoogleCompanyPage() {
             </table>
           </div>
           <p className="text-xs text-slate-400 mt-2">
-            ※社名・所在地は公開情報、技術スタックは公式のプロダクト技術情報・採用要項から一般に知られている範囲。組織や時期により担当技術は異なります。
+            ※社名・所在地は公開情報、技術スタックは公式のプロダクト技術情報・採用要項から一般に知られている範囲です。組織や時期により担当技術は異なります。
           </p>
         </section>
 
@@ -234,9 +234,9 @@ export default function GoogleCompanyPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>大規模・低レイテンシなシステムを前提とした設計思想（スケーラビリティ重視）</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>コードレビュー・テスト・SRE的な運用文化が根付いていることが公開情報で知られます</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>コードレビュー・テスト・SRE的な運用文化が根付いていることが公開情報から知られています</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Go・Kubernetes・TensorFlowなどOSSへの貢献を多数公開しています</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド領域は<Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>・<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>のスキルが評価されやすいです</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド領域は<Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>・<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>のスキルが評価されやすい傾向があります</li>
           </ul>
         </section>
 
@@ -352,8 +352,8 @@ export default function GoogleCompanyPage() {
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>コーディング</strong>：データ構造・アルゴリズムを使い、思考過程を声に出して説明できるか</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>システムデザイン</strong>：要件整理・トレードオフ・スケーラビリティの議論ができるか（<Link href="/knowledge/system-design/" className="text-petrol hover:underline">対策ガイド</Link>）</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>行動面接</strong>：曖昧さへの対応・協働・学習姿勢です（いわゆるGoogleyness）。<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接の答え方</Link>でSTAR法を確認</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>英語</strong>：面接・業務とも英語中心のポジションが多く、技術を英語で説明できること</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>行動面接</strong>：曖昧さへの対応・協働・学習姿勢（いわゆるGoogleyness）を示せるか（STAR法は<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接の答え方</Link>を参照）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>英語</strong>：面接・業務とも英語中心のポジションが多く、技術を英語で説明できるか</li>
           </ul>
         </section>
 
@@ -375,7 +375,7 @@ export default function GoogleCompanyPage() {
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる点の傾向</h3>
               <ul className="space-y-1 text-sm text-amber-900">
-                <li>・成長を求めて3〜5年で次へ移る人材流動性の高さ</li>
+                <li>・成長を求めて3〜5年で次へ移る人も多く、人材の流動性が高いとの声があります</li>
                 <li>・組織変更・プロダクト方針変更の影響を受けることがあります</li>
                 <li>・成果へのプレッシャーはチーム差が大きいとの声があります</li>
               </ul>
@@ -394,7 +394,7 @@ export default function GoogleCompanyPage() {
             </p>
             <p>
               強みになるのは、特定ドメイン（決済・大規模Web・インフラなど）での深い実績や、テックリード・設計判断の経験です。
-              逆に「マネジメント専任で手を動かしていない期間が長い」場合は、コーディング面接で苦戦しやすいので、応募前の数か月で技術の手を取り戻しておくのが安全です。
+              一方で「マネジメント専任で手を動かしていない期間が長い」場合は、コーディング面接で苦戦しやすいため、応募前の数か月で実装の感覚を取り戻しておくことをおすすめします。
             </p>
             <p>
               準備の進め方は
@@ -415,8 +415,8 @@ export default function GoogleCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">Google転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資ITを扱うヘッドハンターと接点を作りやすいです。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。技術職の選考対策やキャリアの棚卸しに強いです。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資ITを扱うヘッドハンターと接点を作りやすくなります。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。技術職の選考対策やキャリアの棚卸しに強みがあります。" },
               { name: "リクルートエージェントIT", href: "/review/recruit-it/", desc: "国内最大級の求人網です。外資・大手の選択肢を広く比較したい人向けです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

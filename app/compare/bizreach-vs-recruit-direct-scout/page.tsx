@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どちらがおすすめか" },
+  { id: "conclusion", label: "どちらがおすすめか" },
   { id: "naming", label: "用語整理：リクルートダイレクトスカウトとは" },
   { id: "basic", label: "基本データ比較表（2026年6月時点）" },
   { id: "shinsa", label: "違い①：審査の有無" },
@@ -32,11 +32,11 @@ const comparison = [
   { item: "サービス形態", a: "ハイクラス特化のスカウト型プラットフォーム（審査あり）", b: "ハイクラススカウト型サービス（審査なし・完全無料）" },
   { item: "運営", a: "株式会社ビズリーチ（ビジョナルグループ・東証プライム上場）", b: "リクルート系（正式運営会社名は要確認）" },
   { item: "審査", a: "登録時に審査あり（経歴次第で利用範囲に差）", b: "審査なし。誰でも登録可能" },
-  { item: "料金", a: "無料会員があります。一部機能は有料プラン（Web決済5,478円/月・2022年11月改定・二次）前提", b: "完全無料" },
+  { item: "料金", a: "無料会員あり。一部機能は有料プラン（Web決済5,478円/月・2022年11月改定・二次）前提", b: "完全無料" },
   { item: "スカウト主体", a: "企業の採用担当・登録ヘッドハンター", b: "ヘッドハンター・企業スカウト" },
   { item: "規模", a: "導入企業41,800社以上・登録ヘッドハンター9,700人以上（2025年4月・二次）・登録282万人（2025年4月・二次）", b: "公開求人 約59.3万件・年収800万以上 約34.7万件（二次2026年2月）・毎月約2万人新規登録" },
   { item: "年収帯", a: "年収1,000万円以上の求人が全体の約4割（二次）。年収750万以上が一つの目安", b: "年収600〜2,000万のミドル〜ハイクラス。転職後平均年収950万（二次）" },
-  { item: "IT特化", a: "IT特化ではありません（全業種のハイクラス）", b: "IT特化ではありません（全業種のハイクラス）" },
+  { item: "IT特化", a: "非IT特化（全業種のハイクラス）", b: "非IT特化（全業種のハイクラス）" },
 ];
 
 const faqs = [
@@ -45,13 +45,13 @@ const faqs = [
   { q: "どちらも無料で使えますか？", a: "リクルートダイレクトスカウトは完全無料です。ビズリーチには無料会員プランがありますが、すべてのスカウト閲覧など一部機能は有料プラン（Web決済5,478円/月・2022年11月改定の二次情報）が前提になります。まずは両方無料で登録し、ビズリーチのスカウトの質を見てから有料化を検討するのが現実的です。" },
   { q: "ITエンジニアでも使えますか？IT特化ではないと聞きました。", a: "どちらもIT特化サービスではなく、全業種のハイクラス求人を扱います。ただし、ITエンジニアが年収レンジを一段上げる（特に管理職・上方転職）用途では有効です。IT専門の現場情報や技術理解を求める場合は、IT特化のエージェントやスカウトサービスとの併用が安全です。スカウト型全体の選び方は記事内のリンクをご覧ください。" },
   { q: "経歴に自信がないとスカウトは来ませんか？", a: "ビズリーチはハイクラス特化のため、経歴次第ではスカウトが来にくいという声があります（口コミ傾向）。リクルートダイレクトスカウトも経歴次第でスカウトの量が左右されますが、審査なしで登録できるため、まず登録して市場の反応を見る使い方ができます。実務経験のあるエンジニアであれば、両方登録して反応を比較するのがおすすめです。" },
-  { q: "30代・40代のエンジニアにはどちらが向いていますか？", a: "どちらも有効です。ビズリーチはCTO・VPoE・EMなどの管理職スカウトや外資求人に強く、マネジメント志向の40代と相性が良い傾向です。リクルートダイレクトスカウトは完全無料・審査なしで気軽に市場価値を測れるため、まず相場を確認したい30代・40代に向きます。両方登録して、届くスカウトの質と量を比較するのが合理的です。" },
+  { q: "30代・40代のエンジニアにはどちらが向いていますか？", a: "どちらも有効です。ビズリーチはCTO・VPoE・EMなどの管理職スカウトや外資求人に強く、マネジメント志向の40代と相性が良い傾向があります。リクルートダイレクトスカウトは完全無料・審査なしで気軽に市場価値を測れるため、まず相場を確認したい30代・40代に向きます。両方登録して、届くスカウトの質と量を比較するのが合理的です。" },
 ];
 
 const goodBiz = [
   "厳選された質の高いスカウトを受けたい",
-  "CTO・VPoE・EMなど管理職／経営層を狙います",
-  "外資系やコンサルにも興味があります",
+  "CTO・VPoE・EMなど管理職／経営層を狙っている",
+  "外資系やコンサルにも興味がある",
   "有料プランを使ってでも本格的に動きたい",
   "市場価値を客観的に測りたい（審査の通過自体が指標になる）",
 ];
@@ -59,8 +59,8 @@ const goodRDS = [
   "完全無料で気軽に始めたい",
   "審査なしでまず登録してみたい",
   "手間をかけず待ちのスタイルで市場価値を測りたい",
-  "年収600万円以上のミドル〜ハイクラスを狙います",
-  "メーカー・コンサル・商社など幅広い業種も視野にあります",
+  "年収600万円以上のミドル〜ハイクラスを狙っている",
+  "メーカー・コンサル・商社など幅広い業種も視野に入れている",
 ];
 
 export default function BizreachVsRdsPage() {
@@ -90,7 +90,7 @@ export default function BizreachVsRdsPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">どちらがおすすめか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
@@ -127,7 +127,7 @@ export default function BizreachVsRdsPage() {
 
         <section id="shinsa" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">違い①：審査の有無</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">最初の大きな違いが審査です。ビズリーチは登録時に審査があり、経歴次第で利用範囲に差が出ます。ハイクラスに振り切っているため、審査を通過すること自体が一つの市場価値の目安にもなります。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">最初の大きな違いが審査です。ビズリーチは登録時に審査があり、経歴次第で利用範囲に差が出ます。ハイクラスに特化しているため、審査を通過すること自体が一つの市場価値の目安にもなります。</p>
           <p className="text-slate-600 leading-relaxed mb-4">リクルートダイレクトスカウトは審査がなく、誰でも登録できます。まず登録して市場の反応（届くスカウトの量と質）を見たい人にとって、敷居が低いのが利点です。「気軽に試したい」ならリクルートダイレクトスカウト、「ハイクラスの厳選環境で動きたい」ならビズリーチという整理になります。</p>
         </section>
 
@@ -146,7 +146,7 @@ export default function BizreachVsRdsPage() {
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">違い④：年収帯・求人の質</h2>
           <p className="text-slate-600 leading-relaxed mb-4">ビズリーチは年収750万円以上が一つの目安とされ、年収1,000万円以上の求人が全体の約4割（二次情報）と、上限の高さが際立ちます。導入企業41,800社以上・登録282万人（いずれも2025年4月・二次）という規模で、ハイクラス求人の厚みがあります。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">リクルートダイレクトスカウトは公開求人約59.3万件・年収800万円以上が約34.7万件（二次2026年2月）と量が豊富で、転職後の平均年収は950万円（二次）とされています。年収600〜2,000万円のミドル〜ハイクラスを幅広くカバーします。上限の質ならビズリーチ、無料で量を当たるならリクルートダイレクトスカウト、という棲み分けです。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">リクルートダイレクトスカウトは公開求人約59.3万件・年収800万円以上が約34.7万件（二次2026年2月）と量が豊富で、転職後の平均年収は950万円（二次）とされています。年収600〜2,000万円のミドル〜ハイクラスを幅広くカバーします。上限の質ならビズリーチ、無料で多くの求人に当たるならリクルートダイレクトスカウト、という使い分けになります。</p>
         </section>
 
         <section id="it" className="mb-12 scroll-mt-20">
@@ -164,17 +164,17 @@ export default function BizreachVsRdsPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高年収求人が豊富</li><li>市場価値を客観的に把握できる</li><li>厳選された質の高いスカウト</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高年収求人が豊富</li><li>市場価値を客観的に把握可能</li><li>厳選された質の高いスカウト</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>有料プラン前提との不満があります</li><li>スカウトの質にばらつき</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが届かない場合あり</li><li>有料プラン前提との不満</li><li>スカウトの質にばらつき</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：みん評／各転職メディア集計</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートダイレクトスカウトの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>完全無料で使える</li><li>高年収・非公開求人が多い</li><li>求人量が豊富</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>完全無料で利用可能</li><li>高年収・非公開求人が多い傾向</li><li>求人量が豊富</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>ヘッドハンターの質にばらつき</li><li>現職バレが不安という声があります</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが届かない場合あり</li><li>ヘッドハンターの質にばらつき</li><li>現職に知られることへの不安の声</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：みん評／各転職メディア集計</p>
             </div>
           </div>
@@ -217,7 +217,7 @@ export default function BizreachVsRdsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだ30代・40代の市場価値は高く、ハイクラススカウト型は「年収レンジを一段上げる」用途で力を発揮します。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>まだ年収の伸びしろが大きい時期です。完全無料のリクルートダイレクトスカウトで気軽に相場を測り、手応えがあればビズリーチで質の高いスカウトを比較する流れが負担なく進められます。レバテック公表の年代別平均年収（2025年）では30代のSEは約499万円が一つの目安で、ハイクラス型のスカウトで上限を知っておくと交渉に役立ちます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ビズリーチはCTO・VPoE・EMといった管理職・経営層ポジションのスカウトや外資求人に強く、マネジメント経験のある40代と合致します。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。一方、両サービスともIT特化ではないため、技術理解の深い提案が欲しい場面ではIT特化サービスを併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ビズリーチはCTO・VPoE・EMといった管理職・経営層ポジションのスカウトや外資求人に強く、マネジメント経験のある40代と合致します。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、高い年収帯を目指せる層です。一方、両サービスともIT特化ではないため、技術理解の深い提案が欲しい場面ではIT特化サービスを併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-12 scroll-mt-20">

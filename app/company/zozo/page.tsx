@@ -30,7 +30,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: "ZOZOで有利な経験は？",
-    a: "大規模ECサイトの開発・運用経験、Goやマイクロサービスの経験、AWS/Kubernetesでのインフラ経験、推薦・機械学習や計測技術（画像処理・3D）の経験が評価されやすい傾向です（公開技術情報・求人傾向ベース）。",
+    a: "大規模ECサイトの開発・運用経験、Goやマイクロサービスの経験、AWS/Kubernetesでのインフラ経験、推薦・機械学習や計測技術（画像処理・3D）の経験が評価されやすい傾向があります（公開技術情報・求人傾向ベース）。",
   },
   {
     q: "ZOZOの開発の特徴は？",
@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもZOZOに転職できますか？",
-    a: "平均年齢34.7歳の組織で、年齢よりも担えるロールと専門性が重視される傾向です。大規模EC・マイクロサービス・計測技術などの経験を活かせるかが鍵になります。",
+    a: "平均年齢34.7歳の組織で、年齢よりも担えるロールと専門性が重視される傾向があります。大規模EC・マイクロサービス・計測技術などの経験を活かせるかが鍵になります。",
   },
 ];
 
@@ -102,7 +102,7 @@ export default function ZozoCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ZOZOの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ZOZOの平均年間給与は856万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢34.7歳）。前期656万円から200万円の大幅増です。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社ZOZOの平均年間給与は856万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢34.7歳）。前期656万円から200万円の大幅増です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 856万円です（2026年3月期 有価証券報告書）。販売・物流など全職種を含む全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2024年3月期692万円→2025年3月期656万円→2026年3月期856万円と、直近期に200万円の大幅増です（各期 有価証券報告書）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表です。提示額はポジション・グレードで幅があるため、求人・エージェントで確認が必要です。</li></ul>
         </div>
 
@@ -122,9 +122,9 @@ export default function ZozoCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              ZOZOは<strong>大規模ファッションECをGoベースのマイクロサービスへ刷新中の、技術投資に積極的なテック企業</strong>です。コーディングテストはなく、現場エンジニアとの面接で技術力と相性を見極める選考が特徴です。働き方は比較的柔軟という口コミ傾向です。
+              ZOZOは<strong>大規模ファッションECをGoベースのマイクロサービスへ刷新中の、技術投資に積極的なテック企業</strong>です。コーディングテストはなく、現場エンジニアとの面接で技術力と相性を見極める選考が特徴です。働き方は比較的柔軟だという口コミが見られます。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：大規模EC・マイクロサービス・Go/Kubernetes等の経験があり、対話で技術を語れるエンジニア</li>
@@ -187,9 +187,9 @@ export default function ZozoCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：ZOZOTOWNのマイクロサービス移行でGoを採用します。軽量・起動速度・並行処理の強みを評価した技術選定が公開されています。</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：AWS上のEKS（マネージドKubernetes）でコンテナ基盤を運用します。IaC/CI/CDやセキュリティ標準（govulncheck・ECRイメージスキャン等）の事例が公開されています。</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>アプリ・フロント</strong>：Kotlin / Swift（モバイル）、TypeScript（Web）などです。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：ZOZOTOWNのマイクロサービス移行でGoを採用しています。軽量・起動速度・並行処理の強みを評価した技術選定が公開されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：AWS上のEKS（マネージドKubernetes）でコンテナ基盤を運用しています。IaC/CI/CDやセキュリティ標準（govulncheck・ECRイメージスキャン等）の事例が公開されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>アプリ・フロント</strong>：Kotlin / Swift（モバイル）、TypeScript（Web）などが用いられています。</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>その他</strong>：Java、Python なども領域により使用されています。</span></li>
             </ul>
           </div>
@@ -273,8 +273,8 @@ export default function ZozoCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。EC系・メガベンチャー求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。EC系企業への提案実績が豊富で提案スピードが速いです。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談で社風を把握しやすいです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。EC系企業への提案実績が豊富で提案スピードが速い点が特徴です。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談で社風を把握しやすくなります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：実装経験を上流の土台にする代表的なルート" },
+  { id: "conclusion", label: "実装経験を上流の土台にする代表的なルート" },
   { id: "gap", label: "PGとSEのスキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -28,7 +28,7 @@ const gapRows = [
   {
     skill: "実装・コーディング",
     pg: "◎ 仕様に基づく実装・テストが主業務",
-    se: "○ 上流に移っても、実装が分かることは強みとして残ります",
+    se: "○ 上流に移っても、実装への理解は強みとして継続",
   },
   {
     skill: "要件定義・要求の整理",
@@ -38,22 +38,22 @@ const gapRows = [
   {
     skill: "基本設計・詳細設計",
     pg: "○ 詳細設計の一部に関与する場合あり",
-    se: "◎ 基本設計から設計全体に責任を持ちます",
+    se: "◎ 基本設計から設計全体への責任",
   },
   {
     skill: "顧客・ステークホルダー折衝",
-    pg: "△ 直接の折衝は少ないことが多いです",
+    pg: "△ 直接の折衝は少ない傾向",
     se: "◎ 顧客ヒアリング・提案・調整が日常業務",
   },
   {
     skill: "ドキュメンテーション",
-    pg: "○ 仕様書を読む側です。作成は限定的",
-    se: "◎ 要件定義書・設計書を作成し合意を取ります",
+    pg: "○ 仕様書を読む側。作成は限定的",
+    se: "◎ 要件定義書・設計書の作成と合意形成",
   },
   {
     skill: "全体最適・俯瞰の視点",
     pg: "○ 担当モジュール中心の視点",
-    se: "◎ システム全体・業務全体を俯瞰して設計します",
+    se: "◎ システム全体・業務全体を俯瞰した設計",
   },
 ];
 
@@ -64,7 +64,7 @@ const buildSteps = [
   },
   {
     title: "要件定義と要求整理の型を学ぶ",
-    desc: "顧客の曖昧な要望を、実装可能な要件に翻訳するのがSEの腕の見せどころです。要求のヒアリング、課題の構造化、要件への落とし込みの流れを、書籍や現場のSEの動きから学び、実務で試します。",
+    desc: "顧客の曖昧な要望を、実装可能な要件に翻訳するのがSEの重要な役割です。要求のヒアリング、課題の構造化、要件への落とし込みの流れを、書籍や現場のSEの動きから学び、実務で試します。",
   },
   {
     title: "ドキュメント作成力を高める",
@@ -110,7 +110,7 @@ const transitionSteps = [
 const faqs = [
   {
     q: "プログラマー（PG）からシステムエンジニア（SE）への移行は可能？",
-    a: "可能です。実装経験は上流工程の土台になり、『どう作るか』が分かるPG出身者は実現性のある設計ができる強みがあります。ギャップになりやすいのは要件定義、基本設計、顧客折衝、ドキュメント作成です。在職中に設計工程へ関与し、上流の実績を作ることが鍵になります。",
+    a: "可能です。実装経験は上流工程の土台になり、『どう作るか』が分かるPG出身者は実現性のある設計ができる強みがあります。ギャップになりやすいのは要件定義、基本設計、顧客折衝、ドキュメント作成です。在職中に設計工程へ関与し、上流の実績を作ることが重要です。",
   },
   {
     q: "PGとSEの違いは何？",
@@ -212,7 +212,7 @@ export default function PgToSePage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：実装経験を上流の土台にする代表的なルート</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">実装経験を上流の土台にする代表的なルート</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>PGからSEへの移行は、IT業界で長く続く代表的なキャリアステップです。</strong>
@@ -220,7 +220,7 @@ export default function PgToSePage() {
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
               <li>① 実装が分かることは<strong>SEになっても強み</strong>として残り、設計の実現性を判断する土台になります</li>
-              <li>② ギャップになりやすいのは<strong>要件定義・基本設計・顧客折衝・ドキュメント作成</strong></li>
+              <li>② ギャップになりやすいのは<strong>要件定義・基本設計・顧客折衝・ドキュメント作成</strong>です</li>
               <li>③ 在職中に設計工程へ関与し、上流の実績と俯瞰の視点を作ることが成否を分けます</li>
             </ul>
           </div>
@@ -312,13 +312,13 @@ export default function PgToSePage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（実装作業の記述に閉じている例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                Webアプリケーションの開発にて、詳細設計書をもとにJavaで機能の実装と単体テストを担当しました。
+                Webアプリケーションの開発にて、詳細設計書をもとにJavaで機能の実装と単体テストを担当。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（設計・要件への関与を示す例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                Webアプリケーション開発で、機能の実装に加え詳細設計の一部を担当。実装目線で設計上の課題を指摘し、データ構造を見直して保守性を改善。後半フェーズでは基本設計のレビューに参加し、要件の実現性の観点から代替案を提案。仕様の曖昧な箇所を整理し、設計書として明文化することで手戻りを削減しました。
+                Webアプリケーション開発で、機能の実装に加え詳細設計の一部を担当。実装目線で設計上の課題を指摘し、データ構造を見直して保守性を改善。後半フェーズでは基本設計のレビューに参加し、要件の実現性の観点から代替案を提案。仕様の曖昧な箇所を整理し、設計書として明文化することで手戻りを削減。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
@@ -360,12 +360,12 @@ export default function PgToSePage() {
               {
                 name: "レバテックキャリア",
                 point:
-                  "IT/Web特化で技術に詳しいアドバイザーが在籍しています。SE・上流工程の求人を扱い、技術要件のすり合わせがしやすいサービスです。",
+                  "IT/Web領域に特化しており、技術に詳しいアドバイザーが在籍しています。SE・上流工程の求人を扱い、技術要件のすり合わせがしやすいサービスです。",
               },
               {
                 name: "マイナビIT AGENT",
                 point:
-                  "20〜30代若手層に強く、書類添削・面接対策が手厚いと評されます。上流志向への転換を後押しするサポート役として併用しやすいエージェントです。",
+                  "20〜30代の若手層の支援に強みがあり、書類添削・面接対策が手厚いと評されます。上流志向への転換を後押しするサポート役として併用しやすいエージェントです。",
               },
               {
                 name: "doda ITエンジニア",

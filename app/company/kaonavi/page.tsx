@@ -29,8 +29,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["conclusion", "難易度と向いているエンジニア"],
+  ["basic", "基本データ（出典あり）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -65,7 +65,7 @@ const faqs = [
   },
   {
     q: "カオナビで活きる経験は？",
-    a: "PHP/LaravelやGoを用いたWebアプリケーション開発の実務経験が基本です。SaaSプロダクトの開発・運用経験、HR・人事領域のドメイン知識、React/TypeScriptでのフロントエンド開発経験などが活きやすい傾向です。",
+    a: "PHP/LaravelやGoを用いたWebアプリケーション開発の実務経験が基本です。SaaSプロダクトの開発・運用経験、HR・人事領域のドメイン知識、React/TypeScriptでのフロントエンド開発経験などが活きやすい傾向があります。",
   },
   {
     q: "30代・40代でもカオナビに転職できますか？",
@@ -97,7 +97,7 @@ export default function KaonaviCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】カオナビの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社カオナビの平均年間給与は690万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢34.2歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社カオナビの平均年間給与は690万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢34.2歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 690万円です（上場最終期の2025年3月期 有価証券報告書・全社員平均）。技術職に限らない値です。</li><li>・推移は2021年3月期589万円から一貫して上昇し2025年3月期690万円です（各期 有価証券報告書）。ただし2025年のTOBで非公開化され、以降の同種数値の公開は限定されます。</li><li>・エンジニア職限定の公式な提示年収レンジは一次情報が乏しく非公表です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
@@ -121,9 +121,9 @@ export default function KaonaviCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              カオナビは<strong>PHP/LaravelとGoでタレントマネジメントSaaSを開発する、HR Tech領域のリーディング企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収690万円（2025年3月期 有価証券報告書）はSaaS業界では高めの水準です。2025年のTOBで非公開化され、機動的な経営体制での非連続成長を掲げています。
+              カオナビは<strong>PHP/LaravelとGoでタレントマネジメントSaaSを開発する、HR Tech領域のリーディング企業</strong>です。Webアプリ開発の実務経験が前提となり、難易度は中〜やや高い水準です。全社員平均年収690万円（2025年3月期 有価証券報告書）は、SaaS業界の中では高めといえます。2025年のTOBで非公開化され、機動的な経営体制での非連続成長を掲げています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：PHP/LaravelやGoでの実務経験があり、HR・人事領域のSaaSやマルチプロダクト化に関心があるエンジニア</li>
@@ -145,7 +145,7 @@ export default function KaonaviCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -189,7 +189,7 @@ export default function KaonaviCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：PHP / Laravel、Go / Gin</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：TypeScript、React</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>モバイル</strong>：Dart / Flutter</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ／インフラ</strong>：MySQL、AWS、Terraform、Dockerです。コード管理は GitLab</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ／インフラ</strong>：MySQL、AWS、Terraform、Docker（コード管理は GitLab）</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: カオナビ公式 採用ページ・技術情報等の公開記事。2026年6月時点で確認できる範囲です。</p>
@@ -233,7 +233,7 @@ export default function KaonaviCompanyPage() {
             <li>カジュアル面談（任意。働き方やチームの雰囲気を確認）</li>
             <li>書類選考（職務経歴書・ポートフォリオ等）</li>
             <li>面接（複数回。志望動機・開発物・技術選定の考え方などを確認）</li>
-            <li>技術課題／コーディング確認（職種により実施される場合がある）</li>
+            <li>技術課題／コーディング確認（職種により実施）</li>
             <li>オファー面談</li>
           </ol>
           <p className="text-xs text-slate-400 mt-2">出典: カオナビ公式 採用サイト（corp.kaonavi.jp/recruit）／採用媒体掲載情報の要約。選考は職種・時期により変動します。</p>
@@ -272,8 +272,8 @@ export default function KaonaviCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">カオナビ転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。SaaS・Web系の求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。SaaS・Web系の求人に強みがあり、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

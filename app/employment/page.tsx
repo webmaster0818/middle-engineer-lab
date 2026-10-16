@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：『労働者か否か』ですべての差が決まる" },
+  { id: "conclusion", label: "『労働者か否か』ですべての差が決まる" },
   { id: "compare", label: "4形態 横断比較表（契約・社保・税・労災）" },
   { id: "line", label: "最大の分岐点『労働者性』の線引き" },
   { id: "ses", label: "IT特有の混同を解く（SES・請負・派遣・業務委託）" },
@@ -29,7 +29,7 @@ const compareRows: { item: string; seishain: string; keiyaku: string; haken: str
     seishain: "労働契約（期間の定めなし）",
     keiyaku: "労働契約（期間の定めあり）",
     haken: "派遣元と労働契約（指揮命令は派遣先）",
-    itaku: "民法上の請負／準委任です。労働契約ではない",
+    itaku: "民法上の請負／準委任（労働契約には非該当）",
   },
   {
     item: "労働法の保護",
@@ -43,7 +43,7 @@ const compareRows: { item: string; seishain: string; keiyaku: string; haken: str
     seishain: "なし",
     keiyaku: "原則1回3年（一定の場合5年）",
     haken: "同一組織単位で3年",
-    itaku: "契約によります",
+    itaku: "契約内容次第",
   },
   {
     item: "健康保険",
@@ -71,7 +71,7 @@ const compareRows: { item: string; seishain: string; keiyaku: string; haken: str
     seishain: "あり",
     keiyaku: "あり",
     haken: "あり",
-    itaku: "原則なし → 2024年11月1日から特別加入が可能に",
+    itaku: "原則なし（2024年11月1日から特別加入が可能）",
   },
   {
     item: "税（所得税）",
@@ -114,7 +114,7 @@ const diagnosis = [
   {
     title: "まずは入社のハードルを下げて実績で評価されたい",
     answer: "契約社員 → 無期転換／正社員登用",
-    desc: "有期から入り実績を示す道です。ただし『無期転換＝正社員』ではない点に注意が必要です。詳細は契約社員ページで解説します。",
+    desc: "有期から入り実績を示す道です。ただし『無期転換＝正社員』ではない点に注意が必要です。詳細は契約社員ページで解説しています。",
   },
   {
     title: "未経験・ブランクから正社員を目指したい",
@@ -210,10 +210,10 @@ export default function EmploymentTopPage() {
           ]}
         />
 
-        {/* 結論ファースト */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：すべての差は「労働者か否か」から生まれる</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">すべての差は「労働者か否か」から生まれる</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               正社員・契約社員・派遣はいずれも「労働契約」に基づく<strong>労働者</strong>であり、社会保険・雇用保険・労災・労働法の保護を受けます。一方、業務委託（フリーランス）は民法上の請負・準委任契約に基づく<strong>事業主</strong>で、原則これらの保護の外にいます。この線引きを理解すれば、社保・税・労災・安定性のすべての違いが一本の筋で説明できます。
             </p>
@@ -278,7 +278,7 @@ export default function EmploymentTopPage() {
         <section id="line" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">最大の分岐点「労働者性」の線引き</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            雇用形態を正しく理解する鍵は、その契約が<strong>労働契約か否か</strong>です。労働契約であれば、その人は労働基準法・労働契約法・最低賃金法・労働者災害補償保険法（労災）などの保護対象である「労働者」になります。労働契約でなければ、原則として「事業主（個人事業主）」として扱われ、これらの保護の外に置かれます。
+            雇用形態を正しく理解するうえで重要なのは、その契約が<strong>労働契約か否か</strong>です。労働契約であれば、その人は労働基準法・労働契約法・最低賃金法・労働者災害補償保険法（労災）などの保護対象である「労働者」になります。労働契約でなければ、原則として「事業主（個人事業主）」として扱われ、これらの保護の外に置かれます。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-green-200 rounded-lg p-5">
@@ -296,7 +296,7 @@ export default function EmploymentTopPage() {
                 <li className="flex items-start gap-2"><span className="text-amber-600 shrink-0">●</span>業務委託（準委任・請負）＝フリーランス</li>
                 <li className="flex items-start gap-2"><span className="text-amber-600 shrink-0">●</span>社会保険は国民健康保険・国民年金が基本</li>
                 <li className="flex items-start gap-2"><span className="text-amber-600 shrink-0">●</span>雇用保険なし・有給なし</li>
-                <li className="flex items-start gap-2"><span className="text-amber-600 shrink-0">●</span>労災は2024年11月から特別加入が可能に</li>
+                <li className="flex items-start gap-2"><span className="text-amber-600 shrink-0">●</span>労災は2024年11月から特別加入が可能</li>
               </ul>
             </div>
           </div>
@@ -338,8 +338,8 @@ export default function EmploymentTopPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-5">
             <ul className="space-y-2 text-sm text-slate-700">
               <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険・年金が<strong>全額自己負担</strong>（正社員は会社が半額負担）</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>雇用保険なし（失業時の給付がない）</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>賞与・退職金・有給なし（休めば収入が減る）</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>雇用保険なし（失業時の給付なし）</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>賞与・退職金・有給なし（休業時は収入減）</li>
               <li className="flex gap-2"><span className="text-slate-400">▸</span>所得税・住民税は確定申告で自己管理（経費計上は可能）</li>
               <li className="flex gap-2"><span className="text-slate-400">▸</span>案件の途切れ・単価変動のリスクを自分で吸収</li>
             </ul>
@@ -402,7 +402,7 @@ export default function EmploymentTopPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "正社員エンジニアという選択", href: "/employment/seishain/", desc: "安定性・年収・キャリアの土台としての正社員" },
-              { name: "業務委託エンジニアの実態と単価", href: "/employment/contractor/", desc: "単価相場・手取りシミュレーション・メリデメ" },
+              { name: "業務委託エンジニアの実態と単価", href: "/employment/contractor/", desc: "単価相場・手取りシミュレーション・メリット・デメリット" },
               { name: "業務委託という働き方", href: "/employment/gyomu-itaku/", desc: "準委任・請負の違いと契約の注意点" },
               { name: "フリーランスエンジニアの始め方", href: "/employment/freelance/", desc: "単価・税・保険・案件の取り方" },
               { name: "SESエンジニアの実態", href: "/employment/ses/", desc: "多重下請け・単価構造を中立に解説" },
@@ -440,7 +440,7 @@ export default function EmploymentTopPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">まずは「正社員としての市場価値」を基準にしよう</h2>
+          <h2 className="text-xl font-bold mb-3">判断の基準は「正社員としての市場価値」</h2>
           <p className="text-blue-100 text-sm mb-4">
             どの雇用形態が自分に合うか迷ったら、転職エージェントで正社員としての提示年収レンジを把握し、他形態の手取り・保障と並べて比較するのが確実です。
           </p>

@@ -30,7 +30,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "転職難易度と向いている人"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
@@ -45,7 +45,7 @@ const toc = [
 
 const faqs = [
   {
-    q: "GMOペパボのエンジニア選考フローは？",
+    q: "GMOペパボのエンジニア選考フローを教えてください。",
     a: "公式採用情報によると、一般的には「書類選考」「カジュアル面談（任意）」「複数回の面接」「オファー面談」の流れで、ポジションにより技術面接やコード提出が加わります。最新の内容は応募求人ごとに確認することが推奨されます。",
   },
   {
@@ -53,11 +53,11 @@ const faqs = [
     a: "2024年12月期の有価証券報告書によると、全社員平均の平均年間給与は551万円、平均年齢は36.0歳です。これは技術職に限らない全社員平均値であり、エンジニア個人の年収は職種・グレードにより異なります。",
   },
   {
-    q: "GMOペパボはどんなサービスを開発していますか？",
+    q: "GMOペパボはどのようなサービスを開発していますか？",
     a: "ホスティングサービス「ロリポップ！」、EC支援「カラーミーショップ」、ハンドメイドマーケット「minne」などを運営しています。インフラ寄りのホスティング基盤から、toC向けのWebアプリ・ECまで、複数の事業領域でエンジニアが活躍しています。",
   },
   {
-    q: "GMOペパボの技術スタックは？",
+    q: "GMOペパボの技術スタックを教えてください。",
     a: "公式技術ブログ・採用情報（2026年6月時点）では、バックエンドにRuby・Ruby on Rails・Go・PHP、フロントエンドにTypeScript・React、インフラにLinux・Kubernetes・AWS・GCPなどが挙げられています。サービスごとに技術が異なり、Ruby文化が強い一方でGoやモダンフロントの採用も進んでいます。",
   },
   {
@@ -66,11 +66,11 @@ const faqs = [
   },
   {
     q: "GMOペパボへの転職難易度は高いですか？",
-    a: "Ruby on Rails等でのWebアプリ開発経験や、ホスティング基盤を支えるインフラ・SREの実務経験が評価されます。技術力に加え、サービス・ユーザーへの関心や、チームでの協働・発信姿勢が問われる傾向です。",
+    a: "Ruby on Rails等でのWebアプリ開発経験や、ホスティング基盤を支えるインフラ・SREの実務経験が評価されます。技術力に加え、サービス・ユーザーへの関心や、チームでの協働・発信姿勢が問われる傾向があります。",
   },
   {
     q: "30代・40代でもGMOペパボに転職できますか？",
-    a: "平均年齢36.0歳と幅のある組織で、年齢よりも実力・実績が問われます。Webアプリ開発・大規模ホスティング基盤・SREの専門性や、技術リード・マネジメントの経験があると、30代40代のミドルエンジニアでも年齢はハンデになりにくい傾向です。",
+    a: "平均年齢36.0歳と幅のある組織で、年齢よりも実力・実績が問われます。Webアプリ開発・大規模ホスティング基盤・SREの専門性や、技術リード・マネジメントの経験があると、30代40代のミドルエンジニアでも年齢はハンデになりにくい傾向があります。",
   },
 ];
 
@@ -98,8 +98,8 @@ export default function GmoPepaboCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】GMOペパボの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: GMOペパボの平均年間給与は551万円です（2024年12月期 有価証券報告書・全社員平均、平均年齢36.0歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 551万円です（2024年12月期 有価証券報告書）。技術職に限らない全社員平均で、エンジニア個人の年収は職種・グレードにより異なります。</li><li>・推移は2020年12月期の489万円から緩やかに上昇し、2024年12月期に551万円です（各期 有価証券報告書）。</li><li>・職種・グレード別の公式な年収表は非公表です。専門性の高いポジションや技術リード層は全社平均と異なる場合があり、求人票・エージェントで確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>GMOペパボの平均年間給与は551万円です（2024年12月期 有価証券報告書・全社員平均、平均年齢36.0歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 551万円です（2024年12月期 有価証券報告書）。技術職に限らない全社員平均で、エンジニア個人の年収は職種・グレードにより異なります。</li><li>・2020年12月期の489万円から緩やかに上昇し、2024年12月期は551万円となっています（各期 有価証券報告書）。</li><li>・職種・グレード別の公式な年収表は非公表です。専門性の高いポジションや技術リード層は全社平均と異なる場合があり、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -118,14 +118,14 @@ export default function GmoPepaboCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">転職難易度と向いている人</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               GMOペパボは<strong>Ruby文化と活発な技術発信を特徴とし、ホスティング基盤からtoC向けWebサービスまで携われるテック企業</strong>です。Webアプリ開発・大規模ホスティング基盤・SREの実務経験が活き、アウトプットや技術コミュニティへの関心が高い人に向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Ruby on Rails等でのWebアプリ開発や、ホスティング基盤を支えるインフラ／SRE経験があり、技術発信に前向きなエンジニア</li>
               <li>● <strong>向いていない人</strong>：技術発信やコミュニティ活動に関心が薄く、特定領域だけに閉じたい人</li>
-              <li>● <strong>30代・40代</strong>：Web／インフラの専門性や技術リード経験があれば年齢はハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：Web／インフラの専門性や技術リード経験があれば年齢はハンデになりにくい傾向があります</li>
             </ul>
           </div>
         </section>
@@ -155,7 +155,7 @@ export default function GmoPepaboCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2024年12月期 有価証券報告書に基づく全社員平均値。技術スタックは公式採用情報・テックブログです（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2024年12月期 有価証券報告書に基づく全社員平均値です。技術スタックは公式採用情報・テックブログに基づきます（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -255,7 +255,7 @@ export default function GmoPepaboCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              GMOペパボは平均年齢36.0歳（2024年12月期・全社員平均）で、年齢層に幅のある組織です。年齢よりも実力・実績が問われるため、30代・40代のミドルエンジニアでも<strong>Webアプリ開発・大規模ホスティング基盤・SREの専門性や、技術リード経験があれば年齢自体は大きなハンデになりにくい</strong>のが特徴です。
+              GMOペパボは平均年齢36.0歳（2024年12月期・全社員平均）で、年齢層に幅のある組織です。年齢よりも実力・実績が問われるため、30代・40代のミドルエンジニアでも<strong>Webアプリ開発・大規模ホスティング基盤・SREの専門性や、技術リード経験があれば年齢自体は大きなハンデになりにくい</strong>点が特徴です。
             </p>
             <p>
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。GMOペパボの全社員平均（551万円）はこのレンジ内の水準で、入社時の提示は職種・グレード次第です。30代・40代は「自分が当てはまるポジションの水準」を個別求人・面談で確認することが重要です。
@@ -271,7 +271,7 @@ export default function GmoPepaboCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。Web系・インフラ求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

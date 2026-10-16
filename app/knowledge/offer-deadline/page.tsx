@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：延長は頼める" },
+  { id: "conclusion", label: "延長は頼める" },
   { id: "general", label: "内定承諾期限の一般的な目安" },
   { id: "can-extend", label: "延長は頼んでいいのか" },
   { id: "how-to-ask", label: "延長を頼むときの3つのコツ" },
@@ -42,15 +42,15 @@ const tips = [
 
 const examples = [
   {
-    scene: "1〜2週間の延長を依頼します",
+    scene: "1〜2週間の延長を依頼する場合",
     text: "「この度は内定のご連絡をいただき、誠にありがとうございます。御社で働くことを前向きに考えておりますが、人生の大きな決断のため、家族とも相談したうえで慎重に検討させていただきたく存じます。誠に恐れ入りますが、ご返答の期限を○月○日まで延長していただくことは可能でしょうか。ご検討のほど、よろしくお願いいたします。」",
   },
   {
-    scene: "他社の選考結果を待ちたい",
+    scene: "他社の選考結果を待ちたい場合",
     text: "「内定のご連絡をいただき、ありがとうございます。御社を強く志望しておりますが、現在もう一社の選考が最終段階にあり、納得して決断するためにも結果を確認したうえでお返事したく存じます。誠に勝手なお願いで恐縮ですが、○月○日までご猶予をいただけませんでしょうか。」",
   },
   {
-    scene: "在職中で熟慮の時間がほしいです",
+    scene: "在職中で熟慮の時間がほしい場合",
     text: "「貴重なオファーをいただき、心より感謝申し上げます。現職の引き継ぎや今後のキャリアを踏まえ、責任を持って判断したいと考えております。恐れ入りますが、○月○日までお時間を頂戴できますと幸いです。前向きに検討を進めておりますので、何卒よろしくお願いいたします。」",
   },
 ];
@@ -81,11 +81,11 @@ const faqs = [
   },
   {
     q: "内定承諾の期限延長はお願いしてもいいのですか？",
-    a: "問題ありません。人生に関わる重要な決断であり、企業側も慎重に検討してほしいと考えているのが通常です。ポイントは『早めに』『具体的な希望日を添えて』『誠実な理由で』相談することが重要です。志望度の高さをあわせて伝えれば、印象を損ねずに延長してもらえるケースが多くあります。ただし企業の事情で応じられない場合もあるため、その際は限られた期間で判断する覚悟も必要です。",
+    a: "問題ありません。人生に関わる重要な決断であり、企業側も慎重に検討してほしいと考えているのが通常です。ポイントは、『早めに』『具体的な希望日を添えて』『誠実な理由で』相談することです。志望度の高さをあわせて伝えれば、印象を損ねずに延長してもらえるケースが多くあります。ただし企業の事情で応じられない場合もあるため、その際は限られた期間で判断する覚悟も必要です。",
   },
   {
     q: "他社の選考を待ってもらうことはできますか？",
-    a: "率直に伝えれば応じてもらえることが多いです。『御社を強く志望しているが、納得して決めるためにもう一社の結果を確認したい』と前向きな姿勢とセットで伝えるのがコツです。同時に、待ってもらっている他社の選考を急いでもらえないか、エージェント経由で調整するのも有効です。複数内定を比較する観点は別記事で解説しています。",
+    a: "率直に伝えれば応じてもらえることが多くあります。『御社を強く志望しているが、納得して決めるためにもう一社の結果を確認したい』と前向きな姿勢とセットで伝えるのがコツです。同時に、待ってもらっている他社の選考を急いでもらえないか、エージェント経由で調整するのも有効です。複数内定を比較する観点は別記事で解説しています。",
   },
   {
     q: "口頭やメールで内定承諾した後でも辞退できますか？",
@@ -143,7 +143,7 @@ export default function OfferDeadlinePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】内定承諾の期限は延長できる？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 延長は頼めます。承諾期限は通知から1週間前後（長くても2週間程度）が一般的な目安で、「早めに」「具体的な希望日を添えて」「誠実な理由で」相談すればほとんどの場合応じてもらえます。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>延長は頼めます。承諾期限は通知から1週間前後（長くても2週間程度）が一般的な目安で、「早めに」「具体的な希望日を添えて」「誠実な理由で」相談すればほとんどの場合応じてもらえます。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・承諾期限は法律で定められた日数ではなく慣行上の目安で、中途採用は新卒より短い傾向があります</li><li>・延長依頼は原則一度、具体的な期日と前向きな志望度を添えて誠実に伝えます</li><li>・無断の期限超過・曖昧な理由での複数回延長・音信不通はNGです。承諾後でも入社日前なら辞退は法的に可能です</li></ul>
           </div>
         </section>
@@ -174,9 +174,9 @@ export default function OfferDeadlinePage() {
           </ol>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：延長は頼める</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">延長は頼める</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               内定承諾の期限は<strong>通知から1週間前後（長くても2週間程度）が一般的</strong>な目安です。短いと感じても、<strong>「早めに」「具体的な希望日を添えて」「誠実な理由で」相談すれば、延長してもらえることがほとんど</strong>です。
@@ -200,7 +200,7 @@ export default function OfferDeadlinePage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">長くて2週間程度</h3>
-              <p className="text-sm text-slate-600">候補者の検討に配慮する企業や、入社まで余裕がある場合の目安です。これ以上は延長交渉が前提になりやすいです。</p>
+              <p className="text-sm text-slate-600">候補者の検討に配慮する企業や、入社まで余裕がある場合の目安です。これ以上は延長交渉が前提になりやすい傾向があります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">エージェント経由なら相談しやすい</h3>
@@ -213,7 +213,7 @@ export default function OfferDeadlinePage() {
         <section id="can-extend" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">延長は頼んでいいのか</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            結論として、延長の相談は問題ありません。むしろ重要な決断を慎重に検討する姿勢は自然なものです。企業側も、入社後に後悔されるより、納得して決めてほしいと考えているのが通常です。
+            延長の相談自体は問題ありません。むしろ重要な決断を慎重に検討する姿勢は自然なものです。企業側も、入社後に後悔されるより、納得して決めてほしいと考えているのが通常です。
           </p>
           <p className="text-slate-600 leading-relaxed">
             ただし、企業の採用スケジュールの都合で延長に応じられない場合もあります。その際は限られた期間で判断する必要があるため、内定が出そうな段階から、他社の選考状況を整理し、判断基準を先に決めておくことが大切です。判断軸の作り方は
@@ -297,9 +297,9 @@ export default function OfferDeadlinePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">期限の調整もエージェントにお任せ</h2>
+          <h2 className="text-xl font-bold mb-3">期限の調整もエージェントに依頼できる</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントなら、承諾期限の延長交渉も候補者に代わって進めてくれます。
+            IT特化型エージェントなら、承諾期限の延長交渉も候補者に代わって進めます。
           </p>
           <Link
             href="/#ranking"

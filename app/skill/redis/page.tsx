@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Redisスキルの転職での活かし方" },
+  { id: "conclusion", label: "1. Redisスキルの転職での活かし方" },
   { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Redisスキルが効くキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "find", label: "5. 求人の探し方と主なエージェント" },
   { id: "entry", label: "6. 経験浅めからRedis実務に入るルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -135,9 +135,9 @@ export default function RedisSkillPage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Redisスキルの転職での活かし方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Redisスキルの転職での活かし方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Redisは「これ単体で転職する」スキルではなく、パフォーマンス設計力としてバックエンド／インフラ職の市場価値を底上げする実務基盤です。</strong>キャッシュ・セッション・キューといった用途の設計判断を掛け合わせることで、高負荷サービスを扱える人材として評価されます。
@@ -145,7 +145,7 @@ export default function RedisSkillPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Redis単体の職種別年収は公表が乏しく、<strong>データベース約453万円・インフラ約475万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握します</li>
               <li>・求人では「キャッシュ設計」「高負荷サービスのパフォーマンス改善」「セッション・キューでの利用」の文脈で問われます</li>
-              <li>・Redis＋バックエンド開発、＋インフラ運用の掛け合わせで、SRE／高トラフィック領域に手が届きます</li>
+              <li>・Redis＋バックエンド開発、＋インフラ運用の掛け合わせで、SRE／高トラフィック領域も視野に入ります</li>
             </ul>
           </div>
         </section>
@@ -209,9 +209,9 @@ export default function RedisSkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               { role: "バックエンドエンジニア（性能設計込み）", note: "アプリ開発＋キャッシュ・性能設計を担当します。高負荷サービスで重宝されます" },
-              { role: "SRE／インフラエンジニア", note: "Redis基盤の可用性・スケール設計を担います。高トラフィック領域で需要" },
+              { role: "SRE／インフラエンジニア", note: "Redis基盤の可用性・スケール設計を担います。高トラフィック領域で需要があります" },
               { role: "データ基盤エンジニア", note: "Redisを起点に、キューやストリーム処理など基盤領域へ広げます" },
-              { role: "パフォーマンスエンジニア", note: "キャッシュ戦略・負荷対策でサービス全体のレスポンスを改善" },
+              { role: "パフォーマンスエンジニア", note: "キャッシュ戦略・負荷対策でサービス全体のレスポンスを改善します" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -226,7 +226,7 @@ export default function RedisSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Redisは要件の一部として登場することが多いため、希望職種（バックエンド・インフラ・SRE）を明確にして求人を引き出すのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -246,7 +246,7 @@ export default function RedisSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強み）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。高トラフィックなWeb系・ゲーム企業の求人を探したい場合の選択肢です。
               </p>
@@ -285,10 +285,10 @@ export default function RedisSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>性能設計の判断力が強みになります。</strong>「どこにキャッシュを入れ、どう無効化するか」は経験が物を言う領域です。30代・40代でパフォーマンス問題に向き合ってきたなら、その判断の引き出しが若手にはない強みになります。
+              <strong>性能設計の判断力が強みになります。</strong>「どこにキャッシュを入れ、どう無効化するか」は経験が成果を左右する領域です。30代・40代でパフォーマンス問題に向き合ってきたなら、その判断の引き出しが若手にはない強みになります。
             </p>
             <p>
-              <strong>掛け算で差別化します。</strong>Redis単体より「Redis＋バックエンド開発」「Redis＋インフラ運用」の掛け合わせが強みです。高負荷サービスの設計・運用経験と結びつけて語れると、ミドル層ならではの説得力が出ます。
+              <strong>掛け算で差別化します。</strong>Redis単体より「Redis＋バックエンド開発」「Redis＋インフラ運用」の掛け合わせのほうが強みになります。高負荷サービスの設計・運用経験と結びつけて語れると、ミドル層ならではの説得力が出ます。
             </p>
             <p>
               <strong>障害対応の経験は希少です。</strong>キャッシュ起因の障害、メモリ枯渇、フェイルオーバーといったトラブルへの対応経験は、求人市場で高く評価されます。具体的なエピソードを定量で語れるよう準備しておきましょう。
@@ -310,7 +310,7 @@ export default function RedisSkillPage() {
               <strong>② RDBとの併用を前提に設計します。</strong>RedisはRDBの前段に置くキャッシュとして使われることが多く、<Link href="/skill/sql/" className="text-petrol hover:underline">SQL／データベース</Link>の理解があるとキャッシュ戦略の設計が的確になります。一貫性とパフォーマンスのトレードオフを語れるようにしましょう。
             </p>
             <p>
-              <strong>③ 運用・周辺領域へ広げます。</strong>コンテナでの運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドサービス（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link> ElastiCache等）、レプリケーション・クラスタ構成まで広げると、SRE／インフラ寄りの高年収求人に手が届きます。
+              <strong>③ 運用・周辺領域へ広げます。</strong>コンテナでの運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドサービス（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link> ElastiCache等）、レプリケーション・クラスタ構成まで広げると、SRE／インフラ寄りの高年収求人にも応募しやすくなります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。

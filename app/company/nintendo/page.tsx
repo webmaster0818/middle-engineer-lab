@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
+  { id: "basic", label: "基本データ（出典あり）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
   { id: "salary", label: "年収データ" },
@@ -73,20 +73,20 @@ export default function NintendoCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】任天堂の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（任天堂株式会社単体）の平均年間給与は966万円です（2025年3月期 有価証券報告書・全従業員平均・賞与含む、平均年齢40.2歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 966万円です（2025年3月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。前期から微増です（約+3.9万円）。</li><li>・平均年齢40.2歳・平均勤続年数14.4年です（同 有価証券報告書）。業績連動賞与の比重が大きい給与構造が高水準を支えています。</li><li>・職種別・等級別のレンジは非公表です。エンジニア個人の提示額は求人・面談での確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>提出会社（任天堂株式会社単体）の平均年間給与は966万円です（2025年3月期 有価証券報告書・全従業員平均・賞与含む、平均年齢40.2歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 966万円です（2025年3月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。前期からは微増（約+3.9万円）となっています。</li><li>・平均年齢40.2歳・平均勤続年数14.4年です（同 有価証券報告書）。業績連動賞与の比重が大きい給与構造が高水準を支えています。</li><li>・職種別・等級別のレンジは非公表です。エンジニア個人の提示額は求人・面談での確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["任天堂 有価証券報告書（2025年3月期）", "任天堂 公式採用サイト（キャリア採用）", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：かなり高い（経験者・専門特化型）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・自社ハード（Nintendo Switch等）の制約下で最高の体験を作る、C++中心の低レイヤー最適化が中核です。<strong>コンソールゲーム開発・組み込み近傍の経験者</strong>に向きます。</li>
-              <li>・選考は<strong>作品選考＋複数回面接</strong>で、応募から内定まで2〜3か月です。即戦力性とモノづくりへの姿勢を強く見られます。</li>
-              <li>・年収は提出会社単体の平均で<strong>966万円です（2025年3月期・有価証券報告書）</strong>。財務基盤が盤石で、業績連動賞与の比重が大きいです。</li>
+              <li>・自社ハード（Nintendo Switch等）の制約下で体験品質を高める、C++中心の低レイヤー最適化が中核です。<strong>コンソールゲーム開発・組み込み近傍の経験者</strong>に向いています。</li>
+              <li>・選考は<strong>作品選考＋複数回面接</strong>で、応募から内定まで2〜3か月かかります。即戦力性とモノづくりへの姿勢が重視されます。</li>
+              <li>・年収は提出会社単体の平均で<strong>966万円（2025年3月期・有価証券報告書）</strong>です。財務基盤が安定しており、業績連動賞与の比重が大きい給与構造とされています。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">逆に、最新のWebモダン技術を最優先したい人や、フルリモート前提の人は京都本社中心の働き方とミスマッチが起きやすい点に注意が必要です。</p>
           </div>
@@ -102,7 +102,7 @@ export default function NintendoCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm"><tbody>
               {basicData.map(([label, value], i) => (
@@ -155,9 +155,9 @@ export default function NintendoCompanyPage() {
           <ol className="space-y-3">
             {[
               ["STEP 1", "Web応募", "公式サイトの「キャリア採用Web応募」から応募します。登録メールアドレスに完了通知が届きます。"],
-              ["STEP 2", "作品選考", "職種により必要に応じて実施（ポートフォリオ・作品提出）。"],
-              ["STEP 3", "面接", "複数回を予定します。専門性に加え、モノづくりへの姿勢・志望度が見られます。"],
-              ["STEP 4", "内定", "採用条件の提示。応募から内定まで2〜3か月程度、書類結果まで約1か月。"],
+              ["STEP 2", "作品選考", "職種により、必要に応じて実施されます（ポートフォリオ・作品提出）。"],
+              ["STEP 3", "面接", "複数回が予定されています。専門性に加え、モノづくりへの姿勢・志望度が見られます。"],
+              ["STEP 4", "内定", "採用条件が提示されます。応募から内定まで2〜3か月程度、書類選考の結果連絡まで約1か月とされています。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -204,7 +204,7 @@ export default function NintendoCompanyPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>C++での低レイヤー実装・最適化が得意なコンソールゲーム開発経験者</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ハード制約の中で体験品質を追求するモノづくりに情熱がある</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>京都本社を中心とした腰を据えた長期就業に魅力を感じる</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>京都本社を中心とした腰を据えた長期就業を希望する</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ネットワークサービス（Go/Kotlin等）でWeb基盤を支えたい</li>
               </ul>
             </div>
@@ -232,7 +232,7 @@ export default function NintendoCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">任天堂転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。ゲーム企業の求人提案に強みがあります。提案スピードが速いです。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人比率が高く、技術面接対策のサポートが受けられます。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。ゲーム企業の求人提案に強みがあります。提案スピードが速い点が特徴です。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化型で高年収求人の比率が高く、技術面接対策のサポートが受けられます。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数を有し、メーカー・大手の求人を幅広くカバーしています。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

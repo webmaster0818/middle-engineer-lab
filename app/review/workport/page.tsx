@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論：ワークポートはこのような方向け" },
+  { id: "summary", label: "ワークポートはこのような方向け" },
   { id: "basic", label: "基本データ（2026年6月時点）" },
   { id: "strength", label: "ワークポートの特徴・強み" },
   { id: "good", label: "良い評判の傾向" },
@@ -39,7 +39,7 @@ const basicData: [string, string][] = [
 
 const strengths = [
   {
-    title: "総合型でありながらIT・ゲーム領域が最も強い",
+    title: "総合型でありながらIT・ゲーム領域に注力",
     body: "ワークポートは総合型エージェントに分類されますが、創業以来IT・ゲーム業界に最も注力してきた歴史があります。公開求人11万件以上のうちIT関連が3万件以上（公式LP・転職メディア集計値・2026年6月時点）を占め、Web系・SIer・ゲーム・インフラまで幅広い職種をカバーします。総合型の求人量とIT特化型の専門性を併せ持つ点が、純粋なIT特化エージェントとの違いです。",
   },
   {
@@ -58,12 +58,12 @@ const strengths = [
 
 const goodReviews = [
   {
-    point: "紹介求人の量が多いです",
+    point: "紹介求人の量が多い",
     detail:
       "保有求人の多さを背景に、一度の面談で複数の選択肢を提示してもらえたという声が見られます。比較検討の材料を多く得たい人に向く傾向です。",
   },
   {
-    point: "レスポンスが早いです",
+    point: "レスポンスが早い",
     detail:
       "連絡や求人紹介のスピードを評価する声が目立ちます。転職活動を停滞させたくない人にとって、対応の速さは実利的なメリットとして挙げられています。",
   },
@@ -76,17 +76,17 @@ const goodReviews = [
 
 const badReviews = [
   {
-    point: "連絡が多すぎます",
+    point: "連絡が多すぎる",
     detail:
       "提案量の多さの裏返しとして、連絡頻度が高いと感じる声が見られます。希望条件を最初に明確化し、連絡手段・頻度の希望を伝えることで軽減しやすい不満です。",
   },
   {
-    point: "希望と異なる求人を紹介されることがあります",
+    point: "希望と異なる求人を紹介されることがある",
     detail:
       "保有求人が幅広いぶん、希望と方向性の違う提案が混じるケースが指摘されています。NG条件（年収下限・職種・勤務地など）を具体的に共有することが対策になります。",
   },
   {
-    point: "担当の専門性にばらつきがあります",
+    point: "担当の専門性にばらつきがある",
     detail:
       "総合型ゆえに担当者のIT専門知識に差があるという声が見られます。技術的に踏み込んだ相談をしたい場合は、IT特化エージェントとの併用が現実的です。",
   },
@@ -168,7 +168,7 @@ export default function WorkportReview() {
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 求人量・対応スピード・口コミの傾向を出典付きで検証</p>
 
         <p className="text-slate-700 leading-relaxed mb-6">
-          ワークポートは、IT・ゲーム領域に最も強い「総合型」転職エージェントです。求人量の多さと対応スピード、全国57拠点のネットワークが特徴で、未経験・異業種からのIT転職の入口としても選ばれています。本記事では、株式会社ワークポートの公式情報と口コミプラットフォームの傾向をもとに、30代・40代エンジニアが使う場合の実態と戦略を、出典を明示しながら検証します。
+          ワークポートは、IT・ゲーム領域に注力する「総合型」転職エージェントです。求人量の多さと対応スピード、全国57拠点のネットワークが特徴で、未経験・異業種からのIT転職の入口としても選ばれています。本記事では、株式会社ワークポートの公式情報と口コミプラットフォームの傾向をもとに、30代・40代エンジニアが使う場合の実態と戦略を、出典を明示しながら検証します。
         </p>
 
         <DataNote
@@ -176,18 +176,18 @@ export default function WorkportReview() {
           sources={["株式会社ワークポート公式", "Qiita Job Change", "morejob", "イーデス", "axxis"]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：ワークポートはこのような方向け</h2>
+            <h2 className="text-xl font-bold text-blue-900 mb-3">ワークポートはこのような方向け</h2>
             <p className="text-sm text-blue-900 mb-4 leading-relaxed">
               <span className="font-bold">総合評価：求人量とスピードで「選択肢を広げたい人」に強い総合型エージェントです。</span>
               要約すると、<span className="font-bold">「とにかく多くの求人を比較したい人」「未経験・異業種からIT転職を狙う30代」「地方やリモートも含めて探したい人」</span>に向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-2">
-              <li className="flex gap-2"><span className="shrink-0 font-bold">①</span>公開求人11万件以上・IT3万件以上（公式LP・集計値・2026年6月）で選択肢が豊富です</li>
-              <li className="flex gap-2"><span className="shrink-0 font-bold">②</span>レスポンスが早く、活動を早く前に進めたい人と相性が良いです</li>
-              <li className="flex gap-2"><span className="shrink-0 font-bold">③</span>一方で「連絡が多い」「専門性にばらつき」の声もあり、IT特化エージェントとの併用を前提にすることをおすすめします</li>
+              <li className="flex gap-2"><span className="shrink-0 font-bold">①</span>公開求人11万件以上・IT3万件以上（公式LP・集計値・2026年6月）で、選択肢が多い</li>
+              <li className="flex gap-2"><span className="shrink-0 font-bold">②</span>レスポンスが早く、活動を早く前に進めたい人と相性が良い</li>
+              <li className="flex gap-2"><span className="shrink-0 font-bold">③</span>一方で「連絡が多い」「専門性にばらつき」の声もあり、IT特化エージェントとの併用がおすすめ</li>
             </ul>
           </div>
         </section>
@@ -300,7 +300,7 @@ export default function WorkportReview() {
           </div>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <div>
-              <h3 className="font-bold text-slate-800 mb-1">30代：求人量で「土俵」を広げる使い方</h3>
+              <h3 className="font-bold text-slate-800 mb-1">30代：求人量で選択肢を広げる使い方</h3>
               <p>
                 30代は実務経験を強みにしつつ、まだ職種転換やキャリアの軌道修正が利く年代です。ワークポートの求人量を使って選択肢を広げ、Web系・SIer・ゲーム・社内SEなど複数方向を同時に比較するのに向きます。参考までに、レバテック公表の年代別平均年収（2025年）では正社員SEの30代は約499万円、年収1,000万円以上の割合は30代で8.01%とされています。求人量で母数を確保しつつ、年収条件は妥協せずフィルタリングしましょう。
               </p>
@@ -308,11 +308,11 @@ export default function WorkportReview() {
             <div>
               <h3 className="font-bold text-slate-800 mb-1">40代：未経験狙いより「経験の横展開」</h3>
               <p>
-                40代では未経験職種への転換は難度が上がります。レバテック公表値（2025年）では正社員SEの40代平均年収は約618万円、1,000万円以上の割合は12.67%とされ、経験者市場としての厚みがあります。ワークポートを使うなら、未経験歓迎枠よりも、前職の専門知識（業務ドメイン・マネジメント・特定技術）を横展開できる求人を中心に絞り込むのが得策です。求人量の多さは、ニッチな経験にマッチする企業を見つける確率を上げます。
+                40代では未経験職種への転換は難度が上がります。レバテック公表値（2025年）では正社員SEの40代平均年収は約618万円、1,000万円以上の割合は12.67%とされ、経験者市場としての厚みがあります。ワークポートを使うなら、未経験歓迎枠よりも、前職の専門知識（業務ドメイン・マネジメント・特定技術）を横展開できる求人を中心に絞り込むのが有効です。求人量の多さは、ニッチな経験にマッチする企業を見つける確率を上げます。
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-slate-800 mb-1">市場背景：IT人材不足という追い風</h3>
+              <h3 className="font-bold text-slate-800 mb-1">市場背景：IT人材不足の状況</h3>
               <p>
                 経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。ミドル層にとっても経験者需要は底堅く、求人量を確保できるワークポートは、この需要に幅広くアクセスする入口として機能します。詳しくは<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>もあわせてご覧ください。
               </p>
@@ -342,7 +342,7 @@ export default function WorkportReview() {
               <h3 className="font-bold text-red-700 mb-3">向いていない人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
-                  "年収750万円以上のハイクラスのみを狙います",
+                  "年収750万円以上のハイクラスのみを狙いたい",
                   "連絡頻度は最小限に抑えたい",
                   "技術的に深い選考対策を最優先したい",
                   "厳選した少数の求人だけを見たい",
@@ -360,7 +360,7 @@ export default function WorkportReview() {
           <ol className="space-y-3">
             {[
               ["無料登録", "公式サイトからプロフィールを入力して登録します。完全無料で、登録後に担当コンシェルジュがつきます。"],
-              ["面談・ヒアリング", "希望条件・経歴・キャリアの方向性をすり合わせます。ここで連絡頻度やNG条件を明確に伝えるのが満足度の分かれ目です。"],
+              ["面談・ヒアリング", "希望条件・経歴・キャリアの方向性をすり合わせます。ここで連絡頻度やNG条件を明確に伝えるのが満足度を左右します。"],
               ["求人紹介・応募", "条件に合う求人を提案してもらい、応募先を絞り込みます。求人量が多いぶん、優先順位付けを意識しましょう。"],
               ["選考・面接対策", "書類添削・面接対策のサポートを受けつつ選考を進めます。専門的な対策はIT特化エージェントと併用するのも有効です。"],
               ["内定・条件交渉・入社", "内定後は年収・条件の交渉をコンシェルジュ経由で行い、入社日を調整します。"],
@@ -382,7 +382,7 @@ export default function WorkportReview() {
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed mb-4">
             <p><span className="font-bold">ワークポートが向くケース：</span>求人量を最大化したい、未経験・地方も含めて広く探したい、スピード重視で進めたい場合です。</p>
             <p><span className="font-bold">IT特化エージェントが向くケース：</span>技術的に深い選考対策、ハイクラス・高年収を軸に厳選したい場合です。</p>
-            <p><span className="font-bold">併用パターン：</span>ワークポートで母数を確保しつつ、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>や<Link href="/review/geekly/" className="text-petrol hover:underline">Geekly</Link>で専門的な提案・対策を受ける二刀流が、ミドル層には効率的です。</p>
+            <p><span className="font-bold">併用パターン：</span>ワークポートで母数を確保しつつ、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>や<Link href="/review/geekly/" className="text-petrol hover:underline">Geekly</Link>で専門的な提案・対策を受ける併用が、ミドル層には効率的です。</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[

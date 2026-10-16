@@ -36,16 +36,16 @@ const techStack = [
 ];
 
 const positions = [
-  { name: "プロダクト開発エンジニア", desc: "各プロダクトの設計・開発・運用。事業戦略と直結した技術貢献を担います。" },
-  { name: "プロダクト開発ディレクター", desc: "プロダクト開発の方向づけ・推進。中長期視点でのプロダクト育成。" },
-  { name: "データ", desc: "国内トップクラスのデータ資産を活用した分析・データサイエンス・MLです。" },
-  { name: "社内ICT・DX推進", desc: "社内システム・業務プロセスのデジタル化・DX推進。" },
+  { name: "プロダクト開発エンジニア", desc: "各プロダクトの設計・開発・運用を行い、事業戦略と直結した技術貢献を担います。" },
+  { name: "プロダクト開発ディレクター", desc: "プロダクト開発の方向づけ・推進を担い、中長期的な視点でプロダクトを育成します。" },
+  { name: "データ", desc: "国内トップクラスのデータ資産を活用した分析・データサイエンス・MLを担います。" },
+  { name: "社内ICT・DX推進", desc: "社内システム・業務プロセスのデジタル化とDXを推進します。" },
 ];
 
 const faqs = [
   {
     q: "リクルートのエンジニア転職難易度は？",
-    a: "大規模Webサービスの開発経験やデータ活用経験が問われ、難易度は高めとされます。テクノロジー職は複数言語の知識やシステム開発経験が求められる傾向です。ミッショングレード制で年次より職務価値が重視されるため、即戦力性を示せるかが鍵になります。",
+    a: "大規模Webサービスの開発経験やデータ活用経験が問われ、難易度は高めとされます。テクノロジー職は複数言語の知識やシステム開発経験が求められる傾向があります。ミッショングレード制で年次より職務価値が重視されるため、即戦力性を示せるかが鍵になります。",
   },
   {
     q: "リクルートのエンジニア年収はどのくらい？",
@@ -69,16 +69,16 @@ const faqs = [
   },
   {
     q: "リクルートへの転職で有利な経験は？",
-    a: "大規模Webサービスの設計・開発・運用経験、データ分析・ABテスト・ML活用経験、プロダクトマネジメント経験が有利です。TypeScript／Python／Go等の実務経験者が求められる傾向です。",
+    a: "大規模Webサービスの設計・開発・運用経験、データ分析・ABテスト・ML活用経験、プロダクトマネジメント経験が有利です。TypeScript／Python／Go等の実務経験者が求められる傾向があります。",
   },
   {
     q: "30代・40代でもリクルートに転職できる？",
-    a: "ミッショングレード制で年次より職務価値が重視されるため、大規模サービスやデータ領域の専門性を持つ30代・40代は評価されやすい傾向です。年間休日145日・リモート可など、家庭との両立を重視するミドルにとって働き方の条件は整っています。",
+    a: "ミッショングレード制で年次より職務価値が重視されるため、大規模サービスやデータ領域の専門性を持つ30代・40代は評価されやすい傾向があります。年間休日145日・リモート可など、家庭との両立を重視するミドルにとって働き方の条件は整っています。",
   },
 ];
 
 const toc = [
-  { id: "conclusion", label: "結論：難易度とどんな人向けか" },
+  { id: "conclusion", label: "難易度とどんな人向けか" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "hiring", label: "エンジニア採用の特徴" },
   { id: "positions", label: "募集職種（公式）" },
@@ -116,7 +116,7 @@ export default function RecruitCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リクルートの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 事業会社リクルート単独は非上場で有価証券報告書がなく、持株会社リクルートホールディングス（6098）の有価証券報告書（2025年3月期）で全社員平均年収1,145万円（平均年齢40.5歳）が公表されています。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>事業会社リクルート単独は非上場で有価証券報告書がなく、持株会社リクルートホールディングス（6098）の有価証券報告書（2025年3月期）で全社員平均年収1,145万円（平均年齢40.5歳）が公表されています。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・1,145万円は持株会社の全社員平均であり、エンジニア（テクノロジー職）に限定した値ではありません（2025年3月期 有価証券報告書）。</li><li>・ミッショングレード制で年次より職務価値に応じて報酬が決まるため、高い価値の職務を担うほど水準は上がります。</li><li>・エンジニア職に限った提示レンジは公式に統一公開されていないため、正確な提示額は公式求人・面談で確認が必要です。</li></ul>
         </div>
 
@@ -140,7 +140,7 @@ export default function RecruitCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：リクルートはこんなエンジニアに向く</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">リクルートに向いているエンジニア</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="font-bold text-blue-900 mb-2">転職難易度：高め（大規模サービス・データ活用の経験）</p>
             <p className="text-sm text-blue-900 leading-relaxed">
@@ -181,7 +181,7 @@ export default function RecruitCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミッショングレード制と充実した休日</h3>
-              <p className="text-sm text-petrol-deep">年次より職務価値で評価するミッショングレード制を採用します。年間休日145日（実質週休3日相当）、フレックス、リモート可と、働き方の条件が整っています。</p>
+              <p className="text-sm text-petrol-deep">年次より職務価値で評価するミッショングレード制を採用しています。年間休日145日（実質週休3日相当）、フレックス、リモート可と、働き方の条件が整っています。</p>
             </div>
           </div>
         </section>
@@ -275,8 +275,8 @@ export default function RecruitCompanyPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700 leading-relaxed space-y-3">
-            <p>ミッショングレード制で<strong>年次より職務価値が重視されるため、大規模サービスやデータ領域の専門性を持つ30代・40代は評価されやすい</strong>傾向です。社内に多様なプロダクトがあり、ドメインを変えながらキャリアを継続できる点もミドルの強みを活かしやすい要素です。</p>
-            <p>年間休日145日・フレックス・リモート可という働き方の条件は、家庭やライフプランを重視する層にとって大きな魅力です。一方で成果・自走への期待は高めなため、面談で配属チームの実態を確認しておくと安心です。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>も参考になります。</p>
+            <p>ミッショングレード制で<strong>年次より職務価値が重視されるため、大規模サービスやデータ領域の専門性を持つ30代・40代は評価されやすい</strong>傾向があります。社内に多様なプロダクトがあり、ドメインを変えながらキャリアを継続できる点もミドルの強みを活かしやすい要素です。</p>
+            <p>年間休日145日・フレックス・リモート可という働き方の条件は、家庭やライフプランを重視する層にとって重要な判断材料になります。一方で成果・自走への期待は高めであるため、面談で配属チームの実態を確認しておくと安心です。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>も参考になります。</p>
           </div>
         </section>
 
@@ -284,8 +284,8 @@ export default function RecruitCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">リクルート転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強いです。大手・メガベンチャーの非公開求人を保有していることがあります。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。職務価値の高いポジションのスカウトを受けやすいです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強みがあります。大手・メガベンチャーの非公開求人を保有していることがあります。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。職務価値の高いポジションのスカウトを受けやすくなります。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT・Webに特化しています。提案スピードが速く、実務経験者への提案が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

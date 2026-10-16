@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "CCNPは転職に効くか｜ネットワーク中級者の加点資格と年収【2026年】";
 const PAGE_DESC =
-  "CiscoのプロフェッショナルレベルCCNP（Cisco Certified Network Professional）を、ネットワーク経験者の加点資格という観点から30代・40代向けに解説します。受験料、コア＋コンセントレーション試験の構成、3年の有効期限、実務とセットで効く理由を留意点も含めて整理します。";
+  "CiscoのプロフェッショナルレベルCCNP（Cisco Certified Network Professional）を、ネットワーク経験者の加点資格という観点から30代・40代向けに解説します。受験料、コア＋コンセントレーション試験の構成、3年の有効期限、実務と組み合わせて評価される理由と留意点を整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/ccnp/" },
@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：CCNPは誰に効く資格か" },
+  { id: "conclusion", label: "CCNPはどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・有効期限）" },
   { id: "salary", label: "保有者の年収相場と注意点" },
   { id: "scenes", label: "転職で評価される具体場面" },
   { id: "jobs", label: "活きるポジション" },
   { id: "position", label: "CCNAとの違いと活用戦略" },
-  { id: "middle", label: "30代・40代の価値＝経験者の加点装置" },
+  { id: "middle", label: "30代・40代にとっての価値" },
   { id: "steps", label: "取得3ステップ／次に狙う資格" },
   { id: "faq", label: "よくある質問" },
 ];
@@ -29,7 +29,7 @@ const toc = [
 const faqs = [
   {
     q: "CCNPは40代の転職で意味がありますか？",
-    a: "意味があります。CCNPはCCNAのような入口資格ではなく、ネットワーク実務経験を前提とした『プロフェッショナルレベル』の加点資格です。すでにネットワーク構築・運用の経験がある30〜40代が、設計・上位運用へ役割を広げる土台として機能します。ただし資格単体で年収が跳ねるわけではなく、実機での構築・トラブルシュート経験との掛け算が前提です。",
+    a: "意味があります。CCNPはCCNAのような入口資格ではなく、ネットワーク実務経験を前提とした『プロフェッショナルレベル』の加点資格です。すでにネットワーク構築・運用の経験がある30〜40代が、設計・上位運用へ役割を広げる土台として機能します。ただし資格単体で年収が大きく上がるわけではなく、実機での構築・トラブルシュート経験と組み合わせることが前提です。",
   },
   {
     q: "CCNPの受験料はいくらですか？",
@@ -59,8 +59,8 @@ const overviewTable = [
   ["受験料", "コア400 USD＋コンセントレーション300 USD＝約700 USD（Enterprise例）"],
   ["構成", "コア試験1科目＋コンセントレーション試験1科目"],
   ["有効期限", "3年（再認定試験またはCEクレジットで更新）"],
-  ["前提資格", "CCNA保有は必須ではありません（ただし基礎知識・実務が前提）"],
-  ["合格率", "Cisco非公表（当サイトは創作しません）"],
+  ["前提資格", "CCNA保有は不要（ただし基礎知識・実務が前提）"],
+  ["合格率", "Cisco非公表（当サイトでは数値を創作せず）"],
 ];
 
 export default function CcnpCertPage() {
@@ -98,7 +98,7 @@ export default function CcnpCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          CCNP（Cisco Certified Network Professional）は、Cisco認定の中で<strong>アソシエイト（CCNA）の上位に位置するプロフェッショナルレベル</strong>のネットワーク資格です。本記事は「CCNPを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『ネットワーク経験者の加点資格』</strong>という性格を軸に、設計・上位運用への土台としての価値を、公式情報をもとに整理します。資格単体では年収は跳ねないという留意点もご説明します。
+          CCNP（Cisco Certified Network Professional）は、Cisco認定の中で<strong>アソシエイト（CCNA）の上位に位置するプロフェッショナルレベル</strong>のネットワーク資格です。本記事は「CCNPを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『ネットワーク経験者の加点資格』</strong>という性格を軸に、設計・上位運用への土台としての価値を、公式情報をもとに整理します。資格単体では年収が大きく上がるわけではないという留意点についてもご説明します。
         </p>
 
         <DataNote
@@ -125,14 +125,14 @@ export default function CcnpCertPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：CCNPは誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">CCNPはどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              CCNPは<strong>「ネットワーク経験者の加点資格」</strong>です。CCNAのような未経験入口資格とは性格が異なり、すでにネットワーク構築・運用の実務経験があるミドルが<strong>設計・上位運用へ役割を広げる土台</strong>として最も効きます。
+              CCNPは<strong>「ネットワーク経験者の加点資格」</strong>です。CCNAのような未経験入口資格とは性格が異なり、すでにネットワーク構築・運用の実務経験があるミドルが<strong>設計・上位運用へ役割を広げる土台</strong>として最も効果を発揮します。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>ネットワーク実務経験のある30〜40代</strong>：設計・上位運用への土台・専門性の証明として加点されます</li>
-              <li>② <strong>未経験のミドル</strong>：難度が高く入口には不向きです。まずCCNAで土台を作るべきです</li>
+              <li>② <strong>未経験のミドル</strong>：難度が高く入口には不向きです。まずCCNAで土台を作ることをおすすめします</li>
               <li>③ <strong>インフラ専門を深めたい人</strong>：SD-WAN・データセンター等の専門領域を体系化できます</li>
             </ul>
           </div>
@@ -166,13 +166,13 @@ export default function CcnpCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・CCNP保有者限定の公的年収統計は<strong>存在しません（当サイトでは推計値を作成していません）</strong></li>
+              <li>・CCNP保有者限定の公的年収統計は<strong>存在しない（当サイトでは推計値も未作成）</strong></li>
               <li>・年収を決めるのは<strong>設計・運用の実務経験と担当規模</strong></li>
               <li>・実態：<strong>CCNPは中級〜上位ネットワーク職の専門性を裏付ける補強材</strong></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: 公的な水準感は国税庁「民間給与実態統計調査」の給与所得者平均461万円（令和6年分）を参考にしてください。CCNP保有を条件にした正確な平均年収は公開データが乏しいため、当サイトでは断定を避け、実務経験との掛け算で評価することを推奨します。
+            出典: 公的な水準感は国税庁「民間給与実態統計調査」の給与所得者平均461万円（令和6年分）を参考にしてください。CCNP保有を条件にした正確な平均年収は公開データが乏しいため、当サイトでは断定を避け、実務経験とあわせて評価することを推奨します。
           </p>
         </section>
 
@@ -183,7 +183,7 @@ export default function CcnpCertPage() {
             {[
               { t: "設計・上位運用への配置転換", d: "ルーティング・スイッチング・SD-WANなどの中級〜上位知識を体系的に示し、設計担当への移行で加点されます。" },
               { t: "インフラ専門性の客観証明", d: "CCNAを超えるプロフェッショナルレベルの認定が、ネットワーク専門職としての深さを裏付けます。" },
-              { t: "資格手当・SIerの評価制度", d: "CiscoパートナーやSIerではCCNP保有を評価・手当の対象とする企業が多く、社内評価の根拠になりやすいです。" },
+              { t: "資格手当・SIerの評価制度", d: "CiscoパートナーやSIerではCCNP保有を評価・手当の対象とする企業が多く、社内評価の根拠になりやすい傾向があります。" },
               { t: "提案・上流案件への参画", d: "ネットワーク設計提案やマルチベンダー案件で、認定資格が信頼性の担保として働きます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -249,22 +249,22 @@ export default function CcnpCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>設計・上位運用への足がかり</strong>です。ルーティング・スイッチングの深い理解とSD-WANなどの専門知識を客観的に示せます。第二に<strong>トラック選択による専門化です</strong>。Enterprise／Security／Data Centerなどから自分の実務に合うコンセントレーションを選び、専門性を尖らせられます。第三に<strong>SIer・パートナーでの評価・手当です</strong>。Cisco製品を扱う現場ではCCNP保有が評価対象になりやすく、実利があります。
+            活用戦略は3つに整理できます。第一に<strong>設計・上位運用への足がかり</strong>です。ルーティング・スイッチングの深い理解とSD-WANなどの専門知識を客観的に示せます。第二に<strong>トラック選択による専門化</strong>です。Enterprise／Security／Data Centerなどから自分の実務に合うコンセントレーションを選び、専門性を深められます。第三に<strong>SIer・パートナーでの評価・手当</strong>です。Cisco製品を扱う現場ではCCNP保有が評価対象になりやすく、実利があります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。CCNPは<strong>取得しても単体で年収が跳ねる資格ではありません</strong>。あくまで実機での構築・トラブルシュート経験を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また有効期限が3年であり、更新を怠ると失効します。逆に言えば、すでにネットワーク現場経験があり設計・上位運用を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>で土台を固めてから臨むのが堅実です。
+            注意すべきデメリットも押さえておきましょう。CCNPは<strong>取得しても単体で年収が大きく上がる資格ではありません</strong>。あくまで実機での構築・トラブルシュート経験を補強する位置づけであり、効果が出るのは実務経験と資格が組み合わさったときです。また有効期限が3年であり、更新を怠ると失効します。逆に言えば、すでにネットワーク現場経験があり設計・上位運用を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>で土台を固めてから臨むのが堅実です。
           </p>
         </section>
 
         {/* 30-40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝経験者の加点装置</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代にとっての価値</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              CCNPは、CCNAのような<strong>未経験の入口資格とは立ち位置が逆</strong>です。CCNAが「ネットワーク職に入るための入口」なのに対し、CCNPは<strong>「すでに現場にいる経験者が、設計・上位運用へ役割を上げるための加点装置」</strong>として最も効きます。ネットワーク実務経験のある30〜40代にとって、これは時間を投資する価値のある資格です。
+              CCNPは、CCNAのような<strong>未経験の入口資格とは位置づけが異なります</strong>。CCNAが「ネットワーク職に入るための入口」なのに対し、CCNPは<strong>すでに現場にいる経験者が設計・上位運用へ役割を広げるための加点資格</strong>として最も効果を発揮します。ネットワーク実務経験のある30〜40代にとって、これは時間を投資する価値のある資格です。
             </p>
             <p>
-              一方で過度な期待は禁物です。CCNPを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。実機での構築・運用・トラブルシュート経験と組み合わせて初めて、設計ポジションや資格手当という形で結実します。さらに有効期限が3年である点も、転職や更新のタイミングと合わせて計画的に管理する必要があります。
+              一方で過度な期待は禁物です。CCNPを取っても、それ単体で年収が大きく上がるわけではありません。価値が生まれるのは<strong>実務経験と資格を組み合わせたとき</strong>です。実機での構築・運用・トラブルシュート経験と組み合わせて初めて、設計ポジションや資格手当という形で評価につながります。さらに有効期限が3年である点も、転職や更新のタイミングと合わせて計画的に管理する必要があります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -277,9 +277,9 @@ export default function CcnpCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "トラックとコンセントレーションを選びます", d: "Enterprise／Security／Data Centerなどから自分の実務に合うトラックと専門科目を決めます。" },
-              { n: "STEP 2", t: "コア試験を実機演習で固めます", d: "コア試験は範囲が広いです。ルーティング・スイッチング・自動化を実機・シミュレータで反復します。" },
-              { n: "STEP 3", t: "コンセントレーションで専門化→3年更新を計画", d: "専門科目に合格してCCNP認定です。有効期限3年を見据え、再認定やCEクレジットの計画も立てます。" },
+              { n: "STEP 1", t: "トラックとコンセントレーションを選ぶ", d: "Enterprise／Security／Data Centerなどから自分の実務に合うトラックと専門科目を決めます。" },
+              { n: "STEP 2", t: "コア試験を実機演習で固める", d: "コア試験は範囲が広い点が特徴です。ルーティング・スイッチング・自動化を実機・シミュレータで反復します。" },
+              { n: "STEP 3", t: "コンセントレーションで専門化し3年更新を計画", d: "専門科目に合格するとCCNP認定となります。有効期限3年を見据え、再認定やCEクレジットの計画も立てます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

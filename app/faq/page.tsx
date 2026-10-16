@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/faq/" },
   title: "30代・40代エンジニア転職のよくある質問15選｜年代・年収・進め方",
   description:
-    "30代・40代ITエンジニアの転職に関するよくある質問を、年代別・エージェント選び・年収・進め方の4カテゴリで解説。出典付きデータと各テーマの詳細ガイドへのリンク付き。最終更新2026年6月。",
+    "30代・40代ITエンジニアの転職に関するよくある質問を、年代別・エージェント選び・年収・進め方の4カテゴリに分けて解説します。出典を明記したデータと、各テーマの詳細ガイドへのリンクも掲載しています。最終更新2026年6月。",
 };
 
 type Faq = {
@@ -115,7 +115,7 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         text: "口コミプラットフォーム（Qiita Job Change・みん評等）では、連絡頻度が高い、希望と異なる求人を提案された、経験が浅いと紹介されにくい、といった声が見られます。連絡方法と頻度は初回面談で希望を伝えれば調整可能なことが多く、合わないと感じたら退会も自由です。",
         body: (
           <>
-            口コミプラットフォーム（Qiita Job Change・みん評等）では、連絡頻度が高い、希望と異なる求人を提案された、といった声が見られます。連絡頻度は初回面談で調整できることが多いです。
+            口コミプラットフォーム（Qiita Job Change・みん評等）では、連絡頻度が高い、希望と異なる求人を提案された、といった声が見られます。連絡頻度は初回面談で調整できる場合が多くあります。
             <Link href="/knowledge/agent-rejection/" className="text-petrol hover:underline">紹介を断られたときの対処</Link>
             や
             <Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">初回面談で聞かれること</Link>
@@ -181,7 +181,7 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
       },
       {
         q: "年収交渉はエージェントに任せて大丈夫ですか？",
-        text: "年収交渉はエージェント利用の大きなメリットの一つです。希望年収や現年収を正確に伝えておくことで、提示額の調整を代行してもらえます。ただし根拠となる実績の整理は本人が行う必要があります。市場価値を把握したうえで現実的な希望額を設定することが交渉成功の鍵です。",
+        text: "年収交渉はエージェント利用の大きなメリットの一つです。希望年収や現年収を正確に伝えておくことで、提示額の調整を代行してもらえます。ただし根拠となる実績の整理は本人が行う必要があります。市場価値を把握したうえで現実的な希望額を設定することが、交渉を成功させるうえで重要です。",
         body: (
           <>
             年収交渉はエージェント利用の大きなメリットの一つです。根拠となる実績の整理は本人が行う必要があります。具体的な進め方は
@@ -229,7 +229,7 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         text: "エンジニアの職務経歴書では、担当工程・使用技術・チーム規模・役割・成果を具体的に記載することが重要です。「何を」「どの規模で」「どんな技術で」「どう貢献したか」を定量的に書くと、技術に詳しいアドバイザーや採用担当に伝わりやすくなります。",
         body: (
           <>
-            担当工程・使用技術・チーム規模・役割・成果を具体的・定量的に書くことが重要です。記入見本付きの解説は
+            担当工程・使用技術・チーム規模・役割・成果を具体的・定量的に書くことが重要です。記入見本を掲載した解説は
             <Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書の書き方</Link>
             をご覧ください。
           </>
@@ -278,10 +278,10 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
       },
       {
         q: "製造業や金融業からITエンジニアへ転職できますか？",
-        text: "可能で、近年はむしろ「業界知識×ITスキル」の掛け算人材として評価される傾向にあります。製造業出身者はIoTや製造DX、金融業出身者はフィンテック領域で重宝されます。プログラミングの基礎習得は必要ですが、業界知識は大きな差別化要素になります。",
+        text: "可能です。近年はむしろ「業界知識×ITスキル」を併せ持つ人材として評価される傾向にあります。製造業出身者はIoTや製造DX、金融業出身者はフィンテック領域で重宝されます。プログラミングの基礎習得は必要ですが、業界知識は大きな差別化要素になります。",
         body: (
           <>
-            「業界知識×ITスキル」の掛け算人材として評価される傾向にあります。業界別の進め方は
+            「業界知識×ITスキル」を併せ持つ人材として評価される傾向にあります。業界別の進め方は
             <Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業からのIT転職</Link>
             や
             <Link href="/industry/finance/" className="text-petrol hover:underline">金融業からのIT転職</Link>
@@ -310,7 +310,7 @@ export default function FaqPage() {
     <>
       <ArticleJsonLd
         title="30代・40代エンジニア転職のよくある質問15選｜年代・年収・進め方"
-        description="30代・40代ITエンジニアの転職に関するよくある質問を、年代別・エージェント選び・年収・進め方の4カテゴリで解説。出典付きデータと各テーマの詳細ガイドへのリンク付き。"
+        description="30代・40代ITエンジニアの転職に関するよくある質問を、年代別・エージェント選び・年収・進め方の4カテゴリに分けて解説します。出典を明記したデータと、各テーマの詳細ガイドへのリンクも掲載しています。"
         url="/faq/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -399,7 +399,7 @@ export default function FaqPage() {
         </section>
 
         <div className="mt-12 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-3">まずはエージェントに相談してみよう</h2>
+          <h2 className="text-xl font-bold mb-3">転職の悩みはエージェントへの相談から</h2>
           <p className="text-blue-100 text-sm mb-4">
             転職の悩みは、IT業界に詳しいキャリアアドバイザーに相談するのが効率的です。
             求職者は無料で利用できます。

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：フィンテック転職は現実的か" },
+  { id: "conclusion", label: "フィンテック転職は現実的か" },
   { id: "overview", label: "フィンテック業界の概要" },
   { id: "trend", label: "技術トレンドと採用動向" },
   { id: "skills", label: "求められる技術・スキル" },
@@ -29,26 +29,26 @@ const toc = [
 ];
 
 const skills = [
-  ["バックエンド開発（Java/Kotlin/Go/Python）", "中核スキル", "決済・口座・取引などミッションクリティカルな処理を担う中心言語。求人で問われやすい"],
+  ["バックエンド開発（Java/Kotlin/Go/Python）", "中核スキル", "決済・口座・取引などミッションクリティカルな処理を担う中心言語です。求人で問われやすい傾向があります"],
   ["API設計・マイクロサービス", "中核スキル", "オープンAPI連携や外部金融機関との接続が多く、堅牢なAPI設計力が重視されます"],
-  ["クラウド（AWS/GCP）・コンテナ", "中核スキル", "可用性とスケーラビリティが前提のため、インフラ・SRE的素養が評価されやすいです"],
-  ["セキュリティ・認証（OAuth/OIDC・暗号）", "差別化要素", "金融データを扱う以上、セキュア設計の知見は強い強みになります"],
-  ["金融ドメイン知識（資金決済法・割販法など）", "差別化要素", "規制を踏まえた要件定義ができる人材は希少で、社内に不足しがち"],
+  ["クラウド（AWS/GCP）・コンテナ", "中核スキル", "可用性とスケーラビリティが前提のため、インフラ・SRE的素養が評価されやすい傾向があります"],
+  ["セキュリティ・認証（OAuth/OIDC・暗号）", "差別化要素", "金融データを扱う以上、セキュア設計の知見は大きな強みになります"],
+  ["金融ドメイン知識（資金決済法・割販法など）", "差別化要素", "規制を踏まえた要件定義ができる人材は希少で、社内に不足しがちです"],
   ["データ分析・ML（与信・不正検知）", "差別化要素", "SQL/Pythonでの与信モデルや不正検知はプロダクト価値に直結します"],
 ];
 
 const routes = [
-  ["バックエンドエンジニア", "決済・融資・資産運用SaaS", "API・トランザクション処理の堅牢性を担う中核。Web系経験者の代表的なルート"],
-  ["SRE・インフラエンジニア", "決済基盤・取引基盤", "高可用性が前提の領域。クラウド・監視・セキュリティ運用の経験が活きる"],
-  ["データ／MLエンジニア", "与信・不正検知・スコアリング", "SQL・Pythonでのモデル開発。データ分析経験者に向く"],
-  ["金融DX・社内SE／PM", "メガバンク・地銀・生損保のDX部門", "レガシー刷新やクラウド移行のPM。大規模PJ経験が活きる"],
+  ["バックエンドエンジニア", "決済・融資・資産運用SaaS", "API・トランザクション処理の堅牢性を担う中核的な職種で、Web系経験者の代表的なルートです"],
+  ["SRE・インフラエンジニア", "決済基盤・取引基盤", "高可用性が前提の領域です。クラウド・監視・セキュリティ運用の経験が活きます"],
+  ["データ／MLエンジニア", "与信・不正検知・スコアリング", "SQL・Pythonでモデルを開発します。データ分析経験者に向いています"],
+  ["金融DX・社内SE／PM", "メガバンク・地銀・生損保のDX部門", "レガシー刷新やクラウド移行のPMを担います。大規模PJの経験が活きます"],
 ];
 
 const companyTypes = [
-  ["フィンテックスタートアップ・上場企業", "決済・BNPL・家計簿・資産運用・法人向けSaaSなどの自社プロダクト。モダンな技術と裁量が魅力。マネーフォワード、freee、Plaid、LayerXなどが代表例", "スピード感・少人数開発に適応できる人"],
-  ["決済・QRコード決済事業者", "コード決済や送金などのインフラ。トランザクション量が多く、可用性とスケーラビリティの設計力が問われます。PayPayなどが代表例", "高トラフィックの基盤開発に関心がある人"],
-  ["ネット銀行・ネット証券・SBI系", "口座・取引・資産運用システム。金融商品取引法などの規制対応とシステム両面が求められます。SBIグループなどが代表例", "金融商品の知識を活かしたい人"],
-  ["カード・決済ネットワーク", "クレジットカードの審査・決済・与信。大規模かつミッションクリティカル。JCBなどが代表例", "ミッションクリティカルな品質を志向する人"],
+  ["フィンテックスタートアップ・上場企業", "決済・BNPL・家計簿・資産運用・法人向けSaaSなどの自社プロダクトを開発します。モダンな技術を扱えることと裁量の大きさが特徴です。マネーフォワード、freee、Plaid、LayerXなどが代表例です", "スピード感・少人数開発に適応できる人"],
+  ["決済・QRコード決済事業者", "コード決済や送金などのインフラを担います。トランザクション量が多く、可用性とスケーラビリティの設計力が問われます。PayPayなどが代表例です", "高トラフィックの基盤開発に関心がある人"],
+  ["ネット銀行・ネット証券・SBI系", "口座・取引・資産運用システムを扱います。金融商品取引法などの規制対応とシステムの両面が求められます。SBIグループなどが代表例です", "金融商品の知識を活かしたい人"],
+  ["カード・決済ネットワーク", "クレジットカードの審査・決済・与信を担います。大規模かつミッションクリティカルなシステムです。JCBなどが代表例です", "ミッションクリティカルな品質を志向する人"],
 ];
 
 const faqs = [
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "フィンテックではどんな技術が求められますか？",
-    a: "求人傾向としてはバックエンド（Java/Kotlin/Go/Python）、API設計、クラウド（AWS/GCP）、セキュリティが基本になりやすいです。データ分析（SQL/Python）やML（与信・不正検知）の知識があると差別化につながります。具体的な要件は企業ごとに異なるため、求人票で確認してください。",
+    a: "求人傾向としてはバックエンド（Java/Kotlin/Go/Python）、API設計、クラウド（AWS/GCP）、セキュリティが基本になりやすい傾向があります。データ分析（SQL/Python）やML（与信・不正検知）の知識があると差別化につながります。具体的な要件は企業ごとに異なるため、求人票で確認してください。",
   },
   {
     q: "暗号資産・ブロックチェーン領域もフィンテックに含まれますか？",
@@ -125,7 +125,7 @@ export default function FintechPage() {
           最終更新: 2026年6月 | 決済・融資・資産運用・暗号資産領域で技術を活かす方法
         </p>
         <p className="text-slate-600 leading-relaxed mb-4">
-          フィンテックは、金融（Finance）とテクノロジー（Technology）を掛け合わせた領域で、キャッシュレス決済、オンライン融資、資産運用、家計管理、法人向けバックオフィスSaaSなど、幅広いサービスを含みます。スマートフォン決済やオープンAPIの普及を背景に、金融とITの境界は溶けつつあり、エンジニアの活躍の場が広がっています。本記事では、エンジニアがフィンテック業界へ転職する現実的な道筋を、求められる技術・スキル・参入ルート・年収傾向の観点から、公開データと公的統計をもとに整理します。
+          フィンテックは、金融（Finance）とテクノロジー（Technology）を掛け合わせた領域で、キャッシュレス決済、オンライン融資、資産運用、家計管理、法人向けバックオフィスSaaSなど、幅広いサービスを含みます。スマートフォン決済やオープンAPIの普及を背景に、金融とITの領域が重なりつつあり、エンジニアの活躍の場が広がっています。本記事では、エンジニアがフィンテック業界へ転職する現実的な道筋を、求められる技術・スキル・参入ルート・年収傾向の観点から、公開データと公的統計をもとに整理します。
         </p>
 
         <DataNote
@@ -153,20 +153,20 @@ export default function FintechPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：フィンテック転職は現実的か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">フィンテック転職は現実的か</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <span className="font-bold text-blue-800">結論：Web系・バックエンドの経験者にとって、フィンテック転職は十分現実的です。</span>
+              <span className="font-bold text-blue-800">Web系・バックエンドの経験者にとって、フィンテック転職は十分現実的です。</span>
               使う技術スタックがWeb開発と重なる一方、決済・口座といった領域では堅牢性やセキュリティがより厳しく問われます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・バックエンド・API・クラウドの実務経験はそのまま活かしやすいです</li>
+              <li>・バックエンド・API・クラウドの実務経験はそのまま活かしやすくなります</li>
               <li>・トランザクション整合性とセキュア設計を意識できると評価が上がります</li>
               <li>・金融ドメイン知識や規制対応の経験は希少価値が高く差別化になります</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            まずは「決済・融資・資産運用・法人SaaS」のどの領域で自分の経験が活きるかを見極め、不足する技術や知識を補う計画を立てるのが近道です。
+            まずは「決済・融資・資産運用・法人SaaS」のどの領域で自分の経験が活きるかを見極め、不足する技術や知識を補う計画を立てると、効率よく準備を進められます。
           </p>
         </section>
 
@@ -218,7 +218,7 @@ export default function FintechPage() {
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という追い風</h3>
+              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という背景</h3>
               <p className="text-sm text-slate-600">
                 経済産業省「IT人材需給に関する調査」（2019年公表）では、2030年に最大約79万人のIT人材不足が試算されています（2019年公表の試算）。金融×ITのように専門性を掛け合わせられる人材は、こうした需給環境のなかで相対的に動きやすい立場にあります。
               </p>
@@ -250,7 +250,7 @@ export default function FintechPage() {
             </table>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            ポイントは「中核スキル（バックエンド・API・クラウド）で土俵に立ち、差別化要素（セキュリティ・規制知識・ML）で抜きん出る」という見せ方です。職務経歴書では、扱ったデータの重要度や可用性要件、セキュリティ対応の実績を具体化すると説得力が増します。関連スキルは
+            ポイントは「中核スキル（バックエンド・API・クラウド）で土俵に立ち、差別化要素（セキュリティ・規制知識・ML）で他の候補者と差をつける」という見せ方です。職務経歴書では、扱ったデータの重要度や可用性要件、セキュリティ対応の実績を具体化すると説得力が増します。関連スキルは
             <Link href="/skill/security/" className="text-petrol hover:underline">セキュリティ</Link>・
             <Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>・
             <Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>
@@ -379,7 +379,7 @@ export default function FintechPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">30代：技術の深さと幅を作る</h3>
+              <h3 className="font-bold text-blue-800 mb-2">30代：技術の深さと幅を広げる</h3>
               <p className="text-sm text-petrol-deep">
                 バックエンドやインフラの実装力を磨きつつ、セキュリティや金融ドメインに踏み込めると、純粋なWebエンジニアにも代えがたい価値になります。技術への投資効果が最も高い年代です。
                 <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職事情</Link>
@@ -395,7 +395,7 @@ export default function FintechPage() {
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
+              <h3 className="font-bold text-blue-800 mb-2">ミドル層は「希少性」で差別化する</h3>
               <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新技術だけを競うのではなく、金融×ITという希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
@@ -413,9 +413,9 @@ export default function FintechPage() {
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や管理職ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。フィンテックから事業会社まで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあるため、ミドル層は経歴を丁寧に伝えることが大切です。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人や管理職ポジションを狙う際の選択肢になります。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数を持つサービスです。フィンテックから事業会社まで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -443,7 +443,7 @@ export default function FintechPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">ご自身の技術をフィンテックで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">ご自身の技術をフィンテックで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>

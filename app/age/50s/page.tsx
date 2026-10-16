@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：50代は「下がる」より「分散が大きい」" },
+  { id: "conclusion", label: "50代は「下がる」より「分散が大きい」" },
   { id: "salary", label: "50代エンジニアの年収データ（doda・JAC）" },
   { id: "dispersion", label: "役職・企業による年収の大きな分散" },
-  { id: "gap", label: "IT人材の需給ギャップが50代に追い風" },
+  { id: "gap", label: "IT人材の需給ギャップと50代の需要" },
   { id: "value", label: "50代に求められる『実力主義』の価値" },
   { id: "law", label: "年齢制限は原則禁止（法律の根拠）" },
   { id: "process", label: "50代の転職を成功させる進め方" },
@@ -47,11 +47,11 @@ const faqs = [
   },
   {
     q: "50代でも転職先はありますか？",
-    a: "あります。経済産業省・みずほ情報総研の試算（2019年3月公表）では、2030年にIT人材が中位シナリオで約45万人不足、先端IT人材は約55万人不足とされ、従来型ITが約10万人余剰となる一方で先端分野の不足が際立ちます。経験豊富な50代に対する需要は、特に基幹システム・ERP刷新の主導や、若手育成・技術伝承といった領域で根強く存在します。需給ギャップが50代の経験者にとって追い風になっています。",
+    a: "あります。経済産業省・みずほ情報総研の試算（2019年3月公表）では、2030年にIT人材が中位シナリオで約45万人不足、先端IT人材は約55万人不足とされ、従来型ITが約10万人余剰となる一方で先端分野の不足が際立ちます。経験豊富な50代に対する需要は、特に基幹システム・ERP刷新の主導や、若手育成・技術伝承といった領域で根強く存在します。需給ギャップは、50代の経験者にとって有利な要因となっています。",
   },
   {
     q: "50代エンジニアに企業は何を求めますか？",
-    a: "実務力に加えて、マネジメント力と経営視点の掛け算が求められます。具体的には、ERP・基幹システムの刷新を主導する力、プロジェクト全体を統括する力、若手への技術伝承・育成、そして技術を経営課題と結びつける視点です。単なる手を動かすプレイヤーではなく、組織の成果と次世代の育成に責任を持てる人材として評価されます。",
+    a: "実務力に加えて、マネジメント力と経営視点を掛け合わせた力が求められます。具体的には、ERP・基幹システムの刷新を主導する力、プロジェクト全体を統括する力、若手への技術伝承・育成、そして技術を経営課題と結びつける視点です。単なる手を動かすプレイヤーではなく、組織の成果と次世代の育成に責任を持てる人材として評価されます。",
   },
   {
     q: "50代と40代で、転職の進め方はどう違いますか？",
@@ -81,7 +81,7 @@ export default function Age50sPage() {
   return (
     <>
       <ArticleJsonLd
-        title="50代エンジニアの転職｜需給ギャップと役職別年収の分散を読みます"
+        title="50代エンジニアの転職｜需給ギャップと役職別年収の分散を読む"
         description="50代エンジニアの転職を、doda年代別平均年収やJAC登録者の役職別年収、経産省のIT人材需給ギャップ試算で読み解きます。50代固有の進め方を解説します。"
         url="/age/50s/"
       />
@@ -106,7 +106,7 @@ export default function Age50sPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          50代エンジニアの転職には、「年収が下がる」「求人が少ない」といった悲観論がつきまといます。しかし実際のデータを見ると、その印象は単純すぎます。50代の実像は「一律に下がる」のではなく、<strong>役職・企業によって年収の分散が極めて大きい</strong>という点にあります。本記事では、doda・JAC・経済産業省のデータをもとに、50代固有の進め方を読み解きます。
+          50代エンジニアの転職には、「年収が下がる」「求人が少ない」といった悲観論がつきまといます。しかし実際のデータを見ると、その印象は実態を単純化しすぎています。50代の実像は「一律に下がる」のではなく、<strong>役職・企業によって年収の分散が極めて大きい</strong>という点にあります。本記事では、doda・JAC・経済産業省のデータをもとに、50代固有の進め方を読み解きます。
         </p>
 
         <DataNote
@@ -119,17 +119,17 @@ export default function Age50sPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：50代は「下がる」のではなく「分散が大きい」</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">50代は「下がる」のではなく「分散が大きい」</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               dodaの集計では50代以上IT通信エンジニアの平均年収は711万円で、40代の652万円より高い結果です。「50代は下がる」という言説は定性的な印象に過ぎず、実態は<strong>役職・企業による分散が非常に大きい</strong>ことです。JAC登録者では課長未満971万円に対し本部長以上は1,372.1万円と、ポジションで数百万円の差が生じます。50代の戦略は「下がるのを恐れる」のではなく「分散の上側に自分を位置づける」ことにあります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>50代以上IT通信エンジニア平均711万円です（doda）。40代652万円より高いです。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>役職で大きく分散：JAC登録者で課長未満971万〜本部長以上1,372.1万です（実績値）。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2030年に先端IT人材 約55万人不足の試算（経産省）で、経験者需要は根強いです。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>50代以上IT通信エンジニアの平均は711万円で（doda）、40代の652万円を上回っています。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>JAC登録者の実績値では、課長未満971万円から本部長以上1,372.1万円まで、役職によって大きな差があります。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>経産省の試算では2030年に先端IT人材が約55万人不足するとされ、経験者の需要は根強い状況です。</li>
             </ul>
           </div>
         </section>
@@ -176,7 +176,7 @@ export default function Age50sPage() {
         <section id="dispersion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">役職・企業による年収の大きな分散</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            50代の年収を理解する鍵は「平均」ではなく「分散」です。JAC登録者（ハイクラス層の実績値）の内訳を見ると、役職と企業区分によって年収が大きく開いていることが分かります。
+            50代の年収を理解するうえで重要なのは、「平均」ではなく「分散」です。JAC登録者（ハイクラス層の実績値）の内訳を見ると、役職と企業区分によって年収が大きく開いていることが分かります。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -194,7 +194,7 @@ export default function Age50sPage() {
             出典: JAC登録者 50代ITエンジニアの年収実績値（市場平均より高い母集団の実績値）。役職区分・企業区分による内訳です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            課長未満971万円に対し、部長以上1,317.5万円、本部長以上1,372.1万円——役職が上がるごとに数百万円単位で年収が増えます。また日系1,359.2万円と外資976.4万円のように、企業区分でも差が出ます。これが50代の本質です。<strong>「50代だから下がる／上がる」ではなく、「どの役職レンジ・どの企業区分に自分を位置づけられるか」で年収が決まる</strong>のです。50代の転職戦略は、この分散の上側を狙うことに尽きます。
+            課長未満971万円に対し、部長以上1,317.5万円、本部長以上1,372.1万円と、役職が上がるごとに数百万円単位で年収が増えます。また日系1,359.2万円と外資976.4万円のように、企業区分でも差が出ます。これが50代の年収の特徴です。<strong>「50代だから下がる／上がる」ではなく、「どの役職レンジ・どの企業区分に自分を位置づけられるか」で年収が決まります</strong>。50代の転職戦略は、この分散の上側を狙うことが基本になります。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mt-5">
             <p className="text-sm text-slate-600 leading-relaxed">
@@ -205,7 +205,7 @@ export default function Age50sPage() {
 
         {/* 需給ギャップ */}
         <section id="gap" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">IT人材の需給ギャップが50代に追い風</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">IT人材の需給ギャップと50代の需要</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
             50代の転職市場を支える構造的な要因が、IT人材の需給ギャップです。経済産業省・みずほ情報総研の試算（2019年3月公表）が、その規模を示しています。
           </p>
@@ -224,7 +224,7 @@ export default function Age50sPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed">
-            注意したいのは、不足するのは<strong>先端IT人材</strong>であり、従来型ITは約10万人の余剰が見込まれる点です。つまり50代がこの追い風を受けるには、過去の経験に安住せず、需要のある領域（クラウド・データ・セキュリティ・基幹刷新など）に経験を接続することが鍵になります。経験豊富な50代が先端領域でも価値を出せれば、需給ギャップは強力な追い風になります。
+            注意したいのは、不足するのは<strong>先端IT人材</strong>であり、従来型ITは約10万人の余剰が見込まれる点です。つまり50代がこの需要を活かすには、過去の経験に安住せず、需要のある領域（クラウド・データ・セキュリティ・基幹刷新など）に経験を接続することが重要です。経験豊富な50代が先端領域でも価値を出せれば、需給ギャップは有利な要因になります。
           </p>
         </section>
 
@@ -232,12 +232,12 @@ export default function Age50sPage() {
         <section id="value" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">50代に求められる「実力主義」の価値</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            50代の採用は、年功ではなく実力で評価される世界です。企業が50代に期待するのは、次の掛け算ができる人材です。
+            50代の採用は、年功ではなく実力で評価される世界です。企業が50代に期待するのは、次の要素を掛け合わせられる人材です。
           </p>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">実務 × マネジメント × 経営視点</h3>
-              <p className="text-sm text-petrol-deep">手を動かす実務力、チーム・プロジェクトを統括するマネジメント力、技術を経営課題に結びつける視点です。この3つの掛け算が、50代の市場価値を決めます。</p>
+              <p className="text-sm text-petrol-deep">手を動かす実務力、チーム・プロジェクトを統括するマネジメント力、技術を経営課題に結びつける視点です。この3つの掛け合わせが、50代の市場価値を決めます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ERP・基幹システム刷新の主導</h3>
@@ -262,7 +262,7 @@ export default function Age50sPage() {
             </p>
           </div>
           <p className="text-slate-600 leading-relaxed">
-            50代でも、経験・スキル・マネジメント力という「要件」を満たしているなら、年齢を理由に応募をためらう必要はありません。むしろ需給ギャップと実力主義が進むなか、50代の経験を求める企業は確実に存在します。法律という後ろ盾も踏まえ、自信を持って臨んでよい領域です。
+            50代でも、経験・スキル・マネジメント力という「要件」を満たしているなら、年齢を理由に応募をためらう必要はありません。むしろ需給ギャップと実力主義が進むなか、50代の経験を求める企業は存在します。法律上の規定も踏まえ、自信を持って転職活動に臨むことをおすすめします。
           </p>
         </section>
 
@@ -276,7 +276,7 @@ export default function Age50sPage() {
             {[
               { num: "1", title: "自分が評価される役職レンジを見極める", desc: "課長未満・部長以上・本部長以上で年収が数百万円変わる世界です。これまでの役職・統括規模から、自分がどのレンジで評価されるかを冷静に把握し、その層のポジションに狙いを定めます。" },
               { num: "2", title: "経験を先端領域に接続する", desc: "需給ギャップで不足するのは先端IT人材です。過去の経験を、クラウド・データ・セキュリティ・基幹刷新など需要のある領域にどう接続できるかを言語化します。「従来型のまま」では余剰側に分類されかねません。" },
-              { num: "3", title: "実務×マネジメント×経営視点を実績で示す", desc: "3つの掛け算を、具体的な実績（統括規模・改善数値・育成実績・経営貢献）で語れるよう棚卸しします。50代は実力主義で評価されるため、抽象的な肩書きより具体的な成果が効きます。" },
+              { num: "3", title: "実務×マネジメント×経営視点を実績で示す", desc: "3つの要素を、具体的な実績（統括規模・改善数値・育成実績・経営貢献）で語れるよう棚卸しします。50代は実力主義で評価されるため、抽象的な肩書きより具体的な成果が評価されます。" },
               { num: "4", title: "ハイクラス・IT特化エージェントを活用する", desc: "50代の経験を高く評価するポジションは、ハイクラス・IT特化のエージェントに集まりやすい傾向があります。複数を併用し、役職レンジに合う求人を引き出します。" },
               { num: "5", title: "雇用形態の選択肢も含めて比較する", desc: "正社員だけでなく、業務委託（フリーランス）も視野に入る年代です。社会保険・税・年金・案件リスクを踏まえ、手取りと保障の合計で比較して判断します。" },
             ].map((s, i) => (
@@ -312,9 +312,9 @@ export default function Age50sPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">50代は「分散の上側」を狙おう</h2>
+          <h2 className="text-xl font-bold mb-3">50代は「分散の上側」を目指す転職を</h2>
           <p className="text-blue-100 text-sm mb-4">
-            役職・企業で年収が数百万円変わる50代です。ご自身の経験を高く評価する企業を見つけるには、ハイクラス・IT特化のエージェント活用が近道です。
+            役職・企業で年収が数百万円変わる50代です。ご自身の経験を高く評価する企業を見つけるには、ハイクラス・IT特化のエージェントの活用が有効です。
           </p>
           <Link href="/compare/highclass/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             ハイクラス向けエージェント比較を見る

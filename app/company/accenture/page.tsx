@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんな人向きか" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "tech", label: "採用領域・技術スタック" },
@@ -43,7 +43,7 @@ const features = [
   },
   {
     h: "テクノロジー部門を独立した職種群として募集",
-    p: "公式採用ページでは、テクノロジー／ソフトウェアエンジニアリング／クラウド／AI・データサイエンス／SAP／Salesforce／セキュリティ／フロントエンジニアなどを明確に職種領域として整理します。エンジニア職は戦略コンサル職とは別フローで募集されます。",
+    p: "公式採用ページでは、テクノロジー／ソフトウェアエンジニアリング／クラウド／AI・データサイエンス／SAP／Salesforce／セキュリティ／フロントエンジニアなどを明確に職種領域として整理しています。エンジニア職は戦略コンサル職とは別フローで募集されます。",
   },
   {
     h: "グローバル規模の研修・キャリアパス",
@@ -61,35 +61,35 @@ const flow = [
 
 const faqs = [
   {
-    q: "アクセンチュアのエンジニア面接にケース面接はある？",
+    q: "アクセンチュアのエンジニア面接にケース面接はありますか？",
     a: "公式採用ブログ・転職メディアによると、ケース面接の有無は職種に依存します。戦略コンサル系ではケース面接が実施される一方、エンジニア職（ソリューション・ネットワーク・SAP等）では実施されないケースが多いとされています。出典：アクセンチュア公式採用ブログ、tenshoku-base等の転職メディア。",
   },
   {
-    q: "アクセンチュアの平均年収はいくら？",
+    q: "アクセンチュアの平均年収はいくらですか？",
     a: "日本法人は非上場で有価証券報告書がないため、公的な全社員平均年収は確認できません。口コミプラットフォーム集計値では平均年収が高水準とされますが、これは出典・対象が異なる参考値です。実際の提示額はオファー面談で示される職位別の年俸で確認するのが確実です。",
   },
   {
-    q: "選考フローはどうなっている？",
+    q: "選考フローはどのようになっていますか？",
     a: "公式採用情報・転職メディアによると、Web応募→書類選考→面接2〜3回→オファー面談→入社という流れが一般的です。最終面接後、1週間程度でオファー連絡が来ることが多いとされています。",
   },
   {
-    q: "テクノロジー部門とは？",
+    q: "テクノロジー部門とはどのような部門ですか？",
     a: "システム開発・インフラ構築・クラウド・データ&AI・パッケージ導入（SAP/Salesforce）などを担う領域です。Strategy & Consulting部門と協働してDXプロジェクトを推進します。",
   },
   {
-    q: "研修制度は？",
+    q: "研修制度について教えてください。",
     a: "口コミプラットフォームでは、入社後の研修やグローバル共通プログラム、資格取得支援が充実しているとの声が多く見られます。20代の成長環境への評価が高い傾向があります。",
   },
   {
-    q: "ワークライフバランスは改善された？",
-    a: "働き方改革「Project PRIDE」（2015年開始）の取り組みにより労働時間が改善されたとされる一方、口コミでは「プロジェクトによる」「体力次第」という声も見られます。配属プロジェクト次第という傾向です。",
+    q: "ワークライフバランスは改善されましたか？",
+    a: "働き方改革「Project PRIDE」（2015年開始）の取り組みにより労働時間が改善されたとされる一方、口コミでは「プロジェクトによる」「体力次第」という声も見られます。働き方は配属プロジェクトによって異なる傾向があります。",
   },
   {
-    q: "SIer・事業会社からの転職でも通用する？",
-    a: "クラウド/DXの実務経験や業界ドメイン知識があれば十分に評価されます。SIerからの転職を考える人は「SIerからWeb系への転職」の整理も比較材料になります。",
+    q: "SIer・事業会社からの転職でも通用しますか？",
+    a: "クラウド/DXの実務経験や業界ドメイン知識があれば評価につながります。SIerからの転職を考える人は「SIerからWeb系への転職」の整理も比較材料になります。",
   },
   {
-    q: "どのエージェントを使うべき？",
+    q: "どのエージェントを利用すればよいですか？",
     a: "コンサル・ハイクラス求人に強いビズリーチ、IT特化のレバテックキャリア、求人網羅性の高いdoda(IT)の併用が現実的です。",
   },
 ];
@@ -117,7 +117,7 @@ export default function AccentureCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】アクセンチュアの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: アクセンチュア日本法人は非上場で有価証券報告書がなく、公的な全社員平均年収は公表されていません。口コミ集計値では高水準とされますが、出典・対象が異なる参考値です。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>アクセンチュア日本法人は非上場で有価証券報告書がなく、公的な全社員平均年収は公表されていません。口コミ集計値では高水準とされますが、出典・対象が異なる参考値です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・日本法人は非上場・有価証券報告書なしのため公式平均年収は確認できません（米Accenture plcはニューヨーク証券取引所上場）。</li><li>・職位（アナリスト／コンサルタント／マネージャー等）に応じた年俸制で、提示額はオファー面談で確認するのが確実です。</li><li>・参考としてIT職全般はレバテック2025年公表で30代約499万円・40代約618万円です。アクセンチュア固有の値ではありません。</li></ul>
         </div>
 
@@ -138,10 +138,10 @@ export default function AccentureCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんな人向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 text-sm leading-relaxed mb-3">
-              <strong>結論：</strong>アクセンチュアは「テクノロジー×コンサルの市場価値」を一気に高めたいエンジニアに向く企業です。エンジニア職は戦略系と別フローで募集され、ケース面接が課されないケースが多い一方、能力・経験・人柄を深く見られます。
+              <strong></strong>アクセンチュアは「テクノロジー×コンサルの市場価値」を高めたいエンジニアに適した企業です。エンジニア職は戦略系と別フローで募集され、ケース面接が課されないケースが多い一方、能力・経験・人柄を深く見られます。
             </p>
             <ul className="space-y-1.5 text-sm text-slate-600">
               <li>・<strong>向いている人</strong>：クラウド/DXの実務経験者、業界ドメインを持つエンジニア、成長環境と国際性を求める人</li>
@@ -245,9 +245,9 @@ export default function AccentureCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 text-sm mb-2">良い傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-green-700">
-                <li>・20代の成長環境への評価が高いです</li>
+                <li>・20代の成長環境への評価が高い傾向があります</li>
                 <li>・研修・資格支援などスキルアップ機会が豊富です</li>
-                <li>・働き方改革（Project PRIDE）で労働時間が改善との声があります</li>
+                <li>・働き方改革（Project PRIDE）で労働時間が改善したとの声があります</li>
               </ul>
             </div>
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
@@ -255,7 +255,7 @@ export default function AccentureCompanyPage() {
               <ul className="space-y-1.5 text-sm text-amber-700">
                 <li>・繁忙度はプロジェクト次第・体力次第との声があります</li>
                 <li>・キャッチアップの負荷が高いとの指摘があります</li>
-                <li>・事業・組織変化が速く合う合わないが分かれます</li>
+                <li>・事業・組織の変化が速く、向き不向きが分かれるとの声があります</li>
               </ul>
             </div>
           </div>
@@ -266,7 +266,7 @@ export default function AccentureCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              30代・40代のミドルエンジニアにとってアクセンチュアは、クラウド/DXの実務経験や業界ドメインを「テクノロジー×コンサル」の市場価値に転換できる場です。アクセンチュア出身という経歴は、その後の転職市場でも評価されやすいのがミドル層にとっての大きな魅力です。マネジメント志向ならマネージャー以上のポジションでの採用強化の動きも追い風になります。
+              30代・40代のミドルエンジニアにとってアクセンチュアは、クラウド/DXの実務経験や業界ドメインを「テクノロジー×コンサル」の市場価値に転換できる場です。アクセンチュア出身という経歴は、その後の転職市場でも評価されやすい点も、ミドル層にとっての大きな特徴です。マネジメント志向の方にとっては、マネージャー以上のポジションでの採用強化の動きも判断材料になります。
             </p>
             <p>
               一方で、キャッチアップ負荷や繁忙度はプロジェクト次第という声があるため、体力・働き方の許容範囲を見極めることが重要です。年収は職位別の年俸で提示されるため、オファー面談で具体額を必ず確認しましょう。年代別の相場感は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
@@ -278,7 +278,7 @@ export default function AccentureCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">アクセンチュア転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "コンサル・ハイクラス求人に強いスカウト型です。アクセンチュア案件のヘッドハンターが多いです。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "コンサル・ハイクラス求人に強いスカウト型です。アクセンチュア案件を扱うヘッドハンターが多い傾向があります。" },
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でコンサル×エンジニアポジションの提案に強みがあります。" },
               { name: "doda(IT)", href: "/review/doda-it/", desc: "求人網羅性が高く、各部門の求人を幅広く保有しています。初めての転職にも適しています。" },
             ].map((agent, i) => (

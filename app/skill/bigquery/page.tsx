@@ -12,12 +12,12 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：BigQueryスキルの転職市場での進め方" },
+  { id: "conclusion", label: "1. BigQueryスキルの転職市場での進め方" },
   { id: "market", label: "2. 年収・市場データ（出典付き）" },
   { id: "use", label: "3. BigQueryの用途と求人傾向" },
   { id: "level", label: "4. 求められる経験レベルと求人要件" },
   { id: "career", label: "5. キャリアパスと関連技術" },
-  { id: "find", label: "6. 求人の探し方・強いエージェント" },
+  { id: "find", label: "6. 求人の探し方・エージェントの選び方" },
   { id: "entry", label: "7. 経験浅めから参入するルート" },
   { id: "age", label: "8. 30代・40代エンジニアの視点" },
   { id: "learn", label: "9. スキルアップ・学習戦略" },
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "BigQueryエンジニアにおすすめの転職エージェントは？",
-    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でデータ基盤・アナリティクスエンジニア級の求人に出会いやすいビズリーチ、Web系企業の提案に強いGeeklyの併用が選択肢です。BigQueryを軸にした求人はGoogle Cloud採用企業に集まるため、複数登録して保有求人を横断比較するのが現実的です。",
+    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でデータ基盤・アナリティクスエンジニア級の求人に出会いやすいビズリーチ、Web系企業の提案に強みを持つGeeklyの併用が選択肢です。BigQueryを軸にした求人はGoogle Cloud採用企業に集まるため、複数登録して保有求人を横断比較するのが現実的です。",
   },
 ];
 
@@ -127,13 +127,13 @@ export default function BigQuerySkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：BigQueryスキルの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">BigQueryスキルの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>BigQueryは「SQLが書ければ入口に立てる」一方、差別化は基盤を回す力で決まります。</strong>操作の手軽さゆえ、コスト最適化・データモデリング・パイプライン設計の経験が評価の分かれ目です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・BigQuery単体の公表年収は乏しいため、<strong>データエンジニア／データアナリスト等の職種年収で代替</strong>して捉えるのが実態</li>
+              <li>・BigQuery単体の公表年収は乏しいため、<strong>データエンジニア／データアナリスト等の職種年収で代替</strong>して捉えるのが実態です</li>
               <li>・SQLでの分析経験があれば、BigQuery未経験でもポテンシャル採用の余地があります（移行ハードルは低め）</li>
               <li>・<strong>Google Cloud・dbt・BIツール</strong>との掛け合わせで市場価値が上がります</li>
             </ul>
@@ -184,7 +184,7 @@ export default function BigQuerySkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               { use: "データウェアハウス・分析基盤", note: "大量データの集計・分析。標準SQLでスケールする中核基盤" },
-              { use: "BIダッシュボードのデータソース", note: "Looker Studio・Tableau・Power BIの裏側です。可視化と連携" },
+              { use: "BIダッシュボードのデータソース", note: "Looker Studio・Tableau・Power BIのデータ供給元。可視化ツールとの連携" },
               { use: "マーケティングデータ統合", note: "GA4・広告データの統合分析。Web系・広告領域で頻出" },
               { use: "BigQuery ML・準リアルタイム分析", note: "SQLでの機械学習、ストリーミング挿入による分析" },
             ].map((item, i) => (
@@ -223,8 +223,8 @@ export default function BigQuerySkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               { role: "データエンジニア", note: "DWH・パイプラインの設計運用。Google Cloud・Airflow・dbtとの掛け合わせ" },
-              { role: "アナリティクスエンジニア", note: "dbtでのデータモデリングです。BIチームとデータ基盤の橋渡し" },
-              { role: "データアナリスト", note: "BigQuery×BIツールでの分析・可視化です。意思決定支援" },
+              { role: "アナリティクスエンジニア", note: "dbtでのデータモデリング。BIチームとデータ基盤の橋渡し" },
+              { role: "データアナリスト", note: "BigQuery×BIツールでの分析・可視化。意思決定支援" },
               { role: "データプラットフォームエンジニア", note: "分析基盤のアーキテクチャ設計とコストガバナンス" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -240,7 +240,7 @@ export default function BigQuerySkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             BigQueryを軸にした求人はGoogle Cloud採用企業に集まるため、特定の1社に絞るより複数チャネルを横断するのが効率的です。
           </p>
@@ -260,7 +260,7 @@ export default function BigQuerySkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web業界特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。BigQueryを採用するWeb系・広告・データ活用企業の求人を探したい場合の選択肢になります。
               </p>
@@ -318,13 +318,13 @@ export default function BigQuerySkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 標準SQLとコスト構造から学びます。</strong>BigQueryは標準SQLで操作しますが、課金はスキャンしたデータ量で決まります。パーティション・クラスタリング・必要な列だけ取得するといったコスト意識を、無料枠で手を動かしながら身につけるのが近道です。
+              <strong>① 標準SQLとコスト構造から学びます。</strong>BigQueryは標準SQLで操作しますが、課金はスキャンしたデータ量で決まります。パーティション・クラスタリング・必要な列だけ取得するといったコスト意識を、無料枠で手を動かしながら身につけるのが効率的です。
             </p>
             <p>
               <strong>② パイプラインとデータモデリングを学びます。</strong>BigQuery単体ではなく、Airflow（Cloud Composer）でのスケジューリング、dbtでのデータモデリングまで触ると、データエンジニア／アナリティクスエンジニアとして語れる経験になります。
             </p>
             <p>
-              <strong>③ Google Cloudとガバナンスを掛け合わせます。</strong>GCS・Pub/Sub・IAMなどGoogle Cloud全般や、コストガバナンス・アクセス制御まで理解すると、データプラットフォーム領域の求人に手が届きます。
+              <strong>③ Google Cloudとガバナンスを掛け合わせます。</strong>GCS・Pub/Sub・IAMなどGoogle Cloud全般や、コストガバナンス・アクセス制御まで理解すると、データプラットフォーム領域の求人にも応募しやすくなります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -352,7 +352,7 @@ export default function BigQuerySkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">BigQueryのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            データ基盤・分析の求人はGoogle Cloud採用企業に集まるからこそ、複数のIT特化型エージェントで保有求人を横断比較するのが近道です。
+            データ基盤・分析の求人はGoogle Cloud採用企業に集まるからこそ、複数のIT特化型エージェントで保有求人を横断比較するのが効率的です。
           </p>
           <Link
             href="/#ranking"

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：HR Tech業界への転職は現実的か" },
+  { id: "conclusion", label: "HR Tech業界への転職は現実的か" },
   { id: "trend", label: "HR Tech業界の概要・採用動向" },
   { id: "skill-gap", label: "活かせるスキルと埋めるべきギャップ" },
   { id: "patterns", label: "転職パターン（職種×企業タイプ）" },
@@ -28,25 +28,25 @@ const toc = [
 ];
 
 const skillGap = [
-  ["業務システム・基幹システムの開発経験", "そのまま強みになります", "勤怠・給与・人事マスタなど複雑なデータモデルを扱う力はHR Techの中核で評価されます"],
-  ["SaaS・マルチテナント設計の知見", "そのまま強みになります", "多数の企業が同じ基盤を使うSaaSでは、テナント分離や権限設計の経験が直結します"],
-  ["人事・労務・採用業務のドメイン知識", "部分的に活かせます", "労働法規や人事制度の理解は要件定義で強みになりますが、技術スタックの刷新は別途必要です"],
-  ["モダンな開発（クラウド・API・CI/CD）", "埋めるべきギャップ", "AWS/GCP・REST/GraphQL API・コンテナの実務経験が問われやすいです"],
-  ["プロダクト志向・継続的デリバリー", "埋めるべきギャップ", "受託・SES中心だった場合、自社プロダクトの改善サイクルへの適応が課題になりやすいです"],
+  ["業務システム・基幹システムの開発経験", "そのまま強み", "勤怠・給与・人事マスタなど複雑なデータモデルを扱う力はHR Techの中核で評価されます"],
+  ["SaaS・マルチテナント設計の知見", "そのまま強み", "多数の企業が同じ基盤を使うSaaSでは、テナント分離や権限設計の経験が直結します"],
+  ["人事・労務・採用業務のドメイン知識", "部分的に活用可能", "労働法規や人事制度の理解は要件定義で強みになりますが、技術スタックの刷新は別途必要です"],
+  ["モダンな開発（クラウド・API・CI/CD）", "埋めるべきギャップ", "AWS/GCP・REST/GraphQL API・コンテナの実務経験が問われやすい傾向があります"],
+  ["プロダクト志向・継続的デリバリー", "埋めるべきギャップ", "受託・SES中心だった場合、自社プロダクトの改善サイクルへの適応が課題になりやすい傾向があります"],
 ];
 
 const patterns = [
-  ["プロダクトエンジニア（HR SaaS）", "人事労務・採用・タレマネSaaS", "業務理解＋Web開発。複雑な人事業務をプロダクトに落とす力が強みになる代表的なルート"],
-  ["バックエンドエンジニア", "勤怠・給与計算・人事基盤", "正確性が求められる計算ロジックやデータ整合性。基幹系経験者に向く"],
-  ["データエンジニア・分析", "ピープルアナリティクス領域", "SQL・Pythonで人事データを扱います。タレントマネジメントやエンゲージメント分析で需要"],
-  ["社内SE・コーポレートエンジニア", "事業会社の人事・情シス", "HRシステムの導入・連携。業務知識を活かしつつモダン環境に慣れる入口にもなる"],
+  ["プロダクトエンジニア（HR SaaS）", "人事労務・採用・タレマネSaaS", "業務理解とWeb開発を組み合わせます。複雑な人事業務をプロダクトに落とし込む力が強みになる代表的なルートです"],
+  ["バックエンドエンジニア", "勤怠・給与計算・人事基盤", "正確性が求められる計算ロジックやデータ整合性を担います。基幹系経験者に向いています"],
+  ["データエンジニア・分析", "ピープルアナリティクス領域", "SQL・Pythonで人事データを扱います。タレントマネジメントやエンゲージメント分析で需要があります"],
+  ["社内SE・コーポレートエンジニア", "事業会社の人事・情シス", "HRシステムの導入・連携を担います。業務知識を活かしつつモダン環境に慣れる入口にもなります"],
 ];
 
 const companyTypes = [
-  ["人事労務SaaS", "労務手続き・勤怠・給与計算などを自動化する自社プロダクト。複雑な法令対応とプロダクト改善が魅力", "正確性とドメイン理解を両立したい人"],
-  ["採用・タレントマネジメントSaaS", "採用管理、人材データベース、評価・配置の最適化。データ活用の余地が大きい", "データやプロダクト設計に関心がある人"],
-  ["人事基幹システム・大手ベンダー", "大企業向けの人事給与システム。安定基盤で大規模案件に関われる", "大規模PJのマネジメントを志向する人"],
-  ["事業会社の人事DX・社内SE", "自社の人事システム刷新やHRデータ統合。業務に近い立場で改善を進める", "業務に深く入り込んで改善したい人"],
+  ["人事労務SaaS", "労務手続き・勤怠・給与計算などを自動化する自社プロダクトを開発します。複雑な法令対応とプロダクト改善の両方に取り組める点が特徴です", "正確性とドメイン理解を両立したい人"],
+  ["採用・タレントマネジメントSaaS", "採用管理、人材データベース、評価・配置の最適化を扱います。データ活用の余地が大きい領域です", "データやプロダクト設計に関心がある人"],
+  ["人事基幹システム・大手ベンダー", "大企業向けの人事給与システムを提供します。安定した基盤のもとで大規模案件に関われます", "大規模PJのマネジメントを志向する人"],
+  ["事業会社の人事DX・社内SE", "自社の人事システム刷新やHRデータ統合を担います。業務に近い立場で改善を進められます", "業務に深く入り込んで改善したい人"],
 ];
 
 const faqs = [
@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "HR Techではどんな技術が求められますか？",
-    a: "求人傾向としてはバックエンド（Ruby/Java/Go/PHPなど）、API設計、クラウド（AWS/GCP）、SaaSのマルチテナント設計が基本になりやすいです。人事データの分析（SQL/Python）の知識があると差別化につながります。具体的な要件は企業ごとに異なるため、求人票で確認してください。",
+    a: "求人傾向としてはバックエンド（Ruby/Java/Go/PHPなど）、API設計、クラウド（AWS/GCP）、SaaSのマルチテナント設計が基本になりやすい傾向があります。人事データの分析（SQL/Python）の知識があると差別化につながります。具体的な要件は企業ごとに異なるため、求人票で確認してください。",
   },
   {
     q: "代表的なHR Tech企業にはどんなところがありますか？",
@@ -151,20 +151,20 @@ export default function HrTechPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：HR Tech業界への転職は現実的か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">HR Tech業界への転職は現実的か</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <span className="font-bold text-blue-800">結論：業務システムやSaaSの開発経験を持つエンジニアにとって、HR Tech転職は十分現実的です。</span>
+              <span className="font-bold text-blue-800">業務システムやSaaSの開発経験を持つエンジニアにとって、HR Tech転職は十分現実的です。</span>
               人事業務の複雑さを正確にプロダクトへ落とし込める人材は、HR Tech各社が継続的に求めています。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・勤怠・給与・人事マスタなど複雑なデータモデルを扱う力が活きます</li>
               <li>・一方でクラウド・API・プロダクト開発の進め方は多くの求人で問われます</li>
-              <li>・30代は技術習得、40代はマネジメント＋業務知識の組み合わせを強みにしやすいです</li>
+              <li>・30代は技術習得、40代はマネジメント＋業務知識の組み合わせを強みにしやすくなります</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            まずは「自分の経験がどの領域（労務・採用・タレントマネジメント）で活きるか」を見極め、不足する技術を補う計画を立てるのが近道です。
+            まずは「自分の経験がどの領域（労務・採用・タレントマネジメント）で活きるか」を見極め、不足する技術を補う計画を立てると、効率よく準備を進められます。
           </p>
         </section>
 
@@ -182,7 +182,7 @@ export default function HrTechPage() {
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という追い風</h3>
+              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という背景</h3>
               <p className="text-sm text-slate-600">
                 経済産業省「IT人材需給に関する調査」（2019年公表）では、2030年に最大約79万人のIT人材不足が試算されています（2019年公表の試算）。業務知識×ITのように専門性を掛け合わせられる人材は、こうした需給環境のなかで相対的に動きやすい立場にあります。
               </p>
@@ -346,7 +346,7 @@ export default function HrTechPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">30代：業務理解＋技術の二刀流を作る</h3>
+              <h3 className="font-bold text-blue-800 mb-2">30代：業務理解と技術の両方を身につける</h3>
               <p className="text-sm text-petrol-deep">
                 人事業務を理解したうえでモダン開発に踏み込めると、純粋なWebエンジニアにも純粋な人事担当にも代えがたい価値になります。技術のキャッチアップに投資する価値が最も高い年代です。
               </p>
@@ -358,7 +358,7 @@ export default function HrTechPage() {
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
+              <h3 className="font-bold text-blue-800 mb-2">ミドル層は「希少性」で差別化する</h3>
               <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新技術だけを競うのではなく、業務知識×ITという希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
@@ -376,9 +376,9 @@ export default function HrTechPage() {
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や管理職ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。HR Techから事業会社まで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあるため、ミドル層は経歴を丁寧に伝えることが大切です。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人や管理職ポジションを狙う際の選択肢になります。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数を持つサービスです。HR Techから事業会社まで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -406,7 +406,7 @@ export default function HrTechPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">業務理解とSaaS開発の経験をHR Techで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">業務理解とSaaS開発の経験をHR Techで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>

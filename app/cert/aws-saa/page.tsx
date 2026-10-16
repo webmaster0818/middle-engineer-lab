@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "AWS認定ソリューションアーキテクト アソシエイト(SAA)は転職に効くか【2026年】";
 const PAGE_DESC =
-  "AWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）を、経験者の加点資格という観点から30代・40代向けに解説します。受験料・試験形式・合格スコア・有効期限・出題範囲を公式情報で整理し、クラウド移行需要のなかで実務とセットで効く理由と限界をまとめます。";
+  "AWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）を、経験者の加点資格という観点から30代・40代向けに解説します。受験料・試験形式・合格スコア・有効期限・出題範囲を公式情報で整理し、クラウド移行需要のなかで実務と組み合わせることで評価される理由と限界をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/aws-saa/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：SAAは誰に効く資格か" },
+  { id: "conclusion", label: "SAAはどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・合格基準）" },
   { id: "scope", label: "出題範囲（4分野）" },
   { id: "value", label: "30代・40代経験者にとっての価値" },
@@ -28,7 +28,7 @@ const toc = [
 const faqs = [
   {
     q: "SAAは40代の転職で意味がありますか？",
-    a: "意味があります。SAA（AWS認定ソリューションアーキテクト – アソシエイト）は、未経験の入口資格というより『経験者の加点資格』として機能します。オンプレ・インフラ・ネットワークの実務を持つ30〜40代が、クラウド移行需要のなかで実務とセットで示すことで、設計フェーズの担い手として加点されます。資格単体で年収が跳ねるわけではなく、実務経験との掛け算が前提です。",
+    a: "意味があります。SAA（AWS認定ソリューションアーキテクト – アソシエイト）は、未経験の入口資格というより『経験者の加点資格』として機能します。オンプレ・インフラ・ネットワークの実務を持つ30〜40代が、クラウド移行需要のなかで実務とあわせて示すことで、設計フェーズの担い手として加点されます。資格単体で年収が大きく上がるわけではなく、実務経験と組み合わせることが前提です。",
   },
   {
     q: "SAAの受験料はいくらですか？",
@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     q: "SAAとSAP（プロフェッショナル）はどちらを狙うべきですか？",
-    a: "まずはSAAから入るのが定番です。SAAはアソシエイトレベルで、クラウド設計の基礎を体系的に示す位置づけ。上流・アーキテクト職で評価されるSAP（プロフェッショナル）は、より広く深い設計判断が問われる上位資格です。実務でAWS設計に関わる経験を積みながら、段階的にSAP → と進むのが現実的です。",
+    a: "まずはSAAから入るのが定番です。SAAはアソシエイトレベルで、クラウド設計の基礎を体系的に示す位置づけです。上流・アーキテクト職で評価されるSAP（プロフェッショナル）は、より広く深い設計判断が問われる上位資格です。実務でAWS設計に関わる経験を積みながら、段階的にSAPへ進むのが現実的です。",
   },
 ];
 
@@ -98,7 +98,7 @@ export default function CertAwsSaaPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          AWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）は、AWS上でコスト効率と安全性、復元力を備えたシステムを設計する力を問う、アソシエイトレベルの認定です。本記事は「SAAを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の加点資格』</strong>という性格を軸に、公式情報（受験料・形式・合格基準・有効期限・出題範囲）をもとに整理します。資格単体では年収が跳ねないという留意点もご説明します。
+          AWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）は、AWS上でコスト効率と安全性、復元力を備えたシステムを設計する力を問う、アソシエイトレベルの認定です。本記事は「SAAを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の加点資格』</strong>という性格を軸に、公式情報（受験料・形式・合格基準・有効期限・出題範囲）をもとに整理します。資格単体では年収が大きく上がるわけではないという留意点についてもご説明します。
         </p>
 
         <DataNote
@@ -125,14 +125,14 @@ export default function CertAwsSaaPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SAAは誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">SAAはどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              SAAは<strong>「経験者の加点資格」</strong>です。クラウド移行需要が続くなか、最も効くのは<strong>「オンプレ・インフラの実務 × AWS設計の証明」</strong>という掛け算で、実務2〜3年とセットで価値が出ます。資格単体で年収が上がる発想は禁物です。
+              SAAは<strong>「経験者の加点資格」</strong>です。クラウド移行需要が続くなか、最も効果を発揮するのは<strong>オンプレ・インフラの実務とAWS設計の証明を組み合わせた場合</strong>で、実務2〜3年とあわせて示すことで価値が生まれます。資格単体で年収が上がると考えるのは避けるべきです。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>オンプレ／インフラ経験のある30〜40代</strong>：クラウド移行案件で設計の担い手として加点されます</li>
-              <li>② <strong>完全未経験のミドル</strong>：資格だけで実務未経験は埋めにくいです。手を動かした成果物とセットが必要です</li>
+              <li>② <strong>完全未経験のミドル</strong>：資格だけでは実務未経験を補いにくい傾向があります。手を動かした成果物とあわせて示す必要があります</li>
               <li>③ <strong>有効期限3年</strong>：再認定が必要で、取りっぱなしにはできません</li>
             </ul>
           </div>
@@ -187,10 +187,10 @@ export default function CertAwsSaaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代経験者にとっての価値</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              企業のクラウド移行は今も続いており、AWS設計を担える人材の需要は高止まりしています。SAAはその文脈で、<strong>オンプレやインフラ、ネットワーク、Linuxで積み上げてきた経験を「クラウド設計の言語」に翻訳して示す道具</strong>になります。オンプレの事情を理解したうえで移行を設計できる人材は、クラウドしか知らない若手にはない強みを持ちます。
+              企業のクラウド移行は今も続いており、AWS設計を担える人材の需要は高い水準で推移しています。SAAはその文脈で、<strong>オンプレやインフラ、ネットワーク、Linuxで積み上げてきた経験をクラウド設計の知識として示す手段</strong>になります。オンプレの事情を理解したうえで移行を設計できる人材は、クラウドしか知らない若手にはない強みを持ちます。
             </p>
             <p>
-              一方で過度な期待は禁物です。SAAは<strong>『クラウドの基礎を体系的に理解している』ことの証明</strong>であって、現場での即戦力性そのものを保証するものではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。設計・運用経験と組み合わせて初めて、クラウド移行案件や設計ポジションという形で結実します。
+              一方で過度な期待は禁物です。SAAは<strong>『クラウドの基礎を体系的に理解している』ことの証明</strong>であって、現場での即戦力性そのものを保証するものではありません。価値が生まれるのは<strong>実務経験と資格を組み合わせたとき</strong>です。設計・運用経験と組み合わせて初めて、クラウド移行案件や設計ポジションという形で評価につながります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>も合わせてご覧ください。
@@ -205,7 +205,7 @@ export default function CertAwsSaaPage() {
             {[
               { t: "オンプレ→クラウド移行案件への配置", d: "移行の設計フェーズで、オンプレ事情を理解した設計者として加点されます。" },
               { t: "クラウド設計スキルの客観証明", d: "AWS設計の基礎を体系的に理解していることを、応募時に客観的に示せます。" },
-              { t: "資格手当・評価制度の対象", d: "AWS認定を手当・評価の対象とする企業が多く、社内評価の根拠になりやすいです。" },
+              { t: "資格手当・評価制度の対象", d: "AWS認定を手当・評価の対象とする企業が多く、社内評価の根拠になりやすい傾向があります。" },
               { t: "上位資格・専門領域への布石", d: "SAAを土台に、プロフェッショナルや専門分野の認定へ進む足がかりになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -225,8 +225,8 @@ export default function CertAwsSaaPage() {
           <div className="space-y-3">
             {[
               { t: "クラウドインフラエンジニア", d: "AWS上の基盤設計・構築を担います。SAAの設計知識が要件定義から構成設計までの土台になります。" },
-              { t: "クラウド移行担当（SE）", d: "オンプレからの移行を設計・推進。現行環境の理解とAWS設計の両輪が評価されます。" },
-              { t: "ソリューションアーキテクト候補", d: "顧客要件をAWS構成へ落とし込む役割です。SAAは入口の証明で、実務で深掘りしていきます。" },
+              { t: "クラウド移行担当（SE）", d: "オンプレからの移行を設計・推進します。現行環境の理解とAWS設計の両方が評価されます。" },
+              { t: "ソリューションアーキテクト候補", d: "顧客要件をAWS構成へ落とし込む役割です。SAAは入口の証明であり、実務を通じて理解を深めていきます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -246,7 +246,7 @@ export default function CertAwsSaaPage() {
             {[
               { n: "STEP 1", t: "公式試験ガイドで範囲を把握", d: "4分野（安全性・復元力・高パフォーマンス・コスト最適化）の対象サービスを公式ガイドで確認します。" },
               { n: "STEP 2", t: "無料利用枠でハンズオン", d: "VPC・EC2・S3・IAMなど主要サービスを実際に触り、設計判断を手を動かして理解します。" },
-              { n: "STEP 3", t: "合格→実務／上位資格へ", d: "合格後はクラウド移行・設計の実務で深め、プロフェッショナル（SAP）など上位へ進みます。" },
+              { n: "STEP 3", t: "合格後は実務と上位資格へ展開", d: "合格後はクラウド移行・設計の実務で深め、プロフェッショナル（SAP）など上位へ進みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -258,7 +258,7 @@ export default function CertAwsSaaPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            次の一手は上位の<Link href="/cert/aws-sap/" className="text-petrol hover:underline">AWS認定SAP（プロフェッショナル）</Link>、開発寄りなら<Link href="/cert/aws-dva/" className="text-petrol hover:underline">AWS認定DVA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-petrol hover:underline">AWS認定SOA</Link>。Linuxの土台が不安なら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>との組み合わせも有効です。
+            次に目指す資格としては、上位の<Link href="/cert/aws-sap/" className="text-petrol hover:underline">AWS認定SAP（プロフェッショナル）</Link>、開発寄りなら<Link href="/cert/aws-dva/" className="text-petrol hover:underline">AWS認定DVA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-petrol hover:underline">AWS認定SOA</Link>が挙げられます。Linuxの土台が不安なら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>との組み合わせも有効です。
           </p>
         </section>
 

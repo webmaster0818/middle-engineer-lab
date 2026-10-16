@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Next.jsエンジニアの転職市場での進め方" },
+  { id: "conclusion", label: "1. Next.jsエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Next.jsの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Next.jsエンジニアのキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "find", label: "5. 求人の探し方と主なエージェント" },
   { id: "entry", label: "6. 経験浅めからNext.jsに参入するルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -97,7 +97,7 @@ export default function NextjsSkillPage() {
             Next.jsはReactをベースにしたフロントエンドフレームワークで、SSR（サーバーサイドレンダリング）・SSG（静的生成）・App Routerなどの仕組みにより、SEOやパフォーマンスが求められるWebサービス開発の標準的な選択肢になっています。自社サービスを持つWeb系・スタートアップを中心に採用が広がり、モダンフロントエンド人材の需要を牽引しています。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、Next.jsエンジニア転職の「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。フレームワーク単体ではなく「JavaScript／TypeScriptの言語力＋実務」で評価される点も誠実にお伝えします。
+            本記事では、Next.jsエンジニア転職の「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。フレームワーク単体ではなく「JavaScript／TypeScriptの言語力＋実務」で評価される点もご説明します。
           </p>
         </section>
 
@@ -124,15 +124,15 @@ export default function NextjsSkillPage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Next.jsエンジニアの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Next.jsエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Next.jsは「Reactの実務力＋モダンフロントの設計力」をセットで示せる人材が評価される分野です。</strong>フレームワーク名を掲げるより、言語力と実プロダクトでの課題解決を語れることが転職成功の軸になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・関連職種のフロントエンドエンジニア平均年収は<strong>約460万円です</strong>（求人ボックス・2026年6月）。土台のReactは平均521万円・中央値550万円です（レバテック公表）</li>
+              <li>・関連職種のフロントエンドエンジニア平均年収は<strong>約460万円</strong>（求人ボックス・2026年6月）、土台のReactは平均521万円・中央値550万円です（レバテック公表）</li>
               <li>・Reactなどモダンフロントの経験があれば、Next.js未経験でもポテンシャル採用の余地があります</li>
               <li>・Next.jsは<strong>TypeScript・パフォーマンス最適化・バックエンド連携</strong>との掛け合わせで市場価値が上がります</li>
             </ul>
@@ -204,10 +204,10 @@ export default function NextjsSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "フロントエンドエンジニア", note: "React/Next.jsでのUI・画面実装が中心です。求人の最も多いゾーン" },
-              { role: "フルスタックエンジニア", note: "Next.jsのAPI Routes＋バックエンドまで担当します。スタートアップで需要" },
-              { role: "テックリード／フロントアーキテクト", note: "大規模フロントの設計＋技術選定＋チームリード" },
-              { role: "フリーランス（Next.js案件）", note: "モダンフロント・自社サービス開発案件です。単価が高い傾向" },
+              { role: "フロントエンドエンジニア", note: "React/Next.jsでのUI・画面実装が中心。求人数が最も多いゾーン" },
+              { role: "フルスタックエンジニア", note: "Next.jsのAPI Routesからバックエンドまで担当。スタートアップでの需要が中心" },
+              { role: "テックリード／フロントアーキテクト", note: "大規模フロントの設計、技術選定、チームリード" },
+              { role: "フリーランス（Next.js案件）", note: "モダンフロント・自社サービス開発の案件。単価が高い傾向" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -222,7 +222,7 @@ export default function NextjsSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Next.js求人は自社開発企業に集中するため、特定の1社に絞るより複数のチャネルを横断するのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -242,7 +242,7 @@ export default function NextjsSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強み）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。Next.jsを採用するWeb系スタートアップの求人を探したい場合の選択肢になります。
               </p>
@@ -281,7 +281,7 @@ export default function NextjsSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>フレームワークより言語力と設計経験で勝負します。</strong>Next.jsはトレンドの移り変わりが速い分野ですが、30代・40代の強みはJavaScript/TypeScriptの言語力と、過去のプロダクトで培った設計・要件定義の経験です。流行に追従するだけでなく、なぜその技術を選ぶかを語れることが評価されます。
+              <strong>フレームワークより言語力と設計経験が評価の中心になります。</strong>Next.jsはトレンドの移り変わりが速い分野ですが、30代・40代の強みはJavaScript/TypeScriptの言語力と、過去のプロダクトで培った設計・要件定義の経験です。流行に追従するだけでなく、なぜその技術を選ぶかを語れることが評価されます。
             </p>
             <p>
               <strong>掛け算で差別化します。</strong>「Next.js＋バックエンド」「Next.js＋過去のドメイン知識（EC・メディアなど）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、モダンフロントという実装手段と結びつけて語れると説得力が増します。
@@ -303,7 +303,7 @@ export default function NextjsSkillPage() {
               <strong>① 公式ドキュメントとReactの基礎を固めます。</strong>Next.jsは公式ドキュメントが充実しています。まずReactの基礎を固めたうえで、App Router・データフェッチ・レンダリング戦略といったNext.js固有の概念を公式で押さえると、表面的な使い方で終わりません。
             </p>
             <p>
-              <strong>② TypeScriptを前提に書きます。</strong>実務のNext.js開発はTypeScriptが標準です。型を意識した設計に慣れておくと、即戦力ゾーンの求人に手が届きます。型安全なコンポーネント設計やAPIの型共有まで経験すると面接で語れる材料になります。
+              <strong>② TypeScriptを前提に書きます。</strong>実務のNext.js開発はTypeScriptが標準です。型を意識した設計に慣れておくと、即戦力ゾーンの求人にも応募しやすくなります。型安全なコンポーネント設計やAPIの型共有まで経験すると面接で語れる材料になります。
             </p>
             <p>
               <strong>③ パフォーマンスとバックエンド連携を掛け合わせます。</strong>SSR/SSGの使い分け、Core Web Vitalsの改善、API/データベースとの連携経験は、ミドル以上の求人で差がつくポイントです。実プロダクトに近い構成で課題解決まで経験すると、市場価値が上がります。

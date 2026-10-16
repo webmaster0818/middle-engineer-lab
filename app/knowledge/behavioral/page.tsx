@@ -50,7 +50,7 @@ const faqs = [
 ];
 
 const sections = [
-  { id: "conclusion", label: "結論：STAR法で型を固める" },
+  { id: "conclusion", label: "STAR法で型を固める" },
   { id: "star", label: "STAR法の使い方（例文付き）" },
   { id: "categories", label: "頻出質問カテゴリ" },
   { id: "examples", label: "カテゴリ別 回答例文（サンプル）" },
@@ -64,7 +64,7 @@ const star = [
   { num: "S", title: "Situation（状況）", desc: "いつ・どこで・どんな状況だったかを簡潔に示します。", sample: "「前職であるWebサービスを運用していた際、繁忙期に向けてパフォーマンス改善が急務になっていました」" },
   { num: "T", title: "Task（課題）", desc: "自分に課された役割や目標を明確にします。", sample: "「私はチームのリードとして、限られた期間内に主要画面の表示速度を改善する責任を負っていました」" },
   { num: "A", title: "Action（行動）", desc: "自分が取った行動を『私』を主語に具体的に示します。", sample: "「まず計測でボトルネックがDBクエリにあると特定し、インデックス設計の見直しとN+1の解消を私が主導して進めました」" },
-  { num: "R", title: "Result（結果）", desc: "結果をできれば数値で行います。学びも添えます。", sample: "「主要画面の表示が体感で大きく改善し、繁忙期を障害なく乗り切れました。計測を起点にする重要性を学びました」" },
+  { num: "R", title: "Result（結果）", desc: "結果はできれば数値で示し、学びも添えます。", sample: "「主要画面の表示が体感で大きく改善し、繁忙期を障害なく乗り切れました。計測を起点にする重要性を学びました」" },
 ];
 
 const categories = [
@@ -90,17 +90,17 @@ const examples = [
   {
     cat: "リーダーシップ",
     q: "チームを率いて困難な状況を乗り越えた経験を教えてください。",
-    answer: "「人員が限られる中で大きな改修を任されました（S）。私はリードとして、納期と品質を両立させる責任がありました（T）。優先度を絞ってスコープを段階分割し、メンバーの得意領域に合わせてタスクを再配分します。毎日の短い同期で詰まりを早期に解消しました（A）。結果、段階リリースで予定どおり改修を完了でき、メンバーの負荷も平準化できました。任せ方と優先順位付けの重要性を学びました（R）」",
+    answer: "「人員が限られる中で大きな改修を任されました（S）。私はリードとして、納期と品質を両立させる責任がありました（T）。優先度を絞ってスコープを段階分割し、メンバーの得意領域に合わせてタスクを再配分し、毎日の短い同期で詰まりを早期に解消しました（A）。結果、段階リリースで予定どおり改修を完了でき、メンバーの負荷も平準化できました。任せ方と優先順位付けの重要性を学びました（R）」",
   },
 ];
 
 const ngList = [
-  { t: "「私たちは〜しました」と主語をぼかします", d: "面接官はご自身個人の行動を知りたいです。『チームで』ではなく『私がリードして』『私が提案して』と自分の行動を明確にします。" },
-  { t: "結果を数値や事実で示しません", d: "『改善しました』だけでは弱いです。『繁忙期を障害なく乗り切れた』『手戻りがなくなった』など、結果を具体的に語ります。" },
-  { t: "仮定の話で答えます", d: "『もし〜なら〜する』は行動面接ではNGです。過去に実際に起きた具体的なエピソードで答えます。" },
-  { t: "失敗を他人のせいにします", d: "『PMの要件が甘かったので』のような責任転嫁は印象を大きく下げます。自分が何を学び改善したかに焦点を当てます。" },
-  { t: "回答が長すぎます", d: "1エピソードは2〜3分で完結させます。要点を絞り、面接官が深掘りする余地を残します。" },
-  { t: "盛りすぎ・抽象的すぎます", d: "誇張は深掘りで矛盾が露呈します。等身大の具体エピソードの方が、結果的に高く評価されます。" },
+  { t: "「私たちは〜しました」と主語をぼかした回答", d: "面接官が知りたいのは、応募者個人の行動です。『チームで』ではなく『私がリードして』『私が提案して』と自分の行動を明確にします。" },
+  { t: "結果を数値や事実で示さない回答", d: "『改善しました』だけでは評価されにくい傾向があります。『繁忙期を障害なく乗り切れた』『手戻りがなくなった』など、結果を具体的に語ります。" },
+  { t: "仮定の話による回答", d: "『もし〜なら〜する』は行動面接ではNGです。過去に実際に起きた具体的なエピソードで答えます。" },
+  { t: "失敗を他人のせいにする回答", d: "『PMの要件が甘かったので』のような責任転嫁は印象を大きく下げます。自分が何を学び改善したかに焦点を当てます。" },
+  { t: "長すぎる回答", d: "1エピソードは2〜3分で完結させます。要点を絞り、面接官が深掘りする余地を残します。" },
+  { t: "誇張しすぎた回答・抽象的すぎる回答", d: "誇張は深掘りで矛盾が露呈します。等身大の具体エピソードの方が、結果的に高く評価されます。" },
 ];
 
 export default function BehavioralPage() {
@@ -143,7 +143,7 @@ export default function BehavioralPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】行動面接（ビヘイビア面接）はどう対策すればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: STAR法で回答を構造化し、主語を「私」にしてテーマ別のエピソードを事前に準備することが要です。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>STAR法で回答を構造化し、主語を「私」にしてテーマ別のエピソードを事前に準備することが要です。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・回答はSTAR法（状況→課題→行動→結果）で構造化します</li><li>・主語を「私」にし、チームの成果と自分の貢献を区別します</li><li>・テーマ別に8〜10個のエピソードを準備し、複数の質問へ使い回します</li></ul>
           </div>
         </section>
@@ -157,10 +157,10 @@ export default function BehavioralPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：STAR法で型を固め、主語を「私」にする</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">STAR法で型を固め、主語を「私」にする</h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
-              <li>・回答は<strong>STAR法</strong>（状況→課題→行動→結果）で構造化します。思いつき順は伝わりません。</li>
-              <li>・主語を<strong>「私」</strong>にし、チームの成果と自分の貢献を区別します。これが最重要です。</li>
+              <li>・回答は<strong>STAR法</strong>（状況→課題→行動→結果）で構造化します。思いついた順に話すと要点が伝わりにくくなります。</li>
+              <li>・主語を<strong>「私」</strong>にし、チームの成果と自分の貢献を区別します。この点が最も重要です。</li>
               <li>・テーマ別に<strong>8〜10個のエピソード</strong>を事前に準備し、複数の質問へ使い回せるよう整理します。</li>
             </ul>
           </div>
@@ -182,7 +182,7 @@ export default function BehavioralPage() {
         <section id="star" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">STAR法の使い方（例文付き）</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            各要素に何を入れるかと、一般化した文例を示します。実際にはご自身自身の経験に置き換えてください。
+            各要素に何を入れるかと、一般化した文例を示します。実際にはご自身の経験に置き換えてください。
           </p>
           <div className="space-y-4">
             {star.map((item) => (
@@ -227,7 +227,7 @@ export default function BehavioralPage() {
         <section id="examples" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">カテゴリ別 回答例文（サンプル）</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            以下はSTAR法に沿った回答の例です。いずれも特定の実体験ではなく、一般化したサンプル回答です。具体的な状況・数値はご自身自身の経験に置き換えてください。
+            以下はSTAR法に沿った回答の例です。いずれも特定の実体験ではなく、一般化したサンプル回答です。具体的な状況・数値はご自身の経験に置き換えてください。
           </p>
           <div className="space-y-5">
             {examples.map((e, i) => (
@@ -262,11 +262,11 @@ export default function BehavioralPage() {
           <ul className="space-y-2">
             {[
               "テーマ（リーダーシップ／失敗／対立／判断 など）を1つ決めます",
-              "S: いつ・どこで・どんな状況だったか（2〜3文）",
-              "T: 自分に課されていた役割・目標は何か",
-              "A: 『私』が取った具体的な行動を3つ程度",
-              "R: 結果（できれば事実・数値）と、そこから得た学び",
-              "想定追い質問（『なぜそうした？』『他の選択肢は？』）への答えも一言用意",
+              "S: いつ・どこで・どんな状況だったかを2〜3文で書きます",
+              "T: 自分に課されていた役割・目標を書きます",
+              "A: 『私』が取った具体的な行動を3つ程度挙げます",
+              "R: 結果（できれば事実・数値）と、そこから得た学びを書きます",
+              "想定される追加質問（『なぜそうした？』『他の選択肢は？』）への答えも一言用意します",
             ].map((c, i) => (
               <li key={i} className="flex gap-3 items-start bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm text-slate-700">
                 <span className="text-green-600 font-bold shrink-0">✓</span>
@@ -284,10 +284,10 @@ export default function BehavioralPage() {
               30代・40代の行動面接では、若手と同じ『頑張った話』ではなく、<strong>チームや組織にどう影響を与えたか</strong>が問われます。リーダーシップ・育成・対立解消・意思決定など、経験を重ねたからこそ語れるテーマを軸にしましょう。『自分が手を動かした』だけでなく『人を動かした・仕組みを変えた』エピソードが評価されます。
             </p>
             <p>
-              一方で注意したいのが、<strong>武勇伝になりすぎない</strong>ことです。過去の成功を誇るより、失敗からの学びや、若手との協働を素直に語る方が好印象です。年下の上司や若いチームに入る可能性も踏まえ、柔軟さと謙虚さが伝わる回答を意識しましょう。
+              一方で注意したいのが、<strong>成功談に偏りすぎない</strong>ことです。過去の成功を誇るより、失敗からの学びや、若手との協働を素直に語る方が好印象です。年下の上司や若いチームに入る可能性も踏まえ、柔軟さと謙虚さが伝わる回答を意識しましょう。
             </p>
             <p>
-              準備としては、キャリア全体から『人や組織に影響を与えた場面』を5〜6個棚卸しし、STAR法で言語化しておくことです。これは<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析</Link>とも直結し、志望動機づくりにも流用できます。
+              準備としては、キャリア全体から『人や組織に影響を与えた場面』を5〜6個棚卸しし、STAR法で言語化しておくことが有効です。これは<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析</Link>とも直結し、志望動機づくりにも流用できます。
             </p>
           </div>
         </section>
@@ -310,7 +310,7 @@ export default function BehavioralPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">面接対策のプロに相談しよう</h2>
+          <h2 className="text-xl font-bold mb-3">面接対策の専門家に相談しましょう</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントなら、企業ごとの面接傾向に合わせた行動面接の対策をサポートしてくれます。
           </p>

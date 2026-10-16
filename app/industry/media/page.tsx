@@ -12,19 +12,19 @@ export const metadata: Metadata = {
 };
 
 const skillTable = [
-  ["動画配信・コンテンツ配信の知識", "そのまま強み", "HLS/DASH、エンコード、CDN、DRM、字幕・送出の理解はOTT企業で希少" ],
+  ["動画配信・コンテンツ配信の知識", "そのまま強み", "HLS/DASH、エンコード、CDN、DRM、字幕・送出を理解している人材はOTT企業で希少です" ],
   ["CMS・コンテンツ運用の実務", "そのまま強み", "編集ワークフロー、メタデータ設計、入稿フローの理解が活きます"],
-  ["放送基準・著作権・権利処理の理解", "差別化要素", "コンプライアンス感覚はデジタル配信でも評価されやすいです"],
-  ["モダンWeb開発（React/Next.js等）", "埋めるギャップ", "SPA・SSR、TypeScript、コンポーネント設計の習得が必要なことが多いです"],
-  ["クラウド/インフラ運用", "埋めるギャップ", "AWS/GCP、IaC、CDN設定、監視などの実務経験を補強したい"],
+  ["放送基準・著作権・権利処理の理解", "差別化要素", "コンプライアンス感覚はデジタル配信でも評価されやすい傾向があります"],
+  ["モダンWeb開発（React/Next.js等）", "埋めるギャップ", "SPA・SSR、TypeScript、コンポーネント設計の習得が必要なことが多くあります"],
+  ["クラウド/インフラ運用", "埋めるギャップ", "AWS/GCP、IaC、CDN設定、監視などの実務経験を補強しておきたい領域です"],
   ["データ基盤・ML基礎", "伸ばすと有利", "レコメンドや視聴分析に関わるなら集計基盤・特徴量の理解が役立ちます"],
 ];
 
 const jobTypes = [
-  ["配信・プラットフォーム開発", "OTT/動画配信、メディアプラットフォーマー", "配信安定性、トランスコード、視聴体験の改善。放送・配信の実務知識が直接活きる"],
+  ["配信・プラットフォーム開発", "OTT/動画配信、メディアプラットフォーマー", "配信安定性、トランスコード、視聴体験の改善を担います。放送・配信の実務知識が直接活きます"],
   ["コンテンツ運用・CMS開発", "デジタルメディア、出版系Web", "編集・入稿フローの理解を持つWebエンジニアとして重宝されます"],
-  ["レコメンド・データ活用", "メディアテック、配信プラットフォーム", "視聴・閲覧データの活用。データ/ML方向への発展余地が大きい"],
-  ["広告・収益化（CTV含む）", "メディア＋広告プラットフォーム", "SSAI/CSAIなど配信広告。広告領域への越境も視野に入る"],
+  ["レコメンド・データ活用", "メディアテック、配信プラットフォーム", "視聴・閲覧データを活用します。データ/ML方向への発展余地が大きい領域です"],
+  ["広告・収益化（CTV含む）", "メディア＋広告プラットフォーム", "SSAI/CSAIなどの配信広告を扱います。広告領域へキャリアを広げる選択肢にもなります"],
 ];
 
 const faqs = [
@@ -68,7 +68,7 @@ const related = [
 ];
 
 const toc = [
-  ["conclusion", "結論：この転職の現実性"],
+  ["conclusion", "この転職の現実性"],
   ["trend", "メディアのIT化・採用動向"],
   ["skills", "活かせるスキル／埋めるギャップ"],
   ["patterns", "転職パターン（職種×企業タイプ）"],
@@ -114,13 +114,13 @@ export default function MediaPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：この転職の現実性</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">この転職の現実性</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">配信・コンテンツ運用の実務知識を持つメディア業界エンジニアにとって、デジタルメディア領域への転職は十分に狙えるルートです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・OTTやデジタルメディアでは「配信・編集ワークフローを分かる人」が限られ、業務知識がそのまま差別化になりやすいです。</li>
+              <li>・OTTやデジタルメディアでは「配信・編集ワークフローを分かる人」が限られ、業務知識がそのまま差別化になりやすい傾向があります。</li>
               <li>・一方で求人の多くはモダンWeb開発やクラウド運用の経験を求めます。ここが主なギャップです。</li>
-              <li>・30代・40代は業務知識の厚みが強みになりやすいです。コード/基盤面の不足は在職中の準備で補えます。</li>
+              <li>・30代・40代は業務知識の厚みが強みになりやすい傾向があります。コード/基盤面の不足は在職中の準備で補えます。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">市場規模など断定できない数値は本記事では扱いません。年収・需給の話は公的・公表データに基づく目安として後述します。</p>
@@ -202,9 +202,9 @@ export default function MediaPage() {
           <p className="text-slate-600 leading-relaxed mb-4">デジタルメディア領域の受け皿は、おおまかに次のタイプに分かれます。どこが自分の経験を活かせるかで応募戦略を決めます。</p>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              ["放送局・出版社系のデジタル部門", "既存メディアのWeb/配信サービス。業界知識との親和性が高い"],
-              ["OTT・動画配信プラットフォーマー", "配信インフラ・視聴体験。放送・配信技術が直接活きる"],
-              ["メディアテック系スタートアップ", "新しいプロダクト開発。裁量が大きくモダンスタックが多い"],
+              ["放送局・出版社系のデジタル部門", "既存メディアのWeb/配信サービス。業界知識と親和性の高い環境"],
+              ["OTT・動画配信プラットフォーマー", "配信インフラ・視聴体験。放送・配信技術を直接活かせる環境"],
+              ["メディアテック系スタートアップ", "新しいプロダクト開発。裁量が大きく、モダンスタックの採用が多い環境"],
               ["広告／収益化プラットフォーム", "配信連動広告（CTV含む）。広告領域への越境ルート"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -241,7 +241,7 @@ export default function MediaPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代でメディアからデジタルメディアへ移る場合、強みは「業務知識の厚み」です。配信・編集・権利処理など、現場を分かっている人材はデジタル側でも貴重で、若手にはない説得力を持てます。一方で、採用側はモダンな開発経験の有無を見るため、ここを補う準備が鍵になります。</p>
             <p>40代では、プレイヤーとしての開発力に加えて、チームやプロダクトをまとめる経験が評価されやすくなります。メディア時代のプロジェクト推進・部門連携の経験を、デジタルプロダクト開発の文脈で語れるよう整理しておくと選択肢が広がります。年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの転職年収</Link>も参考にしてください。</p>
-            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>も合わせてどうぞ。</p>
+            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安については<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>もあわせてご覧ください。</p>
           </div>
         </section>
 
@@ -258,7 +258,7 @@ export default function MediaPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">メディアの知識をデジタルメディアで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">メディアの知識をデジタルメディアで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の経験が市場でどう評価されるかを確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>

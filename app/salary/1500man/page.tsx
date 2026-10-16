@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "年収1500万円のエンジニアに必要なスキル・役職・職種【到達ルートと現実】";
 const DESCRIPTION =
-  "年収1500万円のITエンジニアに到達する職種・役割を、経産省ITSSレベルや厚労省job tag（令和7年）など出典を明記して整理します。ITSS最上位（L6・7）を超える、外資・GAFAM級・VPoE/CTO・トップスペシャリストなどごく限られた層である現実を誠実に解説します。30〜40代の狙い方も示します。";
+  "年収1500万円のITエンジニアに到達する職種・役割を、経産省ITSSレベルや厚労省job tag（令和7年）など出典を明記して整理します。ITSS最上位（L6・7）を超える、外資・GAFAM級・VPoE/CTO・トップスペシャリストなどごく限られた層である現実を解説します。30〜40代の狙い方も示します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/1500man/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：年収1500万円の位置づけと現実" },
+  { id: "conclusion", label: "年収1500万円の位置づけと現実" },
   { id: "position", label: "年収1500万円はITSS最上位を超える帯" },
   { id: "jobtag", label: "公的データとの距離（掲載範囲の説明）" },
   { id: "jobs", label: "1500万円に届く座（ごく限られた層）" },
@@ -28,7 +28,7 @@ const toc = [
 const route = [
   {
     title: "報酬テーブルが桁違いの環境に入る",
-    desc: "1500万円は、外資系トップIT（いわゆるGAFAM級）や急成長メガベンチャーなど、そもそも報酬テーブルが桁違いの環境でなければ届きにくい水準です。国内の標準的な給与体系の延長では到達困難だとご説明します。",
+    desc: "1500万円は、外資系トップIT（いわゆるGAFAM級）や急成長メガベンチャーなど、そもそも報酬テーブルが桁違いの環境でなければ届きにくい水準です。国内の標準的な給与体系の延長では到達困難です。",
   },
   {
     title: "経営・組織に責任を負う立場、または代替不能の専門家になる",
@@ -51,11 +51,11 @@ const faqs = [
   },
   {
     q: "1500万円はどんな人が到達していますか？",
-    a: "外資系トップIT企業（いわゆるGAFAM級）のシニア／スタッフエンジニアやマネージャー、急成長メガベンチャーのVPoE・CTO・テックリード最上位、AI・大規模分散システム・セキュリティ等で市場が取り合うトップスペシャリスト、外資コンサルの上位マネージャーなどです。いずれも『報酬テーブルが桁違いの環境』に『代替の利かない実力』で入っている層で、ごく限られた割合に過ぎない点はご説明します。",
+    a: "外資系トップIT企業（いわゆるGAFAM級）のシニア／スタッフエンジニアやマネージャー、急成長メガベンチャーのVPoE・CTO・テックリード最上位、AI・大規模分散システム・セキュリティ等で市場が取り合うトップスペシャリスト、外資コンサルの上位マネージャーなどです。いずれも『報酬テーブルが桁違いの環境』に『代替の利かない実力』で入っている層で、ごく限られた割合に過ぎない点にご留意ください。",
   },
   {
     q: "国内の一般的な企業で1500万円は狙えますか？",
-    a: "国内の標準的なSIer・SES・事業会社の給与テーブルでは、1500万円は役員クラスや極めて限られた上位ポジションに偏り、エンジニア職での到達は容易ではありません。現実的には、外資トップ企業やストックオプションを含む総報酬の高いメガベンチャーなど、報酬水準が桁違いの環境への移動が前提になります。環境を変えずに到達するのは難しい、と誠実に捉えるべき帯です。",
+    a: "国内の標準的なSIer・SES・事業会社の給与テーブルでは、1500万円は役員クラスや極めて限られた上位ポジションに偏り、エンジニア職での到達は容易ではありません。現実的には、外資トップ企業やストックオプションを含む総報酬の高いメガベンチャーなど、報酬水準が桁違いの環境への移動が前提になります。環境を変えずに到達するのは難しい、と捉えるべき帯です。",
   },
   {
     q: "1500万円の年収はどんな構成になっていますか？",
@@ -102,7 +102,7 @@ export default function Salary1500Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収1500万円は、ITエンジニアの中でも<strong>ごく限られた層</strong>が到達する最上位水準です。外資系トップIT・GAFAM級・VPoE/CTO・代替不能のトップスペシャリストなどが中心で、国内の標準的な給与テーブルの延長では到達困難な帯です。本記事では、この1500万円が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理しつつ、到達が容易でない現実を誠実に解説します。
+          年収1500万円は、ITエンジニアの中でも<strong>ごく限られた層</strong>が到達する最上位水準です。外資系トップIT・GAFAM級・VPoE/CTO・代替不能のトップスペシャリストなどが中心で、国内の標準的な給与テーブルの延長では到達困難な帯です。本記事では、この1500万円が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理しつつ、到達が容易でない現実を解説します。
         </p>
 
         <DataNote
@@ -129,7 +129,7 @@ export default function Salary1500Page() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収1500万円の位置づけと現実</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収1500万円の位置づけと現実</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収1500万円は、ITSSの最上位区分L6・7の平均1,129.9万円を<strong>さらに上回る</strong>、公的なレベル別平均では表現しきれない水準です。到達者は、外資系トップIT・急成長メガベンチャーのVPoE/CTO・代替不能のトップスペシャリストなど、<strong>ごく限られた層</strong>に過ぎません。
@@ -159,17 +159,17 @@ export default function Salary1500Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L4</td>
                   <td className="px-4 py-3 border border-slate-200">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門です。700万円帯</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門。700万円帯</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L5</td>
                   <td className="px-4 py-3 border border-slate-200">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層です。900万円帯</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層。900万円帯</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L6・7</td>
                   <td className="px-4 py-3 border border-slate-200">1,129.9万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">最上位の平均です。1500万円はこれを上回る</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">最上位の平均。1500万円はこれを上回る</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">1500万円</td>
@@ -231,7 +231,7 @@ export default function Salary1500Page() {
               1500万円帯の求人は、<strong>外資トップIT・グローバル企業・上場メガベンチャー・外資コンサル</strong>にほぼ限られます。多くはヘッドハンティングや限定的なスカウトで動き、一般公募にはほとんど出ません。報酬も基本給単独ではなく、株式報酬を含む総報酬で構成されるのが通例です。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              率直に言えば、1500万円は<strong>例外的な水準</strong>であり、エンジニアの大多数が到達する帯ではありません。これは能力だけの問題ではなく、戦う環境・報酬テーブル・市場のタイミングが強く絡みます。「到達は容易ではない」「環境と総報酬設計が決定的」という前提を誠実に受け止めたうえで、長期の目標として捉えるのが妥当です。
+              1500万円は<strong>例外的な水準</strong>であり、エンジニアの大多数が到達する帯ではありません。これは能力だけの問題ではなく、戦う環境・報酬テーブル・市場のタイミングが強く絡みます。「到達は容易ではない」「環境と総報酬設計が決定的」という前提を誠実に受け止めたうえで、長期の目標として捉えるのが妥当です。
             </p>
           </div>
         </section>

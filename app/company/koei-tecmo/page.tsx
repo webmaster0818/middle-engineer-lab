@@ -30,8 +30,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["conclusion", "難易度と向いているエンジニア"],
+  ["basic", "基本データ（出典あり）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
   ["salary", "年収データ（重要な注意点あり）"],
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもコーエーテクモに転職できますか？",
-    a: "C++での開発経験や、内製エンジン・グラフィックス等の専門性・実績が問われます。30代・40代でも、その領域で価値を出せる実力があれば年齢自体は大きなハンデになりにくい傾向です。提出会社の平均年齢は38.2歳で、ミドル層も活躍しやすい年齢構成です。",
+    a: "C++での開発経験や、内製エンジン・グラフィックス等の専門性・実績が問われます。30代・40代でも、その領域で価値を出せる実力があれば年齢自体は大きなハンデになりにくい傾向にあります。提出会社の平均年齢は38.2歳で、ミドル層も活躍しやすい年齢構成です。",
   },
 ];
 
@@ -98,7 +98,7 @@ export default function KoeiTecmoCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】コーエーテクモの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 持株会社コーエーテクモホールディングス（3635）の有価証券報告書では、提出会社の平均年間給与は793万円です（2025年3月期・平均年齢38.2歳）。ただし持株会社=提出会社（対象約113名）の数字です。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>持株会社コーエーテクモホールディングス（3635）の有価証券報告書では、提出会社の平均年間給与は793万円です（2025年3月期・平均年齢38.2歳）。ただし持株会社=提出会社（対象約113名）の数字です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 793万円です（2025年3月期 有価証券報告書・持株会社=提出会社、対象約113名）。</li><li>・推移は2024年3月期の810万円から2025年3月期は793万円です（各期 有価証券報告書・持株会社）。</li><li>・実際にゲームを開発するコーエーテクモゲームスの従業員は含まれず、開発職の提示水準とは性質が異なります。提示額は個別求人での確認が確実です。</li></ul>
         </div>
 
@@ -116,14 +116,14 @@ export default function KoeiTecmoCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              コーエーテクモは<strong>内製エンジン「Katana Engine」を含め開発ツールを自社内製し、C++でゲームを開発する企業</strong>です。ツールから内製する文化が特徴で、エンジン・グラフィックス等の専門性を強みにしたいエンジニアに向きます。有価証券報告書の年収（793万円）は持株会社の数字で、開発現場の水準とは別物である点に注意が必要です。
+              コーエーテクモは<strong>内製エンジン「Katana Engine」を含め開発ツールを自社内製し、C++でゲームを開発する企業</strong>です。ツールから内製する文化が特徴で、エンジン・グラフィックス等の専門性を強みにしたいエンジニアに向いています。有価証券報告書の年収（793万円）は持株会社の数字で、開発現場の水準とは別物である点に注意が必要です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：C++での実務経験があり、内製エンジン・グラフィックス・ツール等の専門性を深めたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：単一技術のWeb系モダンスタックやフルリモート前提を強く希望する人</li>
-              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢はハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢がハンデになりにくい環境</li>
             </ul>
           </div>
         </section>
@@ -140,7 +140,7 @@ export default function KoeiTecmoCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -153,7 +153,7 @@ export default function KoeiTecmoCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は有価証券報告書（3635・2025年3月期）に基づく持株会社=提出会社の全社員平均値（対象約113名）。ゲーム開発職の水準を示す数字ではない点に注意が必要です。技術スタックは公式採用ページです（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は有価証券報告書（3635・2025年3月期）に基づく持株会社=提出会社の全社員平均値です（対象約113名）。ゲーム開発職の水準を示す数字ではない点に注意が必要です。技術スタックは公式採用ページに基づきます（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -169,7 +169,7 @@ export default function KoeiTecmoCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">持株会社と開発会社で性質が異なる数字</h3>
-              <p className="text-sm text-petrol-deep">上場は持株会社（3635）で、有価証券報告書の従業員数（提出会社）は約113名ですが、連結従業員数は約2,684名（2025年3月末）です。開発の主体は事業会社のコーエーテクモゲームスである点を踏まえて応募先を確認しましょう。</p>
+              <p className="text-sm text-petrol-deep">上場は持株会社（3635）で、有価証券報告書の従業員数（提出会社）は約113名ですが、連結従業員数は約2,684名（2025年3月末）です。開発の主体は事業会社のコーエーテクモゲームスである点を踏まえ、応募先を確認することをおすすめします。</p>
             </div>
           </div>
         </section>
@@ -267,7 +267,7 @@ export default function KoeiTecmoCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。ゲーム企業の求人も扱い、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム業界の実務経験者への提案に強いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム業界の実務経験者への提案に強みがあります。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

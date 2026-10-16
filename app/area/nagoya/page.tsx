@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：名古屋IT転職市場の特徴" },
+  { id: "conclusion", label: "名古屋IT転職市場の特徴" },
   { id: "market", label: "名古屋・愛知のIT企業集積と特徴" },
   { id: "workstyle", label: "働き方の選択肢（地方×リモート含む）" },
   { id: "salary", label: "年収の考え方（年代別データ）" },
@@ -25,19 +25,19 @@ const toc = [
 
 const fitYes = [
   "製造業・自動車関連のドメイン知識やものづくりの現場経験を活かしたい",
-  "組み込み・車載・IoT・製造ラインのDXなど、ハードに近い領域に関心があります",
+  "組み込み・車載・IoT・製造ラインのDXなど、ハードに近い領域に関心がある",
   "首都圏より通勤負担を抑え、地域に根ざした働き方をしたい",
-  "額面年収と生活コストのバランス（可処分所得）を重視しています",
+  "額面年収と生活コストのバランス（可処分所得）を重視している",
 ];
 
 const fitNo = [
   "最先端のWeb/SaaS自社開発の選択肢を最大限に広げたい（首都圏やフルリモートの方が母数が多い）",
-  "完全フルリモートのみを希望し、地元企業の出社・ハイブリッドは考えていません",
+  "完全フルリモートのみを希望し、地元企業の出社・ハイブリッドは考えていない",
   "短期間で大幅な年収アップだけを最優先したい（領域・スキル次第で差が大きい）",
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も多い層です。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手の層です。ポテンシャル採用も多く見られます。" },
   { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
   { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層です。" },
   { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
@@ -48,25 +48,25 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型です。利用者の多くが20〜30代で、技術理解の高いアドバイザーが特徴です。首都圏中心とされますが、フルリモート求人を介して名古屋在住でも選択肢を広げやすいです。",
+      "IT/Web領域に特化したエージェントです。利用者の多くが20〜30代で、技術理解の高いアドバイザーが特徴です。首都圏中心とされますが、フルリモート求人を介して名古屋在住でも選択肢を広げやすくなります。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "パーソルキャリアが運営する全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、地方の製造業系IT求人にも当たりやすいです。求人量の多さが強みです。",
+      "パーソルキャリアが運営する全国対応の総合型エージェントです。検索・エージェント・スカウトを組み合わせたハイブリッド型で、地方の製造業系IT求人も探しやすくなります。求人量の多さが強みです。",
   },
   {
     name: "リクルートエージェントIT",
     href: "/review/recruit-it/",
     point:
-      "国内最大級の求人数です。非公開求人が豊富で、大手からスタートアップまで網羅しています。全国対応のため、名古屋を含む地方拠点の求人にもアクセスしやすいです。",
+      "国内最大級の求人数を持ち、非公開求人も豊富で、大手からスタートアップまで網羅しています。全国対応のため、名古屋を含む地方拠点の求人にもアクセスしやすくなります。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型です。IT・ゲーム領域に強く、レスポンスの速さに定評があります。地方在住からの転職相談にも対応しやすい体制です。",
+      "全国47都道府県57拠点を構える総合型のエージェントです。IT・ゲーム領域に強みを持ち、レスポンスの速さに定評があります。地方在住からの転職相談にも対応しやすい体制です。",
   },
 ];
 
@@ -77,7 +77,7 @@ const faqs = [
   },
   {
     q: "名古屋でIT企業が多いのはどのエリアですか？",
-    a: "一般に名古屋駅周辺（名駅エリア）に大手SIerやITベンダーの拠点が集まり、伏見・栄エリアにはWeb系企業が見られます。愛知県内では豊田市・刈谷市・安城市など、自動車関連メーカーの集積地に組み込み・車載ソフトウェア開発の拠点が多い傾向です。具体的な企業数・求人数は媒体や時点で変動するため、各エージェントで最新状況を確認するのが確実です。",
+    a: "一般に名古屋駅周辺（名駅エリア）に大手SIerやITベンダーの拠点が集まり、伏見・栄エリアにはWeb系企業が見られます。愛知県内では豊田市・刈谷市・安城市など、自動車関連メーカーの集積地に組み込み・車載ソフトウェア開発の拠点が多い傾向があります。具体的な企業数・求人数は媒体や時点で変動するため、各エージェントで最新状況を確認するのが確実です。",
   },
   {
     q: "トヨタ関連の開発に携わることはできますか？",
@@ -154,10 +154,10 @@ export default function NagoyaAreaPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 市場の特徴 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：名古屋IT転職市場の特徴</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">名古屋IT転職市場の特徴</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               名古屋・愛知のIT転職は「製造業の業務ドメイン × ITスキル」の掛け合わせが評価されやすいのが最大の特徴です。組み込み・車載・製造ラインのDXなど、ものづくりに近い領域の求人が他エリアより厚い傾向があります。
             </p>
@@ -207,7 +207,7 @@ export default function NagoyaAreaPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">求められるスキルの傾向</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                製造・車載寄りの領域ではC/C++や組み込み、IoT、データ基盤、クラウド（AWS/Azure/GCP）などが、Web/SaaS寄りの領域では一般的なWebアプリ開発スタックや開発プロセスの経験が評価されやすい傾向です。自分の経験がどちらの領域に近いかを見極めることが、エリア内での求人探しの起点になります。
+                製造・車載寄りの領域ではC/C++や組み込み、IoT、データ基盤、クラウド（AWS/Azure/GCP）などが、Web/SaaS寄りの領域では一般的なWebアプリ開発スタックや開発プロセスの経験が評価されやすい傾向があります。自分の経験がどちらの領域に近いかを見極めることが、エリア内での求人探しの起点になります。
               </p>
             </div>
           </div>
@@ -232,7 +232,7 @@ export default function NagoyaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>名古屋拠点のWeb/SaaS企業でハイブリッド:</strong> 自社開発やWebサービス系では、週数回出社のハイブリッドが広がっています。地元での人的ネットワークを保ちつつ、開発寄りのキャリアを積みたい人向けです。
+                <strong>名古屋拠点のWeb/SaaS企業でハイブリッド:</strong> 自社開発やWebサービス系では、週数回出社のハイブリッドが広がっています。地元での人的ネットワークを保ちつつ、開発寄りのキャリアを積みたい人に適しています。
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -416,7 +416,7 @@ export default function NagoyaAreaPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">名古屋のIT転職を進めよう</h2>
+          <h2 className="text-xl font-bold mb-3">名古屋のIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
             製造DXからWeb/SaaS、フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、自分に合う働き方の選択肢を広げましょう。
           </p>

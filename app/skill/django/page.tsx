@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Djangoエンジニアの転職市場での進め方" },
+  { id: "conclusion", label: "1. Djangoエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Djangoの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Djangoエンジニアのキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
   { id: "entry", label: "6. 他フレームワークからDjangoに参入するルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "Djangoエンジニアにおすすめの転職エージェントは？",
-    a: "IT・Web特化で求人の質が高いレバテックキャリア、データ・AI連携を含むWeb系の提案に強いGeekly、自社サービス企業と直接やり取りできる成功報酬型サイトのGreenが選択肢です。Djangoは業務系・データ系・自社開発と幅があるため、複数登録して保有求人を比較するのが現実的です。",
+    a: "IT・Web特化で求人の質が高いレバテックキャリア、データ・AI連携を含むWeb系の提案に強みを持つGeekly、自社サービス企業と直接やり取りできる成功報酬型サイトのGreenが選択肢です。Djangoは業務系・データ系・自社開発と幅があるため、複数登録して保有求人を比較するのが現実的です。",
   },
   {
     q: "Djangoは将来性がありますか？",
@@ -124,14 +124,14 @@ export default function DjangoSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Djangoエンジニアの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Djangoエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>DjangoはPythonエコシステムの強みを活かせるWebフレームワークです。</strong>Web開発単体を強みにするより、データ・AIとの連携という掛け合わせで価値を高めるのが向いています。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Django特化の公的年収は乏しいため<strong>Python・職種別・年代別データで代替</strong>（求人ボックス ソフトウェアエンジニア約511万円ほか）</li>
-              <li>・Rails／Laravel／Springなど他フレームワークのWeb開発経験があれば、Djangoへの移行はスムーズ</li>
+              <li>・Django特化の公的年収は乏しいため<strong>Python・職種別・年代別データで代替</strong>します（求人ボックス ソフトウェアエンジニア約511万円ほか）</li>
+              <li>・Rails／Laravel／Springなど他フレームワークのWeb開発経験があれば、Djangoへの移行はスムーズです</li>
               <li>・Djangoは<strong>データ／AI連携やフロントエンドとの掛け合わせ</strong>で市場価値が高まります</li>
             </ul>
           </div>
@@ -146,7 +146,7 @@ export default function DjangoSkillPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ["Django特化の平均年収", "公的な公表は乏しいです（Python・職種別で代替）", "フレームワーク単独の公的統計は限定的"],
+                  ["Django特化の平均年収", "公的な公表は限定的（Python・職種別で代替）", "フレームワーク単独の公的統計は限定的"],
                   ["ソフトウェアエンジニアの平均年収（正社員）", "約511万円", "求人ボックス 給料ナビ（掲載求人からの独自試算）"],
                   ["Webエンジニアの平均年収（正社員）", "約462万円", "求人ボックス 給料ナビ（同上）"],
                   ["正社員SEの平均年収・30代", "約499万円", "レバテック公表（2025年）"],
@@ -198,10 +198,10 @@ export default function DjangoSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "Webアプリエンジニア", note: "DjangoでのWebアプリ・社内システム開発が中心です。求人の多いゾーン" },
-              { role: "バックエンド（API＋データ連携）", note: "Django REST framework＋データ／機械学習の結果を扱うAPI開発" },
-              { role: "フルスタック（Django＋フロント）", note: "Django＋React等で、サービスを一気通貫で開発" },
-              { role: "テックリード／アーキテクト", note: "Django基盤の設計＋データ基盤連携＋技術選定" },
+              { role: "Webアプリエンジニア", note: "DjangoでのWebアプリ・社内システム開発が中心です。求人が多い領域にあたります" },
+              { role: "バックエンド（API＋データ連携）", note: "Django REST frameworkを用い、データ／機械学習の結果を扱うAPIを開発します" },
+              { role: "フルスタック（Django＋フロント）", note: "Django＋React等で、サービスを一貫して開発します" },
+              { role: "テックリード／アーキテクト", note: "Django基盤の設計、データ基盤との連携、技術選定を担います" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -215,7 +215,7 @@ export default function DjangoSkillPage() {
         </section>
 
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Django求人は業務系・データ系・自社開発と幅があります。特定の1社に絞るより、複数のチャネルを横断するのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -228,7 +228,7 @@ export default function DjangoSkillPage() {
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web・ゲーム業界特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で提案スピードが強みです。データ・AI連携を含むWeb系のDjango求人を探したい場合の選択肢になります。
               </p>
@@ -272,7 +272,7 @@ export default function DjangoSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>Web開発経験を横展開しやすいです。</strong>DjangoはMVCの考え方が他フレームワークと共通で、30代・40代でWeb開発の実務を積んでいるなら移行しやすい領域です。Pythonの汎用性も相まって、業務系からデータ寄りまで幅広いポジションを狙えます。
+              <strong>Web開発経験を横展開しやすい領域です。</strong>DjangoはMVCの考え方が他フレームワークと共通で、30代・40代でWeb開発の実務を積んでいるなら移行しやすい領域です。Pythonの汎用性も相まって、業務系からデータ寄りまで幅広いポジションを狙えます。
             </p>
             <p>
               <strong>データ・AIとの掛け算で差別化します。</strong>Django単体より「Django＋データ／AI」「Django＋特定ドメイン（医療・製造・金融など）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、Pythonエコシステムと結びつけて語れると説得力が増します。
@@ -290,13 +290,13 @@ export default function DjangoSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 標準機能（admin・ORM・認証）を使いこなします。</strong>Djangoは「電池付属」で標準機能が豊富です。公式チュートリアルに沿ってアプリを作り、adminやORM、認証の使い方を押さえると、Djangoらしい開発を最短で身につけられます。
+              <strong>① 標準機能（admin・ORM・認証）を使いこなします。</strong>Djangoは「電池付属」で標準機能が豊富です。公式チュートリアルに沿ってアプリを作り、adminやORM、認証の使い方を押さえると、Djangoらしい開発を効率よく身につけられます。
             </p>
             <p>
               <strong>② API開発（DRF）を経験します。</strong>Django REST frameworkを使ったAPI開発は実務で頻出です。フロントやモバイルと連携するAPIを設計・実装し、認証やシリアライザの扱いを経験として語れる状態にしましょう。
             </p>
             <p>
-              <strong>③ データ・AIエコシステムを掛け合わせます。</strong>pandasや機械学習の成果をDjangoで配信するなど、Pythonの強みを活かす題材に取り組むと、データ寄りの高付加価値ポジションに近づきます。Web単体に閉じないのが市場価値を高める鍵です。
+              <strong>③ データ・AIエコシステムを掛け合わせます。</strong>pandasや機械学習の成果をDjangoで配信するなど、Pythonの強みを活かす題材に取り組むと、データ寄りの高付加価値ポジションに近づきます。Web単体に閉じないことが、市場価値を高めるうえで重要です。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -322,7 +322,7 @@ export default function DjangoSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Djangoのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Django求人は業務系・データ系・自社開発と幅広いので、複数のIT特化型エージェントで保有求人を横断比較するのが近道です。
+            Django求人は業務系・データ系・自社開発と幅広いので、複数のIT特化型エージェントで保有求人を横断比較するのが効率的です。
           </p>
           <Link
             href="/#ranking"

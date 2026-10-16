@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：Swift/iOS転職の進め方" },
+  { id: "conclusion", label: "Swift/iOS転職の進め方" },
   { id: "market", label: "市場・年収データ（公表値）" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
-  { id: "find", label: "求人の探し方・強いエージェント" },
+  { id: "find", label: "求人の探し方と主なエージェント" },
   { id: "entry", label: "Android・未経験からの参入ルート" },
   { id: "middle", label: "30代・40代の視点" },
   { id: "study", label: "スキルアップ・学習戦略" },
@@ -36,9 +36,9 @@ const salaryRows = [
 ];
 
 const careerPaths = [
-  { role: "iOSエンジニア", note: "SwiftUI/UIKitでのiOSアプリ開発。自社サービス企業のiOS専任ポジションが中心です。" },
-  { role: "モバイルテックリード", note: "iOS/Androidチームのリード、アーキテクチャ設計、技術選定。30代後半〜40代の中心的な活躍領域です。" },
-  { role: "フリーランスiOSエンジニア", note: "自社サービス企業のiOS開発案件です。フリーランス案件の平均年収・単価は高めの傾向です（2025年調査）。" },
+  { role: "iOSエンジニア", note: "SwiftUI/UIKitでのiOSアプリ開発を担います。自社サービス企業のiOS専任ポジションが中心です。" },
+  { role: "モバイルテックリード", note: "iOS/Androidチームのリード、アーキテクチャ設計、技術選定を担い、30代後半〜40代の中心的な活躍領域です。" },
+  { role: "フリーランスiOSエンジニア", note: "自社サービス企業のiOS開発案件が中心で、フリーランス案件の平均年収・単価は高めの傾向があります（2025年調査）。" },
 ];
 
 const points = [
@@ -50,7 +50,7 @@ const points = [
 const faqs = [
   {
     q: "Swift/iOSエンジニアの平均年収はどのくらいですか？",
-    a: "雇用形態で大きく異なります。求人ボックスの給料ナビではSwiftエンジニア正社員の平均年収は約572万円です（2023年9月時点とやや古い）。一方、フリーランスボードの調査（2025年10月・INSTANTROOM）ではSwift案件の平均年収が約945万円・月単価約78.7万円と高めです。正社員の年代感はレバテックの公表値（2025年）で正社員SE平均が30代約499万円・40代約618万円である点も参考になります。",
+    a: "雇用形態で大きく異なります。求人ボックスの給料ナビではSwiftエンジニア正社員の平均年収は約572万円です（2023年9月時点の値のため、やや古い点に注意が必要です）。一方、フリーランスボードの調査（2025年10月・INSTANTROOM）ではSwift案件の平均年収が約945万円・月単価約78.7万円と高めです。正社員の年代感はレバテックの公表値（2025年）で正社員SE平均が30代約499万円・40代約618万円である点も参考になります。",
   },
   {
     q: "Swift/iOSの需要は今後も続きますか？",
@@ -58,15 +58,15 @@ const faqs = [
   },
   {
     q: "Objective-CからSwiftへの移行は難しいですか？",
-    a: "Swift自体の習得は比較的容易ですが、SwiftUI・Combine・async/awaitなどモダンな開発パターンの習得に2〜3か月程度かかります。既存のObjective-CコードベースをSwiftへ移行できるスキルは、保守需要のある現場で市場価値が高いです。",
+    a: "Swift自体の習得は比較的容易ですが、SwiftUI・Combine・async/awaitなどモダンな開発パターンの習得に2〜3か月程度かかります。既存のObjective-CコードベースをSwiftへ移行できるスキルは、保守需要のある現場で市場価値が高いといえます。",
   },
   {
     q: "iOSの求人はどんな企業に多いですか？",
-    a: "メガベンチャー、BtoCアプリ企業、フィンテック、ヘルスケアアプリ企業などに多く見られます。自社サービスを持つ企業でのiOS専任エンジニアの需要が特に高い傾向です。",
+    a: "メガベンチャー、BtoCアプリ企業、フィンテック、ヘルスケアアプリ企業などに多く見られます。自社サービスを持つ企業でのiOS専任エンジニアの需要が特に高い傾向があります。",
   },
   {
     q: "AndroidからiOSへの転向は可能ですか？",
-    a: "可能です。UI設計・ライフサイクル・API連携などモバイル開発の基礎は共通します。SwiftUIとJetpack Composeは設計思想が似ているため、Android経験者はSwiftUIの習得がスムーズな傾向です。",
+    a: "可能です。UI設計・ライフサイクル・API連携などモバイル開発の基礎は共通します。SwiftUIとJetpack Composeは設計思想が似ているため、Android経験者はSwiftUIの習得がスムーズに進む傾向があります。",
   },
   {
     q: "iOSエンジニアにおすすめの転職エージェントは？",
@@ -117,10 +117,10 @@ export default function SwiftSkillPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：Swift/iOS転職の進め方</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">Swift/iOS転職の進め方</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               iOSは自社サービス企業を中心に需要が安定しており、フリーランス案件では高単価が出やすいスキルです（フリーランスボード調査でSwift案件平均年収約945万円・2025年10月）。<strong>App Store公開アプリ＋SwiftUI/アーキテクチャ設計の実績で“即戦力”を可視化</strong>し、モバイルに強いエージェントで求人を引き出すのが効率的です。
             </p>
@@ -212,7 +212,7 @@ export default function SwiftSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             iOS求人は自社サービス企業・メガベンチャーに集中しやすい領域です。企業の技術スタックや開発体制を引き出せるエージェントを使い分けるのが効率的です。
           </p>
@@ -224,12 +224,12 @@ export default function SwiftSkillPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化です。スタートアップ・自社開発のiOS求人が見つかりやすく、提案スピードが強みです。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界に特化しており、スタートアップ・自社開発のiOS求人が見つかりやすく、提案スピードが強みです。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型です。実績のあるiOSエンジニアは、年収を上げる選択肢としてスカウトを受けやすいです。</p>
+              <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型です。実績のあるiOSエンジニアは、年収を上げる選択肢としてスカウトを受けやすくなります。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -273,7 +273,7 @@ export default function SwiftSkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
             {[
               ["モダンSwiftを押さえます", "SwiftUI、Combine、async/await、Swift Concurrencyを実プロジェクトで使いこなします。"],
-              ["アーキテクチャを語れるように", "MVVM/Clean Architecture/TCAなどの設計判断を、規模や要件に応じて選べるようにします。"],
+              ["アーキテクチャを語れるようにします", "MVVM/Clean Architecture/TCAなどの設計判断を、規模や要件に応じて選べるようにします。"],
               ["品質・運用で差をつけます", "テスト、CI/CD、クラッシュ解析、App Store審査対応の経験は具体的な強みになります。"],
               ["アウトプットを残します", "公開アプリの継続運用、技術記事、OSS貢献など、運用力が見える成果物を蓄積します。"],
             ].map(([t, d], i) => (
@@ -298,8 +298,8 @@ export default function SwiftSkillPage() {
                 {[
                   "1つのアプリをじっくり磨き込み、UI/UX品質にこだわりたい",
                   "自社サービス企業でプロダクトに長く関わりたい",
-                  "公開アプリや個人開発で手を動かす習慣があります",
-                  "Appleの新OS・新フレームワークを追いかけるのが苦ではありません",
+                  "公開アプリや個人開発で手を動かす習慣がある",
+                  "Appleの新OS・新フレームワークを追いかけるのが苦ではない",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -310,8 +310,8 @@ export default function SwiftSkillPage() {
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
                   "幅広い技術を浅く広く触りたい（iOSは専門特化が評価されやすい）",
-                  "Apple特有の審査・ガイドライン対応にストレスを感じます",
-                  "地方在住で出社必須の自社開発企業を志望しています（求人が都市部に集中しがち）",
+                  "Apple特有の審査・ガイドライン対応にストレスを感じる",
+                  "地方在住で出社必須の自社開発企業を志望している（求人が都市部に集中しがち）",
                   "短期間で多数の案件を回したい（腰を据えた開発が中心）",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">･</span><span>{t}</span></li>

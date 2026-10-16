@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論サマリ（どんな人向けか）" },
+  { id: "summary", label: "要点（どんな人向けか）" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strength", label: "特徴・強み" },
   { id: "good", label: "良い評判の傾向" },
@@ -66,7 +66,7 @@ const badReviews = [
   {
     title: "マージン非公表で手取り感が読みにくい",
     body: "マージン（手数料）が非公表のため、提示単価のうちどれだけが自分の取り分かが事前に分かりづらいという不安の声があります。二次情報では10〜20%程度と推測されますが、これは推定で公式値ではありません（確認不可）。",
-    cope: "提示されるのは原則「自分が受け取る単価」であることが多いため、面談時に手取りベースの単価と契約形態（準委任／請負）を必ず確認します。マージンを公開するPE-BANKと比較すると相場感をつかみやすいです。",
+    cope: "提示されるのは原則「自分が受け取る単価」であることが多いため、面談時に手取りベースの単価と契約形態（準委任／請負）を必ず確認します。マージンを公開するPE-BANKと比較すると相場感をつかみやすくなります。",
   },
   {
     title: "実務経験が前提で未経験には案件が出にくい",
@@ -79,13 +79,13 @@ const fitYes = [
   "IT・Web系の実務経験がある30代・40代エンジニア",
   "低マージン・エンド直の高単価案件を狙いたい経験者",
   "東京・大阪周辺で参画できる、またはリモート可案件を希望",
-  "幅広い年代に対応してほしいです",
+  "幅広い年代に対応してほしい",
   "丁寧なヒアリング・条件交渉の相談をしたい",
 ];
 
 const fitNo = [
-  "IT実務未経験・経験が浅く即戦力アピールが難しいです",
-  "東京・大阪以外の地方常駐案件を中心に探しています",
+  "IT実務未経験・経験が浅く即戦力アピールが難しい",
+  "東京・大阪以外の地方常駐案件を中心に探している",
   "マージンが完全公開されたサービスで選びたい（→PE-BANK）",
   "正社員並みの報酬保障を最優先したい（→Midworks）",
 ];
@@ -205,17 +205,17 @@ export default function EngineerFactoryReview() {
           ]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：このような方におすすめ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">このような方におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：東京・大阪圏で、低マージン・エンド直の高単価を狙いたい経験者向けです</span>。要約すると「都市圏（またはリモート）で単価を取りに行きたいIT実務経験者」向けのフリーランスエージェントです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・低マージンのエンド直案件が多く、平均単価76万円/月という二次情報です。</li>
+              <li>・低マージンのエンド直案件が多く、平均単価は76万円/月とされています（二次情報）。</li>
               <li>・取引1,700社以上・非公開案件3,000件以上です（二次情報）。20代〜50代まで幅広く対応しています。</li>
-              <li>・一方で対応は東京・大阪周辺中心・マージン非公表です。地方はPE-BANK併用が現実的です。</li>
+              <li>・一方で、対応エリアは東京・大阪周辺が中心で、マージンは非公表です。地方はPE-BANK併用が現実的です。</li>
             </ul>
           </div>
         </section>
@@ -356,7 +356,7 @@ export default function EngineerFactoryReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              スキルが市場で評価されやすく、独立による単価アップの効果が大きい年代です。東京・大阪圏で参画できるなら本命の一つになります。最初の数案件は安全側に倒し、案件量を補うためレバテックフリーランス等と併用するのが堅実です。
+              スキルが市場で評価されやすく、独立による単価アップの効果が大きい年代です。東京・大阪圏で参画できるなら有力な選択肢の一つになります。最初の数案件は慎重に選び、案件量を補うためレバテックフリーランス等と併用するのが堅実です。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
@@ -421,7 +421,7 @@ export default function EngineerFactoryReview() {
         <section id="compare" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フリーランス各社の使い分け</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            フリーランスエージェントは「何を重視するか」で選ぶと失敗しにくいです。エンジニアファクトリーは「東京・大阪圏でのエンド直高単価」が強みで、全国対応・案件量・透明性を重視するなら他社との併用が有効です。
+            フリーランスエージェントは「何を重視するか」で選ぶと失敗しにくい傾向があります。エンジニアファクトリーは「東京・大阪圏でのエンド直高単価」が強みで、全国対応・案件量・透明性を重視するなら他社との併用が有効です。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">

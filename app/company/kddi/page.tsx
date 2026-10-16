@@ -30,8 +30,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["conclusion", "難易度と向いているエンジニア"],
+  ["basic", "基本データ（出典あり）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術領域・募集職種（公式採用情報ベース）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -66,11 +66,11 @@ const faqs = [
   },
   {
     q: "KDDIへの転職難易度は高いですか？",
-    a: "クラウド・データ・AI・5Gといった専門領域で即戦力を求める採用が中心です。AWS等のクラウドや大規模分散処理の実務経験があれば挑戦の余地は十分にあり、ジョブ型のため専門性が明確なほど評価されやすい傾向です。",
+    a: "クラウド・データ・AI・5Gといった専門領域で即戦力を求める採用が中心です。AWS等のクラウドや大規模分散処理の実務経験があれば挑戦の余地は十分にあり、ジョブ型のため専門性が明確なほど評価されやすい傾向があります。",
   },
   {
     q: "30代・40代でもKDDIに転職できますか？",
-    a: "提出会社の平均年齢は42.0歳とミドル層が中心で、専門性のある中途採用は現実的です。クラウド・データ・AI・通信などの実績と、大規模システムの設計・運用経験があると評価されやすい傾向です。",
+    a: "提出会社の平均年齢は42.0歳とミドル層が中心で、専門性のある中途採用は現実的です。クラウド・データ・AI・通信などの実績と、大規模システムの設計・運用経験があると評価されやすい傾向にあります。",
   },
 ];
 
@@ -98,8 +98,8 @@ export default function KddiCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】KDDIの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: KDDIの平均年間給与は1,051万円です（2026年3月期 有価証券報告書・提出会社の全社員平均、平均年齢42.3歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,051万円です（2026年3月期 有価証券報告書・提出会社単体の全社員平均）。近年は954万円（2021年3月期）から上昇傾向です。</li><li>・参考：レバテック公表の正社員SE年代別平均は30代 約499万円・40代 約618万円（2025年）。KDDIの全社平均はこれを上回るが管理職・上位等級を含む値です。</li><li>・エンジニア職限定の公式レンジは一次情報が乏しく非公表です。ジョブ型のため提示額は職務・等級で幅があり、個別求人での確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>KDDIの平均年間給与は1,051万円です（2026年3月期 有価証券報告書・提出会社の全社員平均、平均年齢42.3歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,051万円です（2026年3月期 有価証券報告書・提出会社単体の全社員平均）。近年は954万円（2021年3月期）から上昇を続けています。</li><li>・参考：レバテック公表の正社員SE年代別平均は30代 約499万円・40代 約618万円（2025年）。KDDIの全社平均はこれを上回りますが、管理職・上位等級を含む値です。</li><li>・エンジニア職限定の公式レンジは一次情報が乏しく非公表です。ジョブ型のため提示額は職務・等級で幅があり、個別求人での確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -118,14 +118,14 @@ export default function KddiCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              KDDIは<strong>5G通信という巨大インフラを土台に、クラウド・データ・AIで事業を拡張している通信大手</strong>です。ジョブ型人事のもとで専門性が評価されやすく、通信×ITの大規模領域で力を発揮したいエンジニアに向きます。
+              KDDIは<strong>5G通信という巨大インフラを土台に、クラウド・データ・AIで事業を拡張している通信大手</strong>です。ジョブ型人事のもとで専門性が評価されやすく、通信×ITの大規模領域で力を発揮したいエンジニアに向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：クラウド（AWS/GCP/Azure）・データ基盤・AI・通信ネットワークの実務経験があり、大規模インフラに関わりたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：少人数の裁量重視・スピード最優先のスタートアップ的働き方を求める人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢42.3歳のミドル中心組織で、専門性があれば中途の枠は現実的</li>
+              <li>● <strong>30代・40代</strong>：平均年齢42.3歳のミドル中心組織で、専門性があれば中途採用も現実的な選択肢</li>
             </ul>
           </div>
         </section>
@@ -142,7 +142,7 @@ export default function KddiCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -155,7 +155,7 @@ export default function KddiCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく提出会社（KDDI株式会社単体）の全社員平均値。技術領域は公式採用情報です（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく提出会社（KDDI株式会社単体）の全社員平均値です。技術領域は公式採用情報に基づきます（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -270,8 +270,8 @@ export default function KddiCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。クラウド・データ・通信系の求人にも対応し、非公開求人も豊富です。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、通信大手の専門職・管理職求人に対応しています。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラス領域に強みがあり、通信大手の専門職・管理職求人に対応しています。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

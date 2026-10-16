@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どちらがおすすめか" },
+  { id: "conclusion", label: "どちらがおすすめか" },
   { id: "basic", label: "基本データ比較表（2026年6月時点）" },
   { id: "kyujin", label: "項目別比較①：求人数・求人の傾向" },
   { id: "salary", label: "項目別比較②：年収アップ実績" },
@@ -32,15 +32,15 @@ const comparison = [
   { item: "サービス形態", a: "総合型。検索＋エージェント＋スカウトのハイブリッド", b: "IT特化型エージェント（紹介型）" },
   { item: "IT求人数", a: "IT・通信エンジニア求人5万件超（2026年2月時点・二次経由）", b: "総数の公式値は確認不可（断定なし）" },
   { item: "対応エリア", a: "全国", b: "全国（主要都市に拠点・二次）" },
-  { item: "得意領域", a: "IT含む全業種を幅広くカバーします。好条件求人が多い", b: "20〜30代若手層に強い。書類添削・面接対策が手厚い" },
-  { item: "年収・定着実績", a: "転職者の約6割が年収アップを実現しています。IT・通信の平均決定年収469万→486万円（2024年度・公表値）", b: "転職後定着率97.5%・年収アップ率73.7%（二次情報・転職メディア集計）" },
-  { item: "サポート", a: "2名体制でのサポートになる場合があります。コンテンツが充実", b: "IT業界に詳しい担当による手厚い個別サポート" },
+  { item: "得意領域", a: "IT含む全業種を幅広くカバー。好条件求人が豊富", b: "20〜30代若手層に強み。書類添削・面接対策が手厚い点が特徴" },
+  { item: "年収・定着実績", a: "転職者の約6割が年収アップ。IT・通信の平均決定年収469万→486万円（2024年度・公表値）", b: "転職後定着率97.5%・年収アップ率73.7%（二次情報・転職メディア集計）" },
+  { item: "サポート", a: "2名体制でのサポートの場合あり。コンテンツが充実", b: "IT業界に詳しい担当による手厚い個別サポート" },
   { item: "料金", a: "完全無料", b: "完全無料" },
 ];
 
 const faqs = [
   { q: "doda ITとマイナビIT AGENTの最大の違いは何ですか？", a: "dodaは総合型で、検索＋エージェント＋スカウトのハイブリッド型です。IT・通信エンジニア求人5万件超（2026年2月時点・二次経由）と求人量が豊富です。マイナビIT AGENTはIT特化型の紹介型エージェントで、20〜30代の若手層に強く、書類添削・面接対策などの個別サポートが手厚いのが特徴です。求人量のdoda、伴走サポートのマイナビという整理ができます。" },
-  { q: "求人数が多いのはどちらですか？", a: "公開されている数値ではdodaが多く、IT・通信エンジニア求人5万件超（2026年2月時点・二次経由）です。マイナビIT AGENTは総数の公式値が確認できないため断定はできませんが、IT業界に特化しているため、ITに絞れば質の高い求人が揃っています。数を重視するならdoda、特化した提案を受けたいならマイナビです。" },
+  { q: "求人数が多いのはどちらですか？", a: "公開されている数値ではdodaが多く、IT・通信エンジニア求人5万件超（2026年2月時点・二次経由）です。マイナビIT AGENTは総数の公式値が確認できないため断定はできませんが、IT業界に特化しているため、ITに絞れば質の高い求人が揃っています。数を重視するならdoda、特化した提案を受けたいならマイナビが適しています。" },
   { q: "サポートが手厚いのはどちらですか？", a: "個別サポートの手厚さではマイナビIT AGENTに分があります。IT業界に詳しい担当による書類添削・面接対策が丁寧で、初めての転職でも安心という評判が見られます（Qiita Job Change／OUTSIDEMAGAZINE）。dodaは2名体制でサポートされる場合があり、自己分析ツールなどコンテンツが充実していますが、求人量が多いぶん1人あたりのサポート密度は担当により差があります。" },
   { q: "年収アップを狙うならどちらがおすすめですか？", a: "dodaは運営元パーソルキャリアの『2024年度 決定年収レポート』（2025年5月公表）で、転職者の約6割が年収アップ、IT・通信の平均決定年収が469万円（2023年度）から486万円（2024年度）に上昇したと公表しています。マイナビIT AGENTは年収アップ率73.7%（二次情報・転職メディア集計）とされます。出典の性質が異なるため単純比較はできませんが、いずれも年収アップの実績が示されています。" },
   { q: "連絡が多い・しつこいという口コミは本当ですか？", a: "dodaは求人・連絡が多すぎるという声（freeconsul／HonNe等）、マイナビIT AGENTも連絡が多いという声（axxis等）がそれぞれ見られます。求人提案が活発な裏返しでもあります。連絡手段・頻度の希望を最初に伝えることで配信量を調整できます。" },
@@ -53,14 +53,14 @@ const goodDoda = [
   "とにかく多くのIT求人から自分で選びたい",
   "検索・エージェント・スカウトを使い分けたい",
   "年収アップの公表実績を重視したい",
-  "ハイクラスや地方求人も視野に入れています",
+  "ハイクラスや地方求人も視野に入れている",
   "40代でも幅広い選択肢を確保したい",
 ];
 const goodMynavi = [
   "書類添削・面接対策を丁寧に受けたい",
-  "IT業界に詳しい担当に伴走してほしいです",
-  "初めての転職で不安が大きいです",
-  "20代〜30代でIT内のキャリアアップを目指します",
+  "IT業界に詳しい担当に伴走してほしい",
+  "初めての転職で不安が大きい",
+  "20代〜30代でIT内のキャリアアップを目指している",
   "求人量より提案の質を重視したい",
 ];
 
@@ -77,7 +77,7 @@ export default function DodaVsMynaviPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">dodaとマイナビIT AGENTを比較｜どっちがおすすめ？</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 総合型ハイブリッド と IT特化型エージェントを比較</p>
 
-        <p className="text-slate-600 leading-relaxed mb-4">「doda マイナビIT 比較」で検索する方は、求人量の総合型を取るか、サポートの手厚いIT特化型を取るかで迷っているはずです。本記事は30代・40代のITエンジニア向けに、両サービスを求人数・年収・サポート・スピード・対象層の5項目で比較し、口コミ傾向と併用術まで実データで整理しました。</p>
+        <p className="text-slate-600 leading-relaxed mb-4">「doda マイナビIT 比較」で検索する方の多くは、求人量の多い総合型を選ぶか、サポートの手厚いIT特化型を選ぶかで迷っていると考えられます。本記事は30代・40代のITエンジニア向けに、両サービスを求人数・年収・サポート・スピード・対象層の5項目で比較し、口コミ傾向と併用術まで実データで整理しました。</p>
 
         <DataNote surveyedAt="2026年6月" sources={["doda公式・パーソルキャリア決定年収レポート（2025年5月公表）", "マイナビIT AGENT 実績の転職メディア集計", "Qiita Job Change", "OUTSIDEMAGAZINE", "axxis等の口コミメディア集計"]} />
 
@@ -91,7 +91,7 @@ export default function DodaVsMynaviPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">どちらがおすすめか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
@@ -119,13 +119,13 @@ export default function DodaVsMynaviPage() {
           <p className="text-slate-600 leading-relaxed mb-4">dodaは総合型ならではの求人量が強みで、IT・通信エンジニア求人5万件超（2026年2月時点・二次経由）を保有します。検索＋エージェント＋スカウトのハイブリッド型で、自分で求人を探すこともアドバイザーに提案してもらうこともできます。好条件求人が多いという評判があり、ハイクラスや地方の求人まで幅広くカバーします。</p>
           <p className="text-slate-600 leading-relaxed mb-4">マイナビIT AGENTは総数の公式値が確認できないため断定は避けますが、IT特化型として20〜30代の若手層向け求人に強みがあります。Web系・SIer・社内SEなどの求人を、IT業界に詳しい担当が選定して提案する設計です。求人の「量」より「マッチングの精度」を強みにするタイプといえます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p><strong>まとめ：</strong>選択肢の広さならdoda、特化した提案の精度ならマイナビIT AGENTです。ハイクラスや地方求人も視野に入れるなら、求人量の多いdodaを軸に据えるのが安全です。<Link href="/compare/agents/" className="text-petrol hover:underline">10社比較</Link>もあわせてご確認ください。</p>
+            <p><strong>まとめ：</strong>選択肢の広さならdoda、特化した提案の精度ならマイナビIT AGENTが適しています。ハイクラスや地方求人も視野に入れるなら、求人量の多いdodaを軸に据えるのが安全です。<Link href="/compare/agents/" className="text-petrol hover:underline">10社比較</Link>もあわせてご確認ください。</p>
           </div>
         </section>
 
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較②：年収アップ実績</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">dodaは運営元パーソルキャリアの『2024年度 決定年収レポート』（2025年5月公表）で、転職者の約6割が年収アップしたこと、IT・通信の平均決定年収が469万円（2023年度）から486万円（2024年度）へ上昇したことを公表しています。公的なレポートとして年収アップ実績が示されている点は、判断材料としての信頼性が高いといえます。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">dodaは運営元パーソルキャリアの『2024年度 決定年収レポート』（2025年5月公表）で、転職者の約6割が年収アップしたこと、IT・通信の平均決定年収が469万円（2023年度）から486万円（2024年度）へ上昇したことを公表しています。運営元が公表したレポートで年収アップ実績が示されている点は、判断材料としての信頼性が高いといえます。</p>
           <p className="text-slate-600 leading-relaxed mb-4">マイナビIT AGENTは、転職後定着率97.5%・年収アップ率73.7%（いずれも二次情報・転職メディア集計）とされています。定着率の高さは、ミスマッチの少ない丁寧なマッチングの裏付けとも読めます。ただし出典の性質がdodaの公表値とは異なるため、数値の単純比較は避けるのが適切です。</p>
           <p className="text-slate-600 leading-relaxed text-sm">年代別の年収相場は<Link href="/compare/salary-ranking/" className="text-petrol hover:underline">年収ランキング</Link>、交渉の具体策は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>もあわせてご覧ください。</p>
         </section>
@@ -142,7 +142,7 @@ export default function DodaVsMynaviPage() {
               <p className="text-sm text-slate-600 leading-relaxed">IT業界に詳しい担当による手厚い個別サポートが強みです。書類添削・面接対策が丁寧で、初めての転職でも安心という評判が見られます（Qiita Job Change／OUTSIDEMAGAZINE）。伴走型のサポートを重視する人に向きます。</p>
             </div>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm">手厚い伴走を求めるならマイナビ、自分で進めつつコンテンツも活用したいならdodaです。<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">初回面談の進め方</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">手厚い伴走を求めるならマイナビ、自分で進めつつコンテンツも活用したいならdodaが適しています。<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">初回面談の進め方</Link>も参考にしてください。</p>
         </section>
 
         <section id="speed" className="mb-12 scroll-mt-20">
@@ -154,7 +154,7 @@ export default function DodaVsMynaviPage() {
         <section id="target" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較⑤：対象層・年代適性</h2>
           <p className="text-slate-600 leading-relaxed mb-4">dodaは全年代・全業種をカバーし、ハイクラスや地方求人も含めて選択肢を広く確保できます。求人量を活かして幅広く比較したい層に向きます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">マイナビIT AGENTは20〜30代の若手層に強い一方、ハイクラス・地方求人が手薄、紹介求人数が少ない場合があるという指摘があります（axxis等）。若手で初めての転職、または手厚いサポートを重視する層に最適です。40代やハイクラス志向の場合は、dodaを軸にマイナビをサポート補強として併用するのが現実的です。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">マイナビIT AGENTは20〜30代の若手層に強い一方、ハイクラス・地方求人が手薄、紹介求人数が少ない場合があるという指摘があります（axxis等）。若手で初めての転職、または手厚いサポートを重視する層に適しています。40代やハイクラス志向の場合は、dodaを軸にマイナビをサポート補強として併用するのが現実的です。</p>
         </section>
 
         <section id="review" className="mb-12 scroll-mt-20">
@@ -164,17 +164,17 @@ export default function DodaVsMynaviPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">dodaの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>求人量が多い</li><li>好条件求人が多い</li><li>2名体制サポートの場合あり</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>求人量が多い傾向</li><li>好条件求人が豊富</li><li>2名体制サポートの場合あり</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>求人・連絡が多すぎる</li><li>アドバイザーの質にばらつき</li><li>IT専門性がやや低いとの声</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>求人・連絡が多すぎるとの声</li><li>アドバイザーの質にばらつき</li><li>IT専門性がやや低いとの声</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：studio-tale／best-w／freeconsul／HonNe等</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">マイナビIT AGENTの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>サポートが手厚い</li><li>担当がIT業界に詳しい</li><li>初めての転職でも安心</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>手厚いサポート</li><li>IT業界に詳しい担当者</li><li>初めての転職でも安心</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>連絡が多い</li><li>紹介求人数が少ない場合</li><li>ハイクラス・地方求人が手薄</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>連絡の多さ</li><li>紹介求人数が少ない場合あり</li><li>ハイクラス・地方求人が手薄</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：Qiita Job Change／OUTSIDEMAGAZINE／axxis等</p>
             </div>
           </div>
@@ -217,7 +217,7 @@ export default function DodaVsMynaviPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験のある30代・40代エンジニアには追い風ですが、この2社は年代によって向き不向きがはっきり分かれます。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>30代前半までであれば、マイナビIT AGENTの手厚いサポートが活きます。IT業界に詳しい担当が書類添削・面接対策まで伴走し、定着率97.5%（二次情報）という数字はミスマッチの少なさを示します。一方、年収アップを定量的に重視するなら、IT・通信の平均決定年収が486万円（2024年度・doda公表値）まで上昇しているdodaの求人量も併用すると、相場観を持ちながら交渉できます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>マイナビIT AGENTは20〜30代の若手層に強く、ハイクラス・地方求人が手薄という指摘があるため（axxis等）、40代は注意が必要です。40代はdodaを主軸に据え、求人の母数とハイクラス・地方求人の選択肢を確保するのが現実的です。マイナビは書類・面接のサポート補強として併用すると、強みだけを取り込めます。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>マイナビIT AGENTは20〜30代の若手層に強く、ハイクラス・地方求人が手薄という指摘があるため（axxis等）、40代は注意が必要です。40代はdodaを主軸に据え、求人の母数とハイクラス・地方求人の選択肢を確保するのが現実的です。マイナビは書類・面接のサポート補強として併用すると、それぞれの強みを活かせます。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
           <p className="text-slate-600 leading-relaxed text-sm">年代でサービスの主従を入れ替えるのが、ミドルエンジニアがこの2社を使いこなすコツです。</p>
         </section>
 

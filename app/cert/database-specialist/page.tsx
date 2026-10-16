@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：DBスペシャリストは誰に効く資格か" },
+  { id: "conclusion", label: "DBスペシャリストはどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・合格率）" },
   { id: "menjo", label: "午前Ⅰ免除制度のメリット" },
   { id: "salary", label: "保有者の年収の考え方と注意点" },
   { id: "scenes", label: "転職で評価される具体場面" },
   { id: "jobs", label: "活きるポジション" },
-  { id: "middle", label: "30代・40代の価値＝専門性の客観証明" },
+  { id: "middle", label: "30代・40代にとっての価値：専門性の客観的な証明" },
   { id: "steps", label: "取得3ステップ／次に狙う資格" },
   { id: "faq", label: "よくある質問" },
 ];
@@ -29,7 +29,7 @@ const toc = [
 const faqs = [
   {
     q: "データベーススペシャリストは40代の転職で意味がありますか？",
-    a: "データベース設計・運用・チューニングの実務がある経験者には意味があります。DBスペシャリストはIPAの高度試験で、データ基盤領域の体系的な専門性を国家資格として客観的に示せます。すでに現場経験のある30〜40代が、上流（論理・物理設計や要件定義）やデータ基盤職への役割を広げる加点材料になります。ただし資格単体で年収が跳ねるわけではなく、実務経験との掛け算が前提です。",
+    a: "データベース設計・運用・チューニングの実務がある経験者には意味があります。DBスペシャリストはIPAの高度試験で、データ基盤領域の体系的な専門性を国家資格として客観的に示せます。すでに現場経験のある30〜40代が、上流（論理・物理設計や要件定義）やデータ基盤職への役割を広げる加点材料になります。ただし資格単体で年収が大きく上がるわけではなく、実務経験と組み合わせることが前提です。",
   },
   {
     q: "DBスペシャリストの合格率はどのくらいですか？",
@@ -62,7 +62,7 @@ const overviewTable = [
   ["合格率", "令和7年度秋期 18.4%（受験9,769人・合格1,796人／IPA）"],
   ["実施時期", "秋期（10月）。令和8年度よりCBT移行予定"],
   ["免除特典", "合格後、他の高度試験・支援士の午前Ⅰを2年間免除"],
-  ["有効期限", "なし（国家資格・普遍的）"],
+  ["有効期限", "なし（生涯有効）"],
 ];
 
 export default function DatabaseSpecialistCertPage() {
@@ -100,7 +100,7 @@ export default function DatabaseSpecialistCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          データベーススペシャリスト試験（DB）は、IPAが主催する高度試験のうちデータベース領域の最上位に位置づけられる国家資格です。本記事は「DBスペシャリストを取れば転職で有利になるか」という疑問に対し、<strong>データ基盤実務者が専門性を客観的に証明する『経験者の加点資格』</strong>という性格を軸に、設計・データ基盤職での評価や午前Ⅰ免除のメリットを含め、IPA公式情報をもとに整理します。資格単体では年収は跳ねないという留意点もご説明します。
+          データベーススペシャリスト試験（DB）は、IPAが主催する高度試験のうちデータベース領域の最上位に位置づけられる国家資格です。本記事は「DBスペシャリストを取れば転職で有利になるか」という疑問に対し、<strong>データ基盤実務者が専門性を客観的に証明する『経験者の加点資格』</strong>という性格を軸に、設計・データ基盤職での評価や午前Ⅰ免除のメリットを含め、IPA公式情報をもとに整理します。資格単体では年収が大きく上がるわけではないという留意点についてもご説明します。
         </p>
 
         <DataNote
@@ -128,14 +128,14 @@ export default function DatabaseSpecialistCertPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：DBスペシャリストは誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">DBスペシャリストはどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              データベーススペシャリストは<strong>「データ基盤実務者の専門性を証明する加点資格」</strong>です。基本情報のような入口資格とは性格が異なり、すでにデータベースの設計・運用・チューニングに携わるミドルが<strong>上流（論理・物理設計や要件定義）やデータ基盤職へ役割を広げる土台</strong>として最も効きます。
+              データベーススペシャリストは<strong>「データ基盤実務者の専門性を証明する加点資格」</strong>です。基本情報のような入口資格とは性格が異なり、すでにデータベースの設計・運用・チューニングに携わるミドルが<strong>上流（論理・物理設計や要件定義）やデータ基盤職へ役割を広げる土台</strong>として最も効果を発揮します。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>DB実務のある30〜40代</strong>：専門性の客観証明・上流への土台として加点されます</li>
-              <li>② <strong>未経験のミドル</strong>：高度試験は難度が高く入口には不向きです。まず基本情報・応用情報で土台を作るべきです</li>
+              <li>② <strong>未経験のミドル</strong>：高度試験は難度が高く入口には不向きです。まず基本情報・応用情報で土台を作ることをおすすめします</li>
               <li>③ <strong>高度資格・支援士志望</strong>：合格すれば午前Ⅰ免除で上位試験への近道になります</li>
             </ul>
           </div>
@@ -157,7 +157,7 @@ export default function DatabaseSpecialistCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: IPA 公式（ipa.go.jp、令和7年度秋期実施結果、2026年6月時点）。合格率18.4%は受験者9,769人・合格者1,796人に基づく公表値です。午後Ⅰ（記述90分）・午後Ⅱ（記述120分）の長文記述が合否を分けやすい試験です。令和8年度（2026年度）からCBT方式への移行が予定されています。有効期限はなく、合格すれば資格は生涯有効です。
+            出典: IPA 公式（ipa.go.jp、令和7年度秋期実施結果、2026年6月時点）。合格率18.4%は受験者9,769人・合格者1,796人に基づく公表値です。午後Ⅰ（記述90分）・午後Ⅱ（記述120分）の長文記述が合否を分けやすい傾向があります。令和8年度（2026年度）からCBT方式への移行が予定されています。有効期限はなく、合格すれば資格は生涯有効です。
           </p>
         </section>
 
@@ -169,9 +169,9 @@ export default function DatabaseSpecialistCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・<strong>応用情報技術者試験</strong>に合格します</li>
-              <li>・いずれかの<strong>高度試験または支援士試験に合格</strong>します</li>
-              <li>・高度試験・支援士試験の<strong>午前Ⅰで基準点以上</strong>を取ります</li>
+              <li>・<strong>応用情報技術者試験</strong>に合格</li>
+              <li>・いずれかの<strong>高度試験または支援士試験に合格</strong></li>
+              <li>・高度試験・支援士試験の<strong>午前Ⅰで基準点以上</strong>を取得</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -193,7 +193,7 @@ export default function DatabaseSpecialistCertPage() {
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: 国税庁「民間給与実態統計調査」（令和6年分・給与所得者平均461万円）。DBスペシャリスト単独の年収は信頼できる公的データが乏しいため、当サイトでは断定を避け、実務経験との掛け算で評価する立場を取ります。
+            出典: 国税庁「民間給与実態統計調査」（令和6年分・給与所得者平均461万円）。DBスペシャリスト単独の年収は信頼できる公的データが乏しいため、当サイトでは断定を避け、実務経験とあわせて評価する立場を取っています。
           </p>
         </section>
 
@@ -204,7 +204,7 @@ export default function DatabaseSpecialistCertPage() {
             {[
               { t: "データベース設計・要件定義への配置", d: "概念・論理・物理設計、正規化、性能設計の素養を国家資格で裏づけ、上流ポジション応募で加点されます。" },
               { t: "専門性の客観証明（社内SE・基盤担当）", d: "データ基盤領域の体系的知識を客観的に示せるため、属人的な経験を第三者にも伝わる形にできます。" },
-              { t: "資格手当・評価制度の対象", d: "高度試験を資格手当・報奨金や昇給評価の対象に設定する企業があり、社内評価の根拠になりやすいです。" },
+              { t: "資格手当・評価制度の対象", d: "高度試験を資格手当・報奨金や昇給評価の対象に設定する企業があり、社内評価の根拠になりやすい傾向があります。" },
               { t: "データ活用・クラウドDB領域への布石", d: "RDBの設計・性能の理解は、データ活用基盤やクラウドDBの移行・運用でも土台になります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -240,13 +240,13 @@ export default function DatabaseSpecialistCertPage() {
 
         {/* 30-40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝専門性の客観証明</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代にとっての価値：専門性の客観的な証明</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              DBスペシャリストは、基本情報のような<strong>未経験の入口資格とは立ち位置が逆</strong>です。入口資格が「IT職に入るための入口」なのに対し、DBスペシャリストは<strong>「すでに現場にいる経験者が、専門性を客観的に証明し上流へ役割を上げるための加点装置」</strong>として最も効きます。データベース実務のある30〜40代にとって、これは時間を投資する価値のある資格です。
+              DBスペシャリストは、基本情報のような<strong>未経験の入口資格とは位置づけが異なります</strong>。入口資格が「IT職に入るための入口」なのに対し、DBスペシャリストは<strong>すでに現場にいる経験者が専門性を客観的に証明し、上流へ役割を広げるための加点資格</strong>として最も効果を発揮します。データベース実務のある30〜40代にとって、これは時間を投資する価値のある資格です。
             </p>
             <p>
-              一方で過度な期待は禁物です。DBスペシャリストを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。設計・運用・チューニングの実績と組み合わせて初めて、上流ポジションや資格手当という形で結実します。さらに、午前Ⅰ免除を使って情報処理安全確保支援士などの高度資格へ進めば、専門性をもう一段引き上げられます。
+              一方で過度な期待は禁物です。DBスペシャリストを取っても、それ単体で年収が大きく上がるわけではありません。価値が生まれるのは<strong>実務経験と資格を組み合わせたとき</strong>です。設計・運用・チューニングの実績と組み合わせて初めて、上流ポジションや資格手当という形で評価につながります。さらに、午前Ⅰ免除を使って情報処理安全確保支援士などの高度資格へ進めば、専門性をさらに高められます。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -259,9 +259,9 @@ export default function DatabaseSpecialistCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "午前Ⅱで専門知識を網羅", d: "データベース分野の専門用語・理論を過去問演習で固めます。応用情報合格者は午前Ⅰ免除を活用できます。" },
-              { n: "STEP 2", t: "午後の記述対策が本丸", d: "午後Ⅰ・午後Ⅱの長文記述が関門です。概念データモデル・正規化・性能設計の演習を反復します。" },
-              { n: "STEP 3", t: "合格→午前Ⅰ免除で上位へ", d: "合格後2年間の午前Ⅰ免除を活かし、情報処理安全確保支援士など他の高度資格に挑戦します。" },
+              { n: "STEP 1", t: "午前Ⅱで専門知識を固める", d: "データベース分野の専門用語・理論を過去問演習で固めます。応用情報合格者は午前Ⅰ免除を活用できます。" },
+              { n: "STEP 2", t: "午後の記述対策に重点を置く", d: "午後Ⅰ・午後Ⅱの長文記述が関門です。概念データモデル・正規化・性能設計の演習を反復します。" },
+              { n: "STEP 3", t: "合格後は午前Ⅰ免除で他の高度試験に挑戦", d: "合格後2年間の午前Ⅰ免除を活かし、情報処理安全確保支援士など他の高度資格に挑戦します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

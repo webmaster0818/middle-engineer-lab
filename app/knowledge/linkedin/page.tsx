@@ -12,13 +12,13 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論" },
+  { id: "conclusion", label: "要点" },
   { id: "japan-reality", label: "日本のIT転職での実際の使われ方" },
   { id: "profile", label: "スカウトが届くプロフィールの書き方【見本構成】" },
   { id: "headline", label: "ヘッドライン・About見本（Before/After）" },
   { id: "experience", label: "職歴（Experience）の書き方見本" },
   { id: "scout-settings", label: "スカウトを増やす設定とアクション" },
-  { id: "privacy", label: "現職にバレないためのプライバシー設定" },
+  { id: "privacy", label: "現職に知られないためのプライバシー設定" },
   { id: "middle", label: "30代・40代がLinkedInを使うときの視点" },
   { id: "checklist", label: "プロフィール完成度チェックリスト" },
   { id: "faq", label: "よくある質問" },
@@ -34,7 +34,7 @@ const faqs = [
     a: "LinkedInは1アカウントに複数言語のプロフィールを登録できます。外資系・グローバル企業を視野に入れるなら英語版は実質必須で、デフォルト言語を英語にしつつ日本語版も追加する形が無難です。日系企業中心なら日本語のみでも機能しますが、リクルーターの検索語に英語の技術名（Go, Kubernetes など）が混ざることは多いので、スキル欄は英語表記も併記すると拾われやすくなります。",
   },
   {
-    q: "現職の同僚や会社にLinkedInの転職活動がバレませんか？",
+    q: "現職の同僚や会社にLinkedInでの転職活動を知られませんか？",
     a: "「Open to Work」はリクルーターのみに公開する設定が選べ、これを使えば一般公開はされません。さらに設定からプロフィール編集の更新通知（アクティビティのブロードキャスト）をオフにすれば、こまめな編集が同僚のフィードに流れるのを防げます。ただし自社のリクルーターには表示される可能性があるため、完全な秘匿を求める場合は注意が必要です。",
   },
   {
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "古い職歴や使わなくなった技術も全部書くべきですか？",
-    a: "30代・40代は職歴が長くなるため、直近10〜15年・直近3〜4社を厚めに書き、それ以前は要約にとどめるのが読みやすいです。使わなくなった技術を羅列するより、現在の専門性につながる経験を強調しましょう。古い技術名はノイズになり、意図しない求人のスカウトを増やす原因にもなります。",
+    a: "30代・40代は職歴が長くなるため、直近10〜15年・直近3〜4社を厚めに書き、それ以前は要約にとどめるのが読みやすくなります。使わなくなった技術を羅列するより、現在の専門性につながる経験を強調しましょう。古い技術名はノイズになり、意図しない求人のスカウトを増やす原因にもなります。",
   },
   {
     q: "LinkedInと転職エージェントはどう併用すればいいですか？",
@@ -60,13 +60,13 @@ const faqs = [
 ];
 
 const profileSections = [
-  { part: "プロフィール写真", role: "第一印象です。清潔感のあるビジネスカジュアルの顔写真です。背景はシンプルに記載します。アイコンや風景は避ける" },
-  { part: "ヘッドライン（最重要）", role: "役割＋技術スタック＋経験年数です。リクルーターの検索キーワードとほぼ一致させる" },
-  { part: "About（自己紹介）", role: "専門領域・得意技術・代表的な実績・今後やりたいことを300〜500字でまとめます。冒頭2行が一覧で表示される" },
-  { part: "Experience（職歴）", role: "各社で「役割→課題→施策→成果」を箇条書き。可能な範囲で数値を入れる" },
-  { part: "Skills（スキル）", role: "主要技術を登録し、上位3つを専門スキルにピン留め。検索ヒット率に直結" },
-  { part: "Recommendations（推薦）", role: "元上司・同僚からの推薦文です。第三者評価で信頼性が上がる" },
-  { part: "Open to Work", role: "リクルーター限定公開でオンです。希望職種・勤務地を登録するとスカウト精度が上がる" },
+  { part: "プロフィール写真", role: "第一印象を左右します。清潔感のあるビジネスカジュアルの顔写真を使い、背景はシンプルにします。アイコンや風景は避けます" },
+  { part: "ヘッドライン（最重要）", role: "役割＋技術スタック＋経験年数を記載し、リクルーターの検索キーワードとほぼ一致させます" },
+  { part: "About（自己紹介）", role: "専門領域・得意技術・代表的な実績・今後やりたいことを300〜500字でまとめます。冒頭2行が一覧で表示されます" },
+  { part: "Experience（職歴）", role: "各社で「役割→課題→施策→成果」を箇条書きにし、可能な範囲で数値を入れます" },
+  { part: "Skills（スキル）", role: "主要技術を登録し、上位3つを専門スキルにピン留めします。検索ヒット率に直結します" },
+  { part: "Recommendations（推薦）", role: "元上司・同僚からの推薦文を掲載します。第三者評価により信頼性が上がります" },
+  { part: "Open to Work", role: "リクルーター限定公開でオンにします。希望職種・勤務地を登録するとスカウト精度が上がります" },
 ];
 
 export default function LinkedInPage() {
@@ -111,8 +111,8 @@ export default function LinkedInPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】LinkedInは日本のエンジニア転職で使える？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 外資・グローバル・一部メガベンチャー志望なら作る価値が高く、日系SIer・SES中心ならエージェント併用が前提です。スカウトを受けるための基盤として、スカウトが届く状態を作っておくのが基本方針です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・外資系IT・グローバル・一部メガベンチャーでは採用チャネルとして機能です。日系SIer・SES中心はエージェント併用が前提です</li><li>・スカウトを左右するのはヘッドライン・About・職歴の3点で、リクルーターの検索キーワードに合わせます</li><li>・Open to Work（リクルーター限定公開）をオンにし編集の更新通知をオフにすれば、現職にバレずに転職意思を示せます</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>外資・グローバル・一部メガベンチャー志望なら作る価値が高く、日系SIer・SES中心ならエージェント併用が前提です。能動的に応募する場ではなく、スカウトを受けるための基盤として整えておくのが基本方針です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・外資系IT・グローバル・一部メガベンチャーでは採用チャネルとして機能しています。日系SIer・SES中心の場合はエージェント併用が前提です</li><li>・スカウトを左右するのはヘッドライン・About・職歴の3点で、リクルーターの検索キーワードに合わせます</li><li>・Open to Work（リクルーター限定公開）をオンにし編集の更新通知をオフにすれば、現職に知られずに転職意思を示せます</li></ul>
           </div>
         </section>
 
@@ -141,14 +141,14 @@ export default function LinkedInPage() {
           </ol>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：LinkedInは能動的な応募ではなく「スカウトを受けるための基盤」</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">LinkedInは能動的な応募ではなく「スカウトを受けるための基盤」</h2>
             <ul className="text-sm text-blue-900 space-y-2 leading-relaxed">
-              <li>・<strong>外資・グローバル・一部メガベンチャー志望なら作る価値が高いです</strong>。日系SIer・SES中心ならエージェント併用が前提です。</li>
-              <li>・成果を出すのは<strong>ヘッドライン・About・職歴の3点です</strong>。ここを検索キーワードに合わせるだけでスカウトが変わります。</li>
-              <li>・<strong>Open to Work（リクルーター限定公開）</strong>をオンにし、編集の更新通知をオフにすれば、現職にバレずに転職意思を示せます。</li>
+              <li>・<strong>外資・グローバル・一部メガベンチャー志望なら作る価値が高いといえます</strong>。日系SIer・SES中心ならエージェント併用が前提です。</li>
+              <li>・スカウトの成果を左右するのは<strong>ヘッドライン・About・職歴の3点です</strong>。この3点を検索キーワードに合わせることで、届くスカウトが変わります。</li>
+              <li>・<strong>Open to Work（リクルーター限定公開）</strong>をオンにし、編集の更新通知をオフにすれば、現職に知られずに転職意思を示せます。</li>
             </ul>
           </div>
         </section>
@@ -166,11 +166,11 @@ export default function LinkedInPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">メガベンチャー・自社開発企業</h3>
-              <p className="text-sm text-slate-600">人事・現場エンジニアによるスカウトやカジュアル面談の入口に使われることがあります。技術スタックが明確だとマッチしやすいです。</p>
+              <p className="text-sm text-slate-600">人事・現場エンジニアによるスカウトやカジュアル面談の入口に使われることがあります。技術スタックが明確だとマッチしやすくなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">日系大手・SIer・SES</h3>
-              <p className="text-sm text-slate-600">LinkedIn経由の中途採用はまだ限定的です。これらを狙う場合は転職エージェントや求人サイトが中心的な活躍領域になり、LinkedInは補助的な位置づけ。</p>
+              <p className="text-sm text-slate-600">LinkedIn経由の中途採用はまだ限定的です。これらを狙う場合は転職エージェントや求人サイトが中心的な手段となり、LinkedInは補助的な位置づけです。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
@@ -184,7 +184,7 @@ export default function LinkedInPage() {
         <section id="profile" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スカウトが届くプロフィールの書き方【見本構成】</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            リクルーターは「役割名＋技術＋経験年数」で検索し、検索結果の一覧では<strong>写真・名前・ヘッドラインしか見えません</strong>。つまり、まずヘッドラインで引っかかり、クリックしてもらってからAboutと職歴で判断される、という二段構えです。以下が各セクションの役割です。
+            リクルーターは「役割名＋技術＋経験年数」で検索し、検索結果の一覧では<strong>写真・名前・ヘッドラインしか見えません</strong>。つまり、まずヘッドラインで検索にかかり、クリックしてもらってからAboutと職歴で判断される、という二段構えです。以下が各セクションの役割です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse min-w-[640px]">
@@ -231,7 +231,7 @@ export default function LinkedInPage() {
             <div className="bg-green-50 border border-green-200 rounded-xl p-5">
               <p className="text-xs font-bold text-green-700 mb-2">After</p>
               <p className="text-sm text-green-800 leading-relaxed">
-                決済・課金領域のバックエンドを12年です。直近はGo/Kubernetesで秒間数千リクエストのAPIを設計・運用し、可用性とコスト最適化を担当。チームの技術選定とコードレビューもリード。今後はSRE/プラットフォーム領域での技術リードに挑戦したいと考えています。
+                決済・課金領域のバックエンド開発に12年携わってきました。直近はGo/Kubernetesで秒間数千リクエストのAPIを設計・運用し、可用性とコスト最適化を担当。チームの技術選定とコードレビューもリード。今後はSRE/プラットフォーム領域での技術リードに挑戦したいと考えています。
               </p>
             </div>
           </div>
@@ -278,7 +278,7 @@ export default function LinkedInPage() {
               { t: "Skills を主要技術で固めます", d: "リクルーターはスキル名で絞り込みます。主力技術を登録し、上位3つを専門スキルにピン留めしておきます。" },
               { t: "勤務地・希望を最新に保ちます", d: "リモート可・出社可など条件を正しく設定します。古い情報のままだと希望と違うスカウトが増えます。" },
               { t: "IT専門リクルーターとつながります", d: "技術領域の合うリクルーターからのコネクション申請は承認します。直接スカウトの入口になります。" },
-              { t: "技術トピックに反応します", d: "週1回程度、技術記事のシェアやコメントなど軽いアクティビティがあると、プロフィールの露出が安定しやすいです。" },
+              { t: "技術トピックに反応します", d: "週1回程度、技術記事のシェアやコメントなど軽いアクティビティがあると、プロフィールの露出が安定しやすくなります。" },
             ].map((x, i) => (
               <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-1">{i + 1}. {x.t}</h3>
@@ -290,7 +290,7 @@ export default function LinkedInPage() {
 
         {/* プライバシー設定 */}
         <section id="privacy" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">現職にバレないためのプライバシー設定</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">現職に知られないためのプライバシー設定</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             「転職活動が現職に知られないか」は最大の不安点です。LinkedInには秘匿のための設定が用意されています。プロフィールを整える前に、まず以下を確認しておきましょう。
           </p>
@@ -371,9 +371,9 @@ export default function LinkedInPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">LinkedInと併用してエージェントも活用しよう</h2>
+          <h2 className="text-xl font-bold mb-3">LinkedInとあわせてエージェントも活用する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            LinkedInのスカウト（受動型）に加え、IT特化型エージェントの非公開求人（能動型）も使えば、選択肢と交渉力を最大化できます。
+            LinkedInのスカウト（受動型）に加え、IT特化型エージェントの非公開求人（能動型）も使えば、選択肢を広げ、交渉力を高められます。
           </p>
           <Link
             href="/#ranking"

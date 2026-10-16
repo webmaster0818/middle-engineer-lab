@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：書類・手続き・心構えの3軸" },
+  { id: "conclusion", label: "書類・手続き・心構えの3軸" },
   { id: "documents", label: "会社へ提出する書類" },
   { id: "procedures", label: "公的手続き（年金・保険・税金）" },
   { id: "first-day", label: "入社初日に向けた準備" },
@@ -96,7 +96,7 @@ const faqs = [
   },
   {
     q: "前職で使っていた資料やコードを持ち出してもいいですか？",
-    a: "いけません。業務で作成・取得したソースコード、設計書、顧客情報などは会社の資産・機密情報であり、私的に持ち出すと守秘義務違反や競業避止義務の問題になり得ます。転職先で前職のコードを流用するのも厳禁です。持ち帰るのは私物のみとし、業務データは適切に返却・削除しましょう。競業避止義務の考え方は別記事で解説しています。",
+    a: "持ち出すことはできません。業務で作成・取得したソースコード、設計書、顧客情報などは会社の資産・機密情報であり、私的に持ち出すと守秘義務違反や競業避止義務の問題になり得ます。転職先で前職のコードを流用するのも厳禁です。持ち帰るのは私物のみとし、業務データは適切に返却・削除しましょう。競業避止義務の考え方は別記事で解説しています。",
   },
   {
     q: "入社前に勉強しておいた方がいいことはありますか？",
@@ -139,14 +139,14 @@ export default function PreOnboardingPage() {
           入社前の準備チェックリスト【提出書類・手続き・心構え】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 | 退職から入社まで空白なくスムーズに
+          最終更新: 2026年6月 | 退職から入社までを空白なく進めるために
         </p>
 
         {/* 直答box (P6-C2) */}
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】入社前には何を準備すればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「会社へ提出する書類」「公的手続き（年金・保険・税金）」「入社初日の準備と心構え」の3軸で整理すると漏れがありません。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>「会社へ提出する書類」「公的手続き（年金・保険・税金）」「入社初日の準備と心構え」の3軸で整理すると漏れがありません。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・退職翌日に入社（空白なし）なら、保険・年金は新しい会社が切れ目なく手続きします</li><li>・空白がある場合は、退職翌日から14日以内などの期限で自分で切り替えが必要です</li><li>・最大のリスクは書類の受け取り漏れと手続きの放置です。退職前から段取りを確認しておきます</li></ul>
           </div>
         </section>
@@ -177,9 +177,9 @@ export default function PreOnboardingPage() {
           </ol>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：書類・手続き・心構えの3軸</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">書類・手続き・心構えの3軸</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               入社前の準備は、<strong>「会社へ提出する書類」「公的手続き（年金・保険・税金）」「入社初日の準備と心構え」</strong>の3軸で整理すると漏れがありません。特に退職日と入社日の間に空白がある場合は、健康保険・年金の手続きを自分で行う必要があります。
@@ -320,7 +320,7 @@ export default function PreOnboardingPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">入社までの段取りもエージェントに相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントなら、入社日の調整から必要書類の確認まで、入社までの不安を一緒に解消してくれます。
+            IT特化型エージェントなら、入社日の調整から必要書類の確認まで、入社までの不安の解消を支援します。
           </p>
           <Link
             href="/#ranking"

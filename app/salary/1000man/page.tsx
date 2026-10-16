@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：1000万円の希少性と3つのルート" },
+  { id: "conclusion", label: "1000万円の希少性と3つのルート" },
   { id: "rarity", label: "年収1000万円エンジニアの割合（希少性）" },
   { id: "position", label: "1000万円はITSSのどのレベルか" },
   { id: "routes", label: "1000万円への3つの到達ルート" },
@@ -36,7 +36,7 @@ const rarityData = [
 const routes = [
   {
     title: "ルート①：ハイクラス転職",
-    desc: "外資IT、自社プロダクト企業、ITコンサル（DX領域）などへの転職。給与テーブルそのものが高い企業に移ることで、技術力を最も素直に年収へ反映できるルートです。",
+    desc: "外資IT、自社プロダクト企業、ITコンサル（DX領域）などへの転職です。給与テーブルそのものが高い企業に移ることで、技術力を最も素直に年収へ反映できるルートです。",
   },
   {
     title: "ルート②：マネジメント",
@@ -141,13 +141,13 @@ export default function Salary1000Page() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：1000万円の希少性と3つのルート</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">1000万円の希少性と3つのルート</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収1000万円以上のエンジニアは、レバテック公表（2025年）で<strong>30代8.01%・40代12.67%</strong>、エンジニアtypeでは全体<strong>約1.6%</strong>とされる希少な層です。ITSSスキル標準レベルでは<strong>L6相当（1,129.9万円）</strong>、国内で著名・世界で通用するトップ層にあたります。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              到達ルートは大きく3つ。<strong>①ハイクラス転職</strong>（外資IT・自社プロダクト・ITコンサルDX）、<strong>②マネジメント</strong>（プライムSIerのPM・EM）、<strong>③スペシャリスト</strong>（SaaSバックエンド・クラウド・ML・データサイエンス・アーキテクト）です。そして見落とされがちですが、最終的な天井は技術力以上に<strong>商流と企業の給与テーブル</strong>が決めます。
+              到達ルートは大きく3つあります。<strong>①ハイクラス転職</strong>（外資IT・自社プロダクト・ITコンサルDX）、<strong>②マネジメント</strong>（プライムSIerのPM・EM）、<strong>③スペシャリスト</strong>（SaaSバックエンド・クラウド・ML・データサイエンス・アーキテクト）です。そして見落とされがちですが、最終的な天井は技術力以上に<strong>商流と企業の給与テーブル</strong>が決めます。
             </p>
           </div>
         </section>
@@ -179,7 +179,7 @@ export default function Salary1000Page() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mb-4">
-            ※ レバテック公表（2025年）・エンジニアtype。IT人材白書2020の19.2%は2020年時点の古い値であり、定義・母集団が異なるため参考扱いです。
+            ※ レバテック公表（2025年）・エンジニアtype。IT人材白書2020の19.2%は2020年時点の古い値であり、定義・母集団が異なるため参考値として扱っています。
           </p>
         </section>
 
@@ -202,17 +202,17 @@ export default function Salary1000Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L4</td>
                   <td className="px-4 py-3 border border-slate-200">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門です。800万円帯</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門。800万円帯</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L5</td>
                   <td className="px-4 py-3 border border-slate-200">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層です。1000万円の一歩手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層。1000万円の一歩手前</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L6・7</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">1,129.9万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">1000万円帯です。国内で著名なレベル</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">1000万円帯。国内で著名なレベル</td>
                 </tr>
               </tbody>
             </table>
@@ -297,7 +297,7 @@ export default function Salary1000Page() {
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">3ルートのうち「勝てる軸」を1つに絞る</h3>
+              <h3 className="font-bold text-blue-800 mb-2">3ルートのうち「強みを発揮できる軸」を1つに絞る</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
                 ハイクラス転職・マネジメント・スペシャリストのうち、これまでの蓄積が最も活きる軸を1つに絞ることが重要です。40代では年収1000万円以上が12.67%に達しており、軸を定めて積み上げた層が到達していることがうかがえます。
               </p>

@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/age/30s/" },
   title: "30代エンジニア転職のガイド｜年収相場と進め方【2026年6月】",
   description:
-    "30代エンジニアの転職は今がチャンスです。レバテック公表の30代平均年収約499万円や経産省のIT人材不足試算など実データで市場を解説し、前半・後半別の戦略、おすすめエージェント、進め方、FAQまで網羅します。",
+    "30代エンジニアの転職市場を、レバテック公表の30代平均年収約499万円や経産省のIT人材不足試算などの実データにもとづいて解説します。前半・後半別の戦略、おすすめエージェント、進め方、FAQもまとめています。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：30代エンジニアの転職は十分可能" },
+  { id: "conclusion", label: "30代エンジニアの転職は十分可能" },
   { id: "market", label: "30代エンジニアの市場データ" },
   { id: "company-needs", label: "企業が30代に求めるもの" },
   { id: "first-vs-second", label: "30代前半と後半の違い" },
@@ -53,7 +53,7 @@ const companyNeeds = [
 
 const successPatterns = [
   "実績を「規模・役割・成果（数値）」の3点セットで言語化できています",
-  "IT特化型と総合型のエージェントを併用し、求人の幅と質を両取りしています",
+  "IT特化型と総合型のエージェントを併用し、求人の幅と質の両方を確保しています",
   "在職中に活動を始め、複数内定を比較して条件交渉しています",
   "転職軸（年収・技術・働き方）に優先順位をつけ、ブレずに企業を選んでいます",
 ];
@@ -61,7 +61,7 @@ const successPatterns = [
 const failurePatterns = [
   "年収の数字だけで決め、技術スタックやチーム文化のミスマッチが起きます",
   "1社のエージェントだけに依存し、相場観や比較材料を持てません",
-  "現職の不満が動機の中心で、応募先で何を実現したいかが曖昧",
+  "現職の不満が動機の中心で、応募先で何を実現したいかが曖昧になっています",
   "職務経歴書が作業の羅列で、成果や工夫が伝わりません",
 ];
 
@@ -71,14 +71,14 @@ const agents = [
     href: "/review/levtech/",
     fit: "年収600万円以上を狙う30代",
     reason:
-      "IT/Web特化で高年収求人の比率が高いです（二次情報では600万円以上が公開求人の約8割）。内定承諾者の3人に2人が応募時より年収70万円以上アップを実現しています（2023年1月〜2024年3月実績）。利用者の約80%が20〜30代で、まさに30代の中心的な活躍領域です。",
+      "IT/Web特化で、高年収求人の比率が高い傾向があります（二次情報では600万円以上が公開求人の約8割）。内定承諾者の3人に2人が応募時より年収70万円以上アップを実現しています（2023年1月〜2024年3月実績）。利用者の約80%が20〜30代であり、30代は主要な利用者層に含まれます。",
   },
   {
     name: "Geekly（ギークリー）",
     href: "/review/geekly/",
     fit: "Web・ゲーム業界志望でスピード重視の30代",
     reason:
-      "IT/Web/ゲーム業界に専門特化します。年収アップ率約81%・平均上昇額約76万円です（2025年9月時点・二次情報）。提案スピードに強みがあり、在職中でも進めやすいです。",
+      "IT/Web/ゲーム業界に特化したエージェントです。年収アップ率は約81%、平均上昇額は約76万円とされています（2025年9月時点・二次情報）。提案スピードに強みがあり、在職中でも転職活動を進めやすい環境です。",
   },
   {
     name: "doda（IT・通信エンジニア）",
@@ -92,7 +92,7 @@ const agents = [
 const faqs = [
   {
     q: "30代エンジニアの転職は何社くらい応募すべき？",
-    a: "明確な正解はありませんが、書類選考の通過率を踏まえると、本命を含めて10〜20社程度の応募に絞り、並行して5〜8社の選考を進めるのが一般的なペースです。応募数を増やすこと自体が目的化すると準備が薄くなるため、エージェントと相談して優先順位をつけ、量より「比較できる複数内定」を作ることを目標にしましょう。",
+    a: "明確な正解はありませんが、書類選考の通過率を踏まえると、第一志望を含めて10〜20社程度の応募に絞り、並行して5〜8社の選考を進めるのが一般的なペースです。応募数を増やすこと自体が目的化すると準備が薄くなるため、エージェントと相談して優先順位をつけ、量より「比較できる複数内定」を作ることを目標にしましょう。",
   },
   {
     q: "30代で転職すると年収は下がりますか？",
@@ -176,17 +176,17 @@ export default function Age30sPage() {
           ]}
         />
 
-        {/* 結論ファースト */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：30代エンジニアの転職は十分に可能</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">30代エンジニアの転職は十分に可能</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               30代は転職市場で最も需要の高い年代のひとつで、実務経験があれば年収アップを伴う転職も現実的です。年代や状況に合ったエージェントを併用し、実績を数値で語れるよう準備すれば、選択肢を広げられます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>経産省試算では2030年に最大約79万人のIT人材不足（2019年公表）で、需要の追い風が続きます。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>経産省の試算では、2030年に最大約79万人のIT人材が不足するとされており（2019年公表）、需要の高い状況が続いています。</li>
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>dodaの2024年度決定年収レポートでは転職者の約6割が年収アップを実現しています（2025年5月公表）。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>レバテック公表ではSE30代の平均年収は約499万円、1,000万円以上も8.01%が存在します（2025年）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>レバテック公表ではSE30代の平均年収は約499万円で、1,000万円以上の割合は8.01%です（2025年）。</li>
             </ul>
           </div>
         </section>
@@ -209,7 +209,7 @@ export default function Age30sPage() {
         <section id="market" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代エンジニアの市場データ</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            まず、創作ではなく公的統計とエージェント公表値で30代エンジニアの市場を確認します。出典と時点を明記しているので、相場観の土台として活用してください。
+            まず、公的統計とエージェントの公表値をもとに、30代エンジニアの市場を確認します。出典と時点を明記していますので、相場を把握する際の基礎資料としてご活用ください。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-5">
             <table className="w-full text-sm">
@@ -256,10 +256,10 @@ export default function Age30sPage() {
             <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">30代前半（30〜34歳）</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li>即戦力として求人が最も多いです</li>
-                <li>SIer→Web系などキャリアチェンジが比較的しやすいです</li>
-                <li>技術力重視のポジションが中心</li>
-                <li>年収アップ転職を狙いやすいレンジ</li>
+                <li>即戦力としての求人が最も多くなります</li>
+                <li>SIer→Web系などのキャリアチェンジが比較的しやすい傾向があります</li>
+                <li>技術力重視のポジションが中心です</li>
+                <li>年収アップを伴う転職を実現しやすい年齢層です</li>
               </ul>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -273,7 +273,7 @@ export default function Age30sPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
-            「35歳限界説」が気になる方は<Link href="/age/35/" className="text-petrol hover:underline">35歳エンジニアの転職は限界？</Link>もあわせてご覧ください。後半に向けた具体的な突破戦略を解説しています。
+            「35歳限界説」が気になる方は<Link href="/age/35/" className="text-petrol hover:underline">35歳エンジニアの転職は限界？</Link>もあわせてご覧ください。後半に向けた具体的な対策を解説しています。
           </p>
         </section>
 
@@ -352,7 +352,7 @@ export default function Age30sPage() {
                   </Link>
                 </div>
                 <p className="text-sm text-slate-600 mb-2 leading-relaxed">{agent.reason}</p>
-                <p className="text-xs text-petrol font-medium">こんな30代向き: {agent.fit}</p>
+                <p className="text-xs text-petrol font-medium">このような方におすすめ: {agent.fit}</p>
               </div>
             ))}
           </div>
@@ -404,7 +404,7 @@ export default function Age30sPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">30代エンジニアの転職、まずはプロに相談</h2>
+          <h2 className="text-xl font-bold mb-3">30代エンジニアの転職は、まず転職エージェントへの相談から</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントに無料登録して、ご自身の市場価値を確認してみませんか？
           </p>

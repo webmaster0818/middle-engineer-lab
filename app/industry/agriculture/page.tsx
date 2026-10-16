@@ -12,19 +12,19 @@ export const metadata: Metadata = {
 };
 
 const skillTable = [
-  ["栽培管理・農機・現場オペレーションの理解", "そのまま強み", "現場の課題を分かる人は技術側に少なく、AgriTech企業で評価されやすいです"],
+  ["栽培管理・農機・現場オペレーションの理解", "そのまま強み", "現場の課題を分かる人は技術側に少なく、AgriTech企業で評価されやすい傾向があります"],
   ["土壌・気象・生育などのドメインデータ知識", "そのまま強み", "どのデータが意思決定に効くかを判断できると分析・設計の質が上がります"],
   ["流通・出荷・JA連携などの業務知識", "差別化要素", "トレーサビリティや出荷管理のシステム化で前提知識が活きます"],
-  ["IoT・センサーデータ収集／制御", "埋めるギャップ", "圃場のセンサー連携やデータ収集基盤の実装経験を補強したい"],
-  ["データ分析（Python/SQL）", "埋めるギャップ", "生育・収量予測など分析業務で扱える言語・基盤を広げたい"],
+  ["IoT・センサーデータ収集／制御", "埋めるギャップ", "圃場のセンサー連携やデータ収集基盤の実装経験を補強しておきたい領域です"],
+  ["データ分析（Python/SQL）", "埋めるギャップ", "生育・収量予測などの分析業務に向けて、扱える言語・基盤を広げておきたい領域です"],
   ["画像認識・ロボティクス基礎", "伸ばすと有利", "病害虫診断・自動収穫などに関わるなら関連技術の理解が役立ちます"],
 ];
 
 const jobTypes = [
-  ["スマート農業プラットフォーム開発", "AgriTechベンダー、農業系スタートアップ", "圃場データの収集・可視化・管理。現場知識が直接活きる"],
-  ["農業データ分析・予測", "AgriTech、研究開発寄りの企業", "生育・収量・気象データの分析。ドメイン知識＋データ素養が求められる"],
-  ["ドローン／ロボティクス", "農機・ロボティクス系企業", "防除・収穫の自動化。制御・画像認識の素養が問われる"],
-  ["トレーサビリティ・流通テック", "フードテック、流通・物流寄り企業", "出荷・流通の可視化。業務知識が強みになる"],
+  ["スマート農業プラットフォーム開発", "AgriTechベンダー、農業系スタートアップ", "圃場データの収集・可視化・管理。現場知識を直接活かせる領域"],
+  ["農業データ分析・予測", "AgriTech、研究開発寄りの企業", "生育・収量・気象データの分析。ドメイン知識とデータの素養が求められる領域"],
+  ["ドローン／ロボティクス", "農機・ロボティクス系企業", "防除・収穫の自動化。制御・画像認識の素養が問われる領域"],
+  ["トレーサビリティ・流通テック", "フードテック、流通・物流寄り企業", "出荷・流通の可視化。業務知識が強みになる領域"],
 ];
 
 const faqs = [
@@ -68,7 +68,7 @@ const related = [
 ];
 
 const toc = [
-  ["conclusion", "結論：この転職の現実性"],
+  ["conclusion", "この転職の現実性"],
   ["trend", "農業のIT化・採用動向"],
   ["skills", "活かせるスキル／埋めるギャップ"],
   ["patterns", "転職パターン（職種×企業タイプ）"],
@@ -103,11 +103,11 @@ export default function AgriculturePage() {
         {/* 直答box */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】アグリテック（AgriTech）転職はできる？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-2"><strong>結論: 農業現場・ドメインデータの知識を持つ人は、IoT（センサー収集）やデータ分析（Python/SQL）を補強すれば現実的に狙えます。</strong>現場を理解した上で技術を設計できる人材はAgriTech企業側に少なく、30代・40代の経験の厚さはむしろ強みになります。</p>
+          <p className="text-sm leading-7 text-slate-700 mb-2"><strong>農業現場・ドメインデータの知識を持つ人は、IoT（センサー収集）やデータ分析（Python/SQL）を補強すれば現実的に狙えます。</strong>現場を理解した上で技術を設計できる人材はAgriTech企業側に少なく、30代・40代の経験の厚さはむしろ強みになります。</p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1">
-            <li>・主な職種は4系統: スマート農業プラットフォーム開発／農業データ分析・予測／ドローン・ロボティクス／トレーサビリティ・流通テック</li>
-            <li>・年収目安は正社員SE平均で30代約499万円・40代約618万円です（レバテック公表2025年）。スタートアップ中心のため企業ステージで差が大きいです</li>
-            <li>・準備の第一歩は「農業ドメイン知識」と「実装できる技術」を職務経歴書で分けて示すこと（詳細は本文）</li>
+            <li>・主な職種は、スマート農業プラットフォーム開発／農業データ分析・予測／ドローン・ロボティクス／トレーサビリティ・流通テックの4系統です。</li>
+            <li>・年収目安は正社員SE平均で30代約499万円・40代約618万円です（レバテック公表2025年）。スタートアップが中心のため、企業のステージによって差が大きくなります。</li>
+            <li>・準備の第一歩は、「農業ドメイン知識」と「実装できる技術」を職務経歴書で分けて示すことです（詳細は本文）。</li>
           </ul>
         </div>
 
@@ -125,11 +125,11 @@ export default function AgriculturePage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：この転職の現実性</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">この転職の現実性</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">農業現場・ドメインの知識を持つエンジニアにとって、アグリテック領域への転職は十分に狙えるルートです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・現場の課題を分かる人は技術側に少なく、ドメイン知識がそのまま差別化になりやすいです。</li>
+              <li>・現場の課題を分かる人は技術側に少なく、ドメイン知識がそのまま差別化になりやすい傾向があります。</li>
               <li>・求人の多くはIoTやデータ分析の実装経験を求めます。ここが主なギャップです。</li>
               <li>・AgriTechはスタートアップが多く、給与水準は企業の規模・ステージで差が出やすい点に注意が必要です。</li>
             </ul>
@@ -213,10 +213,10 @@ export default function AgriculturePage() {
           <p className="text-slate-600 leading-relaxed mb-4">アグリテック領域の受け皿は、おおまかに次のタイプに分かれます。どこが自分の経験を活かせるかで応募戦略を決めます。</p>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              ["AgriTech系スタートアップ", "圃場データ・営農支援プロダクト。現場知識が直接活きる"],
-              ["農機・ロボティクス系企業", "ドローン・自動化機器。制御・画像の素養が求められる"],
-              ["フードテック・流通テック", "トレーサビリティ・出荷管理。業務知識が評価されやすい"],
-              ["研究開発・データ寄りの企業", "生育・収量予測などの分析。ドメインデータ知識が活きる"],
+              ["AgriTech系スタートアップ", "圃場データ・営農支援プロダクト。現場知識を直接活かせる環境"],
+              ["農機・ロボティクス系企業", "ドローン・自動化機器。制御・画像の素養が求められる環境"],
+              ["フードテック・流通テック", "トレーサビリティ・出荷管理。業務知識が評価されやすい環境"],
+              ["研究開発・データ寄りの企業", "生育・収量予測などの分析。ドメインデータの知識を活かせる環境"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <p className="font-bold text-slate-800 text-sm mb-1">{t}</p>
@@ -252,7 +252,7 @@ export default function AgriculturePage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代で農業からアグリテックへ移る場合、強みは「現場・ドメインの業務知識」です。何が農業現場の本当の課題で、どのデータが意思決定に効くかを実務で理解している人材は、技術側に少なく貴重です。採用側はIoTやデータ分析の実装経験を見るため、ここを補う準備が鍵になります。</p>
             <p>40代では、開発力に加えてプロジェクトや関係者をまとめる経験が評価されやすくなります。農業事業で培った現場調整や改善の経験を、プロダクト開発の文脈で語れるよう整理しておくと選択肢が広がります。スタートアップ中心の領域のため、年収だけでなく事業の継続性も含めて検討するとよいでしょう。年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの転職年収</Link>も参考にしてください。</p>
-            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>も合わせてどうぞ。</p>
+            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安については<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>もあわせてご覧ください。</p>
           </div>
         </section>
 
@@ -269,7 +269,7 @@ export default function AgriculturePage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">農業の知識をアグリテックで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">農業の知識をアグリテック領域で活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の経験が市場でどう評価されるかを確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>

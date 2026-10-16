@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/nri/" },
   title: "野村総合研究所(NRI)エンジニア転職ガイド【2026年】年収・選考",
   description:
-    "野村総合研究所(NRI)へのエンジニア転職を解説します。有価証券報告書の平均年収(2026年3月期)、コンサル×ITの採用特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の有力な選択肢を出典付きでまとめました。",
+    "野村総合研究所(NRI)へのエンジニア転職を解説します。有価証券報告書の平均年収(2026年3月期)、コンサル×ITの採用特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の有力な選択肢を出典を明記してまとめました。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんな人向きか" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
+  { id: "basic", label: "基本データ（出典あり）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "tech", label: "技術スタック・領域" },
   { id: "salary", label: "年収データ" },
@@ -47,7 +47,7 @@ const features = [
   },
   {
     h: "キャリア採用を通年で強化",
-    p: "NRIはキャリア採用サイト（career.nri.co.jp）を独立運営し、専門性を活かす中途人材を通年募集します。リファラル（社員紹介）採用も通常選考と同じ基準で実施していることを公式に明記しています。",
+    p: "NRIはキャリア採用サイト（career.nri.co.jp）を独立運営し、専門性を活かす中途人材を通年で募集しています。リファラル（社員紹介）採用も通常選考と同じ基準で実施していることを公式に明記しています。",
   },
 ];
 
@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     q: "SIerからWeb系も視野に入れるべき？",
-    a: "NRIは大規模・高年収の安定路線が魅力ですが、モダンな自社開発志向ならWeb系も比較検討の価値があります。違いは「SIerからWeb系への転職」の解説をご覧ください。",
+    a: "NRIは大規模・高年収で安定した環境という特徴がありますが、モダンな自社開発志向ならWeb系も比較検討の価値があります。違いは「SIerからWeb系への転職」の解説をご覧ください。",
   },
   {
     q: "どのエージェントを使うべき？",
@@ -112,22 +112,22 @@ export default function NriCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="野村総合研究所(NRI) エンジニア転職ガイド" description="NRIへのエンジニア転職を解説します。有価証券報告書の平均年収(2026年3月期)、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/nri/" />
+      <ArticleJsonLd title="野村総合研究所(NRI) エンジニア転職ガイド" description="NRIへのエンジニア転職を解説します。有価証券報告書の平均年収(2026年3月期)、選考フロー、口コミ傾向を出典を明記してまとめました。" url="/company/nri/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "C#/.NETの転職ガイド", href: "/skill/csharp/" }, { name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "野村総合研究所" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">野村総合研究所(NRI) エンジニア転職ガイド【2026年版】</h1>
-        <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | 金融IT最高峰・コンサル×テクノロジーの融合企業</p>
+        <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | 金融ITに強いコンサル×テクノロジーの融合企業</p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】NRI（野村総合研究所）の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 全社員平均の平均年収は1,333万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢39.7歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 1,333万円です（2026年3月期 有価証券報告書、平均年齢39.7歳）。管理職・コンサル職を含む全社員平均です。前期（2025年3月期）の1,322万円から微増です。</li><li>・東証プライム上場（証券コード4307）の高年収企業で、役職・等級により年収の幅が大きい構造です。</li><li>・エンジニア職（ITソリューション部門）の個別レンジは非公表です。実際の提示額は求人票・オファー面談での確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>全社員平均の平均年収は1,333万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢39.7歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 1,333万円です（2026年3月期 有価証券報告書、平均年齢39.7歳）。管理職・コンサル職を含む全社員平均で、前期（2025年3月期）の1,322万円からは微増となっています。</li><li>・東証プライム上場（証券コード4307）の高年収企業で、役職・等級により年収の幅が大きい構造です。</li><li>・エンジニア職（ITソリューション部門）の個別レンジは非公表です。実際の提示額は求人票・オファー面談での確認が必要です。</li></ul>
         </div>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
-          野村総合研究所（NRI）は、経営/システムコンサルティングとITソリューションを一社で完結させる国内有数のIT企業です。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典付きで整理し、30代・40代エンジニアが転職を判断するための材料をまとめます。
+          野村総合研究所（NRI）は、経営/システムコンサルティングとITソリューションを一社で完結させる国内有数のIT企業です。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典を明記して整理し、30代・40代エンジニアが転職を判断するための材料をまとめます。
         </p>
         <DataNote surveyedAt="2026年8月" sources={["野村総合研究所 有価証券報告書（2026年3月期）", "NRIキャリア採用サイト（career.nri.co.jp）", "OpenWork等の口コミプラットフォーム", "厚生労働省 job tag", "経済産業省 IT人材需給調査（2019年公表）"]} />
 
@@ -143,21 +143,21 @@ export default function NriCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんな人向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 text-sm leading-relaxed mb-3">
-              <strong>結論：</strong>NRIは「金融ドメイン×大規模システム」で高い専門性と高年収（全社員平均1,333万円／2026年3月期 有価証券報告書）を得たいエンジニアに向く企業です。コンサル職ほど狭き門ではなく、ITソリューション部門のエンジニア採用は通年で行われています。
+              <strong></strong>NRIは「金融ドメイン×大規模システム」で高い専門性と高年収（全社員平均1,333万円／2026年3月期 有価証券報告書）を得たいエンジニアに向いている企業です。コンサル職ほど狭き門ではなく、ITソリューション部門のエンジニア採用は通年で行われています。
             </p>
             <ul className="space-y-1.5 text-sm text-slate-600">
               <li>・<strong>向いている人</strong>：金融・証券の基幹システム開発経験者、上流工程やPM経験者、安定した大手で専門性を深めたい人</li>
               <li>・<strong>向いていない人</strong>：少人数で内製・モダンな技術スタックを高速に回したい人（その場合は<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>も検討）</li>
-              <li>・<strong>難易度の目安</strong>：転職メディアではエンジニア職は中程度の難易度との解説が見られます。</li>
+              <li>・<strong>難易度の目安</strong>：転職メディアでは、エンジニア職を中程度の難易度とする解説が中心</li>
             </ul>
           </div>
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -257,14 +257,14 @@ export default function NriCompanyPage() {
               <h3 className="font-bold text-green-800 text-sm mb-2">良い傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-green-700">
                 <li>・待遇・給与水準の満足度が高いとする声があります</li>
-                <li>・専門性を深められる大規模案件が多いです</li>
+                <li>・専門性を深められる大規模案件が多い傾向にあります</li>
                 <li>・近年は残業抑制の流れがあるとの指摘があります</li>
               </ul>
             </div>
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-amber-700">
-                <li>・残業時間は部署・プロジェクトでばらつきが大きいです</li>
+                <li>・残業時間は部署・プロジェクトでばらつきが大きいとの声があります</li>
                 <li>・ワークライフバランスは案件次第という指摘があります</li>
                 <li>・評価制度が分かりにくいとの声があります</li>
               </ul>
@@ -277,10 +277,10 @@ export default function NriCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              30代・40代のミドルエンジニアにとってNRIは、これまでの大規模開発・上流工程・金融ドメインの経験を「市場価値の高い専門性」として評価してもらいやすい企業です。等級制度のもとで管理職・PM・スペシャリストといった複数のキャリアパスがあるため、マネジメントに寄せるか専門を深めるかを選びやすい点も30代・40代に向きます。
+              30代・40代のミドルエンジニアにとってNRIは、これまでの大規模開発・上流工程・金融ドメインの経験を「市場価値の高い専門性」として評価してもらいやすい企業です。等級制度のもとで管理職・PM・スペシャリストといった複数のキャリアパスがあるため、マネジメントに寄せるか専門を深めるかを選びやすい点も30代・40代に適しています。
             </p>
             <p>
-              一方で、モダンな内製開発を高速に回したいタイプには、SIer特有のレイヤーの多さが合わない場合もあります。年収の絶対額（全社員平均1,333万円）は魅力ですが、これは全社員平均である点を踏まえ、オファー面談で自分の等級・提示額を必ず確認しましょう。年代別の年収相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
+              一方で、モダンな内製開発を高速に回したいタイプには、SIer特有のレイヤーの多さが合わない場合もあります。年収の絶対額（全社員平均1,333万円）は高い水準ですが、これは全社員平均である点を踏まえ、オファー面談で自分の等級・提示額を必ずご確認ください。年代別の年収相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -289,9 +289,9 @@ export default function NriCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">NRI転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラスSIer・コンサル求人に強いスカウト型です。NRI案件を扱うヘッドハンターが多いです。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラスSIer・コンサル求人に強みを持つスカウト型サービスです。NRI案件を扱うヘッドハンターが多い点も特徴です。" },
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。金融系SIerやDX・クラウド系ポジションの提案に強みがあります。" },
-              { name: "doda(IT)", href: "/review/doda-it/", desc: "国内最大級の求人数です。大手SIerの各事業部門の求人を幅広く網羅します。" },
+              { name: "doda(IT)", href: "/review/doda-it/", desc: "国内最大級の求人数を有し、大手SIerの各事業部門の求人を幅広く網羅しています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

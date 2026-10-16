@@ -29,7 +29,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "転職難易度と向いている人"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
@@ -44,7 +44,7 @@ const toc = [
 
 const faqs = [
   {
-    q: "サイバーエージェントの中途採用エンジニアの選考フローは？",
+    q: "サイバーエージェントの中途採用エンジニアの選考フローを教えてください。",
     a: "公式採用ページや転職エージェント経由での応募後、書類選考、カジュアル面談、複数回の面接という流れが一般的です。応募職種に応じて適性検査（Web検査）が課される場合があります。詳細・最新の選考内容は公式中途採用ページをご確認ください。",
   },
   {
@@ -52,11 +52,11 @@ const faqs = [
     a: "2025年9月期の有価証券報告書によると、全社員平均の平均年間給与は913.8万円、平均年齢は33.8歳です。これは技術職に限らないグループ単体の全社員平均値であり、エンジニア個人の年収はグレード・職種により異なります。",
   },
   {
-    q: "サイバーエージェントの技術スタックは？",
+    q: "サイバーエージェントの技術スタックを教えてください。",
     a: "公式技術ブログ「CyberAgent Developers Blog」では、ABEMAのバックエンドがGoとGoogle Kubernetes Engine（GKE）で構成され、レコメンドシステムがPython中心からGoへ移行した事例などが公開されています。Amebaのフロントエンドや各事業でTypeScript・Reactも用いられています。",
   },
   {
-    q: "サイバーエージェントの残業や働き方の評判は？",
+    q: "サイバーエージェントの残業や働き方の評判を教えてください。",
     a: "OpenWorkやエンゲージ会社の評判などの口コミプラットフォームでは、実力主義で裁量が大きい一方、部署によって残業時間に差があるという傾向の声が見られます。配属チームによって働き方が変わる点は事前確認が推奨されます（2026年6月時点の口コミ傾向）。",
   },
   {
@@ -65,15 +65,15 @@ const faqs = [
   },
   {
     q: "30代・40代でもサイバーエージェントに転職できますか？",
-    a: "年齢そのものよりも、担えるロール（リード・マネジメント・専門領域）と直近の技術アウトプットが重視される傾向です。30代以降は『何を任せられるか』を職務経歴書で具体化することが鍵になります。",
+    a: "年齢そのものよりも、担えるロール（リード・マネジメント・専門領域）と直近の技術アウトプットが重視される傾向があります。30代以降は『何を任せられるか』を職務経歴書で具体化することが鍵になります。",
   },
   {
-    q: "サイバーエージェントへの転職で有利な経験は？",
-    a: "Go・Python・TypeScriptいずれかの実務経験に加え、大規模Webサービス・動画配信・広告技術・機械学習・クラウドネイティブ（Kubernetes）いずれかの経験があると評価されやすい傾向です（公開技術情報・求人傾向ベース）。",
+    q: "サイバーエージェントへの転職で有利になる経験を教えてください。",
+    a: "Go・Python・TypeScriptいずれかの実務経験に加え、大規模Webサービス・動画配信・広告技術・機械学習・クラウドネイティブ（Kubernetes）いずれかの経験があると評価されやすい傾向があります（公開技術情報・求人傾向ベース）。",
   },
   {
     q: "未経験からサイバーエージェントのエンジニアになれますか？",
-    a: "中途採用は実務経験者中心です。未経験・経験浅めの場合は、まず実務経験を積める環境やポートフォリオ整備が現実的です。30代以降の経験浅めの転職については関連記事も参考にしてください。",
+    a: "中途採用は実務経験者中心です。未経験・経験浅めの場合は、まず実務経験を積める環境に移ることや、ポートフォリオを整備することが現実的です。30代以降の経験浅めの転職については関連記事も参考にしてください。",
   },
 ];
 
@@ -101,8 +101,8 @@ export default function CyberagentCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】サイバーエージェントの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: サイバーエージェントの平均年間給与は913.8万円です（2025年9月期 有価証券報告書・全社員平均、平均年齢33.8歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 913.8万円です（2025年9月期 有価証券報告書）。技術職に限らないグループ単体の全社員平均です。</li><li>・推移は2021年9月期771.1万円から上昇を続け、2025年9月期913.8万円です（各期 有価証券報告書）。</li><li>・エンジニア個人の年収はグレード・職種・成果により異なり、職種別の公式レンジは非公表です。求人票・エージェントで確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>サイバーエージェントの平均年間給与は913.8万円です（2025年9月期 有価証券報告書・全社員平均、平均年齢33.8歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 913.8万円です（2025年9月期 有価証券報告書）。技術職に限らないグループ単体の全社員平均です。</li><li>・2021年9月期の771.1万円から上昇し、2025年9月期は913.8万円となっています（各期 有価証券報告書）。</li><li>・エンジニア個人の年収はグレード・職種・成果により異なり、職種別の公式レンジは非公表です。求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -121,14 +121,14 @@ export default function CyberagentCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">転職難易度と向いている人</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               サイバーエージェントは<strong>Web系メガベンチャーの中でも人気・応募が集まりやすく、実務経験と技術アウトプットが評価される実力主義の環境</strong>です。難易度は相応に高めですが、年齢よりも「任せられるロール」と直近のアウトプットが見られます。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Go/Python/TypeScriptの実務経験があり、大規模サービス・新規プロダクトで裁量を持って動きたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：明確な指示のもとで安定的に働きたい人、部署差のある働き方を許容しづらい人</li>
-              <li>● <strong>30代・40代</strong>：リード/マネジメントや専門領域（配信・広告・ML・クラウド）の経験を活かせるかが鍵</li>
+              <li>● <strong>30代・40代</strong>：リード/マネジメントや専門領域（配信・広告・ML・クラウド）の経験を活かせるかが判断のポイント</li>
             </ul>
           </div>
         </section>
@@ -158,7 +158,7 @@ export default function CyberagentCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年9月期 有価証券報告書に基づく全社員平均値。技術スタックは公式技術ブログ等の公開情報です。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年9月期 有価証券報告書に基づく全社員平均値です。技術スタックは公式技術ブログ等の公開情報に基づきます。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -166,7 +166,7 @@ export default function CyberagentCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">実力主義・若手にも裁量を与える文化</h3>
-              <p className="text-sm text-petrol-deep">「21世紀を代表する会社を創る」をビジョンに掲げ、成果・スキル・役割の大きさに応じて評価される実力主義の文化があります。OpenWork等の口コミでも、早期にリード・マネジメントへ抜擢される事例が語られる傾向です（2026年6月時点の口コミ傾向）。</p>
+              <p className="text-sm text-petrol-deep">「21世紀を代表する会社を創る」をビジョンに掲げ、成果・スキル・役割の大きさに応じて評価される実力主義の文化があります。OpenWork等の口コミでも、早期にリード・マネジメントへ抜擢される事例が語られる傾向があります（2026年6月時点の口コミ傾向）。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">多彩な事業ドメインとキャリアの幅</h3>
@@ -186,8 +186,8 @@ export default function CyberagentCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：ABEMAのマイクロサービスはほぼGoで実装します。レコメンドはPython中心からGoへ移行した事例が公開されています。</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：Google Kubernetes Engine（GKE）/ Kubernetes でマイクロサービスを運用します。自社基盤（CyCloud）はKubernetes・OpenStack等のOSSで構成されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：ABEMAのマイクロサービスはほぼGoで実装されています。レコメンドはPython中心からGoへ移行した事例が公開されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：Google Kubernetes Engine（GKE）/ Kubernetes でマイクロサービスを運用しています。自社基盤（CyCloud）はKubernetes・OpenStack等のOSSで構成されています。</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：AmebaのフロントエンドではReact・TypeScriptを採用した事例が公開されています。</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI/生成AI</strong>：AI Coding Agentを開発プロセスに取り込む取り組みや、Kubernetes・ArgoCD・Redis・PostgreSQLを用いたクラウドネイティブ構成の事例が公開されています。</span></li>
             </ul>
@@ -273,7 +273,7 @@ export default function CyberagentCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。メガベンチャー求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが速く実務経験者への提案数が多いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが速く実務経験者への提案数が多い傾向にあります。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。直接応募・カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

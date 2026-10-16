@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：年収800万円の位置づけと到達ルート" },
+  { id: "conclusion", label: "年収800万円の位置づけと到達ルート" },
   { id: "position", label: "年収800万円はITSSのどのレベルか" },
   { id: "jobtag", label: "厚労省job tagでみる800万円クラスの職種" },
   { id: "jobs", label: "800万円に近い職種（doda）" },
@@ -34,7 +34,7 @@ const jobtagData = [
 const route = [
   {
     title: "段階的にアップする（一気は警戒される）",
-    desc: "現年収から800万円へ一気に飛ぶ希望は、選考で警戒されやすくなります。600万円→700万円→800万円と1段ずつ積み上げる設計のほうが、提示につながりやすいです。",
+    desc: "現年収から800万円へ一気に飛ぶ希望は、選考で警戒されやすくなります。600万円→700万円→800万円と1段ずつ積み上げる設計のほうが、提示につながりやすい傾向があります。",
   },
   {
     title: "プログラミング＋マネジメントの両輪",
@@ -108,7 +108,7 @@ export default function Salary800Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収800万円は、ITエンジニアにとって「高度専門・指導者層」の入口です。本記事では、この800万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典付きで整理します。結論として、ITSS L4〜L5に相当し、PM・ITコンサル・クラウド・セキュリティといった上流・希少な専門職に集中する年収帯です。
+          年収800万円は、ITエンジニアにとって「高度専門・指導者層」の入口です。本記事では、この800万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag（令和7年）など出典付きで整理します。要点として、ITSS L4〜L5に相当し、PM・ITコンサル・クラウド・セキュリティといった上流・希少な専門職に集中する年収帯です。
         </p>
 
         <DataNote
@@ -136,7 +136,7 @@ export default function Salary800Page() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収800万円の位置づけと到達ルート</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収800万円の位置づけと到達ルート</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収800万円は、経済産業省のITSSスキル標準レベルでみると<strong>L4（726.1万円）からL5（937.8万円）の間</strong>に位置します。L4は高度専門（プロ）、L5は社内をリードするハイレベル専門家・管理者層にあたり、800万円は<strong>高度専門・指導者層</strong>の年収帯です。
@@ -166,22 +166,22 @@ export default function Salary800Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L3</td>
                   <td className="px-4 py-3 border border-slate-200">576.0万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">600万円帯です。まだ手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">600万円帯。まだ手前</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L4</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">高度専門です。800万円の下限側</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">高度専門。800万円の下限側</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L5</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">指導者層です。800万円の上限側</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">指導者層。800万円の上限側</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L6・7</td>
                   <td className="px-4 py-3 border border-slate-200">1,129.9万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">1000万円帯です。次の目標</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">1000万円帯。次の目標</td>
                 </tr>
               </tbody>
             </table>

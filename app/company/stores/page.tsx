@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
@@ -71,20 +71,20 @@ export default function StoresCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】STORESの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: STORESは非上場のため公式の全社員平均年収（有価証券報告書）は非公表です。集計サイトに平均約695万円・中央値約635万円、ITエンジニア約796万円という記載がありますが、いずれも公式値ではない参考値です。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>STORESは非上場のため公式の全社員平均年収（有価証券報告書）は非公表です。集計サイトに平均約695万円・中央値約635万円、ITエンジニア約796万円という記載がありますが、いずれも公式値ではない参考値です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場で有価証券報告書がなく、公式の全社員平均は存在しません。</li><li>・集計サイトの参考値は平均約695万円・中央値約635万円、ITエンジニア約796万円です（いずれも公式値ではない）。求人では400〜600万円のレンジ提示例もあります。</li><li>・職種・等級・経験で大きく異なるため、推測の等級別年収表は掲載せず、実際の提示は応募職種・経験に応じて個別確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["STORES 公式採用サイト・技術発信", "転職口コミ・集計サイト（参考値）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（Ruby/Goの経験者・店舗ドメイン志向に向く）</p>
+            <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高め（Ruby/Goの経験者・店舗ドメイン志向の方に適した環境）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・EC・POS・決済・予約の<strong>マルチプロダクトです</strong>。Ruby/Rails・Go・Javaなどプロダクトごとにスタックが異なり、経験に合う領域を選びやすいです。</li>
+              <li>・EC・POS・決済・予約の<strong>マルチプロダクト構成</strong>で、Ruby/Rails・Go・Javaなどプロダクトごとにスタックが異なるため、経験に合う領域を選びやすくなります。</li>
               <li>・<strong>非上場のため公式の平均年収は公表されていません</strong>。集計サイトの平均約695万円・中央値約635万円・IT職約796万円はいずれも参考値で、求人は400〜600万円のレンジ例もあります。</li>
-              <li>・Rubyコミッターが在籍する技術文化があり、<strong>実店舗のオペレーションに直結するドメイン</strong>に関われるのが魅力です。</li>
+              <li>・Rubyコミッターが在籍する技術文化があり、<strong>実店舗のオペレーションに直結するドメイン</strong>に関われる点が特徴です。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">逆に、上場企業の財務透明性や安定した処遇を最優先する人は、非上場ゆえに公開情報が限られる点を踏まえ、面談で条件・事業状況を確認することをおすすめします。</p>
           </div>
@@ -116,7 +116,7 @@ export default function StoresCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">お店のDXを支えるマルチプロダクト</h3><p className="text-sm text-petrol-deep">ネットショップ作成、POSレジ、キャッシュレス決済、予約管理など、実店舗のDXに関わる複数プロダクトを一社で展開しています。プロダクトごとに技術スタックやドメインが異なるため、自分の経験に合う領域を選びやすく、横断的なキャリアも描ける環境です。</p></div>
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">Rubyを中心とした技術文化</h3><p className="text-sm text-petrol-deep">Ruby/Railsを軸に、Go・Javaなどを適材適所で採用しています。Rubyコミッターが在籍するなどRubyへの貢献が知られており、Web系の技術カルチャーを重視するエンジニアに親和性があります。フロントエンドはReact・Vue・Next.js・Nuxtなど幅広く使われています。</p></div>
-            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">実店舗オペレーションに直結するドメイン</h3><p className="text-sm text-petrol-deep">決済・POS・予約といった、実際のお店の現場オペレーションに直結する領域を扱います。お金や在庫、来店予約など、間違いが許されないドメインに向き合う堅実さが求められる一方、ユーザーの事業を支える実感を得やすいのが魅力です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">実店舗オペレーションに直結するドメイン</h3><p className="text-sm text-petrol-deep">決済・POS・予約といった、実際のお店の現場オペレーションに直結する領域を扱います。お金や在庫、来店予約など、間違いが許されないドメインに向き合う堅実さが求められる一方、ユーザーの事業を支える実感を得やすい点も特徴です。</p></div>
           </div>
         </section>
 
@@ -125,7 +125,7 @@ export default function StoresCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下はSTORESの公式採用ページ・技術発信で確認できる範囲の情報です。マルチプロダクトのため、プロダクトによってスタックが異なります。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Ruby / Rails</strong>：主要プロダクトのサーバーサイドです。Rubyコミッターが在籍</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Ruby / Rails</strong>：主要プロダクトのサーバーサイド（Rubyコミッターが在籍）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Java / Spring Boot・Go</strong>：プロダクトに応じたバックエンド</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>React / Vue / Next.js / Nuxt</strong>：フロントエンド</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AWS・GCP・Terraform</strong>：クラウド基盤とInfrastructure as Code</span></li>
@@ -153,7 +153,7 @@ export default function StoresCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">STORESは選考フローの詳細な回数・内容を公式に網羅的には公開していません。創作した固定フローは掲載せず、一般的なWeb企業の中途採用で想定される大枠のみを示します。</p>
           <ol className="space-y-3">
             {[
-              ["STEP 1", "書類選考", "公式採用ページまたはエージェント経由で応募します。職務経歴・実績を確認します。"],
+              ["STEP 1", "書類選考", "公式採用ページまたはエージェント経由で応募します。職務経歴・実績が確認されます。"],
               ["STEP 2", "面接（複数回）", "技術面接・カルチャーフィット面接を含む複数回が想定されます。回数・形式は職種・時期で変動します。"],
               ["STEP 3", "内定", "条件が提示されます。具体的な選考期間は公式に明示されていません。"],
             ].map(([step, title, desc], i) => (
@@ -200,7 +200,7 @@ export default function StoresCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Ruby/RailsまたはGoでのWebサービス開発経験者</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Ruby/RailsまたはGoでのWebサービス開発経験がある</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>決済・POS・予約など店舗系ドメインに興味がある</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>マルチプロダクトを横断的に見たい・自走したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Rubyの技術カルチャー・お店を支える事業に共感する</li>
@@ -221,7 +221,7 @@ export default function StoresCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">STORES転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強いです。技術面接対策のサポートが受けられます。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富です。Ruby・スタートアップ系に強みがあります。" }, { name: "paiza転職", href: "/review/paiza/", desc: "コーディングスキルで評価される仕組みです。技術力を強みにしたい人向けです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強みがあります。技術面接対策のサポートが受けられます。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富です。Ruby・スタートアップ系に強みがあります。" }, { name: "paiza転職", href: "/review/paiza/", desc: "コーディングスキルで評価される仕組みです。技術力を強みにしたい人向けです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

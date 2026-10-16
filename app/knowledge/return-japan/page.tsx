@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：内定確定後に帰国するのが鉄則" },
+  { id: "conclusion", label: "内定確定後に帰国するのが基本" },
   { id: "remote-interview", label: "リモート面接の進め方（時差・準備・コツ）" },
   { id: "timing", label: "帰国タイミングの決め方" },
   { id: "appeal", label: "海外経験のアピール方法（Before/After例文）" },
@@ -51,13 +51,13 @@ export default function ReturnJapanPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">海外から日本へ帰国転職【リモート面接・帰国タイミング・海外経験のアピール】</h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 海外経験を最大限活かす帰国転職戦略</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 海外経験を活かす帰国転職の進め方</p>
 
         {/* 直答box (P6-C2) */}
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】海外からの帰国転職はいつ帰るのが正解？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 内定が確定してから帰国するのが鉄則です。多くの企業がリモート面接に対応しているため、渡航前にオンラインで内定まで進めれば、無収入の空白期間や焦りによる妥協を避けられます。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>内定が確定してから帰国するのが基本です。多くの企業がリモート面接に対応しているため、渡航前にオンラインで内定まで進めれば、無収入の空白期間や焦りによる妥協を避けられます。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・リモート面接は、時差を踏まえた日程設計・通信環境の事前テスト・要点先出しの伝え方が基本です</li><li>・海外経験は「海外にいた」ことではなく、日本でどう活かせるかを行動と結果で語ります</li><li>・年収は月給ベースではなく、賞与込みの年間総額で比較します</li></ul>
           </div>
         </section>
@@ -76,7 +76,7 @@ export default function ReturnJapanPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：内定確定後に帰国するのが鉄則</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">内定確定後に帰国するのが基本</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">帰国転職で最も避けたいのは「先に帰国してから無収入で活動する」状態です。次の3点を押さえれば、リスクを抑えて進められます。</p>
             <ul className="space-y-2 text-sm text-slate-700">
@@ -124,7 +124,7 @@ export default function ReturnJapanPage() {
               <p className="text-xs font-bold text-red-500 mb-1">✕ Before（抽象的で伝わらない）</p>
               <p className="text-sm text-slate-600 mb-3">「海外の企業でエンジニアとして英語環境で働いていました。」</p>
               <p className="text-xs font-bold text-green-600 mb-1">✓ After（行動と結果で示す）</p>
-              <p className="text-sm text-slate-700">「5か国のメンバーで構成されるチームで、英語のドキュメントとレビューを通じてマイクロサービスの設計を主導します。リリースサイクルを□□に短縮しました。日本拠点と海外拠点の橋渡し役を担える点が強みです。」</p>
+              <p className="text-sm text-slate-700">「5か国のメンバーで構成されるチームで、英語のドキュメントとレビューを通じてマイクロサービスの設計を主導し、リリースサイクルを□□に短縮しました。日本拠点と海外拠点の橋渡し役を担える点が強みです。」</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <p className="text-xs font-bold text-red-500 mb-1">✕ Before</p>
@@ -152,7 +152,7 @@ export default function ReturnJapanPage() {
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の帰国転職の視点</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアにとって、海外で積んだ経験は「即戦力 × グローバル対応力」という希少な組み合わせになります。市況も追い風で、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアにとって、海外で積んだ経験は「即戦力 × グローバル対応力」という希少な組み合わせになります。IT人材の需要も高く、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
           <p className="text-slate-600 leading-relaxed">有力な選択肢になりやすいのは、外資系日本法人のシニアポジション、日系グローバル企業の海外連携役、スタートアップの技術リードなど、海外経験が直接活きる役割です。ただし具体的な年収は企業・ポジションで大きく異なるため、複数のエージェントで<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値</Link>を把握したうえで交渉に臨みましょう。海外で働き続ける選択肢は<Link href="/knowledge/overseas/" className="text-petrol hover:underline">海外で働くエンジニアの転職</Link>も参考にしてください。</p>
         </section>
 

@@ -179,7 +179,7 @@ export default function InfraEngineerSalaryPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: 令和7年賃金構造基本統計調査 職種別第5表（男女計・企業規模計・一般労働者）。年収換算＝きまって支給する現金給与額×12＋年間賞与その他特別給与額です。2026年7月7日にe-Stat原本から算出します。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: 令和7年賃金構造基本統計調査 職種別第5表（男女計・企業規模計・一般労働者）。年収換算＝きまって支給する現金給与額×12＋年間賞与その他特別給与額です。2026年7月7日にe-Stat原本から算出しました。</p>
           <p className="text-sm leading-7 text-slate-600 mt-4">
             この表が示すミドル世代の分水嶺は明確です。<strong>40代前半で、運用・保守中心なら680.5万円、基盤の上流設計に進んでいれば1,189.0万円</strong>——同じ「インフラ出身」でも役割で500万円以上の差がつきます。実務でこの境界を越える定番ルートがクラウド設計（AWS/Azure）・IaC・SREへの越境です（<Link href="/salary/tech-stack-salary/" className="text-petrol-deep underline">技術スタック別年収</Link>・<Link href="/salary/skill-ranking/" className="text-petrol-deep underline">スキル別ランキング</Link>）。
           </p>
@@ -195,8 +195,8 @@ export default function InfraEngineerSalaryPage() {
 
         <TechgoCta
           heading="「運用から上流へ」の市場価値、いま何万円か確認しませんか"
-          note="テックゴーは年収アップ平均144万円（2026年3月の内定承諾者平均・公式公表）・年収アップ成功率86%（2026年3月の内定承諾者・公式公表）のIT特化エージェントです。インフラ→クラウド設計・SREのキャリア相談も無料です。"
-          buttonText="無料キャリア面談で市場価値を確認します（公式）"
+          note="テックゴーは年収アップ平均144万円（2026年3月の内定承諾者平均・公式公表）・年収アップ成功率86%（2026年3月の内定承諾者・公式公表）のIT特化エージェント。インフラ→クラウド設計・SREのキャリア相談も無料です。"
+          buttonText="無料キャリア面談で市場価値を確認する（公式）"
         />
 
         {/* FAQ */}

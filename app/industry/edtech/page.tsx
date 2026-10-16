@@ -16,7 +16,7 @@ const DESC =
   "教育業界エンジニアからEdTech領域への転職方法を解説します。活かせるスキルと埋めるギャップ、転職パターン、年収の考え方、進め方を30代40代視点で紹介します。";
 
 const toc = [
-  { id: "conclusion", label: "結論：教育ドメイン×ITは差別化しやすい" },
+  { id: "conclusion", label: "教育ドメイン×ITは差別化しやすい" },
   { id: "trend", label: "EdTechのIT化・採用動向" },
   { id: "skills", label: "活かせるスキル／埋めるギャップ" },
   { id: "patterns", label: "転職パターン（職種×企業タイプ）" },
@@ -32,10 +32,10 @@ const toc = [
 ];
 
 const skillTable = [
-  ["LMS・学習管理システムの業務知識", "そのまま活きます", "EdTechプロダクトの設計・要件定義で直接活きます"],
-  ["カリキュラム設計・教材コンテンツ制作", "そのまま活きます", "学習体験（UX）の設計やコンテンツ開発で評価されます"],
-  ["学習データの扱い・教育評価の理解", "そのまま活きます", "アダプティブラーニングや効果測定の土台になります"],
-  ["フロント／バックエンド開発（React・Python等）", "要習得", "Web系プロダクト開発はモダンスタックが前提"],
+  ["LMS・学習管理システムの業務知識", "そのまま強み", "EdTechプロダクトの設計・要件定義で直接活きます"],
+  ["カリキュラム設計・教材コンテンツ制作", "そのまま強み", "学習体験（UX）の設計やコンテンツ開発で評価されます"],
+  ["学習データの扱い・教育評価の理解", "そのまま強み", "アダプティブラーニングや効果測定の土台になります"],
+  ["フロント／バックエンド開発（React・Python等）", "要習得", "Web系プロダクト開発はモダンスタックが前提です"],
   ["データ分析（SQL / Python）", "要習得", "学習ログ分析・個別最適化のポジションで求められます"],
   ["AI/ML・動画配信・LTI連携の知識", "要習得", "AIチューターや学習ツール連携で差別化要素になります"],
 ];
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     q: "EdTech企業ではどんな技術が求められますか？",
-    a: "フロントエンド（React/Next.js）、バックエンド（Python/Node.js）、データ分析（Python/SQL）が基本になることが多いです。加えてAI/ML（アダプティブラーニング・AIチューター）、動画配信技術、LTI規格（学習ツール連携）の知識があると差別化しやすくなります。求められる技術は企業のプロダクトによって変わります。",
+    a: "フロントエンド（React/Next.js）、バックエンド（Python/Node.js）、データ分析（Python/SQL）が基本になることが多くあります。加えてAI/ML（アダプティブラーニング・AIチューター）、動画配信技術、LTI規格（学習ツール連携）の知識があると差別化しやすくなります。求められる技術は企業のプロダクトによって変わります。",
   },
   {
     q: "教育業界からEdTech転職で有利な資格はありますか？",
@@ -141,15 +141,15 @@ export default function EdtechPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：教育ドメイン×ITは差別化しやすい</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">教育ドメイン×ITは差別化しやすい</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">
               教育の業務知識を持つエンジニアのEdTech転職は、<strong>十分に現実的</strong>です。EdTechでは「どんな学習が成果につながるか」「教育現場で何が運用上の壁になるか」を理解していることが価値になり、これは後から参入する純粋なIT人材が短期間で身につけにくい領域だからです。
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
               <li>・<strong>強み</strong>：LMS・カリキュラム設計・学習評価の理解はそのまま活きます</li>
-              <li>・<strong>埋めるべきギャップ</strong>：Web開発とデータ分析、（AI志望なら）機械学習の基礎</li>
-              <li>・<strong>進め方</strong>：経験の棚卸し → スキル補強 → IT特化エージェントで求人レンジ確認</li>
+              <li>・<strong>埋めるべきギャップ</strong>：Web開発とデータ分析、（AI志望なら）機械学習の基礎です</li>
+              <li>・<strong>進め方</strong>：経験の棚卸し → スキル補強 → IT特化エージェントで求人レンジ確認の順に進めます</li>
             </ul>
           </div>
         </section>
@@ -173,7 +173,7 @@ export default function EdtechPage() {
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という追い風</h3>
+              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という背景</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 経済産業省『IT人材需給に関する調査』（2019年3月公表）の試算では、2030年に最大約79万人のIT人材が不足するとされています。特定業界に限った数字ではありませんが、ドメイン知識を持つエンジニアが希少という全体傾向の背景として参考になります。
               </p>
@@ -198,7 +198,7 @@ export default function EdtechPage() {
                     <th className="px-4 py-3 text-left font-medium text-slate-700 align-top">{skill}</th>
                     <td
                       className={`px-4 py-3 font-medium whitespace-nowrap align-top ${
-                        status === "そのまま活きます" ? "text-petrol" : "text-amber-600"
+                        status === "そのまま強み" ? "text-petrol" : "text-amber-600"
                       }`}
                     >
                       {status}
@@ -262,8 +262,8 @@ export default function EdtechPage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">慎重に検討したい人</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
-                  "教育ドメインの経験がなく、技術力だけを強みにしたい",
-                  "学習設計や現場運用に関心が薄いです",
+                  "教育ドメインの経験がなく、技術力だけを強みにしたいと考えています",
+                  "学習設計や現場運用にあまり関心がありません",
                   "学習に時間を割けず、即戦力の技術力も足りません",
                   "短期間での大幅な年収アップだけを目的にしています",
                 ].map((t, i) => (
@@ -329,7 +329,7 @@ export default function EdtechPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">学校向けEdTech・LMSベンダー</h3>
-              <p className="text-sm text-slate-600">学校や教育機関に学習管理システムや教材配信基盤を提供する企業です。LMS運用やカリキュラム設計の知見が活きやすいです。</p>
+              <p className="text-sm text-slate-600">学校や教育機関に学習管理システムや教材配信基盤を提供する企業です。LMS運用やカリキュラム設計の知見が活きやすくなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">社会人向けオンライン学習プラットフォーム</h3>
@@ -352,7 +352,7 @@ export default function EdtechPage() {
               { step: "1", title: "教育業界の経験を棚卸しする", desc: "LMS導入・運用、教材デジタル化、学習データ分析など携わった案件を整理します。学習成果の改善率など定量的な実績を準備します。" },
               { step: "2", title: "Web開発・データ分析を補強する", desc: "Python・JavaScript（React/Next.js）・SQLの基礎を学びます。LMS関連ならLTI規格やSCORMの知識も有効です。" },
               { step: "3", title: "EdTech領域をリサーチする", desc: "アダプティブラーニング、マイクロラーニング、AIチューターなどのうち、自分の教育知見が最も活きる領域を見極めます。" },
-              { step: "4", title: "IT特化エージェントで求人レンジを確認", desc: "Geekly・ワークポート・レバテックキャリアなどに登録し、実際のEdTech求人と提示年収レンジを比較します。" },
+              { step: "4", title: "IT特化エージェントで求人レンジを確認する", desc: "Geekly・ワークポート・レバテックキャリアなどに登録し、実際のEdTech求人と提示年収レンジを比較します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -379,7 +379,7 @@ export default function EdtechPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートB：既存の開発スキルにモダンスタックを足す</h3>
-              <p className="text-sm text-slate-600">開発経験者がReact・Python・SQLを補強してEdTechのエンジニア職を目指す道があります。学習成果を小さな制作物で示すと伝わりやすいです。</p>
+              <p className="text-sm text-slate-600">開発経験者がReact・Python・SQLを補強してEdTechのエンジニア職を目指す道があります。学習成果を小さな制作物で示すと伝わりやすくなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートC：学習データ分析へ寄せる</h3>
@@ -439,7 +439,7 @@ export default function EdtechPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">教育の知識をEdTechで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">教育の知識をEdTechで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談し、EdTech求人の実際のレンジと自分の市場価値を確認しましょう。
           </p>

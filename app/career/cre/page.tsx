@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：CRE転職の現実性" },
+  { id: "conclusion", label: "CRE転職の現実性" },
   { id: "gap", label: "現職とのスキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -34,12 +34,12 @@ const gapRows = [
   {
     skill: "顧客コミュニケーション",
     support: "◎ 日々の顧客対応が主業務",
-    backend: "△ 社内中心で機会が少ないです",
+    backend: "△ 社内中心で機会は少なめ",
     cre: "◎ 技術課題を顧客に翻訳して提案",
   },
   {
     skill: "プロダクト・アーキテクチャ理解",
-    support: "○ 機能面の理解はあります",
+    support: "○ 機能面の理解あり",
     backend: "◎ 内部構造まで把握",
     cre: "◎ 制約まで理解し最適解を提示",
   },
@@ -53,13 +53,13 @@ const gapRows = [
     skill: "SRE基礎（SLI/SLO・監視）",
     support: "△ 概念レベル",
     backend: "○ 計装の経験",
-    cre: "○ SLAとSLOの橋渡しができます",
+    cre: "○ SLAとSLOの橋渡し",
   },
   {
     skill: "課題の構造化・ドキュメント化",
     support: "○ 問い合わせ対応で訓練",
     backend: "○ 設計文書の作成経験",
-    cre: "◎ 顧客課題を仕組み改善に落とします",
+    cre: "◎ 顧客課題を仕組みの改善につなげる力",
   },
 ];
 
@@ -116,15 +116,15 @@ const transitionSteps = [
 const faqs = [
   {
     q: "CREとSREの違いは？",
-    a: "SREはシステムの信頼性に焦点を当てますが、CREは顧客体験の信頼性に焦点を当てます。CREは顧客の技術的課題の解決、プロダクト改善への橋渡し、技術サポートの高度化が主な役割で、顧客との接点が大きい点が違いです。",
+    a: "SREはシステムの信頼性に焦点を当てますが、CREは顧客体験の信頼性に焦点を当てます。CREは顧客の技術的課題の解決、プロダクト改善への橋渡し、技術サポートの高度化が主な役割で、顧客との接点が大きい点に違いがあります。",
   },
   {
     q: "テクニカルサポートからCREへの転職は可能？",
     a: "可能です。顧客対応の経験はそのまま強みになります。不足しがちなのはプログラミングとデータ分析、プロダクトの内部理解であるため、繰り返し課題を自動化したツールを作り、ポートフォリオ化すると移行しやすくなります。",
   },
   {
-    q: "バックエンドエンジニアからCREへは行ける？",
-    a: "行けます。技術力は十分なため、不足しがちな顧客コミュニケーションの経験を、社内外への技術説明や提案の実績として示すのがポイントです。技術と対人の両方を持つ人材としてアピールできます。",
+    q: "バックエンドエンジニアからCREへ移れる？",
+    a: "移行は可能です。技術力は十分なため、不足しがちな顧客コミュニケーションの経験を、社内外への技術説明や提案の実績として示すのがポイントです。技術と対人の両方を持つ人材としてアピールできます。",
   },
   {
     q: "CREに必要な技術スキルは？",
@@ -132,7 +132,7 @@ const faqs = [
   },
   {
     q: "CREポジションがある企業は？",
-    a: "Google（CREの発祥）をはじめ、SaaS企業を中心にCREポジションの設置が増えています。プロダクトの信頼性が事業の継続率に直結するサブスクリプション型のサービスで需要が高い傾向です。",
+    a: "Google（CREの発祥）をはじめ、SaaS企業を中心にCREポジションの設置が増えています。プロダクトの信頼性が事業の継続率に直結するサブスクリプション型のサービスで需要が高い傾向があります。",
   },
   {
     q: "カスタマーサポートとCREの違いは？",
@@ -221,16 +221,16 @@ export default function CrePage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：CRE転職の現実性</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">CRE転職の現実性</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>テクニカルサポート・バックエンド・SREの経験があれば、CRE転職は現実的です。</strong>
               ただし求人数がまだ限られるため、「顧客課題を技術で解決した実績」を明確に示すことが重要です。
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
-              <li>① サポート出身なら<strong>プログラミング・データ分析</strong>、バックエンド出身なら<strong>顧客コミュニケーション</strong>がギャップになりやすいです</li>
+              <li>① サポート出身なら<strong>プログラミング・データ分析</strong>、バックエンド出身なら<strong>顧客コミュニケーション</strong>がギャップになりやすい傾向があります</li>
               <li>② 個別対応で終わらせず「再発しない仕組み」に変えた経験を1つ作ります</li>
-              <li>③ 技術と対人の両方を持つ人材は希少で、ミドル層の対人経験が活きやすいです</li>
+              <li>③ 技術と対人の両方を持つ人材は希少で、ミドル層の対人経験が活きやすくなります</li>
             </ul>
           </div>
         </section>
@@ -316,19 +316,19 @@ export default function CrePage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（問い合わせ対応の量だけの例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                SaaSプロダクトのテクニカルサポートを担当。顧客からの技術的な問い合わせに対応し、月間〇〇件のチケットを処理します。エスカレーションが必要な場合は開発チームへ連携しました。
+                SaaSプロダクトのテクニカルサポートを担当。顧客からの技術的な問い合わせに対応し、月間〇〇件のチケットを処理。エスカレーションが必要な場合は開発チームへ連携。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（顧客の信頼性改善を主語にした例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                SaaSプロダクトのテクニカルサポートとして、顧客の技術課題の解決に加え、再発防止の仕組み化を主導。問い合わせデータをSQLで分析し、上位を占める課題の根本原因を特定して開発チームに改善提案。FAQの自動応答ツールをPythonで内製し、定型問い合わせの対応工数を削減。設定ミスが起きやすい箇所はオンボーディング手順とドキュメントを改訂し、同種の問い合わせ件数を低減しました。
+                SaaSプロダクトのテクニカルサポートとして、顧客の技術課題の解決に加え、再発防止の仕組み化を主導。問い合わせデータをSQLで分析し、上位を占める課題の根本原因を特定して開発チームに改善提案。FAQの自動応答ツールをPythonで内製し、定型問い合わせの対応工数を削減。設定ミスが起きやすい箇所はオンボーディング手順とドキュメントを改訂し、同種の問い合わせ件数を低減。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
               <p className="font-bold text-slate-700 mb-2">改善のポイント</p>
               <ul className="space-y-1">
-                <li>・「対応した／連携した」→「根本原因を特定し仕組みで解決した」と能動的に変換</li>
+                <li>・「対応した／連携した」→「根本原因を特定し仕組みで解決した」と能動的な表現に変換します</li>
                 <li>・データ分析・自動化ツール・ドキュメント改訂など、エンジニアリング要素を示します</li>
                 <li>・問い合わせ件数の低減・対応工数の削減など、出せる範囲で成果を添えます</li>
               </ul>
@@ -359,7 +359,7 @@ export default function CrePage() {
               {
                 name: "レバテックキャリア",
                 point:
-                  "IT/Web特化で、SaaS企業の求人やCRE/SRE系のポジションを扱います。新しい職種への転職でも、技術に詳しいアドバイザーに相談できます。",
+                  "IT/Web領域に特化しており、SaaS企業の求人やCRE/SRE系のポジションを扱います。新しい職種への転職でも、技術に詳しいアドバイザーに相談できます。",
               },
               {
                 name: "Green",

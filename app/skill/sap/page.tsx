@@ -9,11 +9,11 @@ const PAGE_DESC =
   "SAPエンジニア・コンサルタントの転職を年収データ・SAP認定資格・S/4HANA求人の探し方まで解説します。求人ボックスの公表年収やレバテック年代別データを出典を明記して掲載しています。30代・40代の参入ルートとおすすめエージェントも紹介します。";
 
 const toc = [
-  { id: "conclusion", label: "結論：SAP転職の進め方" },
+  { id: "conclusion", label: "SAP転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
-  { id: "find", label: "求人の探し方・強いエージェント" },
+  { id: "find", label: "求人の探し方と主なエージェント" },
   { id: "entry", label: "経験浅めからの参入ルート" },
   { id: "mid", label: "30代・40代視点" },
   { id: "study", label: "スキルアップ・学習戦略" },
@@ -24,7 +24,7 @@ const toc = [
 const careerPaths = [
   {
     role: "SAP ABAP開発者",
-    note: "ABAP・Fioriでのアドオン開発・カスタマイズです。業務系開発経験から移行しやすい技術寄りの入口です。",
+    note: "ABAP・Fioriでのアドオン開発・カスタマイズを担います。業務系開発経験から移行しやすい技術寄りの入口です。",
     cert: "デベロップメント系認定",
   },
   {
@@ -34,12 +34,12 @@ const careerPaths = [
   },
   {
     role: "テクノロジーコンサルタント",
-    note: "Basis・インフラ・移行基盤など技術基盤領域です。S/4HANA移行の土台を支えます。",
+    note: "Basis・インフラ・移行基盤などの技術基盤領域を担い、S/4HANA移行の土台を支えます。",
     cert: "テクノロジー系認定",
   },
   {
     role: "プロジェクトマネージャー／アーキテクト",
-    note: "S/4HANA移行プロジェクトの全体設計・統括。複数モジュールと移行方式の理解が求められます。",
+    note: "S/4HANA移行プロジェクトの全体設計・統括を担います。複数モジュールと移行方式の理解が求められます。",
     cert: "上位資格＋PM経験",
   },
 ];
@@ -51,7 +51,7 @@ const certGenres = [
   },
   {
     name: "デベロップメントコンサルタント系",
-    desc: "ABAP開発など、プログラマー向けの資格です。開発職の応募で評価されやすいです。",
+    desc: "ABAP開発など、プログラマー向けの資格です。開発職の応募で評価されやすい傾向があります。",
   },
   {
     name: "テクノロジーコンサルタント系",
@@ -61,23 +61,23 @@ const certGenres = [
 
 const faqs = [
   {
-    q: "SAPエンジニア・コンサルタントの年収はどれくらい？",
+    q: "SAPエンジニア・コンサルタントの年収はどれくらいですか？",
     a: "求人ボックスの給料ナビでは、SAP関連職の平均年収は約594万円（公表値）とされています。これは募集中の求人票を集計した値で、ABAP開発者かモジュールコンサルタントか、担当モジュールやS/4HANA移行経験の有無によって提示額は大きく変わります。年代別の目安としては、レバテックが公表する正社員SEの平均年収（2025年）で30代約499万円・40代約618万円が参考になりますが、SAP領域は専門性の高さから上振れしやすい傾向が指摘されています。",
   },
   {
-    q: "SAP認定資格は転職に有利？",
+    q: "SAP認定資格は転職に有利ですか？",
     a: "スキルを客観的に示せるため評価されます。SAP認定資格は大きく、業務モジュール向けの『アプリケーションコンサルタント系』、ABAP開発などの『デベロップメントコンサルタント系』、インフラ・基盤向けの『テクノロジーコンサルタント系』の3ジャンルに分かれます。なお、SAP社の発表により認定資格の有効期限が見直された（2024年度）との情報もあり、最新の制度は必ずSAP公式で確認してください。資格に加え、実際の導入・移行プロジェクト経験を職務経歴書で示せるかが選考を左右します。",
   },
   {
-    q: "SAP未経験でも転職できる？",
+    q: "SAP未経験でも転職できますか？",
     a: "完全未経験からは難易度が高めですが、会計・在庫管理・販売管理などの業務系システム開発経験があれば、SAPコンサルティング会社のポテンシャル採用枠を狙えます。ABAP開発の経験があれば開発職の入口になりやすく、業務知識（経理・購買・生産管理など）を持つ人はモジュールコンサルへの転身ルートが現実的です。",
   },
   {
-    q: "SAPの求人はどんな企業に多い？",
+    q: "SAPの求人はどんな企業に多いですか？",
     a: "大手コンサルティングファーム、SAPパートナー企業、大手SIer、グローバル製造業のIT部門などで募集が見られます。基幹システムを扱う性質上、安定した大企業・コンサル系が中心です。S/4HANA移行に関連したポジションの募集が目立ちます。",
   },
   {
-    q: "S/4HANA移行需要はいつまで続く？",
+    q: "S/4HANA移行需要はいつまで続きますか？",
     a: "SAPの旧基幹製品（SAP ECC）の保守期限に向けてS/4HANAへの移行プロジェクトが各社で進行しており、当面は移行・運用の人材ニーズが続くと見られています。ただし具体的な期限や市場規模の断定は避けるべきで、最新の保守ロードマップはSAP公式の発表を確認してください。求人動向は時期により変動します。",
   },
   {
@@ -85,7 +85,7 @@ const faqs = [
     a: "ハイクラス・スカウト型で高年収帯のSAP案件に出会いやすいビズリーチ、IT特化で専門アドバイザーが在籍するレバテックキャリア、年収交渉力のあるエージェントの併用がおすすめです。SAP領域は年収レンジが広いため、複数登録して提示条件を比較するのが基本です。",
   },
   {
-    q: "SAPコンサルタントはきつい・激務？",
+    q: "SAPコンサルタントの仕事は「きつい・激務」なのでしょうか？",
     a: "大規模な移行プロジェクトでは繁忙期に負荷が高まる場面があり、出張や長時間労働を伴うケースもあります。一方で運用・保守フェーズ中心のポジションや、リモート可の案件も増えています。働き方は企業・フェーズで差が大きいため、面談で体制・残業・稼働率を具体的に確認しましょう。",
   },
 ];
@@ -130,7 +130,7 @@ export default function SapSkillPage() {
           最終更新: 2026年6月 | SAPスキルを軸にした転職市場での進め方を解説
         </p>
         <p className="text-slate-600 leading-relaxed mb-2">
-          SAPは大手企業の基幹システムとして広く使われており、S/4HANAへの移行需要を背景に、開発・コンサル・基盤の各領域でSAP人材の需要が続いています。本記事は求人数を競うのではなく、「年収相場の捉え方」「SAP認定資格の活かし方」「求人の探し方」という転職判断に必要な情報に絞って整理します。
+          SAPは大手企業の基幹システムとして広く使われており、S/4HANAへの移行需要を背景に、開発・コンサル・基盤の各領域でSAP人材の需要が続いています。本記事は求人数の比較ではなく、「年収相場の捉え方」「SAP認定資格の活かし方」「求人の探し方」という転職判断に必要な情報に絞って整理します。
         </p>
 
         <DataNote
@@ -157,12 +157,12 @@ export default function SapSkillPage() {
           </ol>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SAP転職の進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">SAP転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              SAP転職は<strong>「特定モジュールまたはABAP開発の専門性を軸に、S/4HANA移行の文脈で売り込む」</strong>のが基本戦略です。年収レンジが広い領域のため、ハイクラス系エージェントを含めて複数比較するのが重要です。
+              SAP転職は<strong>「特定モジュールまたはABAP開発の専門性を軸に、S/4HANA移行の文脈で提示する」</strong>のが基本戦略です。年収レンジが広い領域のため、ハイクラス系エージェントを含めて複数比較するのが重要です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① ABAP開発か、FI/CO/MM/SD等のモジュールか、自分の軸を決めます</li>
@@ -176,7 +176,7 @@ export default function SapSkillPage() {
         <section id="market" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">市場・年収データ</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            SAP関連職の平均年収は、求人ボックスの給料ナビで<strong>約594万円（公表値）</strong>とされています。これは募集中の求人票を集計した値で、開発職・コンサル職の別、担当モジュール、S/4HANA移行経験の有無で実際の提示額は大きく振れます。IT職全体の年代別データと併用して相場感を掴むのが現実的です。
+            SAP関連職の平均年収は、求人ボックスの給料ナビで<strong>約594万円（公表値）</strong>とされています。これは募集中の求人票を集計した値で、開発職・コンサル職の別、担当モジュール、S/4HANA移行経験の有無で実際の提示額は大きく変わります。IT職全体の年代別データと併用して相場感を掴むのが現実的です。
           </p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-slate-200">
@@ -225,15 +225,15 @@ export default function SapSkillPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ジュニア／ポテンシャル枠</h3>
-              <p className="text-sm text-slate-600">業務系システム開発の経験、または経理・購買など業務知識です。SAP実務は浅くても育成前提で採用されるケースです。</p>
+              <p className="text-sm text-slate-600">業務系システム開発の経験、または経理・購買などの業務知識が求められます。SAP実務は浅くても、育成前提で採用されるケースがあります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ミドル（実務3〜7年）</h3>
-              <p className="text-sm text-slate-600">特定モジュールの導入・設定経験、またはABAP開発の実務です。30代の中心レンジです。</p>
+              <p className="text-sm text-slate-600">特定モジュールの導入・設定経験、またはABAP開発の実務が求められ、30代の中心レンジです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">シニア／リード</h3>
-              <p className="text-sm text-slate-600">複数モジュール横断の設計、S/4HANA移行プロジェクトのリード、PM経験です。アーキテクト・PM層です。</p>
+              <p className="text-sm text-slate-600">複数モジュール横断の設計、S/4HANA移行プロジェクトのリード、PM経験が求められるアーキテクト・PM層です。</p>
             </div>
           </div>
         </section>
@@ -242,7 +242,7 @@ export default function SapSkillPage() {
         <section id="career" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスの選択肢</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            SAP人材のキャリアは「ABAP開発」「モジュールコンサル」「テクノロジー（基盤）」「PM/アーキテクト」に大別できます。SAP認定資格の3ジャンルと対応づけて考えると整理しやすいです。
+            SAP人材のキャリアは「ABAP開発」「モジュールコンサル」「テクノロジー（基盤）」「PM/アーキテクト」に大別できます。SAP認定資格の3ジャンルと対応づけて考えると整理しやすくなります。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {careerPaths.map((item, i) => (
@@ -257,7 +257,7 @@ export default function SapSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             SAP求人は年収レンジが広く、ハイクラス帯はスカウト型で出会えるケースが多いのが特徴です。タイプの異なるエージェントを併用しましょう。
           </p>
@@ -266,19 +266,19 @@ export default function SapSkillPage() {
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/bizreach-it/" className="text-petrol-deep hover:underline">ビズリーチ</Link>
               </h3>
-              <p className="text-sm text-slate-600">ハイクラス・スカウト型です。年収750万円以上をハイクラス層とし、年収1,000万円以上求人の比率が高いとされます（二次情報）。SAPコンサル/PM案件に強いです。</p>
+              <p className="text-sm text-slate-600">ハイクラス・スカウト型のサービスで、年収750万円以上をハイクラス層とし、年収1,000万円以上求人の比率が高いとされます（二次情報）。SAPコンサル/PM案件に強みがあります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/levtech/" className="text-petrol-deep hover:underline">レバテックキャリア</Link>
               </h3>
-              <p className="text-sm text-slate-600">IT/Web特化で専門アドバイザーが在籍しています。高年収求人の比率が高いとされます（同社ガイド記事）。ABAP開発寄りのSAP求人も探しやすいです。</p>
+              <p className="text-sm text-slate-600">IT/Web特化で専門アドバイザーが在籍しており、高年収求人の比率が高いとされます（同社ガイド記事）。ABAP開発寄りのSAP求人も探しやすくなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/doda-it/" className="text-petrol-deep hover:underline">doda ITエンジニア</Link>
               </h3>
-              <p className="text-sm text-slate-600">国内最大級の求人数で、検索＋エージェント＋スカウトのハイブリッド型です。幅広いSAP求人を比較しやすいです。</p>
+              <p className="text-sm text-slate-600">国内最大級の求人数で、検索＋エージェント＋スカウトのハイブリッド型です。幅広いSAP求人を比較しやすくなります。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
@@ -296,7 +296,7 @@ export default function SapSkillPage() {
             {[
               { t: "業務知識を棚卸しします", d: "経理・購買・生産管理・販売など、前職の業務領域を整理し、対応モジュール（FI/CO/MM/SD等）に紐づけます。" },
               { t: "ABAPまたは業務系開発の経験を示します", d: "開発志向ならABAPや業務系システム開発の実績を、コンサル志向なら業務改善の実績を訴求します。" },
-              { t: "パートナー企業の育成枠を狙います", d: "SAPパートナー企業は研修・育成体制が整っていることが多く、ポテンシャル採用の入口になりやすいです。" },
+              { t: "パートナー企業の育成枠を狙います", d: "SAPパートナー企業は研修・育成体制が整っていることが多く、ポテンシャル採用の入口になりやすい傾向があります。" },
               { t: "認定資格で学習成果を可視化します", d: "対応ジャンルの認定を取得し、書類段階でスキルの裏付けを示します。最新の制度はSAP公式で確認します。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -315,7 +315,7 @@ export default function SapSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              SAP領域は、30代・40代のミドル層にとって<strong>業務経験とマネジメント経験が直接評価される</strong>数少ない分野です。基幹システムは企業の業務そのものを扱うため、経理・購買・生産管理などの実務理解や、プロジェクトを回した経験が大きな強みになります。若手のコーディング速度勝負ではなく、業務×プロジェクト遂行力で勝負できる領域です。
+              SAP領域は、30代・40代のミドル層にとって<strong>業務経験とマネジメント経験が直接評価される</strong>数少ない分野です。基幹システムは企業の業務そのものを扱うため、経理・購買・生産管理などの実務理解や、プロジェクトを回した経験が大きな強みになります。若手とコーディング速度を競うのではなく、業務×プロジェクト遂行力で評価される領域です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・前職の業務ドメインを担当モジュールに対応づけて明文化します</li>

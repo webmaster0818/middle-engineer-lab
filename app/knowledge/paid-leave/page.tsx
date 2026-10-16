@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：退職時の有給は実質的に取得できるのが原則" },
+  { id: "conclusion", label: "退職時の有給は実質的に取得できるのが原則" },
   { id: "basics", label: "前提：年次有給休暇は労働者の権利" },
   { id: "change-right", label: "時季変更権は退職日を超えて行使できない" },
   { id: "buyout", label: "買い取りの原則と例外" },
@@ -44,9 +44,9 @@ const troubles = [
 ];
 
 const schedule = [
-  { period: "退職日から逆算", title: "残日数を確定", desc: "勤怠システムや給与明細で年次有給休暇の残日数を正確に把握します。付与日や時効（消滅）の扱いも確認します。" },
-  { period: "切り出し時", title: "消化希望を早めに共有", desc: "退職を切り出すタイミングで、最終出社日と有給消化の見通しを上司と相談しておくと調整がスムーズです。" },
-  { period: "引き継ぎ期間", title: "引き継ぎを前倒し", desc: "有給消化に入る前に引き継ぎを完了させる計画を立てます。属人化の解消が消化交渉の追い風になります。" },
+  { period: "退職日から逆算", title: "残日数の確定", desc: "勤怠システムや給与明細で年次有給休暇の残日数を正確に把握します。付与日や時効（消滅）の扱いも確認します。" },
+  { period: "切り出し時", title: "消化希望の早期共有", desc: "退職を切り出すタイミングで、最終出社日と有給消化の見通しを上司と相談しておくと調整がスムーズです。" },
+  { period: "引き継ぎ期間", title: "引き継ぎの前倒し", desc: "有給消化に入る前に引き継ぎを完了させる計画を立てます。属人化を解消しておくと、消化の交渉も進めやすくなります。" },
   { period: "最終出社後", title: "有給消化期間", desc: "引き継ぎ完了後、最終出社日の翌日から退職日までを有給消化に充てるのが一般的な流れです。" },
 ];
 
@@ -119,8 +119,8 @@ export default function PaidLeavePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職時に有給休暇は消化できる？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 年次有給休暇は労働者の権利で、退職時は時季変更権が実質的に及ばないため、消化できるのが原則です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・会社の時季変更権は退職日を超えて行使できず、退職時には実質的に拒否しにくいです</li><li>・買い取りは原則不可です。退職時に消滅する残日数のみ例外的に認められます（会社の義務ではない）</li><li>・一方的に拒否されたら自己判断で諦めず、労働基準監督署など公的窓口に相談します</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>年次有給休暇は労働者の権利で、退職時は時季変更権が実質的に及ばないため、消化できるのが原則です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・会社の時季変更権は退職日を超えて行使できず、退職時には実質的に拒否しにくい傾向があります</li><li>・買い取りは原則不可です。退職時に消滅する残日数のみ例外的に認められます（会社の義務ではない）</li><li>・一方的に拒否されたら自己判断で諦めず、労働基準監督署など公的窓口に相談します</li></ul>
           </div>
         </section>
 
@@ -152,11 +152,11 @@ export default function PaidLeavePage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：退職時の有給は実質的に取得できるのが原則</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">退職時の有給は実質的に取得できるのが原則</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・年次有給休暇は<strong>労働者の権利です</strong>。退職時にも取得できるのが原則です。</li>
-              <li>・会社の<strong>時季変更権は退職日を超えて行使できない</strong>ため、退職時は実質的に拒否しにくいです。</li>
-              <li>・買い取りは原則違法です。ただし<strong>退職時に消滅する残日数の買い取りは例外的に認められます</strong>（義務ではない）。</li>
+              <li>・年次有給休暇は<strong>労働者の権利</strong>であり、退職時にも取得できるのが原則です。</li>
+              <li>・会社の<strong>時季変更権は退職日を超えて行使できない</strong>ため、退職時は実質的に拒否しにくい傾向があります。</li>
+              <li>・買い取りは原則として認められていません。ただし<strong>退職時に消滅する残日数の買い取りは例外的に認められます</strong>（義務ではない）。</li>
               <li>・拒否されたら自己判断で諦めず、<strong>労働基準監督署</strong>など公的窓口に相談します。</li>
             </ul>
           </div>
@@ -232,7 +232,7 @@ export default function PaidLeavePage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 全体の段取りは<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>、引き継ぎの作り方は<Link href="/knowledge/handover/" className="text-petrol hover:underline">引き継ぎドキュメントの作り方</Link>も参照。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 全体の段取りは<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>、引き継ぎの作り方は<Link href="/knowledge/handover/" className="text-petrol hover:underline">引き継ぎドキュメントの作り方</Link>も参照してください。</p>
         </section>
 
         <section id="consult" className="mb-10 scroll-mt-20">
@@ -257,11 +257,11 @@ export default function PaidLeavePage() {
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">残日数が大きいほど早めの相談が効く</h3>
+              <h3 className="font-bold text-slate-800 mb-2">残日数が多いほど早めの相談が有効</h3>
               <p className="text-sm text-slate-600">消化日数が多いと、退職日までに収まらないことがあります。退職を切り出す段階で残日数と消化計画を共有し、必要なら退職日自体を調整するのが現実的です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">属人化の解消が消化の追い風になる</h3>
+              <h3 className="font-bold text-slate-800 mb-2">属人化の解消が有給消化の後押しになる</h3>
               <p className="text-sm text-slate-600">「ご自身が抜けると回らない」状態だと、消化への抵抗が強くなりがちです。引き継ぎドキュメントを整え、属人化を解消しておくことが、結果的に有給消化をスムーズにします。引き止め交渉での揺らぎを防ぐ意味でも有効です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -290,7 +290,7 @@ export default function PaidLeavePage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">退職スケジュールの相談を</h2>
+          <h2 className="text-xl font-bold mb-3">退職スケジュールの相談先</h2>
           <p className="text-blue-100 text-sm mb-4">
             有給消化と入社日の調整に迷ったら、IT特化型エージェントに無料で相談できます。
           </p>

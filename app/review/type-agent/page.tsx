@@ -17,7 +17,7 @@ const DESCRIPTION =
 
 // H2見出しの目次（アンカー）
 const toc = [
-  { id: "summary", label: "結論サマリ：どんな人向けか" },
+  { id: "summary", label: "要点：どんな人向けか" },
   { id: "basic", label: "基本データ（2026年6月時点）" },
   { id: "strength", label: "type転職エージェントITの特徴・強み" },
   { id: "results", label: "実績データの読み方（計測期間2021-2022）" },
@@ -49,8 +49,8 @@ const goodReviews = [
     body: "job.or.jpやR&G等の口コミプラットフォームでは、担当アドバイザーの対応が親身で丁寧という傾向の声が見られます。一人ひとりのキャリアに寄り添う支援を評価する声が中心です。",
   },
   {
-    head: "ミスマッチが少なく定着率が高いです",
-    body: "求人数の多さより精度を重視した提案で、入社後のミスマッチが少ないという傾向の声が見られます。定着率97.4%（自社公表値）という数値とも整合する評価。",
+    head: "ミスマッチが少なく定着率が高い",
+    body: "求人数の多さより精度を重視した提案で、入社後のミスマッチが少ないという傾向の声が見られます。定着率97.4%（自社公表値）という数値とも整合する評価です。",
   },
   {
     head: "首都圏の非公開求人が豊富",
@@ -61,17 +61,17 @@ const goodReviews = [
 // 悪い評判（datasheet：OUTSIDEMAGAZINE 等の傾向要約）
 const badReviews = [
   {
-    head: "地方求人が少ないです",
+    head: "地方求人が少ない",
     body: "首都圏特化のため、一都三県以外の地方求人がほとんどないという声が、OUTSIDEMAGAZINE等の口コミプラットフォームで見られます。",
     cope: "地方やUターン・Iターンを検討する場合は、全国対応の大手エージェントと併用して母集団を確保するのが現実的です。首都圏で探すと割り切れば強みになります。",
   },
   {
-    head: "未経験向けの求人が少ないです",
+    head: "未経験向けの求人が少ない",
     body: "IT実務経験者向けの求人が中心で、未経験者向けの求人は少ないという傾向の声が見られます。",
     cope: "完全未経験の場合は、未経験歓迎求人の多いサービスや研修付きの導線を検討します。実務経験があれば十分に強みを活かせます。",
   },
   {
-    head: "担当者との相性に左右されます",
+    head: "担当者との相性に左右される",
     body: "担当アドバイザーとの相性で体験が変わるという声が見られます。これは仲介型エージェント全般に共通する傾向でもあります。",
     cope: "相性が合わないと感じたら担当変更を申し出る、または複数エージェントを併用して比較するのが有効です。遠慮せず希望を明確に伝えることが満足度を高めます。",
   },
@@ -108,7 +108,7 @@ const faqs = [
   },
   {
     q: "30代・40代でも使えますか？",
-    a: "利用可能です。首都圏のIT/Web実務経験者を支援しており、年収交渉や面接対策の手厚さはミドル層と相性が良いです。ただし求人エリアが一都三県中心、ハイクラス求人がやや少なめという特性があるため、ハイクラス志向の場合はスカウト型サービスとの併用が現実的です。",
+    a: "利用可能です。首都圏のIT/Web実務経験者を支援しており、年収交渉や面接対策の手厚さはミドル層と相性が良いといえます。ただし求人エリアが一都三県中心、ハイクラス求人がやや少なめという特性があるため、ハイクラス志向の場合はスカウト型サービスとの併用が現実的です。",
   },
   {
     q: "断られる・しつこいといったことはありますか？",
@@ -192,12 +192,12 @@ export default function TypeAgentReview() {
           </ol>
         </nav>
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論サマリ：どんな人向けか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">要点：どんな人向けか</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3 text-lg">
-              結論：「首都圏でIT転職する実務経験者」に向く、丁寧支援型エージェント
+              「首都圏でIT転職する実務経験者」に向く、丁寧支援型エージェント
             </p>
             <p className="text-sm text-blue-900 leading-relaxed mb-4">
               type転職エージェントITは、一都三県のIT/Web企業に絞って、年収交渉や面接対策まで丁寧に支援してくれるエージェントです。
@@ -211,7 +211,7 @@ export default function TypeAgentReview() {
           </div>
           <div className="mt-5 grid grid-cols-1 sm:grid-cols-3 gap-3 text-center">
             {[
-              ["総合評価", "★★★★☆", "首都圏IT経験者に強いです"],
+              ["総合評価", "★★★★☆", "首都圏IT経験者に強みがあります"],
               ["支援の手厚さ", "★★★★☆", "丁寧なカウンセリング"],
               ["エリアの広さ", "★★★☆☆", "一都三県中心"],
             ].map(([k, v, note], i) => (
@@ -262,7 +262,7 @@ export default function TypeAgentReview() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 年収交渉に注力するエージェント</h3>
               <p className="text-sm text-blue-900 leading-relaxed">
-                datasheetでも「年収交渉に注力」が強みとして挙げられています。年収アップ希望者の約71%が増収、平均増額92万円・ITエンジニアは124万円という自社調査の実績（計測期間2021年10月〜2022年9月）があり、
+                各種の紹介情報でも、年収交渉への注力が強みとして挙げられています。年収アップ希望者の約71%が増収、平均増額92万円・ITエンジニアは124万円という自社調査の実績（計測期間2021年10月〜2022年9月）があり、
                 条件交渉を任せたいエンジニアと相性が良いサービスです。
               </p>
             </div>
@@ -400,10 +400,10 @@ export default function TypeAgentReview() {
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">市場全体の追い風を踏まえる</h3>
+              <h3 className="font-bold text-slate-800 mb-2">市場全体の動向を踏まえる</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。
-                首都圏のIT求人需要は底堅く、年収交渉に強いtype転職エージェントITはこの追い風を交渉力に変えやすいサービスです。
+                首都圏のIT求人需要は底堅く、年収交渉に強いtype転職エージェントITはこの需要を交渉に活かしやすいサービスです。
                 自分の立ち位置は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">エンジニアの市場価値の測り方</Link>で確認しておきましょう。
               </p>
             </div>
@@ -460,7 +460,7 @@ export default function TypeAgentReview() {
               ["キャリアカウンセリング", "担当アドバイザーと面談し、経験・志向・希望条件をすり合わせます。首都圏IT企業の内部情報を踏まえた提案の土台になります。"],
               ["求人紹介・応募", "首都圏の公開・非公開求人から、精度重視で提案を受けます。気になる求人に書類添削を受けたうえで応募します。"],
               ["面接対策・面接", "手厚い面接対策を受けてから面接に臨みます。企業ごとの傾向を踏まえた準備でミスマッチを抑えます。"],
-              ["内定・年収交渉・入社", "内定後は年収交渉をアドバイザーが支援しています。条件に納得して入社へ進みます。"],
+              ["内定・年収交渉・入社", "内定後は年収交渉をアドバイザーが支援します。条件に納得して入社へ進みます。"],
             ].map(([head, body], i) => (
               <li key={i} className="flex gap-4">
                 <span className="shrink-0 w-8 h-8 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-sm">

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公式確認範囲）" },
@@ -71,20 +71,20 @@ export default function UbieCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Ubieの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Ubieは非上場のため公式の全社員平均年収は公表されていません。公式採用ページ提示の職種別レンジが最も信頼できる一次情報です（例: プロダクトマネージャー 800〜1,200万円）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>Ubieは非上場のため公式の全社員平均年収は公表されていません。公式採用ページ提示の職種別レンジが最も信頼できる一次情報です（例: プロダクトマネージャー 800〜1,200万円）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収は非公表です（非上場・有価証券報告書なし）。集計サイトの数値は公式値ではない参考値です。</li><li>・公式採用ページの職種別レンジ例: プロダクトマネージャー 800〜1,200万円、QA・事業開発など 600〜1,200万円です。</li><li>・エンジニア職の等級別レンジは時期により変動します。具体的な提示額は応募・面談で確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["Ubie 公式採用サイト（職種別年収レンジ）", "Ubie 技術発信（Zenn等のEngineering記事）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高め（要件主義・即戦力志向のスタートアップ）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・全社で<strong>Go・Node.js に技術を標準化します</strong>。GoまたはNode.js／TypeScriptでのバックエンド・フロント実務経験を持つエンジニアに向きます。</li>
-              <li>・<strong>年齢不問・要件主義</strong>を明示します。年齢ではなく「求める要件を満たすか」で判断されるため、30代・40代でも要件が合えば十分対象になります。</li>
-              <li>・医療ドメイン×SaaSという<strong>社会性の高い領域です</strong>。プロダクトの社会的インパクトに共感できる人に合います。</li>
+              <li>・全社で<strong>Go・Node.js に技術を標準化しています</strong>。GoまたはNode.js／TypeScriptでのバックエンド・フロント実務経験を持つエンジニアに適しています。</li>
+              <li>・<strong>年齢不問・要件主義</strong>を明示しています。年齢ではなく「求める要件を満たすか」で判断されるため、30代・40代でも要件が合えば十分対象になります。</li>
+              <li>・医療ドメイン×SaaSという<strong>社会性の高い領域</strong>で事業を展開しており、プロダクトの社会的インパクトに共感できる人に適しています。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">非上場のため全社平均年収の公式値はありません。公式採用ページの職種別レンジ（例：PdM 800〜1,200万円）が最も信頼できる目安です。逆に、確立された大企業の安定や明確な等級制度を最優先する人にはスタートアップ特有の変化の速さがミスマッチになり得ます。</p>
           </div>
@@ -123,7 +123,7 @@ export default function UbieCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下はUbieの公式採用ページ・技術発信（Zenn等のEngineering記事）で公開されている範囲の情報です。組織・プロダクトの拡大に伴い構成は変化するため、最新は公式発信・募集要項でご確認ください。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go / Node.js</strong>：全社で標準化されたバックエンドの主力です。以前はKotlin等も使われていたが移行を進めました</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go / Node.js</strong>：全社で標準化されたバックエンドの主力（以前のKotlin等から移行）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>TypeScript / Next.js</strong>：フロントエンド開発の中心</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>gRPC</strong>：マイクロサービス間の通信に利用</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>GraphQL</strong>：外部・クライアント向けのAPIに利用</span></li>
@@ -181,7 +181,7 @@ export default function UbieCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たUbie</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>Ubie最大のポイントは<strong>「年齢不問・要件主義」を明示している</strong>ことです。30代・40代のミドルエンジニアにとって、年齢で足切りされにくいというのは大きな安心材料です。GoやNode.js、TypeScript／Next.jsでのSaaS開発経験、GCP上での設計・運用経験を持つ人であれば、年齢よりもスキルで評価される土俵に立てます。</p>
-            <p>技術が全社でGo・Node.jsに標準化されているため、入社後に習得すべき技術が読みやすく、これまでのバックエンド・フロント経験を活かしやすい点もミドル向きです。一方で、スタートアップ特有の変化の速さ・組織の流動性は、安定した大企業からの転職では事前に許容度を確認しておきたい部分です。非上場のため将来のIPOやストックオプションの扱いは公式の確定情報がなく、年収は公式の職種別レンジを基準に考えるのが現実的です。</p>
+            <p>技術が全社でGo・Node.jsに標準化されているため、入社後に習得すべき技術が読みやすく、これまでのバックエンド・フロント経験を活かしやすい点もミドル層に適しています。一方で、スタートアップ特有の変化の速さ・組織の流動性は、安定した大企業からの転職では事前に許容度を確認しておきたい部分です。非上場のため将来のIPOやストックオプションの扱いは公式の確定情報がなく、年収は公式の職種別レンジを基準に考えるのが現実的です。</p>
             <p>医療ドメインに関心がある方は<Link href="/industry/healthcare/" className="text-petrol hover:underline">ヘルステック転職の全体像</Link>もあわせて確認すると、業界としての立ち位置が掴みやすくなります。年収交渉やキャリア整理の観点では<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>も参考にしてください。</p>
           </div>
         </section>
@@ -192,7 +192,7 @@ export default function UbieCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Go／Node.js／TypeScriptでのSaaS開発経験を持つミドルエンジニア</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Go／Node.js／TypeScriptでのSaaS開発経験がある</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>医療・ヘルスケアの社会的意義に共感できる</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>年齢ではなくスキルで評価される環境を求めている</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>変化の速い環境で自律的に動くのが得意</li>
@@ -222,7 +222,7 @@ export default function UbieCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">Ubie転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強いです。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすいです。ミドル層の選択肢を広げやすいです。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強いです。カジュアル面談につながりやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強みがあります。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすく、ミドル層の選択肢を広げやすくなります。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強みがあります。カジュアル面談につながりやすい傾向があります。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

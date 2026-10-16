@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：日立転職の難易度と向くエンジニア" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "conclusion", label: "日立転職の難易度と向いている人" },
+  { id: "basic", label: "基本データ（出典あり）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "tech", label: "技術スタック・DX組織（Lumada）" },
   { id: "salary", label: "年収データ" },
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     q: "未出典の等級別年収表はなぜ掲載していないのですか？",
-    a: "当サイトは確認できた一次情報・出典付き情報のみを掲載する方針です。日立製作所はエンジニア職の等級別年収を公式に公表していないため、推測による等級別レンジ表は掲載していません。年収の交渉は転職エージェント経由で行うのが現実的です。",
+    a: "当サイトは確認できた一次情報と、出典を確認できる情報のみを掲載する方針です。日立製作所はエンジニア職の等級別年収を公式に公表していないため、推測による等級別レンジ表は掲載していません。年収の交渉は転職エージェント経由で行うのが現実的です。",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function HitachiCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】日立製作所の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 日立製作所の平均年間給与は961万円です（2025年3月期 有価証券報告書・提出会社単体の全社員平均、平均年齢42.6歳・平均勤続18.7年）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>日立製作所の平均年間給与は961万円です（2025年3月期 有価証券報告書・提出会社単体の全社員平均、平均年齢42.6歳・平均勤続18.7年）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 961万円です（2025年3月期 有価証券報告書）。株式会社日立製作所単体の全従業員平均で、特定職種の数値ではありません。</li><li>・エンジニア職に限定した公式の年収レンジは公表されていません。日本経済新聞の企業年収データなど二次情報も同水準（約961万円）を報じています。</li><li>・具体的な提示年収は募集職種・経験・現年収により変動するため、求人票かエージェント経由で確認するのが確実です。</li></ul>
         </div>
 
@@ -115,17 +115,17 @@ export default function HitachiCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：日立転職の難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">日立転職の難易度と向いている人</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
-            <p><strong>難易度は高めです。ただしジョブ型・職種別の通年採用のため、専門性が募集要件に合えば30代・40代でもチャンスは十分です。</strong></p>
-            <p>・<strong>向く人</strong>：Lumada／クラウド（AWS・Azure・GCP）／生成AI／データ基盤の実務経験者、電力・鉄道・製造などの社会インフラ×ITに関心がある人、OT×ITの融合領域に魅力を感じる人です。</p>
-            <p>・<strong>向きにくい人</strong>：少人数・スピード最優先のプロダクト開発のみを志向する人、配属部署による文化差を許容しにくい人です。</p>
-            <p>・<strong>年収の目安</strong>：全社員平均は961万円です（2025年3月期有価証券報告書）。エンジニア職の公式レンジは非公表のため、具体額はエージェント経由で確認するのが現実的です。</p>
+            <p><strong>難易度は高い水準にあります。ただしジョブ型・職種別の通年採用のため、専門性が募集要件に合えば30代・40代でも十分にチャンスがあります。</strong></p>
+            <p>・<strong>向いている人</strong>：Lumada／クラウド（AWS・Azure・GCP）／生成AI／データ基盤の実務経験者、電力・鉄道・製造などの社会インフラ×ITに関心がある人、OT×ITの融合領域に取り組みたい人が該当します。</p>
+            <p>・<strong>向いていない人</strong>：少人数・スピード最優先のプロダクト開発のみを志向する人、配属部署による文化差を許容しにくい人です。</p>
+            <p>・<strong>年収の目安</strong>：全社員平均は961万円（2025年3月期有価証券報告書）となっています。エンジニア職の公式レンジは非公表のため、具体額はエージェント経由で確認するのが現実的です。</p>
           </div>
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -166,7 +166,7 @@ export default function HitachiCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Lumada</strong>：IoT/AI/データ分析を活用したDXソリューション基盤です。生成AIサービスとの統合を強化</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Lumada</strong>：IoT/AI/データ分析を活用したDXソリューション基盤（生成AIサービスとの統合を強化）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：AWS / Azure / GCP を中心としたソリューション開発（公式募集職種に明記）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>生成AI</strong>：Lumada Solution Hub における生成AI関連ソリューション・サービス開発</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>OT×IT</strong>：電力・鉄道・製造など社会インフラの制御技術とITの融合領域</span></li>
@@ -195,7 +195,7 @@ export default function HitachiCompanyPage() {
           <ol className="space-y-3">
             {[
               ["応募（公式採用ページ／エージェント経由）", "職種別の募集に対し、職務経歴書・レジュメを提出します。"],
-              ["書類選考", "担当業務の規模・役割・成果・再現性が見られます。募集要件との合致が重要。"],
+              ["書類選考", "担当業務の規模・役割・成果・再現性が見られます。募集要件との合致が重要です。"],
               ["面接（複数回）", "ジョブ型・職種別のため、専門面接が行われます。事業理解と経験の接続が問われます。"],
               ["内定・条件提示", "採用条件（待遇含む）の提示を経て決定します。"],
             ].map(([title, desc], i) => (
@@ -216,8 +216,8 @@ export default function HitachiCompanyPage() {
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>担当業務の<strong>規模・役割・成果・再現性</strong>を具体的な数字で説明できるか</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>「<strong>なぜ日立か</strong>」を事業理解と自分の経験に接続して言語化できるか</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>応募する募集職種（Lumada・クラウド・生成AI等）の<strong>専門要件との合致</strong></li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>社会インフラ・OT×IT領域への関心と、長期的に取り組む姿勢</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>応募する募集職種（Lumada・クラウド・生成AI等）の<strong>専門要件と合致しているか</strong></li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>社会インフラ・OT×IT領域への関心があり、長期的に取り組む姿勢を示せるか</li>
           </ul>
           <p className="text-xs text-slate-400 mt-2">出典：日立製作所 公式採用情報＋転職メディアの傾向要約。具体的な面接質問の内容は選考・時期により異なります。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>をご参照ください。</p>
         </section>
@@ -235,9 +235,9 @@ export default function HitachiCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">日立製作所転職におすすめの転職エージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量です。大手メーカー・日立グループ系の求人を幅広く保有しています。検索とエージェントを併用できます。" },
-              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚いです。大手企業への転職支援に強みがあり、ジョブ型採用の準備をサポートします。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。日立の管理職・スペシャリスト求人や非公開ポジションに出会いやすいです。" },
+              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数を有し、大手メーカー・日立グループ系の求人を幅広く保有しています。検索とエージェントを併用できます。" },
+              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚い点が特徴です。大手企業への転職支援に強みがあり、ジョブ型採用の準備をサポートします。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けのスカウト型サービスです。日立の管理職・スペシャリスト求人や非公開ポジションに出会いやすくなります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -9,7 +9,7 @@ const DESCRIPTION =
   "SIerからWeb系自社開発企業への転職を、技術ギャップ・文化ギャップ・年収の現実から解説します。30代・40代SIer出身者が押さえるべき準備、職種選び、エージェントの使い方までガイドします。";
 
 const toc = [
-  { id: "conclusion", label: "結論：SIerからWeb系は十分狙えます。ただし準備で差がつく" },
+  { id: "conclusion", label: "SIerからWeb系への転職は現実的な選択肢。ただし準備が重要" },
   { id: "trend", label: "Web系がSIer出身者を採用する背景" },
   { id: "gap", label: "技術ギャップ・文化ギャップの正体" },
   { id: "salary", label: "年収の現実（公的・公表データ）" },
@@ -23,35 +23,35 @@ const toc = [
 ];
 
 const gapRows: [string, string, string][] = [
-  ["バージョン管理", "SVN・社内ツール・Excel管理も残ります", "Git/GitHub・GitHub Flowが前提"],
+  ["バージョン管理", "SVN・社内ツール・Excelでの管理も残存", "Git/GitHub・GitHub Flowが前提"],
   ["開発手法", "ウォーターフォール・工程分業", "アジャイル/スクラム・職能横断チーム"],
-  ["リリース", "数か月〜年単位・手動も多いです", "CI/CDで週次〜デイリー自動デプロイ"],
+  ["リリース", "数か月〜年単位・手作業によるリリースも多め", "CI/CDで週次〜デイリー自動デプロイ"],
   ["インフラ", "オンプレ・物理/仮想サーバー", "クラウド（AWS/GCP）・IaC・コンテナ"],
-  ["言語・FW", "Java/C#・ベンダー製品依存も", "TypeScript/Go/Ruby・モダンFW"],
+  ["言語・FW", "Java/C#・ベンダー製品への依存", "TypeScript/Go/Ruby・モダンFW"],
   ["評価軸", "工程管理・ドキュメント品質", "プロダクトへの貢献・コードと設計"],
-  ["働き方", "客先常駐が一定割合残ります", "自社オフィス/フルリモートが多いです"],
+  ["働き方", "一定割合の客先常駐", "自社オフィス/フルリモートが多い傾向"],
 ];
 
 const activeRows: [string, string][] = [
   ["要件定義・業務理解", "顧客課題を仕様に落とす力は、Web系の「プロダクト仕様策定」で高く評価されます"],
-  ["設計・ドキュメント力", "アーキテクチャ設計やADR（設計判断記録）に直結。属人化を嫌うチームほど重宝される"],
+  ["設計・ドキュメント力", "アーキテクチャ設計やADR（設計判断記録）に直結します。属人化を嫌うチームほど重宝されます"],
   ["品質・テスト意識", "テスト戦略・障害対応の経験は、SREやQA、リリース品質の観点で強みになります"],
-  ["大規模・基幹システム経験", "可用性・トランザクション・データ整合性の勘所はSaaSのバックエンドで効きます"],
+  ["大規模・基幹システム経験", "可用性・トランザクション・データ整合性の勘所は、SaaSのバックエンド開発で活かせます"],
   ["プロジェクト推進力", "見積もり・進捗管理・利害調整は、テックリードやEMの土台になります"],
 ];
 
 const fillRows: [string, string][] = [
-  ["Git/GitHubの実務運用", "ブランチ運用・PR・コードレビュー文化に慣れます。個人開発でも日常的に使う"],
-  ["モダンFWとTypeScript", "React/Next.jsやGo等。Java/C#経験者はTypeScriptへの移行が比較的スムーズ"],
-  ["クラウドとCI/CD", "AWS/GCPの基礎、GitHub Actions等によるデプロイ自動化、Dockerの基礎"],
-  ["プロダクト志向", "「言われた通り作る」から「数値・ユーザーを見て改善する」への発想転換"],
+  ["Git/GitHubの実務運用", "ブランチ運用・PR・コードレビュー文化に慣れます。個人開発でも日常的に使うことが大切です"],
+  ["モダンFWとTypeScript", "React/Next.jsやGo等を習得します。Java/C#経験者はTypeScriptへの移行が比較的スムーズです"],
+  ["クラウドとCI/CD", "AWS/GCPの基礎、GitHub Actions等によるデプロイ自動化、Dockerの基礎を身につけます"],
+  ["プロダクト志向", "「言われた通り作る」から「数値・ユーザーを見て改善する」へと発想を転換します"],
   ["公開できる成果物", "GitHubのポートフォリオで「コードを書けるSIer出身者」であることを証明します"],
 ];
 
 const companyTypes: { title: string; desc: string; links: { name: string; href: string }[] }[] = [
   {
     title: "メガベンチャー・大手Web",
-    desc: "規模が大きく、SIer出身者の受け入れ実績も豊富です。基幹・大規模システムの経験が評価されやすく、年収を落とさず移れる可能性も高いです。",
+    desc: "規模が大きく、SIer出身者の受け入れ実績も豊富です。基幹・大規模システムの経験が評価されやすく、年収を落とさず移れる可能性も高いといえます。",
     links: [
       { name: "サイバーエージェント", href: "/company/cyberagent/" },
       { name: "DeNA", href: "/company/dena/" },
@@ -60,7 +60,7 @@ const companyTypes: { title: string; desc: string; links: { name: string; href: 
   },
   {
     title: "SaaS・BtoB事業会社",
-    desc: "業務システムの知識やドメイン理解がそのまま活きやすいです。腰を据えてプロダクトを育てたいミドル層と相性が良いです。",
+    desc: "業務システムの知識やドメイン理解がそのまま活きやすくなります。腰を据えてプロダクトを育てたいミドル層と相性が良いといえます。",
     links: [
       { name: "freee", href: "/company/freee/" },
       { name: "マネーフォワード", href: "/company/moneyforward/" },
@@ -69,7 +69,7 @@ const companyTypes: { title: string; desc: string; links: { name: string; href: 
   },
   {
     title: "スタートアップ",
-    desc: "裁量と技術選定の自由度が大きい一方、年収は一時的に下がる場合もあります。ストックオプションや成長フェーズを含めて判断したいです。",
+    desc: "裁量と技術選定の自由度が大きい一方、年収は一時的に下がる場合もあります。ストックオプションや成長フェーズを含めて判断することが大切です。",
     links: [
       { name: "LayerX", href: "/company/layerx/" },
       { name: "SmartHR", href: "/company/smarthr/" },
@@ -109,7 +109,7 @@ const faqs = [
   },
   {
     q: "SIerからWeb系転職に強いエージェントはどこですか？",
-    a: "IT/Web特化のレバテックキャリアや、IT/Web/ゲームに強いGeeklyが定番です。複数社に登録して求人と担当者を比較するのが基本戦略です。各社の特徴は当サイトのレビュー記事や比較記事で確認できます。",
+    a: "IT/Web特化のレバテックキャリアや、IT/Web/ゲームに強いGeeklyが代表的な選択肢です。複数社に登録して求人と担当者を比較するのが基本戦略です。各社の特徴は当サイトのレビュー記事や比較記事で確認できます。",
   },
 ];
 
@@ -180,7 +180,7 @@ export default function SierToWebPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SIerからWeb系は十分狙えます。ただし準備で差がつく</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">SIerからWeb系への転職は現実的な選択肢。ただし準備が重要</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               SIer出身者のWeb系転職は現実的です。設計・要件定義・大規模システムの経験は、SaaSやメガベンチャーで明確に強みになります。
@@ -236,7 +236,7 @@ export default function SierToWebPage() {
             Git/GitHub、クラウド、CI/CD、モダンFWは、SIerでJava/C#などの開発をしてきた方なら独学で十分キャッチアップできます。むしろ難所は「ツールの使い方」ではなく、コードレビューやPRを通じてチームで品質を担保する“運用文化”に慣れることです。最初は個人開発でブランチ運用・PR・自動テストを一通り体験しておくと、入社後の立ち上がりが速くなります。
           </p>
 
-          <h3 className="font-bold text-slate-800 mb-2 mt-6">文化ギャップ：ここが本当の関門</h3>
+          <h3 className="font-bold text-slate-800 mb-2 mt-6">文化ギャップ：最も重要な課題</h3>
           <p className="text-slate-600 leading-relaxed mb-2">
             より本質的なのは文化の違いです。Web系では「仕様書通りに作って終わり」ではなく、リリース後の数値やユーザーの反応を見て継続的に改善することが当たり前です。意思決定がチームに委ねられる分、自走力と当事者意識が求められます。
           </p>
@@ -249,7 +249,7 @@ export default function SierToWebPage() {
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の現実（公的・公表データ）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            「Web系=高年収」というイメージは半分正解で半分誤解です。実際には企業タイプと自分の市場価値で大きく変わります。公表されているデータを基準に、現実的な期待値を持ちましょう。
+            「Web系=高年収」というイメージは、一面では正しいものの誤解も含んでいます。実際には企業タイプと自分の市場価値で大きく変わります。公表されているデータを基準に、現実的な期待値を持ちましょう。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -279,7 +279,7 @@ export default function SierToWebPage() {
             ※出典：レバテック公表の年代別平均年収（2025年）、doda（パーソルキャリア）2024年度決定年収レポート（2025年5月公表）。数値は調査時点の公表値であり、個別企業の提示額を保証するものではありません。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            ポイントは、メガベンチャーやSaaSの中核ポジションであればSIer時代と同等以上を狙える一方、シードに近いスタートアップでは一時的に下がることもある点です。年収交渉は転職活動の終盤で大きく効くため、エージェントに相場を確認しながら進めるのが安全です。年収の考え方は
+            ポイントは、メガベンチャーやSaaSの中核ポジションであればSIer時代と同等以上を狙える一方、シードに近いスタートアップでは一時的に下がることもある点です。年収交渉は転職活動の終盤で結果を大きく左右するため、エージェントに相場を確認しながら進めるのが安全です。年収の考え方は
             <Link href="/knowledge/salary-change/" className="text-petrol hover:underline">エンジニア転職で年収は上がる？</Link>
             、30代・40代の相場は
             <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収</Link>
@@ -370,10 +370,10 @@ export default function SierToWebPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方5ステップ</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "モダン技術のキャッチアップ", desc: "Git/GitHub、Docker、CI/CD、モダンFW（React/Next.js等）、クラウド（AWS/GCP）の基礎を学びます。Java/C#経験者はTypeScriptへの移行が比較的スムーズです。" },
-              { step: "2", title: "個人開発でポートフォリオを作成", desc: "学んだ技術でWebアプリを作りGitHubで公開します。README・テスト・CI/CDまで整えると「コードを書けるSIer出身者」であることを証明できます。" },
-              { step: "3", title: "SIer経験の棚卸しと再定義", desc: "要件定義→プロダクト仕様策定、基本設計→アーキテクチャ設計、品質管理→テスト戦略のように、経験をWeb系の文脈に翻訳します。" },
-              { step: "4", title: "IT特化型エージェントに登録", desc: "Web系の求人とパイプを持つエージェントに複数登録します。SIerからの転職実績がある担当者に、相場と現実的な選択肢を確認します。" },
+              { step: "1", title: "モダン技術をキャッチアップする", desc: "Git/GitHub、Docker、CI/CD、モダンFW（React/Next.js等）、クラウド（AWS/GCP）の基礎を学びます。Java/C#経験者はTypeScriptへの移行が比較的スムーズです。" },
+              { step: "2", title: "個人開発でポートフォリオを作成する", desc: "学んだ技術でWebアプリを作りGitHubで公開します。README・テスト・CI/CDまで整えると「コードを書けるSIer出身者」であることを証明できます。" },
+              { step: "3", title: "SIer経験を棚卸しして再定義する", desc: "要件定義→プロダクト仕様策定、基本設計→アーキテクチャ設計、品質管理→テスト戦略のように、経験をWeb系の文脈に翻訳します。" },
+              { step: "4", title: "IT特化型エージェントに登録する", desc: "Web系企業とのつながりを持つエージェントに複数登録します。SIerからの転職実績がある担当者に、相場と現実的な選択肢を確認します。" },
               { step: "5", title: "カルチャーフィットを確認する", desc: "面接やカジュアル面談で「なぜWeb系か」「どんなチームで働きたいか」を言語化します。文化の合う企業を見極めることがミスマッチ防止の決め手です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -396,11 +396,11 @@ export default function SierToWebPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div className="border border-slate-200 rounded-lg p-5 bg-slate-50">
               <p className="text-xs font-bold text-slate-500 mb-2">Before（SIer的な書き方）</p>
-              <p className="text-sm text-slate-600">基本設計・詳細設計を担当します。10名規模のプロジェクトでスケジュール管理と品質管理を実施します。</p>
+              <p className="text-sm text-slate-600">基本設計・詳細設計を担当。10名規模のプロジェクトでスケジュール管理と品質管理を実施。</p>
             </div>
             <div className="border border-[var(--line)] rounded-lg p-5 bg-petrol-soft">
               <p className="text-xs font-bold text-petrol mb-2">After（Web系に伝わる書き方）</p>
-              <p className="text-sm text-slate-700">基幹システムのアーキテクチャ設計を主導します。Javaでバックエンドを実装し、テスト戦略を整備して障害率を低減します。10名チームの技術的な意思決定をリードしました。</p>
+              <p className="text-sm text-slate-700">基幹システムのアーキテクチャ設計を主導。Javaでバックエンドを実装し、テスト戦略を整備して障害率を低減。10名チームの技術的な意思決定をリード。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed">
@@ -422,11 +422,11 @@ export default function SierToWebPage() {
           </p>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">30代前半：代表的なルートを狙える</h3>
-              <p className="text-sm text-petrol-deep">バックエンドやSREへの転向がしやすい時期です。モダン技術のキャッチアップとポートフォリオで、コーディング力を示せれば選択肢は広いです。年収を維持・向上させやすい層でもあります。</p>
+              <h3 className="font-bold text-blue-800 mb-2">30代前半：代表的なルートを狙いやすい時期</h3>
+              <p className="text-sm text-petrol-deep">バックエンドやSREへの転向がしやすい時期です。モダン技術のキャッチアップとポートフォリオで、コーディング力を示せれば選択肢が広がります。年収を維持・向上させやすい層でもあります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">30代後半：設計力・推進力で勝負</h3>
+              <h3 className="font-bold text-blue-800 mb-2">30代後半：設計力・推進力を軸にする</h3>
               <p className="text-sm text-petrol-deep">純粋なコーディング速度より、設計・技術選定・チームの牽引が評価されます。テックリードやEM、難易度の高いドメインのバックエンドが有力な選択肢です。SaaSのドメイン知識マッチングも有効です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -461,7 +461,7 @@ export default function SierToWebPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">SIerからWeb系への転職、プロに相談しよう</h2>
+          <h2 className="text-xl font-bold mb-3">SIerからWeb系への転職を専門家に相談する</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、SIer出身者のキャリアチェンジ支援実績が豊富です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

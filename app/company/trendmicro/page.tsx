@@ -31,7 +31,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんなエンジニア向きか" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（企業概要・出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     q: "トレンドマイクロへの転職で有利な経験は？",
-    a: "インフラ・システム開発・ネットワーク・セキュリティのいずれかの実務経験が基本です。C/C++・Python・Go等の開発経験、クラウド（AWS等）の知見、脅威解析・機械学習の経験、英語でのコミュニケーション力があると評価されやすい傾向です。",
+    a: "インフラ・システム開発・ネットワーク・セキュリティのいずれかの実務経験が基本です。C/C++・Python・Go等の開発経験、クラウド（AWS等）の知見、脅威解析・機械学習の経験、英語でのコミュニケーション力があると評価されやすい傾向があります。",
   },
 ];
 
@@ -104,8 +104,8 @@ export default function TrendmicroCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】トレンドマイクロの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: トレンドマイクロ株式会社の平均年間給与は988万円です（2025年12月期 有価証券報告書・全社員平均、平均年齢40.3歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 988万円です（2025年12月期 有価証券報告書）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2022年12月期885万円・2024年12月期900万円から上昇し、2025年12月期は988万円（各期 有価証券報告書。一部の期は公表値が確認できず）。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>トレンドマイクロ株式会社の平均年間給与は988万円です（2025年12月期 有価証券報告書・全社員平均、平均年齢40.3歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 988万円です（2025年12月期 有価証券報告書）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2022年12月期885万円・2024年12月期900万円から上昇し、2025年12月期は988万円です（各期 有価証券報告書。一部の期は公表値が確認できず）。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -136,13 +136,13 @@ export default function TrendmicroCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：開発・インフラ・セキュリティの実務経験があり、専門性とグローバルな環境を両立したいエンジニア向きです。難易度は中〜やや高。</p>
+            <p className="font-bold text-blue-900 mb-3">開発・インフラ・セキュリティの実務経験があり、専門性とグローバルな環境を両立したいエンジニアに適しています。難易度は中〜やや高めです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li className="flex gap-2"><span className="shrink-0">1.</span>C/C++・Python・Go等の開発経験やクラウド・ネットワークの知見が、セキュリティ製品・脅威解析で活きます。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は988万円です（2025年12月期 有価証券報告書）。セキュリティ専業として高めの水準で、ミドル層の年収向上を狙いやすいです。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>グローバルなセキュリティ企業として、専門性を深めながら世界規模の脅威に向き合える環境が魅力です。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は988万円です（2025年12月期 有価証券報告書）。セキュリティ専業として高めの水準で、ミドル層の年収向上を狙いやすくなります。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>グローバルなセキュリティ企業として、専門性を深めながら世界規模の脅威に向き合える環境という特徴があります。</li>
             </ul>
           </div>
         </section>
@@ -329,7 +329,7 @@ export default function TrendmicroCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">トレンドマイクロ転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。セキュリティ・外資系の非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高い傾向があります。セキュリティ・外資系の非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "外資・ハイクラスに強く、年収帯の高いセキュリティ・専門職の求人に対応しています。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、IT企業への転職実績が豊富です。" },
             ].map((agent, i) => (

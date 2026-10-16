@@ -12,7 +12,7 @@ const URL = "/career/designer-to-frontend/";
 export const metadata: Metadata = { alternates: { canonical: "/career/designer-to-frontend/" }, title: TITLE, description: DESC };
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と実際の難度" },
+  { id: "conclusion", label: "現実性と実際の難度" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -25,12 +25,12 @@ const toc = [
 ];
 
 const gapRows = [
-  { axis: "HTML/CSS", designer: "○ コーディング経験がある場合も多いです", front: "◎ セマンティック・レスポンシブ実装が前提", gap: "中" },
-  { axis: "JavaScript/TypeScript", designer: "△ 軽い実装どまりのことが多いです", front: "◎ 言語仕様・型・非同期まで必要", gap: "大" },
-  { axis: "モダンフレームワーク（React等）", designer: "× 未経験のことが多い", front: "◎ React/Next.js等のSPA開発が中核", gap: "大" },
-  { axis: "UI/UX・デザイン理解", designer: "◎ 設計・視覚表現が本職", front: "○ 実装に直結する大きな強みになります", gap: "活用" },
+  { axis: "HTML/CSS", designer: "○ コーディング経験がある場合も多い傾向", front: "◎ セマンティック・レスポンシブ実装が前提", gap: "中" },
+  { axis: "JavaScript/TypeScript", designer: "△ 軽い実装どまりの場合が多い傾向", front: "◎ 言語仕様・型・非同期まで必要", gap: "大" },
+  { axis: "モダンフレームワーク（React等）", designer: "× 未経験の場合が多い傾向", front: "◎ React/Next.js等のSPA開発が中核", gap: "大" },
+  { axis: "UI/UX・デザイン理解", designer: "◎ 設計・視覚表現が本職", front: "○ 実装に直結する大きな強み", gap: "活用" },
   { axis: "開発プロセス・Git", designer: "△ 触れる機会が限定的", front: "◎ チーム開発の作法が前提", gap: "中" },
-  { axis: "アクセシビリティ", designer: "○ デザイン観点での配慮はあります", front: "◎ WAI-ARIA等の実装まで", gap: "中" },
+  { axis: "アクセシビリティ", designer: "○ デザイン観点での配慮の経験あり", front: "◎ WAI-ARIA等の実装まで", gap: "中" },
 ];
 
 const buildSteps = [
@@ -48,9 +48,9 @@ const migrationSteps = [
 ];
 
 const agents = [
-  { name: "レバテックキャリア", point: "IT/Web特化で技術理解のあるアドバイザーが在籍しています。デザイン経験を活かせるフロント／UIエンジニア求人の相談に向きます。", href: "/review/levtech/" },
-  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数です。Web系の求人が豊富で、キャリアチェンジを含む転職でも選択肢を確保しやすいです。", href: "/review/recruit-it/" },
-  { name: "ビズリーチ", point: "ハイクラス・スカウト型です。デザインエンジニアなど、デザイン×実装を評価するポジションのスカウトを受けられる可能性があります。", href: "/review/bizreach-it/" },
+  { name: "レバテックキャリア", point: "IT/Web領域に特化しており、技術理解のあるアドバイザーが在籍しています。デザイン経験を活かせるフロント／UIエンジニア求人の相談に向きます。", href: "/review/levtech/" },
+  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数を保有しています。Web系の求人が豊富で、キャリアチェンジを含む転職でも選択肢を確保しやすくなります。", href: "/review/recruit-it/" },
+  { name: "ビズリーチ", point: "ハイクラス向けのスカウト型サービスです。デザインエンジニアなど、デザイン×実装を評価するポジションのスカウトを受けられる可能性があります。", href: "/review/bizreach-it/" },
 ];
 
 const faqs = [
@@ -129,11 +129,11 @@ export default function DesignerToFrontendPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：デザインは強い強みです。鍵はJSとReactの習得</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">デザインの経験は大きな強み。重点はJSとReactの習得</h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・HTML/CSSとデザインの素養が土台です。まったくの異職種より移行しやすい部類です。</li>
-              <li>・ギャップが大きいのは「JavaScript/TypeScript」と「React等のフレームワーク」。成果物が決め手です。</li>
-              <li>・デザイン×実装の希少性は強みです。デザインエンジニア・UIエンジニアという入口も有力です。</li>
+              <li>・HTML/CSSとデザインの素養が土台となるため、まったくの異職種より移行しやすい部類です。</li>
+              <li>・ギャップが大きいのは「JavaScript/TypeScript」と「React等のフレームワーク」です。習得を示す成果物が重要になります。</li>
+              <li>・デザインと実装を両立できる人材は希少であり、デザインエンジニア・UIエンジニアという入口も有力な選択肢です。</li>
             </ul>
           </div>
         </section>
@@ -209,13 +209,13 @@ export default function DesignerToFrontendPage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（デザイン制作の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                コーポレートサイトやLPのデザインを担当。Figmaでデザインカンプを作成し、HTML/CSSでコーディングします。レスポンシブ対応やバナー制作も行った。
+                コーポレートサイトやLPのデザインを担当。Figmaでデザインカンプを作成し、HTML/CSSでコーディング。レスポンシブ対応やバナー制作も行った。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（設計・実装と希少性を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                個人開発で自身がデザインしたUIをReact/Next.js・TypeScriptで実装し、API連携・状態管理・レスポンシブ・アクセシビリティ（WAI-ARIA）まで対応してデプロイです。デザイン経験を活かしコンポーネント設計とデザインシステムを構築しました。デザインと実装を一貫して担える点が強みです。GitHubでコードを公開します。
+                個人開発で自身がデザインしたUIをReact/Next.js・TypeScriptで実装し、API連携・状態管理・レスポンシブ・アクセシビリティ（WAI-ARIA）まで対応してデプロイ。デザイン経験を活かしコンポーネント設計とデザインシステムを構築。デザインと実装を一貫して担える点が強み。GitHubでコードを公開。
               </p>
             </div>
           </div>
@@ -251,10 +251,10 @@ export default function DesignerToFrontendPage() {
         <section id="midage" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の現実と進め方</h2>
           <p className="text-slate-600 leading-relaxed mb-3">
-            実際には、30代・40代でのキャリアチェンジは、年齢が上がるほどポテンシャル採用の枠が狭くなります。ただしデザイナーからフロントへの移行は、HTML/CSSとデザインという即戦力の強みを持ち込めるため、まったくの未経験職種への転換よりは戦いやすい部類です。
+            実際には、30代・40代でのキャリアチェンジは、年齢が上がるほどポテンシャル採用の枠が狭くなります。ただしデザイナーからフロントへの移行は、HTML/CSSとデザインという即戦力の強みを持ち込めるため、まったくの未経験職種への転換よりは有利な部類です。
           </p>
           <p className="text-slate-600 leading-relaxed mb-3">
-            鍵は、デザインという強みを実装と掛け合わせ、「なぜこの年齢でエンジニアに移るのか」に一貫した答えを用意することです。純粋なフロント職に正面から挑むより、デザインエンジニア・UIエンジニアなど、デザイン素養が差別化要因になる入口を選ぶと勝率が上がります。
+            重要なのは、デザインという強みを実装と掛け合わせ、「なぜこの年齢でエンジニアに移るのか」に一貫した答えを用意することです。純粋なフロント職に正面から挑むより、デザインエンジニア・UIエンジニアなど、デザイン素養が差別化要因になる入口を選ぶと採用の可能性が高まります。
           </p>
           <p className="text-slate-600 leading-relaxed">
             在職中に学習を始め、デザイン×実装の作品を1つ作って続けられるかを見極めましょう。<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのエンジニア転職</Link>も参考になります。年収は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も確認しておきましょう。

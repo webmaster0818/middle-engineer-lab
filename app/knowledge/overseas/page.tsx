@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：まず3つのルートから自分の現実解を選ぶ" },
+  { id: "conclusion", label: "まず3つのルートから自分の現実解を選ぶ" },
   { id: "routes", label: "海外で働く3つのルート（現地採用/駐在/リモート）" },
   { id: "english", label: "英語要件の目安と準備" },
   { id: "visa", label: "ビザの一般知識（必ず公式確認）" },
@@ -23,19 +23,19 @@ const toc = [
 ];
 
 const routes = [
-  { route: "現地採用", how: "海外企業に直接応募し、現地で雇用されます", pros: "現地キャリアを本格的に積める／職務の幅が広いです", cons: "ビザ・住居・生活立ち上げを自力で行う負担" },
-  { route: "駐在（社内異動）", how: "日系・外資系企業の海外拠点へ異動", pros: "会社がビザ・住居・帯同を支援します。リスクが低い", cons: "ポストの空き次第です。希望地・タイミングを選びにくい" },
-  { route: "リモート", how: "海外企業に在宅で雇用、または業務委託で働きます", pros: "移住せず海外の仕事に関われる場合があります", cons: "時差・契約形態・税務・就労可否の確認が必須" },
+  { route: "現地採用", how: "海外企業に直接応募し、現地で雇用される形態", pros: "現地キャリアを本格的に積める点、職務の幅が広い点", cons: "ビザ・住居・生活立ち上げを自力で行う負担" },
+  { route: "駐在（社内異動）", how: "日系・外資系企業の海外拠点への異動", pros: "会社によるビザ・住居・帯同の支援があり、リスクが低い点", cons: "ポストの空き次第で、希望地・タイミングを選びにくい点" },
+  { route: "リモート", how: "海外企業に在宅で雇用される、または業務委託で働く形態", pros: "移住せずに海外の仕事に関われる場合がある点", cons: "時差・契約形態・税務・就労可否の事前確認が必須である点" },
 ];
 
 const englishLevels = [
-  { scene: "書類・コード・ドキュメント", level: "技術英語の読み書きが滞りなくできます", note: "まずここから固めます。日常的にコメント・PRを英語で書く練習が有効" },
+  { scene: "書類・コード・ドキュメント", level: "技術英語の読み書きが滞りなくできます", note: "まずここから固めます。日常的にコメント・PRを英語で書く練習が有効です" },
   { scene: "技術面接", level: "設計・実装を英語で説明できます", note: "専門用語を口頭で扱えるレベルです。模擬面接で慣らします" },
-  { scene: "日常業務・チーム会話", level: "会議・雑談に支障なく参加できます", note: "完璧でなくても、技術力が高ければ許容される場面は多いです" },
+  { scene: "日常業務・チーム会話", level: "会議・雑談に支障なく参加できます", note: "完璧でなくても、技術力が高ければ許容される場面は多い傾向にあります" },
 ];
 
 const faqs = [
-  { q: "海外で働くにはどのルートが現実的ですか？", a: "リスクの低さでは「駐在（社内異動）」、現地キャリアを積むなら「現地採用」、移住せず関わるなら「リモート」が目安です。今の勤務先に海外拠点があるなら、社内異動を狙うのが最も負担の少ない入り口になりやすいです。自分の事情に合うルートから逆算しましょう。" },
+  { q: "海外で働くにはどのルートが現実的ですか？", a: "リスクの低さでは「駐在（社内異動）」、現地キャリアを積むなら「現地採用」、移住せず関わるなら「リモート」が目安です。今の勤務先に海外拠点があるなら、社内異動を狙うのが最も負担の少ない入り口になりやすい傾向があります。自分の事情に合うルートから逆算しましょう。" },
   { q: "海外就職に英語力はどのくらい必要ですか？", a: "職種・国・企業によりますが、最低限『技術英語の読み書き』と『技術面接で設計・実装を説明できる』レベルが土台になります。日常会話が完璧である必要は必ずしもなく、技術力が高ければ多少の不完全さが許容される場面もあります。求められる具体的な基準は各求人で確認してください。" },
   { q: "日本にいながら海外企業で働けますか？", a: "リモート雇用や業務委託で海外企業の仕事に関わる選択肢はあります。ただし、その国・企業がリモート就労を認めているか、契約形態、税務、就労資格の扱いなどを事前に確認する必要があります。ビザや税の扱いは複雑なため、公式情報や専門家への確認が前提です。" },
   { q: "ビザの取得は難しいですか？", a: "国・ビザ種別・タイミング・本人の経歴により大きく異なります。就労ビザは企業のスポンサーが必要なケースが一般的です。要件や制度は頻繁に変わるため、本記事は一般的な説明にとどめます。最新かつ正確な要件は、各国政府・大使館の公式情報や、移民・ビザの専門家に必ずご確認ください。" },
@@ -62,8 +62,8 @@ export default function OverseasPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】海外で働くエンジニアはどうやって転職する？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 現地採用・駐在・リモートの3ルートから、自分のリスク許容度と目的に合うものを選ぶのが出発点です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・リスクを抑えるなら駐在です（社内異動）。会社がビザ・住居を支援してくれます</li><li>・現地キャリアを積むなら現地採用、移住せず関わるならリモートです</li><li>・英語は技術英語の読み書きと技術面接での説明が土台です。ビザ要件は必ず公式情報で確認します</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>現地採用・駐在・リモートの3ルートから、自分のリスク許容度と目的に合うものを選ぶのが出発点です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・リスクを抑えるなら駐在（社内異動）が適しています。会社がビザ・住居を支援します</li><li>・現地キャリアを積むなら現地採用、移住せず関わるならリモートが選択肢になります</li><li>・英語は技術英語の読み書きと技術面接での説明が土台です。ビザ要件は必ず公式情報で確認します</li></ul>
           </div>
         </section>
 
@@ -86,13 +86,13 @@ export default function OverseasPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：まず3つのルートから自分の現実解を選ぶ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">まず3つのルートから自分の現実解を選ぶ</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">海外で働く道は一つではありません。リスクと得たいものから逆算して選びます。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>1. <strong>リスクを抑えたい</strong> → 駐在です（社内異動）。会社がビザ・住居を支援</li>
-              <li>2. <strong>現地キャリアを積みたい</strong> → 現地採用です。自力でビザ・生活を立ち上げます</li>
-              <li>3. <strong>移住せず関わりたい</strong> → リモートです。就労資格・税務の確認が必須</li>
+              <li>1. <strong>リスクを抑えたい</strong> → 駐在（社内異動）。会社がビザ・住居を支援します</li>
+              <li>2. <strong>現地キャリアを積みたい</strong> → 現地採用。自力でビザ・生活を立ち上げます</li>
+              <li>3. <strong>移住せず関わりたい</strong> → リモート。就労資格・税務の確認が必須です</li>
             </ul>
           </div>
         </section>
@@ -114,7 +114,7 @@ export default function OverseasPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-slate-600 leading-relaxed mt-4">今の勤務先に海外拠点があるなら、まず社内異動（駐在）の可能性を調べるのが最も負担の少ない入り口になりやすいです。外資系日本法人に転職して英語環境に慣れ、後から海外を目指す段階的なルートも有効です。</p>
+          <p className="text-slate-600 leading-relaxed mt-4">今の勤務先に海外拠点があるなら、まず社内異動（駐在）の可能性を調べるのが最も負担の少ない入り口になりやすい傾向があります。外資系日本法人に転職して英語環境に慣れ、後から海外を目指す段階的なルートも有効です。</p>
         </section>
 
         <section id="english" className="mb-10 scroll-mt-20">
@@ -183,7 +183,7 @@ export default function OverseasPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li>✓ 技術英語の読み書きに抵抗がない、または習慣化できる</li>
                 <li>✓ 生活環境の変化や立ち上げの手間を許容できる</li>
-                <li>✓ スキル・実績を客観的に示せます（GitHub・OSS等）</li>
+                <li>✓ スキル・実績を客観的に示せる（GitHub・OSS等）</li>
                 <li>✓ ビザ・税務など事務手続きを根気よく進められる</li>
               </ul>
             </div>
@@ -219,8 +219,8 @@ export default function OverseasPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">外資系・グローバル転職をサポート</h2>
-          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら外資系日本法人の求人も紹介します。まずは国内から英語環境のキャリアを始める手もあります。</p>
+          <h2 className="text-xl font-bold mb-3">外資系・グローバル転職の相談先</h2>
+          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら外資系日本法人の求人も紹介します。まずは国内で英語環境のキャリアを始める方法もあります。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

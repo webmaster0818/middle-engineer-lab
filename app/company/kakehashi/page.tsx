@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
+  { id: "basic", label: "基本データ（出典あり）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公式確認範囲）" },
   { id: "salary", label: "年収データ" },
@@ -44,7 +44,7 @@ const salaryRows: [string, string, string][] = [
 ];
 
 const flowSteps: [string, string, string][] = [
-  ["STEP 1", "書類選考", "公式採用ページから応募します。職務経歴・スキルをもとに選考します。"],
+  ["STEP 1", "書類選考", "公式採用ページからの応募。職務経歴・スキルをもとにした選考。"],
   ["STEP 2", "カジュアル面談", "相互理解を目的とした面談。事業・チーム・働き方の擦り合わせ。"],
   ["STEP 3", "一次面接（開発ディレクター）", "開発ディレクターによる面接。経験・志向の確認。"],
   ["STEP 4", "二次面接（エンジニア）", "現場エンジニアによる技術面接。実務スキル・設計観点の確認。"],
@@ -81,20 +81,20 @@ export default function KakehashiCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】カケハシの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: カケハシは非上場のため、有価証券報告書による公式の全社員平均年収は非公表です。集計サイトの参考値は年代別で30代約770万円・40代約830万円ですが、いずれも公式値ではありません。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>カケハシは非上場のため、有価証券報告書による公式の全社員平均年収は非公表です。集計サイトの参考値は年代別で30代約770万円・40代約830万円ですが、いずれも公式値ではありません。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場企業のため、上場企業のような有価証券報告書ベースの全社員平均年収は存在しません。</li><li>・集計サイトの参考値は全体で456〜1,000万円程度、年代別で20代約550万円・30代約770万円・40代約830万円です（いずれも公式値ではない参考値・2026年6月時点）。</li><li>・等級別の細かい年収表は公式に開示されていないため創作していません。正確な提示額は職種・等級・スキルにより幅があり、応募・面談で確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["カケハシ 公式採用サイト（選考フロー・技術情報）", "カケハシ 技術発信（Engineering）", "集計サイトの年収参考値（公式値ではない）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高め（TypeScript一貫・サーバーレスの即戦力志向）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・フロント<strong>React＋TypeScript</strong>、バック<strong>Node.js＋TypeScript・AWSサーバーレスです</strong>。TypeScriptで一気通貫の開発経験を持つエンジニアに向きます。</li>
+              <li>・フロントは<strong>React＋TypeScript</strong>、バックは<strong>Node.js＋TypeScript・AWSサーバーレス</strong>で構成されています。TypeScriptで一貫した開発経験を持つエンジニアに向いています。</li>
               <li>・<strong>選考フローが公式に公開</strong>されており、書類→カジュアル面談→一次（開発ディレクター）→二次（エンジニア）→最終（CTO／PdM）と各ステップの担当が明確です。</li>
-              <li>・薬局DXという<strong>医療×社会課題</strong>のドメインです。プロダクトの社会的意義に共感できる人に合います。</li>
+              <li>・薬局DXという<strong>医療×社会課題</strong>の領域を扱っています。プロダクトの社会的意義に共感できる人に適しています。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">非上場のため全社平均年収の公式値はありません。集計サイトの年代別参考値（30代約770万円・40代約830万円など）は公式値ではない目安です。逆に、複数言語を自由に選びたい人や、確立された大企業の安定を最優先する人にはミスマッチが起こり得ます。</p>
           </div>
@@ -108,7 +108,7 @@ export default function KakehashiCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm"><tbody>
               {basicData.map(([label, value], i) => (
@@ -136,7 +136,7 @@ export default function KakehashiCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：React＋TypeScript（Amplifyを活用）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：Node.js＋TypeScript・サーバーレス（Lambda／API Gateway／DynamoDB／Step Functions／CDK）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>モバイル・横断</strong>：Swift／Dart／Python／Kotlin を用途に応じて横断利用</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：AWS が中心です。サーバーレス・IaC（CDK）で運用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：AWS中心。サーバーレス・IaC（CDK）で運用</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：カケハシ 公式採用情報・技術発信。各言語の市場動向は<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript</Link>・<Link href="/skill/nodejs/" className="text-petrol hover:underline">Node.js</Link>・<Link href="/skill/react/" className="text-petrol hover:underline">React</Link>・<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>の各ガイドも参照してください。</p>
@@ -237,7 +237,7 @@ export default function KakehashiCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">カケハシ転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強いです。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすいです。ミドル層の選択肢を広げやすいです。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強いです。カジュアル面談につながりやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強みがあります。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすく、ミドル層の選択肢を広げるのに役立ちます。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強みがあります。カジュアル面談につながりやすい傾向があります。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

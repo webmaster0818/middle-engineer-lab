@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/age/35/" },
   title: "35歳エンジニア転職は限界？データで検証する突破法【2026年6月】",
   description:
-    "「35歳エンジニア限界説」は本当か。厚労省SE平均年齢37.1歳や経産省のIT人材不足試算など実データで正面から検証し、35歳で変わること・変わらないこと、突破戦略、おすすめエージェント、FAQまで解説します。",
+    "「35歳エンジニア限界説」は本当か。厚労省SE平均年齢37.1歳や経産省のIT人材不足試算などの実データで検証し、35歳で変わること・変わらないこと、転職戦略、おすすめエージェント、FAQまで解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：35歳限界説は当てはまらない" },
+  { id: "conclusion", label: "35歳限界説は当てはまらない" },
   { id: "myth", label: "「35歳限界説」をデータで検証" },
   { id: "company-needs", label: "企業が35歳に求めるもの" },
   { id: "change", label: "35歳で変わること・変わらないこと" },
@@ -53,10 +53,10 @@ const companyNeeds = [
 ];
 
 const successPatterns = [
-  "「技術 × ドメイン」「技術 × マネジメント」など掛け算で希少性を作っています",
+  "「技術 × ドメイン」「技術 × マネジメント」などの掛け合わせで希少性を高めています",
   "ICパスとマネジメントパスのどちらを強みにするかを明確にしています",
   "10年以上のキャリアを一貫したストーリーとして語れています",
-  "IT特化型と総合型を併用し、求人の数と質を両取りしています",
+  "IT特化型と総合型を併用し、求人の数と質の両方を確保しています",
 ];
 
 const failurePatterns = [
@@ -72,28 +72,28 @@ const agents = [
     href: "/review/levtech/",
     fit: "年収600〜800万円台を狙う35歳",
     reason:
-      "IT/Web特化で高年収求人の比率が高く、二次情報では600万円以上が公開求人の約8割です。内定承諾者の3人に2人が応募時より年収70万円以上アップを実現しています（2023年1月〜2024年3月実績）。リード・設計ポジションの提案を受けやすいです。",
+      "IT/Web特化で高年収求人の比率が高く、二次情報では600万円以上が公開求人の約8割です。内定承諾者の3人に2人が応募時より年収70万円以上アップを実現しています（2023年1月〜2024年3月実績）。リード・設計ポジションの提案を受けやすい点も特徴です。",
   },
   {
     name: "Geekly（ギークリー）",
     href: "/review/geekly/",
     fit: "Web・ゲーム業界でスピード重視の35歳",
     reason:
-      "IT/Web/ゲーム業界に専門特化します。年収アップ率約81%・平均上昇額約76万円です（2025年9月時点・二次情報）。提案スピードに強みがあり、在職中でも進めやすいです。",
+      "IT/Web/ゲーム業界に特化したエージェントです。年収アップ率は約81%、平均上昇額は約76万円とされています（2025年9月時点・二次情報）。提案スピードに強みがあり、在職中でも転職活動を進めやすい環境です。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     fit: "ハイクラス・管理職を視野に入れる35歳",
     reason:
-      "ハイクラス・スカウト型で、年収1,000万円以上の求人が全体の約4割との二次情報もあります。市場価値を客観的に把握しやすく、35歳以降のキャリアアップ志向と相性が良いです。無料会員でも利用可能です。",
+      "ハイクラス・スカウト型で、年収1,000万円以上の求人が全体の約4割との二次情報もあります。市場価値を客観的に把握しやすく、35歳以降のキャリアアップ志向に適しています。無料会員でも利用できます。",
   },
 ];
 
 const faqs = [
   {
     q: "35歳エンジニアの転職限界説は本当ですか？",
-    a: "結論として、35歳限界説は現在の市場には当てはまりません。厚労省 job tagではSEの平均年齢が37.1歳とされ、35歳は職種の中心層です。経産省が2019年に公表した最大約79万人のIT人材不足試算が示すように構造的な人材不足が続いており、経験者の需要は強い状況です。ただし、30代前半より「強みに合うポジションへの的確なアプローチ」が重要になるのは事実です。",
+    a: "35歳限界説は、現在の市場には当てはまりません。厚労省 job tagではSEの平均年齢が37.1歳とされ、35歳は職種の中心層です。経産省が2019年に公表した最大約79万人のIT人材不足試算が示すように構造的な人材不足が続いており、経験者の需要は強い状況です。ただし、30代前半より「強みに合うポジションへの的確なアプローチ」が重要になるのは事実です。",
   },
   {
     q: "35歳で転職すると年収は下がりますか？",
@@ -101,7 +101,7 @@ const faqs = [
   },
   {
     q: "35歳エンジニアは何社くらい応募すべき？",
-    a: "本命を含めて10〜20社程度に絞り、並行して数社の選考を進めるのが一般的です。35歳は求人の「数」より「自分の強みと一致するか」が成否を分けるため、応募数を増やすこと自体を目的にせず、エージェントと優先順位を決めて比較できる複数内定を作ることを目標にしましょう。",
+    a: "第一志望を含めて10〜20社程度に絞り、並行して数社の選考を進めるのが一般的です。35歳は求人の「数」より「自分の強みと一致するか」が成否を分けるため、応募数を増やすこと自体を目的にせず、エージェントと優先順位を決めて比較できる複数内定を作ることを目標にしましょう。",
   },
   {
     q: "35歳でマネジメント経験がなくても転職できますか？",
@@ -140,7 +140,7 @@ export default function Age35Page() {
     <>
       <ArticleJsonLd
         title="35歳エンジニア転職は限界？データで検証する突破法【2026年6月】"
-        description="35歳限界説を公的統計とエージェント公表値で検証します。35歳で変わること・変わらないこと、突破戦略、おすすめエージェント、進め方を解説します。"
+        description="35歳限界説を公的統計とエージェント公表値で検証します。35歳で変わること・変わらないこと、転職戦略、おすすめエージェント、進め方を解説します。"
         url="/age/35/"
       />
       <script
@@ -160,11 +160,11 @@ export default function Age35Page() {
           35歳エンジニア転職は限界？データで検証する突破法
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 | 「35歳限界説」への正面回答と具体的な突破戦略
+          最終更新: 2026年6月 | 「35歳限界説」の検証と具体的な転職戦略
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          「エンジニア35歳限界説」は長く語られてきました。本記事はこの説に正面から向き合い、公的統計とエージェントの公表値で実態を検証します。結論を先に言えば、限界説は現在の市場には当てはまりません。ただし、35歳を境に進め方が変わるのは事実です。
+          「エンジニア35歳限界説」は長く語られてきました。本記事では、公的統計とエージェントの公表値をもとに、この説の実態を検証します。限界説は現在の市場には当てはまりません。ただし、35歳を境に進め方が変わるのは事実です。
         </p>
 
         <DataNote
@@ -177,16 +177,16 @@ export default function Age35Page() {
           ]}
         />
 
-        {/* 結論ファースト */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：35歳限界説は、もはや当てはまらない</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">35歳限界説は、もはや当てはまらない</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               35歳は「限界」ではなく、キャリアの軸を選び直す転換点です。即戦力の技術力にリード・設計の経験を掛け合わせ、強みに合うポジションへ的確にアプローチすれば、年収アップを伴う転職も十分に狙えます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>厚労省 job tagではSEの平均年齢は37.1歳です。35歳は職種の中心層で、年齢的に外れていません。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>経産省試算では2030年に最大約79万人のIT人材不足（2019年公表）で、経験者需要が続きます。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>経産省の試算では、2030年に最大約79万人のIT人材が不足するとされており（2019年公表）、経験者の需要は続いています。</li>
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>dodaの2024年度決定年収レポートでは転職者の約6割が年収アップを実現しています（2025年5月公表）。</li>
             </ul>
           </div>
@@ -210,7 +210,7 @@ export default function Age35Page() {
         <section id="myth" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">「35歳限界説」をデータで検証する</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            限界説の根拠とされてきたのは、かつてのIT業界の若年層偏重や、35歳を超えると技術についていけないという思い込みでした。しかし、公的統計とエージェント公表値を並べると、その前提は崩れます。
+            限界説の根拠とされてきたのは、かつてのIT業界の若年層偏重や、35歳を超えると技術についていけないという思い込みでした。しかし、公的統計とエージェント公表値を確認すると、その前提は成り立たないことがわかります。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-5">
             <table className="w-full text-sm">
@@ -227,10 +227,10 @@ export default function Age35Page() {
             </table>
           </div>
           <p className="text-slate-600 leading-relaxed mb-3">
-            まず、SEの平均年齢が37.1歳である点（厚労省 job tag）は決定的です。35歳が「限界」なら、職種の平均年齢がこの水準になることはありません。むしろ35歳は職種の真ん中に位置します。
+            まず、SEの平均年齢が37.1歳である点（厚労省 job tag）が重要な根拠となります。35歳が「限界」なら、職種の平均年齢がこの水準になることはありません。むしろ35歳は職種の真ん中に位置します。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            年収面でも、レバテック公表値では30代平均約499万円・40代平均約618万円と年代とともに上昇し、1,000万円以上の割合も30代8.01%から40代12.67%へと増えます。35歳はその上昇カーブの途中にあり、経験を積み重ねるほど評価が上がる位置と言えます。限界どころか、専門性とリード経験を磨くほど価値が高まる年代なのです。
+            年収面でも、レバテック公表値では30代平均約499万円・40代平均約618万円と年代とともに上昇し、1,000万円以上の割合も30代8.01%から40代12.67%へと増えます。35歳はその上昇カーブの途中にあり、経験を積み重ねるほど評価が上がる位置と言えます。35歳は、専門性とリード経験を磨くほど評価が高まる年代です。
           </p>
         </section>
 
@@ -259,7 +259,7 @@ export default function Age35Page() {
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
                   "技術力がある人材への強い需要",
-                  "IT人材不足という構造的な追い風",
+                  "IT人材不足を背景とした構造的な需要",
                   "年収アップ転職が狙える可能性",
                   "エージェントの無料サポートを受けられること",
                 ].map((t, i) => (
@@ -297,7 +297,7 @@ export default function Age35Page() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">成功パターンと失敗パターン</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-green-200 rounded-lg p-5">
-              <h3 className="font-bold text-green-700 mb-3">突破できる人の共通点</h3>
+              <h3 className="font-bold text-green-700 mb-3">転職がうまくいく人の共通点</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {successPatterns.map((p, i) => (
                   <li key={i} className="flex items-start gap-2">
@@ -328,7 +328,7 @@ export default function Age35Page() {
         <section id="strategy" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリア戦略：マネジメント vs スペシャリスト</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            35歳は、この先の軸を「マネジメント」か「スペシャリスト」のどちらに置くかを明確にすべきタイミングです。どちらが上ということはなく、自分の志向と市場の需要が重なる方向を選ぶことが成功の鍵です。
+            35歳は、この先の軸を「マネジメント」か「スペシャリスト」のどちらに置くかを明確にすべきタイミングです。どちらが上ということはなく、自分の志向と市場の需要が重なる方向を選ぶことが重要です。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -355,7 +355,7 @@ export default function Age35Page() {
         <section id="agents" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">35歳エンジニアにおすすめの転職エージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            35歳はIT特化型を軸に、ハイクラス型・総合型を併用して網を広げるのが効果的です。各社の公表値・特徴は下記のとおりで、いずれも基本的に無料で利用できます。
+            35歳はIT特化型を軸に、ハイクラス型・総合型を併用して選択肢を広げるのが効果的です。各社の公表値・特徴は下記のとおりで、いずれも基本的に無料で利用できます。
           </p>
           <div className="space-y-4">
             {agents.map((agent, i) => (
@@ -367,7 +367,7 @@ export default function Age35Page() {
                   </Link>
                 </div>
                 <p className="text-sm text-slate-600 mb-2 leading-relaxed">{agent.reason}</p>
-                <p className="text-xs text-petrol font-medium">こんな35歳向き: {agent.fit}</p>
+                <p className="text-xs text-petrol font-medium">このような方におすすめ: {agent.fit}</p>
               </div>
             ))}
           </div>
@@ -381,7 +381,7 @@ export default function Age35Page() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職活動の進め方（5ステップ）</h2>
           <div className="space-y-4">
             {[
-              { step: "STEP 1", title: "強みの掛け算を言語化", desc: "「技術 × ドメイン」「技術 × マネジメント」など、自分の希少性がどこにあるかを整理します。10年以上のキャリアを一貫したストーリーにまとめましょう。" },
+              { step: "STEP 1", title: "強みの掛け合わせを言語化", desc: "「技術 × ドメイン」「技術 × マネジメント」など、自分の希少性がどこにあるかを整理します。10年以上のキャリアを一貫したストーリーにまとめましょう。" },
               { step: "STEP 2", title: "進む軸の決定", desc: "マネジメントパスかスペシャリストパスか、どちらを強みにするかを決めます。軸が定まると応募ポジションと自己PRがぶれません。" },
               { step: "STEP 3", title: "エージェント2〜3社に登録", desc: "IT特化型・総合型・ハイクラス型を併用し、初回面談で希望と軸を共有します。提案傾向から自分の市場価値を把握します。" },
               { step: "STEP 4", title: "書類添削・面接対策", desc: "リード・設計の貢献が伝わる職務経歴書に磨き、技術面接では判断の根拠や失敗からの学びを語れるよう準備します。" },
@@ -421,7 +421,7 @@ export default function Age35Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">35歳は限界ではなく、キャリアの転換点</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントに相談して、10年以上の経験を最大限に活かせるポジションを見つけましょう。
+            IT特化型エージェントに相談し、10年以上の経験を活かせるポジションを探してみてください。
           </p>
           <Link
             href="/#ranking"

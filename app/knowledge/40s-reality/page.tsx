@@ -16,11 +16,11 @@ const DESC =
   "40代エンジニア転職の現実を年収・市場データで定量的に解説します。30代との違い、書類が通らない原因、年収を落とさない交渉、応募から内定までの動き方を実践的にまとめました。";
 
 const toc = [
-  { id: "conclusion", label: "結論：40代転職のリアルを一言で" },
+  { id: "conclusion", label: "40代転職のリアルを一言で" },
   { id: "data", label: "数字で見る40代エンジニアの現実" },
   { id: "gap-30s", label: "30代と何が変わるのか" },
   { id: "why-fail", label: "書類が通らない・落ちる本当の理由" },
-  { id: "patterns", label: "40代で通用する4つの勝ちパターン" },
+  { id: "patterns", label: "40代で評価されやすい4つのキャリアパターン" },
   { id: "resume", label: "職務経歴書 Before/After（40代版）" },
   { id: "salary", label: "年収を落とさないための立ち回り" },
   { id: "checklist", label: "動き出す前のチェックリスト" },
@@ -38,7 +38,7 @@ const ageSalary = [
 const faqs = [
   {
     q: "40代エンジニアの転職は本当に厳しいですか？",
-    a: "「20代・30代より選考の母数が減る」のは事実ですが、「無理」ではありません。経済産業省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれており、即戦力のミドル層への需要は構造的に存在します。厳しさの正体は求人の「数」が減ることであり、専門性とマネジメント経験で勝負できる人にとっては年収を上げる好機にもなります。",
+    a: "「20代・30代より選考の母数が減る」のは事実ですが、「無理」ではありません。経済産業省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれており、即戦力のミドル層への需要は構造的に存在します。厳しさの正体は求人の「数」が減ることであり、専門性とマネジメント経験で評価される人にとっては年収を上げる好機にもなります。",
   },
   {
     q: "40代だと年収は下がりますか？",
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: "40代エンジニアの転職に向いているエージェントは？",
-    a: "ハイクラス・専門領域に強いサービスとの相性が良い傾向です。スカウト型で市場価値を測りたいならビズリーチ、IT特化で求人提案を受けたいならレバテックキャリアなどが候補になります。1社に絞らず複数併用し、自分の経歴にスカウトが来るか・どんな求人が来るかで現在地を客観把握するのが有効です。",
+    a: "ハイクラス・専門領域に強みを持つサービスと相性が良い傾向があります。スカウト型で市場価値を測りたいならビズリーチ、IT特化で求人提案を受けたいならレバテックキャリアなどが候補になります。1社に絞らず複数併用し、自分の経歴にスカウトが来るか・どんな求人が来るかで現在地を客観把握するのが有効です。",
   },
 ];
 
@@ -100,8 +100,8 @@ export default function FortyRealityPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】40代エンジニアの転職は本当に厳しい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 求人の「数」は確実に絞られますが、1件あたりの年収水準は高く、専門性・マネジメント・直近のキャッチアップの3点が揃えば年収アップも十分狙えます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・40代の正社員SE平均年収は約618万円（レバテック公表値・2025年）で、30代の約499万円を上回ります</li><li>・落ちる原因の多くは「年齢」そのものより、即戦力性を言語化できていないこと</li><li>・在職中の活動・複数エージェント併用・専門性の明確化が3本柱</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>求人の「数」は確実に絞られますが、1件あたりの年収水準は高く、専門性・マネジメント・直近のキャッチアップの3点が揃えば年収アップも十分狙えます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・40代の正社員SE平均年収は約618万円（レバテック公表値・2025年）で、30代の約499万円を上回ります</li><li>・落ちる原因の多くは「年齢」そのものより、即戦力性を言語化できていないことにあります</li><li>・在職中の活動、複数エージェントの併用、専門性の明確化の3点が対策の柱になります</li></ul>
           </div>
         </section>
 
@@ -133,14 +133,14 @@ export default function FortyRealityPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="border-l-4 border-petrol bg-petrol-soft rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：40代転職のリアルを一言で</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">40代転職のリアルを一言で</h2>
             <p className="text-slate-700 leading-relaxed mb-3">
-              40代エンジニアの転職は「求人の<strong>数</strong>は確実に絞られますが、<strong>1件あたりの年収水準は高く</strong>、専門性・マネジメント・直近のキャッチアップの3点が揃えば年収アップも十分狙えます」のが現実です。
+              40代エンジニアの転職では、求人の<strong>数</strong>は確実に絞られます。一方で<strong>1件あたりの年収水準は高く</strong>、専門性・マネジメント・直近のキャッチアップの3点が揃えば年収アップも十分に狙えるのが実情です。
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
               <li>・年代別平均年収は40代で約618万円（レバテック公表値・2025年）と、30代の約499万円を上回ります</li>
-              <li>・落ちる原因の多くは「年齢」そのものより「即戦力性を言語化できていない」こと</li>
-              <li>・量より質です。在職中・複数エージェント併用・専門性の明確化が3本柱</li>
+              <li>・落ちる原因の多くは「年齢」そのものより「即戦力性を言語化できていない」ことにあります</li>
+              <li>・応募は量より質を重視し、在職中の活動、複数エージェントの併用、専門性の明確化の3点を柱にします</li>
             </ul>
           </div>
         </section>
@@ -176,7 +176,7 @@ export default function FortyRealityPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <p className="text-sm text-slate-600 leading-relaxed mb-3">
-              市場全体で見ても、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。これは「ミドル層を採らざるを得ない」構造的な追い風です。
+              市場全体で見ても、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。企業が「ミドル層を採らざるを得ない」状況は、構造的に続くと考えられます。
             </p>
             <p className="text-sm text-slate-600 leading-relaxed">
               一方で、職種全体の水準としては厚生労働省 job tag の「システムエンジニア（受託開発）」で平均年収約578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）という数字もあり、40代の618万円はこの水準を上回ります。つまり「40代＝不利」ではなく「40代＝高年収レンジに入りやすいが、求められる水準も上がる」のが正確な理解です。
@@ -207,8 +207,8 @@ export default function FortyRealityPage() {
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-200 px-4 py-3 text-slate-700 font-medium">求人の数</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">多い</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">絞られる（質で勝負）</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">多め</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">限定的（質を重視）</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-200 px-4 py-3 text-slate-700 font-medium">期待される役割</td>
@@ -217,8 +217,8 @@ export default function FortyRealityPage() {
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-200 px-4 py-3 text-slate-700 font-medium">年収交渉</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">アップを狙いやすい</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">維持〜アップです。根拠提示が鍵</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">年収アップを狙いやすい傾向</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">維持〜アップ（根拠の提示が重要）</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-200 px-4 py-3 text-slate-700 font-medium">懸念されやすい点</td>
@@ -229,7 +229,7 @@ export default function FortyRealityPage() {
             </table>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
-            年代ごとの年収相場や戦略は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収戦略</Link>、35歳前後の壁については<Link href="/age/35/" className="text-petrol hover:underline">35歳エンジニアの転職</Link>も合わせて確認すると立体的に把握できます。
+            年代ごとの年収相場や戦略は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収戦略</Link>、35歳前後の壁については<Link href="/age/35/" className="text-petrol hover:underline">35歳エンジニアの転職</Link>もあわせて確認すると、全体像を具体的に把握できます。
           </p>
         </section>
 
@@ -241,11 +241,11 @@ export default function FortyRealityPage() {
           </p>
           <div className="space-y-4">
             {[
-              { t: "即戦力性が伝わりません", d: "「何ができるか」が役割名（リーダー・PL等）止まりで、再現可能なスキルとして書かれていません。40代は『入って3か月で何を任せられるか』が見えないと通りにくいです。" },
+              { t: "即戦力性が伝わりません", d: "「何ができるか」が役割名（リーダー・PL等）止まりで、再現可能なスキルとして書かれていません。40代は『入って3か月で何を任せられるか』が見えないと通りにくい傾向があります。" },
               { t: "技術が古いまま更新されていません", d: "直近の経歴がレガシー中心で、クラウド・モダン開発の接点が見えません。陳腐化への懸念を払拭する直近の一手（個人開発・資格・キャッチアップ）が欠けています。" },
               { t: "年収の希望が市場とずれています", d: "現職年収を根拠なく上回る額を希望し、エージェント段階で見送られます。レンジと根拠（実績・専門性）をセットで提示できていない状態です。" },
-              { t: "応募の母数が足りません", d: "40代は求人の絶対数が減るため、30代と同じ応募数では通過数が出ないです。1社のエージェントだけに頼ると機会損失になります。" },
-              { t: "柔軟性・年下上司への懸念", d: "面接で過去の役職・やり方に固執する姿勢が出ると敬遠されます。『学ぶ姿勢』『フラットに動ける』ことを具体例で示せていません。" },
+              { t: "応募の母数が足りません", d: "40代は求人の絶対数が減るため、30代と同じ応募数では十分な通過数を確保できません。1社のエージェントだけに頼ると機会損失になります。" },
+              { t: "柔軟性や年下上司との関係が懸念されています", d: "面接で過去の役職・やり方に固執する姿勢が出ると敬遠されます。『学ぶ姿勢』『フラットに動ける』ことを具体例で示せていません。" },
             ].map((x, i) => (
               <div key={i} className="bg-red-50 rounded-lg p-5">
                 <h3 className="font-bold text-red-800 mb-1.5">{x.t}</h3>
@@ -257,12 +257,12 @@ export default function FortyRealityPage() {
 
         {/* 勝ちパターン */}
         <section id="patterns" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">40代で通用する4つの勝ちパターン</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">40代で評価されやすい4つのキャリアパターン</h2>
           <div className="space-y-4">
             {[
               { num: "1", title: "スペシャリスト型（IC）", desc: "セキュリティ・SRE・DB・クラウド基盤など特定領域の深い実績を強みにします。マネジメント経験が薄くても、技術力で評価する企業が増えています。年収レンジは専門性次第で高めです。" },
-              { num: "2", title: "テックリード／EM型", desc: "5名以上のチームマネジメントや技術選定の主導経験があれば、リード・EMポジションが射程に入ります。『組織への波及効果』を数値で語れると強いです。" },
-              { num: "3", title: "社内SE／DX推進型", desc: "非IT企業のDX・基幹刷新リーダーです。前職や担当業界のドメイン知識×技術力の掛け算が効きます。腰を据えて働きたい40代と相性が良いです。" },
+              { num: "2", title: "テックリード／EM型", desc: "5名以上のチームマネジメントや技術選定の主導経験があれば、リード・EMポジションへの応募が現実的になります。『組織への波及効果』を数値で語れると有利です。" },
+              { num: "3", title: "社内SE／DX推進型", desc: "非IT企業のDX・基幹刷新リーダーです。前職や担当業界のドメイン知識と技術力の組み合わせが評価されます。腰を据えて働きたい40代と相性が良いといえます。" },
               { num: "4", title: "フリーランス併走型", desc: "正社員にこだわらず高単価案件で年収を確保する道です。安定性は下がりますが、専門性が高い40代には現実的な選択肢です。詳細は関連記事をご参照ください。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -283,7 +283,7 @@ export default function FortyRealityPage() {
         <section id="resume" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">職務経歴書 Before/After（40代版）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            40代の職務経歴書は「役割の羅列」から「再現可能な即戦力性」へ書き換えるのが鉄則です。冒頭のキャリアサマリーで一貫性を示し、各経験は成果を数値で添えます。以下は書き換えの例です。
+            40代の職務経歴書は「役割の羅列」から「再現可能な即戦力性」へ書き換えることが基本です。冒頭のキャリアサマリーで一貫性を示し、各経験は成果を数値で添えます。以下は書き換えの例です。
           </p>
           <div className="space-y-5">
             <div className="border border-red-200 rounded-lg overflow-hidden">
@@ -305,7 +305,7 @@ export default function FortyRealityPage() {
               <li>① 冒頭3〜5行のキャリアサマリーで一貫したテーマを宣言します</li>
               <li>② 成果は必ず数値（◯%削減・◯倍・◯名）で示します</li>
               <li>③ 直近2〜3社を厚く、古い経歴は概要のみに圧縮します</li>
-              <li>④ モダン技術への接点（直近の一手）を1文入れて陳腐化懸念を消します</li>
+              <li>④ モダン技術への接点（直近の一手）を1文入れ、技術の陳腐化への懸念を払拭します</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
@@ -324,7 +324,7 @@ export default function FortyRealityPage() {
               "現職の総支給（基本給＋賞与＋各種手当）を正確に把握し、提示年収の下限を決めます",
               "スカウト型サービスで『自分にどんな年収のオファーが来るか』を先に観測し、相場感を持ちます",
               "希望額は『額＋根拠（実績・専門性・市場相場）』をセットでエージェントに伝えます",
-              "複数オファーを並行で取り、比較材料を作ります（1社単独だと交渉力が出ない）",
+              "複数オファーを並行で取り、比較材料を作ります（1社のみでは交渉材料が不足するため）",
               "目先の額面だけでなく、賞与比率・残業・リモート・裁量を含めた実質条件で判断します",
             ].map((s, i) => (
               <div key={i} className="flex gap-3 items-start border border-slate-200 rounded-lg p-4">
@@ -369,15 +369,15 @@ export default function FortyRealityPage() {
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">40代前半：30代の延長戦が効く</h3>
+              <h3 className="font-bold text-slate-800 mb-2">40代前半：30代に近い進め方が有効</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 40代前半はまだ「即戦力スペシャリスト」「テックリード」として30代と近い進め方ができます。求人母数の減少を、専門性の明確化と応募数の確保でカバーするのが基本です。年収アップも十分狙えるレンジです。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">40代後半：定着と役割の明確さが鍵</h3>
+              <h3 className="font-bold text-slate-800 mb-2">40代後半：定着と役割の明確さが重要</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                40代後半は「腰を据えて長く働けるか」「組織にどう効くか」を企業がより重視します。社内SE・DX推進・EMなど役割が明確なポジション、または高単価フリーランスとの併用が現実的です。年収維持を軸に、無理に大幅アップを狙わず実質条件で選ぶのが堅実です。
+                40代後半は「腰を据えて長く働けるか」「組織にどう貢献できるか」を企業がより重視します。社内SE・DX推進・EMなど役割が明確なポジション、または高単価フリーランスとの併用が現実的です。年収維持を軸に、無理に大幅アップを狙わず実質条件で選ぶのが堅実です。
               </p>
             </div>
           </div>

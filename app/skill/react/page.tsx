@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：React転職の進め方" },
+  { id: "conclusion", label: "React転職の進め方" },
   { id: "market", label: "市場・年収データ（公表値）" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
-  { id: "find", label: "求人の探し方・強いエージェント" },
+  { id: "find", label: "求人の探し方と主なエージェント" },
   { id: "entry", label: "経験浅め・他FWからの参入ルート" },
   { id: "middle", label: "30代・40代の視点" },
   { id: "study", label: "スキルアップ・学習戦略" },
@@ -38,7 +38,7 @@ const salaryRows = [
 const careerPaths = [
   {
     title: "フロントエンドスペシャリスト路線",
-    body: "React/Next.jsを極め、デザインシステム構築・パフォーマンス最適化・アクセシビリティ対応のスペシャリストを目指す道があります。大規模プロダクトのフロント品質を担保する役割で、設計とレビューの力が問われます。",
+    body: "React/Next.jsの専門性を深め、デザインシステム構築・パフォーマンス最適化・アクセシビリティ対応のスペシャリストを目指す道があります。大規模プロダクトのフロント品質を担保する役割で、設計とレビューの力が問われます。",
   },
   {
     title: "UI/UX・デザインエンジニア路線",
@@ -60,7 +60,7 @@ const faqs = [
     a: "ReactはフロントエンドフレームワークとしてシェアNo.1を維持し、React Server ComponentsやNext.js App Routerなど進化が続いています。paizaの言語別調査（2025年版）でもJavaScript系は求人件数で最多であり、当面は安定需要が見込まれます。ただし将来予測は断定できないため、複数の公表データで傾向を確認するのが安全です。",
   },
   {
-    q: "React転職で評価されやすいスキルは？",
+    q: "React転職で評価されやすいスキルは何ですか？",
     a: "Next.js（App Router）、TypeScript、状態管理（Zustand/Jotai）、テスト（Testing Library/Playwright）、パフォーマンス最適化の経験が求人要件で頻出します。UI/UXやアクセシビリティの知見、デザインシステム構築経験があると差別化できます。",
   },
   {
@@ -69,11 +69,11 @@ const faqs = [
   },
   {
     q: "Reactエンジニアにおすすめの転職エージェントは？",
-    a: "Web・ゲーム業界に強くReact/Next.js求人が充実したGeekly、IT特化で高年収帯に強いレバテックキャリア、スタートアップ求人とカジュアル面談に強いGreenの併用が定番です。求人母数を確保したい場合はリクルートエージェントITやdoda ITも候補です。",
+    a: "Web・ゲーム業界に強くReact/Next.js求人が充実したGeekly、IT特化で高年収帯に強いレバテックキャリア、スタートアップ求人とカジュアル面談に強いGreenの併用が一般的です。求人母数を確保したい場合はリクルートエージェントITやdoda ITも候補です。",
   },
   {
     q: "40代のReactエンジニアでも転職できますか？",
-    a: "可能です。デザインシステム構築やパフォーマンス最適化の経験がある層は需要があります。レバテックの年代別公表値（2025年）でも40代正社員SEの平均は約618万円と、年代が上がるほど水準が上がる傾向です。テックリード・アーキテクトとしてチームの技術力向上を牽引できる点を示すと有利です。",
+    a: "可能です。デザインシステム構築やパフォーマンス最適化の経験がある層は需要があります。レバテックの年代別公表値（2025年）でも40代正社員SEの平均は約618万円と、年代が上がるほど水準が上がる傾向があります。テックリード・アーキテクトとしてチームの技術力向上を牽引できる点を示すと有利です。",
   },
   {
     q: "経験浅めからReact案件に入れますか？",
@@ -124,17 +124,17 @@ export default function ReactSkillPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：React転職の進め方</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">React転職の進め方</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               Reactは求人母数が多く、JavaScript系の需要も高水準（paiza 2025年版で求人件数1位）の「安定スキル」です。求人DBの件数を眺めるだけでなく、<strong>「React/Next.js × TypeScript × テスト」をセットで実績化</strong>し、IT特化エージェントで非公開求人にアクセスするのが効率的です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
               <li>・年収重視なら自社開発・メガベンチャー、技術裁量重視ならスタートアップです。</li>
-              <li>・30代・40代はスペシャリスト or テックリードの軸を決めて職務経歴書を整理します。</li>
-              <li>・エージェントはGeekly／レバテックキャリア／Greenの併用が定番です。</li>
+              <li>・30代・40代はスペシャリストかテックリードかの軸を決めて職務経歴書を整理します。</li>
+              <li>・エージェントはGeekly／レバテックキャリア／Greenの併用が一般的です。</li>
             </ul>
           </div>
         </section>
@@ -216,14 +216,14 @@ export default function ReactSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             React求人は数が多い分、開発文化や技術スタックのミスマッチが起きやすい領域です。企業の内情を引き出せるエージェントを使い分け、求人サイトの件数だけで判断しないのがコツです。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界に特化しています。React/Next.js求人が充実し、提案スピードが強みです。企業の技術スタックや開発文化の情報提供が手厚いです。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界に特化しています。React/Next.js求人が充実し、提案スピードが強みです。企業の技術スタックや開発文化の情報提供が手厚い点が特徴です。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -233,7 +233,7 @@ export default function ReactSkillPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Green</h3>
-              <p className="text-sm text-slate-600 mb-2">成功報酬型の転職サイトです（ダイレクトリクルーティング）。カジュアル面談で技術文化を確かめてから進めたいスタートアップ志向の人向けです。</p>
+              <p className="text-sm text-slate-600 mb-2">成功報酬型の転職サイト（ダイレクトリクルーティング）で、カジュアル面談で技術文化を確かめてから進めたいスタートアップ志向の人に向いています。</p>
               <Link href="/review/green/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -247,8 +247,8 @@ export default function ReactSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">経験浅め・他FWからの参入ルート</h2>
           <ul className="space-y-2 text-sm text-slate-600">
             {[
-              "Vue/Angular経験者は「設計思想は共通」と捉え、JSX・Hooksに絞ってキャッチアップです。",
-              "バックエンド経験者はAPI設計の強みを活かし、フルスタック前提でReactを学ぶと差別化しやすいです。",
+              "Vue/Angular経験者は「設計思想は共通」と捉え、JSX・Hooksに絞ってキャッチアップします。",
+              "バックエンド経験者はAPI設計の強みを活かし、フルスタック前提でReactを学ぶと差別化しやすくなります。",
               "公開ポートフォリオ（Next.js + TypeScript）で、状態管理・テスト・パフォーマンス配慮を見せます。",
               "いきなり大規模を狙わず、React採用の中小プロダクトで実務年数を積みます。",
             ].map((t, i) => (
@@ -270,7 +270,7 @@ export default function ReactSkillPage() {
             ミドル層の強みは「設計とレビューで品質を担保した経験」「チームを前に進めた実績」です。レバテックの年代別公表値（2025年）でも、正社員SEの平均は30代で約499万円、40代で約618万円と年代が上がるほど水準が上がる傾向があり、Reactのモダンスタックで即戦力性を示せれば交渉余地は十分にあります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            40代では「スペシャリストとして突き抜けるか」「リード／EMで組織貢献するか」の軸を明確にすると評価されやすくなります。年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link>も参照してください。
+            40代では「スペシャリストとして専門性を深めるか」「リード／EMで組織貢献するか」の軸を明確にすると評価されやすくなります。年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link>も参照してください。
           </p>
         </section>
 
@@ -280,7 +280,7 @@ export default function ReactSkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
             {[
               ["最新のReactを追います", "Server Components、Suspense、Actionsなど新パラダイムを実プロジェクトで試し、設計判断を語れるようにします。"],
-              ["TypeScriptと一体で習熟", "Reactは型と組み合わせて評価されます。Propsの型設計やジェネリックコンポーネントを使いこなします。"],
+              ["TypeScriptと一体で習熟します", "Reactは型と組み合わせて評価されます。Propsの型設計やジェネリックコンポーネントを使いこなします。"],
               ["品質で差をつけます", "Testing Library/Playwrightでのテスト、レンダリング最適化、アクセシビリティ対応は具体的な強みになります。"],
               ["アウトプットを残します", "OSSへのPR、UIライブラリの公開、技術記事など、思考が見える成果物を蓄積します。"],
             ].map(([t, d], i) => (
@@ -316,10 +316,10 @@ export default function ReactSkillPage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">向いていないかもしれない人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
-                  "頻繁なバージョン・パラダイム更新の追従が負担に感じます",
+                  "頻繁なバージョン・パラダイム更新の追従が負担に感じる",
                   "フロントよりインフラ・データ基盤を中心に活躍したい",
                   "UI以外（純粋なロジック/低レイヤ）に専念したい",
-                  "レガシー環境から動く気がなく学習時間も取れません",
+                  "レガシー環境から移る意向がなく、学習時間も取れない",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">･</span><span>{t}</span></li>
                 ))}

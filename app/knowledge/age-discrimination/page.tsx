@@ -16,7 +16,7 @@ const DESC =
   "エンジニア転職の年齢の壁を実務目線で解説します。年齢制限禁止のルール、実務上の現実、書類で落ちる仕組み、35歳・40代が壁を突破する具体パターンを年収データとともにまとめました。";
 
 const toc = [
-  { id: "conclusion", label: "結論：年齢の壁の正体" },
+  { id: "conclusion", label: "年齢の壁の正体" },
   { id: "law", label: "年齢制限禁止のルール（一般的な説明）" },
   { id: "reality", label: "ルールと実務のギャップ" },
   { id: "data", label: "データで見る年齢と年収" },
@@ -51,11 +51,11 @@ const faqs = [
   },
   {
     q: "技術が古いと年齢の壁は高くなりますか？",
-    a: "高くなりやすいです。レガシー領域（COBOL・古いJavaなど）の経験自体は価値がありますが、それだけだと『年齢が高く技術も古い』と二重に見られがちです。直近2〜3年でクラウドやモダン開発に触れた実績を1つでも示せると、陳腐化への懸念を打ち消せます。",
+    a: "高くなりやすい傾向があります。レガシー領域（COBOL・古いJavaなど）の経験自体は価値がありますが、それだけだと『年齢が高く技術も古い』と二重に見られがちです。直近2〜3年でクラウドやモダン開発に触れた実績を1つでも示せると、陳腐化への懸念を打ち消せます。",
   },
   {
     q: "年齢に寛容な企業を効率よく探すには？",
-    a: "中途採用比率が高い企業、社員の年齢分布が公開されている企業、外資系、DX推進中の事業会社は年齢に寛容な傾向があります。エージェントに『◯代の採用実績がある求人』と条件を伝えて絞り込むのが最短ルートです。",
+    a: "中途採用比率が高い企業、社員の年齢分布が公開されている企業、外資系、DX推進中の事業会社は年齢に寛容な傾向があります。エージェントに『◯代の採用実績がある求人』と条件を伝えて絞り込む方法が効率的です。",
   },
 ];
 
@@ -93,13 +93,13 @@ export default function AgeDiscriminationPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニア転職に年齢の壁は本当にある？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 壁の正体は「年齢そのもの」ではなく、年齢が上がるほど『即戦力性の証明』を強く求められるという評価軸の変化です。門前払いではありません。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・募集・採用での年齢制限は原則禁止（一般的な制度説明。詳細は労働局へ）</li><li>・40代の平均年収は約618万円（レバテック公表値・2025年）と30代を上回ります</li><li>・突破の鍵は「即戦力性の言語化」「直近のモダン経験」「エージェント経由応募」</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>壁の正体は「年齢そのもの」ではなく、年齢が上がるほど『即戦力性の証明』を強く求められるという評価軸の変化です。門前払いではありません。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・募集・採用での年齢制限は原則として禁止されています（一般的な制度の説明です。詳細は労働局にご確認ください）</li><li>・40代の平均年収は約618万円（レバテック公表値・2025年）と30代を上回ります</li><li>・突破の鍵は「即戦力性の言語化」「直近のモダン経験」「エージェント経由の応募」の3点です</li></ul>
           </div>
         </section>
 
         <p className="text-slate-600 leading-relaxed mb-2">
-          「35歳限界説」「40代は無理」――エンジニア転職の年齢に関する言説は多いものの、ルール（年齢制限の禁止）と実務上の現実は分けて理解する必要があります。本記事では、制度の一般的な説明、実務で年齢が効いてしまう仕組み、そして30代・40代が壁を突破するための具体パターンを、公表データに基づいて解説します。
+          「35歳限界説」「40代は無理」――エンジニア転職の年齢に関する言説は多いものの、ルール（年齢制限の禁止）と実務上の現実は分けて理解する必要があります。本記事では、制度の一般的な説明、実務で年齢が影響する仕組み、そして30代・40代が壁を突破するための具体パターンを、公表データに基づいて解説します。
         </p>
 
         <DataNote
@@ -126,14 +126,14 @@ export default function AgeDiscriminationPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="border-l-4 border-petrol bg-petrol-soft rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：年齢の壁の正体</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">年齢の壁の正体</h2>
             <p className="text-slate-700 leading-relaxed mb-3">
               年齢の壁の正体は「年齢そのもの」ではなく、<strong>年齢が上がるほど『即戦力性の証明』を強く求められる</strong>という評価軸の変化です。求人票への年齢制限は原則禁止であり、IT人材は構造的に不足しています。壁は「数の減少＋証明ハードルの上昇」であって「門前払い」ではありません。
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
-              <li>・募集・採用での年齢制限は原則禁止（一般的な制度説明。詳細は労働局へ）</li>
+              <li>・募集・採用での年齢制限は原則として禁止されています（一般的な制度の説明です。詳細は労働局にご確認ください）</li>
               <li>・40代の平均年収は約618万円（レバテック公表値・2025年）と30代を上回ります</li>
-              <li>・突破の鍵は「即戦力性の言語化」「直近のモダン経験」「エージェント経由応募」</li>
+              <li>・突破の鍵は「即戦力性の言語化」「直近のモダン経験」「エージェント経由の応募」の3点です</li>
             </ul>
           </div>
         </section>
@@ -165,13 +165,13 @@ export default function AgeDiscriminationPage() {
         <section id="reality" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ルールと実務のギャップ</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            「求人票に年齢を書けない」ことと「選考で年齢が一切考慮されない」ことは別です。実務では、年齢は次のような形で間接的に効いてきます。ここを理解すると、対策の方向が見えてきます。
+            「求人票に年齢を書けない」ことと「選考で年齢が一切考慮されない」ことは別です。実務では、年齢は次のような形で間接的に影響します。ここを理解すると、対策の方向が見えてきます。
           </p>
           <div className="space-y-4">
             {[
-              { t: "求人の母数が年代で変わります", d: "年齢制限の記載はなくても、ポジションの想定年齢層は存在します。結果として、応募できる求人の絶対数は年代が上がるほど絞られる傾向があります。" },
-              { t: "『即戦力前提』への切り替わり", d: "30代後半以降は『入ってすぐ戦力になるか』が前提条件になりやすいです。ポテンシャル評価が薄れるぶん、実績の証明ハードルが上がります。" },
-              { t: "年収レンジと役割のミスマッチ", d: "年齢相応の年収を希望すると、その額に見合う役割（リード・専門職）を求められます。額と役割が合わないと見送られやすいです。" },
+              { t: "年代による求人母数の変化", d: "年齢制限の記載はなくても、ポジションの想定年齢層は存在します。結果として、応募できる求人の絶対数は年代が上がるほど絞られる傾向があります。" },
+              { t: "『即戦力前提』への切り替わり", d: "30代後半以降は『入ってすぐ戦力になるか』が前提条件になりやすい傾向があります。ポテンシャル評価が薄れるぶん、実績の証明ハードルが上がります。" },
+              { t: "年収レンジと役割のミスマッチ", d: "年齢相応の年収を希望すると、その額に見合う役割（リード・専門職）を求められます。額と役割が合わないと見送られやすい傾向があります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1.5">{x.t}</h3>
@@ -226,7 +226,7 @@ export default function AgeDiscriminationPage() {
         <section id="filter" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">なぜ書類で落ちるのか（仕組み）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            書類選考で落ちる流れを分解すると、年齢が直接の理由になっているケースは意外と少なく、次の連鎖で見送られていることが多いです。
+            書類選考で落ちる流れを分解すると、年齢が直接の理由になっているケースは意外と少なく、次の連鎖で見送られていることが多くあります。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3">
             {[
@@ -248,11 +248,11 @@ export default function AgeDiscriminationPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年齢の壁を突破する5パターン</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "専門性を一点突破にする", desc: "『何でもできます』は年齢が上がるほど不利です。セキュリティ・SRE・DB・クラウド基盤など、一領域の深さを強みにすると年齢が問題になりにくいです。" },
-              { num: "2", title: "直近のモダン経験を作る", desc: "個人開発・副業・社内の小さなPoCでも良いので、直近2〜3年でクラウド/コンテナ/CI-CD等に触れた事実を1つ用意し、陳腐化懸念を消します。" },
-              { num: "3", title: "エージェント経由で一次フィルタを越える", desc: "推薦文付きで紹介されると、書類だけの機械的フィルタを越えてスキルを見てもらいやすいです。年齢に寛容な求人を持つ複数社を併用します。" },
-              { num: "4", title: "役割を明確にしたポジションを狙う", desc: "社内SE・DX推進・EM・テックリードなど役割が明確な求人は、年齢より『その役割を担えるか』で判断されます。ドメイン知識が活きます。" },
-              { num: "5", title: "スカウト型で市場価値を可視化する", desc: "スカウト型サービスに登録し、どんな年収・ポジションの声がかかるかを観測します。壁の高さを感覚でなくデータで把握し、戦略を調整します。" },
+              { num: "1", title: "一つの専門領域への特化", desc: "『何でもできます』は年齢が上がるほど不利です。セキュリティ・SRE・DB・クラウド基盤など、一領域の深さを強みにすると年齢が問題になりにくい傾向があります。" },
+              { num: "2", title: "直近のモダン経験の獲得", desc: "個人開発・副業・社内の小さなPoCでも良いので、直近2〜3年でクラウド/コンテナ/CI-CD等に触れた事実を1つ用意し、技術の陳腐化への懸念を払拭します。" },
+              { num: "3", title: "エージェント経由での一次フィルタ通過", desc: "推薦文付きで紹介されると、書類だけの機械的フィルタを越えてスキルを見てもらいやすくなります。年齢に寛容な求人を持つ複数社を併用します。" },
+              { num: "4", title: "役割が明確なポジションへの応募", desc: "社内SE・DX推進・EM・テックリードなど役割が明確な求人は、年齢より『その役割を担えるか』で判断されます。ドメイン知識が活きます。" },
+              { num: "5", title: "スカウト型サービスによる市場価値の可視化", desc: "スカウト型サービスに登録し、どんな年収・ポジションの声がかかるかを観測します。壁の高さを感覚でなくデータで把握し、戦略を調整します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -273,10 +273,10 @@ export default function AgeDiscriminationPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年齢に寛容な企業の見分け方</h2>
           <div className="space-y-4">
             {[
-              { t: "外資系IT企業", d: "年齢よりスキルと成果で評価する文化が強いです。英語力が求められる場合が多いですが、年齢の壁は相対的に低いです。" },
+              { t: "外資系IT企業", d: "年齢よりスキルと成果で評価する文化が強い傾向があります。英語力が求められる場合が多いものの、年齢の壁は比較的低いといえます。" },
               { t: "中途採用比率が高い企業", d: "中途比率が高い企業は経歴の多様性を前提に組織が回っています。採用ページや口コミサイトで中途比率を確認できます。" },
               { t: "DX推進中の事業会社", d: "製造・金融・小売などのDX部門は中途採用が中心で、年齢より業界知識＋技術を重視する傾向があります。" },
-              { t: "成長フェーズのスタートアップ", d: "シリーズB〜C以降は経験豊富なシニアを求めます。若い組織に40代の判断力が必要とされるケースが多いです。" },
+              { t: "成長フェーズのスタートアップ", d: "シリーズB〜C以降は経験豊富なシニアを求めます。若い組織に40代の判断力が必要とされるケースが多く見られます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1.5">{x.t}</h3>
@@ -322,7 +322,7 @@ export default function AgeDiscriminationPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点：壁の高さは年代で違う</h2>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">30代：壁は「ほぼ通過後に問題にならない」</h3>
+              <h3 className="font-bold text-slate-800 mb-2">30代：書類を通過すれば年齢はほぼ問題にならない</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 30代は書類さえ通れば年齢が決定打になることは少なく、スキルと意欲で十分に評価されます。むしろ求人母数が多いため、応募の質を上げれば年収アップを狙いやすい年代です。35歳前後で評価軸が即戦力寄りに移る点だけ意識しましょう。詳細は<Link href="/age/35/" className="text-petrol hover:underline">35歳の壁</Link>をご参照ください。
               </p>
@@ -330,7 +330,7 @@ export default function AgeDiscriminationPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">40代：壁は「数の減少」として現れる</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                40代の壁は門前払いではなく、応募できる求人の数が絞られる形で現れます。専門性の明確化・複数エージェント併用・役割の明確なポジション狙いで母数不足をカバーするのが基本です。40代特化の動き方は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>でさらに深掘りしています。
+                40代の壁は門前払いではなく、応募できる求人の数が絞られる形で現れます。専門性の明確化・複数エージェント併用・役割の明確なポジション狙いで母数不足をカバーするのが基本です。40代特化の動き方は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>でさらに詳しく解説しています。
               </p>
             </div>
           </div>
@@ -354,7 +354,7 @@ export default function AgeDiscriminationPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">年齢の壁は、味方を選べば低くなる</h2>
+          <h2 className="text-xl font-bold mb-3">年齢の壁を下げるエージェント選び</h2>
           <p className="text-blue-100 text-sm mb-4">
             年齢に寛容な求人を持つIT特化型エージェントなら、推薦文付きで紹介してもらえ、書類フィルタを越えやすくなります。
           </p>

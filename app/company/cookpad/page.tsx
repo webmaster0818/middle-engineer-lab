@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
@@ -39,18 +39,18 @@ const salaryRows: [string, string][] = [
   ["平均年収（提出会社単体・全従業員）", "約948万円"],
   ["対象年度", "2024年12月期（有価証券報告書）"],
   ["集計範囲", "エンジニア以外も含む全従業員平均"],
-  ["留意点", "事業再編で従業員約100名規模に縮小します。中核人材中心の構成で平均が高めに出ている可能性"],
+  ["留意点", "事業再編で従業員が約100名規模に縮小しており、中核人材中心の構成のため平均が高めに出ている可能性あり"],
 ];
 
 const faqs = [
-  { q: "クックパッドはエンジニアの中途採用を行っている？", a: "クックパッドは継続的にソフトウェアエンジニアの中途採用を行ってきた企業です。ただし近年は事業再編により従業員規模が大きく縮小しており、募集職種・募集枠は時期によって大きく変動します。最新の募集状況は必ず公式採用ページでご確認ください。" },
-  { q: "クックパッドの平均年収はいくら？", a: "2024年12月期の有価証券報告書によると、提出会社（クックパッド株式会社単体）の平均年間給与は約948万円です。これは賞与を含む全従業員（エンジニア以外も含む）の平均で、職種別・等級別の内訳は公式に開示されていません。なお、事業再編で従業員数が約100名規模に縮小しており、中核人材中心の構成となっているため平均が高めに出ている可能性がある点に留意が必要です。" },
-  { q: "クックパッドのエンジニア職の提示年収レンジは公開されている？", a: "クックパッドは職種別・等級別の年収レンジを公式に常時開示していません。求人サイトでも継続的に公開される確定レンジがないため、当ガイドでは推測の数値表は掲載していません。目安として有価証券報告書の平均約948万円（2024年12月期）が参考値になりますが、これは全従業員平均である点に注意してください。" },
-  { q: "クックパッドで使われている技術スタックは？", a: "クックパッドは世界最大級規模のRuby on Railsモノリスを運用してきたことで知られ、Rubyコミッターが在籍するなどRubyコミュニティへの貢献が大きい企業です。インフラはAWS上でコンテナ（ECS）を活用し、自社製のデプロイツール「Hako」やGitHub Actionsのself-hosted runnerを用いた開発基盤が技術ブログで公開されています。" },
-  { q: "クックパッドの選考フローは？", a: "クックパッドは選考フローの詳細を公式に網羅的には公開していません。一般的なWeb企業と同様、書類選考→複数回の面接（技術面接を含む）→内定という流れが想定されますが、具体的な回数・内容は職種・時期により異なります。創作した固定フローは掲載せず、最新は公式採用ページや担当エージェントで確認することをおすすめします。" },
-  { q: "クックパッドの事業再編は転職にどう影響する？", a: "クックパッドは過去数年で事業の選択と集中・海外事業の整理などを進め、従業員規模が大きく縮小しました。これは「少人数の中核チームで大規模サービスを運用する」フェーズを意味し、入社後に一人あたりが担う技術的責任は大きくなる傾向があります。組織の安定性・事業の方向性は応募前に最新のIR情報で確認することが重要です。" },
-  { q: "クックパッドへの転職で有利な経験は？", a: "公開情報からは、Ruby on Railsによる大規模・長寿命サービスの開発運用経験、モノリスの保守・リファクタリング経験、AWS上でのコンテナ運用やCI/CD整備の経験が親和性が高いと考えられます。少人数で広い領域をカバーする自走力も評価されやすい傾向があります。" },
-  { q: "クックパッドのエンジニア転職は未経験でも可能？", a: "クックパッドの中途採用は即戦力の経験者採用が基本です。特に組織縮小後は少数精鋭の構成となっており、完全未経験からの参入は現実的ではありません。まずはRubyやWebサービス開発の実務経験を別企業で積むのが一般的な道筋です。" },
+  { q: "クックパッドはエンジニアの中途採用を行っていますか？", a: "クックパッドは継続的にソフトウェアエンジニアの中途採用を行ってきた企業です。ただし近年は事業再編により従業員規模が大きく縮小しており、募集職種・募集枠は時期によって大きく変動します。最新の募集状況は必ず公式採用ページでご確認ください。" },
+  { q: "クックパッドの平均年収はいくらですか？", a: "2024年12月期の有価証券報告書によると、提出会社（クックパッド株式会社単体）の平均年間給与は約948万円です。これは賞与を含む全従業員（エンジニア以外も含む）の平均で、職種別・等級別の内訳は公式に開示されていません。なお、事業再編で従業員数が約100名規模に縮小しており、中核人材中心の構成となっているため平均が高めに出ている可能性がある点に留意が必要です。" },
+  { q: "クックパッドのエンジニア職の提示年収レンジは公開されていますか？", a: "クックパッドは職種別・等級別の年収レンジを公式に常時開示していません。求人サイトでも継続的に公開される確定レンジがないため、当ガイドでは推測の数値表は掲載していません。目安として有価証券報告書の平均約948万円（2024年12月期）が参考値になりますが、これは全従業員平均である点に注意してください。" },
+  { q: "クックパッドで使われている技術スタックを教えてください。", a: "クックパッドは世界最大級規模のRuby on Railsモノリスを運用してきたことで知られ、Rubyコミッターが在籍するなどRubyコミュニティへの貢献が大きい企業です。インフラはAWS上でコンテナ（ECS）を活用し、自社製のデプロイツール「Hako」やGitHub Actionsのself-hosted runnerを用いた開発基盤が技術ブログで公開されています。" },
+  { q: "クックパッドの選考フローを教えてください。", a: "クックパッドは選考フローの詳細を公式に網羅的には公開していません。一般的なWeb企業と同様、書類選考→複数回の面接（技術面接を含む）→内定という流れが想定されますが、具体的な回数・内容は職種・時期により異なります。創作した固定フローは掲載せず、最新は公式採用ページや担当エージェントで確認することをおすすめします。" },
+  { q: "クックパッドの事業再編は転職にどう影響しますか？", a: "クックパッドは過去数年で事業の選択と集中・海外事業の整理などを進め、従業員規模が大きく縮小しました。これは「少人数の中核チームで大規模サービスを運用する」フェーズを意味し、入社後に一人あたりが担う技術的責任は大きくなる傾向があります。組織の安定性・事業の方向性は応募前に最新のIR情報で確認することが重要です。" },
+  { q: "クックパッドへの転職で有利になる経験を教えてください。", a: "公開情報からは、Ruby on Railsによる大規模・長寿命サービスの開発運用経験、モノリスの保守・リファクタリング経験、AWS上でのコンテナ運用やCI/CD整備の経験が親和性が高いと考えられます。少人数で広い領域をカバーする自走力も評価されやすい傾向があります。" },
+  { q: "クックパッドのエンジニア転職は未経験でも可能ですか？", a: "クックパッドの中途採用は即戦力の経験者採用が基本です。特に組織縮小後は少数精鋭の構成となっており、完全未経験からの参入は現実的ではありません。まずはRubyやWebサービス開発の実務経験を別企業で積むのが一般的な道筋です。" },
 ];
 
 export default function CookpadCompanyPage() {
@@ -65,29 +65,29 @@ export default function CookpadCompanyPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">クックパッドへのエンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
-          クックパッド株式会社へのエンジニア中途採用について、有価証券報告書と公式技術ブログの一次情報をもとに、転職難易度・年収・技術スタック・選考の実態を中立にまとめました。月間数千万人規模の料理レシピサービスを、世界最大級のRuby on Railsモノリスで支えてきた、Rubyエンジニアにとって象徴的な企業です。事業再編で組織規模が縮小している点も含めて、30代・40代が押さえるべき現実を解説します。
+          クックパッド株式会社へのエンジニア中途採用について、有価証券報告書と公式技術ブログの一次情報をもとに、転職難易度・年収・技術スタック・選考の実態を中立にまとめました。月間数千万人規模の料理レシピサービスを、世界最大級のRuby on Railsモノリスで支えてきた、Rubyエンジニアにとって象徴的な企業です。事業再編で組織規模が縮小している点も含めて、30代・40代が押さえておくべき点を解説します。
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】クックパッドの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: クックパッド株式会社の平均年間給与は約948万円です（2024年12月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。ただし事業再編で従業員が約100名規模に縮小しており、中核人材中心で平均が高めに出ている可能性があります。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>クックパッド株式会社の平均年間給与は約948万円です（2024年12月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。ただし事業再編で従業員が約100名規模に縮小しており、中核人材中心で平均が高めに出ている可能性があります。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 約948万円です（2024年12月期 有価証券報告書・単体全従業員平均）。エンジニア以外も含む平均です。</li><li>・事業再編で従業員が約100名規模に縮小し、中核人材中心の構成のため平均が高めに出ている可能性に留意が必要です。</li><li>・職種別・等級別の年収レンジは非開示です。当ガイドでは創作した数値表は掲載していません。実額は求人・面談でご確認ください。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["クックパッド 有価証券報告書（2024年12月期）", "クックパッド開発者ブログ（techlife）", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（少数精鋭・Railsの大規模運用経験者向け）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・中核は<strong>世界最大級規模のRuby on Railsモノリスです</strong>。長寿命・大規模サービスの設計・運用経験者に向きます。Rubyコミッターが在籍する技術文化が魅力です。</li>
+              <li>・中核は<strong>世界最大級規模のRuby on Railsモノリス</strong>です。長寿命・大規模サービスの設計・運用経験者に向いています。Rubyコミッターが在籍する技術文化も特徴です。</li>
               <li>・事業再編で<strong>従業員が約100名規模に縮小しています</strong>。少人数で広い領域を担うため、自走力と技術的責任を引き受ける姿勢が求められます。</li>
               <li>・有価証券報告書の平均年収は<strong>約948万円（2024年12月期・単体・全従業員平均）</strong>ですが、中核人材中心の構成で平均が高めに出ている可能性に留意が必要です。</li>
             </ul>
-            <p className="text-xs text-blue-800 mt-3">逆に、大人数の整った組織で役割分担された開発を望む人や、事業の安定性を最優先する人は、組織規模・事業の方向性を最新のIRで見極めることをおすすめします。</p>
+            <p className="text-xs text-blue-800 mt-3">一方で、大人数の整った組織で役割分担された開発を望む人や、事業の安定性を最優先する人は、組織規模・事業の方向性を最新のIRで見極めることをおすすめします。</p>
           </div>
         </section>
 
@@ -115,7 +115,7 @@ export default function CookpadCompanyPage() {
         <section id="feature" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア採用の特徴</h2>
           <div className="space-y-4">
-            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">世界最大級のRailsモノリスを運用する文化</h3><p className="text-sm text-petrol-deep">クックパッドは長年にわたり、巨大なRuby on Railsモノリスでサービスを運用してきたことで国内外に知られています。Rubyコミッターが在籍し、OSSやRubyコミュニティへの貢献が活発な点は、Rubyエンジニアにとって大きな魅力です。大規模コードベースの設計・改善に向き合えるかが採用のポイントになります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">世界最大級のRailsモノリスを運用する文化</h3><p className="text-sm text-petrol-deep">クックパッドは長年にわたり、巨大なRuby on Railsモノリスでサービスを運用してきたことで国内外に知られています。Rubyコミッターが在籍し、OSSやRubyコミュニティへの貢献が活発な点は、Rubyエンジニアにとって大きな特徴といえます。大規模コードベースの設計・改善に向き合えるかが採用のポイントになります。</p></div>
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">少人数の中核チームで広い領域を担う</h3><p className="text-sm text-petrol-deep">事業再編により従業員が約100名規模に縮小した結果、一人あたりが担当する技術領域は広くなる傾向があります。フロントからインフラ、運用までを横断的に見られる自走力のあるエンジニアが活躍しやすい環境です。役割が細分化された大組織とは異なる働き方になります。</p></div>
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">公開された技術基盤と発信文化</h3><p className="text-sm text-petrol-deep">クックパッド開発者ブログ（techlife）では、AWS上のコンテナ運用、自社製デプロイツール、CI/CDの工夫などが継続的に発信されてきました。技術発信に積極的な文化があり、外部からも開発の実態を把握しやすいのが特徴です。</p></div>
           </div>
@@ -126,8 +126,8 @@ export default function CookpadCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下はクックパッドの公式技術ブログ・公開発表で確認できる範囲の情報です。確認できない言語・ツールは記載していません。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Ruby on Rails</strong>：サービスの中核です。世界最大級規模のモノリスを運用します。Rubyコミッターが在籍</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AWS（ECS）</strong>：クラウド基盤です。コンテナでアプリケーションを運用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Ruby on Rails</strong>：サービスの中核（世界最大級規模のモノリスを運用、Rubyコミッターが在籍）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AWS（ECS）</strong>：クラウド基盤（コンテナでアプリケーションを運用）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Hako</strong>：自社製のコンテナデプロイツール（OSSとして公開）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>GitHub Actions（self-hosted runner）</strong>：CI/CDの実行基盤</span></li>
             </ul>
@@ -189,9 +189,9 @@ export default function CookpadCompanyPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たクックパッド</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>30代・40代のRuby/Railsエンジニアにとって、クックパッドは「大規模モノリスと長く向き合ってきた技術的蓄積」を直接活かせる希少な環境です。長寿命サービスの設計判断・技術的負債との付き合い方といった、ミドル層の経験が最も価値を発揮する領域が中核にあります。Rubyコミッターが在籍する文化のなかで、自身の専門性をさらに深められる点は大きな魅力です。</p>
+            <p>30代・40代のRuby/Railsエンジニアにとって、クックパッドは「大規模モノリスと長く向き合ってきた技術的蓄積」を直接活かせる希少な環境です。長寿命サービスの設計判断・技術的負債との付き合い方といった、ミドル層の経験が最も価値を発揮する領域が中核にあります。Rubyコミッターが在籍する文化のなかで、自身の専門性をさらに深められる点は大きな利点です。</p>
             <p>一方で、事業再編により従業員が約100名規模に縮小している点は、ミドル層こそ慎重に評価すべきポイントです。少人数体制は裁量と責任が大きい反面、組織の安定性や事業の方向性が流動的になりやすい側面もあります。家庭や生活基盤が固まっている40代では特に、入社前に最新のIR情報で事業の現状を確認し、自分のキャリアプランと照らし合わせることが重要です。</p>
-            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>や<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>、Web系への移行を考える場合は<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も確認しておくことをおすすめします。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>や<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>、Web系への移行を考える場合は<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -222,7 +222,7 @@ export default function CookpadCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">クックパッド転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強いです。技術面接対策のサポートが受けられます。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富です。Rubyやスタートアップ系に強みがあります。" }, { name: "paiza転職", href: "/review/paiza/", desc: "コーディングスキルで評価される仕組みです。技術力を強みにしたい人向けです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強みがあります。技術面接対策のサポートが受けられます。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富です。Rubyやスタートアップ系に強みがあります。" }, { name: "paiza転職", href: "/review/paiza/", desc: "コーディングスキルで評価される仕組みです。技術力を強みにしたい人向けです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

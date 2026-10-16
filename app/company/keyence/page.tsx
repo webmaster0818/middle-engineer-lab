@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
+  { id: "basic", label: "基本データ（出典あり）" },
   { id: "salary-truth", label: "年収2039万円の正しい読み方" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術領域（公開情報の範囲）" },
@@ -65,20 +65,20 @@ export default function KeyenceCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】キーエンスの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: キーエンスの平均年収は2,039万円です（2025年3月期 有価証券報告書・提出会社単体の全従業員平均・賞与含む、平均年齢34.8歳）。ただしこれは営業を含む全社員平均で、エンジニア単独の数値ではありません。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>キーエンスの平均年収は2,039万円です（2025年3月期 有価証券報告書・提出会社単体の全従業員平均・賞与含む、平均年齢34.8歳）。ただしこれは営業を含む全社員平均で、エンジニア単独の数値ではありません。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 2,039万円です（2025年3月期 有価証券報告書・賞与含む・4年連続で2,000万円超）。営業（コンサルティングセールス）を含む全職種・全社員の平均です。</li><li>・高水準の背景は高い営業利益率を原資とした業績連動賞与の比重の大きさとされ、個人の年収は等級・年次・業績で大きく異なります。</li><li>・職種別・等級別の年収内訳は公式に非開示です。エンジニアとして入社した場合に必ずこの金額が得られるわけではなく、応募職種の具体的な提示条件の確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["キーエンス 有価証券報告書（2025年3月期）", "キーエンス 公式採用サイト", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（新卒中心・中途枠は限定的）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・年収は<strong>全従業員平均2,039万円（2025年3月期・有価証券報告書）</strong>と国内トップ級です。ただしこれは営業を含む全社員平均で、<strong>エンジニア単独の数字ではありません</strong>。</li>
-              <li>・業務の中核は<strong>FAセンサ・画像処理・計測機器の組込／アルゴリズム開発します</strong>。Webモダン開発を志向する人にはミスマッチが起きやすいです。</li>
-              <li>・新卒採用が中心で、エンジニアの中途枠は時期により限定的です。組込・画像処理・計測の専門性を持つ即戦力に向きます。</li>
+              <li>・業務の中核は<strong>FAセンサ・画像処理・計測機器の組込／アルゴリズム開発</strong>です。Webモダン開発を志向する人にはミスマッチが起きやすい傾向があります。</li>
+              <li>・新卒採用が中心で、エンジニアの中途枠は時期により限定的です。組込・画像処理・計測の専門性を持つ即戦力に向いています。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">「高年収」という看板だけで判断せず、自分の専門領域（組込/画像/計測）と業務内容が合うかを最優先に見極めることが重要です。</p>
           </div>
@@ -94,7 +94,7 @@ export default function KeyenceCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm"><tbody>
               {basicData.map(([label, value], i) => (
@@ -177,7 +177,7 @@ export default function KeyenceCompanyPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>組込・画像処理・計測の専門性を持つ即戦力エンジニア</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>自社ハードウェア商品の開発に深く関わりたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>成果主義・高密度の業務スタイルで高い報酬を目指したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>FA・センシングという市場の将来性に魅力を感じる</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>FA・センシングという市場の将来性に関心がある</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
@@ -195,7 +195,7 @@ export default function KeyenceCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キーエンス転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込領域に強く、高年収求人比率が高いです。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込領域に強みがあり、高年収求人の比率が高い傾向があります。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手メーカーの専門職・高年収ポジションのスカウトが届きやすくなります。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数を有し、メーカー・大手の求人を幅広くカバーしています。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

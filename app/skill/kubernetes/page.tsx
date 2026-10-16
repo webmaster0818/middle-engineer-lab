@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：Kubernetes転職市場での進め方" },
+  { id: "conclusion", label: "Kubernetes転職市場での進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "cert", label: "CKA/CKAD/CKS資格の活かし方" },
   { id: "level", label: "求められる経験レベル" },
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "Kubernetesの求人はどんな企業に多いですか？",
-    a: "クラウド系企業、メガベンチャー、SaaS企業、金融系IT企業などで、SRE/プラットフォームエンジニアの要件としてKubernetes経験が挙がるケースが増えています。マネージドKubernetes（EKS/GKE/AKS）の運用経験が問われることが多いです。",
+    a: "クラウド系企業、メガベンチャー、SaaS企業、金融系IT企業などで、SRE/プラットフォームエンジニアの要件としてKubernetes経験が挙がるケースが増えています。マネージドKubernetes（EKS/GKE/AKS）の運用経験が問われることが多くあります。",
   },
   {
     q: "Kubernetes未経験からどう学べばよいですか？",
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "Kubernetesエンジニアにおすすめの転職サービスは？",
-    a: "インフラ・DevOps案件に強いレバテックキャリア、ハイクラスSRE層を狙えるビズリーチ、クラウドネイティブ企業の求人を扱うGeeklyの併用が定番です（2026年6月時点・各社公表/二次情報）。",
+    a: "インフラ・DevOps案件に強みを持つレバテックキャリア、ハイクラスSRE層の求人を扱うビズリーチ、クラウドネイティブ企業の求人を扱うGeeklyの併用が一般的です（2026年6月時点・各社公表/二次情報）。",
   },
 ];
 
@@ -66,7 +66,7 @@ const salaryByAge = [
 ];
 
 const certTable = [
-  ["CKA", "Certified Kubernetes Administrator", "クラスター管理・運用。実技66%以上で合格します。運用職でまず狙う"],
+  ["CKA", "Certified Kubernetes Administrator", "クラスター管理・運用。実技66%以上で合格。運用職で最初に取得を目指す資格"],
   ["CKAD", "Certified Kubernetes Application Developer", "アプリの設計・構築・公開。開発者寄りの役割向け"],
   ["CKS", "Certified Kubernetes Security Specialist", "セキュリティ特化。CKA合格が受験前提（67%以上で合格）"],
 ];
@@ -130,7 +130,7 @@ export default function KubernetesSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Kubernetes転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Kubernetes転職市場での進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Kubernetesは単体スキルではなく<strong>SRE・プラットフォーム・クラウド領域の一部</strong>として評価されます。進め方は次の3点です。
@@ -208,9 +208,9 @@ export default function KubernetesSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "入口層（コンテナ運用）", d: "Docker・基本的なKubernetesリソース（Deployment/Service/Ingress）の操作です。マネージドK8sのデプロイ経験。" },
-              { t: "中核層（運用設計・自動化）", d: "Helmによるパッケージ管理、ArgoCD/FluxでのGitOps、Prometheus+Grafanaの監視構築、Terraformでのクラスター構築。" },
-              { t: "上流層（プラットフォーム/SRE）", d: "マルチクラスター設計、容量・コスト最適化、SLI/SLO、Internal Developer Platformの構築。CKS等のセキュリティ知識も評価対象です。" },
+              { t: "入口層（コンテナ運用）", d: "Docker・基本的なKubernetesリソース（Deployment/Service/Ingress）の操作や、マネージドK8sのデプロイ経験が求められます。" },
+              { t: "中核層（運用設計・自動化）", d: "Helmによるパッケージ管理、ArgoCD/FluxでのGitOps、Prometheus+Grafanaの監視構築、Terraformでのクラスター構築が求められます。" },
+              { t: "上流層（プラットフォーム/SRE）", d: "マルチクラスター設計、容量・コスト最適化、SLI/SLO、Internal Developer Platformの構築を担います。CKS等のセキュリティ知識も評価対象です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -248,17 +248,17 @@ export default function KubernetesSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化でインフラ・DevOps案件に強く、技術に明るいアドバイザー経由でSRE/プラットフォーム求人を探せます。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化でインフラ・DevOps案件に強みがあり、技術に明るいアドバイザー経由でSRE/プラットフォーム求人を探せます。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型です。SREリードやプラットフォーム責任者クラスのポジションを狙う場合に有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">ハイクラス向けのスカウト型サービスです。SREリードやプラットフォーム責任者クラスのポジションを目指す場合に有効です。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化です。提案スピードに強みがあり、クラウドネイティブ企業の求人を扱います。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化型のエージェントです。提案スピードに強みがあり、クラウドネイティブ企業の求人を扱います。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -274,7 +274,7 @@ export default function KubernetesSkillPage() {
               { n: "STEP 1", t: "Dockerで基礎固め", d: "コンテナの作成・イメージ管理・ネットワークの基本を理解します。" },
               { n: "STEP 2", t: "ローカルクラスター構築", d: "Minikube/kindでクラスターを立て、Deployment/Service/Ingress/ConfigMapを手で書きます。" },
               { n: "STEP 3", t: "CKAで体系化", d: "CKAの出題範囲に沿って運用知識を整理し、実技試験で『触れる』ことを証明します。" },
-              { n: "STEP 4", t: "マネージドK8sで成果物", d: "EKS/GKE上に小さなサービスを構築し、Helm/監視/CI-CDまで含めて公開・説明できる状態にします。" },
+              { n: "STEP 4", t: "マネージドK8sでの成果物作成", d: "EKS/GKE上に小さなサービスを構築し、Helm/監視/CI-CDまで含めて公開・説明できる状態にします。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -294,10 +294,10 @@ export default function KubernetesSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              ミドル層のKubernetes転職では、<strong>「最新ツールを知っている」より「本番障害を収束させた経験」</strong>が評価されます。アップグレード時のリスク管理、容量設計、コスト最適化など、運用の修羅場をくぐった経験は若手と差別化できる強みです。
+              ミドル層のKubernetes転職では、<strong>「最新ツールを知っている」より「本番障害を収束させた経験」</strong>が評価されます。アップグレード時のリスク管理、容量設計、コスト最適化など、運用上の難しい局面を乗り越えた経験は若手と差別化できる強みです。
             </p>
             <p>
-              年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%です（2025年）。Kubernetesを軸にSRE/プラットフォーム領域へ役割を広げると、高年収帯への接続が見えてきます。
+              年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%です（2025年）。Kubernetesを軸にSRE/プラットフォーム領域へ役割を広げると、高年収帯も視野に入ります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>もご覧ください。
@@ -308,11 +308,11 @@ export default function KubernetesSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ Docker → ローカルK8s → マネージドK8s の順で実機に慣れる</li>
-            <li>✓ CKAで運用知識を体系化（必要に応じCKAD/CKSへ）</li>
-            <li>✓ Helm・ArgoCD・Prometheus/Grafanaを一通り触り、運用設計まで踏み込む</li>
-            <li>✓ Terraformでクラスターをコード管理し、IaCスキルと接続する</li>
-            <li>✓ 障害対応・容量設計の経験を「再現可能な学び」として言語化する</li>
+            <li>✓ Docker → ローカルK8s → マネージドK8s の順で実機に慣れます</li>
+            <li>✓ CKAで運用知識を体系化します（必要に応じCKAD/CKSへ進みます）</li>
+            <li>✓ Helm・ArgoCD・Prometheus/Grafanaを一通り触り、運用設計まで踏み込みます</li>
+            <li>✓ Terraformでクラスターをコード管理し、IaCスキルと組み合わせます</li>
+            <li>✓ 障害対応・容量設計の経験を「再現可能な学び」として言語化します</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>をご参照ください。
@@ -337,7 +337,7 @@ export default function KubernetesSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Kubernetesスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            DevOps/SRE求人に強いIT特化型エージェントで、年収アップの可能性を確認しましょう。
+            DevOps/SRE求人を扱うIT特化型エージェントで、年収アップの可能性を確認しましょう。
           </p>
           <Link
             href="/#ranking"

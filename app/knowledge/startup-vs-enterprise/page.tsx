@@ -43,21 +43,21 @@ const faqs = [
 ];
 
 const axisRows = [
-  { axis: "裁量・意思決定", startup: "大きいです。少人数で決定が速い", enterprise: "役割・階層により異なります。調整が多い" },
-  { axis: "技術選定の自由", startup: "新しい技術を採用しやすいです", enterprise: "全社標準・既存資産の制約を受けやすいです" },
-  { axis: "扱うシステム規模", startup: "0→1や小〜中規模が中心", enterprise: "大規模・高トラフィックを経験しやすいです" },
-  { axis: "成長スピード", startup: "速いです。守備範囲が広がりやすい", enterprise: "体系的だが緩やかなことも" },
-  { axis: "安定性", startup: "資金調達・事業状況に左右される", enterprise: "相対的に安定" },
+  { axis: "裁量・意思決定", startup: "裁量大。少人数で意思決定が迅速", enterprise: "役割・階層により差あり。調整が多め" },
+  { axis: "技術選定の自由", startup: "新しい技術を採用しやすい環境", enterprise: "全社標準・既存資産の制約を受けやすい傾向" },
+  { axis: "扱うシステム規模", startup: "0→1や小〜中規模が中心", enterprise: "大規模・高トラフィックを経験しやすい環境" },
+  { axis: "成長スピード", startup: "成長が速い傾向。守備範囲も広がりやすい環境", enterprise: "体系的だが緩やかな場合も" },
+  { axis: "安定性", startup: "資金調達・事業状況に左右されやすい傾向", enterprise: "相対的に安定" },
   { axis: "報酬の構成", startup: "基本給＋ストックオプション等", enterprise: "基本給・賞与・福利厚生が中心" },
-  { axis: "福利厚生・制度", startup: "整備途上のことがあります", enterprise: "充実している傾向" },
-  { axis: "社会的信用", startup: "ローン審査等で慎重に見られることも", enterprise: "比較的通りやすいです" },
+  { axis: "福利厚生・制度", startup: "整備途上の場合あり", enterprise: "充実している傾向" },
+  { axis: "社会的信用", startup: "ローン審査等で慎重に見られることも", enterprise: "比較的通りやすい傾向" },
 ];
 
 const phases = [
-  { phase: "シード／アーリー期", desc: "プロダクト検証段階です。少人数で1人の裁量が非常に大きいです。事業の不確実性が高く、報酬は基本給が抑えめでストックオプション比率が高めになりがちです。0→1経験を積みたい人向けです。" },
+  { phase: "シード／アーリー期", desc: "プロダクト検証段階です。少人数で1人あたりの裁量が非常に大きくなります。事業の不確実性が高く、報酬は基本給が抑えめでストックオプション比率が高めになりがちです。0→1経験を積みたい人向けです。" },
   { phase: "シリーズA〜B（拡大初期）", desc: "プロダクトに手応えが出て組織が拡大する段階です。採用・体制づくりが活発で、テックリードや基盤づくりの役割が増えます。リスクとリターンのバランスを取りたい人が狙いやすいフェーズです。" },
   { phase: "シリーズC以降／上場準備期", desc: "事業が成長し体制が整い始めます。大企業に近い安定感が出る一方、立ち上げ初期ほどの裁量は薄れることがあります。安定とスタートアップらしさの両取りを狙う層に向きます。" },
-  { phase: "大企業（成熟期）", desc: "事業・組織が確立です。大規模システム、体系的な制度、福利厚生が強みです。レガシー保守か先進部署かで経験の質が大きく変わるため、配属先の見極めが重要です。" },
+  { phase: "大企業（成熟期）", desc: "事業・組織が確立した段階です。大規模システム、体系的な制度、福利厚生が強みです。レガシー保守か先進部署かで経験の質が大きく変わるため、配属先の見極めが重要です。" },
 ];
 
 export default function StartupVsEnterprisePage() {
@@ -102,8 +102,8 @@ export default function StartupVsEnterprisePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】スタートアップと大企業、エンジニアはどちらを選ぶべき？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 優劣ではなく相性です。裁量・0→1経験・成長スピードを求めるならスタートアップ、大規模システム経験・安定・福利厚生を求めるなら大企業が基本軸です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・スタートアップの報酬はストックオプションを含みますが、出口が実現して初めて価値になる不確実なものです</li><li>・30代・40代の経験はシニア・テックリードとして即戦力になり、若い組織で歓迎されやすいです</li><li>・スタートアップを選ぶなら資金調達フェーズ（シリーズB以降など）を確認してリスクを抑えます</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>優劣ではなく相性です。裁量・0→1経験・成長スピードを求めるならスタートアップ、大規模システム経験・安定・福利厚生を求めるなら大企業が基本軸です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・スタートアップの報酬はストックオプションを含みますが、出口が実現して初めて価値になる不確実なものです</li><li>・30代・40代の経験はシニア・テックリードとして即戦力になり、若い組織で歓迎されやすい傾向があります</li><li>・スタートアップを選ぶなら資金調達フェーズ（シリーズB以降など）を確認してリスクを抑えます</li></ul>
           </div>
         </section>
 
@@ -118,9 +118,9 @@ export default function StartupVsEnterprisePage() {
         {/* 結論ファースト */}
         <section className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：年収の額面ではなく「裁量・経験・安定性」の優先順位で選ぶ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">年収の額面ではなく「裁量・経験・安定性」の優先順位で選ぶ</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-2">
-              スタートアップと大企業は優劣ではなく相性です。<strong>裁量・0→1経験・成長スピードを求めるならスタートアップ、大規模システム経験・安定・福利厚生を求めるなら大企業</strong>が基本軸です。スタートアップの報酬はストックオプションを含むことがありますが、これは出口が実現して初めて価値になる不確実なものなため、基本給と分けて評価します。
+              スタートアップと大企業は優劣ではなく相性です。<strong>裁量・0→1経験・成長スピードを求めるならスタートアップ、大規模システム経験・安定・福利厚生を求めるなら大企業</strong>が基本軸です。スタートアップの報酬はストックオプションを含むことがありますが、これは出口が実現して初めて価値になる不確実なものであるため、基本給と分けて評価します。
             </p>
             <p className="text-sm text-blue-900 leading-relaxed">
               30代・40代では、ライフイベントとリスク許容度を踏まえ、スタートアップなら資金調達フェーズ（シリーズB以降など）を確認して選ぶと、リスクを抑えつつチャレンジできます。
@@ -234,8 +234,8 @@ export default function StartupVsEnterprisePage() {
                   "裁量を持って自分で意思決定したい",
                   "プロダクトの0→1を経験したい",
                   "成果がビジネスに直結する環境が好き",
-                  "収入変動のリスクを受け入れられます",
-                  "将来CTOや起業を視野に入れています",
+                  "収入変動のリスクを受け入れられる",
+                  "将来CTOや起業を視野に入れている",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-petrol">✓</span>{t}</li>
                 ))}
@@ -245,11 +245,11 @@ export default function StartupVsEnterprisePage() {
               <h3 className="font-bold text-green-800 mb-3">大企業向き</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
-                  "安定した収入と福利厚生を重視します",
+                  "安定した収入と福利厚生を重視する",
                   "大規模・高トラフィックなシステムを扱いたい",
                   "体系的な制度・研修を活用したい",
                   "住宅ローン等で社会的信用が必要",
-                  "ワークライフバランスを重視します",
+                  "ワークライフバランスを重視する",
                   "専門分野を腰を据えて深めたい",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-green-600">✓</span>{t}</li>
@@ -265,7 +265,7 @@ export default function StartupVsEnterprisePage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代前半：チャレンジしやすいタイミング</h3>
-              <p className="text-sm text-petrol-deep">学習意欲が高く家族の状況も比較的柔軟な時期です。スタートアップで0→1や裁量の大きい役割に挑戦しやすいです。仮にうまくいかなくても、エンジニアの需要は高く（経産省2019年公表の試算では2030年に最大約79万人不足）リカバリーの選択肢が多いです。</p>
+              <p className="text-sm text-petrol-deep">学習意欲が高く家族の状況も比較的柔軟な時期です。スタートアップで0→1や裁量の大きい役割に挑戦しやすくなります。仮にうまくいかなくても、エンジニアの需要は高く（経産省2019年公表の試算では2030年に最大約79万人不足）リカバリーの選択肢が多い傾向にあります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代後半：リスクとリターンの見極め</h3>
@@ -273,7 +273,7 @@ export default function StartupVsEnterprisePage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験を活かせるポジションで選ぶ</h3>
-              <p className="text-sm text-petrol-deep">スタートアップならCTO・VPoE・テックリード、大企業ならDX推進・アーキテクトなど、これまでの経験を最大限活かせる役割かが判断軸です。組織構築・技術戦略・メンタリングの実績を言語化しておくと選考で評価されやすいです。年収戦略は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収戦略</Link>も参照します。</p>
+              <p className="text-sm text-petrol-deep">スタートアップならCTO・VPoE・テックリード、大企業ならDX推進・アーキテクトなど、これまでの経験を最大限活かせる役割かが判断軸です。組織構築・技術戦略・メンタリングの実績を言語化しておくと選考で評価されやすい傾向があります。年収戦略は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収戦略</Link>も参照してください。</p>
             </div>
           </div>
         </section>

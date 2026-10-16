@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論サマリ（どんな人向けか）" },
+  { id: "summary", label: "要点（どんな人向けか）" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strength", label: "特徴・強み" },
   { id: "good", label: "良い評判の傾向" },
@@ -72,7 +72,7 @@ const badReviews = [
   {
     title: "マージン非公表で手取り感が読みにくい",
     body: "マージン（手数料）が非公表のため、提示単価のうちどれだけが自分の取り分かが事前に分かりづらいという不安の声が見られます。",
-    cope: "提示されるのは原則「自分が受け取る単価」であることが多いため、面談時に手取りベースの単価と契約形態（準委任／請負）を必ず確認します。マージンを公開するPE-BANKと比較すると相場感をつかみやすいです。",
+    cope: "提示されるのは原則「自分が受け取る単価」であることが多いため、面談時に手取りベースの単価と契約形態（準委任／請負）を必ず確認します。マージンを公開するPE-BANKと比較すると相場感をつかみやすくなります。",
   },
 ];
 
@@ -85,10 +85,10 @@ const fitYes = [
 ];
 
 const fitNo = [
-  "IT実務未経験・経験が浅く即戦力アピールが難しいです",
+  "IT実務未経験・経験が浅く即戦力アピールが難しい",
   "マージンが完全公開されたサービスで選びたい（→PE-BANK）",
   "収入の安定・正社員並み保障を最優先したい（→Midworks）",
-  "地方の常駐案件中心で探しています",
+  "地方の常駐案件中心で探している",
 ];
 
 const flow = [
@@ -205,17 +205,17 @@ export default function GeechsReview() {
           ]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：このような方におすすめ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">このような方におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：リモート中心＋福利厚生で、安心して独立したい経験者向けです</span>。要約すると「リモートで柔軟に働きつつ、独立後の不安も補いたいIT実務経験者」向けのフリーランスエージェントです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・リモート案件が8割以上という二次情報です。柔軟な働き方を選びやすいです。</li>
-              <li>・福利厚生『フリノベ』で健康診断・確定申告サポート等を補えます。上場企業運営の安心感です。</li>
-              <li>・一方で実務経験が前提・マージン非公表です。手取りは面談で確認、地方はPE-BANK併用が現実的です。</li>
+              <li>・リモート案件が8割以上とされています（二次情報）。柔軟な働き方を選びやすくなります。</li>
+              <li>・福利厚生『フリノベ』で健康診断・確定申告サポート等を補えます。上場企業が運営している点も特徴です。</li>
+              <li>・一方で、実務経験が前提となり、マージンは非公表です。手取りは面談で確認し、地方在住の場合はPE-BANKとの併用が現実的です。</li>
             </ul>
           </div>
         </section>
@@ -356,7 +356,7 @@ export default function GeechsReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              スキルが市場で評価されやすく、リモートで働きながら単価アップを狙える年代です。フリノベで確定申告・健康面の不安を補いつつ、最初の数案件は安全側に倒して実績を積むのが堅実です。独立に不安があれば、保障型のMidworksと比較して入口を選びましょう。
+              スキルが市場で評価されやすく、リモートで働きながら単価アップを狙える年代です。フリノベで確定申告・健康面の不安を補いつつ、最初の数案件は慎重に選んで実績を積むのが堅実です。独立に不安があれば、保障型のMidworksと比較して入口を選びましょう。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
@@ -421,7 +421,7 @@ export default function GeechsReview() {
         <section id="compare" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フリーランス各社の使い分け</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            フリーランスエージェントは「何を重視するか」で選ぶと失敗しにくいです。ギークスジョブは「リモート＋福利厚生」が強みで、単価最大化やマージン透明性を重視するなら他社との併用が有効です。
+            フリーランスエージェントは「何を重視するか」で選ぶと失敗しにくい傾向があります。ギークスジョブは「リモート＋福利厚生」が強みで、単価最大化やマージン透明性を重視するなら他社との併用が有効です。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">

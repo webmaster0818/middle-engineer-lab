@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Kafkaスキルの転職での活かし方" },
+  { id: "conclusion", label: "1. Kafkaスキルの転職での活かし方" },
   { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
-  { id: "career", label: "4. Kafkaスキルが効くキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "career", label: "4. Kafkaスキルを活かせるキャリアパス" },
+  { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
   { id: "entry", label: "6. 経験浅めからKafka実務に入るルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     q: "Kafkaスキルを活かす転職におすすめのエージェントは？",
-    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でデータ基盤・アーキテクト級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強いGeeklyの併用が選択肢です。Kafkaは求人母数が限られる希少領域のため、複数登録して保有求人を横断比較するのが現実的です。",
+    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でデータ基盤・アーキテクト級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強みを持つGeeklyの併用が選択肢です。Kafkaは求人母数が限られる希少領域のため、複数登録して保有求人を横断比較するのが現実的です。",
   },
 ];
 
@@ -137,15 +137,15 @@ export default function KafkaSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Kafkaスキルの転職での活かし方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Kafkaスキルの転職での活かし方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Kafkaは「これ単体で転職する」スキルではありませんが、大規模データ基盤を扱える希少人材としてデータ／バックエンド職の市場価値を大きく押し上げる実務基盤です。</strong>扱える人が少ないため、関連実務とセットで強い差別化になります。
+              <strong>Kafkaは「これ単体で転職する」スキルではありませんが、大規模データ基盤を扱える希少人材としてデータ／バックエンド職の市場価値を大きく押し上げる実務基盤です。</strong>扱える人が少ないため、関連実務とセットで大きな差別化要素になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Kafka単体の職種別年収は公表が乏しく、<strong>データベース約453万円・インフラ約475万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握します</li>
-              <li>・求人は「大規模データ基盤」「リアルタイムストリーミング」「イベント駆動アーキテクチャ」など高度な文脈が多いです</li>
-              <li>・Kafka＋データ基盤、＋マイクロサービスの掛け合わせで、希少性の高い高年収ポジションに手が届きます</li>
+              <li>・求人は「大規模データ基盤」「リアルタイムストリーミング」「イベント駆動アーキテクチャ」など高度な文脈が多い傾向にあります</li>
+              <li>・Kafka＋データ基盤、＋マイクロサービスの掛け合わせで、希少性の高い高年収ポジションに応募しやすくなります</li>
             </ul>
           </div>
         </section>
@@ -202,16 +202,16 @@ export default function KafkaSkillPage() {
 
         {/* キャリアパス */}
         <section id="career" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Kafkaスキルが効くキャリアパス</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Kafkaスキルを活かせるキャリアパス</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Kafkaは開発からデータ基盤・アーキテクト領域へ橋渡しするスキルです。掛け合わせる技術によって到達できるレンジが変わります。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "データエンジニア／データ基盤エンジニア", note: "Kafkaを中核にイベント収集・ストリーム処理・データ基盤を構築" },
+              { role: "データエンジニア／データ基盤エンジニア", note: "Kafkaを中核にイベント収集・ストリーム処理・データ基盤を構築します" },
               { role: "バックエンドアーキテクト", note: "イベント駆動・マイクロサービス間連携の設計を担います" },
               { role: "プラットフォーム／SREエンジニア", note: "Kafkaクラスタの可用性・スケール・監視を支えます" },
-              { role: "リアルタイム処理エンジニア", note: "ストリーム処理でリアルタイム分析・検知の仕組みを構築" },
+              { role: "リアルタイム処理エンジニア", note: "ストリーム処理でリアルタイム分析・検知の仕組みを構築します" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -226,7 +226,7 @@ export default function KafkaSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Kafkaは求人母数が限られる希少領域のため、特定の1社に絞るより複数のチャネルを横断するのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -246,7 +246,7 @@ export default function KafkaSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web・ゲーム業界特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。大規模データを扱うWeb系企業の求人を探したい場合の選択肢です。
               </p>
@@ -265,7 +265,7 @@ export default function KafkaSkillPage() {
             {[
               { num: "1", title: "開発／データ処理の経験を土台にする", desc: "バックエンド開発やバッチ・データ処理の経験があれば、それを土台に「イベント駆動・ストリーミングの設計に進める」ことを示せます。Kafkaは高度な文脈が多いため、関連実務との接続を語ることが重要です。" },
               { num: "2", title: "ローカル環境でProducer/Consumerを実装する", desc: "ローカルやコンテナでKafkaを立て、Producer/Consumerを実装し、トピック・パーティション・コンシューマグループの挙動を確かめます。配信保証やリバランスをどう扱ったかを語れる状態にしておくと評価につながります。" },
-              { num: "3", title: "データ基盤・プラットフォームのポテンシャル枠を狙う", desc: "データ基盤を構築・刷新する企業では、Kafka経験者の母数不足から入社後キャッチアップ前提の採用を行うことがあります。エージェントに「ストリーミング・データ基盤を伸ばしたい」と伝え、Kafkaを要件に含む求人を紹介してもらうのが近道です。" },
+              { num: "3", title: "データ基盤・プラットフォームのポテンシャル枠を狙う", desc: "データ基盤を構築・刷新する企業では、Kafka経験者の母数不足から入社後キャッチアップ前提の採用を行うことがあります。エージェントに「ストリーミング・データ基盤を伸ばしたい」と伝え、Kafkaを要件に含む求人を紹介してもらう方法が現実的です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -285,13 +285,13 @@ export default function KafkaSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>希少スキルは年齢の不利を相殺しやすいです。</strong>Kafkaのように扱える人が少ない領域では、「若くて安い人材」ではなく「大規模データ基盤を設計できる希少人材」が求められます。30代・40代でシステム設計の経験を積んでいるなら、その設計力こそが強みになります。
+              <strong>希少スキルは年齢の不利を相殺しやすくなります。</strong>Kafkaのように扱える人が少ない領域では、「若くて安い人材」ではなく「大規模データ基盤を設計できる希少人材」が求められます。30代・40代でシステム設計の経験を積んでいるなら、その設計力こそが強みになります。
             </p>
             <p>
               <strong>アーキテクチャの判断力が評価されます。</strong>「なぜイベント駆動にするか」「どこにKafkaを置くか」という設計判断は、実プロジェクトの経験から生まれます。同期・非同期のトレードオフや障害時の挙動まで語れると、ミドル層ならではの説得力が出ます。
             </p>
             <p>
-              <strong>ドメイン知識との掛け合わせが強いです。</strong>金融の取引イベント、物流の在庫イベント、広告の配信ログなど、これまでのドメイン知識を大規模イベント処理の設計に結びつけて語れると、希少性がさらに高まります。
+              <strong>ドメイン知識との掛け合わせが強みになります。</strong>金融の取引イベント、物流の在庫イベント、広告の配信ログなど、これまでのドメイン知識を大規模イベント処理の設計に結びつけて語れると、希少性がさらに高まります。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -304,7 +304,7 @@ export default function KafkaSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 基本概念を手を動かして理解します。</strong>トピック・パーティション・オフセット・コンシューマグループといった概念は、実際にProducer/Consumerを動かすと腹落ちします。<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>でローカルにKafkaを立てると学習を始めやすいです。
+              <strong>① 基本概念を手を動かして理解します。</strong>トピック・パーティション・オフセット・コンシューマグループといった概念は、実際にProducer/Consumerを動かすと理解しやすくなります。<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>でローカルにKafkaを立てると学習を始めやすくなります。
             </p>
             <p>
               <strong>② 配信保証とデータ設計を押さえます。</strong>at-least-once／exactly-onceの違い、リバランス、スキーマ管理など、本番で問われる論点を理解します。データの<Link href="/skill/sql/" className="text-petrol hover:underline">データベース</Link>側との連携（CDCでのデータ取り込みなど）も合わせて学ぶと実務に近づきます。
@@ -338,7 +338,7 @@ export default function KafkaSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Kafkaスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Kafkaは求人母数が限られる希少領域だからこそ、複数のIT特化型エージェントで保有求人を横断比較するのが近道です。
+            Kafkaは求人母数が限られる希少領域だからこそ、複数のIT特化型エージェントで保有求人を横断比較するのが効率的です。
           </p>
           <Link
             href="/#ranking"

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：AI業界への転職は現実的か" },
+  { id: "conclusion", label: "AI業界への転職は現実的か" },
   { id: "trend", label: "AI業界の概要・採用動向" },
   { id: "skill-gap", label: "活かせるスキルと埋めるべきギャップ" },
   { id: "patterns", label: "転職パターン（職種×企業タイプ）" },
@@ -28,25 +28,25 @@ const toc = [
 ];
 
 const skillGap = [
-  ["Pythonでの開発・データ処理経験", "そのまま強みになります", "機械学習・生成AIの実装はPython中心。データ処理やパイプライン構築の経験が活きる"],
-  ["バックエンド・API・クラウドの実務", "そのまま強みになります", "モデルを本番運用するMLOpsやLLMアプリ開発では、堅実なエンジニアリング力が問われます"],
-  ["データ分析・統計の素地", "部分的に活かせます", "SQLや統計の理解は前処理・評価で活きますが、最新のモデルや手法は別途学習が必要です"],
-  ["機械学習・深層学習の理論と実装", "埋めるべきギャップ", "学習・評価・チューニングの体系的理解。研究寄りの職種ほど深く問われやすい"],
+  ["Pythonでの開発・データ処理経験", "そのまま強み", "機械学習・生成AIの実装はPythonが中心です。データ処理やパイプライン構築の経験が活きます"],
+  ["バックエンド・API・クラウドの実務", "そのまま強み", "モデルを本番運用するMLOpsやLLMアプリ開発では、堅実なエンジニアリング力が問われます"],
+  ["データ分析・統計の素地", "部分的に活用可能", "SQLや統計の理解は前処理・評価で活きますが、最新のモデルや手法は別途学習が必要です"],
+  ["機械学習・深層学習の理論と実装", "埋めるべきギャップ", "学習・評価・チューニングの体系的な理解が必要です。研究寄りの職種ほど深く問われやすい傾向があります"],
   ["生成AI（LLM）の応用設計", "埋めるべきギャップ", "RAG・プロンプト設計・評価・ガードレールなどLLMアプリ特有の設計知見が問われます"],
 ];
 
 const patterns = [
-  ["機械学習エンジニア", "AI開発企業・事業会社のAI部門", "モデルの開発・運用。Python＋ML理論。データ処理経験から踏み込む代表的なルート"],
-  ["LLM・生成AIアプリエンジニア", "AIスタートアップ・SaaS", "RAGやエージェントなどLLM応用の実装。Web/バックエンド経験者が参入しやすい"],
-  ["MLOps・AIプラットフォーム", "成長期のAI企業・大手", "学習基盤・推論基盤・パイプライン構築。インフラ/クラウド経験が活きる"],
-  ["データサイエンティスト", "事業会社・コンサル・AI企業", "課題定義から分析・モデリングまでを担います。統計・分析の素地がある人に向く"],
+  ["機械学習エンジニア", "AI開発企業・事業会社のAI部門", "モデルの開発・運用を担います。PythonとML理論が求められ、データ処理の経験から踏み込む代表的なルートです"],
+  ["LLM・生成AIアプリエンジニア", "AIスタートアップ・SaaS", "RAGやエージェントなどLLM応用の実装を担います。Web/バックエンド経験者が参入しやすい傾向があります"],
+  ["MLOps・AIプラットフォーム", "成長期のAI企業・大手", "学習基盤・推論基盤・パイプラインを構築します。インフラ/クラウドの経験が活きます"],
+  ["データサイエンティスト", "事業会社・コンサル・AI企業", "課題定義から分析・モデリングまでを担います。統計・分析の素地がある人に向いています"],
 ];
 
 const companyTypes = [
-  ["AI開発・研究志向の企業", "独自モデルや研究開発に強みを持ちます。高度な理論と実装力が問われる", "研究寄りに深く取り組みたい人"],
-  ["AIプロダクト・SaaS企業", "AIを組み込んだプロダクトを提供しています。実装力とプロダクト志向の両立が求められる", "プロダクトでAIを活かしたい人"],
-  ["生成AI活用のスタートアップ", "LLMを使ったアプリやエージェントを開発します。スピードと裁量が魅力", "新しい領域に挑戦したい人"],
-  ["事業会社のAI・DX部門", "自社業務にAIを適用します。ドメイン知識とAIの掛け合わせが活きる", "業務課題をAIで解きたい人"],
+  ["AI開発・研究志向の企業", "独自モデルや研究開発に強みを持ちます。高度な理論と実装力が問われます", "研究寄りに深く取り組みたい人"],
+  ["AIプロダクト・SaaS企業", "AIを組み込んだプロダクトを提供しています。実装力とプロダクト志向の両立が求められます", "プロダクトでAIを活かしたい人"],
+  ["生成AI活用のスタートアップ", "LLMを使ったアプリやエージェントを開発します。開発スピードが速く、裁量が大きい傾向があります", "新しい領域に挑戦したい人"],
+  ["事業会社のAI・DX部門", "自社業務にAIを適用します。ドメイン知識とAIの掛け合わせが活きます", "業務課題をAIで解きたい人"],
 ];
 
 const faqs = [
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: "生成AI（LLM）領域はどんなスキルが求められますか？",
-    a: "求人傾向としてはPython、API・バックエンド開発、クラウド、そしてRAG・プロンプト設計・評価・ガードレールといったLLMアプリ特有の設計知見が問われやすいです。出力の品質評価や安全性への配慮も重要になります。具体的な要件は企業ごとに異なるため、求人票で確認してください。詳しくは生成AIスキルのガイドも参考にしてください。",
+    a: "求人傾向としてはPython、API・バックエンド開発、クラウド、そしてRAG・プロンプト設計・評価・ガードレールといったLLMアプリ特有の設計知見が問われやすい傾向があります。出力の品質評価や安全性への配慮も重要になります。具体的な要件は企業ごとに異なるため、求人票で確認してください。詳しくは生成AIスキルのガイドも参考にしてください。",
   },
   {
     q: "AI業界への転職で年収はどう変わりますか？",
@@ -152,20 +152,20 @@ export default function AiIndustryPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AI業界への転職は現実的か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">AI業界への転職は現実的か</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <span className="font-bold text-blue-800">結論：ソフトウェア開発の経験を持つエンジニアにとって、AI転職は以前より現実的になっています。</span>
+              <span className="font-bold text-blue-800">ソフトウェア開発の経験を持つエンジニアにとって、AI転職は以前より現実的になっています。</span>
               生成AIの普及で、研究者でなくてもAIを「使って作る」職種が増えたためです。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Python・API・クラウドの実務はLLMアプリ開発やMLOpsで活きます</li>
               <li>・一方で機械学習の理論やLLM応用設計は職種により深く問われます</li>
-              <li>・30代は専門知識の習得、40代は業務適用とマネジメントを強みにしやすいです</li>
+              <li>・30代は専門知識の習得、40代は業務適用とマネジメントを強みにしやすくなります</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            まずは「研究寄りか応用寄りか」「どの領域（ML・LLMアプリ・MLOps・分析）で活きるか」を見極め、不足する知識を補う計画を立てるのが近道です。
+            まずは「研究寄りか応用寄りか」「どの領域（ML・LLMアプリ・MLOps・分析）で活きるか」を見極め、不足する知識を補う計画を立てると、効率よく準備を進められます。
           </p>
         </section>
 
@@ -183,7 +183,7 @@ export default function AiIndustryPage() {
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という追い風</h3>
+              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という背景</h3>
               <p className="text-sm text-slate-600">
                 経済産業省「IT人材需給に関する調査」（2019年公表）では、2030年に最大約79万人のIT人材不足が試算されています（2019年公表の試算）。AIのように専門性が問われる人材は、こうした需給環境のなかで相対的に動きやすい立場にあります。
               </p>
@@ -349,7 +349,7 @@ export default function AiIndustryPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">30代：エンジニアリング＋AIの二刀流を作る</h3>
+              <h3 className="font-bold text-blue-800 mb-2">30代：エンジニアリングとAIの両方の専門性を身につける</h3>
               <p className="text-sm text-petrol-deep">
                 開発力に加えて機械学習や生成AIの知識を積めると、純粋な実装者にも純粋な研究者にも代えがたい価値になります。AIの専門知識の習得に投資する価値が最も高い年代です。
               </p>
@@ -361,7 +361,7 @@ export default function AiIndustryPage() {
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
+              <h3 className="font-bold text-blue-800 mb-2">ミドル層は「希少性」で差別化する</h3>
               <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新研究だけを競うのではなく、開発力や業務理解×AIという希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/generative-ai-era/" className="text-petrol-deep underline">生成AI時代のエンジニアキャリア</Link>
@@ -379,9 +379,9 @@ export default function AiIndustryPage() {
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や管理職ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。AI企業から事業会社のAI部門まで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあるため、ミドル層は経歴を丁寧に伝えることが大切です。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人や管理職ポジションを狙う際の選択肢になります。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数を持つサービスです。AI企業から事業会社のAI部門まで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -409,7 +409,7 @@ export default function AiIndustryPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">開発の経験をAI・生成AIで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">開発の経験をAI・生成AI領域で活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>

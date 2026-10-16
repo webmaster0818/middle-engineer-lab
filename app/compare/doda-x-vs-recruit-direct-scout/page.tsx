@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どちらがおすすめか" },
+  { id: "conclusion", label: "どちらがおすすめか" },
   { id: "naming", label: "用語整理：dodaXとリクルートダイレクトスカウトとは" },
   { id: "basic", label: "基本データ比較表（2026年6月時点）" },
   { id: "form", label: "違い①：応募形態（自己応募の可否）" },
@@ -31,35 +31,35 @@ const toc = [
 const comparison = [
   { item: "サービス形態", a: "ハイクラススカウト型『エージェント』（担当による紹介＋自己応募も可能）", b: "ハイクラススカウト型『サイト』（基本はスカウト経由の応募・AI活用）" },
   { item: "運営", a: "パーソルキャリア株式会社（旧iX転職・2022年10月にdoda Xへ改称）", b: "リクルート系（正式運営会社名は要確認）" },
-  { item: "応募の動き方", a: "ヘッドハンターからの紹介に加え、自分でも求人に応募できます", b: "登録して待ち、届いたスカウトに応募するのが基本" },
+  { item: "応募の動き方", a: "ヘッドハンターからの紹介に加え、自分でも求人に応募可能", b: "登録して待ち、届いたスカウトに応募するのが基本" },
   { item: "規模", a: "公開求人 106,491件・年収800万以上 95,069件・1,000万以上 50,902件（二次2026年5月）・ヘッドハンター約7,300人（2025年4月）", b: "公開求人 約59.3万件・年収800万以上 約34.7万件（二次2026年2月）・毎月約2万人新規登録" },
-  { item: "得意領域", a: "IT/Web・メーカー・営業に強いです", b: "メーカー・コンサル・商社に強いです" },
+  { item: "得意領域", a: "IT/Web・メーカー・営業に強み", b: "メーカー・コンサル・商社に強み" },
   { item: "年収帯", a: "年収800〜1,000万円超のハイクラス全業種。再利用意向89.8%（二次）", b: "年収600〜2,000万のミドル〜ハイクラス。転職後平均年収950万（二次）" },
   { item: "料金", a: "完全無料", b: "完全無料" },
-  { item: "IT特化", a: "IT特化ではありません（IT/Webにも強い全業種ハイクラス）", b: "IT特化ではありません（全業種のハイクラス）" },
+  { item: "IT特化", a: "非IT特化（IT/Webにも強い全業種ハイクラス）", b: "非IT特化（全業種のハイクラス）" },
 ];
 
 const faqs = [
   { q: "dodaXとリクルートダイレクトスカウトの最大の違いは何ですか？", a: "応募の動き方が違います。dodaXはハイクラススカウト型の『エージェント』で、ヘッドハンターからの紹介に加えて自分でも求人に応募できます。リクルートダイレクトスカウトはハイクラススカウト型の『サイト』で、登録して待ち、届いたスカウトに応募するのが基本です。自分でも能動的に動きたいならdodaX、手間をかけず待ちたいならリクルートダイレクトスカウトが向きます。どちらも完全無料です。" },
   { q: "dodaXは、dodaやdoda ITと同じサービスですか？", a: "いずれも別サービスです。dodaXはハイクラススカウト型（旧iX転職・2022年10月にdoda Xへ改称）で、ヘッドハンターや企業からスカウトが届き、自己応募もできます。dodaのIT特化エージェント（doda IT）は担当が伴走するエージェント型、総合転職サービスのdodaはまた別の枠組みです。dodaブランドで混同しやすいので、ハイクラススカウト＋自己応募がdodaX、IT特化の伴走がdoda IT、と区別してください。" },
   { q: "リクルートダイレクトスカウトはリクルートエージェントと同じですか？", a: "別物です。リクルートダイレクトスカウトはスカウトを『待つ』ハイクラススカウト型サービスです。リクルートエージェントは担当が求人を『提案する』エージェント型です。名前は似ていますが仕組みが異なるため、混同にご注意ください。" },
-  { q: "ITエンジニアにはどちらが向いていますか？", a: "IT/Web領域に強いのはdodaXです。dodaXはIT/Web・メーカー・営業を得意とし、エンジニアのハイクラス求人も扱います。リクルートダイレクトスカウトはメーカー・コンサル・商社に強く、求人量自体は豊富です。IT/Web中心に上方転職を狙うならdodaX、幅広い業種から量を当たるならリクルートダイレクトスカウト、と使い分けるとよいでしょう。ただしどちらもIT特化サービスではありません。" },
+  { q: "ITエンジニアにはどちらが向いていますか？", a: "IT/Web領域に強いのはdodaXです。dodaXはIT/Web・メーカー・営業を得意とし、エンジニアのハイクラス求人も扱います。リクルートダイレクトスカウトはメーカー・コンサル・商社に強く、求人量自体は豊富です。IT/Web中心に上方転職を狙うならdodaX、幅広い業種から多くの求人に当たるならリクルートダイレクトスカウト、と使い分けるとよいでしょう。ただしどちらもIT特化サービスではありません。" },
   { q: "どちらも完全無料ですか？", a: "はい、dodaXもリクルートダイレクトスカウトも求職者は完全無料です。追加費用なしで利用できるため、まず両方登録して、届くスカウトの質・量や自己応募できる求人を比較するのが効率的です。" },
-  { q: "30代・40代のエンジニアにはどちらが向いていますか？", a: "どちらも有効です。dodaXは再利用意向89.8%（二次）と満足度が高く、IT/Webに強いため、年収700万円超を狙う40代のマネージャー層や、自分でも応募して主体的に動きたい30代と相性が良い傾向です。リクルートダイレクトスカウトは完全無料・待ち型で求人量が豊富なため、手間をかけず相場を測りたい層に向きます。両方登録して比較するのが合理的です。" },
+  { q: "30代・40代のエンジニアにはどちらが向いていますか？", a: "どちらも有効です。dodaXは再利用意向89.8%（二次）と満足度が高く、IT/Webに強いため、年収700万円超を狙う40代のマネージャー層や、自分でも応募して主体的に動きたい30代と相性が良い傾向があります。リクルートダイレクトスカウトは完全無料・待ち型で求人量が豊富なため、手間をかけず相場を測りたい層に向きます。両方登録して比較するのが合理的です。" },
 ];
 
 const goodDodaX = [
   "ヘッドハンター紹介だけでなく、自分でも応募したい",
-  "IT/Web・メーカー・営業領域で上方転職を狙います",
-  "年収800万円以上のハイクラスを目指します",
+  "IT/Web・メーカー・営業領域で上方転職を狙っている",
+  "年収800万円以上のハイクラスを目指している",
   "満足度・再利用意向の高いサービスを使いたい",
   "主体的に動きたい30代・年収700万超の40代",
 ];
 const goodRDS = [
-  "完全無料・手間をかけず待ちのスタイルが良いです",
-  "メーカー・コンサル・商社も視野にあります",
+  "完全無料で、手間をかけない待ちのスタイルを希望している",
+  "メーカー・コンサル・商社も視野に入れている",
   "とにかく多くの求人・スカウトに当たりたい",
-  "年収600〜2,000万のミドル〜ハイクラスを狙います",
+  "年収600〜2,000万のミドル〜ハイクラスを狙っている",
   "まず相場を測りたい",
 ];
 
@@ -90,7 +90,7 @@ export default function DodaXVsRdsPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">どちらがおすすめか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
@@ -134,13 +134,13 @@ export default function DodaXVsRdsPage() {
         <section id="field" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">違い②：得意領域・職種</h2>
           <p className="text-slate-600 leading-relaxed mb-4">dodaXはIT/Web・メーカー・営業に強みがあります。ITエンジニアのハイクラス求人も扱うため、IT/Web領域で年収を上げたいエンジニアにとって相性が良いサービスです。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">リクルートダイレクトスカウトはメーカー・コンサル・商社に強く、求人量自体が豊富（公開約59.3万件・二次2026年2月）です。IT以外の業種も視野に入れて幅広く当たりたい場合に向きます。IT/Web中心ならdodaX、業種を広く見るならリクルートダイレクトスカウト、という棲み分けです。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">リクルートダイレクトスカウトはメーカー・コンサル・商社に強く、求人量自体が豊富（公開約59.3万件・二次2026年2月）です。IT以外の業種も視野に入れて幅広く当たりたい場合に向きます。IT/Web中心ならdodaX、業種を広く見るならリクルートダイレクトスカウト、という使い分けになります。</p>
         </section>
 
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">違い③：年収帯・求人ボリューム</h2>
           <p className="text-slate-600 leading-relaxed mb-4">dodaXは年収800万円以上の求人が95,069件、1,000万円以上が50,902件（いずれも二次2026年5月）と、ハイクラス帯の比率の高さが際立ちます。公開求人106,491件のうち高年収帯が厚く、再利用意向89.8%（二次）という満足度の高さも特徴です。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">リクルートダイレクトスカウトは公開求人約59.3万件と量が圧倒的で、年収800万円以上が約34.7万件（二次2026年2月）、転職後の平均年収は950万円（二次）とされています。年収600〜2,000万円のミドル〜ハイクラスを幅広くカバーします。高年収帯の比率ならdodaX、総量で当たるならリクルートダイレクトスカウト、という違いです。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">リクルートダイレクトスカウトは公開求人約59.3万件と量が非常に多く、年収800万円以上が約34.7万件（二次2026年2月）、転職後の平均年収は950万円（二次）とされています。年収600〜2,000万円のミドル〜ハイクラスを幅広くカバーします。高年収帯の比率ならdodaX、総量で当たるならリクルートダイレクトスカウト、という違いです。</p>
         </section>
 
         <section id="it" className="mb-12 scroll-mt-20">
@@ -158,17 +158,17 @@ export default function DodaXVsRdsPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">dodaXの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>年収800万円以上の比率が高いです</li><li>ヘッドハンターの質が良いです</li><li>自分でも応募できて動きやすいです</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>年収800万円以上の比率が高い傾向</li><li>ヘッドハンターの質が良いとの声</li><li>自分でも応募できる動きやすさ</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>ハイクラス未満には物足りません</li><li>IT特化ではありません</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが届かない場合あり</li><li>ハイクラス未満の層には物足りないとの声</li><li>IT特化ではない点</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：みん評／各転職メディア集計</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートダイレクトスカウトの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>完全無料で使える</li><li>高年収・非公開求人が多い</li><li>求人量が豊富</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>完全無料で利用可能</li><li>高年収・非公開求人が多い傾向</li><li>求人量が豊富</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>ヘッドハンターの質にばらつき</li><li>現職バレが不安という声があります</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが届かない場合あり</li><li>ヘッドハンターの質にばらつき</li><li>現職に知られることへの不安の声</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：みん評／各転職メディア集計</p>
             </div>
           </div>
@@ -194,7 +194,7 @@ export default function DodaXVsRdsPage() {
             <div className="space-y-4">
               {[
                 { num: "1", title: "dodaXで主体的に動く", desc: "IT/Web・メーカー領域でヘッドハンター紹介を受けつつ、気になる求人には自分でも応募します。高年収帯の比率の高さを活かして上方転職を狙います。" },
-                { num: "2", title: "リクルートダイレクトスカウトで量を当たる", desc: "完全無料・待ち型で求人量が豊富です。レジュメを登録して、メーカー・コンサル・商社も含む幅広いスカウトを受け取ります。" },
+                { num: "2", title: "リクルートダイレクトスカウトで多くの求人に当たる", desc: "完全無料・待ち型で求人量が豊富です。レジュメを登録して、メーカー・コンサル・商社も含む幅広いスカウトを受け取ります。" },
                 { num: "3", title: "併用で比較（推奨）", desc: "両方のスカウト・自己応募求人を比較し、年収レンジや本気度を見極めます。IT専門の提案が必要ならIT特化サービスを追加します。どちらも無料なので併用にコストはかかりません。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
@@ -211,7 +211,7 @@ export default function DodaXVsRdsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだ30代・40代の市場価値は高く、ハイクラススカウト型は「年収レンジを一段上げる」用途で力を発揮します。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>主体的に動きたい時期です。dodaXは自己応募もできるため、ヘッドハンター任せにせず自分のペースで上方転職を進められます。IT/Webに強い点もエンジニアに有利です。レバテック公表の年代別平均年収（2025年）では30代のSEは約499万円が一つの目安で、ハイクラス型で上限を知っておくと交渉に役立ちます。完全無料のリクルートダイレクトスカウトを併用すれば、業種の幅も広げられます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>dodaXは再利用意向89.8%（二次）と満足度が高く、年収800万円以上の比率が厚いため、年収700万円超のマネージャー層の上方転職に向きます。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。両サービスともIT特化ではないため、技術理解の深い提案が欲しい場面ではIT特化サービスを併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>dodaXは再利用意向89.8%（二次）と満足度が高く、年収800万円以上の比率が高いため、年収700万円超のマネージャー層の上方転職に向きます。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、高い年収帯を目指せる層です。両サービスともIT特化ではないため、技術理解の深い提案が欲しい場面ではIT特化サービスを併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
         </section>
 
         <BusySeasonNote />
@@ -230,7 +230,7 @@ export default function DodaXVsRdsPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">動きたいか、待ちたいか</h2>
-          <p className="text-blue-100 text-sm mb-4">自分でも応募して主体的に動くならdodaX、完全無料で待ちたいならリクルートダイレクトスカウトです。どちらも無料なので併用で比較するのが30代・40代に合理的です。</p>
+          <p className="text-blue-100 text-sm mb-4">自分でも応募して主体的に動くならdodaX、完全無料で待ちたいならリクルートダイレクトスカウトが適しています。どちらも無料なので併用で比較するのが30代・40代に合理的です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 

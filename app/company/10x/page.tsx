@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（フルDart・公式確認範囲）" },
@@ -33,18 +33,18 @@ const basicData: [string, string][] = [
   ["事業内容", "ネットスーパー／ネットドラッグストアのプラットフォーム「Stailer」の開発・提供（EC／SCM領域）"],
   ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しません（集計値も公式値ではない参考値）"],
   ["技術スタック", "フルDart（クライアントはFlutter／サーバーも100% Dart）／GCP（GKE）／Firebase・Firestore／gRPC／Elasticsearch／Datadog＋PagerDuty"],
-  ["特徴", "クライアントからサーバーまでDartで統一する珍しい構成。Flutter未経験からの採用事例もあり"],
+  ["特徴", "クライアントからサーバーまでDartで統一する珍しい構成。Flutter未経験からの採用事例あり"],
 ];
 
 const faqs = [
-  { q: "10Xはエンジニアの中途採用を行っている？", a: "はい。10Xは公式採用ページ・技術発信（Product Blog）でソフトウェアエンジニアを継続的に募集しています。ネットスーパー／ネットドラッグストアのプラットフォーム「Stailer」の開発を担うポジションが中心です。募集職種は時期により変動するため、最新は公式採用ページをご確認ください。" },
-  { q: "10Xの平均年収はいくら？", a: "10Xは非上場企業のため、有価証券報告書による全社員平均年収は公開されていません。集計サイトの数値も公式値ではない参考値です。正確な提示額は職種・等級・スキルにより幅があるため、応募・面談で確認するのが確実です。当ガイドでは創作した等級別年収表は掲載していません。" },
-  { q: "10Xの技術スタックは？フルDartとはどういうこと？", a: "公式のProduct Blogによると、10Xはクライアント（モバイルアプリ）をFlutterで開発するだけでなく、サーバーサイドも100% Dartで構築している珍しい「フルDart」の構成です。インフラはGCP（GKE）、Firebase・Firestore、サービス間通信にgRPC、検索にElasticsearch、監視にDatadog＋PagerDutyを利用しています。言語をDartに統一することでクライアント／サーバー間のコード共有や認知コスト低減を図っています。" },
-  { q: "10Xの選考フローは？", a: "10Xは選考フローの詳細を固定で公式公開しているわけではありません。一般的にスタートアップでは書類選考・カジュアル面談・複数回の面接・課題などで構成されますが、職種・時期により異なります。当ガイドでは公開されていない具体的な選考ステップや面接質問の断定は避けています。最新は公式採用ページ・面談でご確認ください。" },
-  { q: "Flutter／Dartの実務経験がないと10Xには転職できない？", a: "10XはFlutter未経験からの採用事例もあるとされています。サーバーサイドも含めDartに統一されているため、他言語でのバックエンド・モバイル開発の実務経験があれば、Dart／Flutterは入社後にキャッチアップする前提のポジションもあると考えられます。具体的な必須要件は各募集要項で確認してください。" },
-  { q: "30代・40代でも10Xに転職できる？", a: "10XはEC／SCMという業務ドメインの理解と、堅牢なシステムを設計・運用する力が問われる領域です。Flutter／Dartの経験があれば直接活き、なくても他言語でのバックエンド・モバイル開発やGCP／Kubernetesの運用経験を持つミドルには親和性があります。年代別の公式データはありませんが、即戦力性が評価される土俵です。" },
-  { q: "Stailerとはどんなプロダクト？", a: "Stailerは、小売事業者がネットスーパー／ネットドラッグストアを立ち上げ・運営するためのプラットフォームです。ECのフロントだけでなく、在庫・物流・店舗オペレーション（SCM）まで関わる複雑なドメインで、堅牢性とスケーラビリティが求められる技術的チャレンジがあります（出典：10X公式）。" },
-  { q: "10Xの働き方・リモートワークは？", a: "10Xはプロダクト開発を行うスタートアップで、リモートを活用した柔軟な働き方を取り入れているとされますが、職種・チームにより方針が異なります。可否・頻度は募集要項・面談で確認するのが確実です。当ガイドでは公式に確認できない勤務条件の断定は避けています。" },
+  { q: "10Xはエンジニアの中途採用を行っていますか？", a: "はい。10Xは公式採用ページ・技術発信（Product Blog）でソフトウェアエンジニアを継続的に募集しています。ネットスーパー／ネットドラッグストアのプラットフォーム「Stailer」の開発を担うポジションが中心です。募集職種は時期により変動するため、最新は公式採用ページをご確認ください。" },
+  { q: "10Xの平均年収はいくらですか？", a: "10Xは非上場企業のため、有価証券報告書による全社員平均年収は公開されていません。集計サイトの数値も公式値ではない参考値です。正確な提示額は職種・等級・スキルにより幅があるため、応募・面談で確認するのが確実です。当ガイドでは創作した等級別年収表は掲載していません。" },
+  { q: "10Xの技術スタックは？フルDartとはどういうことですか？", a: "公式のProduct Blogによると、10Xはクライアント（モバイルアプリ）をFlutterで開発するだけでなく、サーバーサイドも100% Dartで構築している珍しい「フルDart」の構成です。インフラはGCP（GKE）、Firebase・Firestore、サービス間通信にgRPC、検索にElasticsearch、監視にDatadog＋PagerDutyを利用しています。言語をDartに統一することでクライアント／サーバー間のコード共有や認知コスト低減を図っています。" },
+  { q: "10Xの選考フローを教えてください。", a: "10Xは選考フローの詳細を固定で公式公開しているわけではありません。一般的にスタートアップでは書類選考・カジュアル面談・複数回の面接・課題などで構成されますが、職種・時期により異なります。当ガイドでは公開されていない具体的な選考ステップや面接質問の断定は避けています。最新は公式採用ページ・面談でご確認ください。" },
+  { q: "Flutter／Dartの実務経験がないと10Xには転職できませんか？", a: "10XはFlutter未経験からの採用事例もあるとされています。サーバーサイドも含めDartに統一されているため、他言語でのバックエンド・モバイル開発の実務経験があれば、Dart／Flutterは入社後にキャッチアップする前提のポジションもあると考えられます。具体的な必須要件は各募集要項で確認してください。" },
+  { q: "30代・40代でも10Xに転職できますか？", a: "10XはEC／SCMという業務ドメインの理解と、堅牢なシステムを設計・運用する力が問われる領域です。Flutter／Dartの経験があれば直接活き、なくても他言語でのバックエンド・モバイル開発やGCP／Kubernetesの運用経験を持つミドルには親和性があります。年代別の公式データはありませんが、即戦力性が評価される環境です。" },
+  { q: "Stailerとはどのようなプロダクトですか？", a: "Stailerは、小売事業者がネットスーパー／ネットドラッグストアを立ち上げ・運営するためのプラットフォームです。ECのフロントだけでなく、在庫・物流・店舗オペレーション（SCM）まで関わる複雑なドメインで、堅牢性とスケーラビリティが求められる技術的チャレンジがあります（出典：10X公式）。" },
+  { q: "10Xの働き方・リモートワークについて教えてください。", a: "10Xはプロダクト開発を行うスタートアップで、リモートを活用した柔軟な働き方を取り入れているとされますが、職種・チームにより方針が異なります。可否・頻度は募集要項・面談で確認するのが確実です。当ガイドでは公式に確認できない勤務条件の断定は避けています。" },
 ];
 
 export default function TenXCompanyPage() {
@@ -66,14 +66,14 @@ export default function TenXCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】10X（テンエックス）の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社10Xは非上場のため、有価証券報告書による全社員平均年収は公表されていません。集計サイトの数値も公式値ではない参考値です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場ゆえ公式の平均年収は存在せず（有価証券報告書なし）、集計サイトの値も公式値ではない参考値です。</li><li>・当ガイドでは創作した等級別年収表は掲載していません。提示額は職種・等級・スキルにより幅があります。</li><li>・フルDartという希少スキルは中長期の市場価値につながり得ます。正確な提示額は応募・面談でご確認ください。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社10Xは非上場のため、有価証券報告書による全社員平均年収は公表されていません。集計サイトの数値も公式値ではない参考値です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場のため公式の平均年収は存在せず（有価証券報告書なし）、集計サイトの値も公式値ではない参考値です。</li><li>・当ガイドでは創作した等級別年収表は掲載していません。提示額は職種・等級・スキルにより幅があります。</li><li>・フルDartという希少スキルは中長期の市場価値につながり得ます。正確な提示額は応募・面談でご確認ください。</li></ul>
         </div>
 
-        <DataNote surveyedAt="2026年6月" sources={["10X 公式採用サイト", "10X Product Blog（技術発信）", "集計サイトの年収参考値（公式値ではない）", "OpenWork（口コミ傾向）"]} />
+        <DataNote surveyedAt="2026年6月" sources={["10X 公式採用サイト", "10X Product Blog（技術発信）", "集計サイトの年収参考値（非公式の参考値）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高め（フルDart・EC/SCMドメインの即戦力志向）</p>
             <ul className="space-y-2 text-sm text-blue-900">
@@ -109,7 +109,7 @@ export default function TenXCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ネットスーパーDXのプラットフォーム「Stailer」</h3><p className="text-sm text-petrol-deep">10Xは2017年設立で、小売事業者がネットスーパー／ネットドラッグストアを立ち上げ・運営できるプラットフォーム「Stailer」を提供しています。ECのフロントに留まらず、在庫・物流・店舗オペレーション（SCM）まで関わる複雑で社会的意義の大きいドメインが特徴です。</p></div>
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">クライアントからサーバーまでフルDart</h3><p className="text-sm text-petrol-deep">10X最大の特徴は、クライアント（モバイルアプリ）をFlutterで開発するだけでなく、サーバーサイドも100% Dartで構築している点です。言語を統一することでコード共有・認知コスト低減・チーム間の流動性を高める狙いがあり、業界的にも珍しい技術選定として知られています。</p></div>
-            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">Flutter未経験からの採用事例も</h3><p className="text-sm text-petrol-deep">10XではFlutter／Dart未経験から入社した事例もあるとされています。言語そのものよりも、複雑なドメインを設計する力・他言語での実務経験・学習意欲が重視される傾向があり、Dart縛りが必ずしも参入障壁にならない点はミドルにとって重要です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">Flutter未経験からの採用事例も</h3><p className="text-sm text-petrol-deep">10XではFlutter／Dart未経験から入社した事例もあるとされています。言語そのものよりも、複雑なドメインを設計する力・他言語での実務経験・学習意欲が重視される傾向があり、Dartへの統一が必ずしも参入障壁にならない点はミドルにとって重要です。</p></div>
           </div>
         </section>
 
@@ -119,7 +119,7 @@ export default function TenXCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クライアント</strong>：Flutter（Dart）でのモバイルアプリ開発</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>サーバー</strong>：100% Dartです。クライアントとサーバーを同一言語で統一</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>サーバー</strong>：100% Dart（クライアントとサーバーを同一言語で統一）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：GCP（GKE＝Google Kubernetes Engine）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ</strong>：Firebase／Firestore、検索にElasticsearch</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>通信</strong>：gRPC によるサービス間通信</span></li>
@@ -137,7 +137,7 @@ export default function TenXCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-2">
             10Xは職種別・等級別の年収レンジを固定で公式開示しているわけではなく、信頼できる公式の年収一次情報は限られます。そのため当ガイドでは、<strong>創作した等級別年収表や根拠の薄い断定的な数値は掲載していません</strong>。年収はスタートアップとして市場水準を踏まえた提示が行われると考えられますが、正確な金額は応募・面談で確認してください。フルDartという希少スキルは、専門性として中長期の市場価値につながり得る点も判断材料になります。
           </p>
-          <p className="text-xs text-slate-500">出典：年収に関する公式の一次情報は限定的。集計サイトの値は公式値ではない参考値です。正確な提示額は公式募集要項・面談でご確認ください。</p>
+          <p className="text-xs text-slate-500">出典：年収に関する公式の一次情報は限られています。集計サイトの値は公式値ではない参考値です。正確な提示額は公式募集要項・面談でご確認ください。</p>
         </section>
 
         <section id="flow" className="mb-10">
@@ -170,8 +170,8 @@ export default function TenXCompanyPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見た10X</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>10Xの<strong>フルDart</strong>は、他社ではまず経験できない希少な技術選定です。30代・40代のミドルにとっては、すでに持っている設計力・ドメイン理解を土台に、Dart／Flutterという専門性を上乗せできる機会になります。Flutter未経験からの採用事例もあるとされるため、言語そのものより「複雑なドメインを堅牢に設計できるか」が問われる土俵です。</p>
-            <p>EC／SCM（在庫・物流・店舗オペレーション）は業務理解が成果に直結する領域で、これまで小売・物流・基幹システムに関わってきたミドルの知見が活きやすい点も特徴です。一方で、フルDartは転職市場での横展開（他社での再利用）がしにくい側面があり、キャリアの可搬性を重視する場合は事前に整理しておきたいところです。非上場のため将来のIPOやストックオプションの扱いは公式の確定情報がなく、年収は提示額ベースで判断するのが現実的です。</p>
+            <p>10Xの<strong>フルDart</strong>は、他社ではまず経験できない希少な技術選定です。30代・40代のミドルにとっては、すでに持っている設計力・ドメイン理解を土台に、Dart／Flutterという専門性を上乗せできる機会になります。Flutter未経験からの採用事例もあるとされるため、言語そのものより「複雑なドメインを堅牢に設計できるか」が問われる環境です。</p>
+            <p>EC／SCM（在庫・物流・店舗オペレーション）は業務理解が成果に直結する領域で、これまで小売・物流・基幹システムに関わってきたミドルの知見が活きやすい点も特徴です。一方で、フルDartは転職市場での横展開（他社での再利用）がしにくい側面があり、キャリアの可搬性を重視する場合は事前に整理しておくことをおすすめします。非上場のため将来のIPOやストックオプションの扱いは公式の確定情報がなく、年収は提示額ベースで判断するのが現実的です。</p>
             <p>SIerやSESから自社プロダクト開発へ移りたいミドルには<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>が、年収交渉・キャリア整理には<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>が参考になります。</p>
           </div>
         </section>
@@ -205,14 +205,14 @@ export default function TenXCompanyPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。小売のネットスーパー化・SCMのデジタル化は需要が拡大する領域で、10XはそのプラットフォーマーとしてStailerを展開しています。</p>
             <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均であり、10Xの実際の提示額は職種・等級で異なります（公式の年収一次情報は限定的）。</p>
-            <p>フルDartという独自性は、技術的好奇心の強いミドルにとって魅力ですが、キャリアの可搬性とのバランスは個々の価値観で判断するのが現実的です。<Link href="/skill/flutter/" className="text-petrol hover:underline">Flutterエンジニアの転職市場</Link>もあわせて確認してください。</p>
+            <p>フルDartという独自性は、技術的好奇心の強いミドルにとって注目すべき特徴といえますが、キャリアの可搬性とのバランスは個々の価値観で判断するのが現実的です。<Link href="/skill/flutter/" className="text-petrol hover:underline">Flutterエンジニアの転職市場</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">10X転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強いです。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすいです。ミドル層の選択肢を広げやすいです。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強いです。カジュアル面談につながりやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強みがあります。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすく、ミドル層の選択肢を広げる手段になります。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強みがあります。カジュアル面談につながりやすい傾向があります。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

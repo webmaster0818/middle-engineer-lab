@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：エンジニアが押さえる要点" },
+  { id: "conclusion", label: "エンジニアが押さえる要点" },
   { id: "basic", label: "インボイス制度とは（基本）" },
   { id: "impact", label: "フリーランスエンジニアへの影響" },
   { id: "choice", label: "免税事業者か課税事業者かの選択" },
@@ -121,7 +121,7 @@ export default function InvoicePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】フリーランスエンジニアはインボイス登録すべき？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 登録は任意で、「自分の取引先が課税事業者かどうか」を起点に、免税事業者のままでいるか課税事業者として登録するかを判断します。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>登録は任意で、「自分の取引先が課税事業者かどうか」を起点に、免税事業者のままでいるか課税事業者として登録するかを判断します。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・取引先が課税事業者でインボイスを求める場合、未登録が値引き交渉や取引見直しの材料にされることがあります</li><li>・取引先が免税事業者・一般消費者中心なら影響は限定的で、登録しない選択も合理的です</li><li>・登録して課税事業者になる場合も、2割特例（国税庁）を使えば納税負担と計算の手間を抑えられます</li><li>・最終的な判断は国税庁の最新情報や税務署・税理士への相談で確定させます</li></ul>
           </div>
         </section>
@@ -140,9 +140,9 @@ export default function InvoicePage() {
           </ol>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：エンジニアが押さえる要点</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニアが押さえる要点</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               フリーランスエンジニアにとっての要点は、<strong>「自分の取引先が課税事業者かどうか」を起点に、免税事業者のままでいるか、課税事業者として登録するかを判断する</strong>ことです。登録は任意ですが、取引先が課税事業者でインボイスを求める場合は、登録しないことが値引き交渉や取引見直しの材料にされることがあります。
@@ -208,7 +208,7 @@ export default function InvoicePage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">免税事業者のままでいる場合</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                消費税の納税義務がなく、申告の事務負担も生じません。取引先が免税事業者や一般消費者中心ならデメリットは小さい一方、課税事業者の取引先からインボイス発行を求められたり、消費税相当分の値引き交渉をされたりする可能性があります。
+                消費税の納税義務がなく、申告の事務負担も生じません。取引先が免税事業者や一般消費者中心ならデメリットは小さいものの、課税事業者の取引先からインボイス発行を求められたり、消費税相当分の値引き交渉をされたりする可能性があります。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">

@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Goエンジニアの転職市場での進め方" },
+  { id: "conclusion", label: "1. Goエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Goの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Goエンジニアのキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
   { id: "entry", label: "6. 経験浅めからGoに参入するルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "Goエンジニアにおすすめの転職エージェントは？",
-    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でアーキテクト級のGo案件に出会いやすいビズリーチ、Web系スタートアップの提案に強いGeeklyの併用が選択肢です。Goは求人母数が限られるため、複数登録して保有求人を横断的に比較するのが現実的です。",
+    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でアーキテクト級のGo案件に出会いやすいビズリーチ、Web系スタートアップの提案に強みを持つGeeklyの併用が選択肢です。Goは求人母数が限られるため、複数登録して保有求人を横断的に比較するのが現実的です。",
   },
   {
     q: "Goエンジニアはしつこく営業されたり断られたりしますか？",
@@ -126,15 +126,15 @@ export default function GoSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Goエンジニアの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Goエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Goは「求人数は少ないが提示年収は高い」希少スキル型の言語です。</strong>数を強みにするのではなく、Goを採用している企業に的を絞り、希少性を年収に変える進め方が向いています。
+              <strong>Goは「求人数は少ないが提示年収は高い」希少スキル型の言語です。</strong>数を強みにするのではなく、Goを採用している企業に的を絞り、希少性を年収に反映させる進め方が向いています。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・paiza 2025年調査で提示年収<strong>3年連続1位です（平均723万円）</strong>。一方で求人数ランキングはトップ10圏外</li>
+              <li>・paiza 2025年調査で提示年収<strong>3年連続1位（平均723万円）</strong>です。一方で求人数ランキングはトップ10圏外です</li>
               <li>・Java／C++など静的型付け言語の経験があれば、Go未経験でもポテンシャル採用の余地があります</li>
-              <li>・Goは<strong>クラウドインフラ知識との掛け合わせ</strong>で市場価値が跳ね上がります（SRE／プラットフォーム領域）</li>
+              <li>・Goは<strong>クラウドインフラ知識との掛け合わせ</strong>で市場価値が大きく高まります（SRE／プラットフォーム領域）</li>
             </ul>
           </div>
         </section>
@@ -203,10 +203,10 @@ export default function GoSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "バックエンドエンジニア", note: "GoでのAPI開発・マイクロサービス構築が中心です。求人の最も多いゾーン" },
-              { role: "SRE／プラットフォームエンジニア", note: "Go＋Kubernetes＋Terraformの組み合わせです。インフラ内製企業で需要" },
-              { role: "テックリード／アーキテクト", note: "Go基盤のシステム設計＋技術選定＋チームリード" },
-              { role: "フリーランス（Go案件）", note: "マイクロサービス・API開発案件です。希少性から単価が高い傾向" },
+              { role: "バックエンドエンジニア", note: "GoでのAPI開発・マイクロサービス構築が中心です。求人数が最も多い領域にあたります" },
+              { role: "SRE／プラットフォームエンジニア", note: "Go＋Kubernetes＋Terraformを組み合わせて基盤を担います。インフラ内製企業で需要があります" },
+              { role: "テックリード／アーキテクト", note: "Go基盤のシステム設計、技術選定、チームリードを担います" },
+              { role: "フリーランス（Go案件）", note: "マイクロサービス・API開発案件が中心です。希少性から単価が高い傾向があります" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -221,7 +221,7 @@ export default function GoSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Goは求人母数が限られるため、特定の1社に絞るより複数のチャネルを横断するのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -241,7 +241,7 @@ export default function GoSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web・ゲーム業界特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。Goを採用するWeb系スタートアップの求人を探したい場合の選択肢になります。
               </p>
@@ -260,7 +260,7 @@ export default function GoSkillPage() {
             {[
               { num: "1", title: "関連言語の実務経験を土台にする", desc: "Java・C++・TypeScriptなど静的型付け言語のバックエンド経験があれば、それを土台に「Goは未経験だがキャッチアップ可」とアピールできます。完全未経験よりポテンシャル採用の対象になりやすくなります。" },
               { num: "2", title: "GitHubに実務に近いGoプロジェクトを公開する", desc: "REST APIサーバー、CLIツール、KubernetesオペレーターなどをGoで書いて公開します。テストの充実度・ドキュメント・パッケージ構成も見られるため、動くだけでなく設計の意図が伝わる状態にしましょう。" },
-              { num: "3", title: "Go採用企業のポテンシャル枠を狙う", desc: "マイクロサービス移行中の企業はGo経験者の母数不足から、入社後キャッチアップ前提の採用を行うことがあります。エージェントに「Goは未経験だが学習中」と伝え、そうした求人を紹介してもらうのが近道です。" },
+              { num: "3", title: "Go採用企業のポテンシャル枠を狙う", desc: "マイクロサービス移行中の企業はGo経験者の母数不足から、入社後キャッチアップ前提の採用を行うことがあります。エージェントに「Goは未経験だが学習中」と伝え、そうした求人を紹介してもらう方法が現実的です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -280,7 +280,7 @@ export default function GoSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>希少スキルは年齢の不利を相殺しやすいです。</strong>Goのように扱える人が少ない言語では、「若くて安い人材」ではなく「すぐ戦力になる希少人材」が求められます。30代・40代で他言語の実務を積んでいるなら、その設計経験こそが強みになります。
+              <strong>希少スキルは年齢の不利を相殺しやすくなります。</strong>Goのように扱える人が少ない言語では、「若くて安い人材」ではなく「すぐ戦力になる希少人材」が求められます。30代・40代で他言語の実務を積んでいるなら、その設計経験こそが強みになります。
             </p>
             <p>
               <strong>掛け算で差別化します。</strong>Go単体より「Go＋クラウドインフラ」「Go＋過去のドメイン知識（金融・物流など）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、Goという実装手段と結びつけて語れると説得力が増します。
@@ -299,13 +299,13 @@ export default function GoSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 公式ドキュメントと標準ライブラリから学びます。</strong>Goは標準ライブラリが充実しており、A Tour of Goと公式ドキュメントで言語仕様の全体像をつかめます。フレームワーク依存になりすぎず、net/httpなど標準パッケージで基礎を固めるのがGo流です。
+              <strong>① 公式ドキュメントと標準ライブラリから学びます。</strong>Goは標準ライブラリが充実しており、A Tour of Goと公式ドキュメントで言語仕様の全体像をつかめます。フレームワーク依存になりすぎず、net/httpなど標準パッケージで基礎を固めるのがGoでは一般的な学び方です。
             </p>
             <p>
               <strong>② 並行処理を実プロジェクトで使います。</strong>goroutineとchannelによる並行処理はGoの核心です。Webクローラーや並列バッチなど、並行処理が必要な題材を選んで実装すると、面接で語れる経験になります。
             </p>
             <p>
-              <strong>③ クラウドネイティブを掛け合わせます。</strong>Docker・Kubernetes・TerraformはいずれもGo製で、Goエンジニアと親和性が高い領域です。コンテナ化・IaCの経験を積むと、SRE／プラットフォーム領域の高年収求人に手が届きます。
+              <strong>③ クラウドネイティブを掛け合わせます。</strong>Docker・Kubernetes・TerraformはいずれもGo製で、Goエンジニアと親和性が高い領域です。コンテナ化・IaCの経験を積むと、SRE／プラットフォーム領域の高年収求人に応募しやすくなります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -333,7 +333,7 @@ export default function GoSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Goのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Goは求人母数が限られるからこそ、複数のIT特化型エージェントで保有求人を横断比較するのが近道です。
+            Goは求人母数が限られるからこそ、複数のIT特化型エージェントで保有求人を横断比較するのが効率的です。
           </p>
           <Link
             href="/#ranking"

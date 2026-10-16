@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：業務委託は『契約形態』。準委任か請負かで責任が変わる" },
+  { id: "conclusion", label: "業務委託は『契約形態』。準委任か請負かで責任が変わる" },
   { id: "what", label: "業務委託とは（準委任・請負の正確な定義）" },
   { id: "type", label: "準委任と請負の違い（責任・報酬の発生）" },
   { id: "vsfreelance", label: "業務委託とフリーランスの違い" },
@@ -25,7 +25,7 @@ const toc = [
 
 const meritEngineer = [
   "単価が高くなりやすく、スキル次第で正社員時代より報酬が伸びる余地があります",
-  "案件・働き方・稼働時間を自分で選べる自由度が高いです",
+  "案件・働き方・稼働時間を自分で選べる自由度があります",
   "経費を計上でき、税務上の工夫の余地があります",
   "準委任なら成果物の完成責任を負わず、業務の遂行に対して報酬を得られます",
 ];
@@ -34,7 +34,7 @@ const demeritEngineer = [
   "社会保険（健保・年金）が全額自己負担で、額面ほど手取りが増えません",
   "雇用保険・有給・賞与・退職金がなく、休めば収入が減ります",
   "案件の途切れ・単価変動のリスクを自分で吸収する必要があります",
-  "確定申告・帳簿付けなど事務負担が発生します。請負は完成責任・契約不適合責任も負う",
+  "確定申告・帳簿付けなど事務負担が発生します。請負の場合は完成責任・契約不適合責任も負います",
 ];
 
 const meritCompany = [
@@ -45,7 +45,7 @@ const meritCompany = [
 
 const demeritCompany = [
   "指揮命令ができません（実態が労働なら偽装請負・偽装委託のリスク）",
-  "ノウハウが社内に蓄積しにくいです",
+  "ノウハウが社内に蓄積しにくい傾向があります",
   "2024年のフリーランス新法で取引条件明示などの義務が増えました",
 ];
 
@@ -56,11 +56,11 @@ const faqs = [
   },
   {
     q: "準委任契約と請負契約はどう違いますか？",
-    a: "準委任契約は『業務の遂行』に対して報酬が支払われる契約で、成果物の完成義務は原則負いません（善管注意義務を負う）。請負契約は『仕事の完成』に対して報酬が支払われる契約で、成果物を完成させる義務と、契約不適合責任（旧・瑕疵担保責任）を負います。エンジニアの常駐・準委任型の案件は準委任、受託開発の一括請負は請負であることが多いです（出典：民法上の契約類型）。",
+    a: "準委任契約は『業務の遂行』に対して報酬が支払われる契約で、成果物の完成義務は原則負いません（善管注意義務を負う）。請負契約は『仕事の完成』に対して報酬が支払われる契約で、成果物を完成させる義務と、契約不適合責任（旧・瑕疵担保責任）を負います。エンジニアの常駐・準委任型の案件は準委任、受託開発の一括請負は請負であるのが一般的です（出典：民法上の契約類型）。",
   },
   {
     q: "業務委託エンジニアの社会保険・税はどうなりますか？",
-    a: "業務委託は法律上『労働者』ではなく『事業主（個人事業主）』として扱われるため、社会保険は国民健康保険・国民年金が基本、雇用保険なし、所得税は確定申告という構造になります。健康保険・年金は会社が半額負担してくれないため、額面（単価）が高くても手取りは想定ほど増えないことがあります（出典：各制度の公的説明）。",
+    a: "業務委託は法律上『労働者』ではなく『事業主（個人事業主）』として扱われるため、社会保険は国民健康保険・国民年金が基本、雇用保険なし、所得税は確定申告という構造になります。健康保険・年金は会社による半額負担がないため、額面（単価）が高くても手取りは想定ほど増えないことがあります（出典：各制度の公的説明）。",
   },
   {
     q: "業務委託は労災保険に入れますか？",
@@ -115,7 +115,7 @@ export default function GyomuItakuPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          業務委託は、エンジニアが「事業主」として仕事を受ける<strong>契約の形態</strong>を指す言葉です。実態は準委任契約か請負契約のいずれかで、どちらかによって負う責任が変わります。本記事では、業務委託の正確な定義、準委任と請負の違い、よく混同される「フリーランス」との違い、社会保険・税の仕組み、エンジニア側・企業側のメリットデメリット、そして偽装請負や2024年の法改正の注意点までを、出典付きで整理します。単価相場や手取りの試算は、より実務寄りの<Link href="/employment/contractor/" className="text-petrol hover:underline">業務委託（単価・手取り）の記事</Link>もあわせてご覧ください。
+          業務委託は、エンジニアが「事業主」として仕事を受ける<strong>契約の形態</strong>を指す言葉です。実態は準委任契約か請負契約のいずれかで、どちらかによって負う責任が変わります。本記事では、業務委託の正確な定義、準委任と請負の違い、よく混同される「フリーランス」との違い、社会保険・税の仕組み、エンジニア側・企業側のメリットデメリット、そして偽装請負や2024年の法改正の注意点までを、出典を明記して整理します。単価相場や手取りの試算は、より実務寄りの<Link href="/employment/contractor/" className="text-petrol hover:underline">業務委託（単価・手取り）の記事</Link>もあわせてご覧ください。
         </p>
 
         <DataNote
@@ -127,16 +127,16 @@ export default function GyomuItakuPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：業務委託は「契約形態」。準委任か請負かで責任が変わる</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">業務委託は「契約形態」。準委任か請負かで責任が変わる</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               業務委託は雇用ではなく、事業主として結ぶ契約です。準委任なら「業務の遂行」に、請負なら「仕事の完成」に責任を負い、後者は完成義務・契約不適合責任まで負います。社会保険・税は自己負担で、単価が高くても手取りは額面ほど増えません。契約の種類と責任範囲を理解したうえで、事業主としての設計を整えて選ぶのが安全です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>「業務委託＝契約形態」「フリーランス＝独立した働き方」で、指す対象が異なります。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>準委任は遂行責任、請負は完成責任です。常駐型は準委任、一括受託は請負が多いです。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>準委任は遂行責任、請負は完成責任です。常駐型は準委任、一括受託は請負が一般的です。</li>
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2024年のフリーランス新法・労災特別加入で、保護が一部前進しました。</li>
             </ul>
           </div>
@@ -214,7 +214,7 @@ export default function GyomuItakuPage() {
             混同されがちですが、両者は指す対象が異なります。<strong>「業務委託」は契約の形態</strong>（準委任・請負）を、<strong>「フリーランス」は組織に属さず独立して働く立場・働き方</strong>を指します。
           </p>
           <p className="text-slate-600 leading-relaxed mb-4">
-            多くのフリーランスエンジニアは業務委託契約で案件を受けますが、関係は一対一ではありません。たとえば、副業の会社員が休日に業務委託契約を結ぶこともあれば、フリーランスが法人化して法人として業務委託を受けることもあります。つまり「フリーランスという働き方」を実現する手段の一つが「業務委託という契約」だ、と整理すると分かりやすいです。
+            多くのフリーランスエンジニアは業務委託契約で案件を受けますが、関係は一対一ではありません。たとえば、副業の会社員が休日に業務委託契約を結ぶこともあれば、フリーランスが法人化して法人として業務委託を受けることもあります。つまり「フリーランスという働き方」を実現する手段の一つが「業務委託という契約」だと整理すると、理解しやすくなります。
           </p>
           <p className="text-slate-600 leading-relaxed text-sm">
             働き方としてのフリーランスの実態・案件確保・向き不向きは<Link href="/employment/freelance/" className="text-petrol hover:underline">フリーランスエンジニア</Link>で、単価相場や手取り試算は<Link href="/employment/contractor/" className="text-petrol hover:underline">業務委託（単価・手取り）</Link>で詳しく解説しています。
@@ -230,8 +230,8 @@ export default function GyomuItakuPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-5">
             <p className="text-sm font-bold text-slate-700 mb-3">事業主としての保険・税のポイント</p>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険は国民健康保険、年金は国民年金が基本です。会社の折半負担がないため負担感が大きいです</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>雇用保険なし（失業給付の対象外）。労災は2024年11月から任意の特別加入が可能に</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険は国民健康保険、年金は国民年金が基本です。会社の折半負担がないため負担感が大きくなります</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>雇用保険は対象外です（失業給付なし）。労災は2024年11月から任意の特別加入が可能になりました</li>
               <li className="flex gap-2"><span className="text-slate-400">▸</span>所得税・住民税は自分で確定申告を行います。経費計上の余地がある一方、帳簿付けの事務負担が生じます</li>
               <li className="flex gap-2"><span className="text-slate-400">▸</span>一定の課税売上があればインボイス・消費税の検討も必要になります</li>
             </ul>
@@ -314,7 +314,7 @@ export default function GyomuItakuPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">契約の種類で背負うリスクを見極める</h3>
-              <p className="text-sm text-petrol-deep">同じ「業務委託」でも、準委任と請負ではリスクが大きく異なります。30代・40代で家計の責任が重い場合、完成責任・契約不適合責任を負う請負より、遂行責任にとどまる準委任のほうが読みやすいことがあります。契約書のどちらかを必ず確認しましょう。</p>
+              <p className="text-sm text-petrol-deep">同じ「業務委託」でも、準委任と請負ではリスクが大きく異なります。30代・40代で家計の責任が重い場合、完成責任・契約不適合責任を負う請負より、遂行責任にとどまる準委任のほうがリスクを見通しやすいことがあります。契約がどちらに該当するかを、契約書で必ず確認しましょう。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">信用・年金の長期設計を先に組む</h3>

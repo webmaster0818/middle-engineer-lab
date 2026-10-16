@@ -29,8 +29,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["conclusion", "難易度と向いているエンジニア"],
+  ["basic", "基本データ（出典あり）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -61,11 +61,11 @@ const faqs = [
   },
   {
     q: "noteの平均年齢が高めなのはなぜですか？",
-    a: "2025年11月期の有価証券報告書では平均年齢39.4歳で、Web系の中ではやや高めです。上場前後で経験豊富な人材を採用してきた経緯があり、平均年齢は数年で上昇傾向にあります。30代・40代のミドルエンジニアにとっては年齢で浮きにくい組織といえます。",
+    a: "2025年11月期の有価証券報告書では平均年齢39.4歳で、Web系の中ではやや高い水準にあります。上場前後で経験豊富な人材を採用してきた経緯があり、平均年齢は数年で上昇傾向にあります。30代・40代のミドルエンジニアにとっては年齢で浮きにくい組織といえます。",
   },
   {
     q: "noteで活きる経験は？",
-    a: "Ruby on Railsを中心としたWebアプリケーション開発の実務経験が基本です。大規模メディア・プラットフォームの運用経験、パフォーマンス改善、Nuxt.js/Next.jsでのフロントエンド開発経験などが活きやすい傾向です。",
+    a: "Ruby on Railsを中心としたWebアプリケーション開発の実務経験が基本です。大規模メディア・プラットフォームの運用経験、パフォーマンス改善、Nuxt.js/Next.jsでのフロントエンド開発経験などが活きやすい傾向があります。",
   },
   {
     q: "30代・40代でもnoteに転職できますか？",
@@ -97,8 +97,8 @@ export default function NoteCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】noteの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: note株式会社の平均年間給与は763万円です（2025年11月期 有価証券報告書・全社員平均、平均年齢39.4歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 763万円です（2025年11月期 有価証券報告書・全社員平均）。技術職に限らない全社員平均値です。</li><li>・推移は2022年11月期680万円→2023年11月期700万円→2024年11月期699万円→2025年11月期763万円と上場以降は上昇傾向です（各期 有価証券報告書）。</li><li>・職種・等級別の公式レンジは非公表です。提示額はスキル評価で個別決定されるため、求人票・面談での確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>note株式会社の平均年間給与は763万円です（2025年11月期 有価証券報告書・全社員平均、平均年齢39.4歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 763万円です（2025年11月期 有価証券報告書・全社員平均）。技術職に限らない全社員平均値です。</li><li>・推移は2022年11月期680万円→2023年11月期700万円→2024年11月期699万円→2025年11月期763万円と推移しており、上場以降は上昇傾向にあります（各期 有価証券報告書）。</li><li>・職種・等級別の公式レンジは非公表です。提示額はスキル評価で個別決定されるため、求人票・面談での確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -117,14 +117,14 @@ export default function NoteCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              noteは<strong>Ruby on Rails中心の大規模メディアプラットフォームを、コンテンツ文化への共感を持って開発するテック企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収763万円（2025年11月期 有価証券報告書）はWeb系の中でも高めの水準です。
+              noteは<strong>Ruby on Rails中心の大規模メディアプラットフォームを、コンテンツ文化への共感を持って開発するテック企業</strong>です。Webアプリ開発の実務経験が前提となり、難易度は中〜やや高い水準です。全社員平均年収763万円（2025年11月期 有価証券報告書）は、Web系の中でも高めといえます。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Rubyでの実務経験があり、メディア・プラットフォーム運用やクリエイターエコノミーに関心があるエンジニア</li>
               <li>● <strong>向いていない人</strong>：toB/業務システム中心の開発を強く志向する人、新しい技術への移行に消極的な人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢39.4歳と年齢層に幅があり、運用・設計の実績があればハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：平均年齢39.4歳と年齢層に幅があり、運用・設計の実績があれば年齢がハンデになりにくい環境</li>
             </ul>
           </div>
         </section>
@@ -141,7 +141,7 @@ export default function NoteCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -154,7 +154,7 @@ export default function NoteCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2025年11月期 有価証券報告書に基づく全社員平均値（単体）。技術スタックはnoteエンジニアチームの公開記事です（2026年6月時点で確認できる範囲）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2025年11月期 有価証券報告書に基づく全社員平均値です（単体）。技術スタックはnoteエンジニアチームの公開記事に基づきます（2026年6月時点で確認できる範囲）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -194,7 +194,7 @@ export default function NoteCompanyPage() {
         <section id="salary" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有価証券報告書ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            上場企業であるnoteは、有価証券報告書で全社員平均の平均年間給与を開示しています。<strong>2025年11月期は763万円（平均年齢39.4歳・全社員平均）</strong>で、上場以降は上昇傾向です。
+            上場企業であるnoteは、有価証券報告書で全社員平均の平均年間給与を開示しています。<strong>2025年11月期は763万円（平均年齢39.4歳・全社員平均）</strong>で、上場以降は上昇傾向にあります。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -229,7 +229,7 @@ export default function NoteCompanyPage() {
             <li>カジュアル面談（任意。働き方やチームの雰囲気を確認）</li>
             <li>書類選考（職務経歴書・ポートフォリオ等）</li>
             <li>面接（複数回。技術ディスカッション・カルチャーフィットを確認）</li>
-            <li>技術課題／コーディング確認（職種により実施される場合がある）</li>
+            <li>技術課題／コーディング確認（職種により実施）</li>
             <li>オファー面談</li>
           </ol>
           <p className="text-xs text-slate-400 mt-2">出典: note公式 採用ページ／採用媒体掲載情報の要約。選考は職種・時期により変動します。</p>
@@ -268,8 +268,8 @@ export default function NoteCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">note転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。SaaS・Web系の求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。SaaS・Web系の求人に強みがあり、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

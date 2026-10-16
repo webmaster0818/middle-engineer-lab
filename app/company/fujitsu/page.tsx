@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんな人向きか" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "tech", label: "技術スタック・領域" },
@@ -66,35 +66,35 @@ const flow = [
 
 const faqs = [
   {
-    q: "富士通のエンジニア転職の難易度は？",
-    a: "東証プライム上場の大手で人気が高く、転職メディアでは難易度は高めと評されることが多いです。ジョブ型採用のため、応募ポジションの専門性に合致した経験が重視されます。出典：talentsquare等の転職メディア解説。",
+    q: "富士通のエンジニア転職の難易度はどの程度ですか？",
+    a: "東証プライム上場の大手で人気が高く、転職メディアでは難易度は高めと評されることが多くあります。ジョブ型採用のため、応募ポジションの専門性に合致した経験が重視されます。出典：talentsquare等の転職メディア解説。",
   },
   {
-    q: "富士通の平均年収はいくら？",
+    q: "富士通の平均年収はいくらですか？",
     a: "2026年3月期の有価証券報告書に基づく公表値で全社員平均1,012万円（平均年齢42.7歳）です。前期（2025年3月期）の929万円から80万円超の増加で、平均1,000万円台に乗りました。これは全社員平均であり、エンジニア職個別の年収レンジを示すものではありません。ジョブ型のため職務・等級により幅があります。",
   },
   {
-    q: "選考フローはどうなっている？",
+    q: "選考フローはどのようになっていますか？",
     a: "公式採用情報・転職メディアによると、書類選考→適性検査→面接複数回（一般に2〜3回）→オファーという流れが一般的です。面接では入社後の貢献プラン（My Purpose）の言語化が重視されるとされています。",
   },
   {
-    q: "富士通のDX推進はどう進んでいる？",
+    q: "富士通のDX推進はどのように進んでいますか？",
     a: "Fujitsu Uvanceブランドの下、DXコンサルティング、クラウドネイティブ開発、AI/データ活用を推進しています。従来のSI事業からモダン領域への転換が進行中です。",
   },
   {
-    q: "技術的な強みは？",
+    q: "富士通の技術的な強みは何ですか？",
     a: "スーパーコンピュータ「富岳」の開発実績、量子コンピュータ研究、5G/Beyond 5G、サイバーセキュリティなど、基礎研究から応用まで幅広い技術力を持つ数少ない国内企業です。",
   },
   {
-    q: "ワークライフバランスは？",
+    q: "ワークライフバランスについて教えてください。",
     a: "OpenWork等の口コミプラットフォームでは、テレワークが可能で柔軟な働き方ができるとの声がある一方、労働環境はプロジェクトによる差が大きいとの指摘も見られます。",
   },
   {
-    q: "SIerからWeb系も検討すべき？",
+    q: "SIerからWeb系への転職も検討すべきですか？",
     a: "富士通は安定と基礎研究が強みですが、内製・モダン志向ならWeb系も比較対象です。違いは「SIerからWeb系への転職」の解説をご覧ください。",
   },
   {
-    q: "どのエージェントを使うべき？",
+    q: "どのエージェントを利用すればよいですか？",
     a: "大手ITベンダーの求人に強いdoda(IT)・マイナビIT AGENT、IT特化でDX/クラウド系に強いレバテックキャリアの併用が現実的です。",
   },
 ];
@@ -123,8 +123,8 @@ export default function FujitsuCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】富士通の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 富士通株式会社の平均年収は1,012万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢42.7歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 1,012万円です（2026年3月期 有価証券報告書）。前期929万円から80万円超増え、全社員平均で1,000万円台に到達します。エンジニア職個別の年収レンジを示すものではありません。</li><li>・ジョブ型人材マネジメントを採用しており、職務・等級により金額に幅があります。</li><li>・エンジニア職の実際の提示額は求人票（ジョブディスクリプション）・オファーで確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>富士通株式会社の平均年収は1,012万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢42.7歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 1,012万円です（2026年3月期 有価証券報告書）。前期の929万円から80万円超増え、全社員平均で1,000万円台に到達しました。エンジニア職個別の年収レンジを示すものではありません。</li><li>・ジョブ型人材マネジメントを採用しており、職務・等級により金額に幅があります。</li><li>・エンジニア職の実際の提示額は求人票（ジョブディスクリプション）・オファーで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
@@ -144,10 +144,10 @@ export default function FujitsuCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんな人向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 text-sm leading-relaxed mb-3">
-              <strong>結論：</strong>富士通は「ジョブ型で専門性を評価され、DX・先端コンピューティングに関わりたい」エンジニアに向く企業です。全社員平均1,012万円（2026年3月期 有価証券報告書）と処遇は高水準です。専門性に合致した経験があれば、年齢に関係なく評価されやすい制度設計です。
+              <strong></strong>富士通は「ジョブ型で専門性を評価され、DX・先端コンピューティングに関わりたい」エンジニアに適した企業です。全社員平均1,012万円（2026年3月期 有価証券報告書）と処遇は高水準です。専門性に合致した経験があれば、年齢に関係なく評価されやすい制度設計です。
             </p>
             <ul className="space-y-1.5 text-sm text-slate-600">
               <li>・<strong>向いている人</strong>：クラウド/AI/セキュリティ等の専門性を持つ人、上流〜PM経験者、ジョブ型で処遇されたい人</li>
@@ -259,13 +259,13 @@ export default function FujitsuCompanyPage() {
               <ul className="space-y-1.5 text-sm text-green-700">
                 <li>・テレワークが可能で柔軟に働けるとの声があります</li>
                 <li>・育児関連の制度・福利厚生が手厚いとの評価があります</li>
-                <li>・大規模SIの経験を積める基盤があります</li>
+                <li>・大規模SIの経験を積める環境があるとの声があります</li>
               </ul>
             </div>
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-amber-700">
-                <li>・労働環境はプロジェクトによる差が大きいです</li>
+                <li>・労働環境はプロジェクトによる差が大きいとの指摘があります</li>
                 <li>・評価制度や事業展望への課題を指摘する声があります</li>
                 <li>・大企業ゆえの組織変革途上という指摘があります</li>
               </ul>
@@ -278,7 +278,7 @@ export default function FujitsuCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              30代・40代のミドルエンジニアにとって富士通は、ジョブ型採用と「管理職・リーダークラスのキャリア採用強化」という方針が追い風です。特定領域（クラウド/AI/セキュリティ等）の専門性や上流・PM経験を持つ人は、年齢ではなく職務適合で評価されやすく、即戦力ポジションを狙いやすいと言えます。平均年齢42.7歳という有価証券報告書の数字からも、ミドル層が中核の企業であることが分かります。
+              30代・40代のミドルエンジニアにとって富士通は、ジョブ型採用と「管理職・リーダークラスのキャリア採用強化」という方針が転職の後押しになります。特定領域（クラウド/AI/セキュリティ等）の専門性や上流・PM経験を持つ人は、年齢ではなく職務適合で評価されやすく、即戦力ポジションを狙いやすいと言えます。平均年齢42.7歳という有価証券報告書の数字からも、ミドル層が中核の企業であることが分かります。
             </p>
             <p>
               一方、労働環境がプロジェクトによる差が大きいという口コミ傾向があるため、配属予定の領域・チームの働き方は面談で確認しましょう。年収（全社員平均1,012万円）は高水準ですが全社員平均であるため、ジョブごとの提示額をオファーで必ずご確認ください。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
@@ -291,7 +291,7 @@ export default function FujitsuCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "doda(IT)", href: "/review/doda-it/", desc: "国内最大級の求人数です。大手ITベンダーの各事業部門の求人を網羅しています。" },
-              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "大手SIerへの転職支援に強く、書類添削・面接対策が手厚いです。" },
+              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "大手SIerへの転職支援に強く、書類添削・面接対策が手厚い点が特徴です。" },
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でDX部門・クラウド系ポジションの提案に強みがあります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

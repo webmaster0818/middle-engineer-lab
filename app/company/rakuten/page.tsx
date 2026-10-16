@@ -21,7 +21,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
@@ -61,11 +61,11 @@ const faqs = [
   },
   {
     q: "楽天グループへの転職で有利な経験は？",
-    a: "Javaを中心としたバックエンド開発経験に加え、EC・フィンテック・通信・広告いずれかのドメイン経験、マイクロサービス・コンテナ技術、英語での協働経験があると評価されやすい傾向です（公開求人情報ベース）。",
+    a: "Javaを中心としたバックエンド開発経験に加え、EC・フィンテック・通信・広告いずれかのドメイン経験、マイクロサービス・コンテナ技術、英語での協働経験があると評価されやすい傾向があります（公開求人情報ベース）。",
   },
   {
     q: "30代・40代でも楽天グループに転職できますか？",
-    a: "平均年齢35.3歳と幅のある組織で、年齢よりも担えるロールと専門性が重視される傾向です。70以上のサービスを抱えるため、特定ドメインの深い経験やマネジメント経験が活かしやすい環境です。",
+    a: "平均年齢35.3歳と幅のある組織で、年齢よりも担えるロールと専門性が重視される傾向があります。70以上のサービスを抱えるため、特定ドメインの深い経験やマネジメント経験が活かしやすい環境です。",
   },
 ];
 
@@ -93,7 +93,7 @@ export default function RakutenCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】楽天グループの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 楽天グループ株式会社の全社員平均年収は820万円です（2024年12月期 有価証券報告書・平均年齢35.3歳・平均勤続年数5.8年）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>楽天グループ株式会社の全社員平均年収は820万円です（2024年12月期 有価証券報告書・平均年齢35.3歳・平均勤続年数5.8年）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 820万円です（2024年12月期 有価証券報告書）。技術職に限らない全社員平均です。</li><li>・エンジニア職に限定した公式な提示年収レンジは一次情報が乏しく、当ガイドでは断定していません。</li><li>・実際の提示額はポジション・グレードにより幅があるため、個別求人・エージェント経由での確認が現実的です。</li></ul>
         </div>
 
@@ -112,14 +112,14 @@ export default function RakutenCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               楽天グループは<strong>英語公用語のグローバル環境で、EC・金融・通信など多彩なドメインに挑戦できる大規模テック企業</strong>です。事業が広いぶんポジションも多様で、難易度はポジションにより幅があります。Javaを中心とした実務経験が活きやすい環境です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Java等での実務経験があり、英語環境・大規模サービス・多様なドメインに挑戦したいエンジニア</li>
               <li>● <strong>向いていない人</strong>：少人数・フラットな環境を強く好む人、トップダウンの意思決定が合わない人</li>
-              <li>● <strong>30代・40代</strong>：特定ドメインの深い経験やマネジメント経験を活かしやすいです</li>
+              <li>● <strong>30代・40代</strong>：特定ドメインの深い経験やマネジメント経験を活かしやすい環境</li>
             </ul>
           </div>
         </section>
@@ -157,7 +157,7 @@ export default function RakutenCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">英語公用語のグローバル環境</h3>
-              <p className="text-sm text-petrol-deep">公式採用情報によると社内公用語は英語で、朝会（Asakai）や部の定例会議は進行・ドキュメントとも英語です。開発部門は約半数が外国籍と公表されており、多国籍チームでの開発が日常です。</p>
+              <p className="text-sm text-petrol-deep">公式採用情報によると社内公用語は英語で、朝会（Asakai）や部の定例会議は進行・ドキュメントとも英語です。開発部門は約半数が外国籍と公表されており、多国籍チームでの開発が日常的に行われています。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">楽天エコシステムの技術的チャレンジ</h3>
@@ -246,7 +246,7 @@ export default function RakutenCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              楽天グループは平均年齢35.3歳（2024年12月期・全社員平均）で、70以上のサービスを抱える大規模組織です。30代・40代のミドルエンジニアにとっては、<strong>特定ドメイン（EC・金融・通信など）の深い経験やマネジメント経験を活かしやすい</strong>のが魅力です。一方、社内公用語が英語であるため、英語環境への適応は事前に意識しておきたいポイントです。
+              楽天グループは平均年齢35.3歳（2024年12月期・全社員平均）で、70以上のサービスを抱える大規模組織です。30代・40代のミドルエンジニアにとっては、<strong>特定ドメイン（EC・金融・通信など）の深い経験やマネジメント経験を活かしやすい</strong>という特徴があります。一方、社内公用語が英語であるため、英語環境への適応は事前に意識しておきたいポイントです。
             </p>
             <p>
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。楽天グループの全社員平均（820万円）はこれを上回りますが、これはグレード上位層を含む全社平均であり、入社時の提示はポジション・グレード次第です。30代・40代は個別求人で具体的なレンジを確認しましょう。
@@ -263,7 +263,7 @@ export default function RakutenCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。大手・メガベンチャー求人に強く、非公開求人も豊富です。" },
               { name: "doda ITエンジニア", href: "/review/doda-it/", desc: "国内最大級の求人数です。大手企業の求人を幅広く網羅します。" },
-              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚いです。サポート重視の転職者向けです。" },
+              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚い点が特徴です。サポート重視の転職者向けです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

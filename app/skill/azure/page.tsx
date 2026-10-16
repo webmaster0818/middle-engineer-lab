@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "diff", label: "結論：AzureをAWSではなく選ぶ理由" },
+  { id: "diff", label: "AzureをAWSではなく選ぶ理由" },
   { id: "market", label: "市場・年収データ" },
   { id: "industry", label: "採用が活発な業界（AWSと客層が違う）" },
   { id: "cert", label: "Microsoft認定資格（AZ系）の体系" },
@@ -30,13 +30,13 @@ const toc = [
 const faqs = [
   {
     q: "AzureエンジニアとAWSエンジニアの違いは何ですか？",
-    a: "技術基盤の違いに加え、活躍する業界・客層が異なります。AWSはWeb系・スタートアップから大手まで幅広い一方、AzureはMicrosoft 365（M365）やActive Directoryと統合したエンタープライズ・業務系システムで採用が活発です。大手SIer・コンサル・金融・製造業のIoT・公共系など、AWSとは客層が違う領域に強いのが特徴です。C#/.NETとの親和性も高く、業務系出身のエンジニアと相性が良いです。AWS側は",
+    a: "技術基盤の違いに加え、活躍する業界・客層が異なります。AWSはWeb系・スタートアップから大手まで幅広い一方、AzureはMicrosoft 365（M365）やActive Directoryと統合したエンタープライズ・業務系システムで採用が活発です。大手SIer・コンサル・金融・製造業のIoT・公共系など、AWSとは客層が異なる領域で採用が多い点が特徴です。C#/.NETとの親和性も高く、業務系出身のエンジニアと相性が良いといえます。AWS側は",
     aLink: { href: "/skill/aws/", label: "AWSエンジニア転職ガイド" },
     aTail: "を合わせてご覧ください。",
   },
   {
     q: "Azureエンジニアの平均年収はどのくらいですか？",
-    a: "Azure専用の給料統計は確認できないため、近接区分の参考値を示します。求人ボックス給料ナビではソフトウェアエンジニア約511万円、システムエンジニア約516万円、ITエンジニア約478万円です（2026年6月時点・動的に変動）。クラウド系は条件が整った求人が多く、これらより上振れしやすい傾向です。媒体推定では600〜1,400万円、フリーランス平均約928万円という幅のある値も示されています（各社推定・幅あり）。単一の数値で断定せず、役割・業界で変わる前提でご覧ください。",
+    a: "Azure専用の給料統計は確認できないため、近接区分の参考値を示します。求人ボックス給料ナビではソフトウェアエンジニア約511万円、システムエンジニア約516万円、ITエンジニア約478万円です（2026年6月時点・動的に変動）。クラウド系は条件が整った求人が多く、これらより上振れしやすい傾向があります。媒体推定では600〜1,400万円、フリーランス平均約928万円という幅のある値も示されています（各社推定・幅あり）。単一の数値で断定せず、役割・業界で変わる前提でご覧ください。",
   },
   {
     q: "Azureの求人数はどのくらいありますか？",
@@ -44,11 +44,11 @@ const faqs = [
   },
   {
     q: "Microsoft認定資格（AZ系）は転職で有利ですか？",
-    a: "AZ-900（基礎）→ AZ-104（運用・管理）→ AZ-305（設計）が代表的なルートです（Microsoft Learn公式の認定体系）。エンタープライズ案件では資格を要件・歓迎条件に挙げる企業が比較的多く、書類段階の通過に効きやすいです。ただし資格単体より、学習で得た知識を実務でどう使ったかを語れるかが評価の分かれ目です。",
+    a: "AZ-900（基礎）→ AZ-104（運用・管理）→ AZ-305（設計）が代表的なルートです（Microsoft Learn公式の認定体系）。エンタープライズ案件では資格を要件・歓迎条件に挙げる企業が比較的多く、書類選考で有利に働きやすくなります。ただし資格単体より、学習で得た知識を実務でどう使ったかを語れるかが評価の分かれ目です。",
   },
   {
     q: "C#/.NETの経験はAzure転職で活きますか？",
-    a: "強く活きます。AzureはMicrosoftエコシステムとの統合が強みで、C#/.NETでの業務系開発経験者はクラウド移行・刷新案件で重宝されます。業務系SE・SIer出身でC#経験がある方は、AzureとAZ認定を足すことで市場価値を上げやすいです。C#のキャリアは",
+    a: "大いに活かせます。AzureはMicrosoftエコシステムとの統合が強みで、C#/.NETでの業務系開発経験者はクラウド移行・刷新案件で重宝されます。業務系SE・SIer出身でC#経験がある方は、AzureとAZ認定を足すことで市場価値を上げやすくなります。C#のキャリアは",
     aLink: { href: "/skill/csharp/", label: "C#エンジニア転職ガイド" },
     aTail: "も参考になります。",
   },
@@ -56,7 +56,7 @@ const faqs = [
     q: "SES・客先常駐からAzureエンジニアで脱出できますか？",
     a: "現実的なルートの一つです。AZ-104などの認定取得と、Azure上での小規模な構築・移行の実績づくりをセットにすると、自社開発や上流の設計・移行案件に移りやすくなります。前職の業務系・インフラ運用経験は「移行プロジェクトで活きる経験」として語れます。インフラ全般は",
     aLink: { href: "/skill/infrastructure/", label: "インフラエンジニア転職ガイド" },
-    aTail: "も接続先です。",
+    aTail: "もあわせてご覧ください。",
   },
   {
     q: "40代でもAzureエンジニアへ転職できますか？",
@@ -65,7 +65,7 @@ const faqs = [
 ];
 
 const salaryRef = [
-  ["ソフトウェアエンジニア", "約511万円", "クラウド系はここから上振れしやすいです"],
+  ["ソフトウェアエンジニア", "約511万円", "クラウド系はここから上振れしやすい傾向"],
   ["システムエンジニア（SE）", "約516万円", "業務系SE出身のAzure転職の目安帯"],
   ["ITエンジニア", "約478万円", "幅広い職種を含む参考値"],
 ];
@@ -145,13 +145,13 @@ export default function AzureSkillPage() {
         </nav>
 
         <section id="diff" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AzureをAWSではなく選ぶ理由</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">AzureをAWSではなく選ぶ理由</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Azure転職の核心は、<strong>「AWSの代替」ではなく「エンタープライズ・業務系に強いクラウド」として自分を位置づけること</strong>です。進め方は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>M365・Active Directory・業務系統合</strong>という、AWSとは違う土俵で価値を出します</li>
+              <li>① <strong>M365・Active Directory・業務系統合</strong>という、AWSとは異なる領域で価値を出します</li>
               <li>② 認定は<strong>AZ-900 → AZ-104 → AZ-305</strong>を軸に、学習内容を実務へ紐づけて語ります</li>
               <li>③ <strong>C#/.NET経験</strong>がある業務系SE・SIer出身なら、Azureを足して市場価値を上げます</li>
             </ul>
@@ -205,10 +205,10 @@ export default function AzureSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "大手SIer・コンサル", d: "基幹システムのクラウド移行・刷新でAzureを採用するケースが多いです。上流の設計・PM経験が活きます。" },
+              { t: "大手SIer・コンサル", d: "基幹システムのクラウド移行・刷新でAzureを採用するケースが多く見られます。上流の設計・PM経験が活きます。" },
               { t: "金融", d: "セキュリティ・ガバナンス要件が厳しく、Microsoftとの契約関係から Azure採用が進む領域です。" },
               { t: "製造業（IoT）", d: "工場・設備のデータ収集・分析でAzure IoT/データ基盤を使う案件が増加しています。" },
-              { t: "公共・自治体系", d: "M365導入と一体でAzureを採用する流れがあり、業務系の安定案件が多いです。" },
+              { t: "公共・自治体系", d: "M365導入と一体でAzureを採用する流れがあり、業務系の安定案件が多い傾向にあります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -245,14 +245,14 @@ export default function AzureSkillPage() {
           </div>
           <p className="text-xs text-slate-500 mb-3">出典: Microsoft Learn 認定資格 公式（learn.microsoft.com/certifications、2026年6月時点）</p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            エンタープライズ案件では資格を歓迎条件に挙げる企業が比較的多く、書類段階の通過に効きやすいです。とはいえ、AZ-305の学習で得た設計知識を実際の移行・刷新にどう適用したかを語れることが、最終的な評価を決めます。
+            エンタープライズ案件では資格を歓迎条件に挙げる企業が比較的多く、書類選考で有利に働きやすくなります。とはいえ、AZ-305の学習で得た設計知識を実際の移行・刷新にどう適用したかを語れることが、最終的な評価を決めます。
           </p>
         </section>
 
         <section id="skill" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められるスキルとC#/.NET親和</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Azureは仮想マシン・ネットワーク・ストレージといった基盤に加え、Microsoftエコシステムとの統合スキルが評価されます。特にC#/.NETでの業務系開発経験は強い強みです。
+            Azureは仮想マシン・ネットワーク・ストレージといった基盤に加え、Microsoftエコシステムとの統合スキルが評価されます。特にC#/.NETでの業務系開発経験は大きな強みになります。
           </p>
           <ul className="space-y-2 text-sm text-slate-700">
             <li>✓ Azure VM / VNet / Storage / Entra ID（旧Azure AD）の基本構成</li>
@@ -277,9 +277,9 @@ export default function AzureSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "実務1〜3年層（構築・運用）", d: "VM/VNet/Storage/Entra IDの基本構成、Azure Monitorでの監視、簡単な障害対応。AZ-104が歓迎要件になりやすいです。" },
-              { t: "実務3〜6年層（設計・移行）", d: "App Service/Functions、Azure DevOps、IaC（Bicep/Terraform）、基幹システムのクラウド移行。年収帯が一段上がる中核ゾーンです。" },
-              { t: "実務6年以上層（アーキテクト）", d: "全体アーキテクチャ設計、ガバナンス・セキュリティ、M365統合、コスト最適化です。AZ-305が後押しになります。" },
+              { t: "実務1〜3年層（構築・運用）", d: "VM/VNet/Storage/Entra IDの基本構成、Azure Monitorでの監視、簡単な障害対応が中心です。AZ-104が歓迎要件になりやすい傾向があります。" },
+              { t: "実務3〜6年層（設計・移行）", d: "App Service/Functions、Azure DevOps、IaC（Bicep/Terraform）、基幹システムのクラウド移行が求められます。年収帯が一段上がる中核ゾーンです。" },
+              { t: "実務6年以上層（アーキテクト）", d: "全体アーキテクチャ設計、ガバナンス・セキュリティ、M365統合、コスト最適化を担います。AZ-305が後押しになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -322,7 +322,7 @@ export default function AzureSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "土台の棚卸し", d: "ネットワーク・Windows Server・C#/.NETなどの経験を整理します。Azureでそのまま価値になります。" },
+              { n: "STEP 1", t: "土台の棚卸し", d: "ネットワーク・Windows Server・C#/.NETなどの経験を整理します。これらはAzureでもそのまま活かせます。" },
               { n: "STEP 2", t: "AZ-900 → AZ-104", d: "基礎のAZ-900で全体像をつかみ、AZ-104で運用・管理の実務知識を固めます。" },
               { n: "STEP 3", t: "無料枠で構築＆移行体験", d: "Azure無料枠でVM/App Serviceを構築し、簡単な.NETアプリを移行・デプロイします。" },
               { n: "STEP 4", t: "移行ストーリーで応募", d: "前職の業務系・運用経験を『クラウド移行で活きる経験』として職務経歴書に落とし込みます。" },
@@ -348,7 +348,7 @@ export default function AzureSkillPage() {
               ミドル層のAzure転職では、業務理解とマネジメント要素が評価されやすく、<strong>業務系SE・SIer出身の経験がそのまま強みになる</strong>のが特徴です。AWSより「現場の業務を分かっている人」が求められる傾向があります。
             </p>
             <p>
-              <strong>デメリット・注意点も記載します。</strong>Azureはエンタープライズ・受託寄りの案件が多く、Web系スタートアップのようなモダンな開発文化を求める人には合わない場合があります。レガシー移行案件に偏ると、汎用的なクラウド設計スキルが伸びにくいリスクもあります。AWS/GCPの基礎も押さえ、「特定ベンダーに閉じすぎない」ことが転職市場での保険になります。
+              <strong>デメリット・注意点も記載します。</strong>Azureはエンタープライズ・受託寄りの案件が多く、Web系スタートアップのようなモダンな開発文化を求める人には合わない場合があります。レガシー移行案件に偏ると、汎用的なクラウド設計スキルが伸びにくいリスクもあります。AWS/GCPの基礎も押さえ、「特定ベンダーに閉じすぎない」ことが転職市場でのリスクへの備えになります。
             </p>
             <p>
               年収面では、レバテック公表の正社員SE平均が40代で約618万円、年収1,000万円以上の割合が40代で12.67%（2025年）と、ミドルでも高年収帯は一定数存在します。年代別の市場感は
@@ -387,7 +387,7 @@ export default function AzureSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Azureスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            エンタープライズ・業務系クラウド案件に強いIT特化型エージェントで、ご自身のAzureスキルの市場価値を確認しましょう。
+            エンタープライズ・業務系クラウド案件を扱うIT特化型エージェントで、ご自身のAzureスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

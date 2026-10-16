@@ -16,7 +16,7 @@ const PAGE_DESC =
   "ビズリーチのエンジニア向け評判を30代・40代目線で解説します。有料プラン（Web決済5,478円/月・2022年11月改定）の要否と、無料会員でできる範囲を整理します。ハイクラス・スカウト型の実態を口コミ傾向と実データで検証します。";
 
 const toc = [
-  { id: "summary", label: "結論：ビズリーチ（エンジニア）はこのような方向け" },
+  { id: "summary", label: "ビズリーチ（エンジニア）はこのような方向け" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "pricing", label: "有料プランと無料会員の違い（実情版）" },
   { id: "strengths", label: "特徴・強み" },
@@ -182,18 +182,18 @@ export default function BizreachItReview() {
           sources={["ビズリーチ公式会社概要", "ミライトーチ・morejob等の口コミメディア集計（規模・料金は二次情報、2025年4月／2022年11月時点）"]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：ビズリーチ（エンジニア）はこのような方向け</h2>
+            <h2 className="text-xl font-bold text-blue-900 mb-3">ビズリーチ（エンジニア）はこのような方向け</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               総合評価は <span className="font-bold">★★★★☆（4.0 / 5.0・当サイト編集部の総合判断）</span>。
               <span className="font-bold">「現年収750万円前後以上で、ハイクラス・技術マネジメント職や市場価値の把握を狙うミドルエンジニア」</span>に向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・年収1,000万円以上の求人が全体の約4割（二次情報）というハイクラス特化が最大の強み</li>
-              <li>・スカウト型であるため、まず無料会員で登録して自分宛のスカウト状況を見るのが正しい入口</li>
-              <li>・有料プランはWeb決済5,478円/月です（2022年11月改定・二次）。無料で足りるかをまず見極めるのが大切</li>
+              <li>・年収1,000万円以上の求人が全体の約4割（二次情報）というハイクラス特化が最大の強みです</li>
+              <li>・スカウト型であるため、まず無料会員で登録して自分宛のスカウト状況を確認するのが適切な始め方です</li>
+              <li>・有料プランはWeb決済5,478円/月です（2022年11月改定・二次）。無料で足りるかをまず見極めることが大切です</li>
             </ul>
           </div>
         </section>
@@ -259,7 +259,7 @@ export default function BizreachItReview() {
               <ul className="space-y-2 text-sm text-slate-600">
                 <li className="flex items-start gap-2"><span className="text-petrol shrink-0">＋</span>すべてのスカウトの閲覧・返信（範囲拡大）</li>
                 <li className="flex items-start gap-2"><span className="text-petrol shrink-0">＋</span>求人検索からの自主応募などの機能</li>
-                <li className="flex items-start gap-2"><span className="text-petrol shrink-0">＋</span>積極的に攻めたい人向け</li>
+                <li className="flex items-start gap-2"><span className="text-petrol shrink-0">＋</span>積極的に応募したい方向け</li>
               </ul>
               <p className="text-xs text-slate-400 mt-3">
                 ※2022年11月改定・税込5,478円/月（二次情報）。自動更新の場合があるため不要時は更新前に解約してください。
@@ -376,13 +376,13 @@ export default function BizreachItReview() {
               レバテックの公表値（2025年）では正社員SEの30代平均年収は約499万円、年収1,000万円以上の割合は30代で8.01%とされています。現年収がハイクラス基準（年収750万円・二次情報）に届いていない場合、まずは無料会員でどんなスカウトが届くかを見て、自分の市場価値を測る使い方が現実的です。有料課金は、応募を一気に進めたい局面に絞るのが堅実です。
             </p>
             <p>
-              <span className="font-bold text-slate-800">40代は「ハイクラス・管理職の中心的な活躍領域」になり得ます。</span>
-              同公表値では40代の正社員SE平均年収は約618万円、年収1,000万円以上の割合は40代で12.67%とされ、30代より高ハイクラス層が厚いことが分かります。マネジメント経験や特定領域の専門性がある40代は、CTO/VPoEや管理職スカウトの対象になりやすく、ビズリーチを中心的な活躍領域にできる可能性があります。
+              <span className="font-bold text-slate-800">40代はハイクラス・管理職転職の中心的なサービスになり得ます。</span>
+              同公表値では40代の正社員SE平均年収は約618万円、年収1,000万円以上の割合は40代で12.67%とされ、30代よりハイクラス層が厚いことが分かります。マネジメント経験や特定領域の専門性がある40代は、CTO/VPoEや管理職スカウトの対象になりやすく、ビズリーチを中心に活用できる可能性があります。
             </p>
             <p>
               経済産業省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれており、経験豊富なミドル層の希少性は今後も高いと考えられます。ビズリーチは「待ちながら市場価値を測る」用途と相性が良いため、エージェント型の
               <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
-              などと併用し、攻め（自主応募）と受け（スカウト）を両立させるのがおすすめです。
+              などと併用し、自主応募とスカウト受信を両立させるのがおすすめです。
               <Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>
               も参考にしてください。
             </p>

@@ -28,7 +28,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
@@ -64,11 +64,11 @@ const faqs = [
   },
   {
     q: "さくらインターネットへの転職難易度は高いですか？",
-    a: "Linux・仮想化・ネットワークなどインフラの基礎力に加え、大規模クラウド基盤やIaC（Terraform等）の実務経験が評価されます。自社クラウドを開発する企業ならではの低レイヤー理解が問われる傾向で、インフラ志向のエンジニアには適性が活きやすい環境です。",
+    a: "Linux・仮想化・ネットワークなどインフラの基礎力に加え、大規模クラウド基盤やIaC（Terraform等）の実務経験が評価されます。自社クラウドを開発する企業ならではの低レイヤー理解が問われる傾向があり、インフラ志向のエンジニアには適性が活きやすい環境です。",
   },
   {
     q: "30代・40代でもさくらインターネットに転職できますか？",
-    a: "平均年齢40.3歳と幅のある組織で、年齢よりもインフラ・クラウドの専門性が問われます。データセンター運用・ネットワーク・大規模クラウド基盤・SREの経験があると、30代40代のミドルエンジニアでも年齢はハンデになりにくい傾向です。",
+    a: "平均年齢40.3歳と幅のある組織で、年齢よりもインフラ・クラウドの専門性が問われます。データセンター運用・ネットワーク・大規模クラウド基盤・SREの経験があると、30代40代のミドルエンジニアでも年齢はハンデになりにくい傾向があります。",
   },
 ];
 
@@ -96,7 +96,7 @@ export default function SakuraInternetCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】さくらインターネットの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: さくらインターネット株式会社の全社員平均年収は741万円です（2026年3月期 有価証券報告書・平均年齢40.3歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>さくらインターネット株式会社の全社員平均年収は741万円です（2026年3月期 有価証券報告書・平均年齢40.3歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 741万円です（2026年3月期 有価証券報告書）。技術職に限らない全社員平均です。</li><li>・推移は2024年3月期614万円→2025年3月期700万円→2026年3月期741万円と2年で120万円超上昇しています（各期 有価証券報告書）。</li><li>・専門性の高いインフラ・SREポジションでは全社平均と異なる水準が提示される場合があり、実額は個別求人・面談で確認が必要です。</li></ul>
         </div>
 
@@ -116,14 +116,14 @@ export default function SakuraInternetCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               さくらインターネットは<strong>データセンターと自社クラウド基盤を運営し、低レイヤーから大規模クラウド・GPUインフラまで携われる国産インフラ企業</strong>です。Linux・仮想化・ネットワーク・IaCの実務経験が直接活きる、インフラ・SRE志向のエンジニアに適した環境です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Linux・仮想化・ネットワーク・大規模クラウド基盤に強く、低レイヤーの理解を深めたいインフラ／SREエンジニア</li>
               <li>● <strong>向いていない人</strong>：toC向けアプリのフロント開発に専念したい人、インフラに関心が薄い人</li>
-              <li>● <strong>30代・40代</strong>：インフラ・クラウド・ネットワークの専門性があれば年齢はハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：インフラ・クラウド・ネットワークの専門性があれば年齢はハンデになりにくい傾向</li>
             </ul>
           </div>
         </section>
@@ -161,7 +161,7 @@ export default function SakuraInternetCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データセンター・クラウド基盤を内製運営</h3>
-              <p className="text-sm text-petrol-deep">物理データセンターから仮想化基盤、IaaSのコントロールプレーンまでを自社で開発・運用しています。クラウドの「中の人」として、低レイヤーから大規模分散システムまで携われるのが大きな特徴です。</p>
+              <p className="text-sm text-petrol-deep">物理データセンターから仮想化基盤、IaaSのコントロールプレーンまでを自社で開発・運用しています。クラウドを提供する側として、低レイヤーから大規模分散システムまで携われるのが大きな特徴です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">生成AI向けGPUクラウドへの投資</h3>
@@ -269,7 +269,7 @@ export default function SakuraInternetCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。インフラ・SRE・クラウド求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。インフラ実務経験者への提案数が多いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。インフラ実務経験者への提案数が多い傾向にあります。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャー・事業会社に強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

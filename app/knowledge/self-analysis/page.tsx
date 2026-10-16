@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "技術力以外にアピールできる強みが見つかりません",
-    a: "エンジニアの強みは技術力だけではありません。『複雑な要件を整理する力』『非エンジニアへの説明力』『障害発生時の冷静な対応力』なども立派な強みです。過去に周囲から感謝された場面を思い出すと発見しやすいです。",
+    a: "エンジニアの強みは技術力だけではありません。『複雑な要件を整理する力』『非エンジニアへの説明力』『障害発生時の冷静な対応力』なども立派な強みです。過去に周囲から感謝された場面を思い出すと発見しやすくなります。",
   },
   {
     q: "キャリアの棚卸しで最初にやるべきことは？",
@@ -97,14 +97,14 @@ export default function SelfAnalysisPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの自己分析は何をすればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: キャリアの棚卸し・Will-Can-Must・モチベーショングラフ・価値観リストの順に手を動かせば、自分の強みと方向性が自然に見えてきます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・30代・40代は経験が長い分、棚卸しをすると強みが埋もれていることが多いです</li><li>・Will（やりたい）・Can（できる）・Must（求められる）の3つが重なる領域が、長く伸ばせるキャリアの軸です</li><li>・分析結果は職務経歴書の自己PR・志望動機・面接回答の一貫した軸にします</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>キャリアの棚卸し・Will-Can-Must・モチベーショングラフ・価値観リストの順に手を動かせば、自分の強みと方向性が自然に見えてきます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・30代・40代は経験が長い分、棚卸しをすると強みが埋もれていることが多くあります</li><li>・Will（やりたい）・Can（できる）・Must（求められる）の3つが重なる領域が、長く伸ばせるキャリアの軸です</li><li>・分析結果は職務経歴書の自己PR・志望動機・面接回答の一貫した軸にします</li></ul>
           </div>
         </section>
 
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
-            自己分析は『自分の言葉でキャリアを語れる状態』を作る作業です。30代・40代は経験が長い分、棚卸しをすると強みが埋もれていることが少なくありません。逆に言えば、整理するだけで職務経歴書も面接も一気に通りやすくなります。
+            自己分析は『自分の言葉でキャリアを語れる状態』を作る作業です。30代・40代は経験が長い分、棚卸しをすると強みが埋もれていることが少なくありません。逆に言えば、整理するだけで職務経歴書も面接も通りやすくなります。
           </p>
           <p className="text-slate-600 leading-relaxed">
             本記事は<strong>書き込み式のワークシート集</strong>です。キャリアの棚卸し・Will-Can-Must・モチベーショングラフ・価値観リストの順に手を動かせば、強みと方向性が自然に見えてきます。
@@ -183,8 +183,8 @@ export default function SelfAnalysisPage() {
                 ["自分の役割", "実装担当 / 設計リード / PM補佐 など"],
                 ["チーム規模", "人数と職種構成"],
                 ["使用技術", "言語・FW・インフラ・ツール"],
-                ["具体的な行動", "自分が主体で取り組んだことを動詞で書きます"],
-                ["成果（数値）", "改善前後の数値か改善率で（→ STARのR）"],
+                ["具体的な行動", "自分が主体で取り組んだこと（動詞で記述）"],
+                ["成果（数値）", "改善前後の数値または改善率（→ STARのR）"],
                 ["学び・身についた力", "技術面と非技術面の両方"],
                 ["やりがい／しんどさ", "どこに手応え・消耗を感じたか"],
               ].map(([k, v], i) => (
@@ -207,7 +207,7 @@ export default function SelfAnalysisPage() {
           <div className="grid gap-4 sm:grid-cols-3">
             {[
               { t: "Will（やりたい）", d: "技術的な興味・挑戦したい領域・なりたい姿です。例：『大規模分散システムの設計に深く関わりたい』", c: "bg-petrol-soft text-blue-800" },
-              { t: "Can（できる）", d: "実務経験のあるスキル・実績・周囲に頼られることが重要です。棚卸しワークシートから抽出します。", c: "bg-emerald-50 text-emerald-800" },
+              { t: "Can（できる）", d: "実務経験のあるスキル・実績・周囲に頼られることです。棚卸しワークシートから抽出します。", c: "bg-emerald-50 text-emerald-800" },
               { t: "Must（求められる）", d: "求人市場でニーズが高い技術・役割です。エージェント面談で客観的に把握します。", c: "bg-amber-50 text-amber-800" },
             ].map((w, i) => (
               <div key={i} className={`rounded-xl p-5 ${w.c}`}>
@@ -217,7 +217,7 @@ export default function SelfAnalysisPage() {
             ))}
           </div>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-4">
-            <p className="text-sm text-slate-600"><strong>重なりの読み解き方：</strong>Will×Canだけで動くと『やりたいけど需要がない』、Can×Mustだけだと『できるけど情熱が続かない』。3つが重なる領域こそ、長く伸ばせるキャリアの軸です。Mustはひとりでは分かりにくいので<Link href="/knowledge/market-value/" className="text-petrol underline">市場価値の調べ方</Link>も併用しましょう。</p>
+            <p className="text-sm text-slate-600"><strong>重なりの読み解き方：</strong>Will×Canだけで動くと『やりたいけど需要がない』、Can×Mustだけだと『できるけど情熱が続かない』状態になりがちです。3つが重なる領域こそ、長く伸ばせるキャリアの軸です。Mustはひとりでは分かりにくいので<Link href="/knowledge/market-value/" className="text-petrol underline">市場価値の調べ方</Link>も併用しましょう。</p>
           </div>
         </section>
 

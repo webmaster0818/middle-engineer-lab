@@ -12,19 +12,19 @@ export const metadata: Metadata = {
 };
 
 const skillTable = [
-  ["広告配信の仕組みの理解（DSP/SSP/DMP）", "そのまま強み", "プラットフォーム間の商流を分かる人は限られ、アドテック企業で評価されやすいです"],
+  ["広告配信の仕組みの理解（DSP/SSP/DMP）", "そのまま強み", "プラットフォーム間の商流を分かる人は限られ、アドテック企業で評価されやすい傾向があります"],
   ["効果測定・トラッキング・レポーティングの実務", "そのまま強み", "計測設計やデータ定義の理解は移行後すぐ活きます"],
-  ["大規模データ処理（SQL/分散処理）", "埋めるギャップ", "Spark/Flinkなど大量ログ処理の経験を補強したい求人が多いです"],
-  ["リアルタイム処理（Kafka等）", "埋めるギャップ", "入札・配信のストリーム処理を扱うポジションで問われやすいです"],
+  ["大規模データ処理（SQL/分散処理）", "埋めるギャップ", "Spark/Flinkなど大量ログ処理の経験を補強したい求人が多い傾向にあります"],
+  ["リアルタイム処理（Kafka等）", "埋めるギャップ", "入札・配信のストリーム処理を扱うポジションで問われやすい傾向があります"],
   ["ML基礎（CTR予測・レコメンド）", "伸ばすと有利", "最適化・予測に関わるなら特徴量設計やモデル運用の理解が役立ちます"],
   ["プライバシー関連技術の知識", "差別化要素", "Cookie代替・同意管理などの理解は新しい開発テーマで重宝されます"],
 ];
 
 const jobTypes = [
-  ["アドテック開発（DSP/SSP/DMP）", "アドテックベンダー、プラットフォーマー", "配信・入札基盤の開発。広告商流の理解が直接活きる"],
+  ["アドテック開発（DSP/SSP/DMP）", "アドテックベンダー、プラットフォーマー", "配信・入札基盤の開発。広告商流の理解を直接活かせる領域"],
   ["データエンジニア（広告データ基盤）", "アドテック、マーケテック企業", "広告ログのパイプライン・DWH構築。計測の実務知識が強み"],
-  ["MLエンジニア（最適化・予測）", "アドテック、プラットフォーマー", "CTR予測・入札最適化。データ＋MLの素養が求められる"],
-  ["プライバシー／計測領域", "アドテック、マーケテック", "Cookie代替・同意管理・クリーンルーム。新しいテーマで需要が見られる"],
+  ["MLエンジニア（最適化・予測）", "アドテック、プラットフォーマー", "CTR予測・入札最適化。データとMLの素養が求められる領域"],
+  ["プライバシー／計測領域", "アドテック、マーケテック", "Cookie代替・同意管理・クリーンルーム。新しいテーマとして需要が見られる領域"],
 ];
 
 const faqs = [
@@ -68,7 +68,7 @@ const related = [
 ];
 
 const toc = [
-  ["conclusion", "結論：この転職の現実性"],
+  ["conclusion", "この転職の現実性"],
   ["trend", "広告のIT化・採用動向"],
   ["skills", "活かせるスキル／埋めるギャップ"],
   ["patterns", "転職パターン（職種×企業タイプ）"],
@@ -114,11 +114,11 @@ export default function AdvertisingPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：この転職の現実性</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">この転職の現実性</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">広告配信の仕組みと計測の実務知識を持つエンジニアにとって、アドテック領域への転職は十分に狙えるルートです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・DSP/SSP/DMPや効果測定の理解は、アドテック企業で「分かる人」が限られるため差別化になりやすいです。</li>
+              <li>・DSP/SSP/DMPや効果測定の理解は、アドテック企業で「分かる人」が限られるため差別化になりやすい傾向があります。</li>
               <li>・求人の多くは大規模データ処理・リアルタイム処理の経験を求めます。ここが主なギャップです。</li>
               <li>・30代・40代は業務知識の厚みが強みです。データ基盤面の不足は在職中の学習で補えます。</li>
             </ul>
@@ -202,9 +202,9 @@ export default function AdvertisingPage() {
           <p className="text-slate-600 leading-relaxed mb-4">アドテック領域の受け皿は、おおまかに次のタイプに分かれます。どこが自分の経験を活かせるかで応募戦略を決めます。</p>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              ["アドテックベンダー／プラットフォーマー", "DSP/SSP/DMPなど配信基盤。広告商流の理解が直接活きる"],
+              ["アドテックベンダー／プラットフォーマー", "DSP/SSP/DMPなどの配信基盤。広告商流の理解を直接活かせる領域"],
               ["マーケテック企業", "MA・CDP・計測。データ活用とプロダクト開発の両面"],
-              ["事業会社のマーケ／データ部門", "自社サービスの広告・データ活用。業務理解が評価されやすい"],
+              ["事業会社のマーケ／データ部門", "自社サービスの広告・データ活用。業務理解が評価されやすい環境"],
               ["リテールメディア／新しい配信面", "小売・配信事業の広告基盤。成長余地のある領域"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -241,7 +241,7 @@ export default function AdvertisingPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代で広告からアドテックへ移る場合、強みは「広告商流と計測の業務知識」です。広告がどう配信され、どう測られ、どこで最適化されるかを実務で理解している人材は、アドテック企業でも貴重で、若手にはない説得力を持てます。採用側はデータ基盤やリアルタイム処理の経験を見るため、ここを補う準備が鍵になります。</p>
             <p>40代では、開発力に加えてプロジェクトやチームをまとめる経験が評価されやすくなります。広告運用・開発で培った推進力や関係者調整の経験を、プロダクト開発の文脈で語れるよう整理しておくと選択肢が広がります。年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの転職年収</Link>も参考にしてください。</p>
-            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>も合わせてどうぞ。</p>
+            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安については<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>もあわせてご覧ください。</p>
           </div>
         </section>
 
@@ -258,7 +258,7 @@ export default function AdvertisingPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">広告の知識をアドテックで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">広告の知識をアドテック領域で活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の経験が市場でどう評価されるかを確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>

@@ -106,10 +106,10 @@ export default function CertComparePage() {
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-4">資格選びのポイント（30・40代の転職視点）</h2>
           <ul className="space-y-3 text-slate-600 leading-relaxed list-disc pl-5">
-            <li><strong>合格率＝難易度の目安</strong>：IPA高度試験（PM・支援士・各スペシャリスト）は合格率14〜18%と難関で、経験者の専門性証明に向きます。基本情報・ITパスポートは40〜48%で、異業種からの入口になります。</li>
-            <li><strong>受験料はIPA国家試験が割安</strong>：IPAはどれも7,500円と低コストです。一方クラウド・外資ベンダー（CISSP 749USD、CKA 445USD、Oracle Java 約41,773円）は高めで、合格率も非公表が多いです。</li>
-            <li><strong>「非公表」は実力試験</strong>：AWS・Azure・GCP・Cisco上位などは合格率非公表ですが、実務に直結し転職市場での評価が高い資格群です。合格率の数字がない＝難易度不明ではなく、スコア型で実力が問われると捉えましょう。</li>
-            <li><strong>年代別の選び方</strong>：30・40代は「今の実務に直結し、即戦力を裏づける資格」（クラウド系・高度試験）が費用対効果大です。未経験分野への参入は基本情報・CCNA・LPICが入口になります。各資格の詳細ページで年収傾向・活かし方を確認してください。</li>
+            <li><strong>合格率は難易度の目安</strong>：IPA高度試験（PM・支援士・各スペシャリスト）は合格率14〜18%と難関で、経験者の専門性証明に向きます。基本情報・ITパスポートは40〜48%で、異業種からの入口になります。</li>
+            <li><strong>受験料はIPA国家試験が割安</strong>：IPAはどれも7,500円と低コストです。一方クラウド・外資ベンダー（CISSP 749USD、CKA 445USD、Oracle Java 約41,773円）は高めで、合格率も非公表が多い傾向にあります。</li>
+            <li><strong>合格率「非公表」の資格はスコア型の実力試験</strong>：AWS・Azure・GCP・Cisco上位などは合格率非公表ですが、実務に直結し転職市場での評価が高い資格群です。合格率が公表されていないことは難易度が不明であることを意味せず、スコア型で実力が問われる試験と捉えるのが適切です。</li>
+            <li><strong>年代別の選び方</strong>：30・40代は「今の実務に直結し、即戦力を裏づける資格」（クラウド系・高度試験）の費用対効果が高い傾向にあります。未経験分野への参入は基本情報・CCNA・LPICが入口になります。各資格の詳細ページで年収傾向・活かし方を確認してください。</li>
           </ul>
         </section>
 
@@ -124,7 +124,7 @@ export default function CertComparePage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-3">資格を活かせる転職先を見つけよう</h2>
+          <h2 className="text-xl font-bold mb-3">資格を活かせる転職先を探す</h2>
           <p className="text-blue-100 text-sm mb-4">取得した資格・実務経験が評価される求人を、IT特化エージェントに無料相談して紹介してもらいましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>

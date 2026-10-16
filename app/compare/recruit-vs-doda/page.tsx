@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どちらがおすすめか" },
+  { id: "conclusion", label: "どちらがおすすめか" },
   { id: "basic", label: "基本データ比較表（2026年6月時点）" },
   { id: "kyujin", label: "項目別比較①：求人数・求人の傾向" },
   { id: "salary", label: "項目別比較②：年収アップ実績" },
@@ -32,19 +32,19 @@ const comparison = [
   { item: "サービス形態", a: "総合型エージェント（IT領域含む）", b: "総合型。検索＋エージェント＋スカウトのハイブリッド" },
   { item: "IT公開求人数", a: "IT公開求人110,840件／非公開101,680件（2026年5月22日時点・二次集計）", b: "IT・通信エンジニア求人5万件超（2026年2月時点・二次経由）" },
   { item: "対応エリア", a: "全国", b: "全国" },
-  { item: "得意領域（IT傾向）", a: "国内最大級の求人数。大手〜スタートアップまで網羅しています。非公開求人が豊富", b: "求人量が多く好条件求人が多い。検索とスカウトの併用が可能" },
-  { item: "年収アップ実績", a: "統一された公式アップ率は未確認（断定なし）", b: "転職者の約6割が年収アップを実現しています。IT・通信の平均決定年収469万→486万円（2024年度・公表値）" },
-  { item: "サポート", a: "書類添削・面接対策が丁寧。サポート期間は3か月との声", b: "2名体制でのサポートになる場合があります。コンテンツが充実" },
+  { item: "得意領域（IT傾向）", a: "国内最大級の求人数。大手〜スタートアップまで網羅。非公開求人が豊富", b: "求人量・好条件求人が多い傾向。検索とスカウトの併用が可能" },
+  { item: "年収アップ実績", a: "統一された公式アップ率は未確認（断定なし）", b: "転職者の約6割が年収アップ。IT・通信の平均決定年収469万→486万円（2024年度・公表値）" },
+  { item: "サポート", a: "書類添削・面接対策が丁寧との評判。サポート期間は3か月との声", b: "2名体制でのサポートの場合あり。コンテンツが充実" },
   { item: "料金", a: "完全無料", b: "完全無料" },
 ];
 
 const faqs = [
   { q: "リクルートエージェントとdodaの最大の違いは何ですか？", a: "どちらも国内最大級の総合型ですが、リクルートエージェントは求人数の多さが際立ちます（IT公開求人110,840件・非公開101,680件／2026年5月22日時点の二次集計）。dodaは「検索＋エージェント＋スカウト」のハイブリッド型で、自分でも求人を探せる自由度が特徴です。受け身で提案を待つならリクルート、自分でも動きたいならdodaという整理ができます。" },
-  { q: "IT求人が多いのはどちらですか？", a: "求人数の絶対値ではリクルートエージェントが多く、IT公開求人110,840件・非公開101,680件（2026年5月22日時点・二次集計）です。dodaもIT・通信エンジニア求人5万件超（2026年2月時点・二次経由）と豊富で、検索機能で自分の条件に合う求人を直接探せます。数を重視するならリクルート、探しやすさも重視するならdodaです。" },
+  { q: "IT求人が多いのはどちらですか？", a: "求人数の絶対値ではリクルートエージェントが多く、IT公開求人110,840件・非公開101,680件（2026年5月22日時点・二次集計）です。dodaもIT・通信エンジニア求人5万件超（2026年2月時点・二次経由）と豊富で、検索機能で自分の条件に合う求人を直接探せます。数を重視するならリクルート、探しやすさも重視するならdodaが適しています。" },
   { q: "年収アップを狙うならどちらがおすすめですか？", a: "dodaは運営元パーソルキャリアの『2024年度 決定年収レポート』（2025年5月公表）で、転職者の約6割が年収アップ、IT・通信の平均決定年収が469万円（2023年度）から486万円（2024年度）に上昇したと公表しています。リクルートエージェントは統一された公式アップ率が未確認のため断定はできませんが、求人数の多さから条件の良い求人に出会える機会が多い構造です。" },
   { q: "サポートが手厚いのはどちらですか？", a: "リクルートエージェントは実績に基づく書類添削・面接対策が丁寧という評判がある一方、サポート期間が3か月で短い、対応が事務的という声もあります（Qiita Job Change等）。dodaは2名体制でサポートされる場合があり、自己分析ツールなどコンテンツが充実しています。ただしどちらもアドバイザー個人の力量に左右される点は共通です。" },
   { q: "連絡が多い・しつこいという口コミは本当ですか？", a: "両社とも求人・連絡が多すぎるという声が見られます（リクルートは連絡頻度が高い、dodaは求人・連絡が多すぎるとの指摘）。これは求人量が多いことの裏返しでもあります。希望条件と連絡手段・頻度を最初に明確に伝えることで、配信量をコントロールできます。" },
-  { q: "30代・40代のエンジニアにはどちらが向いていますか？", a: "どちらも全年代に対応します。求人の絶対数が多いリクルートエージェントは、40代の管理職求人や地方求人も含め選択肢を広く確保しやすい傾向です。dodaは検索とスカウトを併用でき、自分のペースで進めたい30代のキャリアアップ転職と相性が良い傾向です。詳しくは記事内の「30代・40代の視点」をご覧ください。" },
+  { q: "30代・40代のエンジニアにはどちらが向いていますか？", a: "どちらも全年代に対応します。求人の絶対数が多いリクルートエージェントは、40代の管理職求人や地方求人も含め選択肢を広く確保しやすい傾向があります。dodaは検索とスカウトを併用でき、自分のペースで進めたい30代のキャリアアップ転職と相性が良いといえます。詳しくは記事内の「30代・40代の視点」をご覧ください。" },
   { q: "退会や連絡停止は簡単にできますか？", a: "両サービスとも会員ページや担当者への連絡で退会・配信停止が可能です。連絡が多いと感じる場合は、退会の前にまず連絡頻度や希望条件の見直しを依頼すると、必要な求人だけを受け取れるようになります。" },
   { q: "IT特化型エージェントと併用すべきですか？", a: "おすすめです。総合型2社を重ねるより、リクルートまたはdodaのどちらか1社に、レバテックキャリアやGeeklyなどIT特化型を組み合わせる方が効率的です。総合型は1社で十分な求人数を確保でき、IT特化型は技術理解の深いアドバイザーが補完してくれます。" },
 ];
@@ -54,7 +54,7 @@ const goodRec = [
   "大手からスタートアップまで幅広く比較したい",
   "非公開求人にもアクセスしたい",
   "書類添削・面接対策を実績ベースで受けたい",
-  "40代で管理職・地方求人も視野に入れています",
+  "40代で管理職・地方求人も視野に入れている",
 ];
 const goodDoda = [
   "エージェント任せでなく自分でも求人を探したい",
@@ -77,7 +77,7 @@ export default function RecruitVsDodaPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">リクルートエージェントとdodaをIT転職で比較｜どっちがおすすめ？</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 国内最大級の総合型エージェント2社をIT視点で比較</p>
 
-        <p className="text-slate-600 leading-relaxed mb-4">「リクルートエージェント doda IT 比較」で検索する方は、どちらの総合型に登録すべきか迷っているはずです。本記事は30代・40代のITエンジニア向けに、両サービスを求人数・年収・サポート・スピード・対象層の5項目で比較し、口コミ傾向とIT特化型との併用術まで整理しました。</p>
+        <p className="text-slate-600 leading-relaxed mb-4">「リクルートエージェント doda IT 比較」で検索する方は、どちらの総合型に登録すべきか迷っている方が多いと考えられます。本記事は30代・40代のITエンジニア向けに、両サービスを求人数・年収・サポート・スピード・対象層の5項目で比較し、口コミ傾向とIT特化型との併用術まで整理しました。</p>
 
         <DataNote surveyedAt="2026年6月" sources={["doda公式・パーソルキャリア決定年収レポート（2025年5月公表）", "リクルートエージェントIT 求人数の転職メディア集計（2026年5月22日時点）", "Qiita Job Change", "studio-tale", "HonNe等の口コミメディア集計"]} />
 
@@ -91,16 +91,16 @@ export default function RecruitVsDodaPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">どちらがおすすめか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
             <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・求人数の多さと選択肢の広さを最優先するなら「リクルートエージェント」</strong>。IT公開求人110,840件・非公開101,680件（2026年5月22日時点・二次集計）と国内最大級です。</li>
               <li><strong>・自分でも求人を探したい・年収アップ実績を重視するなら「doda」</strong>。検索＋エージェント＋スカウトのハイブリッドで、転職者の約6割が年収アップを実現しています（公表値）。</li>
-              <li><strong>・最適解は「どちらか1社＋IT特化型」</strong>。総合型は1社で十分な求人数を確保でき、IT特化型が技術理解の深さを補います。</li>
+              <li><strong>・おすすめは「どちらか1社＋IT特化型」の組み合わせ</strong>。総合型は1社で十分な求人数を確保でき、IT特化型が技術理解の深さを補います。</li>
             </ul>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm">両社とも完全無料です。理由は次の比較表と項目別解説で詳しくご説明します。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">両社とも完全無料です。判断の根拠は、次の比較表と項目別解説で詳しくご説明します。</p>
         </section>
 
         <section id="basic" className="mb-12 scroll-mt-20">
@@ -116,16 +116,16 @@ export default function RecruitVsDodaPage() {
 
         <section id="kyujin" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較①：求人数・求人の傾向</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">リクルートエージェントは国内最大級の求人数が最大の強みです。IT公開求人110,840件に加え、非公開求人101,680件（いずれも2026年5月22日時点・二次集計）を保有し、大手からスタートアップまで網羅します。非公開求人が豊富なため、エージェント経由でしか出会えない案件にアクセスできるのが強みです。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">リクルートエージェントは国内最大級の求人数が最大の強みです。IT公開求人110,840件に加え、非公開求人101,680件（いずれも2026年5月22日時点・二次集計）を保有し、大手からスタートアップまで網羅します。非公開求人が豊富なため、エージェント経由でしか出会えない案件にアクセスできる点も特徴です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">dodaはIT・通信エンジニア求人5万件超（2026年2月時点・二次経由）を保有し、検索＋エージェント＋スカウトのハイブリッド型である点が特徴です。自分で求人を検索して直接応募することも、アドバイザーに提案してもらうことも、スカウトを待つこともできます。求人量と「探しやすさ」を両立したい人に向きます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p><strong>まとめ：</strong>非公開求人を含む総量の多さならリクルート、自分でも探せる柔軟さならdodaです。なお、いずれも総合型のためIT専門性は<Link href="/compare/levtech-vs-doda/" className="text-petrol hover:underline">IT特化型エージェント</Link>に一歩譲る場面があり、併用が前提になります。</p>
+            <p><strong>まとめ：</strong>非公開求人を含む総量の多さならリクルート、自分でも探せる柔軟さならdodaが適しています。なお、いずれも総合型のためIT専門性は<Link href="/compare/levtech-vs-doda/" className="text-petrol hover:underline">IT特化型エージェント</Link>に一歩譲る場面があり、併用が前提になります。</p>
           </div>
         </section>
 
         <section id="salary" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較②：年収アップ実績</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">dodaは運営元パーソルキャリアの『2024年度 決定年収レポート』（2025年5月公表）で、転職者の約6割が年収アップしたこと、IT・通信の平均決定年収が469万円（2023年度）から486万円（2024年度）へ上昇したことを公表しています。年収アップの実績が公的なレポートとして示されている点は、判断材料として大きな安心感があります。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">dodaは運営元パーソルキャリアの『2024年度 決定年収レポート』（2025年5月公表）で、転職者の約6割が年収アップしたこと、IT・通信の平均決定年収が469万円（2023年度）から486万円（2024年度）へ上昇したことを公表しています。年収アップの実績が運営元の公表レポートとして示されている点は、判断材料として参考になります。</p>
           <p className="text-slate-600 leading-relaxed mb-4">リクルートエージェントは統一された公式の年収アップ率が確認できないため、ここでは断定を避けます。ただし、求人数が国内最大級であること自体が、より条件の良い求人に出会える機会の多さにつながります。複数の選択肢を比較できる環境は、結果として年収交渉の余地を広げます。</p>
           <p className="text-slate-600 leading-relaxed text-sm">年代別の年収相場は<Link href="/compare/salary-ranking/" className="text-petrol hover:underline">年収ランキング</Link>、交渉の具体策は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>もあわせてご確認ください。</p>
         </section>
@@ -153,7 +153,7 @@ export default function RecruitVsDodaPage() {
 
         <section id="target" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較⑤：対象層・年代適性</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">リクルートエージェントは全国・全年代・全領域をカバーする求人量が強みで、40代の管理職求人や地方求人も含め幅広い選択肢を確保しやすい傾向です。選択肢を最大化したい人に向きます。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">リクルートエージェントは全国・全年代・全領域をカバーする求人量が強みで、40代の管理職求人や地方求人も含め幅広い選択肢を確保しやすい傾向があります。選択肢を最大化したい人に向きます。</p>
           <p className="text-slate-600 leading-relaxed mb-4">dodaは検索・エージェント・スカウトを使い分けられるため、自分の市場価値を測りながら能動的に動きたい30代のキャリアアップ層と相性が良い設計です。なお、どちらも総合型のためIT専門性の深さでは特化型に譲る場面があり、IT特化型の併用が現実的です。</p>
         </section>
 
@@ -164,17 +164,17 @@ export default function RecruitVsDodaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>圧倒的な求人数</li><li>非公開求人が充実</li><li>書類添削・面接対策が丁寧</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>国内最大級の求人数を保有しています</li><li>非公開求人が充実しています</li><li>書類添削・面接対策が丁寧です</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>対応が事務的との声があります</li><li>連絡頻度が高いです</li><li>サポート期間が3か月で短いです</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>対応が事務的との声があります</li><li>連絡頻度が高い傾向があります</li><li>サポート期間が3か月と短い傾向があります</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：Qiita Job Change等</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">dodaの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>求人量が多い</li><li>好条件求人が多い</li><li>2名体制サポートの場合あり</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>求人量が多い傾向にあります</li><li>好条件求人が多い傾向にあります</li><li>2名体制でサポートを受けられる場合があります</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>求人・連絡が多すぎる</li><li>アドバイザーの質にばらつき</li><li>IT専門性がやや低いとの声</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>求人・連絡が多すぎるとの声があります</li><li>アドバイザーの質にばらつきがあります</li><li>IT専門性がやや低いとの声があります</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：studio-tale／best-w／freeconsul／HonNe等</p>
             </div>
           </div>
@@ -234,8 +234,8 @@ export default function RecruitVsDodaPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">総合型は1社＋IT特化型で死角をなくす</h2>
-          <p className="text-blue-100 text-sm mb-4">リクルートまたはdodaで求人の母数を確保し、IT特化型で専門性を補います。30代・40代エンジニアに最適な組み合わせです。</p>
+          <h2 className="text-xl font-bold mb-3">総合型1社とIT特化型の組み合わせで、求人量と専門性を補い合う</h2>
+          <p className="text-blue-100 text-sm mb-4">リクルートまたはdodaで求人の母数を確保し、IT特化型で専門性を補います。30代・40代エンジニアに適した組み合わせです。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

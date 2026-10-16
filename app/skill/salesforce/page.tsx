@@ -10,11 +10,11 @@ const PAGE_DESC =
   "Salesforceエンジニアの転職を年収データ・認定資格・求人の探し方まで解説します。求人ボックスの公表年収やレバテック年代別データを出典を明記して掲載しています。30代・40代の参入ルートとおすすめエージェントも紹介します。";
 
 const toc = [
-  { id: "conclusion", label: "結論：Salesforce転職の進め方" },
+  { id: "conclusion", label: "Salesforce転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
-  { id: "find", label: "求人の探し方・強いエージェント" },
+  { id: "find", label: "求人の探し方と主なエージェント" },
   { id: "entry", label: "経験浅めからの参入ルート" },
   { id: "mid", label: "30代・40代視点" },
   { id: "study", label: "スキルアップ・学習戦略" },
@@ -25,22 +25,22 @@ const toc = [
 const careerPaths = [
   {
     role: "Salesforce開発者（Developer）",
-    note: "Apex・LWC（Lightning Web Components）・APIでのカスタマイズ開発。Java等の開発経験から移行しやすい入口です。",
+    note: "Apex・LWC（Lightning Web Components）・APIでのカスタマイズ開発を担います。Java等の開発経験から移行しやすい入口です。",
     cert: "Platform Developer I / II",
   },
   {
     role: "Salesforce管理者（Administrator）",
-    note: "オブジェクト設計・権限・フロー・レポート構築など運用設計。業務側との橋渡し役です。",
+    note: "オブジェクト設計・権限・フロー・レポート構築などの運用設計を担う、業務側との橋渡し役です。",
     cert: "認定アドミニストレーター",
   },
   {
     role: "導入コンサルタント",
-    note: "要件定義・業務設計・プロジェクト推進。営業/CS/マーケの業務知識を掛け合わせると強いです。",
+    note: "要件定義・業務設計・プロジェクト推進を担います。営業/CS/マーケの業務知識を掛け合わせると有利です。",
     cert: "Sales Cloud / Service Cloud コンサルタント",
   },
   {
     role: "アーキテクト",
-    note: "マルチクラウド連携・大規模設計・技術リード。Salesforce資格体系の最上位に位置づく領域です。",
+    note: "マルチクラウド連携・大規模設計・技術リードを担う領域で、Salesforce資格体系の最上位に位置づけられます。",
     cert: "認定アーキテクト（上位資格）",
   },
 ];
@@ -48,15 +48,15 @@ const careerPaths = [
 const certs = [
   {
     name: "Salesforce認定アドミニストレーター",
-    desc: "設定・運用の基礎を証明する登竜門です。開発職・コンサル職問わず最初に狙われることが多いです。",
+    desc: "設定・運用の基礎を証明する登竜門です。開発職・コンサル職を問わず最初に取得されることが多い資格です。",
   },
   {
     name: "Platform Developer I / II",
-    desc: "Apex・LWCを中心とした開発スキルの証明です。開発者ポジションの応募で評価されやすいです。",
+    desc: "Apex・LWCを中心とした開発スキルの証明です。開発者ポジションの応募で評価されやすい傾向があります。",
   },
   {
     name: "Sales Cloud / Service Cloud コンサルタント",
-    desc: "各クラウド製品の業務設計・導入スキルです。コンサル職への移行で強みになります。",
+    desc: "各クラウド製品の業務設計・導入スキルを証明します。コンサル職への移行で強みになります。",
   },
   {
     name: "認定アーキテクト系",
@@ -66,23 +66,23 @@ const certs = [
 
 const faqs = [
   {
-    q: "Salesforceエンジニアの年収はどれくらい？",
+    q: "Salesforceエンジニアの年収はどれくらいですか？",
     a: "求人ボックスの給料ナビでは、Salesforceエンジニアの平均年収は約472万円（2025年1月時点・公表値）とされています。これは募集中の求人票を集計した値で、経験年数や認定資格の保有数、開発職かコンサル職かによって幅が大きい点に注意が必要です。年代別の目安としては、レバテックが公表する正社員SEの平均年収（2025年）で30代約499万円・40代約618万円というデータが参考になります。",
   },
   {
-    q: "Salesforce認定資格は転職に有利？",
+    q: "Salesforce認定資格は転職に有利ですか？",
     a: "スキルを客観的に示せるため評価されやすい資格です。Salesforce認定資格は複数種類が体系化されており、上位資格も用意されています（Salesforce公式の認定制度より）。認定アドミニストレーターやPlatform Developer I/IIは、未経験寄りの応募でも学習意欲とスキルの裏付けとして見られやすい資格です。ただし資格だけでなく、実際の構築・運用経験を職務経歴書で具体的に示せるかが選考を左右します。",
   },
   {
-    q: "Salesforce未経験でも転職できる？",
+    q: "Salesforce未経験でも転職できますか？",
     a: "可能性はあります。SalesforceはTrailhead（公式の無料学習プラットフォーム）で体系的に学べるため、Java/Apex等の開発経験や、営業・カスタマーサポートなどの業務経験があれば、開発職・管理者職・コンサル職のいずれかの入口を狙えます。完全未経験よりは、既存スキルを掛け合わせて参入する方が現実的です。",
   },
   {
-    q: "Salesforceの求人はどんな企業に多い？",
+    q: "Salesforceの求人はどんな企業に多いですか？",
     a: "Salesforceの導入支援を手がけるパートナー企業（コンサルティング会社）、SaaS企業、金融機関や大手事業会社のDX部門などで募集が見られます。導入コンサルから開発・運用保守まで幅広いポジションがあり、業務知識と組み合わせると選択肢が広がります。",
   },
   {
-    q: "Salesforceエンジニアの将来性は？",
+    q: "Salesforceエンジニアの将来性はどうですか？",
     a: "CRM/SFA領域はDX推進の中核であり、導入企業の運用・改善ニーズは継続的に発生します。AI機能やSlack連携などエコシステムも拡大しています。一方で具体的な市場規模や成長率の断定は避けるべきで、求人動向は時期により変動します。最新の求人数は各エージェント・求人サイトで確認してください。",
   },
   {
@@ -90,7 +90,7 @@ const faqs = [
     a: "IT/Web特化で高年収求人比率が高いとされるレバテックキャリア、提案スピードに定評があるGeekly、ハイクラス・スカウト型のビズリーチが候補です。専門性の高い求人は複数登録して比較するのが基本です。各社の評判や強みは当サイトのレビュー記事も参考にしてください。",
   },
   {
-    q: "Salesforceエンジニアはしんどい・きつい？",
+    q: "Salesforceエンジニアの仕事は「しんどい・きつい」のでしょうか？",
     a: "導入プロジェクトでは要件変更や納期に追われる場面もあり、業務理解と技術の両方を求められる点を負担に感じる人もいます。一方で運用・改善フェーズが中心のポジションは比較的安定しています。働き方は企業・案件で差が大きいため、面談で残業・体制・フェーズを具体的に確認しましょう。",
   },
 ];
@@ -135,7 +135,7 @@ export default function SalesforceSkillPage() {
           最終更新: 2026年6月 | Salesforceスキルを軸にした転職市場での進め方を解説
         </p>
         <p className="text-slate-600 leading-relaxed mb-2">
-          SalesforceはCRM/SFA領域で広く使われるプラットフォームで、導入後のカスタマイズ・運用・改善を担えるエンジニアの需要が継続しています。求人DBサイトと同じ土俵で求人数を競うのではなく、本記事は「年収相場の捉え方」「認定資格の活かし方」「求人の探し方」という転職判断に必要な情報に絞って整理します。
+          SalesforceはCRM/SFA領域で広く使われるプラットフォームで、導入後のカスタマイズ・運用・改善を担えるエンジニアの需要が継続しています。求人DBサイトのように求人数を比較するのではなく、本記事は「年収相場の捉え方」「認定資格の活かし方」「求人の探し方」という転職判断に必要な情報に絞って整理します。
         </p>
 
         <DataNote
@@ -162,16 +162,16 @@ export default function SalesforceSkillPage() {
           </ol>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Salesforce転職の進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Salesforce転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Salesforce転職は<strong>「認定資格でスキルを可視化しつつ、業務知識を掛け合わせる」</strong>のが基本戦略です。Java等の開発経験があれば開発者（Apex/LWC）、営業・CSなどの業務経験があれば管理者・コンサル職と、入口が複数あるのが特徴です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① 認定アドミニストレーターやPlatform Developer I/IIで学習意欲とスキルを示します</li>
-              <li>② 開発・運用の実務経験を職務経歴書で具体的に書きます（資格だけでは弱い）</li>
+              <li>② 資格だけでは評価材料として不十分なため、開発・運用の実務経験を職務経歴書で具体的に書きます</li>
               <li>③ IT特化エージェントとハイクラス系を併用し、ポジションの種類を比較します</li>
             </ul>
           </div>
@@ -181,7 +181,7 @@ export default function SalesforceSkillPage() {
         <section id="market" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">市場・年収データ</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            Salesforceエンジニアの平均年収は、求人ボックスの給料ナビで<strong>約472万円（2025年1月時点・公表値）</strong>とされています。これは募集中の求人票を集計した値で、開発職・コンサル職の別、認定資格の保有数、経験年数によって実際の提示額は大きく振れます。年代別のレンジ感を掴むには、IT職全体の年代別データを併用するのが現実的です。
+            Salesforceエンジニアの平均年収は、求人ボックスの給料ナビで<strong>約472万円（2025年1月時点・公表値）</strong>とされています。これは募集中の求人票を集計した値で、開発職・コンサル職の別、認定資格の保有数、経験年数によって実際の提示額は大きく変わります。年代別のレンジ感を掴むには、IT職全体の年代別データを併用するのが現実的です。
           </p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-slate-200">
@@ -230,15 +230,15 @@ export default function SalesforceSkillPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ジュニア／第二新卒〜実務2年程度</h3>
-              <p className="text-sm text-slate-600">認定アドミニストレーターやTrailheadの学習実績、簡単な設定・カスタマイズ経験です。ポテンシャル採用枠で評価されやすいです。</p>
+              <p className="text-sm text-slate-600">認定アドミニストレーターやTrailheadの学習実績、簡単な設定・カスタマイズ経験です。ポテンシャル採用枠で評価されやすい傾向があります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ミドル（実務3〜7年）</h3>
-              <p className="text-sm text-slate-600">Apex/LWC開発の実務、複数オブジェクトの設計、外部システム連携の経験です。30代の中心レンジです。</p>
+              <p className="text-sm text-slate-600">Apex/LWC開発の実務、複数オブジェクトの設計、外部システム連携の経験が求められ、30代の中心レンジです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">シニア／リード</h3>
-              <p className="text-sm text-slate-600">マルチクラウド設計、導入コンサルや要件定義のリード、チームマネジメントです。アーキテクト系資格があると強いです。</p>
+              <p className="text-sm text-slate-600">マルチクラウド設計、導入コンサルや要件定義のリード、チームマネジメントが求められます。アーキテクト系資格があると有利です。</p>
             </div>
           </div>
         </section>
@@ -262,7 +262,7 @@ export default function SalesforceSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             Salesforce求人は専門性が高く、担当者の業界理解で提案の質が変わります。タイプの異なる3社を併用し、開発職・コンサル職・ハイクラスのそれぞれを比較するのがおすすめです。
           </p>
@@ -271,7 +271,7 @@ export default function SalesforceSkillPage() {
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/levtech/" className="text-petrol-deep hover:underline">レバテックキャリア</Link>
               </h3>
-              <p className="text-sm text-slate-600">IT/Web特化です。利用者の多くが20〜30代で、高年収求人の比率が高いとされます（同社ガイド記事）。開発寄りのSalesforce求人を探しやすいです。</p>
+              <p className="text-sm text-slate-600">IT/Webに特化したエージェントで、利用者の多くが20〜30代、高年収求人の比率が高いとされます（同社ガイド記事）。開発寄りのSalesforce求人を探す際に適しています。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
@@ -283,7 +283,7 @@ export default function SalesforceSkillPage() {
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/bizreach-it/" className="text-petrol-deep hover:underline">ビズリーチ</Link>
               </h3>
-              <p className="text-sm text-slate-600">ハイクラス・スカウト型です。コンサル/アーキテクトなど高年収帯のSalesforce案件に出会いやすいです。市場価値の客観把握にも使えます。</p>
+              <p className="text-sm text-slate-600">ハイクラス・スカウト型です。コンサル/アーキテクトなど高年収帯のSalesforce案件に出会いやすくなります。市場価値の客観把握にも使えます。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
@@ -300,9 +300,9 @@ export default function SalesforceSkillPage() {
           <ol className="space-y-3">
             {[
               { t: "Trailheadで基礎を学びます", d: "公式の無料学習プラットフォームでバッジ・スーパーバッジを取得し、Trailblazerプロフィールを育てます。" },
-              { t: "認定アドミニストレーターを取得", d: "まずは運用設計の基礎資格を取り、書類で学習成果を示せる状態にします。" },
+              { t: "認定アドミニストレーターを取得します", d: "まずは運用設計の基礎資格を取り、書類で学習成果を示せる状態にします。" },
               { t: "既存スキルを掛け合わせます", d: "開発経験ならApex/LWC、営業・CS経験なら業務設計と組み合わせて訴求します。" },
-              { t: "パートナー企業の育成枠を狙います", d: "導入支援企業は研修体制が整っていることが多く、実務経験を積む入口になりやすいです。" },
+              { t: "パートナー企業の育成枠を狙います", d: "導入支援企業は研修体制が整っていることが多く、実務経験を積む入口になりやすい傾向があります。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
@@ -320,7 +320,7 @@ export default function SalesforceSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              30代・40代のミドル層にとってSalesforceは、<strong>これまでの業務知識を技術と接続できる</strong>点で相性が良いスキルです。営業・経理・カスタマーサポートなどの実務を理解していること自体が、要件定義・運用設計で強みになります。若手との純粋なコーディング速度勝負ではなく、業務×技術の総合力で評価される領域です。
+              30代・40代のミドル層にとってSalesforceは、<strong>これまでの業務知識を技術と接続できる</strong>点で相性が良いスキルです。営業・経理・カスタマーサポートなどの実務を理解していること自体が、要件定義・運用設計で強みになります。若手とコーディング速度を競うのではなく、業務×技術の総合力で評価される領域です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・前職の業務ドメイン（金融・製造・小売など）を「活かせる強み」として明文化します</li>

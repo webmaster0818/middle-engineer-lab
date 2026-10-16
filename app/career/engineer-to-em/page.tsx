@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：EMはミドルの代表的なキャリア" },
+  { id: "conclusion", label: "EMはミドルの代表的なキャリア" },
   { id: "gap", label: "エンジニアとEMのスキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -27,7 +27,7 @@ const toc = [
 const gapRows = [
   {
     skill: "技術的な深い実装力",
-    eng: "◎ 自分で手を動かして価値を出します",
+    eng: "◎ 自分で手を動かして価値を出す実装力",
     em: "○ 判断の土台として必要（コーディング比率は低下）",
   },
   {
@@ -53,7 +53,7 @@ const gapRows = [
   {
     skill: "プロジェクト・進捗管理",
     eng: "○ 自分のタスク管理",
-    em: "◎ チーム全体のデリバリーと健全性に責任を持ちます",
+    em: "◎ チーム全体のデリバリーと健全性への責任",
   },
 ];
 
@@ -64,7 +64,7 @@ const buildSteps = [
   },
   {
     title: "チームの課題解決をリードする",
-    desc: "技術的負債の解消、開発プロセスの改善、レビュー文化の整備など、個人の成果ではなくチームの成果に効く取り組みを1つ主導します。『チームのアウトプットをどう最大化したか』はEMの評価軸そのものです。",
+    desc: "技術的負債の解消、開発プロセスの改善、レビュー文化の整備など、個人の成果ではなくチームの成果につながる取り組みを1つ主導します。『チームのアウトプットをどう最大化したか』はEMの評価軸そのものです。",
   },
   {
     title: "見積もり・進捗管理の仕組みを作る",
@@ -122,7 +122,7 @@ const faqs = [
   },
   {
     q: "マネジメント未経験でもEMになれる？",
-    a: "いきなりEMは難しめですが、現職でリーダー・メンター・テックリードなどの役割を経験し、ピープルマネジメントの実績を作ってから移行するのが現実的です。後輩の1on1や採用面接への関与など、小さな実体験を積み重ねることが選考での説得力につながります。",
+    a: "いきなりEMとして採用されるのは難しいものの、現職でリーダー・メンター・テックリードなどの役割を経験し、ピープルマネジメントの実績を作ってから移行するのが現実的です。後輩の1on1や採用面接への関与など、小さな実体験を積み重ねることが選考での説得力につながります。",
   },
   {
     q: "EMに必要なスキルは何？",
@@ -212,7 +212,7 @@ export default function EngineerToEmPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：EMはミドルの代表的なキャリア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">EMはミドルの代表的なキャリア</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>現場エンジニアからEMへの移行は、30代・40代の代表的なキャリアパスの一つです。</strong>
@@ -220,7 +220,7 @@ export default function EngineerToEmPage() {
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
               <li>① 技術力は前提として活き続けますが、評価軸は<strong>「個人の成果」から「チームの成果」へ</strong>変わります</li>
-              <li>② ギャップになりやすいのは<strong>ピープルマネジメント・採用・ステークホルダー調整</strong></li>
+              <li>② ギャップになりやすいのは<strong>ピープルマネジメント・採用・ステークホルダー調整</strong>です</li>
               <li>③ 在職中に1on1やリードの役割を経験し、チームの成果を引き出した実績を作ることが成否を分けます</li>
             </ul>
           </div>
@@ -312,13 +312,13 @@ export default function EngineerToEmPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（個人の実装成果の羅列になっている例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                Webサービスの開発を担当。新機能の設計・実装・テストを行い、リリースしました。後輩のコードレビューも担当しました。
+                Webサービスの開発を担当。新機能の設計・実装・テストを行い、リリースした。後輩のコードレビューも担当した。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（チームの成果と育成を主語にした例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                〇名規模の開発チームでテックリードを担当。新機能開発をリードしつつ、レビュー観点を整理しチームの手戻りを削減。メンバー〇名と隔週の1on1を運用し、目標設定とフィードバックを通じて1名のジュニアからミドルへの成長を支援します。採用面接にも参加し、技術課題の設計を担当しました。
+                〇名規模の開発チームでテックリードを担当。新機能開発をリードしつつ、レビュー観点を整理しチームの手戻りを削減。メンバー〇名と隔週の1on1を運用し、目標設定とフィードバックを通じて1名のジュニアからミドルへの成長を支援。採用面接にも参加し、技術課題の設計を担当。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
@@ -360,12 +360,12 @@ export default function EngineerToEmPage() {
               {
                 name: "レバテックキャリア",
                 point:
-                  "IT/Web特化で技術に詳しいアドバイザーが在籍しています。利用者の約8割が20〜30代で、高年収求人の比率が高いと公表されており、EM・マネジメント系ポジションの相談に向きます。",
+                  "IT/Web領域に特化しており、技術に詳しいアドバイザーが在籍しています。利用者の約8割が20〜30代で、高年収求人の比率が高いと公表されており、EM・マネジメント系ポジションの相談に向きます。",
               },
               {
                 name: "ビズリーチ",
                 point:
-                  "ハイクラス・スカウト型です。年収750万円以上の定義でハイレンジ求人が中心です。経験を登録するとEM求人のスカウトで市場価値を客観的に把握できます。",
+                  "ハイクラス向けのスカウト型サービスで、年収750万円以上をハイクラスと定義しており、ハイレンジ求人が中心です。経験を登録するとEM求人のスカウトで市場価値を客観的に把握できます。",
               },
               {
                 name: "doda ITエンジニア",

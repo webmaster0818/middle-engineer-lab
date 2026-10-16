@@ -12,19 +12,19 @@ export const metadata: Metadata = {
 };
 
 const skillTable = [
-  ["予約・在庫管理の仕組みの理解（GDS/CRS/OTA）", "そのまま強み", "予約フローや在庫連携を分かる人は限られ、トラベルテック企業で評価されやすいです"],
+  ["予約・在庫管理の仕組みの理解（GDS/CRS/OTA）", "そのまま強み", "予約フローや在庫連携を分かる人は限られ、トラベルテック企業で評価されやすい傾向があります"],
   ["旅行商品の造成・料金設計の実務", "そのまま強み", "ダイナミックプライシングやパッケージ設計の前提知識が活きます"],
   ["多言語・決済まわりの運用知識", "差別化要素", "インバウンド向けサービスで決済・言語対応の理解が重宝されます"],
-  ["モダンWeb開発（React/Next.js等）", "埋めるギャップ", "OTA・予約プロダクトはWebアプリ中心。フロント/バックの実装力を補強したい"],
-  ["API連携・外部システム接続", "埋めるギャップ", "GDS/OTA間や決済・地図など外部API連携の経験が問われやすいです"],
+  ["モダンWeb開発（React/Next.js等）", "埋めるギャップ", "OTA・予約プロダクトはWebアプリが中心です。フロント/バックの実装力を補強しておきたい領域です"],
+  ["API連携・外部システム接続", "埋めるギャップ", "GDS/OTA間や決済・地図など外部API連携の経験が問われやすい傾向があります"],
   ["データ分析・ML基礎", "伸ばすと有利", "需要予測・価格最適化に関わるなら集計基盤やモデルの理解が役立ちます"],
 ];
 
 const jobTypes = [
-  ["予約プロダクト・OTA開発", "OTA、メタサーチ、予約プラットフォーマー", "予約・検索体験の開発。予約・在庫の業務知識が直接活きる"],
-  ["価格最適化・需要予測", "OTA、宿泊・交通系プラットフォーム", "ダイナミックプライシング。料金設計の理解＋データ素養が求められる"],
-  ["データ分析・収益最適化", "旅行プラットフォーム全般", "顧客行動分析・収益管理。商流の理解が分析の質を高める"],
-  ["インバウンド／多言語・決済", "インバウンド向けサービス、決済連携", "多言語対応・キャッシュレス連携。運用知識が強みになる"],
+  ["予約プロダクト・OTA開発", "OTA、メタサーチ、予約プラットフォーマー", "予約・検索体験の開発。予約・在庫の業務知識を直接活かせる領域"],
+  ["価格最適化・需要予測", "OTA、宿泊・交通系プラットフォーム", "ダイナミックプライシング。料金設計の理解とデータの素養が求められる領域"],
+  ["データ分析・収益最適化", "旅行プラットフォーム全般", "顧客行動分析・収益管理。商流の理解が分析の質を高める領域"],
+  ["インバウンド／多言語・決済", "インバウンド向けサービス、決済連携", "多言語対応・キャッシュレス連携。運用知識が強みになる領域"],
 ];
 
 const faqs = [
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "トラベルテック企業ではどんな技術が求められますか？",
-    a: "求人により幅がありますが、予約プロダクトはWebアプリが中心のため、バックエンド（Python/Java/Go等）やフロントエンド（React/Next.js等）が挙がることが多く、GDS/OTAや決済・地図など外部APIとの連携経験が問われやすいです。需要予測や価格最適化に関わるならデータ分析やMLの素養があると差別化しやすくなります。すべてを満たす必要はなく、現職の強い領域から狙うのが現実的です。",
+    a: "求人により幅がありますが、予約プロダクトはWebアプリが中心のため、バックエンド（Python/Java/Go等）やフロントエンド（React/Next.js等）が挙がることが多く、GDS/OTAや決済・地図など外部APIとの連携経験が問われやすい傾向があります。需要予測や価格最適化に関わるならデータ分析やMLの素養があると差別化しやすくなります。すべてを満たす必要はなく、現職の強い領域から狙うのが現実的です。",
   },
   {
     q: "30代・40代で旅行からトラベルテックに転職するのは遅いですか？",
@@ -68,7 +68,7 @@ const related = [
 ];
 
 const toc = [
-  ["conclusion", "結論：この転職の現実性"],
+  ["conclusion", "この転職の現実性"],
   ["trend", "旅行のIT化・採用動向"],
   ["skills", "活かせるスキル／埋めるギャップ"],
   ["patterns", "転職パターン（職種×企業タイプ）"],
@@ -114,11 +114,11 @@ export default function TravelPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：この転職の現実性</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">この転職の現実性</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">予約・在庫・料金設計の業務知識を持つ旅行業界エンジニアにとって、トラベルテック領域への転職は十分に狙えるルートです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・予約フローや在庫連携、料金設計を分かる人は限られ、業務知識がそのまま差別化になりやすいです。</li>
+              <li>・予約フローや在庫連携、料金設計を分かる人は限られ、業務知識がそのまま差別化になりやすい傾向があります。</li>
               <li>・求人の多くはモダンWeb開発やAPI連携の経験を求めます。ここが主なギャップです。</li>
               <li>・30代・40代は業務知識の厚みが強みです。実装面の不足は在職中の準備で補えます。</li>
             </ul>
@@ -202,10 +202,10 @@ export default function TravelPage() {
           <p className="text-slate-600 leading-relaxed mb-4">トラベルテック領域の受け皿は、おおまかに次のタイプに分かれます。どこが自分の経験を活かせるかで応募戦略を決めます。</p>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              ["OTA・メタサーチ", "予約・検索プロダクト。予約・在庫の業務知識が直接活きる"],
-              ["宿泊・交通系プラットフォーム", "在庫・料金管理。料金設計の理解が評価されやすい"],
-              ["トラベルテック系スタートアップ", "新しいプロダクト開発。裁量が大きくモダンスタックが多い"],
-              ["インバウンド／決済連携サービス", "多言語・決済まわり。運用知識が強みになる"],
+              ["OTA・メタサーチ", "予約・検索プロダクト。予約・在庫の業務知識を直接活かせる環境"],
+              ["宿泊・交通系プラットフォーム", "在庫・料金管理。料金設計の理解が評価されやすい環境"],
+              ["トラベルテック系スタートアップ", "新しいプロダクト開発。裁量が大きく、モダンスタックの採用が多い環境"],
+              ["インバウンド／決済連携サービス", "多言語・決済まわり。運用知識が強みになる環境"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <p className="font-bold text-slate-800 text-sm mb-1">{t}</p>
@@ -241,7 +241,7 @@ export default function TravelPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代で旅行からトラベルテックへ移る場合、強みは「予約・在庫・料金設計の業務知識」です。旅行商品がどう作られ、どう在庫管理され、どう価格付けされるかを実務で理解している人材は、トラベルテック企業でも貴重で、若手にはない説得力を持てます。採用側はモダンな開発経験を見るため、ここを補う準備が鍵になります。</p>
             <p>40代では、開発力に加えてプロジェクトやチームをまとめる経験が評価されやすくなります。旅行事業で培った関係者調整やオペレーション改善の経験を、プロダクト開発の文脈で語れるよう整理しておくと選択肢が広がります。年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの転職年収</Link>も参考にしてください。</p>
-            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>も合わせてどうぞ。</p>
+            <p>自分の市場価値が分かりにくい場合は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の測り方</Link>を確認し、複数エージェントで提案を比較するのが現実的です。年齢に関する不安については<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>もあわせてご覧ください。</p>
           </div>
         </section>
 
@@ -258,7 +258,7 @@ export default function TravelPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">旅行の知識をトラベルテックで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">旅行の知識をトラベルテックで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の経験が市場でどう評価されるかを確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>

@@ -30,7 +30,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "転職難易度と向いている人"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
@@ -45,7 +45,7 @@ const toc = [
 
 const faqs = [
   {
-    q: "フューチャー（Future）のエンジニア選考フローは？",
+    q: "フューチャー（Future）のエンジニア選考フローを教えてください。",
     a: "公式採用情報によると、一般的には「書類選考」「複数回の面接」「適性検査やスキル確認」「オファー面談」の流れで、ポジションにより技術面接やコーディング課題が加わります。最新の内容は応募求人ごとに確認することが推奨されます。",
   },
   {
@@ -53,11 +53,11 @@ const faqs = [
     a: "2024年12月期の有価証券報告書（親会社単体）によると、平均年間給与は841万円、平均年齢は35.4歳です。これは技術職に限らない親会社単体・全社員平均の値で、エンジニア個人の年収はグレード・職種により異なります。",
   },
   {
-    q: "フューチャー（Future）はどんな会社ですか？",
+    q: "フューチャー（Future）はどのような会社ですか？",
     a: "フューチャーは、IT戦略の立案から要件定義・設計・実装・運用までを一気通貫で手がけるITコンサルティング企業です。技術力を強みとし、上流のコンサルティングと実際のシステム開発の両方に関われる点が特徴で、自社プロダクト・SaaSの開発も行っています。",
   },
   {
-    q: "フューチャー（Future）の技術スタックは？",
+    q: "フューチャー（Future）の技術スタックを教えてください。",
     a: "公式技術ブログ（フューチャー技術ブログ）・採用情報（2026年6月時点）では、Java・Go・Python・TypeScript・React・Vue.js、クラウドにAWS・Google Cloud・Azure、基盤にKubernetes・Terraformなどが挙げられています。プロジェクト・顧客により使用技術は幅広く異なります。",
   },
   {
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "フューチャー（Future）への転職難易度は高いですか？",
-    a: "技術力に加え、顧客の課題を理解し解決へ導くコンサルティング力が問われます。アーキテクチャ設計や大規模システムの開発経験、クラウドの実務に加え、論理的思考・課題解決力があると評価されやすい傾向です。",
+    a: "技術力に加え、顧客の課題を理解し解決へ導くコンサルティング力が問われます。アーキテクチャ設計や大規模システムの開発経験、クラウドの実務に加え、論理的思考・課題解決力があると評価されやすい傾向があります。",
   },
   {
     q: "30代・40代でもフューチャー（Future）に転職できますか？",
@@ -98,8 +98,8 @@ export default function FutureCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】フューチャーの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: フューチャー株式会社の平均年間給与は841万円です（2024年12月期 有価証券報告書・親会社単体／全社員平均、平均年齢35.4歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 841万円です（2024年12月期 有価証券報告書・親会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2020年12月期773万円から上昇を続け、2024年12月期841万円です（各期 有価証券報告書）。</li><li>・エンジニア個人の年収はグレード・職種により異なり、公式な職種別レンジは非公表です。求人票・面談で確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>フューチャー株式会社の平均年間給与は841万円です（2024年12月期 有価証券報告書・親会社単体／全社員平均、平均年齢35.4歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 841万円です（2024年12月期 有価証券報告書・親会社単体）。技術職に限らない全社員平均です。</li><li>・2020年12月期の773万円から上昇を続け、2024年12月期は841万円となっています（各期 有価証券報告書）。</li><li>・エンジニア個人の年収はグレード・職種により異なり、公式な職種別レンジは非公表です。求人票・面談で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -118,14 +118,14 @@ export default function FutureCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">転職難易度と向いている人</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               フューチャーは<strong>IT戦略コンサルから設計・実装まで一気通貫で携われる、技術志向のITコンサルティング企業</strong>です。アーキテクチャ設計・大規模システム開発・クラウドの実務に、課題解決のコンサルティング力を掛け合わせられるエンジニアに向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>● <strong>向いている人</strong>：上流から実装まで幅広く関わりたく、技術力とコンサルティング力の両方を伸ばしたいエンジニア</li>
+              <li>● <strong>向いている人</strong>：上流から実装まで幅広く関わり、技術力とコンサルティング力の両方を伸ばしたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：顧客折衝や上流工程を避け、特定領域の実装だけに集中したい人</li>
-              <li>● <strong>30代・40代</strong>：アーキテクチャ設計・クラウド・PMの経験があれば専門性を活かしやすいです</li>
+              <li>● <strong>30代・40代</strong>：アーキテクチャ設計・クラウド・PMの経験があれば専門性を活かしやすくなります</li>
             </ul>
           </div>
         </section>
@@ -155,7 +155,7 @@ export default function FutureCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2024年12月期 有価証券報告書（親会社単体）の全社員平均値。技術スタックは公式採用情報・フューチャー技術ブログです（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2024年12月期 有価証券報告書（親会社単体）の全社員平均値です。技術スタックは公式採用情報・フューチャー技術ブログに基づきます（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -255,13 +255,13 @@ export default function FutureCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              フューチャー（親会社単体）の平均年齢は35.4歳（2024年12月期）で、年齢層に幅のある組織です。年齢よりも技術力・コンサルティング力が問われるため、30代・40代のミドルエンジニアでも<strong>アーキテクチャ設計・クラウド・プロジェクトマネジメントの経験があれば年齢自体は大きなハンデになりにくい</strong>のが特徴です。むしろ上流から実装まで見渡せるミドル層の経験が評価されやすい領域です。
+              フューチャー（親会社単体）の平均年齢は35.4歳（2024年12月期）で、年齢層に幅のある組織です。年齢よりも技術力・コンサルティング力が問われるため、30代・40代のミドルエンジニアでも<strong>アーキテクチャ設計・クラウド・プロジェクトマネジメントの経験があれば年齢自体は大きなハンデになりにくい</strong>点が特徴です。むしろ上流から実装まで見渡せるミドル層の経験が評価されやすい領域です。
             </p>
             <p>
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。フューチャーの全社員平均（841万円）はこれを上回りますが、これは全社平均であり、入社時の提示はグレード次第です。30代・40代は「自分が当てはまるグレードの水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              30代40代では、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>などクラウドや<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定（SAA）</Link>や<Link href="/cert/pmp/" className="text-petrol hover:underline">PMP</Link>などの資格を掛け合わせると、コンサル×実装の評価につながりやすい領域です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              30代40代では、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>などクラウドや<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定（SAA）</Link>や<Link href="/cert/pmp/" className="text-petrol hover:underline">PMP</Link>などの資格を掛け合わせると、コンサルと実装の両面での評価につながりやすくなります。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -272,7 +272,7 @@ export default function FutureCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。コンサル・SIer・事業会社まで幅広く、非公開求人も豊富です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、ITコンサル領域のミドル・シニア支援に定評があります。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。ITコンサル・アーキテクトのハイクラス求人が集まりやすいです。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。ITコンサル・アーキテクトのハイクラス求人が集まりやすい傾向があります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

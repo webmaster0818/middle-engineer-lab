@@ -26,12 +26,12 @@ const basicData: [string, string][] = [
   ["平均年齢", "46.3歳（2026年3月期 有価証券報告書）"],
   ["従業員数", "約4,300名（単体・2026年3月期 有価証券報告書）"],
   ["本社所在地", "東京都江東区"],
-  ["技術スタック（公開情報）", "Java / Spring Boot / Flutter ほか、Azure 等のクラウド、Jira・Bitbucket 等の開発基盤（案件・部門により異なる）"],
+  ["技術スタック（公開情報）", "Java / Spring Boot / Flutter ほか、Azure 等のクラウド、Jira・Bitbucket 等の開発基盤（案件・部門により異なる場合あり）"],
   ["採用ページ", "biprogy.com/recruit（採用情報）"],
 ];
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんなエンジニア向きか" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（企業概要・出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
@@ -47,19 +47,19 @@ const toc = [
 
 const faqs = [
   {
-    q: "BIPROGY（旧日本ユニシス）のエンジニア転職の難易度は高い？",
-    a: "BIPROGYは旧日本ユニシスを前身とする大手SIerで、金融・流通・製造・公共など幅広い業界の大規模システムを手がけています。システム開発・インフラ・クラウドのいずれかの実務経験が前提になりますが、DX・クラウド領域で中途採用も活発で、上流工程やプロジェクト推進の経験があれば30代・40代でも十分に挑戦できます。難易度は中〜やや高です。",
+    q: "BIPROGY（旧日本ユニシス）のエンジニア転職の難易度は高いですか？",
+    a: "BIPROGYは旧日本ユニシスを前身とする大手SIerで、金融・流通・製造・公共など幅広い業界の大規模システムを手がけています。システム開発・インフラ・クラウドのいずれかの実務経験が前提になりますが、DX・クラウド領域で中途採用も活発で、上流工程やプロジェクト推進の経験があれば30代・40代でも十分に挑戦できます。難易度は中〜やや高めといえます。",
   },
   {
-    q: "BIPROGYのエンジニアの平均年収はいくら？",
+    q: "BIPROGYのエンジニアの平均年収はいくらですか？",
     a: "BIPROGY株式会社の有価証券報告書（2026年3月期）に記載された全社員の平均年間給与は884万円、平均年齢は46.3歳です（エンジニア職に限った数値ではなく全社員平均）。大手SIerとして高めの水準で、近年は800万円台後半で推移しています。平均年齢が高めで平均勤続年数も長く、その分平均年収も高く出やすい組織です。職種・等級別の正式な年収表は公開されていないため、個別の提示額は求人ごとに決定されます。",
   },
   {
-    q: "BIPROGYの技術スタックは？",
+    q: "BIPROGYの技術スタックを教えてください。",
     a: "公式採用情報の公開情報によると、新規事業・研究開発ではFlutter・Java・Spring Boot・Azure・Jira・Bitbucketなどが用いられています。基幹システムから新規プロダクト、クラウド・DXまで幅広く手がけており、案件・部門により採用技術は異なります。本ページでは公開情報の範囲で記載しています。",
   },
   {
-    q: "BIPROGYの選考フローは？",
+    q: "BIPROGYの選考フローを教えてください。",
     a: "公式採用サイトによると、エントリー（書類選考）→ 面接（複数回）→ 内定が基本的な流れです。職務経歴・担当工程・技術領域が確認され、ポジションによっては適性検査が行われる場合があります。最新の内容は公式採用サイトでご確認ください。",
   },
   {
@@ -67,12 +67,12 @@ const faqs = [
     a: "BIPROGY株式会社は、旧社名を日本ユニシス株式会社といい2022年に社名変更した大手SIerです（証券コード8056・東証プライム）。金融・流通・製造・公共・社会インフラなど幅広い業界のシステム開発・運用に加え、クラウド・DX支援やデジタルプラットフォーム事業を展開しています。",
   },
   {
-    q: "BIPROGYはリモートワークできる？",
+    q: "BIPROGYはリモートワークできますか？",
     a: "BIPROGYはリモートワークを併用できる体制を採っています。OpenWork等の口コミでは、大手SIerとしての安定性や福利厚生、働きやすさを評価する声が見られる一方、組織規模ゆえの調整業務やプロジェクトによる差を挙げる意見もあります（2026年6月時点の口コミ傾向）。最新の勤務条件は応募時に各求人で確認してください。",
   },
   {
-    q: "BIPROGYへの転職で有利な経験は？",
-    a: "Java等での開発経験、クラウド（Azure等）の構築経験、上流工程やプロジェクトマネジメントの経験が基本です。DX・新規プロダクト開発の経験、金融・流通・製造など特定業界の業務知識があると評価されやすい傾向です。",
+    q: "BIPROGYへの転職で有利になる経験を教えてください。",
+    a: "Java等での開発経験、クラウド（Azure等）の構築経験、上流工程やプロジェクトマネジメントの経験が基本です。DX・新規プロダクト開発の経験、金融・流通・製造など特定業界の業務知識があると評価されやすい傾向があります。",
   },
 ];
 
@@ -104,8 +104,8 @@ export default function BiprogyCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】BIPROGY（旧日本ユニシス）の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: BIPROGY株式会社の有価証券報告書（2026年3月期）に記載された全社員の平均年間給与は884万円、平均年齢は46.3歳です（エンジニア職に限った値ではなく全社員平均）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与884万円（2026年3月期 有価証券報告書・全社員平均、平均年齢46.3歳）</li><li>・近年は800万円台後半で推移（2024年3月期850万円→2025年3月期846万円→2026年3月期884万円）</li><li>・全社員平均でエンジニア単独の数値ではなく、職種・等級別の公式年収表は未公開です。提示額は求人ごとに個別決定</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>BIPROGY株式会社の有価証券報告書（2026年3月期）に記載された全社員の平均年間給与は884万円、平均年齢は46.3歳です（エンジニア職に限った値ではなく全社員平均）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与は884万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢46.3歳）。</li><li>・近年は800万円台後半で推移しています（2024年3月期850万円→2025年3月期846万円→2026年3月期884万円）。</li><li>・全社員平均でありエンジニア単独の数値ではなく、職種・等級別の公式年収表は未公開です。提示額は求人ごとに個別に決定されます。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -136,12 +136,12 @@ export default function BiprogyCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：システム開発・クラウド・上流工程の経験があり、大手の安定基盤でDX・新規領域に関わりたいエンジニア向きです。難易度は中〜やや高。</p>
+            <p className="font-bold text-blue-900 mb-3">システム開発・クラウド・上流工程の経験があり、大手の安定基盤でDX・新規領域に関わりたいエンジニアに向いています。難易度は中〜やや高めです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li className="flex gap-2"><span className="shrink-0">1.</span>Java・クラウド（Azure等）の経験が活き、基幹システムからDX・新規プロダクトまで幅広く関われます。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は884万円です（2026年3月期 有価証券報告書）。大手SIerでも高めの水準で、ミドル層の年収向上を狙いやすいです。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は884万円です（2026年3月期 有価証券報告書）。大手SIerでも高めの水準で、ミドル層にとって年収向上の選択肢になり得ます。</li>
               <li className="flex gap-2"><span className="shrink-0">3.</span>旧日本ユニシスを前身とする安定基盤の上で、デジタルプラットフォーム事業など新規領域にも挑戦できます。</li>
             </ul>
           </div>
@@ -314,7 +314,7 @@ export default function BiprogyCompanyPage() {
               BIPROGYは旧日本ユニシスを前身とする上場済みの大手SIerで、安定した収益基盤の上でDX・クラウド領域への投資を続けるフェーズにあります。30代・40代のミドルエンジニアにとっては、「安定した大手の基盤の上で、上流工程やDX・新規領域に関わりたい」というニーズに合致しやすい選択肢です。
             </p>
             <p>
-              平均年齢が46.3歳（2026年3月期）と高めで、平均勤続年数も長い組織です。40代のミドルエンジニアも年齢的に違和感なく溶け込みやすく、設計・上流工程をリードした経験、プロジェクトマネジメントの経験、特定業界の業務知識やクラウドの専門性は、年齢に見合った価値として評価されやすいでしょう。
+              平均年齢が46.3歳（2026年3月期）と高めで、平均勤続年数も長い組織です。40代のミドルエンジニアも年齢的に違和感なく溶け込みやすく、設計・上流工程をリードした経験、プロジェクトマネジメントの経験、特定業界の業務知識やクラウドの専門性は、年齢に見合った価値として評価されやすいと考えられます。
             </p>
             <p>
               年収面では、現職が頭打ちになっている30代・40代にとって、BIPROGYの全社員平均884万円（有価証券報告書）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
@@ -329,7 +329,7 @@ export default function BiprogyCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">BIPROGY転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。大手SIerの非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人の比率が高い傾向があります。大手SIerの非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高い大手SIer・専門職の求人に対応しています。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、IT企業への転職実績が豊富です。" },
             ].map((agent, i) => (

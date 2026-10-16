@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "diff", label: "まず：インフラ・ネットワークとの違い" },
-  { id: "conclusion", label: "結論：Linuxスキルでの転職の進め方" },
+  { id: "conclusion", label: "Linuxスキルでの転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "cert", label: "LPIC / LinuC の資格体系" },
   { id: "route", label: "LPIC→CCNA→AWSの段階資格ルート" },
@@ -30,7 +30,7 @@ const toc = [
 const faqs = [
   {
     q: "Linuxスキルでの転職は、インフラ・ネットワークエンジニアと何が違いますか？",
-    a: "Linuxは「サーバOSを扱う基盤スキル」であり、インフラエンジニアやネットワークエンジニアという職種を支える土台です。インフラエンジニアはサーバ・OS・ミドルウェア全般、ネットワークエンジニアはルーター・スイッチ等の通信機器を主に扱います。Linuxスキルはその中でサーバ運用・構築の中核を担い、どちらの職種でも強みになります。本ページはLinux（とLPIC）を軸にした入り方・伸ばし方に絞り、職種としての全体像はインフラ・ネットワークの各ガイドへ送ります。",
+    a: "Linuxは「サーバOSを扱う基盤スキル」であり、インフラエンジニアやネットワークエンジニアという職種を支える土台です。インフラエンジニアはサーバ・OS・ミドルウェア全般、ネットワークエンジニアはルーター・スイッチ等の通信機器を主に扱います。Linuxスキルはその中でサーバ運用・構築の中核を担い、どちらの職種でも強みになります。本ページはLinux（とLPIC）を軸にした入り方・伸ばし方に絞り、職種としての全体像はインフラ・ネットワークの各ガイドで解説しています。",
   },
   {
     q: "LPICとLinuCの違いは何ですか？",
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "未経験でもLPICは役に立ちますか？",
-    a: "役に立ちます。未経験者にとってLPICは「Linuxの基礎知識を持っている」ことの客観的な証明になり、書類選考やインフラ運用の入口求人で有利に働きます。ただし資格だけで実務経験を完全に補うのは難しいため、自宅やクラウドの無料枠でLinuxサーバを構築・運用する手を動かした経験とセットにするのが効果的です。LPICはその第一歩として最適です。",
+    a: "役に立ちます。未経験者にとってLPICは「Linuxの基礎知識を持っている」ことの客観的な証明になり、書類選考やインフラ運用の入口求人で有利に働きます。ただし資格だけで実務経験を完全に補うのは難しいため、自宅やクラウドの無料枠でLinuxサーバを構築・運用する手を動かした経験とセットにするのが効果的です。LPICはその第一歩として適しています。",
   },
   {
     q: "Linuxスキルだけで転職できますか？",
@@ -59,9 +59,9 @@ const faqs = [
 ];
 
 const certTable = [
-  ["レベル1（LPIC-1 / LinuC-1）", "基本操作・システム管理の基礎", "未経験〜運用の入口。基礎証明として最初に狙う"],
-  ["レベル2（LPIC-2 / LinuC-2）", "サーバ構築・ネットワーク・運用管理", "構築を任される中核層。転職での評価が一段上がる"],
-  ["レベル3（LPIC-3 / LinuC-3）", "セキュリティ・大規模・混在環境等の専門", "上級・スペシャリスト領域の専門性を示します"],
+  ["レベル1（LPIC-1 / LinuC-1）", "基本操作・システム管理の基礎", "未経験〜運用の入口。基礎証明として最初に取得を目指す資格"],
+  ["レベル2（LPIC-2 / LinuC-2）", "サーバ構築・ネットワーク・運用管理", "構築を任される中核層。転職での評価が一段上がる水準"],
+  ["レベル3（LPIC-3 / LinuC-3）", "セキュリティ・大規模・混在環境等の専門", "上級・スペシャリスト領域の専門性の証明"],
 ];
 
 export default function LinuxSkillPage() {
@@ -146,7 +146,7 @@ export default function LinuxSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Linuxスキルでの転職の進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Linuxスキルでの転職の進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Linuxスキルでの転職は、<strong>「コマンドが打てる」から「サーバを設計・運用し、クラウドへ接続できる」へ役割を上げて見せられるか</strong>で年収が大きく変わります。進め方は次の3点です。
@@ -169,7 +169,7 @@ export default function LinuxSkillPage() {
             一方で、資格ルートで運用から構築・クラウド設計へ進むと水準は上がります。媒体情報では<strong>LPIC→CCNA→AWSで年収600〜900万円</strong>が代表的なレンジとして語られ（各社推定・幅あり・単一の断定値ではありません）、マイナビ転職では「LPIC・初年度年収900万円以上」の特集求人も見られます（2026年6月時点）。
           </p>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: 近接平均は求人ボックス給料ナビ（2026年6月時点・動的値・参考）。資格ルートの年収レンジは各社の市場情報に基づく推定です（各社推定・幅あり）。高年収特集はマイナビ転職します（2026年6月時点・閲覧時点で変動）。市場全体では経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しており、インフラ人材の需給も逼迫傾向が続く前提で語られます。
+            出典: 近接平均は求人ボックス給料ナビ（2026年6月時点・動的値・参考）。資格ルートの年収レンジは各社の市場情報に基づく推定です（各社推定・幅あり）。高年収特集はマイナビ転職の特集求人です（2026年6月時点・閲覧時点で変動）。市場全体では経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しており、インフラ人材の需給も逼迫傾向が続く前提で語られます。
           </p>
         </section>
 
@@ -215,7 +215,7 @@ export default function LinuxSkillPage() {
             {[
               { n: "STEP 1", t: "LPIC / LinuC（サーバOS）", d: "Linuxの基礎〜構築を固めます。運用の入口求人に入り、手を動かす経験を積みます。" },
               { n: "STEP 2", t: "CCNA（ネットワーク）", d: "ルーティング・スイッチングなどネットワークの基礎を習得します。サーバとネットワークを両方語れる人材になります。" },
-              { n: "STEP 3", t: "AWS（クラウド）", d: "クラウドインフラの設計・構築へ進む道があります。オンプレ運用経験を移行の強みに変え、設計領域で年収を引き上げます。" },
+              { n: "STEP 3", t: "AWS（クラウド）", d: "クラウドインフラの設計・構築へ進みます。オンプレ運用経験を移行の強みに変え、設計領域で年収を引き上げます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -239,11 +239,11 @@ export default function LinuxSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "シェル / bash", d: "コマンド操作とシェルスクリプトによる自動化です。日々の運用効率を左右する基礎中の基礎です。" },
-              { t: "サーバ構築・運用", d: "OSインストール、ユーザ・権限管理、プロセス・サービス管理、ログ監視、障害対応。" },
-              { t: "ミドルウェア", d: "Webサーバ（Apache/Nginx）、DB、各種ミドルウェアの設定・運用。アプリを動かす土台です。" },
+              { t: "シェル / bash", d: "コマンド操作とシェルスクリプトによる自動化を指します。日々の運用効率を左右する基礎的なスキルです。" },
+              { t: "サーバ構築・運用", d: "OSインストール、ユーザ・権限管理、プロセス・サービス管理、ログ監視、障害対応を担います。" },
+              { t: "ミドルウェア", d: "Webサーバ（Apache/Nginx）、DB、各種ミドルウェアを設定・運用します。アプリを動かす土台となるスキルです。" },
               { t: "セキュリティ", d: "ファイアウォール、SSH、権限設計、脆弱性対応などサーバの堅牢化です。" },
-              { t: "コンテナの土台", d: "Docker等の前提となるLinuxの仕組み（名前空間・cgroups等）の理解です。クラウド・モダン運用への接続点です。" },
+              { t: "コンテナの土台", d: "Docker等の前提となるLinuxの仕組み（名前空間・cgroups等）の理解が求められます。クラウド・モダン運用へ進むための接続点になります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -261,9 +261,9 @@ export default function LinuxSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "LPIC-1取得＋自宅構築", d: "LPIC-1を学びつつ、自宅PCや無料枠でLinuxサーバを立て、基本操作を体に入れます。" },
-              { n: "STEP 2", t: "運用の入口求人へ", d: "資格＋手を動かした経験を職務経歴書に落とし込み、インフラ運用ポジションに応募します。" },
-              { n: "STEP 3", t: "LPIC-2＋資格ルートへ", d: "実務を積みながらLPIC-2、続いてCCNA・AWSへ進みます。運用から構築・設計へキャリアを上げます。" },
+              { n: "STEP 1", t: "LPIC-1取得＋自宅構築", d: "LPIC-1を学びつつ、自宅PCや無料枠でLinuxサーバを立て、基本操作を身につけます。" },
+              { n: "STEP 2", t: "運用の入口求人へ応募", d: "資格＋手を動かした経験を職務経歴書に落とし込み、インフラ運用ポジションに応募します。" },
+              { n: "STEP 3", t: "LPIC-2取得と資格ルートの継続", d: "実務を積みながらLPIC-2、続いてCCNA・AWSへ進みます。運用から構築・設計へキャリアを上げます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -288,12 +288,12 @@ export default function LinuxSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化です。インフラ・クラウド求人を技術に明るいアドバイザー経由で探せます。設計領域へ進みたい場合に有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化型のエージェントです。インフラ・クラウド求人を技術に明るいアドバイザー経由で探せます。設計領域へ進みたい場合に有効です。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
-              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数です。運用の入口から構築・設計まで幅広く比較したい場合の併用先です。</p>
+              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数を保有しています。運用の入口から構築・設計まで幅広く比較したい場合の併用先です。</p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -315,7 +315,7 @@ export default function LinuxSkillPage() {
               ミドル層のLinux・インフラ転職では、<strong>「コマンドを打てる」より「サーバ・運用を設計し、障害時に判断できる」</strong>ことが評価軸になります。運用設計・障害対応の判断・チームの取りまとめといった上流要素が差を生みます。長年のオンプレ運用経験は、クラウド移行プロジェクトで「移行元を理解している人材」として高く評価されます。
             </p>
             <p>
-              一方で注意点として、特定環境のレガシー運用に最適化されすぎた経験は横展開しにくい面があります。<strong>LPIC→CCNA→AWS</strong>のように汎用的なインフラ設計力・クラウドへ学びを足しておくことが、年代を問わず市場価値を保つ保険になります。資格は学び直しの起点としても有効です。
+              一方で注意点として、特定環境のレガシー運用に最適化されすぎた経験は横展開しにくい面があります。<strong>LPIC→CCNA→AWS</strong>のように汎用的なインフラ設計力・クラウドへ学びを足しておくことが、年代を問わず市場価値を保つための備えになります。資格は学び直しの起点としても有効です。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
@@ -343,7 +343,7 @@ export default function LinuxSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Linuxスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            インフラ・クラウド求人に強いIT特化型エージェントで、ご自身のLinuxスキルの市場価値を確認しましょう。
+            インフラ・クラウド求人を扱うIT特化型エージェントで、ご自身のLinuxスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

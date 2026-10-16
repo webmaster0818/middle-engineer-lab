@@ -7,33 +7,33 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/salary-up/" },
   title: "年収アップしたいエンジニアの転職戦略【100万円以上UP実例】",
   description:
-    "エンジニアが転職で年収100万円以上アップを実現するための戦略を解説します。年収が上がるスキル、企業タイプ、交渉術、成功事例を紹介します。",
+    "エンジニアが転職で年収100万円以上アップを実現するための戦略として、年収が上がるスキル、企業タイプ、交渉術、成功事例を解説します。",
 };
 
 const faqs = [
   {
-    q: "エンジニアの転職で年収100万円UPは現実的？",
-    a: "はい、十分現実的です。IT特化型エージェント経由の転職者の約40%が100万円以上の年収アップを実現しています。特にクラウド、Go/Rust、AI/MLのスキルを持つエンジニアは高確率でアップします。",
+    q: "エンジニアの転職で年収100万円UPは現実的ですか？",
+    a: "はい、十分現実的です。IT特化型エージェント経由の転職者の約40%が100万円以上の年収アップを実現しています。特にクラウド、Go/Rust、AI/MLのスキルを持つエンジニアは年収が上がる可能性が高い傾向にあります。",
   },
   {
-    q: "年収が上がりやすいスキルは？",
-    a: "2026年現在、Go、Rust、TypeScript、Kubernetes、Terraform、AI/ML（Python+PyTorch）が年収プレミアムのあるスキルです。特にGo+AWSの組み合わせは需要が高いです。",
+    q: "年収が上がりやすいスキルは何ですか？",
+    a: "2026年現在、Go、Rust、TypeScript、Kubernetes、Terraform、AI/ML（Python+PyTorch）が年収プレミアムのあるスキルです。特にGo+AWSの組み合わせは需要が高い傾向があります。",
   },
   {
-    q: "年収を上げるには転職が必須？",
-    a: "社内昇進でも可能ですが、転職の方が年収アップ幅は大きい傾向です。特に3年以上同じ会社にいて年収が停滞している場合、転職で市場相場に合わせることで大幅アップが見込めます。",
+    q: "年収を上げるには転職が必須ですか？",
+    a: "社内昇進でも可能ですが、転職の方が年収アップ幅は大きい傾向があります。特に3年以上同じ会社にいて年収が停滞している場合、転職で市場相場に合わせることで大幅アップが見込めます。",
   },
   {
-    q: "年収交渉のコツは？",
+    q: "年収交渉のコツはありますか？",
     a: "複数社から同時にオファーを受けること、市場相場のデータを根拠に交渉すること、エージェントの交渉力を活用することの3つが重要です。",
   },
   {
-    q: "外資系に行けば年収は上がる？",
+    q: "外資系に行けば年収は上がりますか？",
     a: "日系と比較して30〜80%高い傾向があります。ただし成果主義が厳しく、レイオフのリスクもあるため、総合的に判断しましょう。英語力があるなら有力な選択肢です。",
   },
   {
-    q: "フリーランスと正社員、どちらが年収高い？",
-    a: "手取りベースではフリーランスの方が高くなるケースが多いです。ただし社会保険料の全額自己負担、有給休暇なし、退職金なしを考慮すると実質的には大きな差がないことがあります。安定性も含めて判断しましょう。",
+    q: "フリーランスと正社員、どちらが年収は高いですか？",
+    a: "手取りベースではフリーランスの方が高くなるケースが多く見られます。ただし社会保険料の全額自己負担、有給休暇なし、退職金なしを考慮すると実質的には大きな差がないことがあります。安定性も含めて判断しましょう。",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function SalaryUpPage() {
     <>
       <ArticleJsonLd
         title="年収アップしたいエンジニアの転職戦略【100万円以上UP実例】"
-        description="エンジニアが転職で年収100万円以上アップを実現するための戦略を解説します。年収が上がるスキル、企業タイプ、交渉術、成功事例を紹介します。"
+        description="エンジニアが転職で年収100万円以上アップを実現するための戦略として、年収が上がるスキル、企業タイプ、交渉術、成功事例を解説します。"
         url="/purpose/salary-up/"
       />
       <script
@@ -79,11 +79,11 @@ export default function SalaryUpPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 現在の年収が市場相場より低いと感じています</li>
-              <li>- 3年以上同じ会社で年収が停滞しています</li>
-              <li>- スキルアップしたのに評価が年収に反映されません</li>
-              <li>- 年収600万円の壁、800万円の壁を突破したいと考えています</li>
-              <li>- 将来的に年収1,000万円を達成したいと考えています</li>
+              <li>- 現在の年収が市場相場より低いと感じている方</li>
+              <li>- 3年以上同じ会社で年収が停滞している方</li>
+              <li>- スキルアップしたのに評価が年収に反映されていない方</li>
+              <li>- 年収600万円の壁、800万円の壁を突破したい方</li>
+              <li>- 将来的に年収1,000万円を達成したい方</li>
             </ul>
           </div>
         </section>
@@ -102,11 +102,11 @@ export default function SalaryUpPage() {
               </thead>
               <tbody>
                 {[
-                  { skill: "Go + AWS", salary: "600〜1,000万円", demand: "非常に高いです", up: "+100〜200万円" },
-                  { skill: "TypeScript + React", salary: "500〜850万円", demand: "高い", up: "+50〜150万円" },
-                  { skill: "Kubernetes + Terraform", salary: "600〜950万円", demand: "非常に高いです", up: "+100〜200万円" },
-                  { skill: "Python + AI/ML", salary: "600〜1,200万円", demand: "非常に高いです", up: "+150〜300万円" },
-                  { skill: "Rust", salary: "650〜1,100万円", demand: "高い", up: "+100〜250万円" },
+                  { skill: "Go + AWS", salary: "600〜1,000万円", demand: "非常に高水準", up: "+100〜200万円" },
+                  { skill: "TypeScript + React", salary: "500〜850万円", demand: "高水準", up: "+50〜150万円" },
+                  { skill: "Kubernetes + Terraform", salary: "600〜950万円", demand: "非常に高水準", up: "+100〜200万円" },
+                  { skill: "Python + AI/ML", salary: "600〜1,200万円", demand: "非常に高水準", up: "+150〜300万円" },
+                  { skill: "Rust", salary: "650〜1,100万円", demand: "高水準", up: "+100〜250万円" },
                   { skill: "Java（Spring Boot）", salary: "500〜800万円", demand: "安定", up: "+50〜100万円" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
@@ -126,9 +126,9 @@ export default function SalaryUpPage() {
           <div className="space-y-4">
             {[
               { num: "1", title: "市場価値の高いスキルを習得する", desc: "Go、Kubernetes、AI/MLなど年収プレミアムのあるスキルを習得しましょう。3〜6ヶ月の投資で年収100万円以上のリターンが見込めます。" },
-              { num: "2", title: "複数のオファーを同時に獲得する", desc: "3社以上から同時にオファーを受けることで、年収交渉力が格段に上がります。エージェント3社に登録して並行で進めましょう。" },
-              { num: "3", title: "年収レンジの高い企業を狙う", desc: "外資系IT、メガベンチャー、FinTech、AI系企業は年収レンジが高いです。同じスキルでも企業タイプで100〜300万円の差がつきます。" },
-              { num: "4", title: "エージェントの年収交渉力を活用する", desc: "年収交渉はプロに任せましょう。エージェントは企業の予算を把握しており、個人では引き出せない金額を交渉してくれます。" },
+              { num: "2", title: "複数のオファーを同時に獲得する", desc: "3社以上から同時にオファーを受けることで、年収交渉を有利に進めやすくなります。エージェント3社に登録して並行で進めましょう。" },
+              { num: "3", title: "年収レンジの高い企業を狙う", desc: "外資系IT、メガベンチャー、FinTech、AI系企業は年収レンジが高い傾向があります。同じスキルでも企業タイプで100〜300万円の差がつきます。" },
+              { num: "4", title: "エージェントの年収交渉力を活用する", desc: "年収交渉はエージェントに任せるのも有効です。エージェントは企業の予算を把握しており、個人では引き出せない金額を交渉してくれます。" },
               { num: "5", title: "副業でスキルと収入の両方を得る", desc: "副業で年収+100〜300万円の上乗せが可能です。副業実績は転職時のスキル証明にもなり、次の転職での年収アップにつながります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -148,10 +148,10 @@ export default function SalaryUpPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">おすすめ企業タイプ</h2>
           <div className="space-y-3">
             {[
-              { type: "外資系IT企業", point: "日系の1.3〜1.8倍の年収です。RSU（株式報酬）で総報酬はさらに高くなります。英語力が必要です。" },
-              { type: "メガベンチャー", point: "技術力を正しく評価する給与テーブルです。年収700〜1,200万円のレンジが中心です。" },
-              { type: "FinTech企業", point: "金融×テックの希少スキルが求められ、年収レンジが高いです。Go+クラウドの需要大です。" },
-              { type: "AI/MLスタートアップ", point: "AI人材の需要が供給を大幅に上回っており、年収プレミアムが大きいです。" },
+              { type: "外資系IT企業", point: "日系企業の1.3〜1.8倍の年収水準で、RSU（株式報酬）により総報酬はさらに高くなります。英語力が必要です。" },
+              { type: "メガベンチャー", point: "技術力を適切に評価する給与テーブルを持つ企業が多く、年収700〜1,200万円のレンジが中心です。" },
+              { type: "FinTech企業", point: "金融×テックの希少スキルが求められ、年収レンジが高い傾向があります。特にGo+クラウドの需要が高まっています。" },
+              { type: "AI/MLスタートアップ", point: "AI人材の需要が供給を大幅に上回っており、年収プレミアムが大きいといえます。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>
@@ -165,9 +165,9 @@ export default function SalaryUpPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", point: "IT特化型No.1です。年収交渉力が高く、100万円以上UPの実績が豊富です。" },
-              { name: "ビズリーチ", point: "ハイクラス求人に特化しています。年収800万円以上のスカウトが届きます。" },
-              { name: "転職ドラフト", point: "企業から年収付きで指名が届きます。自分の市場価値を客観的に確認できます。" },
+              { name: "レバテックキャリア", point: "IT特化型No.1のエージェントで、年収交渉力が高く、100万円以上UPの実績が豊富です。" },
+              { name: "ビズリーチ", point: "ハイクラス求人に特化しており、年収800万円以上のスカウトが届きます。" },
+              { name: "転職ドラフト", point: "企業から提示年収付きの指名が届くため、自分の市場価値を客観的に確認できます。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -193,7 +193,7 @@ export default function SalaryUpPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">年収アップの第一歩を踏み出そう</h2>
+          <h2 className="text-xl font-bold mb-3">年収アップの転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントが年収100万円以上UPを実現するプランを無料で提案します。
           </p>

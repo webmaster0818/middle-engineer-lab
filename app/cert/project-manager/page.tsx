@@ -15,14 +15,14 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：PM試験は誰に効く資格か" },
+  { id: "conclusion", label: "PM試験はどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・合格率）" },
   { id: "menjo", label: "午前Ⅰ免除制度のメリット" },
   { id: "pmp", label: "PMP との違い・使い分け" },
   { id: "salary", label: "保有者の年収の考え方と注意点" },
   { id: "scenes", label: "転職で評価される具体場面" },
   { id: "jobs", label: "活きるポジション" },
-  { id: "middle", label: "30代・40代の価値＝マネジメント経験の証明" },
+  { id: "middle", label: "30代・40代にとっての価値：マネジメント経験の証明" },
   { id: "steps", label: "取得3ステップ／次に狙う資格" },
   { id: "faq", label: "よくある質問" },
 ];
@@ -30,7 +30,7 @@ const toc = [
 const faqs = [
   {
     q: "プロジェクトマネージャ試験は40代の転職で意味がありますか？",
-    a: "プロジェクト管理・推進の実務がある経験者には意味があります。IPAのプロジェクトマネージャ試験は高度試験で、計画立案・進捗/品質/コスト管理・ステークホルダ調整といった上流マネジメントの素養を国家資格として客観的に示せます。実際、令和7年度秋期の合格者平均年齢は38.1歳とIPAが公表しており、実務経験を持つミドルが中心の試験です。ただし資格単体で年収が跳ねるわけではなく、PM実務との掛け算が前提です。",
+    a: "プロジェクト管理・推進の実務がある経験者には意味があります。IPAのプロジェクトマネージャ試験は高度試験で、計画立案・進捗/品質/コスト管理・ステークホルダ調整といった上流マネジメントの素養を国家資格として客観的に示せます。実際、令和7年度秋期の合格者平均年齢は38.1歳とIPAが公表しており、実務経験を持つミドルが中心の試験です。ただし資格単体で年収が大きく上がるわけではなく、PM実務と組み合わせることが前提です。",
   },
   {
     q: "PM試験の合格率はどのくらいですか？",
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: "PMPとIPAのプロジェクトマネージャ試験はどちらが良いですか？",
-    a: "目的が異なるため一概には比べられません。IPAのPM試験は国家資格で受験料7,500円・有効期限なし、午後Ⅱの論述で日本のプロジェクト管理の素養を示せます。一方PMP（PMI）はグローバル標準の認定で受験資格にPM実務時間が求められ、3年ごとの更新（PDU取得）が必要です。国内・公共系ではIPAのPM試験、外資・グローバル案件ではPMPが評価されやすい傾向です。",
+    a: "目的が異なるため一概には比べられません。IPAのPM試験は国家資格で受験料7,500円・有効期限なし、午後Ⅱの論述で日本のプロジェクト管理の素養を示せます。一方PMP（PMI）はグローバル標準の認定で受験資格にPM実務時間が求められ、3年ごとの更新（PDU取得）が必要です。国内・公共系ではIPAのPM試験、外資・グローバル案件ではPMPが評価されやすい傾向があります。",
   },
   {
     q: "PM試験を取れば年収は上がりますか？",
@@ -64,7 +64,7 @@ const overviewTable = [
   ["合格者平均年齢", "38.1歳（令和7年度秋期／IPA）"],
   ["実施時期", "秋期（10月）。令和8年度よりCBT移行予定"],
   ["免除特典", "合格後、他の高度試験・支援士の午前Ⅰを2年間免除"],
-  ["有効期限", "なし（国家資格・普遍的）"],
+  ["有効期限", "なし（生涯有効）"],
 ];
 
 export default function ProjectManagerCertPage() {
@@ -102,7 +102,7 @@ export default function ProjectManagerCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          プロジェクトマネージャ試験（PM）は、IPAが主催する高度試験のうちプロジェクトマネジメント領域の最上位に位置づけられる国家資格です。本記事は「PM試験を取れば転職で有利になるか」という疑問に対し、<strong>PM経験者が上流マネジメントの素養を客観的に証明する『経験者の加点資格』</strong>という性格を軸に、論述試験の特徴やPMPとの使い分け、午前Ⅰ免除のメリットを含め、IPA公式情報をもとに整理します。資格単体では年収は跳ねないという留意点もご説明します。
+          プロジェクトマネージャ試験（PM）は、IPAが主催する高度試験のうちプロジェクトマネジメント領域の最上位に位置づけられる国家資格です。本記事は「PM試験を取れば転職で有利になるか」という疑問に対し、<strong>PM経験者が上流マネジメントの素養を客観的に証明する『経験者の加点資格』</strong>という性格を軸に、論述試験の特徴やPMPとの使い分け、午前Ⅰ免除のメリットを含め、IPA公式情報をもとに整理します。資格単体では年収が大きく上がるわけではないという留意点についてもご説明します。
         </p>
 
         <DataNote
@@ -130,14 +130,14 @@ export default function ProjectManagerCertPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PM試験は誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">PM試験はどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              プロジェクトマネージャ試験は<strong>「PM経験者の上流マネジメントを証明する加点資格」</strong>です。午後Ⅱの論述で自身のプロジェクト管理経験を論じる必要があるため、<strong>そもそも実務経験のあるミドルを想定した構造</strong>になっています（合格者平均年齢38.1歳）。すでにリーダー・PMを経験した30〜40代に最も効きます。
+              プロジェクトマネージャ試験は<strong>「PM経験者の上流マネジメントを証明する加点資格」</strong>です。午後Ⅱの論述で自身のプロジェクト管理経験を論じる必要があるため、<strong>そもそも実務経験のあるミドルを想定した構造</strong>になっています（合格者平均年齢38.1歳）。すでにリーダー・PMを経験した30〜40代に最も適した資格です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>PM・リーダー経験のある30〜40代</strong>：マネジメント素養の客観証明として加点されます</li>
-              <li>② <strong>未経験のミドル</strong>：論述で実体験が問われ、入口には不向きです。まず応用情報や実務経験を積むべきです</li>
+              <li>② <strong>未経験のミドル</strong>：論述で実体験が問われるため入口には不向きです。まず応用情報の取得や実務経験を積むことをおすすめします</li>
               <li>③ <strong>PMP併取得・上流志向</strong>：国内・公共系はPM試験、グローバルはPMPと使い分けられます</li>
             </ul>
           </div>
@@ -171,9 +171,9 @@ export default function ProjectManagerCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・<strong>応用情報技術者試験</strong>に合格します</li>
-              <li>・いずれかの<strong>高度試験または支援士試験に合格</strong>します</li>
-              <li>・高度試験・支援士試験の<strong>午前Ⅰで基準点以上</strong>を取ります</li>
+              <li>・<strong>応用情報技術者試験</strong>に合格</li>
+              <li>・いずれかの<strong>高度試験または支援士試験に合格</strong></li>
+              <li>・高度試験・支援士試験の<strong>午前Ⅰで基準点以上</strong>を取得</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -185,7 +185,7 @@ export default function ProjectManagerCertPage() {
         <section id="pmp" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">PMP との違い・使い分け</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            PMを目指す人が必ず比較するのがPMP（PMI）です。どちらが上ということではなく、<strong>狙う領域で使い分ける</strong>のが正解です。
+            PMを目指す人が必ず比較するのがPMP（PMI）です。どちらが上ということではなく、<strong>狙う領域で使い分ける</strong>ことが重要です。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-x-auto mb-3">
             <table className="w-full text-sm min-w-[560px]">
@@ -199,9 +199,9 @@ export default function ProjectManagerCertPage() {
               <tbody>
                 {[
                   ["性質", "国家資格", "国際的なベンダー認定"],
-                  ["受験料", "7,500円", "PMI会員/非会員で異なります（高め）"],
+                  ["受験料", "7,500円", "PMI会員/非会員で別料金（高め）"],
                   ["有効期限", "なし", "3年ごとの更新（PDU取得が必要）"],
-                  ["特徴", "午後Ⅱの論述で実体験を論じます", "受験資格にPM実務時間が必要"],
+                  ["特徴", "午後Ⅱの論述で実体験を記述", "受験資格にPM実務時間が必要"],
                   ["評価されやすい場", "国内・公共系・SIer", "外資・グローバル案件"],
                 ].map(([k, a, b], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
@@ -214,7 +214,7 @@ export default function ProjectManagerCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            両方の比較や受験資格の詳細は<Link href="/cert/pmp/" className="text-petrol hover:underline">PMP資格と転職</Link>のページも参考にしてください。国内SIerや公共系のPM職を狙うならIPAのPM試験、外資・グローバル案件を視野に入れるならPMPが効きやすい傾向です。
+            両方の比較や受験資格の詳細は<Link href="/cert/pmp/" className="text-petrol hover:underline">PMP資格と転職</Link>のページも参考にしてください。国内SIerや公共系のPM職を狙うならIPAのPM試験、外資・グローバル案件を視野に入れるならPMPが評価されやすい傾向があります。
           </p>
         </section>
 
@@ -232,7 +232,7 @@ export default function ProjectManagerCertPage() {
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: 国税庁「民間給与実態統計調査」（令和6年分・給与所得者平均461万円）。PM試験単独の年収は信頼できる公的データが乏しいため、当サイトでは断定を避け、PM実務経験との掛け算で評価する立場を取ります。
+            出典: 国税庁「民間給与実態統計調査」（令和6年分・給与所得者平均461万円）。PM試験単独の年収は信頼できる公的データが乏しいため、当サイトでは断定を避け、PM実務経験とあわせて評価する立場を取っています。
           </p>
         </section>
 
@@ -243,7 +243,7 @@ export default function ProjectManagerCertPage() {
             {[
               { t: "PM・PMO職への応募", d: "計画立案・進捗/品質/コスト管理・リスク管理の素養を国家資格で裏づけ、PM求人で加点されます。" },
               { t: "マネジメント経験の客観証明", d: "論述で問われる試験性質上、実体験の裏づけがある証明となり、属人的なPM経験を伝わる形にできます。" },
-              { t: "資格手当・評価制度の対象", d: "高度試験を資格手当・報奨金や昇進要件に設定する企業があり、社内評価の根拠になりやすいです。" },
+              { t: "資格手当・評価制度の対象", d: "高度試験を資格手当・報奨金や昇進要件に設定する企業があり、社内評価の根拠になりやすい傾向があります。" },
               { t: "上流コンサル・公共系案件への布石", d: "国内SIerや公共系の上流案件で、国家資格としての信頼性が評価される場面があります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -279,13 +279,13 @@ export default function ProjectManagerCertPage() {
 
         {/* 30-40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝マネジメント経験の証明</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代にとっての価値：マネジメント経験の証明</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              プロジェクトマネージャ試験は、<strong>構造的にミドル向け</strong>の資格です。午後Ⅱの論述で自身のプロジェクト管理経験を論じる必要があるため、実体験のない人には突破が難しく、合格者の平均年齢は38.1歳です（令和7年度秋期）。つまり<strong>「すでにPM・リーダーを経験した人が、その経験を国家資格で客観化するための装置」</strong>として最も効きます。
+              プロジェクトマネージャ試験は、<strong>構造的にミドル向け</strong>の資格です。午後Ⅱの論述で自身のプロジェクト管理経験を論じる必要があるため、実体験のない人には突破が難しく、合格者の平均年齢は38.1歳です（令和7年度秋期）。つまり<strong>すでにPM・リーダーを経験した人が、その経験を国家資格で客観的に示すための資格</strong>として最も効果を発揮します。
             </p>
             <p>
-              一方で過度な期待は禁物です。PM試験を取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「PM実務経験 × 資格」の掛け算</strong>のときです。担当した案件の規模・役割と組み合わせて初めて、上流PMポジションや資格手当という形で結実します。グローバル案件を視野に入れるなら、午前Ⅰ免除やこの経験を土台にPMPへ広げるのも有効です。
+              一方で過度な期待は禁物です。PM試験を取っても、それ単体で年収が大きく上がるわけではありません。価値が生まれるのは<strong>PM実務経験と資格を組み合わせたとき</strong>です。担当した案件の規模・役割と組み合わせて初めて、上流PMポジションや資格手当という形で評価につながります。グローバル案件を視野に入れるなら、午前Ⅰ免除やこの経験を土台にPMPへ広げるのも有効です。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -298,9 +298,9 @@ export default function ProjectManagerCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "午前Ⅱで管理知識を網羅", d: "プロジェクトマネジメント分野の用語・体系を過去問演習で固めます。応用情報合格者は午前Ⅰ免除を活用できます。" },
-              { n: "STEP 2", t: "午後Ⅱの論述対策が本丸", d: "自身のプロジェクト経験を題意に沿って論じる練習を反復します。事前に論述ネタを整理しておくのが鍵です。" },
-              { n: "STEP 3", t: "合格→PMP併取得・上位へ", d: "合格後2年間の午前Ⅰ免除を活かしつつ、グローバル志向ならPMP併取得で評価の幅を広げます。" },
+              { n: "STEP 1", t: "午前Ⅱで管理知識を固める", d: "プロジェクトマネジメント分野の用語・体系を過去問演習で固めます。応用情報合格者は午前Ⅰ免除を活用できます。" },
+              { n: "STEP 2", t: "午後Ⅱの論述対策に重点を置く", d: "自身のプロジェクト経験を題意に沿って論じる練習を反復します。事前に論述の題材となる経験を整理しておくことが重要です。" },
+              { n: "STEP 3", t: "合格後はPMP併取得で評価の幅を広げる", d: "合格後2年間の午前Ⅰ免除を活かしつつ、グローバル志向ならPMP併取得で評価の幅を広げます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

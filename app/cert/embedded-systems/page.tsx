@@ -15,14 +15,14 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：ESは誰に効く資格か" },
+  { id: "conclusion", label: "ESはどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・合格率）" },
   { id: "menjo", label: "午前Ⅰ免除制度の活用" },
   { id: "salary", label: "保有者の年収の考え方と注意点" },
   { id: "scenes", label: "転職で評価される具体場面" },
   { id: "jobs", label: "活きるポジション" },
   { id: "position", label: "高度資格としての位置づけ" },
-  { id: "middle", label: "30代・40代の価値＝専門性の客観証明" },
+  { id: "middle", label: "30代・40代にとっての価値：専門性の客観的な証明" },
   { id: "steps", label: "取得3ステップ／次に狙う方向" },
   { id: "faq", label: "よくある質問" },
 ];
@@ -30,7 +30,7 @@ const toc = [
 const faqs = [
   {
     q: "エンベデッドシステムスペシャリストは40代の転職で意味がありますか？",
-    a: "意味があります。ESはIPAの高度試験（最高ランクのレベル4）で、組込み・IoT領域の設計開発スキルを国家資格として証明できます。すでに組込み開発の実務経験がある30〜40代が、専門性を客観的に裏づけ、上流（要件定義・アーキテクチャ設計）やリーダー職へ役割を広げる土台として機能します。ただし資格単体で年収が跳ねるわけではなく、組込み開発の実務経験との掛け算が前提です。",
+    a: "意味があります。ESはIPAの高度試験（最高ランクのレベル4）で、組込み・IoT領域の設計開発スキルを国家資格として証明できます。すでに組込み開発の実務経験がある30〜40代が、専門性を客観的に裏づけ、上流（要件定義・アーキテクチャ設計）やリーダー職へ役割を広げる土台として機能します。ただし資格単体で年収が大きく上がるわけではなく、組込み開発の実務経験と組み合わせることが前提です。",
   },
   {
     q: "ESの合格率はどのくらいですか？",
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "ESと応用情報はどちらを優先すべきですか？",
-    a: "組込み実務経験があり高度試験に挑む準備があるならES、まず土台を固めたいなら応用情報という整理です。応用情報は中位の加点資格で、合格すればESの午前Ⅰが2年間免除されます。応用情報→ESという順で進めば、学習負担を抑えながら高度資格に到達できます。",
+    a: "組込み実務経験があり高度試験に挑む準備があるならES、まず土台を固めたいなら応用情報が適しています。応用情報は中位の加点資格で、合格すればESの午前Ⅰが2年間免除されます。応用情報からESへという順で進めば、学習負担を抑えながら高度資格に到達できます。",
   },
   {
     q: "2026年度から試験方式は変わりますか？",
@@ -62,7 +62,7 @@ const overviewTable = [
   ["合格基準", "各区分で基準点（原則60点）以上"],
   ["合格率", "令和7年度秋期 15.3%（IPA公表）"],
   ["免除特典", "応用情報等の合格で午前Ⅰを2年間免除"],
-  ["有効期限", "なし（国家資格・普遍的）"],
+  ["有効期限", "なし（生涯有効）"],
 ];
 
 export default function EmbeddedSystemsCertPage() {
@@ -100,7 +100,7 @@ export default function EmbeddedSystemsCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          エンベデッドシステムスペシャリスト試験（ES）は、IPAが主催する情報処理技術者試験の中でも<strong>最高ランク（スキルレベル4）の高度試験</strong>で、組込みシステム・IoT分野の設計開発スキルを国家資格として証明する試験です。本記事は「ESを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の専門性証明』</strong>という性格を軸に、午前Ⅰ免除制度を含め、公開データと公式情報をもとに整理します。資格単体では年収は跳ねないという留意点もご説明します。
+          エンベデッドシステムスペシャリスト試験（ES）は、IPAが主催する情報処理技術者試験の中でも<strong>最高ランク（スキルレベル4）の高度試験</strong>で、組込みシステム・IoT分野の設計開発スキルを国家資格として証明する試験です。本記事は「ESを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の専門性証明』</strong>という性格を軸に、午前Ⅰ免除制度を含め、公開データと公式情報をもとに整理します。資格単体では年収が大きく上がるわけではないという留意点についてもご説明します。
         </p>
 
         <DataNote
@@ -128,14 +128,14 @@ export default function EmbeddedSystemsCertPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ESは誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ESはどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              エンベデッドシステムスペシャリストは<strong>「組込み経験者の専門性証明」</strong>です。基本情報やCCNAのような未経験入口資格とは性格が異なり、すでに組込み開発の実務経験のあるミドルが<strong>上流（アーキテクチャ設計・要件定義）やリーダー職へ役割を広げる土台</strong>として最も効きます。
+              エンベデッドシステムスペシャリストは<strong>「組込み経験者の専門性を証明する資格」</strong>です。基本情報やCCNAのような未経験入口資格とは性格が異なり、すでに組込み開発の実務経験のあるミドルが<strong>上流（アーキテクチャ設計・要件定義）やリーダー職へ役割を広げる土台</strong>として最も効果を発揮します。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>組込み・IoT実務経験のある30〜40代</strong>：専門性を国家資格で客観証明できます</li>
-              <li>② <strong>組込み未経験のミドル</strong>：高度試験のため入口には不向きです。まず応用情報で土台を作るべきです</li>
+              <li>② <strong>組込み未経験のミドル</strong>：高度試験のため入口には不向きです。まず応用情報で土台を作ることをおすすめします</li>
               <li>③ <strong>上流・リーダー志望</strong>：設計判断やマネジメントの素養を示す加点材料になります</li>
             </ul>
           </div>
@@ -157,7 +157,7 @@ export default function EmbeddedSystemsCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: IPA 公式（ipa.go.jp、調査時点2026年6月）。合格率は令和7年度秋期15.3%です（IPA「令和7年度秋期 合格発表」）。受験料は全試験区分共通で7,500円です（消費税込）。午後Ⅰ・午後Ⅱの記述式が合否を分けやすい試験です。なお令和8年度（2026年度）からCBT方式への移行が予定されています。有効期限はなく、合格すれば資格は生涯有効です。
+            出典: IPA 公式（ipa.go.jp、調査時点2026年6月）。合格率は令和7年度秋期15.3%です（IPA「令和7年度秋期 合格発表」）。受験料は全試験区分共通で7,500円（消費税込）です。午後Ⅰ・午後Ⅱの記述式が合否を分けやすい傾向があります。なお令和8年度（2026年度）からCBT方式への移行が予定されています。有効期限はなく、合格すれば資格は生涯有効です。
           </p>
         </section>
 
@@ -165,13 +165,13 @@ export default function EmbeddedSystemsCertPage() {
         <section id="menjo" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">午前Ⅰ免除制度の活用</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            高度試験の負担を下げる鍵が<strong>午前Ⅰ免除</strong>です。ESを受ける際、次のいずれかに該当すると午前Ⅰが2年間免除されます。
+            高度試験の負担を軽減する制度が<strong>午前Ⅰ免除</strong>です。ESを受ける際、次のいずれかに該当すると午前Ⅰが2年間免除されます。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・<strong>応用情報技術者試験</strong>に合格しました（合格日から2年以内）</li>
-              <li>・いずれかの<strong>高度試験・情報処理安全確保支援士試験</strong>に合格しました（同2年以内）</li>
-              <li>・高度試験・支援士試験の<strong>午前Ⅰで基準点以上</strong>を取った（同2年以内）</li>
+              <li>・<strong>応用情報技術者試験</strong>に合格（合格日から2年以内）</li>
+              <li>・いずれかの<strong>高度試験・情報処理安全確保支援士試験</strong>に合格（同2年以内）</li>
+              <li>・高度試験・支援士試験の<strong>午前Ⅰで基準点以上</strong>を取得（同2年以内）</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -187,8 +187,8 @@ export default function EmbeddedSystemsCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・年収は<strong>組込み実務経験・役割・業界</strong>（自動車/産業機器/家電/医療機器等）で決まります</li>
-              <li>・ESは<strong>専門性を補強する材料</strong>であり、単体で年収を保証するものではありません</li>
+              <li>・年収を決めるのは<strong>組込み実務経験・役割・業界</strong>（自動車/産業機器/家電/医療機器等）</li>
+              <li>・ESは<strong>専門性を補強する材料</strong>であり、単体での年収の保証はなし</li>
               <li>・公的な水準感の参考：給与所得者平均 約461万円（国税庁・令和6年分）</li>
             </ul>
           </div>
@@ -204,7 +204,7 @@ export default function EmbeddedSystemsCertPage() {
             {[
               { t: "組込み上流（要件定義・アーキ設計）への配置", d: "ハードとソフトを横断する設計判断の素養を示す土台として、上流ポジション応募で加点されます。" },
               { t: "専門性・学習意欲の客観証明", d: "最高ランクの国家資格を実務と両立して取得した事実が、組込み領域の深い知識と継続学習を裏づけます。" },
-              { t: "資格手当・評価制度の対象", d: "高度試験を資格手当・報奨金の対象に設定する企業があり、社内評価の根拠になりやすいです。" },
+              { t: "資格手当・評価制度の対象", d: "高度試験を資格手当・報奨金の対象に設定する企業があり、社内評価の根拠になりやすい傾向があります。" },
               { t: "リーダー・技術責任者への布石", d: "設計レビューや若手指導を担う立場への移行で、技術力の客観的裏づけになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -257,7 +257,7 @@ export default function EmbeddedSystemsCertPage() {
                 {[
                   ["主な対象", "未経験〜若手・異業種からの転職", "組込み実務経験のある中堅エンジニア"],
                   ["狙い", "IT職への入口・基礎の証明", "専門性の客観証明・上流への土台"],
-                  ["効き方", "書類通過・間口を広げます", "設計/リーダーへの配置・資格手当"],
+                  ["期待できる効果", "書類通過・応募の間口の拡大", "設計/リーダーへの配置・資格手当"],
                   ["難度", "基礎〜入門レベル（レベル1〜2）", "高度（レベル4）・午後記述が関門"],
                 ].map(([k, a, b], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
@@ -270,22 +270,22 @@ export default function EmbeddedSystemsCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用の軸は3つです。第一に<strong>専門性の客観証明です</strong>。組込み領域は実務スキルが見えにくく、最高ランクの国家資格は「この人は組込みの体系を理解している」という強い裏づけになります。第二に<strong>上流・リーダーへの足がかり</strong>です。アーキテクチャ設計や若手指導を担う立場への移行で加点されます。第三に<strong>社内評価・資格手当です</strong>。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
+            活用の軸は3つです。第一に<strong>専門性の客観証明</strong>です。組込み領域は実務スキルが外部から見えにくく、最高ランクの国家資格は「この人は組込みの体系を理解している」ことの有力な裏づけになります。第二に<strong>上流・リーダーへの足がかり</strong>です。アーキテクチャ設計や若手指導を担う立場への移行で加点されます。第三に<strong>社内評価・資格手当</strong>です。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。ESは合格率15%台の難関で、<strong>相応の学習時間が必要</strong>です。また取得しても単体で年収が跳ねる資格ではなく、効果が出るのは「組込み実務 × 資格」の掛け算が成立したときです。逆に言えば、すでに組込み現場の経験があり専門性を客観的に示したい30〜40代にとっては、投資する価値が明確な資格です。基礎や中位の土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。
+            注意すべきデメリットも押さえておきましょう。ESは合格率15%台の難関で、<strong>相応の学習時間が必要</strong>です。また取得しても単体で年収が大きく上がる資格ではなく、効果が出るのは組込み実務と資格が組み合わさったときです。逆に言えば、すでに組込み現場の経験があり専門性を客観的に示したい30〜40代にとっては、投資する価値が明確な資格です。基礎や中位の土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。
           </p>
         </section>
 
         {/* 30-40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝専門性の客観証明</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代にとっての価値：専門性の客観的な証明</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              ESは、基本情報・CCNA・LPICといった<strong>未経験の入口資格とは立ち位置が逆</strong>です。これらが「IT職に入るための入口」なのに対し、ESは<strong>「すでに組込み現場にいる経験者が、専門性を国家資格で示し、上流へ役割を上げるための証明装置」</strong>として最も効きます。組込み実務のある30〜40代にとって、これは時間を投資する価値のある資格です。
+              ESは、基本情報・CCNA・LPICといった<strong>未経験の入口資格とは位置づけが異なります</strong>。これらが「IT職に入るための入口」なのに対し、ESは<strong>すでに組込み現場にいる経験者が専門性を国家資格で示し、上流へ役割を広げるための資格</strong>として最も効果を発揮します。組込み実務のある30〜40代にとって、これは時間を投資する価値のある資格です。
             </p>
             <p>
-              一方で過度な期待は禁物です。ESを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「組込み実務経験 × 資格」の掛け算</strong>のときです。設計・開発経験と組み合わせて初めて、上流ポジションや資格手当という形で結実します。さらに、応用情報の午前Ⅰ免除を使えば、高度試験への挑戦の負担を抑えられます。
+              一方で過度な期待は禁物です。ESを取っても、それ単体で年収が大きく上がるわけではありません。価値が生まれるのは<strong>組込み実務経験と資格を組み合わせたとき</strong>です。設計・開発経験と組み合わせて初めて、上流ポジションや資格手当という形で評価につながります。さらに、応用情報の午前Ⅰ免除を使えば、高度試験への挑戦の負担を抑えられます。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -299,8 +299,8 @@ export default function EmbeddedSystemsCertPage() {
           <div className="space-y-3 mb-6">
             {[
               { n: "STEP 1", t: "午前Ⅰ免除を確保", d: "応用情報合格などで午前Ⅰの2年間免除を取り、午前Ⅱ・午後に学習を集中させます。" },
-              { n: "STEP 2", t: "午後の組込み設計対策が本丸", d: "ハード/ソフト横断の設計問題、リアルタイム制御の記述パターンを過去問で反復します。" },
-              { n: "STEP 3", t: "合格→上流・リーダーへ展開", d: "国家資格の裏づけを職務経歴書・面接で活かし、設計・リーダー職への移行につなげます。" },
+              { n: "STEP 2", t: "午後の組込み設計対策に重点を置く", d: "ハード/ソフト横断の設計問題、リアルタイム制御の記述パターンを過去問で反復します。" },
+              { n: "STEP 3", t: "合格後は上流・リーダーへ展開", d: "国家資格の裏づけを職務経歴書・面接で活かし、設計・リーダー職への移行につなげます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

@@ -22,7 +22,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "転職難易度と向いている人"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
@@ -37,7 +37,7 @@ const toc = [
 
 const faqs = [
   {
-    q: "クラスメソッドのエンジニア選考フローは？",
+    q: "クラスメソッドのエンジニア選考フローを教えてください。",
     a: "公式採用情報によると、一般的には「書類選考」「カジュアル面談（任意）」「複数回の面接」「オファー面談」の流れで、ポジションにより技術面接やスキル確認が加わります。最新の内容は応募求人ごとに確認することが推奨されます。",
   },
   {
@@ -45,8 +45,8 @@ const faqs = [
     a: "クラスメソッドは非上場企業であり、有価証券報告書を提出していないため、平均年収は公式に開示されていません。本ページでは推測による年収額の創作は行いません。具体的な提示額は、応募ポジションごとの求人情報や面談で確認することが確実です。",
   },
   {
-    q: "クラスメソッドのAWSパートナー実績は？",
-    a: "クラスメソッドはAWSのパートナープログラムにおける最上位ティアであるプレミアティアサービスパートナーに認定されていることを公式に発信しています。AWS関連の各種コンピテンシー・認定資格の保有数が多く、クラウド導入・運用に特化した実績が強みです。",
+    q: "クラスメソッドのAWSパートナー実績を教えてください。",
+    a: "クラスメソッドはAWSのパートナープログラムにおける最上位ティアであるプレミアティアサービスパートナーに認定されていることを公式に発信しています。AWS関連の各種コンピテンシー・認定資格の保有数が多く、クラウド導入・運用に特化した実績があります。",
   },
   {
     q: "DevelopersIO（デベロッパーズアイオー）とは何ですか？",
@@ -54,15 +54,15 @@ const faqs = [
   },
   {
     q: "クラスメソッドではAWS認定資格は重要ですか？",
-    a: "クラウドコンサルティングを主力とする性質上、AWS認定資格はスキルの客観的な裏付けとして重視されやすい傾向です。会社としても認定取得を後押しする文化が公式に発信されています。AWS未経験でも、クラウドへの強い学習意欲があれば挑戦しやすいポジションが存在します。",
+    a: "クラウドコンサルティングを主力とする性質上、AWS認定資格はスキルの客観的な裏付けとして重視されやすい傾向があります。会社としても認定取得を後押しする文化が公式に発信されています。AWS未経験でも、クラウドへの強い学習意欲があれば挑戦しやすいポジションが存在します。",
   },
   {
     q: "クラスメソッドへの転職難易度は高いですか？",
-    a: "クラウド（特にAWS）の設計・構築・運用の実務経験や、技術発信への前向きさが評価されます。コンサルティング要素もあるため、顧客折衝・課題解決力も問われる傾向です。AWS経験と資格の掛け合わせ、アウトプット実績があると有利です。",
+    a: "クラウド（特にAWS）の設計・構築・運用の実務経験や、技術発信への前向きさが評価されます。コンサルティング要素もあるため、顧客折衝・課題解決力も問われる傾向があります。AWS経験と資格の掛け合わせ、アウトプット実績があると有利です。",
   },
   {
     q: "30代・40代でもクラスメソッドに転職できますか？",
-    a: "年齢よりもクラウド・データ・コンサルティングの専門性が問われる傾向です。AWSをはじめとするクラウド構築・運用の実務、資格、顧客対応の経験があると、30代40代のミドルエンジニアでも専門性を活かしやすい環境と言えます。",
+    a: "年齢よりもクラウド・データ・コンサルティングの専門性が問われる傾向にあります。AWSをはじめとするクラウド構築・運用の実務、資格、顧客対応の経験があると、30代40代のミドルエンジニアでも専門性を活かしやすい環境と言えます。",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function ClassmethodCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】クラスメソッドの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: クラスメソッド株式会社は非上場で有価証券報告書がなく、平均年収は公式に開示されていません。本ガイドでは推測による年収額の創作は行いません。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>クラスメソッド株式会社は非上場で有価証券報告書がなく、平均年収は公式に開示されていません。本ガイドでは推測による年収額の創作は行いません。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場・有価証券報告書なしのため公式の平均年収は非開示です。提示額はポジション・グレードにより幅があります。</li><li>・参考としてレバテック2025年公表の正社員SEは30代約499万円・40代約618万円です。クラウド/AWS領域は専門性次第で市場水準を上回る可能性があります。</li><li>・具体的な提示水準は求人情報・面談、またはエージェント経由の想定年収でご確認ください。</li></ul>
         </div>
 
@@ -110,14 +110,14 @@ export default function ClassmethodCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">転職難易度と向いている人</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               クラスメソッドは<strong>AWSプレミアティアパートナーとして、クラウド導入・運用と技術発信を事業の核に据えるクラウド専業企業</strong>です。AWSをはじめとするクラウドの設計・構築・運用の実務経験や、資格・技術発信が直接活きます。コンサルティング要素もあり、顧客課題の解決に向き合えるエンジニアに向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：AWS等クラウドの構築・運用経験があり、資格取得や技術発信に前向きなエンジニア</li>
               <li>● <strong>向いていない人</strong>：自社単一プロダクトの開発に専念したい人、顧客折衝を避けたい人</li>
-              <li>● <strong>30代・40代</strong>：クラウドの実務×AWS認定の掛け合わせがあれば専門性を活かしやすい</li>
+              <li>● <strong>30代・40代</strong>：クラウドの実務×AWS認定の掛け合わせがあれば専門性を活かしやすい環境</li>
             </ul>
           </div>
         </section>
@@ -155,7 +155,7 @@ export default function ClassmethodCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">AWSプレミアティアパートナーとしてのクラウド専門性</h3>
-              <p className="text-sm text-petrol-deep">AWSパートナープログラムの最上位ティアに認定されており、各種コンピテンシーやAWS認定資格の保有数が多いのが強みです。クラウド導入・運用の最前線で、幅広い業種・規模の案件に携われます。</p>
+              <p className="text-sm text-petrol-deep">AWSパートナープログラムの最上位ティアに認定されており、各種コンピテンシーやAWS認定資格の保有数が多い点が特徴です。クラウド導入・運用の現場で、幅広い業種・規模の案件に携われます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">DevelopersIOによる技術発信文化</h3>
@@ -231,7 +231,7 @@ export default function ClassmethodCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              クラスメソッドは年齢よりも、クラウド・データ・コンサルティングの専門性が問われる傾向です。30代・40代のミドルエンジニアにとっては、<strong>AWSをはじめとするクラウド構築・運用の実務と、AWS認定資格の掛け合わせが強力な強み</strong>になります。資格取得を後押しする文化があるため、入社後にさらに認定を積み上げてキャリアを伸ばす道も描けます。
+              クラスメソッドは年齢よりも、クラウド・データ・コンサルティングの専門性が問われる傾向があります。30代・40代のミドルエンジニアにとっては、<strong>AWSをはじめとするクラウド構築・運用の実務と、AWS認定資格の掛け合わせが大きな強み</strong>になります。資格取得を後押しする文化があるため、入社後にさらに認定を積み上げてキャリアを伸ばす道も描けます。
             </p>
             <p>
               30代40代では、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>や<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定ソリューションアーキテクト（SAA）</Link>や<Link href="/cert/aws-sap/" className="text-petrol hover:underline">プロフェッショナル（SAP）</Link>といった上位資格を掛け合わせると、クラウド専業企業での評価につながりやすくなります。
@@ -247,8 +247,8 @@ export default function ClassmethodCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。クラウド・インフラ・SES／受託の求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。クラウド実務経験者への提案数が多いです。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。クラウド・コンサル領域のハイクラス求人が集まりやすいです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。クラウド実務経験者への提案数が多い傾向にあります。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。クラウド・コンサル領域のハイクラス求人が集まりやすい傾向があります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

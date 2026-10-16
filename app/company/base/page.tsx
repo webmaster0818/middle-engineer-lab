@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
@@ -42,14 +42,14 @@ const salaryRows: [string, string][] = [
 ];
 
 const faqs = [
-  { q: "BASEはエンジニアの中途採用を行っている？", a: "BASEは継続的にソフトウェアエンジニアの中途採用を行っています。ネットショップ作成サービス「BASE」、ID決済「Pay ID」、決済API「PAY.JP」、金融サービスなど複数プロダクトを展開しており、サーバーサイド・フロントエンド・SRE・決済基盤など幅広い職種で募集があります。最新は公式採用ページをご確認ください。" },
-  { q: "BASEの平均年収はいくら？", a: "2024年12月期の有価証券報告書によると、提出会社（BASE株式会社単体）の平均年間給与は700万円です。これは賞与を含む全従業員（エンジニア以外も含む）の平均で、職種別・等級別の内訳は公式に開示されていません。なお転職集計サイトでは約758万円とする値も見られますが、当ガイドでは一次情報である有価証券報告書の数値を優先しています。" },
-  { q: "BASEのエンジニア職の提示年収レンジは公開されている？", a: "BASEは職種別・等級別の年収レンジを公式に常時開示していません。求人サイトでも継続的に確認できる確定レンジがないため、当ガイドでは推測の数値表は掲載していません。目安として有価証券報告書の平均700万円（2024年12月期・全従業員平均）が参考値になります。" },
-  { q: "BASEで使われている技術スタックは？", a: "BASEの主力サービス本体はPHP（CakePHP由来）で構築され、フロントエンドはVue・React（TypeScript）が使われています。一方、ID決済「Pay ID」などの新規プロダクトではGoとNext.js（App Router）が採用され、金融サービス「YELL BANK」はGo、決済API「PAY.JP」はPythonなどが用いられています。インフラはAWS・GCPを利用しています。既存のPHPからGoへ重心を移しつつある点が特徴です。" },
-  { q: "BASEの選考フローは？", a: "BASEは選考フローの詳細な回数・内容を公式に網羅的には公開していません。一般的なWeb企業と同様、書類選考→複数回の面接（技術面接・カルチャーフィット面接を含む）→内定という流れが想定されますが、回数・形式は職種・時期により異なります。創作した固定フローは掲載していないため、最新は公式採用ページや担当エージェントでご確認ください。" },
-  { q: "BASEはPHPとGoのどちらの経験が有利？", a: "BASEは既存の主力サービスがPHP（CakePHP由来）である一方、新規プロダクトや決済・金融領域ではGoの採用を進めています。そのため、PHPによる大規模Webサービスの開発運用経験も、Goによるマイクロサービス・決済基盤の経験も、いずれも活きる可能性があります。応募する職種・プロダクトによって求められる言語が異なるため、募集要項で確認することが重要です。" },
-  { q: "BASEで決済・フィンテックの経験は評価される？", a: "BASEは決済（PAY.JP）・ID決済（Pay ID）・金融（YELL BANK）など金融ドメインのプロダクトを複数持つため、決済システムや金融領域の開発経験は親和性が高いと考えられます。可用性・セキュリティ・トランザクション整合性といった、決済特有の非機能要件への理解は評価されやすい傾向があります。" },
-  { q: "BASEへの転職は未経験でも可能？", a: "BASEの中途採用は即戦力の経験者採用が基本です。各募集要項に必須スキル（PHPやGoでのWebサービス開発経験等）が明示されており、完全未経験からの参入は現実的ではありません。まずはWebサービス開発の実務経験を積むのが一般的な道筋です。" },
+  { q: "BASEはエンジニアの中途採用を行っていますか？", a: "BASEは継続的にソフトウェアエンジニアの中途採用を行っています。ネットショップ作成サービス「BASE」、ID決済「Pay ID」、決済API「PAY.JP」、金融サービスなど複数プロダクトを展開しており、サーバーサイド・フロントエンド・SRE・決済基盤など幅広い職種で募集があります。最新は公式採用ページをご確認ください。" },
+  { q: "BASEの平均年収はいくらですか？", a: "2024年12月期の有価証券報告書によると、提出会社（BASE株式会社単体）の平均年間給与は700万円です。これは賞与を含む全従業員（エンジニア以外も含む）の平均で、職種別・等級別の内訳は公式に開示されていません。なお転職集計サイトでは約758万円とする値も見られますが、当ガイドでは一次情報である有価証券報告書の数値を優先しています。" },
+  { q: "BASEのエンジニア職の提示年収レンジは公開されていますか？", a: "BASEは職種別・等級別の年収レンジを公式に常時開示していません。求人サイトでも継続的に確認できる確定レンジがないため、当ガイドでは推測の数値表は掲載していません。目安として有価証券報告書の平均700万円（2024年12月期・全従業員平均）が参考値になります。" },
+  { q: "BASEで使われている技術スタックを教えてください。", a: "BASEの主力サービス本体はPHP（CakePHP由来）で構築され、フロントエンドはVue・React（TypeScript）が使われています。一方、ID決済「Pay ID」などの新規プロダクトではGoとNext.js（App Router）が採用され、金融サービス「YELL BANK」はGo、決済API「PAY.JP」はPythonなどが用いられています。インフラはAWS・GCPを利用しています。既存のPHPからGoへ重心を移しつつある点が特徴です。" },
+  { q: "BASEの選考フローを教えてください。", a: "BASEは選考フローの詳細な回数・内容を公式に網羅的には公開していません。一般的なWeb企業と同様、書類選考→複数回の面接（技術面接・カルチャーフィット面接を含む）→内定という流れが想定されますが、回数・形式は職種・時期により異なります。創作した固定フローは掲載していないため、最新は公式採用ページや担当エージェントでご確認ください。" },
+  { q: "BASEはPHPとGoのどちらの経験が有利ですか？", a: "BASEは既存の主力サービスがPHP（CakePHP由来）である一方、新規プロダクトや決済・金融領域ではGoの採用を進めています。そのため、PHPによる大規模Webサービスの開発運用経験も、Goによるマイクロサービス・決済基盤の経験も、いずれも活きる可能性があります。応募する職種・プロダクトによって求められる言語が異なるため、募集要項で確認することが重要です。" },
+  { q: "BASEで決済・フィンテックの経験は評価されますか？", a: "BASEは決済（PAY.JP）・ID決済（Pay ID）・金融（YELL BANK）など金融ドメインのプロダクトを複数持つため、決済システムや金融領域の開発経験は親和性が高いと考えられます。可用性・セキュリティ・トランザクション整合性といった、決済特有の非機能要件への理解は評価されやすい傾向があります。" },
+  { q: "BASEへの転職は未経験でも可能ですか？", a: "BASEの中途採用は即戦力の経験者採用が基本です。各募集要項に必須スキル（PHPやGoでのWebサービス開発経験等）が明示されており、完全未経験からの参入は現実的ではありません。まずはWebサービス開発の実務経験を積むのが一般的な道筋です。" },
 ];
 
 export default function BaseCompanyPage() {
@@ -64,29 +64,29 @@ export default function BaseCompanyPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">BASE（ベイス）へのエンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
-          BASE株式会社へのエンジニア中途採用について、有価証券報告書と公式の技術発信の一次情報をもとに、転職難易度・年収・技術スタック・選考の実態を中立にまとめました。ネットショップ作成「BASE」、ID決済「Pay ID」、決済API「PAY.JP」、金融「YELL BANK」と、ECと決済・金融が交わるドメインを持つのが大きな特徴です。既存のPHP資産とGoへの移行フェーズが共存する、技術選択の過渡期を体験できる企業として、30代・40代が押さえるべき現実を解説します。
+          BASE株式会社へのエンジニア中途採用について、有価証券報告書と公式の技術発信の一次情報をもとに、転職難易度・年収・技術スタック・選考の実態を中立にまとめました。ネットショップ作成「BASE」、ID決済「Pay ID」、決済API「PAY.JP」、金融「YELL BANK」と、ECと決済・金融が交わるドメインを持つのが大きな特徴です。既存のPHP資産とGoへの移行フェーズが共存する、技術選択の過渡期にある企業として、30代・40代が押さえておくべき点を解説します。
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】BASE（ベイス）の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: BASE株式会社の平均年間給与は700万円です（2024年12月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>BASE株式会社の平均年間給与は700万円です（2024年12月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 700万円です（2024年12月期 有価証券報告書・単体全従業員平均）。エンジニア以外も含む平均で、職種別・等級別の内訳は非開示です。</li><li>・転職集計サイトでは約758万円とする値もありますが、当ガイドは一次情報である有価証券報告書の700万円を優先しています。</li><li>・職種別の年収レンジは公式に常時開示されていないため、提示は自分の経験レンジに対し個別交渉・確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["BASE 有価証券報告書（2024年12月期）", "BASE 公式採用サイト・技術ブログ", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（PHP/Goの経験者・決済ドメイン志向に向く）</p>
+            <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（PHP/Goの経験者・決済ドメイン志向の方向け）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・主力サービスは<strong>PHP（CakePHP由来）</strong>、新規・決済領域は<strong>Go＋Next.jsです</strong>。既存資産の保守とモダン化の両方に関われる過渡期フェーズです。</li>
+              <li>・主力サービスは<strong>PHP（CakePHP由来）</strong>、新規・決済領域は<strong>Go＋Next.js</strong>です。既存資産の保守とモダン化の両方に関われる過渡期フェーズです。</li>
               <li>・EC×決済×金融の<strong>決済ドメイン</strong>を複数プロダクトで持ちます。可用性・セキュリティへの理解が活きます。</li>
-              <li>・有価証券報告書の平均年収は<strong>700万円です（2024年12月期・単体・全従業員平均）</strong>。グロース上場企業として事業フェーズに応じた評価です。</li>
+              <li>・有価証券報告書の平均年収は<strong>700万円（2024年12月期・単体・全従業員平均）</strong>です。グロース上場企業として、事業フェーズに応じた水準といえます。</li>
             </ul>
-            <p className="text-xs text-blue-800 mt-3">逆に、レガシーに一切触れず最新スタックのみで開発したい人や、決済特有の厳格な品質要求を負担に感じる人は相性を見極める必要があります。</p>
+            <p className="text-xs text-blue-800 mt-3">一方で、レガシーに一切触れず最新スタックのみで開発したい人や、決済特有の厳格な品質要求を負担に感じる人は相性を見極める必要があります。</p>
           </div>
         </section>
 
@@ -189,9 +189,9 @@ export default function BaseCompanyPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たBASE</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>30代・40代のエンジニアにとって、BASEの「PHPの大規模資産とGoへの移行が共存する過渡期」は、経験が最も活きるフェーズです。レガシーを否定せず現実的にモダン化を進める判断力は、若手にはまだ難しく、複数の技術世代を経験してきたミドル層の強みが直接価値になります。EC×決済×金融という、お金が絡む堅牢性を求められるドメインも、慎重さと経験がものを言う領域です。</p>
+            <p>30代・40代のエンジニアにとって、BASEの「PHPの大規模資産とGoへの移行が共存する過渡期」は、経験が最も活きるフェーズです。レガシーを否定せず現実的にモダン化を進める判断力は、若手にはまだ難しく、複数の技術世代を経験してきたミドル層の強みが直接価値になります。EC×決済×金融という、お金が絡む堅牢性を求められるドメインも、慎重さと経験が求められる領域です。</p>
             <p>一方で、グロース上場企業として事業フェーズの変化が早く、業務量の波や優先順位の変化が起きやすい点は、生活基盤が固まった40代では事前に確認しておきたいポイントです。年収面では平均700万円が一つの基準ですが、これは全従業員平均であり、自分の経験レンジに対する提示は個別に交渉・確認することが重要です。</p>
-            <p>転職活動では、ミドル層の市場価値・年収交渉の観点も押さえておきたいところです。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>や<Link href="/industry/finance/" className="text-petrol hover:underline">金融・フィンテック業界の転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>もあわせて確認してください。</p>
+            <p>転職活動では、ミドル層の市場価値・年収交渉の観点も確認しておくことをおすすめします。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>や<Link href="/industry/finance/" className="text-petrol hover:underline">金融・フィンテック業界の転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -222,7 +222,7 @@ export default function BaseCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">BASE転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強いです。技術面接対策のサポートが受けられます。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富です。スタートアップ・グロース企業に強みがあります。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けスカウト型です。決済・フィンテックの上位ポジションに出会いやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強みがあります。技術面接対策のサポートが受けられます。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富です。スタートアップ・グロース企業に強みがあります。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けスカウト型です。決済・フィンテックの上位ポジションに出会いやすくなります。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：フロントエンド転職の進め方" },
+  { id: "conclusion", label: "フロントエンド転職の進め方" },
   { id: "market", label: "市場・年収データ（公表値）" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
-  { id: "find", label: "求人の探し方・強いエージェント" },
+  { id: "find", label: "求人の探し方・エージェントの選び方" },
   { id: "entry", label: "他職種からの参入ルート" },
   { id: "middle", label: "30代・40代の視点" },
   { id: "study", label: "スキルアップ・学習戦略" },
@@ -46,22 +46,22 @@ const careerPaths = [
   },
   {
     title: "フリーランス独立",
-    body: "React/Next.jsのフリーランス案件は単価が高めの傾向です（フリーランスボード調査ではフロントエンド案件の月単価約78.8万円・2025年12月）。収入は上がりやすい一方、案件の安定性や福利厚生は自己管理が必要です。",
+    body: "React/Next.jsのフリーランス案件は単価が高めの傾向があります（フリーランスボード調査ではフロントエンド案件の月単価約78.8万円・2025年12月）。収入は上がりやすい一方、案件の安定性や福利厚生は自己管理が必要です。",
   },
 ];
 
 const faqs = [
   {
     q: "フロントエンドエンジニアの平均年収はどのくらいですか？",
-    a: "求人ボックスの給料ナビ（2025年時点）では、正社員フロントエンドエンジニアの平均年収は約549万円（年収幅326〜997万円）とされ、別集計では約460万円という数値もあります。集計母体や対象範囲で差が出るため、複数の数値を幅として捉えるのが安全です。",
+    a: "求人ボックスの給料ナビ（2025年時点）では、正社員フロントエンドエンジニアの平均年収は約549万円（年収幅326〜997万円）とされ、別集計では約460万円という数値もあります。集計母体や対象範囲で差が出るため、複数の数値を幅として捉えるのが適切です。",
   },
   {
     q: "ReactとVue、どちらを学ぶべきですか？",
-    a: "2026年現在、求人数ではReact（Next.js含む）が多い傾向です。Vueも国内企業で一定の需要があります。転職市場での選択肢を広げる観点ではReact/Next.jsの習得が有利ですが、現職でVueを使っているなら無理に乗り換えず、TypeScriptと設計力を磨く方が効率的な場合もあります。",
+    a: "2026年現在、求人数ではReact（Next.js含む）が多い傾向があります。Vueも国内企業で一定の需要があります。転職市場での選択肢を広げる観点ではReact/Next.jsの習得が有利ですが、現職でVueを使っているなら無理に乗り換えず、TypeScriptと設計力を磨く方が効率的な場合もあります。",
   },
   {
     q: "30代のフロントエンドエンジニアの市場価値は？",
-    a: "React/Vue + TypeScript + テスト設計の経験がある30代は市場価値が高い傾向です。レバテックの年代別公表値（2025年）でも正社員SEの30代平均は約499万円で、Next.js/Nuxtでのフルスタック開発やデザインシステム構築経験があるとさらに評価されます。",
+    a: "React/Vue + TypeScript + テスト設計の経験がある30代は市場価値が高い傾向があります。レバテックの年代別公表値（2025年）でも正社員SEの30代平均は約499万円で、Next.js/Nuxtでのフルスタック開発やデザインシステム構築経験があるとさらに評価されます。",
   },
   {
     q: "フリーランスと正社員、どちらがよいですか？",
@@ -73,7 +73,7 @@ const faqs = [
   },
   {
     q: "フロントエンドエンジニアにおすすめの転職エージェントは？",
-    a: "React/Vue求人が豊富で技術トレンドに詳しいレバテックキャリア、Web系スタートアップに強いGreen、IT/Web特化のGeeklyが定番です。求人母数を確保したい場合はリクルートエージェントITやdoda ITも併用候補です。",
+    a: "React/Vue求人が豊富で技術トレンドに詳しいレバテックキャリア、Web系スタートアップの求人が多いGreen、IT/Web特化のGeeklyが代表的な選択肢です。求人母数を確保したい場合はリクルートエージェントITやdoda ITも併用候補です。",
   },
   {
     q: "実務経験浅めでもフロントエンドで転職できますか？",
@@ -127,14 +127,14 @@ export default function FrontendSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：フロントエンド転職の進め方</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">フロントエンド転職の進め方</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              フロントエンドは求人数が多い一方で年収の幅も広い領域です（求人ボックス2025年で平均約549万円・幅326〜997万円）。<strong>「React/Next.js × TypeScript × テスト・設計」を軸に、どの年収帯・どの企業タイプを狙うかを先に決める</strong>のが攻略の前提です。求人サイトの件数だけで判断せず、IT特化エージェントで企業の技術文化まで確認するのが効率的です。
+              フロントエンドは求人数が多い一方で年収の幅も広い領域です（求人ボックス2025年で平均約549万円・幅326〜997万円）。<strong>「React/Next.js × TypeScript × テスト・設計」を軸に、どの年収帯・どの企業タイプを狙うかを先に決める</strong>ことが転職活動の前提になります。求人サイトの件数だけで判断せず、IT特化エージェントで企業の技術文化まで確認するのが効率的です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・年収重視なら自社開発・メガベンチャー、裁量重視ならスタートアップです。</li>
+              <li>・年収重視なら自社開発・メガベンチャー、裁量重視ならスタートアップが候補になります。</li>
               <li>・30代・40代は「スペシャリスト or フルスタック/リード」の軸を明確にします。</li>
-              <li>・エージェントはレバテックキャリア／Green／Geeklyの併用が定番です。</li>
+              <li>・エージェントはレバテックキャリア／Green／Geeklyの併用が一般的です。</li>
             </ul>
           </div>
         </section>
@@ -219,9 +219,9 @@ export default function FrontendSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            フロントエンド求人は数が多く、技術スタックや開発文化のミスマッチが起きやすい領域です。企業の内情を引き出せるエージェントを使い分けるのが効率的です。
+            フロントエンド求人は数が多く、技術スタックや開発文化のミスマッチが起きやすい領域です。企業の内情に詳しいエージェントを使い分けるのが効率的です。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -236,7 +236,7 @@ export default function FrontendSkillPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化です。メガベンチャーの非公開求人にもアクセスでき、提案スピードが強みです。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化型のエージェントです。メガベンチャーの非公開求人にもアクセスでき、提案スピードが強みです。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -283,7 +283,7 @@ export default function FrontendSkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
             {[
               ["コア技術を深めます", "React/Vueの内部挙動、レンダリング最適化、状態管理の設計判断を語れるレベルを目指します。"],
-              ["TypeScriptを前提に", "型安全なコンポーネント設計はモダンフロントの標準。型の引き出しを増やします。"],
+              ["TypeScriptを前提にします", "型安全なコンポーネント設計はモダンフロントの標準です。型の知識を広げます。"],
               ["品質と速度で差をつけます", "テスト（Playwright等）、Core Web Vitals改善、アクセシビリティ対応は具体的な強みになります。"],
               ["アウトプットを残します", "UIライブラリ公開、技術記事、設計の意思決定ログなど、思考が見える成果物を蓄積します。"],
             ].map(([t, d], i) => (
@@ -309,7 +309,7 @@ export default function FrontendSkillPage() {
                   "ユーザーに近い領域で、見た目と使い心地を作り込みたい",
                   "求人数が多く選択肢の広い領域で動きたい",
                   "React/Vue + TypeScriptでモダン開発をしたい",
-                  "将来的にフリーランスや独立も視野に入れています",
+                  "将来的にフリーランスや独立も視野に入れている",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -319,9 +319,9 @@ export default function FrontendSkillPage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">向いていないかもしれない人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
-                  "技術トレンドの移り変わりの速さが負担に感じます",
+                  "技術トレンドの移り変わりの速さを負担に感じる",
                   "UIより、データ基盤・インフラを中心に活躍したい",
-                  "デザインやブラウザ差異の細かい調整が苦手",
+                  "デザインやブラウザ差異の細かい調整を苦手としている",
                   "学習時間が取れず、現スタックから動く気がない",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">･</span><span>{t}</span></li>

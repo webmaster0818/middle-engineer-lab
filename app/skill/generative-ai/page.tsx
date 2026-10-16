@@ -15,10 +15,10 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "diff", label: "結論：AI/MLエンジニアとの違い" },
+  { id: "diff", label: "AI/MLエンジニアとの違い" },
   { id: "market", label: "市場・年収データ" },
   { id: "areas", label: "必須3領域（生成AIの中身）" },
-  { id: "rag", label: "RAG設計が2026年最需要の理由" },
+  { id: "rag", label: "RAG設計の需要が高い理由" },
   { id: "skill", label: "求められるスキル（Python必須）" },
   { id: "level", label: "求められる経験レベル" },
   { id: "path", label: "キャリアパスの選択肢" },
@@ -30,7 +30,7 @@ const toc = [
 const faqs = [
   {
     q: "生成AIエンジニアとAI/MLエンジニアの違いは何ですか？",
-    a: "概要としては、AI/MLエンジニアは「機械学習モデルそのものを作る・研究する職」、生成AIエンジニアは「既存のLLM（大規模言語モデル）を活用し、製品・業務に組み込む職」です。前者はデータ前処理・モデル学習・評価が中心ですが、後者はOpenAIやClaudeなどのAPIを使い、RAGやAIエージェントとしてアプリに統合することが中心です。ゼロからモデルを学習するスキルがなくても、LLM活用・組込みの設計力で勝負できるのが生成AIエンジニアの特徴です。モデル構築側を深めたい場合は",
+    a: "概要としては、AI/MLエンジニアは「機械学習モデルそのものを作る・研究する職」、生成AIエンジニアは「既存のLLM（大規模言語モデル）を活用し、製品・業務に組み込む職」です。前者はデータ前処理・モデル学習・評価が中心ですが、後者はOpenAIやClaudeなどのAPIを使い、RAGやAIエージェントとしてアプリに統合することが中心です。ゼロからモデルを学習するスキルがなくても、LLM活用・組込みの設計力で評価されるのが生成AIエンジニアの特徴です。モデル構築側を深めたい場合は",
     aLink: { href: "/skill/ai-ml/", label: "AI/MLエンジニア転職ガイド" },
     aTail: "をご覧ください。",
   },
@@ -131,15 +131,15 @@ export default function GenerativeAiSkillPage() {
         </nav>
 
         <section id="diff" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AI/MLエンジニアとの違い</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">AI/MLエンジニアとの違い</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              生成AIエンジニアを目指すなら、<strong>「モデルを作る」競争ではなく「LLMを賢く組み込む」競争で勝つこと</strong>が軸になります。進め方は次の3点です。
+              生成AIエンジニアを目指すなら、<strong>「モデルを作る力」ではなく「LLMを適切に組み込む力」で評価されること</strong>が軸になります。進め方は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>LLM開発（OpenAI/Claude API・LangChain・RAG）</strong>を中核スキルにします</li>
               <li>② <strong>MLOps・AIインフラ</strong>で「本番運用できる人」になり、PoCで終わらせません</li>
-              <li>③ <strong>AIエージェント設計</strong>と<strong>RAG設計</strong>という2026年最需要領域を押さえます</li>
+              <li>③ <strong>AIエージェント設計</strong>と<strong>RAG設計</strong>という2026年に需要が高い領域を押さえます</li>
             </ul>
             <p className="text-xs text-slate-600 mt-3">
               ゼロからモデルを学習・研究したい方は
@@ -157,7 +157,7 @@ export default function GenerativeAiSkillPage() {
             生成AI専用の年収統計はまだ整っていないため、近接区分の参考値を示します。求人ボックス給料ナビの「AIエンジニア」平均は<strong>約569万円（おおむね352〜1,147万円のレンジ）</strong>です（2026年6月時点・動的に変動する集計値。AIエンジニア区分の参考値であり、生成AI専業の数値ではありません）。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            公的データでは、厚生労働省 job tagの「AIエンジニア」の平均年収は約609.8万円、平均年齢は42.2歳とされています（令和7年）。42歳前後という年齢層は、まさに当サイトが対象とする30代後半〜40代のミドル層が中心であることを示しています。
+            公的データでは、厚生労働省 job tagの「AIエンジニア」の平均年収は約609.8万円、平均年齢は42.2歳とされています（令和7年）。42歳前後という年齢層からは、当サイトが対象とする30代後半〜40代のミドル層が中心であることがうかがえます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             媒体推定では、生成AIスキルを持つ人材向けに800〜1,200万円の求人が増え、従来のML案件と比べて月10〜30万円ほどの単価差が出るという見方もあります（各社推定・幅あり）。いずれも単一の数値で断定せず、スキルと役割で変わる前提でご覧ください。
@@ -183,23 +183,23 @@ export default function GenerativeAiSkillPage() {
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             セキュリティを意識したAI開発は
             <Link href="/career/devsecops/" className="text-petrol hover:underline">DevSecOpsキャリア</Link>
-            とも接続します。
+            とも関連します。
           </p>
         </section>
 
         <section id="rag" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">RAG設計が2026年最需要の理由</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">RAG設計の需要が高い理由</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            企業が生成AIを本格活用する際、最大の課題は「自社のデータに基づいて正確に答えさせること」です。これを解くのがRAG（検索拡張生成）で、2026年時点で特に求人ニーズが高い設計領域です。
+            企業が生成AIを本格活用する際、最大の課題は「自社のデータに基づいて正確に答えさせること」です。この課題に対応するのがRAG（検索拡張生成）で、2026年時点で特に求人ニーズが高い設計領域です。
           </p>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ <strong>ドキュメント設計</strong>：チャンク分割・メタデータ付与で検索精度を左右する</li>
+            <li>✓ <strong>ドキュメント設計</strong>：検索精度を左右するチャンク分割・メタデータ付与</li>
             <li>✓ <strong>埋め込み・ベクトル検索</strong>：embedding選定とベクトルDB（検索基盤）の構築</li>
-            <li>✓ <strong>評価・改善</strong>：回答の正確性をどう測り、継続的に改善するか</li>
+            <li>✓ <strong>評価・改善</strong>：回答の正確性の測定と継続的な改善</li>
             <li>✓ <strong>ハルシネーション対策</strong>：誤った断定を抑える仕組みづくり</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            RAGは「LLMを業務に効かせる」中核であるため、ここを語れると面接での評価が大きく変わります。
+            RAGは「LLMを業務に活用する」うえでの中核であるため、ここを語れると面接での評価が大きく変わります。
           </p>
         </section>
 
@@ -218,7 +218,7 @@ export default function GenerativeAiSkillPage() {
             <Link href="/skill/python/" className="text-petrol hover:underline">Pythonエンジニア転職ガイド</Link>、
             モデル構築側の深掘りは
             <Link href="/skill/ai-ml/" className="text-petrol hover:underline">AI/MLエンジニア転職ガイド</Link>
-            が接続先です。
+            が参考になります。
           </p>
         </section>
 
@@ -230,8 +230,8 @@ export default function GenerativeAiSkillPage() {
           <div className="space-y-3">
             {[
               { t: "入口層（LLM活用・PoC）", d: "LLM APIを使った試作、簡単なチャットボットやRAGのPoCです。Python基礎とプロンプト設計が問われます。" },
-              { t: "中核層（本番組込み・MLOps）", d: "RAGの本番運用、評価・改善、コスト最適化、クラウドへのデプロイです。年収帯が一段上がるゾーンです。" },
-              { t: "上級層（AIエージェント設計・基盤）", d: "複数ステップの自律エージェント設計、社内AI基盤の構築、セキュリティ・ガバナンスです。希少性が高いです。" },
+              { t: "中核層（本番組込み・MLOps）", d: "RAGの本番運用、評価・改善、コスト最適化、クラウドへのデプロイを担います。年収帯が一段上がるゾーンです。" },
+              { t: "上級層（AIエージェント設計・基盤）", d: "複数ステップの自律エージェント設計、社内AI基盤の構築、セキュリティ・ガバナンスを担います。人材の希少性が高い領域です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -272,10 +272,10 @@ export default function GenerativeAiSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "Python＋LLM APIに慣れます", d: "Pythonの基礎を固め、OpenAI/Claude APIを叩いて簡単なチャットアプリを作ります。" },
-              { n: "STEP 2", t: "RAGを自作します", d: "社内文書を模したデータでRAGを実装し、ベクトル検索・チャンク設計を体験します。" },
-              { n: "STEP 3", t: "本番を意識した成果物に", d: "クラウドにデプロイし、評価・コスト・セキュリティを考慮した形にしてGitHubで公開します。" },
-              { n: "STEP 4", t: "ドメイン×LLMで応募", d: "前職の業務知識を活かした活用事例として職務経歴書・ポートフォリオに落とし込みます。" },
+              { n: "STEP 1", t: "Python＋LLM APIに慣れます", d: "Pythonの基礎を固め、OpenAI/Claude APIを利用して簡単なチャットアプリを作ります。" },
+              { n: "STEP 2", t: "RAGを自作します", d: "社内文書を模したデータでRAGを実装し、ベクトル検索・チャンク設計を経験します。" },
+              { n: "STEP 3", t: "本番を意識した成果物にします", d: "クラウドにデプロイし、評価・コスト・セキュリティを考慮した形にしてGitHubで公開します。" },
+              { n: "STEP 4", t: "ドメイン×LLMで応募します", d: "前職の業務知識を活かした活用事例として職務経歴書・ポートフォリオに落とし込みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -295,7 +295,7 @@ export default function GenerativeAiSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点とデメリット</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              ミドル層が生成AIに参入する最大の強みは、<strong>「業務・ドメインを理解していること」</strong>です。LLMを「どの業務に、どう効かせるか」を設計できる人は、技術だけの若手より価値が出ます。厚労省 job tagの「AIエンジニア」平均年齢が42.2歳（令和7年）であることも、ミドルが主役になり得る領域であることを示しています。
+              ミドル層が生成AIに参入する最大の強みは、<strong>「業務・ドメインを理解していること」</strong>です。LLMを「どの業務に、どう活用するか」を設計できる人は、技術だけの若手より価値が出ます。厚労省 job tagの「AIエンジニア」平均年齢が42.2歳（令和7年）であることも、ミドル層が中心となり得る領域であることを示しています。
             </p>
             <p>
               <strong>デメリット・注意点も記載します。</strong>生成AIは技術の陳腐化が非常に速く、半年でベストプラクティスが変わることも珍しくありません。継続的な学習が前提で、これを負担に感じる人には厳しい領域です。また「生成AI」を冠した求人にはPoC止まり・実態の薄い案件も混じるため、本番運用の実績を求める企業かどうかを見極める必要があります。
@@ -337,7 +337,7 @@ export default function GenerativeAiSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">生成AIスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            生成AI・LLM案件に強いIT特化型エージェントで、ご自身のスキルの市場価値を確認しましょう。
+            生成AI・LLM案件を扱うIT特化型エージェントで、ご自身のスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

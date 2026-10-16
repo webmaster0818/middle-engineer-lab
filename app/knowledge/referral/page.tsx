@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論" },
+  { id: "conclusion", label: "要点" },
   { id: "what", label: "リファラル転職とは・通常選考との違い" },
   { id: "ask", label: "声のかけ方【依頼の例文】" },
   { id: "asked", label: "声をかけられたときの対応【返信例文】" },
@@ -101,14 +101,14 @@ export default function ReferralPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リファラル転職の本質と注意点は？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 最大のメリットは「速さ」より、入社前に内部情報を得てミスマッチを防げることが重要です。面接自体は通常どおりで、必ず受かるわけではありません。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・最大の注意点は断りにくさ。合わないと感じたら早く・丁寧に伝えます</li><li>・年収相場は紹介者ではなくエージェントで確認し、条件が適正か客観的に判断します</li><li>・リファラルとエージェントは併用が安全です</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>最大のメリットは「速さ」よりも、入社前に内部情報を得てミスマッチを防げる点にあります。面接自体は通常どおりで、必ず受かるわけではありません。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・最大の注意点は断りにくさです。合わないと感じたら早く・丁寧に伝えます</li><li>・年収相場は紹介者ではなくエージェントで確認し、条件が適正か客観的に判断します</li><li>・リファラルとエージェントは併用が安全です</li></ul>
           </div>
         </section>
 
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
-            リファラル転職（社員紹介）は、知り合いの社員を通じて応募する転職方法です。IT業界では一般的なチャネルの一つで、内部情報を得てミスマッチを防げる点が大きな魅力です。一方で「知り合い経由だからこそ断りにくい」「紹介者に気を遣う」といった、通常の転職にはない難しさもあります。本記事では、声のかけ方・かけられ方、選考の実態、そして断りにくさへの具体的な対処を、例文付きで整理します。
+            リファラル転職（社員紹介）は、知り合いの社員を通じて応募する転職方法です。IT業界では一般的なチャネルの一つで、内部情報を得てミスマッチを防げる点に大きな特徴があります。一方で「知り合い経由だからこそ断りにくい」「紹介者に気を遣う」といった、通常の転職にはない難しさもあります。本記事では、声のかけ方・かけられ方、選考の実態、そして断りにくさへの具体的な対処を、例文付きで整理します。
           </p>
         </section>
 
@@ -126,10 +126,10 @@ export default function ReferralPage() {
           </ol>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：リファラルの本質は「速さ」より「事前に中が見えること」</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">リファラルの本質は「速さ」より「事前に内部が見えること」</h2>
             <ul className="text-sm text-blue-900 space-y-2 leading-relaxed">
               <li>・最大のメリットは<strong>入社前に内部情報を得てミスマッチを防げる</strong>ことです。面接自体は通常どおりで、必ず受かるわけではありません。</li>
               <li>・最大の注意点は<strong>断りにくさ</strong>です。曖昧にするほど紹介者の社内対応が難しくなるため、合わないと感じたら早く・丁寧に伝えます。</li>
@@ -156,10 +156,10 @@ export default function ReferralPage() {
               <tbody>
                 {[
                   ["入口", "知人社員の紹介・推薦", "求人サイト／エージェント"],
-                  ["内部情報", "事前にヒアリングしやすいです", "公開情報・面接で確認"],
+                  ["内部情報", "事前のヒアリングが容易", "公開情報・面接で確認"],
                   ["選考", "面接は通常どおり実施", "面接は通常どおり実施"],
-                  ["条件交渉", "人事・採用担当と行います", "本人またはエージェントが行います"],
-                  ["心理的負担", "紹介者への気遣いがあります", "比較的少ないです"],
+                  ["条件交渉", "人事・採用担当と実施", "本人またはエージェントが実施"],
+                  ["心理的負担", "紹介者への気遣いが必要", "比較的少なめ"],
                 ].map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-3 py-3 border border-slate-200 font-medium text-slate-800">{row[0]}</td>
@@ -232,7 +232,7 @@ export default function ReferralPage() {
               { num: "1", title: "紹介者にヒアリング", desc: "技術スタック・開発文化・チームの雰囲気・働き方など、公開情報では分からない内容を聞きます。ここがリファラル最大の価値です。" },
               { num: "2", title: "カジュアル面談（あれば）", desc: "選考前に現場メンバーと話す機会が設けられることがあります。相互理解とミスマッチ防止が目的で、合否を決める場ではありません。" },
               { num: "3", title: "紹介者経由で正式応募", desc: "紹介者が社内で推薦し、書類選考に進みます。推薦コメントが添えられますが、通過を保証するものではありません。" },
-              { num: "4", title: "通常の面接プロセス", desc: "技術面接・カルチャーフィット面接は通常選考と同じ。技術力は通常どおり問われます。コーディングテストがある場合もあります。" },
+              { num: "4", title: "通常の面接プロセス", desc: "技術面接・カルチャーフィット面接は通常選考と同じ形で行われ、技術力も通常どおり問われます。コーディングテストがある場合もあります。" },
               { num: "5", title: "内定・条件交渉", desc: "条件交渉は人事・採用担当と行います。市場相場をエージェントで把握しておくと、根拠を持って交渉できます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -258,18 +258,18 @@ export default function ReferralPage() {
             <div className="bg-green-50 border border-green-200 rounded-xl p-5">
               <h3 className="font-bold text-green-800 mb-3">メリット</h3>
               <ul className="text-sm text-green-700 space-y-2">
-                <li>・入社前に内部情報を得られ、ミスマッチを防ぎやすいです</li>
+                <li>・入社前に内部情報を得られ、ミスマッチを防ぎやすくなります</li>
                 <li>・推薦コメントが選考に添えられます</li>
                 <li>・応募から面談までが早く進むことがあります</li>
-                <li>・入社後に知り合いがいて立ち上がりやすいです</li>
-                <li>・カジュアル面談で相互理解を深めやすいです</li>
+                <li>・入社後に知り合いがいて立ち上がりやすい傾向があります</li>
+                <li>・カジュアル面談で相互理解を深めやすくなります</li>
               </ul>
             </div>
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
               <h3 className="font-bold text-red-800 mb-3">デメリット</h3>
               <ul className="text-sm text-red-700 space-y-2">
                 <li>・紹介者への気遣いが常につきまといます</li>
-                <li>・合わないと感じても断りにくいです</li>
+                <li>・合わないと感じても断りにくい傾向があります</li>
                 <li>・不採用・早期離職が紹介者の信用に影響しえます</li>
                 <li>・人脈がないと使えず、選択肢が限られます</li>
                 <li>・年収交渉を切り出しにくい心理が働きます</li>
@@ -282,7 +282,7 @@ export default function ReferralPage() {
         <section id="decline" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">注意点：断りにくさへの対処【断り方例文】</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            リファラル最大の落とし穴が<strong>「断りにくさ」</strong>です。知り合い経由だからと無理に進めると、入社後のミスマッチで結局お互いが困ります。合わないと感じたら、<strong>早く・丁寧に・理由を簡潔に</strong>伝えるのが、紹介者を守る最善策です。
+            リファラル最大の注意点が<strong>「断りにくさ」</strong>です。知り合い経由だからと無理に進めると、入社後のミスマッチで結局お互いが困ります。合わないと感じたら、<strong>早く・丁寧に・理由を簡潔に</strong>伝えるのが、紹介者を守る最善策です。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -300,7 +300,7 @@ export default function ReferralPage() {
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mt-4">
             <p className="text-sm text-amber-800">
-              <strong>避けたい対応：</strong>返信を引き延ばす／音信不通になります。これは紹介者の社内対応を最も難しくし、関係を損ないます。気まずくても、早めの一報が誠実です。
+              <strong>避けたい対応：</strong>返信を引き延ばすことや、音信不通になることです。これは紹介者の社内対応を最も難しくし、関係を損ないます。気まずくても、早めの一報が誠実です。
             </p>
           </div>
         </section>
@@ -366,7 +366,7 @@ export default function ReferralPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">リファラルと併用してエージェントも活用しよう</h2>
+          <h2 className="text-xl font-bold mb-3">リファラルとあわせてエージェントも活用する</h2>
           <p className="text-blue-100 text-sm mb-4">
             リファラル先の条件が適正か判断するには、市場相場を知ることが欠かせません。IT特化型エージェントで相場を確認し、交渉を有利に進めましょう。
           </p>

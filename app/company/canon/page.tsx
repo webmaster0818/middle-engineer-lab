@@ -29,7 +29,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "転職難易度と向いている人"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術領域・募集職種（公式採用情報ベース）"],
@@ -44,7 +44,7 @@ const toc = [
 
 const faqs = [
   {
-    q: "キヤノンのエンジニア選考フローは？",
+    q: "キヤノンのエンジニア選考フローを教えてください。",
     a: "公式キャリア採用（採用管理システム）経由での「応募」「書類選考」「面接（複数回）」「内定」が一般的な流れです。職種・時期により選考回数や適性検査の有無は変動します。最新の内容は公式採用ページでご確認ください。",
   },
   {
@@ -57,10 +57,10 @@ const faqs = [
   },
   {
     q: "キヤノンの組込みエンジニアにはどんなスキルが必要ですか？",
-    a: "公式求人によると、マイコン・リアルタイムOS（RTOS）を用いた組込みソフトウェア開発経験や、C・C++による製品開発の実務経験が求められる傾向です。AI・画像処理職では、ディープラーニング／機械学習／パターン認識の開発経験やPythonのスキルが重視されます。",
+    a: "公式求人によると、マイコン・リアルタイムOS（RTOS）を用いた組込みソフトウェア開発経験や、C・C++による製品開発の実務経験が求められる傾向があります。AI・画像処理職では、ディープラーニング／機械学習／パターン認識の開発経験やPythonのスキルが重視されます。",
   },
   {
-    q: "キヤノンの働き方の評判は？",
+    q: "キヤノンの働き方の評判を教えてください。",
     a: "OpenWork等の口コミプラットフォームでは、大手メーカーらしい安定性・福利厚生を評価する声がある一方、伝統的な企業文化やものづくり中心の組織風土に関する意見も見られます（2026年6月時点の口コミ傾向）。実態は事業・部門により異なります。",
   },
   {
@@ -69,7 +69,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもキヤノンに転職できますか？",
-    a: "提出会社の平均年齢は44.2歳と高めで、ミドル層の中途採用も現実的です。組込み・画像処理・AIなど自身の専門領域の実績と、ハードウェアと連携した製品開発の経験があると評価されやすい傾向です。",
+    a: "提出会社の平均年齢は44.2歳と高めで、ミドル層の中途採用も現実的です。組込み・画像処理・AIなど自身の専門領域の実績と、ハードウェアと連携した製品開発の経験があると評価されやすい傾向があります。",
   },
 ];
 
@@ -97,8 +97,8 @@ export default function CanonCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】キヤノンの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: キヤノン株式会社の平均年間給与は約865.7万円です（2024年12月期 有価証券報告書・提出会社単体／全社員平均、平均年齢44.2歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約865.7万円です（2024年12月期 有価証券報告書・単体全社員平均）。技術職に限らない全社平均です。</li><li>・推移は2020年12月期769万円から一貫して上昇し、2024年12月期865.7万円です（各期 有価証券報告書）。</li><li>・エンジニア職限定の提示年収レンジは一次情報が乏しく断定しません。提示は等級・職務で幅があり個別求人でご確認ください。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>キヤノン株式会社の平均年間給与は約865.7万円です（2024年12月期 有価証券報告書・提出会社単体／全社員平均、平均年齢44.2歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約865.7万円です（2024年12月期 有価証券報告書・単体全社員平均）。技術職に限らない全社平均です。</li><li>・2020年12月期の769万円から一貫して上昇し、2024年12月期は865.7万円となっています（各期 有価証券報告書）。</li><li>・エンジニア職限定の提示年収レンジは一次情報が乏しいため断定していません。提示額は等級・職務により幅があるため、個別求人でご確認ください。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -117,14 +117,14 @@ export default function CanonCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">転職難易度と向いている人</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              キヤノンは<strong>光学・画像・組込みという中核技術を持ち、そこにAI（ディープラーニング）・画像処理を掛け合わせて製品化する精密大手</strong>です。ハードウェアと密結合したソフトウェア開発や、画像系AIの実装に関わりたいエンジニアに向きます。
+              キヤノンは<strong>光学・画像・組込みという中核技術を持ち、そこにAI（ディープラーニング）・画像処理を掛け合わせて製品化する精密大手</strong>です。ハードウェアと密結合したソフトウェア開発や、画像系AIの実装に関わりたいエンジニアに向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：組込み（C/C++・RTOS）や画像処理・ディープラーニングの実務経験があり、ものづくりの最終製品に技術を活かしたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：Web系の最新フレームワークで内製SaaSを高速に回す働き方を最優先する人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢44.2歳と高めで、専門性があればミドル中途の枠は現実的</li>
+              <li>● <strong>30代・40代</strong>：平均年齢44.2歳と高めで、専門性があればミドル層の中途採用も現実的な選択肢</li>
             </ul>
           </div>
         </section>
@@ -154,7 +154,7 @@ export default function CanonCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2024年12月期 有価証券報告書に基づく提出会社（キヤノン株式会社単体）の全社員平均値。技術領域は公式採用情報です（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2024年12月期 有価証券報告書に基づく提出会社（キヤノン株式会社単体）の全社員平均値。技術領域は公式採用情報に基づきます（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -217,7 +217,7 @@ export default function CanonCompanyPage() {
           </div>
           <p className="text-xs text-slate-400 mb-4">出典: キヤノン 有価証券報告書（各年12月期）。いずれも技術職に限らない提出会社（単体）の<strong>全社員平均</strong>の平均年間給与です。エンジニア個人の年収は等級・職務により異なります。</p>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-sm text-amber-900">
-            <p className="leading-relaxed">上記は提出会社単体の全社員平均であり、エンジニア職に限定した公式な提示年収レンジは一次情報が乏しいため本ページでは断定しません。提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。</p>
+            <p className="leading-relaxed">上記は提出会社単体の全社員平均であり、エンジニア職に限定した公式な提示年収レンジは一次情報が乏しいため本ページでは断定していません。提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。</p>
           </div>
         </section>
 
@@ -271,7 +271,7 @@ export default function CanonCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。組込み・画像系の専門職求人にも対応し、非公開求人も豊富です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、メーカーの専門職・管理職求人に対応しています。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

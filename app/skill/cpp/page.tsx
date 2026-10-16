@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：C++エンジニアの転職市場での進め方" },
+  { id: "conclusion", label: "1. C++エンジニアの転職市場での進め方" },
   { id: "market", label: "2. C++の市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. C++エンジニアのキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
   { id: "entry", label: "6. 経験浅めからC++に参入するルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -124,13 +124,13 @@ export default function CppSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：C++エンジニアの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">C++エンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>C++は組込み・ゲーム・低レイヤという専門領域で代替が効きにくい希少スキルです。</strong>Web系の求人数で比較するのではなく、C++が不可欠な領域に的を絞り、希少性を年収に変える進め方が向いています。
+              <strong>C++は組込み・ゲーム・低レイヤという専門領域で代替が効きにくい希少スキルです。</strong>Web系の求人数で比較するのではなく、C++が不可欠な領域に的を絞り、希少性を年収に反映させる進め方が向いています。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・C++特化の公的年収は乏しいため<strong>職種別・年代別データで代替です</strong>（求人ボックス システムエンジニア約516万円ほか）</li>
+              <li>・C++特化の公的年収は乏しいため<strong>職種別・年代別データで代替します</strong>（求人ボックス システムエンジニア約516万円ほか）</li>
               <li>・C／Rust／Javaなど低レイヤ・静的型付けの経験があれば、C++へ移る土台になります</li>
               <li>・C++は<strong>組込み・ゲーム・金融などドメイン知識との掛け合わせ</strong>で市場価値が高まります</li>
             </ul>
@@ -146,7 +146,7 @@ export default function CppSkillPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ["C++特化の正社員平均年収", "公的な公表は乏しいです（職種別・年代別で代替）", "言語単独の公的統計は限定的"],
+                  ["C++特化の正社員平均年収", "公的な公表は限定的（職種別・年代別で代替）", "言語単独の公的統計は限定的"],
                   ["システムエンジニアの平均年収（正社員）", "約516万円", "求人ボックス 給料ナビ（掲載求人からの独自試算）"],
                   ["ソフトウェアエンジニアの平均年収（正社員）", "約511万円", "求人ボックス 給料ナビ（同上）"],
                   ["C++案件の年収（フリーランス）", "約783万円（案件単価ベース）", "フリーランスボード調査（2025年11月公表）"],
@@ -198,8 +198,8 @@ export default function CppSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "組込み／制御エンジニア", note: "自動車・家電・産業機器のファームウェア・制御です。メーカー系で需要が安定" },
-              { role: "ゲームエンジニア（ネイティブ）", note: "ゲームエンジンやネイティブ部分の開発。高い最適化スキルが評価されます" },
+              { role: "組込み／制御エンジニア", note: "自動車・家電・産業機器のファームウェア・制御。メーカー系で需要が安定" },
+              { role: "ゲームエンジニア（ネイティブ）", note: "ゲームエンジンやネイティブ部分の開発。高い最適化スキルが評価対象" },
               { role: "低レイヤ／基盤エンジニア", note: "OS・ミドルウェア・高性能計算・トレーディング基盤など" },
               { role: "テックリード／アーキテクト", note: "C++基盤の設計＋パフォーマンス最適化＋技術選定" },
             ].map((item, i) => (
@@ -215,13 +215,13 @@ export default function CppSkillPage() {
         </section>
 
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             C++は領域ごとに求人が偏ります。特定の1社に絞るより、領域に合わせて複数のチャネルを横断するのが効率的です。タイプ別に向くサービスを整理します。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web・ゲームに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web・ゲーム業界特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で提案スピードが強みです。ゲーム会社のC++求人を探したい場合の有力な選択肢になります。
               </p>
@@ -253,7 +253,7 @@ export default function CppSkillPage() {
             {[
               { num: "1", title: "低レイヤ・静的型付けの経験を土台にする", desc: "C・Rust・Javaなど低レイヤや静的型付け言語の経験があれば、それを土台に「C++は未経験だがキャッチアップ可」とアピールできます。メモリやポインタの考え方は共通点が多く、完全未経験より有利です。" },
               { num: "2", title: "GitHubにC++の実装を公開する", desc: "アルゴリズム実装、CLIツール、簡単なゲームなどをモダンC++（C++11以降）で書いて公開します。メモリ管理・マルチスレッド・テストの理解が伝わる状態にしておくと、基礎力を示せます。" },
-              { num: "3", title: "領域を絞ってポテンシャル枠を狙う", desc: "組込み・ゲームなど領域ごとに、入社後育成前提のポテンシャル採用があります。エージェントに志望領域と学習状況を伝え、そうした求人を紹介してもらうのが近道です。領域を絞るほどマッチングしやすくなります。" },
+              { num: "3", title: "領域を絞ってポテンシャル枠を狙う", desc: "組込み・ゲームなど領域ごとに、入社後育成前提のポテンシャル採用があります。エージェントに志望領域と学習状況を伝え、そうした求人を紹介してもらう方法が現実的です。領域を絞るほどマッチングしやすくなります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -272,7 +272,7 @@ export default function CppSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>低レイヤの理解は年齢で目減りしにくいです。</strong>C++が支える組込み・ゲーム・低レイヤは、流行り廃りの影響を受けにくい領域です。30代・40代でC++の実務を積んでいるなら、その低レイヤの理解は希少人材としての強みになり、年齢の不利を相殺しやすくなります。
+              <strong>低レイヤの理解は年齢で目減りしにくい傾向があります。</strong>C++が支える組込み・ゲーム・低レイヤは、技術の流行の影響を受けにくい領域です。30代・40代でC++の実務を積んでいるなら、その低レイヤの理解は希少人材としての強みになり、年齢の不利を相殺しやすくなります。
             </p>
             <p>
               <strong>ドメイン知識との掛け算で差別化します。</strong>C++単体より「C++＋自動車・産業機器」「C++＋ゲームエンジン」「C++＋金融」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、C++という実装手段と結びつけて語れると説得力が増します。
@@ -322,7 +322,7 @@ export default function CppSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">C++のスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            C++は領域ごとに求人が偏るからこそ、志望領域に強いエージェントを併用して保有求人を横断比較するのが近道です。
+            C++は領域ごとに求人が偏るからこそ、志望領域の求人を多く扱うエージェントを併用して保有求人を横断比較するのが効率的です。
           </p>
           <Link
             href="/#ranking"

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "diff", label: "結論：GCPはAWSと何が違うのか" },
+  { id: "diff", label: "GCPはAWSと何が違うのか" },
   { id: "market", label: "市場・年収データ" },
   { id: "compare", label: "AWS/Azure/GCP 3クラウド比較" },
   { id: "strength", label: "GCPの強み（データ・ML親和性）" },
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "GCPエンジニアの平均年収はどのくらいですか？",
-    a: "求人ボックス給料ナビの「GCPエンジニア」平均月給は約66.4万円で、単純換算すると年約797万円です（2026年6月時点・動的に変動する集計値）。ただしこれは募集条件が整った求人を含むため高めに出やすい数値です。媒体推定では正社員700〜1,300万円、フリーランス平均約1,300万円という幅のある値も示されています（各社推定・幅あり）。単一の数値を鵜呑みにせず、役割・経験で大きく変わる前提でご覧ください。",
+    a: "求人ボックス給料ナビの「GCPエンジニア」平均月給は約66.4万円で、単純換算すると年約797万円です（2026年6月時点・動的に変動する集計値）。ただしこれは募集条件が整った求人を含むため高めに出やすい数値です。媒体推定では正社員700〜1,300万円、フリーランス平均約1,300万円という幅のある値も示されています（各社推定・幅あり）。単一の数値をそのまま前提にせず、役割・経験で大きく変わる前提でご覧ください。",
   },
   {
     q: "Google Cloud認定資格は転職で評価されますか？",
@@ -44,17 +44,17 @@ const faqs = [
   },
   {
     q: "GCPの求人数はどのくらいありますか？",
-    a: "Forkwellでは「GCP」関連案件が304件確認できます（2026年6月時点・変動）。AWSと比べると母数は小さいですが、データ基盤・ML領域に強い案件が集まりやすい傾向です。求人数だけで判断せず、自分が狙う領域（データ/ML/インフラ）と案件の中身が合うかで見極めるのが現実的です。",
+    a: "Forkwellでは「GCP」関連案件が304件確認できます（2026年6月時点・変動）。AWSと比べると母数は小さいですが、データ基盤・ML領域の案件が集まりやすい傾向があります。求人数だけで判断せず、自分が狙う領域（データ/ML/インフラ）と案件の中身が合うかで見極めるのが現実的です。",
   },
   {
     q: "BigQueryやVertex AIの経験がないとGCP転職は難しいですか？",
     a: "必須ではありませんが、GCPを選ぶなら最大の差別化要素になります。GCE/GKE/Cloud Runといったコンピュート系だけでなく、BigQueryでの分析やVertex AIでのML基盤運用を小規模でも触れておくと、AWSエンジニアとの違いを面接で語れます。データ志向なら",
     aLink: { href: "/skill/data-scientist/", label: "データサイエンティスト転職ガイド" },
-    aTail: "への接続も視野に入ります。",
+    aTail: "へのキャリア展開も視野に入ります。",
   },
   {
     q: "40代でもGCPエンジニアへ転職できますか？",
-    a: "上流の設計・運用経験があれば可能です。レバテック公表の正社員SE年代別平均は40代約618万円、年収1,000万円以上の割合は40代で12.67%（2025年）と、ミドル層でも高年収帯が一定数あります。GCPはIaC（Terraform）やKubernetes（GKE）との組み合わせで価値が上がるため、それらの経験を棚卸しして示すのが鍵です。",
+    a: "上流の設計・運用経験があれば可能です。レバテック公表の正社員SE年代別平均は40代約618万円、年収1,000万円以上の割合は40代で12.67%（2025年）と、ミドル層でも高年収帯が一定数あります。GCPはIaC（Terraform）やKubernetes（GKE）との組み合わせで価値が上がるため、それらの経験を棚卸しして示すことが重要です。",
   },
   {
     q: "GCPだけ学べば十分ですか？AWSも必要ですか？",
@@ -70,7 +70,7 @@ const salaryByAge = [
 ];
 
 const cloudCompare = [
-  ["国内求人数の体感", "最多（1番手）", "2番手（エンタープライズ強）", "3番手（現状）"],
+  ["国内求人数の体感", "最多（1番手）", "2番手（エンタープライズに強み）", "3番手（現状）"],
   ["特に強い領域", "総合力・幅広い案件", "M365/業務系/エンタープライズ統合", "BigQuery/Vertex AIのデータ・ML"],
   ["入口の認定資格", "Cloud Practitioner / SAA", "AZ-900 / AZ-104", "Associate Cloud Engineer"],
   ["上位の認定資格", "Solutions Architect Professional", "AZ-305", "Professional Cloud Architect"],
@@ -153,7 +153,7 @@ export default function GcpSkillPage() {
         </nav>
 
         <section id="diff" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：GCPはAWSと何が違うのか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">GCPはAWSと何が違うのか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               GCP転職を成功させる軸は、<strong>「AWSの代替」ではなく「データ・MLに強いクラウド」として自分を位置づけること</strong>です。進め方は次の3点です。
@@ -161,7 +161,7 @@ export default function GcpSkillPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① 求人数で劣る現実を踏まえ、<strong>BigQuery/Vertex AIのデータ・ML親和性</strong>を強みにします（AWSページとの最大の差）</li>
               <li>② 認定は<strong>Associate Cloud Engineer → Professional Cloud Architect</strong>を軸に、学習内容を実務へ紐づけて語ります</li>
-              <li>③ GKE（Kubernetes）・Terraform（IaC）を掛け合わせ、インフラ×データの両面で価値を上げる</li>
+              <li>③ GKE（Kubernetes）・Terraform（IaC）を掛け合わせ、インフラ×データの両面で価値を上げます</li>
             </ul>
             <p className="text-xs text-slate-600 mt-3">
               「まず幅広い求人で経験を積みたい」方は
@@ -179,7 +179,7 @@ export default function GcpSkillPage() {
             求人ボックス給料ナビの「GCPエンジニア」平均月給は<strong>約66.4万円（単純換算で年約797万円）</strong>です（2026年6月時点・動的に変動する集計値）。これは募集条件が整った求人を含むため高めに出やすい数値で、断定的な「相場」として扱うべきではありません。媒体推定では正社員700〜1,300万円、フリーランス平均約1,300万円という幅のある値も示されています（各社推定・幅あり）。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            より安定した年代別の水準感は、レバテックが公表する正社員SEの年代別平均年収（権威データ寄りの参考値）が役立ちます。
+            より安定した年代別の水準感は、レバテックが公表する正社員SEの年代別平均年収（公表データに基づく参考値）が役立ちます。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -209,7 +209,7 @@ export default function GcpSkillPage() {
         <section id="compare" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">AWS/Azure/GCP 3クラウド比較</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            3大クラウドの違いを、転職目線で整理します。GCPは求人数では3番手という現実を踏まえつつ、得意領域で選ぶのが賢い使い分けです。
+            3大クラウドの違いを、転職目線で整理します。GCPは求人数では3番手という現実を踏まえつつ、得意領域で選ぶのが現実的な使い分けです。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -248,9 +248,9 @@ export default function GcpSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "BigQuery（データウェアハウス）", d: "サーバーレスで大規模データを高速にSQL分析できる基盤です。データエンジニアリングやBIの中核として案件需要が根強いです。" },
-              { t: "Vertex AI（ML基盤）", d: "機械学習モデルの学習・デプロイ・運用を統合するMLOps基盤です。MLや生成AI活用の案件で評価されやすいです。" },
-              { t: "GKE（Google Kubernetes Engine）", d: "Kubernetesの本家に近い運用体験です。コンテナ・SRE志向と相性がよく、IaCと掛け合わせると市場価値が上がります。" },
+              { t: "BigQuery（データウェアハウス）", d: "サーバーレスで大規模データを高速にSQL分析できる基盤です。データエンジニアリングやBIの中核として根強い案件需要があります。" },
+              { t: "Vertex AI（ML基盤）", d: "機械学習モデルの学習・デプロイ・運用を統合するMLOps基盤です。MLや生成AI活用の案件で評価されやすい傾向があります。" },
+              { t: "GKE（Google Kubernetes Engine）", d: "Google CloudのマネージドKubernetesサービスです。コンテナ・SRE志向と相性がよく、IaCと掛け合わせると市場価値が上がります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -265,7 +265,7 @@ export default function GcpSkillPage() {
             <Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes転職ガイド</Link>、
             IaCは
             <Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform転職ガイド</Link>
-            が接続先になります。
+            が参考になります。
           </p>
         </section>
 
@@ -296,7 +296,7 @@ export default function GcpSkillPage() {
           </div>
           <p className="text-xs text-slate-500 mb-3">出典: Google Cloud 認定資格 公式（cloud.google.com/certification、2026年6月時点）。dodaではGCP認定保有者向けに「900万円〜」を掲げる特集求人も見られます（2026年6月時点・媒体特集）。</p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            資格は「持っているか」より「学習内容を実務で使えるか」で評価されます。Professional Cloud Architectの学習で得た設計知識を、実際の構成・コスト最適化にどう適用したかを語れると、書類・面接の両方で効きます。
+            資格は「持っているか」より「学習内容を実務で使えるか」で評価されます。Professional Cloud Architectの学習で得た設計知識を、実際の構成・コスト最適化にどう適用したかを語れると、書類・面接の両方で評価につながります。
           </p>
         </section>
 
@@ -307,9 +307,9 @@ export default function GcpSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "実務1〜3年層（構築・運用）", d: "GCE/Cloud Storage/VPC/IAMの基本構成、Cloud Monitoringでの監視、簡単な障害対応。Associate Cloud Engineerが歓迎要件になりやすいです。" },
-              { t: "実務3〜6年層（設計・データ基盤）", d: "GKEの運用、Terraformによる構成管理、BigQueryでのデータ基盤構築、CI/CDです（Cloud Build）。年収帯が一段上がる中核ゾーンです。" },
-              { t: "実務6年以上層（アーキテクト・データ基盤リード）", d: "全体アーキテクチャ設計、Vertex AIを含むML基盤、コスト最適化、セキュリティ設計。Professional認定が後押しになります。" },
+              { t: "実務1〜3年層（構築・運用）", d: "GCE/Cloud Storage/VPC/IAMの基本構成、Cloud Monitoringでの監視、簡単な障害対応が中心です。Associate Cloud Engineerが歓迎要件になりやすい傾向があります。" },
+              { t: "実務3〜6年層（設計・データ基盤）", d: "GKEの運用、Terraformによる構成管理、BigQueryでのデータ基盤構築、CI/CD（Cloud Build）が求められます。年収帯が一段上がる中核ゾーンです。" },
+              { t: "実務6年以上層（アーキテクト・データ基盤リード）", d: "全体アーキテクチャ設計、Vertex AIを含むML基盤、コスト最適化、セキュリティ設計を担います。Professional認定が後押しになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -329,7 +329,7 @@ export default function GcpSkillPage() {
                 <Link href="/skill/data-scientist/" className="text-petrol-deep underline ml-1">データサイエンティスト</Link>
                 や
                 <Link href="/skill/sql/" className="text-petrol-deep underline ml-0">SQL</Link>
-                のスキルと接続します。
+                のスキルとも関連します。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -358,7 +358,7 @@ export default function GcpSkillPage() {
             {[
               { n: "STEP 1", t: "土台の棚卸し", d: "ネットワーク・Linux・SQLの基礎経験を整理します。これらはGCPでもそのまま価値になります。" },
               { n: "STEP 2", t: "Associate取得＋無料枠で構築", d: "Associate Cloud Engineerを取得し、無料利用枠でGCE/Cloud Storage/IAMの小構成を自作します。" },
-              { n: "STEP 3", t: "データ・MLで差別化", d: "BigQueryで公開データセットを分析し、Vertex AIで簡単なモデルを動かします。AWSとの差を作ります。" },
+              { n: "STEP 3", t: "データ・MLで差別化", d: "BigQueryで公開データセットを分析し、Vertex AIで簡単なモデルを動かします。AWSとの違いを示せる経験になります。" },
               { n: "STEP 4", t: "成果物化して応募", d: "構成をTerraformでコード化しGitHubに公開します。設計意図をREADMEで説明できる状態にします。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -382,7 +382,7 @@ export default function GcpSkillPage() {
               ミドル層のGCP転職では、<strong>「自分で全部作れる」より「データ活用や移行をチームで進められる」</strong>ことが評価軸になります。手を動かす力に加え、要件整理・コスト判断・データ活用の企画力が差を生みます。
             </p>
             <p>
-              <strong>デメリット・注意点も記載します。</strong>GCPは国内求人数がAWSより少ないため、「GCPしか触れない」状態だと選択肢が狭まりやすいのが現実です。求人の地理的偏在（都市部・自社開発企業に集中しがち）もあり、地方・リモート前提だと案件が限られる場合があります。AWSの基礎も押さえ、データ/MLという強みで差別化する二段構えが安全です。
+              <strong>デメリット・注意点も記載します。</strong>GCPは国内求人数がAWSより少ないため、「GCPしか触れない」状態だと選択肢が狭まりやすいのが現実です。求人の地理的偏在（都市部・自社開発企業に集中しがち）もあり、地方・リモート前提だと案件が限られる場合があります。AWSの基礎も押さえ、データ/MLという強みで差別化する二段構えの準備が現実的です。
             </p>
             <p>
               年収面では、レバテック公表の正社員SE平均が40代で約618万円、年収1,000万円以上の割合が40代で12.67%（2025年）と、ミドルでも高年収帯は一定数存在します。年代別の市場感は
@@ -421,7 +421,7 @@ export default function GcpSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">GCPスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            データ・ML案件に強いIT特化型エージェントで、ご自身のGCPスキルの市場価値を確認しましょう。
+            データ・ML案件を扱うIT特化型エージェントで、ご自身のGCPスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

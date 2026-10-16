@@ -17,7 +17,7 @@ const DESCRIPTION =
 
 // H2見出しの目次（アンカー）
 const toc = [
-  { id: "summary", label: "結論サマリ：どんな人向けか" },
+  { id: "summary", label: "要点：どんな人向けか" },
   { id: "basic", label: "基本データ（2026年6月時点）" },
   { id: "mechanism", label: "スキルチェックとランク制度の仕組み" },
   { id: "strength", label: "paiza転職の特徴・強み" },
@@ -46,7 +46,7 @@ const basicData: [string, string][] = [
 // スキルランクの整理（paizaの公開仕様に基づく一般的な区分）
 const ranks: { rank: string; level: string; note: string }[] = [
   { rank: "S", level: "最上位", note: "高難度のアルゴリズム問題を高速・正確に解ける水準です。書類選考免除の対象企業が最も広がります" },
-  { rank: "A", level: "上位", note: "実務上位層の目安です。スカウトが届きやすく、選考免除の対象になる求人も多いです" },
+  { rank: "A", level: "上位", note: "実務上位層の目安です。スカウトが届きやすく、選考免除の対象になる求人も多く見られます" },
   { rank: "B", level: "中位", note: "一定の実装力がある水準です。スカウトが届き始めるボーダーライン" },
   { rank: "C〜E", level: "基礎〜入門", note: "基礎レベルです。スカウトは届きにくく、まずランクアップを目指す段階" },
 ];
@@ -54,15 +54,15 @@ const ranks: { rank: string; level: string; note: string }[] = [
 // 良い評判（datasheet：jobs.qiita / asiro 等の傾向要約）
 const goodReviews = [
   {
-    head: "スキルが数値（ランク）で可視化されます",
+    head: "スキルを数値（ランク）で可視化できる",
     body: "Qiita Job Change（jobs.qiita）やasiro等の口コミプラットフォームでは、職務経歴書では伝わりにくい技術力をランクという客観指標で示せる点を評価する声が見られます。",
   },
   {
-    head: "学歴・経歴の壁が低いです",
+    head: "学歴・経歴の壁が低い",
     body: "学歴や前職の知名度ではなくコーディングテストの結果で評価されるため、経歴に左右されにくいという傾向の声が同プラットフォームで見られます。",
   },
   {
-    head: "高ランクなら年齢を問わずスカウトが届きやすいです",
+    head: "高ランクなら年齢を問わずスカウトが届きやすい",
     body: "高ランク保持者には年齢に関わらずスカウトが届きやすいという傾向の声が見られます。実力を強みにしたい層からの評価が中心です。",
   },
 ];
@@ -70,17 +70,17 @@ const goodReviews = [
 // 悪い評判（datasheet：freeconsul 等の傾向要約）
 const badReviews = [
   {
-    head: "希望条件と合わないスカウトが届くことがあります",
+    head: "希望条件と合わないスカウトが届くことがある",
     body: "希望年収・勤務地・職種と必ずしも一致しないスカウトが届くという声が、freeconsul等の口コミプラットフォームで見られます。",
-    cope: "受信設定や希望条件を細かく登録し、スカウトの「気になる」「興味なし」を丁寧に返すことでマッチング精度が上がりやすいです。条件外スカウトは無理に対応しません。",
+    cope: "受信設定や希望条件を細かく登録し、スカウトの「気になる」「興味なし」を丁寧に返すことでマッチング精度が上がりやすい傾向があります。条件外スカウトは無理に対応しません。",
   },
   {
-    head: "ランクB以上でないとスカウトが届きにくいです",
+    head: "ランクB以上でないとスカウトが届きにくい",
     body: "ランクが一定水準（目安としてB以上）に届かないとスカウトの数が伸びにくいという傾向の声が見られます。",
     cope: "スキルチェックは何度も再挑戦できます。アルゴリズム・データ構造の基礎を固め、まずはランクアップに集中してから本格的な活動に移るのが現実的です。",
   },
   {
-    head: "総求人数は大手エージェントより少ないです",
+    head: "総求人数は大手エージェントより少ない",
     body: "求人数そのものは大手総合エージェントに比べて少ないという声が見られます（公開求人 約5,100件・2026年4月更新の二次情報）。",
     cope: "paiza単体で完結させず、求人量の多いエージェントや他サービスと併用して母集団を確保するのが基本です。",
   },
@@ -105,7 +105,7 @@ const faqs = [
   },
   {
     q: "30代・40代でも使えますか？",
-    a: "利用は可能です。datasheetの傾向として、高ランク保持者は年齢を問わずスカウトが届きやすいという声があります。ただしWeb系・自社開発の若手向け求人が中心で、PM・マネジメント職の母数は大手エージェントに比べて限られるため、ミドル層は年収交渉やマネジメント求人を扱うエージェントとの併用が現実的です。",
+    a: "利用は可能です。口コミの傾向として、高ランク保持者は年齢を問わずスカウトが届きやすいという声があります。ただしWeb系・自社開発の若手向け求人が中心で、PM・マネジメント職の母数は大手エージェントに比べて限られるため、ミドル層は年収交渉やマネジメント求人を扱うエージェントとの併用が現実的です。",
   },
   {
     q: "スキルチェックは何度も受けられますか？",
@@ -125,7 +125,7 @@ const faqs = [
   },
   {
     q: "他の転職サービスと併用すべきですか？",
-    a: "おすすめです。paiza転職（技術力で勝負・書類選考免除）と、エージェント型のレバテックキャリア（添削・年収交渉サポート）を組み合わせると、技術アピールと交渉サポートの両面をカバーできます。",
+    a: "おすすめです。paiza転職（技術力で評価・書類選考免除）と、エージェント型のレバテックキャリア（添削・年収交渉サポート）を組み合わせると、技術アピールと交渉サポートの両面をカバーできます。",
   },
 ];
 
@@ -198,26 +198,26 @@ export default function PaizaReview() {
           </ol>
         </nav>
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論サマリ：どんな人向けか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">要点：どんな人向けか</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3 text-lg">
-              結論：「コードで実力を証明したいエンジニア」に向くスカウト型サービス
+              「コードで実力を証明したいエンジニア」に向くスカウト型サービス
             </p>
             <p className="text-sm text-blue-900 leading-relaxed mb-4">
-              paiza転職は、スキルチェックのランクで技術力を客観的に示し、書類選考を飛ばして面接へ進みたい人に最適です。
+              paiza転職は、スキルチェックのランクで技術力を客観的に示し、書類選考を経ずに面接へ進みたい人に適しています。
               学歴や前職の知名度に左右されたくない、コードを強みにしたいという志向のエンジニアと相性が良いサービスです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>・<span className="font-medium">向いている</span>：自走できるWeb系・自社開発志向の実務エンジニア、高ランクを取れる自信がある人</li>
               <li>・<span className="font-medium">注意</span>：求人数は大手より少なく、専任エージェントの手厚い個別サポートは基本なし</li>
-              <li>・<span className="font-medium">おすすめの使い方</span>：エージェント型サービスと併用し、技術アピールと交渉サポートを両取りします</li>
+              <li>・<span className="font-medium">おすすめの使い方</span>：エージェント型サービスと併用し、技術アピールと交渉サポートを両立します</li>
             </ul>
           </div>
           <div className="mt-5 grid grid-cols-1 sm:grid-cols-3 gap-3 text-center">
             {[
-              ["総合評価", "★★★★☆", "技術力を強みにしたい層に強いです"],
+              ["総合評価", "★★★★☆", "技術力を強みにしたい層に適しています"],
               ["仕組みの独自性", "★★★★★", "ランク制＋書類選考免除"],
               ["サポートの手厚さ", "★★★☆☆", "スカウト型・自走前提"],
             ].map(([k, v, note], i) => (
@@ -391,9 +391,9 @@ export default function PaizaReview() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">30代エンジニア：ランクで「年齢の壁」を回避する</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                30代は実務経験とスキルが合いやすい年代です。datasheetの傾向として、高ランク保持者は年齢を問わずスカウトが届きやすいという声があり、
+                30代は実務経験とスキルが合いやすい年代です。口コミの傾向として、高ランク保持者は年齢を問わずスカウトが届きやすいという声があり、
                 スキルチェックで高ランクを取れれば「30代だから」と書類で外される展開を回避しやすくなります。
-                現年収の相場感は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収相場</Link>も参考に、ランクを強みに強気の応募が可能です。
+                現年収の相場感は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収相場</Link>も参考に、ランクを強みに積極的に応募できます。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -401,14 +401,14 @@ export default function PaizaReview() {
               <p className="text-sm text-slate-600 leading-relaxed">
                 40代で技術職を続けたい人にとって、ランクで実力を示せるpaiza転職は数少ない実力本位の導線です。
                 ただしPM・マネジメント・ハイクラス求人の母数は大手エージェントに比べ限られるため、管理職志向の場合は他サービスとの併用が前提になります。
-                40代の現実的な選択肢は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>もあわせてご確認ください。
+                40代の現実的な選択肢については、<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>もあわせてご確認ください。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">市場全体の追い風を活かす</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。
-                実装力のあるミドルエンジニアにとって追い風の市場であり、ランクで実力を可視化できるpaiza転職はこの流れに乗りやすいサービスです。
+                実装力のあるミドルエンジニアにとって需要の高い市場であり、ランクで実力を可視化できるpaiza転職はこの流れに乗りやすいサービスです。
                 自分の立ち位置の把握には<Link href="/knowledge/market-value/" className="text-petrol hover:underline">エンジニアの市場価値の測り方</Link>が役立ちます。
               </p>
             </div>
@@ -444,7 +444,7 @@ export default function PaizaReview() {
                   "PM・マネジメント・ハイクラス求人を中心に探したい",
                   "求人数の多さ・選択肢の広さを最優先します",
                   "地方・全国の幅広い求人を網羅的に見たい",
-                  "コーディングテストに苦手意識が強いです",
+                  "コーディングテストに苦手意識が強い傾向があります",
                 ].map((t, i) => (
                   <li key={i} className="flex items-start gap-2">
                     <span className="text-red-500 shrink-0">×</span>
@@ -463,8 +463,8 @@ export default function PaizaReview() {
             {[
               ["無料会員登録・プロフィール入力", "メールアドレス等で無料登録し、経歴・希望条件・スキルを登録します。希望年収や勤務地は後のスカウト精度に影響するため丁寧に入力します。"],
               ["スキルチェック（コーディングテスト）に挑戦", "得意な言語でスキルチェックを受験し、ランクを取得します。納得のいくランクが出るまで繰り返し挑戦できます。"],
-              ["スカウト受信・求人への応募", "ランクや経歴をもとに企業からスカウトが届きます。気になる求人には自分から応募も可能。書類選考免除の対象求人を中心に動くと効率的です。"],
-              ["面接", "書類選考免除の場合は面接からスタート。ランクで技術力の前提ができているため、志向やカルチャーのすり合わせに集中できます。"],
+              ["スカウト受信・求人への応募", "ランクや経歴をもとに企業からスカウトが届きます。気になる求人には自分から応募することもできます。書類選考免除の対象求人を中心に動くと効率的です。"],
+              ["面接", "書類選考免除の場合は面接から始まります。ランクで技術力の前提ができているため、志向やカルチャーのすり合わせに集中できます。"],
               ["内定・年収交渉・入社", "内定後は条件を確認し、必要に応じて年収交渉を行います。交渉サポートが必要な場合はエージェント型サービスの併用が有効です。"],
             ].map(([head, body], i) => (
               <li key={i} className="flex gap-4">
@@ -509,7 +509,7 @@ export default function PaizaReview() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
             <p className="font-bold text-amber-900 mb-2">おすすめの併用パターン</p>
             <p className="text-sm text-amber-900 leading-relaxed">
-              <span className="font-medium">paiza転職（技術力で勝負・書類選考免除）</span> +{" "}
+              <span className="font-medium">paiza転職（技術力で評価・書類選考免除）</span> +{" "}
               <Link href="/review/levtech/" className="text-petrol-deep underline">レバテックキャリア</Link>
               （添削・年収交渉などのエージェントサポート）の組み合わせが有効です。
               スカウト型と仲介型を併用することで、技術アピールと交渉サポートの両面をカバーできます。複数併用のコツは

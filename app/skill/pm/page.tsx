@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：PM転職市場での進め方" },
+  { id: "conclusion", label: "PM転職市場での進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "PMポジションの種類と選択肢" },
@@ -29,49 +29,49 @@ const toc = [
 const positions = [
   {
     role: "プロジェクトマネージャー（PM）",
-    note: "QCD（品質・コスト・納期）管理が中心です。求人母数が最も多い代表的なポジションです。",
+    note: "QCD（品質・コスト・納期）管理が中心です。求人母数が最も多く、代表的なポジションといえます。",
     demand: "高",
   },
   {
     role: "プロダクトマネージャー（PdM）",
-    note: "プロダクト戦略・ロードマップ・KPI設計。SaaS/メガベンチャーで需要があります。年収帯が高めです。",
+    note: "プロダクト戦略・ロードマップ・KPI設計を担います。SaaS/メガベンチャーで需要があり、年収帯は高めの傾向です。",
     demand: "中〜高",
   },
   {
     role: "PMO",
-    note: "複数プロジェクトの横断管理・標準化・ガバナンスです。大手SIer/事業会社に多いです。",
+    note: "複数プロジェクトの横断管理・標準化・ガバナンスを担います。大手SIer/事業会社で多く見られます。",
     demand: "中",
   },
   {
     role: "DX推進PM/コンサル型PM",
-    note: "事業会社のDX推進やコンサルでの変革リード。業界知識×PM力が問われます。",
+    note: "事業会社のDX推進やコンサルでの変革をリードします。業界知識×PM力が問われます。",
     demand: "中〜高",
   },
 ];
 
 const faqs = [
   {
-    q: "PMの平均年収はどのくらい？",
-    a: "出典により幅があります。doda「平均年収ランキング（2025年）」ではプロジェクトマネージャー707万円、レバテックキャリアの集計では平均568万円・中央値550万円、doda Xの調査では全体平均891.5万円（フリーランス含む）と報告されています。母集団や対象が異なるためですが、IT職種の中で高めの水準にあることは共通しています。",
+    q: "PMの平均年収はどのくらいですか？",
+    a: "出典により幅があります。doda「平均年収ランキング（2025年）」ではプロジェクトマネージャー707万円、レバテックキャリアの集計では平均568万円・中央値550万円、doda Xの調査では全体平均891.5万円（フリーランス含む）と報告されています。数値の差は母集団や対象の違いによるものですが、IT職種の中で高めの水準にある点は共通しています。",
   },
   {
     q: "40代のPMでも転職できますか？",
     a: "PMは経験とマネジメント力が評価軸のため、年齢の不利が相対的に小さい職種です。大規模プロジェクトの統括、ステークホルダー調整、リスク管理、炎上案件のリカバリといった経験は40代の強みになります。求人側も即戦力のマネジメント人材を求めているため、ミドル層に向いたポジションです。",
   },
   {
-    q: "PMとPdMの違いは？転職市場ではどちらが有利？",
+    q: "PMとPdMの違いは何ですか？転職市場ではどちらが有利ですか？",
     a: "PMはプロジェクトのQCD管理が中心、PdMはプロダクトの戦略・ロードマップ・ユーザー価値最大化が中心です。求人母数はPMが多く、年収帯はPdMが高めになりやすい傾向があります。どちらが有利かは経歴次第で、開発出身ならPdM、大規模管理経験が厚いならPMという棲み分けが現実的です。",
   },
   {
-    q: "技術的バックグラウンドはPM転職で有利？",
-    a: "有利に働きやすいです。開発出身のPMは技術的な意思決定や開発チームとの意思疎通で評価されやすく、エンジニア組織を持つ企業では特に重宝されます。ただし求人によっては業務系/事業系のPM力を重視する場合もあるため、応募先の求める像を見極めることが大切です。",
+    q: "技術的バックグラウンドはPM転職で有利ですか？",
+    a: "有利に働く傾向があります。開発出身のPMは技術的な意思決定や開発チームとの意思疎通で評価されやすく、エンジニア組織を持つ企業では特に重宝されます。ただし求人によっては業務系/事業系のPM力を重視する場合もあるため、応募先の求める像を見極めることが大切です。",
   },
   {
-    q: "PMに資格は必要？",
-    a: "実務経験が最優先ですが、PMP（Project Management Professional）やIPAのプロジェクトマネージャ試験、スクラムマスター認定は経歴の裏付けとして有効です。資格だけで評価が決まることは少なく、職務経歴書での実績の見せ方のほうが選考に効きます。",
+    q: "PMに資格は必要ですか？",
+    a: "実務経験が最優先ですが、PMP（Project Management Professional）やIPAのプロジェクトマネージャ試験、スクラムマスター認定は経歴の裏付けとして有効です。資格だけで評価が決まることは少なく、職務経歴書での実績の見せ方のほうが選考結果に影響します。",
   },
   {
-    q: "PM求人はリモート可が多い？",
+    q: "PM求人はリモート可が多いですか？",
     a: "ポジションや企業によって差が大きく、一概に「◯割がリモート可」とは言い切れません。ステークホルダー調整や現場常駐を求める案件もあれば、フルリモート可の事業会社PM求人もあります。働き方は応募前にエージェント経由で確認するのが確実です。",
   },
   {
@@ -146,17 +146,17 @@ export default function PmSkillPage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PM転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">PM転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
-              PMは年齢の不利が小さく、ミドルの実績がそのまま強みになる数少ないポジションです。進め方は<strong>「実績の定量化」×「ハイクラス・スカウト型の活用」</strong>。求人母数の多さに任せて数を撃つより、合うポジションへ確実に届けるのが要です。
+              PMは年齢の不利が小さく、ミドルの実績がそのまま強みになる数少ないポジションです。進め方の軸は<strong>「実績の定量化」×「ハイクラス・スカウト型の活用」</strong>です。求人母数の多さに任せて数多く応募するより、経歴に合うポジションへ確実に応募することが重要です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① PMの年収は出典で幅があり、doda 707万円／レバテック568万円／doda X 891.5万円（いずれも近年）。IT職の中で高めの水準です。</li>
+              <li>① PMの年収は出典で幅があり、doda 707万円／レバテック568万円／doda X 891.5万円（いずれも近年）と、IT職の中で高めの水準です。</li>
               <li>② 評価軸は「規模・成果の定量実績」です。職務経歴書で予算・人数・改善率を数字で示せるかで通過率が変わります。</li>
-              <li>③ 年収帯が高いためスカウト型（ビズリーチ）と相性が良いです。求人量の総合型・IT特化と併用するのが基本です。</li>
+              <li>③ 年収帯が高いためスカウト型（ビズリーチ）と相性が良いといえます。求人量の総合型・IT特化と併用するのが基本です。</li>
             </ul>
           </div>
         </section>
@@ -203,7 +203,7 @@ export default function PmSkillPage() {
           <div className="space-y-3">
             {[
               { lv: "PL〜若手PMで歓迎されやすい人", body: "数名規模のチーム/小〜中規模PJのリード経験、スケジュール・課題・品質管理の実務、開発現場との橋渡しの経験。" },
-              { lv: "ミドル〜シニアPM要件", body: "中〜大規模PJの統括、予算・人員管理、ステークホルダー/経営層との折衝、リスク管理、炎上案件のリカバリ実績です。" },
+              { lv: "ミドル〜シニアPM要件", body: "中〜大規模PJの統括、予算・人員管理、ステークホルダー/経営層との折衝、リスク管理、炎上案件のリカバリ実績。" },
               { lv: "ハイクラス/PMO要件", body: "複数PJ横断のガバナンス、標準化推進、部門マネジメント、事業/経営視点でのPJポートフォリオ管理。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -247,7 +247,7 @@ export default function PmSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方（どの窓口が強いか）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方（窓口ごとの特徴）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             PMは年収帯が高く、非公開・スカウト経由の好条件求人が多いポジションです。性質の違う窓口を併用しましょう。
           </p>
@@ -262,7 +262,7 @@ export default function PmSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（求人量・実績）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                国内最大級の求人数で全国対応です。大手企業・コンサル・事業会社のPM求人が幅広く、母数の多さから自分の経歴に合うポジションを探しやすい窓口です。
+                国内最大級の求人数を持ち、全国に対応しています。大手企業・コンサル・事業会社のPM求人が幅広く、母数の多さから自分の経歴に合うポジションを探しやすい窓口です。
               </p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
@@ -303,7 +303,7 @@ export default function PmSkillPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            マネジメントへの転身手順そのものは<Link href="/knowledge/management/" className="text-petrol hover:underline">EM・PMへのマネジメント転身ガイド</Link>（職務経歴書例付き）が詳しいです。
+            マネジメントへの転身手順そのものは<Link href="/knowledge/management/" className="text-petrol hover:underline">EM・PMへのマネジメント転身ガイド</Link>（職務経歴書例付き）で詳しく解説しています。
           </p>
         </section>
 
@@ -315,13 +315,13 @@ export default function PmSkillPage() {
           </p>
           <div className="space-y-3">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">年齢より「規模と再現性」で見られる</h3>
+              <h3 className="font-bold text-blue-800 mb-2">年齢より「規模と再現性」を重視した評価</h3>
               <p className="text-sm text-petrol-deep">
-                何人・何億円のPJを、どう完遂させたか。リカバリ経験を含めて再現性を語れるミドルは、年齢を不利にしません。
+                何人・何億円規模のPJをどう完遂させたかが問われます。リカバリ経験を含めて再現性を語れるミドルは、年齢が不利に働きにくくなります。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">PdM/PMO/DXへの横展開で選択肢が増える</h3>
+              <h3 className="font-bold text-blue-800 mb-2">PdM/PMO/DXへの横展開による選択肢の広がり</h3>
               <p className="text-sm text-petrol-deep">
                 PMの素地は、PdM・PMO・DX推進・コンサル型PMへ広げられます。1つの軸足を複数の出口に転用できるのがミドルの強みです。
               </p>
@@ -329,7 +329,7 @@ export default function PmSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年収交渉が成立しやすい職種</h3>
               <p className="text-sm text-petrol-deep">
-                成果が数字で語りやすいため年収交渉の根拠を作りやすく、ハイクラス・スカウト経由なら提示も高くなりがちです。
+                成果が数字で語りやすいため年収交渉の根拠を作りやすく、ハイクラス・スカウト経由では提示額も高くなる傾向があります。
               </p>
             </div>
           </div>
@@ -342,11 +342,11 @@ export default function PmSkillPage() {
         <section id="learning" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">市場価値を上げる準備</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            PM転職の合否は職務経歴書の「実績の定量化」でほぼ決まります。応募前に次を整理しておきましょう。
+            PM転職の合否は職務経歴書の「実績の定量化」に大きく左右されます。応募前に次を整理しておきましょう。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>担当PJの規模を数字で（予算・チーム人数・期間・関係部署数）</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>成果を定量で（納期遵守率・コスト削減率・品質改善・離脱率低下など）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>担当PJの規模の数値（予算・チーム人数・期間・関係部署数）</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>成果の定量データ（納期遵守率・コスト削減率・品質改善・離脱率低下など）</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>困難PJのリカバリ経験（炎上案件の立て直し・スコープ調整の判断）</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>ステークホルダー調整の実績（経営層報告・顧客折衝・部門間調整）</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>アジャイル/スクラムの実践経験、PMP/IPAなど資格の有無</li>
@@ -369,7 +369,7 @@ export default function PmSkillPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>PJの規模・成果を数字で語れる実績がある</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ステークホルダー調整・リスク管理の経験がある</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>炎上案件のリカバリなど再現性のある経験を持つ</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>技術判断ができます（開発出身の強みを活かせる）</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>技術判断ができる（開発出身の強みを活かせる）</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>年収交渉を実績ベースで進めたい</li>
               </ul>
             </div>
@@ -378,9 +378,9 @@ export default function PmSkillPage() {
               <ul className="space-y-2 text-sm text-amber-800">
                 <li className="flex items-start gap-2"><span className="shrink-0">!</span>マネジメントより手を動かす開発を続けたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">!</span>調整・折衝・対人ストレスを強く避けたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>実績を定量化できる材料が乏しいです</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>進行管理やリーダー経験がまったくありません</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>responsibility（責任範囲）が広がるのを望みません</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>実績を定量化できる材料が乏しい</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>進行管理やリーダー経験がまったくない</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>責任範囲が広がることを望まない</li>
               </ul>
             </div>
           </div>
@@ -399,7 +399,7 @@ export default function PmSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">ビズリーチに見られる傾向</h3>
               <p className="text-sm text-slate-600">
-                ミライトーチ・morejob等の口コミでは「高年収求人が豊富」「スカウトでキャリアアップできた」「市場価値を客観的に把握できる」という声がある一方、「経歴次第でスカウトが来ない」「有料プラン前提との不満」もあります。PMの実績を具体的に書き込むほどスカウトの質が上がる傾向です。
+                ミライトーチ・morejob等の口コミでは「高年収求人が豊富」「スカウトでキャリアアップできた」「市場価値を客観的に把握できる」という声がある一方、「経歴次第でスカウトが来ない」「有料プラン前提との不満」もあります。PMの実績を具体的に書き込むほどスカウトの質が上がる傾向があります。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">

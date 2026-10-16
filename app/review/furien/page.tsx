@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論サマリ（どんな人向けか）" },
+  { id: "summary", label: "要点（どんな人向けか）" },
   { id: "rename", label: "「フリエン」は現在ココナラテックに名称変更" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strength", label: "特徴・強み" },
@@ -88,7 +88,7 @@ const fitYes = [
 ];
 
 const fitNo = [
-  "IT実務未経験・経験が浅く即戦力アピールが難しいです",
+  "IT実務未経験・経験が浅く即戦力アピールが難しい",
   "収入の安定や保障を最優先したい（→Midworksや正社員転職）",
   "週2〜3日・副業ベースで始めたい（→ITプロパートナーズ）",
   "案件総数の網羅性を最優先したい（→レバテックフリーランス等）",
@@ -103,7 +103,7 @@ const flow = [
   {
     step: "STEP2",
     title: "キャリア面談",
-    body: "担当と面談します（オンライン可）。技術スタック・希望単価・リモート可否・NG条件をすり合わせます。手取りベースの希望単価と希望する支払いサイトをここで伝えると提案がぶれにくいです。",
+    body: "担当と面談します（オンライン可）。技術スタック・希望単価・リモート可否・NG条件をすり合わせます。手取りベースの希望単価と希望する支払いサイトをここで伝えると提案がぶれにくい傾向があります。",
   },
   {
     step: "STEP3",
@@ -208,16 +208,16 @@ export default function FurienReview() {
           ]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：このような方におすすめ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">このような方におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：直請け中心の高単価案件を、支払いサイトも選びながら探したい経験者向けです</span>。要約すると「IT実務経験があり、直請けの高単価案件とキャッシュフロー管理を両立したい30代・40代」向けのフリーランスエージェントです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・現在はココナラグループ運営の「ココナラテック」。直請け中心・最高単価月200万円です（公式）。</li>
-              <li>・先払い・即日払い・15日払いから支払いサイトを選べます。20〜60代対応で年齢制限の明記なし。</li>
+              <li>・現在はココナラグループが運営する「ココナラテック」で、直請け中心・最高単価は月200万円です（公式）。</li>
+              <li>・先払い・即日払い・15日払いから支払いサイトを選べます。年齢制限の明記はなく、20〜60代に対応しています。</li>
               <li>・一方で実務経験が前提・マージン非公開・名称変更で情報が混在しています。最新は公式確認が必須です。</li>
             </ul>
           </div>
@@ -356,7 +356,7 @@ export default function FurienReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              スキルが市場で評価されやすく、独立による単価アップの効果が大きい年代です。独立直後は案件継続のリスクがあるため、支払いサイトを早めに設定してキャッシュフローを安定させつつ、最初の数案件は安全側に倒すのが堅実です。「独立はしたいが不安」という段階なら、正社員並みの保障があるMidworksから入る選択肢もあります。
+              スキルが市場で評価されやすく、独立による単価アップの効果が大きい年代です。独立直後は案件継続のリスクがあるため、支払いサイトを早めに設定してキャッシュフローを安定させつつ、最初の数案件は慎重に選ぶのが堅実です。「独立はしたいが不安」という段階なら、正社員並みの保障があるMidworksから入る選択肢もあります。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
@@ -423,7 +423,7 @@ export default function FurienReview() {
         <section id="compare" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フリーランス各社との使い分け</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            フリーランスエージェントは「何を最大化したいか」で選ぶと失敗しにくいです。当サイトでレビューしている各社は、それぞれ強みが住み分けられています。
+            フリーランスエージェントは「何を最大化したいか」で選ぶと失敗しにくい傾向があります。当サイトでレビューしている各社は、それぞれ強みが住み分けられています。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論サマリ（どんな人向けか）" },
+  { id: "summary", label: "要点（どんな人向けか）" },
   { id: "rename", label: "社名変更について（クラウドリンク→AIdea Career）" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strength", label: "特徴・強み（自社内開発100%）" },
@@ -76,10 +76,10 @@ const badReviews = [
 
 const fitYes = [
   "SES・客先常駐で疲弊し、社内SE・自社開発へ移りたい30代・40代",
-  "年収最大化より労働環境・働き方の改善を主目的にしています",
+  "年収最大化より労働環境・働き方の改善を主目的にしている",
   "自社内開発に絞った求人だけを効率的に見たい",
   "IT専門のコンサルに技術経歴を相談したい",
-  "大手と併用して目的特化で使えます",
+  "大手と併用して目的特化で使える",
 ];
 
 const fitNo = [
@@ -93,7 +93,7 @@ const flow = [
   {
     step: "STEP1",
     title: "無料登録（数分）",
-    body: "公式サイトから氏名・経歴・希望条件を入力します。在職中でも登録でき、SES脱出・自社開発への転換という目的を明記しておくと話が早いです。",
+    body: "公式サイトから氏名・経歴・希望条件を入力します。在職中でも登録でき、SES脱出・自社開発への転換という目的を明記しておくと話が早い点が特徴です。",
   },
   {
     step: "STEP2",
@@ -108,7 +108,7 @@ const flow = [
   {
     step: "STEP4",
     title: "面接対策・選考",
-    body: "面接対策を受けて選考に臨みます。面接手配が迅速なため、在職中でもテンポよく進めやすいです。",
+    body: "面接対策を受けて選考に臨みます。面接手配が迅速なため、在職中でもテンポよく進めやすくなります。",
   },
   {
     step: "STEP5",
@@ -202,10 +202,10 @@ export default function CloudLinkReview() {
           ]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：このような方におすすめ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">このような方におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：SES・客先常駐から自社開発へ働き方を変えたいミドルに特化しています</span>。要約すると「年収最大化より、SESを抜けて社内SE・自社開発で働きたい経験者」向けのエージェントです。
             </p>
@@ -366,7 +366,7 @@ export default function CloudLinkReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              SESでの経験を活かしつつ、自社開発でスキルを深めるラストチャンスになりやすい年代です。年齢が上がるほど自社開発への未経験転換は難しくなる傾向があるため、社内SE・自社開発への移行を考えているなら早めに動くのが有利です。年収も一段上げたい場合は、高年収IT求人を扱う正社員転職のレバテックキャリアを併用すると選択肢が広がります。
+              SESでの経験を活かしつつ、自社開発でスキルを深める重要な時期になりやすい年代です。年齢が上がるほど自社開発への未経験転換は難しくなる傾向があるため、社内SE・自社開発への移行を考えているなら早めに動くのが有利です。年収も一段上げたい場合は、高年収IT求人を扱う正社員転職のレバテックキャリアを併用すると選択肢が広がります。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>

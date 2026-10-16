@@ -16,11 +16,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：TypeScript転職の進め方" },
+  { id: "conclusion", label: "TypeScript転職の進め方" },
   { id: "market", label: "市場・年収データ（公表値）" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
-  { id: "find", label: "求人の探し方・強いエージェント" },
+  { id: "find", label: "求人の探し方と主なエージェント" },
   { id: "entry", label: "経験浅めからの参入ルート" },
   { id: "middle", label: "30代・40代の視点" },
   { id: "study", label: "スキルアップ・学習戦略" },
@@ -61,7 +61,7 @@ const faqs = [
     a: "TypeScriptはJavaScript互換の静的型付け言語として、フロントエンド（React/Next.js）からバックエンド（Node.js等）まで採用が広がっています。求人ボックスやpaizaの言語別調査でも継続的に上位の年収帯に位置しており、当面は需要が安定すると考えられます。ただし将来予測は断定できないため、複数の公表データで傾向を確認するのが安全です。",
   },
   {
-    q: "TypeScript転職で評価されやすいスキルは？",
+    q: "TypeScript転職で評価されやすいスキルは何ですか？",
     a: "React/Next.jsの実務経験、型設計（ジェネリクス・ユーティリティ型）、REST/GraphQLのAPI設計、テスト（Vitest/Jest/Playwright）、CI/CD構築などが求人要件で頻出します。クラウド（AWS/GCP）でのデプロイ経験やフルスタック開発力があると選択肢が広がります。",
   },
   {
@@ -70,11 +70,11 @@ const faqs = [
   },
   {
     q: "TypeScriptエンジニアにおすすめの転職エージェントは？",
-    a: "IT/Web特化で高年収求人が多いレバテックキャリア、Web・ゲーム業界に強いGeekly、スタートアップ求人とカジュアル面談に強いGreenの併用が定番です。求人母数を確保したい場合はリクルートエージェントITやdoda ITも候補になります。",
+    a: "IT/Web特化で高年収求人が多いレバテックキャリア、Web・ゲーム業界に強いGeekly、スタートアップ求人とカジュアル面談に強いGreenの併用が一般的です。求人母数を確保したい場合はリクルートエージェントITやdoda ITも候補になります。",
   },
   {
     q: "40代のTypeScriptエンジニアでも転職できますか？",
-    a: "可能です。フルスタック経験やテックリード・アーキテクト経験のある層は需要があります。レバテックの年代別公表値（2025年）でも40代正社員SEの平均は約618万円と、年代が上がるほど水準が上がる傾向です。即戦力性と再現性のある実績提示が鍵になります。",
+    a: "可能です。フルスタック経験やテックリード・アーキテクト経験のある層は需要があります。レバテックの年代別公表値（2025年）でも40代正社員SEの平均は約618万円と、年代が上がるほど水準が上がる傾向があります。即戦力性と再現性のある実績を提示することが重要です。",
   },
   {
     q: "未経験・経験浅めからTypeScript案件に入れますか？",
@@ -125,17 +125,17 @@ export default function TypeScriptSkillPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：TypeScript転職の進め方</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">TypeScript転職の進め方</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              TypeScriptは求人ボックス・paizaの言語別調査でも上位の年収帯にあり、求人母数も多い「強いスキル」です。求人DBサイトで件数を眺めるだけでなく、<strong>「React/Next.jsの実務 × 型設計 × テスト」の3点セットで自分の市場価値を言語化</strong>し、IT特化エージェントに相談して非公開求人にアクセスするのが最短ルートです。
+              TypeScriptは求人ボックス・paizaの言語別調査でも上位の年収帯にあり、求人母数も多く、評価の高いスキルです。求人DBサイトで件数を眺めるだけでなく、<strong>「React/Next.jsの実務 × 型設計 × テスト」の3点セットで自分の市場価値を言語化</strong>し、IT特化エージェントに相談して非公開求人にアクセスするのが効率的な進め方です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
               <li>・年収を狙うなら自社開発SaaS／メガベンチャー、技術裁量を狙うならスタートアップです。</li>
               <li>・30代・40代はフルスタック・テックリード経験が強みです。即戦力性を前面に出します。</li>
-              <li>・エージェントはレバテックキャリア／Geekly／Greenの併用が定番です。</li>
+              <li>・エージェントはレバテックキャリア／Geekly／Greenの併用が一般的です。</li>
             </ul>
           </div>
         </section>
@@ -192,7 +192,7 @@ export default function TypeScriptSkillPage() {
             {[
               ["ジュニア〜ミドル（実務2〜4年）", "React/TypeScriptの実務、コンポーネント設計、API連携、基本的なテスト。自社開発の中小プロダクトやSIerのモダン案件で募集が見られる層。"],
               ["ミドル〜シニア（実務4〜8年）", "型設計・状態管理・パフォーマンス最適化に加え、設計レビューや若手育成。求人で最も母数が多く、年収交渉もしやすい層。"],
-              ["シニア・リード（実務8年〜）", "アーキテクチャ選定、モノレポ／CI/CD整備、チームの技術的意思決定。テックリード・EM求人の中心。30代後半〜40代の中心的な活躍領域です。"],
+              ["シニア・リード（実務8年〜）", "アーキテクチャ選定、モノレポ／CI/CD整備、チームの技術的意思決定。テックリード・EM求人の中心となる、30代後半〜40代の主な活躍領域。"],
             ].map(([level, body], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{level}</h3>
@@ -217,24 +217,24 @@ export default function TypeScriptSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             TypeScript求人は「自社開発の年収重視」「スタートアップの裁量重視」で探し方が変わります。求人サイトの件数だけで判断せず、技術スタックや開発文化の情報を引き出せるエージェントを使い分けるのが効率的です。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化です。高年収求人比率が高く（公開求人の高年収帯が多いとの二次情報）、Web系・SaaSのTypeScript案件に強みがあります。技術に明るいアドバイザーが在籍しています。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Webに特化したエージェントで、高年収求人比率が高く（公開求人の高年収帯が多いとの二次情報）、Web系・SaaSのTypeScript案件に強みがあります。技術に明るいアドバイザーが在籍しています。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界に特化しています。提案スピードが強みで、TypeScript/React求人が充実しています。企業の技術スタック情報の提供が手厚いです。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界に特化しています。提案スピードが強みで、TypeScript/React求人が充実しています。企業の技術スタック情報の提供が手厚い点が特徴です。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Green</h3>
-              <p className="text-sm text-slate-600 mb-2">成功報酬型の転職サイトです（ダイレクトリクルーティング）。カジュアル面談で社風や技術文化を確かめてから進めたいスタートアップ志向の人向けです。</p>
+              <p className="text-sm text-slate-600 mb-2">成功報酬型の転職サイト（ダイレクトリクルーティング）で、カジュアル面談で社風や技術文化を確かめてから進めたいスタートアップ志向の人に向いています。</p>
               <Link href="/review/green/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function TypeScriptSkillPage() {
             ミドル層の強みは「型・設計・テストを含めた再現性のある開発経験」と「チームを前に進めた実績」です。レバテックの年代別公表値（2025年）でも、正社員SEの平均は30代で約499万円、40代で約618万円と年代が上がるほど水準が上がる傾向があり、TypeScriptのようなモダンスタックの即戦力性を示せれば交渉余地は十分にあります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            一方、年齢が上がるほど「マネジメントもできるのか」を問われやすくなります。テックリード・EMの両にらみで職務経歴書を整理し、技術とチーム貢献の両面を書き分けると評価されやすくなります。年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link>も参照してください。
+            一方、年齢が上がるほど「マネジメントもできるのか」を問われやすくなります。テックリード・EMの両方を視野に入れて職務経歴書を整理し、技術とチーム貢献の両面を書き分けると評価されやすくなります。年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link>も参照してください。
           </p>
         </section>
 
@@ -304,10 +304,10 @@ export default function TypeScriptSkillPage() {
               <h3 className="font-bold text-green-800 mb-3 text-sm">向いている人</h3>
               <ul className="space-y-2 text-sm text-green-900">
                 {[
-                  "型で堅牢さを担保する設計に面白さを感じます",
+                  "型で堅牢さを担保する設計に面白さを感じる",
                   "フロントからバックまで横断して開発したい",
                   "Web系自社開発・SaaSでモダンな技術に触れたい",
-                  "リモート中心の柔軟な働き方を志向しています",
+                  "リモート中心の柔軟な働き方を志向している",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -317,9 +317,9 @@ export default function TypeScriptSkillPage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">向いていないかもしれない人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
-                  "型を書く手間より速度を最優先したい現場志向が強いです",
-                  "レガシーな受託・SES中心の環境から動く気がない",
-                  "フロントエンドの変化の速さに追従する余裕が今はありません",
+                  "型を書く手間より開発速度を最優先したい",
+                  "レガシーな受託・SES中心の環境から移る意向がない",
+                  "フロントエンドの変化の速さに追従する余裕が今はない",
                   "単一技術を長期間深掘りしたい（TSは周辺技術の更新が速い）",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">･</span><span>{t}</span></li>

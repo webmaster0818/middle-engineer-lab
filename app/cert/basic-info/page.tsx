@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：基本情報は誰に効く資格か" },
+  { id: "conclusion", label: "基本情報はどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・合格率）" },
   { id: "salary", label: "保有者の年収相場と注意点" },
   { id: "scenes", label: "転職で評価される具体場面" },
   { id: "jobs", label: "活きるポジション" },
   { id: "position", label: "IPA体系の中での位置づけ" },
-  { id: "middle", label: "30代・40代の価値＝対象読者で分かれる" },
+  { id: "middle", label: "30代・40代にとっての価値は対象者によって異なる" },
   { id: "steps", label: "取得3ステップ／併取得すべき資格" },
   { id: "faq", label: "よくある質問" },
 ];
@@ -29,7 +29,7 @@ const toc = [
 const faqs = [
   {
     q: "基本情報技術者は40代の転職で意味がありますか？",
-    a: "対象読者によって評価が分かれます。すでにIT実務経験のあるエンジニアにとっては基礎的すぎ、単体の強み性は低いのが実際のところです。一方で、異業種からIT職へ移ろうとする30〜40代にとっては、ITの基礎知識を網羅的に学んだ最低限の証明として有効です。つまり『誰が取るか』で価値が変わる資格です。",
+    a: "対象読者によって評価が分かれます。すでにIT実務経験のあるエンジニアにとっては内容が基礎的であり、単体での評価は限定的です。一方で、異業種からIT職へ移ろうとする30〜40代にとっては、ITの基礎知識を網羅的に学んだ最低限の証明として有効です。つまり『誰が取るか』で価値が変わる資格です。",
   },
   {
     q: "基本情報を取れば未経験でもIT転職できますか？",
@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "基本情報を取れば年収は上がりますか？",
-    a: "『基本情報単体で年収が一気に上がることは稀』というのが共通見解です。取得者の年収を600万円前後とする集計もありますが、母集団が不明な参考値であり、資格の効果と断定はできません。比較対象として、国税庁の給与所得者平均は461万円（令和6年分）です。基本情報はあくまで土台で、年収は実務経験や役割で決まります。",
+    a: "基本情報単体で年収が大幅に上がることは稀、というのが一般的な見方です。取得者の年収を600万円前後とする集計もありますが、母集団が不明な参考値であり、資格の効果と断定はできません。比較対象として、国税庁の給与所得者平均は461万円（令和6年分）です。基本情報はあくまで土台で、年収は実務経験や役割で決まります。",
   },
   {
     q: "基本情報はいつでも受験できますか？",
@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "基本情報と応用情報、どちらを取るべきですか？",
-    a: "IT未経験・経験浅めなら基本情報から、すでに実務経験がありステップアップしたいなら応用情報がおすすめです。基本情報は未経験の入口資格、応用情報は経験者の加点資格という位置づけで、性格が異なります。応用情報に合格すると高度試験・情報処理安全確保支援士の午前Ⅰが2年間免除される利点もあります。",
+    a: "IT未経験・経験が浅い場合は基本情報から、すでに実務経験がありステップアップしたいなら応用情報がおすすめです。基本情報は未経験の入口資格、応用情報は経験者の加点資格という位置づけで、性格が異なります。応用情報に合格すると高度試験・情報処理安全確保支援士の午前Ⅰが2年間免除される利点もあります。",
   },
 ];
 
@@ -56,7 +56,7 @@ const overviewTable = [
   ["構成", "科目A（90分）＋科目B（100分）"],
   ["合格基準", "各1000点満点中600点以上（IRTスコア）"],
   ["合格率", "新制度平均 約47.1%（おおむね42〜47%）"],
-  ["有効期限", "なし（国家資格・普遍的）"],
+  ["有効期限", "なし（生涯有効）"],
 ];
 
 export default function BasicInfoCertPage() {
@@ -94,7 +94,7 @@ export default function BasicInfoCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          基本情報技術者試験（FE）は、IPAが主催するIT国家資格の入門に位置づけられる試験です。本記事は「基本情報を取れば転職で有利になるか」という疑問に対し、未経験の入口資格という性格を踏まえ、<strong>『誰が取るか』で評価がまったく変わる</strong>点を中心に、公開データと公式情報をもとに整理します。経験者には基礎的すぎるという留意点もご説明します。
+          基本情報技術者試験（FE）は、IPAが主催するIT国家資格の入門に位置づけられる試験です。本記事は「基本情報を取れば転職で有利になるか」という疑問に対し、未経験の入口資格という性格を踏まえ、<strong>『誰が取るか』で評価が大きく変わる</strong>点を中心に、公開データと公式情報をもとに整理します。経験者には基礎的すぎるという留意点もご説明します。
         </p>
 
         <DataNote
@@ -122,10 +122,10 @@ export default function BasicInfoCertPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：基本情報は誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本情報はどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              基本情報技術者は<strong>「IT未経験者の入口」</strong>として効き、<strong>「経験者には基礎すぎて単体の強み性が低い」</strong>資格です。同じ資格でも対象読者で評価が真逆になります。
+              基本情報技術者は<strong>IT未経験者の入口</strong>として効果がある一方、<strong>経験者にとっては基礎的な内容で単体での評価は限定的</strong>な資格です。同じ資格でも、対象者によって評価が大きく異なります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>異業種→IT転職の30〜40代</strong>：IT基礎を網羅した最低限の証明として有効です</li>
@@ -165,7 +165,7 @@ export default function BasicInfoCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・取得者の年収を600万円前後とする集計あり（<strong>母集団不明・参考値</strong>）</li>
               <li>・比較対象：給与所得者平均461万円（<strong>国税庁 令和6年分・権威データ</strong>）</li>
-              <li>・共通見解：<strong>「基本情報単体で年収が一気に上がることは稀」</strong></li>
+              <li>・一般的な見方：<strong>基本情報単体で年収が大幅に上がることは稀</strong></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -201,7 +201,7 @@ export default function BasicInfoCertPage() {
             {[
               { t: "未経験からのプログラマ・SE", d: "異業種出身者がIT職に入る最初のステップです。基礎知識の証明として書類で機能します。" },
               { t: "IT運用・保守・ヘルプデスク", d: "ITの幅広い基礎が問われる運用系職種で、知識の網羅性が活きます。" },
-              { t: "社内SE・情シス（IT基礎重視）", d: "特定技術の深さより幅広いIT理解が求められる職種で、基礎資格が評価されやすいです。" },
+              { t: "社内SE・情シス（IT基礎重視）", d: "特定技術の深さより幅広いIT理解が求められる職種で、基礎資格が評価されやすい傾向があります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -246,25 +246,25 @@ export default function BasicInfoCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            この体系を踏まえると、基本情報の役割がはっきりします。<strong>IT職に入る・入ったばかりの人が、共通言語としての基礎を固める</strong>ための試験です。ベンダー資格のCCNAやLPIC/LinuCが「ネットワーク」「Linux」といった特定領域に直結するのに対し、基本情報は<strong>特定領域に偏らないIT全般の土台</strong>を示します。だからこそ、どの専門に進むか未定の未経験者にとって、最初の一歩として選びやすいのです。
+            この体系を踏まえると、基本情報の役割がはっきりします。<strong>IT職に入る・入ったばかりの人が、共通言語としての基礎を固める</strong>ための試験です。ベンダー資格のCCNAやLPIC/LinuCが「ネットワーク」「Linux」といった特定領域に直結するのに対し、基本情報は<strong>特定領域に偏らないIT全般の土台</strong>を示します。そのため、どの専門に進むか決まっていない未経験者にとって、最初の一歩として選びやすい資格です。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも明確です。基礎レベルである以上、<strong>すでに実務経験のあるエンジニアには物足りず、書類での加点効果も限定的</strong>です。経験者がこの体系で価値を出すなら、一段上の<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>へ進むべきです。応用情報に合格すれば高度試験・情報処理安全確保支援士の午前Ⅰが2年間免除され、専門資格への近道にもなります。
+            注意すべきデメリットもあります。基礎レベルである以上、<strong>すでに実務経験のあるエンジニアには物足りず、書類での加点効果も限定的</strong>です。経験者がこの体系で価値を出すなら、一段上の<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>へ進むべきです。応用情報に合格すれば高度試験・情報処理安全確保支援士の午前Ⅰが2年間免除され、専門資格への近道にもなります。
           </p>
         </section>
 
         {/* 30-40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝対象読者で分かれる</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代にとっての価値は対象者によって異なる</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              この資格の評価は、ミドル層の中でもくっきり二分されます。<strong>すでにIT実務経験のある30〜40代</strong>にとって、基本情報は実際のところ「基礎すぎる」資格です。書類で加点される効果は薄く、この層が時間を投資するなら、経験者の加点資格である応用情報や、専門領域の資格に進むべきです。
+              この資格の評価は、ミドル層の中でも大きく二つに分かれます。<strong>すでにIT実務経験のある30〜40代</strong>にとって、基本情報は内容が基礎的な資格です。書類で加点される効果は小さく、この層が時間を投資するなら、経験者の加点資格である応用情報や、専門領域の資格に進むべきです。
             </p>
             <p>
-              一方、<strong>異業種からIT職へ移る30〜40代</strong>にとっては話が変わります。年齢が上がるほど「本当にITを続ける覚悟があるのか」を問われやすく、基本情報は『IT基礎を体系的に学び切った』という最低限の証明として、志望動機の本気度を裏付けます。同じ資格でも、誰が・どんな文脈で示すかで価値が真逆になる——ここを取り違えないことが重要です。
+              一方、<strong>異業種からIT職へ移る30〜40代</strong>にとっては話が変わります。年齢が上がるほど「本当にITを続ける覚悟があるのか」を問われやすく、基本情報は『IT基礎を体系的に学び切った』という最低限の証明として、志望動機の本気度を裏付けます。同じ資格でも、誰がどのような文脈で示すかによって価値が大きく異なるため、この点を取り違えないことが重要です。
             </p>
             <p>
-              異業種出身ミドルが基本情報を活かすコツは、<strong>資格を「ゴール」ではなく「スタートの証明」として見せる</strong>ことです。採用側が異業種からの転職者に最も懸念するのは、入社後にギャップで離脱しないかという点です。基本情報の学習を通じてアルゴリズムやネットワーク、セキュリティの基礎を一通り理解していれば、「ITの全体像を分かったうえで覚悟して飛び込んでいる」という説得力が生まれます。さらに、前職で培ったコミュニケーション力や業務改善の経験、ドメイン知識（医療・金融・製造などの業界知識）と組み合わせれば、若手にはない強みとして差別化できます。基本情報単体ではなく、こうした掛け算を強みにするのがミドルの異業種転職の基本です。
+              異業種出身のミドル層が基本情報を活かすポイントは、<strong>資格を「ゴール」ではなく「スタートの証明」として見せる</strong>ことです。採用側が異業種からの転職者に最も懸念するのは、入社後にギャップで離脱しないかという点です。基本情報の学習を通じてアルゴリズムやネットワーク、セキュリティの基礎を一通り理解していれば、「ITの全体像を理解したうえで、覚悟を持って転職を志望している」という説得力が生まれます。さらに、前職で培ったコミュニケーション力や業務改善の経験、ドメイン知識（医療・金融・製造などの業界知識）と組み合わせれば、若手にはない強みとして差別化できます。基本情報単体ではなく、こうした組み合わせを強みにすることが、ミドル層の異業種転職の基本です。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -277,9 +277,9 @@ export default function BasicInfoCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／併取得すべき資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "科目Aの基礎知識を固めます", d: "テクノロジ・マネジメント・ストラテジの基礎を市販テキストで網羅的に学習します。用語の理解を優先します。" },
+              { n: "STEP 1", t: "科目Aの基礎知識を固める", d: "テクノロジ・マネジメント・ストラテジの基礎を市販テキストで網羅的に学習します。用語の理解を優先します。" },
               { n: "STEP 2", t: "科目B（アルゴリズム・情報セキュリティ）対策", d: "擬似言語の読解とトレースを反復します。科目Bが合否を分けやすいため重点的に対策します。" },
-              { n: "STEP 3", t: "CBTで随時受験→次の目標へ", d: "通年受験できるため準備が整い次第予約します。合格後は応用情報や専門資格へ進みます。" },
+              { n: "STEP 3", t: "CBTで随時受験し次の目標へ進む", d: "通年受験できるため準備が整い次第予約します。合格後は応用情報や専門資格へ進みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -291,7 +291,7 @@ export default function BasicInfoCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            年収との関係は<Link href="/cert/salary/" className="text-petrol hover:underline">基本情報技術者の年収・資格手当データ</Link>で詳しく整理しています。併取得・次のステップ：上流・経験者の加点なら<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>、インフラ実務なら<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>、クラウドなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>が定番です。
+            年収との関係は<Link href="/cert/salary/" className="text-petrol hover:underline">基本情報技術者の年収・資格手当データ</Link>で詳しく整理しています。併取得・次のステップとしては、上流・経験者の加点なら<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>、インフラ実務なら<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>、クラウドなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>が定番です。
           </p>
         </section>
 

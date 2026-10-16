@@ -7,32 +7,32 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/management-no/" },
   title: "マネジメントしたくないエンジニアの転職【IC キャリアガイド】",
   description:
-    "マネジメントをせずに技術を強みにしたいエンジニア向けのキャリアパスを解説します。ICトラック、スタッフエンジニア、年収、おすすめ企業を紹介します。",
+    "マネジメントをせずに技術を強みにしたいエンジニア向けに、ICトラック、スタッフエンジニア、年収、おすすめ企業などのキャリアパスを解説します。",
 };
 
 const faqs = [
   {
-    q: "マネジメントしないと年収は上がらない？",
-    a: "いいえ、IC（Individual Contributor）トラックを設けている企業では、スタッフエンジニアやプリンシパルエンジニアとして年収1,000万円以上も可能です。特にメガベンチャーや外資系はICの年収レンジが高いです。",
+    q: "マネジメントしないと年収は上がりませんか？",
+    a: "いいえ、IC（Individual Contributor）トラックを設けている企業では、スタッフエンジニアやプリンシパルエンジニアとして年収1,000万円以上も可能です。特にメガベンチャーや外資系はICの年収レンジが高い傾向があります。",
   },
   {
-    q: "ICトラックがある企業の見分け方は？",
+    q: "ICトラックがある企業の見分け方を教えてください。",
     a: "求人情報で「スタッフエンジニア」「プリンシパルエンジニア」「テクニカルフェロー」のポジションがあるか、エンジニアのキャリアラダー（等級制度）が公開されているかを確認しましょう。",
   },
   {
-    q: "マネジメントを断ると評価が下がる？",
+    q: "マネジメントを断ると評価が下がりますか？",
     a: "ICトラックが整備されていない企業では下がる可能性があります。転職の際は「ICとしてのキャリアパスが明確な企業」を選びましょう。面接でキャリアラダーについて質問するのが有効です。",
   },
   {
-    q: "ICトラックのシニアレベル以上はどんな仕事？",
+    q: "ICトラックのシニアレベル以上はどのような仕事をしますか？",
     a: "技術的な意思決定、アーキテクチャ設計、社内の技術標準化、難易度の高い技術課題の解決、メンタリング（管理ではなく技術指導）が主な役割です。チーム横断で技術的な影響力を発揮します。",
   },
   {
-    q: "35歳以降もICで働ける？",
-    a: "はい、外資系やメガベンチャーでは40代、50代のICが普通にいます。日系でもICトラックを整備する企業が増えています。スキルを磨き続ける限り、年齢制限はありません。",
+    q: "35歳以降もICで働けますか？",
+    a: "はい、外資系やメガベンチャーでは40代、50代のICも珍しくありません。日系でもICトラックを整備する企業が増えています。スキルを磨き続ける限り、年齢制限はありません。",
   },
   {
-    q: "ICとテックリードの違いは？",
+    q: "ICとテックリードの違いは何ですか？",
     a: "テックリードはチームの技術方針を決め、メンバーのコードレビューやメンタリングを行うため、マネジメント的な要素が30〜50%含まれます。純粋なICはマネジメント要素が0〜10%です。",
   },
 ];
@@ -50,22 +50,22 @@ export default function ManagementNoPage() {
 
   return (
     <>
-      <ArticleJsonLd title="マネジメントしたくないエンジニアの転職【ICキャリアガイド】" description="マネジメントをせずに技術を強みにしたいエンジニア向けのキャリアパスを解説します。ICトラック、スタッフエンジニア、年収、おすすめ企業を紹介します。" url="/purpose/management-no/" />
+      <ArticleJsonLd title="マネジメントしたくないエンジニアの転職【ICキャリアガイド】" description="マネジメントをせずに技術を強みにしたいエンジニア向けに、ICトラック、スタッフエンジニア、年収、おすすめ企業などのキャリアパスを解説します。" url="/purpose/management-no/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "目的別ガイド", href: "/purpose/" }, { name: "マネジメントしたくないエンジニアの転職" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">マネジメントしたくないエンジニアの転職</h1>
-        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | ICキャリアで技術を極める方法</p>
+        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | ICキャリアで技術の専門性を高める方法</p>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- コードを書き続けたいです。管理業務は避けたいと考えています</li>
-              <li>- 技術力で年収を上げたいと考えています</li>
-              <li>- 「30代以降はマネジメント」という風潮に疑問があります</li>
-              <li>- スタッフエンジニアやプリンシパルエンジニアを目指したいと考えています</li>
+              <li>- 管理業務は避け、コードを書き続けたい方</li>
+              <li>- 技術力で年収を上げたい方</li>
+              <li>- 「30代以降はマネジメント」という風潮に疑問がある方</li>
+              <li>- スタッフエンジニアやプリンシパルエンジニアを目指したい方</li>
             </ul>
           </div>
         </section>
@@ -127,9 +127,9 @@ export default function ManagementNoPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "Findy", point: "スキル偏差値でマッチングします。IC向けのハイクラス求人が多いです。" },
-              { name: "レバテックキャリア", point: "技術力を正しく評価してくれる企業の紹介に強いです。" },
-              { name: "転職ドラフト", point: "年収付きで指名が届きます。ICとしての市場価値を確認できます。" },
+              { name: "Findy", point: "スキル偏差値によるマッチングが特徴で、IC向けのハイクラス求人が多い傾向にあります。" },
+              { name: "レバテックキャリア", point: "技術力を適切に評価する企業の紹介に強みがあります。" },
+              { name: "転職ドラフト", point: "提示年収が明記された指名が届くため、ICとしての市場価値を確認できます。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -156,7 +156,7 @@ export default function ManagementNoPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ICキャリアの転職を無料で相談</h2>
-          <p className="text-blue-100 text-sm mb-4">マネジメントなしで技術を極められるポジションをプロが提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">マネジメントを担わずに技術の専門性を高められるポジションを、転職エージェントが提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "G検定は転職に効くか｜AIジェネラリストの加点資格と年収【2026年】";
 const PAGE_DESC =
-  "JDLAのG検定（ジェネラリスト検定）を、AI・ディープラーニングのビジネス活用力を示す加点資格という観点から30代・40代向けに解説します。受験料13,200円、合格率（JDLA公表値）、E資格との違い、実務とセットで効く理由を留意点も含めて整理します。";
+  "JDLAのG検定（ジェネラリスト検定）を、AI・ディープラーニングのビジネス活用力を示す加点資格という観点から30代・40代向けに解説します。受験料13,200円、合格率（JDLA公表値）、E資格との違い、実務と組み合わせることで評価される理由を留意点も含めて整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/g-kentei/" },
@@ -15,14 +15,14 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：G検定は誰に効く資格か" },
+  { id: "conclusion", label: "G検定はどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・合格率）" },
   { id: "difference", label: "G検定とE資格の違い（重要）" },
   { id: "salary", label: "保有者の年収相場と注意点" },
   { id: "scenes", label: "転職で評価される具体場面" },
   { id: "jobs", label: "活きるポジション" },
   { id: "position", label: "ジェネラリスト資格としての活用戦略" },
-  { id: "middle", label: "30代・40代の価値＝経験者の加点装置" },
+  { id: "middle", label: "30代・40代にとっての価値" },
   { id: "steps", label: "取得3ステップ／次に狙う資格" },
   { id: "faq", label: "よくある質問" },
 ];
@@ -30,7 +30,7 @@ const toc = [
 const faqs = [
   {
     q: "G検定は40代の転職で意味がありますか？",
-    a: "意味があります。G検定はAI開発者ではなく『AIを事業に活かす立場（ジェネラリスト）』向けの資格で、AIの能力と限界を理解し、ビジネスに適用する基礎知識を証明します。すでにIT・企画・マネジメント経験のある30〜40代が、AI活用プロジェクトの旗振り役や橋渡し役としての素養を示す加点材料になります。ただしエンジニアとしてAIモデルを実装する力を直接保証する資格ではない点に注意が必要です。",
+    a: "意味があります。G検定はAI開発者ではなく『AIを事業に活かす立場（ジェネラリスト）』向けの資格で、AIの能力と限界を理解し、ビジネスに適用する基礎知識を証明します。すでにIT・企画・マネジメント経験のある30〜40代が、AI活用プロジェクトの推進役や橋渡し役としての素養を示す加点材料になります。ただしエンジニアとしてAIモデルを実装する力を直接保証する資格ではない点に注意が必要です。",
   },
   {
     q: "G検定の受験料はいくらですか？",
@@ -127,15 +127,15 @@ export default function GKenteiCertPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：G検定は誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">G検定はどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              G検定は<strong>「AIビジネス活用の加点資格」</strong>です。AIを実装するエンジニア向けのE資格とは性格が異なり、すでにIT・企画・マネジメント経験のあるミドルが<strong>AI活用の旗振り役・橋渡し役の素養</strong>を示すのに最も効きます。
+              G検定は<strong>「AIビジネス活用の加点資格」</strong>です。AIを実装するエンジニア向けのE資格とは性格が異なり、すでにIT・企画・マネジメント経験のあるミドルが<strong>AI活用の推進役・橋渡し役の素養</strong>を示すうえで最も効果を発揮します。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>IT・企画・マネジメント経験のある30〜40代</strong>：AI活用プロジェクトの推進素養として加点されます</li>
-              <li>② <strong>AIを実装したいエンジニア</strong>：G検定ではなくE資格が適切（別物）</li>
-              <li>③ <strong>AIの全体像を体系的に押さえたい人</strong>：能力と限界を理解する基礎づくりに最適</li>
+              <li>② <strong>AIを実装したいエンジニア</strong>：対象が異なるため、G検定ではなくE資格が適しています</li>
+              <li>③ <strong>AIの全体像を体系的に押さえたい人</strong>：AIの能力と限界を理解する基礎づくりに適しています</li>
             </ul>
           </div>
         </section>
@@ -180,7 +180,7 @@ export default function GKenteiCertPage() {
                   ["対象者", "AIを事業に活かす企画・マネジメント層", "ディープラーニングを実装する開発者"],
                   ["証明する力", "AIの能力と限界の理解・活用判断", "モデルの実装・開発の技術力"],
                   ["受験要件", "制限なし（誰でも受験可）", "JDLA認定プログラムの修了が前提"],
-                  ["立ち位置", "AI活用の旗振り・橋渡し役", "AIエンジニアとしての専門実装"],
+                  ["立ち位置", "AI活用の推進役・橋渡し役", "AIエンジニアとしての専門実装"],
                 ].map(([k, a, b], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <td className="px-4 py-3 text-slate-600 border-b border-slate-200 font-medium">{k}</td>
@@ -204,13 +204,13 @@ export default function GKenteiCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・G検定保有者限定の国内公的年収統計は<strong>存在しません（当サイトでは推計値を作成していません）</strong></li>
+              <li>・G検定保有者限定の国内公的年収統計は<strong>存在しない（当サイトでは推計値も未作成）</strong></li>
               <li>・評価される領域：<strong>AI活用企画・DX推進・データ関連の橋渡し役</strong></li>
               <li>・実態：<strong>年収は実務経験・役割で決まり、G検定はAI理解の補強材</strong></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: 公的な水準感は国税庁「民間給与実態統計調査」の給与所得者平均461万円（令和6年分）を参考にしてください。G検定はAI活用領域で評価される検定ですが、保有者平均年収の公開データは乏しいため、当サイトでは断定を避け、実務経験との掛け算で評価することを推奨します。
+            出典: 公的な水準感は国税庁「民間給与実態統計調査」の給与所得者平均461万円（令和6年分）を参考にしてください。G検定はAI活用領域で評価される検定ですが、保有者平均年収の公開データは乏しいため、当サイトでは断定を避け、実務経験とあわせて評価することを推奨します。
           </p>
         </section>
 
@@ -219,10 +219,10 @@ export default function GKenteiCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "AI活用・DX推進プロジェクトへの参画", d: "AIの能力と限界を理解している証明として、活用企画やPoCの旗振り役に向く素養を示せます。" },
-              { t: "技術者とビジネス側の橋渡し", d: "データサイエンティストや開発者と事業部門をつなぐ翻訳役として、共通言語の理解が評価されます。" },
+              { t: "AI活用・DX推進プロジェクトへの参画", d: "AIの能力と限界を理解している証明として、活用企画やPoCの推進役に適した素養を示せます。" },
+              { t: "技術者とビジネス側の橋渡し", d: "データサイエンティストや開発者と事業部門をつなぐ役割として、共通言語の理解が評価されます。" },
               { t: "AIリテラシーの客観証明", d: "用語や手法の基礎を体系的に押さえている事実が、AI関連の議論への参加力を裏付けます。" },
-              { t: "学習意欲・最新技術への対応力", d: "AI分野の検定を取得した事実が、変化の速い領域へのキャッチアップ姿勢を示します。" },
+              { t: "学習意欲・最新技術への対応力", d: "AI分野の検定を取得した事実が、変化の速い領域で学び続ける姿勢を示します。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -275,7 +275,7 @@ export default function GKenteiCertPage() {
                   ["主な対象", "AIモデルを実装する開発者", "AIを事業に活かす企画・マネジメント層"],
                   ["狙い", "実装技術力の証明", "AI活用の判断力・橋渡し力の証明"],
                   ["受験のしやすさ", "認定プログラム修了が前提", "受験資格に制限なし・手頃な受験料"],
-                  ["効き方", "AIエンジニア職での専門性", "DX推進・企画・PMでの加点"],
+                  ["期待できる効果", "AIエンジニア職での専門性", "DX推進・企画・PMでの加点"],
                 ].map(([k, a, b], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <td className="px-4 py-3 text-slate-600 border-b border-slate-200 font-medium">{k}</td>
@@ -287,22 +287,22 @@ export default function GKenteiCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>AI活用の旗振り役としての素養証明です</strong>。AIの能力と限界を理解していることを示し、DX推進やPoCの企画ポジションで評価されます。第二に<strong>技術者と事業の橋渡し</strong>です。データサイエンティストや開発者と事業部門をつなぐ翻訳役として、共通言語の理解が役立ちます。第三に<strong>手頃な受験料での第一歩です</strong>。受験資格に制限がなく費用も抑えめで、AIリテラシーを客観的に示す入口として取り組みやすい点が利点です。
+            活用戦略は3つに整理できます。第一に<strong>AI活用の推進役としての素養証明</strong>です。AIの能力と限界を理解していることを示し、DX推進やPoCの企画ポジションで評価されます。第二に<strong>技術者と事業の橋渡し</strong>です。データサイエンティストや開発者と事業部門をつなぐ役割として、共通言語の理解が役立ちます。第三に<strong>手頃な受験料で始められる第一歩</strong>です。受験資格に制限がなく費用も抑えめで、AIリテラシーを客観的に示す入口として取り組みやすい点が利点です。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            注意すべきデメリットも押さえておきましょう。G検定は<strong>AIモデルを実装する技術力を直接保証する資格ではありません</strong>。あくまでAI活用の素養を補強する位置づけで、効果が出るのは「IT・企画・マネジメント実務 × 資格」の掛け算が成立したときです。AIエンジニアとして手を動かす職を目指すなら、G検定ではなくE資格や実装経験が必要です。逆に言えば、すでに実務経験があり、AI活用の推進役へ役割を広げたい30〜40代にとっては、低コストで取り組める実利的な検定です。生成AIの実務的な活用は<Link href="/skill/generative-ai/" className="text-petrol hover:underline">生成AI関連の転職ガイド</Link>も参考になります。
+            注意すべきデメリットも押さえておきましょう。G検定は<strong>AIモデルを実装する技術力を直接保証する資格ではありません</strong>。あくまでAI活用の素養を補強する位置づけであり、効果が出るのはIT・企画・マネジメント実務と資格が組み合わさったときです。AIエンジニアとして手を動かす職を目指すなら、G検定ではなくE資格や実装経験が必要です。逆に言えば、すでに実務経験があり、AI活用の推進役へ役割を広げたい30〜40代にとっては、低コストで取り組める実利的な検定です。生成AIの実務的な活用は<Link href="/skill/generative-ai/" className="text-petrol hover:underline">生成AI関連の転職ガイド</Link>も参考になります。
           </p>
         </section>
 
         {/* 30-40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝経験者の加点装置</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代にとっての価値</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              G検定は、AIエンジニアになるための実装資格とは<strong>立ち位置が異なります</strong>。G検定は<strong>「すでにIT・企画・マネジメントの実務がある経験者が、AI活用の推進役へ役割を広げるための加点装置」</strong>として最も効きます。AIの能力と限界を理解していることを示せるため、DX推進や企画の旗振り役を目指す30〜40代にとって価値があります。
+              G検定は、AIエンジニアになるための実装資格とは<strong>立ち位置が異なります</strong>。G検定は<strong>すでにIT・企画・マネジメントの実務がある経験者がAI活用の推進役へ役割を広げるための加点資格</strong>として最も効果を発揮します。AIの能力と限界を理解していることを示せるため、DX推進や企画の推進役を目指す30〜40代にとって価値があります。
             </p>
             <p>
-              一方で過度な期待は禁物です。G検定を取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。事業理解やマネジメント経験と組み合わせて初めて、AI活用企画・PMという形で結実します。また、AIエンジニアとして実装する力を保証する資格ではない点も理解しておく必要があります。
+              一方で過度な期待は禁物です。G検定を取っても、それ単体で年収が大きく上がるわけではありません。価値が生まれるのは<strong>実務経験と資格を組み合わせたとき</strong>です。事業理解やマネジメント経験と組み合わせて初めて、AI活用企画・PMという形で評価につながります。また、AIエンジニアとして実装する力を保証する資格ではない点も理解しておく必要があります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -315,9 +315,9 @@ export default function GKenteiCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "AI・ディープラーニングの全体像を学びます", d: "機械学習の基礎・代表的な手法・AIの歴史と動向を、公式シラバスに沿って体系的に押さえます。" },
-              { n: "STEP 2", t: "法規・倫理・社会実装も網羅", d: "G検定は技術だけでなくAIの社会実装・法規・倫理も出題範囲です。約145問の選択式に向け過去問演習を反復します。" },
-              { n: "STEP 3", t: "合格→実務やE資格で専門化", d: "合格後はAI活用企画の実務で活かすか、実装を目指すならE資格・実装学習へ進みます。" },
+              { n: "STEP 1", t: "AI・ディープラーニングの全体像を学ぶ", d: "機械学習の基礎・代表的な手法・AIの歴史と動向を、公式シラバスに沿って体系的に押さえます。" },
+              { n: "STEP 2", t: "法規・倫理・社会実装も対策", d: "G検定は技術だけでなくAIの社会実装・法規・倫理も出題範囲です。約145問の選択式に向け過去問演習を反復します。" },
+              { n: "STEP 3", t: "合格後は実務やE資格で専門化", d: "合格後はAI活用企画の実務で活かすか、実装を目指すならE資格・実装学習へ進みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

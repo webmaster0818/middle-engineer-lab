@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：英語面接の準備方針" },
+  { id: "conclusion", label: "英語面接の準備方針" },
   { id: "steps", label: "英語面接の準備ステップ" },
   { id: "intro", label: "自己紹介（Tell me about yourself）の型" },
   { id: "phrases", label: "頻出質問の回答フレーズ" },
@@ -29,7 +29,7 @@ const steps = [
   { num: "1", title: "面接の言語と形式を確認する", desc: "すべて英語か、一部だけ英語か、技術面接も英語かを事前に確認します。リクルーターやエージェントに聞けば教えてもらえます。" },
   { num: "2", title: "自己紹介と頻出質問を英語で用意する", desc: "丸暗記ではなく、要点をキーフレーズで覚えます。日本語で内容を固めてから英語化すると詰まりにくくなります。" },
   { num: "3", title: "声に出して反復練習する", desc: "黙読では本番で言葉が出ません。録音して聞き返す、模擬面接を受けるなど、実際に話す練習を重ねます。" },
-  { num: "4", title: "技術用語の英語読みを慣らす", desc: "普段カタカナで使う技術用語（database, deploy, latency など）の発音と言い回しに慣れておくと、技術面接で詰まりません。" },
+  { num: "4", title: "技術用語の英語読みを慣らす", desc: "普段カタカナで使う技術用語（database, deploy, latency など）の発音と言い回しに慣れておくと、技術面接で詰まりにくくなります。" },
 ];
 
 const phrases = [
@@ -99,7 +99,7 @@ const faqs = [
   },
   {
     q: "30代・40代で英語面接に臨むときの注意点は？",
-    a: "ミドル層は技術力・経験で勝負できるため、英語は『伝われば十分』と割り切って準備するのが現実的です。完璧を目指して萎縮するより、自分の実績を具体的に語ることに集中しましょう。設計判断やリーダーシップの経験は、多少シンプルな英語でも十分に評価されます。想定問答を声に出して練習し、本番で落ち着いて話せる状態を作ることが鍵です。",
+    a: "ミドル層は技術力・経験で評価されるため、英語は『伝われば十分』と割り切って準備するのが現実的です。完璧を目指して萎縮するより、自分の実績を具体的に語ることに集中しましょう。設計判断やリーダーシップの経験は、多少シンプルな英語でも十分に評価されます。想定問答を声に出して練習し、本番で落ち着いて話せる状態を作ることが重要です。",
   },
 ];
 
@@ -141,7 +141,7 @@ export default function EnglishInterviewPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】英語に自信がなくても英語面接は乗り切れる？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 評価されるのは完璧な英語ではなく「技術と経験が論理的に伝わるか」。頻出質問をキーフレーズで準備し、声に出して反復練習するのが最も効果的です。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>評価されるのは完璧な英語ではなく「技術と経験が論理的に伝わるか」です。頻出質問をキーフレーズで準備し、声に出して反復練習するのが最も効果的です。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・丸暗記より要点を自分の言葉で話せる状態を目指し、聞き返し・言い直しの表現も用意します</li><li>・技術面接では考える過程を英語で実況（think aloud）できると評価されます</li><li>・ミドル層は技術力と実績が土台です。英語は「伝われば十分」と割り切って臨みます</li></ul>
           </div>
         </section>
@@ -168,7 +168,7 @@ export default function EnglishInterviewPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：英語面接の準備方針</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">英語面接の準備方針</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               英語面接で評価されるのは、<strong>完璧な英語ではなく「技術と経験が論理的に伝わるか」</strong>です。頻出質問の回答をキーフレーズで準備し、声に出して反復練習することが、最も効果の高い対策です。
@@ -326,7 +326,7 @@ export default function EnglishInterviewPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">グローバル求人はエージェントと進めよう</h2>
+          <h2 className="text-xl font-bold mb-3">グローバル求人はエージェントと進めましょう</h2>
           <p className="text-blue-100 text-sm mb-4">
             外資・グローバルに強いエージェントなら、英語面接の傾向や準備のアドバイスも受けられます。
           </p>

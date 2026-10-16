@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "エンジニアの資格は転職に有利？30・40代におすすめ8資格を比較【2026年】";
 const PAGE_DESC =
-  "30代・40代エンジニアの転職で資格は本当に有利か。PMP・情報処理安全確保支援士・AWS認定など主要8資格を合格率・年収・有効期限で比較し、目的別マトリクスと『実務×資格』の活かし方を公的データで解説します。";
+  "30代・40代エンジニアの転職で資格は本当に有利か。PMP・情報処理安全確保支援士・AWS認定など主要8資格を合格率・年収・有効期限で比較し、目的別マトリクスと、実務と資格を組み合わせた活かし方を公的データで解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/" },
@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：30-40代は資格より実務、資格は補強材" },
+  { id: "conclusion", label: "30-40代は資格より実務、資格は補強材" },
   { id: "kokka-vendor", label: "国家資格とベンダー資格の違い" },
   { id: "compare", label: "主要8資格 一覧比較表" },
   { id: "matrix", label: "目的別おすすめマトリクス" },
-  { id: "kakezan", label: "30-40代の価値＝実務×資格の掛け算" },
+  { id: "kakezan", label: "30-40代にとっての価値：実務と資格の組み合わせ" },
   { id: "demerit", label: "資格取得のデメリット・留意点" },
   { id: "middle", label: "30代・40代の視点" },
   { id: "faq", label: "よくある質問" },
@@ -28,7 +28,7 @@ const toc = [
 const faqs = [
   {
     q: "40代から資格を取る意味はありますか？",
-    a: "あります。ただし「資格単体で評価が上がる」発想ではなく、これまでの実務経験を客観的に裏づける目的で取るのが40代の正解です。たとえばPM経験があるならPMP、運用・監査の経験があるなら情報処理安全確保支援士、オンプレ実務があるならAWS認定というように、既にある経験と掛け算できる資格を選ぶと費用対効果が高くなります。逆に未経験入口資格（基本情報・CCNA・LPIC）を40代で単体取得しても、年齢に見合う実務がなければ評価は限定的です。",
+    a: "あります。ただし「資格単体で評価が上がる」発想ではなく、これまでの実務経験を客観的に裏づける目的で取るのが、40代に適した考え方です。たとえばPM経験があるならPMP、運用・監査の経験があるなら情報処理安全確保支援士、オンプレ実務があるならAWS認定というように、既にある経験と組み合わせられる資格を選ぶと費用対効果が高くなります。逆に未経験入口資格（基本情報・CCNA・LPIC）を40代で単体取得しても、年齢に見合う実務がなければ評価は限定的です。",
   },
   {
     q: "無資格でもエンジニア転職はできますか？",
@@ -36,15 +36,15 @@ const faqs = [
   },
   {
     q: "資格は複数取るべきですか？",
-    a: "数を競う必要はありません。むしろ「自分のキャリアの方向性に沿って1〜2個を深く」が原則です。たとえばマネジメント志向ならPMP＋応用情報、クラウド志向ならAWS認定（SAA→上位）＋LPIC/LinuC、セキュリティ志向なら応用情報→情報処理安全確保支援士といった『関連する組み合わせ』が評価されます。バラバラな資格を並べても一貫したキャリアストーリーにならず、面接で深掘りされたときに弱くなります。",
+    a: "数を競う必要はありません。むしろ「自分のキャリアの方向性に沿って1〜2個を深く」が原則です。たとえばマネジメント志向ならPMP＋応用情報、クラウド志向ならAWS認定（SAA→上位）＋LPIC/LinuC、セキュリティ志向なら応用情報から情報処理安全確保支援士へといった『関連する組み合わせ』が評価されます。バラバラな資格を並べても一貫したキャリアストーリーにならず、面接で詳しく質問されたときに説得力に欠けます。",
   },
   {
     q: "国家資格とベンダー資格はどちらが有利ですか？",
-    a: "目的が違うため一概には比べられません。国家資格（IPA系の応用情報・支援士など）は普遍的で基本的に有効期限がなく（支援士は維持要件あり）、上流・公共系で評価されやすい一方、ベンダー資格（AWS・Cisco・LPI）は実務に直結し技術力の証明になりますが有効期限があります（AWS・CCNAは3年、LPIC/LinuCは5年）。クラウド・インフラの現場ではベンダー資格、設計・PM・公共系では国家資格が効きやすい傾向です。",
+    a: "目的が違うため一概には比べられません。国家資格（IPA系の応用情報・支援士など）は普遍的で基本的に有効期限がなく（支援士は維持要件あり）、上流・公共系で評価されやすい一方、ベンダー資格（AWS・Cisco・LPI）は実務に直結し技術力の証明になりますが有効期限があります（AWS・CCNAは3年、LPIC/LinuCは5年）。クラウド・インフラの現場ではベンダー資格、設計・PM・公共系では国家資格が評価されやすい傾向があります。",
   },
   {
     q: "資格手当はどのくらい付きますか？",
-    a: "企業によって大きく異なり、当サイトでは具体的な金額を保証できません。一般に資格手当や報奨金（合格時の一時金）を設ける企業は存在しますが、金額・対象資格は各社の制度次第です。求人票や面接で「資格手当の有無・対象資格・金額」を確認するのが確実です。手当目当てよりも、資格で得た知識を実務で使えることのほうが長期の年収には効きます。",
+    a: "企業によって大きく異なり、当サイトでは具体的な金額を保証できません。一般に資格手当や報奨金（合格時の一時金）を設ける企業は存在しますが、金額・対象資格は各社の制度次第です。求人票や面接で「資格手当の有無・対象資格・金額」を確認するのが確実です。手当目当てよりも、資格で得た知識を実務で使えることのほうが、長期的な年収の向上につながります。",
   },
 ];
 
@@ -93,7 +93,7 @@ export default function CertTopPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          「エンジニアの転職で資格は有利か」という問いに対し、本記事は<strong>30代・40代のミドル層という前提で結論を言い切ります</strong>。資格の有無だけを並べる比較ではなく、年代・経験の有無で資格の価値がどう変わるかを、PMI公式や経済産業省・IPAなどの一次データをもとに整理しました。各資格の詳細ページへのハブとしてもご利用ください。
+          「エンジニアの転職で資格は有利か」という問いに対し、本記事は<strong>30代・40代のミドル層という前提で明確な見解をお示しします</strong>。資格の有無だけを並べる比較ではなく、年代・経験の有無で資格の価値がどう変わるかを、PMI公式や経済産業省・IPAなどの一次データをもとに整理しました。各資格の詳細ページへのハブとしてもご利用ください。
         </p>
 
         <DataNote
@@ -123,22 +123,22 @@ export default function CertTopPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：30-40代は資格より実務、資格は補強材</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30-40代は資格より実務、資格は補強材</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>30代・40代の転職では、評価の中心はあくまで実務経験であり、資格はそれを客観的に裏づける「補強材」です。</strong>資格単体で年収が跳ね上がることは稀で、最も効くのは「実務×資格の掛け算」です。
+              <strong>30代・40代の転職では、評価の中心はあくまで実務経験であり、資格はそれを客観的に裏づける「補強材」です。</strong>資格単体で年収が大きく上がることは稀で、最も効果があるのは実務と資格の組み合わせです。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 既にある実務に<strong>掛け算できる資格</strong>を選びます（PM経験→PMP、運用・監査→支援士、オンプレ→AWS）</li>
+              <li>① 既にある実務と<strong>組み合わせられる資格</strong>を選びます（PM経験→PMP、運用・監査→支援士、オンプレ→AWS）</li>
               <li>② <strong>経験者加点資格</strong>（PMP・支援士・応用情報・AWS）と<strong>未経験入口資格</strong>（基本情報・CCNA・LPIC）を分けて考えます</li>
               <li>③ 数を集めるより、<strong>キャリアの方向に沿って1〜2個を深く</strong>取り、面接で語れる状態にします</li>
             </ul>
             <p className="text-slate-700 leading-relaxed mt-3 text-sm">
-              この「実務×資格・経験者加点」という軸を、以降の各資格ページでも一貫して使います。
+              この「実務と資格の組み合わせ」「経験者加点」という軸を、以降の各資格ページでも一貫して使います。
             </p>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            背景として、IT人材の需給は逼迫が続いています。経済産業省「IT人材需給に関する調査」（2019年3月公表）は、2030年に最大約79万人のIT人材が不足すると試算しました。これは実務経験を持つエンジニアにとって追い風で、<strong>資格がなくても経験があれば転職市場で評価される土壌がある</strong>ことを意味します。だからこそ「資格を取ること」自体を目的化せず、「実務をどう見せるか」を主軸に据えるべきなのです。本記事では、その主軸を補強する手段として各資格を位置づけて解説します。
+            背景として、IT人材の需給は逼迫が続いています。経済産業省「IT人材需給に関する調査」（2019年3月公表）は、2030年に最大約79万人のIT人材が不足すると試算しました。これは実務経験を持つエンジニアにとって有利な状況であり、<strong>資格がなくても経験があれば転職市場で評価される土壌がある</strong>ことを意味します。だからこそ「資格を取ること」自体を目的化せず、「実務をどう見せるか」を主軸に据えるべきです。本記事では、その主軸を補強する手段として各資格を位置づけて解説します。
           </p>
         </section>
 
@@ -146,25 +146,25 @@ export default function CertTopPage() {
         <section id="kokka-vendor" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">国家資格とベンダー資格の違い</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            資格は大きく「国家資格（IPA系）」と「ベンダー資格」に分かれ、性質がまったく違います。どちらが上ということではなく、<strong>狙う領域で使い分ける</strong>のが正解です。
+            資格は大きく「国家資格（IPA系）」と「ベンダー資格」に分かれ、性質がまったく違います。どちらが上ということではなく、<strong>狙う領域で使い分ける</strong>ことが重要です。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">国家資格（IPA系）</h3>
               <ul className="text-sm text-slate-600 space-y-1.5 list-disc pl-4">
                 <li>基本情報・応用情報・情報処理安全確保支援士などです</li>
-                <li>知識が普遍的で<strong>基本的に有効期限なし</strong>（支援士のみ登録更新・維持要件あり）</li>
-                <li>上流・設計・公共系で評価されやすいです</li>
+                <li>知識が普遍的で<strong>基本的に有効期限はありません</strong>（支援士のみ登録更新・維持要件あり）</li>
+                <li>上流・設計・公共系で評価されやすい傾向があります</li>
                 <li>体系的な基礎知識の証明になります</li>
               </ul>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">ベンダー資格</h3>
               <ul className="text-sm text-slate-600 space-y-1.5 list-disc pl-4">
-                <li>AWS認定・CCNA（Cisco）・LPIC/LinuC（LPI）など</li>
-                <li>実務に直結し技術力を示せるが<strong>有効期限あり</strong>（AWS・CCNAは3年、LPIC/LinuCは5年）</li>
-                <li>クラウド・インフラの現場で評価されやすいです</li>
-                <li>製品・技術のバージョン更新に追従が必要</li>
+                <li>AWS認定・CCNA（Cisco）・LPIC/LinuC（LPI）などです</li>
+                <li>実務に直結し技術力を示せますが、<strong>有効期限があります</strong>（AWS・CCNAは3年、LPIC/LinuCは5年）</li>
+                <li>クラウド・インフラの現場で評価されやすい傾向があります</li>
+                <li>製品・技術のバージョン更新に追従する必要があります</li>
               </ul>
             </div>
           </div>
@@ -177,7 +177,7 @@ export default function CertTopPage() {
         <section id="compare" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">主要8資格 一覧比較表</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            30-40代の転職でよく検討される8資格を、性質・難易度・有効期限・向いている人で整理しました。詳細ページがある資格はリンクから深掘りできます。
+            30-40代の転職でよく検討される8資格を、性質・難易度・有効期限・向いている人で整理しました。詳細ページがある資格はリンクから詳しく確認できます。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-x-auto mb-3">
             <table className="w-full text-xs md:text-sm min-w-[760px]">
@@ -216,13 +216,13 @@ export default function CertTopPage() {
           </p>
           <div className="mt-5 space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              比較表だけでは伝わりにくい「各資格の立ち位置」を、30-40代の転職という前提で補足します。<strong>PMP</strong>は受験資格にPM実務36ヶ月以上（大卒）を求めるため、そもそもミドル以上を想定した資格です。実務の裏づけがある人ほど真価が出ます。<strong>情報処理安全確保支援士</strong>はセキュリティ分野で唯一の国家資格で、サイバー攻撃の増加を背景に需要が伸びている一方、登録には継続的な維持費がかかる点に注意が必要です。
+              比較表だけでは伝わりにくい「各資格の立ち位置」を、30-40代の転職という前提で補足します。<strong>PMP</strong>は受験資格にPM実務36ヶ月以上（大卒）を求めるため、そもそもミドル以上を想定した資格です。実務の裏づけがある人ほど評価されやすい資格です。<strong>情報処理安全確保支援士</strong>はセキュリティ分野で唯一の国家資格で、サイバー攻撃の増加を背景に需要が伸びている一方、登録には継続的な維持費がかかる点に注意が必要です。
             </p>
             <p>
-              <strong>AWS認定（SAA）</strong>と<strong>応用情報技術者</strong>は、いずれも「経験者が一段上へ行くための上積み」として機能します。AWSはクラウド・インフラの実務に、応用情報は上流・設計の土台にそれぞれ効きます。これに対し<strong>基本情報技術者・CCNA・LPIC/LinuC</strong>は、主に未経験〜若手の入口資格です。30-40代がこれらを単体で取得しても、年齢に見合う実務がなければ強みになりにくく、「異業種からのIT転向で最低限の知識を示す」用途に向きます。
+              <strong>AWS認定（SAA）</strong>と<strong>応用情報技術者</strong>は、いずれも「経験者が一段上へ行くための上積み」として機能します。AWSはクラウド・インフラの実務に、応用情報は上流・設計の土台としてそれぞれ役立ちます。これに対し<strong>基本情報技術者・CCNA・LPIC/LinuC</strong>は、主に未経験〜若手の入口資格です。30-40代がこれらを単体で取得しても、年齢に見合う実務がなければ強みになりにくく、「異業種からのIT転向で最低限の知識を示す」用途に向きます。
             </p>
             <p>
-              つまり同じ「資格」でも、<strong>経験者の信頼性を底上げするもの</strong>と<strong>未経験者が土俵に上がるためのもの</strong>とで役割がはっきり分かれます。自分がどちらの立場かを先に決めることが、資格選びの出発点になります。
+              つまり同じ「資格」でも、<strong>経験者の信頼性を高めるもの</strong>と<strong>未経験者が選考の対象となるためのもの</strong>とで役割がはっきり分かれます。自分がどちらの立場かを先に決めることが、資格選びの出発点になります。
             </p>
           </div>
         </section>
@@ -231,27 +231,27 @@ export default function CertTopPage() {
         <section id="matrix" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">目的別おすすめマトリクス</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            「どの資格を取るか」は、目指す方向で決めます。代表的な4方向の対応表です。資格は「とりあえず人気だから」ではなく、<strong>5年後にどんな仕事をしていたいか</strong>から逆算して選ぶと失敗しません。
+            「どの資格を取るか」は、目指す方向で決めます。代表的な4方向の対応表です。資格は「とりあえず人気だから」ではなく、<strong>5年後にどんな仕事をしていたいか</strong>から逆算して選ぶと、方向性のずれを防げます。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2 text-sm">マネジメントに進みたい</h3>
-              <p className="text-sm text-petrol-deep mb-2">PM・PdM・上流志向なら<strong>PMPです</strong>。受験資格自体がPM実務を求めるため、構造的にミドル向けです。</p>
+              <p className="text-sm text-petrol-deep mb-2">PM・PdM・上流志向なら<strong>PMP</strong>が適しています。受験資格自体がPM実務を求めるため、構造的にミドル向けです。</p>
               <Link href="/cert/pmp/" className="text-sm text-petrol-deep underline">PMPの詳細を見る →</Link>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2 text-sm">セキュリティで信頼性を示したい</h3>
-              <p className="text-sm text-petrol-deep mb-2">運用・監査の実務がある経験者なら国家資格の<strong>情報処理安全確保支援士です</strong>。</p>
+              <p className="text-sm text-petrol-deep mb-2">運用・監査の実務がある経験者なら国家資格の<strong>情報処理安全確保支援士</strong>が適しています。</p>
               <Link href="/cert/security-specialist/" className="text-sm text-petrol-deep underline">支援士の詳細を見る →</Link>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2 text-sm">クラウドへ寄せたい</h3>
-              <p className="text-sm text-petrol-deep mb-2">オンプレ・インフラ実務がある人は<strong>AWS認定（SAA→上位）</strong>で掛け算です。</p>
+              <h3 className="font-bold text-blue-800 mb-2 text-sm">クラウドへ軸足を移したい</h3>
+              <p className="text-sm text-petrol-deep mb-2">オンプレ・インフラ実務がある人は<strong>AWS認定（SAA→上位）</strong>を組み合わせるのが有効です。</p>
               <Link href="/cert/aws/" className="text-sm text-petrol-deep underline">AWS認定の詳細を見る →</Link>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2 text-sm">インフラ未経験から入口を作りたい</h3>
-              <p className="text-sm text-petrol-deep mb-2"><strong>CCNA・LPIC/LinuC</strong>が入口です。ただし30-40代未経験は「なぜこの年齢でIT転職か」の納得感が要ります。</p>
+              <p className="text-sm text-petrol-deep mb-2"><strong>CCNA・LPIC/LinuC</strong>が入口です。ただし30-40代未経験は「なぜこの年齢でIT転職か」について納得感のある説明が必要です。</p>
               <Link href="/skill/infrastructure/" className="text-sm text-petrol-deep underline">インフラ転職ガイド →</Link>
             </div>
           </div>
@@ -261,7 +261,7 @@ export default function CertTopPage() {
         <section id="all-guides" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">資格別 詳細ガイド一覧</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            当サイトで個別に解説している資格ガイドの一覧です。受験料・試験形式・合格率（公表値）・30-40代の転職での活かし方を、各ページで公式情報の出典付きで整理しています。
+            当サイトで個別に解説している資格ガイドの一覧です。受験料・試験形式・合格率（公表値）・30-40代の転職での活かし方を、各ページで公式情報の出典を明記して整理しています。
           </p>
           <p className="text-sm mb-4"><Link href="/cert/compare/" className="text-petrol-deep font-medium hover:underline">▶ 32資格の受験料・合格率を一覧で横断比較する（IT資格 比較データ）</Link></p>
           <p className="text-sm mb-4"><Link href="/cert/salary/" className="text-petrol-deep font-medium hover:underline">▶ 資格別の想定年収・資格手当データを見る（基本情報・支援士・AWS等）</Link></p>
@@ -341,18 +341,18 @@ export default function CertTopPage() {
 
         {/* 掛け算 */}
         <section id="kakezan" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30-40代の価値＝実務×資格の掛け算</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30-40代にとっての価値：実務と資格の組み合わせ</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            ミドル層の市場価値は「資格を持っているか」より「<strong>その資格の知識を、過去の実務でどう使ってきたか／これから使えるか</strong>」で決まります。当サイトはこれを「実務×資格の掛け算」と呼んでいます。20代であれば資格はポテンシャルや学習意欲の証明として単体でも一定の意味を持ちますが、30-40代は「即戦力かどうか」が問われるため、資格を実務と結びつけて語れない限り評価につながりにくいのが現実です。
+            ミドル層の市場価値は「資格を持っているか」より「<strong>その資格の知識を、過去の実務でどう使ってきたか／これから使えるか</strong>」で決まります。当サイトではこれを「実務と資格の組み合わせ」と位置づけています。20代であれば資格はポテンシャルや学習意欲の証明として単体でも一定の意味を持ちますが、30-40代は「即戦力かどうか」が問われるため、資格を実務と結びつけて語れない限り評価につながりにくいのが現実です。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            採用側の視点に立つと分かりやすくなります。ミドルの中途採用で見ているのは「入社後すぐに、どの領域で、どの程度のアウトプットを出せるか」です。資格はその予測の精度を上げる材料の一つにすぎません。逆に言えば、<strong>実務という土台があるところに資格が加わると、採用側の不安を減らし、提示年収のレンジを引き上げる効果が期待できます</strong>。資格はゼロから価値を生むのではなく、既にある価値を「見えやすくする」道具だと捉えるのが正確です。
+            採用側の視点に立つと分かりやすくなります。ミドルの中途採用で見ているのは「入社後すぐに、どの領域で、どの程度のアウトプットを出せるか」です。資格はその予測の精度を上げる材料の一つにすぎません。逆に言えば、<strong>実務という土台があるところに資格が加わると、採用側の不安を減らし、提示年収のレンジを引き上げる効果が期待できます</strong>。資格はゼロから価値を生むのではなく、既にある価値を「見えやすくする」手段だと捉えるのが正確です。
           </p>
           <div className="space-y-3">
             {[
-              { t: "経験者加点資格（30-40代に効く）", d: "PMP・情報処理安全確保支援士・応用情報・AWS認定です。これらは実務経験とセットで初めて真価を発揮し、面接で『この場面で使った』と語れると強いです。" },
-              { t: "未経験入口資格（主に若手・異業種向け）", d: "基本情報・CCNA・LPIC/LinuCです。基礎知識の証明としては有効ですが、30-40代が単体で取得しても、年齢に見合う実務がなければ評価は限定的になりやすいです。" },
-              { t: "掛け算の例", d: "オンプレ運用5年×AWS SAA→クラウド移行案件です。PM実務3年×PMP→高単価PM案件のフィルタ通過です。インフラ運用×支援士→セキュリティ運用の信頼性です。" },
+              { t: "経験者加点資格（30-40代で評価されやすい）", d: "PMP・情報処理安全確保支援士・応用情報・AWS認定です。これらは実務経験と組み合わせて初めて評価され、面接で『この場面で使った』と語れると有利です。" },
+              { t: "未経験入口資格（主に若手・異業種向け）", d: "基本情報・CCNA・LPIC/LinuCです。基礎知識の証明としては有効ですが、30-40代が単体で取得しても、年齢に見合う実務がなければ評価は限定的になりやすい傾向があります。" },
+              { t: "組み合わせの例", d: "オンプレ運用5年とAWS SAAの組み合わせはクラウド移行案件、PM実務3年とPMPの組み合わせは高単価PM案件の書類選考通過、インフラ運用と支援士の組み合わせはセキュリティ運用での信頼性につながります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -369,10 +369,10 @@ export default function CertTopPage() {
         <section id="demerit" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">資格取得のデメリット・留意点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
-            <p>① <strong>資格単体では年収は上がりにくいです。</strong>採用側が見るのは再現性のある実務であり、資格はあくまで補助です。「取れば年収アップ」という期待はミスマッチを生みます。</p>
+            <p>① <strong>資格単体では年収は上がりにくい傾向があります。</strong>採用側が見るのは再現性のある実務であり、資格はあくまで補助です。「取れば年収アップ」という期待はミスマッチを生みます。</p>
             <p>② <strong>有効期限・維持費がかかる資格があります。</strong>AWS・CCNAは3年、LPIC/LinuCは5年で再認定が必要です。情報処理安全確保支援士は登録更新と年次講習に継続的な費用がかかります（詳細は各ページ）。</p>
-            <p>③ <strong>学習時間という機会費用です。</strong>方向性に合わない資格に時間を使うと、実務でのアウトプットや成果物づくりの時間を失います。</p>
-            <p>④ <strong>「資格コレクター」化のリスクです。</strong>一貫性のない資格を並べると、面接でキャリアの軸が見えず逆効果になることがあります。</p>
+            <p>③ <strong>学習時間という機会費用が生じます。</strong>方向性に合わない資格に時間を使うと、実務でのアウトプットや成果物づくりの時間を失います。</p>
+            <p>④ <strong>資格の取得自体が目的化するリスクがあります。</strong>一貫性のない資格を並べると、面接でキャリアの軸が見えず逆効果になることがあります。</p>
           </div>
         </section>
 
@@ -381,13 +381,13 @@ export default function CertTopPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              ミドルの転職では、資格を「これまでの自分を説明する道具」として使うと最も効きます。職務経歴書に資格名を書くだけでなく、<strong>その知識をどの案件でどう使ったかを1〜2行添える</strong>だけで、書類の説得力が変わります。たとえば「AWS SAA取得」とだけ書くより「オンプレ基盤の運用経験を活かし、SAAで学んだマルチAZ設計をクラウド移行の冗長化設計に適用」と書くほうが、面接官に具体的な働き方が伝わります。
+              ミドルの転職では、資格を「これまでの自分を説明する手段」として使うと最も効果的です。職務経歴書に資格名を書くだけでなく、<strong>その知識をどの案件でどう使ったかを1〜2行添える</strong>だけで、書類の説得力が変わります。たとえば「AWS SAA取得」とだけ書くより「オンプレ基盤の運用経験を活かし、SAAで学んだマルチAZ設計をクラウド移行の冗長化設計に適用」と書くほうが、面接官に具体的な働き方が伝わります。
             </p>
             <p>
-              また、未経験から30-40代でIT転職する場合は、入口資格（基本情報・CCNA・LPIC）に加えて「なぜこの年齢で転向するのか」「前職の何が活きるのか」の物語が不可欠です。資格はその物語を補強する材料であって、物語の代わりにはなりません。前職が営業なら顧客折衝力、製造なら品質管理や現場改善の視点といったように、IT以外の経験を「移ってもなお活きる強み」として言語化したうえで、資格で基礎知識を補えば、年齢のハンデは相当程度埋められます。
+              また、未経験から30-40代でIT転職する場合は、入口資格（基本情報・CCNA・LPIC）に加えて「なぜこの年齢で転向するのか」「前職の何が活きるのか」の物語が不可欠です。資格はその物語を補強する材料であって、物語の代わりにはなりません。前職が営業なら顧客折衝力、製造なら品質管理や現場改善の視点といったように、IT以外の経験を「移ってもなお活きる強み」として言語化したうえで、資格で基礎知識を補えば、年齢による不利をある程度補えます。
             </p>
             <p>
-              一点、ミドルが陥りやすい罠が「資格の取りすぎ」です。学習自体は良いことですが、転職活動の文脈では一貫性のない資格が並ぶと「結局この人は何をしたいのか」が伝わらず、かえってマイナスに働くことがあります。<strong>方向性に沿って1〜2個を深く取り、面接で語れる状態にする</strong>ことを優先してください。
+              一点、ミドルが陥りやすいのが「資格の取りすぎ」です。学習自体は良いことですが、転職活動の文脈では一貫性のない資格が並ぶと「結局この人は何をしたいのか」が伝わらず、かえってマイナスに働くことがあります。<strong>方向性に沿って1〜2個を深く取り、面接で語れる状態にする</strong>ことを優先してください。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、自分の立ち位置の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>、マネジメント志向の方は<Link href="/knowledge/management/" className="text-petrol hover:underline">マネジメントへのキャリア</Link>も参考になります。
@@ -415,7 +415,7 @@ export default function CertTopPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">資格を活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            「実務×資格」をどう見せれば評価されるか。IT特化型エージェントでご自身の市場価値を確認しましょう。
+            実務と資格をどう示せば評価されるか。IT特化型エージェントでご自身の市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

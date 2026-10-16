@@ -12,7 +12,7 @@ const URL = "/career/sales-to-engineer/";
 export const metadata: Metadata = { alternates: { canonical: "/career/sales-to-engineer/" }, title: TITLE, description: DESC };
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と実際の難度" },
+  { id: "conclusion", label: "現実性と実際の難度" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -26,10 +26,10 @@ const toc = [
 
 const gapRows = [
   { axis: "プログラミング", sales: "× 未経験。ゼロからの習得が必要", engineer: "◎ 自走できる開発スキルが必須", gap: "特大" },
-  { axis: "開発プロセス・ツール", sales: "× Git・テスト等に触れていない", engineer: "◎ チーム開発の作法が前提", gap: "大" },
-  { axis: "論理的思考・課題解決", sales: "○ 提案・課題発見で鍛えています", engineer: "◎ 設計・デバッグに流用できます", gap: "活用" },
-  { axis: "コミュニケーション・折衝", sales: "◎ 顧客折衝・調整が得意", engineer: "○ 要件定義・チーム連携で活きます", gap: "活用" },
-  { axis: "ドメイン・業務知識", sales: "◎ 担当業界の業務理解が深い", engineer: "○ 業務システム開発で差別化要因に", gap: "活用" },
+  { axis: "開発プロセス・ツール", sales: "× Git・テスト等は未経験", engineer: "◎ チーム開発の作法が前提", gap: "大" },
+  { axis: "論理的思考・課題解決", sales: "○ 提案・課題発見で鍛えた経験あり", engineer: "◎ 設計・デバッグに流用可能", gap: "活用" },
+  { axis: "コミュニケーション・折衝", sales: "◎ 顧客折衝・調整が得意", engineer: "○ 要件定義・チーム連携で有効", gap: "活用" },
+  { axis: "ドメイン・業務知識", sales: "◎ 担当業界の深い業務理解", engineer: "○ 業務システム開発での差別化要因", gap: "活用" },
   { axis: "継続的な技術学習", sales: "△ 自走学習の習慣づけが必要", engineer: "◎ 学び続ける姿勢が前提", gap: "中" },
 ];
 
@@ -48,15 +48,15 @@ const migrationSteps = [
 ];
 
 const agents = [
-  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数です。未経験要素のある転職でも選択肢を広く確保でき、営業からのキャリアチェンジ相談にも対応しやすいです。", href: "/review/recruit-it/" },
-  { name: "レバテックキャリア", point: "IT/Webに特化しています。技術力を重視する求人が中心のため、ポートフォリオで自走力を示せるかが鍵です。要件のすり合わせに使えます。", href: "/review/levtech/" },
-  { name: "ビズリーチ", point: "ハイクラス・スカウト型です。技術営業（セールスエンジニア）など、営業経験＋技術を活かせるポジションのスカウトを受けられる可能性があります。", href: "/review/bizreach-it/" },
+  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数を保有しています。未経験要素のある転職でも選択肢を広く確保でき、営業からのキャリアチェンジ相談にも対応しやすくなります。", href: "/review/recruit-it/" },
+  { name: "レバテックキャリア", point: "IT/Web領域に特化したエージェントです。技術力を重視する求人が中心のため、ポートフォリオで自走力を示せるかが重要です。要件のすり合わせに使えます。", href: "/review/levtech/" },
+  { name: "ビズリーチ", point: "ハイクラス向けのスカウト型サービスです。技術営業（セールスエンジニア）など、営業経験＋技術を活かせるポジションのスカウトを受けられる可能性があります。", href: "/review/bizreach-it/" },
 ];
 
 const faqs = [
   { q: "営業からエンジニアへの転職は現実的？", a: "未経験職種への転換のため、難度は高めです。特に年齢が上がるほど難しくなります。ただし不可能ではなく、半年〜1年の学習で自走できる開発スキルとポートフォリオを用意し、ドメイン知識が活きる入口を選べば現実的に挑戦できます。" },
   { q: "なぜこの年齢で営業からエンジニアに？と聞かれたら？", a: "面接で必ず問われる質問です。『手を動かして課題を解決したい』『担当業界の業務を技術で改善したい』など、これまでの経験と結びついた一貫性のある動機を語れることが重要です。思いつきではないと示せるかが選考を左右します。" },
-  { q: "プログラミングはどれくらいできれば応募できる？", a: "目安は、1つの言語で小〜中規模のWebアプリを一から作り、デプロイまで自走できるレベルです。未経験のハンデを埋めるには、公開できる成果物が事実上必須と考えてください。" },
+  { q: "プログラミングはどれくらいできれば応募できる？", a: "目安は、1つの言語で小〜中規模のWebアプリを一から作り、デプロイまで自走できるレベルです。未経験であることを補うには、公開できる成果物が事実上必須と考えてください。" },
   { q: "営業経験はエンジニア転職で評価される？", a: "評価される場面があります。顧客折衝・要件のヒアリング・提案力・担当業界のドメイン知識は、要件定義や技術営業、業務システム開発で強みになります。ただし最低限の実装力は別途必要です。" },
   { q: "年収は下がる？", a: "未経験からの開発職では、一時的に下がる可能性が高いと考えるのが現実的です。営業のインセンティブ込みの年収が高い場合は特に差が出ます。ドメイン知識を活かせるポジションや技術営業なら、下げ幅を抑えられる場合があります。提示額は書面で確認しましょう。" },
   { q: "スクールに通うべき？", a: "独学で続けられるなら必須ではありませんが、学習の挫折を防ぎ転職支援を受けたい場合は選択肢です。費用と内容を比較し、最終的にはポートフォリオの質で評価される点を念頭に置いてください。" },
@@ -129,11 +129,11 @@ export default function SalesToEngineerPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：未経験転職で難度は高いです。鍵は成果物と動機の一貫性</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">未経験転職のため難度は高め。重要なのは成果物と動機の一貫性</h2>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・プログラミング未経験からの転換のため難度は高く、年齢が上がるほど厳しくなります（前提）。</li>
               <li>・それでも、自走できる開発スキルとポートフォリオを用意し、ドメイン知識が活きる入口を選べば道はあります。</li>
-              <li>・営業の折衝力・課題発見力・業務知識は要件定義や技術営業で強みになります。動機の一貫性を語れるかが鍵です。</li>
+              <li>・営業の折衝力・課題発見力・業務知識は要件定義や技術営業で強みになります。動機の一貫性を語れるかが選考を左右します。</li>
             </ul>
           </div>
         </section>
@@ -209,13 +209,13 @@ export default function SalesToEngineerPage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（営業実績のみ）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                法人向けにSaaSの新規開拓営業を担当。担当エリアで予算を達成し、複数の大型契約を獲得。顧客の課題ヒアリングから提案、クロージングまでを一貫して担当しました。
+                法人向けにSaaSの新規開拓営業を担当。担当エリアで予算を達成し、複数の大型契約を獲得。顧客の課題ヒアリングから提案、クロージングまでを一貫して担当。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（課題解決と自作成果物を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                法人営業で蓄積した顧客課題への理解をもとに、業務効率化のWebアプリを個人開発で構築（認証・データ管理・デプロイまでをTypeScript/Next.jsで実装、GitHub公開）。営業で培ったヒアリング力を要件定義に、ドメイン知識を機能設計に活かしました。継続的に学習し、技術ブログでアウトプットを続けています。
+                法人営業で蓄積した顧客課題への理解をもとに、業務効率化のWebアプリを個人開発で構築（認証・データ管理・デプロイまでをTypeScript/Next.jsで実装、GitHub公開）。営業で培ったヒアリング力を要件定義に、ドメイン知識を機能設計に活用。継続的に学習し、技術ブログでのアウトプットを継続。
               </p>
             </div>
           </div>
@@ -254,7 +254,7 @@ export default function SalesToEngineerPage() {
             実際には、営業からエンジニアへの未経験転職は、30代・40代では年齢が上がるほど難度が上がります。企業はミドル層に即戦力や育成コストの低さを期待するため、ポテンシャル採用の枠は若手より狭くなるのが実情です。「なぜこの年齢で開発側に来るのか」という問いに、思いつきではない一貫した答えを用意できるかが分かれ目になります。
           </p>
           <p className="text-slate-600 leading-relaxed mb-3">
-            だからこそ、ミドルの強みである「担当業界のドメイン知識」「顧客折衝力」「課題発見力」を技術と掛け合わせる戦略が現実的です。純粋な開発職に正面から挑むより、業務システム開発・社内SE・技術営業など、これまでの経験が差別化要因になる入口を選ぶと勝率が上がります。
+            だからこそ、ミドルの強みである「担当業界のドメイン知識」「顧客折衝力」「課題発見力」を技術と掛け合わせる戦略が現実的です。純粋な開発職に正面から挑むより、業務システム開発・社内SE・技術営業など、これまでの経験が差別化要因になる入口を選ぶと採用の可能性が高まります。
           </p>
           <p className="text-slate-600 leading-relaxed">
             まずは在職中に学習を始め、続けられるか・向いているかを早期に見極めることが大切です。<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのエンジニア転職</Link>や<Link href="/knowledge/reskilling/" className="text-petrol hover:underline">リスキリングガイド</Link>も参考に、現実的な計画を立ててください。年収は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も確認しておきましょう。

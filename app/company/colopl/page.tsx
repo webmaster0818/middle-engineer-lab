@@ -19,7 +19,7 @@ const salaryTrend: [string, string][] = [
 
 const basicData: [string, string][] = [
   ["企業名", "株式会社コロプラ（東証プライム・3668）"],
-  ["事業領域", "モバイルオンラインゲーム（白猫プロジェクト等）・VR/位置ゲー等のエンタテインメント"],
+  ["事業領域", "モバイルオンラインゲーム（白猫プロジェクト等）・VR/位置情報ゲーム等のエンタテインメント"],
   ["平均年間給与", "681万円（2025年9月期 有価証券報告書・提出会社単体）"],
   ["平均年齢", "36.6歳（2025年9月期 有価証券報告書・単体）"],
   ["従業員数", "676名（2025年9月期・単体）"],
@@ -28,7 +28,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "転職難易度と向いている人"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
@@ -43,7 +43,7 @@ const toc = [
 
 const faqs = [
   {
-    q: "コロプラのエンジニア選考フローは？",
+    q: "コロプラのエンジニア選考フローを教えてください。",
     a: "公開されている採用情報・選考体験談によると、おおむね「書類選考」「技術テスト（コーディングを含む）」「複数回の面接」「内定」の流れです。コロプラは技術テストの過去問形式を一部公開しており、計算機基礎やコーディング問題が出題されます。職種・新卒/中途により内容は変動します。",
   },
   {
@@ -51,11 +51,11 @@ const faqs = [
     a: "2025年9月期の有価証券報告書（提出会社単体）によると、平均年間給与は681万円、平均年齢は36.6歳です。これは技術職に限らない全社員平均値で、近年は緩やかな上昇傾向にあります。エンジニア個人の年収は等級・職種により異なります。",
   },
   {
-    q: "コロプラの技術スタックは？",
+    q: "コロプラの技術スタックを教えてください。",
     a: "公式採用情報によると、言語はPHP（Laravel）・TypeScript・JavaScript・C#（Unity）・Goなど、ミドルウェアはnginx・MySQL・Cloud Spanner・TiDB・Redis・fluentdなど、クラウドはGoogle CloudとAWSを利用しています。開発ツールにDocker・GitHub・GitLab・Jenkins・Unity等が使われています。",
   },
   {
-    q: "コロプラは何の会社ですか？事業領域は？",
+    q: "コロプラはどのような会社ですか？事業領域を教えてください。",
     a: "コロプラは「白猫プロジェクト」などのモバイルオンラインゲームを主力とするエンタテインメント企業です。位置情報ゲームやVRなどの技術にも取り組んできた東証プライム上場企業（証券コード3668）で、ゲーム開発が事業の中核です。",
   },
   {
@@ -63,12 +63,12 @@ const faqs = [
     a: "コロプラは採用サイトで技術テストの過去問形式を一部公開しています。サーバーサイド・インフラ志望では計算機基礎・OS・ネットワーク・データベース・Web全般・セキュリティの選択問題に加え、複数言語から選べるコーディング問題が出題されます。事前にアルゴリズム・基礎知識の整理をしておくと有利です。",
   },
   {
-    q: "コロプラの開発文化の特徴は？",
-    a: "公式情報によると、心理的安全性を重視し、課金・ガチャのような重要案件には組織横断レビューを実施、CI/CDを実践しています。他タイトルのソースコード閲覧権限を付与するなど、オープンな情報共有の文化が示されています。",
+    q: "コロプラの開発文化にはどのような特徴がありますか？",
+    a: "公式情報によると、心理的安全性を重視し、課金・ガチャのような重要案件には組織横断レビューを実施し、CI/CDを実践しています。他タイトルのソースコード閲覧権限を付与するなど、オープンな情報共有の文化が示されています。",
   },
   {
     q: "30代・40代でもコロプラに転職できますか？",
-    a: "単体の平均年齢は36.6歳（2025年9月期）です。ゲームサーバーの大規模運用、Unityクライアント開発、インフラ・SREなどの専門性や実績があれば、30代・40代のミドルエンジニアも評価されやすい傾向です。",
+    a: "単体の平均年齢は36.6歳（2025年9月期）です。ゲームサーバーの大規模運用、Unityクライアント開発、インフラ・SREなどの専門性や実績があれば、30代・40代のミドルエンジニアも評価されやすい傾向があります。",
   },
 ];
 
@@ -96,8 +96,8 @@ export default function ColoplCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】コロプラの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社コロプラの平均年間給与は681万円です（2025年9月期 有価証券報告書・提出会社単体、平均年齢36.6歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 681万円です（2025年9月期 有価証券報告書・単体全社員平均）。技術職に限らない全社平均です。</li><li>・推移は2023年9月期661万円から2025年9月期681万円へと緩やかに上昇しています（各期 有価証券報告書）。</li><li>・エンジニア職限定の提示レンジは非開示です。提示は等級・職種で幅があり個別求人でご確認ください。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社コロプラの平均年間給与は681万円です（2025年9月期 有価証券報告書・提出会社単体、平均年齢36.6歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 681万円です（2025年9月期 有価証券報告書・単体全社員平均）。技術職に限らない全社平均です。</li><li>・2023年9月期の661万円から2025年9月期の681万円へと緩やかに上昇しています（各期 有価証券報告書）。</li><li>・エンジニア職限定の提示レンジは非開示です。提示額は等級・職種により幅があるため、個別求人でご確認ください。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -116,14 +116,14 @@ export default function ColoplCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">転職難易度と向いている人</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               コロプラは<strong>モバイルゲームの大規模サーバー運用と、Unityクライアント開発を軸とするゲーム企業</strong>です。技術テストを公開するなど、技術力の見極めを重視する文化があります。単体の平均年収681万円（2025年9月期）はゲーム業界で標準的な水準です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：ゲームサーバー（PHP/Go）やUnityクライアント開発の経験があり、大規模トラフィックの運用に前向きなエンジニア</li>
               <li>● <strong>向いていない人</strong>：ゲーム・エンタメ領域への関心が薄い人、技術テストの準備に消極的な人</li>
-              <li>● <strong>30代・40代</strong>：ゲーム基盤・SRE・運用の専門性があれば年齢はハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：ゲーム基盤・SRE・運用の専門性があれば年齢はハンデになりにくい傾向があります</li>
             </ul>
           </div>
         </section>
@@ -153,7 +153,7 @@ export default function ColoplCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2025年9月期 有価証券報告書の提出会社（単体）数値。技術スタックは公式採用情報ベースです（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2025年9月期 有価証券報告書の提出会社（単体）の数値です。技術スタックは公式採用情報に基づきます（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -188,7 +188,7 @@ export default function ColoplCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド・開発ツール</strong>：Google Cloud、AWS、Docker、GitHub、GitLab、Jenkins、JetBrains IDE</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: コロプラ公式 採用情報（2026年6月時点）。タイトル・職種別の構成です。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: コロプラ公式 採用情報（2026年6月時点）。構成はタイトル・職種により異なります。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -216,7 +216,7 @@ export default function ColoplCompanyPage() {
           </div>
           <p className="text-xs text-slate-400 mb-4">出典: コロプラ 有価証券報告書（各年9月期、提出会社単体）。いずれも技術職に限らない<strong>全社員平均</strong>の平均年間給与です。エンジニア個人の年収は等級・職種により異なります。</p>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-sm text-amber-900">
-            <p className="leading-relaxed">上記は全社員平均であり、エンジニア職に限定した公式な提示年収レンジは一次情報が乏しいため本ページでは断定しません。提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。</p>
+            <p className="leading-relaxed">上記は全社員平均であり、エンジニア職に限定した公式な提示年収レンジは一次情報が乏しいため本ページでは断定していません。提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。</p>
           </div>
         </section>
 
@@ -269,7 +269,7 @@ export default function ColoplCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。メガベンチャー求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム企業への提案実績が豊富で提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム企業への提案実績が豊富で提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

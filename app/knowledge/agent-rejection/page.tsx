@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：断られても転職はできる" },
+  { id: "conclusion", label: "断られても転職はできる" },
   { id: "reasons", label: "断られる5つの理由" },
   { id: "service", label: "サービスにより断られやすさが違う" },
   { id: "actions", label: "断られた時の対処法" },
@@ -27,11 +27,11 @@ const toc = [
 ];
 
 const reasons = [
-  { num: "1", title: "そのエージェントの得意分野と合っていない", desc: "総合型のなかにはIT職の評価が手薄なサービスもあります。エンジニアの市場価値を正しく評価できず「紹介できる求人がない」となるケースです。IT特化型に切り替えると対応されることが多くあります。" },
-  { num: "2", title: "実務経験が浅い／未経験寄り", desc: "サービスにより未経験者の扱いは大きく異なります。レバテックキャリアは「未経験者は紹介されにくい」との口コミ傾向があります（Qiita Job Change等）。経験が浅い場合は間口の広い総合型から始めるのが無難です。" },
-  { num: "3", title: "希望条件が市場とかけ離れている", desc: "「年収大幅アップ＋フルリモート＋残業ゼロ」など条件が厳しすぎると、紹介できる求人が極端に減ります。条件に優先順位をつけ、譲れる点を明確にしましょう。" },
+  { num: "1", title: "そのエージェントの得意分野とのミスマッチ", desc: "総合型のなかにはIT職の評価が手薄なサービスもあります。エンジニアの市場価値を正しく評価できず「紹介できる求人がない」となるケースです。IT特化型に切り替えると対応されることが多くあります。" },
+  { num: "2", title: "実務経験の浅さ／未経験寄りの経歴", desc: "サービスにより未経験者の扱いは大きく異なります。レバテックキャリアは「未経験者は紹介されにくい」との口コミ傾向があります（Qiita Job Change等）。経験が浅い場合は間口の広い総合型から始めるのが無難です。" },
+  { num: "3", title: "市場とかけ離れた希望条件", desc: "「年収大幅アップ＋フルリモート＋残業ゼロ」など条件が厳しすぎると、紹介できる求人が極端に減ります。条件に優先順位をつけ、譲れる点を明確にしましょう。" },
   { num: "4", title: "短期離職の繰り返しなど経歴上の懸念", desc: "在職期間が短い転職を繰り返していると慎重に判断される場合があります。一貫したキャリアテーマがあれば説明可能であるため、経歴の意味づけを準備しましょう。" },
-  { num: "5", title: "登録者が多くサポート枠が埋まっている", desc: "人気サービスは時期により新規受付を制限することがあります。タイミングを変えて再登録すると対応されることもあります。" },
+  { num: "5", title: "登録者の多さによるサポート枠の不足", desc: "人気サービスは時期により新規受付を制限することがあります。タイミングを変えて再登録すると対応されることもあります。" },
 ];
 
 const checklist = [
@@ -114,7 +114,7 @@ export default function AgentRejectionPage() {
 
         <DataNote
           surveyedAt="2026年6月"
-          sources={["各社公式サイト・公式ガイド", "Qiita Job Change等の口コミプラットフォーム傾向", "転職メディア集計値（時点付き）"]}
+          sources={["各社公式サイト・公式ガイド", "Qiita Job Change等の口コミプラットフォーム傾向", "転職メディア集計値（時点を明記）"]}
         />
 
         {/* 目次 */}
@@ -135,7 +135,7 @@ export default function AgentRejectionPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職エージェントに登録を断られたらどうすればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 1社に断られても転職はできます。多くは市場価値ではなく「そのエージェントとの相性」の問題です。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>1社に断られても転職はできます。多くは市場価値ではなく「そのエージェントとの相性」の問題です。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総合型で断られたら、エンジニアの技術を正しく評価するIT特化型へ登録し直します</li><li>・スカウト型や企業への直接応募を併用し、仲介の合否判断を経ないルートも使います</li><li>・希望条件に優先順位をつけ、職務経歴書で技術スタックと実績を数値化してから再挑戦します</li></ul>
           </div>
         </section>
@@ -143,14 +143,14 @@ export default function AgentRejectionPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：断られても転職はできる</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">断られても転職はできる</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               1社に断られても、それは「ご自身が転職できない」ことを意味しません。エージェントごとに得意分野が違うため、<strong>IT特化型へ登録し直す＋スカウト型や直接応募を併用する</strong>のが基本の立て直し方です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・総合型で断られたら<Link href="/review/levtech/" className="font-semibold underline">レバテックキャリア</Link>等のIT特化型へ</li>
-              <li>・未経験寄りなら間口の広い<Link href="/review/workport/" className="font-semibold underline">ワークポート</Link>を検討</li>
-              <li>・経歴より実力を強みにしたいなら<Link href="/review/paiza/" className="font-semibold underline">paiza転職</Link>のスカウト</li>
+              <li>・総合型で断られた場合は、<Link href="/review/levtech/" className="font-semibold underline">レバテックキャリア</Link>等のIT特化型への登録を検討します</li>
+              <li>・未経験寄りなら、間口の広い<Link href="/review/workport/" className="font-semibold underline">ワークポート</Link>が選択肢になります</li>
+              <li>・経歴より実力を強みにしたいなら、<Link href="/review/paiza/" className="font-semibold underline">paiza転職</Link>のスカウトが適しています</li>
             </ul>
           </div>
         </section>
@@ -184,7 +184,7 @@ export default function AgentRejectionPage() {
               <thead>
                 <tr className="bg-slate-100">
                   <th className="text-left px-4 py-3 border border-slate-200 font-medium">サービス</th>
-                  <th className="text-left px-4 py-3 border border-slate-200 font-medium">特性（出典付き）</th>
+                  <th className="text-left px-4 py-3 border border-slate-200 font-medium">特性（出典）</th>
                   <th className="text-left px-4 py-3 border border-slate-200 font-medium">向く人</th>
                 </tr>
               </thead>
@@ -193,28 +193,28 @@ export default function AgentRejectionPage() {
                   <td className="px-4 py-3 border border-slate-200 font-medium">
                     <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
                   </td>
-                  <td className="px-4 py-3 border border-slate-200">IT特化です。利用者の約80%が20〜30代です（公式ガイド）。未経験者は紹介されにくいとの口コミ傾向です（Qiita Job Change等）。</td>
+                  <td className="px-4 py-3 border border-slate-200">IT特化型で、利用者の約80%が20〜30代です（公式ガイド）。未経験者は紹介されにくいとの口コミ傾向があります（Qiita Job Change等）。</td>
                   <td className="px-4 py-3 border border-slate-200">実務経験のある30代</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
                     <Link href="/review/workport/" className="text-petrol hover:underline">ワークポート</Link>
                   </td>
-                  <td className="px-4 py-3 border border-slate-200">全国47都道府県57拠点です。未経験歓迎求人も豊富です（公式/二次）。求職者完全無料です。</td>
+                  <td className="px-4 py-3 border border-slate-200">全国47都道府県に57拠点があり、未経験歓迎求人も豊富とされています（公式/二次）。求職者は完全無料で利用できます。</td>
                   <td className="px-4 py-3 border border-slate-200">未経験寄り・地方在住</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
                     <Link href="/review/bizreach-it/" className="text-petrol hover:underline">ビズリーチ</Link>
                   </td>
-                  <td className="px-4 py-3 border border-slate-200">ハイクラス・スカウト型です。年収1,000万円以上求人が全体の約4割です（二次）。経歴次第でスカウトが来ない場合も（二次）。</td>
+                  <td className="px-4 py-3 border border-slate-200">ハイクラス・スカウト型で、年収1,000万円以上の求人が全体の約4割とされています（二次）。経歴によってはスカウトが来ない場合もあります（二次）。</td>
                   <td className="px-4 py-3 border border-slate-200">経験豊富な40代</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
                     <Link href="/review/paiza/" className="text-petrol hover:underline">paiza転職</Link>
                   </td>
-                  <td className="px-4 py-3 border border-slate-200">スキルチェックのランクで実力評価→スカウトです。書類選考免除があります。ランクB以上でないと届きにくいとの声です（二次）。</td>
+                  <td className="px-4 py-3 border border-slate-200">スキルチェックのランクで実力を評価し、スカウトが届く仕組みです。書類選考免除があります。ランクB以上でないと届きにくいとの声もあります（二次）。</td>
                   <td className="px-4 py-3 border border-slate-200">コードで評価されたい人</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
@@ -246,29 +246,29 @@ export default function AgentRejectionPage() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">IT特化型へ登録し直す</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">レバテック・Geekly等を2〜3社</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">技術を正しく評価され紹介されやすい</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">IT特化型への再登録</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">レバテック・Geekly等への2〜3社登録</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">技術の適正な評価と紹介機会の増加</td>
                 </tr>
                 <tr className="bg-slate-50">
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">スカウト型に登録</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">スカウト型への登録</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">ビズリーチ・paiza転職</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">企業から直接オファーが届く</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">企業からの直接オファー</td>
                 </tr>
                 <tr>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">直接応募・ダイレクト型</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">直接応募・ダイレクト型の活用</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">Green・企業の採用ページ</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">仲介の合否判断を経ず応募できる</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">仲介の合否判断を経ない応募</td>
                 </tr>
                 <tr className="bg-slate-50">
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">希望条件を見直す</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">希望条件の見直し</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">優先順位の整理と妥協点の明確化</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">マッチする求人が増える</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">マッチする求人の増加</td>
                 </tr>
                 <tr>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">職務経歴書を改善して再挑戦</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">職務経歴書の改善と再挑戦</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">技術スタック・実績の数値化</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">市場価値が伝わり選択肢が広がる</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">市場価値の伝達と選択肢の拡大</td>
                 </tr>
               </tbody>
             </table>
@@ -319,10 +319,10 @@ export default function AgentRejectionPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代が断られた時の視点</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              30代・40代で断られると「年齢のせいか」と落ち込みがちですが、実際は「そのエージェントの得意層と合っていない」だけのことが多いです。若手向けに最適化されたサービスで断られても、ハイクラスや専門領域に強いサービスでは歓迎されることがあります。
+              30代・40代で断られると「年齢のせいか」と落ち込みがちですが、実際は「そのエージェントの得意層と合っていない」だけのことが多くあります。若手向けに最適化されたサービスで断られても、ハイクラスや専門領域に強いサービスでは歓迎されることがあります。
             </p>
             <p>
-              40代はマネジメント経験や専門性が評価軸になります。ビズリーチは年収1,000万円以上求人が全体の約4割（二次）で、レバテック公表値では正社員SE 40代の平均年収は約618万円・年収1,000万円以上の割合は12.67%（2025年・ガイド記事）です。年齢ではなく「何ができるか」を職務経歴書で言語化し直すことが、再挑戦の最短ルートです。
+              40代はマネジメント経験や専門性が評価軸になります。ビズリーチは年収1,000万円以上求人が全体の約4割（二次）で、レバテック公表値では正社員SE 40代の平均年収は約618万円・年収1,000万円以上の割合は12.67%（2025年・ガイド記事）です。年齢ではなく「何ができるか」を職務経歴書で言語化し直すことが、再挑戦に向けて最も効果的な方法です。
             </p>
             <p>
               年代別の実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>も参考にしてください。
@@ -348,7 +348,7 @@ export default function AgentRejectionPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">IT特化型エージェントに登録し直そう</h2>
+          <h2 className="text-xl font-bold mb-3">IT特化型エージェントへの登録を見直しましょう</h2>
           <p className="text-blue-100 text-sm mb-4">
             総合型で断られた方も、IT特化型ならエンジニアの市場価値を正しく評価してくれます。10社の比較から選び直しましょう。
           </p>

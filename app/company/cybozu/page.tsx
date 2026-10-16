@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公式発信）" },
@@ -37,13 +37,13 @@ const basicData: [string, string][] = [
 ];
 
 const faqs = [
-  { q: "サイボウズの平均年収はいくら？", a: "有価証券報告書に基づく提出会社（サイボウズ株式会社単体）の全従業員平均給与は、2024年12月期で687万円、2025年12月期で719万円という値が確認されています(出典により年度の対応が混在しているため、最新の確定値は提出済みの最新有価証券報告書でのご確認をおすすめします)。いずれも賞与を含む全従業員（エンジニア以外も含む）平均で、職種別・等級別の内訳は公式には開示されていません。" },
-  { q: "サイボウズではどんな技術が使われている？", a: "公式の技術情報公開ページや技術ブログ「Cybozu Inside Out」によると、kintoneやGaroonなどの開発でJava・Go・TypeScript・Reactなどが使われています。サイボウズは技術発信が活発で、社外向けに使用技術を比較的オープンにしている点が特徴です。具体的な構成はプロダクト・チームにより異なります。" },
-  { q: "サイボウズはエンジニアの中途採用を行っている？", a: "はい。サイボウズはエンジニアのキャリア採用を継続的に行っています。kintone・Garoonといった長期運用される自社SaaSプロダクトの開発・刷新を担う人材を募集しています。募集職種は時期により変動するため、最新は公式採用ページをご確認ください。" },
-  { q: "サイボウズの働き方の特徴は？", a: "サイボウズは「多様な働き方」を掲げる企業として知られ、働き方の選択肢が広いことが特徴とされています。具体的な制度内容は時期により変わるため、応募時に最新の制度を確認することをおすすめします。当ガイドでは制度の細部を断定せず、傾向として紹介しています。" },
-  { q: "サイボウズの技術スタックは古い？モダン？", a: "kintone・Garoonは長く運用されている自社SaaSであり、長寿プロダクトの継続的な刷新が大きなテーマです。JavaやGo、フロントエンドのTypeScript/Reactなどが使われ、既存資産を保ちながらモダン化を進めるフェーズの開発が想定されます。レガシーとモダンの両面に向き合えるエンジニアに親和性があります。" },
-  { q: "サイボウズの選考フローは？", a: "サイボウズは中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接が想定されますが、回数・内容は募集職種により変わります。当ガイドでは出典のない面接質問リストや等級別年収表は掲載していません。最新の選考内容は応募時に確認してください。" },
-  { q: "サイボウズは30代・40代でも転職できる？", a: "提出会社単体の平均年齢はおおむね35〜36歳台とされ、ミドル層が一定数いる組織です。長期運用SaaSの刷新には、設計・運用の経験を積んだ30代・40代のエンジニアの知見が活きやすい面があります。年齢よりも、Java/Go/TypeScript等の実務スキルとプロダクト志向が評価の鍵になります。" },
+  { q: "サイボウズの平均年収はいくらですか？", a: "有価証券報告書に基づく提出会社（サイボウズ株式会社単体）の全従業員平均給与は、2024年12月期で687万円、2025年12月期で719万円という値が確認されています(出典により年度の対応が混在しているため、最新の確定値は提出済みの最新有価証券報告書でのご確認をおすすめします)。いずれも賞与を含む全従業員（エンジニア以外も含む）平均で、職種別・等級別の内訳は公式には開示されていません。" },
+  { q: "サイボウズではどのような技術が使われていますか？", a: "公式の技術情報公開ページや技術ブログ「Cybozu Inside Out」によると、kintoneやGaroonなどの開発でJava・Go・TypeScript・Reactなどが使われています。サイボウズは技術発信が活発で、社外向けに使用技術を比較的オープンにしている点が特徴です。具体的な構成はプロダクト・チームにより異なります。" },
+  { q: "サイボウズはエンジニアの中途採用を行っていますか？", a: "はい。サイボウズはエンジニアのキャリア採用を継続的に行っています。kintone・Garoonといった長期運用される自社SaaSプロダクトの開発・刷新を担う人材を募集しています。募集職種は時期により変動するため、最新は公式採用ページをご確認ください。" },
+  { q: "サイボウズの働き方にはどのような特徴がありますか？", a: "サイボウズは「多様な働き方」を掲げる企業として知られ、働き方の選択肢が広いことが特徴とされています。具体的な制度内容は時期により変わるため、応募時に最新の制度を確認することをおすすめします。当ガイドでは制度の細部を断定せず、傾向として紹介しています。" },
+  { q: "サイボウズの技術スタックはレガシーですか、モダンですか？", a: "kintone・Garoonは長く運用されている自社SaaSであり、長寿プロダクトの継続的な刷新が大きなテーマです。JavaやGo、フロントエンドのTypeScript/Reactなどが使われ、既存資産を保ちながらモダン化を進めるフェーズの開発が想定されます。レガシーとモダンの両面に向き合えるエンジニアに親和性があります。" },
+  { q: "サイボウズの選考フローを教えてください。", a: "サイボウズは中途採用の詳細な選考フローを体系的に公式公開しているわけではありません。一般に書類選考と複数回の面接が想定されますが、回数・内容は募集職種により変わります。当ガイドでは出典のない面接質問リストや等級別年収表は掲載していません。最新の選考内容は応募時に確認してください。" },
+  { q: "サイボウズは30代・40代でも転職できますか？", a: "提出会社単体の平均年齢はおおむね35〜36歳台とされ、ミドル層が一定数いる組織です。長期運用SaaSの刷新には、設計・運用の経験を積んだ30代・40代のエンジニアの知見が活きやすい面があります。年齢よりも、Java/Go/TypeScript等の実務スキルとプロダクト志向が評価のポイントになります。" },
 ];
 
 export default function CybozuCompanyPage() {
@@ -58,27 +58,27 @@ export default function CybozuCompanyPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">サイボウズへのエンジニア転職ガイド【2026年版】</h1>
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
-          サイボウズ株式会社へのエンジニア中途採用について、有価証券報告書と公式の技術発信（Cybozu Inside Out等）の一次情報をもとに、転職難易度・年収・技術スタック・働き方を中立にまとめました。kintone・Garoonという長く愛される自社SaaSを、Java/Go/TypeScript/Reactで刷新し続ける開発組織と、多様な働き方の文化を、ミドル層の視点で整理します。
+          サイボウズ株式会社へのエンジニア中途採用について、有価証券報告書と公式の技術発信（Cybozu Inside Out等）の一次情報をもとに、転職難易度・年収・技術スタック・働き方を中立にまとめました。kintone・Garoonという長く運用されている自社SaaSを、Java/Go/TypeScript/Reactで刷新し続ける開発組織と、多様な働き方の文化を、ミドル層の視点で整理します。
         </p>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 出典は各データの直後に明記しています。</p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】サイボウズの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: サイボウズ株式会社（単体）の全従業員平均給与は687万円（2024年12月期）／719万円（2025年12月期）です（有価証券報告書、賞与を含む全従業員平均）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全従業員平均で687万円（2024年12月期）・719万円です（2025年12月期）（提出会社単体 有価証券報告書）。エンジニア単独の数字ではありません。</li><li>・平均年齢はおおむね35〜36歳台です（提出会社単体）。年度の対応に出典差があるため両年度を併記しています。</li><li>・職種別・等級別の年収は非開示です。確定値は最新の有価証券報告書での確認を推奨します。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>サイボウズ株式会社（単体）の全従業員平均給与は687万円（2024年12月期）／719万円（2025年12月期）です（有価証券報告書、賞与を含む全従業員平均）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全従業員平均で687万円（2024年12月期）・719万円（2025年12月期）です（提出会社単体 有価証券報告書）。エンジニア単独の数字ではありません。</li><li>・平均年齢はおおむね35〜36歳台です（提出会社単体）。年度の対応に出典差があるため両年度を併記しています。</li><li>・職種別・等級別の年収は非開示です。確定値は最新の有価証券報告書での確認を推奨します。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["サイボウズ 有価証券報告書", "サイボウズ 公式技術情報公開ページ／技術ブログ Cybozu Inside Out", "サイボウズ 公式採用サイト", "IRBANK", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中（自社SaaS刷新×多様な働き方）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・<strong>kintone・Garoon</strong>という長寿の自社SaaSを刷新・拡張する開発が中核です。<strong>Java／Go／TypeScript・React</strong>を公式に公開しています。</li>
-              <li>・<strong>多様な働き方</strong>を掲げる文化で知られ、ライフスタイルとの両立を重視するミドル層と相性が良いです。</li>
-              <li>・年収は<strong>全従業員平均で687万円（2024年12月期）／719万円です（2025年12月期）</strong>（後述の要確認注記参照）。エンジニア単独でなく全社員平均です。</li>
+              <li>・<strong>多様な働き方</strong>を掲げる文化で知られ、ライフスタイルとの両立を重視するミドル層と相性が良いといえます。</li>
+              <li>・年収は<strong>全従業員平均で687万円（2024年12月期）／719万円（2025年12月期）</strong>です（後述の要確認注記参照）。エンジニア単独ではなく全社員平均の数値です。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">レガシーとモダンの両面に向き合える設計・運用力と、プロダクトへの長期的な向き合い方が評価されやすい環境です。</p>
           </div>
@@ -110,7 +110,7 @@ export default function CybozuCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">長寿の自社SaaSを刷新し続ける開発</h3><p className="text-sm text-petrol-deep">kintone・Garoonは長く運用される自社プロダクトです。既存資産を保ちながら、アーキテクチャや技術スタックをモダン化し続けることが大きなテーマで、レガシーとモダンの両面に向き合うエンジニアリングが中核に置かれています。</p></div>
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">活発な技術発信（オープンな文化）</h3><p className="text-sm text-petrol-deep">サイボウズは技術ブログ「Cybozu Inside Out」や技術情報公開ページを通じて、使用技術や開発の取り組みを社外に積極的に発信しています。応募前に開発の実態をある程度つかめる点は、ミドル層の転職判断にとって大きな利点です。</p></div>
-            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">多様な働き方を掲げる文化</h3><p className="text-sm text-petrol-deep">サイボウズは「多様な働き方」を掲げる企業として知られています。働き方の選択肢が広いことが特徴とされ、ライフスタイルとの両立を重視するエンジニアに親和性があります（具体的な制度内容は時期により変わるため応募時に確認を）。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">多様な働き方を掲げる文化</h3><p className="text-sm text-petrol-deep">サイボウズは「多様な働き方」を掲げる企業として知られています。働き方の選択肢が広いことが特徴とされ、ライフスタイルとの両立を重視するエンジニアに親和性があります（具体的な制度内容は時期により変わるため、応募時にご確認ください）。</p></div>
           </div>
         </section>
 
@@ -171,8 +171,8 @@ export default function CybozuCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たサイボウズ</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>提出会社単体の<strong>平均年齢はおおむね35〜36歳台</strong>とされ、ミドル層が一定数いる組織です。長期運用される自社SaaSの刷新には、設計・運用・チーム開発の経験を積んだ30代・40代の知見が活きやすく、即戦力としての価値を発揮しやすい環境といえます。</p>
-            <p>30代・40代のエンジニアにとって、サイボウズは「<strong>長寿SaaSの刷新に腰を据えて取り組める×働き方の自由度が高い</strong>」という組み合わせが魅力です。育児・介護などライフイベントとの両立を重視するミドル層にとって、多様な働き方の文化は大きな判断材料になります。一方で、年収は全社員平均で687〜719万円台と突出して高いわけではない点、長期運用プロダクト特有の技術的負債と向き合う必要がある点は、事前に理解しておきたいところです。</p>
-            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/skill/java/" className="text-petrol hover:underline">Javaエンジニアの転職</Link>、<Link href="/skill/go/" className="text-petrol hover:underline">Goエンジニアの転職</Link>、<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScriptエンジニアの転職</Link>もあわせて確認してください。</p>
+            <p>30代・40代のエンジニアにとって、サイボウズは「<strong>長寿SaaSの刷新に腰を据えて取り組める×働き方の自由度が高い</strong>」という組み合わせが特徴です。育児・介護などライフイベントとの両立を重視するミドル層にとって、多様な働き方の文化は大きな判断材料になります。一方で、年収は全社員平均で687〜719万円台と突出して高いわけではない点、長期運用プロダクト特有の技術的負債と向き合う必要がある点は、事前に理解しておく必要があります。</p>
+            <p>転職活動では、ミドル層の年収交渉・市場価値の整理も確認しておくことをおすすめします。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/skill/java/" className="text-petrol hover:underline">Javaエンジニアの転職</Link>、<Link href="/skill/go/" className="text-petrol hover:underline">Goエンジニアの転職</Link>、<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScriptエンジニアの転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
 
@@ -203,7 +203,7 @@ export default function CybozuCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">サイボウズ転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で自社開発SaaSの求人提案に強いです。技術面接対策のサポートも受けられます。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。自社開発企業の求人提案に強みがあります。提案スピードが速いです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。SaaS・自社開発の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で自社開発SaaSの求人提案に強みがあります。技術面接対策のサポートも受けられます。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。自社開発企業の求人提案に強みがあります。提案スピードが速い点が特徴です。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数を持ち、SaaS・自社開発の求人も幅広く取り扱っています。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

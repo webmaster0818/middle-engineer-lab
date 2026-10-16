@@ -16,7 +16,7 @@ const DESC =
   "小売・流通業界エンジニアからECテック・リテールテック・OMO領域への転職方法を解説します。活かせるスキルと埋めるギャップ、年収の考え方、進め方を30代40代視点で紹介します。";
 
 const toc = [
-  { id: "conclusion", label: "結論：店舗・流通の業務知識が強みになる" },
+  { id: "conclusion", label: "店舗・流通の業務知識が強みになる" },
   { id: "trend", label: "ECテック・リテールテックの採用動向" },
   { id: "skills", label: "活かせるスキル／埋めるギャップ" },
   { id: "patterns", label: "転職パターン（職種×企業タイプ）" },
@@ -32,10 +32,10 @@ const toc = [
 ];
 
 const skillTable = [
-  ["POS・基幹システムの業務知識", "そのまま活きます", "店舗運営・販売管理の理解はリテールテックで希少"],
-  ["在庫管理・サプライチェーンの理解", "そのまま活きます", "需要予測・自動発注・WMS連携の要件定義で活きます"],
-  ["顧客データ・購買行動の理解", "そのまま活きます", "レコメンド・CRM・リテールメディアの設計に直結"],
-  ["Web開発（React・Python等）", "要習得", "ECプラットフォーム開発はモダンスタックが前提"],
+  ["POS・基幹システムの業務知識", "そのまま強み", "店舗運営・販売管理を理解している人材は、リテールテックで希少です"],
+  ["在庫管理・サプライチェーンの理解", "そのまま強み", "需要予測・自動発注・WMS連携の要件定義で活きます"],
+  ["顧客データ・購買行動の理解", "そのまま強み", "レコメンド・CRM・リテールメディアの設計に直結します"],
+  ["Web開発（React・Python等）", "要習得", "ECプラットフォーム開発はモダンスタックが前提です"],
   ["データ分析（SQL / Python）", "要習得", "購買データ分析・需要予測のポジションで求められます"],
   ["クラウド（AWS / GCP）", "要習得", "クラウド型ECやマイクロサービス運用で必要になります"],
 ];
@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "在職中でも転職活動は進められますか？",
-    a: "可能です。多くのエージェントはオンライン面談や夜間・休日対応に対応しています。スキルの棚卸しと求人レンジの確認から始め、応募は条件に合うものに絞ると在職中でも無理なく進められます。",
+    a: "可能です。多くのエージェントはオンライン面談や夜間・休日の相談に対応しています。スキルの棚卸しと求人レンジの確認から始め、応募は条件に合うものに絞ると在職中でも無理なく進められます。",
   },
 ];
 
@@ -141,15 +141,15 @@ export default function RetailPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：店舗・流通の業務知識が強みになる</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">店舗・流通の業務知識が強みになる</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">
               小売・流通の業務知識を持つエンジニアのECテック転職は、<strong>十分に現実的</strong>です。OMOやリテールテックでは「店舗の現場で何が起きるか」「商流・在庫がどう動くか」を理解していることが価値になり、これは後から参入する純粋なIT人材が短期間で身につけにくい領域だからです。
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
-              <li>・<strong>強み</strong>：POS・在庫・顧客データの理解はそのまま活きる希少資産</li>
-              <li>・<strong>埋めるべきギャップ</strong>：Web開発・データ分析・クラウドの基礎</li>
-              <li>・<strong>進め方</strong>：経験の棚卸し → スキル補強 → IT特化エージェントで求人レンジ確認</li>
+              <li>・<strong>強み</strong>：POS・在庫・顧客データの理解は、そのまま活かせる希少な強みです</li>
+              <li>・<strong>埋めるべきギャップ</strong>：Web開発・データ分析・クラウドの基礎です</li>
+              <li>・<strong>進め方</strong>：経験の棚卸し → スキル補強 → IT特化エージェントで求人レンジ確認の順に進めます</li>
             </ul>
           </div>
         </section>
@@ -173,7 +173,7 @@ export default function RetailPage() {
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という追い風</h3>
+              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という背景</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 経済産業省『IT人材需給に関する調査』（2019年3月公表）の試算では、2030年に最大約79万人のIT人材が不足するとされています。特定業界に限った数字ではありませんが、ドメイン知識を持つエンジニアが希少という全体傾向の背景として参考になります。
               </p>
@@ -198,7 +198,7 @@ export default function RetailPage() {
                     <th className="px-4 py-3 text-left font-medium text-slate-700 align-top">{skill}</th>
                     <td
                       className={`px-4 py-3 font-medium whitespace-nowrap align-top ${
-                        status === "そのまま活きます" ? "text-petrol" : "text-amber-600"
+                        status === "そのまま強み" ? "text-petrol" : "text-amber-600"
                       }`}
                     >
                       {status}
@@ -262,8 +262,8 @@ export default function RetailPage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">慎重に検討したい人</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
-                  "小売・商流の経験がなく、技術力だけを強みにしたい",
-                  "店舗運営や在庫・物流の実務に関心が薄いです",
+                  "小売・商流の経験がなく、技術力だけを強みにしたいと考えています",
+                  "店舗運営や在庫・物流の実務にあまり関心がありません",
                   "学習に時間を割けず、即戦力の技術力も足りません",
                   "短期間での大幅な年収アップだけを目的にしています",
                 ].map((t, i) => (
@@ -329,7 +329,7 @@ export default function RetailPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ECプラットフォーム・モール運営</h3>
-              <p className="text-sm text-slate-600">EC基盤やモール型サービスを開発・運営する企業です。商品・注文・決済の業務知識が活きやすいです。</p>
+              <p className="text-sm text-slate-600">EC基盤やモール型サービスを開発・運営する企業です。商品・注文・決済の業務知識が活きやすくなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">リテールテック・店舗DXソリューション</h3>
@@ -337,7 +337,7 @@ export default function RetailPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">購買データ分析・OMOソリューション</h3>
-              <p className="text-sm text-slate-600">レコメンド・CRM・リテールメディアやOMO統合を手がける企業です。データ分析＋顧客理解が差別化要素になります。</p>
+              <p className="text-sm text-slate-600">レコメンド・CRM・リテールメディアやOMO統合を手がける企業です。データ分析と顧客理解の両方が差別化要素になります。</p>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -351,8 +351,8 @@ export default function RetailPage() {
             {[
               { step: "1", title: "小売・流通の経験を棚卸しする", desc: "POS連携、在庫管理、物流システム、顧客管理（CRM）など携わった案件を整理します。売上改善率やコスト削減額など定量的な成果を準備します。" },
               { step: "2", title: "Web開発・データ分析を補強する", desc: "Python・SQL・JavaScript（React/Next.js）の基礎を学びます。EC構築ならShopifyなどの知識も有効です。" },
-              { step: "3", title: "ECテック・リテールテック領域をリサーチ", desc: "OMO、ライブコマース、ダイナミックプライシング、リテールメディアなどのうち、自分の経験が最も活きる領域を見極めます。" },
-              { step: "4", title: "IT特化エージェントで求人レンジを確認", desc: "Geekly・ワークポート・レバテックキャリアなどに登録し、実際のECテック求人と提示年収レンジを比較します。" },
+              { step: "3", title: "ECテック・リテールテック領域をリサーチする", desc: "OMO、ライブコマース、ダイナミックプライシング、リテールメディアなどのうち、自分の経験が最も活きる領域を見極めます。" },
+              { step: "4", title: "IT特化エージェントで求人レンジを確認する", desc: "Geekly・ワークポート・レバテックキャリアなどに登録し、実際のECテック求人と提示年収レンジを比較します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -379,7 +379,7 @@ export default function RetailPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートB：既存の開発スキルにモダンスタックを足す</h3>
-              <p className="text-sm text-slate-600">基幹・POS開発の経験者がReact・Python・SQLを補強してECテックのエンジニア職を目指す道があります。学習成果を小さな制作物で示すと伝わりやすいです。</p>
+              <p className="text-sm text-slate-600">基幹・POS開発の経験者がReact・Python・SQLを補強してECテックのエンジニア職を目指す道があります。学習成果を小さな制作物で示すと伝わりやすくなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートC：購買データ分析へ寄せる</h3>
@@ -439,7 +439,7 @@ export default function RetailPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">小売・流通の知識をECテックで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">小売・流通の知識をECテックで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談し、ECテック求人の実際のレンジと自分の市場価値を確認しましょう。
           </p>

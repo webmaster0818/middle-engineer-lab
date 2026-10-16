@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：大阪のIT転職市場の特徴" },
+  { id: "conclusion", label: "大阪のIT転職市場の特徴" },
   { id: "cluster", label: "大阪のIT企業集積と特徴" },
   { id: "workstyle", label: "働き方の選択肢" },
   { id: "salary", label: "年収の考え方（年代別）" },
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "大阪と東京、どちらがIT転職で有利ですか？",
-    a: "求人の絶対数は東京が圧倒的に多く、選択肢の広さでは東京が有利です。ただし大阪は西日本最大のIT集積地で、製造業のDX案件やSIer、Web系まで一通りそろいます。Uターン・Iターンで関西に拠点を移したい人や、フルリモートで東京企業に勤めたい人には大阪を起点にする選択も現実的です。",
+    a: "求人の絶対数は東京が大幅に多く、選択肢の広さでは東京が有利です。ただし大阪は西日本最大のIT集積地で、製造業のDX案件やSIer、Web系まで一通りそろいます。Uターン・Iターンで関西に拠点を移したい人や、フルリモートで東京企業に勤めたい人には大阪を起点にする選択も現実的です。",
   },
   {
     q: "東京から大阪へ移ると年収は下がりますか？",
@@ -63,19 +63,19 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化で全国の求人を扱います。利用者の約80%が20〜30代という二次情報があり、技術理解に基づく提案と年収交渉が強みです。内定承諾者のうち応募時年収との差が70万円以上＝3人に2人です（2023年1月〜2024年3月実績）。",
+      "IT/Web特化で全国の求人を扱います。利用者の約80%が20〜30代という二次情報があり、技術理解に基づく提案と年収交渉が強みです。内定承諾者の3人に2人で、応募時年収との差が70万円以上だったとされています（2023年1月〜2024年3月実績）。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の国内最大級です。IT・通信エンジニア求人は5万件超です（2026年2月時点・二次経由）。検索＋エージェント＋スカウトのハイブリッド型で、製造業DXを含む幅広い求人にアクセスしやすいです。",
+      "全国対応で国内最大級の規模を持ち、IT・通信エンジニア求人は5万件超です（2026年2月時点・二次経由）。検索＋エージェント＋スカウトのハイブリッド型で、製造業DXを含む幅広い求人にアクセスしやすくなります。",
   },
   {
     name: "マイナビIT AGENT",
     href: "/review/mynavi-it/",
     point:
-      "20〜30代の若手層に強く、書類添削・面接対策が手厚いです。転職メディア集計では定着率97.5%との数値もあります。初めての転職で丁寧なサポートを求める人に向きます。",
+      "20〜30代の若手層の支援に強みがあり、書類添削・面接対策が手厚い点が特徴です。転職メディア集計では定着率97.5%との数値もあります。初めての転職で丁寧なサポートを求める人に向きます。",
   },
 ];
 
@@ -126,17 +126,17 @@ export default function OsakaAreaPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 市場の特徴 */}
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：大阪は西日本最大のIT転職市場</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">大阪は西日本最大のIT転職市場</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               大阪は東京に次ぐ規模を持つ西日本最大のIT転職エリアです。SIer・Web系・スタートアップに加え、製造業の本社・拠点が多いためDX関連の求人が厚いのが特徴です。求人の絶対数は東京に及ばず、相場も首都圏よりやや下がる傾向はありますが、生活コストを踏まえれば実質的な差は縮まります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1 list-disc list-inside">
-              <li>SIerからWeb系・自社開発まで職種の幅が広く、Uターン・Iターンの受け皿になりやすいです</li>
-              <li>製造業DXという関西ならではの需要があり、業務知識×ITが強みになる</li>
-              <li>フルリモートなら東京企業に在籍したまま大阪在住という選択も現実的</li>
+              <li>SIerからWeb系・自社開発まで職種の幅が広く、Uターン・Iターンの受け皿になりやすい傾向があります</li>
+              <li>製造業DXという関西ならではの需要があり、業務知識×ITが強みになります</li>
+              <li>フルリモートなら、東京企業に在籍したまま大阪に住む選択も現実的です</li>
             </ul>
           </div>
         </section>
@@ -231,7 +231,7 @@ export default function OsakaAreaPage() {
             この3パターンは排他的ではなく、転職活動の中で並行して検討するのが現実的です。たとえば「第一志望は大阪の事業会社、ただし条件が合わなければ東京企業のフルリモートも視野に入れる」というように、軸を一つに絞り込まず幅を持たせておくと、年収と働き方の両面で選択肢を確保できます。特に30代・40代は家族の生活拠点を動かしにくいケースが多いため、居住地を大阪に固定したうえで「通勤可能な大阪求人」と「全国採用のリモート求人」を両輪で探すアプローチが有効です。
           </p>
           <p className="text-slate-600 leading-relaxed mt-4">
-            出社頻度は同じ「ハイブリッド」でも企業によって週1〜週4と幅が大きく、求人票の表記だけでは実態が読み取れないことが多いです。内定前の段階で「現在の出社頻度」「チーム内のリモート比率」「将来的に出社方針が変わる可能性」をエージェント経由で確認しておくと、入社後のミスマッチを避けられます。
+            出社頻度は同じ「ハイブリッド」でも企業によって週1〜週4と幅が大きく、求人票の表記だけでは実態が読み取れないことが多くあります。内定前の段階で「現在の出社頻度」「チーム内のリモート比率」「将来的に出社方針が変わる可能性」をエージェント経由で確認しておくと、入社後のミスマッチを避けられます。
           </p>
           <p className="text-sm text-slate-500 mt-4">
             リモート前提で探す場合は、
@@ -331,7 +331,7 @@ export default function OsakaAreaPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1 text-sm">1. 軸を決める（勤務地・働き方・年収）</h3>
-              <p className="text-sm text-slate-600">大阪通勤か、東京企業フルリモートか。最初に方針を固めると求人の絞り込みが速くなります。</p>
+              <p className="text-sm text-slate-600">大阪通勤か、東京企業のフルリモートかを決めます。最初に方針を固めると求人の絞り込みが速くなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1 text-sm">2. IT特化＋総合型を2〜3社登録</h3>
@@ -382,7 +382,7 @@ export default function OsakaAreaPage() {
                 <li>・特定領域の自社開発求人を数多く比較したい</li>
                 <li>・現職と同水準以上の高年収を最優先したい</li>
                 <li>・先端技術スタックの求人を幅広く選びたい</li>
-                <li>・未経験から短期で正社員転職を目指しています</li>
+                <li>・未経験から短期で正社員転職を目指している</li>
               </ul>
               <p className="text-xs text-slate-500 mt-3">該当する場合は、東京企業のフルリモート求人の併用を検討すると選択肢が広がります。</p>
             </div>
@@ -407,7 +407,7 @@ export default function OsakaAreaPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">大阪のIT転職を始めよう</h2>
+          <h2 className="text-xl font-bold mb-3">大阪のIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化＋総合型のエージェントに複数登録し、関西の求人提案量を比較するところから始めます。
           </p>

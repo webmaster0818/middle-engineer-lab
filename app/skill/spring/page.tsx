@@ -12,12 +12,12 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Springエンジニアの転職市場での進め方" },
+  { id: "conclusion", label: "1. Springエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Springの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Springエンジニアのキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
-  { id: "entry", label: "6. Javaから Springに参入するルート" },
+  { id: "find", label: "5. 求人の探し方と主なエージェント" },
+  { id: "entry", label: "6. JavaからSpringに参入するルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
   { id: "faq", label: "9. よくある質問" },
@@ -124,15 +124,15 @@ export default function SpringSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Springエンジニアの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Springエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Springはエンタープライズ領域で需要が安定した、求人母数の大きいフレームワークです。</strong>希少性を強みにするGoやScalaとは逆に、母数の大きさと設計力・業務知識を強みにするのが向いています。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・記述言語Javaはpaiza 2025年調査で企業ニーズ（求人数比率）<strong>2位です（13.9%）</strong>。転職機会を得やすいです</li>
+              <li>・記述言語Javaはpaiza 2025年調査で企業ニーズ（求人数比率）<strong>2位（13.9%）</strong>で、転職機会を得やすい環境です</li>
               <li>・Javaのバックエンド経験があれば、Spring未経験でもポテンシャル採用の余地があります</li>
-              <li>・Springは<strong>クラウド・マイクロサービスやドメイン知識との掛け合わせ</strong>で設計・テックリード級に届きます</li>
+              <li>・Springは<strong>クラウド・マイクロサービスやドメイン知識との掛け合わせ</strong>で設計・テックリード級のポジションも視野に入ります</li>
             </ul>
           </div>
         </section>
@@ -198,10 +198,10 @@ export default function SpringSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "バックエンドエンジニア", note: "Spring Bootでの業務システム・API開発が中心です。求人の最も多いゾーン" },
-              { role: "アーキテクト／テックリード", note: "Spring基盤の設計＋マイクロサービス化＋技術選定" },
-              { role: "クラウド／マイクロサービス", note: "Spring＋AWS／コンテナで、基幹システムのモダナイズを担います" },
-              { role: "PM／PL（技術出身）", note: "Springの実装理解を土台に、大規模開発の進行管理を担います" },
+              { role: "バックエンドエンジニア", note: "Spring Bootでの業務システム・API開発が中心。求人数が最も多いゾーン" },
+              { role: "アーキテクト／テックリード", note: "Spring基盤の設計、マイクロサービス化、技術選定" },
+              { role: "クラウド／マイクロサービス", note: "Spring＋AWS／コンテナによる基幹システムのモダナイズ" },
+              { role: "PM／PL（技術出身）", note: "Springの実装理解を土台にした大規模開発の進行管理" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -215,7 +215,7 @@ export default function SpringSkillPage() {
         </section>
 
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Springは求人の幅が広く母数も大きいため、複数登録して比較するのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -248,7 +248,7 @@ export default function SpringSkillPage() {
         </section>
 
         <section id="entry" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Javaから Springに参入するルート</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">JavaからSpringに参入するルート</h2>
           <div className="space-y-4">
             {[
               { num: "1", title: "Javaのバックエンド経験を土台にする", desc: "JavaでのWeb／業務システム開発の経験があれば、それを土台に「Springは未経験だがキャッチアップ可」とアピールできます。オブジェクト指向やDBアクセスの理解が前提になるため、Java経験はそのまま強みになります。" },
@@ -290,13 +290,13 @@ export default function SpringSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① Spring Bootから始めます。</strong>SpringはSpring Bootを使うことで設定が簡素化され、学習の入口がぐっと下がります。公式ガイドに沿ってREST APIを作り、DIや自動設定の仕組みを押さえると、Springの全体像をつかめます。
+              <strong>① Spring Bootから始めます。</strong>SpringはSpring Bootを使うことで設定が簡素化され、学習のハードルが下がります。公式ガイドに沿ってREST APIを作り、DIや自動設定の仕組みを押さえると、Springの全体像をつかめます。
             </p>
             <p>
               <strong>② トランザクション・DBアクセスを深めます。</strong>Spring Data JPAやトランザクション管理はエンタープライズ開発の核心です。実際にDBを伴うアプリを作り、トランザクション境界や例外処理を経験として語れる状態にしましょう。
             </p>
             <p>
-              <strong>③ クラウド・マイクロサービスを掛け合わせます。</strong>AWS・コンテナでのデプロイや、Spring Bootによるマイクロサービス分割の経験を積むと、基幹システムのモダナイズ案件や設計・テックリード級の求人に手が届きます。
+              <strong>③ クラウド・マイクロサービスを掛け合わせます。</strong>AWS・コンテナでのデプロイや、Spring Bootによるマイクロサービス分割の経験を積むと、基幹システムのモダナイズ案件や設計・テックリード級の求人も視野に入ります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。

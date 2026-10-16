@@ -31,8 +31,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんなエンジニア向きか" },
-  { id: "basic", label: "基本データ（企業概要・出典付き）" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
+  { id: "basic", label: "基本データ（企業概要・出典あり）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
   { id: "salary", label: "年収データ（有価証券報告書・公式求人）" },
@@ -48,11 +48,11 @@ const toc = [
 const faqs = [
   {
     q: "日本オラクルのエンジニア転職の難易度は高い？",
-    a: "外資系大手クラウド企業として専門性が重視され、Oracle Databaseやクラウド（OCI等）、特定領域の導入・運用の実務経験が前提になります。エンジニア・コンサルタント・セールスといった職種があり、データベースやクラウドの専門性、自律的に学び続ける姿勢があれば30代・40代でも挑戦できます。難易度は中〜やや高で、英語を使う場面もあります。",
+    a: "外資系大手クラウド企業として専門性が重視され、Oracle Databaseやクラウド（OCI等）、特定領域の導入・運用の実務経験が前提になります。エンジニア・コンサルタント・セールスといった職種があり、データベースやクラウドの専門性、自律的に学び続ける姿勢があれば30代・40代でも挑戦できます。難易度は中〜やや高い水準で、英語を使う場面もあります。",
   },
   {
     q: "日本オラクルのエンジニアの平均年収はいくら？",
-    a: "日本オラクル株式会社の有価証券報告書（2025年5月期）に記載された全社員の平均年間給与は1,259万円、平均年齢は44.1歳です（エンジニア職に限った数値ではなく全社員平均）。外資系クラウド企業として国内トップクラスの水準で、近年は1,000万円超で推移し直近期に大きく上昇しました。職種・等級別の正式な年収表は公開されていないため、個別の提示額は求人ごとに決定されます。",
+    a: "日本オラクル株式会社の有価証券報告書（2025年5月期）に記載された全社員の平均年間給与は1,259万円、平均年齢は44.1歳です（エンジニア職に限った数値ではなく全社員平均）。外資系クラウド企業の中でも国内上位の水準で、近年は1,000万円超で推移し直近期に大きく上昇しました。職種・等級別の正式な年収表は公開されていないため、個別の提示額は求人ごとに決定されます。",
   },
   {
     q: "日本オラクルの技術スタックは？",
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     q: "日本オラクルへの転職で有利な経験は？",
-    a: "Oracle Databaseやクラウド（OCI等）の設計・構築・運用の経験、クラウド導入・移行（オンプレからクラウドまで）の経験が基本です。ERP/HCM等の業務知識、コンサルティング経験、英語でのコミュニケーション力、自律的に学び続ける姿勢があると評価されやすい傾向です。",
+    a: "Oracle Databaseやクラウド（OCI等）の設計・構築・運用の経験、クラウド導入・移行（オンプレからクラウドまで）の経験が基本です。ERP/HCM等の業務知識、コンサルティング経験、英語でのコミュニケーション力、自律的に学び続ける姿勢があると評価されやすい傾向があります。",
   },
 ];
 
@@ -104,7 +104,7 @@ export default function OracleJapanCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】日本オラクルの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 日本オラクル株式会社の平均年間給与は1,259万円です（2025年5月期 有価証券報告書・全社員平均、平均年齢44.1歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>日本オラクル株式会社の平均年間給与は1,259万円です（2025年5月期 有価証券報告書・全社員平均、平均年齢44.1歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,259万円です（2025年5月期 有価証券報告書・全社員平均）。営業・コンサル等も含む全社員平均で、エンジニアに限った値ではありません。</li><li>・推移は2021年5月期1,073万円→2023年5月期1,126万円→2024年5月期1,160万円→2025年5月期1,259万円と直近期に大きく上昇しています（各期 有価証券報告書）。</li><li>・職種・等級別の正式な年収表は非公表です。外資系のため提示額は求人ごとに個別決定され、求人・面談での確認が必要です。</li></ul>
         </div>
 
@@ -136,19 +136,19 @@ export default function OracleJapanCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：データベース・クラウドの専門性があり、外資系の成果主義で高年収を狙いたいエンジニア向きです。難易度は中〜やや高。</p>
+            <p className="font-bold text-blue-900 mb-3">データベース・クラウドの専門性があり、外資系の成果主義のもとで高い年収水準を求めるエンジニアに向いている企業です。難易度は中〜やや高い水準です。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li className="flex gap-2"><span className="shrink-0">1.</span>Oracle Databaseやクラウド（OCI等）の設計・構築・運用、クラウド導入の経験が直接活きます。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は1,259万円です（2025年5月期 有価証券報告書）。外資系クラウド企業として国内トップクラスの水準です。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>クラウド事業を成長の軸とするグローバル企業で、専門性を深めつつ高年収を狙いたい人に向きます。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は1,259万円（2025年5月期 有価証券報告書）で、外資系クラウド企業の中でも国内上位の水準にあります。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>クラウド事業を成長の軸とするグローバル企業で、専門性を深めつつ高い年収水準を求める人に向いています。</li>
             </ul>
           </div>
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（企業概要・出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（企業概要・出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -299,7 +299,7 @@ export default function OracleJapanCompanyPage() {
               <h3 className="font-bold text-amber-800 mb-2 text-sm">ネガティブ・注意したい傾向</h3>
               <ul className="space-y-1.5 text-sm text-amber-900">
                 <li>外資系ゆえの成果主義・目標達成へのプレッシャーを挙げる声があります</li>
-                <li>英語を使う場面があり、グローバル連携の負荷があります</li>
+                <li>英語を使う場面があり、グローバル連携の負荷を挙げる声があります</li>
                 <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意が必要です</li>
               </ul>
             </div>
@@ -311,10 +311,10 @@ export default function OracleJapanCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見た日本オラクル</h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              日本オラクルは上場済みのグローバルなクラウド企業で、クラウド事業（OCI）を成長の軸とするフェーズにあります。30代・40代のミドルエンジニアにとっては、「データベース・クラウドの専門性を活かし、外資系の成果主義で高年収を狙いたい」というニーズに合致しやすい選択肢です。
+              日本オラクルは上場済みのグローバルなクラウド企業で、クラウド事業（OCI）を成長の軸とするフェーズにあります。30代・40代のミドルエンジニアにとっては、「データベース・クラウドの専門性を活かし、外資系の成果主義のもとで年収を高めたい」というニーズに合致しやすい選択肢です。
             </p>
             <p>
-              平均年齢が44.1歳（2025年5月期）と高めで、ミドル・シニア層が中心の組織構成です。Oracle Databaseやクラウドの設計・構築・運用の経験、クラウド導入・移行の経験、ERP/HCM等の業務知識やコンサルティング経験は、年齢に見合った価値として評価されやすいでしょう。外資系のため、技術力に加えて成果へのコミットや英語力も強みになります。
+              平均年齢が44.1歳（2025年5月期）と高めで、ミドル・シニア層が中心の組織構成です。Oracle Databaseやクラウドの設計・構築・運用の経験、クラウド導入・移行の経験、ERP/HCM等の業務知識やコンサルティング経験は、年齢に見合った価値として評価されやすいと考えられます。外資系のため、技術力に加えて成果へのコミットや英語力も強みになります。
             </p>
             <p>
               年収面では、現職が頭打ちになっている30代・40代にとって、日本オラクルの全社員平均1,259万円（有価証券報告書）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
@@ -329,8 +329,8 @@ export default function OracleJapanCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">日本オラクル転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。外資・クラウドの非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "外資・ハイクラスに強く、年収帯の高いクラウド・専門職の求人に対応しています。英文レジュメ対策も受けられます。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化型で、高年収求人の比率が高い傾向があります。外資・クラウドの非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "外資・ハイクラス領域に強みがあり、年収帯の高いクラウド・専門職の求人に対応しています。英文レジュメ対策も受けられます。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、IT企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

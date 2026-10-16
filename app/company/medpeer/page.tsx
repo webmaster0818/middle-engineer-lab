@@ -32,8 +32,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんなエンジニア向きか" },
-  { id: "basic", label: "基本データ（企業概要・出典付き）" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
+  { id: "basic", label: "基本データ（企業概要・出典あり）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
   { id: "salary", label: "年収データ（有価証券報告書）" },
@@ -49,7 +49,7 @@ const toc = [
 const faqs = [
   {
     q: "メドピアのエンジニア転職の難易度は高い？",
-    a: "医療×ITのプラットフォーム企業として人気があり、Webアプリケーション開発の実務経験が前提になります。少数精鋭の組織で一人あたりの裁量が大きく、Ruby on Rails等のバックエンドやTypeScript等のフロント経験、医療・ヘルスケアドメインへの関心があると評価されやすい傾向です。プロダクト志向の30代・40代にとっては挑戦しやすい選択肢です。",
+    a: "医療×ITのプラットフォーム企業として人気があり、Webアプリケーション開発の実務経験が前提になります。少数精鋭の組織で一人あたりの裁量が大きく、Ruby on Rails等のバックエンドやTypeScript等のフロント経験、医療・ヘルスケアドメインへの関心があると評価されやすい傾向があります。プロダクト志向の30代・40代にとっては挑戦しやすい選択肢です。",
   },
   {
     q: "メドピアのエンジニアの平均年収はいくら？",
@@ -73,7 +73,7 @@ const faqs = [
   },
   {
     q: "メドピアへの転職で有利な経験は？",
-    a: "Ruby on Rails等のバックエンド実務経験、TypeScript等でのフロント開発経験が基本です。プロダクトを主体的に改善した経験、AWS等のインフラ知見、医療・ヘルスケアドメインへの関心があると評価されやすい傾向です。少数精鋭の組織のため、自走力も重視されます。",
+    a: "Ruby on Rails等のバックエンド実務経験、TypeScript等でのフロント開発経験が基本です。プロダクトを主体的に改善した経験、AWS等のインフラ知見、医療・ヘルスケアドメインへの関心があると評価されやすい傾向にあります。少数精鋭の組織のため、自走力も重視されます。",
   },
 ];
 
@@ -105,8 +105,8 @@ export default function MedPeerCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】メドピアの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: メドピア株式会社の平均年間給与は618万円です（2024年9月期 有価証券報告書・単体／全社員平均、平均年齢35.8歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 618万円です（2024年9月期 有価証券報告書・単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・近年は600万円前後で推移し、2023年9月期615万円から2024年9月期618万円です（各期 有価証券報告書・単体）。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため求人票・エージェントで確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>メドピア株式会社の平均年間給与は618万円です（2024年9月期 有価証券報告書・単体／全社員平均、平均年齢35.8歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 618万円です（2024年9月期 有価証券報告書・単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・近年は600万円前後で推移しており、2024年9月期は618万円（2023年9月期は615万円）となっています（各期 有価証券報告書・単体）。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -137,19 +137,19 @@ export default function MedPeerCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：Ruby on Rails等のWeb開発経験があり、医療ドメインの社会的意義を重視するプロダクト志向のエンジニア向きです。難易度は中。</p>
+            <p className="font-bold text-blue-900 mb-3">Ruby on Rails等のWeb開発経験があり、医療ドメインの社会的意義を重視するプロダクト志向のエンジニアに向いている企業です。難易度は中程度です。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li className="flex gap-2"><span className="shrink-0">1.</span>Ruby on Rails・TypeScript中心のモダンなWeb開発経験が活きます。少数精鋭で裁量が大きいです。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は618万円です（2024年9月期 有価証券報告書・単体）。ヘルステックSaaSとして堅実な水準です。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>医師向けプラットフォームを軸に医療DXを推進します。社会的意義のある事業に関わりたいミドルに向きます。</li>
+              <li className="flex gap-2"><span className="shrink-0">1.</span>Ruby on Rails・TypeScript中心のモダンなWeb開発経験が活きます。少数精鋭の組織で、裁量が大きい点も特徴です。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は618万円（2024年9月期 有価証券報告書・単体）で、ヘルステックSaaSとして堅実な水準といえます。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>医師向けプラットフォームを軸に医療DXを推進しており、社会的意義のある事業に関わりたいミドルに向いています。</li>
             </ul>
           </div>
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（企業概要・出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（企業概要・出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -249,9 +249,9 @@ export default function MedPeerCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["カジュアル面談（任意）", "選考前にエンジニアや採用担当と話し、事業・技術文化を知れる機会。"],
+              ["カジュアル面談（任意）", "選考前にエンジニアや採用担当と話し、事業・技術文化を知ることができます。"],
               ["エントリー（書類選考）", "募集ポジションから応募し書類を提出します。職務経歴・技術スタックが確認されます。"],
-              ["面接（複数回）", "現場エンジニア・マネージャー等との面接。技術的な議論や設計・実装に関する質問が中心。"],
+              ["面接（複数回）", "現場エンジニア・マネージャー等との面接が行われます。技術的な議論や設計・実装に関する質問が中心です。"],
               ["内定（オファー）", "条件・制度の説明を受けます。配属やミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
@@ -315,7 +315,7 @@ export default function MedPeerCompanyPage() {
               メドピアは平均年齢35.8歳（2024年9月期・単体）の組織で、医師向けプラットフォームを軸に医療DXを推進するフェーズにあります。30代・40代のミドルエンジニアにとっては、「Web開発のスキルを、社会的意義のある医療ドメインで活かしたい」というニーズに合致しやすい選択肢です。
             </p>
             <p>
-              Ruby on Rails等でのWeb開発経験、プロダクトを主体的に改善・推進した経験、AWS等のインフラ知見は、年齢に見合った価値として評価されやすいでしょう。少数精鋭の組織のため、設計やプロダクトをリードした経験を持つミドルは特に力を発揮しやすい一方、「指示された範囲だけ実装する」スタンスだと裁量の大きい文化とは合いにくい面があります。
+              Ruby on Rails等でのWeb開発経験、プロダクトを主体的に改善・推進した経験、AWS等のインフラ知見は、年齢に見合った価値として評価されやすいと考えられます。少数精鋭の組織のため、設計やプロダクトをリードした経験を持つミドルは特に力を発揮しやすい一方、「指示された範囲だけ実装する」スタンスだと裁量の大きい文化とは合いにくい面があります。
             </p>
             <p>
               年収面では、メドピアの単体平均618万円（有価証券報告書）はヘルステックSaaSとして堅実な水準です。提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
@@ -330,9 +330,9 @@ export default function MedPeerCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">メドピア転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。SaaS・ヘルステックの求人にも対応しています。書類添削・面接対策に定評があります。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化型で、高年収求人の比率が高い傾向があります。SaaS・ヘルステックの求人にも対応しています。書類添削・面接対策に定評があります。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、Web系企業への転職実績が豊富です。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高いテック企業・専門職の求人に対応しています。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス求人に強みがあり、年収帯の高いテック企業・専門職の求人に対応しています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

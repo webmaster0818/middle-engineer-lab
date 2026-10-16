@@ -7,32 +7,32 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/english/" },
   title: "英語を活かすエンジニア転職【外資・グローバル企業の年収】",
   description:
-    "英語力を活かせるエンジニア転職先を解説します。外資系IT、グローバル企業、海外リモートの年収相場、必要な英語力レベル、転職成功事例を紹介します。",
+    "英語力を活かせるエンジニアの転職先について、外資系IT、グローバル企業、海外リモートの年収相場、必要な英語力レベル、転職成功事例を解説します。",
 };
 
 const faqs = [
   {
-    q: "エンジニアに必要な英語力のレベルは？",
+    q: "エンジニアに必要な英語力のレベルはどのくらいですか？",
     a: "外資系IT企業ではTOEIC 800点以上が目安です。ただし面接は英語で技術ディスカッションを行うため、スコアよりも実践的な英語力が重要です。技術ドキュメントの読み書きと英語ミーティングへの参加ができるレベルを目指しましょう。",
   },
   {
-    q: "英語ができるとどれくらい年収が上がる？",
-    a: "同じスキルレベルでも英語ができるエンジニアは年収が30〜80%高くなる傾向です。外資系ITのシニアエンジニアで1,000〜1,500万円、日系グローバル企業でも700〜1,000万円が相場です。",
+    q: "英語ができるとどれくらい年収が上がりますか？",
+    a: "同じスキルレベルでも英語ができるエンジニアは年収が30〜80%高くなる傾向があります。外資系ITのシニアエンジニアで1,000〜1,500万円、日系グローバル企業でも700〜1,000万円が相場です。",
   },
   {
-    q: "英語力をつけるにはどう学習すべき？",
+    q: "英語力をつけるにはどう学習すべきですか？",
     a: "オンライン英会話（毎日25分）+ 英語の技術ドキュメント読解 + 英語のポッドキャスト/YouTubeが効率的です。6ヶ月〜1年の継続でビジネスレベルに到達できます。",
   },
   {
-    q: "海外リモートワークは可能？",
+    q: "海外リモートワークは可能ですか？",
     a: "可能です。GitLab、Automattic、Stripe等はグローバルリモートを採用しています。日本法人がなくてもコントラクターとして働けるケースもあります。税務・ビザの確認が必要です。",
   },
   {
-    q: "英語面接の対策方法は？",
+    q: "英語面接の対策方法を教えてください。",
     a: "STAR法で過去の経験を英語で語る練習、技術用語の英語表現の習得、模擬面接（オンライン英会話のビジネスコース）が有効です。事前に想定質問と回答を用意しておきましょう。",
   },
   {
-    q: "TOEIC何点から外資系に応募できる？",
+    q: "TOEIC何点から外資系に応募できますか？",
     a: "最低でも700点、推奨は800点以上です。ただしTOEICスコアよりも実際のコミュニケーション能力が重視されます。スコアが低くても実務で英語を使った経験があればアピールできます。",
   },
 ];
@@ -50,22 +50,22 @@ export default function EnglishPage() {
 
   return (
     <>
-      <ArticleJsonLd title="英語を活かすエンジニア転職【外資・グローバル企業の年収】" description="英語力を活かせるエンジニア転職先を解説します。外資系IT、グローバル企業、海外リモートの年収相場、必要な英語力レベル、転職成功事例を紹介します。" url="/purpose/english/" />
+      <ArticleJsonLd title="英語を活かすエンジニア転職【外資・グローバル企業の年収】" description="英語力を活かせるエンジニアの転職先について、外資系IT、グローバル企業、海外リモートの年収相場、必要な英語力レベル、転職成功事例を解説します。" url="/purpose/english/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "目的別ガイド", href: "/purpose/" }, { name: "英語を活かすエンジニア転職" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">英語を活かすエンジニア転職</h1>
-        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | 英語力×エンジニアスキルで年収を最大化</p>
+        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | 英語力とエンジニアスキルを年収アップにつなげるためのガイド</p>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- TOEIC 700点以上で英語力を活かしたい</li>
-              <li>- 外資系IT企業で高年収を目指したい</li>
-              <li>- グローバルチームで働く経験を積みたい</li>
-              <li>- 将来的に海外勤務や海外リモートワークをしたい</li>
+              <li>- TOEIC 700点以上で、英語力を活かしたい方</li>
+              <li>- 外資系IT企業で高年収を目指したい方</li>
+              <li>- グローバルチームで働く経験を積みたい方</li>
+              <li>- 将来的に海外勤務や海外リモートワークをしたい方</li>
             </ul>
           </div>
         </section>
@@ -106,9 +106,9 @@ export default function EnglishPage() {
           <div className="space-y-4">
             {[
               { num: "1", title: "LinkedInプロフィールを英語で充実させる", desc: "外資系のリクルーターはLinkedInで人材を探します。英語のプロフィール、スキル、経歴を充実させましょう。" },
-              { num: "2", title: "英語でのアウトプットを増やす", desc: "英語の技術ブログ、英語でのOSSコントリビューション、海外カンファレンスでの登壇が強力なアピール材料になります。" },
-              { num: "3", title: "外資系特化のエージェントを活用", desc: "ロバート・ウォルターズ、エンワールド、ヘイズなど外資系に強いエージェントに登録しましょう。" },
-              { num: "4", title: "コーディング面接を英語で練習", desc: "LeetCodeの問題を英語で解く、mock interviewを英語で受けるなど、英語での技術面接に慣れましょう。" },
+              { num: "2", title: "英語でのアウトプットを増やす", desc: "英語の技術ブログ、英語でのOSSコントリビューション、海外カンファレンスでの登壇が有効なアピール材料になります。" },
+              { num: "3", title: "外資系特化のエージェントを活用する", desc: "ロバート・ウォルターズ、エンワールド、ヘイズなど外資系の求人を多く扱うエージェントに登録しましょう。" },
+              { num: "4", title: "コーディング面接を英語で練習する", desc: "LeetCodeの問題を英語で解く、mock interviewを英語で受けるなど、英語での技術面接に慣れましょう。" },
               { num: "5", title: "英語力の証明を用意する", desc: "TOEICスコア、英語での業務経験、英語のプレゼン資料など、英語力を客観的に証明する材料を準備しましょう。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -126,9 +126,9 @@ export default function EnglishPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "ロバート・ウォルターズ", point: "外資系IT専門です。英語面接対策も充実しています。バイリンガルのアドバイザーが在籍しています。" },
-              { name: "エンワールド・ジャパン", point: "外資系・グローバル企業に特化しています。年収交渉力が高いです。" },
-              { name: "ビズリーチ", point: "外資系からの直接スカウトが届きます。ハイクラス求人が豊富です。" },
+              { name: "ロバート・ウォルターズ", point: "外資系ITを専門とし、英語面接対策も充実しています。バイリンガルのアドバイザーが在籍している点も特徴です。" },
+              { name: "エンワールド・ジャパン", point: "外資系・グローバル企業に特化しており、年収交渉力が高い傾向があります。" },
+              { name: "ビズリーチ", point: "外資系企業から直接スカウトが届く仕組みで、ハイクラス求人が豊富です。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -155,7 +155,7 @@ export default function EnglishPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">英語力を活かす転職を無料で相談</h2>
-          <p className="text-blue-100 text-sm mb-4">外資系・グローバル企業への転職をプロがサポートします。</p>
+          <p className="text-blue-100 text-sm mb-4">外資系・グローバル企業への転職を、専門のエージェントがサポートします。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

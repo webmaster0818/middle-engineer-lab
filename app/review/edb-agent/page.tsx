@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論サマリ（どんな人向けか）" },
+  { id: "summary", label: "要点（どんな人向けか）" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strength", label: "特徴・強み" },
   { id: "good", label: "良い評判の傾向" },
@@ -60,7 +60,7 @@ const badReviews = [
   {
     title: "口コミの蓄積がまだ少ない",
     body: "2022年設立と新しいため、独立系の口コミプラットフォーム上の声の蓄積は大手と比べると限定的という指摘が各転職メディアで見られます。",
-    cope: "判断材料が少ない場合は、面談時に得意領域・紹介求人の傾向・アドバイザーの経歴を直接確認するとよいでしょう。大手IT特化サービスと併用して比較する前提で使うと判断しやすいです。",
+    cope: "判断材料が少ない場合は、面談時に得意領域・紹介求人の傾向・アドバイザーの経歴を直接確認するとよいでしょう。大手IT特化サービスと併用して比較する前提で使うと判断しやすくなります。",
   },
   {
     title: "IT以外の職種には対応しない",
@@ -83,7 +83,7 @@ const fitYes = [
 
 const fitNo = [
   "豊富な口コミ実績の蓄積を重視したい",
-  "IT以外の職種を探しています",
+  "IT以外の職種を探している",
   "対面の地方サポートを最優先したい（対応エリア要確認）",
   "とにかく求人数の多さを最優先したい",
 ];
@@ -196,10 +196,10 @@ export default function EdbAgentReview() {
           ]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：このような方におすすめ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">このような方におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">総合評価：IT領域に絞り、現場の声を聞いて納得して進めたい人向けです</span>。要約すると「実務経験のあるアドバイザーやOB・OGと話しながら、押し売りなくIT転職を検討したい人」向けのエージェントです。
             </p>
@@ -321,7 +321,7 @@ export default function EdbAgentReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              本命をIT特化のレバテックキャリアなどに置きつつ、EDBエージェントはOB/OGの声で社風・現場を確認する補完先として使うと、納得感を持って意思決定しやすくなります。
+              中心となるエージェントをIT特化のレバテックキャリアなどに置きつつ、EDBエージェントはOB/OGの声で社風・現場を確認する補完先として使うと、納得感を持って意思決定しやすくなります。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>

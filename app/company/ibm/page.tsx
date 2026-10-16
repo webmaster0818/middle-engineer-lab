@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
+  { id: "basic", label: "基本データ（出典あり）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術領域（公開情報）" },
   { id: "salary", label: "年収データの考え方" },
@@ -29,10 +29,10 @@ const toc = [
 const basicData: [string, string][] = [
   ["企業名", "日本アイ・ビー・エム株式会社（非上場・米IBMの日本法人）"],
   ["業種", "ITコンサルティング／クラウド・AI／システムインテグレーション"],
-  ["平均年収", "公式の全社員平均は非公開。集計サイトに約912〜920万円の記載がありますが、これは口コミ集計の参考値であり公式値ではありません"],
+  ["平均年収", "公式の全社員平均は非公開（集計サイトに約912〜920万円の記載あり。口コミ集計による参考値で、公式値ではありません）"],
   ["等級制度", "バンド制（職務等級）。先端領域（AI・クラウド）は高バンド傾向"],
   ["技術領域", "Red Hat OpenShift／IBM Cloud／watsonx／Java／Python など（担当案件・プロジェクトに依存）"],
-  ["特徴", "ITコンサル・アーキテクト志向のミドルに向きます。外資系のグローバル基盤"],
+  ["特徴", "ITコンサル・アーキテクト志向のミドル向け。外資系のグローバル基盤"],
 ];
 
 const faqs = [
@@ -65,14 +65,14 @@ export default function IbmCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】日本IBMの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 日本IBMは非上場（米IBMの日本法人）のため、公式の全社員平均年収は非公表です。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>日本IBMは非上場（米IBMの日本法人）のため、公式の全社員平均年収は非公表です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・上場企業のような有価証券報告書での公式な平均年収は存在しません。OpenMoney等の年収集計サイトに約912〜920万円との記載がありますが、これは口コミ集計の参考値で公式値ではありません。</li><li>・等級はバンド制（職務等級）で、AI・クラウドなどの先端領域は高バンド傾向とされます。バンド別の公式な年収表は確認できないため掲載していません。</li><li>・実額はバンド・職務・経験により個人差が大きいため、選考過程やエージェントを通じて提示内訳を確認するのが現実的です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["日本IBM 公式採用ページ", "OpenMoney（年収集計・公式値ではない参考値）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（コンサル・アーキ志向の経験者）</p>
             <ul className="space-y-2 text-sm text-blue-900">
@@ -94,7 +94,7 @@ export default function IbmCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm"><tbody>
               {basicData.map(([label, value], i) => (
@@ -110,7 +110,7 @@ export default function IbmCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ITコンサル・アーキテクト志向</h3><p className="text-sm text-petrol-deep">日本IBMはコンサルティング・システムインテグレーションの比重が大きく、顧客の課題を技術で解決する役割が中核です。要件定義・アーキテクチャ設計・クラウド移行・AI活用など、上流から関わりたいエンジニアに向いています。</p></div>
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">バンド制（職務等級）</h3><p className="text-sm text-petrol-deep">日本IBMは職務の難易度・責任に応じて等級が決まるバンド制を採用していることが一般に知られています。AI・クラウドなどの先端領域は高バンドになりやすい傾向があるとされますが、当ガイドではバンドごとの年収表は公式に確認できないため掲載していません。</p></div>
-            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">グローバル基盤と先端領域</h3><p className="text-sm text-petrol-deep">Red Hat（OpenShift）、IBM Cloud、watsonx（AI基盤）など、グローバルで展開される製品・技術に触れられる点が外資系ならではの特徴です。先端領域に挑戦したいミドルにとって、ナレッジとプロダクト基盤の厚みは魅力になります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">グローバル基盤と先端領域</h3><p className="text-sm text-petrol-deep">Red Hat（OpenShift）、IBM Cloud、watsonx（AI基盤）など、グローバルで展開される製品・技術に触れられる点が外資系ならではの特徴です。先端領域に挑戦したいミドルにとって、ナレッジとプロダクト基盤の厚みは大きな利点といえます。</p></div>
           </div>
         </section>
 
@@ -169,7 +169,7 @@ export default function IbmCompanyPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見た日本IBM</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>30代・40代のミドルエンジニアにとって、日本IBMは<strong>「上流・アーキテクチャ経験を活かせる」「先端領域（AI/クラウド）に外資系の基盤で挑戦できる」</strong>という点で魅力的な選択肢です。コンサル・SIで培った要件定義・設計・PMの経験は、そのままバンド（等級）の評価につながりやすいドメインです。</p>
+            <p>30代・40代のミドルエンジニアにとって、日本IBMは<strong>「上流・アーキテクチャ経験を活かせる」「先端領域（AI/クラウド）に外資系の基盤で挑戦できる」</strong>という点で検討に値する選択肢です。コンサル・SIで培った要件定義・設計・PMの経験は、そのままバンド（等級）の評価につながりやすい領域です。</p>
             <p>一方で、組織再編やプロジェクト変動が大きく、受け身では評価されにくい外資系特有の文化があります。単一プロダクトの内製開発に専念したい志向とは方向性が異なる点にも注意が必要です。年収は公式平均が存在しないため、バンドの位置づけと提示内訳を冷静に見極めることが重要です。</p>
             <p>転職活動では、ミドル層の市場価値整理とキャリアの言語化が鍵になります。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>、<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>もあわせて確認してください。</p>
           </div>
@@ -211,7 +211,7 @@ export default function IbmCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">日本IBM転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資系・コンサルの上位ポジションに出会いやすいです。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・クラウド/AI求人に強く、技術面の整理を支援します。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。大手・外資の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス向けのスカウト型サービスです。外資系・コンサルの上位ポジションに出会いやすくなります。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化型のエージェントで、高年収・クラウド/AI求人に強みがあり、技術面の整理を支援します。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数を有し、大手・外資の求人を幅広くカバーしています。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けエージェント比較</Link>を参照してください。</p>
         </section>

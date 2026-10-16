@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：難易度と向くエンジニア" },
+  { id: "conclusion", label: "難易度と向いている人" },
   { id: "basic", label: "基本データ" },
   { id: "hiring", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック・開発文化" },
-  { id: "salary", label: "年収データ（出典付き）" },
+  { id: "salary", label: "年収データ（出典あり）" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
   { id: "review", label: "口コミ傾向" },
@@ -30,8 +30,8 @@ const basicData: [string, string][] = [
   ["企業名", "日本マイクロソフト株式会社（Microsoft Japan）"],
   ["業種", "ソフトウェア・クラウドサービス"],
   ["本社所在地", "東京都港区（品川）"],
-  ["ミッション", "地球上のすべての個人と組織が、より多くを達成できるようにします"],
-  ["文化", "Growth Mindset（成長マインドセット）を全社方針に掲げます"],
+  ["ミッション", "「地球上のすべての個人と組織が、より多くを達成できるようにする」"],
+  ["文化", "全社方針として掲げるGrowth Mindset（成長マインドセット）"],
   ["技術スタック", "C# / .NET / TypeScript / Python / Azure / React 等（開発系ポジション）"],
 ];
 
@@ -125,7 +125,7 @@ export default function MicrosoftCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】日本マイクロソフトの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 日本マイクロソフトは有価証券報告書を公表しておらず公式平均年収は非公表です。報酬集計サイトlevels.fyi（2026年10月15日時点・日本拠点ソフトウェアエンジニア集計）では総報酬の中央値が約1,882万円と示されています。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>日本マイクロソフトは有価証券報告書を公表しておらず公式平均年収は非公表です。報酬集計サイトlevels.fyi（2026年10月15日時点・日本拠点ソフトウェアエンジニア集計）では総報酬の中央値が約1,882万円と示されています。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・levels.fyi（2026年10月15日時点）の総報酬は中央値 約1,882万円、レベル別中央値はLv61 約1,271万円〜Lv64 約2,618万円（ユーザー投稿集計・レベル別18件）</li><li>・参考レベルではLevel 62で総報酬 約1,890万円、Level 63（Senior SDE）で約2,046万円</li><li>・RSU（株式報酬・おおむね4〜5年ベスティング）とボーナスを含むため、株価・入社時期で実受取額が変動する点に注意</li></ul>
         </div>
 
@@ -155,15 +155,15 @@ export default function MicrosoftCompanyPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
-            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：難易度と向くエンジニア</h2>
+            <h2 className="text-xl font-bold text-blue-900 mb-3">難易度と向いている人</h2>
             <p className="text-blue-900 text-sm leading-relaxed mb-3">
               日本マイクロソフトは外資ITの中でも難関ですが、<strong>中途比率が高く（公式公表値で2025年度99%）</strong>、
-              30代・40代の中途人材にとって門戸が比較的現実的な企業です。次の3点が揃う人に向きます。
+              30代・40代の中途人材にとって門戸が比較的現実的な企業です。次の3点を備えた人に向いています。
             </p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>① <strong>クラウド（Azure／AWS等）や分散システム</strong>の設計・開発経験があります</li>
-              <li>② <strong>学び続ける姿勢（Growth Mindset）</strong>を実績で示せます</li>
-              <li>③ コーディング・設計面接の基礎と、必要に応じた英語コミュニケーションです</li>
+              <li>① <strong>クラウド（Azure／AWS等）や分散システム</strong>の設計・開発経験</li>
+              <li>② <strong>学び続ける姿勢（Growth Mindset）</strong>を実績で示せること</li>
+              <li>③ コーディング・設計面接の基礎と、必要に応じた英語コミュニケーション力</li>
             </ul>
             <p className="text-blue-900 text-sm leading-relaxed mt-3">
               準備は
@@ -210,13 +210,13 @@ export default function MicrosoftCompanyPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Growth Mindset 重視の文化</h3>
               <p className="text-sm text-petrol-deep">
-                公式に「可能性を育み、変化を受け入れ、学び続けることの価値を信じている」と明記します。技術力だけでなく、学習姿勢・変化への適応・協働が評価される文化が知られています。
+                公式に「可能性を育み、変化を受け入れ、学び続けることの価値を信じている」と明記しています。技術力だけでなく、学習姿勢・変化への適応・協働が評価される文化が知られています。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">クラウド・AI領域の採用拡大</h3>
               <p className="text-sm text-petrol-deep">
-                Azure・Copilotなどクラウド／AI関連サービスの拡大に伴い、クラウドアーキテクトやML/AI関連の人材ニーズが高い傾向です。応募要件は公式募集要項で確認してください。
+                Azure・Copilotなどクラウド／AI関連サービスの拡大に伴い、クラウドアーキテクトやML/AI関連の人材ニーズが高い傾向にあります。応募要件は公式募集要項で確認してください。
               </p>
             </div>
           </div>
@@ -232,21 +232,21 @@ export default function MicrosoftCompanyPage() {
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Azure（クラウド）を軸にしたサービス開発・運用</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>.NET・TypeScript・VS CodeなどOSSへの積極的な貢献を公開</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><Link href="/skill/csharp/" className="text-petrol hover:underline">C#</Link>・<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript</Link>・<Link href="/skill/python/" className="text-petrol hover:underline">Python</Link>の実務経験が活きます</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><Link href="/skill/csharp/" className="text-petrol hover:underline">C#</Link>・<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript</Link>・<Link href="/skill/python/" className="text-petrol hover:underline">Python</Link>の実務経験が活きる環境</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>AI領域はCopilot等の拡大で関連スキルの評価が高まる傾向</li>
           </ul>
         </section>
 
         {/* 年収 */}
         <section id="salary" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（出典あり）</h2>
           <p className="text-slate-700 text-sm leading-relaxed mb-4">
             日本マイクロソフトは<strong>有価証券報告書を公表しておらず、公式の平均年収はありません</strong>。
             以下は報酬集計サイトの数値で、<strong>ユーザー投稿ベースで変動が大きい</strong>点に留意してください。
           </p>
           <ul className="space-y-2 text-sm text-slate-700 mb-5">
             <li>
-              ・<strong>levels.fyi（2026年10月15日時点・日本拠点ソフトウェアエンジニア集計）</strong>：総報酬の中央値 約1,882万円、レベル別中央値はLv61 約1,271万円〜Lv64 約2,618万円です。基本給＋RSU＋ボーナス換算です。
+              ・<strong>levels.fyi（2026年10月15日時点・日本拠点ソフトウェアエンジニア集計）</strong>：総報酬の中央値 約1,882万円、レベル別中央値はLv61 約1,271万円〜Lv64 約2,618万円（基本給＋RSU＋ボーナスの合計換算）です。
             </li>
             <li>
               ・<strong>RSUの特徴</strong>：複数年（おおむね4〜5年）でベスティングされる株式報酬が含まれ、株価・付与額・入社時期で実受取額が変動します。
@@ -334,7 +334,7 @@ export default function MicrosoftCompanyPage() {
               <h3 className="font-bold text-emerald-800 text-sm mb-2">良い評判の傾向</h3>
               <ul className="space-y-1 text-sm text-emerald-900">
                 <li>・在宅・フレックスなど柔軟な働き方が整っています</li>
-                <li>・有休消化率が業界平均より高め（集計値で約72%）</li>
+                <li>・有休消化率が業界平均より高い傾向にあります（集計値で約72%）</li>
                 <li>・高い給与水準と評価の透明性を評価する声があります</li>
               </ul>
             </div>
@@ -360,7 +360,7 @@ export default function MicrosoftCompanyPage() {
             </p>
             <p>
               強みになるのは、Azure／AWS等での設計・運用経験や、チームを巻き込んで変化を起こした経験です。
-              「Growth Mindset」は抽象的に語ると弱いので、失敗→学習→改善の具体的なストーリーを用意しておくと面接で効きます。
+              「Growth Mindset」は抽象的に語るだけでは伝わりにくいため、失敗→学習→改善の具体的なストーリーを用意しておくと、面接での説得力が増します。
             </p>
             <p>
               準備は
@@ -379,9 +379,9 @@ export default function MicrosoftCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">日本マイクロソフト転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資ITを扱うヘッドハンターと接点を作りやすいです。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。技術職の選考対策・キャリアの棚卸しに強いです。" },
-              { name: "doda ITエンジニア", href: "/review/doda-it/", desc: "国内最大級の総合型です。外資・大手の選択肢を幅広く比較したい人向けです。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けのスカウト型サービスです。外資ITを扱うヘッドハンターと接点を作りやすくなります。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。技術職の選考対策・キャリアの棚卸しに強みがあります。" },
+              { name: "doda ITエンジニア", href: "/review/doda-it/", desc: "国内最大級の総合型サービスです。外資・大手の選択肢を幅広く比較したい人に適しています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

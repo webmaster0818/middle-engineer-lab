@@ -9,11 +9,11 @@ const PAGE_DESC =
   "Kotlinエンジニアの転職を年収データ・関連資格・求人の探し方まで解説します。スタンバイやフリーランスボードの公表年収、レバテック年代別データを出典を明記して掲載しています。30代・40代の参入ルートとおすすめエージェントも紹介します。";
 
 const toc = [
-  { id: "conclusion", label: "結論：Kotlin転職の進め方" },
+  { id: "conclusion", label: "Kotlin転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
-  { id: "find", label: "求人の探し方・強いエージェント" },
+  { id: "find", label: "求人の探し方・エージェントの選び方" },
   { id: "entry", label: "経験浅めからの参入ルート" },
   { id: "mid", label: "30代・40代視点" },
   { id: "study", label: "スキルアップ・学習戦略" },
@@ -24,22 +24,22 @@ const toc = [
 const careerPaths = [
   {
     role: "Androidエンジニア",
-    note: "Jetpack Compose＋KotlinでのモダンアプリUI開発。GoogleがKotlinをAndroid推奨言語に指定しており、需要の中心。",
+    note: "Jetpack Compose＋KotlinでのモダンアプリUI開発を担います。GoogleがKotlinをAndroid推奨言語に指定しており、需要の中心となる領域です。",
     cert: "Associate Android Developer等",
   },
   {
     role: "サーバーサイドエンジニア",
-    note: "Spring Boot＋KotlinでのAPI・マイクロサービス開発。Javaの冗長さを減らせる点が評価されます。",
+    note: "Spring Boot＋KotlinでのAPI・マイクロサービス開発を担います。Javaの冗長さを減らせる点が評価されます。",
     cert: "—（実務経験重視）",
   },
   {
     role: "マルチプラットフォーム開発",
-    note: "Kotlin Multiplatformで iOS/Android/Web 間のロジック共通化です。新しい選択肢として注目。",
+    note: "Kotlin Multiplatformで iOS/Android/Web 間のロジックを共通化します。新しい選択肢として注目されています。",
     cert: "—（ポートフォリオ重視）",
   },
   {
     role: "テックリード／アーキテクト",
-    note: "Kotlin基盤のシステム設計・技術選定・チームリード。Android＋サーバーの両方を見られると強いです。",
+    note: "Kotlin基盤のシステム設計・技術選定・チームリードを担います。Android＋サーバーの両方を見られると有利です。",
     cert: "—（設計・マネジメント経験）",
   },
 ];
@@ -63,15 +63,15 @@ const faqs = [
   },
   {
     q: "Kotlin未経験でも転職は可能？",
-    a: "Java、Scalaなど他のJVM言語の実務経験があれば、Kotlin未経験でも採用されるケースは見られます。個人でKotlinのアプリやAPIサーバーを作りGitHubに公開しておくと、選考で有利になりやすいです。Coroutine/Flowの活用度や、Jetpack Composeの習得状況も見られます。",
+    a: "Java、Scalaなど他のJVM言語の実務経験があれば、Kotlin未経験でも採用されるケースは見られます。個人でKotlinのアプリやAPIサーバーを作りGitHubに公開しておくと、選考で有利になりやすい傾向があります。Coroutine/Flowの活用度や、Jetpack Composeの習得状況も見られます。",
   },
   {
     q: "Kotlin・Android関連の資格は転職に有利？",
-    a: "資格よりも実務・ポートフォリオが重視される領域ですが、学習成果の可視化には役立ちます。代表的なものに、Googleが運営していたAssociate Android Developer試験や、Android技術者認定試験などがあります（各認定の最新の実施状況は公式で確認してください）。資格単体より、動くアプリを見せられることの方が選考では効きやすい傾向です。",
+    a: "資格よりも実務・ポートフォリオが重視される領域ですが、学習成果の可視化には役立ちます。代表的なものに、Googleが運営していたAssociate Android Developer試験や、Android技術者認定試験などがあります（各認定の最新の実施状況は公式で確認してください）。資格単体より、動くアプリを見せられることの方が選考では評価されやすい傾向があります。",
   },
   {
     q: "Kotlinエンジニアにおすすめの転職エージェントは？",
-    a: "モバイル案件に強いとされるレバテックキャリア、Web系スタートアップのKotlin求人を扱うGeekly、ハイクラス案件のビズリーチが候補です。Android開発経験を軸に、サーバーサイドや上位ポジションへ広げたい場合は複数登録して比較するのが基本です。",
+    a: "モバイル案件に強みがあるとされるレバテックキャリア、Web系スタートアップのKotlin求人を扱うGeekly、ハイクラス案件のビズリーチが候補です。Android開発経験を軸に、サーバーサイドや上位ポジションへ広げたい場合は複数登録して比較するのが基本です。",
   },
 ];
 
@@ -144,7 +144,7 @@ export default function KotlinSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Kotlin転職の進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Kotlin転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Kotlin転職は<strong>「Android開発を軸に、サーバーサイドへ領域を広げて市場価値を上げる」</strong>のが基本戦略です。Java経験者なら短期間で参入でき、両方をKotlinで扱えると希少性が増します。
@@ -210,15 +210,15 @@ export default function KotlinSkillPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ジュニア（実務〜2年程度）</h3>
-              <p className="text-sm text-slate-600">Kotlin/Javaの基本、簡単なAndroidアプリやAPIの開発経験です。個人開発の公開実績があると有利です。</p>
+              <p className="text-sm text-slate-600">Kotlin/Javaの基本、簡単なAndroidアプリやAPIの開発経験が求められます。個人開発の公開実績があると有利です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ミドル（実務3〜7年）</h3>
-              <p className="text-sm text-slate-600">Jetpack Composeでの実装、Coroutine/Flowの活用、設計・テスト経験です。30代の中心レンジです。</p>
+              <p className="text-sm text-slate-600">Jetpack Composeでの実装、Coroutine/Flowの活用、設計・テスト経験が求められます。30代が中心となる層です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">シニア／リード</h3>
-              <p className="text-sm text-slate-600">アーキテクチャ設計、Android＋サーバーサイドの横断対応、技術選定・チームリードです。</p>
+              <p className="text-sm text-slate-600">アーキテクチャ設計、Android＋サーバーサイドの横断対応、技術選定・チームリードを担います。</p>
             </div>
           </div>
         </section>
@@ -242,7 +242,7 @@ export default function KotlinSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             Kotlin求人はモバイル・Web系スタートアップに多く、担当者の業界理解で提案の質が変わります。タイプの異なる3社を併用しましょう。
           </p>
@@ -251,19 +251,19 @@ export default function KotlinSkillPage() {
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/levtech/" className="text-petrol-deep hover:underline">レバテックキャリア</Link>
               </h3>
-              <p className="text-sm text-slate-600">IT/Web特化でモバイル案件に強いとされます。高年収求人の比率が高いとされ（同社ガイド記事）、Android寄りの求人を探しやすいです。</p>
+              <p className="text-sm text-slate-600">IT/Web特化型で、モバイル案件に強みがあるとされます。高年収求人の比率が高いとされ（同社ガイド記事）、Android寄りの求人を探しやすくなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/geekly/" className="text-petrol-deep hover:underline">Geekly（ギークリー）</Link>
               </h3>
-              <p className="text-sm text-slate-600">IT/Web/ゲーム特化で提案スピードに定評があります。Web系スタートアップのサーバーサイドKotlin求人と相性が良いです。</p>
+              <p className="text-sm text-slate-600">IT/Web/ゲーム特化で提案スピードに定評があります。Web系スタートアップのサーバーサイドKotlin求人と相性が良いといえます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/bizreach-it/" className="text-petrol-deep hover:underline">ビズリーチ</Link>
               </h3>
-              <p className="text-sm text-slate-600">ハイクラス・スカウト型です。テックリード/アーキテクトなど高年収帯のKotlin案件に出会いやすいです。</p>
+              <p className="text-sm text-slate-600">ハイクラス向けのスカウト型サービスです。テックリード/アーキテクトなど高年収帯のKotlin案件に出会いやすくなります。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
@@ -279,7 +279,7 @@ export default function KotlinSkillPage() {
           </p>
           <ol className="space-y-3">
             {[
-              { t: "Java経験を土台にします", d: "Javaの実務経験があれば、Kotlin固有の機能（null安全・拡張関数・Coroutine）に絞って学習すれば短期間で戦力になれます。" },
+              { t: "Java経験を土台にします", d: "Javaの実務経験があれば、Kotlin固有の機能（null安全・拡張関数・Coroutine）に絞って学習すれば短期間で実務に対応できるようになります。" },
               { t: "GitHubに動くものを公開します", d: "Androidアプリ、またはSpring Bootで作ったAPIサーバーを公開します。Coroutine/Flowの活用が見られます。" },
               { t: "Jetpack Composeを習得します", d: "モダンAndroid開発の主流です。宣言的UIで実践的なアプリを作れることがアドバンテージになります。" },
               { t: "サーバーサイドへ広げます", d: "Android＋サーバーサイドの両対応は希少性が高く、年収交渉でも有利に働きます。" },
@@ -303,7 +303,7 @@ export default function KotlinSkillPage() {
               30代・40代でJavaの実務経験を積んできた人にとって、Kotlinは<strong>これまでの資産をそのまま活かせる</strong>移行先です。JVMの知識・設計経験・運用経験がそのまま通用し、Kotlin固有の機能を上乗せするだけで市場価値を高められます。若手が多いモバイル領域でも、設計力やプロジェクト経験で差別化できます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Javaの実務経験は「移行できる即戦力」として強く訴求できます</li>
+              <li>・Javaの実務経験は「移行できる即戦力」としてアピールできます</li>
               <li>・Android＋サーバーサイドの両対応で希少性を出し、年収帯を上げます</li>
               <li>・レバテック公表値で40代SE平均は約618万円です（2025年）。設計・リード経験で上振れを狙います</li>
             </ul>

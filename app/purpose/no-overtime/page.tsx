@@ -7,33 +7,33 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/no-overtime/" },
   title: "残業少なめIT企業の見極め方【月20時間以下の企業を見つける】",
   description:
-    "残業が少ないIT企業の見極め方を解説します。口コミの読み方、面接での確認方法、残業が少ない企業の特徴、おすすめ企業タイプを紹介します。",
+    "残業が少ないIT企業の見極め方について、口コミの読み方、面接での確認方法、残業が少ない企業の特徴、おすすめ企業タイプを解説します。",
 };
 
 const faqs = [
   {
-    q: "IT業界で残業月20時間以下は現実的？",
-    a: "はい、自社サービス企業やSaaS企業では月10〜20時間が標準的です。受託開発でも工程管理がしっかりしている企業は月20時間以内に収まるケースが多いです。",
+    q: "IT業界で残業月20時間以下は現実的ですか？",
+    a: "はい、自社サービス企業やSaaS企業では月10〜20時間が標準的です。受託開発でも工程管理がしっかりしている企業は月20時間以内に収まるケースが多く見られます。",
   },
   {
-    q: "残業が少ない企業の特徴は？",
+    q: "残業が少ない企業の特徴は何ですか？",
     a: "自社サービス開発、アジャイル開発の導入、フレックスタイム制、コードレビュー文化（品質担保で手戻り減少）、適切な人員配置が特徴です。",
   },
   {
-    q: "口コミサイトの残業時間は信頼できる？",
+    q: "口コミサイトの残業時間は信頼できますか？",
     a: "OpenWorkやLighthouseの口コミは参考になりますが、部署やプロジェクトで大きく異なります。面接で「配属予定チームの直近3ヶ月の平均残業時間」を具体的に質問しましょう。",
   },
   {
-    q: "残業が少ない代わりに年収は低い？",
-    a: "必ずしもそうではありません。効率的な開発体制の企業は利益率が高く、年収も相応です。残業込みの高年収より、残業なしで同等以上の年収を実現する企業は多数あります。",
+    q: "残業が少ない代わりに年収は低いですか？",
+    a: "必ずしもそうではありません。効率的な開発体制の企業は利益率が高く、年収も相応の水準です。残業込みの高年収より、残業なしで同等以上の年収を実現する企業は多数あります。",
   },
   {
-    q: "面接で残業時間を聞くのは失礼？",
-    a: "全く失礼ではありません。むしろ働き方への関心は当然です。「チームの平均残業時間」「繁忙期の残業時間」「休日出勤の頻度」を具体的に質問しましょう。",
+    q: "面接で残業時間を聞くのは失礼にあたりますか？",
+    a: "失礼にはあたりません。働き方に関心を持つのは自然なことです。「チームの平均残業時間」「繁忙期の残業時間」「休日出勤の頻度」を具体的に質問しましょう。",
   },
   {
-    q: "みなし残業（固定残業代）の企業は残業が多い？",
-    a: "一概には言えません。みなし残業30時間だが実際は10時間という企業もあります。重要なのは実際の残業時間です。みなし残業時間=実際の残業時間ではないことを理解しましょう。",
+    q: "みなし残業（固定残業代）の企業は残業が多いですか？",
+    a: "一概には言えません。みなし残業30時間でも、実際は10時間という企業もあります。重要なのは実際の残業時間です。みなし残業時間=実際の残業時間ではないことを理解しましょう。",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function NoOvertimePage() {
     <>
       <ArticleJsonLd
         title="残業少なめIT企業の見極め方【月20時間以下の企業を見つける】"
-        description="残業が少ないIT企業の見極め方を解説します。口コミの読み方、面接での確認方法、残業が少ない企業の特徴、おすすめ企業タイプを紹介します。"
+        description="残業が少ないIT企業の見極め方について、口コミの読み方、面接での確認方法、残業が少ない企業の特徴、おすすめ企業タイプを解説します。"
         url="/purpose/no-overtime/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -66,10 +66,10 @@ export default function NoOvertimePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 現職の残業が月40時間以上で改善したいと考えています</li>
-              <li>- 残業が少ない環境でプライベートを充実させたいと考えています</li>
-              <li>- 定時退社して自己学習や副業の時間を確保したいと考えています</li>
-              <li>- 健康面で長時間労働を続けられません</li>
+              <li>- 現職の残業が月40時間以上で、改善したい方</li>
+              <li>- 残業が少ない環境でプライベートを充実させたい方</li>
+              <li>- 定時退社して自己学習や副業の時間を確保したい方</li>
+              <li>- 健康面の理由で長時間労働を続けられない方</li>
             </ul>
           </div>
         </section>
@@ -92,7 +92,7 @@ export default function NoOvertimePage() {
                   { type: "社内SE", ot: "月5〜15h", salary: "500〜700万円", feat: "定常業務が中心" },
                   { type: "公共系SI", ot: "月10〜20h", salary: "450〜650万円", feat: "納期が長めで安定" },
                   { type: "受託開発（大手）", ot: "月20〜35h", salary: "500〜750万円", feat: "案件による変動大" },
-                  { type: "成長期スタートアップ", ot: "月25〜45h", salary: "500〜800万円", feat: "裁量は大きいが忙しいです" },
+                  { type: "成長期スタートアップ", ot: "月25〜45h", salary: "500〜800万円", feat: "裁量大・繁忙傾向" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -112,8 +112,8 @@ export default function NoOvertimePage() {
             {[
               { num: "1", title: "口コミサイトで部署別残業を確認", desc: "OpenWork、Lighthouseで部署別・職種別の残業時間を確認します。全社平均ではなく配属予定チームの情報を探しましょう。" },
               { num: "2", title: "面接で具体的な数字を質問", desc: "「直近3ヶ月のチーム平均残業時間は？」「繁忙期はいつで、その時の残業時間は？」と聞きましょう。" },
-              { num: "3", title: "みなし残業時間を確認", desc: "みなし残業45時間の企業は実際に残業が多い可能性大です。みなし20時間以下の企業が目安です。" },
-              { num: "4", title: "開発プロセスを確認", desc: "アジャイル開発でスプリント管理されている企業は残業が少ない傾向です。ウォーターフォール+タイトな納期は要注意です。" },
+              { num: "3", title: "みなし残業時間を確認", desc: "みなし残業45時間の企業は実際の残業も多い可能性があります。みなし20時間以下の企業を一つの目安にするとよいでしょう。" },
+              { num: "4", title: "開発プロセスを確認", desc: "アジャイル開発でスプリント管理されている企業は残業が少ない傾向があります。ウォーターフォールかつタイトな納期の案件には注意が必要です。" },
               { num: "5", title: "エージェントに内部情報を確認", desc: "エージェントは企業の内部情報を持っています。残業の実態や離職率など、求人票に載らない情報を聞きましょう。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -131,9 +131,9 @@ export default function NoOvertimePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "マイナビITエージェント", point: "残業少なめの求人を条件指定で検索可能です。企業の内部情報にも詳しいです。" },
-              { name: "レバテックキャリア", point: "自社サービス企業の求人が豊富です。働き方に関する情報提供も手厚いです。" },
-              { name: "doda ITエージェント", point: "大手企業・安定企業の求人が多いです。残業月20h以下の条件で絞り込み可能です。" },
+              { name: "マイナビITエージェント", point: "残業少なめの求人を条件指定で検索でき、企業の内部情報にも精通しています。" },
+              { name: "レバテックキャリア", point: "自社サービス企業の求人が豊富で、働き方に関する情報提供も充実しています。" },
+              { name: "doda ITエージェント", point: "大手企業・安定企業の求人が多い傾向にあります。残業月20h以下の条件で絞り込み可能です。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -160,7 +160,7 @@ export default function NoOvertimePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">残業少なめの転職を無料で相談</h2>
-          <p className="text-blue-100 text-sm mb-4">残業月20時間以下の優良IT企業をプロが提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">残業月20時間以下のIT企業を、転職エージェントが提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

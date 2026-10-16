@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：DevSecOps転職の現実性" },
+  { id: "conclusion", label: "DevSecOps転職の現実性" },
   { id: "gap", label: "現職とのスキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -40,7 +40,7 @@ const gapRows = [
   {
     skill: "SAST/DAST・スキャンツール",
     devops: "△ 導入経験は限定的",
-    security: "○ ツールの知識はあります",
+    security: "○ ツールの知識あり",
     devsecops: "◎ パイプラインへの統合・運用まで",
   },
   {
@@ -74,7 +74,7 @@ const buildSteps = [
   },
   {
     title: "シークレット管理の運用を整える",
-    desc: "Vault、AWS Secrets Manager、SOPSなどでシークレットのライフサイクルを設計し、Git履歴からの漏洩検知も組み込みます。『鍵が漏れない仕組み』を語れることはDevSecOps面接で強い強みになります。",
+    desc: "Vault、AWS Secrets Manager、SOPSなどでシークレットのライフサイクルを設計し、Git履歴からの漏洩検知も組み込みます。『鍵が漏れない仕組み』を語れることはDevSecOps面接で大きな強みになります。",
   },
   {
     title: "脅威モデリングで設計に踏み込む",
@@ -123,7 +123,7 @@ const faqs = [
     a: "DevOpsの基盤がある人は移行しやすい部類です。不足しがちなのは脆弱性診断・セキュリティ設計の知識であるため、既存のCI/CDにSAST/DASTやコンテナスキャンを組み込んだ実績を作ると、書類・面接で説得力が出ます。",
   },
   {
-    q: "セキュリティ担当からDevSecOpsへは行ける？",
+    q: "セキュリティ担当からDevSecOpsへ移れる？",
     a: "可能です。診断・対策の知識はそのまま活きるため、不足しがちなCI/CD構築・IaC・コンテナ運用の実装力を補えば移行できます。『検査する側』から『仕組みに組み込む側』へ視点を広げるのがポイントです。",
   },
   {
@@ -132,7 +132,7 @@ const faqs = [
   },
   {
     q: "DevSecOps導入企業はどんな業界に多い？",
-    a: "金融、医療、EC、SaaSなどコンプライアンス要件が厳しい業界に多い傾向です。クラウドネイティブ化が進んだ企業ほど、セキュリティを開発プロセスに組み込む専門人材の需要が高まっています。",
+    a: "金融、医療、EC、SaaSなどコンプライアンス要件が厳しい業界に多い傾向があります。クラウドネイティブ化が進んだ企業ほど、セキュリティを開発プロセスに組み込む専門人材の需要が高まっています。",
   },
   {
     q: "DevSecOpsの将来性は？",
@@ -222,16 +222,16 @@ export default function DevsecopsPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：DevSecOps転職の現実性</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">DevSecOps転職の現実性</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>DevOps・インフラ・セキュリティのいずれかの基盤があれば、DevSecOps転職は十分に現実的です。</strong>
               ただし「セキュリティを開発に組み込んだ実績」を示せるかが分かれ目になります。
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
-              <li>① DevOps出身なら<strong>セキュリティ知識</strong>、セキュリティ出身なら<strong>CI/CD・IaC実装</strong>がギャップになりやすいです</li>
+              <li>① DevOps出身なら<strong>セキュリティ知識</strong>、セキュリティ出身なら<strong>CI/CD・IaC実装</strong>がギャップになりやすい傾向があります</li>
               <li>② 既存のパイプラインにSAST/DASTやコンテナスキャンを組み込んだ実績を1つ作ります</li>
-              <li>③ セキュリティ人材は慢性的に不足しており、両立人材はミドル層でも需要が高いです</li>
+              <li>③ セキュリティ人材は慢性的に不足しており、両立人材はミドル層でも需要が高い傾向があります</li>
             </ul>
           </div>
         </section>
@@ -317,19 +317,19 @@ export default function DevsecopsPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（CI/CD構築の事実だけの例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                GitHub ActionsでCI/CDパイプラインを構築。自動テストとデプロイを整備し、コンテナでアプリをデプロイします。脆弱性対応はセキュリティ担当からの指摘を受けて随時修正しました。
+                GitHub ActionsでCI/CDパイプラインを構築。自動テストとデプロイを整備し、コンテナでアプリをデプロイ。脆弱性対応はセキュリティ担当からの指摘を受けて随時修正。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（セキュリティの前倒しを主語にした例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                GitHub ActionsのCI/CDに、SAST（Snyk）とコンテナイメージスキャン（Trivy）、IaCスキャン（tfsec）を統合し、プルリクエスト段階で脆弱性を検出・ブロックする仕組みを構築（Shift Left）。リリース後に発覚していた指摘をパイプラインで前倒し検知できるようにし、手戻りを削減。シークレットはVaultで集中管理し、Git履歴からの漏洩検知を導入。検出した重大度の高い脆弱性については、修正と再発防止のルール化までを主導しました。
+                GitHub ActionsのCI/CDに、SAST（Snyk）とコンテナイメージスキャン（Trivy）、IaCスキャン（tfsec）を統合し、プルリクエスト段階で脆弱性を検出・ブロックする仕組みを構築（Shift Left）。リリース後に発覚していた指摘をパイプラインで前倒し検知できるようにし、手戻りを削減。シークレットはVaultで集中管理し、Git履歴からの漏洩検知を導入。検出した重大度の高い脆弱性については、修正と再発防止のルール化までを主導。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
               <p className="font-bold text-slate-700 mb-2">改善のポイント</p>
               <ul className="space-y-1">
-                <li>・「指摘を受けて修正」→「パイプラインで前倒し検知（Shift Left）」と能動的な表現に変換</li>
+                <li>・「指摘を受けて修正」→「パイプラインで前倒し検知（Shift Left）」と能動的な表現に変換します</li>
                 <li>・SAST/DAST・コンテナ/IaCスキャン・シークレット管理を具体ツール名で示します</li>
                 <li>・検知件数・手戻り削減・再発防止のルール化など、出せる範囲で成果を添えます</li>
               </ul>
@@ -360,17 +360,17 @@ export default function DevsecopsPage() {
               {
                 name: "レバテックキャリア",
                 point:
-                  "IT/Web特化でセキュリティエンジニア求人を扱い、技術に詳しいアドバイザーが在籍しています。書類添削・技術面談対策のサポートが受けられます。",
+                  "IT/Web領域に特化し、セキュリティエンジニア求人を扱っています。技術に詳しいアドバイザーが在籍しています。書類添削・技術面談対策のサポートが受けられます。",
               },
               {
                 name: "ビズリーチ",
                 point:
-                  "ハイクラス・スカウト型です。年収750万円以上の定義でハイレンジ求人が中心です。専門性の高いセキュリティポジションのスカウトで市場価値を測れます。",
+                  "ハイクラス向けのスカウト型サービスで、年収750万円以上をハイクラスと定義しており、ハイレンジ求人が中心です。専門性の高いセキュリティポジションのスカウトで市場価値を測れます。",
               },
               {
                 name: "マイナビIT AGENT",
                 point:
-                  "大手企業のセキュリティ部門求人を扱い、書類添削・面接対策が手厚いと評判です。コンプライアンス要件の厳しい業界への応募で頼りになります。",
+                  "大手企業のセキュリティ部門求人を扱い、書類添削・面接対策が手厚いと評判です。コンプライアンス要件の厳しい業界へ応募する際に活用しやすいサービスです。",
               },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">

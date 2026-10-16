@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：データサイエンティスト転職の進め方" },
+  { id: "conclusion", label: "データサイエンティスト転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
-  { id: "find", label: "求人の探し方（強いサービス）" },
+  { id: "find", label: "求人の探し方（サービス別の特徴）" },
   { id: "entry", label: "未経験・経験浅めからの参入ルート" },
   { id: "middle", label: "30代・40代エンジニアの視点" },
   { id: "study", label: "スキルアップ・学習戦略" },
@@ -39,11 +39,11 @@ const faqs = [
   },
   {
     q: "未経験からデータサイエンティストになれる？",
-    a: "可能ですが、一定の準備期間が必要です。統計の基礎、Python、SQL、機械学習の入門を順に固め、公開データでの分析プロジェクトをポートフォリオにまとめるのが一般的です。いきなりDS職を狙うより、データアナリストやBI担当からスタートして段階的に寄せていくルートのほうが現実的なケースが多いです。",
+    a: "可能ですが、一定の準備期間が必要です。統計の基礎、Python、SQL、機械学習の入門を順に固め、公開データでの分析プロジェクトをポートフォリオにまとめるのが一般的です。いきなりDS職を狙うより、データアナリストやBI担当からスタートして段階的に寄せていくルートのほうが現実的なケースが多く見られます。",
   },
   {
     q: "エンジニアからデータサイエンティストへの転向は有利？",
-    a: "有利に働きやすいです。非エンジニア出身者はプログラミングや再現性のある分析環境構築が弱点になりがちですが、エンジニアなら効率的なデータ処理・パイプライン構築・本番実装まで一貫してこなせます。とくにモデルの本番運用（MLOps）まで担える人は希少で評価されやすい傾向です。",
+    a: "有利に働きやすくなります。非エンジニア出身者はプログラミングや再現性のある分析環境構築が弱点になりがちですが、エンジニアなら効率的なデータ処理・パイプライン構築・本番実装まで一貫してこなせます。とくにモデルの本番運用（MLOps）まで担える人は希少で評価されやすい傾向があります。",
   },
   {
     q: "データサイエンティストとMLエンジニアの違いは？",
@@ -54,7 +54,7 @@ const faqs = [
     a: "統計検定、G検定（JDLA）、クラウドのMachine Learning認定などが学習の体系化に役立ちます。ただし採用時に最も見られるのは資格よりKaggleの実績やポートフォリオ、業務での分析成果です。資格は学習のペースメーカーと書類選考の目印、と位置づけるのが現実的です。",
   },
   {
-    q: "データサイエンティストの転職に強いエージェントは？",
+    q: "データサイエンティストの転職におすすめのエージェントは？",
     a: "IT/Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型のビズリーチ、大手企業のデータ活用求人を幅広く扱うリクルートエージェントITが候補です。スキルを数値で示したい人にはスキルチェック型のpaiza転職も向いています。",
   },
   {
@@ -126,15 +126,15 @@ export default function DataScientistPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：データサイエンティスト転職の進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">データサイエンティスト転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              データサイエンティストは人気職種ゆえに志望者が多く、<strong>「分析できます」だけでは差がつきにくい</strong>のが実情です。進め方は、自分の強みが『分析の深さ』なのか『実装・運用の確かさ』なのかを定め、それに合う企業へ寄せることが重要です。要点は3つです。
+              データサイエンティストは人気職種ゆえに志望者が多く、<strong>「分析できます」だけでは差がつきにくい</strong>のが実情です。進めるうえでは、自分の強みが『分析の深さ』なのか『実装・運用の確かさ』なのかを定め、それに合う企業へ寄せることが重要です。要点は3つです。
             </p>
             <ul className="text-sm text-blue-900 space-y-2">
-              <li>① <strong>ビジネス課題→分析→示唆→施策反映</strong>まで一気通貫で語れる事例を1つは用意します（分析だけで終わらせない）。</li>
-              <li>② エンジニア出身なら<strong>「本番で動かせる」実装力・MLOps</strong>を前面に出し、純分析職の志望者と土俵をずらします。</li>
-              <li>③ いきなりDS職に固執せず、<strong>データアナリスト等の隣接職を踏み台</strong>にする選択肢も持っておきます。</li>
+              <li>① <strong>ビジネス課題→分析→示唆→施策反映</strong>まで一貫して語れる事例を1つは用意します（分析だけで終わらせない）。</li>
+              <li>② エンジニア出身なら<strong>「本番で動かせる」実装力・MLOps</strong>を前面に出し、純分析職の志望者とは異なる強みで評価を得ます。</li>
+              <li>③ いきなりDS職に固執せず、<strong>データアナリスト等の隣接職を経由</strong>する選択肢も持っておきます。</li>
             </ul>
           </div>
         </section>
@@ -205,7 +205,7 @@ export default function DataScientistPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            実務では「高度なモデルを作る力」より「課題を分析可能な問いに落とし込み、結果を意思決定者に伝える力」が効く場面が多くあります。技術と説明力の両輪で見せられると強いです。
+            実務では「高度なモデルを作る力」より「課題を分析可能な問いに落とし込み、結果を意思決定者に伝える力」が求められる場面が多くあります。技術と説明力の両輪で見せられると有利です。
           </p>
         </section>
 
@@ -216,7 +216,7 @@ export default function DataScientistPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">分析スペシャリスト路線</h3>
               <p className="text-sm text-petrol-deep">
-                高度な分析・モデリングを深めるスペシャリストです。因果推論や実験設計、ドメイン特化の分析力を強みにします。事業の意思決定に効く示唆を出し続けられるかが価値の源泉です。
+                高度な分析・モデリングを深めるスペシャリストです。因果推論や実験設計、ドメイン特化の分析力を強みにします。事業の意思決定に役立つ示唆を出し続けられるかが価値の源泉です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -236,7 +236,7 @@ export default function DataScientistPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方（どのサービスが強いか）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方（サービス別の特徴）</h2>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT特化エージェント）</h3>
@@ -245,12 +245,12 @@ export default function DataScientistPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
-              <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、外資系やデータ活用に力を入れる企業のスカウトが届きやすいです。市場価値を測る用途でも有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯の求人を中心に扱い、外資系やデータ活用に力を入れる企業のスカウトが届きやすくなります。市場価値を測る用途でも有効です。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（国内最大級）</h3>
-              <p className="text-sm text-slate-600 mb-2">圧倒的な求人数と非公開求人が強みです。大手企業のデータ活用ポジションを含め、幅広い選択肢から探したい人に向きます。</p>
+              <p className="text-sm text-slate-600 mb-2">豊富な求人数と非公開求人が強みです。大手企業のデータ活用ポジションを含め、幅広い選択肢から探したい人に向きます。</p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
           </div>
@@ -264,7 +264,7 @@ export default function DataScientistPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">未経験・経験浅めからの参入ルート</h2>
           <div className="space-y-3">
             {[
-              { period: "1〜3ヶ月", title: "基礎を固める", desc: "Pythonの基礎、SQL、記述/推測統計を学習します。手を動かして小さな分析を回せる状態を目指します。" },
+              { period: "1〜3ヶ月", title: "基礎固め", desc: "Pythonの基礎、SQL、記述/推測統計を学習します。手を動かして小さな分析を回せる状態を目指します。" },
               { period: "4〜6ヶ月", title: "機械学習入門", desc: "scikit-learnで回帰・分類・クラスタリングを実践します。Kaggleの入門コンペで一連の流れに慣れます。" },
               { period: "7〜9ヶ月", title: "実プロジェクト", desc: "公開データで課題定義から示唆出しまで通したプロジェクトを実施し、GitHub・ブログで公開してポートフォリオ化します。" },
               { period: "10〜12ヶ月", title: "転職活動", desc: "DS求人に応募します。未経験寄りならデータアナリストから入って実績を積み、段階的にDSへ寄せるのが現実的です。" },
@@ -288,7 +288,7 @@ export default function DataScientistPage() {
               job tagのデータサイエンティスト区分の平均年齢が<strong>43.9歳</strong>であることからも分かるように、この職種は若手限定ではなく、経験を積んだ層が一定の比率を占めます。30代・40代のエンジニアが持つ<strong>ドメイン知識・課題定義力・本番実装の経験</strong>は、純粋な分析スキル以上に評価されることがあります。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed mb-4">
-              一方で、未経験から「分析専任のジュニアDS」を狙うと、統計・数理に強い若手や新卒と競合しやすくなります。30代・40代は<strong>既存の開発・運用経験が複利で効くMLOps・データ基盤・分析チームのリード</strong>に照準を合わせると勝率が上がります。
+              一方で、未経験から「分析専任のジュニアDS」を狙うと、統計・数理に強い若手や新卒と競合しやすくなります。30代・40代は<strong>既存の開発・運用経験を活かせるMLOps・データ基盤・分析チームのリード</strong>に絞ると採用につながりやすくなります。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
               年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>もあわせてご覧ください。
@@ -301,10 +301,10 @@ export default function DataScientistPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3">
             {[
-              { t: "土台：統計＋Python＋SQL", d: "高度なアルゴリズムの前に、統計の基礎とデータ操作（Python・SQL）を確実に身につけます。実務の8割はここで動きます。" },
-              { t: "実装：課題ドリブンの成果物を1本", d: "『この課題を、このデータで、こう分析して、こう改善した』と言える事例を作ります。技術より物語の一貫性が効きます。" },
+              { t: "土台：統計＋Python＋SQL", d: "高度なアルゴリズムの前に、統計の基礎とデータ操作（Python・SQL）を確実に身につけます。実務の8割はこの範囲で対応できます。" },
+              { t: "実装：課題ドリブンの成果物を1本", d: "『この課題を、このデータで、こう分析して、こう改善した』と言える事例を作ります。技術の高度さより、説明の一貫性が評価につながります。" },
               { t: "強み：エンジニア経験を強み化", d: "再現性のある分析環境、パイプライン、本番実装まで見せられると、純分析職の志望者と差別化できます。" },
-              { t: "証明：資格は補助線", d: "統計検定・G検定などは学習の体系化に有効です。ただし主役はポートフォリオと業務成果と割り切るのが現実的です。" },
+              { t: "証明：資格は補助的な位置づけ", d: "統計検定・G検定などは学習の体系化に有効です。ただし評価の中心はポートフォリオと業務成果であると位置づけるのが現実的です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.t}</h3>
@@ -337,7 +337,7 @@ export default function DataScientistPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">データサイエンスの転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            AI/ML領域に強いIT特化型エージェントに登録して、データサイエンティストのキャリアを相談しましょう。
+            AI/ML領域の求人を扱うIT特化型エージェントに登録して、データサイエンティストのキャリアを相談しましょう。
           </p>
           <Link
             href="/#ranking"

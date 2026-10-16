@@ -30,7 +30,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもセガに転職できますか？",
-    a: "C++/C#での開発経験や、内製エンジン・Unreal/Unity、サーバーサイド等の専門性・実績が問われます。提出会社の平均年齢が42.6歳と高めで、ミドル層も活躍しやすい年齢構成です。専門領域で価値を出せれば年齢自体は大きなハンデになりにくい傾向です。",
+    a: "C++/C#での開発経験や、内製エンジン・Unreal/Unity、サーバーサイド等の専門性・実績が問われます。提出会社の平均年齢が42.6歳と高めで、ミドル層も活躍しやすい年齢構成です。専門領域で価値を出せれば年齢自体は大きなハンデになりにくい傾向があります。",
   },
 ];
 
@@ -98,7 +98,7 @@ export default function SegaSammyCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】セガ（セガサミーHD）の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 有価証券報告書上の平均年間給与は939万円ですが、これは持株会社セガサミーHD（6460・提出会社／全社員平均、平均年齢42.6歳、2025年3月期）の数値で、開発現場の水準ではありません。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>有価証券報告書上の平均年間給与は939万円ですが、これは持株会社セガサミーHD（6460・提出会社／全社員平均、平均年齢42.6歳、2025年3月期）の数値で、開発現場の水準ではありません。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・持株会社=提出会社の平均年間給与 939万円です（2025年3月期 有価証券報告書）。ゲーム開発を担う株式会社セガ等の従業員は含まれません。</li><li>・推移は2021年3月期744万円から2025年3月期939万円へ増加しています（各期 有価証券報告書・持株会社）。</li><li>・実際にゲームを開発するのは事業会社（株式会社セガ等）で、エンジニアの提示額はポジション・等級により個別です。求人で確認が必要です。</li></ul>
         </div>
 
@@ -116,14 +116,14 @@ export default function SegaSammyCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              セガは<strong>内製エンジン（Hedgehog Engine）に加えUnreal/Unityも併用し、C++/C#で大規模ゲームを開発する企業</strong>です。クライアントからサーバーまで専門領域ごとに採用しています。有価証券報告書の年収（939万円）は持株会社の数字で、開発現場の水準とは別物である点に注意が必要です。
+              セガは<strong>内製エンジン（Hedgehog Engine）に加えUnreal/Unityも併用し、C++/C#で大規模ゲームを開発する企業</strong>です。クライアントからサーバーまで専門領域ごとに採用しています。有価証券報告書の年収（939万円）は持株会社の数字で、開発現場の水準とは異なる点に注意が必要です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：C++/C#の実務経験があり、内製エンジン・Unreal/Unity・サーバー等の専門性を深めたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：単一技術のWeb系モダンスタックやフルリモート前提を強く希望する人</li>
-              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢はハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢はハンデになりにくい傾向</li>
             </ul>
           </div>
         </section>
@@ -267,7 +267,7 @@ export default function SegaSammyCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。ゲーム企業の求人も扱い、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム業界の実務経験者への提案に強いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム業界の実務経験者への提案に強みがあります。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：年収600万円の位置づけと到達条件" },
+  { id: "conclusion", label: "年収600万円の位置づけと到達条件" },
   { id: "position", label: "年収600万円はITSSのどのレベルか" },
   { id: "jobs", label: "600万円を超えやすい職種" },
   { id: "skills", label: "600万円に必要なスキル要件" },
@@ -107,7 +107,7 @@ export default function Salary600Page() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          年収600万円は、多くのITエンジニアにとって「現実的に狙える最初の節目」です。本記事では、この600万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag、doda職種別データなど出典付きで整理します。結論として、3年以上の実務に設計・リーダー経験が少し加われば射程に入る年収帯です。
+          年収600万円は、多くのITエンジニアにとって「現実的に狙える最初の節目」です。本記事では、この600万円という金額が<strong>どのスキルレベル・役職・職種に対応するのか</strong>を、経産省ITSSレベル別平均年収や厚労省job tag、doda職種別データなど出典付きで整理します。要点として、3年以上の実務に設計・リーダー経験が少し加われば射程に入る年収帯です。
         </p>
 
         <DataNote
@@ -135,7 +135,7 @@ export default function Salary600Page() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収600万円の位置づけと到達条件</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収600万円の位置づけと到達条件</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収600万円は、経済産業省のITSSスキル標準レベルでみると<strong>L3（平均576.0万円）の後半からL4（726.1万円）の手前</strong>にあたります。公的統計でも、厚生労働省 job tagの「システムエンジニア（受託開発）」が平均578.5万円・平均年齢37.1歳とされ、600万円はそのやや上の位置です。

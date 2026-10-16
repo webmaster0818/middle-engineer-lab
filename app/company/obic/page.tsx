@@ -31,8 +31,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんなエンジニア向きか" },
-  { id: "basic", label: "基本データ（企業概要・出典付き）" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
+  { id: "basic", label: "基本データ（企業概要・出典あり）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
   { id: "salary", label: "年収データ（有価証券報告書）" },
@@ -48,11 +48,11 @@ const toc = [
 const faqs = [
   {
     q: "オービックのエンジニア転職の難易度は高い？",
-    a: "高収益・高年収で人気が高く、選考難易度は中〜やや高とされます。ERP「OBIC7」を中核としたソリューション営業・システム開発・導入の体制が特徴で、基幹システムの開発・導入経験や、業務（会計・人事・販売管理等）への理解があると評価されやすい傾向です。新卒採用の比率が高い企業でもあるため、中途では即戦力性が重視されます。",
+    a: "高収益・高年収で人気が高く、選考難易度は中〜やや高い水準とされます。ERP「OBIC7」を中核としたソリューション営業・システム開発・導入の体制が特徴で、基幹システムの開発・導入経験や、業務（会計・人事・販売管理等）への理解があると評価されやすい傾向があります。新卒採用の比率が高い企業でもあるため、中途では即戦力性が重視されます。",
   },
   {
     q: "オービックのエンジニアの平均年収はいくら？",
-    a: "株式会社オービックの有価証券報告書（2026年3月期）に記載された全社員の平均年間給与は1,129万円、平均年齢は35.8歳です（エンジニア職に限った数値ではなく全社員平均）。IT・SaaS/ERP企業の中でもトップクラスの水準で、近年は1,000万円台で推移しています。職種・等級別の正式な年収表は公開されていないため、個別の提示額は求人ごと・スキル評価ごとに決定されます。",
+    a: "株式会社オービックの有価証券報告書（2026年3月期）に記載された全社員の平均年間給与は1,129万円、平均年齢は35.8歳です（エンジニア職に限った数値ではなく全社員平均）。IT・SaaS/ERP企業の中でも上位の水準で、近年は1,000万円台で推移しています。職種・等級別の正式な年収表は公開されていないため、個別の提示額は求人ごと・スキル評価ごとに決定されます。",
   },
   {
     q: "オービックの技術スタックは？",
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     q: "オービックへの転職で有利な経験は？",
-    a: "ERP・基幹システムの開発・導入経験、会計・人事・販売管理など業務領域の知見、要件定義から導入・運用までを担える上流〜推進の経験などが評価されやすい傾向です。30代・40代では、技術力に加えて顧客・業務に踏み込んだソリューション提案の経験が強みになります。",
+    a: "ERP・基幹システムの開発・導入経験、会計・人事・販売管理など業務領域の知見、要件定義から導入・運用までを担える上流〜推進の経験などが評価されやすい傾向にあります。30代・40代では、技術力に加えて顧客・業務に踏み込んだソリューション提案の経験が強みになります。",
   },
 ];
 
@@ -104,8 +104,8 @@ export default function ObicCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】オービックの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社オービックの平均年間給与は1,129万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢35.8歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,129万円です（2026年3月期 有価証券報告書・全社員平均）。営業職等も含む全社員平均で、エンジニアに限った値ではありません。</li><li>・推移は2022年3月期959万円→2023年3月期1,005万円→2024年3月期1,078万円→2025年3月期1,103万円→2026年3月期1,129万円です（各期 有価証券報告書／IRBANK）。</li><li>・平均年齢35.8歳と若めながらIT/ERP企業でもトップクラスです。職種・等級別の年収表は非公表で、提示額は求人ごとに個別決定されます。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社オービックの平均年間給与は1,129万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢35.8歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,129万円です（2026年3月期 有価証券報告書・全社員平均）。営業職等も含む全社員平均で、エンジニアに限った値ではありません。</li><li>・推移は2022年3月期959万円→2023年3月期1,005万円→2024年3月期1,078万円→2025年3月期1,103万円→2026年3月期1,129万円と推移しています（各期 有価証券報告書／IRBANK）。</li><li>・平均年齢35.8歳と比較的若い組織ながら、IT/ERP企業の中でも上位の水準にあります。職種・等級別の年収表は非公表で、提示額は求人ごとに個別決定されます。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -136,19 +136,19 @@ export default function ObicCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：ERP・基幹システムを一貫して担い、高年収を狙いたいエンジニア向きです。難易度は中〜やや高。</p>
+            <p className="font-bold text-blue-900 mb-3">ERP・基幹システムを一貫して担い、高い年収水準を求めるエンジニアに向いている企業です。難易度は中〜やや高い水準です。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li className="flex gap-2"><span className="shrink-0">1.</span>統合ERP「OBIC7」の開発・導入を一貫して手がけます。基幹システム経験・業務知識が活きます。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は1,129万円です（2026年3月期 有価証券報告書）。IT/ERP企業でもトップクラスの水準です。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>高利益率の安定経営です。コンサルから運用までワンストップで担う体制で、上流・推進の経験が評価されやすいです。</li>
+              <li className="flex gap-2"><span className="shrink-0">1.</span>統合ERP「OBIC7」の開発・導入を一貫して手がけており、基幹システム経験・業務知識が活きます。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は1,129万円（2026年3月期 有価証券報告書）で、IT/ERP企業の中でも上位の水準にあります。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>高い利益率による安定経営が特徴です。コンサルから運用までワンストップで担う体制のため、上流・推進の経験が評価されやすい傾向があります。</li>
             </ul>
           </div>
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（企業概要・出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（企業概要・出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -175,7 +175,7 @@ export default function ObicCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">高収益を背景にした高水準の待遇</h3>
-              <p className="text-sm text-petrol-deep">高い営業利益率で知られ、全社員平均年収はIT/ERP企業でもトップクラスです（2026年3月期 有価証券報告書1,129万円）。安定した高収益基盤の上で長く働きたいミドル層にとって、待遇面の魅力は大きい選択肢です。</p>
+              <p className="text-sm text-petrol-deep">高い営業利益率で知られ、全社員平均年収はIT/ERP企業の中でも上位の水準です（2026年3月期 有価証券報告書1,129万円）。安定した高収益基盤の上で長く働きたいミドル層にとって、待遇面で有力な選択肢といえます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">業務知識×システムの両面が活きる</h3>
@@ -234,7 +234,7 @@ export default function ObicCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mb-4">出典: 株式会社オービック 有価証券報告書（各期）／IRBANK（4684）。平均年齢35.8歳と若めの組織でこの水準は突出して高めです。</p>
+          <p className="text-xs text-slate-400 mb-4">出典: 株式会社オービック 有価証券報告書（各期）／IRBANK（4684）。平均年齢35.8歳と比較的若い組織であることを踏まえると、際立って高い水準といえます。</p>
           <p className="text-slate-700 text-sm leading-relaxed">
             参考として、IT・通信業界の転職者の平均決定年収は486万円（パーソルキャリア「decision年収レポート」2024年度・2025年5月公表）であり、オービックの全社員平均はこれを大きく上回ります。
             ただし高い全社員平均には高収益・高生産性の事業特性が反映されており、エンジニア職個人の提示額はスキル評価で個別決定されます。本ページでは確認できる出典のない等級別レンジは掲載していません。
@@ -311,13 +311,13 @@ export default function ObicCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たオービック</h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              オービックは平均年齢35.8歳（2026年3月期）と比較的若めの組織ながら、全社員平均年収はIT/ERP企業でもトップクラスです。30代・40代のミドルエンジニアにとっては、「安定した高収益基盤の上で、基幹システムを通じて顧客の経営に踏み込みたい」というニーズに合致しやすい選択肢です。
+              オービックは平均年齢35.8歳（2026年3月期）と比較的若い組織ながら、全社員平均年収はIT/ERP企業の中でも上位の水準にあります。30代・40代のミドルエンジニアにとっては、「安定した高収益基盤の上で、基幹システムを通じて顧客の経営に踏み込みたい」というニーズに合致しやすい選択肢です。
             </p>
             <p>
-              ERP・基幹システムの開発・導入経験、会計・人事・販売管理などの業務知識、上流から運用までを担った経験は、年齢に見合った価値として評価されやすいでしょう。一方で、新卒中心の文化が強い企業でもあるため、中途入社では組織への適応や即戦力性が求められる点を理解しておくとよいでしょう。
+              ERP・基幹システムの開発・導入経験、会計・人事・販売管理などの業務知識、上流から運用までを担った経験は、年齢に見合った価値として評価されやすいと考えられます。一方で、新卒中心の文化が強い企業でもあるため、中途入社では組織への適応や即戦力性が求められる点を理解しておく必要があります。
             </p>
             <p>
-              年収面では、現職が頭打ちになっている30代・40代にとって、オービックの全社員平均1,129万円（有価証券報告書）は大きな魅力です。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
+              年収面では、現職が頭打ちになっている30代・40代にとって、オービックの全社員平均1,129万円（有価証券報告書）は有力な判断材料になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
             </p>
             <p>
               年代別の転職実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>も参考になります。
@@ -329,9 +329,9 @@ export default function ObicCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">オービック転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高い大手・専門職の求人に対応しています。高年収企業に強みがあります。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。書類添削・面接対策に定評があります。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、SI・ERP領域にも実績です。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス求人を中心に、年収帯の高い大手・専門職の求人に対応しています。高年収企業の求人に強みがあります。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化型で、高年収求人の比率が高い傾向があります。書類添削・面接対策に定評があります。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、SI・ERP領域にも実績があります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

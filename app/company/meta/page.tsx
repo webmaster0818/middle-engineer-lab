@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 };
 
 const tocItems = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
-  { id: "basic", label: "基本データ（出典付き）" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
+  { id: "basic", label: "基本データ（出典あり）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "proscons", label: "入社のメリット・デメリット" },
   { id: "fit", label: "向いている人・向いていない人" },
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "Meta Japanの転職難易度は高いですか？",
-    a: "コーディング面接の水準が高く、応募も集中するため難易度は高めです。一方で、アルゴリズムの定番対策と大規模開発の実務経験を備えれば挑戦の土台は作れます。準備期間を十分に取ることが現実的です。",
+    a: "コーディング面接の水準が高く、応募も集中するため難易度は高い水準にあります。一方で、アルゴリズムの定番対策と大規模開発の実務経験を備えれば挑戦の土台は作れます。準備期間を十分に取ることが現実的です。",
   },
   {
     q: "Meta Japanのオフィスはどこにありますか？",
@@ -81,17 +81,17 @@ export default function MetaCompanyPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">Meta Japan エンジニア転職ガイド【2026年版】</h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 業界最高水準の総報酬で知られるSNS・AI企業</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 高水準の総報酬で知られるSNS・AI企業</p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Meta Japanの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Meta Japan（Facebook Japan合同会社）は合同会社のため、有価証券報告書による公式の平均年収は非公表です。年収比較サイトlevels.fyi等で総報酬（基本給・株式報酬・ボーナスの合計）がレベル別に参考値として公開されています。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>Meta Japan（Facebook Japan合同会社）は合同会社のため、有価証券報告書による公式の平均年収は非公表です。年収比較サイトlevels.fyi等で総報酬（基本給・株式報酬・ボーナスの合計）がレベル別に参考値として公開されています。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・公式平均は非公表です（合同会社のため有価証券報告書開示なし）。</li><li>・levels.fyi等の参考値では、シニア以上で株式報酬（RSU）が総報酬を大きく押し上げます（2026年時点・回答者ベース・変動大）。</li><li>・出典の取れる等級別年収表はなく、正確なレンジはオファー内容での確認が前提です。RSUは株価変動の影響を受けます。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-4">
-          Meta（旧Facebook）の日本法人は、Instagram等のプロダクトやAI・インフラ領域に関わるエンジニアリング職を擁します。本ガイドは、公式採用ページ（metacareers.com）、年収比較サイトlevels.fyi、各種選考解説の公開情報のみを根拠に、エンジニア中途採用の実像を出典付きで整理します。合同会社のため有価証券報告書による年収開示がない点を踏まえ、年収は「変動の大きい参考値」として扱います。30代・40代のミドルエンジニアが現実的に準備を進められる情報を重視しました。
+          Meta（旧Facebook）の日本法人は、Instagram等のプロダクトやAI・インフラ領域に関わるエンジニアリング職を擁します。本ガイドは、公式採用ページ（metacareers.com）、年収比較サイトlevels.fyi、各種選考解説の公開情報のみを根拠に、エンジニア中途採用の実像を出典を明記して整理します。合同会社のため有価証券報告書による年収開示がない点を踏まえ、年収は「変動の大きい参考値」として扱います。30代・40代のミドルエンジニアが現実的に準備を進められる情報を重視しました。
         </p>
 
         <DataNote
@@ -116,19 +116,19 @@ export default function MetaCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">難易度は「高い」。アルゴリズム力×大規模開発×英語が揃う人に向きます。</p>
+            <p className="font-bold text-blue-900 mb-3">難易度は「高い」とされ、アルゴリズム力・大規模開発の経験・英語力を備えた人に向いています。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>● <strong>向いている人</strong>：アルゴリズム・データ構造に強く、大規模分散システムの開発経験があり、英語で業務遂行できる人です。ML/AIやReact系の専門性も活きます。</li>
-              <li>● <strong>魅力</strong>：総報酬（特に株式報酬）の水準が高く、最先端のAI・大規模プロダクトに関われることが重要です。</li>
+              <li>● <strong>特徴</strong>：総報酬（特に株式報酬）の水準が高く、最先端のAI・大規模プロダクトに関われます。</li>
               <li>● <strong>注意点</strong>：コーディング面接の難度が高く、十分な準備期間が必要です。年収はlevels.fyi等の参考値で振れ幅が大きく、制度・組織は変動します。</li>
             </ul>
           </div>
         </section>
 
         <section id="basic" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -136,9 +136,9 @@ export default function MetaCompanyPage() {
                   ["企業名", "Facebook Japan合同会社（Meta）"],
                   ["業種", "SNS・AI・メタバース"],
                   ["有価証券報告書による年収開示", "なし（合同会社のため）"],
-                  ["年収の参考値", "levels.fyi等で総報酬がレベル別に公開しています。シニア以上はRSUが総報酬を大きく押し上げる（2026年時点・回答者ベース・変動大）"],
+                  ["年収の参考値", "levels.fyi等で総報酬がレベル別に公開。シニア以上はRSUが総報酬を大きく押し上げる傾向（2026年時点・回答者ベース・変動大）"],
                   ["技術スタック", "Hack(PHP) / Python / C++ / React・React Native / PyTorch / GraphQL 等（公開情報）"],
-                  ["英語要件", "業務・面接ともに英語比重が高いです（ポジションにより異なる）"],
+                  ["英語要件", "業務・面接ともに英語比重が高い傾向（ポジションにより異なる）"],
                   ["東京オフィス", "虎ノ門ヒルズ ビジネスタワー（報道ベース）。ハイブリッドワーク前提"],
                   ["採用ページ", "metacareers.com（東京勤務の募集を検索・応募）"],
                 ].map(([label, value], i) => (
@@ -168,7 +168,7 @@ export default function MetaCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">AI・大規模プロダクトの最先端</h3>
-              <p className="text-sm text-petrol-deep">PyTorchの開発元であり、生成AIや大規模インフラ、Instagram等のプロダクト開発に関われます。ML/AIや大規模システムに関心のあるエンジニアにとって魅力的な環境です。</p>
+              <p className="text-sm text-petrol-deep">PyTorchの開発元であり、生成AIや大規模インフラ、Instagram等のプロダクト開発に関われます。ML/AIや大規模システムに関心のあるエンジニアに適した環境です。</p>
             </div>
           </div>
         </section>
@@ -176,7 +176,7 @@ export default function MetaCompanyPage() {
         <section id="proscons" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">入社のメリット・デメリット</h2>
           <p className="text-slate-700 leading-relaxed mb-4">
-            公式採用情報・levels.fyi・各種選考解説の傾向から、メリット・デメリットの両面を整理します。総報酬の多くを占める株式報酬の特性など、注意点も具体的に確認しておきましょう。
+            公式採用情報・levels.fyi・各種選考解説の傾向から、メリット・デメリットの両面を整理します。総報酬の多くを占める株式報酬の特性など、注意点も具体的に確認しておくことが大切です。
           </p>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
@@ -184,7 +184,7 @@ export default function MetaCompanyPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li>● 総報酬（特にRSU）の水準が高く、シニア以上で大きく伸びる事例があります</li>
                 <li>● PyTorch・React等を生み出す最先端のAI・大規模プロダクトに関われます</li>
-                <li>● コーディング面接中心で、準備量がものを言う実力本位の選考です</li>
+                <li>● コーディング面接中心で、準備量が結果に反映されやすい実力本位の選考です</li>
                 <li>● 大規模トラフィックを前提とした設計・運用の経験を積めます</li>
               </ul>
             </div>
@@ -193,7 +193,7 @@ export default function MetaCompanyPage() {
               <ul className="space-y-2 text-sm text-rose-900">
                 <li>● コーディング面接の難度が高く、十分な準備期間が必要です</li>
                 <li>● 総報酬の多くを株式報酬（RSU）が占め、株価変動で実受取額が上下します</li>
-                <li>● 業務・面接ともに英語比重が高いポジションが多いです</li>
+                <li>● 業務・面接ともに英語比重が高いポジションが多い傾向にあります</li>
                 <li>● 「Move Fast」のスピード文化や組織変更への適応が求められます</li>
               </ul>
             </div>
@@ -239,7 +239,7 @@ export default function MetaCompanyPage() {
             </ul>
           </div>
           <p className="text-slate-700 leading-relaxed text-sm">
-            React・React Native・GraphQL・PyTorchなど、現在広く使われるOSSの多くがMeta発であることからも分かるように、技術を自ら生み出し標準化する文化が強い企業です。大規模トラフィックを前提とした設計・運用の経験が活きやすい環境です。
+            React・React Native・GraphQL・PyTorchなど、現在広く使われるOSSの多くがMeta発であることからも分かるように、技術を自ら生み出し標準化する文化が根付いた企業といえます。大規模トラフィックを前提とした設計・運用の経験が活きやすい環境です。
           </p>
         </section>
 
@@ -257,7 +257,7 @@ export default function MetaCompanyPage() {
             </p>
           </div>
           <p className="text-slate-700 leading-relaxed text-sm">
-            参考までに、レバテック公表（2025年）の正社員SE平均年収は30代約499万円・40代約618万円です（出典: レバテック ガイド記事）。外資テックのトップ層はこれを大きく上回りますが、総報酬の多くを占めるRSUは変動リスクを伴う点を理解しておきましょう。
+            参考までに、レバテック公表（2025年）の正社員SE平均年収は30代約499万円・40代約618万円です（出典: レバテック ガイド記事）。外資テックのトップ層はこれを大きく上回りますが、総報酬の多くを占めるRSUは変動リスクを伴う点を理解しておく必要があります。
           </p>
         </section>
 
@@ -269,9 +269,9 @@ export default function MetaCompanyPage() {
           <ol className="space-y-3">
             {[
               ["1. 応募（metacareers.com）", "公式採用ページで東京勤務の募集を検索し応募します。リクルーターからのスカウトやリファラル経由のルートもあるとされます。"],
-              ["2. リクルーター面談／初期スクリーニング", "経歴・志向の確認と、選考の流れの説明。"],
-              ["3. 技術面接（コーディング中心・複数回）", "アルゴリズム・データ構造のコーディング面接が中心。シニア以上はシステム設計面接も行われます。主にオンラインの1対1で実施されるとされます。"],
-              ["4. 行動面接・最終・オファー", "協働姿勢や影響力を見る行動面接を経て、レベル判定とオファー提示。最終は東京オフィスで実施される場合もあります。"],
+              ["2. リクルーター面談／初期スクリーニング", "経歴・志向の確認と、選考の流れの説明が行われます。"],
+              ["3. 技術面接（コーディング中心・複数回）", "アルゴリズム・データ構造のコーディング面接が中心です。シニア以上はシステム設計面接も行われます。主にオンラインの1対1で実施されるとされます。"],
+              ["4. 行動面接・最終・オファー", "協働姿勢や影響力を見る行動面接を経て、レベル判定とオファー提示が行われます。最終は東京オフィスで実施される場合もあります。"],
             ].map(([title, desc], i) => (
               <li key={i} className="border border-slate-200 rounded-lg p-4">
                 <p className="font-bold text-slate-800 text-sm mb-1">{title}</p>
@@ -307,7 +307,7 @@ export default function MetaCompanyPage() {
               <strong>年齢より「準備量」が結果を左右する企業です。</strong>Metaの選考はコーディング面接の比重が高く、現場で長くマネジメント寄りに進んできた30代・40代ほど、アルゴリズム対策に意図的な準備時間を割く必要があります。逆に言えば、準備さえ積めば年齢を理由に不利になりにくい、実力本位の選考です。シニア以上ではシステム設計と「影響力の実績」が評価軸になり、ここはミドル層の経験が活きる領域です。
             </p>
             <p className="text-sm text-amber-900 leading-relaxed">
-              <strong>総報酬の「中身」を冷静に見ます。</strong>提示額の多くを株式報酬（RSU）が占めるため、株価変動で実受取額が上下します。家計や生活設計の観点では、基本給の比率やベスティング条件まで確認したうえで意思決定するのが安全です。オファー比較の考え方は<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">複数オファーの比較ガイド</Link>も参考になります。
+              <strong>総報酬の内訳を確認することが重要です。</strong>提示額の多くを株式報酬（RSU）が占めるため、株価変動で実受取額が上下します。家計や生活設計の観点では、基本給の比率やベスティング条件まで確認したうえで意思決定することをおすすめします。オファー比較の考え方は<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">複数オファーの比較ガイド</Link>も参考になります。
             </p>
             <p className="text-sm text-amber-900 leading-relaxed">
               市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">エンジニアの市場価値の測り方</Link>、外資特有の進め方は<Link href="/knowledge/overseas/" className="text-petrol hover:underline">外資・グローバル転職ガイド</Link>も合わせてご覧ください。
@@ -319,9 +319,9 @@ export default function MetaCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">Meta Japan転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資テックを扱うヘッドハンター経由の案件に出会いやすいです。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。面接対策サポートも活用できます。" },
-              { name: "リクルートエージェントIT", href: "/review/recruit-it/", desc: "国内最大級の求人数です。非公開求人が豊富で外資系の選択肢も広いです。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けのスカウト型サービスです。外資テックを扱うヘッドハンター経由の案件に出会いやすくなります。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化型で、高年収求人の比率が高い傾向があります。面接対策サポートも活用できます。" },
+              { name: "リクルートエージェントIT", href: "/review/recruit-it/", desc: "国内最大級の求人数を有し、非公開求人が豊富で外資系の求人も幅広く扱っています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "diff", label: "結論：SRE・インフラとの違い" },
+  { id: "diff", label: "SRE・インフラとの違い" },
   { id: "market", label: "市場・年収データ" },
   { id: "cicd", label: "CI/CDが必須である理由" },
   { id: "skill", label: "横断スキル（IaC・コンテナ・監視）" },
@@ -30,7 +30,7 @@ const toc = [
 const faqs = [
   {
     q: "DevOpsエンジニアとSREの違いは何ですか？",
-    a: "重なる部分は多いですが、重心が違います。DevOpsは「開発（Dev）と運用（Ops）の橋渡し」を文化と自動化で実現する考え方・役割で、リリースを速く・安全に回すことが軸です。一方SRE（Site Reliability Engineering）は「サービスの信頼性をエンジニアリングで担保する」職で、SLI/SLO・エラーバジェットなど信頼性の数値設計が軸です。概要としては、DevOpsは『速く届ける文化と仕組み』、SREは『止まらない仕組み』に寄ります。SREの詳細は",
+    a: "重なる部分は多いですが、重視する点が異なります。DevOpsは「開発（Dev）と運用（Ops）の橋渡し」を文化と自動化で実現する考え方・役割で、リリースを速く・安全に回すことが軸です。一方SRE（Site Reliability Engineering）は「サービスの信頼性をエンジニアリングで担保する」職で、SLI/SLO・エラーバジェットなど信頼性の数値設計が軸です。概要としては、DevOpsは『速く届ける文化と仕組み』、SREは『止まらない仕組み』に重点を置きます。SREの詳細は",
     aLink: { href: "/career/sre/", label: "SREへの転向ガイド" },
     aTail: "をご覧ください。",
   },
@@ -42,11 +42,11 @@ const faqs = [
   },
   {
     q: "DevOpsエンジニアの平均年収はどのくらいですか？",
-    a: "DevOps専用の公的統計は確認しにくいため、近接区分の参考値を示します。求人ボックス給料ナビではソフトウェアエンジニア約511万円、システムエンジニア約516万円です（2026年6月時点・動的に変動）。DevOps領域は自動化スキルが評価され、これらより上振れしやすい傾向です。媒体推定では500〜800万円が中心で、高スキル層は初年度から1,000万円超の求人も見られます（各社推定・幅あり）。求人サービスのGreenには「DevOps 950万円以上」のカテゴリも実在します（2026年6月時点）。単一の数値で断定せず、スキルで変わる前提でご覧ください。",
+    a: "DevOps専用の公的統計は確認しにくいため、近接区分の参考値を示します。求人ボックス給料ナビではソフトウェアエンジニア約511万円、システムエンジニア約516万円です（2026年6月時点・動的に変動）。DevOps領域は自動化スキルが評価され、これらより上振れしやすい傾向があります。媒体推定では500〜800万円が中心で、高スキル層は初年度から1,000万円超の求人も見られます（各社推定・幅あり）。求人サービスのGreenには「DevOps 950万円以上」のカテゴリもあります（2026年6月時点）。単一の数値で断定せず、スキルで変わる前提でご覧ください。",
   },
   {
     q: "DevOpsエンジニアにCI/CDは必須ですか？",
-    a: "実質的に必須です。Jenkins、GitHub Actions、GitLab CI、AWS CodePipeline、Google Cloud Buildなどを使い、ビルド・テスト・デプロイを自動化するのがDevOpsの中核業務だからです。どれか一つを深く理解すれば、他のツールへの応用も効きます。CI/CDを語れるかどうかが、書類・面接の評価を大きく左右します。",
+    a: "実質的に必須です。Jenkins、GitHub Actions、GitLab CI、AWS CodePipeline、Google Cloud Buildなどを使い、ビルド・テスト・デプロイを自動化するのがDevOpsの中核業務だからです。どれか一つを深く理解すれば、他のツールへの応用もしやすくなります。CI/CDを語れるかどうかが、書類・面接の評価を大きく左右します。",
   },
   {
     q: "DevOpsエンジニアは未経験でもなれますか？",
@@ -54,19 +54,19 @@ const faqs = [
   },
   {
     q: "40代でもDevOpsエンジニアへ転職できますか？",
-    a: "可能です。DevOpsはツールだけでなく『開発と運用の文化を橋渡しする』調整力が問われるため、チームをまとめてきたミドルの経験が活きます。レバテック公表の正社員SE年代別平均は40代約618万円、年収1,000万円以上の割合は40代で12.67%（2025年）と、ミドルでも高年収帯が一定数あります。自動化の実績と組織改善の経験をセットで示すのが鍵です。",
+    a: "可能です。DevOpsはツールだけでなく『開発と運用の文化を橋渡しする』調整力が問われるため、チームをまとめてきたミドルの経験が活きます。レバテック公表の正社員SE年代別平均は40代約618万円、年収1,000万円以上の割合は40代で12.67%（2025年）と、ミドルでも高年収帯が一定数あります。自動化の実績と組織改善の経験をセットで示すことが重要です。",
   },
 ];
 
 const salaryRef = [
-  ["ソフトウェアエンジニア", "約511万円", "DevOps領域はここから上振れしやすいです"],
-  ["システムエンジニア（SE）", "約516万円", "自動化スキルで一段上を狙えます"],
+  ["ソフトウェアエンジニア", "約511万円", "DevOps領域はここから上振れしやすい傾向"],
+  ["システムエンジニア（SE）", "約516万円", "自動化スキルで一段上の水準も視野"],
 ];
 
 const cicdTools = [
-  ["Jenkins", "歴史が長くオンプレ・受託で根強い。柔軟だが運用知識が要る"],
-  ["GitHub Actions", "GitHubと統合され導入が容易。近年採用が広い"],
-  ["GitLab CI", "GitLab一体型。セルフホスト・エンタープライズで使われる"],
+  ["Jenkins", "歴史が長く、オンプレ・受託で根強い需要。柔軟性が高い反面、運用知識が必要"],
+  ["GitHub Actions", "GitHubと統合され導入が容易。近年採用が拡大"],
+  ["GitLab CI", "GitLab一体型。セルフホスト・エンタープライズでの利用が中心"],
   ["AWS CodePipeline", "AWS環境での標準的な選択肢の一つ"],
   ["Google Cloud Build", "GCP環境でのビルド・デプロイ自動化"],
 ];
@@ -138,7 +138,7 @@ export default function DevopsSkillPage() {
         </nav>
 
         <section id="diff" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SRE・インフラとの違い</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">SRE・インフラとの違い</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               DevOps転職を成功させる軸は、<strong>「自動化で開発を速く・安全に回せること」を実績で示すこと</strong>です。進め方は次の3点です。
@@ -161,7 +161,7 @@ export default function DevopsSkillPage() {
         <section id="market" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">市場・年収データ</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            DevOps専用の公的統計は確認しにくいため、近接区分の参考値を示します。求人ボックス給料ナビの値は次のとおりです（2026年6月時点・動的に変動する集計値）。DevOps領域は自動化スキルが評価され、これらより<strong>上振れしやすい</strong>傾向です。
+            DevOps専用の公的統計は確認しにくいため、近接区分の参考値を示します。求人ボックス給料ナビの値は次のとおりです（2026年6月時点・動的に変動する集計値）。DevOps領域は自動化スキルが評価され、これらより<strong>上振れしやすい</strong>傾向があります。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -184,7 +184,7 @@ export default function DevopsSkillPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            媒体推定では500〜800万円が中心で、高スキル層は初年度から1,000万円超の求人も見られます（各社推定・幅あり）。求人サービスのGreenには「DevOps 950万円以上」のカテゴリも実在します（2026年6月時点）。<strong>年収1,000万円超は実在しますが、Kubernetes運用・マルチクラウド・高度な自動化の実績が前提</strong>で、誰でも到達する水準ではない点に注意してください。
+            媒体推定では500〜800万円が中心で、高スキル層は初年度から1,000万円超の求人も見られます（各社推定・幅あり）。求人サービスのGreenには「DevOps 950万円以上」のカテゴリもあります（2026年6月時点）。<strong>年収1,000万円超の求人は存在しますが、Kubernetes運用・マルチクラウド・高度な自動化の実績が前提</strong>で、誰でも到達する水準ではない点に注意してください。
           </p>
           <p className="text-xs text-slate-500 leading-relaxed">
             出典: 求人ボックス給料ナビ（2026年6月時点・動的・近接区分）、Green DevOpsカテゴリ（2026年6月時点・実在カテゴリ）、レバテック「DevOpsエンジニアとは」解説、レバテック公表の年代別平均年収（2025年／40代約618万円、年収1,000万円以上の割合は40代で12.67%）。
@@ -215,7 +215,7 @@ export default function DevopsSkillPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            すべてを使える必要はありません。どれか一つを深く理解すれば、他のツールへの応用が効きます。
+            すべてを使える必要はありません。どれか一つを深く理解すれば、他のツールにも応用しやすくなります。
           </p>
         </section>
 
@@ -226,8 +226,8 @@ export default function DevopsSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "IaC（Infrastructure as Code）", d: "Terraform等でインフラをコード管理。手作業を排し、再現性とレビュー可能性を高めます。" },
-              { t: "コンテナ（Docker / Kubernetes）", d: "アプリをコンテナ化し、Kubernetesでオーケストレーションです。スケーラブルな運用の土台です。" },
+              { t: "IaC（Infrastructure as Code）", d: "Terraform等でインフラをコードで管理します。手作業を減らし、再現性とレビュー可能性を高めます。" },
+              { t: "コンテナ（Docker / Kubernetes）", d: "アプリをコンテナ化し、Kubernetesでオーケストレーションします。スケーラブルな運用の土台となる技術です。" },
               { t: "監視・オブザーバビリティ", d: "メトリクス・ログ・トレースを集約し、問題を早期検知します。Prometheus/Grafana等が代表です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -243,7 +243,7 @@ export default function DevopsSkillPage() {
             <Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform転職ガイド</Link>、
             クラウド基盤は
             <Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>
-            が接続先です。
+            が参考になります。
           </p>
         </section>
 
@@ -255,7 +255,7 @@ export default function DevopsSkillPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">未経験歓迎枠</h3>
-              <p className="text-sm text-slate-600">インフラ・開発の基礎がある人が、CI/CD・IaCを学んで入るルートです。年収は標準的だが入口として現実的です。</p>
+              <p className="text-sm text-slate-600">インフラ・開発の基礎がある人が、CI/CD・IaCを学んで入るルートです。年収は標準的ですが、入口として現実的です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">即戦力・高報酬枠</h3>
@@ -269,8 +269,8 @@ export default function DevopsSkillPage() {
           <div className="space-y-3">
             {[
               { t: "入口層（CI/CD導入）", d: "GitHub Actions等でビルド・テスト・デプロイを自動化します。Docker基礎とスクリプティングが問われます。" },
-              { t: "中核層（IaC・コンテナ運用）", d: "Terraformでの構成管理、Kubernetes運用、監視の整備。年収帯が一段上がるゾーンです。" },
-              { t: "上級層（プラットフォーム・組織改善）", d: "開発生産性を高める内部基盤づくり、組織横断のDevOps文化推進。マネジメント要素も評価されます。" },
+              { t: "中核層（IaC・コンテナ運用）", d: "Terraformでの構成管理、Kubernetes運用、監視の整備が求められます。年収帯が一段上がるゾーンです。" },
+              { t: "上級層（プラットフォーム・組織改善）", d: "開発生産性を高める内部基盤づくり、組織横断のDevOps文化推進を担います。マネジメント要素も評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -302,7 +302,7 @@ export default function DevopsSkillPage() {
               <p className="text-sm text-petrol-deep">
                 自動化にセキュリティを組み込む方向です。
                 <Link href="/career/devsecops/" className="text-petrol-deep underline ml-1">DevSecOpsキャリア</Link>
-                へ接続します。
+                につながります。
               </p>
             </div>
           </div>
@@ -314,7 +314,7 @@ export default function DevopsSkillPage() {
             {[
               { n: "STEP 1", t: "土台の棚卸し", d: "Linux・ネットワーク・開発（いずれか）の基礎を整理します。DevOpsの土台になります。" },
               { n: "STEP 2", t: "CI/CDを自作", d: "GitHub Actionsで小さなアプリのビルド・テスト・デプロイを自動化します。" },
-              { n: "STEP 3", t: "IaC・コンテナ化", d: "Dockerでコンテナ化し、Terraformでインフラをコード管理。GitHubに公開します。" },
+              { n: "STEP 3", t: "IaC・コンテナ化", d: "Dockerでコンテナ化し、Terraformでインフラをコード管理したうえで、GitHubに公開します。" },
               { n: "STEP 4", t: "自動化ストーリーで応募", d: "『手作業をどれだけ自動化し、リリースをどう速くしたか』を職務経歴書に落とし込みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -338,7 +338,7 @@ export default function DevopsSkillPage() {
               DevOpsは「ツール」だけの仕事ではありません。<strong>開発チームと運用チームの間に立ち、文化と仕組みの両方を変える調整力</strong>が問われます。チームをまとめ、組織を動かしてきたミドルの経験は、ここで強みになります。
             </p>
             <p>
-              <strong>デメリット・注意点も記載します。</strong>DevOpsは扱う技術の幅が広く、CI/CD・IaC・コンテナ・クラウド・監視を横断的にキャッチアップし続ける負荷があります。また「DevOpsエンジニア」という求人名でも、実態はただのインフラ運用や雑務対応の場合があるため、求人の中身（自動化をどこまで任されるか）を見極める必要があります。年収1,000万円超は実在しますが、高スキルが前提で、誰でも到達する水準ではありません。
+              <strong>デメリット・注意点も記載します。</strong>DevOpsは扱う技術の幅が広く、CI/CD・IaC・コンテナ・クラウド・監視を横断的にキャッチアップし続ける負荷があります。また「DevOpsエンジニア」という求人名でも、実態は通常のインフラ運用や雑務対応の場合があるため、求人の中身（自動化をどこまで任されるか）を見極める必要があります。年収1,000万円超の求人は存在しますが、高スキルが前提で、誰でも到達する水準ではありません。
             </p>
             <p>
               年代別の市場感は
@@ -377,7 +377,7 @@ export default function DevopsSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">DevOpsスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            CI/CD・自動化案件に強いIT特化型エージェントで、ご自身のDevOpsスキルの市場価値を確認しましょう。
+            CI/CD・自動化案件を扱うIT特化型エージェントで、ご自身のDevOpsスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

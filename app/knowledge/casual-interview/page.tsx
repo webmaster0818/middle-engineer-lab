@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：評価でなく相互理解の場として使う" },
+  { id: "conclusion", label: "評価でなく相互理解の場として使う" },
   { id: "difference", label: "カジュアル面談と面接の違い" },
   { id: "flow", label: "進行フロー（30〜60分）" },
   { id: "questions", label: "エンジニアの逆質問リスト20問" },
@@ -146,10 +146,10 @@ export default function CasualInterviewPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアのカジュアル面談はどう進め、何を質問すればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3">
-              <strong>結論: カジュアル面談は合否のつかない相互理解・情報交換の場です。現場の判断や運用に踏み込む逆質問を3〜5問用意し、入社後に後悔しない情報を集めるのが正解です。</strong>
+              <strong>カジュアル面談は合否のつかない相互理解・情報交換の場です。現場の判断や運用に踏み込む逆質問を3〜5問用意し、入社後に後悔しないための情報を集めることが重要です。</strong>
             </p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
-              <li>・面接と違い合否は原則つかず、選考に進むかをお互いに見極める場です（ただし印象は残る）。</li>
+              <li>・面接と違い合否は原則つかず、選考に進むかをお互いに見極める場です（ただし印象は残ります）。</li>
               <li>・進行は30〜60分で、後半の逆質問（10〜20分）が最も重要な時間です。</li>
               <li>・逆質問は技術スタック・開発フロー・評価制度など、現場の実態に踏み込む内容を厳選します。</li>
               <li>・「調べれば分かること」「給与だけに終始」「質問ゼロ」はNGです。興味があれば終盤で選考意思を伝えます。</li>
@@ -181,17 +181,17 @@ export default function CasualInterviewPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：評価でなく相互理解の場として使う</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">評価でなく相互理解の場として使う</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              カジュアル面談は「合否を決める面接」ではなく「選考に進むかをお互いに見極める場」です。だからこそ、企業側に評価されることより、<strong>自分が入社後に後悔しないための情報を集めること</strong>に主眼を置くのが正解です。
+              カジュアル面談は「合否を決める面接」ではなく「選考に進むかをお互いに見極める場」です。だからこそ、企業側に評価されることより、<strong>自分が入社後に後悔しないための情報を集めること</strong>に主眼を置くことをおすすめします。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>・志望動機を完璧に語る必要はありません。関心と人柄が伝われば十分です</li>
               <li>・現場の判断・運用に踏み込む逆質問を3〜5問用意します</li>
-              <li>・興味を持ったら終盤で選考への意思を伝えると流れが速いです</li>
+              <li>・興味を持ったら、終盤で選考への意思を伝えるとその後の調整がスムーズに進みます</li>
             </ul>
             <p className="text-sm text-blue-900 leading-relaxed mt-3">
-              選考に入ってからの技術面接対策は<Link href="/knowledge/tech-interview/" className="font-semibold underline">技術面接の準備</Link>、行動面接は<Link href="/knowledge/behavioral/" className="font-semibold underline">行動面接（STAR）対策</Link>で別途解説しています。本記事は選考前の立ち回りに特化します。
+              選考に入ってからの技術面接対策は<Link href="/knowledge/tech-interview/" className="font-semibold underline">技術面接の準備</Link>、行動面接は<Link href="/knowledge/behavioral/" className="font-semibold underline">行動面接（STAR）対策</Link>で別途解説しています。本記事では選考前の進め方を中心に扱います。
             </p>
           </div>
         </section>
@@ -213,7 +213,7 @@ export default function CasualInterviewPage() {
               <tbody>
                 {[
                   { item: "目的", casual: "相互理解・情報交換", interview: "合否の判断" },
-                  { item: "合否", casual: "つかないのが原則", interview: "つく" },
+                  { item: "合否", casual: "原則なし", interview: "あり" },
                   { item: "主導権", casual: "ほぼ対等", interview: "企業側" },
                   { item: "話す比率", casual: "企業側の説明が多め", interview: "応募者の回答が中心" },
                   { item: "服装", casual: "オフィスカジュアル可", interview: "きれいめが無難" },
@@ -240,11 +240,11 @@ export default function CasualInterviewPage() {
           </p>
           <div className="space-y-3">
             {[
-              { phase: "アイスブレイク（5分）", desc: "自己紹介と、面談に至った経緯（スカウト・興味）の確認。ここで緊張をほぐします。" },
+              { phase: "アイスブレイク（5分）", desc: "自己紹介を行い、面談に至った経緯（スカウト・興味）を確認します。ここで緊張をほぐします。" },
               { phase: "企業・事業の説明（10〜15分）", desc: "企業側から事業内容・組織・募集ポジションの説明を受けます。メモを取りながら不明点を控えておきます。" },
               { phase: "ご自身の経歴・関心のヒアリング（10〜15分）", desc: "これまでの経験や興味のある領域を聞かれます。話しすぎず、要点を簡潔に伝えます。" },
               { phase: "逆質問・相互Q&A（10〜20分）", desc: "最も重要な時間です。技術環境・チーム・評価制度など、現場の実態に踏み込みます。" },
-              { phase: "今後の流れの確認（5分）", desc: "選考に進む場合のステップや、検討期間の確認。意欲があればその場で伝えてもOKです。" },
+              { phase: "今後の流れの確認（5分）", desc: "選考に進む場合のステップや検討期間を確認します。意欲があれば、その場で伝えても問題ありません。" },
             ].map((p, i) => (
               <div key={p.phase} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">

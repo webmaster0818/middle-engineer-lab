@@ -30,8 +30,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["conclusion", "難易度と向いているエンジニア"],
+  ["basic", "基本データ（出典あり）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -66,11 +66,11 @@ const faqs = [
   },
   {
     q: "30代・40代でもMIXIに転職できますか？",
-    a: "単体の平均年齢は38.1歳（2026年3月期）と、年齢層に幅のある組織です。大規模サービスのサーバーサイド・モバイル・ゲーム開発、SRE、データ基盤などの専門性や実績があれば、30代・40代でも評価されやすい傾向です。",
+    a: "単体の平均年齢は38.1歳（2026年3月期）と、年齢層に幅のある組織です。大規模サービスのサーバーサイド・モバイル・ゲーム開発、SRE、データ基盤などの専門性や実績があれば、30代・40代でも評価されやすい傾向があります。",
   },
   {
     q: "MIXIへの転職難易度は高いですか？",
-    a: "モンストのような大規模トラフィックを支える技術力に加え、プロダクト志向・チームでの協働姿勢が見られます。コーディングテストが課されるポジションも多く、技術・カルチャー両面の準備が必要です。",
+    a: "モンストのような大規模トラフィックを支える技術力に加え、プロダクト志向・チームでの協働姿勢も評価の対象となります。コーディングテストが課されるポジションも多く、技術・カルチャー両面の準備が必要です。",
   },
 ];
 
@@ -98,8 +98,8 @@ export default function MixiCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】MIXI（ミクシィ）の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社MIXIの平均年間給与は847万円です（2026年3月期 有価証券報告書・提出会社単体、平均年齢38.1歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 847万円です（2026年3月期 有価証券報告書・単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・上昇傾向が続き、2024年3月期746万円→2025年3月期791万円→2026年3月期847万円です（各期 有価証券報告書・単体）。</li><li>・エンジニア職限定の公式な提示年収レンジは非公表です。提示額は等級・職種で変動するため個別求人での確認が確実です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社MIXIの平均年間給与は847万円です（2026年3月期 有価証券報告書・提出会社単体、平均年齢38.1歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 847万円です（2026年3月期 有価証券報告書・単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・上昇傾向が続いており、2024年3月期746万円→2025年3月期791万円→2026年3月期847万円と推移しています（各期 有価証券報告書・単体）。</li><li>・エンジニア職限定の公式な提示年収レンジは非公表です。提示額は等級・職種で変動するため個別求人での確認が確実です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -118,14 +118,14 @@ export default function MixiCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               MIXIは<strong>モンストのような大規模トラフィックを支えつつ、ゲーム・スポーツ・ライフスタイルと幅広い領域でプロダクト開発を行うエンタメ企業</strong>です。プロダクトごとに最適な技術を選ぶ文化で、技術の幅・深さの両方が活きます。単体の平均年収847万円（2026年3月期）はWeb系の中で標準的な水準です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：大規模サービスのサーバーサイド・モバイル・ゲーム開発の実務経験があり、プロダクト志向の強いエンジニア</li>
               <li>● <strong>向いていない人</strong>：受託・SIerのように仕様確定後の実装のみを志向する人</li>
-              <li>● <strong>30代・40代</strong>：特定領域（SRE/データ基盤/ゲーム基盤等）の専門性があれば年齢はハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：特定領域（SRE/データ基盤/ゲーム基盤等）の専門性があれば年齢がハンデになりにくい環境</li>
             </ul>
           </div>
         </section>
@@ -142,7 +142,7 @@ export default function MixiCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -155,7 +155,7 @@ export default function MixiCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2026年3月期 有価証券報告書の提出会社（単体）数値。技術スタックは公式技術ブログ等の公開情報ベースです（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2026年3月期 有価証券報告書の提出会社（単体）数値です。技術スタックは公式技術ブログ等の公開情報に基づきます（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -190,7 +190,7 @@ export default function MixiCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ・データ基盤</strong>：GCP、AWS、MySQL、クラウド/オンプレのハイブリッド構成</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: MIXI公式 技術ブログ「ミクシル」等の公開情報（2026年6月時点）。プロダクト別の構成です。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: MIXI公式 技術ブログ「ミクシル」等の公開情報（2026年6月時点）。構成はプロダクトにより異なります。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -270,8 +270,8 @@ export default function MixiCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">MIXI転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。メガベンチャー求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム企業への提案実績が豊富で提案スピードが速いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。メガベンチャー求人に強みがあり、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム企業への提案実績が豊富で提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

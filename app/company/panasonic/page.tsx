@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：パナソニック転職の難易度と向くエンジニア" },
+  { id: "conclusion", label: "パナソニック転職の難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "tech", label: "技術スタック・DX組織（コネクト・Blue Yonder）" },
@@ -39,7 +39,7 @@ const basicData: [string, string][] = [
 const faqs = [
   {
     q: "パナソニックのエンジニア転職の難易度は？",
-    a: "大手総合電機であり人気が高く難易度は高めとされますが、持株会社制のもと事業会社ごとに通年でキャリア採用を行っており、募集職種の要件に専門性が合致すれば30代・40代の経験者にもチャンスがあります。IT/ソフトウェアではパナソニック コネクトが中心です（出典：パナソニック コネクト 公式採用ページ）。",
+    a: "大手総合電機であり人気が高く難易度は高めとされますが、持株会社制のもと事業会社ごとに通年でキャリア採用を行っており、募集職種の要件に専門性が合致すれば30代・40代の経験者にも機会があります。IT/ソフトウェアではパナソニック コネクトが中心です（出典：パナソニック コネクト 公式採用ページ）。",
   },
   {
     q: "パナソニックの平均年収はいくらですか？",
@@ -95,7 +95,7 @@ export default function PanasonicCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】パナソニックの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（パナソニック ホールディングス）の平均年間給与は956万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢44.0歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>提出会社（パナソニック ホールディングス）の平均年間給与は956万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢44.0歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 956万円です（2025年3月期 有価証券報告書・HD提出会社ベース／全社員平均、平均勤続年数17.9年）。</li><li>・これは持株会社（HD）ベースの全社員平均で、パナソニック株式会社や各事業会社（コネクト等）、グループ全体の平均とは異なります。</li><li>・事業会社・職種別の公式レンジは非公表です。具体額はエージェント・求人での確認が現実的です。</li></ul>
         </div>
 
@@ -115,11 +115,11 @@ export default function PanasonicCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：パナソニック転職の難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">パナソニック転職の難易度と向いている人</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
-            <p><strong>難易度は高めです。ただし事業会社ごとの通年採用のため、専門性が募集要件に合えば30代・40代でもチャンスは十分です。IT/ソフトウェアはコネクト社が中心です。</strong></p>
-            <p>・<strong>向く人</strong>：B2B/SCMのDX・SaaS開発、組み込み/IoT/エッジ、クラウド、AI/画像解析の実務経験者、製造現場×ITに関心がある人です。</p>
-            <p>・<strong>向きにくい人</strong>：単一のWebプロダクトのみを志向する人、事業会社・部署による文化差を許容しにくい人です。</p>
+            <p><strong>難易度は高めです。ただし事業会社ごとの通年採用のため、専門性が募集要件に合えば30代・40代にも十分に機会があります。IT/ソフトウェアはコネクト社が中心です。</strong></p>
+            <p>・<strong>向いている人</strong>：B2B/SCMのDX・SaaS開発、組み込み/IoT/エッジ、クラウド、AI/画像解析の実務経験者、製造現場×ITに関心がある人です。</p>
+            <p>・<strong>向いていない人</strong>：単一のWebプロダクトのみを志向する人、事業会社・部署による文化差を許容しにくい人です。</p>
             <p>・<strong>年収の目安</strong>：HD提出会社の全社員平均は956万円です（2025年3月期有価証券報告書）。事業会社・職種別の公式レンジは非公表のため、具体額はエージェント経由で確認するのが現実的です。</p>
           </div>
         </section>
@@ -197,7 +197,7 @@ export default function PanasonicCompanyPage() {
             {[
               ["応募（履歴書・職務経歴書を提出）", "公式採用ページまたはエージェント経由で応募します。"],
               ["書類選考", "経験・スキルと募集要件の合致が見られます。"],
-              ["面接（複数回）", "基本オンライン（職種により一部対面）。平日9:00〜20:00で実施と案内します。"],
+              ["面接（複数回）", "基本はオンライン（職種により一部対面）で、平日9:00〜20:00に実施すると案内されています。"],
               ["内定・条件提示", "オファー提示を経て決定します。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
@@ -237,8 +237,8 @@ export default function PanasonicCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量です。パナソニックグループ各事業会社の求人を幅広く保有しています。検索とエージェントを併用できます。" },
-              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚いです。大手メーカーへの転職支援に強く、事業会社別の選考準備をサポートします。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。メーカーのDX部門・SaaS・IoT関連ポジションの求人に強いです。" },
+              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚い点が特徴です。大手メーカーへの転職支援に強く、事業会社別の選考準備をサポートします。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。メーカーのDX部門・SaaS・IoT関連ポジションの求人に強みがあります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

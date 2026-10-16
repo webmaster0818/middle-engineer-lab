@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度と向くエンジニア" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（出典付き）" },
   { id: "feature", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
@@ -43,14 +43,14 @@ const salaryRows: [string, string][] = [
 ];
 
 const faqs = [
-  { q: "DeNAはエンジニアの中途採用を行っている？", a: "はい。ゲーム、ライブストリーミング（Pococha）、ヘルスケア、スポーツDX、AIなど各事業でエンジニアの中途採用を継続的に行っています。サーバーサイド、フロントエンド、SRE／インフラ、機械学習エンジニアなど幅広い職種があります。" },
-  { q: "DeNAの平均年収はいくら？", a: "2026年3月期の有価証券報告書によると、提出会社（株式会社ディー・エヌ・エー単体）の平均年間給与は1,117.9万円、平均年齢38.6歳です。前期（2025年3月期）の882.9万円から大きく増加しました。これは賞与・基準外賃金を含む全従業員（エンジニア以外も含む）の平均で、職種別・等級別の内訳は公式には開示されていません。" },
-  { q: "DeNAのエンジニア職の提示年収レンジは公開されている？", a: "DeNAは職種別・等級別の年収レンジを公式に常時開示しているわけではありません。求人サイトでも提示レンジが常に公開されているとは限らないため、当ガイドでは推測の数値表は掲載していません。基準値としては有価証券報告書の平均1,117.9万円（2026年3月期）が参考になります。" },
-  { q: "DeNAの選考にはコーディングテストがある？", a: "エンジニア職では一般的に、書類選考の後にコーディングテスト（オンラインで自宅受験可・所要約2時間とされる）を実施し、その後に技術面接（複数回）という流れが知られています。アルゴリズム・データ構造・数学的思考が問われ、難易度は極端に高くはなく、ポテンシャルも見る傾向があると複数の受験記で語られています。" },
-  { q: "DeNAの技術スタックは？", a: "公式技術ブログ「DeNA Engineering」では、Go（サーバーサイド）、AWS、Kubernetes（EKS）、GitOps／ArgoCD、TypeScript、Pythonなどに関する記事が継続的に公開されています。ゲーム事業ではUnityやサーバーサイド、AI事業では機械学習関連の技術が用いられます。" },
-  { q: "DeNAの開発文化の特徴は？", a: "全エンジニア向けの「TechTalk」や、iOS／Androidなど領域別の勉強会、年次の技術カンファレンス「DeNA TechCon」など、社内外への技術発信・学習機会が整備されています。口コミでも若手の成長環境やフラットな技術文化への言及が見られます。" },
-  { q: "DeNAへの転職で有利な経験は？", a: "Go／Python／TypeScriptなどでのWebアプリケーションの設計・開発・運用経験、AWS／GCP・Kubernetesでのインフラ／SRE経験、大規模サービスの開発経験が評価されやすい傾向です。ゲーム事業ではUnity・サーバーサイド、AI事業では機械学習・データ分析の実務経験が求められます。" },
-  { q: "DeNAのコーディングテスト対策は？", a: "アルゴリズムとデータ構造の基礎を押さえ、競技プログラミング（AtCoder等）の基本問題に慣れておくのが定番です。難易度は中程度とされるため、数週間〜数か月の準備で対応できたという受験記も見られます。詳しくはコーディングテスト対策の記事も参照してください。" },
+  { q: "DeNAはエンジニアの中途採用を行っていますか？", a: "はい。ゲーム、ライブストリーミング（Pococha）、ヘルスケア、スポーツDX、AIなど各事業でエンジニアの中途採用を継続的に行っています。サーバーサイド、フロントエンド、SRE／インフラ、機械学習エンジニアなど幅広い職種があります。" },
+  { q: "DeNAの平均年収はいくらですか？", a: "2026年3月期の有価証券報告書によると、提出会社（株式会社ディー・エヌ・エー単体）の平均年間給与は1,117.9万円、平均年齢38.6歳です。前期（2025年3月期）の882.9万円から大きく増加しました。これは賞与・基準外賃金を含む全従業員（エンジニア以外も含む）の平均で、職種別・等級別の内訳は公式には開示されていません。" },
+  { q: "DeNAのエンジニア職の提示年収レンジは公開されていますか？", a: "DeNAは職種別・等級別の年収レンジを公式に常時開示しているわけではありません。求人サイトでも提示レンジが常に公開されているとは限らないため、当ガイドでは推測の数値表は掲載していません。基準値としては有価証券報告書の平均1,117.9万円（2026年3月期）が参考になります。" },
+  { q: "DeNAの選考にはコーディングテストがありますか？", a: "エンジニア職では一般的に、書類選考の後にコーディングテスト（オンラインで自宅受験可・所要約2時間とされる）を実施し、その後に技術面接（複数回）という流れが知られています。アルゴリズム・データ構造・数学的思考が問われ、難易度は極端に高くはなく、ポテンシャルも見る傾向があると複数の受験記で語られています。" },
+  { q: "DeNAの技術スタックを教えてください。", a: "公式技術ブログ「DeNA Engineering」では、Go（サーバーサイド）、AWS、Kubernetes（EKS）、GitOps／ArgoCD、TypeScript、Pythonなどに関する記事が継続的に公開されています。ゲーム事業ではUnityやサーバーサイド、AI事業では機械学習関連の技術が用いられます。" },
+  { q: "DeNAの開発文化にはどのような特徴がありますか？", a: "全エンジニア向けの「TechTalk」や、iOS／Androidなど領域別の勉強会、年次の技術カンファレンス「DeNA TechCon」など、社内外への技術発信・学習機会が整備されています。口コミでも若手の成長環境やフラットな技術文化への言及が見られます。" },
+  { q: "DeNAへの転職で有利になる経験を教えてください。", a: "Go／Python／TypeScriptなどでのWebアプリケーションの設計・開発・運用経験、AWS／GCP・Kubernetesでのインフラ／SRE経験、大規模サービスの開発経験が評価されやすい傾向があります。ゲーム事業ではUnity・サーバーサイド、AI事業では機械学習・データ分析の実務経験が求められます。" },
+  { q: "DeNAのコーディングテストはどのように対策すればよいですか？", a: "アルゴリズムとデータ構造の基礎を押さえ、競技プログラミング（AtCoder等）の基本問題に慣れておくのが一般的な対策です。難易度は中程度とされるため、数週間〜数か月の準備で対応できたという受験記も見られます。詳しくはコーディングテスト対策の記事も参照してください。" },
 ];
 
 export default function DenaCompanyPage() {
@@ -72,19 +72,19 @@ export default function DenaCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】DeNAの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: DeNAの有価証券報告書（2026年3月期・提出会社単体）の平均年間給与は1,117.9万円、平均年齢は38.6歳です（エンジニア以外も含む全従業員平均）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与1,117.9万円です（2026年3月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。前期882.9万円から大幅増</li><li>・平均年齢38.6歳と比較的若い組織（従業員数は単体1,400名）</li><li>・職種別・等級別の年収は公式非開示です。エンジニア職の提示レンジは個別確認が必要</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>DeNAの有価証券報告書（2026年3月期・提出会社単体）の平均年間給与は1,117.9万円、平均年齢は38.6歳です（エンジニア以外も含む全従業員平均）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与は1,117.9万円です（2026年3月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。前期の882.9万円から大幅に増加しています。</li><li>・平均年齢は38.6歳と比較的若い組織です（従業員数は単体1,400名）。</li><li>・職種別・等級別の年収は公式に開示されていないため、エンジニア職の提示レンジは個別の確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年8月" sources={["DeNA 有価証券報告書（2026年3月期）", "DeNA 公式採用サイト", "DeNA Engineering（技術ブログ）", "OpenWork・受験記（口コミ／選考傾向）"]} />
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：やや高い〜高い（コーディングテスト＋技術面接）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・選考で<strong>コーディングテスト（アルゴリズム）</strong>があり、Web系の基礎力が問われます。難易度は中程度とされ、対策すれば対応可能です。</li>
-              <li>・<strong>Go・AWS・Kubernetes</strong>を軸にしたモダンな開発環境です。サーバーサイド／SRE／ML／ゲームと事業が広く、Web系・大規模サービス経験者に向きます。</li>
+              <li>・<strong>Go・AWS・Kubernetes</strong>を軸にしたモダンな開発環境です。サーバーサイド／SRE／ML／ゲームと事業が広く、Web系・大規模サービス経験者に向いています。</li>
               <li>・提出会社単体の平均年収は<strong>1,117.9万円（2026年3月期・有価証券報告書）</strong>、平均年齢38.6歳と比較的若い組織です。</li>
             </ul>
           </div>
@@ -112,7 +112,7 @@ export default function DenaCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">多角的な事業で幅広い技術経験</h3><p className="text-sm text-petrol-deep">ゲーム、Pococha（ライブ配信）、ヘルスケア、スポーツDX、AIなど多様な事業を持ち、異なる技術ドメインを経験できます。事業横断での異動の機会もあり、キャリアの幅を広げやすい環境です。</p></div>
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">技術発信・学習文化が活発</h3><p className="text-sm text-petrol-deep">公式技術ブログ「DeNA Engineering」や、全エンジニア向けの「TechTalk」、領域別勉強会、年次カンファレンス「DeNA TechCon」など、技術発信・学習の機会が整備されています。OSS活動や技術書執筆の支援も行われています。</p></div>
-            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">コーディングテストで地力を評価</h3><p className="text-sm text-petrol-deep">エンジニア採用ではコーディングテスト（アルゴリズム）を実施し、現時点のスキルだけでなくポテンシャルも見る傾向があるとされます。経験だけでなく基礎的な問題解決力が評価される選考設計です。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">コーディングテストで基礎力を評価</h3><p className="text-sm text-petrol-deep">エンジニア採用ではコーディングテスト（アルゴリズム）を実施し、現時点のスキルだけでなくポテンシャルも見る傾向があるとされます。経験だけでなく基礎的な問題解決力が評価される選考設計です。</p></div>
           </div>
         </section>
 
@@ -121,8 +121,8 @@ export default function DenaCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下は公式技術ブログ「DeNA Engineering」で公開されている記事タグ・内容に基づく代表的な技術です。事業・チームにより使用技術は異なります。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go（Golang）</strong>：サーバーサイド開発の主力です。新卒研修でもGoでサーバーサイドを学ぶ記事が公開されています</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AWS</strong>：CloudWatch、EKS などです。インフラ／SREチームによる記事が多数</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go（Golang）</strong>：サーバーサイド開発の主力（新卒研修でGoを用いたサーバーサイド開発を学ぶ記事も公開）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AWS</strong>：CloudWatch、EKS など（インフラ／SREチームによる記事が多数）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Kubernetes（EKS）／ GitOps・ArgoCD</strong>：コンテナ基盤・継続的デリバリの実践記事</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>TypeScript ／ Python</strong>：フロントエンド・データ／ML領域で使用</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Unity</strong>：ゲーム事業のクライアント開発</span></li>
@@ -151,8 +151,8 @@ export default function DenaCompanyPage() {
             {[
               ["STEP 1", "応募・書類選考", "公式採用サイトまたはエージェント経由で応募します。職務経歴書で経験を確認します。"],
               ["STEP 2", "コーディングテスト", "オンラインで自宅受験します（所要約2時間とされる）。アルゴリズム・データ構造・数学的思考を評価します。"],
-              ["STEP 3", "技術面接（複数回）", "技術面接（1回あたり約1時間とされる）。実務経験・設計力を深掘り。"],
-              ["STEP 4", "カルチャーフィット・内定", "価値観・カルチャーのフィットを確認のうえ条件提示。"],
+              ["STEP 3", "技術面接（複数回）", "1回あたり約1時間とされる技術面接で、実務経験・設計力を詳しく確認します。"],
+              ["STEP 4", "カルチャーフィット・内定", "価値観・カルチャーのフィットを確認したうえで、条件が提示されます。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -186,7 +186,7 @@ export default function DenaCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たDeNA</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>提出会社単体の<strong>平均年齢は38.6歳</strong>（2026年3月期・有価証券報告書）で、メガベンチャーらしく比較的若い組織です。とはいえ事業領域が広く、大規模サービスの設計・SRE・MLなど高度な専門性を要するポジションが多いため、<strong>30代・40代の経験豊富なエンジニアが技術リードやスペシャリストとして活躍できる余地</strong>があります。</p>
-            <p>注意したいのは選考のコーディングテストです。実務から離れてアルゴリズムに触れていないミドル層は、AtCoderの基本問題などで事前に感覚を取り戻しておくと安心です。年収は提出会社平均1,117.9万円（2026年3月期）が基準で、実力主義の評価ゆえにパフォーマンス次第で処遇が動く点も踏まえ、入社後の評価制度を面接で確認しておくとよいでしょう。Web系・モダン技術志向のミドルエンジニアにとっては、技術的にも事業的にも刺激の多い選択肢です。</p>
+            <p>注意したいのは選考のコーディングテストです。実務から離れてアルゴリズムに触れていないミドル層は、AtCoderの基本問題などで事前に感覚を取り戻しておくと安心です。年収は提出会社平均1,117.9万円（2026年3月期）が基準で、実力主義の評価ゆえにパフォーマンス次第で処遇が動く点も踏まえ、入社後の評価制度を面接で確認しておくとよいでしょう。Web系・モダン技術志向のミドルエンジニアにとっては、技術面・事業面ともに幅広い経験を積める選択肢です。</p>
             <p>選考準備として、<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>と<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の進め方</Link>もあわせて確認してください。</p>
           </div>
         </section>
@@ -194,7 +194,7 @@ export default function DenaCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">DeNA転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でメガベンチャー求人に強いです。技術面接対策のサポートがあります。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。Web系・ゲーム系企業への提案が豊富です。" }, { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型サイトです。カジュアル面談で社風を把握しやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でメガベンチャー求人に強みがあります。技術面接対策のサポートがあります。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。Web系・ゲーム系企業への提案が豊富です。" }, { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型サイトです。カジュアル面談で社風を把握しやすくなります。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">求人保有状況は時期により変動します。<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>もあわせて参照してください。</p>
         </section>

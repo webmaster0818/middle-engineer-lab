@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/portfolio/" },
   title: "30-40代エンジニアのポートフォリオの見せ方【GitHub・登壇】",
   description:
-    "実務経験のある30代・40代エンジニア向けに、GitHub・技術ブログ・登壇・OSSの見せ方を解説します。即席アプリより実務の裏づけを示す構成、プロフィールREADMEの作り方、NG例まで実用テンプレで紹介します。",
+    "実務経験のある30代・40代エンジニア向けに、GitHub・技術ブログ・登壇・OSSの見せ方を解説します。即席アプリより実務の裏づけを示す構成、プロフィールREADMEの作り方、NG例まで実用的なテンプレートとともに紹介します。",
 };
 
 const toc = [
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "技術ブログもポートフォリオになりますか？",
-    a: "なります。Zenn・Qiita・はてなブログなどで技術記事を発信していると、技術の理解度や言語化能力の証明になります。特に30代以上が設計判断やトラブル対応の記事を書いていると、ナレッジ共有やチーム貢献の姿勢として評価されやすいです。",
+    a: "なります。Zenn・Qiita・はてなブログなどで技術記事を発信していると、技術の理解度や言語化能力の証明になります。特に30代以上が設計判断やトラブル対応の記事を書いていると、ナレッジ共有やチーム貢献の姿勢として評価されやすい傾向があります。",
   },
   {
     q: "ポートフォリオにどのくらいの完成度が必要ですか？",
@@ -65,7 +65,7 @@ export default function PortfolioPage() {
     <>
       <ArticleJsonLd
         title="30-40代エンジニアのポートフォリオの見せ方【GitHub・登壇】"
-        description="実務経験のある30代・40代エンジニア向けに、GitHub・技術ブログ・登壇・OSSの見せ方を解説します。即席アプリより実務の裏づけを示す構成、プロフィールREADMEの作り方、NG例まで実用テンプレで紹介します。"
+        description="実務経験のある30代・40代エンジニア向けに、GitHub・技術ブログ・登壇・OSSの見せ方を解説します。即席アプリより実務の裏づけを示す構成、プロフィールREADMEの作り方、NG例まで実用的なテンプレートとともに紹介します。"
         url="/knowledge/portfolio/"
       />
       <script
@@ -92,8 +92,8 @@ export default function PortfolioPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】30〜40代エンジニアのポートフォリオはどう見せればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「コードが書ける証明」ではなく「どんな技術判断ができ、どんな問題を解いてきたか」を示すことです。見せ方を変えるだけで評価は大きく変わります。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・チュートリアルの即席アプリを量産するより、①整ったGitHub ②設計やトラブル対応の技術ブログ ③登壇・OSSの方が費用対効果が高いです。</li><li>・GitHubはプロフィールREADME・ピン留めの厳選・技術選定の理由をREADMEに書くことで、コードを全部読ませなくても実務力が伝わります。</li><li>・業務コードはそのまま公開せず、守秘義務を守って知見を汎用化して見せます（社名・内部数値は出さない）。</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>「コードが書ける証明」ではなく「どんな技術判断ができ、どんな問題を解いてきたか」を示すことが重要です。見せ方を変えるだけで評価は大きく変わります。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・チュートリアルの即席アプリを量産するより、①整ったGitHub ②設計やトラブル対応の技術ブログ ③登壇・OSSの方が費用対効果が高い傾向があります。</li><li>・GitHubはプロフィールREADME・ピン留めの厳選・技術選定の理由をREADMEに書くことで、コードを全部読ませなくても実務力が伝わります。</li><li>・業務コードはそのまま公開せず、守秘義務を守って知見を汎用化して見せます（社名・内部数値は出さない）。</li></ul>
           </div>
         </section>
 
@@ -143,7 +143,7 @@ export default function PortfolioPage() {
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mt-5">
             <p className="text-sm text-amber-800">
-              <strong>ミドル層の優先順位：</strong>「即席アプリを量産」より「①整ったGitHub ＋ ②設計やトラブル対応の技術ブログ ＋ ③登壇・OSS」の方が費用対効果が高いケースが多いです。限られた時間を、実務の裏づけが伝わる出力に投資しましょう。
+              <strong>ミドル層の優先順位：</strong>「即席アプリを量産」より「①整ったGitHub ＋ ②設計やトラブル対応の技術ブログ ＋ ③登壇・OSS」の方が費用対効果が高いケースが多く見られます。限られた時間を、実務の裏づけが伝わる出力に投資しましょう。
             </p>
           </div>
         </section>
@@ -154,11 +154,11 @@ export default function PortfolioPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">プロフィールREADMEで第一印象を作る</h3>
-              <p className="text-sm text-petrol-deep">プロフィールトップに表示されるREADMEに、得意技術・経験領域・代表的な成果物・連絡先をまとめます。採用担当が最初に見る『顔』なため、整っているだけで印象が変わります。</p>
+              <p className="text-sm text-petrol-deep">プロフィールトップに表示されるREADMEに、得意技術・経験領域・代表的な成果物・連絡先をまとめます。採用担当が最初に見る『顔』にあたるため、整っているだけで印象が変わります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ピン留めは『見てほしい順』に厳選する</h3>
-              <p className="text-sm text-petrol-deep">最大6つのピン留め枠には、READMEが整っていて技術判断が伝わるリポジトリだけを置きます。中途半端な学習用リポジトリは外し、質で勝負します。</p>
+              <p className="text-sm text-petrol-deep">最大6つのピン留め枠には、READMEが整っていて技術判断が伝わるリポジトリだけを置きます。中途半端な学習用リポジトリは外し、質を重視します。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">草（コントリビューション）は継続性の証明</h3>
@@ -177,7 +177,7 @@ export default function PortfolioPage() {
           <p className="text-slate-600 leading-relaxed mb-4">そのまま使えるプロフィールREADMEの雛形です。技術スタックは習熟度を添えて書くのがポイントです。</p>
           <pre className="bg-slate-900 text-slate-100 text-xs rounded-xl p-5 overflow-x-auto leading-relaxed">{`# こんにちは、〇〇です
 
-バックエンドを軸に8年です。直近5年はGo/TypeScriptでWebサービスの
+バックエンドを軸に8年間開発に携わってきました。直近5年はGo/TypeScriptでWebサービスの
 設計・運用をリードしています。SREやチームの開発体験改善にも関心があります。
 
 ## 得意領域
@@ -313,8 +313,8 @@ export default function PortfolioPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">成果物の見せ方をプロに相談しよう</h2>
-          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、応募先に評価されるポートフォリオ・成果物の見せ方を具体的にアドバイスしてくれます。</p>
+          <h2 className="text-xl font-bold mb-3">成果物の見せ方を専門家に相談する</h2>
+          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、応募先に評価されるポートフォリオ・成果物の見せ方を具体的に助言します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>

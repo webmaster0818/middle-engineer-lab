@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Dockerスキルの転職での活かし方" },
+  { id: "conclusion", label: "1. Dockerスキルの転職での活かし方" },
   { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
-  { id: "career", label: "4. Dockerスキルが効くキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "career", label: "4. Dockerスキルを活かせるキャリアパス" },
+  { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
   { id: "entry", label: "6. 経験浅めからコンテナ実務に入るルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "アプリ開発者がDockerを学ぶと転職に有利ですか？",
-    a: "有利になりやすいです。バックエンドやWebアプリの開発経験にコンテナ化・ローカル開発環境のDocker化・CI上でのビルドといった経験が加わると、DevOps寄りのポジションやプラットフォームチームへの応募幅が広がります。30代・40代では「開発もインフラも分かる」掛け合わせが希少性になり、年収レンジの上振れにつながります。",
+    a: "有利になりやすい傾向があります。バックエンドやWebアプリの開発経験にコンテナ化・ローカル開発環境のDocker化・CI上でのビルドといった経験が加わると、DevOps寄りのポジションやプラットフォームチームへの応募幅が広がります。30代・40代では「開発もインフラも分かる」掛け合わせが希少性になり、年収レンジの上振れにつながります。",
   },
   {
     q: "Dockerの求人はどんな企業に多いですか？",
@@ -49,11 +49,11 @@ const faqs = [
   },
   {
     q: "DockerとKubernetesはどちらを先に学ぶべきですか？",
-    a: "Dockerが先です。Kubernetesはコンテナのオーケストレーションツールであり、Dockerで「コンテナとは何か・イメージとレイヤ・ネットワーク・ボリューム」を理解していないと習得が難しくなります。まずDockerで個人開発環境のコンテナ化を体得し、その上でKubernetesへ進むのが基本です。",
+    a: "Dockerが先です。Kubernetesはコンテナのオーケストレーションツールであり、Dockerで「コンテナとは何か・イメージとレイヤ・ネットワーク・ボリューム」を理解していないと習得が難しくなります。まずDockerで個人開発環境のコンテナ化を経験し、その上でKubernetesへ進むのが基本です。",
   },
   {
     q: "Dockerスキルを活かす転職におすすめのエージェントは？",
-    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でプラットフォーム／SRE級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強いGeeklyの併用が選択肢です。Dockerは職種横断のスキルであるため、希望職種（DevOps・SRE・クラウド）を明確に伝えて求人を引き出すのが効率的です。",
+    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でプラットフォーム／SRE級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強みを持つGeeklyの併用が選択肢です。Dockerは職種横断のスキルであるため、希望職種（DevOps・SRE・クラウド）を明確に伝えて求人の紹介を受けるのが効率的です。",
   },
 ];
 
@@ -133,7 +133,7 @@ export default function DockerSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Dockerスキルの転職での活かし方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Dockerスキルの転職での活かし方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Dockerは「これ単体で転職する」スキルではなく、DevOps／SRE／クラウド職の市場価値を底上げする実務基盤です。</strong>開発経験やインフラ経験にコンテナ運用を掛け合わせることで、応募できる求人の幅と年収レンジが広がります。
@@ -141,7 +141,7 @@ export default function DockerSkillPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Docker単体の職種別年収は公表が乏しく、<strong>クラウド約488万円・インフラ約475万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握します</li>
               <li>・求人では「コンテナでの開発・運用経験」「CI/CD構築経験」の文脈でDockerが問われます</li>
-              <li>・Docker＋Kubernetes＋クラウドの掛け合わせで、SRE／プラットフォーム領域の高年収求人に手が届きます</li>
+              <li>・Docker＋Kubernetes＋クラウドの掛け合わせで、SRE／プラットフォーム領域の高年収求人に応募しやすくなります</li>
             </ul>
           </div>
         </section>
@@ -198,7 +198,7 @@ export default function DockerSkillPage() {
 
         {/* キャリアパス */}
         <section id="career" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">Dockerスキルが効くキャリアパス</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Dockerスキルを活かせるキャリアパス</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Dockerは開発からインフラ／プラットフォーム領域へ橋渡しするスキルです。掛け合わせる技術によって到達できるレンジが変わります。
           </p>
@@ -207,7 +207,7 @@ export default function DockerSkillPage() {
               { role: "DevOpsエンジニア", note: "開発とインフラの境界を埋める役割です。Docker＋CI/CDが基盤になります" },
               { role: "SRE／プラットフォームエンジニア", note: "Docker＋Kubernetes＋クラウドでサービスの信頼性を支えます" },
               { role: "クラウドエンジニア", note: "コンテナをクラウド上で運用します。ECS/EKS/GKE等の経験が強みになります" },
-              { role: "バックエンドエンジニア（コンテナ運用込み）", note: "アプリ開発＋コンテナ化・デプロイまで一気通貫で担当" },
+              { role: "バックエンドエンジニア（コンテナ運用込み）", note: "アプリ開発からコンテナ化・デプロイまでを一貫して担当します" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -222,9 +222,9 @@ export default function DockerSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Dockerは職種横断のスキルであるため、希望職種（DevOps・SRE・クラウド）を明確にして求人を引き出すのが効率的です。タイプ別に向くサービスを整理します。
+            Dockerは職種横断のスキルであるため、希望職種（DevOps・SRE・クラウド）を明確にして求人の紹介を受けるのが効率的です。タイプ別に向くサービスを整理します。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -242,7 +242,7 @@ export default function DockerSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web・ゲーム業界特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。コンテナ基盤を内製するWeb系企業の求人を探したい場合の選択肢です。
               </p>
@@ -261,7 +261,7 @@ export default function DockerSkillPage() {
             {[
               { num: "1", title: "既存の開発／インフラ経験を土台にする", desc: "バックエンド開発やオンプレ運用の経験があれば、それを土台に「Dockerでコンテナ化・CIでビルド」まで自走できることを示せます。完全未経験よりポテンシャル採用の対象になりやすくなります。" },
               { num: "2", title: "自作アプリをDocker化してGitHubに公開する", desc: "Dockerfile・docker-compose・CIでのビルドまでを含めたリポジトリを公開します。マルチステージビルドでイメージを軽量化した、環境変数で設定を切り替えた、といった設計判断を語れる状態にしておくと評価につながります。" },
-              { num: "3", title: "コンテナ運用のあるポジションのポテンシャル枠を狙う", desc: "クラウド移行中の事業会社では、コンテナ運用経験者の母数不足から入社後キャッチアップ前提の採用を行うことがあります。エージェントに「コンテナは学習中、開発（またはインフラ）の実務はある」と伝え、そうした求人を紹介してもらうのが近道です。" },
+              { num: "3", title: "コンテナ運用のあるポジションのポテンシャル枠を狙う", desc: "クラウド移行中の事業会社では、コンテナ運用経験者の母数不足から入社後キャッチアップ前提の採用を行うことがあります。エージェントに「コンテナは学習中、開発（またはインフラ）の実務はある」と伝え、そうした求人を紹介してもらう方法が現実的です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -284,7 +284,7 @@ export default function DockerSkillPage() {
               <strong>Dockerは「掛け算」で価値が出るスキルです。</strong>30代・40代で開発やインフラの実務を積んでいるなら、そこにコンテナ運用を足すだけで「開発も運用も分かる人材」として希少性が増します。年齢の不利を、横断的な実務経験で相殺できる領域です。
             </p>
             <p>
-              <strong>ドメイン知識との組み合わせが強いです。</strong>金融・物流・製造など、これまで携わってきた業務ドメインの知識を、コンテナ基盤というモダンな実装手段と結びつけて語れると、ミドル層ならではの説得力が出ます。
+              <strong>ドメイン知識との組み合わせが強みになります。</strong>金融・物流・製造など、これまで携わってきた業務ドメインの知識を、コンテナ基盤というモダンな実装手段と結びつけて語れると、ミドル層ならではの説得力が出ます。
             </p>
             <p>
               <strong>マネジメント経験も資産になります。</strong>プラットフォームチームのリードやSREのマネージャー求人では、技術力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それをコンテナ・クラウドの実務とセットで提示しましょう。
@@ -300,13 +300,13 @@ export default function DockerSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① コンテナの仕組みから理解します。</strong>イメージとレイヤ、コンテナのライフサイクル、ネットワーク、ボリュームといった基礎概念を、公式ドキュメントとハンズオンで押さえます。コマンドの暗記より「なぜそう動くか」を理解することが本番運用で効きます。
+              <strong>① コンテナの仕組みから理解します。</strong>イメージとレイヤ、コンテナのライフサイクル、ネットワーク、ボリュームといった基礎概念を、公式ドキュメントとハンズオンで押さえます。コマンドの暗記より「なぜそう動くか」を理解することが本番運用で役立ちます。
             </p>
             <p>
               <strong>② CI/CDと結びつけます。</strong>DockerはCI/CDパイプラインの中で真価を発揮します。<Link href="/skill/ci-cd/" className="text-petrol hover:underline">CI/CD</Link>でのビルド・テスト・デプロイまで一連で組めると、DevOps寄りの求人で語れる経験になります。
             </p>
             <p>
-              <strong>③ Kubernetes・クラウドへ広げます。</strong>Dockerを土台に<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>のオーケストレーション、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>などクラウドのコンテナサービスへ広げると、SRE／プラットフォーム領域の高年収求人に手が届きます。資格では<Link href="/cert/cka/" className="text-petrol hover:underline">CKA</Link>も学習の指針になります。
+              <strong>③ Kubernetes・クラウドへ広げます。</strong>Dockerを土台に<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>のオーケストレーション、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>などクラウドのコンテナサービスへ広げると、SRE／プラットフォーム領域の高年収求人に応募しやすくなります。資格では<Link href="/cert/cka/" className="text-petrol hover:underline">CKA</Link>も学習の指針になります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -334,7 +334,7 @@ export default function DockerSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Dockerスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Dockerは職種横断のスキルだからこそ、希望職種を明確にして複数のIT特化型エージェントで保有求人を横断比較するのが近道です。
+            Dockerは職種横断のスキルだからこそ、希望職種を明確にして複数のIT特化型エージェントで保有求人を横断比較するのが効率的です。
           </p>
           <Link
             href="/#ranking"

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：退職後の健康保険の選び方" },
+  { id: "conclusion", label: "退職後の健康保険の選び方" },
   { id: "options", label: "退職後の3つの選択肢" },
   { id: "ninkei", label: "任意継続の仕組みと期限" },
   { id: "kokuho", label: "国民健康保険の仕組み" },
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "任意継続の保険料はどう決まりますか？",
-    a: "原則として退職時の標準報酬月額に基づいて計算されますが、上限が設けられています。協会けんぽの場合、令和8年度の任意継続被保険者の標準報酬月額の上限は32万円です(全国健康保険協会)。在職中は会社と折半していた保険料を全額自分で負担するため、額面が増える点に注意してください。具体的な保険料は加入先に確認しましょう。",
+    a: "原則として退職時の標準報酬月額に基づいて計算されますが、上限が設けられています。協会けんぽの場合、令和8年度の任意継続被保険者の標準報酬月額の上限は32万円です(全国健康保険協会)。在職中は会社と折半していた保険料を全額自分で負担するため、自己負担額が増える点に注意してください。具体的な保険料は加入先に確認しましょう。",
   },
   {
     q: "国民健康保険の保険料はどう決まりますか？",
@@ -101,20 +101,20 @@ export default function HealthInsurancePage() {
           健康保険の任意継続 vs 国保【退職後の選び方】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 | 退職後20日以内に判断を
+          最終更新: 2026年6月 | 退職後20日以内の判断が必要
         </p>
 
         {/* 直答box (P6-C2) */}
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職後の健康保険は任意継続と国保どちらを選ぶ？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: どちらが安いかは人によって異なるため、両方の保険料を試算して比較するのが確実です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・任意継続は最長2年・原則全額自己負担だが標準報酬月額に上限あり（協会けんぽの令和8年度上限は32万円）</li><li>・任意継続の申請は退職翌日から20日以内と短いため、退職前に見込み額を確認しておきます</li><li>・国保は前年の所得などで決まり、前年所得が高かった人は国保が高くなりやすいです</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>どちらが安いかは人によって異なるため、両方の保険料を試算して比較するのが確実です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・任意継続は最長2年・原則全額自己負担ですが、標準報酬月額に上限があります（協会けんぽの令和8年度上限は32万円）</li><li>・任意継続の申請は退職翌日から20日以内と短いため、退職前に見込み額を確認しておきます</li><li>・国保は前年の所得などで決まり、前年所得が高かった人は国保が高くなりやすい傾向があります</li></ul>
           </div>
         </section>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          退職してから次の入社まで間が空く場合や、フリーランスになる場合、健康保険を自分で選ぶ必要があります。選択肢は主に「任意継続」と「国民健康保険」。任意継続は退職翌日から20日以内という短い期限があるため、判断を後回しにできません。本記事では、両者の仕組みと比較の手順を、全国健康保険協会などの情報に基づいて整理します。なお保険料は加入先や自治体により異なるため、本記事は一般的な情報提供である点をご了承ください。
+          退職してから次の入社まで間が空く場合や、フリーランスになる場合、健康保険を自分で選ぶ必要があります。選択肢は主に「任意継続」と「国民健康保険」です。任意継続は退職翌日から20日以内という短い期限があるため、判断を後回しにできません。本記事では、両者の仕組みと比較の手順を、全国健康保険協会などの情報に基づいて整理します。なお保険料は加入先や自治体により異なるため、本記事は一般的な情報提供である点をご了承ください。
         </p>
 
         <DataNote
@@ -142,13 +142,13 @@ export default function HealthInsurancePage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：退職後の健康保険の選び方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">退職後の健康保険の選び方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               退職後の主な選択肢は<strong>「任意継続」と「国民健康保険」</strong>です。どちらが安いかは人によって異なるため、両方の保険料を試算して比較するのが確実です。任意継続は<strong>退職翌日から20日以内の申請</strong>が必要であるため、退職前に見込み額を確認しておきましょう。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              任意継続は<strong>最長2年間・原則全額自己負担</strong>ですが、標準報酬月額に上限があり（協会けんぽの令和8年度上限は32万円）、在職時の給与が高かった人は割安になることもあります。国保は前年所得で決まるため、前年の所得が高い人は国保が高くなりやすい傾向です。最終的な金額は加入先・市区町村に確認してください。
+              任意継続は<strong>最長2年間・原則全額自己負担</strong>ですが、標準報酬月額に上限があり（協会けんぽの令和8年度上限は32万円）、在職時の給与が高かった人は割安になることもあります。国保は前年所得で決まるため、前年の所得が高い人は国保が高くなりやすい傾向があります。最終的な金額は加入先・市区町村に確認してください。
             </p>
           </div>
         </section>
@@ -205,7 +205,7 @@ export default function HealthInsurancePage() {
               <p className="text-sm text-slate-600">前年の所得などをもとに、自治体ごとの料率で計算されます。前年の所得が高かった人は保険料が高くなりやすい傾向があります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-1">減免制度がある場合も</h3>
+              <h3 className="font-bold text-slate-800 mb-1">減免制度の対象になる場合</h3>
               <p className="text-sm text-slate-600">所得が大きく減った場合や非自発的失業の場合などに、保険料の軽減・減免を受けられることがあります。該当するかは市区町村に確認しましょう。</p>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function HealthInsurancePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">転職のブランクを最小限にしよう</h2>
+          <h2 className="text-xl font-bold mb-3">転職のブランクを最小限に抑えましょう</h2>
           <p className="text-blue-100 text-sm mb-4">
             次の職場が早く決まれば、保険切り替えの負担も抑えられます。IT特化エージェントで効率よく探しましょう。
           </p>

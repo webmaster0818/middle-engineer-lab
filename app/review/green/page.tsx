@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論：Greenはこのような方向け" },
+  { id: "summary", label: "Greenはこのような方向け" },
   { id: "vs-agent", label: "Greenはエージェントではない：違いを理解する" },
   { id: "basic", label: "基本データ（2026年6月時点）" },
   { id: "strength", label: "Greenの特徴・強み" },
@@ -60,7 +60,7 @@ const strengths = [
 
 const goodReviews = [
   {
-    point: "企業と直接やり取りでき、スピードが速いです",
+    point: "企業と直接やり取りでき、スピードが速い",
     detail:
       "エージェントを介さないぶん、やり取りが速いという声が見られます。自分のペースでスピーディーに動きたい人に向く傾向です。",
   },
@@ -78,7 +78,7 @@ const goodReviews = [
 
 const badReviews = [
   {
-    point: "地方求人が少ないです",
+    point: "地方求人が少ない",
     detail:
       "東京・Web系企業に求人が偏る傾向があり、地方求人の少なさが指摘されています。地方在住者は総合型エージェントとの併用が現実的です。",
   },
@@ -185,16 +185,16 @@ export default function GreenReview() {
           sources={["株式会社アトラエ（二次情報）", "みん評", "axxis", "HonNe", "minhyo"]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：Greenはこのような方向け</h2>
+            <h2 className="text-xl font-bold text-blue-900 mb-3">Greenはこのような方向け</h2>
             <p className="text-sm text-blue-900 mb-4 leading-relaxed">
               <span className="font-bold">総合評価：自分で動けるWeb系エンジニアに強い「直接応募型」転職サイトです。</span>
               要約すると、<span className="font-bold">「IT/Webベンチャーを自分のペースで探したい人」「カジュアル面談で社風を確かめたい人」「エージェントの介入なしに企業と直接話したい人」</span>に向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-2">
-              <li className="flex gap-2"><span className="shrink-0 font-bold">①</span>エージェントではなく直接応募型です。担当者の仲介サポートはない代わりに自由度とスピードが高いです</li>
+              <li className="flex gap-2"><span className="shrink-0 font-bold">①</span>エージェントではなく直接応募型です。担当者の仲介サポートはない代わりに自由度とスピードが高い傾向があります</li>
               <li className="flex gap-2"><span className="shrink-0 font-bold">②</span>「気になる」機能とカジュアル面談で、社風や開発体制を事前に確認できます</li>
               <li className="flex gap-2"><span className="shrink-0 font-bold">③</span>ベンチャー・Web系中心です。地方・SIer・40代向け求人は手薄なため、エージェントとの併用を前提にすることをおすすめします</li>
             </ul>
@@ -234,8 +234,8 @@ export default function GreenReview() {
                 {[
                   ["やり取りの相手", "企業と直接", "担当アドバイザー経由"],
                   ["求人探し", "自分で検索・スカウト受信", "担当者が紹介"],
-                  ["書類添削・面接対策", "自分で行います", "担当者がサポート"],
-                  ["年収・条件交渉", "自分で行います", "担当者が代行"],
+                  ["書類添削・面接対策", "自分で対応", "担当者がサポート"],
+                  ["年収・条件交渉", "自分で対応", "担当者が代行"],
                   ["進め方", "自分のペース・スピード重視", "担当者と二人三脚"],
                   ["向く人", "自走できる人・社風重視の人", "サポートを受けたい人"],
                 ].map(([a, b, c], i) => (
@@ -324,7 +324,7 @@ export default function GreenReview() {
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <div className="border-l-4 border-petrol pl-4">
               <p className="font-bold text-slate-800 mb-1">「サポートがない」への対処</p>
-              <p>書類添削・面接対策・年収交渉は、IT特化エージェントを併用してカバーします。Greenで気になる企業を直接探しつつ、選考対策や交渉はエージェントに任せる二刀流が効果的です。</p>
+              <p>書類添削・面接対策・年収交渉は、IT特化エージェントを併用してカバーします。Greenで気になる企業を直接探しつつ、選考対策や交渉はエージェントに任せる併用が効果的です。</p>
             </div>
             <div className="border-l-4 border-petrol pl-4">
               <p className="font-bold text-slate-800 mb-1">「内定につながりにくい」への対処</p>
@@ -349,7 +349,7 @@ export default function GreenReview() {
             <div>
               <h3 className="font-bold text-slate-800 mb-1">30代：社風を見極める「直接チャネル」として活用</h3>
               <p>
-                30代はWeb系・スタートアップへの転換余地がまだ大きい年代です。Greenのカジュアル面談を使い、給与水準だけでなく開発体制・裁量・働き方を直接確認できるのは大きな利点です。参考までに、レバテック公表の年代別平均年収（2025年）では正社員SEの30代は約499万円、年収1,000万円以上の割合は8.01%とされています。ベンチャーは年収の振れ幅が大きいため、カジュアル面談で報酬レンジを早めに確認し、エージェント経由の交渉材料とするのが賢い使い方です。
+                30代はWeb系・スタートアップへの転換余地がまだ大きい年代です。Greenのカジュアル面談を使い、給与水準だけでなく開発体制・裁量・働き方を直接確認できるのは大きな利点です。参考までに、レバテック公表の年代別平均年収（2025年）では正社員SEの30代は約499万円、年収1,000万円以上の割合は8.01%とされています。ベンチャーは年収の振れ幅が大きいため、カジュアル面談で報酬レンジを早めに確認し、エージェント経由の交渉材料とするのが有効な使い方です。
               </p>
             </div>
             <div>
@@ -389,8 +389,8 @@ export default function GreenReview() {
               <h3 className="font-bold text-red-700 mb-3">向いていない人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
-                  "書類添削・面接対策の伴走サポートが欲しいです",
-                  "年収交渉を代行してほしいです",
+                  "書類添削・面接対策の伴走サポートが欲しい",
+                  "年収交渉を代行してほしい",
                   "地方・SIer・製造業の求人を中心に探したい",
                   "ベンチャーより大手・安定を最優先したい",
                 ].map((t, i) => (
@@ -429,7 +429,7 @@ export default function GreenReview() {
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed mb-4">
             <p><span className="font-bold">Greenが向くケース：</span>Web系ベンチャーを自分のペースで探したい、カジュアル面談で社風を確かめたい、企業と直接やり取りしたい場合です。</p>
             <p><span className="font-bold">エージェントが向くケース：</span>書類添削・面接対策・年収交渉のサポートが欲しい、地方やSIerも含めて幅広く紹介してほしい場合です。</p>
-            <p><span className="font-bold">併用パターン：</span>Greenで気になる企業を直接探しつつ、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>などのエージェントで非公開求人の提案や交渉サポートを受ける二刀流が、直接応募とサポートの両取りになります。</p>
+            <p><span className="font-bold">併用パターン：</span>Greenで気になる企業を直接探しつつ、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>などのエージェントで非公開求人の提案や交渉サポートを受ける併用が、直接応募とサポートの両取りになります。</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[

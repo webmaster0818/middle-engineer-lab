@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：タイプ別おすすめマップ" },
+  { id: "conclusion", label: "タイプ別おすすめマップ" },
   { id: "what", label: "スカウト型とは（エージェント型との違い）" },
   { id: "types", label: "5タイプ別の特徴と代表サービス" },
   { id: "compare", label: "主要サービス一覧表" },
@@ -24,31 +24,31 @@ const toc = [
 ];
 
 const table = [
-  { name: "Findy", type: "①スキル評価型", point: "GitHub連携のスキル偏差値で評価します。掲載企業800社以上厳選です（公式・2024年7月）。求人数は非明示", target: "モダン言語の即戦力・Web自社開発", review: "/review/findy/" },
-  { name: "paiza", type: "①スキル評価型", point: "コーディングテスト（スキルチェック）のランクで評価します。テストで実力を示せます", target: "コードで腕を見せたいエンジニア", review: "/review/paiza/" },
-  { name: "LAPRAS", type: "②発信AI解析型", point: "GitHub/Qiita/note/X/connpassをAI解析しポートフォリオ自動生成です。導入企業700社以上（二次）", target: "技術記事・OSS・登壇など発信が多い人", review: "/review/lapras/" },
-  { name: "Forkwell", type: "③コミュニティ型", point: "ポートフォリオ＋勉強会200本超のコミュニティです。登録 約59,000〜60,000人です（二次）。質重視", target: "発信・学習文化に共感する中〜上級", review: "/review/forkwell/" },
-  { name: "リクルートダイレクトスカウト", type: "④ハイクラス型", point: "ヘッドハンター/企業スカウトです。公開求人約59.3万件・年収800万以上約34.7万件です（二次2026年2月）。完全無料・審査なし", target: "年収600〜2,000万のミドル〜ハイクラス全業種", review: "/review/recruit-direct-scout/" },
-  { name: "dodaX", type: "④ハイクラス型", point: "ヘッドハンター約7,300人です（2025年4月）。公開求人106,491件・800万以上95,069件です（二次2026年5月）。完全無料", target: "年収800万超のハイクラス全業種", review: "/review/doda-x/" },
-  { name: "ビズリーチ", type: "④ハイクラス型", point: "導入企業41,800社以上・登録ヘッドハンター9,700人以上です（2025年4月・二次）。審査あり・有料プラン前提機能あり", target: "年収750万以上が目安のハイクラス", review: "/review/bizreach-it/" },
-  { name: "Wantedly", type: "⑤共感型", point: "共感軸のビジネスSNSです。カジュアル面談前提で給与待遇は原則非記載です。ユーザー400万人＋（二次）", target: "スタートアップ/ベンチャー志向", review: "/review/wantedly/" },
+  { name: "Findy", type: "①スキル評価型", point: "GitHub連携のスキル偏差値で評価。掲載企業800社以上を厳選（公式・2024年7月）。求人数は非明示", target: "モダン言語の即戦力・Web自社開発", review: "/review/findy/" },
+  { name: "paiza", type: "①スキル評価型", point: "コーディングテスト（スキルチェック）のランクで評価。テストによる実力の証明が可能", target: "コードで実力を示したいエンジニア", review: "/review/paiza/" },
+  { name: "LAPRAS", type: "②発信AI解析型", point: "GitHub/Qiita/note/X/connpassをAI解析しポートフォリオを自動生成。導入企業700社以上（二次）", target: "技術記事・OSS・登壇など発信が多い人", review: "/review/lapras/" },
+  { name: "Forkwell", type: "③コミュニティ型", point: "ポートフォリオ＋勉強会200本超のコミュニティ。登録 約59,000〜60,000人（二次）。質重視", target: "発信・学習文化に共感する中〜上級", review: "/review/forkwell/" },
+  { name: "リクルートダイレクトスカウト", type: "④ハイクラス型", point: "ヘッドハンター/企業スカウト。公開求人約59.3万件・年収800万以上約34.7万件（二次2026年2月）。完全無料・審査なし", target: "年収600〜2,000万のミドル〜ハイクラス全業種", review: "/review/recruit-direct-scout/" },
+  { name: "dodaX", type: "④ハイクラス型", point: "ヘッドハンター約7,300人（2025年4月）。公開求人106,491件・800万以上95,069件（二次2026年5月）。完全無料", target: "年収800万超のハイクラス全業種", review: "/review/doda-x/" },
+  { name: "ビズリーチ", type: "④ハイクラス型", point: "導入企業41,800社以上・登録ヘッドハンター9,700人以上（2025年4月・二次）。審査あり・有料プラン前提機能あり", target: "年収750万以上が目安のハイクラス", review: "/review/bizreach-it/" },
+  { name: "Wantedly", type: "⑤共感型", point: "共感軸のビジネスSNS。カジュアル面談前提で給与待遇は原則非記載。ユーザー400万人＋（二次）", target: "スタートアップ/ベンチャー志向", review: "/review/wantedly/" },
 ];
 
 const faqs = [
   { q: "スカウト型とエージェント型はどう違いますか？", a: "スカウト型はプロフィールやGitHub・発信を整えて『待つ』仕組みで、企業やヘッドハンターから直接スカウトが届きます。エージェント型は専任のキャリアアドバイザーに希望を伝え、求人提案・書類添削・面接対策・年収交渉まで『伴走してもらう』仕組みです。市場価値を測りたいならスカウト型、選考をプロに任せたいならエージェント型、というのが基本の使い分けです。" },
   { q: "スカウト型サービスは無料ですか？", a: "多くは求職者完全無料です。Findy・paiza・LAPRAS・Forkwell・リクルートダイレクトスカウト・dodaXは求職者無料です。ビズリーチは無料会員プランがある一方、すべてのスカウト閲覧など一部機能は有料プラン（Web決済5,478円/月・2022年11月改定の二次情報）が前提です。まずは無料で試し、必要に応じて有料化を検討するのが現実的です。" },
-  { q: "リクルートダイレクトスカウトとリクルートエージェントは同じですか？", a: "別物です。リクルートダイレクトスカウト（RDS）はスカウトを『待つ』ハイクラススカウト型サービスで、ヘッドハンターや企業から声がかかります。リクルートエージェントは担当が求人を『提案する』エージェント型です。名前が似ていますが仕組みが異なるため、混同にご注意ください。" },
+  { q: "リクルートダイレクトスカウトとリクルートエージェントは同じですか？", a: "別のサービスです。リクルートダイレクトスカウト（RDS）はスカウトを『待つ』ハイクラススカウト型サービスで、ヘッドハンターや企業から声がかかります。リクルートエージェントは担当が求人を『提案する』エージェント型です。名前が似ていますが仕組みが異なるため、混同にご注意ください。" },
   { q: "dodaXは、dodaやdoda ITと同じサービスですか？", a: "いずれも別サービスです。dodaXはハイクラススカウト型（旧iX転職・2022年10月にdoda Xへ改称）で、ヘッドハンターや企業からスカウトが届きます。dodaのIT特化エージェント（doda IT）は担当が伴走するエージェント型です。dodaブランドで混同しやすいので、スカウトを待つのがdodaX、伴走されるのがdoda IT、と覚えておくと安全です。" },
-  { q: "怪しいスカウトを見分けるにはどうすればよいですか？", a: "テンプレート丸出しで自分のスキルに触れていない、年収や条件の記載が曖昧、面談を異常に急かす、運営元や企業情報が不透明、といったスカウトは慎重に扱いましょう。逆に、プロフィールやGitHub・ポートフォリオを読んだ上で具体的に言及しているスカウトは本気度が高い傾向です。記事内の『怪しいスカウトの見分け方』で詳しく解説しています。" },
-  { q: "スカウトが全然来ないのですが、どうすればよいですか？", a: "プロフィールの埋め方が薄い、公開リポジトリや発信が少ない、希望条件が厳しすぎる、エリアがミスマッチ、などが主な原因です。スキル評価型ならGitHubやテスト結果、発信AI解析型なら技術記事、ハイクラス型なら職務経歴の具体化が効きます。タイプの違う複数サービスに登録し、自分がどの軸で評価されやすいかを把握するのも有効です。" },
+  { q: "怪しいスカウトを見分けるにはどうすればよいですか？", a: "定型文のままで自分のスキルに触れていない、年収や条件の記載が曖昧、面談を異常に急かす、運営元や企業情報が不透明、といったスカウトは慎重に扱いましょう。逆に、プロフィールやGitHub・ポートフォリオを読んだ上で具体的に言及しているスカウトは本気度が高い傾向があります。記事内の『怪しいスカウトの見分け方』で詳しく解説しています。" },
+  { q: "スカウトがほとんど届きません。どうすればよいですか？", a: "プロフィールの埋め方が薄い、公開リポジトリや発信が少ない、希望条件が厳しすぎる、エリアがミスマッチ、などが主な原因です。スキル評価型ならGitHubやテスト結果、発信AI解析型なら技術記事、ハイクラス型なら職務経歴の具体化が効果的です。タイプの違う複数サービスに登録し、自分がどの軸で評価されやすいかを把握するのも有効です。" },
 ];
 
 const types = [
-  { id: "t1", num: "①", title: "スキル評価型", color: "blue", desc: "コードやテスト結果という客観指標で実力を可視化するタイプです。", services: "Findy（GitHub偏差値）／paiza（コーディングテストのランク）", fit: "現役でコードを書き、客観的な実力で評価されたいエンジニアです。" },
-  { id: "t2", num: "②", title: "発信AI解析型", color: "indigo", desc: "GitHubだけでなくWeb全体の発信をAIが解析し、ポートフォリオを自動生成するタイプです。", services: "LAPRAS（GitHub/Qiita/note/X/connpassを自動クロール）", fit: "技術記事・OSS・登壇など、発信のアウトプットが多い人です。" },
-  { id: "t3", num: "③", title: "コミュニティ型", color: "green", desc: "ポートフォリオと勉強会・コミュニティでの活動を軸に、質の高いマッチングを重視するタイプです。", services: "Forkwell（勉強会200本超のコミュニティ＋Forkwell Jobs）", fit: "発信・学習文化に共感し、量より質を重視する中〜上級です。" },
-  { id: "t4", num: "④", title: "ハイクラス型", color: "amber", desc: "ヘッドハンターや企業から高年収スカウトが届くタイプです。IT特化ではありませんが、年収レンジを上げる用途で有効です。", services: "リクルートダイレクトスカウト／dodaX／ビズリーチ", fit: "年収600万円以上、特に管理職・上方転職を狙うミドル〜ハイクラスです。" },
-  { id: "t5", num: "⑤", title: "共感型", color: "rose", desc: "給与・条件より、事業フェーズやカルチャーへの共感を軸にカジュアル面談から始めるタイプです。", services: "Wantedly（給与待遇は原則非記載）", fit: "スタートアップ/ベンチャーで事業に共感して参画したい層です。" },
+  { id: "t1", num: "①", title: "スキル評価型", color: "blue", desc: "コードやテスト結果という客観指標で実力を可視化するタイプです。", services: "Findy（GitHub偏差値）／paiza（コーディングテストのランク）", fit: "現役でコードを書き、客観的な実力で評価されたいエンジニア" },
+  { id: "t2", num: "②", title: "発信AI解析型", color: "indigo", desc: "GitHubだけでなくWeb全体の発信をAIが解析し、ポートフォリオを自動生成するタイプです。", services: "LAPRAS（GitHub/Qiita/note/X/connpassを自動クロール）", fit: "技術記事・OSS・登壇など、発信のアウトプットが多い人" },
+  { id: "t3", num: "③", title: "コミュニティ型", color: "green", desc: "ポートフォリオと勉強会・コミュニティでの活動を軸に、質の高いマッチングを重視するタイプです。", services: "Forkwell（勉強会200本超のコミュニティ＋Forkwell Jobs）", fit: "発信・学習文化に共感し、量より質を重視する中〜上級者" },
+  { id: "t4", num: "④", title: "ハイクラス型", color: "amber", desc: "ヘッドハンターや企業から高年収スカウトが届くタイプです。IT特化ではありませんが、年収レンジを上げる用途で有効です。", services: "リクルートダイレクトスカウト／dodaX／ビズリーチ", fit: "年収600万円以上、特に管理職・上方転職を狙うミドル〜ハイクラス層" },
+  { id: "t5", num: "⑤", title: "共感型", color: "rose", desc: "給与・条件より、事業フェーズやカルチャーへの共感を軸にカジュアル面談から始めるタイプです。", services: "Wantedly（給与待遇は原則非記載）", fit: "スタートアップ/ベンチャーで事業に共感して参画したい層" },
 ];
 
 const colorMap: Record<string, string> = {
@@ -86,9 +86,9 @@ export default function ScoutAgentsPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：タイプ別おすすめマップ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">タイプ別おすすめマップ</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">ご自身の強みで選ぶのが近道です。</p>
+            <p className="font-bold text-blue-900 mb-3">ご自身の強みに合わせて選ぶことをおすすめします。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・コードで実力を示せる</strong> → スキル評価型（<Link href="/review/findy/" className="underline">Findy</Link>／<Link href="/review/paiza/" className="underline">paiza</Link>）</li>
               <li><strong>・技術記事・OSS・登壇など発信が多い</strong> → 発信AI解析型（<Link href="/review/lapras/" className="underline">LAPRAS</Link>）</li>
@@ -138,11 +138,11 @@ export default function ScoutAgentsPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <h3 className="font-bold text-rose-800 mb-2">注意したいスカウト</h3>
-              <ul className="text-sm text-rose-700 space-y-1 list-disc pl-5"><li>テンプレ丸出しで自分のスキルに触れていません</li><li>年収・条件の記載が曖昧、または異常に高いです</li><li>面談を異常に急かします</li><li>運営元や企業情報が不透明です</li><li>大量配信（ばら撒き）と分かる文面です</li></ul>
+              <ul className="text-sm text-rose-700 space-y-1 list-disc pl-5"><li>定型文のままで、自分のスキルに触れていません</li><li>年収・条件の記載が曖昧、または相場と比べて極端に高い水準です</li><li>面談を異常に急かします</li><li>運営元や企業情報が不透明です</li><li>大量配信（ばら撒き）と分かる文面です</li></ul>
             </div>
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-2">本気度が高いスカウト</h3>
-              <ul className="text-sm text-green-700 space-y-1 list-disc pl-5"><li>プロフィールやGitHub・ポートフォリオに具体的に言及しています</li><li>ポジションと求める経験が明確です</li><li>年収レンジが提示されています</li><li>ビズリーチのプラチナスカウト等、上位種別です</li><li>ヘッドハンター/担当者の実名・実績が分かります</li></ul>
+              <ul className="text-sm text-green-700 space-y-1 list-disc pl-5"><li>プロフィールやGitHub・ポートフォリオに具体的に言及しています</li><li>ポジションと求める経験が明確です</li><li>年収レンジが提示されています</li><li>ビズリーチのプラチナスカウト等、上位種別のスカウトです</li><li>ヘッドハンター/担当者の実名・実績が分かります</li></ul>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">スカウトの仕組みと付き合い方は<Link href="/knowledge/scout/" className="text-petrol hover:underline">スカウトの仕組み解説</Link>もあわせてご確認ください。</p>
@@ -153,10 +153,10 @@ export default function ScoutAgentsPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-3 text-sm text-slate-700">
               <li><strong>① プロフィールを埋め切る：</strong>職務経歴・スキル・実績を具体的に示します。数値や担当範囲を明記すると、マッチ精度が上がります。</li>
-              <li><strong>② タイプに合った強みを磨く：</strong>スキル評価型なら公開リポジトリやテスト結果、発信AI解析型なら技術記事やOSS、ハイクラス型なら職務経歴の具体化が効きます。</li>
+              <li><strong>② タイプに合った強みを磨く：</strong>スキル評価型なら公開リポジトリやテスト結果、発信AI解析型なら技術記事やOSS、ハイクラス型なら職務経歴の具体化が効果的です。</li>
               <li><strong>③ ばら撒きスカウトは選別する：</strong>大量に届く場合は、本気度の高いものだけに返信します。希望条件を明確に設定して、ノイズを減らします。</li>
               <li><strong>④ タイプの違う複数サービスを使う：</strong>評価軸が分かれるため、2〜3社併用すると自分がどの軸で評価されやすいか分かります。</li>
-              <li><strong>⑤ 現職バレが不安なら公開範囲を調整：</strong>多くのサービスで企業ブロック機能や公開設定があります。登録時に確認しておきましょう。</li>
+              <li><strong>⑤ 現職に知られることが不安なら公開範囲を調整する：</strong>多くのサービスで企業ブロック機能や公開設定があります。登録時に確認しておきましょう。</li>
             </ul>
           </div>
         </section>
@@ -181,8 +181,8 @@ export default function ScoutAgentsPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">強みに合ったスカウト型を2〜3社</h2>
-          <p className="text-blue-100 text-sm mb-4">評価軸の違うサービスを併用して、自分がどの軸で評価されやすいかを把握します。多くが完全無料です。30代・40代の市場価値の棚卸しに最適です。</p>
+          <h2 className="text-xl font-bold mb-3">強みに合ったスカウト型を2〜3社併用する</h2>
+          <p className="text-blue-100 text-sm mb-4">評価軸の違うサービスを併用して、自分がどの軸で評価されやすいかを把握します。多くは完全無料で、30代・40代の市場価値の棚卸しに適しています。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 

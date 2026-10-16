@@ -31,8 +31,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["conclusion", "難易度と向いているエンジニア"],
+  ["basic", "基本データ（出典あり）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術領域（公開情報の範囲）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -99,7 +99,7 @@ export default function MurataCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】村田製作所の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（株式会社村田製作所単体）の平均年間給与は838万円です（2026年3月期 有価証券報告書・全従業員平均、平均年齢40.5歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>提出会社（株式会社村田製作所単体）の平均年間給与は838万円です（2026年3月期 有価証券報告書・全従業員平均、平均年齢40.5歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 838万円です（2026年3月期 有価証券報告書・提出会社単体／全従業員平均）。技術職に限定した値ではありません。</li><li>・推移は2024年3月期760万円→2025年3月期803万円→2026年3月期838万円と上昇しています（各期 有価証券報告書）。</li><li>・職種・等級別の公式な年収レンジは非公表です。提示額は職種・等級・実績で個別決定されるため、求人票・面談での確認が必要です。</li></ul>
         </div>
 
@@ -119,14 +119,14 @@ export default function MurataCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              村田製作所は<strong>電子部品（MLCC）で世界トップシェアを持つメーカー大手</strong>で、電子部品設計・通信モジュール・組込・データ解析/AI・製造IoTと技術領域が広いのが特徴です。年収は提出会社単体の全従業員平均で838万円です（2026年3月期・有価証券報告書）。製造業出身で電子部品・組込・データ解析の専門性を持つミドルエンジニアの業務知識が活きやすい環境です。
+              村田製作所は<strong>電子部品（MLCC）で世界トップシェアを持つメーカー大手</strong>で、電子部品設計・通信モジュール・組込・データ解析/AI・製造IoTと技術領域が広いのが特徴です。年収は提出会社単体の全従業員平均で838万円（2026年3月期・有価証券報告書）となっています。製造業出身で電子部品・組込・データ解析の専門性を持つミドルエンジニアの業務知識が活きやすい環境です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：電子部品・通信・組込・データ解析の実務経験があり、ハードウェアに近い領域で専門性を磨きたい人</li>
               <li>● <strong>向いていない人</strong>：純粋なWeb系のモダン開発のみを志向し、製造業ドメインに関心が持てない人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢40.5歳と年齢層に幅があり、専門性・実績があれば年齢はハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：平均年齢40.5歳と年齢層に幅があり、専門性・実績があれば年齢がハンデになりにくい環境</li>
             </ul>
           </div>
         </section>
@@ -143,7 +143,7 @@ export default function MurataCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -156,7 +156,7 @@ export default function MurataCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2026年3月期 有価証券報告書（提出会社＝株式会社村田製作所単体）に基づく全従業員平均値。技術職に限定した値ではありません。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2026年3月期 有価証券報告書（提出会社＝株式会社村田製作所単体）に基づく全従業員平均値です。技術職に限定した値ではありません。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -185,10 +185,10 @@ export default function MurataCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>電子部品設計</strong>：MLCC・コイル・センサ・電源など電子部品の設計・開発領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>通信モジュール・組込</strong>：通信モジュール等に組み込むソフトウェア開発領域です。一般にC/C++等が想定されるが公式の統一情報はなし</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ解析・AI</strong>：品質予測・製造最適化に向けたデータ解析／機械学習領域です。一般にPython等が想定されます</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>通信モジュール・組込</strong>：通信モジュール等に組み込むソフトウェア開発領域（一般にC/C++等が想定されるものの、公式の統一情報はなし）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ解析・AI</strong>：品質予測・製造最適化に向けたデータ解析／機械学習領域（一般にPython等を想定）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>製造IoT・DX</strong>：製造現場のIoT化・スマートファクトリー推進領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は非公開のため、<strong>各募集要項での確認が必要</strong></span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: 村田製作所公式 事業情報・採用サイトで確認できる技術領域に基づく記述です。推測の言語表は掲載していません。</p>
@@ -263,9 +263,9 @@ export default function MurataCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">村田製作所転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・電子部品領域に強く、技術面接対策のサポートも受けられます。" },
-              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" },
-              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・電子部品領域に強みがあり、技術面接対策のサポートも受けられます。" },
+              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手メーカーの専門職・高年収ポジションのスカウトが届きやすくなります。" },
+              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数を有し、メーカー・大手の求人を幅広くカバーしています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

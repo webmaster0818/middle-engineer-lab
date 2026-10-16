@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "ITパスポートは転職に効くか｜基礎の入口資格と限界を解説【2026年】";
 const PAGE_DESC =
-  "IPAの国家試験・ITパスポート（iパス）を、ITの基礎証明という観点から30代・40代向けに解説します。受験料・合格率（IPA公表値）・通年CBTを整理し、エンジニア転職での加点は限定的という現実と、非IT職・管理職に効く場面を誠実にまとめます。";
+  "IPAの国家試験・ITパスポート（iパス）を、ITの基礎証明という観点から30代・40代向けに解説します。受験料・合格率（IPA公表値）・通年CBTを整理し、エンジニア転職での加点は限定的という現実と、非IT職・管理職で評価される場面をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/it-passport/" },
@@ -15,12 +15,12 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：ITパスポートは誰に効くか" },
+  { id: "conclusion", label: "ITパスポートはどのような人に効果があるか" },
   { id: "overview", label: "試験概要（受験料・形式・合格率）" },
   { id: "limit", label: "エンジニア転職での加点は限定的という現実" },
-  { id: "scenes", label: "それでも効く具体場面（非IT職・管理職）" },
+  { id: "scenes", label: "ITパスポートが評価される具体場面（非IT職・管理職）" },
   { id: "next", label: "ITエンジニアを目指すなら次に何を狙うか" },
-  { id: "middle", label: "30代・40代の価値＝基礎の共通言語" },
+  { id: "middle", label: "30代・40代にとっての価値：ITの基礎的な共通言語" },
   { id: "steps", label: "取得3ステップ／上位資格への道" },
   { id: "faq", label: "よくある質問" },
 ];
@@ -28,7 +28,7 @@ const toc = [
 const faqs = [
   {
     q: "ITパスポートは40代のエンジニア転職で有利になりますか？",
-    a: "実際には、エンジニア職の転職での加点は限定的です。ITパスポートはIPAの国家試験の中で最も基礎レベル（スキルレベル1）に位置づけられ、ITの基礎用語・経営・セキュリティの常識を広く浅く問う試験です。実務経験のあるエンジニアにとっては内容が基礎的すぎるため、技術力の証明にはなりにくいのが実態です。エンジニアとしての評価を上げたいなら、応用情報技術者や各専門資格を狙うほうが費用対効果は高くなります。",
+    a: "実際には、エンジニア職の転職での加点は限定的です。ITパスポートはIPAの国家試験の中で最も基礎レベル（スキルレベル1）に位置づけられ、ITの基礎用語・経営・セキュリティの常識を広く浅く問う試験です。実務経験のあるエンジニアにとっては内容が基礎的すぎるため、技術力の証明にはなりにくいのが実態です。エンジニアとしての評価を上げたいなら、応用情報技術者や各専門資格を目指すほうが費用対効果は高くなります。",
   },
   {
     q: "ITパスポートの合格率はどのくらいですか？",
@@ -44,11 +44,11 @@ const faqs = [
   },
   {
     q: "ITパスポートと基本情報技術者はどちらを取るべきですか？",
-    a: "目的次第です。ITの基礎常識を広く身につけたい非IT職・管理職ならITパスポート、エンジニアとして手を動かす素養（アルゴリズム・プログラミング・データ構造など）を示したいなら基本情報技術者です。エンジニア転職を本気で目指すなら、ITパスポートで止まらず基本情報、さらに応用情報へとステップアップするのが一般的です。",
+    a: "目的次第です。ITの基礎常識を広く身につけたい非IT職・管理職ならITパスポート、エンジニアとして手を動かす素養（アルゴリズム・プログラミング・データ構造など）を示したいなら基本情報技術者です。エンジニア転職を目指すのであれば、ITパスポートで止まらず基本情報、さらに応用情報へとステップアップするのが一般的です。",
   },
   {
     q: "ITパスポートに有効期限はありますか？",
-    a: "ありません。国家資格として合格は生涯有効で、更新や維持費は不要です。ただし出題範囲はAI・ビッグデータ・IoTなど最新動向も含むため、合格後も知識のアップデートは続けることが望ましいです。",
+    a: "ありません。国家資格として合格は生涯有効で、更新や維持費は不要です。ただし出題範囲はAI・ビッグデータ・IoTなど最新動向も含むため、合格後も知識のアップデートを続けることをおすすめします。",
   },
 ];
 
@@ -58,9 +58,9 @@ const overviewTable = [
   ["受験料", "7,500円（消費税込）"],
   ["試験方式", "CBT方式・通年実施（47都道府県に会場）"],
   ["構成", "多肢選択式（四肢択一）100問・120分"],
-  ["合格基準", "総合評価点600点以上かつ分野別基準を満たします"],
+  ["合格基準", "総合評価点600点以上かつ分野別基準の充足"],
   ["合格率", "令和7年度 48.6%（IPA公表）"],
-  ["有効期限", "なし（国家資格・普遍的）"],
+  ["有効期限", "なし（生涯有効）"],
 ];
 
 export default function ITPassportCertPage() {
@@ -98,7 +98,7 @@ export default function ITPassportCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          ITパスポート試験（iパス）は、IPAが主催する情報処理技術者試験の中で<strong>最も基礎レベル（スキルレベル1）の国家試験</strong>で、ITの基礎用語・経営・セキュリティの常識を広く問う、社会人の「ITリテラシーの入口」です。本記事は「ITパスポートを取れば転職で有利になるか」という疑問に、誠実に答えます。結論を先に言うと、<strong>エンジニア職の転職での加点は限定的</strong>です。一方で、非IT職・管理職・これからIT分野に入る人には意味のある資格でもあります。その両面を整理します。
+          ITパスポート試験（iパス）は、IPAが主催する情報処理技術者試験の中で<strong>最も基礎レベル（スキルレベル1）の国家試験</strong>で、ITの基礎用語・経営・セキュリティの常識を広く問う、社会人の「ITリテラシーの入口」です。本記事は「ITパスポートを取れば転職で有利になるか」という疑問にお答えします。<strong>エンジニア職の転職での加点は限定的</strong>です。一方で、非IT職・管理職・これからIT分野に入る人には意味のある資格でもあります。その両面を整理します。
         </p>
 
         <DataNote
@@ -125,15 +125,15 @@ export default function ITPassportCertPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ITパスポートは誰に効くか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ITパスポートはどのような人に効果があるか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              ITパスポートは<strong>「ITの共通言語を身につける入口資格」</strong>です。エンジニアの技術証明には向きませんが、<strong>ITを扱う立場・発注する立場の人がITリテラシーを示す</strong>のには有効です。誰に効くかをはっきり分けると次のとおりです。
+              ITパスポートは<strong>「ITの共通言語を身につける入口資格」</strong>です。エンジニアの技術証明には向きませんが、<strong>ITを扱う立場・発注する立場の人がITリテラシーを示す</strong>うえでは有効です。対象者別に整理すると次のとおりです。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>非IT職・管理職</strong>：ITを活用・発注する立場の基礎証明として効きます</li>
-              <li>② <strong>これからエンジニアを目指す人</strong>：入口の足がかりです。ただし基本情報→応用情報へ進むのが本道</li>
-              <li>③ <strong>実務経験のあるエンジニア</strong>：内容が基礎的すぎて加点は限定的です。上位資格を狙うべき</li>
+              <li>① <strong>非IT職・管理職</strong>：ITを活用・発注する立場の基礎証明として役立ちます</li>
+              <li>② <strong>これからエンジニアを目指す人</strong>：入口の足がかりになります。ただし基本情報、応用情報へと進むことをおすすめします</li>
+              <li>③ <strong>実務経験のあるエンジニア</strong>：内容が基礎的なため加点は限定的です。上位資格を目指すことをおすすめします</li>
             </ul>
           </div>
         </section>
@@ -154,7 +154,7 @@ export default function ITPassportCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: IPA 公式（ipa.go.jp、調査時点2026年6月）。合格率は令和7年度48.6%です（IPA「令和7年度 iパス年間応募者数等」、応募者307,266人・合格者132,012人）。受験料は全試験区分共通で7,500円です（消費税込）。通年CBTで47都道府県に会場があり、受験のハードルが低いのが特徴です。有効期限はなく、合格すれば資格は生涯有効です。
+            出典: IPA 公式（ipa.go.jp、調査時点2026年6月）。合格率は令和7年度48.6%です（IPA「令和7年度 iパス年間応募者数等」、応募者307,266人・合格者132,012人）。受験料は全試験区分共通で7,500円（消費税込）です。通年CBTで47都道府県に会場があり、受験のハードルが低いのが特徴です。有効期限はなく、合格すれば資格は生涯有効です。
           </p>
         </section>
 
@@ -162,29 +162,29 @@ export default function ITPassportCertPage() {
         <section id="limit" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア転職での加点は限定的という現実</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            まず誠実にお伝えすべき点です。30〜40代のエンジニア転職において、ITパスポート単体での加点はあまり期待できません。理由は明確で、<strong>この試験はITの基礎用語・常識を広く浅く問うレベル1の入口資格</strong>であり、実務経験のあるエンジニアにとっては「すでに知っていて当然」の範囲が中心だからです。
+            まずご留意いただきたい点です。30〜40代のエンジニア転職において、ITパスポート単体での加点はあまり期待できません。理由は明確で、<strong>この試験はITの基礎用語・常識を広く浅く問うレベル1の入口資格</strong>であり、実務経験のあるエンジニアにとっては「すでに知っていて当然」の範囲が中心だからです。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・技術力（設計・実装・運用）の証明にはなりません</li>
-              <li>・中途のエンジニア採用で最重視されるのは実務経験・実績です</li>
-              <li>・エンジニア評価を上げたいなら、より上位の資格・専門資格が効率的です</li>
+              <li>・技術力（設計・実装・運用）の証明にはならない</li>
+              <li>・中途のエンジニア採用で最も重視されるのは実務経験・実績</li>
+              <li>・エンジニアとしての評価を上げるには、より上位の資格・専門資格が効率的</li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            ですから、すでにエンジニアとして手を動かしている人が「転職を有利にするため」だけにITパスポートを取るのは、費用対効果の面でおすすめしません。エンジニアとしての評価を上げたいなら、まず<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>、さらに<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>へ進むのが本道です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>でご確認ください。
+            そのため、すでにエンジニアとして手を動かしている人が「転職を有利にするため」だけにITパスポートを取るのは、費用対効果の面でおすすめしません。エンジニアとしての評価を上げたいなら、まず<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>、さらに<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>へ進むのが一般的な進め方です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>でご確認ください。
           </p>
         </section>
 
         {/* それでも効く場面 */}
         <section id="scenes" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">それでも効く具体場面（非IT職・管理職）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ITパスポートが評価される具体場面（非IT職・管理職）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            一方で、ITパスポートが意味を持つ場面もはっきりあります。「エンジニアの技術証明」ではなく「ITを扱う立場のリテラシー証明」という文脈です。
+            一方で、ITパスポートが意味を持つ場面もあります。「エンジニアの技術証明」ではなく「ITを扱う立場のリテラシー証明」という文脈です。
           </p>
           <div className="space-y-3">
             {[
-              { t: "非IT職からIT関連部署への異動・転職", d: "IT用語や仕組みの基礎を身につけ、エンジニアや取引先と会話が成立する状態を示せます。" },
+              { t: "非IT職からIT関連部署への異動・転職", d: "IT用語や仕組みの基礎を身につけ、エンジニアや取引先と円滑に意思疎通できることを示せます。" },
               { t: "ITを発注・活用する管理職", d: "DX推進や情報システムの意思決定に関わる立場で、基礎的なIT理解の客観証明になります。" },
               { t: "ITベンダーの営業・事務・管理部門", d: "技術職でなくても、自社サービスの前提知識やセキュリティ常識を備えていることを示せます。" },
               { t: "これからITエンジニアを目指す最初の一歩", d: "学習の入口として全体像をつかむのに役立ちます。ただしここで止まらず上位資格へ進むのが前提です。" },
@@ -238,13 +238,13 @@ export default function ITPassportCertPage() {
 
         {/* 30-40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝基礎の共通言語</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代にとっての価値：ITの基礎的な共通言語</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              ITパスポートの30〜40代における価値は、<strong>「IT職に転職するための強み」ではなく「ITを扱う立場としての共通言語」</strong>にあります。すでにエンジニアの人にとっては基礎的すぎますが、管理職・非IT職・発注側の立場であれば、エンジニアや取引先と話が通じる土台を客観的に示せます。
+              ITパスポートの30〜40代における価値は、<strong>「IT職に転職するための強み」ではなく「ITを扱う立場としての共通言語」</strong>にあります。すでにエンジニアとして働いている人にとっては基礎的な内容ですが、管理職・非IT職・発注側の立場であれば、エンジニアや取引先と話が通じる土台を客観的に示せます。
             </p>
             <p>
-              逆に、エンジニアとしてのキャリアを真剣に伸ばしたい30〜40代であれば、ITパスポートは<strong>通過点に過ぎない</strong>と割り切るべきです。基本情報、応用情報、そして高度試験や専門資格へと進むことで初めて、転職市場で評価される「実務 × 資格」のストーリーが完成します。資格に時間を使うなら、自分の立場と目的に合った段階を選ぶことが何より大切です。
+              逆に、エンジニアとしてのキャリアを伸ばしたい30〜40代であれば、ITパスポートは<strong>通過点</strong>と位置づけるのが適切です。基本情報、応用情報、そして高度試験や専門資格へと進むことで初めて、転職市場で評価される実務と資格のそろった経歴になります。資格に時間を使うなら、自分の立場と目的に合った段階を選ぶことが何より大切です。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -257,9 +257,9 @@ export default function ITPassportCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／上位資格への道</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "出題3分野を過去問で網羅", d: "ストラテジ系・マネジメント系・テクノロジ系を、公式過去問で繰り返し演習します。" },
-              { n: "STEP 2", t: "通年CBTで都合に合わせ受験", d: "47都道府県の会場から日時を選んで申し込みます。短期集中で合格を狙いやすいです。" },
-              { n: "STEP 3", t: "止まらず上位資格へ", d: "エンジニア志望なら基本情報→応用情報へ進む道があります。立場により高度試験・専門資格へ展開します。" },
+              { n: "STEP 1", t: "出題3分野を過去問で対策", d: "ストラテジ系・マネジメント系・テクノロジ系を、公式過去問で繰り返し演習します。" },
+              { n: "STEP 2", t: "通年CBTで都合に合わせ受験", d: "47都道府県の会場から日時を選んで申し込みます。短期集中で合格を狙いやすくなります。" },
+              { n: "STEP 3", t: "合格後は上位資格へ進む", d: "エンジニア志望なら基本情報、応用情報へと進む道があります。立場により高度試験・専門資格へ展開します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

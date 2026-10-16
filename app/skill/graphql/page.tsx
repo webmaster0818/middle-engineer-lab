@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：GraphQLエンジニアの転職市場での進め方" },
+  { id: "conclusion", label: "1. GraphQLエンジニアの転職市場での進め方" },
   { id: "market", label: "2. GraphQLの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. GraphQLエンジニアのキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "find", label: "5. 求人の探し方・エージェントの選び方" },
   { id: "entry", label: "6. 経験浅めからGraphQLに参入するルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "GraphQLはどんな技術ですか？",
-    a: "GraphQLはAPIのためのクエリ言語およびランタイムで、クライアントが必要なデータだけを指定して取得できるのが特徴です。RESTのように複数のエンドポイントを叩く代わりに、単一のエンドポイントで柔軟にデータを取得・更新できます。フロントとバックの間のデータ取得を効率化するため、複雑なUIや複数クライアントを抱えるサービスで採用が広がっています。",
+    a: "GraphQLはAPIのためのクエリ言語およびランタイムで、クライアントが必要なデータだけを指定して取得できるのが特徴です。RESTのように複数のエンドポイントにリクエストする代わりに、単一のエンドポイントで柔軟にデータを取得・更新できます。フロントとバックの間のデータ取得を効率化するため、複雑なUIや複数クライアントを抱えるサービスで採用が広がっています。",
   },
   {
     q: "GraphQLの求人はどんな企業に多いですか？",
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     q: "GraphQLエンジニアにおすすめの転職エージェントは？",
-    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でアーキテクト級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強いGeeklyの併用が選択肢です。GraphQLは付加スキルとして扱われることが多いため、フロント／バックの軸を明確にしたうえで複数登録し、保有求人を横断的に比較するのが現実的です。",
+    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でアーキテクト級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強みを持つGeeklyの併用が選択肢です。GraphQLは付加スキルとして扱われることが多いため、フロント／バックの軸を明確にしたうえで複数登録し、保有求人を横断的に比較するのが現実的です。",
   },
   {
     q: "GraphQLエンジニアはしつこく営業されたり断られたりしますか？",
@@ -101,7 +101,7 @@ export default function GraphqlSkillPage() {
             GraphQLはAPIのためのクエリ言語およびランタイムで、クライアントが必要なデータだけを単一エンドポイントから柔軟に取得できるのが特徴です。RESTの課題を補う選択肢として、複数クライアントを持つWeb系・SaaS、マイクロサービス化を進める企業で採用が広がっています。API設計の付加スキルとして評価され、扱える人材が限られるぶん市場価値につながりやすい技術です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、GraphQLエンジニア転職の現実的な「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。GraphQLは単体技術ゆえ、フロント／バックの軸＋API設計の実務で評価される点を誠実にお伝えします。
+            本記事では、GraphQLエンジニア転職の現実的な「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。GraphQLは単体の技術であるため、フロント／バックの軸＋API設計の実務で評価される点をご説明します。
           </p>
         </section>
 
@@ -130,7 +130,7 @@ export default function GraphqlSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：GraphQLエンジニアの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">GraphQLエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>GraphQLは「API設計に強いことを示す付加スキル」です。</strong>GraphQL単体で転職を狙うより、フロント／バックのメインスキルを土台に、GraphQLを「API設計力の証明」として掛け合わせるのが現実的な進め方です。
@@ -208,10 +208,10 @@ export default function GraphqlSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "バックエンドエンジニア", note: "GraphQLサーバー・スキーマ設計・リゾルバ実装が中心です。API設計に強み" },
-              { role: "フロントエンドエンジニア", note: "GraphQLクライアント（Apollo等）でのデータ取得設計。複雑なUIで需要" },
-              { role: "APIアーキテクト／テックリード", note: "GraphQLを含むAPI全体の設計＋技術選定＋チームリード" },
-              { role: "フリーランス（API設計案件）", note: "GraphQL/REST設計を含む案件です。設計力の高さで単価が上がりやすいです" },
+              { role: "バックエンドエンジニア", note: "GraphQLサーバー・スキーマ設計・リゾルバ実装が中心です。API設計の経験が強みになります" },
+              { role: "フロントエンドエンジニア", note: "GraphQLクライアント（Apollo等）でのデータ取得設計を担います。複雑なUIで需要があります" },
+              { role: "APIアーキテクト／テックリード", note: "GraphQLを含むAPI全体の設計、技術選定、チームリードを担います" },
+              { role: "フリーランス（API設計案件）", note: "GraphQL/REST設計を含む案件が中心です。設計力の高さで単価が上がりやすい傾向があります" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -226,7 +226,7 @@ export default function GraphqlSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             GraphQLは付加スキルとして扱われることが多いため、GraphQL限定で探すより、フロント／バックの軸を明確にしたうえで複数のチャネルを横断するのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -246,7 +246,7 @@ export default function GraphqlSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web・ゲーム業界特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。GraphQLを採用するWeb系・SaaS企業の求人を探したい場合の選択肢になります。
               </p>
@@ -265,7 +265,7 @@ export default function GraphqlSkillPage() {
             {[
               { num: "1", title: "フロント／バックのAPI開発経験を主軸にする", desc: "GraphQLは単体では求人が限られるため、まずフロントまたはバックのWeb/API開発の実務を土台にします。REST APIの設計経験があれば、GraphQLはその延長で理解でき、追加スキルとして無理なく身につけられます。" },
               { num: "2", title: "GitHubにGraphQLを使ったアプリを公開する", desc: "スキーマ設計・リゾルバ実装（サーバー側）や、Apollo等を使ったクライアント側のクエリを含むアプリを作って公開します。RESTとの使い分けや、N+1問題への対処まで示せると、API設計力の証明になり面接で語れる材料になります。" },
-              { num: "3", title: "GraphQLを採用する企業のスキルセット要件に合わせる", desc: "GraphQL求人は「フロント／バック＋GraphQL歓迎」という形が多いため、自分のメインスキルとGraphQLをセットでアピールします。エージェントに軸とGraphQLの学習状況を伝え、マッチする求人を紹介してもらうのが近道です。" },
+              { num: "3", title: "GraphQLを採用する企業のスキルセット要件に合わせる", desc: "GraphQL求人は「フロント／バック＋GraphQL歓迎」という形が多いため、自分のメインスキルとGraphQLをセットでアピールします。エージェントに軸とGraphQLの学習状況を伝え、マッチする求人を紹介してもらう方法が現実的です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -285,13 +285,13 @@ export default function GraphqlSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>設計力は年齢の不利を相殺しやすいです。</strong>GraphQLが評価されるのは、実装の速さより「データ取得をどう設計するか」という設計判断です。30代・40代で複数のシステムのAPI設計を経験しているなら、その設計力こそがGraphQL人材としての強みになります。
+              <strong>設計力は年齢の不利を相殺しやすくなります。</strong>GraphQLが評価されるのは、実装の速さより「データ取得をどう設計するか」という設計判断です。30代・40代で複数のシステムのAPI設計を経験しているなら、その設計力こそがGraphQL人材としての強みになります。
             </p>
             <p>
               <strong>軸はメインスキル、GraphQLは掛け算です。</strong>GraphQL単体で年収を狙うのは現実的ではありません。バックエンド言語やフロント技術といった実務の主軸を持ちつつ、GraphQLを「API設計に強い人材」の証明として掛け合わせると、ミドル層の強みになります。
             </p>
             <p>
-              <strong>RESTとの使い分けを語れると強いです。</strong>テックリードやアーキテクトの求人では、「なぜGraphQLを選ぶ／選ばないか」を判断できる力が評価されます。RESTとGraphQLの長短を理解し選定理由を語れると、40代の設計・判断力の証明になります。
+              <strong>RESTとの使い分けを語れると有利です。</strong>テックリードやアーキテクトの求人では、「なぜGraphQLを選ぶ／選ばないか」を判断できる力が評価されます。RESTとGraphQLの長短を理解し選定理由を語れると、40代の設計・判断力の証明になります。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -338,7 +338,7 @@ export default function GraphqlSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">GraphQLのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            GraphQLは付加スキルだからこそ、メインの軸を明確にして複数のIT特化型エージェントで保有求人を横断比較するのが近道です。
+            GraphQLは付加スキルだからこそ、メインの軸を明確にして複数のIT特化型エージェントで保有求人を横断比較するのが効率的です。
           </p>
           <Link
             href="/#ranking"

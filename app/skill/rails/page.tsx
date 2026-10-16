@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Railsエンジニアの転職市場での進め方" },
+  { id: "conclusion", label: "1. Railsエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Railsの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Railsエンジニアのキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "find", label: "5. 求人の探し方と主なエージェント" },
   { id: "entry", label: "6. 他フレームワークからRailsに参入するルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "他のフレームワークからRailsへ転向するのは難しいですか？",
-    a: "他言語でのWebアプリ開発経験（Laravel／Django／Spring／Express等）があれば、MVCやORM、ルーティングといった概念は共通しており、Railsへの移行はスムーズです。Railsは『設定より規約（CoC）』の思想が強く、Railsの流儀（命名規約やActive Record）に慣れることが習得の鍵です。個人でRailsアプリを1本作ると、規約に沿った書き方を実地で学べます。",
+    a: "他言語でのWebアプリ開発経験（Laravel／Django／Spring／Express等）があれば、MVCやORM、ルーティングといった概念は共通しており、Railsへの移行はスムーズです。Railsは『設定より規約（CoC）』の思想が強く、Railsの流儀（命名規約やActive Record）に慣れることが習得のポイントです。個人でRailsアプリを1本作ると、規約に沿った書き方を実地で学べます。",
   },
   {
     q: "Rails未経験でも転職できますか？",
@@ -124,14 +124,14 @@ export default function RailsSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Railsエンジニアの転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Railsエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Railsは自社開発・スタートアップへの入口として強いフレームワークです。</strong>MVP開発の生産性を強みに、自社サービス企業のWeb開発に的を絞るのが効率的です。
+              <strong>Railsは自社開発・スタートアップへの入口として有力なフレームワークです。</strong>MVP開発の生産性を強みに、自社サービス企業のWeb開発に的を絞るのが効率的です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・記述言語Rubyはpaiza 2025年調査で提示年収<strong>3位（平均689万円）</strong>と高水準</li>
-              <li>・Laravel／Django／Springなど他フレームワークのWeb開発経験があれば、Railsへの移行はスムーズ</li>
+              <li>・記述言語Rubyはpaiza 2025年調査で提示年収<strong>3位（平均689万円）</strong>と高い水準です</li>
+              <li>・Laravel／Django／Springなど他フレームワークのWeb開発経験があれば、Railsへの移行はスムーズです</li>
               <li>・Railsは<strong>フロントエンドやインフラ・スケール経験との掛け合わせ</strong>で市場価値が高まります</li>
             </ul>
           </div>
@@ -198,10 +198,10 @@ export default function RailsSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "Webアプリエンジニア（自社開発）", note: "RailsでのSaaS・Webサービス開発が中心です。求人の最も多いゾーン" },
-              { role: "フルスタック（Rails＋フロント）", note: "Rails＋React等で、サービスを一気通貫で開発" },
-              { role: "テックリード／アーキテクト", note: "Rails基盤の設計＋スケール対応＋技術選定" },
-              { role: "フリーランス（Rails案件）", note: "自社開発・受託のWebアプリ案件です。MVP開発の速さが評価されます" },
+              { role: "Webアプリエンジニア（自社開発）", note: "RailsでのSaaS・Webサービス開発が中心。求人数が最も多いゾーン" },
+              { role: "フルスタック（Rails＋フロント）", note: "Rails＋React等による、サービス全体の一貫した開発" },
+              { role: "テックリード／アーキテクト", note: "Rails基盤の設計、スケール対応、技術選定" },
+              { role: "フリーランス（Rails案件）", note: "自社開発・受託のWebアプリ案件。MVP開発の速さが評価される領域" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -215,13 +215,13 @@ export default function RailsSkillPage() {
         </section>
 
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             Rails求人は自社開発・スタートアップが中心です。特定の1社に絞るより、ダイレクト型と仲介型を併用するのが効率的です。タイプ別に向くサービスを整理します。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強み）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で提案スピードが強みです。Railsを採用するスタートアップ・自社開発の求人を探したい場合の選択肢になります。
               </p>
@@ -290,13 +290,13 @@ export default function RailsSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 規約（CoC）を体に馴染ませます。</strong>Railsは「設定より規約」の思想が強く、命名規約やディレクトリ構成に沿うことが生産性の源です。公式ガイドに沿ってアプリを作り、Railsの流儀を身につけるのが習得の近道です。
+              <strong>① 規約（CoC）を習得します。</strong>Railsは「設定より規約」の思想が強く、命名規約やディレクトリ構成に沿うことが生産性の源です。公式ガイドに沿ってアプリを作り、Railsの流儀を身につけるのが習得の近道です。
             </p>
             <p>
               <strong>② Active Recordとテストを深めます。</strong>Active RecordによるDB操作とRSpec等のテストはRails実務の中心です。N+1問題の回避やマイグレーション設計まで含めて経験すると、面接で語れる実力になります。
             </p>
             <p>
-              <strong>③ フロントエンド・インフラを掛け合わせます。</strong>React等のフロントや、AWS・コンテナでのデプロイ・スケール経験を積むと、フルスタック・テックリード級の求人に手が届きます。Rails単体に閉じず周辺を広げるのが、市場価値を高める鍵です。
+              <strong>③ フロントエンド・インフラを掛け合わせます。</strong>React等のフロントや、AWS・コンテナでのデプロイ・スケール経験を積むと、フルスタック・テックリード級の求人も視野に入ります。Rails単体に閉じず周辺領域へ広げることが、市場価値を高めるうえで重要です。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。

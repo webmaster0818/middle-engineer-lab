@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：奪われるのは『作業』、残るのは『判断』" },
+  { id: "conclusion", label: "1. 奪われるのは『作業』、残るのは『判断』" },
   { id: "split", label: "2. AIに奪われる仕事・残る仕事の切り分け" },
   { id: "three", label: "3. これから求められる3要素" },
-  { id: "polarize", label: "4. 二極化：『叩くだけ』か『組み立てる側』か" },
-  { id: "skills", label: "5. 伸ばすと効くスキル" },
+  { id: "polarize", label: "4. 二極化：『指示を出すだけ』か『組み立てる側』か" },
+  { id: "skills", label: "5. 伸ばしておきたいスキル" },
   { id: "nontech", label: "6. AIに代替されにくい非技術スキル" },
   { id: "middle", label: "7. なぜミドルの経験はAI時代に価値が上がるのか" },
   { id: "faq", label: "8. よくある質問" },
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "30-40代はAIに詳しい若手に負けてしまいませんか？",
-    a: "ツールの操作習熟だけで比べれば差は出にくくなります。しかし生成AIを実務で価値に変えるには、解くべき課題を定義し、出力の妥当性を判断し、ドメイン知識で補正する力が必要です。これらは経験の蓄積がものを言う領域で、むしろ30-40代の強みが活きます。AIを使いこなす前提で、自分の経験を掛け合わせる姿勢が鍵になります。",
+    a: "ツールの操作習熟だけで比べれば差は出にくくなります。しかし生成AIを実務で価値に変えるには、解くべき課題を定義し、出力の妥当性を判断し、ドメイン知識で補正する力が必要です。これらは経験の蓄積がものを言う領域で、むしろ30-40代の強みが活きます。AIを使いこなす前提で、自分の経験を掛け合わせる姿勢が重要になります。",
   },
   {
     q: "生成AIエンジニアの年収はどのくらい上がりますか？",
@@ -97,11 +97,11 @@ export default function GenerativeAiEraPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】生成AI時代、30-40代エンジニアは何を強みに生き残ればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3">
-              <strong>結論: 奪われるのは定型的な「作業」で、残り価値が増すのは課題を定義し出力を判断する「判断」。30-40代は自分の経験×AIで、判断と課題設定の領域を強みにするのが一般的です。</strong>
+              <strong>奪われるのは定型的な「作業」で、残り価値が増すのは課題を定義し出力を判断する「判断」です。30-40代は自分の経験×AIで、判断と課題設定の領域を強みにするのが一般的です。</strong>
             </p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
-              <li>・AIに置き換わりやすいのは定型コードの生成・補完・調査などの「作業」、人間に残りやすいのは要件定義・技術選定・合意形成などの「判断」</li>
-              <li>・評価されるのはAI実装力・エンジニアリング力・ビジネス課題設定力の3要素を掛け合わせられる人材</li>
+              <li>・AIに置き換わりやすいのは定型コードの生成・補完・調査などの「作業」、人間に残りやすいのは要件定義・技術選定・合意形成などの「判断」です</li>
+              <li>・評価されるのは、AI実装力・エンジニアリング力・ビジネス課題設定力の3要素を掛け合わせられる人材です</li>
               <li>・ミドルのドメイン知識・要件定義・マネジメント経験はAI出力の検証と「問い」を立てる力に直結し、AI時代にむしろ価値が上がります</li>
             </ul>
           </div>
@@ -131,7 +131,7 @@ export default function GenerativeAiEraPage() {
 
         {/* 1. 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">1. 結論：奪われるのは『作業』、残るのは『判断』</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">1. 奪われるのは『作業』、残るのは『判断』</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             生成AIが得意なのは、過去のパターンに基づくコード生成・補完・調査の効率化です。これらは「作業」であり、比重は下がっていく傾向があります。一方で<strong>「何を作るべきか」「この出力は正しいか」「どの技術を選ぶか」「関係者をどう動かすか」</strong>という判断は、人間の役割として残りやすい領域です。
           </p>
@@ -196,12 +196,12 @@ export default function GenerativeAiEraPage() {
 
         {/* 4. 二極化 */}
         <section id="polarize" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 二極化：『叩くだけ』か『組み立てる側』か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 二極化：『指示を出すだけ』か『組み立てる側』か</h2>
           <p className="text-slate-600 leading-relaxed mb-4">生成AIの普及は、エンジニアを二つの方向に分けていく傾向があります。どちらに進むかで、AI時代の立ち位置が大きく変わります。</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-red-50 border border-red-200 rounded-lg p-5">
-              <h3 className="font-bold text-red-700 mb-2">プロンプトを叩くだけ</h3>
-              <p className="text-sm text-slate-600">AIに指示を出して出力を貼るだけで、出力の妥当性を判断できない状態です。代替されやすく、付加価値を出しにくいです。</p>
+              <h3 className="font-bold text-red-700 mb-2">プロンプトで指示を出すだけ</h3>
+              <p className="text-sm text-slate-600">AIに指示を出して出力を貼るだけで、出力の妥当性を判断できない状態です。代替されやすく、付加価値を出しにくい傾向があります。</p>
             </div>
             <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-5">
               <h3 className="font-bold text-emerald-800 mb-2">AIを組み込む側に回る</h3>
@@ -215,8 +215,8 @@ export default function GenerativeAiEraPage() {
 
         {/* 5. 伸びるスキル */}
         <section id="skills" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">5. 伸ばすと効くスキル</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">AIを前提にした実務で、伸ばしておくと効くスキルを整理しました。いきなり全部ではなく、業務に近いものから一つずつで構いません。</p>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">5. 伸ばしておきたいスキル</h2>
+          <p className="text-slate-600 leading-relaxed mb-4">AIを前提にした実務で、伸ばしておくと有効なスキルを整理しました。いきなり全部ではなく、業務に近いものから一つずつで構いません。</p>
           <ul className="space-y-2 mb-5">
             {[
               "RAG（検索拡張生成）を使ったアプリケーションの設計・構築",
@@ -244,7 +244,7 @@ export default function GenerativeAiEraPage() {
           <div className="space-y-4">
             {[
               { t: "課題発見・要件定義", d: "曖昧なビジネス要求を、解くべき技術課題に翻訳する力です。AIは与えられた問いには答えますが、問いを立てるのは人間です。" },
-              { t: "技術選定・トレードオフ判断", d: "正解が一つでない状況で、制約とリスクを踏まえて選ぶ力です。文脈の理解が必要で代替しにくいです。" },
+              { t: "技術選定・トレードオフ判断", d: "正解が一つでない状況で、制約とリスクを踏まえて選ぶ力です。文脈の理解が必要で代替しにくい傾向があります。" },
               { t: "合意形成・交渉", d: "関係者の利害を調整し、意思決定に導く力です。対人の信頼関係が前提になります。" },
               { t: "マネジメント・育成", d: "チームを動かし、人を育てる力です。AI時代でも組織を成果に結びつけるのは人間の役割です。" },
             ].map((n, i) => (
@@ -277,7 +277,7 @@ export default function GenerativeAiEraPage() {
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mt-5">
-            <p className="text-sm text-amber-800"><strong>進め方の結論：</strong>30-40代は「若手とAIツールの操作習熟を競う」のではなく、「自分の経験 × AI」で<strong>判断と課題設定の領域を強みにする</strong>のが一般的です。AIを取り入れる柔軟さと、これまでの経験の掛け算が、最も再現性のある生存戦略になります。</p>
+            <p className="text-sm text-amber-800"><strong>進め方の要点：</strong>30-40代は「若手とAIツールの操作習熟を競う」のではなく、「自分の経験 × AI」で<strong>判断と課題設定の領域を強みにする</strong>のが一般的です。AIを取り入れる柔軟さと、これまでの経験の組み合わせが、最も再現性のある戦略になります。</p>
           </div>
         </section>
 
@@ -307,7 +307,7 @@ export default function GenerativeAiEraPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">AI時代のキャリアをプロに相談しよう</h2>
+          <h2 className="text-xl font-bold mb-3">AI時代のキャリアをエージェントに相談しましょう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、生成AIを前提とした求人動向や、ご自身の経験の活かし方を具体的にアドバイスしてくれます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

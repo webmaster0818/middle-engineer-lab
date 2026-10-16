@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：千葉のIT転職市場の特徴" },
+  { id: "conclusion", label: "千葉のIT転職市場の特徴" },
   { id: "areas", label: "千葉のIT企業集積とエリア特徴" },
   { id: "workstyle", label: "働き方の選択肢（通勤圏・リモート併用）" },
   { id: "fit", label: "千葉での転職が向いている人・向いていない人" },
@@ -157,7 +157,7 @@ export default function ChibaAreaPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：千葉のIT転職市場の特徴</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">千葉のIT転職市場の特徴</h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
               <li>・<strong>幕張新都心という県内拠点を持ちます</strong>。大手・EC・通信系の本社や拠点が集まり、千葉で完結する求人も探せます。</li>
               <li>・<strong>東京通勤圏×リモート併用が可能です</strong>。船橋・市川など東京寄りのエリアから、リモート／通勤を組み合わせて選べます。</li>
@@ -206,15 +206,15 @@ export default function ChibaAreaPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3">
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
-              <p className="text-sm text-slate-600"><strong>県内オフィス勤務:</strong> 幕張・千葉駅周辺の大手・SIerなどです。インフラ系やデータセンター関連は物理作業を伴い出社が前提になりやすいです。</p>
+              <p className="text-sm text-slate-600"><strong>県内オフィス勤務:</strong> 幕張・千葉駅周辺の大手企業やSIerなどが該当します。インフラ系やデータセンター関連は物理作業を伴い出社が前提になりやすい傾向があります。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
-              <p className="text-sm text-slate-600"><strong>東京企業へハイブリッド:</strong> 船橋・市川など東京寄りに住み、週数日だけ都心に出社する形です。通勤負担を抑えやすいです。</p>
+              <p className="text-sm text-slate-600"><strong>東京企業へハイブリッド:</strong> 船橋・市川など東京寄りに住み、週数日だけ都心に出社する形です。通勤負担を抑えやすくなります。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-              <p className="text-sm text-slate-600"><strong>フルリモート:</strong> 東京や全国の企業に、千葉に住んだまま勤務です。Web系・SaaS企業を中心に求人が存在します。</p>
+              <p className="text-sm text-slate-600"><strong>フルリモート:</strong> 千葉に住んだまま、東京や全国の企業に勤務する形です。Web系・SaaS企業を中心に求人が存在します。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
@@ -299,14 +299,14 @@ export default function ChibaAreaPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レバテックキャリア（IT/Web特化）</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                IT/Web特化で首都圏中心です。千葉在住のまま東京企業に転職する際の選択肢として、高年収・リモート可の求人を探しやすいとされます。書類添削・面接対策の丁寧さが評価される一方、未経験者には紹介されにくい声もあります。
+                IT/Web領域に特化し、首都圏の求人を中心に扱っています。千葉在住のまま東京企業に転職する際の選択肢として、高年収・リモート可の求人を探しやすいとされます。書類添削・面接対策の丁寧さが評価される一方、未経験者には求人が紹介されにくいという声もあります。
                 <Link href="/review/levtech/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">doda ITエンジニア（全国・総合型）</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                対応エリアは全国で、国内最大級の求人数です。幕張など県内の大手求人と、東京のリモート求人の両方を探しやすいのが利点です。求人・連絡が多すぎるという声もあるため、希望条件を明確に伝えるとよいでしょう。
+                対応エリアは全国で、国内最大級の求人数を持ちます。幕張など県内の大手求人と、東京のリモート求人の両方を探しやすいのが利点です。求人・連絡が多すぎるという声もあるため、希望条件を明確に伝えるとよいでしょう。
                 <Link href="/review/doda-it/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
@@ -389,7 +389,7 @@ export default function ChibaAreaPage() {
               千葉はミドル層にとって、生活基盤を維持しながら首都圏の求人を狙えるエリアです。経産省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれ、経験者需要は底堅いと考えられます。特にインフラ・データセンター領域は千葉ならではの強みになり得ます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価される時期です。県内拠点でのリードポジションや、東京企業へのリモート転職で年収を伸ばしやすいです。<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link></li>
+              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価される時期です。県内拠点でのリードポジションや、東京企業へのリモート転職で年収を伸ばしやすくなります。<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link></li>
               <li>・<strong>40代</strong>：マネジメントやインフラ・特定ドメインの専門性が強みです。県内拠点と東京リモートの両にらみで選択肢を確保できます。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link></li>
               <li>・家族の生活拠点を変えずに転職したい層にとって、通勤圏×リモートの選択肢は大きなメリットになります。</li>
             </ul>
@@ -414,7 +414,7 @@ export default function ChibaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">千葉のIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
-            幕張の県内拠点も東京リモートも選べる千葉です。IT特化型エージェントに登録して市場価値を確認しましょう。
+            幕張の県内拠点も東京リモートも選べるエリアです。IT特化型エージェントに登録して市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

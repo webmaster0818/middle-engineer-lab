@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：EC業界への転職は現実的か" },
+  { id: "conclusion", label: "EC業界への転職は現実的か" },
   { id: "trend", label: "EC・eコマース業界の概要・採用動向" },
   { id: "skill-gap", label: "活かせるスキルと埋めるべきギャップ" },
   { id: "patterns", label: "転職パターン（職種×企業タイプ）" },
@@ -28,25 +28,25 @@ const toc = [
 ];
 
 const skillGap = [
-  ["Webアプリ・フロントエンド開発の経験", "そのまま強みになります", "購入体験やUIの改善はECの売上に直結するため、Web開発力が中核で評価されます"],
-  ["決済・在庫・受発注など業務システムの経験", "そのまま強みになります", "ECは決済・在庫・物流連携など業務ロジックが多く、業務システム経験が活きます"],
-  ["小売・流通の業務知識", "部分的に活かせます", "商品・在庫・物流の理解は要件定義で強みになりますが、Web技術の刷新は別途必要です"],
-  ["大規模トラフィック・高可用性の設計", "埋めるべきギャップ", "セール時のアクセス集中に耐える設計やSRE的な知見が問われやすいです"],
-  ["データ活用・パーソナライズ", "埋めるべきギャップ", "レコメンドや分析、A/Bテストなど、データで体験を改善する手法への適応が必要"],
+  ["Webアプリ・フロントエンド開発の経験", "そのまま強み", "購入体験やUIの改善はECの売上に直結するため、Web開発力が中核で評価されます"],
+  ["決済・在庫・受発注など業務システムの経験", "そのまま強み", "ECは決済・在庫・物流連携など業務ロジックが多く、業務システム経験が活きます"],
+  ["小売・流通の業務知識", "部分的に活用可能", "商品・在庫・物流の理解は要件定義で強みになりますが、Web技術の刷新は別途必要です"],
+  ["大規模トラフィック・高可用性の設計", "埋めるべきギャップ", "セール時のアクセス集中に耐える設計やSRE的な知見が問われやすい傾向があります"],
+  ["データ活用・パーソナライズ", "埋めるべきギャップ", "レコメンドや分析、A/Bテストなど、データで体験を改善する手法への適応が必要です"],
 ];
 
 const patterns = [
-  ["フロントエンド・プロダクトエンジニア", "ECモール・自社EC・D2C", "購入体験やUIの改善で売上に貢献します。Web開発力を強みにする代表的なルート"],
-  ["バックエンドエンジニア", "ECプラットフォーム・基盤", "決済・在庫・受発注・物流連携。業務システム経験者に向く"],
-  ["SRE・プラットフォームエンジニア", "大規模EC・モール", "セール時の高トラフィックを支えます。インフラ/クラウド経験が活きる"],
-  ["データエンジニア・分析", "EC全般", "購買データの分析、レコメンド、A/Bテスト。データ志向の人に向く"],
+  ["フロントエンド・プロダクトエンジニア", "ECモール・自社EC・D2C", "購入体験やUIの改善で売上に貢献します。Web開発力を強みにする代表的なルートです"],
+  ["バックエンドエンジニア", "ECプラットフォーム・基盤", "決済・在庫・受発注・物流連携を担います。業務システム経験者に向いています"],
+  ["SRE・プラットフォームエンジニア", "大規模EC・モール", "セール時の高トラフィックを支えます。インフラ/クラウドの経験が活きます"],
+  ["データエンジニア・分析", "EC全般", "購買データの分析、レコメンド、A/Bテストを担います。データ志向の人に向いています"],
 ];
 
 const companyTypes = [
-  ["ECモール・マーケットプレイス", "多数の店舗・出品者を抱える大規模プラットフォーム。高トラフィックとスケールが特徴", "大規模・高可用性に挑戦したい人"],
-  ["ネットショップ作成・EC基盤", "個人や中小事業者がECを始める基盤を提供しています。プロダクトの裾野が広い", "プロダクトで多くの事業者を支えたい人"],
-  ["自社EC・D2Cブランド", "自社商品をオンラインで販売。ブランド体験とデータ活用が重要", "ブランドや体験づくりに関心がある人"],
-  ["フリマ・CtoCサービス", "個人間取引のプラットフォーム。決済・不正対策・マッチングが要", "CtoCならではの課題に取り組みたい人"],
+  ["ECモール・マーケットプレイス", "多数の店舗・出品者を抱える大規模プラットフォームです。高トラフィックとスケールが特徴です", "大規模・高可用性に挑戦したい人"],
+  ["ネットショップ作成・EC基盤", "個人や中小事業者がECを始める基盤を提供しています。プロダクトの利用者層が広い点が特徴です", "プロダクトで多くの事業者を支えたい人"],
+  ["自社EC・D2Cブランド", "自社商品をオンラインで販売します。ブランド体験とデータ活用が重要です", "ブランドや体験づくりに関心がある人"],
+  ["フリマ・CtoCサービス", "個人間取引のプラットフォームです。決済・不正対策・マッチングが中核となります", "CtoCならではの課題に取り組みたい人"],
 ];
 
 const faqs = [
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: "大規模トラフィックの経験がなくても転職できますか？",
-    a: "可能性はあります。すべてのEC企業が同じ規模ではなく、ネットショップ基盤やD2C、中小規模のECなど、まず標準的なWeb開発力が求められる場面も多いです。そこで経験を積みながら、高可用性やSREの知見を後から深める道もあります。",
+    a: "可能性はあります。すべてのEC企業が同じ規模ではなく、ネットショップ基盤やD2C、中小規模のECなど、まず標準的なWeb開発力が求められる場面も多く見られます。そこで経験を積みながら、高可用性やSREの知見を後から深める道もあります。",
   },
   {
     q: "EC業界への転職で年収はどう変わりますか？",
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "ECではどんな技術が求められますか？",
-    a: "求人傾向としてはフロント（React/TypeScript/Vue）、バックエンド（Java/PHP/Ruby/Go/Node.jsなど）、クラウド（AWS/GCP）、決済・在庫などの業務ロジックが基本になりやすいです。大規模ECではSRE・パフォーマンス、データ活用ではレコメンドや分析の知識があると差別化につながります。具体的な要件は企業ごとに異なるため、求人票で確認してください。",
+    a: "求人傾向としてはフロント（React/TypeScript/Vue）、バックエンド（Java/PHP/Ruby/Go/Node.jsなど）、クラウド（AWS/GCP）、決済・在庫などの業務ロジックが基本になりやすい傾向があります。大規模ECではSRE・パフォーマンス、データ活用ではレコメンドや分析の知識があると差別化につながります。具体的な要件は企業ごとに異なるため、求人票で確認してください。",
   },
   {
     q: "代表的なEC関連企業にはどんなところがありますか？",
@@ -151,20 +151,20 @@ export default function EcommercePage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：EC業界への転職は現実的か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">EC業界への転職は現実的か</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <span className="font-bold text-blue-800">結論：Web開発経験や業務システムの経験を持つエンジニアにとって、EC転職は十分現実的です。</span>
+              <span className="font-bold text-blue-800">Web開発経験や業務システムの経験を持つエンジニアにとって、EC転職は十分現実的です。</span>
               購入体験の改善や業務ロジックの実装は、ECの売上に直結する重要な領域です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Web開発と決済・在庫・物流などの業務ロジックの経験が活きます</li>
               <li>・一方で高トラフィック対応やデータ活用は多くの求人で問われます</li>
-              <li>・30代は技術＋データ活用の習得、40代はマネジメント＋業務知識を強みにしやすいです</li>
+              <li>・30代は技術＋データ活用の習得、40代はマネジメント＋業務知識を強みにしやすくなります</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            まずは「自分の経験がどの領域（モール・EC基盤・D2C・CtoC）で活きるか」を見極め、不足する技術を補う計画を立てるのが近道です。
+            まずは「自分の経験がどの領域（モール・EC基盤・D2C・CtoC）で活きるか」を見極め、不足する技術を補う計画を立てると、効率よく準備を進められます。
           </p>
         </section>
 
@@ -182,7 +182,7 @@ export default function EcommercePage() {
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という追い風</h3>
+              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という背景</h3>
               <p className="text-sm text-slate-600">
                 経済産業省「IT人材需給に関する調査」（2019年公表）では、2030年に最大約79万人のIT人材不足が試算されています（2019年公表の試算）。Web技術×業務知識のように専門性を掛け合わせられる人材は、こうした需給環境のなかで相対的に動きやすい立場にあります。
               </p>
@@ -347,7 +347,7 @@ export default function EcommercePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">30代：技術＋データ活用の二刀流を作る</h3>
+              <h3 className="font-bold text-blue-800 mb-2">30代：技術とデータ活用の両方を身につける</h3>
               <p className="text-sm text-petrol-deep">
                 Web開発に加えて、購買データを使った改善やパフォーマンスチューニングを身につけると、純粋な実装者に代えがたい価値になります。技術とデータ活用の両方に投資する価値が最も高い年代です。
               </p>
@@ -359,7 +359,7 @@ export default function EcommercePage() {
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
+              <h3 className="font-bold text-blue-800 mb-2">ミドル層は「希少性」で差別化する</h3>
               <p className="text-sm text-petrol-deep">
                 若手と同じ土俵で最新技術だけを競うのではなく、業務知識やマネジメント×Web技術という希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
@@ -377,9 +377,9 @@ export default function EcommercePage() {
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や管理職ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。大規模モールからD2C・スタートアップまで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあるため、ミドル層は経歴を丁寧に伝えることが大切です。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス向けのスカウト型サービスです。年収750万円以上の求人や管理職ポジションを狙う際の選択肢になります。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数を持つサービスです。大規模モールからD2C・スタートアップまで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -407,7 +407,7 @@ export default function EcommercePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">Web開発と業務知識をeコマースで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">Web開発と業務知識をeコマースで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>

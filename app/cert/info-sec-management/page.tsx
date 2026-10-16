@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "情報セキュリティマネジメント試験は転職に効くか｜利用者側の管理者向けに解説【2026年】";
 const PAGE_DESC =
-  "IPAの国家試験・情報セキュリティマネジメント試験（SG）を、利用部門のセキュリティ管理者という観点から30代・40代向けに解説します。受験料・合格率（IPA公表値）・通年CBTを整理し、専門エンジニアの加点との違いと効く場面を誠実にまとめます。";
+  "IPAの国家試験・情報セキュリティマネジメント試験（SG）を、利用部門のセキュリティ管理者という観点から30代・40代向けに解説します。受験料・合格率（IPA公表値）・通年CBTを整理し、専門エンジニアの加点との違いと評価される場面をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/info-sec-management/" },
@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：SGは誰に効く資格か" },
+  { id: "conclusion", label: "SGはどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・合格率）" },
   { id: "vs-specialist", label: "支援士（守る側）との性格の違い" },
-  { id: "scenes", label: "効く具体場面（利用部門の管理者）" },
+  { id: "scenes", label: "評価される具体場面（利用部門の管理者）" },
   { id: "limit", label: "専門エンジニア転職での加点は限定的" },
   { id: "next", label: "セキュリティ専門職を目指すなら次に狙う資格" },
-  { id: "middle", label: "30代・40代の価値＝現場の管理者として効く" },
+  { id: "middle", label: "30代・40代にとっての価値：利用部門の管理者としての基礎証明" },
   { id: "steps", label: "取得3ステップ／上位への道" },
   { id: "faq", label: "よくある質問" },
 ];
@@ -29,7 +29,7 @@ const toc = [
 const faqs = [
   {
     q: "情報セキュリティマネジメント試験は40代の転職で意味がありますか？",
-    a: "立場によります。SGはIPAの基礎レベル（スキルレベル2）の国家試験で、情報システムを『利用する側』の部門で情報セキュリティリーダーを務める人を対象にしています。部門のセキュリティ管理・社内ルールの運用・委託先管理などを担う管理職・非専門職には意味があります。一方、セキュリティの専門エンジニアとして守る側を志すなら、より上位の情報処理安全確保支援士などを狙うべきで、SG単体での加点は限定的です。",
+    a: "立場によります。SGはIPAの基礎レベル（スキルレベル2）の国家試験で、情報システムを『利用する側』の部門で情報セキュリティリーダーを務める人を対象にしています。部門のセキュリティ管理・社内ルールの運用・委託先管理などを担う管理職・非専門職には意味があります。一方、セキュリティの専門エンジニアとして守る側を志すなら、より上位の情報処理安全確保支援士などを目指すべきであり、SG単体での加点は限定的です。",
   },
   {
     q: "SGの合格率はどのくらいですか？",
@@ -45,11 +45,11 @@ const faqs = [
   },
   {
     q: "セキュリティエンジニアを目指すならSGで十分ですか？",
-    a: "十分とは言えません。SGはあくまで利用者側の管理者向けの基礎資格です。守る側の専門エンジニアを志すなら、応用情報技術者で土台を固めたうえで、情報処理安全確保支援士（登録セキスペ）など上位の資格・専門スキルへ進むのが本道です。SGはその前段の基礎固めや、非専門職がセキュリティ素養を示す用途で活きます。",
+    a: "十分とは言えません。SGはあくまで利用者側の管理者向けの基礎資格です。守る側の専門エンジニアを志すなら、応用情報技術者で土台を固めたうえで、情報処理安全確保支援士（登録セキスペ）など上位の資格・専門スキルへ進むのが一般的な進め方です。SGはその前段の基礎固めや、非専門職がセキュリティ素養を示す用途で活きます。",
   },
   {
     q: "SGに有効期限はありますか？",
-    a: "ありません。国家試験として合格は生涯有効で、更新や維持費は不要です（登録制度のある情報処理安全確保支援士とは異なります）。ただしセキュリティ分野は脅威も対策も変化が速いため、合格後も知識の更新は続けることが望ましいです。",
+    a: "ありません。国家試験として合格は生涯有効で、更新や維持費は不要です（登録制度のある情報処理安全確保支援士とは異なります）。ただしセキュリティ分野は脅威も対策も変化が速いため、合格後も知識の更新を続けることをおすすめします。",
   },
 ];
 
@@ -61,7 +61,7 @@ const overviewTable = [
   ["試験方式", "CBT方式・通年実施"],
   ["構成", "科目A＋科目B（多肢選択式）合計60問・120分"],
   ["合格率", "近年7割前後（令和5年度72.6%・令和6年度69.0% 等）"],
-  ["有効期限", "なし（国家資格・普遍的）"],
+  ["有効期限", "なし（生涯有効）"],
 ];
 
 export default function InfoSecManagementCertPage() {
@@ -99,7 +99,7 @@ export default function InfoSecManagementCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          情報セキュリティマネジメント試験（SG）は、IPAが主催する<strong>基礎レベル（スキルレベル2）の国家試験</strong>で、情報システムを「利用する側」の部門でセキュリティを管理・統制するリーダーを対象とした試験です。本記事は「SGを取れば転職で有利になるか」という疑問に誠実に答えます。結論を先に言うと、<strong>SGは『守る側の専門エンジニア』ではなく『利用部門のセキュリティ管理者』向けの資格</strong>であり、立場によって価値が大きく変わります。その性格を正確に整理します。
+          情報セキュリティマネジメント試験（SG）は、IPAが主催する<strong>基礎レベル（スキルレベル2）の国家試験</strong>で、情報システムを「利用する側」の部門でセキュリティを管理・統制するリーダーを対象とした試験です。本記事は「SGを取れば転職で有利になるか」という疑問にお答えします。<strong>SGは『守る側の専門エンジニア』ではなく『利用部門のセキュリティ管理者』向けの資格</strong>であり、立場によって価値が大きく変わります。その性格を正確に整理します。
         </p>
 
         <DataNote
@@ -127,15 +127,15 @@ export default function InfoSecManagementCertPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SGは誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">SGはどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              情報セキュリティマネジメント試験は<strong>「利用部門のセキュリティ管理者向けの基礎資格」</strong>です。セキュリティエンジニア（守る側）の技術証明ではなく、<strong>ITを使う側の部門でルールを運用し、リスクを管理する立場</strong>に効きます。誰に効くかをはっきり分けると次のとおりです。
+              情報セキュリティマネジメント試験は<strong>「利用部門のセキュリティ管理者向けの基礎資格」</strong>です。セキュリティエンジニア（守る側）の技術証明ではなく、<strong>ITを使う側の部門でルールを運用し、リスクを管理する立場</strong>に適した資格です。対象者別に整理すると次のとおりです。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>利用部門のセキュリティリーダー・管理職</strong>：社内ルール運用・委託先管理の基礎証明として効きます</li>
+              <li>① <strong>利用部門のセキュリティリーダー・管理職</strong>：社内ルール運用・委託先管理の基礎証明として役立ちます</li>
               <li>② <strong>非専門職でセキュリティ素養を示したい人</strong>：情報の安全な取扱いの理解を客観的に示せます</li>
-              <li>③ <strong>守る側の専門エンジニア志望</strong>：基礎の前段としては有効ですが、上位は支援士を狙うべきです</li>
+              <li>③ <strong>守る側の専門エンジニア志望</strong>：基礎の前段としては有効ですが、上位資格として支援士を目指すことをおすすめします</li>
             </ul>
           </div>
         </section>
@@ -156,7 +156,7 @@ export default function InfoSecManagementCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: IPA 公式（ipa.go.jp、調査時点2026年6月）。受験料は全試験区分共通で7,500円です（消費税込）。通年CBT方式で科目A・科目B合計60問・120分です。合格率はIPA統計で令和5年度72.6%・令和6年度69.0%、2025年4〜7月の月次も概ね70%台で推移しています（メディア集計含む参考値）。基礎レベルのため取りやすい入口資格です。有効期限はなく、合格すれば資格は生涯有効です。
+            出典: IPA 公式（ipa.go.jp、調査時点2026年6月）。受験料は全試験区分共通で7,500円（消費税込）、通年CBT方式で科目A・科目B合計60問・120分です。合格率はIPA統計で令和5年度72.6%・令和6年度69.0%、2025年4〜7月の月次も概ね70%台で推移しています（メディア集計含む参考値）。基礎レベルのため取りやすい入口資格です。有効期限はなく、合格すれば資格は生涯有効です。
           </p>
         </section>
 
@@ -192,13 +192,13 @@ export default function InfoSecManagementCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            つまりSGは、「自部門の情報を安全に扱い、ルールを守らせ、委託先を管理する」という<strong>マネジメント寄りの基礎資格</strong>です。守る側の技術者として転職市場で評価されたいなら、<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>を目指すのが本道になります。
+            つまりSGは、「自部門の情報を安全に扱い、ルールを守らせ、委託先を管理する」という<strong>マネジメント寄りの基礎資格</strong>です。守る側の技術者として転職市場で評価されたいなら、<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>を目指すのが適切です。
           </p>
         </section>
 
         {/* 効く場面 */}
         <section id="scenes" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">効く具体場面（利用部門の管理者）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">評価される具体場面（利用部門の管理者）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             SGが意味を持つのは、「セキュリティを技術で守る」場面ではなく「組織でセキュリティを管理・運用する」場面です。代表的なケースを挙げます。
           </p>
@@ -224,17 +224,17 @@ export default function InfoSecManagementCertPage() {
         <section id="limit" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">専門エンジニア転職での加点は限定的</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            誠実にお伝えすべき点です。セキュリティの専門エンジニア（守る側）として転職する場面では、SG単体での加点は限定的です。理由は、SGが<strong>利用者側の管理を扱う基礎レベルの資格</strong>であり、設計・対策・監査といった専門技術を証明するものではないからです。
+            あらかじめご留意いただきたい点です。セキュリティの専門エンジニア（守る側）として転職する場面では、SG単体での加点は限定的です。理由は、SGが<strong>利用者側の管理を扱う基礎レベルの資格</strong>であり、設計・対策・監査といった専門技術を証明するものではないからです。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・脆弱性診断・対策設計・監査などの専門スキルの証明にはなりません</li>
-              <li>・守る側の専門職採用で重視されるのは実務経験と高度資格です</li>
-              <li>・専門性を示すなら支援士など上位資格へ進むのが効率的です</li>
+              <li>・脆弱性診断・対策設計・監査などの専門スキルの証明にはならない</li>
+              <li>・守る側の専門職採用で重視されるのは実務経験と高度資格</li>
+              <li>・専門性を示すには支援士など上位資格へ進むのが効率的</li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            したがって、すでにセキュリティの専門性を強みにする30〜40代がSG取得だけを狙うのは費用対効果が高いとは言えません。専門職を目指すなら、<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>で土台を固め、<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>へ進むのが本道です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>でご確認ください。
+            したがって、すでにセキュリティの専門性を強みにする30〜40代がSG取得だけを狙うのは費用対効果が高いとは言えません。専門職を目指すなら、<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>で土台を固め、<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>へ進むのが一般的な進め方です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>でご確認ください。
           </p>
         </section>
 
@@ -275,13 +275,13 @@ export default function InfoSecManagementCertPage() {
 
         {/* 30-40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝現場の管理者として効く</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代にとっての価値：利用部門の管理者としての基礎証明</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
               SGの30〜40代における価値は、<strong>「守る側の専門資格」ではなく「使う側のセキュリティ管理者としての基礎証明」</strong>にあります。情シス・総務・利用部門でルールを運用し、委託先やクラウド利用のリスクを管理する立場であれば、SGは実務と結びつく意味のある資格です。
             </p>
             <p>
-              一方で、セキュリティの専門エンジニアとして守る側でキャリアを伸ばしたい30〜40代であれば、SGは<strong>前段の基礎固め</strong>と割り切るべきです。応用情報で土台を作り、情報処理安全確保支援士へ進むことで初めて、専門職として評価される「実務 × 高度資格」のストーリーが完成します。自分の立場が「管理する側」か「守る側」かを見極めて、進む方向を選ぶことが大切です。
+              一方で、セキュリティの専門エンジニアとして守る側でキャリアを伸ばしたい30〜40代であれば、SGは<strong>前段の基礎固め</strong>と位置づけるのが適切です。応用情報で土台を作り、情報処理安全確保支援士へ進むことで初めて、専門職として評価される実務と高度資格のそろった経歴になります。自分の立場が「管理する側」か「守る側」かを見極めて、進む方向を選ぶことが大切です。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -294,9 +294,9 @@ export default function InfoSecManagementCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／上位への道</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "科目A・科目Bを過去問で固めます", d: "情報資産管理・リスクアセスメント・委託先管理など管理系の頻出を繰り返し演習します。" },
-              { n: "STEP 2", t: "通年CBTで都合に合わせ受験", d: "随時実施のCBTで日時を選んで申し込みます。基礎レベルのため短期集中で合格を狙いやすいです。" },
-              { n: "STEP 3", t: "守る側へ進むなら上位資格へ", d: "専門職志望なら応用情報→情報処理安全確保支援士へ進む道があります。管理職志望ならそのまま実務で活かします。" },
+              { n: "STEP 1", t: "科目A・科目Bを過去問で固める", d: "情報資産管理・リスクアセスメント・委託先管理など管理系の頻出を繰り返し演習します。" },
+              { n: "STEP 2", t: "通年CBTで都合に合わせ受験", d: "随時実施のCBTで日時を選んで申し込みます。基礎レベルのため短期集中で合格を狙いやすくなります。" },
+              { n: "STEP 3", t: "守る側へ進むなら上位資格を目指す", d: "専門職志望なら応用情報から情報処理安全確保支援士へ進む道があります。管理職志望ならそのまま実務で活かします。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

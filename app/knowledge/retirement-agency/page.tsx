@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：運営主体で「できること」が決まる" },
+  { id: "conclusion", label: "運営主体で「できること」が決まる" },
   { id: "types", label: "退職代行の3類型と対応範囲" },
   { id: "hiben", label: "非弁行為のリスク（弁護士法72条）" },
   { id: "ses", label: "SES・客先常駐特有の注意点" },
@@ -93,8 +93,8 @@ export default function RetirementAgencyPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職代行サービスはどう選べばいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「会社に何を求めるか（意思を伝えるだけか、交渉が必要か）」で運営主体を選ぶのが基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・民間業者は退職の意思を「伝える」のみで、条件交渉はできないのが原則</li><li>・有給・退職日などの交渉が必要なら労働組合、損害賠償・未払い賃金などの法的対応まで必要なら弁護士</li><li>・SES・客先常駐で契約や損害賠償が絡みそうなら弁護士運営が安全</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>「会社に何を求めるか（意思を伝えるだけか、交渉が必要か）」で運営主体を選ぶのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・民間業者は退職の意思を「伝える」のみで、条件交渉はできないのが原則です</li><li>・有給・退職日などの交渉が必要なら労働組合、損害賠償・未払い賃金などの法的対応まで必要なら弁護士が適しています</li><li>・SES・客先常駐で契約や損害賠償が絡みそうなら弁護士運営が安全です</li></ul>
           </div>
         </section>
 
@@ -124,7 +124,7 @@ export default function RetirementAgencyPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：運営主体で「できること」が決まる</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">運営主体で「できること」が決まる</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・<strong>民間業者</strong>＝退職の意思を「伝える」のみです。条件交渉はできないのが原則です。</li>
               <li>・<strong>労働組合</strong>＝団体交渉として、有給や退職日などの「交渉」が可能です。</li>
@@ -152,13 +152,13 @@ export default function RetirementAgencyPage() {
               <tbody>
                 <tr className="align-top">
                   <td className="px-4 py-3 border-b border-slate-100 font-medium text-slate-800">① 民間業者</td>
-                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">退職の意思を会社へ伝達する</td>
+                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">退職の意思の会社への伝達</td>
                   <td className="px-4 py-3 border-b border-slate-100 text-slate-600">有給・退職日・賃金などの条件交渉（行うと非弁行為のおそれ）</td>
                   <td className="px-4 py-3 border-b border-slate-100 text-slate-600">争点がなく、退職の意思を伝えるだけでよいケース</td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 border-b border-slate-100 font-medium text-slate-800">② 労働組合</td>
-                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">団体交渉として有給・退職日などを交渉する</td>
+                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">団体交渉による有給・退職日などの交渉</td>
                   <td className="px-4 py-3 border-b border-slate-100 text-slate-600">訴訟など弁護士に限られる法的対応</td>
                   <td className="px-4 py-3 border-b border-slate-100 text-slate-600">有給消化や退職日などの交渉が必要なケース</td>
                 </tr>
@@ -242,15 +242,15 @@ export default function RetirementAgencyPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
               <h3 className="font-bold text-slate-800 mb-2">まず自力を検討したいケース</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>切り出すのが気まずい・緊張する、という心理的ハードルだけが理由</span></li>
-                <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>争点がなく、退職の意思を伝えれば手続きが進みそいます</span></li>
-                <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>前職の人脈・評判を今後のキャリアで活かしたい</span></li>
-                <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>引き継ぎを丁寧に残して円満に去りたい</span></li>
+                <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>切り出すのが気まずい・緊張する、という心理的ハードルだけが理由です</span></li>
+                <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>争点がなく、退職の意思を伝えれば手続きが進みそうです</span></li>
+                <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>前職の人脈・評判を今後のキャリアで活かしたいと考えています</span></li>
+                <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>引き継ぎを丁寧に残して円満に退職したいと考えています</span></li>
               </ul>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            切り出しや引き止めへの不安が中心なら、第一声の例文や引き止めの返し方を押さえるだけで自力で乗り越えられることも多いです。具体的な進め方は<Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>を参照してください。それでも難しいと判断したら、運営主体を見極めたうえで代行を使い分けるのが現実的です。
+            切り出しや引き止めへの不安が中心なら、第一声の例文や引き止めの返し方を押さえるだけで自力で乗り越えられることも少なくありません。具体的な進め方は<Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>を参照してください。それでも難しいと判断したら、運営主体を見極めたうえで代行を使い分けるのが現実的です。
           </p>
         </section>
 
@@ -270,7 +270,7 @@ export default function RetirementAgencyPage() {
               ))}
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 有給や退職後の手続きは<Link href="/knowledge/paid-leave/" className="text-petrol hover:underline">有給消化の法律論</Link>・<Link href="/knowledge/after-resignation-procedures/" className="text-petrol hover:underline">退職後の手続き</Link>も参照。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 有給や退職後の手続きは<Link href="/knowledge/paid-leave/" className="text-petrol hover:underline">有給消化の法律論</Link>・<Link href="/knowledge/after-resignation-procedures/" className="text-petrol hover:underline">退職後の手続き</Link>も参照してください。</p>
         </section>
 
         <section id="middle" className="mb-10 scroll-mt-20">

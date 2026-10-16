@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/employment/seishain/" },
   title: "正社員エンジニアの実態｜年収傾向・社会保険・メリットデメリット",
   description:
-    "正社員エンジニアの定義、年収傾向、社会保険・税の仕組み、エンジニア側・企業側の二軸メリットデメリットを解説します。業務委託・派遣・契約社員との違いと、30代・40代が正社員を選ぶ視点を出典付きで整理します。",
+    "正社員エンジニアの定義、年収傾向、社会保険・税の仕組み、エンジニア側・企業側の二軸メリットデメリットを解説します。業務委託・派遣・契約社員との違いと、30代・40代が正社員を選ぶ視点を出典を明記して整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：安定と保障の基盤です。額面以上の『見えない給与』がある" },
+  { id: "conclusion", label: "安定と保障の基盤。額面以上の『見えない給与』がある" },
   { id: "what", label: "正社員とは（無期雇用・期間の定めなし）" },
   { id: "salary", label: "年収傾向（公的データ・職種別）" },
   { id: "insurance", label: "社会保険・税の仕組み（会社が半分負担）" },
@@ -40,29 +40,29 @@ const fitNo = [
 ];
 
 const meritEngineer = [
-  "毎月安定した固定給があり、収入が読みやすいです",
-  "社会保険（健保・厚生年金）の保険料を会社が半分負担してくれます",
+  "毎月安定した固定給があり、収入の見通しを立てやすくなります",
+  "社会保険（健保・厚生年金）の保険料を会社が半分負担します",
   "雇用保険・有給・賞与・退職金など保障や福利厚生があります",
-  "住宅ローン・賃貸審査など社会的信用を得やすいです",
-  "研修・OJTなど会社の育成環境でスキルを伸ばしやすいです",
+  "住宅ローン・賃貸審査など社会的信用を得やすい傾向があります",
+  "研修・OJTなど会社の育成環境でスキルを伸ばしやすくなります",
 ];
 
 const demeritEngineer = [
-  "案件や単価に直接連動しないため、報酬の上限が緩やかになりやすいです",
+  "案件や単価に直接連動しないため、報酬の伸びが緩やかになる傾向があります",
   "勤務時間・勤務地・異動・評価など組織の制約を受けます",
-  "働き方（稼働時間・場所）の自由度が業務委託より低いです",
-  "経費計上などの税務上の工夫の余地が小さい",
+  "働き方（稼働時間・場所）の自由度は業務委託より低くなります",
+  "経費計上などの税務上の工夫の余地は小さくなります",
 ];
 
 const meritCompany = [
   "ノウハウや育成成果を社内に長期で蓄積できます",
   "指揮命令ができ、業務分担や異動を柔軟に行えます",
-  "チームの一体感・継続性を保ちやすいです",
+  "チームの一体感・継続性を保ちやすくなります",
 ];
 
 const demeritCompany = [
   "社会保険の会社負担（労使折半）など固定的な人件費が発生します",
-  "繁閑に応じた即時の体制調整がしにくいです",
+  "繁閑に応じた即時の体制調整が難しくなります",
   "採用・育成・退職に時間とコストがかかります",
 ];
 
@@ -81,11 +81,11 @@ const faqs = [
   },
   {
     q: "正社員と業務委託・フリーランス、どちらが有利ですか？",
-    a: "一概には言えません。業務委託・フリーランスは単価・自由度で勝り、正社員は社会保険の会社負担・雇用安定・福利厚生・厚生年金で勝ります。ライフイベント（住宅ローン・教育費）、将来の年金、リスク許容度で最適解は変わります。詳しい損得比較はフリーランスvs正社員の記事で解説しています。",
+    a: "一概には言えません。業務委託・フリーランスは単価・自由度の面で、正社員は社会保険の会社負担・雇用安定・福利厚生・厚生年金の面で優位です。ライフイベント（住宅ローン・教育費）、将来の年金、リスク許容度で最適解は変わります。詳しい損得比較はフリーランスvs正社員の記事で解説しています。",
   },
   {
     q: "30代・40代から正社員に転職するのは不利ですか？",
-    a: "実務経験のある30代・40代エンジニアは、即戦力やマネジメント候補として正社員の需要があります。年齢だけで不利になるわけではなく、経験・スキルの言語化と相場感の把握が鍵です。年代別の相場や狙い方は年収相場の記事を参照してください。",
+    a: "実務経験のある30代・40代エンジニアは、即戦力やマネジメント候補として正社員の需要があります。年齢だけで不利になるわけではなく、経験・スキルの言語化と相場感の把握が重要です。年代別の相場や狙い方は年収相場の記事を参照してください。",
   },
   {
     q: "正社員でも副業はできますか？",
@@ -128,11 +128,11 @@ export default function SeishainPage() {
           正社員エンジニアの実態｜年収傾向・社会保険・メリットデメリット
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 | 安定・保障・年収を二軸メリデメで整理
+          最終更新: 2026年6月 | 安定・保障・年収をエンジニア側と企業側のメリット・デメリットで整理
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          正社員は、エンジニアの雇用形態の中で最も安定と保障に厚い働き方です。期間の定めのない無期雇用で、社会保険の会社負担・雇用保険・賞与・退職金・福利厚生といった「見えない給与」が額面に上乗せされています。本記事では、正社員の正確な定義、職種別の年収傾向、社会保険・税の仕組み、エンジニア側・企業側それぞれのメリットデメリット、業務委託・派遣・契約社員との違いまでを、出典付きで整理します。
+          正社員は、エンジニアの雇用形態の中で最も安定と保障に厚い働き方です。期間の定めのない無期雇用で、社会保険の会社負担・雇用保険・賞与・退職金・福利厚生といった「見えない給与」が額面に上乗せされています。本記事では、正社員の正確な定義、職種別の年収傾向、社会保険・税の仕組み、エンジニア側・企業側それぞれのメリットデメリット、業務委託・派遣・契約社員との違いまでを、出典を明記して整理します。
         </p>
 
         <DataNote
@@ -144,17 +144,17 @@ export default function SeishainPage() {
           ]}
         />
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：安定と保障の基盤です。額面以上の「見えない給与」がある</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">安定と保障の基盤。額面以上の「見えない給与」がある</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               正社員は、単価では業務委託に劣ることがあっても、社会保険の会社負担・雇用安定・賞与・退職金・福利厚生という「見えない給与」を含めると、総合的な手取りと安心感で強みがあります。額面だけで他の雇用形態と比べるのではなく、会社負担分と保障を含めて比較するのが正しい見方です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>無期雇用（期間の定めなし）で、収入と立場が安定しやすいです。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>無期雇用（期間の定めなし）で、収入と立場が安定しやすい働き方です。</li>
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>健康保険・厚生年金を会社が約半分を負担します（労使折半）。雇用保険・労災もあります。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>住宅ローン等の社会的信用を得やすく、ライフイベントに強いです。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>住宅ローン等の社会的信用を得やすく、ライフイベントに対応しやすい点も特徴です。</li>
             </ul>
           </div>
         </section>
@@ -220,8 +220,8 @@ export default function SeishainPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-5">
             <p className="text-sm font-bold text-slate-700 mb-3">正社員の保険・税のポイント</p>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険・厚生年金の保険料は会社と本人で<strong>折半です（労使折半）</strong>。実質的に会社が約半分を負担しています</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>厚生年金は国民年金に上乗せされるため、将来の年金額が手厚くなりやすいです</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険・厚生年金の保険料は会社と本人で<strong>折半（労使折半）</strong>となり、実質的に会社が約半分を負担しています</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>厚生年金は国民年金に上乗せされるため、将来の年金額が手厚くなる傾向があります</li>
               <li className="flex gap-2"><span className="text-slate-400">▸</span>雇用保険に加入し、失業時の基本手当（失業給付）の対象になります</li>
               <li className="flex gap-2"><span className="text-slate-400">▸</span>所得税・住民税は会社が源泉徴収・年末調整するため、確定申告の手間が原則不要です</li>
             </ul>
@@ -294,22 +294,22 @@ export default function SeishainPage() {
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">正社員</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">無期・直接雇用の労働者</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">社会保険を会社が折半します。安定・保障に厚い</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">社会保険は労使折半／安定と保障が充実</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">契約社員</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">有期・直接雇用の労働者</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">社会保険があります。5年で無期転換ルールの対象</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">社会保険あり／5年で無期転換ルールの対象</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">派遣</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">派遣会社の労働者（指揮命令は派遣先）</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">派遣会社の社会保険です。同一派遣先は原則3年</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">派遣会社の社会保険／同一派遣先は原則3年</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">業務委託</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">事業主（労働者ではない）</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">国保・国民年金が基本です。単価・自由度が高い</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">国保・国民年金が基本／高い単価と自由度</td>
                 </tr>
               </tbody>
             </table>
@@ -351,11 +351,11 @@ export default function SeishainPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：信用と保障を土台にキャリアを積み上げる</h3>
-              <p className="text-sm text-petrol-deep">住宅ローンや家族の保障が現実になる30代は、社会的信用と社会保険の手厚さが効いてくる時期です。正社員の安定を土台に、上流・マネジメントなど次のキャリアの選択肢を広げる戦略が有効です。市場価値の把握から始めましょう。</p>
+              <p className="text-sm text-petrol-deep">住宅ローンや家族の保障が現実になる30代は、社会的信用と社会保険の手厚さが重要になる時期です。正社員の安定を土台に、上流・マネジメントなど次のキャリアの選択肢を広げる戦略が有効です。市場価値の把握から始めましょう。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験を活かした即戦力・マネジメント採用</h3>
-              <p className="text-sm text-petrol-deep">40代の正社員転職は、即戦力やマネジメント候補としての需要があります。年齢で一律に不利になるわけではなく、経験の言語化と相場感が鍵です。フリーランス経験者が正社員に戻る場合の考え方は<Link href="/career/freelance-to-permanent/" className="text-petrol hover:underline">フリーランスから正社員へ</Link>を参照してください。</p>
+              <p className="text-sm text-petrol-deep">40代の正社員転職は、即戦力やマネジメント候補としての需要があります。年齢で一律に不利になるわけではなく、経験の言語化と相場感の把握が重要です。フリーランス経験者が正社員に戻る場合の考え方は<Link href="/career/freelance-to-permanent/" className="text-petrol hover:underline">フリーランスから正社員へ</Link>を参照してください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">将来の年金・保障で他形態と比較する</h3>

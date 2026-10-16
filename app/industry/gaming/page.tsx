@@ -9,7 +9,7 @@ const DESCRIPTION =
   "ゲーム業界エンジニアの転職を解説します。Unity/Unreal Engine、サーバーサイド、XRなどの職種、求められるスキル、年収の考え方、ゲームに強いエージェントの選び方、30代・40代の戦略までガイドします。";
 
 const toc = [
-  { id: "conclusion", label: "結論：ゲーム業界転職はポートフォリオと専門性が鍵" },
+  { id: "conclusion", label: "ゲーム業界転職はポートフォリオと専門性が鍵" },
   { id: "trend", label: "ゲーム業界の採用動向" },
   { id: "positions", label: "主要なエンジニアポジション" },
   { id: "skills", label: "活かせるスキル / 埋めるべきギャップ" },
@@ -23,15 +23,15 @@ const toc = [
 ];
 
 const activeRows: [string, string][] = [
-  ["C#/C++の実装力", "Unity（C#）・Unreal Engine（C++）の中核スキル。Web系のバックエンドにも転用しやすい"],
-  ["リアルタイム・低遅延処理", "通信同期・パフォーマンスチューニングの経験は、ゲーム外でも希少価値が高いです"],
+  ["C#/C++の実装力", "Unity（C#）・Unreal Engine（C++）の中核となるスキルで、Web系のバックエンドにも転用しやすい傾向があります"],
+  ["リアルタイム・低遅延処理", "通信同期・パフォーマンスチューニングの経験は、ゲーム外でも希少価値が高いといえます"],
   ["大規模トラフィック・インフラ", "ソーシャルゲームのサーバー運用経験は、Web系の高負荷システムでも評価されます"],
   ["3D・グラフィックス・数学的素養", "シェーダーや描画最適化、XRなど専門領域で差別化できます"],
   ["プロダクト完成の経験", "リリースまでやり切った経験は、どの企業でも信頼につながります"],
 ];
 
 const fillRows: [string, string][] = [
-  ["プレイ可能なポートフォリオ", "Unity/UEで完成させた作品。コード品質・最適化・公開（itch.io等）まで示せると強い"],
+  ["プレイ可能なポートフォリオ", "Unity/UEで完成させた作品を用意します。コード品質・最適化・公開（itch.io等）まで示せると評価されやすくなります"],
   ["得意領域の明確化", "クライアント/サーバー/TA/XRのどこを強みにするかを定めます"],
   ["最新トレンドの把握", "GDC・CEDEC等の情報から、技術的な議論ができる状態にします"],
   ["Web系へ広げる場合の基礎", "Go/Node.js・クラウド・CI/CDなど、サーバーサイドの一般技術を補強します"],
@@ -40,8 +40,8 @@ const fillRows: [string, string][] = [
 const positions: [string, string][] = [
   ["クライアントエンジニア", "Unity/Unreal Engineでのゲームクライアント開発（描画・UI・物理など）"],
   ["サーバーエンジニア", "Go/Node.js/Python等でのゲームサーバー・API・大規模インフラ開発"],
-  ["テクニカルアーティスト（TA）", "シェーダー・エフェクト・制作パイプラインの開発で表現と効率を両立"],
-  ["XRエンジニア", "VR/AR/MR向けのゲーム・コンテンツ開発。専門人材が不足しがち"],
+  ["テクニカルアーティスト（TA）", "シェーダー・エフェクト・制作パイプラインの開発による表現と効率の両立"],
+  ["XRエンジニア", "VR/AR/MR向けのゲーム・コンテンツ開発。専門人材が不足しがちな領域"],
 ];
 
 const companyTypes: { title: string; desc: string; links: { name: string; href: string }[] }[] = [
@@ -56,7 +56,7 @@ const companyTypes: { title: string; desc: string; links: { name: string; href: 
   },
   {
     title: "モバイル／ソーシャルゲーム",
-    desc: "大規模トラフィックの運用やライブ運営が中心です。サーバーサイドやインフラの経験が活きやすく、改善サイクルが速いです。",
+    desc: "大規模トラフィックの運用やライブ運営が中心です。サーバーサイドやインフラの経験が活きやすく、改善サイクルが速い点が特徴です。",
     links: [
       { name: "サイバーエージェント", href: "/company/cyberagent/" },
       { name: "DeNA", href: "/company/dena/" },
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     q: "ゲーム業界からWeb系に転職できますか？",
-    a: "可能です。C#/C++の実装力、サーバーサイド（Go/Python）、大規模トラフィック処理やリアルタイム通信、パフォーマンスチューニングの経験はWeb系でも高く評価されます。これらは希少なスキルセットで、転職市場での選択肢は広いです。",
+    a: "可能です。C#/C++の実装力、サーバーサイド（Go/Python）、大規模トラフィック処理やリアルタイム通信、パフォーマンスチューニングの経験はWeb系でも高く評価されます。これらは希少なスキルセットであり、転職市場での選択肢は広いといえます。",
   },
   {
     q: "ゲーム業界の働き方は改善されていますか？",
@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: "ゲーム業界未経験でも転職できますか？",
-    a: "可能性はありますが、Unity/Unreal Engineで完成させた個人開発作品（ポートフォリオ）がほぼ必須です。itch.ioやストアに公開しておくと説得力が増します。Web系バックエンド経験者は、ゲームサーバー開発への転職が比較的しやすい傾向です。",
+    a: "可能性はありますが、Unity/Unreal Engineで完成させた個人開発作品（ポートフォリオ）がほぼ必須です。itch.ioやストアに公開しておくと説得力が増します。Web系バックエンド経験者は、ゲームサーバー開発への転職が比較的しやすい傾向があります。",
   },
   {
     q: "ゲーム業界で需要が高いスキルは何ですか？",
@@ -95,7 +95,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもゲーム業界に転職できますか？",
-    a: "可能です。若手と同じポテンシャル枠ではなく、リードエンジニア・専門領域（サーバー/インフラ/TA/XR）・マネジメントなど、経験が活きるポジションを狙うのが現実的です。求人が絞られる年代ほど、非公開求人を持つエージェントの活用が効きます。",
+    a: "可能です。若手と同じポテンシャル枠ではなく、リードエンジニア・専門領域（サーバー/インフラ/TA/XR）・マネジメントなど、経験が活きるポジションを狙うのが現実的です。求人が絞られる年代ほど、非公開求人を持つエージェントの活用が有効です。",
   },
 ];
 
@@ -132,10 +132,10 @@ export default function GamingPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           ゲーム業界エンジニア転職ガイド｜職種・年収・進め方
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | ゲーム業界のエンジニア転職市場を徹底分析</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | ゲーム業界のエンジニア転職市場を分析</p>
 
         <p className="text-slate-600 leading-relaxed mb-2">
-          ゲーム業界はコンシューマー、モバイル、XR/メタバースと多様な領域で開発が続いています。リアルタイム処理、3Dグラフィックス、大規模インフラなど技術要求が高く、専門性とポートフォリオがものを言う世界です。
+          ゲーム業界はコンシューマー、モバイル、XR/メタバースと多様な領域で開発が続いています。リアルタイム処理、3Dグラフィックス、大規模インフラなど技術要求が高く、専門性とポートフォリオが重視される分野です。
         </p>
         <p className="text-slate-600 leading-relaxed mb-6">
           本記事では、ゲーム業界エンジニアの職種・採用動向、活かせるスキルと埋めるべきギャップ、年収の考え方、そしてゲームに強いエージェントの選び方までを解説します。
@@ -166,14 +166,14 @@ export default function GamingPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ゲーム業界転職はポートフォリオと専門性が鍵</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ゲーム業界転職はポートフォリオと専門性が鍵</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               ゲーム業界への転職は、技術力を「見える形」で示せるかで決まります。未経験ならポートフォリオ、経験者なら専門領域での実績が強みになります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① 職種はクライアント／サーバー／TA／XRに大別されます。どこを強みにするかを定めます。</li>
-              <li>② 未経験はUnity/UEの完成作品が事実上必須です。Web系サーバー経験者は移行しやすいです。</li>
+              <li>② 未経験はUnity/UEの完成作品が事実上必須です。Web系サーバー経験者は移行しやすくなります。</li>
               <li>③ ゲーム・エンタメに強いGeeklyなど専門エージェントの活用が効率的です。</li>
             </ul>
           </div>
@@ -399,7 +399,7 @@ export default function GamingPage() {
               { step: "1", title: "ポートフォリオ作品を完成させる", desc: "Unity/Unreal Engineで実際にプレイできるゲームを開発します。完成度・コード品質・パフォーマンス最適化が見られます。" },
               { step: "2", title: "得意分野を明確にする", desc: "クライアント（描画・UI・物理）、サーバー（インフラ・API）、TA（シェーダー・エフェクト）、XRのいずれかに特化します。" },
               { step: "3", title: "業界トレンドを把握する", desc: "GDC講演やCEDEC資料、技術ブログで最新動向を学び、面接で技術的な議論ができる状態にします。" },
-              { step: "4", title: "ゲームに強いエージェントに登録", desc: "Geekly（IT/Web/ゲーム特化）を軸に、IT全般のレバテックキャリアを併用します。ポートフォリオの見せ方も相談します。" },
+              { step: "4", title: "ゲームに強いエージェントに登録する", desc: "Geekly（IT/Web/ゲーム特化）を軸に、IT全般のレバテックキャリアを併用します。ポートフォリオの見せ方も相談します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -421,10 +421,10 @@ export default function GamingPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：専門領域で市場価値を高める</h3>
-              <p className="text-sm text-petrol-deep">サーバー/インフラ、TA、XRなど一つの専門を深めると差別化しやすいです。Web系への転身も視野に入れやすく、選択肢が広い時期です。</p>
+              <p className="text-sm text-petrol-deep">サーバー/インフラ、TA、XRなど一つの専門を深めると差別化しやすくなります。Web系への転身も視野に入れやすく、選択肢が広い時期です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">40代：リード・マネジメントで勝負</h3>
+              <h3 className="font-bold text-blue-800 mb-2">40代：リード・マネジメント経験を軸にする</h3>
               <p className="text-sm text-petrol-deep">リードエンジニア、テクニカルディレクター、開発マネジメントなど、チームを率いる経験が活きます。求人は絞られるため、非公開求人を持つエージェントの活用が鍵になります。</p>
             </div>
           </div>
@@ -455,7 +455,7 @@ export default function GamingPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">ゲーム業界でキャリアアップを目指そう</h2>
+          <h2 className="text-xl font-bold mb-3">ゲーム業界でのキャリアアップに向けて</h2>
           <p className="text-blue-100 text-sm mb-4">ゲーム・エンタメに強いエージェントに相談して、年収アップと希望のポジションの可能性を探りましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

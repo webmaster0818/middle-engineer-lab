@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：MySQLスキルの転職での活かし方" },
+  { id: "conclusion", label: "1. MySQLスキルの転職での活かし方" },
   { id: "market", label: "2. 関連職種の市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. MySQLスキルが効くキャリアパス" },
-  { id: "find", label: "5. 求人の探し方・強いエージェント" },
+  { id: "find", label: "5. 求人の探し方と主なエージェント" },
   { id: "entry", label: "6. 経験浅めからDB実務に入るルート" },
   { id: "age", label: "7. 30代・40代エンジニアの視点" },
   { id: "learn", label: "8. スキルアップ・学習戦略" },
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: "MySQLスキルを証明する資格はありますか？",
-    a: "ベンダー資格としてMySQL関連の認定が存在します。また情報処理技術者試験のデータベーススペシャリストは、特定製品に依存しないRDBの設計・運用知識を証明でき、転職市場でも評価されます。資格は学習内容を実務に紐づけて語れることが重要で、資格単体より実務経験との組み合わせで効きます。",
+    a: "ベンダー資格としてMySQL関連の認定が存在します。また情報処理技術者試験のデータベーススペシャリストは、特定製品に依存しないRDBの設計・運用知識を証明でき、転職市場でも評価されます。資格は学習内容を実務に紐づけて語れることが重要で、資格単体よりも実務経験と組み合わせることで評価につながります。",
   },
   {
     q: "MySQLとバックエンド開発、どちらを軸にすべきですか？",
@@ -135,9 +135,9 @@ export default function MysqlSkillPage() {
           </ul>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：MySQLスキルの転職での活かし方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">MySQLスキルの転職での活かし方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>MySQLは「これ単体で転職する」スキルではなく、DB設計・運用やバックエンド職の市場価値を底上げする実務基盤です。</strong>求人母数が大きい分、RDBの設計・チューニングを掛け合わせることで応募の幅が広がります。
@@ -208,8 +208,8 @@ export default function MysqlSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "バックエンドエンジニア（DB設計込み）", note: "Webアプリ開発＋テーブル・SQL設計を一気通貫で担当" },
-              { role: "データベースエンジニア／DBA", note: "RDBの設計・運用・チューニング・可用性設計が中心" },
+              { role: "バックエンドエンジニア（DB設計込み）", note: "Webアプリ開発に加え、テーブル・SQL設計まで一貫して担当します" },
+              { role: "データベースエンジニア／DBA", note: "RDBの設計・運用・チューニング・可用性設計が中心です" },
               { role: "データ基盤エンジニア", note: "MySQLを起点にデータ分析基盤・ETLへ広げます" },
               { role: "SRE（DB信頼性）", note: "大規模DBのパフォーマンス・可用性をソフトウェア工学で支えます" },
             ].map((item, i) => (
@@ -226,7 +226,7 @@ export default function MysqlSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方と主なエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             MySQLは求人母数が大きいので、希望（DB設計・DBA・バックエンド）を明確にして絞り込むのが効率的です。タイプ別に向くサービスを整理します。
           </p>
@@ -246,7 +246,7 @@ export default function MysqlSkillPage() {
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
+              <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強み）</h3>
               <p className="text-sm text-slate-600 mb-2">
                 IT・Web・ゲーム業界専門で、提案スピードが強みです。MySQLを採用するWeb系・ゲーム企業の求人を探したい場合の選択肢です。
               </p>
@@ -285,13 +285,13 @@ export default function MysqlSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>DB設計は経験がものを言う領域です。</strong>テーブル設計やパフォーマンス改善は、実プロジェクトでの試行錯誤の蓄積が効きます。30代・40代でMySQLの実務を積んでいるなら、その設計判断の引き出しの多さが、若手にはない強みになります。
+              <strong>DB設計は経験が成果を左右する領域です。</strong>テーブル設計やパフォーマンス改善は、実プロジェクトでの試行錯誤の蓄積が効きます。30代・40代でMySQLの実務を積んでいるなら、その設計判断の引き出しの多さが、若手にはない強みになります。
             </p>
             <p>
-              <strong>大規模運用の経験は希少です。</strong>レプリケーション、スロークエリ対応、データ移行、無停止メンテナンスといった大規模サービスの運用経験は、求人市場で高く評価されます。修羅場をくぐった具体的なエピソードを用意しておきましょう。
+              <strong>大規模運用の経験は希少です。</strong>レプリケーション、スロークエリ対応、データ移行、無停止メンテナンスといった大規模サービスの運用経験は、求人市場で高く評価されます。障害対応や移行作業など、困難な局面に対応した具体的なエピソードを用意しておきましょう。
             </p>
             <p>
-              <strong>掛け算で差別化します。</strong>MySQL単体より「MySQL＋アプリ開発」「MySQL＋ドメイン知識」の掛け合わせが強みです。40代でリード経験があれば、それを技術力とセットで提示しましょう。
+              <strong>掛け算で差別化します。</strong>MySQL単体より「MySQL＋アプリ開発」「MySQL＋ドメイン知識」の掛け合わせのほうが強みになります。40代でリード経験があれば、それを技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -310,7 +310,7 @@ export default function MysqlSkillPage() {
               <strong>② 実行計画とインデックスを掘り下げます。</strong>EXPLAINでスロークエリの原因を特定し、インデックス設計やクエリ書き換えで改善する経験を積みます。N+1問題やロック競合の解消は、面接で語りやすい実務スキルです。
             </p>
             <p>
-              <strong>③ 周辺領域へ広げます。</strong>コンテナでのDB運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドDB（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link> RDS/Aurora等）まで広げると、運用・基盤側の求人にも手が届きます。資格では<Link href="/cert/database-specialist/" className="text-petrol hover:underline">データベーススペシャリスト</Link>が指針になります。
+              <strong>③ 周辺領域へ広げます。</strong>コンテナでのDB運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドDB（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link> RDS/Aurora等）まで広げると、運用・基盤側の求人にも応募しやすくなります。資格では<Link href="/cert/database-specialist/" className="text-petrol hover:underline">データベーススペシャリスト</Link>が指針になります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。

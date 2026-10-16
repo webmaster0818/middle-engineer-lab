@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：ミドルのGitHubは『現役性と再現性』を示す場" },
+  { id: "conclusion", label: "1. ミドルのGitHubは『現役性と再現性』を示す場" },
   { id: "seven", label: "2. 採用担当が見る7つのポイント" },
   { id: "readme", label: "3. リポジトリREADMEチェックリスト" },
   { id: "pinned", label: "4. ピン留め・草・プロフィールの運用テク" },
@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "ピン留めリポジトリには何を選べばいいですか？",
-    a: "最大6枠には『最も見てほしいもの』を厳選します。READMEが整っていて技術判断が伝わるリポジトリ、設計の工夫が見えるもの、OSS貢献のフォーク先などが候補です。チュートリアルそのままの学習用リポジトリや、READMEのない未完成リポジトリは外し、質で勝負しましょう。",
+    a: "最大6枠には『最も見てほしいもの』を厳選します。READMEが整っていて技術判断が伝わるリポジトリ、設計の工夫が見えるもの、OSS貢献のフォーク先などが候補です。チュートリアルそのままの学習用リポジトリや、READMEのない未完成リポジトリは外し、質を重視しましょう。",
   },
   {
     q: "古いリポジトリが残っていると印象が悪いですか？",
@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "GitHub以外で技術力を示す方法はありますか？",
-    a: "あります。技術ブログ（Zenn・Qiita）、OSS貢献、登壇資料、個人開発のデモサイトなどが代表例です。GitHubはあくまで成果物の置き場の一つため、横断的な見せ方は",
+    a: "あります。技術ブログ（Zenn・Qiita）、OSS貢献、登壇資料、個人開発のデモサイトなどが代表例です。GitHubはあくまで成果物の置き場の一つであるため、横断的な見せ方は",
     aLink: { text: "ポートフォリオの見せ方", href: "/knowledge/portfolio/" },
     aAfter: "を、ブログ単体の運用は技術ブログの記事を参照してください。",
   },
@@ -96,14 +96,14 @@ export default function GithubShowcasePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職でGitHubは採用担当にどう見られ、何を見せればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 採用担当はコードを隅々まで読まず、プロフィール・ピン留め・READMEをざっと眺めて「今も手を動かしているか（現役性）」「設計判断ができるか（再現性）」を推し量ります。数より1〜2個の完成度で示すのが効果的です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・見られるのは主にプロフィール・ピン留め・READMEです。限られた時間でざっと判断されます</li><li>・ミドルが示すべきは現役性（直近のコミット・モダンな構成）と再現性です（なぜその設計かをREADMEで語ること）</li><li>・業務コードは公開せず、固有情報を除いた汎用版・OSS貢献・技術記事で代替できます</li><li>・即席アプリの量産より、整ったプロフィール＋設計判断が伝わるリポジトリ1〜2個＋継続の痕跡に投資します</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>採用担当はコードを隅々まで読まず、プロフィール・ピン留め・READMEを短時間で確認し、「今も手を動かしているか（現役性）」「設計判断ができるか（再現性）」を推し量ります。数より1〜2個の完成度で示すのが効果的です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・見られるのは主にプロフィール・ピン留め・READMEです。限られた時間で判断されます</li><li>・ミドルが示すべきは現役性（直近のコミット・モダンな構成）と再現性（なぜその設計かをREADMEで説明できること）です</li><li>・業務コードは公開せず、固有情報を除いた汎用版・OSS貢献・技術記事で代替できます</li><li>・即席アプリの量産より、整ったプロフィール＋設計判断が伝わるリポジトリ1〜2個＋継続の痕跡に投資します</li></ul>
           </div>
         </section>
 
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
-            転職活動でGitHubのURLを添えるとき、採用担当はコードを隅々まで読むわけではありません。限られた時間で<strong>プロフィール・ピン留め・READMEをざっと眺め、「この人は今も手を動かしているか」「設計判断ができるか」を推し量ります</strong>。だからこそ、同じ成果物でも整え方ひとつで印象は大きく変わります。
+            転職活動でGitHubのURLを添えるとき、採用担当はコードを隅々まで読むわけではありません。限られた時間で<strong>プロフィール・ピン留め・READMEを短時間で確認し、「この人は今も手を動かしているか」「設計判断ができるか」を推し量ります</strong>。だからこそ、同じ成果物でも整え方ひとつで印象は大きく変わります。
           </p>
           <p className="text-slate-600 leading-relaxed">
             本記事はGitHub<strong>単体</strong>の運用・整備テクニックに絞って深掘りします。GitHub・ブログ・登壇・OSSを横断してどう組み合わせるかの全体像は<Link href="/knowledge/portfolio/" className="text-petrol underline">ポートフォリオの見せ方</Link>を、ブログやOSSの個別深掘りはそれぞれの記事をあわせてご覧ください。
@@ -125,14 +125,14 @@ export default function GithubShowcasePage() {
 
         {/* 1. 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">1. 結論：ミドルのGitHubは『現役性と再現性』を示す場</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">1. ミドルのGitHubは『現役性と再現性』を示す場</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             未経験者のGitHubが「コードが書ける証明」なのに対し、実務経験のある30代・40代のGitHubに期待されるのは別物です。ミドルが示すべきは次の2点です。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">現役性</h3>
-              <p className="text-sm text-petrol-deep">「マネジメント中心で、もう手を動かせないのでは」という40代特有の懸念を払拭します。最新のコミット・モダンな技術スタックの痕跡が効きます。</p>
+              <p className="text-sm text-petrol-deep">「マネジメント中心で、もう手を動かせないのでは」という40代特有の懸念を払拭します。最新のコミット・モダンな技術スタックの痕跡が有効です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">再現性</h3>
@@ -141,7 +141,7 @@ export default function GithubShowcasePage() {
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
             <p className="text-sm text-amber-800">
-              <strong>ミドルの優先順位：</strong>即席アプリを量産するより、<strong>①整ったプロフィール ＋ ②設計判断が伝わるリポジトリ1〜2個 ＋ ③継続の痕跡</strong>に時間を投資する方が費用対効果が高いケースが多いです。数ではなく、1つの完成度で勝負しましょう。
+              <strong>ミドルの優先順位：</strong>即席アプリを量産するより、<strong>①整ったプロフィール ＋ ②設計判断が伝わるリポジトリ1〜2個 ＋ ③継続の痕跡</strong>に時間を投資する方が費用対効果が高いケースが多く見られます。数ではなく、1つひとつの完成度を重視しましょう。
             </p>
           </div>
         </section>
@@ -150,13 +150,13 @@ export default function GithubShowcasePage() {
         <section id="seven" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">2. 採用担当が見る7つのポイント</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            技術系の採用担当・エンジニア面接官がGitHubを開いたとき、無意識にチェックしている観点を7つに整理しました。順番に潰していけば、限られた閲覧時間で好印象を作れます。
+            技術系の採用担当・エンジニア面接官がGitHubを開いたとき、無意識にチェックしている観点を7つに整理しました。順番に確認していけば、限られた閲覧時間で好印象を作れます。
           </p>
           <div className="space-y-4">
             {[
               { num: "1", title: "コントリビューション（草）＝継続性", desc: "緑のグラフは「今も活動しているか」の第一印象です。毎日埋める必要はなく、不自然に詰める必要もありません。継続の痕跡があれば十分です。" },
               { num: "2", title: "ピン留めリポジトリ＝見せたい代表作", desc: "最大6枠に何を置くかで自己プロデュース力が伝わります。READMEが整い技術判断が見えるものだけを厳選します。" },
-              { num: "3", title: "README＝コードを読まずに伝わる説明", desc: "概要・構成図・起動方法・工夫点・残課題が書かれているか。多くの採用担当はREADMEで判断を済ませます。" },
+              { num: "3", title: "README＝コードを読まずに伝わる説明", desc: "概要・構成図・起動方法・工夫点・残課題が書かれているかが見られます。多くの採用担当はREADMEで判断を済ませます。" },
               { num: "4", title: "技術選定の理由＝設計判断の証拠", desc: "「なぜこの言語・構成にしたか」が書かれていると、ミドルらしい判断力が伝わります。最も差をつけやすい部分です。" },
               { num: "5", title: "issue・PRの使い方＝協働の作法", desc: "個人開発でもissueでタスクを管理し、PR単位で変更を積んでいると、チーム開発に馴染む人だと伝わります。" },
               { num: "6", title: "コード品質＝命名・粒度・テスト", desc: "全部は読まれませんが、開いた1ファイルの命名・関数の粒度・テストの有無で印象が決まります。" },
@@ -188,7 +188,7 @@ export default function GithubShowcasePage() {
                 "ローカルでの起動手順（環境構築コマンド）があります",
                 "工夫した点・設計上のトレードオフが書かれています",
                 "既知の課題・残タスク（Known Issues）を記載しています",
-                "デモURL or スクリーンショットがあります（動くものは強い）",
+                "デモURL or スクリーンショットがあります（動作するものは評価されやすくなります）",
                 "ライセンスが明記されています",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
@@ -200,9 +200,9 @@ export default function GithubShowcasePage() {
           <p className="text-slate-600 leading-relaxed mb-4">下は「工夫した点・トレードオフ」セクションの記述例です。ミドルらしさは、選んだ理由と<strong>選ばなかった選択肢</strong>を併記できるかに出ます。</p>
           <pre className="bg-slate-900 text-slate-100 text-xs rounded-xl p-5 overflow-x-auto leading-relaxed">{`## 設計上の判断
 
-- 永続化はPostgreSQLを採用します。当初はNoSQLも検討しましたが、
-  集計クエリが多くトランザクション整合性が要るためRDBを選択します。
-- 認証は自前実装せず外部IdPに委譲します。運用負荷とセキュリティ責任を
+- 永続化はPostgreSQLを採用しました。当初はNoSQLも検討しましたが、
+  集計クエリが多くトランザクション整合性が要るためRDBを選択しました。
+- 認証は自前実装せず外部IdPに委譲しています。運用負荷とセキュリティ責任を
   外出しする判断です（小規模個人開発のため）。
 - 非同期処理はあえて入れていません。現状のスループットでは
   オーバーエンジニアリングと判断しました（負荷が増えたら導入予定）。
@@ -247,7 +247,7 @@ export default function GithubShowcasePage() {
               { t: "知見の汎用版を作り直します", d: "業務で得た課題感から固有情報を取り除き、小さな汎用ツールやサンプルとして公開します。社内ツールの汎用版はよくあるパターンです。" },
               { t: "OSSに小さく貢献します", d: "ドキュメント修正・翻訳・issue報告など、コードを書かない貢献でも公開された履歴が残ります。詳細はOSS貢献の記事をご覧ください。" },
               { t: "技術記事で思考を可視化します", d: "コードを公開できなくても、設計判断やトラブル対応の思考過程は記事にできます。これも立派なアウトプットです。" },
-              { t: "サンプルコード付きの検証リポジトリ", d: "新技術を試した最小構成のサンプルを公開します。完成プロダクトでなくても、検証の丁寧さが伝わります。" },
+              { t: "サンプルコード付きの検証リポジトリを公開します", d: "新技術を試した最小構成のサンプルを公開します。完成プロダクトでなくても、検証の丁寧さが伝わります。" },
             ].map((n, i) => (
               <div key={i} className="bg-emerald-50 border border-emerald-200 rounded-lg p-5">
                 <h3 className="font-bold text-emerald-800 mb-1">{n.t}</h3>
@@ -316,7 +316,7 @@ export default function GithubShowcasePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">GitHubの見せ方をプロに相談しよう</h2>
+          <h2 className="text-xl font-bold mb-3">GitHubの見せ方をエージェントに相談しましょう</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、応募先に評価されるGitHub・成果物の見せ方を具体的にアドバイスしてくれます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

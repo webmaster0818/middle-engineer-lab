@@ -16,8 +16,8 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "summary", label: "結論サマリ（30-40代向け）" },
-  { id: "age", label: "【重要】主対象は20代です。30-40代は対象外気味" },
+  { id: "summary", label: "要点（30-40代向け）" },
+  { id: "age", label: "【重要】主対象は20代で、30-40代は主な対象外です" },
   { id: "basic", label: "基本データ表（2026年時点）" },
   { id: "strength", label: "特徴・強み" },
   { id: "good", label: "良い評判の傾向" },
@@ -37,13 +37,13 @@ const basicData: [string, string][] = [
   ["未経験対応", "あり（IT基礎学習コンテンツを提供。未経験からのIT就職に強い）"],
   ["内定率", "86%以上（二次情報）"],
   ["定着率", "入社後定着率97%（二次情報）"],
-  ["サポート", "1人あたりの時間が一般の数倍と手厚いです（カウンセラーの多くが既卒・第二新卒出身）"],
+  ["サポート", "1人あたりの時間が一般の数倍と手厚い（カウンセラーの多くが既卒・第二新卒出身）"],
   ["料金", "求職者無料"],
 ];
 
 const goodReviews = [
   {
-    title: "1人あたりのサポートが非常に手厚い",
+    title: "1人あたりのサポートが手厚い",
     body: "talentsquareやキャリア協会等の口コミ系では、1人あたりのサポート時間が一般的な転職エージェントより大幅に長く、面接対策も企業ごとに複数回受けられたという傾向の声が見られます。未経験・社会人経験が浅い20代でも安心して進められたという感想が確認できます。",
   },
   {
@@ -185,13 +185,13 @@ export default function UzuzItReview() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          ウズキャリITの評判・口コミ【30代・40代には解説】
+          ウズキャリITの評判・口コミ【30代・40代向けに解説】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ 20代特化のIT就職支援を、当サイト読者（30-40代）向けに誠実に検証
+          最終更新: 2026年6月 ｜ 20代特化のIT就職支援を、当サイト読者（30-40代）向けに検証
         </p>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
-          ウズキャリIT（UZUZ IT）は、株式会社UZUZが運営する<span className="font-bold">20代（第二新卒・既卒・フリーター）特化のIT就職／転職エージェント</span>です。手厚いサポートと未経験からのIT就職に強みがあります。ただし、当サイトの中心読者である30代・40代の実務経験者にとっては<span className="font-bold">主対象から外れる</span>サービスです。本記事ではその点を最初にご説明したうえで、評判・口コミを出典付きで整理し、30-40代向けの代替も案内します。架空の体験談は掲載しません。
+          ウズキャリIT（UZUZ IT）は、株式会社UZUZが運営する<span className="font-bold">20代（第二新卒・既卒・フリーター）特化のIT就職／転職エージェント</span>です。手厚いサポートと未経験からのIT就職に強みがあります。ただし、当サイトの中心読者である30代・40代の実務経験者にとっては<span className="font-bold">主対象から外れる</span>サービスです。本記事ではその点を最初に説明したうえで、評判・口コミを出典付きで整理し、30-40代向けの代替も案内します。架空の体験談は掲載しません。
         </p>
         <DataNote
           surveyedAt="2026年6月"
@@ -204,17 +204,17 @@ export default function UzuzItReview() {
           ]}
         />
 
-        {/* 結論サマリ */}
+        {/* 要点 */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：当サイト読者（30-40代）への注意点</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">当サイト読者（30-40代）への注意点</h2>
             <p className="text-sm text-blue-900 mb-3">
-              <span className="font-bold">総合評価：20代・未経験のIT就職には優秀です。ただし30-40代の経験者は対象外気味です</span>。要約すると「20代の第二新卒・既卒・未経験から、手厚いサポートでITエンジニアを目指す人」向けのサービスです。
+              <span className="font-bold">総合評価：20代・未経験のIT就職に向いたサービスです。30-40代の経験者は主な対象から外れます</span>。要約すると「20代の第二新卒・既卒・未経験から、手厚いサポートでITエンジニアを目指す人」向けのサービスです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・主対象は20代です（公式表記19〜29歳）。利用者の85.7%が22〜27歳です（二次情報）。</li>
-              <li>・サポートが手厚く、未経験IT就職に強いです。内定率86%以上・定着率97%です（二次情報）。</li>
-              <li>・実務経験のある30代・40代には案件が合いにくいです。代替サービスを後半で案内します。</li>
+              <li>・主対象は20代（公式表記19〜29歳）で、利用者の85.7%が22〜27歳とされています（二次情報）。</li>
+              <li>・サポートが手厚く、未経験からのIT就職に強みがあります。内定率86%以上・定着率97%とされています（二次情報）。</li>
+              <li>・実務経験のある30代・40代には案件が合いにくい傾向があります。代替サービスを後半で案内します。</li>
             </ul>
           </div>
         </section>
@@ -222,7 +222,7 @@ export default function UzuzItReview() {
         {/* 年代の注意（最重要） */}
         <section id="age" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">
-            【重要】主対象は20代です。30-40代は対象外気味です
+            【重要】主対象は20代で、30-40代は主な対象外です
           </h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-4">
             <p className="text-sm text-amber-900 leading-relaxed">
@@ -230,7 +230,7 @@ export default function UzuzItReview() {
             </p>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            これは「サービスが悪い」という話ではなく、<span className="font-bold">対象設計の問題</span>です。ウズキャリITは20代・未経験のIT就職支援として完成度が高く、その層には自信を持っておすすめできます。一方で、すでに実務経験を積み年収アップやハイクラス転職を狙う30代・40代は、本記事後半で紹介するミドル層向け・IT経験者向けのエージェントを使うほうが、案件・サポートの両面で合致します。誠実に申し上げて、当サイト読者の多くは「対象外」に該当する点をご理解ください。
+            これは「サービスが悪い」という話ではなく、<span className="font-bold">対象設計の問題</span>です。ウズキャリITは20代・未経験のIT就職支援に特化しており、その層には適したサービスです。一方で、すでに実務経験を積み年収アップやハイクラス転職を狙う30代・40代は、本記事後半で紹介するミドル層向け・IT経験者向けのエージェントを使うほうが、案件・サポートの両面で合致します。当サイト読者の多くは「対象外」に該当する点をご理解ください。
           </p>
         </section>
 
@@ -261,9 +261,9 @@ export default function UzuzItReview() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ウズキャリITの特徴・強み（主に20代向け）</h2>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">1. 1人あたりのサポートが非常に手厚い</h3>
+              <h3 className="font-bold text-blue-800 mb-2">1. 1人あたりのサポートが手厚い</h3>
               <p className="text-sm text-petrol-deep">
-                1人あたりのサポート時間が一般的な転職エージェントの数倍とされ、面接対策を企業ごとに複数回実施するなど、丁寧な伴走が最大の特徴です。社会人経験が浅い20代でも安心して進めやすい設計です。
+                1人あたりのサポート時間が一般的な転職エージェントの数倍とされ、面接対策を企業ごとに複数回実施するなど、丁寧な伴走が特徴です。社会人経験が浅い20代でも安心して進めやすい設計です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -332,7 +332,7 @@ export default function UzuzItReview() {
           </h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              当サイトはミドルエンジニアのキャリアを扱う立場から、誠実にお伝えします。ウズキャリITは20代・未経験のIT就職に最適化されたサービスであり、<span className="font-bold">実務経験のある30代・40代が登録しても、年代・案件の両面で合致しにくい</span>のが実情です。公式が主対象を19〜29歳と明記している以上、ミドル層が無理に使うメリットは小さいと考えます。
+              当サイトはミドルエンジニアのキャリアを扱う立場から、判断の目安を整理します。ウズキャリITは20代・未経験のIT就職に最適化されたサービスであり、<span className="font-bold">実務経験のある30代・40代が登録しても、年代・案件の両面で合致しにくい</span>のが実情です。公式が主対象を19〜29歳と明記している以上、ミドル層が無理に使うメリットは小さいと考えます。
             </p>
             <p>
               <span className="font-bold text-slate-700">数少ない例外として検討の余地があるケース：</span>
@@ -411,9 +411,9 @@ export default function UzuzItReview() {
               <tbody>
                 {([
                   ["", "向く人・強み"],
-                  ["ウズキャリIT（本記事）", "20代・未経験のIT就職。30-40代は対象外気味。"],
-                  ["ウィルオブテック", "IT経験者の年収アップ。専属2名体制で手厚い。"],
-                  ["レバテックキャリア", "IT特化で経験者の専門性を活かす転職します。"],
+                  ["ウズキャリIT（本記事）", "20代・未経験のIT就職向け。30-40代は主な対象外。"],
+                  ["ウィルオブテック", "IT経験者の年収アップ向け。専属2名体制。"],
+                  ["レバテックキャリア", "IT特化で、経験者の専門性を活かす転職向け。"],
                   ["ワークポート", "未経験も含め幅広く対応する総合型。"],
                 ] as string[][]).map((row, i) => (
                   <tr key={i} className={i === 0 ? "bg-slate-100" : i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
@@ -481,7 +481,7 @@ export default function UzuzItReview() {
           <p className="text-xs text-slate-400 mt-3">※外部サイトの内容・URLは変更される場合があります（最終確認：2026年7月）。数値は各サイトの記載時点のものです。</p>
         </section>
 
-        {/* CTA（誠実に：20代向けと明記） */}
+        {/* CTA（20代向けと明記） */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ご自身の年代・経験に合うサービスを選ぶ</h2>
           <p className="text-blue-100 text-sm mb-4">

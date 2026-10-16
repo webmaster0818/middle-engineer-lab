@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：早く・誠実に・簡潔に" },
+  { id: "conclusion", label: "早く・誠実に・簡潔に" },
   { id: "method", label: "メールと電話の使い分け" },
   { id: "timing", label: "いつまでに伝えるべきか" },
   { id: "mail-examples", label: "辞退メールの例文" },
@@ -31,7 +31,7 @@ const mailExamples = [
     text: "件名：内定辞退のご連絡（氏名）｜本文：「○○株式会社 採用ご担当者様 お世話になっております、○○○○と申します。先日は内定のご連絡をいただき、誠にありがとうございました。慎重に検討を重ねました結果、誠に勝手ながら今回の内定を辞退させていただきたく、ご連絡いたしました。貴重なお時間を割いて選考いただいたにもかかわらず、このようなお返事となり申し訳ございません。末筆ながら、貴社のますますのご発展を心よりお祈り申し上げます。」",
   },
   {
-    scene: "理由を簡潔に添えます",
+    scene: "理由を簡潔に添える場合",
     text: "「複数社を比較し検討いたしました結果、自身のキャリアの方向性を踏まえ、他社への入社を決断いたしました。最後までご丁寧にご対応いただき、心より感謝しております。」",
   },
   {
@@ -46,11 +46,11 @@ const phoneScript = [
     text: "「お世話になっております。先日内定のご連絡をいただきました○○○○です。採用ご担当の○○様はいらっしゃいますでしょうか。」",
   },
   {
-    step: "辞退の意思を伝えます",
+    step: "辞退の意思表示",
     text: "「この度は内定をいただき、誠にありがとうございました。慎重に検討した結果、誠に申し訳ないのですが、今回の内定を辞退させていただきたくご連絡いたしました。」",
   },
   {
-    step: "理由を簡潔に（聞かれたら）",
+    step: "理由の簡潔な説明（聞かれた場合）",
     text: "「自身のキャリアを総合的に考え、他社への入社を決断いたしました。御社には大変丁寧にご対応いただき、心より感謝しております。」",
   },
   {
@@ -148,7 +148,7 @@ export default function OfferDeclinePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】内定辞退はどう伝える？音信不通（バックレ）でもいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3">
-              <strong>結論: 辞退を決めたら「できるだけ早く・誠実に・簡潔に」連絡し、音信不通（バックレ）だけは絶対に避けるのが鉄則です。</strong>
+              <strong>辞退を決めたら「できるだけ早く・誠実に・簡潔に」連絡し、音信不通（バックレ）だけは絶対に避けるのが基本です。</strong>
             </p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
               <li>・承諾前で余裕があればメールでも失礼にはなりませんが、入社直前や承諾後はまず電話でお詫びし、後からメールで記録を残すのが丁寧です。</li>
@@ -185,9 +185,9 @@ export default function OfferDeclinePage() {
           </ol>
         </nav>
 
-        {/* 結論 */}
+        {/* 要点 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：早く・誠実に・簡潔に</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">早く・誠実に・簡潔に</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               内定辞退の基本は、<strong>辞退を決めたら「できるだけ早く」「誠実に」「理由は簡潔に」伝える</strong>ことです。承諾前ならメールでも構いませんが、入社直前や承諾後はまず電話でお詫びするのが丁寧です。
@@ -318,7 +318,7 @@ export default function OfferDeclinePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">辞退連絡もエージェントが代行</h2>
           <p className="text-blue-100 text-sm mb-4">
-            エージェント経由なら、言いにくい辞退の連絡も代行してもらえます。複数内定の比較から任せられます。
+            エージェント経由なら、言いにくい辞退の連絡も代行してもらえます。複数内定の比較から相談できます。
           </p>
           <Link
             href="/#ranking"

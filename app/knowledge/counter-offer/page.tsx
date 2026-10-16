@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：原則は断る、ただし例外もある" },
+  { id: "conclusion", label: "原則は断る、ただし例外もある" },
   { id: "what", label: "カウンターオファーとは" },
   { id: "types", label: "よくあるカウンターオファーの種類" },
   { id: "judge", label: "受けるべきか判断する5つの軸" },
@@ -25,10 +25,10 @@ const toc = [
 ];
 
 const types = [
-  { type: "年収アップ", ex: "現年収からの引き上げ提示", note: "なぜ申し出るまで上げなかったのかを考えます。次回昇給に織り込まれ実質据え置きになる例も" },
+  { type: "年収アップ", ex: "現年収からの引き上げ提示", note: "なぜ申し出るまで上げなかったのかを考える必要があります。次回昇給に織り込まれ、実質据え置きになる例もあります" },
   { type: "昇進・役職変更", ex: "マネージャー昇進などの約束", note: "口頭の約束は実現時期と内容を書面で確認しないと流れることがあります" },
-  { type: "部署・チーム異動", ex: "希望の技術チームへの移動", note: "異動先の状況・人間関係は事前に把握できないことが多いです" },
-  { type: "働き方の変更", ex: "リモート・フレックスの個別適用", note: "ご自身限定の特例は制度として定着せず、後で撤回されるリスク" },
+  { type: "部署・チーム異動", ex: "希望の技術チームへの移動", note: "異動先の状況・人間関係は事前に把握できないことが多くあります" },
+  { type: "働き方の変更", ex: "リモート・フレックスの個別適用", note: "ご自身限定の特例は制度として定着せず、後で撤回されるリスクがあります" },
 ];
 
 const judge = [
@@ -36,7 +36,7 @@ const judge = [
   { num: "2", title: "条件を書面で確認できるか", desc: "口頭の約束は守られない可能性があります。年収は給与改定の通知、昇進は時期と要件を、必ず文書で確認しましょう。" },
   { num: "3", title: "社内評価への影響を見込めるか", desc: "退職を申し出た事実は社内に伝わることがあります。重要プロジェクトのアサインや昇進候補に影響しないか冷静に見積もります。" },
   { num: "4", title: "転職先オファーと総合比較したか", desc: "年収・技術・成長機会・働き方・通勤など全項目でスコアリングし、カウンターオファーと並べて比較します。年収だけの比較は危険です。" },
-  { num: "5", title: "決意がぶれない理由があるか", desc: "退職を決めた時点で不満は相当なものだったはずです。条件提示で気持ちが完全に変わるのでなければ、初志を貫くほうが後悔は少ない傾向です。" },
+  { num: "5", title: "決意がぶれない理由があるか", desc: "退職を決めた時点で不満は相当なものだったはずです。条件提示で気持ちが完全に変わるのでなければ、初志を貫くほうが後悔は少ない傾向があります。" },
 ];
 
 const declines = [
@@ -124,8 +124,8 @@ export default function CounterOfferPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職時のカウンターオファー（引き留め）は受けるべき？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 原則は断り、限られた条件がすべて揃うときだけ慎重に受けるのが基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・退職理由が年収以外なら年収アップでは解決しないため断るのが基本</li><li>・受けるのは「理由が年収のみ・提示に完全納得・書面で確約」の3条件が揃うときだけ</li><li>・断るときは理由を語りすぎず、「入社日を合意済み」を添えるとスムーズ</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>原則は断り、限られた条件がすべて揃うときだけ慎重に受けるのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・退職理由が年収以外なら、年収アップでは解決しないため断るのが基本です</li><li>・受けるのは「理由が年収のみ・提示に完全納得・書面で確約」の3条件が揃うときに限ります</li><li>・断るときは理由を語りすぎず、「入社日を合意済み」を添えるとスムーズです</li></ul>
           </div>
         </section>
 
@@ -152,7 +152,7 @@ export default function CounterOfferPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：原則は断ります。受けるなら条件を満たすときだけ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">原則は断り、受けるのは条件を満たす場合のみ</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・退職を決めた根本理由が<strong>年収以外</strong>なら、年収アップでは解決しないため断るのが基本です。</li>
               <li>・受けるなら<strong>(1)理由が年収のみ (2)提示に完全納得 (3)書面で確約</strong>の3条件が揃うときに限ります。</li>
@@ -223,13 +223,13 @@ export default function CounterOfferPage() {
           </p>
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-4">
-              <p className="text-sm text-slate-600"><strong className="text-slate-800">根本不満の再燃：</strong>年収以外の不満（技術・評価・人間関係）が理由だった場合、待遇が変わっても根本原因が残り、再び転職を考えやすいです。</p>
+              <p className="text-sm text-slate-600"><strong className="text-slate-800">根本不満の再燃：</strong>年収以外の不満（技術・評価・人間関係）が理由だった場合、待遇が変わっても根本原因が残り、再び転職を考えやすくなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-4">
-              <p className="text-sm text-slate-600"><strong className="text-slate-800">社内での見られ方の変化：</strong>「一度辞めようとした人」という見方をされ、重要案件のアサインや昇進候補から外れる可能性です。</p>
+              <p className="text-sm text-slate-600"><strong className="text-slate-800">社内での見られ方の変化：</strong>「一度辞めようとした人」という見方をされ、重要案件のアサインや昇進候補から外れる可能性があります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-4">
-              <p className="text-sm text-slate-600"><strong className="text-slate-800">条件が口約束に終わる：</strong>昇進・異動の約束が書面化されず、時期が来ても実現しない例です。</p>
+              <p className="text-sm text-slate-600"><strong className="text-slate-800">条件が口約束に終わる：</strong>昇進・異動の約束が書面化されず、時期が来ても実現しないケースがあります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-4">
               <p className="text-sm text-slate-600"><strong className="text-slate-800">転職先を失う：</strong>内定を辞退した後に残留を後悔しても、同じ条件で戻れるとは限りません。</p>
@@ -241,7 +241,7 @@ export default function CounterOfferPage() {
         <section id="decline" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">断り方の例文集</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            断るときの鉄則は「感謝を示す・理由を語りすぎない・決断は変わらないと明言する」の3点です。具体的な不満を持ち出すと、条件の上乗せや反論を招きます。状況に合わせて以下を使い分けてください。
+            断るときの基本は「感謝を示す・理由を語りすぎない・決断は変わらないと明言する」の3点です。具体的な不満を持ち出すと、条件の上乗せや反論を招きます。状況に合わせて以下を使い分けてください。
           </p>
           <div className="space-y-4">
             {declines.map((item, i) => (
@@ -286,7 +286,7 @@ export default function CounterOfferPage() {
               <p className="text-sm text-slate-600">レガシー環境からの脱出や新領域への挑戦が動機なら、待遇改善では解決しません。ミドル層は「あと何年、どの技術で戦うか」を年収より優先して考えると後悔が減ります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">そもそも引き留めさせない伝え方を</h3>
+              <h3 className="font-bold text-slate-800 mb-2">そもそも引き留めを受けにくい伝え方</h3>
               <p className="text-sm text-slate-600">迷いを残さないためには、退職の切り出し時点で意思を明確にしておくのが有効です。切り出し方は<Link href="/knowledge/resignation/" className="text-petrol hover:underline">退職の伝え方ガイド</Link>を参照してください。</p>
             </div>
           </div>
@@ -310,7 +310,7 @@ export default function CounterOfferPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">引き留めの判断に迷ったら相談を</h2>
+          <h2 className="text-xl font-bold mb-3">引き留めの判断に迷ったときの相談先</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントは引き留め対応の事例が豊富です。客観的な視点で判断をサポートします。
           </p>

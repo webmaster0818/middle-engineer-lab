@@ -22,7 +22,7 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
+  ["conclusion", "難易度と向いているエンジニア"],
   ["basic", "基本データ（出典付き）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公開情報ベース）"],
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     q: "ウォンテッドリーで活きる経験は？",
-    a: "Ruby on RailsやGoを用いたWebアプリケーション開発の実務経験が基本です。SNS・マッチングプラットフォームの開発・運用経験、React/TypeScriptでのフロントエンド開発経験、マイクロサービス・gRPCの経験などが活きやすい傾向です。",
+    a: "Ruby on RailsやGoを用いたWebアプリケーション開発の実務経験が基本です。SNS・マッチングプラットフォームの開発・運用経験、React/TypeScriptでのフロントエンド開発経験、マイクロサービス・gRPCの経験などが活きやすい傾向があります。",
   },
   {
     q: "30代・40代でもウォンテッドリーに転職できますか？",
@@ -90,7 +90,7 @@ export default function WantedlyIncCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ウォンテッドリーの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: ウォンテッドリー株式会社の平均年間給与は約681万円です（直近 有価証券報告書・全社員平均、平均年齢 約30歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>ウォンテッドリー株式会社の平均年間給与は約681万円です（直近 有価証券報告書・全社員平均、平均年齢 約30歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約681万円です（直近 有価証券報告書・単体）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・年度別の推移は本ページでは創作せず、出典の確実な単年値のみ掲載しています（最新値は最新の有価証券報告書でご確認ください）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表です。提示額はスキル評価で個別決定されるため、個別求人・面談で確認が必要です。</li></ul>
         </div>
 
@@ -114,14 +114,14 @@ export default function WantedlyIncCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              ウォンテッドリーは<strong>Ruby on RailsとGoでビジネスSNSを開発する、少数精鋭のプラットフォーム企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収は約681万円（直近 有価証券報告書）です。
+              ウォンテッドリーは<strong>Ruby on RailsとGoでビジネスSNSを開発する、少数精鋭のプラットフォーム企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高めです。全社員平均年収は約681万円（直近 有価証券報告書）です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Ruby/Goでの実務経験があり、SNS・マッチングプラットフォームやマイクロサービスに関心があるエンジニア</li>
               <li>● <strong>向いていない人</strong>：大規模組織での明確な役割分担を強く好む人、技術選定に関わりたくない人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢が若めのためシニア寄りの立ち位置です。テックリード・設計の実績で価値を示せるかが鍵</li>
+              <li>● <strong>30代・40代</strong>：平均年齢が若めのため、シニア寄りの立ち位置。テックリード・設計の実績で価値を示せるかが鍵</li>
             </ul>
           </div>
         </section>
@@ -240,7 +240,7 @@ export default function WantedlyIncCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。ウォンテッドリーの全社員平均（約681万円）はこれを上回りますが、これは全社平均であり、入社時の提示はスキル評価次第です。30代・40代は自分の市場価値を踏まえ、個別求人・面談で水準を確認することが重要です。
             </p>
             <p>
-              少数精鋭ゆえに、技術選定や横断的な改善に踏み込める裁量がある点はミドル層にとって魅力です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              少数精鋭ゆえに、技術選定や横断的な改善に踏み込める裁量がある点はミドル層にとっての利点です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -250,7 +250,7 @@ export default function WantedlyIncCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。SaaS・Web系の求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

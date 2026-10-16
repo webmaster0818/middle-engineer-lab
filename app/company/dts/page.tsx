@@ -26,12 +26,12 @@ const basicData: [string, string][] = [
   ["平均年齢", "39.7歳（2026年3月期 有価証券報告書）"],
   ["従業員数", "約3,200名（単体・2026年3月期 有価証券報告書）"],
   ["本社所在地", "東京都中央区"],
-  ["技術スタック（公開情報）", "Java / Python / JavaScript を中心とした開発、AWS・OCI・Azure 等のクラウド、ウォーターフォール／アジャイル（案件により異なる）"],
+  ["技術スタック（公開情報）", "Java / Python / JavaScript を中心とした開発、AWS・OCI・Azure 等のクラウド、ウォーターフォール／アジャイル（案件により異なる場合あり）"],
   ["採用ページ", "dts.co.jp/recruit/career（キャリア採用）"],
 ];
 
 const toc = [
-  { id: "conclusion", label: "結論：転職難易度とどんなエンジニア向きか" },
+  { id: "conclusion", label: "転職難易度と向いている人" },
   { id: "basic", label: "基本データ（企業概要・出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
@@ -47,19 +47,19 @@ const toc = [
 
 const faqs = [
   {
-    q: "DTSのエンジニア転職の難易度は高い？",
-    a: "DTSは創業50年以上、一度も赤字がない盤石経営の独立系トータルSIerで、事業拡大により通年でエンジニアを募集しています。Java・Python等での開発経験やインフラ構築の経験があれば応募しやすく、上流工程やプロジェクト推進の経験があれば30代・40代でも十分に挑戦できます。難易度は中程度で、特定ベンダーに縛られない独立系の幅広い案件が特徴です。",
+    q: "DTSのエンジニア転職の難易度は高いですか？",
+    a: "DTSは創業50年以上、一度も赤字を計上していない安定経営の独立系トータルSIerで、事業拡大により通年でエンジニアを募集しています。Java・Python等での開発経験やインフラ構築の経験があれば応募しやすく、上流工程やプロジェクト推進の経験があれば30代・40代でも十分に挑戦できます。難易度は中程度で、特定ベンダーに縛られない独立系の幅広い案件が特徴です。",
   },
   {
-    q: "DTSのエンジニアの平均年収はいくら？",
+    q: "DTSのエンジニアの平均年収はいくらですか？",
     a: "株式会社DTSの有価証券報告書（2026年3月期）に記載された全社員の平均年間給与は658万円、平均年齢は39.7歳です（エンジニア職に限った数値ではなく全社員平均）。近年は600万円台で堅調に推移しており、賃上げにより上昇傾向にあります。職種・等級別の正式な年収表は公開されていないため、個別の提示額は求人ごと・スキル評価ごとに決定されます。",
   },
   {
-    q: "DTSの技術スタックは？",
+    q: "DTSの技術スタックを教えてください。",
     a: "公式採用ページの公開情報によると、開発言語はJava・Python・JavaScriptを中心とし、開発手法は各プロジェクトの特性に応じてウォーターフォール型・アジャイル型を選択しています。AWS・OCI・AzureなどのクラウドやAI・IoTの知見も歓迎条件とされます。SIerのため案件により採用技術は異なります。",
   },
   {
-    q: "DTSの選考フローは？",
+    q: "DTSの選考フローを教えてください。",
     a: "公式キャリア採用サイトによると、エントリー（書類選考）→ 面接（複数回）→ 内定が基本的な流れです。職務経歴・担当工程・開発経験が確認され、ポジションによっては適性検査が行われる場合があります。最新の内容は公式キャリア採用サイトでご確認ください。",
   },
   {
@@ -67,12 +67,12 @@ const faqs = [
     a: "株式会社DTSは、金融・公共・産業・通信など幅広い業界に向けてシステム開発・運用、インフラ構築、DX支援を提供する東証プライム上場の独立系トータルSIer（証券コード9682）です。創業50年以上の歴史を持ち、特定の資本系列に縛られない独立系として安定した経営基盤を築いています。",
   },
   {
-    q: "DTSはリモートワークできる？",
+    q: "DTSはリモートワークできますか？",
     a: "DTSはリモートワークを併用できる体制を採っています。OpenWork等の口コミでは、安定性やワークライフバランス、独立系ゆえの幅広い案件を評価する声が見られる一方、SIer特有の客先常駐やプロジェクトによる差を挙げる意見もあります（2026年6月時点の口コミ傾向）。最新の勤務条件は応募時に各求人で確認してください。",
   },
   {
-    q: "DTSへの転職で有利な経験は？",
-    a: "Java・Python・JavaScript等での開発経験、アジャイル型開発や各種パッケージ製品による開発経験、インフラ構築の経験が基本です。AWS・OCI・Azure等のクラウドやAI・IoTの知見、上流工程・プロジェクトマネジメントの経験があると評価されやすい傾向です。",
+    q: "DTSへの転職で有利になる経験を教えてください。",
+    a: "Java・Python・JavaScript等での開発経験、アジャイル型開発や各種パッケージ製品による開発経験、インフラ構築の経験が基本です。AWS・OCI・Azure等のクラウドやAI・IoTの知見、上流工程・プロジェクトマネジメントの経験があると評価されやすい傾向があります。",
   },
 ];
 
@@ -104,8 +104,8 @@ export default function DtsCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】DTSの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社DTSの平均年間給与は658万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢39.7歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 658万円です（2026年3月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年3月期600万円から賃上げで上昇し、2025年3月期643万円・2026年3月期658万円です（各期 有価証券報告書）。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社DTSの平均年間給与は658万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢39.7歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 658万円です（2026年3月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・2022年3月期の600万円から賃上げにより上昇し、2025年3月期は643万円、2026年3月期は658万円となっています（各期 有価証券報告書）。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -136,13 +136,13 @@ export default function DtsCompanyPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">転職難易度と向いている人</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：システム開発・インフラ構築の経験があり、独立系の安定基盤で幅広い業界の案件に関わりたいエンジニア向きです。難易度は中程度です。</p>
+            <p className="font-bold text-blue-900 mb-3">システム開発・インフラ構築の経験があり、独立系の安定基盤で幅広い業界の案件に関わりたいエンジニアに向いています。難易度は中程度です。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li className="flex gap-2"><span className="shrink-0">1.</span>Java・Python・JavaScript等の開発経験が活き、特定ベンダーに縛られない独立系の幅広い案件に関われます。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は658万円です（2026年3月期 有価証券報告書）。近年は賃上げで上昇傾向にあり、安定した収入を得やすいです。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>創業50年以上・一度も赤字がない盤石経営の独立系SIerで、安定性とワークライフバランスを重視する人に向きます。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は658万円です（2026年3月期 有価証券報告書）。近年は賃上げにより上昇傾向にあり、安定した収入を見込みやすい水準です。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>創業50年以上・一度も赤字を計上していない独立系SIerで、安定性とワークライフバランスを重視する人に向いています。</li>
             </ul>
           </div>
         </section>
@@ -174,8 +174,8 @@ export default function DtsCompanyPage() {
               <p className="text-sm text-petrol-deep">DTSは特定の資本系列に縛られない独立系のトータルSIerとして、金融・公共・産業・通信など幅広い業界の案件を手がけています。アプリケーション開発からインフラ構築まで一気通貫で対応でき、多様なドメイン・技術に触れられる環境です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">創業50年以上・盤石経営の安定性</h3>
-              <p className="text-sm text-petrol-deep">公開情報によると、DTSは創業50年以上で一度も赤字がない盤石経営を続けてきた企業です。安定した経営基盤の上で、長く腰を据えてキャリアを築きたいエンジニアに向いています。</p>
+              <h3 className="font-bold text-blue-800 mb-2">創業50年以上の安定した経営基盤</h3>
+              <p className="text-sm text-petrol-deep">公開情報によると、DTSは創業50年以上で一度も赤字を計上せずに経営を続けてきた企業です。安定した経営基盤の上で、長く腰を据えてキャリアを築きたいエンジニアに向いています。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">DX・クラウド・先端技術への取り組み</h3>
@@ -290,7 +290,7 @@ export default function DtsCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-2 text-sm">ポジティブな傾向</h3>
               <ul className="space-y-1.5 text-sm text-green-900">
-                <li>独立系・盤石経営の安定性を評価する声（OpenWork）</li>
+                <li>独立系としての経営の安定性を評価する声（OpenWork）</li>
                 <li>ワークライフバランスや働きやすさへの評価（OpenWork）</li>
                 <li>幅広い業界・技術の案件に関われるという声（OpenWork）</li>
               </ul>
@@ -299,8 +299,8 @@ export default function DtsCompanyPage() {
               <h3 className="font-bold text-amber-800 mb-2 text-sm">ネガティブ・注意したい傾向</h3>
               <ul className="space-y-1.5 text-sm text-amber-900">
                 <li>SIer特有の客先常駐やプロジェクトによる働き方の差</li>
-                <li>大手Web系と比べると最先端技術への露出は案件依存</li>
-                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
+                <li>大手Web系と比べると、最先端技術に触れる機会は案件に依存するとの声</li>
+                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意が必要</li>
               </ul>
             </div>
           </div>
@@ -314,7 +314,7 @@ export default function DtsCompanyPage() {
               DTSは上場済みで安定した収益基盤を持つ独立系トータルSIerです。30代・40代のミドルエンジニアにとっては、「安定した基盤の上で、幅広い業界の案件に長く関わりたい」「ワークライフバランスを保ちたい」というニーズに合致しやすい選択肢です。
             </p>
             <p>
-              平均年齢が39.7歳（2026年3月期）と、ミドル層が中心の組織構成です。アプリケーション開発・インフラ構築の実務経験に加え、上流工程やプロジェクトマネジメントの経験、特定業界の業務知識やクラウドの知見は、年齢に見合った価値として評価されやすいでしょう。SIerの特性上、技術力に加えて顧客折衝・調整力も重視される傾向があります。
+              平均年齢が39.7歳（2026年3月期）と、ミドル層が中心の組織構成です。アプリケーション開発・インフラ構築の実務経験に加え、上流工程やプロジェクトマネジメントの経験、特定業界の業務知識やクラウドの知見は、年齢に見合った価値として評価されやすいと考えられます。SIerの特性上、技術力に加えて顧客折衝・調整力も重視される傾向があります。
             </p>
             <p>
               年収面では、現職が頭打ちになっている30代・40代にとって、DTSの全社員平均658万円（有価証券報告書）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。

@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：CCNAは誰に効く資格か" },
+  { id: "conclusion", label: "CCNAはどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・有効期限）" },
   { id: "salary", label: "保有者の年収相場（年代・レベル別）" },
   { id: "scenes", label: "転職で評価される具体場面" },
   { id: "jobs", label: "求人例とポジション" },
   { id: "vendor", label: "ベンダー資格としての特性と注意点" },
-  { id: "middle", label: "30代・40代の価値＝実務×資格" },
+  { id: "middle", label: "30代・40代にとっての価値：実務と資格の組み合わせ" },
   { id: "steps", label: "取得3ステップ／併取得すべき資格" },
   { id: "faq", label: "よくある質問" },
 ];
@@ -29,7 +29,7 @@ const toc = [
 const faqs = [
   {
     q: "40代からCCNAを取る意味はありますか？",
-    a: "「資格単体で年収が上がる」という意味では薄いですが、ネットワーク領域への入口を示す証明としては意味があります。CCNAはもともと未経験〜若手の入口資格という性格が強く、40代の場合は『CCNA＋なぜこの年齢でインフラ職に移るのか』という納得感のあるストーリーが必須になります。前職でのIT運用・保守経験、マネジメント経験と組み合わせて初めて評価につながると考えてください。",
+    a: "「資格単体で年収が上がる」という意味では効果は限定的ですが、ネットワーク領域への入口を示す証明としては意味があります。CCNAはもともと未経験〜若手の入口資格という性格が強く、40代の場合は『CCNA＋なぜこの年齢でインフラ職に移るのか』という納得感のあるストーリーが必須になります。前職でのIT運用・保守経験、マネジメント経験と組み合わせて初めて評価につながると考えてください。",
   },
   {
     q: "未経験・無資格でもCCNAがあれば転職できますか？",
@@ -54,10 +54,10 @@ const faqs = [
 ];
 
 const salaryTable = [
-  ["未経験＋無資格", "約280〜320万円", "入口の想定年収。間口は広いが単価は低い"],
-  ["未経験＋CCNA", "約330〜370万円", "資格で入口の通過率・初年度年収がやや上がります"],
+  ["未経験＋無資格", "約280〜320万円", "入口の想定年収。間口は広く単価は低め"],
+  ["未経験＋CCNA", "約330〜370万円", "資格による入口の通過率・初年度年収のやや上昇"],
   ["運用・監視（実務あり）", "約350〜450万円", "監視・障害一次対応など運用フェーズ"],
-  ["構築・設計（実務あり）", "約500〜700万円", "設計・構築を任される中核層。CCNP級が視野に"],
+  ["構築・設計（実務あり）", "約500〜700万円", "設計・構築を任される中核層。CCNP級も視野"],
 ];
 
 const overviewTable = [
@@ -133,15 +133,15 @@ export default function CcnaCertPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：CCNAは誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">CCNAはどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               CCNAは<strong>「未経験〜若手がネットワーク／インフラ職に入るための入口資格」</strong>です。30〜40代の評価は、経験の有無で大きく分かれます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>未経験のミドル</strong>：CCNAは間口を広げますが、『なぜこの年齢でインフラ職か』の納得感とセットで初めて効きます</li>
+              <li>① <strong>未経験のミドル</strong>：CCNAは間口を広げますが、『なぜこの年齢でインフラ職か』について納得感のある説明とあわせて初めて評価につながります</li>
               <li>② <strong>IT運用・保守の経験者</strong>：基礎の客観証明として機能し、構築・設計フェーズへのステップになります</li>
-              <li>③ <strong>共通</strong>：資格はスタートラインです。実機・検証環境で手を動かした実績を必ず添えます</li>
+              <li>③ <strong>共通</strong>：資格はスタートラインです。実機・検証環境で手を動かした実績を必ず添えることが重要です</li>
             </ul>
           </div>
         </section>
@@ -223,9 +223,9 @@ export default function CcnaCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "ネットワーク運用・監視（NOC）", d: "24時間監視、障害一次対応、機器のリプレース作業です。未経験＋CCNAの主な入口です。" },
-              { t: "ネットワーク構築・キッティング", d: "ルーター・スイッチの設定投入、現地作業、検証します。実務1〜3年層が中心です。" },
-              { t: "インフラエンジニア（NW寄り）", d: "ネットワーク設計、社内インフラ、データセンター業務です。構築設計フェーズで年収が一段上がります。" },
+              { t: "ネットワーク運用・監視（NOC）", d: "主な業務は24時間監視、障害一次対応、機器のリプレース作業です。未経験＋CCNAの主な入口となります。" },
+              { t: "ネットワーク構築・キッティング", d: "主な業務はルーター・スイッチの設定投入、現地作業、検証です。実務1〜3年の層が中心となります。" },
+              { t: "インフラエンジニア（NW寄り）", d: "主な業務はネットワーク設計、社内インフラ、データセンター業務です。構築設計フェーズで年収が一段上がる傾向があります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -257,7 +257,7 @@ export default function CcnaCertPage() {
                 {[
                   ["実務との距離", "ネットワーク機器に直結・実務的", "幅広い基礎知識・横断的"],
                   ["有効期限", "3年（再認定が必要）", "なし（生涯有効）"],
-                  ["普遍性", "Cisco製品中心。技術トレンドの影響を受ける", "特定ベンダーに依存しません"],
+                  ["普遍性", "Cisco製品中心。技術トレンドの影響あり", "特定ベンダーに非依存"],
                   ["費用感", "受験料が高め（300USD・為替変動）＋更新コスト", "7,500円・更新不要"],
                 ].map(([k, a, b], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
@@ -270,7 +270,7 @@ export default function CcnaCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            注意すべきデメリットとして、CCNAには<strong>3年の有効期限と再認定コスト</strong>があります。実務でネットワークに関わり続ける人には更新が自然ですが、取得後にネットワークから離れると、せっかくの認定が失効してしまう点は要注意です。受験料も米ドル建てで300USD（約42,900〜47,000円・為替変動あり）と、国家資格の7,500円と比べて高めです。
+            注意すべきデメリットとして、CCNAには<strong>3年の有効期限と再認定コスト</strong>があります。実務でネットワークに関わり続ける人には更新が自然ですが、取得後にネットワークから離れると、取得した認定が失効してしまう点には注意が必要です。受験料も米ドル建てで300USD（約42,900〜47,000円・為替変動あり）と、国家資格の7,500円と比べて高めです。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             一方の強みは<strong>実務直結性</strong>です。ルーティング・スイッチング・サブネット設計といったCCNAの学習範囲は、運用・構築の現場でそのまま使えます。「資格のための勉強」が「現場で使う知識」と一致しやすいため、学習投資が実務に還元されやすいのがベンダー資格の利点です。費用と有効期限を許容できるなら、ネットワーク／インフラ職を目指す人にとって合理的な選択になります。クラウド方向に広げるなら、同じベンダー資格の<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定の活かし方</Link>も併せて検討してください。
@@ -279,16 +279,16 @@ export default function CcnaCertPage() {
 
         {/* 30-40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝実務×資格</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代にとっての価値：実務と資格の組み合わせ</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              はっきり言えば、CCNAは<strong>20代の未経験者に最も効きやすい資格</strong>です。30〜40代がそのまま同じ土俵で戦うと、年齢を理由に書類で落ちるリスクがあります。ミドルがCCNAを強みにするには、<strong>「資格＋これまでの経験＋なぜ今この年齢でインフラ職を選ぶのか」</strong>という掛け算の説明が不可欠です。
+              CCNAは<strong>20代の未経験者に最も効果が出やすい資格</strong>です。30〜40代が20代と同じ条件で応募すると、年齢を理由に書類で不採用となるリスクがあります。ミドル層がCCNAを強みにするには、<strong>「資格＋これまでの経験＋なぜ今この年齢でインフラ職を選ぶのか」</strong>を組み合わせた説明が不可欠です。
             </p>
             <p>
-              一方、すでにIT運用・保守の経験があるミドルにとっては、CCNAは「基礎を体系的に理解している」ことの客観証明として機能します。この層は資格を入口にするのではなく、<strong>構築・設計フェーズへ役割を上げる足がかり</strong>として活用するのが正解です。実機検証ログや小規模構成の設定例など、手を動かした証拠を必ず添えましょう。
+              一方、すでにIT運用・保守の経験があるミドルにとっては、CCNAは「基礎を体系的に理解している」ことの客観証明として機能します。この層は資格を入口にするのではなく、<strong>構築・設計フェーズへ役割を上げる足がかり</strong>として活用するのが適切です。実機検証ログや小規模構成の設定例など、手を動かした証拠を必ず添えましょう。
             </p>
             <p>
-              ミドルが特に意識したいのは、<strong>「資格＋年齢相応の付加価値」</strong>という発想です。20代の未経験者なら資格と意欲だけで通る求人でも、30〜40代には『チームでの調整経験』『顧客折衝』『前職での改善実績』など、年齢に見合う何かが求められます。CCNAはあくまでネットワーク基礎の証明であり、それ単体で年齢のハンデを覆すものではありません。前職で培った社会人としての強みと掛け合わせて初めて、ミドルの転職で強みになります。逆に言えば、その掛け算ができる人にとってCCNAは費用対効果の良い投資になり得ます。
+              ミドルが特に意識したいのは、<strong>「資格＋年齢相応の付加価値」</strong>という発想です。20代の未経験者なら資格と意欲だけで通る求人でも、30〜40代には『チームでの調整経験』『顧客折衝』『前職での改善実績』など、年齢に見合う何かが求められます。CCNAはあくまでネットワーク基礎の証明であり、それ単体で年齢のハンデを覆すものではありません。前職で培った社会人としての強みと組み合わせて初めて、ミドル層の転職で強みになります。逆に言えば、その組み合わせを示せる人にとって、CCNAは費用対効果の高い投資になり得ます。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、未経験からの30代転職は<Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのITエンジニア転職</Link>も合わせてご覧ください。
@@ -303,7 +303,7 @@ export default function CcnaCertPage() {
             {[
               { n: "STEP 1", t: "基礎理解とテキスト学習", d: "TCP/IP、ルーティング、スイッチング、サブネット計算を体系的に学びます。市販テキスト1冊を軸にすることをおすすめします。" },
               { n: "STEP 2", t: "ハンズオン（実機・シミュレータ）", d: "Cisco Packet Tracerや中古機材で実際にコマンドを打ちます。設定例をログとして残します。" },
-              { n: "STEP 3", t: "模擬試験で仕上げ→受験", d: "出題範囲を模擬問題で詰め、弱点を潰してから受験します。合格後は検証構成をポートフォリオ化します。" },
+              { n: "STEP 3", t: "模擬試験で仕上げて受験", d: "出題範囲を模擬問題で確認し、弱点を克服してから受験します。合格後は検証構成をポートフォリオとしてまとめます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -315,7 +315,7 @@ export default function CcnaCertPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            併取得の方向性：サーバー／Linux側を固めるなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>、IT全般の基礎知識を国家資格で補うなら<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>、クラウド基盤に広げるなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>が定番の組み合わせです。職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も参考にしてください。
+            併取得の方向性としては、サーバー／Linux側を固めるなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>、IT全般の基礎知識を国家資格で補うなら<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>、クラウド基盤に広げるなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>が定番の組み合わせです。職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も参考にしてください。
           </p>
         </section>
 

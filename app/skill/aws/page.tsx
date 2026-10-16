@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：AWS転職市場での進め方" },
+  { id: "conclusion", label: "AWS転職市場での進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "cert", label: "AWS認定資格の活かし方" },
   { id: "level", label: "求められる経験レベル" },
@@ -38,11 +38,11 @@ const faqs = [
   },
   {
     q: "AWS認定資格を取れば未経験でも転職できますか？",
-    a: "資格だけで実務未経験を補うのは難しいのが実情です。ただしオンプレやネットワーク・Linuxの実務経験がある方が、AWS Solutions Architect Associate（SAA）を取得し個人でハンズオン環境を作る、というルートは現実的です。「資格＋小さくても手を動かした成果物」をセットで示すのが鍵です。",
+    a: "資格だけで実務未経験を補うのは難しいのが実情です。ただしオンプレやネットワーク・Linuxの実務経験がある方が、AWS Solutions Architect Associate（SAA）を取得し個人でハンズオン環境を作る、というルートは現実的です。「資格＋小さくても手を動かした成果物」をセットで示すことが重要です。",
   },
   {
     q: "AWSエンジニアの求人はどの転職サービスが強いですか？",
-    a: "IT/Web特化で高年収求人比率が高いレバテックキャリア、年収750万円以上のハイクラス層を狙えるビズリーチ、求人数が国内最大級のリクルートエージェントITの併用が定番です。レバテックは利用者の約8割が20〜30代で、ミドル層も対象に含まれます（2026年6月時点・各社公表/二次情報）。",
+    a: "IT/Web特化で高年収求人比率が高いレバテックキャリア、年収750万円以上のハイクラス層を狙えるビズリーチ、求人数が国内最大級のリクルートエージェントITの併用が一般的です。レバテックは利用者の約8割が20〜30代で、ミドル層も対象に含まれます（2026年6月時点・各社公表/二次情報）。",
   },
   {
     q: "オンプレミスからAWSへキャリアチェンジできますか？",
@@ -67,9 +67,9 @@ const salaryByAge = [
 
 const certTable = [
   ["基礎（Foundational）", "Cloud Practitioner（CLF）", "クラウド全体像の理解。学習の入口"],
-  ["アソシエイト（Associate）", "Solutions Architect Associate（SAA）など", "実務1年程度を想定します。転職でまず狙う層"],
-  ["プロフェッショナル（Professional）", "Solutions Architect Professional / DevOps Engineer Professional", "AWS公式は2年以上の経験を推奨します。上流案件で評価"],
-  ["専門知識（Specialty）", "Security / Advanced Networking など", "特定領域の深い専門性を示します"],
+  ["アソシエイト（Associate）", "Solutions Architect Associate（SAA）など", "実務1年程度を想定。転職でまず目指す層"],
+  ["プロフェッショナル（Professional）", "Solutions Architect Professional / DevOps Engineer Professional", "AWS公式は2年以上の経験を推奨。上流案件で評価"],
+  ["専門知識（Specialty）", "Security / Advanced Networking など", "特定領域の深い専門性の証明"],
 ];
 
 export default function AwsSkillPage() {
@@ -136,7 +136,7 @@ export default function AwsSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AWS転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">AWS転職市場での進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               AWSエンジニアの転職は、<strong>「単なる構築・運用」から「設計・自動化・信頼性」へ役割を上げて見せられるか</strong>で年収が大きく変わります。進め方は次の3点です。
@@ -154,7 +154,7 @@ export default function AwsSkillPage() {
         <section id="market" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">市場・年収データ</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            レバテックキャリアの公表統計では、AWSに関わるエンジニアの平均年収は<strong>約509万円・中央値550万円</strong>です（2025年1月時点・career.levtech.jp保有求人ベース）。これはエンジニア全体の平均（同統計で約504万円）と同程度〜やや上で、AWSスキル単体より「どの役割で使うか」で水準が決まることを示します。
+            レバテックキャリアの公表統計では、AWSに関わるエンジニアの平均年収は<strong>約509万円・中央値550万円</strong>です（2025年1月時点・career.levtech.jp保有求人ベース）。これはエンジニア全体の平均（同統計で約504万円）と同程度〜やや上で、AWSスキル単体より「どの役割で使うか」で水準が決まることを示しています。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             年代別の水準感は、レバテックが公表する正社員SEの年代別平均年収が参考になります。
@@ -212,7 +212,7 @@ export default function AwsSkillPage() {
           </div>
           <p className="text-xs text-slate-500 mb-3">出典: AWS Certification 公式（aws.amazon.com/certification、2026年6月時点）</p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            資格は「持っているか」より「学習内容を実務で使えるか」で評価されます。たとえばSAAの学習で得たマルチAZ設計の知識を、実際の冗長化やコスト最適化にどう適用したかを語れると、書類・面接の両方で効きます。
+            資格は「持っているか」より「学習内容を実務で使えるか」で評価されます。たとえばSAAの学習で得たマルチAZ設計の知識を、実際の冗長化やコスト最適化にどう適用したかを語れると、書類・面接の両方で評価につながります。
           </p>
         </section>
 
@@ -224,9 +224,9 @@ export default function AwsSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "実務1〜3年層（構築・運用）", d: "EC2/VPC/S3/IAMの基本構成、CloudWatchでの監視、簡単な障害対応。SAA保有が歓迎要件になりやすいです。" },
-              { t: "実務3〜6年層（設計・自動化）", d: "マルチアカウント設計、IaC（Terraform/CDK）、CI/CD、コンテナです（ECS/EKS）。年収帯が一段上がる中核ゾーンです。" },
-              { t: "実務6年以上層（アーキテクト・SRE）", d: "全体アーキテクチャ設計、SLI/SLO、コスト最適化（FinOps）、セキュリティガバナンスです。Professional認定が後押しになります。" },
+              { t: "実務1〜3年層（構築・運用）", d: "EC2/VPC/S3/IAMの基本構成、CloudWatchでの監視、簡単な障害対応が中心です。SAA保有が歓迎要件になりやすい傾向があります。" },
+              { t: "実務3〜6年層（設計・自動化）", d: "マルチアカウント設計、IaC（Terraform/CDK）、CI/CD、コンテナ（ECS/EKS）が求められます。年収帯が一段上がる中核ゾーンです。" },
+              { t: "実務6年以上層（アーキテクト・SRE）", d: "全体アーキテクチャ設計、SLI/SLO、コスト最適化（FinOps）、セキュリティガバナンスを担います。Professional認定が後押しになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -267,22 +267,22 @@ export default function AwsSkillPage() {
         <section id="find" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            AWS求人は「どこに強い求人が集まるか」を押さえて使い分けるのが効率的です。以下は当サイトのデータシート（2026年6月時点・各社公表/二次情報）に基づく整理です。
+            AWS求人は「どのサービスにどの領域の求人が集まるか」を押さえて使い分けるのが効率的です。以下は当サイトのデータシート（2026年6月時点・各社公表/二次情報）に基づく整理です。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化です。利用者の約8割が20〜30代で、高年収求人比率が高いとされます。クラウド・SRE求人を技術に明るいアドバイザー経由で探せます。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化型のエージェントです。利用者の約8割が20〜30代で、高年収求人比率が高いとされます。クラウド・SRE求人を技術に明るいアドバイザー経由で探せます。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-slate-600 mb-2">ハイクラス（年収750万円以上が一つの目安）・スカウト型です。クラウドアーキテクト/SREマネージャー層を狙う場合に有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">ハイクラス（年収750万円以上が一つの目安）向けのスカウト型サービスです。クラウドアーキテクト/SREマネージャー層を狙う場合に有効です。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
-              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数です（IT公開求人110,840件・2026年5月22日時点・二次集計）。大手のクラウド移行案件まで幅広く見たい場合の併用先です。</p>
+              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数を保有しています（IT公開求人110,840件・2026年5月22日時点・二次集計）。大手のクラウド移行案件まで幅広く見たい場合の併用先です。</p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -301,7 +301,7 @@ export default function AwsSkillPage() {
             {[
               { n: "STEP 1", t: "土台の棚卸し", d: "ネットワーク・Linux・OSの基礎経験を整理します。これらはクラウドでもそのまま価値になります。" },
               { n: "STEP 2", t: "SAA取得＋ハンズオン", d: "Solutions Architect Associateを取得し、無料利用枠でVPC/EC2/S3/IAMの小構成を自作します。" },
-              { n: "STEP 3", t: "IaC化で成果物にします", d: "作った構成をTerraform/CDKでコード化し、GitHubに公開します。設計意図をREADMEで説明できる状態にします。" },
+              { n: "STEP 3", t: "IaC化による成果物づくり", d: "作った構成をTerraform/CDKでコード化し、GitHubに公開します。設計意図をREADMEで説明できる状態にします。" },
               { n: "STEP 4", t: "移行ストーリーで応募", d: "前職のオンプレ運用経験を『移行プロジェクトで活きる経験』として職務経歴書に落とし込みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -326,7 +326,7 @@ export default function AwsSkillPage() {
               ミドル層のAWS転職では、<strong>「自分で全部作れる」より「他者を巻き込んで設計・移行を進められる」</strong>ことが評価軸になります。手を動かす力に加え、要件整理・コスト判断・チームへの展開といった上流要素が差を生みます。
             </p>
             <p>
-              年収面では、レバテック公表の正社員SE平均が40代で約618万円、年収1,000万円以上の割合が40代で12.67%（2025年）と、ミドルでも高年収帯は一定数存在します。一方で「特定企業のレガシー運用に最適化されすぎた経験」は横展開しにくいため、クラウド・IaCという汎用スキルへ寄せておくのが転職市場での保険になります。
+              年収面では、レバテック公表の正社員SE平均が40代で約618万円、年収1,000万円以上の割合が40代で12.67%（2025年）と、ミドルでも高年収帯は一定数存在します。一方で「特定企業のレガシー運用に最適化されすぎた経験」は横展開しにくいため、クラウド・IaCという汎用スキルへ寄せておくことが転職市場でのリスクへの備えになります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>も合わせてご覧ください。
@@ -338,11 +338,11 @@ export default function AwsSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ <strong>SAA → 実務 → Professional</strong> の順で、資格と実務を交互に積む</li>
-            <li>✓ IaC（Terraform/CDK）を早期に習得し、手作業からコード管理へ移行する</li>
-            <li>✓ コンテナ（ECS/EKS）とCI/CDを一通り触り、SRE/プラットフォーム領域に接続する</li>
-            <li>✓ オブザーバビリティ（メトリクス・ログ・トレース）とコスト最適化（FinOps）を意識する</li>
-            <li>✓ 学んだことは小さな成果物（個人プロジェクト）にして可視化する</li>
+            <li>✓ <strong>SAA → 実務 → Professional</strong> の順で、資格と実務を交互に積みます</li>
+            <li>✓ IaC（Terraform/CDK）を早期に習得し、手作業からコード管理へ移行します</li>
+            <li>✓ コンテナ（ECS/EKS）とCI/CDを一通り触り、SRE/プラットフォーム領域につなげます</li>
+            <li>✓ オブザーバビリティ（メトリクス・ログ・トレース）とコスト最適化（FinOps）を意識します</li>
+            <li>✓ 学んだことは小さな成果物（個人プロジェクト）にして可視化します</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続的な学習</Link>、市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>が参考になります。
@@ -369,7 +369,7 @@ export default function AwsSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">AWSスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            クラウド・SRE求人に強いIT特化型エージェントで、ご自身のAWSスキルの市場価値を確認しましょう。
+            クラウド・SRE求人を扱うIT特化型エージェントで、ご自身のAWSスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

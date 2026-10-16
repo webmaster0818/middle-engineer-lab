@@ -30,8 +30,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["conclusion", "難易度と向いているエンジニア"],
+  ["basic", "基本データ（出典あり）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術領域（公開情報の範囲）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -98,8 +98,8 @@ export default function KyoceraCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】京セラの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 京セラの有価証券報告書（2025年3月期・提出会社単体）に記載された平均年間給与は693万円、平均年齢は40.0歳です（技術職に限定しない全従業員平均）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与693万円（2025年3月期 有価証券報告書・提出会社単体／全従業員平均、平均年齢40.0歳）</li><li>・近年は680〜720万円台で推移（2022年3月期725万円→2024年3月期692万円→2025年3月期693万円）</li><li>・賞与・基準外賃金を含む全従業員平均で、エンジニア個人の年収は職種・等級・実績により異なります</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>京セラの有価証券報告書（2025年3月期・提出会社単体）に記載された平均年間給与は693万円、平均年齢は40.0歳です（技術職に限定しない全従業員平均）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与693万円（2025年3月期 有価証券報告書・提出会社単体／全従業員平均、平均年齢40.0歳）</li><li>・近年は680〜720万円台で推移（2022年3月期725万円→2024年3月期692万円→2025年3月期693万円）</li><li>・賞与・基準外賃金を含む全従業員平均（エンジニア個人の年収は職種・等級・実績により変動）</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -118,14 +118,14 @@ export default function KyoceraCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              京セラは<strong>電子部品・半導体関連部品・通信機器・組込まで技術領域が広い、多角化したメーカー大手</strong>です。年収は提出会社単体の全従業員平均で693万円です（2025年3月期・有価証券報告書）。製造業出身で電子部品・半導体・組込の専門性を持つミドルエンジニアにとって、これまでの業務知識が活きやすい環境です。
+              京セラは<strong>電子部品・半導体関連部品・通信機器・組込まで技術領域が広い、多角化したメーカー大手</strong>です。年収は提出会社単体の全従業員平均で693万円（2025年3月期・有価証券報告書）となっています。製造業出身で電子部品・半導体・組込の専門性を持つミドルエンジニアにとって、これまでの業務知識が活きやすい環境です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：電子部品・半導体・通信・組込の実務経験があり、ハードウェアに近い領域で専門性を磨きたい人</li>
               <li>● <strong>向いていない人</strong>：純粋なWeb系のモダン開発のみを志向し、製造業ドメインに関心が持てない人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢40.0歳と年齢層に幅があり、専門性・実績があれば年齢はハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：平均年齢40.0歳と年齢層に幅があり、専門性・実績があれば年齢がハンデになりにくい環境</li>
             </ul>
           </div>
         </section>
@@ -142,7 +142,7 @@ export default function KyoceraCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -155,7 +155,7 @@ export default function KyoceraCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2025年3月期 有価証券報告書（提出会社＝京セラ株式会社単体）に基づく全従業員平均値。賞与・基準外賃金を含み、技術職に限定した値ではありません。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2025年3月期 有価証券報告書（提出会社＝京セラ株式会社単体）に基づく全従業員平均値です。賞与・基準外賃金を含み、技術職に限定した値ではありません。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -185,9 +185,9 @@ export default function KyoceraCompanyPage() {
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>電子部品・半導体パッケージ</strong>：コンデンサ・コネクタ・半導体実装用部品などの設計・開発領域</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>通信機器・端末</strong>：通信モジュール・端末の組込ソフトウェア開発領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>組込ソフトウェア</strong>：機器制御に関わる組込開発領域です。一般にC/C++等が想定されるが公式の統一情報はなし</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>組込ソフトウェア</strong>：機器制御に関わる組込開発領域（一般にC/C++等が想定されるものの、公式の統一情報はなし）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>IoT／DX・社内システム</strong>：製造現場のIoT化・DX推進領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は非公開のため、<strong>各募集要項での確認が必要</strong></span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: 京セラ公式 事業情報・キャリア採用サイトで確認できる技術領域に基づく記述です。推測の言語表は掲載していません。</p>
@@ -262,9 +262,9 @@ export default function KyoceraCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">京セラ転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・電子部品領域に強く、技術面接対策のサポートも受けられます。" },
-              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" },
-              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・電子部品領域に強みがあり、技術面接対策のサポートも受けられます。" },
+              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手メーカーの専門職・高年収ポジションのスカウトが届きやすくなります。" },
+              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数を有し、メーカー・大手の求人を幅広くカバーしています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

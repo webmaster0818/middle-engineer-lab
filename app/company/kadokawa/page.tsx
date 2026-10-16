@@ -29,8 +29,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["conclusion", "難易度と向いているエンジニア"],
+  ["basic", "基本データ（出典あり）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: "KADOKAWAの平均年収はいくらですか？",
-    a: "2025年3月期の有価証券報告書（提出会社単体）によると、株式会社KADOKAWAの平均年間給与は885万円、平均年齢は41.3歳です。これは出版・IPを含む単体（約2,343名）の全社員平均で、出版業界水準としては高めです。エンジニアが多く所属するドワンゴ等の事業会社の水準とは分けて読む必要があります。",
+    a: "2025年3月期の有価証券報告書（提出会社単体）によると、株式会社KADOKAWAの平均年間給与は885万円、平均年齢は41.3歳です。これは出版・IPを含む単体（約2,343名）の全社員平均で、出版業界の中では高い水準にあります。エンジニアが多く所属するドワンゴ等の事業会社の水準とは分けて読む必要があります。",
   },
   {
     q: "KADOKAWAとドワンゴの関係は？エンジニア採用はどちら？",
@@ -69,7 +69,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもKADOKAWA（ドワンゴ）に転職できますか？",
-    a: "KADOKAWA単体の平均年齢は41.3歳（2025年3月期）と、Web系企業の中では年齢層が高めです。大規模Webサービスの設計・運用、Scala/TypeScript等での開発経験、メディア・コンテンツ領域への理解があれば、30代・40代のミドルエンジニアも評価されやすい傾向です。",
+    a: "KADOKAWA単体の平均年齢は41.3歳（2025年3月期）と、Web系企業の中では年齢層が比較的高い組織です。大規模Webサービスの設計・運用、Scala/TypeScript等での開発経験、メディア・コンテンツ領域への理解があれば、30代・40代のミドルエンジニアも評価されやすい傾向があります。",
   },
 ];
 
@@ -97,7 +97,7 @@ export default function KadokawaCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】KADOKAWAの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社KADOKAWAの平均年間給与は885万円です（2025年3月期 有価証券報告書・提出会社単体、平均年齢41.3歳）。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社KADOKAWAの平均年間給与は885万円です（2025年3月期 有価証券報告書・提出会社単体、平均年齢41.3歳）。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 885万円です（2025年3月期 有価証券報告書）。株式会社KADOKAWA単体（約2,343名）の全社員平均で、出版・IP職を含みます。</li><li>・推移は2023年3月期857万円→2024年・2025年3月期は885万円です（各期 有価証券報告書）。エンジニアが多く所属するドワンゴ等の水準とは分けて読む必要があります。</li><li>・エンジニア職の提示額は応募する会社（ドワンゴ等）・ポジション・等級により幅があるため、個別求人・面談で確認が必要です。</li></ul>
         </div>
 
@@ -117,14 +117,14 @@ export default function KadokawaCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               KADOKAWAは<strong>出版・IPの強みと、ニコニコ（ドワンゴ）の大規模Webサービス開発を併せ持つメディアミックス企業</strong>です。エンジニアの中心的な活躍領域はドワンゴ等で、ScalaとTypeScriptを軸とした開発が特徴です。有価証券報告書の単体平均年収885万円（2025年3月期）は出版を含む全社員平均で、エンジニア職の水準とは分けて読む必要があります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：大規模Webサービス（ニコニコ等）の開発・運用に関心があり、Scala/TypeScript等の経験を活かしたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：コンテンツ・メディア領域への関心が薄く、業務系一辺倒を志向する人</li>
-              <li>● <strong>30代・40代</strong>：大規模サービス運用やメディア領域の経験があれば年齢層の高めな組織で活きやすいです</li>
+              <li>● <strong>30代・40代</strong>：大規模サービス運用やメディア領域の経験があれば、年齢層が比較的高い組織で活かしやすい環境</li>
             </ul>
           </div>
         </section>
@@ -141,7 +141,7 @@ export default function KadokawaCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -189,13 +189,13 @@ export default function KadokawaCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>開発ツール</strong>：git/GitHub、CI/CD（CircleCI 等）</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: ドワンゴ公式 採用情報／技術発信等の公開情報（2026年6月時点）。サービス別の構成です。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: ドワンゴ公式 採用情報／技術発信等の公開情報（2026年6月時点）。構成はサービスにより異なります。</p>
         </section>
 
         <section id="salary" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有価証券報告書ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            上場企業であるKADOKAWAは、有価証券報告書で提出会社（単体）の平均年間給与を開示しています。<strong>2025年3月期は885万円（平均年齢41.3歳・単体）</strong>で、出版業界水準としては高めです。ただしこれは出版・IPを含む全社員平均で、エンジニア職の水準とは分けて読む必要があります。
+            上場企業であるKADOKAWAは、有価証券報告書で提出会社（単体）の平均年間給与を開示しています。<strong>2025年3月期は885万円（平均年齢41.3歳・単体）</strong>で、出版業界の中では高い水準といえます。ただしこれは出版・IPを含む全社員平均で、エンジニア職の水準とは分けて読む必要があります。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -254,7 +254,7 @@ export default function KadokawaCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              KADOKAWA単体の平均年齢は41.3歳（2025年3月期）と、Web系企業の中では年齢層が高めです。ニコニコのような長期運用サービスを抱えるため、<strong>大規模サービスの安定運用や技術的負債との向き合い、アーキテクチャ改善といったミドルエンジニアの強みが活きやすい</strong>環境です。
+              KADOKAWA単体の平均年齢は41.3歳（2025年3月期）と、Web系企業の中では年齢層が比較的高い傾向にあります。ニコニコのような長期運用サービスを抱えるため、<strong>大規模サービスの安定運用や技術的負債との向き合い、アーキテクチャ改善といったミドルエンジニアの強みが活きやすい</strong>環境です。
             </p>
             <p>
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。KADOKAWA単体平均（885万円）はこれを上回りますが、これは出版・IPを含む全社員平均で、エンジニアの提示額は応募会社（ドワンゴ等）・ポジション次第です。30代・40代は応募先ごとの水準を確認することが重要です。
@@ -269,8 +269,8 @@ export default function KadokawaCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">KADOKAWA転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。メガベンチャー・メディア系求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。メガベンチャー・メディア系求人に強みがあり、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

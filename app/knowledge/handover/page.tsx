@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：人ではなく仕組みに残す" },
+  { id: "conclusion", label: "人ではなく仕組みに残す" },
   { id: "precondition", label: "前提：引き継ぎ完了を退職の条件にはできない" },
   { id: "template", label: "引き継ぎドキュメントの構成テンプレート" },
   { id: "sample", label: "そのまま使える記入サンプル" },
@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const template = [
-  { name: "担当業務一覧", desc: "担当しているプロジェクト・サービス・運用業務を棚卸し。それぞれの目的、ステークホルダー、現在の状況を1行ずつでも明記します。" },
+  { name: "担当業務一覧", desc: "担当しているプロジェクト・サービス・運用業務を棚卸しします。それぞれの目的、ステークホルダー、現在の状況を1行ずつでも明記します。" },
   { name: "システム構成", desc: "アーキテクチャ図、使用技術スタック、外部サービス連携、ネットワーク構成です。図があれば最新化します。" },
   { name: "運用手順", desc: "デプロイ手順、リリースフロー、障害対応フロー、監視・アラート設定、バックアップ・復旧手順です。" },
-  { name: "アカウント・権限", desc: "各種クラウド・SaaS・リポジトリのアカウントとアクセス権限です。個人アカウントと会社アカウントの切り分け、APIキーの棚卸し。" },
+  { name: "アカウント・権限", desc: "各種クラウド・SaaS・リポジトリのアカウントとアクセス権限を整理します。個人アカウントと会社アカウントを切り分け、APIキーも棚卸しします。" },
   { name: "定例タスク", desc: "日次・週次・月次の定期作業、バッチの内容と実行タイミング、棚卸し・締め作業など忘れやすいルーティンです。" },
   { name: "連絡先一覧", desc: "関係部署、社外ベンダー、問い合わせ窓口、エスカレーション先です。誰に何を聞けばよいかをまとめます。" },
   { name: "トラブル履歴・ナレッジ", desc: "過去に起きた障害とその原因・対処、ハマりやすいポイント、回避策です。暗黙知の文書化はここが要です。" },
@@ -39,8 +39,8 @@ const template = [
 const schedule = [
   { period: "退職日から逆算", title: "担当業務を棚卸し", desc: "まず自分の担当を一覧化します。ドキュメント化が必要な範囲と優先度を見積もります。" },
   { period: "4〜5週間前", title: "ドキュメント整備を開始", desc: "構成テンプレに沿って文書化します。属人化が強い領域・障害時に困る領域から優先して着手します。" },
-  { period: "2〜3週間前", title: "後任へのOJT・レクチャー", desc: "後任がいる場合は、ドキュメントを見ながら一緒に作業し、疑問点をその場で潰します。" },
-  { period: "最終週", title: "残課題の引き渡し・予備日", desc: "未解決事項を整理して引き渡し。質問対応のための予備日を残しておくと安心です。" },
+  { period: "2〜3週間前", title: "後任へのOJT・レクチャー", desc: "後任がいる場合は、ドキュメントを見ながら一緒に作業し、疑問点をその場で解消します。" },
+  { period: "最終週", title: "残課題の引き渡し・予備日", desc: "未解決事項を整理して引き渡します。質問対応のための予備日を残しておくと安心です。" },
 ];
 
 const faqs = [
@@ -113,7 +113,7 @@ export default function HandoverPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの引き継ぎドキュメントはどう作る？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3">
-              <strong>結論: 引き継ぎは口頭ではなくドキュメントとリポジトリに集約し、8項目のテンプレに沿って「後任が読めば作業を再現できる」粒度で残すのが基本です。</strong>
+              <strong>引き継ぎは口頭ではなくドキュメントとリポジトリに集約し、8項目のテンプレに沿って「後任が読めば作業を再現できる」粒度で残すのが基本です。</strong>
             </p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
               <li>・構成は8項目（担当業務／システム構成／運用手順／アカウント・権限／定例タスク／連絡先／トラブル履歴／残課題）を骨組みにします。</li>
@@ -149,10 +149,10 @@ export default function HandoverPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：人ではなく仕組みに残す</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">人ではなく仕組みに残す</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・引き継ぎは口頭説明でなく<strong>ドキュメントとリポジトリ</strong>に集約します。</li>
-              <li>・構成は<strong>8項目テンプレです</strong>（担当業務／構成／運用手順／権限／定例／連絡先／トラブル履歴／残課題）。</li>
+              <li>・構成は<strong>8項目のテンプレート</strong>です（担当業務／構成／運用手順／権限／定例／連絡先／トラブル履歴／残課題）。</li>
               <li>・エンジニア特有の<strong>属人化・暗黙知</strong>は「なぜそうしたか」まで言語化します。</li>
               <li>・<strong>後任未定でも</strong>チーム・上司宛に優先度を付けて文書化しておきます。</li>
             </ul>
@@ -165,7 +165,7 @@ export default function HandoverPage() {
             まず押さえておきたいのは、引き継ぎの完了を退職や退職金支給の条件にすることはできないと考えられている点です。退職そのものは、就業規則や法律上のルールに沿って成立します。「引き継ぎが終わるまで辞めさせない」という引き止めに、必要以上に縛られる必要はありません。
           </p>
           <p className="text-slate-600 leading-relaxed text-sm">
-            一方で、丁寧な引き継ぎは「やらされること」ではなく「自分のためにやること」です。後任が困らない状態を残せるかは、業界内の評判や転職後のリファレンスに直結します。法的に縛られないからこそ、自分の意思で質の高い引き継ぎを残すのがミドルの流儀です。なお、引き止めや条件をめぐる個別のトラブルは専門家にご相談ください。
+            一方で、丁寧な引き継ぎは「やらされること」ではなく「自分のためにやること」です。後任が困らない状態を残せるかは、業界内の評判や転職後のリファレンスに直結します。法的に縛られないからこそ、自分の意思で質の高い引き継ぎを残すことが、ミドル層に求められる姿勢です。なお、引き止めや条件をめぐる個別のトラブルは専門家にご相談ください。
           </p>
         </section>
 
@@ -199,7 +199,7 @@ export default function HandoverPage() {
 　目的：◯◯機能の提供／関係者：PdM ◯◯さん、フロント ◯◯さん
 　状況：機能追加◯件が進行中（詳細は「残課題」参照）
 ・夜間バッチ ◯◯の運用監視（副担当）
-　毎日2:00実行です。失敗時はSlack #alert に通知します。一次対応は「運用手順」参照`}</p>
+　毎日2:00実行、失敗時はSlack #alert に通知。一次対応は「運用手順」参照`}</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">運用手順（デプロイ／記入例）</h3>
@@ -212,10 +212,10 @@ export default function HandoverPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">トラブル履歴・暗黙知（記入例）</h3>
-              <p className="text-sm text-slate-600 bg-slate-50 rounded p-3 whitespace-pre-line">{`・◯◯のタイムアウトが稀に発生 → 原因は外部API ◯◯のレート制限です。
-　対処：リトライ設定を◯回にします。根本対応は未実施（残課題に記載）
-・◯◯の設定ファイルは手動更新です。コード化されていないので変更時は要注意
-・このサービスは過去の経緯で◯◯ライブラリを使用します。安易な置き換えは不可`}</p>
+              <p className="text-sm text-slate-600 bg-slate-50 rounded p-3 whitespace-pre-line">{`・◯◯のタイムアウトが稀に発生 → 原因は外部API ◯◯のレート制限
+　対処：リトライ設定を◯回に変更。根本対応は未実施（残課題に記載）
+・◯◯の設定ファイルは手動更新。コード化されていないため変更時は要注意
+・このサービスは過去の経緯で◯◯ライブラリを使用。安易な置き換えは不可`}</p>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-2">※ 記入例はあくまで粒度の参考です。実際の構成・固有名詞に置き換えて使用してください。</p>
@@ -224,7 +224,7 @@ export default function HandoverPage() {
         <section id="engineer" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア特有：属人化・インフラ・暗黙知</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            エンジニアの引き継ぎが難しいのは、コードやインフラに「書かれていない前提」が多いからです。コードコメントやコミット履歴だけでは伝わらない暗黙知を、いかに言語化するかが勝負どころです。
+            エンジニアの引き継ぎが難しいのは、コードやインフラに「書かれていない前提」が多いからです。コードコメントやコミット履歴だけでは伝わらない暗黙知を、いかに言語化するかが重要なポイントです。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -258,7 +258,7 @@ export default function HandoverPage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 有給消化に入る前に引き継ぎを完了させる前提で計画すると安心です。有給の扱いは<Link href="/knowledge/paid-leave/" className="text-petrol hover:underline">有給消化の法律論</Link>、全体の段取りは<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照します。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 有給消化に入る前に引き継ぎを完了させる前提で計画すると安心です。有給の扱いは<Link href="/knowledge/paid-leave/" className="text-petrol hover:underline">有給消化の法律論</Link>、全体の段取りは<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照してください。</p>
         </section>
 
         <section id="no-successor" className="mb-10 scroll-mt-20">
@@ -281,7 +281,7 @@ export default function HandoverPage() {
                 "担当システムのアーキテクチャ図・設計ドキュメントを最新化しました",
                 "デプロイ・リリース・障害対応・監視設定など運用手順を整備しました",
                 "未解決のバグ・技術負債を一覧化し、優先度を付けて共有しました",
-                "外部サービスのアカウント・APIキーを棚卸しし、個人/会社を切り分けた",
+                "外部サービスのアカウント・APIキーを棚卸しし、個人/会社を切り分けました",
                 "CI/CDパイプライン・インフラ権限・リポジトリ管理権限を移譲しました",
                 "定例タスク・問い合わせ窓口・関係部署の連絡先を引き渡しました",
                 "過去のトラブル履歴と回避策（暗黙知）を文書化しました",
@@ -301,7 +301,7 @@ export default function HandoverPage() {
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">丁寧な引き継ぎがリファレンスに効く</h3>
+              <h3 className="font-bold text-slate-800 mb-2">丁寧な引き継ぎはリファレンスにも影響する</h3>
               <p className="text-sm text-slate-600">IT業界は再会が多く、前職の上司や同僚がリファレンスチェックの相手になることもあります。後任が困らない状態を残せたかは、後々の評判として返ってきます。リファラル経由の機会にも影響します。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -331,7 +331,7 @@ export default function HandoverPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">次のキャリアの相談を</h2>
+          <h2 className="text-xl font-bold mb-3">次のキャリアの相談先</h2>
           <p className="text-blue-100 text-sm mb-4">
             退職と引き継ぎの段取りに迷ったら、IT特化型エージェントに無料で相談できます。
           </p>

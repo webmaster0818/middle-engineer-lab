@@ -16,7 +16,7 @@ const DESC =
   "医療系SE・製薬エンジニアからヘルステック・医療AI・遠隔医療への転職方法を解説します。活かせるスキルと埋めるギャップ、年収の考え方、進め方を30代40代視点で紹介します。";
 
 const toc = [
-  { id: "conclusion", label: "結論：医療×ITは転職市場で希少" },
+  { id: "conclusion", label: "医療×ITは転職市場で希少" },
   { id: "trend", label: "ヘルステックのIT化・採用動向" },
   { id: "skills", label: "活かせるスキル／埋めるギャップ" },
   { id: "patterns", label: "転職パターン（職種×企業タイプ）" },
@@ -32,11 +32,11 @@ const toc = [
 ];
 
 const skillTable = [
-  ["電子カルテ・医事会計の業務知識", "そのまま活きます", "医療現場のワークフロー理解はヘルステックPdM・SaaS開発で希少"],
-  ["HL7 FHIR / DICOM など医療情報標準", "そのまま活きます", "データ連携・相互運用性の設計で直接評価されます"],
-  ["医療法・個人情報保護・薬機法の理解", "そのまま活きます", "SaMDや医療データ事業のコンプライアンス設計に必須"],
-  ["モダンな言語（Python / TypeScript）", "要習得", "Web系・スタートアップの開発はモダンスタックが前提"],
-  ["クラウド（AWS / GCP）", "要習得", "クラウド型電子カルテ・医療SaaSはクラウド運用が中心"],
+  ["電子カルテ・医事会計の業務知識", "そのまま強み", "医療現場のワークフローを理解している人材は、ヘルステックPdM・SaaS開発で希少です"],
+  ["HL7 FHIR / DICOM など医療情報標準", "そのまま強み", "データ連携・相互運用性の設計で直接評価されます"],
+  ["医療法・個人情報保護・薬機法の理解", "そのまま強み", "SaMDや医療データ事業のコンプライアンス設計に欠かせません"],
+  ["モダンな言語（Python / TypeScript）", "要習得", "Web系・スタートアップの開発はモダンスタックが前提です"],
+  ["クラウド（AWS / GCP）", "要習得", "クラウド型電子カルテ・医療SaaSはクラウド運用が中心です"],
   ["機械学習の基礎（医療AI志望）", "要習得", "画像診断支援・自然言語処理の開発で求められます"],
 ];
 
@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "在職中でも転職活動は進められますか？",
-    a: "可能です。多くのエージェントはオンライン面談や夜間・休日対応に対応しています。まずはスキルの棚卸しと求人レンジの確認から始め、応募は条件に合うものに絞ると在職中でも無理なく進められます。",
+    a: "可能です。多くのエージェントはオンライン面談や夜間・休日の相談に対応しています。まずはスキルの棚卸しと求人レンジの確認から始め、応募は条件に合うものに絞ると在職中でも無理なく進められます。",
   },
 ];
 
@@ -143,15 +143,15 @@ export default function HealthcarePage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：医療×ITの掛け合わせは転職市場で希少</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">医療×ITの掛け合わせは転職市場で希少</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">
               医療系の業務知識を持つエンジニアのヘルステック転職は、<strong>十分に現実的</strong>です。ヘルステックでは医療現場のワークフロー、医療情報標準（HL7 FHIR／DICOM）、医療関連法規の理解が直接価値になり、これらは後から参入する純粋なIT人材が短期間で身につけにくい領域だからです。
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
-              <li>・<strong>強み</strong>：医療業務知識・規制理解はそのまま活きる希少資産</li>
-              <li>・<strong>埋めるべきギャップ</strong>：モダンな言語とクラウド、（AI志望なら）機械学習の基礎</li>
-              <li>・<strong>進め方</strong>：経験の棚卸し → スキル補強 → IT特化エージェントで求人レンジ確認</li>
+              <li>・<strong>強み</strong>：医療業務知識・規制理解は、そのまま活かせる希少な強みです</li>
+              <li>・<strong>埋めるべきギャップ</strong>：モダンな言語とクラウド、（AI志望なら）機械学習の基礎です</li>
+              <li>・<strong>進め方</strong>：経験の棚卸し → スキル補強 → IT特化エージェントで求人レンジ確認の順に進めます</li>
             </ul>
           </div>
         </section>
@@ -176,7 +176,7 @@ export default function HealthcarePage() {
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という追い風</h3>
+              <h3 className="font-bold text-slate-800 mb-2">IT人材不足という背景</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 経済産業省『IT人材需給に関する調査』（2019年3月公表）の試算では、2030年に最大約79万人のIT人材が不足するとされています。これは特定業界に限った数字ではありませんが、ドメイン知識を持つエンジニアが希少であるという全体傾向の背景として参考になります。
               </p>
@@ -202,7 +202,7 @@ export default function HealthcarePage() {
                     <th className="px-4 py-3 text-left font-medium text-slate-700 align-top">{skill}</th>
                     <td
                       className={`px-4 py-3 font-medium whitespace-nowrap align-top ${
-                        status === "そのまま活きます" ? "text-petrol" : "text-amber-600"
+                        status === "そのまま強み" ? "text-petrol" : "text-amber-600"
                       }`}
                     >
                       {status}
@@ -268,8 +268,8 @@ export default function HealthcarePage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">慎重に検討したい人</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
-                  "医療ドメインの経験がなく、技術力だけを強みにしたい",
-                  "規制や医療現場の制約に向き合う仕事を避けたい",
+                  "医療ドメインの経験がなく、技術力だけを強みにしたいと考えています",
+                  "規制や医療現場の制約に向き合う仕事を避けたいと考えています",
                   "学習に時間を割けず、即戦力の技術力も足りません",
                   "短期間での大幅な年収アップだけを目的にしています",
                 ].map((t, i) => (
@@ -338,7 +338,7 @@ export default function HealthcarePage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">クラウド型電子カルテ・医療SaaS</h3>
-              <p className="text-sm text-slate-600">医療機関向けの基幹システムをクラウドで提供する企業です。電子カルテ・医事会計の業務知識がそのまま活きやすいです。</p>
+              <p className="text-sm text-slate-600">医療機関向けの基幹システムをクラウドで提供する企業です。電子カルテ・医事会計の業務知識がそのまま活きやすくなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">遠隔医療・オンライン診療プラットフォーム</h3>
@@ -362,7 +362,7 @@ export default function HealthcarePage() {
               { step: "1", title: "医療業界の経験を棚卸しする", desc: "電子カルテ導入、医事会計開発、院内ネットワーク構築など携わった案件と成果を具体的に整理します。HL7・DICOM・医療法対応の経験も明記します。" },
               { step: "2", title: "モダン開発スキルを補強する", desc: "Python・TypeScript・クラウド（AWS/GCP）の基礎を学びます。医療AI志望ならscikit-learnやTensorFlowなど機械学習ライブラリにも触れておきます。" },
               { step: "3", title: "ヘルステック領域をリサーチする", desc: "遠隔医療・医療AI・PHR・デジタル治療（DTx）などのうち、自分の医療知識が最も活きる領域を見極めます。" },
-              { step: "4", title: "IT特化エージェントで求人レンジを確認", desc: "レバテックキャリア・doda ITエンジニアなどに登録し、実際の医療IT求人と提示年収レンジを比較します。" },
+              { step: "4", title: "IT特化エージェントで求人レンジを確認する", desc: "レバテックキャリア・doda ITエンジニアなどに登録し、実際の医療IT求人と提示年収レンジを比較します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -390,7 +390,7 @@ export default function HealthcarePage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートB：既存の開発スキルにモダンスタックを足す</h3>
-              <p className="text-sm text-slate-600">医療システム開発の経験者が、Python・TypeScript・クラウドを補強してヘルステックのエンジニア職を目指す道があります。学習成果を小さな制作物で示すと伝わりやすいです。</p>
+              <p className="text-sm text-slate-600">医療システム開発の経験者が、Python・TypeScript・クラウドを補強してヘルステックのエンジニア職を目指す道があります。学習成果を小さな制作物で示すと伝わりやすくなります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートC：データ・AI領域へ寄せる</h3>
@@ -454,7 +454,7 @@ export default function HealthcarePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">医療の専門知識をヘルステックで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">医療の専門知識をヘルステックで活かすために</h2>
           <p className="text-blue-100 text-sm mb-4">
             まずはIT特化型エージェントに相談し、医療IT求人の実際のレンジと自分の市場価値を確認しましょう。
           </p>

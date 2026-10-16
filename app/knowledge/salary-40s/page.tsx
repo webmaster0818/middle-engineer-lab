@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：40代の年収相場と戦略" },
+  { id: "conclusion", label: "40代の年収相場と戦略" },
   { id: "data", label: "40代エンジニアの年収データ（出典付き）" },
   { id: "career", label: "キャリアの軸と年収の関係" },
   { id: "strategy", label: "40代で年収を維持・アップする5つの戦略" },
@@ -27,15 +27,15 @@ const toc = [
 
 const salaryData = [
   { age: "20代", salary: "約378万円", note: "経験を積む時期" },
-  { age: "30代", salary: "約499万円", note: "キャリアの軸が分かれ始めます" },
-  { age: "40代", salary: "約618万円", note: "役職・専門性で最も差が開きます" },
+  { age: "30代", salary: "約499万円", note: "キャリアの軸が分かれ始める時期" },
+  { age: "40代", salary: "約618万円", note: "役職・専門性で最も差が開く年代" },
   { age: "50代", salary: "約685万円", note: "管理職・高度専門職が牽引" },
 ];
 
 const careerAxes = [
   {
     title: "マネジメント路線",
-    desc: "エンジニアリングマネージャー、開発部長、PMなどです。チームと事業を動かす責任が報酬に反映されます。技術判断と人・予算のマネジメントを両立できる人材は、40代でも提示レンジが高くなりやすい傾向です。",
+    desc: "エンジニアリングマネージャー、開発部長、PMなどです。チームと事業を動かす責任が報酬に反映されます。技術判断と人・予算のマネジメントを両立できる人材は、40代でも提示レンジが高くなりやすい傾向があります。",
   },
   {
     title: "スペシャリスト路線",
@@ -82,24 +82,24 @@ const risks = [
     advice: "まずは現職の業務に取り入れられる新技術を1つ選び、小さな実績を作ります。",
   },
   {
-    title: "「なんでも屋」になっている",
+    title: "「なんでも屋」の状態",
     desc: "広く浅いスキルセットは、40代では評価されにくくなります。『この領域なら任せられる』という専門性が見えないと、提示レンジが伸び悩みます。",
     advice: "これまでの経験を棚卸しし、最も強い1〜2領域を専門軸として打ち出します。",
   },
   {
-    title: "役職と報酬を混同している",
+    title: "役職と報酬の混同",
     desc: "現職での役職手当を前提に高い年収を希望すると、役職なしの提示で大きく下がることがあります。役職に依存しない実力ベースの市場価値を把握することが重要です。",
     advice: "役職を外した『純粋な技術・マネジメント力』での市場相場をエージェントに確認します。",
   },
 ];
 
 const checklist = [
-  "直近3年で需要の高いスキルを1つも増やせていません",
+  "直近3年で需要の高いスキルを1つも増やせていない",
   "「この領域の専門家」と言える軸がない",
   "自分の市場価値を客観的に確認したことがない",
-  "現職の役職手当を前提に年収を考えています",
-  "転職市場での需要を把握しないまま不安だけが先行しています",
-  "マネジメントとスペシャリストの方向性が定まっていません",
+  "現職の役職手当を前提に年収を考えている",
+  "転職市場での需要を把握しないまま不安だけが先行している",
+  "マネジメントとスペシャリストの方向性が定まっていない",
 ];
 
 const faqs = [
@@ -198,20 +198,20 @@ export default function Salary40sPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】40代エンジニアの年収相場はいくら？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: レバテック公表（2025年）の年代別平均では、正社員エンジニアの40代は約618万円が相場の目安です。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>レバテック公表（2025年）の年代別平均では、正社員エンジニアの40代は約618万円が相場の目安です。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・レバテック公表（2025年）で40代の平均は約618万円です。年収1,000万円以上は40代で12.67%です（30代の8.01%を上回る）。</li><li>・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収578.5万円・平均年齢37.1歳です。</li><li>・40代は個人差が最も開く年代です。マネジメントかスペシャリストかの軸を明確にすることが鍵です。</li><li>・古い技術のまま／「なんでも屋」のままだと年収が下がるリスクがあり、専門性の打ち出しが重要です。</li></ul>
           </div>
         </section>
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：40代の年収相場と戦略</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">40代の年収相場と戦略</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               レバテックが公表する2025年の年代別平均年収では、正社員エンジニアの<strong>40代は約618万円です</strong>。年収1,000万円以上の割合は<strong>40代で12.67%</strong>とされ、30代の8.01%を上回ります。公的統計では、厚生労働省 job tagの「システムエンジニア（受託開発）」が平均年収<strong>578.5万円・平均年齢37.1歳</strong>です。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              40代の鍵は、(1) マネジメントかスペシャリストかの軸を明確にする、(2) 量より質の転職活動に切り替える、(3) 役職に依存しない実力ベースの市場価値を把握する、の3点です。古い技術にとどまったり『なんでも屋』のままだと年収が下がるリスクがあるため、専門性の打ち出しが特に重要になります。
+              40代の鍵は、(1) マネジメントかスペシャリストかの軸を明確にする、(2) 量より質の転職活動に切り替える、(3) 役職に依存しない実力ベースの市場価値を把握する、の3点です。古い技術にとどまっていたり『なんでも屋』のままだったりすると年収が下がるリスクがあるため、専門性の打ち出しが特に重要になります。
             </p>
           </div>
         </section>
@@ -333,17 +333,17 @@ export default function Salary40sPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年収の「個人差」が最大化する年代</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                40代は平均約618万円でありながら、年収1,000万円以上が12.67%いる一方で、年収が伸び悩む層もいます。30代でどの軸を選び、何を積み上げたかが、この差として表面化します。40代は『これまでの蓄積を換金する』年代であり、専門性の有無が年収を大きく分けます。
+                40代は平均約618万円でありながら、年収1,000万円以上が12.67%いる一方で、年収が伸び悩む層もいます。30代でどの軸を選び、何を積み上げたかが、この差として表面化します。40代はこれまでの蓄積が年収に表れる年代であり、専門性の有無が年収を大きく分けます。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">「年収維持」も立派な成功</h3>
+              <h3 className="font-bold text-blue-800 mb-2">「年収維持」も一つの成果</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
                 40代の転職では、年収を大きく上げることより『下げずに維持しつつ、より良い環境に移る』ことが現実的な目標になる場合があります。家族のライフイベントや働き方を含めた総合的な判断が、20代・30代以上に重要になります。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">求人の「数」より「質」を強みにする</h3>
+              <h3 className="font-bold text-blue-800 mb-2">求人の「数」より「質」を重視する</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
                 40代向けの求人は数が絞られる分、自分の強みが活きるポジションを見極める力が求められます。ハイクラス・IT特化のエージェントを使い、応募の質を高めることが成功率を左右します。
               </p>

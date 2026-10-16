@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：相談ではなく報告します。順序と前向きな理由で決める" },
+  { id: "conclusion", label: "相談ではなく報告として、順序と前向きな理由で進める" },
   { id: "law", label: "退職の法的な前提（民法627条・一般論）" },
   { id: "frame", label: "「相談」ではなく「報告」というフレーム" },
   { id: "order", label: "切り出す順序：直属上司が最初" },
@@ -42,7 +42,7 @@ const counters = [
   },
   {
     q: "「異動・チーム変更で解決できないか」",
-    a: "希望のポジションになる保証がなく、時期も不透明なことが多いです。すでに次が決まっているなら、入社日の確定を理由に丁重に断ります。",
+    a: "希望のポジションになる保証がなく、時期も不透明なことが多くあります。すでに次が決まっているなら、入社日の確定を理由に丁重に断ります。",
     script:
       "「ご提案ありがとうございます。ただ次の会社と入社日を確定しており、変更ができません。今回は退職という結論を変えるつもりはありませんので、引き継ぎに集中させてください。」",
   },
@@ -83,13 +83,13 @@ const hardCases = [
 
 const order = [
   { step: "1", title: "直属の上司", desc: "最初に伝えるのは必ず直属の上司です。先に同僚・人事・他部署へ漏れると、上司の心証を損ね交渉が難しくなります。" },
-  { step: "2", title: "上司との合意・調整", desc: "退職日と引き継ぎ方針を上司とすり合わせ。ここで時系列の大枠を握っておくと後がスムーズです。" },
+  { step: "2", title: "上司との合意・調整", desc: "退職日と引き継ぎ方針を上司とすり合わせます。ここで時系列の大枠を握っておくと後がスムーズです。" },
   { step: "3", title: "人事・正式手続き", desc: "上司の了承後に人事へ伝えます。退職届の提出、社会保険・貸与品の手続き案内を受けます。" },
   { step: "4", title: "チーム・関係者への共有", desc: "上司と相談のうえ、共有のタイミングと範囲を決定します。後任やステークホルダーへ引き継ぎを開始します。" },
 ];
 
 const timeline = [
-  { period: "2ヶ月前", title: "直属上司へ報告", desc: "1対1の場で口頭です。退職先の社名は伝えなくてよいです。法定2週間とは別に、実務目安として希望日の1.5〜2ヶ月前に切り出す人が多いとされます。" },
+  { period: "2ヶ月前", title: "直属上司へ報告", desc: "1対1の場で口頭により伝えます。退職先の社名は伝えなくても問題ありません。法定2週間とは別に、実務目安として希望日の1.5〜2ヶ月前に切り出す人が多いとされます。" },
   { period: "6週間前", title: "退職日・引き継ぎ方針の合意", desc: "上司と最終出社日・有給消化の見通し・引き継ぎ範囲を合意します。難航しそうなら早めに人事を巻き込みます。" },
   { period: "4〜5週間前", title: "引き継ぎ実施・退職届提出", desc: "ドキュメント整備とレクチャーを進めつつ、所定書式で退職届を提出します。" },
   { period: "最終週", title: "有給消化・最終出社", desc: "引き継ぎ完了後に有給休暇を消化します。PC・カード返却、アカウント整理を済ませます。" },
@@ -106,7 +106,7 @@ const faqs = [
   },
   {
     q: "カウンターオファーを受けたらどうすべきですか？",
-    a: "意思が固いなら、感謝を述べたうえで丁重に断るのが基本です。条件提示で残留しても、不満の根本が解消されず再び転職を検討するケースや、一度退職を切り出した事実が社内評価に影響するケースが指摘されています。最も効くのは『次の会社と入社日を合意済み』という事実を伝えることです。残留を本気で検討する場合の判断軸は、カウンターオファーへの対応の記事を参照してください。",
+    a: "意思が固いなら、感謝を述べたうえで丁重に断るのが基本です。条件提示で残留しても、不満の根本が解消されず再び転職を検討するケースや、一度退職を切り出した事実が社内評価に影響するケースが指摘されています。最も有効なのは『次の会社と入社日を合意済み』という事実を伝えることです。残留を本気で検討する場合の判断軸は、カウンターオファーへの対応の記事を参照してください。",
   },
   {
     q: "「後任が決まるまで辞めさせない」と言われたら？",
@@ -164,8 +164,8 @@ export default function SmoothResignationPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】円満退職の交渉、どう進めれば引き止めに揺らがない？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 意思が固いなら「相談」ではなく「報告」として、直属上司から順に伝え、前向きな個人的理由で決めるのが基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・切り出す順序は直属上司が最初です。同僚や他部署へ先に漏らしません</li><li>・カウンターオファーは感謝のうえで断ります。「次の会社と入社日を合意済み」が最も効きます</li><li>・損害賠償の脅しに動揺しません。書面請求など個別の事案は弁護士など専門家に相談します</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>意思が固いなら「相談」ではなく「報告」として、直属上司から順に伝え、前向きな個人的理由で決めるのが基本です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・切り出す順序は直属上司が最初です。同僚や他部署へ先に漏らしません</li><li>・カウンターオファーは感謝のうえで断ります。「次の会社と入社日を合意済み」と伝えるのが最も有効です</li><li>・損害賠償の脅しに動揺しません。書面請求など個別の事案は弁護士など専門家に相談します</li></ul>
           </div>
         </section>
 
@@ -194,11 +194,11 @@ export default function SmoothResignationPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：相談ではなく報告します。順序と前向きな理由で決める</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">相談ではなく報告として、順序と前向きな理由で進める</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・意思が固いなら「相談」でなく<strong>「報告」</strong>として伝えます。翻意の余地を見せません。</li>
               <li>・切り出す順序は<strong>直属上司が最初です</strong>。先に同僚・人事へ漏らしません。</li>
-              <li>・引き止めには<strong>「入社日を合意済み」</strong>という事実が最も効きます。</li>
+              <li>・引き止めには<strong>「入社日を合意済み」</strong>という事実を伝えるのが最も有効です。</li>
               <li>・後任不在・繁忙期・賠償の脅しは、<strong>退職の意思と切り離し引き継ぎ協力</strong>で打開します。</li>
             </ul>
           </div>
@@ -252,7 +252,7 @@ export default function SmoothResignationPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
-            注意点として、日程調整の一報だけは「少しご相談が」と柔らかくして構いません。問題なのは<strong>本題の第一声</strong>を相談調にしてしまうことです。結論ファーストで報告し、その後に感謝と引き継ぎの姿勢を添えるのが鉄則です。
+            注意点として、日程調整の一報だけは「少しご相談が」と柔らかくして構いません。問題なのは<strong>本題の第一声</strong>を相談調にしてしまうことです。結論ファーストで報告し、その後に感謝と引き継ぎの姿勢を添えるのが基本です。
           </p>
         </section>
 
@@ -335,18 +335,18 @@ export default function SmoothResignationPage() {
         <section id="reason" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">退職理由は前向きな個人的事情に</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            退職理由は、引き止めの口実を与えないために「会社が解決できない、前向きで個人的な事情」に整理するのが鉄則です。改善提案で潰せる不満を語ると、それがそのままカウンターオファーの材料になります。
+            退職理由は、引き止めの口実を与えないために「会社が解決できない、前向きで個人的な事情」に整理するのが基本です。改善提案で潰せる不満を語ると、それがそのままカウンターオファーの材料になります。
           </p>
           <div className="space-y-3">
             <div className="bg-slate-50 rounded p-3 text-sm text-slate-600"><strong>NG：</strong>「評価制度に納得できない」「レガシーな環境に限界を感じる」→ 制度改定や異動を提案され、断りにくくなります。</div>
-            <div className="bg-slate-50 rounded p-3 text-sm text-slate-600"><strong>OK：</strong>「今後は◯◯領域に深く関わりたい」「家庭の事情で働き方を変えたい」→ 会社側で解決しにくく、引き止めの口実になりにくいです。</div>
+            <div className="bg-slate-50 rounded p-3 text-sm text-slate-600"><strong>OK：</strong>「今後は◯◯領域に深く関わりたい」「家庭の事情で働き方を変えたい」→ 会社側で解決しにくく、引き止めの口実になりにくい傾向があります。</div>
           </div>
         </section>
 
         <section id="engineer" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア特有：仕掛中開発と属人化</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            エンジニアの退職交渉が難航しやすい最大の理由は、仕掛中の開発と属人化です。「ご自身にしか分からない」状態が残っていると、それ自体が引き止めの強力な材料になります。逆に言えば、属人化を解いておくことが最良の交渉カードになります。
+            エンジニアの退職交渉が難航しやすい最大の理由は、仕掛中の開発と属人化です。「ご自身にしか分からない」状態が残っていると、それ自体が引き止めの強力な材料になります。逆に言えば、属人化を解消しておくことが、交渉を円滑に進めるうえで最も有効な手段になります。
           </p>
           <ul className="space-y-3 text-sm text-slate-600">
             <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>仕掛中のタスクは状態（着手済/レビュー待ち/未着手）を早めに可視化し、いつでも他者が引き取れる形にしておきます。</span></li>
@@ -373,7 +373,7 @@ export default function SmoothResignationPage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 週数は一例です。就業規則の通知期間や担当業務に合わせて調整してください。全体の活動計画は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照します。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 週数は一例です。就業規則の通知期間や担当業務に合わせて調整してください。全体の活動計画は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照してください。</p>
         </section>
 
         <section id="middle" className="mb-10 scroll-mt-20">
@@ -384,10 +384,10 @@ export default function SmoothResignationPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">引き止めが強くなりやすい</h3>
-              <p className="text-sm text-slate-600">中核を担うミドルほど代替が効かず、カウンターオファーや情に訴える引き止めを受けやすい立場です。だからこそ、入社日の確定と引き継ぎ計画を先に固めておくことが盾になります。</p>
+              <p className="text-sm text-slate-600">中核を担うミドルほど代替が効かず、カウンターオファーや情に訴える引き止めを受けやすい立場です。だからこそ、入社日の確定と引き継ぎ計画を先に固めておくことが引き止めへの備えになります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">「立つ鳥跡を濁さず」が後で効く</h3>
+              <h3 className="font-bold text-slate-800 mb-2">「立つ鳥跡を濁さず」が将来に影響する</h3>
               <p className="text-sm text-slate-600">IT業界は転職で再会する機会が多く、元上司や元同僚が次の取引先・リファラル元になることも珍しくありません。交渉で関係を壊さないことが、将来の選択肢を守ります。年収条件の交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉テクニック</Link>もご参照ください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">

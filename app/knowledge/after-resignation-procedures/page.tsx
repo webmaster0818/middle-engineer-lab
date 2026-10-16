@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：退職後3手続きは期限が短いです。先に動く" },
-  { id: "overview", label: "退職後にやる3つの手続き（期限つき一覧）" },
+  { id: "conclusion", label: "退職後の3手続きは期限が短いため早めの対応が必要" },
+  { id: "overview", label: "退職後に行う3つの手続き（期限の一覧）" },
   { id: "pattern", label: "ご自身のケースで何が必要か（パターン別）" },
   { id: "health", label: "健康保険の3択を比較（任意継続・国保・扶養）" },
   { id: "pension", label: "年金の切り替え" },
@@ -26,8 +26,8 @@ const toc = [
 
 const overview = [
   { name: "健康保険", deadline: "任意継続は退職翌日から20日以内 ／ 国保は14日以内", where: "協会けんぽ等・市区町村", note: "任意継続・国保・家族の扶養の3択です。期限が最も短いので最優先で決めます。" },
-  { name: "年金", deadline: "退職日の翌日から14日以内", where: "市区町村", note: "厚生年金から国民年金（第1号）への切り替え。配偶者の扶養に入る場合は別手続き。" },
-  { name: "雇用保険（失業給付）", deadline: "離職票が届き次第すみやかに", where: "ハローワーク", note: "求職申込→7日間の待期→（自己都合は）給付制限を経て受給です。受給には求職活動が前提です。" },
+  { name: "年金", deadline: "退職日の翌日から14日以内", where: "市区町村", note: "厚生年金から国民年金（第1号）へ切り替えます。配偶者の扶養に入る場合は別の手続きになります。" },
+  { name: "雇用保険（失業給付）", deadline: "離職票が届き次第すみやかに", where: "ハローワーク", note: "求職申込→7日間の待期→（自己都合は）給付制限を経て受給となります。受給には求職活動が前提です。" },
 ];
 
 const faqs = [
@@ -99,8 +99,8 @@ export default function AfterResignationProceduresPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職後の手続きは何をいつまでにやる？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 健康保険・年金・失業給付の3つ。期限が短いものが多いので、先に動くのが鉄則です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・健康保険は任意継続が退職翌日から20日以内、国保が14日以内です。最優先で決めます</li><li>・年金は厚生年金→国民年金（第1号）への切り替えを原則14日以内</li><li>・失業給付は離職票が届き次第ハローワークで手続きします。自己都合の給付制限は2025年4月以降の離職で原則1ヶ月に短縮</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>健康保険・年金・失業給付の3つ。期限が短いものが多いため、早めに着手することが重要です。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・健康保険は任意継続が退職翌日から20日以内、国保が14日以内です。最優先で決めます</li><li>・年金は厚生年金→国民年金（第1号）への切り替えを原則14日以内に行います</li><li>・失業給付は離職票が届き次第ハローワークで手続きします。自己都合の給付制限は2025年4月以降の離職で原則1ヶ月に短縮されました</li></ul>
           </div>
         </section>
 
@@ -135,18 +135,18 @@ export default function AfterResignationProceduresPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：退職後3手続きは期限が短いです。先に動く</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">退職後の3手続きは期限が短いため早めの対応が必要</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・<strong>健康保険</strong>：任意継続は退職翌日から<strong>20日以内</strong>、国保は<strong>14日以内です</strong>。最優先で決めます。</li>
-              <li>・<strong>年金</strong>：厚生年金→国民年金の切り替えは原則<strong>14日以内です</strong>。</li>
-              <li>・<strong>失業給付</strong>：離職票が届き次第ハローワークで手続きします。自己都合の給付制限は<strong>2025年4月以降の離職で原則1ヶ月</strong>に短縮します。</li>
+              <li>・<strong>健康保険</strong>：任意継続は退職翌日から<strong>20日以内</strong>、国保は<strong>14日以内</strong>です。最優先で決めます。</li>
+              <li>・<strong>年金</strong>：厚生年金→国民年金の切り替えは原則<strong>14日以内</strong>に行います。</li>
+              <li>・<strong>失業給付</strong>：離職票が届き次第ハローワークで手続きします。自己都合の給付制限は<strong>2025年4月以降の離職で原則1ヶ月</strong>に短縮されました。</li>
               <li>・転職先に間を空けず入社する場合は、新しい会社で社会保険に加入するため一部手続きは不要です。</li>
             </ul>
           </div>
         </section>
 
         <section id="overview" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">退職後にやる3つの手続き（期限つき一覧）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">退職後に行う3つの手続き（期限の一覧）</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-lg">
               <thead>
@@ -212,20 +212,20 @@ export default function AfterResignationProceduresPage() {
                 <tr className="align-top">
                   <td className="px-4 py-3 border-b border-slate-100 font-medium text-slate-800">任意継続</td>
                   <td className="px-4 py-3 border-b border-slate-100 text-slate-600">退職翌日から20日以内に申請／最長2年間（協会けんぽの場合）</td>
-                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">原則として全額自己負担です（在職中は会社と折半）。扶養家族が増えても保険料は変わらない傾向です。</td>
-                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">扶養家族が多い人、前年所得が比較的高い人です。</td>
+                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">原則として全額自己負担です（在職中は会社と折半）。扶養家族が増えても保険料は変わらない傾向があります。</td>
+                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">扶養家族が多い人、前年所得が比較的高い人</td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 border-b border-slate-100 font-medium text-slate-800">国民健康保険</td>
                   <td className="px-4 py-3 border-b border-slate-100 text-slate-600">退職日の翌日から14日以内に届出（市区町村）</td>
                   <td className="px-4 py-3 border-b border-slate-100 text-slate-600">前年所得をベースに計算されます。非自発的失業の場合、軽減措置が設けられていることがあります。</td>
-                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">前年所得が低い人、会社都合等で軽減対象になる人です。</td>
+                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">前年所得が低い人、会社都合等で軽減対象になる人</td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-medium text-slate-800">家族の扶養に入る</td>
-                  <td className="px-4 py-3 text-slate-600">扶養に入る側の保険者の手続きによる</td>
-                  <td className="px-4 py-3 text-slate-600">本人の保険料負担は原則なし。ただし収入要件などの条件があります。</td>
-                  <td className="px-4 py-3 text-slate-600">配偶者等が健康保険に加入していて、収入要件を満たす人です。</td>
+                  <td className="px-4 py-3 text-slate-600">扶養に入る側の保険者が定める手続き</td>
+                  <td className="px-4 py-3 text-slate-600">本人の保険料負担は原則としてありません。ただし収入要件などの条件があります。</td>
+                  <td className="px-4 py-3 text-slate-600">配偶者等が健康保険に加入していて、収入要件を満たす人</td>
                 </tr>
               </tbody>
             </table>
@@ -241,7 +241,7 @@ export default function AfterResignationProceduresPage() {
             会社員のときは厚生年金に加入していますが、退職して間が空く場合は、国民年金（第1号被保険者）への切り替え手続きが必要です。手続きは原則として退職日の翌日から14日以内に、住んでいる市区町村で行います。
           </p>
           <ul className="space-y-3 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>転職先にすぐ入社する場合は、新しい会社で厚生年金に加入するため、自分での切り替えは不要なことが多いです。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>転職先にすぐ入社する場合は、新しい会社で厚生年金に加入するため、自分での切り替えは不要な場合が多くあります。</span></li>
             <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>配偶者の扶養（第3号被保険者）に入る場合は、配偶者の勤務先を通じた別の手続きになります。</span></li>
             <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>保険料の納付が難しい場合、免除・納付猶予の制度があります。該当しそうな場合は窓口で相談してください。</span></li>
           </ul>
@@ -337,7 +337,7 @@ export default function AfterResignationProceduresPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">扶養家族がいると任意継続が有利になりやすい</h3>
-              <p className="text-sm text-slate-600">任意継続は扶養家族が増えても保険料が変わらない傾向があるため、家族を扶養している場合は国保より有利になりやすいです。ただし前年所得が低ければ国保が安いこともあり、必ず両方を試算しましょう。</p>
+              <p className="text-sm text-slate-600">任意継続は扶養家族が増えても保険料が変わらない傾向があるため、家族を扶養している場合は国保より有利になることがあります。ただし前年所得が低ければ国保が安いこともあり、必ず両方を試算しましょう。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">前年所得が高いと国保が割高になりやすい</h3>

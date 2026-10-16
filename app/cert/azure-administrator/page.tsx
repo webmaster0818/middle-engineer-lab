@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Microsoft Azure Administrator(AZ-104)は転職に効くか【2026年】";
 const PAGE_DESC =
-  "Microsoft Azure Administrator Associate（AZ-104）を、経験者の加点資格という観点から30代・40代向けに解説します。受験料・試験形式・合格スコア・更新要件・出題範囲を公式情報で整理し、Azure運用実務とセットで効く理由と限界をまとめます。";
+  "Microsoft Azure Administrator Associate（AZ-104）を、経験者の加点資格という観点から30代・40代向けに解説します。受験料・試験形式・合格スコア・更新要件・出題範囲を公式情報で整理し、Azure運用実務と組み合わせることで評価される理由と限界をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/azure-administrator/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：AZ-104は誰に効く資格か" },
+  { id: "conclusion", label: "AZ-104はどのような人に適した資格か" },
   { id: "overview", label: "試験概要（受験料・形式・合格基準）" },
   { id: "scope", label: "出題範囲（5分野）" },
   { id: "value", label: "30代・40代経験者にとっての価値" },
@@ -28,7 +28,7 @@ const toc = [
 const faqs = [
   {
     q: "AZ-104は40代の転職で意味がありますか？",
-    a: "意味があります。AZ-104（Azure管理者アソシエイト）はMicrosoft公式で『中級』に位置づけられるロールベース認定で、Azure環境の実装・管理・監視の実務スキルを示します。入門のAZ-900と違い、PowerShellやAzure CLI、ガバナンスなど実装寄りの知識が問われるため、インフラ運用の実務を持つ30〜40代が『Azureを運用できる』ことを証明する加点資格として機能します。実務との掛け算が前提です。",
+    a: "意味があります。AZ-104（Azure管理者アソシエイト）はMicrosoft公式で『中級』に位置づけられるロールベース認定で、Azure環境の実装・管理・監視の実務スキルを示します。入門のAZ-900と違い、PowerShellやAzure CLI、ガバナンスなど実装寄りの知識が問われるため、インフラ運用の実務を持つ30〜40代が『Azureを運用できる』ことを証明する加点資格として機能します。実務と組み合わせることが前提です。",
   },
   {
     q: "AZ-104の受験料はいくらですか？",
@@ -98,7 +98,7 @@ export default function CertAzureAdministratorPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          Microsoft Azure Administrator Associate（AZ-104）は、Azure環境の実装・管理・監視・セキュリティ・ガバナンスを担う力を問う、Microsoft公式で<strong>『中級』</strong>に位置づけられるロールベース認定です。本記事は「AZ-104を取れば転職で有利になるか」という疑問に対し、<strong>『経験者の加点資格』</strong>という性格を軸に、公式情報（受験料・形式・合格基準・更新要件・出題範囲）をもとに整理します。資格単体では年収が跳ねないという留意点もご説明します。
+          Microsoft Azure Administrator Associate（AZ-104）は、Azure環境の実装・管理・監視・セキュリティ・ガバナンスを担う力を問う、Microsoft公式で<strong>『中級』</strong>に位置づけられるロールベース認定です。本記事は「AZ-104を取れば転職で有利になるか」という疑問に対し、<strong>『経験者の加点資格』</strong>という性格を軸に、公式情報（受験料・形式・合格基準・更新要件・出題範囲）をもとに整理します。資格単体では年収が大きく上がるわけではないという留意点についてもご説明します。
         </p>
 
         <DataNote
@@ -125,10 +125,10 @@ export default function CertAzureAdministratorPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AZ-104は誰に効く資格か</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">AZ-104はどのような人に適した資格か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              AZ-104は<strong>「経験者の加点資格」</strong>です。最も効くのは<strong>「インフラ運用・仮想化の実務 × Azure運用の証明」</strong>という掛け算で、Azure環境を任される運用・基盤ポジションで価値が出ます。入門のAZ-900と違い実装寄りで、実務とセットで評価されます。
+              AZ-104は<strong>「経験者の加点資格」</strong>です。最も効果を発揮するのは<strong>インフラ運用・仮想化の実務とAzure運用の証明を組み合わせた場合</strong>で、Azure環境を任される運用・基盤ポジションで価値が生まれます。入門のAZ-900と違い実装寄りの内容であり、実務とあわせて評価されます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>インフラ運用の実務がある30〜40代</strong>：Azureを運用できることを証明し、運用・基盤職で加点されます</li>
@@ -154,7 +154,7 @@ export default function CertAzureAdministratorPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: Microsoft Learn 公式（learn.microsoft.com、2026年6月時点）。受験料は165 USDが目安（受験国・為替で変動）、試験時間100分、合格は1,000点満点中700点以上、更新は原則12か月ごと（無料のオンライン評価）。Microsoftは合格率を公表していません。正確な料金・条件はMicrosoft Learnでご確認ください。
+            出典: Microsoft Learn 公式（learn.microsoft.com、2026年6月時点）。受験料は165 USDが目安（受験国・為替で変動）、試験時間100分、合格は1,000点満点中700点以上、更新は原則12か月ごと（無料のオンライン評価）です。Microsoftは合格率を公表していません。正確な料金・条件はMicrosoft Learnでご確認ください。
           </p>
         </section>
 
@@ -166,10 +166,10 @@ export default function CertAzureAdministratorPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "Azure IDとガバナンスを管理します", d: "Microsoft Entra ID、ロール（RBAC）、サブスクリプション・ガバナンスの管理。" },
-              { t: "ストレージの実装と管理", d: "ストレージアカウント、Blob・ファイル共有、アクセス制御とデータ保護です。" },
-              { t: "Azureの計算リソースを展開および管理します", d: "仮想マシン、コンテナ、App Serviceなどのコンピューティングの展開・運用。" },
-              { t: "仮想ネットワークの実装と管理", d: "VNet、ロードバランサー、名前解決、ネットワークセキュリティの構成です。" },
+              { t: "Azure IDとガバナンスの管理", d: "Microsoft Entra ID、ロール（RBAC）、サブスクリプション・ガバナンスの管理。" },
+              { t: "ストレージの実装と管理", d: "ストレージアカウント、Blob・ファイル共有、アクセス制御とデータ保護。" },
+              { t: "Azureの計算リソースの展開と管理", d: "仮想マシン、コンテナ、App Serviceなどのコンピューティングの展開・運用。" },
+              { t: "仮想ネットワークの実装と管理", d: "VNet、ロードバランサー、名前解決、ネットワークセキュリティの構成。" },
               { t: "Azureリソースの監視と保守", d: "Azure Monitor・バックアップ・復旧による、リソースの監視と継続性の確保。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -188,13 +188,13 @@ export default function CertAzureAdministratorPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代経験者にとっての価値</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              Azureは官公庁・大企業を中心に採用が根強く、Microsoft 365との親和性からエンタープライズでの需要が安定しています。AZ-104は、<strong>オンプレや仮想化、ネットワークで培った運用経験を「Azure運用の実装スキル」に翻訳して示す</strong>道具になります。サーバー・仮想化・ネットワークの土台がある30〜40代にとって、AZ-104の出題内容は自分の経験と地続きで理解しやすいはずです。
+              Azureは官公庁・大企業を中心に採用が根強く、Microsoft 365との親和性からエンタープライズでの需要が安定しています。AZ-104は、<strong>オンプレや仮想化、ネットワークで培った運用経験を「Azure運用の実装スキル」として示す</strong>手段になります。サーバー・仮想化・ネットワークの土台がある30〜40代にとって、AZ-104の出題内容はこれまでの経験と関連が深く、理解しやすい傾向があります。
             </p>
             <p>
-              一方で過度な期待は禁物です。AZ-104は<strong>『Azure運用の実装スキルを体系的に持つ』ことの証明</strong>であって、それ単体で年収が跳ねる資格ではありません。価値が出るのは<strong>「インフラ運用実務 × 資格」の掛け算</strong>のときです。実際にAzure環境を構築・運用した経験と組み合わせて初めて、運用・基盤ポジションで結実します。なお更新が12か月ごとに必要な点も、取りっぱなしにできない要素として押さえておきましょう。
+              一方で過度な期待は禁物です。AZ-104は<strong>『Azure運用の実装スキルを体系的に持つ』ことの証明</strong>であって、それ単体で年収が大きく上がる資格ではありません。価値が生まれるのは<strong>インフラ運用実務と資格を組み合わせたとき</strong>です。実際にAzure環境を構築・運用した経験と組み合わせて初めて、運用・基盤ポジションでの評価につながります。なお更新が12か月ごとに必要な点も、取りっぱなしにできない要素として押さえておきましょう。
             </p>
             <p>
-              さらに、AZ-104が扱うアイデンティティ管理（Microsoft Entra ID）やガバナンス、ネットワーク構成は、AWSの同等領域とも考え方が通じます。片方のクラウドで運用設計の勘所を身につけていれば、もう一方の理解は格段に速くなります。AWSの実務経験を持つミドルがAZ-104を取得すると、「どちらのクラウドでも基盤を任せられる人材」という希少なポジションに立てます。マルチクラウドや移行・統合の案件が増えるなか、この横断性は明確な差別化要因になります。
+              さらに、AZ-104が扱うアイデンティティ管理（Microsoft Entra ID）やガバナンス、ネットワーク構成は、AWSの同等領域とも考え方が通じます。片方のクラウドで運用設計の勘所を身につけていれば、もう一方も効率よく理解できます。AWSの実務経験を持つミドルがAZ-104を取得すると、「どちらのクラウドでも基盤を任せられる人材」として評価されやすくなります。マルチクラウドや移行・統合の案件が増えるなか、複数のクラウドを横断できることは差別化の要素になります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/azure/" className="text-petrol hover:underline">Azureエンジニア転職ガイド</Link>も合わせてご覧ください。
@@ -209,8 +209,8 @@ export default function CertAzureAdministratorPage() {
             {[
               { t: "Azure基盤の運用・構築への配置", d: "VM・ネットワーク・ストレージの実装知識を示し、Azure環境の運用担当として加点されます。" },
               { t: "Azure運用スキルの客観証明", d: "PowerShell・CLI・ARM/Bicepによる運用実装の知識を、応募時に客観的に示せます。" },
-              { t: "資格手当・評価制度の対象", d: "Microsoft認定を手当・評価の対象とする企業が多く、社内評価の根拠になりやすいです。" },
-              { t: "マルチクラウド人材としての強み", d: "AWS×Azureの両方を扱える人材として、移行・統合案件で評価されやすいです。" },
+              { t: "資格手当・評価制度の対象", d: "Microsoft認定を手当・評価の対象とする企業が多く、社内評価の根拠になりやすい傾向があります。" },
+              { t: "マルチクラウド人材としての強み", d: "AWSとAzureの両方を扱える人材として、移行・統合案件で評価されやすい傾向があります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -250,7 +250,7 @@ export default function CertAzureAdministratorPage() {
             {[
               { n: "STEP 1", t: "前提知識を確認（任意でAZ-900）", d: "クラウドが初めてならAZ-900で全体像を先に把握します。実務経験者はそのままAZ-104へ進みます。" },
               { n: "STEP 2", t: "Microsoft Learn＋ハンズオン", d: "公式の無料教材で5分野を学び、Azureポータル・PowerShell・CLIで実際に手を動かします。" },
-              { n: "STEP 3", t: "合格→運用実務／上位資格へ", d: "合格後はAzure運用の実務で深め、AZ-305（ソリューションアーキテクト）など上位へ進みます。" },
+              { n: "STEP 3", t: "合格後は運用実務と上位資格へ展開", d: "合格後はAzure運用の実務で深め、AZ-305（ソリューションアーキテクト）など上位へ進みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -262,7 +262,7 @@ export default function CertAzureAdministratorPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            前段の基礎は<Link href="/cert/azure-fundamentals/" className="text-petrol hover:underline">Azure Fundamentals（AZ-900）</Link>から。AWSと比較検討するなら<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定SAA</Link>も併せてご覧ください。
+            前段の基礎は<Link href="/cert/azure-fundamentals/" className="text-petrol hover:underline">Azure Fundamentals（AZ-900）</Link>から学ぶことをおすすめします。AWSと比較検討するなら<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定SAA</Link>も併せてご覧ください。
           </p>
         </section>
 

@@ -28,7 +28,7 @@ const toc = [
 const faqs = [
   {
     q: "職務経歴書の適切な長さは？",
-    a: "A4で2〜3枚が適切です。10年以上の経歴がある30代後半〜40代でも最大4枚を目安にしましょう。直近3〜5年の経験を厚く、それ以前は概要のみにする構成が読みやすいです。採用担当は1人あたり数分しか目を通さないため、情報の密度より「読みやすさ」を優先します。",
+    a: "A4で2〜3枚が適切です。10年以上の経歴がある30代後半〜40代でも最大4枚を目安にしましょう。直近3〜5年の経験を厚く、それ以前は概要のみにする構成が読みやすくなります。採用担当は1人あたり数分しか目を通さないため、情報の密度より「読みやすさ」を優先します。",
   },
   {
     q: "使用技術の書き方にコツはありますか？",
@@ -57,11 +57,11 @@ const faqs = [
 ];
 
 const numberPhrases = [
-  { area: "パフォーマンス", before: "APIのレスポンスを改善した", after: "主要APIの平均レスポンスタイムを200ms→50msに改善（75%削減）。N+1クエリの解消とキャッシュ層の導入が主因です。" },
+  { area: "パフォーマンス", before: "APIのレスポンスを改善した", after: "主要APIの平均レスポンスタイムを200ms→50msに改善（75%削減）。N+1クエリの解消とキャッシュ層の導入が主因。" },
   { area: "品質・安定性", before: "テストを書いて品質を上げた", after: "テストカバレッジを40%→80%に引き上げ、本番障害の月次発生件数を6件→1件に削減。" },
-  { area: "開発スピード", before: "リリースを速くしました", after: "CI/CDを整備しデプロイを手動週1回→自動で週3回に高速化します。リードタイムを平均5日→1.5日に短縮。" },
+  { area: "開発スピード", before: "リリースを速くした", after: "CI/CDを整備しデプロイを手動週1回→自動で週3回に高速化し、リードタイムを平均5日→1.5日に短縮。" },
   { area: "コスト", before: "インフラのコストを下げた", after: "AWSのリソース最適化とリザーブドインスタンス導入で月額インフラ費用を約30%削減（年間換算で数百万円規模）。" },
-  { area: "事業貢献", before: "売上に貢献しました", after: "決済導線のUX改善でCVRを2.1%→2.6%に向上させ、月間売上の約12%増に寄与しました。" },
+  { area: "事業貢献", before: "売上に貢献した", after: "決済導線のUX改善でCVRを2.1%→2.6%に向上させ、月間売上の約12%増に寄与。" },
   { area: "チーム", before: "後輩を育成した", after: "新メンバー3名のオンボーディングを設計し、立ち上がり期間を平均3ヶ月→1.5ヶ月に短縮。" },
 ];
 
@@ -107,7 +107,7 @@ export default function ResumePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの職務経歴書はどう書けば書類選考を突破できる？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 成果を改善前後の数値で示し、使用技術を規模感とともに書くことです。同じ経歴でもこの2点で通過率は変わります。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>成果を改善前後の数値で示し、使用技術を規模感とともに書くことです。同じ経歴でもこの2点で通過率は変わります。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・構成は職務要約・技術スキル一覧・職務経歴・自己PR・保有資格/OSSの5ブロックです。分量はA4で2〜3枚（経験10年以上でも最大4枚）、直近3〜5年を厚く書きます。</li><li>・成果はSTARフレームワークで整理し、改善前後の数値か改善率で示します（例：レスポンスを200ms→50msに改善）。</li><li>・使用技術は経験年数・習熟度・規模感をセットで記載します。1通を全社に使い回さず、職務要約と自己PRは応募先ごとに微調整します。</li></ul>
           </div>
         </section>
@@ -173,7 +173,7 @@ export default function ResumePage() {
         <section id="star" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">2. 成果を語るSTARフレームワーク</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            職務経歴や自己PRで成果を書くときは、<strong>STARフレームワーク</strong>に沿って整理すると説得力が一気に高まります。「何をしたか」だけでなく「どんな状況で・なぜ・どうやって・結果どうなったか」を順に示すことで、再現性のある実力として伝わります。
+            職務経歴や自己PRで成果を書くときは、<strong>STARフレームワーク</strong>に沿って整理すると説得力が高まります。「何をしたか」だけでなく「どんな状況で・なぜ・どうやって・結果どうなったか」を順に示すことで、再現性のある実力として伝わります。
           </p>
           <div className="grid gap-4 sm:grid-cols-2">
             {[
@@ -295,7 +295,7 @@ export default function ResumePage() {
             <p className="text-sm text-slate-600 leading-relaxed">
               私は責任感が強く、最後までやり遂げる力があります。チームワークを大切にし、コミュニケーションを重視しています。新しい技術にも積極的に挑戦します。
             </p>
-            <p className="text-xs text-red-600 mt-2">→ 抽象的な性格描写のみで、エンジニアとしての裏づけが一切ないです。</p>
+            <p className="text-xs text-red-600 mt-2">→ 抽象的な性格描写のみで、エンジニアとしての裏づけが一切ありません。</p>
           </div>
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-6">
             <h3 className="font-bold text-emerald-700 mb-3 text-sm">After（STAR＋数値で裏づけ）</h3>
@@ -331,9 +331,9 @@ export default function ResumePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">8. やってはいけないNG例3つ</h2>
           <div className="space-y-4">
             {[
-              { t: "NG1：スキルの羅列だけで終わります", d: "言語やツール名を並べるだけでは、習熟度も実務経験も伝わりません。必ず『経験年数・習熟度・使用規模』をセットにします。" },
+              { t: "NG1：スキル名の羅列のみ", d: "言語やツール名を並べるだけでは、習熟度も実務経験も伝わりません。必ず『経験年数・習熟度・使用規模』をセットにします。" },
               { t: "NG2：成果がすべて定性表現", d: "『改善した』『貢献した』だけでは比較も評価もできません。改善前後の数値か改善率を入れ、STARで状況と行動も添えます。" },
-              { t: "NG3：1通を全社に使い回します", d: "応募先の技術スタックや求めるスキルに合わせて、強調するプロジェクトや表現を調整しないと『評価されにくい』書類になります。最低でも職務要約と自己PRは応募先ごとに微調整しましょう。" },
+              { t: "NG3：1通の書類の全社への使い回し", d: "応募先の技術スタックや求めるスキルに合わせて、強調するプロジェクトや表現を調整しないと『評価されにくい』書類になります。最低でも職務要約と自己PRは応募先ごとに微調整しましょう。" },
             ].map((n, i) => (
               <div key={i} className="bg-red-50 border border-red-200 rounded-lg p-5">
                 <h3 className="font-bold text-red-700 mb-1">{n.t}</h3>
@@ -357,8 +357,8 @@ export default function ResumePage() {
                 "使用技術に経験年数・習熟度・規模感が添えられています",
                 "直近3〜5年が厚く、それ以前は概要に圧縮されています",
                 "自己PRが性格描写ではなく実績の裏づけで構成されています",
-                "応募先の技術スタックに合わせて職務要約・自己PRを微調整しました",
-                "誤字脱字・表記ゆれ（半角全角、英大文字小文字）がない",
+                "応募先の技術スタックに合わせて職務要約・自己PRを微調整しています",
+                "誤字脱字・表記ゆれ（半角全角、英大文字小文字）がありません",
                 "社名や内部数値など守秘義務に触れる情報を出していません",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
@@ -389,7 +389,7 @@ export default function ResumePage() {
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">経歴が長い分、取捨選択が命</h3>
+              <h3 className="font-bold text-blue-800 mb-2">経歴が長い分、取捨選択が重要</h3>
               <p className="text-sm text-petrol-deep">
                 10年以上のキャリアを全部詳細に書くと読まれません。直近3〜5年を厚く、それ以前は1〜2行の概要に圧縮します。応募先に関係の薄い経験は思い切って削りましょう。
               </p>

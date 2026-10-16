@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：Terraform転職市場での進め方" },
+  { id: "conclusion", label: "Terraform転職市場での進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "cert", label: "HashiCorp認定資格の活かし方" },
   { id: "level", label: "求められる経験レベル" },
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "Terraformエンジニアにおすすめの転職サービスは？",
-    a: "インフラ・DevOps案件に強いレバテックキャリア、ハイクラスSRE層を狙えるビズリーチ、クラウドネイティブ企業の求人を扱うGeeklyの併用が定番です（2026年6月時点・各社公表/二次情報）。",
+    a: "インフラ・DevOps案件に強いレバテックキャリア、ハイクラスSRE層を狙えるビズリーチ、クラウドネイティブ企業の求人を扱うGeeklyの併用が一般的な選択肢です（2026年6月時点・各社公表/二次情報）。",
   },
 ];
 
@@ -129,7 +129,7 @@ export default function TerraformSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Terraform転職市場での進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Terraform転職市場での進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Terraformは単体スキルではなく<strong>クラウドインフラ/SRE/DevOps領域の一部</strong>として評価されます。進め方は次の3点です。
@@ -207,9 +207,9 @@ export default function TerraformSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "入口層（IaC基礎）", d: "Terraformの基本構文、provider/resource/variableの理解、単一クラウドでの小規模構築。Associate保有が歓迎されやすいです。" },
-              { t: "中核層（設計・自動化）", d: "再利用可能なモジュール設計、state管理（リモートバックエンド）、CI/CDへの組み込み、Pull Requestベースのインフラ変更フローです。" },
-              { t: "上流層（アーキテクト）", d: "マルチクラウド/マルチアカウント設計、ポリシー適用（Sentinel/OPA）、組織横断のIaC標準化です。Professional認定が後押しになります。" },
+              { t: "入口層（IaC基礎）", d: "Terraformの基本構文、provider/resource/variableの理解、単一クラウドでの小規模構築が中心で、Associate保有が歓迎されやすい傾向があります。" },
+              { t: "中核層（設計・自動化）", d: "再利用可能なモジュール設計、state管理（リモートバックエンド）、CI/CDへの組み込み、Pull Requestベースのインフラ変更フローが求められます。" },
+              { t: "上流層（アーキテクト）", d: "マルチクラウド/マルチアカウント設計、ポリシー適用（Sentinel/OPA）、組織横断のIaC標準化を担う層で、Professional認定が後押しになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -257,7 +257,7 @@ export default function TerraformSkillPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化です。提案スピードに強みがあり、クラウドネイティブ企業の求人を扱います。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界に特化しており、提案スピードに強みがあります。クラウドネイティブ企業の求人も扱っています。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -270,10 +270,10 @@ export default function TerraformSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">経験浅めからの参入ルート</h2>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "クラウド基礎を固めます", d: "AWSの基本サービス（VPC/EC2/S3/IAM）をコンソールで一通り触り、構成を理解します。" },
-              { n: "STEP 2", t: "Terraformでコード化", d: "手作業で作った構成をTerraformで再現します。provider/resource/variable/outputの基本を押さえます。" },
-              { n: "STEP 3", t: "Associate取得＋モジュール化", d: "Terraform Associateで基礎を体系化し、再利用可能なモジュールに分割して設計力を示します。" },
-              { n: "STEP 4", t: "CI/CD統合で成果物に", d: "GitHub Actions等でplan/applyを自動化し、Pull Requestベースの変更フローをGitHubで公開します。" },
+              { n: "STEP 1", t: "クラウド基礎の習得", d: "AWSの基本サービス（VPC/EC2/S3/IAM）をコンソールで一通り触り、構成を理解します。" },
+              { n: "STEP 2", t: "Terraformによるコード化", d: "手作業で作った構成をTerraformで再現します。provider/resource/variable/outputの基本を押さえます。" },
+              { n: "STEP 3", t: "Associate取得とモジュール化", d: "Terraform Associateで基礎を体系化し、再利用可能なモジュールに分割して設計力を示します。" },
+              { n: "STEP 4", t: "CI/CD統合による成果物化", d: "GitHub Actions等でplan/applyを自動化し、Pull Requestベースの変更フローをGitHubで公開します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -296,7 +296,7 @@ export default function TerraformSkillPage() {
               ミドル層のTerraform転職では、<strong>「ツールを使える」より「チームのIaC運用を設計・定着させた」</strong>経験が評価されます。モジュールの命名規約、state分割の方針、レビュー文化の整備など、組織にスケールする運用を作った経験は若手と差別化できます。
             </p>
             <p>
-              年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%です（2025年）。Terraformを軸にSRE/IaCアーキテクト領域へ役割を広げると、高年収帯への接続が見えてきます。
+              年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%です（2025年）。Terraformを軸にSRE/IaCアーキテクト領域へ役割を広げると、高年収帯の求人も視野に入ります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>もご覧ください。
@@ -307,11 +307,11 @@ export default function TerraformSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ クラウド基礎 → Terraformコード化 → モジュール設計 の順で積む</li>
-            <li>✓ Associateで基礎を固め、実務後にProfessional（ラボ形式）で設計力を示す</li>
-            <li>✓ state管理（リモートバックエンド）とCI/CD統合を実プロジェクトで経験する</li>
-            <li>✓ Kubernetes/GitOpsと組み合わせ、基盤エンジニアとして厚みを出す</li>
-            <li>✓ 作ったモジュールはGitHub/Registryで公開し、設計意図を説明できる状態にする</li>
+            <li>✓ クラウド基礎 → Terraformコード化 → モジュール設計 の順で経験を積みます</li>
+            <li>✓ Associateで基礎を固め、実務後にProfessional（ラボ形式）で設計力を示します</li>
+            <li>✓ state管理（リモートバックエンド）とCI/CD統合を実プロジェクトで経験します</li>
+            <li>✓ Kubernetes/GitOpsと組み合わせ、基盤エンジニアとしての対応範囲を広げます</li>
+            <li>✓ 作ったモジュールはGitHub/Registryで公開し、設計意図を説明できる状態にします</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>をご参照ください。

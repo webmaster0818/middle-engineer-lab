@@ -29,8 +29,8 @@ const basicData: [string, string][] = [
 ];
 
 const toc = [
-  ["conclusion", "結論：難易度と向いているエンジニア"],
-  ["basic", "基本データ（出典付き）"],
+  ["conclusion", "難易度と向いているエンジニア"],
+  ["basic", "基本データ（出典あり）"],
   ["features", "エンジニア採用の特徴"],
   ["stack", "技術スタック（公式情報ベース）"],
   ["salary", "年収データ（有価証券報告書ベース）"],
@@ -73,7 +73,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもメルカリに転職できますか？",
-    a: "平均年齢36.3歳と相対的に幅のある組織で、年齢よりもグレードに見合う実力・実績が問われます。マイクロサービスや特定領域の専門性、英語での協働経験があると評価されやすい傾向です。",
+    a: "平均年齢36.3歳と相対的に幅のある組織で、年齢よりもグレードに見合う実力・実績が問われます。マイクロサービスや特定領域の専門性、英語での協働経験があると評価されやすい傾向があります。",
   },
 ];
 
@@ -101,8 +101,8 @@ export default function MercariCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】メルカリの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社メルカリの平均年間給与は1,176万円です（2025年6月期 有価証券報告書・全社員平均、平均年齢36.3歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,176万円です（2025年6月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・上場以降一貫した上昇傾向で、2024年6月期1,166万円から2025年6月期1,176万円です（各期 有価証券報告書）。</li><li>・報酬は年齢でなくグレード（職務等級）基準とされ、提示額はポジション・グレードで変動します。個別求人・面談での確認が確実です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>株式会社メルカリの平均年間給与は1,176万円です（2025年6月期 有価証券報告書・全社員平均、平均年齢36.3歳）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,176万円です（2025年6月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・上場以降一貫して上昇しており、2025年6月期は1,176万円（2024年6月期は1,166万円）となっています（各期 有価証券報告書）。</li><li>・報酬は年齢でなくグレード（職務等級）基準とされ、提示額はポジション・グレードで変動します。個別求人・面談での確認が確実です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -121,14 +121,14 @@ export default function MercariCompanyPage() {
 
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              メルカリは<strong>Go/GCPベースのマイクロサービスを英語環境で開発する、グローバル志向のテック企業</strong>です。技術力に加えミッション・バリューへの共感が重視され、難易度は高めです。年収水準（全社員平均1,176万円）はWeb系の中でもトップクラスです。
+              メルカリは<strong>Go/GCPベースのマイクロサービスを英語環境で開発する、グローバル志向のテック企業</strong>です。技術力に加えミッション・バリューへの共感が重視され、難易度は高い水準にあります。年収水準（全社員平均1,176万円）は、Web系の中でも上位に位置します。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Go等での実務経験があり、マイクロサービス・英語での協働に前向きなエンジニア</li>
               <li>● <strong>向いていない人</strong>：日本語のみで完結する環境を強く希望する人、明確な役割分担を好む人</li>
-              <li>● <strong>30代・40代</strong>：グレードに見合う専門性・実績があれば年齢はハンデになりにくいです</li>
+              <li>● <strong>30代・40代</strong>：グレードに見合う専門性・実績があれば年齢がハンデになりにくい環境</li>
             </ul>
           </div>
         </section>
@@ -145,7 +145,7 @@ export default function MercariCompanyPage() {
         </nav>
 
         <section id="basic" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典付き）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">基本データ（出典あり）</h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
               <tbody>
@@ -158,7 +158,7 @@ export default function MercariCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年6月期 有価証券報告書に基づく全社員平均値。技術スタックは公式技術スタックページです（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年6月期 有価証券報告書に基づく全社員平均値です。技術スタックは公式技術スタックページに基づきます（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -265,7 +265,7 @@ export default function MercariCompanyPage() {
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。メルカリの全社員平均（1,176万円）はこれを大きく上回りますが、これは高グレード層を含む全社平均であり、入社時の提示はグレード次第です。30代・40代は「自分が当てはまるグレードの水準」を個別求人・面談で確認することが重要です。
             </p>
             <p>
-              英語環境は、これまで英語での業務経験がない場合でもポジションによっては挑戦可能ですが、各求人の語学要件を必ず確認しましょう。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
+              英語環境は、これまで英語での業務経験がない場合でもポジションによっては挑戦可能ですが、各求人の語学要件を必ずご確認ください。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。
             </p>
           </div>
         </section>
@@ -274,8 +274,8 @@ export default function MercariCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">メルカリ転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。メガベンチャー求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。メガベンチャー求人に強みがあり、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速い点が特徴です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

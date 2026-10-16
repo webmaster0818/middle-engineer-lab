@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：見極めるべきは「制度の有無」より「使われ方」" },
+  { id: "conclusion", label: "見極めるべきは「制度の有無」より「使われ方」" },
   { id: "life-event", label: "ライフイベントとキャリアの両立をどう設計するか" },
   { id: "company-check", label: "企業の見極め方（産育休実績・女性管理職の確認方法）" },
   { id: "interview-q", label: "面接で聞いてよいこと・聞き方の例文" },
@@ -25,12 +25,12 @@ const toc = [
 
 const lifeStages = [
   { stage: "30代前半（出産前・育児前）", point: "裁量と専門性を伸ばす時期です。年収レンジの基準を作っておきます", check: "評価制度の透明性／昇給の実績／産育休取得後の復帰ポジション" },
-  { stage: "30代後半（妊娠・育児期）", point: "成果評価かつ柔軟な働き方ができる環境へ進む道があります。フルタイム前提の文化を避けます", check: "時短勤務の実例／フルリモート可否／子の看護休暇の取得実績" },
-  { stage: "40代（育児が一段落〜並走）", point: "マネジメントまたは専門職トラックで年収を再加速させる時期", check: "女性管理職の有無／管理職登用の年齢分布／評価者バイアスの有無" },
+  { stage: "30代後半（妊娠・育児期）", point: "成果で評価され、柔軟な働き方ができる環境を選ぶ時期です。フルタイム前提の文化は避けます", check: "時短勤務の実例／フルリモート可否／子の看護休暇の取得実績" },
+  { stage: "40代（育児が一段落〜並走）", point: "マネジメントまたは専門職トラックで年収を再び伸ばす時期です", check: "女性管理職の有無／管理職登用の年齢分布／評価者バイアスの有無" },
 ];
 
 const interviewQuestions = [
-  { q: "御社のエンジニア職で、産休・育休を取得して復帰された方はいらっしゃいますか。差し支えなければ人数や復帰後の働き方を教えてください。", intent: "実績の有無を「数」で確認します。0人なら制度はあっても運用されていない可能性です。" },
+  { q: "御社のエンジニア職で、産休・育休を取得して復帰された方はいらっしゃいますか。差し支えなければ人数や復帰後の働き方を教えてください。", intent: "実績の有無を「数」で確認します。0人なら制度はあっても運用されていない可能性があります。" },
   { q: "育休からの復帰後、どのようなポジション・職務で働かれているケースが多いですか。", intent: "復帰後に補佐的な役割へ固定されていないか（マミートラック化）を確認します。" },
   { q: "時短勤務やフルリモートで働いているエンジニアの方は、評価や昇給で不利にならない仕組みになっていますか。", intent: "成果評価か、稼働時間評価かを見極めます。" },
   { q: "技術職で管理職になられている女性の方はいらっしゃいますか。", intent: "ロールモデルとキャリアパスの有無を確認します。" },
@@ -64,8 +64,8 @@ export default function WomanEngineerPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】女性エンジニアが30代・40代で転職を成功させるには？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 見極めるべきは「制度の有無」より「使われ方」です。育休・時短・リモートの制度が実際に使われ、使った人が評価・昇給で不利になっていないかを確認しましょう。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・制度の有無ではなく「直近の取得実績の人数」と「復帰後のポジション」を確認します</li><li>・女性管理職の有無は、上場企業なら有価証券報告書の女性管理職比率で客観的に確認できます</li><li>・面接で聞いてよいです。むしろ「長く働きたいから確認したい」という前向きな姿勢として伝わります</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>見極めるべきは「制度の有無」より「使われ方」です。育休・時短・リモートの制度が実際に使われ、使った人が評価・昇給で不利になっていないかを確認しましょう。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・制度の有無ではなく「直近の取得実績の人数」と「復帰後のポジション」を確認します</li><li>・女性管理職の有無は、上場企業なら有価証券報告書の女性管理職比率で客観的に確認できます</li><li>・面接で確認しても問題ありません。むしろ「長く働きたいから確認したい」という前向きな姿勢として伝わります</li></ul>
           </div>
         </section>
 
@@ -83,13 +83,13 @@ export default function WomanEngineerPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：見極めるべきは「制度の有無」より「使われ方」</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">見極めるべきは「制度の有無」より「使われ方」</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">育休制度・時短制度・リモート制度は、いまや多くのIT企業が「制度としては」持っています。差がつくのは<strong>その制度が実際に使われ、使った人が評価・昇給で不利になっていないか</strong>です。</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>1. 制度の有無ではなく「直近の取得実績の人数」と「復帰後のポジション」を確認します</li>
               <li>2. 女性管理職の有無は、有価証券報告書の女性管理職比率（上場企業）で客観的に確認できます</li>
-              <li>3. 面接で聞いてよいです。むしろ「長く働きたいから確認したい」という前向きな姿勢として伝わります</li>
+              <li>3. 面接で確認しても問題ありません。むしろ「長く働きたいから確認したい」という前向きな姿勢として伝わります</li>
             </ul>
           </div>
         </section>
@@ -125,7 +125,7 @@ export default function WomanEngineerPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">2. 産休・育休の取得実績と復帰率</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">「くるみん」「えるぼし」などの認定取得や、自社のサステナビリティ・人的資本開示で育休取得率・復帰率を公表している企業があります。男性の育休取得率が高い企業は、育児への理解が組織に浸透している傾向のシグナルになります。数字は公式開示・採用ページの記載を一次情報として確認してください。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">「くるみん」「えるぼし」などの認定取得や、自社のサステナビリティ・人的資本開示で育休取得率・復帰率を公表している企業があります。男性の育休取得率が高い企業は、育児への理解が組織に浸透していることを示す指標の一つになります。数字は公式開示・採用ページの記載を一次情報として確認してください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">3. 口コミプラットフォームでの傾向確認</h3>
@@ -150,7 +150,7 @@ export default function WomanEngineerPage() {
               </div>
             ))}
           </div>
-          <p className="text-slate-600 leading-relaxed mt-4">いずれも「長期的に貢献したいので確認させてください」と前置きすると、計画性のある候補者として好印象です。面接全般の準備は<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STAR法）対策</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed mt-4">いずれも「長期的に貢献したいので確認させてください」と前置きすると、計画性のある候補者として好印象につながります。面接全般の準備は<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STAR法）対策</Link>も参考にしてください。</p>
         </section>
 
         <section id="ng-question" className="mb-10 scroll-mt-20">
@@ -159,8 +159,8 @@ export default function WomanEngineerPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
             <p className="font-bold text-slate-700 mb-2 text-sm">不適切な質問を受けたときの対処の考え方</p>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li>・「業務との関連でお伺いされていますか」と確認し、回答するかは自分で判断してよいです</li>
-              <li>・無理に答える義務はありません。回答を避けてもよいです</li>
+              <li>・「業務との関連でお伺いされていますか」と確認し、回答するかは自分で判断して構いません</li>
+              <li>・無理に答える義務はありません。回答を控えても問題ありません</li>
               <li>・こうした質問が出ること自体が、入社後の働きやすさを判断する材料になります</li>
               <li>・エージェント経由なら、担当者から企業側へ配慮を依頼してもらえる場合があります</li>
             </ul>
@@ -192,7 +192,7 @@ export default function WomanEngineerPage() {
               <ul className="space-y-2 text-sm text-red-900">
                 <li>✕ 制度はあるが「取得実績は確認できない」と濁される</li>
                 <li>✕ 復帰後は補助業務が中心、という前提で話が進む</li>
-                <li>✕ 面接で結婚・出産の予定を立ち入って質問してきます</li>
+                <li>✕ 面接で結婚・出産の予定を立ち入って質問してくる</li>
                 <li>✕ 評価が長時間労働・フルタイム前提の文化</li>
                 <li>✕ 女性社員が極端に少なく、理由の説明も曖昧</li>
               </ul>
@@ -206,7 +206,7 @@ export default function WomanEngineerPage() {
           <div className="space-y-3">
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">経験を「マネジメント耐性」として翻訳する</h3><p className="text-sm text-petrol-deep">育児や家族の事情で培った段取り力・優先順位付けは、チームリードやプロジェクト管理に活きるスキルとして言語化できます。<Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントへの転向</Link>も視野に入ります。</p></div>
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">条件は「妥協」ではなく「設計」として伝える</h3><p className="text-sm text-petrol-deep">時短・リモートは「お願い」ではなく、成果を出すための働き方として提示すると交渉が前向きに進みます。</p></div>
-            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">在職中に動き、内定を得てから判断する</h3><p className="text-sm text-petrol-deep">生活基盤を持つミドル世代は、在職中の転職活動でリスクを抑えるのが鉄則です。<Link href="/knowledge/timeline/" className="text-petrol-deep underline">転職活動のスケジュール</Link>も参考にしてください。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-1">在職中に動き、内定を得てから判断する</h3><p className="text-sm text-petrol-deep">生活基盤を持つミドル世代は、在職中の転職活動でリスクを抑えるのが基本です。<Link href="/knowledge/timeline/" className="text-petrol-deep underline">転職活動のスケジュール</Link>も参考にしてください。</p></div>
           </div>
         </section>
 

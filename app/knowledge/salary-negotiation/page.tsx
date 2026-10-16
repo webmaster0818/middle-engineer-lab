@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：年収交渉の基本方針" },
+  { id: "conclusion", label: "年収交渉の基本方針" },
   { id: "timing", label: "交渉のベストタイミング" },
   { id: "framework", label: "交渉を組み立てる3つの根拠" },
   { id: "examples", label: "伝え方の例文テンプレート" },
@@ -42,23 +42,23 @@ const reasons = [
 
 const examples = [
   {
-    scene: "希望額をレンジで伝えます",
+    scene: "希望額をレンジで伝える場合",
     text: "「ご提示ありがとうございます。これまでの○○（領域）の経験と市場相場を踏まえ、年収は650万〜700万円を希望しております。ご検討いただけますと幸いです。」",
   },
   {
-    scene: "市場相場を根拠にします",
+    scene: "市場相場を根拠にする場合",
     text: "「同等のスキル・経験を持つエンジニアの市場相場は○○万円前後と伺っており、その水準でご検討いただけないでしょうか。」",
   },
   {
-    scene: "他社オファーを材料にします",
+    scene: "他社オファーを材料にする場合",
     text: "「実は他社より年収○○万円のオファーをいただいております。御社を第一志望に考えておりますので、近い水準でご検討いただけると大変ありがたいです。」",
   },
   {
-    scene: "成果を根拠にします",
+    scene: "成果を根拠にする場合",
     text: "「前職ではレスポンスタイムを○○%改善し、運用コストを削減しました。こうした実績を踏まえ、○○万円を希望いたします。」",
   },
   {
-    scene: "年収以外で補完します",
+    scene: "年収以外の条件で補完する場合",
     text: "「年収面でのご調整が難しい場合、入社時の一時金やリモートワークの日数など、別の条件でご相談させていただくことは可能でしょうか。」",
   },
 ];
@@ -82,7 +82,7 @@ const ngActions = [
   },
   {
     title: "前職年収について嘘をつく",
-    desc: "源泉徴収票の提出でバレるリスクがあります。前職年収が低い場合も、市場相場に話をずらして誠実に交渉するのが得策です。",
+    desc: "源泉徴収票の提出で発覚するリスクがあります。前職年収が低い場合も、市場相場に話をずらして誠実に交渉するのが得策です。",
   },
 ];
 
@@ -105,7 +105,7 @@ const faqs = [
   },
   {
     q: "前職の年収を聞かれたらどう答えるべきですか？",
-    a: "率直に答えましょう。嘘は源泉徴収票の提出時にバレるリスクがあります。前職年収が低い場合は、『前職では○○の事情で抑えられていましたが、市場相場では○○万円が妥当と考えています』のように、市場相場へ話を展開するのがポイントです。",
+    a: "率直に答えましょう。虚偽の申告は源泉徴収票の提出時に発覚するリスクがあります。前職年収が低い場合は、『前職では○○の事情で抑えられていましたが、市場相場では○○万円が妥当と考えています』のように、市場相場へ話を展開するのがポイントです。",
   },
   {
     q: "年収以外に交渉できることはありますか？",
@@ -155,7 +155,7 @@ export default function SalaryNegotiationPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】年収交渉はいつ・どう切り出せばいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 最終面接後〜内定提示の前後に、「市場相場・スキルの希少性・他社オファー」を根拠にレンジで伝えるのが基本です。エージェント経由なら交渉をプロに任せます。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>最終面接後〜内定提示の前後に、「市場相場・スキルの希少性・他社オファー」を根拠にレンジで伝えるのが基本です。エージェント経由なら交渉をプロに任せます。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ベストタイミングは企業が採用を決めた最終面接後〜内定提示前後です。一次面接など早い段階は避けます</li><li>・有効な根拠は「市場相場」「スキルの希少性」「他社オファー」の3つ。個人的事情や前職年収だけを根拠にしません</li><li>・dodaの2024年度「決定年収レポート」（2025年5月公表）では転職者の約6割が年収アップを実現しています</li></ul>
           </div>
         </section>
@@ -188,7 +188,7 @@ export default function SalaryNegotiationPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収交渉の基本方針</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収交渉の基本方針</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               年収交渉の基本は、<strong>「内定提示前後のタイミング」で「市場相場・スキルの希少性・他社オファー」を根拠に「レンジで」伝える</strong>ことです。そして、エージェント経由なら交渉をプロに任せるのが効率的です。

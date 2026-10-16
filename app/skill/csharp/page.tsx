@@ -9,11 +9,11 @@ const PAGE_DESC =
   "C#/.NETエンジニアの転職を年収データ・Azure認定資格・求人の探し方まで解説します。求人ボックスやフリーランスボードの公表年収、レバテック年代別データを出典を明記して掲載しています。30代・40代の参入ルートとおすすめエージェントも紹介します。";
 
 const toc = [
-  { id: "conclusion", label: "結論：C#/.NET転職の進め方" },
+  { id: "conclusion", label: "C#/.NET転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
-  { id: "find", label: "求人の探し方・強いエージェント" },
+  { id: "find", label: "求人の探し方・エージェントの選び方" },
   { id: "entry", label: "経験浅めからの参入ルート" },
   { id: "mid", label: "30代・40代視点" },
   { id: "study", label: "スキルアップ・学習戦略" },
@@ -24,12 +24,12 @@ const toc = [
 const careerPaths = [
   {
     role: "業務系アプリエンジニア",
-    note: "ASP.NET Core・Entity Framework CoreでのWebアプリ・基幹業務システム開発。C#の最も安定した需要領域です。",
+    note: "ASP.NET Core・Entity Framework CoreでのWebアプリ・基幹業務システム開発を担います。C#の需要が最も安定している領域です。",
     cert: "—（実務経験重視）",
   },
   {
     role: "Azureクラウドエンジニア",
-    note: "C#＋Azureでのクラウドネイティブ設計、Azure Functions等のサーバーレス開発。",
+    note: "C#＋Azureでのクラウドネイティブ設計や、Azure Functions等のサーバーレス開発を担います。",
     cert: "AZ-204（Azure Developer Associate）",
   },
   {
@@ -39,7 +39,7 @@ const careerPaths = [
   },
   {
     role: "テックリード／アーキテクト",
-    note: ".NET基盤のシステム設計・技術選定・チームリード。クラウド設計資格があると強いです。",
+    note: ".NET基盤のシステム設計・技術選定・チームリードを担います。クラウド設計資格があると有利です。",
     cert: "AZ-305（Solutions Architect）等",
   },
 ];
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     q: "C#エンジニアにおすすめの転職エージェントは？",
-    a: "業務系C#求人が豊富とされるレバテックキャリア、SIer系に強いマイナビIT AGENT、Unity/ゲーム系に強いGeeklyが候補です。狙う領域（業務系・クラウド・ゲーム）によって相性が変わるため、複数登録して比較するのが基本です。",
+    a: "業務系C#求人が豊富とされるレバテックキャリア、SIer系の求人を多く扱うマイナビIT AGENT、Unity/ゲーム系に強みを持つGeeklyが候補です。狙う領域（業務系・クラウド・ゲーム）によって相性が変わるため、複数登録して比較するのが基本です。",
   },
 ];
 
@@ -144,10 +144,10 @@ export default function CsharpSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：C#/.NET転職の進め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">C#/.NET転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              C#/.NET転職は<strong>「モダン.NET＋専門ドメイン（業務系・クラウド・ゲーム）の組み合わせで売り込む」</strong>のが基本戦略です。安定したエンタープライズ需要を土台に、Azureを足すと年収帯が上がりやすいのが特徴です。
+              C#/.NET転職は<strong>「モダン.NET＋専門ドメイン（業務系・クラウド・ゲーム）の組み合わせでアピールする」</strong>のが基本戦略です。安定したエンタープライズ需要を土台に、Azureを足すと年収帯が上がりやすいのが特徴です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① レガシー.NET Frameworkではなく、ASP.NET Core等のモダン.NETを学びます</li>
@@ -210,15 +210,15 @@ export default function CsharpSkillPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ジュニア（実務〜2年程度）</h3>
-              <p className="text-sm text-slate-600">C#の基本文法、簡単なWebアプリやツールの開発経験です。SIerの開発メンバー枠などです。</p>
+              <p className="text-sm text-slate-600">C#の基本文法、簡単なWebアプリやツールの開発経験が求められます。SIerの開発メンバー枠などが該当します。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ミドル（実務3〜7年）</h3>
-              <p className="text-sm text-slate-600">ASP.NET Coreでの設計・実装、DB設計、Azureまたはオンプレ運用の経験です。30代の中心レンジです。</p>
+              <p className="text-sm text-slate-600">ASP.NET Coreでの設計・実装、DB設計、Azureまたはオンプレ運用の経験が求められます。30代が中心となる層です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">シニア／リード</h3>
-              <p className="text-sm text-slate-600">アーキテクチャ設計、クラウドネイティブ設計、技術選定・チームリードです。Azure資格があると強いです。</p>
+              <p className="text-sm text-slate-600">アーキテクチャ設計、クラウドネイティブ設計、技術選定・チームリードを担います。Azure資格があると有利です。</p>
             </div>
           </div>
         </section>
@@ -242,7 +242,7 @@ export default function CsharpSkillPage() {
 
         {/* 求人の探し方 */}
         <section id="find" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・エージェントの選び方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             C#は領域が広いため、狙うドメインによって相性の良いエージェントが変わります。タイプの異なる3社を併用しましょう。
           </p>
@@ -251,13 +251,13 @@ export default function CsharpSkillPage() {
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/levtech/" className="text-petrol-deep hover:underline">レバテックキャリア</Link>
               </h3>
-              <p className="text-sm text-slate-600">IT/Web特化です。業務系・クラウド寄りのC#求人を探しやすく、高年収求人の比率が高いとされます（同社ガイド記事）。</p>
+              <p className="text-sm text-slate-600">IT/Web特化型のエージェントです。業務系・クラウド寄りのC#求人を探しやすく、高年収求人の比率が高いとされます（同社ガイド記事）。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/mynavi-it/" className="text-petrol-deep hover:underline">マイナビIT AGENT</Link>
               </h3>
-              <p className="text-sm text-slate-600">20〜30代若手に強く、書類添削・面接対策が手厚いとされます。SIer系の業務系C#求人と相性が良いです。</p>
+              <p className="text-sm text-slate-600">20〜30代の若手層の支援を得意とし、書類添削・面接対策が手厚いとされます。SIer系の業務系C#求人と相性が良いといえます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
@@ -281,8 +281,8 @@ export default function CsharpSkillPage() {
             {[
               { t: "モダン.NETで小さく作ります", d: "ASP.NET Core＋Entity Framework CoreでWeb APIやCRUDアプリを作り、GitHubに公開します。" },
               { t: "ドメインを一つ決めます", d: "業務系・クラウド・ゲームのいずれかに絞り、関連知識を深めて訴求の軸にします。" },
-              { t: "Azure認定で差別化します", d: "AZ-204等のクラウド資格は、同年代・同経験の中で差をつけやすいです。" },
-              { t: "SIer・パートナー企業の開発枠を狙います", d: "業務系C#は研修体制が整った企業が多く、実務経験を積む入口になりやすいです。" },
+              { t: "Azure認定で差別化します", d: "AZ-204等のクラウド資格は、同年代・同経験の中で差をつけやすくなります。" },
+              { t: "SIer・パートナー企業の開発枠を狙います", d: "業務系C#は研修体制が整った企業が多く、実務経験を積む入口になりやすい傾向があります。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
@@ -323,7 +323,7 @@ export default function CsharpSkillPage() {
             {[
               { t: "モダン.NETを押さえます", d: "ASP.NET Core、Minimal API、Blazor、Entity Framework Core、.NET 8/9の新機能を学び、レガシーとの違いを説明できるようにします。" },
               { t: "Azure認定を取得します", d: "AZ-204（Developer Associate）でクラウド開発スキルを証明します。アーキテクト志向ならAZ-305も視野に入ります。" },
-              { t: "テスト・CI/CDの実践", d: "テスト自動化やコンテナ化の実務経験は、設計力の裏付けとして評価されやすいです。" },
+              { t: "テスト・CI/CDを実践します", d: "テスト自動化やコンテナ化の実務経験は、設計力の裏付けとして評価されやすい傾向があります。" },
             ].map((c, i) => (
               <li key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{c.t}</h3>

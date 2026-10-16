@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：型に沿えば返信は迷わない" },
+  { id: "conclusion", label: "型に沿えば返信は迷わない" },
   { id: "type", label: "スカウトの種別と本気度" },
   { id: "should-reply", label: "返信すべきかの判断基準" },
   { id: "format", label: "好印象の返信の型" },
@@ -106,7 +106,7 @@ const examples = [
 const faqs = [
   {
     q: "スカウトには必ず返信すべきですか？",
-    a: "興味がなくても一言返すのが望ましいです。無視しても問題はありませんが、丁寧な辞退を返しておくと印象が良く、将来別のポジションで再び縁ができることもあります。ただし、明らかにばら撒き型の定型文スカウトであれば、無理に返信する必要はありません。",
+    a: "興味がなくても一言返しておくことをおすすめします。無視しても問題はありませんが、丁寧な辞退を返しておくと印象が良く、将来別のポジションで再び縁ができることもあります。ただし、明らかにばら撒き型の定型文スカウトであれば、無理に返信する必要はありません。",
   },
   {
     q: "返信はどのくらいの速さが理想ですか？",
@@ -168,8 +168,8 @@ export default function ScoutReplyPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】スカウトにはどう返信すればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「お礼→魅力に感じた点→自己アピール→希望アクション」の型に沿えば、どの状況でも数分で書けます。興味がなくても一言返しておくと印象が良く、将来の縁にもつながります。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・返信は24〜48時間以内です。即レスは交渉上不利になることもあります</li><li>・件名は「用件＋氏名」で一目で分かるように</li><li>・条件交渉は返信段階では「打診」にとどめます</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>「お礼→魅力に感じた点→自己アピール→希望アクション」の型に沿えば、どの状況でも数分で書けます。興味がなくても一言返しておくと印象が良く、将来の縁にもつながります。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・返信は24〜48時間以内です。即レスは交渉上不利になることもあります</li><li>・件名は「用件＋氏名」とし、一目で分かるようにします</li><li>・条件交渉は返信段階では「打診」にとどめます</li></ul>
           </div>
         </section>
 
@@ -197,13 +197,13 @@ export default function ScoutReplyPage() {
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：型に沿えば返信は迷わない</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">型に沿えば返信は迷わない</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               スカウト返信は「<strong>お礼 → 魅力に感じた点 → 自己アピール → 希望アクション</strong>」の型に沿えば、どの状況でも数分で書けます。興味がなくても一言返しておくと印象が良く、将来の縁にもつながります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>・返信は24〜48時間以内です。即レスは交渉上不利になることもあります</li>
-              <li>・件名は「用件＋氏名」で一目で分かるように</li>
+              <li>・件名は「用件＋氏名」とし、一目で分かるようにします</li>
               <li>・条件交渉は返信段階では「打診」にとどめます</li>
             </ul>
           </div>
@@ -225,8 +225,8 @@ export default function ScoutReplyPage() {
               </thead>
               <tbody>
                 {[
-                  { t: "上位（プラチナ等）", f: "個別に内容を作り込み、経歴に触れています。本気度が高い傾向", p: "高い" },
-                  { t: "通常", f: "条件マッチで一斉送信されます。定型文が中心", p: "中〜低（内容次第）" },
+                  { t: "上位（プラチナ等）", f: "個別に内容を作り込み、経歴に触れたもの。本気度が高い傾向", p: "高い" },
+                  { t: "通常", f: "条件マッチによる一斉送信。定型文が中心", p: "中〜低（内容次第）" },
                   { t: "ばら撒き型", f: "経歴に触れず誰にでも送られる定型文", p: "低い" },
                 ].map((row) => (
                   <tr key={row.t} className="hover:bg-slate-50">
@@ -270,10 +270,10 @@ export default function ScoutReplyPage() {
           </p>
           <div className="space-y-3">
             {[
-              { step: "お礼", desc: "スカウトへの感謝を一言します。「お送りいただきありがとうございます」" },
-              { step: "魅力に感じた点", desc: "なぜ関心を持ったかを具体的に示します。技術領域や事業など、相手の文面に触れると効果的" },
-              { step: "自己アピール", desc: "活かせる経験・スキルを簡潔に示します。盛りすぎず実績ベースで" },
-              { step: "希望アクション", desc: "面談希望・質問・日程提示など、次に取ってほしい行動を明示" },
+              { step: "お礼", desc: "スカウトへの感謝を一言伝えます。「お送りいただきありがとうございます」" },
+              { step: "魅力に感じた点", desc: "なぜ関心を持ったかを具体的に示します。技術領域や事業など、相手の文面に触れると効果的です" },
+              { step: "自己アピール", desc: "活かせる経験・スキルを簡潔に示します。誇張せず実績ベースで伝えます" },
+              { step: "希望アクション", desc: "面談希望・質問・日程提示など、次に取ってほしい行動を明示します" },
             ].map((s, i) => (
               <div key={s.step} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -326,8 +326,8 @@ export default function ScoutReplyPage() {
               </thead>
               <tbody>
                 {[
-                  { who: "ヘッドハンター／エージェント", how: "希望条件や転職の温度感を率直に共有してよいです。複数案件の中から提案してもらえるため、軸を伝えると精度が上がります" },
-                  { who: "企業の採用担当（ダイレクト）", how: "その企業への関心を具体的に示します。担当者＝将来の同僚や上司の可能性があるため、やや丁寧めに" },
+                  { who: "ヘッドハンター／エージェント", how: "希望条件や転職の温度感を率直に共有して問題ありません。複数案件の中から提案してもらえるため、軸を伝えると精度が上がります" },
+                  { who: "企業の採用担当（ダイレクト）", how: "その企業への関心を具体的に示します。担当者＝将来の同僚や上司の可能性があるため、やや丁寧な表現を心がけます" },
                 ].map((row) => (
                   <tr key={row.who} className="hover:bg-slate-50">
                     <td className="px-4 py-3 border border-slate-200 font-medium">{row.who}</td>
