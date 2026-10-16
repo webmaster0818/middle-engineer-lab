@@ -133,7 +133,7 @@ const knowledgeCategories = [
     category: "お金・税金・社会保険",
     intro: "転職・独立に伴うお金の手続き。税・社会保険・年金を公的情報ベースで整理します。",
     items: [
-      { name: "インボイス制度とフリーランス", href: "/knowledge/invoice/", desc: "免税/課税の選択・2割特例・経過措置を国税庁情報で解説します。" },
+      { name: "インボイス制度とフリーランス", href: "/knowledge/invoice/", desc: "免税/課税の選択・2割特例と3割特例・経過措置を国税庁情報で解説します。" },
       { name: "開業届の出し方", href: "/knowledge/kaigyo/", desc: "提出期限・提出先と青色申告承認申請の同時提出を解説します。" },
       { name: "iDeCo・企業型DCと転職", href: "/knowledge/ideco/", desc: "転職時の移換手続きと6か月放置の自動移換リスクです。" },
       { name: "失業保険の受給と転職", href: "/knowledge/unemployment-insurance/", desc: "自己都合/会社都合の給付制限・受給期間と転職活動です。" },
