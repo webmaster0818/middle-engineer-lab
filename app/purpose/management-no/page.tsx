@@ -62,10 +62,10 @@ export default function ManagementNoPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- コードを書き続けたいです。管理業務は避けたい</li>
-              <li>- 技術力で年収を上げたい</li>
+              <li>- コードを書き続けたいです。管理業務は避けたいと考えています</li>
+              <li>- 技術力で年収を上げたいと考えています</li>
               <li>- 「30代以降はマネジメント」という風潮に疑問があります</li>
-              <li>- スタッフエンジニアやプリンシパルエンジニアを目指したい</li>
+              <li>- スタッフエンジニアやプリンシパルエンジニアを目指したいと考えています</li>
             </ul>
           </div>
         </section>
@@ -127,7 +127,7 @@ export default function ManagementNoPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "Findy", point: "スキル偏差値でマッチングです。IC向けのハイクラス求人が多いです。" },
+              { name: "Findy", point: "スキル偏差値でマッチングします。IC向けのハイクラス求人が多いです。" },
               { name: "レバテックキャリア", point: "技術力を正しく評価してくれる企業の紹介に強いです。" },
               { name: "転職ドラフト", point: "年収付きで指名が届きます。ICとしての市場価値を確認できます。" },
             ].map((agent, i) => (

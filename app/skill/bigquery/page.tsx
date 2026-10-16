@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/bigquery/" },
   title: "BigQueryエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "BigQueryスキルを持つエンジニアの転職市場を出典付きで解説。データウェアハウスでの用途、データエンジニア・アナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。",
+    "BigQueryスキルを持つエンジニアの転職市場を出典を明記して解説します。データウェアハウスでの用途、データエンジニア・アナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
@@ -70,7 +70,7 @@ export default function BigQuerySkillPage() {
     <>
       <ArticleJsonLd
         title="BigQueryエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="BigQueryスキルを持つエンジニアの転職市場を出典付きで解説。データウェアハウスでの用途、データエンジニア・アナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="BigQueryスキルを持つエンジニアの転職市場を出典を明記して解説します。データウェアハウスでの用途、データエンジニア・アナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/bigquery/"
       />
       <script
@@ -183,9 +183,9 @@ export default function BigQuerySkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { use: "データウェアハウス・分析基盤", note: "大量データの集計・分析です。標準SQLでスケールする中核基盤" },
+              { use: "データウェアハウス・分析基盤", note: "大量データの集計・分析。標準SQLでスケールする中核基盤" },
               { use: "BIダッシュボードのデータソース", note: "Looker Studio・Tableau・Power BIの裏側です。可視化と連携" },
-              { use: "マーケティングデータ統合", note: "GA4・広告データの統合分析です。Web系・広告領域で頻出" },
+              { use: "マーケティングデータ統合", note: "GA4・広告データの統合分析。Web系・広告領域で頻出" },
               { use: "BigQuery ML・準リアルタイム分析", note: "SQLでの機械学習、ストリーミング挿入による分析" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -222,7 +222,7 @@ export default function BigQuerySkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "データエンジニア", note: "DWH・パイプラインの設計運用です。Google Cloud・Airflow・dbtとの掛け合わせ" },
+              { role: "データエンジニア", note: "DWH・パイプラインの設計運用。Google Cloud・Airflow・dbtとの掛け合わせ" },
               { role: "アナリティクスエンジニア", note: "dbtでのデータモデリングです。BIチームとデータ基盤の橋渡し" },
               { role: "データアナリスト", note: "BigQuery×BIツールでの分析・可視化です。意思決定支援" },
               { role: "データプラットフォームエンジニア", note: "分析基盤のアーキテクチャ設計とコストガバナンス" },

@@ -47,21 +47,21 @@ const faqs = [
 ];
 
 const compareRows = [
-  { item: "報酬の決まり方", free: "案件単価×稼働です。スキル・実績で変動", full: "給与テーブル・等級で安定" },
-  { item: "社会保険", free: "国民年金・国保が基本です。全額自己負担", full: "厚生年金・健保です。会社が半額負担" },
-  { item: "税金", free: "確定申告が必要です。経費計上が可能", full: "源泉徴収・年末調整が基本" },
+  { item: "報酬の決まり方", free: "案件単価×稼働。スキル・実績で変動", full: "給与テーブル・等級で安定" },
+  { item: "社会保険", free: "国民年金・国保が基本。全額自己負担", full: "厚生年金・健保。会社が半額負担" },
+  { item: "税金", free: "確定申告が必要。経費計上が可能", full: "源泉徴収・年末調整が基本" },
   { item: "退職金・賞与", free: "なし（共済等で自助）", full: "あり（企業による）" },
-  { item: "有給・休暇", free: "休み=収入減になりやすい", full: "有給制度あり" },
-  { item: "社会的信用", free: "ローン・賃貸審査で実績年数を要する傾向", full: "比較的通りやすい" },
-  { item: "案件・仕事の選択", free: "自分で選べる（自由度高い）", full: "配属・異動の影響を受ける" },
+  { item: "有給・休暇", free: "休み=収入減になりやすいです", full: "有給制度あり" },
+  { item: "社会的信用", free: "ローン・賃貸審査で実績年数を要する傾向", full: "比較的通りやすいです" },
+  { item: "案件・仕事の選択", free: "自分で選べます（自由度高い）", full: "配属・異動の影響を受けます" },
   { item: "収入の安定性", free: "案件状況により変動", full: "毎月安定" },
   { item: "スキルアップ", free: "自己責任・自己投資", full: "研修・OJT等の機会がある場合も" },
 ];
 
 const taxPoints = [
-  { title: "社会保険（厚生年金・健保 vs 国民年金・国保）", desc: "正社員は厚生年金・健康保険で保険料を労使折半です。フリーランスは国民年金・国民健康保険が基本で全額自己負担です。将来の年金額や傷病時の保障にも差が出るため、iDeCo・付加年金・国民年金基金などで補う検討が必要です。" },
+  { title: "社会保険（厚生年金・健保 vs 国民年金・国保）", desc: "正社員は厚生年金・健康保険で保険料を労使で折半します。フリーランスは国民年金・国民健康保険が基本で全額自己負担です。将来の年金額や傷病時の保障にも差が出るため、iDeCo・付加年金・国民年金基金などで補う検討が必要です。" },
   { title: "税金（年末調整 vs 確定申告）", desc: "正社員は会社が源泉徴収・年末調整を行います。フリーランスは自分で確定申告し、経費を計上できる一方、帳簿付け・納税の管理は自己責任です。税の取り扱いは状況で異なるため、税理士・税務署への確認が安全です。" },
-  { title: "信用（ローン・賃貸・カード）", desc: "フリーランスは収入の安定性の証明が難しく、住宅ローンでは開業後の実績年数を求められる傾向です。住宅購入・引っ越し・大型ローンの予定がある場合は、正社員のうちに済ませる選択も。" },
+  { title: "信用（ローン・賃貸・カード）", desc: "フリーランスは収入の安定性の証明が難しく、住宅ローンでは開業後の実績年数を求められる傾向です。住宅購入・引っ越し・大型ローンの予定がある場合は、正社員のうちに済ませる選択肢もあります。" },
 ];
 
 export default function FreelanceVsFulltimePage() {
@@ -115,7 +115,7 @@ export default function FreelanceVsFulltimePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアはフリーランスと正社員のどちらを選ぶべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 額面の単価だけで比べず、「手取り・保障・信用」の合計で比較するのが後悔しない判断の近道です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・フリーランスは社会保険料・税金・経費が自己負担で、退職金や有給もない</li><li>・正社員は社会保険の会社負担や福利厚生など、額面に表れない価値があります</li><li>・レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円</li><li>・まず正社員としての市場価値を把握し、フリーランスの想定単価と手取り・保障・信用の差を並べて比較します</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・フリーランスは社会保険料・税金・経費が自己負担で、退職金や有給もない</li><li>・正社員は社会保険の会社負担や福利厚生など、額面に表れない価値があります</li><li>・レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円です</li><li>・まず正社員としての市場価値を把握し、フリーランスの想定単価と手取り・保障・信用の差を並べて比較します</li></ul>
           </div>
         </section>
 
@@ -253,10 +253,10 @@ export default function FreelanceVsFulltimePage() {
             <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">フリーランス向き</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li className="flex gap-2"><span className="text-petrol">✓</span>特定技術に深い専門性があります</li>
-                <li className="flex gap-2"><span className="text-petrol">✓</span>自己管理・自己投資ができます</li>
-                <li className="flex gap-2"><span className="text-petrol">✓</span>住宅ローン等は既に組み終えています</li>
-                <li className="flex gap-2"><span className="text-petrol">✓</span>収入変動に耐える貯蓄・余裕があります</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>特定技術に深い専門性がある</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>自己管理・自己投資ができる</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>住宅ローン等は既に組み終えている</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>収入変動に耐える貯蓄・余裕がある</li>
                 <li className="flex gap-2"><span className="text-petrol">✓</span>技術に集中したい・社内政治を避けたい</li>
               </ul>
             </div>
@@ -264,10 +264,10 @@ export default function FreelanceVsFulltimePage() {
               <h3 className="font-bold text-green-800 mb-3">正社員向き</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 <li className="flex gap-2"><span className="text-green-600">✓</span>安定収入が必要な家族構成</li>
-                <li className="flex gap-2"><span className="text-green-600">✓</span>住宅ローン・大型ローンの予定があります</li>
+                <li className="flex gap-2"><span className="text-green-600">✓</span>住宅ローン・大型ローンの予定がある</li>
                 <li className="flex gap-2"><span className="text-green-600">✓</span>マネジメント・組織づくりに携わりたい</li>
-                <li className="flex gap-2"><span className="text-green-600">✓</span>福利厚生・保障を重視します</li>
-                <li className="flex gap-2"><span className="text-green-600">✓</span>CTO/VPoEなど社内キャリアを目指します</li>
+                <li className="flex gap-2"><span className="text-green-600">✓</span>福利厚生・保障を重視する</li>
+                <li className="flex gap-2"><span className="text-green-600">✓</span>CTO/VPoEなど社内キャリアを目指す</li>
               </ul>
             </div>
           </div>

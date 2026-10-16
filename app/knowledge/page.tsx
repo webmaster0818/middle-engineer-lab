@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const knowledgeCategories = [
   {
     category: "書類・自己PR",
-    intro: "選考突破の起点となる書類づくり。経歴の棚卸しから見せ方まで。",
+    intro: "選考突破の起点となる書類づくり。経歴の棚卸しから見せ方までを解説します。",
     items: [
       { name: "自己PRの書き方・例文", href: "/knowledge/self-pr/", desc: "Before/Afterと職種別例文で通る自己PRを作ります。" },
       { name: "スキルシートの書き方", href: "/knowledge/skill-sheet/", desc: "職務経歴書との違いと記入例です。SES・フリー向けです。" },
@@ -32,7 +32,7 @@ const knowledgeCategories = [
     category: "面接対策",
     intro: "技術・行動・実技まで、面接形式ごとの準備ポイントです。",
     items: [
-      { name: "面接の逆質問", href: "/knowledge/reverse-questions/", desc: "評価される逆質問の例文とNG例です。ミドル向けも。" },
+      { name: "面接の逆質問", href: "/knowledge/reverse-questions/", desc: "評価される逆質問の例文とNG例です。ミドル向けの記事もあります。" },
       { name: "外資系IT企業の面接対策", href: "/knowledge/foreign-interview/", desc: "選考フローと各ラウンドの想定問答を解説します。" },
       { name: "英語面接の準備", href: "/knowledge/english-interview/", desc: "フレーズ例と想定問答で英語面接を乗り切ります。" },
       { name: "技術面接対策ガイド", href: "/knowledge/tech-interview/", desc: "よく聞かれる質問と回答の組み立て方です。" },
@@ -56,7 +56,7 @@ const knowledgeCategories = [
   },
   {
     category: "エージェント・求人探し",
-    intro: "エージェントの選び方・使い方から、直接応募・スカウトまで。",
+    intro: "エージェントの選び方・使い方から、直接応募・スカウトまでを解説します。",
     items: [
       { name: "エージェントを使わない転職", href: "/knowledge/no-agent/", desc: "直接応募・リファラルで自力転職する進め方と注意点です。" },
       { name: "転職サイトとエージェントの違い", href: "/knowledge/site-vs-agent/", desc: "仕組みの違いと比較表・状況別の使い分け。" },
@@ -74,8 +74,8 @@ const knowledgeCategories = [
     category: "転職プロセス・スケジュール",
     intro: "計画立案から退職・入社後の立ち上がりまでの全工程です。",
     items: [
-      { name: "退職理由の伝え方", href: "/knowledge/resignation-reason/", desc: "本音→建前の言い換えと例文で円満退職です。" },
-      { name: "内定承諾の期限と延長", href: "/knowledge/offer-deadline/", desc: "承諾期限の目安と延長の頼み方をメール例文付きで。" },
+      { name: "退職理由の伝え方", href: "/knowledge/resignation-reason/", desc: "本音→建前の言い換えと例文で円満退職。" },
+      { name: "内定承諾の期限と延長", href: "/knowledge/offer-deadline/", desc: "承諾期限の目安と延長の頼み方をメール例文付きで解説します。" },
       { name: "内定辞退の伝え方", href: "/knowledge/offer-decline/", desc: "メール例文と電話トークで角を立てず辞退です。" },
       { name: "リファレンスチェックの対策", href: "/knowledge/reference-check/", desc: "仕組み・同意原則・推薦者選びと準備リストです。" },
       { name: "入社前の準備チェックリスト", href: "/knowledge/pre-onboarding/", desc: "提出書類・年金や保険の手続き・初日準備を網羅しています。" },
@@ -97,7 +97,7 @@ const knowledgeCategories = [
       { name: "リモートワーク転職", href: "/knowledge/remote-work/", desc: "フルリモート求人の探し方と現実です。" },
       { name: "ワークライフバランス", href: "/knowledge/work-life-balance/", desc: "働き方を軸にした転職先の選び方です。" },
       { name: "スタートアップvs大企業", href: "/knowledge/startup-vs-enterprise/", desc: "規模で変わる働き方とリスクです。" },
-      { name: "マネジメントへの道", href: "/knowledge/management/", desc: "プレイヤーから管理職への移行です。" },
+      { name: "マネジメントへの道", href: "/knowledge/management/", desc: "プレイヤーから管理職への移行。" },
       { name: "継続的な学習戦略", href: "/knowledge/continuous-learning/", desc: "働きながらスキルを伸ばす方法です。" },
     ],
   },
@@ -125,7 +125,7 @@ const knowledgeCategories = [
       { name: "女性エンジニアの転職", href: "/knowledge/woman-engineer/", desc: "女性ならではの観点とキャリア設計です。" },
       { name: "障害のある人の転職", href: "/knowledge/disability/", desc: "配慮事項と働きやすい環境の探し方です。" },
       { name: "海外で働くという選択", href: "/knowledge/overseas/", desc: "海外エンジニア就労の現実と準備します。" },
-      { name: "日本へ帰国してのキャリア", href: "/knowledge/return-japan/", desc: "海外経験を活かした帰国後の転職です。" },
+      { name: "日本へ帰国してのキャリア", href: "/knowledge/return-japan/", desc: "海外経験を活かした帰国後の転職。" },
       { name: "UI/UXキャリアの考え方", href: "/knowledge/uiux/", desc: "デザイン領域への関わり方とキャリアです。" },
     ],
   },
@@ -137,9 +137,9 @@ const knowledgeCategories = [
       { name: "開業届の出し方", href: "/knowledge/kaigyo/", desc: "提出期限・提出先と青色申告承認申請の同時提出を解説します。" },
       { name: "iDeCo・企業型DCと転職", href: "/knowledge/ideco/", desc: "転職時の移換手続きと6か月放置の自動移換リスクです。" },
       { name: "失業保険の受給と転職", href: "/knowledge/unemployment-insurance/", desc: "自己都合/会社都合の給付制限・受給期間と転職活動です。" },
-      { name: "健康保険の任意継続vs国保", href: "/knowledge/health-insurance/", desc: "退職後の任意継続（2年・20日期限）と国保の比較です。" },
+      { name: "健康保険の任意継続vs国保", href: "/knowledge/health-insurance/", desc: "退職後の任意継続（2年・20日期限）と国保の比較。" },
       { name: "住民税と転職", href: "/knowledge/residence-tax/", desc: "前年所得課税の仕組みと退職時期で変わる徴収方法です。" },
-      { name: "副業の確定申告", href: "/knowledge/side-job-tax/", desc: "20万円ルールの正しい意味・所得区分・住民税申告です。" },
+      { name: "副業の確定申告", href: "/knowledge/side-job-tax/", desc: "20万円ルールの正しい意味・所得区分・住民税申告。" },
     ],
   },
 ];
@@ -238,7 +238,7 @@ export default function KnowledgeIndexPage() {
               <Link href="/knowledge/career-plan/" className="text-petrol hover:underline">キャリアプラン</Link>
               で方向性を決めます。年代に不安がある人は
               <Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">年齢による不利</Link>
-              の記事も先に。
+              の記事も先にご覧ください。
             </li>
             <li>
               <span className="font-medium text-slate-700">応募準備期（書類・エージェント）</span>

@@ -59,7 +59,7 @@ const overviewTable = [
   ["受験料", "コア400 USD＋コンセントレーション300 USD＝約700 USD（Enterprise例）"],
   ["構成", "コア試験1科目＋コンセントレーション試験1科目"],
   ["有効期限", "3年（再認定試験またはCEクレジットで更新）"],
-  ["前提資格", "CCNA保有は必須ではない（ただし基礎知識・実務が前提）"],
+  ["前提資格", "CCNA保有は必須ではありません（ただし基礎知識・実務が前提）"],
   ["合格率", "Cisco非公表（当サイトは創作しません）"],
 ];
 
@@ -132,7 +132,7 @@ export default function CcnpCertPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>ネットワーク実務経験のある30〜40代</strong>：設計・上位運用への土台・専門性の証明として加点されます</li>
-              <li>② <strong>未経験のミドル</strong>：難度が高く入口には不向きです。まずCCNAで土台を作るべき</li>
+              <li>② <strong>未経験のミドル</strong>：難度が高く入口には不向きです。まずCCNAで土台を作るべきです</li>
               <li>③ <strong>インフラ専門を深めたい人</strong>：SD-WAN・データセンター等の専門領域を体系化できます</li>
             </ul>
           </div>
@@ -249,7 +249,7 @@ export default function CcnpCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>設計・上位運用への足がかり</strong>。ルーティング・スイッチングの深い理解とSD-WANなどの専門知識を客観的に示せます。第二に<strong>トラック選択による専門化です</strong>。Enterprise／Security／Data Centerなどから自分の実務に合うコンセントレーションを選び、専門性を尖らせられます。第三に<strong>SIer・パートナーでの評価・手当です</strong>。Cisco製品を扱う現場ではCCNP保有が評価対象になりやすく、実利があります。
+            活用戦略は3つに整理できます。第一に<strong>設計・上位運用への足がかり</strong>です。ルーティング・スイッチングの深い理解とSD-WANなどの専門知識を客観的に示せます。第二に<strong>トラック選択による専門化です</strong>。Enterprise／Security／Data Centerなどから自分の実務に合うコンセントレーションを選び、専門性を尖らせられます。第三に<strong>SIer・パートナーでの評価・手当です</strong>。Cisco製品を扱う現場ではCCNP保有が評価対象になりやすく、実利があります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             注意すべきデメリットも押さえておきましょう。CCNPは<strong>取得しても単体で年収が跳ねる資格ではありません</strong>。あくまで実機での構築・トラブルシュート経験を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また有効期限が3年であり、更新を怠ると失効します。逆に言えば、すでにネットワーク現場経験があり設計・上位運用を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/ccna/" className="text-petrol hover:underline">CCNA</Link>で土台を固めてから臨むのが堅実です。
@@ -277,8 +277,8 @@ export default function CcnpCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "トラックとコンセントレーションを選ぶ", d: "Enterprise／Security／Data Centerなどから自分の実務に合うトラックと専門科目を決めます。" },
-              { n: "STEP 2", t: "コア試験を実機演習で固める", d: "コア試験は範囲が広いです。ルーティング・スイッチング・自動化を実機・シミュレータで反復します。" },
+              { n: "STEP 1", t: "トラックとコンセントレーションを選びます", d: "Enterprise／Security／Data Centerなどから自分の実務に合うトラックと専門科目を決めます。" },
+              { n: "STEP 2", t: "コア試験を実機演習で固めます", d: "コア試験は範囲が広いです。ルーティング・スイッチング・自動化を実機・シミュレータで反復します。" },
               { n: "STEP 3", t: "コンセントレーションで専門化→3年更新を計画", d: "専門科目に合格してCCNP認定です。有効期限3年を見据え、再認定やCEクレジットの計画も立てます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">

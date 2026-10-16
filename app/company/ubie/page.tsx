@@ -31,9 +31,9 @@ const basicData: [string, string][] = [
   ["企業名", "Ubie株式会社（ユビー・非上場）"],
   ["設立", "2017年（医師とエンジニアが共同創業）"],
   ["事業内容", "症状検索エンジン「ユビー」など、生活者・医療機関向けヘルステックSaaSの開発・提供"],
-  ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しない（公式の職種別レンジは「年収データ」章を参照）"],
+  ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しません（公式の職種別レンジは「年収データ」章を参照）"],
   ["技術スタック", "Go／Node.js（全社で標準化）／TypeScript・Next.js（フロント）／gRPC（サービス間）／GraphQL（外向け）／GCP"],
-  ["特徴", "年齢不問・要件主義の採用方針です。医療ドメイン×SaaSの社会性の高い領域"],
+  ["特徴", "年齢不問・要件主義の採用方針。医療ドメイン×SaaSの社会性の高い領域"],
 ];
 
 const salaryRows: [string, string][] = [
@@ -72,7 +72,7 @@ export default function UbieCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Ubieの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Ubieは非上場のため公式の全社員平均年収は公表されていません。公式採用ページ提示の職種別レンジが最も信頼できる一次情報です（例: プロダクトマネージャー 800〜1,200万円）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収は非公表です（非上場・有価証券報告書なし）。集計サイトの数値は公式値ではない参考値です。</li><li>・公式採用ページの職種別レンジ例: プロダクトマネージャー 800〜1,200万円、QA・事業開発など 600〜1,200万円です。</li><li>・エンジニア職の等級別レンジは時期により変動しています。具体的な提示額は応募・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収は非公表です（非上場・有価証券報告書なし）。集計サイトの数値は公式値ではない参考値です。</li><li>・公式採用ページの職種別レンジ例: プロダクトマネージャー 800〜1,200万円、QA・事業開発など 600〜1,200万円です。</li><li>・エンジニア職の等級別レンジは時期により変動します。具体的な提示額は応募・面談で確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["Ubie 公式採用サイト（職種別年収レンジ）", "Ubie 技術発信（Zenn等のEngineering記事）", "OpenWork（口コミ傾向）"]} />
@@ -193,8 +193,8 @@ export default function UbieCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Go／Node.js／TypeScriptでのSaaS開発経験を持つミドルエンジニア</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>医療・ヘルスケアの社会的意義に共感できます</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>年齢ではなくスキルで評価される環境を求めています</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>医療・ヘルスケアの社会的意義に共感できる</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>年齢ではなくスキルで評価される環境を求めている</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>変化の速い環境で自律的に動くのが得意</li>
               </ul>
             </div>
@@ -204,7 +204,7 @@ export default function UbieCompanyPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>確立された大企業の安定・明確な等級制度を最優先したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>使用技術を自由に選びたい（全社標準化との相性）</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>整備された制度・手厚い既存ドキュメントを前提に働きたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>年収の絶対額の最大化のみを判断軸にしています</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>年収の絶対額の最大化のみを判断軸にしている</li>
               </ul>
             </div>
           </div>

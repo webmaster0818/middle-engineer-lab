@@ -33,7 +33,7 @@ const basicData: [string, string][] = [
   ["対応エリア", "全国（地方求人も取り扱い）"],
   ["得意領域", "IT・ゲーム業界、未経験歓迎求人、異業種からのキャリアチェンジ"],
   ["年収アップ実績", "統一された公式アップ率は確認できず（本記事では断定しない）"],
-  ["サポート", "コンシェルジュ（担当者）型です。スピード重視の求人提案"],
+  ["サポート", "コンシェルジュ（担当者）型。スピード重視の求人提案"],
   ["料金", "求職者完全無料（公式）"],
 ];
 
@@ -58,12 +58,12 @@ const strengths = [
 
 const goodReviews = [
   {
-    point: "紹介求人の量が多い",
+    point: "紹介求人の量が多いです",
     detail:
       "保有求人の多さを背景に、一度の面談で複数の選択肢を提示してもらえたという声が見られます。比較検討の材料を多く得たい人に向く傾向です。",
   },
   {
-    point: "レスポンスが早い",
+    point: "レスポンスが早いです",
     detail:
       "連絡や求人紹介のスピードを評価する声が目立ちます。転職活動を停滞させたくない人にとって、対応の速さは実利的なメリットとして挙げられています。",
   },
@@ -76,7 +76,7 @@ const goodReviews = [
 
 const badReviews = [
   {
-    point: "連絡が多すぎる",
+    point: "連絡が多すぎます",
     detail:
       "提案量の多さの裏返しとして、連絡頻度が高いと感じる声が見られます。希望条件を最初に明確化し、連絡手段・頻度の希望を伝えることで軽減しやすい不満です。",
   },
@@ -185,9 +185,9 @@ export default function WorkportReview() {
               要約すると、<span className="font-bold">「とにかく多くの求人を比較したい人」「未経験・異業種からIT転職を狙う30代」「地方やリモートも含めて探したい人」</span>に向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-2">
-              <li className="flex gap-2"><span className="shrink-0 font-bold">①</span>公開求人11万件以上・IT3万件以上（公式LP・集計値・2026年6月）で選択肢が豊富</li>
+              <li className="flex gap-2"><span className="shrink-0 font-bold">①</span>公開求人11万件以上・IT3万件以上（公式LP・集計値・2026年6月）で選択肢が豊富です</li>
               <li className="flex gap-2"><span className="shrink-0 font-bold">②</span>レスポンスが早く、活動を早く前に進めたい人と相性が良いです</li>
-              <li className="flex gap-2"><span className="shrink-0 font-bold">③</span>一方で「連絡が多い」「専門性にばらつき」の声もあり、IT特化エージェントとの併用が前提に向きます</li>
+              <li className="flex gap-2"><span className="shrink-0 font-bold">③</span>一方で「連絡が多い」「専門性にばらつき」の声もあり、IT特化エージェントとの併用を前提にすることをおすすめします</li>
             </ul>
           </div>
         </section>
@@ -342,7 +342,7 @@ export default function WorkportReview() {
               <h3 className="font-bold text-red-700 mb-3">向いていない人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
-                  "年収750万円以上のハイクラスのみを狙う",
+                  "年収750万円以上のハイクラスのみを狙います",
                   "連絡頻度は最小限に抑えたい",
                   "技術的に深い選考対策を最優先したい",
                   "厳選した少数の求人だけを見たい",
@@ -380,8 +380,8 @@ export default function WorkportReview() {
         <section id="compare" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">他社との比較・使い分け</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed mb-4">
-            <p><span className="font-bold">ワークポートが向くケース：</span>求人量を最大化したい、未経験・地方も含めて広く探したい、スピード重視で進めたいです。</p>
-            <p><span className="font-bold">IT特化エージェントが向くケース：</span>技術的に深い選考対策、ハイクラス・高年収を軸に厳選したいです。</p>
+            <p><span className="font-bold">ワークポートが向くケース：</span>求人量を最大化したい、未経験・地方も含めて広く探したい、スピード重視で進めたい場合です。</p>
+            <p><span className="font-bold">IT特化エージェントが向くケース：</span>技術的に深い選考対策、ハイクラス・高年収を軸に厳選したい場合です。</p>
             <p><span className="font-bold">併用パターン：</span>ワークポートで母数を確保しつつ、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>や<Link href="/review/geekly/" className="text-petrol hover:underline">Geekly</Link>で専門的な提案・対策を受ける二刀流が、ミドル層には効率的です。</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -444,7 +444,7 @@ export default function WorkportReview() {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ワークポートに無料相談する</h2>
-          <p className="text-blue-100 text-sm mb-4">求人量とスピードで選択肢を広げたい方へ。まずは無料相談から始めてみませんか？</p>
+          <p className="text-blue-100 text-sm mb-4">求人量とスピードで選択肢を広げたい方におすすめです。まずは無料相談から始めてみませんか？</p>
           <a href="https://www.workport.co.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料カウンセリングを予約する</a>
         </section>
 

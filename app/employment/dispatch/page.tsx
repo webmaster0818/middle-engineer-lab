@@ -145,7 +145,7 @@ export default function DispatchPage() {
               派遣から正社員になる道は1つではありません。なかでも<strong>紹介予定派遣は直接雇用を前提とした仕組み</strong>で、厚労省の令和4年度集計では直接雇用化率が約56.5%と、半数強が直接雇用に至っています。実際に働いて相性を確認してから正社員化を判断できるため、ミスマッチを避けたい人に向きます。雇用の安定をまず得たいなら無期雇用派遣、待遇改善を最短で狙うなら正社員転職と、目的に応じてルートを選べます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>正社員化のルートは「派遣先登用」「紹介予定派遣」「無期雇用派遣」「転職」の4つ。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>正社員化のルートは「派遣先登用」「紹介予定派遣」「無期雇用派遣」「転職」の4つです。</li>
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>紹介予定派遣の直接雇用化率は約56.5%です（厚労省 令和4年度集計／2026年6月時点引用）。</li>
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>派遣の経験は実務経験として正社員転職でも評価されます。</li>
             </ul>
@@ -226,7 +226,7 @@ export default function DispatchPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mb-4">
-            出典: 厚生労働省 労働者派遣事業報告（令和4年度集計）。直接雇用化率の原表は引用時点の値（2026年6月引用）で、最終確認推奨です。
+            出典: 厚生労働省 労働者派遣事業報告（令和4年度集計）。直接雇用化率の原表は引用時点の値（2026年6月引用）で、最終確認をおすすめします。
           </p>
           <p className="text-slate-600 leading-relaxed text-sm mb-4">
             注目したいのは、派遣労働者総数約215万人のうち、無期が約83万人、有期が約132万人という内訳です。無期雇用派遣（正社員型派遣）という安定した働き方が一定の規模で広がっていることが分かります。また、賃金平均15,968円に対し派遣料金平均24,909円という差は、派遣元が負担する社会保険料・運営費・利益に充てられる構造を示しています。

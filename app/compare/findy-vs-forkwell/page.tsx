@@ -33,7 +33,7 @@ const comparison = [
   { item: "サービス形態", a: "スカウト型（GitHub連携のスキル偏差値でマッチング）", b: "スカウト型＋求人掲載（Forkwell Jobs）＋ポートフォリオ＋コミュニティ" },
   { item: "評価のものさし", a: "GitHubの活動を解析した「スキル偏差値」", b: "ポートフォリオと技術発信・コミュニティでの活動" },
   { item: "規模感", a: "掲載企業800社以上を厳選（公式・2024年7月時点）", b: "登録者 約59,000〜60,000人（二次情報・時点要確認）" },
-  { item: "求人数", a: "非明示（確認不可）", b: "媒体間で数値が割れ確認不可・質重視の方針" },
+  { item: "求人数", a: "非明示（確認不可）", b: "媒体間で数値が異なり確認不可・質重視の方針" },
   { item: "対象", a: "モダン言語（Go/TypeScript/Python/Ruby等）のハイスキル即戦力・Web自社開発志向", b: "中〜上級・Web自社開発志向・発信や学習に積極的な層" },
   { item: "対応エリア", a: "首都圏中心（地方求人は少なめ）", b: "首都圏集中" },
   { item: "料金", a: "求職者は完全無料", b: "求職者は完全無料" },
@@ -50,18 +50,18 @@ const faqs = [
 ];
 
 const goodFindy = [
-  "GitHubに公開リポジトリやコミット履歴があり、コードで実力を示せる",
+  "GitHubに公開リポジトリやコミット履歴があり、コードで実力を示せます",
   "Go/TypeScript/Python/Rubyなどモダン言語を扱う即戦力エンジニア",
-  "Web自社開発企業を志向している",
+  "Web自社開発企業を志向しています",
   "客観的なスキル可視化で自分の市場価値を測りたい",
   "現役でコードを書き続けている30〜40代",
 ];
 const goodForkwell = [
   "ポートフォリオや技術発信で評価されたい",
-  "勉強会・コミュニティなど学習文化に共感する",
+  "勉強会・コミュニティなど学習文化に共感します",
   "スカウト数より文面の質を重視したい",
-  "Web自社開発の中〜上級ポジションを狙う",
-  "首都圏で腰を据えて活動できる",
+  "Web自社開発の中〜上級ポジションを狙います",
+  "首都圏で腰を据えて活動できます",
 ];
 
 export default function FindyVsForkwellPage() {
@@ -97,7 +97,7 @@ export default function FindyVsForkwellPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・GitHubの実績で評価されたいなら「Findy」</strong>。公開リポジトリやコミット履歴を解析したスキル偏差値で実力を可視化します。</li>
               <li><strong>・ポートフォリオや技術発信の質で見てほしいなら「Forkwell」</strong>。勉強会200本超のコミュニティと学習文化が特徴です。</li>
-              <li><strong>・迷うなら両方無料登録です</strong>。評価軸が違うため、異なる切り口の企業からスカウトが届きます。どちらも求職者は完全無料です。</li>
+              <li><strong>・迷う場合は両方への無料登録をおすすめします</strong>。評価軸が違うため、異なる切り口の企業からスカウトが届きます。どちらも求職者は完全無料です。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">両サービスとも首都圏中心・Web自社開発志向という共通点があります。理由は次の比較表と項目別解説で詳しくご説明します。</p>
@@ -138,7 +138,7 @@ export default function FindyVsForkwellPage() {
 
         <section id="area" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較④：求人エリア・対象層</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">ご説明すると、FindyもForkwellも首都圏中心です。Findyは地方求人が少なめ、Forkwellも首都圏集中の傾向があります。地方在住の場合はフルリモート求人を狙うか、地方求人を扱うサービスとの併用が現実的です。フルリモート前提の求人探しは<Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモート向けエージェント比較</Link>もあわせてご確認ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">実際には、FindyもForkwellも首都圏中心です。Findyは地方求人が少なめ、Forkwellも首都圏集中の傾向があります。地方在住の場合はフルリモート求人を狙うか、地方求人を扱うサービスとの併用が現実的です。フルリモート前提の求人探しは<Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモート向けエージェント比較</Link>もあわせてご確認ください。</p>
           <p className="text-slate-600 leading-relaxed mb-4">対象層は、Findyがモダン言語のハイスキル即戦力、Forkwellが中〜上級でWeb自社開発志向の発信好きな層です。どちらも実務経験のあるエンジニア向けで、未経験者には不向きです。</p>
         </section>
 
@@ -162,9 +162,9 @@ export default function FindyVsForkwellPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Findyの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>GitHub実績で客観的に評価されます</li><li>掲載企業の質が高い</li><li>自己アピールの壁打ちができる</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>GitHub実績で客観的に評価されます</li><li>掲載企業の質が高いです</li><li>自己アピールの壁打ちができます</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>GitHub活動が少ないとスカウトが来ないです</li><li>地方求人が少ない</li><li>マネジメント専業には不向き</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>GitHub活動が少ないとスカウトが来ないです</li><li>地方求人が少ないです</li><li>マネジメント専業には不向き</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：Qiita／みん評／各転職メディア集計</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">

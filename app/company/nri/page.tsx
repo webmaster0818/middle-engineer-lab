@@ -47,7 +47,7 @@ const features = [
   },
   {
     h: "キャリア採用を通年で強化",
-    p: "NRIはキャリア採用サイト（career.nri.co.jp）を独立運営し、専門性を活かす中途人材を通年募集です。リファラル（社員紹介）採用も通常選考と同じ基準で実施していることを公式に明記しています。",
+    p: "NRIはキャリア採用サイト（career.nri.co.jp）を独立運営し、専門性を活かす中途人材を通年募集します。リファラル（社員紹介）採用も通常選考と同じ基準で実施していることを公式に明記しています。",
   },
 ];
 
@@ -256,17 +256,17 @@ export default function NriCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 text-sm mb-2">良い傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-green-700">
-                <li>・待遇・給与水準の満足度が高いとする声</li>
+                <li>・待遇・給与水準の満足度が高いとする声があります</li>
                 <li>・専門性を深められる大規模案件が多いです</li>
-                <li>・近年は残業抑制の流れがあるとの指摘</li>
+                <li>・近年は残業抑制の流れがあるとの指摘があります</li>
               </ul>
             </div>
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-amber-700">
                 <li>・残業時間は部署・プロジェクトでばらつきが大きいです</li>
-                <li>・ワークライフバランスは案件次第という指摘</li>
-                <li>・評価制度が分かりにくいとの声</li>
+                <li>・ワークライフバランスは案件次第という指摘があります</li>
+                <li>・評価制度が分かりにくいとの声があります</li>
               </ul>
             </div>
           </div>
@@ -290,7 +290,7 @@ export default function NriCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラスSIer・コンサル求人に強いスカウト型です。NRI案件を扱うヘッドハンターが多いです。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化です。金融系SIerやDX・クラウド系ポジションの提案に強みがあります。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。金融系SIerやDX・クラウド系ポジションの提案に強みがあります。" },
               { name: "doda(IT)", href: "/review/doda-it/", desc: "国内最大級の求人数です。大手SIerの各事業部門の求人を幅広く網羅します。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

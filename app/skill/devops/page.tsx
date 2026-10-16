@@ -59,14 +59,14 @@ const faqs = [
 ];
 
 const salaryRef = [
-  ["ソフトウェアエンジニア", "約511万円", "DevOps領域はここから上振れしやすい"],
-  ["システムエンジニア（SE）", "約516万円", "自動化スキルで一段上を狙える"],
+  ["ソフトウェアエンジニア", "約511万円", "DevOps領域はここから上振れしやすいです"],
+  ["システムエンジニア（SE）", "約516万円", "自動化スキルで一段上を狙えます"],
 ];
 
 const cicdTools = [
-  ["Jenkins", "歴史が長くオンプレ・受託で根強いです。柔軟だが運用知識が要る"],
-  ["GitHub Actions", "GitHubと統合され導入が容易です。近年採用が広い"],
-  ["GitLab CI", "GitLab一体型です。セルフホスト・エンタープライズで使われる"],
+  ["Jenkins", "歴史が長くオンプレ・受託で根強い。柔軟だが運用知識が要る"],
+  ["GitHub Actions", "GitHubと統合され導入が容易。近年採用が広い"],
+  ["GitLab CI", "GitLab一体型。セルフホスト・エンタープライズで使われる"],
   ["AWS CodePipeline", "AWS環境での標準的な選択肢の一つ"],
   ["Google Cloud Build", "GCP環境でのビルド・デプロイ自動化"],
 ];
@@ -226,7 +226,7 @@ export default function DevopsSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "IaC（Infrastructure as Code）", d: "Terraform等でインフラをコード管理です。手作業を排し、再現性とレビュー可能性を高めます。" },
+              { t: "IaC（Infrastructure as Code）", d: "Terraform等でインフラをコード管理。手作業を排し、再現性とレビュー可能性を高めます。" },
               { t: "コンテナ（Docker / Kubernetes）", d: "アプリをコンテナ化し、Kubernetesでオーケストレーションです。スケーラブルな運用の土台です。" },
               { t: "監視・オブザーバビリティ", d: "メトリクス・ログ・トレースを集約し、問題を早期検知します。Prometheus/Grafana等が代表です。" },
             ].map((x, i) => (
@@ -269,8 +269,8 @@ export default function DevopsSkillPage() {
           <div className="space-y-3">
             {[
               { t: "入口層（CI/CD導入）", d: "GitHub Actions等でビルド・テスト・デプロイを自動化します。Docker基礎とスクリプティングが問われます。" },
-              { t: "中核層（IaC・コンテナ運用）", d: "Terraformでの構成管理、Kubernetes運用、監視の整備です。年収帯が一段上がるゾーンです。" },
-              { t: "上級層（プラットフォーム・組織改善）", d: "開発生産性を高める内部基盤づくり、組織横断のDevOps文化推進です。マネジメント要素も評価されます。" },
+              { t: "中核層（IaC・コンテナ運用）", d: "Terraformでの構成管理、Kubernetes運用、監視の整備。年収帯が一段上がるゾーンです。" },
+              { t: "上級層（プラットフォーム・組織改善）", d: "開発生産性を高める内部基盤づくり、組織横断のDevOps文化推進。マネジメント要素も評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -314,7 +314,7 @@ export default function DevopsSkillPage() {
             {[
               { n: "STEP 1", t: "土台の棚卸し", d: "Linux・ネットワーク・開発（いずれか）の基礎を整理します。DevOpsの土台になります。" },
               { n: "STEP 2", t: "CI/CDを自作", d: "GitHub Actionsで小さなアプリのビルド・テスト・デプロイを自動化します。" },
-              { n: "STEP 3", t: "IaC・コンテナ化", d: "Dockerでコンテナ化し、Terraformでインフラをコード管理です。GitHubに公開します。" },
+              { n: "STEP 3", t: "IaC・コンテナ化", d: "Dockerでコンテナ化し、Terraformでインフラをコード管理。GitHubに公開します。" },
               { n: "STEP 4", t: "自動化ストーリーで応募", d: "『手作業をどれだけ自動化し、リリースをどう速くしたか』を職務経歴書に落とし込みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -327,7 +327,7 @@ export default function DevopsSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方です</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>。
           </p>
         </section>
 

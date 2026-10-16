@@ -297,7 +297,7 @@ export default function IdecoPage() {
       <TechgoCta
         heading="DC・iDeCoの移換とあわせて「年収の見直し」も"
         note="運用資産を守る次の一手は年収アップです。テックゴーは年収アップ平均144万円（2026年3月の内定承諾者平均・公式公表）のIT特化エージェントです。"
-        buttonText="無料キャリア面談を予約する（公式）"
+        buttonText="無料キャリア面談を予約します（公式）"
       />
 
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>

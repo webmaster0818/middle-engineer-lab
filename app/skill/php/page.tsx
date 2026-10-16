@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/php/" },
   title: "PHPエンジニアの転職ガイド｜Laravel・年収・将来性【2026年】",
   description:
-    "PHPエンジニアの転職市場を出典付きで解説。求人数で上位を占めるPHPの市場価値、Laravelでの差別化、WordPress案件からの脱却、求人の探し方、30代・40代の進め方を整理します。",
+    "PHPエンジニアの転職市場を出典を明記して解説します。求人数で上位を占めるPHPの市場価値、Laravelでの差別化、WordPress案件からの脱却、求人の探し方、30代・40代の進め方を整理します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function PhpSkillPage() {
     <>
       <ArticleJsonLd
         title="PHPエンジニアの転職ガイド｜Laravel・年収・将来性【2026年】"
-        description="PHPエンジニアの転職市場を出典付きで解説。求人数で上位を占めるPHPの市場価値、Laravelでの差別化、WordPress案件からの脱却、求人の探し方、30代・40代の進め方を整理します。"
+        description="PHPエンジニアの転職市場を出典を明記して解説します。求人数で上位を占めるPHPの市場価値、Laravelでの差別化、WordPress案件からの脱却、求人の探し方、30代・40代の進め方を整理します。"
         url="/skill/php/"
       />
       <script
@@ -135,7 +135,7 @@ export default function PhpSkillPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・paiza 2025年調査で企業ニーズ（求人数比率）<strong>3位です（11.0%）</strong>。転職機会を得やすいです</li>
               <li>・W3Techs集計（2026年6月時点）でWebの<strong>約71.8%がPHPです</strong>。需要の土台が大きいです</li>
-              <li>・<strong>Laravel＋フロント／他言語</strong>の掛け合わせが年収アップの分岐点</li>
+              <li>・<strong>Laravel＋フロント／他言語</strong>の掛け合わせが年収アップの分岐点です</li>
             </ul>
           </div>
         </section>
@@ -275,7 +275,7 @@ export default function PhpSkillPage() {
               <strong>「制作止まり」を脱して年収レンジを上げます。</strong>WordPress制作中心のキャリアだと年収が頭打ちになりやすいため、Laravelのアプリ開発やPHP 8系のモダン機能を一つでも持つことが分岐点です。レガシーとモダンの両方が分かる人材は、モダナイゼーション案件で重宝されます。
             </p>
             <p>
-              <strong>受託・業務知識を強みにします。</strong>受託開発で培った要件定義・顧客折衝の経験や、ECなどのドメイン知識は、若手では代替しにくい資産です。技術力とセットで提示すれば、40代でも設計・リードのポジションで戦えます。
+              <strong>受託・業務知識を強みにします。</strong>受託開発で培った要件定義・顧客折衝の経験や、ECなどのドメイン知識は、若手では代替しにくい資産です。技術力とセットで提示すれば、40代でも設計・リードのポジションで活躍できます。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

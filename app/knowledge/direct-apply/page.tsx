@@ -30,8 +30,8 @@ const compareRows = [
   { item: "年収交渉", direct: "自分で交渉", agent: "エージェントが代行" },
   { item: "非公開求人", direct: "アクセス不可", agent: "アクセス可能" },
   { item: "面接対策", direct: "自分で準備", agent: "企業別の対策あり" },
-  { item: "スピード", direct: "自分のペース", agent: "担当と連携して進む" },
-  { item: "企業の内部情報", direct: "口コミサイト・面談で収集", agent: "担当から詳細情報を得やすい" },
+  { item: "スピード", direct: "自分のペース", agent: "担当と連携して進みます" },
+  { item: "企業の内部情報", direct: "口コミサイト・面談で収集", agent: "担当から詳細情報を得やすいです" },
   { item: "求職者の費用", direct: "無料", agent: "無料（企業が成功報酬を負担）" },
   { item: "向く企業", direct: "ベンチャー・採用ページ整備企業", agent: "大手・非公開募集の企業" },
 ];
@@ -226,9 +226,9 @@ export default function DirectApplyPage() {
             <div className="bg-green-50 border border-green-200 rounded-xl p-5">
               <h3 className="font-bold text-green-800 mb-3">直接応募が向いている人</h3>
               <ul className="text-sm text-green-700 space-y-2">
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>志望企業が明確に決まっています</span></li>
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>年収交渉や条件確認を自分でできます</span></li>
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>ベンチャー・スタートアップを志望しています</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>志望企業が明確に決まっている</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>年収交渉や条件確認を自分でできる</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>ベンチャー・スタートアップを志望している</span></li>
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>自分のペースで活動したい</span></li>
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>カジュアル面談で社風を確かめたい</span></li>
               </ul>
@@ -236,10 +236,10 @@ export default function DirectApplyPage() {
             <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-5">
               <h3 className="font-bold text-blue-800 mb-3">エージェント経由が向いている人</h3>
               <ul className="text-sm text-petrol-deep space-y-2">
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>初めての転職で不安があります</span></li>
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>年収交渉を代行してほしいです</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>初めての転職で不安がある</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>年収交渉を代行してほしい</span></li>
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>非公開求人にアクセスしたい</span></li>
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>面接対策のサポートが欲しいです</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>面接対策のサポートが欲しい</span></li>
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>市場価値を客観的に知りたい</span></li>
               </ul>
             </div>

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "年収500万円のエンジニアに必要なスキル・役職・職種【到達ルート】";
 const DESCRIPTION =
-  "年収500万円のITエンジニアに必要なスキルレベル・役職・職種・求人傾向を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理。ITSS L3を中心とした一人前〜中堅層という位置づけと、Web系開発・社内SE・インフラに広がる求人傾向、30〜40代の狙い方を解説します。";
+  "年収500万円のITエンジニアに必要なスキルレベル・役職・職種・求人傾向を、経産省ITSSレベルや厚労省job tag（令和7年）など出典を明記して整理します。ITSS L3を中心とした一人前〜中堅層という位置づけと、Web系開発・社内SE・インフラに広がる求人傾向、30〜40代の狙い方を解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/500man/" },
@@ -171,7 +171,7 @@ export default function Salary500Page() {
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L2</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">478.6万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">上位者の指導下で遂行です。500万円の下限側</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">上位者の指導下で遂行します。500万円の下限側</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L3</td>

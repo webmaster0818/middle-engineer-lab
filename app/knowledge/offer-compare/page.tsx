@@ -163,7 +163,7 @@ export default function OfferComparePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】複数内定はどうやって比較・決定すればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 年収の額面だけで決めず、比較軸を表に整理し、重要度で重みづけしてスコアリングで定量比較するのが後悔しない基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・年収以外にストックオプション・リモート・評価制度・技術スタック・労働時間・事業の安定性を含めて総合比較します</li><li>・比較軸を縦・企業を横に並べた表に重要度（★）を付け、「重み×点数」で総合スコアを出します</li><li>・辞退は早く丁寧に。回答期限は一般に1〜2週間で、延長も相談できます</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・年収以外にストックオプション・リモート・評価制度・技術スタック・労働時間・事業の安定性を含めて総合比較する</li><li>・比較軸を縦・企業を横に並べた表に重要度（★）を付け、「重み×点数」で総合スコアを出す</li><li>・辞退は早く丁寧に伝えます。回答期限は一般に1〜2週間で、延長も相談できる</li></ul>
           </div>
         </section>
 

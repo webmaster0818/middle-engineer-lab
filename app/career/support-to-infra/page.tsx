@@ -28,19 +28,19 @@ const gapRows = [
   {
     area: "OS / サーバー",
     sup: "Windows/Active Directoryの運用・問い合わせ対応",
-    infra: "Linuxサーバーの構築・運用ができる",
+    infra: "Linuxサーバーの構築・運用ができます",
     action: "LinuxとLPIC/LinuC Level 1の基礎を固めます",
   },
   {
     area: "ネットワーク",
     sup: "接続トラブルの一次対応・切り分け",
-    infra: "設計・構築まで踏み込む（TCP/IP・DNS・FW）",
+    infra: "設計・構築まで踏み込みます（TCP/IP・DNS・FW）",
     action: "ネットワーク基礎とCCNA相当の知識を学びます",
   },
   {
     area: "クラウド",
     sup: "クラウドサービスの利用者サポートが中心",
-    infra: "AWS/GCP等を自分で設計・構築する",
+    infra: "AWS/GCP等を自分で設計・構築します",
     action: "AWS SAAを取得し実際に構築経験を作ります",
   },
   {
@@ -51,14 +51,14 @@ const gapRows = [
   },
   {
     area: "監視 / 運用",
-    sup: "障害の受付・エスカレーションに強い",
-    infra: "監視設計・運用自動化まで担う",
+    sup: "障害の受付・エスカレーションに強いです",
+    infra: "監視設計・運用自動化まで担います",
     action: "監視ツールの設計・運用に触れます",
   },
   {
     area: "強み（活かせる）",
     sup: "障害対応の場慣れ・利用者目線・切り分け力",
-    infra: "運用を理解したインフラ設計者は重宝される",
+    infra: "運用を理解したインフラ設計者は重宝されます",
     action: "障害対応・AD管理の実績を具体的に明記",
   },
 ];

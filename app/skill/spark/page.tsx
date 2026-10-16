@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/spark/" },
   title: "Apache Sparkエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Apache Sparkスキルを持つエンジニアの転職市場を出典付きで解説。大規模分散処理での用途、データエンジニア職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。",
+    "Apache Sparkスキルを持つエンジニアの転職市場を出典を明記して解説します。大規模分散処理での用途、データエンジニア職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
@@ -70,7 +70,7 @@ export default function SparkSkillPage() {
     <>
       <ArticleJsonLd
         title="Apache Sparkエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Apache Sparkスキルを持つエンジニアの転職市場を出典付きで解説。大規模分散処理での用途、データエンジニア職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="Apache Sparkスキルを持つエンジニアの転職市場を出典を明記して解説します。大規模分散処理での用途、データエンジニア職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/spark/"
       />
       <script
@@ -133,7 +133,7 @@ export default function SparkSkillPage() {
               <strong>Sparkは「単体スキル」ではなく「データ基盤・パイプライン構築力」として評価されます。</strong>ツールの使い方より、大規模データをどう処理・設計したかの経験が問われます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Spark単体の公表年収は乏しいため、<strong>データエンジニア等の職種年収で代替</strong>して捉えるのが実態</li>
+              <li>・Spark単体の公表年収は乏しいため、<strong>データエンジニア等の職種年収で代替</strong>して捉えるのが実態です</li>
               <li>・SQL・Pythonでのデータ処理経験があれば、Spark未経験でもポテンシャル採用の余地があります</li>
               <li>・<strong>クラウド・Databricks・Airflow</strong>との掛け合わせで市場価値が上がります</li>
             </ul>
@@ -183,10 +183,10 @@ export default function SparkSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { use: "大規模ETL・バッチ処理", note: "テラバイト級のデータ加工・集計です。データパイプラインの中核" },
+              { use: "大規模ETL・バッチ処理", note: "テラバイト級のデータ加工・集計。データパイプラインの中核" },
               { use: "機械学習の前処理（MLlib）", note: "特徴量生成・大規模前処理です。MLOps基盤と連携" },
               { use: "ストリーム処理（Structured Streaming）", note: "準リアルタイム処理です。Kafkaと組み合わせる構成" },
-              { use: "データレイクハウス（Databricks）", note: "Delta Lake上でのETL・分析です。クラウドデータ基盤の中心" },
+              { use: "データレイクハウス（Databricks）", note: "Delta Lake上でのETL・分析。クラウドデータ基盤の中心" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.use}</h3>
@@ -222,10 +222,10 @@ export default function SparkSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "データエンジニア", note: "データパイプラインの設計運用です。SQL・Python・クラウドとの掛け合わせ" },
+              { role: "データエンジニア", note: "データパイプラインの設計運用。SQL・Python・クラウドとの掛け合わせ" },
               { role: "機械学習基盤エンジニア（MLOps）", note: "大規模前処理・特徴量基盤です。データサイエンスチームを支えます" },
               { role: "データプラットフォームエンジニア", note: "レイクハウス・データ基盤のアーキテクチャ設計とコスト最適化" },
-              { role: "アナリティクスエンジニア", note: "Spark／SQLでの分析基盤整備です。BIチームとデータ基盤の橋渡し" },
+              { role: "アナリティクスエンジニア", note: "Spark／SQLでの分析基盤整備。BIチームとデータ基盤の橋渡し" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>

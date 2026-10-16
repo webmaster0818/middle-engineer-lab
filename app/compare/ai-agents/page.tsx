@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/ai-agents/" },
   title: "AI・機械学習エンジニアの転職エージェントおすすめ｜選び方【2026年8月】",
   description:
-    "AI・機械学習（ML／生成AI／データサイエンス）エンジニアに強い転職エージェントを、当サイトに実在するサービスから根拠付きで厳選です。GitHub評価のFindy、IT/Web全般のレバテックキャリア、ハイクラスのビズリーチ、Web発信評価のLAPRASまで、30代40代向けに選び方を整理します。",
+    "AI・機械学習（ML／生成AI／データサイエンス）エンジニアに強い転職エージェントを、当サイトに実在するサービスから根拠付きで厳選しています。GitHub評価のFindy、IT/Web全般のレバテックキャリア、ハイクラスのビズリーチ、Web発信評価のLAPRASまで、30代40代向けに選び方を整理します。",
 };
 
 const toc = [
@@ -44,7 +44,7 @@ const services = [
     name: "ビズリーチ（IT）",
     href: "/review/bizreach-it/",
     tag: "ハイクラス・スカウト型",
-    reason: "ハイクラス・スカウト型で、年収750万円以上をハイクラスと定義です（二次情報）。年収1,000万円以上求人が全体の約4割（二次）とされ、AI/MLのリード・研究開発・データサイエンス責任者など上位ポジションのスカウトを受けやすいです。市場価値を客観的に把握する用途にも向きます。無料会員があります。",
+    reason: "ハイクラス・スカウト型で、年収750万円以上をハイクラスと定義しています（二次情報）。年収1,000万円以上求人が全体の約4割（二次）とされ、AI/MLのリード・研究開発・データサイエンス責任者など上位ポジションのスカウトを受けやすいです。市場価値を客観的に把握する用途にも向きます。無料会員があります。",
     fit: "AI/MLのリード・上位ポジションをスカウトで狙いたい人",
   },
   {
@@ -119,7 +119,7 @@ export default function AiAgentsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">選定のポイント</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { t: "技術力を客観評価できるか", d: "AI/MLは技術力の差が大きい領域です。GitHubや発信から実力を可視化できるサービスか。Findy・LAPRASが該当しています。" },
+              { t: "技術力を客観評価できるか", d: "AI/MLは技術力の差が大きい領域です。GitHubや発信から実力を可視化できるサービスか。Findy・LAPRASが該当します。" },
               { t: "AI関連職の母数を確保できるか", d: "ML・データサイエンス・MLOps・生成AI等は求人が分散です。網羅型の大手で母数を補えるか。" },
               { t: "上位ポジションに届くか", d: "リード・研究開発・責任者級は、ハイクラス・スカウト型の方が届きやすいです。" },
             ].map((c, i) => (
@@ -195,7 +195,7 @@ export default function AiAgentsPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">AI・機械学習は「技術評価×網羅×ハイクラス」で選ぶ</h2>
-          <p className="text-blue-100 text-sm mb-4">Findyで技術評価、レバテックキャリアで母数、ビズリーチ/LAPRASで上位・発信評価です。いずれも無料です。</p>
+          <p className="text-blue-100 text-sm mb-4">Findyで技術評価、レバテックキャリアで母数、ビズリーチ/LAPRASで上位求人・発信の評価を得る使い分けが有効です。いずれも無料です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

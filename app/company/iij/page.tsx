@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/iij/" },
   title: "IIJの年収は平均747万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "株式会社インターネットイニシアティブ（IIJ・3774）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収747万円(2026年3月期・全社員平均)、ネットワーク/クラウド/セキュリティの技術領域、選考フロー・面接観点、30代40代の進め方まで。確認できない数値は記載していません。",
+    "株式会社インターネットイニシアティブ（IIJ・3774）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収747万円(2026年3月期・全社員平均)、ネットワーク/クラウド/セキュリティの技術領域、選考フロー・面接観点、30代40代の進め方までを解説します。",
 };
 
 const salaryTrend: [string, string, string][] = [
@@ -26,7 +26,7 @@ const basicData: [string, string][] = [
   ["平均年齢", "37.5歳（2026年3月期 有価証券報告書）"],
   ["平均勤続年数", "約9.3年（2026年3月期 有価証券報告書）"],
   ["本社所在地", "東京都千代田区"],
-  ["技術スタック（公開情報）", "ネットワーク（ルーティング/バックボーン）、クラウド基盤、セキュリティ、IoT、サービス開発です。日本のインターネット黎明期からの技術発信で知られる"],
+  ["技術スタック（公開情報）", "ネットワーク（ルーティング/バックボーン）、クラウド基盤、セキュリティ、IoT、サービス開発。日本のインターネット黎明期からの技術発信で知られる"],
   ["採用ページ", "iij.ad.jp/recruit（採用サイト）"],
 ];
 
@@ -91,7 +91,7 @@ export default function IijCompanyPage() {
     <>
       <ArticleJsonLd
         title="IIJ エンジニア転職ガイド"
-        description="IIJへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収747万円(2026年3月期)、ネットワーク/クラウド/セキュリティの技術領域、選考フロー、口コミ傾向まで。"
+        description="IIJへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収747万円(2026年3月期)、ネットワーク/クラウド/セキュリティの技術領域、選考フロー、口コミ傾向までを解説します。"
         url="/company/iij/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -195,7 +195,7 @@ export default function IijCompanyPage() {
                 {[
                   ["ネットワーク", "バックボーン運用 / ルーティング / 大規模ネットワーク設計・構築"],
                   ["クラウド・基盤", "自社クラウドサービス基盤、インフラ運用、サービス開発"],
-                  ["セキュリティ・その他", "セキュリティ、IoT、モバイル（IIJmio）などです。サービスにより技術は異なる"],
+                  ["セキュリティ・その他", "セキュリティ、IoT、モバイル（IIJmio）など。サービスにより技術は異なる"],
                 ].map(([label, value], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">{label}</th>
@@ -249,9 +249,9 @@ export default function IijCompanyPage() {
           <ol className="space-y-3">
             {[
               ["エントリー（書類選考）", "希望領域・職種から応募し書類を提出します。専門性・実務経験が確認されます。"],
-              ["面接（複数回）", "現場エンジニア・マネージャー等との面接です。技術的な深さや経験、適性が問われます。"],
+              ["面接（複数回）", "現場エンジニア・マネージャー等との面接が行われます。技術的な深さや経験、適性が問われます。"],
               ["適性確認等", "ポジションにより適性検査や技術確認が行われる場合があります。"],
-              ["内定（オファー）", "条件・配属の説明です。担当領域・ミッションのすり合わせが行われます。"],
+              ["内定（オファー）", "条件・配属の説明を受けます。担当領域・ミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -300,7 +300,7 @@ export default function IijCompanyPage() {
               <ul className="space-y-1.5 text-sm text-amber-900">
                 <li>領域・職種により業務特性や負荷が異なります</li>
                 <li>急成長のWeb系と比べると年収の伸びは堅実型という見方もあります</li>
-                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
+                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意が必要です</li>
               </ul>
             </div>
           </div>
@@ -330,7 +330,7 @@ export default function IijCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。インフラ・ネットワーク系の求人にも対応しています。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、インフラ・SI領域にも実績です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、インフラ・SI領域にも実績です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高い専門職の求人に対応しています。ミドル層に強みがあります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

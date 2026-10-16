@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/trendmicro/" },
   title: "トレンドマイクロの年収は平均988万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "トレンドマイクロ（4704）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年間給与988万円(2025年12月期 有価証券報告書・全社員平均)、サイバーセキュリティを軸とする技術領域、選考フロー、30代40代の進め方まで。",
+    "トレンドマイクロ（4704）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年間給与988万円(2025年12月期 有価証券報告書・全社員平均)、サイバーセキュリティを軸とする技術領域、選考フロー、30代40代の進め方までを解説します。",
 };
 
 const salaryTrend: [string, string, string][] = [
@@ -91,7 +91,7 @@ export default function TrendmicroCompanyPage() {
     <>
       <ArticleJsonLd
         title="トレンドマイクロ エンジニア転職ガイド"
-        description="トレンドマイクロへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収988万円(2025年12月期)、サイバーセキュリティの技術領域、選考フロー、口コミ傾向まで。"
+        description="トレンドマイクロへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収988万円(2025年12月期)、サイバーセキュリティの技術領域、選考フロー、口コミ傾向までを解説します。"
         url="/company/trendmicro/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -249,9 +249,9 @@ export default function TrendmicroCompanyPage() {
           <ol className="space-y-3">
             {[
               ["エントリー（書類選考）", "募集ポジションから応募し書類を提出します。職務経歴・専門領域が確認されます。"],
-              ["面接（複数回）", "現場・マネージャー等との面接です。技術的な質問や専門領域の議論が行われます。"],
+              ["面接（複数回）", "現場・マネージャー等との面接が行われます。技術的な質問や専門領域の議論が行われます。"],
               ["技術確認（ポジションによる）", "ポジションによっては技術課題や専門知識の確認が含まれることがあります。"],
-              ["内定（オファー）", "条件・配属の説明です。ミッションのすり合わせが行われます。"],
+              ["内定（オファー）", "条件・配属の説明を受けます。ミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -298,9 +298,9 @@ export default function TrendmicroCompanyPage() {
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 mb-2 text-sm">ネガティブ・注意したい傾向</h3>
               <ul className="space-y-1.5 text-sm text-amber-900">
-                <li>英語を使う場面があり、グローバル連携の負荷を挙げる声</li>
+                <li>英語を使う場面があり、グローバル連携の負荷を挙げる声があります</li>
                 <li>セキュリティ専門領域ゆえの継続的な学習が前提となります</li>
-                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
+                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意が必要です</li>
               </ul>
             </div>
           </div>
@@ -331,7 +331,7 @@ export default function TrendmicroCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。セキュリティ・外資系の非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "外資・ハイクラスに強く、年収帯の高いセキュリティ・専門職の求人に対応しています。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、IT企業への転職実績が豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、IT企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

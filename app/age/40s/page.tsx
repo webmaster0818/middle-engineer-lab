@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：厳しい面はあるが、進め方次第で十分可能" },
+  { id: "conclusion", label: "結論：厳しい面はありますが、進め方次第で十分可能です" },
   { id: "why-hard", label: "「40代は厳しい」と言われる理由への回答" },
   { id: "market", label: "40代エンジニアの市場データ" },
   { id: "company-needs", label: "企業が40代に求めるもの" },
@@ -75,17 +75,17 @@ const companyNeeds = [
 ];
 
 const successPatterns = [
-  "プログラマー枠ではなく、テックリード・EM・アーキテクト・PMなど経験が活きるポジションを狙っている",
-  "「30名のチームをマネジメント」「レスポンスを60%改善」など実績を数値で語れる",
-  "在職中に活動を始め、長期戦を前提に焦らず条件を比較している",
-  "IT特化型・総合型・ハイクラス型を併用し、40代向け求人の網を広げている",
+  "プログラマー枠ではなく、テックリード・EM・アーキテクト・PMなど経験が活きるポジションを狙っています",
+  "「30名のチームをマネジメント」「レスポンスを60%改善」など実績を数値で語れます",
+  "在職中に活動を始め、長期戦を前提に焦らず条件を比較しています",
+  "IT特化型・総合型・ハイクラス型を併用し、40代向け求人の網を広げています",
 ];
 
 const failurePatterns = [
-  "40代でプレイヤー（プログラマー）枠に応募し、若手と同じ土俵で比較されてしまう",
-  "短期間で決めようとして焦り、条件を妥協して後悔する",
-  "実績が抽象的で、マネジメントや専門性の貢献が伝わらない",
-  "1社のエージェントだけに依存し、限られた求人で判断してしまう",
+  "40代でプレイヤー（プログラマー）枠に応募し、若手と同じ土俵で比較されてしまいます",
+  "短期間で決めようとして焦り、条件を妥協して後悔します",
+  "実績が抽象的で、マネジメントや専門性の貢献が伝わりません",
+  "1社のエージェントだけに依存し、限られた求人で判断してしまいます",
 ];
 
 const agents = [
@@ -202,13 +202,13 @@ export default function Age40sPage() {
         {/* 結論ファースト */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：厳しい面はあるが、進め方次第で十分に可能</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：厳しい面はありますが、進め方次第で十分に可能です</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               40代は求人の母数こそ絞られますが、マネジメント・専門性・ドメイン知識という40代固有の強みを活かせるポジションを狙えば、年収を維持・アップする転職も現実的です。「数を追う」のではなく「要件に合うポジションへ的確に当てる」ことが成功の前提です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>レバテック公表では40代平均年収は約618万円で、1,000万円以上も12.67%です（30代の8.01%より高い・2025年）。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>dodaの2024年度決定年収レポートでは転職者の約6割が年収アップしています（2025年5月公表）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>dodaの2024年度決定年収レポートでは転職者の約6割が年収アップを実現しています（2025年5月公表）。</li>
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>経産省試算では2030年に最大約79万人のIT人材不足（2019年公表）で、経験者需要が続きます。</li>
             </ul>
           </div>

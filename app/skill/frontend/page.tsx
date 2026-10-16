@@ -133,7 +133,7 @@ export default function FrontendSkillPage() {
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
               <li>・年収重視なら自社開発・メガベンチャー、裁量重視ならスタートアップです。</li>
-              <li>・30代・40代は「スペシャリスト or フルスタック/リード」の軸を明確に。</li>
+              <li>・30代・40代は「スペシャリスト or フルスタック/リード」の軸を明確にします。</li>
               <li>・エージェントはレバテックキャリア／Green／Geeklyの併用が定番です。</li>
             </ul>
           </div>
@@ -189,9 +189,9 @@ export default function FrontendSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              ["ジュニア〜ミドル（実務2〜4年）", "HTML/CSS/JS基礎、React/Vueでのコンポーネント実装、API連携です。Web制作会社や中小自社開発のモダン化案件で募集が見られる層です。"],
-              ["ミドル〜シニア（実務4〜8年）", "TypeScript、状態管理、テスト、パフォーマンス最適化です。設計レビューや若手育成も担う、求人母数が最も多い層です。"],
-              ["シニア・リード（実務8年〜）", "デザインシステム設計、フロントアーキテクチャ策定、技術選定です。アーキテクト・テックリード求人の中心です。"],
+              ["ジュニア〜ミドル（実務2〜4年）", "HTML/CSS/JS基礎、React/Vueでのコンポーネント実装、API連携。Web制作会社や中小自社開発のモダン化案件で募集が見られる層。"],
+              ["ミドル〜シニア（実務4〜8年）", "TypeScript、状態管理、テスト、パフォーマンス最適化。設計レビューや若手育成も担う、求人母数が最も多い層。"],
+              ["シニア・リード（実務8年〜）", "デザインシステム設計、フロントアーキテクチャ策定、技術選定。アーキテクト・テックリード求人の中心。"],
             ].map(([level, body], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{level}</h3>
@@ -282,10 +282,10 @@ export default function FrontendSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
             {[
-              ["コア技術を深める", "React/Vueの内部挙動、レンダリング最適化、状態管理の設計判断を語れるレベルを目指します。"],
-              ["TypeScriptを前提に", "型安全なコンポーネント設計はモダンフロントの標準です。型の引き出しを増やします。"],
-              ["品質と速度で差をつける", "テスト（Playwright等）、Core Web Vitals改善、アクセシビリティ対応は具体的な強みになります。"],
-              ["アウトプットを残す", "UIライブラリ公開、技術記事、設計の意思決定ログなど、思考が見える成果物を蓄積します。"],
+              ["コア技術を深めます", "React/Vueの内部挙動、レンダリング最適化、状態管理の設計判断を語れるレベルを目指します。"],
+              ["TypeScriptを前提に", "型安全なコンポーネント設計はモダンフロントの標準。型の引き出しを増やします。"],
+              ["品質と速度で差をつけます", "テスト（Playwright等）、Core Web Vitals改善、アクセシビリティ対応は具体的な強みになります。"],
+              ["アウトプットを残します", "UIライブラリ公開、技術記事、設計の意思決定ログなど、思考が見える成果物を蓄積します。"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{t}</h3>
@@ -309,7 +309,7 @@ export default function FrontendSkillPage() {
                   "ユーザーに近い領域で、見た目と使い心地を作り込みたい",
                   "求人数が多く選択肢の広い領域で動きたい",
                   "React/Vue + TypeScriptでモダン開発をしたい",
-                  "将来的にフリーランスや独立も視野に入れている",
+                  "将来的にフリーランスや独立も視野に入れています",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -319,7 +319,7 @@ export default function FrontendSkillPage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">向いていないかもしれない人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
-                  "技術トレンドの移り変わりの速さが負担に感じる",
+                  "技術トレンドの移り変わりの速さが負担に感じます",
                   "UIより、データ基盤・インフラを中心に活躍したい",
                   "デザインやブラウザ差異の細かい調整が苦手",
                   "学習時間が取れず、現スタックから動く気がない",

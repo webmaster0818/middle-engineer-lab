@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/meta/" },
   title: "Meta Japan エンジニア転職ガイド｜年収・選考・開発文化【2026年版】",
   description:
-    "Meta（旧Facebook）Japanのエンジニア中途採用を公式採用情報・levels.fyi等の出典付きで解説。総報酬の考え方、コーディング面接、英語要件、30代40代の進め方までまとめました。",
+    "Meta（旧Facebook）Japanのエンジニア中途採用を公式採用情報・levels.fyi等の出典を明記して解説します。総報酬の考え方、コーディング面接、英語要件、30代40代の進め方までまとめました。",
 };
 
 const tocItems = [
@@ -75,7 +75,7 @@ export default function MetaCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="Meta Japan エンジニア転職ガイド" description="Meta（旧Facebook）Japanのエンジニア中途採用を公式採用情報・levels.fyi等の出典付きで解説。総報酬の考え方、コーディング面接、英語要件までまとめました。" url="/company/meta/" />
+      <ArticleJsonLd title="Meta Japan エンジニア転職ガイド" description="Meta（旧Facebook）Japanのエンジニア中途採用を公式採用情報・levels.fyi等の出典を明記して解説します。総報酬の考え方、コーディング面接、英語要件までまとめました。" url="/company/meta/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "PHPの転職ガイド", href: "/skill/php/" }, { name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "GraphQLの転職ガイド", href: "/skill/graphql/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "Meta Japan" }]} />
 
@@ -138,8 +138,8 @@ export default function MetaCompanyPage() {
                   ["有価証券報告書による年収開示", "なし（合同会社のため）"],
                   ["年収の参考値", "levels.fyi等で総報酬がレベル別に公開しています。シニア以上はRSUが総報酬を大きく押し上げる（2026年時点・回答者ベース・変動大）"],
                   ["技術スタック", "Hack(PHP) / Python / C++ / React・React Native / PyTorch / GraphQL 等（公開情報）"],
-                  ["英語要件", "業務・面接ともに英語比重が高い（ポジションにより異なる）"],
-                  ["東京オフィス", "虎ノ門ヒルズ ビジネスタワーです（報道ベース）。ハイブリッドワーク前提"],
+                  ["英語要件", "業務・面接ともに英語比重が高いです（ポジションにより異なる）"],
+                  ["東京オフィス", "虎ノ門ヒルズ ビジネスタワー（報道ベース）。ハイブリッドワーク前提"],
                   ["採用ページ", "metacareers.com（東京勤務の募集を検索・応募）"],
                 ].map(([label, value], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
@@ -184,14 +184,14 @@ export default function MetaCompanyPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li>● 総報酬（特にRSU）の水準が高く、シニア以上で大きく伸びる事例があります</li>
                 <li>● PyTorch・React等を生み出す最先端のAI・大規模プロダクトに関われます</li>
-                <li>● コーディング面接中心で、準備量がものを言う実力本位の選考</li>
+                <li>● コーディング面接中心で、準備量がものを言う実力本位の選考です</li>
                 <li>● 大規模トラフィックを前提とした設計・運用の経験を積めます</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <h3 className="font-bold text-rose-800 mb-3 text-sm">デメリット・注意点</h3>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li>● コーディング面接の難度が高く、十分な準備期間が必要</li>
+                <li>● コーディング面接の難度が高く、十分な準備期間が必要です</li>
                 <li>● 総報酬の多くを株式報酬（RSU）が占め、株価変動で実受取額が上下します</li>
                 <li>● 業務・面接ともに英語比重が高いポジションが多いです</li>
                 <li>● 「Move Fast」のスピード文化や組織変更への適応が求められます</li>
@@ -206,19 +206,19 @@ export default function MetaCompanyPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3 text-sm">向いている人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li>✓ アルゴリズム・データ構造に強く、コーディング面接に準備時間を割けます</li>
-                <li>✓ 大規模分散システムの設計・運用経験があります</li>
-                <li>✓ 英語で業務遂行でき、非エンジニアにも技術を説明できます</li>
+                <li>✓ アルゴリズム・データ構造に強く、コーディング面接に準備時間を割ける</li>
+                <li>✓ 大規模分散システムの設計・運用経験がある</li>
+                <li>✓ 英語で業務遂行でき、非エンジニアにも技術を説明できる</li>
                 <li>✓ ML/AIやReact系の専門性を活かしたい</li>
               </ul>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3 text-sm">向いていない人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li>✕ コーディング面接対策の時間を確保できません</li>
-                <li>✕ 安定した固定給を重視し、株式報酬の変動を許容できません</li>
-                <li>✕ 英語でのコミュニケーションに不安が大きいです</li>
-                <li>✕ 落ち着いた変化の少ない環境を強く望みます</li>
+                <li>✕ コーディング面接対策の時間を確保できない</li>
+                <li>✕ 安定した固定給を重視し、株式報酬の変動を許容できない</li>
+                <li>✕ 英語でのコミュニケーションに不安が大きい</li>
+                <li>✕ 落ち着いた変化の少ない環境を強く望む</li>
               </ul>
             </div>
           </div>
@@ -269,9 +269,9 @@ export default function MetaCompanyPage() {
           <ol className="space-y-3">
             {[
               ["1. 応募（metacareers.com）", "公式採用ページで東京勤務の募集を検索し応募します。リクルーターからのスカウトやリファラル経由のルートもあるとされます。"],
-              ["2. リクルーター面談／初期スクリーニング", "経歴・志向の確認と、選考の流れの説明です。"],
-              ["3. 技術面接（コーディング中心・複数回）", "アルゴリズム・データ構造のコーディング面接が中心です。シニア以上はシステム設計面接も。主にオンラインの1対1で実施されるとされます。"],
-              ["4. 行動面接・最終・オファー", "協働姿勢や影響力を見る行動面接を経て、レベル判定とオファー提示です。最終は東京オフィスで実施される場合もあります。"],
+              ["2. リクルーター面談／初期スクリーニング", "経歴・志向の確認と、選考の流れの説明。"],
+              ["3. 技術面接（コーディング中心・複数回）", "アルゴリズム・データ構造のコーディング面接が中心。シニア以上はシステム設計面接も行われます。主にオンラインの1対1で実施されるとされます。"],
+              ["4. 行動面接・最終・オファー", "協働姿勢や影響力を見る行動面接を経て、レベル判定とオファー提示。最終は東京オフィスで実施される場合もあります。"],
             ].map(([title, desc], i) => (
               <li key={i} className="border border-slate-200 rounded-lg p-4">
                 <p className="font-bold text-slate-800 text-sm mb-1">{title}</p>

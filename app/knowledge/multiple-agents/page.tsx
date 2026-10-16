@@ -29,7 +29,7 @@ const toc = [
 
 const patterns = [
   {
-    title: "30代・実務経験ありの代表的な方法",
+    title: "30代・実務経験ありの代表的なパターン",
     combo: "レバテックキャリア（メイン）＋ Geekly（サブ）＋ doda ITエンジニア（補完）",
     note: "特化型2社で技術マッチングの精度を上げ、総合型のdodaで全国・幅広い求人を補完します。レバテックは利用者の約80%が20〜30代（公式ガイド）で30代と相性が良いです。",
     links: [
@@ -243,7 +243,7 @@ export default function MultipleAgentsPage() {
               <h3 className="font-bold text-amber-800 mb-3">デメリット</h3>
               <ul className="text-sm text-amber-700 space-y-2">
                 <li>・面談・連絡が増え、対応に時間と手間がかかります</li>
-                <li>・同一求人を別ルートで重複応募してしまうリスク</li>
+                <li>・同一求人を別ルートで重複応募してしまうリスクです</li>
                 <li>・各社へ同じ説明を繰り返す手間が発生します</li>
                 <li>・断り・辞退の連絡が増え、気疲れしやすいです</li>
               </ul>

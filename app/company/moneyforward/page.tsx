@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/moneyforward/" },
   title: "マネーフォワードの年収は平均723万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "マネーフォワード（3994）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収723万円(2025年11月期)、Ruby/Go/Kotlinの技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",
+    "マネーフォワード（3994）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収723万円(2025年11月期)、Ruby/Go/Kotlinの技術スタック、選考フロー、口コミ傾向、30代40代視点までを解説します。",
 };
 
 const toc = [
@@ -95,7 +95,7 @@ export default function MoneyforwardCompanyPage() {
     <>
       <ArticleJsonLd
         title="マネーフォワード エンジニア転職ガイド"
-        description="マネーフォワードへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収723万円(2025年11月期)、技術スタック、選考フロー、口コミ傾向まで。"
+        description="マネーフォワードへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収723万円(2025年11月期)、技術スタック、選考フロー、口コミ傾向までを解説します。"
         url="/company/moneyforward/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -253,10 +253,10 @@ export default function MoneyforwardCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["カジュアル面談（任意）", "選考前に現場や採用担当と話せる場です。事業や働き方を確認できます。"],
+              ["カジュアル面談（任意）", "選考前に現場や採用担当と話せる場。事業や働き方を確認できます。"],
               ["応募・書類選考", "業務経験に加え、GitHubやブログなど対外的な情報発信（アウトプット）が見られるとされます。"],
-              ["面接（複数回）", "現場メンバー・マネージャー等との面接です。ミッション・ビジョン・行動方針への共感、ユーザーファーストの姿勢、技術的な議論が中心です。"],
-              ["内定・オファー面談", "条件・制度の説明です。"],
+              ["面接（複数回）", "現場メンバー・マネージャー等との面接。ミッション・ビジョン・行動方針への共感、ユーザーファーストの姿勢、技術的な議論が中心。"],
+              ["内定・オファー面談", "条件・制度の説明。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -336,7 +336,7 @@ export default function MoneyforwardCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。フィンテック・SaaS企業の求人に強く、書類添削・面接対策に定評があります。" },
               { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイトです。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすいです。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、フィンテック系企業への転職実績が豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、フィンテック系企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

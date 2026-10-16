@@ -38,8 +38,8 @@ const services: Service[] = [
     name: "Green",
     type: "成功報酬型転職サイト（直接応募・スカウト）",
     company: "株式会社アトラエ（東証プライム）",
-    field: "IT/Webベンチャー・スタートアップに強い",
-    remote: "求人検索で勤務形態を絞り込みやすく、カジュアル面談でリモートの実態を確認しやすい",
+    field: "IT/Webベンチャー・スタートアップに強いです",
+    remote: "求人検索で勤務形態を絞り込みやすく、カジュアル面談でリモートの実態を確認しやすいです",
     fee: "求職者無料",
     href: "/review/green/",
   },
@@ -48,7 +48,7 @@ const services: Service[] = [
     type: "IT特化型転職エージェント",
     company: "株式会社Geekly（2011年設立・渋谷区）",
     field: "IT/Web/ゲーム業界専門です。提案スピードが強み",
-    remote: "Web系企業の案件に強く、希望条件にリモートを含めて提案を受けやすい",
+    remote: "Web系企業の案件に強く、希望条件にリモートを含めて提案を受けやすいです",
     fee: "求職者無料",
     href: "/review/geekly/",
   },
@@ -56,8 +56,8 @@ const services: Service[] = [
     name: "レバテックキャリア",
     type: "IT特化型転職エージェント",
     company: "レバテック株式会社（レバレジーズグループ）",
-    field: "IT/Web特化です。高年収求人比率が高い",
-    remote: "首都圏中心だが、リモート前提で首都圏企業に応募する地方在住パターンに対応しやすい",
+    field: "IT/Web特化。高年収求人比率が高い",
+    remote: "首都圏中心であっても、リモート前提で首都圏企業に応募する地方在住パターンに対応しやすいです",
     fee: "求職者無料",
     href: "/review/levtech/",
   },
@@ -66,7 +66,7 @@ const services: Service[] = [
     type: "総合型（検索＋エージェント＋スカウト）",
     company: "パーソルキャリア株式会社（1989年設立）",
     field: "国内最大級の求人数です。全国対応",
-    remote: "求人母数が大きく、自分で勤務形態を検索しながらリモート求人を探せる",
+    remote: "求人母数が大きく、自分で勤務形態を検索しながらリモート求人を探せます",
     fee: "求職者無料",
     href: "/review/doda-it/",
   },
@@ -75,7 +75,7 @@ const services: Service[] = [
     type: "ハイクラス・スカウト型",
     company: "株式会社ビズリーチ（ビジョナル株式会社グループ・東証プライム）",
     field: "年収750万円以上のハイクラスです。外資・管理職に強い",
-    remote: "高年収帯でリモート可のポジションをスカウト型で受け取りやすい",
+    remote: "高年収帯でリモート可のポジションをスカウト型で受け取りやすいです",
     fee: "無料会員あり（有料プランは別）",
     href: "/review/bizreach-it/",
   },
@@ -96,16 +96,16 @@ const badPoints = [
 const fitYes = [
   "通勤を減らし、働く場所の自由度を高めたい",
   "地方在住で、首都圏企業のリモート求人に応募したい",
-  "Web系・クラウド系など比較的リモートと相性の良い領域の実務経験がある",
+  "Web系・クラウド系など比較的リモートと相性の良い領域の実務経験があります",
   "オンライン面談・チャット中心のやり取りに抵抗がない",
   "求人の勤務形態を自分でも検索して確認したい",
 ];
 
 const fitNo = [
-  "対面でのオンボーディングやチーム連携を重視する",
+  "対面でのオンボーディングやチーム連携を重視します",
   "インフラ常駐・現場対応など出社前提の領域が中心",
   "求人件数の多さだけで決めたい（リモート条件は変動が大きい）",
-  "完全フルリモートに固執し、ハイブリッドを一切許容できない",
+  "完全フルリモートに固執し、ハイブリッドを一切許容できません",
 ];
 
 const faqs = [
@@ -216,7 +216,7 @@ export default function RemoteAgentsPage() {
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">4</span>
-                <p className="text-sm text-slate-600"><strong>応募直前に勤務形態を再確認する:</strong> リモート条件は変動するため、応募前に最新の求人票・担当者情報で条件を再チェックです。</p>
+                <p className="text-sm text-slate-600"><strong>応募直前に勤務形態を再確認する:</strong> リモート条件は変動するため、応募前に最新の求人票・担当者情報で条件を再確認してください。</p>
               </div>
             </div>
           </div>

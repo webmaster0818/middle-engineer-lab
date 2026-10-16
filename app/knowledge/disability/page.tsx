@@ -24,10 +24,10 @@ const toc = [
 
 const routeCompare = [
   { item: "応募できる求人", general: "一般の求人すべて", disability: "障害者雇用枠の求人" },
-  { item: "障害の開示", general: "任意（開示しない選択も可）", disability: "前提として開示する" },
-  { item: "合理的配慮", general: "申し出により事業者が検討（法的義務の対象）", disability: "前提として配慮を織り込みやすい" },
-  { item: "職務・キャリア", general: "他の社員と同じ前提が基本", disability: "求人により幅がある（要確認）" },
-  { item: "向くケース", general: "配慮が限定的で、スキルで一般枠と競える", disability: "継続的・明確な配慮が必要" },
+  { item: "障害の開示", general: "任意（開示しない選択も可）", disability: "前提として開示します" },
+  { item: "合理的配慮", general: "申し出により事業者が検討（法的義務の対象）", disability: "前提として配慮を織り込みやすいです" },
+  { item: "職務・キャリア", general: "他の社員と同じ前提が基本", disability: "求人により幅があります（要確認）" },
+  { item: "向くケース", general: "配慮が限定的で、スキルで一般枠と競えます", disability: "継続的・明確な配慮が必要" },
 ];
 
 const reasonableExamples = [
@@ -94,10 +94,10 @@ export default function DisabilityPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">どの雇用区分を選ぶかは、制度の名前から入るのではなく、<strong>自分が働き続けるために何の配慮が・どの程度・継続的に必要か</strong>から逆算すると判断しやすくなります。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>1. 必要な配慮が限定的でスキルで競えるなら一般雇用も有力</li>
-              <li>2. 継続的・明確な配慮が前提なら障害者雇用枠が候補</li>
+              <li>1. 必要な配慮が限定的でスキルで競えるなら一般雇用も有力です</li>
+              <li>2. 継続的・明確な配慮が前提なら障害者雇用枠が候補です</li>
               <li>3. 開示の範囲とタイミングは自分でコントロールできます</li>
-              <li>4. 制度の要件・最新情報は専門機関に確認するのが前提</li>
+              <li>4. 制度の要件・最新情報は専門機関に確認するのが前提です</li>
             </ul>
           </div>
         </section>

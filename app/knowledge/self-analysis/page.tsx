@@ -98,7 +98,7 @@ export default function SelfAnalysisPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの自己分析は何をすればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: キャリアの棚卸し・Will-Can-Must・モチベーショングラフ・価値観リストの順に手を動かせば、自分の強みと方向性が自然に見えてきます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・30代・40代は経験が長い分、棚卸しをすると強みが埋もれていることが多いです</li><li>・Will（やりたい）・Can（できる）・Must（求められる）の3つが重なる領域が、長く伸ばせるキャリアの軸</li><li>・分析結果は職務経歴書の自己PR・志望動機・面接回答の一貫した軸にします</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・30代・40代は経験が長い分、棚卸しをすると強みが埋もれていることが多いです</li><li>・Will（やりたい）・Can（できる）・Must（求められる）の3つが重なる領域が、長く伸ばせるキャリアの軸です</li><li>・分析結果は職務経歴書の自己PR・志望動機・面接回答の一貫した軸にします</li></ul>
           </div>
         </section>
 
@@ -133,10 +133,10 @@ export default function SelfAnalysisPage() {
           </p>
           <ul className="space-y-2">
             {[
-              "経験が長い分、何でも『できます』と書いてしまい、結局強みが伝わらない",
-              "目の前の求人に流されて応募し、入社後にミスマッチで後悔する",
-              "面接で『なぜ転職するのか』『今後どうなりたいか』に一貫して答えられない",
-              "市場が求めること（Must）を知らず、自分の希望（Will）だけで動いてしまう",
+              "経験が長い分、何でも『できます』と書いてしまい、結局強みが伝わりません",
+              "目の前の求人に流されて応募し、入社後にミスマッチで後悔します",
+              "面接で『なぜ転職するのか』『今後どうなりたいか』に一貫して答えられません",
+              "市場が求めること（Must）を知らず、自分の希望（Will）だけで動いてしまいます",
             ].map((t, i) => (
               <li key={i} className="flex gap-2 text-sm text-slate-600">
                 <span className="text-red-500 font-bold shrink-0">✕</span>{t}
@@ -183,7 +183,7 @@ export default function SelfAnalysisPage() {
                 ["自分の役割", "実装担当 / 設計リード / PM補佐 など"],
                 ["チーム規模", "人数と職種構成"],
                 ["使用技術", "言語・FW・インフラ・ツール"],
-                ["具体的な行動", "自分が主体で取り組んだことを動詞で書く"],
+                ["具体的な行動", "自分が主体で取り組んだことを動詞で書きます"],
                 ["成果（数値）", "改善前後の数値か改善率で（→ STARのR）"],
                 ["学び・身についた力", "技術面と非技術面の両方"],
                 ["やりがい／しんどさ", "どこに手応え・消耗を感じたか"],
@@ -260,7 +260,7 @@ export default function SelfAnalysisPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            選んだ価値観は、求人を比較する際のスコアリング基準にもなります。例えば『裁量＞年収＞WLB』の人と『年収＞安定＞WLB』の人では、同じ求人でも最適解が変わります。関連: <Link href="/knowledge/work-life-balance/" className="text-petrol underline">ワークライフバランスです</Link>。
+            選んだ価値観は、求人を比較する際のスコアリング基準にもなります。例えば『裁量＞年収＞WLB』の人と『年収＞安定＞WLB』の人では、同じ求人でも最適解が変わります。関連: <Link href="/knowledge/work-life-balance/" className="text-petrol underline">ワークライフバランス</Link>。
           </p>
         </section>
 
@@ -291,15 +291,15 @@ export default function SelfAnalysisPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">職務経歴書の自己PRに反映</h3>
-              <p className="text-sm text-petrol-deep">棚卸しで出た『強み＋数値実績』をそのまま自己PRの軸にします。書き方は<Link href="/knowledge/resume/" className="text-petrol-deep underline">職務経歴書の書き方</Link>へ。</p>
+              <p className="text-sm text-petrol-deep">棚卸しで出た『強み＋数値実績』をそのまま自己PRの軸にします。書き方は<Link href="/knowledge/resume/" className="text-petrol-deep underline">職務経歴書の書き方</Link>をご覧ください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">志望動機・面接回答の一貫性に反映</h3>
-              <p className="text-sm text-petrol-deep">Will-Can-Mustと価値観を使い、『なぜ転職するか・なぜこの会社か・今後どうなりたいか』を一本の線でつなぎます。関連: <Link href="/knowledge/motivation/" className="text-petrol-deep underline">志望動機の作り方です</Link>。</p>
+              <p className="text-sm text-petrol-deep">Will-Can-Mustと価値観を使い、『なぜ転職するか・なぜこの会社か・今後どうなりたいか』を一本の線でつなぎます。関連: <Link href="/knowledge/motivation/" className="text-petrol-deep underline">志望動機の作り方</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">エージェント面談で軸を共有</h3>
-              <p className="text-sm text-petrol-deep">価値観の優先順位を伝えると、ミスマッチの少ない求人を紹介してもらえます。関連: <Link href="/knowledge/agent-first-meeting/" className="text-petrol-deep underline">初回面談の準備です</Link>。</p>
+              <p className="text-sm text-petrol-deep">価値観の優先順位を伝えると、ミスマッチの少ない求人を紹介してもらえます。関連: <Link href="/knowledge/agent-first-meeting/" className="text-petrol-deep underline">初回面談の準備</Link>。</p>
             </div>
           </div>
         </section>
@@ -310,11 +310,11 @@ export default function SelfAnalysisPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：方向性の『選択』を意識する</h3>
-              <p className="text-sm text-petrol-deep">30代は専門を深めるか、マネジメントへ広げるかの分岐点です。棚卸しで『どちらに手応えを感じたか』を見極めると判断しやすくなります。関連: <Link href="/knowledge/career-plan/" className="text-petrol-deep underline">キャリアプラン設計します</Link>。</p>
+              <p className="text-sm text-petrol-deep">30代は専門を深めるか、マネジメントへ広げるかの分岐点です。棚卸しで『どちらに手応えを感じたか』を見極めると判断しやすくなります。関連: <Link href="/knowledge/career-plan/" className="text-petrol-deep underline">キャリアプラン設計</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：『再現性』と『譲れない価値観』を明確に</h3>
-              <p className="text-sm text-petrol-deep">40代は成果の再現性（どんな状況でも価値を出せること）が問われます。同時に、長く働くために譲れない価値観をはっきりさせると、後悔の少ない選択ができます。関連: <Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアルです</Link>。</p>
+              <p className="text-sm text-petrol-deep">40代は成果の再現性（どんな状況でも価値を出せること）が問われます。同時に、長く働くために譲れない価値観をはっきりさせると、後悔の少ない選択ができます。関連: <Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアル</Link>。</p>
             </div>
           </div>
         </section>

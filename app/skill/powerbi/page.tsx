@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/powerbi/" },
   title: "Power BIエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Power BIスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。",
+    "Power BIスキルを持つエンジニアの転職市場を出典を明記して解説します。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。",
 };
 
 const toc = [
@@ -70,7 +70,7 @@ export default function PowerBISkillPage() {
     <>
       <ArticleJsonLd
         title="Power BIエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Power BIスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。"
+        description="Power BIスキルを持つエンジニアの転職市場を出典を明記して解説します。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。"
         url="/skill/powerbi/"
       />
       <script
@@ -222,8 +222,8 @@ export default function PowerBISkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "BIエンジニア", note: "BIダッシュボードの設計・運用です。データソース整備とセットで担います" },
-              { role: "データアナリスト", note: "Power BIでの可視化＋分析です。ビジネス課題への示唆出し" },
+              { role: "BIエンジニア", note: "BIダッシュボードの設計・運用。データソース整備とセットで担います" },
+              { role: "データアナリスト", note: "Power BIでの可視化＋分析。ビジネス課題への示唆出し" },
               { role: "アナリティクスエンジニア", note: "SQL・データモデリング＋BIです。データ基盤とBIの橋渡し" },
               { role: "データ活用推進・社内コンサル", note: "可視化を通じた組織のデータドリブン化を推進" },
             ].map((item, i) => (

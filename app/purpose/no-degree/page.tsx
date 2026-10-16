@@ -91,9 +91,9 @@ export default function NoDegreePage() {
             <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 高卒・専門卒・大学中退で学歴に不安があります</li>
-              <li>- 学歴ではなく実務スキルで評価されたい</li>
+              <li>- 学歴ではなく実務スキルで評価されたいと考えています</li>
               <li>- 30-40代で未経験からエンジニアを目指しています</li>
-              <li>- 「学歴不問」求人の実態を正しく知りたい</li>
+              <li>- 「学歴不問」求人の実態を正しく知りたいと考えています</li>
             </ul>
           </div>
         </section>
@@ -125,7 +125,7 @@ export default function NoDegreePage() {
                   { type: "学歴不問", desc: "応募の足切りに学歴を使いません。職務経歴・スキルで評価します。中途IT求人では一般的" },
                   { type: "大卒以上", desc: "学歴がそのまま応募要件です。一部の大企業・外資コンサルに残ります。この場合は学歴不問ではありません" },
                   { type: "実務経験◯年以上", desc: "学歴の代わりに実務経験で足切り。経験者には学歴の壁はほぼない" },
-                  { type: "未経験歓迎×学歴不問", desc: "ポテンシャル採用です。ただし30-40代は学習実績・動機・成果物の準備が前提" },
+                  { type: "未経験歓迎×学歴不問", desc: "ポテンシャル採用。ただし30-40代は学習実績・動機・成果物の準備が前提" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>

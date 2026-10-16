@@ -25,12 +25,12 @@ const toc = [
 ];
 
 const gapRows = [
-  { axis: "HTML/CSS", designer: "○ コーディング経験がある場合も多い", front: "◎ セマンティック・レスポンシブ実装が前提", gap: "中" },
-  { axis: "JavaScript/TypeScript", designer: "△ 軽い実装どまりのことが多い", front: "◎ 言語仕様・型・非同期まで必要", gap: "大" },
+  { axis: "HTML/CSS", designer: "○ コーディング経験がある場合も多いです", front: "◎ セマンティック・レスポンシブ実装が前提", gap: "中" },
+  { axis: "JavaScript/TypeScript", designer: "△ 軽い実装どまりのことが多いです", front: "◎ 言語仕様・型・非同期まで必要", gap: "大" },
   { axis: "モダンフレームワーク（React等）", designer: "× 未経験のことが多い", front: "◎ React/Next.js等のSPA開発が中核", gap: "大" },
-  { axis: "UI/UX・デザイン理解", designer: "◎ 設計・視覚表現が本職", front: "○ 実装に直結する大きな強みになる", gap: "活用" },
+  { axis: "UI/UX・デザイン理解", designer: "◎ 設計・視覚表現が本職", front: "○ 実装に直結する大きな強みになります", gap: "活用" },
   { axis: "開発プロセス・Git", designer: "△ 触れる機会が限定的", front: "◎ チーム開発の作法が前提", gap: "中" },
-  { axis: "アクセシビリティ", designer: "○ デザイン観点での配慮はある", front: "◎ WAI-ARIA等の実装まで", gap: "中" },
+  { axis: "アクセシビリティ", designer: "○ デザイン観点での配慮はあります", front: "◎ WAI-ARIA等の実装まで", gap: "中" },
 ];
 
 const buildSteps = [
@@ -209,13 +209,13 @@ export default function DesignerToFrontendPage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（デザイン制作の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                コーポレートサイトやLPのデザインを担当します。Figmaでデザインカンプを作成し、HTML/CSSでコーディングです。レスポンシブ対応やバナー制作も行った。
+                コーポレートサイトやLPのデザインを担当。Figmaでデザインカンプを作成し、HTML/CSSでコーディングします。レスポンシブ対応やバナー制作も行った。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（設計・実装と希少性を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                個人開発で自身がデザインしたUIをReact/Next.js・TypeScriptで実装し、API連携・状態管理・レスポンシブ・アクセシビリティ（WAI-ARIA）まで対応してデプロイです。デザイン経験を活かしコンポーネント設計とデザインシステムを構築しました。デザインと実装を一貫して担える点が強みです。GitHubでコードを公開しています。
+                個人開発で自身がデザインしたUIをReact/Next.js・TypeScriptで実装し、API連携・状態管理・レスポンシブ・アクセシビリティ（WAI-ARIA）まで対応してデプロイです。デザイン経験を活かしコンポーネント設計とデザインシステムを構築しました。デザインと実装を一貫して担える点が強みです。GitHubでコードを公開します。
               </p>
             </div>
           </div>
@@ -251,7 +251,7 @@ export default function DesignerToFrontendPage() {
         <section id="midage" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の現実と進め方</h2>
           <p className="text-slate-600 leading-relaxed mb-3">
-            ご説明すると、30代・40代でのキャリアチェンジは、年齢が上がるほどポテンシャル採用の枠が狭くなります。ただしデザイナーからフロントへの移行は、HTML/CSSとデザインという即戦力の強みを持ち込めるため、まったくの未経験職種への転換よりは戦いやすい部類です。
+            実際には、30代・40代でのキャリアチェンジは、年齢が上がるほどポテンシャル採用の枠が狭くなります。ただしデザイナーからフロントへの移行は、HTML/CSSとデザインという即戦力の強みを持ち込めるため、まったくの未経験職種への転換よりは戦いやすい部類です。
           </p>
           <p className="text-slate-600 leading-relaxed mb-3">
             鍵は、デザインという強みを実装と掛け合わせ、「なぜこの年齢でエンジニアに移るのか」に一貫した答えを用意することです。純粋なフロント職に正面から挑むより、デザインエンジニア・UIエンジニアなど、デザイン素養が差別化要因になる入口を選ぶと勝率が上がります。

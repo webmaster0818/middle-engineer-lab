@@ -32,7 +32,7 @@ const basicData: [string, string][] = [
   ["設立", "2016年"],
   ["事業内容", "薬局DXプラットフォーム（電子薬歴「Musubi」など）の開発・提供"],
   ["開発組織規模", "開発に携わるメンバーは約180名規模（公式発信ベース）"],
-  ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しない（参考値は「年収データ」章を参照）"],
+  ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しません（参考値は「年収データ」章を参照）"],
   ["技術スタック", "フロント：React＋TypeScript（Amplify）／バック：Node.js＋TypeScript・サーバーレス（Lambda・API Gateway・DynamoDB・Step Functions・CDK）／Swift・Dart・Python・Kotlinも横断利用／AWS中心"],
 ];
 
@@ -45,10 +45,10 @@ const salaryRows: [string, string, string][] = [
 
 const flowSteps: [string, string, string][] = [
   ["STEP 1", "書類選考", "公式採用ページから応募します。職務経歴・スキルをもとに選考します。"],
-  ["STEP 2", "カジュアル面談", "相互理解を目的とした面談です。事業・チーム・働き方の擦り合わせ。"],
-  ["STEP 3", "一次面接（開発ディレクター）", "開発ディレクターによる面接です。経験・志向の確認です。"],
-  ["STEP 4", "二次面接（エンジニア）", "現場エンジニアによる技術面接です。実務スキル・設計観点の確認です。"],
-  ["STEP 5", "最終面接（CTO／PdM）", "CTOまたはPdMによる最終面接です。カルチャーフィット・プロダクト志向の確認です。"],
+  ["STEP 2", "カジュアル面談", "相互理解を目的とした面談。事業・チーム・働き方の擦り合わせ。"],
+  ["STEP 3", "一次面接（開発ディレクター）", "開発ディレクターによる面接。経験・志向の確認。"],
+  ["STEP 4", "二次面接（エンジニア）", "現場エンジニアによる技術面接。実務スキル・設計観点の確認。"],
+  ["STEP 5", "最終面接（CTO／PdM）", "CTOまたはPdMによる最終面接。カルチャーフィット・プロダクト志向の確認。"],
 ];
 
 const faqs = [
@@ -209,8 +209,8 @@ export default function KakehashiCompanyPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>TypeScript（React／Node.js）一貫でのSaaS開発経験を持つミドル</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>AWSサーバーレスの設計・運用が得意</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>薬局DX・医療の社会的意義に共感できます</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>選考の見通しが立つ透明なプロセスを重視します</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>薬局DX・医療の社会的意義に共感できる</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>選考の見通しが立つ透明なプロセスを重視する</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
@@ -219,7 +219,7 @@ export default function KakehashiCompanyPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>使用言語・技術を自由に選びたい（TypeScript中心との相性）</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>確立された大企業の安定・明確な等級制度を最優先したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>整備された制度・手厚い既存ドキュメントを前提に働きたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>年収の絶対額の最大化のみを判断軸にしています</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>年収の絶対額の最大化のみを判断軸にしている</li>
               </ul>
             </div>
           </div>

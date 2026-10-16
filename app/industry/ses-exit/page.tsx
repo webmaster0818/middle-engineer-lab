@@ -220,7 +220,7 @@ export default function SesExitPage() {
             </div>
             <div className="border border-[var(--line)] rounded-lg p-5 bg-petrol-soft">
               <p className="text-xs font-bold text-petrol mb-2">After（評価される書き方）</p>
-              <p className="text-sm text-slate-700">月間数百万PVのWebサービスのバックエンドをJava/Spring Bootで開発します。5名チームでAPI設計・実装・単体テストを担当し、レスポンス改善で平均応答時間を短縮しました。</p>
+              <p className="text-sm text-slate-700">月間数百万PVのWebサービスのバックエンドをJava/Spring Bootで開発。5名チームでAPI設計・実装・単体テストを担当し、レスポンス改善で平均応答時間を短縮しました。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed">

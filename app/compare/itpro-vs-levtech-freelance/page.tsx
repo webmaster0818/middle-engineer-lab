@@ -28,11 +28,11 @@ const toc = [
 
 const comparison = [
   { item: "運営会社", a: "株式会社Hajimari", b: "レバテック株式会社（レバレジーズグループ）" },
-  { item: "サービス種別", a: "フリーランス／副業案件です。週2〜3日・リモートに強いです", b: "フリーランス（業務委託）案件の紹介に強い最大手級" },
-  { item: "稼働日数の強み", a: "週2〜3日・リモートが業界トップクラスです。少日数案件が3〜4割", b: "週5常駐の高単価案件が中心です。少日数は相対的に少なめ" },
-  { item: "案件数", a: "公開約10,000件です。利用企業2,000社以上・登録90,000名以上（2024年7月時点・二次）", b: "公開1万件以上です。公式約97,000件以上という二次値あり（時点要確認・二次）" },
+  { item: "サービス種別", a: "フリーランス／副業案件。週2〜3日・リモートに強い", b: "フリーランス（業務委託）案件の紹介に強い最大手級" },
+  { item: "稼働日数の強み", a: "週2〜3日・リモートが業界トップクラス。少日数案件が3〜4割", b: "週5常駐の高単価案件が中心。少日数は相対的に少なめ" },
+  { item: "案件数", a: "公開約10,000件。利用企業2,000社以上・登録90,000名以上（2024年7月時点・二次）", b: "公開1万件以上。公式約97,000件以上という二次値あり（時点要確認・二次）" },
   { item: "直請け", a: "エンド直約9割で単価高め", b: "エンド直請けに強い" },
-  { item: "単価・年収", a: "少日数でも単価高めだが、週5前提では選択肢が他社より少ないです", b: "利用者平均年収881万円・平均単価68万円・中央値65万円（二次・時点に留意）" },
+  { item: "単価・年収", a: "少日数でも単価は高めですが、週5前提では選択肢が他社より少ないです", b: "利用者平均年収881万円・平均単価68万円・中央値65万円（二次・時点に留意）" },
   { item: "得意な層", a: "副業・複業で収入分散、起業/独立準備中の慎重派", b: "週5常駐でしっかり稼ぎたい独立志向の経験者" },
   { item: "料金", a: "求職者（フリーランス）は無料", b: "求職者（フリーランス）は無料" },
 ];
@@ -56,9 +56,9 @@ const goodItpro = [
 ];
 const goodLev = [
   "週5常駐でフルにしっかり稼ぎたい",
-  "高単価・高年収の案件量を重視する",
-  "すでに独立済みで稼働を切らさず回せる",
-  "エンド直請けの最大手級の安心感がほしい",
+  "高単価・高年収の案件量を重視します",
+  "すでに独立済みで稼働を切らさず回せます",
+  "エンド直請けの最大手級の安心感がほしいです",
   "選択肢の多さから案件を選びたい",
 ];
 
@@ -98,7 +98,7 @@ export default function ItproVsLevtechFreelancePage() {
               <li><strong>・迷うなら稼働日数で決めます</strong>。本業がある・独立準備中ならITプロパートナーズ、すでに独立してフルに稼ぐならレバテックフリーランスです。</li>
             </ul>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm">どちらもフリーランス（求職者）側は無料で利用できます。理由は次の比較表と項目別解説で見ていきます。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">どちらもフリーランス（求職者）側は無料で利用できます。理由は、以下の比較表と項目別の解説でご説明します。</p>
         </section>
 
         <section id="confusion" className="mb-12 scroll-mt-20">
@@ -106,7 +106,7 @@ export default function ItproVsLevtechFreelancePage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700">
             <p className="mb-2">名前が似ているため、違いを押さえてから読み進めてください。</p>
             <ul className="space-y-1.5 list-disc pl-5">
-              <li><strong>レバテックフリーランス（業務委託案件の紹介）≠ レバテックキャリアです（正社員転職エージェント）</strong>。運営は同じレバテック株式会社ですが契約形態が違います。</li>
+              <li><strong>レバテックフリーランス（業務委託案件の紹介）≠ レバテックキャリア（正社員転職エージェント）です</strong>。運営は同じレバテック株式会社ですが契約形態が違います。</li>
               <li>本記事はいずれも<strong>フリーランス・副業案件</strong>の比較です。正社員転職を希望する場合は対象外です。</li>
             </ul>
             <p className="mt-2">正社員かフリーランスかで迷う方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスと正社員の比較</Link>を先にご覧ください。</p>
@@ -160,13 +160,13 @@ export default function ItproVsLevtechFreelancePage() {
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
               <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>週2〜3日・リモート案件が豊富</li><li>エンド直で単価が高め</li><li>独立・起業準備に使いやすい</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>週5常駐前提だと選択肢が他社より少ないです</li><li>正社員志向には不向き</li><li>案件はスタートアップ寄りの傾向</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>週5常駐前提だと選択肢が他社より少ないです</li><li>正社員志向には不向き</li><li>案件はスタートアップ寄りの傾向です</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：各フリーランス系メディアの傾向要約</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックフリーランスの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高単価・エンド直請けの案件が多いです</li><li>案件量が豊富で選択肢が広いです</li><li>最大手級で安心感がある</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高単価・エンド直請けの案件が多いです</li><li>案件量が豊富で選択肢が広いです</li><li>最大手級で安心感があります</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
               <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>少日数・週2〜3日案件は少なめ</li><li>実務経験前提で未経験には不向き</li><li>首都圏中心で地方案件が少ないです</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：各フリーランス系メディアの傾向要約</p>

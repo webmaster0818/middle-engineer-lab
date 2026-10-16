@@ -62,10 +62,10 @@ export default function DaiKigyoPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 大企業の安定した環境でITキャリアを築きたい</li>
+              <li>- 大企業の安定した環境でITキャリアを築きたいと考えています</li>
               <li>- 充実した福利厚生（退職金・企業年金）が欲しいです</li>
-              <li>- 大規模システムに関わりたい</li>
-              <li>- DX推進に携わりたい</li>
+              <li>- 大規模システムに関わりたいと考えています</li>
+              <li>- DX推進に携わりたいと考えています</li>
             </ul>
           </div>
         </section>
@@ -88,7 +88,7 @@ export default function DaiKigyoPage() {
                   { pos: "DX推進部門", salary: "600〜1,000万円", tech: "高い", stable: "高い" },
                   { pos: "IT子会社エンジニア", salary: "450〜700万円", tech: "中〜高", stable: "高い" },
                   { pos: "大手SIer", salary: "500〜800万円", tech: "中〜高", stable: "非常に高い" },
-                  { pos: "メーカー組み込み", salary: "500〜750万円", tech: "高い（専門的）", stable: "非常に高い" },
+                  { pos: "メーカー組み込み", salary: "500〜750万円", tech: "高いです（専門的）", stable: "非常に高いです" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.pos}</td>

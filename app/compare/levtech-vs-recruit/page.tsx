@@ -32,7 +32,7 @@ const comparison = [
   { item: "サービス形態", levtech: "IT/Web特化型エージェント", recruit: "総合型エージェントのIT領域支援（国内最大級）" },
   { item: "求人数", levtech: "約5万件超（2026年6月時点・複数転職メディア集計）", recruit: "IT公開求人110,840件＋IT非公開求人101,680件（2026年5月22日時点・転職メディア集計）" },
   { item: "対応エリア", levtech: "首都圏中心（二次情報）", recruit: "全国47都道府県／リモート求人も多数" },
-  { item: "得意領域", levtech: "IT/Web全般です。高年収求人比率が高い", recruit: "国内最大級の求人数です。大手〜スタートアップまで網羅" },
+  { item: "得意領域", levtech: "IT/Web全般。高年収求人比率が高い", recruit: "国内最大級の求人数。大手〜スタートアップまで網羅" },
   { item: "年収アップ実績", levtech: "応募時年収との差70万円以上が3人に2人（2023年1月〜2024年3月実績）", recruit: "統一された公式アップ率は未確認（断定せず）" },
   { item: "サポート", levtech: "IT専門アドバイザーによる技術文脈の理解／LINEで連絡完結", recruit: "大量求人を捌くため事務的との声もあり／独自のAI求人提案ツール" },
   { item: "料金", levtech: "求職者無料", recruit: "求職者は完全無料" },
@@ -50,12 +50,12 @@ const faqs = [
 ];
 
 const levtechReviews = {
-  good: ["IT専門アドバイザーで技術の話が通じる", "高年収求人が多い", "LINEで連絡が完結する"],
-  bad: ["未経験者は紹介されにくい", "首都圏中心で地方求人は限定的", "初回面談後の連絡が遅い場合がある"],
+  good: ["IT専門アドバイザーで技術の話が通じます", "高年収求人が多いです", "LINEで連絡が完結します"],
+  bad: ["未経験者は紹介されにくいです", "首都圏中心で地方求人は限定的", "初回面談後の連絡が遅い場合があります"],
 };
 const recruitReviews = {
-  good: ["圧倒的な求人数で選択肢が広い", "非公開求人が充実している", "全国・地方の求人にアクセスできる"],
-  bad: ["対応が事務的に感じる場合がある", "サポート期間が短いとの声", "求人量が多く取捨選択が大変"],
+  good: ["圧倒的な求人数で選択肢が広いです", "非公開求人が充実しています", "全国・地方の求人にアクセスできます"],
+  bad: ["対応が事務的に感じる場合があります", "サポート期間が短いとの声", "求人量が多く取捨選択が大変"],
 };
 
 const relatedLinks = [
@@ -219,7 +219,7 @@ export default function LevtechVsRecruitPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">レバテックキャリアが強い領域</h3>
               <div className="flex flex-wrap gap-2">
-                {["IT/Web全般", "高年収求人", "技術文脈の理解", "首都圏中心", "20〜30代の利用が多い"].map((tag, i) => (
+                {["IT/Web全般", "高年収求人", "技術文脈の理解", "首都圏中心", "20〜30代の利用が多いです"].map((tag, i) => (
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
@@ -277,9 +277,9 @@ export default function LevtechVsRecruitPage() {
               <h3 className="font-bold text-blue-800 mb-3">レバテックキャリアが向く人</h3>
               <ul className="space-y-2 text-sm text-petrol-deep">
                 <li>✓ IT/Web領域でキャリアを深めたい</li>
-                <li>✓ 技術文脈を理解した提案が欲しいです</li>
+                <li>✓ 技術文脈を理解した提案が欲しい</li>
                 <li>✓ 高年収帯を狙いたい</li>
-                <li>✓ 首都圏で転職を考えています</li>
+                <li>✓ 首都圏で転職を考えている</li>
                 <li>✓ LINEで気軽にやり取りしたい</li>
               </ul>
             </div>

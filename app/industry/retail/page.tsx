@@ -32,12 +32,12 @@ const toc = [
 ];
 
 const skillTable = [
-  ["POS・基幹システムの業務知識", "そのまま活きる", "店舗運営・販売管理の理解はリテールテックで希少"],
-  ["在庫管理・サプライチェーンの理解", "そのまま活きる", "需要予測・自動発注・WMS連携の要件定義で活きる"],
-  ["顧客データ・購買行動の理解", "そのまま活きる", "レコメンド・CRM・リテールメディアの設計に直結"],
+  ["POS・基幹システムの業務知識", "そのまま活きます", "店舗運営・販売管理の理解はリテールテックで希少"],
+  ["在庫管理・サプライチェーンの理解", "そのまま活きます", "需要予測・自動発注・WMS連携の要件定義で活きます"],
+  ["顧客データ・購買行動の理解", "そのまま活きます", "レコメンド・CRM・リテールメディアの設計に直結"],
   ["Web開発（React・Python等）", "要習得", "ECプラットフォーム開発はモダンスタックが前提"],
-  ["データ分析（SQL / Python）", "要習得", "購買データ分析・需要予測のポジションで求められる"],
-  ["クラウド（AWS / GCP）", "要習得", "クラウド型ECやマイクロサービス運用で必要になる"],
+  ["データ分析（SQL / Python）", "要習得", "購買データ分析・需要予測のポジションで求められます"],
+  ["クラウド（AWS / GCP）", "要習得", "クラウド型ECやマイクロサービス運用で必要になります"],
 ];
 
 const patternTable = [
@@ -198,7 +198,7 @@ export default function RetailPage() {
                     <th className="px-4 py-3 text-left font-medium text-slate-700 align-top">{skill}</th>
                     <td
                       className={`px-4 py-3 font-medium whitespace-nowrap align-top ${
-                        status === "そのまま活きる" ? "text-petrol" : "text-amber-600"
+                        status === "そのまま活きます" ? "text-petrol" : "text-amber-600"
                       }`}
                     >
                       {status}
@@ -248,11 +248,11 @@ export default function RetailPage() {
               <h3 className="font-bold text-emerald-800 mb-3 text-sm">このような方に向いています</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
-                  "POS・在庫・基幹システムの実務経験がある",
-                  "店舗運営や商流の制約を具体的に語れる",
-                  "Web開発やデータ分析の学習を継続できる",
-                  "店舗・本部・物流など部署間の調整を厭わない",
-                  "顧客体験をプロダクトで良くすることに関心がある",
+                  "POS・在庫・基幹システムの実務経験があります",
+                  "店舗運営や商流の制約を具体的に語れます",
+                  "Web開発やデータ分析の学習を継続できます",
+                  "店舗・本部・物流など部署間の調整を厭いません",
+                  "顧客体験をプロダクトで良くすることに関心があります",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-emerald-600 shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -263,9 +263,9 @@ export default function RetailPage() {
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
                   "小売・商流の経験がなく、技術力だけを強みにしたい",
-                  "店舗運営や在庫・物流の実務に関心が薄い",
-                  "学習に時間を割けず、即戦力の技術力も足りない",
-                  "短期間での大幅な年収アップだけを目的にしている",
+                  "店舗運営や在庫・物流の実務に関心が薄いです",
+                  "学習に時間を割けず、即戦力の技術力も足りません",
+                  "短期間での大幅な年収アップだけを目的にしています",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-slate-400 shrink-0">▲</span><span>{t}</span></li>
                 ))}
@@ -285,12 +285,12 @@ export default function RetailPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg overflow-hidden">
               <div className="bg-slate-100 px-4 py-2 text-xs font-bold text-slate-500">Before（伝わりにくい例）</div>
-              <p className="px-4 py-3 text-sm text-slate-600">POS・在庫管理システムの保守を担当します。基幹システムの改修にも携わった。</p>
+              <p className="px-4 py-3 text-sm text-slate-600">POS・在庫管理システムの保守を担当。基幹システムの改修にも携わった。</p>
             </div>
             <div className="border border-[var(--line)] rounded-lg overflow-hidden">
               <div className="bg-petrol-soft px-4 py-2 text-xs font-bold text-petrol-deep">After（小売×ITが伝わる例）</div>
               <p className="px-4 py-3 text-sm text-slate-700">
-                多店舗のPOS・在庫管理システムの運用と改修を担当します。店舗オペレーションと欠品・過剰在庫の発生要因を踏まえた在庫データ連携を設計し、発注精度の改善に貢献します。オンラインとオフラインの在庫を統合するOMOの要件定義に参画します。店舗運営と商流の両面を理解している点を強みとします。
+                多店舗のPOS・在庫管理システムの運用と改修を担当。店舗オペレーションと欠品・過剰在庫の発生要因を踏まえた在庫データ連携を設計し、発注精度の改善に貢献。オンラインとオフラインの在庫を統合するOMOの要件定義に参画。店舗運営と商流の両面を理解している点を強みとします。
               </p>
             </div>
           </div>
@@ -379,7 +379,7 @@ export default function RetailPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートB：既存の開発スキルにモダンスタックを足す</h3>
-              <p className="text-sm text-slate-600">基幹・POS開発の経験者がReact・Python・SQLを補強してECテックのエンジニア職へ。学習成果を小さな制作物で示すと伝わりやすいです。</p>
+              <p className="text-sm text-slate-600">基幹・POS開発の経験者がReact・Python・SQLを補強してECテックのエンジニア職を目指す道があります。学習成果を小さな制作物で示すと伝わりやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートC：購買データ分析へ寄せる</h3>

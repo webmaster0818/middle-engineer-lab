@@ -170,7 +170,7 @@ export default function TokyoAreaPage() {
                 ・<strong>高年収求人の比率が高い</strong>とされ、年収交渉やキャリアアップの選択肢を取りやすいです。一方で競争も激しいです。
               </li>
               <li>
-                ・<strong>リモート・ハイブリッドの求人も探せる</strong>が、運用は企業差が大きいため面談での確認が前提です。地方在住からの応募もしやすくなっています。
+                ・<strong>リモート・ハイブリッドの求人も探せます</strong>が、運用は企業差が大きいため面談での確認が前提です。地方在住からの応募もしやすくなっています。
               </li>
             </ul>
           </div>
@@ -235,7 +235,7 @@ export default function TokyoAreaPage() {
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-              <p className="text-sm text-slate-600"><strong>フルリモート:</strong> Web系・SaaS企業を中心に求人が存在しています。神奈川・埼玉・千葉など近郊や、さらに遠方からの勤務が可能なケースもあります。</p>
+              <p className="text-sm text-slate-600"><strong>フルリモート:</strong> Web系・SaaS企業を中心に求人が存在します。神奈川・埼玉・千葉など近郊や、さらに遠方からの勤務が可能なケースもあります。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
@@ -260,8 +260,8 @@ export default function TokyoAreaPage() {
                 <li>✓ 求人の選択肢を最大化し、企業タイプを幅広く比較したい</li>
                 <li>✓ 自社開発・モダンな技術環境にチャレンジしたい</li>
                 <li>✓ 年収アップやハイクラス・管理職ポジションを狙いたい</li>
-                <li>✓ 対面での面談やオフィス出社に抵抗がない、または通勤圏に住んでいます</li>
-                <li>✓ 外資系で英語を活かす環境に関心があります</li>
+                <li>✓ 対面での面談やオフィス出社に抵抗がない、または通勤圏に住んでいる</li>
+                <li>✓ 外資系で英語を活かす環境に関心がある</li>
               </ul>
             </div>
             <div className="border border-slate-200 bg-slate-50 rounded-lg p-5">
@@ -448,7 +448,7 @@ export default function TokyoAreaPage() {
           <ol className="space-y-3">
             {[
               { t: "自己分析と希望条件の整理", d: "年収・勤務地・リモート可否・技術領域・マネジメント志向など、譲れない条件と妥協できる条件を分けて整理します。" },
-              { t: "職務経歴書の準備", d: "担当プロジェクトの規模・役割・技術スタック・成果を具体的に記述です。30代・40代はマネジメントや改善実績も明記します。" },
+              { t: "職務経歴書の準備", d: "担当プロジェクトの規模・役割・技術スタック・成果を具体的に記述します。30代・40代はマネジメントや改善実績も明記します。" },
               { t: "エージェント2〜3社に登録", d: "特化型1〜2社＋総合型1社が基本です。初回面談で希望を伝え、紹介求人の質を見ます。" },
               { t: "求人比較と応募", d: "複数オファーを比較できるよう、応募タイミングをある程度そろえます。リモート運用は面談で必ず確認します。" },
               { t: "選考・条件交渉", d: "年収・働き方の交渉はエージェントを通すと進めやすいです。複数内定があると交渉余地が広がります。" },
@@ -473,7 +473,7 @@ export default function TokyoAreaPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価されやすい時期です。リードエンジニアやテックリードのポジションで年収を伸ばしやすいです。<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link></li>
-              <li>・<strong>40代</strong>：マネジメント・アーキテクト・特定ドメインの専門性が強みです。求人数は絞られるが、ハイクラス・スカウト型の活用で道が開けます。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link></li>
+              <li>・<strong>40代</strong>：マネジメント・アーキテクト・特定ドメインの専門性が強みです。求人数は絞られますが、ハイクラス・スカウト型の活用で道が開けます。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link></li>
               <li>・東京の生活コストの高さは、リモート併用で近郊（神奈川・埼玉・千葉）に住む選択で緩和できる場合があります。</li>
             </ul>
           </div>

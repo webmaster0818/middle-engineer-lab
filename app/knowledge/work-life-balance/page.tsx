@@ -253,7 +253,7 @@ export default function WorkLifeBalancePage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. エージェントの内部情報を使い倒す</h3>
-              <p className="text-sm text-petrol-deep">エージェントは求人企業の働き方の実態を把握していることがあります。求人票に載らない情報を引き出しましょう。複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>へ。</p>
+              <p className="text-sm text-petrol-deep">エージェントは求人企業の働き方の実態を把握していることがあります。求人票に載らない情報を引き出しましょう。複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>をご覧ください。</p>
             </div>
           </div>
         </section>

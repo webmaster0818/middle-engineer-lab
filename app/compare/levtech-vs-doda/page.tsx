@@ -33,8 +33,8 @@ const comparison = [
   { item: "タイプ", a: "IT/Web特化型エージェント", b: "総合型（検索＋エージェント＋スカウトのハイブリッド）" },
   { item: "公開求人数", a: "約5万件超（2026年6月時点・複数転職メディア集計）", b: "IT・通信エンジニア求人5万件超（2026年2月時点・二次経由）" },
   { item: "対応エリア", a: "首都圏中心（二次情報）", b: "全国（doda公式）" },
-  { item: "得意領域", a: "IT/Web全般です。高年収求人比率が高いです", b: "国内最大級の求人数です。IT含む全業種を幅広くカバー" },
-  { item: "年収アップ実績", a: "応募時年収との差70万円以上が3人に2人（2023年1月〜2024年3月実績）", b: "転職者の約6割が年収アップです。IT・通信の平均決定年収469万→486万円（2024年度／2025年5月公表）" },
+  { item: "得意領域", a: "IT/Web全般。高年収求人比率が高い", b: "国内最大級の求人数。IT含む全業種を幅広くカバー" },
+  { item: "年収アップ実績", a: "応募時年収との差70万円以上が3人に2人（2023年1月〜2024年3月実績）", b: "転職者の約6割が年収アップを実現しています。IT・通信の平均決定年収469万→486万円（2024年度／2025年5月公表）" },
   { item: "料金", a: "求職者無料", b: "求職者無料" },
 ];
 
@@ -50,12 +50,12 @@ const faqs = [
 ];
 
 const levtechReviews = {
-  good: ["書類添削・面接対策が丁寧", "LINEで連絡が完結する", "高年収求人が多い"],
-  bad: ["未経験者は紹介されにくい", "初回面談後の連絡が遅い場合がある", "希望と異なる求人提案の例"],
+  good: ["書類添削・面接対策が丁寧", "LINEで連絡が完結します", "高年収求人が多いです"],
+  bad: ["未経験者は紹介されにくいです", "初回面談後の連絡が遅い場合があります", "希望と異なる求人提案の例"],
 };
 const dodaReviews = {
-  good: ["求人量が多い", "好条件求人が多い", "2名体制サポートの場合あり"],
-  bad: ["求人・連絡が多すぎる", "アドバイザーの質にばらつき", "IT専門性がやや低いとの声"],
+  good: ["求人量が多いです", "好条件求人が多いです", "2名体制サポートの場合あり"],
+  bad: ["求人・連絡が多すぎます", "アドバイザーの質にばらつき", "IT専門性がやや低いとの声"],
 };
 
 const relatedLinks = [
@@ -211,7 +211,7 @@ export default function LevtechVsDodaPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">doda</h3>
               <p className="text-sm text-slate-600">
-                転職者の約6割が年収アップです。IT・通信の平均決定年収は469万円（2023年度）→486万円です（2024年度）（パーソルキャリア「決定年収レポート」2025年5月公表）。母集団の大きさが特徴です。
+                転職者の約6割が年収アップを実現しています。IT・通信の平均決定年収は469万円（2023年度）→486万円です（2024年度）（パーソルキャリア「決定年収レポート」2025年5月公表）。母集団の大きさが特徴です。
               </p>
             </div>
           </div>
@@ -254,7 +254,7 @@ export default function LevtechVsDodaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">レバテックキャリアが強い領域</h3>
               <div className="flex flex-wrap gap-2">
-                {["Web系全般", "SIer", "社内SE", "インフラ", "高年収求人", "20〜30代の利用が多い"].map((tag, i) => (
+                {["Web系全般", "SIer", "社内SE", "インフラ", "高年収求人", "20〜30代の利用が多いです"].map((tag, i) => (
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
@@ -316,7 +316,7 @@ export default function LevtechVsDodaPage() {
                 <li>✓ IT経験3年以上で年収アップを狙いたい</li>
                 <li>✓ 技術文脈を理解した提案を受けたい</li>
                 <li>✓ IT/Web領域に集中して転職したい</li>
-                <li>✓ 高年収帯（600万円以上）を志望します</li>
+                <li>✓ 高年収帯（600万円以上）を志望する</li>
                 <li>✓ LINEで気軽にやり取りしたい</li>
               </ul>
             </div>
@@ -325,7 +325,7 @@ export default function LevtechVsDodaPage() {
               <ul className="space-y-2 text-sm text-green-700">
                 <li>✓ IT以外の業界も含め幅広く検討したい</li>
                 <li>✓ 初めての転職で選択肢を多く見たい</li>
-                <li>✓ 事業会社のDX部門・社内SEを志望します</li>
+                <li>✓ 事業会社のDX部門・社内SEを志望する</li>
                 <li>✓ 自分でも求人を検索したい</li>
                 <li>✓ 全国・地方の求人も見たい</li>
               </ul>

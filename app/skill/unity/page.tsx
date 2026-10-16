@@ -29,12 +29,12 @@ const toc = [
 const careerPaths = [
   {
     role: "ゲームプログラマー（モバイル/コンシューマー）",
-    note: "ソーシャル/モバイルからコンシューマーまで。求人母数が最も多い代表的なルートです。",
+    note: "ソーシャル/モバイルからコンシューマーまで、幅広い領域があります。求人母数が最も多い代表的なルートです。",
     demand: "高",
   },
   {
     role: "XR/メタバースエンジニア",
-    note: "VR/AR/MRコンテンツ開発です。XRデバイス普及で需要が拡大中です。",
+    note: "VR/AR/MRコンテンツ開発。XRデバイス普及で需要が拡大中です。",
     demand: "中〜高",
   },
   {
@@ -152,7 +152,7 @@ export default function UnitySkillPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① Unity関連職の平均年収は約417万円・中央値450万円です（レバテックキャリア集計）。上振れは領域とポジションで決まります。</li>
-              <li>② 年収を上げたいならコンシューマー/XR/最適化/非ゲーム産業へ。ソーシャル単独より高めの提示が出やすいです。</li>
+              <li>② 年収を上げたいならコンシューマー/XR/最適化/非ゲーム産業へ進む道があります。ソーシャル単独より高めの提示が出やすいです。</li>
               <li>③ 探し方はゲーム特化のGeekly＋IT全般のレバテック＋ベンチャー直結のGreenを併用します。作品の提示が前提です。</li>
             </ul>
           </div>
@@ -168,7 +168,7 @@ export default function UnitySkillPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ["平均年収（正社員）", "約417万円・中央値450万円です（レバテックキャリアのUnity関連職種集計）。多くは400万〜600万円台に分布"],
+                  ["平均年収（正社員）", "約417万円・中央値450万円（レバテックキャリアのUnity関連職種集計）。多くは400万〜600万円台に分布"],
                   ["年収が上振れしやすい領域", "コンシューマーゲーム、XR/メタバースのリード、テクニカルアーティスト、非ゲーム産業用途"],
                   ["フリーランス単価の目安", "市場調査記事では月額60〜70万円・年収換算720万〜840万円とする例も（PE-BANK等の解説記事ベース）"],
                   ["活用領域の広がり", "ゲームに加えVR/AR・建築可視化・自動車/製造シミュレーション・医療トレーニング等"],
@@ -199,8 +199,8 @@ export default function UnitySkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { lv: "歓迎されやすい人", body: "C#の実務経験、Unityでの開発・リリース経験、Gitでのチーム開発経験です。プレイ可能な作品があることが重要です。" },
-              { lv: "ミドル〜シニア要件", body: "描画/メモリのパフォーマンス最適化（Draw Call削減・LOD・オブジェクトプーリング）、設計力、後輩レビューやチームリードの経験です。" },
+              { lv: "歓迎されやすい人", body: "C#の実務経験、Unityでの開発・リリース経験、Gitでのチーム開発経験。プレイ可能な作品があることが重要です。" },
+              { lv: "ミドル〜シニア要件", body: "描画/メモリのパフォーマンス最適化（Draw Call削減・LOD・オブジェクトプーリング）、設計力、後輩レビューやチームリードの経験。" },
               { lv: "領域別の上乗せ要件", body: "XRならXR Interaction Toolkit・各デバイスSDK、対戦系ならNetcode/同期処理、グラフィックスならシェーダー、非ゲームならドメイン知識です（建築/自動車等）。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -336,11 +336,11 @@ export default function UnitySkillPage() {
             Unity転職では「学んだ」より「作って公開した」が評価軸です。作品を軸に逆算して学ぶのが効率的です。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>小さくても完成・リリースした作品を1本作り、プレイ可能な形で公開します</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>パフォーマンス最適化（プロファイラの読み方・Draw Call削減）を一通り実践します</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>狙う領域（XR/対戦/グラフィックス/非ゲーム）の専門スキルを1つ深掘りします</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>GitHubでソースを公開し、設計判断を説明できるよう整理します</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>C#の言語仕様・非同期処理の理解を深め、面接の技術深掘りに備えます</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>小さくても完成・リリースした作品を1本作り、プレイ可能な形で公開する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>パフォーマンス最適化（プロファイラの読み方・Draw Call削減）を一通り実践する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>狙う領域（XR/対戦/グラフィックス/非ゲーム）の専門スキルを1つ深掘りする</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>GitHubでソースを公開し、設計判断を説明できるよう整理する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>C#の言語仕様・非同期処理の理解を深め、面接の技術深掘りに備える</li>
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
             作品の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>、学習継続は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">働きながら学び続ける方法</Link>で詳しく解説しています。
@@ -358,10 +358,10 @@ export default function UnitySkillPage() {
               <h3 className="font-bold text-green-800 mb-3 text-sm">Unity転職が向いている人</h3>
               <ul className="space-y-2 text-sm text-green-800">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>完成・公開した作品を提示できます（または短期で作れる）</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>C#の実務経験があります</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>最適化・XR・グラフィックス等の専門領域を持つ／作る意欲があります</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>C#の実務経験がある</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>最適化・XR・グラフィックス等の専門領域を持つ／作る意欲がある</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>非ゲーム産業（建築/製造/医療）の業界知識を活かしたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>プレイヤー以外にリード/最適化でも価値を出せます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>プレイヤー以外にリード/最適化でも価値を出せる</li>
               </ul>
             </div>
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">

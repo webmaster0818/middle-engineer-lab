@@ -445,7 +445,7 @@ export default function NaraAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">奈良のIT転職を進めよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            大阪・京都圏の求人から首都圏フルリモート、UIターン移住まで。エリア対応のエージェントに相談して、住環境と年収のバランスが取れる選択肢を見つけましょう。
+            大阪・京都圏の求人から首都圏フルリモート、UIターン移住まで、幅広い選択肢があります。エリア対応のエージェントに相談して、住環境と年収のバランスが取れる選択肢を見つけましょう。
           </p>
           <Link
             href="/#ranking"

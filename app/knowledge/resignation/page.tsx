@@ -29,7 +29,7 @@ const schedule = [
   { period: "6週間前", title: "引き継ぎ計画を作成", desc: "担当プロジェクト・システム・タスクを一覧化し、引き継ぎスケジュールを上司と合意します。" },
   { period: "4〜5週間前", title: "引き継ぎ作業を実施", desc: "コードのドキュメント整備、運用手順書の作成、後任者へのレクチャーを進めます。" },
   { period: "2〜3週間前", title: "退職届の提出", desc: "人事に正式な退職届（退職願ではなく届）を提出します。書式は就業規則に従います。" },
-  { period: "最終週", title: "有給消化・最終出社", desc: "引き継ぎ完了後に有給消化へ。最終出社日にPC・セキュリティカード返却、アカウント整理を行います。" },
+  { period: "最終週", title: "有給消化・最終出社", desc: "引き継ぎ完了後に有給休暇を消化します。最終出社日にPC・セキュリティカード返却、アカウント整理を行います。" },
 ];
 
 const handover = [
@@ -128,7 +128,7 @@ export default function ResignationPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】どうすれば円満に退職を進められる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 最初の一報を直属の上司に1対1で口頭で伝え、理由は前向きに変換し、引き継ぎを早めに文書化するのが円満退職の基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・最初の一報は直属の上司に1対1で口頭です。退職先の社名は伝えなくてよいです</li><li>・退職理由は不満ではなく「次でやりたいこと」に変換して伝えます</li><li>・引き止め（カウンターオファー）には「入社日を合意済み」が最も効きます</li><li>・就業規則の通知期間を確認し、引き継ぎ計画を早めに文書化します</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・最初の一報は直属の上司に1対1で、口頭で伝えます。退職先の社名は伝えなくてよいです</li><li>・退職理由は不満ではなく「次でやりたいこと」に変換して伝えます</li><li>・引き止め（カウンターオファー）には「入社日を合意済み」が最も効きます</li><li>・就業規則の通知期間を確認し、引き継ぎ計画を早めに文書化します</li></ul>
           </div>
         </section>
 
@@ -157,7 +157,7 @@ export default function ResignationPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：意思は固く、理由は前向きに、引き継ぎは早めに</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・最初の一報は<strong>直属の上司に1対1で口頭です</strong>。退職先の社名は言わなくてよいです。</li>
+              <li>・最初の一報は<strong>直属の上司に1対1で、口頭で伝えます</strong>。退職先の社名は言わなくてよいです。</li>
               <li>・退職理由は不満ではなく<strong>「次でやりたいこと」</strong>に変換して伝えます。</li>
               <li>・引き止め（カウンターオファー）には<strong>「入社日を合意済み」</strong>が最も効きます。</li>
               <li>・就業規則の通知期間を確認し、<strong>引き継ぎ計画を早めに文書化</strong>しておきます。</li>
@@ -212,7 +212,7 @@ export default function ResignationPage() {
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
               <h3 className="font-bold text-slate-800 mb-2">誰に</h3>
-              <p className="text-sm text-slate-600">まず直属の上司へ。先に同僚や人事に話が伝わると上司の心証を損ねます。順序は「直属上司 → 合意後に人事手続き」が基本です。</p>
+              <p className="text-sm text-slate-600">まず直属の上司に伝えます。先に同僚や人事に話が伝わると上司の心証を損ねます。順序は「直属上司 → 合意後に人事手続き」が基本です。</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
               <h3 className="font-bold text-slate-800 mb-2">どう</h3>

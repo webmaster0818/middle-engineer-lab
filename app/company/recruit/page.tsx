@@ -36,10 +36,10 @@ const techStack = [
 ];
 
 const positions = [
-  { name: "プロダクト開発エンジニア", desc: "各プロダクトの設計・開発・運用です。事業戦略と直結した技術貢献を担います。" },
-  { name: "プロダクト開発ディレクター", desc: "プロダクト開発の方向づけ・推進です。中長期視点でのプロダクト育成です。" },
+  { name: "プロダクト開発エンジニア", desc: "各プロダクトの設計・開発・運用。事業戦略と直結した技術貢献を担います。" },
+  { name: "プロダクト開発ディレクター", desc: "プロダクト開発の方向づけ・推進。中長期視点でのプロダクト育成。" },
   { name: "データ", desc: "国内トップクラスのデータ資産を活用した分析・データサイエンス・MLです。" },
-  { name: "社内ICT・DX推進", desc: "社内システム・業務プロセスのデジタル化・DX推進です。" },
+  { name: "社内ICT・DX推進", desc: "社内システム・業務プロセスのデジタル化・DX推進。" },
 ];
 
 const faqs = [
@@ -177,7 +177,7 @@ export default function RecruitCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">国内トップクラスのデータ資産</h3>
-              <p className="text-sm text-petrol-deep">公式採用ページでも「国内トップクラスのデータ資産を強みに」と打ち出しており、データドリブンな意思決定文化が根付いています。データ・MLエンジニアの活躍フィールドが広い環境です。</p>
+              <p className="text-sm text-petrol-deep">公式採用ページでも「国内トップクラスのデータ資産を武器に」と打ち出しており、データドリブンな意思決定文化が根付いています。データ・MLエンジニアの活躍フィールドが広い環境です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミッショングレード制と充実した休日</h3>
@@ -286,7 +286,7 @@ export default function RecruitCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強いです。大手・メガベンチャーの非公開求人を保有していることがあります。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。職務価値の高いポジションのスカウトを受けやすいです。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web特化です。提案スピードが速く、実務経験者への提案が豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT・Webに特化しています。提案スピードが速く、実務経験者への提案が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

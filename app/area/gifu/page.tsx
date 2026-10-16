@@ -26,7 +26,7 @@ const toc = [
 ];
 
 const fitYes = [
-  "製造業のIT・DX、生産システム、組込み・制御系などものづくり寄りの領域に関心がある",
+  "製造業のIT・DX、生産システム、組込み・制御系などものづくり寄りの領域に関心があります",
   "名古屋に通勤できる立地で、岐阜の住みやすさ・住居費の安さを活かしたい",
   "首都圏のフルリモート求人を活用し、東海エリアで暮らしたい",
   "UIターンで地元に戻りつつ、東海・首都圏の選択肢も確保したい",
@@ -445,7 +445,7 @@ export default function GifuAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">岐阜のIT転職を進めよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            地元の製造業ITから名古屋圏、首都圏フルリモート、UIターン移住まで。エリア対応のエージェントに相談して、住みやすさと年収のバランスが取れる選択肢を見つけましょう。
+            地元の製造業ITから名古屋圏、首都圏フルリモート、UIターン移住まで、幅広い選択肢があります。エリア対応のエージェントに相談して、住みやすさと年収のバランスが取れる選択肢を見つけましょう。
           </p>
           <Link
             href="/#ranking"

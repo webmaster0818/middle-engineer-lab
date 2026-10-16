@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/rails/" },
   title: "Ruby on Railsの転職ガイド｜フレームワーク経験の活かし方と年収【2026年】",
   description:
-    "Webフレームワーク Ruby on Rails（Rails）に絞って転職市場を出典付きで解説。MVP高速開発・自社開発/スタートアップでのRails需要、他フレームワーク（Laravel/Django/Spring）からの参入ルート、30代・40代の進め方を整理します。",
+    "Webフレームワーク Ruby on Rails（Rails）に絞って転職市場を出典を明記して解説します。MVP高速開発・自社開発/スタートアップでのRails需要、他フレームワーク（Laravel/Django/Spring）からの参入ルート、30代・40代の進め方を整理します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function RailsSkillPage() {
     <>
       <ArticleJsonLd
         title="Ruby on Railsエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Ruby on Rails（Rails）エンジニアの転職市場を出典付きで解説。自社開発・スタートアップでのRails需要、paiza調査のRuby提示年収、他フレームワークからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="Ruby on Rails（Rails）エンジニアの転職市場を出典を明記して解説します。自社開発・スタートアップでのRails需要、paiza調査のRuby提示年収、他フレームワークからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/rails/"
       />
       <script

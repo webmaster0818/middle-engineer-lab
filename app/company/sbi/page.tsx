@@ -270,7 +270,7 @@ export default function SbiCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">SBI転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。金融系・大規模システムの求人にも対応し、非公開求人も豊富です。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。金融系・大規模システムの求人にも対応し、非公開求人も豊富です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、金融×ITのミドル・シニア層の支援に定評があります。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。金融・フィンテックのハイクラス求人が集まりやすいです。" },
             ].map((agent, i) => (

@@ -90,10 +90,10 @@ export default function ChildcareLeavePage() {
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 育休を取りやすい職場に転職したい</li>
+              <li>- 育休を取りやすい職場に転職したいと考えています</li>
               <li>- 男性でも育休を取得できる企業を探しています</li>
-              <li>- 「制度あり」と実態の差を見極めたい</li>
-              <li>- 子育てと両立しながら長く働きたい</li>
+              <li>- 「制度あり」と実態の差を見極めたいと考えています</li>
+              <li>- 子育てと両立しながら長く働きたいと考えています</li>
             </ul>
           </div>
         </section>

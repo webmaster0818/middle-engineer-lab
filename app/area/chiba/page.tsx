@@ -161,7 +161,7 @@ export default function ChibaAreaPage() {
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
               <li>・<strong>幕張新都心という県内拠点を持ちます</strong>。大手・EC・通信系の本社や拠点が集まり、千葉で完結する求人も探せます。</li>
               <li>・<strong>東京通勤圏×リモート併用が可能です</strong>。船橋・市川など東京寄りのエリアから、リモート／通勤を組み合わせて選べます。</li>
-              <li>・<strong>インフラ・物流DXに独自性です</strong>。印西のデータセンター集積や成田周辺の物流DXなど、特定領域の求人を狙えます。</li>
+              <li>・<strong>インフラ・物流DXに独自性があります</strong>。印西のデータセンター集積や成田周辺の物流DXなど、特定領域の求人を狙えます。</li>
             </ul>
           </div>
         </section>
@@ -237,7 +237,7 @@ export default function ChibaAreaPage() {
               <ul className="space-y-2 text-sm text-slate-700">
                 <li>✓ 千葉に生活基盤があり、東京の求人もあわせて狙いたい</li>
                 <li>✓ 幕張など県内拠点で大手・EC系に関わりたい</li>
-                <li>✓ データセンター・インフラ領域に強みがある／関心があります</li>
+                <li>✓ データセンター・インフラ領域に強みがある／関心がある</li>
                 <li>✓ 船橋・市川など東京寄りでリモート併用したい</li>
                 <li>✓ 生活コストを抑えつつ首都圏水準の年収を狙いたい</li>
               </ul>

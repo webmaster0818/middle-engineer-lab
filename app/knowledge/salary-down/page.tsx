@@ -157,7 +157,7 @@ export default function SalaryDownPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】年収が下がる転職は受け入れるべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 一律に避ける必要はありません。下がる理由と回復シナリオが説明でき、生活が成り立ち、年収以外に得られる将来価値が下げ幅に見合うかで判断します。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・将来性・裁量・成長機会が下げ幅を上回るなら、投資として合理的</li><li>・回復の根拠が曖昧・生活が成り立たない・現職から逃げるだけなら見送ります</li><li>・目先の差額ではなく、数年単位の生涯年収と家計の数字で判断します</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・将来性・裁量・成長機会が下げ幅を上回るなら、投資として合理的です</li><li>・回復の根拠が曖昧・生活が成り立たない・現職から逃げるだけなら見送ります</li><li>・目先の差額ではなく、数年単位の生涯年収と家計の数字で判断します</li></ul>
           </div>
         </section>
 

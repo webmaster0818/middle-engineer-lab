@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/dart/" },
   title: "Dartエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Dart（Flutter）エンジニアの転職市場を出典付きで解説。モバイルアプリ開発でのFlutter需要、求人ボックスやレバテックの公表年収、Web・ネイティブからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
+    "Dart（Flutter）エンジニアの転職市場を出典を明記して解説します。モバイルアプリ開発でのFlutter需要、求人ボックスやレバテックの公表年収、Web・ネイティブからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function DartSkillPage() {
     <>
       <ArticleJsonLd
         title="Dartエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Dart（Flutter）エンジニアの転職市場を出典付きで解説。モバイルアプリ開発でのFlutter需要、求人ボックスやレバテックの公表年収、Web・ネイティブからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="Dart（Flutter）エンジニアの転職市場を出典を明記して解説します。モバイルアプリ開発でのFlutter需要、求人ボックスやレバテックの公表年収、Web・ネイティブからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/dart/"
       />
       <script
@@ -146,7 +146,7 @@ export default function DartSkillPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ["Dart/Flutter特化の平均年収", "公的な公表は乏しい（年代別データで代替）", "言語単独の公的統計は限定的"],
+                  ["Dart/Flutter特化の平均年収", "公的な公表は乏しいです（年代別データで代替）", "言語単独の公的統計は限定的"],
                   ["ソフトウェアエンジニアの平均年収（正社員）", "約511万円", "求人ボックス 給料ナビ（掲載求人からの独自試算）"],
                   ["正社員SEの平均年収・30代", "約499万円", "レバテック公表（2025年）"],
                   ["正社員SEの平均年収・40代", "約618万円", "レバテック公表（2025年）"],

@@ -237,7 +237,7 @@ export default function PreferredNetworksCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・AI領域に強く、専門職の技術面接対策のサポートも受けられます。" },
-              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化です。AI・研究開発の高度専門ポジションのスカウトが届きやすいです。" },
+              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。AI・研究開発の高度専門ポジションのスカウトが届きやすいです。" },
               { name: "Findy", href: "/review/findy/", desc: "スキル偏差値で実力を可視化します。先進的なテック企業・AI領域に強いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

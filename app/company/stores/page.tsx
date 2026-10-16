@@ -29,7 +29,7 @@ const toc = [
 const basicData: [string, string][] = [
   ["企業名", "STORES株式会社（旧:ヘイ株式会社／hey・非上場）"],
   ["業種", "店舗・お店のためのDXプラットフォーム（EC／POS／決済／予約）"],
-  ["平均年収", "公式の全社員平均は非公開です（非上場）。集計サイトの値は参考値"],
+  ["平均年収", "公式の全社員平均は非公開（非上場）。集計サイトの値は参考値"],
   ["主要プロダクト", "STORES（ネットショップ）／STORES レジ（POS）／STORES 決済／STORES 予約 等のマルチプロダクト"],
   ["技術スタック", "Ruby/Rails・Java/Spring Boot・Go／AWS・GCP・Terraform／フロントReact・Vue・Next.js・Nuxt（Rubyコミッター在籍）"],
 ];
@@ -83,7 +83,7 @@ export default function StoresCompanyPage() {
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（Ruby/Goの経験者・店舗ドメイン志向に向く）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・EC・POS・決済・予約の<strong>マルチプロダクトです</strong>。Ruby/Rails・Go・Javaなどプロダクトごとにスタックが異なり、経験に合う領域を選びやすいです。</li>
-              <li>・<strong>非上場のため公式の平均年収はなし</strong>。集計サイトの平均約695万円・中央値約635万円・IT職約796万円はいずれも参考値で、求人は400〜600万円のレンジ例もあります。</li>
+              <li>・<strong>非上場のため公式の平均年収は公表されていません</strong>。集計サイトの平均約695万円・中央値約635万円・IT職約796万円はいずれも参考値で、求人は400〜600万円のレンジ例もあります。</li>
               <li>・Rubyコミッターが在籍する技術文化があり、<strong>実店舗のオペレーションに直結するドメイン</strong>に関われるのが魅力です。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">逆に、上場企業の財務透明性や安定した処遇を最優先する人は、非上場ゆえに公開情報が限られる点を踏まえ、面談で条件・事業状況を確認することをおすすめします。</p>
@@ -154,8 +154,8 @@ export default function StoresCompanyPage() {
           <ol className="space-y-3">
             {[
               ["STEP 1", "書類選考", "公式採用ページまたはエージェント経由で応募します。職務経歴・実績を確認します。"],
-              ["STEP 2", "面接（複数回）", "技術面接・カルチャーフィット面接を含む複数回が想定されます。回数・形式は職種・時期で変動しています。"],
-              ["STEP 3", "内定", "条件提示です。具体的な選考期間は公式に明示されていません。"],
+              ["STEP 2", "面接（複数回）", "技術面接・カルチャーフィット面接を含む複数回が想定されます。回数・形式は職種・時期で変動します。"],
+              ["STEP 3", "内定", "条件が提示されます。具体的な選考期間は公式に明示されていません。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -201,9 +201,9 @@ export default function StoresCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Ruby/RailsまたはGoでのWebサービス開発経験者</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>決済・POS・予約など店舗系ドメインに興味があります</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>決済・POS・予約など店舗系ドメインに興味がある</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>マルチプロダクトを横断的に見たい・自走したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Rubyの技術カルチャー・お店を支える事業に共感します</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Rubyの技術カルチャー・お店を支える事業に共感する</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
@@ -212,7 +212,7 @@ export default function StoresCompanyPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>上場企業の財務透明性・安定処遇を最優先したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>成長フェーズ企業の変化・優先順位調整を避けたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>単一の大規模プロダクトに専念したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>公式の確定年収レンジがないと判断できません</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>公式の確定年収レンジがないと判断できない</li>
               </ul>
             </div>
           </div>

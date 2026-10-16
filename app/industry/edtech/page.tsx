@@ -32,12 +32,12 @@ const toc = [
 ];
 
 const skillTable = [
-  ["LMS・学習管理システムの業務知識", "そのまま活きる", "EdTechプロダクトの設計・要件定義で直接活きる"],
-  ["カリキュラム設計・教材コンテンツ制作", "そのまま活きる", "学習体験（UX）の設計やコンテンツ開発で評価される"],
-  ["学習データの扱い・教育評価の理解", "そのまま活きる", "アダプティブラーニングや効果測定の土台になる"],
+  ["LMS・学習管理システムの業務知識", "そのまま活きます", "EdTechプロダクトの設計・要件定義で直接活きます"],
+  ["カリキュラム設計・教材コンテンツ制作", "そのまま活きます", "学習体験（UX）の設計やコンテンツ開発で評価されます"],
+  ["学習データの扱い・教育評価の理解", "そのまま活きます", "アダプティブラーニングや効果測定の土台になります"],
   ["フロント／バックエンド開発（React・Python等）", "要習得", "Web系プロダクト開発はモダンスタックが前提"],
-  ["データ分析（SQL / Python）", "要習得", "学習ログ分析・個別最適化のポジションで求められる"],
-  ["AI/ML・動画配信・LTI連携の知識", "要習得", "AIチューターや学習ツール連携で差別化要素になる"],
+  ["データ分析（SQL / Python）", "要習得", "学習ログ分析・個別最適化のポジションで求められます"],
+  ["AI/ML・動画配信・LTI連携の知識", "要習得", "AIチューターや学習ツール連携で差別化要素になります"],
 ];
 
 const patternTable = [
@@ -198,7 +198,7 @@ export default function EdtechPage() {
                     <th className="px-4 py-3 text-left font-medium text-slate-700 align-top">{skill}</th>
                     <td
                       className={`px-4 py-3 font-medium whitespace-nowrap align-top ${
-                        status === "そのまま活きる" ? "text-petrol" : "text-amber-600"
+                        status === "そのまま活きます" ? "text-petrol" : "text-amber-600"
                       }`}
                     >
                       {status}
@@ -248,11 +248,11 @@ export default function EdtechPage() {
               <h3 className="font-bold text-emerald-800 mb-3 text-sm">このような方に向いています</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
-                  "LMS運用・教材制作など教育現場の実務経験がある",
-                  "学習成果を改善した経験を具体的に語れる",
-                  "Web開発やデータ分析の学習を継続できる",
-                  "教員・学習者など複数の立場を踏まえた調整ができる",
-                  "学習体験をプロダクトで良くすることに関心がある",
+                  "LMS運用・教材制作など教育現場の実務経験があります",
+                  "学習成果を改善した経験を具体的に語れます",
+                  "Web開発やデータ分析の学習を継続できます",
+                  "教員・学習者など複数の立場を踏まえた調整ができます",
+                  "学習体験をプロダクトで良くすることに関心があります",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-emerald-600 shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -263,9 +263,9 @@ export default function EdtechPage() {
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
                   "教育ドメインの経験がなく、技術力だけを強みにしたい",
-                  "学習設計や現場運用に関心が薄い",
-                  "学習に時間を割けず、即戦力の技術力も足りない",
-                  "短期間での大幅な年収アップだけを目的にしている",
+                  "学習設計や現場運用に関心が薄いです",
+                  "学習に時間を割けず、即戦力の技術力も足りません",
+                  "短期間での大幅な年収アップだけを目的にしています",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-slate-400 shrink-0">▲</span><span>{t}</span></li>
                 ))}
@@ -285,12 +285,12 @@ export default function EdtechPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg overflow-hidden">
               <div className="bg-slate-100 px-4 py-2 text-xs font-bold text-slate-500">Before（伝わりにくい例）</div>
-              <p className="px-4 py-3 text-sm text-slate-600">学習管理システムの導入・運用を担当します。教材のデジタル化を進めました。</p>
+              <p className="px-4 py-3 text-sm text-slate-600">学習管理システムの導入・運用を担当。教材のデジタル化を進めました。</p>
             </div>
             <div className="border border-[var(--line)] rounded-lg overflow-hidden">
               <div className="bg-petrol-soft px-4 py-2 text-xs font-bold text-petrol-deep">After（教育×ITが伝わる例）</div>
               <p className="px-4 py-3 text-sm text-slate-700">
-                LMSの導入・運用を担当し、教員の運用負荷と学習者のつまずき箇所を踏まえた教材配信フローを設計します。学習ログを分析して理解度の低い単元を可視化し、復習コンテンツの追加を提案します。カリキュラム設計と学習データ活用の両面を理解している点を強みとします。
+                LMSの導入・運用を担当し、教員の運用負荷と学習者のつまずき箇所を踏まえた教材配信フローを設計。学習ログを分析して理解度の低い単元を可視化し、復習コンテンツの追加を提案。カリキュラム設計と学習データ活用の両面を理解している点を強みとします。
               </p>
             </div>
           </div>
@@ -379,7 +379,7 @@ export default function EdtechPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートB：既存の開発スキルにモダンスタックを足す</h3>
-              <p className="text-sm text-slate-600">開発経験者がReact・Python・SQLを補強してEdTechのエンジニア職へ。学習成果を小さな制作物で示すと伝わりやすいです。</p>
+              <p className="text-sm text-slate-600">開発経験者がReact・Python・SQLを補強してEdTechのエンジニア職を目指す道があります。学習成果を小さな制作物で示すと伝わりやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートC：学習データ分析へ寄せる</h3>

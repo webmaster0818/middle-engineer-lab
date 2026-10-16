@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Dockerスキルで転職｜年収・求人・将来性【2026年】";
 const PAGE_DESC =
-  "Docker（コンテナ）スキルを軸にした転職市場を出典付きで解説。Dockerは単体スキルというより、DevOps/SRE・クラウド実務の基盤として評価される点を整理します。求人ボックス公表の関連職種年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
+  "Docker（コンテナ）スキルを軸にした転職市場を出典を明記して解説します。Dockerは単体スキルというより、DevOps/SRE・クラウド実務の基盤として評価される点を整理します。求人ボックス公表の関連職種年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/docker/" },

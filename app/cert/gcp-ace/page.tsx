@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "ACEとPCAはどちらを取るべきですか？",
-    a: "現在地と目的で決めます。GCPの実務がこれからの人、まず扱える証明がほしい人はACE（アソシエイト）から。すでに設計・基盤の経験があり上流アーキテクトを目指す人はPCA（プロフェッショナル）が適しています。ACEで土台を作りPCAへ進むのが一般的なステップアップです。PCA側は当サイトのPCAガイドも参照してください。",
+    a: "現在地と目的で決めます。GCPの実務がこれからの人、まず扱える証明がほしい人はACE（アソシエイト）から始めます。すでに設計・基盤の経験があり上流アーキテクトを目指す人はPCA（プロフェッショナル）が適しています。ACEで土台を作りPCAへ進むのが一般的なステップアップです。PCA側は当サイトのPCAガイドも参照してください。",
   },
   {
     q: "AWSやAzureを使っていてもGCPの資格は役立ちますか？",
@@ -171,7 +171,7 @@ export default function GcpAceCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・クラウド人材は需要が高い傾向（<strong>実務・役割が主因</strong>）</li>
               <li>・ACEは<strong>GCPを扱える入口の証明</strong>として書類通過に効く加点材</li>
-              <li>・実態：<strong>年収はGCP実務経験 × 資格の掛け算</strong>で決まります</li>
+              <li>・実態：<strong>年収はGCP実務経験 × 資格の掛け算</strong>で決まる</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -253,7 +253,7 @@ export default function GcpAceCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>GCP案件への足がかり</strong>。GCPを扱える前提スキルを示し、書類選考の通過率を上げられます。第二に<strong>マルチクラウドの幅です</strong>。AWS・Azure経験に積み増すことで、対応できるクラウドの幅をアピールできます。第三に<strong>上位資格への布石です</strong>。ACEで土台を作ってからPCAへ進めば、運用から設計まで一貫したキャリアストーリーになります。
+            活用戦略は3つに整理できます。第一に<strong>GCP案件への足がかり</strong>です。GCPを扱える前提スキルを示し、書類選考の通過率を上げられます。第二に<strong>マルチクラウドの幅です</strong>。AWS・Azure経験に積み増すことで、対応できるクラウドの幅をアピールできます。第三に<strong>上位資格への布石です</strong>。ACEで土台を作ってからPCAへ進めば、運用から設計まで一貫したキャリアストーリーになります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             注意すべきデメリットも押さえておきましょう。ACEは<strong>アソシエイトという位置づけのため、これ単体で上流設計まで保証する資格ではありません</strong>。効果が出るのは「GCP実務 × 資格」が成立したときです。また有効期限が3年あり、取りっぱなしでは失効します。逆に言えば、GCPに守備範囲を広げたい30〜40代の起点としては、費用対効果の高い資格です。上流まで示したいなら<Link href="/cert/gcp-pca/" className="text-petrol hover:underline">Professional Cloud Architect</Link>へ進みましょう。
@@ -281,7 +281,7 @@ export default function GcpAceCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "GCPの基礎を実機で触る", d: "Compute Engine・Cloud Storage・IAMなど主要サービスを実際のコンソールやコマンドで操作し、感覚を掴みます。" },
+              { n: "STEP 1", t: "GCPの基礎を実機で触ります", d: "Compute Engine・Cloud Storage・IAMなど主要サービスを実際のコンソールやコマンドで操作し、感覚を掴みます。" },
               { n: "STEP 2", t: "出題範囲を演習で網羅", d: "デプロイ・運用・監視・アクセス管理を、公式模擬試験と実機演習で固めます。50〜60問の選択式に慣れます。" },
               { n: "STEP 3", t: "合格→PCAで上流へ", d: "合格後はGCP実務に関わりつつ、有効期限内に更新します。設計力まで示すなら上位のPCAに挑戦します。" },
             ].map((x, i) => (

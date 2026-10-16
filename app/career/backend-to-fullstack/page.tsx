@@ -28,7 +28,7 @@ const gapRows = [
   {
     area: "フロントエンド",
     back: "APIを返す側です。画面実装はフロント担当に委譲",
-    full: "React/Next.js等でUIを自分で実装できる",
+    full: "React/Next.js等でUIを自分で実装できます",
     action: "TypeScript→Reactの順で個人開発で実装",
   },
   {
@@ -45,8 +45,8 @@ const gapRows = [
   },
   {
     area: "インフラ/DevOps",
-    back: "アプリ実装中心です。基盤は別チームの現場も",
-    full: "Docker・CI/CD・クラウドを自分で扱う",
+    back: "アプリ実装中心。基盤は別チームの現場も",
+    full: "Docker・CI/CD・クラウドを自分で扱います",
     action: "自作アプリをCI/CDでデプロイする経験を作ります",
   },
   {
@@ -385,7 +385,7 @@ export default function BackendToFullstackPage() {
               ・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円</strong>・平均年齢37.1歳です（令和7年賃金構造基本統計調査ベース）。
             </li>
             <li>
-              ・dodaの2024年度決定年収レポート（2025年5月公表）では、転職者の約6割が年収アップです。IT・通信の平均決定年収は2024年度<strong>486万円です</strong>。
+              ・dodaの2024年度決定年収レポート（2025年5月公表）では、転職者の約6割が年収アップを実現しています。IT・通信の平均決定年収は2024年度<strong>486万円です</strong>。
             </li>
             <li>
               ・レバテック公表の年代別平均年収（2025年）では、正社員SEで30代約<strong>499万円</strong>、40代約<strong>618万円です</strong>。年収1,000万円以上の割合は30代8.01%・40代12.67%です。

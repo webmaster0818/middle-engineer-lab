@@ -59,7 +59,7 @@ const overviewTable = [
   ["受験料", "445 USD（試験のみ・標準価格／バンドルは別途）"],
   ["試験形式", "実技（CLIでの課題解決）・オンライン監督"],
   ["試験時間", "2時間"],
-  ["再試験", "受験パッケージに1回分の再受験を含む"],
+  ["再試験", "受験パッケージに1回分の再受験を含みます"],
   ["有効期限", "2年（最新版試験への再合格で更新）"],
   ["合格率", "CNCF非公表（当サイトは創作しません）"],
 ];
@@ -134,7 +134,7 @@ export default function CkaCertPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>インフラ・DevOps経験のある30〜40代</strong>：コンテナ基盤を扱える実技力の証明として加点されます</li>
-              <li>② <strong>未経験のミドル</strong>：実技難度が高く入口には不向きです。まずLinux・コンテナ基礎を固めるべき</li>
+              <li>② <strong>未経験のミドル</strong>：実技難度が高く入口には不向きです。まずLinux・コンテナ基礎を固めるべきです</li>
               <li>③ <strong>クラウドネイティブを深めたい人</strong>：CKAD・CKSへの土台として体系化できます</li>
             </ul>
           </div>
@@ -251,7 +251,7 @@ export default function CkaCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>実技力の客観証明です</strong>。実機操作を問う試験のため、「手を動かせる」ことを採用側に直接示せます。第二に<strong>クラウドネイティブ職への足がかり</strong>。SRE・プラットフォームエンジニアなど需要の高い職種への移行を後押しします。第三に<strong>CKAD・CKSへの土台です</strong>。特にCKSはCKA合格が前提のため、セキュリティ特化へ進む布石になります。
+            活用戦略は3つに整理できます。第一に<strong>実技力の客観証明です</strong>。実機操作を問う試験のため、「手を動かせる」ことを採用側に直接示せます。第二に<strong>クラウドネイティブ職への足がかり</strong>です。SRE・プラットフォームエンジニアなど需要の高い職種への移行を後押しします。第三に<strong>CKAD・CKSへの土台です</strong>。特にCKSはCKA合格が前提のため、セキュリティ特化へ進む布石になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             注意すべきデメリットも押さえておきましょう。CKAは<strong>取得しても単体で年収が跳ねる資格ではありません</strong>。あくまで実際の運用経験を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また有効期限が2年と短く、Kubernetesのバージョン進化に合わせた再認定が必要です。逆に言えば、すでにインフラ・コンテナの現場経験があり基盤領域を深めたい30〜40代にとっては、投資する価値が明確な実技資格です。基礎が不安な場合は、まず<Link href="/skill/linux/" className="text-petrol hover:underline">Linux</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>でOS・基盤の土台を固めてから臨むのが堅実です。
@@ -279,7 +279,7 @@ export default function CkaCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "Linux・コンテナの基礎を固める", d: "kubectlの前提となるLinux操作・Docker等のコンテナ基礎を押さえます。基盤経験者は短縮可能です。" },
+              { n: "STEP 1", t: "Linux・コンテナの基礎を固めます", d: "kubectlの前提となるLinux操作・Docker等のコンテナ基礎を押さえます。基盤経験者は短縮可能です。" },
               { n: "STEP 2", t: "実技演習を徹底反復", d: "Killer.shのシミュレータや実クラスタで課題を反復します。公式ドキュメント参照に慣れることが鍵です。" },
               { n: "STEP 3", t: "合格→CKAD／CKSで専門化→2年更新", d: "合格後はCKAD・CKSへ専門化します。有効期限2年を見据え、再認定の計画も立てます。" },
             ].map((x, i) => (

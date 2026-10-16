@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/accenture/" },
   title: "アクセンチュア エンジニア転職ガイド【2026年】選考・年収",
   description:
-    "アクセンチュアへのエンジニア転職を解説します。テクノロジー部門の採用領域、公式採用ページの選考フロー、口コミ傾向、30代・40代の有力な選択肢を出典付きで整理。日本法人は有価証券報告書なしのため年収は公式情報・口コミ集計値で説明します。",
+    "アクセンチュアへのエンジニア転職を解説します。テクノロジー部門の採用領域、公式採用ページの選考フロー、口コミ傾向、30代・40代の有力な選択肢を出典を明記して整理します。日本法人は有価証券報告書なしのため年収は公式情報・口コミ集計値で説明します。",
 };
 
 const toc = [
@@ -246,15 +246,15 @@ export default function AccentureCompanyPage() {
               <h3 className="font-bold text-green-800 text-sm mb-2">良い傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-green-700">
                 <li>・20代の成長環境への評価が高いです</li>
-                <li>・研修・資格支援などスキルアップ機会が豊富</li>
-                <li>・働き方改革（Project PRIDE）で労働時間が改善との声</li>
+                <li>・研修・資格支援などスキルアップ機会が豊富です</li>
+                <li>・働き方改革（Project PRIDE）で労働時間が改善との声があります</li>
               </ul>
             </div>
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-amber-700">
-                <li>・繁忙度はプロジェクト次第・体力次第との声</li>
-                <li>・キャッチアップの負荷が高いとの指摘</li>
+                <li>・繁忙度はプロジェクト次第・体力次第との声があります</li>
+                <li>・キャッチアップの負荷が高いとの指摘があります</li>
                 <li>・事業・組織変化が速く合う合わないが分かれます</li>
               </ul>
             </div>
@@ -280,7 +280,7 @@ export default function AccentureCompanyPage() {
             {[
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "コンサル・ハイクラス求人に強いスカウト型です。アクセンチュア案件のヘッドハンターが多いです。" },
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でコンサル×エンジニアポジションの提案に強みがあります。" },
-              { name: "doda(IT)", href: "/review/doda-it/", desc: "求人網羅性が高く、各部門の求人を幅広く保有しています。初めての転職にも。" },
+              { name: "doda(IT)", href: "/review/doda-it/", desc: "求人網羅性が高く、各部門の求人を幅広く保有しています。初めての転職にも適しています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

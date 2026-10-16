@@ -65,15 +65,15 @@ const faqs = [
 ];
 
 const salaryRef = [
-  ["ソフトウェアエンジニア", "約511万円", "クラウド系はここから上振れしやすい"],
+  ["ソフトウェアエンジニア", "約511万円", "クラウド系はここから上振れしやすいです"],
   ["システムエンジニア（SE）", "約516万円", "業務系SE出身のAzure転職の目安帯"],
   ["ITエンジニア", "約478万円", "幅広い職種を含む参考値"],
 ];
 
 const certTable = [
-  ["基礎（Fundamentals）", "AZ-900（Azure Fundamentals）", "クラウド全体像の理解です。学習の入口"],
-  ["アソシエイト（Associate）", "AZ-104（Azure Administrator）", "運用・管理の実務想定です。転職でまず狙う層"],
-  ["エキスパート（Expert）", "AZ-305（Azure Solutions Architect Expert）", "設計の上流です。エンタープライズ案件で評価"],
+  ["基礎（Fundamentals）", "AZ-900（Azure Fundamentals）", "クラウド全体像の理解。学習の入口"],
+  ["アソシエイト（Associate）", "AZ-104（Azure Administrator）", "運用・管理の実務想定。転職でまず狙う層"],
+  ["エキスパート（Expert）", "AZ-305（Azure Solutions Architect Expert）", "設計の上流。エンタープライズ案件で評価"],
 ];
 
 export default function AzureSkillPage() {
@@ -277,8 +277,8 @@ export default function AzureSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "実務1〜3年層（構築・運用）", d: "VM/VNet/Storage/Entra IDの基本構成、Azure Monitorでの監視、簡単な障害対応です。AZ-104が歓迎要件になりやすいです。" },
-              { t: "実務3〜6年層（設計・移行）", d: "App Service/Functions、Azure DevOps、IaC（Bicep/Terraform）、基幹システムのクラウド移行です。年収帯が一段上がる中核ゾーンです。" },
+              { t: "実務1〜3年層（構築・運用）", d: "VM/VNet/Storage/Entra IDの基本構成、Azure Monitorでの監視、簡単な障害対応。AZ-104が歓迎要件になりやすいです。" },
+              { t: "実務3〜6年層（設計・移行）", d: "App Service/Functions、Azure DevOps、IaC（Bicep/Terraform）、基幹システムのクラウド移行。年収帯が一段上がる中核ゾーンです。" },
               { t: "実務6年以上層（アーキテクト）", d: "全体アーキテクチャ設計、ガバナンス・セキュリティ、M365統合、コスト最適化です。AZ-305が後押しになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -337,7 +337,7 @@ export default function AzureSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方です</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>。
           </p>
         </section>
 

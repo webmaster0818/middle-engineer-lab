@@ -44,13 +44,13 @@ const faqs = [
 
 const axisRows = [
   { axis: "裁量・意思決定", startup: "大きいです。少人数で決定が速い", enterprise: "役割・階層により異なります。調整が多い" },
-  { axis: "技術選定の自由", startup: "新しい技術を採用しやすい", enterprise: "全社標準・既存資産の制約を受けやすい" },
-  { axis: "扱うシステム規模", startup: "0→1や小〜中規模が中心", enterprise: "大規模・高トラフィックを経験しやすい" },
+  { axis: "技術選定の自由", startup: "新しい技術を採用しやすいです", enterprise: "全社標準・既存資産の制約を受けやすいです" },
+  { axis: "扱うシステム規模", startup: "0→1や小〜中規模が中心", enterprise: "大規模・高トラフィックを経験しやすいです" },
   { axis: "成長スピード", startup: "速いです。守備範囲が広がりやすい", enterprise: "体系的だが緩やかなことも" },
   { axis: "安定性", startup: "資金調達・事業状況に左右される", enterprise: "相対的に安定" },
   { axis: "報酬の構成", startup: "基本給＋ストックオプション等", enterprise: "基本給・賞与・福利厚生が中心" },
-  { axis: "福利厚生・制度", startup: "整備途上のことがある", enterprise: "充実している傾向" },
-  { axis: "社会的信用", startup: "ローン審査等で慎重に見られることも", enterprise: "比較的通りやすい" },
+  { axis: "福利厚生・制度", startup: "整備途上のことがあります", enterprise: "充実している傾向" },
+  { axis: "社会的信用", startup: "ローン審査等で慎重に見られることも", enterprise: "比較的通りやすいです" },
 ];
 
 const phases = [
@@ -103,7 +103,7 @@ export default function StartupVsEnterprisePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】スタートアップと大企業、エンジニアはどちらを選ぶべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 優劣ではなく相性です。裁量・0→1経験・成長スピードを求めるならスタートアップ、大規模システム経験・安定・福利厚生を求めるなら大企業が基本軸です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・スタートアップの報酬はストックオプションを含むが、出口が実現して初めて価値になる不確実なもの</li><li>・30代・40代の経験はシニア・テックリードとして即戦力になり、若い組織で歓迎されやすいです</li><li>・スタートアップを選ぶなら資金調達フェーズ（シリーズB以降など）を確認してリスクを抑えます</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・スタートアップの報酬はストックオプションを含みますが、出口が実現して初めて価値になる不確実なものです</li><li>・30代・40代の経験はシニア・テックリードとして即戦力になり、若い組織で歓迎されやすいです</li><li>・スタートアップを選ぶなら資金調達フェーズ（シリーズB以降など）を確認してリスクを抑えます</li></ul>
           </div>
         </section>
 
@@ -234,8 +234,8 @@ export default function StartupVsEnterprisePage() {
                   "裁量を持って自分で意思決定したい",
                   "プロダクトの0→1を経験したい",
                   "成果がビジネスに直結する環境が好き",
-                  "収入変動のリスクを受け入れられる",
-                  "将来CTOや起業を視野に入れている",
+                  "収入変動のリスクを受け入れられます",
+                  "将来CTOや起業を視野に入れています",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-petrol">✓</span>{t}</li>
                 ))}
@@ -245,11 +245,11 @@ export default function StartupVsEnterprisePage() {
               <h3 className="font-bold text-green-800 mb-3">大企業向き</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
-                  "安定した収入と福利厚生を重視する",
+                  "安定した収入と福利厚生を重視します",
                   "大規模・高トラフィックなシステムを扱いたい",
                   "体系的な制度・研修を活用したい",
                   "住宅ローン等で社会的信用が必要",
-                  "ワークライフバランスを重視する",
+                  "ワークライフバランスを重視します",
                   "専門分野を腰を据えて深めたい",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-green-600">✓</span>{t}</li>

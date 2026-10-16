@@ -228,7 +228,7 @@ export default function DataScientistPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データ組織のマネジメント路線</h3>
               <p className="text-sm text-petrol-deep">
-                分析チームのリードやデータ組織の責任者へ。技術・ビジネス・組織づくりの橋渡しが求められ、30代後半〜40代で経験を活かしやすい方向です。
+                分析チームのリードやデータ組織の責任者を目指す道があります。技術・ビジネス・組織づくりの橋渡しが求められ、30代後半〜40代で経験を活かしやすい方向です。
               </p>
             </div>
           </div>
@@ -301,7 +301,7 @@ export default function DataScientistPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3">
             {[
-              { t: "土台：統計＋Python＋SQL", d: "高度なアルゴリズムの前に、統計の基礎とデータ操作（Python・SQL）を確実に。実務の8割はここで動きます。" },
+              { t: "土台：統計＋Python＋SQL", d: "高度なアルゴリズムの前に、統計の基礎とデータ操作（Python・SQL）を確実に身につけます。実務の8割はここで動きます。" },
               { t: "実装：課題ドリブンの成果物を1本", d: "『この課題を、このデータで、こう分析して、こう改善した』と言える事例を作ります。技術より物語の一貫性が効きます。" },
               { t: "強み：エンジニア経験を強み化", d: "再現性のある分析環境、パイプライン、本番実装まで見せられると、純分析職の志望者と差別化できます。" },
               { t: "証明：資格は補助線", d: "統計検定・G検定などは学習の体系化に有効です。ただし主役はポートフォリオと業務成果と割り切るのが現実的です。" },

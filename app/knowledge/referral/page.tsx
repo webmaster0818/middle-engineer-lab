@@ -102,7 +102,7 @@ export default function ReferralPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リファラル転職の本質と注意点は？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 最大のメリットは「速さ」より、入社前に内部情報を得てミスマッチを防げることが重要です。面接自体は通常どおりで、必ず受かるわけではありません。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・最大の注意点は断りにくさ。合わないと感じたら早く・丁寧に伝えます</li><li>・年収相場は紹介者ではなくエージェントで確認し、条件が適正か客観的に判断します</li><li>・リファラルとエージェントは併用が安全</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・最大の注意点は断りにくさ。合わないと感じたら早く・丁寧に伝えます</li><li>・年収相場は紹介者ではなくエージェントで確認し、条件が適正か客観的に判断します</li><li>・リファラルとエージェントは併用が安全です</li></ul>
           </div>
         </section>
 
@@ -132,7 +132,7 @@ export default function ReferralPage() {
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：リファラルの本質は「速さ」より「事前に中が見えること」</h2>
             <ul className="text-sm text-blue-900 space-y-2 leading-relaxed">
               <li>・最大のメリットは<strong>入社前に内部情報を得てミスマッチを防げる</strong>ことです。面接自体は通常どおりで、必ず受かるわけではありません。</li>
-              <li>・最大の注意点は<strong>断りにくさ</strong>。曖昧にするほど紹介者の社内対応が難しくなるため、合わないと感じたら早く・丁寧に伝えます。</li>
+              <li>・最大の注意点は<strong>断りにくさ</strong>です。曖昧にするほど紹介者の社内対応が難しくなるため、合わないと感じたら早く・丁寧に伝えます。</li>
               <li>・年収相場は紹介者でなく<strong>エージェントで確認</strong>し、条件が適正か客観的に判断します。リファラルとエージェントは併用が安全です。</li>
             </ul>
           </div>
@@ -156,10 +156,10 @@ export default function ReferralPage() {
               <tbody>
                 {[
                   ["入口", "知人社員の紹介・推薦", "求人サイト／エージェント"],
-                  ["内部情報", "事前にヒアリングしやすい", "公開情報・面接で確認"],
+                  ["内部情報", "事前にヒアリングしやすいです", "公開情報・面接で確認"],
                   ["選考", "面接は通常どおり実施", "面接は通常どおり実施"],
-                  ["条件交渉", "人事・採用担当と行う", "本人またはエージェントが行う"],
-                  ["心理的負担", "紹介者への気遣いがある", "比較的少ない"],
+                  ["条件交渉", "人事・採用担当と行います", "本人またはエージェントが行います"],
+                  ["心理的負担", "紹介者への気遣いがあります", "比較的少ないです"],
                 ].map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-3 py-3 border border-slate-200 font-medium text-slate-800">{row[0]}</td>
@@ -231,7 +231,7 @@ export default function ReferralPage() {
             {[
               { num: "1", title: "紹介者にヒアリング", desc: "技術スタック・開発文化・チームの雰囲気・働き方など、公開情報では分からない内容を聞きます。ここがリファラル最大の価値です。" },
               { num: "2", title: "カジュアル面談（あれば）", desc: "選考前に現場メンバーと話す機会が設けられることがあります。相互理解とミスマッチ防止が目的で、合否を決める場ではありません。" },
-              { num: "3", title: "紹介者経由で正式応募", desc: "紹介者が社内で推薦し、書類選考に進みます。推薦コメントが添えられるが、通過を保証するものではありません。" },
+              { num: "3", title: "紹介者経由で正式応募", desc: "紹介者が社内で推薦し、書類選考に進みます。推薦コメントが添えられますが、通過を保証するものではありません。" },
               { num: "4", title: "通常の面接プロセス", desc: "技術面接・カルチャーフィット面接は通常選考と同じ。技術力は通常どおり問われます。コーディングテストがある場合もあります。" },
               { num: "5", title: "内定・条件交渉", desc: "条件交渉は人事・採用担当と行います。市場相場をエージェントで把握しておくと、根拠を持って交渉できます。" },
             ].map((item, i) => (
@@ -270,7 +270,7 @@ export default function ReferralPage() {
               <ul className="text-sm text-red-700 space-y-2">
                 <li>・紹介者への気遣いが常につきまといます</li>
                 <li>・合わないと感じても断りにくいです</li>
-                <li>・不採用・早期離職が紹介者の信用に影響しうります</li>
+                <li>・不採用・早期離職が紹介者の信用に影響しえます</li>
                 <li>・人脈がないと使えず、選択肢が限られます</li>
                 <li>・年収交渉を切り出しにくい心理が働きます</li>
               </ul>
@@ -330,17 +330,17 @@ export default function ReferralPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
               <h3 className="font-bold text-slate-800 mb-3">リファラルが向いている人</h3>
               <ul className="text-sm text-slate-700 space-y-2">
-                <li>✓ 信頼できる元同僚・知人が志望企業にいます</li>
+                <li>✓ 信頼できる元同僚・知人が志望企業にいる</li>
                 <li>✓ 入社前にじっくり内部情報を確認したい</li>
                 <li>✓ ミスマッチを何より避けたい</li>
-                <li>✓ 断るときも誠実に対応できます</li>
+                <li>✓ 断るときも誠実に対応できる</li>
               </ul>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
               <h3 className="font-bold text-slate-800 mb-3">慎重になるべき人</h3>
               <ul className="text-sm text-slate-700 space-y-2">
-                <li>✓ 紹介者に気を遣いすぎて断れない自覚があります</li>
-                <li>✓ 短期で再転職する可能性が高いです</li>
+                <li>✓ 紹介者に気を遣いすぎて断れない自覚がある</li>
+                <li>✓ 短期で再転職する可能性が高い</li>
                 <li>✓ 幅広く比較してから決めたい（選択肢が狭まる）</li>
                 <li>✓ 条件交渉を切り出すのが極端に苦手</li>
               </ul>

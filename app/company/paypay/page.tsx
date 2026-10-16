@@ -169,7 +169,7 @@ export default function PayPayCompanyPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たPayPay</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>30代・40代のミドルエンジニアにとって、PayPayは<strong>「大規模決済基盤というスケールの大きさ」「Java／Kubernetesという代表的な方法スタックの経験を活かせる」</strong>という点で魅力的な選択肢です。これまで金融・EC・大規模Webなどで高トラフィックなバックエンドを支えてきた経験は、そのまま強みとして評価されやすいドメインです。</p>
+            <p>30代・40代のミドルエンジニアにとって、PayPayは<strong>「大規模決済基盤というスケールの大きさ」「Java／Kubernetesという代表的なスタックの経験を活かせる」</strong>という点で魅力的な選択肢です。これまで金融・EC・大規模Webなどで高トラフィックなバックエンドを支えてきた経験は、そのまま強みとして評価されやすいドメインです。</p>
             <p>一方で、成長フェーズの企業ゆえに組織やプロセスが流動的な面もあり、安定・固定的な環境を求めるキャリア観とは相性が分かれます。英語が使われる場面があることも、ミドル層にとっては強みにも壁にもなり得ます。年収面では公式の平均値が存在しないため、提示の内訳と自分の経験の希少性を冷静に見極めることが重要です。</p>
             <p>転職活動では、ミドル層の年収交渉・市場価値の整理が鍵になります。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>、<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>もあわせて確認してください。</p>
           </div>
@@ -182,15 +182,15 @@ export default function PayPayCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Java／Spring Bootで大規模バックエンドを支えてきた経験者</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>AWS／Kubernetes でのマイクロサービス運用に強みがあります</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>AWS／Kubernetes でのマイクロサービス運用に強みがある</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>決済・金融など高可用性が求められるドメインに挑戦したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>多国籍・英語のあるグローバルな開発環境を楽しめます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>多国籍・英語のあるグローバルな開発環境を楽しめる</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>フロント専業で大規模バックエンドの経験が薄いです</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>フロント専業で大規模バックエンドの経験が薄い</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>組織・プロセスが固定された安定環境を最優先したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>変化のスピードや成長フェーズ特有の負荷が苦手</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>英語に強い苦手意識があり、グローバル環境を避けたい</li>

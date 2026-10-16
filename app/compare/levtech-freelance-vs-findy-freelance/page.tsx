@@ -30,8 +30,8 @@ const toc = [
 
 const comparison = [
   { item: "運営会社", a: "レバテック株式会社（レバレジーズグループ）", b: "ファインディ株式会社" },
-  { item: "契約形態", a: "エージェント仲介型（レバテックが企業との間に入って案件を紹介）", b: "企業との直接契約です。Findyが請求書発行・報酬回収を代行（公式・翌月末支払い）" },
-  { item: "案件傾向", a: "大規模・長期・全方位（モダン〜レガシーまで幅広い）", b: "モダン技術（TypeScript/Python/Go/Ruby）・AI/SaaS・スタートアップに強い（LayerX/MoneyForward/TVer/Loglass等：公式）" },
+  { item: "契約形態", a: "エージェント仲介型（レバテックが企業との間に入って案件を紹介）", b: "企業との直接契約。Findyが請求書発行・報酬回収を代行（公式・翌月末支払い）" },
+  { item: "案件傾向", a: "大規模・長期・全方位（モダン〜レガシーまで幅広い）", b: "モダン技術（TypeScript/Python/Go/Ruby）・AI/SaaS・スタートアップに強いです（LayerX/MoneyForward/TVer/Loglass等：公式）" },
   { item: "案件数", a: "公開案件数は媒体により「12万件超」「約2万件超」と表記差あり（二次・単純比較は不可）", b: "案件数の明示は確認しづらい（公式に総件数の記載なし）" },
   { item: "サポート", a: "IT専門コーディネーターの手厚いサポート（二次）", b: "直接契約が基本でセルフ寄り。企業とのマッチングを支援" },
   { item: "リモート率", a: "案件により幅（大規模・常駐案件も含む・二次）", b: "フルリモート案件が約80%（公式）" },
@@ -53,9 +53,9 @@ const faqs = [
 
 const goodLev = [
   "案件量・選択肢の多さを重視したい",
-  "IT専門コーディネーターに手厚く伴走してほしい",
+  "IT専門コーディネーターに手厚く伴走してほしいです",
   "モダンからレガシーまで幅広い技術で探したい",
-  "大規模・長期の案件も視野に入れている",
+  "大規模・長期の案件も視野に入れています",
   "週5常駐を含めしっかり稼ぎたい",
 ];
 const goodFindy = [
@@ -102,7 +102,7 @@ export default function LevtechFreelanceVsFindyFreelancePage() {
               <li><strong>・迷うなら、働き方の優先順位（柔軟さ・技術か、案件量・伴走か）で決めます</strong>。どちらも求職者は無料のため両方登録して比べる手もあります。</li>
             </ul>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm">どちらもフリーランス（求職者）側は無料で利用できます。理由は次の比較表と項目別解説で見ていきます。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">どちらもフリーランス（求職者）側は無料で利用できます。理由は、以下の比較表と項目別の解説でご説明します。</p>
         </section>
 
         <section id="confusion" className="mb-12 scroll-mt-20">
@@ -110,8 +110,8 @@ export default function LevtechFreelanceVsFindyFreelancePage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700">
             <p className="mb-2">名前が似ているため、契約に進む前に違いを必ず押さえてください。</p>
             <ul className="space-y-1.5 list-disc pl-5">
-              <li><strong>Findy Freelance（業務委託案件のサービス）≠ Findyです（スカウト型の正社員転職サービス）</strong>。運営はどちらもファインディ株式会社ですが、対象と契約形態がまったく異なります。</li>
-              <li><strong>レバテックフリーランス（業務委託案件の紹介）≠ レバテックキャリアです（正社員転職エージェント）</strong>。運営は同じレバテック株式会社ですが、契約形態が異なります。</li>
+              <li><strong>Findy Freelance（業務委託案件のサービス）≠ Findy（スカウト型の正社員転職サービス）です</strong>。運営はどちらもファインディ株式会社ですが、対象と契約形態がまったく異なります。</li>
+              <li><strong>レバテックフリーランス（業務委託案件の紹介）≠ レバテックキャリア（正社員転職エージェント）です</strong>。運営は同じレバテック株式会社ですが、契約形態が異なります。</li>
             </ul>
             <p className="mt-2">正社員かフリーランスかで迷う段階の方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスと正社員の比較</Link>を先にご覧ください。</p>
           </div>
@@ -176,7 +176,7 @@ export default function LevtechFreelanceVsFindyFreelancePage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Findy Freelanceの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>フルリモート・柔軟な稼働の案件が多いです</li><li>モダン技術・スタートアップの案件に関われます</li><li>直接契約＋請求代行で支払いが明確</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>フルリモート・柔軟な稼働の案件が多いです</li><li>モダン技術・スタートアップの案件に関われます</li><li>直接契約＋請求代行で支払いが明確です</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
               <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>セルフ寄りで自走が求められます</li><li>案件総数の明示が分かりにくいです</li><li>マージン非公開で手取りが読みにくいです</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：各フリーランス系メディアの傾向要約／Findy Freelance公式</p>

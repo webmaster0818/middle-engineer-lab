@@ -111,7 +111,7 @@ export default function UturnablePage() {
               { num: "2", title: "自治体の移住支援制度を活用する", desc: "移住支援金（最大100万円）、住居費補助、起業支援金など、多くの自治体がIT人材の移住を支援しています。" },
               { num: "3", title: "地方拠点のあるIT企業を探す", desc: "メガベンチャーやSaaS企業の地方拠点は、東京とほぼ同等の技術環境と給与水準を提供するケースが多いです。" },
               { num: "4", title: "生活コストを計算して比較する", desc: "東京で年収700万円 vs 地方で年収550万円です。住居費が月5〜10万円下がると、実質的な可処分所得は同等以上になります。" },
-              { num: "5", title: "地元のIT企業コミュニティに参加する", desc: "地方のITコミュニティ（勉強会、Meetup）に参加して情報収集です。コネクション経由の紹介転職も有力です。" },
+              { num: "5", title: "地元のIT企業コミュニティに参加する", desc: "地方のITコミュニティ（勉強会、Meetup）に参加して情報収集。コネクション経由の紹介転職も有力です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const basicData: [string, string][] = [
   ["企業名", "株式会社ジェーシービー（JCB）"],
   ["上場区分", "非上場（有価証券報告書なし＝平均年収等は公式非開示）"],
-  ["事業領域", "クレジットカード事業（カード発行・加盟店業務）、決済関連サービス、ファイナンス、ギフトカード等です。日本発の国際カードブランド「JCB」を運営"],
+  ["事業領域", "クレジットカード事業（カード発行・加盟店業務）、決済関連サービス、ファイナンス、ギフトカード等。日本発の国際カードブランド「JCB」を運営"],
   ["平均年間給与", "公式非開示（非上場のため有価証券報告書での開示なし。本ページでは創作せず記載しません）"],
   ["設立", "1961年1月25日（公式 会社概要）"],
   ["資本金", "106億円（2025年6月時点・公式 会社概要）"],
@@ -246,9 +246,9 @@ export default function JcbCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">JCB転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。金融・決済系のシステム求人にも対応し、非公開求人も豊富です。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。金融・決済系のシステム求人にも対応し、非公開求人も豊富です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・金融・ハイクラスに強く、専門職・管理職求人や想定年収の確認に対応しています。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。実務経験者への提案数が多く提案スピードが速いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

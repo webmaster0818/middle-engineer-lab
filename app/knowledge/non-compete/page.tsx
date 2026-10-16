@@ -278,10 +278,10 @@ export default function NonCompetePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">誓約書を求められたときの対応</h2>
           <ul className="space-y-2 mb-4">
             {[
-              "署名前に、禁止される期間・地域・業務範囲・代償措置の有無を確認する",
-              "内容に納得できない場合、署名は法的に強制されるものではないと理解しておく",
-              "前職の営業秘密・ソースコードは持ち出さない、転職先で使わない",
-              "競合への転職を予定している、または請求を受けたら、早めに弁護士へ相談する",
+              "署名前に、禁止される期間・地域・業務範囲・代償措置の有無を確認します",
+              "内容に納得できない場合、署名は法的に強制されるものではないと理解しておきます",
+              "前職の営業秘密・ソースコードは持ち出さない、転職先で使いません",
+              "競合への転職を予定している、または請求を受けたら、早めに弁護士へ相談します",
             ].map((c) => (
               <li key={c} className="flex items-start gap-2 text-sm text-slate-700">
                 <span className="text-petrol font-bold shrink-0">✓</span>

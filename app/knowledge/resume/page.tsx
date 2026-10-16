@@ -57,12 +57,12 @@ const faqs = [
 ];
 
 const numberPhrases = [
-  { area: "パフォーマンス", before: "APIのレスポンスを改善した", after: "主要APIの平均レスポンスタイムを200ms→50msに改善します（75%削減）。N+1クエリの解消とキャッシュ層の導入が主因です。" },
-  { area: "品質・安定性", before: "テストを書いて品質を上げた", after: "テストカバレッジを40%→80%に引き上げ、本番障害の月次発生件数を6件→1件に削減します。" },
-  { area: "開発スピード", before: "リリースを速くした", after: "CI/CDを整備しデプロイを手動週1回→自動で週3回に高速化します。リードタイムを平均5日→1.5日に短縮します。" },
-  { area: "コスト", before: "インフラのコストを下げた", after: "AWSのリソース最適化とリザーブドインスタンス導入で月額インフラ費用を約30%削減します（年間換算で数百万円規模）。" },
-  { area: "事業貢献", before: "売上に貢献した", after: "決済導線のUX改善でCVRを2.1%→2.6%に向上させ、月間売上の約12%増に寄与です。" },
-  { area: "チーム", before: "後輩を育成した", after: "新メンバー3名のオンボーディングを設計し、立ち上がり期間を平均3ヶ月→1.5ヶ月に短縮します。" },
+  { area: "パフォーマンス", before: "APIのレスポンスを改善した", after: "主要APIの平均レスポンスタイムを200ms→50msに改善（75%削減）。N+1クエリの解消とキャッシュ層の導入が主因です。" },
+  { area: "品質・安定性", before: "テストを書いて品質を上げた", after: "テストカバレッジを40%→80%に引き上げ、本番障害の月次発生件数を6件→1件に削減。" },
+  { area: "開発スピード", before: "リリースを速くしました", after: "CI/CDを整備しデプロイを手動週1回→自動で週3回に高速化します。リードタイムを平均5日→1.5日に短縮。" },
+  { area: "コスト", before: "インフラのコストを下げた", after: "AWSのリソース最適化とリザーブドインスタンス導入で月額インフラ費用を約30%削減（年間換算で数百万円規模）。" },
+  { area: "事業貢献", before: "売上に貢献しました", after: "決済導線のUX改善でCVRを2.1%→2.6%に向上させ、月間売上の約12%増に寄与しました。" },
+  { area: "チーム", before: "後輩を育成した", after: "新メンバー3名のオンボーディングを設計し、立ち上がり期間を平均3ヶ月→1.5ヶ月に短縮。" },
 ];
 
 export default function ResumePage() {
@@ -108,7 +108,7 @@ export default function ResumePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの職務経歴書はどう書けば書類選考を突破できる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 成果を改善前後の数値で示し、使用技術を規模感とともに書くことです。同じ経歴でもこの2点で通過率は変わります。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・構成は職務要約・技術スキル一覧・職務経歴・自己PR・保有資格/OSSの5ブロックです。分量はA4で2〜3枚（経験10年以上でも最大4枚）、直近3〜5年を厚く書きます。</li><li>・成果はSTARフレームワークで整理し、改善前後の数値か改善率で示します（例：レスポンスを200ms→50msに改善）。</li><li>・使用技術は経験年数・習熟度・規模感をセットで記載します。1通を全社に使い回さず、職務要約と自己PRは応募先ごとに微調整です。</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・構成は職務要約・技術スキル一覧・職務経歴・自己PR・保有資格/OSSの5ブロックです。分量はA4で2〜3枚（経験10年以上でも最大4枚）、直近3〜5年を厚く書きます。</li><li>・成果はSTARフレームワークで整理し、改善前後の数値か改善率で示します（例：レスポンスを200ms→50msに改善）。</li><li>・使用技術は経験年数・習熟度・規模感をセットで記載します。1通を全社に使い回さず、職務要約と自己PRは応募先ごとに微調整します。</li></ul>
           </div>
         </section>
 
@@ -164,7 +164,7 @@ export default function ResumePage() {
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mt-5">
             <p className="text-sm text-amber-800">
-              <strong>分量の目安：</strong>A4で2〜3枚です（経験10年以上でも最大4枚）。直近3〜5年を厚く、それ以前は概要のみに。厚生労働省 job tag によれば「システムエンジニア（受託開発）」の平均年齢は37.1歳（令和7年賃金構造基本統計調査ベース）と、ミドル層が中核を担う職種です。経験が長い分、取捨選択して「読ませる」構成が重要になります。
+              <strong>分量の目安：</strong>A4で2〜3枚です（経験10年以上でも最大4枚）。直近3〜5年を厚く、それ以前は概要のみにします。厚生労働省 job tag によれば「システムエンジニア（受託開発）」の平均年齢は37.1歳（令和7年賃金構造基本統計調査ベース）と、ミドル層が中核を担う職種です。経験が長い分、取捨選択して「読ませる」構成が重要になります。
             </p>
           </div>
         </section>
@@ -213,7 +213,7 @@ export default function ResumePage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-6">
             <h3 className="font-bold text-emerald-700 mb-3 text-sm">After（30代バックエンドエンジニアの例）</h3>
             <p className="text-sm text-slate-600 leading-relaxed">
-              Webアプリケーション開発に8年従事です。直近5年はTypeScript／Node.jsとGoによるバックエンド開発をリードし、月間100万PVのECサイトのAPI設計・実装を担当します。5名チームのテックリードとして技術選定・コードレビュー・育成を担い、リリースサイクルを月次→週次に短縮します。AWS上のインフラ設計・運用にも携わり、月額インフラ費用を約30%削減しました。
+              Webアプリケーション開発に8年従事。直近5年はTypeScript／Node.jsとGoによるバックエンド開発をリードし、月間100万PVのECサイトのAPI設計・実装を担当。5名チームのテックリードとして技術選定・コードレビュー・育成を担い、リリースサイクルを月次→週次に短縮。AWS上のインフラ設計・運用にも携わり、月額インフラ費用を約30%削減しました。
             </p>
             <p className="text-xs text-emerald-700 mt-2">
               → 経験年数・主要技術・規模・役割・具体的な成果が1段落に凝縮されています。
@@ -244,7 +244,7 @@ export default function ResumePage() {
                 ["役割", "テックリード／バックエンド設計・実装"],
                 ["使用技術", "Go, gRPC, PostgreSQL, Redis, AWS (ECS, RDS, ElastiCache), Terraform, GitHub Actions"],
                 ["課題", "モノリスの肥大化でデプロイが月1回に低下し、機能追加が滞っていた"],
-                ["成果", "段階的にマイクロサービスへ移行する設計を主導します。デプロイ頻度を月1回→週3回に向上し、主要APIのレスポンスを200ms→50msに改善します（75%削減）。"],
+                ["成果", "段階的にマイクロサービスへ移行する設計を主導。デプロイ頻度を月1回→週3回に向上し、主要APIのレスポンスを200ms→50msに改善（75%削減）。"],
               ].map(([k, v], i) => (
                 <div key={i} className="grid grid-cols-[100px_1fr] gap-2">
                   <span className="font-medium text-slate-700">{k}</span>
@@ -300,7 +300,7 @@ export default function ResumePage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-6">
             <h3 className="font-bold text-emerald-700 mb-3 text-sm">After（STAR＋数値で裏づけ）</h3>
             <p className="text-sm text-slate-600 leading-relaxed">
-              <strong>強み：技術課題を事業成果に接続する力です。</strong>前職ではピーク時のAPIタイムアウトが離脱の主因となっていた状況に対し、N+1解消とキャッシュ導入を主導し、レスポンスを200ms→50msに改善します。結果としてピーク時のエラー率を1.2%→0.1%に下げ、決済完了率の改善に貢献しました。技術選定では「なぜその技術か」をチームに言語化して共有することを重視しており、5名チームのレビュー文化づくりにも取り組みました。
+              <strong>強み：技術課題を事業成果に接続する力です。</strong>前職ではピーク時のAPIタイムアウトが離脱の主因となっていた状況に対し、N+1解消とキャッシュ導入を主導し、レスポンスを200ms→50msに改善。結果としてピーク時のエラー率を1.2%→0.1%に下げ、決済完了率の改善に貢献しました。技術選定では「なぜその技術か」をチームに言語化して共有することを重視しており、5名チームのレビュー文化づくりにも取り組みました。
             </p>
             <p className="text-xs text-emerald-700 mt-2">→ 強みを一言で示し、STARで裏づけ、数値で締めます。再現性のある実力として伝わります。</p>
           </div>
@@ -331,9 +331,9 @@ export default function ResumePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">8. やってはいけないNG例3つ</h2>
           <div className="space-y-4">
             {[
-              { t: "NG1：スキルの羅列だけで終わる", d: "言語やツール名を並べるだけでは、習熟度も実務経験も伝わりません。必ず『経験年数・習熟度・使用規模』をセットにします。" },
+              { t: "NG1：スキルの羅列だけで終わります", d: "言語やツール名を並べるだけでは、習熟度も実務経験も伝わりません。必ず『経験年数・習熟度・使用規模』をセットにします。" },
               { t: "NG2：成果がすべて定性表現", d: "『改善した』『貢献した』だけでは比較も評価もできません。改善前後の数値か改善率を入れ、STARで状況と行動も添えます。" },
-              { t: "NG3：1通を全社に使い回す", d: "応募先の技術スタックや求めるスキルに合わせて、強調するプロジェクトや表現を調整しないと『評価されにくい』書類になります。最低でも職務要約と自己PRは応募先ごとに微調整しましょう。" },
+              { t: "NG3：1通を全社に使い回します", d: "応募先の技術スタックや求めるスキルに合わせて、強調するプロジェクトや表現を調整しないと『評価されにくい』書類になります。最低でも職務要約と自己PRは応募先ごとに微調整しましょう。" },
             ].map((n, i) => (
               <div key={i} className="bg-red-50 border border-red-200 rounded-lg p-5">
                 <h3 className="font-bold text-red-700 mb-1">{n.t}</h3>
@@ -352,14 +352,14 @@ export default function ResumePage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-2">
               {[
-                "職務要約の3〜5行だけで、得意分野・経験年数・代表的な成果が伝わる",
-                "すべての主要成果に改善前後の数値か改善率が入っている",
-                "使用技術に経験年数・習熟度・規模感が添えられている",
-                "直近3〜5年が厚く、それ以前は概要に圧縮されている",
-                "自己PRが性格描写ではなく実績の裏づけで構成されている",
-                "応募先の技術スタックに合わせて職務要約・自己PRを微調整した",
+                "職務要約の3〜5行だけで、得意分野・経験年数・代表的な成果が伝わります",
+                "すべての主要成果に改善前後の数値か改善率が入っています",
+                "使用技術に経験年数・習熟度・規模感が添えられています",
+                "直近3〜5年が厚く、それ以前は概要に圧縮されています",
+                "自己PRが性格描写ではなく実績の裏づけで構成されています",
+                "応募先の技術スタックに合わせて職務要約・自己PRを微調整しました",
                 "誤字脱字・表記ゆれ（半角全角、英大文字小文字）がない",
-                "社名や内部数値など守秘義務に触れる情報を出していない",
+                "社名や内部数値など守秘義務に触れる情報を出していません",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
                   <span className="text-petrol font-bold shrink-0">✓</span>{c}
@@ -379,19 +379,19 @@ export default function ResumePage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の幅とリード経験を両輪で示す</h3>
               <p className="text-sm text-petrol-deep">
-                30代は実装力に加えて、技術選定・レビュー・小規模チームのリードを担えることを示すと評価が上がります。直近のプロジェクトでの『意思決定の中身』を具体的に書きましょう。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代エンジニアの転職です</Link>。
+                30代は実装力に加えて、技術選定・レビュー・小規模チームのリードを担えることを示すと評価が上がります。直近のプロジェクトでの『意思決定の中身』を具体的に書きましょう。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代エンジニアの転職</Link>。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：マネジメントと再現性のある実績を前面に</h3>
               <p className="text-sm text-petrol-deep">
-                40代は『チーム・プロダクト・事業にどう貢献したか』が重視されます。プレイヤー実績だけでなく、組織課題をどう解決したかをSTARで整理しましょう。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代エンジニアの転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアルです</Link>。
+                40代は『チーム・プロダクト・事業にどう貢献したか』が重視されます。プレイヤー実績だけでなく、組織課題をどう解決したかをSTARで整理しましょう。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代エンジニアの転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアル</Link>。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">経歴が長い分、取捨選択が命</h3>
               <p className="text-sm text-petrol-deep">
-                10年以上のキャリアを全部詳細に書くと読まれません。直近3〜5年を厚く、それ以前は1〜2行の概要に圧縮です。応募先に関係の薄い経験は思い切って削りましょう。
+                10年以上のキャリアを全部詳細に書くと読まれません。直近3〜5年を厚く、それ以前は1〜2行の概要に圧縮します。応募先に関係の薄い経験は思い切って削りましょう。
               </p>
             </div>
           </div>

@@ -90,10 +90,10 @@ export default function TrainingPage() {
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 会社の支援を受けながらスキルアップしたい</li>
-              <li>- AI・クラウドなど新領域をキャッチアップしたい</li>
+              <li>- 会社の支援を受けながらスキルアップしたいと考えています</li>
+              <li>- AI・クラウドなど新領域をキャッチアップしたいと考えています</li>
               <li>- 学習を個人任せにしない文化の企業を探しています</li>
-              <li>- 研修制度の形骸化を見抜きたい</li>
+              <li>- 研修制度の形骸化を見抜きたいと考えています</li>
             </ul>
           </div>
         </section>

@@ -109,7 +109,7 @@ export default function SideJobTaxPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】副業の確定申告、20万円以下なら本当に不要？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 所得税は「所得20万円以下」なら不要になる場合がありますが、住民税は別途申告が必要になることがあります。20万円基準は所得税だけのものと理解しておきましょう。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・判断は売上（収入）ではなく、経費を引いた「所得」で行います</li><li>・所得税が不要でも住民税の申告や、医療費控除等で確定申告する場合は20万円以下も含めて申告</li><li>・「会社に絶対バレない方法」は断定できません。まず就業規則で副業可否を確認します</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・判断は売上（収入）ではなく、経費を引いた「所得」で行います</li><li>・所得税が不要でも住民税の申告や、医療費控除等で確定申告する場合は20万円以下も含めて申告します</li><li>・「会社に絶対バレない方法」は断定できません。まず就業規則で副業可否を確認します</li></ul>
           </div>
         </section>
 

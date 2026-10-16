@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 const PAGE_TITLE =
   "Salesforceエンジニア転職ガイド｜年収・資格・求人の探し方";
 const PAGE_DESC =
-  "Salesforceエンジニアの転職を年収データ・認定資格・求人の探し方まで解説します。求人ボックスの公表年収やレバテック年代別データを出典付きで掲載。30代・40代の参入ルートとおすすめエージェントも紹介します。";
+  "Salesforceエンジニアの転職を年収データ・認定資格・求人の探し方まで解説します。求人ボックスの公表年収やレバテック年代別データを出典を明記して掲載しています。30代・40代の参入ルートとおすすめエージェントも紹介します。";
 
 const toc = [
   { id: "conclusion", label: "結論：Salesforce転職の進め方" },
@@ -25,22 +25,22 @@ const toc = [
 const careerPaths = [
   {
     role: "Salesforce開発者（Developer）",
-    note: "Apex・LWC（Lightning Web Components）・APIでのカスタマイズ開発です。Java等の開発経験から移行しやすい入口です。",
+    note: "Apex・LWC（Lightning Web Components）・APIでのカスタマイズ開発。Java等の開発経験から移行しやすい入口です。",
     cert: "Platform Developer I / II",
   },
   {
     role: "Salesforce管理者（Administrator）",
-    note: "オブジェクト設計・権限・フロー・レポート構築など運用設計です。業務側との橋渡し役です。",
+    note: "オブジェクト設計・権限・フロー・レポート構築など運用設計。業務側との橋渡し役です。",
     cert: "認定アドミニストレーター",
   },
   {
     role: "導入コンサルタント",
-    note: "要件定義・業務設計・プロジェクト推進です。営業/CS/マーケの業務知識を掛け合わせると強いです。",
+    note: "要件定義・業務設計・プロジェクト推進。営業/CS/マーケの業務知識を掛け合わせると強いです。",
     cert: "Sales Cloud / Service Cloud コンサルタント",
   },
   {
     role: "アーキテクト",
-    note: "マルチクラウド連携・大規模設計・技術リードです。Salesforce資格体系の最上位に位置づく領域です。",
+    note: "マルチクラウド連携・大規模設計・技術リード。Salesforce資格体系の最上位に位置づく領域です。",
     cert: "認定アーキテクト（上位資格）",
   },
 ];
@@ -299,10 +299,10 @@ export default function SalesforceSkillPage() {
           </p>
           <ol className="space-y-3">
             {[
-              { t: "Trailheadで基礎を学ぶ", d: "公式の無料学習プラットフォームでバッジ・スーパーバッジを取得し、Trailblazerプロフィールを育てます。" },
+              { t: "Trailheadで基礎を学びます", d: "公式の無料学習プラットフォームでバッジ・スーパーバッジを取得し、Trailblazerプロフィールを育てます。" },
               { t: "認定アドミニストレーターを取得", d: "まずは運用設計の基礎資格を取り、書類で学習成果を示せる状態にします。" },
-              { t: "既存スキルを掛け合わせる", d: "開発経験ならApex/LWC、営業・CS経験なら業務設計と組み合わせて訴求します。" },
-              { t: "パートナー企業の育成枠を狙う", d: "導入支援企業は研修体制が整っていることが多く、実務経験を積む入口になりやすいです。" },
+              { t: "既存スキルを掛け合わせます", d: "開発経験ならApex/LWC、営業・CS経験なら業務設計と組み合わせて訴求します。" },
+              { t: "パートナー企業の育成枠を狙います", d: "導入支援企業は研修体制が整っていることが多く、実務経験を積む入口になりやすいです。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>

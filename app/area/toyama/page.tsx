@@ -26,9 +26,9 @@ const toc = [
 ];
 
 const fitYes = [
-  "製造業のIT・DX、生産システム、組込み・制御系などものづくり寄りの領域に関心がある",
+  "製造業のIT・DX、生産システム、組込み・制御系などものづくり寄りの領域に関心があります",
   "首都圏のフルリモート求人を活用し、暮らしやすい北陸で働きたい",
-  "北陸新幹線で首都圏とつながる立地でUIターン・移住を検討している",
+  "北陸新幹線で首都圏とつながる立地でUIターン・移住を検討しています",
   "持ち家率の高さや住居費の安さを活かし、可処分所得やQOLを重視したい",
 ];
 
@@ -445,7 +445,7 @@ export default function ToyamaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">富山のIT転職を進めよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            地元の製造業ITから首都圏フルリモート、UIターン移住まで。エリア対応のエージェントに相談して、暮らしと年収のバランスが取れる選択肢を見つけましょう。
+            地元の製造業ITから首都圏フルリモート、UIターン移住まで、幅広い選択肢があります。エリア対応のエージェントに相談して、暮らしと年収のバランスが取れる選択肢を見つけましょう。
           </p>
           <Link
             href="/#ranking"

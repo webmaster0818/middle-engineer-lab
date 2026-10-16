@@ -84,8 +84,8 @@ export default function CookpadCompanyPage() {
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（少数精鋭・Railsの大規模運用経験者向け）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・中核は<strong>世界最大級規模のRuby on Railsモノリスです</strong>。長寿命・大規模サービスの設計・運用経験者に向きます。Rubyコミッターが在籍する技術文化が魅力です。</li>
-              <li>・事業再編で<strong>従業員が約100名規模に縮小です</strong>。少人数で広い領域を担うため、自走力と技術的責任を引き受ける姿勢が求められます。</li>
-              <li>・有価証券報告書の平均年収は<strong>約948万円（2024年12月期・単体・全従業員平均）</strong>だが、中核人材中心の構成で平均が高めに出ている可能性に留意です。</li>
+              <li>・事業再編で<strong>従業員が約100名規模に縮小しています</strong>。少人数で広い領域を担うため、自走力と技術的責任を引き受ける姿勢が求められます。</li>
+              <li>・有価証券報告書の平均年収は<strong>約948万円（2024年12月期・単体・全従業員平均）</strong>ですが、中核人材中心の構成で平均が高めに出ている可能性に留意が必要です。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">逆に、大人数の整った組織で役割分担された開発を望む人や、事業の安定性を最優先する人は、組織規模・事業の方向性を最新のIRで見極めることをおすすめします。</p>
           </div>
@@ -155,8 +155,8 @@ export default function CookpadCompanyPage() {
           <ol className="space-y-3">
             {[
               ["STEP 1", "書類選考", "公式採用ページまたはエージェント経由で応募します。職務経歴・実績を確認します。"],
-              ["STEP 2", "面接（複数回）", "技術面接を含む複数回の面接が想定されます。回数・形式は職種・時期で変動しています。"],
-              ["STEP 3", "内定", "条件提示です。具体的な選考期間は公式に明示されていません。"],
+              ["STEP 2", "面接（複数回）", "技術面接を含む複数回の面接が想定されます。回数・形式は職種・時期で変動します。"],
+              ["STEP 3", "内定", "条件が提示されます。具体的な選考期間は公式に明示されていません。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -204,13 +204,13 @@ export default function CookpadCompanyPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Ruby on Railsの大規模・長寿命サービス開発経験者</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>モノリスの保守・改善や技術的負債と向き合うのが好き</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>少人数で広い領域を自走的に担いたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Rubyコミュニティ・OSS貢献の文化に魅力を感じます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Rubyコミュニティ・OSS貢献の文化に魅力を感じる</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>大人数の整った組織で役割分担された開発を望みます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>大人数の整った組織で役割分担された開発を望む</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>事業・組織の安定性を最優先したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>Ruby以外のモダンスタックを中心に活躍したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>明確に整備された手順・教育体制を前提にしたい</li>

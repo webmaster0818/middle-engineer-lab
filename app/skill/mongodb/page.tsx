@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "MongoDBスキルで転職｜年収・求人・将来性【2026年】";
 const PAGE_DESC =
-  "MongoDB（NoSQL）スキルを軸にした転職市場を出典付きで解説。MongoDBは単体スキルではなくDB設計・運用やバックエンド開発の実務基盤として評価される点を整理します。求人ボックス公表のデータベースエンジニア年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
+  "MongoDB（NoSQL）スキルを軸にした転職市場を出典を明記して解説します。MongoDBは単体スキルではなくDB設計・運用やバックエンド開発の実務基盤として評価される点を整理します。求人ボックス公表のデータベースエンジニア年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/mongodb/" },

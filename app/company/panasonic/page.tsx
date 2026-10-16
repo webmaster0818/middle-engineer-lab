@@ -197,7 +197,7 @@ export default function PanasonicCompanyPage() {
             {[
               ["応募（履歴書・職務経歴書を提出）", "公式採用ページまたはエージェント経由で応募します。"],
               ["書類選考", "経験・スキルと募集要件の合致が見られます。"],
-              ["面接（複数回）", "基本オンラインです（職種により一部対面）。平日9:00〜20:00で実施と案内します。"],
+              ["面接（複数回）", "基本オンライン（職種により一部対面）。平日9:00〜20:00で実施と案内します。"],
               ["内定・条件提示", "オファー提示を経て決定します。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
@@ -238,7 +238,7 @@ export default function PanasonicCompanyPage() {
             {[
               { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量です。パナソニックグループ各事業会社の求人を幅広く保有しています。検索とエージェントを併用できます。" },
               { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚いです。大手メーカーへの転職支援に強く、事業会社別の選考準備をサポートします。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化です。メーカーのDX部門・SaaS・IoT関連ポジションの求人に強いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。メーカーのDX部門・SaaS・IoT関連ポジションの求人に強いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

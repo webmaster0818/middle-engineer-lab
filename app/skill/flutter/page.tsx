@@ -36,8 +36,8 @@ const salaryRows = [
 ];
 
 const careerPaths = [
-  { role: "Flutterモバイルエンジニア", note: "iOS/Android両対応のアプリ開発です。1人で両OSをカバーできる効率性が評価される中心ポジションです。" },
-  { role: "モバイルテックリード", note: "Flutter導入推進、状態管理・アーキテクチャ設計、チームのリードです。30代後半〜40代の中心的な活躍領域です。" },
+  { role: "Flutterモバイルエンジニア", note: "iOS/Android両対応のアプリ開発。1人で両OSをカバーできる効率性が評価される中心ポジションです。" },
+  { role: "モバイルテックリード", note: "Flutter導入推進、状態管理・アーキテクチャ設計、チームのリード。30代後半〜40代の中心的な活躍領域です。" },
   { role: "フリーランス（Flutter案件）", note: "スタートアップのMVP開発やBtoCアプリ案件です。フルリモート比率が高い傾向です（2025年調査で79%超）。" },
 ];
 
@@ -185,9 +185,9 @@ export default function FlutterSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              ["ジュニア〜ミドル（Flutter実務1〜3年）", "Widget設計、状態管理（Riverpod/BLoC）、API連携、公開アプリ実績です。スタートアップや受託で募集が見られる層です。"],
-              ["ミドル〜シニア（実務3〜6年）", "アーキテクチャ設計、CI/CD（Fastlane等）、テスト、ネイティブ連携です。設計レビューも担う中心層です。"],
-              ["シニア・リード", "Flutter導入推進、チームのアーキテクチャ統一、技術選定です。モバイルテックリード求人の中心です。"],
+              ["ジュニア〜ミドル（Flutter実務1〜3年）", "Widget設計、状態管理（Riverpod/BLoC）、API連携、公開アプリ実績。スタートアップや受託で募集が見られる層。"],
+              ["ミドル〜シニア（実務3〜6年）", "アーキテクチャ設計、CI/CD（Fastlane等）、テスト、ネイティブ連携。設計レビューも担う中心層。"],
+              ["シニア・リード", "Flutter導入推進、チームのアーキテクチャ統一、技術選定。モバイルテックリード求人の中心。"],
             ].map(([level, body], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{level}</h3>
@@ -272,10 +272,10 @@ export default function FlutterSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
             {[
-              ["Dartを深める", "非同期（Future/Stream）、isolate、null safety、ジェネリクスを実プロジェクトで使いこなします。"],
-              ["状態管理の引き出しを持つ", "Riverpod/BLoC/Providerの設計判断を語れるレベルにし、規模に応じて選べるようにします。"],
-              ["品質・運用で差をつける", "テスト、CI/CD（Fastlane等）、クラッシュ解析、ストア審査対応の経験は具体的な強みになります。"],
-              ["アウトプットを残す", "公開アプリの継続運用、pub.devパッケージ、技術記事など、運用力が見える成果物を蓄積します。"],
+              ["Dartを深めます", "非同期（Future/Stream）、isolate、null safety、ジェネリクスを実プロジェクトで使いこなします。"],
+              ["状態管理の引き出しを持ちます", "Riverpod/BLoC/Providerの設計判断を語れるレベルにし、規模に応じて選べるようにします。"],
+              ["品質・運用で差をつけます", "テスト、CI/CD（Fastlane等）、クラッシュ解析、ストア審査対応の経験は具体的な強みになります。"],
+              ["アウトプットを残します", "公開アプリの継続運用、pub.devパッケージ、技術記事など、運用力が見える成果物を蓄積します。"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{t}</h3>
@@ -298,8 +298,8 @@ export default function FlutterSkillPage() {
                 {[
                   "1人でiOS/Android両対応をこなし、開発効率で価値を出したい",
                   "スタートアップでMVPを高速に立ち上げる経験を積みたい",
-                  "フルリモート中心の働き方を志向している",
-                  "新しい技術を自分で学び、公開アプリで実績を作れる",
+                  "フルリモート中心の働き方を志向しています",
+                  "新しい技術を自分で学び、公開アプリで実績を作れます",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -312,7 +312,7 @@ export default function FlutterSkillPage() {
                   "大企業の安定した正社員求人を多数比較したい（母数がネイティブより少なめ）",
                   "ネイティブ専任として深い最適化に特化したい",
                   "確立された巨大コードベースの保守を中心にしたい",
-                  "Dartの学習に時間を割く余裕が今ない",
+                  "Dartの学習に時間を割く余裕が今はありません",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">･</span><span>{t}</span></li>
                 ))}
@@ -325,7 +325,7 @@ export default function FlutterSkillPage() {
         <section id="voice" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職活動の口コミ傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed">
-            Qiita Job Change・みん評などの口コミプラットフォームでは、Flutterエンジニアの転職に関して「公開アプリと状態管理（Riverpod/BLoC）の実装経験を見せると話が早かった」「正社員求人はネイティブより数が限られるため、フリーランス案件も並行して見た」といった声が見られます。エージェント利用については、IT/Web特化型に対して「スタートアップの内情まで教えてくれた」という肯定的な傾向がある一方、「Flutter指定の正社員求人はまだ多くないと率直に言われた」という現実的な指摘も見られます。あくまで傾向であり、担当者やタイミングによって体験は異なります。
+            Qiita Job Change・みん評などの口コミプラットフォームでは、Flutterエンジニアの転職に関して「公開アプリと状態管理（Riverpod/BLoC）の実装経験を見せると話が早かった」「正社員求人はネイティブより数が限られるため、フリーランス案件も並行して見た」といった声が見られます。エージェント利用については、IT/Web特化型に対して「スタートアップの内情まで教えてくれた」という肯定的な傾向がある一方、「Flutter指定の正社員求人はまだ多くないと正直に言われた」という現実的な指摘も見られます。あくまで傾向であり、担当者やタイミングによって体験は異なります。
           </p>
         </section>
 

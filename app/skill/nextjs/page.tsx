@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/nextjs/" },
   title: "Next.jsエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Next.jsエンジニアの転職市場を出典付きで解説。求人ボックス・レバテックの公表値をもとに、Reactを土台にしたモダンフロントエンドの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
+    "Next.jsエンジニアの転職市場を出典を明記して解説します。求人ボックス・レバテックの公表値をもとに、Reactを土台にしたモダンフロントエンドの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function NextjsSkillPage() {
     <>
       <ArticleJsonLd
         title="Next.jsエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Next.jsエンジニアの転職市場を出典付きで解説。Reactを土台にしたモダンフロントエンドの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="Next.jsエンジニアの転職市場を出典を明記して解説します。Reactを土台にしたモダンフロントエンドの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/nextjs/"
       />
       <script
@@ -132,7 +132,7 @@ export default function NextjsSkillPage() {
               <strong>Next.jsは「Reactの実務力＋モダンフロントの設計力」をセットで示せる人材が評価される分野です。</strong>フレームワーク名を掲げるより、言語力と実プロダクトでの課題解決を語れることが転職成功の軸になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・関連職種のフロントエンドエンジニア平均年収は<strong>約460万円です</strong>（求人ボックス・2026年6月）。土台のReactは平均521万円・中央値550万円（レバテック公表）</li>
+              <li>・関連職種のフロントエンドエンジニア平均年収は<strong>約460万円です</strong>（求人ボックス・2026年6月）。土台のReactは平均521万円・中央値550万円です（レバテック公表）</li>
               <li>・Reactなどモダンフロントの経験があれば、Next.js未経験でもポテンシャル採用の余地があります</li>
               <li>・Next.jsは<strong>TypeScript・パフォーマンス最適化・バックエンド連携</strong>との掛け合わせで市場価値が上がります</li>
             </ul>

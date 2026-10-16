@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/oss-contribution/" },
   title: "OSS貢献の始め方｜プルリクエスト以外も含む8種の貢献と進め方",
   description:
-    "30-40代エンジニア向けに、OSS貢献が転職で効く理由と『プルリクエスト以外も含む』8種の貢献方法を深掘り。good first issueの探し方、マージされやすいPRの条件、業務コードを出せない人の証明づくりまで解説します。",
+    "30-40代エンジニア向けに、OSS貢献が転職で効く理由と『プルリクエスト以外も含む』8種の貢献方法を深掘りします。good first issueの探し方、マージされやすいPRの条件、業務コードを出せない人の証明づくりまで解説します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function OssContributionPage() {
     <>
       <ArticleJsonLd
         title="OSS貢献の始め方｜プルリクエスト以外も含む8種の貢献と進め方"
-        description="30-40代エンジニア向けに、OSS貢献が転職で効く理由と『プルリクエスト以外も含む』8種の貢献方法を深掘り。good first issueの探し方、マージされやすいPRの条件、業務コードを出せない人の証明づくりまで解説します。"
+        description="30-40代エンジニア向けに、OSS貢献が転職で効く理由と『プルリクエスト以外も含む』8種の貢献方法を深掘りします。good first issueの探し方、マージされやすいPRの条件、業務コードを出せない人の証明づくりまで解説します。"
         url="/knowledge/oss-contribution/"
       />
       <script
@@ -144,13 +144,13 @@ export default function OssContributionPage() {
           </p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "ドキュメント改善", desc: "READMEや公式ドキュメントの誤字修正・説明追加・分かりにくい箇所の改善です。最も着手しやすく、メンテナーに歓迎されやすいです。" },
+              { num: "1", title: "ドキュメント改善", desc: "READMEや公式ドキュメントの誤字修正・説明追加・分かりにくい箇所の改善。最も着手しやすく、メンテナーに歓迎されやすいです。" },
               { num: "2", title: "翻訳", desc: "英語ドキュメントの日本語化、日本語ドキュメントの英語化です。語学を活かせ、利用者への貢献度も高いです。" },
               { num: "3", title: "issue報告（バグ報告）", desc: "再現手順・期待挙動・実際の挙動・環境を整理して報告します。良い再現報告は修正と同じくらい価値があります。" },
               { num: "4", title: "テストの追加", desc: "未カバーのケースにテストを足します。既存挙動を壊さず品質を上げる貢献で、コードを深く読む力が伝わります。" },
               { num: "5", title: "他者PRのレビュー", desc: "オープンなPRに建設的なコメントを残します。コードを読み解く力とコミュニケーションの作法が見えます。" },
-              { num: "6", title: "サンプル・examplesの提供", desc: "使い方のサンプルコードやチュートリアルを追加します。利用者の入口を作る貢献です。" },
-              { num: "7", title: "issueへの回答・トリアージ", desc: "他の利用者の質問に答えたり、重複issueを整理したりします。コミュニティ運営への貢献です。" },
+              { num: "6", title: "サンプル・examplesの提供", desc: "使い方のサンプルコードやチュートリアルを追加します。利用者の入口を作る貢献。" },
+              { num: "7", title: "issueへの回答・トリアージ", desc: "他の利用者の質問に答えたり、重複issueを整理したりします。コミュニティ運営への貢献。" },
               { num: "8", title: "バグ修正・機能追加のPR", desc: "いわゆる『プルリク』。issueで合意を取ってから、小さく安全に出すのが基本です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -174,7 +174,7 @@ export default function OssContributionPage() {
               { num: "STEP 3", title: "貢献ガイドを読む", desc: "CONTRIBUTING.md・行動規範・PRテンプレートを必ず確認します。プロジェクトごとの作法に従うのが第一歩です。" },
               { num: "STEP 4", title: "着手前に一声かける", desc: "issueに『取り組んでよいか』をコメントし、重複作業や方針ずれを防ぎます。メンテナーの合意があると進めやすいです。" },
               { num: "STEP 5", title: "小さくPRを出す", desc: "1PR=1目的です。差分を小さく保ち、変更理由と影響範囲を説明します。テストがあれば添えます。" },
-              { num: "STEP 6", title: "レビューに丁寧に対応する", desc: "指摘には素直に対応し、議論は事実ベースで。マージされたら貢献履歴として残ります。" },
+              { num: "STEP 6", title: "レビューに丁寧に対応する", desc: "指摘には素直に対応し、議論は事実ベースで行います。マージされたら貢献履歴として残ります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center px-3 h-8 rounded-full bg-emerald-600 text-white font-bold text-xs shrink-0">{item.num}</span>
@@ -194,14 +194,14 @@ export default function OssContributionPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-5">
             <ul className="space-y-2">
               {[
-                "事前にissueで方針の合意が取れている",
-                "1つのPRが1つの目的に絞られている（差分が小さい）",
-                "既存の挙動を壊していない（後方互換に配慮）",
-                "変更が必要な理由と影響範囲を説明している",
-                "テストを追加 or 既存テストが通ることを示している",
-                "プロジェクトのコーディング規約・lintに従っている",
-                "コミットメッセージ・PR説明が読みやすい",
-                "安全である根拠（なぜ壊れないか）を添えている",
+                "事前にissueで方針の合意が取れています",
+                "1つのPRが1つの目的に絞られています（差分が小さい）",
+                "既存の挙動を壊していません（後方互換に配慮）",
+                "変更が必要な理由と影響範囲を説明しています",
+                "テストを追加 or 既存テストが通ることを示しています",
+                "プロジェクトのコーディング規約・lintに従っています",
+                "コミットメッセージ・PR説明が読みやすいです",
+                "安全である根拠（なぜ壊れないか）を添えています",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
                   <span className="text-petrol font-bold shrink-0">✓</span>{c}
@@ -255,9 +255,9 @@ export default function OssContributionPage() {
           <p className="text-slate-600 leading-relaxed mb-4">仕事と家庭で時間が限られる30-40代が、無理なく続けるコツです。</p>
           <div className="space-y-4">
             {[
-              { t: "日々の開発の『困った』を起点にする", d: "普段使うツールで詰まった瞬間こそ貢献のチャンスです。ドキュメント不足やバグに気づいたらメモし、後でissue/PRにします。学習と貢献を兼ねられます。" },
+              { t: "日々の開発の『困った』を起点にします", d: "普段使うツールで詰まった瞬間こそ貢献のチャンスです。ドキュメント不足やバグに気づいたらメモし、後でissue/PRにします。学習と貢献を兼ねられます。" },
               { t: "まず『数十分でできる貢献』から", d: "誤字修正・翻訳・issue報告は短時間で完了します。まとまった時間を確保しなくても始められます。" },
-              { t: "完璧主義を捨てる", d: "1回で大きな貢献を狙わず、小さく出して反応をもらいます。継続の方が一度の大きな成果より価値があります。" },
+              { t: "完璧主義を捨てます", d: "1回で大きな貢献を狙わず、小さく出して反応をもらいます。継続の方が一度の大きな成果より価値があります。" },
             ].map((n, i) => (
               <div key={i} className="bg-emerald-50 border border-emerald-200 rounded-lg p-5">
                 <h3 className="font-bold text-emerald-800 mb-1">{n.t}</h3>
@@ -272,8 +272,8 @@ export default function OssContributionPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">7. 盛らない誠実さ（やりがちなNG）</h2>
           <div className="space-y-4">
             {[
-              { t: "NG1：実態より大きく見せる", d: "誤字修正1件を『主要OSSにコミッターとして参加』のように誇張すると、URLを見れば実態が分かり信頼を失います。事実を事実のまま伝えます。" },
-              { t: "NG2：合意なしに大きなPRを送る", d: "issueでの相談なしに大規模変更を出すと、メンテナーの方針と合わずクローズされやすいです。まず一声かけます。" },
+              { t: "NG1：実態より大きく見せます", d: "誤字修正1件を『主要OSSにコミッターとして参加』のように誇張すると、URLを見れば実態が分かり信頼を失います。事実を事実のまま伝えます。" },
+              { t: "NG2：合意なしに大きなPRを送ります", d: "issueでの相談なしに大規模変更を出すと、メンテナーの方針と合わずクローズされやすいです。まず一声かけます。" },
               { t: "NG3：スター稼ぎ・数稼ぎ目的の貢献", d: "中身のないPRや形だけの貢献は見抜かれます。利用者・プロジェクトの役に立つ貢献を心がけます。" },
             ].map((n, i) => (
               <div key={i} className="bg-red-50 border border-red-200 rounded-lg p-5">

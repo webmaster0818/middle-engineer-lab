@@ -63,9 +63,9 @@ const salaryTable = [
 
 const certTable = [
   ["エントリー", "CCT など", "未経験者向けの入口"],
-  ["アソシエイト", "CCNA", "基礎力の証明です。転職でまず狙う層"],
-  ["プロフェッショナル", "CCNP", "中級です。専門性とキャリアの前進を示す"],
-  ["エキスパート", "CCIE", "上級です。難関資格として高く評価される"],
+  ["アソシエイト", "CCNA", "基礎力の証明。転職でまず狙う層"],
+  ["プロフェッショナル", "CCNP", "中級。専門性とキャリアの前進を示す"],
+  ["エキスパート", "CCIE", "上級。難関資格として高く評価される"],
   ["アーキテクト", "CCAr", "最上位の設計者向け"],
 ];
 
@@ -207,8 +207,8 @@ export default function NetworkSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "構築・運用層", d: "LAN/WANの設計・構築・運用、ルーティング/スイッチング、ファイアウォール設定、障害対応です。CCNA保有が歓迎されやすいです。" },
-              { t: "セキュリティ/クラウド層", d: "ゼロトラスト設計、SASE導入、AWS VPC/Azure VNetのネットワーク設計です。希少性が高く年収帯が上がります。" },
+              { t: "構築・運用層", d: "LAN/WANの設計・構築・運用、ルーティング/スイッチング、ファイアウォール設定、障害対応。CCNA保有が歓迎されやすいです。" },
+              { t: "セキュリティ/クラウド層", d: "ゼロトラスト設計、SASE導入、AWS VPC/Azure VNetのネットワーク設計。希少性が高く年収帯が上がります。" },
               { t: "アーキテクト層", d: "大規模・マルチサイトのネットワーク設計、クラウド/オンプレ統合、ネットワーク自動化の標準化です。CCIE等が後押し。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -235,7 +235,7 @@ export default function NetworkSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>、<Link href="/skill/security/" className="text-petrol hover:underline">セキュリティエンジニア転職ガイドです</Link>。
+            関連: <Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>、<Link href="/skill/security/" className="text-petrol hover:underline">セキュリティエンジニア転職ガイド</Link>。
           </p>
         </section>
 
@@ -271,8 +271,8 @@ export default function NetworkSkillPage() {
           <div className="space-y-3">
             {[
               { n: "STEP 1", t: "基礎の棚卸し", d: "TCP/IP・DNS・ルーティング・ファイアウォールの経験を整理します。クラウドでもそのまま活きます。" },
-              { n: "STEP 2", t: "クラウドのネットワークを学ぶ", d: "AWS VPC/サブネット/ルートテーブル/Transit Gatewayなど、既存知識の延長で理解できる領域から着手します。" },
-              { n: "STEP 3", t: "資格で裏付ける", d: "AWS Advanced Networking等の認定で、クラウドネットワークのスキルを可視化します。" },
+              { n: "STEP 2", t: "クラウドのネットワークを学びます", d: "AWS VPC/サブネット/ルートテーブル/Transit Gatewayなど、既存知識の延長で理解できる領域から着手します。" },
+              { n: "STEP 3", t: "資格で裏付けます", d: "AWS Advanced Networking等の認定で、クラウドネットワークのスキルを可視化します。" },
               { n: "STEP 4", t: "自動化で差別化", d: "Ansible/Terraform/Pythonでネットワーク構成をコード化し、従来型エンジニアとの差を示します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -285,7 +285,7 @@ export default function NetworkSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方です</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>。
           </p>
         </section>
 
@@ -307,11 +307,11 @@ export default function NetworkSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ CCNAで基礎を固め、CCNP/CCIEで専門性を段階的に示します</li>
-            <li>✓ クラウドネットワーク（VPC/VNet）を学び、AWS Advanced Networking等で裏付けます</li>
-            <li>✓ ゼロトラスト/SASEの設計知識を加え、セキュリティ×ネットワークの希少性を作ります</li>
-            <li>✓ Ansible/Terraform/Pythonでネットワーク自動化（NaC）を体験します</li>
-            <li>✓ 学んだ構成は検証環境で再現し、設計意図を説明できる状態にします</li>
+            <li>✓ CCNAで基礎を固め、CCNP/CCIEで専門性を段階的に示す</li>
+            <li>✓ クラウドネットワーク（VPC/VNet）を学び、AWS Advanced Networking等で裏付ける</li>
+            <li>✓ ゼロトラスト/SASEの設計知識を加え、セキュリティ×ネットワークの希少性を作る</li>
+            <li>✓ Ansible/Terraform/Pythonでネットワーク自動化（NaC）を体験する</li>
+            <li>✓ 学んだ構成は検証環境で再現し、設計意図を説明できる状態にする</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>をご参照ください。

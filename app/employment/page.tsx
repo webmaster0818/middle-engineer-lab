@@ -43,7 +43,7 @@ const compareRows: { item: string; seishain: string; keiyaku: string; haken: str
     seishain: "なし",
     keiyaku: "原則1回3年（一定の場合5年）",
     haken: "同一組織単位で3年",
-    itaku: "契約による",
+    itaku: "契約によります",
   },
   {
     item: "健康保険",
@@ -219,7 +219,7 @@ export default function EmploymentTopPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>正社員・契約社員・派遣＝労働者（労働法の保護あり）／業務委託＝事業主です（原則保護なし）。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>「手取りが多い形態」は単価が高い業務委託に見えるが、社保・税の自己負担で目減りする構造です。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>「手取りが多い形態」は単価が高い業務委託に見えますが、社保・税の自己負担で目減りする構造です。</li>
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2024年11月1日からフリーランスも労災に特別加入可能になり、保護の差が一部縮小しました。</li>
             </ul>
           </div>

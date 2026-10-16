@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const fitYes = [
-  "精密機器・電子部品・組込み・IoTなど、ものづくり寄りの技術領域に関心がある",
+  "精密機器・電子部品・組込み・IoTなど、ものづくり寄りの技術領域に関心があります",
   "首都圏のフルリモート求人を活用し、自然環境の良い地域で暮らしたい",
-  "軽井沢・佐久・上田など新幹線で首都圏とつながる立地で移住を検討している",
-  "住居費を抑え、可処分所得やQOLを重視したUIターンを考えている",
+  "軽井沢・佐久・上田など新幹線で首都圏とつながる立地で移住を検討しています",
+  "住居費を抑え、可処分所得やQOLを重視したUIターンを考えています",
 ];
 
 const fitNo = [
@@ -445,7 +445,7 @@ export default function NaganoAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">長野のIT転職を進めよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            地元の製造業ITから首都圏フルリモート、UIターン移住まで。エリア対応のエージェントに相談して、暮らしと年収のバランスが取れる選択肢を見つけましょう。
+            地元の製造業ITから首都圏フルリモート、UIターン移住まで、幅広い選択肢があります。エリア対応のエージェントに相談して、暮らしと年収のバランスが取れる選択肢を見つけましょう。
           </p>
           <Link
             href="/#ranking"

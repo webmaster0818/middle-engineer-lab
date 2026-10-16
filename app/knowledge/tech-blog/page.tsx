@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/tech-blog/" },
   title: "技術ブログの始め方｜Qiita・Zenn・noteの選び方と評価軸",
   description:
-    "30-40代エンジニア向けに、技術ブログのプラットフォーム選定（Qiita/Zenn/note/個人ブログ）と転職での評価メカニズムを深掘り。第二の職務経歴書としての見せ方、評価される記事の型、炎上リスク回避まで解説します。",
+    "30-40代エンジニア向けに、技術ブログのプラットフォーム選定（Qiita/Zenn/note/個人ブログ）と転職での評価メカニズムを深掘りします。第二の職務経歴書としての見せ方、評価される記事の型、炎上リスク回避まで解説します。",
 };
 
 const toc = [
@@ -70,7 +70,7 @@ export default function TechBlogPage() {
     <>
       <ArticleJsonLd
         title="技術ブログの始め方｜Qiita・Zenn・noteの選び方と評価軸"
-        description="30-40代エンジニア向けに、技術ブログのプラットフォーム選定（Qiita/Zenn/note/個人ブログ）と転職での評価メカニズムを深掘り。第二の職務経歴書としての見せ方、評価される記事の型、炎上リスク回避まで解説します。"
+        description="30-40代エンジニア向けに、技術ブログのプラットフォーム選定（Qiita/Zenn/note/個人ブログ）と転職での評価メカニズムを深掘りします。第二の職務経歴書としての見せ方、評価される記事の型、炎上リスク回避まで解説します。"
         url="/knowledge/tech-blog/"
       />
       <script
@@ -161,11 +161,11 @@ export default function TechBlogPage() {
               <tbody className="text-slate-600">
                 {[
                   ["読者母数", "大（日本最大級）", "中〜大（エンジニア中心）", "大（非エンジニア含む）", "立ち上げ次第"],
-                  ["SEO流入", "強い（ドメイン力）", "強まりつつある", "テーマ次第", "自分のSEO力に依存"],
-                  ["読者層", "幅広いエンジニア", "エンジニア寄り", "幅広い一般＋エンジニア", "自分で集める"],
-                  ["コード表示", "得意", "得意（執筆体験良）", "やや弱い", "自由（自分で構築）"],
+                  ["SEO流入", "強いです（ドメイン力）", "強まりつつあります", "テーマ次第", "自分のSEO力に依存"],
+                  ["読者層", "幅広いエンジニア", "エンジニア寄り", "幅広い一般＋エンジニア", "自分で集めます"],
+                  ["コード表示", "得意", "得意（執筆体験良）", "やや弱いです", "自由（自分で構築）"],
                   ["収益化", "限定的", "Book販売・バッジ等", "有料記事・サポート", "広告・自由"],
-                  ["転職での見られ方", "技術記事として標準的", "質重視で好印象になりやすい", "キャリア・組織論向き", "資産性・本気度が伝わる"],
+                  ["転職での見られ方", "技術記事として標準的", "質重視で好印象になりやすいです", "キャリア・組織論向き", "資産性・本気度が伝わります"],
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 ? "bg-slate-50" : ""}>
                     {row.map((cell, j) => (
@@ -186,7 +186,7 @@ export default function TechBlogPage() {
             {[
               { t: "とにかく広く読まれて実績を作りたい", d: "Qiitaです。読者母数とSEOが強く、検索流入で名前が露出しやすいです。まず継続して書く第一歩に向きます。" },
               { t: "エンジニア読者に質で評価されたい", d: "Zennです。執筆体験が良くGitHub連携も可能です。質の高い記事が評価されやすく、採用担当への印象も作りやすいです。" },
-              { t: "キャリア・組織・働き方を発信したい", d: "noteです。コードより文章主体のテーマに向きます。マネジメント志向のミドルの発信に。" },
+              { t: "キャリア・組織・働き方を発信したい", d: "noteです。コードより文章主体のテーマに向きます。マネジメント志向のミドルの発信に適しています。" },
               { t: "長期的に資産化・収益化したい", d: "個人ブログです。自由度と資産性が最大。ただし立ち上げに手間がかかるため、QiitaやZennで実績を作ってからの併用が現実的です。" },
             ].map((n, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -251,12 +251,12 @@ export default function TechBlogPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-2">
               {[
-                "職務経歴書の冒頭近くにブログURLを記載している",
-                "代表的な記事1〜2本を『おすすめ記事』として直接リンクしている",
-                "プロフィールに経験年数・得意領域が書かれている",
-                "GitHubプロフィールのREADMEからもブログに導線がある",
-                "本名公開が難しい場合も、応募書類には実URLを添えている",
-                "古い不正確な記事は加筆修正 or 非公開にしてある",
+                "職務経歴書の冒頭近くにブログURLを記載しています",
+                "代表的な記事1〜2本を『おすすめ記事』として直接リンクしています",
+                "プロフィールに経験年数・得意領域が書かれています",
+                "GitHubプロフィールのREADMEからもブログに導線があります",
+                "本名公開が難しい場合も、応募書類には実URLを添えています",
+                "古い不正確な記事は加筆修正 or 非公開にしてあります",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
                   <span className="text-petrol font-bold shrink-0">✓</span>{c}
@@ -271,9 +271,9 @@ export default function TechBlogPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">7. 炎上・守秘リスクの避け方</h2>
           <div className="space-y-4">
             {[
-              { t: "守秘義務を守る", d: "社名・固有のビジネス数値・内部構成・顧客情報は書きません。再現可能な技術的学びだけを切り出し、固有情報は一般化します。" },
-              { t: "不正確な断定を避ける", d: "誤った情報は検索でヒットし続け、信頼を損ないます。検証していない内容は『未検証』と明記するか、書きません。" },
-              { t: "他者・他技術を過度に貶めない", d: "比較は事実ベースで。特定の技術や人を断定的に貶める記事は炎上リスクが高く、採用でも印象を悪くします。" },
+              { t: "守秘義務を守ります", d: "社名・固有のビジネス数値・内部構成・顧客情報は書きません。再現可能な技術的学びだけを切り出し、固有情報は一般化します。" },
+              { t: "不正確な断定を避けます", d: "誤った情報は検索でヒットし続け、信頼を損ないます。検証していない内容は『未検証』と明記するか、書きません。" },
+              { t: "他者・他技術を過度に貶めません", d: "比較は事実ベースで行います。特定の技術や人を断定的に貶める記事は炎上リスクが高く、採用でも印象を悪くします。" },
               { t: "在職中の発信は会社の規定を確認", d: "副業・発信に関する就業規則がある場合があります。トラブルを避けるため事前に確認します。" },
             ].map((n, i) => (
               <div key={i} className="bg-red-50 border border-red-200 rounded-lg p-5">
@@ -290,11 +290,11 @@ export default function TechBlogPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の深さと幅を見せる</h3>
-              <p className="text-sm text-petrol-deep">技術選定・設計・トラブル対応の記事で、手が動くことと判断できることの両方を示すと効果的です。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職です</Link>。</p>
+              <p className="text-sm text-petrol-deep">技術選定・設計・トラブル対応の記事で、手が動くことと判断できることの両方を示すと効果的です。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：現役性＋知見の還元を見せる</h3>
-              <p className="text-sm text-petrol-deep">「現役で技術を追えている」ことを最新テーマの記事で示しつつ、チーム・組織への知見還元の記事を添えると、テックリード・EM採用で強みになります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>、<Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリアです</Link>。</p>
+              <p className="text-sm text-petrol-deep">「現役で技術を追えている」ことを最新テーマの記事で示しつつ、チーム・組織への知見還元の記事を添えると、テックリード・EM採用で強みになります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>、<Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリア</Link>。</p>
             </div>
           </div>
         </section>

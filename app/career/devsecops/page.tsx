@@ -40,7 +40,7 @@ const gapRows = [
   {
     skill: "SAST/DAST・スキャンツール",
     devops: "△ 導入経験は限定的",
-    security: "○ ツールの知識はある",
+    security: "○ ツールの知識はあります",
     devsecops: "◎ パイプラインへの統合・運用まで",
   },
   {
@@ -90,25 +90,25 @@ const transitionSteps = [
   {
     phase: "現職での準備（〜3ヶ月）",
     items: [
-      "今のCI/CDに脆弱性スキャンを1つ追加し、検知→修正のフローを実務に持ち込む",
-      "コンテナイメージやIaCのスキャンを試験導入し、検出した問題と対応を記録する",
-      "セキュリティ観点のコードレビュー・改善提案を起案し、Shift Leftの実績を作る",
+      "今のCI/CDに脆弱性スキャンを1つ追加し、検知→修正のフローを実務に持ち込みます",
+      "コンテナイメージやIaCのスキャンを試験導入し、検出した問題と対応を記録します",
+      "セキュリティ観点のコードレビュー・改善提案を起案し、Shift Leftの実績を作ります",
     ],
   },
   {
     phase: "スキル証明づくり（3〜6ヶ月）",
     items: [
-      "SAST/DASTを統合したCI/CDのサンプルプロジェクトをGitHubで公開する",
-      "AWS Security Specialtyなど、強みを補強する資格を1つ選んで取得を進める",
-      "脅威モデリングのドキュメント（設計レビュー資料）をポートフォリオ化する",
+      "SAST/DASTを統合したCI/CDのサンプルプロジェクトをGitHubで公開します",
+      "AWS Security Specialtyなど、強みを補強する資格を1つ選んで取得を進めます",
+      "脅威モデリングのドキュメント（設計レビュー資料）をポートフォリオ化します",
     ],
   },
   {
     phase: "応募・面接フェーズ（6ヶ月〜）",
     items: [
-      "IT特化型・ハイクラス系エージェントに登録し、DevSecOps求人の要件をすり合わせる",
-      "職務経歴書を『運用・開発実績』から『セキュリティをどう前倒しで仕込んだか』に書き換える",
-      "面接に向け、検知した脆弱性とその対応・再発防止を具体的に説明できるよう整理する",
+      "IT特化型・ハイクラス系エージェントに登録し、DevSecOps求人の要件をすり合わせます",
+      "職務経歴書を『運用・開発実績』から『セキュリティをどう前倒しで仕込んだか』に書き換えます",
+      "面接に向け、検知した脆弱性とその対応・再発防止を具体的に説明できるよう整理します",
     ],
   },
 ];
@@ -317,13 +317,13 @@ export default function DevsecopsPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（CI/CD構築の事実だけの例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                GitHub ActionsでCI/CDパイプラインを構築します。自動テストとデプロイを整備し、コンテナでアプリをデプロイです。脆弱性対応はセキュリティ担当からの指摘を受けて随時修正しました。
+                GitHub ActionsでCI/CDパイプラインを構築。自動テストとデプロイを整備し、コンテナでアプリをデプロイします。脆弱性対応はセキュリティ担当からの指摘を受けて随時修正しました。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（セキュリティの前倒しを主語にした例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                GitHub ActionsのCI/CDに、SAST（Snyk）とコンテナイメージスキャン（Trivy）、IaCスキャン（tfsec）を統合し、プルリクエスト段階で脆弱性を検出・ブロックする仕組みを構築します（Shift Left）。リリース後に発覚していた指摘をパイプラインで前倒し検知できるようにし、手戻りを削減します。シークレットはVaultで集中管理し、Git履歴からの漏洩検知を導入します。検出した重大度の高い脆弱性については、修正と再発防止のルール化までを主導しました。
+                GitHub ActionsのCI/CDに、SAST（Snyk）とコンテナイメージスキャン（Trivy）、IaCスキャン（tfsec）を統合し、プルリクエスト段階で脆弱性を検出・ブロックする仕組みを構築（Shift Left）。リリース後に発覚していた指摘をパイプラインで前倒し検知できるようにし、手戻りを削減。シークレットはVaultで集中管理し、Git履歴からの漏洩検知を導入。検出した重大度の高い脆弱性については、修正と再発防止のルール化までを主導しました。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">

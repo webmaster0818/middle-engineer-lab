@@ -56,9 +56,9 @@ const faqs = [
 const compareRows = [
   ["評価される力", "技術選定・実装・問題解決の深さ", "目標設定・育成・評価・調整"],
   ["主な役割例", "アーキテクト / SRE / AI・MLエンジニア / IC上級職", "EM / テックリード / 開発部長 / VPoE"],
-  ["年収の傾向", "上級ICは管理職と遜色ない例もある", "一般に上がりやすいが、組織規模に依存"],
+  ["年収の傾向", "上級ICは管理職と遜色ない例もあります", "一般に上がりやすいですが、組織規模に依存します"],
   ["やりがいの源泉", "技術的な探究・難問の解決", "チームの成長・事業へのレバレッジ"],
-  ["きつい点", "技術の陳腐化リスク・専門の狭さ", "板挟み・採用や評価の負荷・実装から離れる"],
+  ["きつい点", "技術の陳腐化リスク・専門の狭さ", "板挟み・採用や評価の負荷・実装から離れます"],
   ["向いている人", "手を動かし続けたい / 一点突破型", "人と事業を動かしたい / 全体最適型"],
 ];
 
@@ -155,7 +155,7 @@ export default function CareerPlanPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            それぞれ深掘りした記事もあります: <Link href="/knowledge/management/" className="text-petrol underline">マネジメントキャリア</Link>、<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol underline">フリーランスvs正社員です</Link>。
+            それぞれ深掘りした記事もあります: <Link href="/knowledge/management/" className="text-petrol underline">マネジメントキャリア</Link>、<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol underline">フリーランスvs正社員</Link>。
           </p>
         </section>
 
@@ -185,7 +185,7 @@ export default function CareerPlanPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※ 年収は企業規模・職位・技術領域で大きく変動しています。具体的なレンジは<Link href="/knowledge/market-value/" className="text-petrol underline">市場価値の測り方</Link>をご参照ください。</p>
+          <p className="text-xs text-slate-400 mt-2">※ 年収は企業規模・職位・技術領域で大きく変動します。具体的なレンジは<Link href="/knowledge/market-value/" className="text-petrol underline">市場価値の測り方</Link>をご参照ください。</p>
         </section>
 
         {/* 3. 診断 */}
@@ -197,11 +197,11 @@ export default function CareerPlanPage() {
               <h3 className="font-bold text-emerald-800 mb-3 text-sm">スペシャリスト寄り</h3>
               <ul className="space-y-2">
                 {[
-                  "難しい技術課題を解いている時が一番楽しい",
+                  "難しい技術課題を解いている時が一番楽しいです",
                   "自分で手を動かし続けたい",
                   "1つの領域を深く極めたい",
                   "会議や調整より実装に集中したい",
-                  "最新技術のキャッチアップが苦にならない",
+                  "最新技術のキャッチアップが苦になりません",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2 text-sm text-emerald-900"><span className="font-bold shrink-0">✓</span>{t}</li>
                 ))}
@@ -211,10 +211,10 @@ export default function CareerPlanPage() {
               <h3 className="font-bold text-blue-800 mb-3 text-sm">マネジメント寄り</h3>
               <ul className="space-y-2">
                 {[
-                  "チームの成果が上がると自分のこと以上に嬉しい",
+                  "チームの成果が上がると自分のこと以上に嬉しいです",
                   "人の成長を支援するのが好き",
-                  "技術だけでなく事業全体に関心がある",
-                  "調整や交渉が苦にならない",
+                  "技術だけでなく事業全体に関心があります",
+                  "調整や交渉が苦になりません",
                   "全体最適のために動くのが得意",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2 text-sm text-blue-900"><span className="font-bold shrink-0">✓</span>{t}</li>
@@ -239,7 +239,7 @@ export default function CareerPlanPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">基盤スキルに投資する</h3>
-              <p className="text-sm text-petrol-deep">設計力・問題解決力・チーム開発力は陳腐化しません。流行の技術と並行して、不変の力にも時間を割きましょう。関連: <Link href="/knowledge/continuous-learning/" className="text-petrol-deep underline">継続的な学習です</Link>。</p>
+              <p className="text-sm text-petrol-deep">設計力・問題解決力・チーム開発力は陳腐化しません。流行の技術と並行して、不変の力にも時間を割きましょう。関連: <Link href="/knowledge/continuous-learning/" className="text-petrol-deep underline">継続的な学習</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年1回は見直す</h3>
@@ -276,9 +276,9 @@ export default function CareerPlanPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">6. 後悔しないための注意点</h2>
           <div className="space-y-4">
             {[
-              { t: "周りに流されて方向を決めない", d: "『年上だからマネジメント』『同期が独立したから自分も』と周囲に合わせると後悔しがちです。自分の手応えと価値観を軸にします。" },
-              { t: "一度の選択を不可逆だと思い込まない", d: "マネジメントからICへ戻る人も、ICからマネジメントへ進む人もいます。1回の選択で人生が固定されるわけではありません。" },
-              { t: "年収だけで決めない", d: "目先の年収だけで選ぶと、やりがいや継続性を失うことがあります。価値観の優先順位とセットで判断しましょう。" },
+              { t: "周りに流されて方向を決めません", d: "『年上だからマネジメント』『同期が独立したから自分も』と周囲に合わせると後悔しがちです。自分の手応えと価値観を軸にします。" },
+              { t: "一度の選択を不可逆だと思い込みません", d: "マネジメントからICへ戻る人も、ICからマネジメントへ進む人もいます。1回の選択で人生が固定されるわけではありません。" },
+              { t: "年収だけで決めません", d: "目先の年収だけで選ぶと、やりがいや継続性を失うことがあります。価値観の優先順位とセットで判断しましょう。" },
             ].map((n, i) => (
               <div key={i} className="bg-amber-50 border border-amber-200 rounded-lg p-5">
                 <h3 className="font-bold text-amber-800 mb-1">{n.t}</h3>
@@ -294,11 +294,11 @@ export default function CareerPlanPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：方向を『仮決め』して実績を積む</h3>
-              <p className="text-sm text-petrol-deep">30代は専門を深めるか、マネジメントへ広げるかの分岐点です。完璧に決めきれなくても、仮の方向で小さくリード経験や専門の実績を積むと、次の判断材料になります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職です</Link>。</p>
+              <p className="text-sm text-petrol-deep">30代は専門を深めるか、マネジメントへ広げるかの分岐点です。完璧に決めきれなくても、仮の方向で小さくリード経験や専門の実績を積むと、次の判断材料になります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：強みを軸に『深さ』か『広さ』を選ぶ</h3>
-              <p className="text-sm text-petrol-deep">40代は積み上げた強みを軸に、専門を極める（深さ）か、組織・事業へ広げる（広さ）かを選ぶ局面です。再現性のある実績を前提に、譲れない価値観に沿った道を選びましょう。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアルです</Link>。</p>
+              <p className="text-sm text-petrol-deep">40代は積み上げた強みを軸に、専門を極める（深さ）か、組織・事業へ広げる（広さ）かを選ぶ局面です。再現性のある実績を前提に、譲れない価値観に沿った道を選びましょう。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>、<Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアル</Link>。</p>
             </div>
           </div>
         </section>

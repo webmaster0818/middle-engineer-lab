@@ -32,12 +32,12 @@ const toc = [
 ];
 
 const skillTable = [
-  ["電子カルテ・医事会計の業務知識", "そのまま活きる", "医療現場のワークフロー理解はヘルステックPdM・SaaS開発で希少"],
-  ["HL7 FHIR / DICOM など医療情報標準", "そのまま活きる", "データ連携・相互運用性の設計で直接評価される"],
-  ["医療法・個人情報保護・薬機法の理解", "そのまま活きる", "SaMDや医療データ事業のコンプライアンス設計に必須"],
+  ["電子カルテ・医事会計の業務知識", "そのまま活きます", "医療現場のワークフロー理解はヘルステックPdM・SaaS開発で希少"],
+  ["HL7 FHIR / DICOM など医療情報標準", "そのまま活きます", "データ連携・相互運用性の設計で直接評価されます"],
+  ["医療法・個人情報保護・薬機法の理解", "そのまま活きます", "SaMDや医療データ事業のコンプライアンス設計に必須"],
   ["モダンな言語（Python / TypeScript）", "要習得", "Web系・スタートアップの開発はモダンスタックが前提"],
   ["クラウド（AWS / GCP）", "要習得", "クラウド型電子カルテ・医療SaaSはクラウド運用が中心"],
-  ["機械学習の基礎（医療AI志望）", "要習得", "画像診断支援・自然言語処理の開発で求められる"],
+  ["機械学習の基礎（医療AI志望）", "要習得", "画像診断支援・自然言語処理の開発で求められます"],
 ];
 
 const patternTable = [
@@ -202,7 +202,7 @@ export default function HealthcarePage() {
                     <th className="px-4 py-3 text-left font-medium text-slate-700 align-top">{skill}</th>
                     <td
                       className={`px-4 py-3 font-medium whitespace-nowrap align-top ${
-                        status === "そのまま活きる" ? "text-petrol" : "text-amber-600"
+                        status === "そのまま活きます" ? "text-petrol" : "text-amber-600"
                       }`}
                     >
                       {status}
@@ -254,11 +254,11 @@ export default function HealthcarePage() {
               <h3 className="font-bold text-emerald-800 mb-3 text-sm">このような方に向いています</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
-                  "電子カルテ・医事会計など医療システムの実務経験がある",
-                  "医療現場のワークフローや法規制を具体的に語れる",
-                  "新しい言語やクラウドの学習を継続できる",
-                  "現場と開発をつなぐ要件定義・調整を厭わない",
-                  "プロダクトで医療課題を解決することに関心がある",
+                  "電子カルテ・医事会計など医療システムの実務経験があります",
+                  "医療現場のワークフローや法規制を具体的に語れます",
+                  "新しい言語やクラウドの学習を継続できます",
+                  "現場と開発をつなぐ要件定義・調整を厭いません",
+                  "プロダクトで医療課題を解決することに関心があります",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-emerald-600 shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -270,8 +270,8 @@ export default function HealthcarePage() {
                 {[
                   "医療ドメインの経験がなく、技術力だけを強みにしたい",
                   "規制や医療現場の制約に向き合う仕事を避けたい",
-                  "学習に時間を割けず、即戦力の技術力も足りない",
-                  "短期間での大幅な年収アップだけを目的にしている",
+                  "学習に時間を割けず、即戦力の技術力も足りません",
+                  "短期間での大幅な年収アップだけを目的にしています",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-slate-400 shrink-0">▲</span><span>{t}</span></li>
                 ))}
@@ -292,12 +292,12 @@ export default function HealthcarePage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg overflow-hidden">
               <div className="bg-slate-100 px-4 py-2 text-xs font-bold text-slate-500">Before（伝わりにくい例）</div>
-              <p className="px-4 py-3 text-sm text-slate-600">電子カルテシステムの保守・運用を担当します。要件定義から携わった。</p>
+              <p className="px-4 py-3 text-sm text-slate-600">電子カルテシステムの保守・運用を担当。要件定義から携わった。</p>
             </div>
             <div className="border border-[var(--line)] rounded-lg overflow-hidden">
               <div className="bg-petrol-soft px-4 py-2 text-xs font-bold text-petrol-deep">After（医療×ITが伝わる例）</div>
               <p className="px-4 py-3 text-sm text-slate-700">
-                病院向け電子カルテの導入・運用を担当します。HL7に基づく外部システム連携の要件定義を主導し、医師・看護師の運用負荷を踏まえた画面設計を提案します。個人情報保護・医療法の制約を満たす運用フローを整備し、現場の入力工数削減に貢献します。医療標準規格と現場ワークフローの両面を理解している点を強みとします。
+                病院向け電子カルテの導入・運用を担当。HL7に基づく外部システム連携の要件定義を主導し、医師・看護師の運用負荷を踏まえた画面設計を提案。個人情報保護・医療法の制約を満たす運用フローを整備し、現場の入力工数削減に貢献。医療標準規格と現場ワークフローの両面を理解している点を強みとします。
               </p>
             </div>
           </div>
@@ -390,7 +390,7 @@ export default function HealthcarePage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートB：既存の開発スキルにモダンスタックを足す</h3>
-              <p className="text-sm text-slate-600">医療システム開発の経験者が、Python・TypeScript・クラウドを補強してヘルステックのエンジニア職へ。学習成果を小さな制作物で示すと伝わりやすいです。</p>
+              <p className="text-sm text-slate-600">医療システム開発の経験者が、Python・TypeScript・クラウドを補強してヘルステックのエンジニア職を目指す道があります。学習成果を小さな制作物で示すと伝わりやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートC：データ・AI領域へ寄せる</h3>

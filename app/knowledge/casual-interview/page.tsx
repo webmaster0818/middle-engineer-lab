@@ -186,7 +186,7 @@ export default function CasualInterviewPage() {
               カジュアル面談は「合否を決める面接」ではなく「選考に進むかをお互いに見極める場」です。だからこそ、企業側に評価されることより、<strong>自分が入社後に後悔しないための情報を集めること</strong>に主眼を置くのが正解です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・志望動機を完璧に語る必要はありません。関心と人柄が伝われば十分</li>
+              <li>・志望動機を完璧に語る必要はありません。関心と人柄が伝われば十分です</li>
               <li>・現場の判断・運用に踏み込む逆質問を3〜5問用意します</li>
               <li>・興味を持ったら終盤で選考への意思を伝えると流れが速いです</li>
             </ul>
@@ -240,11 +240,11 @@ export default function CasualInterviewPage() {
           </p>
           <div className="space-y-3">
             {[
-              { phase: "アイスブレイク（5分）", desc: "自己紹介と、面談に至った経緯（スカウト・興味）の確認です。ここで緊張をほぐします。" },
-              { phase: "企業・事業の説明（10〜15分）", desc: "企業側から事業内容・組織・募集ポジションの説明です。メモを取りながら不明点を控えておきます。" },
+              { phase: "アイスブレイク（5分）", desc: "自己紹介と、面談に至った経緯（スカウト・興味）の確認。ここで緊張をほぐします。" },
+              { phase: "企業・事業の説明（10〜15分）", desc: "企業側から事業内容・組織・募集ポジションの説明を受けます。メモを取りながら不明点を控えておきます。" },
               { phase: "ご自身の経歴・関心のヒアリング（10〜15分）", desc: "これまでの経験や興味のある領域を聞かれます。話しすぎず、要点を簡潔に伝えます。" },
               { phase: "逆質問・相互Q&A（10〜20分）", desc: "最も重要な時間です。技術環境・チーム・評価制度など、現場の実態に踏み込みます。" },
-              { phase: "今後の流れの確認（5分）", desc: "選考に進む場合のステップや、検討期間の確認です。意欲があればその場で伝えてもOKです。" },
+              { phase: "今後の流れの確認（5分）", desc: "選考に進む場合のステップや、検討期間の確認。意欲があればその場で伝えてもOKです。" },
             ].map((p, i) => (
               <div key={p.phase} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">

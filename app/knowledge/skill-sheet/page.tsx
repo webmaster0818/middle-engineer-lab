@@ -29,8 +29,8 @@ const toc = [
 const diffRows = [
   {
     aspect: "主な目的",
-    skill: "保有技術・プロジェクト経験を一覧で示す",
-    resume: "職歴と実績・強みをストーリーで伝える",
+    skill: "保有技術・プロジェクト経験を一覧で示します",
+    resume: "職歴と実績・強みをストーリーで伝えます",
   },
   {
     aspect: "形式",
@@ -40,7 +40,7 @@ const diffRows = [
   {
     aspect: "記載の粒度",
     skill: "案件ごとの工程・役割・技術を網羅的に",
-    resume: "代表的な実績を厳選して深く",
+    resume: "代表的な実績を厳選して深きます",
   },
   {
     aspect: "よく使う場面",
@@ -49,7 +49,7 @@ const diffRows = [
   },
   {
     aspect: "自己PR欄",
-    skill: "簡潔または省略されることも多い",
+    skill: "簡潔または省略されることも多いです",
     resume: "強みを示す重要パート",
   },
 ];
@@ -68,7 +68,7 @@ const projectExample = [
   { field: "役割", value: "バックエンドリーダー（メンバー5名）" },
   { field: "担当工程", value: "要件定義・基本設計・詳細設計・実装・テスト・運用保守" },
   { field: "使用技術", value: "言語: Java / FW: Spring Boot / DB: PostgreSQL / インフラ: AWS（ECS, RDS）/ CI: GitHub Actions" },
-  { field: "業務内容・成果", value: "旧システムのAPIを段階的に刷新です。決済まわりの責務を整理し、障害発生率の低減とレスポンス改善を実現します。後輩2名の設計レビューも担当します。" },
+  { field: "業務内容・成果", value: "旧システムのAPIを段階的に刷新。決済まわりの責務を整理し、障害発生率の低減とレスポンス改善を実現。後輩2名の設計レビューも担当。" },
 ];
 
 const levelExamples = [
@@ -179,7 +179,7 @@ export default function SkillSheetPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】スキルシートは職務経歴書と何が違い、どう書く？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: スキルシートは「保有スキル一覧」と「プロジェクト経歴」を表形式で正確に整理する書類です。実績を文章で語る職務経歴書に対し、技術と案件経験を網羅的・客観的に示すのが役割です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・SES・フリーランス・客先常駐の案件選定で特に重視されます</li><li>・技術名を羅列するだけでなく、経験年数・レベル・担当工程まで添えます</li><li>・プロジェクト経歴は直近中心に5〜10件が目安です。守秘義務のある案件は業種・規模で表現</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・SES・フリーランス・客先常駐の案件選定で特に重視されます</li><li>・技術名を羅列するだけでなく、経験年数・レベル・担当工程まで添えます</li><li>・プロジェクト経歴は直近中心に5〜10件が目安です。守秘義務のある案件は業種・規模で表現します</li></ul>
           </div>
         </section>
 

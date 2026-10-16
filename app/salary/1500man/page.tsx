@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "年収1500万円のエンジニアに必要なスキル・役職・職種【到達ルートと現実】";
 const DESCRIPTION =
-  "年収1500万円のITエンジニアに到達する職種・役割を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理。ITSS最上位（L6・7）を超える、外資・GAFAM級・VPoE/CTO・トップスペシャリストなどごく限られた層である現実を誠実に解説します。30〜40代の狙い方も示します。";
+  "年収1500万円のITエンジニアに到達する職種・役割を、経産省ITSSレベルや厚労省job tag（令和7年）など出典を明記して整理します。ITSS最上位（L6・7）を超える、外資・GAFAM級・VPoE/CTO・トップスペシャリストなどごく限られた層である現実を誠実に解説します。30〜40代の狙い方も示します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/1500man/" },

@@ -29,10 +29,10 @@ const toc = [
 const basicData: [string, string][] = [
   ["企業名", "株式会社SmartNews（スマートニュース・非上場）"],
   ["業種", "ニュース配信プラットフォーム／メディアテック（アルゴリズム配信・機械学習）"],
-  ["平均年収", "公式の全社員平均は非公開です。集計サイトに約1,300万円台の記載があるが、これは公式値ではない参考値"],
+  ["平均年収", "公式の全社員平均は非公開。集計サイトに約1,300万円台の記載がありますが、これは公式値ではない参考値です"],
   ["技術スタック", "Java（8／11）が約9割＋Ruby／Go／Scala／Kotlin、Spark処理はScala、インフラはほぼAWS（Amazon Linux）、CDNはAkamai中心"],
-  ["特徴", "大量のニュース配信・機械学習を支える少数精鋭の開発組織です。難易度は高い"],
-  ["採用形態", "中途（キャリア採用）中心です。即戦力の経験者採用"],
+  ["特徴", "大量のニュース配信・機械学習を支える少数精鋭の開発組織。難易度は高い"],
+  ["採用形態", "中途（キャリア採用）中心。即戦力の経験者採用"],
 ];
 
 const faqs = [
@@ -182,7 +182,7 @@ export default function SmartNewsCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Javaで大規模バックエンドを支えてきた経験者</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Scala／Sparkでの大規模データ処理に強みがあります</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Scala／Sparkでの大規模データ処理に強みがある</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>機械学習を用いた配信・レコメンドに挑戦したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>少数精鋭の自走文化のなかで裁量を持って働きたい</li>
               </ul>
@@ -190,7 +190,7 @@ export default function SmartNewsCompanyPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>大規模配信・データ処理の経験が薄いです</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>大規模配信・データ処理の経験が薄い</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>手厚いオンボーディング・サポート前提で進めたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>一人あたりの責任が重い環境を避けたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>安定・固定的な環境を最優先したい</li>

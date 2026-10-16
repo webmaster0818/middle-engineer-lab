@@ -236,7 +236,7 @@ export default function PortfolioPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">コミュニティ運営</h3>
-              <p className="text-sm text-slate-600">勉強会の主催・運営は、影響力やリーダーシップの証明になります。EM・テックリード志向のミドル層には特に効果的です。関連: <Link href="/knowledge/management/" className="text-petrol underline">マネジメントキャリアです</Link>。</p>
+              <p className="text-sm text-slate-600">勉強会の主催・運営は、影響力やリーダーシップの証明になります。EM・テックリード志向のミドル層には特に効果的です。関連: <Link href="/knowledge/management/" className="text-petrol underline">マネジメントキャリア</Link>。</p>
             </div>
           </div>
         </section>
@@ -264,13 +264,13 @@ export default function PortfolioPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-2">
               {[
-                "プロフィールREADMEに得意領域・連絡先がある",
-                "ピン留めリポジトリは見てほしい順に厳選されている",
-                "各リポジトリのREADMEに概要・構成・起動方法・工夫点がある",
-                "技術選定の理由がどこかに書かれている",
-                "テストやCI/CDなど運用面の工夫が1つ以上ある",
-                "技術ブログ・登壇資料のURLを職務経歴書に添えている",
-                "業務由来のコード・社名・内部数値が含まれていない",
+                "プロフィールREADMEに得意領域・連絡先があります",
+                "ピン留めリポジトリは見てほしい順に厳選されています",
+                "各リポジトリのREADMEに概要・構成・起動方法・工夫点があります",
+                "技術選定の理由がどこかに書かれています",
+                "テストやCI/CDなど運用面の工夫が1つ以上あります",
+                "技術ブログ・登壇資料のURLを職務経歴書に添えています",
+                "業務由来のコード・社名・内部数値が含まれていません",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
                   <span className="text-petrol font-bold shrink-0">✓</span>{c}
@@ -286,11 +286,11 @@ export default function PortfolioPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の幅と設計判断を見せる</h3>
-              <p className="text-sm text-petrol-deep">手を動かせることに加え、技術選定やリファクタの判断ができることを成果物とブログで示すと効果的です。Web系・新領域への挑戦時はポートフォリオの効果が大きくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職です</Link>。</p>
+              <p className="text-sm text-petrol-deep">手を動かせることに加え、技術選定やリファクタの判断ができることを成果物とブログで示すと効果的です。Web系・新領域への挑戦時はポートフォリオの効果が大きくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：技術の証明＋影響力を見せる</h3>
-              <p className="text-sm text-petrol-deep">40代は『手を動かせること』を疑われがちなため、現役性を示すGitHub・ブログが有効です。同時に登壇・OSS・コミュニティ運営など影響力の裏づけを添えると、マネジメント・テックリード採用で強みになります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職です</Link>。</p>
+              <p className="text-sm text-petrol-deep">40代は『手を動かせること』を疑われがちなため、現役性を示すGitHub・ブログが有効です。同時に登壇・OSS・コミュニティ運営など影響力の裏づけを添えると、マネジメント・テックリード採用で強みになります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>。</p>
             </div>
           </div>
         </section>

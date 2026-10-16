@@ -120,7 +120,7 @@ export default function PaidLeavePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職時に有給休暇は消化できる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 年次有給休暇は労働者の権利で、退職時は時季変更権が実質的に及ばないため、消化できるのが原則です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・会社の時季変更権は退職日を超えて行使できず、退職時には実質的に拒否しにくいです</li><li>・買い取りは原則不可です。退職時に消滅する残日数のみ例外的に可（会社の義務ではない）</li><li>・一方的に拒否されたら自己判断で諦めず、労働基準監督署など公的窓口に相談します</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・会社の時季変更権は退職日を超えて行使できず、退職時には実質的に拒否しにくいです</li><li>・買い取りは原則不可です。退職時に消滅する残日数のみ例外的に認められます（会社の義務ではない）</li><li>・一方的に拒否されたら自己判断で諦めず、労働基準監督署など公的窓口に相談します</li></ul>
           </div>
         </section>
 
@@ -156,7 +156,7 @@ export default function PaidLeavePage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・年次有給休暇は<strong>労働者の権利です</strong>。退職時にも取得できるのが原則です。</li>
               <li>・会社の<strong>時季変更権は退職日を超えて行使できない</strong>ため、退職時は実質的に拒否しにくいです。</li>
-              <li>・買い取りは原則違法です。ただし<strong>退職時に消滅する残日数の買い取りは例外的に可です</strong>（義務ではない）。</li>
+              <li>・買い取りは原則違法です。ただし<strong>退職時に消滅する残日数の買い取りは例外的に認められます</strong>（義務ではない）。</li>
               <li>・拒否されたら自己判断で諦めず、<strong>労働基準監督署</strong>など公的窓口に相談します。</li>
             </ul>
           </div>

@@ -171,7 +171,7 @@ export default function LinuCCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Linuxはサーバ・クラウドの土台技術（<strong>実務・役割が年収の主因</strong>）</li>
               <li>・LinuCは<strong>Linux実務の体系的な証明</strong>として書類通過に効く加点材</li>
-              <li>・実態：<strong>年収はインフラ実務経験 × 資格の掛け算</strong>で決まります</li>
+              <li>・実態：<strong>年収はインフラ実務経験 × 資格の掛け算</strong>で決まる</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -253,7 +253,7 @@ export default function LinuCCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>Linux実務の体系化です</strong>。現場で覚えた我流のスキルの抜けを試験対策で埋め、体系的に整理できます。第二に<strong>インフラ職の入口・書類段階の裏づけ</strong>。Linuxを扱える基礎スキルの客観証明として、選考の通過に寄与します。第三に<strong>クラウド・コンテナへの土台です</strong>。LinuCで固めたLinux基礎は、クラウドやKubernetesへ進む際の前提になります。
+            活用戦略は3つに整理できます。第一に<strong>Linux実務の体系化です</strong>。現場で覚えた我流のスキルの抜けを試験対策で埋め、体系的に整理できます。第二に<strong>インフラ職の入口・書類段階の裏づけ</strong>です。Linuxを扱える基礎スキルの客観証明として、選考の通過に寄与します。第三に<strong>クラウド・コンテナへの土台です</strong>。LinuCで固めたLinux基礎は、クラウドやKubernetesへ進む際の前提になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             注意すべきデメリットも押さえておきましょう。LinuCレベル1は<strong>入口寄りの位置づけのため、これ単体で上流・高度なインフラ力まで保証する資格ではありません</strong>。効果が出るのは「インフラ実務 × 資格」が成立したときです。また有効期限が5年あり、再認定を怠ると失効します。逆に言えば、Linuxスキルを体系化したい経験者や、インフラへ進みたいミドルにとっては、費用対効果の高い土台資格です。上位を示すならレベル2以上、国際案件を視野に入れるなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC</Link>も検討しましょう。
@@ -281,9 +281,9 @@ export default function LinuCCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "101試験でコマンド・管理を固める", d: "コマンドライン操作・パッケージ管理・ファイルシステムなど、Linux基礎を網羅的に学びます。" },
-              { n: "STEP 2", t: "102試験でシステム・ネットワークへ", d: "シェルスクリプト・ネットワーク設定・セキュリティなど、運用に必要な範囲を固めます。5年以内に2試験合格で認定です。" },
-              { n: "STEP 3", t: "レベル2・クラウドへ広げる", d: "認定後は実務に活かしつつ、上位のレベル2や、クラウド・コンテナ（Kubernetes）へ守備範囲を広げます。" },
+              { n: "STEP 1", t: "101試験でコマンド・管理を固めます", d: "コマンドライン操作・パッケージ管理・ファイルシステムなど、Linux基礎を網羅的に学びます。" },
+              { n: "STEP 2", t: "102試験でシステム・ネットワークへ", d: "シェルスクリプト・ネットワーク設定・セキュリティなど、運用に必要な範囲を固めます。5年以内に2試験合格で認定されます。" },
+              { n: "STEP 3", t: "レベル2・クラウドへ広げます", d: "認定後は実務に活かしつつ、上位のレベル2や、クラウド・コンテナ（Kubernetes）へ守備範囲を広げます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

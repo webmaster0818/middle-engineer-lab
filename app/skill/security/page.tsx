@@ -128,7 +128,7 @@ export default function SecuritySkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：セキュリティ転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              セキュリティは<strong>完全未経験からは難しいが、IT実務経験者の転向先としては有望</strong>な領域です。進め方の軸は「既存のIT経験を土台に、セキュリティの専門性を一枚乗せる」ことです。要点は3つです。
+              セキュリティは<strong>完全未経験からは難しいものの、IT実務経験者の転向先としては有望</strong>な領域です。進め方の軸は「既存のIT経験を土台に、セキュリティの専門性を一枚乗せる」ことです。要点は3つです。
             </p>
             <ul className="text-sm text-blue-900 space-y-2">
               <li>① <strong>インフラ／ネットワーク／クラウドの経験</strong>を土台に、SOC・脆弱性診断など入り口ポジションから入ります。</li>
@@ -229,9 +229,9 @@ export default function SecuritySkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              { t: "土台として求められやすい", d: "ネットワーク（TCP/IP・ファイアウォール）、サーバー/OS、クラウド（AWS/GCP/Azureいずれか）の基礎です。既存のインフラ・運用経験はそのまま評価対象になります。" },
-              { t: "セキュリティの中核として見られる", d: "脆弱性診断、ログ・インシデント分析、SIEM/EDR等のツール運用、セキュリティ基準（NIST/ISO等）の理解です。" },
-              { t: "差別化になる", d: "CSIRT構築・運営、ペネトレーションテスト、ゼロトラスト/クラウドセキュリティ設計、セキュリティポリシー策定・経営層への報告経験です。" },
+              { t: "土台として求められやすいです", d: "ネットワーク（TCP/IP・ファイアウォール）、サーバー/OS、クラウド（AWS/GCP/Azureいずれか）の基礎です。既存のインフラ・運用経験はそのまま評価対象になります。" },
+              { t: "セキュリティの中核として見られます", d: "脆弱性診断、ログ・インシデント分析、SIEM/EDR等のツール運用、セキュリティ基準（NIST/ISO等）の理解です。" },
+              { t: "差別化になります", d: "CSIRT構築・運営、ペネトレーションテスト、ゼロトラスト/クラウドセキュリティ設計、セキュリティポリシー策定・経営層への報告経験。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.t}</h3>
@@ -260,7 +260,7 @@ export default function SecuritySkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">CISO / セキュリティマネジメント路線</h3>
               <p className="text-sm text-petrol-deep">
-                CSIRT運営、ポリシー策定、経営層へのリスク報告を担うCISO（最高情報セキュリティ責任者）へ。技術とビジネスの両面からセキュリティ戦略を推進する経営幹部ポジションです。
+                CSIRT運営、ポリシー策定、経営層へのリスク報告を担うCISO（最高情報セキュリティ責任者）を目指す道があります。技術とビジネスの両面からセキュリティ戦略を推進する経営幹部ポジションです。
               </p>
             </div>
           </div>
@@ -301,7 +301,7 @@ export default function SecuritySkillPage() {
             {[
               { n: "1", t: "土台のIT経験を棚卸しする", d: "ネットワーク・サーバー・クラウドの経験はそのままセキュリティの基盤です。職務経歴書で『どこでセキュリティに触れたか』を具体的に言語化します。" },
               { n: "2", t: "資格と手を動かす学習で補う", d: "情報処理安全確保支援士を軸に学習を体系化し、CTFやセキュリティツールのハンズオンで実践感覚を養います。学習の証跡が転向時の説得力になります。" },
-              { n: "3", t: "入り口ポジションから入る", d: "SOC監視・脆弱性診断など、未経験寄りでも入りやすいポジションを足がかりに。現職でセキュリティ関連タスクを担当し、実績を作ってから専任職へ寄せます。" },
+              { n: "3", t: "入り口ポジションから入る", d: "SOC監視・脆弱性診断など、未経験寄りでも入りやすいポジションを足がかりにします。現職でセキュリティ関連タスクを担当し、実績を作ってから専任職へ寄せます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.n}</span>

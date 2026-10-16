@@ -65,9 +65,9 @@ const salaryByStage = [
 ];
 
 const certTable = [
-  ["JSTQB Foundation Level", "ソフトウェアテスト技術者資格", "テスト設計の共通言語です。書類で基礎を示せる入口"],
+  ["JSTQB Foundation Level", "ソフトウェアテスト技術者資格", "テスト設計の共通言語。書類で基礎を示せる入口"],
   ["JSTQB Advanced Level", "テストマネージャー / テストアナリスト等", "上流・専門性を示します。リード以上で評価されやすい"],
-  ["QC検定（品質管理検定）", "品質管理の知識を体系的に証明", "製造・品質管理寄りのQAで親和性が高い"],
+  ["QC検定（品質管理検定）", "品質管理の知識を体系的に証明", "製造・品質管理寄りのQAで親和性が高いです"],
   ["IVEC", "IT検証技術者認定試験", "ソフトウェアテスト・検証の実務スキルを段階評価"],
 ];
 
@@ -205,8 +205,8 @@ export default function QaSkillPage() {
           <div className="space-y-3">
             {[
               { t: "テスト自動化ツール", d: "Selenium（Web UI自動化の定番）、Playwrightです（モダンなE2E自動化）。Cypress等も含め、どれか一つは実務レベルで使えると強いです。" },
-              { t: "プログラミング言語", d: "Python・JavaScript/TypeScript・Javaのいずれか。自動テストの記述・保守に必須です。言語の選択は対象システムに合わせます。" },
-              { t: "CI/CDへの組み込み", d: "GitHub Actions等で自動テストを継続実行する経験です。リグレッション工数を削減した実績は面接で効きます。" },
+              { t: "プログラミング言語", d: "Python・JavaScript/TypeScript・Javaのいずれか。自動テストの記述・保守に必須します。言語の選択は対象システムに合わせます。" },
+              { t: "CI/CDへの組み込み", d: "GitHub Actions等で自動テストを継続実行する経験。リグレッション工数を削減した実績は面接で効きます。" },
               { t: "SDETへの接続", d: "開発と品質保証を横断するSDET（Software Development Engineer in Test）は高年収帯です。自動化＋開発知識が前提になります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -314,9 +314,9 @@ export default function QaSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "テスト実行・設計から入る", d: "未経験歓迎求人でテスト実行に入り、テストケース設計まで担えるようにします。JSTQB Foundationの取得もこの時期に。" },
-              { n: "STEP 2", t: "自動化スキルを足す", d: "Selenium/Playwright＋いずれかの言語でテストコードを書き、小さな自動化実績を作ります。これが年収の分岐点です。" },
-              { n: "STEP 3", t: "上流 or 開発へ抜ける", d: "テスト戦略・プロセス改善でQAマネージャーへ、あるいは開発知識を伸ばして開発職・SDETへ。早期に方向を決めます。" },
+              { n: "STEP 1", t: "テスト実行・設計から入ります", d: "未経験歓迎求人でテスト実行に入り、テストケース設計まで担えるようにします。JSTQB Foundationの取得もこの時期に行います。" },
+              { n: "STEP 2", t: "自動化スキルを足します", d: "Selenium/Playwright＋いずれかの言語でテストコードを書き、小さな自動化実績を作ります。これが年収の分岐点です。" },
+              { n: "STEP 3", t: "上流 or 開発へ抜けます", d: "テスト戦略・プロセス改善でQAマネージャーへ、あるいは開発知識を伸ばして開発職・SDETを目指す道があります。早期に方向を決めます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

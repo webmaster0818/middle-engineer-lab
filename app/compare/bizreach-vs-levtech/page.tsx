@@ -33,7 +33,7 @@ const comparison = [
   { item: "サービス形態", a: "ハイクラス特化のスカウト型プラットフォーム", b: "IT/Web特化の紹介型エージェント" },
   { item: "求人数", a: "導入企業41,800社以上（累計）・登録ヘッドハンター9,700人以上（2025年4月時点・二次集計）", b: "公開求人 約5万件超（2026年5〜6月時点・複数転職メディア集計）" },
   { item: "対応エリア", a: "全国（スカウト型のため地域を問わず利用可能）", b: "首都圏中心（二次情報）" },
-  { item: "得意領域", a: "ハイクラス全般です（年収750万円以上が一つの目安・二次）。外資・管理職に強いです", b: "IT/Webエンジニア全般です。高年収求人比率が高い" },
+  { item: "得意領域", a: "ハイクラス全般（年収750万円以上が一つの目安・二次）。外資・管理職に強い", b: "IT/Webエンジニア全般。高年収求人比率が高い" },
   { item: "年収帯の傾向", a: "年収1,000万円以上の求人が全体の約4割（二次）", b: "公開求人の約8割が年収600万円以上（二次情報）" },
   { item: "サポート", a: "ヘッドハンター・企業からのスカウト経由（担当により差）", b: "IT業界に精通した専任アドバイザーが伴走" },
   { item: "料金", a: "無料会員があります。有料プランはWeb決済5,478円/月（2022年11月改定・二次）", b: "求職者は完全無料" },
@@ -51,18 +51,18 @@ const faqs = [
 ];
 
 const goodBiz = [
-  "年収750万円以上を一つの目安にしたハイクラス転職を狙う",
-  "CTO・VPoE・EMなど管理職／経営層ポジションを目指す",
-  "外資系IT企業やコンサルにも興味がある",
+  "年収750万円以上を一つの目安にしたハイクラス転職を狙います",
+  "CTO・VPoE・EMなど管理職／経営層ポジションを目指します",
+  "外資系IT企業やコンサルにも興味があります",
   "まず市場価値を客観的に測りたい（届くスカウトで判断できる）",
-  "プロフィールを整えて待つスタイルが合っている",
+  "プロフィールを整えて待つスタイルが合っています",
 ];
 const goodLev = [
   "IT/Web業界内で技術を活かしてキャリアアップしたい",
   "技術スタックや現場を理解したアドバイザーに相談したい",
   "年収交渉や書類添削をプロに任せたい",
   "完全無料で追加費用なしに使いたい",
-  "能動的にIT特化の求人を提案してほしい",
+  "能動的にIT特化の求人を提案してほしいです",
 ];
 
 export default function BizreachVsLevtechPage() {
@@ -98,7 +98,7 @@ export default function BizreachVsLevtechPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・年収750万円以上のハイクラス・管理職・外資を狙うなら「ビズリーチ」</strong>。スカウト型で市場価値も測れます。</li>
               <li><strong>・IT/Web業界内で技術を活かしてキャリアアップするなら「レバテックキャリア」</strong>。専任アドバイザーが伴走します。</li>
-              <li><strong>・迷うなら両方登録です</strong>。受け身のスカウト（ビズリーチ）と能動的な提案（レバテック）を組み合わせるのが、30代・40代には最も合理的です。</li>
+              <li><strong>・迷う場合は両方への登録をおすすめします</strong>。受け身のスカウト（ビズリーチ）と能動的な提案（レバテック）を組み合わせるのが、30代・40代には最も合理的です。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">どちらも無料で始められます（ビズリーチは無料会員あり）。理由は次の比較表と項目別解説で詳しくご説明します。</p>
@@ -165,9 +165,9 @@ export default function BizreachVsLevtechPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高年収求人が豊富</li><li>スカウトでキャリアアップにつながった</li><li>市場価値を客観的に把握できます</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高年収求人が豊富です</li><li>スカウトでキャリアアップにつながった</li><li>市場価値を客観的に把握できます</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>スカウトの質にばらつきがあります</li><li>経歴次第でスカウトが来ないです</li><li>有料プラン前提との不満</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>スカウトの質にばらつきがあります</li><li>経歴次第でスカウトが来ないです</li><li>有料プラン前提との不満があります</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：ミライトーチ／morejob／talentsquare等</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -175,7 +175,7 @@ export default function BizreachVsLevtechPage() {
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
               <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>書類添削・面接対策が丁寧</li><li>LINEで連絡が完結して手軽</li><li>高年収求人が多い</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>未経験者は紹介されにくいです</li><li>初回面談後の連絡が遅い場合があります</li><li>希望と異なる求人提案の例</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>未経験者は紹介されにくいです</li><li>初回面談後の連絡が遅い場合があります</li><li>希望と異なる求人提案の例です</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：OUTSIDEMAGAZINE／Qiita Job Change／イーデス等</p>
             </div>
           </div>
@@ -202,7 +202,7 @@ export default function BizreachVsLevtechPage() {
               {[
                 { num: "1", title: "ビズリーチが向くケース", desc: "現職の市場価値をまず測りたい、管理職・外資・年収750万円以上を狙う場合です。プロフィールを整え、届いたスカウトの質で立ち位置を確認します。" },
                 { num: "2", title: "レバテックが向くケース", desc: "IT/Web業界内で技術を軸にキャリアアップしたい、書類添削や年収交渉を任せたい場合です。専任アドバイザーに伴走してもらいます。" },
-                { num: "3", title: "併用パターン（推奨）", desc: "ビズリーチでスカウトを受けて市場価値と上限を把握しつつ、レバテックで能動的に求人提案を受けます。2社のオファーを比較し、最も有利な条件で意思決定です。" },
+                { num: "3", title: "併用パターン（推奨）", desc: "ビズリーチでスカウトを受けて市場価値と上限を把握しつつ、レバテックで能動的に求人提案を受けます。2社のオファーを比較し、最も有利な条件で意思決定します。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -218,7 +218,7 @@ export default function BizreachVsLevtechPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだ30代・40代エンジニアの市場価値は依然として高く、この2社はその価値を現金化する手段として相性が異なります。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>レバテックキャリアは利用者の約80%が20〜30代（二次情報）で、技術スタックを理解したアドバイザーが現場志向のキャリア相談に乗ってくれます。マネジメントか専門職かでまだ方向が定まっていない30代は、レバテックを軸に、市場価値の確認用としてビズリーチを併用すると視野が広がります。レバテック公表の年代別平均年収（2025年）では30代のSEは約499万円が一つの目安です。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ビズリーチはCTO・VPoE・EMといった管理職・経営層ポジションのスカウトや外資求人に強く、マネジメント経験のある40代と噛み合います。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。一方で40代は年齢を理由に書類段階で苦戦することもあるため、伴走して推薦状を書いてくれるレバテックのアドバイザー支援も併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ビズリーチはCTO・VPoE・EMといった管理職・経営層ポジションのスカウトや外資求人に強く、マネジメント経験のある40代と合致します。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。一方で40代は年齢を理由に書類段階で苦戦することもあるため、伴走して推薦状を書いてくれるレバテックのアドバイザー支援も併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
           <p className="text-slate-600 leading-relaxed text-sm">いずれの年代でも、まずビズリーチで市場価値を測り、レバテックで実際の選考を伴走してもらう二段構えが、ミドルエンジニアにとって失敗の少ない進め方です。</p>
         </section>
 

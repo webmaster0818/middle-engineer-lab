@@ -65,7 +65,7 @@ export default function RetirementAllowancePage() {
           </p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
             <li>・確定拠出年金（企業型DC・iDeCo）は<strong>原則60歳まで引き出せない</strong>制度です。転職は引き出し理由になりません</li>
-            <li>・脱退一時金は、通算の拠出期間が短い・資産額が少額（25万円以下等）・iDeCoに加入できない事情がある——といった<strong>法令の要件をすべて満たす例外的な場合のみ</strong></li>
+            <li>・脱退一時金は、通算の拠出期間が短い・資産額が少額（25万円以下等）・iDeCoに加入できない事情がある——といった<strong>法令の要件をすべて満たす例外的な場合のみです</strong></li>
             <li>・例外に該当しても、受け取ると<strong>老後資金の取り崩し＋退職所得控除等の税優遇の放棄</strong>になります。原則は転職先の企業型DCまたはiDeCoへの<strong>移換</strong>です</li>
             <li>・注意すべきはむしろ<strong>「6か月放置による自動移換」</strong>——運用が止まり手数料だけ引かれ続けます（下で詳述）</li>
           </ul>
@@ -155,7 +155,7 @@ export default function RetirementAllowancePage() {
       <TechgoCta
         heading="退職金・DCの次は「年収」の話——交渉に強いエージェント"
         note="テックゴーは年収アップ成功率86%（2026年3月の内定承諾者・公式公表）・年収アップ平均144万円です（2026年3月の内定承諾者平均・公式公表）。退職金の目減り分は次の年収で取り返せます。"
-        buttonText="無料キャリア面談で年収交渉の相談をする（公式）"
+        buttonText="無料キャリア面談で年収交渉の相談をします（公式）"
       />
 
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連ガイド</h2>

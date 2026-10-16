@@ -135,7 +135,7 @@ export default function OsakaAreaPage() {
             </p>
             <ul className="text-sm text-blue-900 space-y-1 list-disc list-inside">
               <li>SIerからWeb系・自社開発まで職種の幅が広く、Uターン・Iターンの受け皿になりやすいです</li>
-              <li>製造業DXという関西ならではの需要があり、業務知識×ITが強みになります</li>
+              <li>製造業DXという関西ならではの需要があり、業務知識×ITが強みになる</li>
               <li>フルリモートなら東京企業に在籍したまま大阪在住という選択も現実的</li>
             </ul>
           </div>
@@ -224,7 +224,7 @@ export default function OsakaAreaPage() {
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-              <p className="text-sm text-slate-600"><strong>フリーランス：</strong> 大阪は案件数が首都圏より少ないが、リモート前提の案件を含めれば選択肢は広がります。</p>
+              <p className="text-sm text-slate-600"><strong>フリーランス：</strong> 大阪は案件数が首都圏より少ないですが、リモート前提の案件を含めれば選択肢は広がります。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">

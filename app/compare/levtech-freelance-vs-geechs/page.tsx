@@ -50,12 +50,12 @@ const faqs = [
 ];
 
 const levtechReviews = {
-  good: ["単価が高く直請け案件が多い", "案件量が豊富で比較しやすい", "IT特化で技術の話が通じる"],
-  bad: ["マージン非公表で手取り感が読みにくい", "実務経験が浅いと案件が限定的", "リモート比率は時点により変動"],
+  good: ["単価が高く直請け案件が多いです", "案件量が豊富で比較しやすいです", "IT特化で技術の話が通じます"],
+  bad: ["マージン非公表で手取り感が読みにくいです", "実務経験が浅いと案件が限定的", "リモート比率は時点により変動"],
 };
 const geechsReviews = {
-  good: ["リモート案件が多く通勤負担が少ない", "福利厚生『フリノベ』で独立後も安心", "支援実績が長く安心感がある"],
-  bad: ["マージン非公表で手取り感が読みにくい", "最新技術・Web系の高単価は他社が強いことも", "公式の単価値が非明示"],
+  good: ["リモート案件が多く通勤負担が少ないです", "福利厚生『フリノベ』で独立後も安心", "支援実績が長く安心感があります"],
+  bad: ["マージン非公表で手取り感が読みにくいです", "最新技術・Web系の高単価は他社が強いことも", "公式の単価値が非明示"],
 };
 
 const relatedLinks = [
@@ -226,7 +226,7 @@ export default function LevtechFreelanceVsGeechsPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">ギークスジョブが強い領域</h3>
               <div className="flex flex-wrap gap-2">
-                {["リモート8割以上（二次）", "福利厚生フリノベ", "柔軟な稼働", "支援実績が長い", "全国拠点"].map((tag, i) => (
+                {["リモート8割以上（二次）", "福利厚生フリノベ", "柔軟な稼働", "支援実績が長いです", "全国拠点"].map((tag, i) => (
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-700">{tag}</span>
                 ))}
               </div>
@@ -277,7 +277,7 @@ export default function LevtechFreelanceVsGeechsPage() {
                 <li>✓ 高単価の案件を狙いたい</li>
                 <li>✓ 案件量を比較して選びたい</li>
                 <li>✓ 直請け案件で単価を最大化したい</li>
-                <li>✓ IT/Web全般の実務経験があります</li>
+                <li>✓ IT/Web全般の実務経験がある</li>
                 <li>✓ 単価交渉・契約更新の相談もしたい</li>
               </ul>
             </div>
@@ -285,7 +285,7 @@ export default function LevtechFreelanceVsGeechsPage() {
               <h3 className="font-bold text-green-800 mb-3">ギークスジョブが向く人</h3>
               <ul className="space-y-2 text-sm text-green-700">
                 <li>✓ リモート中心で働きたい</li>
-                <li>✓ 福利厚生『フリノベ』の安心が欲しいです</li>
+                <li>✓ 福利厚生『フリノベ』の安心が欲しい</li>
                 <li>✓ 週3日など柔軟な稼働をしたい</li>
                 <li>✓ 独立後の事務・健康面の不安を補いたい</li>
                 <li>✓ 地方在住で都市圏案件を受けたい</li>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/short-hours/" },
   title: "時短勤務ができる企業へ転職【制度と求人の見極め方2026】",
   description:
-    "短時間勤務（時短）の法定ルールと、求人での見極め方を公的情報ベースで解説します。育児・介護の時短、給与への影響、該当しやすい企業タイプ、30-40代の働き方設計まで。",
+    "短時間勤務（時短）の法定ルールと、求人での見極め方を公的情報ベースで解説します。育児・介護の時短、給与への影響、該当しやすい企業タイプ、30-40代の働き方設計までを解説します。",
 };
 
 const faqs = [
@@ -53,7 +53,7 @@ export default function ShortHoursPage() {
     <>
       <ArticleJsonLd
         title="時短勤務ができる企業へ転職【制度と求人の見極め方2026】"
-        description="短時間勤務の法定ルールと、求人での見極め方を公的情報ベースで解説します。育児・介護の時短、給与への影響、該当しやすい企業タイプまで。"
+        description="短時間勤務の法定ルールと、求人での見極め方を公的情報ベースで解説します。育児・介護の時短、給与への影響、該当しやすい企業タイプまでを解説します。"
         url="/purpose/short-hours/"
       />
       <script
@@ -172,7 +172,7 @@ export default function ShortHoursPage() {
               { type: "成果主義のWeb系・SaaS企業", point: "稼働時間より成果で評価する文化が根づいていれば、時短でも正当に評価されやすいです。" },
               { type: "両立支援に積極的な大手・上場企業", point: "時短を就学前・低学年まで延長するなど、法定を上回る制度を持つ企業があります。" },
               { type: "リモート・フレックス併用企業", point: "時短に頼らずフレックス＋リモートで両立できる設計があり、給与を減らさず調整しやすいです。" },
-              { type: "受託・常駐中心の現場", point: "クライアント先常駐だと時短が運用しにくいことがあります。配属形態を要確認です。" },
+              { type: "受託・常駐中心の現場", point: "クライアント先常駐だと時短が運用しにくいことがあります。配属形態を確認する必要があります。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>

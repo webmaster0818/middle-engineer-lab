@@ -233,7 +233,7 @@ export default function GenerativeAiEraPage() {
             ))}
           </ul>
           <div className="bg-petrol-soft rounded-lg p-5">
-            <p className="text-sm text-petrol-deep">体系的に学ぶなら、関連スキルの解説も参考になります。関連: <Link href="/skill/generative-ai/" className="text-petrol-deep underline">生成AIスキル</Link>、<Link href="/skill/ai-ml/" className="text-petrol-deep underline">AI・機械学習スキルです</Link>。</p>
+            <p className="text-sm text-petrol-deep">体系的に学ぶなら、関連スキルの解説も参考になります。関連: <Link href="/skill/generative-ai/" className="text-petrol-deep underline">生成AIスキル</Link>、<Link href="/skill/ai-ml/" className="text-petrol-deep underline">AI・機械学習スキル</Link>。</p>
           </div>
         </section>
 
@@ -243,7 +243,7 @@ export default function GenerativeAiEraPage() {
           <p className="text-slate-600 leading-relaxed mb-4">純粋な実装力以上に、AIで代替しにくいのが次の非技術スキルです。これらは経験を積んだミドルの得意分野でもあります。</p>
           <div className="space-y-4">
             {[
-              { t: "課題発見・要件定義", d: "曖昧なビジネス要求を、解くべき技術課題に翻訳する力です。AIは与えられた問いには答えるが、問いを立てるのは人間です。" },
+              { t: "課題発見・要件定義", d: "曖昧なビジネス要求を、解くべき技術課題に翻訳する力です。AIは与えられた問いには答えますが、問いを立てるのは人間です。" },
               { t: "技術選定・トレードオフ判断", d: "正解が一つでない状況で、制約とリスクを踏まえて選ぶ力です。文脈の理解が必要で代替しにくいです。" },
               { t: "合意形成・交渉", d: "関係者の利害を調整し、意思決定に導く力です。対人の信頼関係が前提になります。" },
               { t: "マネジメント・育成", d: "チームを動かし、人を育てる力です。AI時代でも組織を成果に結びつけるのは人間の役割です。" },
@@ -273,7 +273,7 @@ export default function GenerativeAiEraPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マネジメントがAI活用の現場を成果に変える</h3>
-              <p className="text-sm text-petrol-deep">AIを使う人・チームをどう動かし、成果に結びつけるか。組織を回す力は代替されにくく、ミドルの強みが活きます。関連: <Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリアです</Link>。</p>
+              <p className="text-sm text-petrol-deep">AIを使う人・チームをどう動かし、成果に結びつけるか。組織を回す力は代替されにくく、ミドルの強みが活きます。関連: <Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリア</Link>。</p>
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mt-5">

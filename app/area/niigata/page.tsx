@@ -200,7 +200,7 @@ export default function NiigataAreaPage() {
         <section id="market" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">新潟のIT・産業の集積と現実</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            まずご説明すると、新潟のITエンジニアの公開求人は、首都圏に比べて限定的です。求人件数や平均年収を断定的な数値で示すことは、この記事ではしません。一方で、地域の産業構造を理解しておくと、どんな求人に出会いやすいかの解像度は上がります。新潟市には地場のソフトウェア企業が集まり、新潟市ソフトウェア産業協議会のような業界組織も存在します。加えて新潟県は食品・金属加工など製造業の集積があり、社内システムやDX推進の需要が生まれやすい土地柄です。経済産業省が2019年3月に公表した「IT人材需給に関する調査」では2030年に最大約79万人のIT人材不足が試算されており、地方でもDX人材の需要は構造的に続くと見られます。
+            まず、新潟のITエンジニアの公開求人は、首都圏に比べて限定的です。求人件数や平均年収を断定的な数値で示すことは、この記事ではしません。一方で、地域の産業構造を理解しておくと、どんな求人に出会いやすいかの解像度は上がります。新潟市には地場のソフトウェア企業が集まり、新潟市ソフトウェア産業協議会のような業界組織も存在します。加えて新潟県は食品・金属加工など製造業の集積があり、社内システムやDX推進の需要が生まれやすい土地柄です。経済産業省が2019年3月に公表した「IT人材需給に関する調査」では2030年に最大約79万人のIT人材不足が試算されており、地方でもDX人材の需要は構造的に続くと見られます。
           </p>
           <div className="space-y-4">
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
@@ -237,7 +237,7 @@ export default function NiigataAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地場企業に出社・ハイブリッドで勤務:</strong> 地域に根ざしたキャリアを重視する人向けです。求人の母数は限られるが、要件定義から運用まで幅広く担える経験を積みやすいです。
+                <strong>地場企業に出社・ハイブリッドで勤務:</strong> 地域に根ざしたキャリアを重視する人向けです。求人の母数は限られますが、要件定義から運用まで幅広く担える経験を積みやすいです。
               </p>
             </div>
             <div className="flex items-start gap-3">

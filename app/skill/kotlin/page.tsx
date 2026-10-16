@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Kotlinエンジニア転職ガイド｜年収・資格・求人の探し方";
 const PAGE_DESC =
-  "Kotlinエンジニアの転職を年収データ・関連資格・求人の探し方まで解説します。スタンバイやフリーランスボードの公表年収、レバテック年代別データを出典付きで掲載。30代・40代の参入ルートとおすすめエージェントも紹介します。";
+  "Kotlinエンジニアの転職を年収データ・関連資格・求人の探し方まで解説します。スタンバイやフリーランスボードの公表年収、レバテック年代別データを出典を明記して掲載しています。30代・40代の参入ルートとおすすめエージェントも紹介します。";
 
 const toc = [
   { id: "conclusion", label: "結論：Kotlin転職の進め方" },
@@ -24,22 +24,22 @@ const toc = [
 const careerPaths = [
   {
     role: "Androidエンジニア",
-    note: "Jetpack Compose＋KotlinでのモダンアプリUI開発です。GoogleがKotlinをAndroid推奨言語に指定しており、需要の中心です。",
+    note: "Jetpack Compose＋KotlinでのモダンアプリUI開発。GoogleがKotlinをAndroid推奨言語に指定しており、需要の中心。",
     cert: "Associate Android Developer等",
   },
   {
     role: "サーバーサイドエンジニア",
-    note: "Spring Boot＋KotlinでのAPI・マイクロサービス開発です。Javaの冗長さを減らせる点が評価されます。",
+    note: "Spring Boot＋KotlinでのAPI・マイクロサービス開発。Javaの冗長さを減らせる点が評価されます。",
     cert: "—（実務経験重視）",
   },
   {
     role: "マルチプラットフォーム開発",
-    note: "Kotlin Multiplatformで iOS/Android/Web 間のロジック共通化です。新しい選択肢として注目です。",
+    note: "Kotlin Multiplatformで iOS/Android/Web 間のロジック共通化です。新しい選択肢として注目。",
     cert: "—（ポートフォリオ重視）",
   },
   {
     role: "テックリード／アーキテクト",
-    note: "Kotlin基盤のシステム設計・技術選定・チームリードです。Android＋サーバーの両方を見られると強いです。",
+    note: "Kotlin基盤のシステム設計・技術選定・チームリード。Android＋サーバーの両方を見られると強いです。",
     cert: "—（設計・マネジメント経験）",
   },
 ];
@@ -279,10 +279,10 @@ export default function KotlinSkillPage() {
           </p>
           <ol className="space-y-3">
             {[
-              { t: "Java経験を土台にする", d: "Javaの実務経験があれば、Kotlin固有の機能（null安全・拡張関数・Coroutine）に絞って学習すれば短期間で戦力になれます。" },
-              { t: "GitHubに動くものを公開する", d: "Androidアプリ、またはSpring Bootで作ったAPIサーバーを公開しています。Coroutine/Flowの活用が見られます。" },
-              { t: "Jetpack Composeを習得する", d: "モダンAndroid開発の主流です。宣言的UIで実践的なアプリを作れることがアドバンテージになります。" },
-              { t: "サーバーサイドへ広げる", d: "Android＋サーバーサイドの両対応は希少性が高く、年収交渉でも有利に働きます。" },
+              { t: "Java経験を土台にします", d: "Javaの実務経験があれば、Kotlin固有の機能（null安全・拡張関数・Coroutine）に絞って学習すれば短期間で戦力になれます。" },
+              { t: "GitHubに動くものを公開します", d: "Androidアプリ、またはSpring Bootで作ったAPIサーバーを公開します。Coroutine/Flowの活用が見られます。" },
+              { t: "Jetpack Composeを習得します", d: "モダンAndroid開発の主流です。宣言的UIで実践的なアプリを作れることがアドバンテージになります。" },
+              { t: "サーバーサイドへ広げます", d: "Android＋サーバーサイドの両対応は希少性が高く、年収交渉でも有利に働きます。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
@@ -321,9 +321,9 @@ export default function KotlinSkillPage() {
           </p>
           <ul className="space-y-3 mb-4">
             {[
-              { t: "Kotlin固有の機能を押さえる", d: "null安全、拡張関数、データクラス、Coroutine/Flowなど、Javaにない機能を理解して実務で使えるようにします。" },
-              { t: "Jetpack Composeを習得する", d: "宣言的UIの設計パターンを学び、実践的なAndroidアプリを作れる状態にします。" },
-              { t: "サーバーサイドKotlinを試す", d: "Spring Boot＋KotlinでAPIを構築し、フルスタック対応力をポートフォリオで示します。" },
+              { t: "Kotlin固有の機能を押さえます", d: "null安全、拡張関数、データクラス、Coroutine/Flowなど、Javaにない機能を理解して実務で使えるようにします。" },
+              { t: "Jetpack Composeを習得します", d: "宣言的UIの設計パターンを学び、実践的なAndroidアプリを作れる状態にします。" },
+              { t: "サーバーサイドKotlinを試します", d: "Spring Boot＋KotlinでAPIを構築し、フルスタック対応力をポートフォリオで示します。" },
             ].map((c, i) => (
               <li key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{c.t}</h3>

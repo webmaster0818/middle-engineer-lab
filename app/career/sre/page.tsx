@@ -90,25 +90,25 @@ const transitionSteps = [
   {
     phase: "現職での準備（〜3ヶ月）",
     items: [
-      "今の運用業務の中で『手作業で繰り返しているもの＝トイル』を洗い出し、1つでもスクリプト／IaCで自動化する",
-      "障害対応・改善の記録を、課題→対応→再発防止の構造でメモに残す（職務経歴書の素材になる）",
-      "監視・アラートの改善提案を1件起案し、SLI/SLOの考え方を実務に持ち込む",
+      "今の運用業務の中で『手作業で繰り返しているもの＝トイル』を洗い出し、1つでもスクリプト／IaCで自動化します",
+      "障害対応・改善の記録を、課題→対応→再発防止の構造でメモに残します（職務経歴書の素材になる）",
+      "監視・アラートの改善提案を1件起案し、SLI/SLOの考え方を実務に持ち込みます",
     ],
   },
   {
     phase: "スキル証明づくり（3〜6ヶ月）",
     items: [
-      "Terraform＋CI/CDの個人プロジェクトをGitHubで公開する",
-      "Go/Pythonで作った運用自動化ツールをポートフォリオ化する",
-      "AWS SAP・GCP Professional Cloud Architect・CKAなど、強みを補強する資格を1つ選んで取得を進める",
+      "Terraform＋CI/CDの個人プロジェクトをGitHubで公開します",
+      "Go/Pythonで作った運用自動化ツールをポートフォリオ化します",
+      "AWS SAP・GCP Professional Cloud Architect・CKAなど、強みを補強する資格を1つ選んで取得を進めます",
     ],
   },
   {
     phase: "応募・面接フェーズ（6ヶ月〜）",
     items: [
-      "IT特化型エージェントに登録し、SRE求人の要件レベル感をすり合わせる",
-      "職務経歴書を『運用実績』から『信頼性をどう改善したか』の表現に書き換える",
-      "技術面談に向け、過去の障害対応をSLO・エラーバジェットの言葉で説明できるよう整理する",
+      "IT特化型エージェントに登録し、SRE求人の要件レベル感をすり合わせます",
+      "職務経歴書を『運用実績』から『信頼性をどう改善したか』の表現に書き換えます",
+      "技術面談に向け、過去の障害対応をSLO・エラーバジェットの言葉で説明できるよう整理します",
     ],
   },
 ];
@@ -317,13 +317,13 @@ export default function SrePage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（運用作業の羅列になっている例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                AWS上のWebシステムの運用保守を担当します。サーバーの監視、障害発生時の対応、定期的なバックアップ作業、ミドルウェアのバージョンアップを実施します。手順書に沿ってメンテナンス作業を行った。
+                AWS上のWebシステムの運用保守を担当。サーバーの監視、障害発生時の対応、定期的なバックアップ作業、ミドルウェアのバージョンアップを実施します。手順書に沿ってメンテナンス作業を行った。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（信頼性改善と自動化を主語にした例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                AWS上のWebシステム（月間ピーク〇〇万リクエスト）の信頼性向上を担当します。頻発していた手動のデプロイ・バックアップ作業をTerraformとシェル／Pythonでコード化し、定常作業の工数を削減します。主要APIにSLI/SLOを定義してダッシュボードを整備し、アラートの優先度を見直したことで、夜間の不要アラートと対応負荷を低減します。障害対応では原因分析と再発防止策の自動化までを担当しました。
+                AWS上のWebシステム（月間ピーク〇〇万リクエスト）の信頼性向上を担当。頻発していた手動のデプロイ・バックアップ作業をTerraformとシェル／Pythonでコード化し、定常作業の工数を削減。主要APIにSLI/SLOを定義してダッシュボードを整備し、アラートの優先度を見直したことで、夜間の不要アラートと対応負荷を低減。障害対応では原因分析と再発防止策の自動化までを担当しました。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">

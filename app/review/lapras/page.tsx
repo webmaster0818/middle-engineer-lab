@@ -83,9 +83,9 @@ const fitYes = [
 
 const fitNo = [
   "Web上の発信・アウトプットがほとんどない",
-  "発信を増やす時間が取れない",
+  "発信を増やす時間が取れません",
   "地方の対面サポートやSIer・非Web求人を最優先したい",
-  "担当者がすべて求人提案してくれるエージェント型を希望する",
+  "担当者がすべて求人提案してくれるエージェント型を希望します",
 ];
 
 const flow = [
@@ -492,7 +492,7 @@ export default function LaprasReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">LAPRASでご自身の発信を可視化する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            これまでの発信が自動でポートフォリオに。市場での立ち位置を確かめてみませんか？
+            これまでの発信が自動でポートフォリオになります。市場での立ち位置を確かめてみませんか？
           </p>
           <a href="https://lapras.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する

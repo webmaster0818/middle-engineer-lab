@@ -187,7 +187,7 @@ export default function CyberagentCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：ABEMAのマイクロサービスはほぼGoで実装します。レコメンドはPython中心からGoへ移行した事例が公開されています。</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：Google Kubernetes Engine（GKE）/ Kubernetes でマイクロサービスを運用します。自社基盤（CyCloud）はKubernetes・OpenStack等のOSSで構成です。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：Google Kubernetes Engine（GKE）/ Kubernetes でマイクロサービスを運用します。自社基盤（CyCloud）はKubernetes・OpenStack等のOSSで構成されています。</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：AmebaのフロントエンドではReact・TypeScriptを採用した事例が公開されています。</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI/生成AI</strong>：AI Coding Agentを開発プロセスに取り込む取り組みや、Kubernetes・ArgoCD・Redis・PostgreSQLを用いたクラウドネイティブ構成の事例が公開されています。</span></li>
             </ul>
@@ -272,9 +272,9 @@ export default function CyberagentCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">サイバーエージェント転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。メガベンチャー求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが速く実務経験者への提案数が多いです。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。直接応募・カジュアル面談中心です。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。メガベンチャー求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが速く実務経験者への提案数が多いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。直接応募・カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -58,7 +58,7 @@ const overviewTable = [
   ["受験料", "7,500円（消費税込）"],
   ["試験方式", "CBT方式・通年実施（47都道府県に会場）"],
   ["構成", "多肢選択式（四肢択一）100問・120分"],
-  ["合格基準", "総合評価点600点以上かつ分野別基準を満たす"],
+  ["合格基準", "総合評価点600点以上かつ分野別基準を満たします"],
   ["合格率", "令和7年度 48.6%（IPA公表）"],
   ["有効期限", "なし（国家資格・普遍的）"],
 ];
@@ -167,8 +167,8 @@ export default function ITPassportCertPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・技術力（設計・実装・運用）の証明にはなりません</li>
-              <li>・中途のエンジニア採用で最重視されるのは実務経験・実績</li>
-              <li>・エンジニア評価を上げたいなら、より上位の資格・専門資格が効率的</li>
+              <li>・中途のエンジニア採用で最重視されるのは実務経験・実績です</li>
+              <li>・エンジニア評価を上げたいなら、より上位の資格・専門資格が効率的です</li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
@@ -258,8 +258,8 @@ export default function ITPassportCertPage() {
           <div className="space-y-3 mb-6">
             {[
               { n: "STEP 1", t: "出題3分野を過去問で網羅", d: "ストラテジ系・マネジメント系・テクノロジ系を、公式過去問で繰り返し演習します。" },
-              { n: "STEP 2", t: "通年CBTで都合に合わせ受験", d: "47都道府県の会場から日時を選んで申込み。短期集中で合格を狙いやすいです。" },
-              { n: "STEP 3", t: "止まらず上位資格へ", d: "エンジニア志望なら基本情報→応用情報へ。立場により高度試験・専門資格へ展開しています。" },
+              { n: "STEP 2", t: "通年CBTで都合に合わせ受験", d: "47都道府県の会場から日時を選んで申し込みます。短期集中で合格を狙いやすいです。" },
+              { n: "STEP 3", t: "止まらず上位資格へ", d: "エンジニア志望なら基本情報→応用情報へ進む道があります。立場により高度試験・専門資格へ展開します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

@@ -25,8 +25,8 @@ const toc = [
 ];
 
 const gapRows = [
-  { axis: "サーバー・ネットワーク運用", infra: "◎ 構築・運用が主業務", sre: "○ 前提知識として活きる（信頼性視点が加わる）", gap: "活用" },
-  { axis: "プログラミング（Go/Python）", infra: "△ シェル中心で本格開発は少なめ", sre: "◎ 運用自動化をコードで実装する", gap: "大" },
+  { axis: "サーバー・ネットワーク運用", infra: "◎ 構築・運用が主業務", sre: "○ 前提知識として活きます（信頼性視点が加わる）", gap: "活用" },
+  { axis: "プログラミング（Go/Python）", infra: "△ シェル中心で本格開発は少なめ", sre: "◎ 運用自動化をコードで実装します", gap: "大" },
   { axis: "IaC（Terraform等）", infra: "○ 導入現場では経験あり", sre: "◎ インフラ全体をコード管理する前提", gap: "中" },
   { axis: "監視・SLI/SLO設計", infra: "○ 死活監視・アラート運用の経験", sre: "◎ SLO設計とエラーバジェット運用が中核", gap: "中" },
   { axis: "ソフトウェアエンジニアリング思考", infra: "△ 手順書・手作業文化が残る場合も", sre: "◎ トイル削減を開発として進める姿勢", gap: "大" },
@@ -208,13 +208,13 @@ export default function InfraToSrePage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（運用作業の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                AWS上のWebシステムの運用保守を担当します。サーバーの監視、障害発生時の対応、定期的なバックアップ、ミドルウェアのバージョンアップを実施します。手順書に沿ってメンテナンス作業を行った。
+                AWS上のWebシステムの運用保守を担当。サーバーの監視、障害発生時の対応、定期的なバックアップ、ミドルウェアのバージョンアップを実施します。手順書に沿ってメンテナンス作業を行った。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（信頼性改善と自動化を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                AWS上のWebシステムの信頼性向上を担当します。手動のデプロイ・バックアップ作業をTerraformとPythonでコード化し定常作業の工数を削減します。主要APIにSLI/SLOを定義してダッシュボードを整備し、アラート優先度を見直したことで夜間の不要アラートと対応負荷を低減します。障害対応では原因分析と再発防止策の自動化まで担当しました。
+                AWS上のWebシステムの信頼性向上を担当。手動のデプロイ・バックアップ作業をTerraformとPythonでコード化し定常作業の工数を削減。主要APIにSLI/SLOを定義してダッシュボードを整備し、アラート優先度を見直したことで夜間の不要アラートと対応負荷を低減。障害対応では原因分析と再発防止策の自動化まで担当しました。
               </p>
             </div>
           </div>

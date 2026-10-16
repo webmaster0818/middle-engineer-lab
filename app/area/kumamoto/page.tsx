@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "熊本へのUIターン移住に使える支援制度はありますか？",
-    a: "熊本県や各市町村は移住・定住の相談窓口や支援情報を公開しています。国の地方創生施策である移住支援金（東京圏からの移住で要件を満たすと交付される制度。金額・要件は自治体ごとに異なる）の対象になる場合もあります。制度は年度や居住地によって変わるため、必ず熊本県・移住先市町村の公式サイトや相談窓口で最新の要件を確認してください。",
+    a: "熊本県や各市町村は移住・定住の相談窓口や支援情報を公開しています。国の地方創生施策である移住支援金（東京圏からの移住で要件を満たすと交付される制度です。金額・要件は自治体ごとに異なる）の対象になる場合もあります。制度は年度や居住地によって変わるため、必ず熊本県・移住先市町村の公式サイトや相談窓口で最新の要件を確認してください。",
   },
   {
     q: "熊本のIT転職におすすめのエージェントは？",
@@ -161,8 +161,8 @@ export default function KumamotoAreaPage() {
               熊本のIT転職は「地元求人だけに絞ると選択肢が狭い」のが現実です。だからこそ、地元のIT・製造業DX求人と、首都圏企業のフルリモート求人を組み合わせて母数を広げる戦略が有効になります。半導体集積は製造業×ITに関心がある人にとって中長期的な追い風です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・地元のソフトウェア求人は母数が限られます。件数の断定は避け、エージェントで実数を確認するのが確実</li>
-              <li>・TSMC進出で半導体・製造業×ITの集積が進みます。組み込み・制御・生産技術・社内DX領域に追い風</li>
+              <li>・地元のソフトウェア求人は母数が限られます。件数の断定は避け、エージェントで実数を確認するのが確実です</li>
+              <li>・TSMC進出で半導体・製造業×ITの集積が進みます。組み込み・制御・生産技術・社内DX領域に追い風となっています</li>
               <li>・首都圏フルリモート求人の併用で、熊本の生活コストのまま年収水準の選択肢を広げられます</li>
             </ul>
           </div>
@@ -217,7 +217,7 @@ export default function KumamotoAreaPage() {
         <section id="reality" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の実情</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            ご説明すると、熊本の地元IT求人は首都圏や福岡と比べて母数が限られます。「ソフトウェアエンジニアの求人が無数にある」という状況ではありません。これは熊本に限らず多くの地方都市に共通する現実です。だからこそ、求人の探し方を工夫することが転職成功の鍵になります。
+            実際には、熊本の地元IT求人は首都圏や福岡と比べて母数が限られます。「ソフトウェアエンジニアの求人が無数にある」という状況ではありません。これは熊本に限らず多くの地方都市に共通する現実です。だからこそ、求人の探し方を工夫することが転職成功の鍵になります。
           </p>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3">
             <p className="text-sm text-slate-700 leading-relaxed">
@@ -367,7 +367,7 @@ export default function KumamotoAreaPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex gap-2"><span className="shrink-0">✓</span><span>半導体・製造業×ITに関心があり、組み込み・制御・生産技術・社内DXの経験を活かしたい</span></li>
                 <li className="flex gap-2"><span className="shrink-0">✓</span><span>フルリモートで首都圏案件に関わりながら熊本で暮らしたい</span></li>
-                <li className="flex gap-2"><span className="shrink-0">✓</span><span>UIターンで生活コストを抑え、QOLを上げる移住を検討しています</span></li>
+                <li className="flex gap-2"><span className="shrink-0">✓</span><span>UIターンで生活コストを抑え、QOLを上げる移住を検討している</span></li>
                 <li className="flex gap-2"><span className="shrink-0">✓</span><span>地域に根ざしたSIer・受託・自社開発で長く働きたい</span></li>
               </ul>
             </div>
@@ -434,7 +434,7 @@ export default function KumamotoAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">熊本×リモートでIT転職を進めよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            地元の製造業×ITから首都圏フルリモートまで。エリア対応のエージェントに相談して、年収と暮らしのバランスが取れる選択肢を見つけましょう。
+            地元の製造業×ITから首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、年収と暮らしのバランスが取れる選択肢を見つけましょう。
           </p>
           <Link
             href="/#ranking"

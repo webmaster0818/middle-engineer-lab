@@ -31,8 +31,8 @@ const comparison = [
   { item: "運営会社", a: "レバテック株式会社（レバレジーズグループ・二次情報）", b: "株式会社マイナビ" },
   { item: "タイプ", a: "IT/Web特化型エージェント", b: "IT特化型エージェント（マイナビIT AGENT）" },
   { item: "公開求人数", a: "約5万件超（2026年6月時点・複数転職メディア集計）", b: "総数の公式値は確認不可（断定なし）" },
-  { item: "対応エリア", a: "首都圏中心（二次情報）", b: "二次情報です。ハイクラス・地方求人は手薄との声" },
-  { item: "得意領域", a: "IT/Web全般です。高年収求人比率が高いです", b: "20〜30代若手層に強いです。書類添削・面接対策が手厚い" },
+  { item: "対応エリア", a: "首都圏中心（二次情報）", b: "二次情報。ハイクラス・地方求人は手薄との声" },
+  { item: "得意領域", a: "IT/Web全般。高年収求人比率が高い", b: "20〜30代若手層に強い。書類添削・面接対策が手厚い" },
   { item: "実績", a: "応募時年収との差70万円以上が3人に2人（2023年1月〜2024年3月実績）", b: "転職後定着率97.5%・年収アップ率73.7%（二次情報・転職メディア集計）" },
   { item: "料金", a: "求職者無料", b: "求職者無料" },
 ];
@@ -49,12 +49,12 @@ const faqs = [
 ];
 
 const levtechReviews = {
-  good: ["書類添削・面接対策が丁寧", "LINEで連絡が完結する", "高年収求人が多い"],
-  bad: ["未経験者は紹介されにくい", "初回面談後の連絡が遅い場合がある", "希望と異なる求人提案の例"],
+  good: ["書類添削・面接対策が丁寧", "LINEで連絡が完結します", "高年収求人が多いです"],
+  bad: ["未経験者は紹介されにくいです", "初回面談後の連絡が遅い場合があります", "希望と異なる求人提案の例"],
 };
 const mynaviReviews = {
-  good: ["サポートが手厚い", "担当がIT業界に詳しい", "初めての転職でも安心"],
-  bad: ["連絡が多い", "紹介求人数が少ない場合", "ハイクラス・地方求人が手薄"],
+  good: ["サポートが手厚いです", "担当がIT業界に詳しいです", "初めての転職でも安心"],
+  bad: ["連絡が多いです", "紹介求人数が少ない場合", "ハイクラス・地方求人が手薄"],
 };
 
 const relatedLinks = [
@@ -251,7 +251,7 @@ export default function LevtechVsMynaviPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">レバテックキャリアが強い領域</h3>
               <div className="flex flex-wrap gap-2">
-                {["Web系全般", "SIer", "社内SE", "インフラ", "高年収求人", "20〜30代の利用が多い"].map((tag, i) => (
+                {["Web系全般", "SIer", "社内SE", "インフラ", "高年収求人", "20〜30代の利用が多いです"].map((tag, i) => (
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
@@ -321,10 +321,10 @@ export default function LevtechVsMynaviPage() {
               <h3 className="font-bold text-green-800 mb-3">マイナビIT AGENTが向く人</h3>
               <ul className="space-y-2 text-sm text-green-700">
                 <li>✓ 20〜30代前半の若手エンジニア</li>
-                <li>✓ 転職が初めてで手厚いサポートが欲しいです</li>
+                <li>✓ 転職が初めてで手厚いサポートが欲しい</li>
                 <li>✓ 書類添削・面接対策をしっかり受けたい</li>
                 <li>✓ ミスマッチを避け着実に進めたい</li>
-                <li>✓ 担当者に丁寧に伴走してほしいです</li>
+                <li>✓ 担当者に丁寧に伴走してほしい</li>
               </ul>
             </div>
           </div>

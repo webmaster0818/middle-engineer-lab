@@ -107,7 +107,7 @@ export default function Inexperienced30sPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】30代未経験からITエンジニアに転職できる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 可能です。現実的な入り口で実務経験を作り、2ステップでキャリアアップするのが成功率の高い代表的な方法です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・入り口はテスター（QA）／サポート／SESが現実的（未経験枠が多い）</li><li>・学習は「1言語をポートフォリオまで」＋paizaスキルチェックで実力を可視化します</li><li>・最初の1〜2年は「投資期間」と割り切り、年収より実務経験を優先します</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・入り口はテスター（QA）／サポート／SESが現実的です（未経験枠が多い）</li><li>・学習は「1言語をポートフォリオまで」＋paizaスキルチェックで実力を可視化します</li><li>・最初の1〜2年は「投資期間」と割り切り、年収より実務経験を優先します</li></ul>
           </div>
         </section>
 
@@ -131,8 +131,8 @@ export default function Inexperienced30sPage() {
               30代未経験のIT転職は「<strong>現実的な入り口で実務経験を作り、2ステップでキャリアアップする</strong>」のが成功率の高い代表的な方法です。最初から理想の職種を狙うより、足場を固める方が結果的に早く到達できます。
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
-              <li>・入り口はテスター（QA）／サポート／SESが現実的（未経験枠が多い）</li>
-              <li>・学習は『1言語をポートフォリオまで』＋paizaスキルチェックで実力を可視化</li>
+              <li>・入り口はテスター（QA）／サポート／SESが現実的です（未経験枠が多い）</li>
+              <li>・学習は『1言語をポートフォリオまで』＋paizaスキルチェックで実力を可視化します</li>
               <li>・最初の1〜2年は『投資期間』。年収より実務経験を優先します</li>
             </ul>
           </div>
@@ -215,7 +215,7 @@ export default function Inexperienced30sPage() {
               { period: "1〜2か月目", title: "基礎学習", desc: "HTML/CSS/JavaScript（または学びたい1言語）の基礎です。ProgateやドットインストールなどでOKです。1日1〜2時間を習慣化します。" },
               { period: "2か月目末", title: "paizaスキルチェック（初回）", desc: "まず1度受けて現在地を把握します。Dランクからでも問題ないです。継続学習の指標として使います。" },
               { period: "3〜4か月目", title: "フレームワーク／実践", desc: "React・Vue、またはサーバーサイド（Rails・Laravel等）を学習します。小さなアプリを写経ではなく自分で組みます。" },
-              { period: "5か月目", title: "ポートフォリオ制作", desc: "オリジナルWebアプリを1つ企画・設計・開発です。GitHub公開＋READMEで設計意図を説明します。" },
+              { period: "5か月目", title: "ポートフォリオ制作", desc: "オリジナルWebアプリを1つ企画・設計・開発。GitHub公開＋READMEで設計意図を説明します。" },
               { period: "5か月目末", title: "paizaスキルチェック（再挑戦）", desc: "ランクアップを狙います。B以上だとスカウトが届きやすくなります（二次情報）。スコアを職務経歴書の補強材料にします。" },
               { period: "6か月目", title: "転職活動開始", desc: "職務経歴書作成、エージェント登録、現実的な入り口の求人へ応募します。学習は継続したまま進めます。" },
             ].map((item, i) => (
@@ -239,10 +239,10 @@ export default function Inexperienced30sPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-4">
             <p className="text-sm font-bold text-slate-700 mb-3">未経験者がpaizaを使うメリット</p>
             <ul className="text-sm text-slate-600 space-y-2">
-              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>スキルが数値（ランク）で可視化され、『実績がない』弱点を客観指標で補えます</span></li>
+              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>スキルが数値（ランク）で可視化され、『実績がない』弱点を客観指標で補える</span></li>
               <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>学歴・経歴の壁が低く、コードで評価されます（二次情報の評判）</span></li>
-              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>高ランクなら年齢を問わずスカウトが届くという声があります</span></li>
-              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>書類選考免除のケースがあり、職歴で弾かれにくいです</span></li>
+              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>高ランクなら年齢を問わずスカウトが届くという声がある</span></li>
+              <li className="flex gap-2.5 items-start"><span className="text-petrol font-bold shrink-0">✓</span><span>書類選考免除のケースがあり、職歴で弾かれにくい</span></li>
             </ul>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
@@ -250,7 +250,7 @@ export default function Inexperienced30sPage() {
             <ul className="text-sm text-amber-700 space-y-1.5">
               <li>・希望条件と合わないスカウトが届くことがあります</li>
               <li>・ランクB以上でないとスカウトが届きにくいという声があります</li>
-              <li>・総求人数は大手エージェントより少ないため、他サービスとの併用が前提</li>
+              <li>・総求人数は大手エージェントより少ないため、他サービスとの併用が前提です</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
@@ -267,11 +267,11 @@ export default function Inexperienced30sPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-2.5 text-sm text-slate-700">
               {[
-                "自分で企画したオリジナルのテーマである（チュートリアルの丸写しでない）",
-                "CRUD（作成・閲覧・更新・削除）など基本機能が一通り動く",
-                "GitHubで公開され、READMEに『何を・なぜ・どう作ったか』が書いてある",
-                "可能ならデプロイ済みで、実際に触れるURLがある",
-                "工夫した点・つまずいた点・改善案を言語化できる",
+                "自分で企画したオリジナルのテーマです（チュートリアルの丸写しでない）",
+                "CRUD（作成・閲覧・更新・削除）など基本機能が一通り動きます",
+                "GitHubで公開され、READMEに『何を・なぜ・どう作ったか』が書いてあります",
+                "可能ならデプロイ済みで、実際に触れるURLがあります",
+                "工夫した点・つまずいた点・改善案を言語化できます",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2.5 items-start">
                   <span className="text-petrol font-bold shrink-0">✓</span>
@@ -306,9 +306,9 @@ export default function Inexperienced30sPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">避けるべき3つの失敗</h2>
           <div className="space-y-4">
             {[
-              { t: "高額スクールに頼り切る", d: "数十万円のスクールに通えば自動で転職できるわけではありません。スクールは学習のペースメーカーです。最終的に自分でコードを書ける状態を作らないと面接で見抜かれます。" },
-              { t: "最初から年収・職種を絞りすぎる", d: "『自社開発しか受けない』『年収は下げたくない』と最初から絞ると、実務経験を作る機会を逃します。まずは足場を作り、経験を強みに次で狙います。" },
-              { t: "学習だけで応募しない", d: "完璧を目指して学習を続け、いつまでも応募しないのは機会損失です。ポートフォリオが最低ラインに達したら、学習を続けながら応募を始めます。" },
+              { t: "高額スクールに頼り切ります", d: "数十万円のスクールに通えば自動で転職できるわけではありません。スクールは学習のペースメーカーです。最終的に自分でコードを書ける状態を作らないと面接で見抜かれます。" },
+              { t: "最初から年収・職種を絞りすぎます", d: "『自社開発しか受けない』『年収は下げたくない』と最初から絞ると、実務経験を作る機会を逃します。まずは足場を作り、経験を強みに次で狙います。" },
+              { t: "学習だけで応募しません", d: "完璧を目指して学習を続け、いつまでも応募しないのは機会損失です。ポートフォリオが最低ラインに達したら、学習を続けながら応募を始めます。" },
             ].map((x, i) => (
               <div key={i} className="bg-red-50 rounded-lg p-5">
                 <h3 className="font-bold text-red-800 mb-1.5">{x.t}</h3>

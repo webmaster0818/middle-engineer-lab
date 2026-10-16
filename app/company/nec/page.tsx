@@ -202,9 +202,9 @@ export default function NecCompanyPage() {
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>最新のモダンWeb技術を常に最優先で追いたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>スタートアップ的なスピード・裁量を最重視します</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>スタートアップ的なスピード・裁量を最重視する</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>大企業特有の調整・意思決定プロセスが苦手</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>少人数で何でも自分で回す環境を好みます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>少人数で何でも自分で回す環境を好む</li>
               </ul>
             </div>
           </div>

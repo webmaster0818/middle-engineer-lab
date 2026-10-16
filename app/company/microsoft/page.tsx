@@ -30,8 +30,8 @@ const basicData: [string, string][] = [
   ["企業名", "日本マイクロソフト株式会社（Microsoft Japan）"],
   ["業種", "ソフトウェア・クラウドサービス"],
   ["本社所在地", "東京都港区（品川）"],
-  ["ミッション", "地球上のすべての個人と組織が、より多くを達成できるようにする"],
-  ["文化", "Growth Mindset（成長マインドセット）を全社方針に掲げる"],
+  ["ミッション", "地球上のすべての個人と組織が、より多くを達成できるようにします"],
+  ["文化", "Growth Mindset（成長マインドセット）を全社方針に掲げます"],
   ["技術スタック", "C# / .NET / TypeScript / Python / Azure / React 等（開発系ポジション）"],
 ];
 
@@ -163,7 +163,7 @@ export default function MicrosoftCompanyPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li>① <strong>クラウド（Azure／AWS等）や分散システム</strong>の設計・開発経験があります</li>
               <li>② <strong>学び続ける姿勢（Growth Mindset）</strong>を実績で示せます</li>
-              <li>③ コーディング・設計面接の基礎と、必要に応じた英語コミュニケーション</li>
+              <li>③ コーディング・設計面接の基礎と、必要に応じた英語コミュニケーションです</li>
             </ul>
             <p className="text-blue-900 text-sm leading-relaxed mt-3">
               準備は
@@ -293,7 +293,7 @@ export default function MicrosoftCompanyPage() {
               ["応募 / リクルーター面談", "公式キャリアサイト・LinkedIn・リファラル経由で応募します。経歴と志向を確認します。"],
               ["技術面接（複数回）", "コーディング、設計、行動面接がバランスよく問われる傾向があります。"],
               ["最終面接", "上位の面接官との面接で、技術・カルチャーフィットを総合的に確認します。"],
-              ["オファー", "条件提示です。内容はポジション・等級で異なります。"],
+              ["オファー", "条件が提示されます。内容はポジション・等級で異なります。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
@@ -335,15 +335,15 @@ export default function MicrosoftCompanyPage() {
               <ul className="space-y-1 text-sm text-emerald-900">
                 <li>・在宅・フレックスなど柔軟な働き方が整っています</li>
                 <li>・有休消化率が業界平均より高め（集計値で約72%）</li>
-                <li>・高い給与水準と評価の透明性を評価する声</li>
+                <li>・高い給与水準と評価の透明性を評価する声があります</li>
               </ul>
             </div>
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる点の傾向</h3>
               <ul className="space-y-1 text-sm text-amber-900">
                 <li>・月間平均残業は約28時間と、部署により負荷差があります</li>
-                <li>・繁忙期は忙しくなるという声</li>
-                <li>・働き方が個人の裁量に委ねられ自己管理が必要</li>
+                <li>・繁忙期は忙しくなるという声があります</li>
+                <li>・働き方が個人の裁量に委ねられ自己管理が必要です</li>
               </ul>
             </div>
           </div>
@@ -380,7 +380,7 @@ export default function MicrosoftCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資ITを扱うヘッドハンターと接点を作りやすいです。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化です。技術職の選考対策・キャリアの棚卸しに強いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。技術職の選考対策・キャリアの棚卸しに強いです。" },
               { name: "doda ITエンジニア", href: "/review/doda-it/", desc: "国内最大級の総合型です。外資・大手の選択肢を幅広く比較したい人向けです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

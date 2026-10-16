@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/apple/" },
   title: "Apple Japanの年収は平均700万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "Apple Japanのエンジニア中途採用を公式採用情報・口コミ出典付きで解説。年収の考え方、秘密主義の開発文化、英語要件、選考フロー、30代40代の注意点までまとめました。",
+    "Apple Japanのエンジニア中途採用を公式採用情報・口コミ出典を明記して解説します。年収の考え方、秘密主義の開発文化、英語要件、選考フロー、30代40代の注意点までまとめました。",
 };
 
 const tocItems = [
@@ -75,7 +75,7 @@ export default function AppleCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="Apple Japan エンジニア転職ガイド" description="Apple Japanのエンジニア中途採用を公式採用情報・口コミ出典付きで解説。年収の考え方、秘密主義の開発文化、英語要件、選考フローまでまとめました。" url="/company/apple/" />
+      <ArticleJsonLd title="Apple Japan エンジニア転職ガイド" description="Apple Japanのエンジニア中途採用を公式採用情報・口コミ出典を明記して解説します。年収の考え方、秘密主義の開発文化、英語要件、選考フローまでまとめました。" url="/company/apple/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "App Storeにアプリを公開するの転職ガイド", href: "/skill/swift/" }, { name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "Apple Japan" }]} />
 
@@ -87,7 +87,7 @@ export default function AppleCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Apple Japanの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Apple Japanは合同会社のため有価証券報告書による平均年収の公式開示がありません。OpenWork集計では全社平均700万円台、エンジニア・専門職では2,000万円超の回答例も見られます（2026年時点・変動大）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・合同会社ゆえ公式の平均年収は非公表です。OpenWork集計で全社平均は700万円台です（2026年時点の口コミ参考値）。</li><li>・エンジニア・専門職では株式報酬（RSU）等を含め2,000万円超の回答例もありますが、職種・等級・回答者の偏りで大きく変動しています。</li><li>・参考としてレバテック2025年公表の正社員SEは30代約499万円・40代約618万円です。正確なレンジはオファー内容でご確認ください。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・合同会社ゆえ公式の平均年収は非公表です。OpenWork集計で全社平均は700万円台です（2026年時点の口コミ参考値）。</li><li>・エンジニア・専門職では株式報酬（RSU）等を含め2,000万円超の回答例もありますが、職種・等級・回答者の偏りで大きく変動します。</li><li>・参考としてレバテック2025年公表の正社員SEは30代約499万円・40代約618万円です。正確なレンジはオファー内容でご確認ください。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-4">
@@ -191,7 +191,7 @@ export default function AppleCompanyPage() {
               <ul className="space-y-2 text-sm text-rose-900">
                 <li>● 秘密主義が徹底され、入社前に担当業務の詳細が見えにくくミスマッチが起きやすいです</li>
                 <li>● OSSより独自エコシステム中心で、外向きの技術発信が制限されます</li>
-                <li>● 多くの職種でビジネスレベルの英語が必須</li>
+                <li>● 多くの職種でビジネスレベルの英語が必須です</li>
                 <li>● 年収は口コミ参考値で振れ幅が大きく、ポジション・等級で大差があります</li>
               </ul>
             </div>
@@ -204,10 +204,10 @@ export default function AppleCompanyPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3 text-sm">向いている人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li>✓ iOS/macOS・低レイヤ・ML等で深い専門性があります</li>
-                <li>✓ ビジネスレベルの英語でグローバルチームと協働できます</li>
-                <li>✓ Appleのプロダクト・ものづくり哲学に強い共感があります</li>
-                <li>✓ 秘密保持を前提とした内製・統合開発の文化に適応できます</li>
+                <li>✓ iOS/macOS・低レイヤ・ML等で深い専門性がある</li>
+                <li>✓ ビジネスレベルの英語でグローバルチームと協働できる</li>
+                <li>✓ Appleのプロダクト・ものづくり哲学に強い共感がある</li>
+                <li>✓ 秘密保持を前提とした内製・統合開発の文化に適応できる</li>
               </ul>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -215,8 +215,8 @@ export default function AppleCompanyPage() {
               <ul className="space-y-2 text-sm text-slate-600">
                 <li>✕ OSS活動・登壇など外向きの発信を重視したい</li>
                 <li>✕ 入社前に担当業務を詳細に把握してから決めたい</li>
-                <li>✕ 英語でのコミュニケーションに不安が大きいです</li>
-                <li>✕ 幅広く浅く担当する働き方を望みます（専門特化が前提）</li>
+                <li>✕ 英語でのコミュニケーションに不安が大きい</li>
+                <li>✕ 幅広く浅く担当する働き方を望む（専門特化が前提）</li>
               </ul>
             </div>
           </div>
@@ -268,7 +268,7 @@ export default function AppleCompanyPage() {
             {[
               ["1. 応募（jobs.apple.com）", "公式採用ポータルで職種・勤務地を絞り、プロフィール登録のうえ応募します。リファラル（社員紹介）経由のルートもあるとされます。"],
               ["2. リクルーター／書類スクリーニング", "経歴・専門性がポジション要件に合致するかを確認します。"],
-              ["3. 技術面接（複数回）", "コーディング・システム設計・専門領域の深掘りが中心です。リモート職ではビデオ通話で実施されることが多いとされます。"],
+              ["3. 技術面接（複数回）", "コーディング・システム設計・専門領域の深掘りが中心。リモート職ではビデオ通話で実施されることが多いとされます。"],
               ["4. 最終面接・オファー", "面接官の裁量が大きいとの口コミがあり、相性・カルチャーフィットも重視されます。条件提示を経て内定します。"],
             ].map(([title, desc], i) => (
               <li key={i} className="border border-slate-200 rounded-lg p-4">
@@ -318,7 +318,7 @@ export default function AppleCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資や専門職を扱うヘッドハンター経由の案件に出会いやすいです。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。iOS/組み込み等の専門求人も。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。iOS/組み込み等の専門求人もあります。" },
               { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界専門です。外資系メーカー・専門職の求人も取り扱いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

@@ -79,8 +79,8 @@ export default function StablePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 住宅ローンを組むために安定企業に入りたい</li>
-              <li>- 家族がいるため倒産リスクの低い企業で働きたい</li>
+              <li>- 住宅ローンを組むために安定企業に入りたいと考えています</li>
+              <li>- 家族がいるため倒産リスクの低い企業で働きたいと考えています</li>
               <li>- 退職金・企業年金がある企業を希望しています</li>
               <li>- 長期的にキャリアを築ける環境を求めています</li>
             </ul>
@@ -101,9 +101,9 @@ export default function StablePage() {
               </thead>
               <tbody>
                 {[
-                  { type: "大手メーカー社内SE", salary: "500〜750万円", stable: "非常に高い", benefits: "充実" },
-                  { type: "メガバンクIT部門", salary: "600〜900万円", stable: "非常に高い", benefits: "非常に充実" },
-                  { type: "通信キャリアIT部門", salary: "550〜850万円", stable: "非常に高い", benefits: "充実" },
+                  { type: "大手メーカー社内SE", salary: "500〜750万円", stable: "非常に高いです", benefits: "充実" },
+                  { type: "メガバンクIT部門", salary: "600〜900万円", stable: "非常に高いです", benefits: "非常に充実" },
+                  { type: "通信キャリアIT部門", salary: "550〜850万円", stable: "非常に高いです", benefits: "充実" },
                   { type: "公共系SIer", salary: "450〜700万円", stable: "高い", benefits: "充実" },
                   { type: "大手SaaS企業", salary: "550〜850万円", stable: "高い", benefits: "中程度" },
                 ].map((row, i) => (

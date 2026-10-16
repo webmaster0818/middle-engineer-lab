@@ -256,8 +256,8 @@ export default function NttDataCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 text-sm mb-2">良い傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-green-700">
-                <li>・福利厚生が非常に充実しているとの評価</li>
-                <li>・優秀な社員が多く学べる環境という声</li>
+                <li>・福利厚生が非常に充実しているとの評価があります</li>
+                <li>・優秀な社員が多く学べる環境という声があります</li>
                 <li>・テレワーク等の多様な働き方の制度が整います</li>
               </ul>
             </div>
@@ -265,8 +265,8 @@ export default function NttDataCompanyPage() {
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-amber-700">
                 <li>・プロジェクトによっては仕事量が多いです</li>
-                <li>・成長機会は配属・案件により個人差</li>
-                <li>・大企業ゆえの調整・手続きの多さの指摘</li>
+                <li>・成長機会は配属・案件により個人差があります</li>
+                <li>・大企業ゆえの調整・手続きの多さの指摘があります</li>
               </ul>
             </div>
           </div>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/tableau/" },
   title: "Tableauエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Tableauスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。",
+    "Tableauスキルを持つエンジニアの転職市場を出典を明記して解説します。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。",
 };
 
 const toc = [
@@ -70,7 +70,7 @@ export default function TableauSkillPage() {
     <>
       <ArticleJsonLd
         title="Tableauエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Tableauスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。"
+        description="Tableauスキルを持つエンジニアの転職市場を出典を明記して解説します。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。"
         url="/skill/tableau/"
       />
       <script
@@ -133,7 +133,7 @@ export default function TableauSkillPage() {
               <strong>Tableauは「操作スキル」ではなく「ビジネス課題を可視化に翻訳する力」で評価されます。</strong>ツールを触れるだけでなく、何を可視化しどんな意思決定につなげたかが問われます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Tableau単体の公表年収は乏しいため、<strong>BIエンジニア／データアナリスト等の職種年収で代替</strong>して捉えるのが実態</li>
+              <li>・Tableau単体の公表年収は乏しいため、<strong>BIエンジニア／データアナリスト等の職種年収で代替</strong>して捉えるのが実態です</li>
               <li>・Excel・SQLでの分析経験があれば、Tableau未経験でもポテンシャル採用の余地があります</li>
               <li>・<strong>SQL・DWH・分析設計</strong>との掛け合わせで市場価値が上がります</li>
             </ul>
@@ -186,7 +186,7 @@ export default function TableauSkillPage() {
               { use: "経営・KPIダッシュボード", note: "経営指標の可視化です。意思決定支援の中核" },
               { use: "売上・マーケティング分析", note: "売上推移・顧客分析の可視化です。事業会社で頻出" },
               { use: "Tableau Prepによるデータ整形", note: "可視化前のデータクレンジング・結合" },
-              { use: "Tableau Serverでの社内共有", note: "ダッシュボードの配信・権限管理です。運用面の役割" },
+              { use: "Tableau Serverでの社内共有", note: "ダッシュボードの配信・権限管理。運用面の役割" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.use}</h3>
@@ -222,8 +222,8 @@ export default function TableauSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "BIエンジニア", note: "BIダッシュボードの設計・運用です。データソース整備とセットで担います" },
-              { role: "データアナリスト", note: "Tableauでの可視化＋分析です。ビジネス課題への示唆出し" },
+              { role: "BIエンジニア", note: "BIダッシュボードの設計・運用。データソース整備とセットで担います" },
+              { role: "データアナリスト", note: "Tableauでの可視化＋分析。ビジネス課題への示唆出し" },
               { role: "アナリティクスエンジニア", note: "SQL・dbtでのデータ整備＋BIです。データ基盤とBIの橋渡し" },
               { role: "データ活用推進・社内コンサル", note: "可視化を通じた組織のデータドリブン化を推進" },
             ].map((item, i) => (

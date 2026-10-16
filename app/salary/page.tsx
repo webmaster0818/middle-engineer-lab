@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "エンジニアが年収を上げる転職｜ITSSレベル×年収の地図と到達ロードマップ";
 const DESCRIPTION =
-  "ITエンジニアが年収を上げるための「金額→必要スキルレベル・役職・職種」の対応地図を、経産省ITSSレベル別平均年収やdoda発表値など出典付きで整理。経験年数別ロードマップと600万・800万・1000万への到達条件を解説します。";
+  "ITエンジニアが年収を上げるための「金額→必要スキルレベル・役職・職種」の対応地図を、経産省ITSSレベル別平均年収やdoda発表値など出典を明記して整理します。経験年数別ロードマップと600万・800万・1000万への到達条件を解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/" },
@@ -27,7 +27,7 @@ const toc = [
 
 const itssData = [
   { level: "L1", salary: "437.8万円", role: "新人・エントリーです。指示のもとタスクを遂行" },
-  { level: "L2", salary: "499.2万円", role: "一定領域を独力で完遂です。担当工程を任される" },
+  { level: "L2", salary: "499.2万円", role: "一定領域を独力で完遂します。担当工程を任される" },
   { level: "L3", salary: "576.0万円", role: "応用・改善ができます。小規模リーダー" },
   { level: "L4", salary: "726.1万円", role: "高度専門・プロのレベルです。設計や指導を主導" },
   { level: "L5", salary: "937.8万円", role: "社内をリードするハイレベル専門家・管理者" },
@@ -78,7 +78,7 @@ const methods = [
   },
   {
     title: "フリーランス・業務委託",
-    range: "目安：単価ベースで額面は上がりやすい",
+    range: "目安：単価ベースで額面は上がりやすいです",
     desc: "額面は上がりやすい一方、社会保険・税の自己負担で手取りは目減りします。損得は働き方比較の記事で構造的に解説しています。",
   },
   {
@@ -93,7 +93,7 @@ const bandSummary = [
     band: "500万円",
     href: "/salary/500man/",
     itss: "ITSS L3前半（576.0万円のやや下）",
-    condition: "2〜3年の実務で開発工程を一通り独力で回せる",
+    condition: "2〜3年の実務で開発工程を一通り独力で回せます",
     jobs: "Web系開発・社内SE・SESからの脱出層",
   },
   {
@@ -446,7 +446,7 @@ export default function SalaryTopPage() {
       <TechgoCta
         heading="年収データを見たら、次は自分の市場価値"
         note="テックゴーは年収アップ平均144万円（2026年3月の内定承諾者平均・公式公表）を公表するミドル向けIT特化エージェントです。無料面談で相場観を確認できます。"
-        buttonText="無料キャリア面談を予約する（公式）"
+        buttonText="無料キャリア面談を予約します（公式）"
       />
 
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>

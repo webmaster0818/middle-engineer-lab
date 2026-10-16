@@ -200,7 +200,7 @@ export default function OkayamaAreaPage() {
         <section id="market" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">岡山のIT・産業の集積と現実</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            まずご説明すると、岡山のITエンジニアの公開求人は、首都圏に比べて限定的です。求人件数や平均年収を断定的な数値で示すことは、この記事ではしません。一方で、地域の産業構造を理解しておくと、どんな求人に出会いやすいかの解像度は上がります。岡山市は新幹線・高速道路網が東西南北に交わる中四国の交通ハブで、物流・流通系の拠点が置かれやすい立地です。教育大手ベネッセコーポレーションの本社があるなど特色のある事業会社も存在し、岡山市はIT・デジタルコンテンツ産業の立地支援も行っています。経済産業省が2019年3月に公表した「IT人材需給に関する調査」では2030年に最大約79万人のIT人材不足が試算されており、地方でもDX人材の需要は構造的に続くと見られます。
+            まず、岡山のITエンジニアの公開求人は、首都圏に比べて限定的です。求人件数や平均年収を断定的な数値で示すことは、この記事ではしません。一方で、地域の産業構造を理解しておくと、どんな求人に出会いやすいかの解像度は上がります。岡山市は新幹線・高速道路網が東西南北に交わる中四国の交通ハブで、物流・流通系の拠点が置かれやすい立地です。教育大手ベネッセコーポレーションの本社があるなど特色のある事業会社も存在し、岡山市はIT・デジタルコンテンツ産業の立地支援も行っています。経済産業省が2019年3月に公表した「IT人材需給に関する調査」では2030年に最大約79万人のIT人材不足が試算されており、地方でもDX人材の需要は構造的に続くと見られます。
           </p>
           <div className="space-y-4">
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
@@ -237,7 +237,7 @@ export default function OkayamaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地場企業に出社・ハイブリッドで勤務:</strong> 地域に根ざしたキャリアを重視する人向けです。求人の母数は限られるが、要件定義から運用まで幅広く担える経験を積みやすいです。
+                <strong>地場企業に出社・ハイブリッドで勤務:</strong> 地域に根ざしたキャリアを重視する人向けです。求人の母数は限られますが、要件定義から運用まで幅広く担える経験を積みやすいです。
               </p>
             </div>
             <div className="flex items-start gap-3">

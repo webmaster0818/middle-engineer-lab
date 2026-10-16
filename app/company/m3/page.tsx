@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/m3/" },
   title: "エムスリーの年収は平均975万円【2026年・有報】エンジニア転職・技術スタック解説",
   description:
-    "エムスリー（2413）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収975万円(2026年3月期・全社員平均)、Kotlin/Scala/TypeScript中心の技術スタック、チーム裁量の技術選定、選考フロー、30代40代の進め方まで。",
+    "エムスリー（2413）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収975万円(2026年3月期・全社員平均)、Kotlin/Scala/TypeScript中心の技術スタック、チーム裁量の技術選定、選考フロー、30代40代の進め方までを解説します。",
 };
 
 const salaryTrend: [string, string, string][] = [
@@ -91,7 +91,7 @@ export default function M3CompanyPage() {
     <>
       <ArticleJsonLd
         title="エムスリー エンジニア転職ガイド"
-        description="エムスリーへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収975万円(2026年3月期)、Kotlin/Scala/TypeScript中心の技術スタック、選考フロー、口コミ傾向まで。"
+        description="エムスリーへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収975万円(2026年3月期)、Kotlin/Scala/TypeScript中心の技術スタック、選考フロー、口コミ傾向までを解説します。"
         url="/company/m3/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -248,11 +248,11 @@ export default function M3CompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["カジュアル面談（任意）", "選考前にエンジニアや採用担当と話し、仕事内容や技術文化を知れる機会です。"],
+              ["カジュアル面談（任意）", "選考前にエンジニアや採用担当と話し、仕事内容や技術文化を知れる機会。"],
               ["エントリー（書類選考）", "募集ポジションから応募し書類を提出します。職務経歴・技術スタックが確認されます。"],
-              ["面接（複数回）", "現場エンジニア・マネージャー等との面接です。技術的な議論や設計・実装に関する質問が中心です。"],
+              ["面接（複数回）", "現場エンジニア・マネージャー等との面接。技術的な議論や設計・実装に関する質問が中心。"],
               ["技術課題／コーディング", "ポジションによっては実装課題やコーディング課題で実力を確認する場合があります。"],
-              ["内定（オファー）", "条件・制度の説明です。配属やミッションのすり合わせが行われます。"],
+              ["内定（オファー）", "条件・制度の説明を受けます。配属やミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -301,7 +301,7 @@ export default function M3CompanyPage() {
               <ul className="space-y-1.5 text-sm text-amber-900">
                 <li>少数精鋭ゆえに一人あたりの責任・業務範囲が広く、自走が求められます</li>
                 <li>事業スピードが速く、変化への適応が前提となります</li>
-                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
+                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意が必要です</li>
               </ul>
             </div>
           </div>
@@ -331,7 +331,7 @@ export default function M3CompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。テック企業の非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、Web系企業への転職実績が豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、Web系企業への転職実績が豊富です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高いテック企業・専門職の求人に対応しています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

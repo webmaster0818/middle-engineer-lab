@@ -25,7 +25,7 @@ const toc = [
 ];
 
 const gapRows = [
-  { axis: "プログラミング基礎", back: "◎ 設計・テスト・レビューの習慣", front: "○ 言語が異なっても基礎は流用できる", gap: "活用" },
+  { axis: "プログラミング基礎", back: "◎ 設計・テスト・レビューの習慣", front: "○ 言語が異なっても基礎は流用できます", gap: "活用" },
   { axis: "モダンフレームワーク（React等）", back: "△ 触れる機会が限定的", front: "◎ React/Next.js等のSPA開発が中核", gap: "大" },
   { axis: "UI/UX・ブラウザ理解", back: "△ サーバー側中心で経験が薄いです", front: "◎ レンダリング・アクセシビリティ・レスポンシブ", gap: "大" },
   { axis: "状態管理・非同期UI", back: "○ 非同期処理自体には慣れています", front: "◎ クライアント状態管理とUI更新の設計", gap: "中" },
@@ -209,13 +209,13 @@ export default function BackendToFrontendPage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（サーバー処理の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                業務システムのバックエンド開発を担当します。REST APIの実装、DB設計、バッチ処理の作成を行った。パフォーマンス改善のためクエリの最適化を実施しました。
+                業務システムのバックエンド開発を担当。REST APIの実装、DB設計、バッチ処理の作成を行った。パフォーマンス改善のためクエリの最適化を実施しました。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（ユーザー体験と実装を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                個人開発でReact/Next.jsを用いたSPAを構築し、API設計の知見を活かして無駄のないデータ取得とローディングUIを設計します。アクセシビリティ（WAI-ARIA）とレスポンシブに配慮し、画像最適化とコード分割でLCPを改善します。バックエンド経験を活かしBFF層も自作しました。GitHubでコードを公開しています。
+                個人開発でReact/Next.jsを用いたSPAを構築し、API設計の知見を活かして無駄のないデータ取得とローディングUIを設計。アクセシビリティ（WAI-ARIA）とレスポンシブに配慮し、画像最適化とコード分割でLCPを改善。バックエンド経験を活かしBFF層も自作しました。GitHubでコードを公開します。
               </p>
             </div>
           </div>

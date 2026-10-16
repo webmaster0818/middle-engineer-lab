@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：在職中に3ヶ月、週次で淡々と進める" },
+  { id: "conclusion", label: "結論：在職中に3ヶ月、週単位で計画的に進める" },
   { id: "overview", label: "全体像：標準スケジュールの考え方" },
   { id: "plan", label: "3ヶ月の週次計画表（在職中モデル）" },
   { id: "weekly", label: "在職中の「週次の動き方」モデル" },
@@ -25,38 +25,38 @@ const toc = [
 
 const month1 = [
   { week: "1週目", tasks: "キャリアの棚卸し。これまでの経験・スキル・成果を一覧化し、転職の軸（年収・技術・ポジション・働き方）を3つ程度に絞ります。求人を眺める前に「何を満たせば成功か」を言語化しておきます。" },
-  { week: "2週目", tasks: "職務経歴書・履歴書の初稿作成です。GitHub・ポートフォリオの整理です。IT特化型エージェント2〜3社に登録し、初回面談（オンライン可）を予約します。" },
-  { week: "3週目", tasks: "エージェント初回面談を実施します。市場価値の確認、希望条件のすり合わせ、書類の添削依頼です。並行して気になる企業の採用ページ・技術ブログを読み込みます。" },
-  { week: "4週目", tasks: "応募企業の選定です。エージェント紹介＋自己応募の候補を10〜20社リストアップです。優先度（第1志望群・練習群）を分けておきます。" },
+  { week: "2週目", tasks: "職務経歴書・履歴書の初稿を作成し、GitHub・ポートフォリオを整理します。IT特化型エージェント2〜3社に登録し、初回面談（オンライン可）を予約します。" },
+  { week: "3週目", tasks: "エージェント初回面談を実施します。市場価値の確認、希望条件のすり合わせ、書類の添削依頼を行います。並行して気になる企業の採用ページ・技術ブログを読み込みます。" },
+  { week: "4週目", tasks: "応募企業を選定します。エージェント紹介と自己応募をあわせて候補を10〜20社挙げ、優先度（第1志望群・練習群）を分けておきます。" },
 ];
 
 const month2 = [
   { week: "5週目", tasks: "書類応募を開始します。一度に多すぎると日程調整が破綻するため、まず5〜8社ずつ波を作って応募します。書類の通過可否でレジュメを微修正します。" },
   { week: "6週目", tasks: "一次面接（カジュアル面談・技術面接）が始まります。技術面接・コーディング試験の対策を並行します。面接後はその日のうちに質問内容を記録します。" },
-  { week: "7週目", tasks: "一次面接を複数社で実施します。エージェントと振り返り、評価されなかった回答を改善します。第2志望群の追加応募もこの週に。" },
-  { week: "8週目", tasks: "二次・最終面接に進む企業が出てくります。志望度の高い企業の選考スピードを合わせられるよう、エージェントに日程調整を相談します。" },
+  { week: "7週目", tasks: "一次面接を複数社で実施します。エージェントと振り返り、評価されなかった回答を改善します。第2志望群への追加応募もこの週に行います。" },
+  { week: "8週目", tasks: "二次・最終面接に進む企業が出てきます。志望度の高い企業の選考スピードを合わせられるよう、エージェントに日程調整を相談します。" },
 ];
 
 const month3 = [
   { week: "9週目", tasks: "最終面接を実施します。内定・オファー面談が出始めます。提示年収・等級・役割を書面で確認し、条件交渉はこの段階で行います。" },
   { week: "10週目", tasks: "オファー比較と内定承諾です。複数内定がある場合はスコアリングで比較し1社に決定します。入社日は退職スケジュールから逆算して合意します。" },
   { week: "11週目", tasks: "現職の直属上司に退職意思を伝えます。引き継ぎ計画のドラフトを作成し、退職日・最終出社日の目安を共有します。" },
-  { week: "12週目", tasks: "引き継ぎ開始、退職届の提出、有給消化の調整です。入社書類の準備、開発環境やアカウントの個人/会社切り分けを進めます。" },
+  { week: "12週目", tasks: "引き継ぎを開始し、退職届の提出と有給消化の調整を行います。入社書類の準備、開発環境やアカウントの個人/会社切り分けを進めます。" },
 ];
 
 const weekly = [
   { slot: "平日 朝（出社前 15分）", action: "エージェントからの新着求人・メッセージを確認します。気になる求人は「興味あり」だけ即返信し、精査は夜に回します。" },
-  { slot: "平日 昼休み（10分）", action: "面接日程の返信・リスケ対応です。スプレッドシートの選考ステータスを最新化します。" },
-  { slot: "平日 夜（30〜60分）", action: "週2〜3回です。書類のブラッシュアップ、企業研究、面接の振り返りメモ作成です。オンライン面接は19時以降の枠を活用します。" },
+  { slot: "平日 昼休み（10分）", action: "面接日程の返信や日程変更に対応します。スプレッドシートの選考ステータスを最新化します。" },
+  { slot: "平日 夜（30〜60分）", action: "週2〜3回、書類の改善、企業研究、面接の振り返りメモの作成を行います。オンライン面接は19時以降の枠を活用します。" },
   { slot: "週末（2〜3時間）", action: "翌週の応募候補の選定、技術面接・コーディング対策、職務経歴書の更新をまとめて行います。平日に細切れでやらない作業はここに寄せます。" },
 ];
 
 const tips = [
   { title: "1. 面接は同じ週・近い日程にまとめる", body: "まとめて受けると比較検討がしやすく、面接スキルも短期間で上がります。第1志望は練習を数社こなした後半に置くと通過率が上がります。" },
   { title: "2. スプレッドシートで一元管理する", body: "応募企業・選考ステータス・面接日程・提示年収・エージェント担当者を1枚で管理します。複数エージェント併用時の重複応募事故も防げます。" },
-  { title: "3. 面接後は当日中に振り返る", body: "聞かれた質問・自分の回答・改善点をその日のうちにメモです。次の面接とエージェントへのフィードバックに直結します。" },
+  { title: "3. 面接後は当日中に振り返る", body: "聞かれた質問・自分の回答・改善点をその日のうちに記録します。次の面接とエージェントへのフィードバックに直結します。" },
   { title: "4. 内定のタイミングを揃える", body: "志望度の高い企業ほど選考が長引きがちです。エージェントに「他社と時期を合わせたい」と伝え、選考スピードを調整してもらいましょう。" },
-  { title: "5. 在職中はリモート面接を最優先で調整", body: "平日夜・オンライン面接を軸にすると有給を温存できます。対面が必須の最終面接だけ半休を充てる、といった配分が現実的です。" },
+  { title: "5. 在職中はオンライン面接を優先して調整する", body: "平日夜・オンライン面接を軸にすると有給を温存できます。対面が必須の最終面接だけ半休を充てる、といった配分が現実的です。" },
 ];
 
 const faqs = [
@@ -136,7 +136,7 @@ export default function TimelinePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニア転職のスケジュールはどう組めばいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 在職中なら約3ヶ月を目安に、準備・応募と面接・内定と退職の3フェーズへ分け、週次ルーティンで淡々と進めるのが基本です。</strong></p>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 在職中なら約3ヶ月を目安に、準備・応募と面接・内定と退職の3フェーズへ分け、週次の習慣として計画的に進めるのが基本です。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・準備1ヶ月・応募と面接1ヶ月・内定と退職1ヶ月の3フェーズに分けると、在職中でも破綻しにくいです</li><li>・朝昼はスマホで返信、夜と週末にまとめ作業、という週次ルーティンに落とします</li><li>・入社希望日から逆算し、退職に必要な期間（通知＋引き継ぎ＋有給消化）を先に確保します</li></ul>
           </div>
         </section>
@@ -166,7 +166,7 @@ export default function TimelinePage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：在職中に約3ヶ月、週次で淡々と</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：在職中に約3ヶ月、週単位で計画的に進める</h2>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・<strong>準備1ヶ月・応募と面接1ヶ月・内定と退職1ヶ月</strong>の3フェーズに分けると、在職中でも破綻しにくいです。</li>
               <li>・活動の大半は「<strong>朝昼はスマホで返信、夜と週末にまとめ作業</strong>」の週次ルーティンに落とせます。</li>
@@ -184,7 +184,7 @@ export default function TimelinePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="border border-slate-200 rounded-xl p-5">
               <h3 className="font-bold text-slate-800 mb-2">1ヶ月目：準備</h3>
-              <p className="text-sm text-slate-600">棚卸し・書類作成・エージェント登録・応募先選定です。ここの質が後半の通過率を左右します。</p>
+              <p className="text-sm text-slate-600">棚卸し、書類作成、エージェント登録、応募先の選定を行います。ここの質が後半の通過率を左右します。</p>
             </div>
             <div className="border border-slate-200 rounded-xl p-5">
               <h3 className="font-bold text-slate-800 mb-2">2ヶ月目：応募・面接</h3>
@@ -192,7 +192,7 @@ export default function TimelinePage() {
             </div>
             <div className="border border-slate-200 rounded-xl p-5">
               <h3 className="font-bold text-slate-800 mb-2">3ヶ月目：内定・退職</h3>
-              <p className="text-sm text-slate-600">オファー比較・条件確認・退職交渉・引き継ぎ。入社日から逆算して動きます。</p>
+              <p className="text-sm text-slate-600">オファーの比較、条件確認、退職交渉、引き継ぎを行います。入社日から逆算して動きます。</p>
             </div>
           </div>
           <div className="mt-5 bg-slate-50 border border-slate-200 rounded-lg p-4 text-sm text-slate-600">
@@ -328,12 +328,12 @@ export default function TimelinePage() {
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点：時間がない人のスケジュール術</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            30代・40代は、プレイングマネージャーや家庭・育児・介護との両立で、20代より自由に使える時間が限られます。だからこそ「量で押す」より「設計で勝つ」スケジューリングが効きます。
+            30代・40代は、プレイングマネージャーや家庭・育児・介護との両立で、20代より自由に使える時間が限られます。だからこそ応募数を増やすことより、計画的なスケジュール設計が有効です。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">窓口を絞って探索コストを下げる</h3>
-              <p className="text-sm text-slate-600">求人を自力で広く探すと時間が溶けます。IT特化型エージェント2〜3社に窓口を絞り、求人探しと日程調整を任せると、本業との両立がしやすくなります。エージェントの使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェント併用ガイド</Link>を参照してください。</p>
+              <p className="text-sm text-slate-600">求人を自力で広く探すと、多くの時間を要します。IT特化型エージェント2〜3社に窓口を絞り、求人探しと日程調整を任せると、本業との両立がしやすくなります。エージェントの使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">複数エージェント併用ガイド</Link>を参照してください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">面接を週1〜2に絞り、繁忙期は止める</h3>

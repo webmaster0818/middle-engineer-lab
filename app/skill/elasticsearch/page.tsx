@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/elasticsearch/" },
   title: "Elasticsearchエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Elasticsearchスキルを持つエンジニアの転職市場を出典付きで解説。検索・ログ分析基盤での用途、データエンジニア職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。",
+    "Elasticsearchスキルを持つエンジニアの転職市場を出典を明記して解説します。検索・ログ分析基盤での用途、データエンジニア職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
@@ -70,7 +70,7 @@ export default function ElasticsearchSkillPage() {
     <>
       <ArticleJsonLd
         title="Elasticsearchエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Elasticsearchスキルを持つエンジニアの転職市場を出典付きで解説。検索・ログ分析基盤での用途、データエンジニア職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="Elasticsearchスキルを持つエンジニアの転職市場を出典を明記して解説します。検索・ログ分析基盤での用途、データエンジニア職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/elasticsearch/"
       />
       <script
@@ -133,7 +133,7 @@ export default function ElasticsearchSkillPage() {
               <strong>Elasticsearchは「単体スキル」ではなく「検索・ログ基盤の構築運用力」として評価されます。</strong>言語そのものより、何を解決した経験があるか（検索精度・大規模ログ・可観測性）が問われます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Elasticsearch単体の公表年収は乏しいため、<strong>データエンジニア／データアナリスト等の職種年収で代替</strong>して捉えるのが実態</li>
+              <li>・Elasticsearch単体の公表年収は乏しいため、<strong>データエンジニア／データアナリスト等の職種年収で代替</strong>して捉えるのが実態です</li>
               <li>・バックエンド・インフラ経験があれば、Elasticsearch未経験でもポテンシャル採用の余地があります</li>
               <li>・<strong>クラウド・Kubernetes・ベクトル検索</strong>との掛け合わせで市場価値が上がります</li>
             </ul>
@@ -183,10 +183,10 @@ export default function ElasticsearchSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { use: "全文検索・サイト内検索", note: "EC商品検索、アプリ内検索です。アナライザ・スコアリング設計が問われます" },
+              { use: "全文検索・サイト内検索", note: "EC商品検索、アプリ内検索。アナライザ・スコアリング設計が問われます" },
               { use: "ログ分析・可観測性（ELK）", note: "Kibana・Logstash・Beatsと組み合わせたログ基盤・監視です。SRE領域と重なります" },
-              { use: "ベクトル検索・セマンティック検索", note: "埋め込みベクトルによる意味検索です。RAG基盤としての採用が増加" },
-              { use: "大規模データの集計・分析", note: "Aggregationによるリアルタイム集計です。ダッシュボード用途" },
+              { use: "ベクトル検索・セマンティック検索", note: "埋め込みベクトルによる意味検索。RAG基盤としての採用が増加" },
+              { use: "大規模データの集計・分析", note: "Aggregationによるリアルタイム集計。ダッシュボード用途" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.use}</h3>
@@ -222,10 +222,10 @@ export default function ElasticsearchSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "データエンジニア", note: "検索・ログ基盤の構築運用です。SQL・Python・クラウドとの掛け合わせ" },
+              { role: "データエンジニア", note: "検索・ログ基盤の構築運用。SQL・Python・クラウドとの掛け合わせ" },
               { role: "SRE／オブザーバビリティエンジニア", note: "ELKによる監視・ログ基盤です。Kubernetes・可観測性ツールと連携" },
-              { role: "検索基盤エンジニア", note: "検索精度の改善・ランキング設計です。自然言語処理の知識が活きます" },
-              { role: "バックエンドエンジニア", note: "アプリ内検索の実装です。API設計とElasticsearch運用の両立" },
+              { role: "検索基盤エンジニア", note: "検索精度の改善・ランキング設計。自然言語処理の知識が活きます" },
+              { role: "バックエンドエンジニア", note: "アプリ内検索の実装。API設計とElasticsearch運用の両立" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>

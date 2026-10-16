@@ -66,8 +66,8 @@ const salaryByAge = [
 ];
 
 const certTable = [
-  ["Terraform Associate（003）", "選択式中心", "基礎スキルの証明です。転職でまず狙う入口の資格"],
-  ["Terraform Authoring and Operations Professional", "ラボ形式・4時間・実機操作", "2024年9月リリースです。実務レベルの設計・運用力を示す上位資格"],
+  ["Terraform Associate（003）", "選択式中心", "基礎スキルの証明。転職でまず狙う入口の資格"],
+  ["Terraform Authoring and Operations Professional", "ラボ形式・4時間・実機操作", "2024年9月リリース。実務レベルの設計・運用力を示す上位資格"],
 ];
 
 export default function TerraformSkillPage() {
@@ -207,7 +207,7 @@ export default function TerraformSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "入口層（IaC基礎）", d: "Terraformの基本構文、provider/resource/variableの理解、単一クラウドでの小規模構築です。Associate保有が歓迎されやすいです。" },
+              { t: "入口層（IaC基礎）", d: "Terraformの基本構文、provider/resource/variableの理解、単一クラウドでの小規模構築。Associate保有が歓迎されやすいです。" },
               { t: "中核層（設計・自動化）", d: "再利用可能なモジュール設計、state管理（リモートバックエンド）、CI/CDへの組み込み、Pull Requestベースのインフラ変更フローです。" },
               { t: "上流層（アーキテクト）", d: "マルチクラウド/マルチアカウント設計、ポリシー適用（Sentinel/OPA）、組織横断のIaC標準化です。Professional認定が後押しになります。" },
             ].map((x, i) => (
@@ -235,7 +235,7 @@ export default function TerraformSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/sre/" className="text-petrol hover:underline">SREへの転向ガイド</Link>、<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes転職ガイドです</Link>。
+            関連: <Link href="/career/sre/" className="text-petrol hover:underline">SREへの転向ガイド</Link>、<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes転職ガイド</Link>。
           </p>
         </section>
 
@@ -270,8 +270,8 @@ export default function TerraformSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">経験浅めからの参入ルート</h2>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "クラウド基礎を固める", d: "AWSの基本サービス（VPC/EC2/S3/IAM）をコンソールで一通り触り、構成を理解します。" },
-              { n: "STEP 2", t: "Terraformでコード化", d: "手作業で作った構成をTerraformで再現です。provider/resource/variable/outputの基本を押さえます。" },
+              { n: "STEP 1", t: "クラウド基礎を固めます", d: "AWSの基本サービス（VPC/EC2/S3/IAM）をコンソールで一通り触り、構成を理解します。" },
+              { n: "STEP 2", t: "Terraformでコード化", d: "手作業で作った構成をTerraformで再現します。provider/resource/variable/outputの基本を押さえます。" },
               { n: "STEP 3", t: "Associate取得＋モジュール化", d: "Terraform Associateで基礎を体系化し、再利用可能なモジュールに分割して設計力を示します。" },
               { n: "STEP 4", t: "CI/CD統合で成果物に", d: "GitHub Actions等でplan/applyを自動化し、Pull Requestベースの変更フローをGitHubで公開します。" },
             ].map((x, i) => (
@@ -285,7 +285,7 @@ export default function TerraformSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方です</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>。
           </p>
         </section>
 
@@ -307,11 +307,11 @@ export default function TerraformSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ クラウド基礎 → Terraformコード化 → モジュール設計 の順で積みます</li>
-            <li>✓ Associateで基礎を固め、実務後にProfessional（ラボ形式）で設計力を示します</li>
-            <li>✓ state管理（リモートバックエンド）とCI/CD統合を実プロジェクトで経験します</li>
-            <li>✓ Kubernetes/GitOpsと組み合わせ、基盤エンジニアとして厚みを出します</li>
-            <li>✓ 作ったモジュールはGitHub/Registryで公開し、設計意図を説明できる状態にします</li>
+            <li>✓ クラウド基礎 → Terraformコード化 → モジュール設計 の順で積む</li>
+            <li>✓ Associateで基礎を固め、実務後にProfessional（ラボ形式）で設計力を示す</li>
+            <li>✓ state管理（リモートバックエンド）とCI/CD統合を実プロジェクトで経験する</li>
+            <li>✓ Kubernetes/GitOpsと組み合わせ、基盤エンジニアとして厚みを出す</li>
+            <li>✓ 作ったモジュールはGitHub/Registryで公開し、設計意図を説明できる状態にする</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>をご参照ください。

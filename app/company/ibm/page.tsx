@@ -29,8 +29,8 @@ const toc = [
 const basicData: [string, string][] = [
   ["企業名", "日本アイ・ビー・エム株式会社（非上場・米IBMの日本法人）"],
   ["業種", "ITコンサルティング／クラウド・AI／システムインテグレーション"],
-  ["平均年収", "公式の全社員平均は非公開です。集計サイトに約912〜920万円の記載があるが、これは口コミ集計の参考値であり公式値ではない"],
-  ["等級制度", "バンド制です（職務等級）。先端領域（AI・クラウド）は高バンド傾向"],
+  ["平均年収", "公式の全社員平均は非公開。集計サイトに約912〜920万円の記載がありますが、これは口コミ集計の参考値であり公式値ではありません"],
+  ["等級制度", "バンド制（職務等級）。先端領域（AI・クラウド）は高バンド傾向"],
   ["技術領域", "Red Hat OpenShift／IBM Cloud／watsonx／Java／Python など（担当案件・プロジェクトに依存）"],
   ["特徴", "ITコンサル・アーキテクト志向のミドルに向きます。外資系のグローバル基盤"],
 ];
@@ -184,15 +184,15 @@ export default function IbmCompanyPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ITコンサル・アーキテクトとして上流から関わりたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>クラウド（OpenShift/IBM Cloud）・AI（watsonx）に挑戦したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>要件定義・設計・PMの経験を等級評価につなげたいミドル</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>自律的にキャリアを築ける外資系の文化に合います</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>自律的にキャリアを築ける外資系の文化に合う</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>単一プロダクトの内製開発だけに専念したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>顧客折衝・上流工程への関心が薄いです</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>固定的な環境・指示待ちのスタイルを好みます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>顧客折衝・上流工程への関心が薄い</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>固定的な環境・指示待ちのスタイルを好む</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>組織再編・プロジェクト変動の大きさを避けたい</li>
               </ul>
             </div>

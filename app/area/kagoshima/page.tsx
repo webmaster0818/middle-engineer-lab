@@ -29,7 +29,7 @@ const fitYes = [
   "首都圏のフルリモート求人を活用し、自然豊かな南九州で暮らしたい",
   "サテライトオフィスやニアショア開発など、地方のIT拠点で働きたい",
   "UIターンで地元・南九州に戻りつつ、首都圏水準の仕事を続けたい",
-  "住居費を抑え、可処分所得やQOLを重視した移住を考えている",
+  "住居費を抑え、可処分所得やQOLを重視した移住を考えています",
 ];
 
 const fitNo = [
@@ -445,7 +445,7 @@ export default function KagoshimaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">鹿児島のIT転職を進めよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            地元のIT・誘致拠点から福岡・首都圏フルリモート、UIターン移住まで。エリア対応のエージェントに相談して、暮らしと年収のバランスが取れる選択肢を見つけましょう。
+            地元のIT・誘致拠点から福岡・首都圏フルリモート、UIターン移住まで、幅広い選択肢があります。エリア対応のエージェントに相談して、暮らしと年収のバランスが取れる選択肢を見つけましょう。
           </p>
           <Link
             href="/#ranking"

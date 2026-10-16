@@ -81,7 +81,7 @@ export default function AwsJapanCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】AWSジャパンの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年10月15日時点・日本拠点Amazon SDE集計）では総報酬の中央値 約1,802万円、L5（中堅・SDE II相当）で約1,765万円が目安です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬中央値：L4 約1,448万円、L5 約1,765万円、L6 約2,602万円です（levels.fyi・2026年10月15日時点、日本拠点Amazon SDE集計・AWS部門を含む）。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型のため、初年度は基本給＋サインオンボーナス中心になりやすい点に注意が必要です。</li><li>・ユーザー投稿ベースの集計値で、為替・個人の交渉・RSUの株価により変動しています。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬中央値：L4 約1,448万円、L5 約1,765万円、L6 約2,602万円です（levels.fyi・2026年10月15日時点、日本拠点Amazon SDE集計・AWS部門を含む）。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型のため、初年度は基本給＋サインオンボーナス中心になりやすい点に注意が必要です。</li><li>・ユーザー投稿ベースの集計値で、為替・個人の交渉・RSUの株価により変動します。</li></ul>
           <p className="text-sm leading-7 text-slate-700 mt-3">有価証券報告書を公表する国内IT企業の実額比較は<Link href="/salary/company-ranking/" className="text-petrol-deep underline font-medium">IT企業の平均年収ランキング（有価証券報告書57社）</Link>をご覧ください（外資系は非公表のため本ランキングには含まれません）。</p>
         </div>
 
@@ -152,7 +152,7 @@ export default function AwsJapanCompanyPage() {
             <li><strong>ソフトウェア開発エンジニア（SDE）</strong>：AWSのサービス本体を開発します。分散システム・大規模運用の経験が活きます。</li>
             <li><strong>ソリューションアーキテクト（SA）</strong>：顧客企業のクラウド設計・移行を技術支援する顧客向け職種です。提案力・英語の比重が高いです。</li>
             <li><strong>テクニカルアカウントマネージャー（TAM）</strong>：契約顧客の運用を継続的に支援します。技術＋伴走力です。</li>
-            <li><strong>クラウドサポートエンジニア</strong>：技術的な問い合わせ対応しています。AWS認定資格が活きやすい入口職種です。</li>
+            <li><strong>クラウドサポートエンジニア</strong>：技術的な問い合わせに対応します。AWS認定資格が活きやすい入口職種です。</li>
           </ul>
           <p className="text-slate-600 text-sm mt-3">AWS認定資格の費用・難易度は<Link href="/cert/salary/" className="text-petrol-deep underline">資格別の想定年収・資格手当</Link>や<Link href="/cert/compare/" className="text-petrol-deep underline">IT資格比較</Link>もご覧ください。</p>
         </section>

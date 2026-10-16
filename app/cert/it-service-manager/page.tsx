@@ -135,7 +135,7 @@ export default function ITServiceManagerCertPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>運用・保守・サービス管理経験のある30〜40代</strong>：運用統制力を国家資格で証明できます</li>
-              <li>② <strong>運用未経験のミドル</strong>：高度試験のため入口には不向きです。まず応用情報や実務で土台を作るべき</li>
+              <li>② <strong>運用未経験のミドル</strong>：高度試験のため入口には不向きです。まず応用情報や実務で土台を作るべきです</li>
               <li>③ <strong>運用責任者・サービスマネージャ志望</strong>：管理職への移行の裏づけになります</li>
             </ul>
           </div>
@@ -257,7 +257,7 @@ export default function ITServiceManagerCertPage() {
                 {[
                   ["主な対象", "未経験〜若手・異業種からの転職", "運用・保守・サービス管理経験のある中堅"],
                   ["狙い", "IT職への入口・基礎の証明", "運用統制力の客観証明・管理職への土台"],
-                  ["効き方", "書類通過・間口を広げる", "運用責任者/SREへの配置・資格手当"],
+                  ["効き方", "書類通過・間口を広げます", "運用責任者/SREへの配置・資格手当"],
                   ["難度", "基礎〜入門レベル（レベル1〜2）", "高度（レベル4）・午後Ⅱ論述が関門"],
                 ].map(([k, a, b], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
@@ -270,7 +270,7 @@ export default function ITServiceManagerCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用の軸は3つです。第一に<strong>運用統制力の客観証明です</strong>。SMは「サービスを止めずに改善し続ける力」を問う試験で、運用品質を語れる人材であることを国家資格で裏づけられます。第二に<strong>運用責任者・SREへの足がかり</strong>。可用性・SLA・継続的改善の素養を示す加点材料になります。第三に<strong>社内評価・資格手当です</strong>。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
+            活用の軸は3つです。第一に<strong>運用統制力の客観証明です</strong>。SMは「サービスを止めずに改善し続ける力」を問う試験で、運用品質を語れる人材であることを国家資格で裏づけられます。第二に<strong>運用責任者・SREへの足がかり</strong>です。可用性・SLA・継続的改善の素養を示す加点材料になります。第三に<strong>社内評価・資格手当です</strong>。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             注意すべきデメリットも押さえておきましょう。SMは合格率15%前後の難関で、特に午後Ⅱの論述には<strong>自分の運用経験を論理的に書く訓練が不可欠</strong>です。また取得しても単体で年収が跳ねる資格ではなく、効果が出るのは「運用マネジメントの実務 × 資格」の掛け算が成立したときです。逆に言えば、すでに運用現場の経験があり管理職を目指す30〜40代にとっては、投資する価値が明確な資格です。土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。

@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "ACEとPCAはどちらを取るべきですか？",
-    a: "現在地と目的で決めます。GCPの実務がこれからの人はACE（アソシエイト）から。すでに設計・基盤の経験があり上流アーキテクトを目指す人はPCA（プロフェッショナル）が適しています。ACEで土台を作りPCAへ進むのが一般的なステップアップです。ACE側は当サイトのACEガイドも参照してください。",
+    a: "現在地と目的で決めます。GCPの実務がこれからの人はACE（アソシエイト）から始めます。すでに設計・基盤の経験があり上流アーキテクトを目指す人はPCA（プロフェッショナル）が適しています。ACEで土台を作りPCAへ進むのが一般的なステップアップです。ACE側は当サイトのACEガイドも参照してください。",
   },
   {
     q: "AWSやAzureのアーキ資格とどう使い分けますか？",
@@ -171,7 +171,7 @@ export default function GcpPcaCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・クラウドアーキテクト職は高単価傾向（<strong>実務・役割が主因</strong>）</li>
               <li>・PCAは<strong>GCP設計力の客観的な裏づけ</strong>として機能する上位資格</li>
-              <li>・実態：<strong>年収はGCPプロジェクト経験 × 資格の掛け算</strong>で決まります</li>
+              <li>・実態：<strong>年収はGCPプロジェクト経験 × 資格の掛け算</strong>で決まる</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -253,7 +253,7 @@ export default function GcpPcaCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>。運用・構築の経験者が、設計・アーキテクトへ役割を広げたい局面で説得力を持ちます。第二に<strong>GCP強み領域での差別化です</strong>。データ分析・AI/MLなどGCPが強い領域の設計案件で、専門性の裏づけになります。第三に<strong>マルチクラウド設計力の証明です</strong>。AWSのSAPやAzureのAZ-305と並べることで、複数クラウドの設計力をアピールできます。
+            活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>です。運用・構築の経験者が、設計・アーキテクトへ役割を広げたい局面で説得力を持ちます。第二に<strong>GCP強み領域での差別化です</strong>。データ分析・AI/MLなどGCPが強い領域の設計案件で、専門性の裏づけになります。第三に<strong>マルチクラウド設計力の証明です</strong>。AWSのSAPやAzureのAZ-305と並べることで、複数クラウドの設計力をアピールできます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             注意すべきデメリットも押さえておきましょう。PCAはケーススタディを含む<strong>難度の高い試験で、実務がないと取得後も活かしきれません</strong>。効果が出るのは「GCPプロジェクト経験 × 資格」が成立したときです。また有効期限が2年と短めで、更新を怠ると失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/cert/gcp-ace/" className="text-petrol hover:underline">Associate Cloud Engineer</Link>から段階的に進むのが堅実です。
@@ -281,7 +281,7 @@ export default function GcpPcaCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "ACEまたは実務で土台を作る", d: "Associate Cloud Engineerや実プロジェクトで、GCP主要サービスと運用の感覚を固めます。" },
+              { n: "STEP 1", t: "ACEまたは実務で土台を作ります", d: "Associate Cloud Engineerや実プロジェクトで、GCP主要サービスと運用の感覚を固めます。" },
               { n: "STEP 2", t: "設計領域とケーススタディ対策", d: "ビジネス要件→アーキテクチャの落とし込みを、公式のケーススタディと実機演習で繰り返します。" },
               { n: "STEP 3", t: "合格→実務で設計に関与し更新", d: "合格後は実プロジェクトで設計に関与し、有効期限（2年）前に更新試験で資格を維持します。" },
             ].map((x, i) => (

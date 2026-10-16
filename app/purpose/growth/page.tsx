@@ -81,7 +81,7 @@ export default function GrowthPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 現職でレガシー技術ばかり触っています</li>
               <li>- 周囲のエンジニアのレベルが低く成長できません</li>
-              <li>- モダンな技術スタックで開発したい</li>
+              <li>- モダンな技術スタックで開発したいと考えています</li>
               <li>- コードレビュー文化がない環境にいます</li>
               <li>- 技術的な挑戦ができる環境を求めています</li>
             </ul>
@@ -102,8 +102,8 @@ export default function GrowthPage() {
               </thead>
               <tbody>
                 {[
-                  { type: "メガベンチャー", salary: "600〜1,000万円", growth: "非常に高い", feat: "大規模+モダン技術" },
-                  { type: "成長期SaaS企業", salary: "550〜850万円", growth: "非常に高い", feat: "幅広い技術挑戦" },
+                  { type: "メガベンチャー", salary: "600〜1,000万円", growth: "非常に高いです", feat: "大規模+モダン技術" },
+                  { type: "成長期SaaS企業", salary: "550〜850万円", growth: "非常に高いです", feat: "幅広い技術挑戦" },
                   { type: "テック系スタートアップ", salary: "500〜800万円", growth: "高い", feat: "0→1の経験" },
                   { type: "外資系IT", salary: "800〜1,500万円", growth: "高い", feat: "グローバル基準" },
                   { type: "大手SIer", salary: "500〜750万円", growth: "中程度", feat: "大規模PJ経験" },
@@ -148,8 +148,8 @@ export default function GrowthPage() {
           <div className="space-y-3">
             {[
               { name: "レバテックキャリア", point: "技術力を評価してくれる企業の紹介に強いです。開発環境の詳細情報も提供しています。" },
-              { name: "Findy", point: "スキル偏差値でマッチングです。技術力が高い企業が多く集まります。" },
-              { name: "Green", point: "カジュアル面談で現場エンジニアと直接話せます。企業の技術文化を事前確認です。" },
+              { name: "Findy", point: "スキル偏差値でマッチングします。技術力が高い企業が多く集まります。" },
+              { name: "Green", point: "カジュアル面談で現場エンジニアと直接話せます。企業の技術文化を事前確認します。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>

@@ -177,16 +177,16 @@ export default function KeyenceCompanyPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>組込・画像処理・計測の専門性を持つ即戦力エンジニア</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>自社ハードウェア商品の開発に深く関わりたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>成果主義・高密度の業務スタイルで高い報酬を目指したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>FA・センシングという市場の将来性に魅力を感じます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>FA・センシングという市場の将来性に魅力を感じる</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>Webサービス・クラウドのモダン開発を主軸にしたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>「平均2,039万円」を自分のエンジニア年収と捉えています</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>「平均2,039万円」を自分のエンジニア年収と捉えている</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>業務密度よりワークライフバランスを最優先したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>組込・画像・計測の実務経験がなく未経験参入を狙います</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>組込・画像・計測の実務経験がなく未経験参入を狙う</li>
               </ul>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default function KeyenceCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キーエンス転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込領域に強く、高年収求人比率が高いです。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化です。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込領域に強く、高年収求人比率が高いです。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

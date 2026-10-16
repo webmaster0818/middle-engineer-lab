@@ -107,7 +107,7 @@ export default function NoAgentPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職エージェントを使わず自力で転職できる？どう進める？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 直接応募・リファラル・ダイレクト・SNSの4手段で自力運用は可能です。ただし応募管理・日程調整・年収交渉・内定後手続きはすべて自分の責任になるため、在職中で多忙ならエージェント併用が無難です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・手段は直接応募・リファラル・ダイレクトリクルーティング・SNS発信の4つ。組み合わせて使うのが現実的</li><li>・志望度が伝わり選考が速く、手数料がない分交渉で有利な場合も。反面、不採用理由が分かりにくく自己管理の負担が大きいです</li><li>・本命は自力、幅出しはエージェントという併用も可能です。応募経路は企業ごとに一本化します</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・手段は直接応募・リファラル・ダイレクトリクルーティング・SNS発信の4つ。組み合わせて使うのが現実的です</li><li>・志望度が伝わり選考が速く、手数料がない分交渉で有利な場合もあります。反面、不採用理由が分かりにくく自己管理の負担が大きいです</li><li>・本命は自力、幅出しはエージェントという併用も可能です。応募経路は企業ごとに一本化します</li></ul>
           </div>
         </section>
 
@@ -142,7 +142,7 @@ export default function NoAgentPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>・本命は直接応募やリファラルで志望度を示します</li>
               <li>・自己管理（応募・日程・交渉）はすべて自分の責任になります</li>
-              <li>・受かりやすさは一概に言えません。準備度とスキル次第</li>
+              <li>・受かりやすさは一概に言えません。準備度とスキル次第です</li>
             </ul>
           </div>
         </section>
@@ -199,10 +199,10 @@ export default function NoAgentPage() {
           </p>
           <div className="space-y-3">
             {[
-              { step: "応募管理表を作る", desc: "スプレッドシートに「企業名・応募日・応募経路・選考ステータス・次回日程・連絡先・メモ」を列で用意します。複数社を並行しても抜け漏れを防げます。" },
-              { step: "書類を自分で磨く", desc: "職務経歴書は応募先ごとに要点を調整します。客観視点が得にくいため、第三者やコミュニティにレビューを依頼すると精度が上がります。" },
-              { step: "日程調整を自分で行う", desc: "面接日程は企業と直接やり取り。候補日を複数提示し、リマインドを自分で設定します。在職中は現職の予定との衝突に注意します。" },
-              { step: "選考の振り返りを記録する", desc: "面接後に質問内容と手応えをメモです。フィードバックがもらえない分、自分で振り返って次の応募に活かします。" },
+              { step: "応募管理表を作ります", desc: "スプレッドシートに「企業名・応募日・応募経路・選考ステータス・次回日程・連絡先・メモ」を列で用意します。複数社を並行しても抜け漏れを防げます。" },
+              { step: "書類を自分で磨きます", desc: "職務経歴書は応募先ごとに要点を調整します。客観視点が得にくいため、第三者やコミュニティにレビューを依頼すると精度が上がります。" },
+              { step: "日程調整を自分で行います", desc: "面接日程は企業と直接やり取り。候補日を複数提示し、リマインドを自分で設定します。在職中は現職の予定との衝突に注意します。" },
+              { step: "選考の振り返りを記録します", desc: "面接後に質問内容と手応えをメモです。フィードバックがもらえない分、自分で振り返って次の応募に活かします。" },
             ].map((s, i) => (
               <div key={s.step} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -228,10 +228,10 @@ export default function NoAgentPage() {
             </p>
             <ul className="space-y-2">
               {[
-                "市場相場を事前に把握する（同職種・同年代のレンジを調べる）",
-                "現職年収と希望額を、根拠（実績・スキル）とともに伝える",
-                "提示額を即承諾せず、検討の時間をもらう",
-                "金額だけでなく、裁量労働・リモート・等級など総合で判断する",
+                "市場相場を事前に把握します（同職種・同年代のレンジを調べる）",
+                "現職年収と希望額を、根拠（実績・スキル）とともに伝えます",
+                "提示額を即承諾せず、検討の時間をもらいます",
+                "金額だけでなく、裁量労働・リモート・等級など総合で判断します",
               ].map((c) => (
                 <li key={c} className="flex items-start gap-2 text-slate-700">
                   <span className="text-petrol font-bold shrink-0">✓</span>
@@ -253,10 +253,10 @@ export default function NoAgentPage() {
             </p>
             <ul className="space-y-2">
               {[
-                "オファー内容（年収・等級・勤務条件）を書面で確認する",
-                "複数内定がある場合は条件を比較して回答期限を管理する",
-                "入社日を現職の退職スケジュールと擦り合わせる",
-                "退職交渉・引き継ぎを並行して進める",
+                "オファー内容（年収・等級・勤務条件）を書面で確認します",
+                "複数内定がある場合は条件を比較して回答期限を管理します",
+                "入社日を現職の退職スケジュールと擦り合わせます",
+                "退職交渉・引き継ぎを並行して進めます",
               ].map((c) => (
                 <li key={c} className="flex items-start gap-2 text-slate-700">
                   <span className="text-petrol font-bold shrink-0">✓</span>

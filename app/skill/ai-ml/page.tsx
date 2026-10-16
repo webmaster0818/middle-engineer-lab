@@ -106,7 +106,7 @@ export default function AiMlSkillPage() {
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
             <li>・<strong>難易度</strong>：モデル構築だけでなくデータ基盤・本番運用まで担える人材が不足＝経験者は有利です。</li>
             <li>・<strong>未経験／転向</strong>：Web系Python等の実務を土台に、NumPy/Pandas/scikit-learn＋統計で成果物を1つ作るのが現実的なルートです。</li>
-            <li>・<strong>年代別</strong>：レバテック公表の正社員SE年収（2025）で30代約499万円・40代約618万円が目安です。AI評価企業では上振れも。</li>
+            <li>・<strong>年代別</strong>：レバテック公表の正社員SE年収（2025）で30代約499万円・40代約618万円が目安です。AI評価企業では上振れもあります。</li>
             <li>・<strong>進め方</strong>：AI・データ領域に強い転職エージェントで、job tag等の公的相場と求人票レンジを照合します。</li>
           </ul>
         </div>
@@ -192,9 +192,9 @@ export default function AiMlSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "土台として求められやすい", d: "Pythonでのデータ処理（pandas/NumPy）、SQL、Git・CI/CD、クラウド（AWS/GCP/Azureいずれか）の基本です。既存のバックエンド/インフラ経験はそのまま評価対象になります。" },
-              { t: "AI・MLの中核として見られる", d: "教師あり学習の一連の流れ（前処理→特徴量設計→学習→評価）を一人称で回せることが重要です。scikit-learn・PyTorch/TensorFlowのいずれかでの実装経験です。" },
-              { t: "差別化になる", d: "MLOps（MLflow・SageMaker・Kubeflow等での運用自動化）、データ基盤（BigQuery/Snowflake・dbt・Airflow）、LLM活用（RAG・評価・コスト最適化）の実装実績です。" },
+              { t: "土台として求められやすいです", d: "Pythonでのデータ処理（pandas/NumPy）、SQL、Git・CI/CD、クラウド（AWS/GCP/Azureいずれか）の基本です。既存のバックエンド/インフラ経験はそのまま評価対象になります。" },
+              { t: "AI・MLの中核として見られます", d: "教師あり学習の一連の流れ（前処理→特徴量設計→学習→評価）を一人称で回せることが重要です。scikit-learn・PyTorch/TensorFlowのいずれかでの実装経験。" },
+              { t: "差別化になります", d: "MLOps（MLflow・SageMaker・Kubeflow等での運用自動化）、データ基盤（BigQuery/Snowflake・dbt・Airflow）、LLM活用（RAG・評価・コスト最適化）の実装実績です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.t}</h3>
@@ -223,7 +223,7 @@ export default function AiMlSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">リサーチ / AI事業責任者路線</h3>
               <p className="text-sm text-petrol-deep">
-                最先端研究の応用を担うリサーチ職や、AI活用の方針を決めるリード・責任者へ。論文読解・実装力、あるいは技術とビジネスの橋渡し力が問われます。30代後半〜40代では、後者のマネジメント寄りに強みを出す人が多い領域です。
+                最先端研究の応用を担うリサーチ職や、AI活用の方針を決めるリード・責任者を目指す道があります。論文読解・実装力、あるいは技術とビジネスの橋渡し力が問われます。30代後半〜40代では、後者のマネジメント寄りに強みを出す人が多い領域です。
               </p>
             </div>
           </div>

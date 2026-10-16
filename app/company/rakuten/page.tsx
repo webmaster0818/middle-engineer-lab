@@ -261,7 +261,7 @@ export default function RakutenCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">楽天グループ転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。大手・メガベンチャー求人に強く、非公開求人も豊富です。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。大手・メガベンチャー求人に強く、非公開求人も豊富です。" },
               { name: "doda ITエンジニア", href: "/review/doda-it/", desc: "国内最大級の求人数です。大手企業の求人を幅広く網羅します。" },
               { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚いです。サポート重視の転職者向けです。" },
             ].map((agent, i) => (

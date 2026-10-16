@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/laravel/" },
   title: "Laravelエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Laravel（PHP）エンジニアの転職市場を出典付きで解説。レバテック・求人ボックスの公表値をもとに、PHP Web開発フレームワークの市場価値、求人傾向、未経験からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
+    "Laravel（PHP）エンジニアの転職市場を出典を明記して解説します。レバテック・求人ボックスの公表値をもとに、PHP Web開発フレームワークの市場価値、求人傾向、未経験からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
@@ -73,7 +73,7 @@ export default function LaravelSkillPage() {
     <>
       <ArticleJsonLd
         title="Laravelエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Laravel（PHP）エンジニアの転職市場を出典付きで解説。PHP Web開発フレームワークの市場価値、求人傾向、未経験からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="Laravel（PHP）エンジニアの転職市場を出典を明記して解説します。PHP Web開発フレームワークの市場価値、求人傾向、未経験からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/laravel/"
       />
       <script

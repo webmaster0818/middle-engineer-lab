@@ -66,9 +66,9 @@ export default function NoOvertimePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 現職の残業が月40時間以上で改善したい</li>
-              <li>- 残業が少ない環境でプライベートを充実させたい</li>
-              <li>- 定時退社して自己学習や副業の時間を確保したい</li>
+              <li>- 現職の残業が月40時間以上で改善したいと考えています</li>
+              <li>- 残業が少ない環境でプライベートを充実させたいと考えています</li>
+              <li>- 定時退社して自己学習や副業の時間を確保したいと考えています</li>
               <li>- 健康面で長時間労働を続けられません</li>
             </ul>
           </div>
@@ -92,7 +92,7 @@ export default function NoOvertimePage() {
                   { type: "社内SE", ot: "月5〜15h", salary: "500〜700万円", feat: "定常業務が中心" },
                   { type: "公共系SI", ot: "月10〜20h", salary: "450〜650万円", feat: "納期が長めで安定" },
                   { type: "受託開発（大手）", ot: "月20〜35h", salary: "500〜750万円", feat: "案件による変動大" },
-                  { type: "成長期スタートアップ", ot: "月25〜45h", salary: "500〜800万円", feat: "裁量は大きいが忙しい" },
+                  { type: "成長期スタートアップ", ot: "月25〜45h", salary: "500〜800万円", feat: "裁量は大きいが忙しいです" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>

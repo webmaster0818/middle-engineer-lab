@@ -147,7 +147,7 @@ export default function PreOnboardingPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】入社前には何を準備すればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「会社へ提出する書類」「公的手続き（年金・保険・税金）」「入社初日の準備と心構え」の3軸で整理すると漏れがありません。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・退職翌日に入社（空白なし）なら、保険・年金は新しい会社が切れ目なく手続きします</li><li>・空白がある場合は、退職翌日から14日以内などの期限で自分で切り替えが必要</li><li>・最大のリスクは書類の受け取り漏れと手続きの放置です。退職前から段取りを確認しておきます</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・退職翌日に入社（空白なし）なら、保険・年金は新しい会社が切れ目なく手続きします</li><li>・空白がある場合は、退職翌日から14日以内などの期限で自分で切り替えが必要です</li><li>・最大のリスクは書類の受け取り漏れと手続きの放置です。退職前から段取りを確認しておきます</li></ul>
           </div>
         </section>
 

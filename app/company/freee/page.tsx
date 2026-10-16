@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/freee/" },
   title: "freeeの年収は平均688万円【2026年・有報】エンジニア転職・技術スタック解説",
   description:
-    "freee（4478）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収688万円(2025年6月期)、技術スタック、選考フロー、口コミ傾向、30代40代の進め方まで。",
+    "freee（4478）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収688万円(2025年6月期)、技術スタック、選考フロー、口コミ傾向、30代40代の進め方までを解説します。",
 };
 
 const toc = [
@@ -95,7 +95,7 @@ export default function FreeeCompanyPage() {
     <>
       <ArticleJsonLd
         title="freee エンジニア転職ガイド"
-        description="freeeへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収688万円(2025年6月期)、技術スタック、選考フロー、口コミ傾向まで。"
+        description="freeeへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収688万円(2025年6月期)、技術スタック、選考フロー、口コミ傾向までを解説します。"
         url="/company/freee/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -109,7 +109,7 @@ export default function FreeeCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】freeeの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: freee株式会社の平均年間給与は688万円です（2025年6月期 有価証券報告書・全社員平均、平均年齢33.1歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 688万円です（2025年6月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年6月期の716万円をピークに微減し、2025年6月期は688万円に回復です（各期 有価証券報告書）。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 688万円です（2025年6月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年6月期の716万円をピークに微減し、2025年6月期は688万円に回復しています（各期 有価証券報告書）。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -252,11 +252,11 @@ export default function FreeeCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["カジュアル面談（任意）", "選考要素のない1on1です。現場メンバーから実際の働き方や仕事の魅力を聞けます。オンライン（Google Meet）が基本でオフラインも可です。"],
+              ["カジュアル面談（任意）", "選考要素のない1on1。現場メンバーから実際の働き方や仕事の魅力を聞けます。オンライン（Google Meet）が基本でオフラインも可。"],
               ["エントリー（書類選考）", "募集職種から応募し書類を提出します。合否に関わらず1週間以内に連絡があるとされます。"],
-              ["面接（約3回）", "現場メンバー・マネージャー等との面接です。エンジニア職の初回は技術ディスカッション中心で、課題解決経験・技術研鑽・サービス運営経験などを問われます。"],
+              ["面接（約3回）", "現場メンバー・マネージャー等との面接が行われます。エンジニア職の初回は技術ディスカッション中心で、課題解決経験・技術研鑽・サービス運営経験などを問われます。"],
               ["コードテスト／リファレンスチェック", "エンジニア職では選考過程でコードテストが実施される場合があります。全職種でリファレンスチェックが行われることがあります。"],
-              ["内定（オファー面談）", "条件・制度の説明です。オフィス訪問での面談も可能です。"],
+              ["内定（オファー面談）", "条件・制度の説明。オフィス訪問での面談も可能。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -336,7 +336,7 @@ export default function FreeeCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。SaaS企業の非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
               { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイトです。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすいです。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、SaaS系企業への転職実績が豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、SaaS系企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

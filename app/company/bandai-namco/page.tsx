@@ -69,7 +69,7 @@ export default function BandaiNamcoCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】バンダイナムコの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 有価証券報告書の平均年収984万円（2026年3月期）は持株会社バンダイナムコHD単体の値で、ゲーム開発現場のエンジニア年収ではありません。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・持株会社（BNHD）単体の平均年収984万円・平均年齢44.6歳です（2026年3月期 有価証券報告書・従業員80名）。前期の1,216万円・46.7歳から大きく変動しており、経営管理機能中心の持株会社の数値は構成変化で大きく動きます。</li><li>・開発会社（バンダイナムコスタジオ等）の職種別・等級別年収は非開示です。当ガイドでは推測の数値表は掲載していません。</li><li>・口コミでは賞与比率が高く、IT系企業と比べ待遇面で見劣りするとの声も。実際の処遇は応募先の会社単位でご確認ください。</li><li>・<strong>バンダイナムコオンラインの平均年齢は34歳・従業員212名です（2022年3月時点の公表値）。同社は2025年4月1日付でバンダイナムコエンターテインメントに吸収合併され、現在は存在しません</strong>（<a href="#online" className="text-petrol underline">詳細</a>）。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・持株会社（BNHD）単体の平均年収984万円・平均年齢44.6歳です（2026年3月期 有価証券報告書・従業員80名）。前期の1,216万円・46.7歳から大きく変動しており、経営管理機能中心の持株会社の数値は構成変化で大きく動きます。</li><li>・開発会社（バンダイナムコスタジオ等）の職種別・等級別年収は非開示です。当ガイドでは推測の数値表は掲載していません。</li><li>・口コミでは賞与比率が高く、IT系企業と比べ待遇面で見劣りするとの声もあります。実際の処遇は応募先の会社単位でご確認ください。</li><li>・<strong>バンダイナムコオンラインの平均年齢は34歳・従業員212名です（2022年3月時点の公表値）。同社は2025年4月1日付でバンダイナムコエンターテインメントに吸収合併され、現在は存在しません</strong>（<a href="#online" className="text-petrol underline">詳細</a>）。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年8月" sources={["バンダイナムコHD 有価証券報告書（2026年3月期）", "バンダイナムコスタジオ 公式採用サイト", "リサコ by キャリコネ（有価証券報告書読解）", "OpenWork（口コミ傾向）"]} />
@@ -159,7 +159,7 @@ export default function BandaiNamcoCompanyPage() {
               ["STEP 1", "応募（会社別）", "バンダイナムコスタジオ等、応募先の会社の公式採用ページまたはエージェント経由で応募します。"],
               ["STEP 2", "書類選考", "職務経歴書・スキルで募集職種とのマッチを確認します。"],
               ["STEP 3", "作品・面接", "ゲーム開発職では作品・ポートフォリオ審査の場合があります。面接は複数回を想定します。"],
-              ["STEP 4", "内定", "応募先の会社の処遇に基づき条件提示です。"],
+              ["STEP 4", "内定", "応募先の会社の処遇に基づき条件提示。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>

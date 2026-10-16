@@ -63,7 +63,7 @@ const gapRows = [
   {
     axis: "そのまま活きる力",
     engineer: "要件定義・上流設計・技術的実現性の判断",
-    consultant: "テクニカル領域で即戦力評価される",
+    consultant: "テクニカル領域で即戦力評価されます",
     gap: "活用",
   },
 ];
@@ -320,13 +320,13 @@ export default function EngineerToConsultantPage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（実装の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                ECサイトのバックエンドをJava/Spring Bootで開発します。AWS上にAPIを構築し、データベース設計とバッチ処理を担当します。運用保守も実施します。
+                ECサイトのバックエンドをJava/Spring Bootで開発。AWS上にAPIを構築し、データベース設計とバッチ処理を担当。運用保守も実施します。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（課題→打ち手→効果＋技術的示唆）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                受注処理の遅延でカート離脱が課題化していたEC事業に対し、ボトルネックを分析のうえ非同期バッチへ再設計を提案・主導です。レスポンス改善により事業部のKPI改善に貢献します。技術的実現性の観点から、事業部門と要件の優先順位付けを合意形成した点が役割の中心です。
+                受注処理の遅延でカート離脱が課題化していたEC事業に対し、ボトルネックを分析のうえ非同期バッチへ再設計を提案・主導。レスポンス改善により事業部のKPI改善に貢献。技術的実現性の観点から、事業部門と要件の優先順位付けを合意形成した点が役割の中心です。
               </p>
             </div>
           </div>

@@ -63,13 +63,13 @@ const faqs = [
 ];
 
 const positions = [
-  { name: "シニアAI・LLMエンジニア", desc: "AIエージェント開発全般をリードします。LLMを用いた業務自動化プロダクトの設計・実装です。" },
+  { name: "シニアAI・LLMエンジニア", desc: "AIエージェント開発全般をリードします。LLMを用いた業務自動化プロダクトの設計・実装。" },
   { name: "シニアソフトウェアエンジニア（バックエンド／AI・ML領域）", desc: "Goを中心としたバックエンド設計と、AI・機械学習領域のアーキテクチャです。" },
   { name: "シニア機械学習エンジニア", desc: "機械学習モデルの設計・実装・運用します（MLOps含む）。" },
-  { name: "ソフトウェアエンジニア（フルスタック・HCM領域）", desc: "人的資本管理プロダクトのフロント〜バックエンド開発です。" },
-  { name: "ソフトウェアエンジニア（プロダクト改善自動化／CRE）", desc: "顧客課題を起点にしたプロダクト改善サイクルの構築です。" },
-  { name: "ソフトウェアエンジニア（プロダクト連携基盤）", desc: "API基盤・連携基盤の設計・開発・運用です。" },
-  { name: "プロダクトエンジニア（Fintech）", desc: "証券バックシステム等、Fintech領域の開発・運用です。" },
+  { name: "ソフトウェアエンジニア（フルスタック・HCM領域）", desc: "人的資本管理プロダクトのフロント〜バックエンド開発。" },
+  { name: "ソフトウェアエンジニア（プロダクト改善自動化／CRE）", desc: "顧客課題を起点にしたプロダクト改善サイクルの構築。" },
+  { name: "ソフトウェアエンジニア（プロダクト連携基盤）", desc: "API基盤・連携基盤の設計・開発・運用。" },
+  { name: "プロダクトエンジニア（Fintech）", desc: "証券バックシステム等、Fintech領域の開発・運用。" },
 ];
 
 const techStack = [
@@ -291,21 +291,21 @@ export default function LayerxCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 text-sm mb-3">向いている人</h3>
               <ul className="space-y-2 text-sm text-green-900">
-                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>Goでのバックエンド開発の実務経験があります</li>
+                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>Goでのバックエンド開発の実務経験がある</li>
                 <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>AI・LLM／機械学習をプロダクトに実装したい</li>
                 <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>急成長SaaSで裁量を持って働きたい</li>
-                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>Fintech・会計・HCM等のドメインに関心があります</li>
+                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>Fintech・会計・HCM等のドメインに関心がある</li>
                 <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>フルリモート・フレックスで自律的に働きたい</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <h3 className="font-bold text-rose-800 text-sm mb-3">向いていない人</h3>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>手厚い研修やレールが整った環境を求めます</li>
+                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>手厚い研修やレールが整った環境を求める</li>
                 <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>繁忙の波を一切避けたい・稼働を完全に固定したい</li>
-                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>未経験領域へのキャリアチェンジを狙っています</li>
-                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>役割が明確に切り分けられた業務を好みます</li>
-                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>大企業の安定したブランドや制度を最優先します</li>
+                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>未経験領域へのキャリアチェンジを狙っている</li>
+                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>役割が明確に切り分けられた業務を好む</li>
+                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>大企業の安定したブランドや制度を最優先する</li>
               </ul>
             </div>
           </div>
@@ -317,7 +317,7 @@ export default function LayerxCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強いです。SaaS・スタートアップの非公開求人を保有していることがあります。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャー・スタートアップに強い成功報酬型媒体です。カジュアル面談で社風を把握しやすいです。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web・ゲーム特化です。提案スピードが速く、急成長スタートアップの実務経験者に向きます。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web・ゲームに特化しています。提案スピードが速く、急成長スタートアップの実務経験者に向きます。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

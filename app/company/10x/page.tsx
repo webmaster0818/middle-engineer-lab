@@ -31,9 +31,9 @@ const basicData: [string, string][] = [
   ["企業名", "株式会社10X（テンエックス・非上場）"],
   ["設立", "2017年"],
   ["事業内容", "ネットスーパー／ネットドラッグストアのプラットフォーム「Stailer」の開発・提供（EC／SCM領域）"],
-  ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しない（集計値も公式値ではない参考値）"],
+  ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しません（集計値も公式値ではない参考値）"],
   ["技術スタック", "フルDart（クライアントはFlutter／サーバーも100% Dart）／GCP（GKE）／Firebase・Firestore／gRPC／Elasticsearch／Datadog＋PagerDuty"],
-  ["特徴", "クライアントからサーバーまでDartで統一する珍しい構成です。Flutter未経験からの採用事例もあり"],
+  ["特徴", "クライアントからサーバーまでDartで統一する珍しい構成。Flutter未経験からの採用事例もあり"],
 ];
 
 const faqs = [
@@ -183,7 +183,7 @@ export default function TenXCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Flutter／Dart経験者、または新技術を前向きに学べるミドル</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>EC／SCM・小売・物流などのドメイン知見を持ちます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>EC／SCM・小売・物流などのドメイン知見を持つ</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>GCP（GKE）・分散システムの設計・運用が得意</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>希少な技術選定で専門性を高めたい</li>
               </ul>

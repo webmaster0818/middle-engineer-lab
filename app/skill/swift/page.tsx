@@ -36,8 +36,8 @@ const salaryRows = [
 ];
 
 const careerPaths = [
-  { role: "iOSエンジニア", note: "SwiftUI/UIKitでのiOSアプリ開発です。自社サービス企業のiOS専任ポジションが中心です。" },
-  { role: "モバイルテックリード", note: "iOS/Androidチームのリード、アーキテクチャ設計、技術選定です。30代後半〜40代の中心的な活躍領域です。" },
+  { role: "iOSエンジニア", note: "SwiftUI/UIKitでのiOSアプリ開発。自社サービス企業のiOS専任ポジションが中心です。" },
+  { role: "モバイルテックリード", note: "iOS/Androidチームのリード、アーキテクチャ設計、技術選定。30代後半〜40代の中心的な活躍領域です。" },
   { role: "フリーランスiOSエンジニア", note: "自社サービス企業のiOS開発案件です。フリーランス案件の平均年収・単価は高めの傾向です（2025年調査）。" },
 ];
 
@@ -185,9 +185,9 @@ export default function SwiftSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              ["ジュニア〜ミドル（iOS実務1〜3年）", "SwiftUI/UIKitでの画面実装、API連携、公開アプリ実績です。受託やスタートアップで募集が見られる層です。"],
-              ["ミドル〜シニア（実務3〜6年）", "アーキテクチャ設計（MVVM等）、テスト、CI/CD、Core Data/CloudKit活用です。設計レビューも担う中心層です。"],
-              ["シニア・リード", "チームのアーキテクチャ統一、技術選定、UIKit→SwiftUI移行の主導です。モバイルテックリード求人の中心です。"],
+              ["ジュニア〜ミドル（iOS実務1〜3年）", "SwiftUI/UIKitでの画面実装、API連携、公開アプリ実績。受託やスタートアップで募集が見られる層。"],
+              ["ミドル〜シニア（実務3〜6年）", "アーキテクチャ設計（MVVM等）、テスト、CI/CD、Core Data/CloudKit活用。設計レビューも担う中心層。"],
+              ["シニア・リード", "チームのアーキテクチャ統一、技術選定、UIKit→SwiftUI移行の主導。モバイルテックリード求人の中心。"],
             ].map(([level, body], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{level}</h3>
@@ -272,10 +272,10 @@ export default function SwiftSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
             {[
-              ["モダンSwiftを押さえる", "SwiftUI、Combine、async/await、Swift Concurrencyを実プロジェクトで使いこなします。"],
+              ["モダンSwiftを押さえます", "SwiftUI、Combine、async/await、Swift Concurrencyを実プロジェクトで使いこなします。"],
               ["アーキテクチャを語れるように", "MVVM/Clean Architecture/TCAなどの設計判断を、規模や要件に応じて選べるようにします。"],
-              ["品質・運用で差をつける", "テスト、CI/CD、クラッシュ解析、App Store審査対応の経験は具体的な強みになります。"],
-              ["アウトプットを残す", "公開アプリの継続運用、技術記事、OSS貢献など、運用力が見える成果物を蓄積します。"],
+              ["品質・運用で差をつけます", "テスト、CI/CD、クラッシュ解析、App Store審査対応の経験は具体的な強みになります。"],
+              ["アウトプットを残します", "公開アプリの継続運用、技術記事、OSS貢献など、運用力が見える成果物を蓄積します。"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{t}</h3>
@@ -298,8 +298,8 @@ export default function SwiftSkillPage() {
                 {[
                   "1つのアプリをじっくり磨き込み、UI/UX品質にこだわりたい",
                   "自社サービス企業でプロダクトに長く関わりたい",
-                  "公開アプリや個人開発で手を動かす習慣がある",
-                  "Appleの新OS・新フレームワークを追いかけるのが苦でない",
+                  "公開アプリや個人開発で手を動かす習慣があります",
+                  "Appleの新OS・新フレームワークを追いかけるのが苦ではありません",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -310,8 +310,8 @@ export default function SwiftSkillPage() {
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
                   "幅広い技術を浅く広く触りたい（iOSは専門特化が評価されやすい）",
-                  "Apple特有の審査・ガイドライン対応にストレスを感じる",
-                  "地方在住で出社必須の自社開発企業を志望している（求人が都市部に集中しがち）",
+                  "Apple特有の審査・ガイドライン対応にストレスを感じます",
+                  "地方在住で出社必須の自社開発企業を志望しています（求人が都市部に集中しがち）",
                   "短期間で多数の案件を回したい（腰を据えた開発が中心）",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">･</span><span>{t}</span></li>

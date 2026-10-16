@@ -152,7 +152,7 @@ export default function CertTopPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">国家資格（IPA系）</h3>
               <ul className="text-sm text-slate-600 space-y-1.5 list-disc pl-4">
-                <li>基本情報・応用情報・情報処理安全確保支援士など</li>
+                <li>基本情報・応用情報・情報処理安全確保支援士などです</li>
                 <li>知識が普遍的で<strong>基本的に有効期限なし</strong>（支援士のみ登録更新・維持要件あり）</li>
                 <li>上流・設計・公共系で評価されやすいです</li>
                 <li>体系的な基礎知識の証明になります</li>
@@ -351,7 +351,7 @@ export default function CertTopPage() {
           <div className="space-y-3">
             {[
               { t: "経験者加点資格（30-40代に効く）", d: "PMP・情報処理安全確保支援士・応用情報・AWS認定です。これらは実務経験とセットで初めて真価を発揮し、面接で『この場面で使った』と語れると強いです。" },
-              { t: "未経験入口資格（主に若手・異業種向け）", d: "基本情報・CCNA・LPIC/LinuCです。基礎知識の証明としては有効だが、30-40代が単体で取得しても、年齢に見合う実務がなければ評価は限定的になりやすいです。" },
+              { t: "未経験入口資格（主に若手・異業種向け）", d: "基本情報・CCNA・LPIC/LinuCです。基礎知識の証明としては有効ですが、30-40代が単体で取得しても、年齢に見合う実務がなければ評価は限定的になりやすいです。" },
               { t: "掛け算の例", d: "オンプレ運用5年×AWS SAA→クラウド移行案件です。PM実務3年×PMP→高単価PM案件のフィルタ通過です。インフラ運用×支援士→セキュリティ運用の信頼性です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">

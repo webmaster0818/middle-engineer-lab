@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/fujisoft/" },
   title: "富士ソフトの年収は平均640万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "富士ソフト株式会社（9749）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収640万円(2024年12月期・全社員平均)、組込み/業務システム/インフラの幅広い技術領域、選考フロー・面接観点、30代40代の進め方まで。確認できない数値は記載していません。",
+    "富士ソフト株式会社（9749）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収640万円(2024年12月期・全社員平均)、組込み/業務システム/インフラの幅広い技術領域、選考フロー・面接観点、30代40代の進め方までを解説します。確認できない数値は記載していません。",
 };
 
 const salaryTrend: [string, string, string][] = [
@@ -27,7 +27,7 @@ const basicData: [string, string][] = [
   ["平均勤続年数", "約10年（2024年12月期 有価証券報告書）"],
   ["従業員数", "連結 約9,806名（2024年12月期 有価証券報告書）"],
   ["本社所在地", "神奈川県横浜市"],
-  ["技術スタック（公開情報）", "組込み/制御系（C/C++ 等）、業務系（Java 等）、Web・クラウド、AI・ロボットです。案件・分野により採用技術は大きく異なる"],
+  ["技術スタック（公開情報）", "組込み/制御系（C/C++ 等）、業務系（Java 等）、Web・クラウド、AI・ロボット。案件・分野により採用技術は大きく異なる"],
   ["採用ページ", "fsi.co.jp（採用情報）"],
 ];
 
@@ -92,7 +92,7 @@ export default function FujiSoftCompanyPage() {
     <>
       <ArticleJsonLd
         title="富士ソフト エンジニア転職ガイド"
-        description="富士ソフトへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収640万円(2024年12月期)、組込み/業務システム/インフラの技術領域、選考フロー、口コミ傾向まで。"
+        description="富士ソフトへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収640万円(2024年12月期)、組込み/業務システム/インフラの技術領域、選考フロー、口コミ傾向までを解説します。"
         url="/company/fujisoft/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -143,7 +143,7 @@ export default function FujiSoftCompanyPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li className="flex gap-2"><span className="shrink-0">1.</span>独立系の総合SIerで分野が広いです。組込み・制御系/業務系/インフラ/AIのいずれかの経験が活きます。</li>
               <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は640万円です（2024年12月期 有価証券報告書）。近年は上昇傾向で堅実な水準です。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>規模が大きく通年募集です。希望分野での経験とプロジェクト推進力があれば30代・40代でも挑戦しやすいです。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>規模が大きく、通年で募集しています。希望分野での経験とプロジェクト推進力があれば30代・40代でも挑戦しやすいです。</li>
             </ul>
           </div>
         </section>
@@ -250,9 +250,9 @@ export default function FujiSoftCompanyPage() {
           <ol className="space-y-3">
             {[
               ["エントリー（書類選考）", "希望分野・職種から応募し書類を提出します。職務経歴・実務経験が確認されます。"],
-              ["面接（複数回）", "現場・人事等との面接です。希望分野での経験や役割、推進力が問われます。"],
+              ["面接（複数回）", "現場・人事等との面接が行われます。希望分野での経験や役割、推進力が問われます。"],
               ["適性確認等", "ポジションにより適性検査やスキル確認が行われる場合があります。"],
-              ["内定（オファー）", "条件・配属の説明です。担当分野・ミッションのすり合わせが行われます。"],
+              ["内定（オファー）", "条件・配属の説明を受けます。担当分野・ミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -301,7 +301,7 @@ export default function FujiSoftCompanyPage() {
               <ul className="space-y-1.5 text-sm text-amber-900">
                 <li>受託開発ゆえに案件・客先により働き方や裁量が変わります</li>
                 <li>配属分野によって扱う技術・環境の差が大きいです</li>
-                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
+                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意が必要です</li>
               </ul>
             </div>
           </div>
@@ -331,7 +331,7 @@ export default function FujiSoftCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で求人数が豊富です。SIer・組込み・インフラ系の求人にも対応しています。書類添削・面接対策に定評があります。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、SI・各分野に実績です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、SI・各分野に実績があります。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、専門職や上流ポジションの求人に対応しています。ミドル層に強みがあります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

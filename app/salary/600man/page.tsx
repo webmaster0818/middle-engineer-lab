@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "年収600万円のエンジニアに必要なスキルレベル・役職・職種【到達条件】";
 const DESCRIPTION =
-  "年収600万円のITエンジニアに必要なスキルレベル・役職・職種・求人傾向を、経産省ITSSレベルや厚労省job tag、doda職種別データなど出典付きで整理。ITSS L3後半〜L4手前という位置づけと、3年以上の実務＋設計・リーダー経験という到達条件を解説します。";
+  "年収600万円のITエンジニアに必要なスキルレベル・役職・職種・求人傾向を、経産省ITSSレベルや厚労省job tag、doda職種別データなど出典を明記して整理します。ITSS L3後半〜L4手前という位置づけと、3年以上の実務＋設計・リーダー経験という到達条件を解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/600man/" },
@@ -26,8 +26,8 @@ const toc = [
 
 const jobsData = [
   { job: "プリセールス", salary: "約718万円", note: "技術と提案を橋渡し。600万円台を大きく超える層" },
-  { job: "プロジェクトマネージャー（PM）", salary: "約669万円", note: "進行・予算・人の管理です。マネジメント評価が反映" },
-  { job: "ITコンサルタント", salary: "約625万円", note: "上流の課題解決です。600万円帯の入口にあたる職種" },
+  { job: "プロジェクトマネージャー（PM）", salary: "約669万円", note: "進行・予算・人の管理。マネジメント評価が反映" },
+  { job: "ITコンサルタント", salary: "約625万円", note: "上流の課題解決。600万円帯の入口にあたる職種" },
 ];
 
 const skills = [
@@ -165,7 +165,7 @@ export default function Salary600Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L2</td>
                   <td className="px-4 py-3 border border-slate-200">499.2万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">まだ手前です。土台となる水準</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">まだ手前。土台となる水準</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L3</td>
@@ -175,7 +175,7 @@ export default function Salary600Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L4</td>
                   <td className="px-4 py-3 border border-slate-200">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">600万円のすぐ上です。次の目標</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">600万円のすぐ上。次の目標</td>
                 </tr>
               </tbody>
             </table>

@@ -33,10 +33,10 @@ const comparison = [
   { item: "運営", a: "パーソルキャリア株式会社（旧iX転職・2022年10月にdoda Xへ改称）", b: "リクルート系（正式運営会社名は要確認）" },
   { item: "応募の動き方", a: "ヘッドハンターからの紹介に加え、自分でも求人に応募できます", b: "登録して待ち、届いたスカウトに応募するのが基本" },
   { item: "規模", a: "公開求人 106,491件・年収800万以上 95,069件・1,000万以上 50,902件（二次2026年5月）・ヘッドハンター約7,300人（2025年4月）", b: "公開求人 約59.3万件・年収800万以上 約34.7万件（二次2026年2月）・毎月約2万人新規登録" },
-  { item: "得意領域", a: "IT/Web・メーカー・営業に強いです", b: "メーカー・コンサル・商社に強い" },
-  { item: "年収帯", a: "年収800〜1,000万円超のハイクラス全業種です。再利用意向89.8%（二次）", b: "年収600〜2,000万のミドル〜ハイクラスです。転職後平均年収950万（二次）" },
+  { item: "得意領域", a: "IT/Web・メーカー・営業に強いです", b: "メーカー・コンサル・商社に強いです" },
+  { item: "年収帯", a: "年収800〜1,000万円超のハイクラス全業種。再利用意向89.8%（二次）", b: "年収600〜2,000万のミドル〜ハイクラス。転職後平均年収950万（二次）" },
   { item: "料金", a: "完全無料", b: "完全無料" },
-  { item: "IT特化", a: "IT特化ではありません（IT/Webにも強い全業種ハイクラス）", b: "IT特化ではない（全業種のハイクラス）" },
+  { item: "IT特化", a: "IT特化ではありません（IT/Webにも強い全業種ハイクラス）", b: "IT特化ではありません（全業種のハイクラス）" },
 ];
 
 const faqs = [
@@ -50,16 +50,16 @@ const faqs = [
 
 const goodDodaX = [
   "ヘッドハンター紹介だけでなく、自分でも応募したい",
-  "IT/Web・メーカー・営業領域で上方転職を狙う",
-  "年収800万円以上のハイクラスを目指す",
+  "IT/Web・メーカー・営業領域で上方転職を狙います",
+  "年収800万円以上のハイクラスを目指します",
   "満足度・再利用意向の高いサービスを使いたい",
   "主体的に動きたい30代・年収700万超の40代",
 ];
 const goodRDS = [
-  "完全無料・手間をかけず待ちのスタイルが良い",
-  "メーカー・コンサル・商社も視野にある",
+  "完全無料・手間をかけず待ちのスタイルが良いです",
+  "メーカー・コンサル・商社も視野にあります",
   "とにかく多くの求人・スカウトに当たりたい",
-  "年収600〜2,000万のミドル〜ハイクラスを狙う",
+  "年収600〜2,000万のミドル〜ハイクラスを狙います",
   "まず相場を測りたい",
 ];
 
@@ -96,7 +96,7 @@ export default function DodaXVsRdsPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・自分でも応募したい・IT/Web/メーカー領域なら「dodaX」</strong>。ヘッドハンター紹介に加えて自己応募もできます。</li>
               <li><strong>・完全無料で手間をかけず待ちたいなら「リクルートダイレクトスカウト」</strong>。求人量が豊富で、登録して待つだけです。</li>
-              <li><strong>・迷うなら両方登録です（併用）</strong>。どちらも完全無料であるため、自己応募できる求人と届くスカウトを比較するのが、30代・40代には合理的です。</li>
+              <li><strong>・迷う場合は両方への登録をおすすめします（併用）</strong>。どちらも完全無料であるため、自己応募できる求人と届くスカウトを比較するのが、30代・40代には合理的です。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">どちらもIT特化ではありませんが、dodaXはIT/Webに強く、年収レンジを上げる用途で有効です。詳しくは項目別にご説明します。</p>
@@ -160,7 +160,7 @@ export default function DodaXVsRdsPage() {
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
               <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>年収800万円以上の比率が高いです</li><li>ヘッドハンターの質が良いです</li><li>自分でも応募できて動きやすいです</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>ハイクラス未満には物足りません</li><li>IT特化ではない</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>ハイクラス未満には物足りません</li><li>IT特化ではありません</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：みん評／各転職メディア集計</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -168,7 +168,7 @@ export default function DodaXVsRdsPage() {
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
               <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>完全無料で使える</li><li>高年収・非公開求人が多い</li><li>求人量が豊富</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>ヘッドハンターの質にばらつき</li><li>現職バレが不安という声</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>ヘッドハンターの質にばらつき</li><li>現職バレが不安という声があります</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：みん評／各転職メディア集計</p>
             </div>
           </div>

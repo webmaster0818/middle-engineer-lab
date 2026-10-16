@@ -35,7 +35,7 @@ const comparison = [
   { item: "動き方", a: "プロフィール・GitHubを整えてスカウトを待ちます", b: "アドバイザーに希望を伝え、求人提案を受ける" },
   { item: "求人・規模", a: "掲載企業800社以上を厳選します（公式・2024年7月時点）。求人数は非明示", b: "公開求人 約5万件超（2026年5〜6月時点・複数転職メディア集計）" },
   { item: "年収の傾向", a: "モダン言語の即戦力・Web自社開発の高年収帯", b: "公開求人の約8割が年収600万円以上（二次情報）" },
-  { item: "サポート", a: "USスタイルの壁打ち等です。基本は自走", b: "IT業界に精通した専任アドバイザーが書類添削・面接対策・年収交渉まで伴走" },
+  { item: "サポート", a: "USスタイルの壁打ち等。基本は自走", b: "IT業界に精通した専任アドバイザーが書類添削・面接対策・年収交渉まで伴走" },
   { item: "料金", a: "求職者は完全無料", b: "求職者は完全無料" },
 ];
 
@@ -50,16 +50,16 @@ const faqs = [
 ];
 
 const goodFindy = [
-  "GitHubに公開活動があり、コードで実力を示せる",
+  "GitHubに公開活動があり、コードで実力を示せます",
   "Go/TypeScript/Python/Rubyなどモダン言語の即戦力",
-  "スカウトを待つ受け身のスタイルが合う",
+  "スカウトを待つ受け身のスタイルが合います",
   "客観的なスキル可視化で市場価値を測りたい",
-  "Web自社開発企業を志向している",
+  "Web自社開発企業を志向しています",
 ];
 const goodLev = [
   "書類添削・面接対策・年収交渉をプロに任せたい",
   "技術スタックを理解したアドバイザーに相談したい",
-  "能動的にIT特化の求人を提案してほしい",
+  "能動的にIT特化の求人を提案してほしいです",
   "GitHub活動が少なく、伴走してもらいたい",
   "現場志向のキャリア相談がしたい30代",
 ];
@@ -97,7 +97,7 @@ export default function FindyVsLevtechPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・GitHubの実績でスカウトを待ちたいなら「Findy」</strong>。スキル偏差値で実力を可視化し、企業から直接声がかかります。</li>
               <li><strong>・書類添削や年収交渉をプロに任せたいなら「レバテックキャリア」</strong>。IT特化の専任アドバイザーが伴走します。</li>
-              <li><strong>・迷うなら両方登録です</strong>。Findyで市場価値を測り、レバテックキャリアで選考を伴走してもらう「受動×能動」が、30代・40代には合理的です。どちらも完全無料です。</li>
+              <li><strong>・迷う場合は両方への登録をおすすめします</strong>。Findyで市場価値を測り、レバテックキャリアで選考を伴走してもらう「受動×能動」が、30代・40代には合理的です。どちらも完全無料です。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">なお本記事の「レバテック」は正社員転職の『レバテックキャリア』を指します。詳しくは次の用語整理をご覧ください。</p>
@@ -170,9 +170,9 @@ export default function FindyVsLevtechPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Findyの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>GitHub実績で客観評価されます</li><li>掲載企業の質が高い</li><li>自己アピールの壁打ちができる</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>GitHub実績で客観評価されます</li><li>掲載企業の質が高いです</li><li>自己アピールの壁打ちができます</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>GitHub活動が少ないとスカウトが来ないです</li><li>地方求人が少ない</li><li>伴走サポートは薄め</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>GitHub活動が少ないとスカウトが来ないです</li><li>地方求人が少ないです</li><li>伴走サポートは薄め</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：Qiita／みん評／各転職メディア集計</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -180,7 +180,7 @@ export default function FindyVsLevtechPage() {
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
               <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>書類添削・面接対策が丁寧</li><li>LINEで連絡が完結して手軽</li><li>高年収求人が多い</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>未経験者は紹介されにくいです</li><li>初回面談後の連絡が遅い場合があります</li><li>首都圏中心</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>未経験者は紹介されにくいです</li><li>初回面談後の連絡が遅い場合があります</li><li>首都圏中心です</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：OUTSIDEMAGAZINE／Qiita／イーデス等</p>
             </div>
           </div>
@@ -207,7 +207,7 @@ export default function FindyVsLevtechPage() {
               {[
                 { num: "1", title: "Findyが向くケース", desc: "現役でコードを書き、GitHubに公開活動がある場合です。スキル偏差値で市場価値を測り、届いたスカウトの質で立ち位置を確認します。" },
                 { num: "2", title: "レバテックキャリアが向くケース", desc: "書類添削や年収交渉をプロに任せたい、GitHub活動が少なく求人提案を受けたい場合です。専任アドバイザーに伴走してもらいます。" },
-                { num: "3", title: "併用パターン（推奨）", desc: "Findyでスカウトを受けて市場価値を把握しつつ、レバテックキャリアで選考を伴走してもらいます。客観評価と伴走支援を組み合わせ、最も有利な条件で意思決定です。" },
+                { num: "3", title: "併用パターン（推奨）", desc: "Findyでスカウトを受けて市場価値を把握しつつ、レバテックキャリアで選考を伴走してもらいます。客観評価と伴走支援を組み合わせ、最も有利な条件で意思決定します。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>

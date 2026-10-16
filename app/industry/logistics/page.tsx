@@ -32,12 +32,12 @@ const toc = [
 ];
 
 const skillTable = [
-  ["WMS・TMSの業務知識", "そのまま活きる", "倉庫・輸配送管理システムの要件定義で直接活きる"],
-  ["在庫最適化・配送設計の理解", "そのまま活きる", "需要予測・配車最適化のロジック設計に直結"],
-  ["ラストマイル・現場オペレーションの理解", "そのまま活きる", "実務制約を踏まえたシステム設計で評価される"],
+  ["WMS・TMSの業務知識", "そのまま活きます", "倉庫・輸配送管理システムの要件定義で直接活きます"],
+  ["在庫最適化・配送設計の理解", "そのまま活きます", "需要予測・配車最適化のロジック設計に直結"],
+  ["ラストマイル・現場オペレーションの理解", "そのまま活きます", "実務制約を踏まえたシステム設計で評価されます"],
   ["バックエンド開発（Python・Java・Go等）", "要習得", "物流プラットフォーム開発で求められる中心スキル"],
   ["データ分析・最適化（SQL / Python）", "要習得", "需要予測・ルート最適化のポジションで必要"],
-  ["GIS・IoT・ロボティクス制御", "要習得", "配送最適化や自動倉庫の領域で差別化要素になる"],
+  ["GIS・IoT・ロボティクス制御", "要習得", "配送最適化や自動倉庫の領域で差別化要素になります"],
 ];
 
 const patternTable = [
@@ -198,7 +198,7 @@ export default function LogisticsPage() {
                     <th className="px-4 py-3 text-left font-medium text-slate-700 align-top">{skill}</th>
                     <td
                       className={`px-4 py-3 font-medium whitespace-nowrap align-top ${
-                        status === "そのまま活きる" ? "text-petrol" : "text-amber-600"
+                        status === "そのまま活きます" ? "text-petrol" : "text-amber-600"
                       }`}
                     >
                       {status}
@@ -248,11 +248,11 @@ export default function LogisticsPage() {
               <h3 className="font-bold text-emerald-800 mb-3 text-sm">このような方に向いています</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
-                  "WMS・TMSなど物流システムの実務経験がある",
-                  "倉庫・配送の現場制約を具体的に語れる",
-                  "バックエンド開発やデータ分析の学習を継続できる",
-                  "荷主・委託先など関係先との調整を厭わない",
-                  "配送効率や在庫をプロダクトで改善することに関心がある",
+                  "WMS・TMSなど物流システムの実務経験があります",
+                  "倉庫・配送の現場制約を具体的に語れます",
+                  "バックエンド開発やデータ分析の学習を継続できます",
+                  "荷主・委託先など関係先との調整を厭いません",
+                  "配送効率や在庫をプロダクトで改善することに関心があります",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-emerald-600 shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -263,9 +263,9 @@ export default function LogisticsPage() {
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
                   "物流の経験がなく、技術力だけを強みにしたい",
-                  "倉庫・配送の現場オペレーションに関心が薄い",
-                  "学習に時間を割けず、即戦力の技術力も足りない",
-                  "短期間での大幅な年収アップだけを目的にしている",
+                  "倉庫・配送の現場オペレーションに関心が薄いです",
+                  "学習に時間を割けず、即戦力の技術力も足りません",
+                  "短期間での大幅な年収アップだけを目的にしています",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="text-slate-400 shrink-0">▲</span><span>{t}</span></li>
                 ))}
@@ -285,12 +285,12 @@ export default function LogisticsPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg overflow-hidden">
               <div className="bg-slate-100 px-4 py-2 text-xs font-bold text-slate-500">Before（伝わりにくい例）</div>
-              <p className="px-4 py-3 text-sm text-slate-600">WMSの導入・運用を担当します。配送ルートの設計にも携わった。</p>
+              <p className="px-4 py-3 text-sm text-slate-600">WMSの導入・運用を担当。配送ルートの設計にも携わった。</p>
             </div>
             <div className="border border-[var(--line)] rounded-lg overflow-hidden">
               <div className="bg-petrol-soft px-4 py-2 text-xs font-bold text-petrol-deep">After（物流×ITが伝わる例）</div>
               <p className="px-4 py-3 text-sm text-slate-700">
-                倉庫向けWMSの導入・運用を担当します。現場の作業動線とピッキング負荷を踏まえたロケーション設計を主導し、出荷作業の効率改善に貢献します。配送ルートの設計では制約条件（時間指定・積載率）を整理し、配車最適化の要件定義に参画します。倉庫オペレーションと配送設計の両面を理解している点を強みとします。
+                倉庫向けWMSの導入・運用を担当。現場の作業動線とピッキング負荷を踏まえたロケーション設計を主導し、出荷作業の効率改善に貢献。配送ルートの設計では制約条件（時間指定・積載率）を整理し、配車最適化の要件定義に参画。倉庫オペレーションと配送設計の両面を理解している点を強みとします。
               </p>
             </div>
           </div>
@@ -379,7 +379,7 @@ export default function LogisticsPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートB：既存の開発スキルにモダンスタックを足す</h3>
-              <p className="text-sm text-slate-600">WMS/TMS開発の経験者がPython・Java・Goやクラウドを補強して物流テックのエンジニア職へ。学習成果を小さな制作物で示すと伝わりやすいです。</p>
+              <p className="text-sm text-slate-600">WMS/TMS開発の経験者がPython・Java・Goやクラウドを補強して物流テックのエンジニア職を目指す道があります。学習成果を小さな制作物で示すと伝わりやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートC：最適化・データ領域へ寄せる</h3>

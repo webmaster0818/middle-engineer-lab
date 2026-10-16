@@ -206,9 +206,9 @@ export default function SqlSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              { t: "土台として求められやすい", d: "SQL（複雑なJOIN・Window関数・CTE）、正規化とインデックス設計、トランザクション・ロックの理解、実行計画の読み解き。" },
-              { t: "DBAの中核として見られる", d: "バックアップ/リカバリ設計、レプリケーション・冗長構成、パフォーマンスチューニング、監視・キャパシティ管理の運用経験です。" },
-              { t: "差別化になる", d: "クラウドDB（Aurora/BigQuery/DynamoDB等）の運用・移行、TerraformでのDB環境のIaC化、データ基盤（dbt・Airflow・DWH）の経験です。" },
+              { t: "土台として求められやすいです", d: "SQL（複雑なJOIN・Window関数・CTE）、正規化とインデックス設計、トランザクション・ロックの理解、実行計画の読み解き。" },
+              { t: "DBAの中核として見られます", d: "バックアップ/リカバリ設計、レプリケーション・冗長構成、パフォーマンスチューニング、監視・キャパシティ管理の運用経験。" },
+              { t: "差別化になります", d: "クラウドDB（Aurora/BigQuery/DynamoDB等）の運用・移行、TerraformでのDB環境のIaC化、データ基盤（dbt・Airflow・DWH）の経験。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.t}</h3>
@@ -303,7 +303,7 @@ export default function SqlSkillPage() {
               { t: "土台：SQLと内部構造の理解", d: "Window関数・CTE・実行計画の読み解きを手に馴染ませ、インデックスやロックの内部挙動まで理解します。これが他職種との差になります。" },
               { t: "運用：止めない設計の経験", d: "バックアップ/リカバリ、レプリケーション、監視を実際に組みます。可用性・整合性をどう担保するかを語れる状態を目指します。" },
               { t: "拡張：クラウドDB＋データ基盤", d: "Aurora・BigQuery等とdbt・Airflowを触り、データエンジニアリングへ橋を架けます。求人の幅と年収上限が広がります。" },
-              { t: "証明：資格は金融系で効きやすい", d: "Oracle Master、AWS/GCPのDB・データ系認定は書類選考の目印に。とくに金融系の転職で評価されやすい傾向です。" },
+              { t: "証明：資格は金融系で効きやすいです", d: "Oracle Master、AWS/GCPのDB・データ系認定は書類選考の目印になります。とくに金融系の転職で評価されやすい傾向です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.t}</h3>

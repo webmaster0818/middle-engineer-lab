@@ -55,7 +55,7 @@ const factors = [
   {
     name: "通信・作業環境",
     point:
-      "リモート前提なら光回線などの通信環境は必須確認です。コワーキングスペースや在宅の作業スペースを確保できるかも生産性に直結します。",
+      "リモート前提なら光回線などの通信環境は必ず確認してください。コワーキングスペースや在宅の作業スペースを確保できるかも生産性に直結します。",
   },
   {
     name: "生活インフラ・家族",
@@ -65,7 +65,7 @@ const factors = [
   {
     name: "都市アクセス",
     point:
-      "完全在宅でも、たまの出社や打ち合わせは発生しうります。新幹線・空港など首都圏へのアクセスのしやすさは安心材料になります。",
+      "完全在宅でも、たまの出社や打ち合わせは発生しえます。新幹線・空港など首都圏へのアクセスのしやすさは安心材料になります。",
   },
   {
     name: "移住支援・コミュニティ",
@@ -299,7 +299,7 @@ export default function IijuAreaPage() {
               <strong>レバテック公表の年代別平均年収（2025年・正社員SE）:</strong> 20代 約378万円／30代 約499万円／40代 約618万円／50代 約685万円です（出典: career.levtech.jp/freelance.levtech.jp ガイド記事）。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              <strong>doda 2024年度 決定年収レポート（2025年5月公表）:</strong> 転職者の約6割が年収アップです。IT・通信の平均決定年収は469万円（2023年度）→486万円です（2024年度）。
+              <strong>doda 2024年度 決定年収レポート（2025年5月公表）:</strong> 転職者の約6割が年収アップを実現しています。IT・通信の平均決定年収は469万円（2023年度）→486万円です（2024年度）。
             </p>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
@@ -372,7 +372,7 @@ export default function IijuAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">移住して、働き方も暮らしも整えよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            仕事を先に確保し、生活と働き方の両輪で計画を。フルリモートと全国求人に強いエージェントで、移住に合う求人を探しましょう。
+            仕事を先に確保し、生活と働き方の両輪で計画を立てます。フルリモートと全国求人に強いエージェントで、移住に合う求人を探しましょう。
           </p>
           <Link
             href="/#ranking"

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/graphql/" },
   title: "GraphQLエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "GraphQLエンジニアの転職市場を出典付きで解説。求人媒体・求人ボックスの公表値をもとに、API設計スキルとしてのGraphQLの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
+    "GraphQLエンジニアの転職市場を出典を明記して解説します。求人媒体・求人ボックスの公表値をもとに、API設計スキルとしてのGraphQLの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
@@ -73,7 +73,7 @@ export default function GraphqlSkillPage() {
     <>
       <ArticleJsonLd
         title="GraphQLエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="GraphQLエンジニアの転職市場を出典付きで解説。API設計スキルとしてのGraphQLの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="GraphQLエンジニアの転職市場を出典を明記して解説します。API設計スキルとしてのGraphQLの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/graphql/"
       />
       <script
@@ -136,8 +136,8 @@ export default function GraphqlSkillPage() {
               <strong>GraphQLは「API設計に強いことを示す付加スキル」です。</strong>GraphQL単体で転職を狙うより、フロント／バックのメインスキルを土台に、GraphQLを「API設計力の証明」として掛け合わせるのが現実的な進め方です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・関連職種のWebエンジニア平均年収は<strong>約462万円</strong>・ソフトウェアエンジニア約511万円（求人ボックス・2026年6月）</li>
-              <li>・求人媒体のGraphQL求人では上限年収2000万円の例も。設計力の高い人材ほど高額求人に紐づきます</li>
+              <li>・関連職種のWebエンジニア平均年収は<strong>約462万円</strong>・ソフトウェアエンジニア約511万円です（求人ボックス・2026年6月）</li>
+              <li>・求人媒体のGraphQL求人では上限年収2000万円の例もあります。設計力の高い人材ほど高額求人に紐づきます</li>
               <li>・GraphQLは<strong>API設計・スキーマ設計・マイクロサービス</strong>の文脈で語ると市場価値が上がります</li>
             </ul>
           </div>
@@ -209,7 +209,7 @@ export default function GraphqlSkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               { role: "バックエンドエンジニア", note: "GraphQLサーバー・スキーマ設計・リゾルバ実装が中心です。API設計に強み" },
-              { role: "フロントエンドエンジニア", note: "GraphQLクライアント（Apollo等）でのデータ取得設計です。複雑なUIで需要" },
+              { role: "フロントエンドエンジニア", note: "GraphQLクライアント（Apollo等）でのデータ取得設計。複雑なUIで需要" },
               { role: "APIアーキテクト／テックリード", note: "GraphQLを含むAPI全体の設計＋技術選定＋チームリード" },
               { role: "フリーランス（API設計案件）", note: "GraphQL/REST設計を含む案件です。設計力の高さで単価が上がりやすいです" },
             ].map((item, i) => (

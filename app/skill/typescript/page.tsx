@@ -47,7 +47,7 @@ const careerPaths = [
   },
   {
     title: "テックリード・EM路線",
-    body: "技術選定やチームビルディングを担うテックリードから、EM（エンジニアリングマネージャー）やVPoEへ。TypeScriptの技術基盤を保ちながら、組織のアウトプットを最大化する役割です。30代後半〜40代で選ばれやすいパスです。",
+    body: "技術選定やチームビルディングを担うテックリードから、EM（エンジニアリングマネージャー）やVPoEを目指す道があります。TypeScriptの技術基盤を保ちながら、組織のアウトプットを最大化する役割です。30代後半〜40代で選ばれやすいパスです。",
   },
 ];
 
@@ -134,7 +134,7 @@ export default function TypeScriptSkillPage() {
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
               <li>・年収を狙うなら自社開発SaaS／メガベンチャー、技術裁量を狙うならスタートアップです。</li>
-              <li>・30代・40代はフルスタック・テックリード経験が強みです。即戦力性を前面に。</li>
+              <li>・30代・40代はフルスタック・テックリード経験が強みです。即戦力性を前面に出します。</li>
               <li>・エージェントはレバテックキャリア／Geekly／Greenの併用が定番です。</li>
             </ul>
           </div>
@@ -190,9 +190,9 @@ export default function TypeScriptSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              ["ジュニア〜ミドル（実務2〜4年）", "React/TypeScriptの実務、コンポーネント設計、API連携、基本的なテストです。自社開発の中小プロダクトやSIerのモダン案件で募集が見られる層です。"],
-              ["ミドル〜シニア（実務4〜8年）", "型設計・状態管理・パフォーマンス最適化に加え、設計レビューや若手育成です。求人で最も母数が多く、年収交渉もしやすい層です。"],
-              ["シニア・リード（実務8年〜）", "アーキテクチャ選定、モノレポ／CI/CD整備、チームの技術的意思決定です。テックリード・EM求人の中心です。30代後半〜40代の中心的な活躍領域です。"],
+              ["ジュニア〜ミドル（実務2〜4年）", "React/TypeScriptの実務、コンポーネント設計、API連携、基本的なテスト。自社開発の中小プロダクトやSIerのモダン案件で募集が見られる層。"],
+              ["ミドル〜シニア（実務4〜8年）", "型設計・状態管理・パフォーマンス最適化に加え、設計レビューや若手育成。求人で最も母数が多く、年収交渉もしやすい層。"],
+              ["シニア・リード（実務8年〜）", "アーキテクチャ選定、モノレポ／CI/CD整備、チームの技術的意思決定。テックリード・EM求人の中心。30代後半〜40代の中心的な活躍領域です。"],
             ].map(([level, body], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{level}</h3>
@@ -280,10 +280,10 @@ export default function TypeScriptSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
             {[
-              ["型を強みにする", "ジェネリクス、条件型、ユーティリティ型、型ガードを実プロジェクトで使い分けられるレベルを目指します。"],
-              ["エコシステムを押さえる", "Next.js App Router、React Server Components、状態管理（Zustand/Jotai）、tRPC/GraphQLなど周辺技術の引き出しを増やします。"],
-              ["品質で差をつける", "Vitest/Playwrightでのテスト、型安全なAPI設計、CI/CDの整備経験は面接で具体的に語れる強みになります。"],
-              ["アウトプットを残す", "OSSへのPR、技術記事、設計の意思決定ログ（ADR）など、思考プロセスが見える成果物を蓄積します。"],
+              ["型を強みにします", "ジェネリクス、条件型、ユーティリティ型、型ガードを実プロジェクトで使い分けられるレベルを目指します。"],
+              ["エコシステムを押さえます", "Next.js App Router、React Server Components、状態管理（Zustand/Jotai）、tRPC/GraphQLなど周辺技術の引き出しを増やします。"],
+              ["品質で差をつけます", "Vitest/Playwrightでのテスト、型安全なAPI設計、CI/CDの整備経験は面接で具体的に語れる強みになります。"],
+              ["アウトプットを残します", "OSSへのPR、技術記事、設計の意思決定ログ（ADR）など、思考プロセスが見える成果物を蓄積します。"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{t}</h3>
@@ -304,10 +304,10 @@ export default function TypeScriptSkillPage() {
               <h3 className="font-bold text-green-800 mb-3 text-sm">向いている人</h3>
               <ul className="space-y-2 text-sm text-green-900">
                 {[
-                  "型で堅牢さを担保する設計に面白さを感じる",
+                  "型で堅牢さを担保する設計に面白さを感じます",
                   "フロントからバックまで横断して開発したい",
                   "Web系自社開発・SaaSでモダンな技術に触れたい",
-                  "リモート中心の柔軟な働き方を志向している",
+                  "リモート中心の柔軟な働き方を志向しています",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>{t}</span></li>
                 ))}
@@ -317,9 +317,9 @@ export default function TypeScriptSkillPage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">向いていないかもしれない人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
-                  "型を書く手間より速度を最優先したい現場志向が強い",
+                  "型を書く手間より速度を最優先したい現場志向が強いです",
                   "レガシーな受託・SES中心の環境から動く気がない",
-                  "フロントエンドの変化の速さに追従する余裕が今ない",
+                  "フロントエンドの変化の速さに追従する余裕が今はありません",
                   "単一技術を長期間深掘りしたい（TSは周辺技術の更新が速い）",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">･</span><span>{t}</span></li>

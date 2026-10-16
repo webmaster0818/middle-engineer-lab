@@ -165,7 +165,7 @@ export default function RetirementAgencyPage() {
                 <tr className="align-top">
                   <td className="px-4 py-3 font-medium text-slate-800">③ 弁護士</td>
                   <td className="px-4 py-3 text-slate-600">交渉に加え、損害賠償・未払い賃金請求などの法的対応</td>
-                  <td className="px-4 py-3 text-slate-600">（対応範囲は広いが、費用は高くなりやすい）</td>
+                  <td className="px-4 py-3 text-slate-600">（対応範囲は広い一方、費用は高くなりやすい傾向）</td>
                   <td className="px-4 py-3 text-slate-600">損害賠償の脅し・トラブル・SES客先常駐など争点が大きいケース</td>
                 </tr>
               </tbody>
@@ -235,7 +235,7 @@ export default function RetirementAgencyPage() {
               <ul className="space-y-2 text-sm text-slate-600">
                 <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>ハラスメントなどで、直接伝えること自体が心身の負担になります</span></li>
                 <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>強い引き止めや恫喝で、自力での退職が進みません</span></li>
-                <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>有給・退職日・賃金などで会社と争点があり、交渉が必要</span></li>
+                <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>有給・退職日・賃金などで会社と争点があり、交渉が必要です</span></li>
                 <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>SES・客先常駐で損害賠償などをちらつかせられています</span></li>
               </ul>
             </div>
@@ -259,12 +259,12 @@ export default function RetirementAgencyPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-3 text-sm text-slate-600">
               {[
-                "運営主体（民間業者・労働組合・弁護士）と、自分のケースで交渉が必要かを確認した",
-                "有給休暇の残日数を確認した（消化や買い取りの相談に備える）",
-                "離職票・源泉徴収票など退職後に必要な書類の受け取り方法を整理した",
-                "貸与PC・社員証・書類など、会社・客先からの貸与物の返却方法を確認した",
-                "常駐先に置いた私物の引き取り方法を確認した（SES・客先常駐の場合）",
-                "料金に含まれる範囲と追加費用の発生条件を確認した",
+                "運営主体（民間業者・労働組合・弁護士）と、自分のケースで交渉が必要かを確認しました",
+                "有給休暇の残日数を確認しました（消化や買い取りの相談に備える）",
+                "離職票・源泉徴収票など退職後に必要な書類の受け取り方法を整理しました",
+                "貸与PC・社員証・書類など、会社・客先からの貸与物の返却方法を確認しました",
+                "常駐先に置いた私物の引き取り方法を確認しました（SES・客先常駐の場合）",
+                "料金に含まれる範囲と追加費用の発生条件を確認しました",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>{item}</span></li>
               ))}

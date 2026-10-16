@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/obic/" },
   title: "オービックの年収は平均1,129万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "株式会社オービック（4684）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収1,129万円(2026年3月期・全社員平均)、統合基幹業務システム「OBIC7」を支える技術、選考フロー・面接観点、30代40代の進め方まで。確認できない数値は記載していません。",
+    "株式会社オービック（4684）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収1,129万円(2026年3月期・全社員平均)、統合基幹業務システム「OBIC7」を支える技術、選考フロー・面接観点、30代40代の進め方までを解説します。確認できない数値は記載していません。",
 };
 
 const salaryTrend: [string, string, string][] = [
@@ -26,7 +26,7 @@ const basicData: [string, string][] = [
   ["平均年齢", "35.8歳（2026年3月期 有価証券報告書）"],
   ["平均勤続年数", "約12.9年（2026年3月期 有価証券報告書）"],
   ["本社所在地", "東京都中央区"],
-  ["技術スタック（公開情報）", "ERP「OBIC7」の開発・導入です。基幹システムの設計・構築（具体的な使用言語・基盤は公式で網羅的に公表されておらず要確認）"],
+  ["技術スタック（公開情報）", "ERP「OBIC7」の開発・導入。基幹システムの設計・構築（具体的な使用言語・基盤は公式で網羅的に公表されておらず要確認）"],
   ["採用ページ", "obic.co.jp（採用情報）"],
 ];
 
@@ -91,7 +91,7 @@ export default function ObicCompanyPage() {
     <>
       <ArticleJsonLd
         title="オービック エンジニア転職ガイド"
-        description="オービックへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収1,129万円(2026年3月期)、ERP「OBIC7」を支える開発、選考フロー、口コミ傾向まで。"
+        description="オービックへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収1,129万円(2026年3月期)、ERP「OBIC7」を支える開発、選考フロー、口コミ傾向までを解説します。"
         url="/company/obic/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -249,9 +249,9 @@ export default function ObicCompanyPage() {
           <ol className="space-y-3">
             {[
               ["エントリー（書類選考）", "募集ポジションから応募し書類を提出します。職務経歴・担当領域・業務知識が確認されます。"],
-              ["面接（複数回）", "現場・人事等との面接です。ERP/基幹システムの経験や業務理解、推進力が問われます。"],
+              ["面接（複数回）", "現場・人事等との面接が行われます。ERP/基幹システムの経験や業務理解、推進力が問われます。"],
               ["適性確認等", "ポジションにより適性検査やスキル確認が行われる場合があります。"],
-              ["内定（オファー）", "条件・配属の説明です。担当領域・ミッションのすり合わせが行われます。"],
+              ["内定（オファー）", "条件・配属の説明を受けます。担当領域・ミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -300,7 +300,7 @@ export default function ObicCompanyPage() {
               <ul className="space-y-1.5 text-sm text-amber-900">
                 <li>顧客対応・導入プロジェクトの繁忙によって負荷が高まる場面があります</li>
                 <li>新卒文化が強く、中途は組織への適応が前提となる面があります</li>
-                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
+                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意が必要です</li>
               </ul>
             </div>
           </div>
@@ -331,7 +331,7 @@ export default function ObicCompanyPage() {
             {[
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高い大手・専門職の求人に対応しています。高年収企業に強みがあります。" },
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。書類添削・面接対策に定評があります。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、SI・ERP領域にも実績です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、SI・ERP領域にも実績です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

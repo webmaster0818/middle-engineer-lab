@@ -30,7 +30,7 @@ const toc = [
 const faqs = [
   {
     q: "ReactとVue.jsはどちらが転職に有利ですか？",
-    a: "国内の求人数では現状Reactが多数派で、選択肢の広さではReactが有利です。一方Vueは、Nuxtを採用する自社開発・受託や、学習コストの低さから一定の企業に根強い需要があり、Vueが得意なら十分に戦えます。最も市場価値が高いのは「Vueを軸にしつつReact・TypeScriptも触れる」状態です。どちらか一方に固執せず、フレームワークの考え方を移植できることを示すのが現実解です。",
+    a: "国内の求人数では現状Reactが多数派で、選択肢の広さではReactが有利です。一方Vueは、Nuxtを採用する自社開発・受託や、学習コストの低さから一定の企業に根強い需要があり、Vueが得意なら十分に活躍できます。最も市場価値が高いのは「Vueを軸にしつつReact・TypeScriptも触れる」状態です。どちらか一方に固執せず、フレームワークの考え方を移植できることを示すのが現実解です。",
   },
   {
     q: "Vue.jsエンジニアの年収はどのくらいですか？",
@@ -136,7 +136,7 @@ export default function VueSkillPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li><strong>求人数</strong>：国内ではReactが多数派です。選択肢の広さはReactが優位です。</li>
-              <li><strong>Vueの強み</strong>：学習コストが低く、Nuxt採用の自社/受託に根強い需要です。高単価案件も一部に存在しています。</li>
+              <li><strong>Vueの強み</strong>：学習コストが低く、Nuxt採用の自社/受託に根強い需要です。高単価案件も一部に存在します。</li>
               <li><strong>最適解</strong>：Vueを軸に<strong>React・TypeScriptも触れる</strong>と市場価値が最大化します。</li>
             </ul>
             <p className="text-slate-700 leading-relaxed mt-3 text-sm">
@@ -228,7 +228,7 @@ export default function VueSkillPage() {
             {[
               { t: "実務1〜3年層（コンポーネント実装）", d: "Vue3の基本、SFC、Vue Router、API連携、基礎的なPiniaです。チームの一員として画面を作れる層です。" },
               { t: "実務3〜6年層（設計・状態管理）", d: "状態設計、Nuxtでのレンダリング戦略、TypeScript連携、コンポーネント設計の方針決め。年収帯が一段上がる中核ゾーンです。" },
-              { t: "実務6年以上層（リード・アーキテクト）", d: "フロント全体設計、パフォーマンス最適化、設計レビュー、React等との技術選定です。マネジメント要素も評価されます。" },
+              { t: "実務6年以上層（リード・アーキテクト）", d: "フロント全体設計、パフォーマンス最適化、設計レビュー、React等との技術選定。マネジメント要素も評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -300,9 +300,9 @@ export default function VueSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "Vue3の基礎を固める", d: "公式ドキュメントでSFC・Composition API・Vue Routerを学び、小さなSPAを作ります。" },
+              { n: "STEP 1", t: "Vue3の基礎を固めます", d: "公式ドキュメントでSFC・Composition API・Vue Routerを学び、小さなSPAを作ります。" },
               { n: "STEP 2", t: "TypeScript＋Pinia/Nuxt", d: "型安全な実装と状態管理、SSR/SSGまで触れ、実務水準のアプリを1つ完成させます。" },
-              { n: "STEP 3", t: "ポートフォリオ＋Reactの素振り", d: "成果物をGitHubに公開しています。設計意図をREADMEで説明し、Reactの基礎も触って応募の母数を広げます。" },
+              { n: "STEP 3", t: "ポートフォリオ＋Reactの素振り", d: "成果物をGitHubに公開します。設計意図をREADMEで説明し、Reactの基礎も触って応募の母数を広げます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

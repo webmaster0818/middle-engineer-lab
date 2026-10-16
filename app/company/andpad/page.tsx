@@ -31,14 +31,14 @@ const basicData: [string, string][] = [
   ["企業名", "株式会社アンドパッド（ANDPAD・非上場・旧オクト）"],
   ["設立", "2012年"],
   ["事業内容", "建設・建築業界向けの施工管理・業務効率化クラウド「ANDPAD」の開発・提供（建設DX）"],
-  ["導入実績・規模", "26.5万社が利用するシェアNo.1クラスのサービス／従業員 約780名規模です。プレIPO（上場準備）フェーズとされる"],
-  ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しない（Indeed等の参考値は「年収データ」章を参照）"],
+  ["導入実績・規模", "26.5万社が利用するシェアNo.1クラスのサービス／従業員 約780名規模。プレIPO（上場準備）フェーズとされる"],
+  ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しません（Indeed等の参考値は「年収データ」章を参照）"],
   ["技術スタック", "Ruby on Rails 中心＋Go の採用／SRE・クラウドネイティブ（KubeCon登壇実績）"],
 ];
 
 const salaryRows: [string, string][] = [
   ["集計サイト（Indeed等）のエンジニア参考値", "約731万円（公式値ではない参考値・2026年6月時点）"],
-  ["公式の全社員平均年収", "非上場のため存在しない"],
+  ["公式の全社員平均年収", "非上場のため存在しません"],
   ["等級別年収表", "公式に開示なし（当ガイドでは創作した数値表は掲載しない）"],
 ];
 
@@ -193,7 +193,7 @@ export default function AndpadCompanyPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Ruby on Rails／GoでのWebサービス開発・運用経験を持つミドル</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>SRE・クラウドネイティブで大規模サービスを支えたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>未IT化の巨大市場（建設DX）を変えることに意義を感じます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>未IT化の巨大市場（建設DX）を変えることに意義を感じる</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>プレIPOの成長フェーズで裁量を持って動きたい</li>
               </ul>
             </div>

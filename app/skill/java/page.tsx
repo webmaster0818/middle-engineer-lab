@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/java/" },
   title: "Javaエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Javaエンジニアの転職市場を出典付きで解説。求人数で上位を占めるJavaの市場価値、SIerから自社開発への移行、Spring Boot・クラウドでの差別化、30代・40代の進め方をミドル向けに整理します。",
+    "Javaエンジニアの転職市場を出典を明記して解説します。求人数で上位を占めるJavaの市場価値、SIerから自社開発への移行、Spring Boot・クラウドでの差別化、30代・40代の進め方をミドル向けに整理します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function JavaSkillPage() {
     <>
       <ArticleJsonLd
         title="Javaエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Javaエンジニアの転職市場を出典付きで解説。求人数で上位を占めるJavaの市場価値、SIerから自社開発への移行、Spring Boot・クラウドでの差別化、30代・40代の進め方をミドル向けに整理します。"
+        description="Javaエンジニアの転職市場を出典を明記して解説します。求人数で上位を占めるJavaの市場価値、SIerから自社開発への移行、Spring Boot・クラウドでの差別化、30代・40代の進め方をミドル向けに整理します。"
         url="/skill/java/"
       />
       <script
@@ -97,8 +97,8 @@ export default function JavaSkillPage() {
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Javaエンジニアの転職は難しい？未経験・40代でもいける？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Javaは求人の母数が大きく、経験者の転職難易度は比較的低めです。paiza 2025年調査で企業ニーズ（求人数比率）2位（13.9%）と、転職機会を得やすい言語です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
-            <li>・<strong>難易度</strong>：金融・保険・官公庁など基幹系で需要が安定です。実務経験者は求人が多く、選択肢が広いです。</li>
-            <li>・<strong>未経験から</strong>：完全未経験の直接転職は簡単ではないが、求人数が多く学習コストに見合う言語です。Spring Boot等で実務相当の成果物を作るのが近道です。</li>
+            <li>・<strong>難易度</strong>：金融・保険・官公庁など基幹系で需要が安定しています。実務経験者は求人が多く、選択肢が広いです。</li>
+            <li>・<strong>未経験から</strong>：完全未経験の直接転職は簡単ではありませんが、求人数が多く学習コストに見合う言語です。Spring Boot等で実務相当の成果物を作るのが近道です。</li>
             <li>・<strong>40代・ミドル</strong>：SIerでの設計・PM経験や、Spring Boot＋クラウド（AWS等）の掛け合わせで自社開発への移行も現実的です。</li>
             <li>・<strong>進め方</strong>：Java・SIer案件に強い転職エージェントを複数併用し、求人票で年収レンジと役割を確認するのが確実です。</li>
           </ul>
@@ -146,7 +146,7 @@ export default function JavaSkillPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・paiza 2025年調査で企業ニーズ（求人数比率）<strong>2位です（13.9%）</strong>。転職機会を得やすいです</li>
-              <li>・Spring Boot／クラウド／マイクロサービスの経験が<strong>年収アップの分岐点</strong></li>
+              <li>・Spring Boot／クラウド／マイクロサービスの経験が<strong>年収アップの分岐点です</strong></li>
               <li>・40代でもPL／PM・金融ドメイン知識があれば<strong>安定した需要</strong>があります</li>
             </ul>
           </div>
@@ -294,10 +294,10 @@ export default function JavaSkillPage() {
               <strong>求人母数の多さは年齢のリスクヘッジになります。</strong>Javaは求人数が多く、年齢で間口が極端に狭まりにくい言語です。30代・40代でも応募先の選択肢を確保しやすいのは、安定して需要のある言語ならではの強みです。
             </p>
             <p>
-              <strong>「レガシー専任」で止まりません。</strong>古いJavaだけの経験だと評価が伸びにくいため、Spring Bootやクラウドなどモダンな要素を一つでも持つことが年収アップの分岐点です。レガシーとモダンの両方が分かる人材は、DX・モダナイゼーション案件で重宝されます。
+              <strong>「レガシー専任」にとどまらないことが重要です。</strong>古いJavaだけの経験だと評価が伸びにくいため、Spring Bootやクラウドなどモダンな要素を一つでも持つことが年収アップの分岐点です。レガシーとモダンの両方が分かる人材は、DX・モダナイゼーション案件で重宝されます。
             </p>
             <p>
-              <strong>業務知識とマネジメントが強みになります。</strong>金融・保険・物流などのドメイン知識や、PL／PMの経験は、若手では代替しにくい資産です。技術力とセットで提示すれば、40代でも上流ポジションで戦えます。
+              <strong>業務知識とマネジメントが強みになります。</strong>金融・保険・物流などのドメイン知識や、PL／PMの経験は、若手では代替しにくい資産です。技術力とセットで提示すれば、40代でも上流ポジションで活躍できます。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">

@@ -321,7 +321,7 @@ export default function ConsultantToEngineerPage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（提案・推進の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                製造業クライアントの基幹システム刷新プロジェクトに参画します。要件定義の取りまとめと進捗管理を担当し、ベンダー選定の提案資料を作成します。経営層への報告を実施します。
+                製造業クライアントの基幹システム刷新プロジェクトに参画。要件定義の取りまとめと進捗管理を担当し、ベンダー選定の提案資料を作成。経営層への報告を実施します。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">

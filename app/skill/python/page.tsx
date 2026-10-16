@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/python/" },
   title: "Pythonエンジニアの転職ガイド｜AI・データ分析の年収と将来性",
   description:
-    "Pythonエンジニアの転職市場をAI・データ分析の観点から出典付きで解説。求人ボックスやレバテックの公表年収、Web系からAI/MLへの転向、求人の探し方、30代・40代の進め方を整理します。",
+    "Pythonエンジニアの転職市場をAI・データ分析の観点から出典を明記して解説します。求人ボックスやレバテックの公表年収、Web系からAI/MLへの転向、求人の探し方、30代・40代の進め方を整理します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function PythonSkillPage() {
     <>
       <ArticleJsonLd
         title="Pythonエンジニアの転職ガイド｜AI・データ分析の年収と将来性"
-        description="Pythonエンジニアの転職市場をAI・データ分析の観点から出典付きで解説。求人ボックスやレバテックの公表年収、Web系からAI/MLへの転向、求人の探し方、30代・40代の進め方を整理します。"
+        description="Pythonエンジニアの転職市場をAI・データ分析の観点から出典を明記して解説します。求人ボックスやレバテックの公表年収、Web系からAI/MLへの転向、求人の探し方、30代・40代の進め方を整理します。"
         url="/skill/python/"
       />
       <script
@@ -227,7 +227,7 @@ export default function PythonSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">MLOps／データ基盤エンジニア</h3>
               <p className="text-sm text-petrol-deep">
-                MLモデルの本番運用、データパイプラインの構築・運用を担当します。MLflow・Airflow・BigQuery等を扱い、基盤を安定運用です。インフラスキルとPythonの両方が求められます。
+                MLモデルの本番運用、データパイプラインの構築・運用を担当します。MLflow・Airflow・BigQuery等を扱い、基盤を安定運用します。インフラスキルとPythonの両方が求められます。
               </p>
             </div>
           </div>

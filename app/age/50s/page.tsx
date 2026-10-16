@@ -81,7 +81,7 @@ export default function Age50sPage() {
   return (
     <>
       <ArticleJsonLd
-        title="50代エンジニアの転職｜需給ギャップと役職別年収の分散を読む"
+        title="50代エンジニアの転職｜需給ギャップと役職別年収の分散を読みます"
         description="50代エンジニアの転職を、doda年代別平均年収やJAC登録者の役職別年収、経産省のIT人材需給ギャップ試算で読み解きます。50代固有の進め方を解説します。"
         url="/age/50s/"
       />

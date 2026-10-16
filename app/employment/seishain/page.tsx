@@ -40,30 +40,30 @@ const fitNo = [
 ];
 
 const meritEngineer = [
-  "毎月安定した固定給があり、収入が読みやすい",
-  "社会保険（健保・厚生年金）の保険料を会社が半分負担してくれる",
-  "雇用保険・有給・賞与・退職金など保障や福利厚生がある",
-  "住宅ローン・賃貸審査など社会的信用を得やすい",
-  "研修・OJTなど会社の育成環境でスキルを伸ばしやすい",
+  "毎月安定した固定給があり、収入が読みやすいです",
+  "社会保険（健保・厚生年金）の保険料を会社が半分負担してくれます",
+  "雇用保険・有給・賞与・退職金など保障や福利厚生があります",
+  "住宅ローン・賃貸審査など社会的信用を得やすいです",
+  "研修・OJTなど会社の育成環境でスキルを伸ばしやすいです",
 ];
 
 const demeritEngineer = [
-  "案件や単価に直接連動しないため、報酬の上限が緩やかになりやすい",
-  "勤務時間・勤務地・異動・評価など組織の制約を受ける",
-  "働き方（稼働時間・場所）の自由度が業務委託より低い",
+  "案件や単価に直接連動しないため、報酬の上限が緩やかになりやすいです",
+  "勤務時間・勤務地・異動・評価など組織の制約を受けます",
+  "働き方（稼働時間・場所）の自由度が業務委託より低いです",
   "経費計上などの税務上の工夫の余地が小さい",
 ];
 
 const meritCompany = [
-  "ノウハウや育成成果を社内に長期で蓄積できる",
-  "指揮命令ができ、業務分担や異動を柔軟に行える",
-  "チームの一体感・継続性を保ちやすい",
+  "ノウハウや育成成果を社内に長期で蓄積できます",
+  "指揮命令ができ、業務分担や異動を柔軟に行えます",
+  "チームの一体感・継続性を保ちやすいです",
 ];
 
 const demeritCompany = [
-  "社会保険の会社負担（労使折半）など固定的な人件費が発生する",
-  "繁閑に応じた即時の体制調整がしにくい",
-  "採用・育成・退職に時間とコストがかかる",
+  "社会保険の会社負担（労使折半）など固定的な人件費が発生します",
+  "繁閑に応じた即時の体制調整がしにくいです",
+  "採用・育成・退職に時間とコストがかかります",
 ];
 
 const faqs = [
@@ -108,7 +108,7 @@ export default function SeishainPage() {
     <>
       <ArticleJsonLd
         title="正社員エンジニアの実態｜年収傾向・社会保険・メリットデメリット"
-        description="正社員エンジニアの定義・年収傾向・社会保険・二軸メリットデメリットを出典付きで解説。業務委託・派遣・契約社員との違いと30代40代の選び方も整理します。"
+        description="正社員エンジニアの定義・年収傾向・社会保険・二軸メリットデメリットを出典を明記して解説します。業務委託・派遣・契約社員との違いと30代40代の選び方も整理します。"
         url="/employment/seishain/"
       />
       <script
@@ -153,7 +153,7 @@ export default function SeishainPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>無期雇用（期間の定めなし）で、収入と立場が安定しやすいです。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>健康保険・厚生年金を会社が約半分負担です（労使折半）。雇用保険・労災もあります。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>健康保険・厚生年金を会社が約半分を負担します（労使折半）。雇用保険・労災もあります。</li>
               <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>住宅ローン等の社会的信用を得やすく、ライフイベントに強いです。</li>
             </ul>
           </div>
@@ -223,7 +223,7 @@ export default function SeishainPage() {
               <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険・厚生年金の保険料は会社と本人で<strong>折半です（労使折半）</strong>。実質的に会社が約半分を負担しています</li>
               <li className="flex gap-2"><span className="text-slate-400">▸</span>厚生年金は国民年金に上乗せされるため、将来の年金額が手厚くなりやすいです</li>
               <li className="flex gap-2"><span className="text-slate-400">▸</span>雇用保険に加入し、失業時の基本手当（失業給付）の対象になります</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>所得税・住民税は会社が源泉徴収・年末調整するため、確定申告の手間が原則不要</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>所得税・住民税は会社が源泉徴収・年末調整するため、確定申告の手間が原則不要です</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">

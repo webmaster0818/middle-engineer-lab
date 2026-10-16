@@ -29,12 +29,12 @@ const toc = [
 const careerPaths = [
   {
     role: "自動車ソフトウェアエンジニア",
-    note: "ADAS/自動運転/車載OS/制御です。SDV化で需要拡大です。AUTOSAR・機能安全の知識が効きます。",
+    note: "ADAS/自動運転/車載OS/制御です。SDV化で需要拡大します。AUTOSAR・機能安全の知識が効きます。",
     demand: "高",
   },
   {
     role: "IoT/エッジエンジニア",
-    note: "IoTデバイス設計、省電力、通信、クラウド連携です。Web/クラウドとの融合領域です。",
+    note: "IoTデバイス設計、省電力、通信、クラウド連携。Web/クラウドとの融合領域です。",
     demand: "中〜高",
   },
   {
@@ -200,8 +200,8 @@ export default function EmbeddedSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { lv: "歓迎されやすい人", body: "C/C++の実務経験、マイコン（ARM Cortex-M等）やRTOSでの開発経験、CAN/SPI/I2C等の通信、ハードに近いデバッグ経験です。" },
-              { lv: "ミドル〜シニア要件", body: "アーキテクチャ設計、リアルタイム性/省電力の最適化、チームリード、品質プロセス（レビュー・テスト設計）の主導です。" },
+              { lv: "歓迎されやすい人", body: "C/C++の実務経験、マイコン（ARM Cortex-M等）やRTOSでの開発経験、CAN/SPI/I2C等の通信、ハードに近いデバッグ経験。" },
+              { lv: "ミドル〜シニア要件", body: "アーキテクチャ設計、リアルタイム性/省電力の最適化、チームリード、品質プロセス（レビュー・テスト設計）の主導。" },
               { lv: "領域別の上乗せ要件", body: "自動車ならAUTOSAR・ISO 26262（機能安全）、エッジAIならTinyML/推論最適化、IoTならMQTT/BLE/クラウド連携、半導体ならファーム/ドライバです。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -283,8 +283,8 @@ export default function EmbeddedSkillPage() {
           <div className="space-y-4">
             {[
               { num: "1", title: "ハードに近い経験を組込みに接続する", desc: "電気電子・制御・FA出身なら、ハードの理解は強い強みです。C/C++とマイコン開発を補えば、ハードを知らないソフト出身者との差別化になります。" },
-              { num: "2", title: "個人でマイコン開発の成果物を作る", desc: "ARM系マイコンやRaspberry Pi/ESP32等でセンサー制御・通信の小作品を作り、回路とコードをセットで公開しています。実機を動かした証拠が効きます。" },
-              { num: "3", title: "SES/受託から事業会社の内製チームへ", desc: "まずSES/受託で組込み実務の年数を積み、その後に自動車OEMやメーカーの内製チームへ。段階を踏むことで未経験ハードルを下げられます。" },
+              { num: "2", title: "個人でマイコン開発の成果物を作る", desc: "ARM系マイコンやRaspberry Pi/ESP32等でセンサー制御・通信の小作品を作り、回路とコードをセットで公開します。実機を動かした証拠が効きます。" },
+              { num: "3", title: "SES/受託から事業会社の内製チームへ", desc: "まずSES/受託で組込み実務の年数を積み、その後に自動車OEMやメーカーの内製チームを目指す道があります。段階を踏むことで未経験ハードルを下げられます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -340,11 +340,11 @@ export default function EmbeddedSkillPage() {
             組込みは実機での経験が最も評価されます。座学だけでなく、動くものを作って語れる状態を目指しましょう。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>ARM系マイコンやESP32等で、センサー制御・通信の小作品を実機で動かします</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>RTOS（FreeRTOS/Zephyr）でのタスク設計・割り込み処理を一通り体験します</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>狙う領域（自動車/IoT/エッジAI）の規格・要素技術を1つ深掘りします</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>Rust（組込み）やPython（テスト自動化）など評価が上がりつつある言語に触れます</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>不具合解析・品質プロセスの経験を職務経歴書で言語化します</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>ARM系マイコンやESP32等で、センサー制御・通信の小作品を実機で動かす</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>RTOS（FreeRTOS/Zephyr）でのタスク設計・割り込み処理を一通り体験する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>狙う領域（自動車/IoT/エッジAI）の規格・要素技術を1つ深掘りする</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>Rust（組込み）やPython（テスト自動化）など評価が上がりつつある言語に触れる</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>不具合解析・品質プロセスの経験を職務経歴書で言語化する</li>
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
             学習継続は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">働きながら学び続ける方法</Link>、Rust併用なら<Link href="/skill/rust/" className="text-petrol hover:underline">Rustエンジニアの転職市場ガイド</Link>も参考にしてください。
@@ -361,8 +361,8 @@ export default function EmbeddedSkillPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3 text-sm">組込み転職が向いている人</h3>
               <ul className="space-y-2 text-sm text-green-800">
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>C/C++やマイコン/RTOSでの開発経験があります</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>電気電子・制御・FAなどハードに近い経験を持ちます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>C/C++やマイコン/RTOSでの開発経験がある</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>電気電子・制御・FAなどハードに近い経験を持つ</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>自動車（AUTOSAR/機能安全）やエッジAIで専門性を深めたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>地方拠点も含めて腰を据えて働きたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>長く陳腐化しにくい専門スキルを積み上げたい</li>
@@ -400,7 +400,7 @@ export default function EmbeddedSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">ビズリーチに見られる傾向</h3>
               <p className="text-sm text-slate-600">
-                ミライトーチ等の口コミでは「高年収求人が豊富」「市場価値を客観的に把握できる」という評価がある一方、「経歴次第でスカウトが来ない」という声も。自動車・半導体の専門性を職務経歴に書き込むほどスカウトが届きやすくなります。
+                ミライトーチ等の口コミでは「高年収求人が豊富」「市場価値を客観的に把握できる」という評価がある一方、「経歴次第でスカウトが来ない」という声もあります。自動車・半導体の専門性を職務経歴に書き込むほどスカウトが届きやすくなります。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">

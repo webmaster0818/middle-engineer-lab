@@ -262,7 +262,7 @@ export default function BizreachItReview() {
                 <li className="flex items-start gap-2"><span className="text-petrol shrink-0">＋</span>積極的に攻めたい人向け</li>
               </ul>
               <p className="text-xs text-slate-400 mt-3">
-                ※2022年11月改定・税込5,478円/月（二次情報）。自動更新の場合があるため不要時は更新前に解約を。
+                ※2022年11月改定・税込5,478円/月（二次情報）。自動更新の場合があるため不要時は更新前に解約してください。
               </p>
             </div>
           </div>

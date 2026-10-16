@@ -302,7 +302,7 @@ export default function VisionalCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強いです。HRテック・SaaSの非公開求人を保有していることがあります。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web・ゲーム特化です。提案スピードが速く、実務経験者への提案が豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web・ゲームに特化しています。提案スピードが速く、実務経験者への提案が豊富です。" },
               { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型媒体です。カジュアル面談で社風を把握しやすいです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

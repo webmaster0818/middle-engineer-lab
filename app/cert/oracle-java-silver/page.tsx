@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "SilverとGoldはどちらを取るべきですか？",
-    a: "現在地と目的で決めます。Java実務がこれから／基礎を体系化したい人はSilverから。すでにJavaで一定の開発経験があり、中級以上の実装力を示したい人はGoldが適しています。GoldはSilverの認定が前提条件となるため、Silver→Goldの順で進むのが一般的です。Gold側は当サイトのGoldガイドも参照してください。",
+    a: "現在地と目的で決めます。Java実務がこれから／基礎を体系化したい人はSilverから始めます。すでにJavaで一定の開発経験があり、中級以上の実装力を示したい人はGoldが適しています。GoldはSilverの認定が前提条件となるため、Silver→Goldの順で進むのが一般的です。Gold側は当サイトのGoldガイドも参照してください。",
   },
   {
     q: "Java SilverとJava実務経験はどちらが評価されますか？",
@@ -172,7 +172,7 @@ export default function OracleJavaSilverCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Javaは国内で需要の大きい主要言語（<strong>実務・役割が年収の主因</strong>）</li>
               <li>・Silverは<strong>基礎の体系的理解の証明</strong>として書類通過に効く加点材</li>
-              <li>・実態：<strong>年収はJava実務経験 × 資格の掛け算</strong>で決まります</li>
+              <li>・実態：<strong>年収はJava実務経験 × 資格の掛け算</strong>で決まる</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -254,7 +254,7 @@ export default function OracleJavaSilverCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>独学の体系化です</strong>。現場で覚えたJavaの知識の抜けを試験対策で埋め、基礎を整理できます。第二に<strong>書類段階の裏づけ</strong>。Javaを扱える基礎スキルの客観証明として、選考の通過に寄与します。第三に<strong>上位資格への布石です</strong>。SilverはGoldの前提資格でもあり、Silver→Goldで中級以上の実装力まで示せます。
+            活用戦略は3つに整理できます。第一に<strong>独学の体系化です</strong>。現場で覚えたJavaの知識の抜けを試験対策で埋め、基礎を整理できます。第二に<strong>書類段階の裏づけ</strong>です。Javaを扱える基礎スキルの客観証明として、選考の通過に寄与します。第三に<strong>上位資格への布石です</strong>。SilverはGoldの前提資格でもあり、Silver→Goldで中級以上の実装力まで示せます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             注意すべきデメリットも押さえておきましょう。Silverは<strong>基礎レベルの位置づけのため、これ単体で高い実装力まで保証する資格ではありません</strong>。効果が出るのは「Java実務 × 資格」が成立したときです。また受験料が約4万円（税込）と国家資格に比べ高めで、費用対効果は目的次第です。逆に言えば、独学のJava知識を体系化し基礎を固めたい30〜40代にとっては、明確な到達点になる資格です。中級以上を示したいなら<Link href="/cert/oracle-java-gold/" className="text-petrol hover:underline">Gold</Link>へ進みましょう。
@@ -282,8 +282,8 @@ export default function OracleJavaSilverCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "文法・OOPを体系的に学び直す", d: "変数・制御構文・クラス・継承・例外処理など、基礎を網羅的に整理します。実務経験者は抜けの確認が中心です。" },
-              { n: "STEP 2", t: "細かな挙動を問題演習で固める", d: "Java特有の文法・コンパイルエラー・実行結果を問う設問に慣れます。合格ライン63%を超える精度を作ります。" },
+              { n: "STEP 1", t: "文法・OOPを体系的に学び直します", d: "変数・制御構文・クラス・継承・例外処理など、基礎を網羅的に整理します。実務経験者は抜けの確認が中心です。" },
+              { n: "STEP 2", t: "細かな挙動を問題演習で固めます", d: "Java特有の文法・コンパイルエラー・実行結果を問う設問に慣れます。合格ライン63%を超える精度を作ります。" },
               { n: "STEP 3", t: "合格→Goldで中級へ", d: "合格後はJava実務に活かしつつ、中級以上の実装力を示すならSilverを前提とする上位のGoldに挑戦します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">

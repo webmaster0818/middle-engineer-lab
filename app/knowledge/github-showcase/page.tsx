@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/github-showcase/" },
   title: "GitHubの見せ方｜採用担当が見る7ポイントと運用テク",
   description:
-    "30-40代エンジニア向けに、転職でGitHubを単体でどう運用・整備するかを深掘り。採用担当が見る7ポイント、READMEチェックリスト、業務コードを出せない時の代替策、NG例まで実例で解説します。",
+    "30-40代エンジニア向けに、転職でGitHubを単体でどう運用・整備するかを深掘りします。採用担当が見る7ポイント、READMEチェックリスト、業務コードを出せない時の代替策、NG例まで実例で解説します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function GithubShowcasePage() {
     <>
       <ArticleJsonLd
         title="GitHubの見せ方｜採用担当が見る7ポイントと運用テク"
-        description="30-40代エンジニア向けに、転職でGitHubを単体でどう運用・整備するかを深掘り。採用担当が見る7ポイント、READMEチェックリスト、業務コードを出せない時の代替策、NG例まで実例で解説します。"
+        description="30-40代エンジニア向けに、転職でGitHubを単体でどう運用・整備するかを深掘りします。採用担当が見る7ポイント、READMEチェックリスト、業務コードを出せない時の代替策、NG例まで実例で解説します。"
         url="/knowledge/github-showcase/"
       />
       <script
@@ -97,7 +97,7 @@ export default function GithubShowcasePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職でGitHubは採用担当にどう見られ、何を見せればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 採用担当はコードを隅々まで読まず、プロフィール・ピン留め・READMEをざっと眺めて「今も手を動かしているか（現役性）」「設計判断ができるか（再現性）」を推し量ります。数より1〜2個の完成度で示すのが効果的です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・見られるのは主にプロフィール・ピン留め・READMEです。限られた時間でざっと判断されます</li><li>・ミドルが示すべきは現役性（直近のコミット・モダンな構成）と再現性（なぜその設計かをREADMEで語ること）</li><li>・業務コードは公開せず、固有情報を除いた汎用版・OSS貢献・技術記事で代替できます</li><li>・即席アプリの量産より、整ったプロフィール＋設計判断が伝わるリポジトリ1〜2個＋継続の痕跡に投資します</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・見られるのは主にプロフィール・ピン留め・READMEです。限られた時間でざっと判断されます</li><li>・ミドルが示すべきは現役性（直近のコミット・モダンな構成）と再現性です（なぜその設計かをREADMEで語ること）</li><li>・業務コードは公開せず、固有情報を除いた汎用版・OSS貢献・技術記事で代替できます</li><li>・即席アプリの量産より、整ったプロフィール＋設計判断が伝わるリポジトリ1〜2個＋継続の痕跡に投資します</li></ul>
           </div>
         </section>
 
@@ -160,7 +160,7 @@ export default function GithubShowcasePage() {
               { num: "4", title: "技術選定の理由＝設計判断の証拠", desc: "「なぜこの言語・構成にしたか」が書かれていると、ミドルらしい判断力が伝わります。最も差をつけやすい部分です。" },
               { num: "5", title: "issue・PRの使い方＝協働の作法", desc: "個人開発でもissueでタスクを管理し、PR単位で変更を積んでいると、チーム開発に馴染む人だと伝わります。" },
               { num: "6", title: "コード品質＝命名・粒度・テスト", desc: "全部は読まれませんが、開いた1ファイルの命名・関数の粒度・テストの有無で印象が決まります。" },
-              { num: "7", title: "最新性＝モダンさと現役性", desc: "数年前で更新が止まっていると不安材料に。直近に手を入れた痕跡があると現役性が伝わります。" },
+              { num: "7", title: "最新性＝モダンさと現役性", desc: "数年前で更新が止まっていると不安材料になります。直近に手を入れた痕跡があると現役性が伝わります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -182,14 +182,14 @@ export default function GithubShowcasePage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-5">
             <ul className="space-y-2">
               {[
-                "1行で「何を解決するもの」かが書かれている",
-                "技術スタックと、なぜそれを選んだかの一文がある",
-                "アーキテクチャ図 or 構成の概要がある",
-                "ローカルでの起動手順（環境構築コマンド）がある",
-                "工夫した点・設計上のトレードオフが書かれている",
-                "既知の課題・残タスク（Known Issues）を記載している",
-                "デモURL or スクリーンショットがある（動くものは強い）",
-                "ライセンスが明記されている",
+                "1行で「何を解決するもの」かが書かれています",
+                "技術スタックと、なぜそれを選んだかの一文があります",
+                "アーキテクチャ図 or 構成の概要があります",
+                "ローカルでの起動手順（環境構築コマンド）があります",
+                "工夫した点・設計上のトレードオフが書かれています",
+                "既知の課題・残タスク（Known Issues）を記載しています",
+                "デモURL or スクリーンショットがあります（動くものは強い）",
+                "ライセンスが明記されています",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
                   <span className="text-petrol font-bold shrink-0">✓</span>{c}
@@ -200,16 +200,16 @@ export default function GithubShowcasePage() {
           <p className="text-slate-600 leading-relaxed mb-4">下は「工夫した点・トレードオフ」セクションの記述例です。ミドルらしさは、選んだ理由と<strong>選ばなかった選択肢</strong>を併記できるかに出ます。</p>
           <pre className="bg-slate-900 text-slate-100 text-xs rounded-xl p-5 overflow-x-auto leading-relaxed">{`## 設計上の判断
 
-- 永続化はPostgreSQLを採用します。当初はNoSQLも検討したが、
+- 永続化はPostgreSQLを採用します。当初はNoSQLも検討しましたが、
   集計クエリが多くトランザクション整合性が要るためRDBを選択します。
-- 認証は自前実装せず外部IdPに委譲です。運用負荷とセキュリティ責任を
+- 認証は自前実装せず外部IdPに委譲します。運用負荷とセキュリティ責任を
   外出しする判断です（小規模個人開発のため）。
 - 非同期処理はあえて入れていません。現状のスループットでは
   オーバーエンジニアリングと判断しました（負荷が増えたら導入予定）。
 
 ## 残課題（Known Issues）
 
-- E2Eテスト未整備です。現状はユニットテストのみです。
+- E2Eテスト未整備。現状はユニットテストのみです。
 - N+1クエリが一覧画面に1箇所残っています（issue #12）。`}</pre>
         </section>
 
@@ -244,9 +244,9 @@ export default function GithubShowcasePage() {
           </p>
           <div className="space-y-4">
             {[
-              { t: "知見の汎用版を作り直す", d: "業務で得た課題感から固有情報を取り除き、小さな汎用ツールやサンプルとして公開しています。社内ツールの汎用版はよくあるパターンです。" },
-              { t: "OSSに小さく貢献する", d: "ドキュメント修正・翻訳・issue報告など、コードを書かない貢献でも公開された履歴が残ります。詳細はOSS貢献の記事をご覧ください。" },
-              { t: "技術記事で思考を可視化する", d: "コードを公開できなくても、設計判断やトラブル対応の思考過程は記事にできます。これも立派なアウトプットです。" },
+              { t: "知見の汎用版を作り直します", d: "業務で得た課題感から固有情報を取り除き、小さな汎用ツールやサンプルとして公開します。社内ツールの汎用版はよくあるパターンです。" },
+              { t: "OSSに小さく貢献します", d: "ドキュメント修正・翻訳・issue報告など、コードを書かない貢献でも公開された履歴が残ります。詳細はOSS貢献の記事をご覧ください。" },
+              { t: "技術記事で思考を可視化します", d: "コードを公開できなくても、設計判断やトラブル対応の思考過程は記事にできます。これも立派なアウトプットです。" },
               { t: "サンプルコード付きの検証リポジトリ", d: "新技術を試した最小構成のサンプルを公開します。完成プロダクトでなくても、検証の丁寧さが伝わります。" },
             ].map((n, i) => (
               <div key={i} className="bg-emerald-50 border border-emerald-200 rounded-lg p-5">
@@ -281,11 +281,11 @@ export default function GithubShowcasePage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の幅と設計判断を見せる</h3>
-              <p className="text-sm text-petrol-deep">手が動くのは前提として、技術選定やリファクタの判断ができることをREADMEで示すと効果的です。Web系・新領域への挑戦時はGitHubの効果が大きくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職です</Link>。</p>
+              <p className="text-sm text-petrol-deep">手が動くのは前提として、技術選定やリファクタの判断ができることをREADMEで示すと効果的です。Web系・新領域への挑戦時はGitHubの効果が大きくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：現役性を疑われないことが最優先</h3>
-              <p className="text-sm text-petrol-deep">「もう手を動かせないのでは」という先入観を、直近のコミットとモダンな構成で払拭します。マネジメント志向でも、コードを読み書きできる現役性を見せると採用の安心材料になります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職です</Link>。</p>
+              <p className="text-sm text-petrol-deep">「もう手を動かせないのでは」という先入観を、直近のコミットとモダンな構成で払拭します。マネジメント志向でも、コードを読み書きできる現役性を見せると採用の安心材料になります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>。</p>
             </div>
           </div>
         </section>

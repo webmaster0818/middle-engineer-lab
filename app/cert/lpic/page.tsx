@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "LPIC・LinuCは転職に効くか｜違い・年収・取得ルート【2026年】";
 const PAGE_DESC =
-  "Linux技術者認定のLPICとLinuCの違い、転職での評価、保有者の年収相場（出典明記）を30代・40代向けに解説。未経験入口資格としての位置づけ、CCNA・AWSとの併取得戦略まで留意点も含めてまとめます。";
+  "Linux技術者認定のLPICとLinuCの違い、転職での評価、保有者の年収相場（出典明記）を30代・40代向けに解説します。未経験入口資格としての位置づけ、CCNA・AWSとの併取得戦略まで留意点も含めてまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/lpic/" },
@@ -51,7 +51,7 @@ const faqs = [
 ];
 
 const salaryTable = [
-  ["LPIC1（基礎）", "約474万円", "Linux基礎運用です。未経験〜若手の入口"],
+  ["LPIC1（基礎）", "約474万円", "Linux基礎運用。未経験〜若手の入口"],
   ["LPIC2（中級）", "約618万円", "構築・運用設計を任される層"],
   ["LPIC3（上級）", "約696万円", "高可用性・セキュリティなど専門領域"],
   ["未経験＋LPIC1/LinuC1", "約370.4万円", "内定平均（無資格未経験比＋約50万円）"],
@@ -63,7 +63,7 @@ const overviewTable = [
   ["受験料", "各16,500円（レベル1は2試験で計33,000円）"],
   ["合格基準（LPIC）", "800点満点中500点"],
   ["有効期限", "5年（再認定が必要）"],
-  ["LinuCの特徴", "国内特化です。仮想化／クラウド（AWS/Docker/K8s）出題が充実"],
+  ["LinuCの特徴", "国内特化。仮想化／クラウド（AWS/Docker/K8s）出題が充実"],
 ];
 
 export default function LpicCertPage() {
@@ -136,9 +136,9 @@ export default function LpicCertPage() {
               LPIC/LinuCは<strong>「未経験〜若手がLinux／インフラ職に入るための入口資格」</strong>であり、上位レベルは経験者の専門性証明になります。30〜40代の評価は経験とレベルで分かれます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>未経験のミドル</strong>：レベル1は間口を広げるが、年齢相応の志望動機・ポートフォリオが必須</li>
+              <li>① <strong>未経験のミドル</strong>：レベル1は間口を広げますが、年齢相応の志望動機・ポートフォリオが必須です</li>
               <li>② <strong>インフラ経験者</strong>：レベル2/3＋実務でこそ価値が出ます。基礎レベル単体では強みになりにくいです</li>
-              <li>③ <strong>国内中心ならLinuC、国際志向ならLPIC</strong>：実務評価はほぼ同価値</li>
+              <li>③ <strong>国内中心ならLinuC、国際志向ならLPIC</strong>：実務評価はほぼ同価値です</li>
             </ul>
           </div>
         </section>
@@ -242,9 +242,9 @@ export default function LpicCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "Linuxサーバー運用・監視", d: "Webサーバー・DBサーバーの監視、ログ確認、障害一次対応です。未経験＋レベル1の主な入口です。" },
+              { t: "Linuxサーバー運用・監視", d: "Webサーバー・DBサーバーの監視、ログ確認、障害一次対応。未経験＋レベル1の主な入口です。" },
               { t: "サーバー構築・キッティング", d: "OSセットアップ、ミドルウェア導入、検証します。実務1〜3年層が中心です。" },
-              { t: "インフラ・クラウドエンジニア", d: "オンプレ／クラウド基盤の設計・構築です。LinuC上位＋実務で年収が一段上がります。" },
+              { t: "インフラ・クラウドエンジニア", d: "オンプレ／クラウド基盤の設計・構築。LinuC上位＋実務で年収が一段上がります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>

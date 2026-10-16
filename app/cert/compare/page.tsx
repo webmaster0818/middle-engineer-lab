@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "IT資格 比較一覧【2026年・32資格】受験料・合格率・難易度を公式データで横断比較";
 const PAGE_DESC =
-  "IPA国家試験からAWS・Azure・GCP・Cisco・LPIC・CISSPまで、IT系32資格の受験料と合格率（公式公表値）を一覧で横断比較です。エンジニア転職で資格を選ぶときに、難易度とコストを一目で比べられる独自データです。";
+  "IPA国家試験からAWS・Azure・GCP・Cisco・LPIC・CISSPまで、IT系32資格の受験料と合格率（公式公表値）を一覧で横断比較しています。エンジニア転職で資格を選ぶときに、難易度とコストを一目で比べられる独自データです。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/compare/" },
@@ -106,7 +106,7 @@ export default function CertComparePage() {
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-4">資格選びのポイント（30・40代の転職視点）</h2>
           <ul className="space-y-3 text-slate-600 leading-relaxed list-disc pl-5">
-            <li><strong>合格率＝難易度の目安</strong>：IPA高度試験（PM・支援士・各スペシャリスト）は合格率14〜18%と難関で、経験者の専門性証明に向きます。基本情報・ITパスポートは40〜48%で、異業種からの入口に。</li>
+            <li><strong>合格率＝難易度の目安</strong>：IPA高度試験（PM・支援士・各スペシャリスト）は合格率14〜18%と難関で、経験者の専門性証明に向きます。基本情報・ITパスポートは40〜48%で、異業種からの入口になります。</li>
             <li><strong>受験料はIPA国家試験が割安</strong>：IPAはどれも7,500円と低コストです。一方クラウド・外資ベンダー（CISSP 749USD、CKA 445USD、Oracle Java 約41,773円）は高めで、合格率も非公表が多いです。</li>
             <li><strong>「非公表」は実力試験</strong>：AWS・Azure・GCP・Cisco上位などは合格率非公表ですが、実務に直結し転職市場での評価が高い資格群です。合格率の数字がない＝難易度不明ではなく、スコア型で実力が問われると捉えましょう。</li>
             <li><strong>年代別の選び方</strong>：30・40代は「今の実務に直結し、即戦力を裏づける資格」（クラウド系・高度試験）が費用対効果大です。未経験分野への参入は基本情報・CCNA・LPICが入口になります。各資格の詳細ページで年収傾向・活かし方を確認してください。</li>

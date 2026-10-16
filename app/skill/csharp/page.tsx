@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "C#/.NETエンジニア転職ガイド｜年収・資格・求人の探し方";
 const PAGE_DESC =
-  "C#/.NETエンジニアの転職を年収データ・Azure認定資格・求人の探し方まで解説します。求人ボックスやフリーランスボードの公表年収、レバテック年代別データを出典付きで掲載。30代・40代の参入ルートとおすすめエージェントも紹介します。";
+  "C#/.NETエンジニアの転職を年収データ・Azure認定資格・求人の探し方まで解説します。求人ボックスやフリーランスボードの公表年収、レバテック年代別データを出典を明記して掲載しています。30代・40代の参入ルートとおすすめエージェントも紹介します。";
 
 const toc = [
   { id: "conclusion", label: "結論：C#/.NET転職の進め方" },
@@ -24,22 +24,22 @@ const toc = [
 const careerPaths = [
   {
     role: "業務系アプリエンジニア",
-    note: "ASP.NET Core・Entity Framework CoreでのWebアプリ・基幹業務システム開発です。C#の最も安定した需要領域です。",
+    note: "ASP.NET Core・Entity Framework CoreでのWebアプリ・基幹業務システム開発。C#の最も安定した需要領域です。",
     cert: "—（実務経験重視）",
   },
   {
     role: "Azureクラウドエンジニア",
-    note: "C#＋Azureでのクラウドネイティブ設計、Azure Functions等のサーバーレス開発です。",
+    note: "C#＋Azureでのクラウドネイティブ設計、Azure Functions等のサーバーレス開発。",
     cert: "AZ-204（Azure Developer Associate）",
   },
   {
     role: "Unityエンジニア",
-    note: "ゲーム開発に加え、XR・メタバース・産業用ビジュアライゼーションまで。C#がUnityの標準言語です。",
+    note: "ゲーム開発に加え、XR・メタバース・産業用ビジュアライゼーションまで領域が広がっています。C#がUnityの標準言語です。",
     cert: "—（ポートフォリオ重視）",
   },
   {
     role: "テックリード／アーキテクト",
-    note: ".NET基盤のシステム設計・技術選定・チームリードです。クラウド設計資格があると強いです。",
+    note: ".NET基盤のシステム設計・技術選定・チームリード。クラウド設計資格があると強いです。",
     cert: "AZ-305（Solutions Architect）等",
   },
 ];
@@ -263,7 +263,7 @@ export default function CsharpSkillPage() {
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/geekly/" className="text-petrol-deep hover:underline">Geekly（ギークリー）</Link>
               </h3>
-              <p className="text-sm text-slate-600">IT/Web/ゲーム特化で提案スピードに定評があります。Unity/ゲーム系のC#求人を探すならまず候補に。</p>
+              <p className="text-sm text-slate-600">IT/Web/ゲーム特化で提案スピードに定評があります。Unity/ゲーム系のC#求人を探すならまず候補になります。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
@@ -279,10 +279,10 @@ export default function CsharpSkillPage() {
           </p>
           <ol className="space-y-3">
             {[
-              { t: "モダン.NETで小さく作る", d: "ASP.NET Core＋Entity Framework CoreでWeb APIやCRUDアプリを作り、GitHubに公開します。" },
-              { t: "ドメインを一つ決める", d: "業務系・クラウド・ゲームのいずれかに絞り、関連知識を深めて訴求の軸にします。" },
-              { t: "Azure認定で差別化する", d: "AZ-204等のクラウド資格は、同年代・同経験の中で差をつけやすいです。" },
-              { t: "SIer・パートナー企業の開発枠を狙う", d: "業務系C#は研修体制が整った企業が多く、実務経験を積む入口になりやすいです。" },
+              { t: "モダン.NETで小さく作ります", d: "ASP.NET Core＋Entity Framework CoreでWeb APIやCRUDアプリを作り、GitHubに公開します。" },
+              { t: "ドメインを一つ決めます", d: "業務系・クラウド・ゲームのいずれかに絞り、関連知識を深めて訴求の軸にします。" },
+              { t: "Azure認定で差別化します", d: "AZ-204等のクラウド資格は、同年代・同経験の中で差をつけやすいです。" },
+              { t: "SIer・パートナー企業の開発枠を狙います", d: "業務系C#は研修体制が整った企業が多く、実務経験を積む入口になりやすいです。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
@@ -321,8 +321,8 @@ export default function CsharpSkillPage() {
           </p>
           <ul className="space-y-3 mb-4">
             {[
-              { t: "モダン.NETを押さえる", d: "ASP.NET Core、Minimal API、Blazor、Entity Framework Core、.NET 8/9の新機能を学び、レガシーとの違いを説明できるようにします。" },
-              { t: "Azure認定を取得する", d: "AZ-204（Developer Associate）でクラウド開発スキルを証明します。アーキテクト志向ならAZ-305も視野に。" },
+              { t: "モダン.NETを押さえます", d: "ASP.NET Core、Minimal API、Blazor、Entity Framework Core、.NET 8/9の新機能を学び、レガシーとの違いを説明できるようにします。" },
+              { t: "Azure認定を取得します", d: "AZ-204（Developer Associate）でクラウド開発スキルを証明します。アーキテクト志向ならAZ-305も視野に入ります。" },
               { t: "テスト・CI/CDの実践", d: "テスト自動化やコンテナ化の実務経験は、設計力の裏付けとして評価されやすいです。" },
             ].map((c, i) => (
               <li key={i} className="border border-slate-200 rounded-lg p-5">

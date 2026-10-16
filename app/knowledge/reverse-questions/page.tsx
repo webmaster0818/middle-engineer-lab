@@ -27,7 +27,7 @@ const toc = [
 
 const goodQuestions = [
   {
-    scene: "仕事内容・役割を深掘りする",
+    scene: "仕事内容・役割を深掘りします",
     items: [
       "入社後、最初の3カ月で期待される役割や成果について、具体的に教えていただけますか。",
       "このポジションで活躍されている方には、どのような共通点がありますか。",
@@ -35,7 +35,7 @@ const goodQuestions = [
     ],
   },
   {
-    scene: "技術・開発環境を確認する",
+    scene: "技術・開発環境を確認します",
     items: [
       "技術選定はどのように意思決定されていますか。現場のエンジニアの意見はどの程度反映されますか。",
       "技術的負債への取り組みや、リファクタリングに割く時間は確保されていますか。",
@@ -43,7 +43,7 @@ const goodQuestions = [
     ],
   },
   {
-    scene: "チーム・働き方を知る",
+    scene: "チーム・働き方を知ります",
     items: [
       "チームの構成（人数・職種・経験年数の分布）はどのようになっていますか。",
       "リモートと出社の比率や、コミュニケーションの取り方について教えてください。",
@@ -51,7 +51,7 @@ const goodQuestions = [
     ],
   },
   {
-    scene: "意欲・志望度を示す",
+    scene: "意欲・志望度を示します",
     items: [
       "御社の○○というプロダクトに魅力を感じています。今後の開発ロードマップで注力される領域はどこでしょうか。",
       "面接を通じて御社への志望度がさらに高まりました。入社までに準備しておくと良いことがあれば教えてください。",
@@ -175,7 +175,7 @@ export default function ReverseQuestionsPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】面接の逆質問は何をどう聞けばいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「仕事内容・技術・チーム・キャリア」の4テーマから、相手の役割に合った質問を2〜3個用意するのが基本です。調べれば分かることや待遇の詰問は避けます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・課題を尋ねて「自分ならどう貢献できるか」を示せる質問が高評価につながります</li><li>・「特にありません」は志望度が低いと受け取られかねないため避けます</li><li>・30代・40代は裁量・マネジメントの比重・組織課題を確認できる質問が有効</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・課題を尋ねて「自分ならどう貢献できるか」を示せる質問が高評価につながります</li><li>・「特にありません」は志望度が低いと受け取られかねないため避けます</li><li>・30代・40代は裁量・マネジメントの比重・組織課題を確認できる質問が有効です</li></ul>
           </div>
         </section>
 
@@ -306,7 +306,7 @@ export default function ReverseQuestionsPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">最終面接（役員・経営層）</h3>
-              <p className="text-sm text-slate-600">事業の方向性、今後注力する領域、組織文化など、経営視点の質問を。待遇の詳細確認はオファー面談に回します。</p>
+              <p className="text-sm text-slate-600">事業の方向性、今後注力する領域、組織文化など、経営視点の質問を用意します。待遇の詳細確認はオファー面談に回します。</p>
             </div>
           </div>
         </section>

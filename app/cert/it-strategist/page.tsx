@@ -135,7 +135,7 @@ export default function ITStrategistCertPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>企画・コンサル・PM経験のある30〜40代</strong>：経営視点でITを語れる証明になります</li>
-              <li>② <strong>上流未経験のミドル</strong>：最難関のため入口には不向きです。まず応用情報や実務で土台を作るべき</li>
+              <li>② <strong>上流未経験のミドル</strong>：最難関のため入口には不向きです。まず応用情報や実務で土台を作るべきです</li>
               <li>③ <strong>ITコンサル・CIO候補志望</strong>：戦略立案の素養を国家資格で裏づけられます</li>
             </ul>
           </div>
@@ -257,7 +257,7 @@ export default function ITStrategistCertPage() {
                 {[
                   ["主な対象", "未経験〜若手・異業種からの転職", "企画・コンサル・PM経験のある中堅"],
                   ["狙い", "IT職への入口・基礎の証明", "経営×ITの視座の客観証明"],
-                  ["効き方", "書類通過・間口を広げる", "コンサル/企画/CIO候補への配置・資格手当"],
+                  ["効き方", "書類通過・間口を広げます", "コンサル/企画/CIO候補への配置・資格手当"],
                   ["難度", "基礎〜入門レベル（レベル1〜2）", "最難関（レベル4）・午後Ⅱ論述が関門"],
                 ].map(([k, a, b], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
@@ -270,7 +270,7 @@ export default function ITStrategistCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用の軸は3つです。第一に<strong>経営×ITの視座の証明です</strong>。STは「ITで何を実現するか」という戦略レベルの試験で、経営層と対話できる人材であることを国家資格で裏づけられます。第二に<strong>コンサル・企画・CIO候補への足がかり</strong>。戦略立案の素養を示す加点材料になります。第三に<strong>社内評価・資格手当です</strong>。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
+            活用の軸は3つです。第一に<strong>経営×ITの視座の証明です</strong>。STは「ITで何を実現するか」という戦略レベルの試験で、経営層と対話できる人材であることを国家資格で裏づけられます。第二に<strong>コンサル・企画・CIO候補への足がかり</strong>です。戦略立案の素養を示す加点材料になります。第三に<strong>社内評価・資格手当です</strong>。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             注意すべきデメリットも押さえておきましょう。STは合格率15%前後の最難関で、特に午後Ⅱの論述には<strong>自分の上流経験を論理的に書く訓練が不可欠</strong>です。また取得しても単体で年収が跳ねる資格ではなく、効果が出るのは「戦略・企画の実務 × 資格」の掛け算が成立したときです。逆に言えば、すでに上流経験があり経営に近い役割を目指す30〜40代にとっては、投資する価値が明確な資格です。土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。

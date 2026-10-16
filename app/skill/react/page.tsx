@@ -38,7 +38,7 @@ const salaryRows = [
 const careerPaths = [
   {
     title: "フロントエンドスペシャリスト路線",
-    body: "React/Next.jsを極め、デザインシステム構築・パフォーマンス最適化・アクセシビリティ対応のスペシャリストへ。大規模プロダクトのフロント品質を担保する役割で、設計とレビューの力が問われます。",
+    body: "React/Next.jsを極め、デザインシステム構築・パフォーマンス最適化・アクセシビリティ対応のスペシャリストを目指す道があります。大規模プロダクトのフロント品質を担保する役割で、設計とレビューの力が問われます。",
   },
   {
     title: "UI/UX・デザインエンジニア路線",
@@ -189,9 +189,9 @@ export default function ReactSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              ["ジュニア〜ミドル（実務2〜4年）", "Hooks・コンポーネント設計・状態管理・APIフェッチの実務です。中小自社開発やWeb制作会社のモダン化案件で募集が見られる層です。"],
-              ["ミドル〜シニア（実務4〜8年）", "Next.js（App Router）・TypeScript・テスト・パフォーマンス最適化です。設計レビューや若手育成も担う、求人母数が最も多い層です。"],
-              ["シニア・リード（実務8年〜）", "デザインシステム設計、フロントアーキテクチャ策定、技術選定です。テックリード・フロントエンドアーキテクト求人の中心です。"],
+              ["ジュニア〜ミドル（実務2〜4年）", "Hooks・コンポーネント設計・状態管理・APIフェッチの実務。中小自社開発やWeb制作会社のモダン化案件で募集が見られる層。"],
+              ["ミドル〜シニア（実務4〜8年）", "Next.js（App Router）・TypeScript・テスト・パフォーマンス最適化。設計レビューや若手育成も担う、求人母数が最も多い層。"],
+              ["シニア・リード（実務8年〜）", "デザインシステム設計、フロントアーキテクチャ策定、技術選定。テックリード・フロントエンドアーキテクト求人の中心。"],
             ].map(([level, body], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{level}</h3>
@@ -279,10 +279,10 @@ export default function ReactSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
             {[
-              ["最新のReactを追う", "Server Components、Suspense、Actionsなど新パラダイムを実プロジェクトで試し、設計判断を語れるようにします。"],
+              ["最新のReactを追います", "Server Components、Suspense、Actionsなど新パラダイムを実プロジェクトで試し、設計判断を語れるようにします。"],
               ["TypeScriptと一体で習熟", "Reactは型と組み合わせて評価されます。Propsの型設計やジェネリックコンポーネントを使いこなします。"],
-              ["品質で差をつける", "Testing Library/Playwrightでのテスト、レンダリング最適化、アクセシビリティ対応は具体的な強みになります。"],
-              ["アウトプットを残す", "OSSへのPR、UIライブラリの公開、技術記事など、思考が見える成果物を蓄積します。"],
+              ["品質で差をつけます", "Testing Library/Playwrightでのテスト、レンダリング最適化、アクセシビリティ対応は具体的な強みになります。"],
+              ["アウトプットを残します", "OSSへのPR、UIライブラリの公開、技術記事など、思考が見える成果物を蓄積します。"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{t}</h3>
@@ -316,10 +316,10 @@ export default function ReactSkillPage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">向いていないかもしれない人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
-                  "頻繁なバージョン・パラダイム更新の追従が負担に感じる",
+                  "頻繁なバージョン・パラダイム更新の追従が負担に感じます",
                   "フロントよりインフラ・データ基盤を中心に活躍したい",
                   "UI以外（純粋なロジック/低レイヤ）に専念したい",
-                  "レガシー環境から動く気がなく学習時間も取れない",
+                  "レガシー環境から動く気がなく学習時間も取れません",
                 ].map((t, i) => (
                   <li key={i} className="flex gap-2"><span className="font-bold shrink-0">･</span><span>{t}</span></li>
                 ))}

@@ -109,7 +109,7 @@ export default function KaigyoPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】開業届はどう出せばいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 開業届（個人事業の開業・廃業等届出書）は事業開始から1か月以内に、納税地を所轄する税務署へ提出します。提出は無料で、「所得税の青色申告承認申請書」を同時に出すのが得策です（国税庁）。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・提出はe-Tax・郵送・税務署窓口のいずれでも可能で、手数料はかかりません</li><li>・青色申告なら最大65万円の特別控除や赤字の繰越しが使えます</li><li>・青色申告承認申請の期限は原則その年の3月15日、1月16日以後の開業はその日から2か月以内</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・提出はe-Tax・郵送・税務署窓口のいずれでも可能で、手数料はかかりません</li><li>・青色申告なら最大65万円の特別控除や赤字の繰越しが使えます</li><li>・青色申告承認申請の期限は原則その年の3月15日、1月16日以後の開業はその日から2か月以内です</li></ul>
           </div>
         </section>
 

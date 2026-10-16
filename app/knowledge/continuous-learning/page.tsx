@@ -50,7 +50,7 @@ export default function ContinuousLearningPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】30代・40代エンジニアは何を・どう学び続ければいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 学ぶ対象を「業務の困りごと＋市場で需要のある方向」に1〜2つ絞り、短く毎日決まった時間に仕組み化すれば、忙しくても学び続けられます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・学ぶ対象は「今の業務で困っていること」＋「市場で需要のある方向」に絞ります（網羅は捨てる）</li><li>・資格は「強制力」と「客観的証明」を買うものです。実務直結のクラウド系は費用対効果を実感しやすいです</li><li>・時間は捻出でなく「短く・毎日・決まった時間」に固定です。1日30分でも積み上がります</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・学ぶ対象は「今の業務で困っていること」＋「市場で需要のある方向」に絞ります（網羅は捨てる）</li><li>・資格は「強制力」と「客観的証明」を買うものです。実務直結のクラウド系は費用対効果を実感しやすいです</li><li>・時間は捻出でなく「短く・毎日・決まった時間」に固定します。1日30分でも積み上がります</li></ul>
           </div>
         </section>
 
@@ -129,7 +129,7 @@ export default function ContinuousLearningPage() {
             </div>
             <div className="bg-purple-50 border border-purple-200 rounded-xl p-5">
               <h3 className="font-bold text-purple-800 mb-3">4. 発信（Output）</h3>
-              <p className="text-sm text-purple-700 mb-2">学びをアウトプットして定着しています。</p>
+              <p className="text-sm text-purple-700 mb-2">学びをアウトプットして定着させます。</p>
               <ul className="text-sm text-purple-600 space-y-1">
                 <li>・技術ブログの執筆</li>
                 <li>・勉強会での登壇</li>
@@ -184,8 +184,8 @@ export default function ContinuousLearningPage() {
                   ["実務で使うか", "学ぶ内容が今／今後の業務に直結するか。直結するほど学習が無駄にならない"],
                   ["市場で評価されるか", "志望領域の求人で言及されるか。クラウド系などは実務直結で評価されやすい"],
                   ["学習の方向づけになるか", "独学だと散漫になりがちな分野を、資格が体系的にカバーしてくれるか"],
-                  ["投資額（金銭・時間）", "受験料・教材費に加え、合格までに必要な学習時間です。会社の補助制度があるか"],
-                  ["有効期限・更新", "更新が必要な資格は維持コストも考慮する"],
+                  ["投資額（金銭・時間）", "受験料・教材費に加え、合格までに必要な学習時間。会社の補助制度があるか"],
+                  ["有効期限・更新", "更新が必要な資格は維持コストも考慮します"],
                 ].map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
                     <td className="px-3 py-3 border border-slate-200 font-medium text-slate-800">{row[0]}</td>
@@ -219,7 +219,7 @@ export default function ContinuousLearningPage() {
               </thead>
               <tbody>
                 {[
-                  ["通勤・移動中", "技術ポッドキャスト／記事を聴く・読む（インプット）", "20〜30分"],
+                  ["通勤・移動中", "技術ポッドキャスト／記事を聴く・読みます（インプット）", "20〜30分"],
                   ["始業前 or 昼休み", "ドキュメント1本・チュートリアル少量", "15〜30分"],
                   ["平日夜（週2〜3回）", "業務で詰まった点の深掘り・小さな写経", "30分"],
                   ["週末", "ハンズオン・個人開発・資格学習のまとめ", "1〜2時間"],
@@ -245,12 +245,12 @@ export default function ContinuousLearningPage() {
             <div className="space-y-3">
               {[
                 "学ぶ対象を「業務の困りごと＋市場需要」から1〜2つに絞った",
-                "毎日の決まった時間（朝・通勤など）に学習を固定した",
+                "毎日の決まった時間（朝・通勤など）に学習を固定しました",
                 "「ブログを書く／LTで話す」などアウトプットの場を先に決めた",
-                "学んだことを業務で試す機会を意識的に作っている",
-                "資格を取るなら、実務直結か・会社の補助があるかを確認した",
-                "勉強会やコミュニティに最低1つ参加して刺激を受けている",
-                "半年〜1年ごとに学ぶ方向をエージェント等で見直している",
+                "学んだことを業務で試す機会を意識的に作っています",
+                "資格を取るなら、実務直結か・会社の補助があるかを確認しました",
+                "勉強会やコミュニティに最低1つ参加して刺激を受けています",
+                "半年〜1年ごとに学ぶ方向をエージェント等で見直しています",
               ].map((item, i) => (
                 <label key={i} className="flex items-start gap-3 text-sm text-slate-700">
                   <input type="checkbox" className="w-4 h-4 rounded border-slate-300 mt-0.5" />

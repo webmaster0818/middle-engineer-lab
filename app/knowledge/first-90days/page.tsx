@@ -25,9 +25,9 @@ const toc = [
 ];
 
 const roadmap = [
-  { span: "1〜30日", theme: "理解する（Learn）", action: "コードベース把握、開発環境構築、関係者と1on1、ドメイン知識の吸収", goal: "環境への適応と関係づくりの土台" },
-  { span: "31〜60日", theme: "貢献する（Contribute）", action: "小〜中規模タスクの完了、コードレビュー参加、改善提案を1つ以上", goal: "最初の目に見える成果を出す" },
-  { span: "61〜90日", theme: "自走する（Lead）", action: "機能の設計から実装まで独力で担当、技術的提案、新メンバー支援", goal: "独り立ちと信頼の確立" },
+  { span: "1〜30日", theme: "理解します（Learn）", action: "コードベース把握、開発環境構築、関係者と1on1、ドメイン知識の吸収", goal: "環境への適応と関係づくりの土台" },
+  { span: "31〜60日", theme: "貢献します（Contribute）", action: "小〜中規模タスクの完了、コードレビュー参加、改善提案を1つ以上", goal: "最初の目に見える成果を出します" },
+  { span: "61〜90日", theme: "自走します（Lead）", action: "機能の設計から実装まで独力で担当、技術的提案、新メンバー支援", goal: "独り立ちと信頼の確立" },
 ];
 
 const trust = [
@@ -38,8 +38,8 @@ const trust = [
 ];
 
 const ngActions = [
-  { title: "前職の話ばかりする", body: "「前の会社では〜」を連発すると距離を置かれます。比較するなら学びの形で。基本は聞かれたときだけ答えます。" },
-  { title: "いきなり大きな変革を提案する", body: "問題点が見えても、まず背景を理解します。改善提案は小さく始め、信頼が貯まってから大きなものへ。" },
+  { title: "前職の話ばかりする", body: "「前の会社では〜」を連発すると距離を置かれます。比較するなら学びの形で伝えます。基本は聞かれたときだけ答えます。" },
+  { title: "いきなり大きな変革を提案する", body: "問題点が見えても、まず背景を理解します。改善提案は小さく始め、信頼が貯まってから大きなものへ広げます。" },
   { title: "一人で抱え込む", body: "質問せず悩むとチームとの距離が広がります。詰まったら早めに共有し、巻き込む姿勢を見せましょう。" },
   { title: "最初から完璧を目指す", body: "最初のPRは完璧でなくて構いません。フィードバックを受けて素早く直す姿勢が評価されます。" },
   { title: "関係構築の機会を避ける", body: "ランチや雑談、チームイベントは人間関係の近道です。最初の90日が最も効果的な時期です。" },
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: "技術スタックが違う場合のキャッチアップ方法は？",
-    a: "まずチームの先輩にキャッチアップ計画を相談するのが近道です。公式ドキュメントの通読、既存コードの読解、ペアプログラミングでの学習が効果的とされます。最初の数ヶ月は業務時間外の自主学習が必要になる場合もありますが、無理のない範囲で。新しいスタックでも、これまで培った設計力・問題解決力は十分に活きます。継続学習の進め方は継続的なスキルアップの記事も参考にしてください。",
+    a: "まずチームの先輩にキャッチアップ計画を相談するのが近道です。公式ドキュメントの通読、既存コードの読解、ペアプログラミングでの学習が効果的とされます。最初の数ヶ月は業務時間外の自主学習が必要になる場合もありますが、無理のない範囲で記載します。新しいスタックでも、これまで培った設計力・問題解決力は十分に活きます。継続学習の進め方は継続的なスキルアップの記事も参考にしてください。",
   },
   {
     q: "早期に成果を出すにはどうすればよいですか？",
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     q: "90日を過ぎても馴染めない場合はどうすればよいですか？",
-    a: "まずは上司や人事に状況を率直に相談しましょう。期待値のずれや業務の進め方は、対話で解消できることが少なくありません。それでも改善が見込めず、健康やキャリアへの悪影響が続く場合は、次の選択肢を検討するのも一つです。ただし短期離職は次の転職に影響しうるため慎重に。試用期間中の判断については試用期間の記事も参考にしてください。",
+    a: "まずは上司や人事に状況を率直に相談しましょう。期待値のずれや業務の進め方は、対話で解消できることが少なくありません。それでも改善が見込めず、健康やキャリアへの悪影響が続く場合は、次の選択肢を検討するのも一つです。ただし短期離職は次の転職に影響しうるため慎重に判断してください。試用期間中の判断については試用期間の記事も参考にしてください。",
   },
   {
     q: "オンボーディングが整っていない会社ではどうすればよいですか？",
@@ -126,7 +126,7 @@ export default function First90DaysPage() {
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
               <li>・30日＝理解、60日＝貢献、90日＝自走のリズムで段階的に立ち上がります。</li>
               <li>・期待値のすり合わせと小さな約束を守ること、成果はクイックウィンから重ねます。</li>
-              <li>・前職比較・いきなりの大改革・抱え込みはNG行動です。まず背景理解を先に。</li>
+              <li>・前職比較・いきなりの大改革・抱え込みはNG行動です。まず背景の理解を優先します。</li>
             </ul>
           </div>
         </section>
@@ -158,8 +158,8 @@ export default function First90DaysPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・大きな成果を焦るより、<strong>期待値のすり合わせと小さな約束を守る</strong>ことを優先します。</li>
               <li>・<strong>30日＝理解、60日＝貢献、90日＝自走</strong>のリズムで段階的に立ち上がります。</li>
-              <li>・成果は<strong>クイックウィン</strong>から。短期で終わる改善を早めに重ねて存在感を出します。</li>
-              <li>・前職比較・いきなりの大改革・抱え込みは<strong>NG行動です</strong>。背景理解を先に。</li>
+              <li>・成果は<strong>クイックウィン</strong>から始めます。短期で終わる改善を早めに重ねて存在感を出します。</li>
+              <li>・前職比較・いきなりの大改革・抱え込みは<strong>NG行動です</strong>。背景の理解を優先します。</li>
             </ul>
           </div>
         </section>
@@ -224,7 +224,7 @@ export default function First90DaysPage() {
               <ul className="text-sm text-petrol-deep space-y-2">
                 <li>・小〜中規模の機能開発を完了</li>
                 <li>・コードレビューで建設的に関与</li>
-                <li>・ドキュメント整備に貢献</li>
+                <li>・ドキュメント整備に貢献します</li>
                 <li>・改善提案を1つ以上行います</li>
                 <li>・上司と中間振り返りを実施</li>
               </ul>
@@ -263,11 +263,11 @@ export default function First90DaysPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-3 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>READMEやセットアップ手順の不備を修正し、次の入社者が困らない状態にします</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>放置されていた小さなバグや警告を1〜2件解消します</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>READMEやセットアップ手順の不備を修正し、次の入社者が困らない状態にする</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>放置されていた小さなバグや警告を1〜2件解消する</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>ローカル開発環境やCIの軽微な改善（ビルド時間短縮など）</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>暗黙知になっている運用手順をドキュメント化します</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>コードレビューで丁寧なフィードバックを返し、チームに貢献します</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>暗黙知になっている運用手順をドキュメント化する</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>コードレビューで丁寧なフィードバックを返し、チームに貢献する</span></li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 mt-4">

@@ -102,7 +102,7 @@ export default function RemoteFullPage() {
                   { type: "フルリモートSaaS", salary: "550〜850万円", loc: "不問", office: "月0〜1回" },
                   { type: "リモートファーストスタートアップ", salary: "500〜800万円", loc: "不問", office: "四半期1回" },
                   { type: "大手IT（リモート可）", salary: "600〜900万円", loc: "関東圏", office: "月2〜4回" },
-                  { type: "外資系IT", salary: "800〜1,500万円", loc: "不問が多い", office: "月0〜2回" },
+                  { type: "外資系IT", salary: "800〜1,500万円", loc: "不問が多いです", office: "月0〜2回" },
                   { type: "フリーランス（フルリモート案件）", salary: "月60〜100万円", loc: "不問", office: "なし" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">

@@ -213,7 +213,7 @@ export default function MarketValuePage() {
               { num: "1", title: "転職エージェントの面談を受ける", desc: "最も確実です。IT特化型エージェントに登録し、自分のスキルセットでどの年収帯の求人を紹介してもらえるか確認します。複数を比較するとより正確です。" },
               { num: "2", title: "スカウトの提示年収を見る", desc: "ビズリーチ等に経歴を登録し、届くスカウトの提示年収を集計します。高い／低いの中央値が現実的な目安になります。" },
               { num: "3", title: "求人の年収レンジを調査する", desc: "自分のスキルに合う求人を20〜30件ピックアップし、年収レンジの中央値を計算します。市場全体の相場感がつかめます。" },
-              { num: "4", title: "年収診断ツールを使う", desc: "各社の年収診断ツールで概算を把握します。最初の目安として有効だが、あくまで参考値です。" },
+              { num: "4", title: "年収診断ツールを使う", desc: "各社の年収診断ツールで概算を把握します。最初の目安として有効ですが、あくまで参考値です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -240,15 +240,15 @@ export default function MarketValuePage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. アウトプットを増やす</h3>
-              <p className="text-sm text-petrol-deep">技術ブログ・OSS・登壇は市場価値を可視化します。スカウトの数と質が変わります。関連: <Link href="/knowledge/portfolio/" className="text-petrol-deep underline">ポートフォリオの見せ方です</Link>。</p>
+              <p className="text-sm text-petrol-deep">技術ブログ・OSS・登壇は市場価値を可視化します。スカウトの数と質が変わります。関連: <Link href="/knowledge/portfolio/" className="text-petrol-deep underline">ポートフォリオの見せ方</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. リード・マネジメント経験を積む</h3>
-              <p className="text-sm text-petrol-deep">技術力に加えてチームを率いた経験があると、選択肢が広がります。関連: <Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリアです</Link>。</p>
+              <p className="text-sm text-petrol-deep">技術力に加えてチームを率いた経験があると、選択肢が広がります。関連: <Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリア</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">5. 需要の高い技術を取り入れる</h3>
-              <p className="text-sm text-petrol-deep">クラウド・Kubernetes・Go/Rust・AI/ML関連は需要が高い領域です。自分の軸を保ちつつ取り入れましょう。関連: <Link href="/knowledge/continuous-learning/" className="text-petrol-deep underline">継続的な学習です</Link>。</p>
+              <p className="text-sm text-petrol-deep">クラウド・Kubernetes・Go/Rust・AI/ML関連は需要が高い領域です。自分の軸を保ちつつ取り入れましょう。関連: <Link href="/knowledge/continuous-learning/" className="text-petrol-deep underline">継続的な学習</Link>。</p>
             </div>
           </div>
         </section>
@@ -260,12 +260,12 @@ export default function MarketValuePage() {
             <p className="text-sm text-slate-600 mb-3">3つ以上当てはまるなら、一度エージェント面談で市場価値を確かめる価値があります。</p>
             <ul className="space-y-2">
               {[
-                "同年代の平均年収（上表）より自分の年収が明らかに低い",
-                "ここ2〜3年、年収がほとんど上がっていない",
+                "同年代の平均年収（上表）より自分の年収が明らかに低いです",
+                "ここ2〜3年、年収がほとんど上がっていません",
                 "新しい技術を学ぶ機会が職場でほとんどない",
-                "スカウトの提示年収が現年収を上回っている",
-                "求人を見ると、自分のスキルでより良い条件の枠が多くある",
-                "評価制度が不透明で、頑張りが年収に反映されない",
+                "スカウトの提示年収が現年収を上回っています",
+                "求人を見ると、自分のスキルでより良い条件の枠が多くあります",
+                "評価制度が不透明で、頑張りが年収に反映されません",
               ].map((c, i) => (
                 <li key={i} className="flex gap-2 text-sm text-slate-700">
                   <span className="text-petrol font-bold shrink-0">□</span>{c}
@@ -281,11 +281,11 @@ export default function MarketValuePage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：伸びしろと専門性の両方が評価される</h3>
-              <p className="text-sm text-petrol-deep">レバテック公表値では30代の正社員SE平均は約499万円、年収1,000万円以上は8.01%です。専門性を深めつつリード経験を積むと、上位レンジに入りやすくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職です</Link>。</p>
+              <p className="text-sm text-petrol-deep">レバテック公表値では30代の正社員SE平均は約499万円、年収1,000万円以上は8.01%です。専門性を深めつつリード経験を積むと、上位レンジに入りやすくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：再現性とマネジメントで上位レンジへ</h3>
-              <p className="text-sm text-petrol-deep">40代の正社員SE平均は約618万円、年収1,000万円以上は12.67%と30代より高い水準です（レバテック公表・2025年）。成果の再現性とマネジメント／高度な専門性が、上位レンジへの鍵になります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職です</Link>。</p>
+              <p className="text-sm text-petrol-deep">40代の正社員SE平均は約618万円、年収1,000万円以上は12.67%と30代より高い水準です（レバテック公表・2025年）。成果の再現性とマネジメント／高度な専門性が、上位レンジへの鍵になります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>。</p>
             </div>
           </div>
         </section>

@@ -135,7 +135,7 @@ export default function KyotoAreaPage() {
             </p>
             <ul className="text-sm text-blue-900 space-y-1 list-disc list-inside">
               <li>ゲーム・メーカー・研究機関など特色ある求人があり、専門性を活かしやすいです</li>
-              <li>求人数は大阪に劣るため、大阪求人やフルリモート求人との併用が前提</li>
+              <li>求人数は大阪に劣るため、大阪求人やフルリモート求人との併用が前提です</li>
               <li>生活環境・QOLを重視するUターン・Iターン層の受け皿になりやすいです</li>
             </ul>
           </div>
@@ -363,9 +363,9 @@ export default function KyotoAreaPage() {
               <ul className="space-y-2 text-sm text-slate-600">
                 <li>✓ ゲーム・組込み・AIなど専門領域を深めたい</li>
                 <li>✓ 京都に住みながら大阪求人も視野に入れたい</li>
-                <li>✓ 学術都市ならではの研究寄り企業に関心があります</li>
-                <li>✓ 生活環境・QOLを重視しています</li>
-                <li>✓ 直接応募とエージェントを併用できます</li>
+                <li>✓ 学術都市ならではの研究寄り企業に関心がある</li>
+                <li>✓ 生活環境・QOLを重視している</li>
+                <li>✓ 直接応募とエージェントを併用できる</li>
               </ul>
             </div>
             <div className="border border-slate-200 rounded-xl p-5">

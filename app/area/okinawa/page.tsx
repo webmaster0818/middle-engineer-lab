@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "沖縄へのUIターン移住に使える支援制度はありますか？",
-    a: "沖縄県や各市町村は移住・定住の相談窓口や支援情報を公開しています。国の地方創生施策である移住支援金（東京圏からの移住で要件を満たすと交付される制度。金額・要件は自治体ごとに異なる）の対象になる場合もあります。制度は年度や居住地によって変わるため、必ず沖縄県・移住先市町村の公式サイトや相談窓口で最新の要件を確認してください。",
+    a: "沖縄県や各市町村は移住・定住の相談窓口や支援情報を公開しています。国の地方創生施策である移住支援金（東京圏からの移住で要件を満たすと交付される制度です。金額・要件は自治体ごとに異なる）の対象になる場合もあります。制度は年度や居住地によって変わるため、必ず沖縄県・移住先市町村の公式サイトや相談窓口で最新の要件を確認してください。",
   },
   {
     q: "沖縄のIT転職におすすめのエージェントは？",
@@ -217,7 +217,7 @@ export default function OkinawaAreaPage() {
         <section id="reality" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の実情</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            ご説明すると、沖縄の地元IT求人は首都圏や福岡と比べて母数が限られ、職種の偏りもあります。コールセンター・BPO・サポート系の比重が相対的に大きく、モダンなWeb/SaaSの自社開発を志向する人には選択肢が狭く感じられることがあります。これは沖縄の市場特性として踏まえておくべき点です。
+            実際には、沖縄の地元IT求人は首都圏や福岡と比べて母数が限られ、職種の偏りもあります。コールセンター・BPO・サポート系の比重が相対的に大きく、モダンなWeb/SaaSの自社開発を志向する人には選択肢が狭く感じられることがあります。これは沖縄の市場特性として踏まえておくべき点です。
           </p>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3">
             <p className="text-sm text-slate-700 leading-relaxed">
@@ -434,7 +434,7 @@ export default function OkinawaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">沖縄×リモートでIT転職を進めよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            地元の誘致企業・拠点から首都圏フルリモートまで。エリア対応のエージェントに相談して、暮らしと年収のバランスが取れる選択肢を見つけましょう。
+            地元の誘致企業・拠点から首都圏フルリモートまで、幅広い選択肢があります。エリア対応のエージェントに相談して、暮らしと年収のバランスが取れる選択肢を見つけましょう。
           </p>
           <Link
             href="/#ranking"

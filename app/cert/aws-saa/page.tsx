@@ -59,7 +59,7 @@ const overviewTable = [
   ["試験形式", "65問（択一選択／複数選択）"],
   ["試験時間", "130分"],
   ["合格基準", "100〜1,000のスケールスコアで720以上"],
-  ["合格率", "AWSは合格率を公表していない"],
+  ["合格率", "AWSは合格率を公表していません"],
   ["有効期限", "3年（再認定が必要）"],
 ];
 
@@ -132,7 +132,7 @@ export default function CertAwsSaaPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>オンプレ／インフラ経験のある30〜40代</strong>：クラウド移行案件で設計の担い手として加点されます</li>
-              <li>② <strong>完全未経験のミドル</strong>：資格だけで実務未経験は埋めにくいです。手を動かした成果物とセットが必要</li>
+              <li>② <strong>完全未経験のミドル</strong>：資格だけで実務未経験は埋めにくいです。手を動かした成果物とセットが必要です</li>
               <li>③ <strong>有効期限3年</strong>：再認定が必要で、取りっぱなしにはできません</li>
             </ul>
           </div>
@@ -166,10 +166,10 @@ export default function CertAwsSaaPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "セキュアなアーキテクチャの設計", d: "認証・認可、ネットワーク・データの保護など、安全性を担保する設計判断です。" },
-              { t: "弾力性に優れた（復元力のある）アーキテクチャの設計", d: "可用性・耐障害性を確保し、障害時にも継続できる構成の設計です。" },
-              { t: "高パフォーマンスなアーキテクチャの設計", d: "スケーラブルで高性能なコンピューティング・ストレージ・ネットワークの選定です。" },
-              { t: "コストを最適化したアーキテクチャの設計", d: "要件を満たしつつコストを抑える、サービス選定とサイジングの最適化です。" },
+              { t: "セキュアなアーキテクチャの設計", d: "認証・認可、ネットワーク・データの保護など、安全性を担保する設計判断。" },
+              { t: "弾力性に優れた（復元力のある）アーキテクチャの設計", d: "可用性・耐障害性を確保し、障害時にも継続できる構成の設計。" },
+              { t: "高パフォーマンスなアーキテクチャの設計", d: "スケーラブルで高性能なコンピューティング・ストレージ・ネットワークの選定。" },
+              { t: "コストを最適化したアーキテクチャの設計", d: "要件を満たしつつコストを抑える、サービス選定とサイジングの最適化。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -225,7 +225,7 @@ export default function CertAwsSaaPage() {
           <div className="space-y-3">
             {[
               { t: "クラウドインフラエンジニア", d: "AWS上の基盤設計・構築を担います。SAAの設計知識が要件定義から構成設計までの土台になります。" },
-              { t: "クラウド移行担当（SE）", d: "オンプレからの移行を設計・推進です。現行環境の理解とAWS設計の両輪が評価されます。" },
+              { t: "クラウド移行担当（SE）", d: "オンプレからの移行を設計・推進。現行環境の理解とAWS設計の両輪が評価されます。" },
               { t: "ソリューションアーキテクト候補", d: "顧客要件をAWS構成へ落とし込む役割です。SAAは入口の証明で、実務で深掘りしていきます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -258,7 +258,7 @@ export default function CertAwsSaaPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            次の一手は上位の<Link href="/cert/aws-sap/" className="text-petrol hover:underline">AWS認定SAP（プロフェッショナル）</Link>、開発寄りなら<Link href="/cert/aws-dva/" className="text-petrol hover:underline">AWS認定DVA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-petrol hover:underline">AWS認定SOAです</Link>。Linuxの土台が不安なら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>との組み合わせも有効です。
+            次の一手は上位の<Link href="/cert/aws-sap/" className="text-petrol hover:underline">AWS認定SAP（プロフェッショナル）</Link>、開発寄りなら<Link href="/cert/aws-dva/" className="text-petrol hover:underline">AWS認定DVA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-petrol hover:underline">AWS認定SOA</Link>。Linuxの土台が不安なら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>との組み合わせも有効です。
           </p>
         </section>
 

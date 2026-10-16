@@ -124,7 +124,7 @@ export default function CertPmpPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① 受験資格が<strong>PM実務前提</strong>＝持っているだけで経験の裏づけになります</li>
-              <li>② PMI公式データで保有者中央値<strong>891万円</strong>（非保有817万円・2023）</li>
+              <li>② PMI公式データで保有者中央値<strong>891万円です</strong>（非保有817万円・2023）</li>
               <li>③ ただし<strong>3年ごと60PDU更新</strong>が必要で、取りっぱなしにはできません</li>
             </ul>
           </div>
@@ -159,7 +159,7 @@ export default function CertPmpPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: PMI / PMI日本支部 公式（受験資格・受験料・更新、2026年6月時点）。取得者数はGeekly集計の参考値です。受験料は会員区分・為替・改定により変動しています。受験前に必ずPMI公式で最新条件をご確認ください。
+            出典: PMI / PMI日本支部 公式（受験資格・受験料・更新、2026年6月時点）。取得者数はGeekly集計の参考値です。受験料は会員区分・為替・改定により変動します。受験前に必ずPMI公式で最新条件をご確認ください。
           </p>
         </section>
 
@@ -230,7 +230,7 @@ export default function CertPmpPage() {
           <div className="space-y-3">
             {[
               { t: "PMジュニア〜ミドル層", d: "数百万〜数千万規模のPJ管理、進捗・課題・要員管理の実務です。PMP歓迎要件になりやすいです。" },
-              { t: "シニアPM層", d: "大規模・複数ベンダー横断のPJ統括、予算・リスク管理です。PMP保有が応募要件になることがあります。" },
+              { t: "シニアPM層", d: "大規模・複数ベンダー横断のPJ統括、予算・リスク管理。PMP保有が応募要件になることがあります。" },
               { t: "PMO・プログラム管理層", d: "全社PJポートフォリオの標準化・ガバナンスです。PMPに加えPgMP等の上位や実績が問われます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">

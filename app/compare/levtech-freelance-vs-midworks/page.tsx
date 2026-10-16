@@ -30,8 +30,8 @@ const toc = [
 const comparison = [
   { item: "運営会社", a: "レバテック株式会社（レバレジーズグループ）", b: "株式会社Branding Engineer（TWOSTONE&Sons傘下／最新法人名は要確認）" },
   { item: "サービス種別", a: "フリーランス（業務委託）案件の紹介・エンド直請けに強い最大手級", b: "フリーランス案件＋正社員並みの保障が特徴" },
-  { item: "案件数", a: "公開1万件以上です。公式約97,000件以上という二次値あり（時点要確認・二次）", b: "常時1万件以上（非公開約80%・二次）" },
-  { item: "年収・単価", a: "利用者平均年収881万円・平均単価68万円・中央値65万円・最高145万円（二次・時点に留意）", b: "案件単価は案件により幅です。保障で安定を重視する設計" },
+  { item: "案件数", a: "公開1万件以上。公式約97,000件以上という二次値あり（時点要確認・二次）", b: "常時1万件以上（非公開約80%・二次）" },
+  { item: "年収・単価", a: "利用者平均年収881万円・平均単価68万円・中央値65万円・最高145万円（二次・時点に留意）", b: "案件単価は案件により幅。保障で安定を重視する設計" },
   { item: "マージン", a: "非公表（業界相場10〜15%は推定で確認不可）", b: "約20%という媒体指摘あり（高めとされる）。実質10〜15%との媒体指摘も併記" },
   { item: "報酬保障", a: "なし（案件単位の業務委託）", b: "案件が途切れた際に報酬の60%を保障（審査・適用条件あり）" },
   { item: "福利厚生", a: "フリーランス向け各種サポート", b: "正社員並みの福利厚生・賠償補償・書籍/交通費補助など" },
@@ -52,15 +52,15 @@ const faqs = [
 const goodLev = [
   "単価・年収を最大化したい経験豊富なエンジニア",
   "エンド直請けの高単価案件を狙いたい",
-  "自分で稼働を管理し案件を切らさず回せる",
-  "案件量・選択肢の多さを重視する",
+  "自分で稼働を管理し案件を切らさず回せます",
+  "案件量・選択肢の多さを重視します",
   "週5常駐でしっかり稼ぎたい",
 ];
 const goodMid = [
   "独立したいが収入の不安定さが怖い慎重派",
   "家族・住宅ローンを抱えるミドル",
   "正社員並みの福利厚生・保障を確保したい",
-  "案件が途切れた時の備えを重視する",
+  "案件が途切れた時の備えを重視します",
   "フリーランス1歩目で安全に踏み出したい",
 ];
 
@@ -100,7 +100,7 @@ export default function LevtechFreelanceVsMidworksPage() {
               <li><strong>・迷うなら、自分の優先順位（手取りか、安心か）で決めます</strong>。家族やローンを抱えるミドルは保障型のMidworksが第一歩に向きます。</li>
             </ul>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm">どちらもフリーランス（求職者）側は無料で利用できます。理由は次の比較表と項目別解説で見ていきます。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">どちらもフリーランス（求職者）側は無料で利用できます。理由は、以下の比較表と項目別の解説でご説明します。</p>
         </section>
 
         <section id="confusion" className="mb-12 scroll-mt-20">
@@ -108,7 +108,7 @@ export default function LevtechFreelanceVsMidworksPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700">
             <p className="mb-2">名前が似ているため、契約に進む前に違いを必ず押さえてください。</p>
             <ul className="space-y-1.5 list-disc pl-5">
-              <li><strong>レバテックフリーランス（業務委託案件の紹介）≠ レバテックキャリアです（正社員転職エージェント）</strong>。運営は同じレバテック株式会社ですが、契約形態がまったく異なります。</li>
+              <li><strong>レバテックフリーランス（業務委託案件の紹介）≠ レバテックキャリア（正社員転職エージェント）です</strong>。運営は同じレバテック株式会社ですが、契約形態がまったく異なります。</li>
               <li>本記事のMidworksも<strong>フリーランス向けサービス</strong>です。安定雇用を残したい場合は、フリーランスではなく正社員エージェントを検討してください。</li>
             </ul>
             <p className="mt-2">正社員かフリーランスかで迷う段階の方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスと正社員の比較</Link>を先にご覧ください。</p>
@@ -171,7 +171,7 @@ export default function LevtechFreelanceVsMidworksPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックフリーランスの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高単価・エンド直請けの案件が多いです</li><li>案件量が豊富で選択肢が広いです</li><li>最大手級で安心感がある</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高単価・エンド直請けの案件が多いです</li><li>案件量が豊富で選択肢が広いです</li><li>最大手級で安心感があります</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
               <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>実務経験前提で未経験には不向き</li><li>首都圏中心で地方案件が少ないです</li><li>マージン非公表で手取りが読みにくいです</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：各フリーランス系メディアの傾向要約</p>
@@ -179,9 +179,9 @@ export default function LevtechFreelanceVsMidworksPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Midworksの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>正社員並みの福利厚生・保障が安心</li><li>独立1歩目の不安を抑えられます</li><li>案件量も最大手級</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>正社員並みの福利厚生・保障が安心です</li><li>独立1歩目の不安を抑えられます</li><li>案件量も最大手級です</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>マージンが約20%と高めとの指摘</li><li>報酬保障の適用条件が厳しい場合があります</li><li>「やばい」という条件理解のズレ</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>マージンが約20%と高めとの指摘があります</li><li>報酬保障の適用条件が厳しい場合があります</li><li>「やばい」という条件理解のズレです</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：各フリーランス系メディアの傾向要約</p>
             </div>
           </div>

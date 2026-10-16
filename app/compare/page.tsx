@@ -44,7 +44,7 @@ const groups = [
   },
   {
     label: "エージェント2社の直接比較",
-    intro: "候補を2社に絞ったときの「どちらがおすすめ」を、強み・弱み・向き不向きで即答します。",
+    intro: "候補を2社に絞ったときの「どちらがおすすめ」を、強み・弱み・向き不向きの観点からご説明します。",
     items: [
       { slug: "levtech-vs-recruit", name: "レバテックキャリア vs リクルートIT" },
       { slug: "levtech-vs-geekly", name: "レバテックキャリア vs Geekly" },

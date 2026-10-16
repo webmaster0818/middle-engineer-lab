@@ -74,13 +74,13 @@ const cloudCompare = [
   ["特に強い領域", "総合力・幅広い案件", "M365/業務系/エンタープライズ統合", "BigQuery/Vertex AIのデータ・ML"],
   ["入口の認定資格", "Cloud Practitioner / SAA", "AZ-900 / AZ-104", "Associate Cloud Engineer"],
   ["上位の認定資格", "Solutions Architect Professional", "AZ-305", "Professional Cloud Architect"],
-  ["このような方に向く", "まず幅広く・求人数重視", "大手SIer/金融/業務系志向", "データ活用・ML志向"],
+  ["このような方に向きます", "まず幅広く・求人数重視", "大手SIer/金融/業務系志向", "データ活用・ML志向"],
 ];
 
 const certTable = [
-  ["基礎（Foundational）", "Cloud Digital Leader", "ビジネス含むクラウド全体像です。任意の入口"],
-  ["アソシエイト（Associate）", "Associate Cloud Engineer", "実務の入口資格です。転職でまず狙う層"],
-  ["プロフェッショナル（Professional）", "Professional Cloud Architect / Professional Data Engineer など", "設計・データ基盤の上流です。GCPらしさが出る区分"],
+  ["基礎（Foundational）", "Cloud Digital Leader", "ビジネス含むクラウド全体像。任意の入口"],
+  ["アソシエイト（Associate）", "Associate Cloud Engineer", "実務の入口資格。転職でまず狙う層"],
+  ["プロフェッショナル（Professional）", "Professional Cloud Architect / Professional Data Engineer など", "設計・データ基盤の上流。GCPらしさが出る区分"],
 ];
 
 export default function GcpSkillPage() {
@@ -161,7 +161,7 @@ export default function GcpSkillPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① 求人数で劣る現実を踏まえ、<strong>BigQuery/Vertex AIのデータ・ML親和性</strong>を強みにします（AWSページとの最大の差）</li>
               <li>② 認定は<strong>Associate Cloud Engineer → Professional Cloud Architect</strong>を軸に、学習内容を実務へ紐づけて語ります</li>
-              <li>③ GKE（Kubernetes）・Terraform（IaC）を掛け合わせ、インフラ×データの両面で価値を上げます</li>
+              <li>③ GKE（Kubernetes）・Terraform（IaC）を掛け合わせ、インフラ×データの両面で価値を上げる</li>
             </ul>
             <p className="text-xs text-slate-600 mt-3">
               「まず幅広い求人で経験を積みたい」方は
@@ -307,9 +307,9 @@ export default function GcpSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "実務1〜3年層（構築・運用）", d: "GCE/Cloud Storage/VPC/IAMの基本構成、Cloud Monitoringでの監視、簡単な障害対応です。Associate Cloud Engineerが歓迎要件になりやすいです。" },
+              { t: "実務1〜3年層（構築・運用）", d: "GCE/Cloud Storage/VPC/IAMの基本構成、Cloud Monitoringでの監視、簡単な障害対応。Associate Cloud Engineerが歓迎要件になりやすいです。" },
               { t: "実務3〜6年層（設計・データ基盤）", d: "GKEの運用、Terraformによる構成管理、BigQueryでのデータ基盤構築、CI/CDです（Cloud Build）。年収帯が一段上がる中核ゾーンです。" },
-              { t: "実務6年以上層（アーキテクト・データ基盤リード）", d: "全体アーキテクチャ設計、Vertex AIを含むML基盤、コスト最適化、セキュリティ設計です。Professional認定が後押しになります。" },
+              { t: "実務6年以上層（アーキテクト・データ基盤リード）", d: "全体アーキテクチャ設計、Vertex AIを含むML基盤、コスト最適化、セキュリティ設計。Professional認定が後押しになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -359,7 +359,7 @@ export default function GcpSkillPage() {
               { n: "STEP 1", t: "土台の棚卸し", d: "ネットワーク・Linux・SQLの基礎経験を整理します。これらはGCPでもそのまま価値になります。" },
               { n: "STEP 2", t: "Associate取得＋無料枠で構築", d: "Associate Cloud Engineerを取得し、無料利用枠でGCE/Cloud Storage/IAMの小構成を自作します。" },
               { n: "STEP 3", t: "データ・MLで差別化", d: "BigQueryで公開データセットを分析し、Vertex AIで簡単なモデルを動かします。AWSとの差を作ります。" },
-              { n: "STEP 4", t: "成果物化して応募", d: "構成をTerraformでコード化しGitHubに公開しています。設計意図をREADMEで説明できる状態にします。" },
+              { n: "STEP 4", t: "成果物化して応募", d: "構成をTerraformでコード化しGitHubに公開します。設計意図をREADMEで説明できる状態にします。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -371,7 +371,7 @@ export default function GcpSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方です</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>。
           </p>
         </section>
 

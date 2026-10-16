@@ -300,9 +300,9 @@ export default function AmazonCompanyPage() {
           <ol className="space-y-3 text-sm text-slate-700">
             {[
               ["書類選考", "職務経歴をもとに選考します。ポジションによりOnline Assessmentが課されることがあります。"],
-              ["1次面接（Phone Screen）", "1人の面接官と45〜60分です。技術とOLPの両面を確認します。"],
-              ["ループ面接", "複数の面接官と各60分ずつ実施します。コーディング／設計とOLPベースの行動面接の組み合わせです。Bar Raiserが加わります。"],
-              ["内定", "条件提示です。応募から内定まで1〜1.5か月程度かかる方が多いと公式に記載します。現在はほぼオンライン実施です。"],
+              ["1次面接（Phone Screen）", "1人の面接官と45〜60分。技術とOLPの両面を確認します。"],
+              ["ループ面接", "複数の面接官と各60分ずつ実施します。コーディング／設計とOLPベースの行動面接の組み合わせ。Bar Raiserが加わります。"],
+              ["内定", "条件が提示されます。応募から内定まで1〜1.5か月程度かかる方が多いと公式に記載します。現在はほぼオンライン実施。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
@@ -388,8 +388,8 @@ export default function AmazonCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資ITを扱うヘッドハンターと接点を作りやすいです。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化です。技術職の選考対策・キャリアの棚卸しに強いです。" },
-              { name: "Geekly（ギークリー）", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが速く、選択肢を素早く広げたい人向けです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。技術職の選考対策・キャリアの棚卸しに強いです。" },
+              { name: "Geekly（ギークリー）", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが速く、選択肢を素早く広げたい人向けです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

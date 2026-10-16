@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "フルリモートで採用されやすい職種は？",
-    a: "Web系のバックエンド・フロントエンド、クラウド系インフラ・SRE、データ系など、成果物とコードで評価しやすい職種はフルリモートと相性が良い傾向です。逆に、物理的な現場対応やハードウェア連携が必要な職種は在宅が難しくなりがちです。自分のスキルがリモート前提の求人と噛み合うかを見極めましょう。",
+    a: "Web系のバックエンド・フロントエンド、クラウド系インフラ・SRE、データ系など、成果物とコードで評価しやすい職種はフルリモートと相性が良い傾向です。逆に、物理的な現場対応やハードウェア連携が必要な職種は在宅が難しくなりがちです。自分のスキルがリモート前提の求人と合うかを見極めましょう。",
   },
   {
     q: "地方在住であることは選考で不利になる？",
@@ -49,16 +49,16 @@ const faqs = [
 const fits = [
   "首都圏水準の年収を、地方の生活コストのまま得たい",
   "通勤をなくし、可処分時間と可処分所得を増やしたい",
-  "コードや成果物で評価される職種（Web系・クラウド・データ等）の経験がある",
-  "非同期・テキストベースのコミュニケーションが苦にならない",
-  "自分で就業環境・体調・進捗を管理できる（自走力がある）",
+  "コードや成果物で評価される職種（Web系・クラウド・データ等）の経験があります",
+  "非同期・テキストベースのコミュニケーションが苦になりません",
+  "自分で就業環境・体調・進捗を管理できます（自走力がある）",
 ];
 
 const notFits = [
-  "対面でのこまめな相談・OJTがないと不安が大きい",
+  "対面でのこまめな相談・OJTがないと不安が大きいです",
   "現場常駐やハードウェア連携が前提の職種が中心",
-  "リモート実績やアピールできる成果物がまだ乏しい",
-  "就業環境（回線・作業スペース）を自宅で整えにくい",
+  "リモート実績やアピールできる成果物がまだ乏しいです",
+  "就業環境（回線・作業スペース）を自宅で整えにくいです",
 ];
 
 const agents = [
@@ -105,7 +105,7 @@ export default function RemoteAreaPage() {
   return (
     <>
       <ArticleJsonLd
-        title="地方在住×フルリモート転職の戦略【2026年】首都圏求人を取りに行く"
+        title="地方在住×フルリモート転職の戦略【2026年】首都圏求人を取りに行きます"
         description="地方在住エンジニアがフルリモート前提で転職する戦略を解説します。首都圏求人への向き合い方、年収の考え方、対応エージェント、30代・40代の進め方をまとめた実用ガイドです。"
         url="/area/remote/"
       />
@@ -156,7 +156,7 @@ export default function RemoteAreaPage() {
           <ul className="space-y-2 text-sm text-blue-900">
             <li>① <strong>「居住地は地方、勤務先は首都圏」</strong>を前提に求人を探します。地元求人に発想を縛りません。</li>
             <li>② 評価は<strong>成果物・自走力</strong>で決まります。リモートで成果を出した実績を言語化して強みにします。</li>
-            <li>③ 求人の「リモート可」は<strong>実態（頻度・恒久性）を必ず確認です</strong>。見せかけのリモートを避けます。</li>
+            <li>③ 求人の「リモート可」は<strong>実態（頻度・恒久性）を必ず確認してください</strong>。見せかけのリモートを避けます。</li>
           </ul>
         </section>
 
@@ -241,11 +241,11 @@ export default function RemoteAreaPage() {
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
-                <p className="text-sm text-slate-600"><strong>リモート適性が伝わる職務経歴に整える:</strong> 自走で進めた案件、非同期で連携した経験、成果物（GitHub・設計資料等）を前面に。<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析</Link>で棚卸しを。</p>
+                <p className="text-sm text-slate-600"><strong>リモート適性が伝わる職務経歴に整える:</strong> 自走で進めた案件、非同期で連携した経験、成果物（GitHub・設計資料等）を前面に出します。<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析</Link>で棚卸しを行います。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-                <p className="text-sm text-slate-600"><strong>全国対応のIT特化エージェントへ登録:</strong> 居住地とフルリモート希望を初回面談で明言です。地方在住OKの首都圏求人を優先的に出してもらいます。</p>
+                <p className="text-sm text-slate-600"><strong>全国対応のIT特化エージェントへ登録:</strong> 居住地とフルリモート希望を初回面談で明言します。地方在住OKの首都圏求人を優先的に出してもらいます。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">4</span>
@@ -269,7 +269,7 @@ export default function RemoteAreaPage() {
               <strong>レバテック公表の年代別平均年収（2025年・正社員SE）:</strong> 20代 約378万円／30代 約499万円／40代 約618万円／50代 約685万円です。年収1,000万円以上の割合は30代8.01%・40代12.67%です（出典: career.levtech.jp/freelance.levtech.jp ガイド記事）。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              <strong>doda 2024年度 決定年収レポート（2025年5月公表）:</strong> 転職者の約6割が年収アップです。IT・通信の平均決定年収は469万円（2023年度）→486万円です（2024年度）。
+              <strong>doda 2024年度 決定年収レポート（2025年5月公表）:</strong> 転職者の約6割が年収アップを実現しています。IT・通信の平均決定年収は469万円（2023年度）→486万円です（2024年度）。
             </p>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
@@ -344,7 +344,7 @@ export default function RemoteAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">居住地を変えずに、キャリアを広げよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            地方在住のまま首都圏のフルリモート求人へ。全国対応のIT特化エージェントで、自分のスキルが正当に評価される求人を探しましょう。
+            地方在住のまま首都圏のフルリモート求人に応募する方法があります。全国対応のIT特化エージェントで、自分のスキルが正当に評価される求人を探しましょう。
           </p>
           <Link
             href="/#ranking"

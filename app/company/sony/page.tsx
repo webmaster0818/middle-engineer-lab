@@ -151,8 +151,8 @@ export default function SonyCompanyPage() {
             {[
               ["STEP 1", "応募（事業会社別）", "ソニーグループ キャリア採用ポータル、または各事業会社の採用サイトの募集要項から応募します。"],
               ["STEP 2", "書類選考", "職務経歴書・スキルシートで専門領域とのマッチを確認します。"],
-              ["STEP 3", "面接（複数回）", "技術面接で担当領域の専門的議論です。実プロジェクト経験を深掘りされる傾向です。"],
-              ["STEP 4", "内定", "ジョブグレードに基づく処遇提示です。"],
+              ["STEP 3", "面接（複数回）", "技術面接で担当領域の専門的議論。実プロジェクト経験を深掘りされる傾向。"],
+              ["STEP 4", "内定", "ジョブグレードに基づく処遇提示。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>

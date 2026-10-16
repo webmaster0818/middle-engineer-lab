@@ -66,9 +66,9 @@ const salaryByAge = [
 ];
 
 const certTable = [
-  ["CKA", "Certified Kubernetes Administrator", "クラスター管理・運用です。実技66%以上で合格します。運用職でまず狙う"],
-  ["CKAD", "Certified Kubernetes Application Developer", "アプリの設計・構築・公開です。開発者寄りの役割向け"],
-  ["CKS", "Certified Kubernetes Security Specialist", "セキュリティ特化です。CKA合格が受験前提（67%以上で合格）"],
+  ["CKA", "Certified Kubernetes Administrator", "クラスター管理・運用。実技66%以上で合格します。運用職でまず狙う"],
+  ["CKAD", "Certified Kubernetes Application Developer", "アプリの設計・構築・公開。開発者寄りの役割向け"],
+  ["CKS", "Certified Kubernetes Security Specialist", "セキュリティ特化。CKA合格が受験前提（67%以上で合格）"],
 ];
 
 export default function KubernetesSkillPage() {
@@ -208,9 +208,9 @@ export default function KubernetesSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "入口層（コンテナ運用）", d: "Docker・基本的なKubernetesリソース（Deployment/Service/Ingress）の操作です。マネージドK8sのデプロイ経験です。" },
-              { t: "中核層（運用設計・自動化）", d: "Helmによるパッケージ管理、ArgoCD/FluxでのGitOps、Prometheus+Grafanaの監視構築、Terraformでのクラスター構築です。" },
-              { t: "上流層（プラットフォーム/SRE）", d: "マルチクラスター設計、容量・コスト最適化、SLI/SLO、Internal Developer Platformの構築です。CKS等のセキュリティ知識も評価対象です。" },
+              { t: "入口層（コンテナ運用）", d: "Docker・基本的なKubernetesリソース（Deployment/Service/Ingress）の操作です。マネージドK8sのデプロイ経験。" },
+              { t: "中核層（運用設計・自動化）", d: "Helmによるパッケージ管理、ArgoCD/FluxでのGitOps、Prometheus+Grafanaの監視構築、Terraformでのクラスター構築。" },
+              { t: "上流層（プラットフォーム/SRE）", d: "マルチクラスター設計、容量・コスト最適化、SLI/SLO、Internal Developer Platformの構築。CKS等のセキュリティ知識も評価対象です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -236,7 +236,7 @@ export default function KubernetesSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/sre/" className="text-petrol hover:underline">SREへの転向ガイド</Link>、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS転職ガイドです</Link>（EKS運用との相性が高い）。
+            関連: <Link href="/career/sre/" className="text-petrol hover:underline">SREへの転向ガイド</Link>、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS転職ガイド</Link>（EKS運用との相性が高い）。
           </p>
         </section>
 
@@ -286,7 +286,7 @@ export default function KubernetesSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方です</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>。
           </p>
         </section>
 
@@ -308,11 +308,11 @@ export default function KubernetesSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ Docker → ローカルK8s → マネージドK8s の順で実機に慣れます</li>
+            <li>✓ Docker → ローカルK8s → マネージドK8s の順で実機に慣れる</li>
             <li>✓ CKAで運用知識を体系化（必要に応じCKAD/CKSへ）</li>
-            <li>✓ Helm・ArgoCD・Prometheus/Grafanaを一通り触り、運用設計まで踏み込みます</li>
-            <li>✓ Terraformでクラスターをコード管理し、IaCスキルと接続します</li>
-            <li>✓ 障害対応・容量設計の経験を「再現可能な学び」として言語化します</li>
+            <li>✓ Helm・ArgoCD・Prometheus/Grafanaを一通り触り、運用設計まで踏み込む</li>
+            <li>✓ Terraformでクラスターをコード管理し、IaCスキルと接続する</li>
+            <li>✓ 障害対応・容量設計の経験を「再現可能な学び」として言語化する</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>をご参照ください。

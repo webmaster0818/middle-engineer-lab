@@ -184,7 +184,7 @@ export default function RenesasCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>半導体設計</strong>：回路設計・論理設計・物理設計などの設計領域です。一般にVerilog/SystemVerilog/VHDL等のHDLが想定されます</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>EDA（設計自動化）</strong>：半導体設計フローを支えるツール・自動化領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>EDA（設計自動化）</strong>：半導体設計フローを支えるツール・自動化領域です</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>組込ソフトウェア・ファームウェア・ドライバ</strong>：マイコン・SoC上で動くソフトの開発領域です。一般にC/C++等が想定されます</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI・エッジ向け技術</strong>：車載・産業向けのAI・エッジ推論に関わる領域です。一般にPython等が想定されます</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な開発言語・EDAツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
@@ -263,7 +263,7 @@ export default function RenesasCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・半導体領域に強く、技術面接対策のサポートも受けられます。" },
-              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化です。半導体・大手メーカーの専門職スカウトが届きやすいです。" },
+              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。半導体・大手メーカーの専門職スカウトが届きやすいです。" },
               { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。半導体・メーカーの求人を幅広くカバーします。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

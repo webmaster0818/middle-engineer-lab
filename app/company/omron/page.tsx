@@ -99,7 +99,7 @@ export default function OmronCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】オムロンの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（オムロン株式会社単体）の平均年間給与は820万円です（2025年3月期 有価証券報告書・全従業員平均、平均年齢44.5歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 820万円です（2025年3月期 有価証券報告書・提出会社単体／全従業員平均）。技術職に限定した値ではありません。</li><li>・推移は2021年3月期803万円→2022年3月期849万円→2023年3月期898万円→2024年3月期873万円→2025年3月期820万円と変動しています（各期 有価証券報告書）。</li><li>・職種・等級別の公式レンジは非公表です。提示額は職種・等級・実績で個別決定されるため、求人票・面談での確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 820万円です（2025年3月期 有価証券報告書・提出会社単体／全従業員平均）。技術職に限定した値ではありません。</li><li>・推移は2021年3月期803万円→2022年3月期849万円→2023年3月期898万円→2024年3月期873万円→2025年3月期820万円と変動します（各期 有価証券報告書）。</li><li>・職種・等級別の公式レンジは非公表です。提示額は職種・等級・実績で個別決定されるため、求人票・面談での確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -184,9 +184,9 @@ export default function OmronCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>FA制御機器の組込ソフトウェア</strong>：PLC・センサ・制御機器を動かす組込開発領域です。一般にC/C++等が想定されます</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>制御アルゴリズム・モーション制御</strong>：高精度な機器制御に関わるアルゴリズム領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>制御アルゴリズム・モーション制御</strong>：高精度な機器制御に関わるアルゴリズム領域です</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>画像処理・AI</strong>：検査・制御に用いる画像処理／機械学習領域です。一般にC++/Python等が想定されます</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ヘルスケア機器の組込</strong>：血圧計などのヘルスケア機器に関わる組込開発領域</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ヘルスケア機器の組込</strong>：血圧計などのヘルスケア機器に関わる組込開発領域です</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
             </ul>
           </div>
@@ -263,7 +263,7 @@ export default function OmronCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・制御領域に強く、技術面接対策のサポートも受けられます。" },
-              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化です。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" },
+              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" },
               { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

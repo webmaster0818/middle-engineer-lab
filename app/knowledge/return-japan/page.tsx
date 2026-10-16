@@ -58,7 +58,7 @@ export default function ReturnJapanPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】海外からの帰国転職はいつ帰るのが正解？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 内定が確定してから帰国するのが鉄則です。多くの企業がリモート面接に対応しているため、渡航前にオンラインで内定まで進めれば、無収入の空白期間や焦りによる妥協を避けられます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・リモート面接は、時差を踏まえた日程設計・通信環境の事前テスト・要点先出しの伝え方が基本</li><li>・海外経験は「海外にいた」ことではなく、日本でどう活かせるかを行動と結果で語ります</li><li>・年収は月給ベースではなく、賞与込みの年間総額で比較します</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・リモート面接は、時差を踏まえた日程設計・通信環境の事前テスト・要点先出しの伝え方が基本です</li><li>・海外経験は「海外にいた」ことではなく、日本でどう活かせるかを行動と結果で語ります</li><li>・年収は月給ベースではなく、賞与込みの年間総額で比較します</li></ul>
           </div>
         </section>
 
@@ -80,7 +80,7 @@ export default function ReturnJapanPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">帰国転職で最も避けたいのは「先に帰国してから無収入で活動する」状態です。次の3点を押さえれば、リスクを抑えて進められます。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>1. <strong>オンラインで内定まで進めます</strong>。多くの企業がリモート面接に対応</li>
+              <li>1. <strong>オンラインで内定まで進めます</strong>。多くの企業がリモート面接に対応しています</li>
               <li>2. <strong>帰国は内定確定後です</strong>。空白期間と焦りによる妥協を避けます</li>
               <li>3. <strong>海外経験は「日本でどう活かせるか」に翻訳して語ります</strong></li>
             </ul>
@@ -124,7 +124,7 @@ export default function ReturnJapanPage() {
               <p className="text-xs font-bold text-red-500 mb-1">✕ Before（抽象的で伝わらない）</p>
               <p className="text-sm text-slate-600 mb-3">「海外の企業でエンジニアとして英語環境で働いていました。」</p>
               <p className="text-xs font-bold text-green-600 mb-1">✓ After（行動と結果で示す）</p>
-              <p className="text-sm text-slate-700">「5か国のメンバーで構成されるチームで、英語のドキュメントとレビューを通じてマイクロサービスの設計を主導。リリースサイクルを□□に短縮しました。日本拠点と海外拠点の橋渡し役を担える点が強みです。」</p>
+              <p className="text-sm text-slate-700">「5か国のメンバーで構成されるチームで、英語のドキュメントとレビューを通じてマイクロサービスの設計を主導します。リリースサイクルを□□に短縮しました。日本拠点と海外拠点の橋渡し役を担える点が強みです。」</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <p className="text-xs font-bold text-red-500 mb-1">✕ Before</p>

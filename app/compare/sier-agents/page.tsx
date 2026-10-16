@@ -47,7 +47,7 @@ export default function SierAgentsPage() {
 
   return (
     <>
-      <ArticleJsonLd title="SIer転職エージェントおすすめ｜転職と脱出で選び方が違う" description="SIerへの転職とSIerからの脱出で異なるエージェント選びを、SIerの4分類・2つの意図の切り分けとともに解説します。" url="/compare/sier-agents/" />
+      <ArticleJsonLd title="SIer転職エージェントおすすめ｜転職と脱出で選び方が違います" description="SIerへの転職とSIerからの脱出で異なるエージェント選びを、SIerの4分類・2つの意図の切り分けとともに解説します。" url="/compare/sier-agents/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "SIer転職エージェント" }]} />
 
@@ -134,8 +134,8 @@ export default function SierAgentsPage() {
             <p className="mb-2">エージェント選びで名前が似たサービスを混同しないよう、整理しておきます。</p>
             <ul className="space-y-1.5 list-disc pl-5">
               <li><strong>クラウドリンク ＝ 現「アイデアキャリア／AIdea Career」</strong>（2026年4月社名変更）。新旧の名前が併存するため注意してください。自社内開発求人100%が特徴です。</li>
-              <li><strong>レバテックキャリア（IT特化の正社員転職エージェント）≠ レバテックフリーランスです（業務委託案件の紹介）</strong>。SIer脱出で正社員転職を狙うなら前者です。</li>
-              <li><strong>リクルートエージェント（担当が提案するエージェント型）≠ リクルートダイレクトスカウトです（スカウトを待つハイクラス型）</strong>。役割が異なります。</li>
+              <li><strong>レバテックキャリア（IT特化の正社員転職エージェント）≠ レバテックフリーランス（業務委託案件の紹介）です</strong>。SIer脱出で正社員転職を狙うなら前者です。</li>
+              <li><strong>リクルートエージェント（担当が提案するエージェント型）≠ リクルートダイレクトスカウト（スカウトを待つハイクラス型）です</strong>。役割が異なります。</li>
             </ul>
           </div>
         </section>

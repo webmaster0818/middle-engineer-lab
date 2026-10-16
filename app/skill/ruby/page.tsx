@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/ruby/" },
   title: "Rubyエンジニアの転職ガイド｜言語の年収・求人・将来性【2026年】",
   description:
-    "プログラミング言語Rubyエンジニアの転職市場を出典付きで解説。paiza調査で提示年収3位のRubyの市場価値、スタートアップ・自社開発での需要、求人の探し方、30代・40代の進め方を整理します。フレームワークの詳細はRuby on Railsガイドも参照します。",
+    "プログラミング言語Rubyエンジニアの転職市場を出典を明記して解説します。paiza調査で提示年収3位のRubyの市場価値、スタートアップ・自社開発での需要、求人の探し方、30代・40代の進め方を整理します。フレームワークの詳細はRuby on Railsガイドも参照します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function RubySkillPage() {
     <>
       <ArticleJsonLd
         title="Ruby on Railsエンジニアの転職ガイド｜年収・求人・将来性"
-        description="Ruby on Railsエンジニアの転職市場を出典付きで解説。paiza調査で提示年収3位のRubyの市場価値、スタートアップ・自社開発での需要、求人の探し方、30代・40代の進め方を整理します。"
+        description="Ruby on Railsエンジニアの転職市場を出典を明記して解説します。paiza調査で提示年収3位のRubyの市場価値、スタートアップ・自社開発での需要、求人の探し方、30代・40代の進め方を整理します。"
         url="/skill/ruby/"
       />
       <script

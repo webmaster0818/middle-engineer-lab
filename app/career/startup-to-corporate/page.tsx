@@ -50,14 +50,14 @@ const gapRows = [
   },
   {
     axis: "意思決定",
-    startup: "現場裁量が大きい",
+    startup: "現場裁量が大きいです",
     corp: "承認プロセスがあり合議的",
     gap: "大",
   },
   {
     axis: "そのまま活きる力",
     startup: "0→1構築・自走力・横断的な技術経験",
-    corp: "DX推進・新規事業部門で重宝される",
+    corp: "DX推進・新規事業部門で重宝されます",
     gap: "活用",
   },
   {
@@ -321,13 +321,13 @@ export default function StartupToCorporatePage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（幅広さの羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                スタートアップにてフロントからインフラまで幅広く担当します。少人数チームで開発・運用を兼任し、必要に応じてあらゆる業務に対応しました。
+                スタートアップにてフロントからインフラまで幅広く担当。少人数チームで開発・運用を兼任し、必要に応じてあらゆる業務に対応しました。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（課題→打ち手→定量成果＋再現性）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                急成長に伴う負荷増大という課題に対し、ボトルネックを分析のうえキャッシュ戦略とインフラ構成を再設計し、レスポンスとコストを改善します。0→1のサービス立ち上げを技術選定から主導しました。属人化していた運用を手順化・ドキュメント化し、再現性のある形で他メンバーに展開しました。
+                急成長に伴う負荷増大という課題に対し、ボトルネックを分析のうえキャッシュ戦略とインフラ構成を再設計し、レスポンスとコストを改善。0→1のサービス立ち上げを技術選定から主導しました。属人化していた運用を手順化・ドキュメント化し、再現性のある形で他メンバーに展開しました。
               </p>
             </div>
           </div>

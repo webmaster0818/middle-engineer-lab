@@ -85,7 +85,7 @@ export default function FastRetailingCompanyPage() {
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（事業会社のDXをリードできる経験者向け）</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・中核は<strong>「情報製造小売業」への変革です</strong>。EC・サプライチェーン・店舗システムを横断するデジタル変革をビジネスとともにリードできる人に向きます。</li>
-              <li>・有価証券報告書の平均年収は約1,251万円（2025年8月期・単体）だが、これは<strong>店舗社員を含む全社員平均</strong>でありエンジニア単独ではない点に強く留意です。IT職は公式に<strong>580〜1,300万円</strong>のレンジ提示例です。</li>
+              <li>・有価証券報告書の平均年収は約1,251万円（2025年8月期・単体）ですが、これは<strong>店舗社員を含む全社員平均</strong>であり、エンジニア単独の数値ではない点に留意が必要です。IT職は公式に<strong>580〜1,300万円</strong>のレンジ提示例があります。</li>
               <li>・グローバル展開を前提とした<strong>大規模システム</strong>に関われます。ベンダー任せでなく事業会社の内側でDXを推進したい人に魅力です。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">逆に、純粋な技術特化で最新スタックの探求のみを望む人や、平均1,251万円をそのままエンジニアの想定年収と捉えてしまう人は、実態とのギャップに注意が必要です。</p>
@@ -156,8 +156,8 @@ export default function FastRetailingCompanyPage() {
           <ol className="space-y-3">
             {[
               ["STEP 1", "書類選考", "公式採用ページまたはエージェント経由で応募します。職務経歴・実績を確認します。"],
-              ["STEP 2", "面接（複数回）", "技術面・ビジネス理解・カルチャーフィットを含む複数回が想定されます。回数・形式は職種・時期で変動しています。"],
-              ["STEP 3", "内定", "条件提示です。具体的な選考期間は公式に明示されていません。"],
+              ["STEP 2", "面接（複数回）", "技術面・ビジネス理解・カルチャーフィットを含む複数回が想定されます。回数・形式は職種・時期で変動します。"],
+              ["STEP 3", "内定", "条件が提示されます。具体的な選考期間は公式に明示されていません。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -205,16 +205,16 @@ export default function FastRetailingCompanyPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>EC・SCM・店舗・クラウドの大規模システム経験者</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>事業会社の内側からDXをリードしたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>グローバル・大規模なビジネスに挑戦したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>技術とビジネスの両面で価値を出せます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>技術とビジネスの両面で価値を出せる</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>純粋な技術探求・最新スタックのみを志向します</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>純粋な技術探求・最新スタックのみを志向する</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>変化のスピードや業務強度を避けたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>平均1,251万円をエンジニア想定年収と誤解しています</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>ビジネス・組織への関与を負担に感じます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>平均1,251万円をエンジニア想定年収と誤解している</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>ビジネス・組織への関与を負担に感じる</li>
               </ul>
             </div>
           </div>

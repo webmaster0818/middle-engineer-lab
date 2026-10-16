@@ -365,7 +365,7 @@ export default function KobeAreaPage() {
                 <li>✓ 製造業・医療・研究機関のDXに関わりたい</li>
                 <li>✓ 業務知識とITスキルを掛け合わせたい</li>
                 <li>✓ 神戸に住みながら大阪求人も視野に入れたい</li>
-                <li>✓ 生活環境・QOLを重視しています</li>
+                <li>✓ 生活環境・QOLを重視している</li>
                 <li>✓ 腰を据えて専門性を磨きたい</li>
               </ul>
             </div>

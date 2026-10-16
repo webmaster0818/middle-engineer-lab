@@ -100,7 +100,7 @@ export default function CapcomCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】カプコンの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社カプコンの平均年間給与は985万円です（2026年3月期 有価証券報告書・提出会社単体／全社員平均、平均年齢38.1歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 985万円です（2026年3月期 有価証券報告書・単体全社員平均）。技術職に限らない全社平均です。</li><li>・業績連動型報酬を背景に2021年3月期603万円から2026年3月期985万円へと5年で380万円上昇です（各期 有価証券報告書）。</li><li>・持株会社を介さず上場会社自身が開発するため有価証券報告書の数字が現場像に比較的近い一方、提示は等級・ポジションで幅があり個別求人でご確認ください。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 985万円です（2026年3月期 有価証券報告書・単体全社員平均）。技術職に限らない全社平均です。</li><li>・業績連動型報酬を背景に2021年3月期603万円から2026年3月期985万円へと5年で380万円上昇しています（各期 有価証券報告書）。</li><li>・持株会社を介さず上場会社自身が開発するため有価証券報告書の数字が現場像に比較的近い一方、提示は等級・ポジションで幅があり個別求人でご確認ください。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -267,9 +267,9 @@ export default function CapcomCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">カプコン転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。ゲーム企業の求人も扱い、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。ゲーム業界の実務経験者への提案に強いです。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。ゲーム企業の求人も扱い、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。ゲーム業界の実務経験者への提案に強いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

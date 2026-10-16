@@ -59,7 +59,7 @@ const overviewTable = [
   ["試験形式", "65問（択一選択／複数選択）"],
   ["試験時間", "130分"],
   ["合格基準", "100〜1,000のスケールスコアで720以上"],
-  ["合格率", "AWSは合格率を公表していない"],
+  ["合格率", "AWSは合格率を公表していません"],
   ["有効期限", "3年（再認定が必要）"],
 ];
 
@@ -132,7 +132,7 @@ export default function CertAwsDvaPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>開発実務のある30〜40代</strong>：クラウドで動くものを作れることを証明し、開発職で加点されます</li>
-              <li>② <strong>開発未経験のミドル</strong>：資格だけで開発実務は埋めにくいです。成果物とセットが必要</li>
+              <li>② <strong>開発未経験のミドル</strong>：資格だけで開発実務は埋めにくいです。成果物とセットが必要です</li>
               <li>③ <strong>有効期限3年</strong>：再認定が必要で、取りっぱなしにはできません</li>
             </ul>
           </div>
@@ -166,8 +166,8 @@ export default function CertAwsDvaPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "AWSのサービスによる開発", d: "Lambda・API Gateway・DynamoDBなどを用いたアプリケーション開発とイベント駆動の実装です。" },
-              { t: "セキュリティ", d: "IAM・認証認可、暗号化、機密情報の管理など、アプリのセキュアな実装です。" },
+              { t: "AWSのサービスによる開発", d: "Lambda・API Gateway・DynamoDBなどを用いたアプリケーション開発とイベント駆動の実装。" },
+              { t: "セキュリティ", d: "IAM・認証認可、暗号化、機密情報の管理など、アプリのセキュアな実装。" },
               { t: "デプロイ", d: "CI/CDやデプロイ戦略、コンテナ・サーバーレスのデプロイ手法です。" },
               { t: "トラブルシューティングと最適化", d: "ログ・モニタリングによる障害切り分けと、パフォーマンス・コストの最適化です。" },
             ].map((x, i) => (
@@ -227,7 +227,7 @@ export default function CertAwsDvaPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "クラウドアプリケーション開発者", d: "AWS上で動くアプリを設計・実装です。サーバーレス・コンテナ開発の知識が直接活きます。" },
+              { t: "クラウドアプリケーション開発者", d: "AWS上で動くアプリを設計・実装します。サーバーレス・コンテナ開発の知識が直接活きます。" },
               { t: "バックエンドエンジニア（クラウド寄り）", d: "API・データストア・イベント駆動の実装で、AWSサービスの理解が要件を満たす土台になります。" },
               { t: "DevOps／プラットフォームエンジニア候補", d: "デプロイ・CI/CDの知識を入口に、運用自動化の領域へ広げていけます。" },
             ].map((x, i) => (
@@ -249,7 +249,7 @@ export default function CertAwsDvaPage() {
             {[
               { n: "STEP 1", t: "公式試験ガイドで範囲を把握", d: "開発・セキュリティ・デプロイ・トラブルシュートの4分野と対象サービスを公式ガイドで確認します。" },
               { n: "STEP 2", t: "無料利用枠で開発ハンズオン", d: "LambdaやDynamoDB、API Gatewayで小さなアプリを作り、デプロイまで手を動かします。" },
-              { n: "STEP 3", t: "合格→実務／上位資格へ", d: "合格後はクラウド開発の実務で深め、DevOpsや専門分野の認定へ横展開です。" },
+              { n: "STEP 3", t: "合格→実務／上位資格へ", d: "合格後はクラウド開発の実務で深め、DevOpsや専門分野の認定へ横展開。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -261,7 +261,7 @@ export default function CertAwsDvaPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            設計を広げるなら<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定SAA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-petrol hover:underline">AWS認定SOA</Link>、上流を目指すなら<Link href="/cert/aws-sap/" className="text-petrol hover:underline">AWS認定SAP（プロフェッショナル）</Link>へ。
+            設計を広げるなら<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定SAA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-petrol hover:underline">AWS認定SOA</Link>、上流を目指すなら<Link href="/cert/aws-sap/" className="text-petrol hover:underline">AWS認定SAP（プロフェッショナル）</Link>をご覧ください。
           </p>
         </section>
 

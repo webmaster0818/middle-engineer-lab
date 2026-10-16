@@ -28,8 +28,8 @@ const toc = [
 
 const comparison = [
   { item: "運営会社", green: "株式会社アトラエ（東証プライム上場・2003年10月設立／二次情報）", wantedly: "ウォンテッドリー株式会社（東証グロース上場）" },
-  { item: "サービス形態", green: "成功報酬型の転職サイトです（ダイレクトリクルーティング）。エージェントの仲介サポートはなし", wantedly: "共感軸の直接応募／ビジネスSNS（カジュアル面談前提）" },
-  { item: "給与・条件表示", green: "求人に給与・条件が記載される（通常の転職サイト型）", wantedly: "原則非記載（最大の特徴であり注意点）" },
+  { item: "サービス形態", green: "成功報酬型の転職サイト（ダイレクトリクルーティング）。エージェントの仲介サポートはなし", wantedly: "共感軸の直接応募／ビジネスSNS（カジュアル面談前提）" },
+  { item: "給与・条件表示", green: "求人に給与・条件が記載されます（通常の転職サイト型）", wantedly: "原則非記載（最大の特徴であり注意点）" },
   { item: "規模", green: "掲載企業9,000社以上／求人15,000件以上（媒体により30,000件以上とも・幅あり）", wantedly: "ユーザー400万人以上／利用企業4万社以上（二次情報）" },
   { item: "登録者", green: "120万人超（二次情報・幅あり）", wantedly: "400万人以上（二次情報）" },
   { item: "対応エリア", green: "全国（東京中心）", wantedly: "全国（東京中心）" },
@@ -50,12 +50,12 @@ const faqs = [
 ];
 
 const greenReviews = {
-  good: ["給与・条件を見て応募できる", "「気になる」機能で企業と直接つながれる", "IT/Webベンチャーの求人が豊富"],
-  bad: ["エージェントの仲介サポートがない", "条件交渉は自分で行う必要がある", "応募管理を自分で行う手間がある"],
+  good: ["給与・条件を見て応募できます", "「気になる」機能で企業と直接つながれます", "IT/Webベンチャーの求人が豊富"],
+  bad: ["エージェントの仲介サポートがない", "条件交渉は自分で行う必要があります", "応募管理を自分で行う手間があります"],
 };
 const wantedlyReviews = {
-  good: ["カジュアル面談で社風を知れる", "共感軸でマッチしやすい", "スタートアップとの接点が多い"],
-  bad: ["給与・待遇が原則非記載", "条件は面談で確認する必要がある", "自分で動く前提のサービス"],
+  good: ["カジュアル面談で社風を知れます", "共感軸でマッチしやすいです", "スタートアップとの接点が多いです"],
+  bad: ["給与・待遇が原則非記載", "条件は面談で確認する必要があります", "自分で動く前提のサービス"],
 };
 
 const relatedLinks = [
@@ -229,7 +229,7 @@ export default function GreenVsWantedlyPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">Greenが強い領域</h3>
               <div className="flex flex-wrap gap-2">
-                {["IT/Webベンチャー", "スタートアップ", "メガベンチャー", "給与・条件が見える", "「気になる」機能"].map((tag, i) => (
+                {["IT/Webベンチャー", "スタートアップ", "メガベンチャー", "給与・条件が見えます", "「気になる」機能"].map((tag, i) => (
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
@@ -289,18 +289,18 @@ export default function GreenVsWantedlyPage() {
                 <li>✓ 給与・条件を見て応募先を絞りたい</li>
                 <li>✓ IT/Webベンチャーに転職したい</li>
                 <li>✓ 企業と直接やり取りして進めたい</li>
-                <li>✓ 自分のペースで能動的に動けます</li>
+                <li>✓ 自分のペースで能動的に動ける</li>
                 <li>✓ ミスマッチを条件面から避けたい</li>
               </ul>
             </div>
             <div className="bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3">Wantedlyが向く人</h3>
               <ul className="space-y-2 text-sm text-green-700">
-                <li>✓ 社風・ビジョンへの共感を重視します</li>
+                <li>✓ 社風・ビジョンへの共感を重視する</li>
                 <li>✓ カジュアル面談から気軽に入りたい</li>
                 <li>✓ スタートアップとの接点を増やしたい</li>
                 <li>✓ まず話してから選考を判断したい</li>
-                <li>✓ 条件は面談で確認できます</li>
+                <li>✓ 条件は面談で確認できる</li>
               </ul>
             </div>
           </div>

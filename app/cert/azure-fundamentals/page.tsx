@@ -59,7 +59,7 @@ const overviewTable = [
   ["受験料", "99 USD（米国・監督付き受験。受験国・為替で変動）"],
   ["試験時間", "45分"],
   ["合格基準", "1,000点満点中700点以上"],
-  ["合格率", "Microsoftは合格率を公表していない"],
+  ["合格率", "Microsoftは合格率を公表していません"],
   ["更新", "Fundamentalsは毎年の更新義務なし（ポリシーは要確認）"],
 ];
 
@@ -131,7 +131,7 @@ export default function CertAzureFundamentalsPage() {
               AZ-900は<strong>入門資格</strong>です。Microsoft自身が『Azureキャリアの一般的な出発点』と位置づけており、転職の決め手というより<strong>「これからAzureを学ぶための土台と姿勢の証明」</strong>として捉えるのが実際のところです。経験者は上位資格の前段として活用するのが現実的です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>これからAzureを学ぶ人</strong>：全体像を短期間で体系的に押さえる入口として有効</li>
+              <li>① <strong>これからAzureを学ぶ人</strong>：全体像を短期間で体系的に押さえる入口として有効です</li>
               <li>② <strong>インフラ実務のあるミドル</strong>：AZ-900は基礎的すぎる場合があります。AZ-104を直接狙う選択も</li>
               <li>③ <strong>転職の決め手としては弱い</strong>：単体ではなく、上位資格・実務とセットで意味を持ちます</li>
             </ul>
@@ -166,9 +166,9 @@ export default function CertAzureFundamentalsPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "クラウドの概念について説明する", d: "クラウドコンピューティングの基礎、サービスモデル（IaaS/PaaS/SaaS）やメリットの理解です。" },
-              { t: "Azureのアーキテクチャとサービスについて説明する", d: "Compute・ネットワーク・Storageなど、Azureのコアサービスと構成要素の理解です。" },
-              { t: "Azureの管理とガバナンスについて説明する", d: "コスト管理、セキュリティ・コンプライアンス、ガバナンスのツールと機能の理解です。" },
+              { t: "クラウドの概念について説明します", d: "クラウドコンピューティングの基礎、サービスモデル（IaaS/PaaS/SaaS）やメリットの理解です。" },
+              { t: "Azureのアーキテクチャとサービスについて説明します", d: "Compute・ネットワーク・Storageなど、Azureのコアサービスと構成要素の理解です。" },
+              { t: "Azureの管理とガバナンスについて説明します", d: "コスト管理、セキュリティ・コンプライアンス、ガバナンスのツールと機能の理解です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -246,7 +246,7 @@ export default function CertAzureFundamentalsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "Microsoft Learnの無料教材で学ぶ", d: "公式の無料ラーニングパスで、クラウド概念・Azureサービス・ガバナンスの3分野を押さえます。" },
+              { n: "STEP 1", t: "Microsoft Learnの無料教材で学びます", d: "公式の無料ラーニングパスで、クラウド概念・Azureサービス・ガバナンスの3分野を押さえます。" },
               { n: "STEP 2", t: "公式の練習評価で確認", d: "Microsoft Learnの練習評価（プラクティス）で出題スタイルと理解度を確認します。" },
               { n: "STEP 3", t: "合格→AZ-104など上位へ", d: "全体像を掴んだら、ロールベース認定のAZ-104（Azure管理者）へ進み実装力を示します。" },
             ].map((x, i) => (

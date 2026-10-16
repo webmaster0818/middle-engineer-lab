@@ -270,7 +270,7 @@ export default function FutureCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">フューチャー転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。コンサル・SIer・事業会社まで幅広く、非公開求人も豊富です。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。コンサル・SIer・事業会社まで幅広く、非公開求人も豊富です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、ITコンサル領域のミドル・シニア支援に定評があります。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。ITコンサル・アーキテクトのハイクラス求人が集まりやすいです。" },
             ].map((agent, i) => (

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/rakus/" },
   title: "ラクスの年収は平均664万円【2026年・有報】エンジニア転職・技術スタック解説",
   description:
-    "ラクス（3923／楽楽精算・メールディーラー等）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収664万円(2026年3月期・全社員平均)、Java/PHP中心の技術スタック、選考フロー、口コミ傾向、30代40代の進め方まで。ラクスル(4384)とは別会社です。",
+    "ラクス（3923／楽楽精算・メールディーラー等）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収664万円(2026年3月期・全社員平均)、Java/PHP中心の技術スタック、選考フロー、口コミ傾向、30代40代の進め方までを解説します。ラクスル(4384)とは別会社です。",
 };
 
 const salaryTrend: [string, string, string][] = [
@@ -91,7 +91,7 @@ export default function RakusCompanyPage() {
     <>
       <ArticleJsonLd
         title="ラクス エンジニア転職ガイド"
-        description="ラクス（楽楽精算等）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収664万円(2026年3月期)、Java/PHP中心の技術スタック、選考フロー、口コミ傾向まで。"
+        description="ラクス（楽楽精算等）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収664万円(2026年3月期)、Java/PHP中心の技術スタック、選考フロー、口コミ傾向までを解説します。"
         url="/company/rakus/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -248,10 +248,10 @@ export default function RakusCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["カジュアル面談（任意）", "選考前にエンジニアや採用担当と話し、仕事内容や開発文化を知れる機会です。"],
+              ["カジュアル面談（任意）", "選考前にエンジニアや採用担当と話し、仕事内容や開発文化を知れる機会。"],
               ["エントリー（書類選考）", "募集ポジションから応募し書類を提出します。職務経歴・技術スタックが確認されます。"],
-              ["面接（複数回）", "現場エンジニア・マネージャー等との面接です。技術的な経験やチーム開発の進め方が確認されます。"],
-              ["内定（オファー）", "条件・制度の説明です。配属やミッションのすり合わせが行われます。"],
+              ["面接（複数回）", "現場エンジニア・マネージャー等との面接が行われます。技術的な経験やチーム開発の進め方が確認されます。"],
+              ["内定（オファー）", "条件・制度の説明を受けます。配属やミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -300,7 +300,7 @@ export default function RakusCompanyPage() {
               <ul className="space-y-1.5 text-sm text-amber-900">
                 <li>既存プロダクトの改善・運用が中心で、最先端技術の比重を期待する人には物足りない場合があります</li>
                 <li>組織拡大に伴う制度・体制の変化への適応が求められます</li>
-                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
+                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意が必要です</li>
               </ul>
             </div>
           </div>
@@ -331,7 +331,7 @@ export default function RakusCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。SaaS企業の非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
               { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイトです。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすいです。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、SaaS系企業への転職実績が豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、SaaS系企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

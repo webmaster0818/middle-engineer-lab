@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/taishokukin/" },
   title: "退職金制度がある企業へ転職【DC・退職金の見極め方2026】",
   description:
-    "退職金（退職一時金）と企業型DC（確定拠出年金）の違い、退職所得控除の仕組みを公的情報ベースで解説します。求人での見極め方、転職時のポータビリティ、老後資金設計まで。",
+    "退職金（退職一時金）と企業型DC（確定拠出年金）の違い、退職所得控除の仕組みを公的情報ベースで解説します。求人での見極め方、転職時のポータビリティ、老後資金設計までを解説します。",
 };
 
 const faqs = [
@@ -54,7 +54,7 @@ export default function TaishokukinPage() {
     <>
       <ArticleJsonLd
         title="退職金制度がある企業へ転職【DC・退職金の見極め方2026】"
-        description="退職金と企業型DCの違い、退職所得控除の仕組みを公的情報ベースで解説します。求人での見極め方、転職時のポータビリティ、老後資金設計まで。"
+        description="退職金と企業型DCの違い、退職所得控除の仕組みを公的情報ベースで解説します。求人での見極め方、転職時のポータビリティ、老後資金設計までを解説します。"
         url="/purpose/taishokukin/"
       />
       <script
@@ -144,7 +144,7 @@ export default function TaishokukinPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-2">
-            ※ 退職所得控除：勤続20年まで1年40万円、20年超は1年70万円が目安。控除後の2分の1に課税です（国税庁No.1420）。制度内容は改正され得ます。
+            ※ 退職所得控除：勤続20年まで1年40万円、20年超は1年70万円が目安。控除後の2分の1に課税されます（国税庁No.1420）。制度内容は改正され得ます。
           </p>
         </section>
 
@@ -181,7 +181,7 @@ export default function TaishokukinPage() {
               { type: "大手・上場企業／日系メーカー", point: "退職一時金＋企業型DCを併用する企業が多く、老後資産の柱になりやすいです。" },
               { type: "インフラ・金融・伝統的大企業", point: "勤続年数比例の手厚い退職一時金が残る傾向です。長期勤続でメリットが大きいです。" },
               { type: "メガベンチャー・上場後の企業", point: "企業型DCを中心に据え、退職一時金は持たない／前払い型のことがあります。" },
-              { type: "スタートアップ・小規模Web系", point: "退職金制度がない代わりに給与・SOで報いる設計が多いです。総報酬で比較を。" },
+              { type: "スタートアップ・小規模Web系", point: "退職金制度がない代わりに給与・SOで報いる設計が多いです。総報酬で比較してください。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>
@@ -236,7 +236,7 @@ export default function TaishokukinPage() {
       <TechgoCta
         heading="退職金が少ない会社から「年収の高い会社」へ"
         note="テックゴーは年収アップ成功率86%（2026年3月の内定承諾者・公式公表）を掲げるミドル向けIT特化エージェントです。面談は完全無料です。"
-        buttonText="無料キャリア面談を予約する（公式）"
+        buttonText="無料キャリア面談を予約します（公式）"
       />
 
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>

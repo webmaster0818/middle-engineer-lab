@@ -117,7 +117,7 @@ export default function ClassmethodCompanyPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：AWS等クラウドの構築・運用経験があり、資格取得や技術発信に前向きなエンジニア</li>
               <li>● <strong>向いていない人</strong>：自社単一プロダクトの開発に専念したい人、顧客折衝を避けたい人</li>
-              <li>● <strong>30代・40代</strong>：クラウドの実務×AWS認定の掛け合わせがあれば専門性を活かしやすいです</li>
+              <li>● <strong>30代・40代</strong>：クラウドの実務×AWS認定の掛け合わせがあれば専門性を活かしやすい</li>
             </ul>
           </div>
         </section>
@@ -246,8 +246,8 @@ export default function ClassmethodCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">クラスメソッド転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。クラウド・インフラ・SES／受託の求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。クラウド実務経験者への提案数が多いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。クラウド・インフラ・SES／受託の求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。クラウド実務経験者への提案数が多いです。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。クラウド・コンサル領域のハイクラス求人が集まりやすいです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

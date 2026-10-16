@@ -25,10 +25,10 @@ const toc = [
 ];
 
 const gapRows = [
-  { axis: "プログラミング", sales: "× 未経験です。ゼロからの習得が必要", engineer: "◎ 自走できる開発スキルが必須", gap: "特大" },
+  { axis: "プログラミング", sales: "× 未経験。ゼロからの習得が必要", engineer: "◎ 自走できる開発スキルが必須", gap: "特大" },
   { axis: "開発プロセス・ツール", sales: "× Git・テスト等に触れていない", engineer: "◎ チーム開発の作法が前提", gap: "大" },
-  { axis: "論理的思考・課題解決", sales: "○ 提案・課題発見で鍛えている", engineer: "◎ 設計・デバッグに流用できる", gap: "活用" },
-  { axis: "コミュニケーション・折衝", sales: "◎ 顧客折衝・調整が得意", engineer: "○ 要件定義・チーム連携で活きる", gap: "活用" },
+  { axis: "論理的思考・課題解決", sales: "○ 提案・課題発見で鍛えています", engineer: "◎ 設計・デバッグに流用できます", gap: "活用" },
+  { axis: "コミュニケーション・折衝", sales: "◎ 顧客折衝・調整が得意", engineer: "○ 要件定義・チーム連携で活きます", gap: "活用" },
   { axis: "ドメイン・業務知識", sales: "◎ 担当業界の業務理解が深い", engineer: "○ 業務システム開発で差別化要因に", gap: "活用" },
   { axis: "継続的な技術学習", sales: "△ 自走学習の習慣づけが必要", engineer: "◎ 学び続ける姿勢が前提", gap: "中" },
 ];
@@ -49,7 +49,7 @@ const migrationSteps = [
 
 const agents = [
   { name: "リクルートエージェント（IT）", point: "国内最大級の求人数です。未経験要素のある転職でも選択肢を広く確保でき、営業からのキャリアチェンジ相談にも対応しやすいです。", href: "/review/recruit-it/" },
-  { name: "レバテックキャリア", point: "IT/Web特化です。技術力を重視する求人が中心のため、ポートフォリオで自走力を示せるかが鍵です。要件のすり合わせに使えます。", href: "/review/levtech/" },
+  { name: "レバテックキャリア", point: "IT/Webに特化しています。技術力を重視する求人が中心のため、ポートフォリオで自走力を示せるかが鍵です。要件のすり合わせに使えます。", href: "/review/levtech/" },
   { name: "ビズリーチ", point: "ハイクラス・スカウト型です。技術営業（セールスエンジニア）など、営業経験＋技術を活かせるポジションのスカウトを受けられる可能性があります。", href: "/review/bizreach-it/" },
 ];
 
@@ -209,13 +209,13 @@ export default function SalesToEngineerPage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（営業実績のみ）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                法人向けにSaaSの新規開拓営業を担当します。担当エリアで予算を達成し、複数の大型契約を獲得します。顧客の課題ヒアリングから提案、クロージングまでを一貫して担当しました。
+                法人向けにSaaSの新規開拓営業を担当。担当エリアで予算を達成し、複数の大型契約を獲得。顧客の課題ヒアリングから提案、クロージングまでを一貫して担当しました。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（課題解決と自作成果物を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                法人営業で蓄積した顧客課題への理解をもとに、業務効率化のWebアプリを個人開発で構築します（認証・データ管理・デプロイまでをTypeScript/Next.jsで実装、GitHub公開）。営業で培ったヒアリング力を要件定義に、ドメイン知識を機能設計に活かしました。継続的に学習し、技術ブログでアウトプットを続けています。
+                法人営業で蓄積した顧客課題への理解をもとに、業務効率化のWebアプリを個人開発で構築（認証・データ管理・デプロイまでをTypeScript/Next.jsで実装、GitHub公開）。営業で培ったヒアリング力を要件定義に、ドメイン知識を機能設計に活かしました。継続的に学習し、技術ブログでアウトプットを続けています。
               </p>
             </div>
           </div>
@@ -251,7 +251,7 @@ export default function SalesToEngineerPage() {
         <section id="midage" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の現実と進め方</h2>
           <p className="text-slate-600 leading-relaxed mb-3">
-            ご説明すると、営業からエンジニアへの未経験転職は、30代・40代では年齢が上がるほど難度が上がります。企業はミドル層に即戦力や育成コストの低さを期待するため、ポテンシャル採用の枠は若手より狭くなるのが実情です。「なぜこの年齢で開発側に来るのか」という問いに、思いつきではない一貫した答えを用意できるかが分かれ目になります。
+            実際には、営業からエンジニアへの未経験転職は、30代・40代では年齢が上がるほど難度が上がります。企業はミドル層に即戦力や育成コストの低さを期待するため、ポテンシャル採用の枠は若手より狭くなるのが実情です。「なぜこの年齢で開発側に来るのか」という問いに、思いつきではない一貫した答えを用意できるかが分かれ目になります。
           </p>
           <p className="text-slate-600 leading-relaxed mb-3">
             だからこそ、ミドルの強みである「担当業界のドメイン知識」「顧客折衝力」「課題発見力」を技術と掛け合わせる戦略が現実的です。純粋な開発職に正面から挑むより、業務システム開発・社内SE・技術営業など、これまでの経験が差別化要因になる入口を選ぶと勝率が上がります。

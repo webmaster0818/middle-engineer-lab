@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/sansan/" },
   title: "Sansanの年収は平均780万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "Sansan（4443）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収780万円(2025年5月期)、Bill Oneの技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",
+    "Sansan（4443）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収780万円(2025年5月期)、Bill Oneの技術スタック、選考フロー、口コミ傾向、30代40代視点までを解説します。",
 };
 
 const toc = [
@@ -95,7 +95,7 @@ export default function SansanCompanyPage() {
     <>
       <ArticleJsonLd
         title="Sansan エンジニア転職ガイド"
-        description="Sansanへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収780万円(2025年5月期)、技術スタック、選考フロー、口コミ傾向まで。"
+        description="Sansanへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収780万円(2025年5月期)、技術スタック、選考フロー、口コミ傾向までを解説します。"
         url="/company/sansan/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -254,11 +254,11 @@ export default function SansanCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["カジュアル面談（任意）", "Sansanで働くことに興味がある人向けに随時実施です。活躍する人物像や働き方を確認できます。"],
+              ["カジュアル面談（任意）", "Sansanで働くことに興味がある人向けに随時実施します。活躍する人物像や働き方を確認できます。"],
               ["書類選考", "職務経歴を提出します。"],
               ["技術試験（ポジションにより実施）", "エンジニア職・クリエイター職はポジションによって技術試験を実施します。"],
-              ["面接（3回程度）", "基本1時間です。オンライン/来社を希望に合わせて調整可です。アーキテクチャ設計やコードレビューの議論、カルチャーフィットの確認が行われます。"],
-              ["内定", "選考期間は平均1ヶ月程度です（希望により調整可）。"],
+              ["面接（3回程度）", "基本1時間。オンライン/来社を希望に合わせて調整可。アーキテクチャ設計やコードレビューの議論、カルチャーフィットの確認が行われます。"],
+              ["内定", "選考期間は平均1ヶ月程度（希望により調整可）。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -338,7 +338,7 @@ export default function SansanCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。BtoB SaaS企業の求人に強く、書類添削・面接対策に定評があります。" },
               { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイトです。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすいです。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、BtoB SaaS企業への転職実績が豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、BtoB SaaS企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

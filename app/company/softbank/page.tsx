@@ -236,7 +236,7 @@ export default function SoftbankCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量です。大手通信・IT企業の求人を幅広く保有しています。検索とエージェントを併用できます。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化です。高年収求人比率が高く、AI・クラウドなど先端領域のエンジニア求人に強いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。高年収求人比率が高く、AI・クラウドなど先端領域のエンジニア求人に強いです。" },
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。AI・法人DXの上位ポジションのスカウトに出会いやすいです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

@@ -62,10 +62,10 @@ const salaryTable = [
 ];
 
 const certTable = [
-  ["クラウド（AWS）", "Solutions Architect Associate/Professional", "国内求人数が最多です。まず狙う中心"],
-  ["クラウド（Azure）", "Azure Administrator Associate など", "金融・大手・官公庁で評価されやすい"],
+  ["クラウド（AWS）", "Solutions Architect Associate/Professional", "国内求人数が最多。まず狙う中心"],
+  ["クラウド（Azure）", "Azure Administrator Associate など", "金融・大手・官公庁で評価されやすいです"],
   ["クラウド（GCP）", "Professional Cloud Architect", "データ分析・AI領域で需要"],
-  ["基礎（Linux）", "LinuC / LPIC", "OS・運用の基礎力を示す"],
+  ["基礎（Linux）", "LinuC / LPIC", "OS・運用の基礎力を示します"],
 ];
 
 export default function InfrastructureSkillPage() {
@@ -203,7 +203,7 @@ export default function InfrastructureSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "運用・構築層", d: "サーバー/ネットワーク/OSの構築・運用、監視、障害対応です。オンプレ経験はクラウド移行で活きます。" },
+              { t: "運用・構築層", d: "サーバー/ネットワーク/OSの構築・運用、監視、障害対応。オンプレ経験はクラウド移行で活きます。" },
               { t: "クラウド設計層", d: "AWS/Azure上での冗長化設計、IaC（Terraform/CloudFormation）、コンテナです（Docker/Kubernetes）。年収帯が一段上がります。" },
               { t: "アーキテクト/SRE層", d: "マルチクラウド設計、SLI/SLO、コスト最適化、セキュリティガバナンスです。Professional認定やコーディング力が後押し。" },
             ].map((x, i) => (
@@ -286,7 +286,7 @@ export default function InfrastructureSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方です</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>。
           </p>
         </section>
 
@@ -308,11 +308,11 @@ export default function InfrastructureSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ クラウド（まずAWS）を軸に、SAA → 実務 → Professional の順で積みます</li>
-            <li>✓ IaC（Terraform）を習得し、手作業からコード管理へ移行します</li>
+            <li>✓ クラウド（まずAWS）を軸に、SAA → 実務 → Professional の順で積む</li>
+            <li>✓ IaC（Terraform）を習得し、手作業からコード管理へ移行する</li>
             <li>✓ コンテナ（Docker/Kubernetes）とCI/CDで自動化スキルを上乗せ</li>
-            <li>✓ SRE方向ならGo/Pythonとオブザーバビリティを学びます</li>
-            <li>✓ 学んだことは小さな成果物にして可視化します</li>
+            <li>✓ SRE方向ならGo/Pythonとオブザーバビリティを学ぶ</li>
+            <li>✓ 学んだことは小さな成果物にして可視化する</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>をご参照ください。

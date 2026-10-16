@@ -30,9 +30,9 @@ const comparison = [
   { item: "サービス形態", a: "スカウト型＋求人掲載（Forkwell Jobs）＋ポートフォリオ＋コミュニティ", b: "IT/Web特化の紹介型エージェント（専任アドバイザーが伴走）" },
   { item: "動き方", a: "ポートフォリオを整えてスカウトを待つ・求人に自分で応募", b: "アドバイザーに希望を伝え、求人提案を受ける" },
   { item: "評価のものさし", a: "ポートフォリオと技術発信・コミュニティでの活動", b: "経歴書＋アドバイザーのヒアリング（企業への推薦文で補強）" },
-  { item: "規模感", a: "登録者 約59,000〜60,000人です（二次情報・時点要確認）。求人数は媒体間で数値が割れ確認不可", b: "公開求人 約5万件超（2026年5〜6月時点・複数転職メディア集計）" },
+  { item: "規模感", a: "登録者 約59,000〜60,000人（二次情報・時点要確認）。求人数は媒体間で数値が異なり確認不可", b: "公開求人 約5万件超（2026年5〜6月時点・複数転職メディア集計）" },
   { item: "年収の傾向", a: "Web自社開発の中〜上級ポジション中心", b: "公開求人の約8割が年収600万円以上（二次情報）" },
-  { item: "サポート", a: "基本は自走です。勉強会200本超のコミュニティ・学習文化", b: "書類添削・面接対策・年収交渉まで専任アドバイザーが伴走" },
+  { item: "サポート", a: "基本は自走。勉強会200本超のコミュニティ・学習文化", b: "書類添削・面接対策・年収交渉まで専任アドバイザーが伴走" },
   { item: "対応エリア", a: "首都圏集中", b: "首都圏中心（拠点都市の求人もあり）" },
   { item: "料金", a: "求職者は完全無料", b: "求職者は完全無料" },
 ];
@@ -49,14 +49,14 @@ const faqs = [
 const goodA = [
   "ポートフォリオや技術発信で評価されたい",
   "自分のペースで転職活動を進めたい（伴走は不要）",
-  "勉強会・コミュニティなど学習文化に共感する",
-  "Web自社開発の中〜上級ポジションを狙う",
-  "首都圏で腰を据えて活動できる",
+  "勉強会・コミュニティなど学習文化に共感します",
+  "Web自社開発の中〜上級ポジションを狙います",
+  "首都圏で腰を据えて活動できます",
 ];
 const goodB = [
-  "書類添削・面接対策・年収交渉まで支援してほしい",
+  "書類添削・面接対策・年収交渉まで支援してほしいです",
   "求人の選択肢をできるだけ広く見たい（公開約5万件超）",
-  "初めての転職・久しぶりの転職で進め方に不安がある",
+  "初めての転職・久しぶりの転職で進め方に不安があります",
   "年収600万円以上のレンジを狙いたい",
   "SIer→Web系などキャリアの壁打ちも相談したい",
 ];
@@ -94,7 +94,7 @@ export default function ForkwellVsLevtechPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・自走で評価されたいなら「Forkwell」</strong>。ポートフォリオと技術発信を軸に、厳選されたWeb自社開発企業からのスカウトを狙います。</li>
               <li><strong>・伴走してほしいなら「レバテックキャリア」</strong>。公開求人約5万件超(二次情報)の規模と、書類添削〜年収交渉までの支援が強みです。</li>
-              <li><strong>・迷うなら併用です</strong>。「待ちの接点(Forkwell)」と「攻めの提案(レバテック)」を同時に持てます。どちらも完全無料です。</li>
+              <li><strong>・迷う場合は併用をおすすめします</strong>。「待ちの接点(Forkwell)」と「攻めの提案(レバテック)」を同時に持てます。どちらも完全無料です。</li>
             </ul>
           </div>
         </section>
@@ -164,7 +164,7 @@ export default function ForkwellVsLevtechPage() {
 
         <section id="heiyo" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">併用のすすめ</h2>
-          <p className="text-slate-600 leading-relaxed mb-3">両者は競合ではなく補完関係です。Forkwellでポートフォリオを整えてスカウトの反応を見ながら、レバテックキャリアで求人提案と選考支援を受ける——「市場からの評価(待ち)」と「選択肢の拡張(攻め)」を並行できます。どちらも無料であるため、先に両方登録してから比重を決めるのが実務的です。</p>
+          <p className="text-slate-600 leading-relaxed mb-3">両者は競合ではなく補完関係です。Forkwellでポートフォリオを整えてスカウトの反応を見ながら、レバテックキャリアで求人提案と選考支援を受ける——「市場からの評価(受動型)」と「選択肢の拡張(能動型)」を並行できます。どちらも無料であるため、先に両方登録してから比重を決めるのが実務的です。</p>
         </section>
 
         <section id="middle" className="mb-12 scroll-mt-20">
@@ -185,8 +185,8 @@ export default function ForkwellVsLevtechPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">「待ち」と「攻め」の両輪で進めよう</h2>
-          <p className="text-blue-100 text-sm mb-4">Forkwellでポートフォリオ経由のスカウトを受けつつ、レバテックキャリアで提案と交渉支援を。どちらも無料の今、両方の反応を見て比重を決めるのが最短です。</p>
+          <h2 className="text-xl font-bold mb-3">スカウト型とエージェント型を併用する進め方</h2>
+          <p className="text-blue-100 text-sm mb-4">Forkwellでポートフォリオ経由のスカウトを受けつつ、レバテックキャリアで提案と交渉支援を受けます。どちらも無料の今、両方の反応を見て比重を決めるのが最短です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 

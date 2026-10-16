@@ -29,12 +29,12 @@ const toc = [
 const positions = [
   {
     role: "プロジェクトマネージャー（PM）",
-    note: "QCD（品質・コスト・納期）管理が中心です。求人母数が最も多い代表的な方法ポジションです。",
+    note: "QCD（品質・コスト・納期）管理が中心です。求人母数が最も多い代表的なポジションです。",
     demand: "高",
   },
   {
     role: "プロダクトマネージャー（PdM）",
-    note: "プロダクト戦略・ロードマップ・KPI設計です。SaaS/メガベンチャーで需要です。年収帯が高めです。",
+    note: "プロダクト戦略・ロードマップ・KPI設計。SaaS/メガベンチャーで需要があります。年収帯が高めです。",
     demand: "中〜高",
   },
   {
@@ -44,7 +44,7 @@ const positions = [
   },
   {
     role: "DX推進PM/コンサル型PM",
-    note: "事業会社のDX推進やコンサルでの変革リードです。業界知識×PM力が問われます。",
+    note: "事業会社のDX推進やコンサルでの変革リード。業界知識×PM力が問われます。",
     demand: "中〜高",
   },
 ];
@@ -155,7 +155,7 @@ export default function PmSkillPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① PMの年収は出典で幅があり、doda 707万円／レバテック568万円／doda X 891.5万円（いずれも近年）。IT職の中で高めの水準です。</li>
-              <li>② 評価軸は「規模・成果の定量実績」。職務経歴書で予算・人数・改善率を数字で示せるかで通過率が変わります。</li>
+              <li>② 評価軸は「規模・成果の定量実績」です。職務経歴書で予算・人数・改善率を数字で示せるかで通過率が変わります。</li>
               <li>③ 年収帯が高いためスカウト型（ビズリーチ）と相性が良いです。求人量の総合型・IT特化と併用するのが基本です。</li>
             </ul>
           </div>
@@ -202,9 +202,9 @@ export default function PmSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { lv: "PL〜若手PMで歓迎されやすい人", body: "数名規模のチーム/小〜中規模PJのリード経験、スケジュール・課題・品質管理の実務、開発現場との橋渡し経験します。" },
+              { lv: "PL〜若手PMで歓迎されやすい人", body: "数名規模のチーム/小〜中規模PJのリード経験、スケジュール・課題・品質管理の実務、開発現場との橋渡しの経験。" },
               { lv: "ミドル〜シニアPM要件", body: "中〜大規模PJの統括、予算・人員管理、ステークホルダー/経営層との折衝、リスク管理、炎上案件のリカバリ実績です。" },
-              { lv: "ハイクラス/PMO要件", body: "複数PJ横断のガバナンス、標準化推進、部門マネジメント、事業/経営視点でのPJポートフォリオ管理です。" },
+              { lv: "ハイクラス/PMO要件", body: "複数PJ横断のガバナンス、標準化推進、部門マネジメント、事業/経営視点でのPJポートフォリオ管理。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.lv}</h3>
@@ -289,7 +289,7 @@ export default function PmSkillPage() {
             {[
               { num: "1", title: "PL/サブリーダー経験をPMの言葉に翻訳する", desc: "公式な肩書きがなくても、進行管理・課題管理・調整を担ってきたなら、それをPM要件の用語（QCD管理・ステークホルダー調整・リスク管理）に置き換えて職務経歴書に書きます。" },
               { num: "2", title: "小〜中規模PJのPM求人から狙う", desc: "いきなり大規模PMを狙わず、数名〜十数名規模のPJを任せる求人から入り、実績を積んで規模を上げていくのが堅実です。" },
-              { num: "3", title: "技術力×調整力の掛け算で差別化する", desc: "開発出身であれば、技術判断ができるPMという希少性を前面に。エンジニア組織を持つ事業会社では特に評価されます。" },
+              { num: "3", title: "技術力×調整力の掛け算で差別化する", desc: "開発出身であれば、技術判断ができるPMという希少性を前面に出します。エンジニア組織を持つ事業会社では特に評価されます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -366,9 +366,9 @@ export default function PmSkillPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3 text-sm">PM転職が向いている人</h3>
               <ul className="space-y-2 text-sm text-green-800">
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>PJの規模・成果を数字で語れる実績があります</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ステークホルダー調整・リスク管理の経験があります</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>炎上案件のリカバリなど再現性のある経験を持ちます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>PJの規模・成果を数字で語れる実績がある</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ステークホルダー調整・リスク管理の経験がある</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>炎上案件のリカバリなど再現性のある経験を持つ</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>技術判断ができます（開発出身の強みを活かせる）</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>年収交渉を実績ベースで進めたい</li>
               </ul>
@@ -399,7 +399,7 @@ export default function PmSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">ビズリーチに見られる傾向</h3>
               <p className="text-sm text-slate-600">
-                ミライトーチ・morejob等の口コミでは「高年収求人が豊富」「スカウトでキャリアアップできた」「市場価値を客観的に把握できる」という声がある一方、「経歴次第でスカウトが来ない」「有料プラン前提との不満」も。PMの実績を具体的に書き込むほどスカウトの質が上がる傾向です。
+                ミライトーチ・morejob等の口コミでは「高年収求人が豊富」「スカウトでキャリアアップできた」「市場価値を客観的に把握できる」という声がある一方、「経歴次第でスカウトが来ない」「有料プラン前提との不満」もあります。PMの実績を具体的に書き込むほどスカウトの質が上がる傾向です。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">

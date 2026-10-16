@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/dts/" },
   title: "DTSの年収は平均658万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "株式会社DTS（9682）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年間給与658万円(2026年3月期 有価証券報告書・全社員平均)、Java/Python中心の独立系トータルSIerの技術領域、選考フロー、30代40代の進め方まで。",
+    "株式会社DTS（9682）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年間給与658万円(2026年3月期 有価証券報告書・全社員平均)、Java/Python中心の独立系トータルSIerの技術領域、選考フロー、30代40代の進め方までを解説します。",
 };
 
 const salaryTrend: [string, string, string][] = [
@@ -91,7 +91,7 @@ export default function DtsCompanyPage() {
     <>
       <ArticleJsonLd
         title="DTS エンジニア転職ガイド"
-        description="株式会社DTSへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収658万円(2026年3月期)、Java/Python中心の技術領域、選考フロー、口コミ傾向まで。"
+        description="株式会社DTSへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収658万円(2026年3月期)、Java/Python中心の技術領域、選考フロー、口コミ傾向までを解説します。"
         url="/company/dts/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -249,9 +249,9 @@ export default function DtsCompanyPage() {
           <ol className="space-y-3">
             {[
               ["エントリー（書類選考）", "募集ポジションから応募し書類を提出します。職務経歴・担当工程・開発経験が確認されます。"],
-              ["面接（複数回）", "現場・人事等との面接です。経験・技術・プロジェクト推進力が確認されます。"],
+              ["面接（複数回）", "現場・人事等との面接が行われます。経験・技術・プロジェクト推進力が確認されます。"],
               ["適性検査（ポジションによる）", "ポジションによっては適性検査が行われる場合があります。"],
-              ["内定（オファー）", "条件・配属の説明です。ミッションのすり合わせが行われます。"],
+              ["内定（オファー）", "条件・配属の説明を受けます。ミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -330,7 +330,7 @@ export default function DtsCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で求人が豊富です。SIerの非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、SIer・IT企業への転職実績が豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、SIer・IT企業への転職実績が豊富です。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高いSIer・専門職の求人に対応しています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

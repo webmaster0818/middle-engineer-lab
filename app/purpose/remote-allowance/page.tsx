@@ -90,10 +90,10 @@ export default function RemoteAllowancePage() {
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 在宅勤務の費用負担を会社に補助してほしいです</li>
-              <li>- リモート手当の相場感や課税の扱いを知りたい</li>
-              <li>- 手当の有無を求人で見極める方法を知りたい</li>
-              <li>- 通勤手当とのトレードオフを理解したい</li>
+              <li>- 在宅勤務の費用負担を会社に補助してほしいと考えています</li>
+              <li>- リモート手当の相場感や課税の扱いを知りたいと考えています</li>
+              <li>- 手当の有無を求人で見極める方法を知りたいと考えています</li>
+              <li>- 通勤手当とのトレードオフを理解したいと考えています</li>
             </ul>
           </div>
         </section>

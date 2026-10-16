@@ -35,8 +35,8 @@ const toc = [
 ];
 
 const basicData: [string, string][] = [
-  ["料金", "完全無料（登録〜キャリアカウンセリング〜求人紹介〜面接対策〜条件交渉〜入社後フォローまで。公式FAQ明記）"],
-  ["面談形式", "オンライン中心（Zoom・Google Meetなど。公式FAQです）。自宅から参加可能"],
+  ["料金", "完全無料（登録〜キャリアカウンセリング〜求人紹介〜面接対策〜条件交渉〜入社後フォローまで、公式FAQ明記）"],
+  ["面談形式", "オンライン中心（Zoom・Google Meetなど。公式FAQ）。自宅から参加可能"],
   ["実施時間帯", "平日のほか、平日夜間・土曜も実施（公式FAQ。日曜・対面の可否は明記なし）"],
   ["所要時間", "公式の明記なし。一般的な転職エージェントの初回面談は30分〜1時間程度が目安"],
   ["対象", "ITエンジニア経験者中心（SE・PG・社内SE・Web系・インフラ・データ/AI・PM/PL・QA）"],
@@ -203,7 +203,7 @@ export default function TechgoConsultation() {
           </div>
         </section>
 
-        <TechgoCta heading="無料キャリア面談を予約する（最短60秒・公式）" />
+        <TechgoCta heading="無料キャリア面談を予約します（最短60秒・公式）" />
 
         {/* 目次 */}
         <nav aria-label="目次" className="mb-10 border border-slate-200 rounded-xl p-5 bg-white">
@@ -307,7 +307,7 @@ export default function TechgoConsultation() {
         {/* 準備 */}
         <section id="prep" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">
-            面談前の準備（必須ではないが、やっておくと精度が上がる）
+            面談前の準備（必須ではありませんが、実施すると精度が上がります）
           </h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
             事前準備なしでも面談は受けられますが、次の4点を整理しておくと、限られた時間で得られる情報量が大きく変わります。
@@ -550,7 +550,7 @@ export default function TechgoConsultation() {
         </section>
 
         {/* 関連記事 */}
-        <TechgoCta heading="転職を決めていなくても相談OK（公式FAQ明記）" buttonText="テックゴーの無料キャリア面談を予約する（公式）" />
+        <TechgoCta heading="転職を決めていなくても相談OK（公式FAQ明記）" buttonText="テックゴーの無料キャリア面談を予約します（公式）" />
 
         <section>
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>

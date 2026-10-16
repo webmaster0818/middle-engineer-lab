@@ -82,8 +82,8 @@ export default function SalaryUpPage() {
               <li>- 現在の年収が市場相場より低いと感じています</li>
               <li>- 3年以上同じ会社で年収が停滞しています</li>
               <li>- スキルアップしたのに評価が年収に反映されません</li>
-              <li>- 年収600万円の壁、800万円の壁を突破したい</li>
-              <li>- 将来的に年収1,000万円を達成したい</li>
+              <li>- 年収600万円の壁、800万円の壁を突破したいと考えています</li>
+              <li>- 将来的に年収1,000万円を達成したいと考えています</li>
             </ul>
           </div>
         </section>
@@ -102,10 +102,10 @@ export default function SalaryUpPage() {
               </thead>
               <tbody>
                 {[
-                  { skill: "Go + AWS", salary: "600〜1,000万円", demand: "非常に高い", up: "+100〜200万円" },
+                  { skill: "Go + AWS", salary: "600〜1,000万円", demand: "非常に高いです", up: "+100〜200万円" },
                   { skill: "TypeScript + React", salary: "500〜850万円", demand: "高い", up: "+50〜150万円" },
-                  { skill: "Kubernetes + Terraform", salary: "600〜950万円", demand: "非常に高い", up: "+100〜200万円" },
-                  { skill: "Python + AI/ML", salary: "600〜1,200万円", demand: "非常に高い", up: "+150〜300万円" },
+                  { skill: "Kubernetes + Terraform", salary: "600〜950万円", demand: "非常に高いです", up: "+100〜200万円" },
+                  { skill: "Python + AI/ML", salary: "600〜1,200万円", demand: "非常に高いです", up: "+150〜300万円" },
                   { skill: "Rust", salary: "650〜1,100万円", demand: "高い", up: "+100〜250万円" },
                   { skill: "Java（Spring Boot）", salary: "500〜800万円", demand: "安定", up: "+50〜100万円" },
                 ].map((row, i) => (

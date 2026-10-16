@@ -25,7 +25,7 @@ const toc = [
 ];
 
 const gapRows = [
-  { axis: "SQL・データ抽出", analyst: "◎ 集計・可視化の主業務", scientist: "○ 前提スキルとして活きる", gap: "活用" },
+  { axis: "SQL・データ抽出", analyst: "◎ 集計・可視化の主業務", scientist: "○ 前提スキルとして活きます", gap: "活用" },
   { axis: "ビジネス課題の理解", analyst: "◎ 指標設計・示唆出しが得意", scientist: "◎ 課題を予測問題に翻訳する力に直結", gap: "活用" },
   { axis: "統計・数理", analyst: "○ 記述統計・基本的な検定", scientist: "◎ 推測統計・確率モデルの理解が必要", gap: "中" },
   { axis: "機械学習", analyst: "△ 触れる機会が限定的", scientist: "◎ モデル構築・評価・改善が中核", gap: "大" },
@@ -209,13 +209,13 @@ export default function DataAnalystToScientistPage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（集計・可視化の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                サービスの利用データをSQLで集計し、ダッシュボードを作成します。KPIの推移を可視化し、定例会議で報告します。施策のA/Bテスト結果を集計してレポートにまとめました。
+                サービスの利用データをSQLで集計し、ダッシュボードを作成。KPIの推移を可視化し、定例会議で報告します。施策のA/Bテスト結果を集計してレポートにまとめました。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（課題定義とモデルを主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                利用データの分析から離反リスクの高いユーザー群を特定する課題を設定し、個人開発としてPythonで離反予測モデルを構築します（前処理・特徴量設計・交差検証・評価指標まで実施）。ビジネス理解を活かして説明可能な特徴量を選定し、示唆を施策提案に接続しました。GitHubでコードを公開しています。
+                利用データの分析から離反リスクの高いユーザー群を特定する課題を設定し、個人開発としてPythonで離反予測モデルを構築（前処理・特徴量設計・交差検証・評価指標まで実施）。ビジネス理解を活かして説明可能な特徴量を選定し、示唆を施策提案に接続しました。GitHubでコードを公開します。
               </p>
             </div>
           </div>

@@ -127,7 +127,7 @@ export default function CertAwsPage() {
               AWS認定は当サイトの分類で<strong>「経験者加点資格」</strong>に位置づけられます。最も効くのは<strong>「オンプレ・インフラの実務 × AWS認定」</strong>の掛け算で、特に2〜3年の実務とセットで価値が出ます。資格単体で年収が上がる発想は禁物で、定番の注意点としてご説明します。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 資格だけでは年収は上がりにくいです。<strong>実務2-3年とセット</strong>が前提</li>
+              <li>① 資格だけでは年収は上がりにくいです。<strong>実務2-3年とセット</strong>が前提です</li>
               <li>② オンプレ／インフラ実務×AWSで<strong>クラウド移行案件</strong>に乗れます</li>
               <li>③ 有効期限<strong>3年です</strong>。再認定が必要で取りっぱなしにできません</li>
             </ul>
@@ -148,7 +148,7 @@ export default function CertAwsPage() {
               このページは「<strong>AWS認定資格を転職でどう活かすか</strong>」という資格起点の解説です。AWSエンジニアという<strong>職種そのもの</strong>の市場・キャリアパス・求人の探し方・参入ルートを知りたい方は、別記事で詳しく扱っています。
             </p>
             <p>
-              職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline font-medium">AWSエンジニア転職ガイド</Link>へ。隣接スキルは<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>・<Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform/IaC転職ガイド</Link>もご覧ください。
+              職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline font-medium">AWSエンジニア転職ガイド</Link>をご覧ください。隣接スキルは<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>・<Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform/IaC転職ガイド</Link>もご覧ください。
             </p>
           </div>
         </section>
@@ -235,7 +235,7 @@ export default function CertAwsPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "構築・運用層（実務1〜3年）", d: "EC2/VPC/S3/IAMの基本構成、監視・障害対応です。SAA保有が歓迎要件になりやすいです。" },
+              { t: "構築・運用層（実務1〜3年）", d: "EC2/VPC/S3/IAMの基本構成、監視・障害対応。SAA保有が歓迎要件になりやすいです。" },
               { t: "設計・自動化層（実務3〜6年）", d: "マルチアカウント設計、IaC、CI/CD、コンテナです。年収帯が一段上がる中核ゾーンです。" },
               { t: "アーキテクト/SRE層（実務6年以上）", d: "全体設計、コスト最適化、ガバナンスです。Professional認定が後押しになります。" },
             ].map((x, i) => (
@@ -276,7 +276,7 @@ export default function CertAwsPage() {
             {[
               { n: "STEP 1", t: "土台の確認＋CLF（任意）", d: "ネットワーク・Linux・OSの基礎を整理します。入口としてCloud Practitioner（CLF）で全体像を掴むのも有効です。" },
               { n: "STEP 2", t: "SAA取得＋ハンズオン", d: "SAAを取得し、無料利用枠でVPC/EC2/S3/IAMの小構成を自作します。" },
-              { n: "STEP 3", t: "成果物化＋移行ストーリー", d: "構成をIaC（Terraform/CDK）でコード化し公開しています。前職経験を移行ストーリーに落とします。" },
+              { n: "STEP 3", t: "成果物化＋移行ストーリー", d: "構成をIaC（Terraform/CDK）でコード化し公開します。前職経験を移行ストーリーに落とします。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

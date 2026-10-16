@@ -63,9 +63,9 @@ export default function SecondNewGradPage() {
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 入社1〜3年目で今の環境に不満があります</li>
-              <li>- SES/受託から自社開発に行きたい</li>
-              <li>- モダンな技術を使える環境に移りたい</li>
-              <li>- 年収をもっと上げたい</li>
+              <li>- SES/受託から自社開発に行きたいと考えています</li>
+              <li>- モダンな技術を使える環境に移りたいと考えています</li>
+              <li>- 年収をもっと上げたいと考えています</li>
             </ul>
           </div>
         </section>

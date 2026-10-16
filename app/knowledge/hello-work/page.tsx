@@ -129,8 +129,8 @@ export default function HelloWorkPage() {
               ハローワークの強みは「公的支援・職業訓練・地元求人・無料」です。一方、IT専門求人の量と質はIT特化型の転職サービスに分があります。エンジニアは、<strong>失業給付・職業訓練・地方求人の目的でハローワークを使い、求人探しはIT特化サービスで補う</strong>併用が現実的です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・失業給付や職業訓練の窓口としては必須</li>
-              <li>・IT専門求人は数・質ともに限られる傾向</li>
+              <li>・失業給付や職業訓練の窓口としては必須です</li>
+              <li>・IT専門求人は数・質ともに限られる傾向です</li>
               <li>・地方在住・公的支援を使いたい人ほど価値が高いです</li>
             </ul>
           </div>
@@ -152,9 +152,9 @@ export default function HelloWorkPage() {
             <div className="bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-2">メリット</h3>
               <ul className="text-sm text-green-700 space-y-1.5">
-                <li>・完全無料で利用できる</li>
+                <li>・完全無料で利用できます</li>
                 <li>・地元・地方の求人に強いです</li>
-                <li>・公的職業訓練（ハロートレーニング）と連携</li>
+                <li>・公的職業訓練（ハロートレーニング）と連携します</li>
                 <li>・失業給付の手続き窓口になります</li>
                 <li>・職業相談で客観的な助言が得られます</li>
               </ul>
@@ -166,7 +166,7 @@ export default function HelloWorkPage() {
                 <li>・求人の質にばらつきがあります</li>
                 <li>・モダンな技術環境・ハイクラス求人は少ないです</li>
                 <li>・技術に精通した相談員は限られます</li>
-                <li>・年収交渉や技術面接の対策は手薄</li>
+                <li>・年収交渉や技術面接の対策は手薄です</li>
               </ul>
             </div>
           </div>
@@ -182,9 +182,9 @@ export default function HelloWorkPage() {
           </p>
           <ul className="space-y-2 mb-4">
             {[
-              "雇用保険を受給できる人向けの「公共職業訓練」と、受給できない人向けの「求職者支援訓練」がある",
+              "雇用保険を受給できる人向けの「公共職業訓練」と、受給できない人向けの「求職者支援訓練」があります",
               "受講料は基本無料（テキスト代等は自己負担）",
-              "条件を満たすと訓練期間中も失業給付が支給され、給付制限が解除される場合がある",
+              "条件を満たすと訓練期間中も失業給付が支給され、給付制限が解除される場合があります",
               "コース内容・期間・選考は地域により異なるため、最寄りのハローワークで要確認",
             ].map((c) => (
               <li key={c} className="flex items-start gap-2 text-sm text-slate-700">
@@ -290,7 +290,7 @@ export default function HelloWorkPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">IT特化サービスと併用する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハローワークは給付・訓練の窓口に。求人の幅と技術マッチングはIT特化型エージェントで補うのが現実的です。
+            ハローワークは給付・訓練の窓口として活用します。求人の幅と技術マッチングはIT特化型エージェントで補うのが現実的です。
           </p>
           <Link
             href="/knowledge/how-to-choose/"

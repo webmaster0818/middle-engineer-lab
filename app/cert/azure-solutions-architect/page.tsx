@@ -170,7 +170,7 @@ export default function AzureArchitectCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・クラウドアーキテクト職は高単価傾向（<strong>実務・役割が主因</strong>）</li>
               <li>・AZ-305は<strong>設計力の客観的な裏づけ</strong>として機能する加点材</li>
-              <li>・実態：<strong>年収はAzureプロジェクト経験 × 資格の掛け算</strong>で決まります</li>
+              <li>・実態：<strong>年収はAzureプロジェクト経験 × 資格の掛け算</strong>で決まる</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -251,7 +251,7 @@ export default function AzureArchitectCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>。運用・構築の経験者が、設計・アーキテクトへ役割を広げたい局面で説得力を持ちます。第二に<strong>クラウド移行案件への適性証明です</strong>。事業継続・ガバナンスまで含めた全体設計の素養を示せます。第三に<strong>最新技術へのキャッチアップ証明です</strong>。有効期限と無料更新の仕組みにより、常に現行のAzure知識を保っていることを示せます。
+            活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>です。運用・構築の経験者が、設計・アーキテクトへ役割を広げたい局面で説得力を持ちます。第二に<strong>クラウド移行案件への適性証明です</strong>。事業継続・ガバナンスまで含めた全体設計の素養を示せます。第三に<strong>最新技術へのキャッチアップ証明です</strong>。有効期限と無料更新の仕組みにより、常に現行のAzure知識を保っていることを示せます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             注意すべきデメリットも押さえておきましょう。AZ-305は前提資格（AZ-104）が必要で<strong>学習コストが大きく、実務がないと取得後も活かしきれません</strong>。効果が出るのは「Azureプロジェクト経験 × 資格」が成立したときです。また有効期限があるため、取りっぱなしでは失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/skill/azure/" className="text-petrol hover:underline">Azure</Link>の運用経験を積んでから臨むのが堅実です。
@@ -279,7 +279,7 @@ export default function AzureArchitectCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "前提のAZ-104で運用基礎を固める", d: "Azure Administrator Associate（AZ-104）を取得し、運用・管理の土台を作ります。AZ-305の前提条件でもあります。" },
+              { n: "STEP 1", t: "前提のAZ-104で運用基礎を固めます", d: "Azure Administrator Associate（AZ-104）を取得し、運用・管理の土台を作ります。AZ-305の前提条件でもあります。" },
               { n: "STEP 2", t: "AZ-305で設計4領域を網羅", d: "ID/ガバナンス/監視、データストレージ、事業継続、インフラの4領域を、ケーススタディ形式に慣れながら対策します。" },
               { n: "STEP 3", t: "合格→実務で設計に関与し更新", d: "合格後は実プロジェクトで設計に関与し、有効期限前に無料更新評価で資格を維持します。" },
             ].map((x, i) => (

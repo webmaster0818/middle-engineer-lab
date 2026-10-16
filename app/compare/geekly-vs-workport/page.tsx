@@ -51,7 +51,7 @@ const comparison = [
   { item: "運営会社", a: "株式会社Geekly（2011年8月設立・渋谷区）", b: "株式会社ワークポート（2003年3月設立・従業員1,335名）" },
   { item: "公開求人数", a: "37,000件以上（2026年1月時点・二次集計）/非公開含め46,000件以上（2026年5月時点・二次）", b: "11万件以上（うちIT関連3万件以上・公式LP/二次）" },
   { item: "年収アップ実績", a: "年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報の公表値）", b: "統一された公表値は確認不可" },
-  { item: "得意領域", a: "IT/Web/ゲーム業界です。提案スピード", b: "IT全般＋未経験歓迎です。幅広い職種をカバー" },
+  { item: "得意領域", a: "IT/Web/ゲーム業界。提案スピード", b: "IT全般＋未経験歓迎。幅広い職種をカバー" },
   { item: "未経験対応", a: "実務経験者向けの提案が中心", b: "未経験歓迎求人も豊富" },
   { item: "対応エリア", a: "首都圏中心（二次情報）", b: "全国47都道府県57拠点" },
   { item: "対象年代", a: "20〜30代の経験者中心", b: "20代〜30代（幅広い)" },
@@ -256,7 +256,7 @@ export default function GeeklyVsWorkportPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">迷ったら両方登録がおすすめ</h2>
-          <p className="text-blue-100 text-sm mb-4">GeeklyのIT/Web特化の精度×ワークポートの全国対応・大量求人です。両方無料で取りこぼしのない転職活動を。</p>
+          <p className="text-blue-100 text-sm mb-4">GeeklyのIT/Web特化の精度×ワークポートの全国対応・大量求人です。両方無料で取りこぼしのない転職活動を進めることをおすすめします。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

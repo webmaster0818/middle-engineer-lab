@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/biprogy/" },
   title: "BIPROGY（旧日本ユニシス）の年収・給与は平均884万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "BIPROGY（旧日本ユニシス・8056）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年間給与884万円(2026年3月期 有価証券報告書・全社員平均)、Java/クラウド/DXを軸とする大手SIerの技術領域、選考フロー、30代40代の進め方まで。",
+    "BIPROGY（旧日本ユニシス・8056）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年間給与884万円(2026年3月期 有価証券報告書・全社員平均)、Java/クラウド/DXを軸とする大手SIerの技術領域、選考フロー、30代40代の進め方までを解説します。",
 };
 
 const salaryTrend: [string, string, string][] = [
@@ -91,7 +91,7 @@ export default function BiprogyCompanyPage() {
     <>
       <ArticleJsonLd
         title="BIPROGY（旧日本ユニシス） エンジニア転職ガイド"
-        description="BIPROGY（旧日本ユニシス）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収884万円(2026年3月期)、Java/クラウド/DXの技術領域、選考フロー、口コミ傾向まで。"
+        description="BIPROGY（旧日本ユニシス）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収884万円(2026年3月期)、Java/クラウド/DXの技術領域、選考フロー、口コミ傾向までを解説します。"
         url="/company/biprogy/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -249,9 +249,9 @@ export default function BiprogyCompanyPage() {
           <ol className="space-y-3">
             {[
               ["エントリー（書類選考）", "募集ポジションから応募し書類を提出します。職務経歴・担当工程・技術領域が確認されます。"],
-              ["面接（複数回）", "現場マネージャー・人事等との面接です。経験・技術・プロジェクト推進力が確認されます。"],
+              ["面接（複数回）", "現場マネージャー・人事等との面接が行われます。経験・技術・プロジェクト推進力が確認されます。"],
               ["適性検査（ポジションによる）", "ポジションによっては適性検査が行われる場合があります。"],
-              ["内定（オファー）", "条件・配属の説明です。ミッションのすり合わせが行われます。"],
+              ["内定（オファー）", "条件・配属の説明を受けます。ミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -298,9 +298,9 @@ export default function BiprogyCompanyPage() {
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 mb-2 text-sm">ネガティブ・注意したい傾向</h3>
               <ul className="space-y-1.5 text-sm text-amber-900">
-                <li>大規模組織ゆえの調整業務・意思決定スピードを挙げる声</li>
+                <li>大規模組織ゆえの調整業務・意思決定スピードを挙げる声があります</li>
                 <li>部署・プロジェクトによって働き方や使う技術に差があります</li>
-                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
+                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意が必要です</li>
               </ul>
             </div>
           </div>
@@ -331,7 +331,7 @@ export default function BiprogyCompanyPage() {
             {[
               { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。大手SIerの非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
               { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高い大手SIer・専門職の求人に対応しています。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、IT企業への転職実績が豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。提案スピードが強みで、IT企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -184,8 +184,8 @@ export default function CybozuCompanyPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Java/Go/TypeScript/Reactでの自社SaaS開発経験者</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>長寿プロダクトの刷新・モダン化に腰を据えて取り組みたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>多様な働き方・ライフイベントとの両立を重視します</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>オープンな技術発信・情報共有の文化を好みます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>多様な働き方・ライフイベントとの両立を重視する</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>オープンな技術発信・情報共有の文化を好む</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
@@ -193,8 +193,8 @@ export default function CybozuCompanyPage() {
               <ul className="space-y-2 text-sm text-rose-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>年収の最大化を最優先したい（全社員平均は突出して高くない）</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>レガシー資産との向き合いを避けたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>常に最新技術だけを触り続けたい志向が極端に強いです</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>開発の実務経験がなく未経験参入を狙います</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>常に最新技術だけを触り続けたい志向が極端に強い</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>開発の実務経験がなく未経験参入を狙う</li>
               </ul>
             </div>
           </div>
@@ -203,7 +203,7 @@ export default function CybozuCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">サイボウズ転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で自社開発SaaSの求人提案に強いです。技術面接対策のサポートも。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。自社開発企業の求人提案に強みがあります。提案スピードが速いです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。SaaS・自社開発の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で自社開発SaaSの求人提案に強いです。技術面接対策のサポートも受けられます。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。自社開発企業の求人提案に強みがあります。提案スピードが速いです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。SaaS・自社開発の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

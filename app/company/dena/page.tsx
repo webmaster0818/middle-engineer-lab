@@ -150,9 +150,9 @@ export default function DenaCompanyPage() {
           <ol className="space-y-3">
             {[
               ["STEP 1", "応募・書類選考", "公式採用サイトまたはエージェント経由で応募します。職務経歴書で経験を確認します。"],
-              ["STEP 2", "コーディングテスト", "オンラインで自宅受験です（所要約2時間とされる）。アルゴリズム・データ構造・数学的思考を評価します。"],
-              ["STEP 3", "技術面接（複数回）", "技術面接です（1回あたり約1時間とされる）。実務経験・設計力を深掘り。"],
-              ["STEP 4", "カルチャーフィット・内定", "価値観・カルチャーのフィットを確認のうえ条件提示です。"],
+              ["STEP 2", "コーディングテスト", "オンラインで自宅受験します（所要約2時間とされる）。アルゴリズム・データ構造・数学的思考を評価します。"],
+              ["STEP 3", "技術面接（複数回）", "技術面接（1回あたり約1時間とされる）。実務経験・設計力を深掘り。"],
+              ["STEP 4", "カルチャーフィット・内定", "価値観・カルチャーのフィットを確認のうえ条件提示。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -194,7 +194,7 @@ export default function DenaCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">DeNA転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でメガベンチャー求人に強いです。技術面接対策のサポートがあります。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界特化です。Web系・ゲーム系企業への提案が豊富です。" }, { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型サイトです。カジュアル面談で社風を把握しやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でメガベンチャー求人に強いです。技術面接対策のサポートがあります。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。Web系・ゲーム系企業への提案が豊富です。" }, { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型サイトです。カジュアル面談で社風を把握しやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">求人保有状況は時期により変動します。<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>もあわせて参照してください。</p>
         </section>

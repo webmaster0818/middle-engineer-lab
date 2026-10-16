@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Apache Kafkaスキルで転職｜年収・求人・将来性【2026年】";
 const PAGE_DESC =
-  "Apache Kafka（分散ストリーミング基盤）スキルを軸にした転職市場を出典付きで解説。Kafkaは単体スキルではなく大規模データ基盤・バックエンドの実務基盤として評価される点を整理します。求人ボックス公表のデータ／インフラエンジニア年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
+  "Apache Kafka（分散ストリーミング基盤）スキルを軸にした転職市場を出典付きで解説します。Kafkaは単体スキルではなく大規模データ基盤・バックエンドの実務基盤として評価される点を整理します。求人ボックス公表のデータ／インフラエンジニア年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/kafka/" },

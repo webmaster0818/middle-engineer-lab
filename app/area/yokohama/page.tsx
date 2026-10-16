@@ -162,7 +162,7 @@ export default function YokohamaAreaPage() {
             </h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
               <li>・<strong>東京通勤圏×県内拠点の二刀流です</strong>。みなとみらいなど横浜内のIT拠点と、東京企業へのリモート／通勤を組み合わせて選べます。</li>
-              <li>・<strong>製造×ITの領域に強み</strong>。自動車・電機など製造業の拠点が多く、組込み・制御・データ活用の求人を探しやすいです。</li>
+              <li>・<strong>製造×ITの領域に強みがあります</strong>。自動車・電機など製造業の拠点が多く、組込み・制御・データ活用の求人を探しやすいです。</li>
               <li>・<strong>職住近接とQOLを重視する層に向きます</strong>。都心の通勤ラッシュを避けつつ、首都圏の求人にアクセスできます。</li>
             </ul>
           </div>
@@ -208,7 +208,7 @@ export default function YokohamaAreaPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3">
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
-              <p className="text-sm text-slate-600"><strong>県内オフィス勤務:</strong> みなとみらい・新横浜・川崎などの拠点に通勤です。職住近接を実現しやすく、製造系・組込み系では出社が前提になりやすいです。</p>
+              <p className="text-sm text-slate-600"><strong>県内オフィス勤務:</strong> みなとみらい・新横浜・川崎などの拠点に通勤します。職住近接を実現しやすく、製造系・組込み系では出社が前提になりやすいです。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
@@ -239,7 +239,7 @@ export default function YokohamaAreaPage() {
               <ul className="space-y-2 text-sm text-slate-700">
                 <li>✓ 神奈川に生活基盤があり、東京の求人もあわせて狙いたい</li>
                 <li>✓ 都心の通勤ラッシュを避けつつ職住近接を実現したい</li>
-                <li>✓ 製造・自動車・電機など製造×ITの領域に関心があります</li>
+                <li>✓ 製造・自動車・電機など製造×ITの領域に関心がある</li>
                 <li>✓ みなとみらいなどの大手・拠点系で腰を据えて働きたい</li>
                 <li>✓ 東京企業のリモート求人と県内求人を両天秤にかけたい</li>
               </ul>

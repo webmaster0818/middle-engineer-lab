@@ -28,7 +28,7 @@ const gapRows = [
   {
     skill: "低レイヤ・ハードウェア理解",
     emb: "◎ メモリ・割込み・リアルタイム制御に精通",
-    web: "△ 直接は使わないが、性能設計で土台として活きます",
+    web: "△ 直接は使いませんが、性能設計で土台として活きます",
   },
   {
     skill: "Web開発言語・フレームワーク",
@@ -47,7 +47,7 @@ const gapRows = [
   },
   {
     skill: "品質・テストへの厳密さ",
-    emb: "◎ 安全性要求が高くテスト・検証文化が強い",
+    emb: "◎ 安全性要求が高くテスト・検証文化が強いです",
     web: "○ 強みとして活きます。テスト設計力は評価されます",
   },
   {
@@ -84,25 +84,25 @@ const transitionSteps = [
   {
     phase: "現職での準備（〜3ヶ月）",
     items: [
-      "TypeScriptまたはGoを選び、文法とプロジェクト構成を習得する",
-      "HTTP・REST API・DB・認証などWebの基本構造を体系的に押さえる",
-      "組込みで培った最適化・テスト・性能設計の経験を棚卸しする",
+      "TypeScriptまたはGoを選び、文法とプロジェクト構成を習得します",
+      "HTTP・REST API・DB・認証などWebの基本構造を体系的に押さえます",
+      "組込みで培った最適化・テスト・性能設計の経験を棚卸しします",
     ],
   },
   {
     phase: "ポートフォリオづくり（3〜6ヶ月）",
     items: [
-      "フロント・バック・デプロイまで一気通貫で動くWebアプリをGitHubで公開する",
-      "AWS/GCPへの実デプロイとDocker・CI/CDを個人開発で経験する",
-      "組込みの強み（最適化・品質）をWeb系の文脈に翻訳して整理する",
+      "フロント・バック・デプロイまで一気通貫で動くWebアプリをGitHubで公開します",
+      "AWS/GCPへの実デプロイとDocker・CI/CDを個人開発で経験します",
+      "組込みの強み（最適化・品質）をWeb系の文脈に翻訳して整理します",
     ],
   },
   {
     phase: "応募・面接フェーズ（6ヶ月〜）",
     items: [
-      "IT特化型エージェントに登録し、Web系求人の要件レベルをすり合わせる",
-      "ポートフォリオを軸に、未経験領域でも自走できる根拠を準備する",
-      "面接では低レイヤ理解・性能設計・品質文化を強みとして説明する",
+      "IT特化型エージェントに登録し、Web系求人の要件レベルをすり合わせます",
+      "ポートフォリオを軸に、未経験領域でも自走できる根拠を準備します",
+      "面接では低レイヤ理解・性能設計・品質文化を強みとして説明します",
     ],
   },
 ];
@@ -219,7 +219,7 @@ export default function EmbeddedToWebPage() {
               鍵になるのは、低レイヤの基礎力と品質文化をWeb系の強みに翻訳できるかどうかです。
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
-              <li>① ギャップになりやすいのは<strong>Web系言語・フレームワーク・クラウド・モダンな開発フロー</strong></li>
+              <li>① ギャップになりやすいのは<strong>Web系言語・フレームワーク・クラウド・モダンな開発フローです</strong></li>
               <li>② 一方で<strong>型・メモリ・性能の感覚と厳密なテスト文化</strong>は、バックエンドや基盤で強みになります</li>
               <li>③ 個人開発のWebアプリをGitHubで公開し、Web系でも自走できる根拠を示すことが成否を分けます</li>
             </ul>
@@ -314,13 +314,13 @@ export default function EmbeddedToWebPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（組込み用語の羅列になっている例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                車載機器のファームウェア開発をC言語で担当します。RTOS上での割込み処理、ドライバ実装、単体テストを行った。
+                車載機器のファームウェア開発をC言語で担当。RTOS上での割込み処理、ドライバ実装、単体テストを行った。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（Web系の価値に翻訳した例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                車載機器のファームウェアをC言語で開発します。限られたメモリ・CPU制約下で処理を最適化し、応答時間を◯%改善です。安全性要求の高い現場で、テスト設計と検証を徹底する品質文化を経験します。直近は個人開発でTypeScript＋Next.jsのWebアプリを構築し、AWSへのデプロイ・CI/CDまで自走で実装します（GitHubで公開）。低レイヤの理解と品質志向を、バックエンド・基盤の性能改善に活かすことを志向します。
+                車載機器のファームウェアをC言語で開発。限られたメモリ・CPU制約下で処理を最適化し、応答時間を◯%改善。安全性要求の高い現場で、テスト設計と検証を徹底する品質文化を経験。直近は個人開発でTypeScript＋Next.jsのWebアプリを構築し、AWSへのデプロイ・CI/CDまで自走で実装（GitHubで公開）。低レイヤの理解と品質志向を、バックエンド・基盤の性能改善に活かすことを志向します。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">

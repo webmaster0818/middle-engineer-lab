@@ -32,7 +32,7 @@ const toc = [
 const gapRows = [
   {
     axis: "役割の範囲",
-    corp: "専門領域が明確に分業されている",
+    corp: "専門領域が明確に分業されています",
     startup: "領域横断で何でも担当（フルスタック傾向）",
     gap: "大",
   },
@@ -51,13 +51,13 @@ const gapRows = [
   {
     axis: "技術スタック",
     corp: "既存資産・レガシー中心の場合も",
-    startup: "モダン構成・内製・自由度が高い",
+    startup: "モダン構成・内製・自由度が高いです",
     gap: "中",
   },
   {
     axis: "そのまま活きる力",
     corp: "大規模設計・運用・セキュリティ・品質管理",
-    startup: "成長フェーズで重宝される",
+    startup: "成長フェーズで重宝されます",
     gap: "活用",
   },
   {
@@ -243,7 +243,7 @@ export default function CorporateToStartupPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・設計・運用・セキュリティ・品質管理の経験は成長フェーズのスタートアップで重宝されます。</li>
               <li>・ギャップが大きいのは「役割の範囲」と「意思決定スピード」。横断的に自走できる動き方への転換が鍵です。</li>
-              <li>・年収は基本給とSOの内訳で総合判断です。SO条件は必ず書面で確認します。</li>
+              <li>・年収は基本給とSOの内訳で総合的に判断します。SO条件は必ず書面で確認します。</li>
             </ul>
           </div>
         </section>
@@ -321,13 +321,13 @@ export default function CorporateToStartupPage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（組織内の役割記述）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                大手SIerにて基幹システムの開発に従事しています。チームの一員として設計・実装・テスト工程を担当します。品質管理プロセスに沿って開発を進めました。
+                大手SIerにて基幹システムの開発に従事。チームの一員として設計・実装・テスト工程を担当。品質管理プロセスに沿って開発を進めました。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（主導した課題・横断的な動き・成果）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                基幹システムの障害多発という課題に対し、原因分析から再発防止策の設計までを主導します。インフラ・アプリ両面に踏み込み、監視とデプロイ手順を整備して運用負荷を低減します。大規模環境での品質・セキュリティ設計の知見を、少人数チームでも一人で回せる形に再構成できる点を強みとします。
+                基幹システムの障害多発という課題に対し、原因分析から再発防止策の設計までを主導。インフラ・アプリ両面に踏み込み、監視とデプロイ手順を整備して運用負荷を低減。大規模環境での品質・セキュリティ設計の知見を、少人数チームでも一人で回せる形に再構成できる点を強みとします。
               </p>
             </div>
           </div>

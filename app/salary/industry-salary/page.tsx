@@ -62,7 +62,7 @@ const industries: Industry[] = [
   },
   {
     key: "game", name: "ゲーム・エンタメ", avg: 884,
-    note: "ゲーム・出版・エンタメです。ヒット次第で変動はあるが、大手は高水準を維持します。",
+    note: "ゲーム・出版・エンタメです。ヒット次第で変動はありますが、大手は高水準を維持します。",
     companies: [
       { name: "バンダイナムコ", slug: "bandai-namco", salary: 1216 },
       { name: "任天堂", slug: "nintendo", salary: 966 },
@@ -76,7 +76,7 @@ const industries: Industry[] = [
   },
   {
     key: "web", name: "Web・ネット・SaaS", avg: 796,
-    note: "メガベンチャー〜SaaSスタートアップです。有価証券報告書は全社平均かつ平均年齢が若いため数値は中位に出るが、エンジニアの提示レンジ上限は高い傾向です。",
+    note: "メガベンチャーからSaaSスタートアップまでを含みます。有価証券報告書は全社平均かつ平均年齢が若いため数値は中位に出ますが、エンジニアの提示レンジ上限は高い傾向です。",
     companies: [
       { name: "メルカリ", slug: "mercari", salary: 1176 },
       { name: "リクルート", slug: "recruit", salary: 1145 },
@@ -163,7 +163,7 @@ export default function IndustrySalaryPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：各社有価証券報告書の平均年間給与（全従業員平均）。決算期は企業別ランキングに併記です。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：各社有価証券報告書の平均年間給与（全従業員平均）。決算期は企業別ランキングに併記しています。</p>
         </section>
 
         <section className="mb-10">
@@ -194,7 +194,7 @@ export default function IndustrySalaryPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-3">業界選びの読み方（3つのポイント）</h2>
           <ul className="list-disc pl-5 space-y-2 text-slate-600">
             <li><strong>有価証券報告書平均は「製造・インフラ系」が上位に出やすい</strong>：利益率と平均年齢の高さが効くため、半導体・電機・通信が上位です。安定して高年収を狙うならこの領域です。</li>
-            <li><strong>Web・SaaSは平均より「レンジ上限」で見る</strong>：平均年齢が若く有価証券報告書平均は中位だが、エンジニアの提示レンジ上限は高いです。スキル次第で大きく伸ばせます。</li>
+            <li><strong>Web・SaaSは平均より「レンジ上限」で見る</strong>：平均年齢が若く有価証券報告書平均は中位ですが、エンジニアの提示レンジ上限は高いです。スキル次第で大きく伸ばせます。</li>
             <li><strong>同じ業界でも企業差が大きい</strong>：例えば半導体ではキーエンス2,039万と他社で開きが大きいです。業界の傾向＋個社の数値の両方を見るのが実務的です。</li>
           </ul>
         </section>

@@ -59,9 +59,9 @@ const faqs = [
 ];
 
 const areas = [
-  { t: "① LLM開発・組込み", d: "OpenAI / Claude などのAPI連携、LangChainなどのフレームワーク、RAG（検索拡張生成）の設計・実装です。プロンプト設計と評価も含みます。" },
+  { t: "① LLM開発・組込み", d: "OpenAI / Claude などのAPI連携、LangChainなどのフレームワーク、RAG（検索拡張生成）の設計・実装。プロンプト設計と評価も含みます。" },
   { t: "② MLOps・AIインフラ", d: "LLMアプリを本番運用する基盤づくり。デプロイ、監視、コスト管理、推論の最適化、セキュリティです。クラウド（AWS/GCP/Azure）の知識が活きます。" },
-  { t: "③ AIエージェント設計", d: "ツール呼び出し・自律実行を組み合わせ、複数ステップのタスクを処理するエージェントの設計です。2026年に需要が伸びている領域です。" },
+  { t: "③ AIエージェント設計", d: "ツール呼び出し・自律実行を組み合わせ、複数ステップのタスクを処理するエージェントの設計。2026年に需要が伸びている領域です。" },
 ];
 
 export default function GenerativeAiSkillPage() {
@@ -193,7 +193,7 @@ export default function GenerativeAiSkillPage() {
             企業が生成AIを本格活用する際、最大の課題は「自社のデータに基づいて正確に答えさせること」です。これを解くのがRAG（検索拡張生成）で、2026年時点で特に求人ニーズが高い設計領域です。
           </p>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ <strong>ドキュメント設計</strong>：チャンク分割・メタデータ付与で検索精度を左右します</li>
+            <li>✓ <strong>ドキュメント設計</strong>：チャンク分割・メタデータ付与で検索精度を左右する</li>
             <li>✓ <strong>埋め込み・ベクトル検索</strong>：embedding選定とベクトルDB（検索基盤）の構築</li>
             <li>✓ <strong>評価・改善</strong>：回答の正確性をどう測り、継続的に改善するか</li>
             <li>✓ <strong>ハルシネーション対策</strong>：誤った断定を抑える仕組みづくり</li>
@@ -272,9 +272,9 @@ export default function GenerativeAiSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "Python＋LLM APIに慣れる", d: "Pythonの基礎を固め、OpenAI/Claude APIを叩いて簡単なチャットアプリを作ります。" },
-              { n: "STEP 2", t: "RAGを自作する", d: "社内文書を模したデータでRAGを実装し、ベクトル検索・チャンク設計を体験します。" },
-              { n: "STEP 3", t: "本番を意識した成果物に", d: "クラウドにデプロイし、評価・コスト・セキュリティを考慮した形にしてGitHubで公開しています。" },
+              { n: "STEP 1", t: "Python＋LLM APIに慣れます", d: "Pythonの基礎を固め、OpenAI/Claude APIを叩いて簡単なチャットアプリを作ります。" },
+              { n: "STEP 2", t: "RAGを自作します", d: "社内文書を模したデータでRAGを実装し、ベクトル検索・チャンク設計を体験します。" },
+              { n: "STEP 3", t: "本番を意識した成果物に", d: "クラウドにデプロイし、評価・コスト・セキュリティを考慮した形にしてGitHubで公開します。" },
               { n: "STEP 4", t: "ドメイン×LLMで応募", d: "前職の業務知識を活かした活用事例として職務経歴書・ポートフォリオに落とし込みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -287,7 +287,7 @@ export default function GenerativeAiSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>、<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続的な学習です</Link>。
+            関連: <Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>、<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続的な学習</Link>。
           </p>
         </section>
 

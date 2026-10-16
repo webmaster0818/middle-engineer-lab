@@ -32,9 +32,9 @@ const comparison = [
   { item: "運営会社", levtech: "レバテック株式会社（レバレジーズグループ・二次情報）", geekly: "株式会社Geekly（2011年8月設立・渋谷区／公式会社概要）" },
   { item: "公開求人数", levtech: "約5万件超（2026年6月時点・複数転職メディア集計）", geekly: "公開37,000件以上（2026年1月時点）／非公開含め46,000件以上（2026年5月時点・二次集計）" },
   { item: "対応エリア", levtech: "首都圏中心（二次情報）", geekly: "首都圏中心（二次情報）" },
-  { item: "得意領域", levtech: "IT/Web全般です。高年収求人比率が高い", geekly: "IT/Web/ゲーム業界に専門特化します。提案スピードが強み" },
+  { item: "得意領域", levtech: "IT/Web全般。高年収求人比率が高い", geekly: "IT/Web/ゲーム業界に専門特化します。提案スピードが強み" },
   { item: "年収アップ実績", levtech: "応募時年収との差70万円以上が3人に2人（2023年1月〜2024年3月実績）", geekly: "年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）" },
-  { item: "利用者層", levtech: "利用者の約80%が20〜30代（公式系）", geekly: "実務経験者への提案数が多い（二次情報）" },
+  { item: "利用者層", levtech: "利用者の約80%が20〜30代（公式系）", geekly: "実務経験者への提案数が多いです（二次情報）" },
   { item: "料金", levtech: "求職者無料", geekly: "求職者無料" },
 ];
 
@@ -50,11 +50,11 @@ const faqs = [
 ];
 
 const levtechReviews = {
-  good: ["書類添削・面接対策が丁寧", "LINEで連絡が完結する", "高年収求人が多い"],
-  bad: ["未経験者は紹介されにくい", "初回面談後の連絡が遅い場合がある", "希望と異なる求人提案の例"],
+  good: ["書類添削・面接対策が丁寧", "LINEで連絡が完結します", "高年収求人が多いです"],
+  bad: ["未経験者は紹介されにくいです", "初回面談後の連絡が遅い場合があります", "希望と異なる求人提案の例"],
 };
 const geeklyReviews = {
-  good: ["レスポンスが早い", "選考までスムーズ", "実務経験者への提案数が多い"],
+  good: ["レスポンスが早いです", "選考までスムーズ", "実務経験者への提案数が多いです"],
   bad: ["連絡がしつこい", "担当者の質にばらつき", "勝手に応募されたとの報告例"],
 };
 
@@ -262,7 +262,7 @@ export default function LevtechVsGeeklyPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">レバテックキャリアが強い領域</h3>
               <div className="flex flex-wrap gap-2">
-                {["Web系全般", "SIer", "社内SE", "インフラ", "高年収求人", "20〜30代の利用が多い"].map((tag, i) => (
+                {["Web系全般", "SIer", "社内SE", "インフラ", "高年収求人", "20〜30代の利用が多いです"].map((tag, i) => (
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
@@ -322,7 +322,7 @@ export default function LevtechVsGeeklyPage() {
               <h3 className="font-bold text-blue-800 mb-3">レバテックキャリアが向く人</h3>
               <ul className="space-y-2 text-sm text-petrol-deep">
                 <li>✓ IT/Web全般から幅広く求人を見たい</li>
-                <li>✓ SIer・社内SE・インフラも視野に入れています</li>
+                <li>✓ SIer・社内SE・インフラも視野に入れている</li>
                 <li>✓ 高年収帯（600万円以上）を狙いたい</li>
                 <li>✓ LINEで気軽にやり取りしたい</li>
                 <li>✓ 書類添削・面接対策をしっかり受けたい</li>
@@ -333,8 +333,8 @@ export default function LevtechVsGeeklyPage() {
               <ul className="space-y-2 text-sm text-green-700">
                 <li>✓ Web系・ゲーム業界に絞って転職したい</li>
                 <li>✓ スピード感を持って進めたい</li>
-                <li>✓ 実務経験を活かした提案が欲しいです</li>
-                <li>✓ ミスマッチの少なさを重視します</li>
+                <li>✓ 実務経験を活かした提案が欲しい</li>
+                <li>✓ ミスマッチの少なさを重視する</li>
                 <li>✓ 在職中で短期集中で動きたい</li>
               </ul>
             </div>

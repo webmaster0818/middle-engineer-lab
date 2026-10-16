@@ -59,7 +59,7 @@ const overviewTable = [
   ["受験料", "165 USDが目安（受験国・為替で変動）"],
   ["試験時間", "100分"],
   ["合格基準", "1,000点満点中700点以上"],
-  ["合格率", "Microsoftは合格率を公表していない"],
+  ["合格率", "Microsoftは合格率を公表していません"],
   ["更新", "原則12か月ごと（無料のオンライン評価で更新）"],
 ];
 
@@ -132,7 +132,7 @@ export default function CertAzureAdministratorPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>インフラ運用の実務がある30〜40代</strong>：Azureを運用できることを証明し、運用・基盤職で加点されます</li>
-              <li>② <strong>クラウド完全未経験のミドル</strong>：まずAZ-900で全体像を掴むとAZ-104の学習がスムーズ</li>
+              <li>② <strong>クラウド完全未経験のミドル</strong>：まずAZ-900で全体像を掴むとAZ-104の学習がスムーズです</li>
               <li>③ <strong>更新は12か月ごと</strong>：無料のオンライン評価で更新でき、知識の鮮度を保てます</li>
             </ul>
           </div>
@@ -166,11 +166,11 @@ export default function CertAzureAdministratorPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "Azure IDとガバナンスを管理する", d: "Microsoft Entra ID、ロール（RBAC）、サブスクリプション・ガバナンスの管理です。" },
+              { t: "Azure IDとガバナンスを管理します", d: "Microsoft Entra ID、ロール（RBAC）、サブスクリプション・ガバナンスの管理。" },
               { t: "ストレージの実装と管理", d: "ストレージアカウント、Blob・ファイル共有、アクセス制御とデータ保護です。" },
-              { t: "Azureの計算リソースを展開および管理する", d: "仮想マシン、コンテナ、App Serviceなどのコンピューティングの展開・運用です。" },
+              { t: "Azureの計算リソースを展開および管理します", d: "仮想マシン、コンテナ、App Serviceなどのコンピューティングの展開・運用。" },
               { t: "仮想ネットワークの実装と管理", d: "VNet、ロードバランサー、名前解決、ネットワークセキュリティの構成です。" },
-              { t: "Azureリソースの監視と保守", d: "Azure Monitor・バックアップ・復旧による、リソースの監視と継続性の確保です。" },
+              { t: "Azureリソースの監視と保守", d: "Azure Monitor・バックアップ・復旧による、リソースの監視と継続性の確保。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -248,7 +248,7 @@ export default function CertAzureAdministratorPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／前提と次の資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "前提知識を確認（任意でAZ-900）", d: "クラウドが初めてならAZ-900で全体像を先に把握します。実務経験者はそのままAZ-104へ。" },
+              { n: "STEP 1", t: "前提知識を確認（任意でAZ-900）", d: "クラウドが初めてならAZ-900で全体像を先に把握します。実務経験者はそのままAZ-104へ進みます。" },
               { n: "STEP 2", t: "Microsoft Learn＋ハンズオン", d: "公式の無料教材で5分野を学び、Azureポータル・PowerShell・CLIで実際に手を動かします。" },
               { n: "STEP 3", t: "合格→運用実務／上位資格へ", d: "合格後はAzure運用の実務で深め、AZ-305（ソリューションアーキテクト）など上位へ進みます。" },
             ].map((x, i) => (

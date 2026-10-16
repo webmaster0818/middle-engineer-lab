@@ -266,7 +266,7 @@ export default function ReskillingPage() {
               { num: "STEP 2", title: "使える補助金を確認する", desc: "経産省リスキリング支援事業・教育訓練給付の最新条件を公式・窓口で確認します。対象講座か、要件を満たすかをチェックします。" },
               { num: "STEP 3", title: "講座を選び、受講する", desc: "経験と地続きで、アウトプットに結びつく講座を選びます。修了要件・出席要件を守ります。" },
               { num: "STEP 4", title: "学びを成果物に変える", desc: "学んだことを個人開発・記事・OSSなど検証可能な形で残し、職務経歴書に反映します。" },
-              { num: "STEP 5", title: "転職活動・条件確認", desc: "追加支給に『転職して1年継続』などの条件が付く制度では、転職後の継続も見据えます。市場価値の確認も忘れずに。" },
+              { num: "STEP 5", title: "転職活動・条件確認", desc: "追加支給に『転職して1年継続』などの条件が付く制度では、転職後の継続も見据えます。市場価値の確認も忘れずに行います。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center px-3 h-8 rounded-full bg-emerald-600 text-white font-bold text-xs shrink-0">{item.num}</span>
@@ -278,7 +278,7 @@ export default function ReskillingPage() {
             ))}
           </div>
           <div className="bg-petrol-soft rounded-lg p-5 mt-5">
-            <p className="text-sm text-petrol-deep">関連: <Link href="/knowledge/self-analysis/" className="text-petrol-deep underline">自己分析の進め方</Link>、<Link href="/knowledge/market-value/" className="text-petrol-deep underline">市場価値の調べ方</Link>、<Link href="/knowledge/career-plan/" className="text-petrol-deep underline">キャリアプランの立て方です</Link>。</p>
+            <p className="text-sm text-petrol-deep">関連: <Link href="/knowledge/self-analysis/" className="text-petrol-deep underline">自己分析の進め方</Link>、<Link href="/knowledge/market-value/" className="text-petrol-deep underline">市場価値の調べ方</Link>、<Link href="/knowledge/career-plan/" className="text-petrol-deep underline">キャリアプランの立て方</Link>。</p>
           </div>
         </section>
 
@@ -287,10 +287,10 @@ export default function ReskillingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">7. ありがちな失敗パターン</h2>
           <div className="space-y-4">
             {[
-              { t: "資格コレクターになる", d: "資格取得自体が目的化し、実務で使える形になりません。資格は手段であって、アウトプットに結びつけてこそ評価されます。" },
-              { t: "目的なき学習に手を広げる", d: "流行りを追って手を広げすぎ、どれも中途半端に。転換先を定めてから学ぶ範囲を絞ります。" },
-              { t: "補助金の条件を確認せず申し込む", d: "年度で変わる要件・対象講座・追加支給条件を見落とし、想定より補助が出ないです。事前に公式で確認します。" },
-              { t: "経験を捨ててゼロから始める", d: "これまでの経験を活かせない無関係分野に飛び込み、学習も転職も難航です。地続きの領域を優先します。" },
+              { t: "資格コレクターになります", d: "資格取得自体が目的化し、実務で使える形になりません。資格は手段であって、アウトプットに結びつけてこそ評価されます。" },
+              { t: "目的なき学習に手を広げます", d: "流行りを追って手を広げすぎ、どれも中途半端になります。転換先を定めてから学ぶ範囲を絞ります。" },
+              { t: "補助金の条件を確認せず申し込みます", d: "年度で変わる要件・対象講座・追加支給条件を見落とし、想定より補助が出ないです。事前に公式で確認します。" },
+              { t: "経験を捨ててゼロから始めます", d: "これまでの経験を活かせない無関係分野に飛び込み、学習も転職も難航です。地続きの領域を優先します。" },
             ].map((n, i) => (
               <div key={i} className="bg-red-50 border border-red-200 rounded-lg p-5">
                 <h3 className="font-bold text-red-700 mb-1">{n.t}</h3>

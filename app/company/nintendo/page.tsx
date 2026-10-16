@@ -155,9 +155,9 @@ export default function NintendoCompanyPage() {
           <ol className="space-y-3">
             {[
               ["STEP 1", "Web応募", "公式サイトの「キャリア採用Web応募」から応募します。登録メールアドレスに完了通知が届きます。"],
-              ["STEP 2", "作品選考", "職種により必要に応じて実施です（ポートフォリオ・作品提出）。"],
+              ["STEP 2", "作品選考", "職種により必要に応じて実施（ポートフォリオ・作品提出）。"],
               ["STEP 3", "面接", "複数回を予定します。専門性に加え、モノづくりへの姿勢・志望度が見られます。"],
-              ["STEP 4", "内定", "採用条件の提示です。応募から内定まで2〜3か月程度、書類結果まで約1か月です。"],
+              ["STEP 4", "内定", "採用条件の提示。応募から内定まで2〜3か月程度、書類結果まで約1か月。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -203,8 +203,8 @@ export default function NintendoCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>C++での低レイヤー実装・最適化が得意なコンソールゲーム開発経験者</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ハード制約の中で体験品質を追求するモノづくりに情熱があります</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>京都本社を中心とした腰を据えた長期就業に魅力を感じます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ハード制約の中で体験品質を追求するモノづくりに情熱がある</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>京都本社を中心とした腰を据えた長期就業に魅力を感じる</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ネットワークサービス（Go/Kotlin等）でWeb基盤を支えたい</li>
               </ul>
             </div>
@@ -212,9 +212,9 @@ export default function NintendoCompanyPage() {
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>フルリモート・場所を選ばない働き方を最優先したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>最新のWeb/クラウドのトレンド技術を常に追いたい志向が強いです</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>短期間での昇給・等級ジャンプを第一に考えています</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>ゲーム開発の実務経験がなく、未経験からの参入を狙っています</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>最新のWeb/クラウドのトレンド技術を常に追いたい志向が強い</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>短期間での昇給・等級ジャンプを第一に考えている</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>ゲーム開発の実務経験がなく、未経験からの参入を狙っている</li>
               </ul>
             </div>
           </div>

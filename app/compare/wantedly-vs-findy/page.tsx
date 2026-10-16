@@ -49,15 +49,15 @@ const goodA = [
   "社風・ビジョンへの共感を重視して会社を選びたい",
   "転職意欲が固まる前にカジュアル面談で情報収集したい",
   "スタートアップ・ベンチャーの空気を直接確かめたい",
-  "ストーリーや人柄も含めて自分を見てほしい",
-  "給与は選考過程で確認できれば良い",
+  "ストーリーや人柄も含めて自分を見てほしいです",
+  "給与は選考過程で確認できれば良いです",
 ];
 const goodB = [
   "GitHubの実績で評価されたい",
   "モダン言語(Go/TypeScript/Python/Ruby等)の即戦力",
   "Web自社開発企業を条件面から詰めたい",
   "客観的なスキル可視化で市場価値を測りたい",
-  "首都圏(またはフルリモート)で活動できる",
+  "首都圏(またはフルリモート)で活動できます",
 ];
 
 export default function WantedlyVsFindyPage() {
@@ -93,7 +93,7 @@ export default function WantedlyVsFindyPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・社風・ビジョンから入りたいなら「Wantedly」</strong>。カジュアル面談で応募前に空気を確かめられます。ただし給与は原則非記載です。</li>
               <li><strong>・技術評価から入りたいなら「Findy」</strong>。GitHub実績がスキル偏差値として可視化され、厳選されたWeb自社開発企業とマッチします。</li>
-              <li><strong>・迷うなら併用です</strong>。「カルチャーフィット(Wantedly)」と「技術の市場価値(Findy)」を同時に確かめられます。どちらも無料です。</li>
+              <li><strong>・迷う場合は併用をおすすめします</strong>。「カルチャーフィット(Wantedly)」と「技術の市場価値(Findy)」を同時に確かめられます。どちらも無料です。</li>
             </ul>
           </div>
         </section>

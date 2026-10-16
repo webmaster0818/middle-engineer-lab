@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/spring/" },
   title: "Spring（Java）エンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Spring / Spring Boot（Java）エンジニアの転職市場を出典付きで解説。金融・エンタープライズでのSpring需要、paiza調査のJava企業ニーズ、求人ボックスの公表値、30代・40代の進め方をミドルエンジニア向けに整理します。",
+    "Spring / Spring Boot（Java）エンジニアの転職市場を出典を明記して解説します。金融・エンタープライズでのSpring需要、paiza調査のJava企業ニーズ、求人ボックスの公表値、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function SpringSkillPage() {
     <>
       <ArticleJsonLd
         title="Spring（Java）エンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Spring / Spring Boot（Java）エンジニアの転職市場を出典付きで解説。金融・エンタープライズでのSpring需要、paiza調査のJava企業ニーズ、求人ボックスの公表値、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="Spring / Spring Boot（Java）エンジニアの転職市場を出典を明記して解説します。金融・エンタープライズでのSpring需要、paiza調査のJava企業ニーズ、求人ボックスの公表値、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/spring/"
       />
       <script

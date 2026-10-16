@@ -90,10 +90,10 @@ export default function NoEnglishPage() {
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 英語での会話・会議・メールを避けたい</li>
-              <li>- 国内向けの開発に腰を据えて取り組みたい</li>
+              <li>- 英語での会話・会議・メールを避けたいと考えています</li>
+              <li>- 国内向けの開発に腰を据えて取り組みたいと考えています</li>
               <li>- 英語を理由に転職をためらっています</li>
-              <li>- 将来も英語が発生しにくい領域を知りたい</li>
+              <li>- 将来も英語が発生しにくい領域を知りたいと考えています</li>
             </ul>
           </div>
         </section>

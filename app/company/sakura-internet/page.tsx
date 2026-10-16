@@ -97,7 +97,7 @@ export default function SakuraInternetCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】さくらインターネットの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: さくらインターネット株式会社の全社員平均年収は741万円です（2026年3月期 有価証券報告書・平均年齢40.3歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 741万円です（2026年3月期 有価証券報告書）。技術職に限らない全社員平均です。</li><li>・推移は2024年3月期614万円→2025年3月期700万円→2026年3月期741万円と2年で120万円超の上昇しています（各期 有価証券報告書）。</li><li>・専門性の高いインフラ・SREポジションでは全社平均と異なる水準が提示される場合があり、実額は個別求人・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 741万円です（2026年3月期 有価証券報告書）。技術職に限らない全社員平均です。</li><li>・推移は2024年3月期614万円→2025年3月期700万円→2026年3月期741万円と2年で120万円超上昇しています（各期 有価証券報告書）。</li><li>・専門性の高いインフラ・SREポジションでは全社平均と異なる水準が提示される場合があり、実額は個別求人・面談で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -268,9 +268,9 @@ export default function SakuraInternetCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">さくらインターネット転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。インフラ・SRE・クラウド求人に強く、非公開求人も豊富です。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。インフラ実務経験者への提案数が多いです。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャー・事業会社に強い成功報酬型転職サイトです。カジュアル面談中心です。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Webに特化しています。インフラ・SRE・クラウド求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲームに特化しています。インフラ実務経験者への提案数が多いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャー・事業会社に強い成功報酬型転職サイトです。カジュアル面談が中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

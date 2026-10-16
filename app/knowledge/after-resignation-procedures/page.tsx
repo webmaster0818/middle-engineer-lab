@@ -100,7 +100,7 @@ export default function AfterResignationProceduresPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職後の手続きは何をいつまでにやる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 健康保険・年金・失業給付の3つ。期限が短いものが多いので、先に動くのが鉄則です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・健康保険は任意継続が退職翌日から20日以内、国保が14日以内です。最優先で決めます</li><li>・年金は厚生年金→国民年金（第1号）への切り替えを原則14日以内</li><li>・失業給付は離職票が届き次第ハローワークへ。自己都合の給付制限は2025年4月以降の離職で原則1ヶ月に短縮</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・健康保険は任意継続が退職翌日から20日以内、国保が14日以内です。最優先で決めます</li><li>・年金は厚生年金→国民年金（第1号）への切り替えを原則14日以内</li><li>・失業給付は離職票が届き次第ハローワークで手続きします。自己都合の給付制限は2025年4月以降の離職で原則1ヶ月に短縮</li></ul>
           </div>
         </section>
 
@@ -139,7 +139,7 @@ export default function AfterResignationProceduresPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li>・<strong>健康保険</strong>：任意継続は退職翌日から<strong>20日以内</strong>、国保は<strong>14日以内です</strong>。最優先で決めます。</li>
               <li>・<strong>年金</strong>：厚生年金→国民年金の切り替えは原則<strong>14日以内です</strong>。</li>
-              <li>・<strong>失業給付</strong>：離職票が届き次第ハローワークへ。自己都合の給付制限は<strong>2025年4月以降の離職で原則1ヶ月</strong>に短縮します。</li>
+              <li>・<strong>失業給付</strong>：離職票が届き次第ハローワークで手続きします。自己都合の給付制限は<strong>2025年4月以降の離職で原則1ヶ月</strong>に短縮します。</li>
               <li>・転職先に間を空けず入社する場合は、新しい会社で社会保険に加入するため一部手続きは不要です。</li>
             </ul>
           </div>
@@ -188,7 +188,7 @@ export default function AfterResignationProceduresPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">C：次が未定で、しばらく転職活動をする</h3>
-              <p className="text-sm text-slate-600">健康保険・国民年金の切り替えに加え、雇用保険の失業給付の手続きが選択肢になります。期限の短い健保（任意継続20日以内／国保14日以内）・年金（14日以内）を先に済ませ、離職票が届いたらハローワークへ。3つの手続きすべてが関わるパターンです。</p>
+              <p className="text-sm text-slate-600">健康保険・国民年金の切り替えに加え、雇用保険の失業給付の手続きが選択肢になります。期限の短い健保（任意継続20日以内／国保14日以内）・年金（14日以内）を先に済ませ、離職票が届いたらハローワークで手続きします。3つの手続きすべてが関わるパターンです。</p>
             </div>
           </div>
         </section>
@@ -218,7 +218,7 @@ export default function AfterResignationProceduresPage() {
                 <tr className="align-top">
                   <td className="px-4 py-3 border-b border-slate-100 font-medium text-slate-800">国民健康保険</td>
                   <td className="px-4 py-3 border-b border-slate-100 text-slate-600">退職日の翌日から14日以内に届出（市区町村）</td>
-                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">前年所得をベースに計算です。非自発的失業の場合、軽減措置が設けられていることがあります。</td>
+                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">前年所得をベースに計算されます。非自発的失業の場合、軽減措置が設けられていることがあります。</td>
                   <td className="px-4 py-3 border-b border-slate-100 text-slate-600">前年所得が低い人、会社都合等で軽減対象になる人です。</td>
                 </tr>
                 <tr className="align-top">
@@ -231,7 +231,7 @@ export default function AfterResignationProceduresPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            ※ 任意継続の細部（期限・保険料）は加入していた健康保険組合によって異なる場合があります。国保の軽減や扶養の収入要件は自治体・保険者で確認してください。どれが得かは必ず窓口で試算を。
+            ※ 任意継続の細部（期限・保険料）は加入していた健康保険組合によって異なる場合があります。国保の軽減や扶養の収入要件は自治体・保険者で確認してください。どれが得かは必ず窓口で試算してください。
           </p>
         </section>
 
@@ -243,7 +243,7 @@ export default function AfterResignationProceduresPage() {
           <ul className="space-y-3 text-sm text-slate-600">
             <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>転職先にすぐ入社する場合は、新しい会社で厚生年金に加入するため、自分での切り替えは不要なことが多いです。</span></li>
             <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>配偶者の扶養（第3号被保険者）に入る場合は、配偶者の勤務先を通じた別の手続きになります。</span></li>
-            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>保険料の納付が難しい場合、免除・納付猶予の制度があります。該当しそうな場合は窓口で相談を。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>保険料の納付が難しい場合、免除・納付猶予の制度があります。該当しそうな場合は窓口で相談してください。</span></li>
           </ul>
         </section>
 

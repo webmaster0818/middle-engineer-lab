@@ -31,7 +31,7 @@ const basicData: [string, string][] = [
   ["業種", "インターネット・テクノロジー"],
   ["本社所在地", "東京都渋谷区（渋谷ストリーム）"],
   ["主な開発拠点", "東京・横浜（Google マップ等のプロダクト開発組織あり）"],
-  ["主な使用言語", "社内公用語は英語です。会議・メール・面接の多くが英語"],
+  ["主な使用言語", "社内公用語は英語。会議・メール・面接の多くが英語"],
   ["技術スタック", "C++ / Java / Python / Go / TypeScript / Kubernetes / Google Cloud 等"],
 ];
 
@@ -125,7 +125,7 @@ export default function GoogleCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Google（グーグル）日本法人の年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Google日本法人は有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年10月15日時点）のソフトウェアエンジニア総報酬は中央値 約2,560万円が目安です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総報酬の中央値 約2,560万円です（levels.fyi・2026年10月15日時点、日本拠点SWE集計・レベル別52件）。L3 約1,571万円、L6 約4,105万円です。</li><li>・会社全体の平均年収 約1,719万円、開発職 約2,151万円です（OpenWork・社員クチコミ集計）。</li><li>・いずれもユーザー投稿ベースの集計値です。RSU（株式報酬）比率が高く、株価・付与額・入社時期で実受取額は大きく変動しています。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総報酬の中央値 約2,560万円です（levels.fyi・2026年10月15日時点、日本拠点SWE集計・レベル別52件）。L3 約1,571万円、L6 約4,105万円です。</li><li>・会社全体の平均年収 約1,719万円、開発職 約2,151万円です（OpenWork・社員クチコミ集計）。</li><li>・いずれもユーザー投稿ベースの集計値です。RSU（株式報酬）比率が高く、株価・付与額・入社時期で実受取額は大きく変動します。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -235,7 +235,7 @@ export default function GoogleCompanyPage() {
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>大規模・低レイテンシなシステムを前提とした設計思想（スケーラビリティ重視）</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>コードレビュー・テスト・SRE的な運用文化が根付いていることが公開情報で知られます</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Go・Kubernetes・TensorFlowなどOSSへの貢献を多数公開</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Go・Kubernetes・TensorFlowなどOSSへの貢献を多数公開しています</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド領域は<Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>・<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>のスキルが評価されやすいです</li>
           </ul>
         </section>
@@ -327,7 +327,7 @@ export default function GoogleCompanyPage() {
               ["ポジション別スクリーニング", "ソフトウェアエンジニアの場合、コーディング中心のオンライン面接（45分程度×複数）が一般的とされます。"],
               ["面接ループ（複数回）", "コーディング、システムデザイン、行動面接などが複数回実施されます。"],
               ["Hiring Committee（採用委員会）", "面接フィードバックをもとに委員会が合議で合否を判断します。"],
-              ["オファー", "条件提示です。リクルーター連絡からオファーまで平均8週間程度との二次情報もあります（時期・職種で変動）。"],
+              ["オファー", "条件が提示されます。リクルーター連絡からオファーまで平均8週間程度との二次情報もあります（時期・職種で変動）。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
@@ -377,7 +377,7 @@ export default function GoogleCompanyPage() {
               <ul className="space-y-1 text-sm text-amber-900">
                 <li>・成長を求めて3〜5年で次へ移る人材流動性の高さ</li>
                 <li>・組織変更・プロダクト方針変更の影響を受けることがあります</li>
-                <li>・成果へのプレッシャーはチーム差が大きいとの声</li>
+                <li>・成果へのプレッシャーはチーム差が大きいとの声があります</li>
               </ul>
             </div>
           </div>
@@ -416,7 +416,7 @@ export default function GoogleCompanyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資ITを扱うヘッドハンターと接点を作りやすいです。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化です。技術職の選考対策やキャリアの棚卸しに強いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Webに特化しています。技術職の選考対策やキャリアの棚卸しに強いです。" },
               { name: "リクルートエージェントIT", href: "/review/recruit-it/", desc: "国内最大級の求人網です。外資・大手の選択肢を広く比較したい人向けです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">

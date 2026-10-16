@@ -212,7 +212,7 @@ export default function DataAnalystSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "公開データを選ぶ", d: "政府統計（e-Stat）やKaggleなどの公開データから、自分が興味を持てるテーマを選びます。" },
+              { n: "STEP 1", t: "公開データを選びます", d: "政府統計（e-Stat）やKaggleなどの公開データから、自分が興味を持てるテーマを選びます。" },
               { n: "STEP 2", t: "SQL/BIで分析", d: "データを集計・加工し、Tableau/Looker StudioなどのBIで可視化します。" },
               { n: "STEP 3", t: "示唆を言語化", d: "『このデータから何が言えるか』『どんな施策につながるか』を文章で説明します。ここが最重要です。" },
               { n: "STEP 4", t: "成果物として公開", d: "ダッシュボードと考察をまとめ、誰でも見られる形で公開します。職務経歴書に紐づけます。" },
@@ -237,9 +237,9 @@ export default function DataAnalystSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "入口層（集計・レポーティング）", d: "SQLでのデータ抽出・集計、BIでの定型レポート作成です。基礎が問われるゾーンです。" },
+              { t: "入口層（集計・レポーティング）", d: "SQLでのデータ抽出・集計、BIでの定型レポート作成。基礎が問われるゾーンです。" },
               { t: "中核層（分析・示唆出し）", d: "仮説を立て、データで検証し、施策提案まで行います。ビジネス理解が評価される中核ゾーンです。" },
-              { t: "上級層（データ戦略・組織化）", d: "データ活用の仕組みづくり、KPI設計、チームのデータリテラシー向上です。マネジメント要素も問われます。" },
+              { t: "上級層（データ戦略・組織化）", d: "データ活用の仕組みづくり、KPI設計、チームのデータリテラシー向上。マネジメント要素も問われます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>

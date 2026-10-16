@@ -131,9 +131,9 @@ export default function MegaventureAgentsPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700">
             <p className="mb-2">エージェント選びで名前が似たサービスを混同しないよう、整理しておきます。</p>
             <ul className="space-y-1.5 list-disc pl-5">
-              <li><strong>レバテックキャリア（IT特化の正社員転職エージェント）≠ レバテックフリーランスです（業務委託案件の紹介）</strong>。メガベンチャーへの正社員転職を狙うなら前者です。</li>
-              <li><strong>リクルートエージェント（担当が提案するエージェント型）≠ リクルートダイレクトスカウトです（スカウトを待つハイクラス型）</strong>。役割が違います。</li>
-              <li><strong>doda（IT特化エージェント型）≠ dodaXです（ハイクラススカウト型）</strong>。dodaブランドで混同しやすいので注意してください。</li>
+              <li><strong>レバテックキャリア（IT特化の正社員転職エージェント）≠ レバテックフリーランス（業務委託案件の紹介）です</strong>。メガベンチャーへの正社員転職を狙うなら前者です。</li>
+              <li><strong>リクルートエージェント（担当が提案するエージェント型）≠ リクルートダイレクトスカウト（スカウトを待つハイクラス型）です</strong>。役割が違います。</li>
+              <li><strong>doda（IT特化エージェント型）≠ dodaX（ハイクラススカウト型）です</strong>。dodaブランドで混同しやすいので注意してください。</li>
             </ul>
           </div>
         </section>

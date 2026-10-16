@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/startup-agents/" },
   title: "スタートアップ転職に強いエージェント・サービスおすすめ｜選び方【2026年8月】",
   description:
-    "スタートアップ・ベンチャー転職に強い転職サービスを、当サイトに実在するサービスから根拠付きで厳選です。直接やり取りのGreen、共感軸のWantedly、GitHub評価のFindy、IT特化のレバテックキャリアまで、30代40代エンジニア向けに選び方とリスクの見極めを整理します。",
+    "スタートアップ・ベンチャー転職に強い転職サービスを、当サイトに実在するサービスから根拠付きで厳選しています。直接やり取りのGreen、共感軸のWantedly、GitHub評価のFindy、IT特化のレバテックキャリアまで、30代40代エンジニア向けに選び方とリスクの見極めを整理します。",
 };
 
 const toc = [
@@ -59,7 +59,7 @@ const services = [
 
 const faqs = [
   { q: "スタートアップ転職に強いサービスはどれですか？", a: "当サイトに実在するサービスでは、企業と直接やり取りできるGreen、共感軸でカジュアル面談から始められるWantedlyが、スタートアップ・ベンチャーを明確に得意領域としています。モダン技術の開発組織にコードで評価されて入りたいならFindy、選考サポートを受けつつ母数を広げたいならレバテックキャリアを組み合わせると、直接応募と仲介支援の両面からスタートアップ求人を比較できます。" },
-  { q: "なぜGreenとWantedlyを上位にしているのですか？", a: "両社とも公式にIT/Webベンチャー・スタートアップを得意領域としており、企業と直接・カジュアルにやり取りできる点がスタートアップ転職と噛み合うためです。Greenは掲載企業9,000社以上・求人15,000件以上（媒体により幅あり）、Wantedlyはユーザー400万人以上・利用企業4万社以上です（二次情報）。スタートアップは社風・事業フェーズの見極めが重要で、カジュアル面談前提の両社はその確認に適しています。" },
+  { q: "なぜGreenとWantedlyを上位にしているのですか？", a: "両社とも公式にIT/Webベンチャー・スタートアップを得意領域としており、企業と直接・カジュアルにやり取りできる点がスタートアップ転職と合致するためです。Greenは掲載企業9,000社以上・求人15,000件以上（媒体により幅あり）、Wantedlyはユーザー400万人以上・利用企業4万社以上です（二次情報）。スタートアップは社風・事業フェーズの見極めが重要で、カジュアル面談前提の両社はその確認に適しています。" },
   { q: "Wantedlyは年収が分からないと聞きました。", a: "はい。Wantedlyは給与・待遇が原則非記載という特徴があり、これは共感軸でまず社風・ビジョンを知ってもらう設計のためです。年収条件はカジュアル面談や選考の中で別途確認する必要があります。年収を最初に把握したい場合は、求人に条件が記載されるGreenや、選考サポートで条件交渉まで支援するレバテックキャリアを併用すると安心です。" },
   { q: "モダン技術の開発組織に行きたいです。", a: "Go／TypeScript／Python／Ruby等のモダン技術でスタートアップの開発組織を狙うなら、GitHub連携でスキル偏差値を算出するFindyが向きます。厳選800社以上（公式・2024年7月時点）のモダン自社開発企業が中心で、コードで評価されてマッチしやすい設計です。GitHubの公開活動が少ない場合はスカウトが届きにくいため、Green等の直接応募と併用してください。" },
   { q: "メガベンチャーも視野に入れています。", a: "Greenやレバテックキャリアはメガベンチャーからスタートアップまで幅広くカバーします。メガベンチャーに特化した比較は当サイトのメガベンチャー向けエージェント比較で整理しています。スタートアップとメガベンチャーは安定性・裁量・年収のバランスが異なるため、両方の求人を見比べて判断するのが現実的です。" },
@@ -121,7 +121,7 @@ export default function StartupAgentsPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
               { t: "社風・事業フェーズを確認できるか", d: "スタートアップは合うかの見極めが命です。カジュアル面談で文化やフェーズを確かめられるか。" },
-              { t: "ベンチャーを得意領域とするか", d: "公式にIT/Webベンチャー・スタートアップを得意領域として掲げているか。Green・Wantedlyが該当しています。" },
+              { t: "ベンチャーを得意領域とするか", d: "公式にIT/Webベンチャー・スタートアップを得意領域として掲げているか。Green・Wantedlyが該当します。" },
               { t: "選考・条件交渉を補えるか", d: "直接応募は選考対策や年収交渉を自分で担います。必要なら選考サポート型で補えるか。" },
             ].map((c, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -158,7 +158,7 @@ export default function StartupAgentsPage() {
             <ul className="space-y-1.5 list-disc pl-5">
               <li><strong>事業フェーズと資金状況：</strong>どのラウンドか、ランウェイ（資金の持ち期間）はどうか。Wantedly/Greenのカジュアル面談で確認します。</li>
               <li><strong>求められる役割と裁量：</strong>即戦力・自走前提が多いです。自分の強みと求められる役割が一致するか。</li>
-              <li><strong>年収・待遇：</strong>Wantedlyは給与非記載のため、年収・ストックオプションの条件は必ず別途確認です。</li>
+              <li><strong>年収・待遇：</strong>Wantedlyは給与非記載のため、年収・ストックオプションの条件は必ず別途確認してください。</li>
             </ul>
             <p className="mt-3">「スタートアップ＝善」と単純化せず、安定・年収・裁量のどれを優先するかで判断するのが大切です。考え方は<Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大企業どちらを選ぶか</Link>で整理しています。</p>
           </div>
@@ -204,7 +204,7 @@ export default function StartupAgentsPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">スタートアップは「直接応募×技術評価×選考サポート」で選ぶ</h2>
-          <p className="text-blue-100 text-sm mb-4">Green/Wantedlyで温度感を確かめ、Findyでコード評価、レバテックキャリアで選考サポートです。いずれも無料です。</p>
+          <p className="text-blue-100 text-sm mb-4">Green/Wantedlyで温度感を確かめ、Findyでコード評価、レバテックキャリアで選考サポートを受ける使い分けが有効です。いずれも無料です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

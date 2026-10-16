@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/django/" },
   title: "Djangoエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Django（Python）エンジニアの転職市場を出典付きで解説。Web開発・データ／AI連携でのDjango需要、求人ボックスやレバテックの公表年収、他フレームワークからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
+    "Django（Python）エンジニアの転職市場を出典を明記して解説します。Web開発・データ／AI連携でのDjango需要、求人ボックスやレバテックの公表年収、他フレームワークからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function DjangoSkillPage() {
     <>
       <ArticleJsonLd
         title="Djangoエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Django（Python）エンジニアの転職市場を出典付きで解説。Web開発・データ／AI連携でのDjango需要、求人ボックスやレバテックの公表年収、他フレームワークからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="Django（Python）エンジニアの転職市場を出典を明記して解説します。Web開発・データ／AI連携でのDjango需要、求人ボックスやレバテックの公表年収、他フレームワークからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/django/"
       />
       <script
@@ -146,7 +146,7 @@ export default function DjangoSkillPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ["Django特化の平均年収", "公的な公表は乏しい（Python・職種別で代替）", "フレームワーク単独の公的統計は限定的"],
+                  ["Django特化の平均年収", "公的な公表は乏しいです（Python・職種別で代替）", "フレームワーク単独の公的統計は限定的"],
                   ["ソフトウェアエンジニアの平均年収（正社員）", "約511万円", "求人ボックス 給料ナビ（掲載求人からの独自試算）"],
                   ["Webエンジニアの平均年収（正社員）", "約462万円", "求人ボックス 給料ナビ（同上）"],
                   ["正社員SEの平均年収・30代", "約499万円", "レバテック公表（2025年）"],

@@ -209,13 +209,13 @@ export default function FrontendToBackendPage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（画面実装の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                ECサイトのフロントエンド開発を担当します。React/TypeScriptで商品一覧・カート画面を実装し、APIからデータを取得して表示です。レスポンシブ対応とパフォーマンス改善を実施しました。
+                ECサイトのフロントエンド開発を担当。React/TypeScriptで商品一覧・カート画面を実装し、APIからデータを取得して表示です。レスポンシブ対応とパフォーマンス改善を実施しました。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（API・DB設計を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                ECサイト開発で、個人開発として商品・在庫・注文のスキーマを設計し、Node.js/NestJSで認証付きのREST APIを実装・デプロイです。N+1問題をインデックスとクエリ最適化で解消し、フロント経験を活かしてAPIのレスポンス設計を利用側目線で最適化しました。GitHubでコードを公開しています。
+                ECサイト開発で、個人開発として商品・在庫・注文のスキーマを設計し、Node.js/NestJSで認証付きのREST APIを実装・デプロイです。N+1問題をインデックスとクエリ最適化で解消し、フロント経験を活かしてAPIのレスポンス設計を利用側目線で最適化しました。GitHubでコードを公開します。
               </p>
             </div>
           </div>

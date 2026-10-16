@@ -135,7 +135,7 @@ export default function InfoSecManagementCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>利用部門のセキュリティリーダー・管理職</strong>：社内ルール運用・委託先管理の基礎証明として効きます</li>
               <li>② <strong>非専門職でセキュリティ素養を示したい人</strong>：情報の安全な取扱いの理解を客観的に示せます</li>
-              <li>③ <strong>守る側の専門エンジニア志望</strong>：基礎の前段としては有効だが、上位は支援士を狙うべき</li>
+              <li>③ <strong>守る側の専門エンジニア志望</strong>：基礎の前段としては有効ですが、上位は支援士を狙うべきです</li>
             </ul>
           </div>
         </section>
@@ -229,8 +229,8 @@ export default function InfoSecManagementCertPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・脆弱性診断・対策設計・監査などの専門スキルの証明にはなりません</li>
-              <li>・守る側の専門職採用で重視されるのは実務経験と高度資格</li>
-              <li>・専門性を示すなら支援士など上位資格へ進むのが効率的</li>
+              <li>・守る側の専門職採用で重視されるのは実務経験と高度資格です</li>
+              <li>・専門性を示すなら支援士など上位資格へ進むのが効率的です</li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
@@ -294,9 +294,9 @@ export default function InfoSecManagementCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／上位への道</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "科目A・科目Bを過去問で固める", d: "情報資産管理・リスクアセスメント・委託先管理など管理系の頻出を繰り返し演習します。" },
-              { n: "STEP 2", t: "通年CBTで都合に合わせ受験", d: "随時実施のCBTで日時を選んで申込み。基礎レベルのため短期集中で合格を狙いやすいです。" },
-              { n: "STEP 3", t: "守る側へ進むなら上位資格へ", d: "専門職志望なら応用情報→情報処理安全確保支援士へ。管理職志望ならそのまま実務で活かします。" },
+              { n: "STEP 1", t: "科目A・科目Bを過去問で固めます", d: "情報資産管理・リスクアセスメント・委託先管理など管理系の頻出を繰り返し演習します。" },
+              { n: "STEP 2", t: "通年CBTで都合に合わせ受験", d: "随時実施のCBTで日時を選んで申し込みます。基礎レベルのため短期集中で合格を狙いやすいです。" },
+              { n: "STEP 3", t: "守る側へ進むなら上位資格へ", d: "専門職志望なら応用情報→情報処理安全確保支援士へ進む道があります。管理職志望ならそのまま実務で活かします。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

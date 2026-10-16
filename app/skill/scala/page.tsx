@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/scala/" },
   title: "Scalaエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Scalaエンジニアの転職市場を出典付きで解説。求人ボックス集計で言語別年収トップ級のScalaの市場価値、関数型・データ基盤での需要、Javaからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
+    "Scalaエンジニアの転職市場を出典を明記して解説します。求人ボックス集計で言語別年収トップ級のScalaの市場価値、関数型・データ基盤での需要、Javaからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function ScalaSkillPage() {
     <>
       <ArticleJsonLd
         title="Scalaエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Scalaエンジニアの転職市場を出典付きで解説。求人ボックス集計で言語別年収トップ級のScalaの市場価値、関数型・データ基盤での需要、Javaからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="Scalaエンジニアの転職市場を出典を明記して解説します。求人ボックス集計で言語別年収トップ級のScalaの市場価値、関数型・データ基盤での需要、Javaからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/scala/"
       />
       <script
@@ -198,7 +198,7 @@ export default function ScalaSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "バックエンドエンジニア", note: "ScalaでのAPI・バッチ開発です。Web系・金融系で需要" },
+              { role: "バックエンドエンジニア", note: "ScalaでのAPI・バッチ開発。Web系・金融系で需要" },
               { role: "データエンジニア／基盤", note: "Spark＋Scalaで大規模データ処理基盤を構築します。最も希少性が高いゾーン" },
               { role: "テックリード／アーキテクト", note: "Scala基盤の設計＋技術選定＋チームリード" },
               { role: "フリーランス（Scala案件）", note: "データ基盤・金融系案件です。希少性から単価が高い傾向" },

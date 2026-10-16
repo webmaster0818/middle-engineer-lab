@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "PostgreSQLスキルで転職｜年収・求人・将来性【2026年】";
 const PAGE_DESC =
-  "PostgreSQLスキルを軸にした転職市場を出典付きで解説。PostgreSQLは単体スキルではなくDB設計・運用の実務基盤として評価される点を整理します。求人ボックス公表のデータベースエンジニア年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
+  "PostgreSQLスキルを軸にした転職市場を出典を明記して解説します。PostgreSQLは単体スキルではなくDB設計・運用の実務基盤として評価される点を整理します。求人ボックス公表のデータベースエンジニア年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/postgresql/" },

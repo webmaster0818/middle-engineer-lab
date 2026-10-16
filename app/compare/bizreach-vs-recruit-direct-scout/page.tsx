@@ -35,8 +35,8 @@ const comparison = [
   { item: "料金", a: "無料会員があります。一部機能は有料プラン（Web決済5,478円/月・2022年11月改定・二次）前提", b: "完全無料" },
   { item: "スカウト主体", a: "企業の採用担当・登録ヘッドハンター", b: "ヘッドハンター・企業スカウト" },
   { item: "規模", a: "導入企業41,800社以上・登録ヘッドハンター9,700人以上（2025年4月・二次）・登録282万人（2025年4月・二次）", b: "公開求人 約59.3万件・年収800万以上 約34.7万件（二次2026年2月）・毎月約2万人新規登録" },
-  { item: "年収帯", a: "年収1,000万円以上の求人が全体の約4割です（二次）。年収750万以上が一つの目安", b: "年収600〜2,000万のミドル〜ハイクラスです。転職後平均年収950万（二次）" },
-  { item: "IT特化", a: "IT特化ではありません（全業種のハイクラス）", b: "IT特化ではない（全業種のハイクラス）" },
+  { item: "年収帯", a: "年収1,000万円以上の求人が全体の約4割（二次）。年収750万以上が一つの目安", b: "年収600〜2,000万のミドル〜ハイクラス。転職後平均年収950万（二次）" },
+  { item: "IT特化", a: "IT特化ではありません（全業種のハイクラス）", b: "IT特化ではありません（全業種のハイクラス）" },
 ];
 
 const faqs = [
@@ -50,8 +50,8 @@ const faqs = [
 
 const goodBiz = [
   "厳選された質の高いスカウトを受けたい",
-  "CTO・VPoE・EMなど管理職／経営層を狙う",
-  "外資系やコンサルにも興味がある",
+  "CTO・VPoE・EMなど管理職／経営層を狙います",
+  "外資系やコンサルにも興味があります",
   "有料プランを使ってでも本格的に動きたい",
   "市場価値を客観的に測りたい（審査の通過自体が指標になる）",
 ];
@@ -59,8 +59,8 @@ const goodRDS = [
   "完全無料で気軽に始めたい",
   "審査なしでまず登録してみたい",
   "手間をかけず待ちのスタイルで市場価値を測りたい",
-  "年収600万円以上のミドル〜ハイクラスを狙う",
-  "メーカー・コンサル・商社など幅広い業種も視野にある",
+  "年収600万円以上のミドル〜ハイクラスを狙います",
+  "メーカー・コンサル・商社など幅広い業種も視野にあります",
 ];
 
 export default function BizreachVsRdsPage() {
@@ -96,7 +96,7 @@ export default function BizreachVsRdsPage() {
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・無料で気軽に始めたいなら「リクルートダイレクトスカウト」</strong>。審査なし・完全無料で、まず市場価値を測れます。</li>
               <li><strong>・スカウトの質・厳選された求人を重視するなら「ビズリーチ」</strong>。審査ありで、ハイクラスに特化しています。</li>
-              <li><strong>・迷うなら両方登録です（併用）</strong>。完全無料のリクルートダイレクトスカウトで反応を見つつ、ビズリーチで質の高いスカウトを比較するのが、30代・40代には合理的です。</li>
+              <li><strong>・迷う場合は両方への登録をおすすめします（併用）</strong>。完全無料のリクルートダイレクトスカウトで反応を見つつ、ビズリーチで質の高いスカウトを比較するのが、30代・40代には合理的です。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">どちらもIT特化ではありませんが、年収レンジを一段上げる用途では有効です。詳しくは項目別にご説明します。</p>
@@ -166,7 +166,7 @@ export default function BizreachVsRdsPage() {
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
               <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高年収求人が豊富</li><li>市場価値を客観的に把握できる</li><li>厳選された質の高いスカウト</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>有料プラン前提との不満</li><li>スカウトの質にばらつき</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>有料プラン前提との不満があります</li><li>スカウトの質にばらつき</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：みん評／各転職メディア集計</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -174,7 +174,7 @@ export default function BizreachVsRdsPage() {
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
               <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>完全無料で使える</li><li>高年収・非公開求人が多い</li><li>求人量が豊富</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>ヘッドハンターの質にばらつき</li><li>現職バレが不安という声</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>ヘッドハンターの質にばらつき</li><li>現職バレが不安という声があります</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：みん評／各転職メディア集計</p>
             </div>
           </div>
@@ -201,7 +201,7 @@ export default function BizreachVsRdsPage() {
               {[
                 { num: "1", title: "まずリクルートダイレクトスカウト（無料）", desc: "審査なし・完全無料で登録し、届くスカウトの量と質で市場の反応を確認します。コストゼロで相場感をつかめます。" },
                 { num: "2", title: "ビズリーチで質を確認", desc: "審査を通過してハイクラスの厳選環境に入り、スカウトの質を比較します。有料プランは、無料で手応えを感じてから検討します。" },
-                { num: "3", title: "併用で比較（推奨）", desc: "両方のスカウトを並べて、企業担当・ヘッドハンターの本気度や年収レンジを比較します。最も有利な条件で意思決定です。IT専門サポートが必要ならIT特化サービスを追加します。" },
+                { num: "3", title: "併用で比較（推奨）", desc: "両方のスカウトを並べて、企業担当・ヘッドハンターの本気度や年収レンジを比較します。最も有利な条件で意思決定します。IT専門サポートが必要ならIT特化サービスを追加します。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -217,7 +217,7 @@ export default function BizreachVsRdsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだ30代・40代の市場価値は高く、ハイクラススカウト型は「年収レンジを一段上げる」用途で力を発揮します。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>まだ年収の伸びしろが大きい時期です。完全無料のリクルートダイレクトスカウトで気軽に相場を測り、手応えがあればビズリーチで質の高いスカウトを比較する流れが負担なく進められます。レバテック公表の年代別平均年収（2025年）では30代のSEは約499万円が一つの目安で、ハイクラス型のスカウトで上限を知っておくと交渉に役立ちます。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ビズリーチはCTO・VPoE・EMといった管理職・経営層ポジションのスカウトや外資求人に強く、マネジメント経験のある40代と噛み合います。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。一方、両サービスともIT特化ではないため、技術理解の深い提案が欲しい場面ではIT特化サービスを併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>ビズリーチはCTO・VPoE・EMといった管理職・経営層ポジションのスカウトや外資求人に強く、マネジメント経験のある40代と合致します。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層です。一方、両サービスともIT特化ではないため、技術理解の深い提案が欲しい場面ではIT特化サービスを併せて確保しておくと安心です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-12 scroll-mt-20">

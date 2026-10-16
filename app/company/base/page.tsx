@@ -38,7 +38,7 @@ const salaryRows: [string, string][] = [
   ["平均年収（提出会社単体・全従業員）", "700万円"],
   ["対象年度", "2024年12月期（有価証券報告書）"],
   ["集計範囲", "エンジニア以外も含む全従業員平均"],
-  ["留意点", "転職集計サイトでは約758万円とする値もあるが、当ガイドは有価証券報告書の数値を優先"],
+  ["留意点", "転職集計サイトでは約758万円とする値もありますが、当ガイドは有価証券報告書の数値を優先します"],
 ];
 
 const faqs = [
@@ -155,8 +155,8 @@ export default function BaseCompanyPage() {
           <ol className="space-y-3">
             {[
               ["STEP 1", "書類選考", "公式採用ページまたはエージェント経由で応募します。職務経歴・実績を確認します。"],
-              ["STEP 2", "面接（複数回）", "技術面接・カルチャーフィット面接を含む複数回が想定されます。回数・形式は職種・時期で変動しています。"],
-              ["STEP 3", "内定", "条件提示です。具体的な選考期間は公式に明示されていません。"],
+              ["STEP 2", "面接（複数回）", "技術面接・カルチャーフィット面接を含む複数回が想定されます。回数・形式は職種・時期で変動します。"],
+              ["STEP 3", "内定", "条件が提示されます。具体的な選考期間は公式に明示されていません。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -202,16 +202,16 @@ export default function BaseCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>PHPまたはGoでのWebサービス開発経験者</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>既存資産の保守とモダン化の両立にやりがいを感じます</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>決済・金融・ECのドメインに興味があります</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>フラットで自律的な開発文化を好みます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>既存資産の保守とモダン化の両立にやりがいを感じる</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>決済・金融・ECのドメインに興味がある</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>フラットで自律的な開発文化を好む</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>レガシーに一切触れず最新スタックのみで開発したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>決済特有の厳格な品質要求を負担に感じます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>決済特有の厳格な品質要求を負担に感じる</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>事業フェーズの変化や業務量の波を避けたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>大企業の安定した分業体制を最優先したい</li>
               </ul>

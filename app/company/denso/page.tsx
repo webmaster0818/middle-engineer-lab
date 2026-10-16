@@ -189,10 +189,10 @@ export default function DensoCompanyPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>車載・組込ドメインの習得に関心が持てません</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>車載・組込ドメインの習得に関心が持てない</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>スタートアップ的な意思決定スピードを最優先したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>短期間での昇給・等級ジャンプを第一に考えています</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>ソフトウェアの実務経験がなく未経験参入を狙います</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>短期間での昇給・等級ジャンプを第一に考えている</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>ソフトウェアの実務経験がなく未経験参入を狙う</li>
               </ul>
             </div>
           </div>
@@ -201,7 +201,7 @@ export default function DensoCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">デンソー転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・車載領域に強く、技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化です。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・車載領域に強く、技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラスに特化しています。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>

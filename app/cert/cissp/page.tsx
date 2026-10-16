@@ -134,7 +134,7 @@ export default function CisspCertPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>セキュリティ実務経験のある30〜40代</strong>：管理職・CISO候補への土台・専門性の証明として加点されます</li>
-              <li>② <strong>未経験のミドル</strong>：実務要件を満たせず入口には不向きです。まず実務と基礎資格を固めるべき</li>
+              <li>② <strong>未経験のミドル</strong>：実務要件を満たせず入口には不向きです。まず実務と基礎資格を固めるべきです</li>
               <li>③ <strong>高年収・上位職志望</strong>：マネジメント・コンサル領域で国際的に通用する権威性を持ちます</li>
             </ul>
           </div>
@@ -256,8 +256,8 @@ export default function CisspCertPage() {
                 {[
                   ["主な対象", "未経験〜若手・基礎の証明", "セキュリティ実務5年以上の経験者"],
                   ["狙い", "セキュリティ職への入口・基礎", "管理職・上位職・高年収帯への土台"],
-                  ["効き方", "書類通過・間口を広げる", "マネジメント登用・国際的な権威性"],
-                  ["要件", "受験のみで取得可能なものが多い", "5年実務＋Endorsement＋3年ごと120CPE"],
+                  ["効き方", "書類通過・間口を広げます", "マネジメント登用・国際的な権威性"],
+                  ["要件", "受験のみで取得可能なものが多いです", "5年実務＋Endorsement＋3年ごと120CPE"],
                 ].map(([k, a, b], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                     <td className="px-4 py-3 text-slate-600 border-b border-slate-200 font-medium">{k}</td>
@@ -269,7 +269,7 @@ export default function CisspCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>管理職・上位職への足がかり</strong>。8ドメインを横断する体系知識で、組織のセキュリティを統括する適性を示せます。第二に<strong>国際的な権威性です</strong>。CISSPは世界的に認知され、外資・グローバル案件でも通用します。第三に<strong>高年収帯での差別化です</strong>。セキュリティ管理職・コンサルの求人で、専門性の客観的な裏付けになります。
+            活用戦略は3つに整理できます。第一に<strong>管理職・上位職への足がかり</strong>です。8ドメインを横断する体系知識で、組織のセキュリティを統括する適性を示せます。第二に<strong>国際的な権威性です</strong>。CISSPは世界的に認知され、外資・グローバル案件でも通用します。第三に<strong>高年収帯での差別化です</strong>。セキュリティ管理職・コンサルの求人で、専門性の客観的な裏付けになります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             注意すべきデメリットも押さえておきましょう。CISSPは<strong>受験料が749 USDと高額で、実務5年要件と3年ごと120CPE・年会費という維持コストがかかります</strong>。効果が出るのは「セキュリティ実務 × 資格」の掛け算が成立したときで、未経験者がいきなり狙う資格ではありません。逆に言えば、すでにセキュリティ現場経験があり管理職・上位職を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>や<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>で土台を固めてから臨むのが堅実です。
@@ -299,7 +299,7 @@ export default function CisspCertPage() {
             {[
               { n: "STEP 1", t: "8ドメインを体系的に学習", d: "リスク管理・資産・アーキテクチャ・ネットワーク・IAM・運用など8ドメインを公式ガイドで網羅します。" },
               { n: "STEP 2", t: "CAT形式に対応し合格", d: "適応型試験は実務的な判断を問います。模試で出題傾向に慣れ、最大3時間の集中力も準備します。" },
-              { n: "STEP 3", t: "Endorsement→更新計画", d: "合格後、5年実務とEndorsementで正式認定です。3年ごと120CPE・年会費の維持計画を立てます。" },
+              { n: "STEP 3", t: "Endorsement→更新計画", d: "合格後、5年実務とEndorsementで正式に認定されます。3年ごと120CPE・年会費の維持計画を立てます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

@@ -128,8 +128,8 @@ export default function BasicInfoCertPage() {
               基本情報技術者は<strong>「IT未経験者の入口」</strong>として効き、<strong>「経験者には基礎すぎて単体の強み性が低い」</strong>資格です。同じ資格でも対象読者で評価が真逆になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>異業種→IT転職の30〜40代</strong>：IT基礎を網羅した最低限の証明として有効</li>
-              <li>② <strong>IT実務経験のあるミドル</strong>：基礎すぎて加点は限定的です。上位試験（応用情報）へ進むべき</li>
+              <li>① <strong>異業種→IT転職の30〜40代</strong>：IT基礎を網羅した最低限の証明として有効です</li>
+              <li>② <strong>IT実務経験のあるミドル</strong>：基礎すぎて加点は限定的です。上位試験（応用情報）へ進むことをおすすめします</li>
               <li>③ <strong>共通</strong>：国家資格で有効期限がなく、特定企業に依存しない普遍的な基礎を示せます</li>
             </ul>
           </div>
@@ -277,9 +277,9 @@ export default function BasicInfoCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／併取得すべき資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "科目Aの基礎知識を固める", d: "テクノロジ・マネジメント・ストラテジの基礎を市販テキストで網羅しています。用語の理解を優先します。" },
-              { n: "STEP 2", t: "科目B（アルゴリズム・情報セキュリティ）対策", d: "擬似言語の読解とトレースを反復します。科目Bが合否を分けやすいため重点的に。" },
-              { n: "STEP 3", t: "CBTで随時受験→次の目標へ", d: "通年受験できるため準備が整い次第予約です。合格後は応用情報や専門資格へ進みます。" },
+              { n: "STEP 1", t: "科目Aの基礎知識を固めます", d: "テクノロジ・マネジメント・ストラテジの基礎を市販テキストで網羅的に学習します。用語の理解を優先します。" },
+              { n: "STEP 2", t: "科目B（アルゴリズム・情報セキュリティ）対策", d: "擬似言語の読解とトレースを反復します。科目Bが合否を分けやすいため重点的に対策します。" },
+              { n: "STEP 3", t: "CBTで随時受験→次の目標へ", d: "通年受験できるため準備が整い次第予約します。合格後は応用情報や専門資格へ進みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

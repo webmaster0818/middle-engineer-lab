@@ -257,8 +257,8 @@ export default function FujitsuCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 text-sm mb-2">良い傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-green-700">
-                <li>・テレワークが可能で柔軟に働けるとの声</li>
-                <li>・育児関連の制度・福利厚生が手厚いとの評価</li>
+                <li>・テレワークが可能で柔軟に働けるとの声があります</li>
+                <li>・育児関連の制度・福利厚生が手厚いとの評価があります</li>
                 <li>・大規模SIの経験を積める基盤があります</li>
               </ul>
             </div>
@@ -266,8 +266,8 @@ export default function FujitsuCompanyPage() {
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-amber-700">
                 <li>・労働環境はプロジェクトによる差が大きいです</li>
-                <li>・評価制度や事業展望への課題を指摘する声</li>
-                <li>・大企業ゆえの組織変革途上という指摘</li>
+                <li>・評価制度や事業展望への課題を指摘する声があります</li>
+                <li>・大企業ゆえの組織変革途上という指摘があります</li>
               </ul>
             </div>
           </div>

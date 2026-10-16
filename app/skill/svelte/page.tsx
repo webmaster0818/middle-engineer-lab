@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/svelte/" },
   title: "Svelteエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Svelte（SvelteKit）エンジニアの転職市場を出典付きで解説。求人ボックスの公表値をもとに、新興フロントエンドフレームワークの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
+    "Svelte（SvelteKit）エンジニアの転職市場を出典を明記して解説します。求人ボックスの公表値をもとに、新興フロントエンドフレームワークの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
@@ -73,7 +73,7 @@ export default function SvelteSkillPage() {
     <>
       <ArticleJsonLd
         title="Svelteエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Svelte（SvelteKit）エンジニアの転職市場を出典付きで解説。新興フロントエンドフレームワークの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
+        description="Svelte（SvelteKit）エンジニアの転職市場を出典を明記して解説します。新興フロントエンドフレームワークの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/svelte/"
       />
       <script
@@ -136,7 +136,7 @@ export default function SvelteSkillPage() {
               <strong>Svelteは「将来有望だが求人母数はまだ少ない新興スキル」です。</strong>Svelte単体で転職を狙うより、React/Vue/TypeScriptなどメインスキルを土台にし、Svelteを「新技術を素早く習得できる証明」として添えるのが現実的な進め方です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・関連職種のフロントエンドエンジニア平均年収は<strong>約460万円です</strong>（求人ボックス・2026年6月）。Svelte特化求人は少数</li>
+              <li>・関連職種のフロントエンドエンジニア平均年収は<strong>約460万円です</strong>（求人ボックス・2026年6月）。Svelte特化求人は少数です</li>
               <li>・React/Vueの実務があれば、Svelteは学習材料として加点要素になりやすいです</li>
               <li>・Svelteは<strong>パフォーマンス意識・技術選定力</strong>の文脈で語ると市場価値につながります</li>
             </ul>

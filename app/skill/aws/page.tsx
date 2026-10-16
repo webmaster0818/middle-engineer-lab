@@ -66,10 +66,10 @@ const salaryByAge = [
 ];
 
 const certTable = [
-  ["基礎（Foundational）", "Cloud Practitioner（CLF）", "クラウド全体像の理解です。学習の入口"],
+  ["基礎（Foundational）", "Cloud Practitioner（CLF）", "クラウド全体像の理解。学習の入口"],
   ["アソシエイト（Associate）", "Solutions Architect Associate（SAA）など", "実務1年程度を想定します。転職でまず狙う層"],
   ["プロフェッショナル（Professional）", "Solutions Architect Professional / DevOps Engineer Professional", "AWS公式は2年以上の経験を推奨します。上流案件で評価"],
-  ["専門知識（Specialty）", "Security / Advanced Networking など", "特定領域の深い専門性を示す"],
+  ["専門知識（Specialty）", "Security / Advanced Networking など", "特定領域の深い専門性を示します"],
 ];
 
 export default function AwsSkillPage() {
@@ -224,7 +224,7 @@ export default function AwsSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "実務1〜3年層（構築・運用）", d: "EC2/VPC/S3/IAMの基本構成、CloudWatchでの監視、簡単な障害対応です。SAA保有が歓迎要件になりやすいです。" },
+              { t: "実務1〜3年層（構築・運用）", d: "EC2/VPC/S3/IAMの基本構成、CloudWatchでの監視、簡単な障害対応。SAA保有が歓迎要件になりやすいです。" },
               { t: "実務3〜6年層（設計・自動化）", d: "マルチアカウント設計、IaC（Terraform/CDK）、CI/CD、コンテナです（ECS/EKS）。年収帯が一段上がる中核ゾーンです。" },
               { t: "実務6年以上層（アーキテクト・SRE）", d: "全体アーキテクチャ設計、SLI/SLO、コスト最適化（FinOps）、セキュリティガバナンスです。Professional認定が後押しになります。" },
             ].map((x, i) => (
@@ -301,7 +301,7 @@ export default function AwsSkillPage() {
             {[
               { n: "STEP 1", t: "土台の棚卸し", d: "ネットワーク・Linux・OSの基礎経験を整理します。これらはクラウドでもそのまま価値になります。" },
               { n: "STEP 2", t: "SAA取得＋ハンズオン", d: "Solutions Architect Associateを取得し、無料利用枠でVPC/EC2/S3/IAMの小構成を自作します。" },
-              { n: "STEP 3", t: "IaC化で成果物にする", d: "作った構成をTerraform/CDKでコード化し、GitHubに公開しています。設計意図をREADMEで説明できる状態にします。" },
+              { n: "STEP 3", t: "IaC化で成果物にします", d: "作った構成をTerraform/CDKでコード化し、GitHubに公開します。設計意図をREADMEで説明できる状態にします。" },
               { n: "STEP 4", t: "移行ストーリーで応募", d: "前職のオンプレ運用経験を『移行プロジェクトで活きる経験』として職務経歴書に落とし込みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -314,7 +314,7 @@ export default function AwsSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方です</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>。
           </p>
         </section>
 
@@ -338,11 +338,11 @@ export default function AwsSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ <strong>SAA → 実務 → Professional</strong> の順で、資格と実務を交互に積みます</li>
-            <li>✓ IaC（Terraform/CDK）を早期に習得し、手作業からコード管理へ移行します</li>
-            <li>✓ コンテナ（ECS/EKS）とCI/CDを一通り触り、SRE/プラットフォーム領域に接続します</li>
-            <li>✓ オブザーバビリティ（メトリクス・ログ・トレース）とコスト最適化（FinOps）を意識します</li>
-            <li>✓ 学んだことは小さな成果物（個人プロジェクト）にして可視化します</li>
+            <li>✓ <strong>SAA → 実務 → Professional</strong> の順で、資格と実務を交互に積む</li>
+            <li>✓ IaC（Terraform/CDK）を早期に習得し、手作業からコード管理へ移行する</li>
+            <li>✓ コンテナ（ECS/EKS）とCI/CDを一通り触り、SRE/プラットフォーム領域に接続する</li>
+            <li>✓ オブザーバビリティ（メトリクス・ログ・トレース）とコスト最適化（FinOps）を意識する</li>
+            <li>✓ 学んだことは小さな成果物（個人プロジェクト）にして可視化する</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続的な学習</Link>、市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>が参考になります。
