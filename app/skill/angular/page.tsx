@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/angular/" },
   title: "Angularエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Angularエンジニアの転職市場を出典付きで解説。求人ボックス・求人媒体の公表値をもとに、エンタープライズSPA向けフレームワークの市場価値、求人傾向、他技術からの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",
+    "Angularエンジニアの転職市場を出典付きで解説。求人ボックス・求人媒体の公表値をもとに、エンタープライズSPA向けフレームワークの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Angularエンジニアの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：Angularエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Angularの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Angularエンジニアのキャリアパス" },
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "Angular未経験でも転職は可能ですか？",
-    a: "TypeScriptやReact/Vueなどモダンフロントの実務経験があれば、Angular未経験でもポテンシャル採用の対象になり得ます。AngularはTypeScript前提なので、型の素養があると学習がスムーズです。GitHubにAngularで作ったSPAを公開し、コンポーネント設計やDIの意図を説明できる状態にしておくと基礎力を示せます。ただし「Angular実務2年以上」を求める即戦力求人もあり、入口の幅は求人によって差があります。",
+    a: "TypeScriptやReact/Vueなどモダンフロントの実務経験があれば、Angular未経験でもポテンシャル採用の対象になり得ます。AngularはTypeScript前提であるため、型の素養があると学習がスムーズです。GitHubにAngularで作ったSPAを公開し、コンポーネント設計やDIの意図を説明できる状態にしておくと基礎力を示せます。ただし「Angular実務2年以上」を求める即戦力求人もあり、入口の幅は求人によって差があります。",
   },
   {
     q: "Angularは将来性がありますか？",
@@ -73,7 +73,7 @@ export default function AngularSkillPage() {
     <>
       <ArticleJsonLd
         title="Angularエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Angularエンジニアの転職市場を出典付きで解説。エンタープライズSPA向けフレームワークの市場価値、求人傾向、他技術からの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。"
+        description="Angularエンジニアの転職市場を出典付きで解説。エンタープライズSPA向けフレームワークの市場価値、求人傾向、他技術からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/angular/"
       />
       <script
@@ -101,7 +101,7 @@ export default function AngularSkillPage() {
             AngularはGoogleが開発するTypeScript前提のフロントエンドフレームワークで、ルーティング・フォーム・HTTP通信・DIなどを標準で備える「フルスタック型」が特徴です。規約と設計の枠組みが強く、大規模・長期運用のエンタープライズSPAや業務システムで採用されてきました。求人の絶対数はReact/Vue系より少ないものの、扱えるエンジニアが限られる希少領域です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、Angularエンジニア転職の「攻め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。フレームワーク単体ではなく「TypeScriptの言語力＋大規模アプリの実務」で評価される点も誠実にお伝えします。
+            本記事では、Angularエンジニア転職の「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。フレームワーク単体ではなく「TypeScriptの言語力＋大規模アプリの実務」で評価される点も誠実にお伝えします。
           </p>
         </section>
 
@@ -130,15 +130,15 @@ export default function AngularSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Angularエンジニアの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Angularエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Angularは「エンタープライズ領域で長く使われる安定スキル」です。</strong>新規Web系で数を狙うより、業務システム・大規模SPAを開発する企業に的を絞り、TypeScriptと設計力をセットで示すのが転職成功の軸になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・関連職種のフロントエンドエンジニア平均年収は<strong>約460万円</strong>（求人ボックス・2026年6月）。求人媒体のAngular求人では上限1300万円の例も</li>
-              <li>・TypeScriptやReact/Vueの経験があれば、Angular未経験でもポテンシャル採用の余地がある</li>
-              <li>・Angularは<strong>大規模アプリの設計・保守経験</strong>との掛け合わせで市場価値が上がる</li>
+              <li>・関連職種のフロントエンドエンジニア平均年収は<strong>約460万円です</strong>（求人ボックス・2026年6月）。求人媒体のAngular求人では上限1300万円の例も</li>
+              <li>・TypeScriptやReact/Vueの経験があれば、Angular未経験でもポテンシャル採用の余地があります</li>
+              <li>・Angularは<strong>大規模アプリの設計・保守経験</strong>との掛け合わせで市場価値が上がります</li>
             </ul>
           </div>
         </section>
@@ -183,7 +183,7 @@ export default function AngularSkillPage() {
         <section id="level" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Angular求人は「Angular実務そのもの」を必須にするものと、「TypeScript/SPA実務＋Angularは入社後キャッチアップ可」とするものに分かれます。求人票によく登場する要件を傾向としてまとめると次の通りです。
+            Angular求人は「Angular実務そのもの」を必須にするものと、「TypeScript/SPA実務＋Angularは入社後キャッチアップ可」とするものに分かれます。求人票によく登場する要件を傾向としてまとめると次のとおりです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -208,10 +208,10 @@ export default function AngularSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "フロントエンドエンジニア", note: "Angularでの業務アプリ・管理画面開発が中心。求人の最も多いゾーン" },
-              { role: "業務システムエンジニア", note: "Angular＋バックエンドで大規模業務システムを担当。SIer・金融で需要" },
+              { role: "フロントエンドエンジニア", note: "Angularでの業務アプリ・管理画面開発が中心です。求人の最も多いゾーン" },
+              { role: "業務システムエンジニア", note: "Angular＋バックエンドで大規模業務システムを担当します。SIer・金融で需要" },
               { role: "テックリード／フロントアーキテクト", note: "大規模Angularアプリの設計＋技術選定＋チームリード" },
-              { role: "フリーランス（Angular案件）", note: "エンタープライズSPA・長期保守案件。希少性から単価が高い傾向" },
+              { role: "フリーランス（Angular案件）", note: "エンタープライズSPA・長期保守案件です。希少性から単価が高い傾向" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -234,21 +234,21 @@ export default function AngularSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。Angularのような専門求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍しています。Angularのような専門求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                年収750万円以上を中心としたハイクラス・スカウト型。エンタープライズのフロントアーキテクトやテックリード級の求人・スカウトに出会いやすいのが特徴です。
+                年収750万円以上を中心としたハイクラス・スカウト型です。エンタープライズのフロントアーキテクトやテックリード級の求人・スカウトに出会いやすいのが特徴です。
               </p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・IT業界に強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で、提案スピードが強み。Angularを採用するIT企業・業務システム案件を探したい場合の選択肢になります。
+                IT・Web・ゲーム業界専門で、提案スピードが強みです。Angularを採用するIT企業・業務システム案件を探したい場合の選択肢になります。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -263,7 +263,7 @@ export default function AngularSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">経験浅めからAngularに参入するルート</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "TypeScript・SPAの実務経験を土台にする", desc: "TypeScriptやReact/VueでのSPA経験があれば、それを土台に「Angularは未経験だがキャッチアップ可」とアピールできます。AngularはTypeScript前提なので、型の素養があるエンジニアは設計思想に馴染みやすいです。" },
+              { num: "1", title: "TypeScript・SPAの実務経験を土台にする", desc: "TypeScriptやReact/VueでのSPA経験があれば、それを土台に「Angularは未経験だがキャッチアップ可」とアピールできます。AngularはTypeScript前提であるため、型の素養があるエンジニアは設計思想に馴染みやすいです。" },
               { num: "2", title: "GitHubに実務に近いAngularアプリを公開する", desc: "業務アプリ風の管理画面や、フォーム・HTTP通信・DIを使ったSPAをAngularで作って公開します。コンポーネント設計・RxJS・テストまで含めると、動くだけでなく設計の意図が伝わる状態になります。" },
               { num: "3", title: "エンタープライズ領域のポテンシャル枠を狙う", desc: "業務システムを内製・保守する企業は、Angular経験者の母数不足から入社後キャッチアップ前提の採用を行うことがあります。エージェントに「Angularは学習中」と伝え、そうした求人を紹介してもらうのが近道です。" },
             ].map((item, i) => (
@@ -285,13 +285,13 @@ export default function AngularSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>安定領域の希少スキルは年齢の不利を相殺しやすい。</strong>Angularのように扱える人が限られ、かつ長期運用が前提の領域では、「若くて安い人材」より「大規模アプリを設計・保守できる経験者」が求められます。30代・40代で業務システムの実務を積んでいるなら、その設計経験こそが武器になります。
+              <strong>安定領域の希少スキルは年齢の不利を相殺しやすいです。</strong>Angularのように扱える人が限られ、かつ長期運用が前提の領域では、「若くて安い人材」より「大規模アプリを設計・保守できる経験者」が求められます。30代・40代で業務システムの実務を積んでいるなら、その設計経験こそが強みになります。
             </p>
             <p>
-              <strong>掛け算で差別化する。</strong>「Angular＋過去のドメイン知識（金融・製造・物流など）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、Angularという実装手段と結びつけて語れると、エンタープライズ案件で説得力が増します。
+              <strong>掛け算で差別化します。</strong>「Angular＋過去のドメイン知識（金融・製造・物流など）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、Angularという実装手段と結びつけて語れると、エンタープライズ案件で説得力が増します。
             </p>
             <p>
-              <strong>マネジメント経験も資産になる。</strong>テックリードやフロントアーキテクトの求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやフロントアーキテクトの求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -304,13 +304,13 @@ export default function AngularSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 公式ドキュメントとTypeScriptの基礎を固める。</strong>Angularは公式ドキュメントが体系的です。まずTypeScriptの基礎を固めたうえで、コンポーネント・DI・ルーティング・フォームといったAngular固有の枠組みを公式で押さえると、規約の意図まで理解できます。
+              <strong>① 公式ドキュメントとTypeScriptの基礎を固めます。</strong>Angularは公式ドキュメントが体系的です。まずTypeScriptの基礎を固めたうえで、コンポーネント・DI・ルーティング・フォームといったAngular固有の枠組みを公式で押さえると、規約の意図まで理解できます。
             </p>
             <p>
-              <strong>② RxJSと状態管理に慣れる。</strong>Angularでは非同期処理にRxJSが多用されます。Observableの考え方や、状態管理パターンを実プロジェクトで使うと、即戦力ゾーンの求人で語れる経験になります。近年のSignalsなど新機能も押さえておくと差がつきます。
+              <strong>② RxJSと状態管理に慣れます。</strong>Angularでは非同期処理にRxJSが多用されます。Observableの考え方や、状態管理パターンを実プロジェクトで使うと、即戦力ゾーンの求人で語れる経験になります。近年のSignalsなど新機能も押さえておくと差がつきます。
             </p>
             <p>
-              <strong>③ 大規模アプリの設計・保守を掛け合わせる。</strong>Angularが活きるのは大規模・長期運用の現場です。モジュール分割、テスト戦略、パフォーマンス最適化といった「大きく作って長く保つ」経験は、エンタープライズ案件で差がつくポイントになります。
+              <strong>③ 大規模アプリの設計・保守を掛け合わせます。</strong>Angularが活きるのは大規模・長期運用の現場です。モジュール分割、テスト戦略、パフォーマンス最適化といった「大きく作って長く保つ」経験は、エンタープライズ案件で差がつくポイントになります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -357,7 +357,7 @@ export default function AngularSkillPage() {
               { name: "Vueエンジニアの転職ガイド", href: "/skill/vue/" },
               { name: "フロントエンドエンジニアの転職ガイド", href: "/skill/frontend/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

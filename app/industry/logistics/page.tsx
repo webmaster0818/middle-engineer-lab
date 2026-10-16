@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/industry/logistics/" },
   title: "物流からLogiTech転職【30代40代エンジニアガイド】",
   description:
-    "物流業界エンジニアからLogiTech・物流テック領域への転職方法を解説。活かせるスキルと埋めるギャップ、転職パターン、年収の考え方、進め方を30代40代視点で紹介。",
+    "物流業界エンジニアからLogiTech・物流テック領域への転職方法を解説します。活かせるスキルと埋めるギャップ、転職パターン、年収の考え方、進め方を30代40代視点で紹介します。",
 };
 
 const TITLE = "物流からLogiTech転職【30代40代エンジニアガイド】";
 const DESC =
-  "物流業界エンジニアからLogiTech・物流テック領域への転職方法を解説。活かせるスキルと埋めるギャップ、転職パターン、年収の考え方、進め方を30代40代視点で紹介。";
+  "物流業界エンジニアからLogiTech・物流テック領域への転職方法を解説します。活かせるスキルと埋めるギャップ、転職パターン、年収の考え方、進め方を30代40代視点で紹介します。";
 
 const toc = [
   { id: "conclusion", label: "結論：物流オペレーションの理解が希少" },
@@ -115,7 +115,7 @@ export default function LogisticsPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          物流の2024年問題（ドライバーの時間外労働規制）やECの普及を背景に、物流業界のDXが進んでいます。WMS、TMS、自動倉庫、ラストマイル配送の最適化など、物流の知識を持つエンジニアは、物流テック領域では純粋なIT人材が持ちにくい武器を備えています。本記事では、物流業界エンジニアがLogiTech領域へ転職するための考え方と進め方を、30代・40代のミドルエンジニア視点で整理します。
+          物流の2024年問題（ドライバーの時間外労働規制）やECの普及を背景に、物流業界のDXが進んでいます。WMS、TMS、自動倉庫、ラストマイル配送の最適化など、物流の知識を持つエンジニアは、物流テック領域では純粋なIT人材が持ちにくい強みを備えています。本記事では、物流業界エンジニアがLogiTech領域へ転職するための考え方と進め方を、30代・40代のミドルエンジニア視点で整理します。
         </p>
 
         <DataNote
@@ -147,7 +147,7 @@ export default function LogisticsPage() {
               物流の業務知識を持つエンジニアのLogiTech転職は、<strong>十分に現実的</strong>です。物流テックでは「倉庫・配送の現場で何が起きるか」「在庫・輸送がどう動くか」を理解していることが価値になり、これは後から参入する純粋なIT人材が短期間で身につけにくい領域だからです。
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
-              <li>・<strong>強み</strong>：WMS・TMS・在庫最適化・現場オペの理解はそのまま活きる</li>
+              <li>・<strong>強み</strong>：WMS・TMS・在庫最適化・現場オペの理解はそのまま活きます</li>
               <li>・<strong>埋めるべきギャップ</strong>：バックエンド開発・データ分析・最適化の基礎</li>
               <li>・<strong>進め方</strong>：経験の棚卸し → スキル補強 → IT特化エージェントで求人レンジ確認</li>
             </ul>
@@ -245,7 +245,7 @@ export default function LogisticsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人／向いていない人</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="border border-emerald-200 bg-emerald-50 rounded-xl p-5">
-              <h3 className="font-bold text-emerald-800 mb-3 text-sm">こんな人は向いている</h3>
+              <h3 className="font-bold text-emerald-800 mb-3 text-sm">このような方に向いています</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
                   "WMS・TMSなど物流システムの実務経験がある",
@@ -262,7 +262,7 @@ export default function LogisticsPage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">慎重に検討したい人</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
-                  "物流の経験がなく、技術力だけで勝負したい",
+                  "物流の経験がなく、技術力だけを強みにしたい",
                   "倉庫・配送の現場オペレーションに関心が薄い",
                   "学習に時間を割けず、即戦力の技術力も足りない",
                   "短期間での大幅な年収アップだけを目的にしている",
@@ -285,12 +285,12 @@ export default function LogisticsPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg overflow-hidden">
               <div className="bg-slate-100 px-4 py-2 text-xs font-bold text-slate-500">Before（伝わりにくい例）</div>
-              <p className="px-4 py-3 text-sm text-slate-600">WMSの導入・運用を担当。配送ルートの設計にも携わった。</p>
+              <p className="px-4 py-3 text-sm text-slate-600">WMSの導入・運用を担当します。配送ルートの設計にも携わった。</p>
             </div>
             <div className="border border-[var(--line)] rounded-lg overflow-hidden">
               <div className="bg-petrol-soft px-4 py-2 text-xs font-bold text-petrol-deep">After（物流×ITが伝わる例）</div>
               <p className="px-4 py-3 text-sm text-slate-700">
-                倉庫向けWMSの導入・運用を担当。現場の作業動線とピッキング負荷を踏まえたロケーション設計を主導し、出荷作業の効率改善に貢献。配送ルートの設計では制約条件（時間指定・積載率）を整理し、配車最適化の要件定義に参画。倉庫オペレーションと配送設計の両面を理解している点を強みとする。
+                倉庫向けWMSの導入・運用を担当します。現場の作業動線とピッキング負荷を踏まえたロケーション設計を主導し、出荷作業の効率改善に貢献します。配送ルートの設計では制約条件（時間指定・積載率）を整理し、配車最適化の要件定義に参画します。倉庫オペレーションと配送設計の両面を理解している点を強みとします。
               </p>
             </div>
           </div>
@@ -309,10 +309,10 @@ export default function LogisticsPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-4">
             <ul className="text-sm text-slate-700 space-y-2 leading-relaxed">
               <li>
-                ・<strong>正社員SEの年代別平均年収（レバテック公表・2025年）</strong>：20代 約378万円／30代 約499万円／40代 約618万円／50代 約685万円。年収1,000万円以上の割合は30代8.01%・40代12.67%。
+                ・<strong>正社員SEの年代別平均年収（レバテック公表・2025年）</strong>：20代 約378万円／30代 約499万円／40代 約618万円／50代 約685万円です。年収1,000万円以上の割合は30代8.01%・40代12.67%です。
               </li>
               <li>
-                ・<strong>IT・通信の平均決定年収（doda／パーソルキャリア「決定年収レポート」2025年5月公表）</strong>：2023年度469万円→2024年度486万円。doda公表では転職者の約6割が年収アップとされています。
+                ・<strong>IT・通信の平均決定年収（doda／パーソルキャリア「決定年収レポート」2025年5月公表）</strong>：2023年度469万円→2024年度486万円です。doda公表では転職者の約6割が年収アップとされています。
               </li>
             </ul>
           </div>
@@ -329,15 +329,15 @@ export default function LogisticsPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">WMS/TMSベンダー・物流プラットフォーム</h3>
-              <p className="text-sm text-slate-600">倉庫・輸配送管理システムや物流基盤を提供する企業。WMS・TMSの業務知識がそのまま活きやすい。</p>
+              <p className="text-sm text-slate-600">倉庫・輸配送管理システムや物流基盤を提供する企業です。WMS・TMSの業務知識がそのまま活きやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">配車最適化・ラストマイルテック</h3>
-              <p className="text-sm text-slate-600">ルート最適化やリアルタイムトラッキング、宅配連携を手がける企業。配送設計の理解と最適化スキルが評価される。</p>
+              <p className="text-sm text-slate-600">ルート最適化やリアルタイムトラッキング、宅配連携を手がける企業です。配送設計の理解と最適化スキルが評価されます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">自動倉庫・ロボティクス</h3>
-              <p className="text-sm text-slate-600">AMRや自動ピッキングを提供する企業。倉庫オペの理解＋制御・連携設計が差別化要素になる。</p>
+              <p className="text-sm text-slate-600">AMRや自動ピッキングを提供する企業です。倉庫オペの理解＋制御・連携設計が差別化要素になります。</p>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -349,10 +349,10 @@ export default function LogisticsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "物流業界の経験を棚卸しする", desc: "WMS導入、配送ルート設計、在庫管理最適化など携わった案件を整理。配送効率改善率やコスト削減額など定量的な実績を準備する。" },
-              { step: "2", title: "データ分析・プログラミングを補強する", desc: "Python・SQL・GIS（地理情報）の基礎を学ぶ。組合せ最適化・ルート最適化などのアルゴリズム知識も有効。" },
-              { step: "3", title: "物流テック領域をリサーチする", desc: "自動配車、ドローン配送、フィジカルインターネット、デジタルフォワーディングなどのうち、自分の経験が最も活きる領域を見極める。" },
-              { step: "4", title: "IT特化エージェントで求人レンジを確認", desc: "Geekly・レバテックキャリア・ワークポートなどに登録し、実際の物流テック求人と提示年収レンジを比較する。" },
+              { step: "1", title: "物流業界の経験を棚卸しする", desc: "WMS導入、配送ルート設計、在庫管理最適化など携わった案件を整理します。配送効率改善率やコスト削減額など定量的な実績を準備します。" },
+              { step: "2", title: "データ分析・プログラミングを補強する", desc: "Python・SQL・GIS（地理情報）の基礎を学びます。組合せ最適化・ルート最適化などのアルゴリズム知識も有効です。" },
+              { step: "3", title: "物流テック領域をリサーチする", desc: "自動配車、ドローン配送、フィジカルインターネット、デジタルフォワーディングなどのうち、自分の経験が最も活きる領域を見極めます。" },
+              { step: "4", title: "IT特化エージェントで求人レンジを確認", desc: "Geekly・レバテックキャリア・ワークポートなどに登録し、実際の物流テック求人と提示年収レンジを比較します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -375,15 +375,15 @@ export default function LogisticsPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートA：物流知見を軸に導入支援・PdMへ</h3>
-              <p className="text-sm text-slate-600">倉庫・配送オペの理解を武器に、物流テックの導入支援やPdMから入り、技術理解を業務の中で深める。</p>
+              <p className="text-sm text-slate-600">倉庫・配送オペの理解を強みに、物流テックの導入支援やPdMから入り、技術理解を業務の中で深めます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートB：既存の開発スキルにモダンスタックを足す</h3>
-              <p className="text-sm text-slate-600">WMS/TMS開発の経験者がPython・Java・Goやクラウドを補強して物流テックのエンジニア職へ。学習成果を小さな制作物で示すと伝わりやすい。</p>
+              <p className="text-sm text-slate-600">WMS/TMS開発の経験者がPython・Java・Goやクラウドを補強して物流テックのエンジニア職へ。学習成果を小さな制作物で示すと伝わりやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートC：最適化・データ領域へ寄せる</h3>
-              <p className="text-sm text-slate-600">配送設計や在庫最適化に強みがあるなら、SQL・Pythonと最適化アルゴリズムを軸に配車最適化・物流データ分析の周辺ポジションを狙う。</p>
+              <p className="text-sm text-slate-600">配送設計や在庫最適化に強みがあるなら、SQL・Pythonと最適化アルゴリズムを軸に配車最適化・物流データ分析の周辺ポジションを狙います。</p>
             </div>
           </div>
         </section>
@@ -392,10 +392,10 @@ export default function LogisticsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくあるつまずきと対策</h2>
           <div className="space-y-3">
             {[
-              { p: "「WMS導入の経験」だけを書いて物流知見が伝わらない", s: "倉庫・配送の現場制約と、それをどう解決し効率・コストが改善したかを職務経歴書に具体的に書く。" },
-              { p: "求人が見つからず1社のエージェントで止まってしまう", s: "IT特化と総合型を2社以上併用し、提案される物流テック求人の傾向を比較する。" },
-              { p: "最新技術力で若手と比較され不利になる", s: "技術の最先端で勝負するより、物流ドメイン×ITの掛け合わせで応募ポジションを選ぶ。" },
-              { p: "学習が手段化して目的を見失う", s: "志望職種の求人要件から逆算し、必要な技術だけに絞って学習する。" },
+              { p: "「WMS導入の経験」だけを書いて物流知見が伝わりません", s: "倉庫・配送の現場制約と、それをどう解決し効率・コストが改善したかを職務経歴書に具体的に書きます。" },
+              { p: "求人が見つからず1社のエージェントで止まってしまいます", s: "IT特化と総合型を2社以上併用し、提案される物流テック求人の傾向を比較します。" },
+              { p: "最新技術力で若手と比較され不利になります", s: "技術の最先端を強みにするより、物流ドメイン×ITの掛け合わせで応募ポジションを選びます。" },
+              { p: "学習が手段化して目的を見失います", s: "志望職種の求人要件から逆算し、必要な技術だけに絞って学習します。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <p className="text-sm font-bold text-slate-800 mb-1">つまずき：{item.p}</p>
@@ -409,7 +409,7 @@ export default function LogisticsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              ミドル層の物流系エンジニアにとって、LogiTech転職は「最新技術力で若手と競う」より「物流オペレーションの蓄積で勝負する」戦い方ができる点が利点です。30代・40代は倉庫・配送の現場経験や、荷主・委託先との調整経験が豊富で、システムの要件定義や現場導入の推進で評価されやすくなります。
+              ミドル層の物流系エンジニアにとって、LogiTech転職は「最新技術力で若手と競う」より「物流オペレーションの蓄積を強みにする」進め方ができる点が利点です。30代・40代は倉庫・配送の現場経験や、荷主・委託先との調整経験が豊富で、システムの要件定義や現場導入の推進で評価されやすくなります。
             </p>
             <p className="text-slate-700 leading-relaxed mb-3">
               一方、コーディング比重の高いポジションだけに絞ると20代と競合しがちです。配車最適化のロジック設計や、現場と技術をつなぐPdM・導入推進など、物流の知見が強みに転じる職種を視野に入れると選択肢が広がります。

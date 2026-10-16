@@ -6,9 +6,9 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/generative-ai-era/" },
-  title: "生成AI時代に生き残るエンジニアのスキル【30-40代の戦い方】",
+  title: "生成AI時代に生き残るエンジニアのスキル【30-40代の進め方】",
   description:
-    "生成AIで奪われる仕事・残る仕事の切り分けから、求められる3要素、伸ばすべきスキルまで30-40代エンジニア向けに解説。経験・要件定義・マネジメントがAI時代にむしろ価値を増す理由を、誇張せず整理します。",
+    "生成AIで奪われる仕事・残る仕事の切り分けから、求められる3要素、伸ばすべきスキルまで30-40代エンジニア向けに解説します。経験・要件定義・マネジメントがAI時代にむしろ価値を増す理由を、誇張せず整理します。",
 };
 
 const toc = [
@@ -68,8 +68,8 @@ export default function GenerativeAiEraPage() {
   return (
     <>
       <ArticleJsonLd
-        title="生成AI時代に生き残るエンジニアのスキル【30-40代の戦い方】"
-        description="生成AIで奪われる仕事・残る仕事の切り分けから、求められる3要素、伸ばすべきスキルまで30-40代エンジニア向けに解説。経験・要件定義・マネジメントがAI時代にむしろ価値を増す理由を、誇張せず整理します。"
+        title="生成AI時代に生き残るエンジニアのスキル【30-40代の進め方】"
+        description="生成AIで奪われる仕事・残る仕事の切り分けから、求められる3要素、伸ばすべきスキルまで30-40代エンジニア向けに解説します。経験・要件定義・マネジメントがAI時代にむしろ価値を増す理由を、誇張せず整理します。"
         url="/knowledge/generative-ai-era/"
       />
       <script
@@ -86,23 +86,23 @@ export default function GenerativeAiEraPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          生成AI時代に生き残るエンジニアのスキル【30-40代の戦い方】
+          生成AI時代に生き残るエンジニアのスキル【30-40代の進め方】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 | 経験を武器にAI時代を生き抜くミドルの戦略
+          最終更新: 2026年6月 | 経験を強みにAI時代を生き抜くミドルの戦略
         </p>
 
         {/* 直答box (P6-C2) */}
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】生成AI時代、30-40代エンジニアは何を武器に生き残ればいい？</h2>
+            <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】生成AI時代、30-40代エンジニアは何を強みに生き残ればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3">
-              <strong>結論: 奪われるのは定型的な「作業」で、残り価値が増すのは課題を定義し出力を判断する「判断」。30-40代は自分の経験×AIで、判断と課題設定の領域で勝負するのが王道です。</strong>
+              <strong>結論: 奪われるのは定型的な「作業」で、残り価値が増すのは課題を定義し出力を判断する「判断」。30-40代は自分の経験×AIで、判断と課題設定の領域を強みにするのが一般的です。</strong>
             </p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
               <li>・AIに置き換わりやすいのは定型コードの生成・補完・調査などの「作業」、人間に残りやすいのは要件定義・技術選定・合意形成などの「判断」</li>
               <li>・評価されるのはAI実装力・エンジニアリング力・ビジネス課題設定力の3要素を掛け合わせられる人材</li>
-              <li>・ミドルのドメイン知識・要件定義・マネジメント経験はAI出力の検証と「問い」を立てる力に直結し、AI時代にむしろ価値が上がる</li>
+              <li>・ミドルのドメイン知識・要件定義・マネジメント経験はAI出力の検証と「問い」を立てる力に直結し、AI時代にむしろ価値が上がります</li>
             </ul>
           </div>
         </section>
@@ -179,9 +179,9 @@ export default function GenerativeAiEraPage() {
           <p className="text-slate-600 leading-relaxed mb-4">生成AIを前提とした現場で評価されるのは、次の3つを掛け合わせられる人材です。</p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "AI実装力", desc: "生成AIを道具として実務に組み込む力。プロンプト設計、RAGやエージェントの構築、AIを前提とした開発フローを回せること。" },
-              { num: "2", title: "エンジニアリング力", desc: "AIの出力を鵜呑みにせず、設計・品質・セキュリティの観点でレビューし、システムとして成立させる力。土台の技術力は引き続き必須。" },
-              { num: "3", title: "ビジネス課題設定力", desc: "「何を解けば価値が出るか」を定義する力。AIは答えを出すのは得意でも、問いを立てるのは人間の仕事。ミドルの経験が最も活きる部分。" },
+              { num: "1", title: "AI実装力", desc: "生成AIを道具として実務に組み込む力です。プロンプト設計、RAGやエージェントの構築、AIを前提とした開発フローを回せることが重要です。" },
+              { num: "2", title: "エンジニアリング力", desc: "AIの出力を鵜呑みにせず、設計・品質・セキュリティの観点でレビューし、システムとして成立させる力です。土台の技術力は引き続き必須です。" },
+              { num: "3", title: "ビジネス課題設定力", desc: "「何を解けば価値が出るか」を定義する力です。AIは答えを出すのは得意でも、問いを立てるのは人間の仕事です。ミドルの経験が最も活きる部分です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -201,11 +201,11 @@ export default function GenerativeAiEraPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-red-50 border border-red-200 rounded-lg p-5">
               <h3 className="font-bold text-red-700 mb-2">プロンプトを叩くだけ</h3>
-              <p className="text-sm text-slate-600">AIに指示を出して出力を貼るだけで、出力の妥当性を判断できない状態。代替されやすく、付加価値を出しにくい。</p>
+              <p className="text-sm text-slate-600">AIに指示を出して出力を貼るだけで、出力の妥当性を判断できない状態です。代替されやすく、付加価値を出しにくいです。</p>
             </div>
             <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-5">
               <h3 className="font-bold text-emerald-800 mb-2">AIを組み込む側に回る</h3>
-              <p className="text-sm text-slate-600">RAGやエージェントを設計・構築し、AIの出力を品質・セキュリティの観点で管理する。需要が高まりやすい立ち位置。</p>
+              <p className="text-sm text-slate-600">RAGやエージェントを設計・構築し、AIの出力を品質・セキュリティの観点で管理します。需要が高まりやすい立ち位置です。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5">
@@ -233,7 +233,7 @@ export default function GenerativeAiEraPage() {
             ))}
           </ul>
           <div className="bg-petrol-soft rounded-lg p-5">
-            <p className="text-sm text-petrol-deep">体系的に学ぶなら、関連スキルの解説も参考になります。関連: <Link href="/skill/generative-ai/" className="text-petrol-deep underline">生成AIスキル</Link>、<Link href="/skill/ai-ml/" className="text-petrol-deep underline">AI・機械学習スキル</Link>。</p>
+            <p className="text-sm text-petrol-deep">体系的に学ぶなら、関連スキルの解説も参考になります。関連: <Link href="/skill/generative-ai/" className="text-petrol-deep underline">生成AIスキル</Link>、<Link href="/skill/ai-ml/" className="text-petrol-deep underline">AI・機械学習スキルです</Link>。</p>
           </div>
         </section>
 
@@ -243,10 +243,10 @@ export default function GenerativeAiEraPage() {
           <p className="text-slate-600 leading-relaxed mb-4">純粋な実装力以上に、AIで代替しにくいのが次の非技術スキルです。これらは経験を積んだミドルの得意分野でもあります。</p>
           <div className="space-y-4">
             {[
-              { t: "課題発見・要件定義", d: "曖昧なビジネス要求を、解くべき技術課題に翻訳する力。AIは与えられた問いには答えるが、問いを立てるのは人間。" },
-              { t: "技術選定・トレードオフ判断", d: "正解が一つでない状況で、制約とリスクを踏まえて選ぶ力。文脈の理解が必要で代替しにくい。" },
-              { t: "合意形成・交渉", d: "関係者の利害を調整し、意思決定に導く力。対人の信頼関係が前提になる。" },
-              { t: "マネジメント・育成", d: "チームを動かし、人を育てる力。AI時代でも組織を成果に結びつけるのは人間の役割。" },
+              { t: "課題発見・要件定義", d: "曖昧なビジネス要求を、解くべき技術課題に翻訳する力です。AIは与えられた問いには答えるが、問いを立てるのは人間です。" },
+              { t: "技術選定・トレードオフ判断", d: "正解が一つでない状況で、制約とリスクを踏まえて選ぶ力です。文脈の理解が必要で代替しにくいです。" },
+              { t: "合意形成・交渉", d: "関係者の利害を調整し、意思決定に導く力です。対人の信頼関係が前提になります。" },
+              { t: "マネジメント・育成", d: "チームを動かし、人を育てる力です。AI時代でも組織を成果に結びつけるのは人間の役割です。" },
             ].map((n, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{n.t}</h3>
@@ -273,11 +273,11 @@ export default function GenerativeAiEraPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マネジメントがAI活用の現場を成果に変える</h3>
-              <p className="text-sm text-petrol-deep">AIを使う人・チームをどう動かし、成果に結びつけるか。組織を回す力は代替されにくく、ミドルの強みが活きます。関連: <Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリア</Link>。</p>
+              <p className="text-sm text-petrol-deep">AIを使う人・チームをどう動かし、成果に結びつけるか。組織を回す力は代替されにくく、ミドルの強みが活きます。関連: <Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリアです</Link>。</p>
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mt-5">
-            <p className="text-sm text-amber-800"><strong>戦い方の結論：</strong>30-40代は「若手とAIツールの操作習熟を競う」のではなく、「自分の経験 × AI」で<strong>判断と課題設定の領域で勝負する</strong>のが王道です。AIを取り入れる柔軟さと、これまでの経験の掛け算が、最も再現性のある生存戦略になります。</p>
+            <p className="text-sm text-amber-800"><strong>進め方の結論：</strong>30-40代は「若手とAIツールの操作習熟を競う」のではなく、「自分の経験 × AI」で<strong>判断と課題設定の領域を強みにする</strong>のが一般的です。AIを取り入れる柔軟さと、これまでの経験の掛け算が、最も再現性のある生存戦略になります。</p>
           </div>
         </section>
 
@@ -308,7 +308,7 @@ export default function GenerativeAiEraPage() {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">AI時代のキャリアをプロに相談しよう</h2>
-          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、生成AIを前提とした求人動向や、あなたの経験の活かし方を具体的にアドバイスしてくれます。</p>
+          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、生成AIを前提とした求人動向や、ご自身の経験の活かし方を具体的にアドバイスしてくれます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/disability/" },
   title: "障害のあるエンジニアの転職【一般雇用と障害者雇用】",
   description:
-    "障害のあるエンジニアの転職を解説。一般雇用と障害者雇用の違い、合理的配慮の一般知識、障害を開示するタイミングの考え方を整理。制度詳細は専門機関への相談を案内します。",
+    "障害のあるエンジニアの転職を解説します。一般雇用と障害者雇用の違い、合理的配慮の一般知識、障害を開示するタイミングの考え方を整理します。制度詳細は専門機関への相談を案内します。",
 };
 
 const toc = [
@@ -54,7 +54,7 @@ export default function DisabilityPage() {
 
   return (
     <>
-      <ArticleJsonLd title="障害のあるエンジニアの転職【一般雇用と障害者雇用】" description="障害のあるエンジニアの転職を解説。一般雇用と障害者雇用の違い、合理的配慮の一般知識、障害を開示するタイミングの考え方を整理。制度詳細は専門機関への相談を案内します。" url="/knowledge/disability/" />
+      <ArticleJsonLd title="障害のあるエンジニアの転職【一般雇用と障害者雇用】" description="障害のあるエンジニアの転職を解説します。一般雇用と障害者雇用の違い、合理的配慮の一般知識、障害を開示するタイミングの考え方を整理します。制度詳細は専門機関への相談を案内します。" url="/knowledge/disability/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "転職ガイド" }, { name: "障害のあるエンジニアの転職" }]} />
 
@@ -67,7 +67,7 @@ export default function DisabilityPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】一般雇用と障害者雇用、どちらで転職を進めるべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 制度名から選ぶのではなく、自分に必要な配慮の量と継続性から逆算して選ぶと判断しやすくなります。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・配慮が限定的でスキルで競えるなら一般雇用、継続的・明確な配慮が前提なら障害者雇用枠が候補</li><li>・障害の開示は範囲もタイミングも自分でコントロールできる</li><li>・制度の要件・最新情報はハローワークや支援センターなど専門機関に確認するのが前提</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・配慮が限定的でスキルで競えるなら一般雇用、継続的・明確な配慮が前提なら障害者雇用枠が候補</li><li>・障害の開示は範囲もタイミングも自分でコントロールできます</li><li>・制度の要件・最新情報はハローワークや支援センターなど専門機関に確認するのが前提</li></ul>
           </div>
         </section>
 
@@ -96,7 +96,7 @@ export default function DisabilityPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>1. 必要な配慮が限定的でスキルで競えるなら一般雇用も有力</li>
               <li>2. 継続的・明確な配慮が前提なら障害者雇用枠が候補</li>
-              <li>3. 開示の範囲とタイミングは自分でコントロールできる</li>
+              <li>3. 開示の範囲とタイミングは自分でコントロールできます</li>
               <li>4. 制度の要件・最新情報は専門機関に確認するのが前提</li>
             </ul>
           </div>
@@ -138,7 +138,7 @@ export default function DisabilityPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">開示のメリット</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">必要な配慮を前提に選考・受け入れ準備を進めてもらえる。入社後のミスマッチや「言い出せないストレス」を避けられる。配慮を織り込んだ働き方を最初から設計できる。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">必要な配慮を前提に選考・受け入れ準備を進めてもらえます。入社後のミスマッチや「言い出せないストレス」を避けられます。配慮を織り込んだ働き方を最初から設計できます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">非開示（一般雇用）の選択</h3>
@@ -176,13 +176,13 @@ export default function DisabilityPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職活動の進め方チェックリスト</h2>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-3 text-sm text-slate-700">
-              <li>☑ 自分に必要な配慮を「具体的な行動レベル」で書き出した（頻度・時間・方法）</li>
-              <li>☑ 一般雇用／障害者雇用のどちらで進めるか、配慮ニーズから検討した</li>
-              <li>☑ 開示の範囲とタイミングの方針を決めた（専門機関にも相談した）</li>
-              <li>☑ ハローワーク専門窓口・支援センター等、公的な相談先を把握した</li>
-              <li>☑ 障害者雇用に対応したエージェントとIT特化型エージェントの併用を検討した</li>
-              <li>☑ ポートフォリオ・GitHub等でスキルを客観的に示せる状態にした</li>
-              <li>☑ 内定前に配慮内容を書面で確認する段取りを決めた</li>
+              <li>☑ 自分に必要な配慮を「具体的な行動レベル」で書き出しました（頻度・時間・方法）</li>
+              <li>☑ 一般雇用／障害者雇用のどちらで進めるか、配慮ニーズから検討しました</li>
+              <li>☑ 開示の範囲とタイミングの方針を決めました（専門機関にも相談した）</li>
+              <li>☑ ハローワーク専門窓口・支援センター等、公的な相談先を把握しました</li>
+              <li>☑ 障害者雇用に対応したエージェントとIT特化型エージェントの併用を検討しました</li>
+              <li>☑ ポートフォリオ・GitHub等でスキルを客観的に示せる状態にしました</li>
+              <li>☑ 内定前に配慮内容を書面で確認する段取りを決めました</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">スキルの可視化は、雇用区分にかかわらず評価の土台になります。<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>や<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>も役立ちます。</p>
@@ -190,7 +190,7 @@ export default function DisabilityPage() {
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の障害のあるエンジニアの視点</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアは、これまでの実務経験そのものが強い武器になります。市況としても経験者の需要は高く、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアは、これまでの実務経験そのものが強い強みになります。市況としても経験者の需要は高く、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
           <p className="text-slate-600 leading-relaxed">配慮を必要とすることと、市場価値が高いことは両立します。スキルで評価される土台を整えつつ、必要な配慮を具体的に伝えることが、長く働ける職場選びの近道です。年齢の論点は<Link href="/knowledge/age-discrimination/" className="text-petrol hover:underline">年齢と転職</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>も参考にしてください。</p>
         </section>
 
@@ -200,7 +200,7 @@ export default function DisabilityPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">あなたに合った転職サポートを探す</h2>
+          <h2 className="text-xl font-bold mb-3">ご自身に合った転職サポートを探す</h2>
           <p className="text-blue-100 text-sm mb-4">IT特化型エージェントでスキルに合う求人を探しつつ、制度の詳細は専門機関に確認するのが安心です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>

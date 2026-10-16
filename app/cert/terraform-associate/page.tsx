@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Terraform Associateは転職に効くか｜IaC実務の加点資格と年収【2026年】";
 const PAGE_DESC =
-  "HashiCorp Certified: Terraform Associateを、Infrastructure as Code（IaC）の実務を補強する加点資格という観点から30代・40代向けに解説。受験料70.50 USD、選択式・1時間、2年の有効期限、実務とセットで効く理由を限界も含めて整理します。";
+  "HashiCorp Certified: Terraform Associateを、Infrastructure as Code（IaC）の実務を補強する加点資格という観点から30代・40代向けに解説します。受験料70.50 USD、選択式・1時間、2年の有効期限、実務とセットで効く理由を留意点も含めて整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/terraform-associate/" },
@@ -100,14 +100,14 @@ export default function TerraformAssociateCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          HashiCorp Certified: Terraform Associateは、<strong>Infrastructure as Code（IaC）の基礎を体系的に証明する認定資格</strong>です。本記事は「Terraform Associateを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口というより『インフラ・クラウド経験者がIaCスキルを補強する加点資格』</strong>という性格を軸に、その価値を公式情報をもとに整理します。アソシエイトレベルゆえに資格単体では効きにくいという限界も正直にお伝えします。
+          HashiCorp Certified: Terraform Associateは、<strong>Infrastructure as Code（IaC）の基礎を体系的に証明する認定資格</strong>です。本記事は「Terraform Associateを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口というより『インフラ・クラウド経験者がIaCスキルを補強する加点資格』</strong>という性格を軸に、その価値を公式情報をもとに整理します。アソシエイトレベルゆえに資格単体では効きにくいという留意点もご説明します。
         </p>
 
         <DataNote
           surveyedAt="2026年6月"
           sources={[
             "HashiCorp 公式（hashicorp.com／developer.hashicorp.com）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -133,9 +133,9 @@ export default function TerraformAssociateCertPage() {
               Terraform Associateは<strong>「IaC実務の加点資格」</strong>です。アソシエイトレベルのため未経験を一気に押し上げるものではなく、すでにインフラ・クラウド経験のあるミドルが<strong>『コードでインフラを管理できる』ことを補強する</strong>のに最も効きます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>インフラ・クラウド経験のある30〜40代</strong>：IaCスキルの体系的な証明として加点される</li>
-              <li>② <strong>DevOps・自動化を進めたい人</strong>：手作業からコード管理への移行を裏付ける</li>
-              <li>③ <strong>受験料が手頃</strong>：IaCスキルを客観的に示す第一歩として挑戦しやすい</li>
+              <li>① <strong>インフラ・クラウド経験のある30〜40代</strong>：IaCスキルの体系的な証明として加点されます</li>
+              <li>② <strong>DevOps・自動化を進めたい人</strong>：手作業からコード管理への移行を裏付けます</li>
+              <li>③ <strong>受験料が手頃</strong>：IaCスキルを客観的に示す第一歩として挑戦しやすいです</li>
             </ul>
           </div>
         </section>
@@ -156,7 +156,7 @@ export default function TerraformAssociateCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: HashiCorp 公式（developer.hashicorp.com、2026年6月時点）。受験料は70.50 USD（別途、地域ごとの税・手数料）。試験はオンライン監督下の選択式（合否判定）で、試験時間は1時間です。前提として基本的なターミナル操作とオンプレ・クラウド構成の理解が想定されています。現行バージョンは004で、前バージョン003は2026年1月に提供終了しました。認定の有効期限は2年です。合格率はHashiCorpが公表していないため、当サイトでは数値を創作していません。
+            出典: HashiCorp 公式（developer.hashicorp.com、2026年6月時点）。受験料は70.50 USDです（別途、地域ごとの税・手数料）。試験はオンライン監督下の選択式（合否判定）で、試験時間は1時間です。前提として基本的なターミナル操作とオンプレ・クラウド構成の理解が想定されています。現行バージョンは004で、前バージョン003は2026年1月に提供終了しました。認定の有効期限は2年です。合格率はHashiCorpが公表していないため、当サイトでは数値を創作していません。
           </p>
         </section>
 
@@ -168,7 +168,7 @@ export default function TerraformAssociateCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・保有者限定の国内公的年収統計は<strong>存在しない（創作しない）</strong></li>
+              <li>・保有者限定の国内公的年収統計は<strong>存在しません（当サイトでは推計値を作成していません）</strong></li>
               <li>・評価される領域：<strong>DevOps・クラウドインフラ・SREなど自動化を担う職種</strong></li>
               <li>・実態：<strong>年収は実務経験・役割で決まり、本資格はIaCスキルの補強材</strong></li>
             </ul>
@@ -183,10 +183,10 @@ export default function TerraformAssociateCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "IaC・自動化案件への参画", d: "Terraformでインフラをコード管理する案件で、基礎が体系化できている証明として加点される。" },
-              { t: "DevOps・クラウド職への役割転換", d: "手作業の構築からコードによる管理へ移行する流れの中で、IaCスキルの裏付けになる。" },
-              { t: "マルチクラウド構成の素養", d: "TerraformはAWS・Azure・GCPを横断して使える。特定クラウドに依存しない構築力を示せる。" },
-              { t: "学習意欲・最新技術への対応力", d: "現行版を取得した事実が、モダンなインフラ手法へのキャッチアップ姿勢を裏付ける。" },
+              { t: "IaC・自動化案件への参画", d: "Terraformでインフラをコード管理する案件で、基礎が体系化できている証明として加点されます。" },
+              { t: "DevOps・クラウド職への役割転換", d: "手作業の構築からコードによる管理へ移行する流れの中で、IaCスキルの裏付けになります。" },
+              { t: "マルチクラウド構成の素養", d: "TerraformはAWS・Azure・GCPを横断して使えます。特定クラウドに依存しない構築力を示せます。" },
+              { t: "学習意欲・最新技術への対応力", d: "現行版を取得した事実が、モダンなインフラ手法へのキャッチアップ姿勢を裏付けます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -204,9 +204,9 @@ export default function TerraformAssociateCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "DevOps／クラウドインフラエンジニア", d: "クラウド基盤をコードで構築・運用する立場。Terraformは現場の標準ツールの一つとして広く使われる。" },
-              { t: "プラットフォームエンジニア", d: "社内の基盤を再現性高く整備する立場。IaCの体系知識が信頼性のあるプロビジョニングを支える。" },
-              { t: "SRE（サイト信頼性エンジニア）", d: "インフラの自動化・標準化を担う立場。state管理やモジュール設計の理解が活きる。" },
+              { t: "DevOps／クラウドインフラエンジニア", d: "クラウド基盤をコードで構築・運用する立場です。Terraformは現場の標準ツールの一つとして広く使われます。" },
+              { t: "プラットフォームエンジニア", d: "社内の基盤を再現性高く整備する立場です。IaCの体系知識が信頼性のあるプロビジョニングを支えます。" },
+              { t: "SRE（サイト信頼性エンジニア）", d: "インフラの自動化・標準化を担う立場です。state管理やモジュール設計の理解が活きます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -251,10 +251,10 @@ export default function TerraformAssociateCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>IaCスキルの可視化</strong>。手作業中心だった経歴に、コードでインフラを管理できる客観的な裏付けを加えられます。第二に<strong>マルチクラウド対応の素養</strong>。TerraformはAWS・Azure・GCPを横断して使えるため、特定クラウドに依存しない構築力を示せます。第三に<strong>手頃な受験料での第一歩</strong>。他資格より負荷が軽く、DevOps領域への入口として取り組みやすい点が利点です。
+            活用戦略は3つに整理できます。第一に<strong>IaCスキルの可視化です</strong>。手作業中心だった経歴に、コードでインフラを管理できる客観的な裏付けを加えられます。第二に<strong>マルチクラウド対応の素養です</strong>。TerraformはAWS・Azure・GCPを横断して使えるため、特定クラウドに依存しない構築力を示せます。第三に<strong>手頃な受験料での第一歩です</strong>。他資格より負荷が軽く、DevOps領域への入口として取り組みやすい点が利点です。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。Terraform Associateは<strong>アソシエイトレベルのため、これ単体で年収が跳ねる資格ではありません</strong>。あくまで実務を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また有効期限が2年で、Terraformのバージョン進化に合わせた再取得が必要です。逆に言えば、すでにインフラ・クラウドの現場経験があり自動化を進めたい30〜40代にとっては、低コストで取り組める実利的な認定です。クラウド側の理解が不安な場合は、まず<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>などで基盤の土台を固めるのも有効です。
+            注意すべきデメリットも押さえておきましょう。Terraform Associateは<strong>アソシエイトレベルのため、これ単体で年収が跳ねる資格ではありません</strong>。あくまで実務を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また有効期限が2年で、Terraformのバージョン進化に合わせた再取得が必要です。逆に言えば、すでにインフラ・クラウドの現場経験があり自動化を進めたい30〜40代にとっては、低コストで取り組める実利的な認定です。クラウド側の理解が不安な場合は、まず<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定</Link>などで基盤の土台を固めるのも有効です。
           </p>
         </section>
 
@@ -266,7 +266,7 @@ export default function TerraformAssociateCertPage() {
               Terraform Associateは、アソシエイトレベルとはいえ、<strong>すでにインフラ・クラウド経験のある経験者が、IaCスキルを補強するための加点装置</strong>として効きます。手作業での構築経験はあってもコード管理の証明がなかった、という30〜40代にとって、自分のスキルセットをモダンな方向にアップデートする手頃な手段です。
             </p>
             <p>
-              一方で過度な期待は禁物です。Terraform Associateを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「インフラ・クラウド実務 × 資格」の掛け算</strong>のとき。実際の構築・運用経験と組み合わせて初めて、DevOps・SREという形で結実します。さらに有効期限が2年のため、再取得の手間も前提に計画する必要があります。
+              一方で過度な期待は禁物です。Terraform Associateを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「インフラ・クラウド実務 × 資格」の掛け算</strong>のときです。実際の構築・運用経験と組み合わせて初めて、DevOps・SREという形で結実します。さらに有効期限が2年のため、再取得の手間も前提に計画する必要があります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -279,9 +279,9 @@ export default function TerraformAssociateCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "Terraformの基礎ワークフローを習得", d: "init・plan・applyのコアワークフローと基本構文を、公式チュートリアルで手を動かして覚える。" },
-              { n: "STEP 2", t: "state・モジュール・プロバイダを理解", d: "state管理やモジュール設計など実務直結の論点を、実際にコードを書いて理解する。" },
-              { n: "STEP 3", t: "現行版004で合格→2年更新を計画", d: "最新の出題範囲を確認して受験。有効期限2年を見据え、再取得の計画も立てる。" },
+              { n: "STEP 1", t: "Terraformの基礎ワークフローを習得", d: "init・plan・applyのコアワークフローと基本構文を、公式チュートリアルで手を動かして覚えます。" },
+              { n: "STEP 2", t: "state・モジュール・プロバイダを理解", d: "state管理やモジュール設計など実務直結の論点を、実際にコードを書いて理解します。" },
+              { n: "STEP 3", t: "現行版004で合格→2年更新を計画", d: "最新の出題範囲を確認して受験します。有効期限2年を見据え、再取得の計画も立てます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -317,7 +317,7 @@ export default function TerraformAssociateCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">DevOps・クラウドインフラ職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Terraform AssociateとIaCスキルを活かせる求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            Terraform AssociateとIaCスキルを活かせる求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

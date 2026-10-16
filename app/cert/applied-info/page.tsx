@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "応用情報技術者は転職に効くか｜経験者の加点資格と年収【2026年】";
 const PAGE_DESC =
-  "IPAの国家資格・応用情報技術者試験（AP）を、経験者の加点資格という観点から30代・40代向けに解説。合格率、上流職への土台としての価値、年収相場（出典明記）、高度試験への免除メリットまで限界も含めて整理します。";
+  "IPAの国家資格・応用情報技術者試験（AP）を、経験者の加点資格という観点から30代・40代向けに解説します。合格率、上流職への土台としての価値、年収相場（出典明記）、高度試験への免除メリットまで留意点も含めて整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/applied-info/" },
@@ -94,7 +94,7 @@ export default function AppliedInfoCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          応用情報技術者試験（AP）は、IPAが主催するIT国家資格の中位に位置づけられる試験です。本記事は「応用情報を取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の加点資格』</strong>という性格を軸に、上流職への土台・高度試験への免除メリットを含め、公開データと公式情報をもとに整理します。資格単体では年収は跳ねないという限界も正直にお伝えします。
+          応用情報技術者試験（AP）は、IPAが主催するIT国家資格の中位に位置づけられる試験です。本記事は「応用情報を取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の加点資格』</strong>という性格を軸に、上流職への土台・高度試験への免除メリットを含め、公開データと公式情報をもとに整理します。資格単体では年収は跳ねないという留意点もご説明します。
         </p>
 
         <DataNote
@@ -102,7 +102,7 @@ export default function AppliedInfoCertPage() {
           sources={[
             "IPA 公式（ipa.go.jp）",
             "STUDYing 等メディア集計（参考値）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -128,9 +128,9 @@ export default function AppliedInfoCertPage() {
               応用情報技術者は<strong>「経験者の加点資格」</strong>です。CCNAや基本情報のような未経験入口資格とは性格が異なり、すでに実務経験のあるミドルが<strong>上流（設計・PM）へ役割を広げる土台</strong>として最も効きます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>IT実務経験のある30〜40代</strong>：上流への土台・自己研鑽の証明として加点される</li>
-              <li>② <strong>未経験のミドル</strong>：難度が高く入口には不向き。まず基本情報で土台を作るべき</li>
-              <li>③ <strong>高度資格志望</strong>：午前Ⅰ免除で支援士など上位試験への近道になる</li>
+              <li>① <strong>IT実務経験のある30〜40代</strong>：上流への土台・自己研鑽の証明として加点されます</li>
+              <li>② <strong>未経験のミドル</strong>：難度が高く入口には不向きです。まず基本情報で土台を作るべき</li>
+              <li>③ <strong>高度資格志望</strong>：午前Ⅰ免除で支援士など上位試験への近道になります</li>
             </ul>
           </div>
         </section>
@@ -151,7 +151,7 @@ export default function AppliedInfoCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: IPA 公式（ipa.go.jp/shiken、2026年6月時点）。合格率は令和7年度で2025年秋24.5%・2025年春22.1%。午後の記述式が合否を分けやすい試験です。なお2026年度からCBT化が予定されています。有効期限はなく、合格すれば資格は生涯有効です。
+            出典: IPA 公式（ipa.go.jp/shiken、2026年6月時点）。合格率は令和7年度で2025年秋24.5%・2025年春22.1%です。午後の記述式が合否を分けやすい試験です。なお2026年度からCBT化が予定されています。有効期限はなく、合格すれば資格は生涯有効です。
           </p>
         </section>
 
@@ -178,10 +178,10 @@ export default function AppliedInfoCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "上流（設計・PM）への配置転換", d: "要件定義・基本設計・プロジェクト管理の素養を示す土台として、上流ポジション応募で加点される。" },
-              { t: "自己研鑽・学習意欲の客観証明", d: "難度の高い国家資格を実務と両立して取得した事実が、継続学習の姿勢を裏付ける。" },
-              { t: "資格手当・評価制度の対象", d: "応用情報を資格手当・昇給評価の対象に設定する企業が多く、社内評価の根拠になりやすい。" },
-              { t: "高度資格・支援士への布石", d: "午前Ⅰ免除を使い、情報処理安全確保支援士などの上位試験に効率よく挑戦できる。" },
+              { t: "上流（設計・PM）への配置転換", d: "要件定義・基本設計・プロジェクト管理の素養を示す土台として、上流ポジション応募で加点されます。" },
+              { t: "自己研鑽・学習意欲の客観証明", d: "難度の高い国家資格を実務と両立して取得した事実が、継続学習の姿勢を裏付けます。" },
+              { t: "資格手当・評価制度の対象", d: "応用情報を資格手当・昇給評価の対象に設定する企業が多く、社内評価の根拠になりやすいです。" },
+              { t: "高度資格・支援士への布石", d: "午前Ⅰ免除を使い、情報処理安全確保支援士などの上位試験に効率よく挑戦できます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -199,9 +199,9 @@ export default function AppliedInfoCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "システムエンジニア（上流寄り）", d: "要件定義・基本設計を担うSE。応用情報の幅広い知識が設計判断の土台になる。" },
-              { t: "プロジェクトリーダー／PM候補", d: "マネジメント・ストラテジ領域の知識が、チームを率いる立場への移行を後押しする。" },
-              { t: "社内SE・ITコンサル寄り", d: "技術とビジネスの橋渡し役。幅広いIT理解と国家資格の信頼性が評価される。" },
+              { t: "システムエンジニア（上流寄り）", d: "要件定義・基本設計を担うSEです。応用情報の幅広い知識が設計判断の土台になります。" },
+              { t: "プロジェクトリーダー／PM候補", d: "マネジメント・ストラテジ領域の知識が、チームを率いる立場への移行を後押しします。" },
+              { t: "社内SE・ITコンサル寄り", d: "技術とビジネスの橋渡し役です。幅広いIT理解と国家資格の信頼性が評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -246,10 +246,10 @@ export default function AppliedInfoCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>。設計・PMへ役割を広げたい経験者が、要件定義やマネジメント領域の素養を客観的に示せます。第二に<strong>高度資格への布石</strong>。午前Ⅰの2年間免除を使えば、情報処理安全確保支援士などの上位試験に効率よく挑戦できます。第三に<strong>社内評価・資格手当</strong>。応用情報を評価対象とする企業は多く、昇給・評価の根拠として実利があります。
+            活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>。設計・PMへ役割を広げたい経験者が、要件定義やマネジメント領域の素養を客観的に示せます。第二に<strong>高度資格への布石です</strong>。午前Ⅰの2年間免除を使えば、情報処理安全確保支援士などの上位試験に効率よく挑戦できます。第三に<strong>社内評価・資格手当です</strong>。応用情報を評価対象とする企業は多く、昇給・評価の根拠として実利があります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。応用情報は<strong>取得しても単体で年収が跳ねる資格ではありません</strong>。あくまで実務経験を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また午後の記述試験は難度が高く、相応の学習時間が必要です。逆に言えば、すでに現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格だといえます。基礎が不安な場合は、まず<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>で土台を固めてから臨むのが堅実です。
+            注意すべきデメリットも押さえておきましょう。応用情報は<strong>取得しても単体で年収が跳ねる資格ではありません</strong>。あくまで実務経験を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また午後の記述試験は難度が高く、相応の学習時間が必要です。逆に言えば、すでに現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格だといえます。基礎が不安な場合は、まず<Link href="/cert/basic-info/" className="text-petrol hover:underline">基本情報技術者</Link>で土台を固めてから臨むのが堅実です。
           </p>
         </section>
 
@@ -261,7 +261,7 @@ export default function AppliedInfoCertPage() {
               応用情報は、CCNA・LPIC・基本情報といった<strong>未経験の入口資格とは立ち位置が逆</strong>です。これらが「IT職に入るための入口」なのに対し、応用情報は<strong>「すでに現場にいる経験者が、上流へ役割を上げるための加点装置」</strong>として最も効きます。実務経験のある30〜40代にとって、これは時間を投資する価値のある資格です。
             </p>
             <p>
-              一方で過度な期待は禁物です。応用情報を取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。設計・PM経験と組み合わせて初めて、上流ポジションや資格手当という形で結実します。さらに、午前Ⅰ免除を使って情報処理安全確保支援士などの高度資格へ進めば、専門性をもう一段引き上げられます。
+              一方で過度な期待は禁物です。応用情報を取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。設計・PM経験と組み合わせて初めて、上流ポジションや資格手当という形で結実します。さらに、午前Ⅰ免除を使って情報処理安全確保支援士などの高度資格へ進めば、専門性をもう一段引き上げられます。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -274,9 +274,9 @@ export default function AppliedInfoCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "午前対策で知識を網羅", d: "テクノロジ・マネジメント・ストラテジを過去問演習で固める。基本情報の知識がある人は短縮可能。" },
-              { n: "STEP 2", t: "午後の記述対策が本丸", d: "選択分野を絞り、記述の解答パターンを反復。合否は午後の記述で決まりやすい。" },
-              { n: "STEP 3", t: "合格→午前Ⅰ免除で上位へ", d: "合格後2年間の午前Ⅰ免除を活かし、情報処理安全確保支援士など高度資格に挑戦する。" },
+              { n: "STEP 1", t: "午前対策で知識を網羅", d: "テクノロジ・マネジメント・ストラテジを過去問演習で固めます。基本情報の知識がある人は短縮可能です。" },
+              { n: "STEP 2", t: "午後の記述対策が本丸", d: "選択分野を絞り、記述の解答パターンを反復します。合否は午後の記述で決まりやすいです。" },
+              { n: "STEP 3", t: "合格→午前Ⅰ免除で上位へ", d: "合格後2年間の午前Ⅰ免除を活かし、情報処理安全確保支援士など高度資格に挑戦します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -312,7 +312,7 @@ export default function AppliedInfoCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">上流・専門職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            応用情報を活かせる上流・設計求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            応用情報を活かせる上流・設計求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

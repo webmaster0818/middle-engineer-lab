@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/taishokukin/" },
   title: "退職金制度がある企業へ転職【DC・退職金の見極め方2026】",
   description:
-    "退職金（退職一時金）と企業型DC（確定拠出年金）の違い、退職所得控除の仕組みを公的情報ベースで解説。求人での見極め方、転職時のポータビリティ、老後資金設計まで。",
+    "退職金（退職一時金）と企業型DC（確定拠出年金）の違い、退職所得控除の仕組みを公的情報ベースで解説します。求人での見極め方、転職時のポータビリティ、老後資金設計まで。",
 };
 
 const faqs = [
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: "求人で退職金制度の何を確認すべきですか？",
-    a: "（1）退職一時金の有無と算定方式：勤続年数比例か、ポイント制か。（2）企業型DCの有無と会社拠出額：マッチング拠出（従業員追加拠出）の可否。（3）受給に必要な勤続年数：一定年数未満だと支給なし・減額の規定があることも。（4）退職金前払い（給与上乗せ）型か。求人票には詳細が書かれないことが多く、労働条件通知書や就業規則で確認するのが確実です。",
+    a: "（1）退職一時金の有無と算定方式：勤続年数比例か、ポイント制か。（2）企業型DCの有無と会社拠出額：マッチング拠出（従業員追加拠出）の可否です。（3）受給に必要な勤続年数：一定年数未満だと支給なし・減額の規定があることがあります。（4）退職金前払い（給与上乗せ）型か。求人票には詳細が書かれないことが多く、労働条件通知書や就業規則で確認するのが確実です。",
   },
   {
     q: "退職金がない会社は避けるべきですか？",
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     q: "30-40代の転職で退職金はどう考えるべきですか？",
-    a: "老後資金の柱として無視できない一方、転職で勤続がリセットされるデメリットもあります。一社に長く勤めて退職金を最大化する戦略と、転職で年収・市場価値を上げてDC・自助努力で資産形成する戦略は、どちらも合理的です。大切なのは、退職金・DC・年収・昇進機会を含めた『生涯の手取り総額』で意思決定すること。年収相場と合わせた判断は40代エンジニアの年収相場も参考にしてください。",
+    a: "老後資金の柱として無視できない一方、転職で勤続がリセットされるデメリットもあります。一社に長く勤めて退職金を最大化する戦略と、転職で年収・市場価値を上げてDC・自助努力で資産形成する戦略は、どちらも合理的です。大切なのは、退職金・DC・年収・昇進機会を含めた『生涯の手取り総額』で意思決定することが重要です。年収相場と合わせた判断は40代エンジニアの年収相場も参考にしてください。",
   },
 ];
 
@@ -54,7 +54,7 @@ export default function TaishokukinPage() {
     <>
       <ArticleJsonLd
         title="退職金制度がある企業へ転職【DC・退職金の見極め方2026】"
-        description="退職金と企業型DCの違い、退職所得控除の仕組みを公的情報ベースで解説。求人での見極め方、転職時のポータビリティ、老後資金設計まで。"
+        description="退職金と企業型DCの違い、退職所得控除の仕組みを公的情報ベースで解説します。求人での見極め方、転職時のポータビリティ、老後資金設計まで。"
         url="/purpose/taishokukin/"
       />
       <script
@@ -73,7 +73,7 @@ export default function TaishokukinPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           退職金制度がある企業へ転職
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 退職金・DC・税制を理解して老後資産で選ぶ完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 退職金・DC・税制を理解して老後資産で選ぶガイド</p>
 
         <DataNote
           surveyedAt="2026年6月"
@@ -96,7 +96,7 @@ export default function TaishokukinPage() {
             退職金は30-40代の老後資産設計に直結する重要な制度ですが、「退職金制度あり」という表記の中身は企業によって大きく異なります。会社が給付額を約束する<strong>退職一時金</strong>と、拠出額を約束し運用は従業員に委ねる<strong>企業型DC（確定拠出年金）</strong>では、転職時の扱い・税制・リスクが変わります。本記事では、退職金とDCの違い・退職所得控除の仕組みを公的情報で整理し、求人での見極め方を転職時のポータビリティと老後資金設計の観点で解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 老後資金を意識して退職金のある会社へ転職したい30-40代</li>
               <li>- 退職一時金と企業型DCの違いを整理したい</li>
@@ -130,9 +130,9 @@ export default function TaishokukinPage() {
               </thead>
               <tbody>
                 {[
-                  { type: "退職一時金（確定給付型）", desc: "勤続・役職に応じて退職時に会社が支給", note: "退職所得控除で優遇。勤続リセットの影響大" },
-                  { type: "企業型DC（確定拠出年金）", desc: "会社が拠出、運用は従業員。受取額は運用次第", note: "iDeCo等へ移換可（ポータビリティ）" },
-                  { type: "退職金前払い（給与上乗せ）", desc: "退職金分を毎月の給与に上乗せ", note: "退職所得控除の対象外。給与として課税される" },
+                  { type: "退職一時金（確定給付型）", desc: "勤続・役職に応じて退職時に会社が支給", note: "退職所得控除で優遇します。勤続リセットの影響大" },
+                  { type: "企業型DC（確定拠出年金）", desc: "会社が拠出、運用は従業員です。受取額は運用次第", note: "iDeCo等へ移換可（ポータビリティ）" },
+                  { type: "退職金前払い（給与上乗せ）", desc: "退職金分を毎月の給与に上乗せ", note: "退職所得控除の対象外です。給与として課税されます" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -144,7 +144,7 @@ export default function TaishokukinPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-2">
-            ※ 退職所得控除：勤続20年まで1年40万円、20年超は1年70万円が目安。控除後の2分の1に課税（国税庁No.1420）。制度内容は改正され得ます。
+            ※ 退職所得控除：勤続20年まで1年40万円、20年超は1年70万円が目安。控除後の2分の1に課税です（国税庁No.1420）。制度内容は改正され得ます。
           </p>
         </section>
 
@@ -178,10 +178,10 @@ export default function TaishokukinPage() {
           </p>
           <div className="space-y-3">
             {[
-              { type: "大手・上場企業／日系メーカー", point: "退職一時金＋企業型DCを併用する企業が多く、老後資産の柱になりやすい。" },
-              { type: "インフラ・金融・伝統的大企業", point: "勤続年数比例の手厚い退職一時金が残る傾向。長期勤続でメリットが大きい。" },
-              { type: "メガベンチャー・上場後の企業", point: "企業型DCを中心に据え、退職一時金は持たない／前払い型のことも。" },
-              { type: "スタートアップ・小規模Web系", point: "退職金制度がない代わりに給与・SOで報いる設計が多い。総報酬で比較を。" },
+              { type: "大手・上場企業／日系メーカー", point: "退職一時金＋企業型DCを併用する企業が多く、老後資産の柱になりやすいです。" },
+              { type: "インフラ・金融・伝統的大企業", point: "勤続年数比例の手厚い退職一時金が残る傾向です。長期勤続でメリットが大きいです。" },
+              { type: "メガベンチャー・上場後の企業", point: "企業型DCを中心に据え、退職一時金は持たない／前払い型のことがあります。" },
+              { type: "スタートアップ・小規模Web系", point: "退職金制度がない代わりに給与・SOで報いる設計が多いです。総報酬で比較を。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>
@@ -228,14 +228,14 @@ export default function TaishokukinPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">退職金制度のある企業を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">退職金・DCの中身まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">退職金・DCの中身まで把握したIT特化型エージェントが、ご自身の条件に合う企業を提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
         <section>
       <TechgoCta
         heading="退職金が少ない会社から「年収の高い会社」へ"
-        note="テックゴーは年収アップ成功率86%（2026年3月の内定承諾者・公式公表）を掲げるミドル向けIT特化エージェント。面談は完全無料です。"
+        note="テックゴーは年収アップ成功率86%（2026年3月の内定承諾者・公式公表）を掲げるミドル向けIT特化エージェントです。面談は完全無料です。"
         buttonText="無料キャリア面談を予約する（公式）"
       />
 
@@ -247,7 +247,7 @@ export default function TaishokukinPage() {
               { name: "退職後の各種手続き", href: "/knowledge/after-resignation-procedures/" },
               { name: "40代エンジニアの年収相場", href: "/knowledge/salary-40s/" },
               { name: "安定した企業への転職", href: "/purpose/stable/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

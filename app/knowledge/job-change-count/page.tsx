@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "転職回数が多い場合の対策【エンジニア転職】";
 const DESCRIPTION =
-  "転職回数が多いエンジニアが選考で不利にならないための対策を、職務経歴書のまとめ方・退職理由の伝え方・面接での回答の型まで実践的に解説。30代・40代が一貫性と再現性を示すための準備をまとめます。";
+  "転職回数が多いエンジニアが選考で不利にならないための対策を、職務経歴書のまとめ方・退職理由の伝え方・面接での回答の型まで実践的に解説します。30代・40代が一貫性と再現性を示すための準備をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/job-change-count/" },
@@ -66,7 +66,7 @@ const ngActions = [
   },
   {
     title: "回数を隠す・経歴を偽る",
-    desc: "短期の在籍を省略したり期間を偽ったりすると、社会保険記録などとの矛盾で発覚します。正直に書いたうえで説明で補うのが正攻法です。",
+    desc: "短期の在籍を省略したり期間を偽ったりすると、社会保険記録などとの矛盾で発覚します。記載したうえで説明で補うのが正攻法です。",
   },
   {
     title: "一貫性のない説明をする",
@@ -148,7 +148,7 @@ export default function JobChangeCountPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職回数が多いと選考で不利になる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 不利になるかは回数の数字そのものではなく、キャリアに一貫性があるか・今回は長く働けるかで決まります。軸を言語化し退職理由を前向きに整理すれば、回数の多さは経験の幅というプラスにも転じます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・企業が見ているのは回数より「キャリアの一貫性」「退職理由の納得感」「定着の見通し」の3点</li><li>・回数を隠す・経歴を偽るのは社会保険記録との矛盾で発覚するため逆効果</li><li>・30代・40代は特に、今回は定着したい根拠をこれまでとの違いとともに事実ベースで示す</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・企業が見ているのは回数より「キャリアの一貫性」「退職理由の納得感」「定着の見通し」の3点</li><li>・回数を隠す・経歴を偽るのは社会保険記録との矛盾で発覚するため逆効果</li><li>・30代・40代は特に、今回は定着したい根拠をこれまでとの違いとともに事実ベースで示します</li></ul>
           </div>
         </section>
 
@@ -183,7 +183,7 @@ export default function JobChangeCountPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職回数が多いときの基本方針</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              転職回数が多いときの基本は、<strong>「キャリアを貫く一本の軸を言語化し」「各退職理由を前向きに整理し」「今回は定着したい根拠を具体的に示す」</strong>こと。回数を隠すのではなく、ストーリーで納得感を作るのが鉄則です。
+              転職回数が多いときの基本は、<strong>「キャリアを貫く一本の軸を言語化し」「各退職理由を前向きに整理し」「今回は定着したい根拠を具体的に示す」</strong>ことです。回数を隠すのではなく、ストーリーで納得感を作るのが鉄則です。
             </p>
             <p className="text-slate-700 leading-relaxed">
               企業が懸念するのは「また同じ理由で辞めるのではないか」という再現性です。逆に言えば、これまでと今回の違いを具体的に説明でき、専門性に一貫性があれば、回数の多さは「経験の幅」というプラスにも転じます。数字に振り回されず、説明の準備で勝負しましょう。

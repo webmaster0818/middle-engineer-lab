@@ -8,7 +8,7 @@ import DataNote from "@/components/DataNote";
 const PAGE_TITLE =
   "転職すると退職金はどうなる？【2026年】退職所得控除・企業型DC移換・脱退一時金の手続き";
 const PAGE_DESC =
-  "転職時に退職金はどうなる？退職所得控除の計算（勤続年数別）、企業型確定拠出年金（DC）の移換手続き、6ヶ月放置で自動移換されるリスク、脱退一時金が原則受け取れない理由を、国税庁・厚労省・iDeCo公式の情報にもとづいて解説。ミドルエンジニアの転職前に押さえるべきお金の知識です。";
+  "転職時に退職金はどうなる？退職所得控除の計算（勤続年数別）、企業型確定拠出年金（DC）の移換手続き、6ヶ月放置で自動移換されるリスク、脱退一時金が原則受け取れない理由を、国税庁・厚労省・iDeCo公式の情報にもとづいて解説します。ミドルエンジニアの転職前に押さえるべきお金の知識です。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/retirement-allowance/" },
@@ -154,7 +154,7 @@ export default function RetirementAllowancePage() {
         <section className="mb-12">
       <TechgoCta
         heading="退職金・DCの次は「年収」の話——交渉に強いエージェント"
-        note="テックゴーは年収アップ成功率86%（2026年3月の内定承諾者・公式公表）・年収アップ平均144万円（2026年3月の内定承諾者平均・公式公表）。退職金の目減り分は次の年収で取り返せます。"
+        note="テックゴーは年収アップ成功率86%（2026年3月の内定承諾者・公式公表）・年収アップ平均144万円です（2026年3月の内定承諾者平均・公式公表）。退職金の目減り分は次の年収で取り返せます。"
         buttonText="無料キャリア面談で年収交渉の相談をする（公式）"
       />
 
@@ -181,7 +181,7 @@ export default function RetirementAllowancePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
           <h2 className="text-xl font-bold mb-3">退職給付も含めて転職先を見極めよう</h2>
-          <p className="text-blue-100 text-sm mb-4">額面年収だけでなく、退職金・企業型DC・各種手当まで含めた「実質的な条件」で比較するのが失敗しない転職のコツです。IT特化エージェントに相談して条件を引き出しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">額面年収だけでなく、退職金・企業型DC・各種手当まで含めた「実質的な条件」で比較するのが転職を成功させるポイントです。IT特化エージェントに相談して条件を引き出しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
         {/* 一次データ相互リンク（2026-07-04 リンク完全性の是正） */}

@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "テックゴーの無料キャリア面談とは？流れ・準備・断り方【2026年】";
 const DESCRIPTION =
-  "テックゴー（TechGo）の無料キャリア面談を徹底解説。本当に無料なのか（公式FAQの根拠）、申し込みから面談までの流れ、オンライン面談の形式・時間帯、事前準備、しつこい勧誘はあるか、転職を決めていない場合の利用可否、断り方まで出典付きでまとめます。";
+  "テックゴー（TechGo）の無料キャリア面談を解説します。本当に無料なのか（公式FAQの根拠）、申し込みから面談までの流れ、オンライン面談の形式・時間帯、事前準備、しつこい勧誘はあるか、転職を決めていない場合の利用可否、断り方まで出典付きでまとめます。";
 const URL = "/review/techgo-consultation/";
 const OFFICIAL_URL = "https://tech-go.jp/";
 
@@ -28,7 +28,7 @@ const toc = [
   { id: "undecided", label: "転職を決めていなくても利用できる？" },
   { id: "after", label: "面談後の流れ（利用を続ける場合）" },
   { id: "decline", label: "断り方・利用をやめたい場合" },
-  { id: "worry", label: "面談にまつわる不安への正直な回答" },
+  { id: "worry", label: "面談にまつわる不安への率直な回答" },
   { id: "compare", label: "他サービスの無料面談との使い分け" },
   { id: "middle", label: "30代・40代が面談で確認すべきこと" },
   { id: "faq", label: "よくある質問" },
@@ -36,7 +36,7 @@ const toc = [
 
 const basicData: [string, string][] = [
   ["料金", "完全無料（登録〜キャリアカウンセリング〜求人紹介〜面接対策〜条件交渉〜入社後フォローまで。公式FAQ明記）"],
-  ["面談形式", "オンライン中心（Zoom・Google Meetなど。公式FAQ）。自宅から参加可能"],
+  ["面談形式", "オンライン中心（Zoom・Google Meetなど。公式FAQです）。自宅から参加可能"],
   ["実施時間帯", "平日のほか、平日夜間・土曜も実施（公式FAQ。日曜・対面の可否は明記なし）"],
   ["所要時間", "公式の明記なし。一般的な転職エージェントの初回面談は30分〜1時間程度が目安"],
   ["対象", "ITエンジニア経験者中心（SE・PG・社内SE・Web系・インフラ・データ/AI・PM/PL・QA）"],
@@ -169,7 +169,7 @@ export default function TechgoConsultation() {
           最終更新: 2026年7月 ｜ 公式FAQ・サービスページの記載をもとに面談の実務を解説
         </p>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
-          テックゴー（TechGo・株式会社MyVision運営）のキャリア面談は無料なのか、申し込むと何が起きるのか——。本記事では、テックゴーの無料キャリア面談について「本当に無料である根拠」「申し込みから面談までの流れ」「事前準備」「転職を決めていない場合の利用可否」「断り方」まで、公式サイトの記載を出典として実務目線で解説します。公式に記載のない事項は「明記なし」と正直に区別します。
+          テックゴー（TechGo・株式会社MyVision運営）のキャリア面談は無料なのか、申し込むと何が起きるのか——。本記事では、テックゴーの無料キャリア面談について「本当に無料である根拠」「申し込みから面談までの流れ」「事前準備」「転職を決めていない場合の利用可否」「断り方」まで、公式サイトの記載を出典として実務目線で解説します。公式に記載のない事項は「明記なし」と区別します。
         </p>
         <DataNote
           surveyedAt="2026年7月"
@@ -183,22 +183,22 @@ export default function TechgoConsultation() {
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">
-              結論：テックゴーのキャリア面談は完全無料。転職未確定でも利用できる
+              結論：テックゴーのキャリア面談は完全無料です。転職未確定でも利用できる
             </h2>
             <ul className="text-sm text-blue-900 space-y-1">
               <li>
                 ・<span className="font-bold">料金は完全無料</span>
-                。公式FAQが「ご登録から、キャリアカウンセリング、求人紹介、面接対策、条件交渉、入社までのフォローアップまで」無料と明記。
+                。公式FAQが「ご登録から、キャリアカウンセリング、求人紹介、面接対策、条件交渉、入社までのフォローアップまで」無料と明記します。
               </li>
               <li>
                 ・面談は<span className="font-bold">オンライン中心（Zoom・Google Meet等）で、平日夜間・土曜も実施</span>
-                （公式FAQ）。在職中でも受けやすい。
+                （公式FAQ）。在職中でも受けやすいです。
               </li>
               <li>
                 ・<span className="font-bold">転職の意向が固まっていない段階の相談も可</span>
-                と公式FAQに明記。市場価値の確認目的でも使える。
+                と公式FAQに明記します。市場価値の確認目的でも使えます。
               </li>
-              <li>・断る場合は担当者に連絡すればよく、面談を受けたら転職しなければならない義務はない。</li>
+              <li>・断る場合は担当者に連絡すればよく、面談を受けたら転職しなければならない義務はありません。</li>
             </ul>
           </div>
         </section>
@@ -299,7 +299,7 @@ export default function TechgoConsultation() {
               <li>その場での相談：想定年収レンジ、紹介可能な求人の方向性</li>
             </ul>
             <p>
-              面談は「審査」ではなく条件のすり合わせの場です。取り繕うより、NG条件や不安（ブランク・年齢・技術の古さなど）を正直に伝えたほうが、後の求人紹介の精度が上がります。
+              面談は「審査」ではなく条件のすり合わせの場です。取り繕うより、NG条件や不安（ブランク・年齢・技術の古さなど）を率直に伝えたほうが、後の求人紹介の精度が上がります。
             </p>
           </div>
         </section>
@@ -389,7 +389,7 @@ export default function TechgoConsultation() {
               と突き合わせると、判断の精度が上がります。
             </p>
             <p>
-              ただし前述のとおり、エージェントには転職を後押しする構造的なバイアスがあります。「まだ決めていない」ことを面談の冒頭で正直に伝えたうえで利用するのが、お互いにとって誠実な使い方です。
+              ただし前述のとおり、エージェントには転職を後押しする構造的なバイアスがあります。「まだ決めていない」ことを面談の冒頭で率直に伝えたうえで利用するのが、お互いにとって誠実な使い方です。
             </p>
           </div>
         </section>
@@ -428,7 +428,7 @@ export default function TechgoConsultation() {
 
         {/* 不安への回答 */}
         <section id="worry" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">面談にまつわる不安への正直な回答</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">面談にまつわる不安への率直な回答</h2>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">「しつこく連絡が来ないか心配」</h3>
@@ -439,7 +439,7 @@ export default function TechgoConsultation() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">「経歴に自信がない・ブランクがある」</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                面談は選考ではないため、経歴を良く見せる必要はありません。むしろブランクや技術の古さを正直に伝えたほうが、現実的に狙える求人レンジの見立てが正確になります。仮に紹介できる求人が少ないと言われた場合、それ自体が「市場からの現在地のフィードバック」として持ち帰る価値のある情報です。
+                面談は選考ではないため、経歴を良く見せる必要はありません。むしろブランクや技術の古さを率直に伝えたほうが、現実的に狙える求人レンジの見立てが正確になります。仮に紹介できる求人が少ないと言われた場合、それ自体が「市場からの現在地のフィードバック」として持ち帰る価値のある情報です。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -461,21 +461,21 @@ export default function TechgoConsultation() {
             <ul className="list-disc pl-5 space-y-2">
               <li>
                 <span className="font-bold text-slate-700">テックゴーの無料キャリア面談：</span>
-                アドバイザーとの対話型。経歴の棚卸しを手伝ってもらいながら、狙える求人レンジと転職プランの見立てを得る。平日夜間・土曜のオンラインで受けられる手軽さが利点。
+                アドバイザーとの対話型です。経歴の棚卸しを手伝ってもらいながら、狙える求人レンジと転職プランの見立てを得ます。平日夜間・土曜のオンラインで受けられる手軽さが利点です。
               </li>
               <li>
                 <span className="font-bold text-slate-700">
                   <Link href="/review/levtech/" className="underline hover:no-underline">レバテックキャリア</Link>
                   など大手IT特化の面談：
                 </span>
-                求人量と企業情報の蓄積が多く、見立てのセカンドオピニオンとして有効。テックゴーの提案と比較することで、担当者の質も相対評価できる。
+                求人量と企業情報の蓄積が多く、見立てのセカンドオピニオンとして有効です。テックゴーの提案と比較することで、担当者の質も相対評価できます。
               </li>
               <li>
                 <span className="font-bold text-slate-700">
                   <Link href="/review/tenshoku-draft/" className="underline hover:no-underline">転職ドラフト</Link>
                   のような入札型：
                 </span>
-                面談ではなくレジュメに対して企業が年収提示つきで指名する形式。「対話の見立て」ではなく「実際の提示額」で市場価値を確認したい人向けで、面談型と補完関係にある。
+                面談ではなくレジュメに対して企業が年収を提示して指名する形式です。「対話の見立て」ではなく「実際の提示額」で市場価値を確認したい人向けで、面談型と補完関係にあります。
               </li>
             </ul>
             <p>
@@ -537,7 +537,7 @@ export default function TechgoConsultation() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">テックゴーの無料キャリア面談を予約する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            完全無料・オンライン中心・平日夜間や土曜も実施。転職を決めていない段階の相談も公式FAQで明記されています。
+            完全無料・オンライン中心・平日夜間や土曜も実施します。転職を決めていない段階の相談も公式FAQで明記されています。
           </p>
           <a
             href={OFFICIAL_URL}

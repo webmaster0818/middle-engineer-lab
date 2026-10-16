@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/forkwell-vs-levtech/" },
   title: "Forkwellとレバテックキャリアの比較｜どっちがおすすめ？【2026年9月】",
   description:
-    "Forkwell(ポートフォリオ×コミュニティのスカウト型)とレバテックキャリア(IT特化の紹介型エージェント)を、動き方・評価軸・求人規模・サポートで比較。自走で評価されたい人と伴走してほしい人の分岐点、30代40代エンジニアの選び方を解説します。",
+    "Forkwell(ポートフォリオ×コミュニティのスカウト型)とレバテックキャリア(IT特化の紹介型エージェント)を、動き方・評価軸・求人規模・サポートで比較します。自走で評価されたい人と伴走してほしい人の分岐点、30代40代エンジニアの選び方を解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どっちがおすすめか" },
+  { id: "conclusion", label: "結論：どちらがおすすめか" },
   { id: "basic", label: "基本データ比較表" },
   { id: "style", label: "項目別比較①：動き方（スカウトを待つ vs 伴走してもらう）" },
   { id: "axis", label: "項目別比較②：評価のされ方" },
@@ -30,9 +30,9 @@ const comparison = [
   { item: "サービス形態", a: "スカウト型＋求人掲載（Forkwell Jobs）＋ポートフォリオ＋コミュニティ", b: "IT/Web特化の紹介型エージェント（専任アドバイザーが伴走）" },
   { item: "動き方", a: "ポートフォリオを整えてスカウトを待つ・求人に自分で応募", b: "アドバイザーに希望を伝え、求人提案を受ける" },
   { item: "評価のものさし", a: "ポートフォリオと技術発信・コミュニティでの活動", b: "経歴書＋アドバイザーのヒアリング（企業への推薦文で補強）" },
-  { item: "規模感", a: "登録者 約59,000〜60,000人（二次情報・時点要確認）。求人数は媒体間で数値が割れ確認不可", b: "公開求人 約5万件超（2026年5〜6月時点・複数転職メディア集計）" },
+  { item: "規模感", a: "登録者 約59,000〜60,000人です（二次情報・時点要確認）。求人数は媒体間で数値が割れ確認不可", b: "公開求人 約5万件超（2026年5〜6月時点・複数転職メディア集計）" },
   { item: "年収の傾向", a: "Web自社開発の中〜上級ポジション中心", b: "公開求人の約8割が年収600万円以上（二次情報）" },
-  { item: "サポート", a: "基本は自走。勉強会200本超のコミュニティ・学習文化", b: "書類添削・面接対策・年収交渉まで専任アドバイザーが伴走" },
+  { item: "サポート", a: "基本は自走です。勉強会200本超のコミュニティ・学習文化", b: "書類添削・面接対策・年収交渉まで専任アドバイザーが伴走" },
   { item: "対応エリア", a: "首都圏集中", b: "首都圏中心（拠点都市の求人もあり）" },
   { item: "料金", a: "求職者は完全無料", b: "求職者は完全無料" },
 ];
@@ -41,7 +41,7 @@ const faqs = [
   { q: "Forkwellとレバテックキャリアの最大の違いは何ですか？", a: "「自走型か伴走型か」です。Forkwellはポートフォリオや技術発信を整えてスカウトを待つ・自分で応募するスカウト型サービスで、サポートは基本ありません。レバテックキャリアはIT特化の紹介型エージェントで、専任アドバイザーが求人提案から書類添削・面接対策・年収交渉まで伴走します。同じ「IT特化」でも動き方が正反対です。" },
   { q: "求人数はどちらが多いですか？", a: "公開されている情報の範囲では、レバテックキャリアが公開求人約5万件超（2026年5〜6月時点・複数転職メディア集計）と規模で上回ります。Forkwellは求人数の公式値が確認できず、量より質・マッチング精度を重視する設計です。選択肢の幅を最優先するならレバテック、厳選されたWeb自社開発の中〜上級ポジションを狙うならForkwellという整理になります。" },
   { q: "初めての転職ならどちらが安心ですか？", a: "初めての転職や書類・面接に不安がある方は、伴走型のレバテックキャリアの方が安心材料は多いです。職務経歴書の添削や企業別の面接対策、年収交渉の代行はスカウト型にはない支援です。一方、転職活動の進め方が分かっていて自分のペースで動きたい方には、Forkwellの自走スタイルが煩わしさがなく合います。" },
-  { q: "Forkwellのスカウトが来ない場合はどうすればよいですか？", a: "Forkwellはポートフォリオの作り込みと技術発信が評価の軸なので、まずポートフォリオの充実が先決です。それでも動きがない場合は、首都圏集中という地域特性や技術スタックのミスマッチが要因のこともあります。求人提案を受けられるレバテックキャリアを並行させると、市場の反応を能動的に確かめられます。" },
+  { q: "Forkwellのスカウトが来ない場合はどうすればよいですか？", a: "Forkwellはポートフォリオの作り込みと技術発信が評価の軸であるため、まずポートフォリオの充実が先決です。それでも動きがない場合は、首都圏集中という地域特性や技術スタックのミスマッチが要因のこともあります。求人提案を受けられるレバテックキャリアを並行させると、市場の反応を能動的に確かめられます。" },
   { q: "30代・40代でも使えますか？", a: "どちらも使えます。Forkwellは年齢より発信と学習文化への適合が評価される設計で、年代を問わず機能します。レバテックキャリアはミドル層の実務経験を評価する求人が多く、マネジメント経験を年収交渉の材料にできる点が強みです。コードを書き続けている方はForkwell、経験の言語化やキャリア整理も含めて相談したい方はレバテックが向きます。" },
   { q: "両方登録するメリットはありますか？", a: "あります。Forkwellでポートフォリオ経由のスカウトを受けつつ、レバテックキャリアで求人提案と選考サポートを受けると、「待ちの接点」と「攻めの提案」を同時に持てます。どちらも完全無料のため、併用してから自分に合う動き方に比重を移すのが合理的です。" },
 ];
@@ -66,15 +66,15 @@ export default function ForkwellVsLevtechPage() {
 
   return (
     <>
-      <ArticleJsonLd title="Forkwellとレバテックキャリアの比較｜どっちがおすすめか" description="Forkwell(スカウト型)とレバテックキャリア(紹介型)を動き方・評価軸・求人規模・サポートで比較。30代40代エンジニアの選び方を解説します。" url="/compare/forkwell-vs-levtech/" />
+      <ArticleJsonLd title="Forkwellとレバテックキャリアの比較｜どっちがおすすめか" description="Forkwell(スカウト型)とレバテックキャリア(紹介型)を動き方・評価軸・求人規模・サポートで比較します。30代40代エンジニアの選び方を解説します。" url="/compare/forkwell-vs-levtech/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "Forkwell vs レバテックキャリア" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">Forkwellとレバテックキャリアを徹底比較｜どっちがおすすめ？</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">Forkwellとレバテックキャリアを比較｜どっちがおすすめ？</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年9月 ｜ ポートフォリオ×コミュニティ型 と IT特化エージェント型 を比較</p>
 
-        <p className="text-slate-600 leading-relaxed mb-4">ForkwellとレバテックキャリアはどちらもITエンジニアに定番のサービスですが、性格は正反対です。Forkwellはポートフォリオと技術発信を軸に「スカウトを待つ・自分で動く」タイプ、レバテックキャリアは専任アドバイザーが「求人提案から交渉まで伴走する」タイプ。本記事は30代・40代のITエンジニア向けに、動き方・評価軸・求人規模・サポートの4軸で両者を比較します。どちらも求職者は完全無料です。</p>
+        <p className="text-slate-600 leading-relaxed mb-4">ForkwellとレバテックキャリアはどちらもITエンジニアに定番のサービスですが、性格は正反対です。Forkwellはポートフォリオと技術発信を軸に「スカウトを待つ・自分で動く」タイプ、レバテックキャリアは専任アドバイザーが「求人提案から交渉まで伴走する」タイプです。本記事は30代・40代のITエンジニア向けに、動き方・評価軸・求人規模・サポートの4軸で両者を比較します。どちらも求職者は完全無料です。</p>
 
         <DataNote surveyedAt="2026年9月8日" sources={["Forkwell公式", "レバテックキャリア公式", "各転職メディアの集計値（求人数・登録者数は二次情報と明記）"]} />
 
@@ -88,13 +88,13 @@ export default function ForkwellVsLevtechPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・自走で評価されたいなら「Forkwell」</strong>。ポートフォリオと技術発信を軸に、厳選されたWeb自社開発企業からのスカウトを狙います。</li>
-              <li><strong>・伴走してほしいなら「レバテックキャリア」</strong>。公開求人約5万件超(二次情報)の規模と、書類添削〜年収交渉までの支援が武器です。</li>
-              <li><strong>・迷うなら併用</strong>。「待ちの接点(Forkwell)」と「攻めの提案(レバテック)」を同時に持てます。どちらも完全無料です。</li>
+              <li><strong>・伴走してほしいなら「レバテックキャリア」</strong>。公開求人約5万件超(二次情報)の規模と、書類添削〜年収交渉までの支援が強みです。</li>
+              <li><strong>・迷うなら併用です</strong>。「待ちの接点(Forkwell)」と「攻めの提案(レバテック)」を同時に持てます。どちらも完全無料です。</li>
             </ul>
           </div>
         </section>
@@ -164,12 +164,12 @@ export default function ForkwellVsLevtechPage() {
 
         <section id="heiyo" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">併用のすすめ</h2>
-          <p className="text-slate-600 leading-relaxed mb-3">両者は競合ではなく補完関係です。Forkwellでポートフォリオを整えてスカウトの反応を見ながら、レバテックキャリアで求人提案と選考支援を受ける——「市場からの評価(待ち)」と「選択肢の拡張(攻め)」を並行できます。どちらも無料なので、先に両方登録してから比重を決めるのが実務的です。</p>
+          <p className="text-slate-600 leading-relaxed mb-3">両者は競合ではなく補完関係です。Forkwellでポートフォリオを整えてスカウトの反応を見ながら、レバテックキャリアで求人提案と選考支援を受ける——「市場からの評価(待ち)」と「選択肢の拡張(攻め)」を並行できます。どちらも無料であるため、先に両方登録してから比重を決めるのが実務的です。</p>
         </section>
 
         <section id="middle" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
-          <p className="text-slate-600 leading-relaxed mb-3">30代後半〜40代は「実力の証明」と「経験の言語化」の両方が問われる年代です。コードや成果物で語れる方はForkwellの評価軸が年齢を無効化してくれます。一方、マネジメントや上流の経験が主戦場の方は、それを企業向けに翻訳してくれるレバテックキャリアの伴走価値が高くなります。年収交渉を代行してもらえる点も、現年収が高いミドル層ほど効きます。</p>
+          <p className="text-slate-600 leading-relaxed mb-3">30代後半〜40代は「実力の証明」と「経験の言語化」の両方が問われる年代です。コードや成果物で語れる方はForkwellの評価軸が年齢を無効化してくれます。一方、マネジメントや上流の経験が中心的な活躍領域の方は、それを企業向けに翻訳してくれるレバテックキャリアの伴走価値が高くなります。年収交渉を代行してもらえる点も、現年収が高いミドル層ほど効きます。</p>
         </section>
 
         <section id="faq" className="mb-12 scroll-mt-20">
@@ -198,7 +198,7 @@ export default function ForkwellVsLevtechPage() {
               { name: "レバテックキャリアの評判・口コミ", href: "/review/levtech/" },
               { name: "Findy vs Forkwell 比較", href: "/compare/findy-vs-forkwell/" },
               { name: "Findy vs レバテック 比較", href: "/compare/findy-vs-levtech/" },
-              { name: "スカウト型サービス徹底比較", href: "/compare/scout-agents/" },
+              { name: "スカウト型サービス比較", href: "/compare/scout-agents/" },
               { name: "レバテック vs Geekly 比較", href: "/compare/levtech-vs-geekly/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>

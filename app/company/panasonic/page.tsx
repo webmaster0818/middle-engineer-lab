@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/panasonic/" },
   title: "パナソニックの年収は平均956万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "パナソニックのエンジニア転職を実データで解説。有報の平均年収956万円(2025年3月期・HD)、持株会社制とコネクト社のDX、Blue Yonder、選考フロー、口コミ傾向、30代40代視点まで網羅。",
+    "パナソニックのエンジニア転職を実データで解説します。有価証券報告書の平均年収956万円(2025年3月期・HD)、持株会社制とコネクト社のDX、Blue Yonder、選考フロー、口コミ傾向、30代40代視点まで網羅しています。",
 };
 
 const toc = [
@@ -29,7 +29,7 @@ const basicData: [string, string][] = [
   ["企業名（持株会社）", "パナソニック ホールディングス株式会社"],
   ["業種", "総合電機・エネルギー・B2Bソリューション・IoT"],
   ["主な事業会社", "パナソニック コネクト（B2B・DX）、パナソニック エナジー（車載電池）ほか"],
-  ["従業員数", "連結 約23万人規模（公式IR・有報ベース。年度で変動）"],
+  ["従業員数", "連結 約23万人規模（公式IR・有価証券報告書ベース。年度で変動）"],
   ["提出会社（HD）の平均年間給与", "956万円（2025年3月期 有価証券報告書・全社員平均）"],
   ["平均年齢 / 勤続年数", "44.0歳 / 17.9年（同 有価証券報告書・HD提出会社ベース）"],
   ["本社所在地", "大阪府門真市"],
@@ -47,7 +47,7 @@ const faqs = [
   },
   {
     q: "パナソニックの事業構造（持株会社制）はどうなっていますか？",
-    a: "パナソニックは持株会社制を採用し、パナソニック ホールディングスの傘下に、B2B/DXを担うパナソニック コネクト、車載電池のパナソニック エナジーなど複数の事業会社があります。IT/ソフトウェアエンジニアの主戦場はパナソニック コネクトです（出典：パナソニック 公式情報）。",
+    a: "パナソニックは持株会社制を採用し、パナソニック ホールディングスの傘下に、B2B/DXを担うパナソニック コネクト、車載電池のパナソニック エナジーなど複数の事業会社があります。IT/ソフトウェアエンジニアの中心的な活躍領域はパナソニック コネクトです（出典：パナソニック 公式情報）。",
   },
   {
     q: "Blue Yonder（ブルーヨンダー）とは何ですか？",
@@ -66,7 +66,7 @@ const faqs = [
     a: "OpenWorkなどの口コミプラットフォームでは、パナソニック コネクトについて「2017年の社長交代以降カルチャー改革が進み、年功序列から成果ベースの評価への転換が進んだ」という声がある一方、「年齢層が高くキャリア形成に課題を感じる」という声も見られ、評価は分かれます（出典：OpenWork 社員クチコミ傾向）。",
   },
   {
-    q: "未出典の等級別年収表はなぜ載せていないのですか？",
+    q: "未出典の等級別年収表はなぜ掲載していないのですか？",
     a: "当サイトは確認できた一次情報・出典付き情報のみを掲載する方針です。パナソニックは事業会社ごとにエンジニア職の等級別年収を公式公表していないため、推測による等級別レンジ表は掲載していません。具体額は求人票やエージェント経由で確認するのが現実的です。",
   },
 ];
@@ -84,7 +84,7 @@ export default function PanasonicCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="パナソニック エンジニア転職ガイド" description="パナソニックへのエンジニア転職を実データで解説。有報の平均年収956万円、持株会社制とコネクト社のDX、Blue Yonder、選考フロー、口コミ傾向、30代40代視点まで網羅。" url="/company/panasonic/" />
+      <ArticleJsonLd title="パナソニック エンジニア転職ガイド" description="パナソニックへのエンジニア転職を実データで解説します。有価証券報告書の平均年収956万円、持株会社制とコネクト社のDX、Blue Yonder、選考フロー、口コミ傾向、30代40代視点まで網羅しています。" url="/company/panasonic/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "組込みの転職ガイド", href: "/skill/embedded/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "パナソニック" }]} />
 
@@ -96,11 +96,11 @@ export default function PanasonicCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】パナソニックの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（パナソニック ホールディングス）の平均年間給与は956万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢44.0歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 956万円（2025年3月期 有報・HD提出会社ベース／全社員平均、平均勤続年数17.9年）。</li><li>・これは持株会社（HD）ベースの全社員平均で、パナソニック株式会社や各事業会社（コネクト等）、グループ全体の平均とは異なります。</li><li>・事業会社・職種別の公式レンジは非公表。具体額はエージェント・求人での確認が現実的です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 956万円です（2025年3月期 有価証券報告書・HD提出会社ベース／全社員平均、平均勤続年数17.9年）。</li><li>・これは持株会社（HD）ベースの全社員平均で、パナソニック株式会社や各事業会社（コネクト等）、グループ全体の平均とは異なります。</li><li>・事業会社・職種別の公式レンジは非公表です。具体額はエージェント・求人での確認が現実的です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
-          パナソニックは持株会社制（パナソニック ホールディングス傘下に事業会社が並ぶ構造）を採り、IT/ソフトウェアエンジニアの主戦場は<strong>B2B/DXを担うパナソニック コネクト</strong>です。同社はSCM領域のSaaS企業<strong>Blue Yonder</strong>を取り込み、現場データ×AIによる付加価値創出を進めています。本ガイドでは、有価証券報告書・公式採用ページ・口コミプラットフォームなど<strong>出典が確認できる情報のみ</strong>を使い、エンジニア転職の実態を整理します。製造業の現場知識を持つミドルエンジニアにも接点の多い企業です。
+          パナソニックは持株会社制（パナソニック ホールディングス傘下に事業会社が並ぶ構造）を採り、IT/ソフトウェアエンジニアの中心的な活躍領域は<strong>B2B/DXを担うパナソニック コネクト</strong>です。同社はSCM領域のSaaS企業<strong>Blue Yonder</strong>を取り込み、現場データ×AIによる付加価値創出を進めています。本ガイドでは、有価証券報告書・公式採用ページ・口コミプラットフォームなど<strong>出典が確認できる情報のみ</strong>を使い、エンジニア転職の実態を整理します。製造業の現場知識を持つミドルエンジニアにも接点の多い企業です。
         </p>
 
         <DataNote surveyedAt="2026年6月" sources={["パナソニック ホールディングス 2025年3月期 有価証券報告書", "パナソニック コネクト 公式採用ページ", "OpenWork（社員クチコミ傾向）"]} />
@@ -117,10 +117,10 @@ export default function PanasonicCompanyPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：パナソニック転職の難易度と向くエンジニア</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
-            <p><strong>難易度は高め。ただし事業会社ごとの通年採用のため、専門性が募集要件に合えば30代・40代でもチャンスは十分。IT/ソフトウェアはコネクト社が中心。</strong></p>
-            <p>・<strong>向く人</strong>：B2B/SCMのDX・SaaS開発、組み込み/IoT/エッジ、クラウド、AI/画像解析の実務経験者、製造現場×ITに関心がある人。</p>
-            <p>・<strong>向きにくい人</strong>：単一のWebプロダクトのみを志向する人、事業会社・部署による文化差を許容しにくい人。</p>
-            <p>・<strong>年収の目安</strong>：HD提出会社の全社員平均は956万円（2025年3月期有報）。事業会社・職種別の公式レンジは非公表のため、具体額はエージェント経由で確認するのが現実的。</p>
+            <p><strong>難易度は高めです。ただし事業会社ごとの通年採用のため、専門性が募集要件に合えば30代・40代でもチャンスは十分です。IT/ソフトウェアはコネクト社が中心です。</strong></p>
+            <p>・<strong>向く人</strong>：B2B/SCMのDX・SaaS開発、組み込み/IoT/エッジ、クラウド、AI/画像解析の実務経験者、製造現場×ITに関心がある人です。</p>
+            <p>・<strong>向きにくい人</strong>：単一のWebプロダクトのみを志向する人、事業会社・部署による文化差を許容しにくい人です。</p>
+            <p>・<strong>年収の目安</strong>：HD提出会社の全社員平均は956万円です（2025年3月期有価証券報告書）。事業会社・職種別の公式レンジは非公表のため、具体額はエージェント経由で確認するのが現実的です。</p>
           </div>
         </section>
 
@@ -150,7 +150,7 @@ export default function PanasonicCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. パナソニック コネクトのB2B/DX・Blue Yonder活用</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">コネクト社はサプライチェーン管理、現場プロセスのDX、映像セキュリティなどのB2Bソリューションを展開。買収したSCM領域のSaaS企業Blue Yonderの研究開発を強化し、現場データ×AIによる付加価値創出に取り組んでいます（出典：パナソニック コネクト 公式・OpenWork傾向）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">コネクト社はサプライチェーン管理、現場プロセスのDX、映像セキュリティなどのB2Bソリューションを展開しています。買収したSCM領域のSaaS企業Blue Yonderの研究開発を強化し、現場データ×AIによる付加価値創出に取り組んでいます（出典：パナソニック コネクト 公式・OpenWork傾向）。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. くらし×テクノロジー／車載電池などの幅広い技術領域</h3>
@@ -181,7 +181,7 @@ export default function PanasonicCompanyPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-4">
             <p className="text-sm text-amber-900 leading-relaxed">
               <strong>有価証券報告書（2025年3月期）の全社員平均年収：956万円</strong><br />
-              平均年齢44.0歳／平均勤続年数17.9年（提出会社＝パナソニック ホールディングスの値）。<br className="hidden md:block" />
+              平均年齢44.0歳／平均勤続年数17.9年です（提出会社＝パナソニック ホールディングスの値）。<br className="hidden md:block" />
               <strong className="block mt-1">注意：</strong>この956万円は<strong>持株会社（HD）提出会社ベース</strong>の全社員平均で、パナソニック株式会社や各事業会社（コネクト等）、グループ全体の平均とは異なります。日本経済新聞の企業年収データなど複数の二次情報も同水準（約956万円）を報じています。
             </p>
           </div>
@@ -195,10 +195,10 @@ export default function PanasonicCompanyPage() {
           <p className="text-slate-700 text-sm leading-relaxed mb-4">パナソニック コネクト 公式採用ページに基づく一般的な流れです（職種により回数・内容は異なります）。</p>
           <ol className="space-y-3">
             {[
-              ["応募（履歴書・職務経歴書を提出）", "公式採用ページまたはエージェント経由で応募。"],
-              ["書類選考", "経験・スキルと募集要件の合致が見られる。"],
-              ["面接（複数回）", "基本オンライン（職種により一部対面）。平日9:00〜20:00で実施と案内。"],
-              ["内定・条件提示", "オファー提示を経て決定。"],
+              ["応募（履歴書・職務経歴書を提出）", "公式採用ページまたはエージェント経由で応募します。"],
+              ["書類選考", "経験・スキルと募集要件の合致が見られます。"],
+              ["面接（複数回）", "基本オンラインです（職種により一部対面）。平日9:00〜20:00で実施と案内します。"],
+              ["内定・条件提示", "オファー提示を経て決定します。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -220,14 +220,14 @@ export default function PanasonicCompanyPage() {
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>カルチャー改革・成果ベース評価への適応姿勢</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>製造現場・SCMなどドメイン知識（あれば加点要素）</li>
           </ul>
-          <p className="text-xs text-slate-400 mt-2">出典：パナソニック コネクト 公式採用情報＋口コミの傾向要約。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-2">出典：パナソニック コネクト 公式採用情報＋口コミの傾向要約。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>をご参照ください。</p>
         </section>
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たパナソニック転職</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>パナソニックは事業会社ごとの通年・専門性重視の採用のため、<strong>30代・40代の即戦力エンジニア</strong>が応募しやすい構造です。B2B/SCM、組み込み/IoT、製造DXなど特定領域の深い経験は、ミドル層の強みになります。</p>
-            <p>製造業・現場系の経験を持つエンジニアにとっては、パナソニックの「現場×ソフトウェア」の領域が経験を活かしやすい場面です。<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業からのIT転職ガイド</Link>で、現場知識を武器に変える考え方を整理しておくと、志望動機に説得力が増します。</p>
+            <p>製造業・現場系の経験を持つエンジニアにとっては、パナソニックの「現場×ソフトウェア」の領域が経験を活かしやすい場面です。<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業からのIT転職ガイド</Link>で、現場知識を強みに変える考え方を整理しておくと、志望動機に説得力が増します。</p>
             <p>一方、口コミでは「カルチャー改革が進む事業会社（コネクト等）」と「年齢層が高くキャリア形成に課題を感じる現場」が混在するとの声があります。30代・40代は応募先の事業会社・部署のカルチャーと評価制度を面接段階で具体的に確認することが、転職後の満足度を左右します。40代の留意点は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>も参考にしてください。</p>
           </div>
         </section>
@@ -236,9 +236,9 @@ export default function PanasonicCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">パナソニック転職におすすめの転職エージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量。パナソニックグループ各事業会社の求人を幅広く保有。検索とエージェントを併用できる。" },
-              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚い。大手メーカーへの転職支援に強く、事業会社別の選考準備をサポート。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。メーカーのDX部門・SaaS・IoT関連ポジションの求人に強い。" },
+              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量です。パナソニックグループ各事業会社の求人を幅広く保有しています。検索とエージェントを併用できます。" },
+              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚いです。大手メーカーへの転職支援に強く、事業会社別の選考準備をサポートします。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化です。メーカーのDX部門・SaaS・IoT関連ポジションの求人に強いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

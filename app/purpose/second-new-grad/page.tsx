@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/second-new-grad/" },
   title: "第二新卒エンジニアの転職戦略【1〜3年目の最適な動き方】",
   description:
-    "第二新卒（入社1〜3年目）のエンジニア向け転職戦略を解説。転職すべきタイミング、年収変化、おすすめ企業、面接対策を紹介します。",
+    "第二新卒（入社1〜3年目）のエンジニア向け転職戦略を解説します。転職すべきタイミング、年収変化、おすすめ企業、面接対策を紹介します。",
 };
 
 const faqs = [
@@ -32,7 +32,7 @@ const faqs = [
     a: "はい、第二新卒はポテンシャル採用（経験より成長意欲を重視）で採用されるケースが多いです。技術力よりも学習意欲、コミュニケーション力、チームへの適応力が評価されます。",
   },
   {
-    q: "第二新卒の転職で失敗しないコツは？",
+    q: "第二新卒の転職で注意すべき点は？",
     a: "「なぜ転職するのか」「次の会社で何を実現したいか」を明確にすることです。単に「今の会社が嫌だから」ではなく、キャリアのビジョンを持って転職活動をしましょう。",
   },
 ];
@@ -50,7 +50,7 @@ export default function SecondNewGradPage() {
 
   return (
     <>
-      <ArticleJsonLd title="第二新卒エンジニアの転職戦略【1〜3年目の最適な動き方】" description="第二新卒（入社1〜3年目）のエンジニア向け転職戦略を解説。転職すべきタイミング、年収変化、おすすめ企業、面接対策を紹介します。" url="/purpose/second-new-grad/" />
+      <ArticleJsonLd title="第二新卒エンジニアの転職戦略【1〜3年目の最適な動き方】" description="第二新卒（入社1〜3年目）のエンジニア向け転職戦略を解説します。転職すべきタイミング、年収変化、おすすめ企業、面接対策を紹介します。" url="/purpose/second-new-grad/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "目的別ガイド", href: "/purpose/" }, { name: "第二新卒エンジニアの転職戦略" }]} />
 
@@ -59,10 +59,10 @@ export default function SecondNewGradPage() {
         <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | 入社1〜3年目の最適な転職戦略</p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 入社1〜3年目で今の環境に不満がある</li>
+              <li>- 入社1〜3年目で今の環境に不満があります</li>
               <li>- SES/受託から自社開発に行きたい</li>
               <li>- モダンな技術を使える環境に移りたい</li>
               <li>- 年収をもっと上げたい</li>
@@ -104,10 +104,10 @@ export default function SecondNewGradPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">第二新卒の転職成功ポイント</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "転職理由をポジティブに言語化する", desc: "「もっと技術力を伸ばしたい」「プロダクト開発に携わりたい」など、前向きな動機を準備しましょう。ネガティブな理由は裏返して伝えること。" },
+              { num: "1", title: "転職理由をポジティブに言語化する", desc: "「もっと技術力を伸ばしたい」「プロダクト開発に携わりたい」など、前向きな動機を準備しましょう。ネガティブな理由は裏返して伝えることが重要です。" },
               { num: "2", title: "ポートフォリオを用意する", desc: "経験が浅い分、個人開発やGitHubの活動で技術力をアピールしましょう。学習意欲の証明になります。" },
               { num: "3", title: "第二新卒歓迎の企業を狙う", desc: "多くの企業が第二新卒枠を設けています。ポテンシャル採用で入社し、社内で成長するルートも有効です。" },
-              { num: "4", title: "3年目まで待つべきかの判断基準", desc: "現職で成長できているなら3年まで待つのも一手。成長が止まっていると感じるなら早めの転職が有利です。" },
+              { num: "4", title: "3年目まで待つべきかの判断基準", desc: "現職で成長できているなら3年まで待つのも一手です。成長が止まっていると感じるなら早めの転職が有利です。" },
               { num: "5", title: "複数エージェントに相談する", desc: "第二新卒の転職は情報戦です。3社以上のエージェントに相談して、市場の反応を確認しましょう。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -125,9 +125,9 @@ export default function SecondNewGradPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "マイナビITエージェント", point: "第二新卒向けの求人が豊富。20代エンジニアの転職サポートに強い。" },
-              { name: "レバテックキャリア", point: "技術力を正しく評価。第二新卒でもスキルに応じた高年収求人を紹介。" },
-              { name: "Green", point: "カジュアル面談で企業文化を確認できる。第二新卒歓迎企業が多い。" },
+              { name: "マイナビITエージェント", point: "第二新卒向けの求人が豊富です。20代エンジニアの転職サポートに強いです。" },
+              { name: "レバテックキャリア", point: "技術力を正しく評価します。第二新卒でもスキルに応じた高年収求人を紹介します。" },
+              { name: "Green", point: "カジュアル面談で企業文化を確認できます。第二新卒歓迎企業が多いです。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -165,7 +165,7 @@ export default function SecondNewGradPage() {
               { name: "SE→Web系エンジニア転職", href: "/career/se-to-web/" },
               { name: "自社開発企業への転職ガイド", href: "/purpose/jigyoukaihatsu/" },
               { name: "技術力を伸ばせる企業の選び方", href: "/purpose/growth/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

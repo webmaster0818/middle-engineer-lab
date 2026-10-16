@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/sbi/" },
   title: "SBIホールディングス エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
-    "SBIホールディングスへのエンジニア転職を実データで解説。有価証券報告書の平均年収（2025年3月期）、フィンテック・ネット証券・ネット銀行のシステム、技術スタック、選考フロー、30代40代の現実までまとめました。",
+    "SBIホールディングスへのエンジニア転職を実データで解説します。有価証券報告書の平均年収（2025年3月期）、フィンテック・ネット証券・ネット銀行のシステム、技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -87,7 +87,7 @@ export default function SbiCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="SBIホールディングス エンジニア転職ガイド" description="SBIホールディングスへのエンジニア転職を実データで解説。有価証券報告書の平均年収、フィンテック・ネット証券・ネット銀行のシステム、技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/sbi/" />
+      <ArticleJsonLd title="SBIホールディングス エンジニア転職ガイド" description="SBIホールディングスへのエンジニア転職を実データで解説します。有価証券報告書の平均年収、フィンテック・ネット証券・ネット銀行のシステム、技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/sbi/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "SBIホールディングス" }]} />
 
@@ -99,7 +99,7 @@ export default function SbiCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SBIホールディングスの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SBIホールディングス（持株会社=提出会社）の平均年間給与は1,062万円です（2025年3月期 有価証券報告書・単体／全社員平均、平均年齢41.0歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,062万円（2025年3月期 有報・持株会社単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2021年3月期977万円から2025年3月期1,062万円へ増加傾向（各期 有報・持株会社単体）。</li><li>・SBI証券などグループ各社・エンジニア個人の年収は所属会社・職種・グレードで異なり、提示額は個別求人で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,062万円です（2025年3月期 有価証券報告書・持株会社単体）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2021年3月期977万円から2025年3月期1,062万円へ増加傾向です（各期 有価証券報告書・持株会社単体）。</li><li>・SBI証券などグループ各社・エンジニア個人の年収は所属会社・職種・グレードで異なり、提示額は個別求人で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -125,7 +125,7 @@ export default function SbiCompanyPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：金融ドメインに関心があり、可用性・セキュリティを意識した大規模システム開発の経験があるエンジニア</li>
               <li>● <strong>向いていない人</strong>：規制・品質要件の厳しさを敬遠する人、単一の小規模プロダクトに集中したい人</li>
-              <li>● <strong>30代・40代</strong>：金融ドメイン・セキュリティ・マネジメントの専門性を活かしやすい</li>
+              <li>● <strong>30代・40代</strong>：金融ドメイン・セキュリティ・マネジメントの専門性を活かしやすいです</li>
             </ul>
           </div>
         </section>
@@ -155,7 +155,7 @@ export default function SbiCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年3月期 有価証券報告書（持株会社単体）の全社員平均値。グループ各社（SBI証券等）では水準・体系が異なります。技術スタックはグループ各社の公式採用情報・技術ブログ（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年3月期 有価証券報告書（持株会社単体）の全社員平均値。グループ各社（SBI証券等）では水準・体系が異なります。技術スタックはグループ各社の公式採用情報・技術ブログです（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -179,7 +179,7 @@ export default function SbiCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            SBIグループ各社の技術ブログ・採用情報（2026年6月時点）で公開されている主な技術要素は以下の通りです。金融基幹系から新規フィンテックまで幅広く、配属会社・プロダクトにより使用技術は大きく異なります。
+            SBIグループ各社の技術ブログ・採用情報（2026年6月時点）で公開されている主な技術要素は以下のとおりです。金融基幹系から新規フィンテックまで幅広く、配属会社・プロダクトにより使用技術は大きく異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -270,9 +270,9 @@ export default function SbiCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">SBI転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。金融系・大規模システムの求人にも対応し、非公開求人も豊富。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、金融×ITのミドル・シニア層の支援に定評。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型。金融・フィンテックのハイクラス求人が集まりやすい。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。金融系・大規模システムの求人にも対応し、非公開求人も豊富です。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、金融×ITのミドル・シニア層の支援に定評があります。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。金融・フィンテックのハイクラス求人が集まりやすいです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

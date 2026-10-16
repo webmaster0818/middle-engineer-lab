@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/softbank/" },
   title: "ソフトバンクの年収は平均849万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "ソフトバンクのエンジニア転職を実データで解説。有報の平均年収849万円(2025年3月期)、AI・5G・法人DXの募集職種と選考フロー、口コミ傾向、30代40代視点まで網羅。",
+    "ソフトバンクのエンジニア転職を実データで解説します。有価証券報告書の平均年収849万円(2025年3月期)、AI・5G・法人DXの募集職種と選考フロー、口コミ傾向、30代40代視点まで網羅しています。",
 };
 
 const toc = [
@@ -29,7 +29,7 @@ const basicData: [string, string][] = [
   ["企業名", "ソフトバンク株式会社（証券コード9434）"],
   ["業種", "通信・AI・法人DX"],
   ["事業領域", "コンシューマ通信、法人DX、メディア・EC、ファイナンス、先端技術（AI等）"],
-  ["従業員数", "連結 約5万人規模（公式IR・有報ベース。年度で変動）"],
+  ["従業員数", "連結 約5万人規模（公式IR・有価証券報告書ベース。年度で変動）"],
   ["提出会社の平均年間給与", "849万円（2025年3月期 有価証券報告書・全社員平均）"],
   ["平均年齢 / 勤続年数", "41.7歳 / 14.5年（同 有価証券報告書）"],
   ["本社所在地", "東京都港区"],
@@ -66,7 +66,7 @@ const faqs = [
     a: "口コミプラットフォームでは、給与水準は同業他社・同年代比で高めで、賞与やインセンティブが業績連動で大きくなることが多いとの声が見られます。ただし具体的な制度内容は公式に詳細公表されていないため、提示条件は求人票・エージェント経由で確認するのが確実です（出典：OpenWork等の傾向要約）。",
   },
   {
-    q: "未出典の等級別年収表はなぜ載せていないのですか？",
+    q: "未出典の等級別年収表はなぜ掲載していないのですか？",
     a: "当サイトは確認できた一次情報・出典付き情報のみを掲載する方針です。ソフトバンクはエンジニア職の等級別年収を公式公表していないため、推測による等級別レンジ表は掲載していません。具体額は求人票やエージェント経由で確認するのが現実的です。",
   },
 ];
@@ -84,7 +84,7 @@ export default function SoftbankCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="ソフトバンク エンジニア転職ガイド" description="ソフトバンクへのエンジニア転職を実データで解説。有報の平均年収849万円、AI・5G・法人DXの募集職種と選考フロー、口コミ傾向、30代40代視点まで網羅。" url="/company/softbank/" />
+      <ArticleJsonLd title="ソフトバンク エンジニア転職ガイド" description="ソフトバンクへのエンジニア転職を実データで解説します。有価証券報告書の平均年収849万円、AI・5G・法人DXの募集職種と選考フロー、口コミ傾向、30代40代視点まで網羅しています。" url="/company/softbank/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AI・機械学習の転職ガイド", href: "/skill/ai-ml/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ソフトバンク" }]} />
 
@@ -96,7 +96,7 @@ export default function SoftbankCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ソフトバンクの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: ソフトバンク株式会社（9434・提出会社）の平均年間給与は849万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢41.7歳／平均勤続14.5年）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 849万円（2025年3月期 有報・提出会社の全社員平均）。エンジニア職限定の数値ではありません。</li><li>・ソフトバンクグループ（9984）とは別法人。日本経済新聞の企業年収データなど二次情報も同水準（約849万円）です。</li><li>・職種別の公式年収レンジは非公表。賞与・インセンティブが業績連動で上振れするとの口コミあり。提示条件は求人票・エージェントで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 849万円です（2025年3月期 有価証券報告書・提出会社の全社員平均）。エンジニア職限定の数値ではありません。</li><li>・ソフトバンクグループ（9984）とは別法人です。日本経済新聞の企業年収データなど二次情報も同水準（約849万円）です。</li><li>・職種別の公式年収レンジは非公表です。賞与・インセンティブが業績連動で上振れするとの口コミがあります。提示条件は求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -117,10 +117,10 @@ export default function SoftbankCompanyPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ソフトバンク転職の難易度と向くエンジニア</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
-            <p><strong>難易度は中〜高。AI・通信・法人DXを通年で幅広く募集しており、専門性と「スピード文化」への適性が合えば30代・40代にもチャンスが多い。</strong></p>
-            <p>・<strong>向く人</strong>：AI/ML・データ基盤、5G/通信ネットワーク、クラウド、法人向けSI/DXの実務経験者、スピード重視・新規事業に挑戦したい人。</p>
-            <p>・<strong>向きにくい人</strong>：腰を据えた長期開発のみを好む人、評価制度・業務量の変動を許容しにくい人。</p>
-            <p>・<strong>年収の目安</strong>：全社員平均は849万円（2025年3月期有報）。賞与・インセンティブが業績連動で上振れする傾向との口コミあり。職種別の公式レンジは非公表。</p>
+            <p><strong>難易度は中〜高。AI・通信・法人DXを通年で幅広く募集しており、専門性と「スピード文化」への適性が合えば30代・40代にもチャンスが多いです。</strong></p>
+            <p>・<strong>向く人</strong>：AI/ML・データ基盤、5G/通信ネットワーク、クラウド、法人向けSI/DXの実務経験者、スピード重視・新規事業に挑戦したい人です。</p>
+            <p>・<strong>向きにくい人</strong>：腰を据えた長期開発のみを好む人、評価制度・業務量の変動を許容しにくい人です。</p>
+            <p>・<strong>年収の目安</strong>：全社員平均は849万円です（2025年3月期有価証券報告書）。賞与・インセンティブが業績連動で上振れする傾向との口コミがあります。職種別の公式レンジは非公表です。</p>
           </div>
         </section>
 
@@ -150,7 +150,7 @@ export default function SoftbankCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 通信×AIの融合と法人DXの成長</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">5G/Beyond 5Gの通信基盤とデータを武器に、AI活用のソリューションや法人DXを展開しています。通信インフラとAIの両方に携われる点はソフトバンクならではの強みで、法人事業の成長に伴いクラウド・データ・セキュリティ系のエンジニアを積極採用しています（出典：ソフトバンク 公式情報）。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">5G/Beyond 5Gの通信基盤とデータを強みに、AI活用のソリューションや法人DXを展開しています。通信インフラとAIの両方に携われる点はソフトバンクならではの強みで、法人事業の成長に伴いクラウド・データ・セキュリティ系のエンジニアを積極採用しています（出典：ソフトバンク 公式情報）。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. スピードと挑戦の文化／新規事業</h3>
@@ -181,7 +181,7 @@ export default function SoftbankCompanyPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-4">
             <p className="text-sm text-amber-900 leading-relaxed">
               <strong>有価証券報告書（2025年3月期）の全社員平均年収：849万円</strong><br />
-              平均年齢41.7歳／平均勤続年数14.5年（提出会社＝ソフトバンク株式会社の値）。全従業員の平均であり、エンジニア職に限定した公式レンジではありません。日本経済新聞の企業年収データなど複数の二次情報も同水準（約849万円）を報じています。
+              平均年齢41.7歳／平均勤続年数14.5年です（提出会社＝ソフトバンク株式会社の値）。全従業員の平均であり、エンジニア職に限定した公式レンジではありません。日本経済新聞の企業年収データなど複数の二次情報も同水準（約849万円）を報じています。
             </p>
           </div>
           <p className="text-slate-700 text-sm leading-relaxed">
@@ -194,10 +194,10 @@ export default function SoftbankCompanyPage() {
           <p className="text-slate-700 text-sm leading-relaxed mb-4">ソフトバンク 公式キャリア採用「応募・選考フロー」に基づく一般的な流れです（職種・時期で変動）。</p>
           <ol className="space-y-3">
             {[
-              ["応募（公式採用ページ／エージェント経由）", "希望の募集職種に応募。"],
-              ["書類選考", "経験・スキルと募集要件の合致が見られる。"],
-              ["面接（複数回の場合あり）", "応募職種・選考時期・状況により面接を複数回実施することがある。"],
-              ["内定・条件提示", "オファー提示を経て決定。"],
+              ["応募（公式採用ページ／エージェント経由）", "希望の募集職種に応募します。"],
+              ["書類選考", "経験・スキルと募集要件の合致が見られます。"],
+              ["面接（複数回の場合あり）", "応募職種・選考時期・状況により面接を複数回実施することがあります。"],
+              ["内定・条件提示", "オファー提示を経て決定します。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -219,7 +219,7 @@ export default function SoftbankCompanyPage() {
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>「挑戦とスピード」の文化への適性・新規事業への意欲</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>大規模システムの設計・運用、または事業を作る視点</li>
           </ul>
-          <p className="text-xs text-slate-400 mt-2">出典：ソフトバンク 公式採用情報＋口コミの傾向要約。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-2">出典：ソフトバンク 公式採用情報＋口コミの傾向要約。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>をご参照ください。</p>
         </section>
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
@@ -235,9 +235,9 @@ export default function SoftbankCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ソフトバンク転職におすすめの転職エージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量。大手通信・IT企業の求人を幅広く保有。検索とエージェントを併用できる。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。高年収求人比率が高く、AI・クラウドなど先端領域のエンジニア求人に強い。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。AI・法人DXの上位ポジションのスカウトに出会いやすい。" },
+              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量です。大手通信・IT企業の求人を幅広く保有しています。検索とエージェントを併用できます。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化です。高年収求人比率が高く、AI・クラウドなど先端領域のエンジニア求人に強いです。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。AI・法人DXの上位ポジションのスカウトに出会いやすいです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

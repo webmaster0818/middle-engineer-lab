@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "保険業界からインシュアテック転職ガイド｜30代40代";
 const DESC =
-  "保険系SE・保険業界エンジニアからインシュアテック（InsurTech）領域へ転職する現実的な方法を解説。活かせる保険ドメイン知識と埋めるギャップ、年収の考え方、30代40代の進め方を公的データで整理します。";
+  "保険系SE・保険業界エンジニアからインシュアテック（InsurTech）領域へ転職する現実的な方法を解説します。活かせる保険ドメイン知識と埋めるギャップ、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industry/insurance/" },
@@ -36,17 +36,17 @@ const skillGap = [
 ];
 
 const patterns = [
-  ["インシュアテックプロダクトエンジニア", "保険SaaS・ダイレクト保険", "保険業務知識＋Web開発。ドメイン理解を武器に未経験技術を補う王道ルート"],
-  ["保険データ・リスク分析エンジニア", "保険会社・インシュアテック", "SQL・Pythonでの引受/不正検知モデル。アクチュアリー知識が近い人に向く"],
-  ["保険DX推進・社内SE", "生損保・共済・IT子会社", "基幹刷新やクラウド移行のPM。大規模PJ経験が活きる"],
-  ["保険API・エンベデッド連携エンジニア", "EC・旅行×保険、SaaS", "他サービスに保険を組み込むAPI設計。連携・マイクロサービス志向の人に"],
+  ["インシュアテックプロダクトエンジニア", "保険SaaS・ダイレクト保険", "保険業務知識＋Web開発です。ドメイン理解を強みに未経験技術を補う代表的なルート"],
+  ["保険データ・リスク分析エンジニア", "保険会社・インシュアテック", "SQL・Pythonでの引受/不正検知モデルです。アクチュアリー知識が近い人に向く"],
+  ["保険DX推進・社内SE", "生損保・共済・IT子会社", "基幹刷新やクラウド移行のPMです。大規模PJ経験が活きる"],
+  ["保険API・エンベデッド連携エンジニア", "EC・旅行×保険、SaaS", "他サービスに保険を組み込むAPI設計です。連携・マイクロサービス志向の人に"],
 ];
 
 const companyTypes = [
-  ["インシュアテックスタートアップ", "少額短期保険・P2P・パラメトリック保険などの自社プロダクト。モダンな技術と裁量が魅力", "スピード感・少人数開発に適応できる人"],
-  ["生損保のDX部門／IT子会社", "基幹刷新、AI引受、データ基盤。安定基盤で大規模案件に関われる", "大規模PJのマネジメントを志向する人"],
-  ["ヘルスケア・テレマティクス×保険", "健康・運転データを活用した個別最適保険。IoT・リアルタイム分析が近い", "データ・IoT寄りの志向がある人"],
-  ["保険特化SIer・コンサル", "保険会社向けの上流支援。業務理解とプロジェクト推進力が問われる", "顧客折衝・上流志向の人"],
+  ["インシュアテックスタートアップ", "少額短期保険・P2P・パラメトリック保険などの自社プロダクトです。モダンな技術と裁量が魅力", "スピード感・少人数開発に適応できる人"],
+  ["生損保のDX部門／IT子会社", "基幹刷新、AI引受、データ基盤です。安定基盤で大規模案件に関われる", "大規模PJのマネジメントを志向する人"],
+  ["ヘルスケア・テレマティクス×保険", "健康・運転データを活用した個別最適保険です。IoT・リアルタイム分析が近い", "データ・IoT寄りの志向がある人"],
+  ["保険特化SIer・コンサル", "保険会社向けの上流支援です。業務理解とプロジェクト推進力が問われる", "顧客折衝・上流志向の人"],
 ];
 
 const faqs = [
@@ -72,11 +72,11 @@ const faqs = [
   },
   {
     q: "30代・40代でも保険からインシュアテックに転職できますか？",
-    a: "保険ドメイン知識が武器になりやすい領域のため、年齢だけが理由で不利になるとは限りません。30代はデータ分析・モダン技術の習得、40代は業務理解とマネジメントの組み合わせで強みを示すと、ミドル層ならではの価値を打ち出しやすくなります。",
+    a: "保険ドメイン知識が強みになりやすい領域のため、年齢だけが理由で不利になるとは限りません。30代はデータ分析・モダン技術の習得、40代は業務理解とマネジメントの組み合わせで強みを示すと、ミドル層ならではの価値を打ち出しやすくなります。",
   },
   {
     q: "保険からインシュアテック転職に強いエージェントは？",
-    a: "IT特化のレバテックキャリアは技術的なマッチングに強みがあり、ハイクラス志向ならスカウト型のビズリーチも選択肢です。保険・金融系IT求人を幅広く見たい場合はマイナビIT AGENTなども併用候補です。複数登録して比較するのが定石です。",
+    a: "IT特化のレバテックキャリアは技術的なマッチングに強みがあり、ハイクラス志向ならスカウト型のビズリーチも選択肢です。保険・金融系IT求人を幅広く見たい場合はマイナビIT AGENTなども併用候補です。複数登録して比較するのが基本です。",
   },
   {
     q: "未出典の市場規模や成長率は記載していますか？",
@@ -147,9 +147,9 @@ export default function InsurancePage() {
               ただし保険知識だけで完結するわけではなく、データ分析やモダン開発スキルとの掛け合わせが鍵になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・引受・査定・保全の業務理解はインシュアテックで希少価値が高い</li>
-              <li>・一方でデータ分析・ML・API設計の実務経験は多くの求人で問われる</li>
-              <li>・30代はデータ/技術習得、40代は業務理解＋マネジメントで勝負しやすい</li>
+              <li>・引受・査定・保全の業務理解はインシュアテックで希少価値が高いです</li>
+              <li>・一方でデータ分析・ML・API設計の実務経験は多くの求人で問われます</li>
+              <li>・30代はデータ/技術習得、40代は業務理解＋マネジメントを強みにしやすいです</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -293,10 +293,10 @@ export default function InsurancePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "保険経験を棚卸しする", desc: "携わった保険システムの領域（引受・査定・保全・損害調査など）、業務知識、効率化や処理時間短縮の実績を具体的に整理する。数値化できる成果は必ず洗い出す。" },
-              { step: "2", title: "不足スキルを補う計画を立てる", desc: "データ分析（SQL/Python）、ML、API設計など、求人で問われやすい技術を3〜6ヶ月で学習。小さくても動くものを作ると説得力が増す。" },
-              { step: "3", title: "活きる領域を見極める", desc: "生保・損保・ヘルスケア・損害査定のうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定する。" },
-              { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録。求人と担当者を比較し、市場価値を客観的に把握する。" },
+              { step: "1", title: "保険経験を棚卸しする", desc: "携わった保険システムの領域（引受・査定・保全・損害調査など）、業務知識、効率化や処理時間短縮の実績を具体的に整理します。数値化できる成果は必ず洗い出します。" },
+              { step: "2", title: "不足スキルを補う計画を立てる", desc: "データ分析（SQL/Python）、ML、API設計など、求人で問われやすい技術を3〜6ヶ月で学習します。小さくても動くものを作ると説得力が増します。" },
+              { step: "3", title: "活きる領域を見極める", desc: "生保・損保・ヘルスケア・損害査定のうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定します。" },
+              { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録します。求人と担当者を比較し、市場価値を客観的に把握します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -321,13 +321,13 @@ export default function InsurancePage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：業務理解とマネジメントを軸に</h3>
               <p className="text-sm text-petrol-deep">
-                引受・査定の深い業務理解や大規模PJのマネジメントは、インシュアテック企業や保険DX支援で評価されやすい強みです。実装だけで勝負するより、組み合わせの価値を打ち出すのが現実的です。
+                引受・査定の深い業務理解や大規模PJのマネジメントは、インシュアテック企業や保険DX支援で評価されやすい強みです。実装だけを強みにするより、組み合わせの価値を打ち出すのが現実的です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
               <p className="text-sm text-petrol-deep">
-                若手と同じ土俵で最新技術だけを競うのではなく、保険×ITという希少性で差別化するのがミドル層の定石です。
+                若手と同じ土俵で最新技術だけを競うのではなく、保険×ITという希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
@@ -338,13 +338,13 @@ export default function InsurancePage() {
         <section id="agents" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">相談先エージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            保険×ITの転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが定石です。
+            保険×ITの転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが基本です。
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強み。金融・保険系のIT求人も扱う。ミドルは経歴を丁寧に伝えたい。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型。年収750万円以上の求人や上流ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
-              { name: "マイナビIT AGENT", desc: "書類添削・面接対策が手厚いとされる。保険・金融系IT求人を幅広く見たい場合の併用候補。", href: "/review/mynavi-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。金融・保険系のIT求人も扱います。ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や上流ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
+              { name: "マイナビIT AGENT", desc: "書類添削・面接対策が手厚いとされます。保険・金融系IT求人を幅広く見たい場合の併用候補です。", href: "/review/mynavi-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -371,7 +371,7 @@ export default function InsurancePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">保険の知識をインシュアテックで活かそう</h2>
-          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

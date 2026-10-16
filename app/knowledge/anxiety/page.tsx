@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "転職への不安との向き合い方【エンジニア転職】";
 const DESCRIPTION =
-  "転職への不安を整理し、行動に変えるための向き合い方を、不安の種類別の対処法・思考の整理フレーム・準備のステップまで実践的に解説。30代・40代が漠然とした不安に振り回されないための考え方をまとめます。";
+  "転職への不安を整理し、行動に変えるための向き合い方を、不安の種類別の対処法・思考の整理フレーム・準備のステップまで実践的に解説します。30代・40代が漠然とした不安に振り回されないための考え方をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/anxiety/" },
@@ -44,7 +44,7 @@ const types = [
   },
   {
     title: "現状を変えること自体の不安",
-    desc: "今のままでいいのでは、という現状維持バイアス。動かないリスクと比較して捉え直すことが大切です。",
+    desc: "今のままでいいのでは、という現状維持バイアスです。動かないリスクと比較して捉え直すことが大切です。",
   },
 ];
 
@@ -156,7 +156,7 @@ export default function AnxietyPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職の不安とはどう向き合えばいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 不安はゼロにするものではなく、正体を書き出して対処可能な課題に分解し、小さな行動で一つずつ潰していくものです。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・不安は「金銭・スキル・失敗・環境変化・現状を変えること」の5つに分解すると扱いやすくなる</li><li>・「何が不安か→自分でコントロールできるか→次の一手」の順に書き出すと行動に変わる</li><li>・在職しながら情報を集め、エージェントに市場価値を聞くなど低リスクの一歩から始める</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・不安は「金銭・スキル・失敗・環境変化・現状を変えること」の5つに分解すると扱いやすくなります</li><li>・「何が不安か→自分でコントロールできるか→次の一手」の順に書き出すと行動に変わります</li><li>・在職しながら情報を集め、エージェントに市場価値を聞くなど低リスクの一歩から始めます</li></ul>
           </div>
         </section>
 
@@ -191,7 +191,7 @@ export default function AnxietyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：不安との向き合い方の基本</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              不安との向き合い方の基本は、<strong>「不安の正体を書き出して分解し」「対処可能な課題に変え」「小さな行動で一つずつ潰していく」</strong>こと。不安をゼロにしようとするのではなく、コントロールできる形にすることが目標です。
+              不安との向き合い方の基本は、<strong>「不安の正体を書き出して分解し」「対処可能な課題に変え」「小さな行動で一つずつ潰していく」</strong>ことです。不安をゼロにしようとするのではなく、コントロールできる形にすることが目標です。
             </p>
             <p className="text-slate-700 leading-relaxed">
               「なんとなく不安」のまま抱え込むと、不安は実体以上に膨らみます。逆に、何が不安なのかを言語化すると、その多くは「情報を集めれば解決すること」「準備すれば軽減できること」だと分かります。不安は止まる理由ではなく、準備すべきことを教えてくれるサインだと捉え直しましょう。
@@ -223,7 +223,7 @@ export default function AnxietyPage() {
           </p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "何が不安かを書き出す", desc: "「年収が下がるかも」「スキルが通用しないかも」など、頭の中の不安を全て言葉にします。" },
+              { num: "1", title: "何が不安かを書き出す", desc: "「年収が下がるかも」「スキルが通用しないかも」など、頭の中の不安をすべて言葉にします。" },
               { num: "2", title: "コントロールできるか分類する", desc: "自分の準備で対処できる不安と、相手次第で変えられない不安に分けます。多くは前者です。" },
               { num: "3", title: "次の一手を決める", desc: "対処できる不安には「エージェントに相談する」「求人を10件見る」など、具体的な行動を1つ割り当てます。" },
             ].map((item, i) => (

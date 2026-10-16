@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/no-english/" },
   title: "英語不要のIT企業へ転職【国内向け開発の見極め方】",
   description:
-    "英語を使わずに働けるエンジニア転職先を正直に解説。英語不要な企業・職種の実態、求人での見極め方、将来も英語が発生しにくい領域、注意点を30-40代向けに整理します。",
+    "英語を使わずに働けるエンジニア転職先を解説します。英語不要な企業・職種の実態、求人での見極め方、将来も英語が発生しにくい領域、注意点を30-40代向けに整理します。",
 };
 
 const faqs = [
@@ -53,7 +53,7 @@ export default function NoEnglishPage() {
     <>
       <ArticleJsonLd
         title="英語不要のIT企業へ転職【国内向け開発の見極め方】"
-        description="英語を使わずに働けるエンジニア転職先を正直に解説。英語不要な企業・職種の実態、求人での見極め方、将来も英語が発生しにくい領域、注意点を30-40代向けに整理します。"
+        description="英語を使わずに働けるエンジニア転職先を解説します。英語不要な企業・職種の実態、求人での見極め方、将来も英語が発生しにくい領域、注意点を30-40代向けに整理します。"
         url="/purpose/no-english/"
       />
       <script
@@ -83,16 +83,16 @@ export default function NoEnglishPage() {
         />
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：英語不要は“会話・会議で英語を使わない”環境。技術情報の英語はゼロにできない</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：英語不要は“会話・会議で英語を使わない”環境です。技術情報の英語はゼロにできない</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
-            英語を使わずに働けるエンジニアの仕事は確かに存在します。国内顧客向けの業務システム、官公庁・自治体案件、国内SaaSの運用、社内システム部門などは、<strong>会話・メール・会議で英語を使わずに働ける</strong>領域です。ただし正直に言えば、エンジニアである以上『公式ドキュメントやエラーメッセージが英語』という場面は職種を問わず発生します。ここでいう英語不要とは『コミュニケーションで英語を使わない』という意味であって、技術情報の英語読解まで完全にゼロにできるわけではありません。本記事では、この区別を踏まえて英語不要の環境を見極める方法と、将来も英語が発生しにくい領域を解説します。
+            英語を使わずに働けるエンジニアの仕事は確かに存在します。国内顧客向けの業務システム、官公庁・自治体案件、国内SaaSの運用、社内システム部門などは、<strong>会話・メール・会議で英語を使わずに働ける</strong>領域です。ただし実際には、エンジニアである以上『公式ドキュメントやエラーメッセージが英語』という場面は職種を問わず発生します。ここでいう英語不要とは『コミュニケーションで英語を使わない』という意味であって、技術情報の英語読解まで完全にゼロにできるわけではありません。本記事では、この区別を踏まえて英語不要の環境を見極める方法と、将来も英語が発生しにくい領域を解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 英語での会話・会議・メールを避けたい</li>
               <li>- 国内向けの開発に腰を据えて取り組みたい</li>
-              <li>- 英語を理由に転職をためらっている</li>
+              <li>- 英語を理由に転職をためらっています</li>
               <li>- 将来も英語が発生しにくい領域を知りたい</li>
             </ul>
           </div>
@@ -122,10 +122,10 @@ export default function NoEnglishPage() {
               </thead>
               <tbody>
                 {[
-                  { type: "会話・会議の英語", desc: "国内向け企業ならほぼ不要。顧客も社員も日本語で完結する" },
-                  { type: "英語メール・チャット", desc: "海外取引先・海外チームがなければ発生しない" },
-                  { type: "技術ドキュメント読解", desc: "職種を問わず一定発生。翻訳ツール・日本語記事で大半は補える" },
-                  { type: "エラーメッセージ・ログ", desc: "英語表記が基本。読む英語に少し慣れておくと効率が上がる" },
+                  { type: "会話・会議の英語", desc: "国内向け企業ならほぼ不要です。顧客も社員も日本語で完結します" },
+                  { type: "英語メール・チャット", desc: "海外取引先・海外チームがなければ発生しません" },
+                  { type: "技術ドキュメント読解", desc: "職種を問わず一定発生です。翻訳ツール・日本語記事で大半は補えます" },
+                  { type: "エラーメッセージ・ログ", desc: "英語表記が基本です。読む英語に少し慣れておくと効率が上がります" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -144,10 +144,10 @@ export default function NoEnglishPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">2. 英語が発生しにくい職種・領域</h2>
           <div className="space-y-3">
             {[
-              { type: "国内顧客向けの業務系SIer・受託開発", point: "顧客・要件・ドキュメントがすべて日本語。英語コミュニケーションはほぼ発生しない。" },
-              { type: "官公庁・自治体・公共系システム", point: "国内に閉じた事業ドメインで、英語が構造的に発生しにくい。需要も安定。" },
-              { type: "社内システム・情報システム部門", point: "自社内の業務システムが対象。社員向けで英語折衝の必要が少ない。" },
-              { type: "国内向けSaaSの保守・運用", point: "ユーザーもサポートも国内中心。日本語での運用が基本になる。" },
+              { type: "国内顧客向けの業務系SIer・受託開発", point: "顧客・要件・ドキュメントがすべて日本語です。英語コミュニケーションはほぼ発生しません。" },
+              { type: "官公庁・自治体・公共系システム", point: "国内に閉じた事業ドメインで、英語が構造的に発生しにくいです。需要も安定です。" },
+              { type: "社内システム・情報システム部門", point: "自社内の業務システムが対象です。社員向けで英語折衝の必要が少ないです。" },
+              { type: "国内向けSaaSの保守・運用", point: "ユーザーもサポートも国内中心です。日本語での運用が基本になります。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>
@@ -161,7 +161,7 @@ export default function NoEnglishPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">3. 見極めのポイント</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "事業の市場が国内か海外かを確認", desc: "顧客・売上が国内中心の企業は英語が発生しにくい。グローバル展開中の企業は将来英語が発生する余地があります。" },
+              { num: "1", title: "事業の市場が国内か海外かを確認", desc: "顧客・売上が国内中心の企業は英語が発生しにくいです。グローバル展開中の企業は将来英語が発生する余地があります。" },
               { num: "2", title: "海外拠点・オフショア連携の有無を確認", desc: "海外オフショア開発と連携する体制があると、英語でのやり取りが発生することがあります。" },
               { num: "3", title: "「日常業務で英語を使う場面はあるか」を面接で直接聞く", desc: "求人票に英語不要と書かれることは少ないため、面接での直接確認が最も確実です。" },
               { num: "4", title: "外資による買収・資本関係を確認", desc: "外資系の親会社を持つ企業は、社内公用語や報告で英語が求められるケースがあります。" },
@@ -180,7 +180,7 @@ export default function NoEnglishPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 注意点とキャリアのトレードオフ（正直な話）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 注意点とキャリアのトレードオフ（実情）</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
             英語不要を最優先にすると、知っておくべきトレードオフがあります。英語ができるエンジニアは外資系IT・海外案件で年収プレミアムを得やすく、その選択肢は英語不要にこだわると狭まります。また、国内向けの業務系・公共系は安定している一方、最新技術の一次情報は英語で出ることが多く、読む英語を完全に避けると技術習得の効率が落ちる面があります。
           </p>
@@ -233,7 +233,7 @@ export default function NoEnglishPage() {
               { name: "学歴不問でエンジニア転職", href: "/purpose/no-degree/" },
               { name: "安定したIT企業への転職", href: "/purpose/stable/" },
               { name: "目的別ガイド一覧", href: "/purpose/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

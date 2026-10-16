@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/no-relocation/" },
   title: "転勤なしのエンジニア求人の見極め方【2026年版】",
   description:
-    "「転勤なし」のエンジニア求人を勤務地限定の観点で解説。原則・当面・選択制の罠、SES客先常駐・出向で崩れる落とし穴、年収とのトレードオフまで30-40代向けに正直に整理。",
+    "「転勤なし」のエンジニア求人を勤務地限定の観点で解説します。原則・当面・選択制の罠、SES客先常駐・出向で崩れる落とし穴、年収とのトレードオフまで30-40代向けに整理します。",
 };
 
 const faqs = [
@@ -53,7 +53,7 @@ export default function NoRelocationPage() {
     <>
       <ArticleJsonLd
         title="転勤なしのエンジニア求人の見極め方【2026年版】"
-        description="「転勤なし」のエンジニア求人を勤務地限定の観点で解説。原則・当面・選択制の罠、SES客先常駐で崩れる落とし穴、年収とのトレードオフまで正直に整理。"
+        description="「転勤なし」のエンジニア求人を勤務地限定の観点で解説します。原則・当面・選択制の罠、SES客先常駐で崩れる落とし穴、年収とのトレードオフまで整理します。"
         url="/purpose/no-relocation/"
       />
       <script
@@ -72,7 +72,7 @@ export default function NoRelocationPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           転勤なしのエンジニア求人の見極め方
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 勤務地を固定したいミドルのための完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 勤務地を固定したいミドルのためのガイド</p>
 
         <DataNote
           surveyedAt="2026年6月"
@@ -83,16 +83,16 @@ export default function NoRelocationPage() {
         />
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：「転勤なし」は“勤務地が固定される”ことの確認が全て</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：「転勤なし」は“勤務地が固定される”ことの確認がすべて</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             「転勤なし」は、在宅勤務を約束するフルリモートとは別の軸です。<strong>出社はあるが、住む地域を変えなくてよい</strong>——これが転勤なしの本質です。引っ越したくない、子どもを転校させたくない、持ち家から通い続けたいという30-40代にとって、最も重要なのは求人票の文言ではなく「契約レベルで勤務地が固定されるか」です。本記事は『原則なし・当面なし・選択制』の落とし穴を整理し、入社後に勤務地が崩れる事態を防ぐ見極め方を解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 持ち家・子どもの学校があり引っ越せない</li>
+              <li>- 持ち家・子どもの学校があり引っ越せません</li>
               <li>- 出社はしてもよいが、住む地域は固定したい</li>
-              <li>- 配偶者の仕事・親の介護で地域を離れられない</li>
+              <li>- 配偶者の仕事・親の介護で地域を離れられません</li>
               <li>- 「転勤なし」の求人を契約レベルで見極めたい</li>
             </ul>
           </div>
@@ -122,10 +122,10 @@ export default function NoRelocationPage() {
               </thead>
               <tbody>
                 {[
-                  { type: "「原則」「当面」なし", desc: "求人票は「原則転勤なし」。事業拡大や本人都合で将来の異動余地が残る" },
-                  { type: "選択制の罠", desc: "総合職／地域限定職の選択制で、転勤なしは地域限定職を選んだ場合のみ。総合職だと転勤あり" },
-                  { type: "事業所異動・出向", desc: "形式上は転勤でなくても、同一エリア内の別拠点異動やグループ会社への出向で通勤先が変わる" },
-                  { type: "SES客先常駐", desc: "雇用元は固定でも、常駐プロジェクトが変わるたび通勤先が変動。実質勤務地は安定しない" },
+                  { type: "「原則」「当面」なし", desc: "求人票は「原則転勤なし」。事業拡大や本人都合で将来の異動余地が残ります" },
+                  { type: "選択制の罠", desc: "総合職／地域限定職の選択制で、転勤なしは地域限定職を選んだ場合のみです。総合職だと転勤あり" },
+                  { type: "事業所異動・出向", desc: "形式上は転勤でなくても、同一エリア内の別拠点異動やグループ会社への出向で通勤先が変わります" },
+                  { type: "SES客先常駐", desc: "雇用元は固定でも、常駐プロジェクトが変わるたび通勤先が変動しています。実質勤務地は安定しません" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -158,7 +158,7 @@ export default function NoRelocationPage() {
             {[
               { num: "1", title: "「転勤なし」が原則・当面・確定のどれか確認", desc: "面接で『例外的に異動になるケースはありますか』と聞き、回答の歯切れで実態を読みます。" },
               { num: "2", title: "勤務地限定正社員制度の有無を確認", desc: "制度として勤務地を固定できるなら、最も確実です。総合職との待遇差も合わせて確認します。" },
-              { num: "3", title: "雇用契約書の勤務地条項（変更の範囲）を確認", desc: "労働条件通知書の『就業の場所の変更の範囲』欄を必ずチェック。包括的記載は要注意です。" },
+              { num: "3", title: "雇用契約書の勤務地条項（変更の範囲）を確認", desc: "労働条件通知書の『就業の場所の変更の範囲』欄を必ずチェックします。包括的記載は要注意です。" },
               { num: "4", title: "出向・グループ間配置の可能性を確認", desc: "親会社・子会社が多いグループ企業では、出向で実質的な勤務地変更が起きることがあります。" },
               { num: "5", title: "（SESの場合）常駐先エリアの範囲を確認", desc: "『通勤90分以内のプロジェクトに限る』など、常駐先の地理的範囲が決まっているかを確認します。" },
             ].map((item, i) => (
@@ -176,7 +176,7 @@ export default function NoRelocationPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 年収とのトレードオフ（正直な話）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 年収とのトレードオフ（実情）</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
             勤務地限定を選ぶことには、知っておくべきトレードオフがあります。一部の企業では、地域限定職は全国転勤型の総合職に比べて昇給上限・賞与・各種手当でやや差がつく制度設計になっています。これは「転勤という会社都合への柔軟性を提供しない対価」という位置づけです。
           </p>
@@ -195,7 +195,7 @@ export default function NoRelocationPage() {
             転勤は本人だけの問題ではありません。持ち家のローン、子どもの転校による学習・友人関係への影響、配偶者のキャリア、親の介護——これらは世帯全体に波及します。20代では「転勤＝経験」と前向きに捉えられても、生活基盤が地域に根を張ったミドルにとって、転勤回避は譲れない条件になりがちです。
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
-            だからこそ、求人票の「転勤なし」という4文字を信じて入社し、数年後に異動を打診される事態は避けたいところ。<strong>口頭の安心よりも、雇用契約書の勤務地条項という“書面の事実”で確認する</strong>のが、家族を守るミドルの賢い動き方です。住む場所を起点に働き方を設計したい場合は、
+            だからこそ、求人票の「転勤なし」という4文字を信じて入社し、数年後に異動を打診される事態は避けたいところです。<strong>口頭の安心よりも、雇用契約書の勤務地条項という“書面の事実”で確認する</strong>のが、家族を守るミドルの賢い動き方です。住む場所を起点に働き方を設計したい場合は、
             <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート勤務ガイド</Link>
             や
             <Link href="/purpose/uturnable/" className="text-petrol hover:underline">Uターン・Iターン×IT転職</Link>
@@ -220,7 +220,7 @@ export default function NoRelocationPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">転勤なしの求人を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">勤務地条件の実態まで確認できるIT特化型エージェントが、あなたに合う企業を提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">勤務地条件の実態まで確認できるIT特化型エージェントが、ご自身に合う企業を提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -233,7 +233,7 @@ export default function NoRelocationPage() {
               { name: "移住・地方移住OKの求人ガイド", href: "/purpose/relocation-friendly/" },
               { name: "東京のITエンジニア求人", href: "/area/tokyo/" },
               { name: "SESから自社開発への転職", href: "/industry/ses-exit/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

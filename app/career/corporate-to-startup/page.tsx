@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/career/corporate-to-startup/" },
   title: "大企業からスタートアップへの転職｜進め方とスキルギャップ",
   description:
-    "大企業エンジニアからスタートアップへの転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説。SO確認の注意点や30代40代の進め方も紹介します。",
+    "大企業エンジニアからスタートアップへの転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説します。SO確認の注意点や30代40代の進め方も紹介します。",
 };
 
 const TITLE = "大企業からスタートアップへの転職｜進め方とスキルギャップ";
 const DESC =
-  "大企業エンジニアからスタートアップへの転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説。SO確認の注意点や30代40代の進め方も紹介します。";
+  "大企業エンジニアからスタートアップへの転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説します。SO確認の注意点や30代40代の進め方も紹介します。";
 const URL = "/career/corporate-to-startup/";
 
 const toc = [
@@ -45,7 +45,7 @@ const gapRows = [
   {
     axis: "ドキュメント文化",
     corp: "詳細な設計書・規程が整備",
-    startup: "最小限。口頭・コードで進む場面が多い",
+    startup: "最小限です。口頭・コードで進む場面が多い",
     gap: "中",
   },
   {
@@ -75,7 +75,7 @@ const buildSteps = [
   },
   {
     title: "担当領域を広げて『一人で回せる範囲』を増やす",
-    desc: "フロント・バック・インフラ・CIなど、隣接領域に手を伸ばしておきます。少人数の現場では領域を跨いで動ける人材が重宝されるため、横断経験そのものが武器になります。",
+    desc: "フロント・バック・インフラ・CIなど、隣接領域に手を伸ばしておきます。少人数の現場では領域を跨いで動ける人材が重宝されるため、横断経験そのものが強みになります。",
   },
   {
     title: "モダンな技術スタックに触れておく",
@@ -114,19 +114,19 @@ const agents = [
   {
     name: "ビズリーチ",
     point:
-      "ハイクラス・スカウト型。シリーズB以降のスタートアップやSO付きポジションのスカウトが届きやすく、市場価値の客観把握にも使えます（年収750万円以上をハイクラスと定義・二次情報）。",
+      "ハイクラス・スカウト型です。シリーズB以降のスタートアップやSO付きポジションのスカウトが届きやすく、市場価値の客観把握にも使えます（年収750万円以上をハイクラスと定義・二次情報）。",
     href: "/review/bizreach-it/",
   },
   {
     name: "Green",
     point:
-      "成功報酬型の転職サイト（ダイレクトリクルーティング）。IT/Webベンチャー・スタートアップに強く、カジュアル面談で社風を把握しやすい一方、エージェント型の仲介サポートはありません。",
+      "成功報酬型の転職サイトです（ダイレクトリクルーティング）。IT/Webベンチャー・スタートアップに強く、カジュアル面談で社風を把握しやすい一方、エージェント型の仲介サポートはありません。",
     href: "/review/green/",
   },
   {
     name: "paiza転職",
     point:
-      "スキルチェックのランクで実力を評価し、スカウトにつなげるタイプ。学歴や経歴の壁が低く、実装力を示してスタートアップから声をかけてもらいたい場合に向きます。",
+      "スキルチェックのランクで実力を評価し、スカウトにつなげるタイプです。学歴や経歴の壁が低く、実装力を示してスタートアップから声をかけてもらいたい場合に向きます。",
     href: "/review/paiza/",
   },
 ];
@@ -238,12 +238,12 @@ export default function CorporateToStartupPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">
-              結論：大規模経験は武器。問われるのは自走力とスピードへの適応
+              結論：大規模経験は強みです。問われるのは自走力とスピードへの適応
             </h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・設計・運用・セキュリティ・品質管理の経験は成長フェーズのスタートアップで重宝される。</li>
-              <li>・ギャップが大きいのは「役割の範囲」と「意思決定スピード」。横断的に自走できる動き方への転換が鍵。</li>
-              <li>・年収は基本給とSOの内訳で総合判断。SO条件は必ず書面で確認する。</li>
+              <li>・設計・運用・セキュリティ・品質管理の経験は成長フェーズのスタートアップで重宝されます。</li>
+              <li>・ギャップが大きいのは「役割の範囲」と「意思決定スピード」。横断的に自走できる動き方への転換が鍵です。</li>
+              <li>・年収は基本給とSOの内訳で総合判断です。SO条件は必ず書面で確認します。</li>
             </ul>
           </div>
         </section>
@@ -315,24 +315,24 @@ export default function CorporateToStartupPage() {
         <section id="resume" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">職務経歴書での見せ方（Before/After例文）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            大企業の職務経歴書は、組織の一員としての役割記述になりがちです。スタートアップ選考では「当事者として何を主導し、どんな成果を出したか」を語る形が刺さります。書き換え例を示します。
+            大企業の職務経歴書は、組織の一員としての役割記述になりがちです。スタートアップ選考では「当事者として何を主導し、どんな成果を出したか」を語る形が評価されます。書き換え例を示します。
           </p>
           <div className="space-y-4">
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（組織内の役割記述）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                大手SIerにて基幹システムの開発に従事。チームの一員として設計・実装・テスト工程を担当。品質管理プロセスに沿って開発を進めた。
+                大手SIerにて基幹システムの開発に従事しています。チームの一員として設計・実装・テスト工程を担当します。品質管理プロセスに沿って開発を進めました。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（主導した課題・横断的な動き・成果）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                基幹システムの障害多発という課題に対し、原因分析から再発防止策の設計までを主導。インフラ・アプリ両面に踏み込み、監視とデプロイ手順を整備して運用負荷を低減。大規模環境での品質・セキュリティ設計の知見を、少人数チームでも一人で回せる形に再構成できる点を強みとする。
+                基幹システムの障害多発という課題に対し、原因分析から再発防止策の設計までを主導します。インフラ・アプリ両面に踏み込み、監視とデプロイ手順を整備して運用負荷を低減します。大規模環境での品質・セキュリティ設計の知見を、少人数チームでも一人で回せる形に再構成できる点を強みとします。
               </p>
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※数値・成果はご自身の実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>を参照。
+            ※数値・成果はご自身の実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>をご参照ください。
           </p>
         </section>
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/google/" },
   title: "Google（グーグル）の年収とエンジニア転職【2026年】レベル別給与・選考・技術を解説",
   description:
-    "Google合同会社（日本法人）へのエンジニア転職を、公式採用情報とlevels.fyi・OpenWork等の集計値をもとに解説。年収レンジ・選考フロー・面接の特徴・30代40代の現実までまとめました。",
+    "Google合同会社（日本法人）へのエンジニア転職を、公式採用情報とlevels.fyi・OpenWork等の集計値をもとに解説します。年収レンジ・選考フロー・面接の特徴・30代40代の現実までまとめました。",
 };
 
 const toc = [
@@ -31,7 +31,7 @@ const basicData: [string, string][] = [
   ["業種", "インターネット・テクノロジー"],
   ["本社所在地", "東京都渋谷区（渋谷ストリーム）"],
   ["主な開発拠点", "東京・横浜（Google マップ等のプロダクト開発組織あり）"],
-  ["主な使用言語", "社内公用語は英語。会議・メール・面接の多くが英語"],
+  ["主な使用言語", "社内公用語は英語です。会議・メール・面接の多くが英語"],
   ["技術スタック", "C++ / Java / Python / Go / TypeScript / Kubernetes / Google Cloud 等"],
 ];
 
@@ -98,7 +98,7 @@ export default function GoogleCompanyPage() {
     <>
       <ArticleJsonLd
         title="Google Japan エンジニア転職ガイド【2026年版】"
-        description="Google合同会社（日本法人）へのエンジニア転職を、公式採用情報とlevels.fyi・OpenWork等の集計値をもとに解説。年収レンジ・選考フロー・面接の特徴・30代40代の現実までまとめました。"
+        description="Google合同会社（日本法人）へのエンジニア転職を、公式採用情報とlevels.fyi・OpenWork等の集計値をもとに解説します。年収レンジ・選考フロー・面接の特徴・30代40代の現実までまとめました。"
         url="/company/google/"
       />
       <script
@@ -125,7 +125,7 @@ export default function GoogleCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Google（グーグル）日本法人の年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Google日本法人は有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年10月15日時点）のソフトウェアエンジニア総報酬は中央値 約2,560万円が目安です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総報酬の中央値 約2,560万円（levels.fyi・2026年10月15日時点、日本拠点SWE集計・レベル別52件）。L3 約1,571万円、L6 約4,105万円。</li><li>・会社全体の平均年収 約1,719万円、開発職 約2,151万円（OpenWork・社員クチコミ集計）。</li><li>・いずれもユーザー投稿ベースの集計値。RSU（株式報酬）比率が高く、株価・付与額・入社時期で実受取額は大きく変動します。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総報酬の中央値 約2,560万円です（levels.fyi・2026年10月15日時点、日本拠点SWE集計・レベル別52件）。L3 約1,571万円、L6 約4,105万円です。</li><li>・会社全体の平均年収 約1,719万円、開発職 約2,151万円です（OpenWork・社員クチコミ集計）。</li><li>・いずれもユーザー投稿ベースの集計値です。RSU（株式報酬）比率が高く、株価・付与額・入社時期で実受取額は大きく変動しています。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -162,8 +162,8 @@ export default function GoogleCompanyPage() {
               次の3つに当てはまる人ほど現実的な挑戦になります。
             </p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>① データ構造・アルゴリズムを<strong>コーディング面接で発揮できる</strong>レベルまで磨いている</li>
-              <li>② 大規模・分散システムの設計／運用に<strong>関与した実績</strong>がある</li>
+              <li>① データ構造・アルゴリズムを<strong>コーディング面接で発揮できる</strong>レベルまで磨いています</li>
+              <li>② 大規模・分散システムの設計／運用に<strong>関与した実績</strong>があります</li>
               <li>③ <strong>英語でのコミュニケーション</strong>に抵抗がない（面接・業務とも英語中心のポジションが多い）</li>
             </ul>
             <p className="text-blue-900 text-sm leading-relaxed mt-3">
@@ -172,7 +172,7 @@ export default function GoogleCompanyPage() {
               <Link href="/knowledge/coding-test/" className="text-petrol-deep underline font-medium">コーディングテスト対策</Link>
               と
               <Link href="/knowledge/system-design/" className="text-petrol-deep underline font-medium">システムデザイン面接の準備</Link>
-              から着手するのが王道です。
+              から着手するのが一般的です。
             </p>
           </div>
         </section>
@@ -234,9 +234,9 @@ export default function GoogleCompanyPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>大規模・低レイテンシなシステムを前提とした設計思想（スケーラビリティ重視）</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>コードレビュー・テスト・SRE的な運用文化が根付いていることが公開情報で知られる</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>コードレビュー・テスト・SRE的な運用文化が根付いていることが公開情報で知られます</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Go・Kubernetes・TensorFlowなどOSSへの貢献を多数公開</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド領域は<Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>・<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>のスキルが評価されやすい</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>クラウド領域は<Link href="/skill/go/" className="text-petrol hover:underline">Go</Link>・<Link href="/skill/kubernetes/" className="text-petrol hover:underline">Kubernetes</Link>のスキルが評価されやすいです</li>
           </ul>
         </section>
 
@@ -249,10 +249,10 @@ export default function GoogleCompanyPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-700 mb-5">
             <li>
-              ・<strong>levels.fyi（2026年10月15日時点・日本拠点のソフトウェアエンジニア集計）</strong>：総報酬の中央値 約2,560万円、L3 約1,571万円、L6 約4,105万円。基本給＋RSU＋ボーナスの合計値。
+              ・<strong>levels.fyi（2026年10月15日時点・日本拠点のソフトウェアエンジニア集計）</strong>：総報酬の中央値 約2,560万円、L3 約1,571万円、L6 約4,105万円です。基本給＋RSU＋ボーナスの合計値です。
             </li>
             <li>
-              ・<strong>OpenWork（グーグル合同会社・社員クチコミ集計）</strong>：会社全体の平均年収 約1,719万円、開発職 約2,151万円という集計値が公開されている。
+              ・<strong>OpenWork（グーグル合同会社・社員クチコミ集計）</strong>：会社全体の平均年収 約1,719万円、開発職 約2,151万円という集計値が公開されています。
             </li>
           </ul>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
@@ -323,11 +323,11 @@ export default function GoogleCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式採用プロセスベース）</h2>
           <ol className="space-y-3 text-sm text-slate-700">
             {[
-              ["応募 / リクルーターとの面談", "公式採用サイトやLinkedIn、リファラル経由で応募。リクルーターが経歴と志向を確認します。"],
+              ["応募 / リクルーターとの面談", "公式採用サイトやLinkedIn、リファラル経由で応募します。リクルーターが経歴と志向を確認します。"],
               ["ポジション別スクリーニング", "ソフトウェアエンジニアの場合、コーディング中心のオンライン面接（45分程度×複数）が一般的とされます。"],
               ["面接ループ（複数回）", "コーディング、システムデザイン、行動面接などが複数回実施されます。"],
               ["Hiring Committee（採用委員会）", "面接フィードバックをもとに委員会が合議で合否を判断します。"],
-              ["オファー", "条件提示。リクルーター連絡からオファーまで平均8週間程度との二次情報もあります（時期・職種で変動）。"],
+              ["オファー", "条件提示です。リクルーター連絡からオファーまで平均8週間程度との二次情報もあります（時期・職種で変動）。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
@@ -352,7 +352,7 @@ export default function GoogleCompanyPage() {
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>コーディング</strong>：データ構造・アルゴリズムを使い、思考過程を声に出して説明できるか</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>システムデザイン</strong>：要件整理・トレードオフ・スケーラビリティの議論ができるか（<Link href="/knowledge/system-design/" className="text-petrol hover:underline">対策ガイド</Link>）</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>行動面接</strong>：曖昧さへの対応・協働・学習姿勢（いわゆるGoogleyness）。<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接の答え方</Link>でSTAR法を確認</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>行動面接</strong>：曖昧さへの対応・協働・学習姿勢です（いわゆるGoogleyness）。<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接の答え方</Link>でSTAR法を確認</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>英語</strong>：面接・業務とも英語中心のポジションが多く、技術を英語で説明できること</li>
           </ul>
         </section>
@@ -376,7 +376,7 @@ export default function GoogleCompanyPage() {
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる点の傾向</h3>
               <ul className="space-y-1 text-sm text-amber-900">
                 <li>・成長を求めて3〜5年で次へ移る人材流動性の高さ</li>
-                <li>・組織変更・プロダクト方針変更の影響を受けることがある</li>
+                <li>・組織変更・プロダクト方針変更の影響を受けることがあります</li>
                 <li>・成果へのプレッシャーはチーム差が大きいとの声</li>
               </ul>
             </div>
@@ -415,9 +415,9 @@ export default function GoogleCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">Google転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。外資ITを扱うヘッドハンターと接点を作りやすい。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。技術職の選考対策やキャリアの棚卸しに強い。" },
-              { name: "リクルートエージェントIT", href: "/review/recruit-it/", desc: "国内最大級の求人網。外資・大手の選択肢を広く比較したい人向け。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資ITを扱うヘッドハンターと接点を作りやすいです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化です。技術職の選考対策やキャリアの棚卸しに強いです。" },
+              { name: "リクルートエージェントIT", href: "/review/recruit-it/", desc: "国内最大級の求人網です。外資・大手の選択肢を広く比較したい人向けです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
@@ -465,7 +465,7 @@ export default function GoogleCompanyPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { name: "IT企業の平均年収ランキング（有報57社）", href: "/salary/company-ranking/" },
+              { name: "IT企業の平均年収ランキング（有価証券報告書57社）", href: "/salary/company-ranking/" },
               { name: "AWSジャパンの転職ガイド", href: "/company/aws-japan/" },
               { name: "Apple Japanの転職ガイド", href: "/company/apple/" },
               { name: "Meta Japanの転職ガイド", href: "/company/meta/" },

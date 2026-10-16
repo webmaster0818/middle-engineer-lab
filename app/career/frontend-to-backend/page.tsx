@@ -6,13 +6,13 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "フロントエンドからバックエンドへの転職｜移行ステップとスキルギャップ";
 const DESC =
-  "フロントエンドエンジニアからバックエンドエンジニアへ移行する進め方を、スキルギャップ比較表・在職中の学習ステップ・職務経歴書のBefore/After例文付きで解説。30代40代の現実も正直に紹介します。";
+  "フロントエンドエンジニアからバックエンドエンジニアへ移行する進め方を、スキルギャップ比較表・在職中の学習ステップ・職務経歴書のBefore/After例文付きで解説します。30代40代の現実も紹介します。";
 const URL = "/career/frontend-to-backend/";
 
 export const metadata: Metadata = { alternates: { canonical: "/career/frontend-to-backend/" }, title: TITLE, description: DESC };
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と攻め方" },
+  { id: "conclusion", label: "結論：現実性と進め方" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -25,8 +25,8 @@ const toc = [
 ];
 
 const gapRows = [
-  { axis: "プログラミング基礎", front: "◎ JavaScript/TypeScriptで開発", back: "○ 言語は異なっても基礎は流用できる", gap: "活用" },
-  { axis: "API設計・実装", front: "△ 利用側（fetch）が中心", back: "◎ REST/GraphQL APIを設計・実装する", gap: "大" },
+  { axis: "プログラミング基礎", front: "◎ JavaScript/TypeScriptで開発", back: "○ 言語は異なっても基礎は流用できます", gap: "活用" },
+  { axis: "API設計・実装", front: "△ 利用側（fetch）が中心", back: "◎ REST/GraphQL APIを設計・実装します", gap: "大" },
   { axis: "データベース設計", front: "△ 触れる機会が限定的", back: "◎ スキーマ設計・正規化・SQL最適化が中核", gap: "大" },
   { axis: "サーバー・インフラ理解", front: "△ デプロイ先として利用する程度", back: "○ 実行環境・スケーリングの理解が必要", gap: "中" },
   { axis: "非同期・並行処理", front: "○ Promise/async は日常的に使用", back: "◎ 排他制御・トランザクション設計まで", gap: "中" },
@@ -36,7 +36,7 @@ const gapRows = [
 const buildSteps = [
   { title: "バックエンド言語を1つ実務レベルにする", desc: "Go・Python・Node.js（TypeScript）など需要の高い言語を1つ選びます。フロントでTypeScriptを使ってきたなら、Node.js/NestJSは学習コストを抑えやすく、既存資産を活かして移行できます。" },
   { title: "REST/GraphQL APIを設計して作り切る", desc: "認証・CRUD・バリデーション・エラーハンドリングを備えたAPIを一から実装します。フロントで『使う側』だったAPIを『作る側』として設計した経験が、移行の説得力になります。" },
-  { title: "データベース設計とSQLを身につける", desc: "リレーショナルDBのスキーマ設計、正規化、インデックス、N+1問題の回避までを実務水準で学びます。バックエンド転職で最も問われやすい領域なので、ER図を引いて設計意図を語れるようにします。" },
+  { title: "データベース設計とSQLを身につける", desc: "リレーショナルDBのスキーマ設計、正規化、インデックス、N+1問題の回避までを実務水準で学びます。バックエンド転職で最も問われやすい領域であるため、ER図を引いて設計意図を語れるようにします。" },
   { title: "実行環境とデプロイを理解する", desc: "Docker、環境変数管理、ログ・監視、CI/CDなど、サーバーサイドの運用に必要な周辺知識を押さえます。アプリを公開し『動かし続ける』経験を持つと評価されます。" },
 ];
 
@@ -48,15 +48,15 @@ const migrationSteps = [
 ];
 
 const agents = [
-  { name: "レバテックキャリア", point: "IT/Web特化で技術理解のあるアドバイザーが在籍。フロント経験を活かしつつバックエンド／フルスタック寄りの求人を相談しやすい。", href: "/review/levtech/" },
-  { name: "ビズリーチ", point: "ハイクラス・スカウト型。バックエンド求人のスカウトを通じて、自分の技術スタックの市場評価を客観的に把握できます。", href: "/review/bizreach-it/" },
-  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数。Web系からSIerまで幅広く、職種転換を含む転職でも選択肢を確保しやすい。", href: "/review/recruit-it/" },
+  { name: "レバテックキャリア", point: "IT/Web特化で技術理解のあるアドバイザーが在籍しています。フロント経験を活かしつつバックエンド／フルスタック寄りの求人を相談しやすいです。", href: "/review/levtech/" },
+  { name: "ビズリーチ", point: "ハイクラス・スカウト型です。バックエンド求人のスカウトを通じて、自分の技術スタックの市場評価を客観的に把握できます。", href: "/review/bizreach-it/" },
+  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数です。Web系からSIerまで幅広く、職種転換を含む転職でも選択肢を確保しやすいです。", href: "/review/recruit-it/" },
 ];
 
 const faqs = [
-  { q: "フロントエンドからバックエンドへの転職は難しい？", a: "同じ開発職内の移行なので、未経験職種への転換に比べれば難度は高くありません。プログラミング基礎が流用できるため、API設計・DB設計・サーバー理解という不足分を埋めれば現実的に移行できます。" },
+  { q: "フロントエンドからバックエンドへの転職は難しい？", a: "同じ開発職内の移行であるため、未経験職種への転換に比べれば難度は高くありません。プログラミング基礎が流用できるため、API設計・DB設計・サーバー理解という不足分を埋めれば現実的に移行できます。" },
   { q: "どのバックエンド言語を選ぶべき？", a: "フロントでTypeScriptを使ってきたならNode.js/NestJSが学習コストを抑えやすく、移行しやすい選択です。市場の広さや高年収を狙うならGoやPythonも有力です。1つを実務レベルまで深めるのが先決です。" },
-  { q: "データベースの知識はどこまで必要？", a: "リレーショナルDBのスキーマ設計、正規化、SQL、インデックス、N+1問題の回避は最低限求められます。バックエンド選考で最も問われやすい領域なので、ER図を引いて設計意図を説明できる水準を目指します。" },
+  { q: "データベースの知識はどこまで必要？", a: "リレーショナルDBのスキーマ設計、正規化、SQL、インデックス、N+1問題の回避は最低限求められます。バックエンド選考で最も問われやすい領域であるため、ER図を引いて設計意図を説明できる水準を目指します。" },
   { q: "フロント経験はバックエンドで評価される？", a: "評価されます。API設計時にフロントの使い勝手を想像できる点、型を意識した開発習慣、UI/UXとデータの橋渡しができる点は、フルスタック志向のチームで重宝されます。" },
   { q: "年収は上がる？", a: "断定はできません。同じ開発職内の移行のため大きく下がるケースは少なく、対応範囲が広がることで市場価値が上がる傾向はありますが、提示額は採用ポジション・等級で決まります。書面で確認しましょう。" },
   { q: "30代・40代でも移行できる？", a: "可能です。フロントの実務経験という土台があるため、未経験からの参入より有利です。ただし若手より学習に充てられる時間が限られやすいので、在職中にAPI＋DBの成果物を1つ作っておくことが重要です。" },
@@ -129,11 +129,11 @@ export default function FrontendToBackendPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：同じ開発職内なので現実的。鍵はAPIとDB設計</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：同じ開発職内なので現実的です。鍵はAPIとDB設計</h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・プログラミング基礎は流用できる。未経験職種への転換より難度は低い。</li>
-              <li>・ギャップが大きいのは「API設計」と「データベース設計」。ここを成果物で示すのが鍵。</li>
-              <li>・職務経歴書は『画面を作った』から『データとAPIをどう設計したか』へ書き換える。</li>
+              <li>・プログラミング基礎は流用できます。未経験職種への転換より難度は低いです。</li>
+              <li>・ギャップが大きいのは「API設計」と「データベース設計」。ここを成果物で示すのが鍵です。</li>
+              <li>・職務経歴書は『画面を作った』から『データとAPIをどう設計したか』へ書き換えます。</li>
             </ul>
           </div>
         </section>
@@ -203,24 +203,24 @@ export default function FrontendToBackendPage() {
         <section id="resume" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">職務経歴書での見せ方（Before/After例文）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            フロントの職務経歴書は「画面・UI」が中心になりがちですが、バックエンド選考では「データとAPIをどう設計し、どんな非機能要件を満たしたか」を語る形が刺さります。書き換え例を示します。
+            フロントの職務経歴書は「画面・UI」が中心になりがちですが、バックエンド選考では「データとAPIをどう設計し、どんな非機能要件を満たしたか」を語る形が評価されます。書き換え例を示します。
           </p>
           <div className="space-y-4">
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（画面実装の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                ECサイトのフロントエンド開発を担当。React/TypeScriptで商品一覧・カート画面を実装し、APIからデータを取得して表示。レスポンシブ対応とパフォーマンス改善を実施した。
+                ECサイトのフロントエンド開発を担当します。React/TypeScriptで商品一覧・カート画面を実装し、APIからデータを取得して表示です。レスポンシブ対応とパフォーマンス改善を実施しました。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（API・DB設計を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                ECサイト開発で、個人開発として商品・在庫・注文のスキーマを設計し、Node.js/NestJSで認証付きのREST APIを実装・デプロイ。N+1問題をインデックスとクエリ最適化で解消し、フロント経験を活かしてAPIのレスポンス設計を利用側目線で最適化した。GitHubでコードを公開。
+                ECサイト開発で、個人開発として商品・在庫・注文のスキーマを設計し、Node.js/NestJSで認証付きのREST APIを実装・デプロイです。N+1問題をインデックスとクエリ最適化で解消し、フロント経験を活かしてAPIのレスポンス設計を利用側目線で最適化しました。GitHubでコードを公開しています。
               </p>
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※技術・数値は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>を参照。
+            ※技術・数値は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>をご参照ください。
           </p>
         </section>
 

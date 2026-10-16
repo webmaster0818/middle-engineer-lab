@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/canon/" },
   title: "キヤノン エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
-    "キヤノンへのエンジニア転職を実データで解説。有価証券報告書の平均年収865.7万円（2024年12月期・全社員平均）、組込み・画像処理・AI・ディープラーニングの募集職種、選考フロー、30代40代の現実までまとめました。",
+    "キヤノンへのエンジニア転職を実データで解説します。有価証券報告書の平均年収865.7万円（2024年12月期・全社員平均）、組込み・画像処理・AI・ディープラーニングの募集職種、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -86,7 +86,7 @@ export default function CanonCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="キヤノン エンジニア転職ガイド" description="キヤノンへのエンジニア転職を実データで解説。有価証券報告書の平均年収865.7万円（2024年12月期・全社員平均）、組込み・画像処理・AI・ディープラーニングの募集職種、選考フロー、30代40代の現実までまとめました。" url="/company/canon/" />
+      <ArticleJsonLd title="キヤノン エンジニア転職ガイド" description="キヤノンへのエンジニア転職を実データで解説します。有価証券報告書の平均年収865.7万円（2024年12月期・全社員平均）、組込み・画像処理・AI・ディープラーニングの募集職種、選考フロー、30代40代の現実までまとめました。" url="/company/canon/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "組込みの転職ガイド", href: "/skill/embedded/" }, { name: "AI・機械学習の転職ガイド", href: "/skill/ai-ml/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "キヤノン" }]} />
 
@@ -98,7 +98,7 @@ export default function CanonCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】キヤノンの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: キヤノン株式会社の平均年間給与は約865.7万円です（2024年12月期 有価証券報告書・提出会社単体／全社員平均、平均年齢44.2歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約865.7万円（2024年12月期 有報・単体全社員平均）。技術職に限らない全社平均です。</li><li>・推移は2020年12月期769万円から一貫して上昇し、2024年12月期865.7万円（各期 有報）。</li><li>・エンジニア職限定の提示年収レンジは一次情報が乏しく断定しません。提示は等級・職務で幅があり個別求人でご確認ください。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約865.7万円です（2024年12月期 有価証券報告書・単体全社員平均）。技術職に限らない全社平均です。</li><li>・推移は2020年12月期769万円から一貫して上昇し、2024年12月期865.7万円です（各期 有価証券報告書）。</li><li>・エンジニア職限定の提示年収レンジは一次情報が乏しく断定しません。提示は等級・職務で幅があり個別求人でご確認ください。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -122,7 +122,7 @@ export default function CanonCompanyPage() {
               キヤノンは<strong>光学・画像・組込みという中核技術を持ち、そこにAI（ディープラーニング）・画像処理を掛け合わせて製品化する精密大手</strong>です。ハードウェアと密結合したソフトウェア開発や、画像系AIの実装に関わりたいエンジニアに向きます。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>● <strong>向いている人</strong>：組込み（C/C++・RTOS）や画像処理・ディープラーニングの実務経験があり、ものづくりの最終製品に技術を載せたいエンジニア</li>
+              <li>● <strong>向いている人</strong>：組込み（C/C++・RTOS）や画像処理・ディープラーニングの実務経験があり、ものづくりの最終製品に技術を活かしたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：Web系の最新フレームワークで内製SaaSを高速に回す働き方を最優先する人</li>
               <li>● <strong>30代・40代</strong>：平均年齢44.2歳と高めで、専門性があればミドル中途の枠は現実的</li>
             </ul>
@@ -154,7 +154,7 @@ export default function CanonCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2024年12月期 有価証券報告書に基づく提出会社（キヤノン株式会社単体）の全社員平均値。技術領域は公式採用情報（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2024年12月期 有価証券報告書に基づく提出会社（キヤノン株式会社単体）の全社員平均値。技術領域は公式採用情報です（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -178,7 +178,7 @@ export default function CanonCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術領域・募集職種（公式採用情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            キヤノンは公式採用情報（キャリア採用・職種別求人ページ、2026年6月時点）で、製品を支える技術職を募集しています。主な領域は以下の通りです。具体的な使用技術・必須スキルは募集ポジションにより異なります。
+            キヤノンは公式採用情報（キャリア採用・職種別求人ページ、2026年6月時点）で、製品を支える技術職を募集しています。主な領域は以下のとおりです。具体的な使用技術・必須スキルは募集ポジションにより異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -269,9 +269,9 @@ export default function CanonCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">キヤノン転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。組込み・画像系の専門職求人にも対応し、非公開求人も豊富。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、メーカーの専門職・管理職求人に対応。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。組込み・画像系の専門職求人にも対応し、非公開求人も豊富です。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、メーカーの専門職・管理職求人に対応しています。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

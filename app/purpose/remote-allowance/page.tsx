@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/remote-allowance/" },
   title: "在宅勤務手当（リモート手当）がある企業へ転職【見極め方】",
   description:
-    "在宅勤務手当・リモート手当のある企業への転職を解説。手当の種類と相場感、求人での見極め方、課税の扱い、通勤手当との関係、注意点を30-40代エンジニア向けに整理します。",
+    "在宅勤務手当・リモート手当のある企業への転職を解説します。手当の種類と相場感、求人での見極め方、課税の扱い、通勤手当との関係、注意点を30-40代エンジニア向けに整理します。",
 };
 
 const faqs = [
@@ -53,7 +53,7 @@ export default function RemoteAllowancePage() {
     <>
       <ArticleJsonLd
         title="在宅勤務手当（リモート手当）がある企業へ転職【見極め方】"
-        description="在宅勤務手当・リモート手当のある企業への転職を解説。手当の種類と相場感、求人での見極め方、課税の扱い、通勤手当との関係、注意点を30-40代エンジニア向けに整理します。"
+        description="在宅勤務手当・リモート手当のある企業への転職を解説します。手当の種類と相場感、求人での見極め方、課税の扱い、通勤手当との関係、注意点を30-40代エンジニア向けに整理します。"
         url="/purpose/remote-allowance/"
       />
       <script
@@ -88,9 +88,9 @@ export default function RemoteAllowancePage() {
             在宅勤務手当（リモート手当）は、在宅勤務に伴う通信費・光熱費・備品費を会社が補助する制度です。<strong>ただし手当の有無だけで企業を選ぶと本質を見失います。</strong>金額は企業ごとに幅が大きく、月額が大きくないことも多いためです。本当に確認すべきは、「そもそもリモートが安定的に認められるか」「費用補助はどんな形か」「課税されるのか」の3点をセットで見ることです。手当があっても在宅自体ができなければ意味がなく、逆に手当がなくてもリモートが認められ実費が小さければ十分なこともあります。本記事では、リモート手当を福利厚生として正しく見極める方法を整理します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 在宅勤務の費用負担を会社に補助してほしい</li>
+              <li>- 在宅勤務の費用負担を会社に補助してほしいです</li>
               <li>- リモート手当の相場感や課税の扱いを知りたい</li>
               <li>- 手当の有無を求人で見極める方法を知りたい</li>
               <li>- 通勤手当とのトレードオフを理解したい</li>
@@ -122,10 +122,10 @@ export default function RemoteAllowancePage() {
               </thead>
               <tbody>
                 {[
-                  { type: "月額定額の在宅勤務手当", desc: "毎月一定額を支給。在宅日数の条件が付く場合がある。課税対象になりやすい" },
-                  { type: "環境整備の一時金", desc: "デスク・チェア・モニタなどの購入費を入社時や年次で補助。上限額を確認" },
-                  { type: "実費精算型", desc: "通信費・光熱費の業務使用分を合理的に計算して支給。非課税となる余地がある" },
-                  { type: "備品貸与", desc: "手当ではなくPC・モニタ・椅子などを会社が貸与する形。実質的な費用負担軽減になる" },
+                  { type: "月額定額の在宅勤務手当", desc: "毎月一定額を支給します。在宅日数の条件が付く場合があります。課税対象になりやすいです" },
+                  { type: "環境整備の一時金", desc: "デスク・チェア・モニタなどの購入費を入社時や年次で補助です。上限額を確認" },
+                  { type: "実費精算型", desc: "通信費・光熱費の業務使用分を合理的に計算して支給します。非課税となる余地があります" },
+                  { type: "備品貸与", desc: "手当ではなくPC・モニタ・椅子などを会社が貸与する形です。実質的な費用負担軽減になります" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -175,7 +175,7 @@ export default function RemoteAllowancePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 通勤手当とのトレードオフ（正直な話）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 通勤手当とのトレードオフ（実情）</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
             フルリモートを導入する企業では、<strong>通勤手当を廃止して在宅勤務手当に置き換える</strong>ケースがあります。出社しない以上は通勤費が発生しないという考え方で、合理的ではあるものの、在宅勤務手当の額が以前の通勤手当より小さければ実質的に手当の総額は減ることになります。
           </p>
@@ -230,7 +230,7 @@ export default function RemoteAllowancePage() {
               { name: "家庭と両立するエンジニア転職", href: "/knowledge/family/" },
               { name: "ワークライフバランス重視の転職", href: "/purpose/wlb/" },
               { name: "目的別ガイド一覧", href: "/purpose/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

@@ -166,22 +166,22 @@ export default function Salary900Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L3</td>
                   <td className="px-4 py-3 border border-slate-200">576.0万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">一人前。600万円帯。手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">一人前です。600万円帯です。手前</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L4</td>
                   <td className="px-4 py-3 border border-slate-200">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門。700万円帯。手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門です。700万円帯です。手前</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L5</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">指導者層。900万円の中心</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">指導者層です。900万円の中心</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L6・7</td>
                   <td className="px-4 py-3 border border-slate-200">1,129.9万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">最上位。1000万円帯。次の目標</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">最上位です。1000万円帯です。次の目標</td>
                 </tr>
               </tbody>
             </table>
@@ -238,19 +238,19 @@ export default function Salary900Page() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">プロジェクトマネージャー（PM）</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">大規模・重要プロジェクトの統括。進行・予算・人の総合マネジメントが評価される、900万円帯の中心的職種です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">大規模・重要プロジェクトの統括です。進行・予算・人の総合マネジメントが評価される、900万円帯の中心的職種です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">エンジニアリングマネージャー</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">エンジニア組織の採用・育成・評価・技術方針を担う役割。人と技術の両面のマネジメントが900万円帯に接続します。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">エンジニア組織の採用・育成・評価・技術方針を担う役割です。人と技術の両面のマネジメントが900万円帯に接続します。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ソフトウェアアーキテクト</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">システム全体の設計方針を統括する高度専門職。希少性が高く、スペシャリスト軸で900万円帯に届く代表例です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">システム全体の設計方針を統括する高度専門職です。希少性が高く、スペシャリスト軸で900万円帯に届く代表例です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">セキュリティ・データの高度専門職</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">需要に対し供給が少ない希少領域のスペシャリスト。専門性の高さがそのまま年収に反映されやすい職種です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">需要に対し供給が少ない希少領域のスペシャリストです。専門性の高さがそのまま年収に反映されやすい職種です。</p>
             </div>
           </div>
         </section>
@@ -301,7 +301,7 @@ export default function Salary900Page() {
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            年代別の相場や汎用的な年収UP戦略は、
+            年代別の相場や汎用的な年収アップ戦略は、
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
             ・
             <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収アップを目指す転職ガイド</Link>
@@ -331,7 +331,7 @@ export default function Salary900Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">900万円帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハイクラス・IT特化エージェントに登録して、あなたの軸が活きる900万円求人を確認しましょう。
+            ハイクラス・IT特化エージェントに登録して、ご自身の軸が活きる900万円求人を確認しましょう。
           </p>
           <Link
             href="/#ranking"

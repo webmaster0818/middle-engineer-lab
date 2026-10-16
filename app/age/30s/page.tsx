@@ -6,9 +6,9 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/age/30s/" },
-  title: "30代エンジニア転職の完全ガイド｜年収相場と進め方【2026年6月】",
+  title: "30代エンジニア転職のガイド｜年収相場と進め方【2026年6月】",
   description:
-    "30代エンジニアの転職は今がチャンス。レバテック公表の30代平均年収約499万円や経産省のIT人材不足試算など実データで市場を解説し、前半・後半別の戦略、おすすめエージェント、進め方、FAQまで網羅します。",
+    "30代エンジニアの転職は今がチャンスです。レバテック公表の30代平均年収約499万円や経産省のIT人材不足試算など実データで市場を解説し、前半・後半別の戦略、おすすめエージェント、進め方、FAQまで網羅します。",
 };
 
 const toc = [
@@ -39,7 +39,7 @@ const companyNeeds = [
   },
   {
     title: "自走力と意思決定",
-    desc: "指示待ちではなく、要件の曖昧さを自分で詰め、技術選定や設計の理由を説明できること。30代では「任せられる範囲の広さ」が年収レンジを左右します。",
+    desc: "指示待ちではなく、要件の曖昧さを自分で詰め、技術選定や設計の理由を説明できることが重要です。30代では「任せられる範囲の広さ」が年収レンジを左右します。",
   },
   {
     title: "後進への影響・巻き込み",
@@ -71,21 +71,21 @@ const agents = [
     href: "/review/levtech/",
     fit: "年収600万円以上を狙う30代",
     reason:
-      "IT/Web特化で高年収求人の比率が高い（二次情報では600万円以上が公開求人の約8割）。内定承諾者の3人に2人が応募時より年収70万円以上アップ（2023年1月〜2024年3月実績）。利用者の約80%が20〜30代で、まさに30代の主戦場。",
+      "IT/Web特化で高年収求人の比率が高いです（二次情報では600万円以上が公開求人の約8割）。内定承諾者の3人に2人が応募時より年収70万円以上アップしています（2023年1月〜2024年3月実績）。利用者の約80%が20〜30代で、まさに30代の中心的な活躍領域です。",
   },
   {
     name: "Geekly（ギークリー）",
     href: "/review/geekly/",
     fit: "Web・ゲーム業界志望でスピード重視の30代",
     reason:
-      "IT/Web/ゲーム業界に専門特化。年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）。提案スピードに強みがあり、在職中でも進めやすい。",
+      "IT/Web/ゲーム業界に専門特化します。年収アップ率約81%・平均上昇額約76万円です（2025年9月時点・二次情報）。提案スピードに強みがあり、在職中でも進めやすいです。",
   },
   {
     name: "doda（IT・通信エンジニア）",
     href: "/review/doda-it/",
     fit: "幅広い選択肢からじっくり選びたい30代後半",
     reason:
-      "国内最大級の求人数で、検索・エージェント・スカウトを併用できるハイブリッド型。転職者の約6割が年収アップ、IT・通信の平均決定年収は486万円（2024年度・doda公表値）。",
+      "国内最大級の求人数で、検索・エージェント・スカウトを併用できるハイブリッド型です。転職者の約6割が年収アップ、IT・通信の平均決定年収は486万円です（2024年度・doda公表値）。",
   },
 ];
 
@@ -116,7 +116,7 @@ const faqs = [
   },
   {
     q: "エージェントは複数使っても大丈夫ですか？",
-    a: "問題ありません。エージェントごとに保有する非公開求人や得意領域が異なるため、IT特化型と総合型を2〜3社併用するのが定石です。ただし同じ求人に複数経由で応募すると企業側で重複し心証を損なうため、応募先はエージェント間で重複しないよう自分で管理しましょう。",
+    a: "問題ありません。エージェントごとに保有する非公開求人や得意領域が異なるため、IT特化型と総合型を2〜3社併用するのが基本です。ただし同じ求人に複数経由で応募すると企業側で重複し心証を損なうため、応募先はエージェント間で重複しないよう自分で管理しましょう。",
   },
   {
     q: "30代エンジニアの転職活動はどのくらいかかりますか？",
@@ -138,8 +138,8 @@ export default function Age30sPage() {
   return (
     <>
       <ArticleJsonLd
-        title="30代エンジニア転職の完全ガイド｜年収相場と進め方【2026年6月】"
-        description="30代エンジニアの転職事情を公的統計とエージェント公表値に基づいて解説。年収相場・市場・前半後半別の戦略・おすすめエージェント・進め方を網羅。"
+        title="30代エンジニア転職のガイド｜年収相場と進め方【2026年6月】"
+        description="30代エンジニアの転職事情を公的統計とエージェント公表値に基づいて解説します。年収相場・市場・前半後半別の戦略・おすすめエージェント・進め方を網羅しています。"
         url="/age/30s/"
       />
       <script
@@ -156,7 +156,7 @@ export default function Age30sPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          30代エンジニア転職の完全ガイド｜年収相場と進め方
+          30代エンジニア転職のガイド｜年収相場と進め方
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | 30代前半・後半それぞれの転職戦略をデータで解説
@@ -184,9 +184,9 @@ export default function Age30sPage() {
               30代は転職市場で最も需要の高い年代のひとつで、実務経験があれば年収アップを伴う転職も現実的です。年代や状況に合ったエージェントを併用し、実績を数値で語れるよう準備すれば、選択肢を広げられます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>経産省試算では2030年に最大約79万人のIT人材不足（2019年公表）で、需要の追い風が続く。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>dodaの2024年度決定年収レポートでは転職者の約6割が年収アップ（2025年5月公表）。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>レバテック公表ではSE30代の平均年収は約499万円、1,000万円以上も8.01%が存在（2025年）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>経産省試算では2030年に最大約79万人のIT人材不足（2019年公表）で、需要の追い風が続きます。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>dodaの2024年度決定年収レポートでは転職者の約6割が年収アップしています（2025年5月公表）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>レバテック公表ではSE30代の平均年収は約499万円、1,000万円以上も8.01%が存在しています（2025年）。</li>
             </ul>
           </div>
         </section>
@@ -256,8 +256,8 @@ export default function Age30sPage() {
             <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">30代前半（30〜34歳）</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li>即戦力として求人が最も多い</li>
-                <li>SIer→Web系などキャリアチェンジが比較的しやすい</li>
+                <li>即戦力として求人が最も多いです</li>
+                <li>SIer→Web系などキャリアチェンジが比較的しやすいです</li>
                 <li>技術力重視のポジションが中心</li>
                 <li>年収アップ転職を狙いやすいレンジ</li>
               </ul>
@@ -265,10 +265,10 @@ export default function Age30sPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">30代後半（35〜39歳）</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li>リード・設計・マネジメント経験が武器になる</li>
-                <li>専門領域の深い知見が問われる</li>
-                <li>テックリード・アーキテクト求人が狙い目</li>
-                <li>求人の「数」より「強みとの一致」が成否を分ける</li>
+                <li>リード・設計・マネジメント経験が強みになります</li>
+                <li>専門領域の深い知見が問われます</li>
+                <li>テックリード・アーキテクト求人が有力な選択肢</li>
+                <li>求人の「数」より「強みとの一致」が成否を分けます</li>
               </ul>
             </div>
           </div>
@@ -319,16 +319,16 @@ export default function Age30sPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">マネジメント志向</h3>
               <p className="text-sm text-slate-600 leading-relaxed mb-3">
-                チームの生産性やメンバーの成長にコミットする方向。エンジニアリングマネージャー（EM）やテックリードなどが該当します。ピープルマネジメントや採用・育成の経験が評価され、年収レンジも上がりやすい一方、コーディング比率は下がります。
+                チームの生産性やメンバーの成長にコミットする方向です。エンジニアリングマネージャー（EM）やテックリードなどが該当します。ピープルマネジメントや採用・育成の経験が評価され、年収レンジも上がりやすい一方、コーディング比率は下がります。
               </p>
               <p className="text-xs text-petrol">向いている人: チーム全体の成果に喜びを感じる／調整や育成が得意</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">スペシャリスト志向</h3>
               <p className="text-sm text-slate-600 leading-relaxed mb-3">
-                特定領域を突き詰めるIndividual Contributor（IC）の道。アーキテクト、SRE、データエンジニア、セキュリティなどが該当します。近年はICパスを整備し、マネージャーと同水準の年収を用意する企業も増えています。
+                特定領域を突き詰めるIndividual Contributor（IC）の道です。アーキテクト、SRE、データエンジニア、セキュリティなどが該当します。近年はICパスを整備し、マネージャーと同水準の年収を用意する企業も増えています。
               </p>
-              <p className="text-xs text-petrol">向いている人: 技術そのものに没頭できる／深い専門性で勝負したい</p>
+              <p className="text-xs text-petrol">向いている人: 技術そのものに没頭できる／深い専門性を強みにしたい</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
@@ -340,7 +340,7 @@ export default function Age30sPage() {
         <section id="agents" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代エンジニアにおすすめの転職エージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            30代はIT特化型を軸に、求人の幅を確保する総合型を併用するのが定石です。各社の公表値・特徴は下記の通りで、いずれも求職者は無料で利用できます。
+            30代はIT特化型を軸に、求人の幅を確保する総合型を併用するのが基本です。各社の公表値・特徴は下記のとおりで、いずれも求職者は無料で利用できます。
           </p>
           <div className="space-y-4">
             {agents.map((agent, i) => (
@@ -367,7 +367,7 @@ export default function Age30sPage() {
           <div className="space-y-4">
             {[
               { step: "STEP 1", title: "転職軸の整理と棚卸し", desc: "年収・技術・働き方の優先順位を決め、これまでの実績を「規模・役割・成果」で言語化します。市場価値を客観視するため、自己分析と相場確認をセットで行いましょう。" },
-              { step: "STEP 2", title: "エージェント2〜3社に登録", desc: "IT特化型（レバテックキャリア等）と総合型（doda等）を併用し、初回面談で希望を共有。提案される求人の傾向から、自分の市場価値を把握します。" },
+              { step: "STEP 2", title: "エージェント2〜3社に登録", desc: "IT特化型（レバテックキャリア等）と総合型（doda等）を併用し、初回面談で希望を共有します。提案される求人の傾向から、自分の市場価値を把握します。" },
               { step: "STEP 3", title: "応募書類の作成・添削", desc: "職務経歴書はエージェントの添削を受けて精度を高めます。成果を数値で語れるかが通過率を左右します。" },
               { step: "STEP 4", title: "面接・選考", desc: "技術面接では設計判断や失敗からの学びを問われます。在職中なら無理のないスケジュールで複数社を並行させ、比較できる状態を作ります。" },
               { step: "STEP 5", title: "内定比較・条件交渉・退職", desc: "複数内定を年収・役割・働き方で比較し、必要なら条件交渉をエージェント経由で行います。承諾後は円満退職の段取りを進めます。" },
@@ -406,7 +406,7 @@ export default function Age30sPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">30代エンジニアの転職、まずはプロに相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントに無料登録して、あなたの市場価値を確認してみませんか？
+            IT特化型エージェントに無料登録して、ご自身の市場価値を確認してみませんか？
           </p>
           <Link
             href="/#ranking"

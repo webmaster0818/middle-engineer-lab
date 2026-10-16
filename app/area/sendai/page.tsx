@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/sendai/" },
   title: "仙台のIT転職事情【2026年】東北の拠点とリモートの選択肢",
   description:
-    "仙台・東北のIT・Webエンジニア転職を解説。東北の中核都市としての特徴、ニアショア開発、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを30代・40代向けに整理します。",
+    "仙台・東北のIT・Webエンジニア転職を解説します。東北の中核都市としての特徴、ニアショア開発、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを30代・40代向けに整理します。",
 };
 
 const toc = [
@@ -37,10 +37,10 @@ const fitNo = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手。ポテンシャル採用も多い層。" },
-  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層。" },
-  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層。" },
-  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も多い層です。" },
+  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
+  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層です。" },
+  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
 ];
 
 const agents = [
@@ -48,25 +48,25 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して仙台在住のまま首都圏企業を狙う転職と相性が良い。高年収求人比率の高さも特徴とされる。",
+      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して仙台在住のまま首都圏企業を狙う転職と相性が良いです。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型。IT・ゲーム領域に強く、地方在住からの相談に向く。レスポンスの速さに定評があり、未経験歓迎求人も比較的多い。",
+      "全国47都道府県57拠点を構える総合型です。IT・ゲーム領域に強く、地方在住からの相談に向きます。レスポンスの速さに定評があり、未経験歓迎求人も比較的多いです。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型。検索・エージェント・スカウトのハイブリッド型で、仙台の地元求人から首都圏フルリモート求人まで幅広く当たりやすい。求人量の多さが強み。",
+      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、仙台の地元求人から首都圏フルリモート求人まで幅広く当たりやすいです。求人量の多さが強みです。",
   },
   {
     name: "リクルートエージェントIT",
     href: "/review/recruit-it/",
     point:
-      "国内最大級の求人数で、非公開求人が豊富。全国対応のため仙台を含む地方拠点の求人にもアクセスしやすく、大手からスタートアップまで網羅している。",
+      "国内最大級の求人数で、非公開求人が豊富です。全国対応のため仙台を含む地方拠点の求人にもアクセスしやすく、大手からスタートアップまで網羅しています。",
   },
 ];
 
@@ -116,7 +116,7 @@ export default function SendaiAreaPage() {
     <>
       <ArticleJsonLd
         title="仙台のIT転職事情【2026年】東北の拠点とリモートの選択肢"
-        description="仙台・東北のIT・Webエンジニア転職を解説。東北の中核都市としての特徴、ニアショア開発、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを紹介します。"
+        description="仙台・東北のIT・Webエンジニア転職を解説します。東北の中核都市としての特徴、ニアショア開発、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを紹介します。"
         url="/area/sendai/"
       />
       <script
@@ -162,9 +162,9 @@ export default function SendaiAreaPage() {
               仙台のIT転職は「東北の中核都市の安定性」と「首都圏へのアクセスの良さ」を両立できる市場です。地元のSIer・受託・ニアショア開発の求人に加え、首都圏企業のフルリモート求人を組み合わせることで、年収と暮らしやすさのバランスを取りやすくなります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・東北の中核都市として大手SIerの拠点が集まりやすい</li>
-              <li>・新幹線でのアクセスを活かしたニアショア開発・ハイブリッドの選択肢がある</li>
-              <li>・首都圏フルリモート求人の併用で年収水準の選択肢が広がる</li>
+              <li>・東北の中核都市として大手SIerの拠点が集まりやすいです</li>
+              <li>・新幹線でのアクセスを活かしたニアショア開発・ハイブリッドの選択肢があります</li>
+              <li>・首都圏フルリモート求人の併用で年収水準の選択肢が広がります</li>
             </ul>
           </div>
         </section>
@@ -224,19 +224,19 @@ export default function SendaiAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 仙台中心部の都市機能を活かしつつ、通勤負担を抑えて働ける。地域に根ざしたキャリアを重視する人向けです。
+                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 仙台中心部の都市機能を活かしつつ、通勤負担を抑えて働けます。地域に根ざしたキャリアを重視する人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>ニアショア開発拠点でハイブリッド:</strong> 首都圏案件を仙台で担いながら、新幹線での移動を活かして月数回出社する働き方。地方にいながら首都圏の開発に関わりたい人向けです。
+                <strong>ニアショア開発拠点でハイブリッド:</strong> 首都圏案件を仙台で担いながら、新幹線での移動を活かして月数回出社する働き方です。地方にいながら首都圏の開発に関わりたい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>仙台在住×首都圏企業のフルリモート:</strong> 仙台の生活コストを保ちつつ首都圏水準の年収を狙う選択肢。
+                <strong>仙台在住×首都圏企業のフルリモート:</strong> 仙台の生活コストを保ちつつ首都圏水準の年収を狙う選択肢です。
                 <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
                 や
                 <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
@@ -317,7 +317,7 @@ export default function SendaiAreaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職・移住の進め方</h2>
           <div className="space-y-3">
             {[
-              { step: "1", title: "軸を決める", desc: "「地元企業」「ニアショア開発」「首都圏フルリモート」のどれを中心に据えるかを先に決める。提案される求人の質が変わります。" },
+              { step: "1", title: "軸を決める", desc: "「地元企業」「ニアショア開発」「首都圏フルリモート」のどれを中心に据えるかを先に決めます。提案される求人の質が変わります。" },
               { step: "2", title: "エージェントを2〜3社登録", desc: "フルリモートに強いIT特化型と、全国対応の総合型を組み合わせて提案傾向を比較します。" },
               { step: "3", title: "出社要件・アクセスを確認", desc: "求人ごとの出社頻度を確認し、新幹線での通勤・出張の負担や、移住を伴う場合の住居費を試算します。" },
               { step: "4", title: "職務経歴書で強みを言語化", desc: "要件定義から実装まで担える幅広さやリーダー経験など、評価されやすい要素を具体的に示します。" },
@@ -379,13 +379,13 @@ export default function SendaiAreaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">30代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                技術の市場価値を高めつつ、フルリモートで首都圏案件を経験するか、ニアショア拠点で上流から担う経験を積むかを意識的に選ぶフェーズ。生活基盤を整えながらキャリアの幅を広げやすい時期です。
+                技術の市場価値を高めつつ、フルリモートで首都圏案件を経験するか、ニアショア拠点で上流から担う経験を積むかを意識的に選ぶフェーズです。生活基盤を整えながらキャリアの幅を広げやすい時期です。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">40代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                マネジメントや高度専門など役割で評価される段階。地元企業の安定性とリモートでの選択肢拡大を天秤にかけ、生活設計と両立する形を選ぶのが現実的です。
+                マネジメントや高度専門など役割で評価される段階です。地元企業の安定性とリモートでの選択肢拡大を天秤にかけ、生活設計と両立する形を選ぶのが現実的です。
               </p>
             </div>
           </div>

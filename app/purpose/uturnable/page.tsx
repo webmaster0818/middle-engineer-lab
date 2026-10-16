@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/uturnable/" },
   title: "Uターン・Iターン×IT転職ガイド【地方で働くエンジニア】",
   description:
-    "Uターン・Iターンで地方のIT企業に転職する方法を解説。地方IT企業の年収、リモートワーク活用法、地域別の求人状況を紹介します。",
+    "Uターン・Iターンで地方のIT企業に転職する方法を解説します。地方IT企業の年収、リモートワーク活用法、地域別の求人状況を紹介します。",
 };
 
 const faqs = [
@@ -50,16 +50,16 @@ export default function UturnablePage() {
 
   return (
     <>
-      <ArticleJsonLd title="Uターン・Iターン×IT転職ガイド【地方で働くエンジニア】" description="Uターン・Iターンで地方のIT企業に転職する方法を解説。地方IT企業の年収、リモートワーク活用法、地域別の求人状況を紹介します。" url="/purpose/uturnable/" />
+      <ArticleJsonLd title="Uターン・Iターン×IT転職ガイド【地方で働くエンジニア】" description="Uターン・Iターンで地方のIT企業に転職する方法を解説します。地方IT企業の年収、リモートワーク活用法、地域別の求人状況を紹介します。" url="/purpose/uturnable/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "目的別ガイド", href: "/purpose/" }, { name: "Uターン・Iターン×IT転職" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">Uターン・Iターン×IT転職ガイド</h1>
-        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | 地方で働くエンジニアの転職完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | 地方で働くエンジニアの転職ガイド</p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 地元に戻ってITエンジニアとして働きたい</li>
@@ -107,11 +107,11 @@ export default function UturnablePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">Uターン・Iターン転職のポイント</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "フルリモート企業も視野に入れる", desc: "地方在住でも東京水準の給与で働ける選択肢。居住地不問のSaaS企業やスタートアップを探しましょう。" },
+              { num: "1", title: "フルリモート企業も視野に入れる", desc: "地方在住でも東京水準の給与で働ける選択肢です。居住地不問のSaaS企業やスタートアップを探しましょう。" },
               { num: "2", title: "自治体の移住支援制度を活用する", desc: "移住支援金（最大100万円）、住居費補助、起業支援金など、多くの自治体がIT人材の移住を支援しています。" },
               { num: "3", title: "地方拠点のあるIT企業を探す", desc: "メガベンチャーやSaaS企業の地方拠点は、東京とほぼ同等の技術環境と給与水準を提供するケースが多いです。" },
-              { num: "4", title: "生活コストを計算して比較する", desc: "東京で年収700万円 vs 地方で年収550万円。住居費が月5〜10万円下がると、実質的な可処分所得は同等以上になります。" },
-              { num: "5", title: "地元のIT企業コミュニティに参加する", desc: "地方のITコミュニティ（勉強会、Meetup）に参加して情報収集。コネクション経由の紹介転職も有力です。" },
+              { num: "4", title: "生活コストを計算して比較する", desc: "東京で年収700万円 vs 地方で年収550万円です。住居費が月5〜10万円下がると、実質的な可処分所得は同等以上になります。" },
+              { num: "5", title: "地元のIT企業コミュニティに参加する", desc: "地方のITコミュニティ（勉強会、Meetup）に参加して情報収集です。コネクション経由の紹介転職も有力です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -128,9 +128,9 @@ export default function UturnablePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", point: "地方拠点の求人やフルリモート求人が充実。Uターン転職の相談にも対応。" },
-              { name: "doda ITエージェント", point: "全国の求人をカバー。地方企業の求人数が多い。" },
-              { name: "Green", point: "フルリモート・地方勤務の求人フィルターあり。カジュアル面談で企業を確認できる。" },
+              { name: "レバテックキャリア", point: "地方拠点の求人やフルリモート求人が充実しています。Uターン転職の相談にも対応しています。" },
+              { name: "doda ITエージェント", point: "全国の求人をカバーします。地方企業の求人数が多いです。" },
+              { name: "Green", point: "フルリモート・地方勤務の求人フィルターがあります。カジュアル面談で企業を確認できます。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -168,7 +168,7 @@ export default function UturnablePage() {
               { name: "フルリモート勤務ガイド", href: "/purpose/remote-full/" },
               { name: "ワークライフバランス重視の転職", href: "/purpose/wlb/" },
               { name: "福岡エリアの転職ガイド", href: "/area/fukuoka/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

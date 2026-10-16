@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/oracle-japan/" },
   title: "日本オラクルの年収は平均1,259万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "日本オラクル（4716）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年間給与1,259万円(2025年5月期 有報・全社員平均)、Oracle Database/OCIを軸とするクラウド企業の技術領域、選考フロー、30代40代の戦い方まで。",
+    "日本オラクル（4716）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年間給与1,259万円(2025年5月期 有価証券報告書・全社員平均)、Oracle Database/OCIを軸とするクラウド企業の技術領域、選考フロー、30代40代の進め方まで。",
 };
 
 const salaryTrend: [string, string, string][] = [
@@ -35,7 +35,7 @@ const toc = [
   { id: "basic", label: "基本データ（企業概要・出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
-  { id: "salary", label: "年収データ（有報・公式求人）" },
+  { id: "salary", label: "年収データ（有価証券報告書・公式求人）" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
   { id: "review", label: "口コミ・評判の傾向" },
@@ -91,7 +91,7 @@ export default function OracleJapanCompanyPage() {
     <>
       <ArticleJsonLd
         title="日本オラクル エンジニア転職ガイド"
-        description="日本オラクルへのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収1,259万円(2025年5月期)、Oracle Database/OCIの技術領域、選考フロー、口コミ傾向まで。"
+        description="日本オラクルへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収1,259万円(2025年5月期)、Oracle Database/OCIの技術領域、選考フロー、口コミ傾向まで。"
         url="/company/oracle-japan/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -105,7 +105,7 @@ export default function OracleJapanCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】日本オラクルの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 日本オラクル株式会社の平均年間給与は1,259万円です（2025年5月期 有価証券報告書・全社員平均、平均年齢44.1歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,259万円（2025年5月期 有報・全社員平均）。営業・コンサル等も含む全社員平均で、エンジニアに限った値ではありません。</li><li>・推移は2021年5月期1,073万円→2023年5月期1,126万円→2024年5月期1,160万円→2025年5月期1,259万円と直近期に大きく上昇（各期 有報）。</li><li>・職種・等級別の正式な年収表は非公表。外資系のため提示額は求人ごとに個別決定され、求人・面談での確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,259万円です（2025年5月期 有価証券報告書・全社員平均）。営業・コンサル等も含む全社員平均で、エンジニアに限った値ではありません。</li><li>・推移は2021年5月期1,073万円→2023年5月期1,126万円→2024年5月期1,160万円→2025年5月期1,259万円と直近期に大きく上昇しています（各期 有価証券報告書）。</li><li>・職種・等級別の正式な年収表は非公表です。外資系のため提示額は求人ごとに個別決定され、求人・面談での確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -138,11 +138,11 @@ export default function OracleJapanCompanyPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：データベース・クラウドの専門性があり、外資系の成果主義で高年収を狙いたいエンジニア向き。難易度は中〜やや高。</p>
+            <p className="font-bold text-blue-900 mb-3">結論：データベース・クラウドの専門性があり、外資系の成果主義で高年収を狙いたいエンジニア向きです。難易度は中〜やや高。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li className="flex gap-2"><span className="shrink-0">1.</span>Oracle Databaseやクラウド（OCI等）の設計・構築・運用、クラウド導入の経験が直接活きる。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は1,259万円（2025年5月期 有報）。外資系クラウド企業として国内トップクラスの水準。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>クラウド事業を成長の軸とするグローバル企業で、専門性を深めつつ高年収を狙いたい人に向く。</li>
+              <li className="flex gap-2"><span className="shrink-0">1.</span>Oracle Databaseやクラウド（OCI等）の設計・構築・運用、クラウド導入の経験が直接活きます。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は1,259万円です（2025年5月期 有価証券報告書）。外資系クラウド企業として国内トップクラスの水準です。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>クラウド事業を成長の軸とするグローバル企業で、専門性を深めつつ高年収を狙いたい人に向きます。</li>
             </ul>
           </div>
         </section>
@@ -209,10 +209,10 @@ export default function OracleJapanCompanyPage() {
         </section>
 
         <section id="salary" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有報・公式求人）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有価証券報告書・公式求人）</h2>
           <p className="text-slate-700 text-sm leading-relaxed mb-4">
             日本オラクルは上場企業のため、有価証券報告書に全社員の平均年間給与が記載されています。<strong>これは全社員平均であり、エンジニア職に限った数値ではありません。</strong>
-            職種・等級別の公式な年収表は公開されていないため、ここでは有報の推移のみを掲載します。
+            職種・等級別の公式な年収表は公開されていないため、ここでは有価証券報告書の推移のみを掲載します。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -248,10 +248,10 @@ export default function OracleJapanCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["エントリー（書類選考）", "募集ポジションから応募し書類を提出。職務経歴・専門領域が確認される。"],
-              ["面接（複数回）", "現場・マネージャー等との面接。技術的な質問や専門領域の議論が行われる。"],
-              ["技術・英語確認（ポジションによる）", "ポジションによっては技術的な確認や英語でのやり取りが含まれることがある。"],
-              ["内定（オファー）", "条件・配属の説明。ミッションのすり合わせが行われる。"],
+              ["エントリー（書類選考）", "募集ポジションから応募し書類を提出します。職務経歴・専門領域が確認されます。"],
+              ["面接（複数回）", "現場・マネージャー等との面接です。技術的な質問や専門領域の議論が行われます。"],
+              ["技術・英語確認（ポジションによる）", "ポジションによっては技術的な確認や英語でのやり取りが含まれることがあります。"],
+              ["内定（オファー）", "条件・配属の説明です。ミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -299,7 +299,7 @@ export default function OracleJapanCompanyPage() {
               <h3 className="font-bold text-amber-800 mb-2 text-sm">ネガティブ・注意したい傾向</h3>
               <ul className="space-y-1.5 text-sm text-amber-900">
                 <li>外資系ゆえの成果主義・目標達成へのプレッシャーを挙げる声</li>
-                <li>英語を使う場面があり、グローバル連携の負荷がある</li>
+                <li>英語を使う場面があり、グローバル連携の負荷があります</li>
                 <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
               </ul>
             </div>
@@ -314,10 +314,10 @@ export default function OracleJapanCompanyPage() {
               日本オラクルは上場済みのグローバルなクラウド企業で、クラウド事業（OCI）を成長の軸とするフェーズにあります。30代・40代のミドルエンジニアにとっては、「データベース・クラウドの専門性を活かし、外資系の成果主義で高年収を狙いたい」というニーズに合致しやすい選択肢です。
             </p>
             <p>
-              平均年齢が44.1歳（2025年5月期）と高めで、ミドル・シニア層が中心の組織構成です。Oracle Databaseやクラウドの設計・構築・運用の経験、クラウド導入・移行の経験、ERP/HCM等の業務知識やコンサルティング経験は、年齢に見合った価値として評価されやすいでしょう。外資系のため、技術力に加えて成果へのコミットや英語力も武器になります。
+              平均年齢が44.1歳（2025年5月期）と高めで、ミドル・シニア層が中心の組織構成です。Oracle Databaseやクラウドの設計・構築・運用の経験、クラウド導入・移行の経験、ERP/HCM等の業務知識やコンサルティング経験は、年齢に見合った価値として評価されやすいでしょう。外資系のため、技術力に加えて成果へのコミットや英語力も強みになります。
             </p>
             <p>
-              年収面では、現職が頭打ちになっている30代・40代にとって、日本オラクルの全社員平均1,259万円（有報）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
+              年収面では、現職が頭打ちになっている30代・40代にとって、日本オラクルの全社員平均1,259万円（有価証券報告書）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
             </p>
             <p>
               年代別の転職実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>も参考になります。
@@ -329,9 +329,9 @@ export default function OracleJapanCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">日本オラクル転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高い。外資・クラウドの非公開求人を扱うことも。書類添削・面接対策に定評。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "外資・ハイクラスに強く、年収帯の高いクラウド・専門職の求人に対応。英文レジュメ対策も。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが強みで、IT企業への転職実績が豊富。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。外資・クラウドの非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "外資・ハイクラスに強く、年収帯の高いクラウド・専門職の求人に対応しています。英文レジュメ対策も。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、IT企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/stock-option/" },
   title: "ストックオプションがある企業へ転職【税制と見極め方2026】",
   description:
-    "ストックオプション（SO）の仕組み・税制適格と非適格の違い・RSUとの違いを公的情報ベースで解説。求人での見極め方、上場前後のリスク、30-40代の判断軸まで。",
+    "ストックオプション（SO）の仕組み・税制適格と非適格の違い・RSUとの違いを公的情報ベースで解説します。求人での見極め方、上場前後のリスク、30-40代の判断軸まで。",
 };
 
 const faqs = [
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "求人票でストックオプションの何を確認すべき？",
-    a: "（1）付与の有無と対象：全社員対象か、一定等級以上か。（2）税制適格／非適格の別：手取りに直結します。（3）行使価格・付与予定数・想定割合：会社の発行済株式に対する割合（持分）が実質的な価値を左右します。（4）ベスティング条件：何年勤務で何%確定するか、退職時の扱い。これらは求人票に書かれないことが多く、選考後半やオファー面談で確認するのが現実的です。",
+    a: "（1）付与の有無と対象：全社員対象か、一定等級以上か。（2）税制適格／非適格の別：手取りに直結します。（3）行使価格・付与予定数・想定割合：会社の発行済株式に対する割合（持分）が実質的な価値を左右します。（4）ベスティング条件：何年勤務で何%確定するか、退職時の扱いです。これらは求人票に書かれないことが多く、選考後半やオファー面談で確認するのが現実的です。",
   },
   {
     q: "ストックオプションは必ず利益になりますか？",
@@ -53,7 +53,7 @@ export default function StockOptionPage() {
     <>
       <ArticleJsonLd
         title="ストックオプションがある企業へ転職【税制と見極め方2026】"
-        description="ストックオプションの仕組み・税制適格と非適格の違い・RSUとの違いを公的情報ベースで解説。求人での見極め方、上場前後のリスク、30-40代の判断軸まで。"
+        description="ストックオプションの仕組み・税制適格と非適格の違い・RSUとの違いを公的情報ベースで解説します。求人での見極め方、上場前後のリスク、30-40代の判断軸まで。"
         url="/purpose/stock-option/"
       />
       <script
@@ -72,7 +72,7 @@ export default function StockOptionPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           ストックオプションがある企業へ転職
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 税制と条件を理解してアップサイドを正しく評価する完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 税制と条件を理解してアップサイドを正しく評価するガイド</p>
 
         <DataNote
           surveyedAt="2026年6月"
@@ -85,10 +85,10 @@ export default function StockOptionPage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SOは「税制」と「持分・確定条件」で価値が決まる</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
-            ストックオプション（SO）は、スタートアップが上場・成長時のアップサイドを従業員と分け合う仕組みです。ただし「SOあり」という言葉だけでは実質的な価値はわかりません。<strong>税制適格か非適格かで手取りが大きく変わり</strong>、発行済株式に対する持分・ベスティング（権利確定）条件・そもそも上場できるかで最終的なリターンが決まります。本記事では、SOの仕組みと税制を公的情報に基づいて整理し、求人での見極め方を30-40代の生活設計と結びつけて解説します。
+            ストックオプション（SO）は、スタートアップが上場・成長時のアップサイドを従業員と分け合う仕組みです。ただし「SOあり」という言葉だけでは実質的な価値は分かりません。<strong>税制適格か非適格かで手取りが大きく変わり</strong>、発行済株式に対する持分・ベスティング（権利確定）条件・そもそも上場できるかで最終的なリターンが決まります。本記事では、SOの仕組みと税制を公的情報に基づいて整理し、求人での見極め方を30-40代の生活設計と結びつけて解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- スタートアップのSO付きオファーを正しく評価したい</li>
               <li>- 税制適格・非適格・RSUの違いを整理したい30-40代</li>
@@ -124,7 +124,7 @@ export default function StockOptionPage() {
                 {[
                   { type: "税制適格SO", desc: "措置法29条の2の要件を満たす自社株購入権", note: "行使時は非課税、売却時に譲渡所得課税" },
                   { type: "税制非適格SO", desc: "要件を満たさないストックオプション", note: "行使時に給与所得等＋売却時に譲渡所得（二段階）" },
-                  { type: "RSU（譲渡制限付株式）", desc: "条件達成で株式そのものを付与", note: "権利確定時の時価が課税対象になり得る。外資大手に多い" },
+                  { type: "RSU（譲渡制限付株式）", desc: "条件達成で株式そのものを付与", note: "権利確定時の時価が課税対象になり得ます。外資大手に多いです" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -146,9 +146,9 @@ export default function StockOptionPage() {
             {[
               { num: "1", title: "税制適格か非適格かを確認する", desc: "手取りに直結します。求人票に明記されないことが多いため、オファー面談で『税制適格ストックオプションですか』と確認しましょう。" },
               { num: "2", title: "持分（発行済株式に対する割合）を確認する", desc: "付与株数だけでは価値は読めません。発行済株式総数に対して何%かが実質的な価値を左右します。希薄化（増資）の見込みも考慮を。" },
-              { num: "3", title: "ベスティング条件を確認する", desc: "何年勤務で何%が確定するか（例：4年・1年クリフ）、自己都合退職時に権利がどうなるかを確認します。短期離職だと無価値になることも。" },
-              { num: "4", title: "行使価格と想定タイムラインを把握する", desc: "行使価格が現在の株価評価とどう関係するか、上場・資金調達の想定時期を可能な範囲で確認します。確約はされない点に注意。" },
-              { num: "5", title: "現金報酬とのトレードオフを見る", desc: "SO比率が高い代わりに基本給が市場相場より低いオファーは、生活コストの高い30-40代にはリスク。現金で生活が成り立つかを基準に。" },
+              { num: "3", title: "ベスティング条件を確認する", desc: "何年勤務で何%が確定するか（例：4年・1年クリフ）、自己都合退職時に権利がどうなるかを確認します。短期離職だと無価値になることがあります。" },
+              { num: "4", title: "行使価格と想定タイムラインを把握する", desc: "行使価格が現在の株価評価とどう関係するか、上場・資金調達の想定時期を可能な範囲で確認します。確約はされない点に注意が必要です。" },
+              { num: "5", title: "現金報酬とのトレードオフを見る", desc: "SO比率が高い代わりに基本給が市場相場より低いオファーは、生活コストの高い30-40代にはリスクです。現金で生活が成り立つかを基準に。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -170,10 +170,10 @@ export default function StockOptionPage() {
           </p>
           <div className="space-y-3">
             {[
-              { type: "国内スタートアップ（上場前）", point: "上場前は現金報酬を抑える代わりにSOでアップサイドを共有する典型。持分・確定条件の確認が必須。" },
-              { type: "上場後のメガベンチャー", point: "上場後はRSUや有償SO、ESPP（従業員株式購入制度）など多様な株式報酬を導入する企業がある。" },
-              { type: "外資系IT大手", point: "RSU（譲渡制限付株式）を総報酬の一部に組み込むケースが多い。SOとは課税・価値の性質が異なる。" },
-              { type: "メーカー・伝統的大企業", point: "株式報酬の導入は限定的なことが多く、現金報酬・退職金中心の構成が一般的。" },
+              { type: "国内スタートアップ（上場前）", point: "上場前は現金報酬を抑える代わりにSOでアップサイドを共有する典型です。持分・確定条件の確認が必須です。" },
+              { type: "上場後のメガベンチャー", point: "上場後はRSUや有償SO、ESPP（従業員株式購入制度）など多様な株式報酬を導入する企業があります。" },
+              { type: "外資系IT大手", point: "RSU（譲渡制限付株式）を総報酬の一部に組み込むケースが多いです。SOとは課税・価値の性質が異なります。" },
+              { type: "メーカー・伝統的大企業", point: "株式報酬の導入は限定的なことが多く、現金報酬・退職金中心の構成が一般的です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>
@@ -220,7 +220,7 @@ export default function StockOptionPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">SO付きの企業を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">株式報酬の条件まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">株式報酬の条件まで把握したIT特化型エージェントが、ご自身の条件に合う企業を提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -228,12 +228,12 @@ export default function StockOptionPage() {
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { name: "年収UPしたいエンジニアの転職戦略", href: "/purpose/salary-up/" },
+              { name: "年収アップしたいエンジニアの転職戦略", href: "/purpose/salary-up/" },
               { name: "スタートアップとエンタープライズの比較", href: "/knowledge/startup-vs-enterprise/" },
               { name: "オファー条件の比較方法", href: "/knowledge/offer-compare/" },
               { name: "40代エンジニアの年収相場", href: "/knowledge/salary-40s/" },
               { name: "福利厚生が充実した企業へ転職", href: "/purpose/benefits/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

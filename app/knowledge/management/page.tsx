@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/management/" },
   title: "EM・PMへのマネジメント転身ガイド【職務経歴書例付き】",
   description:
-    "エンジニアからEM・PMへ転身する方法を解説。EM/PMの違い、必要スキル、ICからの移行ステップ、職務経歴書での見せ方をBefore/After例付きで30代・40代向けに整理。",
+    "エンジニアからEM・PMへ転身する方法を解説します。EM/PMの違い、必要スキル、ICからの移行ステップ、職務経歴書での見せ方をBefore/After例付きで30代・40代向けに整理します。",
 };
 
 const toc = [
@@ -26,7 +26,7 @@ const roleCompare = [
   {
     role: "EM（エンジニアリングマネージャー）",
     center: "ピープルマネジメント",
-    work: "1on1・評価・採用・チームビルディング・育成。チームが成果を出せる状態をつくる",
+    work: "1on1・評価・採用・チームビルディング・育成です。チームが成果を出せる状態をつくります",
     from: "テックリード／シニアエンジニアから",
   },
   {
@@ -38,13 +38,13 @@ const roleCompare = [
   {
     role: "テックリード",
     center: "技術的意思決定",
-    work: "設計・アーキテクチャ・技術選定・難所の実装。手を動かし続ける技術リード",
+    work: "設計・アーキテクチャ・技術選定・難所の実装です。手を動かし続ける技術リード",
     from: "シニアエンジニアから（IC継続の道）",
   },
   {
     role: "PjM（プロジェクトマネージャー）",
     center: "プロジェクト遂行",
-    work: "スコープ・スケジュール・リスク・進捗管理。QCDの達成に責任を持つ",
+    work: "スコープ・スケジュール・リスク・進捗管理です。QCDの達成に責任を持ちます",
     from: "リーダー経験のあるエンジニアから",
   },
 ];
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "職務経歴書でマネジメント経験はどう書けばいいですか？",
-    a: "「マネジメント経験あり」と書くだけでは伝わりません。チーム規模（何人）、担当範囲（評価・採用・1on1など）、そして「チームにどんな変化・成果をもたらしたか」をセットで書きます。たとえば「5名のチームをリードし、オンボーディングを整備して立ち上がり期間を短縮」のように、人数・施策・結果の3点を入れると説得力が出ます。本文にBefore/After例を載せています。",
+    a: "「マネジメント経験あり」と書くだけでは伝わりません。チーム規模（何人）、担当範囲（評価・採用・1on1など）、そして「チームにどんな変化・成果をもたらしたか」をセットで書きます。たとえば「5名のチームをリードし、オンボーディングを整備して立ち上がり期間を短縮」のように、人数・施策・結果の3点を入れると説得力が出ます。本文にBefore/After例を掲載しています。",
   },
   {
     q: "マネジメントが向いていなかった場合、ICに戻れますか？",
@@ -95,7 +95,7 @@ export default function ManagementPage() {
     <>
       <ArticleJsonLd
         title="EM・PMへのマネジメント転身ガイド【職務経歴書例付き】"
-        description="エンジニアからEM・PMへ転身する方法を解説。EM/PMの違い、必要スキル、ICからの移行ステップ、職務経歴書での見せ方をBefore/After例付きで30代・40代向けに整理。"
+        description="エンジニアからEM・PMへ転身する方法を解説します。EM/PMの違い、必要スキル、ICからの移行ステップ、職務経歴書での見せ方をBefore/After例付きで30代・40代向けに整理します。"
         url="/knowledge/management/"
       />
       <script
@@ -123,7 +123,7 @@ export default function ManagementPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアからEM・PMへ転身するには？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: マネジメントは「昇進」ではなく「職種転換」です。EMは人と組織、PMはプロダクトが責任の軸で、年収よりどちらに面白さを感じるかで選ぶのが後悔の少ない判断です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・EMはピープルマネジメント、PM／PdMはプロダクトの成功が責任の軸で、やりがいの源泉が異なる</li><li>・移行は現職でのリード経験づくりから部分的マネジメント、EM候補ポジションへと進むのが王道</li><li>・職務経歴書は「マネジメント経験あり」では弱く、チーム規模・担当範囲・もたらした変化の3点で書く</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・EMはピープルマネジメント、PM／PdMはプロダクトの成功が責任の軸で、やりがいの源泉が異なります</li><li>・移行は現職でのリード経験づくりから部分的マネジメント、EM候補ポジションへと進むのが代表的な方法</li><li>・職務経歴書は「マネジメント経験あり」では弱く、チーム規模・担当範囲・もたらした変化の3点で書きます</li></ul>
           </div>
         </section>
 
@@ -158,9 +158,9 @@ export default function ManagementPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：マネジメントは「昇進」ではなく「職種転換」</h2>
             <ul className="text-sm text-blue-900 space-y-2 leading-relaxed">
-              <li>・<strong>EMは人と組織</strong>、<strong>PMはプロダクト</strong>が責任の軸。やりがいの源泉が違うので、年収より「どちらに面白さを感じるか」で選ぶ。</li>
-              <li>・移行は<strong>現職でのリード経験づくり→部分的マネジメント→EM候補ポジション</strong>が王道。いきなりの未経験EMより通りやすい。</li>
-              <li>・職務経歴書は「マネジメント経験あり」では弱い。<strong>チーム規模・担当範囲・もたらした変化</strong>の3点で書く。</li>
+              <li>・<strong>EMは人と組織</strong>、<strong>PMはプロダクト</strong>が責任の軸です。やりがいの源泉が違うので、年収より「どちらに面白さを感じるか」で選びます。</li>
+              <li>・移行は<strong>現職でのリード経験づくり→部分的マネジメント→EM候補ポジション</strong>が代表的な方法です。いきなりの未経験EMより通りやすいです。</li>
+              <li>・職務経歴書は「マネジメント経験あり」では弱いです。<strong>チーム規模・担当範囲・もたらした変化</strong>の3点で書きます。</li>
             </ul>
           </div>
         </section>
@@ -194,7 +194,7 @@ export default function ManagementPage() {
             </table>
           </div>
           <p className="text-slate-600 text-sm mt-3">
-            ざっくり言えば、<strong>EM＝「人」、PM＝「プロダクト」、テックリード＝「技術」、PjM＝「プロジェクトの進行」</strong>。同じ「マネジメント志望」でも、どの軸に惹かれるかで進むべき方向が変わります。
+            概要としては、<strong>EM＝「人」、PM＝「プロダクト」、テックリード＝「技術」、PjM＝「プロジェクトの進行」</strong>。同じ「マネジメント志望」でも、どの軸に惹かれるかで進むべき方向が変わります。
           </p>
         </section>
 
@@ -203,12 +203,12 @@ export default function ManagementPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">マネジメントに必要なスキル</h2>
           <div className="space-y-4">
             {[
-              { t: "ピープルマネジメント（EMの核）", d: "1on1、目標設定（OKR/MBO）、評価・フィードバック、キャリア面談、コンフリクト解決。メンバーのモチベーションと成長を支える。" },
-              { t: "プロダクト／優先順位の判断（PMの核）", d: "ユーザー課題の把握、ロードマップ策定、何を作らないかの決定、KPI設計。限られたリソースで価値を最大化する。" },
-              { t: "プロジェクトマネジメント", d: "見積もり、スケジュール・リスク管理、進捗報告。アジャイル/スクラムの実践経験は多くの現場で前提。" },
-              { t: "採用・組織設計", d: "求人票作成、面接設計、オンボーディング整備、チーム構成の最適化。特にEMは採用への関与が大きい。" },
-              { t: "技術的意思決定の素地", d: "アーキテクチャや技術的負債の優先順位を判断できる土台。マネジメント職でも技術理解は信頼の前提になる。" },
-              { t: "ステークホルダー調整・伝える力", d: "経営・他部署・チームの間に立ち、合意を形成する。技術を非エンジニアに翻訳して伝える力も重要。" },
+              { t: "ピープルマネジメント（EMの核）", d: "1on1、目標設定（OKR/MBO）、評価・フィードバック、キャリア面談、コンフリクト解決です。メンバーのモチベーションと成長を支えます。" },
+              { t: "プロダクト／優先順位の判断（PMの核）", d: "ユーザー課題の把握、ロードマップ策定、何を作らないかの決定、KPI設計です。限られたリソースで価値を最大化します。" },
+              { t: "プロジェクトマネジメント", d: "見積もり、スケジュール・リスク管理、進捗報告です。アジャイル/スクラムの実践経験は多くの現場で前提です。" },
+              { t: "採用・組織設計", d: "求人票作成、面接設計、オンボーディング整備、チーム構成の最適化です。特にEMは採用への関与が大きいです。" },
+              { t: "技術的意思決定の素地", d: "アーキテクチャや技術的負債の優先順位を判断できる土台です。マネジメント職でも技術理解は信頼の前提になります。" },
+              { t: "ステークホルダー調整・伝える力", d: "経営・他部署・チームの間に立ち、合意を形成します。技術を非エンジニアに翻訳して伝える力も重要です。" },
             ].map((x, i) => (
               <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-1">{x.t}</h3>
@@ -226,11 +226,11 @@ export default function ManagementPage() {
           </p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "現職でリード業務を引き受ける", desc: "小さなチームのリード、新人のメンター、スクラムマスターなど。マネジメントの入口になる役割に手を挙げる。" },
-              { num: "2", title: "1on1・採用・育成を経験する", desc: "メンバーとの1on1、採用面接への参加、オンボーディング設計など、ピープル領域の経験を意図的に積む。" },
-              { num: "3", title: "成果を言語化・記録する", desc: "チームにもたらした変化（立ち上がり短縮、離脱低減、リリース安定化など）を数値や具体例で記録しておく。職務経歴書の材料になる。" },
-              { num: "4", title: "EM候補・リードポジションを狙う", desc: "未経験EM求人より、リードエンジニア／EM候補から入る方が現実的。エージェントに非公開のマネジメント求人を相談する。" },
-              { num: "5", title: "EM・PMとして転職／登用される", desc: "実績と移行意思が揃えば、EM・PMとしての転職や社内登用が見えてくる。面接ではピープル/プロダクトへの考え方が問われる。" },
+              { num: "1", title: "現職でリード業務を引き受ける", desc: "小さなチームのリード、新人のメンター、スクラムマスターなどです。マネジメントの入口になる役割に手を挙げます。" },
+              { num: "2", title: "1on1・採用・育成を経験する", desc: "メンバーとの1on1、採用面接への参加、オンボーディング設計など、ピープル領域の経験を意図的に積みます。" },
+              { num: "3", title: "成果を言語化・記録する", desc: "チームにもたらした変化（立ち上がり短縮、離脱低減、リリース安定化など）を数値や具体例で記録しておきます。職務経歴書の材料になります。" },
+              { num: "4", title: "EM候補・リードポジションを狙う", desc: "未経験EM求人より、リードエンジニア／EM候補から入る方が現実的です。エージェントに非公開のマネジメント求人を相談します。" },
+              { num: "5", title: "EM・PMとして転職／登用される", desc: "実績と移行意思が揃えば、EM・PMとしての転職や社内登用が見えてくります。面接ではピープル/プロダクトへの考え方が問われます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -256,7 +256,7 @@ export default function ManagementPage() {
               <ul className="text-sm text-red-800 space-y-1">
                 <li>・チームのマネジメントを担当</li>
                 <li>・メンバーの育成を行った</li>
-                <li>・プロジェクトを推進した</li>
+                <li>・プロジェクトを推進しました</li>
               </ul>
             </div>
             <div className="bg-green-50 border border-green-200 rounded-xl p-5">
@@ -320,7 +320,7 @@ export default function ManagementPage() {
             </p>
             <p>
               なお、マネジメントは一度進んだら戻れない道ではありません。EMを経験してICに戻る往復はIT業界では珍しくなく、マネジメント経験はテックリードや設計でも活きます。適性は実際にやってみないと分からない面があるため、機会があれば一度試す価値があります。マネジメントを選ばず技術を深める道は
-              <Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアのスキルアップ戦略</Link>もどうぞ。
+              <Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアのスキルアップ戦略</Link>もご覧ください。
             </p>
           </div>
         </section>
@@ -362,7 +362,7 @@ export default function ManagementPage() {
               { name: "エンジニアの職務経歴書の書き方", href: "/knowledge/resume/" },
               { name: "行動面接（STARメソッド）対策", href: "/knowledge/behavioral/" },
               { name: "40代エンジニアの転職リアル", href: "/knowledge/40s-reality/" },
-              { name: "年収交渉の完全ガイド", href: "/knowledge/salary-negotiation/" },
+              { name: "年収交渉のガイド", href: "/knowledge/salary-negotiation/" },
               { name: "エンジニアのスキルアップ戦略", href: "/knowledge/continuous-learning/" },
               { name: "IT転職エージェント10社比較", href: "/compare/agents/" },
             ].map((item, i) => (

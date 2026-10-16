@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "PMPは転職に有利？30・40代の年収・受験資格・活かし方【2026年】";
 const PAGE_DESC =
-  "PMP（プロジェクトマネジメント・プロフェッショナル）は30代・40代の転職で有利か。PMI公式Salary Surveyの年収データ、受験資格・試験概要、評価される場面、実務×資格の活かし方とデメリットまで正直に解説します。";
+  "PMP（プロジェクトマネジメント・プロフェッショナル）は30代・40代の転職で有利か。PMI公式Salary Surveyの年収データ、受験資格・試験概要、評価される場面、実務×資格の活かし方とデメリットまで解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/pmp/" },
@@ -22,7 +22,7 @@ const toc = [
   { id: "jobs", label: "求人で求められる要件" },
   { id: "kakezan", label: "30-40代の価値＝実務×資格" },
   { id: "steps", label: "取得3ステップ・併取得資格" },
-  { id: "demerit", label: "デメリット・限界" },
+  { id: "demerit", label: "デメリット・留意点" },
   { id: "faq", label: "よくある質問" },
 ];
 
@@ -99,7 +99,7 @@ export default function CertPmpPage() {
             "PMI Salary Survey 13th Edition（2023）【権威データ】",
             "PMI / PMI日本支部 公式（受験資格・更新要件）",
             "Geekly 2025集計（取得者数・平均年収の参考値）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -123,9 +123,9 @@ export default function CertPmpPage() {
               PMPは当サイトの分類で<strong>「経験者加点資格」</strong>に位置づけられます。受験資格自体がPM実務36ヶ月以上（大卒）を求めるため、構造的に30代・40代のミドル層向けの資格です。資格を持つこと自体がPM経験の客観証明になり、高単価案件の書類フィルタを通過しやすくなります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 受験資格が<strong>PM実務前提</strong>＝持っているだけで経験の裏づけになる</li>
+              <li>① 受験資格が<strong>PM実務前提</strong>＝持っているだけで経験の裏づけになります</li>
               <li>② PMI公式データで保有者中央値<strong>891万円</strong>（非保有817万円・2023）</li>
-              <li>③ ただし<strong>3年ごと60PDU更新</strong>が必要で、取りっぱなしにはできない</li>
+              <li>③ ただし<strong>3年ごと60PDU更新</strong>が必要で、取りっぱなしにはできません</li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
@@ -159,7 +159,7 @@ export default function CertPmpPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: PMI / PMI日本支部 公式（受験資格・受験料・更新、2026年6月時点）。取得者数はGeekly集計の参考値。受験料は会員区分・為替・改定により変動します。受験前に必ずPMI公式で最新条件をご確認ください。
+            出典: PMI / PMI日本支部 公式（受験資格・受験料・更新、2026年6月時点）。取得者数はGeekly集計の参考値です。受験料は会員区分・為替・改定により変動しています。受験前に必ずPMI公式で最新条件をご確認ください。
           </p>
         </section>
 
@@ -190,7 +190,7 @@ export default function CertPmpPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed mb-3">
-            出典: PMI Salary Survey 13th Edition（2023）。年代別の平均・賞与含む。
+            出典: PMI Salary Survey 13th Edition（2023）。年代別の平均・賞与含みます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             参考値として、転職メディアGeeklyの2025年集計では取得者平均896万円、年代別に20代483万円・30代721万円・40代947万円・50代1,000万円超とされています（参考値）。集計の母集団・定義が異なるため数値に幅があり、目安としてご覧ください。日経の「転職に役立つ資格」関連でもPMPは上位で言及されることがあります。
@@ -208,10 +208,10 @@ export default function CertPmpPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "高単価PM案件・SIerやコンサルの上流", d: "PMP保有が応募要件・歓迎要件になっている求人で、書類選考のフィルタを通過しやすい。" },
-              { t: "PM経験の客観証明が必要な転職", d: "社内でPMをしてきたが肩書きが曖昧な人でも、PMPで『国際標準のPM知識を持つ』ことを示せる。" },
-              { t: "外資・グローバルPJへの参画", d: "PMPは国際資格のため、海外拠点・多国籍チームのPMロールで共通言語として評価される。" },
-              { t: "PMO・プログラム管理への昇格", d: "複数プロジェクトの統括ポジションで、体系的なマネジメント知識の裏づけになる。" },
+              { t: "高単価PM案件・SIerやコンサルの上流", d: "PMP保有が応募要件・歓迎要件になっている求人で、書類選考のフィルタを通過しやすいです。" },
+              { t: "PM経験の客観証明が必要な転職", d: "社内でPMをしてきたが肩書きが曖昧な人でも、PMPで『国際標準のPM知識を持つ』ことを示せます。" },
+              { t: "外資・グローバルPJへの参画", d: "PMPは国際資格のため、海外拠点・多国籍チームのPMロールで共通言語として評価されます。" },
+              { t: "PMO・プログラム管理への昇格", d: "複数プロジェクトの統括ポジションで、体系的なマネジメント知識の裏づけになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -229,9 +229,9 @@ export default function CertPmpPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "PMジュニア〜ミドル層", d: "数百万〜数千万規模のPJ管理、進捗・課題・要員管理の実務。PMP歓迎要件になりやすい。" },
-              { t: "シニアPM層", d: "大規模・複数ベンダー横断のPJ統括、予算・リスク管理。PMP保有が応募要件になることがある。" },
-              { t: "PMO・プログラム管理層", d: "全社PJポートフォリオの標準化・ガバナンス。PMPに加えPgMP等の上位や実績が問われる。" },
+              { t: "PMジュニア〜ミドル層", d: "数百万〜数千万規模のPJ管理、進捗・課題・要員管理の実務です。PMP歓迎要件になりやすいです。" },
+              { t: "シニアPM層", d: "大規模・複数ベンダー横断のPJ統括、予算・リスク管理です。PMP保有が応募要件になることがあります。" },
+              { t: "PMO・プログラム管理層", d: "全社PJポートフォリオの標準化・ガバナンスです。PMPに加えPgMP等の上位や実績が問われます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -268,9 +268,9 @@ export default function CertPmpPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ・併取得資格</h2>
           <div className="space-y-3 mb-4">
             {[
-              { n: "STEP 1", t: "受験資格の棚卸し", d: "学歴に応じたPM実務（大卒36ヶ月／非大卒60ヶ月）と35時間研修の要件を満たすか確認する。" },
-              { n: "STEP 2", t: "35時間研修＋PMBOK学習", d: "公式要件の研修を受け、最新版PMBOKガイドの考え方（予測型・アジャイル・ハイブリッド）を押さえる。" },
-              { n: "STEP 3", t: "受験・取得後の更新計画", d: "受験して合格後は、3年ごと60PDUの更新計画をセットで立てる。" },
+              { n: "STEP 1", t: "受験資格の棚卸し", d: "学歴に応じたPM実務（大卒36ヶ月／非大卒60ヶ月）と35時間研修の要件を満たすか確認します。" },
+              { n: "STEP 2", t: "35時間研修＋PMBOK学習", d: "公式要件の研修を受け、最新版PMBOKガイドの考え方（予測型・アジャイル・ハイブリッド）を押さえます。" },
+              { n: "STEP 3", t: "受験・取得後の更新計画", d: "受験して合格後は、3年ごと60PDUの更新計画をセットで立てます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -291,12 +291,12 @@ export default function CertPmpPage() {
 
         {/* デメリット */}
         <section id="demerit" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">デメリット・限界</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">デメリット・留意点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
-            <p>① <strong>受験のハードルが高い。</strong>そもそもPM実務36ヶ月以上が前提のため、経験が浅い人はすぐには受験できません。</p>
-            <p>② <strong>更新コストがかかる。</strong>3年ごとに60PDUと更新手続きが必要で、継続学習・費用の負担があります。</p>
-            <p>③ <strong>資格だけでは案件は取れない。</strong>PMPはあくまで知識・経験の証明であり、実際のPJ成果やコミュニケーション力が伴わないと評価されません。</p>
-            <p>④ <strong>受験料が比較的高め。</strong>非会員$655と費用がかかるため、会員になって受験するなど計画的な準備が必要です。</p>
+            <p>① <strong>受験のハードルが高いです。</strong>そもそもPM実務36ヶ月以上が前提のため、経験が浅い人はすぐには受験できません。</p>
+            <p>② <strong>更新コストがかかります。</strong>3年ごとに60PDUと更新手続きが必要で、継続学習・費用の負担があります。</p>
+            <p>③ <strong>資格だけでは案件は取れません。</strong>PMPはあくまで知識・経験の証明であり、実際のPJ成果やコミュニケーション力が伴わないと評価されません。</p>
+            <p>④ <strong>受験料が比較的高めです。</strong>非会員$655と費用がかかるため、会員になって受験するなど計画的な準備が必要です。</p>
           </div>
         </section>
 
@@ -320,7 +320,7 @@ export default function CertPmpPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">PMP×PM経験を活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            あなたのPM実績がどの年収帯で評価されるか、IT特化型エージェントで確認しましょう。
+            ご自身のPM実績がどの年収帯で評価されるか、IT特化型エージェントで確認しましょう。
           </p>
           <Link
             href="/#ranking"

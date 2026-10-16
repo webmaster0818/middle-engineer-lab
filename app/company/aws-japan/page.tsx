@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/aws-japan/" },
   title: "AWSジャパンへの転職・年収・評判【2026年】クラウドエンジニア/SAの採用と難易度",
   description:
-    "アマゾン ウェブ サービス ジャパン（AWSジャパン）への転職を、年収（levels.fyi集計）・評判（OpenWork）・選考（OLP/Bar Raiser）・職種（SDE/ソリューションアーキテクト/TAM）で解説。AWS認定資格の活かし方や、未経験・30代40代の現実までまとめた転職ガイドです。",
+    "アマゾン ウェブ サービス ジャパン（AWSジャパン）への転職を、年収（levels.fyi集計）・評判（OpenWork）・選考（OLP/Bar Raiser）・職種（SDE/ソリューションアーキテクト/TAM）で解説します。AWS認定資格の活かし方や、未経験・30代40代の現実までまとめた転職ガイドです。",
 };
 
 const basicData: [string, string][] = [
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: "AWSジャパンの評判・働きやすさは？",
-    a: "OpenWorkのクチコミでは「裁量が大きい」「有給消化率が高い」といった声がある一方、職種・チーム・繁忙期によって負荷が変わるという指摘もあります。ドキュメント文化が強く、文章で論理的に説明する力が求められます。配属チームの実態は面接の逆質問で確認するのがおすすめです。",
+    a: "OpenWorkの口コミでは「裁量が大きい」「有給消化率が高い」といった声がある一方、職種・チーム・繁忙期によって負荷が変わるという指摘もあります。ドキュメント文化が強く、文章で論理的に説明する力が求められます。配属チームの実態は面接の逆質問で確認するのがおすすめです。",
   },
   {
     q: "英語は必須ですか？",
@@ -67,7 +67,7 @@ export default function AwsJapanCompanyPage() {
     <>
       <ArticleJsonLd
         title="AWSジャパンへの転職・年収・評判【2026年】"
-        description="アマゾン ウェブ サービス ジャパン（AWSジャパン）への転職を、年収・評判・選考・職種で解説。AWS認定資格の活かし方や30代40代の現実までまとめた転職ガイド。"
+        description="アマゾン ウェブ サービス ジャパン（AWSジャパン）への転職を、年収・評判・選考・職種で解説します。AWS認定資格の活かし方や30代40代の現実までまとめた転職ガイドです。"
         url="/company/aws-japan/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -81,8 +81,8 @@ export default function AwsJapanCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】AWSジャパンの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: AWSジャパンは有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年10月15日時点・日本拠点Amazon SDE集計）では総報酬の中央値 約1,802万円、L5（中堅・SDE II相当）で約1,765万円が目安です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬中央値：L4 約1,448万円、L5 約1,765万円、L6 約2,602万円（levels.fyi・2026年10月15日時点、日本拠点Amazon SDE集計・AWS部門を含む）。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型のため、初年度は基本給＋サインオンボーナス中心になりやすい点に注意。</li><li>・ユーザー投稿ベースの集計値で、為替・個人の交渉・RSUの株価により変動します。</li></ul>
-          <p className="text-sm leading-7 text-slate-700 mt-3">有報を公表する国内IT企業の実額比較は<Link href="/salary/company-ranking/" className="text-petrol-deep underline font-medium">IT企業の平均年収ランキング（有報57社）</Link>をご覧ください（外資系は非公表のため本ランキングには含まれません）。</p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ソフトウェアエンジニアの総報酬中央値：L4 約1,448万円、L5 約1,765万円、L6 約2,602万円です（levels.fyi・2026年10月15日時点、日本拠点Amazon SDE集計・AWS部門を含む）。</li><li>・RSU（株式報酬）は1年目5%／2年目15%／3〜4年目40%ずつのバックロード型のため、初年度は基本給＋サインオンボーナス中心になりやすい点に注意が必要です。</li><li>・ユーザー投稿ベースの集計値で、為替・個人の交渉・RSUの株価により変動しています。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mt-3">有価証券報告書を公表する国内IT企業の実額比較は<Link href="/salary/company-ranking/" className="text-petrol-deep underline font-medium">IT企業の平均年収ランキング（有価証券報告書57社）</Link>をご覧ください（外資系は非公表のため本ランキングには含まれません）。</p>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-4">
@@ -97,10 +97,10 @@ export default function AwsJapanCompanyPage() {
         <section className="mb-12 mt-6">
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <h2 className="text-xl font-bold text-blue-900 mb-3">結論：難易度と向くエンジニア</h2>
-            <p className="text-blue-900 text-sm leading-relaxed mb-3">AWSジャパンのエンジニア中途採用は<strong>最難関クラス</strong>。次の3点が揃う人に向きます。</p>
+            <p className="text-blue-900 text-sm leading-relaxed mb-3">AWSジャパンのエンジニア中途採用は<strong>最難関クラスです</strong>。次の3点が揃う人に向きます。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>① <strong>AWS／分散システム</strong>の設計・運用の実務経験がある</li>
-              <li>② <strong>オーナーシップ</strong>を持って完遂したエピソードをOLPで語れる</li>
+              <li>① <strong>AWS／分散システム</strong>の設計・運用の実務経験があります</li>
+              <li>② <strong>オーナーシップ</strong>を持って完遂したエピソードをOLPで語れます</li>
               <li>③ コーディング／技術面接の基礎と、<strong>英語・文章での論理説明</strong>に抵抗がない</li>
             </ul>
           </div>
@@ -124,7 +124,7 @@ export default function AwsJapanCompanyPage() {
 
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-3">年収データ（出典付き）</h2>
-          <p className="text-slate-600 text-sm mb-4">AWSジャパンは有報非公表のため、levels.fyi（2026年10月15日時点・日本拠点Amazon SDE集計＝AWS部門を含む）の総報酬中央値を掲載します。RSUはバックロード型（1年目5%／2年目15％／3〜4年目40%）です。</p>
+          <p className="text-slate-600 text-sm mb-4">AWSジャパンは有価証券報告書非公表のため、levels.fyi（2026年10月15日時点・日本拠点Amazon SDE集計＝AWS部門を含む）の総報酬中央値を掲載します。RSUはバックロード型（1年目5%／2年目15％／3〜4年目40%）です。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -149,10 +149,10 @@ export default function AwsJapanCompanyPage() {
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-3">AWSの主なエンジニア職種</h2>
           <ul className="list-disc pl-5 space-y-2 text-slate-600 text-sm">
-            <li><strong>ソフトウェア開発エンジニア（SDE）</strong>：AWSのサービス本体を開発。分散システム・大規模運用の経験が活きる。</li>
-            <li><strong>ソリューションアーキテクト（SA）</strong>：顧客企業のクラウド設計・移行を技術支援する顧客向け職種。提案力・英語の比重が高い。</li>
-            <li><strong>テクニカルアカウントマネージャー（TAM）</strong>：契約顧客の運用を継続的に支援。技術＋伴走力。</li>
-            <li><strong>クラウドサポートエンジニア</strong>：技術的な問い合わせ対応。AWS認定資格が活きやすい入口職種。</li>
+            <li><strong>ソフトウェア開発エンジニア（SDE）</strong>：AWSのサービス本体を開発します。分散システム・大規模運用の経験が活きます。</li>
+            <li><strong>ソリューションアーキテクト（SA）</strong>：顧客企業のクラウド設計・移行を技術支援する顧客向け職種です。提案力・英語の比重が高いです。</li>
+            <li><strong>テクニカルアカウントマネージャー（TAM）</strong>：契約顧客の運用を継続的に支援します。技術＋伴走力です。</li>
+            <li><strong>クラウドサポートエンジニア</strong>：技術的な問い合わせ対応しています。AWS認定資格が活きやすい入口職種です。</li>
           </ul>
           <p className="text-slate-600 text-sm mt-3">AWS認定資格の費用・難易度は<Link href="/cert/salary/" className="text-petrol-deep underline">資格別の想定年収・資格手当</Link>や<Link href="/cert/compare/" className="text-petrol-deep underline">IT資格比較</Link>もご覧ください。</p>
         </section>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/housing-allowance/" },
   title: "住宅手当・家賃補助がある企業へ転職【求人の見極め方2026】",
   description:
-    "住宅手当・家賃補助の実態と求人での見極め方を解説。手当の種類・課税の扱い・支給条件の落とし穴、該当しやすい企業タイプ、30-40代の住宅設計まで具体的に。",
+    "住宅手当・家賃補助の実態と求人での見極め方を解説します。手当の種類・課税の扱い・支給条件の落とし穴、該当しやすい企業タイプ、30-40代の住宅設計まで具体的に示します。",
 };
 
 const faqs = [
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "求人票の「住宅手当あり」で気をつける点は？",
-    a: "（1）支給条件：世帯主のみ・賃貸のみ・特定エリア在住者のみ、など条件付きが一般的です。持ち家やパートナーが世帯主だと対象外のことも。（2）支給額と期間：「上限〇万円」「入社〇年まで」など上限・期限の有無を確認。（3）課税の扱い：現金支給か借り上げ社宅かで手取りが変わります。（4）対象拠点：本社勤務のみ・転勤者のみ、などの限定。求人票だけでは判断できないため、面接や内定後の労働条件通知書で必ず確認しましょう。",
+    a: "（1）支給条件：世帯主のみ・賃貸のみ・特定エリア在住者のみ、など条件付きが一般的です。持ち家やパートナーが世帯主だと対象外のことがあります。（2）支給額と期間：「上限〇万円」「入社〇年まで」など上限・期限の有無を確認します。（3）課税の扱い：現金支給か借り上げ社宅かで手取りが変わります。（4）対象拠点：本社勤務のみ・転勤者のみ、などの限定です。求人票だけでは判断できないため、面接や内定後の労働条件通知書で必ず確認しましょう。",
   },
   {
     q: "住宅手当がある企業はどんなタイプが多い？",
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "転勤者向けの住宅補助と一般の住宅手当は別物？",
-    a: "別物として運用している企業が多いです。転勤者向けは「赴任先での借り上げ社宅」「単身赴任手当」など転勤に紐づく制度で、転勤がなくなると支給も止まります。一般の住宅手当は勤務地に関わらず賃貸入居者に支給されるもの。転勤なしを希望する場合は、住宅補助が転勤前提でないかを確認しておくと、入社後のギャップを防げます。",
+    a: "別物として運用している企業が多いです。転勤者向けは「赴任先での借り上げ社宅」「単身赴任手当」など転勤に紐づく制度で、転勤がなくなると支給も止まります。一般の住宅手当は勤務地に関わらず賃貸入居者に支給されるものです。転勤なしを希望する場合は、住宅補助が転勤前提でないかを確認しておくと、入社後のギャップを防げます。",
   },
 ];
 
@@ -53,7 +53,7 @@ export default function HousingAllowancePage() {
     <>
       <ArticleJsonLd
         title="住宅手当・家賃補助がある企業へ転職【求人の見極め方2026】"
-        description="住宅手当・家賃補助の実態と求人での見極め方を解説。課税の扱い・支給条件の落とし穴、該当しやすい企業タイプ、30-40代の住宅設計まで。"
+        description="住宅手当・家賃補助の実態と求人での見極め方を解説します。課税の扱い・支給条件の落とし穴、該当しやすい企業タイプ、30-40代の住宅設計まで。"
         url="/purpose/housing-allowance/"
       />
       <script
@@ -72,7 +72,7 @@ export default function HousingAllowancePage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           住宅手当・家賃補助がある企業へ転職
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 手当の中身を見抜いて「実質手取り」で選ぶ完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 手当の中身を見抜いて「実質手取り」で選ぶガイド</p>
 
         <DataNote
           surveyedAt="2026年6月"
@@ -88,7 +88,7 @@ export default function HousingAllowancePage() {
             住宅手当・家賃補助は、30-40代エンジニアにとって毎月の固定費を大きく左右する重要な福利厚生です。しかし求人票の「住宅手当あり」という一文だけでは、実際にいくら手取りが増えるかは判断できません。<strong>現金支給の手当は課税され、借り上げ社宅は非課税になり得る</strong>という制度上の違いがあり、同じ会社コストでも従業員のメリットは変わります。本記事では、手当の種類・課税の扱い・支給条件の落とし穴を整理し、求人での見極め方を住宅ローンを含む生活設計と結びつけて解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 家賃・住宅ローンの固定費を会社の補助で軽くしたい30-40代</li>
               <li>- 「住宅手当あり」求人の実態（条件・課税）を見抜きたい</li>
@@ -148,7 +148,7 @@ export default function HousingAllowancePage() {
               { num: "2", title: "上限額と支給期間を確認する", desc: "「上限月〇万円」「入社後〇年まで」など、金額と期限の有無で実質メリットが変わります。期限付きの場合は数年後の固定費上昇を織り込んで生活設計を。" },
               { num: "3", title: "現金支給か借り上げ社宅かを確認する", desc: "同じ補助額でも、非課税の借り上げ社宅の方が手取りで有利になりやすいです。求人票に明記がなければ労働条件通知書で確認しましょう。" },
               { num: "4", title: "転勤前提の制度でないか確認する", desc: "転勤者向けの社宅・赴任手当は、転勤がなくなると止まります。転勤なしを希望する場合は、一般の住宅手当が別に用意されているかを確認します。" },
-              { num: "5", title: "基本給への統合トレンドを念頭に置く", desc: "近年は住宅手当を廃止し基本給に統合する企業も増えています。手当がなくても基本給が高ければ総支給で有利なことも。額面と手当を分けて比較しましょう。" },
+              { num: "5", title: "基本給への統合トレンドを念頭に置く", desc: "近年は住宅手当を廃止し基本給に統合する企業も増えています。手当がなくても基本給が高ければ総支給で有利なことがあります。額面と手当を分けて比較しましょう。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -170,10 +170,10 @@ export default function HousingAllowancePage() {
           </p>
           <div className="space-y-3">
             {[
-              { type: "大手・上場企業／日系メーカー", point: "歴史的に社宅・住宅手当制度が整備されているケースが多い。福利厚生に体力がある。" },
-              { type: "インフラ・通信・金融系", point: "安定志向が強く、住宅補助を含む手当が手厚い企業が比較的多い傾向。" },
-              { type: "人材確保を重視するSIer・受託", point: "待遇面での魅力づけとして住宅手当を残す企業がある。配属・転勤条件は要確認。" },
-              { type: "Web系・スタートアップ", point: "住宅手当は縮小・廃止し基本給に統合する流れも。制度の有無は企業差が大きい。" },
+              { type: "大手・上場企業／日系メーカー", point: "歴史的に社宅・住宅手当制度が整備されているケースが多いです。福利厚生に体力があります。" },
+              { type: "インフラ・通信・金融系", point: "安定志向が強く、住宅補助を含む手当が手厚い企業が比較的多い傾向です。" },
+              { type: "人材確保を重視するSIer・受託", point: "待遇面での魅力づけとして住宅手当を残す企業があります。配属・転勤条件は要確認です。" },
+              { type: "Web系・スタートアップ", point: "住宅手当は縮小・廃止し基本給に統合する流れも。制度の有無は企業差が大きいです。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>
@@ -220,7 +220,7 @@ export default function HousingAllowancePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">住宅補助のある企業を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">手当の中身まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">手当の中身まで把握したIT特化型エージェントが、ご自身の条件に合う企業を提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -233,7 +233,7 @@ export default function HousingAllowancePage() {
               { name: "転勤なしのIT求人の探し方", href: "/purpose/no-relocation/" },
               { name: "30代エンジニアの年収相場", href: "/knowledge/salary-30s/" },
               { name: "40代エンジニアの年収相場", href: "/knowledge/salary-40s/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

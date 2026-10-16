@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/employment/seishain/" },
   title: "正社員エンジニアの実態｜年収傾向・社会保険・メリットデメリット",
   description:
-    "正社員エンジニアの定義、年収傾向、社会保険・税の仕組み、エンジニア側・企業側の二軸メリットデメリットを解説。業務委託・派遣・契約社員との違いと、30代・40代が正社員を選ぶ視点を出典付きで整理します。",
+    "正社員エンジニアの定義、年収傾向、社会保険・税の仕組み、エンジニア側・企業側の二軸メリットデメリットを解説します。業務委託・派遣・契約社員との違いと、30代・40代が正社員を選ぶ視点を出典付きで整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：安定と保障の基盤。額面以上の『見えない給与』がある" },
+  { id: "conclusion", label: "結論：安定と保障の基盤です。額面以上の『見えない給与』がある" },
   { id: "what", label: "正社員とは（無期雇用・期間の定めなし）" },
   { id: "salary", label: "年収傾向（公的データ・職種別）" },
   { id: "insurance", label: "社会保険・税の仕組み（会社が半分負担）" },
@@ -108,7 +108,7 @@ export default function SeishainPage() {
     <>
       <ArticleJsonLd
         title="正社員エンジニアの実態｜年収傾向・社会保険・メリットデメリット"
-        description="正社員エンジニアの定義・年収傾向・社会保険・二軸メリットデメリットを出典付きで解説。業務委託・派遣・契約社員との違いと30代40代の選び方も整理。"
+        description="正社員エンジニアの定義・年収傾向・社会保険・二軸メリットデメリットを出典付きで解説。業務委託・派遣・契約社員との違いと30代40代の選び方も整理します。"
         url="/employment/seishain/"
       />
       <script
@@ -147,14 +147,14 @@ export default function SeishainPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：安定と保障の基盤。額面以上の「見えない給与」がある</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：安定と保障の基盤です。額面以上の「見えない給与」がある</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               正社員は、単価では業務委託に劣ることがあっても、社会保険の会社負担・雇用安定・賞与・退職金・福利厚生という「見えない給与」を含めると、総合的な手取りと安心感で強みがあります。額面だけで他の雇用形態と比べるのではなく、会社負担分と保障を含めて比較するのが正しい見方です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>無期雇用（期間の定めなし）で、収入と立場が安定しやすい。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>健康保険・厚生年金を会社が約半分負担（労使折半）。雇用保険・労災もある。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>住宅ローン等の社会的信用を得やすく、ライフイベントに強い。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>無期雇用（期間の定めなし）で、収入と立場が安定しやすいです。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>健康保険・厚生年金を会社が約半分負担です（労使折半）。雇用保険・労災もあります。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>住宅ローン等の社会的信用を得やすく、ライフイベントに強いです。</li>
             </ul>
           </div>
         </section>
@@ -220,9 +220,9 @@ export default function SeishainPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-5">
             <p className="text-sm font-bold text-slate-700 mb-3">正社員の保険・税のポイント</p>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険・厚生年金の保険料は会社と本人で<strong>折半（労使折半）</strong>。実質的に会社が約半分を負担している</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>厚生年金は国民年金に上乗せされるため、将来の年金額が手厚くなりやすい</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>雇用保険に加入し、失業時の基本手当（失業給付）の対象になる</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険・厚生年金の保険料は会社と本人で<strong>折半です（労使折半）</strong>。実質的に会社が約半分を負担しています</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>厚生年金は国民年金に上乗せされるため、将来の年金額が手厚くなりやすいです</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>雇用保険に加入し、失業時の基本手当（失業給付）の対象になります</li>
               <li className="flex gap-2"><span className="text-slate-400">▸</span>所得税・住民税は会社が源泉徴収・年末調整するため、確定申告の手間が原則不要</li>
             </ul>
           </div>
@@ -294,22 +294,22 @@ export default function SeishainPage() {
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">正社員</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">無期・直接雇用の労働者</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">社会保険を会社が折半。安定・保障に厚い</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">社会保険を会社が折半します。安定・保障に厚い</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">契約社員</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">有期・直接雇用の労働者</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">社会保険あり。5年で無期転換ルールの対象</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">社会保険があります。5年で無期転換ルールの対象</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">派遣</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">派遣会社の労働者（指揮命令は派遣先）</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">派遣会社の社会保険。同一派遣先は原則3年</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">派遣会社の社会保険です。同一派遣先は原則3年</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">業務委託</td>
                   <td className="px-4 py-3 border border-slate-200 text-slate-600">事業主（労働者ではない）</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">国保・国民年金が基本。単価・自由度が高い</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">国保・国民年金が基本です。単価・自由度が高い</td>
                 </tr>
               </tbody>
             </table>

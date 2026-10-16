@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/sapporo/" },
   title: "札幌のIT転職事情【2026年】リモート移住と北海道の選択肢",
   description:
-    "札幌・北海道のIT・Webエンジニア転職を解説。リモート移住先としての特徴、ニアショア開発、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを30代・40代向けに整理します。",
+    "札幌・北海道のIT・Webエンジニア転職を解説します。リモート移住先としての特徴、ニアショア開発、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを30代・40代向けに整理します。",
 };
 
 const toc = [
@@ -37,10 +37,10 @@ const fitNo = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手。ポテンシャル採用も多い層。" },
-  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層。" },
-  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層。" },
-  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も多い層です。" },
+  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
+  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層です。" },
+  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
 ];
 
 const agents = [
@@ -48,25 +48,25 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して札幌在住のまま首都圏企業を狙う転職と相性が良い。高年収求人比率の高さも特徴とされる。",
+      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して札幌在住のまま首都圏企業を狙う転職と相性が良いです。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型。IT・ゲーム領域に強く、地方在住からの相談に向く。レスポンスの速さに定評があり、未経験歓迎求人も比較的多い。",
+      "全国47都道府県57拠点を構える総合型です。IT・ゲーム領域に強く、地方在住からの相談に向きます。レスポンスの速さに定評があり、未経験歓迎求人も比較的多いです。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型。検索・エージェント・スカウトのハイブリッド型で、札幌の地元求人から首都圏フルリモート求人まで幅広く当たりやすい。求人量の多さが強み。",
+      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、札幌の地元求人から首都圏フルリモート求人まで幅広く当たりやすいです。求人量の多さが強みです。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     point:
-      "ハイクラス・スカウト型。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、札幌在住のまま探したい人に向く。市場価値を客観的に把握しやすい。",
+      "ハイクラス・スカウト型です。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、札幌在住のまま探したい人に向きます。市場価値を客観的に把握しやすいです。",
   },
 ];
 
@@ -116,7 +116,7 @@ export default function SapporoAreaPage() {
     <>
       <ArticleJsonLd
         title="札幌のIT転職事情【2026年】リモート移住と北海道の選択肢"
-        description="札幌・北海道のIT・Webエンジニア転職を解説。リモート移住先としての特徴、ニアショア開発、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを紹介します。"
+        description="札幌・北海道のIT・Webエンジニア転職を解説します。リモート移住先としての特徴、ニアショア開発、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを紹介します。"
         url="/area/sapporo/"
       />
       <script
@@ -162,9 +162,9 @@ export default function SapporoAreaPage() {
               札幌のIT転職は「リモート移住で生活の質を上げたいエンジニア」と相性の良い市場です。地元のSIer・Web・ニアショア開発の求人に加え、首都圏企業のフルリモート求人を組み合わせることで、年収と暮らしやすさのバランスを取りやすくなります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・都市機能を保ちながら住居費を抑えやすく、移住の魅力がある</li>
-              <li>・ニアショア開発を含め、首都圏案件を北海道で担う選択肢がある</li>
-              <li>・首都圏フルリモート求人の併用で年収水準の選択肢が広がる</li>
+              <li>・都市機能を保ちながら住居費を抑えやすく、移住の魅力があります</li>
+              <li>・ニアショア開発を含め、首都圏案件を北海道で担う選択肢があります</li>
+              <li>・首都圏フルリモート求人の併用で年収水準の選択肢が広がります</li>
             </ul>
           </div>
         </section>
@@ -224,19 +224,19 @@ export default function SapporoAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 札幌中心部の都市機能を活かしつつ働ける。地域に根ざしたキャリアを重視する人向け。冬季の通勤負担は出社頻度で調整します。
+                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 札幌中心部の都市機能を活かしつつ働けます。地域に根ざしたキャリアを重視する人向けです。冬季の通勤負担は出社頻度で調整します。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>ニアショア開発拠点でハイブリッド:</strong> 首都圏案件を札幌で担いながら、月数回の出社・出張で連携する働き方。地方にいながら首都圏の開発に関わりたい人向けです。
+                <strong>ニアショア開発拠点でハイブリッド:</strong> 首都圏案件を札幌で担いながら、月数回の出社・出張で連携する働き方です。地方にいながら首都圏の開発に関わりたい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>札幌在住×首都圏企業のフルリモート:</strong> 札幌の生活コストを保ちつつ首都圏水準の年収を狙う選択肢。天候の影響を受けにくいのも利点です。
+                <strong>札幌在住×首都圏企業のフルリモート:</strong> 札幌の生活コストを保ちつつ首都圏水準の年収を狙う選択肢です。天候の影響を受けにくいのも利点です。
                 <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
                 や
                 <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
@@ -317,8 +317,8 @@ export default function SapporoAreaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職・移住の進め方</h2>
           <div className="space-y-3">
             {[
-              { step: "1", title: "軸を決める", desc: "「地元企業」「ニアショア開発」「首都圏フルリモート」のどれを中心に据えるかを先に決める。提案される求人の質が変わります。" },
-              { step: "2", title: "エージェントを2〜3社登録", desc: "フルリモートに強いIT特化型と、全国対応の総合型を組み合わせ、ハイクラスを狙うならビズリーチも加える。" },
+              { step: "1", title: "軸を決める", desc: "「地元企業」「ニアショア開発」「首都圏フルリモート」のどれを中心に据えるかを先に決めます。提案される求人の質が変わります。" },
+              { step: "2", title: "エージェントを2〜3社登録", desc: "フルリモートに強いIT特化型と、全国対応の総合型を組み合わせ、ハイクラスを狙うならビズリーチも加えます。" },
               { step: "3", title: "出社要件・冬季の通勤を確認", desc: "求人ごとの出社頻度を確認し、移住を伴う場合は冬季の通勤・住居費も含めて試算します。" },
               { step: "4", title: "職務経歴書で強みを言語化", desc: "要件定義から実装まで担える幅広さやリーダー経験など、評価されやすい要素を具体的に示します。" },
               { step: "5", title: "額面＋生活コストで意思決定", desc: "複数の提案を比べ、額面だけでなく生活コスト・働き方・天候を含めて総合判断します。" },
@@ -379,13 +379,13 @@ export default function SapporoAreaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">30代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                技術の市場価値を高めつつ、フルリモートで首都圏案件を経験するか、ニアショア拠点で上流から担う経験を積むかを意識的に選ぶフェーズ。生活基盤を整えながらキャリアの幅を広げやすい時期です。
+                技術の市場価値を高めつつ、フルリモートで首都圏案件を経験するか、ニアショア拠点で上流から担う経験を積むかを意識的に選ぶフェーズです。生活基盤を整えながらキャリアの幅を広げやすい時期です。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">40代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                マネジメントや高度専門など役割で評価される段階。ハイクラスのリモート求人で年収を維持しつつ、移住によるQOL向上を両立できる形を選ぶのが現実的です。
+                マネジメントや高度専門など役割で評価される段階です。ハイクラスのリモート求人で年収を維持しつつ、移住によるQOL向上を両立できる形を選ぶのが現実的です。
               </p>
             </div>
           </div>

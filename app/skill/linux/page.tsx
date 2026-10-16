@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const PAGE_TITLE = "Linuxスキルで転職する完全ガイド｜LPIC・年収・資格ルート【2026年】";
+const PAGE_TITLE = "Linuxスキルで転職するガイド｜LPIC・年収・資格ルート【2026年】";
 const PAGE_DESC =
-  "Linuxスキルを軸にした転職を2026年最新データで解説。LPIC/LinuCの資格体系、LPIC→CCNA→AWSで年収600〜900万円を狙う王道ルート、具体スキル、未経験でのLPIC活用、インフラ・ネットワークとの違いを30代・40代向けにまとめました。";
+  "Linuxスキルを軸にした転職を2026年最新データで解説します。LPIC/LinuCの資格体系、LPIC→CCNA→AWSで年収600〜900万円を狙う代表的なルート、具体スキル、未経験でのLPIC活用、インフラ・ネットワークとの違いを30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/linux/" },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "diff", label: "まず：インフラ・ネットワークとの違い" },
-  { id: "conclusion", label: "結論：Linuxスキルでの転職の攻め方" },
+  { id: "conclusion", label: "結論：Linuxスキルでの転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "cert", label: "LPIC / LinuC の資格体系" },
   { id: "route", label: "LPIC→CCNA→AWSの段階資格ルート" },
@@ -30,7 +30,7 @@ const toc = [
 const faqs = [
   {
     q: "Linuxスキルでの転職は、インフラ・ネットワークエンジニアと何が違いますか？",
-    a: "Linuxは「サーバOSを扱う基盤スキル」であり、インフラエンジニアやネットワークエンジニアという職種を支える土台です。インフラエンジニアはサーバ・OS・ミドルウェア全般、ネットワークエンジニアはルーター・スイッチ等の通信機器を主に扱います。Linuxスキルはその中でサーバ運用・構築の中核を担い、どちらの職種でも武器になります。本ページはLinux（とLPIC）を軸にした入り方・伸ばし方に絞り、職種としての全体像はインフラ・ネットワークの各ガイドへ送ります。",
+    a: "Linuxは「サーバOSを扱う基盤スキル」であり、インフラエンジニアやネットワークエンジニアという職種を支える土台です。インフラエンジニアはサーバ・OS・ミドルウェア全般、ネットワークエンジニアはルーター・スイッチ等の通信機器を主に扱います。Linuxスキルはその中でサーバ運用・構築の中核を担い、どちらの職種でも強みになります。本ページはLinux（とLPIC）を軸にした入り方・伸ばし方に絞り、職種としての全体像はインフラ・ネットワークの各ガイドへ送ります。",
   },
   {
     q: "LPICとLinuCの違いは何ですか？",
@@ -38,10 +38,10 @@ const faqs = [
   },
   {
     q: "Linux系の年収はどのくらいですか？",
-    a: "Linux専用の公的な平均年収統計は確認できていないため、近接区分の参考値で見ると、求人ボックスのWebエンジニア平均は約462万円です（2026年6月時点・動的に変動する値のため参考）。ただしLinux条件の求人はインフラ運用が中心でやや低めに出やすく、ここから資格ルート（LPIC→CCNA→AWS）でクラウド・設計領域へ進むと、媒体情報では年収600〜900万円が王道レンジとして語られます（各社推定・幅あり）。マイナビでは「LPIC・初年度年収900万円以上」の特集求人も見られます。",
+    a: "Linux専用の公的な平均年収統計は確認できていないため、近接区分の参考値で見ると、求人ボックスのWebエンジニア平均は約462万円です（2026年6月時点・動的に変動する値のため参考）。ただしLinux条件の求人はインフラ運用が中心でやや低めに出やすく、ここから資格ルート（LPIC→CCNA→AWS）でクラウド・設計領域へ進むと、媒体情報では年収600〜900万円が代表的な方法レンジとして語られます（各社推定・幅あり）。マイナビでは「LPIC・初年度年収900万円以上」の特集求人も見られます。",
   },
   {
-    q: "LPIC→CCNA→AWSのルートはなぜ王道なのですか？",
+    q: "LPIC→CCNA→AWSのルートはなぜ代表的な方法なのですか？",
     a: "Linux（サーバ）→ネットワーク→クラウドという、現代のインフラに必要な3層を順に押さえられるからです。LPICでサーバOSの基礎を固め、CCNAでネットワークを理解し、AWSでクラウド設計に進む流れは、運用から構築・設計へキャリアを上げる自然な順序です。この3つを揃えると、インフラ運用の入口（年収やや低め）から、クラウドインフラの設計（600〜900万円帯）まで道筋が見えます（各社推定・幅あり）。",
   },
   {
@@ -59,8 +59,8 @@ const faqs = [
 ];
 
 const certTable = [
-  ["レベル1（LPIC-1 / LinuC-1）", "基本操作・システム管理の基礎", "未経験〜運用の入口。基礎証明として最初に狙う"],
-  ["レベル2（LPIC-2 / LinuC-2）", "サーバ構築・ネットワーク・運用管理", "構築を任される中核層。転職での評価が一段上がる"],
+  ["レベル1（LPIC-1 / LinuC-1）", "基本操作・システム管理の基礎", "未経験〜運用の入口です。基礎証明として最初に狙う"],
+  ["レベル2（LPIC-2 / LinuC-2）", "サーバ構築・ネットワーク・運用管理", "構築を任される中核層です。転職での評価が一段上がる"],
   ["レベル3（LPIC-3 / LinuC-3）", "セキュリティ・大規模・混在環境等の専門", "上級・スペシャリスト領域の専門性を示す"],
 ];
 
@@ -92,7 +92,7 @@ export default function LinuxSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          Linuxスキルで転職する完全ガイド｜LPIC・年収・資格ルート【2026年】
+          Linuxスキルで転職するガイド｜LPIC・年収・資格ルート【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | Linuxスキルを活かした転職を30代・40代エンジニア向けに解説
@@ -108,7 +108,7 @@ export default function LinuxSkillPage() {
             "求人ボックス 給料ナビ Webエンジニア（2026年6月時点・動的値・近接区分の参考）",
             "マイナビ転職 求人特集（2026年6月時点）",
             "LPI / LPI-Japan 各公式（LPIC / LinuC）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -134,9 +134,9 @@ export default function LinuxSkillPage() {
               Linuxは「職種」ではなく、インフラ・ネットワークといった職種を支える<strong>基盤スキル</strong>です。最初にこの位置づけを押さえると、学習と求人選びの軸が定まります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li><strong>Linux（本ページ）</strong>＝サーバOSを扱う土台スキル。LPIC/LinuCで証明し、運用・構築の中核を担う。</li>
-              <li><strong>インフラエンジニア</strong>＝サーバ・OS・ミドルウェア全般を扱う職種。Linuxはその主要スキル。</li>
-              <li><strong>ネットワークエンジニア</strong>＝ルーター・スイッチ等の通信機器を主に扱う職種。</li>
+              <li><strong>Linux（本ページ）</strong>＝サーバOSを扱う土台スキルです。LPIC/LinuCで証明し、運用・構築の中核を担います。</li>
+              <li><strong>インフラエンジニア</strong>＝サーバ・OS・ミドルウェア全般を扱う職種です。Linuxはその主要スキルです。</li>
+              <li><strong>ネットワークエンジニア</strong>＝ルーター・スイッチ等の通信機器を主に扱う職種です。</li>
             </ul>
             <p className="text-slate-700 leading-relaxed mt-3 text-sm">
               職種としての全体像は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>・<Link href="/skill/network/" className="text-petrol hover:underline">ネットワークエンジニア転職ガイド</Link>へ。資格を深掘りするなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC資格ガイド</Link>が直接の続きです。本ページはLinuxスキルを軸にした入り方・伸ばし方に絞ります。
@@ -146,15 +146,15 @@ export default function LinuxSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Linuxスキルでの転職の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Linuxスキルでの転職の進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              Linuxスキルでの転職は、<strong>「コマンドが打てる」から「サーバを設計・運用し、クラウドへ接続できる」へ役割を上げて見せられるか</strong>で年収が大きく変わります。攻め方は次の3点です。
+              Linuxスキルでの転職は、<strong>「コマンドが打てる」から「サーバを設計・運用し、クラウドへ接続できる」へ役割を上げて見せられるか</strong>で年収が大きく変わります。進め方は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>LPIC/LinuC</strong>で基礎を証明し、運用の入口を確保する</li>
-              <li>② <strong>LPIC→CCNA→AWS</strong>の段階ルートで600〜900万円帯を狙う（各社推定・幅あり）</li>
-              <li>③ <strong>シェル・ミドルウェア・セキュリティ・コンテナ土台</strong>まで広げて設計力を示す</li>
+              <li>① <strong>LPIC/LinuC</strong>で基礎を証明し、運用の入口を確保します</li>
+              <li>② <strong>LPIC→CCNA→AWS</strong>の段階ルートで600〜900万円帯を狙います（各社推定・幅あり）</li>
+              <li>③ <strong>シェル・ミドルウェア・セキュリティ・コンテナ土台</strong>まで広げて設計力を示します</li>
             </ul>
           </div>
         </section>
@@ -166,10 +166,10 @@ export default function LinuxSkillPage() {
             Linux専用の年収統計は確認できていないため、近接区分の参考値で見ます。求人ボックスのWebエンジニア平均は<strong>約462万円</strong>です（2026年6月時点・動的に変動する値のため参考。Linux専用ではなく近接区分の代用です）。ただしLinux条件の求人はインフラ運用が中心のため、この近接値よりやや低めに出やすい点に注意してください。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            一方で、資格ルートで運用から構築・クラウド設計へ進むと水準は上がります。媒体情報では<strong>LPIC→CCNA→AWSで年収600〜900万円</strong>が王道レンジとして語られ（各社推定・幅あり・単一の断定値ではありません）、マイナビ転職では「LPIC・初年度年収900万円以上」の特集求人も見られます（2026年6月時点）。
+            一方で、資格ルートで運用から構築・クラウド設計へ進むと水準は上がります。媒体情報では<strong>LPIC→CCNA→AWSで年収600〜900万円</strong>が代表的な方法レンジとして語られ（各社推定・幅あり・単一の断定値ではありません）、マイナビ転職では「LPIC・初年度年収900万円以上」の特集求人も見られます（2026年6月時点）。
           </p>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: 近接平均は求人ボックス給料ナビ（2026年6月時点・動的値・参考）。資格ルートの年収レンジは各社の市場情報に基づく推定（各社推定・幅あり）。高年収特集はマイナビ転職（2026年6月時点・閲覧時点で変動）。市場全体では経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しており、インフラ人材の需給も逼迫傾向が続く前提で語られます。
+            出典: 近接平均は求人ボックス給料ナビ（2026年6月時点・動的値・参考）。資格ルートの年収レンジは各社の市場情報に基づく推定です（各社推定・幅あり）。高年収特集はマイナビ転職します（2026年6月時点・閲覧時点で変動）。市場全体では経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しており、インフラ人材の需給も逼迫傾向が続く前提で語られます。
           </p>
         </section>
 
@@ -199,7 +199,7 @@ export default function LinuxSkillPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mb-3">出典: LPI（lpi.org）・LPI-Japan（linuc.org）各公式（2026年6月時点）。海外も視野ならLPIC、国内重視ならLinuCが一つの目安。</p>
+          <p className="text-xs text-slate-500 mb-3">出典: LPI（lpi.org）・LPI-Japan（linuc.org）各公式（2026年6月時点）。海外も視野ならLPIC、国内重視ならLinuCが一つの目安です。</p>
           <p className="text-sm text-slate-600 leading-relaxed">
             資格の詳細・学習順は<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC資格ガイド</Link>で解説しています。レベル2まで取得すると、構築を任される中核層として転職での評価が一段上がります。
           </p>
@@ -209,13 +209,13 @@ export default function LinuxSkillPage() {
         <section id="route" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">LPIC→CCNA→AWSの段階資格ルート</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Linuxを起点に年収600〜900万円帯（各社推定・幅あり）を狙う王道は、サーバ→ネットワーク→クラウドの3層を順に押さえるルートです。
+            Linuxを起点に年収600〜900万円帯（各社推定・幅あり）を狙う代表的な方法は、サーバ→ネットワーク→クラウドの3層を順に押さえるルートです。
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "LPIC / LinuC（サーバOS）", d: "Linuxの基礎〜構築を固める。運用の入口求人に入り、手を動かす経験を積む。" },
-              { n: "STEP 2", t: "CCNA（ネットワーク）", d: "ルーティング・スイッチングなどネットワークの基礎を習得。サーバとネットワークを両方語れる人材になる。" },
-              { n: "STEP 3", t: "AWS（クラウド）", d: "クラウドインフラの設計・構築へ。オンプレ運用経験を移行の武器に変え、設計領域で年収を引き上げる。" },
+              { n: "STEP 1", t: "LPIC / LinuC（サーバOS）", d: "Linuxの基礎〜構築を固めます。運用の入口求人に入り、手を動かす経験を積みます。" },
+              { n: "STEP 2", t: "CCNA（ネットワーク）", d: "ルーティング・スイッチングなどネットワークの基礎を習得します。サーバとネットワークを両方語れる人材になります。" },
+              { n: "STEP 3", t: "AWS（クラウド）", d: "クラウドインフラの設計・構築へ。オンプレ運用経験を移行の強みに変え、設計領域で年収を引き上げます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -235,15 +235,15 @@ export default function LinuxSkillPage() {
         <section id="skill" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">身につける具体スキル</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Linuxを土台に評価される実務スキルは次の通りです。資格学習と並行して手を動かすことが重要です。
+            Linuxを土台に評価される実務スキルは次のとおりです。資格学習と並行して手を動かすことが重要です。
           </p>
           <div className="space-y-3">
             {[
-              { t: "シェル / bash", d: "コマンド操作とシェルスクリプトによる自動化。日々の運用効率を左右する基礎中の基礎。" },
-              { t: "サーバ構築・運用", d: "OSインストール、ユーザ・権限管理、プロセス・サービス管理、ログ監視、障害対応。" },
-              { t: "ミドルウェア", d: "Webサーバ（Apache/Nginx）、DB、各種ミドルウェアの設定・運用。アプリを動かす土台。" },
-              { t: "セキュリティ", d: "ファイアウォール、SSH、権限設計、脆弱性対応などサーバの堅牢化。" },
-              { t: "コンテナの土台", d: "Docker等の前提となるLinuxの仕組み（名前空間・cgroups等）の理解。クラウド・モダン運用への接続点。" },
+              { t: "シェル / bash", d: "コマンド操作とシェルスクリプトによる自動化です。日々の運用効率を左右する基礎中の基礎です。" },
+              { t: "サーバ構築・運用", d: "OSインストール、ユーザ・権限管理、プロセス・サービス管理、ログ監視、障害対応です。" },
+              { t: "ミドルウェア", d: "Webサーバ（Apache/Nginx）、DB、各種ミドルウェアの設定・運用です。アプリを動かす土台です。" },
+              { t: "セキュリティ", d: "ファイアウォール、SSH、権限設計、脆弱性対応などサーバの堅牢化です。" },
+              { t: "コンテナの土台", d: "Docker等の前提となるLinuxの仕組み（名前空間・cgroups等）の理解です。クラウド・モダン運用への接続点です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -261,9 +261,9 @@ export default function LinuxSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "LPIC-1取得＋自宅構築", d: "LPIC-1を学びつつ、自宅PCや無料枠でLinuxサーバを立て、基本操作を体に入れる。" },
-              { n: "STEP 2", t: "運用の入口求人へ", d: "資格＋手を動かした経験を職務経歴書に落とし込み、インフラ運用ポジションに応募する。" },
-              { n: "STEP 3", t: "LPIC-2＋資格ルートへ", d: "実務を積みながらLPIC-2、続いてCCNA・AWSへ。運用から構築・設計へキャリアを上げる。" },
+              { n: "STEP 1", t: "LPIC-1取得＋自宅構築", d: "LPIC-1を学びつつ、自宅PCや無料枠でLinuxサーバを立て、基本操作を体に入れます。" },
+              { n: "STEP 2", t: "運用の入口求人へ", d: "資格＋手を動かした経験を職務経歴書に落とし込み、インフラ運用ポジションに応募します。" },
+              { n: "STEP 3", t: "LPIC-2＋資格ルートへ", d: "実務を積みながらLPIC-2、続いてCCNA・AWSへ。運用から構築・設計へキャリアを上げます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -288,17 +288,17 @@ export default function LinuxSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化。インフラ・クラウド求人を技術に明るいアドバイザー経由で探せます。設計領域へ進みたい場合に有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化です。インフラ・クラウド求人を技術に明るいアドバイザー経由で探せます。設計領域へ進みたい場合に有効です。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
-              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数。運用の入口から構築・設計まで幅広く比較したい場合の併用先です。</p>
+              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数です。運用の入口から構築・設計まで幅広く比較したい場合の併用先です。</p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">マイナビITエージェント</h3>
-              <p className="text-sm text-slate-600 mb-2">幅広い求人と20〜30代のサポートに定評。資格を活かした入口求人を探しやすいサービスです。</p>
+              <p className="text-sm text-slate-600 mb-2">幅広い求人と20〜30代のサポートに定評があります。資格を活かした入口求人を探しやすいサービスです。</p>
               <Link href="/review/mynavi-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -343,7 +343,7 @@ export default function LinuxSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Linuxスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            インフラ・クラウド求人に強いIT特化型エージェントで、あなたのLinuxスキルの市場価値を確認しましょう。
+            インフラ・クラウド求人に強いIT特化型エージェントで、ご自身のLinuxスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

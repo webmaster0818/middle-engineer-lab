@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/self-analysis/" },
   title: "エンジニアの自己分析【キャリア棚卸しワークシート】",
   description:
-    "30代・40代エンジニア向けの自己分析ガイド。キャリアの棚卸しワークシート、Will-Can-Must・モチベーショングラフ・価値観リストなど、書き込むだけで強みと方向性が見える実践フレームワークを紹介します。",
+    "30代・40代エンジニア向けの自己分析ガイドです。キャリアの棚卸しワークシート、Will-Can-Must・モチベーショングラフ・価値観リストなど、書き込むだけで強みと方向性が見える実践フレームワークを紹介します。",
 };
 
 const toc = [
@@ -70,7 +70,7 @@ export default function SelfAnalysisPage() {
     <>
       <ArticleJsonLd
         title="エンジニアの自己分析【キャリア棚卸しワークシート】"
-        description="30代・40代エンジニア向けの自己分析ガイド。キャリアの棚卸しワークシート、Will-Can-Must・モチベーショングラフ・価値観リストなど、書き込むだけで強みと方向性が見える実践フレームワークを紹介します。"
+        description="30代・40代エンジニア向けの自己分析ガイドです。キャリアの棚卸しワークシート、Will-Can-Must・モチベーショングラフ・価値観リストなど、書き込むだけで強みと方向性が見える実践フレームワークを紹介します。"
         url="/knowledge/self-analysis/"
       />
       <script
@@ -98,7 +98,7 @@ export default function SelfAnalysisPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアの自己分析は何をすればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: キャリアの棚卸し・Will-Can-Must・モチベーショングラフ・価値観リストの順に手を動かせば、自分の強みと方向性が自然に見えてきます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・30代・40代は経験が長い分、棚卸しをすると強みが埋もれていることが多い</li><li>・Will（やりたい）・Can（できる）・Must（求められる）の3つが重なる領域が、長く伸ばせるキャリアの軸</li><li>・分析結果は職務経歴書の自己PR・志望動機・面接回答の一貫した軸にする</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・30代・40代は経験が長い分、棚卸しをすると強みが埋もれていることが多いです</li><li>・Will（やりたい）・Can（できる）・Must（求められる）の3つが重なる領域が、長く伸ばせるキャリアの軸</li><li>・分析結果は職務経歴書の自己PR・志望動機・面接回答の一貫した軸にします</li></ul>
           </div>
         </section>
 
@@ -153,10 +153,10 @@ export default function SelfAnalysisPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">2. 自己分析の進め方（4ステップ）</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "事実を棚卸しする", desc: "全プロジェクトを書き出し、使用技術・役割・成果・学びを記録（→ ワークシート3）。" },
-              { num: "2", title: "感情を振り返る", desc: "モチベーションの波を可視化し、力を発揮する／消耗する条件を把握（→ ワークシート5）。" },
-              { num: "3", title: "軸を言語化する", desc: "Will-Can-Mustと価値観リストで、やりたいこと・できること・大切にしたいことを明文化（→ ワークシート4・6）。" },
-              { num: "4", title: "ストーリーに統合する", desc: "強み・実績・価値観・方向性を1本の物語にまとめ、書類と面接の回答に落とし込む（→ セクション8）。" },
+              { num: "1", title: "事実を棚卸しする", desc: "全プロジェクトを書き出し、使用技術・役割・成果・学びを記録します（→ ワークシート3）。" },
+              { num: "2", title: "感情を振り返る", desc: "モチベーションの波を可視化し、力を発揮する／消耗する条件を把握します（→ ワークシート5）。" },
+              { num: "3", title: "軸を言語化する", desc: "Will-Can-Mustと価値観リストで、やりたいこと・できること・大切にしたいことを明文化します（→ ワークシート4・6）。" },
+              { num: "4", title: "ストーリーに統合する", desc: "強み・実績・価値観・方向性を1本の物語にまとめ、書類と面接の回答に落とし込みます（→ セクション8）。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -206,9 +206,9 @@ export default function SelfAnalysisPage() {
           </p>
           <div className="grid gap-4 sm:grid-cols-3">
             {[
-              { t: "Will（やりたい）", d: "技術的な興味・挑戦したい領域・なりたい姿。例：『大規模分散システムの設計に深く関わりたい』", c: "bg-petrol-soft text-blue-800" },
-              { t: "Can（できる）", d: "実務経験のあるスキル・実績・周囲に頼られること。棚卸しワークシートから抽出する。", c: "bg-emerald-50 text-emerald-800" },
-              { t: "Must（求められる）", d: "求人市場でニーズが高い技術・役割。エージェント面談で客観的に把握する。", c: "bg-amber-50 text-amber-800" },
+              { t: "Will（やりたい）", d: "技術的な興味・挑戦したい領域・なりたい姿です。例：『大規模分散システムの設計に深く関わりたい』", c: "bg-petrol-soft text-blue-800" },
+              { t: "Can（できる）", d: "実務経験のあるスキル・実績・周囲に頼られることが重要です。棚卸しワークシートから抽出します。", c: "bg-emerald-50 text-emerald-800" },
+              { t: "Must（求められる）", d: "求人市場でニーズが高い技術・役割です。エージェント面談で客観的に把握します。", c: "bg-amber-50 text-amber-800" },
             ].map((w, i) => (
               <div key={i} className={`rounded-xl p-5 ${w.c}`}>
                 <h3 className="font-bold mb-2">{w.t}</h3>
@@ -217,7 +217,7 @@ export default function SelfAnalysisPage() {
             ))}
           </div>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-4">
-            <p className="text-sm text-slate-600"><strong>重なりの読み解き方：</strong>Will×Canだけで動くと『やりたいけど需要がない』、Can×Mustだけだと『できるけど情熱が続かない』。3つが重なる領域こそ、長く伸ばせるキャリアの軸です。Mustはひとりではわかりにくいので<Link href="/knowledge/market-value/" className="text-petrol underline">市場価値の調べ方</Link>も併用しましょう。</p>
+            <p className="text-sm text-slate-600"><strong>重なりの読み解き方：</strong>Will×Canだけで動くと『やりたいけど需要がない』、Can×Mustだけだと『できるけど情熱が続かない』。3つが重なる領域こそ、長く伸ばせるキャリアの軸です。Mustはひとりでは分かりにくいので<Link href="/knowledge/market-value/" className="text-petrol underline">市場価値の調べ方</Link>も併用しましょう。</p>
           </div>
         </section>
 
@@ -260,7 +260,7 @@ export default function SelfAnalysisPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            選んだ価値観は、求人を比較する際のスコアリング基準にもなります。例えば『裁量＞年収＞WLB』の人と『年収＞安定＞WLB』の人では、同じ求人でも最適解が変わります。関連: <Link href="/knowledge/work-life-balance/" className="text-petrol underline">ワークライフバランス</Link>。
+            選んだ価値観は、求人を比較する際のスコアリング基準にもなります。例えば『裁量＞年収＞WLB』の人と『年収＞安定＞WLB』の人では、同じ求人でも最適解が変わります。関連: <Link href="/knowledge/work-life-balance/" className="text-petrol underline">ワークライフバランスです</Link>。
           </p>
         </section>
 
@@ -273,7 +273,7 @@ export default function SelfAnalysisPage() {
           <div className="space-y-3">
             {[
               { q: "周囲から『助かった』『さすが』と言われた場面は？", a: "→ 言語化力・調整力・トラブル対応力など、無自覚の強みのヒント" },
-              { q: "自分にとっては当たり前だが、周りは苦労していることは？", a: "→ それがあなたの相対的な強み" },
+              { q: "自分にとっては当たり前だが、周りは苦労していることは？", a: "→ それがご自身の相対的な強み" },
               { q: "頼られて回ってくる仕事は？", a: "→ 周囲が認めている得意領域" },
               { q: "非エンジニアに説明して感謝された経験は？", a: "→ 翻訳力・ドキュメント力という希少スキル" },
             ].map((s, i) => (
@@ -295,11 +295,11 @@ export default function SelfAnalysisPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">志望動機・面接回答の一貫性に反映</h3>
-              <p className="text-sm text-petrol-deep">Will-Can-Mustと価値観を使い、『なぜ転職するか・なぜこの会社か・今後どうなりたいか』を一本の線でつなぎます。関連: <Link href="/knowledge/motivation/" className="text-petrol-deep underline">志望動機の作り方</Link>。</p>
+              <p className="text-sm text-petrol-deep">Will-Can-Mustと価値観を使い、『なぜ転職するか・なぜこの会社か・今後どうなりたいか』を一本の線でつなぎます。関連: <Link href="/knowledge/motivation/" className="text-petrol-deep underline">志望動機の作り方です</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">エージェント面談で軸を共有</h3>
-              <p className="text-sm text-petrol-deep">価値観の優先順位を伝えると、ミスマッチの少ない求人を紹介してもらえます。関連: <Link href="/knowledge/agent-first-meeting/" className="text-petrol-deep underline">初回面談の準備</Link>。</p>
+              <p className="text-sm text-petrol-deep">価値観の優先順位を伝えると、ミスマッチの少ない求人を紹介してもらえます。関連: <Link href="/knowledge/agent-first-meeting/" className="text-petrol-deep underline">初回面談の準備です</Link>。</p>
             </div>
           </div>
         </section>
@@ -310,11 +310,11 @@ export default function SelfAnalysisPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：方向性の『選択』を意識する</h3>
-              <p className="text-sm text-petrol-deep">30代は専門を深めるか、マネジメントへ広げるかの分岐点です。棚卸しで『どちらに手応えを感じたか』を見極めると判断しやすくなります。関連: <Link href="/knowledge/career-plan/" className="text-petrol-deep underline">キャリアプラン設計</Link>。</p>
+              <p className="text-sm text-petrol-deep">30代は専門を深めるか、マネジメントへ広げるかの分岐点です。棚卸しで『どちらに手応えを感じたか』を見極めると判断しやすくなります。関連: <Link href="/knowledge/career-plan/" className="text-petrol-deep underline">キャリアプラン設計します</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：『再現性』と『譲れない価値観』を明確に</h3>
-              <p className="text-sm text-petrol-deep">40代は成果の再現性（どんな状況でも価値を出せること）が問われます。同時に、長く働くために譲れない価値観をはっきりさせると、後悔の少ない選択ができます。関連: <Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアル</Link>。</p>
+              <p className="text-sm text-petrol-deep">40代は成果の再現性（どんな状況でも価値を出せること）が問われます。同時に、長く働くために譲れない価値観をはっきりさせると、後悔の少ない選択ができます。関連: <Link href="/knowledge/40s-reality/" className="text-petrol-deep underline">40代転職のリアルです</Link>。</p>
             </div>
           </div>
         </section>
@@ -338,7 +338,7 @@ export default function SelfAnalysisPage() {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">自己分析の『Must』をプロに確かめよう</h2>
-          <p className="text-blue-100 text-sm mb-4">市場が求めること（Must）は自分では把握しにくいもの。IT特化型エージェントの面談で、客観的な市場価値とニーズを確認できます。</p>
+          <p className="text-blue-100 text-sm mb-4">市場が求めること（Must）は自分では把握しにくいものです。IT特化型エージェントの面談で、客観的な市場価値とニーズを確認できます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>

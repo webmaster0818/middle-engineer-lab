@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/type-it-vs-levtech/" },
   title: "type転職エージェントITとレバテックの比較｜どっちがおすすめ？【2026年8月】",
   description:
-    "type転職エージェントIT（首都圏・成長企業に強い）とレバテックキャリア（IT/Web特化）を、得意領域・対象年代・求人傾向・サポート・連絡手段・実績数値で比較。25〜35歳を中心とした30代エンジニアの選び方と併用術を、出典と時点を明記して解説します。",
+    "type転職エージェントIT（首都圏・成長企業に強い）とレバテックキャリア（IT/Web特化）を、得意領域・対象年代・求人傾向・サポート・連絡手段・実績数値で比較します。25〜35歳を中心とした30代エンジニアの選び方と併用術を、出典と時点を明記して解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どっちがおすすめか" },
+  { id: "conclusion", label: "結論：どちらがおすすめか" },
   { id: "naming", label: "用語整理：この記事の「レバテック」とは" },
   { id: "basic", label: "基本データ比較表（2026年6月時点）" },
   { id: "field", label: "項目別比較①：得意領域と求人の傾向" },
@@ -29,10 +29,10 @@ const toc = [
 const comparison = [
   { item: "サービス名", a: "type転職エージェントIT", b: "レバテックキャリア（正社員転職エージェント）" },
   { item: "運営会社", a: "株式会社キャリアデザインセンター", b: "レバテック株式会社（レバレジーズグループ）" },
-  { item: "得意領域", a: "首都圏の成長企業・IT/Web分野に強み（地方求人は少なめとされる＝二次情報）", b: "IT・Web領域に特化。首都圏中心（二次情報）" },
+  { item: "得意領域", a: "首都圏の成長企業・IT/Web分野に強み（地方求人は少なめとされる＝二次情報）", b: "IT・Web領域に特化しています。首都圏中心（二次情報）" },
   { item: "対象年代", a: "個別相談会の対象は主に25〜35歳（公式・時点非明示）", b: "利用者の約80%が20〜30代とされる（二次情報）" },
   { item: "求人の傾向", a: "首都圏×成長企業を軸に、IT/Web職種を提案", b: "IT・Web特化の求人が中心（二次情報）" },
-  { item: "サポート形態", a: "専任アドバイザーによる面談・書類添削・面接対策。オンライン面談に対応", b: "IT業界に精通した専任アドバイザーが伴走（二次情報）" },
+  { item: "サポート形態", a: "専任アドバイザーによる面談・書類添削・面接対策です。オンライン面談に対応", b: "IT業界に精通した専任アドバイザーが伴走（二次情報）" },
   { item: "連絡手段", a: "面談・メール・電話等（オンライン面談対応）", b: "LINEで連絡が完結するとされる（二次情報）" },
   { item: "料金", a: "求職者は完全無料", b: "求職者は完全無料" },
 ];
@@ -41,7 +41,7 @@ const faqs = [
   { q: "この記事の「レバテック」とは具体的に何を指しますか？", a: "本記事の「レバテック」は、正社員転職を支援する『レバテックキャリア』を指します。業務委託案件を扱う『レバテックフリーランス』とは別サービスなので混同にご注意ください。なお、レバテックにはスカウト型の『レバテックダイレクト』もありますが、この記事で比較しているのは専任アドバイザーが伴走する『レバテックキャリア』です。" },
   { q: "type転職エージェントITとレバテックキャリアの最大の違いは何ですか？", a: "得意とする軸が違います。type転職エージェントITは首都圏の成長企業とIT/Web分野に強みを持ち、個別相談会の対象は主に25〜35歳とされています（公式）。レバテックキャリアはIT・Webにより特化し、利用者の約80%が20〜30代とされます（二次情報）。どちらもIT/Webエンジニアが対象ですが、首都圏の成長企業を広く見たいならtype、IT/Web特化で専門アドバイザーの伴走を重視するならレバテックキャリア、という違いがあります。" },
   { q: "年収アップを狙うならどちらがおすすめですか？", a: "type転職エージェントITは年収アップ率78%（2021年10月〜2022年9月・公式）と公表しています。レバテックキャリアは、内定承諾者のうち応募時年収との差が70万円以上だった人が『3人に2人』（2023年1月〜2024年3月実績とされる二次情報）と紹介されています。いずれも算出期間や母集団が異なる公表・二次情報のため単純比較はできませんが、首都圏の成長企業を含めて広く見たいならtype、IT/Web特化で年収交渉を任せたいならレバテックキャリアが選択肢になります。" },
-  { q: "オンラインで相談できますか？", a: "type転職エージェントITはオンライン面談に対応しています（公式）。首都圏在住でなくても、オンラインで相談を始めやすいのが特徴です。レバテックキャリアはLINEで連絡が完結するとされます（二次情報）。どちらも初回相談は無料なので、面談のしやすさで選ぶのも一つの方法です。" },
+  { q: "オンラインで相談できますか？", a: "type転職エージェントITはオンライン面談に対応しています（公式）。首都圏在住でなくても、オンラインで相談を始めやすいのが特徴です。レバテックキャリアはLINEで連絡が完結するとされます（二次情報）。どちらも初回相談は無料であるため、面談のしやすさで選ぶのも一つの方法です。" },
   { q: "30代のエンジニアにはどちらが向いていますか？", a: "どちらも有効です。type転職エージェントITは個別相談会の対象が主に25〜35歳とされ（公式）、30代前後のミドル層と相性が良い設計です。レバテックキャリアも利用者の約80%が20〜30代とされ（二次情報）、30代と親和性があります。首都圏の成長企業を軸に幅広く見たいならtype、IT/Web特化で専門アドバイザーの伴走を受けたいならレバテックキャリア、と役割を分けて併用するのが現実的です。" },
   { q: "地方在住でも使えますか？", a: "type転職エージェントITは首都圏・成長企業に強い一方、地方求人は少なめとされます（二次情報）。レバテックキャリアも首都圏中心とされます（二次情報）。地方勤務を希望する場合は、これらに加えて全国の求人を扱うエージェントも併用し、比較検討することをおすすめします。" },
   { q: "レバテックキャリアとレバテックフリーランスはどう違いますか？", a: "レバテックキャリアは正社員としての転職を支援するエージェントです。レバテックフリーランスは業務委託（フリーランス）案件を紹介するサービスで、対象も契約形態も異なります。本記事はtype転職エージェントITと『レバテックキャリア（正社員エージェント）』の比較です。フリーランス志向の方は、フリーランス向けサービスの比較記事をご覧ください。" },
@@ -67,7 +67,7 @@ export default function TypeItVsLevtechPage() {
 
   return (
     <>
-      <ArticleJsonLd title="type転職エージェントITとレバテックの比較｜どっちがおすすめか" description="type転職エージェントIT（首都圏・成長企業に強い）とレバテックキャリア（IT/Web特化）を、得意領域・対象年代・求人傾向・サポート・連絡手段・実績で比較。30代エンジニアの選び方を出典付きで解説します。" url="/compare/type-it-vs-levtech/" />
+      <ArticleJsonLd title="type転職エージェントITとレバテックの比較｜どっちがおすすめか" description="type転職エージェントIT（首都圏・成長企業に強い）とレバテックキャリア（IT/Web特化）を、得意領域・対象年代・求人傾向・サポート・連絡手段・実績で比較します。30代エンジニアの選び方を出典付きで解説します。" url="/compare/type-it-vs-levtech/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "type転職エージェントIT vs レバテックキャリア" }]} />
 
@@ -75,7 +75,7 @@ export default function TypeItVsLevtechPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">type転職エージェントITとレバテックを比較｜どっちがおすすめ？</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 首都圏・成長企業に強い type と IT/Web特化の レバテックキャリア を比較</p>
 
-        <p className="text-slate-600 leading-relaxed mb-4">「type転職 レバテック 比較」「type転職 レバテック どっち」で検索する方の多くは、首都圏の成長企業を広く見るべきか、IT/Web特化のエージェントに伴走してもらうべきかで迷っています。本記事は主に25〜35歳のITエンジニア向けに、両サービスを「得意領域」「対象年代」「求人の傾向」「サポート形態」「連絡手段」「実績数値」で比較しました。数値は公表値・二次情報の範囲のみを、出典と時点を明記して扱います。どちらも求職者は完全無料です。</p>
+        <p className="text-slate-600 leading-relaxed mb-4">「type転職 レバテック 比較」「type転職 レバテック どちら」で検索する方の多くは、首都圏の成長企業を広く見るべきか、IT/Web特化のエージェントに伴走してもらうべきかで迷っています。本記事は主に25〜35歳のITエンジニア向けに、両サービスを「得意領域」「対象年代」「求人の傾向」「サポート形態」「連絡手段」「実績数値」で比較しました。数値は公表値・二次情報の範囲のみを、出典と時点を明記して扱います。どちらも求職者は完全無料です。</p>
 
         <DataNote surveyedAt="2026年6月" sources={["type転職エージェントIT公式（type.career-agent.jp/service/it.html・数値の時点は本文に明記）", "レバテックキャリアに関する各転職メディアの集計値（公式サイトは取得不可のため二次情報）"]} />
 
@@ -89,13 +89,13 @@ export default function TypeItVsLevtechPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・首都圏の成長企業を軸に幅広く見たいなら「type転職エージェントIT」</strong>。25〜35歳を中心に、IT/Web分野の成長企業を提案してくれます（対象年代は公式）。</li>
               <li><strong>・IT/Web特化で専門アドバイザーに伴走してほしいなら「レバテックキャリア」</strong>。技術に精通したアドバイザーが選考対策まで支援するとされます（二次情報）。</li>
-              <li><strong>・迷うなら両方登録</strong>。typeで首都圏の成長企業を広く見つつ、レバテックキャリアでIT/Web特化の求人と伴走を確保する「幅×専門」の二段構えが、30代エンジニアには合理的です。どちらも完全無料です。</li>
+              <li><strong>・迷うなら両方登録です</strong>。typeで首都圏の成長企業を広く見つつ、レバテックキャリアでIT/Web特化の求人と伴走を確保する「幅×専門」の二段構えが、30代エンジニアには合理的です。どちらも完全無料です。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">なお本記事の「レバテック」は正社員転職の『レバテックキャリア』を指します。詳しくは次の用語整理をご覧ください。また、レバテックキャリアに関する数値は公式サイトを一次確認できなかったため、二次情報として扱っています。</p>
@@ -106,9 +106,9 @@ export default function TypeItVsLevtechPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 text-sm text-slate-700">
             <p className="mb-2"><strong>レバテックには複数のサービスがあり、混同に注意が必要です。</strong></p>
             <ul className="space-y-2 list-disc pl-5">
-              <li><strong>レバテックキャリア</strong>＝正社員としての転職を支援するエージェント。<u>本記事で比較しているのはこれ</u>です。</li>
-              <li><strong>レバテックフリーランス</strong>＝業務委託（フリーランス）案件を紹介するサービス。契約形態が異なります。</li>
-              <li><strong>レバテックダイレクト</strong>＝企業から直接スカウトが届くスカウト型サービス。本記事の比較対象はあくまで伴走型の『レバテックキャリア』です。</li>
+              <li><strong>レバテックキャリア</strong>＝正社員としての転職を支援するエージェントです。<u>本記事で比較しているのはこれ</u>です。</li>
+              <li><strong>レバテックフリーランス</strong>＝業務委託（フリーランス）案件を紹介するサービスです。契約形態が異なります。</li>
+              <li><strong>レバテックダイレクト</strong>＝企業から直接スカウトが届くスカウト型サービスです。本記事の比較対象はあくまで伴走型の『レバテックキャリア』です。</li>
             </ul>
             <p className="mt-3 text-xs text-slate-500">※ レバテックキャリアの各数値は、公式サイト（career.levtech.jp）を直接確認できなかったため、転職メディア等の二次情報に基づき「〜とされる」と表記しています。最新・正確な条件は必ず公式でご確認ください。</p>
           </div>
@@ -130,7 +130,7 @@ export default function TypeItVsLevtechPage() {
           <p className="text-slate-600 leading-relaxed mb-4">type転職エージェントITは、首都圏の成長企業とIT/Web分野に強みを持つとされます。運営は求人メディア「type」等を手がける株式会社キャリアデザインセンターで、首都圏の企業とのつながりを活かした提案が特徴です。一方で地方求人は少なめとされる点（二次情報）は、勤務地の希望次第で確認しておきたいところです。</p>
           <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアはIT・Web領域により特化しているとされ、首都圏中心とされます（いずれも二次情報）。技術スタックを軸に求人を提案してもらいやすく、IT/Webの専門性を重視する人に向くと紹介されています。公開求人は約57,300件（2026年6月時点・二次集計）とされますが、この数値は公式で一次確認できていないため参考値として扱ってください。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>首都圏の成長企業を広く見るならtype、IT/Web特化の専門性で選ぶならレバテックキャリア。総合的な比較の位置づけは<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント総合比較</Link>、レバテックと他社の比較は<Link href="/compare/levtech-vs-doda/" className="text-petrol hover:underline">レバテック vs doda</Link>も参考にしてください。</p>
+            <p className="mb-2"><strong>まとめ：</strong>首都圏の成長企業を広く見るならtype、IT/Web特化の専門性で選ぶならレバテックキャリアです。総合的な比較の位置づけは<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント総合比較</Link>、レバテックと他社の比較は<Link href="/compare/levtech-vs-doda/" className="text-petrol hover:underline">レバテック vs doda</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -152,7 +152,7 @@ export default function TypeItVsLevtechPage() {
               <p className="text-sm text-slate-600 leading-relaxed">IT業界に精通した専任アドバイザーが書類添削・面接対策・年収交渉まで伴走するとされ、LINEで連絡が完結する手軽さが紹介されています（いずれも二次情報）。技術理解のあるアドバイザーに任せたい人に向くとされます。</p>
             </div>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm">オンライン面談で始めたいならtype、IT/Web特化の伴走とLINE連絡を重視するならレバテックキャリア。<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">エージェントとの初回面談の進め方</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">オンライン面談で始めたいならtype、IT/Web特化の伴走とLINE連絡を重視するならレバテックキャリアです。<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">エージェントとの初回面談の進め方</Link>も参考にしてください。</p>
         </section>
 
         <section id="result" className="mb-12 scroll-mt-20">
@@ -183,9 +183,9 @@ export default function TypeItVsLevtechPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-4">
               {[
-                { num: "1", title: "type転職エージェントITが向くケース", desc: "首都圏（成長企業・ベンチャー含む）で25〜35歳のキャリアを伸ばしたい場合。オンライン面談で相談を始め、定着率などの実績も踏まえて腰を据えられる企業を探します。" },
-                { num: "2", title: "レバテックキャリアが向くケース", desc: "IT・Web領域に特化して求人を見たい、技術理解のある専任アドバイザーに書類添削や面接対策まで任せたい場合。LINEで気軽に連絡を取りながら選考を進めます（二次情報に基づく特徴）。" },
-                { num: "3", title: "併用パターン（推奨）", desc: "typeで首都圏の成長企業を広く見つつ、レバテックキャリアでIT/Web特化の求人と専門的な伴走を確保する。幅と専門性を組み合わせ、複数の視点で意思決定します。" },
+                { num: "1", title: "type転職エージェントITが向くケース", desc: "首都圏（成長企業・ベンチャー含む）で25〜35歳のキャリアを伸ばしたい場合です。オンライン面談で相談を始め、定着率などの実績も踏まえて腰を据えられる企業を探します。" },
+                { num: "2", title: "レバテックキャリアが向くケース", desc: "IT・Web領域に特化して求人を見たい、技術理解のある専任アドバイザーに書類添削や面接対策まで任せたい場合です。LINEで気軽に連絡を取りながら選考を進めます（二次情報に基づく特徴）。" },
+                { num: "3", title: "併用パターン（推奨）", desc: "typeで首都圏の成長企業を広く見つつ、レバテックキャリアでIT/Web特化の求人と専門的な伴走を確保します。幅と専門性を組み合わせ、複数の視点で意思決定です。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -218,7 +218,7 @@ export default function TypeItVsLevtechPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">「首都圏の幅×IT/Webの専門性」でエンジニア転職を有利に</h2>
-          <p className="text-blue-100 text-sm mb-4">typeで首都圏の成長企業を広く見て、レバテックキャリアでIT/Web特化の伴走を確保する。25〜35歳のエンジニアに合理的なルートです。どちらも無料です。</p>
+          <p className="text-blue-100 text-sm mb-4">typeで首都圏の成長企業を広く見て、レバテックキャリアでIT/Web特化の伴走を確保します。25〜35歳のエンジニアに合理的なルートです。どちらも無料です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 

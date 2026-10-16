@@ -28,7 +28,7 @@ const gapRows = [
   {
     skill: "最新の実装力・技術トレンド",
     mgr: "△ ブランクが生じ、現場感覚が鈍りやすい",
-    ic: "◎ 最大のキャッチアップ対象。日々手を動かす前提",
+    ic: "◎ 最大のキャッチアップ対象です。日々手を動かす前提",
   },
   {
     skill: "モダンな開発環境・ツール",
@@ -48,7 +48,7 @@ const gapRows = [
   {
     skill: "チーム視点・調整力",
     mgr: "◎ 全体最適とステークホルダー調整の蓄積",
-    ic: "◎ 強みとして残る。テックリード兼務で評価されやすい",
+    ic: "◎ 強みとして残ります。テックリード兼務で評価されやすい",
   },
   {
     skill: "自走でのコードアウトプット",
@@ -220,8 +220,8 @@ export default function ManagerToIcPage() {
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
               <li>① ギャップになりやすいのは<strong>最新の実装力・モダンな開発ツール・自走でのコード量</strong></li>
-              <li>② 一方で<strong>設計判断・技術的意思決定・メンタリング・調整力</strong>はそのまま強みとして残る</li>
-              <li>③ 個人開発やOSSでコミットを継続し、ブランクへの懸念を実物で打ち消すことが成否を分ける</li>
+              <li>② 一方で<strong>設計判断・技術的意思決定・メンタリング・調整力</strong>はそのまま強みとして残ります</li>
+              <li>③ 個人開発やOSSでコミットを継続し、ブランクへの懸念を実物で打ち消すことが成否を分けます</li>
             </ul>
           </div>
         </section>
@@ -310,21 +310,21 @@ export default function ManagerToIcPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（マネジメント業務だけの記載になっている例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                開発部門のマネージャーとして〇名のチームを統括。予算管理、メンバーの評価、採用、進捗管理を担当した。
+                開発部門のマネージャーとして〇名のチームを統括します。予算管理、メンバーの評価、採用、進捗管理を担当しました。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（技術判断と直近のアウトプットを示す例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                開発部門のマネージャーとして〇名のチームを統括しつつ、主要機能の技術選定・設計レビューを担当。直近1年は個人開発でTypeScript＋Next.jsのアプリを構築し、Git／CI/CD／コンテナの現行フローを実務水準で運用（GitHubで公開）。マネジメントで培ったレビュー力・設計判断を、現場でのテックリードとして活かすことを志向。
+                開発部門のマネージャーとして〇名のチームを統括しつつ、主要機能の技術選定・設計レビューを担当します。直近1年は個人開発でTypeScript＋Next.jsのアプリを構築し、Git／CI/CD／コンテナの現行フローを実務水準で運用します（GitHubで公開）。マネジメントで培ったレビュー力・設計判断を、現場でのテックリードとして活かすことを志向します。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
               <p className="font-bold text-slate-700 mb-2">改善のポイント</p>
               <ul className="space-y-1">
-                <li>・マネジメント業務だけでなく、関与した技術判断・設計を明記する</li>
-                <li>・直近のコードアウトプット（個人開発・OSS）で「今も手が動く」根拠を示す</li>
-                <li>・マネジメント経験を『テックリードとして引き上げられるIC』の強みに変換する</li>
+                <li>・マネジメント業務だけでなく、関与した技術判断・設計を明記します</li>
+                <li>・直近のコードアウトプット（個人開発・OSS）で「今も手が動く」根拠を示します</li>
+                <li>・マネジメント経験を『テックリードとして引き上げられるIC』の強みに変換します</li>
               </ul>
             </div>
           </div>
@@ -358,17 +358,17 @@ export default function ManagerToIcPage() {
               {
                 name: "レバテックキャリア",
                 point:
-                  "IT/Web特化で技術に詳しいアドバイザーが在籍。IC・テックリード求人を扱い、技術要件のすり合わせがしやすいサービスです。",
+                  "IT/Web特化で技術に詳しいアドバイザーが在籍しています。IC・テックリード求人を扱い、技術要件のすり合わせがしやすいサービスです。",
               },
               {
                 name: "ビズリーチ",
                 point:
-                  "ハイクラス・スカウト型。専門性の高いICにはハイレンジ求人もあり、経験を登録すると自分の市場価値を客観的に把握できます。",
+                  "ハイクラス・スカウト型です。専門性の高いICにはハイレンジ求人もあり、経験を登録すると自分の市場価値を客観的に把握できます。",
               },
               {
                 name: "doda ITエンジニア",
                 point:
-                  "国内最大級の求人数で、検索・エージェント・スカウトのハイブリッド型。幅広い企業のIC求人を比較検討したい場合に有効です。",
+                  "国内最大級の求人数で、検索・エージェント・スカウトのハイブリッド型です。幅広い企業のIC求人を比較検討したい場合に有効です。",
               },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -416,7 +416,7 @@ export default function ManagerToIcPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">IC復帰を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            技術に強いIT特化型エージェントが、あなたのマネジメント経験を活かせるIC/テックリード求人を提案します。
+            技術に強いIT特化型エージェントが、ご自身のマネジメント経験を活かせるIC/テックリード求人を提案します。
           </p>
           <Link
             href="/#ranking"

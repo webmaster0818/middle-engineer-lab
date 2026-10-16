@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/cpp/" },
   title: "C++エンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "C++エンジニアの転職市場を出典付きで解説。組込み・ゲーム・低レイヤでのC++需要、求人ボックスやフリーランス調査の公表年収、他言語からの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",
+    "C++エンジニアの転職市場を出典付きで解説。組込み・ゲーム・低レイヤでのC++需要、求人ボックスやフリーランス調査の公表年収、他言語からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：C++エンジニアの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：C++エンジニアの転職市場での進め方" },
   { id: "market", label: "2. C++の市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. C++エンジニアのキャリアパス" },
@@ -69,7 +69,7 @@ export default function CppSkillPage() {
     <>
       <ArticleJsonLd
         title="C++エンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="C++エンジニアの転職市場を出典付きで解説。組込み・ゲーム・低レイヤでのC++需要、求人ボックスやフリーランス調査の公表年収、他言語からの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。"
+        description="C++エンジニアの転職市場を出典付きで解説。組込み・ゲーム・低レイヤでのC++需要、求人ボックスやフリーランス調査の公表年収、他言語からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/cpp/"
       />
       <script
@@ -97,7 +97,7 @@ export default function CppSkillPage() {
             C++は実行速度とハードウェア制御が求められる領域で使われる言語で、<strong>組込み・制御、ゲーム開発、金融のトレーディング、画像処理・CAD</strong>などの低レイヤ・高性能アプリケーションを支えています。Web系の言語とは性質が異なり、専門領域での代替が効きにくい希少スキルとして評価されます。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、C++エンジニア転職の「攻め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
+            本記事では、C++エンジニア転職の「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
           </p>
         </section>
 
@@ -124,15 +124,15 @@ export default function CppSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：C++エンジニアの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：C++エンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>C++は組込み・ゲーム・低レイヤという専門領域で代替が効きにくい希少スキルです。</strong>Web系の求人数で比較するのではなく、C++が不可欠な領域に的を絞り、希少性を年収に変える戦い方が向いています。
+              <strong>C++は組込み・ゲーム・低レイヤという専門領域で代替が効きにくい希少スキルです。</strong>Web系の求人数で比較するのではなく、C++が不可欠な領域に的を絞り、希少性を年収に変える進め方が向いています。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・C++特化の公的年収は乏しいため<strong>職種別・年代別データで代替</strong>（求人ボックス システムエンジニア約516万円ほか）</li>
-              <li>・C／Rust／Javaなど低レイヤ・静的型付けの経験があれば、C++へ移る土台になる</li>
-              <li>・C++は<strong>組込み・ゲーム・金融などドメイン知識との掛け合わせ</strong>で市場価値が高まる</li>
+              <li>・C／Rust／Javaなど低レイヤ・静的型付けの経験があれば、C++へ移る土台になります</li>
+              <li>・C++は<strong>組込み・ゲーム・金融などドメイン知識との掛け合わせ</strong>で市場価値が高まります</li>
             </ul>
           </div>
         </section>
@@ -174,7 +174,7 @@ export default function CppSkillPage() {
         <section id="level" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            C++求人は領域（組込み・ゲーム・金融など）によって求められる経験が異なります。共通して求人票によく登場する要件を傾向としてまとめると次の通りです。
+            C++求人は領域（組込み・ゲーム・金融など）によって求められる経験が異なります。共通して求人票によく登場する要件を傾向としてまとめると次のとおりです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -198,8 +198,8 @@ export default function CppSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "組込み／制御エンジニア", note: "自動車・家電・産業機器のファームウェア・制御。メーカー系で需要が安定" },
-              { role: "ゲームエンジニア（ネイティブ）", note: "ゲームエンジンやネイティブ部分の開発。高い最適化スキルが評価される" },
+              { role: "組込み／制御エンジニア", note: "自動車・家電・産業機器のファームウェア・制御です。メーカー系で需要が安定" },
+              { role: "ゲームエンジニア（ネイティブ）", note: "ゲームエンジンやネイティブ部分の開発です。高い最適化スキルが評価されます" },
               { role: "低レイヤ／基盤エンジニア", note: "OS・ミドルウェア・高性能計算・トレーディング基盤など" },
               { role: "テックリード／アーキテクト", note: "C++基盤の設計＋パフォーマンス最適化＋技術選定" },
             ].map((item, i) => (
@@ -223,14 +223,14 @@ export default function CppSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（IT・Web・ゲームに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で提案スピードが強み。ゲーム会社のC++求人を探したい場合の有力な選択肢になります。
+                IT・Web・ゲーム業界専門で提案スピードが強みです。ゲーム会社のC++求人を探したい場合の有力な選択肢になります。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT全般で求人母数が大きく、技術に踏み込んで話せるアドバイザーが在籍。C++を含む幅広い専門求人の提案に向きます。
+                IT全般で求人母数が大きく、技術に踏み込んで話せるアドバイザーが在籍しています。C++を含む幅広い専門求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
@@ -272,13 +272,13 @@ export default function CppSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>低レイヤの理解は年齢で目減りしにくい。</strong>C++が支える組込み・ゲーム・低レイヤは、流行り廃りの影響を受けにくい領域です。30代・40代でC++の実務を積んでいるなら、その低レイヤの理解は希少人材としての強みになり、年齢の不利を相殺しやすくなります。
+              <strong>低レイヤの理解は年齢で目減りしにくいです。</strong>C++が支える組込み・ゲーム・低レイヤは、流行り廃りの影響を受けにくい領域です。30代・40代でC++の実務を積んでいるなら、その低レイヤの理解は希少人材としての強みになり、年齢の不利を相殺しやすくなります。
             </p>
             <p>
-              <strong>ドメイン知識との掛け算で差別化する。</strong>C++単体より「C++＋自動車・産業機器」「C++＋ゲームエンジン」「C++＋金融」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、C++という実装手段と結びつけて語れると説得力が増します。
+              <strong>ドメイン知識との掛け算で差別化します。</strong>C++単体より「C++＋自動車・産業機器」「C++＋ゲームエンジン」「C++＋金融」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、C++という実装手段と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>マネジメント経験も資産になる。</strong>テックリードやアーキテクトのC++求人では、実装力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのC++求人では、実装力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -290,13 +290,13 @@ export default function CppSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① モダンC++を身につける。</strong>C++11以降のスマートポインタ、ムーブセマンティクス、ラムダなどを使いこなせると、レガシーなC++しか書けない人材との差別化になります。古い書き方ではなくモダンな書き方を学ぶことが、評価につながります。
+              <strong>① モダンC++を身につけます。</strong>C++11以降のスマートポインタ、ムーブセマンティクス、ラムダなどを使いこなせると、レガシーなC++しか書けない人材との差別化になります。古い書き方ではなくモダンな書き方を学ぶことが、評価につながります。
             </p>
             <p>
-              <strong>② メモリ・並行処理を実装で理解する。</strong>メモリ管理とマルチスレッドはC++の核心であり、面接で深く問われます。実際に動かしながら、リソース管理やデータ競合の扱いを経験として語れる状態にしましょう。
+              <strong>② メモリ・並行処理を実装で理解します。</strong>メモリ管理とマルチスレッドはC++の核心であり、面接で深く問われます。実際に動かしながら、リソース管理やデータ競合の扱いを経験として語れる状態にしましょう。
             </p>
             <p>
-              <strong>③ 志望領域のフレームワーク・基盤を学ぶ。</strong>ゲームならゲームエンジン、組込みならRTOSやハードウェア制御というように、志望領域に応じた周辺知識を積むと、即戦力に近づきます。領域を絞って深掘りするのが効率的です。
+              <strong>③ 志望領域のフレームワーク・基盤を学びます。</strong>ゲームならゲームエンジン、組込みならRTOSやハードウェア制御というように、志望領域に応じた周辺知識を積むと、即戦力に近づきます。領域を絞って深掘りするのが効率的です。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -341,7 +341,7 @@ export default function CppSkillPage() {
               { name: "Javaエンジニアの転職ガイド", href: "/skill/java/" },
               { name: "Goエンジニアの転職ガイド", href: "/skill/go/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/paid-leave/" },
   title: "退職時の有給消化【時季変更権・買い取り・拒否への対処】",
   description:
-    "退職時の有給消化を法律の観点から解説。年次有給休暇は労働者の権利であり、退職日を超えた時季変更権は行使できない点や、買い取りの原則と例外、消化拒否への対処を30代・40代エンジニア向けに整理します。",
+    "退職時の有給消化を法律の観点から解説します。年次有給休暇は労働者の権利であり、退職日を超えた時季変更権は行使できない点や、買い取りの原則と例外、消化拒否への対処を30代・40代エンジニア向けに整理します。",
 };
 
 const toc = [
@@ -44,7 +44,7 @@ const troubles = [
 ];
 
 const schedule = [
-  { period: "退職日から逆算", title: "残日数を確定", desc: "勤怠システムや給与明細で年次有給休暇の残日数を正確に把握します。付与日や時効（消滅）の扱いも確認。" },
+  { period: "退職日から逆算", title: "残日数を確定", desc: "勤怠システムや給与明細で年次有給休暇の残日数を正確に把握します。付与日や時効（消滅）の扱いも確認します。" },
   { period: "切り出し時", title: "消化希望を早めに共有", desc: "退職を切り出すタイミングで、最終出社日と有給消化の見通しを上司と相談しておくと調整がスムーズです。" },
   { period: "引き継ぎ期間", title: "引き継ぎを前倒し", desc: "有給消化に入る前に引き継ぎを完了させる計画を立てます。属人化の解消が消化交渉の追い風になります。" },
   { period: "最終出社後", title: "有給消化期間", desc: "引き継ぎ完了後、最終出社日の翌日から退職日までを有給消化に充てるのが一般的な流れです。" },
@@ -92,7 +92,7 @@ export default function PaidLeavePage() {
     <>
       <ArticleJsonLd
         title="退職時の有給消化【時季変更権・買い取り・拒否への対処】"
-        description="退職時の有給消化を法律の観点から解説。年次有給休暇は労働者の権利であり、退職日を超えた時季変更権は行使できない点や、買い取りの原則と例外、消化拒否への対処を30代・40代エンジニア向けに整理します。"
+        description="退職時の有給消化を法律の観点から解説します。年次有給休暇は労働者の権利であり、退職日を超えた時季変更権は行使できない点や、買い取りの原則と例外、消化拒否への対処を30代・40代エンジニア向けに整理します。"
         url="/knowledge/paid-leave/"
       />
       <script
@@ -120,7 +120,7 @@ export default function PaidLeavePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職時に有給休暇は消化できる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 年次有給休暇は労働者の権利で、退職時は時季変更権が実質的に及ばないため、消化できるのが原則です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・会社の時季変更権は退職日を超えて行使できず、退職時には実質的に拒否しにくい</li><li>・買い取りは原則不可。退職時に消滅する残日数のみ例外的に可（会社の義務ではない）</li><li>・一方的に拒否されたら自己判断で諦めず、労働基準監督署など公的窓口に相談する</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・会社の時季変更権は退職日を超えて行使できず、退職時には実質的に拒否しにくいです</li><li>・買い取りは原則不可です。退職時に消滅する残日数のみ例外的に可（会社の義務ではない）</li><li>・一方的に拒否されたら自己判断で諦めず、労働基準監督署など公的窓口に相談します</li></ul>
           </div>
         </section>
 
@@ -154,10 +154,10 @@ export default function PaidLeavePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：退職時の有給は実質的に取得できるのが原則</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・年次有給休暇は<strong>労働者の権利</strong>。退職時にも取得できるのが原則。</li>
-              <li>・会社の<strong>時季変更権は退職日を超えて行使できない</strong>ため、退職時は実質的に拒否しにくい。</li>
-              <li>・買い取りは原則違法。ただし<strong>退職時に消滅する残日数の買い取りは例外的に可</strong>（義務ではない）。</li>
-              <li>・拒否されたら自己判断で諦めず、<strong>労働基準監督署</strong>など公的窓口に相談する。</li>
+              <li>・年次有給休暇は<strong>労働者の権利です</strong>。退職時にも取得できるのが原則です。</li>
+              <li>・会社の<strong>時季変更権は退職日を超えて行使できない</strong>ため、退職時は実質的に拒否しにくいです。</li>
+              <li>・買い取りは原則違法です。ただし<strong>退職時に消滅する残日数の買い取りは例外的に可です</strong>（義務ではない）。</li>
+              <li>・拒否されたら自己判断で諦めず、<strong>労働基準監督署</strong>など公的窓口に相談します。</li>
             </ul>
           </div>
         </section>
@@ -241,8 +241,8 @@ export default function PaidLeavePage() {
             消化を一方的に拒否される、買い取りや残日数の扱いでトラブルになる、といった場合は、自己判断で諦めず公的な窓口に相談してください。
           </p>
           <ul className="space-y-3 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>労働基準監督署</strong>：労働基準法に関する相談・申告の窓口。有給休暇の取り扱いについて相談できます。</span></li>
-            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>総合労働相談コーナー</strong>：各都道府県の労働局などに設けられた、労働問題全般の相談窓口。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>労働基準監督署</strong>：労働基準法に関する相談・申告の窓口です。有給休暇の取り扱いについて相談できます。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>総合労働相談コーナー</strong>：各都道府県の労働局などに設けられた、労働問題全般の相談窓口です。</span></li>
             <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">・</span><span><strong>弁護士・社会保険労務士</strong>：個別の事案について具体的な助言や対応を依頼できます。</span></li>
           </ul>
           <p className="text-xs text-slate-500 mt-3">
@@ -262,11 +262,11 @@ export default function PaidLeavePage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">属人化の解消が消化の追い風になる</h3>
-              <p className="text-sm text-slate-600">「あなたが抜けると回らない」状態だと、消化への抵抗が強くなりがちです。引き継ぎドキュメントを整え、属人化を解消しておくことが、結果的に有給消化をスムーズにします。引き止め交渉での揺らぎを防ぐ意味でも有効です。</p>
+              <p className="text-sm text-slate-600">「ご自身が抜けると回らない」状態だと、消化への抵抗が強くなりがちです。引き継ぎドキュメントを整え、属人化を解消しておくことが、結果的に有給消化をスムーズにします。引き止め交渉での揺らぎを防ぐ意味でも有効です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">次の入社日との重複に注意</h3>
-              <p className="text-sm text-slate-600">有給消化中はまだ前職に在籍しています。次の会社の入社日と消化期間が重なると、二重就労や社会保険の切り替えで問題が生じ得ます。入社日は消化期間を踏まえて設定しましょう。年収条件の調整は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉テクニック</Link>も参考に。</p>
+              <p className="text-sm text-slate-600">有給消化中はまだ前職に在籍しています。次の会社の入社日と消化期間が重なると、二重就労や社会保険の切り替えで問題が生じ得ます。入社日は消化期間を踏まえて設定しましょう。年収条件の調整は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉テクニック</Link>もご参照ください。</p>
             </div>
           </div>
         </section>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/levtech-freelance-vs-findy-freelance/" },
   title: "レバテックフリーランスとFindy Freelanceの比較｜どっち？【2026年8月】",
   description:
-    "レバテックフリーランスとFindy Freelanceを契約形態・案件傾向・サポート・リモート率・支払いで比較。案件量と手厚いコーディネーターか、フルリモート・直接契約・モダン/スタートアップかで選ぶ判断軸を30代40代エンジニア向けに解説します。",
+    "レバテックフリーランスとFindy Freelanceを契約形態・案件傾向・サポート・リモート率・支払いで比較します。案件量と手厚いコーディネーターか、フルリモート・直接契約・モダン/スタートアップかで選ぶ判断軸を30代40代エンジニア向けに解説します。",
 };
 
 const toc = [
@@ -30,7 +30,7 @@ const toc = [
 
 const comparison = [
   { item: "運営会社", a: "レバテック株式会社（レバレジーズグループ）", b: "ファインディ株式会社" },
-  { item: "契約形態", a: "エージェント仲介型（レバテックが企業との間に入って案件を紹介）", b: "企業との直接契約。Findyが請求書発行・報酬回収を代行（公式・翌月末支払い）" },
+  { item: "契約形態", a: "エージェント仲介型（レバテックが企業との間に入って案件を紹介）", b: "企業との直接契約です。Findyが請求書発行・報酬回収を代行（公式・翌月末支払い）" },
   { item: "案件傾向", a: "大規模・長期・全方位（モダン〜レガシーまで幅広い）", b: "モダン技術（TypeScript/Python/Go/Ruby）・AI/SaaS・スタートアップに強い（LayerX/MoneyForward/TVer/Loglass等：公式）" },
   { item: "案件数", a: "公開案件数は媒体により「12万件超」「約2万件超」と表記差あり（二次・単純比較は不可）", b: "案件数の明示は確認しづらい（公式に総件数の記載なし）" },
   { item: "サポート", a: "IT専門コーディネーターの手厚いサポート（二次）", b: "直接契約が基本でセルフ寄り。企業とのマッチングを支援" },
@@ -71,12 +71,12 @@ export default function LevtechFreelanceVsFindyFreelancePage() {
 
   return (
     <>
-      <ArticleJsonLd title="レバテックフリーランスとFindy Freelanceの比較｜どっち？" description="レバテックフリーランスとFindy Freelanceを契約形態・案件傾向・サポート・リモート率・支払いで比較。案件量と手厚いサポートか、直接契約・フルリモート・モダン環境かで選ぶ判断軸を解説します。" url="/compare/levtech-freelance-vs-findy-freelance/" />
+      <ArticleJsonLd title="レバテックフリーランスとFindy Freelanceの比較｜どっち？" description="レバテックフリーランスとFindy Freelanceを契約形態・案件傾向・サポート・リモート率・支払いで比較します。案件量と手厚いサポートか、直接契約・フルリモート・モダン環境かで選ぶ判断軸を解説します。" url="/compare/levtech-freelance-vs-findy-freelance/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "レバテックフリーランス vs Findy Freelance" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">レバテックフリーランスとFindy Freelanceを徹底比較｜どっちがおすすめ？</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">レバテックフリーランスとFindy Freelanceを比較｜どっちがおすすめ？</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年7月 ｜ 案件量と手厚いコーディネーター と 直接契約・フルリモート・モダン を比較</p>
 
         <p className="text-slate-600 leading-relaxed mb-4">「レバテックフリーランス Findy Freelance 比較」で検索する方の多くは、<strong>案件量と手厚いサポートを取るか、直接契約・フルリモートでモダンな環境を取るか</strong>で迷っています。本記事は30代・40代のITエンジニア向けに、両サービスを契約形態・案件傾向・サポート・リモート率・支払いの軸で比較しました。なお冒頭で重要な前提を一つ。<strong>Findy Freelanceは業務委託案件のサービスで、スカウト型の正社員転職サービス「Findy」とは別物です。</strong></p>
@@ -95,11 +95,11 @@ export default function LevtechFreelanceVsFindyFreelancePage() {
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：案件量か、直接契約・モダンか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・案件量と手厚いサポートを取りたいなら「レバテックフリーランス」</strong>。IT専門コーディネーターの伴走と幅広い案件が強みとされます（二次情報）。</li>
               <li><strong>・直接契約・フルリモート・モダン環境を取りたいなら「Findy Freelance」</strong>。フルリモート約80%・週3日以下約51%（公式）で、スタートアップやSaaSに強い設計です。</li>
-              <li><strong>・迷うなら、働き方の優先順位（柔軟さ・技術か、案件量・伴走か）で決める</strong>。どちらも求職者は無料のため両方登録して比べる手もあります。</li>
+              <li><strong>・迷うなら、働き方の優先順位（柔軟さ・技術か、案件量・伴走か）で決めます</strong>。どちらも求職者は無料のため両方登録して比べる手もあります。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">どちらもフリーランス（求職者）側は無料で利用できます。理由は次の比較表と項目別解説で見ていきます。</p>
@@ -110,8 +110,8 @@ export default function LevtechFreelanceVsFindyFreelancePage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700">
             <p className="mb-2">名前が似ているため、契約に進む前に違いを必ず押さえてください。</p>
             <ul className="space-y-1.5 list-disc pl-5">
-              <li><strong>Findy Freelance（業務委託案件のサービス）≠ Findy（スカウト型の正社員転職サービス）</strong>。運営はどちらもファインディ株式会社ですが、対象と契約形態がまったく異なります。</li>
-              <li><strong>レバテックフリーランス（業務委託案件の紹介）≠ レバテックキャリア（正社員転職エージェント）</strong>。運営は同じレバテック株式会社ですが、契約形態が異なります。</li>
+              <li><strong>Findy Freelance（業務委託案件のサービス）≠ Findyです（スカウト型の正社員転職サービス）</strong>。運営はどちらもファインディ株式会社ですが、対象と契約形態がまったく異なります。</li>
+              <li><strong>レバテックフリーランス（業務委託案件の紹介）≠ レバテックキャリアです（正社員転職エージェント）</strong>。運営は同じレバテック株式会社ですが、契約形態が異なります。</li>
             </ul>
             <p className="mt-2">正社員かフリーランスかで迷う段階の方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスと正社員の比較</Link>を先にご覧ください。</p>
           </div>
@@ -168,17 +168,17 @@ export default function LevtechFreelanceVsFindyFreelancePage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックフリーランスの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>案件量が豊富で選択肢が広い</li><li>コーディネーターのサポートが手厚い</li><li>幅広い技術・業界の案件を扱う</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>案件量が豊富で選択肢が広いです</li><li>コーディネーターのサポートが手厚いです</li><li>幅広い技術・業界の案件を扱います</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>実務経験前提で未経験には不向き</li><li>常駐・大規模案件も含まれる</li><li>マージン非公開で手取りが読みにくい</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>実務経験前提で未経験には不向き</li><li>常駐・大規模案件も含まれます</li><li>マージン非公開で手取りが読みにくいです</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：各フリーランス系メディアの傾向要約（二次）</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Findy Freelanceの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>フルリモート・柔軟な稼働の案件が多い</li><li>モダン技術・スタートアップの案件に関われる</li><li>直接契約＋請求代行で支払いが明確</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>フルリモート・柔軟な稼働の案件が多いです</li><li>モダン技術・スタートアップの案件に関われます</li><li>直接契約＋請求代行で支払いが明確</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>セルフ寄りで自走が求められる</li><li>案件総数の明示が分かりにくい</li><li>マージン非公開で手取りが読みにくい</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>セルフ寄りで自走が求められます</li><li>案件総数の明示が分かりにくいです</li><li>マージン非公開で手取りが読みにくいです</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：各フリーランス系メディアの傾向要約／Findy Freelance公式</p>
             </div>
           </div>
@@ -207,7 +207,7 @@ export default function LevtechFreelanceVsFindyFreelancePage() {
         <section id="middle" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだミドルエンジニアは、独立して働き方を選ぶ選択肢が現実的です。ただし30代と40代では「重視するもの」が変わります。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>モダン技術で自走でき、フルリモートや週3日以下で柔軟に働きたいなら、Findy Freelanceの案件傾向（フルリモート約80%・週3日以下約51%：公式）が武器になります。スタートアップやSaaSで裁量を持って開発したい志向とも相性が良い設計です。一方、案件量の多さと手厚い伴走で安全に案件を回したいなら、レバテックフリーランスが向きます。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>モダン技術で自走でき、フルリモートや週3日以下で柔軟に働きたいなら、Findy Freelanceの案件傾向（フルリモート約80%・週3日以下約51%：公式）が強みになります。スタートアップやSaaSで裁量を持って開発したい志向とも相性が良い設計です。一方、案件量の多さと手厚い伴走で安全に案件を回したいなら、レバテックフリーランスが向きます。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>家族・住宅ローンなど固定費を抱えるケースが増え、稼働を切らさない設計が重くなります。案件量が多く手厚いコーディネーターに伴走してもらえるレバテックフリーランスは、案件の空白を作りにくい安心材料になります。一方、フルリモートで通勤負担を抑えつつモダン環境で長く働きたい40代には、Findy Freelanceの柔軟な働き方が効いてきます。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
           <p className="text-slate-600 leading-relaxed text-sm">安定雇用を手放すことに迷いがあるなら、フリーランスではなく正社員エージェントの活用も選択肢です。<Link href="/compare/freelance-agents/" className="text-petrol hover:underline">フリーランスエージェント比較</Link>もご覧ください。</p>
         </section>
@@ -226,7 +226,7 @@ export default function LevtechFreelanceVsFindyFreelancePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">独立は「案件量・伴走」か「直接契約・フルリモート」かで選ぶ</h2>
-          <p className="text-blue-100 text-sm mb-4">案件量と手厚いサポートならレバテックフリーランス、直接契約でフルリモート・モダンならFindy Freelance。どちらも無料なので、まず両方で案件を見比べるのが後悔しない第一歩です。</p>
+          <p className="text-blue-100 text-sm mb-4">案件量と手厚いサポートならレバテックフリーランス、直接契約でフルリモート・モダンならFindy Freelanceです。どちらも無料であるため、まず両方で案件を見比べるのが後悔しない第一歩です。</p>
           <Link href="/compare/freelance-agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">フリーランスエージェント比較を見る</Link>
         </section>
 

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "受託開発と自社開発の違い【どちらを選ぶか】";
 const DESCRIPTION =
-  "受託開発と自社開発の違いを、仕事の進め方・スキルの伸び方・年収・働き方の観点で中立に比較。どちらが優れているかではなく、自分に合うのはどちらかを判断するための軸を、30代・40代向けに実践的にまとめます。";
+  "受託開発と自社開発の違いを、仕事の進め方・スキルの伸び方・年収・働き方の観点で中立に比較します。どちらが優れているかではなく、自分に合うのはどちらかを判断するための軸を、30代・40代向けに実践的にまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/ukeoi-vs-jisha/" },
@@ -130,7 +130,7 @@ export default function UkeoiVsJishaPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】受託開発と自社開発、どちらを選ぶべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 絶対的な優劣はありません。伸びるスキルや働き方の方向が違うだけで、自分の志向と強みに合うのはどちらかで選ぶのが正解です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・受託は幅広い経験と対応力、自社開発は特定プロダクトを深く育てる経験が得やすい</li><li>・年収も働き方も、形態のラベルより個別企業の実態で決まる</li><li>・求人票の言葉ではなく、任される範囲・開発体制・技術裁量・待遇を一社ずつ確認する</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・受託は幅広い経験と対応力、自社開発は特定プロダクトを深く育てる経験が得やすいです</li><li>・年収も働き方も、形態のラベルより個別企業の実態で決まります</li><li>・求人票の言葉ではなく、任される範囲・開発体制・技術裁量・待遇を一社ずつ確認します</li></ul>
           </div>
         </section>
 

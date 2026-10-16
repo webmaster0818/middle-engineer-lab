@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/industry/" },
   title: "業界別エンジニア転職ガイド一覧【全25業界】",
   description:
-    "金融・製造・ゲーム・SaaS・フィンテック・Web3・セキュリティ・モビリティなど、ITエンジニアの主要な転職先業界を網羅。各業界で求められる技術・参入ルート・年収傾向と、30代40代の評価のされ方を解説します。",
+    "金融・製造・ゲーム・SaaS・フィンテック・Web3・セキュリティ・モビリティなど、ITエンジニアの主要な転職先業界を網羅しています。各業界で求められる技術・参入ルート・年収傾向と、30代40代の評価のされ方を解説します。",
 };
 
 const groups = [
   {
     label: "IT・Web・SaaS系",
-    intro: "プロダクト開発とドメイン知識が両立する成長領域。モダン技術と事業理解の両輪が評価されます。",
+    intro: "プロダクト開発とドメイン知識が両立する成長領域です。モダン技術と事業理解の両輪が評価されます。",
     items: [
       { slug: "saas-industry", name: "SaaS業界" },
       { slug: "ai-industry", name: "AI業界（生成AI含む）" },
@@ -31,7 +31,7 @@ const groups = [
   },
   {
     label: "伝統産業×IT・DX",
-    intro: "既存産業のデジタル化を担う領域。業務知識を持つミドルが業界の文脈を活かしやすい選択肢です。",
+    intro: "既存産業のデジタル化を担う領域です。業務知識を持つミドルが業界の文脈を活かしやすい選択肢です。",
     items: [
       { slug: "finance", name: "金融業界" },
       { slug: "insurance", name: "保険業界" },
@@ -51,7 +51,7 @@ const groups = [
   },
   {
     label: "業態を変える転職パターン",
-    intro: "今いる業態から別の業態へ移るルート。よくある悩みに正面から答えます。",
+    intro: "今いる業態から別の業態へ移るルートです。よくある悩みに正面から答えます。",
     items: [
       { slug: "ses-exit", name: "SESから抜け出す転職" },
       { slug: "sier-to-web", name: "SIerからWeb系への転職" },
@@ -66,7 +66,7 @@ export default function IndustryIndexPage() {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "業界別エンジニア転職ガイド一覧",
-    description: "主要な転職先業界を業態別に分類した一覧ページ。",
+    description: "主要な転職先業界を業態別に分類した一覧ページです。",
     url: "https://middle-engineer.com/industry/",
     mainEntity: {
       "@type": "ItemList",
@@ -84,7 +84,7 @@ export default function IndustryIndexPage() {
     <>
       <ArticleJsonLd
         title="業界別エンジニア転職ガイド一覧【全25業界】"
-        description="主要な転職先業界を業態別に分類した一覧ページ。"
+        description="主要な転職先業界を業態別に分類した一覧ページです。"
         url="/industry/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />

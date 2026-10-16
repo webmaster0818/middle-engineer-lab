@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/fujitsu/" },
   title: "富士通 エンジニア転職ガイド【2026年】年収・ジョブ型採用",
   description:
-    "富士通へのエンジニア転職を解説。有報の平均年収(2026年3月期)、ジョブ型採用の特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の狙い目を出典付きでまとめました。",
+    "富士通へのエンジニア転職を解説します。有価証券報告書の平均年収(2026年3月期)、ジョブ型採用の特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の有力な選択肢を出典付きでまとめました。",
 };
 
 const toc = [
@@ -112,7 +112,7 @@ export default function FujitsuCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="富士通 エンジニア転職ガイド" description="富士通へのエンジニア転職を解説。有報の平均年収(2026年3月期)、ジョブ型採用、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/fujitsu/" />
+      <ArticleJsonLd title="富士通 エンジニア転職ガイド" description="富士通へのエンジニア転職を解説します。有価証券報告書の平均年収(2026年3月期)、ジョブ型採用、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/fujitsu/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "富士通" }]} />
 
@@ -124,11 +124,11 @@ export default function FujitsuCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】富士通の年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 富士通株式会社の平均年収は1,012万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢42.7歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 1,012万円（2026年3月期 有報）。前期929万円から80万円超増え、全社員平均で1,000万円台に到達。エンジニア職個別の年収レンジを示すものではありません。</li><li>・ジョブ型人材マネジメントを採用しており、職務・等級により金額に幅があります。</li><li>・エンジニア職の実際の提示額は求人票（ジョブディスクリプション）・オファーで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 1,012万円です（2026年3月期 有価証券報告書）。前期929万円から80万円超増え、全社員平均で1,000万円台に到達します。エンジニア職個別の年収レンジを示すものではありません。</li><li>・ジョブ型人材マネジメントを採用しており、職務・等級により金額に幅があります。</li><li>・エンジニア職の実際の提示額は求人票（ジョブディスクリプション）・オファーで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
-          富士通は、DXブランド「Fujitsu Uvance」を軸にSIからの事業変革を進める総合ITベンダーです。ジョブ型人材マネジメントによる通年採用が特徴。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典付きで整理します。
+          富士通は、DXブランド「Fujitsu Uvance」を軸にSIからの事業変革を進める総合ITベンダーです。ジョブ型人材マネジメントによる通年採用が特徴です。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典付きで整理します。
         </p>
         <DataNote surveyedAt="2026年8月" sources={["富士通株式会社 有価証券報告書（2026年3月期）", "富士通 キャリア採用情報／ジョブ型採用方針プレスリリース（公式）", "OpenWork等の口コミプラットフォーム", "厚生労働省 job tag", "経済産業省 IT人材需給調査（2019年公表）"]} />
 
@@ -147,7 +147,7 @@ export default function FujitsuCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんな人向きか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 text-sm leading-relaxed mb-3">
-              <strong>結論：</strong>富士通は「ジョブ型で専門性を評価され、DX・先端コンピューティングに関わりたい」エンジニアに向く企業です。全社員平均1,012万円（2026年3月期 有報）と処遇は高水準。専門性に合致した経験があれば、年齢に関係なく評価されやすい制度設計です。
+              <strong>結論：</strong>富士通は「ジョブ型で専門性を評価され、DX・先端コンピューティングに関わりたい」エンジニアに向く企業です。全社員平均1,012万円（2026年3月期 有価証券報告書）と処遇は高水準です。専門性に合致した経験があれば、年齢に関係なく評価されやすい制度設計です。
             </p>
             <ul className="space-y-1.5 text-sm text-slate-600">
               <li>・<strong>向いている人</strong>：クラウド/AI/セキュリティ等の専門性を持つ人、上流〜PM経験者、ジョブ型で処遇されたい人</li>
@@ -189,7 +189,7 @@ export default function FujitsuCompanyPage() {
         <section id="tech" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック・領域</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            富士通はジョブ型のため職務ごとに求められる技術が明確です。公式の採用方針・求人で示される代表的な領域は以下の通りです。
+            富士通はジョブ型のため職務ごとに求められる技術が明確です。公式の採用方針・求人で示される代表的な領域は以下のとおりです。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -259,13 +259,13 @@ export default function FujitsuCompanyPage() {
               <ul className="space-y-1.5 text-sm text-green-700">
                 <li>・テレワークが可能で柔軟に働けるとの声</li>
                 <li>・育児関連の制度・福利厚生が手厚いとの評価</li>
-                <li>・大規模SIの経験を積める基盤がある</li>
+                <li>・大規模SIの経験を積める基盤があります</li>
               </ul>
             </div>
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-amber-700">
-                <li>・労働環境はプロジェクトによる差が大きい</li>
+                <li>・労働環境はプロジェクトによる差が大きいです</li>
                 <li>・評価制度や事業展望への課題を指摘する声</li>
                 <li>・大企業ゆえの組織変革途上という指摘</li>
               </ul>
@@ -278,10 +278,10 @@ export default function FujitsuCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              30代・40代のミドルエンジニアにとって富士通は、ジョブ型採用と「管理職・リーダークラスのキャリア採用強化」という方針が追い風です。特定領域（クラウド/AI/セキュリティ等）の専門性や上流・PM経験を持つ人は、年齢ではなく職務適合で評価されやすく、即戦力ポジションを狙いやすいと言えます。平均年齢42.7歳という有報の数字からも、ミドル層が中核の企業であることが分かります。
+              30代・40代のミドルエンジニアにとって富士通は、ジョブ型採用と「管理職・リーダークラスのキャリア採用強化」という方針が追い風です。特定領域（クラウド/AI/セキュリティ等）の専門性や上流・PM経験を持つ人は、年齢ではなく職務適合で評価されやすく、即戦力ポジションを狙いやすいと言えます。平均年齢42.7歳という有価証券報告書の数字からも、ミドル層が中核の企業であることが分かります。
             </p>
             <p>
-              一方、労働環境がプロジェクトによる差が大きいという口コミ傾向があるため、配属予定の領域・チームの働き方は面談で確認しましょう。年収（全社員平均1,012万円）は高水準ですが全社員平均なので、ジョブごとの提示額をオファーで必ず確認を。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
+              一方、労働環境がプロジェクトによる差が大きいという口コミ傾向があるため、配属予定の領域・チームの働き方は面談で確認しましょう。年収（全社員平均1,012万円）は高水準ですが全社員平均であるため、ジョブごとの提示額をオファーで必ずご確認ください。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -290,9 +290,9 @@ export default function FujitsuCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">富士通転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "doda(IT)", href: "/review/doda-it/", desc: "国内最大級の求人数。大手ITベンダーの各事業部門の求人を網羅。" },
-              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "大手SIerへの転職支援に強く、書類添削・面接対策が手厚い。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でDX部門・クラウド系ポジションの提案に強み。" },
+              { name: "doda(IT)", href: "/review/doda-it/", desc: "国内最大級の求人数です。大手ITベンダーの各事業部門の求人を網羅しています。" },
+              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "大手SIerへの転職支援に強く、書類添削・面接対策が手厚いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でDX部門・クラウド系ポジションの提案に強みがあります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
@@ -300,7 +300,7 @@ export default function FujitsuCompanyPage() {
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数併用のコツ</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数併用のコツ</Link>をご参照ください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">

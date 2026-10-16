@@ -6,13 +6,13 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/security/" },
-  title: "セキュリティエンジニア転職の攻め方｜年収・資格・未経験【2026年】",
+  title: "セキュリティエンジニア転職の進め方｜年収・資格・未経験【2026年】",
   description:
-    "セキュリティエンジニアの転職市場を2026年6月時点の公的データで整理。job tag・レバテック年代別年収、情報処理安全確保支援士など資格の使いどころ、未経験可否、将来性、求人の探し方を実務目線で解説します。",
+    "セキュリティエンジニアの転職市場を2026年6月時点の公的データで整理します。job tag・レバテック年代別年収、情報処理安全確保支援士など資格の使いどころ、未経験可否、将来性、求人の探し方を実務目線で解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：セキュリティ転職の攻め方" },
+  { id: "conclusion", label: "結論：セキュリティ転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "future", label: "将来性と需要の背景" },
   { id: "qualification", label: "資格の使いどころ（支援士・CISSP等）" },
@@ -25,10 +25,10 @@ const toc = [
 ];
 
 const qualifications = [
-  { name: "情報処理安全確保支援士（登録セキスペ）", note: "国家資格。セキュリティ分野で唯一の士業系国家資格で、官公庁・金融・大手SIerの求人や入札要件で重視されやすい。日本の現場で評価の通りが良い。" },
-  { name: "CISSP", note: "国際的に通用するセキュリティ資格。一定の実務経験が受験要件で、ハイクラス・外資系・マネジメント寄りのポジションで強い。" },
-  { name: "CEH（Certified Ethical Hacker）", note: "攻撃者視点の知識を体系化。ペネトレーションテスト・脆弱性診断系の職種でアピールしやすい。" },
-  { name: "クラウドセキュリティ認定", note: "AWS Security Specialty、Google Cloud Security Engineer等。クラウドセキュリティ案件の増加で価値が上がっている。" },
+  { name: "情報処理安全確保支援士（登録セキスペ）", note: "国家資格です。セキュリティ分野で唯一の士業系国家資格で、官公庁・金融・大手SIerの求人や入札要件で重視されやすいです。日本の現場で評価の通りが良いです。" },
+  { name: "CISSP", note: "国際的に通用するセキュリティ資格です。一定の実務経験が受験要件で、ハイクラス・外資系・マネジメント寄りのポジションで強いです。" },
+  { name: "CEH（Certified Ethical Hacker）", note: "攻撃者視点の知識を体系化します。ペネトレーションテスト・脆弱性診断系の職種でアピールしやすいです。" },
+  { name: "クラウドセキュリティ認定", note: "AWS Security Specialty、Google Cloud Security Engineer等です。クラウドセキュリティ案件の増加で価値が上がっています。" },
 ];
 
 const faqs = [
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "セキュリティエンジニアは未経験でもなれる？",
-    a: "完全未経験からいきなりは難しいものの、IT実務経験者からの転向は十分現実的です。ネットワーク・サーバー・クラウドの知識はセキュリティの土台になるため、インフラ／運用エンジニアからの転向が王道です。まずはSOCや脆弱性診断など入り口になりやすいポジションを狙い、現職でセキュリティ関連業務を担当して実績を作るのが近道です。情報処理安全確保支援士やCTFへの参加が学習の道しるべになります。",
+    a: "完全未経験からいきなりは難しいものの、IT実務経験者からの転向は十分現実的です。ネットワーク・サーバー・クラウドの知識はセキュリティの土台になるため、インフラ／運用エンジニアからの転向が代表的な方法です。まずはSOCや脆弱性診断など入り口になりやすいポジションを狙い、現職でセキュリティ関連業務を担当して実績を作るのが近道です。情報処理安全確保支援士やCTFへの参加が学習の道しるべになります。",
   },
   {
     q: "セキュリティエンジニアの将来性は？",
@@ -76,8 +76,8 @@ export default function SecuritySkillPage() {
   return (
     <>
       <ArticleJsonLd
-        title="セキュリティエンジニア転職の攻め方｜年収・資格・未経験【2026年】"
-        description="セキュリティエンジニアの転職市場を2026年6月時点の公的データで整理。job tag・レバテック年代別年収、情報処理安全確保支援士など資格の使いどころ、未経験可否、将来性、求人の探し方を実務目線で解説します。"
+        title="セキュリティエンジニア転職の進め方｜年収・資格・未経験【2026年】"
+        description="セキュリティエンジニアの転職市場を2026年6月時点の公的データで整理します。job tag・レバテック年代別年収、情報処理安全確保支援士など資格の使いどころ、未経験可否、将来性、求人の探し方を実務目線で解説します。"
         url="/skill/security/"
       />
       <script
@@ -94,7 +94,7 @@ export default function SecuritySkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          セキュリティエンジニア転職の攻め方｜年収・資格・未経験【2026年】
+          セキュリティエンジニア転職の進め方｜年収・資格・未経験【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | セキュリティエンジニアの転職市場を公的データと年代別データで整理
@@ -125,15 +125,15 @@ export default function SecuritySkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：セキュリティ転職の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：セキュリティ転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              セキュリティは<strong>完全未経験からは難しいが、IT実務経験者の転向先としては有望</strong>な領域です。攻め方の軸は「既存のIT経験を土台に、セキュリティの専門性を一枚乗せる」こと。要点は3つです。
+              セキュリティは<strong>完全未経験からは難しいが、IT実務経験者の転向先としては有望</strong>な領域です。進め方の軸は「既存のIT経験を土台に、セキュリティの専門性を一枚乗せる」ことです。要点は3つです。
             </p>
             <ul className="text-sm text-blue-900 space-y-2">
-              <li>① <strong>インフラ／ネットワーク／クラウドの経験</strong>を土台に、SOC・脆弱性診断など入り口ポジションから入る。</li>
-              <li>② <strong>情報処理安全確保支援士（登録セキスペ）</strong>を中心に、日本の現場で通りの良い資格で学習と書類選考を補強する。</li>
-              <li>③ IT特化エージェント（レバテックキャリア等）と<strong>金融・官公庁に強いリクルートエージェントIT</strong>を併用し、専任ポジションを拾う。</li>
+              <li>① <strong>インフラ／ネットワーク／クラウドの経験</strong>を土台に、SOC・脆弱性診断など入り口ポジションから入ります。</li>
+              <li>② <strong>情報処理安全確保支援士（登録セキスペ）</strong>を中心に、日本の現場で通りの良い資格で学習と書類選考を補強します。</li>
+              <li>③ IT特化エージェント（レバテックキャリア等）と<strong>金融・官公庁に強いリクルートエージェントIT</strong>を併用し、専任ポジションを拾います。</li>
             </ul>
           </div>
         </section>
@@ -181,7 +181,7 @@ export default function SecuritySkillPage() {
         <section id="future" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">将来性と需要の背景</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            セキュリティ領域の将来性は、検索でも特に関心が高いテーマです。結論として、需要は当面底堅いと考えられます。背景は次の通りです。
+            セキュリティ領域の将来性は、検索でも特に関心が高いテーマです。結論として、需要は当面底堅いと考えられます。背景は次のとおりです。
           </p>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -229,9 +229,9 @@ export default function SecuritySkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              { t: "土台として求められやすい", d: "ネットワーク（TCP/IP・ファイアウォール）、サーバー/OS、クラウド（AWS/GCP/Azureいずれか）の基礎。既存のインフラ・運用経験はそのまま評価対象になります。" },
-              { t: "セキュリティの中核として見られる", d: "脆弱性診断、ログ・インシデント分析、SIEM/EDR等のツール運用、セキュリティ基準（NIST/ISO等）の理解。" },
-              { t: "差別化になる", d: "CSIRT構築・運営、ペネトレーションテスト、ゼロトラスト/クラウドセキュリティ設計、セキュリティポリシー策定・経営層への報告経験。" },
+              { t: "土台として求められやすい", d: "ネットワーク（TCP/IP・ファイアウォール）、サーバー/OS、クラウド（AWS/GCP/Azureいずれか）の基礎です。既存のインフラ・運用経験はそのまま評価対象になります。" },
+              { t: "セキュリティの中核として見られる", d: "脆弱性診断、ログ・インシデント分析、SIEM/EDR等のツール運用、セキュリティ基準（NIST/ISO等）の理解です。" },
+              { t: "差別化になる", d: "CSIRT構築・運営、ペネトレーションテスト、ゼロトラスト/クラウドセキュリティ設計、セキュリティポリシー策定・経営層への報告経験です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.t}</h3>
@@ -248,13 +248,13 @@ export default function SecuritySkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">セキュリティアーキテクト路線</h3>
               <p className="text-sm text-petrol-deep">
-                企業全体のセキュリティアーキテクチャを設計するスペシャリスト。ゼロトラスト設計、クラウドセキュリティ戦略、フレームワーク策定を担います。技術の深さと全体最適の視点が求められます。
+                企業全体のセキュリティアーキテクチャを設計するスペシャリストです。ゼロトラスト設計、クラウドセキュリティ戦略、フレームワーク策定を担います。技術の深さと全体最適の視点が求められます。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ペネトレーションテスター / レッドチーム路線</h3>
               <p className="text-sm text-petrol-deep">
-                攻撃者視点で脆弱性を発見する専門職。高度な技術力と倫理観が求められ、希少性が高いポジションです。CEH等の資格と実機での検証経験がアピールになります。
+                攻撃者視点で脆弱性を発見する専門職です。高度な技術力と倫理観が求められ、希少性が高いポジションです。CEH等の資格と実機での検証経験がアピールになります。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -272,22 +272,22 @@ export default function SecuritySkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT特化エージェント）</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化でセキュリティ求人を幅広く扱い、SOC・CSIRT・脆弱性診断などをカバー。技術理解のあるアドバイザーに相談しやすいのが利点です。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化でセキュリティ求人を幅広く扱い、SOC・CSIRT・脆弱性診断などをカバーします。技術理解のあるアドバイザーに相談しやすいのが利点です。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（国内最大級）</h3>
-              <p className="text-sm text-slate-600 mb-2">圧倒的な求人数と非公開求人が強み。金融・通信・官公庁系のセキュリティ求人やCSIRT構築案件を含め、幅広く探したい人に向きます。</p>
+              <p className="text-sm text-slate-600 mb-2">圧倒的な求人数と非公開求人が強みです。金融・通信・官公庁系のセキュリティ求人やCSIRT構築案件を含め、幅広く探したい人に向きます。</p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
-              <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、CISOクラスやセキュリティアーキテクトのスカウトが届きやすい。外資系の求人も見られます。</p>
+              <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、CISOクラスやセキュリティアーキテクトのスカウトが届きやすいです。外資系の求人も見られます。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>、各社比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>もどうぞ。
+            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>、各社比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>もご覧ください。
           </p>
         </section>
 
@@ -299,8 +299,8 @@ export default function SecuritySkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "1", t: "土台のIT経験を棚卸しする", d: "ネットワーク・サーバー・クラウドの経験はそのままセキュリティの基盤。職務経歴書で『どこでセキュリティに触れたか』を具体的に言語化します。" },
-              { n: "2", t: "資格と手を動かす学習で補う", d: "情報処理安全確保支援士を軸に学習を体系化し、CTFやセキュリティツールのハンズオンで実践感覚を養う。学習の証跡が転向時の説得力になります。" },
+              { n: "1", t: "土台のIT経験を棚卸しする", d: "ネットワーク・サーバー・クラウドの経験はそのままセキュリティの基盤です。職務経歴書で『どこでセキュリティに触れたか』を具体的に言語化します。" },
+              { n: "2", t: "資格と手を動かす学習で補う", d: "情報処理安全確保支援士を軸に学習を体系化し、CTFやセキュリティツールのハンズオンで実践感覚を養います。学習の証跡が転向時の説得力になります。" },
               { n: "3", t: "入り口ポジションから入る", d: "SOC監視・脆弱性診断など、未経験寄りでも入りやすいポジションを足がかりに。現職でセキュリティ関連タスクを担当し、実績を作ってから専任職へ寄せます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -313,7 +313,7 @@ export default function SecuritySkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            インフラ側の整理は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>もあわせてどうぞ。
+            インフラ側の整理は<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラエンジニア転職ガイド</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -328,7 +328,7 @@ export default function SecuritySkillPage() {
               30代・40代の現職エンジニアにとって、セキュリティは<strong>これまでのIT経験を捨てずに専門性を一枚乗せられる</strong>転向先です。インフラ・ネットワーク・クラウドの経験を土台に、情報処理安全確保支援士で学習を体系化すれば、年齢を強みに変えられます。金融・官公庁・大手企業では特にベテランの需要が安定しています。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>もどうぞ。
+              年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>もご覧ください。
             </p>
           </div>
         </section>

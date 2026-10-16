@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/after-resignation-procedures/" },
   title: "退職後の手続き【健康保険・年金・失業給付の期限と進め方】",
   description:
-    "エンジニアの退職後に必要な手続きを期限つきで整理。健康保険3択（任意継続・国保・扶養）の比較、年金切り替え、雇用保険（失業給付）の流れと2025年4月の給付制限変更まで30代・40代向けに解説します。",
+    "エンジニアの退職後に必要な手続きを期限とあわせて整理します。健康保険3択（任意継続・国保・扶養）の比較、年金切り替え、雇用保険（失業給付）の流れと2025年4月の給付制限変更まで30代・40代向けに解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：退職後3手続きは期限が短い。先に動く" },
+  { id: "conclusion", label: "結論：退職後3手続きは期限が短いです。先に動く" },
   { id: "overview", label: "退職後にやる3つの手続き（期限つき一覧）" },
-  { id: "pattern", label: "あなたのケースで何が必要か（パターン別）" },
+  { id: "pattern", label: "ご自身のケースで何が必要か（パターン別）" },
   { id: "health", label: "健康保険の3択を比較（任意継続・国保・扶養）" },
   { id: "pension", label: "年金の切り替え" },
   { id: "unemployment", label: "雇用保険（失業給付）の流れ" },
@@ -25,9 +25,9 @@ const toc = [
 ];
 
 const overview = [
-  { name: "健康保険", deadline: "任意継続は退職翌日から20日以内 ／ 国保は14日以内", where: "協会けんぽ等・市区町村", note: "任意継続・国保・家族の扶養の3択。期限が最も短いので最優先で決めます。" },
+  { name: "健康保険", deadline: "任意継続は退職翌日から20日以内 ／ 国保は14日以内", where: "協会けんぽ等・市区町村", note: "任意継続・国保・家族の扶養の3択です。期限が最も短いので最優先で決めます。" },
   { name: "年金", deadline: "退職日の翌日から14日以内", where: "市区町村", note: "厚生年金から国民年金（第1号）への切り替え。配偶者の扶養に入る場合は別手続き。" },
-  { name: "雇用保険（失業給付）", deadline: "離職票が届き次第すみやかに", where: "ハローワーク", note: "求職申込→7日間の待期→（自己都合は）給付制限を経て受給。受給には求職活動が前提。" },
+  { name: "雇用保険（失業給付）", deadline: "離職票が届き次第すみやかに", where: "ハローワーク", note: "求職申込→7日間の待期→（自己都合は）給付制限を経て受給です。受給には求職活動が前提です。" },
 ];
 
 const faqs = [
@@ -72,7 +72,7 @@ export default function AfterResignationProceduresPage() {
     <>
       <ArticleJsonLd
         title="退職後の手続き【健康保険・年金・失業給付の期限と進め方】"
-        description="エンジニアの退職後に必要な手続きを期限つきで整理。健康保険3択（任意継続・国保・扶養）の比較、年金切り替え、雇用保険（失業給付）の流れと2025年4月の給付制限変更まで30代・40代向けに解説します。"
+        description="エンジニアの退職後に必要な手続きを期限とあわせて整理します。健康保険3択（任意継続・国保・扶養）の比較、年金切り替え、雇用保険（失業給付）の流れと2025年4月の給付制限変更まで30代・40代向けに解説します。"
         url="/knowledge/after-resignation-procedures/"
       />
       <script
@@ -100,13 +100,13 @@ export default function AfterResignationProceduresPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】退職後の手続きは何をいつまでにやる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 健康保険・年金・失業給付の3つ。期限が短いものが多いので、先に動くのが鉄則です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・健康保険は任意継続が退職翌日から20日以内、国保が14日以内。最優先で決める</li><li>・年金は厚生年金→国民年金（第1号）への切り替えを原則14日以内</li><li>・失業給付は離職票が届き次第ハローワークへ。自己都合の給付制限は2025年4月以降の離職で原則1ヶ月に短縮</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・健康保険は任意継続が退職翌日から20日以内、国保が14日以内です。最優先で決めます</li><li>・年金は厚生年金→国民年金（第1号）への切り替えを原則14日以内</li><li>・失業給付は離職票が届き次第ハローワークへ。自己都合の給付制限は2025年4月以降の離職で原則1ヶ月に短縮</li></ul>
           </div>
         </section>
 
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
-            退職が決まったら、次に待っているのが社会保険まわりの手続きです。エンジニアの場合、転職先への入社まで空白期間が空くこともあり、その間の健康保険・年金・雇用保険（失業給付）を自分で手続きする必要があります。これらは<strong>期限が短いものが多く、放置すると保険料の未納や受給の遅れにつながります</strong>。本記事では、退職後にやるべき3つの手続きを期限つきで整理します。退職を切り出す前段階は
+            退職が決まったら、次に待っているのが社会保険まわりの手続きです。エンジニアの場合、転職先への入社まで空白期間が空くこともあり、その間の健康保険・年金・雇用保険（失業給付）を自分で手続きする必要があります。これらは<strong>期限が短いものが多く、放置すると保険料の未納や受給の遅れにつながります</strong>。本記事では、退職後にやるべき3つの手続きを期限とあわせて整理します。退職を切り出す前段階は
             <Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>
             、有給の扱いは
             <Link href="/knowledge/paid-leave/" className="text-petrol hover:underline">有給消化の法律論</Link>
@@ -135,12 +135,12 @@ export default function AfterResignationProceduresPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：退職後3手続きは期限が短い。先に動く</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：退職後3手続きは期限が短いです。先に動く</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・<strong>健康保険</strong>：任意継続は退職翌日から<strong>20日以内</strong>、国保は<strong>14日以内</strong>。最優先で決める。</li>
-              <li>・<strong>年金</strong>：厚生年金→国民年金の切り替えは原則<strong>14日以内</strong>。</li>
-              <li>・<strong>失業給付</strong>：離職票が届き次第ハローワークへ。自己都合の給付制限は<strong>2025年4月以降の離職で原則1ヶ月</strong>に短縮。</li>
-              <li>・転職先に間を空けず入社する場合は、新しい会社で社会保険に加入するため一部手続きは不要。</li>
+              <li>・<strong>健康保険</strong>：任意継続は退職翌日から<strong>20日以内</strong>、国保は<strong>14日以内です</strong>。最優先で決めます。</li>
+              <li>・<strong>年金</strong>：厚生年金→国民年金の切り替えは原則<strong>14日以内です</strong>。</li>
+              <li>・<strong>失業給付</strong>：離職票が届き次第ハローワークへ。自己都合の給付制限は<strong>2025年4月以降の離職で原則1ヶ月</strong>に短縮します。</li>
+              <li>・転職先に間を空けず入社する場合は、新しい会社で社会保険に加入するため一部手続きは不要です。</li>
             </ul>
           </div>
         </section>
@@ -173,7 +173,7 @@ export default function AfterResignationProceduresPage() {
         </section>
 
         <section id="pattern" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">あなたのケースで何が必要か（パターン別）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ご自身のケースで何が必要か（パターン別）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             必要な手続きは「次の会社まで間が空くかどうか」で大きく変わります。自分がどのパターンに当てはまるか、先に確認しておくと無駄な手続きを避けられます。
           </p>
@@ -212,20 +212,20 @@ export default function AfterResignationProceduresPage() {
                 <tr className="align-top">
                   <td className="px-4 py-3 border-b border-slate-100 font-medium text-slate-800">任意継続</td>
                   <td className="px-4 py-3 border-b border-slate-100 text-slate-600">退職翌日から20日以内に申請／最長2年間（協会けんぽの場合）</td>
-                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">原則として全額自己負担（在職中は会社と折半）。扶養家族が増えても保険料は変わらない傾向。</td>
-                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">扶養家族が多い人、前年所得が比較的高い人。</td>
+                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">原則として全額自己負担です（在職中は会社と折半）。扶養家族が増えても保険料は変わらない傾向です。</td>
+                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">扶養家族が多い人、前年所得が比較的高い人です。</td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 border-b border-slate-100 font-medium text-slate-800">国民健康保険</td>
                   <td className="px-4 py-3 border-b border-slate-100 text-slate-600">退職日の翌日から14日以内に届出（市区町村）</td>
-                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">前年所得をベースに計算。非自発的失業の場合、軽減措置が設けられていることがある。</td>
-                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">前年所得が低い人、会社都合等で軽減対象になる人。</td>
+                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">前年所得をベースに計算です。非自発的失業の場合、軽減措置が設けられていることがあります。</td>
+                  <td className="px-4 py-3 border-b border-slate-100 text-slate-600">前年所得が低い人、会社都合等で軽減対象になる人です。</td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-medium text-slate-800">家族の扶養に入る</td>
                   <td className="px-4 py-3 text-slate-600">扶養に入る側の保険者の手続きによる</td>
-                  <td className="px-4 py-3 text-slate-600">本人の保険料負担は原則なし。ただし収入要件などの条件あり。</td>
-                  <td className="px-4 py-3 text-slate-600">配偶者等が健康保険に加入していて、収入要件を満たす人。</td>
+                  <td className="px-4 py-3 text-slate-600">本人の保険料負担は原則なし。ただし収入要件などの条件があります。</td>
+                  <td className="px-4 py-3 text-slate-600">配偶者等が健康保険に加入していて、収入要件を満たす人です。</td>
                 </tr>
               </tbody>
             </table>
@@ -241,9 +241,9 @@ export default function AfterResignationProceduresPage() {
             会社員のときは厚生年金に加入していますが、退職して間が空く場合は、国民年金（第1号被保険者）への切り替え手続きが必要です。手続きは原則として退職日の翌日から14日以内に、住んでいる市区町村で行います。
           </p>
           <ul className="space-y-3 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>転職先にすぐ入社する場合は、新しい会社で厚生年金に加入するため、自分での切り替えは不要なことが多い。</span></li>
-            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>配偶者の扶養（第3号被保険者）に入る場合は、配偶者の勤務先を通じた別の手続きになる。</span></li>
-            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>保険料の納付が難しい場合、免除・納付猶予の制度がある。該当しそうな場合は窓口で相談を。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>転職先にすぐ入社する場合は、新しい会社で厚生年金に加入するため、自分での切り替えは不要なことが多いです。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>配偶者の扶養（第3号被保険者）に入る場合は、配偶者の勤務先を通じた別の手続きになります。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>保険料の納付が難しい場合、免除・納付猶予の制度があります。該当しそうな場合は窓口で相談を。</span></li>
           </ul>
         </section>
 
@@ -290,7 +290,7 @@ export default function AfterResignationProceduresPage() {
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            ※ 受給日数・金額・条件は離職理由や被保険者期間によって異なります。自分が対象になる内容は必ずハローワークで確認してください。職業訓練との併用などは、ハローワークの活用に関する記事や窓口の案内も参考に。
+            ※ 受給日数・金額・条件は離職理由や被保険者期間によって異なります。自分が対象になる内容は必ずハローワークで確認してください。職業訓練との併用などは、ハローワークの活用に関する記事や窓口の案内もご参照ください。
           </p>
         </section>
 
@@ -304,7 +304,7 @@ export default function AfterResignationProceduresPage() {
                   "離職票（失業給付の手続きに必要）",
                   "雇用保険被保険者証",
                   "源泉徴収票（年末調整・確定申告に必要）",
-                  "年金手帳または基礎年金番号がわかるもの",
+                  "年金手帳または基礎年金番号が分かるもの",
                   "退職証明書（必要に応じて）",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>{item}</span></li>
@@ -316,7 +316,7 @@ export default function AfterResignationProceduresPage() {
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
                   "本人確認書類（マイナンバーカード・運転免許証など）",
-                  "退職日のわかる書類（離職票・退職証明書など）",
+                  "退職日の分かる書類（離職票・退職証明書など）",
                   "印鑑（窓口により必要な場合）",
                   "保険料の口座振替に使う通帳・キャッシュカード",
                   "扶養に入る場合は収入を証明する書類",
@@ -345,7 +345,7 @@ export default function AfterResignationProceduresPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">空白期間は手続き漏れに注意</h3>
-              <p className="text-sm text-slate-600">じっくり転職活動をする場合、空白期間中こそ保険・年金の手続きが漏れがちです。期限の短い健康保険・年金を先に確実に処理し、失業給付は離職票到着後に進めるのが安全です。転職活動全体の段取りは<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参考に。</p>
+              <p className="text-sm text-slate-600">じっくり転職活動をする場合、空白期間中こそ保険・年金の手続きが漏れがちです。期限の短い健康保険・年金を先に確実に処理し、失業給付は離職票到着後に進めるのが安全です。転職活動全体の段取りは<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>もご参照ください。</p>
             </div>
           </div>
         </section>

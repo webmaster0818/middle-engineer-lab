@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "コーディングテスト対策【頻出領域とLeetCode・AtCoder活用法】";
 const DESCRIPTION =
-  "エンジニア転職のコーディングテスト対策を徹底解説。頻出アルゴリズム領域、LeetCode・AtCoder・paizaの使い分け、当日の進め方を30代・40代向けにまとめました。";
+  "エンジニア転職のコーディングテスト対策を解説します。頻出アルゴリズム領域、LeetCode・AtCoder・paizaの使い分け、当日の進め方を30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/coding-test/" },
@@ -74,38 +74,38 @@ const platforms = [
     name: "LeetCode",
     color: "blue",
     purpose: "面接型コーディングテスト対策の定番",
-    detail: "企業の出題に近い問題が体系的に揃う。Top Interview 150 などのコース機能で頻出問題を効率よく回せる。英語UIだが解説が豊富。まずEasy→Mediumの順で頻出パターンを潰すのが王道。",
+    detail: "企業の出題に近い問題が体系的に揃います。Top Interview 150 などのコース機能で頻出問題を効率よく回せます。英語UIだが解説が豊富です。まずEasy→Mediumの順で頻出パターンを潰すのが一般的です。",
     fit: "外資・メガベンチャー志望、面接でのライブコーディング対策",
   },
   {
     name: "AtCoder",
     color: "blue",
     purpose: "アルゴリズム地力と実装速度を鍛える",
-    detail: "日本語の競技プログラミングサイト。毎週コンテストが開催され、過去問（AtCoder Problems）で段階的に練習できる。実装速度と計算量感覚が自然に身につく。茶〜緑色レートが取れれば多くの転職向けテストに対応しやすい。",
+    detail: "日本語の競技プログラミングサイトです。毎週コンテストが開催され、過去問（AtCoder Problems）で段階的に練習できます。実装速度と計算量感覚が自然に身につきます。茶〜緑色レートが取れれば多くの転職向けテストに対応しやすいです。",
     fit: "アルゴリズムを基礎から鍛え直したい人、地力を底上げしたい人",
   },
   {
     name: "paiza",
     color: "blue",
     purpose: "スキルチェックのランクが転職スカウトに直結",
-    detail: "スキルチェック問題を解いてS〜Eのランクを取得し、そのランクで企業からスカウトを受ける仕組み。書類選考免除が用意される求人もある。日本語・日本企業向けで実利が大きい。スカウト型のため個別の仲介サポートは手薄な点に注意。",
+    detail: "スキルチェック問題を解いてS〜Eのランクを取得し、そのランクで企業からスカウトを受ける仕組みです。書類選考免除が用意される求人もあります。日本語・日本企業向けで実利が大きいです。スカウト型のため個別の仲介サポートは手薄な点に注意が必要です。",
     fit: "学歴・経歴の壁を実力で越えたい人、日系IT企業を効率よく狙いたい人",
   },
 ];
 
 const plan = [
-  { num: "Week1", title: "基礎固め", desc: "配列・文字列・ハッシュマップの基本問題を毎日2問。計算量（Big O）の復習も行い、自分の解法が何オーダーか言えるようにする。" },
-  { num: "Week2", title: "中級パターン", desc: "二分探索・スタック/キュー・リンクリストのMedium問題へ。解法パターンを自分の言葉でノート化し、再現できる状態にする。" },
-  { num: "Week3", title: "グラフ・木・DP", desc: "BFS/DFS・動的計画法のMedium問題を練習。解けなくても解説を読み、パターンを理解して翌日に解き直すのが重要。" },
-  { num: "Week4", title: "模擬テスト", desc: "制限時間を設けて本番形式で。60分で2問を目標に。ライブコーディング想定なら声に出して思考を説明する練習も入れる。" },
+  { num: "Week1", title: "基礎固め", desc: "配列・文字列・ハッシュマップの基本問題を毎日2問です。計算量（Big O）の復習も行い、自分の解法が何オーダーか言えるようにします。" },
+  { num: "Week2", title: "中級パターン", desc: "二分探索・スタック/キュー・リンクリストのMedium問題へ。解法パターンを自分の言葉でノート化し、再現できる状態にします。" },
+  { num: "Week3", title: "グラフ・木・DP", desc: "BFS/DFS・動的計画法のMedium問題を練習します。解けなくても解説を読み、パターンを理解して翌日に解き直すのが重要です。" },
+  { num: "Week4", title: "模擬テスト", desc: "制限時間を設けて本番形式で。60分で2問を目標に。ライブコーディング想定なら声に出して思考を説明する練習も入れます。" },
 ];
 
 const tips = [
-  { t: "まずブルートフォースで動かす", d: "最適解にこだわる前に、まず正しく動くコードを書く。動いてから計算量を改善する方が、白紙より圧倒的に評価される。" },
-  { t: "エッジケースを先に洗い出す", d: "空配列・単一要素・最大最小値・負数・重複などを最初に確認し、自分でテストケースを追加する習慣をつける。" },
-  { t: "思考プロセスを言語化する", d: "ライブコーディングでは『今〜を考えています』『このアプローチを選んだ理由は〜』と説明することで、詰まっても評価が残る。" },
-  { t: "時間配分を意識する", d: "複数問なら簡単な問題から確実に得点する。1問に固執しすぎず、解けそうな問題を先に片付ける。" },
-  { t: "部分点を狙いにいく", d: "完答できなくても、擬似コード・部分実装・アプローチ説明で評価される場合がある。最悪なのは何も出さないこと。" },
+  { t: "まずブルートフォースで動かす", d: "最適解にこだわる前に、まず正しく動くコードを書きます。動いてから計算量を改善する方が、白紙より圧倒的に評価されます。" },
+  { t: "エッジケースを先に洗い出す", d: "空配列・単一要素・最大最小値・負数・重複などを最初に確認し、自分でテストケースを追加する習慣をつけます。" },
+  { t: "思考プロセスを言語化する", d: "ライブコーディングでは『今〜を考えています』『このアプローチを選んだ理由は〜』と説明することで、詰まっても評価が残ります。" },
+  { t: "時間配分を意識する", d: "複数問なら簡単な問題から確実に得点します。1問に固執しすぎず、解けそうな問題を先に片付けます。" },
+  { t: "部分点を狙いにいく", d: "完答できなくても、擬似コード・部分実装・アプローチ説明で評価される場合があります。最悪なのは何も出さないことです。" },
 ];
 
 export default function CodingTestPage() {
@@ -149,13 +149,13 @@ export default function CodingTestPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニア転職のコーディングテストはどう対策すればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 頻出領域を絞り、目的別にプラットフォームを使い分けて毎日少量を継続するのが最短です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・頻出の配列・文字列・ハッシュマップ・探索・BFS/DFSに集中して固める</li><li>・面接対策はLeetCode、地力強化はAtCoder、日系スカウト狙いはpaizaと使い分ける</li><li>・苦手ならコーディングテストなしの求人を選ぶ戦略も有効</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・頻出の配列・文字列・ハッシュマップ・探索・BFS/DFSに集中して固めます</li><li>・面接対策はLeetCode、地力強化はAtCoder、日系スカウト狙いはpaizaと使い分けます</li><li>・苦手ならコーディングテストなしの求人を選ぶ戦略も有効</li></ul>
           </div>
         </section>
 
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed mb-4">
-            コーディングテストは、特にメガベンチャーや外資系IT企業でほぼ確実に通る関門です。実務経験が長くても、アルゴリズム問題は別スキルなので対策は必須。本記事では、頻出アルゴリズム領域、LeetCode・AtCoder・paizaの使い分け、当日の進め方を、30代・40代の視点を交えて解説します。
+            コーディングテストは、特にメガベンチャーや外資系IT企業でほぼ確実に通る関門です。実務経験が長くても、アルゴリズム問題は別スキルなので対策は必須です。本記事では、頻出アルゴリズム領域、LeetCode・AtCoder・paizaの使い分け、当日の進め方を、30代・40代の視点を交えて解説します。
           </p>
         </section>
 
@@ -164,9 +164,9 @@ export default function CodingTestPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：領域を絞り、毎日少量を継続する</h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
-              <li>・頻出は<strong>配列・文字列・ハッシュマップ・探索・BFS/DFS</strong>に集中。まずここを固める。</li>
-              <li>・面接対策は<strong>LeetCode</strong>、地力強化は<strong>AtCoder</strong>、日系スカウト狙いは<strong>paiza</strong>と目的で使い分ける。</li>
-              <li>・苦手なら「コーディングテストなしの求人」を選ぶ戦略も有効。エージェントに選考フローを確認する。</li>
+              <li>・頻出は<strong>配列・文字列・ハッシュマップ・探索・BFS/DFS</strong>に集中しています。まずここを固めます。</li>
+              <li>・面接対策は<strong>LeetCode</strong>、地力強化は<strong>AtCoder</strong>、日系スカウト狙いは<strong>paiza</strong>と目的で使い分けます。</li>
+              <li>・苦手なら「コーディングテストなしの求人」を選ぶ戦略も有効です。エージェントに選考フローを確認します。</li>
             </ul>
           </div>
         </section>
@@ -312,7 +312,7 @@ export default function CodingTestPage() {
             {[
               { name: "技術面接対策ガイド", href: "/knowledge/tech-interview/" },
               { name: "システム設計面接の対策", href: "/knowledge/system-design/" },
-              { name: "行動面接（STAR法）完全ガイド", href: "/knowledge/behavioral/" },
+              { name: "行動面接（STAR法）ガイド", href: "/knowledge/behavioral/" },
               { name: "ポートフォリオ作成ガイド", href: "/knowledge/portfolio/" },
               { name: "スカウトサービスの活用法", href: "/knowledge/scout/" },
               { name: "30代エンジニアの転職ガイド", href: "/age/30s/" },

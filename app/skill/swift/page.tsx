@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "Swift/iOSエンジニアの転職完全ガイド【2026年】年収・求人の探し方";
+const TITLE = "Swift/iOSエンジニアの転職ガイド【2026年】年収・求人の探し方";
 const DESCRIPTION =
-  "Swift/iOSエンジニアの転職市場を公表データで解説。求人ボックス・フリーランスボードの年収データ、求人の探し方、Android/未経験からの参入ルート、30代・40代の視点をまとめました。";
+  "Swift/iOSエンジニアの転職市場を公表データで解説します。求人ボックス・フリーランスボードの年収データ、求人の探し方、Android/未経験からの参入ルート、30代・40代の視点をまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/swift/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：Swift/iOS転職の攻め方" },
+  { id: "conclusion", label: "結論：Swift/iOS転職の進め方" },
   { id: "market", label: "市場・年収データ（公表値）" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
@@ -36,9 +36,9 @@ const salaryRows = [
 ];
 
 const careerPaths = [
-  { role: "iOSエンジニア", note: "SwiftUI/UIKitでのiOSアプリ開発。自社サービス企業のiOS専任ポジションが中心。" },
-  { role: "モバイルテックリード", note: "iOS/Androidチームのリード、アーキテクチャ設計、技術選定。30代後半〜40代の主戦場。" },
-  { role: "フリーランスiOSエンジニア", note: "自社サービス企業のiOS開発案件。フリーランス案件の平均年収・単価は高めの傾向（2025年調査）。" },
+  { role: "iOSエンジニア", note: "SwiftUI/UIKitでのiOSアプリ開発です。自社サービス企業のiOS専任ポジションが中心です。" },
+  { role: "モバイルテックリード", note: "iOS/Androidチームのリード、アーキテクチャ設計、技術選定です。30代後半〜40代の中心的な活躍領域です。" },
+  { role: "フリーランスiOSエンジニア", note: "自社サービス企業のiOS開発案件です。フリーランス案件の平均年収・単価は高めの傾向です（2025年調査）。" },
 ];
 
 const points = [
@@ -50,7 +50,7 @@ const points = [
 const faqs = [
   {
     q: "Swift/iOSエンジニアの平均年収はどのくらいですか？",
-    a: "雇用形態で大きく異なります。求人ボックスの給料ナビではSwiftエンジニア正社員の平均年収は約572万円（2023年9月時点とやや古い）。一方、フリーランスボードの調査（2025年10月・INSTANTROOM）ではSwift案件の平均年収が約945万円・月単価約78.7万円と高めです。正社員の年代感はレバテックの公表値（2025年）で正社員SE平均が30代約499万円・40代約618万円である点も参考になります。",
+    a: "雇用形態で大きく異なります。求人ボックスの給料ナビではSwiftエンジニア正社員の平均年収は約572万円です（2023年9月時点とやや古い）。一方、フリーランスボードの調査（2025年10月・INSTANTROOM）ではSwift案件の平均年収が約945万円・月単価約78.7万円と高めです。正社員の年代感はレバテックの公表値（2025年）で正社員SE平均が30代約499万円・40代約618万円である点も参考になります。",
   },
   {
     q: "Swift/iOSの需要は今後も続きますか？",
@@ -102,7 +102,7 @@ export default function SwiftSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          Swift/iOSエンジニアの転職完全ガイド【2026年】年収・求人の探し方
+          Swift/iOSエンジニアの転職ガイド【2026年】年収・求人の探し方
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | Swift/iOSエンジニアの転職市場を30代・40代向けに解説
@@ -120,14 +120,14 @@ export default function SwiftSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：Swift/iOS転職の攻め方</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：Swift/iOS転職の進め方</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               iOSは自社サービス企業を中心に需要が安定しており、フリーランス案件では高単価が出やすいスキルです（フリーランスボード調査でSwift案件平均年収約945万円・2025年10月）。<strong>App Store公開アプリ＋SwiftUI/アーキテクチャ設計の実績で“即戦力”を可視化</strong>し、モバイルに強いエージェントで求人を引き出すのが効率的です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・年収重視なら自社サービス企業・メガベンチャー、裁量重視ならスタートアップ。</li>
-              <li>・Android/他言語からの転向も、公開アプリで実績を作れば現実的。</li>
-              <li>・エージェントはレバテックキャリア／Geekly／ビズリーチが候補。</li>
+              <li>・年収重視なら自社サービス企業・メガベンチャー、裁量重視ならスタートアップです。</li>
+              <li>・Android/他言語からの転向も、公開アプリで実績を作れば現実的です。</li>
+              <li>・エージェントはレバテックキャリア／Geekly／ビズリーチが候補です。</li>
             </ul>
           </div>
         </section>
@@ -185,9 +185,9 @@ export default function SwiftSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              ["ジュニア〜ミドル（iOS実務1〜3年）", "SwiftUI/UIKitでの画面実装、API連携、公開アプリ実績。受託やスタートアップで募集が見られる層。"],
-              ["ミドル〜シニア（実務3〜6年）", "アーキテクチャ設計（MVVM等）、テスト、CI/CD、Core Data/CloudKit活用。設計レビューも担う中心層。"],
-              ["シニア・リード", "チームのアーキテクチャ統一、技術選定、UIKit→SwiftUI移行の主導。モバイルテックリード求人の中心。"],
+              ["ジュニア〜ミドル（iOS実務1〜3年）", "SwiftUI/UIKitでの画面実装、API連携、公開アプリ実績です。受託やスタートアップで募集が見られる層です。"],
+              ["ミドル〜シニア（実務3〜6年）", "アーキテクチャ設計（MVVM等）、テスト、CI/CD、Core Data/CloudKit活用です。設計レビューも担う中心層です。"],
+              ["シニア・リード", "チームのアーキテクチャ統一、技術選定、UIKit→SwiftUI移行の主導です。モバイルテックリード求人の中心です。"],
             ].map(([level, body], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{level}</h3>
@@ -219,17 +219,17 @@ export default function SwiftSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化でモバイル案件に強み。技術に明るいアドバイザーが在籍し、高年収帯のマッチングに対応。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化でモバイル案件に強みがあります。技術に明るいアドバイザーが在籍し、高年収帯のマッチングに対応しています。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化。スタートアップ・自社開発のiOS求人が見つかりやすく、提案スピードが強み。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化です。スタートアップ・自社開発のiOS求人が見つかりやすく、提案スピードが強みです。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型。実績のあるiOSエンジニアは、年収を上げる選択肢としてスカウトを受けやすい。</p>
+              <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型です。実績のあるiOSエンジニアは、年収を上げる選択肢としてスカウトを受けやすいです。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -260,7 +260,7 @@ export default function SwiftSkillPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            ミドル層は「公開アプリの運用・改善経験」「UIKit→SwiftUI移行など大きめの設計判断を主導した実績」が武器になります。レバテックの年代別公表値（2025年）でも正社員SE平均は30代約499万円・40代約618万円と、年代が上がるほど水準が上がる傾向があり、iOSの即戦力性を示せれば交渉余地は十分にあります。
+            ミドル層は「公開アプリの運用・改善経験」「UIKit→SwiftUI移行など大きめの設計判断を主導した実績」が強みになります。レバテックの年代別公表値（2025年）でも正社員SE平均は30代約499万円・40代約618万円と、年代が上がるほど水準が上がる傾向があり、iOSの即戦力性を示せれば交渉余地は十分にあります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             40代では「最新OS・SwiftUIへの追従力」を懸念されることがあるため、直近のキャッチアップ実績を具体的に語れると安心感につながります。年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link>、働き方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスvs正社員ガイド</Link>も参照してください。
@@ -272,10 +272,10 @@ export default function SwiftSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
             {[
-              ["モダンSwiftを押さえる", "SwiftUI、Combine、async/await、Swift Concurrencyを実プロジェクトで使いこなす。"],
-              ["アーキテクチャを語れるように", "MVVM/Clean Architecture/TCAなどの設計判断を、規模や要件に応じて選べるようにする。"],
-              ["品質・運用で差をつける", "テスト、CI/CD、クラッシュ解析、App Store審査対応の経験は具体的な強みになる。"],
-              ["アウトプットを残す", "公開アプリの継続運用、技術記事、OSS貢献など、運用力が見える成果物を蓄積する。"],
+              ["モダンSwiftを押さえる", "SwiftUI、Combine、async/await、Swift Concurrencyを実プロジェクトで使いこなします。"],
+              ["アーキテクチャを語れるように", "MVVM/Clean Architecture/TCAなどの設計判断を、規模や要件に応じて選べるようにします。"],
+              ["品質・運用で差をつける", "テスト、CI/CD、クラッシュ解析、App Store審査対応の経験は具体的な強みになります。"],
+              ["アウトプットを残す", "公開アプリの継続運用、技術記事、OSS貢献など、運用力が見える成果物を蓄積します。"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{t}</h3>

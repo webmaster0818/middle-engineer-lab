@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/handover/" },
   title: "引き継ぎドキュメントの作り方【エンジニア向けテンプレと逆算術】",
   description:
-    "エンジニアの退職時に作る引き継ぎドキュメントの構成テンプレートを公開。属人化コード・インフラ・暗黙知の文書化、後任未定時の進め方、逆算スケジュールとチェックリストを30代・40代向けに解説します。",
+    "エンジニアの退職時に作る引き継ぎドキュメントの構成テンプレートを公開しています。属人化コード・インフラ・暗黙知の文書化、後任未定時の進め方、逆算スケジュールとチェックリストを30代・40代向けに解説します。",
 };
 
 const toc = [
@@ -27,18 +27,18 @@ const toc = [
 
 const template = [
   { name: "担当業務一覧", desc: "担当しているプロジェクト・サービス・運用業務を棚卸し。それぞれの目的、ステークホルダー、現在の状況を1行ずつでも明記します。" },
-  { name: "システム構成", desc: "アーキテクチャ図、使用技術スタック、外部サービス連携、ネットワーク構成。図があれば最新化します。" },
-  { name: "運用手順", desc: "デプロイ手順、リリースフロー、障害対応フロー、監視・アラート設定、バックアップ・復旧手順。" },
-  { name: "アカウント・権限", desc: "各種クラウド・SaaS・リポジトリのアカウントとアクセス権限。個人アカウントと会社アカウントの切り分け、APIキーの棚卸し。" },
-  { name: "定例タスク", desc: "日次・週次・月次の定期作業、バッチの内容と実行タイミング、棚卸し・締め作業など忘れやすいルーティン。" },
-  { name: "連絡先一覧", desc: "関係部署、社外ベンダー、問い合わせ窓口、エスカレーション先。誰に何を聞けばよいかをまとめます。" },
-  { name: "トラブル履歴・ナレッジ", desc: "過去に起きた障害とその原因・対処、ハマりやすいポイント、回避策。暗黙知の文書化はここが要です。" },
-  { name: "残課題・技術負債", desc: "未解決のバグ、進行中タスクの状態（着手済/レビュー待ち/未着手）、既知の技術負債と優先度。" },
+  { name: "システム構成", desc: "アーキテクチャ図、使用技術スタック、外部サービス連携、ネットワーク構成です。図があれば最新化します。" },
+  { name: "運用手順", desc: "デプロイ手順、リリースフロー、障害対応フロー、監視・アラート設定、バックアップ・復旧手順です。" },
+  { name: "アカウント・権限", desc: "各種クラウド・SaaS・リポジトリのアカウントとアクセス権限です。個人アカウントと会社アカウントの切り分け、APIキーの棚卸し。" },
+  { name: "定例タスク", desc: "日次・週次・月次の定期作業、バッチの内容と実行タイミング、棚卸し・締め作業など忘れやすいルーティンです。" },
+  { name: "連絡先一覧", desc: "関係部署、社外ベンダー、問い合わせ窓口、エスカレーション先です。誰に何を聞けばよいかをまとめます。" },
+  { name: "トラブル履歴・ナレッジ", desc: "過去に起きた障害とその原因・対処、ハマりやすいポイント、回避策です。暗黙知の文書化はここが要です。" },
+  { name: "残課題・技術負債", desc: "未解決のバグ、進行中タスクの状態（着手済/レビュー待ち/未着手）、既知の技術負債と優先度です。" },
 ];
 
 const schedule = [
-  { period: "退職日から逆算", title: "担当業務を棚卸し", desc: "まず自分の担当を一覧化。ドキュメント化が必要な範囲と優先度を見積もります。" },
-  { period: "4〜5週間前", title: "ドキュメント整備を開始", desc: "構成テンプレに沿って文書化。属人化が強い領域・障害時に困る領域から優先して着手します。" },
+  { period: "退職日から逆算", title: "担当業務を棚卸し", desc: "まず自分の担当を一覧化します。ドキュメント化が必要な範囲と優先度を見積もります。" },
+  { period: "4〜5週間前", title: "ドキュメント整備を開始", desc: "構成テンプレに沿って文書化します。属人化が強い領域・障害時に困る領域から優先して着手します。" },
   { period: "2〜3週間前", title: "後任へのOJT・レクチャー", desc: "後任がいる場合は、ドキュメントを見ながら一緒に作業し、疑問点をその場で潰します。" },
   { period: "最終週", title: "残課題の引き渡し・予備日", desc: "未解決事項を整理して引き渡し。質問対応のための予備日を残しておくと安心です。" },
 ];
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: "オンコールや障害対応はどう引き継げばよいですか？",
-    a: "オンコール体制がある場合は、アラートの種類ごとの一次対応手順、エスカレーション先、過去の障害履歴と対処をまとめておきます。『このアラートが鳴ったらまず何を見るか』を手順化しておくと、後任が深夜の障害でも動けます。監視ツールのアカウント・通知設定の移管、連絡網の更新も忘れずに行いましょう。トラブル履歴は暗黙知の宝庫なので、ドキュメントの中でも特に丁寧に残す価値があります。",
+    a: "オンコール体制がある場合は、アラートの種類ごとの一次対応手順、エスカレーション先、過去の障害履歴と対処をまとめておきます。『このアラートが鳴ったらまず何を見るか』を手順化しておくと、後任が深夜の障害でも動けます。監視ツールのアカウント・通知設定の移管、連絡網の更新も忘れずに行いましょう。トラブル履歴は暗黙知の宝庫であるため、ドキュメントの中でも特に丁寧に残す価値があります。",
   },
   {
     q: "引き継ぎはどこまでやれば十分ですか？",
@@ -85,7 +85,7 @@ export default function HandoverPage() {
     <>
       <ArticleJsonLd
         title="引き継ぎドキュメントの作り方【エンジニア向けテンプレと逆算術】"
-        description="エンジニアの退職時に作る引き継ぎドキュメントの構成テンプレートを公開。属人化コード・インフラ・暗黙知の文書化、後任未定時の進め方、逆算スケジュールとチェックリストを30代・40代向けに解説します。"
+        description="エンジニアの退職時に作る引き継ぎドキュメントの構成テンプレートを公開しています。属人化コード・インフラ・暗黙知の文書化、後任未定時の進め方、逆算スケジュールとチェックリストを30代・40代向けに解説します。"
         url="/knowledge/handover/"
       />
       <script
@@ -116,10 +116,10 @@ export default function HandoverPage() {
               <strong>結論: 引き継ぎは口頭ではなくドキュメントとリポジトリに集約し、8項目のテンプレに沿って「後任が読めば作業を再現できる」粒度で残すのが基本です。</strong>
             </p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
-              <li>・構成は8項目（担当業務／システム構成／運用手順／アカウント・権限／定例タスク／連絡先／トラブル履歴／残課題）を骨組みにする。</li>
-              <li>・属人化コードや暗黙知は「なぜそうしたか」まで言語化し、手作業やインフラ操作は手順を明文化する。</li>
-              <li>・後任が未定でも引き継ぎは止めず、優先度を付けてチーム・上司がアクセスできる場所に文書化しておく。</li>
-              <li>・引き継ぎの完了を退職の条件にはできないが、質の高い引き継ぎは業界内の評判やリファレンスに直結する。</li>
+              <li>・構成は8項目（担当業務／システム構成／運用手順／アカウント・権限／定例タスク／連絡先／トラブル履歴／残課題）を骨組みにします。</li>
+              <li>・属人化コードや暗黙知は「なぜそうしたか」まで言語化し、手作業やインフラ操作は手順を明文化です。</li>
+              <li>・後任が未定でも引き継ぎは止めず、優先度を付けてチーム・上司がアクセスできる場所に文書化しておきます。</li>
+              <li>・引き継ぎの完了を退職の条件にはできないが、質の高い引き継ぎは業界内の評判やリファレンスに直結します。</li>
             </ul>
           </div>
         </section>
@@ -151,10 +151,10 @@ export default function HandoverPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：人ではなく仕組みに残す</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・引き継ぎは口頭説明でなく<strong>ドキュメントとリポジトリ</strong>に集約する。</li>
-              <li>・構成は<strong>8項目テンプレ</strong>（担当業務／構成／運用手順／権限／定例／連絡先／トラブル履歴／残課題）。</li>
-              <li>・エンジニア特有の<strong>属人化・暗黙知</strong>は「なぜそうしたか」まで言語化する。</li>
-              <li>・<strong>後任未定でも</strong>チーム・上司宛に優先度を付けて文書化しておく。</li>
+              <li>・引き継ぎは口頭説明でなく<strong>ドキュメントとリポジトリ</strong>に集約します。</li>
+              <li>・構成は<strong>8項目テンプレです</strong>（担当業務／構成／運用手順／権限／定例／連絡先／トラブル履歴／残課題）。</li>
+              <li>・エンジニア特有の<strong>属人化・暗黙知</strong>は「なぜそうしたか」まで言語化します。</li>
+              <li>・<strong>後任未定でも</strong>チーム・上司宛に優先度を付けて文書化しておきます。</li>
             </ul>
           </div>
         </section>
@@ -190,7 +190,7 @@ export default function HandoverPage() {
         <section id="sample" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">そのまま使える記入サンプル</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            テンプレートだけだと手が止まりがちなので、各項目をどの粒度で書けばよいかの記入例を示します。固有名詞は伏せ字（◯◯）にしていますので、自分の環境に置き換えて使ってください。
+            テンプレートだけだと手が止まりがちなため、各項目をどの粒度で書けばよいかの記入例を示します。固有名詞は伏せ字（◯◯）にしていますので、自分の環境に置き換えて使ってください。
           </p>
           <div className="space-y-5">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -199,7 +199,7 @@ export default function HandoverPage() {
 　目的：◯◯機能の提供／関係者：PdM ◯◯さん、フロント ◯◯さん
 　状況：機能追加◯件が進行中（詳細は「残課題」参照）
 ・夜間バッチ ◯◯の運用監視（副担当）
-　毎日2:00実行。失敗時はSlack #alert に通知。一次対応は「運用手順」参照`}</p>
+　毎日2:00実行です。失敗時はSlack #alert に通知です。一次対応は「運用手順」参照`}</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">運用手順（デプロイ／記入例）</h3>
@@ -212,10 +212,10 @@ export default function HandoverPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">トラブル履歴・暗黙知（記入例）</h3>
-              <p className="text-sm text-slate-600 bg-slate-50 rounded p-3 whitespace-pre-line">{`・◯◯のタイムアウトが稀に発生 → 原因は外部API ◯◯のレート制限。
+              <p className="text-sm text-slate-600 bg-slate-50 rounded p-3 whitespace-pre-line">{`・◯◯のタイムアウトが稀に発生 → 原因は外部API ◯◯のレート制限です。
 　対処：リトライ設定を◯回に。根本対応は未実施（残課題に記載）
-・◯◯の設定ファイルは手動更新。コード化されていないので変更時は要注意
-・このサービスは過去の経緯で◯◯ライブラリを使用。安易な置き換えは不可`}</p>
+・◯◯の設定ファイルは手動更新です。コード化されていないので変更時は要注意
+・このサービスは過去の経緯で◯◯ライブラリを使用します。安易な置き換えは不可`}</p>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-2">※ 記入例はあくまで粒度の参考です。実際の構成・固有名詞に置き換えて使用してください。</p>
@@ -258,7 +258,7 @@ export default function HandoverPage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 有給消化に入る前に引き継ぎを完了させる前提で計画すると安心です。有給の扱いは<Link href="/knowledge/paid-leave/" className="text-petrol hover:underline">有給消化の法律論</Link>、全体の段取りは<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 有給消化に入る前に引き継ぎを完了させる前提で計画すると安心です。有給の扱いは<Link href="/knowledge/paid-leave/" className="text-petrol hover:underline">有給消化の法律論</Link>、全体の段取りは<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照します。</p>
         </section>
 
         <section id="no-successor" className="mb-10 scroll-mt-20">
@@ -306,10 +306,10 @@ export default function HandoverPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">属人化の解消が退職交渉も楽にする</h3>
-              <p className="text-sm text-slate-600">「あなたにしか分からない」状態を解消しておくと、引き止めの材料を減らせます。引き継ぎ準備は、円満退職の交渉を有利に進める実務的な手段でもあります。交渉術は<Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>を参照。</p>
+              <p className="text-sm text-slate-600">「ご自身にしか分からない」状態を解消しておくと、引き止めの材料を減らせます。引き継ぎ準備は、円満退職の交渉を有利に進める実務的な手段でもあります。交渉術は<Link href="/knowledge/smooth-resignation/" className="text-petrol hover:underline">円満退職の交渉術</Link>をご参照ください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">文書化スキルは次の職場でも武器になる</h3>
+              <h3 className="font-bold text-slate-800 mb-2">文書化スキルは次の職場でも強みになる</h3>
               <p className="text-sm text-slate-600">暗黙知を言語化し、誰でも再現できる形に落とす力は、転職後のオンボーディングや設計ドキュメント整備でも評価されます。退職時の引き継ぎは、その力を示す機会でもあります。</p>
             </div>
           </div>

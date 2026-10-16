@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/30s-agents/" },
   title: "30代エンジニアの転職エージェントおすすめ比較【2026年8月】",
   description:
-    "30代エンジニアにおすすめのIT転職エージェントを2026年6月時点のデータで比較。レバテックの年代別平均年収（30代約499万円）など公的・公表値をもとに、選び方・口コミ傾向・併用パターンを解説します。",
+    "30代エンジニアにおすすめのIT転職エージェントを2026年6月時点のデータで比較します。レバテックの年代別平均年収（30代約499万円）など公的・公表値をもとに、選び方・口コミ傾向・併用パターンを解説します。",
 };
 
 const agents = [
@@ -23,7 +23,7 @@ const agents = [
     field: "IT/Web全般・高年収求人",
     salaryUp: "内定承諾者のうち応募時年収との差が70万円以上＝3人に2人（2023年1月〜2024年3月実績）",
     point:
-      "IT/Web特化で、利用者の約80%が20〜30代という年代層が30代の中心とぴったり合う。高年収求人の比率が高く、技術を理解したアドバイザーが付くため、スキルを正しく評価してもらいやすい。",
+      "IT/Web特化で、利用者の約80%が20〜30代という年代層が30代の中心とぴったり合います。高年収求人の比率が高く、技術を理解したアドバイザーが付くため、スキルを正しく評価してもらいやすいです。",
     target: "30代全般・年収アップ狙い",
   },
   {
@@ -37,7 +37,7 @@ const agents = [
     field: "IT/Web/ゲーム業界",
     salaryUp: "年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）",
     point:
-      "IT/Web/ゲーム業界に専門特化し、提案スピードが速い。実務経験者への提案数が多いと評価されており、Web系で年収を伸ばしたい30代と相性が良い。",
+      "IT/Web/ゲーム業界に専門特化し、提案スピードが速いです。実務経験者への提案数が多いと評価されており、Web系で年収を伸ばしたい30代と相性が良いです。",
     target: "30代前半〜中盤・Web/ゲーム志望",
   },
   {
@@ -49,9 +49,9 @@ const agents = [
     jobs: "IT・通信エンジニア求人5万件超（2026年2月時点・二次経由）",
     area: "全国",
     field: "IT全般・キャリアチェンジ",
-    salaryUp: "転職者の約6割が年収アップ。IT・通信の平均決定年収469万円（2023年度）→486万円（2024年度）",
+    salaryUp: "転職者の約6割が年収アップです。IT・通信の平均決定年収469万円（2023年度）→486万円（2024年度）",
     point:
-      "国内最大級の求人数で、検索＋エージェント＋スカウトのハイブリッド型。全国対応のため地方在住の30代や、業種を広げて探したい人の受け皿になる。",
+      "国内最大級の求人数で、検索＋エージェント＋スカウトのハイブリッド型です。全国対応のため地方在住の30代や、業種を広げて探したい人の受け皿になります。",
     target: "30代全般・全国/幅広く探したい",
   },
   {
@@ -65,7 +65,7 @@ const agents = [
     field: "若手〜30代IT",
     salaryUp: "転職後定着率97.5%・年収アップ率73.7%（二次情報／転職メディア集計）",
     point:
-      "20〜30代の若手層に強く、書類添削・面接対策が手厚い。初めての転職や、サポートを重視したい30代前半に向く。",
+      "20〜30代の若手層に強く、書類添削・面接対策が手厚いです。初めての転職や、サポートを重視したい30代前半に向きます。",
     target: "30代前半・初めての転職",
   },
   {
@@ -79,7 +79,7 @@ const agents = [
     field: "大手〜スタートアップ網羅",
     salaryUp: "統一された公式アップ率は未確認（断定しない）",
     point:
-      "国内最大級の求人数と非公開求人の豊富さが強み。選択肢を最大化したい30代の併用先として優秀。サポート期間は原則3か月とされる点に留意。",
+      "国内最大級の求人数と非公開求人の豊富さが強みです。選択肢を最大化したい30代の併用先として優秀です。サポート期間は原則3か月とされる点に留意です。",
     target: "30代全般・求人量重視",
   },
 ];
@@ -101,20 +101,20 @@ const checklistNotFit = [
 const reviews = [
   {
     service: "レバテックキャリア",
-    good: "「書類添削・面接対策が丁寧」「LINEで連絡が完結して楽」「高年収求人が多い」といった声が見られる。",
-    bad: "一方で「未経験者は紹介されにくい」「初回面談後の連絡が遅い場合がある」「希望と異なる求人を提案された」という指摘もある。",
+    good: "「書類添削・面接対策が丁寧」「LINEで連絡が完結して楽」「高年収求人が多い」といった声が見られます。",
+    bad: "一方で「未経験者は紹介されにくい」「初回面談後の連絡が遅い場合がある」「希望と異なる求人を提案された」という指摘もあります。",
     src: "OUTSIDEMAGAZINE／Qiita Job Change／イーデス等の口コミプラットフォーム",
   },
   {
     service: "Geekly",
-    good: "「レスポンスが早い」「選考までスムーズ」「実務経験者への提案数が多い」という評価がある。",
-    bad: "「連絡がしつこい」「担当者の質にばらつき」「勝手に応募されたとの報告例」も見られる。",
+    good: "「レスポンスが早い」「選考までスムーズ」「実務経験者への提案数が多い」という評価があります。",
+    bad: "「連絡がしつこい」「担当者の質にばらつき」「勝手に応募されたとの報告例」も見られます。",
     src: "2b-connect／転職アンテナ／Qiita Job Change等",
   },
   {
     service: "doda ITエンジニア",
-    good: "「求人量が多い」「好条件求人が多い」「2名体制でサポートされた」といった声がある。",
-    bad: "「求人・連絡が多すぎる」「アドバイザーの質にばらつき」「IT専門性がやや低いとの声」も挙がる。",
+    good: "「求人量が多い」「好条件求人が多い」「2名体制でサポートされた」といった声があります。",
+    bad: "「求人・連絡が多すぎる」「アドバイザーの質にばらつき」「IT専門性がやや低いとの声」も挙がります。",
     src: "studio-tale／best-w／freeconsul／HonNe等",
   },
 ];
@@ -169,7 +169,7 @@ export default function ThirtiesAgentsPage() {
     <>
       <ArticleJsonLd
         title="30代エンジニアの転職エージェントおすすめ比較【2026年8月】"
-        description="30代エンジニアにおすすめのIT転職エージェントを2026年6月時点のデータで比較。年代別平均年収などの公表値をもとに選び方・口コミ傾向を解説します。"
+        description="30代エンジニアにおすすめのIT転職エージェントを2026年6月時点のデータで比較します。年代別平均年収などの公表値をもとに選び方・口コミ傾向を解説します。"
         url="/compare/30s-agents/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -199,9 +199,9 @@ export default function ThirtiesAgentsPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <h2 className="text-lg font-bold text-blue-900 mb-2 not-prose">結論：30代はIT特化型2社＋総合型1社の併用が基本</h2>
             <ul className="text-sm text-blue-900 leading-relaxed space-y-1 list-disc pl-5">
-              <li>年収アップを狙うなら<strong>レバテックキャリア</strong>を軸に。利用者の約80%が20〜30代で年代層が合い、高年収求人比率が高い。</li>
-              <li>Web/ゲーム志望や提案スピード重視なら<strong>Geekly</strong>を追加。求人量と全国対応の保険として<strong>doda</strong>を併用。</li>
-              <li>30代の平均年収は約499万円（レバテック公表・2025年）。年収1,000万円以上の割合は30代で8.01%。需要領域の実務やリーダー経験を職務経歴書で具体化することが鍵。</li>
+              <li>年収アップを狙うなら<strong>レバテックキャリア</strong>を軸にすることをおすすめします。利用者の約80%が20〜30代で年代層が合い、高年収求人比率が高いです。</li>
+              <li>Web/ゲーム志望や提案スピード重視なら<strong>Geekly</strong>を追加します。求人量と全国対応の保険として<strong>doda</strong>を併用します。</li>
+              <li>30代の平均年収は約499万円です（レバテック公表・2025年）。年収1,000万円以上の割合は30代で8.01%です。需要領域の実務やリーダー経験を職務経歴書で具体化することが鍵です。</li>
             </ul>
           </div>
         </section>
@@ -354,11 +354,11 @@ export default function ThirtiesAgentsPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代前半（選択肢を広げたい）</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">レバテックキャリア ＋ Geekly ＋ doda。IT特化型2社で専門性の高い提案を受けつつ、総合型で求人量とエリアを補完する構成です。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">レバテックキャリア ＋ Geekly ＋ dodaです。IT特化型2社で専門性の高い提案を受けつつ、総合型で求人量とエリアを補完する構成です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代後半（年収・役割を一段上げたい）</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">レバテックキャリア ＋ Geekly ＋ <Link href="/compare/highclass/" className="underline">ハイクラス系</Link>。リーダー・マネジメント経験を活かせるポジションを、特化型とハイクラス両面で探します。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">レバテックキャリア ＋ Geekly ＋ <Link href="/compare/highclass/" className="underline">ハイクラス系です</Link>。リーダー・マネジメント経験を活かせるポジションを、特化型とハイクラス両面で探します。</p>
             </div>
           </div>
         </section>
@@ -405,7 +405,7 @@ export default function ThirtiesAgentsPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">30代は情報収集から始めよう</h2>
-          <p className="text-blue-100 text-sm mb-4">スキルと経験が揃う30代は、選択肢が最も広い年代。まずはIT特化型を中心に複数登録し、提案を比較するところから始めましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">スキルと経験が揃う30代は、選択肢が最も広い年代です。まずはIT特化型を中心に複数登録し、提案を比較するところから始めましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -416,7 +416,7 @@ export default function ThirtiesAgentsPage() {
               { name: "40代エンジニアの転職エージェント比較", href: "/compare/40s-agents/" },
               { name: "ハイクラスIT転職エージェント比較", href: "/compare/highclass/" },
               { name: "レバテック vs Geekly 比較", href: "/compare/levtech-vs-geekly/" },
-              { name: "年収UPに強いエージェントランキング", href: "/compare/salary-ranking/" },
+              { name: "年収アップに強いエージェントランキング", href: "/compare/salary-ranking/" },
               { name: "30代の年収のリアル", href: "/knowledge/salary-30s/" },
               { name: "複数エージェントの使い分け", href: "/knowledge/multiple-agents/" },
             ].map((item, i) => (

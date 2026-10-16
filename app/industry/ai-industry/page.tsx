@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "AI業界へのエンジニア転職ガイド｜30代40代の戦略";
 const DESC =
-  "機械学習・生成AI（LLM）を扱うAI業界へエンジニア転職する方法を解説。活かせるスキルと埋めるギャップ、年収の考え方、30代40代の現実的な進め方を公的データで整理します。";
+  "機械学習・生成AI（LLM）を扱うAI業界へエンジニア転職する方法を解説します。活かせるスキルと埋めるギャップ、年収の考え方、30代40代の現実的な進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industry/ai-industry/" },
@@ -28,25 +28,25 @@ const toc = [
 ];
 
 const skillGap = [
-  ["Pythonでの開発・データ処理経験", "そのまま強みになる", "機械学習・生成AIの実装はPython中心。データ処理やパイプライン構築の経験が活きる"],
+  ["Pythonでの開発・データ処理経験", "そのまま強みになる", "機械学習・生成AIの実装はPython中心です。データ処理やパイプライン構築の経験が活きる"],
   ["バックエンド・API・クラウドの実務", "そのまま強みになる", "モデルを本番運用するMLOpsやLLMアプリ開発では、堅実なエンジニアリング力が問われる"],
   ["データ分析・統計の素地", "部分的に活かせる", "SQLや統計の理解は前処理・評価で活きるが、最新のモデルや手法は別途学習が必要"],
-  ["機械学習・深層学習の理論と実装", "埋めるべきギャップ", "学習・評価・チューニングの体系的理解。研究寄りの職種ほど深く問われやすい"],
+  ["機械学習・深層学習の理論と実装", "埋めるべきギャップ", "学習・評価・チューニングの体系的理解です。研究寄りの職種ほど深く問われやすい"],
   ["生成AI（LLM）の応用設計", "埋めるべきギャップ", "RAG・プロンプト設計・評価・ガードレールなどLLMアプリ特有の設計知見が問われる"],
 ];
 
 const patterns = [
-  ["機械学習エンジニア", "AI開発企業・事業会社のAI部門", "モデルの開発・運用。Python＋ML理論。データ処理経験から踏み込む王道ルート"],
-  ["LLM・生成AIアプリエンジニア", "AIスタートアップ・SaaS", "RAGやエージェントなどLLM応用の実装。Web/バックエンド経験者が参入しやすい"],
-  ["MLOps・AIプラットフォーム", "成長期のAI企業・大手", "学習基盤・推論基盤・パイプライン構築。インフラ/クラウド経験が活きる"],
+  ["機械学習エンジニア", "AI開発企業・事業会社のAI部門", "モデルの開発・運用です。Python＋ML理論です。データ処理経験から踏み込む代表的なルート"],
+  ["LLM・生成AIアプリエンジニア", "AIスタートアップ・SaaS", "RAGやエージェントなどLLM応用の実装です。Web/バックエンド経験者が参入しやすい"],
+  ["MLOps・AIプラットフォーム", "成長期のAI企業・大手", "学習基盤・推論基盤・パイプライン構築です。インフラ/クラウド経験が活きる"],
   ["データサイエンティスト", "事業会社・コンサル・AI企業", "課題定義から分析・モデリングまで。統計・分析の素地がある人に向く"],
 ];
 
 const companyTypes = [
-  ["AI開発・研究志向の企業", "独自モデルや研究開発に強みを持つ。高度な理論と実装力が問われる", "研究寄りに深く取り組みたい人"],
-  ["AIプロダクト・SaaS企業", "AIを組み込んだプロダクトを提供。実装力とプロダクト志向の両立が求められる", "プロダクトでAIを活かしたい人"],
-  ["生成AI活用のスタートアップ", "LLMを使ったアプリやエージェントを開発。スピードと裁量が魅力", "新しい領域に挑戦したい人"],
-  ["事業会社のAI・DX部門", "自社業務にAIを適用。ドメイン知識とAIの掛け合わせが活きる", "業務課題をAIで解きたい人"],
+  ["AI開発・研究志向の企業", "独自モデルや研究開発に強みを持ちます。高度な理論と実装力が問われる", "研究寄りに深く取り組みたい人"],
+  ["AIプロダクト・SaaS企業", "AIを組み込んだプロダクトを提供しています。実装力とプロダクト志向の両立が求められる", "プロダクトでAIを活かしたい人"],
+  ["生成AI活用のスタートアップ", "LLMを使ったアプリやエージェントを開発します。スピードと裁量が魅力", "新しい領域に挑戦したい人"],
+  ["事業会社のAI・DX部門", "自社業務にAIを適用します。ドメイン知識とAIの掛け合わせが活きる", "業務課題をAIで解きたい人"],
 ];
 
 const faqs = [
@@ -159,9 +159,9 @@ export default function AiIndustryPage() {
               生成AIの普及で、研究者でなくてもAIを「使って作る」職種が増えたためです。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Python・API・クラウドの実務はLLMアプリ開発やMLOpsで活きる</li>
-              <li>・一方で機械学習の理論やLLM応用設計は職種により深く問われる</li>
-              <li>・30代は専門知識の習得、40代は業務適用とマネジメントで勝負しやすい</li>
+              <li>・Python・API・クラウドの実務はLLMアプリ開発やMLOpsで活きます</li>
+              <li>・一方で機械学習の理論やLLM応用設計は職種により深く問われます</li>
+              <li>・30代は専門知識の習得、40代は業務適用とマネジメントを強みにしやすいです</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -328,10 +328,10 @@ export default function AiIndustryPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "経験を棚卸しする", desc: "携わった開発の領域（Python・データ処理・バックエンド・インフラ）、扱ったデータや運用の実績を具体的に整理する。数値化できる成果は必ず洗い出す。" },
-              { step: "2", title: "不足する知識を補う計画を立てる", desc: "機械学習の基礎やLLM応用（RAG・プロンプト設計・評価）など、目指す職種で問われやすい領域を3〜6ヶ月で学習。手を動かした成果物を作ると説得力が増す。" },
-              { step: "3", title: "活きる領域を見極める", desc: "ML・LLMアプリ・MLOps・データ分析のうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定する。" },
-              { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録。求人と担当者を比較し、市場価値を客観的に把握する。" },
+              { step: "1", title: "経験を棚卸しする", desc: "携わった開発の領域（Python・データ処理・バックエンド・インフラ）、扱ったデータや運用の実績を具体的に整理します。数値化できる成果は必ず洗い出します。" },
+              { step: "2", title: "不足する知識を補う計画を立てる", desc: "機械学習の基礎やLLM応用（RAG・プロンプト設計・評価）など、目指す職種で問われやすい領域を3〜6ヶ月で学習します。手を動かした成果物を作ると説得力が増します。" },
+              { step: "3", title: "活きる領域を見極める", desc: "ML・LLMアプリ・MLOps・データ分析のうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定します。" },
+              { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録します。求人と担当者を比較し、市場価値を客観的に把握します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -357,13 +357,13 @@ export default function AiIndustryPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：業務適用とマネジメントを軸に</h3>
               <p className="text-sm text-petrol-deep">
-                業務課題をAIで解く企画力や、プロジェクトのマネジメント経験は、事業会社のAI部門やAIプロダクト企業で評価されやすい強みです。最先端の研究だけで勝負するより、組み合わせの価値を打ち出すのが現実的です。
+                業務課題をAIで解く企画力や、プロジェクトのマネジメント経験は、事業会社のAI部門やAIプロダクト企業で評価されやすい強みです。最先端の研究だけを強みにするより、組み合わせの価値を打ち出すのが現実的です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
               <p className="text-sm text-petrol-deep">
-                若手と同じ土俵で最新研究だけを競うのではなく、開発力や業務理解×AIという希少性で差別化するのがミドル層の定石です。
+                若手と同じ土俵で最新研究だけを競うのではなく、開発力や業務理解×AIという希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/generative-ai-era/" className="text-petrol-deep underline">生成AI時代のエンジニアキャリア</Link>
                 も参考にしてください。
               </p>
@@ -375,13 +375,13 @@ export default function AiIndustryPage() {
         <section id="agents" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">相談先エージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            AI業界の転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが定石です。
+            AI業界の転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが基本です。
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強み。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたい。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型。年収750万円以上の求人や管理職ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数。AI企業から事業会社のAI部門まで幅広く比較したい場合に有効。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や管理職ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。AI企業から事業会社のAI部門まで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -411,7 +411,7 @@ export default function AiIndustryPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">開発の経験をAI・生成AIで活かそう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。
+            まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

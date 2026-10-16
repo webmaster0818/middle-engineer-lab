@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/smartnews/" },
   title: "SmartNewsへのエンジニア転職｜年収・技術スタック・難易度【2026年版】",
   description:
-    "SmartNewsのエンジニア中途採用を公式Engineering Blog等の一次情報で解説。Java中心＋Scala/Sparkの配信・ML基盤、少数精鋭の難易度、30代40代の現実を中立にまとめました。",
+    "SmartNewsのエンジニア中途採用を公式Engineering Blog等の一次情報で解説します。Java中心＋Scala/Sparkの配信・ML基盤、少数精鋭の難易度、30代40代の現実を中立にまとめました。",
 };
 
 const toc = [
@@ -29,14 +29,14 @@ const toc = [
 const basicData: [string, string][] = [
   ["企業名", "株式会社SmartNews（スマートニュース・非上場）"],
   ["業種", "ニュース配信プラットフォーム／メディアテック（アルゴリズム配信・機械学習）"],
-  ["平均年収", "公式の全社員平均は非公開。集計サイトに約1,300万円台の記載があるが、これは公式値ではない参考値"],
+  ["平均年収", "公式の全社員平均は非公開です。集計サイトに約1,300万円台の記載があるが、これは公式値ではない参考値"],
   ["技術スタック", "Java（8／11）が約9割＋Ruby／Go／Scala／Kotlin、Spark処理はScala、インフラはほぼAWS（Amazon Linux）、CDNはAkamai中心"],
-  ["特徴", "大量のニュース配信・機械学習を支える少数精鋭の開発組織。難易度は高い"],
-  ["採用形態", "中途（キャリア採用）中心。即戦力の経験者採用"],
+  ["特徴", "大量のニュース配信・機械学習を支える少数精鋭の開発組織です。難易度は高い"],
+  ["採用形態", "中途（キャリア採用）中心です。即戦力の経験者採用"],
 ];
 
 const faqs = [
-  { q: "SmartNewsの平均年収はいくら？", a: "SmartNewsは非上場企業のため、上場企業のように有価証券報告書で開示される公式の全従業員平均年収は公表されていません。転職クチコミ・年収集計サイトに約1,300万円台といった数値が掲載されることがありますが、これらは公式値ではない参考値であり、母数や算定方法が不明です。当ガイドでは具体額の断定は控えています。少数精鋭で技術難易度が高い組織のため、実額は職種・経験により個人差が大きく、選考過程で確認するのが確実です。" },
+  { q: "SmartNewsの平均年収はいくら？", a: "SmartNewsは非上場企業のため、上場企業のように有価証券報告書で開示される公式の全従業員平均年収は公表されていません。転職口コミ・年収集計サイトに約1,300万円台といった数値が掲載されることがありますが、これらは公式値ではない参考値であり、母数や算定方法が不明です。当ガイドでは具体額の断定は控えています。少数精鋭で技術難易度が高い組織のため、実額は職種・経験により個人差が大きく、選考過程で確認するのが確実です。" },
   { q: "SmartNewsで使われている技術スタックは？", a: "SmartNewsの公式Engineering Blogによると、バックエンドはJava（8/11）が約9割を占め、加えてRuby・Go・Scala・Kotlinが使われています。大規模データ処理基盤のSparkはScalaで記述され、インフラはほぼAWS（Amazon Linux）上に構築、コンテンツ配信はAkamaiを中心としたCDNが使われています。大量のニュース配信と機械学習を支える構成です。" },
   { q: "SmartNewsの転職難易度は高い？", a: "高い部類に入ります。SmartNewsは少数精鋭の開発組織で、大量配信・機械学習・大規模データ処理といった技術的難易度の高い領域を扱います。Java中心のバックエンド、ScalaでのSpark処理、AWS上の大規模インフラなど、専門性と実務経験が問われる募集が中心で、即戦力としての技術力が重視されます。" },
   { q: "SmartNewsはScalaの経験が必要？", a: "SmartNewsはJavaが約9割を占める一方、大規模データ処理基盤のSparkはScalaで書かれていると公式Engineering Blogで説明されています。配信ロジックやデータ処理に関わる職種ではScalaの経験が活きる場面があると考えられますが、必須かどうかは募集ごとに異なります。具体的な要件は各募集要項で確認してください。" },
@@ -51,7 +51,7 @@ export default function SmartNewsCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="SmartNews エンジニア転職ガイド" description="SmartNewsへのエンジニア転職を公式Engineering Blog等の一次情報で解説。Java中心＋Scala/Sparkの配信・ML基盤、少数精鋭の難易度をまとめました。" url="/company/smartnews/" />
+      <ArticleJsonLd title="SmartNews エンジニア転職ガイド" description="SmartNewsへのエンジニア転職を公式Engineering Blog等の一次情報で解説します。Java中心＋Scala/Sparkの配信・ML基盤、少数精鋭の難易度をまとめました。" url="/company/smartnews/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "SmartNews" }]} />
 
@@ -66,7 +66,7 @@ export default function SmartNewsCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SmartNewsの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SmartNewsは非上場のため公式の全従業員平均年収（有価証券報告書）は非公表です。年収集計サイトに約1,300万円台という記載がありますが、これは公式値ではない参考値です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場で、上場企業の有報のような公式の全従業員平均年収は公表されていません。</li><li>・集計サイトの約1,300万円台は母数・算定方法・対象職種が不明な参考値で、公式値ではありません。</li><li>・少数精鋭で技術難易度が高く集計値が高めに出る可能性があり、実額は職種・経験で個人差が大きいため選考過程で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場で、上場企業の有価証券報告書のような公式の全従業員平均年収は公表されていません。</li><li>・集計サイトの約1,300万円台は母数・算定方法・対象職種が不明な参考値で、公式値ではありません。</li><li>・少数精鋭で技術難易度が高く集計値が高めに出る可能性があり、実額は職種・経験で個人差が大きいため選考過程で確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["SmartNews 公式 Engineering Blog", "SmartNews 公式採用ページ", "OpenWork（口コミ傾向）"]} />
@@ -76,9 +76,9 @@ export default function SmartNewsCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（少数精鋭・大規模配信／ML基盤の経験者）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・中核は<strong>Java中心のバックエンド＋ScalaによるSpark処理</strong>で、大規模ニュース配信・機械学習の基盤を支える。専門性の高い経験者に向く。</li>
-              <li>・<strong>少数精鋭の組織</strong>で、即戦力としての技術力と自走力が強く問われる。大量トラフィック・データ処理の実務経験が活きる。</li>
-              <li>・<strong>非上場のため公式の平均年収は非公開</strong>。集計値（約1,300万円台）は公式値ではない参考値として扱い、実額は選考過程で確認するのが現実的。</li>
+              <li>・中核は<strong>Java中心のバックエンド＋ScalaによるSpark処理</strong>で、大規模ニュース配信・機械学習の基盤を支えます。専門性の高い経験者に向きます。</li>
+              <li>・<strong>少数精鋭の組織</strong>で、即戦力としての技術力と自走力が強く問われます。大量トラフィック・データ処理の実務経験が活きます。</li>
+              <li>・<strong>非上場のため公式の平均年収は非公開です</strong>。集計値（約1,300万円台）は公式値ではない参考値として扱い、実額は選考過程で確認するのが現実的です。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">逆に、大規模配信・データ処理の経験が薄い人や、手厚いオンボーディング前提で受け身に進めたい人は、少数精鋭ゆえの自走文化とミスマッチが起きやすい点に注意が必要です。</p>
           </div>
@@ -163,7 +163,7 @@ export default function SmartNewsCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、SmartNewsについて<strong>「技術力の高いメンバーと働ける」「裁量が大きく難度の高い課題に挑める」「待遇水準が高い」</strong>といった声が見られる一方、<strong>「少数精鋭ゆえに一人あたりの責任が重い」「事業・組織のフェーズによる変動がある」</strong>といった指摘も見られます。高難度の課題を自律的に進められる人ほど活躍しやすい傾向がうかがえます。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -182,7 +182,7 @@ export default function SmartNewsCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Javaで大規模バックエンドを支えてきた経験者</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Scala／Sparkでの大規模データ処理に強みがある</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Scala／Sparkでの大規模データ処理に強みがあります</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>機械学習を用いた配信・レコメンドに挑戦したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>少数精鋭の自走文化のなかで裁量を持って働きたい</li>
               </ul>
@@ -190,7 +190,7 @@ export default function SmartNewsCompanyPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>大規模配信・データ処理の経験が薄い</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>大規模配信・データ処理の経験が薄いです</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>手厚いオンボーディング・サポート前提で進めたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>一人あたりの責任が重い環境を避けたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>安定・固定的な環境を最優先したい</li>
@@ -211,9 +211,9 @@ export default function SmartNewsCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">SmartNews転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・モダン技術の求人比率が高く、技術面接対策のサポートが受けられる。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。メガベンチャー・テック企業の上位ポジションに強い。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。Web・データ領域の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・モダン技術の求人比率が高く、技術面接対策のサポートが受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。メガベンチャー・テック企業の上位ポジションに強いです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。Web・データ領域の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">

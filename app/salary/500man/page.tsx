@@ -166,22 +166,22 @@ export default function Salary500Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L1</td>
                   <td className="px-4 py-3 border border-slate-200">438.6万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">入門・新人。500万円の手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">入門・新人です。500万円の手前</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L2</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">478.6万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">上位者の指導下で遂行。500万円の下限側</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">上位者の指導下で遂行です。500万円の下限側</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L3</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">576.0万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">独力で遂行できる一人前。500万円の中心〜上限側</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">独力で遂行できる一人前です。500万円の中心〜上限側</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L4</td>
                   <td className="px-4 py-3 border border-slate-200">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門。700万円帯。次の目標の先</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門です。700万円帯です。次の目標の先</td>
                 </tr>
               </tbody>
             </table>
@@ -238,19 +238,19 @@ export default function Salary500Page() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">Web系アプリケーション開発者</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">フロント・バックエンドの実装を一人で担う中堅エンジニア。言語・フレームワークの実装力が評価され、500万円帯の中心となる職種です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">フロント・バックエンドの実装を一人で担う中堅エンジニアです。言語・フレームワークの実装力が評価され、500万円帯の中心となる職種です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">業務システムSE</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">基幹・業務システムの開発を担当。設計の一部に関わり始めるポジションで、500万円帯から上流への移行口になります。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">基幹・業務システムの開発を担当します。設計の一部に関わり始めるポジションで、500万円帯から上流への移行口になります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">社内SE</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">事業会社の情報システム部門で社内システムを支える職種。安定性が高く、ワークライフバランスを重視するミドル層に人気の選択肢です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">事業会社の情報システム部門で社内システムを支える職種です。安定性が高く、ワークライフバランスを重視するミドル層に人気の選択肢です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">インフラ・運用エンジニア</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">サーバー・ネットワークの構築・運用を担う職種。運用から構築・自動化へ広げることで500万円帯に届きやすい領域です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">サーバー・ネットワークの構築・運用を担う職種です。運用から構築・自動化へ広げることで500万円帯に届きやすい領域です。</p>
             </div>
           </div>
         </section>
@@ -301,7 +301,7 @@ export default function Salary500Page() {
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            年代別の相場や汎用的な年収UP戦略は、
+            年代別の相場や汎用的な年収アップ戦略は、
             <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>
             ・
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
@@ -331,7 +331,7 @@ export default function Salary500Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">500万円帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化エージェントに登録して、あなたの実務経験が活きる500万円求人を確認しましょう。
+            IT特化エージェントに登録して、ご自身の実務経験が活きる500万円求人を確認しましょう。
           </p>
           <Link
             href="/#ranking"

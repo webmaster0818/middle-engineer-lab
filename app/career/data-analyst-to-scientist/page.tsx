@@ -6,13 +6,13 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "データアナリストからデータサイエンティストへの転職｜移行ステップ";
 const DESC =
-  "データアナリストからデータサイエンティストへ移行する進め方を、スキルギャップ比較表・在職中の学習ステップ・職務経歴書のBefore/After例文付きで解説。30代40代の現実も正直に紹介します。";
+  "データアナリストからデータサイエンティストへ移行する進め方を、スキルギャップ比較表・在職中の学習ステップ・職務経歴書のBefore/After例文付きで解説します。30代40代の現実も紹介します。";
 const URL = "/career/data-analyst-to-scientist/";
 
 export const metadata: Metadata = { alternates: { canonical: "/career/data-analyst-to-scientist/" }, title: TITLE, description: DESC };
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と攻め方" },
+  { id: "conclusion", label: "結論：現実性と進め方" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -48,13 +48,13 @@ const migrationSteps = [
 ];
 
 const agents = [
-  { name: "レバテックキャリア", point: "IT/Web特化で技術理解のあるアドバイザーが在籍。データ分析・機械学習系の求人要件をすり合わせやすい。", href: "/review/levtech/" },
-  { name: "ビズリーチ", point: "ハイクラス・スカウト型。データサイエンティスト求人のスカウトを通じて、自分のスキルセットの市場評価を把握できます。", href: "/review/bizreach-it/" },
-  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数。事業会社からコンサルまでデータ職の求人が幅広く、選択肢を確保しやすい。", href: "/review/recruit-it/" },
+  { name: "レバテックキャリア", point: "IT/Web特化で技術理解のあるアドバイザーが在籍しています。データ分析・機械学習系の求人要件をすり合わせやすいです。", href: "/review/levtech/" },
+  { name: "ビズリーチ", point: "ハイクラス・スカウト型です。データサイエンティスト求人のスカウトを通じて、自分のスキルセットの市場評価を把握できます。", href: "/review/bizreach-it/" },
+  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数です。事業会社からコンサルまでデータ職の求人が幅広く、選択肢を確保しやすいです。", href: "/review/recruit-it/" },
 ];
 
 const faqs = [
-  { q: "データアナリストからデータサイエンティストへの転職は可能？", a: "アナリストはSQL・ビジネス理解・可視化という土台を持つため、有力な出発点です。不足しがちなのは統計・機械学習・モデリングなので、Pythonでの予測モデル構築をポートフォリオ化すると移行しやすくなります。" },
+  { q: "データアナリストからデータサイエンティストへの転職は可能？", a: "アナリストはSQL・ビジネス理解・可視化という土台を持つため、有力な出発点です。不足しがちなのは統計・機械学習・モデリングであるため、Pythonでの予測モデル構築をポートフォリオ化すると移行しやすくなります。" },
   { q: "アナリストとサイエンティストの違いは？", a: "アナリストは過去〜現在のデータを集計・可視化して示唆を出すのが中心です。サイエンティストはそれに加え、機械学習・統計モデルで予測や最適化を行い、課題を数理問題として解く点が異なります。境界は企業により幅があります。" },
   { q: "数学・統計はどこまで必要？", a: "推測統計、確率分布、回帰、仮説検定、評価指標の理解は最低限求められます。研究職レベルの数学が常に必要なわけではありませんが、モデルの前提と限界を説明できる水準は必要です。" },
   { q: "機械学習の経験がなくても応募できる？", a: "ジュニアなDSポジションや、分析寄りのDSであれば、アナリスト経験＋自作モデルのポートフォリオで挑戦できる場合があります。求人によって求める機械学習の深さが大きく異なるため、要件を見極めることが重要です。" },
@@ -104,7 +104,7 @@ export default function DataAnalystToScientistPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-2">
-          「示唆出しの先にある予測・最適化に踏み込みたい」「機械学習を武器にしたい」という動機で、データアナリストからデータサイエンティストへ移る人がいます。SQLとビジネス理解という土台を活かせる一方、統計・機械学習という新しい学習が必要です。本記事は「どう転職活動を進めるか」に特化し、スキルギャップの可視化・在職中の学習ステップ・職務経歴書の書き換え例を解説します。
+          「示唆出しの先にある予測・最適化に踏み込みたい」「機械学習を強みにしたい」という動機で、データアナリストからデータサイエンティストへ移る人がいます。SQLとビジネス理解という土台を活かせる一方、統計・機械学習という新しい学習が必要です。本記事は「どう転職活動を進めるか」に特化し、スキルギャップの可視化・在職中の学習ステップ・職務経歴書の書き換え例を解説します。
         </p>
 
         <DataNote
@@ -129,11 +129,11 @@ export default function DataAnalystToScientistPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：土台は強い。鍵は統計と機械学習の証明</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：土台は強いです。鍵は統計と機械学習の証明</h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・SQL・ビジネス理解・可視化はそのまま活きる。課題をモデルに翻訳する力に直結する。</li>
-              <li>・ギャップが大きいのは「機械学習」と「統計・数理」。自作の予測モデルが決め手になる。</li>
-              <li>・職務経歴書は『集計・可視化した』から『課題を予測問題に定義し成果につなげた』へ書き換える。</li>
+              <li>・SQL・ビジネス理解・可視化はそのまま活きます。課題をモデルに翻訳する力に直結します。</li>
+              <li>・ギャップが大きいのは「機械学習」と「統計・数理」。自作の予測モデルが決め手になります。</li>
+              <li>・職務経歴書は『集計・可視化した』から『課題を予測問題に定義し成果につなげた』へ書き換えます。</li>
             </ul>
           </div>
         </section>
@@ -203,24 +203,24 @@ export default function DataAnalystToScientistPage() {
         <section id="resume" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">職務経歴書での見せ方（Before/After例文）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            アナリストの職務経歴書は「集計・可視化・レポート」が中心になりがちですが、DS選考では「課題をどう予測問題に定義し、モデルで成果につなげたか」を語る形が刺さります。書き換え例を示します。
+            アナリストの職務経歴書は「集計・可視化・レポート」が中心になりがちですが、DS選考では「課題をどう予測問題に定義し、モデルで成果につなげたか」を語る形が評価されます。書き換え例を示します。
           </p>
           <div className="space-y-4">
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（集計・可視化の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                サービスの利用データをSQLで集計し、ダッシュボードを作成。KPIの推移を可視化し、定例会議で報告。施策のA/Bテスト結果を集計してレポートにまとめた。
+                サービスの利用データをSQLで集計し、ダッシュボードを作成します。KPIの推移を可視化し、定例会議で報告します。施策のA/Bテスト結果を集計してレポートにまとめました。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（課題定義とモデルを主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                利用データの分析から離反リスクの高いユーザー群を特定する課題を設定し、個人開発としてPythonで離反予測モデルを構築（前処理・特徴量設計・交差検証・評価指標まで実施）。ビジネス理解を活かして説明可能な特徴量を選定し、示唆を施策提案に接続した。GitHubでコードを公開。
+                利用データの分析から離反リスクの高いユーザー群を特定する課題を設定し、個人開発としてPythonで離反予測モデルを構築します（前処理・特徴量設計・交差検証・評価指標まで実施）。ビジネス理解を活かして説明可能な特徴量を選定し、示唆を施策提案に接続しました。GitHubでコードを公開しています。
               </p>
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※データ・数値は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>を参照。
+            ※データ・数値は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>をご参照ください。
           </p>
         </section>
 
@@ -251,7 +251,7 @@ export default function DataAnalystToScientistPage() {
         <section id="midage" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の進め方</h2>
           <p className="text-slate-600 leading-relaxed mb-3">
-            30代・40代でDSへ移る場合、アナリストとして培ったビジネス理解とドメイン知識が大きな武器になります。データ職は「課題を解いて意思決定につなげる力」が重視されるため、若手の技術力一辺倒とは違う価値を出せます。技術は自作モデルで補えば、年齢のハンデを埋められます。
+            30代・40代でDSへ移る場合、アナリストとして培ったビジネス理解とドメイン知識が大きな強みになります。データ職は「課題を解いて意思決定につなげる力」が重視されるため、若手の技術力一辺倒とは違う価値を出せます。技術は自作モデルで補えば、年齢のハンデを埋められます。
           </p>
           <p className="text-slate-600 leading-relaxed">
             一方で、統計・機械学習という新しい学習を時間が限られる中で進める必要があります。現職にデータ／機械学習チームがあるなら社内で機械学習案件に関わるルートも有力です。年収の見通しは<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も参考にしてください。

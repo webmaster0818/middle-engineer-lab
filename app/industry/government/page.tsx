@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "官公庁・公共系SEから民間IT転職ガイド｜30代40代";
 const DESC =
-  "官公庁・公共系SEから民間IT企業・GovTech・セキュリティ領域へ転職する現実的な方法を解説。活かせる公共系の経験と埋めるギャップ、年収の考え方、30代40代の進め方を公的データで整理します。";
+  "官公庁・公共系SEから民間IT企業・GovTech・セキュリティ領域へ転職する現実的な方法を解説します。活かせる公共系の経験と埋めるギャップ、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industry/government/" },
@@ -36,17 +36,17 @@ const skillGap = [
 ];
 
 const patterns = [
-  ["GovTech・行政DXエンジニア", "GovTechスタートアップ・SIer", "公共システムの仕様・調達理解が直接活きる王道ルート"],
-  ["セキュリティエンジニア", "事業会社・セキュリティ企業", "政府基準への準拠経験を武器に。需要が高いとされる領域"],
-  ["SaaSプロダクト開発・社内SE", "事業会社・SaaS企業", "下請け構造から脱却し自社プロダクトに関わる。技術刷新が前提"],
-  ["DX・PMOコンサル", "ファーム・SIer上流", "大規模PJのマネジメント力を活かす。上流志向の人に向く"],
+  ["GovTech・行政DXエンジニア", "GovTechスタートアップ・SIer", "公共システムの仕様・調達理解が直接活きる代表的なルート"],
+  ["セキュリティエンジニア", "事業会社・セキュリティ企業", "政府基準への準拠経験を強みに。需要が高いとされる領域"],
+  ["SaaSプロダクト開発・社内SE", "事業会社・SaaS企業", "下請け構造から脱却し自社プロダクトに関わります。技術刷新が前提"],
+  ["DX・PMOコンサル", "ファーム・SIer上流", "大規模PJのマネジメント力を活かします。上流志向の人に向く"],
 ];
 
 const companyTypes = [
-  ["GovTechスタートアップ", "行政手続きのデジタル化、自治体向けSaaSなどの自社プロダクト。公共の知識が直接活きる", "公共理解を武器にプロダクトに関わりたい人"],
-  ["事業会社のIT部門・SaaS企業", "自社サービスの設計・開発。下請け構造から抜け出したい人の主要な受け皿", "プロダクト志向で技術を磨きたい人"],
-  ["セキュリティ企業・SOC", "脆弱性診断、セキュリティ設計、監視運用。厳格な環境の経験が活きる", "セキュリティ専門性を伸ばしたい人"],
-  ["DXコンサル・SIer上流", "大企業・官公庁のDX戦略策定・推進。マネジメントと顧客折衝が問われる", "上流・コンサル志向の人"],
+  ["GovTechスタートアップ", "行政手続きのデジタル化、自治体向けSaaSなどの自社プロダクトです。公共の知識が直接活きる", "公共理解を強みにプロダクトに関わりたい人"],
+  ["事業会社のIT部門・SaaS企業", "自社サービスの設計・開発です。下請け構造から抜け出したい人の主要な受け皿", "プロダクト志向で技術を磨きたい人"],
+  ["セキュリティ企業・SOC", "脆弱性診断、セキュリティ設計、監視運用です。厳格な環境の経験が活きる", "セキュリティ専門性を伸ばしたい人"],
+  ["DXコンサル・SIer上流", "大企業・官公庁のDX戦略策定・推進です。マネジメントと顧客折衝が問われる", "上流・コンサル志向の人"],
 ];
 
 const faqs = [
@@ -72,11 +72,11 @@ const faqs = [
   },
   {
     q: "30代・40代でも官公庁から民間ITに転職できますか？",
-    a: "セキュリティやマネジメントなど公共系で培った経験が武器になりやすいため、年齢だけが理由で不利になるとは限りません。30代はモダン技術の習得、40代はマネジメント＋専門性の組み合わせで強みを示すと、ミドル層ならではの価値を打ち出しやすくなります。",
+    a: "セキュリティやマネジメントなど公共系で培った経験が強みになりやすいため、年齢だけが理由で不利になるとは限りません。30代はモダン技術の習得、40代はマネジメント＋専門性の組み合わせで強みを示すと、ミドル層ならではの価値を打ち出しやすくなります。",
   },
   {
     q: "官公庁系SEから民間IT転職に強いエージェントは？",
-    a: "求人数の多いリクルートエージェントIT、IT特化で自社開発企業の求人を扱うレバテックキャリアなどが候補です。ハイクラス志向ならスカウト型のビズリーチも選択肢です。複数登録して比較するのが定石です。",
+    a: "求人数の多いリクルートエージェントIT、IT特化で自社開発企業の求人を扱うレバテックキャリアなどが候補です。ハイクラス志向ならスカウト型のビズリーチも選択肢です。複数登録して比較するのが基本です。",
   },
   {
     q: "未出典の市場規模や求人倍率は記載していますか？",
@@ -147,9 +147,9 @@ export default function GovernmentPage() {
               ただし受託・下請け中心の進め方から、モダン開発やプロダクト志向への切り替えが鍵になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・セキュリティ要件対応や大規模PJのマネジメントは民間でも評価されやすい</li>
-              <li>・一方でクラウド・コンテナ・アジャイルの実務経験は多くの求人で問われる</li>
-              <li>・30代は技術習得、40代はマネジメント＋専門性の組み合わせで勝負しやすい</li>
+              <li>・セキュリティ要件対応や大規模PJのマネジメントは民間でも評価されやすいです</li>
+              <li>・一方でクラウド・コンテナ・アジャイルの実務経験は多くの求人で問われます</li>
+              <li>・30代は技術習得、40代はマネジメント＋専門性の組み合わせを強みにしやすいです</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -293,10 +293,10 @@ export default function GovernmentPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "公共系の経験を棚卸しする", desc: "携わったプロジェクトの規模（金額・期間・体制）、セキュリティ要件、法規制対応の実績を整理する。PMO経験やステークホルダー調整も数値化する。" },
-              { step: "2", title: "不足スキルを補う計画を立てる", desc: "クラウド（AWS/Azure/GCP）、コンテナ（Docker/Kubernetes）、CI/CDなど、求人で問われやすい技術を学習。Java経験があればSpring Bootなどモダンフレームワークへ広げる。" },
-              { step: "3", title: "民間の働き方を理解する", desc: "アジャイル・DevOps・スクラムの基礎を学び、個人開発やOSS貢献で実践しておくと面接で説得力が増す。" },
-              { step: "4", title: "エージェント2社以上に登録する", desc: "求人数の多いリクルートエージェントITと、自社開発に強いレバテックキャリアなどに登録。「自社開発企業」を希望条件として明確に伝える。" },
+              { step: "1", title: "公共系の経験を棚卸しする", desc: "携わったプロジェクトの規模（金額・期間・体制）、セキュリティ要件、法規制対応の実績を整理します。PMO経験やステークホルダー調整も数値化します。" },
+              { step: "2", title: "不足スキルを補う計画を立てる", desc: "クラウド（AWS/Azure/GCP）、コンテナ（Docker/Kubernetes）、CI/CDなど、求人で問われやすい技術を学習します。Java経験があればSpring Bootなどモダンフレームワークへ広げます。" },
+              { step: "3", title: "民間の働き方を理解する", desc: "アジャイル・DevOps・スクラムの基礎を学び、個人開発やOSS貢献で実践しておくと面接で説得力が増します。" },
+              { step: "4", title: "エージェント2社以上に登録する", desc: "求人数の多いリクルートエージェントITと、自社開発に強いレバテックキャリアなどに登録します。「自社開発企業」を希望条件として明確に伝えます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -321,13 +321,13 @@ export default function GovernmentPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：マネジメントと専門性を軸に</h3>
               <p className="text-sm text-petrol-deep">
-                大規模PJのマネジメントやセキュリティの専門性は、エンタープライズSaaSやDXコンサルで評価されやすい強みです。実装だけで勝負するより、組み合わせの価値を打ち出すのが現実的です。
+                大規模PJのマネジメントやセキュリティの専門性は、エンタープライズSaaSやDXコンサルで評価されやすい強みです。実装だけを強みにするより、組み合わせの価値を打ち出すのが現実的です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
               <p className="text-sm text-petrol-deep">
-                若手と同じ土俵で最新技術だけを競うのではなく、公共×ITやセキュリティという希少性で差別化するのがミドル層の定石です。
+                若手と同じ土俵で最新技術だけを競うのではなく、公共×ITやセキュリティという希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
@@ -338,13 +338,13 @@ export default function GovernmentPage() {
         <section id="agents" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">相談先エージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            公共系からの転職では、求人数の多い総合型とIT特化型を併用し、自社開発企業を比較するのが定石です。
+            公共系からの転職では、求人数の多い総合型とIT特化型を併用し、自社開発企業を比較するのが基本です。
           </p>
           <div className="space-y-3">
             {[
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数。大手からスタートアップまで幅広く比較したい場合に有効。", href: "/review/recruit-it/" },
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強み。自社開発企業の求人も扱う。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型。マネジメントやセキュリティの専門性で上流ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。大手からスタートアップまで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。自社開発企業の求人も扱います。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。マネジメントやセキュリティの専門性で上流ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -371,7 +371,7 @@ export default function GovernmentPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">公共系SEのスキルを民間IT企業で活かそう</h2>
-          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

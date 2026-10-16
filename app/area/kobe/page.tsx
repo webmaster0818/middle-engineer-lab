@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/kobe/" },
   title: "神戸・兵庫のITエンジニア転職事情【2026年】特徴と進め方",
   description:
-    "神戸・兵庫のIT・Webエンジニア転職市場を解説。三宮や製造業の集積、働き方の選択肢、年代別年収の考え方、対応エージェント、大阪通勤、30代・40代の進め方まで網羅します。",
+    "神戸・兵庫のIT・Webエンジニア転職市場を解説します。三宮や製造業の集積、働き方の選択肢、年代別年収の考え方、対応エージェント、大阪通勤、30代・40代の進め方まで網羅します。",
 };
 
 const toc = [
@@ -63,19 +63,19 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化で全国の求人を扱う。技術理解に基づく提案と年収交渉が強み。内定承諾者のうち応募時年収との差が70万円以上＝3人に2人（2023年1月〜2024年3月実績）。神戸・大阪を含む関西の求人を相談しやすい。",
+      "IT/Web特化で全国の求人を扱います。技術理解に基づく提案と年収交渉が強みです。内定承諾者のうち応募時年収との差が70万円以上＝3人に2人です（2023年1月〜2024年3月実績）。神戸・大阪を含む関西の求人を相談しやすいです。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の国内最大級。IT・通信エンジニア求人は5万件超（2026年2月時点・二次経由）。メーカー・大手のDX求人を含め幅広くカバーし、神戸・大阪の求人を同時に探しやすい。",
+      "全国対応の国内最大級です。IT・通信エンジニア求人は5万件超です（2026年2月時点・二次経由）。メーカー・大手のDX求人を含め幅広くカバーし、神戸・大阪の求人を同時に探しやすいです。",
   },
   {
     name: "マイナビIT AGENT",
     href: "/review/mynavi-it/",
     point:
-      "20〜30代の若手層に強く、書類添削・面接対策が手厚い。転職メディア集計では定着率97.5%との数値もある。初めての転職で丁寧なサポートを求める人に向く。",
+      "20〜30代の若手層に強く、書類添削・面接対策が手厚いです。転職メディア集計では定着率97.5%との数値もあります。初めての転職で丁寧なサポートを求める人に向きます。",
   },
 ];
 
@@ -94,7 +94,7 @@ export default function KobeAreaPage() {
     <>
       <ArticleJsonLd
         title="神戸・兵庫のITエンジニア転職事情【2026年】特徴と進め方"
-        description="神戸・兵庫のIT・Webエンジニア転職市場を解説。製造業の集積、働き方、年代別年収の考え方、対応エージェント、大阪通勤、30代・40代の進め方まで網羅します。"
+        description="神戸・兵庫のIT・Webエンジニア転職市場を解説します。製造業の集積、働き方、年代別年収の考え方、対応エージェント、大阪通勤、30代・40代の進め方まで網羅します。"
         url="/area/kobe/"
       />
       <script
@@ -134,9 +134,9 @@ export default function KobeAreaPage() {
               神戸・兵庫は重工業・電機・精密機器など製造業の集積で知られ、DX関連の求人に特色があります。求人の絶対数は大阪より少ないものの、三宮から大阪・梅田へのアクセスが良く、神戸に住みながら大阪の企業に通勤・リモート勤務する人も多いエリアです。神戸・大阪を合わせて探すのが現実的です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1 list-disc list-inside">
-              <li>製造業の本社・拠点が多く、業務知識×ITが武器になりやすい</li>
-              <li>三宮〜大阪の通勤圏で、求人の選択肢を大阪まで広げやすい</li>
-              <li>生活環境・QOLを重視するUターン・Iターン層の受け皿になりやすい</li>
+              <li>製造業の本社・拠点が多く、業務知識×ITが強みになりやすいです</li>
+              <li>三宮〜大阪の通勤圏で、求人の選択肢を大阪まで広げやすいです</li>
+              <li>生活環境・QOLを重視するUターン・Iターン層の受け皿になりやすいです</li>
             </ul>
           </div>
         </section>
@@ -207,15 +207,15 @@ export default function KobeAreaPage() {
           <div className="space-y-3">
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
-              <p className="text-sm text-slate-600"><strong>神戸・兵庫の企業に勤める：</strong> 製造業・研究機関系は出社中心の傾向。専門性を深めたい人に向く。</p>
+              <p className="text-sm text-slate-600"><strong>神戸・兵庫の企業に勤める：</strong> 製造業・研究機関系は出社中心の傾向です。専門性を深めたい人に向きます。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
-              <p className="text-sm text-slate-600"><strong>大阪の企業に通勤／リモート：</strong> 三宮〜大阪は通勤圏内。神戸のQOLを保ちながら大阪の求人にアクセスできる。</p>
+              <p className="text-sm text-slate-600"><strong>大阪の企業に通勤／リモート：</strong> 三宮〜大阪は通勤圏内です。神戸のQOLを保ちながら大阪の求人にアクセスできます。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-              <p className="text-sm text-slate-600"><strong>東京企業にフルリモート：</strong> 居住地は神戸のまま首都圏水準の年収を狙える。全国採用のフルリモート求人が対象。</p>
+              <p className="text-sm text-slate-600"><strong>東京企業にフルリモート：</strong> 居住地は神戸のまま首都圏水準の年収を狙えます。全国採用のフルリモート求人が対象です。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
@@ -237,7 +237,7 @@ export default function KobeAreaPage() {
         <section id="salary" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方（年代別）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            エリア単独の正確な平均年収データは公的に整備されていないため、ここでは全国の年代別データを基準に考え方を整理します。レバテックが公表した正社員SEの年代別平均年収（2025年）は次の通りです。
+            エリア単独の正確な平均年収データは公的に整備されていないため、ここでは全国の年代別データを基準に考え方を整理します。レバテックが公表した正社員SEの年代別平均年収（2025年）は次のとおりです。
           </p>
           <div className="overflow-x-auto mb-3">
             <table className="w-full text-sm border-collapse min-w-[480px]">
@@ -332,7 +332,7 @@ export default function KobeAreaPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1 text-sm">3. 製造業×ITの掛け合わせを職務経歴書で言語化</h3>
-              <p className="text-sm text-slate-600">業務知識を強みにするなら実績を具体的に。<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>を参考に。</p>
+              <p className="text-sm text-slate-600">業務知識を強みにするなら実績を具体的に示します。<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>をご参照ください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1 text-sm">4. 出社頻度・通勤負担を面談で確認</h3>
@@ -346,7 +346,7 @@ export default function KobeAreaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <p className="text-sm text-slate-600 leading-relaxed mb-3">
-              30代・40代が神戸・兵庫で転職する場合、求人数で勝負するより、専門性やマネジメント経験を評価する企業を狙うのが現実的です。神戸・兵庫の製造業・医療・研究機関系は、特定領域に深い経験を持つ人材を求める傾向があります。
+              30代・40代が神戸・兵庫で転職する場合、求人数を強みにするより、専門性やマネジメント経験を評価する企業を狙うのが現実的です。神戸・兵庫の製造業・医療・研究機関系は、特定領域に深い経験を持つ人材を求める傾向があります。
             </p>
             <p className="text-sm text-slate-600 leading-relaxed mb-3">
               経済産業省が2019年に公表した試算では2030年に最大約79万人のIT人材が不足するとされており、経験者の需要は底堅い状況です。年齢よりも、業務知識や専門性、リード経験をどう言語化できるかが評価につながります。
@@ -365,7 +365,7 @@ export default function KobeAreaPage() {
                 <li>✓ 製造業・医療・研究機関のDXに関わりたい</li>
                 <li>✓ 業務知識とITスキルを掛け合わせたい</li>
                 <li>✓ 神戸に住みながら大阪求人も視野に入れたい</li>
-                <li>✓ 生活環境・QOLを重視している</li>
+                <li>✓ 生活環境・QOLを重視しています</li>
                 <li>✓ 腰を据えて専門性を磨きたい</li>
               </ul>
             </div>
@@ -375,7 +375,7 @@ export default function KobeAreaPage() {
                 <li>・神戸市内だけで多くの求人を比較したい</li>
                 <li>・Web系・SaaSの自社開発求人を層で選びたい</li>
                 <li>・フルリモートを最優先したい</li>
-                <li>・未経験から短期で正社員転職を目指している</li>
+                <li>・未経験から短期で正社員転職を目指しています</li>
               </ul>
               <p className="text-xs text-slate-500 mt-3">該当する場合は、大阪求人や東京企業のフルリモート求人の併用が現実的です。</p>
             </div>

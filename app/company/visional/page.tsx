@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/visional/" },
   title: "ビジョナル/ビズリーチの年収は平均861万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "ビジョナル（東証プライム・4194／ビズリーチ運営）のエンジニア中途採用を一次情報で解説。有価証券報告書の平均年収、Scala中心の技術スタック、選考フロー、口コミ傾向、30代40代の転職可否までまとめました。",
+    "ビジョナル（東証プライム・4194／ビズリーチ運営）のエンジニア中途採用を一次情報で解説します。有価証券報告書の平均年収、Scala中心の技術スタック、選考フロー、口コミ傾向、30代40代の転職可否までまとめました。",
 };
 
 const tableRows: [string, string][] = [
@@ -36,7 +36,7 @@ const salaryHistory: [string, string, string][] = [
 ];
 
 const techStack = [
-  { cat: "バックエンド（主力）", items: "Scala（関数型を実践）。Java／Kotlin／Rubyも利用" },
+  { cat: "バックエンド（主力）", items: "Scalaです（関数型を実践）。Java／Kotlin／Rubyも利用" },
   { cat: "フロントエンド", items: "React／Angular／Vue（プロダクトにより異なる）" },
   { cat: "インフラ・クラウド", items: "AWS（クラウドエンジニア・SRE・DBRE職を募集）" },
   { cat: "データ・ML", items: "データエンジニア／機械学習／MLOps／LLMアプリ開発の職種あり" },
@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "ビジョナルの技術スタックは？",
-    a: "公式採用ページ・技術ブログによると、バックエンドはScalaが主力で、関数型プログラミングを実践。Java・Kotlin・Rubyも利用されます。フロントエンドはReact・Angular・Vueがプロダクトにより使い分けられ、インフラはAWS中心です。SRE・DBRE・セキュリティ・MLOps・LLMアプリ開発など専門職種も募集されています。",
+    a: "公式採用ページ・技術ブログによると、バックエンドはScalaが主力で、関数型プログラミングを実践します。Java・Kotlin・Rubyも利用されます。フロントエンドはReact・Angular・Vueがプロダクトにより使い分けられ、インフラはAWS中心です。SRE・DBRE・セキュリティ・MLOps・LLMアプリ開発など専門職種も募集されています。",
   },
   {
     q: "ビジョナルの選考フローは？",
@@ -110,7 +110,7 @@ export default function VisionalCompanyPage() {
     <>
       <ArticleJsonLd
         title="ビジョナル(ビズリーチ) エンジニア転職ガイド【2026年版】"
-        description="ビジョナル（東証プライム・4194／ビズリーチ運営）のエンジニア中途採用を一次情報で解説。平均年収、技術スタック、選考、口コミ、30代40代の転職可否までまとめました。"
+        description="ビジョナル（東証プライム・4194／ビズリーチ運営）のエンジニア中途採用を一次情報で解説します。平均年収、技術スタック、選考、口コミ、30代40代の転職可否までまとめました。"
         url="/company/visional/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -124,7 +124,7 @@ export default function VisionalCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ビジョナル/ビズリーチの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: ビジョナル株式会社の全社員平均年収は861万円です（2025年7月期 有価証券報告書・全社員平均、平均年齢38.6歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 861万円（2025年7月期 有報、IRBANK集計）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2022年7月期881万円から2025年7月期861万円と高水準で推移（各期 有報）。</li><li>・エンジニア職の統一公開レンジは非公表。提示額は職種・グレードで差があるため、公式求人・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 861万円です（2025年7月期 有価証券報告書、IRBANK集計）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2022年7月期881万円から2025年7月期861万円と高水準で推移しています（各期 有価証券報告書）。</li><li>・エンジニア職の統一公開レンジは非公表です。提示額は職種・グレードで差があるため、公式求人・面談で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
@@ -153,7 +153,7 @@ export default function VisionalCompanyPage() {
             <p className="text-sm text-blue-900 leading-relaxed">
               サーバーサイドはScala中心で関数型プログラミングを実践でき、日本では数少ない環境です。
               <strong>Scala／Javaの実務経験を持ち、HRテック・SaaSで腰を据えて開発したいミドルエンジニア</strong>に向いています。
-              全社員平均年収は有価証券報告書（2025年7月期）で861万円。上場企業の安定感とプロダクト志向の開発文化を両立し、SRE・DBRE・ML・LLMなど専門職の選択肢も豊富です。
+              全社員平均年収は有価証券報告書（2025年7月期）で861万円です。上場企業の安定感とプロダクト志向の開発文化を両立し、SRE・DBRE・ML・LLMなど専門職の選択肢も豊富です。
             </p>
           </div>
         </section>
@@ -184,11 +184,11 @@ export default function VisionalCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マルチプロダクト×専門職の幅</h3>
-              <p className="text-sm text-petrol-deep">ビズリーチ、HRMOSなど複数プロダクトを展開し、サーバーサイド／フロント／データ／MLに加え、SRE・DBRE・セキュリティ・LLMアプリ開発など専門職の募集も豊富。キャリアの選択肢が広がります。</p>
+              <p className="text-sm text-petrol-deep">ビズリーチ、HRMOSなど複数プロダクトを展開し、サーバーサイド／フロント／データ／MLに加え、SRE・DBRE・セキュリティ・LLMアプリ開発など専門職の募集も豊富です。キャリアの選択肢が広がります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">上場企業の安定×プロダクト志向</h3>
-              <p className="text-sm text-petrol-deep">2021年上場・東証プライムの安定感と、エンジニアがプロダクトの意思決定に深く関わる開発文化を両立。CTOがAIネイティブ化への注力を語るなど、AI領域への投資も進んでいます。</p>
+              <p className="text-sm text-petrol-deep">2021年上場・東証プライムの安定感と、エンジニアがプロダクトの意思決定に深く関わる開発文化を両立します。CTOがAIネイティブ化への注力を語るなど、AI領域への投資も進んでいます。</p>
             </div>
           </div>
         </section>
@@ -217,7 +217,7 @@ export default function VisionalCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: Visional Engineering Blog（engineering.visional.inc）・公式採用ページの公開情報を要約。構成はプロダクト・チームにより異なります。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: Visional Engineering Blog（engineering.visional.inc）・公式採用ページの公開情報を要約しています。構成はプロダクト・チームにより異なります。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -301,9 +301,9 @@ export default function VisionalCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ビジョナル転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強い。HRテック・SaaSの非公開求人を保有していることも。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web・ゲーム特化。提案スピードが速く、実務経験者への提案が豊富。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型媒体。カジュアル面談で社風を把握しやすい。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強いです。HRテック・SaaSの非公開求人を保有していることがあります。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web・ゲーム特化です。提案スピードが速く、実務経験者への提案が豊富です。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型媒体です。カジュアル面談で社風を把握しやすいです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

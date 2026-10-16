@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "CI/CDスキルで転職｜年収・求人・将来性【2026年】";
 const PAGE_DESC =
-  "CI/CD（継続的インテグレーション／デリバリー）スキルを軸にした転職市場を出典付きで解説。CI/CDは単体スキルではなくDevOps/SRE実務の基盤として評価される点を整理。求人ボックス公表の関連職種年収、求人傾向、30代・40代の戦い方をミドルエンジニア向けにまとめます。";
+  "CI/CD（継続的インテグレーション／デリバリー）スキルを軸にした転職市場を出典付きで解説。CI/CDは単体スキルではなくDevOps/SRE実務の基盤として評価される点を整理します。求人ボックス公表の関連職種年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/ci-cd/" },
@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     q: "CI/CDスキルを活かす転職におすすめのエージェントは？",
-    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でプラットフォーム／SRE級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強いGeeklyの併用が選択肢です。CI/CDは職種横断のスキルなので、希望職種（DevOps・SRE・プラットフォーム）を明確に伝えて求人を引き出すのが効率的です。",
+    a: "IT・Web特化で高年収求人比率が高いレバテックキャリア、ハイクラス・スカウト型でプラットフォーム／SRE級の求人に出会いやすいビズリーチ、Web系スタートアップの提案に強いGeeklyの併用が選択肢です。CI/CDは職種横断のスキルであるため、希望職種（DevOps・SRE・プラットフォーム）を明確に伝えて求人を引き出すのが効率的です。",
   },
 ];
 
@@ -143,9 +143,9 @@ export default function CiCdSkillPage() {
               <strong>CI/CDは「これ単体で転職する」スキルではなく、DevOps／SRE／プラットフォーム職の市場価値を底上げする実務基盤です。</strong>開発経験やインフラ経験に自動化パイプラインの構築を掛け合わせることで、応募できる求人の幅と年収レンジが広がります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・CI/CD単体の職種別年収は公表が乏しく、<strong>クラウド約488万円・インフラ約475万円・ソフトウェア約511万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握する</li>
-              <li>・求人では「パイプラインの設計・構築」「テスト自動化」「デプロイ自動化」の文脈で問われる</li>
-              <li>・CI/CD＋Docker／Kubernetes／IaCの掛け合わせで、SRE／プラットフォーム領域の高年収求人に手が届く</li>
+              <li>・CI/CD単体の職種別年収は公表が乏しく、<strong>クラウド約488万円・インフラ約475万円・ソフトウェア約511万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握します</li>
+              <li>・求人では「パイプラインの設計・構築」「テスト自動化」「デプロイ自動化」の文脈で問われます</li>
+              <li>・CI/CD＋Docker／Kubernetes／IaCの掛け合わせで、SRE／プラットフォーム領域の高年収求人に手が届きます</li>
             </ul>
           </div>
         </section>
@@ -183,7 +183,7 @@ export default function CiCdSkillPage() {
         <section id="level" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            CI/CDに関する要件は「既存パイプラインを保守できる」レベルから「組織横断のリリース基盤を設計できる」レベルまで幅があります。求人票によく登場する要件を傾向としてまとめると次の通りです。
+            CI/CDに関する要件は「既存パイプラインを保守できる」レベルから「組織横断のリリース基盤を設計できる」レベルまで幅があります。求人票によく登場する要件を傾向としてまとめると次のとおりです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -208,10 +208,10 @@ export default function CiCdSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "DevOpsエンジニア", note: "開発と運用の協調を支える役割。CI/CDが中核の武器になる" },
-              { role: "SRE／プラットフォームエンジニア", note: "リリース基盤とサービスの信頼性を両立。CI/CD＋IaC＋監視が軸" },
+              { role: "DevOpsエンジニア", note: "開発と運用の協調を支える役割です。CI/CDが中核の強みになります" },
+              { role: "SRE／プラットフォームエンジニア", note: "リリース基盤とサービスの信頼性を両立します。CI/CD＋IaC＋監視が軸" },
               { role: "クラウドエンジニア", note: "クラウド上でのデプロイ自動化・IaC運用を担当" },
-              { role: "リリースエンジニア／QA自動化", note: "テスト自動化・リリースプロセスの品質と速度を担う" },
+              { role: "リリースエンジニア／QA自動化", note: "テスト自動化・リリースプロセスの品質と速度を担います" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -228,13 +228,13 @@ export default function CiCdSkillPage() {
         <section id="find" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方・強いエージェント</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            CI/CDは職種横断のスキルなので、希望職種（DevOps・SRE・プラットフォーム）を明確にして求人を引き出すのが効率的です。タイプ別に向くサービスを整理します。
+            CI/CDは職種横断のスキルであるため、希望職種（DevOps・SRE・プラットフォーム）を明確にして求人を引き出すのが効率的です。タイプ別に向くサービスを整理します。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。DevOps・プラットフォーム系の専門求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍しています。DevOps・プラットフォーム系の専門求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
@@ -248,7 +248,7 @@ export default function CiCdSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で、提案スピードが強み。継続的デリバリーを実践するWeb系企業の求人を探したい場合の選択肢です。
+                IT・Web・ゲーム業界専門で、提案スピードが強みです。継続的デリバリーを実践するWeb系企業の求人を探したい場合の選択肢です。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -285,13 +285,13 @@ export default function CiCdSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>CI/CDは「掛け算」で価値が出るスキル。</strong>30代・40代で開発やインフラの実務を積んでいるなら、そこに自動化パイプラインの構築を足すだけで「開発もリリース基盤も整備できる人材」として希少性が増します。年齢の不利を、横断的な実務経験で相殺できる領域です。
+              <strong>CI/CDは「掛け算」で価値が出るスキルです。</strong>30代・40代で開発やインフラの実務を積んでいるなら、そこに自動化パイプラインの構築を足すだけで「開発もリリース基盤も整備できる人材」として希少性が増します。年齢の不利を、横断的な実務経験で相殺できる領域です。
             </p>
             <p>
-              <strong>リリースの痛みを知る経験が活きる。</strong>手動デプロイの事故やリリース遅延を実体験している分、なぜ自動化が必要かを説得力を持って語れます。改善の前後でリードタイムや障害率がどう変わったかを定量で示せると、ミドル層ならではの強みになります。
+              <strong>リリースの痛みを知る経験が活きます。</strong>手動デプロイの事故やリリース遅延を実体験している分、なぜ自動化が必要かを説得力を持って語れます。改善の前後でリードタイムや障害率がどう変わったかを定量で示せると、ミドル層ならではの強みになります。
             </p>
             <p>
-              <strong>マネジメント経験も資産になる。</strong>プラットフォームチームのリードやSREのマネージャー求人では、技術力に加えてチームの開発プロセス改善・育成の経験が評価されます。40代でPL／PM経験があるなら、それをCI/CDの実務とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>プラットフォームチームのリードやSREのマネージャー求人では、技術力に加えてチームの開発プロセス改善・育成の経験が評価されます。40代でPL／PM経験があるなら、それをCI/CDの実務とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -304,13 +304,13 @@ export default function CiCdSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 小さなパイプラインを最後まで通す。</strong>テスト→ビルド→デプロイの一連を、個人プロジェクトでまず完成させます。ツールの機能網羅より「動くパイプラインを一本通す」体験が、本番での応用力につながります。
+              <strong>① 小さなパイプラインを最後まで通します。</strong>テスト→ビルド→デプロイの一連を、個人プロジェクトでまず完成させます。ツールの機能網羅より「動くパイプラインを一本通す」体験が、本番での応用力につながります。
             </p>
             <p>
-              <strong>② Dockerと結びつける。</strong>CI/CDは<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>でのコンテナビルドと組み合わせると実務に近づきます。再現性のあるビルド環境を作れると、デプロイの信頼性が上がります。
+              <strong>② Dockerと結びつけます。</strong>CI/CDは<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>でのコンテナビルドと組み合わせると実務に近づきます。再現性のあるビルド環境を作れると、デプロイの信頼性が上がります。
             </p>
             <p>
-              <strong>③ IaC・クラウドへ広げる。</strong><Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform</Link>などのIaCや<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>のデプロイ自動化まで広げると、SRE／プラットフォーム領域の高年収求人に手が届きます。資格では<Link href="/cert/terraform-associate/" className="text-petrol hover:underline">Terraform Associate</Link>も学習の指針になります。
+              <strong>③ IaC・クラウドへ広げます。</strong><Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform</Link>などのIaCや<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>のデプロイ自動化まで広げると、SRE／プラットフォーム領域の高年収求人に手が届きます。資格では<Link href="/cert/terraform-associate/" className="text-petrol hover:underline">Terraform Associate</Link>も学習の指針になります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -357,7 +357,7 @@ export default function CiCdSkillPage() {
               { name: "Kubernetesエンジニアの転職ガイド", href: "/skill/kubernetes/" },
               { name: "Terraformエンジニアの転職ガイド", href: "/skill/terraform/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

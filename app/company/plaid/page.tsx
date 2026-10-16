@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/plaid/" },
   title: "プレイドの年収は平均939万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "プレイド（東証グロース・4165）のエンジニア中途採用を一次情報で解説。有価証券報告書の平均年収、KARTEの技術スタック、選考フロー、口コミ傾向、30代40代の転職可否までまとめました。",
+    "プレイド（東証グロース・4165）のエンジニア中途採用を一次情報で解説します。有価証券報告書の平均年収、KARTEの技術スタック、選考フロー、口コミ傾向、30代40代の転職可否までまとめました。",
 };
 
 const tableRows: [string, string][] = [
@@ -39,7 +39,7 @@ const techStack = [
   { cat: "言語（管理画面）", items: "TypeScript（フロント・バック双方）" },
   { cat: "フロントエンド", items: "Vue.js／React" },
   { cat: "バックエンド", items: "Node.js（マイクロサービス構成）" },
-  { cat: "解析基盤（Blitz）", items: "JavaScript／SDK設計。数百ms以内に応答するリアルタイム解析基盤" },
+  { cat: "解析基盤（Blitz）", items: "JavaScript／SDK設計です。数百ms以内に応答するリアルタイム解析基盤" },
   { cat: "データ基盤", items: "BigQuery／Bigtable／Spanner（GCP）" },
   { cat: "AI開発支援", items: "GitHub Copilot／Cursor／Devin 等" },
 ];
@@ -105,7 +105,7 @@ export default function PlaidCompanyPage() {
     <>
       <ArticleJsonLd
         title="プレイド エンジニア転職ガイド【2026年版】"
-        description="プレイド（東証グロース・4165）のエンジニア中途採用を一次情報で解説。平均年収、KARTEの技術スタック、選考、口コミ、30代40代の転職可否までまとめました。"
+        description="プレイド（東証グロース・4165）のエンジニア中途採用を一次情報で解説します。平均年収、KARTEの技術スタック、選考、口コミ、30代40代の転職可否までまとめました。"
         url="/company/plaid/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -119,7 +119,7 @@ export default function PlaidCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】プレイドの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社プレイドの全社員平均年収は939万円です（2025年9月期 有価証券報告書・平均年齢35.2歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 939万円（2025年9月期 有報）。エンジニア職限定の数値ではありません。</li><li>・推移は2023年9月期の1,040万円をピークに、2024年9月期955万円→2025年9月期939万円と低下（各期 有報）。</li><li>・職種・グレード別の公式な年収表は非公開。実際の提示額は公式求人・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 939万円です（2025年9月期 有価証券報告書）。エンジニア職限定の数値ではありません。</li><li>・推移は2023年9月期の1,040万円をピークに、2024年9月期955万円→2025年9月期939万円と低下しています（各期 有価証券報告書）。</li><li>・職種・グレード別の公式な年収表は非公開です。実際の提示額は公式求人・面談で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
@@ -148,7 +148,7 @@ export default function PlaidCompanyPage() {
             <p className="text-sm text-blue-900 leading-relaxed">
               KARTEは毎秒大量のイベントを数百ms以内で処理する技術難度の高いプロダクトで、設計力・データ処理経験が問われます。
               <strong>TypeScript／Node.jsの実務経験と、ストリーム処理やGCPのデータ基盤に強みを持つミドルエンジニア</strong>に向いています。
-              全社員平均年収は有価証券報告書（2025年9月期）で939万円と高水準。少数精鋭で裁量が大きく、データエンジニアリングの最先端に関わりたい人に適した環境です。
+              全社員平均年収は有価証券報告書（2025年9月期）で939万円と高水準です。少数精鋭で裁量が大きく、データエンジニアリングの最先端に関わりたい人に適した環境です。
             </p>
           </div>
         </section>
@@ -175,15 +175,15 @@ export default function PlaidCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">リアルタイムデータ処理の最前線</h3>
-              <p className="text-sm text-petrol-deep">KARTEは訪問者の行動をリアルタイムで解析し最適なアクションを配信。解析基盤「Blitz」は数百ms以内で応答する設計で、大規模なリアルタイム処理基盤の開発・運用に携われます（出典: PLAID公式採用ページ）。</p>
+              <p className="text-sm text-petrol-deep">KARTEは訪問者の行動をリアルタイムで解析し最適なアクションを配信します。解析基盤「Blitz」は数百ms以内で応答する設計で、大規模なリアルタイム処理基盤の開発・運用に携われます（出典: PLAID公式採用ページ）。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">少数精鋭で大きな裁量</h3>
-              <p className="text-sm text-petrol-deep">従業員約400名（2025年9月期）でKARTEシリーズを運営。エンジニア一人あたりの責任範囲が広く、アーキテクチャの意思決定にも深く関われます。</p>
+              <p className="text-sm text-petrol-deep">従業員約400名（2025年9月期）でKARTEシリーズを運営します。エンジニア一人あたりの責任範囲が広く、アーキテクチャの意思決定にも深く関われます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">GCPを軸にしたデータ基盤</h3>
-              <p className="text-sm text-petrol-deep">BigQuery・Bigtable・Spannerなど、GCPのデータ基盤をフル活用。AI開発支援ツール（Copilot・Cursor・Devin等）の導入も進められています。</p>
+              <p className="text-sm text-petrol-deep">BigQuery・Bigtable・Spannerなど、GCPのデータ基盤をフル活用です。AI開発支援ツール（Copilot・Cursor・Devin等）の導入も進められています。</p>
             </div>
           </div>
         </section>
@@ -202,7 +202,7 @@ export default function PlaidCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: PLAID Engineer Blog（tech.plaid.co.jp）・公式採用ページの公開情報を要約。構成はプロダクト・チームにより異なります。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: PLAID Engineer Blog（tech.plaid.co.jp）・公式採用ページの公開情報を要約しています。構成はプロダクト・チームにより異なります。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -288,8 +288,8 @@ export default function PlaidCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 text-sm mb-3">向いている人</h3>
               <ul className="space-y-2 text-sm text-green-900">
-                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>TypeScript／Node.jsの実務経験がある</li>
-                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>リアルタイム処理・ストリーム処理に関心がある</li>
+                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>TypeScript／Node.jsの実務経験があります</li>
+                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>リアルタイム処理・ストリーム処理に関心があります</li>
                 <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>BigQuery等GCPのデータ基盤を扱いたい</li>
                 <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>少数精鋭で大きな裁量を持って働きたい</li>
                 <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>データエンジニアリングの最先端に関わりたい</li>
@@ -299,10 +299,10 @@ export default function PlaidCompanyPage() {
               <h3 className="font-bold text-rose-800 text-sm mb-3">向いていない人</h3>
               <ul className="space-y-2 text-sm text-rose-900">
                 <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>繁忙の波を一切避けたい</li>
-                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>明確な指示・レールが整った環境を好む</li>
+                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>明確な指示・レールが整った環境を好みます</li>
                 <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>大規模データ処理に関心がない</li>
-                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>トップダウンの意思決定に抵抗がある</li>
-                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>大企業の安定したブランド・制度を最優先する</li>
+                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>トップダウンの意思決定に抵抗があります</li>
+                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>大企業の安定したブランド・制度を最優先します</li>
               </ul>
             </div>
           </div>
@@ -312,9 +312,9 @@ export default function PlaidCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">プレイド転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強い。SaaS・データテックの非公開求人を保有していることも。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型媒体。カジュアル面談で社風を把握しやすい。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web特化。提案スピードが速く、データテック企業の実務経験者に向く。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強いです。SaaS・データテックの非公開求人を保有していることがあります。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型媒体です。カジュアル面談で社風を把握しやすいです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web特化です。提案スピードが速く、データテック企業の実務経験者に向きます。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

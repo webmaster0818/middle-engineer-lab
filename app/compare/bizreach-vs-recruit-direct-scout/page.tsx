@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/bizreach-vs-recruit-direct-scout/" },
   title: "ビズリーチとリクルートダイレクトスカウト比較【2026年8月】",
   description:
-    "ビズリーチとリクルートダイレクトスカウトを審査・料金・スカウト主体・年収帯で比較。無料で気軽に使うか質で選ぶか、IT特化でないハイクラススカウト型の使い分けと30代40代エンジニアの併用術を解説します。",
+    "ビズリーチとリクルートダイレクトスカウトを審査・料金・スカウト主体・年収帯で比較します。無料で気軽に使うか質で選ぶか、IT特化でないハイクラススカウト型の使い分けと30代40代エンジニアの併用術を解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どっちがおすすめか" },
+  { id: "conclusion", label: "結論：どちらがおすすめか" },
   { id: "naming", label: "用語整理：リクルートダイレクトスカウトとは" },
   { id: "basic", label: "基本データ比較表（2026年6月時点）" },
   { id: "shinsa", label: "違い①：審査の有無" },
@@ -32,11 +32,11 @@ const comparison = [
   { item: "サービス形態", a: "ハイクラス特化のスカウト型プラットフォーム（審査あり）", b: "ハイクラススカウト型サービス（審査なし・完全無料）" },
   { item: "運営", a: "株式会社ビズリーチ（ビジョナルグループ・東証プライム上場）", b: "リクルート系（正式運営会社名は要確認）" },
   { item: "審査", a: "登録時に審査あり（経歴次第で利用範囲に差）", b: "審査なし。誰でも登録可能" },
-  { item: "料金", a: "無料会員あり。一部機能は有料プラン（Web決済5,478円/月・2022年11月改定・二次）前提", b: "完全無料" },
+  { item: "料金", a: "無料会員があります。一部機能は有料プラン（Web決済5,478円/月・2022年11月改定・二次）前提", b: "完全無料" },
   { item: "スカウト主体", a: "企業の採用担当・登録ヘッドハンター", b: "ヘッドハンター・企業スカウト" },
   { item: "規模", a: "導入企業41,800社以上・登録ヘッドハンター9,700人以上（2025年4月・二次）・登録282万人（2025年4月・二次）", b: "公開求人 約59.3万件・年収800万以上 約34.7万件（二次2026年2月）・毎月約2万人新規登録" },
-  { item: "年収帯", a: "年収1,000万円以上の求人が全体の約4割（二次）。年収750万以上が一つの目安", b: "年収600〜2,000万のミドル〜ハイクラス。転職後平均年収950万（二次）" },
-  { item: "IT特化", a: "IT特化ではない（全業種のハイクラス）", b: "IT特化ではない（全業種のハイクラス）" },
+  { item: "年収帯", a: "年収1,000万円以上の求人が全体の約4割です（二次）。年収750万以上が一つの目安", b: "年収600〜2,000万のミドル〜ハイクラスです。転職後平均年収950万（二次）" },
+  { item: "IT特化", a: "IT特化ではありません（全業種のハイクラス）", b: "IT特化ではない（全業種のハイクラス）" },
 ];
 
 const faqs = [
@@ -68,12 +68,12 @@ export default function BizreachVsRdsPage() {
 
   return (
     <>
-      <ArticleJsonLd title="ビズリーチとリクルートダイレクトスカウトの比較｜どっちがおすすめか" description="ビズリーチとリクルートダイレクトスカウトを審査・料金・スカウト主体・年収帯で比較。30代40代エンジニアの使い分けと併用術を解説します。" url="/compare/bizreach-vs-recruit-direct-scout/" />
+      <ArticleJsonLd title="ビズリーチとリクルートダイレクトスカウトの比較｜どっちがおすすめか" description="ビズリーチとリクルートダイレクトスカウトを審査・料金・スカウト主体・年収帯で比較します。30代40代エンジニアの使い分けと併用術を解説します。" url="/compare/bizreach-vs-recruit-direct-scout/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "ビズリーチ vs リクルートダイレクトスカウト" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ビズリーチとリクルートダイレクトスカウトを徹底比較｜どっちがおすすめ？</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">ビズリーチとリクルートダイレクトスカウトを比較｜どっちがおすすめ？</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 審査あり・有料プラン型 と 審査なし・完全無料型 を比較</p>
 
         <p className="text-slate-600 leading-relaxed mb-4">「ビズリーチ リクルートダイレクトスカウト 比較」で検索する方の多くは、どちらのハイクラススカウトに登録すべきか、料金をかけるべきかで迷っています。本記事は30代・40代のITエンジニア向けに、両サービスを「審査」「料金」「スカウト主体」「年収帯」で比較し、IT特化ではない点を踏まえた使い分けと併用術まで整理しました。</p>
@@ -90,16 +90,16 @@ export default function BizreachVsRdsPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・無料で気軽に始めたいなら「リクルートダイレクトスカウト」</strong>。審査なし・完全無料で、まず市場価値を測れます。</li>
               <li><strong>・スカウトの質・厳選された求人を重視するなら「ビズリーチ」</strong>。審査ありで、ハイクラスに特化しています。</li>
-              <li><strong>・迷うなら両方登録（併用）</strong>。完全無料のリクルートダイレクトスカウトで反応を見つつ、ビズリーチで質の高いスカウトを比較するのが、30代・40代には合理的です。</li>
+              <li><strong>・迷うなら両方登録です（併用）</strong>。完全無料のリクルートダイレクトスカウトで反応を見つつ、ビズリーチで質の高いスカウトを比較するのが、30代・40代には合理的です。</li>
             </ul>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm">どちらもIT特化ではありませんが、年収レンジを一段上げる用途では有効です。詳しくは項目別に見ていきましょう。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">どちらもIT特化ではありませんが、年収レンジを一段上げる用途では有効です。詳しくは項目別にご説明します。</p>
         </section>
 
         <section id="naming" className="mb-12 scroll-mt-20">
@@ -107,8 +107,8 @@ export default function BizreachVsRdsPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 text-sm text-slate-700">
             <p className="mb-2"><strong>名前が似ているサービスとの混同に注意してください。</strong></p>
             <ul className="space-y-2 list-disc pl-5">
-              <li><strong>リクルートダイレクトスカウト（RDS）</strong>＝スカウトを『待つ』ハイクラススカウト型サービス。ヘッドハンターや企業から声がかかります。<u>本記事で比較しているのはこれ</u>です。</li>
-              <li><strong>リクルートエージェント</strong>＝担当が求人を『提案する』エージェント型サービス。仕組みが異なります。</li>
+              <li><strong>リクルートダイレクトスカウト（RDS）</strong>＝スカウトを『待つ』ハイクラススカウト型サービスです。ヘッドハンターや企業から声がかかります。<u>本記事で比較しているのはこれ</u>です。</li>
+              <li><strong>リクルートエージェント</strong>＝担当が求人を『提案する』エージェント型サービスです。仕組みが異なります。</li>
             </ul>
             <p className="mt-2">本記事はビズリーチと『リクルートダイレクトスカウト』の比較です。リクルートエージェントとは別物としてお読みください。</p>
           </div>
@@ -166,7 +166,7 @@ export default function BizreachVsRdsPage() {
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
               <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高年収求人が豊富</li><li>市場価値を客観的に把握できる</li><li>厳選された質の高いスカウト</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ない</li><li>有料プラン前提との不満</li><li>スカウトの質にばらつき</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>有料プラン前提との不満</li><li>スカウトの質にばらつき</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：みん評／各転職メディア集計</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -174,7 +174,7 @@ export default function BizreachVsRdsPage() {
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
               <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>完全無料で使える</li><li>高年収・非公開求人が多い</li><li>求人量が豊富</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ない</li><li>ヘッドハンターの質にばらつき</li><li>現職バレが不安という声</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>経歴次第でスカウトが来ないです</li><li>ヘッドハンターの質にばらつき</li><li>現職バレが不安という声</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：みん評／各転職メディア集計</p>
             </div>
           </div>
@@ -200,8 +200,8 @@ export default function BizreachVsRdsPage() {
             <div className="space-y-4">
               {[
                 { num: "1", title: "まずリクルートダイレクトスカウト（無料）", desc: "審査なし・完全無料で登録し、届くスカウトの量と質で市場の反応を確認します。コストゼロで相場感をつかめます。" },
-                { num: "2", title: "ビズリーチで質を確認", desc: "審査を通過してハイクラスの厳選環境に入り、スカウトの質を比較。有料プランは、無料で手応えを感じてから検討します。" },
-                { num: "3", title: "併用で比較（推奨）", desc: "両方のスカウトを並べて、企業担当・ヘッドハンターの本気度や年収レンジを比較。最も有利な条件で意思決定します。IT専門サポートが必要ならIT特化サービスを追加します。" },
+                { num: "2", title: "ビズリーチで質を確認", desc: "審査を通過してハイクラスの厳選環境に入り、スカウトの質を比較します。有料プランは、無料で手応えを感じてから検討します。" },
+                { num: "3", title: "併用で比較（推奨）", desc: "両方のスカウトを並べて、企業担当・ヘッドハンターの本気度や年収レンジを比較します。最も有利な条件で意思決定です。IT専門サポートが必要ならIT特化サービスを追加します。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -234,7 +234,7 @@ export default function BizreachVsRdsPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">無料で測って、質で選ぶ</h2>
-          <p className="text-blue-100 text-sm mb-4">完全無料のリクルートダイレクトスカウトで相場を測り、ビズリーチで質の高いスカウトを比較。30代・40代の年収アップに合理的な二段構えです。</p>
+          <p className="text-blue-100 text-sm mb-4">完全無料のリクルートダイレクトスカウトで相場を測り、ビズリーチで質の高いスカウトを比較します。30代・40代の年収アップに合理的な二段構えです。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 
@@ -246,7 +246,7 @@ export default function BizreachVsRdsPage() {
               { name: "リクルートダイレクトスカウトの評判", href: "/review/recruit-direct-scout/" },
               { name: "dodaX vs リクルートダイレクトスカウト 比較", href: "/compare/doda-x-vs-recruit-direct-scout/" },
               { name: "ビズリーチ vs レバテック 比較", href: "/compare/bizreach-vs-levtech/" },
-              { name: "スカウト型サービス徹底比較", href: "/compare/scout-agents/" },
+              { name: "スカウト型サービス比較", href: "/compare/scout-agents/" },
               { name: "ハイクラスIT転職エージェント比較", href: "/compare/highclass/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>

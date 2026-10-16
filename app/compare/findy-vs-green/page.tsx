@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/findy-vs-green/" },
   title: "FindyとGreenの比較｜違いとどっちがおすすめ？【2026年8月】",
   description:
-    "Findy（GitHub技術力評価型のスカウト）とGreen（国内最大級のIT求人×多職種の直接応募/スカウト）を、サービス形態・評価軸・対象・マッチ方式で比較。技術力で評価されたいか、職種の広さから直接応募したいか、選び方と併用術を出典付きで解説します。",
+    "Findy（GitHub技術力評価型のスカウト）とGreen（国内最大級のIT求人×多職種の直接応募/スカウト）を、サービス形態・評価軸・対象・マッチ方式で比較します。技術力で評価されたいか、職種の広さから直接応募したいか、選び方と併用術を出典付きで解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どっちがおすすめか" },
+  { id: "conclusion", label: "結論：どちらがおすすめか" },
   { id: "naming", label: "立ち位置整理：FindyとGreenの性格の違い" },
   { id: "basic", label: "基本データ比較表（2026年6月時点）" },
   { id: "type", label: "項目別比較①：サービス形態（スカウト vs 直接応募）" },
@@ -34,8 +34,8 @@ const comparison = [
   { item: "評価軸", a: "GitHub解析による技術力（スキル偏差値）＋想定年収予測", b: "求人条件・職種の広さ（技術力に限定しない）" },
   { item: "対象", a: "経験者エンジニア中心（正社員＋副業）", b: "エンジニアに加え、マーケ・営業・人事・経理・法務など多職種も掲載" },
   { item: "マッチ方式", a: "企業「いいかも」→求職者の応答でスカウト成立の相互マッチ／独自AIマッチング", b: "求職者からの直接応募、または企業からの直接メッセージ・スカウト・「気になる」機能" },
-  { item: "掲載・規模", a: "導入企業800社以上（公式・確認時点）。求人数は非明示", b: "IT/IT関連求人が国内最大級（公式）。大手掲載例：サイバーエージェント・PayPay・楽天等" },
-  { item: "サポート", a: "無料のキャリア相談あり。基本はプロフィール整備とスカウト対応の自走", b: "エージェント型の伴走ではなく、求職者が主体的に応募・やり取りする求人サイト型" },
+  { item: "掲載・規模", a: "導入企業800社以上です（公式・確認時点）。求人数は非明示", b: "IT/IT関連求人が国内最大級です（公式）。大手掲載例：サイバーエージェント・PayPay・楽天等" },
+  { item: "サポート", a: "無料のキャリア相談があります。基本はプロフィール整備とスカウト対応の自走", b: "エージェント型の伴走ではなく、求職者が主体的に応募・やり取りする求人サイト型" },
   { item: "料金", a: "求職者は無料", b: "求職者は全機能無料" },
 ];
 
@@ -69,7 +69,7 @@ export default function FindyVsGreenPage() {
 
   return (
     <>
-      <ArticleJsonLd title="FindyとGreenの比較｜違いとどっちがおすすめか" description="Findy（GitHub技術力評価型のスカウト）とGreen（国内最大級のIT求人×多職種の直接応募/スカウト）を、サービス形態・評価軸・対象・マッチ方式で比較。選び方を出典付きで解説します。" url="/compare/findy-vs-green/" />
+      <ArticleJsonLd title="FindyとGreenの比較｜違いとどっちがおすすめか" description="Findy（GitHub技術力評価型のスカウト）とGreen（国内最大級のIT求人×多職種の直接応募/スカウト）を、サービス形態・評価軸・対象・マッチ方式で比較します。選び方を出典付きで解説します。" url="/compare/findy-vs-green/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "Findy vs Green" }]} />
 
@@ -91,13 +91,13 @@ export default function FindyVsGreenPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・GitHubの技術力で評価されたいなら「Findy」</strong>。スキル偏差値と想定年収予測で実力を可視化し、独自AIマッチングで企業からスカウトが届きます。</li>
               <li><strong>・職種の広さから自分で直接応募したいなら「Green」</strong>。IT・IT関連求人が国内最大級（公式）で、多職種の求人に直接応募でき、スカウトも使えます。</li>
-              <li><strong>・迷うなら両方登録</strong>。Findyで技術力の市場価値を測り、Greenで選択肢の広い求人に直接応募する「受動×能動」が、30代・40代には合理的です。どちらも求職者は無料です。</li>
+              <li><strong>・迷うなら両方登録です</strong>。Findyで技術力の市場価値を測り、Greenで選択肢の広い求人に直接応募する「受動×能動」が、30代・40代には合理的です。どちらも求職者は無料です。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">両者は「エージェント型の伴走」ではなく、いずれも求職者が主体的に動くタイプです。性格の違いは次の立ち位置整理をご覧ください。</p>
@@ -108,8 +108,8 @@ export default function FindyVsGreenPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 text-sm text-slate-700">
             <p className="mb-2"><strong>両サービスは、どちらも「専任アドバイザーが伴走するエージェント」とは異なります。</strong>混同しないよう、性格を整理します。</p>
             <ul className="space-y-2 list-disc pl-5">
-              <li><strong>Findy</strong>＝GitHub連携でスキル偏差値を出す、技術力評価型のスカウトサービス。プロフィールとコードを整えてスカウトを待つのが基本です。</li>
-              <li><strong>Green</strong>＝IT・IT関連求人が国内最大級（公式）の求人サイト。求職者が自分から直接応募でき、企業からのスカウトや「気になる」機能も使えます。</li>
+              <li><strong>Findy</strong>＝GitHub連携でスキル偏差値を出す、技術力評価型のスカウトサービスです。プロフィールとコードを整えてスカウトを待つのが基本です。</li>
+              <li><strong>Green</strong>＝IT・IT関連求人が国内最大級（公式）の求人サイトです。求職者が自分から直接応募でき、企業からのスカウトや「気になる」機能も使えます。</li>
               <li><strong>共通点</strong>＝いずれも求職者は無料で、能動的に動くほど選択肢が広がります。書類添削や年収交渉までを一貫して任せたい場合は、別途エージェント型の併用も検討しましょう。</li>
             </ul>
           </div>
@@ -131,7 +131,7 @@ export default function FindyVsGreenPage() {
           <p className="text-slate-600 leading-relaxed mb-4">FindyとGreenは、転職の進み方が根本的に違います。Findyはスカウト型です。GitHubアカウントを連携し、公開リポジトリの活動を解析した「スキル偏差値」と想定年収予測をもとに、独自のAIマッチングで企業からスカウトが届きます。プロフィールとコードを整えて待つスタイルで、コードで実力を示せる人ほど有利です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">Greenは求人サイト型です。IT・IT関連の求人が国内最大級（公式）に掲載され、求職者は気になる求人に自分から直接応募できます。加えて、企業からの直接メッセージやスカウト、興味を伝える「気になる」機能もあり、能動と受動の両方で動けます。自分のペースで幅広く探したい人に向きます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>技術力を示して「待つ」ならFindy、条件の広さから「自分で応募する」ならGreen。スカウト型全体の位置づけは<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービスのタイプ別マップ</Link>を、GitHub軸の比較は<Link href="/compare/findy-vs-forkwell/" className="text-petrol hover:underline">Findy vs Forkwell</Link>も参考にしてください。</p>
+            <p className="mb-2"><strong>まとめ：</strong>技術力を示して「待つ」ならFindy、条件の広さから「自分で応募する」ならGreenです。スカウト型全体の位置づけは<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービスのタイプ別マップ</Link>を、GitHub軸の比較は<Link href="/compare/findy-vs-forkwell/" className="text-petrol hover:underline">Findy vs Forkwell</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -154,12 +154,12 @@ export default function FindyVsGreenPage() {
               <p className="text-sm text-green-700 leading-relaxed">求職者が求人に直接応募する形が基本で、企業と直接メッセージでやり取りできます。企業からの直接スカウトや、興味を伝える「気になる」機能もあり、双方向のアクションが用意されています。全機能を無料で使える点も特徴です。</p>
             </div>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm">相互マッチで待つならFindy、直接応募と直接メッセージで動くならGreen。複数サービスの使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">相互マッチで待つならFindy、直接応募と直接メッセージで動くならGreenです。複数サービスの使い分けは<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数利用のコツ</Link>も参考にしてください。</p>
         </section>
 
         <section id="target" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較④：対象層・職種の広さ</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">Findyはプログラミング経験者を中心としたエンジニア向けで、対象には正社員に加えて副業も含みます。GitHubの活動が評価軸のため、コードを書き続けているエンジニアほど効果が出ます。技術力で勝負したい経験者に最適化されています。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">Findyはプログラミング経験者を中心としたエンジニア向けで、対象には正社員に加えて副業も含みます。GitHubの活動が評価軸のため、コードを書き続けているエンジニアほど効果が出ます。技術力を強みにしたい経験者に最適化されています。</p>
           <p className="text-slate-600 leading-relaxed mb-4">Greenは対象の職種が広く、エンジニアに加えてマーケティング・営業・人事・経理・法務などの求人も掲載しています。エンジニアからIT企業のビジネス職への越境を考える場合や、職種を横断して検討したい場合はGreenの選択肢が広がります。経験の浅い方は<Link href="/compare/inexperienced/" className="text-petrol hover:underline">未経験向けの選択肢</Link>もあわせて検討しましょう。</p>
         </section>
 
@@ -170,17 +170,17 @@ export default function FindyVsGreenPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Findyの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>GitHub実績で技術力を客観評価される</li><li>スキル偏差値で市場価値がわかる</li><li>掲載企業の質が一定に保たれている</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>GitHub実績で技術力を客観評価されます</li><li>スキル偏差値で市場価値が分かります</li><li>掲載企業の質が一定に保たれています</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>GitHub活動が少ないとスカウトが来にくい</li><li>伴走型のサポートは薄め</li><li>経験者エンジニア向けの色が濃い</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>GitHub活動が少ないとスカウトが来にくいです</li><li>伴走型のサポートは薄め</li><li>経験者エンジニア向けの色が濃い</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：Qiita／みん評／各転職メディア集計</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Greenの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>求人・職種の選択肢が広い</li><li>企業と直接メッセージでやり取りできる</li><li>全機能が無料で使える</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>求人・職種の選択肢が広いです</li><li>企業と直接メッセージでやり取りできます</li><li>全機能が無料で使える</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>応募・やり取りは自分で進める必要がある</li><li>年収交渉などの伴走はない</li><li>求人が多く絞り込みに手間がかかる場合がある</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>応募・やり取りは自分で進める必要があります</li><li>年収交渉などの伴走はない</li><li>求人が多く絞り込みに手間がかかる場合があります</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：みん評／Qiita／各転職メディア集計</p>
             </div>
           </div>
@@ -205,9 +205,9 @@ export default function FindyVsGreenPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-4">
               {[
-                { num: "1", title: "Findyが向くケース", desc: "現役でコードを書き、GitHubに公開活動がある場合。スキル偏差値で技術力を可視化し、届いたスカウトの質で立ち位置を確認します。" },
-                { num: "2", title: "Greenが向くケース", desc: "職種や条件の広さから探したい、自分から直接応募したい場合。国内最大級（公式）のIT・IT関連求人から、大手の掲載例も含めて幅広く候補を集めます。" },
-                { num: "3", title: "併用パターン（推奨）", desc: "Findyで技術力の市場価値を測りつつ、Greenで選択肢の広い求人に直接応募する。技術力での評価と選択肢の広さを組み合わせ、受動と能動の両輪で意思決定します。" },
+                { num: "1", title: "Findyが向くケース", desc: "現役でコードを書き、GitHubに公開活動がある場合です。スキル偏差値で技術力を可視化し、届いたスカウトの質で立ち位置を確認します。" },
+                { num: "2", title: "Greenが向くケース", desc: "職種や条件の広さから探したい、自分から直接応募したい場合です。国内最大級（公式）のIT・IT関連求人から、大手の掲載例も含めて幅広く候補を集めます。" },
+                { num: "3", title: "併用パターン（推奨）", desc: "Findyで技術力の市場価値を測りつつ、Greenで選択肢の広い求人に直接応募です。技術力での評価と選択肢の広さを組み合わせ、受動と能動の両輪で意思決定です。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -221,8 +221,8 @@ export default function FindyVsGreenPage() {
 
         <section id="middle" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">経験を積んだ30代・40代エンジニアにとって、FindyとGreenは市場価値を活かす手段として性格が異なります。技術力を武器にするか、職種・条件の広さを武器にするかで、使うべきサービスが変わります。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>現役でコードを書いているなら、FindyのGitHub技術力評価が強い武器になります。同時に、Greenで職種や条件の広い求人に直接応募すれば、選択肢を横に広げられます。市場価値の確認をFindy、幅広い応募をGreen、と二段構えにすると視野が広がります。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">経験を積んだ30代・40代エンジニアにとって、FindyとGreenは市場価値を活かす手段として性格が異なります。技術力を強みにするか、職種・条件の広さを強みにするかで、使うべきサービスが変わります。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>現役でコードを書いているなら、FindyのGitHub技術力評価が強い強みになります。同時に、Greenで職種や条件の広い求人に直接応募すれば、選択肢を横に広げられます。市場価値の確認をFindy、幅広い応募をGreen、と二段構えにすると視野が広がります。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>40代でもGitHubが活発であれば、Findyは年齢より技術で評価してくれます。一方、マネジメントや専門領域など職種の幅を活かしたい場合は、多職種を掲載するGreenで直接応募する動きが有効です。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
         </section>
 
@@ -242,7 +242,7 @@ export default function FindyVsGreenPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">「技術力の評価×直接応募」の両輪でIT転職を有利に</h2>
-          <p className="text-blue-100 text-sm mb-4">Findyで技術力の市場価値を測り、Greenで選択肢の広い求人に直接応募する。30代・40代エンジニアが選択肢を広げる合理的なルートです。どちらも求職者は無料です。</p>
+          <p className="text-blue-100 text-sm mb-4">Findyで技術力の市場価値を測り、Greenで選択肢の広い求人に直接応募です。30代・40代エンジニアが選択肢を広げる合理的なルートです。どちらも求職者は無料です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 
@@ -255,7 +255,7 @@ export default function FindyVsGreenPage() {
               { name: "Findy vs レバテック 比較", href: "/compare/findy-vs-levtech/" },
               { name: "Findy vs Forkwell 比較", href: "/compare/findy-vs-forkwell/" },
               { name: "Green vs Wantedly 比較", href: "/compare/green-vs-wantedly/" },
-              { name: "スカウト型サービス徹底比較", href: "/compare/scout-agents/" },
+              { name: "スカウト型サービス比較", href: "/compare/scout-agents/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

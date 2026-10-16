@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/nintendo/" },
   title: "任天堂の年収は平均966万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "任天堂のエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説。平均年収966万円(2025年3月期)、選考フロー、技術スタック、30代40代の現実を中立にまとめました。",
+    "任天堂のエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説します。平均年収966万円(2025年3月期)、選考フロー、技術スタック、30代40代の現実を中立にまとめました。",
 };
 
 const toc = [
@@ -59,7 +59,7 @@ export default function NintendoCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="任天堂 エンジニア転職ガイド" description="任天堂へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説。平均年収966万円(2025年3月期)、選考フロー、技術スタックをまとめました。" url="/company/nintendo/" />
+      <ArticleJsonLd title="任天堂 エンジニア転職ガイド" description="任天堂へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収966万円(2025年3月期)、選考フロー、技術スタックをまとめました。" url="/company/nintendo/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "任天堂" }]} />
 
@@ -74,7 +74,7 @@ export default function NintendoCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】任天堂の年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（任天堂株式会社単体）の平均年間給与は966万円です（2025年3月期 有価証券報告書・全従業員平均・賞与含む、平均年齢40.2歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 966万円（2025年3月期 有報・提出会社単体／全従業員平均・賞与含む）。前期から微増（約+3.9万円）。</li><li>・平均年齢40.2歳・平均勤続年数14.4年（同 有報）。業績連動賞与の比重が大きい給与構造が高水準を支えています。</li><li>・職種別・等級別のレンジは非公表。エンジニア個人の提示額は求人・面談での確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 966万円です（2025年3月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。前期から微増です（約+3.9万円）。</li><li>・平均年齢40.2歳・平均勤続年数14.4年です（同 有価証券報告書）。業績連動賞与の比重が大きい給与構造が高水準を支えています。</li><li>・職種別・等級別のレンジは非公表です。エンジニア個人の提示額は求人・面談での確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["任天堂 有価証券報告書（2025年3月期）", "任天堂 公式採用サイト（キャリア採用）", "IRBANK", "OpenWork（口コミ傾向）"]} />
@@ -84,9 +84,9 @@ export default function NintendoCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：かなり高い（経験者・専門特化型）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・自社ハード（Nintendo Switch等）の制約下で最高の体験を作る、C++中心の低レイヤー最適化が中核。<strong>コンソールゲーム開発・組み込み近傍の経験者</strong>に向く。</li>
-              <li>・選考は<strong>作品選考＋複数回面接</strong>で、応募から内定まで2〜3か月。即戦力性とモノづくりへの姿勢を強く見られる。</li>
-              <li>・年収は提出会社単体の平均で<strong>966万円（2025年3月期・有報）</strong>。財務基盤が盤石で、業績連動賞与の比重が大きい。</li>
+              <li>・自社ハード（Nintendo Switch等）の制約下で最高の体験を作る、C++中心の低レイヤー最適化が中核です。<strong>コンソールゲーム開発・組み込み近傍の経験者</strong>に向きます。</li>
+              <li>・選考は<strong>作品選考＋複数回面接</strong>で、応募から内定まで2〜3か月です。即戦力性とモノづくりへの姿勢を強く見られます。</li>
+              <li>・年収は提出会社単体の平均で<strong>966万円です（2025年3月期・有価証券報告書）</strong>。財務基盤が盤石で、業績連動賞与の比重が大きいです。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">逆に、最新のWebモダン技術を最優先したい人や、フルリモート前提の人は京都本社中心の働き方とミスマッチが起きやすい点に注意が必要です。</p>
           </div>
@@ -110,7 +110,7 @@ export default function NintendoCompanyPage() {
               ))}
             </tbody></table>
           </div>
-          <p className="text-xs text-slate-500">出典：任天堂「有価証券報告書」2025年3月期（提出会社＝任天堂株式会社単体の従業員データ）、IRBANK集計、任天堂公式採用サイトの職種紹介。連結従業員数は概数。</p>
+          <p className="text-xs text-slate-500">出典：任天堂「有価証券報告書」2025年3月期（提出会社＝任天堂株式会社単体の従業員データ）、IRBANK集計、任天堂公式採用サイトの職種紹介。連結従業員数は概数です。</p>
         </section>
 
         <section id="feature" className="mb-10">
@@ -154,10 +154,10 @@ export default function NintendoCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式採用ページベース）</h2>
           <ol className="space-y-3">
             {[
-              ["STEP 1", "Web応募", "公式サイトの「キャリア採用Web応募」から応募。登録メールアドレスに完了通知が届く。"],
-              ["STEP 2", "作品選考", "職種により必要に応じて実施（ポートフォリオ・作品提出）。"],
-              ["STEP 3", "面接", "複数回を予定。専門性に加え、モノづくりへの姿勢・志望度が見られる。"],
-              ["STEP 4", "内定", "採用条件の提示。応募から内定まで2〜3か月程度、書類結果まで約1か月。"],
+              ["STEP 1", "Web応募", "公式サイトの「キャリア採用Web応募」から応募します。登録メールアドレスに完了通知が届きます。"],
+              ["STEP 2", "作品選考", "職種により必要に応じて実施です（ポートフォリオ・作品提出）。"],
+              ["STEP 3", "面接", "複数回を予定します。専門性に加え、モノづくりへの姿勢・志望度が見られます。"],
+              ["STEP 4", "内定", "採用条件の提示です。応募から内定まで2〜3か月程度、書類結果まで約1か月です。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -184,13 +184,13 @@ export default function NintendoCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、任天堂について<strong>「ブランド力・京都勤務という条件への満足度が高い」「給与・福利厚生への評価が高い」</strong>という声が見られる一方、<strong>「業務量に対して人員が限られ、部署によっては残業が多い」「社内での成長機会・配置に課題を感じる場合がある」</strong>といった指摘も見られます。「会社（任天堂というプロダクト）が好きであることが前提になる」という趣旨の声もあり、IPやモノづくりへの愛着が定着の鍵になる傾向がうかがえます。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
         </section>
 
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見た任天堂</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>提出会社単体の<strong>平均年齢は40.2歳、平均勤続年数14.4年</strong>（2025年3月期・有報）。新卒からの長期勤続者が中核を占める組織で、年齢構成としては30代・40代のミドル層が多数派の落ち着いた環境といえます。中途で入る場合は、即戦力としての専門性に加え、長期での品質追求文化に馴染めるかが定着のポイントになります。</p>
+            <p>提出会社単体の<strong>平均年齢は40.2歳、平均勤続年数14.4年です</strong>（2025年3月期・有価証券報告書）。新卒からの長期勤続者が中核を占める組織で、年齢構成としては30代・40代のミドル層が多数派の落ち着いた環境といえます。中途で入る場合は、即戦力としての専門性に加え、長期での品質追求文化に馴染めるかが定着のポイントになります。</p>
             <p>30代・40代のコンソールゲーム開発経験者・組み込み近傍のC++エンジニアにとっては、キャリアの専門性が直接活きる希少なポジションです。一方で、Webモダン技術やフルリモートを最優先するキャリア観の場合は、京都本社中心・自社技術中心の環境との相性を事前に見極めることをおすすめします。年収面では平均966万円が一つの基準となり、前職年収との比較や賞与比率の確認が重要です。</p>
             <p>転職活動では、ミドル層の年収交渉・キャリア整理の観点も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>もあわせて確認してください。</p>
           </div>
@@ -203,8 +203,8 @@ export default function NintendoCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>C++での低レイヤー実装・最適化が得意なコンソールゲーム開発経験者</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ハード制約の中で体験品質を追求するモノづくりに情熱がある</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>京都本社を中心とした腰を据えた長期就業に魅力を感じる</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ハード制約の中で体験品質を追求するモノづくりに情熱があります</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>京都本社を中心とした腰を据えた長期就業に魅力を感じます</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ネットワークサービス（Go/Kotlin等）でWeb基盤を支えたい</li>
               </ul>
             </div>
@@ -212,9 +212,9 @@ export default function NintendoCompanyPage() {
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>フルリモート・場所を選ばない働き方を最優先したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>最新のWeb/クラウドのトレンド技術を常に追いたい志向が強い</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>短期間での昇給・等級ジャンプを第一に考えている</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>ゲーム開発の実務経験がなく、未経験からの参入を狙っている</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>最新のWeb/クラウドのトレンド技術を常に追いたい志向が強いです</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>短期間での昇給・等級ジャンプを第一に考えています</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>ゲーム開発の実務経験がなく、未経験からの参入を狙っています</li>
               </ul>
             </div>
           </div>
@@ -224,7 +224,7 @@ export default function NintendoCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ゲーム・IT業界の転職市場と任天堂の位置づけ</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。需要が構造的に拡大するなかで、コンソールゲーム特有の低レイヤー最適化スキルは希少性が高く、任天堂のような自社ハードを持つ企業は限られた選択肢になります。</p>
-            <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均で、任天堂の提出会社平均966万円（2025年3月期・有報）はこれを大きく上回ります。ただし有報の値は全従業員平均であり、職種・等級・賞与により個人差が大きい点に留意が必要です。</p>
+            <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均で、任天堂の提出会社平均966万円（2025年3月期・有価証券報告書）はこれを大きく上回ります。ただし有価証券報告書の値は全従業員平均であり、職種・等級・賞与により個人差が大きい点に留意が必要です。</p>
             <p>つまり任天堂は「希少な専門性を、業界平均より高い水準で評価する」企業といえます。一方で募集職種が専門特化しているため、自分の経験がどの募集とマッチするかの見極めが転職成功の鍵になります。</p>
           </div>
         </section>
@@ -232,9 +232,9 @@ export default function NintendoCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">任天堂転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化。ゲーム企業の求人提案に強み。提案スピードが速い。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人比率が高く、技術面接対策のサポートが受けられる。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。ゲーム企業の求人提案に強みがあります。提案スピードが速いです。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人比率が高く、技術面接対策のサポートが受けられます。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">

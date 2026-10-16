@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/return-japan/" },
   title: "海外から日本へ帰国転職【リモート面接・タイミング・アピール】",
   description:
-    "海外在住エンジニアの帰国転職を解説。時差を踏まえたリモート面接の進め方、帰国タイミングの決め方、海外経験を強みに変えるアピール方法を30代・40代向けに紹介します。",
+    "海外在住エンジニアの帰国転職を解説します。時差を踏まえたリモート面接の進め方、帰国タイミングの決め方、海外経験を強みに変えるアピール方法を30代・40代向けに紹介します。",
 };
 
 const toc = [
@@ -23,7 +23,7 @@ const toc = [
 
 const remoteSteps = [
   { num: "1", title: "時差を前提に面接枠を設計する", desc: "自分の現地時間で無理のない時間帯（早朝・深夜を避ける）を、第1〜第3希望でエージェントに伝えます。日程調整はエージェントに任せると企業との往復が減ります。" },
-  { num: "2", title: "通信・環境を事前テストする", desc: "回線・カメラ・マイク・背景・照明を本番前に必ず確認。回線が不安定な場合は有線接続やモバイル回線の予備を用意します。" },
+  { num: "2", title: "通信・環境を事前テストする", desc: "回線・カメラ・マイク・背景・照明を本番前に必ず確認します。回線が不安定な場合は有線接続やモバイル回線の予備を用意します。" },
   { num: "3", title: "オンライン特有の伝え方を意識する", desc: "対面より反応が伝わりにくいため、相づち・要点の先出し・ゆっくりめの発話を意識します。画面共有で図解できる準備もしておきます。" },
   { num: "4", title: "技術課題・ライブコーディングに備える", desc: "オンラインのコーディング環境（共有エディタ等）に慣れておきます。思考を声に出して説明する練習をしておくと安心です。" },
   { num: "5", title: "渡航前に選考を完了させる", desc: "可能な限り、帰国前にオンラインで内定まで進めます。最終面接だけ帰国時に対面、という調整も相談可能です。" },
@@ -45,7 +45,7 @@ export default function ReturnJapanPage() {
 
   return (
     <>
-      <ArticleJsonLd title="海外から日本へ帰国転職【リモート面接・タイミング・アピール】" description="海外在住エンジニアの帰国転職を解説。時差を踏まえたリモート面接の進め方、帰国タイミングの決め方、海外経験を強みに変えるアピール方法を30代・40代向けに紹介します。" url="/knowledge/return-japan/" />
+      <ArticleJsonLd title="海外から日本へ帰国転職【リモート面接・タイミング・アピール】" description="海外在住エンジニアの帰国転職を解説します。時差を踏まえたリモート面接の進め方、帰国タイミングの決め方、海外経験を強みに変えるアピール方法を30代・40代向けに紹介します。" url="/knowledge/return-japan/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "転職ガイド" }, { name: "帰国転職ガイド" }]} />
 
@@ -58,7 +58,7 @@ export default function ReturnJapanPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】海外からの帰国転職はいつ帰るのが正解？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 内定が確定してから帰国するのが鉄則です。多くの企業がリモート面接に対応しているため、渡航前にオンラインで内定まで進めれば、無収入の空白期間や焦りによる妥協を避けられます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・リモート面接は、時差を踏まえた日程設計・通信環境の事前テスト・要点先出しの伝え方が基本</li><li>・海外経験は「海外にいた」ことではなく、日本でどう活かせるかを行動と結果で語る</li><li>・年収は月給ベースではなく、賞与込みの年間総額で比較する</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・リモート面接は、時差を踏まえた日程設計・通信環境の事前テスト・要点先出しの伝え方が基本</li><li>・海外経験は「海外にいた」ことではなく、日本でどう活かせるかを行動と結果で語ります</li><li>・年収は月給ベースではなく、賞与込みの年間総額で比較します</li></ul>
           </div>
         </section>
 
@@ -80,9 +80,9 @@ export default function ReturnJapanPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">帰国転職で最も避けたいのは「先に帰国してから無収入で活動する」状態です。次の3点を押さえれば、リスクを抑えて進められます。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>1. <strong>オンラインで内定まで進める</strong>。多くの企業がリモート面接に対応</li>
-              <li>2. <strong>帰国は内定確定後</strong>。空白期間と焦りによる妥協を避ける</li>
-              <li>3. <strong>海外経験は「日本でどう活かせるか」に翻訳して語る</strong></li>
+              <li>1. <strong>オンラインで内定まで進めます</strong>。多くの企業がリモート面接に対応</li>
+              <li>2. <strong>帰国は内定確定後です</strong>。空白期間と焦りによる妥協を避けます</li>
+              <li>3. <strong>海外経験は「日本でどう活かせるか」に翻訳して語ります</strong></li>
             </ul>
           </div>
         </section>
@@ -106,11 +106,11 @@ export default function ReturnJapanPage() {
           <p className="text-slate-600 leading-relaxed mb-4">帰国のタイミングは「選考の進捗」と「生活側の区切り」の両面で決めます。下記のチェックを使うと判断しやすくなります。</p>
           <div className="border border-slate-200 rounded-lg p-5 mb-4">
             <ul className="space-y-3 text-sm text-slate-700">
-              <li>☑ 内定が確定している、または最終段階まで進んでいる</li>
-              <li>☑ 入社日と帰国日・住居確保のスケジュールが両立する</li>
-              <li>☑ 子どもの就学・進学の区切りと大きくぶつからない</li>
-              <li>☑ 現地の住居解約・契約満了のタイミングと整合する</li>
-              <li>☑ 帰国後の手続き（転入届・健康保険・税務）の段取りを把握している</li>
+              <li>☑ 内定が確定している、または最終段階まで進んでいます</li>
+              <li>☑ 入社日と帰国日・住居確保のスケジュールが両立します</li>
+              <li>☑ 子どもの就学・進学の区切りと大きくぶつかりません</li>
+              <li>☑ 現地の住居解約・契約満了のタイミングと整合します</li>
+              <li>☑ 帰国後の手続き（転入届・健康保険・税務）の段取りを把握しています</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed">理想は「内定確定 → 帰国日確定 → 住居・各種手続き」の順です。最終面接だけ対面を希望される場合は、帰国時期に合わせた調整をエージェントに相談できます。タイミング全般の考え方は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職活動のスケジュール</Link>も参考にしてください。</p>
@@ -153,7 +153,7 @@ export default function ReturnJapanPage() {
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の帰国転職の視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアにとって、海外で積んだ経験は「即戦力 × グローバル対応力」という希少な組み合わせになります。市況も追い風で、経済産業省「IT人材需給に関する調査」（2019年公表の試算）では2030年に最大約79万人のIT人材不足が示されています。職種の参考値として、厚生労働省 job tagでは「システムエンジニア（受託開発）」の平均年収は578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）とされています。</p>
-          <p className="text-slate-600 leading-relaxed">狙い目になりやすいのは、外資系日本法人のシニアポジション、日系グローバル企業の海外連携役、スタートアップの技術リードなど、海外経験が直接活きる役割です。ただし具体的な年収は企業・ポジションで大きく異なるため、複数のエージェントで<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値</Link>を把握したうえで交渉に臨みましょう。海外で働き続ける選択肢は<Link href="/knowledge/overseas/" className="text-petrol hover:underline">海外で働くエンジニアの転職</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed">有力な選択肢になりやすいのは、外資系日本法人のシニアポジション、日系グローバル企業の海外連携役、スタートアップの技術リードなど、海外経験が直接活きる役割です。ただし具体的な年収は企業・ポジションで大きく異なるため、複数のエージェントで<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値</Link>を把握したうえで交渉に臨みましょう。海外で働き続ける選択肢は<Link href="/knowledge/overseas/" className="text-petrol hover:underline">海外で働くエンジニアの転職</Link>も参考にしてください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">
@@ -163,7 +163,7 @@ export default function ReturnJapanPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">帰国転職のサポートはエージェントに</h2>
-          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントならオンラインで相談可能。時差を考慮した面接調整や、海外経験の伝え方の添削も依頼できます。</p>
+          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントならオンラインで相談可能です。時差を考慮した面接調整や、海外経験の伝え方の添削も依頼できます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

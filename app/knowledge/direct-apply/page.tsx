@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "直接応募とエージェント経由の違い｜Greenの使い方と使い分け";
 const PAGE_DESC =
-  "転職の直接応募とエージェント経由の違いを徹底比較。Green等のダイレクト型の使い方、メリット・デメリット、30代・40代エンジニアの使い分け方を例文とともに解説します。";
+  "転職の直接応募とエージェント経由の違いを比較します。Green等のダイレクト型の使い方、メリット・デメリット、30代・40代エンジニアの使い分け方を例文とともに解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/direct-apply/" },
@@ -120,12 +120,12 @@ export default function DirectApplyPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】直接応募とエージェント経由、どちらを使うべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 状況で使い分けるのが基本で、多くの30代・40代エンジニアはIT特化型エージェントとGreen等の直接応募を併用するのが現実的です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・大手・非公開求人はエージェント経由、ベンチャー・志望が明確な企業は直接応募が基本</li><li>・直接応募は年収交渉や日程調整を自分で行い、非公開求人にはアクセスできない</li><li>・同じ企業に両ルートで応募しないことが鉄則</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・大手・非公開求人はエージェント経由、ベンチャー・志望が明確な企業は直接応募が基本</li><li>・直接応募は年収交渉や日程調整を自分で行い、非公開求人にはアクセスできません</li><li>・同じ企業に両ルートで応募しないことが鉄則</li></ul>
           </div>
         </section>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          転職活動を始めるとき、「エージェントに登録すべきか」「企業に直接応募すべきか」で迷う方は多いはずです。結論から言えば、両者にメリット・デメリットがあり、状況に応じた使い分け、あるいは併用が最も効果的です。本記事では、直接応募とエージェント経由の違い、Greenなどダイレクト型の使い方、向き不向き、併用のコツと例文まで解説します。
+          転職活動を始めるとき、「エージェントに登録すべきか」「企業に直接応募すべきか」で迷う方は多いはずです。両者にメリット・デメリットがあり、状況に応じた使い分け、あるいは併用が最も効果的です。本記事では、直接応募とエージェント経由の違い、Greenなどダイレクト型の使い方、向き不向き、併用のコツと例文まで解説します。
         </p>
 
         <DataNote
@@ -226,9 +226,9 @@ export default function DirectApplyPage() {
             <div className="bg-green-50 border border-green-200 rounded-xl p-5">
               <h3 className="font-bold text-green-800 mb-3">直接応募が向いている人</h3>
               <ul className="text-sm text-green-700 space-y-2">
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>志望企業が明確に決まっている</span></li>
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>年収交渉や条件確認を自分でできる</span></li>
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>ベンチャー・スタートアップを志望している</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>志望企業が明確に決まっています</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>年収交渉や条件確認を自分でできます</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>ベンチャー・スタートアップを志望しています</span></li>
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>自分のペースで活動したい</span></li>
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>カジュアル面談で社風を確かめたい</span></li>
               </ul>
@@ -236,10 +236,10 @@ export default function DirectApplyPage() {
             <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-5">
               <h3 className="font-bold text-blue-800 mb-3">エージェント経由が向いている人</h3>
               <ul className="text-sm text-petrol-deep space-y-2">
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>初めての転職で不安がある</span></li>
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>年収交渉を代行してほしい</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>初めての転職で不安があります</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>年収交渉を代行してほしいです</span></li>
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>非公開求人にアクセスしたい</span></li>
-                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>面接対策のサポートが欲しい</span></li>
+                <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>面接対策のサポートが欲しいです</span></li>
                 <li className="flex gap-2"><span className="font-bold shrink-0">✓</span><span>市場価値を客観的に知りたい</span></li>
               </ul>
             </div>
@@ -302,7 +302,7 @@ export default function DirectApplyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">直接応募と並行してエージェントも活用しよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            エージェントは完全無料。登録しておけば、直接応募ではアクセスできない非公開求人も紹介してもらえます。
+            エージェントは完全無料です。登録しておけば、直接応募ではアクセスできない非公開求人も紹介してもらえます。
           </p>
           <Link
             href="/compare/agents/"

@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/matsuyama/" },
   title: "松山・愛媛のIT転職事情【2026年】四国のIT拠点×リモート移住",
   description:
-    "松山・愛媛のITエンジニア転職を30代・40代向けに正直に解説。四国最大の都市圏としてのIT拠点の実情、地元求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。",
+    "松山・愛媛のITエンジニア転職を30代・40代向けに解説します。四国最大の都市圏としてのIT拠点の実情、地元求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。",
 };
 
 const toc = [
   { id: "conclusion", label: "結論：松山・愛媛のIT転職市場の特徴" },
   { id: "market", label: "松山・愛媛のIT・産業集積" },
-  { id: "reality", label: "求人の実情（正直な市場記述）" },
+  { id: "reality", label: "求人の実情（市場の実情）" },
   { id: "workstyle", label: "働き方の選択肢（地元×リモート移住）" },
   { id: "iju", label: "UIターン移住支援・公的制度" },
   { id: "salary", label: "年収の考え方（年代別データ）" },
@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手。ポテンシャル採用も見られる層。" },
-  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層。" },
-  { age: "40代", salary: "約618万円", note: "マネジメント・高度専門で年収が伸びやすい層。" },
-  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も見られる層です。" },
+  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
+  { age: "40代", salary: "約618万円", note: "マネジメント・高度専門で年収が伸びやすい層です。" },
+  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
 ];
 
 const agents = [
@@ -37,25 +37,25 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人を介して松山在住のまま都市部水準の案件を狙う使い方と相性が良い。高年収求人比率の高さも特徴とされる。",
+      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人を介して松山在住のまま都市部水準の案件を狙う使い方と相性が良いです。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型。地方在住からの相談に向き、未経験歓迎求人も比較的多い。四国・愛媛の地元求人と首都圏求人の双方に当たりやすい。",
+      "全国47都道府県57拠点を構える総合型です。地方在住からの相談に向き、未経験歓迎求人も比較的多いです。四国・愛媛の地元求人と首都圏求人の双方に当たりやすいです。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型。検索・エージェント・スカウトのハイブリッド型で、求人母数の多さが強み。地元求人が限られる地方では、母数の大きいサービスで取りこぼしを防ぐ意味が大きい。",
+      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、求人母数の多さが強みです。地元求人が限られる地方では、母数の大きいサービスで取りこぼしを防ぐ意味が大きいです。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     point:
-      "ハイクラス・スカウト型。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、松山在住のまま探したい人向け。市場価値を客観的に把握しやすい。",
+      "ハイクラス・スカウト型です。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、松山在住のまま探したい人向けです。市場価値を客観的に把握しやすいです。",
   },
 ];
 
@@ -114,7 +114,7 @@ export default function MatsuyamaAreaPage() {
     <>
       <ArticleJsonLd
         title="松山・愛媛のIT転職事情【2026年】四国のIT拠点×リモート移住"
-        description="松山・愛媛のITエンジニア転職を30代・40代向けに正直に解説。四国最大級の都市圏としてのIT拠点の実情、地元求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。"
+        description="松山・愛媛のITエンジニア転職を30代・40代向けに解説します。四国最大級の都市圏としてのIT拠点の実情、地元求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。"
         url="/area/matsuyama/"
       />
       <script
@@ -139,7 +139,7 @@ export default function MatsuyamaAreaPage() {
 
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
-            松山市は、四国で人口規模の大きい都市の一つであり、県庁所在地として行政・経済の機能が集まる四国の中核都市です。地元密着のSIerや受託開発、自社サービス企業が一定数あり、四国でIT転職を考える際の有力な拠点になります。一方で、求人の母数は首都圏や福岡と比べると限られるのが正直なところです。本記事では、創作データを使わず、公開情報をもとに松山・愛媛のIT転職市場の現実、首都圏フルリモートの併用、UIターン移住支援、年代別の年収の考え方を、30代・40代のミドルエンジニア向けに整理します。
+            松山市は、四国で人口規模の大きい都市の一つであり、県庁所在地として行政・経済の機能が集まる四国の中核都市です。地元密着のSIerや受託開発、自社サービス企業が一定数あり、四国でIT転職を考える際の有力な拠点になります。一方で、求人の母数は首都圏や福岡と比べると限られるのが実際のところです。本記事では、創作データを使わず、公開情報をもとに松山・愛媛のIT転職市場の現実、首都圏フルリモートの併用、UIターン移住支援、年代別の年収の考え方を、30代・40代のミドルエンジニア向けに整理します。
           </p>
         </section>
 
@@ -160,9 +160,9 @@ export default function MatsuyamaAreaPage() {
               松山は四国の中核都市として、地元のSIer・受託・自社開発が一定数あり、四国でのIT転職・Uターンの受け皿になります。ただし求人母数は首都圏より限られるため、地元求人と首都圏フルリモート求人を組み合わせて選択肢を広げる戦略が有効です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・四国の中核都市として地元IT企業が一定数あり、Uターンの受け皿になりやすい</li>
-              <li>・求人母数は首都圏より限られる。件数の断定は避け、エージェントで実数を確認するのが確実</li>
-              <li>・首都圏フルリモート求人の併用で、松山の生活コストのまま年収の選択肢を広げられる</li>
+              <li>・四国の中核都市として地元IT企業が一定数あり、Uターンの受け皿になりやすいです</li>
+              <li>・求人母数は首都圏より限られます。件数の断定は避け、エージェントで実数を確認するのが確実</li>
+              <li>・首都圏フルリモート求人の併用で、松山の生活コストのまま年収の選択肢を広げられます</li>
             </ul>
           </div>
         </section>
@@ -197,7 +197,7 @@ export default function MatsuyamaAreaPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">四国の中核都市としての位置づけ</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                松山は四国内では人口・経済規模の大きい都市であり、四国でのIT就業を考える際の有力な選択肢です。ただし「四国の中核」であることと「首都圏並みの求人量がある」ことは別であり、求人量の点では大都市圏に及ばない点を正直に踏まえる必要があります。
+                松山は四国内では人口・経済規模の大きい都市であり、四国でのIT就業を考える際の有力な選択肢です。ただし「四国の中核」であることと「首都圏並みの求人量がある」ことは別であり、求人量の点では大都市圏に及ばない点を踏まえる必要があります。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
@@ -214,9 +214,9 @@ export default function MatsuyamaAreaPage() {
 
         {/* 求人の実情 */}
         <section id="reality" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の実情（正直な市場記述）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の実情（市場の実情）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            正直にお伝えすると、松山・愛媛の地元IT求人は首都圏や福岡と比べて母数が限られます。四国の中核都市とはいえ、「ソフトウェアエンジニアの求人が無数にある」状況ではありません。これは松山に限らず多くの地方都市に共通する現実です。求人の探し方を工夫することが転職成功の鍵になります。
+            ご説明すると、松山・愛媛の地元IT求人は首都圏や福岡と比べて母数が限られます。四国の中核都市とはいえ、「ソフトウェアエンジニアの求人が無数にある」状況ではありません。これは松山に限らず多くの地方都市に共通する現実です。求人の探し方を工夫することが転職成功の鍵になります。
           </p>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3">
             <p className="text-sm text-slate-700 leading-relaxed">
@@ -241,13 +241,13 @@ export default function MatsuyamaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 松山中心部のSIer・受託・自社開発で働く。地域に根ざしたキャリアを重視する人や、地元のつながりを活かしたい人向けです。
+                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 松山中心部のSIer・受託・自社開発で働きます。地域に根ざしたキャリアを重視する人や、地元のつながりを活かしたい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>松山在住×首都圏企業のフルリモート:</strong> 松山の生活コストを保ちつつ首都圏水準の年収・案件を狙う選択肢。地元求人の母数の制約を回避できるのが最大の利点です。
+                <strong>松山在住×首都圏企業のフルリモート:</strong> 松山の生活コストを保ちつつ首都圏水準の年収・案件を狙う選択肢です。地元求人の母数の制約を回避できるのが最大の利点です。
                 <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート可の求人</Link>
                 や
                 <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
@@ -257,7 +257,7 @@ export default function MatsuyamaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>UIターン移住＋リモート:</strong> 県外からの移住で松山に拠点を移しつつ、フルリモートで前職水準の働き方を続ける形。移住支援制度の活用も視野に入ります（次章で解説）。
+                <strong>UIターン移住＋リモート:</strong> 県外からの移住で松山に拠点を移しつつ、フルリモートで前職水準の働き方を続ける形です。移住支援制度の活用も視野に入ります（次章で解説）。
               </p>
             </div>
           </div>
@@ -367,7 +367,7 @@ export default function MatsuyamaAreaPage() {
                 <li className="flex gap-2"><span className="shrink-0">✓</span><span>四国・愛媛にゆかりがあり、Uターンで地元に戻って働きたい</span></li>
                 <li className="flex gap-2"><span className="shrink-0">✓</span><span>フルリモートで首都圏案件に関わりながら松山で暮らしたい</span></li>
                 <li className="flex gap-2"><span className="shrink-0">✓</span><span>地域密着のSIer・受託・自社開発で長く働きたい</span></li>
-                <li className="flex gap-2"><span className="shrink-0">✓</span><span>生活コストを抑え、暮らしやすさを重視した移住を検討している</span></li>
+                <li className="flex gap-2"><span className="shrink-0">✓</span><span>生活コストを抑え、暮らしやすさを重視した移住を検討しています</span></li>
               </ul>
             </div>
             <div className="border border-slate-200 bg-slate-50 rounded-lg p-5">
@@ -394,14 +394,14 @@ export default function MatsuyamaAreaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">30代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                技術の市場価値を高めつつ、フルリモートで首都圏案件を経験するか、地元企業で上流から担う経験を積むかを意識的に選ぶフェーズ。生活基盤を整えながらキャリアの幅を広げやすい時期です。
+                技術の市場価値を高めつつ、フルリモートで首都圏案件を経験するか、地元企業で上流から担う経験を積むかを意識的に選ぶフェーズです。生活基盤を整えながらキャリアの幅を広げやすい時期です。
                 <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link>
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">40代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                マネジメントや高度専門など役割で評価される段階。地元求人は絞られますが、ハイクラスのリモート求人で年収を維持しつつ移住・Uターンによる暮らしの充実を両立できる形を選ぶのが現実的です。
+                マネジメントや高度専門など役割で評価される段階です。地元求人は絞られますが、ハイクラスのリモート求人で年収を維持しつつ移住・Uターンによる暮らしの充実を両立できる形を選ぶのが現実的です。
                 <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link>
               </p>
             </div>

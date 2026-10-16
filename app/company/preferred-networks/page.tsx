@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/preferred-networks/" },
   title: "Preferred Networks（PFN）エンジニア転職ガイド【2026年版】研究・技術・年収の実態",
   description:
-    "Preferred Networks（PFN）へのエンジニア転職を公式一次情報で解説。非上場のため平均年収は公式非開示である点を明記し、深層学習・AI半導体MN-Core・基盤モデルPLaMoの研究領域、Python/C++中心の技術、職種、30代40代の視点までまとめました。",
+    "Preferred Networks（PFN）へのエンジニア転職を公式一次情報で解説します。非上場のため平均年収は公式非開示である点を明記し、深層学習・AI半導体MN-Core・基盤モデルPLaMoの研究領域、Python/C++中心の技術、職種、30代40代の視点までまとめました。",
 };
 
 const basicData: [string, string][] = [
@@ -79,7 +79,7 @@ export default function PreferredNetworksCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="Preferred Networks（PFN）エンジニア転職ガイド" description="PFNへのエンジニア転職を公式一次情報で解説。非上場のため平均年収は公式非開示である点を明記し、深層学習・AI半導体MN-Core・基盤モデルPLaMoの研究領域、Python/C++中心の技術、職種、30代40代の視点までまとめました。" url="/company/preferred-networks/" />
+      <ArticleJsonLd title="Preferred Networks（PFN）エンジニア転職ガイド" description="PFNへのエンジニア転職を公式一次情報で解説します。非上場のため平均年収は公式非開示である点を明記し、深層学習・AI半導体MN-Core・基盤モデルPLaMoの研究領域、Python/C++中心の技術、職種、30代40代の視点までまとめました。" url="/company/preferred-networks/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "Preferred Networks" }]} />
 
@@ -91,7 +91,7 @@ export default function PreferredNetworksCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Preferred Networks（PFN）の年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: PFNは非上場で有価証券報告書の提出義務がなく、公式の平均年間給与は非開示です。当ガイドでは出典のない年収額を創作・断定しません。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場のため平均年間給与・平均年齢・従業員数といった有報ベースの数値は公式に開示されていません（PFN公式 会社概要・採用情報の範囲）。</li><li>・参考値としてレバテック公表の正社員SE平均年収（2025年）は30代約499万円・40代約618万円ですが、これはPFNの提示額を示すものではありません。</li><li>・深層学習・AI半導体など高度専門領域は市場価値が高い傾向。実額は職種・専門性・実績で大きく異なり、面談での個別確認が確実です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場のため平均年間給与・平均年齢・従業員数といった有価証券報告書ベースの数値は公式に開示されていません（PFN公式 会社概要・採用情報の範囲）。</li><li>・参考値としてレバテック公表の正社員SE平均年収（2025年）は30代約499万円・40代約618万円ですが、これはPFNの提示額を示すものではありません。</li><li>・深層学習・AI半導体など高度専門領域は市場価値が高い傾向です。実額は職種・専門性・実績で大きく異なり、面談での個別確認が確実です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -116,7 +116,7 @@ export default function PreferredNetworksCompanyPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：深層学習・基盤モデル・コンピュータビジョン・AI半導体などで研究実績や深い実装力を持つ人</li>
               <li>● <strong>向いていない人</strong>：高度な研究・専門領域への適性や関心がなく、定型的な開発のみを志向する人</li>
-              <li>● <strong>30代・40代</strong>：年齢より専門性・実績が問われる。関連分野の実務・研究経験が前提になりやすい</li>
+              <li>● <strong>30代・40代</strong>：年齢より専門性・実績が問われます。関連分野の実務・研究経験が前提になりやすいです</li>
             </ul>
           </div>
         </section>
@@ -146,7 +146,7 @@ export default function PreferredNetworksCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※PFNは非上場のため有価証券報告書の提出義務がなく、平均年間給与・平均年齢・従業員数といった有報ベースの数値は公開されていません。本表は公式サイト（研究開発・採用・会社概要）の公開情報に基づきます。</p>
+          <p className="text-xs text-slate-400 mt-2">※PFNは非上場のため有価証券報告書の提出義務がなく、平均年間給与・平均年齢・従業員数といった有価証券報告書ベースの数値は公開されていません。本表は公式サイト（研究開発・採用・会社概要）の公開情報に基づきます。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -170,7 +170,7 @@ export default function PreferredNetworksCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">研究領域・技術（公開情報の範囲）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            公式情報から確認できる主な研究領域・技術は以下の通りです。研究開発基盤はPyTorchに移行しており、Python・C++が中核と考えられます。具体的な使用技術・要件は募集職種により異なるため、各募集要項で確認してください。
+            公式情報から確認できる主な研究領域・技術は以下のとおりです。研究開発基盤はPyTorchに移行しており、Python・C++が中核と考えられます。具体的な使用技術・要件は募集職種により異なるため、各募集要項で確認してください。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -178,7 +178,7 @@ export default function PreferredNetworksCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI半導体「MN-Core」</strong>：深層学習向けプロセッサの開発、PyTorch対応の推進</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>コンピュータビジョン</strong>：3次元環境の解析・再構成などの研究</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>科学・産業応用</strong>：材料物性予測のための深層学習と数値計算の融合、オミックス解析・医用画像解析・創薬などへのAI応用</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>技術スタック</strong>：研究開発基盤はPyTorchに移行。Python・C++が中核と考えられる（具体的な内製ツール等の統一一覧は公開範囲が限られるため、各募集要項で確認）</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>技術スタック</strong>：研究開発基盤はPyTorchに移行します。Python・C++が中核と考えられます（具体的な内製ツール等の統一一覧は公開範囲が限られるため、各募集要項で確認）</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-400 mt-2">出典: PFN公式 研究開発ページ、PyTorch移行に関する公式発表。具体的な開発言語・内製ツールの網羅的な統一一覧は公開範囲が限られるため、推測の言語表は掲載していません。</p>
@@ -188,7 +188,7 @@ export default function PreferredNetworksCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収について（非上場・非開示）</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-amber-900 leading-relaxed space-y-3">
             <p>
-              PFNは<strong>非上場企業のため有価証券報告書の提出義務がなく、平均年間給与・平均年齢・従業員数といった有報ベースの数値は公式に開示されていません</strong>。本ガイドでは、上場企業のように一次情報に基づく確かな年収額が存在しないため、<strong>出典のない年収額を創作・断定することは行いません</strong>。
+              PFNは<strong>非上場企業のため有価証券報告書の提出義務がなく、平均年間給与・平均年齢・従業員数といった有価証券報告書ベースの数値は公式に開示されていません</strong>。本ガイドでは、上場企業のように一次情報に基づく確かな年収額が存在しないため、<strong>出典のない年収額を創作・断定することは行いません</strong>。
             </p>
             <p>
               一般に、深層学習・基盤モデル・AI半導体といった高度専門領域の人材は市場価値が高い傾向にありますが、PFNの実際の提示額は職種・役割・専門性・実績により大きく異なります。待遇面は、<strong>応募時の面談で個別に確認する</strong>のが最も確実です。
@@ -224,7 +224,7 @@ export default function PreferredNetworksCompanyPage() {
               PFNは年齢ではなく、深層学習・基盤モデル・AI半導体・コンピュータビジョンなどの<strong>高度な専門性と実績</strong>が問われる組織と考えられます。研究実績（論文・OSS）や特定領域での深い実装力を持つ30代・40代のエンジニア・リサーチャーにとっては、年齢自体が大きなハンデになりにくい一方、求められる専門性の水準は高く、関連分野の実務・研究経験が前提になりやすいといえます。
             </p>
             <p>
-              年収面は前述の通り非上場・非開示のため、参考値の提示にとどめます。レバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円ですが、これはPFNの提示額を示すものではありません。深層学習・AI半導体といった希少領域は市場価値が高い傾向にあるものの、実際の提示は職種・専門性・実績次第のため、面談で個別に確認することが重要です。
+              年収面は前述のとおり非上場・非開示のため、参考値の提示にとどめます。レバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円ですが、これはPFNの提示額を示すものではありません。深層学習・AI半導体といった希少領域は市場価値が高い傾向にあるものの、実際の提示は職種・専門性・実績次第のため、面談で個別に確認することが重要です。
             </p>
             <p>
               関連領域として<Link href="/skill/ai-ml/" className="text-petrol hover:underline">AI・機械学習エンジニアの転職</Link>や<Link href="/skill/python/" className="text-petrol hover:underline">Pythonエンジニアの転職</Link>、<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職事情</Link>も合わせて参考にしてください。
@@ -236,9 +236,9 @@ export default function PreferredNetworksCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">PFN転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・AI領域に強く、専門職の技術面接対策のサポートも受けられる。" },
-              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。AI・研究開発の高度専門ポジションのスカウトが届きやすい。" },
-              { name: "Findy", href: "/review/findy/", desc: "スキル偏差値で実力を可視化。先進的なテック企業・AI領域に強い。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・AI領域に強く、専門職の技術面接対策のサポートも受けられます。" },
+              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化です。AI・研究開発の高度専門ポジションのスカウトが届きやすいです。" },
+              { name: "Findy", href: "/review/findy/", desc: "スキル偏差値で実力を可視化します。先進的なテック企業・AI領域に強いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

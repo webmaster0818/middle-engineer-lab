@@ -6,13 +6,13 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/sql/" },
-  title: "データベースエンジニア転職の攻め方｜年収・将来性【2026年】",
+  title: "データベースエンジニア転職の進め方｜年収・将来性【2026年】",
   description:
-    "データベースエンジニア（DBA／SQL）の転職市場を2026年6月時点の公的データで整理。job tag・レバテック年代別年収、求められる経験レベル、求人の探し方、アプリ開発からの転向ルートまで実務目線で解説します。",
+    "データベースエンジニア（DBA／SQL）の転職市場を2026年6月時点の公的データで整理します。job tag・レバテック年代別年収、求められる経験レベル、求人の探し方、アプリ開発からの転向ルートまで実務目線で解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：DBエンジニア転職の攻め方" },
+  { id: "conclusion", label: "結論：DBエンジニア転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "demand", label: "需要が続く背景" },
   { id: "level", label: "求められる経験レベル" },
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "RDBとNoSQLのどちらを学ぶべき？",
-    a: "まずRDB（PostgreSQL/MySQL）の基礎を固めるのが王道です。SQL、正規化、インデックス設計、トランザクション管理、実行計画の読み解きは全てのDB技術の土台になります。その上で、用途に応じてNoSQL（MongoDB・Redis・DynamoDB等）やデータウェアハウス（BigQuery・Snowflake）を広げていくと無理がありません。",
+    a: "まずRDB（PostgreSQL/MySQL）の基礎を固めるのが一般的です。SQL、正規化、インデックス設計、トランザクション管理、実行計画の読み解きはすべてのDB技術の土台になります。その上で、用途に応じてNoSQL（MongoDB・Redis・DynamoDB等）やデータウェアハウス（BigQuery・Snowflake）を広げていくと無理がありません。",
   },
   {
     q: "DBAの求人はどんな企業が多い？",
@@ -75,8 +75,8 @@ export default function SqlSkillPage() {
   return (
     <>
       <ArticleJsonLd
-        title="データベースエンジニア転職の攻め方｜年収・将来性【2026年】"
-        description="データベースエンジニア（DBA／SQL）の転職市場を2026年6月時点の公的データで整理。job tag・レバテック年代別年収、求められる経験レベル、求人の探し方、アプリ開発からの転向ルートまで実務目線で解説します。"
+        title="データベースエンジニア転職の進め方｜年収・将来性【2026年】"
+        description="データベースエンジニア（DBA／SQL）の転職市場を2026年6月時点の公的データで整理します。job tag・レバテック年代別年収、求められる経験レベル、求人の探し方、アプリ開発からの転向ルートまで実務目線で解説します。"
         url="/skill/sql/"
       />
       <script
@@ -93,7 +93,7 @@ export default function SqlSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          データベースエンジニア転職の攻め方｜年収・将来性【2026年】
+          データベースエンジニア転職の進め方｜年収・将来性【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | データベースエンジニア（DBA／SQL）の転職市場を公的データと年代別データで整理
@@ -124,15 +124,15 @@ export default function SqlSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：DBエンジニア転職の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：DBエンジニア転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              データベース領域は流行り廃りが少なく、<strong>経験の積み上げが評価されやすい</strong>安定職種です。だからこそ、トレンド追いより「自分が担保できる信頼性のレベル（障害対応・チューニング・移行）」を具体的に示すのが攻め方の軸になります。要点は3つです。
+              データベース領域は流行り廃りが少なく、<strong>経験の積み上げが評価されやすい</strong>安定職種です。だからこそ、トレンド追いより「自分が担保できる信頼性のレベル（障害対応・チューニング・移行）」を具体的に示すのが進め方の軸になります。要点は3つです。
             </p>
             <ul className="text-sm text-blue-900 space-y-2">
-              <li>① <strong>SQLの実践力＋運用の修羅場経験</strong>を具体的な事例で見せる（遅いクエリを速くした、障害から復旧した等）。</li>
-              <li>② <strong>クラウドDB（Aurora/BigQuery等）＋IaC</strong>を掛け合わせ、オンプレ専任で止まらない見せ方をする。</li>
-              <li>③ DBエンジニアに留まらず、<strong>データエンジニア／データアーキテクトへの拡張</strong>を視野に入れて年収レンジを広げる。</li>
+              <li>① <strong>SQLの実践力＋運用の修羅場経験</strong>を具体的な事例で見せます（遅いクエリを速くした、障害から復旧した等）。</li>
+              <li>② <strong>クラウドDB（Aurora/BigQuery等）＋IaC</strong>を掛け合わせ、オンプレ専任で止まらない見せ方をします。</li>
+              <li>③ DBエンジニアに留まらず、<strong>データエンジニア／データアーキテクトへの拡張</strong>を視野に入れて年収レンジを広げます。</li>
             </ul>
           </div>
         </section>
@@ -207,8 +207,8 @@ export default function SqlSkillPage() {
           <div className="space-y-3">
             {[
               { t: "土台として求められやすい", d: "SQL（複雑なJOIN・Window関数・CTE）、正規化とインデックス設計、トランザクション・ロックの理解、実行計画の読み解き。" },
-              { t: "DBAの中核として見られる", d: "バックアップ/リカバリ設計、レプリケーション・冗長構成、パフォーマンスチューニング、監視・キャパシティ管理の運用経験。" },
-              { t: "差別化になる", d: "クラウドDB（Aurora/BigQuery/DynamoDB等）の運用・移行、TerraformでのDB環境のIaC化、データ基盤（dbt・Airflow・DWH）の経験。" },
+              { t: "DBAの中核として見られる", d: "バックアップ/リカバリ設計、レプリケーション・冗長構成、パフォーマンスチューニング、監視・キャパシティ管理の運用経験です。" },
+              { t: "差別化になる", d: "クラウドDB（Aurora/BigQuery/DynamoDB等）の運用・移行、TerraformでのDB環境のIaC化、データ基盤（dbt・Airflow・DWH）の経験です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.t}</h3>
@@ -230,7 +230,7 @@ export default function SqlSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            運用の安定を担うDBAから、データ活用基盤を設計するデータエンジニア／データアーキテクトへ広げる流れが、年収レンジを伸ばしやすい王道です。
+            運用の安定を担うDBAから、データ活用基盤を設計するデータエンジニア／データアーキテクトへ広げる流れが、年収レンジを伸ばしやすい代表的な方法です。
           </p>
         </section>
 
@@ -240,22 +240,22 @@ export default function SqlSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT特化エージェント）</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化でインフラ・DB案件に強く、高年収求人比率が高い。クラウドDBやデータ基盤のポジションを扱い、技術理解のあるアドバイザーに相談しやすいのが利点です。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化でインフラ・DB案件に強く、高年収求人比率が高いです。クラウドDBやデータ基盤のポジションを扱い、技術理解のあるアドバイザーに相談しやすいのが利点です。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">マイナビIT AGENT</h3>
-              <p className="text-sm text-slate-600 mb-2">SIer系企業のDBA求人を扱い、書類添削・面接対策が手厚いとの評判。20〜30代の若手〜中堅層のサポートに強みがあります。</p>
+              <p className="text-sm text-slate-600 mb-2">SIer系企業のDBA求人を扱い、書類添削・面接対策が手厚いとの評判です。20〜30代の若手〜中堅層のサポートに強みがあります。</p>
               <Link href="/review/mynavi-it/" className="text-sm text-petrol hover:underline">マイナビIT AGENTの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
-              <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、データアーキテクトやデータエンジニアのスカウトが届きやすい。市場価値を測る用途でも有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、データアーキテクトやデータエンジニアのスカウトが届きやすいです。市場価値を測る用途でも有効です。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>、各社比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>もどうぞ。
+            複数併用の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">転職エージェントの複数併用ガイド</Link>、各社比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント比較</Link>もご覧ください。
           </p>
         </section>
 
@@ -264,9 +264,9 @@ export default function SqlSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">アプリ開発からの転向ルート</h2>
           <div className="space-y-3">
             {[
-              { n: "1", t: "現職でDB課題を取りに行く", d: "スロークエリの改善、インデックス設計の見直し、DB起因の障害対応など、アプリ開発の中でDBに踏み込んだ実績を作る。これが転向時の核になります。" },
+              { n: "1", t: "現職でDB課題を取りに行く", d: "スロークエリの改善、インデックス設計の見直し、DB起因の障害対応など、アプリ開発の中でDBに踏み込んだ実績を作ります。これが転向時の核になります。" },
               { n: "2", t: "運用面の知識を足す", d: "バックアップ/リカバリ、レプリケーション、監視、キャパシティ管理など、開発では触れにくい運用領域を学習・実践で補います。" },
-              { n: "3", t: "クラウドDBで幅を出す", d: "Aurora・BigQuery等のクラウドDBを個人でも触り、IaCでの構築を経験する。オンプレ前提で止まらない見せ方が現代の求人に刺さります。" },
+              { n: "3", t: "クラウドDBで幅を出す", d: "Aurora・BigQuery等のクラウドDBを個人でも触り、IaCでの構築を経験します。オンプレ前提で止まらない見せ方が現代の求人に評価されます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.n}</span>
@@ -287,10 +287,10 @@ export default function SqlSkillPage() {
               データベースは<strong>障害対応・性能改善・移行の修羅場をくぐった経験</strong>がそのまま価値になる、30代・40代に向いた領域です。新しい言語やフレームワークの習得速度では若手に分があっても、止められないシステムのデータを守り抜いた経験は、年齢を重ねた人ほど厚みが出ます。レバテック公表（2025年）でも年収は年代とともに上がる傾向で、積み上げが効く職種といえます。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed mb-4">
-              注意点は、オンプレDB専任のまま止まると求人の幅が狭まりやすいこと。<strong>クラウドDBとデータ基盤に一歩踏み出しておく</strong>ことで、DBA→データエンジニア→データアーキテクトと年収レンジを伸ばす道が開けます。
+              注意点は、オンプレDB専任のまま止まると求人の幅が狭まりやすいことです。<strong>クラウドDBとデータ基盤に一歩踏み出しておく</strong>ことで、DBA→データエンジニア→データアーキテクトと年収レンジを伸ばす道が開けます。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>もどうぞ。
+              年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収の考え方は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収相場</Link>もご覧ください。
             </p>
           </div>
         </section>
@@ -300,9 +300,9 @@ export default function SqlSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3">
             {[
-              { t: "土台：SQLと内部構造の理解", d: "Window関数・CTE・実行計画の読み解きを手に馴染ませ、インデックスやロックの内部挙動まで理解する。これが他職種との差になります。" },
-              { t: "運用：止めない設計の経験", d: "バックアップ/リカバリ、レプリケーション、監視を実際に組む。可用性・整合性をどう担保するかを語れる状態を目指します。" },
-              { t: "拡張：クラウドDB＋データ基盤", d: "Aurora・BigQuery等とdbt・Airflowを触り、データエンジニアリングへ橋を架ける。求人の幅と年収上限が広がります。" },
+              { t: "土台：SQLと内部構造の理解", d: "Window関数・CTE・実行計画の読み解きを手に馴染ませ、インデックスやロックの内部挙動まで理解します。これが他職種との差になります。" },
+              { t: "運用：止めない設計の経験", d: "バックアップ/リカバリ、レプリケーション、監視を実際に組みます。可用性・整合性をどう担保するかを語れる状態を目指します。" },
+              { t: "拡張：クラウドDB＋データ基盤", d: "Aurora・BigQuery等とdbt・Airflowを触り、データエンジニアリングへ橋を架けます。求人の幅と年収上限が広がります。" },
               { t: "証明：資格は金融系で効きやすい", d: "Oracle Master、AWS/GCPのDB・データ系認定は書類選考の目印に。とくに金融系の転職で評価されやすい傾向です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">

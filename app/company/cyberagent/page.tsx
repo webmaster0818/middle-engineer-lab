@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/cyberagent/" },
   title: "サイバーエージェントの転職難易度と年収・技術【2026年】エンジニア転職・選考ガイド",
   description:
-    "サイバーエージェントへのエンジニア転職を実データで解説。有価証券報告書の平均年収913.8万円（2025年9月期・全社員平均）、ABEMA等の技術スタック、選考フロー、30代40代の現実までまとめました。",
+    "サイバーエージェントへのエンジニア転職を実データで解説します。有価証券報告書の平均年収913.8万円（2025年9月期・全社員平均）、ABEMA等の技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -90,7 +90,7 @@ export default function CyberagentCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="サイバーエージェント エンジニア転職ガイド" description="サイバーエージェントへのエンジニア転職を実データで解説。有価証券報告書の平均年収913.8万円（2025年9月期・全社員平均）、ABEMA等の技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/cyberagent/" />
+      <ArticleJsonLd title="サイバーエージェント エンジニア転職ガイド" description="サイバーエージェントへのエンジニア転職を実データで解説します。有価証券報告書の平均年収913.8万円（2025年9月期・全社員平均）、ABEMA等の技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/cyberagent/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Kubernetesの転職ガイド", href: "/skill/kubernetes/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "サイバーエージェント" }]} />
 
@@ -102,7 +102,7 @@ export default function CyberagentCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】サイバーエージェントの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: サイバーエージェントの平均年間給与は913.8万円です（2025年9月期 有価証券報告書・全社員平均、平均年齢33.8歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 913.8万円（2025年9月期 有報）。技術職に限らないグループ単体の全社員平均です。</li><li>・推移は2021年9月期771.1万円から上昇を続け、2025年9月期913.8万円（各期 有報）。</li><li>・エンジニア個人の年収はグレード・職種・成果により異なり、職種別の公式レンジは非公表。求人票・エージェントで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 913.8万円です（2025年9月期 有価証券報告書）。技術職に限らないグループ単体の全社員平均です。</li><li>・推移は2021年9月期771.1万円から上昇を続け、2025年9月期913.8万円です（各期 有価証券報告書）。</li><li>・エンジニア個人の年収はグレード・職種・成果により異なり、職種別の公式レンジは非公表です。求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -158,7 +158,7 @@ export default function CyberagentCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年9月期 有価証券報告書に基づく全社員平均値。技術スタックは公式技術ブログ等の公開情報。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年9月期 有価証券報告書に基づく全社員平均値。技術スタックは公式技術ブログ等の公開情報です。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -186,8 +186,8 @@ export default function CyberagentCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：ABEMAのマイクロサービスはほぼGoで実装。レコメンドはPython中心からGoへ移行した事例が公開されています。</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：Google Kubernetes Engine（GKE）/ Kubernetes でマイクロサービスを運用。自社基盤（CyCloud）はKubernetes・OpenStack等のOSSで構成。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：ABEMAのマイクロサービスはほぼGoで実装します。レコメンドはPython中心からGoへ移行した事例が公開されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：Google Kubernetes Engine（GKE）/ Kubernetes でマイクロサービスを運用します。自社基盤（CyCloud）はKubernetes・OpenStack等のOSSで構成です。</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：AmebaのフロントエンドではReact・TypeScriptを採用した事例が公開されています。</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AI/生成AI</strong>：AI Coding Agentを開発プロセスに取り込む取り組みや、Kubernetes・ArgoCD・Redis・PostgreSQLを用いたクラウドネイティブ構成の事例が公開されています。</span></li>
             </ul>
@@ -227,7 +227,7 @@ export default function CyberagentCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式採用ページベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            中途採用の選考は、公式採用ページまたは転職エージェント経由での応募からスタートします。公開情報をもとにした一般的な流れは以下の通りです。最新の選考内容は<a href="https://www.cyberagent.co.jp/careers/midcareer/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式中途採用ページ</a>でご確認ください。
+            中途採用の選考は、公式採用ページまたは転職エージェント経由での応募からスタートします。公開情報をもとにした一般的な流れは以下のとおりです。最新の選考内容は<a href="https://www.cyberagent.co.jp/careers/midcareer/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式中途採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>エントリー（公式採用ページ／エージェント経由）</li>
@@ -272,9 +272,9 @@ export default function CyberagentCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">サイバーエージェント転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。メガベンチャー求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが速く実務経験者への提案数が多い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。直接応募・カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。メガベンチャー求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが速く実務経験者への提案数が多いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。直接応募・カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

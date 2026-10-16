@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/java/" },
   title: "Javaエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Javaエンジニアの転職市場を出典付きで解説。求人数で上位を占めるJavaの市場価値、SIerから自社開発への移行、Spring Boot・クラウドでの差別化、30代・40代の戦い方をミドル向けに整理します。",
+    "Javaエンジニアの転職市場を出典付きで解説。求人数で上位を占めるJavaの市場価値、SIerから自社開発への移行、Spring Boot・クラウドでの差別化、30代・40代の進め方をミドル向けに整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Javaエンジニアの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：Javaエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Javaの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Javaエンジニアのキャリアパス" },
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: "Javaエンジニアにおすすめの転職エージェントは？",
-    a: "IT特化でJava求人が豊富なレバテックキャリア、金融・保険系のJava求人や求人母数の大きいリクルートエージェントIT、アーキテクト・テックリード級のハイクラス求人に強いビズリーチの3社併用が選択肢です。求人の幅が広い言語なので、複数登録して比較するのが効率的です。",
+    a: "IT特化でJava求人が豊富なレバテックキャリア、金融・保険系のJava求人や求人母数の大きいリクルートエージェントIT、アーキテクト・テックリード級のハイクラス求人に強いビズリーチの3社併用が選択肢です。求人の幅が広い言語であるため、複数登録して比較するのが効率的です。",
   },
   {
     q: "40代のJavaエンジニアでも転職できますか？",
@@ -69,7 +69,7 @@ export default function JavaSkillPage() {
     <>
       <ArticleJsonLd
         title="Javaエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Javaエンジニアの転職市場を出典付きで解説。求人数で上位を占めるJavaの市場価値、SIerから自社開発への移行、Spring Boot・クラウドでの差別化、30代・40代の戦い方をミドル向けに整理します。"
+        description="Javaエンジニアの転職市場を出典付きで解説。求人数で上位を占めるJavaの市場価値、SIerから自社開発への移行、Spring Boot・クラウドでの差別化、30代・40代の進め方をミドル向けに整理します。"
         url="/skill/java/"
       />
       <script
@@ -97,10 +97,10 @@ export default function JavaSkillPage() {
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Javaエンジニアの転職は難しい？未経験・40代でもいける？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Javaは求人の母数が大きく、経験者の転職難易度は比較的低めです。paiza 2025年調査で企業ニーズ（求人数比率）2位（13.9%）と、転職機会を得やすい言語です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
-            <li>・<strong>難易度</strong>：金融・保険・官公庁など基幹系で需要が安定。実務経験者は求人が多く、選択肢が広い。</li>
-            <li>・<strong>未経験から</strong>：完全未経験の直接転職は簡単ではないが、求人数が多く学習コストに見合う言語。Spring Boot等で実務相当の成果物を作るのが近道。</li>
-            <li>・<strong>40代・ミドル</strong>：SIerでの設計・PM経験や、Spring Boot＋クラウド（AWS等）の掛け合わせで自社開発への移行も現実的。</li>
-            <li>・<strong>進め方</strong>：Java・SIer案件に強い転職エージェントを複数併用し、求人票で年収レンジと役割を確認するのが確実。</li>
+            <li>・<strong>難易度</strong>：金融・保険・官公庁など基幹系で需要が安定です。実務経験者は求人が多く、選択肢が広いです。</li>
+            <li>・<strong>未経験から</strong>：完全未経験の直接転職は簡単ではないが、求人数が多く学習コストに見合う言語です。Spring Boot等で実務相当の成果物を作るのが近道です。</li>
+            <li>・<strong>40代・ミドル</strong>：SIerでの設計・PM経験や、Spring Boot＋クラウド（AWS等）の掛け合わせで自社開発への移行も現実的です。</li>
+            <li>・<strong>進め方</strong>：Java・SIer案件に強い転職エージェントを複数併用し、求人票で年収レンジと役割を確認するのが確実です。</li>
           </ul>
         </div>
 
@@ -111,7 +111,7 @@ export default function JavaSkillPage() {
           <p className="text-slate-600 leading-relaxed">
             本記事では、<strong>公表データ・求められる経験レベル・求人の探し方・SIerから自社開発への移行ルート</strong>を、30代・40代の視点を交えて整理します。
           </p>
-                  <p className="text-sm mt-3 text-slate-600">言語別の年収比較は<Link href="/salary/skill-ranking/" className="text-petrol underline font-semibold">プログラミング言語別 年収ランキング</Link>、企業別の有報年収は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング</Link>をご覧ください。</p>
+                  <p className="text-sm mt-3 text-slate-600">言語別の年収比較は<Link href="/salary/skill-ranking/" className="text-petrol underline font-semibold">プログラミング言語別 年収ランキング</Link>、企業別の有価証券報告書年収は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング</Link>をご覧ください。</p>
         </section>
 
         <DataNote
@@ -139,15 +139,15 @@ export default function JavaSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Javaエンジニアの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Javaエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Javaは「求人数が多い＝機会が多い」言語です。</strong>母数の多さを活かしつつ、レガシー専任で止まらず「モダンJava＋クラウド」で年収レンジを引き上げるのが攻め方です。
+              <strong>Javaは「求人数が多い＝機会が多い」言語です。</strong>母数の多さを活かしつつ、レガシー専任で止まらず「モダンJava＋クラウド」で年収レンジを引き上げるのが進め方です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・paiza 2025年調査で企業ニーズ（求人数比率）<strong>2位（13.9%）</strong>。転職機会を得やすい</li>
+              <li>・paiza 2025年調査で企業ニーズ（求人数比率）<strong>2位です（13.9%）</strong>。転職機会を得やすいです</li>
               <li>・Spring Boot／クラウド／マイクロサービスの経験が<strong>年収アップの分岐点</strong></li>
-              <li>・40代でもPL／PM・金融ドメイン知識があれば<strong>安定した需要</strong>がある</li>
+              <li>・40代でもPL／PM・金融ドメイン知識があれば<strong>安定した需要</strong>があります</li>
             </ul>
           </div>
         </section>
@@ -215,13 +215,13 @@ export default function JavaSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">技術スペシャリスト路線</h3>
               <p className="text-sm text-petrol-deep">
-                Javaアーキテクト、Spring Boot/Cloudのスペシャリスト、マイクロサービスアーキテクトへの道。深い技術力と設計能力が求められ、システム全体のアーキテクチャ設計を担います。
+                Javaアーキテクト、Spring Boot/Cloudのスペシャリスト、マイクロサービスアーキテクトへの道です。深い技術力と設計能力が求められ、システム全体のアーキテクチャ設計を担います。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マネジメント路線</h3>
               <p className="text-sm text-petrol-deep">
-                PL→PM→開発部門マネージャーへのキャリアパス。Java開発の技術的背景を持ちながら、チームマネジメントやプロジェクト管理を担当します。40代のJavaエンジニアに多い進路です。
+                PL→PM→開発部門マネージャーへのキャリアパスです。Java開発の技術的背景を持ちながら、チームマネジメントやプロジェクト管理を担当します。40代のJavaエンジニアに多い進路です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -242,7 +242,7 @@ export default function JavaSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
-              <p className="text-sm text-slate-600 mb-2">Java/Spring Boot求人が豊富で、技術に精通したアドバイザーが在籍。モダンJava・自社開発の提案に向きます。</p>
+              <p className="text-sm text-slate-600 mb-2">Java/Spring Boot求人が豊富で、技術に精通したアドバイザーが在籍しています。モダンJava・自社開発の提案に向きます。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -252,7 +252,7 @@ export default function JavaSkillPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
-              <p className="text-sm text-slate-600 mb-2">アーキテクト・テックリード向けのスカウトが充実。年収750万円以上のハイクラスJava求人を狙う層に向きます。</p>
+              <p className="text-sm text-slate-600 mb-2">アーキテクト・テックリード向けのスカウトが充実しています。年収750万円以上のハイクラスJava求人を狙う層に向きます。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
           </div>
@@ -291,13 +291,13 @@ export default function JavaSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>求人母数の多さは年齢のリスクヘッジになる。</strong>Javaは求人数が多く、年齢で間口が極端に狭まりにくい言語です。30代・40代でも応募先の選択肢を確保しやすいのは、安定して需要のある言語ならではの強みです。
+              <strong>求人母数の多さは年齢のリスクヘッジになります。</strong>Javaは求人数が多く、年齢で間口が極端に狭まりにくい言語です。30代・40代でも応募先の選択肢を確保しやすいのは、安定して需要のある言語ならではの強みです。
             </p>
             <p>
-              <strong>「レガシー専任」で止まらない。</strong>古いJavaだけの経験だと評価が伸びにくいため、Spring Bootやクラウドなどモダンな要素を一つでも持つことが年収アップの分岐点です。レガシーとモダンの両方が分かる人材は、DX・モダナイゼーション案件で重宝されます。
+              <strong>「レガシー専任」で止まりません。</strong>古いJavaだけの経験だと評価が伸びにくいため、Spring Bootやクラウドなどモダンな要素を一つでも持つことが年収アップの分岐点です。レガシーとモダンの両方が分かる人材は、DX・モダナイゼーション案件で重宝されます。
             </p>
             <p>
-              <strong>業務知識とマネジメントが武器になる。</strong>金融・保険・物流などのドメイン知識や、PL／PMの経験は、若手では代替しにくい資産です。技術力とセットで提示すれば、40代でも上流ポジションで戦えます。
+              <strong>業務知識とマネジメントが強みになります。</strong>金融・保険・物流などのドメイン知識や、PL／PMの経験は、若手では代替しにくい資産です。技術力とセットで提示すれば、40代でも上流ポジションで戦えます。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -310,13 +310,13 @@ export default function JavaSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① Spring Bootで一気通貫の成果物を作る。</strong>認証・CRUD・API・DB連携を含むアプリをSpring Bootで作り、テストとCI/CDまで整えます。モダンJavaを実務レベルで扱える証拠になります。
+              <strong>① Spring Bootで一気通貫の成果物を作ります。</strong>認証・CRUD・API・DB連携を含むアプリをSpring Bootで作り、テストとCI/CDまで整えます。モダンJavaを実務レベルで扱える証拠になります。
             </p>
             <p>
-              <strong>② クラウドとコンテナを掛け合わせる。</strong>AWS等でのデプロイ、Dockerによるコンテナ化を経験すると、レガシー脱却・モダナイゼーション案件で評価されます。インフラ寄りの知識はミドル層の差別化要素です。
+              <strong>② クラウドとコンテナを掛け合わせます。</strong>AWS等でのデプロイ、Dockerによるコンテナ化を経験すると、レガシー脱却・モダナイゼーション案件で評価されます。インフラ寄りの知識はミドル層の差別化要素です。
             </p>
             <p>
-              <strong>③ 新しいJavaバージョン・Kotlinに触れる。</strong>最近のJavaの言語機能やKotlinを試しておくと、技術のアップデートを止めていないことを示せます。学び続ける姿勢が、年齢への懸念を払拭します。
+              <strong>③ 新しいJavaバージョン・Kotlinに触れます。</strong>最近のJavaの言語機能やKotlinを試しておくと、技術のアップデートを止めていないことを示せます。学び続ける姿勢が、年齢への懸念を払拭します。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -344,7 +344,7 @@ export default function JavaSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Javaエンジニアの市場価値を確認する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            あなたのJavaスキルが今の市場でどう評価されるか、複数のIT特化型エージェントで保有求人を比較してみましょう。
+            ご自身のJavaスキルが今の市場でどう評価されるか、複数のIT特化型エージェントで保有求人を比較してみましょう。
           </p>
           <Link
             href="/#ranking"
@@ -363,7 +363,7 @@ export default function JavaSkillPage() {
               { name: "SES・SIerからの転職", href: "/industry/ses-exit/" },
               { name: "PMの転職ガイド", href: "/skill/pm/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

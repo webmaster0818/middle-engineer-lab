@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "ITエンジニア職種別 年収ランキング【2026年・公表値準拠】PM・データサイエンティスト・SEまで比較";
 const PAGE_DESC =
-  "ITエンジニアの職種別の平均年収を、doda平均年収ランキング2025と求人ボックス給料ナビ（2026年6月時点）の公表値だけで比較。プロジェクトマネージャー・データサイエンティスト・インフラ・フロントエンド・SE/PGなど、職種で年収がどう変わるかが出典付きでわかる年収データベースです。";
+  "ITエンジニアの職種別の平均年収を、doda平均年収ランキング2025と求人ボックス給料ナビ（2026年6月時点）の公表値だけで比較します。プロジェクトマネージャー・データサイエンティスト・インフラ・フロントエンド・SE/PGなど、職種で年収がどう変わるかが出典付きで分かる年収データベースです。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/job-type-salary/" },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: PAGE_DESC,
 };
 
-// doda「平均年収ランキング2025」技術系（IT/通信）。対象期間2024年9月〜2025年8月末。
+// doda「平均年収ランキング2025」技術系です（IT/通信）。対象期間2024年9月〜2025年8月末です。
 // 出典: パーソルキャリア doda https://doda.jp/guide/heikin/syokusyu/ / プレスリリース2025-12-01
 const dodaRows = [
   { job: "プロジェクトマネジャー", salary: 707 },
@@ -31,7 +31,7 @@ const dodaRows = [
   { job: "SE／プログラマ", salary: 435 },
 ];
 
-// 求人ボックス 給料ナビ（2026年6月時点・各ページ取得で確認）。出典: 求人ボックス 給料ナビ
+// 求人ボックス 給料ナビです（2026年6月時点・各ページ取得で確認）。出典: 求人ボックス 給料ナビ
 const kyujinboxRows = [
   { job: "データサイエンティスト", avg: "553万円", range: "461〜1,291万円" },
   { job: "AIエンジニア（機械学習）", avg: "557万円", range: "394〜1,161万円" },
@@ -112,7 +112,7 @@ export default function JobTypeSalaryPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：パーソルキャリア「doda 平均年収ランキング2025」（職種別／技術系IT・通信）。対象期間2024年9月〜2025年8月末、2025年12月発表。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：パーソルキャリア「doda 平均年収ランキング2025」（職種別／技術系IT・通信）。対象期間2024年9月〜2025年8月末、2025年12月発表です。</p>
         </section>
 
         <section className="mb-12">
@@ -144,8 +144,8 @@ export default function JobTypeSalaryPage() {
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-3">データの読み方（3つの注意点）</h2>
           <ul className="list-disc pl-5 space-y-2 text-slate-600">
-            <li><strong>上流・マネジメント・セキュリティが高い</strong>：doda 2025ではPM（707万）やセキュリティコンサル（649万）が上位。コードを書く職種から上流・管理・専門特化へ広げると年収レンジが上がる傾向があります。</li>
-            <li><strong>職種名より「経験・技術範囲」で決まる</strong>：フロントとバックエンドの平均はほぼ同水準（求人ボックスで446万/447万）。同じ職種でも担当範囲や経験年数で大きく差がつきます。</li>
+            <li><strong>上流・マネジメント・セキュリティが高い</strong>：doda 2025ではPM（707万）やセキュリティコンサル（649万）が上位です。コードを書く職種から上流・管理・専門特化へ広げると年収レンジが上がる傾向があります。</li>
+            <li><strong>職種名より「経験・技術範囲」で決まる</strong>：フロントとバックエンドの平均はほぼ同水準です（求人ボックスで446万/447万）。同じ職種でも担当範囲や経験年数で大きく差がつきます。</li>
             <li><strong>ソースをまたいで単純比較しない</strong>：dodaは転職サービス登録者ベース・求人ボックスは求人票ベースで、時点も区分も異なります。職種内の相場感を掴む目安として使ってください。</li>
           </ul>
         </section>

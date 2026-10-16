@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/remote-work/" },
   title: "リモートワーク求人の探し方｜エンジニア転職の見極めポイント",
   description:
-    "エンジニア向けリモートワーク求人の探し方を解説。フルリモートとハイブリッドの違い、求人票での見極めポイント、面接での確認事項、求人票の落とし穴まで30代・40代向けに紹介します。",
+    "エンジニア向けリモートワーク求人の探し方を解説します。フルリモートとハイブリッドの違い、求人票での見極めポイント、面接での確認事項、求人票の落とし穴まで30代・40代向けに紹介します。",
 };
 
 const faqs = [
@@ -107,7 +107,7 @@ export default function RemoteWorkPage() {
     <>
       <ArticleJsonLd
         title="リモートワーク求人の探し方｜エンジニア転職の見極めポイント"
-        description="エンジニア向けリモートワーク求人の探し方を解説。フルリモートとハイブリッドの違い、求人票での見極めポイント、面接での確認事項を30代・40代向けに紹介します。"
+        description="エンジニア向けリモートワーク求人の探し方を解説します。フルリモートとハイブリッドの違い、求人票での見極めポイント、面接での確認事項を30代・40代向けに紹介します。"
         url="/knowledge/remote-work/"
       />
       <script
@@ -135,7 +135,7 @@ export default function RemoteWorkPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リモートワーク求人はどう見極める？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 求人票の「リモート可」を鵜呑みにせず、配属予定チームの直近の実出社頻度を面接やエージェント経由で確認するのが鍵です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・求人には「フルリモート」「ハイブリッド」「リモート可（実態は出社中心）」が混在する</li><li>・地方移住や通勤負担の解消が目的ならフルリモート、対面の関係構築を残すならハイブリッド</li><li>・リモート勤務が就業規則・労働条件通知書に明記されるか、書面で確認する</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・求人には「フルリモート」「ハイブリッド」「リモート可（実態は出社中心）」が混在します</li><li>・地方移住や通勤負担の解消が目的ならフルリモート、対面の関係構築を残すならハイブリッド</li><li>・リモート勤務が就業規則・労働条件通知書に明記されるか、書面で確認します</li></ul>
           </div>
         </section>
 
@@ -221,19 +221,19 @@ export default function RemoteWorkPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">SaaS・自社プロダクト企業</h3>
-              <p className="text-sm text-slate-600">プロダクト開発がオンラインで完結しやすく、リモートと相性が良い傾向。開発プロセスがドキュメント化されている企業はリモートでも立ち上がりやすい。</p>
+              <p className="text-sm text-slate-600">プロダクト開発がオンラインで完結しやすく、リモートと相性が良い傾向です。開発プロセスがドキュメント化されている企業はリモートでも立ち上がりやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Web系ベンチャー・メガベンチャー</h3>
-              <p className="text-sm text-slate-600">フルリモートからハイブリッドまで幅広い。同じ社内でもチームによって方針が異なることがあるため、配属先単位での確認が重要。</p>
+              <p className="text-sm text-slate-600">フルリモートからハイブリッドまで幅広いです。同じ社内でもチームによって方針が異なることがあるため、配属先単位での確認が重要です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">外資系IT企業</h3>
-              <p className="text-sm text-slate-600">グローバルでリモート文化が根付いている企業が多い。一方で「週◯日出社」を全社方針として明確に定める企業も増えているため、最新の方針を確認する。</p>
+              <p className="text-sm text-slate-600">グローバルでリモート文化が根付いている企業が多いです。一方で「週◯日出社」を全社方針として明確に定める企業も増えているため、最新の方針を確認します。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">SIer・金融系・公共系</h3>
-              <p className="text-sm text-slate-600">セキュリティ要件や常駐前提の案件があり、出社頻度が高めになりやすい。ただし社内開発部門やモダン化を進める部署ではリモート対応が進むケースもある。</p>
+              <p className="text-sm text-slate-600">セキュリティ要件や常駐前提の案件があり、出社頻度が高めになりやすいです。ただし社内開発部門やモダン化を進める部署ではリモート対応が進むケースもあります。</p>
             </div>
           </div>
         </section>
@@ -332,15 +332,15 @@ export default function RemoteWorkPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：家庭との両立と成長機会のバランス</h3>
-              <p className="text-sm text-petrol-deep">育児や家事との両立でリモートの恩恵が大きい世代。一方で、リモート中心だと立ち上がりや社内人脈づくりに工夫が要るため、オンボーディング体制が整っているかを重視したい。技術的な成長機会と両立できるかも確認ポイント。</p>
+              <p className="text-sm text-petrol-deep">育児や家事との両立でリモートの恩恵が大きい世代です。一方で、リモート中心だと立ち上がりや社内人脈づくりに工夫が要るため、オンボーディング体制が整っているかを重視したいです。技術的な成長機会と両立できるかも確認ポイントです。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：マネジメント・チームビルディングとの両立</h3>
-              <p className="text-sm text-petrol-deep">テックリードやマネジメント職を担う場合、リモート前提でのチーム運営経験が評価されやすい。逆に、メンバー育成や1on1を対面で重視する組織ではハイブリッドが選ばれることもある。自分の役割とチームの方針が噛み合うかを見極めたい。</p>
+              <p className="text-sm text-petrol-deep">テックリードやマネジメント職を担う場合、リモート前提でのチーム運営経験が評価されやすいです。逆に、メンバー育成や1on1を対面で重視する組織ではハイブリッドが選ばれることもあります。自分の役割とチームの方針が噛み合うかを見極めたいです。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年収水準の考え方</h3>
-              <p className="text-sm text-petrol-deep">レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円。勤務形態よりも、企業の給与テーブルとポジションで年収は決まります。リモートだから下がる、と決めつけず、各社の提示条件で比較しましょう。年収交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉ガイド</Link>を参照。</p>
+              <p className="text-sm text-petrol-deep">レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円です。勤務形態よりも、企業の給与テーブルとポジションで年収は決まります。リモートだから下がる、と決めつけず、各社の提示条件で比較しましょう。年収交渉の進め方は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉ガイド</Link>をご参照ください。</p>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">出典: レバテック公表の年代別平均年収（2025年・正社員SE）。数値は時点により変動します。</p>

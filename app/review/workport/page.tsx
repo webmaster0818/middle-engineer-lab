@@ -6,13 +6,13 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/workport/" },
-  title: "ワークポートの評判は？30代40代エンジニア向け徹底レビュー",
+  title: "ワークポートの評判は？30代40代エンジニア向けレビュー",
   description:
-    "ワークポートの評判をエンジニア目線で検証。求人数・対応スピード・口コミの傾向、未経験DX転職の実態、30代40代の活用戦略までデータと出典付きで解説します。",
+    "ワークポートの評判をエンジニア目線で検証します。求人数・対応スピード・口コミの傾向、未経験DX転職の実態、30代40代の活用戦略までデータと出典付きで解説します。",
 };
 
 const toc = [
-  { id: "summary", label: "結論：ワークポートはこんな人向け" },
+  { id: "summary", label: "結論：ワークポートはこのような方向け" },
   { id: "basic", label: "基本データ（2026年6月時点）" },
   { id: "strength", label: "ワークポートの特徴・強み" },
   { id: "good", label: "良い評判の傾向" },
@@ -33,7 +33,7 @@ const basicData: [string, string][] = [
   ["対応エリア", "全国（地方求人も取り扱い）"],
   ["得意領域", "IT・ゲーム業界、未経験歓迎求人、異業種からのキャリアチェンジ"],
   ["年収アップ実績", "統一された公式アップ率は確認できず（本記事では断定しない）"],
-  ["サポート", "コンシェルジュ（担当者）型。スピード重視の求人提案"],
+  ["サポート", "コンシェルジュ（担当者）型です。スピード重視の求人提案"],
   ["料金", "求職者完全無料（公式）"],
 ];
 
@@ -81,12 +81,12 @@ const badReviews = [
       "提案量の多さの裏返しとして、連絡頻度が高いと感じる声が見られます。希望条件を最初に明確化し、連絡手段・頻度の希望を伝えることで軽減しやすい不満です。",
   },
   {
-    point: "希望と異なる求人を紹介されることがある",
+    point: "希望と異なる求人を紹介されることがあります",
     detail:
       "保有求人が幅広いぶん、希望と方向性の違う提案が混じるケースが指摘されています。NG条件（年収下限・職種・勤務地など）を具体的に共有することが対策になります。",
   },
   {
-    point: "担当の専門性にばらつきがある",
+    point: "担当の専門性にばらつきがあります",
     detail:
       "総合型ゆえに担当者のIT専門知識に差があるという声が見られます。技術的に踏み込んだ相談をしたい場合は、IT特化エージェントとの併用が現実的です。",
   },
@@ -154,8 +154,8 @@ export default function WorkportReview() {
   return (
     <>
       <ArticleJsonLd
-        title="ワークポートの評判は？30代40代エンジニア向け徹底レビュー"
-        description="ワークポートの評判をエンジニア目線で検証。求人数・対応スピード・口コミの傾向、未経験DX転職の実態、30代40代の活用戦略までデータと出典付きで解説します。"
+        title="ワークポートの評判は？30代40代エンジニア向けレビュー"
+        description="ワークポートの評判をエンジニア目線で検証します。求人数・対応スピード・口コミの傾向、未経験DX転職の実態、30代40代の活用戦略までデータと出典付きで解説します。"
         url="/review/workport/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -163,7 +163,7 @@ export default function WorkportReview() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          ワークポートの評判は？30代・40代エンジニア向け徹底レビュー
+          ワークポートの評判は？30代・40代エンジニア向けレビュー
         </h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 求人量・対応スピード・口コミの傾向を出典付きで検証</p>
 
@@ -179,15 +179,15 @@ export default function WorkportReview() {
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：ワークポートはこんな人向け</h2>
+            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：ワークポートはこのような方向け</h2>
             <p className="text-sm text-blue-900 mb-4 leading-relaxed">
-              <span className="font-bold">総合評価：求人量とスピードで「選択肢を広げたい人」に強い総合型エージェント。</span>
-              一言でいえば、<span className="font-bold">「とにかく多くの求人を比較したい人」「未経験・異業種からIT転職を狙う30代」「地方やリモートも含めて探したい人」</span>に向いています。
+              <span className="font-bold">総合評価：求人量とスピードで「選択肢を広げたい人」に強い総合型エージェントです。</span>
+              要約すると、<span className="font-bold">「とにかく多くの求人を比較したい人」「未経験・異業種からIT転職を狙う30代」「地方やリモートも含めて探したい人」</span>に向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-2">
               <li className="flex gap-2"><span className="shrink-0 font-bold">①</span>公開求人11万件以上・IT3万件以上（公式LP・集計値・2026年6月）で選択肢が豊富</li>
-              <li className="flex gap-2"><span className="shrink-0 font-bold">②</span>レスポンスが早く、活動を早く前に進めたい人と相性が良い</li>
-              <li className="flex gap-2"><span className="shrink-0 font-bold">③</span>一方で「連絡が多い」「専門性にばらつき」の声もあり、IT特化エージェントとの併用が前提に向く</li>
+              <li className="flex gap-2"><span className="shrink-0 font-bold">②</span>レスポンスが早く、活動を早く前に進めたい人と相性が良いです</li>
+              <li className="flex gap-2"><span className="shrink-0 font-bold">③</span>一方で「連絡が多い」「専門性にばらつき」の声もあり、IT特化エージェントとの併用が前提に向きます</li>
             </ul>
           </div>
         </section>
@@ -295,14 +295,14 @@ export default function WorkportReview() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの活用戦略</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-4">
             <p className="text-sm text-amber-900 leading-relaxed">
-              当サイト（ミドルエンジニア転職ラボ）は30代・40代エンジニアの読者を想定しています。年代別の現実を踏まえると、ワークポートの「使いどころ」は若手とは異なります。
+              当サイトは30代・40代エンジニアの読者を想定しています。年代別の現実を踏まえると、ワークポートの「使いどころ」は若手とは異なります。
             </p>
           </div>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <div>
               <h3 className="font-bold text-slate-800 mb-1">30代：求人量で「土俵」を広げる使い方</h3>
               <p>
-                30代は実務経験を武器にしつつ、まだ職種転換やキャリアの軌道修正が利く年代です。ワークポートの求人量を使って選択肢を広げ、Web系・SIer・ゲーム・社内SEなど複数方向を同時に比較するのに向きます。参考までに、レバテック公表の年代別平均年収（2025年）では正社員SEの30代は約499万円、年収1,000万円以上の割合は30代で8.01%とされています。求人量で母数を確保しつつ、年収条件は妥協せずフィルタリングしましょう。
+                30代は実務経験を強みにしつつ、まだ職種転換やキャリアの軌道修正が利く年代です。ワークポートの求人量を使って選択肢を広げ、Web系・SIer・ゲーム・社内SEなど複数方向を同時に比較するのに向きます。参考までに、レバテック公表の年代別平均年収（2025年）では正社員SEの30代は約499万円、年収1,000万円以上の割合は30代で8.01%とされています。求人量で母数を確保しつつ、年収条件は妥協せずフィルタリングしましょう。
               </p>
             </div>
             <div>
@@ -361,7 +361,7 @@ export default function WorkportReview() {
             {[
               ["無料登録", "公式サイトからプロフィールを入力して登録します。完全無料で、登録後に担当コンシェルジュがつきます。"],
               ["面談・ヒアリング", "希望条件・経歴・キャリアの方向性をすり合わせます。ここで連絡頻度やNG条件を明確に伝えるのが満足度の分かれ目です。"],
-              ["求人紹介・応募", "条件に合う求人を提案してもらい、応募先を絞り込みます。求人量が多いぶん、優先順位づけを意識しましょう。"],
+              ["求人紹介・応募", "条件に合う求人を提案してもらい、応募先を絞り込みます。求人量が多いぶん、優先順位付けを意識しましょう。"],
               ["選考・面接対策", "書類添削・面接対策のサポートを受けつつ選考を進めます。専門的な対策はIT特化エージェントと併用するのも有効です。"],
               ["内定・条件交渉・入社", "内定後は年収・条件の交渉をコンシェルジュ経由で行い、入社日を調整します。"],
             ].map(([title, body], i) => (
@@ -380,8 +380,8 @@ export default function WorkportReview() {
         <section id="compare" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">他社との比較・使い分け</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed mb-4">
-            <p><span className="font-bold">ワークポートが向くケース：</span>求人量を最大化したい、未経験・地方も含めて広く探したい、スピード重視で進めたい。</p>
-            <p><span className="font-bold">IT特化エージェントが向くケース：</span>技術的に深い選考対策、ハイクラス・高年収を軸に厳選したい。</p>
+            <p><span className="font-bold">ワークポートが向くケース：</span>求人量を最大化したい、未経験・地方も含めて広く探したい、スピード重視で進めたいです。</p>
+            <p><span className="font-bold">IT特化エージェントが向くケース：</span>技術的に深い選考対策、ハイクラス・高年収を軸に厳選したいです。</p>
             <p><span className="font-bold">併用パターン：</span>ワークポートで母数を確保しつつ、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>や<Link href="/review/geekly/" className="text-petrol hover:underline">Geekly</Link>で専門的な提案・対策を受ける二刀流が、ミドル層には効率的です。</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

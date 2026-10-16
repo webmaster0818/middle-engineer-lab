@@ -26,8 +26,8 @@ const toc = [
 
 const jobsData = [
   { job: "プリセールス", salary: "約718万円", note: "技術と提案を橋渡し。600万円台を大きく超える層" },
-  { job: "プロジェクトマネージャー（PM）", salary: "約669万円", note: "進行・予算・人の管理。マネジメント評価が反映" },
-  { job: "ITコンサルタント", salary: "約625万円", note: "上流の課題解決。600万円帯の入口にあたる職種" },
+  { job: "プロジェクトマネージャー（PM）", salary: "約669万円", note: "進行・予算・人の管理です。マネジメント評価が反映" },
+  { job: "ITコンサルタント", salary: "約625万円", note: "上流の課題解決です。600万円帯の入口にあたる職種" },
 ];
 
 const skills = [
@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "600万円向けの求人はどのくらいありますか？",
-    a: "マイナビなどの求人検索では、WEB系プログラマーで初年度600万円以上の求人が約4,501件、制御系SEで約1,515件といった件数が確認できる場合があります。ただし求人件数は閲覧時点で変動する参考値であり、最新の件数は各サービスの公式サイトでご確認ください。",
+    a: "マイナビなどの求人検索では、Web系プログラマーで初年度600万円以上の求人が約4,501件、制御系SEで約1,515件といった件数が確認できる場合があります。ただし求人件数は閲覧時点で変動する参考値であり、最新の件数は各サービスの公式サイトでご確認ください。",
   },
   {
     q: "600万円の次は何を目指せばいいですか？",
@@ -165,7 +165,7 @@ export default function Salary600Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L2</td>
                   <td className="px-4 py-3 border border-slate-200">499.2万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">まだ手前。土台となる水準</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">まだ手前です。土台となる水準</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L3</td>
@@ -175,7 +175,7 @@ export default function Salary600Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L4</td>
                   <td className="px-4 py-3 border border-slate-200">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">600万円のすぐ上。次の目標</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">600万円のすぐ上です。次の目標</td>
                 </tr>
               </tbody>
             </table>
@@ -261,7 +261,7 @@ export default function Salary600Page() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <p className="text-2xl font-bold text-petrol mb-1">約4,501件</p>
-              <p className="text-sm text-slate-600">WEB系プログラマーで初年度600万円以上の求人</p>
+              <p className="text-sm text-slate-600">Web系プログラマーで初年度600万円以上の求人</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <p className="text-2xl font-bold text-petrol mb-1">約1,515件</p>
@@ -280,7 +280,7 @@ export default function Salary600Page() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">設計・リーダー経験の「言語化」がカギ</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                30〜40代の多くは、実は600万円帯に必要なDB・API・設計やリーダー経験をすでに持っています。問題はそれを職務経歴として言語化できているかです。棚卸しができれば、現職よりも提示レンジの高い求人に届きます。
+                30〜40代の多くは、600万円帯に必要なDB・API・設計やリーダー経験をすでに持っています。問題はそれを職務経歴として言語化できているかです。棚卸しができれば、現職よりも提示レンジの高い求人に届きます。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -291,7 +291,7 @@ export default function Salary600Page() {
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            年代別の相場や汎用的な年収UP戦略は、
+            年代別の相場や汎用的な年収アップ戦略は、
             <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>
             ・
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>

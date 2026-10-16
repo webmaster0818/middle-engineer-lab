@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/stable/" },
   title: "安定重視のエンジニア転職【大企業・公共系・社内SE】",
   description:
-    "安定を重視するエンジニア向けの転職先を解説。大企業、公共系、社内SE、金融系の特徴、年収、福利厚生を比較します。",
+    "安定を重視するエンジニア向けの転職先を解説します。大企業、公共系、社内SE、金融系の特徴、年収、福利厚生を比較します。",
 };
 
 const faqs = [
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "公共系システムの仕事内容は？",
-    a: "官公庁、自治体、医療機関向けのシステム開発・運用が中心です。セキュリティ要件が厳しく、ウォーターフォール開発が多い傾向。安定した長期プロジェクトが多いです。",
+    a: "官公庁、自治体、医療機関向けのシステム開発・運用が中心です。セキュリティ要件が厳しく、ウォーターフォール開発が多い傾向です。安定した長期プロジェクトが多いです。",
   },
   {
     q: "大企業の福利厚生はどれくらい充実している？",
@@ -52,7 +52,7 @@ export default function StablePage() {
     <>
       <ArticleJsonLd
         title="安定重視のエンジニア転職【大企業・公共系・社内SE】"
-        description="安定を重視するエンジニア向けの転職先を解説。大企業、公共系、社内SE、金融系の特徴、年収、福利厚生を比較します。"
+        description="安定を重視するエンジニア向けの転職先を解説します。大企業、公共系、社内SE、金融系の特徴、年収、福利厚生を比較します。"
         url="/purpose/stable/"
       />
       <script
@@ -76,13 +76,13 @@ export default function StablePage() {
         </p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 住宅ローンを組むために安定企業に入りたい</li>
               <li>- 家族がいるため倒産リスクの低い企業で働きたい</li>
-              <li>- 退職金・企業年金がある企業を希望している</li>
-              <li>- 長期的にキャリアを築ける環境を求めている</li>
+              <li>- 退職金・企業年金がある企業を希望しています</li>
+              <li>- 長期的にキャリアを築ける環境を求めています</li>
             </ul>
           </div>
         </section>
@@ -146,9 +146,9 @@ export default function StablePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "マイナビITエージェント", point: "大手企業・社内SE求人が豊富。福利厚生の詳細情報も提供してくれる。" },
-              { name: "リクルートエージェント（IT）", point: "非公開求人数No.1。大手企業の求人が多い。" },
-              { name: "doda ITエージェント", point: "大手SIer・メーカーの求人が充実。安定志向の転職サポートに強い。" },
+              { name: "マイナビITエージェント", point: "大手企業・社内SE求人が豊富です。福利厚生の詳細情報も提供してくれます。" },
+              { name: "リクルートエージェント（IT）", point: "非公開求人数No.1です。大手企業の求人が多いです。" },
+              { name: "doda ITエージェント", point: "大手SIer・メーカーの求人が充実しています。安定志向の転職サポートに強いです。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -193,7 +193,7 @@ export default function StablePage() {
               { name: "大企業ITポジションガイド", href: "/purpose/daikigyo/" },
               { name: "ワークライフバランス重視の転職", href: "/purpose/wlb/" },
               { name: "スタートアップ→大企業転職", href: "/career/startup-to-corporate/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

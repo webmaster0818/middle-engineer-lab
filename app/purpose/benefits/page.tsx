@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/benefits/" },
   title: "福利厚生が充実した企業へ転職【法定外福利の見極め方2026】",
   description:
-    "法定福利と法定外福利の違いを公的情報ベースで整理し、求人での福利厚生の見極め方を解説。実質価値・課税の落とし穴、該当しやすい企業タイプ、30-40代の選び方まで。",
+    "法定福利と法定外福利の違いを公的情報ベースで整理し、求人での福利厚生の見極め方を解説します。実質価値・課税の落とし穴、該当しやすい企業タイプ、30-40代の選び方まで。",
 };
 
 const faqs = [
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "福利厚生と年収、どちらを優先すべきですか？",
-    a: "『総報酬（年収＋福利厚生の実質価値）』で比較するのが基本です。福利厚生が手厚くても基本給が市場相場より低ければ、住宅ローン審査や転職時の年収交渉で不利になることがあります。逆に年収が高くても、住宅補助・退職金がなければ手元に残りにくいことも。現金で受け取る分と、非課税で恩恵を受けられる福利厚生分を分けて、自分の生活設計に最も効く配分を選ぶのが賢明です。",
+    a: "『総報酬（年収＋福利厚生の実質価値）』で比較するのが基本です。福利厚生が手厚くても基本給が市場相場より低ければ、住宅ローン審査や転職時の年収交渉で不利になることがあります。逆に年収が高くても、住宅補助・退職金がなければ手元に残りにくいことがあります。現金で受け取る分と、非課税で恩恵を受けられる福利厚生分を分けて、自分の生活設計に最も効く配分を選ぶのが賢明です。",
   },
 ];
 
@@ -53,7 +53,7 @@ export default function BenefitsPage() {
     <>
       <ArticleJsonLd
         title="福利厚生が充実した企業へ転職【法定外福利の見極め方2026】"
-        description="法定福利と法定外福利の違いを公的情報ベースで整理し、求人での福利厚生の見極め方を解説。実質価値・課税の落とし穴、該当しやすい企業タイプまで。"
+        description="法定福利と法定外福利の違いを公的情報ベースで整理し、求人での福利厚生の見極め方を解説します。実質価値・課税の落とし穴、該当しやすい企業タイプまで。"
         url="/purpose/benefits/"
       />
       <script
@@ -72,7 +72,7 @@ export default function BenefitsPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           福利厚生が充実した企業へ転職
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 「法定外福利」の中身と実質価値で選ぶ完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 「法定外福利」の中身と実質価値で選ぶガイド</p>
 
         <DataNote
           surveyedAt="2026年6月"
@@ -85,10 +85,10 @@ export default function BenefitsPage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：「福利厚生充実」は法定外福利の中身で判断する</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
-            求人でよく見る「福利厚生充実」「各種社会保険完備」という表記。しかし社会保険（法定福利）はどの会社でも受けられる当然のもので、充実の指標にはなりません。本当に差がつくのは、会社が任意で提供する<strong>法定外福利</strong>——住宅補助・退職金・育児支援・健康支援・自己啓発支援などの中身です。さらに、現金支給か現物支給かで課税が変わり、実質的な手取りメリットも異なります。本記事では、福利厚生を法定／法定外で整理し、求人での見極め方を30-40代の生活設計に効く実利の観点で解説します。
+            求人でよく見る「福利厚生充実」「各種社会保険完備」という表記です。しかし社会保険（法定福利）はどの会社でも受けられる当然のもので、充実の指標にはなりません。本当に差がつくのは、会社が任意で提供する<strong>法定外福利</strong>——住宅補助・退職金・育児支援・健康支援・自己啓発支援などの中身です。さらに、現金支給か現物支給かで課税が変わり、実質的な手取りメリットも異なります。本記事では、福利厚生を法定／法定外で整理し、求人での見極め方を30-40代の生活設計に効く実利の観点で解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 「福利厚生充実」求人の中身を具体的に見極めたい30-40代</li>
               <li>- 住宅・退職金・育児支援など生活に効く制度で会社を選びたい</li>
@@ -122,9 +122,9 @@ export default function BenefitsPage() {
               </thead>
               <tbody>
                 {[
-                  { type: "法定福利", desc: "健康保険・厚生年金・雇用保険・労災・介護保険の会社負担", note: "法律上の義務。どの会社でも受けられ、充実の指標にならない" },
-                  { type: "法定外福利（現金系）", desc: "住宅手当・家族手当・退職金など", note: "現金支給は原則 給与課税。額面ほど手取りは増えない" },
-                  { type: "法定外福利（現物・支援系）", desc: "社宅・食事補助・健診・資格支援・カフェテリアプラン等", note: "要件を満たせば非課税のものも。実質価値が高い場合がある" },
+                  { type: "法定福利", desc: "健康保険・厚生年金・雇用保険・労災・介護保険の会社負担", note: "法律上の義務です。どの会社でも受けられ、充実の指標になりません" },
+                  { type: "法定外福利（現金系）", desc: "住宅手当・家族手当・退職金など", note: "現金支給は原則 給与課税です。額面ほど手取りは増えません" },
+                  { type: "法定外福利（現物・支援系）", desc: "社宅・食事補助・健診・資格支援・カフェテリアプラン等", note: "要件を満たせば非課税のものも。実質価値が高い場合があります" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -144,11 +144,11 @@ export default function BenefitsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">2. 求人での見極めポイント</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "法定外福利の具体的な制度名を確認する", desc: "『各種社会保険完備』は当然のこと。住宅補助・退職金・DC・育児/介護支援・健康支援・資格支援など、具体的な制度が挙がっているかを見ます。" },
+              { num: "1", title: "法定外福利の具体的な制度名を確認する", desc: "『各種社会保険完備』は当然のことです。住宅補助・退職金・DC・育児/介護支援・健康支援・資格支援など、具体的な制度が挙がっているかを見ます。" },
               { num: "2", title: "金額・条件・対象を確認する", desc: "『住宅手当あり』だけでなく、金額・支給条件・対象者まで。条件次第で自分が対象外になることもあります。" },
               { num: "3", title: "現金か現物かを確認する", desc: "現金手当は課税され手取りが目減りします。借り上げ社宅・食事補助など非課税性のある現物支給は実質価値が高いことがあります。" },
-              { num: "4", title: "自分のライフステージに効く制度を優先する", desc: "30-40代なら住宅・退職金/DC・育児/介護支援・健康支援が実利大。制度の数より、生活設計に効くかで選びます。" },
-              { num: "5", title: "制度の利用実績を確認する", desc: "育休・時短・資格支援などは『制度はあるが利用者ゼロ』のことも。面接や口コミで実際に使われているかを確認します。" },
+              { num: "4", title: "自分のライフステージに効く制度を優先する", desc: "30-40代なら住宅・退職金/DC・育児/介護支援・健康支援が実利大です。制度の数より、生活設計に効くかで選びます。" },
+              { num: "5", title: "制度の利用実績を確認する", desc: "育休・時短・資格支援などは『制度はあるが利用者ゼロ』のことがあります。面接や口コミで実際に使われているかを確認します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -170,10 +170,10 @@ export default function BenefitsPage() {
           </p>
           <div className="space-y-3">
             {[
-              { type: "大手・上場企業／日系メーカー", point: "住宅補助・退職金・各種支援を幅広く備える傾向。福利厚生に投資できる体力がある。" },
-              { type: "インフラ・金融・伝統的大企業", point: "安定志向で法定外福利が手厚い企業が多い。家族手当・社宅などが残ることも。" },
-              { type: "従業員支援を重視するメガベンチャー", point: "カフェテリアプラン・健康/学習支援など現代的な福利厚生を整備する例がある。" },
-              { type: "スタートアップ・小規模Web系", point: "制度の数より給与・裁量・柔軟な働き方で報いる設計が多い。福利厚生は絞る企業も。" },
+              { type: "大手・上場企業／日系メーカー", point: "住宅補助・退職金・各種支援を幅広く備える傾向です。福利厚生に投資できる体力があります。" },
+              { type: "インフラ・金融・伝統的大企業", point: "安定志向で法定外福利が手厚い企業が多いです。家族手当・社宅などが残ることがあります。" },
+              { type: "従業員支援を重視するメガベンチャー", point: "カフェテリアプラン・健康/学習支援など現代的な福利厚生を整備する例があります。" },
+              { type: "スタートアップ・小規模Web系", point: "制度の数より給与・裁量・柔軟な働き方で報いる設計が多いです。福利厚生は絞る企業も。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>
@@ -222,7 +222,7 @@ export default function BenefitsPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">福利厚生の手厚い企業を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">制度の中身まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">制度の中身まで把握したIT特化型エージェントが、ご自身の条件に合う企業を提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -235,7 +235,7 @@ export default function BenefitsPage() {
               { name: "男性育休が取りやすい企業へ転職", href: "/purpose/mens-childcare/" },
               { name: "時短勤務ができる企業へ転職", href: "/purpose/short-hours/" },
               { name: "安定した企業への転職", href: "/purpose/stable/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

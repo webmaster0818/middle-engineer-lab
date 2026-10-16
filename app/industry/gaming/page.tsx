@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "ゲーム業界のエンジニア転職【2026年】年収ランキング（有報）・職種・未経験からの進め方";
+const TITLE = "ゲーム業界のエンジニア転職【2026年】年収ランキング（有価証券報告書）・職種・未経験からの進め方";
 const DESCRIPTION =
-  "ゲーム業界エンジニアの転職を徹底解説。Unity/Unreal Engine、サーバーサイド、XRなどの職種、求められるスキル、年収の考え方、ゲームに強いエージェントの選び方、30代・40代の戦略までガイドします。";
+  "ゲーム業界エンジニアの転職を解説します。Unity/Unreal Engine、サーバーサイド、XRなどの職種、求められるスキル、年収の考え方、ゲームに強いエージェントの選び方、30代・40代の戦略までガイドします。";
 
 const toc = [
   { id: "conclusion", label: "結論：ゲーム業界転職はポートフォリオと専門性が鍵" },
@@ -23,7 +23,7 @@ const toc = [
 ];
 
 const activeRows: [string, string][] = [
-  ["C#/C++の実装力", "Unity（C#）・Unreal Engine（C++）の中核スキル。Web系のバックエンドにも転用しやすい"],
+  ["C#/C++の実装力", "Unity（C#）・Unreal Engine（C++）の中核スキルです。Web系のバックエンドにも転用しやすい"],
   ["リアルタイム・低遅延処理", "通信同期・パフォーマンスチューニングの経験は、ゲーム外でも希少価値が高い"],
   ["大規模トラフィック・インフラ", "ソーシャルゲームのサーバー運用経験は、Web系の高負荷システムでも評価される"],
   ["3D・グラフィックス・数学的素養", "シェーダーや描画最適化、XRなど専門領域で差別化できる"],
@@ -31,8 +31,8 @@ const activeRows: [string, string][] = [
 ];
 
 const fillRows: [string, string][] = [
-  ["プレイ可能なポートフォリオ", "Unity/UEで完成させた作品。コード品質・最適化・公開（itch.io等）まで示せると強い"],
-  ["得意領域の明確化", "クライアント/サーバー/TA/XRのどこで勝負するかを定める"],
+  ["プレイ可能なポートフォリオ", "Unity/UEで完成させた作品です。コード品質・最適化・公開（itch.io等）まで示せると強い"],
+  ["得意領域の明確化", "クライアント/サーバー/TA/XRのどこを強みにするかを定める"],
   ["最新トレンドの把握", "GDC・CEDEC等の情報から、技術的な議論ができる状態にする"],
   ["Web系へ広げる場合の基礎", "Go/Node.js・クラウド・CI/CDなど、サーバーサイドの一般技術を補強する"],
 ];
@@ -41,13 +41,13 @@ const positions: [string, string][] = [
   ["クライアントエンジニア", "Unity/Unreal Engineでのゲームクライアント開発（描画・UI・物理など）"],
   ["サーバーエンジニア", "Go/Node.js/Python等でのゲームサーバー・API・大規模インフラ開発"],
   ["テクニカルアーティスト（TA）", "シェーダー・エフェクト・制作パイプラインの開発で表現と効率を両立"],
-  ["XRエンジニア", "VR/AR/MR向けのゲーム・コンテンツ開発。専門人材が不足しがち"],
+  ["XRエンジニア", "VR/AR/MR向けのゲーム・コンテンツ開発です。専門人材が不足しがち"],
 ];
 
 const companyTypes: { title: string; desc: string; links: { name: string; href: string }[] }[] = [
   {
     title: "コンシューマー（家庭用）大手",
-    desc: "据置・携帯機向けの開発を行う大手。高い技術水準と腰を据えた開発が特徴。長期的にプロダクトに関わりたい人に向く。",
+    desc: "据置・携帯機向けの開発を行う大手です。高い技術水準と腰を据えた開発が特徴です。長期的にプロダクトに関わりたい人に向きます。",
     links: [
       { name: "任天堂", href: "/company/nintendo/" },
       { name: "ソニー", href: "/company/sony/" },
@@ -56,7 +56,7 @@ const companyTypes: { title: string; desc: string; links: { name: string; href: 
   },
   {
     title: "モバイル／ソーシャルゲーム",
-    desc: "大規模トラフィックの運用やライブ運営が中心。サーバーサイドやインフラの経験が活きやすく、改善サイクルが速い。",
+    desc: "大規模トラフィックの運用やライブ運営が中心です。サーバーサイドやインフラの経験が活きやすく、改善サイクルが速いです。",
     links: [
       { name: "サイバーエージェント", href: "/company/cyberagent/" },
       { name: "DeNA", href: "/company/dena/" },
@@ -169,12 +169,12 @@ export default function GamingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ゲーム業界転職はポートフォリオと専門性が鍵</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
-              ゲーム業界への転職は、技術力を「見える形」で示せるかで決まります。未経験ならポートフォリオ、経験者なら専門領域での実績が武器になります。
+              ゲーム業界への転職は、技術力を「見える形」で示せるかで決まります。未経験ならポートフォリオ、経験者なら専門領域での実績が強みになります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 職種はクライアント／サーバー／TA／XRに大別。どこで勝負するかを定める。</li>
-              <li>② 未経験はUnity/UEの完成作品が事実上必須。Web系サーバー経験者は移行しやすい。</li>
-              <li>③ ゲーム・エンタメに強いGeeklyなど専門エージェントの活用が効率的。</li>
+              <li>① 職種はクライアント／サーバー／TA／XRに大別です。どこを強みにするかを定めます。</li>
+              <li>② 未経験はUnity/UEの完成作品が事実上必須です。Web系サーバー経験者は移行しやすいです。</li>
+              <li>③ ゲーム・エンタメに強いGeeklyなど専門エージェントの活用が効率的です。</li>
             </ul>
           </div>
         </section>
@@ -243,7 +243,7 @@ export default function GamingPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
-            技術別の市場の攻め方は
+            技術別の市場の進め方は
             <Link href="/skill/unity/" className="text-petrol hover:underline">Unity転職ガイド</Link>
             ・
             <Link href="/skill/csharp/" className="text-petrol hover:underline">C#/.NET転職ガイド</Link>
@@ -263,7 +263,7 @@ export default function GamingPage() {
                 <thead>
                   <tr className="bg-slate-100 text-slate-700">
                     <th className="px-3 py-2 text-left">企業</th>
-                    <th className="px-3 py-2 text-left">平均年間給与（有報）</th>
+                    <th className="px-3 py-2 text-left">平均年間給与（有価証券報告書）</th>
                     <th className="px-3 py-2 text-left">決算期</th>
                   </tr>
                 </thead>
@@ -367,13 +367,13 @@ export default function GamingPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Geekly（ギークリー）：IT/Web/ゲーム特化</h3>
               <p className="text-sm text-petrol-deep">
-                株式会社Geekly（設立2011年8月・渋谷区）が運営するIT/Web/ゲーム業界専門のエージェント。提案スピードに強みがあり、実務経験者への提案数が多いとされます。公開求人は37,000件以上（2026年1月時点・非公開含め46,000件以上[2026年5月時点]の二次集計値）、年収アップ率は約81%・平均上昇額約76万円（2025年9月時点・公表値）とされています。ゲーム・エンタメ企業の求人を探す際の有力な選択肢です。
+                株式会社Geekly（設立2011年8月・渋谷区）が運営するIT/Web/ゲーム業界専門のエージェントです。提案スピードに強みがあり、実務経験者への提案数が多いとされます。公開求人は37,000件以上（2026年1月時点・非公開含め46,000件以上[2026年5月時点]の二次集計値）、年収アップ率は約81%・平均上昇額約76万円（2025年9月時点・公表値）とされています。ゲーム・エンタメ企業の求人を探す際の有力な選択肢です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レバテックキャリア：IT全般＋ゲーム案件</h3>
               <p className="text-sm text-petrol-deep">
-                IT/Web特化で高年収帯の求人比率が高いとされるエージェント。ゲームに限定せずIT全般を広く比較したい場合に、Geeklyと併用すると選択肢を広げられます。
+                IT/Web特化で高年収帯の求人比率が高いとされるエージェントです。ゲームに限定せずIT全般を広く比較したい場合に、Geeklyと併用すると選択肢を広げられます。
               </p>
             </div>
           </div>
@@ -396,10 +396,10 @@ export default function GamingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "ポートフォリオ作品を完成させる", desc: "Unity/Unreal Engineで実際にプレイできるゲームを開発する。完成度・コード品質・パフォーマンス最適化が見られる。" },
-              { step: "2", title: "得意分野を明確にする", desc: "クライアント（描画・UI・物理）、サーバー（インフラ・API）、TA（シェーダー・エフェクト）、XRのいずれかに特化する。" },
-              { step: "3", title: "業界トレンドを把握する", desc: "GDC講演やCEDEC資料、技術ブログで最新動向を学び、面接で技術的な議論ができる状態にする。" },
-              { step: "4", title: "ゲームに強いエージェントに登録", desc: "Geekly（IT/Web/ゲーム特化）を軸に、IT全般のレバテックキャリアを併用。ポートフォリオの見せ方も相談する。" },
+              { step: "1", title: "ポートフォリオ作品を完成させる", desc: "Unity/Unreal Engineで実際にプレイできるゲームを開発します。完成度・コード品質・パフォーマンス最適化が見られます。" },
+              { step: "2", title: "得意分野を明確にする", desc: "クライアント（描画・UI・物理）、サーバー（インフラ・API）、TA（シェーダー・エフェクト）、XRのいずれかに特化します。" },
+              { step: "3", title: "業界トレンドを把握する", desc: "GDC講演やCEDEC資料、技術ブログで最新動向を学び、面接で技術的な議論ができる状態にします。" },
+              { step: "4", title: "ゲームに強いエージェントに登録", desc: "Geekly（IT/Web/ゲーム特化）を軸に、IT全般のレバテックキャリアを併用します。ポートフォリオの見せ方も相談します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -421,11 +421,11 @@ export default function GamingPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：専門領域で市場価値を高める</h3>
-              <p className="text-sm text-petrol-deep">サーバー/インフラ、TA、XRなど一つの専門を深めると差別化しやすい。Web系への転身も視野に入れやすく、選択肢が広い時期。</p>
+              <p className="text-sm text-petrol-deep">サーバー/インフラ、TA、XRなど一つの専門を深めると差別化しやすいです。Web系への転身も視野に入れやすく、選択肢が広い時期です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：リード・マネジメントで勝負</h3>
-              <p className="text-sm text-petrol-deep">リードエンジニア、テクニカルディレクター、開発マネジメントなど、チームを率いる経験が活きる。求人は絞られるため、非公開求人を持つエージェントの活用が鍵になる。</p>
+              <p className="text-sm text-petrol-deep">リードエンジニア、テクニカルディレクター、開発マネジメントなど、チームを率いる経験が活きます。求人は絞られるため、非公開求人を持つエージェントの活用が鍵になります。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">

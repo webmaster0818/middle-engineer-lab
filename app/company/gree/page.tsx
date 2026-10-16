@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/gree/" },
   title: "グリー（GREE）の年収は平均865万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "グリー（GREEグループ）へのエンジニア転職を実データで解説。有価証券報告書の平均年収865万円（2025年6月期・持株会社単体）、Go/PHP/Unity等の技術スタック、選考フロー、30代40代の現実までまとめました。持株会社移行に伴う数字の読み方も明記。",
+    "グリー（GREEグループ）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収865万円（2025年6月期・持株会社単体）、Go/PHP/Unity等の技術スタック、選考フロー、30代40代の現実までまとめました。持株会社移行に伴う数字の読み方も明記します。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -85,7 +85,7 @@ export default function GreeCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="グリー（GREE）エンジニア転職ガイド" description="グリー（GREEグループ）へのエンジニア転職を実データで解説。有価証券報告書の平均年収865万円（2025年6月期・持株会社単体）、Go/PHP/Unity等の技術スタック、選考フロー、30代40代の現実までまとめました。持株会社移行に伴う数字の読み方も明記。" url="/company/gree/" />
+      <ArticleJsonLd title="グリー（GREE）エンジニア転職ガイド" description="グリー（GREEグループ）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収865万円（2025年6月期・持株会社単体）、Go/PHP/Unity等の技術スタック、選考フロー、30代40代の現実までまとめました。持株会社移行に伴う数字の読み方も明記します。" url="/company/gree/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Rubyの転職ガイド", href: "/skill/ruby/" }, { name: "PHPの転職ガイド", href: "/skill/php/" }, { name: "Kotlinの転職ガイド", href: "/skill/kotlin/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "グリー（GREE）" }]} />
 
@@ -97,7 +97,7 @@ export default function GreeCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】グリー（GREE）の年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: グリーホールディングスの平均年間給与は865万円です（2025年6月期 有価証券報告書・提出会社＝持株会社単体、平均年齢40.2歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 865万円（2025年6月期 有報）。ただし2024年10月の持株会社移行後の数字で、持株会社単体の在籍者は123名と少数です。</li><li>・実際の開発を担うのは事業会社グリー株式会社等であり、この単体平均がエンジニア全体の給与水準をそのまま示すものではありません。</li><li>・エンジニア職の提示額は応募する事業会社・ポジション・等級により幅があるため、個別求人・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 865万円です（2025年6月期 有価証券報告書）。ただし2024年10月の持株会社移行後の数字で、持株会社単体の在籍者は123名と少数です。</li><li>・実際の開発を担うのは事業会社グリー株式会社等であり、この単体平均がエンジニア全体の給与水準をそのまま示すものではありません。</li><li>・エンジニア職の提示額は応募する事業会社・ポジション・等級により幅があるため、個別求人・面談で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -109,7 +109,7 @@ export default function GreeCompanyPage() {
           sources={[
             "グリーホールディングス 有価証券報告書（2025年6月期）",
             "グリーグループ公式 採用ページ",
-            "IRBANK（有報ベース推移データ）",
+            "IRBANK（有価証券報告書ベース推移データ）",
             "口コミプラットフォーム（傾向）",
           ]}
         />
@@ -118,12 +118,12 @@ export default function GreeCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              グリーは<strong>ゲーム・メタバースを軸に、幅広い言語・技術で開発を行うエンタメ・テック企業</strong>です。2024年10月に持株会社化しており、有報の単体平均年収865万円（2025年6月期）は<strong>持株会社（在籍123名）の数字</strong>である点に注意が必要です。実際の開発は事業会社が担い、ポジション・事業会社により技術も待遇も異なります。
+              グリーは<strong>ゲーム・メタバースを軸に、幅広い言語・技術で開発を行うエンタメ・テック企業</strong>です。2024年10月に持株会社化しており、有価証券報告書の単体平均年収865万円（2025年6月期）は<strong>持株会社（在籍123名）の数字</strong>である点に注意が必要です。実際の開発は事業会社が担い、ポジション・事業会社により技術も待遇も異なります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：ゲーム・メタバース領域に関心があり、サーバーサイドやクライアント（Unity等）の実務経験があるエンジニア</li>
               <li>● <strong>向いていない人</strong>：エンタメ領域への関心が薄く、業務系・受託のみを志向する人</li>
-              <li>● <strong>30代・40代</strong>：ゲーム基盤・メタバース・運用などの専門性があれば年齢層が高めの組織で活きやすい</li>
+              <li>● <strong>30代・40代</strong>：ゲーム基盤・メタバース・運用などの専門性があれば年齢層が高めの組織で活きやすいです</li>
             </ul>
           </div>
         </section>
@@ -153,7 +153,7 @@ export default function GreeCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年6月期 有価証券報告書の提出会社（持株会社単体）数値。持株会社移行（2024年10月）に伴い、単体在籍者は123名と少数です。技術スタックは公式採用情報ベース（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年6月期 有価証券報告書の提出会社（持株会社単体）数値。持株会社移行（2024年10月）に伴い、単体在籍者は123名と少数です。技術スタックは公式採用情報ベースです（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -177,7 +177,7 @@ export default function GreeCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            グリーグループは公式採用情報で対応言語・技術を公開しています。事業会社・プロダクトにより使用技術は大きく異なります。主な要素は以下の通りです。
+            グリーグループは公式採用情報で対応言語・技術を公開しています。事業会社・プロダクトにより使用技術は大きく異なります。主な要素は以下のとおりです。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -267,9 +267,9 @@ export default function GreeCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">グリー転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。メガベンチャー求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。ゲーム企業への提案実績が豊富で提案スピードが速い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。メガベンチャー求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。ゲーム企業への提案実績が豊富で提案スピードが速いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

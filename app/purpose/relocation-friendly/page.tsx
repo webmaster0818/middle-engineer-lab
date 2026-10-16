@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/relocation-friendly/" },
   title: "移住・地方移住OKのエンジニア求人ガイド【2026年版】",
   description:
-    "移住・二拠点を起点にIT転職を設計するガイド。段階的移住ロードマップ、居住地不問・全国一律給与の見極め、移住支援金（公的制度）の活用、30-40代の二拠点コストまで解説。",
+    "移住・二拠点を起点にIT転職を設計するガイドです。段階的移住ロードマップ、居住地不問・全国一律給与の見極め、移住支援金（公的制度）の活用、30-40代の二拠点コストまで解説します。",
 };
 
 const faqs = [
@@ -53,7 +53,7 @@ export default function RelocationFriendlyPage() {
     <>
       <ArticleJsonLd
         title="移住・地方移住OKのエンジニア求人ガイド【2026年版】"
-        description="移住・二拠点を起点にIT転職を設計するガイド。段階的移住ロードマップ、居住地不問の見極め、移住支援金の活用、30-40代の二拠点コストまで解説。"
+        description="移住・二拠点を起点にIT転職を設計するガイドです。段階的移住ロードマップ、居住地不問の見極め、移住支援金の活用、30-40代の二拠点コストまで解説します。"
         url="/purpose/relocation-friendly/"
       />
       <script
@@ -72,7 +72,7 @@ export default function RelocationFriendlyPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           移住・地方移住OKのエンジニア求人ガイド
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 暮らしを起点に働き方を設計する完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 暮らしを起点に働き方を設計するガイド</p>
 
         <DataNote
           surveyedAt="2026年6月"
@@ -86,10 +86,10 @@ export default function RelocationFriendlyPage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：移住OK求人は“暮らしを先に決めて働き方を合わせる”という発想</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
-            フルリモートは「出社をなくす」、Uターン・Iターンは「地方企業に就職する」働き方ですが、本記事の<strong>移住・地方移住OK</strong>はそれらと軸が違います。ここで主役になるのは「どこで暮らしたいか」という<strong>生活設計</strong>です。自然の近くで子育てしたい、実家の近くに住みたい、二拠点で暮らしたい——その望む暮らしを先に決め、それを実現できる働き方（フルリモート・月数回出社・全国一律給与）を後から選ぶ。本記事は、段階的な移住ロードマップと求人の見極め、そして公的な移住支援金の活用までを、家族を持つ30-40代の現実に即して解説します。
+            フルリモートは「出社をなくす」、Uターン・Iターンは「地方企業に就職する」働き方ですが、本記事の<strong>移住・地方移住OK</strong>はそれらと軸が違います。ここで主役になるのは「どこで暮らしたいか」という<strong>生活設計</strong>です。自然の近くで子育てしたい、実家の近くに住みたい、二拠点で暮らしたい——その望む暮らしを先に決め、それを実現できる働き方（フルリモート・月数回出社・全国一律給与）を後から選びます。本記事は、段階的な移住ロードマップと求人の見極め、そして公的な移住支援金の活用までを、家族を持つ30-40代の現実に即して解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 自然の近くや実家の近くで子育てしたい</li>
               <li>- 都市部の給与を維持したまま地方に移住したい</li>
@@ -126,9 +126,9 @@ export default function RelocationFriendlyPage() {
               </thead>
               <tbody>
                 {[
-                  { type: "① 短期トライアル", desc: "ワーケーション・お試し移住で数週間〜数か月暮らす", note: "回線速度・生活インフラ・気候への適応" },
-                  { type: "② 二拠点生活", desc: "平日は地方・月数回だけ都市部に出社、など分散して暮らす", note: "出社頻度の上限・交通費負担・二重家賃" },
-                  { type: "③ 完全移住", desc: "生活基盤を完全に移し、フルリモート等で働き続ける", note: "全国一律給与か・子の転校・配偶者の就業" },
+                  { type: "① 短期トライアル", desc: "ワーケーション・お試し移住で数週間〜数か月暮らします", note: "回線速度・生活インフラ・気候への適応" },
+                  { type: "② 二拠点生活", desc: "平日は地方・月数回だけ都市部に出社、など分散して暮らします", note: "出社頻度の上限・交通費負担・二重家賃" },
+                  { type: "③ 完全移住", desc: "生活基盤を完全に移し、フルリモート等で働き続けます", note: "全国一律給与か・子の転校・配偶者の就業" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -145,7 +145,7 @@ export default function RelocationFriendlyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">2. 移住OK求人の見極めポイント</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "「居住地不問」が明記されているか", desc: "『全国どこでも可』『居住地不問』と求人票に書かれているか。書かれていない場合、実は関東圏限定というケースもあります。" },
+              { num: "1", title: "「居住地不問」が明記されているか", desc: "『全国どこでも可』『居住地不問』と求人票に書かれているか。書かれていない場合、関東圏限定というケースもあります。" },
               { num: "2", title: "全国一律給与かどうか", desc: "移住先の物価で給与が調整されるのか、全国一律なのか。移住後の給与改定の有無も確認します。" },
               { num: "3", title: "月の出社頻度の上限", desc: "完全リモートか、月1回・四半期1回の出社があるか。二拠点・遠方移住では、この頻度と交通アクセスが死活的です。" },
               { num: "4", title: "通信・交通インフラ", desc: "移住先の回線速度（在宅勤務に耐えるか）、最寄り空港・新幹線駅までのアクセス（出社に耐えるか）を事前に確認します。" },
@@ -170,8 +170,8 @@ export default function RelocationFriendlyPage() {
             移住を後押しする公的制度として、内閣官房・内閣府が推進する<strong>移住支援金</strong>があります。これはエンジニアの移住・転職と非常に相性が良い制度です。
           </p>
           <ul className="space-y-2 text-sm text-slate-700 mb-3">
-            <li>- <strong>支給額：</strong>世帯で最大100万円以内、単身で最大60万円以内。さらに18歳未満の子ども1人につき最大100万円が加算されます。</li>
-            <li>- <strong>対象者：</strong>東京23区在住者、または東京圏（一定地域）から23区へ通勤していた人が、東京圏外へ移住すること。</li>
+            <li>- <strong>支給額：</strong>世帯で最大100万円以内、単身で最大60万円以内です。さらに18歳未満の子ども1人につき最大100万円が加算されます。</li>
+            <li>- <strong>対象者：</strong>東京23区在住者、または東京圏（一定地域）から23区へ通勤していた人が、東京圏外へ移住することが重要です。</li>
             <li>- <strong>要件：</strong>移住先で対象求人に就業／移住前の業務をテレワークで継続／起業のいずれか。</li>
           </ul>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
@@ -188,13 +188,13 @@ export default function RelocationFriendlyPage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">4. 30-40代ミドルの現実的コスト</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
-            移住は夢のある選択ですが、家族を持つミドルには現実的なコストと制約があります。正直に整理します。
+            移住は夢のある選択ですが、家族を持つミドルには現実的なコストと制約があります。整理します。
           </p>
           <ul className="space-y-2 text-sm text-slate-700 mb-3">
             <li>- <strong>子の転校：</strong>学齢期の子どもがいると、転校のタイミング・学習環境・友人関係が大きな検討事項になります。受験を控える時期は特に慎重に。</li>
             <li>- <strong>配偶者のキャリア：</strong>パートナーが移住先で働けるか、世帯収入をどう維持するか。配偶者が在宅勤務に切り替えられるかも鍵です。</li>
             <li>- <strong>二拠点コスト：</strong>完全移住でなく二拠点を選ぶ場合、家賃・光熱費・交通費が二重にかかります。月数回の出社でも交通費がかさめば、移住で浮いた家賃を相殺しかねません。</li>
-            <li>- <strong>インフラの確認：</strong>地方では回線速度や交通アクセスが都市部と大きく異なる場合があります。移住前のお試し滞在で必ず実地確認を。</li>
+            <li>- <strong>インフラの確認：</strong>地方では回線速度や交通アクセスが都市部と大きく異なる場合があります。移住前のお試し滞在で必ず実地ご確認ください。</li>
           </ul>
           <p className="text-sm text-slate-700 leading-relaxed">
             こうしたコストを踏まえても、移住支援金や全国一律給与をうまく組み合わせれば、世帯の生活満足度を上げながら収入を維持することは十分に可能です。働き方の選択肢として、

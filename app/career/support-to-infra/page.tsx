@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/career/support-to-infra/" },
-  title: "サポート→インフラエンジニアへの転職完全ガイド【2026年版】",
+  title: "サポート→インフラエンジニアへの転職ガイド【2026年版】",
   description:
     "ヘルプデスク・ITサポートからインフラエンジニアへ転職するための現実性、スキルギャップ比較、資格、在職中の準備、職務経歴書のBefore/After例文を解説します。",
 };
@@ -29,31 +29,31 @@ const gapRows = [
     area: "OS / サーバー",
     sup: "Windows/Active Directoryの運用・問い合わせ対応",
     infra: "Linuxサーバーの構築・運用ができる",
-    action: "LinuxとLPIC/LinuC Level 1の基礎を固める",
+    action: "LinuxとLPIC/LinuC Level 1の基礎を固めます",
   },
   {
     area: "ネットワーク",
     sup: "接続トラブルの一次対応・切り分け",
     infra: "設計・構築まで踏み込む（TCP/IP・DNS・FW）",
-    action: "ネットワーク基礎とCCNA相当の知識を学ぶ",
+    action: "ネットワーク基礎とCCNA相当の知識を学びます",
   },
   {
     area: "クラウド",
     sup: "クラウドサービスの利用者サポートが中心",
     infra: "AWS/GCP等を自分で設計・構築する",
-    action: "AWS SAAを取得し実際に構築経験を作る",
+    action: "AWS SAAを取得し実際に構築経験を作ります",
   },
   {
     area: "自動化 / IaC",
     sup: "手作業の運用が中心",
     infra: "Terraform/Ansibleでインフラをコード化",
-    action: "Bash/PythonとIaCの基礎を学ぶ",
+    action: "Bash/PythonとIaCの基礎を学びます",
   },
   {
     area: "監視 / 運用",
     sup: "障害の受付・エスカレーションに強い",
     infra: "監視設計・運用自動化まで担う",
-    action: "監視ツールの設計・運用に触れる",
+    action: "監視ツールの設計・運用に触れます",
   },
   {
     area: "強み（活かせる）",
@@ -125,13 +125,13 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。クラウド・インフラ系の求人を扱い、技術背景を理解したアドバイザーが在籍するとされます（出典：レバテック公式ガイド、転職メディア集計）。",
+      "IT/Web特化型です。クラウド・インフラ系の求人を扱い、技術背景を理解したアドバイザーが在籍するとされます（出典：レバテック公式ガイド、転職メディア集計）。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "国内最大級の求人数を持つハイブリッド型。IT・通信エンジニア求人を幅広く扱い、大手SIerからMSPまでカバーします。求人量を重視する場合の軸になります。",
+      "国内最大級の求人数を持つハイブリッド型です。IT・通信エンジニア求人を幅広く扱い、大手SIerからMSPまでカバーします。求人量を重視する場合の軸になります。",
   },
 ];
 
@@ -142,7 +142,7 @@ const faqs = [
   },
   {
     q: "インフラエンジニアに必要な資格は？",
-    a: "まずLPIC Level 1またはLinuC Level 1でLinuxの基礎を固め、次にAWS SAA（ソリューションアーキテクト アソシエイト）でクラウドの裏付けを作るのが王道です。ネットワーク寄りを目指すならCCNAも有効です。資格は実構築経験とセットで効果を発揮します。",
+    a: "まずLPIC Level 1またはLinuC Level 1でLinuxの基礎を固め、次にAWS SAA（ソリューションアーキテクト アソシエイト）でクラウドの裏付けを作るのが一般的です。ネットワーク寄りを目指すならCCNAも有効です。資格は実構築経験とセットで効果を発揮します。",
   },
   {
     q: "年収はどれくらい変わる？",
@@ -180,7 +180,7 @@ export default function SupportToInfraPage() {
   return (
     <>
       <ArticleJsonLd
-        title="サポート→インフラエンジニアへの転職完全ガイド【2026年版】"
+        title="サポート→インフラエンジニアへの転職ガイド【2026年版】"
         description="ヘルプデスク・ITサポートからインフラエンジニアへ転職するための現実性、スキルギャップ比較、資格、在職中の準備、職務経歴書のBefore/After例文を解説します。"
         url="/career/support-to-infra/"
       />
@@ -198,7 +198,7 @@ export default function SupportToInfraPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          サポート→インフラエンジニアへの転職完全ガイド【2026年版】
+          サポート→インフラエンジニアへの転職ガイド【2026年版】
         </h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月</p>
 
@@ -239,12 +239,12 @@ export default function SupportToInfraPage() {
               サポートからインフラエンジニアへの転身は、現実性の高いキャリアパスです。理由は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① ネットワーク・OS知識と障害対応経験が、インフラの基礎としてそのまま活きる。</li>
-              <li>② LPIC/LinuC・AWS SAAなど資格で実力を裏付けやすく、未経験扱いを避けやすい。</li>
-              <li>③ IT人材は構造的不足が続く見通しで（経産省2019年公表試算では2030年に最大約79万人不足）、インフラ・クラウドの受け皿は広い。</li>
+              <li>① ネットワーク・OS知識と障害対応経験が、インフラの基礎としてそのまま活きます。</li>
+              <li>② LPIC/LinuC・AWS SAAなど資格で実力を裏付けやすく、未経験扱いを避けやすいです。</li>
+              <li>③ IT人材は構造的不足が続く見通しで（経産省2019年公表試算では2030年に最大約79万人不足）、インフラ・クラウドの受け皿は広いです。</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
-              鍵は、資格学習だけで終わらせず「自分で構築した経験」を作ること。まずはMSPや運用ポジションから入り、構築側へステップアップする道筋が現実的です。
+              鍵は、資格学習だけで終わらせず「自分で構築した経験」を作ることが重要です。まずはMSPや運用ポジションから入り、構築側へステップアップする道筋が現実的です。
             </p>
           </div>
         </section>
@@ -356,10 +356,10 @@ export default function SupportToInfraPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-5">
             <p className="font-bold text-slate-700 text-sm mb-2">翻訳のポイント</p>
             <ul className="space-y-1.5 text-sm text-slate-600">
-              <li>・「対応した」→「何を改善し、復旧時間・誤検知をどれだけ減らせたか」を添える（数値は実績の範囲で）</li>
-              <li>・AD管理・障害切り分け・監視運用など、インフラに直結する業務を具体名で書く</li>
-              <li>・取得資格と「自分で構築した経験」を1行入れ、運用だけでなく構築意欲も示す</li>
-              <li>・誇張せず、検証可能な事実ベースで書く</li>
+              <li>・「対応した」→「何を改善し、復旧時間・誤検知をどれだけ減らせたか」を添えます（数値は実績の範囲で）</li>
+              <li>・AD管理・障害切り分け・監視運用など、インフラに直結する業務を具体名で書きます</li>
+              <li>・取得資格と「自分で構築した経験」を1行入れ、運用だけでなく構築意欲も示します</li>
+              <li>・誇張せず、検証可能な事実ベースで書きます</li>
             </ul>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
@@ -377,13 +377,13 @@ export default function SupportToInfraPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
             <li>
-              ・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円</strong>・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）。IT職の一つの参考値です。
+              ・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円</strong>・平均年齢37.1歳です（令和7年賃金構造基本統計調査ベース）。IT職の一つの参考値です。
             </li>
             <li>
-              ・レバテック公表の年代別平均年収（2025年）では、正社員SEで30代約<strong>499万円</strong>、40代約<strong>618万円</strong>。年収1,000万円以上の割合は30代8.01%・40代12.67%。
+              ・レバテック公表の年代別平均年収（2025年）では、正社員SEで30代約<strong>499万円</strong>、40代約<strong>618万円です</strong>。年収1,000万円以上の割合は30代8.01%・40代12.67%です。
             </li>
             <li>
-              ・経済産業省「IT人材需給に関する調査」（2019年3月公表）の試算では、2030年に最大約<strong>79万人</strong>のIT人材不足。インフラ・クラウド人材の需要は底堅い見通しです。
+              ・経済産業省「IT人材需給に関する調査」（2019年3月公表）の試算では、2030年に最大約<strong>79万人</strong>のIT人材不足です。インフラ・クラウド人材の需要は底堅い見通しです。
             </li>
           </ul>
           <p className="text-slate-600 text-sm leading-relaxed">

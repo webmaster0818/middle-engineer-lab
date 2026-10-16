@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/ntt-data/" },
   title: "NTTデータ エンジニア転職ガイド【2026年】年収・選考フロー",
   description:
-    "NTTデータへのエンジニア転職を解説。有報の平均年収(2025年3月期)、国内最大級SIerの採用特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の狙い目を出典付きでまとめました。",
+    "NTTデータへのエンジニア転職を解説します。有価証券報告書の平均年収(2025年3月期)、国内最大級SIerの採用特徴、公式採用ページの選考フロー、口コミ傾向、30代・40代の有力な選択肢を出典付きでまとめました。",
 };
 
 const toc = [
@@ -112,7 +112,7 @@ export default function NttDataCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="NTTデータ エンジニア転職ガイド" description="NTTデータへのエンジニア転職を解説。有報の平均年収(2025年3月期)、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/ntt-data/" />
+      <ArticleJsonLd title="NTTデータ エンジニア転職ガイド" description="NTTデータへのエンジニア転職を解説します。有価証券報告書の平均年収(2025年3月期)、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/ntt-data/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "NTTデータ" }]} />
 
@@ -124,7 +124,7 @@ export default function NttDataCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】NTTデータの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 全社員平均の平均年収は923万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢39.7歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 923万円（2025年3月期 有報、平均年齢39.7歳）。管理職等を含む全社員平均で、職種別の年収を示す値ではありません。</li><li>・東証プライム上場（NTTグループ）の国内最大級SIerで、キャリア採用は注力施策として拡大しています。</li><li>・エンジニア職の個別レンジは非公表。実際の提示額は求人票・オファー面談での確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収 923万円です（2025年3月期 有価証券報告書、平均年齢39.7歳）。管理職等を含む全社員平均で、職種別の年収を示す値ではありません。</li><li>・東証プライム上場（NTTグループ）の国内最大級SIerで、キャリア採用は注力施策として拡大しています。</li><li>・エンジニア職の個別レンジは非公表です。実際の提示額は求人票・オファー面談での確認が必要です。</li></ul>
         </div>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
           NTTデータは、金融・公共・通信といった社会インフラを支える国内最大級のSIerです。本記事では、有価証券報告書の平均年収、公式採用ページの選考フロー、口コミの傾向を出典付きで整理し、30代・40代エンジニアが転職を判断する材料をまとめます。
@@ -146,7 +146,7 @@ export default function NttDataCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんな人向きか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 text-sm leading-relaxed mb-3">
-              <strong>結論：</strong>NTTデータは「社会インフラ級の大規模案件」と「安定した処遇（全社員平均923万円／2025年3月期 有報）」を両立したいエンジニアに向く企業です。人気が高く難易度は高めですが、キャリア採用は注力施策として拡大しています。
+              <strong>結論：</strong>NTTデータは「社会インフラ級の大規模案件」と「安定した処遇（全社員平均923万円／2025年3月期 有価証券報告書）」を両立したいエンジニアに向く企業です。人気が高く難易度は高めですが、キャリア採用は注力施策として拡大しています。
             </p>
             <ul className="space-y-1.5 text-sm text-slate-600">
               <li>・<strong>向いている人</strong>：大規模SI／PMO・PM経験者、金融・公共・通信のドメイン経験者、安定基盤で長期的にキャリアを築きたい人</li>
@@ -188,7 +188,7 @@ export default function NttDataCompanyPage() {
         <section id="tech" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック・領域</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            NTTデータは案件・グループ会社により技術スタックが大きく異なります。公式採用情報・職種紹介で示される代表的な領域は以下の通りです。
+            NTTデータは案件・グループ会社により技術スタックが大きく異なります。公式採用情報・職種紹介で示される代表的な領域は以下のとおりです。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -258,13 +258,13 @@ export default function NttDataCompanyPage() {
               <ul className="space-y-1.5 text-sm text-green-700">
                 <li>・福利厚生が非常に充実しているとの評価</li>
                 <li>・優秀な社員が多く学べる環境という声</li>
-                <li>・テレワーク等の多様な働き方の制度が整う</li>
+                <li>・テレワーク等の多様な働き方の制度が整います</li>
               </ul>
             </div>
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-amber-700">
-                <li>・プロジェクトによっては仕事量が多い</li>
+                <li>・プロジェクトによっては仕事量が多いです</li>
                 <li>・成長機会は配属・案件により個人差</li>
                 <li>・大企業ゆえの調整・手続きの多さの指摘</li>
               </ul>
@@ -280,7 +280,7 @@ export default function NttDataCompanyPage() {
               30代・40代のミドルエンジニアにとってNTTデータは、これまでの大規模SI・PMO/PM・ドメイン経験を活かしやすく、安定基盤で長期的にキャリアを築ける選択肢です。キャリア採用が注力施策として拡大しているため、即戦力としての中途市場価値を評価してもらいやすい時期と言えます。
             </p>
             <p>
-              一方、コードを書き続ける現場志向の人には、規模が大きい分マネジメント・調整業務の比重が上がる点が合うか確認が必要です。年収の絶対額（全社員平均923万円）は高水準ですが全社員平均なので、自分の等級・提示額はオファー面談で必ず確認しましょう。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
+              一方、コードを書き続ける現場志向の人には、規模が大きい分マネジメント・調整業務の比重が上がる点が合うか確認が必要です。年収の絶対額（全社員平均923万円）は高水準ですが全社員平均であるため、自分の等級・提示額はオファー面談で必ず確認しましょう。年代別の相場は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -289,9 +289,9 @@ export default function NttDataCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">NTTデータ転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "大手SIerの求人が充実。書類添削・面接対策が手厚いと評判。" },
-              { name: "doda(IT)", href: "/review/doda-it/", desc: "国内最大級の求人数。NTTグループ各社の求人を幅広く網羅。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でSIerのDX部門・クラウド系ポジションの提案に強み。" },
+              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "大手SIerの求人が充実しています。書類添削・面接対策が手厚いと評判です。" },
+              { name: "doda(IT)", href: "/review/doda-it/", desc: "国内最大級の求人数です。NTTグループ各社の求人を幅広く網羅します。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でSIerのDX部門・クラウド系ポジションの提案に強みがあります。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
@@ -299,7 +299,7 @@ export default function NttDataCompanyPage() {
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数併用のコツ</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数併用のコツ</Link>をご参照ください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Node.jsエンジニアの転職ガイド｜年収・求人・TypeScriptとの違い【2026年】";
 const PAGE_DESC =
-  "Node.jsエンジニアの転職市場を2026年最新の公表データで解説。TypeScript（言語）との違い、Express/NestJSなどのスキルセット、フルスタック親和性、年収1,000万円超の実在、IoT・リアルタイムのユースケースを30代・40代向けにまとめました。";
+  "Node.jsエンジニアの転職市場を2026年最新の公表データで解説します。TypeScript（言語）との違い、Express/NestJSなどのスキルセット、フルスタック親和性、年収1,000万円超の実在、IoT・リアルタイムのユースケースを30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/nodejs/" },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "diff", label: "まず：TypeScript（言語）との違い" },
-  { id: "conclusion", label: "結論：Node.js転職市場の攻め方" },
+  { id: "conclusion", label: "結論：Node.js転職市場での進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "skillset", label: "求められるスキルセット" },
   { id: "fullstack", label: "フロントとバックを繋ぐフルスタック親和性" },
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "フロントエンドからNode.jsへ移行できますか？",
-    a: "相性が良い移行です。JavaScript/TypeScriptの知識をそのまま活かせるため、フロントエンド経験者がNode.jsでバックエンドを学び、フルスタックとして市場価値を高めるルートは王道です。フロントとバックを同じ言語で書けることがNodeの強みで、BFF（Backend for Frontend）やフルスタック求人で評価されます。",
+    a: "相性が良い移行です。JavaScript/TypeScriptの知識をそのまま活かせるため、フロントエンド経験者がNode.jsでバックエンドを学び、フルスタックとして市場価値を高めるルートは代表的な方法です。フロントとバックを同じ言語で書けることがNodeの強みで、BFF（Backend for Frontend）やフルスタック求人で評価されます。",
   },
   {
     q: "Node.jsはどんな場面で使われますか？",
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "40代でもNode.jsエンジニアへ転職できますか？",
-    a: "バックエンドの設計力・チームをまとめる力があれば可能です。ミドル層では、API設計・スケーラビリティ・DB設計の方針決め・若手レビューといった上流要素が評価されます。言語・環境の細かな記法より、システム全体を設計し品質と性能を担保できる経験が、年代を問わず通用する武器になります。",
+    a: "バックエンドの設計力・チームをまとめる力があれば可能です。ミドル層では、API設計・スケーラビリティ・DB設計の方針決め・若手レビューといった上流要素が評価されます。言語・環境の細かな記法より、システム全体を設計し品質と性能を担保できる経験が、年代を問わず通用する強みになります。",
   },
 ];
 
@@ -107,7 +107,7 @@ export default function NodejsSkillPage() {
             "求人ボックス 給料ナビ Webエンジニア / ソフトウェアエンジニア（2026年6月時点・動的値）",
             "マイナビ転職 求人件数（2026年6月時点）",
             "Forkwell 求人情報（2026年6月時点）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -133,8 +133,8 @@ export default function NodejsSkillPage() {
               「Node.js」と「TypeScript」は混同されがちですが、レイヤーが違います。最初にこの整理をしておくと、求人選びと自己PRがぶれません。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li><strong>Node.js</strong>＝JavaScript/TypeScriptを<strong>サーバーサイドで動かす実行環境</strong>。職種としてはバックエンド寄り。</li>
-              <li><strong>TypeScript</strong>＝JavaScriptに型を加えた<strong>プログラミング言語そのもの</strong>。フロントでもバックでも使う。</li>
+              <li><strong>Node.js</strong>＝JavaScript/TypeScriptを<strong>サーバーサイドで動かす実行環境です</strong>。職種としてはバックエンド寄り。</li>
+              <li><strong>TypeScript</strong>＝JavaScriptに型を加えた<strong>プログラミング言語そのものです</strong>。フロントでもバックでも使います。</li>
             </ul>
             <p className="text-slate-700 leading-relaxed mt-3 text-sm">
               つまり「TypeScriptで書いたコードをNode.jsで動かす」という補完関係で、競合しません。本ページは<strong>Node.js（バックエンド環境）</strong>の戦略に絞ります。言語としての型スキルは<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript転職ガイド</Link>を参照してください。
@@ -144,15 +144,15 @@ export default function NodejsSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Node.js転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Node.js転職市場での進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              Node.jsエンジニアの転職は、<strong>「Expressが書ける」から「設計・スケーラビリティ・運用まで担える」へ役割を上げて見せられるか</strong>で年収が大きく変わります。攻め方は次の3点です。
+              Node.jsエンジニアの転職は、<strong>「Expressが書ける」から「設計・スケーラビリティ・運用まで担える」へ役割を上げて見せられるか</strong>で年収が大きく変わります。進め方は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>API設計・DB・Linux・認証</strong>のバックエンド基盤を一通り語れる状態にする</li>
-              <li>② <strong>TypeScript＋NestJS</strong>で型安全・大規模対応の設計力を示す</li>
-              <li>③ <strong>フルスタック親和性</strong>（フロントも書ける）を市場価値として打ち出す</li>
+              <li>① <strong>API設計・DB・Linux・認証</strong>のバックエンド基盤を一通り語れる状態にします</li>
+              <li>② <strong>TypeScript＋NestJS</strong>で型安全・大規模対応の設計力を示します</li>
+              <li>③ <strong>フルスタック親和性</strong>（フロントも書ける）を市場価値として打ち出します</li>
             </ul>
           </div>
         </section>
@@ -161,7 +161,7 @@ export default function NodejsSkillPage() {
         <section id="market" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">市場・年収データ</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Node.js専用の年収統計は確認できていないため、近接区分の参考値で見ます。求人ボックスの数値は次の通りです（2026年6月時点・動的に変動する値のため参考。Node専用ではなく近接区分の代用です）。
+            Node.js専用の年収統計は確認できていないため、近接区分の参考値で見ます。求人ボックスの数値は次のとおりです（2026年6月時点・動的に変動する値のため参考。Node専用ではなく近接区分の代用です）。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -187,7 +187,7 @@ export default function NodejsSkillPage() {
             一方で高年収帯も実在します。マイナビ転職では「Node.js・初年度年収1,000万円以上」の求人が<strong>約440件</strong>（2026年6月時点）、Forkwellでは年収上限に最高<strong>2,020万円</strong>クラスの提示も見られます（2026年6月時点）。ただしこれらは高スキル・上流ポジションが前提で、平均値とは別物として捉えてください。
           </p>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: 平均は求人ボックス給料ナビ（2026年6月時点・動的値・参考）。高年収求人件数はマイナビ転職、上限提示はForkwell（いずれも2026年6月時点・閲覧時点で変動）。これらは単一の確定値ではなく、役割・スキルで上下する目安です。市場全体では経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しています。
+            出典: 平均は求人ボックス給料ナビ（2026年6月時点・動的値・参考）。高年収求人件数はマイナビ転職、上限提示はForkwellです（いずれも2026年6月時点・閲覧時点で変動）。これらは単一の確定値ではなく、役割・スキルで上下する目安です。市場全体では経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しています。
           </p>
         </section>
 
@@ -199,11 +199,11 @@ export default function NodejsSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "フレームワーク（Express / NestJS）", d: "Expressは軽量で定番、NestJSはTypeScript前提・大規模向けの構造化フレームワーク。求人ではNestJSの需要が伸びている。" },
-              { t: "API設計（REST / GraphQL）", d: "リソース設計、認可、バージョニング。GraphQLのスキーマ設計も求められる現場が増加。" },
-              { t: "データベース", d: "RDB（PostgreSQL/MySQL）とNoSQL（MongoDB等）、ORM/クエリ設計、パフォーマンスチューニング。" },
-              { t: "Linux・運用", d: "サーバOSの基本操作、プロセス管理、ログ、デプロイ。Node特有の非同期・イベントループ理解も必須。" },
-              { t: "認証・認可", d: "JWT・OAuth・セッション管理など。セキュリティ要件を満たす設計力が評価される。" },
+              { t: "フレームワーク（Express / NestJS）", d: "Expressは軽量で定番、NestJSはTypeScript前提・大規模向けの構造化フレームワークです。求人ではNestJSの需要が伸びています。" },
+              { t: "API設計（REST / GraphQL）", d: "リソース設計、認可、バージョニングです。GraphQLのスキーマ設計も求められる現場が増加しています。" },
+              { t: "データベース", d: "RDB（PostgreSQL/MySQL）とNoSQL（MongoDB等）、ORM/クエリ設計、パフォーマンスチューニングです。" },
+              { t: "Linux・運用", d: "サーバOSの基本操作、プロセス管理、ログ、デプロイです。Node特有の非同期・イベントループ理解も必須です。" },
+              { t: "認証・認可", d: "JWT・OAuth・セッション管理などです。セキュリティ要件を満たす設計力が評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -240,10 +240,10 @@ export default function NodejsSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "リアルタイム通信", d: "チャット、通知、WebSocketを使う双方向通信。多数の同時接続を効率よくさばける。" },
-              { t: "API / BFF", d: "フロント向けに最適化したAPI層（BFF）。フロントと同じ言語で書ける利点が活きる。" },
-              { t: "マイクロサービス", d: "軽量なサービスを多数構成する設計。起動の速さ・コンテナ親和性が強み。" },
-              { t: "IoT・データ処理", d: "センサーデータの収集・中継などI/O中心の処理。逆にCPU負荷の高い計算は不得意な面もある。" },
+              { t: "リアルタイム通信", d: "チャット、通知、WebSocketを使う双方向通信です。多数の同時接続を効率よくさばけます。" },
+              { t: "API / BFF", d: "フロント向けに最適化したAPI層です（BFF）。フロントと同じ言語で書ける利点が活きます。" },
+              { t: "マイクロサービス", d: "軽量なサービスを多数構成する設計です。起動の速さ・コンテナ親和性が強みです。" },
+              { t: "IoT・データ処理", d: "センサーデータの収集・中継などI/O中心の処理です。逆にCPU負荷の高い計算は不得意な面もあります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -261,9 +261,9 @@ export default function NodejsSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "実務1〜3年層（API実装）", d: "Express等でのAPI実装、DB操作、基本的な認証。チームの一員として機能を作れる層。" },
-              { t: "実務3〜6年層（設計・性能）", d: "NestJSでの構造化、スキーマ設計、非同期処理の最適化、テスト・CI/CD。年収帯が一段上がる中核ゾーン。" },
-              { t: "実務6年以上層（リード・アーキテクト）", d: "システム全体設計、スケーラビリティ、マイクロサービス分割、技術選定。1,000万円超帯はこの層が中心。" },
+              { t: "実務1〜3年層（API実装）", d: "Express等でのAPI実装、DB操作、基本的な認証です。チームの一員として機能を作れる層です。" },
+              { t: "実務3〜6年層（設計・性能）", d: "NestJSでの構造化、スキーマ設計、非同期処理の最適化、テスト・CI/CDです。年収帯が一段上がる中核ゾーンです。" },
+              { t: "実務6年以上層（リード・アーキテクト）", d: "システム全体設計、スケーラビリティ、マイクロサービス分割、技術選定です。1,000万円超帯はこの層が中心です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -282,17 +282,17 @@ export default function NodejsSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化。Node.js/NestJSの自社開発・フルスタック求人を技術に明るいアドバイザー経由で探せます。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化です。Node.js/NestJSの自社開発・フルスタック求人を技術に明るいアドバイザー経由で探せます。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-slate-600 mb-2">ハイクラス（年収750万円以上が一つの目安）・スカウト型。1,000万円超を狙うリード・アーキテクト層に有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">ハイクラス（年収750万円以上が一つの目安）・スカウト型です。1,000万円超を狙うリード・アーキテクト層に有効です。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
-              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数。幅広く比較し、母数を確保したい場合の併用先です。</p>
+              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数です。幅広く比較し、母数を確保したい場合の併用先です。</p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -337,7 +337,7 @@ export default function NodejsSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Node.jsスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Node.js/NestJSの自社開発・フルスタック求人に強いIT特化型エージェントで、あなたのバックエンドスキルの市場価値を確認しましょう。
+            Node.js/NestJSの自社開発・フルスタック求人に強いIT特化型エージェントで、ご自身のバックエンドスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

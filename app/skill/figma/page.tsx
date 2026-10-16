@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/figma/" },
   title: "Figmaスキルの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Figmaスキルを軸にした転職市場を出典付きで解説。UIデザイン・フロントエンド連携での用途、UIデザイナー職種としての年収相場、エンジニアより設計寄りである点も正直に整理。求人の探し方と30代・40代の戦い方をミドル向けにまとめます。",
+    "Figmaスキルを軸にした転職市場を出典付きで解説。UIデザイン・フロントエンド連携での用途、UIデザイナー職種としての年収相場、エンジニアより設計寄りである点も整理します。求人の探し方と30代・40代の進め方をミドル向けにまとめます。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Figmaスキルの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：Figmaスキルの転職市場での進め方" },
   { id: "market", label: "2. 年収・市場データ（出典付き）" },
   { id: "use", label: "3. Figmaの用途と求人傾向" },
   { id: "level", label: "4. 求められる経験レベルと求人要件" },
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "Figmaはエンジニアのスキルですか、デザイナーのスキルですか？",
-    a: "Figmaは主にUIデザイナー・UI/UXデザイナーが使うデザインツールで、職種としてはエンジニアよりデザイナー寄りです。エンジニアにとっては「デザインを実装する際にデザインデータを読み取り、開発モードで仕様を確認する」という連携の文脈で使うのが一般的です。フロントエンドエンジニアがデザインの基礎としてFigmaを扱えると価値が上がりますが、Figmaを主軸にするキャリアはデザイナー職になる点を正直に押さえておくことが重要です。",
+    a: "Figmaは主にUIデザイナー・UI/UXデザイナーが使うデザインツールで、職種としてはエンジニアよりデザイナー寄りです。エンジニアにとっては「デザインを実装する際にデザインデータを読み取り、開発モードで仕様を確認する」という連携の文脈で使うのが一般的です。フロントエンドエンジニアがデザインの基礎としてFigmaを扱えると価値が上がりますが、Figmaを主軸にするキャリアはデザイナー職になる点を押さえておくことが重要です。",
   },
   {
     q: "Figmaはどんな場面で使われていますか？",
@@ -70,7 +70,7 @@ export default function FigmaSkillPage() {
     <>
       <ArticleJsonLd
         title="Figmaスキルの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Figmaスキルを軸にした転職市場を出典付きで解説。UIデザイン・フロントエンド連携での用途、UIデザイナー職種としての年収相場、エンジニアより設計寄りである点も正直に整理。求人の探し方と30代・40代の戦い方をミドル向けにまとめます。"
+        description="Figmaスキルを軸にした転職市場を出典付きで解説。UIデザイン・フロントエンド連携での用途、UIデザイナー職種としての年収相場、エンジニアより設計寄りである点も整理します。求人の探し方と30代・40代の進め方をミドル向けにまとめます。"
         url="/skill/figma/"
       />
       <script
@@ -98,7 +98,7 @@ export default function FigmaSkillPage() {
             Figmaは、Web・アプリのUIデザインやプロトタイプを作成するクラウドベースのデザインツールです。複数人が同時編集でき、デザイナーとエンジニアの協業の標準になっています。重要なのは、<strong>Figmaは職種としてはエンジニアよりデザイナー寄りのスキル</strong>だという点です。エンジニアにとっては「デザインを実装する際の連携ツール」として位置づくのが一般的です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、Figmaスキルを軸にした転職の「攻め方」を、<strong>公表年収データ・用途と求人傾向・エンジニアとデザイナーの境界・関連技術・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて正直に整理します。
+            本記事では、Figmaスキルを軸にした転職の「進め方」を、<strong>公表年収データ・用途と求人傾向・エンジニアとデザイナーの境界・関連技術・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
           </p>
         </section>
 
@@ -127,15 +127,15 @@ export default function FigmaSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Figmaスキルの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Figmaスキルの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Figmaは「デザイナー職の主軸スキル」であり、エンジニアにとっては「フロントエンドに掛け合わせる強み」です。</strong>どちらの軸でキャリアを描くかを最初に決めるのが攻め方の起点になります。
+              <strong>Figmaは「デザイナー職の主軸スキル」であり、エンジニアにとっては「フロントエンドに掛け合わせる強み」です。</strong>どちらの軸でキャリアを描くかを最初に決めるのが進め方の起点になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Figma単体の公表年収は乏しいため、<strong>UIデザイナー等の職種年収で代替</strong>して捉えるのが実態（UIデザイナー平均約648万円）</li>
-              <li>・職種としては<strong>エンジニアよりデザイナー寄り</strong>。Figmaを主軸にするならデザイナー職になる点を正直に押さえる</li>
-              <li>・エンジニアは<strong>フロントエンド実装＋デザイン理解</strong>の掛け合わせで、両職種の橋渡し役として価値が上がる</li>
+              <li>・職種としては<strong>エンジニアよりデザイナー寄り</strong>。Figmaを主軸にするならデザイナー職になる点を押さえます</li>
+              <li>・エンジニアは<strong>フロントエンド実装＋デザイン理解</strong>の掛け合わせで、両職種の橋渡し役として価値が上がります</li>
             </ul>
           </div>
         </section>
@@ -182,10 +182,10 @@ export default function FigmaSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { use: "UIデザイン・ワイヤーフレーム", note: "Web・アプリの画面設計。デザイナー職の中核業務" },
-              { use: "プロトタイピング", note: "画面遷移やインタラクションの試作。ユーザビリティ検証" },
-              { use: "デザインシステム構築", note: "コンポーネント・トークンの体系化。フロントと親和性が高い" },
-              { use: "デザインハンドオフ（開発連携）", note: "開発者向けモードで仕様確認。エンジニアが使う主な場面" },
+              { use: "UIデザイン・ワイヤーフレーム", note: "Web・アプリの画面設計です。デザイナー職の中核業務" },
+              { use: "プロトタイピング", note: "画面遷移やインタラクションの試作です。ユーザビリティ検証" },
+              { use: "デザインシステム構築", note: "コンポーネント・トークンの体系化です。フロントと親和性が高いです" },
+              { use: "デザインハンドオフ（開発連携）", note: "開発者向けモードで仕様確認です。エンジニアが使う主な場面" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.use}</h3>
@@ -224,9 +224,9 @@ export default function FigmaSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "UIデザイナー／UI・UXデザイナー", note: "Figmaを主軸にした画面設計・体験設計。デザイナー職の王道" },
-              { role: "デザインエンジニア", note: "UI/UX設計＋フロントエンド実装。デザインとコードを横断する希少職" },
-              { role: "フロントエンドエンジニア（デザイン理解あり）", note: "Figmaを読み取り高品質に実装。デザイナーとの協業が円滑" },
+              { role: "UIデザイナー／UI・UXデザイナー", note: "Figmaを主軸にした画面設計・体験設計です。デザイナー職の代表的な方法" },
+              { role: "デザインエンジニア", note: "UI/UX設計＋フロントエンド実装です。デザインとコードを横断する希少職" },
+              { role: "フロントエンドエンジニア（デザイン理解あり）", note: "Figmaを読み取り高品質に実装します。デザイナーとの協業が円滑" },
               { role: "デザインシステムエンジニア", note: "Figmaのコンポーネントとコードのデザインシステムを整備・運用" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -250,21 +250,21 @@ export default function FigmaSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、フロントエンドやデザイン領域に踏み込んで話せるアドバイザーが在籍。エンジニア×デザインの求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、フロントエンドやデザイン領域に踏み込んで話せるアドバイザーが在籍しています。エンジニア×デザインの求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                年収750万円以上を中心としたハイクラス・スカウト型。デザインエンジニアやリードデザイナー級の求人・スカウトに出会いやすいのが特徴です。
+                年収750万円以上を中心としたハイクラス・スカウト型です。デザインエンジニアやリードデザイナー級の求人・スカウトに出会いやすいのが特徴です。
               </p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で、提案スピードが強み。FigmaやデザインシステムにこだわるWeb系・スタートアップの求人を探したい場合の選択肢になります。
+                IT・Web・ゲーム業界専門で、提案スピードが強みです。FigmaやデザインシステムにこだわるWeb系・スタートアップの求人を探したい場合の選択肢になります。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -301,13 +301,13 @@ export default function FigmaSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>「橋渡し役」は年齢の不利を相殺しやすい。</strong>デザインとエンジニアリングの両方を理解し、チームの協業を円滑にできる人材は希少です。30代・40代でフロントエンド実装とデザイン理解の両方を積んでいるなら、それが強い差別化になります。
+              <strong>「橋渡し役」は年齢の不利を相殺しやすいです。</strong>デザインとエンジニアリングの両方を理解し、チームの協業を円滑にできる人材は希少です。30代・40代でフロントエンド実装とデザイン理解の両方を積んでいるなら、それが強い差別化になります。
             </p>
             <p>
-              <strong>軸の選択は正直に。</strong>Figmaを主軸に未経験からUIデザイナーへ転身する場合、デザインの実績やポートフォリオが必須で、年齢に対して相応の完成度が求められます。一方、フロントエンドエンジニアとしてデザイン理解を加える道なら、これまでの実務を活かしやすく現実的です。
+              <strong>軸の選択は率直に。</strong>Figmaを主軸に未経験からUIデザイナーへ転身する場合、デザインの実績やポートフォリオが必須で、年齢に対して相応の完成度が求められます。一方、フロントエンドエンジニアとしてデザイン理解を加える道なら、これまでの実務を活かしやすく現実的です。
             </p>
             <p>
-              <strong>体験設計の視点は資産になる。</strong>ユーザー体験や事業課題を理解したうえでUIを設計・実装できる視点は、年齢を重ねたミドル層の強みになります。デザインの良し悪しを事業価値と結びつけて語れると説得力が増します。
+              <strong>体験設計の視点は資産になります。</strong>ユーザー体験や事業課題を理解したうえでUIを設計・実装できる視点は、年齢を重ねたミドル層の強みになります。デザインの良し悪しを事業価値と結びつけて語れると説得力が増します。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -320,13 +320,13 @@ export default function FigmaSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① Figmaの基本操作と開発者向けモードを学ぶ。</strong>エンジニアならまず、デザインを正確に読み取れる開発者向けモードの使い方、コンポーネント・オートレイアウト・バリアントといった基礎を押さえるのが近道です。
+              <strong>① Figmaの基本操作と開発者向けモードを学びます。</strong>エンジニアならまず、デザインを正確に読み取れる開発者向けモードの使い方、コンポーネント・オートレイアウト・バリアントといった基礎を押さえるのが近道です。
             </p>
             <p>
-              <strong>② デザインシステムの考え方を学ぶ。</strong>Figmaのコンポーネントとコード（React・Vue）のコンポーネントは設計思想が近いため、デザインシステムを学ぶとデザインとフロントの両方に効きます。フロントエンド実装と結びつけると強みになります。
+              <strong>② デザインシステムの考え方を学びます。</strong>Figmaのコンポーネントとコード（React・Vue）のコンポーネントは設計思想が近いため、デザインシステムを学ぶとデザインとフロントの両方に効きます。フロントエンド実装と結びつけると強みになります。
             </p>
             <p>
-              <strong>③ UI/UXとユーザー体験を理解する。</strong>ツール操作よりも、なぜそのUIにするのかという体験設計の視点が長期的に通用します。生成AIによるUI生成が進むほど、設計判断ができる人材の価値が高まります。
+              <strong>③ UI/UXとユーザー体験を理解します。</strong>ツール操作よりも、なぜそのUIにするのかという体験設計の視点が長期的に通用します。生成AIによるUI生成が進むほど、設計判断ができる人材の価値が高まります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -373,7 +373,7 @@ export default function FigmaSkillPage() {
               { name: "Vueエンジニアの転職ガイド", href: "/skill/vue/" },
               { name: "UI/UXデザイナーへのキャリア", href: "/knowledge/uiux/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

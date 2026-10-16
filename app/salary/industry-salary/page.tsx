@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "業界別 IT・テック企業の年収ランキング【2026年・有報準拠】半導体/電機/通信/ゲーム/Web系を比較";
 const PAGE_DESC =
-  "IT・テック企業43社の有価証券報告書の平均年収を、半導体・電子部品／総合電機・精密／通信／自動車／ゲーム・エンタメ／Web・ネット・SaaSの業界別に分類して比較。どの業界が稼げるか、業界ごとの代表企業と平均年収を出典付き（有報）で一覧化したエンジニア向けの年収データベースです。";
+  "IT・テック企業43社の有価証券報告書の平均年収を、半導体・電子部品／総合電機・精密／通信／自動車／ゲーム・エンタメ／Web・ネット・SaaSの業界別に分類して比較します。どの業界が稼げるか、業界ごとの代表企業と平均年収を出典付き（有価証券報告書）で一覧化したエンジニア向けの年収データベースです。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/industry-salary/" },
@@ -17,11 +17,11 @@ export const metadata: Metadata = {
 type Co = { name: string; slug: string; salary: number };
 type Industry = { key: string; name: string; avg: number; note: string; companies: Co[] };
 
-// 有報の平均年間給与（全従業員平均）を業界で分類。各社の数値・決算期は企業別ランキング参照。
+// 有価証券報告書の平均年間給与（全従業員平均）を業界で分類します。各社の数値・決算期は企業別ランキング参照します。
 const industries: Industry[] = [
   {
     key: "semicon", name: "半導体・電子部品・計測機器", avg: 1086,
-    note: "FA・センサー・半導体製造装置・電子部品など。利益率が高く平均年齢も高めで、有報平均は全業界トップ水準。",
+    note: "FA・センサー・半導体製造装置・電子部品などです。利益率が高く平均年齢も高めで、有価証券報告書平均は全業界トップ水準です。",
     companies: [
       { name: "キーエンス", slug: "keyence", salary: 2039 },
       { name: "東京エレクトロン", slug: "tokyo-electron", salary: 1354 },
@@ -33,7 +33,7 @@ const industries: Industry[] = [
   },
   {
     key: "electronics", name: "総合電機・精密メーカー", avg: 997,
-    note: "ソニー・日立など総合電機/精密。組込み・制御・研究開発の比重が大きく、安定して高水準。",
+    note: "ソニー・日立など総合電機/精密です。組込み・制御・研究開発の比重が大きく、安定して高水準です。",
     companies: [
       { name: "富士フイルム", slug: "fujifilm", salary: 1124 },
       { name: "ソニーグループ", slug: "sony", salary: 1118 },
@@ -45,7 +45,7 @@ const industries: Industry[] = [
   },
   {
     key: "telecom", name: "通信キャリア", avg: 979,
-    note: "NTT・KDDI・ソフトバンク。インフラ・大規模システムの安定基盤で高水準。",
+    note: "NTT・KDDI・ソフトバンクです。インフラ・大規模システムの安定基盤で高水準です。",
     companies: [
       { name: "NTT（日本電信電話）", slug: "ntt", salary: 1069 },
       { name: "KDDI", slug: "kddi", salary: 1018 },
@@ -54,7 +54,7 @@ const industries: Industry[] = [
   },
   {
     key: "auto", name: "自動車・車載", avg: 923,
-    note: "車載ソフト・制御の需要が拡大。大手は平均年齢が高く有報平均も高め。",
+    note: "車載ソフト・制御の需要が拡大しています。大手は平均年齢が高く有価証券報告書平均も高めです。",
     companies: [
       { name: "トヨタ自動車", slug: "toyota", salary: 983 },
       { name: "デンソー", slug: "denso", salary: 863 },
@@ -62,7 +62,7 @@ const industries: Industry[] = [
   },
   {
     key: "game", name: "ゲーム・エンタメ", avg: 884,
-    note: "ゲーム・出版・エンタメ。ヒット次第で変動はあるが、大手は高水準を維持。",
+    note: "ゲーム・出版・エンタメです。ヒット次第で変動はあるが、大手は高水準を維持します。",
     companies: [
       { name: "バンダイナムコ", slug: "bandai-namco", salary: 1216 },
       { name: "任天堂", slug: "nintendo", salary: 966 },
@@ -76,7 +76,7 @@ const industries: Industry[] = [
   },
   {
     key: "web", name: "Web・ネット・SaaS", avg: 796,
-    note: "メガベンチャー〜SaaSスタートアップ。有報は全社平均かつ平均年齢が若いため数値は中位に出るが、エンジニアの提示レンジ上限は高い傾向。",
+    note: "メガベンチャー〜SaaSスタートアップです。有価証券報告書は全社平均かつ平均年齢が若いため数値は中位に出るが、エンジニアの提示レンジ上限は高い傾向です。",
     companies: [
       { name: "メルカリ", slug: "mercari", salary: 1176 },
       { name: "リクルート", slug: "recruit", salary: 1145 },
@@ -102,11 +102,11 @@ const industries: Industry[] = [
 const faqs = [
   {
     q: "IT・テックでどの業界が一番年収が高いですか？",
-    a: "当サイト掲載企業の有価証券報告書（平均年間給与）を業界別に集計すると、半導体・電子部品・計測機器が約1,086万円で最も高く、次いで総合電機・精密（約997万円）、通信キャリア（約979万円）が続きます。利益率が高く平均年齢も高めの製造・インフラ系が、有報平均では上位に出る傾向です。",
+    a: "当サイト掲載企業の有価証券報告書（平均年間給与）を業界別に集計すると、半導体・電子部品・計測機器が約1,086万円で最も高く、次いで総合電機・精密（約997万円）、通信キャリア（約979万円）が続きます。利益率が高く平均年齢も高めの製造・インフラ系が、有価証券報告書平均では上位に出る傾向です。",
   },
   {
     q: "Web・SaaS系は年収が低いのですか？",
-    a: "有報の平均（約796万円）では中位に見えますが、これは全社平均かつ平均年齢が若いことが大きく影響しています。メルカリ1,176万円・リクルート1,145万円のように高水準の企業もあり、エンジニア職の提示年収レンジ上限はむしろ高い傾向です。平均額だけでなく、職種別・スキル別のレンジも併せて見るのが実務的です。",
+    a: "有価証券報告書の平均（約796万円）では中位に見えますが、これは全社平均かつ平均年齢が若いことが大きく影響しています。メルカリ1,176万円・リクルート1,145万円のように高水準の企業もあり、エンジニア職の提示年収レンジ上限はむしろ高い傾向です。平均額だけでなく、職種別・スキル別のレンジも併せて見るのが実務的です。",
   },
   {
     q: "この業界別年収はエンジニアの年収ですか？",
@@ -134,13 +134,13 @@ export default function IndustrySalaryPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">業界別 IT・テック企業の年収ランキング【2026年・有報準拠】</h1>
         <p className="text-slate-600 leading-relaxed mb-4">
-          「どの業界が稼げるのか」を、当サイト掲載のIT・テック企業43社の<strong>有価証券報告書（平均年間給与）を業界別に分類</strong>して比較しました。半導体・電機・通信・自動車・ゲーム・Web/SaaSの<strong>業界ごとの平均年収と代表企業</strong>を、出典が明確な有報の公表値だけで一覧化しています。
+          「どの業界が稼げるのか」を、当サイト掲載のIT・テック企業43社の<strong>有価証券報告書（平均年間給与）を業界別に分類</strong>して比較しました。半導体・電機・通信・自動車・ゲーム・Web/SaaSの<strong>業界ごとの平均年収と代表企業</strong>を、出典が明確な有価証券報告書の公表値だけで一覧化しています。
         </p>
         <DataNote surveyedAt="2026年6月" sources={["各社 有価証券報告書（平均年間給与・全従業員平均）を業界別に集計"]} />
-        <p className="text-xs text-slate-500 mb-8">※有報の平均年間給与は全従業員平均（管理部門・工場勤務者等を含む）であり、エンジニア職単体の平均ではありません。業界平均は当サイト掲載企業の単純平均で、業界全体の平均ではない点にご注意ください。</p>
+        <p className="text-xs text-slate-500 mb-8">※有価証券報告書の平均年間給与は全従業員平均（管理部門・工場勤務者等を含む）であり、エンジニア職単体の平均ではありません。業界平均は当サイト掲載企業の単純平均で、業界全体の平均ではない点にご注意ください。</p>
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-slate-800 mb-3">業界別 平均年収ランキング（有報・掲載企業平均）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-3">業界別 平均年収ランキング（有価証券報告書・掲載企業平均）</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -163,7 +163,7 @@ export default function IndustrySalaryPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：各社有価証券報告書の平均年間給与（全従業員平均）。決算期は企業別ランキングに併記。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：各社有価証券報告書の平均年間給与（全従業員平均）。決算期は企業別ランキングに併記です。</p>
         </section>
 
         <section className="mb-10">
@@ -193,9 +193,9 @@ export default function IndustrySalaryPage() {
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-3">業界選びの読み方（3つのポイント）</h2>
           <ul className="list-disc pl-5 space-y-2 text-slate-600">
-            <li><strong>有報平均は「製造・インフラ系」が上位に出やすい</strong>：利益率と平均年齢の高さが効くため、半導体・電機・通信が上位。安定して高年収を狙うならこの領域。</li>
-            <li><strong>Web・SaaSは平均より「レンジ上限」で見る</strong>：平均年齢が若く有報平均は中位だが、エンジニアの提示レンジ上限は高い。スキル次第で大きく伸ばせる。</li>
-            <li><strong>同じ業界でも企業差が大きい</strong>：例えば半導体ではキーエンス2,039万と他社で開きが大きい。業界の傾向＋個社の数値の両方を見るのが実務的です。</li>
+            <li><strong>有価証券報告書平均は「製造・インフラ系」が上位に出やすい</strong>：利益率と平均年齢の高さが効くため、半導体・電機・通信が上位です。安定して高年収を狙うならこの領域です。</li>
+            <li><strong>Web・SaaSは平均より「レンジ上限」で見る</strong>：平均年齢が若く有価証券報告書平均は中位だが、エンジニアの提示レンジ上限は高いです。スキル次第で大きく伸ばせます。</li>
+            <li><strong>同じ業界でも企業差が大きい</strong>：例えば半導体ではキーエンス2,039万と他社で開きが大きいです。業界の傾向＋個社の数値の両方を見るのが実務的です。</li>
           </ul>
         </section>
 

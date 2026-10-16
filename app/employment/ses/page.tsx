@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/employment/ses/" },
   title: "SESエンジニアの実態｜仕組み・年収傾向・多重下請けの現実と選び方",
   description:
-    "SES（システムエンジニアリングサービス）の正確な仕組み、派遣・請負との違い、年収傾向、多重下請け構造の現実、偽装請負の注意点、エンジニア側・企業側の二軸メリットデメリットを中立に解説。30代40代の選び方も整理します。",
+    "SES（システムエンジニアリングサービス）の正確な仕組み、派遣・請負との違い、年収傾向、多重下請け構造の現実、偽装請負の注意点、エンジニア側・企業側の二軸メリットデメリットを中立に解説します。30代40代の選び方も整理します。",
 };
 
 const toc = [
@@ -91,7 +91,7 @@ export default function SesPage() {
     <>
       <ArticleJsonLd
         title="SESエンジニアの実態｜仕組み・年収傾向・多重下請けの現実と選び方"
-        description="SESの仕組み・派遣請負との違い・年収傾向・多重下請けの現実・偽装請負の注意点を中立に解説。エンジニア側企業側の二軸メリデメと30代40代の選び方も整理。"
+        description="SESの仕組み・派遣請負との違い・年収傾向・多重下請けの現実・偽装請負の注意点を中立に解説します。エンジニア側企業側の二軸メリデメと30代40代の選び方も整理します。"
         url="/employment/ses/"
       />
       <script
@@ -135,9 +135,9 @@ export default function SesPage() {
               SESは、SES企業に正社員として雇用され、準委任契約で客先に常駐する働き方です。雇用の安定と幅広い経験が得られる一方、多重下請けでは中間マージンが重なり給与が目減りしやすく、偽装請負のリスクもあります。「SESかどうか」より「どの階層・どんな育成方針のSESか」が重要で、会社と案件の選び方で評価が大きく分かれます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>準委任の常駐サービス。指揮命令はSES企業側にあるのが原則。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>多重下請けが深いほど、現場単価に対しエンジニアの給与は下がりやすい。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>客先が直接指揮命令している実態なら偽装請負（違法）に注意。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>準委任の常駐サービスです。指揮命令はSES企業側にあるのが原則です。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>多重下請けが深いほど、現場単価に対しエンジニアの給与は下がりやすいです。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>客先が直接指揮命令している実態なら偽装請負（違法）に注意が必要です。</li>
             </ul>
           </div>
         </section>
@@ -218,9 +218,9 @@ export default function SesPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-5">
             <p className="text-sm font-bold text-slate-700 mb-3">年収を左右する要素</p>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>元請けに近い一次請けのSESほど、現場単価が高く給与に反映されやすい</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>下請け階層が深いほど、各社の中間マージンが積み重なり、給与が目減りしやすい</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>SES企業の評価・昇給制度がスキルに連動しているかで、年収の伸びが変わる</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>元請けに近い一次請けのSESほど、現場単価が高く給与に反映されやすいです</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>下請け階層が深いほど、各社の中間マージンが積み重なり、給与が目減りしやすいです</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>SES企業の評価・昇給制度がスキルに連動しているかで、年収の伸びが変わります</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -297,7 +297,7 @@ export default function SesPage() {
           </p>
           <div className="space-y-3">
             {[
-              ["商流（何次請けか）", "元請け・一次請けに近いほど単価が高く、給与に反映されやすい。商流の深さを確認する。"],
+              ["商流（何次請けか）", "元請け・一次請けに近いほど単価が高く、給与に反映されやすいです。商流の深さを確認します。"],
               ["案件の選択・キャリア面談", "希望する技術・現場を選べる余地があるか、定期的なキャリア面談があるか。"],
               ["評価・昇給制度", "スキルや実績に応じて昇給する仕組みか、現場任せで放置されないか。"],
               ["教育・帰属意識への配慮", "客先常駐でも、自社研修・交流・フォロー体制があるか。"],

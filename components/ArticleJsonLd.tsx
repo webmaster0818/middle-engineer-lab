@@ -30,12 +30,12 @@ export default function ArticleJsonLd({
     dateModified: modified,
     author: {
       "@type": "Organization",
-      name: "ミドルエンジニア転職ラボ",
+      name: "CareeHUB for Mid Engineer",
       url: "https://middle-engineer.com",
     },
     publisher: {
       "@type": "Organization",
-      name: "ミドルエンジニア転職ラボ",
+      name: "CareeHUB for Mid Engineer",
       url: "https://middle-engineer.com",
     },
     mainEntityOfPage: {

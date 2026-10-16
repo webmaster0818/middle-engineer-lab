@@ -21,8 +21,8 @@ export default function DataNote({ surveyedAt, sources }: DataNoteProps) {
         )}
       </p>
       <p className="mt-1">
-        求人数・年収などの数値は調査時点の公開情報に基づきます。最新の情報は各サービスの公式サイトをご確認ください。
-        当サイトの評価基準は<Link href="/editorial/" className="text-blue-600 hover:underline">記事制作ポリシー</Link>をご覧ください。
+        求人数・年収などの数値は、調査時点の公開情報にもとづいています。ご利用前に、各サービスの公式サイトにて最新情報をご確認ください。
+        当サイトの評価基準については、<Link href="/editorial/" className="text-blue-600 hover:underline">記事制作ポリシー</Link>をご覧ください。
       </p>
     </div>
   );

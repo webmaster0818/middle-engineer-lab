@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/remote-full/" },
   title: "フルリモート勤務のエンジニア求人ガイド【2026年版】",
   description:
-    "フルリモートで働けるエンジニア求人の見つけ方を解説。フルリモート企業の特徴、年収、注意点、おすすめ企業タイプを紹介します。",
+    "フルリモートで働けるエンジニア求人の見つけ方を解説します。フルリモート企業の特徴、年収、注意点、おすすめ企業タイプを紹介します。",
 };
 
 const faqs = [
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "フルリモートの面接はどう進む？",
-    a: "全てオンラインで完結するケースがほとんどです。ビデオ面接ツール（Zoom/Google Meet）とコーディングツール（CoderPad等）を使った技術面接が一般的です。",
+    a: "すべてオンラインで完結するケースがほとんどです。ビデオ面接ツール（Zoom/Google Meet）とコーディングツール（CoderPad等）を使った技術面接が一般的です。",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function RemoteFullPage() {
     <>
       <ArticleJsonLd
         title="フルリモート勤務のエンジニア求人ガイド【2026年版】"
-        description="フルリモートで働けるエンジニア求人の見つけ方を解説。フルリモート企業の特徴、年収、注意点、おすすめ企業タイプを紹介します。"
+        description="フルリモートで働けるエンジニア求人の見つけ方を解説します。フルリモート企業の特徴、年収、注意点、おすすめ企業タイプを紹介します。"
         url="/purpose/remote-full/"
       />
       <script
@@ -71,10 +71,10 @@ export default function RemoteFullPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           フルリモート勤務のエンジニア求人ガイド
         </h1>
-        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | フルリモートで働く完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | フルリモートで働くガイド</p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 通勤時間をゼロにして生産性を上げたい</li>
@@ -122,10 +122,10 @@ export default function RemoteFullPage() {
           <div className="space-y-4">
             {[
               { num: "1", title: "「フルリモート」の定義を確認", desc: "完全出社不要なのか、月1回出社ありなのか。「居住地不問」と明記されているかを確認しましょう。" },
-              { num: "2", title: "給与体系を確認", desc: "全国一律給与か、居住地による調整ありか。リモートワーク手当（月5,000〜15,000円）の有無も確認。" },
+              { num: "2", title: "給与体系を確認", desc: "全国一律給与か、居住地による調整ありか。リモートワーク手当（月5,000〜15,000円）の有無も確認します。" },
               { num: "3", title: "リモートワークの文化を確認", desc: "非同期コミュニケーション（Slack/Notion）の活用度、ドキュメント文化の充実度を確認しましょう。" },
-              { num: "4", title: "評価制度を確認", desc: "成果ベースの評価制度が整っているか。「可視性が低い=評価されない」にならない仕組みがあるかを確認。" },
-              { num: "5", title: "チームビルディング施策を確認", desc: "オフサイトミーティング、オンライン懇親会、1on1の頻度など、孤立感を防ぐ施策があるかを確認。" },
+              { num: "4", title: "評価制度を確認", desc: "成果ベースの評価制度が整っているか。「可視性が低い=評価されない」にならない仕組みがあるかを確認します。" },
+              { num: "5", title: "チームビルディング施策を確認", desc: "オフサイトミーティング、オンライン懇親会、1on1の頻度など、孤立感を防ぐ施策があるかを確認します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -144,9 +144,9 @@ export default function RemoteFullPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", point: "フルリモート求人のフィルタリングが可能。企業のリモート文化の情報も提供。" },
-              { name: "Green", point: "リモート求人が豊富。企業のリモートワーク実態を口コミで確認できる。" },
-              { name: "Reworker", point: "リモートワーク求人に特化した転職サイト。フルリモート求人を効率的に探せる。" },
+              { name: "レバテックキャリア", point: "フルリモート求人のフィルタリングが可能です。企業のリモート文化の情報も提供しています。" },
+              { name: "Green", point: "リモート求人が豊富です。企業のリモートワーク実態を口コミで確認できます。" },
+              { name: "Reworker", point: "リモートワーク求人に特化した転職サイトです。フルリモート求人を効率的に探せます。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -184,7 +184,7 @@ export default function RemoteFullPage() {
               { name: "ワークライフバランス重視の転職", href: "/purpose/wlb/" },
               { name: "Uターン・Iターン×IT転職", href: "/purpose/uturnable/" },
               { name: "残業少なめIT企業の見極め方", href: "/purpose/no-overtime/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

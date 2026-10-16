@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/retirement-agency/" },
   title: "退職代行の選び方【3類型と非弁行為・SES客先常駐の注意点】",
   description:
-    "退職代行サービスの運営主体3類型（民間業者・労働組合・弁護士）の違いと、非弁行為のリスクを正確に解説。SES・客先常駐特有の注意点や使う前のチェックリストを30代・40代エンジニア向けに整理します。",
+    "退職代行サービスの運営主体3類型（民間業者・労働組合・弁護士）の違いと、非弁行為のリスクを正確に解説します。SES・客先常駐特有の注意点や使う前のチェックリストを30代・40代エンジニア向けに整理します。",
 };
 
 const toc = [
@@ -66,7 +66,7 @@ export default function RetirementAgencyPage() {
     <>
       <ArticleJsonLd
         title="退職代行の選び方【3類型と非弁行為・SES客先常駐の注意点】"
-        description="退職代行サービスの運営主体3類型（民間業者・労働組合・弁護士）の違いと、非弁行為のリスクを正確に解説。SES・客先常駐特有の注意点や使う前のチェックリストを30代・40代エンジニア向けに整理します。"
+        description="退職代行サービスの運営主体3類型（民間業者・労働組合・弁護士）の違いと、非弁行為のリスクを正確に解説します。SES・客先常駐特有の注意点や使う前のチェックリストを30代・40代エンジニア向けに整理します。"
         url="/knowledge/retirement-agency/"
       />
       <script
@@ -126,10 +126,10 @@ export default function RetirementAgencyPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：運営主体で「できること」が決まる</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・<strong>民間業者</strong>＝退職の意思を「伝える」のみ。条件交渉はできないのが原則。</li>
-              <li>・<strong>労働組合</strong>＝団体交渉として、有給や退職日などの「交渉」が可能。</li>
-              <li>・<strong>弁護士</strong>＝交渉に加え、損害賠償・未払い賃金などの法的対応まで可能。</li>
-              <li>・<strong>SES・客先常駐</strong>で契約・賠償が絡みそうなら、弁護士型が安全。</li>
+              <li>・<strong>民間業者</strong>＝退職の意思を「伝える」のみです。条件交渉はできないのが原則です。</li>
+              <li>・<strong>労働組合</strong>＝団体交渉として、有給や退職日などの「交渉」が可能です。</li>
+              <li>・<strong>弁護士</strong>＝交渉に加え、損害賠償・未払い賃金などの法的対応まで可能です。</li>
+              <li>・<strong>SES・客先常駐</strong>で契約・賠償が絡みそうなら、弁護士型が安全です。</li>
             </ul>
           </div>
         </section>
@@ -233,17 +233,17 @@ export default function RetirementAgencyPage() {
             <div className="bg-green-50 border border-green-200 rounded-xl p-5">
               <h3 className="font-bold text-green-800 mb-2">代行が有力なケース</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>ハラスメントなどで、直接伝えること自体が心身の負担になる</span></li>
-                <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>強い引き止めや恫喝で、自力での退職が進まない</span></li>
+                <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>ハラスメントなどで、直接伝えること自体が心身の負担になります</span></li>
+                <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>強い引き止めや恫喝で、自力での退職が進みません</span></li>
                 <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>有給・退職日・賃金などで会社と争点があり、交渉が必要</span></li>
-                <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>SES・客先常駐で損害賠償などをちらつかせられている</span></li>
+                <li className="flex items-start gap-2"><span className="text-green-700 font-bold mt-0.5">・</span><span>SES・客先常駐で損害賠償などをちらつかせられています</span></li>
               </ul>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
               <h3 className="font-bold text-slate-800 mb-2">まず自力を検討したいケース</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>切り出すのが気まずい・緊張する、という心理的ハードルだけが理由</span></li>
-                <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>争点がなく、退職の意思を伝えれば手続きが進みそう</span></li>
+                <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>争点がなく、退職の意思を伝えれば手続きが進みそいます</span></li>
                 <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>前職の人脈・評判を今後のキャリアで活かしたい</span></li>
                 <li className="flex items-start gap-2"><span className="text-slate-500 font-bold mt-0.5">・</span><span>引き継ぎを丁寧に残して円満に去りたい</span></li>
               </ul>

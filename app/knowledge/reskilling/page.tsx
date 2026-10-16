@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/reskilling/" },
   title: "リスキリングとは｜補助金で職種転換する30-40代の進め方",
   description:
-    "30-40代エンジニア向けに、転職を伴うリスキリングを公的補助金とともに解説。経産省のリスキリング支援事業（最大70%）と厚労省教育訓練給付の違い・併用、優先順位、失敗パターンまで整理します。",
+    "30-40代エンジニア向けに、転職を伴うリスキリングを公的補助金とともに解説します。経産省のリスキリング支援事業（最大70%）と厚労省教育訓練給付の違い・併用、優先順位、失敗パターンまで整理します。",
 };
 
 const toc = [
@@ -69,7 +69,7 @@ export default function ReskillingPage() {
     <>
       <ArticleJsonLd
         title="リスキリングとは｜補助金で職種転換する30-40代の進め方"
-        description="30-40代エンジニア向けに、転職を伴うリスキリングを公的補助金とともに解説。経産省のリスキリング支援事業（最大70%）と厚労省教育訓練給付の違い・併用、優先順位、失敗パターンまで整理します。"
+        description="30-40代エンジニア向けに、転職を伴うリスキリングを公的補助金とともに解説します。経産省のリスキリング支援事業（最大70%）と厚労省教育訓練給付の違い・併用、優先順位、失敗パターンまで整理します。"
         url="/knowledge/reskilling/"
       />
       <script
@@ -101,8 +101,8 @@ export default function ReskillingPage() {
             </p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
               <li>・経産省「リスキリングを通じたキャリアアップ支援事業」は、受講費用が段階的に補助され最大約70%（上限の目安 約56万円）が支給される枠組み</li>
-              <li>・厚労省の教育訓練給付制度も指定講座の受講費用の一部を給付。所管も建て付けも異なり、併用可否は制度・年度・講座の条件次第</li>
-              <li>・30-40代は経験と地続きの領域（例：開発経験を活かしてSRE・クラウド・データ領域へ）を優先し、学びを個人開発・記事・OSSなどのアウトプットに結びつける</li>
+              <li>・厚労省の教育訓練給付制度も指定講座の受講費用の一部を給付します。所管も建て付けも異なり、併用可否は制度・年度・講座の条件次第</li>
+              <li>・30-40代は経験と地続きの領域（例：開発経験を活かしてSRE・クラウド・データ領域へ）を優先し、学びを個人開発・記事・OSSなどのアウトプットに結びつけます</li>
             </ul>
           </div>
         </section>
@@ -149,11 +149,11 @@ export default function ReskillingPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">リスキリング</h3>
-              <p className="text-sm text-petrol-deep">主に在職しながら、新しい職務・職種に必要なスキルを学び直すこと。仕事を続けながら、職種転換や役割の変化に備える。本記事の主題。</p>
+              <p className="text-sm text-petrol-deep">主に在職しながら、新しい職務・職種に必要なスキルを学び直すことです。仕事を続けながら、職種転換や役割の変化に備えます。本記事の主題です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">リカレント教育</h3>
-              <p className="text-sm text-petrol-deep">いったん就労を離れて学び直し、また就労に戻る『社会人の学び直し』全般を広く指す概念。大学院進学なども含む広い言葉。</p>
+              <p className="text-sm text-petrol-deep">いったん就労を離れて学び直し、また就労に戻る『社会人の学び直し』全般を広く指す概念です。大学院進学なども含む広い言葉です。</p>
             </div>
           </div>
         </section>
@@ -241,9 +241,9 @@ export default function ReskillingPage() {
           <p className="text-slate-600 leading-relaxed mb-4">補助金が使えても、何を学ぶかを誤ると効果は薄れます。30-40代は<strong>これまでの経験と地続きの領域</strong>を優先するのが鉄則です。</p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "現在の経験に隣接する領域を優先", desc: "開発経験を活かしてSRE・クラウド・データ領域へ、など。ゼロからより、地続きの転換が学習効率も評価も高い。" },
-              { num: "2", title: "需要が継続しそうな領域を選ぶ", desc: "一時的な流行より、中長期で必要とされる土台技術。経済産業省はIT人材の不足を継続的な課題として示している（2019年3月公表の試算で2030年に最大約79万人不足とされた）。" },
-              { num: "3", title: "アウトプットに結びつく学びにする", desc: "資格取得だけで終わらせず、個人開発・記事・OSSなど検証可能な成果に結びつける。" },
+              { num: "1", title: "現在の経験に隣接する領域を優先", desc: "開発経験を活かしてSRE・クラウド・データ領域へ、などです。ゼロからより、地続きの転換が学習効率も評価も高いです。" },
+              { num: "2", title: "需要が継続しそうな領域を選ぶ", desc: "一時的な流行より、中長期で必要とされる土台技術です。経済産業省はIT人材の不足を継続的な課題として示しています（2019年3月公表の試算で2030年に最大約79万人不足とされた）。" },
+              { num: "3", title: "アウトプットに結びつく学びにする", desc: "資格取得だけで終わらせず、個人開発・記事・OSSなど検証可能な成果に結びつけます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -262,11 +262,11 @@ export default function ReskillingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">6. 学び直し→転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { num: "STEP 1", title: "目的と転換先を定める", desc: "何の職種・役割に移りたいかを具体化する。自己分析は別記事も参考に。" },
-              { num: "STEP 2", title: "使える補助金を確認する", desc: "経産省リスキリング支援事業・教育訓練給付の最新条件を公式・窓口で確認。対象講座か、要件を満たすかをチェック。" },
-              { num: "STEP 3", title: "講座を選び、受講する", desc: "経験と地続きで、アウトプットに結びつく講座を選ぶ。修了要件・出席要件を守る。" },
-              { num: "STEP 4", title: "学びを成果物に変える", desc: "学んだことを個人開発・記事・OSSなど検証可能な形で残し、職務経歴書に反映する。" },
-              { num: "STEP 5", title: "転職活動・条件確認", desc: "追加支給に『転職して1年継続』などの条件が付く制度では、転職後の継続も見据える。市場価値の確認も忘れずに。" },
+              { num: "STEP 1", title: "目的と転換先を定める", desc: "何の職種・役割に移りたいかを具体化します。自己分析は別記事もご参照ください。" },
+              { num: "STEP 2", title: "使える補助金を確認する", desc: "経産省リスキリング支援事業・教育訓練給付の最新条件を公式・窓口で確認します。対象講座か、要件を満たすかをチェックします。" },
+              { num: "STEP 3", title: "講座を選び、受講する", desc: "経験と地続きで、アウトプットに結びつく講座を選びます。修了要件・出席要件を守ります。" },
+              { num: "STEP 4", title: "学びを成果物に変える", desc: "学んだことを個人開発・記事・OSSなど検証可能な形で残し、職務経歴書に反映します。" },
+              { num: "STEP 5", title: "転職活動・条件確認", desc: "追加支給に『転職して1年継続』などの条件が付く制度では、転職後の継続も見据えます。市場価値の確認も忘れずに。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center px-3 h-8 rounded-full bg-emerald-600 text-white font-bold text-xs shrink-0">{item.num}</span>
@@ -278,7 +278,7 @@ export default function ReskillingPage() {
             ))}
           </div>
           <div className="bg-petrol-soft rounded-lg p-5 mt-5">
-            <p className="text-sm text-petrol-deep">関連: <Link href="/knowledge/self-analysis/" className="text-petrol-deep underline">自己分析の進め方</Link>、<Link href="/knowledge/market-value/" className="text-petrol-deep underline">市場価値の調べ方</Link>、<Link href="/knowledge/career-plan/" className="text-petrol-deep underline">キャリアプランの立て方</Link>。</p>
+            <p className="text-sm text-petrol-deep">関連: <Link href="/knowledge/self-analysis/" className="text-petrol-deep underline">自己分析の進め方</Link>、<Link href="/knowledge/market-value/" className="text-petrol-deep underline">市場価値の調べ方</Link>、<Link href="/knowledge/career-plan/" className="text-petrol-deep underline">キャリアプランの立て方です</Link>。</p>
           </div>
         </section>
 
@@ -287,10 +287,10 @@ export default function ReskillingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">7. ありがちな失敗パターン</h2>
           <div className="space-y-4">
             {[
-              { t: "資格コレクターになる", d: "資格取得自体が目的化し、実務で使える形にならない。資格は手段であって、アウトプットに結びつけてこそ評価される。" },
-              { t: "目的なき学習に手を広げる", d: "流行りを追って手を広げすぎ、どれも中途半端に。転換先を定めてから学ぶ範囲を絞る。" },
-              { t: "補助金の条件を確認せず申し込む", d: "年度で変わる要件・対象講座・追加支給条件を見落とし、想定より補助が出ない。事前に公式で確認する。" },
-              { t: "経験を捨ててゼロから始める", d: "これまでの経験を活かせない無関係分野に飛び込み、学習も転職も難航。地続きの領域を優先する。" },
+              { t: "資格コレクターになる", d: "資格取得自体が目的化し、実務で使える形になりません。資格は手段であって、アウトプットに結びつけてこそ評価されます。" },
+              { t: "目的なき学習に手を広げる", d: "流行りを追って手を広げすぎ、どれも中途半端に。転換先を定めてから学ぶ範囲を絞ります。" },
+              { t: "補助金の条件を確認せず申し込む", d: "年度で変わる要件・対象講座・追加支給条件を見落とし、想定より補助が出ないです。事前に公式で確認します。" },
+              { t: "経験を捨ててゼロから始める", d: "これまでの経験を活かせない無関係分野に飛び込み、学習も転職も難航です。地続きの領域を優先します。" },
             ].map((n, i) => (
               <div key={i} className="bg-red-50 border border-red-200 rounded-lg p-5">
                 <h3 className="font-bold text-red-700 mb-1">{n.t}</h3>

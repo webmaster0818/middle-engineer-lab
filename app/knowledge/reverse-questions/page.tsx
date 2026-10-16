@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "面接の逆質問【エンジニア向け例文集・避けるべき質問】";
 const DESCRIPTION =
-  "エンジニア転職の面接で「何か質問はありますか」と聞かれたときの逆質問を、評価される具体例・場面別の例文・避けるべきNG質問まで実践的に解説。30代40代がマネジメント・技術選定・裁量を見極めるための質問もまとめます。";
+  "エンジニア転職の面接で「何か質問はありますか」と聞かれたときの逆質問を、評価される具体例・場面別の例文・避けるべきNG質問まで実践的に解説します。30代40代がマネジメント・技術選定・裁量を見極めるための質問もまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/reverse-questions/" },
@@ -80,7 +80,7 @@ const midlifeQuestions = [
 
 const ngQuestions = [
   {
-    title: "調べればわかることを聞く",
+    title: "調べれば分かることを聞く",
     desc: "「御社はどんな事業をしていますか」など、公式サイトや求人票に書かれている内容を質問するのはNGです。準備不足の印象を与えます。",
   },
   {
@@ -174,8 +174,8 @@ export default function ReverseQuestionsPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】面接の逆質問は何をどう聞けばいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「仕事内容・技術・チーム・キャリア」の4テーマから、相手の役割に合った質問を2〜3個用意するのが基本です。調べればわかることや待遇の詰問は避けます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・課題を尋ねて「自分ならどう貢献できるか」を示せる質問が高評価につながる</li><li>・「特にありません」は志望度が低いと受け取られかねないため避ける</li><li>・30代・40代は裁量・マネジメントの比重・組織課題を確認できる質問が有効</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「仕事内容・技術・チーム・キャリア」の4テーマから、相手の役割に合った質問を2〜3個用意するのが基本です。調べれば分かることや待遇の詰問は避けます。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・課題を尋ねて「自分ならどう貢献できるか」を示せる質問が高評価につながります</li><li>・「特にありません」は志望度が低いと受け取られかねないため避けます</li><li>・30代・40代は裁量・マネジメントの比重・組織課題を確認できる質問が有効</li></ul>
           </div>
         </section>
 
@@ -204,7 +204,7 @@ export default function ReverseQuestionsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：逆質問の基本方針</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              逆質問の基本は、<strong>「仕事内容・技術・チーム・キャリア」の4テーマから、相手の役割に合った質問を2〜3個」</strong>用意すること。調べればわかることや待遇の詰問は避け、課題を尋ねて「自分ならどう貢献できるか」を示せる質問が高評価につながります。
+              逆質問の基本は、<strong>「仕事内容・技術・チーム・キャリア」の4テーマから、相手の役割に合った質問を2〜3個」</strong>用意することが重要です。調べれば分かることや待遇の詰問は避け、課題を尋ねて「自分ならどう貢献できるか」を示せる質問が高評価につながります。
             </p>
             <p className="text-slate-700 leading-relaxed">
               「特にありません」は志望度が低いと受け取られかねないため避けましょう。逆質問は、入社後のミスマッチを防ぐための情報収集の場でもあります。聞きたいことを誠実に、前向きな言い回しで尋ねるのが鉄則です。
@@ -216,7 +216,7 @@ export default function ReverseQuestionsPage() {
         <section id="why" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">逆質問が評価される理由</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            面接官は逆質問から、次のようなポイントを見ています。質問の中身そのものが、あなたの姿勢を映す鏡になります。
+            面接官は逆質問から、次のようなポイントを見ています。質問の中身そのものが、ご自身の姿勢を映す鏡になります。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -316,11 +316,11 @@ export default function ReverseQuestionsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">逆質問を活かすコツ</h2>
           <ul className="space-y-3">
             {[
-              "面接の会話で出た話題に関連づけて質問すると、「ちゃんと聞いていた」という印象を与えられる。",
-              "質問の前に「先ほど○○とお話しされていましたが」と一言添えると、自然で深い対話になる。",
-              "質問しっぱなしにせず、回答に対して「ありがとうございます。それなら○○の経験が活かせそうです」と自分の話につなげる。",
-              "事前に役割別の質問リストを用意し、面接官の肩書きが分かったら最適な質問を選ぶ。",
-              "メモを取りながら聞くと、熱心さが伝わり、入社後の判断材料にもなる。",
+              "面接の会話で出た話題に関連づけて質問すると、「ちゃんと聞いていた」という印象を与えられます。",
+              "質問の前に「先ほど○○とお話しされていましたが」と一言添えると、自然で深い対話になります。",
+              "質問しっぱなしにせず、回答に対して「ありがとうございます。それなら○○の経験が活かせそうです」と自分の話につなげます。",
+              "事前に役割別の質問リストを用意し、面接官の肩書きが分かったら最適な質問を選びます。",
+              "メモを取りながら聞くと、熱心さが伝わり、入社後の判断材料にもなります。",
             ].map((tip, i) => (
               <li key={i} className="flex gap-3 items-start border border-slate-200 rounded-lg p-4">
                 <span className="text-petrol font-bold shrink-0">✓</span>

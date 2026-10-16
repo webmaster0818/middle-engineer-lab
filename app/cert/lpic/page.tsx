@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "LPIC・LinuCは転職に効くか｜違い・年収・取得ルート【2026年】";
 const PAGE_DESC =
-  "Linux技術者認定のLPICとLinuCの違い、転職での評価、保有者の年収相場（出典明記）を30代・40代向けに解説。未経験入口資格としての位置づけ、CCNA・AWSとの併取得戦略まで限界も含めて正直にまとめます。";
+  "Linux技術者認定のLPICとLinuCの違い、転職での評価、保有者の年収相場（出典明記）を30代・40代向けに解説。未経験入口資格としての位置づけ、CCNA・AWSとの併取得戦略まで留意点も含めてまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/lpic/" },
@@ -51,7 +51,7 @@ const faqs = [
 ];
 
 const salaryTable = [
-  ["LPIC1（基礎）", "約474万円", "Linux基礎運用。未経験〜若手の入口"],
+  ["LPIC1（基礎）", "約474万円", "Linux基礎運用です。未経験〜若手の入口"],
   ["LPIC2（中級）", "約618万円", "構築・運用設計を任される層"],
   ["LPIC3（上級）", "約696万円", "高可用性・セキュリティなど専門領域"],
   ["未経験＋LPIC1/LinuC1", "約370.4万円", "内定平均（無資格未経験比＋約50万円）"],
@@ -63,7 +63,7 @@ const overviewTable = [
   ["受験料", "各16,500円（レベル1は2試験で計33,000円）"],
   ["合格基準（LPIC）", "800点満点中500点"],
   ["有効期限", "5年（再認定が必要）"],
-  ["LinuCの特徴", "国内特化。仮想化／クラウド（AWS/Docker/K8s）出題が充実"],
+  ["LinuCの特徴", "国内特化です。仮想化／クラウド（AWS/Docker/K8s）出題が充実"],
 ];
 
 export default function LpicCertPage() {
@@ -101,7 +101,7 @@ export default function LpicCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          LPICとLinuCは、どちらもLinuxの技術力を証明する認定資格です。Linuxはサーバー・クラウド基盤の中核であり、知識需要は安定しています。本記事は「LPIC/LinuCを取れば転職で有利になるか」という疑問に対し、未経験の入口資格という性格を踏まえ、年代・経験・レベルで評価がどう変わるかを公開データと公式情報をもとに整理します。資格単体の効果を誇張せず、限界も正直にお伝えします。
+          LPICとLinuCは、どちらもLinuxの技術力を証明する認定資格です。Linuxはサーバー・クラウド基盤の中核であり、知識需要は安定しています。本記事は「LPIC/LinuCを取れば転職で有利になるか」という疑問に対し、未経験の入口資格という性格を踏まえ、年代・経験・レベルで評価がどう変わるかを公開データと公式情報をもとに整理します。資格単体の効果を誇張せず、留意点もご説明します。
         </p>
 
         <DataNote
@@ -110,7 +110,7 @@ export default function LpicCertPage() {
             "LPI-Japan 公式（linuc.org）",
             "エイジレス思考 年収集計（参考値）",
             "インフララボ 内定年収集計（参考値）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -137,7 +137,7 @@ export default function LpicCertPage() {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>① <strong>未経験のミドル</strong>：レベル1は間口を広げるが、年齢相応の志望動機・ポートフォリオが必須</li>
-              <li>② <strong>インフラ経験者</strong>：レベル2/3＋実務でこそ価値が出る。基礎レベル単体では武器になりにくい</li>
+              <li>② <strong>インフラ経験者</strong>：レベル2/3＋実務でこそ価値が出ます。基礎レベル単体では強みになりにくいです</li>
               <li>③ <strong>国内中心ならLinuC、国際志向ならLPIC</strong>：実務評価はほぼ同価値</li>
             </ul>
           </div>
@@ -151,8 +151,8 @@ export default function LpicCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "LPIC（国際）", d: "LPI（国際団体）が運営。世界共通の認定で、外資・海外案件でも通用する。試験範囲はLinux全般を体系的にカバー。" },
-              { t: "LinuC（国内特化）", d: "LPI-Japanが運営。国内市場に最適化され、仮想化・クラウド（AWS/Docker/Kubernetes）の出題が充実。国内志向ならこちらで十分。" },
+              { t: "LPIC（国際）", d: "LPI（国際団体）が運営しています。世界共通の認定で、外資・海外案件でも通用します。試験範囲はLinux全般を体系的にカバーします。" },
+              { t: "LinuC（国内特化）", d: "LPI-Japanが運営しています。国内市場に最適化され、仮想化・クラウド（AWS/Docker/Kubernetes）の出題が充実しています。国内志向ならこちらで十分です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -221,10 +221,10 @@ export default function LpicCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "未経験者の書類スクリーニング通過", d: "Linuxの自走学習ができる証明として、未経験応募の書類段階で意欲の裏付けになる。" },
-              { t: "サーバー運用・構築ポジションの歓迎要件", d: "Webサーバー・DBサーバーの運用構築求人でLPIC/LinuCが歓迎要件に挙がることが多い。" },
-              { t: "クラウド基盤への接続", d: "LinuCの仮想化・コンテナ出題はDocker/Kubernetes/AWSへの橋渡しになり、クラウド職の土台を示せる。" },
-              { t: "資格手当・評価制度の対象", d: "企業によってはレベルに応じた資格手当を設定しており、社内評価・昇給の根拠になる場合がある。" },
+              { t: "未経験者の書類スクリーニング通過", d: "Linuxの自走学習ができる証明として、未経験応募の書類段階で意欲の裏付けになります。" },
+              { t: "サーバー運用・構築ポジションの歓迎要件", d: "Webサーバー・DBサーバーの運用構築求人でLPIC/LinuCが歓迎要件に挙がることが多いです。" },
+              { t: "クラウド基盤への接続", d: "LinuCの仮想化・コンテナ出題はDocker/Kubernetes/AWSへの橋渡しになり、クラウド職の土台を示せます。" },
+              { t: "資格手当・評価制度の対象", d: "企業によってはレベルに応じた資格手当を設定しており、社内評価・昇給の根拠になる場合があります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -242,9 +242,9 @@ export default function LpicCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "Linuxサーバー運用・監視", d: "Webサーバー・DBサーバーの監視、ログ確認、障害一次対応。未経験＋レベル1の主な入口。" },
-              { t: "サーバー構築・キッティング", d: "OSセットアップ、ミドルウェア導入、検証。実務1〜3年層が中心。" },
-              { t: "インフラ・クラウドエンジニア", d: "オンプレ／クラウド基盤の設計・構築。LinuC上位＋実務で年収が一段上がる。" },
+              { t: "Linuxサーバー運用・監視", d: "Webサーバー・DBサーバーの監視、ログ確認、障害一次対応です。未経験＋レベル1の主な入口です。" },
+              { t: "サーバー構築・キッティング", d: "OSセットアップ、ミドルウェア導入、検証します。実務1〜3年層が中心です。" },
+              { t: "インフラ・クラウドエンジニア", d: "オンプレ／クラウド基盤の設計・構築です。LinuC上位＋実務で年収が一段上がります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -261,7 +261,7 @@ export default function LpicCertPage() {
         <section id="vendor" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">資格としての特性と注意点</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            LPIC/LinuCは民間の認定資格であり、IPA系の国家資格（基本情報・応用情報など）とは性格が異なります。取得を検討する前に、両者の違いとデメリットを正直に把握しておきましょう。
+            LPIC/LinuCは民間の認定資格であり、IPA系の国家資格（基本情報・応用情報など）とは性格が異なります。取得を検討する前に、両者の違いとデメリットを正確に把握しておきましょう。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -289,7 +289,7 @@ export default function LpicCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            正直なデメリットとして、LPIC/LinuCには<strong>5年の有効期限</strong>があり、期限内に再認定しないと失効します。またレベル1だけでは基礎範囲にとどまるため、運用・構築フェーズでの差別化には弱く、レベル2・3や実務経験との組み合わせが前提になります。受験料もレベル1で計33,000円（各16,500円×2試験）と、国家資格の7,500円と比べて高めです。
+            注意すべきデメリットとして、LPIC/LinuCには<strong>5年の有効期限</strong>があり、期限内に再認定しないと失効します。またレベル1だけでは基礎範囲にとどまるため、運用・構築フェーズでの差別化には弱く、レベル2・3や実務経験との組み合わせが前提になります。受験料もレベル1で計33,000円（各16,500円×2試験）と、国家資格の7,500円と比べて高めです。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             一方の強みは<strong>需要の安定性と実務直結性</strong>です。Linuxはオンプレミスからクラウドまで、サーバー基盤の中核技術であり続けています。特にLinuCは仮想化・コンテナ（Docker/Kubernetes）・クラウド（AWS）の出題が充実しており、学習がそのままモダンなインフラ・クラウド職への橋渡しになります。費用と有効期限を許容できるなら、Linux／インフラ職を目指す人にとって投資対効果は高いといえます。クラウド方向に広げるなら<Link href="/skill/aws/" className="text-petrol hover:underline">AWS認定の活かし方</Link>も併せて検討してください。
@@ -301,7 +301,7 @@ export default function LpicCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の価値＝実務×資格</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              LPIC1/LinuC1は、本来<strong>未経験〜若手の入口資格</strong>です。30〜40代の未経験者がこれだけで勝負すると、年齢を理由に書類で落ちる可能性があります。ミドルが入口として使うなら、<strong>前職経験との接続点と、なぜ今インフラ職なのかの納得感</strong>を必ず添えてください。
+              LPIC1/LinuC1は、本来<strong>未経験〜若手の入口資格</strong>です。30〜40代の未経験者がこれだけを強みにすると、年齢を理由に書類で落ちる可能性があります。ミドルが入口として使うなら、<strong>前職経験との接続点と、なぜ今インフラ職なのかの納得感</strong>を必ず添えてください。
             </p>
             <p>
               一方、インフラ経験のあるミドルにとっては、<strong>レベル2・3＋実務</strong>の組み合わせが本領です。高可用性設計やセキュリティといった上位範囲は、設計・リードポジションへの説得力になります。Linuxはオンプレからクラウドまで基盤技術として汎用性が高く、「特定企業のレガシー運用に最適化されすぎた経験」を汎用スキルへ寄せる保険にもなります。
@@ -320,9 +320,9 @@ export default function LpicCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／併取得すべき資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "Linux環境を手元に用意", d: "VirtualBox等で仮想マシンを立て、実際にコマンドを打てる環境を作る。手を動かす前提を整える。" },
-              { n: "STEP 2", t: "101→102を順に学習", d: "市販テキストで範囲を体系的に学び、コマンド操作・設定ファイル編集を実機で繰り返す。" },
-              { n: "STEP 3", t: "模擬試験→受験→成果物化", d: "模擬問題で弱点を潰して受験。合格後はWebサーバー構築などの構成を手順書・GitHubで可視化する。" },
+              { n: "STEP 1", t: "Linux環境を手元に用意", d: "VirtualBox等で仮想マシンを立て、実際にコマンドを打てる環境を作ります。手を動かす前提を整えます。" },
+              { n: "STEP 2", t: "101→102を順に学習", d: "市販テキストで範囲を体系的に学び、コマンド操作・設定ファイル編集を実機で繰り返します。" },
+              { n: "STEP 3", t: "模擬試験→受験→成果物化", d: "模擬問題で弱点を潰して受験します。合格後はWebサーバー構築などの構成を手順書・GitHubで可視化します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>

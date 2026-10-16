@@ -6,17 +6,17 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/recruit-it/" },
-  title: "リクルートエージェントITの評判・口コミ｜30代40代エンジニア徹底レビュー",
+  title: "リクルートエージェントITの評判・口コミ｜30代40代エンジニアレビュー",
   description:
-    "リクルートエージェントITの評判を30代・40代エンジニア目線で徹底解説。IT公開求人11万件超という圧倒的な求人数と、対応が事務的・サポート期間が短いといったデメリットを口コミ傾向と実データで検証します。",
+    "リクルートエージェントITの評判を30代・40代エンジニア目線で解説します。IT公開求人11万件超という圧倒的な求人数と、対応が事務的・サポート期間が短いといったデメリットを口コミ傾向と実データで検証します。",
 };
 
-const PAGE_TITLE = "リクルートエージェントITの評判・口コミ｜30代40代エンジニア徹底レビュー";
+const PAGE_TITLE = "リクルートエージェントITの評判・口コミ｜30代40代エンジニアレビュー";
 const PAGE_DESC =
-  "リクルートエージェントITの評判を30代・40代エンジニア目線で徹底解説。IT公開求人11万件超という圧倒的な求人数と、対応が事務的・サポート期間が短いといったデメリットを口コミ傾向と実データで検証します。";
+  "リクルートエージェントITの評判を30代・40代エンジニア目線で解説します。IT公開求人11万件超という圧倒的な求人数と、対応が事務的・サポート期間が短いといったデメリットを口コミ傾向と実データで検証します。";
 
 const toc = [
-  { id: "summary", label: "結論：リクルートエージェントITはこんな人向け" },
+  { id: "summary", label: "結論：リクルートエージェントITはこのような方向け" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strengths", label: "特徴・強み" },
   { id: "good", label: "良い評判の傾向" },
@@ -172,7 +172,7 @@ export default function RecruitItReview() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          リクルートエージェントITの評判・口コミ【30代・40代エンジニア向け徹底レビュー】
+          リクルートエージェントITの評判・口コミ【30代・40代エンジニア向けレビュー】
         </h1>
         <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | 国内最大級の求人数をエンジニア視点で実データ検証</p>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
@@ -186,15 +186,15 @@ export default function RecruitItReview() {
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：リクルートエージェントITはこんな人向け</h2>
+            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：リクルートエージェントITはこのような方向け</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               総合評価は <span className="font-bold">★★★★☆（4.2 / 5.0・当サイト編集部の総合判断）</span>。
               <span className="font-bold">「まず多くの求人を比較したい／業種横断で探したい、短期集中型のエンジニア」</span>に向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・IT公開求人110,840件（2026年5月22日時点・二次集計）と国内最大級の母数が最大の武器</li>
-              <li>・非IT企業のDX・社内SEなど、IT特化エージェントでは出会いにくい求人にもアクセスできる</li>
-              <li>・一方で対応が事務的に感じる声や、サポート期間が約3か月と短いという声もある</li>
+              <li>・IT公開求人110,840件（2026年5月22日時点・二次集計）と国内最大級の母数が最大の強み</li>
+              <li>・非IT企業のDX・社内SEなど、IT特化エージェントでは出会いにくい求人にもアクセスできます</li>
+              <li>・一方で対応が事務的に感じる声や、サポート期間が約3か月と短いという声もあります</li>
             </ul>
           </div>
         </section>
@@ -330,14 +330,14 @@ export default function RecruitItReview() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの活用戦略（当サイト独自視点）</h2>
           <div className="text-sm text-slate-600 leading-relaxed space-y-4">
             <p>
-              当サイト「ミドルエンジニア転職ラボ」は30代・40代エンジニアの読者を想定しています。その視点でリクルートエージェントITの位置づけを整理します。
+              当サイトは30代・40代エンジニアの読者を想定しています。その視点でリクルートエージェントITの位置づけを整理します。
             </p>
             <p>
-              <span className="font-bold text-slate-800">30代は「求人母数の起点」として最有力。</span>
+              <span className="font-bold text-slate-800">30代は「求人母数の起点」として最有力です。</span>
               IT公開求人だけで11万件超という規模は、年収・働き方・技術領域の選択肢を一気に広げます。レバテックの公表値（2025年）では正社員SEの30代平均年収は約499万円とされ、現年収との差を踏まえて応募先の年収レンジを設計する起点に使えます。
             </p>
             <p>
-              <span className="font-bold text-slate-800">40代は「業種横断の網」として有効。</span>
+              <span className="font-bold text-slate-800">40代は「業種横断の網」として有効です。</span>
               IT特化エージェントは30代までが中心になりがちですが、総合型のリクルートは非IT企業の社内SE・DX推進ポジションまで広く扱うため、40代の経験者が応募先を見つけやすくなります。同公表値では40代の正社員SE平均年収は約618万円とされ、マネジメントや特定業界の知見を強みに条件交渉する価値があります。
             </p>
             <p>
@@ -402,7 +402,7 @@ export default function RecruitItReview() {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">リクルートエージェントITに無料相談する</h2>
-          <p className="text-blue-100 text-sm mb-4">国内最大級の求人から、あなたに合うIT求人を探してみませんか？</p>
+          <p className="text-blue-100 text-sm mb-4">国内最大級の求人から、ご自身に合うIT求人を探してみませんか？</p>
           <a href="https://www.r-agent.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">無料カウンセリングを予約する</a>
         </section>
 

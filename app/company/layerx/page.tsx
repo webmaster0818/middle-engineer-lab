@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/layerx/" },
   title: "LayerXの評判・年収は？エンジニア転職ガイド【2026】｜技術スタック・選考",
   description:
-    "LayerXの評判・口コミの傾向とエンジニア中途採用を、公式採用ページ・技術ブログ・口コミの一次情報から解説。バクラク／AI事業の技術スタック、トライアル入社、年収レンジ、30代40代の転職可否までまとめました。",
+    "LayerXの評判・口コミの傾向とエンジニア中途採用を、公式採用ページ・技術ブログ・口コミの一次情報から解説します。バクラク／AI事業の技術スタック、トライアル入社、年収レンジ、30代40代の転職可否までまとめました。",
 };
 
 const tableRows: [string, string][] = [
@@ -63,13 +63,13 @@ const faqs = [
 ];
 
 const positions = [
-  { name: "シニアAI・LLMエンジニア", desc: "AIエージェント開発全般をリード。LLMを用いた業務自動化プロダクトの設計・実装。" },
-  { name: "シニアソフトウェアエンジニア（バックエンド／AI・ML領域）", desc: "Goを中心としたバックエンド設計と、AI・機械学習領域のアーキテクチャ。" },
-  { name: "シニア機械学習エンジニア", desc: "機械学習モデルの設計・実装・運用（MLOps含む）。" },
-  { name: "ソフトウェアエンジニア（フルスタック・HCM領域）", desc: "人的資本管理プロダクトのフロント〜バックエンド開発。" },
-  { name: "ソフトウェアエンジニア（プロダクト改善自動化／CRE）", desc: "顧客課題を起点にしたプロダクト改善サイクルの構築。" },
-  { name: "ソフトウェアエンジニア（プロダクト連携基盤）", desc: "API基盤・連携基盤の設計・開発・運用。" },
-  { name: "プロダクトエンジニア（Fintech）", desc: "証券バックシステム等、Fintech領域の開発・運用。" },
+  { name: "シニアAI・LLMエンジニア", desc: "AIエージェント開発全般をリードします。LLMを用いた業務自動化プロダクトの設計・実装です。" },
+  { name: "シニアソフトウェアエンジニア（バックエンド／AI・ML領域）", desc: "Goを中心としたバックエンド設計と、AI・機械学習領域のアーキテクチャです。" },
+  { name: "シニア機械学習エンジニア", desc: "機械学習モデルの設計・実装・運用します（MLOps含む）。" },
+  { name: "ソフトウェアエンジニア（フルスタック・HCM領域）", desc: "人的資本管理プロダクトのフロント〜バックエンド開発です。" },
+  { name: "ソフトウェアエンジニア（プロダクト改善自動化／CRE）", desc: "顧客課題を起点にしたプロダクト改善サイクルの構築です。" },
+  { name: "ソフトウェアエンジニア（プロダクト連携基盤）", desc: "API基盤・連携基盤の設計・開発・運用です。" },
+  { name: "プロダクトエンジニア（Fintech）", desc: "証券バックシステム等、Fintech領域の開発・運用です。" },
 ];
 
 const techStack = [
@@ -106,7 +106,7 @@ export default function LayerxCompanyPage() {
     <>
       <ArticleJsonLd
         title="LayerX エンジニア転職ガイド【2026年版】"
-        description="LayerXのエンジニア中途採用を、公式採用ページ・技術ブログ・口コミの一次情報から解説。技術スタック、選考、年収レンジ、30代40代の転職可否までまとめました。"
+        description="LayerXのエンジニア中途採用を、公式採用ページ・技術ブログ・口コミの一次情報から解説します。技術スタック、選考、年収レンジ、30代40代の転職可否までまとめました。"
         url="/company/layerx/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -120,7 +120,7 @@ export default function LayerxCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】LayerXの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: LayerXは非上場のため、有価証券報告書による公式の平均年収は非公表です。口コミ・年収調査サイトの二次集計では全社平均でおおむね650〜850万円台とされます（2026年時点）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・公式平均は非公表（非上場のため有報開示なし）。</li><li>・二次集計値は全社平均650〜850万円台、レンジ600〜1,500万円程度（OpenWork等・2026年時点、変動大）。</li><li>・公開求人はシニア・専門職中心。正確な提示額は公式求人・面談での確認が前提です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・公式平均は非公表です（非上場のため有価証券報告書開示なし）。</li><li>・二次集計値は全社平均650〜850万円台、レンジ600〜1,500万円程度です（OpenWork等・2026年時点、変動大）。</li><li>・公開求人はシニア・専門職中心です。正確な提示額は公式求人・面談での確認が前提です。</li></ul>
         </div>
 
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
@@ -169,7 +169,7 @@ export default function LayerxCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: LayerX公式採用ページ（jobs.layerx.co.jp）。技術スタックは公式採用・技術ブログの公開情報に基づく要約。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: LayerX公式採用ページ（jobs.layerx.co.jp）。技術スタックは公式採用・技術ブログの公開情報に基づく要約します。</p>
         </section>
 
         <section id="hiring" className="mb-10">
@@ -177,11 +177,11 @@ export default function LayerxCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">AI・LLMの実務実装をリードできる</h3>
-              <p className="text-sm text-petrol-deep">公式採用ページではAi Workforce事業を「企業と成長を共にするAIプラットフォーム」と位置づけ、AIエージェント開発をリードするシニア職を募集。請求書処理など実業務の自動化にLLMを落とし込む経験が積めます。</p>
+              <p className="text-sm text-petrol-deep">公式採用ページではAi Workforce事業を「企業と成長を共にするAIプラットフォーム」と位置づけ、AIエージェント開発をリードするシニア職を募集します。請求書処理など実業務の自動化にLLMを落とし込む経験が積めます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マルチプロダクトの急成長SaaS</h3>
-              <p className="text-sm text-petrol-deep">バクラク（法人支出管理）に加え、Ai Workforce・Fintech・Securityと複数事業を展開。各領域で異なる技術課題に取り組め、社内でのキャリアの広がりがあります。</p>
+              <p className="text-sm text-petrol-deep">バクラク（法人支出管理）に加え、Ai Workforce・Fintech・Securityと複数事業を展開しています。各領域で異なる技術課題に取り組め、社内でのキャリアの広がりがあります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">相互理解を重視する選考設計</h3>
@@ -217,7 +217,7 @@ export default function LayerxCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: LayerX公式採用ページ・技術ブログ（note.layerx.co.jp 等）の公開情報を要約。具体的な構成はプロダクト・チームにより異なります。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: LayerX公式採用ページ・技術ブログ（note.layerx.co.jp 等）の公開情報を要約しています。具体的な構成はプロダクト・チームにより異なります。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -232,7 +232,7 @@ export default function LayerxCompanyPage() {
               レンジは600〜1,500万円程度との数値が見られます。ただしこれらは二次集計値であり、職種・グレード・成果により大きく変動します。正確な提示額は公式求人と面談で確認してください。
             </p>
             <p>
-              市場感の参考として、doda「決定年収レポート」（2025年5月公表）ではIT・通信の平均決定年収が2024年度で486万円。
+              市場感の参考として、doda「決定年収レポート」（2025年5月公表）ではIT・通信の平均決定年収が2024年度で486万円です。
               SaaS・スタートアップのシニア職はこれを上回るレンジが中心になりやすい一方、年俸制でみなし残業を含む設計が一般的な点は確認しておくとよいでしょう。年代別の市場相場は
               <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・
               <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も参考にしてください。
@@ -291,21 +291,21 @@ export default function LayerxCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 text-sm mb-3">向いている人</h3>
               <ul className="space-y-2 text-sm text-green-900">
-                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>Goでのバックエンド開発の実務経験がある</li>
+                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>Goでのバックエンド開発の実務経験があります</li>
                 <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>AI・LLM／機械学習をプロダクトに実装したい</li>
                 <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>急成長SaaSで裁量を持って働きたい</li>
-                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>Fintech・会計・HCM等のドメインに関心がある</li>
+                <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>Fintech・会計・HCM等のドメインに関心があります</li>
                 <li className="flex items-start gap-2"><span className="text-green-600 shrink-0">✓</span>フルリモート・フレックスで自律的に働きたい</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <h3 className="font-bold text-rose-800 text-sm mb-3">向いていない人</h3>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>手厚い研修やレールが整った環境を求める</li>
+                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>手厚い研修やレールが整った環境を求めます</li>
                 <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>繁忙の波を一切避けたい・稼働を完全に固定したい</li>
-                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>未経験領域へのキャリアチェンジを狙っている</li>
-                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>役割が明確に切り分けられた業務を好む</li>
-                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>大企業の安定したブランドや制度を最優先する</li>
+                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>未経験領域へのキャリアチェンジを狙っています</li>
+                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>役割が明確に切り分けられた業務を好みます</li>
+                <li className="flex items-start gap-2"><span className="text-rose-500 shrink-0">×</span>大企業の安定したブランドや制度を最優先します</li>
               </ul>
             </div>
           </div>
@@ -315,9 +315,9 @@ export default function LayerxCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">LayerX転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強い。SaaS・スタートアップの非公開求人を保有していることも。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャー・スタートアップに強い成功報酬型媒体。カジュアル面談で社風を把握しやすい。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web・ゲーム特化。提案スピードが速く、急成長スタートアップの実務経験者に向く。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強いです。SaaS・スタートアップの非公開求人を保有していることがあります。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャー・スタートアップに強い成功報酬型媒体です。カジュアル面談で社風を把握しやすいです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web・ゲーム特化です。提案スピードが速く、急成長スタートアップの実務経験者に向きます。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

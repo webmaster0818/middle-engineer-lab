@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: "%s | CareeHUB for Mid Engineer",
   },
   description:
-    "30代・40代のITエンジニアに特化した転職エージェント比較メディア。年収データ・口コミ・体験談をもとに厳選10社を徹底比較。企業別年収(有報準拠)・言語別年収・スキル別ガイドも提供します。",
+    "30代・40代のITエンジニアを対象とした転職エージェント比較メディアです。年収データ・口コミ・公表実績をもとに主要10社を比較しています。企業別年収（有価証券報告書準拠）、言語別年収、スキル別ガイドも掲載しています。",
   metadataBase: new URL("https://middle-engineer.com"),
   openGraph: {
     images: ["/og.png"],
@@ -58,7 +58,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: SITE_NAME,
               url: "https://middle-engineer.com",
-              description: "30代・40代のITエンジニアに特化した転職エージェント比較メディア",
+              description: "30代・40代のITエンジニアを対象とした転職エージェント比較メディアです。",
               sameAs: [],
             }),
           }}
@@ -172,8 +172,8 @@ function Footer() {
           <div>
             <Wordmark light />
             <p className="text-xs leading-relaxed mt-4 text-paper/55">
-              30代・40代のITエンジニアに特化した転職エージェント比較メディア。
-              年収データ・口コミ・実績をもとに、最適なエージェントとキャリアの選択肢をご紹介します。
+              当サイトは、30代・40代のITエンジニアを対象とした転職エージェント比較メディアです。
+              年収データ・口コミ・公表実績をもとに、エージェントの選び方とキャリアの選択肢をご紹介します。
             </p>
           </div>
           <div>
@@ -219,7 +219,7 @@ function Footer() {
         </div>
         <div className="border-t border-paper/15 pt-6 flex flex-col md:flex-row items-center justify-between gap-3">
           <p className="text-xs text-paper/50">
-            当サイトはアフィリエイトプログラムに参加しています。最新情報は各公式サイトでご確認ください。
+            当サイトはアフィリエイトプログラムに参加しています。ご利用前に、各公式サイトにて最新情報をご確認ください。
           </p>
           <p className="text-xs text-paper/50">&copy; 2026 CareeHUB for Mid Engineer</p>
         </div>

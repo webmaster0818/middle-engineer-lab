@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/tableau/" },
   title: "Tableauエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Tableauスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の戦い方をミドル向けに整理します。",
+    "Tableauスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Tableauスキルの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：Tableauスキルの転職市場での進め方" },
   { id: "market", label: "2. 年収・市場データ（出典付き）" },
   { id: "use", label: "3. Tableauの用途と求人傾向" },
   { id: "level", label: "4. 求められる経験レベルと求人要件" },
@@ -70,7 +70,7 @@ export default function TableauSkillPage() {
     <>
       <ArticleJsonLd
         title="Tableauエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Tableauスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の戦い方をミドル向けに整理します。"
+        description="Tableauスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。"
         url="/skill/tableau/"
       />
       <script
@@ -98,7 +98,7 @@ export default function TableauSkillPage() {
             Tableauは、データを可視化してビジネスの意思決定を支援するBI（ビジネスインテリジェンス）ツールです。データソースに接続し、ドラッグ＆ドロップでインタラクティブなダッシュボードを作成できます。経営ダッシュボードから売上・マーケティング分析まで幅広く使われ、求人ではBIエンジニア・データアナリストといった職種の文脈で評価されるのが特徴です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、Tableauスキルを軸にした転職の「攻め方」を、<strong>公表年収データ・用途と求人傾向・求められる経験レベル・関連技術・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
+            本記事では、Tableauスキルを軸にした転職の「進め方」を、<strong>公表年収データ・用途と求人傾向・求められる経験レベル・関連技術・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
           </p>
         </section>
 
@@ -127,15 +127,15 @@ export default function TableauSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Tableauスキルの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Tableauスキルの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Tableauは「操作スキル」ではなく「ビジネス課題を可視化に翻訳する力」で評価されます。</strong>ツールを触れるだけでなく、何を可視化しどんな意思決定につなげたかが問われます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Tableau単体の公表年収は乏しいため、<strong>BIエンジニア／データアナリスト等の職種年収で代替</strong>して捉えるのが実態</li>
-              <li>・Excel・SQLでの分析経験があれば、Tableau未経験でもポテンシャル採用の余地がある</li>
-              <li>・<strong>SQL・DWH・分析設計</strong>との掛け合わせで市場価値が上がる</li>
+              <li>・Excel・SQLでの分析経験があれば、Tableau未経験でもポテンシャル採用の余地があります</li>
+              <li>・<strong>SQL・DWH・分析設計</strong>との掛け合わせで市場価値が上がります</li>
             </ul>
           </div>
         </section>
@@ -183,10 +183,10 @@ export default function TableauSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { use: "経営・KPIダッシュボード", note: "経営指標の可視化。意思決定支援の中核" },
-              { use: "売上・マーケティング分析", note: "売上推移・顧客分析の可視化。事業会社で頻出" },
+              { use: "経営・KPIダッシュボード", note: "経営指標の可視化です。意思決定支援の中核" },
+              { use: "売上・マーケティング分析", note: "売上推移・顧客分析の可視化です。事業会社で頻出" },
               { use: "Tableau Prepによるデータ整形", note: "可視化前のデータクレンジング・結合" },
-              { use: "Tableau Serverでの社内共有", note: "ダッシュボードの配信・権限管理。運用面の役割" },
+              { use: "Tableau Serverでの社内共有", note: "ダッシュボードの配信・権限管理です。運用面の役割" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.use}</h3>
@@ -222,9 +222,9 @@ export default function TableauSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "BIエンジニア", note: "BIダッシュボードの設計・運用。データソース整備とセットで担う" },
-              { role: "データアナリスト", note: "Tableauでの可視化＋分析。ビジネス課題への示唆出し" },
-              { role: "アナリティクスエンジニア", note: "SQL・dbtでのデータ整備＋BI。データ基盤とBIの橋渡し" },
+              { role: "BIエンジニア", note: "BIダッシュボードの設計・運用です。データソース整備とセットで担います" },
+              { role: "データアナリスト", note: "Tableauでの可視化＋分析です。ビジネス課題への示唆出し" },
+              { role: "アナリティクスエンジニア", note: "SQL・dbtでのデータ整備＋BIです。データ基盤とBIの橋渡し" },
               { role: "データ活用推進・社内コンサル", note: "可視化を通じた組織のデータドリブン化を推進" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -248,21 +248,21 @@ export default function TableauSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。BI・データ分析職の専門求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍しています。BI・データ分析職の専門求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                年収750万円以上を中心としたハイクラス・スカウト型。BIエンジニア・データアナリスト級の求人やスカウトに出会いやすいのが特徴です。
+                年収750万円以上を中心としたハイクラス・スカウト型です。BIエンジニア・データアナリスト級の求人やスカウトに出会いやすいのが特徴です。
               </p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で、提案スピードが強み。Tableauを採用するWeb系・データ活用企業の求人を探したい場合の選択肢になります。
+                IT・Web・ゲーム業界専門で、提案スピードが強みです。Tableauを採用するWeb系・データ活用企業の求人を探したい場合の選択肢になります。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -299,13 +299,13 @@ export default function TableauSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>ビジネス理解が年齢の不利を相殺する。</strong>BI・可視化は、ツールの操作よりも「事業の何を測れば意思決定が進むか」を理解している人が強い領域です。30代・40代で事業や業務を深く理解しているなら、それがそのまま武器になります。
+              <strong>ビジネス理解が年齢の不利を相殺します。</strong>BI・可視化は、ツールの操作よりも「事業の何を測れば意思決定が進むか」を理解している人が強い領域です。30代・40代で事業や業務を深く理解しているなら、それがそのまま強みになります。
             </p>
             <p>
-              <strong>掛け算で差別化する。</strong>「Tableau＋SQL／DWH」「Tableau＋過去のドメイン知識（小売・製造・金融など）」の掛け合わせがミドル層の強みです。可視化を業務知識と結びつけて語れると説得力が増します。
+              <strong>掛け算で差別化します。</strong>「Tableau＋SQL／DWH」「Tableau＋過去のドメイン知識（小売・製造・金融など）」の掛け合わせがミドル層の強みです。可視化を業務知識と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>データ活用推進の経験も資産になる。</strong>ダッシュボードを通じて組織のデータドリブンな文化づくりを後押しした経験は、ハイクラス求人で評価されます。教育や推進の実績があれば、技術力とセットで提示しましょう。
+              <strong>データ活用推進の経験も資産になります。</strong>ダッシュボードを通じて組織のデータドリブンな文化づくりを後押しした経験は、ハイクラス求人で評価されます。教育や推進の実績があれば、技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -318,13 +318,13 @@ export default function TableauSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 可視化の基本とTableauの操作を学ぶ。</strong>Tableau Publicで実際にダッシュボードを作りながら、グラフの選び方・色使い・フィルタ・計算フィールドといった基礎を身につけるのが近道です。公式のラーニング教材も充実しています。
+              <strong>① 可視化の基本とTableauの操作を学びます。</strong>Tableau Publicで実際にダッシュボードを作りながら、グラフの選び方・色使い・フィルタ・計算フィールドといった基礎を身につけるのが近道です。公式のラーニング教材も充実しています。
             </p>
             <p>
-              <strong>② SQLとデータソースを学ぶ。</strong>Tableauの裏にはデータベースやDWHがあります。SQLでデータを抽出・整形できると、可視化の質も担当できる範囲も広がります。BigQuery・Snowflakeなどのデータソースへの接続経験があると強みです。
+              <strong>② SQLとデータソースを学びます。</strong>Tableauの裏にはデータベースやDWHがあります。SQLでデータを抽出・整形できると、可視化の質も担当できる範囲も広がります。BigQuery・Snowflakeなどのデータソースへの接続経験があると強みです。
             </p>
             <p>
-              <strong>③ 分析設計とストーリーテリングを磨く。</strong>「誰が見て、何を判断するためのダッシュボードか」を起点に設計する力は、ツールが変わっても通用します。可視化を意思決定に結びつけるストーリーテリングを意識しましょう。
+              <strong>③ 分析設計とストーリーテリングを磨きます。</strong>「誰が見て、何を判断するためのダッシュボードか」を起点に設計する力は、ツールが変わっても通用します。可視化を意思決定に結びつけるストーリーテリングを意識しましょう。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -371,7 +371,7 @@ export default function TableauSkillPage() {
               { name: "データアナリストの転職ガイド", href: "/skill/data-analyst/" },
               { name: "BigQueryエンジニアの転職ガイド", href: "/skill/bigquery/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

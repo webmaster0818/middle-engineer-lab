@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/flextime/" },
   title: "フレックスタイム制のエンジニア求人の見極め方【2026年版】",
   description:
-    "フレックス・フルフレックス・裁量労働・時差出勤の違いを制度比較表で整理。コアタイム・清算期間の確認ポイント、残業は減らない正直な注意点、30-40代の活用法まで解説。",
+    "フレックス・フルフレックス・裁量労働・時差出勤の違いを制度比較表で整理します。コアタイム・清算期間の確認ポイント、残業は減らない注意点、30-40代の活用法まで解説します。",
 };
 
 const faqs = [
@@ -53,7 +53,7 @@ export default function FlextimePage() {
     <>
       <ArticleJsonLd
         title="フレックスタイム制のエンジニア求人の見極め方【2026年版】"
-        description="フレックス・フルフレックス・裁量労働・時差出勤の違いを比較表で整理。コアタイム・清算期間の確認、残業は減らない注意点、30-40代の活用法まで解説。"
+        description="フレックス・フルフレックス・裁量労働・時差出勤の違いを比較表で整理します。コアタイム・清算期間の確認、残業は減らない注意点、30-40代の活用法まで解説します。"
         url="/purpose/flextime/"
       />
       <script
@@ -72,7 +72,7 @@ export default function FlextimePage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           フレックスタイム制のエンジニア求人の見極め方
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 制度の違いを正しく理解して選ぶ完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 制度の違いを正しく理解して選ぶガイド</p>
 
         <DataNote
           surveyedAt="2026年6月"
@@ -88,7 +88,7 @@ export default function FlextimePage() {
             多くの比較サイトは、フレックス・フルフレックス・裁量労働・時差出勤を混同したまま「自由な働き方」と一括りにしています。しかしこれらは制度として全く別物で、<strong>残業代の扱いも自由度も異なります</strong>。本記事は4制度を比較表で明確に区別し、求人票の確認ポイント（コアタイムの有無・清算期間・対象範囲）を整理します。フレックスは「労働時間をいつ配置するか」の自由であり、「総労働時間を減らす」制度ではない——この前提を押さえることが、入社後のミスマッチを防ぐ第一歩です。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 子どもの送り迎えに合わせて始業・終業を調整したい</li>
               <li>- 通勤ラッシュを避けて時差で働きたい</li>
@@ -125,9 +125,9 @@ export default function FlextimePage() {
               <tbody>
                 {[
                   { type: "フレックスタイム制", flex: "コアタイム内は固定", ot: "総枠超で発生", note: "コアタイム（必須勤務帯）あり。前後を自由に調整" },
-                  { type: "フルフレックス", flex: "完全自由", ot: "総枠超で発生", note: "コアタイムなし。何時に働いてもよい" },
-                  { type: "裁量労働制", flex: "本人裁量", ot: "原則みなし", note: "実時間に関わらず一定時間働いたとみなす" },
-                  { type: "時差出勤", flex: "始業をずらすのみ", ot: "通常どおり", note: "所定労働時間は固定。始業・終業を一定パターンでずらす" },
+                  { type: "フルフレックス", flex: "完全自由", ot: "総枠超で発生", note: "コアタイムなし。何時に働いてもよいです" },
+                  { type: "裁量労働制", flex: "本人裁量", ot: "原則みなし", note: "実時間に関わらず一定時間働いたとみなします" },
+                  { type: "時差出勤", flex: "始業をずらすのみ", ot: "通常どおり", note: "所定労働時間は固定です。始業・終業を一定パターンでずらします" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -150,7 +150,7 @@ export default function FlextimePage() {
             厚生労働省「令和6年就労条件総合調査」によると、フレックスタイム制を採用している企業は全体でわずか<strong>7.2%</strong>（適用される労働者は11.5%）です。つまり全産業で見ればフレックスは1割に満たない少数派です。
           </p>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
-            一方、企業規模別では明確な差があります。<strong>1,000人以上で34.9%、300〜999人で19.6%、100〜299人で9.2%、30〜99人で4.4%</strong>。大企業ほど採用率が高く、規模が小さくなるほど急減します。
+            一方、企業規模別では明確な差があります。<strong>1,000人以上で34.9%、300〜999人で19.6%、100〜299人で9.2%、30〜99人で4.4%です</strong>。大企業ほど採用率が高く、規模が小さくなるほど急減します。
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             <strong>独自考察：</strong>全産業平均は1割未満でも、IT業界・大企業に偏ってフレックスが広がっているのが実態です。だからこそ「ITエンジニア×フレックス」の求人件数（16,825件・2026年6月閲覧時点）が比較的多く見えるのは、この“偏在”の表れと読むのが妥当です。逆に言えば、中小・地方の企業ではフレックスがまだ一般的でなく、求人選びで条件を満たす母数が限られる点には注意が必要です。
@@ -162,7 +162,7 @@ export default function FlextimePage() {
           <div className="space-y-4">
             {[
               { num: "1", title: "コアタイムの有無と時間帯を確認", desc: "コアタイムが11〜15時なのか、そもそもフルフレックスでコアタイムなしなのか。送り迎えの時間と重ならないかを確認します。" },
-              { num: "2", title: "清算期間を確認", desc: "労働時間を清算する期間（1か月・最大3か月など）。期間が長いほど月をまたいだ調整がしやすく、繁閑に合わせやすくなります。" },
+              { num: "2", title: "清算期間を確認", desc: "労働時間を清算する期間です（1か月・最大3か月など）。期間が長いほど月をまたいだ調整がしやすく、繁閑に合わせやすくなります。" },
               { num: "3", title: "対象範囲を確認", desc: "全社員が対象か、特定職種・等級のみか。『制度はあるが自分の職種は対象外』というケースを避けます。" },
               { num: "4", title: "実際の運用・利用実態を確認", desc: "制度として存在しても、暗黙の出社時刻が決まっている職場もあります。社員口コミや面接で『実際に何時に来る人が多いか』を聞きます。" },
               { num: "5", title: "残業の扱いを確認", desc: "フレックスでも総枠超は残業です。みなし残業（固定残業代）と併用されている場合は、その時間数と超過時の扱いを確認します。" },
@@ -181,7 +181,7 @@ export default function FlextimePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. フルフレックスの注意点（正直な話）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. フルフレックスの注意点（実情）</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
               コアタイムのないフルフレックスは魅力的ですが、自由度が高いぶん落とし穴もあります。
@@ -231,7 +231,7 @@ export default function FlextimePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">フレックス制の求人を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">制度の中身まで把握したIT特化型エージェントが、あなたの生活に合う企業を提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">制度の中身まで把握したIT特化型エージェントが、ご自身の生活に合う企業を提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -244,7 +244,7 @@ export default function FlextimePage() {
               { name: "ワークライフバランスの考え方", href: "/knowledge/work-life-balance/" },
               { name: "週休3日制の求人ガイド", href: "/purpose/four-day-week/" },
               { name: "転勤なし求人の見極め方", href: "/purpose/no-relocation/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

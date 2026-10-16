@@ -6,13 +6,13 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/green/" },
-  title: "Greenの転職評判は？エージェントとの違いを徹底解説",
+  title: "Greenの転職評判は？エージェントとの違いを解説",
   description:
-    "Green（グリーン）の評判をエンジニア目線で検証。エージェントではなく直接応募型転職サイトである違い、カジュアル面談、口コミの傾向、30代40代の使い分け戦略を出典付きで解説。",
+    "Green（グリーン）の評判をエンジニア目線で検証します。エージェントではなく直接応募型転職サイトである違い、カジュアル面談、口コミの傾向、30代40代の使い分け戦略を出典付きで解説。",
 };
 
 const toc = [
-  { id: "summary", label: "結論：Greenはこんな人向け" },
+  { id: "summary", label: "結論：Greenはこのような方向け" },
   { id: "vs-agent", label: "Greenはエージェントではない：違いを理解する" },
   { id: "basic", label: "基本データ（2026年6月時点）" },
   { id: "strength", label: "Greenの特徴・強み" },
@@ -30,7 +30,7 @@ const toc = [
 
 const basicData: [string, string][] = [
   ["運営会社", "株式会社アトラエ（東証プライム上場・2003年10月設立／二次情報）"],
-  ["サービス形態", "成功報酬型の転職サイト（ダイレクトリクルーティング）。エージェントの仲介サポートはなし"],
+  ["サービス形態", "成功報酬型の転職サイトです（ダイレクトリクルーティング）。エージェントの仲介サポートはなし"],
   ["掲載企業・求人", "掲載企業9,000社以上／求人15,000件以上（媒体により30,000件以上とも・幅あり）"],
   ["登録者", "120万人超（二次情報・幅あり）"],
   ["対応エリア", "全国（東京中心）"],
@@ -60,7 +60,7 @@ const strengths = [
 
 const goodReviews = [
   {
-    point: "企業と直接やり取りでき、スピードが速い",
+    point: "企業と直接やり取りでき、スピードが速いです",
     detail:
       "エージェントを介さないぶん、やり取りが速いという声が見られます。自分のペースでスピーディーに動きたい人に向く傾向です。",
   },
@@ -90,7 +90,7 @@ const badReviews = [
   {
     point: "エージェントの支援がない",
     detail:
-      "書類添削・面接対策・年収交渉といった仲介サポートが無い点が、サポートを求める人には不満として挙げられます。これは欠点というより設計上の特性です。",
+      "書類添削・面接対策・年収交渉といった仲介サポートがない点が、サポートを求める人には不満として挙げられます。これは欠点というより設計上の特性です。",
   },
 ];
 
@@ -157,8 +157,8 @@ export default function GreenReview() {
   return (
     <>
       <ArticleJsonLd
-        title="Greenの転職評判は？エージェントとの違いを徹底解説"
-        description="Green（グリーン）の評判をエンジニア目線で検証。エージェントではなく直接応募型転職サイトである違い、カジュアル面談、口コミの傾向、30代40代の使い分け戦略を出典付きで解説。"
+        title="Greenの転職評判は？エージェントとの違いを解説"
+        description="Green（グリーン）の評判をエンジニア目線で検証します。エージェントではなく直接応募型転職サイトである違い、カジュアル面談、口コミの傾向、30代40代の使い分け戦略を出典付きで解説。"
         url="/review/green/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -172,12 +172,12 @@ export default function GreenReview() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          Greenの転職評判は？エージェントとの違いを徹底解説
+          Greenの転職評判は？エージェントとの違いを解説
         </h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 直接応募型転職サイトの仕組みと口コミ傾向を出典付きで検証</p>
 
         <p className="text-slate-700 leading-relaxed mb-6">
-          Green（グリーン）は、株式会社アトラエが運営するIT/Web業界特化の転職サービスです。ここで最初に押さえておきたい最重要ポイントは、<span className="font-bold">Greenは転職エージェントではなく、企業と直接やり取りする「ダイレクトリクルーティング型の転職サイト」</span>だということ。担当アドバイザーがつくエージェントとは仕組みも使い方も大きく異なります。本記事では、この「エージェントとの違い」を軸に、Greenの特徴・口コミ傾向・30代40代の使い分け戦略を、出典を明示しながら解説します。
+          Green（グリーン）は、株式会社アトラエが運営するIT/Web業界特化の転職サービスです。ここで最初に押さえておきたい最重要ポイントは、<span className="font-bold">Greenは転職エージェントではなく、企業と直接やり取りする「ダイレクトリクルーティング型の転職サイト」</span>だということです。担当アドバイザーがつくエージェントとは仕組みも使い方も大きく異なります。本記事では、この「エージェントとの違い」を軸に、Greenの特徴・口コミ傾向・30代40代の使い分け戦略を、出典を明示しながら解説します。
         </p>
 
         <DataNote
@@ -188,15 +188,15 @@ export default function GreenReview() {
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：Greenはこんな人向け</h2>
+            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：Greenはこのような方向け</h2>
             <p className="text-sm text-blue-900 mb-4 leading-relaxed">
-              <span className="font-bold">総合評価：自分で動けるWeb系エンジニアに強い「直接応募型」転職サイト。</span>
-              一言でいえば、<span className="font-bold">「IT/Webベンチャーを自分のペースで探したい人」「カジュアル面談で社風を確かめたい人」「エージェントの介入なしに企業と直接話したい人」</span>に向いています。
+              <span className="font-bold">総合評価：自分で動けるWeb系エンジニアに強い「直接応募型」転職サイトです。</span>
+              要約すると、<span className="font-bold">「IT/Webベンチャーを自分のペースで探したい人」「カジュアル面談で社風を確かめたい人」「エージェントの介入なしに企業と直接話したい人」</span>に向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-2">
-              <li className="flex gap-2"><span className="shrink-0 font-bold">①</span>エージェントではなく直接応募型。担当者の仲介サポートは無い代わりに自由度とスピードが高い</li>
-              <li className="flex gap-2"><span className="shrink-0 font-bold">②</span>「気になる」機能とカジュアル面談で、社風や開発体制を事前に確認できる</li>
-              <li className="flex gap-2"><span className="shrink-0 font-bold">③</span>ベンチャー・Web系中心。地方・SIer・40代向け求人は手薄なため、エージェント併用が前提に向く</li>
+              <li className="flex gap-2"><span className="shrink-0 font-bold">①</span>エージェントではなく直接応募型です。担当者の仲介サポートはない代わりに自由度とスピードが高いです</li>
+              <li className="flex gap-2"><span className="shrink-0 font-bold">②</span>「気になる」機能とカジュアル面談で、社風や開発体制を事前に確認できます</li>
+              <li className="flex gap-2"><span className="shrink-0 font-bold">③</span>ベンチャー・Web系中心です。地方・SIer・40代向け求人は手薄なため、エージェント併用が前提に向きます</li>
             </ul>
           </div>
         </section>
@@ -249,7 +249,7 @@ export default function GreenReview() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            つまりGreenは、エージェントの「伴走サポート」が無い代わりに、「自由度」と「企業との距離の近さ」を提供するサービスです。サポートが欲しい場面では、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>などのIT特化エージェントを併用するのが、最も現実的な使い方になります。直接応募型の活用法は<Link href="/knowledge/direct-apply/" className="text-petrol hover:underline">直接応募型サービスの使い方</Link>もあわせてご覧ください。
+            つまりGreenは、エージェントの「伴走サポート」がない代わりに、「自由度」と「企業との距離の近さ」を提供するサービスです。サポートが欲しい場面では、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>などのIT特化エージェントを併用するのが、最も現実的な使い方になります。直接応募型の活用法は<Link href="/knowledge/direct-apply/" className="text-petrol hover:underline">直接応募型サービスの使い方</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -323,7 +323,7 @@ export default function GreenReview() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">デメリットへの対処法</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <div className="border-l-4 border-petrol pl-4">
-              <p className="font-bold text-slate-800 mb-1">「サポートが無い」への対処</p>
+              <p className="font-bold text-slate-800 mb-1">「サポートがない」への対処</p>
               <p>書類添削・面接対策・年収交渉は、IT特化エージェントを併用してカバーします。Greenで気になる企業を直接探しつつ、選考対策や交渉はエージェントに任せる二刀流が効果的です。</p>
             </div>
             <div className="border-l-4 border-petrol pl-4">
@@ -342,7 +342,7 @@ export default function GreenReview() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの活用戦略</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-4">
             <p className="text-sm text-amber-900 leading-relaxed">
-              当サイト（ミドルエンジニア転職ラボ）は30代・40代エンジニアの読者を想定しています。ベンチャー・Web系中心というGreenの性質上、年代によって「使いどころ」が変わります。
+              当サイトは30代・40代エンジニアの読者を想定しています。ベンチャー・Web系中心というGreenの性質上、年代によって「使いどころ」が変わります。
             </p>
           </div>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
@@ -427,8 +427,8 @@ export default function GreenReview() {
         <section id="compare" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">他社との比較・使い分け</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed mb-4">
-            <p><span className="font-bold">Greenが向くケース：</span>Web系ベンチャーを自分のペースで探したい、カジュアル面談で社風を確かめたい、企業と直接やり取りしたい。</p>
-            <p><span className="font-bold">エージェントが向くケース：</span>書類添削・面接対策・年収交渉のサポートが欲しい、地方やSIerも含めて幅広く紹介してほしい。</p>
+            <p><span className="font-bold">Greenが向くケース：</span>Web系ベンチャーを自分のペースで探したい、カジュアル面談で社風を確かめたい、企業と直接やり取りしたいです。</p>
+            <p><span className="font-bold">エージェントが向くケース：</span>書類添削・面接対策・年収交渉のサポートが欲しい、地方やSIerも含めて幅広く紹介してほしいです。</p>
             <p><span className="font-bold">併用パターン：</span>Greenで気になる企業を直接探しつつ、<Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>などのエージェントで非公開求人の提案や交渉サポートを受ける二刀流が、直接応募とサポートの両取りになります。</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

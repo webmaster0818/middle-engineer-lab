@@ -34,7 +34,7 @@ const demeritEngineer = [
   "社会保険（健保・年金）が全額自己負担で、額面ほど手取りが増えない",
   "雇用保険・有給・賞与・退職金がなく、休めば収入が減る",
   "案件の途切れ・単価変動のリスクを自分で吸収する必要がある",
-  "確定申告・帳簿付けなど事務負担が発生する。請負は完成責任・契約不適合責任も負う",
+  "確定申告・帳簿付けなど事務負担が発生します。請負は完成責任・契約不適合責任も負う",
 ];
 
 const meritCompany = [
@@ -135,9 +135,9 @@ export default function GyomuItakuPage() {
               業務委託は雇用ではなく、事業主として結ぶ契約です。準委任なら「業務の遂行」に、請負なら「仕事の完成」に責任を負い、後者は完成義務・契約不適合責任まで負います。社会保険・税は自己負担で、単価が高くても手取りは額面ほど増えません。契約の種類と責任範囲を理解したうえで、事業主としての設計を整えて選ぶのが安全です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>「業務委託＝契約形態」「フリーランス＝独立した働き方」で、指す対象が異なる。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>準委任は遂行責任、請負は完成責任。常駐型は準委任、一括受託は請負が多い。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2024年のフリーランス新法・労災特別加入で、保護が一部前進した。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>「業務委託＝契約形態」「フリーランス＝独立した働き方」で、指す対象が異なります。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>準委任は遂行責任、請負は完成責任です。常駐型は準委任、一括受託は請負が多いです。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2024年のフリーランス新法・労災特別加入で、保護が一部前進しました。</li>
             </ul>
           </div>
         </section>
@@ -230,10 +230,10 @@ export default function GyomuItakuPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-5">
             <p className="text-sm font-bold text-slate-700 mb-3">事業主としての保険・税のポイント</p>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険は国民健康保険、年金は国民年金が基本。会社の折半負担がないため負担感が大きい</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険は国民健康保険、年金は国民年金が基本です。会社の折半負担がないため負担感が大きいです</li>
               <li className="flex gap-2"><span className="text-slate-400">▸</span>雇用保険なし（失業給付の対象外）。労災は2024年11月から任意の特別加入が可能に</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>所得税・住民税は自分で確定申告。経費計上の余地がある一方、帳簿付けの事務負担が生じる</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>一定の課税売上があればインボイス・消費税の検討も必要になる</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>所得税・住民税は自分で確定申告です。経費計上の余地がある一方、帳簿付けの事務負担が生じます</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>一定の課税売上があればインボイス・消費税の検討も必要になります</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">

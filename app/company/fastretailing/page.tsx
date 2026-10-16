@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/fastretailing/" },
   title: "ファーストリテイリングの年収とITエンジニア転職の現実【2026年】",
   description:
-    "ユニクロを擁するファーストリテイリングのエンジニア中途採用を有価証券報告書・公式採用の一次情報で解説。平均年収約1,251万円(2025年8月期)の留意点、情報製造小売業のEC/SCM変革、30代40代の現実を中立にまとめました。",
+    "ユニクロを擁するファーストリテイリングのエンジニア中途採用を有価証券報告書・公式採用の一次情報で解説します。平均年収約1,251万円(2025年8月期)の留意点、情報製造小売業のEC/SCM変革、30代40代の現実を中立にまとめました。",
 };
 
 const toc = [
@@ -59,7 +59,7 @@ export default function FastRetailingCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="ファーストリテイリング エンジニア転職ガイド" description="ファーストリテイリング（ユニクロ）へのエンジニア転職を有価証券報告書・公式採用の一次情報で解説。平均年収約1,251万円(2025年8月期)の留意点、情報製造小売業のDXをまとめました。" url="/company/fastretailing/" />
+      <ArticleJsonLd title="ファーストリテイリング エンジニア転職ガイド" description="ファーストリテイリング（ユニクロ）へのエンジニア転職を有価証券報告書・公式採用の一次情報で解説します。平均年収約1,251万円(2025年8月期)の留意点、情報製造小売業のDXをまとめました。" url="/company/fastretailing/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ファーストリテイリング" }]} />
 
@@ -74,7 +74,7 @@ export default function FastRetailingCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ファーストリテイリングの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 有価証券報告書（2025年8月期・提出会社単体）の平均年間給与は約1,251万円ですが、これは店舗社員を含む全社員平均です。IT職は公式採用で580〜1,300万円のレンジ提示例が確認できます。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・有報の平均年収 約1,251万円（2025年8月期・提出会社単体／全従業員平均・賞与含む、平均年齢38.5歳）</li><li>・システム開発・クラウド基盤などのIT職は公式採用で580〜1,300万円のレンジ提示例</li><li>・平均1,251万円は店舗社員を含む全社員平均でありエンジニア単独の年収ではない点に強く留意</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・有価証券報告書の平均年収 約1,251万円（2025年8月期・提出会社単体／全従業員平均・賞与含む、平均年齢38.5歳）</li><li>・システム開発・クラウド基盤などのIT職は公式採用で580〜1,300万円のレンジ提示例</li><li>・平均1,251万円は店舗社員を含む全社員平均でありエンジニア単独の年収ではない点に強く留意</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["ファーストリテイリング 有価証券報告書（2025年8月期）", "ファーストリテイリング 公式採用サイト", "IRBANK", "OpenWork（口コミ傾向）"]} />
@@ -84,9 +84,9 @@ export default function FastRetailingCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（事業会社のDXをリードできる経験者向け）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・中核は<strong>「情報製造小売業」への変革</strong>。EC・サプライチェーン・店舗システムを横断するデジタル変革をビジネスとともにリードできる人に向く。</li>
-              <li>・有報の平均年収は約1,251万円（2025年8月期・単体）だが、これは<strong>店舗社員を含む全社員平均</strong>でありエンジニア単独ではない点に強く留意。IT職は公式に<strong>580〜1,300万円</strong>のレンジ提示例。</li>
-              <li>・グローバル展開を前提とした<strong>大規模システム</strong>に関われる。ベンダー任せでなく事業会社の内側でDXを推進したい人に魅力。</li>
+              <li>・中核は<strong>「情報製造小売業」への変革です</strong>。EC・サプライチェーン・店舗システムを横断するデジタル変革をビジネスとともにリードできる人に向きます。</li>
+              <li>・有価証券報告書の平均年収は約1,251万円（2025年8月期・単体）だが、これは<strong>店舗社員を含む全社員平均</strong>でありエンジニア単独ではない点に強く留意です。IT職は公式に<strong>580〜1,300万円</strong>のレンジ提示例です。</li>
+              <li>・グローバル展開を前提とした<strong>大規模システム</strong>に関われます。ベンダー任せでなく事業会社の内側でDXを推進したい人に魅力です。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">逆に、純粋な技術特化で最新スタックの探求のみを望む人や、平均1,251万円をそのままエンジニアの想定年収と捉えてしまう人は、実態とのギャップに注意が必要です。</p>
           </div>
@@ -155,9 +155,9 @@ export default function FastRetailingCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">ファーストリテイリングは中途採用の詳細な選考フローを公式に網羅的には公開していません。創作した固定フローは掲載せず、一般的な大手事業会社の中途採用で想定される大枠のみを示します。</p>
           <ol className="space-y-3">
             {[
-              ["STEP 1", "書類選考", "公式採用ページまたはエージェント経由で応募。職務経歴・実績を確認。"],
-              ["STEP 2", "面接（複数回）", "技術面・ビジネス理解・カルチャーフィットを含む複数回が想定される。回数・形式は職種・時期で変動。"],
-              ["STEP 3", "内定", "条件提示。具体的な選考期間は公式に明示されていない。"],
+              ["STEP 1", "書類選考", "公式採用ページまたはエージェント経由で応募します。職務経歴・実績を確認します。"],
+              ["STEP 2", "面接（複数回）", "技術面・ビジネス理解・カルチャーフィットを含む複数回が想定されます。回数・形式は職種・時期で変動しています。"],
+              ["STEP 3", "内定", "条件提示です。具体的な選考期間は公式に明示されていません。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -184,14 +184,14 @@ export default function FastRetailingCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、ファーストリテイリングについて<strong>「事業のスケールが大きくグローバルに挑戦できる」「成長機会が多く裁量を持てる」「成果が評価される実力主義」</strong>といった声が見られる一方、<strong>「変化のスピードが速く業務量・プレッシャーが大きい」「スピード感に適応できるかで評価が分かれる」</strong>といった指摘も見られます。挑戦と成長を重視する文化である一方、その強度を許容できるかが定着の鍵になる傾向がうかがえます。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
         </section>
 
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たファーストリテイリング</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>30代・40代のエンジニアにとって、ファーストリテイリングの「事業会社の内側からEC・SCM・店舗のDXをリードする」役割は、ミドル層の経験が最も活きるフィールドです。技術だけでなくビジネスと組織を動かす力が求められるため、複数のプロジェクトや部門連携を経験してきたミドルの総合力が直接価値になります。グローバル規模の大規模システムに関われる機会は、事業会社では希少です。</p>
-            <p>年収の見方には特に注意が必要です。有報の平均約1,251万円は<strong>店舗社員を含む全社員平均</strong>であり、これをそのままエンジニアの想定年収と捉えると実態とずれます。IT職としては公式の580〜1,300万円のレンジ例を基準に、自分の経験に対する提示を個別に確認・交渉することが重要です。また、変化のスピードが速い文化のため、生活基盤が固まった40代では働き方の強度を事前に見極めることをおすすめします。</p>
+            <p>年収の見方には特に注意が必要です。有価証券報告書の平均約1,251万円は<strong>店舗社員を含む全社員平均</strong>であり、これをそのままエンジニアの想定年収と捉えると実態とずれます。IT職としては公式の580〜1,300万円のレンジ例を基準に、自分の経験に対する提示を個別に確認・交渉することが重要です。また、変化のスピードが速い文化のため、生活基盤が固まった40代では働き方の強度を事前に見極めることをおすすめします。</p>
             <p>転職活動では、ミドル層の市場価値・年収交渉の観点も押さえておきたいところです。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>や<Link href="/industry/retail/" className="text-petrol hover:underline">小売・流通業界の転職</Link>、<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>もあわせて確認してください。</p>
           </div>
         </section>
@@ -205,16 +205,16 @@ export default function FastRetailingCompanyPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>EC・SCM・店舗・クラウドの大規模システム経験者</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>事業会社の内側からDXをリードしたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>グローバル・大規模なビジネスに挑戦したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>技術とビジネスの両面で価値を出せる</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>技術とビジネスの両面で価値を出せます</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>純粋な技術探求・最新スタックのみを志向する</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>純粋な技術探求・最新スタックのみを志向します</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>変化のスピードや業務強度を避けたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>平均1,251万円をエンジニア想定年収と誤解している</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>ビジネス・組織への関与を負担に感じる</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>平均1,251万円をエンジニア想定年収と誤解しています</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>ビジネス・組織への関与を負担に感じます</li>
               </ul>
             </div>
           </div>
@@ -223,9 +223,9 @@ export default function FastRetailingCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ファーストリテイリング転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けスカウト型。事業会社のDX・上位ポジションに出会いやすい。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人に強い。EC・基盤系の求人提案と面接対策が受けられる。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。大手事業会社のIT求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けスカウト型です。事業会社のDX・上位ポジションに出会いやすいです。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人に強いです。EC・基盤系の求人提案と面接対策が受けられます。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。大手事業会社のIT求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">

@@ -172,7 +172,7 @@ const categories: { id: string; title: string; faqs: Faq[] }[] = [
         body: (
           <>
             公表値ではdodaが転職者の約6割で年収アップ（2024年度・パーソルキャリア公表）、Geeklyが年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）としています。年収アップの進め方は
-            <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収UPを狙う転職ガイド</Link>
+            <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収アップを狙う転職ガイド</Link>
             と
             <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>
             で解説しています。

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "MongoDBスキルで転職｜年収・求人・将来性【2026年】";
 const PAGE_DESC =
-  "MongoDB（NoSQL）スキルを軸にした転職市場を出典付きで解説。MongoDBは単体スキルではなくDB設計・運用やバックエンド開発の実務基盤として評価される点を整理。求人ボックス公表のデータベースエンジニア年収、求人傾向、30代・40代の戦い方をミドルエンジニア向けにまとめます。";
+  "MongoDB（NoSQL）スキルを軸にした転職市場を出典付きで解説。MongoDBは単体スキルではなくDB設計・運用やバックエンド開発の実務基盤として評価される点を整理します。求人ボックス公表のデータベースエンジニア年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/mongodb/" },
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: "MongoDBとRDB、どちらを学ぶべきですか？",
-    a: "まずRDBの基礎を固めるのが定石です。多くのシステムは依然としてRDBが主役で、RDBの設計力は転用性が高いためです。そのうえでMongoDBを学ぶと、「RDBとNoSQLを使い分けられる」希少性が出ます。MongoDB単体より、RDBとの併用・使い分けを語れることが市場価値につながります。",
+    a: "まずRDBの基礎を固めるのが基本です。多くのシステムは依然としてRDBが主役で、RDBの設計力は転用性が高いためです。そのうえでMongoDBを学ぶと、「RDBとNoSQLを使い分けられる」希少性が出ます。MongoDB単体より、RDBとの併用・使い分けを語れることが市場価値につながります。",
   },
   {
     q: "MongoDBスキルを証明する手段はありますか？",
@@ -143,9 +143,9 @@ export default function MongodbSkillPage() {
               <strong>MongoDBは「これ単体で転職する」スキルではなく、RDBと使い分けられるDB設計力としてバックエンド職の市場価値を底上げする実務基盤です。</strong>NoSQLのデータモデリングを掛け合わせることで、応募の幅と希少性が広がります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・MongoDB単体の職種別年収は公表が乏しく、<strong>データベースエンジニア約453万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握する</li>
-              <li>・求人では「NoSQLでのデータ設計」「RDBとの使い分け」「DB選定を伴うバックエンド開発」の文脈で問われる</li>
-              <li>・RDB＋MongoDBの両刀使いは、設計の引き出しの多さとして評価されやすい</li>
+              <li>・MongoDB単体の職種別年収は公表が乏しく、<strong>データベースエンジニア約453万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握します</li>
+              <li>・求人では「NoSQLでのデータ設計」「RDBとの使い分け」「DB選定を伴うバックエンド開発」の文脈で問われます</li>
+              <li>・RDB＋MongoDBの両刀使いは、設計の引き出しの多さとして評価されやすいです</li>
             </ul>
           </div>
         </section>
@@ -183,7 +183,7 @@ export default function MongodbSkillPage() {
         <section id="level" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            MongoDBに関する要件は「アプリからクエリを書ける」レベルから「大規模NoSQL基盤を設計・運用できる」レベルまで幅があります。求人票によく登場する要件を傾向としてまとめると次の通りです。
+            MongoDBに関する要件は「アプリからクエリを書ける」レベルから「大規模NoSQL基盤を設計・運用できる」レベルまで幅があります。求人票によく登場する要件を傾向としてまとめると次のとおりです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -210,8 +210,8 @@ export default function MongodbSkillPage() {
             {[
               { role: "バックエンドエンジニア（DB選定込み）", note: "アプリ開発＋RDB/NoSQLの選定・設計を担当" },
               { role: "データベースエンジニア（NoSQL）", note: "NoSQLの設計・運用・スケール設計が中心" },
-              { role: "データ基盤エンジニア", note: "MongoDBを起点にイベント・ログ基盤、データ分析へ広げる" },
-              { role: "SRE（DB信頼性）", note: "レプリカセット・シャーディングの可用性をソフトウェア工学で支える" },
+              { role: "データ基盤エンジニア", note: "MongoDBを起点にイベント・ログ基盤、データ分析へ広げます" },
+              { role: "SRE（DB信頼性）", note: "レプリカセット・シャーディングの可用性をソフトウェア工学で支えます" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -234,7 +234,7 @@ export default function MongodbSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。NoSQL・データ基盤系の専門求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍しています。NoSQL・データ基盤系の専門求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
@@ -248,7 +248,7 @@ export default function MongodbSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で、提案スピードが強み。MongoDBを採用するWeb系スタートアップの求人を探したい場合の選択肢です。
+                IT・Web・ゲーム業界専門で、提案スピードが強みです。MongoDBを採用するWeb系スタートアップの求人を探したい場合の選択肢です。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -285,13 +285,13 @@ export default function MongodbSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>使い分けの判断力が武器になる。</strong>「RDBとNoSQLのどちらを、なぜ選ぶか」を実プロジェクトの経験から語れることは、30代・40代ならではの強みです。技術の流行に飛びつくのではなく、要件に応じて選定できる姿勢が評価されます。
+              <strong>使い分けの判断力が強みになります。</strong>「RDBとNoSQLのどちらを、なぜ選ぶか」を実プロジェクトの経験から語れることは、30代・40代ならではの強みです。技術の流行に飛びつくのではなく、要件に応じて選定できる姿勢が評価されます。
             </p>
             <p>
-              <strong>掛け算で差別化する。</strong>MongoDB単体より「MongoDB＋RDB」「MongoDB＋ドメイン知識」の掛け合わせが強みです。柔軟なデータ構造が必要な業務（カタログ、IoT、ログ分析など）の知見があると、設計の説得力が増します。
+              <strong>掛け算で差別化します。</strong>MongoDB単体より「MongoDB＋RDB」「MongoDB＋ドメイン知識」の掛け合わせが強みです。柔軟なデータ構造が必要な業務（カタログ、IoT、ログ分析など）の知見があると、設計の説得力が増します。
             </p>
             <p>
-              <strong>運用・スケールの経験は希少。</strong>レプリカセットやシャーディングを伴う本番運用の経験は、求人市場で高く評価されます。障害対応やデータ移行の具体的なエピソードを用意しておきましょう。
+              <strong>運用・スケールの経験は希少です。</strong>レプリカセットやシャーディングを伴う本番運用の経験は、求人市場で高く評価されます。障害対応やデータ移行の具体的なエピソードを用意しておきましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -304,13 +304,13 @@ export default function MongodbSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① まずRDBの基礎を固める。</strong>正規化やトランザクションなど<Link href="/skill/sql/" className="text-petrol hover:underline">SQL／データベース</Link>の基礎を理解しておくと、MongoDBの「あえて非正規化する」設計判断の意味が分かります。RDBとの対比でNoSQLを学ぶのが効率的です。
+              <strong>① まずRDBの基礎を固めます。</strong>正規化やトランザクションなど<Link href="/skill/sql/" className="text-petrol hover:underline">SQL／データベース</Link>の基礎を理解しておくと、MongoDBの「あえて非正規化する」設計判断の意味が分かります。RDBとの対比でNoSQLを学ぶのが効率的です。
             </p>
             <p>
-              <strong>② アクセスパターン起点で設計する。</strong>MongoDBはクエリのされ方を前提にドキュメント構造を決めます。埋め込みと参照の使い分け、インデックス設計、aggregationパイプラインを個人開発で試すと、面接で語れる経験になります。
+              <strong>② アクセスパターン起点で設計します。</strong>MongoDBはクエリのされ方を前提にドキュメント構造を決めます。埋め込みと参照の使い分け、インデックス設計、aggregationパイプラインを個人開発で試すと、面接で語れる経験になります。
             </p>
             <p>
-              <strong>③ 運用・周辺領域へ広げる。</strong>コンテナでのDB運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドサービス（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>等）まで広げると、基盤側の求人にも手が届きます。RDBの<Link href="/cert/database-specialist/" className="text-petrol hover:underline">データベーススペシャリスト</Link>で設計の基礎を固めるのも有効です。
+              <strong>③ 運用・周辺領域へ広げます。</strong>コンテナでのDB運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドサービス（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>等）まで広げると、基盤側の求人にも手が届きます。RDBの<Link href="/cert/database-specialist/" className="text-petrol hover:underline">データベーススペシャリスト</Link>で設計の基礎を固めるのも有効です。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -357,7 +357,7 @@ export default function MongodbSkillPage() {
               { name: "Redisスキルの転職ガイド", href: "/skill/redis/" },
               { name: "Apache Kafkaスキルの転職ガイド", href: "/skill/kafka/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

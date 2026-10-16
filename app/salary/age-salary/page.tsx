@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "年代別エンジニア年収・転職難易度 早見表【30代・40代・50代】2026年";
 const PAGE_DESC =
-  "ITエンジニアの年代別の平均年収（公表値）と、転職難易度・狙える年収レンジ・年代ごとの戦い方を1つの早見表で比較。30代・40代・50代のミドルエンジニアが、自分の年齢で何を武器に転職すべきかがわかります。";
+  "ITエンジニアの年代別の平均年収（公表値）と、転職難易度・狙える年収レンジ・年代ごとの進め方を1つの早見表で比較します。30代・40代・50代のミドルエンジニアが、自分の年齢で何を強みに転職すべきかが分かります。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/age-salary/" },
@@ -15,17 +15,17 @@ export const metadata: Metadata = {
   description: PAGE_DESC,
 };
 
-// 平均年収はレバテック公表の年代別平均（参考値）。転職難易度・レンジは公的統計と市場傾向にもとづく当サイトの整理。
+// 平均年収はレバテック公表の年代別平均です（参考値）。転職難易度・レンジは公的統計と市場傾向にもとづく当サイトの整理です。
 type Row = { age: string; avg: string; difficulty: string; range: string; point: string; link?: string };
 const rows: Row[] = [
-  { age: "全年代（IT/Web）", avg: "約578.5万円", difficulty: "—", range: "—", point: "市場全体の基準値。これより上を狙えるかは経験・スキル次第。", link: undefined },
-  { age: "30代", avg: "約499万円〜", difficulty: "易〜中（最も転職しやすい）", range: "500〜800万円", point: "即戦力＋伸びしろの両方を評価される最も動きやすい年代。マネジメント or 専門性の方向性を固めるとレンジ上限を狙える。", link: "/age/30s/" },
-  { age: "40代", avg: "約618万円〜", difficulty: "中〜難（即戦力・実績必須）", range: "600〜1,000万円", point: "ポテンシャル採用は減り、実績・マネジメント・専門性が問われる。現スキルが活きる企業を選ぶと年齢のハードルが下がる。", link: "/age/40s/" },
-  { age: "50代", avg: "約711万円（50代以上平均）", difficulty: "難（高度専門・管理職に限定）", range: "700〜1,200万円＋", point: "求人は絞られるが、高度専門・CTO/EM・特定ドメインの実績があれば高年収。人脈・リファラルの比重が上がる。", link: "/age/50s/" },
+  { age: "全年代（IT/Web）", avg: "約578.5万円", difficulty: "—", range: "—", point: "市場全体の基準値です。これより上を狙えるかは経験・スキル次第です。", link: undefined },
+  { age: "30代", avg: "約499万円〜", difficulty: "易〜中（最も転職しやすい）", range: "500〜800万円", point: "即戦力＋伸びしろの両方を評価される最も動きやすい年代です。マネジメント or 専門性の方向性を固めるとレンジ上限を狙えます。", link: "/age/30s/" },
+  { age: "40代", avg: "約618万円〜", difficulty: "中〜難（即戦力・実績必須）", range: "600〜1,000万円", point: "ポテンシャル採用は減り、実績・マネジメント・専門性が問われます。現スキルが活きる企業を選ぶと年齢のハードルが下がります。", link: "/age/40s/" },
+  { age: "50代", avg: "約711万円（50代以上平均）", difficulty: "難（高度専門・管理職に限定）", range: "700〜1,200万円＋", point: "求人は絞られるが、高度専門・CTO/EM・特定ドメインの実績があれば高年収です。人脈・リファラルの比重が上がります。", link: "/age/50s/" },
 ];
 
 const points = [
-  { t: "30代は「最も転職しやすい年代」", d: "即戦力と将来性の両方を評価されるため求人の選択肢が最多。年収アップ転職もしやすい時期です。マネジメントに進むか専門性を深めるかの方向性をこの時期に固めると、40代以降のレンジが変わります。" },
+  { t: "30代は「最も転職しやすい年代」", d: "即戦力と将来性の両方を評価されるため求人の選択肢が最多です。年収アップ転職もしやすい時期です。マネジメントに進むか専門性を深めるかの方向性をこの時期に固めると、40代以降のレンジが変わります。" },
   { t: "40代は「現スキルが活きる企業」を選ぶ", d: "ポテンシャル採用が減るぶん、使用技術・ドメイン経験が現職と近い企業ほど即戦力評価され、年齢のハードルが下がります。技術スタックから転職先を逆引きするのが効率的です。" },
   { t: "50代は専門性・マネジメント・人脈", d: "求人数は絞られますが、高度専門職やEM/CTO級、特定業界の深い実績があれば高年収が狙えます。リファラル（紹介）経由の比重が上がる年代です。" },
   { t: "年収の絶対額より「自分の市場価値」を測る", d: "上の平均はあくまで年代の中央的な参考値です。同年代でも企業・職種・スキルでレンジは大きく変わります。まずエージェントで自分の想定年収レンジを把握するのが近道です。" },
@@ -56,7 +56,7 @@ export default function AgeSalaryPage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">年代別 エンジニア年収・転職難易度 早見表【30代・40代・50代】</h1>
         <p className="text-slate-600 leading-relaxed mb-4">
-          ITエンジニアの<strong>年代別の平均年収（公表値）</strong>と、<strong>転職難易度・狙える年収レンジ・年代ごとの戦い方</strong>を1つの早見表にまとめました。「自分の年齢で、何を武器にどのレンジを狙えるか」を、ミドル（30代・40代・50代）の視点で整理しています。
+          ITエンジニアの<strong>年代別の平均年収（公表値）</strong>と、<strong>転職難易度・狙える年収レンジ・年代ごとの進め方</strong>を1つの早見表にまとめました。「自分の年齢で、何を強みにどのレンジを狙えるか」を、ミドル（30代・40代・50代）の視点で整理しています。
         </p>
         <DataNote surveyedAt="2026年6月" sources={["レバテック公表 年代別平均年収", "厚生労働省 job tag", "doda 決定年収レポート"]} />
         <p className="text-slate-500 text-sm mb-8">最終更新: 2026年7月｜平均年収は公表値の参考レンジです。同年代でも企業・職種・スキルでレンジは大きく変わります。</p>
@@ -93,7 +93,7 @@ export default function AgeSalaryPage() {
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年齢階級別の推定年収（厚労省・令和7年賃金構造基本統計調査）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            公的統計で最も新しい年齢別データです（2026年3月公表・e-Statの原表から当サイトが集計）。<strong>推定年収＝きまって支給する現金給与額×12＋年間賞与</strong>（一般労働者・企業規模計・男女計）。残業代込みの平均値のため、中央値の体感より高めに出る点に注意してください。
+            公的統計で最も新しい年齢別データです（2026年3月公表・e-Statの原表から当サイトが集計）。<strong>推定年収＝きまって支給する現金給与額×12＋年間賞与です</strong>（一般労働者・企業規模計・男女計）。残業代込みの平均値のため、中央値の体感より高めに出る点に注意してください。
           </p>
           <div className="overflow-x-auto mb-3">
             <table className="w-full text-sm border-collapse">
@@ -134,7 +134,7 @@ export default function AgeSalaryPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年代別の戦い方（ミドルエンジニア視点）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年代別の進め方（ミドルエンジニア視点）</h2>
           <div className="space-y-4">
             {points.map((p, i) => (
               <div key={p.t} className="border border-slate-200 rounded-lg p-5">
@@ -160,8 +160,8 @@ export default function AgeSalaryPage() {
 
         <section className="mb-10">
       <TechgoCta
-        heading="あなたの年齢の「平均」を超えるための一手"
-        note="テックゴーは年収アップ平均144万円（2026年3月の内定承諾者平均・公式公表）・年収アップ成功率86%（2026年3月の内定承諾者・公式公表）のIT特化エージェント。面談は完全無料です。"
+        heading="ご自身の年齢の「平均」を超えるための一手"
+        note="テックゴーは年収アップ平均144万円（2026年3月の内定承諾者平均・公式公表）・年収アップ成功率86%（2026年3月の内定承諾者・公式公表）のIT特化エージェントです。面談は完全無料です。"
         buttonText="無料キャリア面談で市場価値を確認する（公式）"
       />
 
@@ -176,7 +176,7 @@ export default function AgeSalaryPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-3">あなたの年代での想定年収を把握しよう</h2>
+          <h2 className="text-xl font-bold mb-3">ご自身の年代での想定年収を把握しよう</h2>
           <p className="text-blue-100 text-sm mb-4">同年代でも企業・スキルでレンジは大きく変わります。IT特化エージェントに無料相談して、自分の市場価値と狙える年収を把握しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>

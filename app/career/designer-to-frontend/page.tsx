@@ -6,13 +6,13 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "Webデザイナーからフロントエンドエンジニアへの転職｜移行ステップ";
 const DESC =
-  "Webデザイナーからフロントエンドエンジニアへキャリアチェンジする進め方を、スキルギャップ比較表・学習ステップ・職務経歴書のBefore/After例文付きで解説。30代40代の現実も正直に紹介します。";
+  "Webデザイナーからフロントエンドエンジニアへキャリアチェンジする進め方を、スキルギャップ比較表・学習ステップ・職務経歴書のBefore/After例文付きで解説します。30代40代の現実も紹介します。";
 const URL = "/career/designer-to-frontend/";
 
 export const metadata: Metadata = { alternates: { canonical: "/career/designer-to-frontend/" }, title: TITLE, description: DESC };
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と正直な難度" },
+  { id: "conclusion", label: "結論：現実性と実際の難度" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -48,9 +48,9 @@ const migrationSteps = [
 ];
 
 const agents = [
-  { name: "レバテックキャリア", point: "IT/Web特化で技術理解のあるアドバイザーが在籍。デザイン経験を活かせるフロント／UIエンジニア求人の相談に向きます。", href: "/review/levtech/" },
-  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数。Web系の求人が豊富で、キャリアチェンジを含む転職でも選択肢を確保しやすい。", href: "/review/recruit-it/" },
-  { name: "ビズリーチ", point: "ハイクラス・スカウト型。デザインエンジニアなど、デザイン×実装を評価するポジションのスカウトを受けられる可能性があります。", href: "/review/bizreach-it/" },
+  { name: "レバテックキャリア", point: "IT/Web特化で技術理解のあるアドバイザーが在籍しています。デザイン経験を活かせるフロント／UIエンジニア求人の相談に向きます。", href: "/review/levtech/" },
+  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数です。Web系の求人が豊富で、キャリアチェンジを含む転職でも選択肢を確保しやすいです。", href: "/review/recruit-it/" },
+  { name: "ビズリーチ", point: "ハイクラス・スカウト型です。デザインエンジニアなど、デザイン×実装を評価するポジションのスカウトを受けられる可能性があります。", href: "/review/bizreach-it/" },
 ];
 
 const faqs = [
@@ -104,7 +104,7 @@ export default function DesignerToFrontendPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-2">
-          「自分のデザインを自分で動かしたい」「実装まで担える幅広い人材になりたい」という動機で、Webデザイナーからフロントエンドエンジニアへキャリアチェンジする人がいます。HTML/CSSやデザインの素養が土台になる一方、JavaScript/TypeScriptとReact等は新たな習得が必要です。本記事は難しさも正直に踏まえつつ、スキルギャップの可視化・在職中の学習ステップ・職務経歴書の書き換え例を解説します。
+          「自分のデザインを自分で動かしたい」「実装まで担える幅広い人材になりたい」という動機で、Webデザイナーからフロントエンドエンジニアへキャリアチェンジする人がいます。HTML/CSSやデザインの素養が土台になる一方、JavaScript/TypeScriptとReact等は新たな習得が必要です。本記事は難しさも踏まえつつ、スキルギャップの可視化・在職中の学習ステップ・職務経歴書の書き換え例を解説します。
         </p>
 
         <DataNote
@@ -129,11 +129,11 @@ export default function DesignerToFrontendPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：デザインは強い武器。鍵はJSとReactの習得</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：デザインは強い強みです。鍵はJSとReactの習得</h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・HTML/CSSとデザインの素養が土台。まったくの異職種より移行しやすい部類。</li>
-              <li>・ギャップが大きいのは「JavaScript/TypeScript」と「React等のフレームワーク」。成果物が決め手。</li>
-              <li>・デザイン×実装の希少性は強み。デザインエンジニア・UIエンジニアという入口も有力。</li>
+              <li>・HTML/CSSとデザインの素養が土台です。まったくの異職種より移行しやすい部類です。</li>
+              <li>・ギャップが大きいのは「JavaScript/TypeScript」と「React等のフレームワーク」。成果物が決め手です。</li>
+              <li>・デザイン×実装の希少性は強みです。デザインエンジニア・UIエンジニアという入口も有力です。</li>
             </ul>
           </div>
         </section>
@@ -203,24 +203,24 @@ export default function DesignerToFrontendPage() {
         <section id="resume" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">職務経歴書での見せ方（Before/After例文）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            デザイナーの職務経歴書は「デザイン・コーディング」が中心になりがちですが、フロント選考では「UIをどう設計し、どう実装して動かしたか」と「デザインと実装を橋渡しできる強み」を語る形が刺さります。書き換え例を示します。
+            デザイナーの職務経歴書は「デザイン・コーディング」が中心になりがちですが、フロント選考では「UIをどう設計し、どう実装して動かしたか」と「デザインと実装を橋渡しできる強み」を語る形が評価されます。書き換え例を示します。
           </p>
           <div className="space-y-4">
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（デザイン制作の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                コーポレートサイトやLPのデザインを担当。Figmaでデザインカンプを作成し、HTML/CSSでコーディング。レスポンシブ対応やバナー制作も行った。
+                コーポレートサイトやLPのデザインを担当します。Figmaでデザインカンプを作成し、HTML/CSSでコーディングです。レスポンシブ対応やバナー制作も行った。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（設計・実装と希少性を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                個人開発で自身がデザインしたUIをReact/Next.js・TypeScriptで実装し、API連携・状態管理・レスポンシブ・アクセシビリティ（WAI-ARIA）まで対応してデプロイ。デザイン経験を活かしコンポーネント設計とデザインシステムを構築した。デザインと実装を一貫して担える点が強み。GitHubでコードを公開。
+                個人開発で自身がデザインしたUIをReact/Next.js・TypeScriptで実装し、API連携・状態管理・レスポンシブ・アクセシビリティ（WAI-ARIA）まで対応してデプロイです。デザイン経験を活かしコンポーネント設計とデザインシステムを構築しました。デザインと実装を一貫して担える点が強みです。GitHubでコードを公開しています。
               </p>
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※技術・実績は自分のものに置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>を参照。
+            ※技術・実績は自分のものに置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>をご参照ください。
           </p>
         </section>
 
@@ -251,7 +251,7 @@ export default function DesignerToFrontendPage() {
         <section id="midage" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の現実と進め方</h2>
           <p className="text-slate-600 leading-relaxed mb-3">
-            正直にお伝えすると、30代・40代でのキャリアチェンジは、年齢が上がるほどポテンシャル採用の枠が狭くなります。ただしデザイナーからフロントへの移行は、HTML/CSSとデザインという即戦力の強みを持ち込めるため、まったくの未経験職種への転換よりは戦いやすい部類です。
+            ご説明すると、30代・40代でのキャリアチェンジは、年齢が上がるほどポテンシャル採用の枠が狭くなります。ただしデザイナーからフロントへの移行は、HTML/CSSとデザインという即戦力の強みを持ち込めるため、まったくの未経験職種への転換よりは戦いやすい部類です。
           </p>
           <p className="text-slate-600 leading-relaxed mb-3">
             鍵は、デザインという強みを実装と掛け合わせ、「なぜこの年齢でエンジニアに移るのか」に一貫した答えを用意することです。純粋なフロント職に正面から挑むより、デザインエンジニア・UIエンジニアなど、デザイン素養が差別化要因になる入口を選ぶと勝率が上がります。

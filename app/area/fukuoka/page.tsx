@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/fukuoka/" },
   title: "福岡のIT転職事情【2026年】スタートアップとリモート移住の選択肢",
   description:
-    "福岡のIT・Webエンジニア転職を解説。スタートアップ支援で知られる都市の特徴、働き方の選択肢、年代別年収の考え方、エリア対応エージェント、移住の進め方を30代・40代向けに整理します。",
+    "福岡のIT・Webエンジニア転職を解説します。スタートアップ支援で知られる都市の特徴、働き方の選択肢、年代別年収の考え方、エリア対応エージェント、移住の進め方を30代・40代向けに整理します。",
 };
 
 const toc = [
@@ -37,10 +37,10 @@ const fitNo = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手。ポテンシャル採用も多い層。" },
-  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層。" },
-  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層。" },
-  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も多い層です。" },
+  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
+  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層です。" },
+  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
 ];
 
 const agents = [
@@ -48,25 +48,25 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。技術理解の高いアドバイザーが特徴で、スタートアップ・自社開発を志向するエンジニアと相性が良い。首都圏中心とされるが、フルリモート求人で福岡在住でも選択肢を広げやすい。",
+      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、スタートアップ・自社開発を志向するエンジニアと相性が良いです。首都圏中心とされるが、フルリモート求人で福岡在住でも選択肢を広げやすいです。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型。IT・ゲーム領域に強く、地方在住からの相談に向く。レスポンスの速さに定評があり、未経験歓迎求人も比較的多い。",
+      "全国47都道府県57拠点を構える総合型です。IT・ゲーム領域に強く、地方在住からの相談に向きます。レスポンスの速さに定評があり、未経験歓迎求人も比較的多いです。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型。検索・エージェント・スカウトのハイブリッド型で、福岡の地元求人から首都圏のフルリモート求人まで幅広く当たりやすい。求人量の多さが強み。",
+      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、福岡の地元求人から首都圏のフルリモート求人まで幅広く当たりやすいです。求人量の多さが強みです。",
   },
   {
     name: "Green",
     href: "/review/green/",
     point:
-      "成功報酬型の転職サイト（ダイレクトリクルーティング）。IT/Webベンチャー・スタートアップに強く、カジュアル面談で社風を把握しやすい。仲介サポートはない点に留意。",
+      "成功報酬型の転職サイトです（ダイレクトリクルーティング）。IT/Webベンチャー・スタートアップに強く、カジュアル面談で社風を把握しやすいです。仲介サポートはない点に留意です。",
   },
 ];
 
@@ -116,7 +116,7 @@ export default function FukuokaAreaPage() {
     <>
       <ArticleJsonLd
         title="福岡のIT転職事情【2026年】スタートアップとリモート移住の選択肢"
-        description="福岡のIT・Webエンジニア転職を解説。スタートアップ支援で知られる都市の特徴、働き方の選択肢、年代別年収の考え方、エリア対応エージェント、移住の進め方を紹介します。"
+        description="福岡のIT・Webエンジニア転職を解説します。スタートアップ支援で知られる都市の特徴、働き方の選択肢、年代別年収の考え方、エリア対応エージェント、移住の進め方を紹介します。"
         url="/area/fukuoka/"
       />
       <script
@@ -163,8 +163,8 @@ export default function FukuokaAreaPage() {
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>・スタートアップ支援で知られ、Web/自社開発のコミュニティが活発</li>
-              <li>・住居費を抑えやすく、可処分所得の観点で移住の魅力がある</li>
-              <li>・首都圏フルリモート求人を併用すれば年収水準の選択肢が広がる</li>
+              <li>・住居費を抑えやすく、可処分所得の観点で移住の魅力があります</li>
+              <li>・首都圏フルリモート求人を併用すれば年収水準の選択肢が広がります</li>
             </ul>
           </div>
         </section>
@@ -224,19 +224,19 @@ export default function FukuokaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 天神・博多の都市機能を活かしつつ、通勤負担を抑えて働ける。地域に根ざしたキャリアやコミュニティを重視する人に向きます。
+                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 天神・博多の都市機能を活かしつつ、通勤負担を抑えて働けます。地域に根ざしたキャリアやコミュニティを重視する人に向きます。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>福岡のスタートアップ・自社開発でハイブリッド:</strong> 裁量や成長機会を重視するキャリア。カジュアル面談で社風を見極めながら、開発寄りのポジションを選べます。
+                <strong>福岡のスタートアップ・自社開発でハイブリッド:</strong> 裁量や成長機会を重視するキャリアです。カジュアル面談で社風を見極めながら、開発寄りのポジションを選べます。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>福岡在住×首都圏企業のフルリモート:</strong> 福岡の生活コストを保ちつつ首都圏水準の年収を狙う選択肢。
+                <strong>福岡在住×首都圏企業のフルリモート:</strong> 福岡の生活コストを保ちつつ首都圏水準の年収を狙う選択肢です。
                 <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
                 や
                 <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
@@ -317,8 +317,8 @@ export default function FukuokaAreaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職・移住の進め方</h2>
           <div className="space-y-3">
             {[
-              { step: "1", title: "軸を決める", desc: "「地元の自社開発」「スタートアップ」「首都圏フルリモート」のどれを中心に据えるかを先に決める。提案される求人の質が変わります。" },
-              { step: "2", title: "エージェントを2〜3社登録", desc: "IT特化型と全国対応の総合型を組み合わせ、スタートアップ志向ならGreenのようなダイレクト型も加える。" },
+              { step: "1", title: "軸を決める", desc: "「地元の自社開発」「スタートアップ」「首都圏フルリモート」のどれを中心に据えるかを先に決めます。提案される求人の質が変わります。" },
+              { step: "2", title: "エージェントを2〜3社登録", desc: "IT特化型と全国対応の総合型を組み合わせ、スタートアップ志向ならGreenのようなダイレクト型も加えます。" },
               { step: "3", title: "出社要件・移住計画を確認", desc: "求人ごとの出社頻度を確認し、移住を伴う場合は引っ越し・住居費の試算を並行して進めます。" },
               { step: "4", title: "職務経歴書で強みを言語化", desc: "幅広く担える柔軟性やドメイン経験など、福岡市場で評価されやすい要素を具体的に示します。" },
               { step: "5", title: "額面＋生活コストで意思決定", desc: "複数の提案を比べ、額面だけでなく生活コスト・働き方を含めて総合判断します。" },
@@ -379,13 +379,13 @@ export default function FukuokaAreaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">30代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                技術の市場価値を高めつつ、スタートアップで裁量を広げるか、フルリモートで首都圏案件を経験するかを意識的に選ぶフェーズ。生活基盤を整えながらキャリアの幅を広げやすい時期です。
+                技術の市場価値を高めつつ、スタートアップで裁量を広げるか、フルリモートで首都圏案件を経験するかを意識的に選ぶフェーズです。生活基盤を整えながらキャリアの幅を広げやすい時期です。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">40代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                マネジメントや高度専門など役割で評価される段階。安定性と裁量のバランスを見極め、移住によるQOL向上と年収水準を両立できる形を選ぶのが現実的です。
+                マネジメントや高度専門など役割で評価される段階です。安定性と裁量のバランスを見極め、移住によるQOL向上と年収水準を両立できる形を選ぶのが現実的です。
               </p>
             </div>
           </div>

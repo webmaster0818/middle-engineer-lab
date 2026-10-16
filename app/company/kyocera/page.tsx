@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/kyocera/" },
   title: "京セラの転職難易度と年収は？平均693万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "京セラへのエンジニア転職を実データで解説。有価証券報告書の平均年収693万円（2025年3月期・全従業員平均）、電子部品・半導体部品・通信機器・組込の技術領域、選考の考え方、30代40代の現実までまとめました。",
+    "京セラへのエンジニア転職を実データで解説します。有価証券報告書の平均年収693万円（2025年3月期・全従業員平均）、電子部品・半導体部品・通信機器・組込の技術領域、選考の考え方、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "30代・40代でも京セラに転職できますか？",
-    a: "提出会社単体の平均年齢は40.0歳（2025年3月期・有報）で、ミドル層が中核を占める組織です。電子部品・半導体・組込などの専門性を持つ30代・40代の即戦力にとっては、経験が直接活きるポジションが想定されます。年齢よりも、事業領域に合致する専門スキルと実績が評価の鍵になります。",
+    a: "提出会社単体の平均年齢は40.0歳（2025年3月期・有価証券報告書）で、ミドル層が中核を占める組織です。電子部品・半導体・組込などの専門性を持つ30代・40代の即戦力にとっては、経験が直接活きるポジションが想定されます。年齢よりも、事業領域に合致する専門スキルと実績が評価の鍵になります。",
   },
   {
     q: "京セラの働き方や社風の評判は？",
@@ -87,7 +87,7 @@ export default function KyoceraCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="京セラ エンジニア転職ガイド" description="京セラへのエンジニア転職を実データで解説。有価証券報告書の平均年収693万円（2025年3月期・全従業員平均）、電子部品・半導体部品・通信機器・組込の技術領域、選考、30代40代の現実までまとめました。" url="/company/kyocera/" />
+      <ArticleJsonLd title="京セラ エンジニア転職ガイド" description="京セラへのエンジニア転職を実データで解説します。有価証券報告書の平均年収693万円（2025年3月期・全従業員平均）、電子部品・半導体部品・通信機器・組込の技術領域、選考、30代40代の現実までまとめました。" url="/company/kyocera/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "京セラ" }]} />
 
@@ -99,7 +99,7 @@ export default function KyoceraCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】京セラの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 京セラの有価証券報告書（2025年3月期・提出会社単体）に記載された平均年間給与は693万円、平均年齢は40.0歳です（技術職に限定しない全従業員平均）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与693万円（2025年3月期 有価証券報告書・提出会社単体／全従業員平均、平均年齢40.0歳）</li><li>・近年は680〜720万円台で推移（2022年3月期725万円→2024年3月期692万円→2025年3月期693万円）</li><li>・賞与・基準外賃金を含む全従業員平均で、エンジニア個人の年収は職種・等級・実績により異なる</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与693万円（2025年3月期 有価証券報告書・提出会社単体／全従業員平均、平均年齢40.0歳）</li><li>・近年は680〜720万円台で推移（2022年3月期725万円→2024年3月期692万円→2025年3月期693万円）</li><li>・賞与・基準外賃金を含む全従業員平均で、エンジニア個人の年収は職種・等級・実績により異なります</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -120,12 +120,12 @@ export default function KyoceraCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              京セラは<strong>電子部品・半導体関連部品・通信機器・組込まで技術領域が広い、多角化したメーカー大手</strong>です。年収は提出会社単体の全従業員平均で693万円（2025年3月期・有報）。製造業出身で電子部品・半導体・組込の専門性を持つミドルエンジニアにとって、これまでの業務知識が活きやすい環境です。
+              京セラは<strong>電子部品・半導体関連部品・通信機器・組込まで技術領域が広い、多角化したメーカー大手</strong>です。年収は提出会社単体の全従業員平均で693万円です（2025年3月期・有価証券報告書）。製造業出身で電子部品・半導体・組込の専門性を持つミドルエンジニアにとって、これまでの業務知識が活きやすい環境です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：電子部品・半導体・通信・組込の実務経験があり、ハードウェアに近い領域で専門性を磨きたい人</li>
               <li>● <strong>向いていない人</strong>：純粋なWeb系のモダン開発のみを志向し、製造業ドメインに関心が持てない人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢40.0歳と年齢層に幅があり、専門性・実績があれば年齢はハンデになりにくい</li>
+              <li>● <strong>30代・40代</strong>：平均年齢40.0歳と年齢層に幅があり、専門性・実績があれば年齢はハンデになりにくいです</li>
             </ul>
           </div>
         </section>
@@ -179,18 +179,18 @@ export default function KyoceraCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術領域（公開情報の範囲）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            京セラは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成しません</strong>（推測での創作を避けるため）。公開情報・事業内容から確認できる技術領域は以下の通りです。
+            京セラは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成しません</strong>（推測での創作を避けるため）。公開情報・事業内容から確認できる技術領域は以下のとおりです。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>電子部品・半導体パッケージ</strong>：コンデンサ・コネクタ・半導体実装用部品などの設計・開発領域</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>通信機器・端末</strong>：通信モジュール・端末の組込ソフトウェア開発領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>組込ソフトウェア</strong>：機器制御に関わる組込開発領域。一般にC/C++等が想定されるが公式の統一情報はなし</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>組込ソフトウェア</strong>：機器制御に関わる組込開発領域です。一般にC/C++等が想定されるが公式の統一情報はなし</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>IoT／DX・社内システム</strong>：製造現場のIoT化・DX推進領域</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: 京セラ公式 事業情報・キャリア採用サイトで確認できる技術領域に基づく記述。推測の言語表は掲載していません。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: 京セラ公式 事業情報・キャリア採用サイトで確認できる技術領域に基づく記述です。推測の言語表は掲載していません。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -247,7 +247,7 @@ export default function KyoceraCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              京セラは提出会社単体の平均年齢40.0歳（2025年3月期・有報）と、ミドル層が中核を占める組織です。年齢構成的に30代・40代で中途入社しても浮きにくく、<strong>電子部品・半導体・組込などの専門性を持つミドルエンジニアにとって、これまでの業務知識が直接活きやすい</strong>のが特徴です。半導体・電子部品は需要が逼迫している領域で、製造業出身者の中途評価が高い傾向にあります。
+              京セラは提出会社単体の平均年齢40.0歳（2025年3月期・有価証券報告書）と、ミドル層が中核を占める組織です。年齢構成的に30代・40代で中途入社しても浮きにくく、<strong>電子部品・半導体・組込などの専門性を持つミドルエンジニアにとって、これまでの業務知識が直接活きやすい</strong>のが特徴です。半導体・電子部品は需要が逼迫している領域で、製造業出身者の中途評価が高い傾向にあります。
             </p>
             <p>
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。京セラの全従業員平均（693万円）はこれを上回りますが、これは製造現場を含む全社平均であり、入社時の提示は職種・等級次第です。30代・40代は「自分が当てはまる職種・等級の水準」を個別求人・面談で確認することが重要です。
@@ -262,9 +262,9 @@ export default function KyoceraCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">京セラ転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・電子部品領域に強く、技術面接対策のサポートも受けられる。" },
-              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手メーカーの専門職・高年収ポジションのスカウトが届きやすい。" },
-              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・電子部品領域に強く、技術面接対策のサポートも受けられます。" },
+              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化です。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" },
+              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "スカウトの活用法｜ビズリーチ・Green・paizaの仕組みと返信例文";
 const PAGE_DESC =
-  "スカウト型転職サービスの仕組みと活用法を解説。ビズリーチ・Green・paiza転職の違い、スカウトを増やすプロフィール、返信例文、良いスカウトの見極め方を30代・40代向けに紹介します。";
+  "スカウト型転職サービスの仕組みと活用法を解説します。ビズリーチ・Green・paiza転職の違い、スカウトを増やすプロフィール、返信例文、良いスカウトの見極め方を30代・40代向けに紹介します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/scout/" },
@@ -31,24 +31,24 @@ const mechanisms = [
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     body:
-      "登録者の職務経歴を見たヘッドハンターや企業から直接スカウトが届く、ハイクラス・スカウト型。登録ヘッドハンター9,700人以上・登録者282万人（2025年4月時点・二次）。年収1,000万円以上求人が全体の約4割（二次）。無料会員でもスカウトは受け取れるが、一部機能は有料プラン（Web決済5,478円/月・2022年11月改定・二次）が前提。通常スカウトに加え、企業の本気度が高い「プラチナスカウト」がある。",
+      "登録者の職務経歴を見たヘッドハンターや企業から直接スカウトが届く、ハイクラス・スカウト型です。登録ヘッドハンター9,700人以上・登録者282万人です（2025年4月時点・二次）。年収1,000万円以上求人が全体の約4割です（二次）。無料会員でもスカウトは受け取れるが、一部機能は有料プラン（Web決済5,478円/月・2022年11月改定・二次）が前提です。通常スカウトに加え、企業の本気度が高い「プラチナスカウト」があります。",
   },
   {
     name: "Green",
     href: "/review/green/",
     body:
-      "エージェントを介さない成功報酬型の転職サイト（ダイレクトリクルーティング）。掲載企業9,000社以上・求人15,000件以上（媒体により30,000件以上とも・二次、幅あり）。企業の人事から直接「気になる」やスカウトが届き、カジュアル面談で社風を把握してから選考に進める。IT/Webベンチャー・スタートアップに強い。仲介サポートはない。",
+      "エージェントを介さない成功報酬型の転職サイトです（ダイレクトリクルーティング）。掲載企業9,000社以上・求人15,000件以上です（媒体により30,000件以上とも・二次、幅あり）。企業の人事から直接「気になる」やスカウトが届き、カジュアル面談で社風を把握してから選考に進めます。IT/Webベンチャー・スタートアップに強いです。仲介サポートはありません。",
   },
   {
     name: "paiza転職",
     href: "/review/paiza/",
     body:
-      "スキルチェック（プログラミングテスト）のランクで実力を評価し、それを見た企業からスカウトが届く。公開求人5,100件（2026年4月更新・二次）、掲載1,600社以上、全体会員85万人以上（2025年3月時点・二次）。書類選考免除のスカウトもあり、学歴・経歴より実力で評価されたい人向け。ランクB以上でないと届きにくいとの声（二次）。個別仲介サポートはない。",
+      "スキルチェック（プログラミングテスト）のランクで実力を評価し、それを見た企業からスカウトが届きます。公開求人5,100件（2026年4月更新・二次）、掲載1,600社以上、全体会員85万人以上です（2025年3月時点・二次）。書類選考免除のスカウトもあり、学歴・経歴より実力で評価されたい人向けです。ランクB以上でないと届きにくいとの声です（二次）。個別仲介サポートはありません。",
   },
 ];
 
 const profileTips = [
-  { num: "1", title: "技術スタックを具体的に書く", desc: "「Webエンジニア」ではなく「Go / gRPC / Kubernetes / AWS / Terraform」のように具体的に。企業はキーワード検索でスカウト対象を探すため、使った技術名を網羅的に書くほど見つかりやすくなります。" },
+  { num: "1", title: "技術スタックを具体的に書く", desc: "「Webエンジニア」ではなく「Go / gRPC / Kubernetes / AWS / Terraform」のように具体的に示します。企業はキーワード検索でスカウト対象を探すため、使った技術名を網羅的に書くほど見つかりやすくなります。" },
   { num: "2", title: "成果を数値で書く", desc: "「パフォーマンス改善」ではなく「API応答時間200ms→50msに改善」「月間1,000万PVのサービスを運用」のように数値化します。実績の解像度がスカウトの質を左右します。" },
   { num: "3", title: "希望条件を明確に設定する", desc: "年収・勤務地・リモート可否・企業規模の希望を明示すると、マッチ精度が上がり的外れなスカウトが減ります。" },
   { num: "4", title: "プロフィールを定期的に更新する", desc: "最終更新が古いとスカウトは減りがちです。月1回は見直し、新しいスキルや実績を追加しましょう。paizaはスキルチェックのランクを上げ直すのも有効です。" },
@@ -64,7 +64,7 @@ const replyTemplates = [
   {
     label: "条件を確認したうえで検討する返信",
     body:
-      "スカウトいただきありがとうございます。前向きに検討したく、いくつか確認させてください。（1）想定年収レンジ （2）リモートの可否と出社頻度 （3）募集背景。差し支えない範囲で教えていただけますと幸いです。",
+      "スカウトいただきありがとうございます。前向きに検討したく、いくつか確認させてください。（1）想定年収レンジ （2）リモートの可否と出社頻度 （3）募集背景です。差し支えない範囲で教えていただけますと幸いです。",
   },
   {
     label: "今回は見送るが関係を残す返信",
@@ -76,7 +76,7 @@ const replyTemplates = [
 const faqs = [
   {
     q: "スカウト型サービスと転職エージェントの違いは？",
-    a: "エージェントはアドバイザーが求人を紹介し選考を仲介します。一方スカウト型は企業やヘッドハンターが直接あなたにアプローチする仕組みです。自分から探さなくても求人が届くため、在職中で忙しいエンジニアに向きます。ビズリーチはスカウト型、Greenはダイレクトリクルーティング、paizaはスキル評価＋スカウトと、仕組みが異なります。",
+    a: "エージェントはアドバイザーが求人を紹介し選考を仲介します。一方スカウト型は企業やヘッドハンターが直接ご自身にアプローチする仕組みです。自分から探さなくても求人が届くため、在職中で忙しいエンジニアに向きます。ビズリーチはスカウト型、Greenはダイレクトリクルーティング、paizaはスキル評価＋スカウトと、仕組みが異なります。",
   },
   {
     q: "スカウトメールは全部返信すべき？",
@@ -219,7 +219,7 @@ export default function ScoutPage() {
                     <Link href="/review/bizreach-it/" className="text-petrol hover:underline">ビズリーチ</Link>
                   </td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">ハイクラス・スカウト型</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">年収1,000万円以上求人が全体の約4割（二次）。一部機能は有料プラン前提（5,478円/月・二次）。</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">年収1,000万円以上求人が全体の約4割です（二次）。一部機能は有料プラン前提です（5,478円/月・二次）。</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">経験豊富な40代</td>
                 </tr>
                 <tr className="bg-slate-50">
@@ -227,7 +227,7 @@ export default function ScoutPage() {
                     <Link href="/review/green/" className="text-petrol hover:underline">Green</Link>
                   </td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">ダイレクトリクルーティング</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">掲載企業9,000社以上（二次）。カジュアル面談で社風を把握。仲介サポートなし。</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">掲載企業9,000社以上です（二次）。カジュアル面談で社風を把握します。仲介サポートなし。</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">ベンチャー志望</td>
                 </tr>
                 <tr>
@@ -235,8 +235,8 @@ export default function ScoutPage() {
                     <Link href="/review/paiza/" className="text-petrol hover:underline">paiza転職</Link>
                   </td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">スキル評価＋スカウト</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">スキルチェックのランクで評価。書類選考免除あり。ランクB以上で届きやすい（二次）。</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">実力で勝負したい人</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">スキルチェックのランクで評価します。書類選考免除があります。ランクB以上で届きやすいです（二次）。</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">実力を強みにしたい人</td>
                 </tr>
               </tbody>
             </table>
@@ -286,7 +286,7 @@ export default function ScoutPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. パーソナライズされているか</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">あなたの経歴や技術に具体的に触れているスカウトは本気度が高いです。テンプレート一斉送信は優先度を下げて構いません。ビズリーチの「プラチナスカウト」は企業の本気度の目安になります。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">ご自身の経歴や技術に具体的に触れているスカウトは本気度が高いです。テンプレート一斉送信は優先度を下げて構いません。ビズリーチの「プラチナスカウト」は企業の本気度の目安になります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 提示年収レンジを確認する</h3>

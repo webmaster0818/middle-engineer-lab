@@ -5,9 +5,9 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/purpose/salary-up/" },
-  title: "年収UPしたいエンジニアの転職戦略【100万円以上UP実例】",
+  title: "年収アップしたいエンジニアの転職戦略【100万円以上UP実例】",
   description:
-    "エンジニアが転職で年収100万円以上アップを実現するための戦略を解説。年収が上がるスキル、企業タイプ、交渉術、成功事例を紹介します。",
+    "エンジニアが転職で年収100万円以上アップを実現するための戦略を解説します。年収が上がるスキル、企業タイプ、交渉術、成功事例を紹介します。",
 };
 
 const faqs = [
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "フリーランスと正社員、どちらが年収高い？",
-    a: "手取りベースではフリーランスの方が高くなるケースが多いです。ただし社会保険料の全額自己負担、有給休暇なし、退職金なしを考慮すると実質的には大きな差がないことも。安定性も含めて判断しましょう。",
+    a: "手取りベースではフリーランスの方が高くなるケースが多いです。ただし社会保険料の全額自己負担、有給休暇なし、退職金なしを考慮すると実質的には大きな差がないことがあります。安定性も含めて判断しましょう。",
   },
 ];
 
@@ -51,8 +51,8 @@ export default function SalaryUpPage() {
   return (
     <>
       <ArticleJsonLd
-        title="年収UPしたいエンジニアの転職戦略【100万円以上UP実例】"
-        description="エンジニアが転職で年収100万円以上アップを実現するための戦略を解説。年収が上がるスキル、企業タイプ、交渉術、成功事例を紹介します。"
+        title="年収アップしたいエンジニアの転職戦略【100万円以上UP実例】"
+        description="エンジニアが転職で年収100万円以上アップを実現するための戦略を解説します。年収が上がるスキル、企業タイプ、交渉術、成功事例を紹介します。"
         url="/purpose/salary-up/"
       />
       <script
@@ -63,25 +63,25 @@ export default function SalaryUpPage() {
         items={[
           { name: "ホーム", href: "/" },
           { name: "目的別ガイド", href: "/purpose/" },
-          { name: "年収UPしたいエンジニアの転職戦略" },
+          { name: "年収アップしたいエンジニアの転職戦略" },
         ]}
       />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          年収UPしたいエンジニアの転職戦略
+          年収アップしたいエンジニアの転職戦略
         </h1>
         <p className="text-slate-500 text-sm mb-8">
           最終更新: 2026年6月 | 年収100万円以上UPを目指す転職ガイド
         </p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 現在の年収が市場相場より低いと感じている</li>
-              <li>- 3年以上同じ会社で年収が停滞している</li>
-              <li>- スキルアップしたのに評価が年収に反映されない</li>
+              <li>- 現在の年収が市場相場より低いと感じています</li>
+              <li>- 3年以上同じ会社で年収が停滞しています</li>
+              <li>- スキルアップしたのに評価が年収に反映されません</li>
               <li>- 年収600万円の壁、800万円の壁を突破したい</li>
               <li>- 将来的に年収1,000万円を達成したい</li>
             </ul>
@@ -97,7 +97,7 @@ export default function SalaryUpPage() {
                   <th className="text-left px-4 py-3 font-medium text-slate-700">スキル</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">年収レンジ</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">需要</th>
-                  <th className="text-left px-4 py-3 font-medium text-slate-700">年収UP幅</th>
+                  <th className="text-left px-4 py-3 font-medium text-slate-700">年収アップ幅</th>
                 </tr>
               </thead>
               <tbody>
@@ -122,14 +122,14 @@ export default function SalaryUpPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収UPの具体的な方法</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収アップの具体的な方法</h2>
           <div className="space-y-4">
             {[
               { num: "1", title: "市場価値の高いスキルを習得する", desc: "Go、Kubernetes、AI/MLなど年収プレミアムのあるスキルを習得しましょう。3〜6ヶ月の投資で年収100万円以上のリターンが見込めます。" },
               { num: "2", title: "複数のオファーを同時に獲得する", desc: "3社以上から同時にオファーを受けることで、年収交渉力が格段に上がります。エージェント3社に登録して並行で進めましょう。" },
               { num: "3", title: "年収レンジの高い企業を狙う", desc: "外資系IT、メガベンチャー、FinTech、AI系企業は年収レンジが高いです。同じスキルでも企業タイプで100〜300万円の差がつきます。" },
               { num: "4", title: "エージェントの年収交渉力を活用する", desc: "年収交渉はプロに任せましょう。エージェントは企業の予算を把握しており、個人では引き出せない金額を交渉してくれます。" },
-              { num: "5", title: "副業でスキルと収入の両方を得る", desc: "副業で年収+100〜300万円の上乗せが可能です。副業実績は転職時のスキル証明にもなり、次の転職での年収UPにつながります。" },
+              { num: "5", title: "副業でスキルと収入の両方を得る", desc: "副業で年収+100〜300万円の上乗せが可能です。副業実績は転職時のスキル証明にもなり、次の転職での年収アップにつながります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -148,10 +148,10 @@ export default function SalaryUpPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">おすすめ企業タイプ</h2>
           <div className="space-y-3">
             {[
-              { type: "外資系IT企業", point: "日系の1.3〜1.8倍の年収。RSU（株式報酬）で総報酬はさらに高くなる。英語力が必要。" },
-              { type: "メガベンチャー", point: "技術力を正しく評価する給与テーブル。年収700〜1,200万円のレンジが中心。" },
-              { type: "FinTech企業", point: "金融×テックの希少スキルが求められ、年収レンジが高い。Go+クラウドの需要大。" },
-              { type: "AI/MLスタートアップ", point: "AI人材の需要が供給を大幅に上回っており、年収プレミアムが大きい。" },
+              { type: "外資系IT企業", point: "日系の1.3〜1.8倍の年収です。RSU（株式報酬）で総報酬はさらに高くなります。英語力が必要です。" },
+              { type: "メガベンチャー", point: "技術力を正しく評価する給与テーブルです。年収700〜1,200万円のレンジが中心です。" },
+              { type: "FinTech企業", point: "金融×テックの希少スキルが求められ、年収レンジが高いです。Go+クラウドの需要大です。" },
+              { type: "AI/MLスタートアップ", point: "AI人材の需要が供給を大幅に上回っており、年収プレミアムが大きいです。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>
@@ -165,9 +165,9 @@ export default function SalaryUpPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", point: "IT特化型No.1。年収交渉力が高く、100万円以上UPの実績が豊富。" },
-              { name: "ビズリーチ", point: "ハイクラス求人に特化。年収800万円以上のスカウトが届く。" },
-              { name: "転職ドラフト", point: "企業から年収付きで指名が届く。自分の市場価値を客観的に確認できる。" },
+              { name: "レバテックキャリア", point: "IT特化型No.1です。年収交渉力が高く、100万円以上UPの実績が豊富です。" },
+              { name: "ビズリーチ", point: "ハイクラス求人に特化しています。年収800万円以上のスカウトが届きます。" },
+              { name: "転職ドラフト", point: "企業から年収付きで指名が届きます。自分の市場価値を客観的に確認できます。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -193,7 +193,7 @@ export default function SalaryUpPage() {
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">年収UPの第一歩を踏み出そう</h2>
+          <h2 className="text-xl font-bold mb-3">年収アップの第一歩を踏み出そう</h2>
           <p className="text-blue-100 text-sm mb-4">
             IT特化型エージェントが年収100万円以上UPを実現するプランを無料で提案します。
           </p>
@@ -212,7 +212,7 @@ export default function SalaryUpPage() {
               { name: "年収交渉テクニック", href: "/knowledge/salary-negotiation/" },
               { name: "外資系IT企業への転職", href: "/career/domestic-to-foreign/" },
               { name: "テックリードキャリアガイド", href: "/career/tech-lead/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

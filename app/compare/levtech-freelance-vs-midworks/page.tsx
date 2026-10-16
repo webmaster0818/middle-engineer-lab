@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/levtech-freelance-vs-midworks/" },
   title: "レバテックフリーランスとMidworksの比較｜単価か保障か【2026年8月】",
   description:
-    "レバテックフリーランスとMidworksをマージン・単価・案件量・報酬保障で徹底比較。単価最大化か正社員並みの保障かで選ぶ判断軸、「やばい」と検索される理由、口コミ傾向まで30代40代エンジニア向けに解説します。",
+    "レバテックフリーランスとMidworksをマージン・単価・案件量・報酬保障で比較します。単価最大化か正社員並みの保障かで選ぶ判断軸、「やばい」と検索される理由、口コミ傾向まで30代40代エンジニア向けに解説します。",
 };
 
 const toc = [
@@ -30,8 +30,8 @@ const toc = [
 const comparison = [
   { item: "運営会社", a: "レバテック株式会社（レバレジーズグループ）", b: "株式会社Branding Engineer（TWOSTONE&Sons傘下／最新法人名は要確認）" },
   { item: "サービス種別", a: "フリーランス（業務委託）案件の紹介・エンド直請けに強い最大手級", b: "フリーランス案件＋正社員並みの保障が特徴" },
-  { item: "案件数", a: "公開1万件以上。公式約97,000件以上という二次値あり（時点要確認・二次）", b: "常時1万件以上（非公開約80%・二次）" },
-  { item: "年収・単価", a: "利用者平均年収881万円・平均単価68万円・中央値65万円・最高145万円（二次・時点に留意）", b: "案件単価は案件により幅。保障で安定を重視する設計" },
+  { item: "案件数", a: "公開1万件以上です。公式約97,000件以上という二次値あり（時点要確認・二次）", b: "常時1万件以上（非公開約80%・二次）" },
+  { item: "年収・単価", a: "利用者平均年収881万円・平均単価68万円・中央値65万円・最高145万円（二次・時点に留意）", b: "案件単価は案件により幅です。保障で安定を重視する設計" },
   { item: "マージン", a: "非公表（業界相場10〜15%は推定で確認不可）", b: "約20%という媒体指摘あり（高めとされる）。実質10〜15%との媒体指摘も併記" },
   { item: "報酬保障", a: "なし（案件単位の業務委託）", b: "案件が途切れた際に報酬の60%を保障（審査・適用条件あり）" },
   { item: "福利厚生", a: "フリーランス向け各種サポート", b: "正社員並みの福利厚生・賠償補償・書籍/交通費補助など" },
@@ -45,7 +45,7 @@ const faqs = [
   { q: "Midworksの報酬保障は誰でも受けられますか？", a: "案件が途切れた際に報酬の60%を保障する仕組みですが、審査があり適用条件が設定されています。常に無条件で6割が入るわけではない点に注意が必要です。条件は変更され得るため、契約前に最新の適用条件・上限・期間を必ず公式で確認してください。それでも、正社員からフリーランスへ踏み出す家族持ち・ローン持ちのミドルにとっては心理的な支えになります。" },
   { q: "Midworksのマージンが高いと聞きましたが本当ですか？", a: "媒体では約20%という指摘があり、フリーランスエージェントとしては高めとされます。一方で、福利厚生や報酬保障などの付帯価値を含めると「実質10〜15%相当」とする媒体の見方も併記されています。レバテックフリーランスはマージン非公表で、業界相場の10〜15%は推定にとどまり確認できません。手取りの最大化を最優先するならマージンの透明性は重要な判断材料ですが、保障の価値をどう評価するかで結論は変わります。" },
   { q: "「Midworks やばい」と検索されるのはなぜですか？", a: "多くは保障の適用条件や、マージンが高めとされる点への不安が背景です。報酬保障は審査・条件付きで無条件ではないこと、約20%というマージン指摘があることが、「思っていたのと違う」という形で語られやすいためです。詐欺的という意味ではなく、条件理解のズレが主因です。契約前に保障条件とマージンの考え方を確認すれば、過度に心配する必要はありません。" },
-  { q: "案件が途切れるリスクが怖いです。どちらが安全ですか？", a: "途切れリスクへの備えという点ではMidworksに分があります。報酬の60%保障（審査・条件あり）が、空白期間の収入を一定支える仕組みだからです。レバテックフリーランスは保障がない代わりに案件量と単価で勝負する設計で、稼働を切らさず回せる経験者向きです。安定を最優先するならMidworks、単価と案件量を取るならレバテックフリーランス、という棲み分けです。" },
+  { q: "案件が途切れるリスクが怖いです。どちらが安全ですか？", a: "途切れリスクへの備えという点ではMidworksに分があります。報酬の60%保障（審査・条件あり）が、空白期間の収入を一定支える仕組みだからです。レバテックフリーランスは保障がない代わりに案件量と単価を強みにする設計で、稼働を切らさず回せる経験者向きです。安定を最優先するならMidworks、単価と案件量を取るならレバテックフリーランス、という棲み分けです。" },
   { q: "30代・40代で独立するならどちらがおすすめですか？", a: "状況によります。独立志向が強く高単価を狙える経験者で、自分で稼働を管理できるならレバテックフリーランスが向きます。家族やローンを抱え「独立したいが不安定が怖い」という慎重派のミドルには、保障のあるMidworksが第一歩として向いています。安定雇用を残したい場合は、フリーランスではなくレバテックキャリアなど正社員エージェントの検討も選択肢です。" },
 ];
 
@@ -69,12 +69,12 @@ export default function LevtechFreelanceVsMidworksPage() {
 
   return (
     <>
-      <ArticleJsonLd title="レバテックフリーランスとMidworksの比較｜単価か保障か" description="レバテックフリーランスとMidworksをマージン・単価・案件量・報酬保障で徹底比較。単価最大化か正社員並み保障かで選ぶ判断軸を解説します。" url="/compare/levtech-freelance-vs-midworks/" />
+      <ArticleJsonLd title="レバテックフリーランスとMidworksの比較｜単価か保障か" description="レバテックフリーランスとMidworksをマージン・単価・案件量・報酬保障で比較します。単価最大化か正社員並み保障かで選ぶ判断軸を解説します。" url="/compare/levtech-freelance-vs-midworks/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "レバテックフリーランス vs Midworks" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">レバテックフリーランスとMidworksを徹底比較｜単価か保障か？</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">レバテックフリーランスとMidworksを比較｜単価か保障か？</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 単価最大化の最大手級 と 正社員並みの保障 を比較</p>
 
         <p className="text-slate-600 leading-relaxed mb-4">「レバテックフリーランス Midworks 比較」で検索する方の多くは、フリーランスとして<strong>単価を最大化するか、保障で安定を取るか</strong>で迷っています。本記事は30代・40代のITエンジニア向けに、両サービスを単価・マージン・報酬保障・案件量の軸で比較し、「やばい」と検索される理由や口コミ傾向まで整理しました。なお冒頭で重要な前提を一つ。<strong>レバテックフリーランスは業務委託案件の紹介サービスで、正社員転職のレバテックキャリアとは別物です。</strong></p>
@@ -93,11 +93,11 @@ export default function LevtechFreelanceVsMidworksPage() {
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：単価か、保障か</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・単価・年収を最大化したいなら「レバテックフリーランス」</strong>。案件量と高単価のエンド直請けに強い最大手級です。</li>
               <li><strong>・正社員並みの保障で安定を取りたいなら「Midworks」</strong>。案件が途切れた際の報酬60%保障（審査・条件あり）や福利厚生が魅力です。</li>
-              <li><strong>・迷うなら、自分の優先順位（手取りか、安心か）で決める</strong>。家族やローンを抱えるミドルは保障型のMidworksが第一歩に向きます。</li>
+              <li><strong>・迷うなら、自分の優先順位（手取りか、安心か）で決めます</strong>。家族やローンを抱えるミドルは保障型のMidworksが第一歩に向きます。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">どちらもフリーランス（求職者）側は無料で利用できます。理由は次の比較表と項目別解説で見ていきます。</p>
@@ -108,7 +108,7 @@ export default function LevtechFreelanceVsMidworksPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700">
             <p className="mb-2">名前が似ているため、契約に進む前に違いを必ず押さえてください。</p>
             <ul className="space-y-1.5 list-disc pl-5">
-              <li><strong>レバテックフリーランス（業務委託案件の紹介）≠ レバテックキャリア（正社員転職エージェント）</strong>。運営は同じレバテック株式会社ですが、契約形態がまったく異なります。</li>
+              <li><strong>レバテックフリーランス（業務委託案件の紹介）≠ レバテックキャリアです（正社員転職エージェント）</strong>。運営は同じレバテック株式会社ですが、契約形態がまったく異なります。</li>
               <li>本記事のMidworksも<strong>フリーランス向けサービス</strong>です。安定雇用を残したい場合は、フリーランスではなく正社員エージェントを検討してください。</li>
             </ul>
             <p className="mt-2">正社員かフリーランスかで迷う段階の方は<Link href="/knowledge/freelance-vs-fulltime/" className="text-petrol hover:underline">フリーランスと正社員の比較</Link>を先にご覧ください。</p>
@@ -128,7 +128,7 @@ export default function LevtechFreelanceVsMidworksPage() {
 
         <section id="tanka" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較①：単価・年収水準</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">レバテックフリーランスは、利用者平均年収881万円・平均単価68万円・中央値65万円・最高145万円という二次値があります（時点に留意。別時点では平均876万円という値もあるため、異なる時点の数値は並べて扱わないのが安全です）。エンド直請けに強く、高単価案件の母数が大きいのが最大手級たるゆえんです。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">レバテックフリーランスは、利用者平均年収881万円・平均単価68万円・中央値65万円・最高145万円という二次値があります（時点に留意。別時点では平均876万円という値もあるため、異なる時点の数値は並べて扱わないのが安全です）。エンド直請けに強く、高単価案件の母数が大きいのが最大手級たる理由です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">Midworksの単価は案件により幅があり、レバテックフリーランスのような統一的な平均単価の公表は確認しづらい状況です。Midworksの価値は単価の高さそのものより、保障と福利厚生で<strong>「手取りの下振れを抑える」</strong>点にあります。瞬間最大の単価を狙うならレバテックフリーランス、安定したベースを確保するならMidworks、という違いです。</p>
         </section>
 
@@ -144,7 +144,7 @@ export default function LevtechFreelanceVsMidworksPage() {
         <section id="hosho" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較③：報酬保障・福利厚生</h2>
           <p className="text-slate-600 leading-relaxed mb-4">ここがMidworks最大の差別化です。案件が途切れた際に<strong>報酬の60%を保障</strong>する仕組み（審査・適用条件あり）に加え、正社員並みの福利厚生・賠償補償・書籍/交通費補助などを備えます。独立後に最も怖い「空白期間の無収入」に備えられる点が、保障型として支持される理由です。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">レバテックフリーランスにはこうした報酬保障はなく、案件単位の業務委託が基本です。その代わりに案件量と単価で勝負する設計で、稼働を切らさず回せる経験者ほど力を発揮します。なお報酬保障は無条件ではなく審査・条件付きである点は重要で、契約前に必ず最新の適用条件・上限・期間を公式で確認してください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">レバテックフリーランスにはこうした報酬保障はなく、案件単位の業務委託が基本です。その代わりに案件量と単価を強みにする設計で、稼働を切らさず回せる経験者ほど力を発揮します。なお報酬保障は無条件ではなく審査・条件付きである点は重要で、契約前に必ず最新の適用条件・上限・期間を公式で確認してください。</p>
         </section>
 
         <section id="kuw1" className="mb-12 scroll-mt-20">
@@ -171,17 +171,17 @@ export default function LevtechFreelanceVsMidworksPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックフリーランスの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高単価・エンド直請けの案件が多い</li><li>案件量が豊富で選択肢が広い</li><li>最大手級で安心感がある</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>高単価・エンド直請けの案件が多いです</li><li>案件量が豊富で選択肢が広いです</li><li>最大手級で安心感がある</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>実務経験前提で未経験には不向き</li><li>首都圏中心で地方案件が少ない</li><li>マージン非公表で手取りが読みにくい</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>実務経験前提で未経験には不向き</li><li>首都圏中心で地方案件が少ないです</li><li>マージン非公表で手取りが読みにくいです</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：各フリーランス系メディアの傾向要約</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Midworksの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>正社員並みの福利厚生・保障が安心</li><li>独立1歩目の不安を抑えられる</li><li>案件量も最大手級</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>正社員並みの福利厚生・保障が安心</li><li>独立1歩目の不安を抑えられます</li><li>案件量も最大手級</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>マージンが約20%と高めとの指摘</li><li>報酬保障の適用条件が厳しい場合がある</li><li>「やばい」という条件理解のズレ</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>マージンが約20%と高めとの指摘</li><li>報酬保障の適用条件が厳しい場合があります</li><li>「やばい」という条件理解のズレ</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：各フリーランス系メディアの傾向要約</p>
             </div>
           </div>
@@ -223,7 +223,7 @@ export default function LevtechFreelanceVsMidworksPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">独立は「単価最大化」か「保障で安定」かで選ぶ</h2>
-          <p className="text-blue-100 text-sm mb-4">単価を取るならレバテックフリーランス、安定を取るならMidworks。あなたの優先順位（手取りか安心か）で選ぶのが、後悔しない第一歩です。</p>
+          <p className="text-blue-100 text-sm mb-4">単価を取るならレバテックフリーランス、安定を取るならMidworksです。ご自身の優先順位（手取りか安心か）で選ぶのが、後悔しない第一歩です。</p>
           <Link href="/compare/freelance-agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">フリーランスエージェント比較を見る</Link>
         </section>
 

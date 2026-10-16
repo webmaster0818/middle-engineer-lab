@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/accenture/" },
   title: "アクセンチュア エンジニア転職ガイド【2026年】選考・年収",
   description:
-    "アクセンチュアへのエンジニア転職を解説。テクノロジー部門の採用領域、公式採用ページの選考フロー、口コミ傾向、30代・40代の狙い目を出典付きで整理。日本法人は有報なしのため年収は公式情報・口コミ集計値で説明します。",
+    "アクセンチュアへのエンジニア転職を解説します。テクノロジー部門の採用領域、公式採用ページの選考フロー、口コミ傾向、30代・40代の有力な選択肢を出典付きで整理。日本法人は有価証券報告書なしのため年収は公式情報・口コミ集計値で説明します。",
 };
 
 const toc = [
@@ -43,11 +43,11 @@ const features = [
   },
   {
     h: "テクノロジー部門を独立した職種群として募集",
-    p: "公式採用ページでは、テクノロジー／ソフトウェアエンジニアリング／クラウド／AI・データサイエンス／SAP／Salesforce／セキュリティ／フロントエンジニアなどを明確に職種領域として整理。エンジニア職は戦略コンサル職とは別フローで募集されます。",
+    p: "公式採用ページでは、テクノロジー／ソフトウェアエンジニアリング／クラウド／AI・データサイエンス／SAP／Salesforce／セキュリティ／フロントエンジニアなどを明確に職種領域として整理します。エンジニア職は戦略コンサル職とは別フローで募集されます。",
   },
   {
     h: "グローバル規模の研修・キャリアパス",
-    p: "世界70万人超の組織で、グローバル共通の研修プログラムが充実。海外プロジェクトやオフィス間の異動の機会もあり、国際的なキャリアを築きやすい環境です（公式採用ページの記載に基づく）。",
+    p: "世界70万人超の組織で、グローバル共通の研修プログラムが充実しています。海外プロジェクトやオフィス間の異動の機会もあり、国際的なキャリアを築きやすい環境です（公式採用ページの記載に基づく）。",
   },
 ];
 
@@ -107,7 +107,7 @@ export default function AccentureCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="アクセンチュア エンジニア転職ガイド" description="アクセンチュアへのエンジニア転職を解説。テクノロジー部門の採用領域、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/accenture/" />
+      <ArticleJsonLd title="アクセンチュア エンジニア転職ガイド" description="アクセンチュアへのエンジニア転職を解説します。テクノロジー部門の採用領域、選考フロー、口コミ傾向を出典付きでまとめました。" url="/company/accenture/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "salesforceの転職ガイド", href: "/skill/salesforce/" }, { name: "SAPの転職ガイド", href: "/skill/sap/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "アクセンチュア" }]} />
 
@@ -118,7 +118,7 @@ export default function AccentureCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】アクセンチュアの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: アクセンチュア日本法人は非上場で有価証券報告書がなく、公的な全社員平均年収は公表されていません。口コミ集計値では高水準とされますが、出典・対象が異なる参考値です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・日本法人は非上場・有報なしのため公式平均年収は確認できません（米Accenture plcはニューヨーク証券取引所上場）。</li><li>・職位（アナリスト／コンサルタント／マネージャー等）に応じた年俸制で、提示額はオファー面談で確認するのが確実です。</li><li>・参考としてIT職全般はレバテック2025年公表で30代約499万円・40代約618万円。アクセンチュア固有の値ではありません。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・日本法人は非上場・有価証券報告書なしのため公式平均年収は確認できません（米Accenture plcはニューヨーク証券取引所上場）。</li><li>・職位（アナリスト／コンサルタント／マネージャー等）に応じた年俸制で、提示額はオファー面談で確認するのが確実です。</li><li>・参考としてIT職全般はレバテック2025年公表で30代約499万円・40代約618万円です。アクセンチュア固有の値ではありません。</li></ul>
         </div>
 
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
@@ -183,7 +183,7 @@ export default function AccentureCompanyPage() {
         <section id="tech" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">採用領域・技術スタック</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            公式採用ページ（採用領域ページ）で示されているテクノロジー系の職種・領域は以下の通りです。具体的な使用技術はポジションにより異なります。
+            公式採用ページ（採用領域ページ）で示されているテクノロジー系の職種・領域は以下のとおりです。具体的な使用技術はポジションにより異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -245,7 +245,7 @@ export default function AccentureCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 text-sm mb-2">良い傾向の声</h3>
               <ul className="space-y-1.5 text-sm text-green-700">
-                <li>・20代の成長環境への評価が高い</li>
+                <li>・20代の成長環境への評価が高いです</li>
                 <li>・研修・資格支援などスキルアップ機会が豊富</li>
                 <li>・働き方改革（Project PRIDE）で労働時間が改善との声</li>
               </ul>
@@ -255,7 +255,7 @@ export default function AccentureCompanyPage() {
               <ul className="space-y-1.5 text-sm text-amber-700">
                 <li>・繁忙度はプロジェクト次第・体力次第との声</li>
                 <li>・キャッチアップの負荷が高いとの指摘</li>
-                <li>・事業・組織変化が速く合う合わないが分かれる</li>
+                <li>・事業・組織変化が速く合う合わないが分かれます</li>
               </ul>
             </div>
           </div>
@@ -278,9 +278,9 @@ export default function AccentureCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">アクセンチュア転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "コンサル・ハイクラス求人に強いスカウト型。アクセンチュア案件のヘッドハンターが多い。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でコンサル×エンジニアポジションの提案に強み。" },
-              { name: "doda(IT)", href: "/review/doda-it/", desc: "求人網羅性が高く、各部門の求人を幅広く保有。初めての転職にも。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "コンサル・ハイクラス求人に強いスカウト型です。アクセンチュア案件のヘッドハンターが多いです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でコンサル×エンジニアポジションの提案に強みがあります。" },
+              { name: "doda(IT)", href: "/review/doda-it/", desc: "求人網羅性が高く、各部門の求人を幅広く保有しています。初めての転職にも。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>
@@ -288,7 +288,7 @@ export default function AccentureCompanyPage() {
               </Link>
             ))}
           </div>
-          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数併用のコツ</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-3">複数登録の進め方は<Link href="/knowledge/multiple-agents/" className="text-petrol hover:underline">エージェント複数併用のコツ</Link>をご参照ください。</p>
         </section>
 
         <section id="faq" className="mb-10 scroll-mt-20">

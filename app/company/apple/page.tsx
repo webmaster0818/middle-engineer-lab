@@ -87,7 +87,7 @@ export default function AppleCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Apple Japanの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Apple Japanは合同会社のため有価証券報告書による平均年収の公式開示がありません。OpenWork集計では全社平均700万円台、エンジニア・専門職では2,000万円超の回答例も見られます（2026年時点・変動大）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・合同会社ゆえ公式の平均年収は非公表。OpenWork集計で全社平均は700万円台（2026年時点の口コミ参考値）。</li><li>・エンジニア・専門職では株式報酬（RSU）等を含め2,000万円超の回答例もありますが、職種・等級・回答者の偏りで大きく変動します。</li><li>・参考としてレバテック2025年公表の正社員SEは30代約499万円・40代約618万円。正確なレンジはオファー内容でご確認ください。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・合同会社ゆえ公式の平均年収は非公表です。OpenWork集計で全社平均は700万円台です（2026年時点の口コミ参考値）。</li><li>・エンジニア・専門職では株式報酬（RSU）等を含め2,000万円超の回答例もありますが、職種・等級・回答者の偏りで大きく変動しています。</li><li>・参考としてレバテック2025年公表の正社員SEは30代約499万円・40代約618万円です。正確なレンジはオファー内容でご確認ください。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-4">
@@ -117,11 +117,11 @@ export default function AppleCompanyPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">難易度は「高い」。専門性×プロダクト愛×英語の3点が揃う人に向く。</p>
+            <p className="font-bold text-blue-900 mb-3">難易度は「高い」。専門性×プロダクト愛×英語の3点が揃う人に向きます。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>● <strong>向いている人</strong>：iOS/macOS開発、組み込み・低レイヤ、機械学習など特定領域で深い実務経験があり、ビジネスレベルの英語が使える人。</li>
-              <li>● <strong>魅力</strong>：ハードとソフトを統合的に扱う独自の開発環境と、世界規模のプロダクトに関われること。</li>
-              <li>● <strong>注意点</strong>：秘密主義の文化への適応、OSSより独自エコシステム中心の開発、勤務形態がポジション依存である点。年収は口コミ参考値で振れ幅が大きい。</li>
+              <li>● <strong>向いている人</strong>：iOS/macOS開発、組み込み・低レイヤ、機械学習など特定領域で深い実務経験があり、ビジネスレベルの英語が使える人です。</li>
+              <li>● <strong>魅力</strong>：ハードとソフトを統合的に扱う独自の開発環境と、世界規模のプロダクトに関われることが重要です。</li>
+              <li>● <strong>注意点</strong>：秘密主義の文化への適応、OSSより独自エコシステム中心の開発、勤務形態がポジション依存である点です。年収は口コミ参考値で振れ幅が大きいです。</li>
             </ul>
           </div>
         </section>
@@ -134,7 +134,7 @@ export default function AppleCompanyPage() {
                 {[
                   ["企業名", "Apple Japan合同会社"],
                   ["業種", "ハードウェア・ソフトウェア・サービス"],
-                  ["有報による年収開示", "なし（合同会社のため）"],
+                  ["有価証券報告書による年収開示", "なし（合同会社のため）"],
                   ["年収の参考値", "OpenWork集計で全社平均700万円台、エンジニア・専門職では2,000万円超の回答例も（2026年時点・変動大）"],
                   ["技術スタック", "Swift / Objective-C / C++ / Python / Metal / Core ML 等（公式採用要件・公開情報）"],
                   ["英語要件", "多くのエンジニア職でビジネスレベル必須（ポジションにより異なる）"],
@@ -180,19 +180,19 @@ export default function AppleCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3 text-sm">メリット</h3>
               <ul className="space-y-2 text-sm text-green-900">
-                <li>● ハードとソフトを統合的に扱う、世界規模のプロダクト開発に関われる</li>
-                <li>● 成果主義・年功序列が薄いとの口コミが多く、専門性が正当に評価されやすい</li>
+                <li>● ハードとソフトを統合的に扱う、世界規模のプロダクト開発に関われます</li>
+                <li>● 成果主義・年功序列が薄いとの口コミが多く、専門性が正当に評価されやすいです</li>
                 <li>● 専門職では総報酬が高水準になる事例があり、株式報酬を含むと大きく伸びることも</li>
-                <li>● 製品品質・ユーザー体験への徹底した基準のもとで開発経験を積める</li>
+                <li>● 製品品質・ユーザー体験への徹底した基準のもとで開発経験を積めます</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <h3 className="font-bold text-rose-800 mb-3 text-sm">デメリット・注意点</h3>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li>● 秘密主義が徹底され、入社前に担当業務の詳細が見えにくくミスマッチが起きやすい</li>
-                <li>● OSSより独自エコシステム中心で、外向きの技術発信が制限される</li>
+                <li>● 秘密主義が徹底され、入社前に担当業務の詳細が見えにくくミスマッチが起きやすいです</li>
+                <li>● OSSより独自エコシステム中心で、外向きの技術発信が制限されます</li>
                 <li>● 多くの職種でビジネスレベルの英語が必須</li>
-                <li>● 年収は口コミ参考値で振れ幅が大きく、ポジション・等級で大差がある</li>
+                <li>● 年収は口コミ参考値で振れ幅が大きく、ポジション・等級で大差があります</li>
               </ul>
             </div>
           </div>
@@ -204,10 +204,10 @@ export default function AppleCompanyPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3 text-sm">向いている人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li>✓ iOS/macOS・低レイヤ・ML等で深い専門性がある</li>
-                <li>✓ ビジネスレベルの英語でグローバルチームと協働できる</li>
-                <li>✓ Appleのプロダクト・ものづくり哲学に強い共感がある</li>
-                <li>✓ 秘密保持を前提とした内製・統合開発の文化に適応できる</li>
+                <li>✓ iOS/macOS・低レイヤ・ML等で深い専門性があります</li>
+                <li>✓ ビジネスレベルの英語でグローバルチームと協働できます</li>
+                <li>✓ Appleのプロダクト・ものづくり哲学に強い共感があります</li>
+                <li>✓ 秘密保持を前提とした内製・統合開発の文化に適応できます</li>
               </ul>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -215,8 +215,8 @@ export default function AppleCompanyPage() {
               <ul className="space-y-2 text-sm text-slate-600">
                 <li>✕ OSS活動・登壇など外向きの発信を重視したい</li>
                 <li>✕ 入社前に担当業務を詳細に把握してから決めたい</li>
-                <li>✕ 英語でのコミュニケーションに不安が大きい</li>
-                <li>✕ 幅広く浅く担当する働き方を望む（専門特化が前提）</li>
+                <li>✕ 英語でのコミュニケーションに不安が大きいです</li>
+                <li>✕ 幅広く浅く担当する働き方を望みます（専門特化が前提）</li>
               </ul>
             </div>
           </div>
@@ -266,10 +266,10 @@ export default function AppleCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["1. 応募（jobs.apple.com）", "公式採用ポータルで職種・勤務地を絞り、プロフィール登録のうえ応募。リファラル（社員紹介）経由のルートもあるとされる。"],
-              ["2. リクルーター／書類スクリーニング", "経歴・専門性がポジション要件に合致するかを確認。"],
-              ["3. 技術面接（複数回）", "コーディング・システム設計・専門領域の深掘りが中心。リモート職ではビデオ通話で実施されることが多いとされる。"],
-              ["4. 最終面接・オファー", "面接官の裁量が大きいとの口コミがあり、相性・カルチャーフィットも重視される。条件提示を経て内定。"],
+              ["1. 応募（jobs.apple.com）", "公式採用ポータルで職種・勤務地を絞り、プロフィール登録のうえ応募します。リファラル（社員紹介）経由のルートもあるとされます。"],
+              ["2. リクルーター／書類スクリーニング", "経歴・専門性がポジション要件に合致するかを確認します。"],
+              ["3. 技術面接（複数回）", "コーディング・システム設計・専門領域の深掘りが中心です。リモート職ではビデオ通話で実施されることが多いとされます。"],
+              ["4. 最終面接・オファー", "面接官の裁量が大きいとの口コミがあり、相性・カルチャーフィットも重視されます。条件提示を経て内定します。"],
             ].map(([title, desc], i) => (
               <li key={i} className="border border-slate-200 rounded-lg p-4">
                 <p className="font-bold text-slate-800 text-sm mb-1">{title}</p>
@@ -302,10 +302,10 @@ export default function AppleCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3">
             <p className="text-sm text-amber-900 leading-relaxed">
-              <strong>「広く浅く」より「狭く深く」が効く企業。</strong>Appleは特定領域の専門性が重視されるため、30代・40代で積み上げてきた深い経験（iOS、低レイヤ、ML等）がそのまま武器になります。年齢そのものより、領域の専門性と英語が揃うかが分かれ目です。
+              <strong>「広く浅く」より「狭く深く」が効く企業です。</strong>Appleは特定領域の専門性が重視されるため、30代・40代で積み上げてきた深い経験（iOS、低レイヤ、ML等）がそのまま強みになります。年齢そのものより、領域の専門性と英語が揃うかが分かれ目です。
             </p>
             <p className="text-sm text-amber-900 leading-relaxed">
-              <strong>事前に覚悟しておきたい2点。</strong>(1) 秘密主義の文化上、入社前に担当業務の詳細が見えにくく、ミスマッチが起きると軌道修正しづらいとの口コミがあります。リファラルや面接で可能な限り情報を引き出す姿勢が重要です。(2) OSS活動や登壇で外向きにブランディングしてきた人にとっては、発信が制限される文化への適応が必要です。
+              <strong>事前に覚悟しておきたい2点です。</strong>(1) 秘密主義の文化上、入社前に担当業務の詳細が見えにくく、ミスマッチが起きると軌道修正しづらいとの口コミがあります。リファラルや面接で可能な限り情報を引き出す姿勢が重要です。(2) OSS活動や登壇で外向きにブランディングしてきた人にとっては、発信が制限される文化への適応が必要です。
             </p>
             <p className="text-sm text-amber-900 leading-relaxed">
               市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">エンジニアの市場価値の測り方</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>も合わせてご覧ください。
@@ -317,9 +317,9 @@ export default function AppleCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">Apple Japan転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。外資や専門職を扱うヘッドハンター経由の案件に出会いやすい。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高い。iOS/組み込み等の専門求人も。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界専門。外資系メーカー・専門職の求人も取り扱い。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資や専門職を扱うヘッドハンター経由の案件に出会いやすいです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。iOS/組み込み等の専門求人も。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界専門です。外資系メーカー・専門職の求人も取り扱いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

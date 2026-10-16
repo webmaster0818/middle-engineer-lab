@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Azure Solutions Architect Expert（AZ-305）は転職に効くか｜上流クラウドの実力証明【2026年】";
 const PAGE_DESC =
-  "MicrosoftのAzure Solutions Architect Expert（AZ-305）を、30代・40代の経験者向けに解説。受験料・試験形式・前提資格・有効期限、上流／基盤設計職での評価、年収の考え方を公式情報をもとに限界も含めて整理します。";
+  "MicrosoftのAzure Solutions Architect Expert（AZ-305）を、30代・40代の経験者向けに解説します。受験料・試験形式・前提資格・有効期限、上流／基盤設計職での評価、年収の考え方を公式情報をもとに留意点も含めて整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/azure-solutions-architect/" },
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "AZ-305の合格率はどのくらいですか？",
-    a: "Microsoftは認定試験の合格率を公表していません。当サイトでは創作した数値を載せず、非公表である事実をそのままお伝えします。合格基準は1000点満点中700点以上で、設問は選択式・ドラッグ＆ドロップ・ケーススタディなどで構成されます（Microsoft Learn、2026年6月時点）。",
+    a: "Microsoftは認定試験の合格率を公表していません。当サイトでは創作した数値は掲載せず、非公表である事実をそのままお伝えします。合格基準は1000点満点中700点以上で、設問は選択式・ドラッグ＆ドロップ・ケーススタディなどで構成されます（Microsoft Learn、2026年6月時点）。",
   },
   {
     q: "AWS認定とAzure、どちらを取るべきですか？",
@@ -100,14 +100,14 @@ export default function AzureArchitectCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          Azure Solutions Architect Expert（試験AZ-305）は、Microsoftのロールベース認定の中でも<strong>Expert（上位）に位置づけられる、Azure上流設計の認定</strong>です。本記事は「AZ-305を取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の加点資格』</strong>という観点から、上流・基盤設計職での評価、前提資格や有効期限の仕組みを公式情報とともに整理します。資格単体では年収は跳ねないという限界も正直にお伝えします。
+          Azure Solutions Architect Expert（試験AZ-305）は、Microsoftのロールベース認定の中でも<strong>Expert（上位）に位置づけられる、Azure上流設計の認定</strong>です。本記事は「AZ-305を取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の加点資格』</strong>という観点から、上流・基盤設計職での評価、前提資格や有効期限の仕組みを公式情報とともに整理します。資格単体では年収は跳ねないという留意点もご説明します。
         </p>
 
         <DataNote
           surveyedAt="2026年6月"
           sources={[
             "Microsoft Learn 公式（learn.microsoft.com）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -133,9 +133,9 @@ export default function AzureArchitectCertPage() {
               AZ-305は<strong>「クラウド設計経験者の加点資格」</strong>です。入口資格とは性格が異なり、すでにインフラ・基盤・移行の実務があるミドルが<strong>上流（アーキテクチャ設計）へ役割を広げる土台</strong>として最も効きます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>Azure実務のある30〜40代</strong>：設計経験を客観的に証明し、上流職で加点される</li>
-              <li>② <strong>クラウド未経験のミドル</strong>：前提のAZ-104が必要で入口には不向き。基礎から段階的に</li>
-              <li>③ <strong>大企業・官公庁・MS基盤の現場志望</strong>：Azure採用が多く、設計力の証明が効きやすい</li>
+              <li>① <strong>Azure実務のある30〜40代</strong>：設計経験を客観的に証明し、上流職で加点されます</li>
+              <li>② <strong>クラウド未経験のミドル</strong>：前提のAZ-104が必要で入口には不向きです。基礎から段階的に</li>
+              <li>③ <strong>大企業・官公庁・MS基盤の現場志望</strong>：Azure採用が多く、設計力の証明が効きやすいです</li>
             </ul>
           </div>
         </section>
@@ -170,7 +170,7 @@ export default function AzureArchitectCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・クラウドアーキテクト職は高単価傾向（<strong>実務・役割が主因</strong>）</li>
               <li>・AZ-305は<strong>設計力の客観的な裏づけ</strong>として機能する加点材</li>
-              <li>・実態：<strong>年収はAzureプロジェクト経験 × 資格の掛け算</strong>で決まる</li>
+              <li>・実態：<strong>年収はAzureプロジェクト経験 × 資格の掛け算</strong>で決まります</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -183,10 +183,10 @@ export default function AzureArchitectCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "クラウド移行・基盤刷新プロジェクト", d: "オンプレからAzureへの移行設計やハイブリッド構成の提案で、設計判断の素養を示す土台になる。" },
-              { t: "上流（アーキテクト・設計リード）への配置", d: "ID・ガバナンス・事業継続まで含めた全体設計力を、Expert認定が客観的に裏づける。" },
-              { t: "大企業・官公庁・MS基盤の案件", d: "Microsoft 365やAzureを基盤とする組織で、Azure設計の信頼性として評価されやすい。" },
-              { t: "提案・要件定義フェーズの担当", d: "利害関係者へのアドバイスやビジネス要件の設計への翻訳という、上流の役割への適性を示す。" },
+              { t: "クラウド移行・基盤刷新プロジェクト", d: "オンプレからAzureへの移行設計やハイブリッド構成の提案で、設計判断の素養を示す土台になります。" },
+              { t: "上流（アーキテクト・設計リード）への配置", d: "ID・ガバナンス・事業継続まで含めた全体設計力を、Expert認定が客観的に裏づけます。" },
+              { t: "大企業・官公庁・MS基盤の案件", d: "Microsoft 365やAzureを基盤とする組織で、Azure設計の信頼性として評価されやすいです。" },
+              { t: "提案・要件定義フェーズの担当", d: "利害関係者へのアドバイスやビジネス要件の設計への翻訳という、上流の役割への適性を示します。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -204,9 +204,9 @@ export default function AzureArchitectCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "クラウドアーキテクト（Azure）", d: "Azure上のクラウド・ハイブリッド構成を設計する上流職。AZ-305がそのまま職務に直結する。" },
-              { t: "インフラ／基盤エンジニア（クラウド寄り）", d: "オンプレ経験を活かしつつ、クラウド移行・基盤設計に役割を広げる際の裏づけになる。" },
-              { t: "プリセールス・ITコンサル寄り", d: "要件をAzure設計へ翻訳する力が、提案・コンサル領域で評価される。" },
+              { t: "クラウドアーキテクト（Azure）", d: "Azure上のクラウド・ハイブリッド構成を設計する上流職です。AZ-305がそのまま職務に直結します。" },
+              { t: "インフラ／基盤エンジニア（クラウド寄り）", d: "オンプレ経験を活かしつつ、クラウド移行・基盤設計に役割を広げる際の裏づけになります。" },
+              { t: "プリセールス・ITコンサル寄り", d: "要件をAzure設計へ翻訳する力が、提案・コンサル領域で評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -251,10 +251,10 @@ export default function AzureArchitectCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>。運用・構築の経験者が、設計・アーキテクトへ役割を広げたい局面で説得力を持ちます。第二に<strong>クラウド移行案件への適性証明</strong>。事業継続・ガバナンスまで含めた全体設計の素養を示せます。第三に<strong>最新技術へのキャッチアップ証明</strong>。有効期限と無料更新の仕組みにより、常に現行のAzure知識を保っていることを示せます。
+            活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>。運用・構築の経験者が、設計・アーキテクトへ役割を広げたい局面で説得力を持ちます。第二に<strong>クラウド移行案件への適性証明です</strong>。事業継続・ガバナンスまで含めた全体設計の素養を示せます。第三に<strong>最新技術へのキャッチアップ証明です</strong>。有効期限と無料更新の仕組みにより、常に現行のAzure知識を保っていることを示せます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。AZ-305は前提資格（AZ-104）が必要で<strong>学習コストが大きく、実務がないと取得後も活かしきれません</strong>。効果が出るのは「Azureプロジェクト経験 × 資格」が成立したときです。また有効期限があるため、取りっぱなしでは失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/skill/azure/" className="text-petrol hover:underline">Azure</Link>の運用経験を積んでから臨むのが堅実です。
+            注意すべきデメリットも押さえておきましょう。AZ-305は前提資格（AZ-104）が必要で<strong>学習コストが大きく、実務がないと取得後も活かしきれません</strong>。効果が出るのは「Azureプロジェクト経験 × 資格」が成立したときです。また有効期限があるため、取りっぱなしでは失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/skill/azure/" className="text-petrol hover:underline">Azure</Link>の運用経験を積んでから臨むのが堅実です。
           </p>
         </section>
 
@@ -266,7 +266,7 @@ export default function AzureArchitectCertPage() {
               AZ-305は、基礎資格とは立ち位置が逆です。基礎資格が「クラウドに入るための入口」なのに対し、AZ-305は<strong>「すでに現場にいる経験者が、上流の設計へ役割を上げるための加点装置」</strong>として最も効きます。インフラ・移行・基盤の実務がある30〜40代にとって、これは時間を投資する価値のある資格です。
             </p>
             <p>
-              一方で過度な期待は禁物です。AZ-305を取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。クラウド移行や基盤設計の実績と組み合わせて初めて、アーキテクト職や高単価案件という形で結実します。さらに有効期限と無料更新の仕組みは、学び続ける姿勢の証明にもなります。
+              一方で過度な期待は禁物です。AZ-305を取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。クラウド移行や基盤設計の実績と組み合わせて初めて、アーキテクト職や高単価案件という形で結実します。さらに有効期限と無料更新の仕組みは、学び続ける姿勢の証明にもなります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -279,9 +279,9 @@ export default function AzureArchitectCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "前提のAZ-104で運用基礎を固める", d: "Azure Administrator Associate（AZ-104）を取得し、運用・管理の土台を作る。AZ-305の前提条件でもある。" },
-              { n: "STEP 2", t: "AZ-305で設計4領域を網羅", d: "ID/ガバナンス/監視、データストレージ、事業継続、インフラの4領域を、ケーススタディ形式に慣れながら対策する。" },
-              { n: "STEP 3", t: "合格→実務で設計に関与し更新", d: "合格後は実プロジェクトで設計に関与し、有効期限前に無料更新評価で資格を維持する。" },
+              { n: "STEP 1", t: "前提のAZ-104で運用基礎を固める", d: "Azure Administrator Associate（AZ-104）を取得し、運用・管理の土台を作ります。AZ-305の前提条件でもあります。" },
+              { n: "STEP 2", t: "AZ-305で設計4領域を網羅", d: "ID/ガバナンス/監視、データストレージ、事業継続、インフラの4領域を、ケーススタディ形式に慣れながら対策します。" },
+              { n: "STEP 3", t: "合格→実務で設計に関与し更新", d: "合格後は実プロジェクトで設計に関与し、有効期限前に無料更新評価で資格を維持します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -317,7 +317,7 @@ export default function AzureArchitectCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">クラウド上流・設計職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            AZ-305を活かせるクラウドアーキテクト・基盤設計求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            AZ-305を活かせるクラウドアーキテクト・基盤設計求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

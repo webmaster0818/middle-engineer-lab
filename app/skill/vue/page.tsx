@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Vue.jsエンジニアの転職ガイド｜年収・求人・Reactとの違い【2026年】";
 const PAGE_DESC =
-  "Vue.jsエンジニアの転職市場を2026年最新の公表データで解説。Reactとの求人数の差、Vue3・Nuxt・Piniaのエコシステム、年収を上げる方法、React/TypeScriptを併用する価値を30代・40代エンジニア向けに正直にまとめました。";
+  "Vue.jsエンジニアの転職市場を2026年最新の公表データで解説します。Reactとの求人数の差、Vue3・Nuxt・Piniaのエコシステム、年収を上げる方法、React/TypeScriptを併用する価値を30代・40代エンジニア向けにまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/vue/" },
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "diff", label: "まず：ReactとVueの違い・求人数の差（正直に）" },
-  { id: "conclusion", label: "結論：Vue転職市場の攻め方" },
+  { id: "diff", label: "まず：ReactとVueの違い・求人数の差" },
+  { id: "conclusion", label: "結論：Vue転職市場での進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "eco", label: "Vueエコシステム（Vue3 / Nuxt / Pinia）" },
   { id: "level", label: "求められる経験レベル" },
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "40代でもVue.jsエンジニアへ転職できますか？",
-    a: "フロントエンドの設計力・チームをまとめる力があれば可能です。ミドル層では、コンポーネント設計・状態管理の方針決め・パフォーマンス改善・若手レビューといった上流要素が評価されます。特定フレームワークの細かな記法より、UI設計の判断とチームへの展開力を示すことが、年代を問わず通用する武器になります。",
+    a: "フロントエンドの設計力・チームをまとめる力があれば可能です。ミドル層では、コンポーネント設計・状態管理の方針決め・パフォーマンス改善・若手レビューといった上流要素が評価されます。特定フレームワークの細かな記法より、UI設計の判断とチームへの展開力を示すことが、年代を問わず通用する強みになります。",
   },
 ];
 
@@ -100,7 +100,7 @@ export default function VueSkillPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          Vue.jsは学習しやすさと段階的な導入のしやすさから、自社開発・受託の現場で根強く使われるフロントエンドフレームワークです。本記事はReactとの求人数の差を正直に踏まえたうえで、「Vueスキルを転職市場でどう価値化するか」に絞り、公表データをもとに30代・40代エンジニアの戦略を整理します。
+          Vue.jsは学習しやすさと段階的な導入のしやすさから、自社開発・受託の現場で根強く使われるフロントエンドフレームワークです。本記事はReactとの求人数の差を踏まえたうえで、「Vueスキルを転職市場でどう価値化するか」に絞り、公表データをもとに30代・40代エンジニアの戦略を整理します。
         </p>
 
         <DataNote
@@ -109,7 +109,7 @@ export default function VueSkillPage() {
             "求人ボックス 給料ナビ フロントエンドエンジニア（2026年6月時点・動的値）",
             "hipro 等 媒体調査（各社調査・幅あり）",
             "Forkwell 求人情報（2026年6月時点）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -129,15 +129,15 @@ export default function VueSkillPage() {
 
         {/* 違い（冒頭差別化） */}
         <section id="diff" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">まず：ReactとVueの違い・求人数の差（正直に）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">まず：ReactとVueの違い・求人数の差</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              Vueの転職を考えるなら、Reactとの位置づけを正直に把握しておくことが最初の一歩です。本ページは<strong>Vue固有</strong>の戦略に絞り、フロントエンド全般や React は送客先として扱います。
+              Vueの転職を考えるなら、Reactとの位置づけを正確に把握しておくことが最初の一歩です。本ページは<strong>Vue固有</strong>の戦略に絞り、フロントエンド全般や React は送客先として扱います。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li><strong>求人数</strong>：国内ではReactが多数派。選択肢の広さはReactが優位。</li>
-              <li><strong>Vueの強み</strong>：学習コストが低く、Nuxt採用の自社/受託に根強い需要。高単価案件も一部に存在。</li>
-              <li><strong>最適解</strong>：Vueを軸に<strong>React・TypeScriptも触れる</strong>と市場価値が最大化。</li>
+              <li><strong>求人数</strong>：国内ではReactが多数派です。選択肢の広さはReactが優位です。</li>
+              <li><strong>Vueの強み</strong>：学習コストが低く、Nuxt採用の自社/受託に根強い需要です。高単価案件も一部に存在しています。</li>
+              <li><strong>最適解</strong>：Vueを軸に<strong>React・TypeScriptも触れる</strong>と市場価値が最大化します。</li>
             </ul>
             <p className="text-slate-700 leading-relaxed mt-3 text-sm">
               React中心の戦略は<Link href="/skill/react/" className="text-petrol hover:underline">React転職ガイド</Link>、フロントエンド全体像は<Link href="/skill/frontend/" className="text-petrol hover:underline">フロントエンド転職ガイド</Link>を参照してください。本ページはVueで戦う人向けです。
@@ -147,15 +147,15 @@ export default function VueSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Vue転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Vue転職市場での進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              Vueエンジニアの転職は、<strong>「Vueが書ける」から「フロント全体を設計でき、ReactもTSも扱える」へ広げて見せられるか</strong>で評価が変わります。攻め方は次の3点です。
+              Vueエンジニアの転職は、<strong>「Vueが書ける」から「フロント全体を設計でき、ReactもTSも扱える」へ広げて見せられるか</strong>で評価が変わります。進め方は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>Vue採用企業を狙い撃ち</strong>しつつ、Reactも候補に入れて母数を確保する</li>
-              <li>② <strong>Vue3 Composition API＋TypeScript</strong>で型安全な設計力を示す</li>
-              <li>③ <strong>Nuxt・Pinia・テスト・パフォーマンス</strong>まで踏み込みシニア評価を狙う</li>
+              <li>① <strong>Vue採用企業を狙い撃ち</strong>しつつ、Reactも候補に入れて母数を確保します</li>
+              <li>② <strong>Vue3 Composition API＋TypeScript</strong>で型安全な設計力を示します</li>
+              <li>③ <strong>Nuxt・Pinia・テスト・パフォーマンス</strong>まで踏み込みシニア評価を狙います</li>
             </ul>
           </div>
         </section>
@@ -190,7 +190,7 @@ export default function VueSkillPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: フロントエンド平均は求人ボックス給料ナビ（2026年6月時点・動的値・参考）。案件区分別はhipro等の媒体調査（各社調査・幅あり）。Forkwellの求人ではVue案件の年収上限に最高2,000万円クラスの提示も見られますが（2026年6月時点）、案件数自体はReactより小さく、高単価は一部の上振れです。これらは単一の確定値ではなく、役割・併用スキルで上下する目安です。
+            出典: フロントエンド平均は求人ボックス給料ナビ（2026年6月時点・動的値・参考）。案件区分別はhipro等の媒体調査です（各社調査・幅あり）。Forkwellの求人ではVue案件の年収上限に最高2,000万円クラスの提示も見られますが（2026年6月時点）、案件数自体はReactより小さく、高単価は一部の上振れです。これらは単一の確定値ではなく、役割・併用スキルで上下する目安です。
           </p>
         </section>
 
@@ -202,10 +202,10 @@ export default function VueSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "Vue3 / Composition API", d: "ロジックの再利用と型との相性が向上した現行主流。Options APIだけでなくComposition APIで書けることが前提になりつつある。" },
-              { t: "Nuxt", d: "VueベースのSSR/SSGフレームワーク。SEOやパフォーマンスが要件のプロジェクトで採用され、Vue求人の主要な受け皿の一つ。" },
-              { t: "Pinia", d: "Vue公式推奨の状態管理ライブラリ（Vuexの後継的位置づけ）。中〜大規模アプリの状態設計で必須級。" },
-              { t: "TypeScript連携", d: "Vue3はTSとの親和性が改善。型安全なコンポーネント・コンポーザブル設計は市場価値を押し上げる。" },
+              { t: "Vue3 / Composition API", d: "ロジックの再利用と型との相性が向上した現行主流です。Options APIだけでなくComposition APIで書けることが前提になりつつあります。" },
+              { t: "Nuxt", d: "VueベースのSSR/SSGフレームワークです。SEOやパフォーマンスが要件のプロジェクトで採用され、Vue求人の主要な受け皿の一つです。" },
+              { t: "Pinia", d: "Vue公式推奨の状態管理ライブラリです（Vuexの後継的位置づけ）。中〜大規模アプリの状態設計で必須級です。" },
+              { t: "TypeScript連携", d: "Vue3はTSとの親和性が改善しています。型安全なコンポーネント・コンポーザブル設計は市場価値を押し上げます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -226,9 +226,9 @@ export default function VueSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "実務1〜3年層（コンポーネント実装）", d: "Vue3の基本、SFC、Vue Router、API連携、基礎的なPinia。チームの一員として画面を作れる層。" },
-              { t: "実務3〜6年層（設計・状態管理）", d: "状態設計、Nuxtでのレンダリング戦略、TypeScript連携、コンポーネント設計の方針決め。年収帯が一段上がる中核ゾーン。" },
-              { t: "実務6年以上層（リード・アーキテクト）", d: "フロント全体設計、パフォーマンス最適化、設計レビュー、React等との技術選定。マネジメント要素も評価される。" },
+              { t: "実務1〜3年層（コンポーネント実装）", d: "Vue3の基本、SFC、Vue Router、API連携、基礎的なPiniaです。チームの一員として画面を作れる層です。" },
+              { t: "実務3〜6年層（設計・状態管理）", d: "状態設計、Nuxtでのレンダリング戦略、TypeScript連携、コンポーネント設計の方針決め。年収帯が一段上がる中核ゾーンです。" },
+              { t: "実務6年以上層（リード・アーキテクト）", d: "フロント全体設計、パフォーマンス最適化、設計レビュー、React等との技術選定です。マネジメント要素も評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -245,14 +245,14 @@ export default function VueSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">TypeScriptで型安全な設計力を示す</h3>
               <p className="text-sm text-petrol-deep">
-                Vue3＋TypeScriptは年収を押し上げる王道。型でバグを防ぐ設計、コンポーザブルの型定義などを語れると評価が上がります。
+                Vue3＋TypeScriptは年収を押し上げる代表的な方法です。型でバグを防ぐ設計、コンポーザブルの型定義などを語れると評価が上がります。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Reactも扱えるようにして母数を広げる</h3>
               <p className="text-sm text-petrol-deep">
                 VueとReactの両方を語れると応募できる求人が一気に広がります。フレームワークの考え方を移植できることが、技術選定を任される立場への近道です。
-                <Link href="/skill/react/" className="text-petrol-deep underline ml-1">React転職ガイド</Link>を参照。
+                <Link href="/skill/react/" className="text-petrol-deep underline ml-1">React転職ガイド</Link>をご参照ください。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -273,17 +273,17 @@ export default function VueSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化。Vue/Nuxtの自社開発求人を技術に明るいアドバイザー経由で探せます。高年収求人比率が高いとされます。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化です。Vue/Nuxtの自社開発求人を技術に明るいアドバイザー経由で探せます。高年収求人比率が高いとされます。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（ギークリー）</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム特化。Vueを使う自社サービス企業の求人に出会いやすいのが特徴です。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム特化です。Vueを使う自社サービス企業の求人に出会いやすいのが特徴です。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
-              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数。Vueに限らず幅広く比較し、母数を確保したい場合の併用先です。</p>
+              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数です。Vueに限らず幅広く比較し、母数を確保したい場合の併用先です。</p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -296,13 +296,13 @@ export default function VueSkillPage() {
         <section id="entry" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">学習コストと参入のしやすさ</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Vueはフロントエンドの中では学習コストが低い部類とされ、参入しやすいのが利点です。ただし「学びやすい＝求人が多い」ではない点は正直にお伝えします。
+            Vueはフロントエンドの中では学習コストが低い部類とされ、参入しやすいのが利点です。ただし「学びやすい＝求人が多い」ではない点はご説明します。
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "Vue3の基礎を固める", d: "公式ドキュメントでSFC・Composition API・Vue Routerを学び、小さなSPAを作る。" },
-              { n: "STEP 2", t: "TypeScript＋Pinia/Nuxt", d: "型安全な実装と状態管理、SSR/SSGまで触れ、実務水準のアプリを1つ完成させる。" },
-              { n: "STEP 3", t: "ポートフォリオ＋Reactの素振り", d: "成果物をGitHubに公開。設計意図をREADMEで説明し、Reactの基礎も触って応募の母数を広げる。" },
+              { n: "STEP 1", t: "Vue3の基礎を固める", d: "公式ドキュメントでSFC・Composition API・Vue Routerを学び、小さなSPAを作ります。" },
+              { n: "STEP 2", t: "TypeScript＋Pinia/Nuxt", d: "型安全な実装と状態管理、SSR/SSGまで触れ、実務水準のアプリを1つ完成させます。" },
+              { n: "STEP 3", t: "ポートフォリオ＋Reactの素振り", d: "成果物をGitHubに公開しています。設計意図をREADMEで説明し、Reactの基礎も触って応募の母数を広げます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -354,7 +354,7 @@ export default function VueSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Vueスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Vue/Nuxtの自社開発求人に強いIT特化型エージェントで、あなたのフロントエンドスキルの市場価値を確認しましょう。
+            Vue/Nuxtの自社開発求人に強いIT特化型エージェントで、ご自身のフロントエンドスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

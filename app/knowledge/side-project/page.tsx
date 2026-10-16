@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/side-project/" },
   title: "副業しながら転職活動｜就業規則の確認・実績の活かし方・時間管理",
   description:
-    "副業しながら転職活動するエンジニア向けガイド。就業規則の確認方法、副業実績を職務経歴書・面接でアピールする方法、両立のための時間管理を30代・40代向けに解説します。",
+    "副業しながら転職活動するエンジニア向けガイドです。就業規則の確認方法、副業実績を職務経歴書・面接でアピールする方法、両立のための時間管理を30代・40代向けに解説します。",
 };
 
 const faqs = [
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "副業と転職活動の時間管理のコツは？",
-    a: "面接は日程が固定されるため最優先で押さえ、副業は自分のペースで調整できるものを選ぶのが基本です。平日夜と週末で「本業・副業・転職活動」のブロックを分け、無理のない範囲で回しましょう。体調を崩すと全てが止まるため、休む時間も計画に入れることが重要です。",
+    a: "面接は日程が固定されるため最優先で押さえ、副業は自分のペースで調整できるものを選ぶのが基本です。平日夜と週末で「本業・副業・転職活動」のブロックを分け、無理のない範囲で回しましょう。体調を崩すとすべてが止まるため、休む時間も計画に入れることが重要です。",
   },
   {
     q: "副業がきっかけで転職先が見つかることはある？",
@@ -43,7 +43,7 @@ const faqs = [
 ];
 
 const sideProjects = [
-  { type: "技術ブログ・登壇", merit: "技術力のアウトプット、説明力・言語化力の証明、検索やSNSで成果が可視化される" },
+  { type: "技術ブログ・登壇", merit: "技術力のアウトプット、説明力・言語化力の証明、検索やSNSで成果が可視化されます" },
   { type: "OSS活動・個人開発", merit: "GitHubでの実績可視化、設計・実装の質を直接見せられる、コミュニティでの評価" },
   { type: "受託開発（個人）", merit: "実務に近い経験、要件定義からデリバリーまでの一連の経験、クライアントワーク力" },
   { type: "技術顧問・スポット支援", merit: "マネジメント・技術選定の経験、短時間で価値を出す力の証明" },
@@ -68,15 +68,15 @@ const beforeAfter = [
   {
     label: "After（成果と役割を具体化）",
     bad: false,
-    text: "副業として個人でSaaS型の業務管理ツールを設計・開発・運用（フロントReact/TypeScript、バックエンドNode.js、AWS）。要件定義からリリース、運用改善まで一人で担当し、継続的にユーザーからのフィードバックを反映。ソースの一部はGitHubで公開。",
+    text: "副業として個人でSaaS型の業務管理ツールを設計・開発・運用します（フロントReact/TypeScript、バックエンドNode.js、AWS）。要件定義からリリース、運用改善まで一人で担当し、継続的にユーザーからのフィードバックを反映します。ソースの一部はGitHubで公開しています。",
   },
 ];
 
 const schedule = [
-  { time: "平日（日中）", task: "本業に集中。昼休みにエージェントとのメッセージ確認・返信のみ行う。" },
-  { time: "平日（夜）", task: "副業作業のブロックを設定（例：20:00〜22:00を週数日）。無理のないペースで。" },
-  { time: "土曜", task: "午前は職務経歴書の更新・面接対策、午後は企業研究・カジュアル面談に充てる。" },
-  { time: "日曜", task: "完全オフ、または副業のまとまった作業。休息も計画に含める。" },
+  { time: "平日（日中）", task: "本業に集中しています。昼休みにエージェントとのメッセージ確認・返信のみ行います。" },
+  { time: "平日（夜）", task: "副業作業のブロックを設定します（例：20:00〜22:00を週数日）。無理のないペースで。" },
+  { time: "土曜", task: "午前は職務経歴書の更新・面接対策、午後は企業研究・カジュアル面談に充てます。" },
+  { time: "日曜", task: "完全オフ、または副業のまとまった作業です。休息も計画に含めます。" },
 ];
 
 export default function SideProjectPage() {
@@ -122,7 +122,7 @@ export default function SideProjectPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】副業しながら転職活動はできる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: できます。ただし①現職の就業規則を確認 → ②副業実績を本業と同じ粒度で具体化 → ③面接を最優先に時間配分、という順序が前提です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・まず副業の可否・競業避止・秘密保持を就業規則で確認する</li><li>・副業のプロジェクト経験・使用技術・成果は職務経歴書や面接でアピールできる</li><li>・日程が固定される面接を最優先にし、休息も計画に入れて体調を崩さない</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・まず副業の可否・競業避止・秘密保持を就業規則で確認します</li><li>・副業のプロジェクト経験・使用技術・成果は職務経歴書や面接でアピールできます</li><li>・日程が固定される面接を最優先にし、休息も計画に入れて体調を崩しません</li></ul>
           </div>
         </section>
 
@@ -133,7 +133,7 @@ export default function SideProjectPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：①就業規則を確認 → ②実績を職務経歴書・面接で具体化 → ③面接を最優先に時間配分</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-2">
-              副業は転職活動の強い武器になります。ただし進め方には順序があります。<strong>まず現職の就業規則で副業の可否・競業避止・秘密保持を確認</strong>し、問題なければ<strong>副業の成果を本業と同じ粒度で具体的にアピール</strong>します。両立中は<strong>日程が固定される面接を最優先</strong>に時間を配分しましょう。
+              副業は転職活動の強い強みになります。ただし進め方には順序があります。<strong>まず現職の就業規則で副業の可否・競業避止・秘密保持を確認</strong>し、問題なければ<strong>副業の成果を本業と同じ粒度で具体的にアピール</strong>します。両立中は<strong>日程が固定される面接を最優先</strong>に時間を配分しましょう。
             </p>
             <p className="text-sm text-blue-900 leading-relaxed">
               副業収入の金額は案件内容や稼働量で大きく異なるため、本記事では具体的な金額の断定は避け、進め方と注意点に絞って解説します。
@@ -164,19 +164,19 @@ export default function SideProjectPage() {
           <div className="space-y-4 mb-6">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">1. 副業の可否（禁止／許可制／届出制／自由）</h3>
-              <p className="text-sm text-slate-600">許可制なら、無断で始めず所定の申請手続きを取る。届出制なら届け出を忘れない。</p>
+              <p className="text-sm text-slate-600">許可制なら、無断で始めず所定の申請手続きを取ります。届出制なら届け出を忘れません。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">2. 競業避止義務</h3>
-              <p className="text-sm text-slate-600">競合他社や同種事業での副業が制限されていないか確認する。利益相反になる相手は避ける。</p>
+              <p className="text-sm text-slate-600">競合他社や同種事業での副業が制限されていないか確認します。利益相反になる相手は避けます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">3. 秘密保持義務</h3>
-              <p className="text-sm text-slate-600">本業の機密情報・ソースコード・顧客情報を副業に流用しない。これは規則の有無に関わらず厳守。</p>
+              <p className="text-sm text-slate-600">本業の機密情報・ソースコード・顧客情報を副業に流用しません。これは規則の有無に関わらず厳守です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">4. 確定申告・住民税</h3>
-              <p className="text-sm text-slate-600">副業所得が年20万円を超える場合は確定申告が必要。税の取り扱いは状況により異なるため、不安な場合は税務署や税理士に確認する。</p>
+              <p className="text-sm text-slate-600">副業所得が年20万円を超える場合は確定申告が必要です。税の取り扱いは状況により異なるため、不安な場合は税務署や税理士に確認します。</p>
             </div>
           </div>
           <h3 className="font-bold text-slate-800 mb-3">就業規則チェックリスト</h3>
@@ -197,10 +197,10 @@ export default function SideProjectPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">副業が転職活動に効く理由</h2>
           <div className="space-y-4 mb-6">
             {[
-              { num: "1", title: "スキルの幅が広がる", desc: "本業で使わない技術を副業で経験できる。例：本業はJava、副業はReact/TypeScript。スキルの掛け合わせで市場価値が上がる。" },
-              { num: "2", title: "確認できる実績が増える", desc: "副業の成果物やGitHub実績は、書類選考・面接で差別化材料になる。第三者が確認できる形の実績は説得力が高い。" },
-              { num: "3", title: "焦らず判断できる", desc: "副業収入があると、転職活動中も精神的な余裕を持てる。妥協した転職を避け、納得感のある意思決定につながる。" },
-              { num: "4", title: "企業文化を体験できる", desc: "副業先での働き方を通じて、その企業の文化を事前に体験できる。そのまま正社員転職につながるケースもある。" },
+              { num: "1", title: "スキルの幅が広がる", desc: "本業で使わない技術を副業で経験できます。例：本業はJava、副業はReact/TypeScriptです。スキルの掛け合わせで市場価値が上がります。" },
+              { num: "2", title: "確認できる実績が増える", desc: "副業の成果物やGitHub実績は、書類選考・面接で差別化材料になります。第三者が確認できる形の実績は説得力が高いです。" },
+              { num: "3", title: "焦らず判断できる", desc: "副業収入があると、転職活動中も精神的な余裕を持てます。妥協した転職を避け、納得感のある意思決定につながります。" },
+              { num: "4", title: "企業文化を体験できる", desc: "副業先での働き方を通じて、その企業の文化を事前に体験できます。そのまま正社員転職につながるケースもあります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -284,10 +284,10 @@ export default function SideProjectPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
             <h3 className="font-bold text-amber-900 mb-2">時間管理で崩れやすいポイント</h3>
             <ul className="space-y-2 text-sm text-amber-900">
-              <li>- 副業を詰め込みすぎて面接準備の時間が取れなくなる</li>
-              <li>- 睡眠を削って体調を崩し、全ての活動が止まる</li>
-              <li>- 副業の納期と面接が重なりパフォーマンスが落ちる</li>
-              <li>- 休息日を確保せず、判断力が鈍る</li>
+              <li>- 副業を詰め込みすぎて面接準備の時間が取れなくなります</li>
+              <li>- 睡眠を削って体調を崩し、すべての活動が止まります</li>
+              <li>- 副業の納期と面接が重なりパフォーマンスが落ちます</li>
+              <li>- 休息日を確保せず、判断力が鈍ります</li>
             </ul>
           </div>
         </section>
@@ -298,11 +298,11 @@ export default function SideProjectPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">面接・内定後に条件を確認する</h3>
-              <p className="text-sm text-petrol-deep">入社後も副業を続けたい場合は、面接や内定承諾前に「副業の可否」「許可制か」「競業の範囲」を確認し、可能なら書面で残しておきましょう。条件比較は<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">オファー比較ガイド</Link>も参考に。</p>
+              <p className="text-sm text-petrol-deep">入社後も副業を続けたい場合は、面接や内定承諾前に「副業の可否」「許可制か」「競業の範囲」を確認し、可能なら書面で残しておきましょう。条件比較は<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">オファー比較ガイド</Link>もご参照ください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">転職先には正直に伝える</h3>
-              <p className="text-sm text-petrol-deep">副業の有無は隠さず伝え、得たスキルを前向きに説明するのが基本。隠して後から発覚するより、最初に共有して条件をすり合わせる方が信頼につながります。</p>
+              <h3 className="font-bold text-blue-800 mb-2">転職先には率直に伝える</h3>
+              <p className="text-sm text-petrol-deep">副業の有無は隠さず伝え、得たスキルを前向きに説明するのが基本です。隠して後から発覚するより、最初に共有して条件をすり合わせる方が信頼につながります。</p>
             </div>
           </div>
         </section>
@@ -313,15 +313,15 @@ export default function SideProjectPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：スキルの掛け算で市場価値を上げる</h3>
-              <p className="text-sm text-petrol-deep">本業の専門性に、副業で別領域の経験を掛け合わせることで差別化できる世代。育児等で時間に制約がある場合は、短時間で成果が見える技術ブログやOSSから始めるのも手。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参照。</p>
+              <p className="text-sm text-petrol-deep">本業の専門性に、副業で別領域の経験を掛け合わせることで差別化できる世代です。育児等で時間に制約がある場合は、短時間で成果が見える技術ブログやOSSから始めるのも手です。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>をご参照ください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：マネジメント・技術顧問の経験を実績化</h3>
-              <p className="text-sm text-petrol-deep">技術顧問やスポット支援など、これまでの経験を活かせる副業は40代と相性が良い。組織づくり・技術選定の経験を実績として言語化すると、シニアポジションの選考で評価されやすい。</p>
+              <p className="text-sm text-petrol-deep">技術顧問やスポット支援など、これまでの経験を活かせる副業は40代と相性が良いです。組織づくり・技術選定の経験を実績として言語化すると、シニアポジションの選考で評価されやすいです。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">健康と家庭への配慮を忘れない</h3>
-              <p className="text-sm text-petrol-deep">30代・40代は体力・家庭の負荷が増える時期。副業・転職活動を詰め込みすぎると本業にも支障が出る。優先順位を決め、休息を計画に入れることが長期的な成功につながる。</p>
+              <p className="text-sm text-petrol-deep">30代・40代は体力・家庭の負荷が増える時期です。副業・転職活動を詰め込みすぎると本業にも支障が出ます。優先順位を決め、休息を計画に入れることが長期的な成功につながります。</p>
             </div>
           </div>
         </section>

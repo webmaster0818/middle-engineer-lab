@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Apache Kafkaスキルで転職｜年収・求人・将来性【2026年】";
 const PAGE_DESC =
-  "Apache Kafka（分散ストリーミング基盤）スキルを軸にした転職市場を出典付きで解説。Kafkaは単体スキルではなく大規模データ基盤・バックエンドの実務基盤として評価される点を整理。求人ボックス公表のデータ／インフラエンジニア年収、求人傾向、30代・40代の戦い方をミドルエンジニア向けにまとめます。";
+  "Apache Kafka（分散ストリーミング基盤）スキルを軸にした転職市場を出典付きで解説。Kafkaは単体スキルではなく大規模データ基盤・バックエンドの実務基盤として評価される点を整理します。求人ボックス公表のデータ／インフラエンジニア年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/kafka/" },
@@ -143,9 +143,9 @@ export default function KafkaSkillPage() {
               <strong>Kafkaは「これ単体で転職する」スキルではありませんが、大規模データ基盤を扱える希少人材としてデータ／バックエンド職の市場価値を大きく押し上げる実務基盤です。</strong>扱える人が少ないため、関連実務とセットで強い差別化になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Kafka単体の職種別年収は公表が乏しく、<strong>データベース約453万円・インフラ約475万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握する</li>
-              <li>・求人は「大規模データ基盤」「リアルタイムストリーミング」「イベント駆動アーキテクチャ」など高度な文脈が多い</li>
-              <li>・Kafka＋データ基盤、＋マイクロサービスの掛け合わせで、希少性の高い高年収ポジションに手が届く</li>
+              <li>・Kafka単体の職種別年収は公表が乏しく、<strong>データベース約453万円・インフラ約475万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握します</li>
+              <li>・求人は「大規模データ基盤」「リアルタイムストリーミング」「イベント駆動アーキテクチャ」など高度な文脈が多いです</li>
+              <li>・Kafka＋データ基盤、＋マイクロサービスの掛け合わせで、希少性の高い高年収ポジションに手が届きます</li>
             </ul>
           </div>
         </section>
@@ -183,7 +183,7 @@ export default function KafkaSkillPage() {
         <section id="level" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Kafkaに関する要件は「Producer/Consumerを実装したことがある」レベルから「大規模ストリーミング基盤を設計・運用できる」レベルまで幅があります。求人票によく登場する要件を傾向としてまとめると次の通りです。
+            Kafkaに関する要件は「Producer/Consumerを実装したことがある」レベルから「大規模ストリーミング基盤を設計・運用できる」レベルまで幅があります。求人票によく登場する要件を傾向としてまとめると次のとおりです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -209,8 +209,8 @@ export default function KafkaSkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               { role: "データエンジニア／データ基盤エンジニア", note: "Kafkaを中核にイベント収集・ストリーム処理・データ基盤を構築" },
-              { role: "バックエンドアーキテクト", note: "イベント駆動・マイクロサービス間連携の設計を担う" },
-              { role: "プラットフォーム／SREエンジニア", note: "Kafkaクラスタの可用性・スケール・監視を支える" },
+              { role: "バックエンドアーキテクト", note: "イベント駆動・マイクロサービス間連携の設計を担います" },
+              { role: "プラットフォーム／SREエンジニア", note: "Kafkaクラスタの可用性・スケール・監視を支えます" },
               { role: "リアルタイム処理エンジニア", note: "ストリーム処理でリアルタイム分析・検知の仕組みを構築" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -234,7 +234,7 @@ export default function KafkaSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。データ基盤・ストリーミング系の専門求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍しています。データ基盤・ストリーミング系の専門求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
@@ -248,7 +248,7 @@ export default function KafkaSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で、提案スピードが強み。大規模データを扱うWeb系企業の求人を探したい場合の選択肢です。
+                IT・Web・ゲーム業界専門で、提案スピードが強みです。大規模データを扱うWeb系企業の求人を探したい場合の選択肢です。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -285,13 +285,13 @@ export default function KafkaSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>希少スキルは年齢の不利を相殺しやすい。</strong>Kafkaのように扱える人が少ない領域では、「若くて安い人材」ではなく「大規模データ基盤を設計できる希少人材」が求められます。30代・40代でシステム設計の経験を積んでいるなら、その設計力こそが武器になります。
+              <strong>希少スキルは年齢の不利を相殺しやすいです。</strong>Kafkaのように扱える人が少ない領域では、「若くて安い人材」ではなく「大規模データ基盤を設計できる希少人材」が求められます。30代・40代でシステム設計の経験を積んでいるなら、その設計力こそが強みになります。
             </p>
             <p>
-              <strong>アーキテクチャの判断力が評価される。</strong>「なぜイベント駆動にするか」「どこにKafkaを置くか」という設計判断は、実プロジェクトの経験から生まれます。同期・非同期のトレードオフや障害時の挙動まで語れると、ミドル層ならではの説得力が出ます。
+              <strong>アーキテクチャの判断力が評価されます。</strong>「なぜイベント駆動にするか」「どこにKafkaを置くか」という設計判断は、実プロジェクトの経験から生まれます。同期・非同期のトレードオフや障害時の挙動まで語れると、ミドル層ならではの説得力が出ます。
             </p>
             <p>
-              <strong>ドメイン知識との掛け合わせが強い。</strong>金融の取引イベント、物流の在庫イベント、広告の配信ログなど、これまでのドメイン知識を大規模イベント処理の設計に結びつけて語れると、希少性がさらに高まります。
+              <strong>ドメイン知識との掛け合わせが強いです。</strong>金融の取引イベント、物流の在庫イベント、広告の配信ログなど、これまでのドメイン知識を大規模イベント処理の設計に結びつけて語れると、希少性がさらに高まります。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -304,13 +304,13 @@ export default function KafkaSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 基本概念を手を動かして理解する。</strong>トピック・パーティション・オフセット・コンシューマグループといった概念は、実際にProducer/Consumerを動かすと腹落ちします。<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>でローカルにKafkaを立てると学習を始めやすいです。
+              <strong>① 基本概念を手を動かして理解します。</strong>トピック・パーティション・オフセット・コンシューマグループといった概念は、実際にProducer/Consumerを動かすと腹落ちします。<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>でローカルにKafkaを立てると学習を始めやすいです。
             </p>
             <p>
-              <strong>② 配信保証とデータ設計を押さえる。</strong>at-least-once／exactly-onceの違い、リバランス、スキーマ管理など、本番で問われる論点を理解します。データの<Link href="/skill/sql/" className="text-petrol hover:underline">データベース</Link>側との連携（CDCでのデータ取り込みなど）も合わせて学ぶと実務に近づきます。
+              <strong>② 配信保証とデータ設計を押さえます。</strong>at-least-once／exactly-onceの違い、リバランス、スキーマ管理など、本番で問われる論点を理解します。データの<Link href="/skill/sql/" className="text-petrol hover:underline">データベース</Link>側との連携（CDCでのデータ取り込みなど）も合わせて学ぶと実務に近づきます。
             </p>
             <p>
-              <strong>③ 運用・基盤領域へ広げる。</strong>クラスタの可用性・スケール、監視、クラウドのマネージドサービス（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>のマネージドKafka等）まで広げると、データ基盤・プラットフォーム求人で語れる経験になります。IaC（<Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform</Link>）での基盤管理も親和性が高い領域です。
+              <strong>③ 運用・基盤領域へ広げます。</strong>クラスタの可用性・スケール、監視、クラウドのマネージドサービス（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>のマネージドKafka等）まで広げると、データ基盤・プラットフォーム求人で語れる経験になります。IaC（<Link href="/skill/terraform/" className="text-petrol hover:underline">Terraform</Link>）での基盤管理も親和性が高い領域です。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -357,7 +357,7 @@ export default function KafkaSkillPage() {
               { name: "Redisスキルの転職ガイド", href: "/skill/redis/" },
               { name: "インフラエンジニアの転職ガイド", href: "/skill/infrastructure/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

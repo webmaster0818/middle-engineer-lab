@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/andpad/" },
   title: "ANDPAD（アンドパッド）の転職難易度・年収とエンジニア転職【2026年】",
   description:
-    "ANDPAD（建設DX・非上場・プレIPO）のエンジニア中途採用を公式技術ブログ等の一次情報で解説。Ruby on Rails中心＋Go採用の技術スタック、SRE文化、年収の考え方、30代40代の転職可否を中立にまとめました。",
+    "ANDPAD（建設DX・非上場・プレIPO）のエンジニア中途採用を公式技術ブログ等の一次情報で解説します。Ruby on Rails中心＋Go採用の技術スタック、SRE文化、年収の考え方、30代40代の転職可否を中立にまとめました。",
 };
 
 const toc = [
@@ -31,7 +31,7 @@ const basicData: [string, string][] = [
   ["企業名", "株式会社アンドパッド（ANDPAD・非上場・旧オクト）"],
   ["設立", "2012年"],
   ["事業内容", "建設・建築業界向けの施工管理・業務効率化クラウド「ANDPAD」の開発・提供（建設DX）"],
-  ["導入実績・規模", "26.5万社が利用するシェアNo.1クラスのサービス／従業員 約780名規模。プレIPO（上場準備）フェーズとされる"],
+  ["導入実績・規模", "26.5万社が利用するシェアNo.1クラスのサービス／従業員 約780名規模です。プレIPO（上場準備）フェーズとされる"],
   ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しない（Indeed等の参考値は「年収データ」章を参照）"],
   ["技術スタック", "Ruby on Rails 中心＋Go の採用／SRE・クラウドネイティブ（KubeCon登壇実績）"],
 ];
@@ -58,7 +58,7 @@ export default function AndpadCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="ANDPAD エンジニア転職ガイド" description="ANDPAD（建設DX・非上場・プレIPO）へのエンジニア転職を公式技術ブログ等の一次情報で解説。Ruby on Rails中心＋Go採用の技術、SRE文化、年収の考え方をまとめました。" url="/company/andpad/" />
+      <ArticleJsonLd title="ANDPAD エンジニア転職ガイド" description="ANDPAD（建設DX・非上場・プレIPO）へのエンジニア転職を公式技術ブログ等の一次情報で解説します。Ruby on Rails中心＋Go採用の技術、SRE文化、年収の考え方をまとめました。" url="/company/andpad/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ANDPAD" }]} />
 
@@ -73,7 +73,7 @@ export default function AndpadCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ANDPAD（アンドパッド）の年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社アンドパッドは非上場で有価証券報告書による全社員平均年収は存在せず、Indeed等の集計ではエンジニア約731万円という参考値が見られます（公式値ではない参考値・2026年6月時点）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・集計サイト（Indeed等）のエンジニア参考値は約731万円（公式値ではない参考値・2026年6月時点）。</li><li>・非上場のため公式の全社員平均・等級別年収表は開示なし。当ガイドでは創作した数値表は掲載していません。</li><li>・プレIPOのため報酬にストックオプション等が含まれる場合がありますが、価値は将来のIPOに依存し不確定です。実額は面談でご確認ください。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・集計サイト（Indeed等）のエンジニア参考値は約731万円です（公式値ではない参考値・2026年6月時点）。</li><li>・非上場のため公式の全社員平均・等級別年収表は開示なし。当ガイドでは創作した数値表は掲載していません。</li><li>・プレIPOのため報酬にストックオプション等が含まれる場合がありますが、価値は将来のIPOに依存し不確定です。実額は面談でご確認ください。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["ANDPAD 公式採用サイト", "ANDPAD 技術ブログ（tech.andpad.co.jp）", "Indeed等の年収参考値（公式値ではない）", "OpenWork（口コミ傾向）"]} />
@@ -83,9 +83,9 @@ export default function AndpadCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（Rails中心・スケール局面の即戦力志向）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・<strong>Ruby on Rails 中心＋Go</strong>の構成。Rails／GoでのWebサービス開発・運用経験を持つエンジニアに向く。</li>
-              <li>・<strong>26.5万社・シェアNo.1クラス</strong>のプロダクトをスケールさせる局面。SRE・クラウドネイティブの設計・運用経験が活きる（KubeCon登壇実績あり）。</li>
-              <li>・<strong>建設DX</strong>というIT化の余地が大きい社会課題ドメイン。プレIPO（上場準備）フェーズとされ、成長企業ならではの裁量がある。</li>
+              <li>・<strong>Ruby on Rails 中心＋Go</strong>の構成です。Rails／GoでのWebサービス開発・運用経験を持つエンジニアに向きます。</li>
+              <li>・<strong>26.5万社・シェアNo.1クラス</strong>のプロダクトをスケールさせる局面です。SRE・クラウドネイティブの設計・運用経験が活きます（KubeCon登壇実績あり）。</li>
+              <li>・<strong>建設DX</strong>というIT化の余地が大きい社会課題ドメインです。プレIPO（上場準備）フェーズとされ、成長企業ならではの裁量があります。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">非上場のため全社平均年収の公式値はありません。Indeed等のエンジニア約731万円は公式値ではない参考値です。プレIPOゆえSO等の将来価値に期待が持てる一方、IPOの時期・条件は不確定で、安定した上場大企業の確実性を最優先する人にはミスマッチが起こり得ます。</p>
           </div>
@@ -173,7 +173,7 @@ export default function AndpadCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、ANDPADについて<strong>「巨大な未IT化市場を変える事業の手応えが大きい」「技術発信・SREへの投資が活発」</strong>といった声が見られる一方、<strong>「急成長・組織拡大に伴う変化の速さや、プロセスが整備途上の部分がある」</strong>といった指摘も見られます。事業の社会的インパクトと成長フェーズへの適応が定着の鍵になる傾向がうかがえます。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -181,7 +181,7 @@ export default function AndpadCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>ANDPADは<strong>Ruby on Rails中心＋Go</strong>という、ミドル層に経験者が多い技術構成です。これまでRailsでWebサービスを設計・運用してきた30代・40代にとって、これまでの蓄積を即戦力として活かしやすい環境です。26.5万社・シェアNo.1クラスのプロダクトをスケールさせる局面のため、SRE・大規模運用・組織づくりの経験は特に重宝されます。</p>
             <p>プレIPO（上場準備）フェーズという点は、ミドルにとってメリットとリスクの両面があります。ストックオプション等が将来のIPOに連動して価値を持つ可能性がある一方、IPOの時期・条件は不確定です。安定した上場大企業の確実性を求める人には不向きな面もあるため、報酬の内訳（現金とSOのバランス）やリスク許容度を面談で確認しておくことが重要です。非上場のため将来の株式価値は公式の確定情報がなく、提示条件ベースで判断するのが現実的です。</p>
-            <p>建設・不動産ドメインに関心がある方や、SIer・SESから自社プロダクト開発へ移りたいミドルには<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWEB系への転職</Link>が、年収交渉・キャリア整理には<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>が参考になります。</p>
+            <p>建設・不動産ドメインに関心がある方や、SIer・SESから自社プロダクト開発へ移りたいミドルには<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>が、年収交渉・キャリア整理には<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>が参考になります。</p>
           </div>
         </section>
 
@@ -193,7 +193,7 @@ export default function AndpadCompanyPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Ruby on Rails／GoでのWebサービス開発・運用経験を持つミドル</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>SRE・クラウドネイティブで大規模サービスを支えたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>未IT化の巨大市場（建設DX）を変えることに意義を感じる</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>未IT化の巨大市場（建設DX）を変えることに意義を感じます</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>プレIPOの成長フェーズで裁量を持って動きたい</li>
               </ul>
             </div>
@@ -214,16 +214,16 @@ export default function AndpadCompanyPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。建設・建築は就業者数が多くIT化の余地が大きい産業で、ANDPADはその施工管理DXで先行するスタートアップです。</p>
             <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均で、ANDPADの集計参考値（エンジニア約731万円）はこれを上回りますが、後者は公式値ではない参考値である点に留意が必要です。</p>
-            <p>Rails経験を活かして自社プロダクト開発へ移りたいミドルにとって、ANDPADは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWEB系への転職</Link>や<Link href="/skill/ruby/" className="text-petrol hover:underline">Rubyエンジニアの転職市場</Link>も参考になります。</p>
+            <p>Rails経験を活かして自社プロダクト開発へ移りたいミドルにとって、ANDPADは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>や<Link href="/skill/ruby/" className="text-petrol hover:underline">Rubyエンジニアの転職市場</Link>も参考になります。</p>
           </div>
         </section>
 
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ANDPAD転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強いです。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすいです。ミドル層の選択肢を広げやすいです。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強いです。カジュアル面談につながりやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">

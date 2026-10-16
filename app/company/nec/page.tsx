@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/nec/" },
   title: "NECの転職難易度と年収は？平均963万円【2026年・有報】ジョブ型のエンジニア転職",
   description:
-    "NEC（日本電気）のエンジニア中途採用を有価証券報告書の一次情報で解説。平均年収963万円(2025年3月期・単体全従業員)、ジョブ型移行、社会インフラ/AIの事業、30代40代の現実を中立にまとめました。",
+    "NEC（日本電気）のエンジニア中途採用を有価証券報告書の一次情報で解説します。平均年収963万円(2025年3月期・単体全従業員)、ジョブ型移行、社会インフラ/AIの事業、30代40代の現実を中立にまとめました。",
 };
 
 const toc = [
@@ -59,7 +59,7 @@ export default function NecCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="NEC エンジニア転職ガイド" description="NECへのエンジニア転職を有価証券報告書の一次情報で解説。平均年収963万円(2025年3月期・単体全従業員)、ジョブ型移行、社会インフラ/AIの事業をまとめました。" url="/company/nec/" />
+      <ArticleJsonLd title="NEC エンジニア転職ガイド" description="NECへのエンジニア転職を有価証券報告書の一次情報で解説します。平均年収963万円(2025年3月期・単体全従業員)、ジョブ型移行、社会インフラ/AIの事業をまとめました。" url="/company/nec/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "NEC" }]} />
 
@@ -74,7 +74,7 @@ export default function NecCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】NECの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（日本電気株式会社単体）の平均年間給与は963万円です（2025年3月期 有価証券報告書・全従業員平均・賞与含む、平均年齢42.6歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 963万円（2025年3月期 有報・提出会社単体／全従業員平均・賞与含む）。エンジニアに限定した値ではありません。</li><li>・平均年齢42.6歳・平均勤続年数16.6年（同 有報）とミドル層が中核。提出会社単体の従業員数は約22,271名。</li><li>・2021年以降ジョブ型人材マネジメントへ移行。職種別・等級別レンジは非公表で、提示額は求人・面談での確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 963万円です（2025年3月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。エンジニアに限定した値ではありません。</li><li>・平均年齢42.6歳・平均勤続年数16.6年（同 有価証券報告書）とミドル層が中核です。提出会社単体の従業員数は約22,271名です。</li><li>・2021年以降ジョブ型人材マネジメントへ移行します。職種別・等級別レンジは非公表で、提示額は求人・面談での確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["NEC 有価証券報告書（2025年3月期・提出会社単体）", "IRBANK", "NEC 公式採用ページ", "OpenWork（口コミ傾向）"]} />
@@ -84,9 +84,9 @@ export default function NecCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（社会インフラ・AI・セキュリティの専門性）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・中核は<strong>社会インフラ／AI（生体認証）／クラウド／セキュリティ</strong>。社会的影響の大きい大規模システムに、専門性を持って関わりたい人に向く。</li>
-              <li>・<strong>ジョブ型人材マネジメントへ移行</strong>しており、職務・専門性に応じた評価が進む。年功より職務で評価されたいミドルに追い風。</li>
-              <li>・年収は提出会社単体の全従業員平均で<strong>963万円（2025年3月期・有報）</strong>。安定した大手の処遇水準が魅力。</li>
+              <li>・中核は<strong>社会インフラ／AI（生体認証）／クラウド／セキュリティです</strong>。社会的影響の大きい大規模システムに、専門性を持って関わりたい人に向きます。</li>
+              <li>・<strong>ジョブ型人材マネジメントへ移行</strong>しており、職務・専門性に応じた評価が進みます。年功より職務で評価されたいミドルに追い風です。</li>
+              <li>・年収は提出会社単体の全従業員平均で<strong>963万円です（2025年3月期・有価証券報告書）</strong>。安定した大手の処遇水準が魅力です。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">逆に、特定のモダンWeb技術を最優先したい人や、スタートアップ的なスピード・裁量を求める人は、大企業・社会インフラ特有の進め方とミスマッチが起きやすい点に注意が必要です。</p>
           </div>
@@ -118,7 +118,7 @@ export default function NecCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">社会インフラ・AI・セキュリティの幅広い事業</h3><p className="text-sm text-petrol-deep">NECは生体認証などのAI、社会インフラ、クラウド、セキュリティと事業領域が非常に広く、社会的影響の大きいシステムを手がけています。担当する事業によって扱う技術やドメインが大きく異なるのが特徴で、自分の専門性を活かせる領域を選びやすい一方、配属事業の見極めが重要になります。</p></div>
             <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">ジョブ型人材マネジメントへの移行</h3><p className="text-sm text-petrol-deep">NECはジョブ型人材マネジメントへの移行を進めています。職務（ジョブ）の難易度・専門性に応じて処遇が決まる方向で、年功序列に依存しない評価が進みつつあります。専門性やマネジメント経験を持つミドル層にとっては、経験が処遇に反映されやすくなる側面があります。</p></div>
-            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">大手ならではの安定基盤</h3><p className="text-sm text-petrol-deep">提出会社単体で平均勤続年数16.6年・平均年齢42.6歳（2025年3月期・有報）と、長期勤続のミドル層が中核を占める組織です。安定した処遇（全従業員平均963万円）と幅広い事業ポートフォリオが、腰を据えて専門性を深めたい人にとっての魅力になります。</p></div>
+            <div className="bg-petrol-soft rounded-lg p-5"><h3 className="font-bold text-blue-800 mb-2">大手ならではの安定基盤</h3><p className="text-sm text-petrol-deep">提出会社単体で平均勤続年数16.6年・平均年齢42.6歳（2025年3月期・有価証券報告書）と、長期勤続のミドル層が中核を占める組織です。安定した処遇（全従業員平均963万円）と幅広い事業ポートフォリオが、腰を据えて専門性を深めたい人にとっての魅力になります。</p></div>
           </div>
         </section>
 
@@ -174,13 +174,13 @@ export default function NecCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、NECについて<strong>「社会的影響の大きい事業に関われる」「大手ならではの安定・福利厚生」「ジョブ型移行で専門性が評価されやすくなった」</strong>といった声が見られる一方、<strong>「大企業ゆえに意思決定や調整に時間がかかる場面がある」「事業・部署による文化や働き方の差が大きい」</strong>といった指摘も見られます。配属される事業・部署によって体験が大きく異なる傾向がうかがえます。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
         </section>
 
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たNEC</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>提出会社単体の<strong>平均年齢は42.6歳、平均勤続年数16.6年</strong>（2025年3月期・有報）。ミドル層が中核を占める落ち着いた組織で、30代・40代が多数派です。中途で入る場合は、即戦力としての専門性に加え、大企業ならではの進め方や品質意識に馴染めるかが定着のポイントになります。</p>
+            <p>提出会社単体の<strong>平均年齢は42.6歳、平均勤続年数16.6年です</strong>（2025年3月期・有価証券報告書）。ミドル層が中核を占める落ち着いた組織で、30代・40代が多数派です。中途で入る場合は、即戦力としての専門性に加え、大企業ならではの進め方や品質意識に馴染めるかが定着のポイントになります。</p>
             <p>NECは<strong>ジョブ型人材マネジメントへ移行</strong>しており、職務・専門性に応じた処遇が進む方向です。これは、年功に頼らず専門性で評価されたい30代・40代にとって追い風になり得ます。AI（生体認証）・セキュリティ・社会インフラといった領域で専門性を深めてきた人にとっては、経験が活きる希少なポジションが見つかる可能性があります。一方で、モダンWeb技術やスタートアップ的なスピードを最優先したい場合は、大企業・社会インフラ特有の進め方との相性を事前に見極めることをおすすめします。</p>
             <p>年収面では全従業員平均963万円（2025年3月期・単体）が一つの基準となり、前職年収・賞与比率との比較が重要です。転職活動では、ミドル層の年収交渉・キャリア整理の観点も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>、<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>もあわせて確認してください。</p>
           </div>
@@ -202,9 +202,9 @@ export default function NecCompanyPage() {
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>最新のモダンWeb技術を常に最優先で追いたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>スタートアップ的なスピード・裁量を最重視する</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>スタートアップ的なスピード・裁量を最重視します</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>大企業特有の調整・意思決定プロセスが苦手</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>少人数で何でも自分で回す環境を好む</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>少人数で何でも自分で回す環境を好みます</li>
               </ul>
             </div>
           </div>
@@ -214,7 +214,7 @@ export default function NecCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">大手IT・社会インフラ転職市場とNECの位置づけ</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。特にAI・セキュリティ・社会インフラを担える人材の需要は構造的に高く、NECのように社会的影響の大きい領域を幅広く手がける大手は、専門性を社会実装したいミドルにとって有力な選択肢です。</p>
-            <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均で、NECの提出会社単体の全従業員平均963万円（2025年3月期・有報）はこれを上回ります。ただし有報の値は全従業員平均であり、職種・等級・賞与により個人差が大きい点に留意が必要です。</p>
+            <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均で、NECの提出会社単体の全従業員平均963万円（2025年3月期・有価証券報告書）はこれを上回ります。ただし有価証券報告書の値は全従業員平均であり、職種・等級・賞与により個人差が大きい点に留意が必要です。</p>
             <p>つまりNECは「社会インフラ・AI・セキュリティの専門性を、安定した大手の処遇で評価する」企業といえます。ジョブ型移行により専門性が処遇に反映されやすくなりつつある一方、配属事業によって体験が大きく異なるため、自分の経験がどの事業・職務に合うかの見極めが転職成功の鍵になります。</p>
           </div>
         </section>
@@ -222,9 +222,9 @@ export default function NecCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">NEC転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。大手電機・メーカー・社会インフラ系の求人を幅広くカバー。" }, { name: "リクルートエージェント（IT）", href: "/review/recruit-it/", desc: "求人数・実績が豊富で、大手企業の中途採用に強い。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。専門性の高いミドルのポジションに出会いやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。大手電機・メーカー・社会インフラ系の求人を幅広くカバーします。" }, { name: "リクルートエージェント（IT）", href: "/review/recruit-it/", desc: "求人数・実績が豊富で、大手企業の中途採用に強いです。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。専門性の高いミドルのポジションに出会いやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">

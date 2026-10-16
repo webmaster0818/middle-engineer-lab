@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/python/" },
   title: "Pythonエンジニアの転職ガイド｜AI・データ分析の年収と将来性",
   description:
-    "Pythonエンジニアの転職市場をAI・データ分析の観点から出典付きで解説。求人ボックスやレバテックの公表年収、Web系からAI/MLへの転向、求人の探し方、30代・40代の戦い方を整理します。",
+    "Pythonエンジニアの転職市場をAI・データ分析の観点から出典付きで解説。求人ボックスやレバテックの公表年収、Web系からAI/MLへの転向、求人の探し方、30代・40代の進め方を整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Pythonエンジニアの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：Pythonエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Pythonの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Pythonエンジニアのキャリアパス" },
@@ -69,7 +69,7 @@ export default function PythonSkillPage() {
     <>
       <ArticleJsonLd
         title="Pythonエンジニアの転職ガイド｜AI・データ分析の年収と将来性"
-        description="Pythonエンジニアの転職市場をAI・データ分析の観点から出典付きで解説。求人ボックスやレバテックの公表年収、Web系からAI/MLへの転向、求人の探し方、30代・40代の戦い方を整理します。"
+        description="Pythonエンジニアの転職市場をAI・データ分析の観点から出典付きで解説。求人ボックスやレバテックの公表年収、Web系からAI/MLへの転向、求人の探し方、30代・40代の進め方を整理します。"
         url="/skill/python/"
       />
       <script
@@ -97,21 +97,21 @@ export default function PythonSkillPage() {
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Pythonエンジニアへの転職は？AI・データ分析でどう戦う</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: PythonはWeb（Django/FastAPI）からAI・データ分析まで応用範囲が広く、転職の入り口が多い言語です。年収を伸ばす鍵はAI/ML・データ基盤への展開です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
-            <li>・<strong>難易度</strong>：Web系Pythonの実務経験があれば転職機会は多い。AI/ML領域は専門性で差がつく。</li>
-            <li>・<strong>未経験／転向</strong>：Django/FastAPIでバックエンド実績→NumPy/Pandas/scikit-learn＋統計→データパイプライン/MLOpsの順で橋渡し。</li>
-            <li>・<strong>年代別</strong>：レバテック公表のSE年収で30代約499万円・40代約618万円が目安（Python特化ではなくSE全般の参考値）。</li>
-            <li>・<strong>進め方</strong>：Web・データ双方に強いエージェントを併用し、求人票で使用領域（Web/データ/ML）と年収を確認。</li>
+            <li>・<strong>難易度</strong>：Web系Pythonの実務経験があれば転職機会は多いです。AI/ML領域は専門性で差がつきます。</li>
+            <li>・<strong>未経験／転向</strong>：Django/FastAPIでバックエンド実績→NumPy/Pandas/scikit-learn＋統計→データパイプライン/MLOpsの順で橋渡しします。</li>
+            <li>・<strong>年代別</strong>：レバテック公表のSE年収で30代約499万円・40代約618万円が目安です（Python特化ではなくSE全般の参考値）。</li>
+            <li>・<strong>進め方</strong>：Web・データ双方に強いエージェントを併用し、求人票で使用領域（Web/データ/ML）と年収を確認します。</li>
           </ul>
         </div>
 
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
-            PythonはAI・機械学習・データサイエンスの事実上の標準言語であり、Web開発（Django/FastAPI）や業務自動化まで用途が広いことから、安定した需要を持つ言語です。一方で「Pythonができる」だけでは差別化が難しく、どの領域で勝負するかの設計が転職成否を分けます。
+            PythonはAI・機械学習・データサイエンスの事実上の標準言語であり、Web開発（Django/FastAPI）や業務自動化まで用途が広いことから、安定した需要を持つ言語です。一方で「Pythonができる」だけでは差別化が難しく、どの領域を強みにするかの設計が転職成否を分けます。
           </p>
           <p className="text-slate-600 leading-relaxed">
             本記事では、<strong>公表年収データ・求められる経験レベル・求人の探し方・Web系からAI/MLへの転向ルート</strong>を、30代・40代の視点を交えて整理します。
           </p>
-                  <p className="text-sm mt-3 text-slate-600">言語別の年収比較は<Link href="/salary/skill-ranking/" className="text-petrol underline font-semibold">プログラミング言語別 年収ランキング</Link>、企業別の有報年収は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング</Link>をご覧ください。</p>
+                  <p className="text-sm mt-3 text-slate-600">言語別の年収比較は<Link href="/salary/skill-ranking/" className="text-petrol underline font-semibold">プログラミング言語別 年収ランキング</Link>、企業別の有価証券報告書年収は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング</Link>をご覧ください。</p>
         </section>
 
         <DataNote
@@ -139,15 +139,15 @@ export default function PythonSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Pythonエンジニアの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Pythonエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Pythonは需要が広い分、領域を絞らないと埋もれます。</strong>「Web系」「データサイエンス」「AI/ML・MLOps」のどこで戦うかを定め、それに沿った成果物と職務経歴で打ち出すのが攻め方です。
+              <strong>Pythonは需要が広い分、領域を絞らないと埋もれます。</strong>「Web系」「データサイエンス」「AI/ML・MLOps」のどこで戦うかを定め、それに沿った成果物と職務経歴で打ち出すのが進め方です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・AI/ML・データ領域は人材不足が強く、求人ボックスではAIエンジニア平均<strong>約571万円</strong>と他職種より高め</li>
               <li>・Web系Python（Django/FastAPI）からAI/MLへは、統計・分析ライブラリの習得で<strong>転向の橋渡し</strong>が可能</li>
-              <li>・40代でもMLOps・データ基盤・AI活用推進など<strong>上流・運用の専門性</strong>があれば需要がある</li>
+              <li>・40代でもMLOps・データ基盤・AI活用推進など<strong>上流・運用の専門性</strong>があれば需要があります</li>
             </ul>
           </div>
         </section>
@@ -196,8 +196,8 @@ export default function PythonSkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { tier: "Web系（Django/FastAPI）", req: "Python実務2〜3年／REST API・DB設計／クラウド（AWS等）／フロントとの連携", note: "Webエンジニアからの近道" },
-              { tier: "データサイエンス", req: "統計・分析の基礎／Pandas・scikit-learn／可視化／ビジネス課題への翻訳力", note: "分析・企画寄りの強みが活きる" },
-              { tier: "AI/ML・MLOps", req: "PyTorch・TensorFlow／モデル運用・データパイプライン／LLM・RAG活用", note: "不足感が強く高年収が狙える" },
+              { tier: "データサイエンス", req: "統計・分析の基礎／Pandas・scikit-learn／可視化／ビジネス課題への翻訳力", note: "分析・企画寄りの強みが活きます" },
+              { tier: "AI/ML・MLOps", req: "PyTorch・TensorFlow／モデル運用・データパイプライン／LLM・RAG活用", note: "不足感が強く高年収が狙えます" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2 text-sm">{item.tier}</h3>
@@ -215,19 +215,19 @@ export default function PythonSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">AI/機械学習エンジニア</h3>
               <p className="text-sm text-petrol-deep">
-                機械学習モデルの開発・学習・最適化を担当。PyTorch/TensorFlow、scikit-learn、LangChainなどを使い、プロダクトにAI機能を組み込みます。LLM活用やRAG構築のスキルが特に評価される領域です。
+                機械学習モデルの開発・学習・最適化を担当します。PyTorch/TensorFlow、scikit-learn、LangChainなどを使い、プロダクトにAI機能を組み込みます。LLM活用やRAG構築のスキルが特に評価される領域です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データサイエンティスト</h3>
               <p className="text-sm text-petrol-deep">
-                データ分析・統計モデリング・ビジネスインサイトの抽出を担当。Pandas/NumPy/可視化ツールを使い、経営判断につながる分析を行います。ビジネス理解力が成果を左右します。
+                データ分析・統計モデリング・ビジネスインサイトの抽出を担当します。Pandas/NumPy/可視化ツールを使い、経営判断につながる分析を行います。ビジネス理解力が成果を左右します。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">MLOps／データ基盤エンジニア</h3>
               <p className="text-sm text-petrol-deep">
-                MLモデルの本番運用、データパイプラインの構築・運用を担当。MLflow・Airflow・BigQuery等を扱い、基盤を安定運用します。インフラスキルとPythonの両方が求められます。
+                MLモデルの本番運用、データパイプラインの構築・運用を担当します。MLflow・Airflow・BigQuery等を扱い、基盤を安定運用です。インフラスキルとPythonの両方が求められます。
               </p>
             </div>
           </div>
@@ -288,13 +288,13 @@ export default function PythonSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>「広く浅く」を避けて領域を定める。</strong>Pythonは用途が広い分、ミドル層が漠然と「Pythonエンジニア」と名乗ると埋もれがちです。これまでのドメイン知識（金融・製造・ヘルスケア等）とPythonを結びつけ、「その業界のデータが分かるPython人材」として打ち出すのが30代・40代の勝ち筋です。
+              <strong>「広く浅く」を避けて領域を定めます。</strong>Pythonは用途が広い分、ミドル層が漠然と「Pythonエンジニア」と名乗ると埋もれがちです。これまでのドメイン知識（金融・製造・ヘルスケア等）とPythonを結びつけ、「その業界のデータが分かるPython人材」として打ち出すのが30代・40代に有効な方法です。
             </p>
             <p>
-              <strong>上流・運用の経験が評価される。</strong>MLOps・データ基盤設計・AI活用の企画推進は、若手では担いにくい領域です。マネジメントや要件定義の経験があるなら、実装力とセットで提示すると年齢が強みに変わります。
+              <strong>上流・運用の経験が評価されます。</strong>MLOps・データ基盤設計・AI活用の企画推進は、若手では担いにくい領域です。マネジメントや要件定義の経験があるなら、実装力とセットで提示すると年齢が強みに変わります。
             </p>
             <p>
-              <strong>学び直しのハードルは下がっている。</strong>生成AIの活用で学習効率は上がっており、業務外でも実データを使った成果物を作りやすくなりました。「学び続けている証拠」を一つ持っておくことが、年齢への懸念を払拭します。
+              <strong>学び直しのハードルは下がっています。</strong>生成AIの活用で学習効率は上がっており、業務外でも実データを使った成果物を作りやすくなりました。「学び続けている証拠」を一つ持っておくことが、年齢への懸念を払拭します。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -307,13 +307,13 @@ export default function PythonSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 課題設定から始める。</strong>チュートリアルの写経ではなく、自分で解きたい課題を一つ決めて最後まで作り切ることが、面接で語れる経験になります。データ収集・前処理・モデリング・評価まで通すと実務感覚が身につきます。
+              <strong>① 課題設定から始めます。</strong>チュートリアルの写経ではなく、自分で解きたい課題を一つ決めて最後まで作り切ることが、面接で語れる経験になります。データ収集・前処理・モデリング・評価まで通すと実務感覚が身につきます。
             </p>
             <p>
-              <strong>② 再現性と品質を意識する。</strong>業務ではデータ品質・再現性・運用が重視されます。ノートブックで終わらせず、スクリプト化・テスト・環境管理（poetry/uv等）まで整えると、実務レベルのアピールになります。
+              <strong>② 再現性と品質を意識します。</strong>業務ではデータ品質・再現性・運用が重視されます。ノートブックで終わらせず、スクリプト化・テスト・環境管理（poetry/uv等）まで整えると、実務レベルのアピールになります。
             </p>
             <p>
-              <strong>③ LLM活用を一段深く理解する。</strong>生成AIを「使う」だけでなく、RAGやエージェント構成、評価の仕方まで踏み込むと、需要の高い領域で差別化できます。
+              <strong>③ LLM活用を一段深く理解します。</strong>生成AIを「使う」だけでなく、RAGやエージェント構成、評価の仕方まで踏み込むと、需要の高い領域で差別化できます。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -360,7 +360,7 @@ export default function PythonSkillPage() {
               { name: "Goエンジニアの転職ガイド", href: "/skill/go/" },
               { name: "インフラエンジニアの転職ガイド", href: "/skill/infrastructure/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

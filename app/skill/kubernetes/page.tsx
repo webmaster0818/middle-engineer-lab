@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const PAGE_TITLE = "Kubernetesエンジニアの転職ガイド｜年収・CKA資格・求人の攻め方【2026年】";
+const PAGE_TITLE = "Kubernetesエンジニアの転職ガイド｜年収・CKA資格・求人の進め方【2026年】";
 const PAGE_DESC =
-  "Kubernetes/コンテナエンジニアの転職市場を2026年最新の公表データで解説。年代別の年収目安、CKA/CKAD/CKS認定の活かし方、求人の探し方、参入ルートを30代・40代エンジニア向けにまとめました。";
+  "Kubernetes/コンテナエンジニアの転職市場を2026年最新の公表データで解説します。年代別の年収目安、CKA/CKAD/CKS認定の活かし方、求人の探し方、参入ルートを30代・40代エンジニア向けにまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/kubernetes/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：Kubernetes転職市場の攻め方" },
+  { id: "conclusion", label: "結論：Kubernetes転職市場での進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "cert", label: "CKA/CKAD/CKS資格の活かし方" },
   { id: "level", label: "求められる経験レベル" },
@@ -66,9 +66,9 @@ const salaryByAge = [
 ];
 
 const certTable = [
-  ["CKA", "Certified Kubernetes Administrator", "クラスター管理・運用。実技66%以上で合格。運用職でまず狙う"],
-  ["CKAD", "Certified Kubernetes Application Developer", "アプリの設計・構築・公開。開発者寄りの役割向け"],
-  ["CKS", "Certified Kubernetes Security Specialist", "セキュリティ特化。CKA合格が受験前提（67%以上で合格）"],
+  ["CKA", "Certified Kubernetes Administrator", "クラスター管理・運用です。実技66%以上で合格します。運用職でまず狙う"],
+  ["CKAD", "Certified Kubernetes Application Developer", "アプリの設計・構築・公開です。開発者寄りの役割向け"],
+  ["CKS", "Certified Kubernetes Security Specialist", "セキュリティ特化です。CKA合格が受験前提（67%以上で合格）"],
 ];
 
 export default function KubernetesSkillPage() {
@@ -99,7 +99,7 @@ export default function KubernetesSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          Kubernetesエンジニアの転職ガイド｜年収・CKA資格・求人の攻め方【2026年】
+          Kubernetesエンジニアの転職ガイド｜年収・CKA資格・求人の進め方【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | Kubernetes/コンテナスキルを活かした転職を30代・40代向けに解説
@@ -114,7 +114,7 @@ export default function KubernetesSkillPage() {
           sources={[
             "レバテック公表 年代別平均年収（2025年）",
             "CNCF / Linux Foundation 認定資格 公式",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -130,15 +130,15 @@ export default function KubernetesSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Kubernetes転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Kubernetes転職市場での進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              Kubernetesは単体スキルではなく<strong>SRE・プラットフォーム・クラウド領域の一部</strong>として評価されます。攻め方は次の3点です。
+              Kubernetesは単体スキルではなく<strong>SRE・プラットフォーム・クラウド領域の一部</strong>として評価されます。進め方は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>マネージドK8s（EKS/GKE/AKS）の運用・トラブル対応経験</strong>を具体的に語る</li>
-              <li>② CKAで「触れる」ことを証明しつつ、<strong>運用設計の実績</strong>とセットで示す</li>
-              <li>③ Helm・ArgoCD・Prometheus・Terraformと<strong>掛け合わせて</strong>基盤エンジニアとしての厚みを出す</li>
+              <li>① <strong>マネージドK8s（EKS/GKE/AKS）の運用・トラブル対応経験</strong>を具体的に語ります</li>
+              <li>② CKAで「触れる」ことを証明しつつ、<strong>運用設計の実績</strong>とセットで示します</li>
+              <li>③ Helm・ArgoCD・Prometheus・Terraformと<strong>掛け合わせて</strong>基盤エンジニアとしての厚みを出します</li>
             </ul>
           </div>
         </section>
@@ -169,7 +169,7 @@ export default function KubernetesSkillPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: レバテック公表の年代別平均年収（2025年）。年収1,000万円以上の割合は30代で8.01%、40代で12.67%（同）。中長期では経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しており、クラウドネイティブ人材の需給逼迫が背景にあります。数値は統計・職種定義により異なるため目安としてご覧ください。
+            出典: レバテック公表の年代別平均年収（2025年）。年収1,000万円以上の割合は30代で8.01%、40代で12.67%です（同）。中長期では経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しており、クラウドネイティブ人材の需給逼迫が背景にあります。数値は統計・職種定義により異なるため目安としてご覧ください。
           </p>
         </section>
 
@@ -208,9 +208,9 @@ export default function KubernetesSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "入口層（コンテナ運用）", d: "Docker・基本的なKubernetesリソース（Deployment/Service/Ingress）の操作。マネージドK8sのデプロイ経験。" },
-              { t: "中核層（運用設計・自動化）", d: "Helmによるパッケージ管理、ArgoCD/FluxでのGitOps、Prometheus+Grafanaの監視構築、Terraformでのクラスター構築。" },
-              { t: "上流層（プラットフォーム/SRE）", d: "マルチクラスター設計、容量・コスト最適化、SLI/SLO、Internal Developer Platformの構築。CKS等のセキュリティ知識も評価対象。" },
+              { t: "入口層（コンテナ運用）", d: "Docker・基本的なKubernetesリソース（Deployment/Service/Ingress）の操作です。マネージドK8sのデプロイ経験です。" },
+              { t: "中核層（運用設計・自動化）", d: "Helmによるパッケージ管理、ArgoCD/FluxでのGitOps、Prometheus+Grafanaの監視構築、Terraformでのクラスター構築です。" },
+              { t: "上流層（プラットフォーム/SRE）", d: "マルチクラスター設計、容量・コスト最適化、SLI/SLO、Internal Developer Platformの構築です。CKS等のセキュリティ知識も評価対象です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -236,7 +236,7 @@ export default function KubernetesSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/sre/" className="text-petrol hover:underline">SREへの転向ガイド</Link>、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS転職ガイド</Link>（EKS運用との相性が高い）。
+            関連: <Link href="/career/sre/" className="text-petrol hover:underline">SREへの転向ガイド</Link>、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS転職ガイドです</Link>（EKS運用との相性が高い）。
           </p>
         </section>
 
@@ -253,12 +253,12 @@ export default function KubernetesSkillPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型。SREリードやプラットフォーム責任者クラスのポジションを狙う場合に有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">ハイクラス・スカウト型です。SREリードやプラットフォーム責任者クラスのポジションを狙う場合に有効です。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化。提案スピードに強みがあり、クラウドネイティブ企業の求人を扱います。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化です。提案スピードに強みがあり、クラウドネイティブ企業の求人を扱います。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -271,10 +271,10 @@ export default function KubernetesSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">経験浅めからの参入ルート</h2>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "Dockerで基礎固め", d: "コンテナの作成・イメージ管理・ネットワークの基本を理解する。" },
-              { n: "STEP 2", t: "ローカルクラスター構築", d: "Minikube/kindでクラスターを立て、Deployment/Service/Ingress/ConfigMapを手で書く。" },
-              { n: "STEP 3", t: "CKAで体系化", d: "CKAの出題範囲に沿って運用知識を整理し、実技試験で『触れる』ことを証明する。" },
-              { n: "STEP 4", t: "マネージドK8sで成果物", d: "EKS/GKE上に小さなサービスを構築し、Helm/監視/CI-CDまで含めて公開・説明できる状態にする。" },
+              { n: "STEP 1", t: "Dockerで基礎固め", d: "コンテナの作成・イメージ管理・ネットワークの基本を理解します。" },
+              { n: "STEP 2", t: "ローカルクラスター構築", d: "Minikube/kindでクラスターを立て、Deployment/Service/Ingress/ConfigMapを手で書きます。" },
+              { n: "STEP 3", t: "CKAで体系化", d: "CKAの出題範囲に沿って運用知識を整理し、実技試験で『触れる』ことを証明します。" },
+              { n: "STEP 4", t: "マネージドK8sで成果物", d: "EKS/GKE上に小さなサービスを構築し、Helm/監視/CI-CDまで含めて公開・説明できる状態にします。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -286,7 +286,7 @@ export default function KubernetesSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方です</Link>。
           </p>
         </section>
 
@@ -297,7 +297,7 @@ export default function KubernetesSkillPage() {
               ミドル層のKubernetes転職では、<strong>「最新ツールを知っている」より「本番障害を収束させた経験」</strong>が評価されます。アップグレード時のリスク管理、容量設計、コスト最適化など、運用の修羅場をくぐった経験は若手と差別化できる強みです。
             </p>
             <p>
-              年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%（2025年）。Kubernetesを軸にSRE/プラットフォーム領域へ役割を広げると、高年収帯への接続が見えてきます。
+              年収面では、レバテック公表の正社員SE平均が40代で約618万円、1,000万円以上の割合が40代で12.67%です（2025年）。Kubernetesを軸にSRE/プラットフォーム領域へ役割を広げると、高年収帯への接続が見えてきます。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>もご覧ください。
@@ -308,14 +308,14 @@ export default function KubernetesSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ Docker → ローカルK8s → マネージドK8s の順で実機に慣れる</li>
+            <li>✓ Docker → ローカルK8s → マネージドK8s の順で実機に慣れます</li>
             <li>✓ CKAで運用知識を体系化（必要に応じCKAD/CKSへ）</li>
-            <li>✓ Helm・ArgoCD・Prometheus/Grafanaを一通り触り、運用設計まで踏み込む</li>
-            <li>✓ Terraformでクラスターをコード管理し、IaCスキルと接続する</li>
-            <li>✓ 障害対応・容量設計の経験を「再現可能な学び」として言語化する</li>
+            <li>✓ Helm・ArgoCD・Prometheus/Grafanaを一通り触り、運用設計まで踏み込みます</li>
+            <li>✓ Terraformでクラスターをコード管理し、IaCスキルと接続します</li>
+            <li>✓ 障害対応・容量設計の経験を「再現可能な学び」として言語化します</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参考に。
+            学習習慣は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習</Link>、市場価値の把握は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>をご参照ください。
           </p>
         </section>
 

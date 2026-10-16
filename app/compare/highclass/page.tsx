@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/highclass/" },
   title: "ITハイクラス転職とは？エンジニア向けサービス比較と年収の実額【2026年】",
   description:
-    "ITハイクラス転職の目安は年収750万円以上。エンジニア向けハイクラス転職サービスを公開データで比較し、平均年収1,000万円超の実在企業（有報実額）、スカウトを増やす職務経歴書のコツ、ビズリーチ・レバテック・リクルートITの使い分けを解説します。",
+    "ITハイクラス転職の目安は年収750万円以上です。エンジニア向けハイクラス転職サービスを公開データで比較し、平均年収1,000万円超の実在企業（有価証券報告書の実額）、スカウトを増やす職務経歴書のコツ、ビズリーチ・レバテック・リクルートITの使い分けを解説します。",
 };
 
 const agents = [
@@ -22,7 +22,7 @@ const agents = [
     salary: "ハイクラス定義は年収750万円以上（二次）／年収1,000万円以上求人が全体の約4割（二次）",
     area: "全国",
     point:
-      "ハイクラス転職の中心となるスカウト型。CTO/VPoE/EM・外資系・管理職に強く、経歴を登録しておくとヘッドハンターや企業から直接スカウトが届く。市場価値を客観的に測る用途にも適する。",
+      "ハイクラス転職の中心となるスカウト型です。CTO/VPoE/EM・外資系・管理職に強く、経歴を登録しておくとヘッドハンターや企業から直接スカウトが届きます。市場価値を客観的に測る用途にも適します。",
   },
   {
     rank: 2,
@@ -30,11 +30,11 @@ const agents = [
     href: "/review/levtech/",
     type: "IT特化型",
     company: "レバテック株式会社（レバレジーズグループ）",
-    scale: "約5万件超（2026年5〜6月時点・複数転職メディア集計）。600万円以上が公開求人の約8割との二次情報",
+    scale: "約5万件超です（2026年5〜6月時点・複数転職メディア集計）。600万円以上が公開求人の約8割との二次情報",
     salary: "内定承諾者のうち応募時年収との差が70万円以上＝3人に2人（2023年1月〜2024年3月実績）",
     area: "首都圏中心（二次情報）",
     point:
-      "IT特化型で高年収求人比率が高い。技術を理解したアドバイザーが付き、年収交渉やスキルの言語化に強い。スカウト型と併用し、能動的に求人を探す軸として機能する。",
+      "IT特化型で高年収求人比率が高いです。技術を理解したアドバイザーが付き、年収交渉やスキルの言語化に強いです。スカウト型と併用し、能動的に求人を探す軸として機能します。",
   },
   {
     rank: 3,
@@ -43,10 +43,10 @@ const agents = [
     type: "総合型",
     company: "株式会社リクルート",
     scale: "IT公開110,840件／非公開101,680件（2026年5月22日時点・二次集計）",
-    salary: "ハイクラス帯の非公開求人を多数保有。統一された公式アップ率は未確認（断定しない）",
+    salary: "ハイクラス帯の非公開求人を多数保有です。統一された公式アップ率は未確認（断定しない）",
     area: "全国",
     point:
-      "国内最大級の求人数と非公開求人で、ハイクラス帯の選択肢を広げられる。大手SIer・メーカー・事業会社の管理職まで網羅。サポート期間は原則3か月とされる点に留意。",
+      "国内最大級の求人数と非公開求人で、ハイクラス帯の選択肢を広げられます。大手SIer・メーカー・事業会社の管理職まで網羅しています。サポート期間は原則3か月とされる点に留意です。",
   },
   {
     rank: 4,
@@ -55,10 +55,10 @@ const agents = [
     type: "総合型",
     company: "パーソルキャリア株式会社（1989年設立）",
     scale: "IT・通信エンジニア求人5万件超（2026年2月時点・二次経由）",
-    salary: "転職者の約6割が年収アップ。IT・通信の平均決定年収469万円（2023年度）→486万円（2024年度）",
+    salary: "転職者の約6割が年収アップです。IT・通信の平均決定年収469万円（2023年度）→486万円（2024年度）",
     area: "全国",
     point:
-      "求人量が多く全国対応で、事業会社のCIO/情シス部長などのハイクラス求人も探せる。検索＋エージェント＋スカウトのハイブリッド型で自分のペースでも進めやすい。",
+      "求人量が多く全国対応で、事業会社のCIO/情シス部長などのハイクラス求人も探せます。検索＋エージェント＋スカウトのハイブリッド型で自分のペースでも進めやすいです。",
   },
   {
     rank: 5,
@@ -70,7 +70,7 @@ const agents = [
     salary: "年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）",
     area: "首都圏中心",
     point:
-      "Web系・メガベンチャーに強く、VPoE/テックリードなどのハイクラス求人が見つかりやすい。提案スピードが速く、実務経験者への提案数が多いと評価される。",
+      "Web系・メガベンチャーに強く、VPoE/テックリードなどのハイクラス求人が見つかりやすいです。提案スピードが速く、実務経験者への提案数が多いと評価されます。",
   },
 ];
 
@@ -114,20 +114,20 @@ const checklistNotFit = [
 const reviews = [
   {
     service: "ビズリーチ",
-    good: "「高年収求人が豊富」「スカウトでキャリアアップできた」「市場価値を客観的に把握できる」という声が見られる。",
-    bad: "一方で「スカウトの質にばらつき」「経歴次第でスカウトが来ない」「有料プラン前提との不満」も指摘される。",
+    good: "「高年収求人が豊富」「スカウトでキャリアアップできた」「市場価値を客観的に把握できる」という声が見られます。",
+    bad: "一方で「スカウトの質にばらつき」「経歴次第でスカウトが来ない」「有料プラン前提との不満」も指摘されます。",
     src: "ミライトーチ／morejob／talentsquare等の口コミプラットフォーム",
   },
   {
     service: "レバテックキャリア",
-    good: "「書類添削・面接対策が丁寧」「LINEで連絡が完結」「高年収求人が多い」といった評価がある。",
-    bad: "「未経験者は紹介されにくい」「初回面談後の連絡が遅い場合」「希望と異なる求人提案の例」も見られる。",
+    good: "「書類添削・面接対策が丁寧」「LINEで連絡が完結」「高年収求人が多い」といった評価があります。",
+    bad: "「未経験者は紹介されにくい」「初回面談後の連絡が遅い場合」「希望と異なる求人提案の例」も見られます。",
     src: "OUTSIDEMAGAZINE／Qiita Job Change／イーデス等",
   },
   {
     service: "リクルートエージェントIT",
-    good: "「圧倒的な求人数」「非公開求人が充実」「書類添削・面接対策が丁寧」という声がある。",
-    bad: "「対応が事務的との声」「連絡頻度が高い」「サポート期間が3か月で短い」も挙がる。",
+    good: "「圧倒的な求人数」「非公開求人が充実」「書類添削・面接対策が丁寧」という声があります。",
+    bad: "「対応が事務的との声」「連絡頻度が高い」「サポート期間が3か月で短い」も挙がります。",
     src: "Qiita Job Change等",
   },
 ];
@@ -182,7 +182,7 @@ export default function HighclassPage() {
     <>
       <ArticleJsonLd
         title="ITハイクラス転職とは？エンジニア向けサービス比較と年収の実額【2026年】"
-        description="ITハイクラス転職の目安は年収750万円以上。エンジニア向けサービス比較と平均年収1,000万円超企業の有報実額、スカウトを増やすコツを解説します。"
+        description="ITハイクラス転職の目安は年収750万円以上です。エンジニア向けサービス比較と平均年収1,000万円超企業の有価証券報告書の実額、スカウトを増やすコツを解説します。"
         url="/compare/highclass/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -212,9 +212,9 @@ export default function HighclassPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <h2 className="text-lg font-bold text-blue-900 mb-2 not-prose">結論：ハイクラスはビズリーチ中心＋レバテック/リクルートITの併用</h2>
             <ul className="text-sm text-blue-900 leading-relaxed space-y-1 list-disc pl-5">
-              <li>軸は<strong>ビズリーチ</strong>。ハイクラス定義は年収750万円以上で、年収1,000万円以上求人が全体の約4割（二次）。経歴を登録して直接スカウトを受ける。</li>
-              <li>能動的に探す軸として<strong>レバテックキャリア</strong>（高年収求人比率が高い）、求人量補完に<strong>リクルートエージェントIT</strong>を併用。</li>
-              <li>スカウトの数と質は職務経歴書で決まる。年収・成果の数値化、意思決定の実績、技術キーワード、定期更新が鍵。</li>
+              <li>軸は<strong>ビズリーチです</strong>。ハイクラス定義は年収750万円以上で、年収1,000万円以上求人が全体の約4割です（二次）。経歴を登録して直接スカウトを受けます。</li>
+              <li>能動的に探す軸として<strong>レバテックキャリア</strong>（高年収求人比率が高い）、求人量補完に<strong>リクルートエージェントIT</strong>を併用します。</li>
+              <li>スカウトの数と質は職務経歴書で決まります。年収・成果の数値化、意思決定の実績、技術キーワード、定期更新が鍵です。</li>
             </ul>
           </div>
         </section>
@@ -225,7 +225,7 @@ export default function HighclassPage() {
             <li><a href="#ranking" className="hover:underline">ハイクラス向けサービスおすすめランキング</a></li>
             <li><a href="#detail" className="hover:underline">各サービスの詳細</a></li>
             <li><a href="#definition" className="hover:underline">ITハイクラス転職とは（年収750万円以上の定義）</a></li>
-            <li><a href="#companies" className="hover:underline">平均年収1,000万円超の実在企業（有報実額）</a></li>
+            <li><a href="#companies" className="hover:underline">平均年収1,000万円超の実在企業（有価証券報告書の実額）</a></li>
             <li><a href="#resume" className="hover:underline">スカウトを増やす職務経歴書のコツ</a></li>
             <li><a href="#choose" className="hover:underline">ハイクラス転職サービスの選び方</a></li>
             <li><a href="#reviews" className="hover:underline">口コミ・評判の傾向</a></li>
@@ -268,7 +268,7 @@ export default function HighclassPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 規模・実績値は2026年6月時点の公開情報・各社公表値・複数転職メディアの集計に基づきます。公式値と二次情報を区別して記載しています。ビズリーチの有料プランはWeb決済5,478円/月（2022年11月改定・二次）。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 規模・実績値は2026年6月時点の公開情報・各社公表値・複数転職メディアの集計に基づきます。公式値と二次情報を区別して記載します。ビズリーチの有料プランはWeb決済5,478円/月です（2022年11月改定・二次）。</p>
         </section>
 
         <section id="detail" className="mb-10 scroll-mt-20">
@@ -312,7 +312,7 @@ export default function HighclassPage() {
         </section>
 
         <section id="companies" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">平均年収1,000万円超の実在企業（有報実額）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">平均年収1,000万円超の実在企業（有価証券報告書の実額）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             「ITハイクラス求人は本当にあるのか」を実額で確認できるよう、有価証券報告書で全社員平均年収が1,000万円を超える主要企業を並べました。いずれも当サイトの企業別ガイドで選考難易度・技術スタックまで解説しています。
           </p>
@@ -321,7 +321,7 @@ export default function HighclassPage() {
               <thead>
                 <tr className="bg-slate-100">
                   <th className="text-left px-3 py-3 border border-slate-200 font-medium">企業</th>
-                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">平均年収（有報）</th>
+                  <th className="text-left px-3 py-3 border border-slate-200 font-medium">平均年収（有価証券報告書）</th>
                   <th className="text-left px-3 py-3 border border-slate-200 font-medium">時点</th>
                 </tr>
               </thead>
@@ -380,7 +380,7 @@ export default function HighclassPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-4">
               <h3 className="font-bold text-slate-800 mb-1">3. 総合型で求人量を補完する</h3>
-              <p>リクルートエージェントITやdodaは求人量・非公開求人が豊富で全国対応。事業会社のCIO/情シス部長などへ選択肢を広げられます。</p>
+              <p>リクルートエージェントITやdodaは求人量・非公開求人が豊富で全国対応です。事業会社のCIO/情シス部長などへ選択肢を広げられます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-4">
               <h3 className="font-bold text-slate-800 mb-1">4. メリット・デメリットを両面で見る</h3>
@@ -427,7 +427,7 @@ export default function HighclassPage() {
         <section id="viewpoint" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点での考え方</h2>
           <p className="text-slate-600 leading-relaxed mb-3">
-            当サイトはミドルエンジニアの転職に特化しています。ハイクラス帯は30代・40代にとって現実的な目標です。レバテック公表値では年収1,000万円以上の割合が30代で8.01%、40代で12.67%。30代は需要領域の実務とリーダー経験を、40代はマネジメント実績を軸にすると到達しやすくなります。
+            当サイトはミドルエンジニアの転職に特化しています。ハイクラス帯は30代・40代にとって現実的な目標です。レバテック公表値では年収1,000万円以上の割合が30代で8.01%、40代で12.67%です。30代は需要領域の実務とリーダー経験を、40代はマネジメント実績を軸にすると到達しやすくなります。
           </p>
           <p className="text-slate-600 leading-relaxed">
             年代別の具体的な進め方は<Link href="/compare/30s-agents/" className="text-petrol hover:underline">30代の転職エージェント比較</Link>と<Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代の転職エージェント比較</Link>で詳しく扱っています。ハイクラスは長期戦になりやすいため、早めにビズリーチへ経歴を登録し、スカウトの反応を見ながら戦略を調整するのがおすすめです。
@@ -448,7 +448,7 @@ export default function HighclassPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">ハイクラス転職は経歴登録から始まる</h2>
-          <p className="text-blue-100 text-sm mb-4">年収750万円以上のポジションは非公開が多数。まずはビズリーチに経歴を登録し、スカウトの反応を見ながら戦略を組み立てましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">年収750万円以上のポジションは非公開が多数です。まずはビズリーチに経歴を登録し、スカウトの反応を見ながら戦略を組み立てましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -459,7 +459,7 @@ export default function HighclassPage() {
               { name: "40代エンジニアの転職エージェント比較", href: "/compare/40s-agents/" },
               { name: "30代エンジニアの転職エージェント比較", href: "/compare/30s-agents/" },
               { name: "ビズリーチ vs レバテック比較", href: "/compare/bizreach-vs-levtech/" },
-              { name: "年収UPに強いエージェントランキング", href: "/compare/salary-ranking/" },
+              { name: "年収アップに強いエージェントランキング", href: "/compare/salary-ranking/" },
               { name: "スカウトを活かすコツ", href: "/knowledge/scout/" },
               { name: "職務経歴書の作り方", href: "/knowledge/resume/" },
             ].map((item, i) => (

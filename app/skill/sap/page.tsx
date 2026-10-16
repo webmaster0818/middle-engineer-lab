@@ -6,10 +6,10 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "SAPエンジニア転職ガイド｜年収・資格・S/4HANA求人";
 const PAGE_DESC =
-  "SAPエンジニア・コンサルタントの転職を年収データ・SAP認定資格・S/4HANA求人の探し方まで解説。求人ボックスの公表年収やレバテック年代別データを出典付きで掲載。30代・40代の参入ルートとおすすめエージェントも紹介します。";
+  "SAPエンジニア・コンサルタントの転職を年収データ・SAP認定資格・S/4HANA求人の探し方まで解説します。求人ボックスの公表年収やレバテック年代別データを出典付きで掲載。30代・40代の参入ルートとおすすめエージェントも紹介します。";
 
 const toc = [
-  { id: "conclusion", label: "結論：SAP転職の攻め方" },
+  { id: "conclusion", label: "結論：SAP転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
@@ -24,22 +24,22 @@ const toc = [
 const careerPaths = [
   {
     role: "SAP ABAP開発者",
-    note: "ABAP・Fioriでのアドオン開発・カスタマイズ。業務系開発経験から移行しやすい技術寄りの入口。",
+    note: "ABAP・Fioriでのアドオン開発・カスタマイズです。業務系開発経験から移行しやすい技術寄りの入口です。",
     cert: "デベロップメント系認定",
   },
   {
     role: "モジュールコンサルタント",
-    note: "FI（財務会計）・CO（管理会計）・MM（在庫購買）・SD（販売）など、特定業務領域の導入・設定を担う。",
+    note: "FI（財務会計）・CO（管理会計）・MM（在庫購買）・SD（販売）など、特定業務領域の導入・設定を担います。",
     cert: "アプリケーション系認定（モジュール別）",
   },
   {
     role: "テクノロジーコンサルタント",
-    note: "Basis・インフラ・移行基盤など技術基盤領域。S/4HANA移行の土台を支える。",
+    note: "Basis・インフラ・移行基盤など技術基盤領域です。S/4HANA移行の土台を支えます。",
     cert: "テクノロジー系認定",
   },
   {
     role: "プロジェクトマネージャー／アーキテクト",
-    note: "S/4HANA移行プロジェクトの全体設計・統括。複数モジュールと移行方式の理解が求められる。",
+    note: "S/4HANA移行プロジェクトの全体設計・統括です。複数モジュールと移行方式の理解が求められます。",
     cert: "上位資格＋PM経験",
   },
 ];
@@ -47,15 +47,15 @@ const careerPaths = [
 const certGenres = [
   {
     name: "アプリケーションコンサルタント系",
-    desc: "FI/CO/MM/SD等、業務モジュールの知見を証明する資格。コンサル職で重視される。",
+    desc: "FI/CO/MM/SD等、業務モジュールの知見を証明する資格です。コンサル職で重視されます。",
   },
   {
     name: "デベロップメントコンサルタント系",
-    desc: "ABAP開発など、プログラマー向けの資格。開発職の応募で評価されやすい。",
+    desc: "ABAP開発など、プログラマー向けの資格です。開発職の応募で評価されやすいです。",
   },
   {
     name: "テクノロジーコンサルタント系",
-    desc: "Basisやインフラなど、技術基盤を担うエンジニア向けの資格。",
+    desc: "Basisやインフラなど、技術基盤を担うエンジニア向けの資格です。",
   },
 ];
 
@@ -127,7 +127,7 @@ export default function SapSkillPage() {
           SAPエンジニア転職ガイド｜年収・資格・S/4HANA求人
         </h1>
         <p className="text-slate-500 text-sm mb-4">
-          最終更新: 2026年6月 | SAPスキルを軸にした転職市場の攻め方を解説
+          最終更新: 2026年6月 | SAPスキルを軸にした転職市場での進め方を解説
         </p>
         <p className="text-slate-600 leading-relaxed mb-2">
           SAPは大手企業の基幹システムとして広く使われており、S/4HANAへの移行需要を背景に、開発・コンサル・基盤の各領域でSAP人材の需要が続いています。本記事は求人数を競うのではなく、「年収相場の捉え方」「SAP認定資格の活かし方」「求人の探し方」という転職判断に必要な情報に絞って整理します。
@@ -159,15 +159,15 @@ export default function SapSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SAP転職の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SAP転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               SAP転職は<strong>「特定モジュールまたはABAP開発の専門性を軸に、S/4HANA移行の文脈で売り込む」</strong>のが基本戦略です。年収レンジが広い領域のため、ハイクラス系エージェントを含めて複数比較するのが重要です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① ABAP開発か、FI/CO/MM/SD等のモジュールか、自分の軸を決める</li>
-              <li>② 導入・移行プロジェクトの経験を職務経歴書で具体的に書く</li>
-              <li>③ SAP認定資格でスキルを可視化しつつ、ハイクラス系で年収帯を比較する</li>
+              <li>① ABAP開発か、FI/CO/MM/SD等のモジュールか、自分の軸を決めます</li>
+              <li>② 導入・移行プロジェクトの経験を職務経歴書で具体的に書きます</li>
+              <li>③ SAP認定資格でスキルを可視化しつつ、ハイクラス系で年収帯を比較します</li>
             </ul>
           </div>
         </section>
@@ -225,15 +225,15 @@ export default function SapSkillPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ジュニア／ポテンシャル枠</h3>
-              <p className="text-sm text-slate-600">業務系システム開発の経験、または経理・購買など業務知識。SAP実務は浅くても育成前提で採用されるケース。</p>
+              <p className="text-sm text-slate-600">業務系システム開発の経験、または経理・購買など業務知識です。SAP実務は浅くても育成前提で採用されるケースです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ミドル（実務3〜7年）</h3>
-              <p className="text-sm text-slate-600">特定モジュールの導入・設定経験、またはABAP開発の実務。30代の中心レンジ。</p>
+              <p className="text-sm text-slate-600">特定モジュールの導入・設定経験、またはABAP開発の実務です。30代の中心レンジです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">シニア／リード</h3>
-              <p className="text-sm text-slate-600">複数モジュール横断の設計、S/4HANA移行プロジェクトのリード、PM経験。アーキテクト・PM層。</p>
+              <p className="text-sm text-slate-600">複数モジュール横断の設計、S/4HANA移行プロジェクトのリード、PM経験です。アーキテクト・PM層です。</p>
             </div>
           </div>
         </section>
@@ -266,19 +266,19 @@ export default function SapSkillPage() {
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/bizreach-it/" className="text-petrol-deep hover:underline">ビズリーチ</Link>
               </h3>
-              <p className="text-sm text-slate-600">ハイクラス・スカウト型。年収750万円以上をハイクラス層とし、年収1,000万円以上求人の比率が高いとされる（二次情報）。SAPコンサル/PM案件に強い。</p>
+              <p className="text-sm text-slate-600">ハイクラス・スカウト型です。年収750万円以上をハイクラス層とし、年収1,000万円以上求人の比率が高いとされます（二次情報）。SAPコンサル/PM案件に強いです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/levtech/" className="text-petrol-deep hover:underline">レバテックキャリア</Link>
               </h3>
-              <p className="text-sm text-slate-600">IT/Web特化で専門アドバイザーが在籍。高年収求人の比率が高いとされる（同社ガイド記事）。ABAP開発寄りのSAP求人も探しやすい。</p>
+              <p className="text-sm text-slate-600">IT/Web特化で専門アドバイザーが在籍しています。高年収求人の比率が高いとされます（同社ガイド記事）。ABAP開発寄りのSAP求人も探しやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/doda-it/" className="text-petrol-deep hover:underline">doda ITエンジニア</Link>
               </h3>
-              <p className="text-sm text-slate-600">国内最大級の求人数で、検索＋エージェント＋スカウトのハイブリッド型。幅広いSAP求人を比較しやすい。</p>
+              <p className="text-sm text-slate-600">国内最大級の求人数で、検索＋エージェント＋スカウトのハイブリッド型です。幅広いSAP求人を比較しやすいです。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
@@ -294,10 +294,10 @@ export default function SapSkillPage() {
           </p>
           <ol className="space-y-3">
             {[
-              { t: "業務知識を棚卸しする", d: "経理・購買・生産管理・販売など、前職の業務領域を整理し、対応モジュール（FI/CO/MM/SD等）に紐づける。" },
-              { t: "ABAPまたは業務系開発の経験を示す", d: "開発志向ならABAPや業務系システム開発の実績を、コンサル志向なら業務改善の実績を訴求する。" },
-              { t: "パートナー企業の育成枠を狙う", d: "SAPパートナー企業は研修・育成体制が整っていることが多く、ポテンシャル採用の入口になりやすい。" },
-              { t: "認定資格で学習成果を可視化する", d: "対応ジャンルの認定を取得し、書類段階でスキルの裏付けを示す。最新の制度はSAP公式で確認する。" },
+              { t: "業務知識を棚卸しする", d: "経理・購買・生産管理・販売など、前職の業務領域を整理し、対応モジュール（FI/CO/MM/SD等）に紐づけます。" },
+              { t: "ABAPまたは業務系開発の経験を示す", d: "開発志向ならABAPや業務系システム開発の実績を、コンサル志向なら業務改善の実績を訴求します。" },
+              { t: "パートナー企業の育成枠を狙う", d: "SAPパートナー企業は研修・育成体制が整っていることが多く、ポテンシャル採用の入口になりやすいです。" },
+              { t: "認定資格で学習成果を可視化する", d: "対応ジャンルの認定を取得し、書類段階でスキルの裏付けを示します。最新の制度はSAP公式で確認します。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
@@ -315,15 +315,15 @@ export default function SapSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              SAP領域は、30代・40代のミドル層にとって<strong>業務経験とマネジメント経験が直接評価される</strong>数少ない分野です。基幹システムは企業の業務そのものを扱うため、経理・購買・生産管理などの実務理解や、プロジェクトを回した経験が大きな武器になります。若手のコーディング速度勝負ではなく、業務×プロジェクト遂行力で勝負できる領域です。
+              SAP領域は、30代・40代のミドル層にとって<strong>業務経験とマネジメント経験が直接評価される</strong>数少ない分野です。基幹システムは企業の業務そのものを扱うため、経理・購買・生産管理などの実務理解や、プロジェクトを回した経験が大きな強みになります。若手のコーディング速度勝負ではなく、業務×プロジェクト遂行力で勝負できる領域です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・前職の業務ドメインを担当モジュールに対応づけて明文化する</li>
-              <li>・PM/PL経験があれば移行プロジェクトのリード職が視野に入る</li>
-              <li>・年収レンジが広いため、ハイクラス系エージェントで上振れを狙う価値がある</li>
+              <li>・前職の業務ドメインを担当モジュールに対応づけて明文化します</li>
+              <li>・PM/PL経験があれば移行プロジェクトのリード職が視野に入ります</li>
+              <li>・年収レンジが広いため、ハイクラス系エージェントで上振れを狙う価値があります</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
-              年代別の相場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>もあわせてどうぞ。
+              年代別の相場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -343,7 +343,7 @@ export default function SapSkillPage() {
             ))}
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
-            SAP認定資格は有効期限が見直された（2024年度・SAP社発表との情報）ため、取得後の更新要否を含め最新制度はSAP公式で確認してください。資格に加え、S/4HANA移行プロジェクトの経験を語れることが選考での決め手になります。継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>も参考にどうぞ。
+            SAP認定資格は有効期限が見直された（2024年度・SAP社発表との情報）ため、取得後の更新要否を含め最新制度はSAP公式で確認してください。資格に加え、S/4HANA移行プロジェクトの経験を語れることが選考での決め手になります。継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>もご参照ください。
           </p>
         </section>
 
@@ -386,7 +386,7 @@ export default function SapSkillPage() {
               { name: "ビズリーチの評判", href: "/review/bizreach-it/" },
               { name: "ハイクラス向けエージェント比較", href: "/compare/highclass/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/continuous-learning/" },
   title: "30代・40代エンジニアの学び続ける技術【学習戦略】",
   description:
-    "30代・40代エンジニアが学び続けるための学習戦略を解説。資格の費用対効果の考え方、忙しくても学習時間を作る方法、何を学ぶかの選び方を実践フレームで整理します。",
+    "30代・40代エンジニアが学び続けるための学習戦略を解説します。資格の費用対効果の考え方、忙しくても学習時間を作る方法、何を学ぶかの選び方を実践フレームで整理します。",
 };
 
 const toc = [
@@ -24,9 +24,9 @@ const toc = [
 
 const faqs = [
   { q: "30代・40代でも今から新しい技術を学べますか？", a: "学べます。むしろ実務経験という土台がある分、新しい技術の「なぜそうするか」を理解しやすく、20代の頃より少ない時間で本質をつかめることが多いです。重要なのは学ぶ量より「何を学ぶか」の選定です。自分の専門を深掘りするか、隣接領域へ広げるかを意識すると、限られた時間を無駄にしません。" },
-  { q: "忙しくて学習時間がまったく取れません", a: "毎日30分でも積み上がります。通勤時にポッドキャストや技術記事、昼休みにドキュメント1本、週末に1〜2時間のハンズオンなど、スキマ時間を組み合わせましょう。完璧な学習ブロックを確保しようとすると始められないので、「短く・毎日・決まった時間」に寄せるのが継続のコツです。本文に時間割例を載せています。" },
+  { q: "忙しくて学習時間がまったく取れません", a: "毎日30分でも積み上がります。通勤時にポッドキャストや技術記事、昼休みにドキュメント1本、週末に1〜2時間のハンズオンなど、スキマ時間を組み合わせましょう。完璧な学習ブロックを確保しようとすると始められないので、「短く・毎日・決まった時間」に寄せるのが継続のコツです。本文に時間割例を掲載しています。" },
   { q: "何を学べばいいか分かりません", a: "最も効率的なのは「今の業務で困っていること」を学ぶことです。業務に直結するので定着しやすく、すぐ成果に変わります。加えて、転職エージェントに「市場で求められているスキル」を聞いたり、気になる求人の技術要件を分析したりすると、需要のある方向が見えてきます。" },
-  { q: "資格は取る意味がありますか？費用対効果が知りたいです", a: "資格は「体系的に学ぶ強制力」と「客観的な証明」を同時に得られる点に価値があります。費用対効果は、受験料・教材費・学習時間という投資に対し、実務での活用度・転職市場での評価・学習のきっかけというリターンで判断します。実務と直結するクラウド系資格は学んだ内容がそのまま業務で使えるため、相対的に費用対効果を実感しやすい傾向です。本文に判断フレームを載せています。" },
+  { q: "資格は取る意味がありますか？費用対効果が知りたいです", a: "資格は「体系的に学ぶ強制力」と「客観的な証明」を同時に得られる点に価値があります。費用対効果は、受験料・教材費・学習時間という投資に対し、実務での活用度・転職市場での評価・学習のきっかけというリターンで判断します。実務と直結するクラウド系資格は学んだ内容がそのまま業務で使えるため、相対的に費用対効果を実感しやすい傾向です。本文に判断フレームを掲載しています。" },
   { q: "資格と実務経験、どちらが転職で評価されますか？", a: "エンジニア転職では実務経験・成果物が中心で、資格はそれを補強する位置づけです。資格だけで経験不足を埋めることは難しい一方、実務経験がある人が関連資格を持つと知識の体系性を示せます。『資格を取れば転職できる』ではなく『学習の方向づけと知識の証明』として活用するのが現実的です。" },
   { q: "副業やOSS活動は学習になりますか？", a: "なります。副業や個人開発、OSSへの貢献は、業務では触れない技術や役割を経験でき、アウトプット前提なので定着しやすいのが利点です。学んだことを実際に動くものにする経験は、職務経歴書やポートフォリオの材料にもなります。" },
   { q: "学ぶべき方向を誰かに相談したいです", a: "IT特化型の転職エージェントは、最新の技術トレンドと求人での需要を把握しています。『今後どのスキルが求められるか』『自分のスキルセットの弱点はどこか』を定期的に相談すると、独学になりがちな学習に方向性が生まれます。転職予定がなくても市場感の把握として有効です。" },
@@ -37,7 +37,7 @@ export default function ContinuousLearningPage() {
 
   return (
     <>
-      <ArticleJsonLd title="30代・40代エンジニアの学び続ける技術【学習戦略】" description="30代・40代エンジニアが学び続けるための学習戦略を解説。資格の費用対効果の考え方、忙しくても学習時間を作る方法、何を学ぶかの選び方を実践フレームで整理します。" url="/knowledge/continuous-learning/" />
+      <ArticleJsonLd title="30代・40代エンジニアの学び続ける技術【学習戦略】" description="30代・40代エンジニアが学び続けるための学習戦略を解説します。資格の費用対効果の考え方、忙しくても学習時間を作る方法、何を学ぶかの選び方を実践フレームで整理します。" url="/knowledge/continuous-learning/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "転職ガイド" }, { name: "学び続ける技術" }]} />
 
@@ -50,7 +50,7 @@ export default function ContinuousLearningPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】30代・40代エンジニアは何を・どう学び続ければいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 学ぶ対象を「業務の困りごと＋市場で需要のある方向」に1〜2つ絞り、短く毎日決まった時間に仕組み化すれば、忙しくても学び続けられます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・学ぶ対象は「今の業務で困っていること」＋「市場で需要のある方向」に絞る（網羅は捨てる）</li><li>・資格は「強制力」と「客観的証明」を買うもの。実務直結のクラウド系は費用対効果を実感しやすい</li><li>・時間は捻出でなく「短く・毎日・決まった時間」に固定。1日30分でも積み上がる</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・学ぶ対象は「今の業務で困っていること」＋「市場で需要のある方向」に絞ります（網羅は捨てる）</li><li>・資格は「強制力」と「客観的証明」を買うものです。実務直結のクラウド系は費用対効果を実感しやすいです</li><li>・時間は捻出でなく「短く・毎日・決まった時間」に固定です。1日30分でも積み上がります</li></ul>
           </div>
         </section>
 
@@ -75,9 +75,9 @@ export default function ContinuousLearningPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：ミドルの学習は「量」より「選定」と「仕組み化」</h2>
             <ul className="text-sm text-blue-900 space-y-2 leading-relaxed">
-              <li>・学ぶ対象は<strong>「今の業務で困っていること」＋「市場で需要のある方向」</strong>に絞る。網羅は捨てる。</li>
-              <li>・資格は<strong>「強制力」と「客観的証明」</strong>を買うもの。実務直結のクラウド系は費用対効果を実感しやすい。</li>
-              <li>・時間は「捻出」ではなく<strong>「短く・毎日・決まった時間」に仕組み化</strong>する。1日30分でも積み上がる。</li>
+              <li>・学ぶ対象は<strong>「今の業務で困っていること」＋「市場で需要のある方向」</strong>に絞ります。網羅は捨てます。</li>
+              <li>・資格は<strong>「強制力」と「客観的証明」</strong>を買うものです。実務直結のクラウド系は費用対効果を実感しやすいです。</li>
+              <li>・時間は「捻出」ではなく<strong>「短く・毎日・決まった時間」に仕組み化</strong>します。1日30分でも積み上がります。</li>
             </ul>
           </div>
         </section>
@@ -102,7 +102,7 @@ export default function ContinuousLearningPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-5">
               <h3 className="font-bold text-blue-800 mb-3">1. 深掘り（Deepening）</h3>
-              <p className="text-sm text-petrol-deep mb-2">今の専門分野をさらに深める。</p>
+              <p className="text-sm text-petrol-deep mb-2">今の専門分野をさらに深めます。</p>
               <ul className="text-sm text-petrol space-y-1">
                 <li>・パフォーマンスチューニング</li>
                 <li>・分散システムの設計パターン</li>
@@ -111,7 +111,7 @@ export default function ContinuousLearningPage() {
             </div>
             <div className="bg-green-50 border border-green-200 rounded-xl p-5">
               <h3 className="font-bold text-green-800 mb-3">2. 拡大（Broadening）</h3>
-              <p className="text-sm text-green-700 mb-2">隣接領域に知識を広げる。</p>
+              <p className="text-sm text-green-700 mb-2">隣接領域に知識を広げます。</p>
               <ul className="text-sm text-green-600 space-y-1">
                 <li>・バックエンド → インフラ/SRE</li>
                 <li>・フロントエンド → UI/UX設計</li>
@@ -120,7 +120,7 @@ export default function ContinuousLearningPage() {
             </div>
             <div className="bg-orange-50 border border-orange-200 rounded-xl p-5">
               <h3 className="font-bold text-orange-800 mb-3">3. リーダーシップ</h3>
-              <p className="text-sm text-orange-700 mb-2">技術リーダーシップを磨く。</p>
+              <p className="text-sm text-orange-700 mb-2">技術リーダーシップを磨きます。</p>
               <ul className="text-sm text-orange-600 space-y-1">
                 <li>・アーキテクチャの設計・決定</li>
                 <li>・チームの技術力向上</li>
@@ -129,7 +129,7 @@ export default function ContinuousLearningPage() {
             </div>
             <div className="bg-purple-50 border border-purple-200 rounded-xl p-5">
               <h3 className="font-bold text-purple-800 mb-3">4. 発信（Output）</h3>
-              <p className="text-sm text-purple-700 mb-2">学びをアウトプットして定着。</p>
+              <p className="text-sm text-purple-700 mb-2">学びをアウトプットして定着しています。</p>
               <ul className="text-sm text-purple-600 space-y-1">
                 <li>・技術ブログの執筆</li>
                 <li>・勉強会での登壇</li>
@@ -138,7 +138,7 @@ export default function ContinuousLearningPage() {
             </div>
           </div>
           <p className="text-slate-600 text-sm mt-4">
-            「市場でどの方向が求められているか」が分からないときは、気になる求人の技術要件を分析するのが手っ取り早い方法です。やり方は
+            「市場でどの方向が求められているか」が分からないときは、気になる求人の技術要件を分析するのが効率的な方法です。やり方は
             <Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>を参照してください。
           </p>
         </section>
@@ -161,7 +161,7 @@ export default function ContinuousLearningPage() {
             </div>
           </div>
           <p className="text-slate-600 text-sm mt-4">
-            年代ごとの転職の実態は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収</Link>・<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニアの転職リアル</Link>もあわせてどうぞ。
+            年代ごとの転職の実態は<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収</Link>・<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニアの転職リアル</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -184,7 +184,7 @@ export default function ContinuousLearningPage() {
                   ["実務で使うか", "学ぶ内容が今／今後の業務に直結するか。直結するほど学習が無駄にならない"],
                   ["市場で評価されるか", "志望領域の求人で言及されるか。クラウド系などは実務直結で評価されやすい"],
                   ["学習の方向づけになるか", "独学だと散漫になりがちな分野を、資格が体系的にカバーしてくれるか"],
-                  ["投資額（金銭・時間）", "受験料・教材費に加え、合格までに必要な学習時間。会社の補助制度があるか"],
+                  ["投資額（金銭・時間）", "受験料・教材費に加え、合格までに必要な学習時間です。会社の補助制度があるか"],
                   ["有効期限・更新", "更新が必要な資格は維持コストも考慮する"],
                 ].map((row, i) => (
                   <tr key={i} className="hover:bg-slate-50">
@@ -234,7 +234,7 @@ export default function ContinuousLearningPage() {
             </table>
           </div>
           <p className="text-slate-600 text-sm">
-            最も効率的なのは<strong>業務と学習を統合する</strong>こと。「次のプロジェクトで新しい技術を試したい」と提案できれば、業務時間が学習時間になります。アウトプット駆動（ブログ・社内LT前提で学ぶ）も定着を加速させます。個人開発で伸ばす方法は<Link href="/knowledge/side-project/" className="text-petrol hover:underline">副業・個人開発でスキルを伸ばす</Link>を参照してください。
+            最も効率的なのは<strong>業務と学習を統合する</strong>ことです。「次のプロジェクトで新しい技術を試したい」と提案できれば、業務時間が学習時間になります。アウトプット駆動（ブログ・社内LT前提で学ぶ）も定着を加速させます。個人開発で伸ばす方法は<Link href="/knowledge/side-project/" className="text-petrol hover:underline">副業・個人開発でスキルを伸ばす</Link>を参照してください。
           </p>
         </section>
 

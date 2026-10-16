@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/four-day-week/" },
   title: "週休3日制のエンジニア求人の見極め方【2026年版】",
   description:
-    "週休3日制を「給与維持型・給与減額型・総労働時間短縮型」の3類型で整理。求人がどの型か見極める方法、正社員週4の希少性、30-40代の世帯収入試算まで正直に解説。",
+    "週休3日制を「給与維持型・給与減額型・総労働時間短縮型」の3類型で整理します。求人がどの型か見極める方法、正社員週4の希少性、30-40代の世帯収入試算まで解説します。",
 };
 
 const faqs = [
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "正社員で週休3日（週4勤務）は現実的に可能？",
-    a: "正社員での週休3日はまだレアで、実態としては派遣・業務委託・契約社員の働き方に多いのが正直なところです。正社員週4の事例がないわけではなく、たとえばGreenなどの求人媒体で週4正社員のWebエンジニア募集（アンドゲートなど）が掲載されている例もあります（2026年6月閲覧時点の一例）。ただし母数は限定的で、勤務地・職種の選択肢も狭まるため、条件を絞りすぎると応募先が極端に少なくなる点には注意が必要です。",
+    a: "正社員での週休3日はまだレアで、実態としては派遣・業務委託・契約社員の働き方に多いのが実際のところです。正社員週4の事例がないわけではなく、たとえばGreenなどの求人媒体で週4正社員のWebエンジニア募集（アンドゲートなど）が掲載されている例もあります（2026年6月閲覧時点の一例）。ただし母数は限定的で、勤務地・職種の選択肢も狭まるため、条件を絞りすぎると応募先が極端に少なくなる点には注意が必要です。",
   },
   {
     q: "週休3日にすると社会保険や賞与・昇給はどうなる？",
@@ -53,7 +53,7 @@ export default function FourDayWeekPage() {
     <>
       <ArticleJsonLd
         title="週休3日制のエンジニア求人の見極め方【2026年版】"
-        description="週休3日制を給与維持型・給与減額型・総労働時間短縮型の3類型で整理。求人がどの型か見極める方法、正社員週4の希少性、30-40代の世帯収入試算まで正直に解説。"
+        description="週休3日制を給与維持型・給与減額型・総労働時間短縮型の3類型で整理します。求人がどの型か見極める方法、正社員週4の希少性、30-40代の世帯収入試算まで解説します。"
         url="/purpose/four-day-week/"
       />
       <script
@@ -72,7 +72,7 @@ export default function FourDayWeekPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           週休3日制のエンジニア求人の見極め方
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 3類型を見分けて選ぶミドル向け完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 3類型を見分けて選ぶミドル向けガイド</p>
 
         <DataNote
           surveyedAt="2026年6月"
@@ -83,12 +83,12 @@ export default function FourDayWeekPage() {
         />
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：週休3日は“どの型か”の見極めが全て</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：週休3日は“どの型か”の見極めがすべて</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
-            「週休3日」という言葉は同じでも、その中身は<strong>給与維持型・給与減額型・総労働時間短縮型</strong>の3類型に分かれ、世帯収入への影響がまったく異なります。多くの比較サイトはこの区別をせずに「週休3日求人」を紹介していますが、給与が据え置かれるのか8割に減るのかでは家計への意味が正反対です。本記事は3類型を明確に区別し、求人がどの型かを見極める方法、正社員週4の希少性、そして給与減額型を選ぶ場合の世帯収入試算まで、家計を預かる30-40代の視点で正直に解説します。
+            「週休3日」という言葉は同じでも、その中身は<strong>給与維持型・給与減額型・総労働時間短縮型</strong>の3類型に分かれ、世帯収入への影響がまったく異なります。多くの比較サイトはこの区別をせずに「週休3日求人」を紹介していますが、給与が据え置かれるのか8割に減るのかでは家計への意味が正反対です。本記事は3類型を明確に区別し、求人がどの型かを見極める方法、正社員週4の希少性、そして給与減額型を選ぶ場合の世帯収入試算まで、家計を預かる30-40代の視点で解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 育児・介護と仕事を両立するため勤務日数を減らしたい</li>
               <li>- リスキリング・学び直しの時間を確保したい</li>
@@ -123,9 +123,9 @@ export default function FourDayWeekPage() {
               </thead>
               <tbody>
                 {[
-                  { type: "給与維持型", pay: "維持", hours: "減る", note: "週4でも給与据え置き。生産性向上が前提で導入企業は限られる" },
-                  { type: "給与減額型", pay: "減る", hours: "減る", note: "日数減に応じ給与も減（例：週4で8割）。世帯収入への影響大" },
-                  { type: "総労働時間短縮型", pay: "維持", hours: "維持", note: "1日の労働時間を延ばし週4にまとめる。1日あたりの拘束は長くなる" },
+                  { type: "給与維持型", pay: "維持", hours: "減る", note: "週4でも給与据え置き。生産性向上が前提で導入企業は限られます" },
+                  { type: "給与減額型", pay: "減る", hours: "減る", note: "日数減に応じ給与も減です（例：週4で8割）。世帯収入への影響大" },
+                  { type: "総労働時間短縮型", pay: "維持", hours: "維持", note: "1日の労働時間を延ばし週4にまとめます。1日あたりの拘束は長くなります" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -211,7 +211,7 @@ export default function FourDayWeekPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">週休3日・時短の求人を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">制度の型まで把握したIT特化型エージェントが、あなたの働き方に合う企業を提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">制度の型まで把握したIT特化型エージェントが、ご自身の働き方に合う企業を提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -224,7 +224,7 @@ export default function FourDayWeekPage() {
               { name: "フレックスタイム求人の見極め方", href: "/purpose/flextime/" },
               { name: "ワークライフバランスの考え方", href: "/knowledge/work-life-balance/" },
               { name: "副業OK求人の見極め方", href: "/purpose/side-job-ok/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

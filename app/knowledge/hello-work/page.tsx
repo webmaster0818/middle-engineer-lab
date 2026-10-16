@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "ハローワークのIT転職での使い方｜職業訓練と失業給付";
 const PAGE_DESC =
-  "30代・40代エンジニア向けに、ハローワークをIT転職でどう使うかを解説。IT求人の質と量の傾向、職業訓練（ハロートレーニング）、失業給付の流れ、IT特化サービスとの併用が現実的な理由を、公的制度の出典付きで整理します。";
+  "30代・40代エンジニア向けに、ハローワークをIT転職でどう使うかを解説します。IT求人の質と量の傾向、職業訓練（ハロートレーニング）、失業給付の流れ、IT特化サービスとの併用が現実的な理由を、公的制度の出典付きで整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/hello-work/" },
@@ -92,12 +92,12 @@ export default function HelloWorkPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ハローワークだけでIT・エンジニア転職はできる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: できますが非効率です。ハローワークは失業給付・職業訓練・地元求人の窓口として使い、求人探しはIT特化サービスと併用するのが現実的です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・利用は完全無料。求人検索・職業相談・失業給付の手続き・職業訓練の申し込みまで公的機関で対応</li><li>・IT専門求人は数・質ともに限られ、モダンな技術環境やハイクラス求人は少なめ</li><li>・自己都合退職の給付制限は2025年4月以降の離職で原則1か月に短縮（厚生労働省・令和6年雇用保険法改正）</li><li>・地方在住・公的支援や職業訓練を使いたい人ほど価値が高い</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・利用は完全無料です。求人検索・職業相談・失業給付の手続き・職業訓練の申し込みまで公的機関で対応</li><li>・IT専門求人は数・質ともに限られ、モダンな技術環境やハイクラス求人は少なめ</li><li>・自己都合退職の給付制限は2025年4月以降の離職で原則1か月に短縮（厚生労働省・令和6年雇用保険法改正）</li><li>・地方在住・公的支援や職業訓練を使いたい人ほど価値が高いです</li></ul>
           </div>
         </section>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          ハローワークは無料で使える公的な職業紹介機関ですが、IT・エンジニア転職で「使えるのか」は気になるところです。本記事では、ハローワークのIT求人の質と量の傾向、職業訓練（ハロートレーニング）、失業給付の流れを、公的制度の出典とともに整理します。結論から言えば、エンジニアにとってはIT特化サービスとの併用が現実的です。
+          ハローワークは無料で使える公的な職業紹介機関ですが、IT・エンジニア転職で「使えるのか」は気になるところです。本記事では、ハローワークのIT求人の質と量の傾向、職業訓練（ハロートレーニング）、失業給付の流れを、公的制度の出典とともに整理します。エンジニアにとってはIT特化サービスとの併用が現実的です。
         </p>
 
         <DataNote
@@ -131,7 +131,7 @@ export default function HelloWorkPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>・失業給付や職業訓練の窓口としては必須</li>
               <li>・IT専門求人は数・質ともに限られる傾向</li>
-              <li>・地方在住・公的支援を使いたい人ほど価値が高い</li>
+              <li>・地方在住・公的支援を使いたい人ほど価値が高いです</li>
             </ul>
           </div>
         </section>
@@ -153,19 +153,19 @@ export default function HelloWorkPage() {
               <h3 className="font-bold text-green-800 mb-2">メリット</h3>
               <ul className="text-sm text-green-700 space-y-1.5">
                 <li>・完全無料で利用できる</li>
-                <li>・地元・地方の求人に強い</li>
+                <li>・地元・地方の求人に強いです</li>
                 <li>・公的職業訓練（ハロートレーニング）と連携</li>
-                <li>・失業給付の手続き窓口になる</li>
-                <li>・職業相談で客観的な助言が得られる</li>
+                <li>・失業給付の手続き窓口になります</li>
+                <li>・職業相談で客観的な助言が得られます</li>
               </ul>
             </div>
             <div className="bg-red-50 rounded-lg p-5">
               <h3 className="font-bold text-red-800 mb-2">デメリット</h3>
               <ul className="text-sm text-red-700 space-y-1.5">
                 <li>・IT専門求人が少なめ</li>
-                <li>・求人の質にばらつきがある</li>
-                <li>・モダンな技術環境・ハイクラス求人は少ない</li>
-                <li>・技術に精通した相談員は限られる</li>
+                <li>・求人の質にばらつきがあります</li>
+                <li>・モダンな技術環境・ハイクラス求人は少ないです</li>
+                <li>・技術に精通した相談員は限られます</li>
                 <li>・年収交渉や技術面接の対策は手薄</li>
               </ul>
             </div>

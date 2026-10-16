@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const PAGE_TITLE = "DevOpsエンジニアの転職完全ガイド｜年収・必須スキル・SREとの違い【2026年】";
+const PAGE_TITLE = "DevOpsエンジニアの転職ガイド｜年収・必須スキル・SREとの違い【2026年】";
 const PAGE_DESC =
-  "DevOpsエンジニアの転職を2026年最新データで解説。SRE・インフラとの違い（開発と運用の橋渡し vs 信頼性のエンジニアリング）、CI/CD・IaC・コンテナ・監視の必須スキル、年収1,000万円超の現実性、未経験歓迎と即戦力高報酬の二極化を30代・40代向けにまとめました。";
+  "DevOpsエンジニアの転職を2026年最新データで解説します。SRE・インフラとの違い（開発と運用の橋渡し vs 信頼性のエンジニアリング）、CI/CD・IaC・コンテナ・監視の必須スキル、年収1,000万円超の現実性、未経験歓迎と即戦力高報酬の二極化を30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/devops/" },
@@ -30,13 +30,13 @@ const toc = [
 const faqs = [
   {
     q: "DevOpsエンジニアとSREの違いは何ですか？",
-    a: "重なる部分は多いですが、重心が違います。DevOpsは「開発（Dev）と運用（Ops）の橋渡し」を文化と自動化で実現する考え方・役割で、リリースを速く・安全に回すことが軸です。一方SRE（Site Reliability Engineering）は「サービスの信頼性をエンジニアリングで担保する」職で、SLI/SLO・エラーバジェットなど信頼性の数値設計が軸です。ざっくり言えば、DevOpsは『速く届ける文化と仕組み』、SREは『止まらない仕組み』に寄ります。SREの詳細は",
+    a: "重なる部分は多いですが、重心が違います。DevOpsは「開発（Dev）と運用（Ops）の橋渡し」を文化と自動化で実現する考え方・役割で、リリースを速く・安全に回すことが軸です。一方SRE（Site Reliability Engineering）は「サービスの信頼性をエンジニアリングで担保する」職で、SLI/SLO・エラーバジェットなど信頼性の数値設計が軸です。概要としては、DevOpsは『速く届ける文化と仕組み』、SREは『止まらない仕組み』に寄ります。SREの詳細は",
     aLink: { href: "/career/sre/", label: "SREへの転向ガイド" },
     aTail: "をご覧ください。",
   },
   {
     q: "DevOpsエンジニアとインフラエンジニアの違いは？",
-    a: "インフラエンジニアはサーバー・ネットワーク・OSなど基盤の構築・運用が中心ですが、DevOpsエンジニアはそこにCI/CD・自動化・開発プロセス改善を加え、開発チームと一体で素早いリリースを実現する役割です。インフラの土台がある人がCI/CDやIaC、コンテナを身につけてDevOps領域へ広げる、というキャリアが王道です。基盤側は",
+    a: "インフラエンジニアはサーバー・ネットワーク・OSなど基盤の構築・運用が中心ですが、DevOpsエンジニアはそこにCI/CD・自動化・開発プロセス改善を加え、開発チームと一体で素早いリリースを実現する役割です。インフラの土台がある人がCI/CDやIaC、コンテナを身につけてDevOps領域へ広げる、というキャリアが代表的な方法です。基盤側は",
     aLink: { href: "/skill/infrastructure/", label: "インフラエンジニア転職ガイド" },
     aTail: "が参考になります。",
   },
@@ -64,9 +64,9 @@ const salaryRef = [
 ];
 
 const cicdTools = [
-  ["Jenkins", "歴史が長くオンプレ・受託で根強い。柔軟だが運用知識が要る"],
-  ["GitHub Actions", "GitHubと統合され導入が容易。近年採用が広い"],
-  ["GitLab CI", "GitLab一体型。セルフホスト・エンタープライズで使われる"],
+  ["Jenkins", "歴史が長くオンプレ・受託で根強いです。柔軟だが運用知識が要る"],
+  ["GitHub Actions", "GitHubと統合され導入が容易です。近年採用が広い"],
+  ["GitLab CI", "GitLab一体型です。セルフホスト・エンタープライズで使われる"],
   ["AWS CodePipeline", "AWS環境での標準的な選択肢の一つ"],
   ["Google Cloud Build", "GCP環境でのビルド・デプロイ自動化"],
 ];
@@ -102,7 +102,7 @@ export default function DevopsSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          DevOpsエンジニアの転職完全ガイド｜年収・必須スキル・SREとの違い【2026年】
+          DevOpsエンジニアの転職ガイド｜年収・必須スキル・SREとの違い【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | DevOpsスキルを活かした転職を30代・40代向けに解説
@@ -141,12 +141,12 @@ export default function DevopsSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：SRE・インフラとの違い</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              先に結論です。DevOps転職を成功させる軸は、<strong>「自動化で開発を速く・安全に回せること」を実績で示すこと</strong>です。攻め方は次の3点です。
+              DevOps転職を成功させる軸は、<strong>「自動化で開発を速く・安全に回せること」を実績で示すこと</strong>です。進め方は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>CI/CD（Jenkins / GitHub Actions / GitLab CI 等）</strong>のパイプライン構築を中核実績にする</li>
-              <li>② <strong>IaC・コンテナ・監視</strong>を横断的に押さえ、「開発と運用をつなぐ」ことを語れるようにする</li>
-              <li>③ 信頼性に寄せるなら<strong>SRE</strong>、基盤に寄せるなら<strong>インフラ</strong>へ、自分の重心を明確にする</li>
+              <li>① <strong>CI/CD（Jenkins / GitHub Actions / GitLab CI 等）</strong>のパイプライン構築を中核実績にします</li>
+              <li>② <strong>IaC・コンテナ・監視</strong>を横断的に押さえ、「開発と運用をつなぐ」ことを語れるようにします</li>
+              <li>③ 信頼性に寄せるなら<strong>SRE</strong>、基盤に寄せるなら<strong>インフラ</strong>へ、自分の重心を明確にします</li>
             </ul>
             <p className="text-xs text-slate-600 mt-3">
               信頼性の数値設計を極めるなら
@@ -226,9 +226,9 @@ export default function DevopsSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "IaC（Infrastructure as Code）", d: "Terraform等でインフラをコード管理。手作業を排し、再現性とレビュー可能性を高める。" },
-              { t: "コンテナ（Docker / Kubernetes）", d: "アプリをコンテナ化し、Kubernetesでオーケストレーション。スケーラブルな運用の土台。" },
-              { t: "監視・オブザーバビリティ", d: "メトリクス・ログ・トレースを集約し、問題を早期検知。Prometheus/Grafana等が代表。" },
+              { t: "IaC（Infrastructure as Code）", d: "Terraform等でインフラをコード管理です。手作業を排し、再現性とレビュー可能性を高めます。" },
+              { t: "コンテナ（Docker / Kubernetes）", d: "アプリをコンテナ化し、Kubernetesでオーケストレーションです。スケーラブルな運用の土台です。" },
+              { t: "監視・オブザーバビリティ", d: "メトリクス・ログ・トレースを集約し、問題を早期検知します。Prometheus/Grafana等が代表です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -255,11 +255,11 @@ export default function DevopsSkillPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">未経験歓迎枠</h3>
-              <p className="text-sm text-slate-600">インフラ・開発の基礎がある人が、CI/CD・IaCを学んで入るルート。年収は標準的だが入口として現実的。</p>
+              <p className="text-sm text-slate-600">インフラ・開発の基礎がある人が、CI/CD・IaCを学んで入るルートです。年収は標準的だが入口として現実的です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">即戦力・高報酬枠</h3>
-              <p className="text-sm text-slate-600">Kubernetes運用・マルチクラウド・高度な自動化の実績が前提。年収1,000万円超も視野に入る。</p>
+              <p className="text-sm text-slate-600">Kubernetes運用・マルチクラウド・高度な自動化の実績が前提です。年収1,000万円超も視野に入ります。</p>
             </div>
           </div>
         </section>
@@ -268,9 +268,9 @@ export default function DevopsSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "入口層（CI/CD導入）", d: "GitHub Actions等でビルド・テスト・デプロイを自動化。Docker基礎とスクリプティングが問われる。" },
-              { t: "中核層（IaC・コンテナ運用）", d: "Terraformでの構成管理、Kubernetes運用、監視の整備。年収帯が一段上がるゾーン。" },
-              { t: "上級層（プラットフォーム・組織改善）", d: "開発生産性を高める内部基盤づくり、組織横断のDevOps文化推進。マネジメント要素も評価される。" },
+              { t: "入口層（CI/CD導入）", d: "GitHub Actions等でビルド・テスト・デプロイを自動化します。Docker基礎とスクリプティングが問われます。" },
+              { t: "中核層（IaC・コンテナ運用）", d: "Terraformでの構成管理、Kubernetes運用、監視の整備です。年収帯が一段上がるゾーンです。" },
+              { t: "上級層（プラットフォーム・組織改善）", d: "開発生産性を高める内部基盤づくり、組織横断のDevOps文化推進です。マネジメント要素も評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -286,13 +286,13 @@ export default function DevopsSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">プラットフォームエンジニア路線</h3>
               <p className="text-sm text-petrol-deep">
-                社内開発者向けの基盤（内部開発者プラットフォーム）を整える方向。開発生産性の向上が成果指標になります。
+                社内開発者向けの基盤（内部開発者プラットフォーム）を整える方向です。開発生産性の向上が成果指標になります。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">SRE路線</h3>
               <p className="text-sm text-petrol-deep">
-                信頼性の数値設計（SLI/SLO）に重心を移す方向。
+                信頼性の数値設計（SLI/SLO）に重心を移す方向です。
                 <Link href="/career/sre/" className="text-petrol-deep underline ml-1">SREへの転向ガイド</Link>
                 が参考になります。
               </p>
@@ -300,7 +300,7 @@ export default function DevopsSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">クラウド/セキュリティ特化路線</h3>
               <p className="text-sm text-petrol-deep">
-                自動化にセキュリティを組み込む方向。
+                自動化にセキュリティを組み込む方向です。
                 <Link href="/career/devsecops/" className="text-petrol-deep underline ml-1">DevSecOpsキャリア</Link>
                 へ接続します。
               </p>
@@ -312,10 +312,10 @@ export default function DevopsSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">未経験・経験浅めからのロードマップ</h2>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "土台の棚卸し", d: "Linux・ネットワーク・開発（いずれか）の基礎を整理。DevOpsの土台になる。" },
-              { n: "STEP 2", t: "CI/CDを自作", d: "GitHub Actionsで小さなアプリのビルド・テスト・デプロイを自動化する。" },
-              { n: "STEP 3", t: "IaC・コンテナ化", d: "Dockerでコンテナ化し、Terraformでインフラをコード管理。GitHubに公開する。" },
-              { n: "STEP 4", t: "自動化ストーリーで応募", d: "『手作業をどれだけ自動化し、リリースをどう速くしたか』を職務経歴書に落とし込む。" },
+              { n: "STEP 1", t: "土台の棚卸し", d: "Linux・ネットワーク・開発（いずれか）の基礎を整理します。DevOpsの土台になります。" },
+              { n: "STEP 2", t: "CI/CDを自作", d: "GitHub Actionsで小さなアプリのビルド・テスト・デプロイを自動化します。" },
+              { n: "STEP 3", t: "IaC・コンテナ化", d: "Dockerでコンテナ化し、Terraformでインフラをコード管理です。GitHubに公開します。" },
+              { n: "STEP 4", t: "自動化ストーリーで応募", d: "『手作業をどれだけ自動化し、リリースをどう速くしたか』を職務経歴書に落とし込みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -327,7 +327,7 @@ export default function DevopsSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方です</Link>。
           </p>
         </section>
 
@@ -338,7 +338,7 @@ export default function DevopsSkillPage() {
               DevOpsは「ツール」だけの仕事ではありません。<strong>開発チームと運用チームの間に立ち、文化と仕組みの両方を変える調整力</strong>が問われます。チームをまとめ、組織を動かしてきたミドルの経験は、ここで強みになります。
             </p>
             <p>
-              <strong>デメリット・注意点も正直に書きます。</strong>DevOpsは扱う技術の幅が広く、CI/CD・IaC・コンテナ・クラウド・監視を横断的にキャッチアップし続ける負荷があります。また「DevOpsエンジニア」という求人名でも、実態はただのインフラ運用や雑務対応の場合があるため、求人の中身（自動化をどこまで任されるか）を見極める必要があります。年収1,000万円超は実在しますが、高スキルが前提で、誰でも到達する水準ではありません。
+              <strong>デメリット・注意点も記載します。</strong>DevOpsは扱う技術の幅が広く、CI/CD・IaC・コンテナ・クラウド・監視を横断的にキャッチアップし続ける負荷があります。また「DevOpsエンジニア」という求人名でも、実態はただのインフラ運用や雑務対応の場合があるため、求人の中身（自動化をどこまで任されるか）を見極める必要があります。年収1,000万円超は実在しますが、高スキルが前提で、誰でも到達する水準ではありません。
             </p>
             <p>
               年代別の市場感は
@@ -377,7 +377,7 @@ export default function DevopsSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">DevOpsスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            CI/CD・自動化案件に強いIT特化型エージェントで、あなたのDevOpsスキルの市場価値を確認しましょう。
+            CI/CD・自動化案件に強いIT特化型エージェントで、ご自身のDevOpsスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

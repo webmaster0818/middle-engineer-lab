@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "結局どのエージェントが一番年収アップしますか？",
-    a: "数値だけで『一番』を決めることはできません。各社の年収アップ実績は計測期間も定義（対象者・年収アップの基準）もバラバラで、横並びでランキング化できないためです。本記事は順位付けではなく、公表値を取得時点付きで並べ、読み方を示す構成にしています。あなたの領域・年代に強い社を軸に選ぶのが現実的です。",
+    a: "数値だけで『一番』を決めることはできません。各社の年収アップ実績は計測期間も定義（対象者・年収アップの基準）もバラバラで、横並びでランキング化できないためです。本記事は順位付けではなく、公表値を取得時点付きで並べ、読み方を示す構成にしています。ご自身の領域・年代に強い社を軸に選ぶのが現実的です。",
   },
   {
     q: "公表されている年収アップ率はそのまま信じていいですか？",
@@ -58,7 +58,7 @@ type Row = {
   stale?: boolean;
 };
 
-// 各社の「年収アップに関する公表値」。横並び比較不可のため順位はつけない。
+// 各社の「年収アップに関する公表値」。横並び比較不可のため順位はつけません。
 const rows: Row[] = [
   {
     slug: "levtech",
@@ -66,8 +66,8 @@ const rows: Row[] = [
     type: "IT特化型",
     value: "応募時年収との差が70万円以上＝内定承諾者の3人に2人",
     period: "2023年1月〜2024年3月実績",
-    basis: "公式系。母集団は『内定承諾者』",
-    note: "高年収求人比率が高く、年収レンジの引き上げを狙いやすい。",
+    basis: "公式系です。母集団は『内定承諾者』",
+    note: "高年収求人比率が高く、年収レンジの引き上げを狙いやすいです。",
     review: "/review/levtech/",
   },
   {
@@ -76,8 +76,8 @@ const rows: Row[] = [
     type: "IT特化型",
     value: "年収アップ率 約81%／平均上昇額 約76万円",
     period: "2025年9月時点",
-    basis: "二次情報。母集団の定義は明示されていない",
-    note: "Web/ゲーム領域に強く提案スピードが速い。",
+    basis: "二次情報です。母集団の定義は明示されていません",
+    note: "Web/ゲーム領域に強く提案スピードが速いです。",
     review: "/review/geekly/",
   },
   {
@@ -87,7 +87,7 @@ const rows: Row[] = [
     value: "転職者の約6割が年収アップ／IT・通信の平均決定年収 469万円→486万円",
     period: "2024年度（2025年5月公表）",
     basis: "パーソルキャリア『決定年収レポート』。対象は転職者全体",
-    note: "求人数が国内最大級。母数で年収アップ機会を確保しやすい。",
+    note: "求人数が国内最大級です。母数で年収アップ機会を確保しやすいです。",
     review: "/review/doda-it/",
   },
   {
@@ -97,7 +97,7 @@ const rows: Row[] = [
     value: "年収アップ率 73.7%（定着率97.5%）",
     period: "計測時期は明示されていない",
     basis: "転職メディア集計の二次情報",
-    note: "20〜30代の若手層に強く、サポートが手厚い。",
+    note: "20〜30代の若手層に強く、サポートが手厚いです。",
     review: "/review/mynavi-it/",
   },
   {
@@ -106,8 +106,8 @@ const rows: Row[] = [
     type: "IT特化型",
     value: "年収アップ希望者の約71%が増収／平均増額92万円（ITエンジニアは124万円）",
     period: "2021年10月〜2022年9月の自社調査（古い）",
-    basis: "自社調査。母集団は『年収アップ希望者』",
-    note: "首都圏IT/Webに強く年収交渉に注力。ただしデータが古い点に注意。",
+    basis: "自社調査です。母集団は『年収アップ希望者』",
+    note: "首都圏IT/Webに強く年収交渉に注力しています。ただしデータが古い点に注意が必要です。",
     review: "/review/type-agent/",
     stale: true,
   },
@@ -118,7 +118,7 @@ const rows: Row[] = [
     value: "年収アップ率の統一公表値はなし（年収1,000万円以上求人が全体の約4割）",
     period: "求人割合は二次情報",
     basis: "ハイクラス定義は年収750万円以上（二次）",
-    note: "スカウト型で市場価値を測れる。高年収帯のオファーが届きやすい。",
+    note: "スカウト型で市場価値を測れます。高年収帯のオファーが届きやすいです。",
     review: "/review/bizreach-it/",
   },
   {
@@ -128,7 +128,7 @@ const rows: Row[] = [
     value: "統一された公式の年収アップ率は未確認",
     period: "—",
     basis: "断定できる公表値なし",
-    note: "求人数が国内最大級。非公開求人が豊富で母数を確保できる。",
+    note: "求人数が国内最大級です。非公開求人が豊富で母数を確保できます。",
     review: "/review/recruit-it/",
   },
   {
@@ -138,7 +138,7 @@ const rows: Row[] = [
     value: "年収アップ実績の公表値は確認不可",
     period: "—",
     basis: "断定できる公表値なし",
-    note: "全国47都道府県57拠点。未経験歓迎求人も多くスピード重視。",
+    note: "全国47都道府県57拠点です。未経験歓迎求人も多くスピード重視です。",
     review: "/review/workport/",
   },
   {
@@ -148,7 +148,7 @@ const rows: Row[] = [
     value: "エージェント型の年収交渉サポートはなし（直接応募中心）",
     period: "—",
     basis: "成功報酬型の転職サイト形態のため該当データなし",
-    note: "カジュアル面談・直接応募が中心。自分で動ける人向け。",
+    note: "カジュアル面談・直接応募が中心です。自分で動ける人向けです。",
     review: "/review/green/",
   },
   {
@@ -158,7 +158,7 @@ const rows: Row[] = [
     value: "年収アップの統一公表値はなし（スキルランクでスカウト）",
     period: "—",
     basis: "スカウト型の転職サイト形態のため該当データなし",
-    note: "スキルチェックのランクで実力評価。書類選考免除あり。",
+    note: "スキルチェックのランクで実力評価です。書類選考免除があります。",
     review: "/review/paiza/",
   },
 ];
@@ -221,7 +221,7 @@ export default function SalaryRankingPage() {
           最終更新: 2026年6月 | 各社の公表値を取得時点付きで一覧化
         </p>
         <p className="text-slate-600 leading-relaxed mb-2">
-          「転職エージェントの年収アップランキング」を探している方へ。先に結論をお伝えすると、各社が公表する年収アップ実績は<strong>計測時期も定義もバラバラで、横並びのランキングにはできません</strong>。本記事は順位付けではなく、各社の公表値を取得時点付きで一覧化し、その数値をどう読むべきかを誠実に解説する「公表値の一覧＋読み方ガイド」です。
+          「転職エージェントの年収アップランキング」を探している方へ。要点をお伝えすると、各社が公表する年収アップ実績は<strong>計測時期も定義もバラバラで、横並びのランキングにはできません</strong>。本記事は順位付けではなく、各社の公表値を取得時点付きで一覧化し、その数値をどう読むべきかを誠実に解説する「公表値の一覧＋読み方ガイド」です。
         </p>
 
         <DataNote
@@ -256,8 +256,8 @@ export default function SalaryRankingPage() {
             </p>
             <ul className="space-y-2 text-sm text-amber-900">
               <li>・計測期間がバラバラ（2021年〜2025年と幅があり、type転職は2021〜2022年と古い）</li>
-              <li>・母集団の定義が違う（全利用者／年収アップ希望者／内定承諾者）</li>
-              <li>・一次情報と二次集計が混在している</li>
+              <li>・母集団の定義が違います（全利用者／年収アップ希望者／内定承諾者）</li>
+              <li>・一次情報と二次集計が混在しています</li>
             </ul>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed">
@@ -386,7 +386,7 @@ export default function SalaryRankingPage() {
           </p>
         </section>
 
-        {/* 年収UPしやすい人 */}
+        {/* 年収アップしやすい人 */}
         <section id="easy" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収アップしやすい人の5つの特徴</h2>
           <div className="space-y-4">
@@ -426,9 +426,9 @@ export default function SalaryRankingPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-4">
               {[
-                { num: "1", title: "希望年収は「レンジ」で伝える", desc: "「700万円希望」ではなく「700〜800万円」と幅で伝えます。下限が希望額、上限がストレッチ目標。エージェントが交渉の余地を持てます。" },
-                { num: "2", title: "現年収を正直に伝える", desc: "現年収を盛ると入社後のギャップやトラブルの原因になります。正直に伝え、市場価値に基づく適正年収を算出してもらいましょう。" },
-                { num: "3", title: "年収以外の条件も交渉する", desc: "基本給だけでなく、賞与・ストックオプション・リモート・フレックス・副業可否なども交渉対象。総合的な待遇で判断します。" },
+                { num: "1", title: "希望年収は「レンジ」で伝える", desc: "「700万円希望」ではなく「700〜800万円」と幅で伝えます。下限が希望額、上限がストレッチ目標です。エージェントが交渉の余地を持てます。" },
+                { num: "2", title: "現年収を率直に伝える", desc: "現年収を誇張すると入社後のギャップやトラブルの原因になります。率直に伝え、市場価値に基づく適正年収を算出してもらいましょう。" },
+                { num: "3", title: "年収以外の条件も交渉する", desc: "基本給だけでなく、賞与・ストックオプション・リモート・フレックス・副業可否なども交渉対象です。総合的な待遇で判断します。" },
                 { num: "4", title: "内定後に交渉する", desc: "交渉は内定後が最も効果的です。企業が『採りたい』と決めた後なら余地が生まれやすく、気まずい交渉はエージェントに代行してもらえます。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
@@ -446,7 +446,7 @@ export default function SalaryRankingPage() {
           <p className="text-sm text-slate-600 mt-4">
             交渉の進め方は
             <Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">
-              年収交渉の完全ガイド
+              年収交渉のガイド
             </Link>
             で詳しく解説しています。
           </p>
@@ -503,7 +503,7 @@ export default function SalaryRankingPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">数値より「自分の市場価値」を確かめよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            年収アップ率の数字は前提がバラバラで比較できません。まずはIT特化型に登録し、実際に届く求人・オファーの年収帯であなたの市場価値を確認しましょう。登録・利用は無料です。
+            年収アップ率の数字は前提がバラバラで比較できません。まずはIT特化型に登録し、実際に届く求人・オファーの年収帯でご自身の市場価値を確認しましょう。登録・利用は無料です。
           </p>
           <Link
             href="/#ranking"
@@ -519,7 +519,7 @@ export default function SalaryRankingPage() {
             {[
               { name: "エンジニア転職エージェント10社比較", href: "/compare/agents/" },
               { name: "レバテックキャリア vs Geekly比較", href: "/compare/levtech-vs-geekly/" },
-              { name: "年収交渉の完全ガイド", href: "/knowledge/salary-negotiation/" },
+              { name: "年収交渉のガイド", href: "/knowledge/salary-negotiation/" },
               { name: "エンジニア転職で年収は上がる？", href: "/knowledge/salary-change/" },
               { name: "30代エンジニアの年収相場", href: "/knowledge/salary-30s/" },
               { name: "40代エンジニアの年収相場", href: "/knowledge/salary-40s/" },

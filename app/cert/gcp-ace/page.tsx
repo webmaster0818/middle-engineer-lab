@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Google Cloud Associate Cloud Engineer（ACE）は転職に効くか｜GCP実務の入口証明【2026年】";
 const PAGE_DESC =
-  "Google CloudのAssociate Cloud Engineer（ACE）を、30代・40代の経験者向けに解説。受験料125 USD・試験形式・有効期限3年、GCP運用／基盤職での評価、年収の考え方を公式情報をもとに限界も含めて整理します。";
+  "Google CloudのAssociate Cloud Engineer（ACE）を、30代・40代の経験者向けに解説します。受験料125 USD・試験形式・有効期限3年、GCP運用／基盤職での評価、年収の考え方を公式情報をもとに留意点も含めて整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/gcp-ace/" },
@@ -41,11 +41,11 @@ const faqs = [
   },
   {
     q: "ACEの合格率はどのくらいですか？",
-    a: "Google Cloudは合格率を公表していません。当サイトでは創作した数値を載せず、非公表である事実をそのままお伝えします。合格基準点も非公開で、対策は公式の模擬試験や実機での演習が中心になります（Google Cloud、2026年6月時点）。",
+    a: "Google Cloudは合格率を公表していません。当サイトでは創作した数値は掲載せず、非公表である事実をそのままお伝えします。合格基準点も非公開で、対策は公式の模擬試験や実機での演習が中心になります（Google Cloud、2026年6月時点）。",
   },
   {
     q: "ACEとPCAはどちらを取るべきですか？",
-    a: "現在地と目的で決めます。GCPの実務がこれからの人、まず扱える証明がほしい人はACE（アソシエイト）から。すでに設計・基盤の経験があり上流アーキテクトを目指す人はPCA（プロフェッショナル）が適しています。ACEで土台を作りPCAへ進むのが王道のステップアップです。PCA側は当サイトのPCAガイドも参照してください。",
+    a: "現在地と目的で決めます。GCPの実務がこれからの人、まず扱える証明がほしい人はACE（アソシエイト）から。すでに設計・基盤の経験があり上流アーキテクトを目指す人はPCA（プロフェッショナル）が適しています。ACEで土台を作りPCAへ進むのが一般的なステップアップです。PCA側は当サイトのPCAガイドも参照してください。",
   },
   {
     q: "AWSやAzureを使っていてもGCPの資格は役立ちますか？",
@@ -101,14 +101,14 @@ export default function GcpAceCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          Associate Cloud Engineer（ACE）は、Google Cloudの<strong>アソシエイト認定で、GCPのデプロイ・運用・監視という実務スキルを証明</strong>する試験です。本記事は「ACEを取れば転職で有利になるか」という疑問に対し、<strong>GCPを扱える実務の証明</strong>という観点から、運用・基盤職での評価、有効期限や更新の仕組みを公式情報とともに整理します。資格単体では年収は跳ねないという限界も正直にお伝えします。
+          Associate Cloud Engineer（ACE）は、Google Cloudの<strong>アソシエイト認定で、GCPのデプロイ・運用・監視という実務スキルを証明</strong>する試験です。本記事は「ACEを取れば転職で有利になるか」という疑問に対し、<strong>GCPを扱える実務の証明</strong>という観点から、運用・基盤職での評価、有効期限や更新の仕組みを公式情報とともに整理します。資格単体では年収は跳ねないという留意点もご説明します。
         </p>
 
         <DataNote
           surveyedAt="2026年6月"
           sources={[
             "Google Cloud 公式（cloud.google.com/learn/certification）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -134,9 +134,9 @@ export default function GcpAceCertPage() {
               ACEは<strong>「GCPを扱える実務の証明」</strong>です。アソシエイト（入口寄り）の位置づけで、すでにインフラ・クラウドの経験があるミドルが<strong>GCPへ守備範囲を広げる起点</strong>として効きます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>インフラ・クラウド実務のある30〜40代</strong>：GCPを扱える証明として書類段階で加点される</li>
-              <li>② <strong>GCP採用のWeb系・データ基盤志望</strong>：GCPスキルの裏づけになる</li>
-              <li>③ <strong>上流アーキを目指す人</strong>：ACEで土台を作り、上位のPCAへ進む起点になる</li>
+              <li>① <strong>インフラ・クラウド実務のある30〜40代</strong>：GCPを扱える証明として書類段階で加点されます</li>
+              <li>② <strong>GCP採用のWeb系・データ基盤志望</strong>：GCPスキルの裏づけになります</li>
+              <li>③ <strong>上流アーキを目指す人</strong>：ACEで土台を作り、上位のPCAへ進む起点になります</li>
             </ul>
           </div>
         </section>
@@ -171,7 +171,7 @@ export default function GcpAceCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・クラウド人材は需要が高い傾向（<strong>実務・役割が主因</strong>）</li>
               <li>・ACEは<strong>GCPを扱える入口の証明</strong>として書類通過に効く加点材</li>
-              <li>・実態：<strong>年収はGCP実務経験 × 資格の掛け算</strong>で決まる</li>
+              <li>・実態：<strong>年収はGCP実務経験 × 資格の掛け算</strong>で決まります</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -184,10 +184,10 @@ export default function GcpAceCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "GCPを採用する現場への応募", d: "Web系・データ基盤・スタートアップなどGCP採用企業で、扱える前提のスキル証明として書類段階で効く。" },
-              { t: "マルチクラウド対応の証明", d: "AWS・Azure経験に加えGCPも扱えることを示し、対応できるクラウドの幅を広げられる。" },
-              { t: "運用・デプロイ業務の担当", d: "GCPのデプロイ・監視・運用の実務スキルを問う試験のため、運用ポジションへの適性を裏づける。" },
-              { t: "上位資格・上流への布石", d: "ACEで土台を作り、上位のProfessional Cloud Architectで設計力まで示す段階的なキャリア設計に使える。" },
+              { t: "GCPを採用する現場への応募", d: "Web系・データ基盤・スタートアップなどGCP採用企業で、扱える前提のスキル証明として書類段階で効きます。" },
+              { t: "マルチクラウド対応の証明", d: "AWS・Azure経験に加えGCPも扱えることを示し、対応できるクラウドの幅を広げられます。" },
+              { t: "運用・デプロイ業務の担当", d: "GCPのデプロイ・監視・運用の実務スキルを問う試験のため、運用ポジションへの適性を裏づけます。" },
+              { t: "上位資格・上流への布石", d: "ACEで土台を作り、上位のProfessional Cloud Architectで設計力まで示す段階的なキャリア設計に使えます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -205,9 +205,9 @@ export default function GcpAceCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "クラウドエンジニア（GCP運用）", d: "GCP上のデプロイ・運用・監視を担う役割。ACEがそのまま職務スキルの裏づけになる。" },
-              { t: "インフラエンジニア（クラウド移行寄り）", d: "オンプレ経験を活かしつつGCPへ守備範囲を広げる際の起点になる。" },
-              { t: "データ基盤・SRE寄り", d: "GCPのデータ／運用基盤に関わる職種で、扱える前提スキルとして評価される。" },
+              { t: "クラウドエンジニア（GCP運用）", d: "GCP上のデプロイ・運用・監視を担う役割です。ACEがそのまま職務スキルの裏づけになります。" },
+              { t: "インフラエンジニア（クラウド移行寄り）", d: "オンプレ経験を活かしつつGCPへ守備範囲を広げる際の起点になります。" },
+              { t: "データ基盤・SRE寄り", d: "GCPのデータ／運用基盤に関わる職種で、扱える前提スキルとして評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -253,10 +253,10 @@ export default function GcpAceCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>GCP案件への足がかり</strong>。GCPを扱える前提スキルを示し、書類選考の通過率を上げられます。第二に<strong>マルチクラウドの幅</strong>。AWS・Azure経験に積み増すことで、対応できるクラウドの幅をアピールできます。第三に<strong>上位資格への布石</strong>。ACEで土台を作ってからPCAへ進めば、運用から設計まで一貫したキャリアストーリーになります。
+            活用戦略は3つに整理できます。第一に<strong>GCP案件への足がかり</strong>。GCPを扱える前提スキルを示し、書類選考の通過率を上げられます。第二に<strong>マルチクラウドの幅です</strong>。AWS・Azure経験に積み増すことで、対応できるクラウドの幅をアピールできます。第三に<strong>上位資格への布石です</strong>。ACEで土台を作ってからPCAへ進めば、運用から設計まで一貫したキャリアストーリーになります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。ACEは<strong>アソシエイトという位置づけのため、これ単体で上流設計まで保証する資格ではありません</strong>。効果が出るのは「GCP実務 × 資格」が成立したときです。また有効期限が3年あり、取りっぱなしでは失効します。逆に言えば、GCPに守備範囲を広げたい30〜40代の起点としては、費用対効果の高い資格です。上流まで示したいなら<Link href="/cert/gcp-pca/" className="text-petrol hover:underline">Professional Cloud Architect</Link>へ進みましょう。
+            注意すべきデメリットも押さえておきましょう。ACEは<strong>アソシエイトという位置づけのため、これ単体で上流設計まで保証する資格ではありません</strong>。効果が出るのは「GCP実務 × 資格」が成立したときです。また有効期限が3年あり、取りっぱなしでは失効します。逆に言えば、GCPに守備範囲を広げたい30〜40代の起点としては、費用対効果の高い資格です。上流まで示したいなら<Link href="/cert/gcp-pca/" className="text-petrol hover:underline">Professional Cloud Architect</Link>へ進みましょう。
           </p>
         </section>
 
@@ -268,7 +268,7 @@ export default function GcpAceCertPage() {
               ACEは、未経験がゼロからIT職に入るための入口資格とは少し違います。すでにインフラ・クラウドの土台がある経験者が<strong>「GCPという新しい守備範囲を扱える」と示すための起点</strong>として最も効きます。AWS・Azure経験のある30〜40代がマルチクラウド対応を広げる一手として、費用対効果は高めです。
             </p>
             <p>
-              一方で過度な期待は禁物です。ACEを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。GCPの運用・構築の実績と組み合わせて初めて、案件の幅や上位資格への道が開けます。上流の設計力まで示したい場合は、ACEを起点にPCAへ進むのが王道です。
+              一方で過度な期待は禁物です。ACEを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。GCPの運用・構築の実績と組み合わせて初めて、案件の幅や上位資格への道が開けます。上流の設計力まで示したい場合は、ACEを起点にPCAへ進むのが一般的です。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -281,9 +281,9 @@ export default function GcpAceCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "GCPの基礎を実機で触る", d: "Compute Engine・Cloud Storage・IAMなど主要サービスを実際のコンソールやコマンドで操作し、感覚を掴む。" },
-              { n: "STEP 2", t: "出題範囲を演習で網羅", d: "デプロイ・運用・監視・アクセス管理を、公式模擬試験と実機演習で固める。50〜60問の選択式に慣れる。" },
-              { n: "STEP 3", t: "合格→PCAで上流へ", d: "合格後はGCP実務に関わりつつ、有効期限内に更新。設計力まで示すなら上位のPCAに挑戦する。" },
+              { n: "STEP 1", t: "GCPの基礎を実機で触る", d: "Compute Engine・Cloud Storage・IAMなど主要サービスを実際のコンソールやコマンドで操作し、感覚を掴みます。" },
+              { n: "STEP 2", t: "出題範囲を演習で網羅", d: "デプロイ・運用・監視・アクセス管理を、公式模擬試験と実機演習で固めます。50〜60問の選択式に慣れます。" },
+              { n: "STEP 3", t: "合格→PCAで上流へ", d: "合格後はGCP実務に関わりつつ、有効期限内に更新します。設計力まで示すなら上位のPCAに挑戦します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -319,7 +319,7 @@ export default function GcpAceCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">クラウド・GCP案件への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ACEを活かせるGCP運用・基盤求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            ACEを活かせるGCP運用・基盤求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

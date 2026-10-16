@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const PAGE_TITLE = "情報セキュリティマネジメント試験は転職に効くか｜利用者側の管理者向けに正直解説【2026年】";
+const PAGE_TITLE = "情報セキュリティマネジメント試験は転職に効くか｜利用者側の管理者向けに解説【2026年】";
 const PAGE_DESC =
-  "IPAの国家試験・情報セキュリティマネジメント試験（SG）を、利用部門のセキュリティ管理者という観点から30代・40代向けに正直に解説。受験料・合格率（IPA公表値）・通年CBTを整理し、専門エンジニアの加点との違いと効く場面を誠実にまとめます。";
+  "IPAの国家試験・情報セキュリティマネジメント試験（SG）を、利用部門のセキュリティ管理者という観点から30代・40代向けに解説します。受験料・合格率（IPA公表値）・通年CBTを整理し、専門エンジニアの加点との違いと効く場面を誠実にまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/info-sec-management/" },
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "SGの合格率はどのくらいですか？",
-    a: "IPAの統計では合格率は高めで、近年は7割前後で推移しています（例として令和5年度72.6%、令和6年度69.0%。2025年4〜7月の月次も概ね70%台）。通年CBT方式で、科目A・科目Bあわせて60問・120分の多肢選択式です。基礎レベルのため、入口資格としては取りやすい部類です（IPA等、調査時点2026年6月）。",
+    a: "IPAの統計では合格率は高めで、近年は7割前後で推移しています（例として令和5年度72.6%、令和6年度69.0%。2025年4〜7月の月次も概ね70%台です）。通年CBT方式で、科目A・科目Bあわせて60問・120分の多肢選択式です。基礎レベルのため、入口資格としては取りやすい部類です（IPA等、調査時点2026年6月）。",
   },
   {
     q: "SGと情報処理安全確保支援士は何が違いますか？",
@@ -92,10 +92,10 @@ export default function InfoSecManagementCertPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          情報セキュリティマネジメント試験は転職に効くか｜利用者側の管理者向けに正直解説【2026年】
+          情報セキュリティマネジメント試験は転職に効くか｜利用者側の管理者向けに解説【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 | IPA国家試験・SGの転職価値を30代・40代向けに正直に解説
+          最終更新: 2026年6月 | IPA国家試験・SGの転職価値を30代・40代向けに解説
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -107,7 +107,7 @@ export default function InfoSecManagementCertPage() {
           sources={[
             "IPA 公式（ipa.go.jp／試験区分・統計ページ）",
             "TAC 等メディアの合格率集計（参考値）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -133,8 +133,8 @@ export default function InfoSecManagementCertPage() {
               情報セキュリティマネジメント試験は<strong>「利用部門のセキュリティ管理者向けの基礎資格」</strong>です。セキュリティエンジニア（守る側）の技術証明ではなく、<strong>ITを使う側の部門でルールを運用し、リスクを管理する立場</strong>に効きます。誰に効くかをはっきり分けると次のとおりです。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>利用部門のセキュリティリーダー・管理職</strong>：社内ルール運用・委託先管理の基礎証明として効く</li>
-              <li>② <strong>非専門職でセキュリティ素養を示したい人</strong>：情報の安全な取扱いの理解を客観的に示せる</li>
+              <li>① <strong>利用部門のセキュリティリーダー・管理職</strong>：社内ルール運用・委託先管理の基礎証明として効きます</li>
+              <li>② <strong>非専門職でセキュリティ素養を示したい人</strong>：情報の安全な取扱いの理解を客観的に示せます</li>
               <li>③ <strong>守る側の専門エンジニア志望</strong>：基礎の前段としては有効だが、上位は支援士を狙うべき</li>
             </ul>
           </div>
@@ -156,7 +156,7 @@ export default function InfoSecManagementCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: IPA 公式（ipa.go.jp、調査時点2026年6月）。受験料は全試験区分共通で7,500円（消費税込）。通年CBT方式で科目A・科目B合計60問・120分。合格率はIPA統計で令和5年度72.6%・令和6年度69.0%、2025年4〜7月の月次も概ね70%台で推移（メディア集計含む参考値）。基礎レベルのため取りやすい入口資格です。有効期限はなく、合格すれば資格は生涯有効です。
+            出典: IPA 公式（ipa.go.jp、調査時点2026年6月）。受験料は全試験区分共通で7,500円です（消費税込）。通年CBT方式で科目A・科目B合計60問・120分です。合格率はIPA統計で令和5年度72.6%・令和6年度69.0%、2025年4〜7月の月次も概ね70%台で推移しています（メディア集計含む参考値）。基礎レベルのため取りやすい入口資格です。有効期限はなく、合格すれば資格は生涯有効です。
           </p>
         </section>
 
@@ -204,10 +204,10 @@ export default function InfoSecManagementCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "利用部門の情報セキュリティリーダー", d: "部門の情報資産管理・リスクアセスメント・教育訓練を担う立場で、基礎の体系を客観証明できる。" },
-              { t: "委託先・外部サービスの管理担当", d: "委託先管理やクラウド利用時のセキュリティ確保など、利用者側の統制知識を示せる。" },
-              { t: "情シス・総務でのルール運用担当", d: "社内規程の目的・内容を理解し、運用・周知する役割の裏づけになる。" },
-              { t: "非専門職のセキュリティ素養の証明", d: "技術職でなくても、情報を安全に扱う基礎知識を備えていることを示せる。" },
+              { t: "利用部門の情報セキュリティリーダー", d: "部門の情報資産管理・リスクアセスメント・教育訓練を担う立場で、基礎の体系を客観証明できます。" },
+              { t: "委託先・外部サービスの管理担当", d: "委託先管理やクラウド利用時のセキュリティ確保など、利用者側の統制知識を示せます。" },
+              { t: "情シス・総務でのルール運用担当", d: "社内規程の目的・内容を理解し、運用・周知する役割の裏づけになります。" },
+              { t: "非専門職のセキュリティ素養の証明", d: "技術職でなくても、情報を安全に扱う基礎知識を備えていることを示せます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -228,13 +228,13 @@ export default function InfoSecManagementCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・脆弱性診断・対策設計・監査などの専門スキルの証明にはならない</li>
+              <li>・脆弱性診断・対策設計・監査などの専門スキルの証明にはなりません</li>
               <li>・守る側の専門職採用で重視されるのは実務経験と高度資格</li>
               <li>・専門性を示すなら支援士など上位資格へ進むのが効率的</li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            したがって、すでにセキュリティの専門性で勝負する30〜40代がSG取得だけを狙うのは費用対効果が高いとは言えません。専門職を目指すなら、<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>で土台を固め、<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>へ進むのが本道です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>でご確認ください。
+            したがって、すでにセキュリティの専門性を強みにする30〜40代がSG取得だけを狙うのは費用対効果が高いとは言えません。専門職を目指すなら、<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>で土台を固め、<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>へ進むのが本道です。資格全体の位置づけは<Link href="/cert/" className="text-petrol hover:underline">エンジニアの資格比較</Link>でご確認ください。
           </p>
         </section>
 
@@ -294,9 +294,9 @@ export default function InfoSecManagementCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／上位への道</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "科目A・科目Bを過去問で固める", d: "情報資産管理・リスクアセスメント・委託先管理など管理系の頻出を繰り返し演習する。" },
-              { n: "STEP 2", t: "通年CBTで都合に合わせ受験", d: "随時実施のCBTで日時を選んで申込み。基礎レベルのため短期集中で合格を狙いやすい。" },
-              { n: "STEP 3", t: "守る側へ進むなら上位資格へ", d: "専門職志望なら応用情報→情報処理安全確保支援士へ。管理職志望ならそのまま実務で活かす。" },
+              { n: "STEP 1", t: "科目A・科目Bを過去問で固める", d: "情報資産管理・リスクアセスメント・委託先管理など管理系の頻出を繰り返し演習します。" },
+              { n: "STEP 2", t: "通年CBTで都合に合わせ受験", d: "随時実施のCBTで日時を選んで申込み。基礎レベルのため短期集中で合格を狙いやすいです。" },
+              { n: "STEP 3", t: "守る側へ進むなら上位資格へ", d: "専門職志望なら応用情報→情報処理安全確保支援士へ。管理職志望ならそのまま実務で活かします。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -332,7 +332,7 @@ export default function InfoSecManagementCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">セキュリティ・IT管理職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            あなたの立場（管理する側／守る側）に合ったキャリアの方向性を、IT特化型エージェントで市場価値とともに確認しましょう。
+            ご自身の立場（管理する側／守る側）に合ったキャリアの方向性を、IT特化型エージェントで市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

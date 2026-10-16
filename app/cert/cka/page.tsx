@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "CKAは転職に効くか｜Kubernetes実務の加点資格と年収【2026年】";
 const PAGE_DESC =
-  "CNCF／Linux FoundationのCKA（Certified Kubernetes Administrator）を、コンテナ基盤の実務スキルを証明する加点資格という観点から30代・40代向けに解説。受験料445 USD、実技（CLI）形式、2年の有効期限、実務とセットで効く理由を限界も含めて整理します。";
+  "CNCF／Linux FoundationのCKA（Certified Kubernetes Administrator）を、コンテナ基盤の実務スキルを証明する加点資格という観点から30代・40代向けに解説します。受験料445 USD、実技（CLI）形式、2年の有効期限、実務と組み合わせて評価される理由を整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/cka/" },
@@ -99,7 +99,7 @@ export default function CkaCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          CKA（Certified Kubernetes Administrator）は、CNCF／Linux Foundationが認定する<strong>Kubernetes管理者向けの実技試験</strong>です。本記事は「CKAを取れば転職で有利になるか」という疑問に対し、<strong>知識の暗記ではなく『コンテナ基盤を実務で扱える』ことを直接証明する加点資格</strong>という性格を軸に、その価値を公式情報をもとに整理します。資格単体では年収は跳ねないという限界も正直にお伝えします。
+          CKA（Certified Kubernetes Administrator）は、CNCF／Linux Foundationが認定する<strong>Kubernetes管理者向けの実技試験</strong>です。本記事は「CKAを取れば転職で有利になるか」という疑問に対し、<strong>知識の暗記ではなく『コンテナ基盤を実務で扱える』ことを直接証明する加点資格</strong>という性格を軸に、その価値を公式情報をもとに整理します。資格単体では年収は跳ねないという留意点もご説明します。
         </p>
 
         <DataNote
@@ -107,7 +107,7 @@ export default function CkaCertPage() {
           sources={[
             "CNCF 公式（cncf.io）",
             "Linux Foundation 公式（training.linuxfoundation.org）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -133,9 +133,9 @@ export default function CkaCertPage() {
               CKAは<strong>「コンテナ基盤実務の加点資格」</strong>です。暗記型の知識資格とは性格が異なり、実際にクラスタを操作する実技試験であるため、すでにインフラ・DevOps経験のあるミドルが<strong>コンテナ基盤の専門性を直接証明する</strong>のに最も効きます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>インフラ・DevOps経験のある30〜40代</strong>：コンテナ基盤を扱える実技力の証明として加点される</li>
-              <li>② <strong>未経験のミドル</strong>：実技難度が高く入口には不向き。まずLinux・コンテナ基礎を固めるべき</li>
-              <li>③ <strong>クラウドネイティブを深めたい人</strong>：CKAD・CKSへの土台として体系化できる</li>
+              <li>① <strong>インフラ・DevOps経験のある30〜40代</strong>：コンテナ基盤を扱える実技力の証明として加点されます</li>
+              <li>② <strong>未経験のミドル</strong>：実技難度が高く入口には不向きです。まずLinux・コンテナ基礎を固めるべき</li>
+              <li>③ <strong>クラウドネイティブを深めたい人</strong>：CKAD・CKSへの土台として体系化できます</li>
             </ul>
           </div>
         </section>
@@ -156,7 +156,7 @@ export default function CkaCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: CNCF 公式（cncf.io）／Linux Foundation 公式（training.linuxfoundation.org、2026年6月時点）。受験料は試験のみで445 USD（標準価格）。試験はコマンドライン上で課題を解く実技（パフォーマンスベース）方式で、試験時間は2時間、オンラインのリモート監督で実施されます。受験パッケージには再試験1回とKiller.shのシミュレータ（各36時間）が含まれます。認定の有効期限は2年で、最新版試験への再合格で更新します。合格率はCNCFが公表していないため、当サイトでは数値を創作していません。
+            出典: CNCF 公式（cncf.io）／Linux Foundation 公式（training.linuxfoundation.org、2026年6月時点）。受験料は試験のみで445 USDです（標準価格）。試験はコマンドライン上で課題を解く実技（パフォーマンスベース）方式で、試験時間は2時間、オンラインのリモート監督で実施されます。受験パッケージには再試験1回とKiller.shのシミュレータ（各36時間）が含まれます。認定の有効期限は2年で、最新版試験への再合格で更新します。合格率はCNCFが公表していないため、当サイトでは数値を創作していません。
           </p>
         </section>
 
@@ -168,7 +168,7 @@ export default function CkaCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・CKA保有者限定の国内公的年収統計は<strong>存在しない（創作しない）</strong></li>
+              <li>・CKA保有者限定の国内公的年収統計は<strong>存在しません（当サイトでは推計値を作成していません）</strong></li>
               <li>・評価される領域：<strong>SRE・プラットフォームエンジニア・DevOpsなど需要の高い職種</strong></li>
               <li>・実態：<strong>年収は実務経験・役割で決まり、CKAは実技力の補強材</strong></li>
             </ul>
@@ -183,10 +183,10 @@ export default function CkaCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "コンテナ基盤の運用・構築ポジション", d: "実技試験を通過した事実が、クラスタの構築・運用・トラブルシュートを任せられる根拠になる。" },
-              { t: "DevOps・SREへの役割転換", d: "Kubernetesは現代の基盤運用の中核。CKAが基盤自動化・信頼性領域への移行を後押しする。" },
-              { t: "実技力の客観証明", d: "暗記ではなく実際の操作を問う試験のため、『手を動かせる』ことの信頼性が高い。" },
-              { t: "クラウドネイティブ案件への参画", d: "コンテナ前提のモダンな案件・チームで、共通言語としての認定が評価される。" },
+              { t: "コンテナ基盤の運用・構築ポジション", d: "実技試験を通過した事実が、クラスタの構築・運用・トラブルシュートを任せられる根拠になります。" },
+              { t: "DevOps・SREへの役割転換", d: "Kubernetesは現代の基盤運用の中核です。CKAが基盤自動化・信頼性領域への移行を後押しします。" },
+              { t: "実技力の客観証明", d: "暗記ではなく実際の操作を問う試験のため、『手を動かせる』ことの信頼性が高いです。" },
+              { t: "クラウドネイティブ案件への参画", d: "コンテナ前提のモダンな案件・チームで、共通言語としての認定が評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -204,9 +204,9 @@ export default function CkaCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "プラットフォームエンジニア", d: "社内の基盤プラットフォームをKubernetesで構築・運用する立場。CKAの実技力が信頼の裏付けになる。" },
-              { t: "SRE（サイト信頼性エンジニア）", d: "サービスの信頼性・運用自動化を担う立場。コンテナオーケストレーションの深い理解が活きる。" },
-              { t: "DevOps／インフラエンジニア", d: "CI/CDと基盤運用を横断する立場。コンテナ基盤の管理スキルが幅を広げる。" },
+              { t: "プラットフォームエンジニア", d: "社内の基盤プラットフォームをKubernetesで構築・運用する立場です。CKAの実技力が信頼の裏付けになります。" },
+              { t: "SRE（サイト信頼性エンジニア）", d: "サービスの信頼性・運用自動化を担う立場です。コンテナオーケストレーションの深い理解が活きます。" },
+              { t: "DevOps／インフラエンジニア", d: "CI/CDと基盤運用を横断する立場です。コンテナ基盤の管理スキルが幅を広げます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -251,10 +251,10 @@ export default function CkaCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>実技力の客観証明</strong>。実機操作を問う試験のため、「手を動かせる」ことを採用側に直接示せます。第二に<strong>クラウドネイティブ職への足がかり</strong>。SRE・プラットフォームエンジニアなど需要の高い職種への移行を後押しします。第三に<strong>CKAD・CKSへの土台</strong>。特にCKSはCKA合格が前提のため、セキュリティ特化へ進む布石になります。
+            活用戦略は3つに整理できます。第一に<strong>実技力の客観証明です</strong>。実機操作を問う試験のため、「手を動かせる」ことを採用側に直接示せます。第二に<strong>クラウドネイティブ職への足がかり</strong>。SRE・プラットフォームエンジニアなど需要の高い職種への移行を後押しします。第三に<strong>CKAD・CKSへの土台です</strong>。特にCKSはCKA合格が前提のため、セキュリティ特化へ進む布石になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。CKAは<strong>取得しても単体で年収が跳ねる資格ではありません</strong>。あくまで実際の運用経験を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また有効期限が2年と短く、Kubernetesのバージョン進化に合わせた再認定が必要です。逆に言えば、すでにインフラ・コンテナの現場経験があり基盤領域を深めたい30〜40代にとっては、投資する価値が明確な実技資格です。基礎が不安な場合は、まず<Link href="/skill/linux/" className="text-petrol hover:underline">Linux</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>でOS・基盤の土台を固めてから臨むのが堅実です。
+            注意すべきデメリットも押さえておきましょう。CKAは<strong>取得しても単体で年収が跳ねる資格ではありません</strong>。あくまで実際の運用経験を補強する位置づけで、効果が出るのは「経験 × 資格」の掛け算が成立したときです。また有効期限が2年と短く、Kubernetesのバージョン進化に合わせた再認定が必要です。逆に言えば、すでにインフラ・コンテナの現場経験があり基盤領域を深めたい30〜40代にとっては、投資する価値が明確な実技資格です。基礎が不安な場合は、まず<Link href="/skill/linux/" className="text-petrol hover:underline">Linux</Link>や<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>でOS・基盤の土台を固めてから臨むのが堅実です。
           </p>
         </section>
 
@@ -266,7 +266,7 @@ export default function CkaCertPage() {
               CKAは、暗記型の入口資格とは<strong>立ち位置が異なります</strong>。CKAは<strong>「すでに現場にいる経験者が、コンテナ基盤の実務力を客観的に証明するための加点装置」</strong>として最も効きます。実技試験であるため、インフラ・DevOps経験のある30〜40代にとって、自分のスキルを採用側に示しやすい資格です。
             </p>
             <p>
-              一方で過度な期待は禁物です。CKAを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。実際の運用・トラブルシュート経験と組み合わせて初めて、SRE・プラットフォーム職という形で結実します。さらに有効期限が2年と短いため、再認定の手間も前提に計画する必要があります。
+              一方で過度な期待は禁物です。CKAを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。実際の運用・トラブルシュート経験と組み合わせて初めて、SRE・プラットフォーム職という形で結実します。さらに有効期限が2年と短いため、再認定の手間も前提に計画する必要があります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -279,9 +279,9 @@ export default function CkaCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "Linux・コンテナの基礎を固める", d: "kubectlの前提となるLinux操作・Docker等のコンテナ基礎を押さえる。基盤経験者は短縮可能。" },
-              { n: "STEP 2", t: "実技演習を徹底反復", d: "Killer.shのシミュレータや実クラスタで課題を反復。公式ドキュメント参照に慣れることが鍵。" },
-              { n: "STEP 3", t: "合格→CKAD／CKSで専門化→2年更新", d: "合格後はCKAD・CKSへ専門化。有効期限2年を見据え、再認定の計画も立てる。" },
+              { n: "STEP 1", t: "Linux・コンテナの基礎を固める", d: "kubectlの前提となるLinux操作・Docker等のコンテナ基礎を押さえます。基盤経験者は短縮可能です。" },
+              { n: "STEP 2", t: "実技演習を徹底反復", d: "Killer.shのシミュレータや実クラスタで課題を反復します。公式ドキュメント参照に慣れることが鍵です。" },
+              { n: "STEP 3", t: "合格→CKAD／CKSで専門化→2年更新", d: "合格後はCKAD・CKSへ専門化します。有効期限2年を見据え、再認定の計画も立てます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -317,7 +317,7 @@ export default function CkaCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">コンテナ基盤・SRE職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            CKAを活かせるプラットフォーム・SRE求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            CKAを活かせるプラットフォーム・SRE求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

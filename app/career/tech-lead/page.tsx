@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/career/tech-lead/" },
   title: "テックリード転職ガイド｜シニアエンジニアからの移行ステップと職務経歴書",
   description:
-    "シニアエンジニアからテックリードへステップアップする方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文つきで解説します。",
+    "シニアエンジニアからテックリードへステップアップする方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文を交えて解説します。",
 };
 
 const toc = [
@@ -145,7 +145,7 @@ const faqs = [
 const related = [
   { name: "PM→CTO/VPoEキャリアパス", href: "/career/pm-to-cto/" },
   { name: "マネジメントしたくない人の転職", href: "/purpose/management-no/" },
-  { name: "年収UPしたいエンジニアの戦略", href: "/purpose/salary-up/" },
+  { name: "年収アップしたいエンジニアの戦略", href: "/purpose/salary-up/" },
   { name: "システム設計力の身につけ方", href: "/knowledge/system-design/" },
   { name: "技術面接の対策", href: "/knowledge/tech-interview/" },
   { name: "職務経歴書の書き方", href: "/knowledge/resume/" },
@@ -166,7 +166,7 @@ export default function TechLeadPage() {
     <>
       <ArticleJsonLd
         title="テックリード転職ガイド｜シニアエンジニアからの移行ステップと職務経歴書"
-        description="シニアエンジニアからテックリードへステップアップする方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文つきで解説します。"
+        description="シニアエンジニアからテックリードへステップアップする方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文を交えて解説します。"
         url="/career/tech-lead/"
       />
       <script
@@ -222,9 +222,9 @@ export default function TechLeadPage() {
               分かれ目は「個人の成果」だけでなく「チームの成果をどう引き上げたか」を示せるかどうかです。
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
-              <li>① 実装力は前提として、<strong>設計判断・意思決定・育成・折衝</strong>がギャップになりやすい</li>
-              <li>② 在職中に小さなチームや機能でリードを経験し、根拠ある意思決定を文書化する</li>
-              <li>③ 技術を続けながらチームを導けるポジションで、マネジメント完全移行を避けたい人に向く</li>
+              <li>① 実装力は前提として、<strong>設計判断・意思決定・育成・折衝</strong>がギャップになりやすいです</li>
+              <li>② 在職中に小さなチームや機能でリードを経験し、根拠ある意思決定を文書化します</li>
+              <li>③ 技術を続けながらチームを導けるポジションで、マネジメント完全移行を避けたい人に向きます</li>
             </ul>
           </div>
         </section>
@@ -308,13 +308,13 @@ export default function TechLeadPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（個人の実装成果だけの例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                バックエンドエンジニアとして、新規機能の設計・実装を担当。Go・AWSを用いてAPIを開発し、パフォーマンス改善やバグ修正を行った。コードレビューにも参加した。
+                バックエンドエンジニアとして、新規機能の設計・実装を担当します。Go・AWSを用いてAPIを開発し、パフォーマンス改善やバグ修正を行った。コードレビューにも参加しました。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（チームを引き上げた実績を主語にした例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                バックエンドチーム（〇名）の技術リードとして、新規機能の設計・実装に加え、システム全体のアーキテクチャ方針を策定。フレームワーク／インフラの技術選定を、事業要件とチームのスキルセットを踏まえて判断し、判断理由を設計ドキュメントとして残した。コードレビューでは設計改善と可読性向上の観点を重視し、レビュー基準をチームで標準化。ジュニア2名のメンタリング（1on1・ペアプロ）を担い、独力で機能をリリースできる水準まで育成。PdMとは技術的制約をビジネス言語で説明して優先度を合意した。
+                バックエンドチーム（〇名）の技術リードとして、新規機能の設計・実装に加え、システム全体のアーキテクチャ方針を策定します。フレームワーク／インフラの技術選定を、事業要件とチームのスキルセットを踏まえて判断し、判断理由を設計ドキュメントとして残しました。コードレビューでは設計改善と可読性向上の観点を重視し、レビュー基準をチームで標準化します。ジュニア2名のメンタリング（1on1・ペアプロ）を担い、独力で機能をリリースできる水準まで育成します。PdMとは技術的制約をビジネス言語で説明して優先度を合意しました。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
@@ -322,7 +322,7 @@ export default function TechLeadPage() {
               <ul className="space-y-1">
                 <li>・「実装した／参加した」→「方針を策定し・判断を主導した」とリードの動詞に変換</li>
                 <li>・技術選定の根拠・レビュー基準の標準化・育成・折衝など、チームへの貢献を具体化</li>
-                <li>・チーム人数・育成人数・合意形成の場面など、出せる範囲で規模感を添える</li>
+                <li>・チーム人数・育成人数・合意形成の場面など、出せる範囲で規模感を添えます</li>
               </ul>
             </div>
           </div>
@@ -351,17 +351,17 @@ export default function TechLeadPage() {
               {
                 name: "レバテックキャリア",
                 point:
-                  "IT/Web特化で高年収求人の比率が高く、技術に詳しいアドバイザーが在籍。技術力とリードの実績を正しく評価してもらいやすい環境です。",
+                  "IT/Web特化で高年収求人の比率が高く、技術に詳しいアドバイザーが在籍しています。技術力とリードの実績を正しく評価してもらいやすい環境です。",
               },
               {
                 name: "ビズリーチ",
                 point:
-                  "ハイクラス・スカウト型。年収750万円以上の定義でハイレンジ求人が中心。テックリード・スタッフエンジニア級の市場価値を客観把握できます。",
+                  "ハイクラス・スカウト型です。年収750万円以上の定義でハイレンジ求人が中心です。テックリード・スタッフエンジニア級の市場価値を客観把握できます。",
               },
               {
                 name: "doda ITエンジニア",
                 point:
-                  "国内最大級の求人数。検索・エージェント・スカウトのハイブリッド型で、幅広い企業のリードポジションを比較検討できます。",
+                  "国内最大級の求人数です。検索・エージェント・スカウトのハイブリッド型で、幅広い企業のリードポジションを比較検討できます。",
               },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -409,7 +409,7 @@ export default function TechLeadPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">テックリード転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            テックリードポジションに強いIT特化型エージェントが、あなたの実績に合う求人を提案します。
+            テックリードポジションに強いIT特化型エージェントが、ご自身の実績に合う求人を提案します。
           </p>
           <Link
             href="/#ranking"

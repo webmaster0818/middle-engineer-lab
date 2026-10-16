@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/powerbi/" },
   title: "Power BIエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Power BIスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の戦い方をミドル向けに整理します。",
+    "Power BIスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Power BIスキルの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：Power BIスキルの転職市場での進め方" },
   { id: "market", label: "2. 年収・市場データ（出典付き）" },
   { id: "use", label: "3. Power BIの用途と求人傾向" },
   { id: "level", label: "4. 求められる経験レベルと求人要件" },
@@ -70,7 +70,7 @@ export default function PowerBISkillPage() {
     <>
       <ArticleJsonLd
         title="Power BIエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Power BIスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の戦い方をミドル向けに整理します。"
+        description="Power BIスキルを持つエンジニアの転職市場を出典付きで解説。BI・データ可視化での用途、BIエンジニア・データアナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドル向けに整理します。"
         url="/skill/powerbi/"
       />
       <script
@@ -98,7 +98,7 @@ export default function PowerBISkillPage() {
             Power BIは、Microsoftが提供するBI（ビジネスインテリジェンス）ツールです。Excelとの親和性が高く、Microsoft 365やAzure、Microsoft Fabricと連携しやすいのが特徴で、経営ダッシュボードから社内レポーティングまで幅広く使われます。求人ではBIエンジニア・データアナリストといった職種の文脈で評価されるのが特徴です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、Power BIスキルを軸にした転職の「攻め方」を、<strong>公表年収データ・用途と求人傾向・求められる経験レベル・関連技術・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
+            本記事では、Power BIスキルを軸にした転職の「進め方」を、<strong>公表年収データ・用途と求人傾向・求められる経験レベル・関連技術・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
           </p>
         </section>
 
@@ -127,15 +127,15 @@ export default function PowerBISkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Power BIスキルの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Power BIスキルの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Power BIは「Excelの延長から入れる」一方、評価はビジネス課題を可視化に翻訳する力で決まります。</strong>ツールを触れるだけでなく、何を可視化しどんな意思決定につなげたかが問われます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Power BI単体の公表年収は乏しいため、<strong>BIエンジニア／データアナリスト等の職種年収で代替</strong>して捉えるのが実態</li>
-              <li>・Excel・SQLでの分析経験があれば、Power BI未経験でもポテンシャル採用の余地がある（移行ハードルは低め）</li>
-              <li>・<strong>SQL・DAX・Microsoft Fabric</strong>との掛け合わせで市場価値が上がる</li>
+              <li>・Excel・SQLでの分析経験があれば、Power BI未経験でもポテンシャル採用の余地があります（移行ハードルは低め）</li>
+              <li>・<strong>SQL・DAX・Microsoft Fabric</strong>との掛け合わせで市場価値が上がります</li>
             </ul>
           </div>
         </section>
@@ -183,8 +183,8 @@ export default function PowerBISkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { use: "経営・KPIダッシュボード", note: "経営指標の可視化。意思決定支援の中核" },
-              { use: "社内レポートの自動化", note: "Excel運用からの脱却・レポート自動化。事業会社で頻出" },
+              { use: "経営・KPIダッシュボード", note: "経営指標の可視化です。意思決定支援の中核" },
+              { use: "社内レポートの自動化", note: "Excel運用からの脱却・レポート自動化です。事業会社で頻出" },
               { use: "Power Query・DAXによるデータ整形", note: "Power Queryでの整形、DAXでの計算式作成" },
               { use: "Power BI Serviceでの社内共有", note: "Microsoft 365・Teamsと連携した配信・共有" },
             ].map((item, i) => (
@@ -222,9 +222,9 @@ export default function PowerBISkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "BIエンジニア", note: "BIダッシュボードの設計・運用。データソース整備とセットで担う" },
-              { role: "データアナリスト", note: "Power BIでの可視化＋分析。ビジネス課題への示唆出し" },
-              { role: "アナリティクスエンジニア", note: "SQL・データモデリング＋BI。データ基盤とBIの橋渡し" },
+              { role: "BIエンジニア", note: "BIダッシュボードの設計・運用です。データソース整備とセットで担います" },
+              { role: "データアナリスト", note: "Power BIでの可視化＋分析です。ビジネス課題への示唆出し" },
+              { role: "アナリティクスエンジニア", note: "SQL・データモデリング＋BIです。データ基盤とBIの橋渡し" },
               { role: "データ活用推進・社内コンサル", note: "可視化を通じた組織のデータドリブン化を推進" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -248,21 +248,21 @@ export default function PowerBISkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。BI・データ分析職の専門求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍しています。BI・データ分析職の専門求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                年収750万円以上を中心としたハイクラス・スカウト型。BIエンジニア・データアナリスト級の求人やスカウトに出会いやすいのが特徴です。
+                年収750万円以上を中心としたハイクラス・スカウト型です。BIエンジニア・データアナリスト級の求人やスカウトに出会いやすいのが特徴です。
               </p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で、提案スピードが強み。Power BIを採用するWeb系・データ活用企業の求人を探したい場合の選択肢になります。
+                IT・Web・ゲーム業界専門で、提案スピードが強みです。Power BIを採用するWeb系・データ活用企業の求人を探したい場合の選択肢になります。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -299,13 +299,13 @@ export default function PowerBISkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>ビジネス理解が年齢の不利を相殺する。</strong>BI・可視化は、ツールの操作よりも「事業の何を測れば意思決定が進むか」を理解している人が強い領域です。30代・40代で事業や業務を深く理解しているなら、それがそのまま武器になります。
+              <strong>ビジネス理解が年齢の不利を相殺します。</strong>BI・可視化は、ツールの操作よりも「事業の何を測れば意思決定が進むか」を理解している人が強い領域です。30代・40代で事業や業務を深く理解しているなら、それがそのまま強みになります。
             </p>
             <p>
-              <strong>掛け算で差別化する。</strong>「Power BI＋SQL／DAX」「Power BI＋過去のドメイン知識（製造・小売・金融など）」の掛け合わせがミドル層の強みです。可視化を業務知識と結びつけて語れると説得力が増します。
+              <strong>掛け算で差別化します。</strong>「Power BI＋SQL／DAX」「Power BI＋過去のドメイン知識（製造・小売・金融など）」の掛け合わせがミドル層の強みです。可視化を業務知識と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>データ活用推進の経験も資産になる。</strong>Excel運用からの脱却を主導し、組織のデータドリブンな文化づくりを後押しした経験は、ハイクラス求人で評価されます。教育や推進の実績があれば、技術力とセットで提示しましょう。
+              <strong>データ活用推進の経験も資産になります。</strong>Excel運用からの脱却を主導し、組織のデータドリブンな文化づくりを後押しした経験は、ハイクラス求人で評価されます。教育や推進の実績があれば、技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -318,13 +318,13 @@ export default function PowerBISkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 可視化の基本とPower Query・DAXを学ぶ。</strong>Power BI Desktopで実際にダッシュボードを作りながら、Power Queryでのデータ整形とDAXでの計算式という二つの核を押さえるのが近道です。Microsoft公式のラーニング教材が充実しています。
+              <strong>① 可視化の基本とPower Query・DAXを学びます。</strong>Power BI Desktopで実際にダッシュボードを作りながら、Power Queryでのデータ整形とDAXでの計算式という二つの核を押さえるのが近道です。Microsoft公式のラーニング教材が充実しています。
             </p>
             <p>
-              <strong>② SQLとデータモデリングを学ぶ。</strong>Power BIの裏にはデータソースがあります。SQLでデータを抽出し、スタースキーマなどのデータモデリングを理解すると、可視化の質と担当範囲が広がります。
+              <strong>② SQLとデータモデリングを学びます。</strong>Power BIの裏にはデータソースがあります。SQLでデータを抽出し、スタースキーマなどのデータモデリングを理解すると、可視化の質と担当範囲が広がります。
             </p>
             <p>
-              <strong>③ Microsoftエコシステムと分析設計を磨く。</strong>Azure・Microsoft Fabricとの連携や、「誰が見て何を判断するためのダッシュボードか」を起点にした分析設計は、ツールが変わっても通用します。データ統合と意思決定への翻訳力を意識しましょう。
+              <strong>③ Microsoftエコシステムと分析設計を磨きます。</strong>Azure・Microsoft Fabricとの連携や、「誰が見て何を判断するためのダッシュボードか」を起点にした分析設計は、ツールが変わっても通用します。データ統合と意思決定への翻訳力を意識しましょう。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -371,7 +371,7 @@ export default function PowerBISkillPage() {
               { name: "データアナリストの転職ガイド", href: "/skill/data-analyst/" },
               { name: "BigQueryエンジニアの転職ガイド", href: "/skill/bigquery/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

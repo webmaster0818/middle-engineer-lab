@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/rails/" },
   title: "Ruby on Railsの転職ガイド｜フレームワーク経験の活かし方と年収【2026年】",
   description:
-    "Webフレームワーク Ruby on Rails（Rails）に絞って転職市場を出典付きで解説。MVP高速開発・自社開発/スタートアップでのRails需要、他フレームワーク（Laravel/Django/Spring）からの参入ルート、30代・40代の戦い方を整理します。言語そのものはRubyエンジニアガイドも参照。",
+    "Webフレームワーク Ruby on Rails（Rails）に絞って転職市場を出典付きで解説。MVP高速開発・自社開発/スタートアップでのRails需要、他フレームワーク（Laravel/Django/Spring）からの参入ルート、30代・40代の進め方を整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Railsエンジニアの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：Railsエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Railsの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Railsエンジニアのキャリアパス" },
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "Railsエンジニアにおすすめの転職エージェントは？",
-    a: "スタートアップ・Web系のRails求人に強いGeekly、IT・Web特化で求人の質が高いレバテックキャリア、自社サービス企業と直接やり取りできる成功報酬型サイトのGreenが選択肢です。Railsは自社開発・スタートアップ求人が中心なので、ダイレクト型と仲介型を併用すると間口が広がります。",
+    a: "スタートアップ・Web系のRails求人に強いGeekly、IT・Web特化で求人の質が高いレバテックキャリア、自社サービス企業と直接やり取りできる成功報酬型サイトのGreenが選択肢です。Railsは自社開発・スタートアップ求人が中心であるため、ダイレクト型と仲介型を併用すると間口が広がります。",
   },
   {
     q: "Railsは将来性がありますか？",
@@ -69,7 +69,7 @@ export default function RailsSkillPage() {
     <>
       <ArticleJsonLd
         title="Ruby on Railsエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Ruby on Rails（Rails）エンジニアの転職市場を出典付きで解説。自社開発・スタートアップでのRails需要、paiza調査のRuby提示年収、他フレームワークからの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。"
+        description="Ruby on Rails（Rails）エンジニアの転職市場を出典付きで解説。自社開発・スタートアップでのRails需要、paiza調査のRuby提示年収、他フレームワークからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/rails/"
       />
       <script
@@ -97,7 +97,7 @@ export default function RailsSkillPage() {
             Ruby on Rails（Rails）はRubyで書かれたWebアプリケーションフレームワークで、<strong>MVPの高速開発</strong>に強みを持ち、スタートアップや自社サービス企業のWeb開発で広く採用されています。「設定より規約」の思想により、少人数でも素早くサービスを立ち上げられるのが特徴です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、フレームワークとしてのRailsを軸に、Railsエンジニア転職の「攻め方」を<strong>公表年収データ・求められる経験レベル・求人の探し方・他フレームワークからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。言語全体の市場は<Link href="/skill/ruby/" className="text-petrol hover:underline">Rubyエンジニアの転職ガイド</Link>もあわせてご覧ください。
+            本記事では、フレームワークとしてのRailsを軸に、Railsエンジニア転職の「進め方」を<strong>公表年収データ・求められる経験レベル・求人の探し方・他フレームワークからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。言語全体の市場は<Link href="/skill/ruby/" className="text-petrol hover:underline">Rubyエンジニアの転職ガイド</Link>もあわせてご覧ください。
           </p>
         </section>
 
@@ -124,15 +124,15 @@ export default function RailsSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Railsエンジニアの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Railsエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Railsは自社開発・スタートアップへの入口として強いフレームワークです。</strong>MVP開発の生産性を武器に、自社サービス企業のWeb開発に的を絞るのが効率的です。
+              <strong>Railsは自社開発・スタートアップへの入口として強いフレームワークです。</strong>MVP開発の生産性を強みに、自社サービス企業のWeb開発に的を絞るのが効率的です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・記述言語Rubyはpaiza 2025年調査で提示年収<strong>3位（平均689万円）</strong>と高水準</li>
               <li>・Laravel／Django／Springなど他フレームワークのWeb開発経験があれば、Railsへの移行はスムーズ</li>
-              <li>・Railsは<strong>フロントエンドやインフラ・スケール経験との掛け合わせ</strong>で市場価値が高まる</li>
+              <li>・Railsは<strong>フロントエンドやインフラ・スケール経験との掛け合わせ</strong>で市場価値が高まります</li>
             </ul>
           </div>
         </section>
@@ -174,7 +174,7 @@ export default function RailsSkillPage() {
         <section id="level" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Rails求人は「Rails経験そのもの」を必須にするものと、「Web開発経験＋Railsは入社後キャッチアップ可」とするものに分かれます。求人票によく登場する要件を傾向としてまとめると次の通りです。
+            Rails求人は「Rails経験そのもの」を必須にするものと、「Web開発経験＋Railsは入社後キャッチアップ可」とするものに分かれます。求人票によく登場する要件を傾向としてまとめると次のとおりです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -198,10 +198,10 @@ export default function RailsSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "Webアプリエンジニア（自社開発）", note: "RailsでのSaaS・Webサービス開発が中心。求人の最も多いゾーン" },
+              { role: "Webアプリエンジニア（自社開発）", note: "RailsでのSaaS・Webサービス開発が中心です。求人の最も多いゾーン" },
               { role: "フルスタック（Rails＋フロント）", note: "Rails＋React等で、サービスを一気通貫で開発" },
               { role: "テックリード／アーキテクト", note: "Rails基盤の設計＋スケール対応＋技術選定" },
-              { role: "フリーランス（Rails案件）", note: "自社開発・受託のWebアプリ案件。MVP開発の速さが評価される" },
+              { role: "フリーランス（Rails案件）", note: "自社開発・受託のWebアプリ案件です。MVP開発の速さが評価されます" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -223,21 +223,21 @@ export default function RailsSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で提案スピードが強み。Railsを採用するスタートアップ・自社開発の求人を探したい場合の選択肢になります。
+                IT・Web・ゲーム業界専門で提案スピードが強みです。Railsを採用するスタートアップ・自社開発の求人を探したい場合の選択肢になります。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で求人の質が高く、技術に踏み込んで話せるアドバイザーが在籍。Railsを含む自社開発求人の提案に向きます。
+                IT・Web特化で求人の質が高く、技術に踏み込んで話せるアドバイザーが在籍しています。Railsを含む自社開発求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Green（ダイレクト型・自社開発）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                自社サービス企業と直接やり取りできる成功報酬型サイト。Railsを採用する自社開発企業に直接応募したい場合の選択肢です。
+                自社サービス企業と直接やり取りできる成功報酬型サイトです。Railsを採用する自社開発企業に直接応募したい場合の選択肢です。
               </p>
               <Link href="/review/green/" className="text-sm text-petrol hover:underline">Greenの詳細レビュー →</Link>
             </div>
@@ -272,13 +272,13 @@ export default function RailsSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>自社開発への入口として有効。</strong>RailsはSESや受託から自社開発へ移りたいミドル層にとって、現実的な選択肢です。30代・40代でWeb開発の実務を積んでいるなら、その設計経験を土台にRailsへ寄せることで、自社サービス企業への転職が狙えます。
+              <strong>自社開発への入口として有効です。</strong>RailsはSESや受託から自社開発へ移りたいミドル層にとって、現実的な選択肢です。30代・40代でWeb開発の実務を積んでいるなら、その設計経験を土台にRailsへ寄せることで、自社サービス企業への転職が狙えます。
             </p>
             <p>
-              <strong>掛け算で差別化する。</strong>Rails単体より「Rails＋フロントエンド」「Rails＋インフラ・スケール経験」「Rails＋特定ドメイン（決済・予約など）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、Railsという実装手段と結びつけて語れると説得力が増します。
+              <strong>掛け算で差別化します。</strong>Rails単体より「Rails＋フロントエンド」「Rails＋インフラ・スケール経験」「Rails＋特定ドメイン（決済・予約など）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、Railsという実装手段と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>マネジメント経験も資産になる。</strong>テックリードやアーキテクトのRails求人では、実装力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのRails求人では、実装力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -290,13 +290,13 @@ export default function RailsSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 規約（CoC）を体に馴染ませる。</strong>Railsは「設定より規約」の思想が強く、命名規約やディレクトリ構成に沿うことが生産性の源です。公式ガイドに沿ってアプリを作り、Railsの流儀を身につけるのが習得の近道です。
+              <strong>① 規約（CoC）を体に馴染ませます。</strong>Railsは「設定より規約」の思想が強く、命名規約やディレクトリ構成に沿うことが生産性の源です。公式ガイドに沿ってアプリを作り、Railsの流儀を身につけるのが習得の近道です。
             </p>
             <p>
-              <strong>② Active Recordとテストを深める。</strong>Active RecordによるDB操作とRSpec等のテストはRails実務の中心です。N+1問題の回避やマイグレーション設計まで含めて経験すると、面接で語れる実力になります。
+              <strong>② Active Recordとテストを深めます。</strong>Active RecordによるDB操作とRSpec等のテストはRails実務の中心です。N+1問題の回避やマイグレーション設計まで含めて経験すると、面接で語れる実力になります。
             </p>
             <p>
-              <strong>③ フロントエンド・インフラを掛け合わせる。</strong>React等のフロントや、AWS・コンテナでのデプロイ・スケール経験を積むと、フルスタック・テックリード級の求人に手が届きます。Rails単体に閉じず周辺を広げるのが、市場価値を高める鍵です。
+              <strong>③ フロントエンド・インフラを掛け合わせます。</strong>React等のフロントや、AWS・コンテナでのデプロイ・スケール経験を積むと、フルスタック・テックリード級の求人に手が届きます。Rails単体に閉じず周辺を広げるのが、市場価値を高める鍵です。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -322,7 +322,7 @@ export default function RailsSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Railsのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Rails求人は自社開発・スタートアップが中心。ダイレクト型とIT特化型エージェントを併用して保有求人を横断比較するのが近道です。
+            Rails求人は自社開発・スタートアップが中心です。ダイレクト型とIT特化型エージェントを併用して保有求人を横断比較するのが近道です。
           </p>
           <Link
             href="/#ranking"
@@ -341,7 +341,7 @@ export default function RailsSkillPage() {
               { name: "TypeScriptエンジニアの転職ガイド", href: "/skill/typescript/" },
               { name: "Reactエンジニアの転職ガイド", href: "/skill/react/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

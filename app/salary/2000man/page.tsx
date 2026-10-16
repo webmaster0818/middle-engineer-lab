@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const toc = [
   { id: "conclusion", label: "結論：年収2000万円の位置づけと現実" },
   { id: "position", label: "年収2000万円はITSS最上位平均をはるかに超える帯" },
-  { id: "jobtag", label: "公的データとの距離（限界の説明）" },
+  { id: "jobtag", label: "公的データとの距離（掲載範囲の説明）" },
   { id: "jobs", label: "2000万円に届く座（ごく一握り）" },
   { id: "trend", label: "2000万円求人の傾向と『ごく一部』である現実" },
   { id: "route", label: "2000万円への現実的なルート" },
@@ -28,7 +28,7 @@ const toc = [
 const route = [
   {
     title: "報酬テーブルが最上位の市場（外資トップIT・経営層）に立つ",
-    desc: "2000万円は、外資系トップIT（GAFAM級）の上位エンジニア・マネージャー、または企業の経営層（CTO等）でなければ届きにくい水準です。国内一般企業の給与体系の延長では、ほぼ到達しないと正直にお伝えします。",
+    desc: "2000万円は、外資系トップIT（GAFAM級）の上位エンジニア・マネージャー、または企業の経営層（CTO等）でなければ届きにくい水準です。国内一般企業の給与体系の延長では、ほぼ到達しないとご説明します。",
   },
   {
     title: "経営の一翼を担う、または世界レベルの代替不能の専門家になる",
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "2000万円はどんな人が到達していますか？",
-    a: "外資系トップIT企業（GAFAM級）のシニア／スタッフ／プリンシパルエンジニアや上位マネージャー、企業のCTO・VPoE、AI・大規模分散・セキュリティ等で世界的に取り合われるトップスペシャリスト、共同創業者・事業のキーパーソンなどです。いずれも報酬テーブルが最上位の環境に、代替の利かない実力や事業当事者として入っている層で、エンジニア全体のごく一握りに過ぎない点は正直にお伝えします。",
+    a: "外資系トップIT企業（GAFAM級）のシニア／スタッフ／プリンシパルエンジニアや上位マネージャー、企業のCTO・VPoE、AI・大規模分散・セキュリティ等で世界的に取り合われるトップスペシャリスト、共同創業者・事業のキーパーソンなどです。いずれも報酬テーブルが最上位の環境に、代替の利かない実力や事業当事者として入っている層で、エンジニア全体のごく一握りに過ぎない点はご説明します。",
   },
   {
     q: "国内の一般的な企業で2000万円は狙えますか？",
@@ -135,7 +135,7 @@ export default function Salary2000Page() {
               年収2000万円は、ITSSの最上位区分L6・7の平均1,129.9万円を<strong>約1.8倍上回る</strong>、公的なレベル別平均では到底捉えられない頂点クラスの水準です。到達者は、外資系トップITの上位職・CTO/VPoE・世界レベルのトップスペシャリスト・事業当事者など、<strong>ごく一握り</strong>に限られます。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              この帯で決定的なのは、もはや「給与の延長」ではなく、<strong>技術経営の頂点に立つ・世界レベルの代替不能の専門家になる・事業の当事者になる</strong>といった立場の変化です。加えて総報酬（株式報酬込み）での設計が前提になります。率直に言って、誰もが目指して届く帯ではありません。容易ではないと正直に理解したうえで、長期かつ立場の転換を伴う目標として捉えるべき水準です。
+              この帯で決定的なのは、もはや「給与の延長」ではなく、<strong>技術経営の頂点に立つ・世界レベルの代替不能の専門家になる・事業の当事者になる</strong>といった立場の変化です。加えて総報酬（株式報酬込み）での設計が前提になります。率直に言って、誰もが目指して届く帯ではありません。容易ではないと正確に理解したうえで、長期かつ立場の転換を伴う目標として捉えるべき水準です。
             </p>
           </div>
         </section>
@@ -159,12 +159,12 @@ export default function Salary2000Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L5</td>
                   <td className="px-4 py-3 border border-slate-200">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層。900万円帯</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層です。900万円帯</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L6・7</td>
                   <td className="px-4 py-3 border border-slate-200">1,129.9万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">最上位の平均。2000万円はこの約1.8倍</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">最上位の平均です。2000万円はこの約1.8倍</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">2000万円</td>
@@ -181,7 +181,7 @@ export default function Salary2000Page() {
 
         {/* 公的データとの距離 */}
         <section id="jobtag" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">公的データとの距離（限界の説明）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">公的データとの距離（掲載範囲の説明）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             厚生労働省 job tag（令和7年）の高年収職種（基盤システムSE・PM・ITコンサルなど）はいずれも約889万円の区分値で、公的な職種別平均の中心は900万円前後までです。2000万円は、これらの公表値の<strong>2倍以上</strong>に位置し、職種別の「平均」という枠組みでは説明できない水準です。
           </p>
@@ -201,19 +201,19 @@ export default function Salary2000Page() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">外資系トップITの上位エンジニア／マネージャー</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">GAFAM級のスタッフ／プリンシパル相当や上位マネージャー。総報酬（株式報酬込み）で2000万円超に届く、最上位の座です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">GAFAM級のスタッフ／プリンシパル相当や上位マネージャーです。総報酬（株式報酬込み）で2000万円超に届く、最上位の座です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">CTO・VPoE（技術経営層）</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">技術組織と技術経営に責任を負う頂点の座。上場・成長企業では、株式報酬を含め2000万円帯に達します。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">技術組織と技術経営に責任を負う頂点の座です。上場・成長企業では、株式報酬を含め2000万円帯に達します。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">世界レベルのトップスペシャリスト</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">AI・大規模分散・暗号/セキュリティ等で世界的に取り合われる専門家。代替不能の希少性が、頂点クラスの報酬を生みます。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">AI・大規模分散・暗号/セキュリティ等で世界的に取り合われる専門家です。代替不能の希少性が、頂点クラスの報酬を生みます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">共同創業者・事業のキーパーソン</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">雇用された給与ではなく、株式・成果報酬で報われる立場。リスクと引き換えに報酬の上限が外れる選択肢です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">雇用された給与ではなく、株式・成果報酬で報われる立場です。リスクと引き換えに報酬の上限が外れる選択肢です。</p>
             </div>
           </div>
         </section>
@@ -226,7 +226,7 @@ export default function Salary2000Page() {
               2000万円帯の機会は、<strong>外資トップIT・経営層ポジション・世界レベルの専門職・事業当事者</strong>にほぼ限られます。多くは公募ではなくヘッドハンティングや経営層ネットワーク、あるいは創業・参画という形で生まれ、求人票として表に出ること自体が稀です。報酬も基本給ではなく総報酬で構成されます。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              正直に言えば、2000万円は<strong>エンジニアのごく一部</strong>が、技術力だけでなく経営・事業・市場のタイミングを味方につけて到達する頂点の水準です。「努力すれば誰でも届く」性質の帯ではありません。だからこそ、目標にする場合は、立場の転換（経営層・世界レベル専門家・事業当事者）を伴う長期戦として、現実を誠実に見据えて設計することが大切です。
+              実際には、2000万円は<strong>エンジニアのごく一部</strong>が、技術力だけでなく経営・事業・市場のタイミングを味方につけて到達する頂点の水準です。「努力すれば誰でも届く」性質の帯ではありません。だからこそ、目標にする場合は、立場の転換（経営層・世界レベル専門家・事業当事者）を伴う長期戦として、現実を誠実に見据えて設計することが大切です。
             </p>
           </div>
         </section>
@@ -267,7 +267,7 @@ export default function Salary2000Page() {
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            年代別の相場や汎用的な年収UP戦略は、
+            年代別の相場や汎用的な年収アップ戦略は、
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
             ・
             <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収アップを目指す転職ガイド</Link>
@@ -297,7 +297,7 @@ export default function Salary2000Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">最上位帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハイクラス・外資に強いスカウト型エージェントに登録して、あなたの市場価値と上位求人を確認しましょう。
+            ハイクラス・外資に強いスカウト型エージェントに登録して、ご自身の市場価値と上位求人を確認しましょう。
           </p>
           <Link
             href="/#ranking"

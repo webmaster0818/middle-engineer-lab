@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Redisスキルで転職｜年収・求人・将来性【2026年】";
 const PAGE_DESC =
-  "Redis（インメモリDB／KVS）スキルを軸にした転職市場を出典付きで解説。Redisは単体スキルではなくバックエンド・インフラの実務基盤として評価される点を整理。求人ボックス公表のデータベース／インフラエンジニア年収、求人傾向、30代・40代の戦い方をミドルエンジニア向けにまとめます。";
+  "Redis（インメモリDB／KVS）スキルを軸にした転職市場を出典付きで解説。Redisは単体スキルではなくバックエンド・インフラの実務基盤として評価される点を整理します。求人ボックス公表のデータベース／インフラエンジニア年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/redis/" },
@@ -143,9 +143,9 @@ export default function RedisSkillPage() {
               <strong>Redisは「これ単体で転職する」スキルではなく、パフォーマンス設計力としてバックエンド／インフラ職の市場価値を底上げする実務基盤です。</strong>キャッシュ・セッション・キューといった用途の設計判断を掛け合わせることで、高負荷サービスを扱える人材として評価されます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Redis単体の職種別年収は公表が乏しく、<strong>データベース約453万円・インフラ約475万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握する</li>
-              <li>・求人では「キャッシュ設計」「高負荷サービスのパフォーマンス改善」「セッション・キューでの利用」の文脈で問われる</li>
-              <li>・Redis＋バックエンド開発、＋インフラ運用の掛け合わせで、SRE／高トラフィック領域に手が届く</li>
+              <li>・Redis単体の職種別年収は公表が乏しく、<strong>データベース約453万円・インフラ約475万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握します</li>
+              <li>・求人では「キャッシュ設計」「高負荷サービスのパフォーマンス改善」「セッション・キューでの利用」の文脈で問われます</li>
+              <li>・Redis＋バックエンド開発、＋インフラ運用の掛け合わせで、SRE／高トラフィック領域に手が届きます</li>
             </ul>
           </div>
         </section>
@@ -183,7 +183,7 @@ export default function RedisSkillPage() {
         <section id="level" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Redisに関する要件は「キャッシュとして使ったことがある」レベルから「大規模サービスのRedis基盤を設計・運用できる」レベルまで幅があります。求人票によく登場する要件を傾向としてまとめると次の通りです。
+            Redisに関する要件は「キャッシュとして使ったことがある」レベルから「大規模サービスのRedis基盤を設計・運用できる」レベルまで幅があります。求人票によく登場する要件を傾向としてまとめると次のとおりです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -208,9 +208,9 @@ export default function RedisSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "バックエンドエンジニア（性能設計込み）", note: "アプリ開発＋キャッシュ・性能設計を担当。高負荷サービスで重宝される" },
-              { role: "SRE／インフラエンジニア", note: "Redis基盤の可用性・スケール設計を担う。高トラフィック領域で需要" },
-              { role: "データ基盤エンジニア", note: "Redisを起点に、キューやストリーム処理など基盤領域へ広げる" },
+              { role: "バックエンドエンジニア（性能設計込み）", note: "アプリ開発＋キャッシュ・性能設計を担当します。高負荷サービスで重宝されます" },
+              { role: "SRE／インフラエンジニア", note: "Redis基盤の可用性・スケール設計を担います。高トラフィック領域で需要" },
+              { role: "データ基盤エンジニア", note: "Redisを起点に、キューやストリーム処理など基盤領域へ広げます" },
               { role: "パフォーマンスエンジニア", note: "キャッシュ戦略・負荷対策でサービス全体のレスポンスを改善" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -234,7 +234,7 @@ export default function RedisSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。高負荷サービスのバックエンド・インフラ求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍しています。高負荷サービスのバックエンド・インフラ求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
@@ -248,7 +248,7 @@ export default function RedisSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で、提案スピードが強み。高トラフィックなWeb系・ゲーム企業の求人を探したい場合の選択肢です。
+                IT・Web・ゲーム業界専門で、提案スピードが強みです。高トラフィックなWeb系・ゲーム企業の求人を探したい場合の選択肢です。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -263,7 +263,7 @@ export default function RedisSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">経験浅めからRedis実務に入るルート</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "既存の開発／インフラ経験を土台にする", desc: "バックエンド開発やインフラ運用の経験があれば、それを土台に「キャッシュやセッションをRedisで設計できる」ことを示せます。Redisは要件の一部なので、関連スキルとセットで応募余地が生まれます。" },
+              { num: "1", title: "既存の開発／インフラ経験を土台にする", desc: "バックエンド開発やインフラ運用の経験があれば、それを土台に「キャッシュやセッションをRedisで設計できる」ことを示せます。Redisは要件の一部であるため、関連スキルとセットで応募余地が生まれます。" },
               { num: "2", title: "個人開発でRedisを用途別に組み込む", desc: "キャッシュ・セッションストア・レートリミット・ランキングなど、用途ごとにRedisを組み込んだ経験を作ります。TTLや無効化、メモリ不足時の挙動をどう設計したかを語れる状態にしておくと評価につながります。" },
               { num: "3", title: "高負荷サービスのバックエンド／SRE求人を狙う", desc: "高トラフィックを扱う企業では、性能設計の経験者が求められます。エージェントに「キャッシュ・性能設計の経験を伸ばしたい」と伝え、Redisを要件に含む求人を紹介してもらうのが近道です。" },
             ].map((item, i) => (
@@ -285,13 +285,13 @@ export default function RedisSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>性能設計の判断力が武器になる。</strong>「どこにキャッシュを入れ、どう無効化するか」は経験が物を言う領域です。30代・40代でパフォーマンス問題に向き合ってきたなら、その判断の引き出しが若手にはない強みになります。
+              <strong>性能設計の判断力が強みになります。</strong>「どこにキャッシュを入れ、どう無効化するか」は経験が物を言う領域です。30代・40代でパフォーマンス問題に向き合ってきたなら、その判断の引き出しが若手にはない強みになります。
             </p>
             <p>
-              <strong>掛け算で差別化する。</strong>Redis単体より「Redis＋バックエンド開発」「Redis＋インフラ運用」の掛け合わせが強みです。高負荷サービスの設計・運用経験と結びつけて語れると、ミドル層ならではの説得力が出ます。
+              <strong>掛け算で差別化します。</strong>Redis単体より「Redis＋バックエンド開発」「Redis＋インフラ運用」の掛け合わせが強みです。高負荷サービスの設計・運用経験と結びつけて語れると、ミドル層ならではの説得力が出ます。
             </p>
             <p>
-              <strong>障害対応の経験は希少。</strong>キャッシュ起因の障害、メモリ枯渇、フェイルオーバーといったトラブルへの対応経験は、求人市場で高く評価されます。具体的なエピソードを定量で語れるよう準備しておきましょう。
+              <strong>障害対応の経験は希少です。</strong>キャッシュ起因の障害、メモリ枯渇、フェイルオーバーといったトラブルへの対応経験は、求人市場で高く評価されます。具体的なエピソードを定量で語れるよう準備しておきましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -304,13 +304,13 @@ export default function RedisSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① データ型と用途を結びつけて学ぶ。</strong>String・Hash・List・Set・Sorted Setの各データ型を、キャッシュ・ランキング・キューといった具体的な用途と紐づけて理解します。「どの用途にどの型を使うか」を語れると実務力が伝わります。
+              <strong>① データ型と用途を結びつけて学びます。</strong>String・Hash・List・Set・Sorted Setの各データ型を、キャッシュ・ランキング・キューといった具体的な用途と紐づけて理解します。「どの用途にどの型を使うか」を語れると実務力が伝わります。
             </p>
             <p>
-              <strong>② RDBとの併用を前提に設計する。</strong>RedisはRDBの前段に置くキャッシュとして使われることが多く、<Link href="/skill/sql/" className="text-petrol hover:underline">SQL／データベース</Link>の理解があるとキャッシュ戦略の設計が的確になります。一貫性とパフォーマンスのトレードオフを語れるようにしましょう。
+              <strong>② RDBとの併用を前提に設計します。</strong>RedisはRDBの前段に置くキャッシュとして使われることが多く、<Link href="/skill/sql/" className="text-petrol hover:underline">SQL／データベース</Link>の理解があるとキャッシュ戦略の設計が的確になります。一貫性とパフォーマンスのトレードオフを語れるようにしましょう。
             </p>
             <p>
-              <strong>③ 運用・周辺領域へ広げる。</strong>コンテナでの運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドサービス（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link> ElastiCache等）、レプリケーション・クラスタ構成まで広げると、SRE／インフラ寄りの高年収求人に手が届きます。
+              <strong>③ 運用・周辺領域へ広げます。</strong>コンテナでの運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドサービス（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link> ElastiCache等）、レプリケーション・クラスタ構成まで広げると、SRE／インフラ寄りの高年収求人に手が届きます。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -357,7 +357,7 @@ export default function RedisSkillPage() {
               { name: "Apache Kafkaスキルの転職ガイド", href: "/skill/kafka/" },
               { name: "インフラエンジニアの転職ガイド", href: "/skill/infrastructure/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

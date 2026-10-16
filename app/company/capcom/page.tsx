@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/capcom/" },
   title: "カプコンの年収は平均985万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "カプコンへのエンジニア転職を実データで解説。有価証券報告書の平均年収985万円（2026年3月期・単体全社員平均）、内製エンジンRE ENGINE中心のC++技術スタック、選考フロー、30代40代の現実までまとめました。",
+    "カプコンへのエンジニア転職を実データで解説します。有価証券報告書の平均年収985万円（2026年3月期・単体全社員平均）、内製エンジンRE ENGINE中心のC++技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -88,7 +88,7 @@ export default function CapcomCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="カプコン エンジニア転職ガイド" description="カプコンへのエンジニア転職を実データで解説。有価証券報告書の平均年収985万円（2026年3月期・単体全社員平均）、内製エンジンRE ENGINE中心のC++技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/capcom/" />
+      <ArticleJsonLd title="カプコン エンジニア転職ガイド" description="カプコンへのエンジニア転職を実データで解説します。有価証券報告書の平均年収985万円（2026年3月期・単体全社員平均）、内製エンジンRE ENGINE中心のC++技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/capcom/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "カプコン" }]} />
 
@@ -100,7 +100,7 @@ export default function CapcomCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】カプコンの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社カプコンの平均年間給与は985万円です（2026年3月期 有価証券報告書・提出会社単体／全社員平均、平均年齢38.1歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 985万円（2026年3月期 有報・単体全社員平均）。技術職に限らない全社平均です。</li><li>・業績連動型報酬を背景に2021年3月期603万円から2026年3月期985万円へと5年で380万円上昇（各期 有報）。</li><li>・持株会社を介さず上場会社自身が開発するため有報の数字が現場像に比較的近い一方、提示は等級・ポジションで幅があり個別求人でご確認ください。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 985万円です（2026年3月期 有価証券報告書・単体全社員平均）。技術職に限らない全社平均です。</li><li>・業績連動型報酬を背景に2021年3月期603万円から2026年3月期985万円へと5年で380万円上昇です（各期 有価証券報告書）。</li><li>・持株会社を介さず上場会社自身が開発するため有価証券報告書の数字が現場像に比較的近い一方、提示は等級・ポジションで幅があり個別求人でご確認ください。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -119,12 +119,12 @@ export default function CapcomCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              カプコンは<strong>内製エンジン「RE ENGINE」を軸にC++で大規模ゲームを開発する、技術志向の強いゲーム企業</strong>です。レンダリング・物理・AI・サーバー等、専門領域ごとに採用しており、専門性で勝負したいエンジニアに向きます。業績好調を背景に平均年収は5年で380万円上昇しています（単体全社員平均985万円・2026年3月期）。
+              カプコンは<strong>内製エンジン「RE ENGINE」を軸にC++で大規模ゲームを開発する、技術志向の強いゲーム企業</strong>です。レンダリング・物理・AI・サーバー等、専門領域ごとに採用しており、専門性を強みにしたいエンジニアに向きます。業績好調を背景に平均年収は5年で380万円上昇しています（単体全社員平均985万円・2026年3月期）。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：C/C++での実務経験があり、エンジン・レンダリング・サーバー等の専門性を深めたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：Web系のモダンスタックやフルリモート前提を強く希望する人</li>
-              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢はハンデになりにくい</li>
+              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢はハンデになりにくいです</li>
             </ul>
           </div>
         </section>
@@ -154,7 +154,7 @@ export default function CapcomCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2026年3月期 有価証券報告書に基づく提出会社（単体）の全社員平均値。技術スタックは公式採用ページ（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2026年3月期 有価証券報告書に基づく提出会社（単体）の全社員平均値。技術スタックは公式採用ページです（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -178,7 +178,7 @@ export default function CapcomCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            カプコンは公式採用情報で、内製エンジンRE ENGINEを中心とした開発体制を紹介しています。主な要素は以下の通りです。配属領域により使用技術は異なります。
+            カプコンは公式採用情報で、内製エンジンRE ENGINEを中心とした開発体制を紹介しています。主な要素は以下のとおりです。配属領域により使用技術は異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -216,7 +216,7 @@ export default function CapcomCompanyPage() {
           </div>
           <p className="text-xs text-slate-400 mb-4">出典: カプコン 有価証券報告書（各年3月期）。いずれも技術職に限らない<strong>提出会社（単体）の全社員平均</strong>の平均年間給与です。エンジニア個人の年収は等級・ポジションにより異なります。</p>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-sm text-amber-900">
-            <p className="leading-relaxed">表の金額は技術職に限らない全社員平均で、営業・管理部門も含みます。エンジニア職の提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。カプコンは持株会社を介さず上場会社自身が開発を行うため、有報の数字が現場像に比較的近いのが特徴です。</p>
+            <p className="leading-relaxed">表の金額は技術職に限らない全社員平均で、営業・管理部門も含みます。エンジニア職の提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。カプコンは持株会社を介さず上場会社自身が開発を行うため、有価証券報告書の数字が現場像に比較的近いのが特徴です。</p>
           </div>
         </section>
 
@@ -267,9 +267,9 @@ export default function CapcomCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">カプコン転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。ゲーム企業の求人も扱い、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。ゲーム業界の実務経験者への提案に強い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。ゲーム企業の求人も扱い、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。ゲーム業界の実務経験者への提案に強いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

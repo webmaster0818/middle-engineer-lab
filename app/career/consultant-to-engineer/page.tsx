@@ -8,16 +8,16 @@ export const metadata: Metadata = {
   alternates: { canonical: "/career/consultant-to-engineer/" },
   title: "ITコンサルからエンジニアへの転職｜進め方とスキルギャップ",
   description:
-    "ITコンサルタントからエンジニアへの転職活動の進め方を、スキルギャップ比較表・学習ロードマップ・職務経歴書のBefore/After例文付きで解説。30代40代の現実的なルートも紹介します。",
+    "ITコンサルタントからエンジニアへの転職活動の進め方を、スキルギャップ比較表・学習ロードマップ・職務経歴書のBefore/After例文付きで解説します。30代40代の現実的なルートも紹介します。",
 };
 
 const TITLE = "ITコンサルからエンジニアへの転職｜進め方とスキルギャップ";
 const DESC =
-  "ITコンサルタントからエンジニアへの転職活動の進め方を、スキルギャップ比較表・学習ロードマップ・職務経歴書のBefore/After例文付きで解説。30代40代の現実的なルートも紹介します。";
+  "ITコンサルタントからエンジニアへの転職活動の進め方を、スキルギャップ比較表・学習ロードマップ・職務経歴書のBefore/After例文付きで解説します。30代40代の現実的なルートも紹介します。";
 const URL = "/career/consultant-to-engineer/";
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と攻め方" },
+  { id: "conclusion", label: "結論：現実性と進め方" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -114,19 +114,19 @@ const agents = [
   {
     name: "レバテックキャリア",
     point:
-      "IT/Web特化。技術力を評価する求人が多く、コンサル出身でPdM・テックリード寄りを狙う際の主力にしやすい。書類添削や面接対策が丁寧との声がQiitaJobChange等で見られます。",
+      "IT/Web特化です。技術力を評価する求人が多く、コンサル出身でPdM・テックリード寄りを狙う際の主力にしやすいです。書類添削や面接対策が丁寧との声がQiitaJobChange等で見られます。",
     href: "/review/levtech/",
   },
   {
     name: "ビズリーチ",
     point:
-      "ハイクラス・スカウト型。テックリードやEMといった年収を維持しやすいポジションのスカウトが届きやすく、市場価値の把握にも使えます。",
+      "ハイクラス・スカウト型です。テックリードやEMといった年収を維持しやすいポジションのスカウトが届きやすく、市場価値の把握にも使えます。",
     href: "/review/bizreach-it/",
   },
   {
     name: "リクルートエージェント（IT）",
     point:
-      "国内最大級の求人数。大手からスタートアップまで網羅し、未経験要素のある転職でも選択肢を広く確保できます（IT公開求人110,840件・2026年5月22日時点・二次集計）。",
+      "国内最大級の求人数です。大手からスタートアップまで網羅し、未経験要素のある転職でも選択肢を広く確保できます（IT公開求人110,840件・2026年5月22日時点・二次集計）。",
     href: "/review/recruit-it/",
   },
 ];
@@ -161,7 +161,7 @@ const faqs = [
     a: "在職中の活動を推奨します。学習と並行するため期間が長くなりやすく、収入を確保しながら成果物を作る方が精神的にも条件交渉でも有利です。",
   },
   {
-    q: "コーディングテストが不安。対策は？",
+    q: "コーディングテストが不安です。対策は？",
     a: "基本的なアルゴリズムと、普段使う言語での実装速度を上げる練習が中心です。コンサルで培った論点整理力は、問題の要件分解にそのまま活きます。",
   },
 ];
@@ -238,12 +238,12 @@ export default function ConsultantToEngineerPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">
-              結論：上流寄りポジションなら強い。最低限の実装力は必須
+              結論：上流寄りポジションなら強いです。最低限の実装力は必須
             </h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・要件定義力・推進力・折衝力はPdM／テックリード寄りで高評価。コンサル経験は武器になる。</li>
-              <li>・ギャップが大きいのは「実装経験」。1言語でアプリを作り切る学習とポートフォリオが鍵。</li>
-              <li>・職務経歴書は『資料を作った』から『システムをどう定義し実現したか』へ書き換える。</li>
+              <li>・要件定義力・推進力・折衝力はPdM／テックリード寄りで高評価です。コンサル経験は強みになります。</li>
+              <li>・ギャップが大きいのは「実装経験」。1言語でアプリを作り切る学習とポートフォリオが鍵です。</li>
+              <li>・職務経歴書は『資料を作った』から『システムをどう定義し実現したか』へ書き換えます。</li>
             </ul>
           </div>
         </section>
@@ -315,24 +315,24 @@ export default function ConsultantToEngineerPage() {
         <section id="resume" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">職務経歴書での見せ方（Before/After例文）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            コンサルの職務経歴書は「資料・提案・推進」が中心になりがちですが、エンジニア選考では「システムをどう定義し、技術でどう実現したか」を語る形が刺さります。書き換え例を示します。
+            コンサルの職務経歴書は「資料・提案・推進」が中心になりがちですが、エンジニア選考では「システムをどう定義し、技術でどう実現したか」を語る形が評価されます。書き換え例を示します。
           </p>
           <div className="space-y-4">
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（提案・推進の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                製造業クライアントの基幹システム刷新プロジェクトに参画。要件定義の取りまとめと進捗管理を担当し、ベンダー選定の提案資料を作成。経営層への報告を実施。
+                製造業クライアントの基幹システム刷新プロジェクトに参画します。要件定義の取りまとめと進捗管理を担当し、ベンダー選定の提案資料を作成します。経営層への報告を実施します。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（要件→技術実現＋自走した開発成果）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                基幹システム刷新で業務要件をデータモデルとAPI仕様へ落とし込み、PoCとしてTypeScript/Next.jsで在庫照会機能を自作・デプロイ。要件定義の経験を活かしモジュール境界を設計し、ベンダーと技術的な実現性を合意形成した。個人開発でCRUDアプリを公開（GitHub）。
+                基幹システム刷新で業務要件をデータモデルとAPI仕様へ落とし込み、PoCとしてTypeScript/Next.jsで在庫照会機能を自作・デプロイです。要件定義の経験を活かしモジュール境界を設計し、ベンダーと技術的な実現性を合意形成しました。個人開発でCRUDアプリを公開しています（GitHub）。
               </p>
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※数値・技術は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>を参照。
+            ※数値・技術は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>をご参照ください。
           </p>
         </section>
 

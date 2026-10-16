@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/sansan/" },
   title: "Sansanの年収は平均780万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "Sansan（4443）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収780万円(2025年5月期)、Bill Oneの技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",
+    "Sansan（4443）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収780万円(2025年5月期)、Bill Oneの技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",
 };
 
 const toc = [
@@ -16,7 +16,7 @@ const toc = [
   { id: "basic", label: "基本データ（企業概要・出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
-  { id: "salary", label: "年収データ（有報）" },
+  { id: "salary", label: "年収データ（有価証券報告書）" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
   { id: "review", label: "口コミ・評判の傾向" },
@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     q: "Sansanの技術スタックは？",
-    a: "Sansan Tech Blogや公開資料によると、プロダクトにより異なります。例えばBill One開発ではバックエンドにKotlin/Ktor、フロントエンドにTypeScript/React、インフラにGCP（Cloud Run等）、DBにPostgreSQL（Cloud SQL）を採用。主力の「Sansan」はRuby on Railsが中心です。名刺のデジタル化ではOCR・画像処理・機械学習も活用されています。",
+    a: "Sansan Tech Blogや公開資料によると、プロダクトにより異なります。例えばBill One開発ではバックエンドにKotlin/Ktor、フロントエンドにTypeScript/React、インフラにGCP（Cloud Run等）、DBにPostgreSQL（Cloud SQL）を採用します。主力の「Sansan」はRuby on Railsが中心です。名刺のデジタル化ではOCR・画像処理・機械学習も活用されています。",
   },
   {
     q: "Sansanの選考フローは？",
@@ -76,7 +76,7 @@ const faqs = [
   },
   {
     q: "Sansanは体育会系の文化と聞きましたが？",
-    a: "OpenWorkのクチコミでは、営業組織は数字志向で体育会系的な雰囲気があるという声がある一方、エンジニア組織はフラットでメンバーの提案も取り込まれやすいという評価が見られます。組織・職種によって雰囲気は異なるため、カジュアル面談で実態を確認するとよいでしょう。",
+    a: "OpenWorkの口コミでは、営業組織は数字志向で体育会系的な雰囲気があるという声がある一方、エンジニア組織はフラットでメンバーの提案も取り込まれやすいという評価が見られます。組織・職種によって雰囲気は異なるため、カジュアル面談で実態を確認するとよいでしょう。",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function SansanCompanyPage() {
     <>
       <ArticleJsonLd
         title="Sansan エンジニア転職ガイド"
-        description="Sansanへのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収780万円(2025年5月期)、技術スタック、選考フロー、口コミ傾向まで。"
+        description="Sansanへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収780万円(2025年5月期)、技術スタック、選考フロー、口コミ傾向まで。"
         url="/company/sansan/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -109,7 +109,7 @@ export default function SansanCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Sansanの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Sansan株式会社の全社員平均年収は780万円です（2025年5月期 有価証券報告書・平均年齢31.7歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 780万円（2025年5月期 有報）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・直近5年で621万円（2021年5月期）から780万円（2025年5月期）へ大きく上昇（各期 有報）。</li><li>・職種・等級別の公式な年収表は非公開。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 780万円です（2025年5月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・直近5年で621万円（2021年5月期）から780万円（2025年5月期）へ大きく上昇しています（各期 有価証券報告書）。</li><li>・職種・等級別の公式な年収表は非公開です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -142,11 +142,11 @@ export default function SansanCompanyPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：Rails/Kotlinの実務経験があり、複数プロダクトで技術の幅を広げたいエンジニア向き。難易度は中程度。</p>
+            <p className="font-bold text-blue-900 mb-3">結論：Rails/Kotlinの実務経験があり、複数プロダクトで技術の幅を広げたいエンジニア向きです。難易度は中程度です。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li className="flex gap-2"><span className="shrink-0">1.</span>「Sansan」「Bill One」など複数プロダクトで異なる技術課題に取り組め、社内異動でキャリアの幅を広げやすい。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は780万円（2025年5月期 有報）で、直近5年で大きく上昇。SaaS業界では上位の水準。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>OCR・画像処理・機械学習を扱う領域もあり、ML/データ系のバックグラウンドを持つミドルにも選択肢が広い。</li>
+              <li className="flex gap-2"><span className="shrink-0">1.</span>「Sansan」「Bill One」など複数プロダクトで異なる技術課題に取り組め、社内異動でキャリアの幅を広げやすいです。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は780万円（2025年5月期 有価証券報告書）で、直近5年で大きく上昇します。SaaS業界では上位の水準です。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>OCR・画像処理・機械学習を扱う領域もあり、ML/データ系のバックグラウンドを持つミドルにも選択肢が広いです。</li>
             </ul>
           </div>
         </section>
@@ -175,7 +175,7 @@ export default function SansanCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マルチプロダクト戦略による技術的多様性</h3>
-              <p className="text-sm text-petrol-deep">「Sansan」「Bill One」「Contract One」「Eight」と複数プロダクトを展開。各プロダクトで異なる技術課題（言語・基盤も異なる）に取り組め、社内異動によってキャリアの幅を広げられます。急成長中のBill Oneなど、新規プロダクトの立ち上げ・拡大フェーズに関わるチャンスもあります。</p>
+              <p className="text-sm text-petrol-deep">「Sansan」「Bill One」「Contract One」「Eight」と複数プロダクトを展開しています。各プロダクトで異なる技術課題（言語・基盤も異なる）に取り組め、社内異動によってキャリアの幅を広げられます。急成長中のBill Oneなど、新規プロダクトの立ち上げ・拡大フェーズに関わるチャンスもあります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">OCR・画像処理・機械学習の活用</h3>
@@ -215,10 +215,10 @@ export default function SansanCompanyPage() {
         </section>
 
         <section id="salary" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有報）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有価証券報告書）</h2>
           <p className="text-slate-700 text-sm leading-relaxed mb-4">
             Sansanは上場企業のため、有価証券報告書に全社員の平均年間給与が記載されています。<strong>これは全社員平均であり、エンジニア職に限った数値ではありません。</strong>
-            職種・等級別の公式な年収表は公開されていないため、ここでは有報の推移のみを掲載します。
+            職種・等級別の公式な年収表は公開されていないため、ここでは有価証券報告書の推移のみを掲載します。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -240,7 +240,7 @@ export default function SansanCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mb-4">出典: Sansan株式会社 有価証券報告書（各期）。直近5年で621万円→780万円へ上昇。</p>
+          <p className="text-xs text-slate-400 mb-4">出典: Sansan株式会社 有価証券報告書（各期）。直近5年で621万円→780万円へ上昇します。</p>
           <p className="text-slate-700 text-sm leading-relaxed">
             参考として、IT・通信業界の転職者の平均決定年収は486万円（パーソルキャリア「decision年収レポート」2024年度・2025年5月公表）であり、Sansanの全社員平均はこれを大きく上回ります。
             個別のエンジニア求人の提示額はスキル評価で個別決定されるため、本ページでは確認できる出典のない等級別レンジは掲載していません。実際の提示額は求人票またはエージェント経由でご確認ください。
@@ -254,11 +254,11 @@ export default function SansanCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["カジュアル面談（任意）", "Sansanで働くことに興味がある人向けに随時実施。活躍する人物像や働き方を確認できる。"],
-              ["書類選考", "職務経歴を提出。"],
-              ["技術試験（ポジションにより実施）", "エンジニア職・クリエイター職はポジションによって技術試験を実施。"],
-              ["面接（3回程度）", "基本1時間。オンライン/来社を希望に合わせて調整可。アーキテクチャ設計やコードレビューの議論、カルチャーフィットの確認が行われる。"],
-              ["内定", "選考期間は平均1ヶ月程度（希望により調整可）。"],
+              ["カジュアル面談（任意）", "Sansanで働くことに興味がある人向けに随時実施です。活躍する人物像や働き方を確認できます。"],
+              ["書類選考", "職務経歴を提出します。"],
+              ["技術試験（ポジションにより実施）", "エンジニア職・クリエイター職はポジションによって技術試験を実施します。"],
+              ["面接（3回程度）", "基本1時間です。オンライン/来社を希望に合わせて調整可です。アーキテクチャ設計やコードレビューの議論、カルチャーフィットの確認が行われます。"],
+              ["内定", "選考期間は平均1ヶ月程度です（希望により調整可）。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -278,10 +278,10 @@ export default function SansanCompanyPage() {
             公式採用ページ・技術本部採用情報などの公開情報から読み取れる傾向です。質問文の再現や断定は避け、評価観点として整理します。
           </p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>アーキテクチャ設計・コードレビューに関する議論への対応力。</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>「出会いからイノベーションを生み出す」というミッションへの共感・カルチャーフィット。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>アーキテクチャ設計・コードレビューに関する議論への対応力です。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>「出会いからイノベーションを生み出す」というミッションへの共感・カルチャーフィットです。</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Rails/Kotlin等での設計・実装力と、技術選定の意図を説明できるか。</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ML系ポジションでは画像処理・OCR・機械学習の知識と実装経験。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ML系ポジションでは画像処理・OCR・機械学習の知識と実装経験です。</li>
           </ul>
           <p className="text-sm text-slate-600 mt-4">
             面接全般の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策ガイド</Link>、コーディングテスト対策は<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト攻略</Link>を参考にしてください。
@@ -318,7 +318,7 @@ export default function SansanCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たSansan</h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              Sansanは東証プライム上場のBtoB SaaSで、全社員平均年収は780万円（2025年5月期 有報）と直近5年で大きく上昇しています。30代・40代にとっては、上場企業の安定感と、複数プロダクトを横断して技術の幅を広げられる環境を両立できるのが魅力です。Bill OneのようにKotlin/GCPでゼロから設計されたプロダクトもあり、モダンな技術での挑戦も可能です。
+              Sansanは東証プライム上場のBtoB SaaSで、全社員平均年収は780万円（2025年5月期 有価証券報告書）と直近5年で大きく上昇しています。30代・40代にとっては、上場企業の安定感と、複数プロダクトを横断して技術の幅を広げられる環境を両立できるのが魅力です。Bill OneのようにKotlin/GCPでゼロから設計されたプロダクトもあり、モダンな技術での挑戦も可能です。
             </p>
             <p>
               平均年齢31.7歳と若い組織のため、40代はシニア寄りの立ち位置になります。アーキテクチャ設計やコードレビューの議論が選考で重視されることからも、設計力・レビュー力・チームをリードした経験を持つミドルが評価されやすいでしょう。OCR・画像処理・機械学習を扱う領域もあるため、データ/ML系のバックグラウンドを持つ30代・40代にも選択肢が広いのが特徴です。
@@ -336,9 +336,9 @@ export default function SansanCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">Sansan転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高い。BtoB SaaS企業の求人に強く、書類添削・面接対策に定評。" },
-              { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイト。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすい。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが強みで、BtoB SaaS企業への転職実績が豊富。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。BtoB SaaS企業の求人に強く、書類添削・面接対策に定評があります。" },
+              { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイトです。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすいです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、BtoB SaaS企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

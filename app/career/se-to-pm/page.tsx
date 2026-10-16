@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：PMはミドルSEの王道キャリア" },
+  { id: "conclusion", label: "結論：PMはミドルSEの代表的なキャリア" },
   { id: "gap", label: "SEとPMのスキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -110,7 +110,7 @@ const transitionSteps = [
 const faqs = [
   {
     q: "SEからプロジェクトマネージャー（PM）への移行は可能？",
-    a: "可能です。SEの王道キャリアの一つで、上流工程（要件定義・設計）や技術判断の経験はそのままPMの土台になります。ギャップになりやすいのはQCDの全体管理、予算・契約・体制管理、顧客・経営との折衝です。在職中にサブリーダーやリードを経験し、チーム単位の進捗管理の実績を作ることが鍵になります。",
+    a: "可能です。SEの代表的なキャリアの一つで、上流工程（要件定義・設計）や技術判断の経験はそのままPMの土台になります。ギャップになりやすいのはQCDの全体管理、予算・契約・体制管理、顧客・経営との折衝です。在職中にサブリーダーやリードを経験し、チーム単位の進捗管理の実績を作ることが鍵になります。",
   },
   {
     q: "SEとPMの違いは何？",
@@ -186,7 +186,7 @@ export default function SeToPmPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          システムエンジニア（SE）からプロジェクトマネージャー（PM）への移行は、ミドルSEの王道キャリアパスの一つです。要件定義・設計・技術判断の経験はそのままPMの土台になり、技術が分かるPMは現場の信頼を得やすいという強みもあります。一方で、QCDの全体管理、予算・契約・体制管理、顧客・経営との折衝は新たに担う領域です。このページでは、現実性、スキルギャップ、在職中の準備、職務経歴書の書き方までを具体的に解説します。
+          システムエンジニア（SE）からプロジェクトマネージャー（PM）への移行は、ミドルSEの代表的なキャリアパスの一つです。要件定義・設計・技術判断の経験はそのままPMの土台になり、技術が分かるPMは現場の信頼を得やすいという強みもあります。一方で、QCDの全体管理、予算・契約・体制管理、顧客・経営との折衝は新たに担う領域です。このページでは、現実性、スキルギャップ、在職中の準備、職務経歴書の書き方までを具体的に解説します。
         </p>
 
         <DataNote
@@ -212,16 +212,16 @@ export default function SeToPmPage() {
         </nav>
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PMはミドルSEの王道キャリア</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PMはミドルSEの代表的なキャリア</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>SEからPMへの移行は、30代・40代の王道キャリアパスの一つです。</strong>
+              <strong>SEからPMへの移行は、30代・40代の代表的なキャリアパスの一つです。</strong>
               上流工程と技術判断の経験がそのまま土台になるため、ミドルSEの蓄積が活きやすい移行です。
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
-              <li>① 要件定義・設計・技術判断は<strong>そのままPMの強み</strong>になり、技術が分かるPMは現場の信頼を得やすい</li>
+              <li>① 要件定義・設計・技術判断は<strong>そのままPMの強み</strong>になり、技術が分かるPMは現場の信頼を得やすいです</li>
               <li>② ギャップになりやすいのは<strong>QCDの全体管理・予算/契約/体制管理・顧客/経営との折衝</strong></li>
-              <li>③ 在職中にサブリーダーやリードを経験し、チーム単位の進捗・課題管理の実績を作ることが成否を分ける</li>
+              <li>③ 在職中にサブリーダーやリードを経験し、チーム単位の進捗・課題管理の実績を作ることが成否を分けます</li>
             </ul>
           </div>
         </section>
@@ -312,21 +312,21 @@ export default function SeToPmPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（担当工程の記述に閉じている例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                業務システムの開発プロジェクトにて、要件定義書をもとに詳細設計と実装、テストを担当した。進捗会議に参加し、自分の作業状況を報告した。
+                業務システムの開発プロジェクトにて、要件定義書をもとに詳細設計と実装、テストを担当しました。進捗会議に参加し、自分の作業状況を報告しました。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（プロジェクト推進を主語にした例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                業務システム開発（〇名規模・期間〇ヶ月）で、要件定義から携わりサブリーダーを担当。担当チーム〇名の進捗・課題を管理し、遅延リスクを早期に検知してタスクの再配分で納期を維持。顧客との仕様調整にも参加し、変更要望の影響範囲を整理して合意形成に貢献。品質面ではレビュー観点を整備し、手戻りを削減した。
+                業務システム開発（〇名規模・期間〇ヶ月）で、要件定義から携わりサブリーダーを担当します。担当チーム〇名の進捗・課題を管理し、遅延リスクを早期に検知してタスクの再配分で納期を維持します。顧客との仕様調整にも参加し、変更要望の影響範囲を整理して合意形成に貢献します。品質面ではレビュー観点を整備し、手戻りを削減しました。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
               <p className="font-bold text-slate-700 mb-2">改善のポイント</p>
               <ul className="space-y-1">
-                <li>・「担当した」→「進捗・品質・課題をどう管理し、プロジェクトをどう前に進めたか」を書く</li>
-                <li>・遅延リスクの検知・対応、顧客との合意形成など、PM的な動きを具体化する</li>
-                <li>・チーム規模・期間・手戻り削減など、出せる範囲で定量を添える（数値は実績に合わせて記載）</li>
+                <li>・「担当した」→「進捗・品質・課題をどう管理し、プロジェクトをどう前に進めたか」を書きます</li>
+                <li>・遅延リスクの検知・対応、顧客との合意形成など、PM的な動きを具体化します</li>
+                <li>・チーム規模・期間・手戻り削減など、出せる範囲で定量を添えます（数値は実績に合わせて記載）</li>
               </ul>
             </div>
           </div>
@@ -360,17 +360,17 @@ export default function SeToPmPage() {
               {
                 name: "レバテックキャリア",
                 point:
-                  "IT/Web特化で技術に詳しいアドバイザーが在籍。高年収求人の比率が高いと公表されており、PM・マネジメント系ポジションの相談に向きます。",
+                  "IT/Web特化で技術に詳しいアドバイザーが在籍しています。高年収求人の比率が高いと公表されており、PM・マネジメント系ポジションの相談に向きます。",
               },
               {
                 name: "ビズリーチ",
                 point:
-                  "ハイクラス・スカウト型。年収750万円以上の定義でハイレンジ求人が中心。経験を登録するとPM求人のスカウトで市場価値を客観的に把握できます。",
+                  "ハイクラス・スカウト型です。年収750万円以上の定義でハイレンジ求人が中心です。経験を登録するとPM求人のスカウトで市場価値を客観的に把握できます。",
               },
               {
                 name: "doda ITエンジニア",
                 point:
-                  "国内最大級の求人数で、検索・エージェント・スカウトのハイブリッド型。幅広い企業のPM求人を比較検討したい場合に有効です。",
+                  "国内最大級の求人数で、検索・エージェント・スカウトのハイブリッド型です。幅広い企業のPM求人を比較検討したい場合に有効です。",
               },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -418,7 +418,7 @@ export default function SeToPmPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">PM転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            PMポジションに強いIT特化型エージェントが、あなたのSE経験を活かせる求人を提案します。
+            PMポジションに強いIT特化型エージェントが、ご自身のSE経験を活かせる求人を提案します。
           </p>
           <Link
             href="/#ranking"

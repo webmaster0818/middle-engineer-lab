@@ -109,7 +109,7 @@ const transitionSteps = [
 
 const faqs = [
   {
-    q: "SESから自社開発への転職は人気だけど難しい？",
+    q: "SESから自社開発への転職は人気ですが、難しいのでしょうか？",
     a: "人気のルートですが、選考では主体性とポートフォリオが問われやすく、相応の準備が必要です。SESは守秘義務で業務成果を外に出しにくいため、個人開発をGitHubで公開し、技術選定の理由を自分の言葉で語れる状態を作ることが、選考突破の鍵になります。",
   },
   {
@@ -219,9 +219,9 @@ export default function SesToJigyoPage() {
               鍵になるのは、守秘義務で外に出せない業務成果の代わりに、公開できる技術力の証明を用意できるかどうかです。
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
-              <li>① SESは守秘義務で<strong>業務成果を示しにくい</strong>ため、個人開発のポートフォリオが実質必須に近い</li>
-              <li>② 選考では<strong>『なぜ作るか・どう改善するか』を自分で考えた主体性</strong>が重視される</li>
-              <li>③ 一方で<strong>複数現場での適応力・キャッチアップの速さ</strong>はSESならではの強みになる</li>
+              <li>① SESは守秘義務で<strong>業務成果を示しにくい</strong>ため、個人開発のポートフォリオが実質必須に近いです</li>
+              <li>② 選考では<strong>『なぜ作るか・どう改善するか』を自分で考えた主体性</strong>が重視されます</li>
+              <li>③ 一方で<strong>複数現場での適応力・キャッチアップの速さ</strong>はSESならではの強みになります</li>
             </ul>
           </div>
         </section>
@@ -314,21 +314,21 @@ export default function SesToJigyoPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（案件の羅列になっている例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                金融系システムの開発案件にて、Javaでの実装とテストを担当。別の案件では、保守運用を担当した。客先の指示に従って作業を進めた。
+                金融系システムの開発案件にて、Javaでの実装とテストを担当します。別の案件では、保守運用を担当しました。客先の指示に従って作業を進めました。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（主体性とポートフォリオを示す例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                複数業界（金融・小売等）のシステム開発に従事し、異なる技術スタックへ短期間でキャッチアップして成果を出してきた。直近の案件では、手作業のデプロイ手順をチームに提案してCI/CDの一部自動化を主導。並行して個人開発でGo＋Next.jsのWebアプリを構築し、技術選定の理由をREADMEに記載してGitHubで公開（自走での設計・実装・デプロイを証明）。
+                複数業界（金融・小売等）のシステム開発に従事し、異なる技術スタックへ短期間でキャッチアップして成果を出してきた。直近の案件では、手作業のデプロイ手順をチームに提案してCI/CDの一部自動化を主導します。並行して個人開発でGo＋Next.jsのWebアプリを構築し、技術選定の理由をREADMEに記載してGitHubで公開しています（自走での設計・実装・デプロイを証明）。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
               <p className="font-bold text-slate-700 mb-2">改善のポイント</p>
               <ul className="space-y-1">
-                <li>・複数現場の経験を『適応力・キャッチアップ力』という強みに変換する</li>
-                <li>・改善提案や自動化など、自分起点の動き（主体性）を具体的に書く</li>
-                <li>・守秘義務で示せない業務成果の代わりに、公開ポートフォリオで技術力を証明する</li>
+                <li>・複数現場の経験を『適応力・キャッチアップ力』という強みに変換します</li>
+                <li>・改善提案や自動化など、自分起点の動き（主体性）を具体的に書きます</li>
+                <li>・守秘義務で示せない業務成果の代わりに、公開ポートフォリオで技術力を証明します</li>
               </ul>
             </div>
           </div>
@@ -362,17 +362,17 @@ export default function SesToJigyoPage() {
               {
                 name: "レバテックキャリア",
                 point:
-                  "IT/Web特化で技術に詳しいアドバイザーが在籍。自社開発・モダン技術の求人に強みがあり、ポートフォリオを軸にした相談がしやすいサービスです。",
+                  "IT/Web特化で技術に詳しいアドバイザーが在籍しています。自社開発・モダン技術の求人に強みがあり、ポートフォリオを軸にした相談がしやすいサービスです。",
               },
               {
                 name: "Green",
                 point:
-                  "成功報酬型の転職サイトで、IT/Webベンチャー・自社開発企業に強み。カジュアル面談から始められるため、在職中の情報収集に向きます。",
+                  "成功報酬型の転職サイトで、IT/Webベンチャー・自社開発企業に強みがあります。カジュアル面談から始められるため、在職中の情報収集に向きます。",
               },
               {
                 name: "doda ITエンジニア",
                 point:
-                  "国内最大級の求人数で、検索・エージェント・スカウトのハイブリッド型。幅広い自社開発企業を比較検討したい場合に有効です。",
+                  "国内最大級の求人数で、検索・エージェント・スカウトのハイブリッド型です。幅広い自社開発企業を比較検討したい場合に有効です。",
               },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -420,7 +420,7 @@ export default function SesToJigyoPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">自社開発への転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            自社開発に強いIT特化型エージェントが、あなたの経験とポートフォリオに合う企業を提案します。
+            自社開発に強いIT特化型エージェントが、ご自身の経験とポートフォリオに合う企業を提案します。
           </p>
           <Link
             href="/#ranking"

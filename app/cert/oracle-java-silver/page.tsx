@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Oracle認定Javaプログラマ Silverは転職に効くか｜Java実務の体系証明【2026年】";
 const PAGE_DESC =
-  "Oracle認定JavaプログラマSilver（OCJP Silver SE）を、30代・40代向けに解説。受験料・試験形式・有効期限なし、Java実務の体系的理解の証明としての価値、年収の考え方を公式情報をもとに限界も含めて整理します。";
+  "Oracle認定JavaプログラマSilver（OCJP Silver SE）を、30代・40代向けに解説します。受験料・試験形式・有効期限なし、Java実務の体系的理解の証明としての価値、年収の考え方を公式情報をもとに留意点も含めて整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/oracle-java-silver/" },
@@ -41,11 +41,11 @@ const faqs = [
   },
   {
     q: "Java Silverの合格率はどのくらいですか？",
-    a: "Oracleは合格率を公表していません。当サイトでは創作した数値を載せず、非公表である事実をそのままお伝えします。合格ラインは63%と公開されており、出題80問・180分の選択式です。Javaの細かな文法・挙動を正確に問う設問が多く、実務経験者でも対策が必要とされます（Oracle、2026年6月時点）。",
+    a: "Oracleは合格率を公表していません。当サイトでは創作した数値は掲載せず、非公表である事実をそのままお伝えします。合格ラインは63%と公開されており、出題80問・180分の選択式です。Javaの細かな文法・挙動を正確に問う設問が多く、実務経験者でも対策が必要とされます（Oracle、2026年6月時点）。",
   },
   {
     q: "SilverとGoldはどちらを取るべきですか？",
-    a: "現在地と目的で決めます。Java実務がこれから／基礎を体系化したい人はSilverから。すでにJavaで一定の開発経験があり、中級以上の実装力を示したい人はGoldが適しています。GoldはSilverの認定が前提条件となるため、Silver→Goldの順で進むのが王道です。Gold側は当サイトのGoldガイドも参照してください。",
+    a: "現在地と目的で決めます。Java実務がこれから／基礎を体系化したい人はSilverから。すでにJavaで一定の開発経験があり、中級以上の実装力を示したい人はGoldが適しています。GoldはSilverの認定が前提条件となるため、Silver→Goldの順で進むのが一般的です。Gold側は当サイトのGoldガイドも参照してください。",
   },
   {
     q: "Java SilverとJava実務経験はどちらが評価されますか？",
@@ -102,14 +102,14 @@ export default function OracleJavaSilverCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          Oracle認定Javaプログラマ Silver（OCJP Silver SE）は、Javaの<strong>文法・オブジェクト指向・例外処理といった基本構文の体系的な理解を証明する</strong>資格です。本記事は「Java Silverを取れば転職で有利になるか」という疑問に対し、<strong>独学で得た知識の抜けを埋め、体系的に理解していることを示す</strong>という観点から、実務での評価や有効期限なしという特徴を公式情報とともに整理します。資格単体では年収は跳ねないという限界も正直にお伝えします。
+          Oracle認定Javaプログラマ Silver（OCJP Silver SE）は、Javaの<strong>文法・オブジェクト指向・例外処理といった基本構文の体系的な理解を証明する</strong>資格です。本記事は「Java Silverを取れば転職で有利になるか」という疑問に対し、<strong>独学で得た知識の抜けを埋め、体系的に理解していることを示す</strong>という観点から、実務での評価や有効期限なしという特徴を公式情報とともに整理します。資格単体では年収は跳ねないという留意点もご説明します。
         </p>
 
         <DataNote
           surveyedAt="2026年6月"
           sources={[
             "Oracle University 公式（oracle.com/jp/education/certification）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -135,9 +135,9 @@ export default function OracleJavaSilverCertPage() {
               Java Silverは<strong>「Java基礎の体系証明」</strong>です。実務でJavaを書いてきた人が<strong>独学の抜けを埋め、基礎を体系的に理解していることを客観的に示す</strong>用途で効きます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>Java実務のある30〜40代</strong>：独学知識の抜けを補い、体系的理解の証明として加点される</li>
-              <li>② <strong>Javaへ移行・再入門するミドル</strong>：基礎の土台づくりと学習の到達点の証明になる</li>
-              <li>③ <strong>中級以上を示したい人</strong>：Silverで土台を作り、上位のGoldへ進む起点になる</li>
+              <li>① <strong>Java実務のある30〜40代</strong>：独学知識の抜けを補い、体系的理解の証明として加点されます</li>
+              <li>② <strong>Javaへ移行・再入門するミドル</strong>：基礎の土台づくりと学習の到達点の証明になります</li>
+              <li>③ <strong>中級以上を示したい人</strong>：Silverで土台を作り、上位のGoldへ進む起点になります</li>
             </ul>
           </div>
         </section>
@@ -158,7 +158,7 @@ export default function OracleJavaSilverCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: Oracle University 公式（oracle.com/jp/education/certification、2026年6月時点）。表の試験形式はJava SE 11 Silver（1Z0-815-JPN・80問・180分・合格ライン63%）の値です。受験料は2024年9月の改定後で41,773円（税込）。現在はJava SE 17が最新シリーズで、SE 11も受験可能な状況が続いています。合格率はOracleが公表しておらず、当サイトでは創作しません。有効期限はなく、一度取得すれば失効しません。最新の試験番号・料金はOracle公式とPearson VUEで必ずご確認ください。
+            出典: Oracle University 公式（oracle.com/jp/education/certification、2026年6月時点）。表の試験形式はJava SE 11 Silver（1Z0-815-JPN・80問・180分・合格ライン63%）の値です。受験料は2024年9月の改定後で41,773円です（税込）。現在はJava SE 17が最新シリーズで、SE 11も受験可能な状況が続いています。合格率はOracleが公表しておらず、当サイトでは創作しません。有効期限はなく、一度取得すれば失効しません。最新の試験番号・料金はOracle公式とPearson VUEで必ずご確認ください。
           </p>
         </section>
 
@@ -172,7 +172,7 @@ export default function OracleJavaSilverCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Javaは国内で需要の大きい主要言語（<strong>実務・役割が年収の主因</strong>）</li>
               <li>・Silverは<strong>基礎の体系的理解の証明</strong>として書類通過に効く加点材</li>
-              <li>・実態：<strong>年収はJava実務経験 × 資格の掛け算</strong>で決まる</li>
+              <li>・実態：<strong>年収はJava実務経験 × 資格の掛け算</strong>で決まります</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -185,10 +185,10 @@ export default function OracleJavaSilverCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "独学Javaの体系的理解の証明", d: "現場で書いてきたJavaの知識に抜けがないこと、文法・OOPを体系的に理解していることを客観的に示せる。" },
-              { t: "Java案件・SES／受託への応募", d: "Javaを主力とする業務システム・受託開発で、基礎スキルの裏づけとして書類段階で効く。" },
-              { t: "他言語からJavaへの転向", d: "別言語の経験者がJavaへ移る際に、基礎を一通り押さえた到達点として示せる。" },
-              { t: "上位資格・上流への布石", d: "Silverで土台を作り、上位のGoldで中級以上の実装力を示す段階的なキャリア設計に使える。" },
+              { t: "独学Javaの体系的理解の証明", d: "現場で書いてきたJavaの知識に抜けがないこと、文法・OOPを体系的に理解していることを客観的に示せます。" },
+              { t: "Java案件・SES／受託への応募", d: "Javaを主力とする業務システム・受託開発で、基礎スキルの裏づけとして書類段階で効きます。" },
+              { t: "他言語からJavaへの転向", d: "別言語の経験者がJavaへ移る際に、基礎を一通り押さえた到達点として示せます。" },
+              { t: "上位資格・上流への布石", d: "Silverで土台を作り、上位のGoldで中級以上の実装力を示す段階的なキャリア設計に使えます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -206,9 +206,9 @@ export default function OracleJavaSilverCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "Javaアプリケーションエンジニア", d: "業務システム・基幹系のJava開発を担う役割。Silverが基礎スキルの裏づけになる。" },
-              { t: "SES・受託開発のJava案件", d: "Javaを主力とする現場で、基礎を体系的に理解している証明として書類段階で効く。" },
-              { t: "他言語からの転向組", d: "別言語経験者がJavaへ移る際の、基礎到達点の客観証明になる。" },
+              { t: "Javaアプリケーションエンジニア", d: "業務システム・基幹系のJava開発を担う役割です。Silverが基礎スキルの裏づけになります。" },
+              { t: "SES・受託開発のJava案件", d: "Javaを主力とする現場で、基礎を体系的に理解している証明として書類段階で効きます。" },
+              { t: "他言語からの転向組", d: "別言語経験者がJavaへ移る際の、基礎到達点の客観証明になります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -254,10 +254,10 @@ export default function OracleJavaSilverCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>独学の体系化</strong>。現場で覚えたJavaの知識の抜けを試験対策で埋め、基礎を整理できます。第二に<strong>書類段階の裏づけ</strong>。Javaを扱える基礎スキルの客観証明として、選考の通過に寄与します。第三に<strong>上位資格への布石</strong>。SilverはGoldの前提資格でもあり、Silver→Goldで中級以上の実装力まで示せます。
+            活用戦略は3つに整理できます。第一に<strong>独学の体系化です</strong>。現場で覚えたJavaの知識の抜けを試験対策で埋め、基礎を整理できます。第二に<strong>書類段階の裏づけ</strong>。Javaを扱える基礎スキルの客観証明として、選考の通過に寄与します。第三に<strong>上位資格への布石です</strong>。SilverはGoldの前提資格でもあり、Silver→Goldで中級以上の実装力まで示せます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。Silverは<strong>基礎レベルの位置づけのため、これ単体で高い実装力まで保証する資格ではありません</strong>。効果が出るのは「Java実務 × 資格」が成立したときです。また受験料が約4万円（税込）と国家資格に比べ高めで、費用対効果は目的次第です。逆に言えば、独学のJava知識を体系化し基礎を固めたい30〜40代にとっては、明確な到達点になる資格です。中級以上を示したいなら<Link href="/cert/oracle-java-gold/" className="text-petrol hover:underline">Gold</Link>へ進みましょう。
+            注意すべきデメリットも押さえておきましょう。Silverは<strong>基礎レベルの位置づけのため、これ単体で高い実装力まで保証する資格ではありません</strong>。効果が出るのは「Java実務 × 資格」が成立したときです。また受験料が約4万円（税込）と国家資格に比べ高めで、費用対効果は目的次第です。逆に言えば、独学のJava知識を体系化し基礎を固めたい30〜40代にとっては、明確な到達点になる資格です。中級以上を示したいなら<Link href="/cert/oracle-java-gold/" className="text-petrol hover:underline">Gold</Link>へ進みましょう。
           </p>
         </section>
 
@@ -269,7 +269,7 @@ export default function OracleJavaSilverCertPage() {
               Java Silverは、30〜40代の経験者にとって<strong>「現場で覚えた我流のJavaを、体系的な知識として整える装置」</strong>として効きます。実務では使う範囲しか触れないため知識に偏りが生まれがちですが、Silverの学習で文法・OOP・例外処理を一通り押さえ直すことで、基礎の抜けを補えます。その到達点を客観的に示せるのが資格の価値です。
             </p>
             <p>
-              一方で過度な期待は禁物です。Silverを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。Javaの開発実績と組み合わせて初めて、基礎の信頼性という形で評価されます。中級以上の実装力まで示したい場合は、Silverを起点にGoldへ進むのが王道です。
+              一方で過度な期待は禁物です。Silverを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。Javaの開発実績と組み合わせて初めて、基礎の信頼性という形で評価されます。中級以上の実装力まで示したい場合は、Silverを起点にGoldへ進むのが一般的です。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -282,9 +282,9 @@ export default function OracleJavaSilverCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "文法・OOPを体系的に学び直す", d: "変数・制御構文・クラス・継承・例外処理など、基礎を網羅的に整理する。実務経験者は抜けの確認が中心。" },
-              { n: "STEP 2", t: "細かな挙動を問題演習で固める", d: "Java特有の文法・コンパイルエラー・実行結果を問う設問に慣れる。合格ライン63%を超える精度を作る。" },
-              { n: "STEP 3", t: "合格→Goldで中級へ", d: "合格後はJava実務に活かしつつ、中級以上の実装力を示すならSilverを前提とする上位のGoldに挑戦する。" },
+              { n: "STEP 1", t: "文法・OOPを体系的に学び直す", d: "変数・制御構文・クラス・継承・例外処理など、基礎を網羅的に整理します。実務経験者は抜けの確認が中心です。" },
+              { n: "STEP 2", t: "細かな挙動を問題演習で固める", d: "Java特有の文法・コンパイルエラー・実行結果を問う設問に慣れます。合格ライン63%を超える精度を作ります。" },
+              { n: "STEP 3", t: "合格→Goldで中級へ", d: "合格後はJava実務に活かしつつ、中級以上の実装力を示すならSilverを前提とする上位のGoldに挑戦します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -320,7 +320,7 @@ export default function OracleJavaSilverCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Java案件への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Java Silverを活かせる開発求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            Java Silverを活かせる開発求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

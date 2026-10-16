@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/future/" },
   title: "フューチャー（Future） エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
-    "フューチャー（Future）へのエンジニア転職を実データで解説。有価証券報告書の平均年収（2024年12月期）、IT戦略コンサルから実装まで一気通貫の特徴、技術スタック、選考フロー、30代40代の現実までまとめました。",
+    "フューチャー（Future）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収（2024年12月期）、IT戦略コンサルから実装まで一気通貫の特徴、技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -87,7 +87,7 @@ export default function FutureCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="フューチャー（Future） エンジニア転職ガイド" description="フューチャー（Future）へのエンジニア転職を実データで解説。有価証券報告書の平均年収、IT戦略コンサルから実装まで一気通貫の特徴、技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/future/" />
+      <ArticleJsonLd title="フューチャー（Future） エンジニア転職ガイド" description="フューチャー（Future）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収、IT戦略コンサルから実装まで一気通貫の特徴、技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/future/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "フューチャー" }]} />
 
@@ -99,7 +99,7 @@ export default function FutureCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】フューチャーの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: フューチャー株式会社の平均年間給与は841万円です（2024年12月期 有価証券報告書・親会社単体／全社員平均、平均年齢35.4歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 841万円（2024年12月期 有報・親会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2020年12月期773万円から上昇を続け、2024年12月期841万円（各期 有報）。</li><li>・エンジニア個人の年収はグレード・職種により異なり、公式な職種別レンジは非公表。求人票・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 841万円です（2024年12月期 有価証券報告書・親会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2020年12月期773万円から上昇を続け、2024年12月期841万円です（各期 有価証券報告書）。</li><li>・エンジニア個人の年収はグレード・職種により異なり、公式な職種別レンジは非公表です。求人票・面談で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -125,7 +125,7 @@ export default function FutureCompanyPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：上流から実装まで幅広く関わりたく、技術力とコンサルティング力の両方を伸ばしたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：顧客折衝や上流工程を避け、特定領域の実装だけに集中したい人</li>
-              <li>● <strong>30代・40代</strong>：アーキテクチャ設計・クラウド・PMの経験があれば専門性を活かしやすい</li>
+              <li>● <strong>30代・40代</strong>：アーキテクチャ設計・クラウド・PMの経験があれば専門性を活かしやすいです</li>
             </ul>
           </div>
         </section>
@@ -155,7 +155,7 @@ export default function FutureCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2024年12月期 有価証券報告書（親会社単体）の全社員平均値。技術スタックは公式採用情報・フューチャー技術ブログ（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2024年12月期 有価証券報告書（親会社単体）の全社員平均値。技術スタックは公式採用情報・フューチャー技術ブログです（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -179,7 +179,7 @@ export default function FutureCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            フューチャーは公式採用情報・フューチャー技術ブログ（2026年6月時点）で扱う技術を公開しています。主な要素は以下の通りです。プロジェクト・顧客により使用技術は幅広く異なります。
+            フューチャーは公式採用情報・フューチャー技術ブログ（2026年6月時点）で扱う技術を公開しています。主な要素は以下のとおりです。プロジェクト・顧客により使用技術は幅広く異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -270,9 +270,9 @@ export default function FutureCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">フューチャー転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。コンサル・SIer・事業会社まで幅広く、非公開求人も豊富。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、ITコンサル領域のミドル・シニア支援に定評。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型。ITコンサル・アーキテクトのハイクラス求人が集まりやすい。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。コンサル・SIer・事業会社まで幅広く、非公開求人も豊富です。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、ITコンサル領域のミドル・シニア支援に定評があります。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。ITコンサル・アーキテクトのハイクラス求人が集まりやすいです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

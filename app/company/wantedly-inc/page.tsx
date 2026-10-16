@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/wantedly-inc/" },
   title: "ウォンテッドリー（Wantedly）の年収は平均681万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "ウォンテッドリー株式会社（3991・東証グロース）へのエンジニア転職を実データで解説。有価証券報告書の平均年収681万円（全社員平均）、Ruby on Rails/Go/Reactの技術スタック、選考フロー、30代40代の現実までまとめました。",
+    "ウォンテッドリー株式会社（3991・東証グロース）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収681万円（全社員平均）、Ruby on Rails/Go/Reactの技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
 
 const basicData: [string, string][] = [
@@ -79,7 +79,7 @@ export default function WantedlyIncCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="ウォンテッドリー エンジニア転職ガイド" description="ウォンテッドリー株式会社（3991・東証グロース）へのエンジニア転職を実データで解説。有価証券報告書の平均年収681万円（全社員平均）、Ruby on Rails/Go/Reactの技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/wantedly-inc/" />
+      <ArticleJsonLd title="ウォンテッドリー エンジニア転職ガイド" description="ウォンテッドリー株式会社（3991・東証グロース）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収681万円（全社員平均）、Ruby on Rails/Go/Reactの技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/wantedly-inc/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Ruby on Railsの転職ガイド", href: "/skill/rails/" }, { name: "Rubyの転職ガイド", href: "/skill/ruby/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ウォンテッドリー" }]} />
 
@@ -91,7 +91,7 @@ export default function WantedlyIncCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ウォンテッドリーの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: ウォンテッドリー株式会社の平均年間給与は約681万円です（直近 有価証券報告書・全社員平均、平均年齢 約30歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約681万円（直近 有報・単体）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・年度別の推移は本ページでは創作せず、出典の確実な単年値のみ掲載しています（最新値は最新の有報でご確認ください）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表。提示額はスキル評価で個別決定されるため、個別求人・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約681万円です（直近 有価証券報告書・単体）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・年度別の推移は本ページでは創作せず、出典の確実な単年値のみ掲載しています（最新値は最新の有価証券報告書でご確認ください）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表です。提示額はスキル評価で個別決定されるため、個別求人・面談で確認が必要です。</li></ul>
         </div>
 
         <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 text-sm text-slate-600 mb-6">
@@ -116,12 +116,12 @@ export default function WantedlyIncCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              ウォンテッドリーは<strong>Ruby on RailsとGoでビジネスSNSを開発する、少数精鋭のプラットフォーム企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収は約681万円（直近 有報）です。
+              ウォンテッドリーは<strong>Ruby on RailsとGoでビジネスSNSを開発する、少数精鋭のプラットフォーム企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収は約681万円（直近 有価証券報告書）です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Ruby/Goでの実務経験があり、SNS・マッチングプラットフォームやマイクロサービスに関心があるエンジニア</li>
               <li>● <strong>向いていない人</strong>：大規模組織での明確な役割分担を強く好む人、技術選定に関わりたくない人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢が若めのためシニア寄りの立ち位置。テックリード・設計の実績で価値を示せるかが鍵</li>
+              <li>● <strong>30代・40代</strong>：平均年齢が若めのためシニア寄りの立ち位置です。テックリード・設計の実績で価値を示せるかが鍵</li>
             </ul>
           </div>
         </section>
@@ -151,7 +151,7 @@ export default function WantedlyIncCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は直近の有価証券報告書に基づく全社員平均値（単体）。決算期により数値は変動するため、最新値は最新の有価証券報告書でご確認ください。技術スタックは公式技術ブログ・採用ページの公開情報（2026年6月時点で確認できる範囲）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は直近の有価証券報告書に基づく全社員平均値（単体）。決算期により数値は変動するため、最新値は最新の有価証券報告書でご確認ください。技術スタックは公式技術ブログ・採用ページの公開情報です（2026年6月時点で確認できる範囲）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -185,7 +185,7 @@ export default function WantedlyIncCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>特徴</strong>：モノリス（Rails）から大規模サービスをGoのマイクロサービスへ移行してきた構成</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: ウォンテッドリー公式 技術ブログ・採用ページ等の公開記事。2026年6月時点で確認できる範囲。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: ウォンテッドリー公式 技術ブログ・採用ページ等の公開記事。2026年6月時点で確認できる範囲です。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -249,9 +249,9 @@ export default function WantedlyIncCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ウォンテッドリー転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。SaaS・Web系の求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。SaaS・Web系の求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

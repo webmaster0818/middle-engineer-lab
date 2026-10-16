@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "失業保険（雇用保険）の受給と転職【給付制限・受給期間】";
 const DESCRIPTION =
-  "失業保険（雇用保険の基本手当）の受給を、自己都合と会社都合の給付制限の違い、待期7日間、受給期間1年、転職活動との関係まで厚生労働省・ハローワークの情報に基づいて解説。30代・40代が損なく受給するための実務ガイドです。";
+  "失業保険（雇用保険の基本手当）の受給を、自己都合と会社都合の給付制限の違い、待期7日間、受給期間1年、転職活動との関係まで厚生労働省・ハローワークの情報に基づいて解説します。30代・40代が損なく受給するための実務ガイドです。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/unemployment-insurance/" },
@@ -98,7 +98,7 @@ export default function UnemploymentInsurancePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】失業保険はいつから、いつまで受け取れる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 離職理由を問わず7日間の待期があり、自己都合は2025年4月から原則1か月の給付制限が加わります。受け取れる期限は原則として離職日の翌日から1年間です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・自己都合の給付制限は2025年4月から原則1か月（5年以内に3回以上の自己都合離職は3か月、厚生労働省）</li><li>・会社都合は7日間の待期後すぐに受給が始まることが多く、所定給付日数も長くなる傾向</li><li>・すでに転職先が確定している場合や開業した場合は「失業の状態」に当たらず受給できない</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・自己都合の給付制限は2025年4月から原則1か月（5年以内に3回以上の自己都合離職は3か月、厚生労働省）</li><li>・会社都合は7日間の待期後すぐに受給が始まることが多く、所定給付日数も長くなる傾向</li><li>・すでに転職先が確定している場合や開業した場合は「失業の状態」に当たらず受給できません</li></ul>
           </div>
         </section>
 

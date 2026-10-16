@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/smarthr/" },
   title: "SmartHR エンジニア転職ガイド｜年収・技術スタック・選考【2026年版】",
   description:
-    "SmartHRへのエンジニア転職を公式採用ページ・技術ブログの一次情報で解説。非上場のため有報なし。公式求人の想定年収レンジ、Rails/React技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",
+    "SmartHRへのエンジニア転職を公式採用ページ・技術ブログの一次情報で解説します。非上場のため有価証券報告書なし。公式求人の想定年収レンジ、Rails/React技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",
 };
 
 const toc = [
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     q: "SmartHRはフルリモートで働ける？",
-    a: "SmartHRはフルフレックス・基本リモートの体制で、地方在住のエンジニアも在籍しています。ただしOpenWorkのクチコミによると部署・職種によって出社頻度は異なり、ビジネス職など一部はハイブリッド形態の場合があります。最新の勤務条件は各求人で確認してください。",
+    a: "SmartHRはフルフレックス・基本リモートの体制で、地方在住のエンジニアも在籍しています。ただしOpenWorkの口コミによると部署・職種によって出社頻度は異なり、ビジネス職など一部はハイブリッド形態の場合があります。最新の勤務条件は各求人で確認してください。",
   },
   {
     q: "SmartHRの開発文化の特徴は？",
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     q: "成果主義と聞きましたが年収は下がることもある？",
-    a: "OpenWorkのクチコミでは、成果主義のため継続的に成果を出せないと年収が変動しうるという指摘が見られます。グロース期SaaSとして変化と成長のスピードが速い分、その環境を前向きに捉えられるかが定着のポイントになります。",
+    a: "OpenWorkの口コミでは、成果主義のため継続的に成果を出せないと年収が変動しうるという指摘が見られます。グロース期SaaSとして変化と成長のスピードが速い分、その環境を前向きに捉えられるかが定着のポイントになります。",
   },
 ];
 
@@ -86,7 +86,7 @@ export default function SmarthrCompanyPage() {
     <>
       <ArticleJsonLd
         title="SmartHR エンジニア転職ガイド"
-        description="SmartHRへのエンジニア転職を公式採用ページ・技術ブログの一次情報で解説。公式求人の想定年収レンジ、技術スタック、選考フロー、口コミ傾向まで。"
+        description="SmartHRへのエンジニア転職を公式採用ページ・技術ブログの一次情報で解説します。公式求人の想定年収レンジ、技術スタック、選考フロー、口コミ傾向まで。"
         url="/company/smarthr/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -100,7 +100,7 @@ export default function SmarthrCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SmartHRの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SmartHRは非上場のため公式の全社員平均年収（有価証券報告書）は非公表です。公式求人（doda掲載の技術職）の想定年収レンジは、一般ポジション700万〜1,000万円台、上位・シニア1,000万〜1,500万円台です（2026年6月時点・求人提示例）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場で有報による全社員平均は存在しません。掲載値は公式求人の想定年収レンジです。</li><li>・技術職（一般）700万〜1,000万円台、技術職（上位・シニア）1,000万〜1,500万円台（doda掲載・2026年6月時点）。</li><li>・想定年収は「月次給与×12＋成果給」で算出し、年2回の評価で等級・金額を個別決定。実額は求人ごとに確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場で有価証券報告書による全社員平均は存在しません。掲載値は公式求人の想定年収レンジです。</li><li>・技術職（一般）700万〜1,000万円台、技術職（上位・シニア）1,000万〜1,500万円台です（doda掲載・2026年6月時点）。</li><li>・想定年収は「月次給与×12＋成果給」で算出し、年2回の評価で等級・金額を個別決定です。実額は求人ごとに確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -134,11 +134,11 @@ export default function SmarthrCompanyPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：Rails/Reactの実務経験があり、プロダクトに当事者意識を持って横断的に動けるエンジニア向き。難易度は中程度。</p>
+            <p className="font-bold text-blue-900 mb-3">結論：Rails/Reactの実務経験があり、プロダクトに当事者意識を持って横断的に動けるエンジニア向きです。難易度は中程度です。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li className="flex gap-2"><span className="shrink-0">1.</span>「プロダクトエンジニア」として実装からリリースまで横断的に担うため、特定領域だけでなく幅広く動ける人が活躍しやすい。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>公式求人ではポジションにより想定年収700万〜1,500万円台が提示される例があり、ミドル層が年収を伸ばしやすい水準（2026年6月時点）。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>フルフレックス・基本リモートで地方在住エンジニアも在籍。成果主義のため、自律的に成果を出し続けられる人に向く。</li>
+              <li className="flex gap-2"><span className="shrink-0">1.</span>「プロダクトエンジニア」として実装からリリースまで横断的に担うため、特定領域だけでなく幅広く動ける人が活躍しやすいです。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>公式求人ではポジションにより想定年収700万〜1,500万円台が提示される例があり、ミドル層が年収を伸ばしやすい水準です（2026年6月時点）。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>フルフレックス・基本リモートで地方在住エンジニアも在籍しています。成果主義のため、自律的に成果を出し続けられる人に向きます。</li>
             </ul>
           </div>
         </section>
@@ -189,7 +189,7 @@ export default function SmarthrCompanyPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ["バックエンド", "Ruby on Rails が中心。Python / FastAPI も利用"],
+                  ["バックエンド", "Ruby on Rails が中心です。Python / FastAPI も利用"],
                   ["フロントエンド", "React（jQueryからの移行を完了）、Next.jsの導入、TypeScript、GraphQL"],
                   ["インフラ／基盤", "Google Cloud、Terraform、Docker、GitHub Actions、CircleCI"],
                   ["監視ほか", "Sentry、New Relic"],
@@ -247,10 +247,10 @@ export default function SmarthrCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["カジュアル面談（任意）", "選考前に現場メンバーと話せる場。働き方や活躍する人物像を確認できる。"],
-              ["応募・書類選考", "公式採用ページまたはエージェント経由で応募し、職務経歴を提出。"],
-              ["面接（職種により1〜3回程度）", "現場メンバー・マネージャー等との面接。エンジニア職ではプロダクトへの向き合い方・技術的な議論が中心。職種によっては1回程度のこともある。"],
-              ["内定・オファー面談", "条件・等級・制度の説明。"],
+              ["カジュアル面談（任意）", "選考前に現場メンバーと話せる場です。働き方や活躍する人物像を確認できます。"],
+              ["応募・書類選考", "公式採用ページまたはエージェント経由で応募し、職務経歴を提出します。"],
+              ["面接（職種により1〜3回程度）", "現場メンバー・マネージャー等との面接です。エンジニア職ではプロダクトへの向き合い方・技術的な議論が中心です。職種によっては1回程度のこともあります。"],
+              ["内定・オファー面談", "条件・等級・制度の説明です。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -272,7 +272,7 @@ export default function SmarthrCompanyPage() {
           <ul className="space-y-2 text-sm text-slate-600">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>職能に縛られずプロダクトに向き合えるか（実装からリリース・検証まで当事者として動けるか）。</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Rails/Reactでの開発経験の深さと、設計・技術選定の意図を説明できるか。</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ユーザー課題（人事労務領域）への理解と、プロダクト改善への姿勢。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ユーザー課題（人事労務領域）への理解と、プロダクト改善への姿勢です。</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>オープンな情報共有・ドキュメンテーション文化に馴染めるか。</li>
           </ul>
           <p className="text-sm text-slate-600 mt-4">
@@ -298,8 +298,8 @@ export default function SmarthrCompanyPage() {
               <h3 className="font-bold text-amber-800 mb-2 text-sm">ネガティブ・注意したい傾向</h3>
               <ul className="space-y-1.5 text-sm text-amber-900">
                 <li>成果主義のため継続的に成果を出せないと年収が変動しうるという指摘（OpenWork）</li>
-                <li>変化・成長のスピードが速く、ついていく負荷を感じる人もいる（OpenWork）</li>
-                <li>リモート可否は部署・職種で差があり、一部はハイブリッドの場合がある</li>
+                <li>変化・成長のスピードが速く、ついていく負荷を感じる人もいます（OpenWork）</li>
+                <li>リモート可否は部署・職種で差があり、一部はハイブリッドの場合があります</li>
               </ul>
             </div>
           </div>
@@ -316,7 +316,7 @@ export default function SmarthrCompanyPage() {
               一方で「プロダクトエンジニア」として職能横断で動くことが求められるため、特定技術のスペシャリストとして閉じこもるより、上流の課題定義からリリース・改善まで一気通貫で関われる人が評価されます。マネジメント経験やドメイン理解、チームの開発生産性を上げた実績は、ミドルの強みとして活きます。
             </p>
             <p>
-              非上場のため有報の全社員平均は参照できませんが、求人の提示レンジは高水準です。現職で年収やキャリアが頭打ちと感じる30代・40代は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>と<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>を押さえた上で臨むと、提示額を最大化しやすくなります。
+              非上場のため有価証券報告書の全社員平均は参照できませんが、求人の提示レンジは高水準です。現職で年収やキャリアが頭打ちと感じる30代・40代は、<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>と<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>を押さえた上で臨むと、提示額を最大化しやすくなります。
             </p>
             <p>
               リモート前提のキャリア設計は<Link href="/knowledge/remote-work/" className="text-petrol hover:underline">リモートワーク転職の実態</Link>、年代別の動向は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>も参考にしてください。
@@ -328,9 +328,9 @@ export default function SmarthrCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">SmartHR転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高い。SaaS企業の求人に強く、書類添削・面接対策に定評。" },
-              { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイト。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすい。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが強みで、SaaS系企業への転職実績が豊富。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。SaaS企業の求人に強く、書類添削・面接対策に定評があります。" },
+              { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイトです。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすいです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、SaaS系企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

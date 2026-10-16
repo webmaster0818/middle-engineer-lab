@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/overseas/" },
   title: "海外で働くエンジニアの転職【ルート・英語・ビザ】",
   description:
-    "海外で働くエンジニアの転職方法を解説。現地採用・駐在・リモートの3ルートの違い、英語要件の目安、ビザの一般知識を30代・40代向けに整理。制度は公式情報の確認を案内します。",
+    "海外で働くエンジニアの転職方法を解説します。現地採用・駐在・リモートの3ルートの違い、英語要件の目安、ビザの一般知識を30代・40代向けに整理します。制度は公式情報の確認を案内します。",
 };
 
 const toc = [
@@ -23,15 +23,15 @@ const toc = [
 ];
 
 const routes = [
-  { route: "現地採用", how: "海外企業に直接応募し、現地で雇用される", pros: "現地キャリアを本格的に積める／職務の幅が広い", cons: "ビザ・住居・生活立ち上げを自力で行う負担" },
-  { route: "駐在（社内異動）", how: "日系・外資系企業の海外拠点へ異動", pros: "会社がビザ・住居・帯同を支援。リスクが低い", cons: "ポストの空き次第。希望地・タイミングを選びにくい" },
-  { route: "リモート", how: "海外企業に在宅で雇用、または業務委託で働く", pros: "移住せず海外の仕事に関われる場合がある", cons: "時差・契約形態・税務・就労可否の確認が必須" },
+  { route: "現地採用", how: "海外企業に直接応募し、現地で雇用されます", pros: "現地キャリアを本格的に積める／職務の幅が広い", cons: "ビザ・住居・生活立ち上げを自力で行う負担" },
+  { route: "駐在（社内異動）", how: "日系・外資系企業の海外拠点へ異動", pros: "会社がビザ・住居・帯同を支援します。リスクが低い", cons: "ポストの空き次第です。希望地・タイミングを選びにくい" },
+  { route: "リモート", how: "海外企業に在宅で雇用、または業務委託で働きます", pros: "移住せず海外の仕事に関われる場合がある", cons: "時差・契約形態・税務・就労可否の確認が必須" },
 ];
 
 const englishLevels = [
-  { scene: "書類・コード・ドキュメント", level: "技術英語の読み書きが滞りなくできる", note: "まずここから固める。日常的にコメント・PRを英語で書く練習が有効" },
-  { scene: "技術面接", level: "設計・実装を英語で説明できる", note: "専門用語を口頭で扱えるレベル。模擬面接で慣らす" },
-  { scene: "日常業務・チーム会話", level: "会議・雑談に支障なく参加できる", note: "完璧でなくても、技術力が高ければ許容される場面は多い" },
+  { scene: "書類・コード・ドキュメント", level: "技術英語の読み書きが滞りなくできる", note: "まずここから固めます。日常的にコメント・PRを英語で書く練習が有効" },
+  { scene: "技術面接", level: "設計・実装を英語で説明できる", note: "専門用語を口頭で扱えるレベルです。模擬面接で慣らします" },
+  { scene: "日常業務・チーム会話", level: "会議・雑談に支障なく参加できる", note: "完璧でなくても、技術力が高ければ許容される場面は多いです" },
 ];
 
 const faqs = [
@@ -50,7 +50,7 @@ export default function OverseasPage() {
 
   return (
     <>
-      <ArticleJsonLd title="海外で働くエンジニアの転職【ルート・英語・ビザ】" description="海外で働くエンジニアの転職方法を解説。現地採用・駐在・リモートの3ルートの違い、英語要件の目安、ビザの一般知識を30代・40代向けに整理。制度は公式情報の確認を案内します。" url="/knowledge/overseas/" />
+      <ArticleJsonLd title="海外で働くエンジニアの転職【ルート・英語・ビザ】" description="海外で働くエンジニアの転職方法を解説します。現地採用・駐在・リモートの3ルートの違い、英語要件の目安、ビザの一般知識を30代・40代向けに整理します。制度は公式情報の確認を案内します。" url="/knowledge/overseas/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "転職ガイド" }, { name: "海外で働く" }]} />
 
@@ -63,7 +63,7 @@ export default function OverseasPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】海外で働くエンジニアはどうやって転職する？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 現地採用・駐在・リモートの3ルートから、自分のリスク許容度と目的に合うものを選ぶのが出発点です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・リスクを抑えるなら駐在（社内異動）。会社がビザ・住居を支援してくれる</li><li>・現地キャリアを積むなら現地採用、移住せず関わるならリモート</li><li>・英語は技術英語の読み書きと技術面接での説明が土台。ビザ要件は必ず公式情報で確認する</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・リスクを抑えるなら駐在です（社内異動）。会社がビザ・住居を支援してくれます</li><li>・現地キャリアを積むなら現地採用、移住せず関わるならリモート</li><li>・英語は技術英語の読み書きと技術面接での説明が土台です。ビザ要件は必ず公式情報で確認します</li></ul>
           </div>
         </section>
 
@@ -90,9 +90,9 @@ export default function OverseasPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">海外で働く道は一つではありません。リスクと得たいものから逆算して選びます。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>1. <strong>リスクを抑えたい</strong> → 駐在（社内異動）。会社がビザ・住居を支援</li>
-              <li>2. <strong>現地キャリアを積みたい</strong> → 現地採用。自力でビザ・生活を立ち上げる</li>
-              <li>3. <strong>移住せず関わりたい</strong> → リモート。就労資格・税務の確認が必須</li>
+              <li>1. <strong>リスクを抑えたい</strong> → 駐在です（社内異動）。会社がビザ・住居を支援</li>
+              <li>2. <strong>現地キャリアを積みたい</strong> → 現地採用です。自力でビザ・生活を立ち上げます</li>
+              <li>3. <strong>移住せず関わりたい</strong> → リモートです。就労資格・税務の確認が必須</li>
             </ul>
           </div>
         </section>
@@ -164,7 +164,7 @@ export default function OverseasPage() {
               { num: "2", title: "英語の土台を作る", desc: "技術英語の読み書きを日常化し、次に技術面接で説明できるレベルへ。コードのコメントやPRを英語で書く習慣が近道です。" },
               { num: "3", title: "LinkedInプロフィールを英語化する", desc: "職歴・スキル・成果を英語で記載し、リクルーターから見つけてもらえる状態に整えます。" },
               { num: "4", title: "選考対策（コーディングテスト・システム設計）", desc: "アルゴリズムと大規模システム設計の対策を進めます。英語で説明できることが重要です。" },
-              { num: "5", title: "応募・選考・ビザ確認", desc: "採用ページ・LinkedIn・リファラル経由で応募。オファー段階でビザ支援の有無と条件を必ず確認します。" },
+              { num: "5", title: "応募・選考・ビザ確認", desc: "採用ページ・LinkedIn・リファラル経由で応募します。オファー段階でビザ支援の有無と条件を必ず確認します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -181,20 +181,20 @@ export default function OverseasPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3">✓ 海外就職に向いている人</h3>
               <ul className="space-y-2 text-sm text-green-900">
-                <li>✓ 技術英語の読み書きに抵抗がない、または習慣化できる</li>
-                <li>✓ 生活環境の変化や立ち上げの手間を許容できる</li>
-                <li>✓ スキル・実績を客観的に示せる（GitHub・OSS等）</li>
-                <li>✓ ビザ・税務など事務手続きを根気よく進められる</li>
+                <li>✓ 技術英語の読み書きに抵抗がない、または習慣化できます</li>
+                <li>✓ 生活環境の変化や立ち上げの手間を許容できます</li>
+                <li>✓ スキル・実績を客観的に示せます（GitHub・OSS等）</li>
+                <li>✓ ビザ・税務など事務手続きを根気よく進められます</li>
               </ul>
             </div>
             <div className="border border-slate-200 bg-slate-50 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">☑ 動き出す前の準備チェック</h3>
               <ul className="space-y-2 text-sm text-slate-700">
-                <li>☑ 狙うルート（現地採用/駐在/リモート）を一つ決めた</li>
-                <li>☑ 今の勤務先の海外拠点・社内異動制度を確認した</li>
-                <li>☑ LinkedInを英語化した</li>
-                <li>☑ ビザ支援の有無を求人選びの条件に入れた</li>
-                <li>☑ 家族の帯同・就学・税務の確認先を把握した</li>
+                <li>☑ 狙うルート（現地採用/駐在/リモート）を一つ決めました</li>
+                <li>☑ 今の勤務先の海外拠点・社内異動制度を確認しました</li>
+                <li>☑ LinkedInを英語化しました</li>
+                <li>☑ ビザ支援の有無を求人選びの条件に入れました</li>
+                <li>☑ 家族の帯同・就学・税務の確認先を把握しました</li>
               </ul>
             </div>
           </div>
@@ -220,7 +220,7 @@ export default function OverseasPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">外資系・グローバル転職をサポート</h2>
-          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら外資系日本法人の求人も紹介。まずは国内から英語環境のキャリアを始める手もあります。</p>
+          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら外資系日本法人の求人も紹介します。まずは国内から英語環境のキャリアを始める手もあります。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

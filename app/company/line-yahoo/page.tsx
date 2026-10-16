@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/line-yahoo/" },
   title: "LINEヤフーの年収は平均902万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "LINEヤフーのエンジニア中途採用を有価証券報告書・公式採用情報・口コミ出典付きで解説。平均年収902万円(2026年3月期)、選考フロー、出社方針、30代40代の狙い目までまとめました。",
+    "LINEヤフーのエンジニア中途採用を有価証券報告書・公式採用情報・口コミ出典付きで解説。平均年収902万円(2026年3月期)、選考フロー、出社方針、30代40代の有力な選択肢までまとめました。",
 };
 
 const tocItems = [
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "LINEヤフーの平均年収はいくらですか？",
-    a: "有価証券報告書（2026年3月期）によると、提出会社であるLINEヤフー株式会社の平均年間給与は902万円、平均年齢39歳です（出典: 有報収録値の二次集計）。これは全社・全職種の平均で、エンジニア職や役職・グレードによって実際の年収は上下します。",
+    a: "有価証券報告書（2026年3月期）によると、提出会社であるLINEヤフー株式会社の平均年間給与は902万円、平均年齢39歳です（出典: 有価証券報告書収録値の二次集計）。これは全社・全職種の平均で、エンジニア職や役職・グレードによって実際の年収は上下します。",
   },
   {
     q: "選考でコーディングテストはありますか？",
@@ -86,8 +86,8 @@ export default function LineYahooCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】LINEヤフーの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: LINEヤフー株式会社の平均年間給与は902万円です（2026年3月期・平均年齢39歳。有価証券報告書を集計した二次情報）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 902万円（2026年3月期・有報二次集計、全職種平均）。</li><li>・推移は2024年3月期819万円→2025年3月期884万円→2026年3月期902万円と上昇が続いています（各期集計値）。</li><li>・全職種平均であり、エンジニア職・グレード別の年収表は非公表。実際のレンジはオファー内容で確認してください。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: LINEヤフー株式会社の平均年間給与は902万円です（2026年3月期・平均年齢39歳。有価証券報告書を集計した二次情報です）。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 902万円です（2026年3月期・有価証券報告書二次集計、全職種平均）。</li><li>・推移は2024年3月期819万円→2025年3月期884万円→2026年3月期902万円と上昇が続いています（各期集計値）。</li><li>・全職種平均であり、エンジニア職・グレード別の年収表は非公表です。実際のレンジはオファー内容で確認してください。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-4">
@@ -97,7 +97,7 @@ export default function LineYahooCompanyPage() {
         <DataNote
           surveyedAt="2026年6月"
           sources={[
-            "LINEヤフー有価証券報告書(2026年3月期)・有報収録値の二次集計",
+            "LINEヤフー有価証券報告書(2026年3月期)・有価証券報告書収録値の二次集計",
             "LINEヤフー公式採用情報・採用note(lycorp_recruit)",
             "LINEヤフー Tech Blog(techblog.lycorp.co.jp)",
             "ITmedia NEWS(出社方針)",
@@ -119,11 +119,11 @@ export default function LineYahooCompanyPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">難易度は「高め」。大規模トラフィックを扱った実務経験者に向く。</p>
+            <p className="font-bold text-blue-900 mb-3">難易度は「高め」。大規模トラフィックを扱った実務経験者に向きます。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>● <strong>向いている人</strong>：Java/Kotlin/TypeScript等で大規模Webサービスを開発・運用した経験があり、Kubernetes基盤やデータ処理基盤に関心がある人。</li>
-              <li>● <strong>狙い目</strong>：GAFA系外資ほど英語ハードルが高くなく、国内最大級の規模とユーザー数を扱える点が魅力。30代・40代でも専門領域の深さがあれば十分戦える。</li>
-              <li>● <strong>注意点</strong>：2025年以降、出社方針が「フルリモート可」から段階的に出社中心へ見直されている点。働き方は応募前に必ず確認を。</li>
+              <li>● <strong>向いている人</strong>：Java/Kotlin/TypeScript等で大規模Webサービスを開発・運用した経験があり、Kubernetes基盤やデータ処理基盤に関心がある人です。</li>
+              <li>● <strong>有力な選択肢</strong>：GAFA系外資ほど英語ハードルが高くなく、国内最大級の規模とユーザー数を扱える点が魅力です。30代・40代でも専門領域の深さがあれば十分戦えます。</li>
+              <li>● <strong>注意点</strong>：2025年以降、出社方針が「フルリモート可」から段階的に出社中心へ見直されている点です。働き方は応募前に必ずご確認ください。</li>
             </ul>
           </div>
         </section>
@@ -136,9 +136,9 @@ export default function LineYahooCompanyPage() {
                 {[
                   ["企業名", "LINEヤフー株式会社（東証プライム上場）"],
                   ["事業内容", "メディア・コマース・戦略事業（検索/メッセンジャー/EC/決済/広告/AI等）"],
-                  ["連結従業員数", "27,003名（2025年3月期・有報二次集計）"],
-                  ["提出会社従業員数", "10,577名（2026年3月期・有報二次集計）"],
-                  ["平均年間給与", "902万円・平均年齢39歳（2026年3月期・有報二次集計、全職種平均）"],
+                  ["連結従業員数", "27,003名（2025年3月期・有価証券報告書二次集計）"],
+                  ["提出会社従業員数", "10,577名（2026年3月期・有価証券報告書二次集計）"],
+                  ["平均年間給与", "902万円・平均年齢39歳（2026年3月期・有価証券報告書二次集計、全職種平均）"],
                   ["技術スタック", "Java / Kotlin / TypeScript / React / Kubernetes / Apache Kafka / Spark 等（公式Tech Blog公開情報）"],
                   ["出社方針", "2025年4月〜事業部門は原則週1回・他部門は原則月1回／2026年4月〜週3日程度予定（公式発表）"],
                 ].map(([label, value], i) => (
@@ -182,20 +182,20 @@ export default function LineYahooCompanyPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3 text-sm">メリット</h3>
               <ul className="space-y-2 text-sm text-green-900">
-                <li>● 国内最大級のトラフィックと、クラウドネイティブな大規模基盤に触れられる</li>
-                <li>● 平均年収902万円（2026年3月期・有報集計）とIT平均を大きく上回る待遇水準</li>
-                <li>● GAFA系外資より英語ハードルが低いポジションが多く、日本語中心でも挑戦しやすい</li>
-                <li>● サービスドメインが広く、社内公募・異動でキャリアの選択肢を変えやすい</li>
-                <li>● OSS貢献・カンファレンス登壇など技術発信の土台がある</li>
+                <li>● 国内最大級のトラフィックと、クラウドネイティブな大規模基盤に触れられます</li>
+                <li>● 平均年収902万円（2026年3月期・有価証券報告書集計）とIT平均を大きく上回る待遇水準</li>
+                <li>● GAFA系外資より英語ハードルが低いポジションが多く、日本語中心でも挑戦しやすいです</li>
+                <li>● サービスドメインが広く、社内公募・異動でキャリアの選択肢を変えやすいです</li>
+                <li>● OSS貢献・カンファレンス登壇など技術発信の土台があります</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <h3 className="font-bold text-rose-800 mb-3 text-sm">デメリット・注意点</h3>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li>● 出社方針が「フルリモート可」から段階的に出社中心へ見直されている（2026年4月〜週3日程度予定）</li>
+                <li>● 出社方針が「フルリモート可」から段階的に出社中心へ見直されています（2026年4月〜週3日程度予定）</li>
                 <li>● 組織が大きく、残業・働きやすさ・評価の納得感は配属部署による差が大きいとの声</li>
-                <li>● 制度は充実するが情報が分散し、把握しづらいという口コミがある</li>
-                <li>● 即戦力採用が中心で、未経験・異業種からの直接転職は現実的でない</li>
+                <li>● 制度は充実するが情報が分散し、把握しづらいという口コミがあります</li>
+                <li>● 即戦力採用が中心で、未経験・異業種からの直接転職は現実的ではありません</li>
               </ul>
             </div>
           </div>
@@ -207,11 +207,11 @@ export default function LineYahooCompanyPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3 text-sm">向いている人</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li>✓ 大規模Webサービスの開発・運用経験がある</li>
+                <li>✓ 大規模Webサービスの開発・運用経験があります</li>
                 <li>✓ Java/Kotlin/TypeScript等の実務経験が深い</li>
-                <li>✓ Kubernetes・データ基盤などクラウドネイティブ技術に関心がある</li>
+                <li>✓ Kubernetes・データ基盤などクラウドネイティブ技術に関心があります</li>
                 <li>✓ 国内大手で安定性と規模の両方を求めたい30代・40代</li>
-                <li>✓ 出社を含むハイブリッド勤務を許容できる</li>
+                <li>✓ 出社を含むハイブリッド勤務を許容できます</li>
               </ul>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -219,8 +219,8 @@ export default function LineYahooCompanyPage() {
               <ul className="space-y-2 text-sm text-slate-600">
                 <li>✕ 完全フルリモートを絶対条件にしたい</li>
                 <li>✕ 実務経験が浅く即戦力性をアピールしづらい</li>
-                <li>✕ 小規模・裁量重視のスタートアップ的環境を強く望む</li>
-                <li>✕ 評価・働き方の社内ばらつきを許容できない</li>
+                <li>✕ 小規模・裁量重視のスタートアップ的環境を強く望みます</li>
+                <li>✕ 評価・働き方の社内ばらつきを許容できません</li>
               </ul>
             </div>
           </div>
@@ -233,7 +233,7 @@ export default function LineYahooCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5 mb-4">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>サーバーサイド</strong>：Java / Kotlin が中心。サービスによりGo・Python等も</li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>サーバーサイド</strong>：Java / Kotlin が中心です。サービスによりGo・Python等も</li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>フロントエンド</strong>：TypeScript / React など</li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>基盤・インフラ</strong>：Kubernetes（社内KaaS「ZCP」）を全社的に活用</li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><strong>データ基盤</strong>：Apache Kafka / Apache Spark 等を大規模に運用</li>
@@ -248,7 +248,7 @@ export default function LineYahooCompanyPage() {
         <section id="salary" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ</h2>
           <p className="text-slate-700 leading-relaxed mb-4">
-            LINEヤフーは上場企業のため、有価証券報告書で<strong>全社・全職種の平均年間給与</strong>が開示されています。最新の2026年3月期では<strong>平均902万円・平均年齢39歳</strong>でした（有報を集計した二次情報）。前年度（2025年3月期）の集計値は884万円とされ、ここ数年で上昇傾向が続いています。
+            LINEヤフーは上場企業のため、有価証券報告書で<strong>全社・全職種の平均年間給与</strong>が開示されています。最新の2026年3月期では<strong>平均902万円・平均年齢39歳</strong>でした（有価証券報告書を集計した二次情報）。前年度（2025年3月期）の集計値は884万円とされ、ここ数年で上昇傾向が続いています。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-4">
             <p className="text-sm text-slate-700 leading-relaxed">
@@ -267,10 +267,10 @@ export default function LineYahooCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["1. 書類選考", "職務経歴書で、これまで担当したプロジェクト・成果・スキルがポジション要件に合致するかを確認。"],
-              ["2. 適性検査・技術課題／コーディングテスト", "職種によりWebテストや技術課題、コーディングテストを実施。アルゴリズム・SQL・実装寄りなど出題範囲は幅がある。"],
-              ["3. 技術面接（複数回）", "現場リーダー・部長クラスとの面接が基本2〜3回程度。実務経験の深掘りが中心。"],
-              ["4. 最終面接・オファー", "条件面談を経て内定。応募から内定まではおおよそ1〜1.5カ月が目安（二次情報）。"],
+              ["1. 書類選考", "職務経歴書で、これまで担当したプロジェクト・成果・スキルがポジション要件に合致するかを確認します。"],
+              ["2. 適性検査・技術課題／コーディングテスト", "職種によりWebテストや技術課題、コーディングテストを実施します。アルゴリズム・SQL・実装寄りなど出題範囲は幅があります。"],
+              ["3. 技術面接（複数回）", "現場リーダー・部長クラスとの面接が基本2〜3回程度です。実務経験の深掘りが中心です。"],
+              ["4. 最終面接・オファー", "条件面談を経て内定します。応募から内定まではおおよそ1〜1.5カ月が目安です（二次情報）。"],
             ].map(([title, desc], i) => (
               <li key={i} className="border border-slate-200 rounded-lg p-4">
                 <p className="font-bold text-slate-800 text-sm mb-1">{title}</p>
@@ -303,7 +303,7 @@ export default function LineYahooCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3">
             <p className="text-sm text-amber-900 leading-relaxed">
-              <strong>英語ハードルが低めで、国内大規模を扱える数少ない選択肢。</strong>GAFA系外資と比べると英語要件が厳しくないポジションが多く、日本語中心で大規模サービスに関われる点は、ミドルエンジニアにとって現実的な「ハイクラス国内転職」の有力候補です。平均年齢38.4歳という数字も、30代・40代が浮かない組織であることを示唆します。
+              <strong>英語ハードルが低めで、国内大規模を扱える数少ない選択肢です。</strong>GAFA系外資と比べると英語要件が厳しくないポジションが多く、日本語中心で大規模サービスに関われる点は、ミドルエンジニアにとって現実的な「ハイクラス国内転職」の有力候補です。平均年齢38.4歳という数字も、30代・40代が浮かない組織であることを示唆します。
             </p>
             <p className="text-sm text-amber-900 leading-relaxed">
               <strong>確認すべきは「出社方針」と「配属部署」。</strong>2025年以降、フルリモート前提から出社中心へ段階的に移行しており、2026年4月からは週3日程度の出社が予定されています。地方在住での応募を考える場合は、ポジションの勤務地要件を必ず確認しましょう。また口コミでは部署により残業・評価の納得感に差があるため、面接で配属チームの働き方を具体的に質問するのがおすすめです。
@@ -318,9 +318,9 @@ export default function LineYahooCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">LINEヤフー転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。高年収求人比率が高く、メガベンチャー領域に強い。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界専門。提案スピードと実務経験者への提案数が強み。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。年収750万円以上の求人やヘッドハンター経由の案件が豊富。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化です。高年収求人比率が高く、メガベンチャー領域に強いです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界専門です。提案スピードと実務経験者への提案数が強みです。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。年収750万円以上の求人やヘッドハンター経由の案件が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

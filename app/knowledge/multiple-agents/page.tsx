@@ -29,9 +29,9 @@ const toc = [
 
 const patterns = [
   {
-    title: "30代・実務経験ありの王道",
+    title: "30代・実務経験ありの代表的な方法",
     combo: "レバテックキャリア（メイン）＋ Geekly（サブ）＋ doda ITエンジニア（補完）",
-    note: "特化型2社で技術マッチングの精度を上げ、総合型のdodaで全国・幅広い求人を補完。レバテックは利用者の約80%が20〜30代（公式ガイド）で30代と相性が良い。",
+    note: "特化型2社で技術マッチングの精度を上げ、総合型のdodaで全国・幅広い求人を補完します。レバテックは利用者の約80%が20〜30代（公式ガイド）で30代と相性が良いです。",
     links: [
       { name: "レバテックキャリア", href: "/review/levtech/" },
       { name: "Geekly", href: "/review/geekly/" },
@@ -41,7 +41,7 @@ const patterns = [
   {
     title: "40代・ハイクラス/マネジメント志向",
     combo: "ビズリーチ（メイン）＋ レバテックキャリア（サブ）＋ リクルートエージェントIT（補完）",
-    note: "ビズリーチは年収1,000万円以上求人が全体の約4割（二次）でハイクラスに強い。特化型で技術面を補い、リクルートで非公開求人の量を確保。",
+    note: "ビズリーチは年収1,000万円以上求人が全体の約4割（二次）でハイクラスに強いです。特化型で技術面を補い、リクルートで非公開求人の量を確保します。",
     links: [
       { name: "ビズリーチ", href: "/review/bizreach-it/" },
       { name: "レバテックキャリア", href: "/review/levtech/" },
@@ -51,7 +51,7 @@ const patterns = [
   {
     title: "Web系・ベンチャー志望",
     combo: "Geekly（メイン）＋ Green（補完・直接応募）＋ paiza転職（補完・スカウト）",
-    note: "GeeklyはWeb/ゲームに強く提案が速い。Greenはカジュアル面談で社風を把握でき、paizaはスキルチェックのランクで実力評価される。エージェントとダイレクト型を組み合わせる形。",
+    note: "GeeklyはWeb/ゲームに強く提案が速いです。Greenはカジュアル面談で社風を把握でき、paizaはスキルチェックのランクで実力評価されます。エージェントとダイレクト型を組み合わせる形です。",
     links: [
       { name: "Geekly", href: "/review/geekly/" },
       { name: "Green", href: "/review/green/" },
@@ -61,7 +61,7 @@ const patterns = [
   {
     title: "地方在住・全国の求人を見たい",
     combo: "ワークポート（メイン）＋ リクルートエージェントIT（サブ）＋ doda ITエンジニア（補完）",
-    note: "ワークポートは全国47都道府県57拠点（公式/二次）。リクルート・dodaは全国対応で求人量が多く、地方やフルリモート求人の取りこぼしを防ぐ。",
+    note: "ワークポートは全国47都道府県57拠点です（公式/二次）。リクルート・dodaは全国対応で求人量が多く、地方やフルリモート求人の取りこぼしを防ぎます。",
     links: [
       { name: "ワークポート", href: "/review/workport/" },
       { name: "リクルートエージェントIT", href: "/review/recruit-it/" },
@@ -104,7 +104,7 @@ const faqs = [
   },
   {
     q: "複数登録していることは伝えるべき？",
-    a: "正直に伝えて問題ありません。「他にも2社利用しています」と伝えることで、選考スケジュールの調整や重複応募の防止がしやすくなります。隠して重複応募が発覚する方がトラブルになります。",
+    a: "率直に伝えて問題ありません。「他にも2社利用しています」と伝えることで、選考スケジュールの調整や重複応募の防止がしやすくなります。隠して重複応募が発覚する方がトラブルになります。",
   },
   {
     q: "メインとサブはどう決める？",
@@ -163,7 +163,7 @@ export default function MultipleAgentsPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職エージェントは何社併用すべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 2〜3社の併用が現実的です。IT特化型を軸に総合型やスカウト型を組み合わせ、数を増やしすぎると管理が煩雑になり重複応募のリスクも上がります。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・1社だけだと求人の幅が狭く担当者の比較ができず、5社以上は面談・連絡の管理が煩雑になる</li><li>・同じ求人を複数ルートから紹介されたら必ず1社に絞って応募し、重複応募を避ける</li><li>・応募先はスプレッドシートで企業名・応募ルート・選考ステータスを一元管理する</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・1社だけだと求人の幅が狭く担当者の比較ができず、5社以上は面談・連絡の管理が煩雑になります</li><li>・同じ求人を複数ルートから紹介されたら必ず1社に絞って応募し、重複応募を避けます</li><li>・応募先はスプレッドシートで企業名・応募ルート・選考ステータスを一元管理します</li></ul>
           </div>
         </section>
 
@@ -198,9 +198,9 @@ export default function MultipleAgentsPage() {
               IT特化型1〜2社＋総合型/スカウト型1社の<strong>2〜3社</strong>が、求人の幅・担当者の比較・管理のしやすさのバランスが取れる現実解です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・メイン1社を決めて密に連絡、残りはサブ・補完として使う</li>
-              <li>・応募先はスプレッドシートで一元管理し重複応募を防ぐ</li>
-              <li>・複数利用していることは各社に正直に伝える</li>
+              <li>・メイン1社を決めて密に連絡、残りはサブ・補完として使います</li>
+              <li>・応募先はスプレッドシートで一元管理し重複応募を防ぎます</li>
+              <li>・複数利用していることは各社に率直に伝えます</li>
             </ul>
           </div>
         </section>
@@ -212,15 +212,15 @@ export default function MultipleAgentsPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="text-center">
                 <p className="text-3xl font-bold text-red-500">1社</p>
-                <p className="text-sm text-slate-600 mt-1">求人の幅が狭く、担当者の良し悪しを比較できない。提案が偏る。</p>
+                <p className="text-sm text-slate-600 mt-1">求人の幅が狭く、担当者の良し悪しを比較できません。提案が偏ります。</p>
               </div>
               <div className="text-center">
                 <p className="text-3xl font-bold text-petrol">2〜3社</p>
-                <p className="text-sm text-slate-600 mt-1">求人の幅と担当者比較を確保しつつ、連絡管理も現実的に回せる。</p>
+                <p className="text-sm text-slate-600 mt-1">求人の幅と担当者比較を確保しつつ、連絡管理も現実的に回せます。</p>
               </div>
               <div className="text-center">
                 <p className="text-3xl font-bold text-red-500">5社以上</p>
-                <p className="text-sm text-slate-600 mt-1">面談・連絡が増えすぎ、同一求人の重複応募リスクが高まる。</p>
+                <p className="text-sm text-slate-600 mt-1">面談・連絡が増えすぎ、同一求人の重複応募リスクが高まります。</p>
               </div>
             </div>
           </div>
@@ -233,19 +233,19 @@ export default function MultipleAgentsPage() {
             <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-5">
               <h3 className="font-bold text-blue-800 mb-3">メリット</h3>
               <ul className="text-sm text-petrol-deep space-y-2">
-                <li>・各社の非公開求人を横断でき、求人カバー率が上がる</li>
-                <li>・担当者の技術理解・対応速度を比較してメインを選べる</li>
-                <li>・複数オファーが交渉材料になり年収交渉を有利に進めやすい</li>
-                <li>・特化型と総合型で「精度」と「幅」を役割分担できる</li>
+                <li>・各社の非公開求人を横断でき、求人カバー率が上がります</li>
+                <li>・担当者の技術理解・対応速度を比較してメインを選べます</li>
+                <li>・複数オファーが交渉材料になり年収交渉を有利に進めやすいです</li>
+                <li>・特化型と総合型で「精度」と「幅」を役割分担できます</li>
               </ul>
             </div>
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
               <h3 className="font-bold text-amber-800 mb-3">デメリット</h3>
               <ul className="text-sm text-amber-700 space-y-2">
-                <li>・面談・連絡が増え、対応に時間と手間がかかる</li>
+                <li>・面談・連絡が増え、対応に時間と手間がかかります</li>
                 <li>・同一求人を別ルートで重複応募してしまうリスク</li>
-                <li>・各社へ同じ説明を繰り返す手間が発生する</li>
-                <li>・断り・辞退の連絡が増え、気疲れしやすい</li>
+                <li>・各社へ同じ説明を繰り返す手間が発生します</li>
+                <li>・断り・辞退の連絡が増え、気疲れしやすいです</li>
               </ul>
             </div>
           </div>
@@ -317,7 +317,7 @@ export default function MultipleAgentsPage() {
             </table>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed">
-            ポイントは「応募ルート」列を必ず持つこと。新しい求人を紹介されたら、この表を見て同じ企業が別ルートに無いか確認してから返事をします。
+            ポイントは「応募ルート」列を必ず持つことです。新しい求人を紹介されたら、この表を見て同じ企業が別ルートにないか確認してから返事をします。
           </p>
         </section>
 
@@ -390,7 +390,7 @@ export default function MultipleAgentsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">併用する2〜3社をまず選ぼう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型と総合型の組み合わせが基本。10社の比較から、自分に合う併用先を選びましょう。
+            IT特化型と総合型の組み合わせが基本です。10社の比較から、自分に合う併用先を選びましょう。
           </p>
           <Link
             href="/compare/agents/"

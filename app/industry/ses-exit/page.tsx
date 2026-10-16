@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "SESから脱出する方法｜自社開発・社内SEへの転職ガイド";
 const DESCRIPTION =
-  "SESから自社開発・社内SEへ抜け出すための具体的な道筋を徹底解説。SES経験の正しい見せ方、脱出先の選び方、年収の現実、30代・40代の戦略、おすすめエージェントまでガイドします。";
+  "SESから自社開発・社内SEへ抜け出すための具体的な道筋を解説します。SES経験の正しい見せ方、脱出先の選び方、年収の現実、30代・40代の戦略、おすすめエージェントまでガイドします。";
 
 const toc = [
   { id: "conclusion", label: "結論：SES脱出は経験の“見せ方”で決まる" },
@@ -23,22 +23,22 @@ const toc = [
 const destinations: { title: string; desc: string; fit: string }[] = [
   {
     title: "Web系自社開発企業",
-    desc: "自社プロダクトに一貫して関われる。技術選定の自由度が高く、モダン技術・リモートワークの環境が多い。レバテックキャリアやGeeklyが強い領域。",
+    desc: "自社プロダクトに一貫して関われます。技術選定の自由度が高く、モダン技術・リモートワークの環境が多いです。レバテックキャリアやGeeklyが強い領域です。",
     fit: "プロダクトに当事者として関わりたい人 / モダン技術を使いたい人",
   },
   {
     title: "社内SE（事業会社の情報システム部門）",
-    desc: "社内システムの企画・運用・ベンダーコントロールを担当。残業が比較的少なく、安定した環境で腰を据えて働きやすい。マイナビIT AGENTが強い領域。",
+    desc: "社内システムの企画・運用・ベンダーコントロールを担当します。残業が比較的少なく、安定した環境で腰を据えて働きやすいです。マイナビIT AGENTが強い領域です。",
     fit: "ワークライフバランス重視 / 安定志向 / 上流・調整が得意な人",
   },
   {
     title: "SaaS企業",
-    desc: "安定した収益基盤の上でプロダクト改善に集中できる。業務システムの知識がドメイン理解として活きるケースも多い。",
+    desc: "安定した収益基盤の上でプロダクト改善に集中できます。業務システムの知識がドメイン理解として活きるケースも多いです。",
     fit: "業務知識を活かしたい人 / 長期でプロダクトを育てたい人",
   },
   {
     title: "受託でも自社内開発の企業",
-    desc: "受託開発でも常駐ではなく自社内で開発する企業。客先常駐の負担を減らしつつ、まずは環境を変えたい人の現実的な選択肢。",
+    desc: "受託開発でも常駐ではなく自社内で開発する企業です。客先常駐の負担を減らしつつ、まずは環境を変えたい人の現実的な選択肢です。",
     fit: "急なキャリアチェンジが不安な人 / 段階的に移行したい人",
   },
 ];
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     q: "SES経験しかなくても自社開発企業に転職できますか？",
-    a: "可能です。SESでの開発経験は立派な実務経験として評価されます。重要なのは「何の技術で、どんなシステムを、どんな役割で開発したか」を具体的に語れること。ポートフォリオやGitHubの活動があるとさらに有利です。",
+    a: "可能です。SESでの開発経験は立派な実務経験として評価されます。重要なのは「何の技術で、どんなシステムを、どんな役割で開発したか」を具体的に語れることが重要です。ポートフォリオやGitHubの活動があるとさらに有利です。",
   },
   {
     q: "SESを辞めたい理由を面接でどう伝えるべきですか？",
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: "SES脱出におすすめの転職エージェントは？",
-    a: "Web系自社開発を狙うならIT/Web特化のレバテックキャリアやGeekly、社内SE・安定環境ならマイナビIT AGENTが定番です。スキルアップ途上なら未経験歓迎求人も扱うワークポートも選択肢。複数社に登録して比較するのが基本です。",
+    a: "Web系自社開発を狙うならIT/Web特化のレバテックキャリアやGeekly、社内SE・安定環境ならマイナビIT AGENTが定番です。スキルアップ途上なら未経験歓迎求人も扱うワークポートも選択肢です。複数社に登録して比較するのが基本です。",
   },
   {
     q: "SESの経験年数が短くても転職できますか？",
@@ -111,10 +111,10 @@ export default function SesExitPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           SESから脱出する方法｜自社開発・社内SEへの転職ガイド
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | SESからの脱出ルートと成功戦略を徹底解説</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | SESからの脱出ルートと成功戦略を解説</p>
 
         <p className="text-slate-600 leading-relaxed mb-2">
-          「客先常駐でスキルが伸びにくい」「案件ガチャで将来が不安」「現場での評価が年収に反映されない」。SESで働くエンジニアが抱えがちな悩みです。一方で、SESでの開発経験は自社開発・社内SE・SaaSへの転職で十分に武器になります。
+          「客先常駐でスキルが伸びにくい」「案件ガチャで将来が不安」「現場での評価が年収に反映されない」。SESで働くエンジニアが抱えがちな悩みです。一方で、SESでの開発経験は自社開発・社内SE・SaaSへの転職で十分に強みになります。
         </p>
         <p className="text-slate-600 leading-relaxed mb-6">
           本記事では、SESから脱出するための具体的なルートと、経験の正しい見せ方、年収の現実、そして30代・40代ならではの戦略までを解説します。
@@ -150,9 +150,9 @@ export default function SesExitPage() {
               SESからの脱出は十分に現実的です。鍵は「常駐していた」事実ではなく、「何を作り、どう関わったか」を言語化して示せるかどうかにあります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 脱出先は自社開発・社内SE・SaaS・自社内受託の4タイプ。志向に合わせて選ぶ。</li>
-              <li>② SES経験は「使用技術×規模×役割×成果」に翻訳すれば立派な実務経験になる。</li>
-              <li>③ 年収は抑えられているケースが多く、転職で改善する可能性が高い（ただし保証はない）。</li>
+              <li>① 脱出先は自社開発・社内SE・SaaS・自社内受託の4タイプです。志向に合わせて選びます。</li>
+              <li>② SES経験は「使用技術×規模×役割×成果」に翻訳すれば立派な実務経験になります。</li>
+              <li>③ 年収は抑えられているケースが多く、転職で改善する可能性が高いです（ただし保証はない）。</li>
             </ul>
           </div>
         </section>
@@ -165,10 +165,10 @@ export default function SesExitPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { title: "スキルの停滞", desc: "案件に依存するため技術選択の自由が小さく、レガシー技術に固定されやすい。" },
-              { title: "評価の不透明さ", desc: "現場評価が自社に正しく伝わらず、スキルに見合わない年収になりがち。多重下請けで中間マージンも発生する。" },
-              { title: "キャリアの不確実性", desc: "次の案件が読めない「案件ガチャ」で、中長期のキャリア設計が難しい。" },
-              { title: "帰属意識の薄さ", desc: "客先で働くため自社への帰属意識が持ちにくく、チームの一体感を感じにくい。" },
+              { title: "スキルの停滞", desc: "案件に依存するため技術選択の自由が小さく、レガシー技術に固定されやすいです。" },
+              { title: "評価の不透明さ", desc: "現場評価が自社に正しく伝わらず、スキルに見合わない年収になりがちです。多重下請けで中間マージンも発生します。" },
+              { title: "キャリアの不確実性", desc: "次の案件が読めない「案件ガチャ」で、中長期のキャリア設計が難しいです。" },
+              { title: "帰属意識の薄さ", desc: "客先で働くため自社への帰属意識が持ちにくく、チームの一体感を感じにくいです。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2">{item.title}</h3>
@@ -220,11 +220,11 @@ export default function SesExitPage() {
             </div>
             <div className="border border-[var(--line)] rounded-lg p-5 bg-petrol-soft">
               <p className="text-xs font-bold text-petrol mb-2">After（評価される書き方）</p>
-              <p className="text-sm text-slate-700">月間数百万PVのWebサービスのバックエンドをJava/Spring Bootで開発。5名チームでAPI設計・実装・単体テストを担当し、レスポンス改善で平均応答時間を短縮した。</p>
+              <p className="text-sm text-slate-700">月間数百万PVのWebサービスのバックエンドをJava/Spring Bootで開発します。5名チームでAPI設計・実装・単体テストを担当し、レスポンス改善で平均応答時間を短縮しました。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed">
-            ポイントは「使用技術・システム規模・自分の役割・定量的な成果」をセットで書くこと。守秘義務に配慮しつつ、再現性のある形で具体化します。書き方の詳細は
+            ポイントは「使用技術・システム規模・自分の役割・定量的な成果」をセットで書くことです。守秘義務に配慮しつつ、再現性のある形で具体化します。書き方の詳細は
             <Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>
             、退職理由の伝え方を含む面接準備は
             <Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接対策ガイド</Link>
@@ -278,11 +278,11 @@ export default function SesExitPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">脱出の具体的ステップ</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "現在のスキルを棚卸しする", desc: "使用技術・開発規模・担当工程・成果物を整理。SESでの経験を具体的に言語化する。" },
-              { step: "2", title: "不足スキルを補強する", desc: "モダンなフレームワークやクラウドを学習。GitHubにコードを公開し、技術力を示せる状態にする。" },
-              { step: "3", title: "転職エージェントに登録する", desc: "IT特化型エージェント2〜3社に登録。SESからの転職実績が豊富な担当者に相談する。" },
-              { step: "4", title: "書類・面接対策を行う", desc: "職務経歴書を移行先に合わせて最適化。退職理由は「何を実現したいか」に変換して語れるようにする。" },
-              { step: "5", title: "内定獲得後に退職手続き", desc: "内定を得てから退職の意思を伝える。SES契約の更新タイミングに合わせると引き継ぎがスムーズ。" },
+              { step: "1", title: "現在のスキルを棚卸しする", desc: "使用技術・開発規模・担当工程・成果物を整理します。SESでの経験を具体的に言語化します。" },
+              { step: "2", title: "不足スキルを補強する", desc: "モダンなフレームワークやクラウドを学習します。GitHubにコードを公開し、技術力を示せる状態にします。" },
+              { step: "3", title: "転職エージェントに登録する", desc: "IT特化型エージェント2〜3社に登録します。SESからの転職実績が豊富な担当者に相談します。" },
+              { step: "4", title: "書類・面接対策を行う", desc: "職務経歴書を移行先に合わせて最適化します。退職理由は「何を実現したいか」に変換して語れるようにします。" },
+              { step: "5", title: "内定獲得後に退職手続き", desc: "内定を得てから退職の意思を伝えます。SES契約の更新タイミングに合わせると引き継ぎがスムーズです。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -303,12 +303,12 @@ export default function SesExitPage() {
           </p>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">30代：実務経験を武器に選択肢を広げる</h3>
-              <p className="text-sm text-petrol-deep">開発実務の蓄積がある30代は、自社開発・SaaS・社内SEのいずれも狙いやすい時期。モダン技術のキャッチアップで「常駐から内製へ」の説得力を高められる。</p>
+              <h3 className="font-bold text-blue-800 mb-2">30代：実務経験を強みに選択肢を広げる</h3>
+              <p className="text-sm text-petrol-deep">開発実務の蓄積がある30代は、自社開発・SaaS・社内SEのいずれも狙いやすい時期です。モダン技術のキャッチアップで「常駐から内製へ」の説得力を高められます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：上流・調整力を活かせる先を狙う</h3>
-              <p className="text-sm text-petrol-deep">純粋な開発職だけでなく、ベンダーコントロールや要件整理の経験が活きる社内SE・PM・DX推進が現実的。求人数は絞られるため、非公開求人を持つエージェントの活用が鍵。</p>
+              <p className="text-sm text-petrol-deep">純粋な開発職だけでなく、ベンダーコントロールや要件整理の経験が活きる社内SE・PM・DX推進が現実的です。求人数は絞られるため、非公開求人を持つエージェントの活用が鍵です。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">

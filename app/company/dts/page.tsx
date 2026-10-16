@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/dts/" },
   title: "DTSの年収は平均658万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "株式会社DTS（9682）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年間給与658万円(2026年3月期 有報・全社員平均)、Java/Python中心の独立系トータルSIerの技術領域、選考フロー、30代40代の戦い方まで。",
+    "株式会社DTS（9682）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年間給与658万円(2026年3月期 有価証券報告書・全社員平均)、Java/Python中心の独立系トータルSIerの技術領域、選考フロー、30代40代の進め方まで。",
 };
 
 const salaryTrend: [string, string, string][] = [
@@ -35,7 +35,7 @@ const toc = [
   { id: "basic", label: "基本データ（企業概要・出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
-  { id: "salary", label: "年収データ（有報・公式求人）" },
+  { id: "salary", label: "年収データ（有価証券報告書・公式求人）" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
   { id: "review", label: "口コミ・評判の傾向" },
@@ -91,7 +91,7 @@ export default function DtsCompanyPage() {
     <>
       <ArticleJsonLd
         title="DTS エンジニア転職ガイド"
-        description="株式会社DTSへのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収658万円(2026年3月期)、Java/Python中心の技術領域、選考フロー、口コミ傾向まで。"
+        description="株式会社DTSへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収658万円(2026年3月期)、Java/Python中心の技術領域、選考フロー、口コミ傾向まで。"
         url="/company/dts/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -105,7 +105,7 @@ export default function DtsCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】DTSの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社DTSの平均年間給与は658万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢39.7歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 658万円（2026年3月期 有報）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年3月期600万円から賃上げで上昇し、2025年3月期643万円・2026年3月期658万円（各期 有報）。</li><li>・職種・等級別の公式な年収表は非公表。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 658万円です（2026年3月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年3月期600万円から賃上げで上昇し、2025年3月期643万円・2026年3月期658万円です（各期 有価証券報告書）。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -138,11 +138,11 @@ export default function DtsCompanyPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：システム開発・インフラ構築の経験があり、独立系の安定基盤で幅広い業界の案件に関わりたいエンジニア向き。難易度は中程度。</p>
+            <p className="font-bold text-blue-900 mb-3">結論：システム開発・インフラ構築の経験があり、独立系の安定基盤で幅広い業界の案件に関わりたいエンジニア向きです。難易度は中程度です。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li className="flex gap-2"><span className="shrink-0">1.</span>Java・Python・JavaScript等の開発経験が活き、特定ベンダーに縛られない独立系の幅広い案件に関われる。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は658万円（2026年3月期 有報）。近年は賃上げで上昇傾向にあり、安定した収入を得やすい。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>創業50年以上・一度も赤字がない盤石経営の独立系SIerで、安定性とワークライフバランスを重視する人に向く。</li>
+              <li className="flex gap-2"><span className="shrink-0">1.</span>Java・Python・JavaScript等の開発経験が活き、特定ベンダーに縛られない独立系の幅広い案件に関われます。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は658万円です（2026年3月期 有価証券報告書）。近年は賃上げで上昇傾向にあり、安定した収入を得やすいです。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>創業50年以上・一度も赤字がない盤石経営の独立系SIerで、安定性とワークライフバランスを重視する人に向きます。</li>
             </ul>
           </div>
         </section>
@@ -209,10 +209,10 @@ export default function DtsCompanyPage() {
         </section>
 
         <section id="salary" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有報・公式求人）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有価証券報告書・公式求人）</h2>
           <p className="text-slate-700 text-sm leading-relaxed mb-4">
             DTSは上場企業のため、有価証券報告書に全社員の平均年間給与が記載されています。<strong>これは全社員平均であり、エンジニア職に限った数値ではありません。</strong>
-            職種・等級別の公式な年収表は公開されていないため、ここでは有報の推移のみを掲載します。
+            職種・等級別の公式な年収表は公開されていないため、ここでは有価証券報告書の推移のみを掲載します。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -248,10 +248,10 @@ export default function DtsCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["エントリー（書類選考）", "募集ポジションから応募し書類を提出。職務経歴・担当工程・開発経験が確認される。"],
-              ["面接（複数回）", "現場・人事等との面接。経験・技術・プロジェクト推進力が確認される。"],
-              ["適性検査（ポジションによる）", "ポジションによっては適性検査が行われる場合がある。"],
-              ["内定（オファー）", "条件・配属の説明。ミッションのすり合わせが行われる。"],
+              ["エントリー（書類選考）", "募集ポジションから応募し書類を提出します。職務経歴・担当工程・開発経験が確認されます。"],
+              ["面接（複数回）", "現場・人事等との面接です。経験・技術・プロジェクト推進力が確認されます。"],
+              ["適性検査（ポジションによる）", "ポジションによっては適性検査が行われる場合があります。"],
+              ["内定（オファー）", "条件・配属の説明です。ミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -317,7 +317,7 @@ export default function DtsCompanyPage() {
               平均年齢が39.7歳（2026年3月期）と、ミドル層が中心の組織構成です。アプリケーション開発・インフラ構築の実務経験に加え、上流工程やプロジェクトマネジメントの経験、特定業界の業務知識やクラウドの知見は、年齢に見合った価値として評価されやすいでしょう。SIerの特性上、技術力に加えて顧客折衝・調整力も重視される傾向があります。
             </p>
             <p>
-              年収面では、現職が頭打ちになっている30代・40代にとって、DTSの全社員平均658万円（有報）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
+              年収面では、現職が頭打ちになっている30代・40代にとって、DTSの全社員平均658万円（有価証券報告書）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
             </p>
             <p>
               年代別の転職実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>も参考になります。
@@ -329,9 +329,9 @@ export default function DtsCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">DTS転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で求人が豊富。SIerの非公開求人を扱うことも。書類添削・面接対策に定評。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが強みで、SIer・IT企業への転職実績が豊富。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高いSIer・専門職の求人に対応。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で求人が豊富です。SIerの非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、SIer・IT企業への転職実績が豊富です。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラスに強く、年収帯の高いSIer・専門職の求人に対応しています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

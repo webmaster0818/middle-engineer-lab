@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "年収1500万円のエンジニアに必要なスキル・役職・職種【到達ルートと現実】";
 const DESCRIPTION =
-  "年収1500万円のITエンジニアに到達する職種・役割を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理。ITSS最上位（L6・7）を超える、外資・GAFAM級・VPoE/CTO・トップスペシャリストなどごく限られた層である現実を誠実に解説。30〜40代の狙い方も示します。";
+  "年収1500万円のITエンジニアに到達する職種・役割を、経産省ITSSレベルや厚労省job tag（令和7年）など出典付きで整理。ITSS最上位（L6・7）を超える、外資・GAFAM級・VPoE/CTO・トップスペシャリストなどごく限られた層である現実を誠実に解説します。30〜40代の狙い方も示します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/1500man/" },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const toc = [
   { id: "conclusion", label: "結論：年収1500万円の位置づけと現実" },
   { id: "position", label: "年収1500万円はITSS最上位を超える帯" },
-  { id: "jobtag", label: "公的データとの距離（限界の説明）" },
+  { id: "jobtag", label: "公的データとの距離（掲載範囲の説明）" },
   { id: "jobs", label: "1500万円に届く座（ごく限られた層）" },
   { id: "trend", label: "1500万円求人の傾向と『例外的な水準』である現実" },
   { id: "route", label: "1500万円への現実的なルート" },
@@ -28,7 +28,7 @@ const toc = [
 const route = [
   {
     title: "報酬テーブルが桁違いの環境に入る",
-    desc: "1500万円は、外資系トップIT（いわゆるGAFAM級）や急成長メガベンチャーなど、そもそも報酬テーブルが桁違いの環境でなければ届きにくい水準です。国内の標準的な給与体系の延長では到達困難だと正直にお伝えします。",
+    desc: "1500万円は、外資系トップIT（いわゆるGAFAM級）や急成長メガベンチャーなど、そもそも報酬テーブルが桁違いの環境でなければ届きにくい水準です。国内の標準的な給与体系の延長では到達困難だとご説明します。",
   },
   {
     title: "経営・組織に責任を負う立場、または代替不能の専門家になる",
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "1500万円はどんな人が到達していますか？",
-    a: "外資系トップIT企業（いわゆるGAFAM級）のシニア／スタッフエンジニアやマネージャー、急成長メガベンチャーのVPoE・CTO・テックリード最上位、AI・大規模分散システム・セキュリティ等で市場が取り合うトップスペシャリスト、外資コンサルの上位マネージャーなどです。いずれも『報酬テーブルが桁違いの環境』に『代替の利かない実力』で入っている層で、ごく限られた割合に過ぎない点は正直にお伝えします。",
+    a: "外資系トップIT企業（いわゆるGAFAM級）のシニア／スタッフエンジニアやマネージャー、急成長メガベンチャーのVPoE・CTO・テックリード最上位、AI・大規模分散システム・セキュリティ等で市場が取り合うトップスペシャリスト、外資コンサルの上位マネージャーなどです。いずれも『報酬テーブルが桁違いの環境』に『代替の利かない実力』で入っている層で、ごく限られた割合に過ぎない点はご説明します。",
   },
   {
     q: "国内の一般的な企業で1500万円は狙えますか？",
@@ -135,7 +135,7 @@ export default function Salary1500Page() {
               年収1500万円は、ITSSの最上位区分L6・7の平均1,129.9万円を<strong>さらに上回る</strong>、公的なレベル別平均では表現しきれない水準です。到達者は、外資系トップIT・急成長メガベンチャーのVPoE/CTO・代替不能のトップスペシャリストなど、<strong>ごく限られた層</strong>に過ぎません。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              この帯で決定的なのは、実力に加えて<strong>「報酬テーブルが桁違いの環境を選ぶこと」</strong>と<strong>「総報酬（株式報酬込み）で設計すること」</strong>です。国内の標準的な給与体系の延長では到達困難で、環境選択が結果を大きく左右します。容易ではない、と正直に理解したうえで長期で狙う帯です。
+              この帯で決定的なのは、実力に加えて<strong>「報酬テーブルが桁違いの環境を選ぶこと」</strong>と<strong>「総報酬（株式報酬込み）で設計すること」</strong>です。国内の標準的な給与体系の延長では到達困難で、環境選択が結果を大きく左右します。容易ではない、と正確に理解したうえで長期で狙う帯です。
             </p>
           </div>
         </section>
@@ -159,17 +159,17 @@ export default function Salary1500Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L4</td>
                   <td className="px-4 py-3 border border-slate-200">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門。700万円帯</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門です。700万円帯</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L5</td>
                   <td className="px-4 py-3 border border-slate-200">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層。900万円帯</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層です。900万円帯</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L6・7</td>
                   <td className="px-4 py-3 border border-slate-200">1,129.9万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">最上位の平均。1500万円はこれを上回る</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">最上位の平均です。1500万円はこれを上回る</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">1500万円</td>
@@ -186,7 +186,7 @@ export default function Salary1500Page() {
 
         {/* 公的データとの距離 */}
         <section id="jobtag" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">公的データとの距離（限界の説明）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">公的データとの距離（掲載範囲の説明）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             厚生労働省 job tag（令和7年）の高年収職種（基盤システムSE・PM・ITコンサルなど）はいずれも約889万円の区分値で、900万円前後までが公的な職種別平均の中心です。1500万円は、これらの公表値の<strong>大きく上</strong>に位置し、職種別の「平均」で語れる水準を超えています。
           </p>
@@ -206,19 +206,19 @@ export default function Salary1500Page() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">外資系トップITのシニア／スタッフエンジニア</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">いわゆるGAFAM級の上位エンジニア。基本給に株式報酬を加えた総報酬で、1500万円超に届く層です。高い技術選考と英語力が前提になります。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">いわゆるGAFAM級の上位エンジニアです。基本給に株式報酬を加えた総報酬で、1500万円超に届く層です。高い技術選考と英語力が前提になります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">VPoE・CTO（成長企業）</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">技術組織全体に責任を負う最上位の座。上場・急成長企業では、ストックオプションを含め1500万円帯に達します。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">技術組織全体に責任を負う最上位の座です。上場・急成長企業では、ストックオプションを含め1500万円帯に達します。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">AI・大規模分散のトップスペシャリスト</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">市場が取り合う最先端領域の専門家。代替が利かないため、マネジメントを経ずとも高年収に直結する希少な座です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">市場が取り合う最先端領域の専門家です。代替が利かないため、マネジメントを経ずとも高年収に直結する希少な座です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">外資コンサルの上位マネージャー</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">大規模案件と顧客の経営課題を統括する上位職。外資ファームの報酬体系で1500万円帯に届くポジションです。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">大規模案件と顧客の経営課題を統括する上位職です。外資ファームの報酬体系で1500万円帯に届くポジションです。</p>
             </div>
           </div>
         </section>
@@ -272,7 +272,7 @@ export default function Salary1500Page() {
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            年代別の相場や汎用的な年収UP戦略は、
+            年代別の相場や汎用的な年収アップ戦略は、
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
             ・
             <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収アップを目指す転職ガイド</Link>
@@ -302,7 +302,7 @@ export default function Salary1500Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">1500万円帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハイクラス・外資に強いスカウト型エージェントに登録して、あなたの市場価値を確認しましょう。
+            ハイクラス・外資に強いスカウト型エージェントに登録して、ご自身の市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

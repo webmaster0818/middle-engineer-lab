@@ -6,10 +6,10 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Kotlinエンジニア転職ガイド｜年収・資格・求人の探し方";
 const PAGE_DESC =
-  "Kotlinエンジニアの転職を年収データ・関連資格・求人の探し方まで解説。スタンバイやフリーランスボードの公表年収、レバテック年代別データを出典付きで掲載。30代・40代の参入ルートとおすすめエージェントも紹介します。";
+  "Kotlinエンジニアの転職を年収データ・関連資格・求人の探し方まで解説します。スタンバイやフリーランスボードの公表年収、レバテック年代別データを出典付きで掲載。30代・40代の参入ルートとおすすめエージェントも紹介します。";
 
 const toc = [
-  { id: "conclusion", label: "結論：Kotlin転職の攻め方" },
+  { id: "conclusion", label: "結論：Kotlin転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
@@ -24,22 +24,22 @@ const toc = [
 const careerPaths = [
   {
     role: "Androidエンジニア",
-    note: "Jetpack Compose＋KotlinでのモダンアプリUI開発。GoogleがKotlinをAndroid推奨言語に指定しており、需要の中心。",
+    note: "Jetpack Compose＋KotlinでのモダンアプリUI開発です。GoogleがKotlinをAndroid推奨言語に指定しており、需要の中心です。",
     cert: "Associate Android Developer等",
   },
   {
     role: "サーバーサイドエンジニア",
-    note: "Spring Boot＋KotlinでのAPI・マイクロサービス開発。Javaの冗長さを減らせる点が評価される。",
+    note: "Spring Boot＋KotlinでのAPI・マイクロサービス開発です。Javaの冗長さを減らせる点が評価されます。",
     cert: "—（実務経験重視）",
   },
   {
     role: "マルチプラットフォーム開発",
-    note: "Kotlin Multiplatformで iOS/Android/Web 間のロジック共通化。新しい選択肢として注目。",
+    note: "Kotlin Multiplatformで iOS/Android/Web 間のロジック共通化です。新しい選択肢として注目です。",
     cert: "—（ポートフォリオ重視）",
   },
   {
     role: "テックリード／アーキテクト",
-    note: "Kotlin基盤のシステム設計・技術選定・チームリード。Android＋サーバーの両方を見られると強い。",
+    note: "Kotlin基盤のシステム設計・技術選定・チームリードです。Android＋サーバーの両方を見られると強いです。",
     cert: "—（設計・マネジメント経験）",
   },
 ];
@@ -112,7 +112,7 @@ export default function KotlinSkillPage() {
           Kotlinエンジニア転職ガイド｜年収・資格・求人の探し方
         </h1>
         <p className="text-slate-500 text-sm mb-4">
-          最終更新: 2026年6月 | Kotlinスキルを軸にした転職市場の攻め方を解説
+          最終更新: 2026年6月 | Kotlinスキルを軸にした転職市場での進め方を解説
         </p>
         <p className="text-slate-600 leading-relaxed mb-2">
           KotlinはGoogleがAndroid開発の推奨言語として採用した言語で、モダンな文法・null安全性・Javaとの互換性から、モバイルアプリからサーバーサイドまで採用が広がっています。本記事は求人数を競うのではなく、「年収相場の捉え方」「関連資格の活かし方」「求人の探し方」という転職判断に必要な情報に絞って整理します。
@@ -144,15 +144,15 @@ export default function KotlinSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Kotlin転職の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Kotlin転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               Kotlin転職は<strong>「Android開発を軸に、サーバーサイドへ領域を広げて市場価値を上げる」</strong>のが基本戦略です。Java経験者なら短期間で参入でき、両方をKotlinで扱えると希少性が増します。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① Java経験はそのまま強みになる。Coroutine/Flowなどに慣れる</li>
-              <li>② Jetpack Composeの習得でモダンAndroid開発をアピールする</li>
-              <li>③ サーバーサイドKotlinまで広げ、フルスタックで希少性を出す</li>
+              <li>① Java経験はそのまま強みになります。Coroutine/Flowなどに慣れます</li>
+              <li>② Jetpack Composeの習得でモダンAndroid開発をアピールします</li>
+              <li>③ サーバーサイドKotlinまで広げ、フルスタックで希少性を出します</li>
             </ul>
           </div>
         </section>
@@ -210,15 +210,15 @@ export default function KotlinSkillPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ジュニア（実務〜2年程度）</h3>
-              <p className="text-sm text-slate-600">Kotlin/Javaの基本、簡単なAndroidアプリやAPIの開発経験。個人開発の公開実績があると有利。</p>
+              <p className="text-sm text-slate-600">Kotlin/Javaの基本、簡単なAndroidアプリやAPIの開発経験です。個人開発の公開実績があると有利です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ミドル（実務3〜7年）</h3>
-              <p className="text-sm text-slate-600">Jetpack Composeでの実装、Coroutine/Flowの活用、設計・テスト経験。30代の中心レンジ。</p>
+              <p className="text-sm text-slate-600">Jetpack Composeでの実装、Coroutine/Flowの活用、設計・テスト経験です。30代の中心レンジです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">シニア／リード</h3>
-              <p className="text-sm text-slate-600">アーキテクチャ設計、Android＋サーバーサイドの横断対応、技術選定・チームリード。</p>
+              <p className="text-sm text-slate-600">アーキテクチャ設計、Android＋サーバーサイドの横断対応、技術選定・チームリードです。</p>
             </div>
           </div>
         </section>
@@ -251,19 +251,19 @@ export default function KotlinSkillPage() {
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/levtech/" className="text-petrol-deep hover:underline">レバテックキャリア</Link>
               </h3>
-              <p className="text-sm text-slate-600">IT/Web特化でモバイル案件に強いとされる。高年収求人の比率が高いとされ（同社ガイド記事）、Android寄りの求人を探しやすい。</p>
+              <p className="text-sm text-slate-600">IT/Web特化でモバイル案件に強いとされます。高年収求人の比率が高いとされ（同社ガイド記事）、Android寄りの求人を探しやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/geekly/" className="text-petrol-deep hover:underline">Geekly（ギークリー）</Link>
               </h3>
-              <p className="text-sm text-slate-600">IT/Web/ゲーム特化で提案スピードに定評。Web系スタートアップのサーバーサイドKotlin求人と相性が良い。</p>
+              <p className="text-sm text-slate-600">IT/Web/ゲーム特化で提案スピードに定評があります。Web系スタートアップのサーバーサイドKotlin求人と相性が良いです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/bizreach-it/" className="text-petrol-deep hover:underline">ビズリーチ</Link>
               </h3>
-              <p className="text-sm text-slate-600">ハイクラス・スカウト型。テックリード/アーキテクトなど高年収帯のKotlin案件に出会いやすい。</p>
+              <p className="text-sm text-slate-600">ハイクラス・スカウト型です。テックリード/アーキテクトなど高年収帯のKotlin案件に出会いやすいです。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
@@ -279,10 +279,10 @@ export default function KotlinSkillPage() {
           </p>
           <ol className="space-y-3">
             {[
-              { t: "Java経験を土台にする", d: "Javaの実務経験があれば、Kotlin固有の機能（null安全・拡張関数・Coroutine）に絞って学習すれば短期間で戦力になれる。" },
-              { t: "GitHubに動くものを公開する", d: "Androidアプリ、またはSpring Bootで作ったAPIサーバーを公開。Coroutine/Flowの活用が見られる。" },
-              { t: "Jetpack Composeを習得する", d: "モダンAndroid開発の主流。宣言的UIで実践的なアプリを作れることがアドバンテージになる。" },
-              { t: "サーバーサイドへ広げる", d: "Android＋サーバーサイドの両対応は希少性が高く、年収交渉でも有利に働く。" },
+              { t: "Java経験を土台にする", d: "Javaの実務経験があれば、Kotlin固有の機能（null安全・拡張関数・Coroutine）に絞って学習すれば短期間で戦力になれます。" },
+              { t: "GitHubに動くものを公開する", d: "Androidアプリ、またはSpring Bootで作ったAPIサーバーを公開しています。Coroutine/Flowの活用が見られます。" },
+              { t: "Jetpack Composeを習得する", d: "モダンAndroid開発の主流です。宣言的UIで実践的なアプリを作れることがアドバンテージになります。" },
+              { t: "サーバーサイドへ広げる", d: "Android＋サーバーサイドの両対応は希少性が高く、年収交渉でも有利に働きます。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
@@ -303,12 +303,12 @@ export default function KotlinSkillPage() {
               30代・40代でJavaの実務経験を積んできた人にとって、Kotlinは<strong>これまでの資産をそのまま活かせる</strong>移行先です。JVMの知識・設計経験・運用経験がそのまま通用し、Kotlin固有の機能を上乗せするだけで市場価値を高められます。若手が多いモバイル領域でも、設計力やプロジェクト経験で差別化できます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Javaの実務経験は「移行できる即戦力」として強く訴求できる</li>
-              <li>・Android＋サーバーサイドの両対応で希少性を出し、年収帯を上げる</li>
-              <li>・レバテック公表値で40代SE平均は約618万円（2025年）。設計・リード経験で上振れを狙う</li>
+              <li>・Javaの実務経験は「移行できる即戦力」として強く訴求できます</li>
+              <li>・Android＋サーバーサイドの両対応で希少性を出し、年収帯を上げます</li>
+              <li>・レバテック公表値で40代SE平均は約618万円です（2025年）。設計・リード経験で上振れを狙います</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
-              年代別の相場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>もあわせてどうぞ。
+              年代別の相場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -321,9 +321,9 @@ export default function KotlinSkillPage() {
           </p>
           <ul className="space-y-3 mb-4">
             {[
-              { t: "Kotlin固有の機能を押さえる", d: "null安全、拡張関数、データクラス、Coroutine/Flowなど、Javaにない機能を理解して実務で使えるようにする。" },
-              { t: "Jetpack Composeを習得する", d: "宣言的UIの設計パターンを学び、実践的なAndroidアプリを作れる状態にする。" },
-              { t: "サーバーサイドKotlinを試す", d: "Spring Boot＋KotlinでAPIを構築し、フルスタック対応力をポートフォリオで示す。" },
+              { t: "Kotlin固有の機能を押さえる", d: "null安全、拡張関数、データクラス、Coroutine/Flowなど、Javaにない機能を理解して実務で使えるようにします。" },
+              { t: "Jetpack Composeを習得する", d: "宣言的UIの設計パターンを学び、実践的なAndroidアプリを作れる状態にします。" },
+              { t: "サーバーサイドKotlinを試す", d: "Spring Boot＋KotlinでAPIを構築し、フルスタック対応力をポートフォリオで示します。" },
             ].map((c, i) => (
               <li key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{c.t}</h3>
@@ -332,7 +332,7 @@ export default function KotlinSkillPage() {
             ))}
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
-            資格より実務・ポートフォリオが重視される領域のため、動く成果物を見せられる状態を優先しましょう。成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>、継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>も参考にどうぞ。
+            資格より実務・ポートフォリオが重視される領域のため、動く成果物を見せられる状態を優先しましょう。成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>、継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>もご参照ください。
           </p>
         </section>
 
@@ -375,7 +375,7 @@ export default function KotlinSkillPage() {
               { name: "レバテックキャリアの評判", href: "/review/levtech/" },
               { name: "ポートフォリオの作り方", href: "/knowledge/portfolio/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

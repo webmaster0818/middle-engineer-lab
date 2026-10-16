@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/growth/" },
   title: "技術力を伸ばせる企業の選び方【成長環境の見極めポイント】",
   description:
-    "エンジニアとして技術力を伸ばせる企業の選び方を解説。技術投資の指標、エンジニア文化の見極め方、成長環境のチェックリストを紹介します。",
+    "エンジニアとして技術力を伸ばせる企業の選び方を解説します。技術投資の指標、エンジニア文化の見極め方、成長環境のチェックリストを紹介します。",
 };
 
 const faqs = [
@@ -52,7 +52,7 @@ export default function GrowthPage() {
     <>
       <ArticleJsonLd
         title="技術力を伸ばせる企業の選び方【成長環境の見極めポイント】"
-        description="エンジニアとして技術力を伸ばせる企業の選び方を解説。技術投資の指標、エンジニア文化の見極め方、成長環境のチェックリストを紹介します。"
+        description="エンジニアとして技術力を伸ばせる企業の選び方を解説します。技術投資の指標、エンジニア文化の見極め方、成長環境のチェックリストを紹介します。"
         url="/purpose/growth/"
       />
       <script
@@ -76,14 +76,14 @@ export default function GrowthPage() {
         </p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 現職でレガシー技術ばかり触っている</li>
-              <li>- 周囲のエンジニアのレベルが低く成長できない</li>
+              <li>- 現職でレガシー技術ばかり触っています</li>
+              <li>- 周囲のエンジニアのレベルが低く成長できません</li>
               <li>- モダンな技術スタックで開発したい</li>
-              <li>- コードレビュー文化がない環境にいる</li>
-              <li>- 技術的な挑戦ができる環境を求めている</li>
+              <li>- コードレビュー文化がない環境にいます</li>
+              <li>- 技術的な挑戦ができる環境を求めています</li>
             </ul>
           </div>
         </section>
@@ -125,9 +125,9 @@ export default function GrowthPage() {
           <div className="space-y-4">
             {[
               { num: "1", title: "テックブログ・OSS活動を確認", desc: "テックブログを定期的に更新している企業は技術力への投資意欲が高いです。GitHubでOSSを公開しているかも確認しましょう。" },
-              { num: "2", title: "技術スタックを確認", desc: "求人情報や面接で使用技術を確認。5年以上更新されていないフレームワークばかりの企業は成長しにくい環境です。" },
+              { num: "2", title: "技術スタックを確認", desc: "求人情報や面接で使用技術を確認します。5年以上更新されていないフレームワークばかりの企業は成長しにくい環境です。" },
               { num: "3", title: "開発プロセスを確認", desc: "コードレビュー、CI/CD、テスト自動化、スプリントレトロスペクティブが整備されているかを確認しましょう。" },
-              { num: "4", title: "学習支援制度を確認", desc: "書籍購入費補助、カンファレンス参加費支援、資格取得支援、20%ルール等の制度があるかを確認。" },
+              { num: "4", title: "学習支援制度を確認", desc: "書籍購入費補助、カンファレンス参加費支援、資格取得支援、20%ルール等の制度があるかを確認します。" },
               { num: "5", title: "現場エンジニアと話す", desc: "カジュアル面談で現場エンジニアと直接話しましょう。日々の開発フロー、技術的な課題、成長を実感できているかを聞いてください。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -147,9 +147,9 @@ export default function GrowthPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", point: "技術力を評価してくれる企業の紹介に強い。開発環境の詳細情報も提供。" },
-              { name: "Findy", point: "スキル偏差値でマッチング。技術力が高い企業が多く集まる。" },
-              { name: "Green", point: "カジュアル面談で現場エンジニアと直接話せる。企業の技術文化を事前確認。" },
+              { name: "レバテックキャリア", point: "技術力を評価してくれる企業の紹介に強いです。開発環境の詳細情報も提供しています。" },
+              { name: "Findy", point: "スキル偏差値でマッチングです。技術力が高い企業が多く集まります。" },
+              { name: "Green", point: "カジュアル面談で現場エンジニアと直接話せます。企業の技術文化を事前確認です。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -194,7 +194,7 @@ export default function GrowthPage() {
               { name: "自社開発企業への転職ガイド", href: "/purpose/jigyoukaihatsu/" },
               { name: "大企業→スタートアップ転職", href: "/career/corporate-to-startup/" },
               { name: "SE→Web系エンジニア転職", href: "/career/se-to-web/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

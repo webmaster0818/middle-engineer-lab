@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/classmethod/" },
   title: "クラスメソッド エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
-    "クラスメソッドへのエンジニア転職を実データで解説。AWSプレミアティアサービスパートナーの実績、技術ブログDevelopersIO、AWS認定を軸とした技術スタック、選考フロー、30代40代の現実までまとめました。非上場のため平均年収は公式非開示です。",
+    "クラスメソッドへのエンジニア転職を実データで解説します。AWSプレミアティアサービスパートナーの実績、技術ブログDevelopersIO、AWS認定を軸とした技術スタック、選考フロー、30代40代の現実までまとめました。非上場のため平均年収は公式非開示です。",
 };
 
 const basicData: [string, string][] = [
@@ -79,7 +79,7 @@ export default function ClassmethodCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="クラスメソッド エンジニア転職ガイド" description="クラスメソッドへのエンジニア転職を実データで解説。AWSプレミアティアサービスパートナーの実績、技術ブログDevelopersIO、AWS認定を軸とした技術スタック、選考フロー、30代40代の現実までまとめました。非上場のため平均年収は公式非開示です。" url="/company/classmethod/" />
+      <ArticleJsonLd title="クラスメソッド エンジニア転職ガイド" description="クラスメソッドへのエンジニア転職を実データで解説します。AWSプレミアティアサービスパートナーの実績、技術ブログDevelopersIO、AWS認定を軸とした技術スタック、選考フロー、30代40代の現実までまとめました。非上場のため平均年収は公式非開示です。" url="/company/classmethod/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "クラスメソッド" }]} />
 
@@ -91,7 +91,7 @@ export default function ClassmethodCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】クラスメソッドの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: クラスメソッド株式会社は非上場で有価証券報告書がなく、平均年収は公式に開示されていません。本ガイドでは推測による年収額の創作は行いません。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場・有報なしのため公式の平均年収は非開示。提示額はポジション・グレードにより幅があります。</li><li>・参考としてレバテック2025年公表の正社員SEは30代約499万円・40代約618万円。クラウド/AWS領域は専門性次第で市場水準を上回る可能性があります。</li><li>・具体的な提示水準は求人情報・面談、またはエージェント経由の想定年収でご確認ください。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場・有価証券報告書なしのため公式の平均年収は非開示です。提示額はポジション・グレードにより幅があります。</li><li>・参考としてレバテック2025年公表の正社員SEは30代約499万円・40代約618万円です。クラウド/AWS領域は専門性次第で市場水準を上回る可能性があります。</li><li>・具体的な提示水準は求人情報・面談、またはエージェント経由の想定年収でご確認ください。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -117,7 +117,7 @@ export default function ClassmethodCompanyPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：AWS等クラウドの構築・運用経験があり、資格取得や技術発信に前向きなエンジニア</li>
               <li>● <strong>向いていない人</strong>：自社単一プロダクトの開発に専念したい人、顧客折衝を避けたい人</li>
-              <li>● <strong>30代・40代</strong>：クラウドの実務×AWS認定の掛け合わせがあれば専門性を活かしやすい</li>
+              <li>● <strong>30代・40代</strong>：クラウドの実務×AWS認定の掛け合わせがあれば専門性を活かしやすいです</li>
             </ul>
           </div>
         </section>
@@ -171,7 +171,7 @@ export default function ClassmethodCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            クラスメソッドは公式採用情報・DevelopersIO（2026年6月時点）で扱う技術領域を公開しています。主な要素は以下の通りです。案件・部門により使用技術は異なります。
+            クラスメソッドは公式採用情報・DevelopersIO（2026年6月時点）で扱う技術領域を公開しています。主な要素は以下のとおりです。案件・部門により使用技術は異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -231,7 +231,7 @@ export default function ClassmethodCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              クラスメソッドは年齢よりも、クラウド・データ・コンサルティングの専門性が問われる傾向です。30代・40代のミドルエンジニアにとっては、<strong>AWSをはじめとするクラウド構築・運用の実務と、AWS認定資格の掛け合わせが強力な武器</strong>になります。資格取得を後押しする文化があるため、入社後にさらに認定を積み上げてキャリアを伸ばす道も描けます。
+              クラスメソッドは年齢よりも、クラウド・データ・コンサルティングの専門性が問われる傾向です。30代・40代のミドルエンジニアにとっては、<strong>AWSをはじめとするクラウド構築・運用の実務と、AWS認定資格の掛け合わせが強力な強み</strong>になります。資格取得を後押しする文化があるため、入社後にさらに認定を積み上げてキャリアを伸ばす道も描けます。
             </p>
             <p>
               30代40代では、<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>や<Link href="/skill/infrastructure/" className="text-petrol hover:underline">インフラ</Link>の実務に、<Link href="/cert/aws-saa/" className="text-petrol hover:underline">AWS認定ソリューションアーキテクト（SAA）</Link>や<Link href="/cert/aws-sap/" className="text-petrol hover:underline">プロフェッショナル（SAP）</Link>といった上位資格を掛け合わせると、クラウド専業企業での評価につながりやすくなります。
@@ -246,9 +246,9 @@ export default function ClassmethodCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">クラスメソッド転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。クラウド・インフラ・SES／受託の求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。クラウド実務経験者への提案数が多い。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型。クラウド・コンサル領域のハイクラス求人が集まりやすい。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。クラウド・インフラ・SES／受託の求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。クラウド実務経験者への提案数が多いです。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "スカウト型です。クラウド・コンサル領域のハイクラス求人が集まりやすいです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/koei-tecmo/" },
   title: "コーエーテクモ エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
-    "コーエーテクモ（コーエーテクモホールディングス／コーエーテクモゲームス）へのエンジニア転職を実データで解説。有価証券報告書の数字（持株会社3635は提出会社113名平均793万円）の注意点、内製Katana EngineとC++技術、選考フロー、30代40代の現実までまとめました。",
+    "コーエーテクモ（コーエーテクモホールディングス／コーエーテクモゲームス）へのエンジニア転職を実データで解説します。有価証券報告書の数字（持株会社3635は提出会社113名平均793万円）の注意点、内製Katana EngineとC++技術、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -87,7 +87,7 @@ export default function KoeiTecmoCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="コーエーテクモ エンジニア転職ガイド" description="コーエーテクモ（コーエーテクモホールディングス／コーエーテクモゲームス）へのエンジニア転職を実データで解説。有価証券報告書の数字（持株会社3635は提出会社113名平均793万円）の注意点、内製Katana EngineとC++技術、選考フロー、30代40代の現実までまとめました。" url="/company/koei-tecmo/" />
+      <ArticleJsonLd title="コーエーテクモ エンジニア転職ガイド" description="コーエーテクモ（コーエーテクモホールディングス／コーエーテクモゲームス）へのエンジニア転職を実データで解説します。有価証券報告書の数字（持株会社3635は提出会社113名平均793万円）の注意点、内製Katana EngineとC++技術、選考フロー、30代40代の現実までまとめました。" url="/company/koei-tecmo/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "コーエーテクモ" }]} />
 
@@ -99,7 +99,7 @@ export default function KoeiTecmoCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】コーエーテクモの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 持株会社コーエーテクモホールディングス（3635）の有価証券報告書では、提出会社の平均年間給与は793万円です（2025年3月期・平均年齢38.2歳）。ただし持株会社=提出会社（対象約113名）の数字です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 793万円（2025年3月期 有報・持株会社=提出会社、対象約113名）。</li><li>・推移は2024年3月期の810万円から2025年3月期は793万円（各期 有報・持株会社）。</li><li>・実際にゲームを開発するコーエーテクモゲームスの従業員は含まれず、開発職の提示水準とは性質が異なります。提示額は個別求人での確認が確実です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 793万円です（2025年3月期 有価証券報告書・持株会社=提出会社、対象約113名）。</li><li>・推移は2024年3月期の810万円から2025年3月期は793万円です（各期 有価証券報告書・持株会社）。</li><li>・実際にゲームを開発するコーエーテクモゲームスの従業員は含まれず、開発職の提示水準とは性質が異なります。提示額は個別求人での確認が確実です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -118,12 +118,12 @@ export default function KoeiTecmoCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              コーエーテクモは<strong>内製エンジン「Katana Engine」を含め開発ツールを自社内製し、C++でゲームを開発する企業</strong>です。ツールから内製する文化が特徴で、エンジン・グラフィックス等の専門性で勝負したいエンジニアに向きます。有報の年収（793万円）は持株会社の数字で、開発現場の水準とは別物である点に注意が必要です。
+              コーエーテクモは<strong>内製エンジン「Katana Engine」を含め開発ツールを自社内製し、C++でゲームを開発する企業</strong>です。ツールから内製する文化が特徴で、エンジン・グラフィックス等の専門性を強みにしたいエンジニアに向きます。有価証券報告書の年収（793万円）は持株会社の数字で、開発現場の水準とは別物である点に注意が必要です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：C++での実務経験があり、内製エンジン・グラフィックス・ツール等の専門性を深めたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：単一技術のWeb系モダンスタックやフルリモート前提を強く希望する人</li>
-              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢はハンデになりにくい</li>
+              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢はハンデになりにくいです</li>
             </ul>
           </div>
         </section>
@@ -153,7 +153,7 @@ export default function KoeiTecmoCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は有価証券報告書（3635・2025年3月期）に基づく持株会社=提出会社の全社員平均値（対象約113名）。ゲーム開発職の水準を示す数字ではない点に注意。技術スタックは公式採用ページ（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は有価証券報告書（3635・2025年3月期）に基づく持株会社=提出会社の全社員平均値（対象約113名）。ゲーム開発職の水準を示す数字ではない点に注意が必要です。技術スタックは公式採用ページです（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -169,7 +169,7 @@ export default function KoeiTecmoCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">持株会社と開発会社で性質が異なる数字</h3>
-              <p className="text-sm text-petrol-deep">上場は持株会社（3635）で、有報の従業員数（提出会社）は約113名ですが、連結従業員数は約2,684名（2025年3月末）です。開発の主体は事業会社のコーエーテクモゲームスである点を踏まえて応募先を確認しましょう。</p>
+              <p className="text-sm text-petrol-deep">上場は持株会社（3635）で、有価証券報告書の従業員数（提出会社）は約113名ですが、連結従業員数は約2,684名（2025年3月末）です。開発の主体は事業会社のコーエーテクモゲームスである点を踏まえて応募先を確認しましょう。</p>
             </div>
           </div>
         </section>
@@ -215,7 +215,7 @@ export default function KoeiTecmoCompanyPage() {
           </div>
           <p className="text-xs text-slate-400 mb-4">出典: コーエーテクモホールディングス 有価証券報告書（各年3月期）。いずれも<strong>持株会社=提出会社</strong>の全社員平均で、開発現場のエンジニア年収を示す数字ではありません。</p>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-sm text-amber-900">
-            <p className="leading-relaxed">ゲーム会社は持株会社（3635）と事業会社で有報の数字が異なります。本ページの年収表は持株会社の数字であり、ゲーム開発職の提示年収を表すものではありません。エンジニアの実際の提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。</p>
+            <p className="leading-relaxed">ゲーム会社は持株会社（3635）と事業会社で有価証券報告書の数字が異なります。本ページの年収表は持株会社の数字であり、ゲーム開発職の提示年収を表すものではありません。エンジニアの実際の提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。</p>
           </div>
         </section>
 
@@ -254,7 +254,7 @@ export default function KoeiTecmoCompanyPage() {
               コーエーテクモの中途採用は<strong>専門性重視</strong>です。内製エンジン（Katana Engine）、グラフィックス、ツール開発など、特定領域での実務経験・実績が問われます。30代・40代でも、その領域で価値を出せる実力があれば年齢自体は大きなハンデになりにくいのが実情です。提出会社の平均年齢は38.2歳で、ミドル層も活躍しやすい年齢構成です。
             </p>
             <p>
-              年収面では、有報の793万円は持株会社（提出会社・約113名）の数字であり、ゲーム開発職の提示水準とは性質が異なります。参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。エンジニア職の提示はポジション・等級により幅があるため、自分が当てはまる水準を個別求人・面談で確認することが重要です。
+              年収面では、有価証券報告書の793万円は持株会社（提出会社・約113名）の数字であり、ゲーム開発職の提示水準とは性質が異なります。参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。エンジニア職の提示はポジション・等級により幅があるため、自分が当てはまる水準を個別求人・面談で確認することが重要です。
             </p>
             <p>
               <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。C++/C#まわりのスキル整理は<Link href="/skill/csharp/" className="text-petrol hover:underline">C#エンジニアの市場価値</Link>も参考になります。
@@ -266,9 +266,9 @@ export default function KoeiTecmoCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">コーエーテクモ転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。ゲーム企業の求人も扱い、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。ゲーム業界の実務経験者への提案に強い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。ゲーム企業の求人も扱い、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。ゲーム業界の実務経験者への提案に強いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/konami/" },
   title: "コナミ エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
-    "コナミ（コナミグループ／コナミデジタルエンタテインメント）へのエンジニア転職を実データで解説。有価証券報告書の数字（持株会社9766は提出会社259名平均850万円）の注意点、C/C++/C#の技術スタック、選考フロー、30代40代の現実までまとめました。",
+    "コナミ（コナミグループ／コナミデジタルエンタテインメント）へのエンジニア転職を実データで解説します。有価証券報告書の数字（持株会社9766は提出会社259名平均850万円）の注意点、C/C++/C#の技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -88,7 +88,7 @@ export default function KonamiCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="コナミ エンジニア転職ガイド" description="コナミ（コナミグループ／コナミデジタルエンタテインメント）へのエンジニア転職を実データで解説。有価証券報告書の数字（持株会社9766は提出会社259名平均850万円）の注意点、C/C++/C#の技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/konami/" />
+      <ArticleJsonLd title="コナミ エンジニア転職ガイド" description="コナミ（コナミグループ／コナミデジタルエンタテインメント）へのエンジニア転職を実データで解説します。有価証券報告書の数字（持株会社9766は提出会社259名平均850万円）の注意点、C/C++/C#の技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/konami/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "コナミ" }]} />
 
@@ -100,7 +100,7 @@ export default function KonamiCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】コナミの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 持株会社コナミグループ（9766）の有価証券報告書では、提出会社の平均年間給与は850万円です（2026年3月期・平均年齢35.5歳）。ただし持株会社=提出会社（対象259名）の数字です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 850万円（2026年3月期 有報・持株会社=提出会社、対象259名）。</li><li>・推移は2024年3月期710万円→2025年3月期789万円→2026年3月期850万円（各期 有報・持株会社）。</li><li>・実際にゲームを開発するコナミデジタルエンタテインメント等の従業員は含まれず、開発職の提示水準とは性質が異なります。提示額は個別求人での確認が確実です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 850万円です（2026年3月期 有価証券報告書・持株会社=提出会社、対象259名）。</li><li>・推移は2024年3月期710万円→2025年3月期789万円→2026年3月期850万円です（各期 有価証券報告書・持株会社）。</li><li>・実際にゲームを開発するコナミデジタルエンタテインメント等の従業員は含まれず、開発職の提示水準とは性質が異なります。提示額は個別求人での確認が確実です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -119,12 +119,12 @@ export default function KonamiCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              コナミは<strong>家庭用・モバイル・カード等の幅広いコンテンツを、C/C++/C#で開発する総合エンタメ企業</strong>です。レンダリング・システム・AI・サーバー等、専門領域ごとに採用しています。有報の年収（850万円）は持株会社の数字で、開発現場の水準とは別物である点に注意が必要です。
+              コナミは<strong>家庭用・モバイル・カード等の幅広いコンテンツを、C/C++/C#で開発する総合エンタメ企業</strong>です。レンダリング・システム・AI・サーバー等、専門領域ごとに採用しています。有価証券報告書の年収（850万円）は持株会社の数字で、開発現場の水準とは別物である点に注意が必要です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：C/C++/C#での実務経験があり、レンダリング・システム・サーバー等の専門性を深めたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：単一技術のWeb系モダンスタックやフルリモート前提を強く希望する人</li>
-              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢はハンデになりにくい</li>
+              <li>● <strong>30代・40代</strong>：特定領域の専門性・開発実績があれば年齢はハンデになりにくいです</li>
             </ul>
           </div>
         </section>
@@ -154,7 +154,7 @@ export default function KonamiCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は有価証券報告書（9766・2026年3月期）に基づく持株会社=提出会社の全社員平均値（対象259名）。ゲーム開発職の水準を示す数字ではない点に注意。技術スタックは公式中途採用ページ（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は有価証券報告書（9766・2026年3月期）に基づく持株会社=提出会社の全社員平均値（対象259名）。ゲーム開発職の水準を示す数字ではない点に注意が必要です。技術スタックは公式中途採用ページです（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -216,7 +216,7 @@ export default function KonamiCompanyPage() {
           </div>
           <p className="text-xs text-slate-400 mb-4">出典: コナミグループ 有価証券報告書（各年3月期）。いずれも<strong>持株会社=提出会社</strong>の全社員平均で、開発現場のエンジニア年収を示す数字ではありません。持株会社化の経緯により対象人数・数字の連続性に留意が必要です。</p>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-sm text-amber-900">
-            <p className="leading-relaxed">ゲーム会社は持株会社（9766）と事業会社で有報の数字が異なります。本ページの年収表は持株会社の数字であり、ゲーム開発職の提示年収を表すものではありません。エンジニアの実際の提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。</p>
+            <p className="leading-relaxed">ゲーム会社は持株会社（9766）と事業会社で有価証券報告書の数字が異なります。本ページの年収表は持株会社の数字であり、ゲーム開発職の提示年収を表すものではありません。エンジニアの実際の提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。</p>
           </div>
         </section>
 
@@ -255,7 +255,7 @@ export default function KonamiCompanyPage() {
               コナミの中途採用は<strong>専門性重視</strong>です。レンダリング、システム、AI、サーバーサイドなど、特定領域での実務経験・実績が問われます。30代・40代でも、その領域で価値を出せる実力があれば年齢自体は大きなハンデになりにくいのが実情です。
             </p>
             <p>
-              年収面では、有報の789万円は持株会社（提出会社・約250名）の数字であり、ゲーム開発職の提示水準とは性質が異なります。参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。エンジニア職の提示はポジション・等級により幅があるため、自分が当てはまる水準を個別求人・面談で確認することが重要です。
+              年収面では、有価証券報告書の789万円は持株会社（提出会社・約250名）の数字であり、ゲーム開発職の提示水準とは性質が異なります。参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。エンジニア職の提示はポジション・等級により幅があるため、自分が当てはまる水準を個別求人・面談で確認することが重要です。
             </p>
             <p>
               <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>や<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収戦略</Link>も合わせて参考にしてください。C#まわりのスキル整理は<Link href="/skill/csharp/" className="text-petrol hover:underline">C#エンジニアの市場価値</Link>も参考になります。
@@ -267,9 +267,9 @@ export default function KonamiCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">コナミ転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。ゲーム企業の求人も扱い、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。ゲーム業界の実務経験者への提案に強い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。ゲーム企業の求人も扱い、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。ゲーム業界の実務経験者への提案に強いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

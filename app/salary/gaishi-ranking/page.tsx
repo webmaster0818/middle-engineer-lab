@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "外資ITエンジニア年収ランキング【2026年10月実測】levels.fyi日本拠点データ横断比較";
 const DESCRIPTION =
-  "外資ITエンジニアの日本拠点年収をlevels.fyiの投稿集計から実測してランキング化(2026年10月15日取得・円換算)。Apple中央値2,861万円・Google 2,560万円・Indeed 2,404万円・Microsoft 1,882万円・Amazon 1,802万円。";
+  "外資ITエンジニアの日本拠点年収をlevels.fyiの投稿集計から実測してランキング化です(2026年10月15日取得・円換算)。Apple中央値2,861万円・Google 2,560万円・Indeed 2,404万円・Microsoft 1,882万円・Amazon 1,802万円です。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/salary/gaishi-ranking/" },
@@ -26,7 +26,7 @@ const mains = [
 
 const PREV_SURVEYED = "2026年9月6日";
 
-// 参考値: 2026年10月15日時点のlevels.fyiでは中央値が表示されなかったため、前回(9月6日)取得値を日付つきで据え置き
+// 参考値: 2026年10月15日時点のlevels.fyiでは中央値が表示されなかったため、前回(9月6日)取得値を取得日を明記して据え置き
 const refs = [
   { name: "Salesforce Japan", median: 1999, nowNote: "10月15日は投稿1件・中央値非表示（表示最高額 約2,018万円）" },
   { name: "NVIDIA Japan", median: 1570, nowNote: "10月15日は投稿2件・中央値非表示（表示レンジ 約1,585万〜2,652万円）" },
@@ -36,18 +36,18 @@ const refs = [
 const faqs = [
   {
     q: "外資ITで日本拠点の年収が一番高いのはどこですか？",
-    a: `当サイトがlevels.fyi（ユーザー投稿集計）の日本拠点ソフトウェアエンジニアデータを実測した範囲（${SURVEYED}取得・円換算）では、Apple Japanが総報酬中央値 約2,861万円（11件）でトップですが、サンプルが少なく値が振れやすい点に注意が必要です。次いでGoogle 約2,560万円（52件）、Indeed 約2,404万円（61件）。前回（2026年9月6日）はGoogleが首位でしたが、Appleの集計値上昇で順位が入れ替わりました。いずれも投稿ベースの集計値で、サンプル構成により変動します。`,
+    a: `当サイトがlevels.fyi（ユーザー投稿集計）の日本拠点ソフトウェアエンジニアデータを実測した範囲（${SURVEYED}取得・円換算）では、Apple Japanが総報酬中央値 約2,861万円（11件）でトップですが、サンプルが少なく値が振れやすい点に注意が必要です。次いでGoogle 約2,560万円（52件）、Indeed 約2,404万円です（61件）。前回（2026年9月6日）はGoogleが首位でしたが、Appleの集計値上昇で順位が入れ替わりました。いずれも投稿ベースの集計値で、サンプル構成により変動しています。`,
   },
   {
     q: "この年収は基本給ですか？",
-    a: "いいえ、総報酬（Total Compensation）です。外資ITの報酬は「基本給＋株式報酬（RSU）＋賞与」の合計で構成され、特に上位レベルほど株式の比重が大きくなります。日本企業の有報平均年収（現金給与ベース）と単純比較すると外資が過大に見えるため、構成の違いに注意してください。",
+    a: "いいえ、総報酬（Total Compensation）です。外資ITの報酬は「基本給＋株式報酬（RSU）＋賞与」の合計で構成され、特に上位レベルほど株式の比重が大きくなります。日本企業の有価証券報告書平均年収（現金給与ベース）と単純比較すると外資が過大に見えるため、構成の違いに注意してください。",
   },
   {
     q: "有価証券報告書の年収ランキングとの違いは何ですか？",
-    a: "国内企業は有報で平均年間給与を公表しますが、外資日本法人の多くは有報がなく公式の平均年収が存在しません。そこで当ページはlevels.fyiの投稿集計を出典・取得日・サンプル数つきで転記しています。国内IT57社の有報準拠ランキングは別ページで公開しており、出典の性質が異なる2つの表として使い分けてください。",
+    a: "国内企業は有価証券報告書で平均年間給与を公表しますが、外資日本法人の多くは有価証券報告書がなく公式の平均年収が存在しません。そこで当ページはlevels.fyiの投稿集計を出典・取得日・サンプル数を明記して転記しています。国内IT57社の有価証券報告書準拠ランキングは別ページで公開しており、出典の性質が異なる2つの表として使い分けてください。",
   },
   {
-    q: "MetaやStripeなど他の外資は載せないのですか？",
+    q: "MetaやStripeなど他の外資は掲載しないのですか？",
     a: `掲載しない理由はデータがないためです。${SURVEYED}時点のlevels.fyiでは、Meta・SAP・Cisco・Adobe・Datadog・Stripe・Elasticの日本拠点ソフトウェアエンジニア集計は表示されませんでした（投稿不足）。推計で埋めることはせず、実測できた企業のみ掲載しています（Salesforce・NVIDIA・オラクルは前回値を日付つきの参考値として別掲）。`,
   },
 ];
@@ -83,9 +83,9 @@ export default function GaishiRankingPage() {
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】外資ITの日本拠点エンジニア年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: levels.fyiの日本拠点ソフトウェアエンジニア集計（{SURVEYED}に当サイト実測・円換算）では、総報酬の中央値はApple 約2,861万円＞Google 約2,560万円＞Indeed 約2,404万円＞Microsoft 約1,882万円＞Amazon 約1,802万円です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
-            <li>・金額は基本給＋株式（RSU）＋賞与の<strong>総報酬</strong>。国内企業の有報平均年収（現金ベース）とは性質が異なります</li>
-            <li>・全て投稿集計値でサンプル数を併記。サンプルが少ない企業は参考値として分離しています</li>
-            <li>・円換算は取得時のサイト表示レート（1ドル=158.493円）。為替・株価で変動します</li>
+            <li>・金額は基本給＋株式（RSU）＋賞与の<strong>総報酬です</strong>。国内企業の有価証券報告書平均年収（現金ベース）とは性質が異なります</li>
+            <li>・すべて投稿集計値でサンプル数を併記します。サンプルが少ない企業は参考値として分離しています</li>
+            <li>・円換算は取得時のサイト表示レートです（1ドル=158.493円）。為替・株価で変動します</li>
             <li>・前回（2026年9月6日）からの変動：Appleが3位→1位に浮上（ただし11件と少数）、Googleは1位→2位、Amazonは約1,480万→約1,802万円に上昇</li>
           </ul>
         </div>
@@ -102,7 +102,7 @@ export default function GaishiRankingPage() {
           ※総報酬（Total Compensation）＝基本給＋株式＋賞与。投稿ベースの集計値であり、実際のオファーはレベル・経験・交渉で大きく変わります。件数はlevels.fyiのレベル別集計件数の合計です。
         </p>
 
-        <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">実測ランキング（サンプル数つき）</h2>
+        <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">実測ランキング（サンプル数を併記）</h2>
         <div className="overflow-x-auto mt-2 mb-8">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -140,7 +140,7 @@ export default function GaishiRankingPage() {
 
         <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">参考値（サンプル極小のため順位外）</h2>
         <p className="text-sm text-slate-600 mb-3 leading-relaxed">
-          以下は投稿が極端に少なく、順位を付けず参考値として分離している企業です。{SURVEYED}時点のlevels.fyiでは中央値自体が表示されなかったため、<strong>前回{PREV_SURVEYED}取得の中央値を日付つきで据え置き</strong>、今回確認できた件数・表示値を併記しています（今回値ではありません）。
+          以下は投稿が極端に少なく、順位を付けず参考値として分離している企業です。{SURVEYED}時点のlevels.fyiでは中央値自体が表示されなかったため、<strong>前回{PREV_SURVEYED}取得の中央値を取得日を明記して据え置き</strong>、今回確認できた件数・表示値を併記しています（今回値ではありません）。
         </p>
         <ul className="text-sm leading-7 text-slate-700 mb-8 list-disc pl-5">
           {refs.map((c) => (
@@ -159,7 +159,7 @@ export default function GaishiRankingPage() {
           外資の総報酬は株式（RSU）込みです。例えばAmazonのRSUは1年目5%・2年目15%・3〜4年目40%ずつのバックロード型で、
           <strong>入社初年度の現金収入は表の中央値より小さくなるのが普通</strong>です。
           また投稿集計は高報酬層に偏りやすく、同じ会社でも月により中央値が動きます（Amazonは7月約1,679万→8月約1,583万→9月約1,480万と3ヶ月連続で下方修正された後、10月は約1,802万へ上方修正。集計件数も37件→26件と入れ替わっています）。
-          国内ITの有報準拠ランキング（<Link href="/salary/company-ranking/" className="text-petrol-deep font-bold hover:underline">57社版はこちら</Link>）と併読して、出典の性質ごと理解するのが実務的です。
+          国内ITの有価証券報告書準拠ランキング（<Link href="/salary/company-ranking/" className="text-petrol-deep font-bold hover:underline">57社版はこちら</Link>）と併読して、出典の性質ごと理解するのが実務的です。
         </p>
 
         <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">よくある質問</h2>

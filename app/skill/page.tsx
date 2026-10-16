@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 
-const TITLE = "スキル・言語別 エンジニア転職ガイド一覧【2026年】年収・資格・求人の攻め方";
+const TITLE = "スキル・言語別 エンジニア転職ガイド一覧【2026年】年収・資格・求人の進め方";
 const DESCRIPTION =
   "プログラミング言語・クラウド・データ/AIなど領域別に、エンジニア転職ガイドをまとめた一覧です。各スキルの公表年収データ・資格・求人の探し方・30〜40代の参入ルートを個別ページで解説しています。";
 
@@ -21,7 +21,7 @@ export default function SkillIndexPage() {
       <main className="mx-auto max-w-4xl px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-4">スキル・言語別 エンジニア転職ガイド一覧</h1>
         <p className="text-slate-600 mb-8 leading-relaxed">
-          言語・クラウド・データ/AI・データベース・専門領域ごとに、エンジニア転職ガイドを整理しました。各ページでは公表年収データ・関連資格・求人の探し方・経験年数別の攻め方を、30〜40代のミドル層向けに解説しています。気になるスキルから選んでください。
+          言語・クラウド・データ/AI・データベース・専門領域ごとに、エンジニア転職ガイドを整理しました。各ページでは公表年収データ・関連資格・求人の探し方・経験年数別の進め方を、30〜40代のミドル層向けに解説しています。気になるスキルから選んでください。
         </p>
         <section className="mb-8">
           <h2 className="text-xl font-bold text-slate-900 mb-3">プログラミング言語</h2>
@@ -94,7 +94,7 @@ export default function SkillIndexPage() {
               <Link key="ai-ml" href="/skill/ai-ml/" className="rounded-lg border border-slate-200 px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">AI・機械学習</Link>
               <Link key="generative-ai" href="/skill/generative-ai/" className="rounded-lg border border-slate-200 px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">生成AI</Link>
               <Link key="data-analyst" href="/skill/data-analyst/" className="rounded-lg border border-slate-200 px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">データアナリスト</Link>
-              <Link key="data-scientist" href="/skill/data-scientist/" className="rounded-lg border border-slate-200 px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">データサイエンティスト転職の攻め方</Link>
+              <Link key="data-scientist" href="/skill/data-scientist/" className="rounded-lg border border-slate-200 px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">データサイエンティスト転職の進め方</Link>
               <Link key="bigquery" href="/skill/bigquery/" className="rounded-lg border border-slate-200 px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">BigQuery</Link>
               <Link key="spark" href="/skill/spark/" className="rounded-lg border border-slate-200 px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">Apache Spark</Link>
               <Link key="kafka" href="/skill/kafka/" className="rounded-lg border border-slate-200 px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">Apache Kafka</Link>

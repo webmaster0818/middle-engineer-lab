@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/gmo-internet/" },
   title: "GMOインターネットグループの年収は平均693万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "GMOインターネットグループへのエンジニア転職を実データで解説。有価証券報告書の平均年収693万円（2024年12月期・持株会社単体）、ドメイン/クラウド/決済/金融のインフラ技術、選考フロー、30代40代の現実までまとめました。グループ各社の数字の読み方も明記。",
+    "GMOインターネットグループへのエンジニア転職を実データで解説します。有価証券報告書の平均年収693万円（2024年12月期・持株会社単体）、ドメイン/クラウド/決済/金融のインフラ技術、選考フロー、30代40代の現実までまとめました。グループ各社の数字の読み方も明記します。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     q: "GMOは持株会社ですか？グループ各社の数字の見方は？",
-    a: "GMOインターネットグループ株式会社（証券コード9449）は持株会社で、傘下にGMOインターネット株式会社、GMOペイメントゲートウェイ、GMOフィナンシャルホールディングス（GMOクリック証券等）など多数の上場・非上場の事業会社があります。有報の提出会社（単体）の平均年収693万円は持株会社のもので、エンジニアが多く所属する事業会社の水準とは分けて読む必要があります。",
+    a: "GMOインターネットグループ株式会社（証券コード9449）は持株会社で、傘下にGMOインターネット株式会社、GMOペイメントゲートウェイ、GMOフィナンシャルホールディングス（GMOクリック証券等）など多数の上場・非上場の事業会社があります。有価証券報告書の提出会社（単体）の平均年収693万円は持株会社のもので、エンジニアが多く所属する事業会社の水準とは分けて読む必要があります。",
   },
   {
     q: "GMOインターネットグループの技術スタックは？",
@@ -86,7 +86,7 @@ export default function GmoCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="GMOインターネットグループ エンジニア転職ガイド" description="GMOインターネットグループへのエンジニア転職を実データで解説。有価証券報告書の平均年収693万円（2024年12月期・持株会社単体）、ドメイン/クラウド/決済/金融のインフラ技術、選考フロー、30代40代の現実までまとめました。" url="/company/gmo-internet/" />
+      <ArticleJsonLd title="GMOインターネットグループ エンジニア転職ガイド" description="GMOインターネットグループへのエンジニア転職を実データで解説します。有価証券報告書の平均年収693万円（2024年12月期・持株会社単体）、ドメイン/クラウド/決済/金融のインフラ技術、選考フロー、30代40代の現実までまとめました。" url="/company/gmo-internet/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "Next.jsの転職ガイド", href: "/skill/nextjs/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "GMOインターネットグループ" }]} />
 
@@ -98,7 +98,7 @@ export default function GmoCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】GMOインターネットグループの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: GMOインターネットグループ株式会社（持株会社単体）の平均年間給与は693万円です（2024年12月期 有価証券報告書、平均年齢37.9歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 693万円（2024年12月期 有報・提出会社=持株会社単体約723名）。全社員平均です。</li><li>・推移は2022年12月期660万円から緩やかに上昇し、2024年12月期693万円（各期 有報）。</li><li>・これは持株会社の数字で、エンジニアが多く所属する各事業会社（GMOインターネット、GMOペイメントゲートウェイ等）の水準とは異なります。提示額は応募先の事業会社・求人で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 693万円です（2024年12月期 有価証券報告書・提出会社=持株会社単体約723名）。全社員平均です。</li><li>・推移は2022年12月期660万円から緩やかに上昇し、2024年12月期693万円です（各期 有価証券報告書）。</li><li>・これは持株会社の数字で、エンジニアが多く所属する各事業会社（GMOインターネット、GMOペイメントゲートウェイ等）の水準とは異なります。提示額は応募先の事業会社・求人で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -110,7 +110,7 @@ export default function GmoCompanyPage() {
           sources={[
             "GMOインターネットグループ 有価証券報告書（2024年12月期）",
             "GMOインターネットグループ公式 採用ページ／GMO Developers",
-            "IRBANK（有報ベース推移データ）",
+            "IRBANK（有価証券報告書ベース推移データ）",
             "口コミプラットフォーム（傾向）",
           ]}
         />
@@ -119,12 +119,12 @@ export default function GmoCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              GMOインターネットグループは<strong>ドメイン・クラウド・決済・金融といった社会インフラを支える、エンジニア比率の高いメガベンチャー</strong>です。持株会社体制でグループ各社が事業を運営しており、有報の単体平均年収693万円（2024年12月期）は<strong>持株会社の数字</strong>である点に注意が必要です。応募先の事業会社により技術も待遇も異なります。
+              GMOインターネットグループは<strong>ドメイン・クラウド・決済・金融といった社会インフラを支える、エンジニア比率の高いメガベンチャー</strong>です。持株会社体制でグループ各社が事業を運営しており、有価証券報告書の単体平均年収693万円（2024年12月期）は<strong>持株会社の数字</strong>である点に注意が必要です。応募先の事業会社により技術も待遇も異なります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：インフラ・決済・金融など信頼性が重視される領域で、運用・セキュリティ・大規模システムの経験を活かしたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：単一プロダクトに深く長く関わりたい人（グループは事業領域が非常に広い）</li>
-              <li>● <strong>30代・40代</strong>：基盤・運用・セキュリティの専門性があればミドル層も活きやすい</li>
+              <li>● <strong>30代・40代</strong>：基盤・運用・セキュリティの専門性があればミドル層も活きやすいです</li>
             </ul>
           </div>
         </section>
@@ -154,7 +154,7 @@ export default function GmoCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2024年12月期 有価証券報告書の提出会社（持株会社単体）数値。グループ全体の規模はこれを大きく上回ります。技術スタックは公式採用情報・GMO Developers等の公開情報ベース（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2024年12月期 有価証券報告書の提出会社（持株会社単体）数値。グループ全体の規模はこれを大きく上回ります。技術スタックは公式採用情報・GMO Developers等の公開情報ベースです（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -178,7 +178,7 @@ export default function GmoCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            GMOは持株会社のため、技術スタックは事業会社・プロダクトにより大きく異なります。公開情報で確認できる主な技術は以下の通りです。応募先の事業会社の求人で実際の構成を確認してください。
+            GMOは持株会社のため、技術スタックは事業会社・プロダクトにより大きく異なります。公開情報で確認できる主な技術は以下のとおりです。応募先の事業会社の求人で実際の構成を確認してください。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -268,9 +268,9 @@ export default function GmoCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">GMO転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。メガベンチャー求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。メガベンチャー求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/startup-vs-enterprise/" },
   title: "スタートアップvs大企業｜エンジニアの評価軸比較とフェーズ別の違い",
   description:
-    "スタートアップと大企業のエンジニア転職を評価軸で比較。フェーズ別の働き方の違い、年収データ、30代・40代の選び方を解説。後悔しないキャリア選択の判断軸を整理します。",
+    "スタートアップと大企業のエンジニア転職を評価軸で比較します。フェーズ別の働き方の違い、年収データ、30代・40代の選び方を解説します。後悔しないキャリア選択の判断軸を整理します。",
 };
 
 const faqs = [
@@ -43,10 +43,10 @@ const faqs = [
 ];
 
 const axisRows = [
-  { axis: "裁量・意思決定", startup: "大きい。少人数で決定が速い", enterprise: "役割・階層により異なる。調整が多い" },
+  { axis: "裁量・意思決定", startup: "大きいです。少人数で決定が速い", enterprise: "役割・階層により異なります。調整が多い" },
   { axis: "技術選定の自由", startup: "新しい技術を採用しやすい", enterprise: "全社標準・既存資産の制約を受けやすい" },
   { axis: "扱うシステム規模", startup: "0→1や小〜中規模が中心", enterprise: "大規模・高トラフィックを経験しやすい" },
-  { axis: "成長スピード", startup: "速い。守備範囲が広がりやすい", enterprise: "体系的だが緩やかなことも" },
+  { axis: "成長スピード", startup: "速いです。守備範囲が広がりやすい", enterprise: "体系的だが緩やかなことも" },
   { axis: "安定性", startup: "資金調達・事業状況に左右される", enterprise: "相対的に安定" },
   { axis: "報酬の構成", startup: "基本給＋ストックオプション等", enterprise: "基本給・賞与・福利厚生が中心" },
   { axis: "福利厚生・制度", startup: "整備途上のことがある", enterprise: "充実している傾向" },
@@ -54,10 +54,10 @@ const axisRows = [
 ];
 
 const phases = [
-  { phase: "シード／アーリー期", desc: "プロダクト検証段階。少人数で1人の裁量が非常に大きい。事業の不確実性が高く、報酬は基本給が抑えめでストックオプション比率が高めになりがち。0→1経験を積みたい人向け。" },
-  { phase: "シリーズA〜B（拡大初期）", desc: "プロダクトに手応えが出て組織が拡大する段階。採用・体制づくりが活発で、テックリードや基盤づくりの役割が増える。リスクとリターンのバランスを取りたい人が狙いやすいフェーズ。" },
-  { phase: "シリーズC以降／上場準備期", desc: "事業が成長し体制が整い始める。大企業に近い安定感が出る一方、立ち上げ初期ほどの裁量は薄れることも。安定とスタートアップらしさの両取りを狙う層に向く。" },
-  { phase: "大企業（成熟期）", desc: "事業・組織が確立。大規模システム、体系的な制度、福利厚生が強み。レガシー保守か先進部署かで経験の質が大きく変わるため、配属先の見極めが重要。" },
+  { phase: "シード／アーリー期", desc: "プロダクト検証段階です。少人数で1人の裁量が非常に大きいです。事業の不確実性が高く、報酬は基本給が抑えめでストックオプション比率が高めになりがちです。0→1経験を積みたい人向けです。" },
+  { phase: "シリーズA〜B（拡大初期）", desc: "プロダクトに手応えが出て組織が拡大する段階です。採用・体制づくりが活発で、テックリードや基盤づくりの役割が増えます。リスクとリターンのバランスを取りたい人が狙いやすいフェーズです。" },
+  { phase: "シリーズC以降／上場準備期", desc: "事業が成長し体制が整い始めます。大企業に近い安定感が出る一方、立ち上げ初期ほどの裁量は薄れることがあります。安定とスタートアップらしさの両取りを狙う層に向きます。" },
+  { phase: "大企業（成熟期）", desc: "事業・組織が確立です。大規模システム、体系的な制度、福利厚生が強みです。レガシー保守か先進部署かで経験の質が大きく変わるため、配属先の見極めが重要です。" },
 ];
 
 export default function StartupVsEnterprisePage() {
@@ -75,7 +75,7 @@ export default function StartupVsEnterprisePage() {
     <>
       <ArticleJsonLd
         title="スタートアップvs大企業｜エンジニアの評価軸比較とフェーズ別の違い"
-        description="スタートアップと大企業のエンジニア転職を評価軸で比較。フェーズ別の違い、年収データ、30代・40代の選び方を解説します。"
+        description="スタートアップと大企業のエンジニア転職を評価軸で比較します。フェーズ別の違い、年収データ、30代・40代の選び方を解説します。"
         url="/knowledge/startup-vs-enterprise/"
       />
       <script
@@ -103,7 +103,7 @@ export default function StartupVsEnterprisePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】スタートアップと大企業、エンジニアはどちらを選ぶべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 優劣ではなく相性です。裁量・0→1経験・成長スピードを求めるならスタートアップ、大規模システム経験・安定・福利厚生を求めるなら大企業が基本軸です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・スタートアップの報酬はストックオプションを含むが、出口が実現して初めて価値になる不確実なもの</li><li>・30代・40代の経験はシニア・テックリードとして即戦力になり、若い組織で歓迎されやすい</li><li>・スタートアップを選ぶなら資金調達フェーズ（シリーズB以降など）を確認してリスクを抑える</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・スタートアップの報酬はストックオプションを含むが、出口が実現して初めて価値になる不確実なもの</li><li>・30代・40代の経験はシニア・テックリードとして即戦力になり、若い組織で歓迎されやすいです</li><li>・スタートアップを選ぶなら資金調達フェーズ（シリーズB以降など）を確認してリスクを抑えます</li></ul>
           </div>
         </section>
 
@@ -120,7 +120,7 @@ export default function StartupVsEnterprisePage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：年収の額面ではなく「裁量・経験・安定性」の優先順位で選ぶ</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-2">
-              スタートアップと大企業は優劣ではなく相性です。<strong>裁量・0→1経験・成長スピードを求めるならスタートアップ、大規模システム経験・安定・福利厚生を求めるなら大企業</strong>が基本軸です。スタートアップの報酬はストックオプションを含むことがありますが、これは出口が実現して初めて価値になる不確実なものなので、基本給と分けて評価します。
+              スタートアップと大企業は優劣ではなく相性です。<strong>裁量・0→1経験・成長スピードを求めるならスタートアップ、大規模システム経験・安定・福利厚生を求めるなら大企業</strong>が基本軸です。スタートアップの報酬はストックオプションを含むことがありますが、これは出口が実現して初めて価値になる不確実なものなため、基本給と分けて評価します。
             </p>
             <p className="text-sm text-blue-900 leading-relaxed">
               30代・40代では、ライフイベントとリスク許容度を踏まえ、スタートアップなら資金調達フェーズ（シリーズB以降など）を確認して選ぶと、リスクを抑えつつチャレンジできます。
@@ -145,7 +145,7 @@ export default function StartupVsEnterprisePage() {
         <section id="axis" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">評価軸で見る比較表</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            「どっちが良いか」ではなく「自分が何を重視するか」で見ると判断しやすくなります。主要な評価軸ごとの傾向を整理しました。
+            「どちらが良いか」ではなく「自分が何を重視するか」で見ると判断しやすくなります。主要な評価軸ごとの傾向を整理しました。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse min-w-[640px]">
@@ -265,15 +265,15 @@ export default function StartupVsEnterprisePage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代前半：チャレンジしやすいタイミング</h3>
-              <p className="text-sm text-petrol-deep">学習意欲が高く家族の状況も比較的柔軟な時期。スタートアップで0→1や裁量の大きい役割に挑戦しやすい。仮にうまくいかなくても、エンジニアの需要は高く（経産省2019年公表の試算では2030年に最大約79万人不足）リカバリーの選択肢が多い。</p>
+              <p className="text-sm text-petrol-deep">学習意欲が高く家族の状況も比較的柔軟な時期です。スタートアップで0→1や裁量の大きい役割に挑戦しやすいです。仮にうまくいかなくても、エンジニアの需要は高く（経産省2019年公表の試算では2030年に最大約79万人不足）リカバリーの選択肢が多いです。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代後半：リスクとリターンの見極め</h3>
-              <p className="text-sm text-petrol-deep">住宅ローンや子育てなどライフイベントが重なりやすい時期。スタートアップを選ぶならシリーズB以降など資金的に安定したフェーズを選ぶと、リスクを抑えつつチャレンジできる。基本給で生活が成り立つかを必ず確認する。</p>
+              <p className="text-sm text-petrol-deep">住宅ローンや子育てなどライフイベントが重なりやすい時期です。スタートアップを選ぶならシリーズB以降など資金的に安定したフェーズを選ぶと、リスクを抑えつつチャレンジできます。基本給で生活が成り立つかを必ず確認します。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験を活かせるポジションで選ぶ</h3>
-              <p className="text-sm text-petrol-deep">スタートアップならCTO・VPoE・テックリード、大企業ならDX推進・アーキテクトなど、これまでの経験を最大限活かせる役割かが判断軸。組織構築・技術戦略・メンタリングの実績を言語化しておくと選考で評価されやすい。年収戦略は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収戦略</Link>も参照。</p>
+              <p className="text-sm text-petrol-deep">スタートアップならCTO・VPoE・テックリード、大企業ならDX推進・アーキテクトなど、これまでの経験を最大限活かせる役割かが判断軸です。組織構築・技術戦略・メンタリングの実績を言語化しておくと選考で評価されやすいです。年収戦略は<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代エンジニアの年収戦略</Link>も参照します。</p>
             </div>
           </div>
         </section>
@@ -296,9 +296,9 @@ export default function StartupVsEnterprisePage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">あなたに合った転職先を見つけよう</h2>
+          <h2 className="text-xl font-bold mb-3">ご自身に合った転職先を見つけよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントなら、スタートアップも大企業も幅広く紹介。キャリアプランに合った企業を一緒に見つけましょう。
+            IT特化型エージェントなら、スタートアップも大企業も幅広く紹介します。キャリアプランに合った企業を一緒に見つけましょう。
           </p>
           <Link
             href="/compare/agents/"

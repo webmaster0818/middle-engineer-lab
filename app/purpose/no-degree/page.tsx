@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/no-degree/" },
   title: "学歴不問でエンジニア転職【30-40代の実態と見極め方】",
   description:
-    "「学歴不問」のエンジニア求人の建前と実態を正直に解説。30-40代が学歴より問われる実力・実務経験、求人票の見極め方、該当する企業タイプ、注意点を整理します。",
+    "「学歴不問」のエンジニア求人の建前と実態を解説します。30-40代が学歴より問われる実力・実務経験、求人票の見極め方、該当する企業タイプ、注意点を整理します。",
 };
 
 const faqs = [
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "学歴の代わりに何を準備すればいい？",
-    a: "実務経験がある人は職務経歴書で『何を作り、どんな課題をどう解決したか』を具体的に書くこと。未経験の人は、独学やスクールでの学習内容、GitHubに公開した成果物、技術ブログなど『手を動かした証拠』を用意することです。資格（基本情報技術者など）も学習意欲の客観的な証明になります。",
+    a: "実務経験がある人は職務経歴書で『何を作り、どんな課題をどう解決したか』を具体的に書くことです。未経験の人は、独学やスクールでの学習内容、GitHubに公開した成果物、技術ブログなど『手を動かした証拠』を用意することです。資格（基本情報技術者など）も学習意欲の客観的な証明になります。",
   },
   {
     q: "学歴不問の求人はどこで探せばいい？",
@@ -53,7 +53,7 @@ export default function NoDegreePage() {
     <>
       <ArticleJsonLd
         title="学歴不問でエンジニア転職【30-40代の実態と見極め方】"
-        description="「学歴不問」のエンジニア求人の建前と実態を正直に解説。30-40代が学歴より問われる実力・実務経験、求人票の見極め方、該当する企業タイプ、注意点を整理します。"
+        description="「学歴不問」のエンジニア求人の建前と実態を解説します。30-40代が学歴より問われる実力・実務経験、求人票の見極め方、該当する企業タイプ、注意点を整理します。"
         url="/purpose/no-degree/"
       />
       <script
@@ -83,16 +83,16 @@ export default function NoDegreePage() {
         />
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：「学歴不問」は“学歴で足切りしない”という意味。問われるのは実力</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：「学歴不問」は“学歴で足切りしない”という意味です。問われるのは実力</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
-            中途のIT転職において「学歴不問」は珍しいものではなく、むしろ主流です。新卒採用と違い、中途では職務経歴・スキル・成果物で評価する企業が多数を占めるため、高卒・専門卒・大学中退からエンジニアとして活躍している人は数多くいます。<strong>ただし「学歴不問」は「誰でも受かる」ではありません。</strong>学歴というフィルターがない分、実務経験や技術力でシビアに見られます。とりわけ30-40代は、年齢に見合う実力と納得感のある動機が問われます。本記事では建前と実態の差を正直に整理し、学歴に左右されずに評価されるための見極め方を解説します。
+            中途のIT転職において「学歴不問」は珍しいものではなく、むしろ主流です。新卒採用と違い、中途では職務経歴・スキル・成果物で評価する企業が多数を占めるため、高卒・専門卒・大学中退からエンジニアとして活躍している人は数多くいます。<strong>ただし「学歴不問」は「誰でも受かる」ではありません。</strong>学歴というフィルターがない分、実務経験や技術力でシビアに見られます。とりわけ30-40代は、年齢に見合う実力と納得感のある動機が問われます。本記事では建前と実態の差を整理し、学歴に左右されずに評価されるための見極め方を解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 高卒・専門卒・大学中退で学歴に不安がある</li>
+              <li>- 高卒・専門卒・大学中退で学歴に不安があります</li>
               <li>- 学歴ではなく実務スキルで評価されたい</li>
-              <li>- 30-40代で未経験からエンジニアを目指している</li>
+              <li>- 30-40代で未経験からエンジニアを目指しています</li>
               <li>- 「学歴不問」求人の実態を正しく知りたい</li>
             </ul>
           </div>
@@ -122,10 +122,10 @@ export default function NoDegreePage() {
               </thead>
               <tbody>
                 {[
-                  { type: "学歴不問", desc: "応募の足切りに学歴を使わない。職務経歴・スキルで評価する。中途IT求人では一般的" },
-                  { type: "大卒以上", desc: "学歴がそのまま応募要件。一部の大企業・外資コンサルに残る。この場合は学歴不問ではない" },
+                  { type: "学歴不問", desc: "応募の足切りに学歴を使いません。職務経歴・スキルで評価します。中途IT求人では一般的" },
+                  { type: "大卒以上", desc: "学歴がそのまま応募要件です。一部の大企業・外資コンサルに残ります。この場合は学歴不問ではありません" },
                   { type: "実務経験◯年以上", desc: "学歴の代わりに実務経験で足切り。経験者には学歴の壁はほぼない" },
-                  { type: "未経験歓迎×学歴不問", desc: "ポテンシャル採用。ただし30-40代は学習実績・動機・成果物の準備が前提" },
+                  { type: "未経験歓迎×学歴不問", desc: "ポテンシャル採用です。ただし30-40代は学習実績・動機・成果物の準備が前提" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -144,7 +144,7 @@ export default function NoDegreePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">2. 学歴の代わりに評価される4つの要素</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "実務経験と成果", desc: "「何を作り、どんな課題をどう解決したか」を具体的に語れることが最大の武器です。経験者は職務経歴書でこれを言語化できれば学歴の差は埋まります。" },
+              { num: "1", title: "実務経験と成果", desc: "「何を作り、どんな課題をどう解決したか」を具体的に語れることが最大の強みです。経験者は職務経歴書でこれを言語化できれば学歴の差は埋まります。" },
               { num: "2", title: "成果物（ポートフォリオ）", desc: "GitHubに公開したコード、自作のアプリやサービスは『手を動かせる証拠』です。未経験者にとって学歴に代わる客観的な実力証明になります。" },
               { num: "3", title: "資格・学習実績", desc: "基本情報技術者試験などの資格は、学歴がなくても学習意欲と基礎知識を客観的に示せます。スクール修了やオンライン学習の積み上げも評価対象です。" },
               { num: "4", title: "動機とキャリアの一貫性", desc: "とくに30-40代は『なぜ今エンジニアなのか』に納得感が求められます。前職の経験とどう接続するかを語れると説得力が増します。" },
@@ -166,9 +166,9 @@ export default function NoDegreePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">3. 該当しやすい企業タイプ</h2>
           <div className="space-y-3">
             {[
-              { type: "自社開発・Web系企業", point: "技術力と成果物を重視する文化が根づいており、学歴より『何が作れるか』で評価する傾向が強い。" },
-              { type: "成長中のベンチャー・スタートアップ", point: "即戦力と意欲を重視。学歴フィルターをかける余裕がなく、実力ベースの採用が中心。" },
-              { type: "SES・受託開発企業", point: "未経験・学歴不問の入口が比較的広い。ただし配属先や案件の質を見極める必要がある。" },
+              { type: "自社開発・Web系企業", point: "技術力と成果物を重視する文化が根づいており、学歴より『何が作れるか』で評価する傾向が強いです。" },
+              { type: "成長中のベンチャー・スタートアップ", point: "即戦力と意欲を重視します。学歴フィルターをかける余裕がなく、実力ベースの採用が中心です。" },
+              { type: "SES・受託開発企業", point: "未経験・学歴不問の入口が比較的広いです。ただし配属先や案件の質を見極める必要があります。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>
@@ -182,7 +182,7 @@ export default function NoDegreePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 30-40代が押さえる注意点（正直な話）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">4. 30-40代が押さえる注意点（実情）</h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               <strong>「学歴不問＝年齢不問」ではありません。</strong>学歴の壁がなくても、30-40代の未経験者は20代と同じようには評価されません。企業側は『この年齢で採用して育成コストに見合うか』を慎重に見ます。だからこそ、独学やスクールでの学習実績、簡単でも動く成果物、前職経験との接続という『年齢を納得感に変える材料』を用意することが欠かせません。
@@ -201,10 +201,10 @@ export default function NoDegreePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">5. 見極めチェックリスト</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "応募要件が「学歴不問」か「大卒以上」かを確認", desc: "求人票の応募資格欄を必ずチェック。大卒以上の求人に学歴がなくても応募すると足切りされます。" },
+              { num: "1", title: "応募要件が「学歴不問」か「大卒以上」かを確認", desc: "求人票の応募資格欄を必ずチェックします。大卒以上の求人に学歴がなくても応募すると足切りされます。" },
               { num: "2", title: "「学歴不問」と「未経験歓迎」を切り分ける", desc: "経験者向けか未経験者向けかで準備が変わります。自分の現状に合う求人群を選びましょう。" },
               { num: "3", title: "学歴に代わる実力証明を用意したか確認", desc: "職務経歴書の成果記述、ポートフォリオ、資格など、評価軸となる材料を揃えます。" },
-              { num: "4", title: "配属先・案件の質を面接で確認", desc: "間口の広い求人ほど入社後の環境差が大きい。スキルが伸びる配属かを確認します。" },
+              { num: "4", title: "配属先・案件の質を面接で確認", desc: "間口の広い求人ほど入社後の環境差が大きいです。スキルが伸びる配属かを確認します。" },
               { num: "5", title: "年齢に見合う動機を言語化したか確認", desc: "30-40代は『なぜ今か』への納得感が合否を分けます。前職との接続を語れる状態にします。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -237,7 +237,7 @@ export default function NoDegreePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">学歴に左右されない求人を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">実力ベースで評価する企業を、IT特化型エージェントがあなたの経歴に合わせて提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">実力ベースで評価する企業を、IT特化型エージェントがご自身の経歴に合わせて提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -250,7 +250,7 @@ export default function NoDegreePage() {
               { name: "年齢不問の求人を狙う転職", href: "/purpose/no-age-limit/" },
               { name: "第二新卒のIT転職", href: "/purpose/second-new-grad/" },
               { name: "目的別ガイド一覧", href: "/purpose/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

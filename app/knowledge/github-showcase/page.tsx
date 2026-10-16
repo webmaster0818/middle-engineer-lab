@@ -28,7 +28,7 @@ const faqs = [
     a: "GitHubが空でも、それ自体で不採用になることは多くありません。多くのエンジニアは業務コードを公開できないからです。ただし、Web系・自社開発企業では『コードが書ける現役性』を見たい採用担当もいるため、個人開発・OSS・技術記事のいずれか1つでも継続している痕跡があると安心材料になります。空のまま放置するより、小さくても整ったリポジトリを1〜2個用意する方が効果的です。",
   },
   {
-    q: "業務で書いたコードをGitHubに載せても大丈夫ですか？",
+    q: "業務で書いたコードをGitHubに掲載しても問題ありませんか？",
     a: "業務コードをそのまま公開するのは守秘義務・著作権の観点で原則NGです。会社に著作権が帰属しているケースが大半で、社名や内部構成が特定できる情報を出すと信頼を失います。業務で得た知見を活かして、固有情報を取り除いた『汎用版』を個人で作り直して公開するのが安全な方法です。",
   },
   {
@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "GitHub以外で技術力を示す方法はありますか？",
-    a: "あります。技術ブログ（Zenn・Qiita）、OSS貢献、登壇資料、個人開発のデモサイトなどが代表例です。GitHubはあくまで成果物の置き場の一つなので、横断的な見せ方は",
+    a: "あります。技術ブログ（Zenn・Qiita）、OSS貢献、登壇資料、個人開発のデモサイトなどが代表例です。GitHubはあくまで成果物の置き場の一つため、横断的な見せ方は",
     aLink: { text: "ポートフォリオの見せ方", href: "/knowledge/portfolio/" },
     aAfter: "を、ブログ単体の運用は技術ブログの記事を参照してください。",
   },
@@ -97,7 +97,7 @@ export default function GithubShowcasePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職でGitHubは採用担当にどう見られ、何を見せればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 採用担当はコードを隅々まで読まず、プロフィール・ピン留め・READMEをざっと眺めて「今も手を動かしているか（現役性）」「設計判断ができるか（再現性）」を推し量ります。数より1〜2個の完成度で示すのが効果的です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・見られるのは主にプロフィール・ピン留め・README。限られた時間でざっと判断されます</li><li>・ミドルが示すべきは現役性（直近のコミット・モダンな構成）と再現性（なぜその設計かをREADMEで語ること）</li><li>・業務コードは公開せず、固有情報を除いた汎用版・OSS貢献・技術記事で代替できます</li><li>・即席アプリの量産より、整ったプロフィール＋設計判断が伝わるリポジトリ1〜2個＋継続の痕跡に投資する</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・見られるのは主にプロフィール・ピン留め・READMEです。限られた時間でざっと判断されます</li><li>・ミドルが示すべきは現役性（直近のコミット・モダンな構成）と再現性（なぜその設計かをREADMEで語ること）</li><li>・業務コードは公開せず、固有情報を除いた汎用版・OSS貢献・技術記事で代替できます</li><li>・即席アプリの量産より、整ったプロフィール＋設計判断が伝わるリポジトリ1〜2個＋継続の痕跡に投資します</li></ul>
           </div>
         </section>
 
@@ -127,16 +127,16 @@ export default function GithubShowcasePage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">1. 結論：ミドルのGitHubは『現役性と再現性』を示す場</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            未経験者のGitHubが「コードが書ける証明」なのに対し、実務経験のある30代・40代のGitHubに期待されるのは別物です。結論から言えば、ミドルが示すべきは次の2点です。
+            未経験者のGitHubが「コードが書ける証明」なのに対し、実務経験のある30代・40代のGitHubに期待されるのは別物です。ミドルが示すべきは次の2点です。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">現役性</h3>
-              <p className="text-sm text-petrol-deep">「マネジメント中心で、もう手を動かせないのでは」という40代特有の懸念を払拭する。最新のコミット・モダンな技術スタックの痕跡が効きます。</p>
+              <p className="text-sm text-petrol-deep">「マネジメント中心で、もう手を動かせないのでは」という40代特有の懸念を払拭します。最新のコミット・モダンな技術スタックの痕跡が効きます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">再現性</h3>
-              <p className="text-sm text-petrol-deep">「なぜその設計にしたか」をREADMEで語れること。手が動くだけでなく、判断の理由を再現可能な形で残せるのがミドルの差別化点です。</p>
+              <p className="text-sm text-petrol-deep">「なぜその設計にしたか」をREADMEで語れることが重要です。手が動くだけでなく、判断の理由を再現可能な形で残せるのがミドルの差別化点です。</p>
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
@@ -154,7 +154,7 @@ export default function GithubShowcasePage() {
           </p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "コントリビューション（草）＝継続性", desc: "緑のグラフは「今も活動しているか」の第一印象。毎日埋める必要はなく、不自然に詰める必要もありません。継続の痕跡があれば十分です。" },
+              { num: "1", title: "コントリビューション（草）＝継続性", desc: "緑のグラフは「今も活動しているか」の第一印象です。毎日埋める必要はなく、不自然に詰める必要もありません。継続の痕跡があれば十分です。" },
               { num: "2", title: "ピン留めリポジトリ＝見せたい代表作", desc: "最大6枠に何を置くかで自己プロデュース力が伝わります。READMEが整い技術判断が見えるものだけを厳選します。" },
               { num: "3", title: "README＝コードを読まずに伝わる説明", desc: "概要・構成図・起動方法・工夫点・残課題が書かれているか。多くの採用担当はREADMEで判断を済ませます。" },
               { num: "4", title: "技術選定の理由＝設計判断の証拠", desc: "「なぜこの言語・構成にしたか」が書かれていると、ミドルらしい判断力が伝わります。最も差をつけやすい部分です。" },
@@ -187,7 +187,7 @@ export default function GithubShowcasePage() {
                 "アーキテクチャ図 or 構成の概要がある",
                 "ローカルでの起動手順（環境構築コマンド）がある",
                 "工夫した点・設計上のトレードオフが書かれている",
-                "既知の課題・残タスク（Known Issues）を正直に書いている",
+                "既知の課題・残タスク（Known Issues）を記載している",
                 "デモURL or スクリーンショットがある（動くものは強い）",
                 "ライセンスが明記されている",
               ].map((c, i) => (
@@ -200,17 +200,17 @@ export default function GithubShowcasePage() {
           <p className="text-slate-600 leading-relaxed mb-4">下は「工夫した点・トレードオフ」セクションの記述例です。ミドルらしさは、選んだ理由と<strong>選ばなかった選択肢</strong>を併記できるかに出ます。</p>
           <pre className="bg-slate-900 text-slate-100 text-xs rounded-xl p-5 overflow-x-auto leading-relaxed">{`## 設計上の判断
 
-- 永続化はPostgreSQLを採用。当初はNoSQLも検討したが、
-  集計クエリが多くトランザクション整合性が要るためRDBを選択。
-- 認証は自前実装せず外部IdPに委譲。運用負荷とセキュリティ責任を
-  外出しする判断（小規模個人開発のため）。
-- 非同期処理はあえて入れていない。現状のスループットでは
-  オーバーエンジニアリングと判断した（負荷が増えたら導入予定）。
+- 永続化はPostgreSQLを採用します。当初はNoSQLも検討したが、
+  集計クエリが多くトランザクション整合性が要るためRDBを選択します。
+- 認証は自前実装せず外部IdPに委譲です。運用負荷とセキュリティ責任を
+  外出しする判断です（小規模個人開発のため）。
+- 非同期処理はあえて入れていません。現状のスループットでは
+  オーバーエンジニアリングと判断しました（負荷が増えたら導入予定）。
 
 ## 残課題（Known Issues）
 
-- E2Eテスト未整備。現状はユニットテストのみ。
-- N+1クエリが一覧画面に1箇所残っている（issue #12）。`}</pre>
+- E2Eテスト未整備です。現状はユニットテストのみです。
+- N+1クエリが一覧画面に1箇所残っています（issue #12）。`}</pre>
         </section>
 
         {/* 4. 運用テク */}
@@ -219,7 +219,7 @@ export default function GithubShowcasePage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ピン留めは「見てほしい順」に並べ替える</h3>
-              <p className="text-sm text-slate-600">ピン留めは表示順を手動で変えられます。最も自信のあるリポジトリを左上に置きましょう。OSS貢献のフォーク先や、業務に近い技術構成のものを前に出すと、応募先に刺さります。</p>
+              <p className="text-sm text-slate-600">ピン留めは表示順を手動で変えられます。最も自信のあるリポジトリを左上に置きましょう。OSS貢献のフォーク先や、業務に近い技術構成のものを前に出すと、応募先に評価されます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">古い・未完成リポジトリはアーカイブで整理</h3>
@@ -244,10 +244,10 @@ export default function GithubShowcasePage() {
           </p>
           <div className="space-y-4">
             {[
-              { t: "知見の汎用版を作り直す", d: "業務で得た課題感から固有情報を取り除き、小さな汎用ツールやサンプルとして公開する。社内ツールの汎用版はよくあるパターンです。" },
-              { t: "OSSに小さく貢献する", d: "ドキュメント修正・翻訳・issue報告など、コードを書かない貢献でも公開された履歴が残ります。詳細はOSS貢献の記事へ。" },
+              { t: "知見の汎用版を作り直す", d: "業務で得た課題感から固有情報を取り除き、小さな汎用ツールやサンプルとして公開しています。社内ツールの汎用版はよくあるパターンです。" },
+              { t: "OSSに小さく貢献する", d: "ドキュメント修正・翻訳・issue報告など、コードを書かない貢献でも公開された履歴が残ります。詳細はOSS貢献の記事をご覧ください。" },
               { t: "技術記事で思考を可視化する", d: "コードを公開できなくても、設計判断やトラブル対応の思考過程は記事にできます。これも立派なアウトプットです。" },
-              { t: "サンプルコード付きの検証リポジトリ", d: "新技術を試した最小構成のサンプルを公開する。完成プロダクトでなくても、検証の丁寧さが伝わります。" },
+              { t: "サンプルコード付きの検証リポジトリ", d: "新技術を試した最小構成のサンプルを公開します。完成プロダクトでなくても、検証の丁寧さが伝わります。" },
             ].map((n, i) => (
               <div key={i} className="bg-emerald-50 border border-emerald-200 rounded-lg p-5">
                 <h3 className="font-bold text-emerald-800 mb-1">{n.t}</h3>
@@ -265,7 +265,7 @@ export default function GithubShowcasePage() {
               { t: "NG1：bot的なコミットで草を量産", d: "自動コミットや空更新で草を埋めると、見る人が見れば不自然さに気づきます。継続性を偽装するより、薄くても本物の活動を残しましょう。" },
               { t: "NG2：フォークしただけのリポジトリが大量", d: "スター代わりにフォークしたリポジトリが並ぶと、自分の成果物が埋もれます。フォークは整理し、貢献したものだけ残します。" },
               { t: "NG3：READMEのない空リポジトリを放置", d: "コードがあってもREADMEがないと読まれません。説明のないリポジトリは公開しないか、最低限の概要を付けます。" },
-              { t: "NG4：業務コードをそのまま公開", d: "守秘義務・著作権違反になり、信頼を一発で失います。社名・内部数値・固有構成は出さず、汎用化してから公開します。" },
+              { t: "NG4：業務コードをそのまま公開", d: "守秘義務・著作権違反になり、信頼を大きく損ないます。社名・内部数値・固有構成は出さず、汎用化してから公開します。" },
             ].map((n, i) => (
               <div key={i} className="bg-red-50 border border-red-200 rounded-lg p-5">
                 <h3 className="font-bold text-red-700 mb-1">{n.t}</h3>
@@ -281,11 +281,11 @@ export default function GithubShowcasePage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の幅と設計判断を見せる</h3>
-              <p className="text-sm text-petrol-deep">手が動くのは前提として、技術選定やリファクタの判断ができることをREADMEで示すと効果的です。Web系・新領域への挑戦時はGitHubの効果が大きくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">手が動くのは前提として、技術選定やリファクタの判断ができることをREADMEで示すと効果的です。Web系・新領域への挑戦時はGitHubの効果が大きくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職です</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：現役性を疑われないことが最優先</h3>
-              <p className="text-sm text-petrol-deep">「もう手を動かせないのでは」という先入観を、直近のコミットとモダンな構成で払拭します。マネジメント志向でも、コードを読み書きできる現役性を見せると採用の安心材料になります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">「もう手を動かせないのでは」という先入観を、直近のコミットとモダンな構成で払拭します。マネジメント志向でも、コードを読み書きできる現役性を見せると採用の安心材料になります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職です</Link>。</p>
             </div>
           </div>
         </section>
@@ -317,7 +317,7 @@ export default function GithubShowcasePage() {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">GitHubの見せ方をプロに相談しよう</h2>
-          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、応募先に刺さるGitHub・成果物の見せ方を具体的にアドバイスしてくれます。</p>
+          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、応募先に評価されるGitHub・成果物の見せ方を具体的にアドバイスしてくれます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>

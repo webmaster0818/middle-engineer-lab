@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/bandai-namco/" },
   title: "バンダイナムコの転職難易度と年収は？平均984万円【2026年・有報】エンジニア転職ガイド",
   description:
-    "バンダイナムコオンラインの平均年齢は34歳・従業員212名(2022年3月時点の公表値)。同社は2025年4月1日付でバンダイナムコエンターテインメントに吸収合併され消滅しました。あわせてバンダイナムコのエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説。",
+    "バンダイナムコオンラインの平均年齢は34歳・従業員212名です(2022年3月時点の公表値)。同社は2025年4月1日付でバンダイナムコエンターテインメントに吸収合併され消滅しました。あわせてバンダイナムコのエンジニア中途採用を有価証券報告書・公式採用ページの一次情報で解説します。",
 };
 
 const toc = [
@@ -54,7 +54,7 @@ export default function BandaiNamcoCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="バンダイナムコ エンジニア転職ガイド" description="バンダイナムコへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説。持株会社平均年収984万円(2026年3月期)の注意点、内製エンジンSOL-AVES等の技術をまとめました。" url="/company/bandai-namco/" />
+      <ArticleJsonLd title="バンダイナムコ エンジニア転職ガイド" description="バンダイナムコへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。持株会社平均年収984万円(2026年3月期)の注意点、内製エンジンSOL-AVES等の技術をまとめました。" url="/company/bandai-namco/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "バンダイナムコ" }]} />
 
@@ -69,19 +69,19 @@ export default function BandaiNamcoCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】バンダイナムコの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 有価証券報告書の平均年収984万円（2026年3月期）は持株会社バンダイナムコHD単体の値で、ゲーム開発現場のエンジニア年収ではありません。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・持株会社（BNHD）単体の平均年収984万円・平均年齢44.6歳（2026年3月期 有報・従業員80名）。前期の1,216万円・46.7歳から大きく変動しており、経営管理機能中心の持株会社の数値は構成変化で大きく動きます。</li><li>・開発会社（バンダイナムコスタジオ等）の職種別・等級別年収は非開示。当ガイドでは推測の数値表は掲載していません。</li><li>・口コミでは賞与比率が高く、IT系企業と比べ待遇面で見劣りするとの声も。実際の処遇は応募先の会社単位でご確認ください。</li><li>・<strong>バンダイナムコオンラインの平均年齢は34歳・従業員212名（2022年3月時点の公表値）。同社は2025年4月1日付でバンダイナムコエンターテインメントに吸収合併され、現在は存在しません</strong>（<a href="#online" className="text-petrol underline">詳細</a>）。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・持株会社（BNHD）単体の平均年収984万円・平均年齢44.6歳です（2026年3月期 有価証券報告書・従業員80名）。前期の1,216万円・46.7歳から大きく変動しており、経営管理機能中心の持株会社の数値は構成変化で大きく動きます。</li><li>・開発会社（バンダイナムコスタジオ等）の職種別・等級別年収は非開示です。当ガイドでは推測の数値表は掲載していません。</li><li>・口コミでは賞与比率が高く、IT系企業と比べ待遇面で見劣りするとの声も。実際の処遇は応募先の会社単位でご確認ください。</li><li>・<strong>バンダイナムコオンラインの平均年齢は34歳・従業員212名です（2022年3月時点の公表値）。同社は2025年4月1日付でバンダイナムコエンターテインメントに吸収合併され、現在は存在しません</strong>（<a href="#online" className="text-petrol underline">詳細</a>）。</li></ul>
         </div>
 
-        <DataNote surveyedAt="2026年8月" sources={["バンダイナムコHD 有価証券報告書（2026年3月期）", "バンダイナムコスタジオ 公式採用サイト", "リサコ by キャリコネ（有報読解）", "OpenWork（口コミ傾向）"]} />
+        <DataNote surveyedAt="2026年8月" sources={["バンダイナムコHD 有価証券報告書（2026年3月期）", "バンダイナムコスタジオ 公式採用サイト", "リサコ by キャリコネ（有価証券報告書読解）", "OpenWork（口コミ傾向）"]} />
 
         <section id="conclusion" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度と向くエンジニア</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高い（経験者・職種特化／応募先の会社選びが鍵）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・開発の中核は<strong>バンダイナムコスタジオ</strong>。C++・内製エンジン『SOL-AVES』を軸に、グラフィックス／サーバ／ゲームAI／機械学習R&Dなど職種が細分化。専門特化型に向く。</li>
-              <li>・世界的IPの大規模タイトル開発に携われる一方、<strong>持株会社の有報年収（984万円）はゲーム開発現場の実態ではない</strong>点に強く注意が必要。</li>
-              <li>・応募先は<strong>会社ごと（スタジオ／エンターテインメント／オンライン）</strong>に分かれる。自分の専門に合う会社を起点に選ぶ。</li>
+              <li>・開発の中核は<strong>バンダイナムコスタジオです</strong>。C++・内製エンジン『SOL-AVES』を軸に、グラフィックス／サーバ／ゲームAI／機械学習R&Dなど職種が細分化します。専門特化型に向きます。</li>
+              <li>・世界的IPの大規模タイトル開発に携われる一方、<strong>持株会社の有価証券報告書年収（984万円）はゲーム開発現場の実態ではない</strong>点に強く注意が必要です。</li>
+              <li>・応募先は<strong>会社ごと（スタジオ／エンターテインメント／オンライン）</strong>に分かれます。自分の専門に合う会社を起点に選びます。</li>
             </ul>
           </div>
         </section>
@@ -100,7 +100,7 @@ export default function BandaiNamcoCompanyPage() {
               {basicData.map(([label, value], i) => (<tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}><th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">{label}</th><td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td></tr>))}
             </tbody></table>
           </div>
-          <p className="text-xs text-slate-500">出典：バンダイナムコホールディングス「有価証券報告書」2026年3月期（提出会社＝持株会社単体）、リサコ by キャリコネによる有報読解、バンダイナムコスタジオ公式採用サイト。<strong>提出会社は経営管理を担う持株会社のため、平均年収・平均年齢は開発会社の実態とは異なります。</strong></p>
+          <p className="text-xs text-slate-500">出典：バンダイナムコホールディングス「有価証券報告書」2026年3月期（提出会社＝持株会社単体）、リサコ by キャリコネによる有価証券報告書読解、バンダイナムコスタジオ公式採用サイト。<strong>提出会社は経営管理を担う持株会社のため、平均年収・平均年齢は開発会社の実態とは異なります。</strong></p>
         </section>
 
         <section id="feature" className="mb-10">
@@ -137,13 +137,13 @@ export default function BandaiNamcoCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-2">
             開発会社（バンダイナムコスタジオ等）の職種別・等級別の年収レンジは公式に開示されていません。口コミプラットフォームでは「賞与の比率が高い」「IT系企業と比べ待遇面で見劣りするとの声がある」といった傾向が見られますが、確定した公開値はないため、当ガイドでは推測の等級別年収表は掲載していません。内定時の処遇は応募先の会社単位で個別に確認してください。
           </p>
-          <p className="text-xs text-slate-500">出典：バンダイナムコホールディングス「有価証券報告書」2026年3月期、リサコ by キャリコネによる有報読解、OpenWork掲載の口コミ傾向。</p>
+          <p className="text-xs text-slate-500">出典：バンダイナムコホールディングス「有価証券報告書」2026年3月期、リサコ by キャリコネによる有価証券報告書読解、OpenWork掲載の口コミ傾向。</p>
         </section>
 
         <section id="online" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">バンダイナムコオンラインの平均年齢と現在（2025年4月に吸収合併）</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-5 mb-4">
-            <p className="text-sm leading-7 text-slate-700"><strong>【直答】バンダイナムコオンラインの平均年齢は34歳、従業員数は212名（いずれも2022年3月現在の同社公表の企業情報）。ただし同社は2025年4月1日付でバンダイナムコエンターテインメントに吸収合併され、会社としては消滅しています。</strong></p>
+            <p className="text-sm leading-7 text-slate-700"><strong>【直答】バンダイナムコオンラインの平均年齢は34歳、従業員数は212名です（いずれも2022年3月現在の同社公表の企業情報）。ただし同社は2025年4月1日付でバンダイナムコエンターテインメントに吸収合併され、会社としては消滅しています。</strong></p>
           </div>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>株式会社バンダイナムコオンライン（2009年設立・資本金5,000万円）は、PC・スマホ向けオンラインゲームの企画・開発・運営を担うグループ会社でしたが、2024年11月20日に公表された「合併に関するお知らせ」のとおり、<strong>2025年4月1日付でバンダイナムコエンターテインメントを存続会社とする吸収合併により消滅</strong>しました。『アイドリッシュセブン』『ガンダムトライヴ』等の運営タイトルや契約はバンダイナムコエンターテインメントに引き継がれています。</p>
@@ -156,10 +156,10 @@ export default function BandaiNamcoCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公開情報ベース）</h2>
           <ol className="space-y-3">
             {[
-              ["STEP 1", "応募（会社別）", "バンダイナムコスタジオ等、応募先の会社の公式採用ページまたはエージェント経由で応募。"],
-              ["STEP 2", "書類選考", "職務経歴書・スキルで募集職種とのマッチを確認。"],
-              ["STEP 3", "作品・面接", "ゲーム開発職では作品・ポートフォリオ審査の場合あり。面接は複数回を想定。"],
-              ["STEP 4", "内定", "応募先の会社の処遇に基づき条件提示。"],
+              ["STEP 1", "応募（会社別）", "バンダイナムコスタジオ等、応募先の会社の公式採用ページまたはエージェント経由で応募します。"],
+              ["STEP 2", "書類選考", "職務経歴書・スキルで募集職種とのマッチを確認します。"],
+              ["STEP 3", "作品・面接", "ゲーム開発職では作品・ポートフォリオ審査の場合があります。面接は複数回を想定します。"],
+              ["STEP 4", "内定", "応募先の会社の処遇に基づき条件提示です。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -186,14 +186,14 @@ export default function BandaiNamcoCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、バンダイナムコグループについて<strong>「有名IPの大規模タイトルに関われる働きがい」「ブランドの安定感」</strong>を評価する声が見られます。一方、開発（スタジオ）のエンジニアからは<strong>「給与が相対的に低い、純粋なIT企業の方が待遇が良いと感じる」「賞与比率が高い給与構造」</strong>といった指摘も見られ、働きがいと処遇のバランスは人により評価が分かれる傾向です。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価はグループ各社・部署・職種により大きく異なります。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。評価はグループ各社・部署・職種により大きく異なります。</p>
         </section>
 
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たバンダイナムコ</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>世界的IPの大規模開発という、他社では得がたい経験が積める点は30代・40代のゲームエンジニアにとって大きな魅力です。テクニカルディレクターやリードエンジニアといった役割の募集もあり、<strong>マネジメント・技術リードの経験を活かせるポジション</strong>が存在します。専門特化が進んだ組織のため、自分の領域（グラフィックス／サーバ／ML等）の深さが評価されます。</p>
-            <p>一方で、年収面では「持株会社の有報年収（984万円）＝開発職の年収ではない」ことを必ず理解しておく必要があります。前職がメガベンチャーやWeb系の場合、開発会社の提示年収が想定より低く感じられる可能性もあるため、内定時の処遇を個別に精査し、年収交渉を行うことが重要です。IPへの愛着とキャリアの専門性、そして処遇のバランスをどう取るかが判断軸になります。</p>
+            <p>一方で、年収面では「持株会社の有価証券報告書年収（984万円）＝開発職の年収ではない」ことを必ず理解しておく必要があります。前職がメガベンチャーやWeb系の場合、開発会社の提示年収が想定より低く感じられる可能性もあるため、内定時の処遇を個別に精査し、年収交渉を行うことが重要です。IPへの愛着とキャリアの専門性、そして処遇のバランスをどう取るかが判断軸になります。</p>
             <p>転職判断では年収相場の把握が欠かせません。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/offer-compare/" className="text-petrol hover:underline">オファー比較の進め方</Link>もあわせて確認してください。</p>
           </div>
         </section>
@@ -201,7 +201,7 @@ export default function BandaiNamcoCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">バンダイナムコ転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化。ゲーム企業の求人提案に強み。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人比率が高く、技術面接対策のサポートあり。" }, { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚い。大手エンタメ系の求人もカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。ゲーム企業の求人提案に強みがあります。" }, { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収求人比率が高く、技術面接対策のサポートがあります。" }, { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚いです。大手エンタメ系の求人もカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">求人保有状況は時期により変動します。<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>もあわせて参照してください。</p>
         </section>

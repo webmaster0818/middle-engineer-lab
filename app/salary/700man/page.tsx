@@ -166,22 +166,22 @@ export default function Salary700Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L2</td>
                   <td className="px-4 py-3 border border-slate-200">478.6万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">500万円帯。まだ手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">500万円帯です。まだ手前</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L3</td>
                   <td className="px-4 py-3 border border-slate-200">576.0万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">一人前。600万円帯。手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">一人前です。600万円帯です。手前</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L4</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">高度専門（プロ）。700万円の中心</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">高度専門です（プロ）。700万円の中心</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L5</td>
                   <td className="px-4 py-3 border border-slate-200">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層。800〜900万円帯。次の目標</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層です。800〜900万円帯です。次の目標</td>
                 </tr>
               </tbody>
             </table>
@@ -238,19 +238,19 @@ export default function Salary700Page() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">上級SE・テックリード</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">設計・技術選定をリードし、チームの実装品質を引き上げる役割。700万円帯の中心的なポジションです。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">設計・技術選定をリードし、チームの実装品質を引き上げる役割です。700万円帯の中心的なポジションです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">クラウド・インフラ高度専門</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">クラウド基盤の設計・運用を主導する専門職。需要の伸びが大きく、専門性が年収に反映されやすい領域です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">クラウド基盤の設計・運用を主導する専門職です。需要の伸びが大きく、専門性が年収に反映されやすい領域です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">SRE・データ基盤エンジニア</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">信頼性やデータ基盤を担う専門職。希少性が高く、700万円帯に届きやすい領域です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">信頼性やデータ基盤を担う専門職です。希少性が高く、700万円帯に届きやすい領域です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">チームリーダー・PL</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">小〜中規模チームの進行と技術をまとめる役割。マネジメントの入口で、800万円帯への足がかりにもなります。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">小〜中規模チームの進行と技術をまとめる役割です。マネジメントの入口で、800万円帯への足がかりにもなります。</p>
             </div>
           </div>
         </section>
@@ -301,7 +301,7 @@ export default function Salary700Page() {
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            年代別の相場や汎用的な年収UP戦略は、
+            年代別の相場や汎用的な年収アップ戦略は、
             <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>
             ・
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
@@ -331,7 +331,7 @@ export default function Salary700Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">700万円帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化・ハイクラスエージェントに登録して、あなたのリード経験が活きる700万円求人を確認しましょう。
+            IT特化・ハイクラスエージェントに登録して、ご自身のリード経験が活きる700万円求人を確認しましょう。
           </p>
           <Link
             href="/#ranking"

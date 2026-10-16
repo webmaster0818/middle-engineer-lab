@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/career/startup-to-corporate/" },
   title: "スタートアップから大企業への転職｜進め方とスキルギャップ",
   description:
-    "スタートアップエンジニアから大企業への転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説。短期在籍の説明や30代40代の進め方も紹介します。",
+    "スタートアップエンジニアから大企業への転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説します。短期在籍の説明や30代40代の進め方も紹介します。",
 };
 
 const TITLE = "スタートアップから大企業への転職｜進め方とスキルギャップ";
 const DESC =
-  "スタートアップエンジニアから大企業への転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説。短期在籍の説明や30代40代の進め方も紹介します。";
+  "スタートアップエンジニアから大企業への転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説します。短期在籍の説明や30代40代の進め方も紹介します。";
 const URL = "/career/startup-to-corporate/";
 
 const toc = [
@@ -114,19 +114,19 @@ const agents = [
   {
     name: "リクルートエージェント（IT）",
     point:
-      "国内最大級の求人数。大手企業のDX推進・新規事業部門の非公開求人が豊富で、大企業転職の主力にしやすい（IT公開求人110,840件／非公開101,680件・2026年5月22日時点・二次集計）。",
+      "国内最大級の求人数です。大手企業のDX推進・新規事業部門の非公開求人が豊富で、大企業転職の主力にしやすいです（IT公開求人110,840件／非公開101,680件・2026年5月22日時点・二次集計）。",
     href: "/review/recruit-it/",
   },
   {
     name: "ビズリーチ",
     point:
-      "ハイクラス・スカウト型。年収750万円以上の大企業ポジションのスカウトが届きやすく、市場価値の把握にも使えます（二次情報）。",
+      "ハイクラス・スカウト型です。年収750万円以上の大企業ポジションのスカウトが届きやすく、市場価値の把握にも使えます（二次情報）。",
     href: "/review/bizreach-it/",
   },
   {
     name: "レバテックキャリア",
     point:
-      "IT/Web特化。技術力を評価する求人に強く、大手Web企業のテックリード求人なども扱います。書類添削や面接対策が丁寧との声がQiitaJobChange等で見られます。",
+      "IT/Web特化です。技術力を評価する求人に強く、大手Web企業のテックリード求人なども扱います。書類添削や面接対策が丁寧との声がQiitaJobChange等で見られます。",
     href: "/review/levtech/",
   },
 ];
@@ -153,7 +153,7 @@ const faqs = [
     a: "DX推進室・新規事業部・社内プロダクト部門などが、カルチャーが近く経験を活かしやすい傾向があります。既存事業の保守運用中心の部門はギャップが大きくなりがちです。",
   },
   {
-    q: "コーディングテストや適性検査が不安。",
+    q: "コーディングテストや適性検査が不安です。",
     a: "大企業では選考にコーディングテストや適性検査が入ることが多いです。基本的なアルゴリズムと、行動面接のSTAR法整理を事前に対策しておけば落ち着いて臨めます。",
   },
   {
@@ -238,12 +238,12 @@ export default function StartupToCorporatePage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">
-              結論：0→1経験は武器。再現性とSTAR整理が選考突破の鍵
+              結論：0→1経験は強みです。再現性とSTAR整理が選考突破の鍵
             </h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・自走力・横断経験はDX推進や新規事業部門で歓迎される。カルチャーが近い部門を狙う。</li>
-              <li>・ギャップは選考プロセスと意思決定スピード。STAR法整理とテスト対策で備える。</li>
-              <li>・属人的な成果を『再現性のある形』に翻訳して職務経歴書・面接で語るのが突破口。</li>
+              <li>・自走力・横断経験はDX推進や新規事業部門で歓迎されます。カルチャーが近い部門を狙います。</li>
+              <li>・ギャップは選考プロセスと意思決定スピードです。STAR法整理とテスト対策で備えます。</li>
+              <li>・属人的な成果を『再現性のある形』に翻訳して職務経歴書・面接で語るのが突破口です。</li>
             </ul>
           </div>
         </section>
@@ -315,24 +315,24 @@ export default function StartupToCorporatePage() {
         <section id="resume" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">職務経歴書での見せ方（Before/After例文）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            スタートアップの職務経歴書は「何でもやった」という幅の広さが先に立ちがちです。大企業選考では「どんな課題を、再現可能な形でどう解決したか」を成果とともに語る形が刺さります。書き換え例を示します。
+            スタートアップの職務経歴書は「何でもやった」という幅の広さが先に立ちがちです。大企業選考では「どんな課題を、再現可能な形でどう解決したか」を成果とともに語る形が評価されます。書き換え例を示します。
           </p>
           <div className="space-y-4">
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（幅広さの羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                スタートアップにてフロントからインフラまで幅広く担当。少人数チームで開発・運用を兼任し、必要に応じてあらゆる業務に対応した。
+                スタートアップにてフロントからインフラまで幅広く担当します。少人数チームで開発・運用を兼任し、必要に応じてあらゆる業務に対応しました。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（課題→打ち手→定量成果＋再現性）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                急成長に伴う負荷増大という課題に対し、ボトルネックを分析のうえキャッシュ戦略とインフラ構成を再設計し、レスポンスとコストを改善。0→1のサービス立ち上げを技術選定から主導した。属人化していた運用を手順化・ドキュメント化し、再現性のある形で他メンバーに展開した。
+                急成長に伴う負荷増大という課題に対し、ボトルネックを分析のうえキャッシュ戦略とインフラ構成を再設計し、レスポンスとコストを改善します。0→1のサービス立ち上げを技術選定から主導しました。属人化していた運用を手順化・ドキュメント化し、再現性のある形で他メンバーに展開しました。
               </p>
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※数値・成果はご自身の実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STAR法）対策</Link>を参照。
+            ※数値・成果はご自身の実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/behavioral/" className="text-petrol hover:underline">行動面接（STAR法）対策</Link>をご参照ください。
           </p>
         </section>
 

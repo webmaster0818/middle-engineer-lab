@@ -6,13 +6,13 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "インフラエンジニアからSREへの転職｜移行ステップとスキルギャップ";
 const DESC =
-  "インフラエンジニアからSRE（Site Reliability Engineer）へ転職する進め方を、スキルギャップ比較表・在職中の移行ステップ・職務経歴書のBefore/After例文付きで解説。30代40代の現実も正直に紹介します。";
+  "インフラエンジニアからSRE（Site Reliability Engineer）へ転職する進め方を、スキルギャップ比較表・在職中の移行ステップ・職務経歴書のBefore/After例文付きで解説します。30代40代の現実も紹介します。";
 const URL = "/career/infra-to-sre/";
 
 export const metadata: Metadata = { alternates: { canonical: "/career/infra-to-sre/" }, title: TITLE, description: DESC };
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と攻め方" },
+  { id: "conclusion", label: "結論：現実性と進め方" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -47,18 +47,18 @@ const migrationSteps = [
 ];
 
 const agents = [
-  { name: "レバテックキャリア", point: "IT/Web特化で技術に詳しいアドバイザーが在籍。SRE系ポジションの要件をすり合わせやすく、インフラ出身者の強みを活かす求人提案に向きます。", href: "/review/levtech/" },
-  { name: "ビズリーチ", point: "ハイクラス・スカウト型。SRE求人のスカウトを受けることで、自分の運用経験が市場でどう評価されるかを客観的に把握できます。", href: "/review/bizreach-it/" },
-  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数。大手からスタートアップまでSRE/インフラ求人を幅広く比較でき、選択肢を確保しやすい。", href: "/review/recruit-it/" },
+  { name: "レバテックキャリア", point: "IT/Web特化で技術に詳しいアドバイザーが在籍しています。SRE系ポジションの要件をすり合わせやすく、インフラ出身者の強みを活かす求人提案に向きます。", href: "/review/levtech/" },
+  { name: "ビズリーチ", point: "ハイクラス・スカウト型です。SRE求人のスカウトを受けることで、自分の運用経験が市場でどう評価されるかを客観的に把握できます。", href: "/review/bizreach-it/" },
+  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数です。大手からスタートアップまでSRE/インフラ求人を幅広く比較でき、選択肢を確保しやすいです。", href: "/review/recruit-it/" },
 ];
 
 const faqs = [
-  { q: "インフラエンジニアからSREへの転職は可能？", a: "インフラ運用の経験は有力な出発点です。不足しがちなのはプログラミングとIaC、SLO設計の経験なので、在職中に手作業を自動化した実績を作り、Go/Pythonでのツール開発をポートフォリオ化すると移行しやすくなります。" },
+  { q: "インフラエンジニアからSREへの転職は可能？", a: "インフラ運用の経験は有力な出発点です。不足しがちなのはプログラミングとIaC、SLO設計の経験であるため、在職中に手作業を自動化した実績を作り、Go/Pythonでのツール開発をポートフォリオ化すると移行しやすくなります。" },
   { q: "SREとインフラエンジニアの違いは？", a: "インフラエンジニアはサーバー・ネットワークの構築運用が中心ですが、SREはソフトウェアエンジニアリングのアプローチで信頼性を高めます。SLI/SLOの設定、トイル削減、自動化が主要業務で、運用課題をコードで解く点が大きな違いです。" },
   { q: "プログラミングはどれくらいできれば応募できる？", a: "Go・Python・Bashでの自動化スクリプト作成が最低限で、加えてTerraform等のIaC、CI/CDパイプライン構築の経験が求められます。アプリ機能開発ほど高度でなくても、運用基盤を自分で書ける水準は必要です。" },
   { q: "資格は必要？", a: "必須ではありませんが、AWS SAP・GCP Professional Cloud Architect・CKA（Certified Kubernetes Administrator）が代表的で、独学スキルの客観的証明として書類選考で有効に働きます。" },
   { q: "オンコール対応は大変？", a: "オンコールは多くのSREチームで必要ですが、ローテーション制が一般的です。SLOベースで不要アラートを減らす取り組みも進んでいるため、面接時に運用負荷やオンコール体制を確認しておくとミスマッチを防げます。" },
-  { q: "30代・40代からのSRE転職は遅い？", a: "SREは運用経験と障害対応の蓄積が活きる職種で、ミドル層の知見が評価されやすい領域です。一方で『手作業をコードに置き換える習慣』が若手と差がつきやすい点なので、IaCと自動化の実績を在職中に作っておくことが重要です。" },
+  { q: "30代・40代からのSRE転職は遅い？", a: "SREは運用経験と障害対応の蓄積が活きる職種で、ミドル層の知見が評価されやすい領域です。一方で『手作業をコードに置き換える習慣』が若手と差がつきやすい点であるため、IaCと自動化の実績を在職中に作っておくことが重要です。" },
   { q: "在職中と退職後、どちらで活動すべき？", a: "在職中を推奨します。現職の運用課題を題材に『信頼性を改善した経験』を積み上げるほうが、退職して学ぶより職務経歴書に書ける材料が増え、収入を確保しながら進められます。" },
 ];
 
@@ -128,11 +128,11 @@ export default function InfraToSrePage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：運用経験は土台になる。鍵は「コードで解く力」</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：運用経験は土台になります。鍵は「コードで解く力」</h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・サーバー運用・障害対応の経験はそのまま活きる。SREは運用知見のあるミドル層が評価されやすい。</li>
-              <li>・ギャップが大きいのは「プログラミング」と「SLO設計」。手作業をコード化した実績が決め手になる。</li>
-              <li>・職務経歴書は『監視した・対応した』から『信頼性をどう改善し、何を自動化したか』へ書き換える。</li>
+              <li>・サーバー運用・障害対応の経験はそのまま活きます。SREは運用知見のあるミドル層が評価されやすいです。</li>
+              <li>・ギャップが大きいのは「プログラミング」と「SLO設計」。手作業をコード化した実績が決め手になります。</li>
+              <li>・職務経歴書は『監視した・対応した』から『信頼性をどう改善し、何を自動化したか』へ書き換えます。</li>
             </ul>
           </div>
         </section>
@@ -208,18 +208,18 @@ export default function InfraToSrePage() {
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（運用作業の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                AWS上のWebシステムの運用保守を担当。サーバーの監視、障害発生時の対応、定期的なバックアップ、ミドルウェアのバージョンアップを実施。手順書に沿ってメンテナンス作業を行った。
+                AWS上のWebシステムの運用保守を担当します。サーバーの監視、障害発生時の対応、定期的なバックアップ、ミドルウェアのバージョンアップを実施します。手順書に沿ってメンテナンス作業を行った。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（信頼性改善と自動化を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                AWS上のWebシステムの信頼性向上を担当。手動のデプロイ・バックアップ作業をTerraformとPythonでコード化し定常作業の工数を削減。主要APIにSLI/SLOを定義してダッシュボードを整備し、アラート優先度を見直したことで夜間の不要アラートと対応負荷を低減。障害対応では原因分析と再発防止策の自動化まで担当した。
+                AWS上のWebシステムの信頼性向上を担当します。手動のデプロイ・バックアップ作業をTerraformとPythonでコード化し定常作業の工数を削減します。主要APIにSLI/SLOを定義してダッシュボードを整備し、アラート優先度を見直したことで夜間の不要アラートと対応負荷を低減します。障害対応では原因分析と再発防止策の自動化まで担当しました。
               </p>
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※数値・規模感は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>を参照。
+            ※数値・規模感は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>をご参照ください。
           </p>
         </section>
 
@@ -274,7 +274,7 @@ export default function InfraToSrePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">SRE転職を無料で相談</h2>
-          <p className="text-blue-100 text-sm mb-4">あなたの運用経験に合うSREポジションをプロが提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">ご自身の運用経験に合うSREポジションをプロが提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>

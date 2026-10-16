@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "建設DX業界へのエンジニア転職ガイド｜30代40代の戦略";
 const DESC =
-  "建設DX業界（施工管理SaaS・BIM/CIM・建設テック・スマートコンストラクション）へエンジニア転職する現実的な方法を解説。求められる技術とスキル、参入ルート、年収の考え方、30代40代の進め方を公的データで整理します。";
+  "建設DX業界（施工管理SaaS・BIM/CIM・建設テック・スマートコンストラクション）へエンジニア転職する現実的な方法を解説します。求められる技術とスキル、参入ルート、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industry/construction-dx/" },
@@ -29,26 +29,26 @@ const toc = [
 ];
 
 const skills = [
-  ["Webアプリ開発（フロント／バックエンド）", "中核スキル", "施工管理SaaSや建設テックの中心。一般的なWeb開発スキルがそのまま活きる"],
+  ["Webアプリ開発（フロント／バックエンド）", "中核スキル", "施工管理SaaSや建設テックの中心です。一般的なWeb開発スキルがそのまま活きる"],
   ["クラウド・モバイルアプリ", "中核スキル", "現場でのスマホ・タブレット利用が多く、モバイル対応やクラウド基盤の経験が役立つ"],
-  ["建設・現場ドメイン知識", "差別化要素", "施工管理や図面の理解があると要件定義で強みになる。社内に不足しがちな領域"],
-  ["3D・BIM/CIM・地理空間（GIS）", "専門スキル", "BIM/CIMや3Dモデル、測量データを扱う領域。3D・GISの知見が役立つ"],
+  ["建設・現場ドメイン知識", "差別化要素", "施工管理や図面の理解があると要件定義で強みになります。社内に不足しがちな領域"],
+  ["3D・BIM/CIM・地理空間（GIS）", "専門スキル", "BIM/CIMや3Dモデル、測量データを扱う領域です。3D・GISの知見が役立つ"],
   ["IoT・データ・AI", "差別化要素", "建機の稼働データやドローン測量、画像認識などでIoT・MLの知見が活きる"],
   ["データ分析・可視化", "差別化要素", "工程・コスト・安全のデータ活用で、SQLやBIツールの経験が役立つ"],
 ];
 
 const routes = [
-  ["Webアプリエンジニア", "施工管理SaaS・建設テック", "施工管理や図面共有などのSaaSを開発。Web系経験者の王道ルート"],
-  ["モバイルアプリエンジニア", "現場向けアプリ・SaaS", "現場で使うスマホ・タブレットアプリを開発。モバイル経験者に向く"],
-  ["データ／AIエンジニア", "スマートコンストラクション・建機", "稼働データ分析、画像認識、ドローン測量など。データ・ML経験者に向く"],
-  ["社内SE・DX推進", "ゼネコン・建設会社のDX部門", "業務システム刷新やクラウド移行のPM。大規模組織のDX推進経験が活きる"],
+  ["Webアプリエンジニア", "施工管理SaaS・建設テック", "施工管理や図面共有などのSaaSを開発します。Web系経験者の代表的なルート"],
+  ["モバイルアプリエンジニア", "現場向けアプリ・SaaS", "現場で使うスマホ・タブレットアプリを開発します。モバイル経験者に向く"],
+  ["データ／AIエンジニア", "スマートコンストラクション・建機", "稼働データ分析、画像認識、ドローン測量などです。データ・ML経験者に向く"],
+  ["社内SE・DX推進", "ゼネコン・建設会社のDX部門", "業務システム刷新やクラウド移行のPMです。大規模組織のDX推進経験が活きる"],
 ];
 
 const companyTypes = [
-  ["建設テック・施工管理SaaS", "施工管理、図面共有、現場コミュニケーションなどの自社プロダクト。モダンな技術と裁量が魅力。ANDPADなどが代表例", "スピード感・自社開発を志向する人"],
-  ["建機・スマートコンストラクション", "建設機械の自動化・遠隔操作、稼働データ活用、ドローン測量など。IoT・データの技術が活きる。コマツなどが代表例", "IoTやハードウェア連携に関心がある人"],
-  ["ゼネコン・建設会社のDX部門", "BIM/CIM、業務システム刷新、現場のデジタル化。大規模組織で腰を据えて取り組める", "大組織でDXを推進したい人"],
-  ["建設特化SIer・コンサル", "建設業界向けの上流支援やシステム開発。業界知識とシステム両面が問われる", "顧客折衝・上流志向の人"],
+  ["建設テック・施工管理SaaS", "施工管理、図面共有、現場コミュニケーションなどの自社プロダクトです。モダンな技術と裁量が魅力です。ANDPADなどが代表例", "スピード感・自社開発を志向する人"],
+  ["建機・スマートコンストラクション", "建設機械の自動化・遠隔操作、稼働データ活用、ドローン測量などです。IoT・データの技術が活きます。コマツなどが代表例", "IoTやハードウェア連携に関心がある人"],
+  ["ゼネコン・建設会社のDX部門", "BIM/CIM、業務システム刷新、現場のデジタル化です。大規模組織で腰を据えて取り組める", "大組織でDXを推進したい人"],
+  ["建設特化SIer・コンサル", "建設業界向けの上流支援やシステム開発です。業界知識とシステム両面が問われる", "顧客折衝・上流志向の人"],
 ];
 
 const faqs = [
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     q: "建設業界の出身者がエンジニアに転職する場合は？",
-    a: "施工管理や設計などの現場経験は、建設DX企業で強みになります。プロダクトが解決すべき現場の課題を深く理解しているためです。Web開発の基礎を学んだうえで、ドメイン知識を武器に建設テック企業を目指すルートは現実的です。30代からの異業種挑戦に関する記事も参考にしてください。",
+    a: "施工管理や設計などの現場経験は、建設DX企業で強みになります。プロダクトが解決すべき現場の課題を深く理解しているためです。Web開発の基礎を学んだうえで、ドメイン知識を強みに建設テック企業を目指すルートは現実的です。30代からの異業種挑戦に関する記事も参考にしてください。",
   },
   {
     q: "建設DXではどんな技術が求められますか？",
@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: "30代・40代でも建設DXに転職できますか？",
-    a: "Web開発の実務経験や、業務システム・大規模組織のマネジメント経験などが武器になりやすい領域のため、年齢だけが理由で不利になるとは限りません。30代は技術力、40代はマネジメントやドメイン知識との組み合わせを打ち出すと、ミドル層の強みを示しやすくなります。",
+    a: "Web開発の実務経験や、業務システム・大規模組織のマネジメント経験などが強みになりやすい領域のため、年齢だけが理由で不利になるとは限りません。30代は技術力、40代はマネジメントやドメイン知識との組み合わせを打ち出すと、ミドル層の強みを示しやすくなります。",
   },
   {
     q: "未出典の市場規模や成長率は記載していますか？",
@@ -160,9 +160,9 @@ export default function ConstructionDxPage() {
               施工管理SaaSなどでは一般的なWeb・モバイル・クラウドの技術が中心で、建設ドメイン知識を学べば差別化にもつながります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Webアプリ・モバイル・クラウドの実務経験がそのまま活きやすい</li>
-              <li>・建設・現場のドメイン知識は希少で、後から学ぶ価値が高い</li>
-              <li>・IoT・データ・3D/GISなど領域ごとに専門性を掛け合わせられる</li>
+              <li>・Webアプリ・モバイル・クラウドの実務経験がそのまま活きやすいです</li>
+              <li>・建設・現場のドメイン知識は希少で、後から学ぶ価値が高いです</li>
+              <li>・IoT・データ・3D/GISなど領域ごとに専門性を掛け合わせられます</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -180,19 +180,19 @@ export default function ConstructionDxPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">施工管理・現場SaaS</h3>
               <p className="text-sm text-slate-600">
-                施工管理、図面・写真の共有、現場のコミュニケーションなどを支えるSaaS。Webアプリ・モバイルの技術が中心で、Web系エンジニアが活躍しやすい領域です。
+                施工管理、図面・写真の共有、現場のコミュニケーションなどを支えるSaaSです。Webアプリ・モバイルの技術が中心で、Web系エンジニアが活躍しやすい領域です。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">スマートコンストラクション・建機</h3>
               <p className="text-sm text-slate-600">
-                建設機械の自動化・遠隔操作、稼働データの活用、ドローン測量など。IoTやデータ、画像認識の技術が活きる領域です。
+                建設機械の自動化・遠隔操作、稼働データの活用、ドローン測量などです。IoTやデータ、画像認識の技術が活きる領域です。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">BIM/CIM・3D・社内DX</h3>
               <p className="text-sm text-slate-600">
-                3Dモデルを軸に設計・施工・維持管理を統合するBIM/CIM、ゼネコンの業務システム刷新など。3D・GISの知見や大規模システム経験が活きます。
+                3Dモデルを軸に設計・施工・維持管理を統合するBIM/CIM、ゼネコンの業務システム刷新などです。3D・GISの知見や大規模システム経験が活きます。
               </p>
             </div>
           </div>
@@ -352,10 +352,10 @@ export default function ConstructionDxPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">参入の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "経験を棚卸しする", desc: "Webアプリ・モバイル・クラウド・データのうち、自分の強みを整理する。開発したプロダクトのユーザー規模や業務貢献は特に洗い出す。" },
-              { step: "2", title: "ドメイン・専門知識を補う計画を立てる", desc: "建設・施工の基礎知識や、3D/GIS・IoTなど目指す領域で役立つ知識を学習する。建設出身者なら、Web開発の基礎を固める。" },
-              { step: "3", title: "活きる領域を見極める", desc: "施工管理SaaS・スマートコンストラクション・BIM/CIM・社内DXのうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定する。" },
-              { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録。求人と担当者を比較し、市場価値を客観的に把握する。" },
+              { step: "1", title: "経験を棚卸しする", desc: "Webアプリ・モバイル・クラウド・データのうち、自分の強みを整理します。開発したプロダクトのユーザー規模や業務貢献は特に洗い出します。" },
+              { step: "2", title: "ドメイン・専門知識を補う計画を立てる", desc: "建設・施工の基礎知識や、3D/GIS・IoTなど目指す領域で役立つ知識を学習します。建設出身者なら、Web開発の基礎を固めます。" },
+              { step: "3", title: "活きる領域を見極める", desc: "施工管理SaaS・スマートコンストラクション・BIM/CIM・社内DXのうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定します。" },
+              { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録します。求人と担当者を比較し、市場価値を客観的に把握します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -391,7 +391,7 @@ export default function ConstructionDxPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
               <p className="text-sm text-petrol-deep">
-                若手と同じ土俵で最新技術だけを競うのではなく、建設×ITという希少性で差別化するのがミドル層の定石です。
+                若手と同じ土俵で最新技術だけを競うのではなく、建設×ITという希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
@@ -403,13 +403,13 @@ export default function ConstructionDxPage() {
         <section id="agents" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">相談先エージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            建設DX転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが定石です。
+            建設DX転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが基本です。
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強み。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたい。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型。年収750万円以上の求人や管理職ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数。建設テックからゼネコンのDXまで幅広く比較したい場合に有効。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や管理職ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。建設テックからゼネコンのDXまで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -437,9 +437,9 @@ export default function ConstructionDxPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">あなたの技術を建設DXで活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">ご自身の技術を建設DXで活かそう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。
+            まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

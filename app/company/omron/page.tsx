@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/omron/" },
   title: "オムロンの年収は平均820万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "オムロンへのエンジニア転職を実データで解説。有価証券報告書の平均年収820万円（2025年3月期・全従業員平均）、制御機器（FA）・センサ・組込・画像処理／AI・ヘルスケア機器の技術領域、選考の考え方、30代40代の現実までまとめました。",
+    "オムロンへのエンジニア転職を実データで解説します。有価証券報告書の平均年収820万円（2025年3月期・全従業員平均）、制御機器（FA）・センサ・組込・画像処理／AI・ヘルスケア機器の技術領域、選考の考え方、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもオムロンに転職できますか？",
-    a: "提出会社単体の平均年齢は44.5歳（2025年3月期・有報）で、ミドル層が中核を占める組織です。FA・組込・画像処理・制御アルゴリズムなどの専門性を持つ30代・40代の即戦力にとっては経験が直接活きるポジションが想定されます。年齢よりも、事業領域に合致する専門スキルと実績が評価の鍵になります。",
+    a: "提出会社単体の平均年齢は44.5歳（2025年3月期・有価証券報告書）で、ミドル層が中核を占める組織です。FA・組込・画像処理・制御アルゴリズムなどの専門性を持つ30代・40代の即戦力にとっては経験が直接活きるポジションが想定されます。年齢よりも、事業領域に合致する専門スキルと実績が評価の鍵になります。",
   },
   {
     q: "オムロンのFA・制御の経験はどう評価されますか？",
@@ -87,7 +87,7 @@ export default function OmronCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="オムロン エンジニア転職ガイド" description="オムロンへのエンジニア転職を実データで解説。有価証券報告書の平均年収820万円（2025年3月期・全従業員平均）、制御機器（FA）・センサ・組込・画像処理／AI・ヘルスケア機器の技術領域、選考、30代40代の現実までまとめました。" url="/company/omron/" />
+      <ArticleJsonLd title="オムロン エンジニア転職ガイド" description="オムロンへのエンジニア転職を実データで解説します。有価証券報告書の平均年収820万円（2025年3月期・全従業員平均）、制御機器（FA）・センサ・組込・画像処理／AI・ヘルスケア機器の技術領域、選考、30代40代の現実までまとめました。" url="/company/omron/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "オムロン" }]} />
 
@@ -99,7 +99,7 @@ export default function OmronCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】オムロンの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 提出会社（オムロン株式会社単体）の平均年間給与は820万円です（2025年3月期 有価証券報告書・全従業員平均、平均年齢44.5歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 820万円（2025年3月期 有報・提出会社単体／全従業員平均）。技術職に限定した値ではありません。</li><li>・推移は2021年3月期803万円→2022年3月期849万円→2023年3月期898万円→2024年3月期873万円→2025年3月期820万円と変動（各期 有報）。</li><li>・職種・等級別の公式レンジは非公表。提示額は職種・等級・実績で個別決定されるため、求人票・面談での確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 820万円です（2025年3月期 有価証券報告書・提出会社単体／全従業員平均）。技術職に限定した値ではありません。</li><li>・推移は2021年3月期803万円→2022年3月期849万円→2023年3月期898万円→2024年3月期873万円→2025年3月期820万円と変動しています（各期 有価証券報告書）。</li><li>・職種・等級別の公式レンジは非公表です。提示額は職種・等級・実績で個別決定されるため、求人票・面談での確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -120,12 +120,12 @@ export default function OmronCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              オムロンは<strong>制御機器（FA）で世界的な強みを持つメーカー大手</strong>で、FA制御機器の組込ソフト・センサ・画像処理/AI・制御アルゴリズム・ヘルスケア機器と技術領域が広いのが特徴です。年収は提出会社単体の全従業員平均で820万円（2025年3月期・有報）。製造業出身でFA・組込・画像処理・制御の専門性を持つミドルエンジニアの業務知識が活きやすい環境です。
+              オムロンは<strong>制御機器（FA）で世界的な強みを持つメーカー大手</strong>で、FA制御機器の組込ソフト・センサ・画像処理/AI・制御アルゴリズム・ヘルスケア機器と技術領域が広いのが特徴です。年収は提出会社単体の全従業員平均で820万円です（2025年3月期・有価証券報告書）。製造業出身でFA・組込・画像処理・制御の専門性を持つミドルエンジニアの業務知識が活きやすい環境です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：FA・組込・画像処理・制御アルゴリズムの実務経験があり、製造ドメインで専門性を磨きたい人</li>
               <li>● <strong>向いていない人</strong>：純粋なWeb系のモダン開発のみを志向し、制御・ハードウェアに関心が持てない人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢44.5歳と年齢層に幅があり、専門性・実績があれば年齢はハンデになりにくい</li>
+              <li>● <strong>30代・40代</strong>：平均年齢44.5歳と年齢層に幅があり、専門性・実績があれば年齢はハンデになりにくいです</li>
             </ul>
           </div>
         </section>
@@ -179,18 +179,18 @@ export default function OmronCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術領域（公開情報の範囲）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            オムロンは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成しません</strong>（推測での創作を避けるため）。公開情報・事業内容から確認できる技術領域は以下の通りです。
+            オムロンは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成しません</strong>（推測での創作を避けるため）。公開情報・事業内容から確認できる技術領域は以下のとおりです。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>FA制御機器の組込ソフトウェア</strong>：PLC・センサ・制御機器を動かす組込開発領域。一般にC/C++等が想定される</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>FA制御機器の組込ソフトウェア</strong>：PLC・センサ・制御機器を動かす組込開発領域です。一般にC/C++等が想定されます</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>制御アルゴリズム・モーション制御</strong>：高精度な機器制御に関わるアルゴリズム領域</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>画像処理・AI</strong>：検査・制御に用いる画像処理／機械学習領域。一般にC++/Python等が想定される</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>画像処理・AI</strong>：検査・制御に用いる画像処理／機械学習領域です。一般にC++/Python等が想定されます</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>ヘルスケア機器の組込</strong>：血圧計などのヘルスケア機器に関わる組込開発領域</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>具体的な開発言語・内製ツールの統一一覧は公開されていないため、<strong>各募集要項で確認してください</strong>。</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: オムロン公式 事業情報・採用サイトで確認できる技術領域に基づく記述。推測の言語表は掲載していません。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: オムロン公式 事業情報・採用サイトで確認できる技術領域に基づく記述です。推測の言語表は掲載していません。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -247,7 +247,7 @@ export default function OmronCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              オムロンは提出会社単体の平均年齢44.5歳（2025年3月期・有報）と、ミドル層が中核を占める組織です。年齢構成的に30代・40代で中途入社しても浮きにくく、<strong>FA・組込・画像処理・制御アルゴリズムなどの専門性を持つミドルエンジニアにとって、これまでの業務知識が直接活きやすい</strong>のが特徴です。制御機器（FA）で世界的な強みを持つため、製造業出身者の中途評価が高い傾向にあります。
+              オムロンは提出会社単体の平均年齢44.5歳（2025年3月期・有価証券報告書）と、ミドル層が中核を占める組織です。年齢構成的に30代・40代で中途入社しても浮きにくく、<strong>FA・組込・画像処理・制御アルゴリズムなどの専門性を持つミドルエンジニアにとって、これまでの業務知識が直接活きやすい</strong>のが特徴です。制御機器（FA）で世界的な強みを持つため、製造業出身者の中途評価が高い傾向にあります。
             </p>
             <p>
               年収面では、参考値としてレバテックが公表する正社員SEの年代別平均年収（2025年）は30代約499万円・40代約618万円です。オムロンの全従業員平均（820万円）はこれを上回りますが、これは全社平均であり、入社時の提示は職種・等級次第です。30代・40代は「自分が当てはまる職種・等級の水準」を個別求人・面談で確認することが重要です。
@@ -262,9 +262,9 @@ export default function OmronCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">オムロン転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・制御領域に強く、技術面接対策のサポートも受けられる。" },
-              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手メーカーの専門職・高年収ポジションのスカウトが届きやすい。" },
-              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・大手の求人を幅広くカバー。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・組込・制御領域に強く、技術面接対策のサポートも受けられます。" },
+              { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化です。大手メーカーの専門職・高年収ポジションのスカウトが届きやすいです。" },
+              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・大手の求人を幅広くカバーします。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

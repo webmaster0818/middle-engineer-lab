@@ -142,7 +142,7 @@ export default function Salary800Page() {
               年収800万円は、経済産業省のITSSスキル標準レベルでみると<strong>L4（726.1万円）からL5（937.8万円）の間</strong>に位置します。L4は高度専門（プロ）、L5は社内をリードするハイレベル専門家・管理者層にあたり、800万円は<strong>高度専門・指導者層</strong>の年収帯です。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              求人はPM・ITコンサル・クラウド・セキュリティ・プリセールスといった上流・希少な専門職に集中します。到達ルートは、一気に大幅増を狙うのではなく、<strong>段階的なアップ</strong>。プログラミング力に、マネジメント・方針提案・成果の数値化を積み上げることが鍵になります。
+              求人はPM・ITコンサル・クラウド・セキュリティ・プリセールスといった上流・希少な専門職に集中します。到達ルートは、一気に大幅増を狙うのではなく、<strong>段階的なアップしています</strong>。プログラミング力に、マネジメント・方針提案・成果の数値化を積み上げることが鍵になります。
             </p>
           </div>
         </section>
@@ -166,22 +166,22 @@ export default function Salary800Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L3</td>
                   <td className="px-4 py-3 border border-slate-200">576.0万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">600万円帯。まだ手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">600万円帯です。まだ手前</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L4</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">高度専門。800万円の下限側</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">高度専門です。800万円の下限側</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L5</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">指導者層。800万円の上限側</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">指導者層です。800万円の上限側</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L6・7</td>
                   <td className="px-4 py-3 border border-slate-200">1,129.9万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">1000万円帯。次の目標</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">1000万円帯です。次の目標</td>
                 </tr>
               </tbody>
             </table>
@@ -238,19 +238,19 @@ export default function Salary800Page() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">プロジェクトマネージャー（最高層）</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">大規模・重要プロジェクトの統括。進行・予算・人の総合的なマネジメントが評価される、800万円帯の中心的職種です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">大規模・重要プロジェクトの統括です。進行・予算・人の総合的なマネジメントが評価される、800万円帯の中心的職種です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">プリセールス</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">技術と提案の橋渡し。顧客課題を技術で解く提案力が高く評価され、高年収帯に届きやすい職種です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">技術と提案の橋渡しです。顧客課題を技術で解く提案力が高く評価され、高年収帯に届きやすい職種です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">セキュリティコンサルタント／アナリスト</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">需要に対し供給が少ない希少領域。専門性の高さがそのまま年収に反映されやすい職種です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">需要に対し供給が少ない希少領域です。専門性の高さがそのまま年収に反映されやすい職種です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">クラウド系の高度専門職</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">クラウド基盤の設計・運用を主導するポジション。需要の伸びが大きく、800万円帯への接続がよい領域です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">クラウド基盤の設計・運用を主導するポジションです。需要の伸びが大きく、800万円帯への接続がよい領域です。</p>
             </div>
           </div>
         </section>
@@ -301,7 +301,7 @@ export default function Salary800Page() {
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            年代別の相場や汎用的な年収UP戦略は、
+            年代別の相場や汎用的な年収アップ戦略は、
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
             ・
             <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収アップを目指す転職ガイド</Link>
@@ -331,7 +331,7 @@ export default function Salary800Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">800万円帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハイクラス・IT特化エージェントに登録して、あなたの軸が活きる800万円求人を確認しましょう。
+            ハイクラス・IT特化エージェントに登録して、ご自身の軸が活きる800万円求人を確認しましょう。
           </p>
           <Link
             href="/#ranking"

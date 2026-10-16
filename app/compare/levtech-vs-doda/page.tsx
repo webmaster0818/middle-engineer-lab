@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/levtech-vs-doda/" },
   title: "レバテックキャリアとdoda比較｜どっちがおすすめ【2026年8月】",
   description:
-    "レバテックキャリアとdoda（ITエンジニア）をどっちがおすすめか即答。IT特化型vs総合型の求人数・年収アップ・サポート・スピード・対象層を時点付き実データで徹底比較し、30代40代の選び方を解説します。",
+    "レバテックキャリアとdoda（ITエンジニア）をどちらがおすすめかをご説明します。IT特化型vs総合型の求人数・年収アップ・サポート・スピード・対象層を時点付き実データで比較し、30代40代の選び方を解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どっちがおすすめか" },
+  { id: "conclusion", label: "結論：どちらがおすすめか" },
   { id: "basic", label: "基本データ比較表（2026年6月時点）" },
   { id: "jobs", label: "求人数で比較" },
   { id: "salary", label: "年収アップ実績で比較" },
@@ -33,19 +33,19 @@ const comparison = [
   { item: "タイプ", a: "IT/Web特化型エージェント", b: "総合型（検索＋エージェント＋スカウトのハイブリッド）" },
   { item: "公開求人数", a: "約5万件超（2026年6月時点・複数転職メディア集計）", b: "IT・通信エンジニア求人5万件超（2026年2月時点・二次経由）" },
   { item: "対応エリア", a: "首都圏中心（二次情報）", b: "全国（doda公式）" },
-  { item: "得意領域", a: "IT/Web全般。高年収求人比率が高い", b: "国内最大級の求人数。IT含む全業種を幅広くカバー" },
-  { item: "年収アップ実績", a: "応募時年収との差70万円以上が3人に2人（2023年1月〜2024年3月実績）", b: "転職者の約6割が年収アップ。IT・通信の平均決定年収469万→486万円（2024年度／2025年5月公表）" },
+  { item: "得意領域", a: "IT/Web全般です。高年収求人比率が高いです", b: "国内最大級の求人数です。IT含む全業種を幅広くカバー" },
+  { item: "年収アップ実績", a: "応募時年収との差70万円以上が3人に2人（2023年1月〜2024年3月実績）", b: "転職者の約6割が年収アップです。IT・通信の平均決定年収469万→486万円（2024年度／2025年5月公表）" },
   { item: "料金", a: "求職者無料", b: "求職者無料" },
 ];
 
 const faqs = [
-  { q: "レバテックキャリアとdodaはどっちがおすすめ？", a: "IT/Web領域で専門性の高い提案と高年収求人を重視するならレバテックキャリア、IT以外も含め幅広い選択肢や全国の求人、自分でも検索したい人にはdodaがおすすめです。タイプが異なるため、IT経験者はレバテックを軸にdodaを併用するのが効率的です。" },
-  { q: "求人数が多いのはどっち？", a: "dodaは国内最大級の総合型で、IT・通信エンジニア求人だけでも5万件超（2026年2月時点・二次経由）。レバテックキャリアもIT/Web中心に約5万件超（2026年6月時点・複数転職メディア集計）です。IT特化の専門求人はレバテック、全業種の幅広さはdodaに強みがあります。" },
-  { q: "年収アップしやすいのはどっち？", a: "レバテックキャリアは内定承諾者のうち応募時年収との差が70万円以上が3人に2人（2023年1月〜2024年3月実績）。dodaは転職者の約6割が年収アップ、IT・通信の平均決定年収は469万→486万円（2024年度・2025年5月パーソルキャリア公表）です。集計基準が異なるため単純比較はできません。" },
+  { q: "レバテックキャリアとdodaはどちらがおすすめ？", a: "IT/Web領域で専門性の高い提案と高年収求人を重視するならレバテックキャリア、IT以外も含め幅広い選択肢や全国の求人、自分でも検索したい人にはdodaがおすすめです。タイプが異なるため、IT経験者はレバテックを軸にdodaを併用するのが効率的です。" },
+  { q: "求人数が多いのはどちらですか？", a: "dodaは国内最大級の総合型で、IT・通信エンジニア求人だけでも5万件超です（2026年2月時点・二次経由）。レバテックキャリアもIT/Web中心に約5万件超（2026年6月時点・複数転職メディア集計）です。IT特化の専門求人はレバテック、全業種の幅広さはdodaに強みがあります。" },
+  { q: "年収アップしやすいのはどちらですか？", a: "レバテックキャリアは内定承諾者のうち応募時年収との差が70万円以上が3人に2人です（2023年1月〜2024年3月実績）。dodaは転職者の約6割が年収アップ、IT・通信の平均決定年収は469万→486万円（2024年度・2025年5月パーソルキャリア公表）です。集計基準が異なるため単純比較はできません。" },
   { q: "doda ITは連絡が多すぎる？", a: "口コミプラットフォームでは「求人量が多い」と評価される一方、「求人・連絡が多すぎる」という声も見られます。総合型ゆえにスカウトや提案の量が多くなりやすいため、希望条件と連絡頻度を初回で明確に伝えておくとミスマッチを避けやすくなります。" },
   { q: "dodaはIT専門性が低い？", a: "口コミでは「IT専門性がやや低いとの声」「アドバイザーの質にばらつき」が見られます。一方でレバテックキャリアはIT/Web特化のため技術文脈の理解が得やすいとされます。専門的な技術相談を重視するならIT特化型を、幅広い選択肢を求めるなら総合型を、と使い分けるとよいでしょう。" },
-  { q: "30代エンジニアにはどっち？", a: "IT経験が豊富な30代はレバテックキャリアを軸にすると専門求人と年収交渉の面で有利です。IT以外の業界（事業会社のDX部門など）も検討したい、初めての転職で選択肢を広く見たい場合はdodaの幅広さが安心材料になります。" },
-  { q: "40代エンジニアにはどっち？", a: "どちらも年代別の明確な実績は公表していません。dodaは全国・全年代対応で求人母数が大きく、レバテックはIT/Web特化で高年収求人に強みがあります。40代は求人が絞られやすいため、両方登録して母数を確保するのが現実的です。" },
+  { q: "30代エンジニアにはどちらが適していますか？", a: "IT経験が豊富な30代はレバテックキャリアを軸にすると専門求人と年収交渉の面で有利です。IT以外の業界（事業会社のDX部門など）も検討したい、初めての転職で選択肢を広く見たい場合はdodaの幅広さが安心材料になります。" },
+  { q: "40代エンジニアにはどちらが適していますか？", a: "どちらも年代別の明確な実績は公表していません。dodaは全国・全年代対応で求人母数が大きく、レバテックはIT/Web特化で高年収求人に強みがあります。40代は求人が絞られやすいため、両方登録して母数を確保するのが現実的です。" },
   { q: "両方登録しても大丈夫？退会は簡単？", a: "両方登録は問題なく、IT特化型と総合型を組み合わせることで非公開求人の重複が少なく選択肢が広がります。退会はいずれも担当者連絡やマイページ等から可能です。連絡量を抑えたい場合は配信設定や希望条件の調整を行いましょう。" },
 ];
 
@@ -84,7 +84,7 @@ export default function LevtechVsDodaPage() {
     <>
       <ArticleJsonLd
         title="レバテックキャリアとdoda比較｜どっちがおすすめ【2026年8月】"
-        description="レバテックキャリアとdodaをどっちがおすすめか即答。IT特化型vs総合型を求人数・年収・サポート・スピード・対象層の実データで徹底比較します。"
+        description="レバテックキャリアとdodaをどちらがおすすめかをご説明します。IT特化型vs総合型を求人数・年収・サポート・スピード・対象層の実データで比較します。"
         url="/compare/levtech-vs-doda/"
       />
       <script
@@ -101,14 +101,14 @@ export default function LevtechVsDodaPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          レバテックキャリアとdoda比較｜どっちがおすすめ？
+          レバテックキャリアとdoda比較｜どちらがおすすめ？
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ IT特化型 vs 総合型を実データで徹底比較
+          最終更新: 2026年6月 ｜ IT特化型 vs 総合型を実データで比較
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-2">
-          IT/Web特化型エージェントの代表格・レバテックキャリアと、国内最大級の総合型・doda（ITエンジニア）。タイプの異なる2社をどう使い分けるべきかを、公開されている実データと口コミ傾向をもとに、30代・40代エンジニア視点で整理します。結論から言えば、IT経験者はレバテックキャリアをメインに、dodaをサブで登録するのが効率的です。
+          IT/Web特化型エージェントの代表格・レバテックキャリアと、国内最大級の総合型・dodaです（ITエンジニア）。タイプの異なる2社をどう使い分けるべきかを、公開されている実データと口コミ傾向をもとに、30代・40代エンジニア視点で整理します。IT経験者はレバテックキャリアをメインに、dodaをサブで登録するのが効率的です。
         </p>
 
         <DataNote
@@ -135,15 +135,15 @@ export default function LevtechVsDodaPage() {
 
         {/* 結論ファースト */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
               IT/Web領域で専門性と高年収を狙うなら「レバテックキャリア」、全業種・全国の幅広い選択肢と自己検索も使いたいなら「doda」。
             </p>
             <ul className="space-y-2 text-sm text-blue-800">
-              <li>① レバテックキャリアはIT/Web特化で高年収求人比率が高く、技術文脈を理解した提案を受けやすい。</li>
-              <li>② dodaは国内最大級の総合型で、検索＋エージェント＋スカウトのハイブリッド。全国対応で母数が大きい。</li>
-              <li>③ IT特化型と総合型は保有求人が重複しにくいため、両方無料で登録すると非公開求人の幅が大きく広がる。</li>
+              <li>① レバテックキャリアはIT/Web特化で高年収求人比率が高く、技術文脈を理解した提案を受けやすいです。</li>
+              <li>② dodaは国内最大級の総合型で、検索＋エージェント＋スカウトのハイブリッドです。全国対応で母数が大きいです。</li>
+              <li>③ IT特化型と総合型は保有求人が重複しにくいため、両方無料で登録すると非公開求人の幅が大きく広がります。</li>
             </ul>
           </div>
         </section>
@@ -189,7 +189,7 @@ export default function LevtechVsDodaPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">doda：IT・通信5万件超＋全業種</h3>
               <p className="text-sm text-slate-600">
-                IT・通信エンジニア求人だけで5万件超（2026年2月時点・二次経由）。総合型のため、IT以外の業種やITコンサル・事業会社のDX部門なども含め、幅広い選択肢を確保できます。全国対応も強みです。
+                IT・通信エンジニア求人だけで5万件超です（2026年2月時点・二次経由）。総合型のため、IT以外の業種やITコンサル・事業会社のDX部門なども含め、幅広い選択肢を確保できます。全国対応も強みです。
               </p>
             </div>
           </div>
@@ -211,13 +211,13 @@ export default function LevtechVsDodaPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">doda</h3>
               <p className="text-sm text-slate-600">
-                転職者の約6割が年収アップ。IT・通信の平均決定年収は469万円（2023年度）→486万円（2024年度）（パーソルキャリア「決定年収レポート」2025年5月公表）。母集団の大きさが特徴です。
+                転職者の約6割が年収アップです。IT・通信の平均決定年収は469万円（2023年度）→486万円です（2024年度）（パーソルキャリア「決定年収レポート」2025年5月公表）。母集団の大きさが特徴です。
               </p>
             </div>
           </div>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-4">
             <p className="text-sm text-slate-700 leading-relaxed">
-              参考までに、レバテック公表の年代別平均年収（2025年・正社員SE）は20代約378万／30代約499万／40代約618万／50代約685万円。年収1,000万円以上の割合は30代8.01%・40代12.67%です。現年収と照らし合わせ、上振れ余地を見積もる目安になります。
+              参考までに、レバテック公表の年代別平均年収（2025年・正社員SE）は20代約378万／30代約499万／40代約618万／50代約685万円です。年収1,000万円以上の割合は30代8.01%・40代12.67%です。現年収と照らし合わせ、上振れ余地を見積もる目安になります。
             </p>
           </div>
           <p className="text-xs text-slate-500">
@@ -258,7 +258,7 @@ export default function LevtechVsDodaPage() {
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
-              <p className="text-xs text-slate-500 mt-3">※ 利用者の約80%が20〜30代（公式系）。IT/Web特化で高年収求人比率が高い。</p>
+              <p className="text-xs text-slate-500 mt-3">※ 利用者の約80%が20〜30代（公式系）。IT/Web特化で高年収求人比率が高いです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">dodaが強い領域</h3>
@@ -267,7 +267,7 @@ export default function LevtechVsDodaPage() {
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-700">{tag}</span>
                 ))}
               </div>
-              <p className="text-xs text-slate-500 mt-3">※ 検索＋エージェント＋スカウトのハイブリッド型。全国・全年代対応。</p>
+              <p className="text-xs text-slate-500 mt-3">※ 検索＋エージェント＋スカウトのハイブリッド型。全国・全年代対応です。</p>
             </div>
           </div>
         </section>
@@ -316,7 +316,7 @@ export default function LevtechVsDodaPage() {
                 <li>✓ IT経験3年以上で年収アップを狙いたい</li>
                 <li>✓ 技術文脈を理解した提案を受けたい</li>
                 <li>✓ IT/Web領域に集中して転職したい</li>
-                <li>✓ 高年収帯（600万円以上）を志望する</li>
+                <li>✓ 高年収帯（600万円以上）を志望します</li>
                 <li>✓ LINEで気軽にやり取りしたい</li>
               </ul>
             </div>
@@ -325,7 +325,7 @@ export default function LevtechVsDodaPage() {
               <ul className="space-y-2 text-sm text-green-700">
                 <li>✓ IT以外の業界も含め幅広く検討したい</li>
                 <li>✓ 初めての転職で選択肢を多く見たい</li>
-                <li>✓ 事業会社のDX部門・社内SEを志望する</li>
+                <li>✓ 事業会社のDX部門・社内SEを志望します</li>
                 <li>✓ 自分でも求人を検索したい</li>
                 <li>✓ 全国・地方の求人も見たい</li>
               </ul>
@@ -339,9 +339,9 @@ export default function LevtechVsDodaPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-4">
               {[
-                { num: "1", title: "レバテックキャリアが向くケース", desc: "IT/Web領域で専門性の高い提案と高年収求人を重視し、技術文脈を理解した担当者に相談したい場合はレバテックキャリアを軸に。" },
-                { num: "2", title: "dodaが向くケース", desc: "IT以外の業種や全国の求人も含め幅広く検討したい、自己検索とスカウトも併用したい場合はdodaを軸に。" },
-                { num: "3", title: "併用パターン", desc: "IT特化型と総合型は保有求人が重複しにくいため、両方無料で登録すると非公開求人の幅が最大化。レバテックで専門求人を、dodaで幅広い選択肢と相場感を確保するのが定番です。" },
+                { num: "1", title: "レバテックキャリアが向くケース", desc: "IT/Web領域で専門性の高い提案と高年収求人を重視し、技術文脈を理解した担当者に相談したい場合はレバテックキャリアを軸にすることをおすすめします。" },
+                { num: "2", title: "dodaが向くケース", desc: "IT以外の業種や全国の求人も含め幅広く検討したい、自己検索とスカウトも併用したい場合はdodaを軸にすることをおすすめします。" },
+                { num: "3", title: "併用パターン", desc: "IT特化型と総合型は保有求人が重複しにくいため、両方無料で登録すると非公開求人の幅が最大化します。レバテックで専門求人を、dodaで幅広い選択肢と相場感を確保するのが定番です。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -365,7 +365,7 @@ export default function LevtechVsDodaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-white border border-slate-200 rounded-xl p-6 space-y-4">
             <p className="text-slate-600 leading-relaxed text-sm">
-              30代・40代の転職は、これまでの実績と専門性で評価されるフェーズです。レバテックキャリアはIT/Web特化で高年収求人の比率が高く、技術文脈を理解した担当者が年収交渉を支援しやすいのが強み。利用者の約80%が20〜30代（公式系）と、ミドル層の利用実績も厚めです。
+              30代・40代の転職は、これまでの実績と専門性で評価されるフェーズです。レバテックキャリアはIT/Web特化で高年収求人の比率が高く、技術文脈を理解した担当者が年収交渉を支援しやすいのが強みです。利用者の約80%が20〜30代（公式系）と、ミドル層の利用実績も厚めです。
             </p>
             <p className="text-slate-600 leading-relaxed text-sm">
               一方dodaは、IT・通信の平均決定年収が469万→486万円（2024年度・2025年5月公表）、転職者の約6割が年収アップという母集団の大きな実績を持ちます。全国・全年代対応で求人母数が大きいため、40代やIT以外の業種も視野に入れたい場合の選択肢確保に向きます。
@@ -401,7 +401,7 @@ export default function LevtechVsDodaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">迷ったら両方登録がおすすめ</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型のレバテック×総合型のdoda。両方無料で、非公開求人の幅と相場感を最大化しましょう。
+            IT特化型のレバテック×総合型のdodaです。両方無料で、非公開求人の幅と相場感を最大化しましょう。
           </p>
           <Link
             href="/#ranking"

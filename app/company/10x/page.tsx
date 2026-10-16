@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/10x/" },
   title: "10Xの年収・給与とエンジニア転職【2026年】フルDartの技術環境",
   description:
-    "10X（テンエックス・非上場）のエンジニア中途採用を公式Product Blog等の一次情報で解説。クライアントからサーバーまで100% Dartという珍しい技術スタック、Stailerの開発、年収の考え方、30代40代の転職可否を中立にまとめました。",
+    "10X（テンエックス・非上場）のエンジニア中途採用を公式Product Blog等の一次情報で解説します。クライアントからサーバーまで100% Dartという珍しい技術スタック、Stailerの開発、年収の考え方、30代40代の転職可否を中立にまとめました。",
 };
 
 const toc = [
@@ -33,7 +33,7 @@ const basicData: [string, string][] = [
   ["事業内容", "ネットスーパー／ネットドラッグストアのプラットフォーム「Stailer」の開発・提供（EC／SCM領域）"],
   ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しない（集計値も公式値ではない参考値）"],
   ["技術スタック", "フルDart（クライアントはFlutter／サーバーも100% Dart）／GCP（GKE）／Firebase・Firestore／gRPC／Elasticsearch／Datadog＋PagerDuty"],
-  ["特徴", "クライアントからサーバーまでDartで統一する珍しい構成。Flutter未経験からの採用事例もあり"],
+  ["特徴", "クライアントからサーバーまでDartで統一する珍しい構成です。Flutter未経験からの採用事例もあり"],
 ];
 
 const faqs = [
@@ -52,7 +52,7 @@ export default function TenXCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="10X（テンエックス）エンジニア転職ガイド" description="10Xへのエンジニア転職を公式Product Blog等の一次情報で解説。クライアントからサーバーまで100% Dartという珍しい技術、Stailerの開発、年収の考え方をまとめました。" url="/company/10x/" />
+      <ArticleJsonLd title="10X（テンエックス）エンジニア転職ガイド" description="10Xへのエンジニア転職を公式Product Blog等の一次情報で解説します。クライアントからサーバーまで100% Dartという珍しい技術、Stailerの開発、年収の考え方をまとめました。" url="/company/10x/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "10X" }]} />
 
@@ -67,7 +67,7 @@ export default function TenXCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】10X（テンエックス）の年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社10Xは非上場のため、有価証券報告書による全社員平均年収は公表されていません。集計サイトの数値も公式値ではない参考値です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場ゆえ公式の平均年収は存在せず（有報なし）、集計サイトの値も公式値ではない参考値です。</li><li>・当ガイドでは創作した等級別年収表は掲載していません。提示額は職種・等級・スキルにより幅があります。</li><li>・フルDartという希少スキルは中長期の市場価値につながり得ます。正確な提示額は応募・面談でご確認ください。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場ゆえ公式の平均年収は存在せず（有価証券報告書なし）、集計サイトの値も公式値ではない参考値です。</li><li>・当ガイドでは創作した等級別年収表は掲載していません。提示額は職種・等級・スキルにより幅があります。</li><li>・フルDartという希少スキルは中長期の市場価値につながり得ます。正確な提示額は応募・面談でご確認ください。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["10X 公式採用サイト", "10X Product Blog（技術発信）", "集計サイトの年収参考値（公式値ではない）", "OpenWork（口コミ傾向）"]} />
@@ -77,9 +77,9 @@ export default function TenXCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高め（フルDart・EC/SCMドメインの即戦力志向）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・クライアント<strong>Flutter</strong>、サーバーも<strong>100% Dart</strong>という珍しい構成。Dart／Flutter経験者は直接活き、他言語経験者もキャッチアップ前提で対象になり得る。</li>
-              <li>・<strong>EC／SCM（在庫・物流・店舗オペレーション）</strong>という複雑なドメイン。堅牢性・スケーラビリティを設計できる力が問われる。</li>
-              <li>・<strong>GCP（GKE）／Firestore／gRPC</strong>などモダンなクラウドネイティブ構成。インフラ・分散システムの経験が活きる。</li>
+              <li>・クライアント<strong>Flutter</strong>、サーバーも<strong>100% Dart</strong>という珍しい構成です。Dart／Flutter経験者は直接活き、他言語経験者もキャッチアップ前提で対象になり得ます。</li>
+              <li>・<strong>EC／SCM（在庫・物流・店舗オペレーション）</strong>という複雑なドメインです。堅牢性・スケーラビリティを設計できる力が問われます。</li>
+              <li>・<strong>GCP（GKE）／Firestore／gRPC</strong>などモダンなクラウドネイティブ構成です。インフラ・分散システムの経験が活きます。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">非上場のため全社平均年収の公式値はありません。集計値も公式値ではない参考値です。フルDartは他社で経験を積みにくい一方、希少なスキルとして専門性を高められます。複数言語を自由に選びたい人や大企業の安定を最優先する人にはミスマッチが起こり得ます。</p>
           </div>
@@ -119,7 +119,7 @@ export default function TenXCompanyPage() {
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クライアント</strong>：Flutter（Dart）でのモバイルアプリ開発</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>サーバー</strong>：100% Dart。クライアントとサーバーを同一言語で統一</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>サーバー</strong>：100% Dartです。クライアントとサーバーを同一言語で統一</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：GCP（GKE＝Google Kubernetes Engine）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>データ</strong>：Firebase／Firestore、検索にElasticsearch</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>通信</strong>：gRPC によるサービス間通信</span></li>
@@ -164,7 +164,7 @@ export default function TenXCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、10Xについて<strong>「技術的な挑戦（フルDart）が面白い」「事業ドメインが社会的に意義深い」</strong>といった声が見られる一方、<strong>「スタートアップ特有の変化の速さや、技術選定が独特ゆえの学習コストがある」</strong>といった指摘も見られます。技術選定と事業ミッションへの共感が定着の鍵になる傾向がうかがえます。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -172,7 +172,7 @@ export default function TenXCompanyPage() {
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>10Xの<strong>フルDart</strong>は、他社ではまず経験できない希少な技術選定です。30代・40代のミドルにとっては、すでに持っている設計力・ドメイン理解を土台に、Dart／Flutterという専門性を上乗せできる機会になります。Flutter未経験からの採用事例もあるとされるため、言語そのものより「複雑なドメインを堅牢に設計できるか」が問われる土俵です。</p>
             <p>EC／SCM（在庫・物流・店舗オペレーション）は業務理解が成果に直結する領域で、これまで小売・物流・基幹システムに関わってきたミドルの知見が活きやすい点も特徴です。一方で、フルDartは転職市場での横展開（他社での再利用）がしにくい側面があり、キャリアの可搬性を重視する場合は事前に整理しておきたいところです。非上場のため将来のIPOやストックオプションの扱いは公式の確定情報がなく、年収は提示額ベースで判断するのが現実的です。</p>
-            <p>SIerやSESから自社プロダクト開発へ移りたいミドルには<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWEB系への転職</Link>が、年収交渉・キャリア整理には<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>が参考になります。</p>
+            <p>SIerやSESから自社プロダクト開発へ移りたいミドルには<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>が、年収交渉・キャリア整理には<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>が参考になります。</p>
           </div>
         </section>
 
@@ -183,7 +183,7 @@ export default function TenXCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Flutter／Dart経験者、または新技術を前向きに学べるミドル</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>EC／SCM・小売・物流などのドメイン知見を持つ</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>EC／SCM・小売・物流などのドメイン知見を持ちます</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>GCP（GKE）・分散システムの設計・運用が得意</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>希少な技術選定で専門性を高めたい</li>
               </ul>
@@ -212,9 +212,9 @@ export default function TenXCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">10X転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強いです。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすいです。ミドル層の選択肢を広げやすいです。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強いです。カジュアル面談につながりやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
@@ -231,7 +231,7 @@ export default function TenXCompanyPage() {
         <section id="related">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[{ name: "freeeの転職ガイド", href: "/company/freee/" }, { name: "SmartHRの転職ガイド", href: "/company/smarthr/" }, { name: "マネーフォワードの転職ガイド", href: "/company/moneyforward/" }, { name: "Sansanの転職ガイド", href: "/company/sansan/" }, { name: "Ubieの転職ガイド", href: "/company/ubie/" }, { name: "カケハシの転職ガイド", href: "/company/kakehashi/" }, { name: "Flutterエンジニアの転職", href: "/skill/flutter/" }, { name: "GCPエンジニアの転職", href: "/skill/gcp/" }, { name: "SIerからWEB系への転職", href: "/industry/sier-to-web/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
+            {[{ name: "freeeの転職ガイド", href: "/company/freee/" }, { name: "SmartHRの転職ガイド", href: "/company/smarthr/" }, { name: "マネーフォワードの転職ガイド", href: "/company/moneyforward/" }, { name: "Sansanの転職ガイド", href: "/company/sansan/" }, { name: "Ubieの転職ガイド", href: "/company/ubie/" }, { name: "カケハシの転職ガイド", href: "/company/kakehashi/" }, { name: "Flutterエンジニアの転職", href: "/skill/flutter/" }, { name: "GCPエンジニアの転職", href: "/skill/gcp/" }, { name: "SIerからWeb系への転職", href: "/industry/sier-to-web/" }, { name: "40代エンジニアの転職の現実", href: "/knowledge/40s-reality/" }].map((item, i) => (<Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>))}
           </div>
         </section>
       </article>

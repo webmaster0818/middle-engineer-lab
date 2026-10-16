@@ -6,13 +6,13 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/career/tester-to-developer/" },
-  title: "テスター/QA→開発者への転職完全ガイド【2026年版】",
+  title: "テスター/QA→開発者への転職ガイド【2026年版】",
   description:
     "QA・テストエンジニアから開発者へ転職するための現実性、スキルギャップ比較、在職中の準備、職務経歴書のBefore/After例文を公的データに基づき解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：テスト経験を武器にした開発転身は十分可能" },
+  { id: "conclusion", label: "結論：テスト経験を強みにした開発転身は十分可能" },
   { id: "gap", label: "テスター/QAと開発者のスキルギャップ比較表" },
   { id: "skills", label: "埋めるべきスキルの身につけ方" },
   { id: "steps", label: "在職中にできる移行ステップ" },
@@ -41,19 +41,19 @@ const gapRows = [
     area: "設計",
     qa: "テスト設計・観点表の作成に強い",
     dev: "機能設計・データ設計を自分で行う",
-    action: "CRUDアプリ設計とDB設計を学ぶ",
+    action: "CRUDアプリ設計とDB設計を学びます",
   },
   {
     area: "バージョン管理",
     qa: "テスト資産の管理にGitを使う現場も",
     dev: "PR・コードレビュー文化が前提",
-    action: "ブランチ運用とPRの作法に慣れる",
+    action: "ブランチ運用とPRの作法に慣れます",
   },
   {
     area: "品質視点",
     qa: "バグ再現・原因追求・境界値の感度が高い",
     dev: "TDDやテスト容易な設計に直結する強み",
-    action: "テストコードが充実した開発実績を作る",
+    action: "テストコードが充実した開発実績を作ります",
   },
   {
     area: "強み（活かせる）",
@@ -119,7 +119,7 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。SET・QA自動化や開発職の求人を扱い、技術背景を理解したアドバイザーが在籍するとされます（出典：レバテック公式ガイド、転職メディア集計）。キャリアチェンジの相談先として有力です。",
+      "IT/Web特化型です。SET・QA自動化や開発職の求人を扱い、技術背景を理解したアドバイザーが在籍するとされます（出典：レバテック公式ガイド、転職メディア集計）。キャリアチェンジの相談先として有力です。",
   },
   {
     name: "マイナビIT AGENT",
@@ -131,7 +131,7 @@ const agents = [
     name: "paiza転職",
     href: "/review/paiza/",
     point:
-      "スキルチェック（プログラミングテスト）のランクで実力を評価し、高ランクなら書類選考免除もある仕組み。経歴より実装力で勝負したいテスター出身者と相性が良いサービスです（個別仲介サポートはなし）。",
+      "スキルチェック（プログラミングテスト）のランクで実力を評価し、高ランクなら書類選考免除もある仕組みです。経歴より実装力を強みにしたいテスター出身者と相性が良いサービスです（個別仲介サポートはなし）。",
   },
 ];
 
@@ -180,7 +180,7 @@ export default function TesterToDeveloperPage() {
   return (
     <>
       <ArticleJsonLd
-        title="テスター/QA→開発者への転職完全ガイド【2026年版】"
+        title="テスター/QA→開発者への転職ガイド【2026年版】"
         description="QA・テストエンジニアから開発者へ転職するための現実性、スキルギャップ比較、在職中の準備、職務経歴書のBefore/After例文を公的データに基づき解説します。"
         url="/career/tester-to-developer/"
       />
@@ -198,12 +198,12 @@ export default function TesterToDeveloperPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          テスター/QA→開発者への転職完全ガイド【2026年版】
+          テスター/QA→開発者への転職ガイド【2026年版】
         </h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月</p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          テストエンジニア・QAから開発者への転職は、テストで培った品質意識を武器にできるキャリアチェンジです。近年はSET（Software Engineer in Test）というポジションも一般化し、品質と開発をつなぐ役割の選択肢が広がっています。本記事では、この職種転換の現実性、スキルギャップ、在職中の準備、職務経歴書の書き方を、公的データに基づいて整理します。
+          テストエンジニア・QAから開発者への転職は、テストで培った品質意識を強みにできるキャリアチェンジです。近年はSET（Software Engineer in Test）というポジションも一般化し、品質と開発をつなぐ役割の選択肢が広がっています。本記事では、この職種転換の現実性、スキルギャップ、在職中の準備、職務経歴書の書き方を、公的データに基づいて整理します。
         </p>
 
         <DataNote
@@ -232,16 +232,16 @@ export default function TesterToDeveloperPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">
-            結論：テスト経験を武器にした開発転身は十分可能
+            結論：テスト経験を強みにした開発転身は十分可能
           </h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               テスター/QAから開発者への転身は、戦略次第で十分に実現できます。理由は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① テスト自動化の経験は、そのまま実装力・CI/CD理解の証明として評価される。</li>
-              <li>② 品質視点・バグ再現力は、TDDやテスト容易な設計を重視するチームで希少な強みになる。</li>
-              <li>③ SET（Software Engineer in Test）という入口があり、ギャップを抑えて開発職へ移行できる。</li>
+              <li>① テスト自動化の経験は、そのまま実装力・CI/CD理解の証明として評価されます。</li>
+              <li>② 品質視点・バグ再現力は、TDDやテスト容易な設計を重視するチームで希少な強みになります。</li>
+              <li>③ SET（Software Engineer in Test）という入口があり、ギャップを抑えて開発職へ移行できます。</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
               鍵は、プログラミングを「読める」だけでなく「設計して書ける」状態まで引き上げ、テストコードが充実したポートフォリオで品質強みを可視化することです。
@@ -361,10 +361,10 @@ export default function TesterToDeveloperPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-5">
             <p className="font-bold text-slate-700 text-sm mb-2">翻訳のポイント</p>
             <ul className="space-y-1.5 text-sm text-slate-600">
-              <li>・「テストした」→「自動化のコードを書き、どんな数値成果が出たか」を添える（数値は実績の範囲で）</li>
-              <li>・使った言語・ツール（Playwright/TypeScript等）を明記し、実装力を可視化する</li>
-              <li>・品質視点を「開発の付加価値」として位置づける（壊れにくい設計に貢献できる）</li>
-              <li>・誇張せず、検証可能な事実ベースで書く</li>
+              <li>・「テストした」→「自動化のコードを書き、どんな数値成果が出たか」を添えます（数値は実績の範囲で）</li>
+              <li>・使った言語・ツール（Playwright/TypeScript等）を明記し、実装力を可視化します</li>
+              <li>・品質視点を「開発の付加価値」として位置づけます（壊れにくい設計に貢献できる）</li>
+              <li>・誇張せず、検証可能な事実ベースで書きます</li>
             </ul>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
@@ -382,13 +382,13 @@ export default function TesterToDeveloperPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
             <li>
-              ・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円</strong>・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）。開発職の一つの参考値です。
+              ・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円</strong>・平均年齢37.1歳です（令和7年賃金構造基本統計調査ベース）。開発職の一つの参考値です。
             </li>
             <li>
-              ・dodaの2024年度決定年収レポート（2025年5月公表）では、転職者の約6割が年収アップ。IT・通信の平均決定年収は2024年度<strong>486万円</strong>。
+              ・dodaの2024年度決定年収レポート（2025年5月公表）では、転職者の約6割が年収アップです。IT・通信の平均決定年収は2024年度<strong>486万円です</strong>。
             </li>
             <li>
-              ・レバテック公表の年代別平均年収（2025年）では、正社員SEで30代約<strong>499万円</strong>、40代約<strong>618万円</strong>。
+              ・レバテック公表の年代別平均年収（2025年）では、正社員SEで30代約<strong>499万円</strong>、40代約<strong>618万円です</strong>。
             </li>
           </ul>
           <p className="text-slate-600 text-sm leading-relaxed">

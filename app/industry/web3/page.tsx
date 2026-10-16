@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "Web3・ブロックチェーン業界へのエンジニア転職ガイド｜30代40代";
 const DESC =
-  "Web3・ブロックチェーン業界（暗号資産・NFT・スマートコントラクト）へエンジニア転職する現実的な方法を解説。求められる技術とスキル、参入ルート、年収の考え方、30代40代の進め方を公的データで整理します。";
+  "Web3・ブロックチェーン業界（暗号資産・NFT・スマートコントラクト）へエンジニア転職する現実的な方法を解説します。求められる技術とスキル、参入ルート、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industry/web3/" },
@@ -29,26 +29,26 @@ const toc = [
 ];
 
 const skills = [
-  ["バックエンド開発（Go/Rust/TypeScript/Node.js）", "中核スキル", "ブロックチェーン基盤やバックエンドAPIの開発で使われる言語。Web開発経験が土台になる"],
-  ["スマートコントラクト（Solidity等）", "専門スキル", "EthereumなどEVM系チェーンの中核。専門性が高く、習得すると希少価値が出る"],
+  ["バックエンド開発（Go/Rust/TypeScript/Node.js）", "中核スキル", "ブロックチェーン基盤やバックエンドAPIの開発で使われる言語です。Web開発経験が土台になる"],
+  ["スマートコントラクト（Solidity等）", "専門スキル", "EthereumなどEVM系チェーンの中核です。専門性が高く、習得すると希少価値が出る"],
   ["暗号・セキュリティ・鍵管理", "中核スキル", "資産を直接扱うため、署名・暗号・ウォレットのセキュア設計が極めて重要"],
   ["分散システム・コンセンサスの理解", "差別化要素", "P2Pネットワークや合意形成アルゴリズムの理解が基盤開発で問われる"],
-  ["金融・規制ドメイン知識（資金決済法等）", "差別化要素", "暗号資産交換業など規制対応が必要な領域で、コンプライアンス理解が武器になる"],
-  ["フロントエンド・ウォレット連携（React等）", "中核スキル", "dAppのUIや既存ウォレットとの接続を担う。Web系フロント経験が活きる"],
+  ["金融・規制ドメイン知識（資金決済法等）", "差別化要素", "暗号資産交換業など規制対応が必要な領域で、コンプライアンス理解が強みになる"],
+  ["フロントエンド・ウォレット連携（React等）", "中核スキル", "dAppのUIや既存ウォレットとの接続を担います。Web系フロント経験が活きる"],
 ];
 
 const routes = [
-  ["バックエンド／基盤エンジニア", "暗号資産交換所・基盤開発企業", "Go/Rust等で取引・基盤を担う。分散システムやセキュリティ志向の人に向く"],
-  ["スマートコントラクトエンジニア", "DeFi・NFT・dApp開発企業", "Solidity等で契約ロジックを実装。専門性が高く未経験からは学習投資が必要"],
-  ["フロントエンド／dAppエンジニア", "ウォレット・NFTマーケット", "ウォレット連携やUIを担当。Web系フロント経験者の入り口になりやすい"],
-  ["セキュリティ・監査エンジニア", "監査会社・取引所", "コントラクト監査や鍵管理。セキュリティ経験者が専門性を掛け合わせやすい"],
+  ["バックエンド／基盤エンジニア", "暗号資産交換所・基盤開発企業", "Go/Rust等で取引・基盤を担います。分散システムやセキュリティ志向の人に向く"],
+  ["スマートコントラクトエンジニア", "DeFi・NFT・dApp開発企業", "Solidity等で契約ロジックを実装します。専門性が高く未経験からは学習投資が必要"],
+  ["フロントエンド／dAppエンジニア", "ウォレット・NFTマーケット", "ウォレット連携やUIを担当します。Web系フロント経験者の入り口になりやすい"],
+  ["セキュリティ・監査エンジニア", "監査会社・取引所", "コントラクト監査や鍵管理です。セキュリティ経験者が専門性を掛け合わせやすい"],
 ];
 
 const companyTypes = [
-  ["暗号資産交換業者（取引所）", "暗号資産の売買・カストディ。金融商品取引法や資金決済法などの規制対応が前提で、可用性とセキュリティが厳しく問われる", "金融グレードの堅牢性に関心がある人"],
-  ["ブロックチェーン基盤・インフラ企業", "独自チェーンやノード、開発者向けツールの開発。分散システムやコンセンサスの深い理解が求められる", "低レイヤや分散システムが好きな人"],
-  ["DeFi・NFT・dApp開発企業", "分散型金融、NFTマーケット、ゲームなどの自社サービス。スマートコントラクトとフロントの両面が必要", "新領域でプロダクトを作りたい人"],
-  ["大企業・金融機関のWeb3部門", "既存企業がブロックチェーンを活用する実証・新規事業。安定基盤で新技術に関われる", "大組織で新規事業を進めたい人"],
+  ["暗号資産交換業者（取引所）", "暗号資産の売買・カストディです。金融商品取引法や資金決済法などの規制対応が前提で、可用性とセキュリティが厳しく問われる", "金融グレードの堅牢性に関心がある人"],
+  ["ブロックチェーン基盤・インフラ企業", "独自チェーンやノード、開発者向けツールの開発です。分散システムやコンセンサスの深い理解が求められる", "低レイヤや分散システムが好きな人"],
+  ["DeFi・NFT・dApp開発企業", "分散型金融、NFTマーケット、ゲームなどの自社サービスです。スマートコントラクトとフロントの両面が必要", "新領域でプロダクトを作りたい人"],
+  ["大企業・金融機関のWeb3部門", "既存企業がブロックチェーンを活用する実証・新規事業です。安定基盤で新技術に関われる", "大組織で新規事業を進めたい人"],
 ];
 
 const faqs = [
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     q: "セキュリティの経験はWeb3で評価されますか？",
-    a: "高く評価されやすい領域です。資産を直接扱うため、暗号・鍵管理・コントラクト監査などのセキュリティ知見は希少で、取引所や監査会社などで強い武器になります。セキュリティエンジニアのキャリアも参考にしてください。",
+    a: "高く評価されやすい領域です。資産を直接扱うため、暗号・鍵管理・コントラクト監査などのセキュリティ知見は希少で、取引所や監査会社などで強い強みになります。セキュリティエンジニアのキャリアも参考にしてください。",
   },
   {
     q: "30代・40代でもWeb3に転職できますか？",
@@ -160,8 +160,8 @@ export default function Web3Page() {
               ただしスマートコントラクトや基盤開発は専門性が高く、Web3特有の技術を学ぶ投資が前提になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・バックエンド・フロントの実務経験は入り口として活かしやすい</li>
-              <li>・Solidity・Rust・分散システムなど専門技術の学習が差を生む</li>
+              <li>・バックエンド・フロントの実務経験は入り口として活かしやすいです</li>
+              <li>・Solidity・Rust・分散システムなど専門技術の学習が差を生みます</li>
               <li>・資産を扱うためセキュリティ意識を語れることが重要</li>
               <li>・市況の影響を受けやすい点を理解し、企業の継続性も見極めたい</li>
             </ul>
@@ -181,19 +181,19 @@ export default function Web3Page() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">暗号資産・取引所</h3>
               <p className="text-sm text-slate-600">
-                暗号資産の売買やカストディ（保管）を担う領域。日本では暗号資産交換業として規制があり、可用性とセキュリティが極めて重要です。
+                暗号資産の売買やカストディ（保管）を担う領域です。日本では暗号資産交換業として規制があり、可用性とセキュリティが極めて重要です。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">スマートコントラクト・DeFi</h3>
               <p className="text-sm text-slate-600">
-                ブロックチェーン上で自動実行される契約ロジックや分散型金融サービス。Solidityなどでの実装と、厳格な監査が求められます。
+                ブロックチェーン上で自動実行される契約ロジックや分散型金融サービスです。Solidityなどでの実装と、厳格な監査が求められます。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">NFT・dApp・基盤開発</h3>
               <p className="text-sm text-slate-600">
-                NFTマーケット、ゲーム、分散型アプリ、独自チェーンの基盤開発など。フロントエンドからインフラまで幅広い職種があります。
+                NFTマーケット、ゲーム、分散型アプリ、独自チェーンの基盤開発などです。フロントエンドからインフラまで幅広い職種があります。
               </p>
             </div>
           </div>
@@ -356,10 +356,10 @@ export default function Web3Page() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">参入の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "経験を棚卸しする", desc: "バックエンド・フロント・インフラ・セキュリティのうち、自分の強みを整理する。資産やセキュリティに関わる実績は特に洗い出す。" },
-              { step: "2", title: "Web3特有の技術を学ぶ", desc: "Solidityでのコントラクト実装、ウォレット連携、分散システムの基礎などを学習。テストネットで動くものを作り、GitHubで公開すると説得力が増す。" },
-              { step: "3", title: "入り口を見極める", desc: "基盤・スマートコントラクト・フロント・セキュリティのうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定する。" },
-              { step: "4", title: "企業の継続性も確認する", desc: "市況の影響を受けやすい領域のため、事業の継続性や資金状況も確認。エージェント2社以上に登録し、求人と担当者を比較する。" },
+              { step: "1", title: "経験を棚卸しする", desc: "バックエンド・フロント・インフラ・セキュリティのうち、自分の強みを整理します。資産やセキュリティに関わる実績は特に洗い出します。" },
+              { step: "2", title: "Web3特有の技術を学ぶ", desc: "Solidityでのコントラクト実装、ウォレット連携、分散システムの基礎などを学習します。テストネットで動くものを作り、GitHubで公開すると説得力が増します。" },
+              { step: "3", title: "入り口を見極める", desc: "基盤・スマートコントラクト・フロント・セキュリティのうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定します。" },
+              { step: "4", title: "企業の継続性も確認する", desc: "市況の影響を受けやすい領域のため、事業の継続性や資金状況も確認します。エージェント2社以上に登録し、求人と担当者を比較します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -395,7 +395,7 @@ export default function Web3Page() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
               <p className="text-sm text-petrol-deep">
-                若手と同じ土俵で最新トレンドだけを競うのではなく、セキュリティや規制対応といった希少性で差別化するのがミドル層の定石です。
+                若手と同じ土俵で最新トレンドだけを競うのではなく、セキュリティや規制対応といった希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
@@ -407,13 +407,13 @@ export default function Web3Page() {
         <section id="agents" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">相談先エージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            Web3転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが定石です。
+            Web3転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが基本です。
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強み。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたい。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型。年収750万円以上の求人や専門ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数。Web3関連から事業会社まで幅広く比較したい場合に有効。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や専門ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。Web3関連から事業会社まで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -441,9 +441,9 @@ export default function Web3Page() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">あなたの技術をWeb3で活かそう</h2>
+          <h2 className="text-xl font-bold mb-3">ご自身の技術をWeb3で活かそう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。
+            まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

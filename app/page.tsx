@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   title: "30代・40代エンジニア向け転職エージェント比較ランキング【2026年版】",
   description:
-    "30代・40代のITエンジニアにおすすめの転職エージェントを徹底比較。年収UP実績・口コミ・得意分野を出典付きデータで比較し、あなたに最適なエージェントが見つかります。最終更新2026年6月。",
+    "30代・40代のITエンジニア向けに、転職エージェントを年収アップ実績・口コミ・得意分野の観点から比較しています。各データには出典を記載しています。最終更新2026年6月。",
 };
 
 interface Agent {
@@ -34,14 +34,14 @@ const agents: Agent[] = [
     pros: [
       "技術トレンドを理解したアドバイザーによる的確な提案",
       "企業の開発環境や技術スタックの詳細情報を把握",
-      "年収交渉力が高く、平均年収UP額が大きい",
+      "年収交渉力が高く、平均年収アップ額が大きい",
     ],
     cons: [
       "地方の求人は都市部と比較すると少ない",
-      "ハイクラス寄りのため未経験者向けではない",
+      "ハイクラス寄りのため、未経験者には向いていません",
     ],
     recommend:
-      "実務経験のある30代エンジニアで、年収アップを目指す方に最適。特にWeb系・SaaS企業への転職を考えている方におすすめ。",
+      "実務経験があり、年収アップを目指す30代エンジニアに適しています。特にWeb系・SaaS企業への転職を検討している方におすすめです。",
     reviewPath: "/review/levtech/",
   },
   {
@@ -64,7 +64,7 @@ const agents: Agent[] = [
       "連絡がしつこい・担当の質にばらつきとの声(Qiita Job Change等)",
     ],
     recommend:
-      "ゲーム・エンタメ・Web業界への転職を狙う30代エンジニアに最適。スピーディに選考を進めたい方や、実務経験を活かしたい方に。",
+      "ゲーム・エンタメ・Web業界への転職を目指す30代エンジニアに適しています。選考をスピーディに進めたい方や、実務経験を活かしたい方におすすめです。",
     reviewPath: "/review/geekly/",
   },
   {
@@ -87,7 +87,7 @@ const agents: Agent[] = [
       "紹介求人数が少ない場合・連絡が多いとの声",
     ],
     recommend:
-      "SIerから社内SEへのキャリアチェンジを考える30代前半のエンジニアに。大手企業の安定した環境で働きたい方におすすめ。",
+      "SIerから社内SEへのキャリアチェンジを検討している30代前半のエンジニアに適しています。大手企業の安定した環境で働きたい方におすすめです。",
     reviewPath: "/review/mynavi-it/",
   },
   {
@@ -110,7 +110,7 @@ const agents: Agent[] = [
       "希望と異なる求人紹介・担当の専門性にばらつき",
     ],
     recommend:
-      "製造業や金融業からITエンジニアへのキャリアチェンジを目指す30代に。未経験からでもIT業界に入りたい方に最適。",
+      "製造業や金融業からITエンジニアへのキャリアチェンジを目指す30代に適しています。未経験からIT業界を目指す方にもおすすめです。",
     reviewPath: "/review/workport/",
   },
   {
@@ -133,7 +133,7 @@ const agents: Agent[] = [
       "IT専門性がやや低いとの声・担当の質にばらつき",
     ],
     recommend:
-      "幅広い選択肢の中からじっくり選びたい方に。エージェント型と自分で探す方法の両方を使い分けたい方におすすめ。",
+      "幅広い選択肢の中から時間をかけて選びたい方に適しています。エージェントからの紹介と自分での求人検索を使い分けたい方におすすめです。",
     reviewPath: "/review/doda-it/",
   },
   {
@@ -156,7 +156,7 @@ const agents: Agent[] = [
       "経験者向けの訴求が中心で、未経験からの利用は要確認",
     ],
     recommend:
-      "経験を年収に変えたい20〜30代エンジニアに。面接に不安があり模擬面接に何度も付き合ってほしい方、在職中で夜間・土曜に進めたい方におすすめ。",
+      "これまでの経験を年収に反映させたい20〜30代エンジニアに適しています。面接対策を重点的に受けたい方や、在職中のため平日夜間・土曜に面談を希望する方におすすめです。",
     reviewPath: "/review/techgo/",
   },
 ];
@@ -164,7 +164,7 @@ const agents: Agent[] = [
 const faqs = [
   {
     q: "30代エンジニアが転職エージェントを使うメリットは？",
-    a: "30代エンジニアは即戦力として評価されるため、エージェント経由で非公開求人にアクセスすることで、年収UP・好条件の求人に出会いやすくなります。また、技術スタックに精通したアドバイザーが市場価値を正確に把握し、年収交渉もサポートしてくれます。",
+    a: "30代エンジニアは即戦力として評価されるため、エージェント経由で非公開求人にアクセスすることで、年収アップ・好条件の求人に出会いやすくなります。また、技術スタックに精通したアドバイザーが市場価値を正確に把握し、年収交渉の支援も受けられます。",
   },
   {
     q: "40代エンジニアでも転職は可能ですか？",
@@ -192,7 +192,7 @@ const faqs = [
   },
   {
     q: "フリーランスと正社員、どちらがよいですか？",
-    a: "30代後半〜40代は家族状況や安定性を考慮して判断しましょう。正社員は安定収入・福利厚生が魅力、フリーランスは年収の上限が高い傾向があります。まずは正社員転職で市場価値を確認してから判断するのも有効な戦略です。",
+    a: "30代後半〜40代は、家族状況や収入の安定性を考慮して判断することをおすすめします。正社員は安定収入・福利厚生が魅力、フリーランスは年収の上限が高い傾向があります。まずは正社員転職で市場価値を確認してから判断するのも有効な戦略です。",
   },
 ];
 
@@ -213,12 +213,12 @@ export default function Home() {
   const websiteJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "ミドルエンジニア転職ラボ",
-    alternateName: "ミドルエンジニア転職ラボ | 30代・40代エンジニア転職エージェント比較",
+    name: "CareeHUB for Mid Engineer",
+    alternateName: "CareeHUB for Mid Engineer | 30代・40代エンジニア転職エージェント比較",
     url: "https://middle-engineer.com/",
     inLanguage: "ja",
     description:
-      "30代・40代のITエンジニアに特化した転職エージェント比較サイト。出典付きデータで厳選サービスを比較。",
+      "30代・40代のITエンジニアを対象とした転職エージェント比較サイトです。出典を記載したデータにもとづき、主要サービスを比較しています。",
   };
 
   const itemListJsonLd = {
@@ -257,13 +257,13 @@ export default function Home() {
             Career data &amp; guidance for engineers in their 30s &amp; 40s
           </p>
           <h1 className="reveal reveal-2 font-display text-4xl md:text-6xl font-semibold leading-[1.15] tracking-tight mb-7 max-w-3xl">
-            経験を、<span className="text-petrol">次の年収</span>へ。
+            30代・40代エンジニアのための
             <br className="hidden md:block" />
-            30代・40代エンジニアの転職を<wbr />データで導く。
+            転職エージェント比較と<span className="text-petrol">年収データ</span>
           </h1>
           <p className="reveal reveal-3 text-ink-soft text-base md:text-lg max-w-2xl mb-9 leading-relaxed">
-            年収データ・口コミ・得意分野を出典付きで徹底比較。
-            厳選したエージェントと、企業別・言語別の年収データから、あなたに最適な一手が見つかります。
+            当サイトでは、転職エージェントの年収実績・口コミ・得意分野を、出典を記載したうえで比較しています。
+            主要なエージェントの情報に加え、企業別・言語別の年収データも掲載しています。
           </p>
           <div className="reveal reveal-4 flex flex-wrap items-center gap-4">
             <a
@@ -277,7 +277,7 @@ export default function Home() {
               href="/salary/company-ranking/"
               className="inline-flex items-center text-ink-soft font-medium py-3 ul-grow hover:text-ink transition-colors"
             >
-              企業年収ランキング(有報準拠)
+              企業年収ランキング(有価証券報告書準拠)
             </a>
           </div>
         </div>
@@ -289,7 +289,7 @@ export default function Home() {
           <p className="text-xs text-ink-faint leading-relaxed text-center">
             <span className="font-medium text-ink-soft">最終更新: 2026年6月</span>
             {" ｜ "}
-            求人数・年収などの数値は調査時点の公開情報・公的統計に基づき、出典と時点を明記しています。評価方針は
+            求人数・年収などの数値は、調査時点の公開情報および公的統計にもとづいており、出典と時点を記載しています。評価方針については、
             <Link href="/editorial/" className="text-petrol ul-grow">記事制作ポリシー</Link>
             をご覧ください。
           </p>
@@ -302,9 +302,9 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               { value: "10社", label: "IT転職サービスを比較" },
-              { value: "有報準拠", label: "企業年収を一次情報で" },
-              { value: "30/40代", label: "ミドル世代に特化" },
-              { value: "出典明記", label: "公的統計・公式データ" },
+              { value: "有価証券報告書準拠", label: "企業年収は一次情報にもとづき掲載" },
+              { value: "30/40代", label: "ミドル層を対象に解説" },
+              { value: "出典を記載", label: "公的統計・公式データを使用" },
             ].map((stat, i) => (
               <div
                 key={i}
@@ -327,7 +327,7 @@ export default function Home() {
             30代・40代エンジニア向け転職エージェント
           </h2>
           <p className="text-center text-slate-500 mb-10">
-            IT特化型エージェント6社を徹底比較
+            IT特化型エージェント6社を比較
           </p>
 
           <div className="space-y-8">
@@ -395,7 +395,7 @@ export default function Home() {
 
                   {/* Recommend */}
                   <div className="bg-petrol-soft rounded-lg p-4 mb-4">
-                    <p className="text-sm font-bold text-blue-800 mb-1">こんな方におすすめ</p>
+                    <p className="text-sm font-bold text-blue-800 mb-1">このような方におすすめ</p>
                     <p className="text-sm text-petrol-deep">{agent.recommend}</p>
                   </div>
 
@@ -423,23 +423,23 @@ export default function Home() {
             <div className="border border-slate-200 rounded-xl p-6">
               <h3 className="text-lg font-bold text-slate-800 mb-2">30代前半（30〜34歳）</h3>
               <p className="text-sm text-slate-500 mb-4">
-                即戦力として最も市場価値が高い年代。選択肢が広く、キャリアチェンジも可能。
+                即戦力として市場価値が高い年代です。選択肢が広く、キャリアチェンジも可能です。
               </p>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li>1位: レバテックキャリア - 年収大幅UPのチャンス</li>
-                <li>2位: Geekly - Web/ゲーム業界なら最強</li>
-                <li>3位: マイナビIT AGENT - 社内SEで安定を目指すなら</li>
+                <li>1位: レバテックキャリア - 年収アップを目指す方に</li>
+                <li>2位: Geekly - Web/ゲーム業界を志望する方に</li>
+                <li>3位: マイナビIT AGENT - 社内SEとして安定を目指す方に</li>
               </ul>
             </div>
             <div className="border border-slate-200 rounded-xl p-6">
               <h3 className="text-lg font-bold text-slate-800 mb-2">30代後半〜40代（35〜49歳）</h3>
               <p className="text-sm text-slate-500 mb-4">
-                マネジメント経験や専門性が武器に。求人数は減るが、質の高いポジションが狙える。
+                マネジメント経験や専門性が強みになる年代です。求人数は減少傾向にありますが、専門性を活かせるポジションを目指せます。
               </p>
               <ul className="space-y-2 text-sm text-slate-600">
                 <li>1位: doda(IT特化) - 全国対応で選択肢が広い</li>
                 <li>2位: レバテックキャリア - ハイクラス求人に強い</li>
-                <li>3位: ワークポート - 異業種からのIT転職に</li>
+                <li>3位: ワークポート - 異業種からIT業界を目指す方に</li>
               </ul>
             </div>
           </div>
@@ -468,27 +468,27 @@ export default function Home() {
             業界横断キャリアチェンジ
           </h2>
           <p className="text-center text-slate-500 mb-8 max-w-2xl mx-auto">
-            異業種の経験はIT業界で大きな強みになります。
-            製造DX、フィンテック、ヘルステックなど、業界知識 x IT スキルの掛け算がキャリアの武器に。
+            異業種での経験は、IT業界で強みになります。
+            製造DX、フィンテック、ヘルステックなどの分野では、業界知識とITスキルを組み合わせることでキャリアの選択肢が広がります。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
                 from: "製造業",
                 to: "製造DX / IoTエンジニア",
-                desc: "生産管理・品質管理の知識が、スマートファクトリー推進で高く評価される",
+                desc: "生産管理・品質管理の知識は、スマートファクトリーの推進において評価されます。",
                 slug: "manufacturing",
               },
               {
                 from: "金融業",
                 to: "フィンテックエンジニア",
-                desc: "金融業務知識があるエンジニアは、決済・保険テック企業で希少人材",
+                desc: "金融業務の知識を持つエンジニアは、決済・保険テック企業で希少な人材とされています。",
                 slug: "finance",
               },
               {
                 from: "医療・製薬",
                 to: "ヘルステックエンジニア",
-                desc: "電子カルテ・医療AI・遠隔診療など、医療DXの需要が拡大",
+                desc: "電子カルテ・医療AI・遠隔診療など、医療DXの需要が拡大しています。",
                 slug: "healthcare",
               },
             ].map((item, i) => (
@@ -667,11 +667,11 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "年収UP", slug: "salary-up" },
+              { name: "年収アップ", slug: "salary-up" },
               { name: "WLB重視", slug: "wlb" },
               { name: "フルリモート", slug: "remote-full" },
               { name: "自社開発", slug: "jigyoukaihatsu" },
-              { name: "技術力UP", slug: "growth" },
+              { name: "技術力向上", slug: "growth" },
               { name: "安定重視", slug: "stable" },
             ].map((purpose) => (
               <Link
@@ -729,7 +729,7 @@ export default function Home() {
       <section id="compare" className="bg-white py-16">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-slate-800 text-center mb-10">
-            エージェント徹底比較
+            エージェント比較
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -737,7 +737,7 @@ export default function Home() {
               { name: "30代向けランキング", slug: "30s-agents" },
               { name: "40代向けランキング", slug: "40s-agents" },
               { name: "ハイクラス比較", slug: "highclass" },
-              { name: "年収UPランキング", slug: "salary-ranking" },
+              { name: "年収アップランキング", slug: "salary-ranking" },
               { name: "リモート求人に強いエージェント", slug: "remote-agents" },
             ].map((compare) => (
               <Link
@@ -764,7 +764,7 @@ export default function Home() {
             転職ノウハウ・お役立ちガイド
           </h2>
           <p className="text-center text-slate-500 mb-10 text-sm">
-            職務経歴書・年収交渉・エージェントの選び方など、進め方の実践知識
+            職務経歴書の書き方、年収交渉、エージェントの選び方など、転職活動の進め方を解説しています。
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {[
@@ -796,11 +796,11 @@ export default function Home() {
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            あなたに最適なエージェントを見つけよう
+            ご自身に合ったエージェントの選び方
           </h2>
           <p className="text-blue-100 mb-8">
-            複数のエージェントに登録して比較するのが、転職成功の鍵です。
-            まずは気になるエージェントの詳細レビューをチェックしましょう。
+            複数のエージェントに登録し、提案内容を比較することをおすすめします。
+            各エージェントの詳細レビューもあわせてご確認ください。
           </p>
           <a
             href="#ranking"

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/cybozu/" },
   title: "サイボウズの転職難易度と年収は？平均719万円【2026年・有報】働き方・技術スタック・エンジニア転職",
   description:
-    "サイボウズのエンジニア中途採用を有価証券報告書・公式技術発信の一次情報で解説。平均年収は全従業員平均で719万円(2025年12月期・有報／687万円=2024年12月期)。平均年齢は35〜36歳台。",
+    "サイボウズのエンジニア中途採用を有価証券報告書・公式技術発信の一次情報で解説します。平均年収は全従業員平均で719万円です(2025年12月期・有価証券報告書／687万円=2024年12月期)。平均年齢は35〜36歳台です。",
 };
 
 const toc = [
@@ -51,7 +51,7 @@ export default function CybozuCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="サイボウズ エンジニア転職ガイド" description="サイボウズへのエンジニア転職を有価証券報告書・公式技術発信の一次情報で解説。kintone/Garoonの技術スタック(Java/Go/TypeScript/React)、多様な働き方、30代40代の現実をまとめました。" url="/company/cybozu/" />
+      <ArticleJsonLd title="サイボウズ エンジニア転職ガイド" description="サイボウズへのエンジニア転職を有価証券報告書・公式技術発信の一次情報で解説します。kintone/Garoonの技術スタック(Java/Go/TypeScript/React)、多様な働き方、30代40代の現実をまとめました。" url="/company/cybozu/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "サイボウズ" }]} />
 
@@ -66,7 +66,7 @@ export default function CybozuCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】サイボウズの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: サイボウズ株式会社（単体）の全従業員平均給与は687万円（2024年12月期）／719万円（2025年12月期）です（有価証券報告書、賞与を含む全従業員平均）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全従業員平均で687万円（2024年12月期）・719万円（2025年12月期）（提出会社単体 有報）。エンジニア単独の数字ではありません。</li><li>・平均年齢はおおむね35〜36歳台（提出会社単体）。年度の対応に出典差があるため両年度を併記しています。</li><li>・職種別・等級別の年収は非開示。確定値は最新の有価証券報告書での確認を推奨します。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全従業員平均で687万円（2024年12月期）・719万円です（2025年12月期）（提出会社単体 有価証券報告書）。エンジニア単独の数字ではありません。</li><li>・平均年齢はおおむね35〜36歳台です（提出会社単体）。年度の対応に出典差があるため両年度を併記しています。</li><li>・職種別・等級別の年収は非開示です。確定値は最新の有価証券報告書での確認を推奨します。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["サイボウズ 有価証券報告書", "サイボウズ 公式技術情報公開ページ／技術ブログ Cybozu Inside Out", "サイボウズ 公式採用サイト", "IRBANK", "OpenWork（口コミ傾向）"]} />
@@ -76,9 +76,9 @@ export default function CybozuCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中（自社SaaS刷新×多様な働き方）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・<strong>kintone・Garoon</strong>という長寿の自社SaaSを刷新・拡張する開発が中核。<strong>Java／Go／TypeScript・React</strong>を公式に公開。</li>
-              <li>・<strong>多様な働き方</strong>を掲げる文化で知られ、ライフスタイルとの両立を重視するミドル層と相性が良い。</li>
-              <li>・年収は<strong>全従業員平均で687万円（2024年12月期）／719万円（2025年12月期）</strong>（後述の要確認注記参照）。エンジニア単独でなく全社員平均。</li>
+              <li>・<strong>kintone・Garoon</strong>という長寿の自社SaaSを刷新・拡張する開発が中核です。<strong>Java／Go／TypeScript・React</strong>を公式に公開しています。</li>
+              <li>・<strong>多様な働き方</strong>を掲げる文化で知られ、ライフスタイルとの両立を重視するミドル層と相性が良いです。</li>
+              <li>・年収は<strong>全従業員平均で687万円（2024年12月期）／719万円です（2025年12月期）</strong>（後述の要確認注記参照）。エンジニア単独でなく全社員平均です。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">レガシーとモダンの両面に向き合える設計・運用力と、プロダクトへの長期的な向き合い方が評価されやすい環境です。</p>
           </div>
@@ -164,7 +164,7 @@ export default function CybozuCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、サイボウズについて<strong>「働き方の自由度・柔軟性への評価が高い」「オープンな社風・情報共有の文化」</strong>といった傾向の声が見られます。一方で、<strong>「給与水準は突出して高いわけではない」「長期運用プロダクトゆえの技術的な負債との向き合い」</strong>といった指摘も見られます。評価は部署・職種・時期により異なります。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -184,8 +184,8 @@ export default function CybozuCompanyPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Java/Go/TypeScript/Reactでの自社SaaS開発経験者</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>長寿プロダクトの刷新・モダン化に腰を据えて取り組みたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>多様な働き方・ライフイベントとの両立を重視する</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>オープンな技術発信・情報共有の文化を好む</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>多様な働き方・ライフイベントとの両立を重視します</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>オープンな技術発信・情報共有の文化を好みます</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
@@ -193,8 +193,8 @@ export default function CybozuCompanyPage() {
               <ul className="space-y-2 text-sm text-rose-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>年収の最大化を最優先したい（全社員平均は突出して高くない）</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>レガシー資産との向き合いを避けたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>常に最新技術だけを触り続けたい志向が極端に強い</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>開発の実務経験がなく未経験参入を狙う</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>常に最新技術だけを触り続けたい志向が極端に強いです</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>開発の実務経験がなく未経験参入を狙います</li>
               </ul>
             </div>
           </div>
@@ -203,9 +203,9 @@ export default function CybozuCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">サイボウズ転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で自社開発SaaSの求人提案に強い。技術面接対策のサポートも。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化。自社開発企業の求人提案に強み。提案スピードが速い。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。SaaS・自社開発の求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で自社開発SaaSの求人提案に強いです。技術面接対策のサポートも。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界に特化しています。自社開発企業の求人提案に強みがあります。提案スピードが速いです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。SaaS・自社開発の求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">

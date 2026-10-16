@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/osaka/" },
   title: "大阪のITエンジニア転職事情【2026年】特徴と進め方",
   description:
-    "大阪のIT・Webエンジニア転職市場を解説。梅田・本町などのIT企業集積、製造業DX、働き方の選択肢、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。",
+    "大阪のIT・Webエンジニア転職市場を解説します。梅田・本町などのIT企業集積、製造業DX、働き方の選択肢、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。",
 };
 
 const toc = [
@@ -63,19 +63,19 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化で全国の求人を扱う。利用者の約80%が20〜30代という二次情報があり、技術理解に基づく提案と年収交渉が強み。内定承諾者のうち応募時年収との差が70万円以上＝3人に2人（2023年1月〜2024年3月実績）。",
+      "IT/Web特化で全国の求人を扱います。利用者の約80%が20〜30代という二次情報があり、技術理解に基づく提案と年収交渉が強みです。内定承諾者のうち応募時年収との差が70万円以上＝3人に2人です（2023年1月〜2024年3月実績）。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の国内最大級。IT・通信エンジニア求人は5万件超（2026年2月時点・二次経由）。検索＋エージェント＋スカウトのハイブリッド型で、製造業DXを含む幅広い求人にアクセスしやすい。",
+      "全国対応の国内最大級です。IT・通信エンジニア求人は5万件超です（2026年2月時点・二次経由）。検索＋エージェント＋スカウトのハイブリッド型で、製造業DXを含む幅広い求人にアクセスしやすいです。",
   },
   {
     name: "マイナビIT AGENT",
     href: "/review/mynavi-it/",
     point:
-      "20〜30代の若手層に強く、書類添削・面接対策が手厚い。転職メディア集計では定着率97.5%との数値もある。初めての転職で丁寧なサポートを求める人に向く。",
+      "20〜30代の若手層に強く、書類添削・面接対策が手厚いです。転職メディア集計では定着率97.5%との数値もあります。初めての転職で丁寧なサポートを求める人に向きます。",
   },
 ];
 
@@ -94,7 +94,7 @@ export default function OsakaAreaPage() {
     <>
       <ArticleJsonLd
         title="大阪のITエンジニア転職事情【2026年】特徴と進め方"
-        description="大阪のIT・Webエンジニア転職市場を解説。IT企業集積、製造業DX、働き方、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。"
+        description="大阪のIT・Webエンジニア転職市場を解説します。IT企業集積、製造業DX、働き方、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。"
         url="/area/osaka/"
       />
       <script
@@ -134,8 +134,8 @@ export default function OsakaAreaPage() {
               大阪は東京に次ぐ規模を持つ西日本最大のIT転職エリアです。SIer・Web系・スタートアップに加え、製造業の本社・拠点が多いためDX関連の求人が厚いのが特徴です。求人の絶対数は東京に及ばず、相場も首都圏よりやや下がる傾向はありますが、生活コストを踏まえれば実質的な差は縮まります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1 list-disc list-inside">
-              <li>SIerからWeb系・自社開発まで職種の幅が広く、Uターン・Iターンの受け皿になりやすい</li>
-              <li>製造業DXという関西ならではの需要があり、業務知識×ITが武器になる</li>
+              <li>SIerからWeb系・自社開発まで職種の幅が広く、Uターン・Iターンの受け皿になりやすいです</li>
+              <li>製造業DXという関西ならではの需要があり、業務知識×ITが強みになります</li>
               <li>フルリモートなら東京企業に在籍したまま大阪在住という選択も現実的</li>
             </ul>
           </div>
@@ -177,7 +177,7 @@ export default function OsakaAreaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">難波・心斎橋</h3>
               <p className="text-sm text-slate-600">
-                Web制作・EC・スタートアップ系のオフィスが見られるエリア。裁量が大きくチャレンジングな環境を求める層に選ばれやすい傾向があります。
+                Web制作・EC・スタートアップ系のオフィスが見られるエリアです。裁量が大きくチャレンジングな環境を求める層に選ばれやすい傾向があります。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -216,15 +216,15 @@ export default function OsakaAreaPage() {
           <div className="space-y-3">
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
-              <p className="text-sm text-slate-600"><strong>大阪の企業に勤める：</strong> 通勤前提〜ハイブリッドが中心。関西の企業文化に馴染みやすく、地域に根ざしたキャリアを築ける。</p>
+              <p className="text-sm text-slate-600"><strong>大阪の企業に勤める：</strong> 通勤前提〜ハイブリッドが中心です。関西の企業文化に馴染みやすく、地域に根ざしたキャリアを築けます。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
-              <p className="text-sm text-slate-600"><strong>東京企業にフルリモート：</strong> 居住地は大阪のまま首都圏水準の年収を狙える。全国採用のフルリモート求人が対象。</p>
+              <p className="text-sm text-slate-600"><strong>東京企業にフルリモート：</strong> 居住地は大阪のまま首都圏水準の年収を狙えます。全国採用のフルリモート求人が対象です。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-              <p className="text-sm text-slate-600"><strong>フリーランス：</strong> 大阪は案件数が首都圏より少ないが、リモート前提の案件を含めれば選択肢は広がる。</p>
+              <p className="text-sm text-slate-600"><strong>フリーランス：</strong> 大阪は案件数が首都圏より少ないが、リモート前提の案件を含めれば選択肢は広がります。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
@@ -244,7 +244,7 @@ export default function OsakaAreaPage() {
         <section id="salary" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方（年代別）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            エリア単独の正確な平均年収データは公的に整備されていないため、ここでは全国の年代別データを基準に考え方を整理します。レバテックが公表した正社員SEの年代別平均年収（2025年）は次の通りです。
+            エリア単独の正確な平均年収データは公的に整備されていないため、ここでは全国の年代別データを基準に考え方を整理します。レバテックが公表した正社員SEの年代別平均年収（2025年）は次のとおりです。
           </p>
           <div className="overflow-x-auto mb-3">
             <table className="w-full text-sm border-collapse min-w-[480px]">
@@ -339,7 +339,7 @@ export default function OsakaAreaPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1 text-sm">3. 職務経歴書を整える</h3>
-              <p className="text-sm text-slate-600">関西の製造業DXを狙うなら業務知識との掛け合わせを強調。<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>を参考に。</p>
+              <p className="text-sm text-slate-600">関西の製造業DXを狙うなら業務知識との掛け合わせを強調します。<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>をご参照ください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1 text-sm">4. 出社頻度・年収を面談で確認</h3>
@@ -382,7 +382,7 @@ export default function OsakaAreaPage() {
                 <li>・特定領域の自社開発求人を数多く比較したい</li>
                 <li>・現職と同水準以上の高年収を最優先したい</li>
                 <li>・先端技術スタックの求人を幅広く選びたい</li>
-                <li>・未経験から短期で正社員転職を目指している</li>
+                <li>・未経験から短期で正社員転職を目指しています</li>
               </ul>
               <p className="text-xs text-slate-500 mt-3">該当する場合は、東京企業のフルリモート求人の併用を検討すると選択肢が広がります。</p>
             </div>
@@ -409,7 +409,7 @@ export default function OsakaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">大阪のIT転職を始めよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            まずはIT特化＋総合型のエージェントに複数登録し、関西の求人提案量を比較するところから。
+            まずはIT特化＋総合型のエージェントに複数登録し、関西の求人提案量を比較するところから始めます。
           </p>
           <Link
             href="/#ranking"

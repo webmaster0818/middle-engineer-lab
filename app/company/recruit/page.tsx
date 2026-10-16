@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/recruit/" },
   title: "リクルートの年収は平均1145万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "株式会社リクルートのエンジニア（テクノロジー職）中途採用を一次情報で解説。持株会社の有価証券報告書平均年収、技術スタック、ミッショングレード、選考フロー、口コミ傾向、30代40代の視点をまとめました。",
+    "株式会社リクルートのエンジニア（テクノロジー職）中途採用を一次情報で解説します。持株会社の有価証券報告書平均年収、技術スタック、ミッショングレード、選考フロー、口コミ傾向、30代40代の視点をまとめました。",
 };
 
 const tableRows: [string, string][] = [
@@ -36,10 +36,10 @@ const techStack = [
 ];
 
 const positions = [
-  { name: "プロダクト開発エンジニア", desc: "各プロダクトの設計・開発・運用。事業戦略と直結した技術貢献を担う。" },
-  { name: "プロダクト開発ディレクター", desc: "プロダクト開発の方向づけ・推進。中長期視点でのプロダクト育成。" },
-  { name: "データ", desc: "国内トップクラスのデータ資産を活用した分析・データサイエンス・ML。" },
-  { name: "社内ICT・DX推進", desc: "社内システム・業務プロセスのデジタル化・DX推進。" },
+  { name: "プロダクト開発エンジニア", desc: "各プロダクトの設計・開発・運用です。事業戦略と直結した技術貢献を担います。" },
+  { name: "プロダクト開発ディレクター", desc: "プロダクト開発の方向づけ・推進です。中長期視点でのプロダクト育成です。" },
+  { name: "データ", desc: "国内トップクラスのデータ資産を活用した分析・データサイエンス・MLです。" },
+  { name: "社内ICT・DX推進", desc: "社内システム・業務プロセスのデジタル化・DX推進です。" },
 ];
 
 const faqs = [
@@ -65,7 +65,7 @@ const faqs = [
   },
   {
     q: "リクルートの働き方・ワークライフバランスは？",
-    a: "年間休日145日（実質週休3日相当）、フレックスタイム制、リモートワーク可と休日・柔軟性は充実しています。OpenWorkの集計（2026年時点）では月平均残業はおおむね30時間前後、有休消化率は約64%。働き方改革で長時間労働のイメージは改善したとの声が多い一方、部署・時期による差はあります。",
+    a: "年間休日145日（実質週休3日相当）、フレックスタイム制、リモートワーク可と休日・柔軟性は充実しています。OpenWorkの集計（2026年時点）では月平均残業はおおむね30時間前後、有休消化率は約64%です。働き方改革で長時間労働のイメージは改善したとの声が多い一方、部署・時期による差はあります。",
   },
   {
     q: "リクルートへの転職で有利な経験は？",
@@ -103,7 +103,7 @@ export default function RecruitCompanyPage() {
     <>
       <ArticleJsonLd
         title="リクルート エンジニア転職ガイド【2026年版】"
-        description="株式会社リクルートのエンジニア（テクノロジー職）中途採用を一次情報で解説。平均年収、技術スタック、ミッショングレード、選考、口コミ、30代40代の視点をまとめました。"
+        description="株式会社リクルートのエンジニア（テクノロジー職）中途採用を一次情報で解説します。平均年収、技術スタック、ミッショングレード、選考、口コミ、30代40代の視点をまとめました。"
         url="/company/recruit/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -116,8 +116,8 @@ export default function RecruitCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リクルートの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 事業会社リクルート単独は非上場で有報がなく、持株会社リクルートホールディングス（6098）の有価証券報告書（2025年3月期）で全社員平均年収1,145万円（平均年齢40.5歳）が公表されています。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・1,145万円は持株会社の全社員平均であり、エンジニア（テクノロジー職）に限定した値ではありません（2025年3月期 有報）。</li><li>・ミッショングレード制で年次より職務価値に応じて報酬が決まるため、高い価値の職務を担うほど水準は上がります。</li><li>・エンジニア職に限った提示レンジは公式に統一公開されていないため、正確な提示額は公式求人・面談で確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 事業会社リクルート単独は非上場で有価証券報告書がなく、持株会社リクルートホールディングス（6098）の有価証券報告書（2025年3月期）で全社員平均年収1,145万円（平均年齢40.5歳）が公表されています。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・1,145万円は持株会社の全社員平均であり、エンジニア（テクノロジー職）に限定した値ではありません（2025年3月期 有価証券報告書）。</li><li>・ミッショングレード制で年次より職務価値に応じて報酬が決まるため、高い価値の職務を担うほど水準は上がります。</li><li>・エンジニア職に限った提示レンジは公式に統一公開されていないため、正確な提示額は公式求人・面談で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
@@ -173,15 +173,15 @@ export default function RecruitCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">多彩なプロダクトでの開発経験</h3>
-              <p className="text-sm text-petrol-deep">SUUMO、ホットペッパー、じゃらん、Airシリーズなど国内最大級のプロダクト群を保有。各プロダクトで異なるドメインの技術課題に取り組め、社内での職務の幅が広いのが特徴です。</p>
+              <p className="text-sm text-petrol-deep">SUUMO、ホットペッパー、じゃらん、Airシリーズなど国内最大級のプロダクト群を保有しています。各プロダクトで異なるドメインの技術課題に取り組め、社内での職務の幅が広いのが特徴です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">国内トップクラスのデータ資産</h3>
-              <p className="text-sm text-petrol-deep">公式採用ページでも「国内トップクラスのデータ資産を武器に」と打ち出しており、データドリブンな意思決定文化が根付いています。データ・MLエンジニアの活躍フィールドが広い環境です。</p>
+              <p className="text-sm text-petrol-deep">公式採用ページでも「国内トップクラスのデータ資産を強みに」と打ち出しており、データドリブンな意思決定文化が根付いています。データ・MLエンジニアの活躍フィールドが広い環境です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミッショングレード制と充実した休日</h3>
-              <p className="text-sm text-petrol-deep">年次より職務価値で評価するミッショングレード制を採用。年間休日145日（実質週休3日相当）、フレックス、リモート可と、働き方の条件が整っています。</p>
+              <p className="text-sm text-petrol-deep">年次より職務価値で評価するミッショングレード制を採用します。年間休日145日（実質週休3日相当）、フレックス、リモート可と、働き方の条件が整っています。</p>
             </div>
           </div>
         </section>
@@ -213,7 +213,7 @@ export default function RecruitCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: リクルートTech Blog・公式採用ページの公開情報を要約。リクルートは多数のプロダクトを抱えるため、技術構成はプロダクト・チームにより大きく異なります。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: リクルートTech Blog・公式採用ページの公開情報を要約しています。リクルートは多数のプロダクトを抱えるため、技術構成はプロダクト・チームにより大きく異なります。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -229,7 +229,7 @@ export default function RecruitCompanyPage() {
               エンジニア職に限った提示レンジは公式に統一公開されていないため、当ガイドでは未出典の等級別年収表は掲載していません。正確な提示額は公式求人と面談で確認してください。
             </p>
             <p>
-              市場感の参考として、doda「決定年収レポート」（2025年5月公表）ではIT・通信の平均決定年収が2024年度で486万円。
+              市場感の参考として、doda「決定年収レポート」（2025年5月公表）ではIT・通信の平均決定年収が2024年度で486万円です。
               リクルートはミッショングレード制で職務価値に応じて報酬が決まるため、高い価値の職務を担うほど水準は上がります。年代別の市場相場は
               <Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代の年収相場</Link>・
               <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>も参考にしてください。
@@ -276,7 +276,7 @@ export default function RecruitCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700 leading-relaxed space-y-3">
             <p>ミッショングレード制で<strong>年次より職務価値が重視されるため、大規模サービスやデータ領域の専門性を持つ30代・40代は評価されやすい</strong>傾向です。社内に多様なプロダクトがあり、ドメインを変えながらキャリアを継続できる点もミドルの強みを活かしやすい要素です。</p>
-            <p>年間休日145日・フレックス・リモート可という働き方の条件は、家庭やライフプランを重視する層にとって大きな魅力です。一方で成果・自走への期待は高めなので、面談で配属チームの実態を確認しておくと安心です。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>も参考になります。</p>
+            <p>年間休日145日・フレックス・リモート可という働き方の条件は、家庭やライフプランを重視する層にとって大きな魅力です。一方で成果・自走への期待は高めなため、面談で配属チームの実態を確認しておくと安心です。市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>、40代の意思決定は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>も参考になります。</p>
           </div>
         </section>
 
@@ -284,9 +284,9 @@ export default function RecruitCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">リクルート転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強い。大手・メガベンチャーの非公開求人を保有していることも。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。職務価値の高いポジションのスカウトを受けやすい。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web特化。提案スピードが速く、実務経験者への提案が豊富。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化で高年収求人に強いです。大手・メガベンチャーの非公開求人を保有していることがあります。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。職務価値の高いポジションのスカウトを受けやすいです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT・Web特化です。提案スピードが速く、実務経験者への提案が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

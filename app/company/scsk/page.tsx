@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/scsk/" },
   title: "SCSKの年収は平均796万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "SCSK（9719）へのエンジニア転職を実データで解説。有価証券報告書の平均年収796万円（2026年3月期・全社員平均）、住友商事系の大手SIerとしての事業、Java・クラウド(AWS/Azure)の募集領域、選考フロー、30代40代の現実までまとめました。",
+    "SCSK（9719）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収796万円（2026年3月期・全社員平均）、住友商事系の大手SIerとしての事業、Java・クラウド(AWS/Azure)の募集領域、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -87,7 +87,7 @@ export default function ScskCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="SCSK エンジニア転職ガイド" description="SCSKへのエンジニア転職を実データで解説。有価証券報告書の平均年収796万円（2026年3月期・全社員平均）、住友商事系大手SIerの事業、Java・クラウドの募集領域、選考フロー、30代40代の現実までまとめました。" url="/company/scsk/" />
+      <ArticleJsonLd title="SCSK エンジニア転職ガイド" description="SCSKへのエンジニア転職を実データで解説します。有価証券報告書の平均年収796万円（2026年3月期・全社員平均）、住友商事系大手SIerの事業、Java・クラウドの募集領域、選考フロー、30代40代の現実までまとめました。" url="/company/scsk/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "IT企業平均年収ランキング【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "SCSK" }]} />
 
@@ -99,7 +99,7 @@ export default function ScskCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SCSKの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SCSK（提出会社単体）の平均年間給与は796万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢約42.7歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 796万円（2026年3月期 有報・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2022年3月期752万円から2026年3月期796万円へ上昇傾向（各期 有報）。2025年3月期は787万円。</li><li>・平均勤続年数16.7年とベテラン中心で平均年収は高く出やすく、職種別の公式年収表は非公表。提示額は等級・職務で個別決定です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 796万円です（2026年3月期 有価証券報告書・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2022年3月期752万円から2026年3月期796万円へ上昇傾向です（各期 有価証券報告書）。2025年3月期は787万円です。</li><li>・平均勤続年数16.7年とベテラン中心で平均年収は高く出やすく、職種別の公式年収表は非公表です。提示額は等級・職務で個別決定です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -125,7 +125,7 @@ export default function ScskCompanyPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Java等の開発やクラウド（AWS/Azure）の実務経験があり、上流工程・大規模案件・安定基盤を重視するエンジニア</li>
               <li>● <strong>向いていない人</strong>：自社プロダクトを少人数で高速に作るスタートアップ的な働き方を最優先する人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢42.7歳・平均勤続16.7年のベテラン中心組織。経験者の中途は現実的で長期就業もしやすい</li>
+              <li>● <strong>30代・40代</strong>：平均年齢42.7歳・平均勤続16.7年のベテラン中心組織です。経験者の中途は現実的で長期就業もしやすいです</li>
             </ul>
           </div>
         </section>
@@ -155,7 +155,7 @@ export default function ScskCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・平均勤続年数は2026年3月期 有価証券報告書に基づく提出会社（SCSK株式会社単体）の値。技術領域は公式採用情報（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・平均勤続年数は2026年3月期 有価証券報告書に基づく提出会社（SCSK株式会社単体）の値。技術領域は公式採用情報です（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -179,7 +179,7 @@ export default function ScskCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術領域・募集職種（公式採用情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            SCSKは公式キャリア採用ページ（2026年6月時点）で、SE・インフラ・Webエンジニア等の技術職を募集しています。主な領域は以下の通りです。具体的な使用技術・必須スキルは案件・ポジションにより異なります。
+            SCSKは公式キャリア採用ページ（2026年6月時点）で、SE・インフラ・Webエンジニア等の技術職を募集しています。主な領域は以下のとおりです。具体的な使用技術・必須スキルは案件・ポジションにより異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -269,9 +269,9 @@ export default function ScskCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">SCSK転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。SIer・クラウド系の求人にも対応し、非公開求人も豊富。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・ハイクラスに強く、大手SIerの専門職・管理職求人に対応。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。SIer・クラウド系の求人にも対応し、非公開求人も豊富です。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・ハイクラスに強く、大手SIerの専門職・管理職求人に対応しています。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

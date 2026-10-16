@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "プログラマーの年収ランキング【2026年】言語別×年齢別・出典付き公表データ";
 const DESCRIPTION =
-  "プログラミング言語・IT職種別の平均年収を、レバテックキャリア収入統計（正社員・2025年1月時点）と求人ボックス給料ナビ（2026年5月）の公表データで整理。出典・調査時点つきで、TypeScript・Go・Scalaなど言語別、データサイエンティスト等の職種別を一覧化しています。";
+  "プログラミング言語・IT職種別の平均年収を、レバテックキャリア収入統計（正社員・2025年1月時点）と求人ボックス給料ナビ（2026年5月）の公表データで整理します。出典・調査時点を明記して、TypeScript・Go・Scalaなど言語別、データサイエンティスト等の職種別を一覧化します。";
 
 export const metadata: Metadata = { alternates: { canonical: "/salary/skill-ranking/" }, title: TITLE, description: DESCRIPTION };
 
@@ -18,16 +18,16 @@ export default function SkillSalaryRankingPage() {
       <main className="mx-auto max-w-4xl px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-4">プログラミング言語別の平均年収ランキング【出典付き】</h1>
         <p className="text-slate-600 mb-6 leading-relaxed">
-          言語・スキル別の年収は、調査会社によって集計条件（正社員かフリーランスか、平均か中央値か、調査時点）が大きく異なります。当ページでは<strong>「同じ調査の中で横断比較できる」公表データ</strong>のみを、出典・時点つきで整理しました。ソースをまたいだ単純比較はできない点にご注意ください。各言語名はスキル別の転職ガイドにリンクしています。
+          言語・スキル別の年収は、調査会社によって集計条件（正社員かフリーランスか、平均か中央値か、調査時点）が大きく異なります。当ページでは<strong>「同じ調査の中で横断比較できる」公表データ</strong>のみを、出典・時点を明記して整理しました。ソースをまたいだ単純比較はできない点にご注意ください。各言語名はスキル別の転職ガイドにリンクしています。
         </p>
         <DataNote surveyedAt="2026年6月15日" sources={["レバテックキャリア 収入統計（2025年1月時点）", "求人ボックス 給料ナビ（2026年5月7日更新）"]} />
 
         <h2 className="text-xl font-bold text-slate-900 mb-2 mt-8">まず全体相場：プログラマーの平均年収（公的統計）</h2>
         <p className="text-sm text-slate-600 leading-relaxed mb-3">
-          厚生労働省「令和7年賃金構造基本統計調査」（2026年3月公表・e-Stat原表から当サイト推計）によると、<strong>ソフトウェア作成者（プログラマー・SE）の推定年収は全年齢平均578.5万円</strong>（きまって支給する現金給与額×12＋年間賞与・残業代込みの平均値）。全産業平均545.6万円を上回り、30-34歳559.5万円→40-44歳686.3万円→45-49歳729.2万円と年齢とともに差が広がります。上流のシステムコンサルタント・設計者は全年齢平均889.0万円です。
+          厚生労働省「令和7年賃金構造基本統計調査」（2026年3月公表・e-Stat原表から当サイト推計）によると、<strong>ソフトウェア作成者（プログラマー・SE）の推定年収は全年齢平均578.5万円です</strong>（きまって支給する現金給与額×12＋年間賞与・残業代込みの平均値）。全産業平均545.6万円を上回り、30-34歳559.5万円→40-44歳686.3万円→45-49歳729.2万円と年齢とともに差が広がります。上流のシステムコンサルタント・設計者は全年齢平均889.0万円です。
         </p>
         <p className="text-sm text-slate-600 leading-relaxed mb-6">
-          年齢階級別の詳細は<Link href="/salary/age-salary/" className="text-petrol underline font-semibold">年代別エンジニア年収 早見表</Link>、企業ごとの実額は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング（有報95社DB）</Link>へ。以下は言語別・職種別の公表データです。
+          年齢階級別の詳細は<Link href="/salary/age-salary/" className="text-petrol underline font-semibold">年代別エンジニア年収 早見表</Link>、企業ごとの実額は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング（有価証券報告書95社DB）</Link>へ。以下は言語別・職種別の公表データです。
         </p>
 
         <h2 className="text-xl font-bold text-slate-900 mb-2 mt-8">言語別 平均年収（レバテックキャリア・正社員）</h2>
@@ -49,7 +49,7 @@ export default function SkillSalaryRankingPage() {
         </div>
 
         <h2 className="text-xl font-bold text-slate-900 mb-2">職種別 平均年収（求人ボックス・別ソース）</h2>
-        <p className="text-sm text-slate-500 mb-3">出典: 求人ボックス 給料ナビ（求人票ベース・2026年5月7日更新）。上のレバテックとは集計元が違うため、<strong>この表内でのみ</strong>比較してください。SAPや機械学習などレバテックに無い職種を補完します。</p>
+        <p className="text-sm text-slate-500 mb-3">出典: 求人ボックス 給料ナビ（求人票ベース・2026年5月7日更新）。上のレバテックとは集計元が違うため、<strong>この表内でのみ</strong>比較してください。SAPや機械学習などレバテックにない職種を補完します。</p>
         <div className="overflow-x-auto mb-8">
           <table className="w-full text-sm border-collapse">
             <thead><tr className="bg-slate-100 text-left"><th className="p-2 border-b-2 border-slate-300">順位</th><th className="p-2 border-b-2 border-slate-300">職種</th><th className="p-2 border-b-2 border-slate-300">平均年収</th></tr></thead>
@@ -61,7 +61,7 @@ export default function SkillSalaryRankingPage() {
           <h2 className="font-bold text-slate-900 mb-2">この数値を読むときの注意</h2>
           <ul className="list-disc pl-5 space-y-1 text-sm text-slate-700">
             <li><strong>ソースをまたいで比較しない</strong>: 正社員/フリーランス、平均/中央値、調査時点が異なります。比較は必ず同じ表の中で。</li>
-            <li><strong>言語＝年収ではない</strong>: 同じ言語でも役職・経験年数・企業の給与テーブルで大きく変わります。年収帯ごとの到達条件は<Link href="/salary/" className="text-petrol-deep hover:underline">年収を上げる転職ガイド</Link>を参照。</li>
+            <li><strong>言語＝年収ではない</strong>: 同じ言語でも役職・経験年数・企業の給与テーブルで大きく変わります。年収帯ごとの到達条件は<Link href="/salary/" className="text-petrol-deep hover:underline">年収を上げる転職ガイド</Link>をご参照ください。</li>
             <li>フリーランスの単価ベース年収（レバテックフリーランス等）はさらに高く出ますが、社会保険・税の自己負担で手取りは目減りします。</li>
           </ul>
         </div>

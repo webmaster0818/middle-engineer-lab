@@ -8,67 +8,67 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/" },
   title: "エリア別IT転職ガイド一覧【全14エリア】求人・年収",
   description:
-    "東京・大阪・名古屋・福岡など全国14エリアのIT転職事情を、求人数の目安・平均年収とともに分類。エリアとフルリモートを組み合わせて考えるためのガイドもまとめました。",
+    "東京・大阪・名古屋・福岡など全国14エリアのIT転職事情を、求人数の目安・平均年収とともに分類します。エリアとフルリモートを組み合わせて考えるためのガイドもまとめました。",
 };
 
 const categories = [
   {
     name: "首都圏",
-    intro: "求人量が圧倒的に多く、選択肢と年収レンジが広いエリア。出社・リモート双方の求人が揃います。",
+    intro: "求人量が圧倒的に多く、選択肢と年収レンジが広いエリアです。出社・リモート双方の求人が揃います。",
     areas: [
-      { slug: "tokyo", name: "東京", jobs: "約85,000件", salary: "550〜800万円", desc: "国内IT求人の中心。あらゆる業態・技術が揃う。" },
-      { slug: "yokohama", name: "横浜・神奈川", jobs: "約12,000件", salary: "500〜750万円", desc: "都心通勤圏。生活環境と求人量のバランス良。" },
-      { slug: "saitama", name: "さいたま・埼玉", jobs: "約5,000件", salary: "450〜700万円", desc: "都内アクセス良好。地元志向の転職にも。" },
-      { slug: "chiba", name: "千葉", jobs: "約4,000件", salary: "450〜700万円", desc: "都心通勤＋地元勤務の選択肢がある。" },
+      { slug: "tokyo", name: "東京", jobs: "約85,000件", salary: "550〜800万円", desc: "国内IT求人の中心です。あらゆる業態・技術が揃います。" },
+      { slug: "yokohama", name: "横浜・神奈川", jobs: "約12,000件", salary: "500〜750万円", desc: "都心通勤圏です。生活環境と求人量のバランス良です。" },
+      { slug: "saitama", name: "さいたま・埼玉", jobs: "約5,000件", salary: "450〜700万円", desc: "都内アクセス良好です。地元志向の転職にも。" },
+      { slug: "chiba", name: "千葉", jobs: "約4,000件", salary: "450〜700万円", desc: "都心通勤＋地元勤務の選択肢があります。" },
     ],
   },
   {
     name: "関西",
-    intro: "西日本最大のIT集積地。Web系から大手まで一定の求人があり、Uターンの受け皿にも。",
+    intro: "西日本最大のIT集積地です。Web系から大手まで一定の求人があり、Uターンの受け皿にも。",
     areas: [
-      { slug: "osaka", name: "大阪", jobs: "約18,000件", salary: "500〜750万円", desc: "関西の中心。求人量・年収ともに地方上位。" },
-      { slug: "kyoto", name: "京都", jobs: "約3,500件", salary: "480〜720万円", desc: "メーカー・研究開発系に特色のあるエリア。" },
-      { slug: "kobe", name: "神戸・兵庫", jobs: "約3,000件", salary: "470〜700万円", desc: "大阪通勤圏。製造業のIT求人も見られる。" },
+      { slug: "osaka", name: "大阪", jobs: "約18,000件", salary: "500〜750万円", desc: "関西の中心です。求人量・年収ともに地方上位です。" },
+      { slug: "kyoto", name: "京都", jobs: "約3,500件", salary: "480〜720万円", desc: "メーカー・研究開発系に特色のあるエリアです。" },
+      { slug: "kobe", name: "神戸・兵庫", jobs: "約3,000件", salary: "470〜700万円", desc: "大阪通勤圏です。製造業のIT求人も見られます。" },
     ],
   },
   {
     name: "その他主要都市",
-    intro: "地方中核都市。求人量は首都圏に劣るものの、生活コストと暮らしやすさで人気のエリアです。",
+    intro: "地方中核都市です。求人量は首都圏に劣るものの、生活コストと暮らしやすさで人気のエリアです。",
     areas: [
-      { slug: "nagoya", name: "名古屋・愛知", jobs: "約10,000件", salary: "480〜730万円", desc: "製造業DX需要が厚い中部の中心都市。" },
-      { slug: "fukuoka", name: "福岡", jobs: "約5,500件", salary: "450〜700万円", desc: "スタートアップ集積で移住人気の高い都市。" },
-      { slug: "sapporo", name: "札幌・北海道", jobs: "約3,000件", salary: "420〜650万円", desc: "受託・自社開発が一定数。移住先として人気。" },
-      { slug: "sendai", name: "仙台・宮城", jobs: "約2,500件", salary: "420〜650万円", desc: "東北の中心。地元志向・Uターン需要に対応。" },
-      { slug: "hiroshima", name: "広島", jobs: "約2,000件", salary: "430〜660万円", desc: "中国地方の拠点。製造業関連の求人が中心。" },
+      { slug: "nagoya", name: "名古屋・愛知", jobs: "約10,000件", salary: "480〜730万円", desc: "製造業DX需要が厚い中部の中心都市です。" },
+      { slug: "fukuoka", name: "福岡", jobs: "約5,500件", salary: "450〜700万円", desc: "スタートアップ集積で移住人気の高い都市です。" },
+      { slug: "sapporo", name: "札幌・北海道", jobs: "約3,000件", salary: "420〜650万円", desc: "受託・自社開発が一定数です。移住先として人気です。" },
+      { slug: "sendai", name: "仙台・宮城", jobs: "約2,500件", salary: "420〜650万円", desc: "東北の中心です。地元志向・Uターン需要に対応しています。" },
+      { slug: "hiroshima", name: "広島", jobs: "約2,000件", salary: "430〜660万円", desc: "中国地方の拠点です。製造業関連の求人が中心です。" },
     ],
   },
   {
     name: "地方都市（リモート・UIターン向け）",
-    intro: "県内のIT求人は首都圏に比べ限定的なエリア。地場の製造業×ITに加え、首都圏フルリモート×地方在住やUIターン移住という選択肢が現実的です（求人件数は断定せず、各地の実情とリモート活用を解説）。",
+    intro: "県内のIT求人は首都圏に比べ限定的なエリアです。地場の製造業×ITに加え、首都圏フルリモート×地方在住やUIターン移住という選択肢が現実的です（求人件数は断定せず、各地の実情とリモート活用を解説）。",
     areas: [
-      { slug: "kanazawa", name: "金沢・石川", jobs: "限定的・リモート併用", salary: "地方水準/全国参考値", desc: "北陸の中核。地場ソフト・ものづくりDX＋リモート。移住支援あり。" },
-      { slug: "niigata", name: "新潟", jobs: "限定的・リモート併用", salary: "地方水準/全国参考値", desc: "市内にソフト産業集積。上越新幹線で東京アクセス良。" },
-      { slug: "shizuoka", name: "静岡", jobs: "限定的・新幹線通勤/リモート", salary: "地方水準/全国参考値", desc: "東海道新幹線で東京通勤圏。フルリモート併用も現実的。" },
-      { slug: "hamamatsu", name: "浜松", jobs: "限定的・製造業DX/リモート", salary: "地方水準/全国参考値", desc: "スズキ・ヤマハ・ホンダ発祥のものづくり都市。組込みに特色。" },
-      { slug: "okayama", name: "岡山", jobs: "限定的・リモート併用", salary: "地方水準/全国参考値", desc: "中四国の交通ハブ。災害が少なく移住人気。" },
-      { slug: "kumamoto", name: "熊本", jobs: "限定的・半導体/リモート", salary: "地方水準/全国参考値", desc: "TSMC進出で半導体・製造業×ITが集積。" },
-      { slug: "okinawa", name: "沖縄・那覇", jobs: "誘致拠点中心・限定的", salary: "地方水準/全国参考値", desc: "IT誘致×リゾートワーク。フルリモート移住と好相性。" },
-      { slug: "matsuyama", name: "松山・愛媛", jobs: "限定的・リモート併用", salary: "地方水準/全国参考値", desc: "四国の中核都市。地元SIer＋首都圏フルリモート。" },
-      { slug: "takamatsu", name: "高松・香川", jobs: "限定的・支店経済", salary: "地方水準/全国参考値", desc: "四国の玄関口・本州アクセス良。月数回出社も両立。" },
-      { slug: "utsunomiya", name: "宇都宮・栃木", jobs: "製造業×IT・通勤圏", salary: "通勤圏で都内水準も", desc: "北関東の製造業×IT＋新幹線で東京通勤圏。" },
-      { slug: "nagano", name: "長野", jobs: "限定的・精密/IoT", salary: "地方水準/全国参考値", desc: "精密・IoTの強みと軽井沢等のリモート移住。" },
-      { slug: "toyama", name: "富山", jobs: "限定的・ものづくり", salary: "地方水準/全国参考値", desc: "ものづくり県の製造業IT＋北陸新幹線リモート移住。" },
-      { slug: "gifu", name: "岐阜", jobs: "限定的・名古屋通勤圏", salary: "名古屋圏水準も", desc: "航空宇宙・自動車部品の製造業ITと名古屋通勤の両立。" },
-      { slug: "nara", name: "奈良", jobs: "限定的・関西通勤圏", salary: "関西都市部水準も", desc: "大阪・京都通勤圏の住みやすさとフルリモート併用。" },
-      { slug: "kagoshima", name: "鹿児島", jobs: "限定的・IT誘致", salary: "地方水準/全国参考値", desc: "南九州のIT誘致と自然豊かなリモート移住。福岡併用も。" },
+      { slug: "kanazawa", name: "金沢・石川", jobs: "限定的・リモート併用", salary: "地方水準/全国参考値", desc: "北陸の中核です。地場ソフト・ものづくりDX＋リモートです。移住支援があります。" },
+      { slug: "niigata", name: "新潟", jobs: "限定的・リモート併用", salary: "地方水準/全国参考値", desc: "市内にソフト産業集積です。上越新幹線で東京アクセス良です。" },
+      { slug: "shizuoka", name: "静岡", jobs: "限定的・新幹線通勤/リモート", salary: "地方水準/全国参考値", desc: "東海道新幹線で東京通勤圏です。フルリモート併用も現実的です。" },
+      { slug: "hamamatsu", name: "浜松", jobs: "限定的・製造業DX/リモート", salary: "地方水準/全国参考値", desc: "スズキ・ヤマハ・ホンダ発祥のものづくり都市です。組込みに特色です。" },
+      { slug: "okayama", name: "岡山", jobs: "限定的・リモート併用", salary: "地方水準/全国参考値", desc: "中四国の交通ハブです。災害が少なく移住人気です。" },
+      { slug: "kumamoto", name: "熊本", jobs: "限定的・半導体/リモート", salary: "地方水準/全国参考値", desc: "TSMC進出で半導体・製造業×ITが集積しています。" },
+      { slug: "okinawa", name: "沖縄・那覇", jobs: "誘致拠点中心・限定的", salary: "地方水準/全国参考値", desc: "IT誘致×リゾートワークです。フルリモート移住と好相性です。" },
+      { slug: "matsuyama", name: "松山・愛媛", jobs: "限定的・リモート併用", salary: "地方水準/全国参考値", desc: "四国の中核都市です。地元SIer＋首都圏フルリモートです。" },
+      { slug: "takamatsu", name: "高松・香川", jobs: "限定的・支店経済", salary: "地方水準/全国参考値", desc: "四国の玄関口・本州アクセス良です。月数回出社も両立します。" },
+      { slug: "utsunomiya", name: "宇都宮・栃木", jobs: "製造業×IT・通勤圏", salary: "通勤圏で都内水準も", desc: "北関東の製造業×IT＋新幹線で東京通勤圏です。" },
+      { slug: "nagano", name: "長野", jobs: "限定的・精密/IoT", salary: "地方水準/全国参考値", desc: "精密・IoTの強みと軽井沢等のリモート移住です。" },
+      { slug: "toyama", name: "富山", jobs: "限定的・ものづくり", salary: "地方水準/全国参考値", desc: "ものづくり県の製造業IT＋北陸新幹線リモート移住です。" },
+      { slug: "gifu", name: "岐阜", jobs: "限定的・名古屋通勤圏", salary: "名古屋圏水準も", desc: "航空宇宙・自動車部品の製造業ITと名古屋通勤の両立です。" },
+      { slug: "nara", name: "奈良", jobs: "限定的・関西通勤圏", salary: "関西都市部水準も", desc: "大阪・京都通勤圏の住みやすさとフルリモート併用です。" },
+      { slug: "kagoshima", name: "鹿児島", jobs: "限定的・IT誘致", salary: "地方水準/全国参考値", desc: "南九州のIT誘致と自然豊かなリモート移住です。福岡併用も。" },
     ],
   },
   {
     name: "リモート・移住",
-    intro: "勤務地に縛られない働き方の選択肢。エリアの制約を外して全国の求人を狙えます。",
+    intro: "勤務地に縛られない働き方の選択肢です。エリアの制約を外して全国の求人を狙えます。",
     areas: [
-      { slug: "remote", name: "フルリモート", jobs: "約20,000件", salary: "500〜800万円", desc: "居住地を問わず都市部水準の求人に応募可能。" },
-      { slug: "iiju", name: "地方移住×IT転職", jobs: "約5,000件", salary: "400〜650万円", desc: "移住しながらITで働くための進め方を解説。" },
+      { slug: "remote", name: "フルリモート", jobs: "約20,000件", salary: "500〜800万円", desc: "居住地を問わず都市部水準の求人に応募可能です。" },
+      { slug: "iiju", name: "地方移住×IT転職", jobs: "約5,000件", salary: "400〜650万円", desc: "移住しながらITで働くための進め方を解説します。" },
     ],
   },
 ];
@@ -86,7 +86,7 @@ export default function AreaIndexPage() {
     "@type": "CollectionPage",
     name: "エリア別IT転職ガイド一覧",
     description:
-      "東京・大阪・名古屋・福岡など全国14エリアのIT転職事情を分類した一覧ページ。",
+      "東京・大阪・名古屋・福岡など全国14エリアのIT転職事情を分類した一覧ページです。",
     url: "https://middle-engineer.com/area/",
     mainEntity: {
       "@type": "ItemList",
@@ -104,7 +104,7 @@ export default function AreaIndexPage() {
     <>
       <ArticleJsonLd
         title="エリア別IT転職ガイド一覧【全14エリア】"
-        description="東京・大阪・名古屋・福岡など全国14エリアのIT転職事情を分類した一覧ページ。"
+        description="東京・大阪・名古屋・福岡など全国14エリアのIT転職事情を分類した一覧ページです。"
         url="/area/"
       />
       <script
@@ -158,7 +158,7 @@ export default function AreaIndexPage() {
           <ul className="space-y-3 text-slate-600 leading-relaxed list-disc pl-5 mb-4">
             <li>
               <span className="font-medium text-slate-700">出社前提でエリアを選ぶ</span>
-              ：通勤圏内の求人に絞る代わりに、対面のコミュニケーションやオフィス環境を重視するパターン。求人量の多い
+              ：通勤圏内の求人に絞る代わりに、対面のコミュニケーションやオフィス環境を重視するパターンです。求人量の多い
               <Link href="/area/tokyo/" className="text-petrol hover:underline">東京</Link>
               や
               <Link href="/area/osaka/" className="text-petrol hover:underline">大阪</Link>
@@ -172,7 +172,7 @@ export default function AreaIndexPage() {
             </li>
             <li>
               <span className="font-medium text-slate-700">移住とセットで考える</span>
-              ：暮らしを変えるために地方へ移り、現地企業またはリモート求人で働くパターン。
+              ：暮らしを変えるために地方へ移り、現地企業またはリモート求人で働くパターンです。
               <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職</Link>
               で、移住前後の進め方を確認できます。
             </li>
@@ -220,7 +220,7 @@ export default function AreaIndexPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 text-center">
           <h2 className="text-xl font-bold mb-3">希望エリアの求人を探す</h2>
           <p className="text-blue-100 text-sm mb-4">
-            エリアに強いIT転職エージェントに相談して、あなたの希望勤務地の求人を紹介してもらいましょう。
+            エリアに強いIT転職エージェントに相談して、ご自身の希望勤務地の求人を紹介してもらいましょう。
           </p>
           <Link
             href="/#ranking"

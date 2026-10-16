@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/age-discrimination/" },
   title: "エンジニア転職の年齢の壁【実態と突破法】30代・40代向け",
   description:
-    "エンジニア転職の年齢の壁を実務目線で解説。年齢制限禁止のルール（一般的説明）、実務上の現実、書類で落ちる仕組み、35歳・40代が壁を突破する具体パターンを年収データとともにまとめました。",
+    "エンジニア転職の年齢の壁を実務目線で解説します。年齢制限禁止のルール（一般的説明）、実務上の現実、書類で落ちる仕組み、35歳・40代が壁を突破する具体パターンを年収データとともにまとめました。",
 };
 
 const TITLE = "エンジニア転職の年齢の壁【実態と突破法】30代・40代向け";
 const DESC =
-  "エンジニア転職の年齢の壁を実務目線で解説。年齢制限禁止のルール、実務上の現実、書類で落ちる仕組み、35歳・40代が壁を突破する具体パターンを年収データとともにまとめました。";
+  "エンジニア転職の年齢の壁を実務目線で解説します。年齢制限禁止のルール、実務上の現実、書類で落ちる仕組み、35歳・40代が壁を突破する具体パターンを年収データとともにまとめました。";
 
 const toc = [
   { id: "conclusion", label: "結論：年齢の壁の正体" },
@@ -94,7 +94,7 @@ export default function AgeDiscriminationPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニア転職に年齢の壁は本当にある？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 壁の正体は「年齢そのもの」ではなく、年齢が上がるほど『即戦力性の証明』を強く求められるという評価軸の変化です。門前払いではありません。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・募集・採用での年齢制限は原則禁止（一般的な制度説明。詳細は労働局へ）</li><li>・40代の平均年収は約618万円（レバテック公表値・2025年）と30代を上回る</li><li>・突破の鍵は「即戦力性の言語化」「直近のモダン経験」「エージェント経由応募」</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・募集・採用での年齢制限は原則禁止（一般的な制度説明。詳細は労働局へ）</li><li>・40代の平均年収は約618万円（レバテック公表値・2025年）と30代を上回ります</li><li>・突破の鍵は「即戦力性の言語化」「直近のモダン経験」「エージェント経由応募」</li></ul>
           </div>
         </section>
 
@@ -132,7 +132,7 @@ export default function AgeDiscriminationPage() {
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
               <li>・募集・採用での年齢制限は原則禁止（一般的な制度説明。詳細は労働局へ）</li>
-              <li>・40代の平均年収は約618万円（レバテック公表値・2025年）と30代を上回る</li>
+              <li>・40代の平均年収は約618万円（レバテック公表値・2025年）と30代を上回ります</li>
               <li>・突破の鍵は「即戦力性の言語化」「直近のモダン経験」「エージェント経由応募」</li>
             </ul>
           </div>
@@ -144,7 +144,7 @@ export default function AgeDiscriminationPage() {
           <div className="border border-slate-200 rounded-lg p-5">
             <h3 className="font-bold text-slate-800 mb-3">募集・採用における年齢制限の禁止</h3>
             <p className="text-sm text-slate-600 leading-relaxed mb-3">
-              事業主は、労働者の募集および採用について、原則として年齢にかかわりなく均等な機会を与えなければならないとされています（労働施策総合推進法。旧・雇用対策法の規定を引き継ぐもの）。これにより、求人票へ「◯歳以下」などの年齢制限を記載することは原則として認められていません。
+              事業主は、労働者の募集および採用について、原則として年齢にかかわりなく均等な機会を与えなければならないとされています（労働施策総合推進法。旧・雇用対策法の規定を引き継ぐものです）。これにより、求人票へ「◯歳以下」などの年齢制限を記載することは原則として認められていません。
             </p>
             <div className="bg-slate-50 rounded-lg p-4">
               <p className="text-xs text-slate-500 mb-2">法令上、例外として年齢制限が認められうる主なケース：</p>
@@ -169,9 +169,9 @@ export default function AgeDiscriminationPage() {
           </p>
           <div className="space-y-4">
             {[
-              { t: "求人の母数が年代で変わる", d: "年齢制限の記載はなくても、ポジションの想定年齢層は存在する。結果として、応募できる求人の絶対数は年代が上がるほど絞られる傾向がある。" },
-              { t: "『即戦力前提』への切り替わり", d: "30代後半以降は『入ってすぐ戦力になるか』が前提条件になりやすい。ポテンシャル評価が薄れるぶん、実績の証明ハードルが上がる。" },
-              { t: "年収レンジと役割のミスマッチ", d: "年齢相応の年収を希望すると、その額に見合う役割（リード・専門職）を求められる。額と役割が噛み合わないと見送られやすい。" },
+              { t: "求人の母数が年代で変わる", d: "年齢制限の記載はなくても、ポジションの想定年齢層は存在します。結果として、応募できる求人の絶対数は年代が上がるほど絞られる傾向があります。" },
+              { t: "『即戦力前提』への切り替わり", d: "30代後半以降は『入ってすぐ戦力になるか』が前提条件になりやすいです。ポテンシャル評価が薄れるぶん、実績の証明ハードルが上がります。" },
+              { t: "年収レンジと役割のミスマッチ", d: "年齢相応の年収を希望すると、その額に見合う役割（リード・専門職）を求められます。額と役割が噛み合わないと見送られやすいです。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1.5">{x.t}</h3>
@@ -213,7 +213,7 @@ export default function AgeDiscriminationPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mb-6">
-            出典：レバテック公表の年代別平均年収（2025年）。「—」は公表値が確認できない項目。
+            出典：レバテック公表の年代別平均年収（2025年）。「—」は公表値が確認できない項目です。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <p className="text-sm text-slate-600 leading-relaxed">
@@ -248,11 +248,11 @@ export default function AgeDiscriminationPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年齢の壁を突破する5パターン</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "専門性を一点突破にする", desc: "『何でもできます』は年齢が上がるほど不利。セキュリティ・SRE・DB・クラウド基盤など、一領域の深さで勝負すると年齢が問題になりにくい。" },
-              { num: "2", title: "直近のモダン経験を作る", desc: "個人開発・副業・社内の小さなPoCでも良いので、直近2〜3年でクラウド/コンテナ/CI-CD等に触れた事実を1つ用意し、陳腐化懸念を消す。" },
-              { num: "3", title: "エージェント経由で一次フィルタを越える", desc: "推薦文付きで紹介されると、書類だけの機械的フィルタを越えてスキルを見てもらいやすい。年齢に寛容な求人を持つ複数社を併用する。" },
-              { num: "4", title: "役割を明確にしたポジションを狙う", desc: "社内SE・DX推進・EM・テックリードなど役割が明確な求人は、年齢より『その役割を担えるか』で判断される。ドメイン知識が活きる。" },
-              { num: "5", title: "スカウト型で市場価値を可視化する", desc: "スカウト型サービスに登録し、どんな年収・ポジションの声がかかるかを観測。壁の高さを感覚でなくデータで把握し、戦略を調整する。" },
+              { num: "1", title: "専門性を一点突破にする", desc: "『何でもできます』は年齢が上がるほど不利です。セキュリティ・SRE・DB・クラウド基盤など、一領域の深さを強みにすると年齢が問題になりにくいです。" },
+              { num: "2", title: "直近のモダン経験を作る", desc: "個人開発・副業・社内の小さなPoCでも良いので、直近2〜3年でクラウド/コンテナ/CI-CD等に触れた事実を1つ用意し、陳腐化懸念を消します。" },
+              { num: "3", title: "エージェント経由で一次フィルタを越える", desc: "推薦文付きで紹介されると、書類だけの機械的フィルタを越えてスキルを見てもらいやすいです。年齢に寛容な求人を持つ複数社を併用します。" },
+              { num: "4", title: "役割を明確にしたポジションを狙う", desc: "社内SE・DX推進・EM・テックリードなど役割が明確な求人は、年齢より『その役割を担えるか』で判断されます。ドメイン知識が活きます。" },
+              { num: "5", title: "スカウト型で市場価値を可視化する", desc: "スカウト型サービスに登録し、どんな年収・ポジションの声がかかるかを観測します。壁の高さを感覚でなくデータで把握し、戦略を調整します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -273,10 +273,10 @@ export default function AgeDiscriminationPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年齢に寛容な企業の見分け方</h2>
           <div className="space-y-4">
             {[
-              { t: "外資系IT企業", d: "年齢よりスキルと成果で評価する文化が強い。英語力が求められる場合が多いが、年齢の壁は相対的に低い。" },
-              { t: "中途採用比率が高い企業", d: "中途比率が高い企業は経歴の多様性を前提に組織が回っている。採用ページや口コミサイトで中途比率を確認できる。" },
-              { t: "DX推進中の事業会社", d: "製造・金融・小売などのDX部門は中途採用が中心で、年齢より業界知識＋技術を重視する傾向がある。" },
-              { t: "成長フェーズのスタートアップ", d: "シリーズB〜C以降は経験豊富なシニアを求める。若い組織に40代の判断力が必要とされるケースが多い。" },
+              { t: "外資系IT企業", d: "年齢よりスキルと成果で評価する文化が強いです。英語力が求められる場合が多いが、年齢の壁は相対的に低いです。" },
+              { t: "中途採用比率が高い企業", d: "中途比率が高い企業は経歴の多様性を前提に組織が回っています。採用ページや口コミサイトで中途比率を確認できます。" },
+              { t: "DX推進中の事業会社", d: "製造・金融・小売などのDX部門は中途採用が中心で、年齢より業界知識＋技術を重視する傾向があります。" },
+              { t: "成長フェーズのスタートアップ", d: "シリーズB〜C以降は経験豊富なシニアを求めます。若い組織に40代の判断力が必要とされるケースが多いです。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1.5">{x.t}</h3>
@@ -324,13 +324,13 @@ export default function AgeDiscriminationPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">30代：壁は「ほぼ通過後に問題にならない」</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                30代は書類さえ通れば年齢が決定打になることは少なく、スキルと意欲で十分戦えます。むしろ求人母数が多いため、応募の質を上げれば年収アップを狙いやすい年代です。35歳前後で評価軸が即戦力寄りに移る点だけ意識しましょう。詳細は<Link href="/age/35/" className="text-petrol hover:underline">35歳の壁</Link>を参照。
+                30代は書類さえ通れば年齢が決定打になることは少なく、スキルと意欲で十分戦えます。むしろ求人母数が多いため、応募の質を上げれば年収アップを狙いやすい年代です。35歳前後で評価軸が即戦力寄りに移る点だけ意識しましょう。詳細は<Link href="/age/35/" className="text-petrol hover:underline">35歳の壁</Link>をご参照ください。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">40代：壁は「数の減少」として現れる</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                40代の壁は門前払いではなく、応募できる求人の数が絞られる形で現れます。専門性の明確化・複数エージェント併用・役割の明確なポジション狙いで母数不足をカバーするのが基本。40代特化の動き方は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>でさらに深掘りしています。
+                40代の壁は門前払いではなく、応募できる求人の数が絞られる形で現れます。専門性の明確化・複数エージェント併用・役割の明確なポジション狙いで母数不足をカバーするのが基本です。40代特化の動き方は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>でさらに深掘りしています。
               </p>
             </div>
           </div>

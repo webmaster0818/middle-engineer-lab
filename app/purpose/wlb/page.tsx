@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/wlb/" },
   title: "ワークライフバランス重視のIT転職先【残業少なめ企業の見つけ方】",
   description:
-    "ワークライフバランスを重視するエンジニア向けの転職先選び方を解説。残業少なめIT企業の特徴、年収とのバランス、おすすめ企業タイプを紹介します。",
+    "ワークライフバランスを重視するエンジニア向けの転職先選び方を解説します。残業少なめIT企業の特徴、年収とのバランス、おすすめ企業タイプを紹介します。",
 };
 
 const faqs = [
@@ -52,7 +52,7 @@ export default function WlbPage() {
     <>
       <ArticleJsonLd
         title="ワークライフバランス重視のIT転職先【残業少なめ企業の見つけ方】"
-        description="ワークライフバランスを重視するエンジニア向けの転職先選び方を解説。残業少なめIT企業の特徴、年収とのバランス、おすすめ企業タイプを紹介します。"
+        description="ワークライフバランスを重視するエンジニア向けの転職先選び方を解説します。残業少なめIT企業の特徴、年収とのバランス、おすすめ企業タイプを紹介します。"
         url="/purpose/wlb/"
       />
       <script
@@ -76,11 +76,11 @@ export default function WlbPage() {
         </p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- 月残業40時間以上で体力的に限界を感じている</li>
-              <li>- 子育てや介護との両立を考えている</li>
+              <li>- 月残業40時間以上で体力的に限界を感じています</li>
+              <li>- 子育てや介護との両立を考えています</li>
               <li>- プライベートの時間を確保して自己投資したい</li>
               <li>- 年収が多少下がってもWLBを優先したい</li>
               <li>- リモートワーク・フレックスで働きたい</li>
@@ -125,9 +125,9 @@ export default function WlbPage() {
           <div className="space-y-4">
             {[
               { num: "1", title: "平均残業時間を具体的に確認", desc: "OpenWorkの口コミ、面接での直接質問、エージェント経由の情報を総合して判断しましょう。月20時間以下が目安です。" },
-              { num: "2", title: "リモートワーク制度の実態を確認", desc: "制度があっても実際に使えるかは別問題。チームの利用率やマネージャーの理解度を確認しましょう。" },
-              { num: "3", title: "フレックスの運用実態を確認", desc: "コアタイムの長さ、実際の運用状況を確認。コアタイムなしのスーパーフレックスが最も自由度が高いです。" },
-              { num: "4", title: "有給取得率を確認", desc: "有給取得率70%以上が目安。エンジニアのチームで実際に取得できているかも重要です。" },
+              { num: "2", title: "リモートワーク制度の実態を確認", desc: "制度があっても実際に使えるかは別問題です。チームの利用率やマネージャーの理解度を確認しましょう。" },
+              { num: "3", title: "フレックスの運用実態を確認", desc: "コアタイムの長さ、実際の運用状況を確認します。コアタイムなしのスーパーフレックスが最も自由度が高いです。" },
+              { num: "4", title: "有給取得率を確認", desc: "有給取得率70%以上が目安です。エンジニアのチームで実際に取得できているかも重要です。" },
               { num: "5", title: "オンコール・休日対応の有無を確認", desc: "SRE/インフラ系はオンコールの可能性があります。ローテーションの頻度と手当を確認しましょう。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -147,9 +147,9 @@ export default function WlbPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "マイナビITエージェント", point: "WLB重視の求人が豊富。残業時間や制度面の情報提供が手厚い。" },
-              { name: "レバテックキャリア", point: "自社サービス企業の求人が充実。カルチャーマッチングの精度が高い。" },
-              { name: "Green", point: "カジュアル面談で実際の働き方を事前確認できる。" },
+              { name: "マイナビITエージェント", point: "WLB重視の求人が豊富です。残業時間や制度面の情報提供が手厚いです。" },
+              { name: "レバテックキャリア", point: "自社サービス企業の求人が充実しています。カルチャーマッチングの精度が高いです。" },
+              { name: "Green", point: "カジュアル面談で実際の働き方を事前確認できます。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -194,7 +194,7 @@ export default function WlbPage() {
               { name: "フルリモート勤務ガイド", href: "/purpose/remote-full/" },
               { name: "残業少なめIT企業の見極め方", href: "/purpose/no-overtime/" },
               { name: "安定重視のエンジニア転職", href: "/purpose/stable/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "Reactエンジニアの転職完全ガイド【2026年】年収・求人の探し方";
+const TITLE = "Reactエンジニアの転職ガイド【2026年】年収・求人の探し方";
 const DESCRIPTION =
-  "Reactエンジニアの転職市場を公表データで解説。レバテック・求人ボックスの年収傾向、求人の探し方、30代・40代の参入ルート、おすすめエージェントまで実用的にまとめました。";
+  "Reactエンジニアの転職市場を公表データで解説します。レバテック・求人ボックスの年収傾向、求人の探し方、30代・40代の参入ルート、おすすめエージェントまで実用的にまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/react/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：React転職の攻め方" },
+  { id: "conclusion", label: "結論：React転職の進め方" },
   { id: "market", label: "市場・年収データ（公表値）" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
@@ -42,11 +42,11 @@ const careerPaths = [
   },
   {
     title: "UI/UX・デザインエンジニア路線",
-    body: "Reactの技術力にUI/UXの知見を組み合わせる道。Figma連携、プロトタイピング、ユーザビリティ改善などデザインと開発の橋渡し役として、プロダクト志向の企業で需要が高まっています。",
+    body: "Reactの技術力にUI/UXの知見を組み合わせる道です。Figma連携、プロトタイピング、ユーザビリティ改善などデザインと開発の橋渡し役として、プロダクト志向の企業で需要が高まっています。",
   },
   {
     title: "フルスタック / テックリード路線",
-    body: "ReactにNode.js/Next.jsのバックエンド開発力を加え、プロダクト全体の技術選定とアーキテクチャ設計を主導。30代後半〜40代でテックリード・EMへ進むパスです。",
+    body: "ReactにNode.js/Next.jsのバックエンド開発力を加え、プロダクト全体の技術選定とアーキテクチャ設計を主導します。30代後半〜40代でテックリード・EMへ進むパスです。",
   },
 ];
 
@@ -109,7 +109,7 @@ export default function ReactSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          Reactエンジニアの転職完全ガイド【2026年】年収・求人の探し方
+          Reactエンジニアの転職ガイド【2026年】年収・求人の探し方
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | React転職市場の動向を30代・40代エンジニア向けに解説
@@ -127,14 +127,14 @@ export default function ReactSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：React転職の攻め方</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：React転職の進め方</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               Reactは求人母数が多く、JavaScript系の需要も高水準（paiza 2025年版で求人件数1位）の「安定スキル」です。求人DBの件数を眺めるだけでなく、<strong>「React/Next.js × TypeScript × テスト」をセットで実績化</strong>し、IT特化エージェントで非公開求人にアクセスするのが効率的です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・年収重視なら自社開発・メガベンチャー、技術裁量重視ならスタートアップ。</li>
-              <li>・30代・40代はスペシャリスト or テックリードの軸を決めて職務経歴書を整理。</li>
-              <li>・エージェントはGeekly／レバテックキャリア／Greenの併用が定番。</li>
+              <li>・年収重視なら自社開発・メガベンチャー、技術裁量重視ならスタートアップです。</li>
+              <li>・30代・40代はスペシャリスト or テックリードの軸を決めて職務経歴書を整理します。</li>
+              <li>・エージェントはGeekly／レバテックキャリア／Greenの併用が定番です。</li>
             </ul>
           </div>
         </section>
@@ -189,9 +189,9 @@ export default function ReactSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              ["ジュニア〜ミドル（実務2〜4年）", "Hooks・コンポーネント設計・状態管理・APIフェッチの実務。中小自社開発やWeb制作会社のモダン化案件で募集が見られる層。"],
-              ["ミドル〜シニア（実務4〜8年）", "Next.js（App Router）・TypeScript・テスト・パフォーマンス最適化。設計レビューや若手育成も担う、求人母数が最も多い層。"],
-              ["シニア・リード（実務8年〜）", "デザインシステム設計、フロントアーキテクチャ策定、技術選定。テックリード・フロントエンドアーキテクト求人の中心。"],
+              ["ジュニア〜ミドル（実務2〜4年）", "Hooks・コンポーネント設計・状態管理・APIフェッチの実務です。中小自社開発やWeb制作会社のモダン化案件で募集が見られる層です。"],
+              ["ミドル〜シニア（実務4〜8年）", "Next.js（App Router）・TypeScript・テスト・パフォーマンス最適化です。設計レビューや若手育成も担う、求人母数が最も多い層です。"],
+              ["シニア・リード（実務8年〜）", "デザインシステム設計、フロントアーキテクチャ策定、技術選定です。テックリード・フロントエンドアーキテクト求人の中心です。"],
             ].map(([level, body], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{level}</h3>
@@ -223,22 +223,22 @@ export default function ReactSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界に特化。React/Next.js求人が充実し、提案スピードが強み。企業の技術スタックや開発文化の情報提供が手厚い。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界に特化しています。React/Next.js求人が充実し、提案スピードが強みです。企業の技術スタックや開発文化の情報提供が手厚いです。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化で高年収帯に強み。技術に明るいアドバイザーが在籍し、フロントエンド案件のマッチング精度が高いとの評判。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化で高年収帯に強みがあります。技術に明るいアドバイザーが在籍し、フロントエンド案件のマッチング精度が高いとの評判です。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Green</h3>
-              <p className="text-sm text-slate-600 mb-2">成功報酬型の転職サイト（ダイレクトリクルーティング）。カジュアル面談で技術文化を確かめてから進めたいスタートアップ志向の人向け。</p>
+              <p className="text-sm text-slate-600 mb-2">成功報酬型の転職サイトです（ダイレクトリクルーティング）。カジュアル面談で技術文化を確かめてから進めたいスタートアップ志向の人向けです。</p>
               <Link href="/review/green/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            求人母数を最大化したい場合は<Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルートエージェントIT</Link>や<Link href="/review/doda-it/" className="text-petrol hover:underline">doda ITエンジニア</Link>も併用候補。比較は<Link href="/compare/levtech-vs-geekly/" className="text-petrol hover:underline">レバテック vs Geekly</Link>も参考になります。
+            求人母数を最大化したい場合は<Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルートエージェントIT</Link>や<Link href="/review/doda-it/" className="text-petrol hover:underline">doda ITエンジニア</Link>も併用候補です。比較は<Link href="/compare/levtech-vs-geekly/" className="text-petrol hover:underline">レバテック vs Geekly</Link>も参考になります。
           </p>
         </section>
 
@@ -247,10 +247,10 @@ export default function ReactSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">経験浅め・他FWからの参入ルート</h2>
           <ul className="space-y-2 text-sm text-slate-600">
             {[
-              "Vue/Angular経験者は「設計思想は共通」と捉え、JSX・Hooksに絞ってキャッチアップする。",
-              "バックエンド経験者はAPI設計の強みを活かし、フルスタック前提でReactを学ぶと差別化しやすい。",
-              "公開ポートフォリオ（Next.js + TypeScript）で、状態管理・テスト・パフォーマンス配慮を見せる。",
-              "いきなり大規模を狙わず、React採用の中小プロダクトで実務年数を積む。",
+              "Vue/Angular経験者は「設計思想は共通」と捉え、JSX・Hooksに絞ってキャッチアップです。",
+              "バックエンド経験者はAPI設計の強みを活かし、フルスタック前提でReactを学ぶと差別化しやすいです。",
+              "公開ポートフォリオ（Next.js + TypeScript）で、状態管理・テスト・パフォーマンス配慮を見せます。",
+              "いきなり大規模を狙わず、React採用の中小プロダクトで実務年数を積みます。",
             ].map((t, i) => (
               <li key={i} className="flex gap-2">
                 <span className="text-petrol font-bold shrink-0">✓</span>
@@ -267,7 +267,7 @@ export default function ReactSkillPage() {
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            ミドル層の武器は「設計とレビューで品質を担保した経験」「チームを前に進めた実績」です。レバテックの年代別公表値（2025年）でも、正社員SEの平均は30代で約499万円、40代で約618万円と年代が上がるほど水準が上がる傾向があり、Reactのモダンスタックで即戦力性を示せれば交渉余地は十分にあります。
+            ミドル層の強みは「設計とレビューで品質を担保した経験」「チームを前に進めた実績」です。レバテックの年代別公表値（2025年）でも、正社員SEの平均は30代で約499万円、40代で約618万円と年代が上がるほど水準が上がる傾向があり、Reactのモダンスタックで即戦力性を示せれば交渉余地は十分にあります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
             40代では「スペシャリストとして突き抜けるか」「リード／EMで組織貢献するか」の軸を明確にすると評価されやすくなります。年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link>も参照してください。
@@ -279,10 +279,10 @@ export default function ReactSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
             {[
-              ["最新のReactを追う", "Server Components、Suspense、Actionsなど新パラダイムを実プロジェクトで試し、設計判断を語れるようにする。"],
-              ["TypeScriptと一体で習熟", "Reactは型と組み合わせて評価される。Propsの型設計やジェネリックコンポーネントを使いこなす。"],
-              ["品質で差をつける", "Testing Library/Playwrightでのテスト、レンダリング最適化、アクセシビリティ対応は具体的な強みになる。"],
-              ["アウトプットを残す", "OSSへのPR、UIライブラリの公開、技術記事など、思考が見える成果物を蓄積する。"],
+              ["最新のReactを追う", "Server Components、Suspense、Actionsなど新パラダイムを実プロジェクトで試し、設計判断を語れるようにします。"],
+              ["TypeScriptと一体で習熟", "Reactは型と組み合わせて評価されます。Propsの型設計やジェネリックコンポーネントを使いこなします。"],
+              ["品質で差をつける", "Testing Library/Playwrightでのテスト、レンダリング最適化、アクセシビリティ対応は具体的な強みになります。"],
+              ["アウトプットを残す", "OSSへのPR、UIライブラリの公開、技術記事など、思考が見える成果物を蓄積します。"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{t}</h3>
@@ -317,7 +317,7 @@ export default function ReactSkillPage() {
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
                   "頻繁なバージョン・パラダイム更新の追従が負担に感じる",
-                  "フロントよりインフラ・データ基盤を主戦場にしたい",
+                  "フロントよりインフラ・データ基盤を中心に活躍したい",
                   "UI以外（純粋なロジック/低レイヤ）に専念したい",
                   "レガシー環境から動く気がなく学習時間も取れない",
                 ].map((t, i) => (
@@ -356,7 +356,7 @@ export default function ReactSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Reactのスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントに登録して、あなたのReactスキルの市場価値と非公開求人を確認しましょう。
+            IT特化型エージェントに登録して、ご自身のReactスキルの市場価値と非公開求人を確認しましょう。
           </p>
           <Link
             href="/#ranking"

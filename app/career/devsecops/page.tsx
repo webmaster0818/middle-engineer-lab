@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/career/devsecops/" },
   title: "DevSecOps転職ガイド｜DevOps・インフラからの移行ステップと職務経歴書",
   description:
-    "DevOps／インフラ／セキュリティ担当からDevSecOpsエンジニアへ転職する方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文つきで解説します。",
+    "DevOps／インフラ／セキュリティ担当からDevSecOpsエンジニアへ転職する方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文を交えて解説します。",
 };
 
 const toc = [
@@ -66,7 +66,7 @@ const gapRows = [
 const buildSteps = [
   {
     title: "既存のCI/CDにセキュリティを「組み込む」経験を作る",
-    desc: "GitHub Actions/GitLab CIにSAST（Snyk、SonarQube）やDAST（OWASP ZAP）を統合する実装を経験します。DevSecOpsの核心はセキュリティの前倒し（Shift Left）なので、後付けの検査ではなくパイプラインの一部として動かせることが重要です。",
+    desc: "GitHub Actions/GitLab CIにSAST（Snyk、SonarQube）やDAST（OWASP ZAP）を統合する実装を経験します。DevSecOpsの核心はセキュリティの前倒し（Shift Left）であるため、後付けの検査ではなくパイプラインの一部として動かせることが重要です。",
   },
   {
     title: "コンテナ・IaCのセキュリティ検査を自動化する",
@@ -74,7 +74,7 @@ const buildSteps = [
   },
   {
     title: "シークレット管理の運用を整える",
-    desc: "Vault、AWS Secrets Manager、SOPSなどでシークレットのライフサイクルを設計し、Git履歴からの漏洩検知も組み込みます。『鍵が漏れない仕組み』を語れることはDevSecOps面接で強い武器になります。",
+    desc: "Vault、AWS Secrets Manager、SOPSなどでシークレットのライフサイクルを設計し、Git履歴からの漏洩検知も組み込みます。『鍵が漏れない仕組み』を語れることはDevSecOps面接で強い強みになります。",
   },
   {
     title: "脅威モデリングで設計に踏み込む",
@@ -120,7 +120,7 @@ const faqs = [
   },
   {
     q: "DevOpsエンジニアからDevSecOpsへの転身は容易？",
-    a: "DevOpsの基盤がある人は移行しやすい部類です。不足しがちなのは脆弱性診断・セキュリティ設計の知識なので、既存のCI/CDにSAST/DASTやコンテナスキャンを組み込んだ実績を作ると、書類・面接で説得力が出ます。",
+    a: "DevOpsの基盤がある人は移行しやすい部類です。不足しがちなのは脆弱性診断・セキュリティ設計の知識であるため、既存のCI/CDにSAST/DASTやコンテナスキャンを組み込んだ実績を作ると、書類・面接で説得力が出ます。",
   },
   {
     q: "セキュリティ担当からDevSecOpsへは行ける？",
@@ -172,7 +172,7 @@ export default function DevsecopsPage() {
     <>
       <ArticleJsonLd
         title="DevSecOps転職ガイド｜DevOps・インフラからの移行ステップと職務経歴書"
-        description="DevOps／インフラ／セキュリティ担当からDevSecOpsエンジニアへ転職する方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文つきで解説します。"
+        description="DevOps／インフラ／セキュリティ担当からDevSecOpsエンジニアへ転職する方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文を交えて解説します。"
         url="/career/devsecops/"
       />
       <script
@@ -229,9 +229,9 @@ export default function DevsecopsPage() {
               ただし「セキュリティを開発に組み込んだ実績」を示せるかが分かれ目になります。
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
-              <li>① DevOps出身なら<strong>セキュリティ知識</strong>、セキュリティ出身なら<strong>CI/CD・IaC実装</strong>がギャップになりやすい</li>
-              <li>② 既存のパイプラインにSAST/DASTやコンテナスキャンを組み込んだ実績を1つ作る</li>
-              <li>③ セキュリティ人材は慢性的に不足しており、両立人材はミドル層でも需要が高い</li>
+              <li>① DevOps出身なら<strong>セキュリティ知識</strong>、セキュリティ出身なら<strong>CI/CD・IaC実装</strong>がギャップになりやすいです</li>
+              <li>② 既存のパイプラインにSAST/DASTやコンテナスキャンを組み込んだ実績を1つ作ります</li>
+              <li>③ セキュリティ人材は慢性的に不足しており、両立人材はミドル層でも需要が高いです</li>
             </ul>
           </div>
         </section>
@@ -317,21 +317,21 @@ export default function DevsecopsPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（CI/CD構築の事実だけの例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                GitHub ActionsでCI/CDパイプラインを構築。自動テストとデプロイを整備し、コンテナでアプリをデプロイ。脆弱性対応はセキュリティ担当からの指摘を受けて随時修正した。
+                GitHub ActionsでCI/CDパイプラインを構築します。自動テストとデプロイを整備し、コンテナでアプリをデプロイです。脆弱性対応はセキュリティ担当からの指摘を受けて随時修正しました。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（セキュリティの前倒しを主語にした例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                GitHub ActionsのCI/CDに、SAST（Snyk）とコンテナイメージスキャン（Trivy）、IaCスキャン（tfsec）を統合し、プルリクエスト段階で脆弱性を検出・ブロックする仕組みを構築（Shift Left）。リリース後に発覚していた指摘をパイプラインで前倒し検知できるようにし、手戻りを削減。シークレットはVaultで集中管理し、Git履歴からの漏洩検知を導入。検出した重大度の高い脆弱性については、修正と再発防止のルール化までを主導した。
+                GitHub ActionsのCI/CDに、SAST（Snyk）とコンテナイメージスキャン（Trivy）、IaCスキャン（tfsec）を統合し、プルリクエスト段階で脆弱性を検出・ブロックする仕組みを構築します（Shift Left）。リリース後に発覚していた指摘をパイプラインで前倒し検知できるようにし、手戻りを削減します。シークレットはVaultで集中管理し、Git履歴からの漏洩検知を導入します。検出した重大度の高い脆弱性については、修正と再発防止のルール化までを主導しました。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
               <p className="font-bold text-slate-700 mb-2">改善のポイント</p>
               <ul className="space-y-1">
                 <li>・「指摘を受けて修正」→「パイプラインで前倒し検知（Shift Left）」と能動的な表現に変換</li>
-                <li>・SAST/DAST・コンテナ/IaCスキャン・シークレット管理を具体ツール名で示す</li>
-                <li>・検知件数・手戻り削減・再発防止のルール化など、出せる範囲で成果を添える</li>
+                <li>・SAST/DAST・コンテナ/IaCスキャン・シークレット管理を具体ツール名で示します</li>
+                <li>・検知件数・手戻り削減・再発防止のルール化など、出せる範囲で成果を添えます</li>
               </ul>
             </div>
           </div>
@@ -360,17 +360,17 @@ export default function DevsecopsPage() {
               {
                 name: "レバテックキャリア",
                 point:
-                  "IT/Web特化でセキュリティエンジニア求人を扱い、技術に詳しいアドバイザーが在籍。書類添削・技術面談対策のサポートが受けられます。",
+                  "IT/Web特化でセキュリティエンジニア求人を扱い、技術に詳しいアドバイザーが在籍しています。書類添削・技術面談対策のサポートが受けられます。",
               },
               {
                 name: "ビズリーチ",
                 point:
-                  "ハイクラス・スカウト型。年収750万円以上の定義でハイレンジ求人が中心。専門性の高いセキュリティポジションのスカウトで市場価値を測れます。",
+                  "ハイクラス・スカウト型です。年収750万円以上の定義でハイレンジ求人が中心です。専門性の高いセキュリティポジションのスカウトで市場価値を測れます。",
               },
               {
                 name: "マイナビIT AGENT",
                 point:
-                  "大手企業のセキュリティ部門求人を扱い、書類添削・面接対策が手厚いと評判。コンプライアンス要件の厳しい業界への応募で頼りになります。",
+                  "大手企業のセキュリティ部門求人を扱い、書類添削・面接対策が手厚いと評判です。コンプライアンス要件の厳しい業界への応募で頼りになります。",
               },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">

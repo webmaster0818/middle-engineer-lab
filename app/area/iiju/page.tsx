@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/iiju/" },
   title: "地方移住×エンジニア転職【2026年】移住して働く戦略と進め方",
   description:
-    "地方移住とエンジニア転職を両立する戦略を解説。移住先の選び方、転職の進め方、年収の考え方、移住支援制度の調べ方、対応エージェント、30代・40代の視点をまとめた実用ガイドです。",
+    "地方移住とエンジニア転職を両立する戦略を解説します。移住先の選び方、転職の進め方、年収の考え方、移住支援制度の調べ方、対応エージェント、30代・40代の視点をまとめた実用ガイドです。",
 };
 
 const faqs = [
@@ -50,27 +50,27 @@ const factors = [
   {
     name: "働き方（最重要）",
     point:
-      "「地元企業に転職」か「フルリモートで勤務先は変えずに移住」か「フルリモートで首都圏企業に転職」か。これで求人の母集団も年収水準も大きく変わる。最初に決める。",
+      "「地元企業に転職」か「フルリモートで勤務先は変えずに移住」か「フルリモートで首都圏企業に転職」か。これで求人の母集団も年収水準も大きく変わります。最初に決めます。",
   },
   {
     name: "通信・作業環境",
     point:
-      "リモート前提なら光回線などの通信環境は必須確認。コワーキングスペースや在宅の作業スペースを確保できるかも生産性に直結する。",
+      "リモート前提なら光回線などの通信環境は必須確認です。コワーキングスペースや在宅の作業スペースを確保できるかも生産性に直結します。",
   },
   {
     name: "生活インフラ・家族",
     point:
-      "病院・スーパー・学校・交通アクセスなど、家族のライフステージに合うか。パートナーの就労や子どもの教育環境も含めて検討する。",
+      "病院・スーパー・学校・交通アクセスなど、家族のライフステージに合うか。パートナーの就労や子どもの教育環境も含めて検討します。",
   },
   {
     name: "都市アクセス",
     point:
-      "完全在宅でも、たまの出社や打ち合わせは発生しうる。新幹線・空港など首都圏へのアクセスのしやすさは安心材料になる。",
+      "完全在宅でも、たまの出社や打ち合わせは発生しうります。新幹線・空港など首都圏へのアクセスのしやすさは安心材料になります。",
   },
   {
     name: "移住支援・コミュニティ",
     point:
-      "自治体の支援制度の有無（条件は要公式確認）、現地のITコミュニティや勉強会の存在。孤立を防ぎ、定着しやすくなる。",
+      "自治体の支援制度の有無（条件は要公式確認）、現地のITコミュニティや勉強会の存在です。孤立を防ぎ、定着しやすくなります。",
   },
 ];
 
@@ -79,19 +79,19 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化の大手。公開求人は約5万件超（2026年6月時点・複数転職メディア集計）で高年収求人比率が高い。フルリモートで首都圏水準を狙いつつ移住したい人に向く。",
+      "IT/Web特化の大手です。公開求人は約5万件超（2026年6月時点・複数転職メディア集計）で高年収求人比率が高いです。フルリモートで首都圏水準を狙いつつ移住したい人に向きます。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の国内最大級。IT・通信エンジニア求人5万件超（2026年2月時点・二次情報）。移住先の地元企業とフルリモート求人の両方を横断的に比較したい時に有効。",
+      "全国対応の国内最大級です。IT・通信エンジニア求人5万件超です（2026年2月時点・二次情報）。移住先の地元企業とフルリモート求人の両方を横断的に比較したい時に有効です。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     point:
-      "ハイクラス・スカウト型（年収750万円以上が目安・二次情報）。経験のある30代・40代が、移住を前提にしつつ高年収のリモート求人を狙う際の選択肢。",
+      "ハイクラス・スカウト型です（年収750万円以上が目安・二次情報）。経験のある30代・40代が、移住を前提にしつつ高年収のリモート求人を狙う際の選択肢です。",
   },
 ];
 
@@ -119,7 +119,7 @@ export default function IijuAreaPage() {
     <>
       <ArticleJsonLd
         title="地方移住×エンジニア転職【2026年】移住して働く戦略と進め方"
-        description="地方移住とエンジニア転職を両立する戦略を解説。移住先の選び方、転職の進め方、年収の考え方、移住支援制度の調べ方、対応エージェント、30代・40代の視点をまとめた実用ガイドです。"
+        description="地方移住とエンジニア転職を両立する戦略を解説します。移住先の選び方、転職の進め方、年収の考え方、移住支援制度の調べ方、対応エージェント、30代・40代の視点をまとめた実用ガイドです。"
         url="/area/iiju/"
       />
       <script
@@ -163,11 +163,11 @@ export default function IijuAreaPage() {
         />
 
         <section className="mb-10 bg-petrol-soft border border-blue-100 rounded-xl p-6">
-          <h2 className="text-lg font-bold text-blue-900 mb-3">結論：移住で失敗しないために</h2>
+          <h2 className="text-lg font-bold text-blue-900 mb-3">結論：移住を成功させるために</h2>
           <ul className="space-y-2 text-sm text-blue-900">
-            <li>① <strong>転職（特にフルリモート求人の確保）を先に</strong>決めてから移住する。順番を逆にしない。</li>
-            <li>② <strong>働き方の軸</strong>（地元企業／フルリモート）で年収も選択肢も決まる。最初に選ぶ。</li>
-            <li>③ 移住支援制度は<strong>自治体・年度で条件が異なる</strong>。金額は鵜呑みにせず必ず公式で確認。</li>
+            <li>① <strong>転職（特にフルリモート求人の確保）を先に</strong>決めてから移住します。順番を逆にしません。</li>
+            <li>② <strong>働き方の軸</strong>（地元企業／フルリモート）で年収も選択肢も決まります。最初に選びます。</li>
+            <li>③ 移住支援制度は<strong>自治体・年度で条件が異なります</strong>。金額は鵜呑みにせず必ず公式で確認します。</li>
           </ul>
         </section>
 
@@ -195,7 +195,7 @@ export default function IijuAreaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">1. 働き方で結果が大きく変わる</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                「地元企業に転職」か「フルリモートで首都圏企業」かで、年収水準も職種の選択肢も大きく異なります。地元企業は地域に根ざせる反面、求人数・年収レンジが限られがち。フルリモートは選択肢が広い反面、自走力やリモート適性が問われます。まず自分がどちらを軸にするかを決めることが出発点です。
+                「地元企業に転職」か「フルリモートで首都圏企業」かで、年収水準も職種の選択肢も大きく異なります。地元企業は地域に根ざせる反面、求人数・年収レンジが限られがちです。フルリモートは選択肢が広い反面、自走力やリモート適性が問われます。まず自分がどちらを軸にするかを決めることが出発点です。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -216,7 +216,7 @@ export default function IijuAreaPage() {
         <section id="factors" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">移住先を選ぶときの判断軸</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            移住先は「どこが人気か」より「自分の働き方・生活と合うか」で選ぶのが失敗しないコツです。特定の地名を勧めるより、次の判断軸で比較することをおすすめします。
+            移住先は「どこが人気か」より「自分の働き方・生活と合うか」で選ぶのが重要なポイントです。特定の地名を勧めるより、次の判断軸で比較することをおすすめします。
           </p>
           <div className="overflow-x-auto mb-2">
             <table className="w-full text-sm border-collapse min-w-[560px]">
@@ -247,23 +247,23 @@ export default function IijuAreaPage() {
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
-                <p className="text-sm text-slate-600"><strong>働き方の軸を決める:</strong> 地元企業かフルリモートか。フルリモート前提なら居住地の自由度が高く、移住先を後から選べる。</p>
+                <p className="text-sm text-slate-600"><strong>働き方の軸を決める:</strong> 地元企業かフルリモートか。フルリモート前提なら居住地の自由度が高く、移住先を後から選べます。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
-                <p className="text-sm text-slate-600"><strong>仕事を先に確保:</strong> フルリモート求人の確保、または現職のリモート可否を確定させてから移住する。先に移住するのはリスクが高い。<Link href="/area/remote/" className="text-petrol hover:underline">フルリモート転職の戦略</Link>を参照。</p>
+                <p className="text-sm text-slate-600"><strong>仕事を先に確保:</strong> フルリモート求人の確保、または現職のリモート可否を確定させてから移住します。先に移住するのはリスクが高いです。<Link href="/area/remote/" className="text-petrol hover:underline">フルリモート転職の戦略</Link>をご参照ください。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-                <p className="text-sm text-slate-600"><strong>移住先を下見:</strong> 通信環境・生活インフラ・作業スペースを現地で確認。可能なら季節を変えて複数回訪れる。</p>
+                <p className="text-sm text-slate-600"><strong>移住先を下見:</strong> 通信環境・生活インフラ・作業スペースを現地で確認します。可能なら季節を変えて複数回訪れます。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">4</span>
-                <p className="text-sm text-slate-600"><strong>移住支援制度を確認:</strong> 自治体により制度がある場合がある。対象条件・申請期限は必ず公式で確認（金額の事前断定はしない）。</p>
+                <p className="text-sm text-slate-600"><strong>移住支援制度を確認:</strong> 自治体により制度がある場合があります。対象条件・申請期限は必ず公式で確認します（金額の事前断定はしない）。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">5</span>
-                <p className="text-sm text-slate-600"><strong>住居・ネット・コミュニティを整える:</strong> 光回線の有無を最優先で確認。現地のITコミュニティに参加すると孤立を防げる。</p>
+                <p className="text-sm text-slate-600"><strong>住居・ネット・コミュニティを整える:</strong> 光回線の有無を最優先で確認します。現地のITコミュニティに参加すると孤立を防げます。</p>
               </div>
             </div>
           </div>
@@ -296,10 +296,10 @@ export default function IijuAreaPage() {
           </p>
           <div className="bg-white border border-slate-200 rounded-xl p-6 mb-4">
             <p className="text-sm text-slate-700 leading-relaxed mb-3">
-              <strong>レバテック公表の年代別平均年収（2025年・正社員SE）:</strong> 20代 約378万円／30代 約499万円／40代 約618万円／50代 約685万円（出典: career.levtech.jp/freelance.levtech.jp ガイド記事）。
+              <strong>レバテック公表の年代別平均年収（2025年・正社員SE）:</strong> 20代 約378万円／30代 約499万円／40代 約618万円／50代 約685万円です（出典: career.levtech.jp/freelance.levtech.jp ガイド記事）。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              <strong>doda 2024年度 決定年収レポート（2025年5月公表）:</strong> 転職者の約6割が年収アップ。IT・通信の平均決定年収は469万円（2023年度）→486万円（2024年度）。
+              <strong>doda 2024年度 決定年収レポート（2025年5月公表）:</strong> 転職者の約6割が年収アップです。IT・通信の平均決定年収は469万円（2023年度）→486万円です（2024年度）。
             </p>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
@@ -338,7 +338,7 @@ export default function IijuAreaPage() {
               <p className="text-sm text-slate-600 leading-relaxed">
                 30代は結婚・出産・住宅といったライフイベントと移住が重なりやすい時期です。フルリモート前提なら居住地の自由度が高く、家族の事情に合わせた地域選びがしやすくなります。仕事を確保したうえで、子育て・教育環境を含めて移住先を選ぶと後悔が少なくなります。
                 <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職戦略</Link>
-                も参考に。
+                もご参照ください。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -348,7 +348,7 @@ export default function IijuAreaPage() {
                 <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職戦略</Link>
                 や
                 <Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代転職のリアル</Link>
-                も確認を。
+                もご確認ください。
               </p>
             </div>
           </div>

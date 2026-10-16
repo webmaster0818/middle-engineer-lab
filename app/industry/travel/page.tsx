@@ -8,23 +8,23 @@ export const metadata: Metadata = {
   alternates: { canonical: "/industry/travel/" },
   title: "旅行業界からトラベルテック転職【30代40代ガイド】",
   description:
-    "旅行業界のエンジニアがトラベルテック（TravelTech）領域へ転職する道筋を解説。予約・在庫・価格の業務知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。",
+    "旅行業界のエンジニアがトラベルテック（TravelTech）領域へ転職する道筋を解説します。予約・在庫・価格の業務知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。",
 };
 
 const skillTable = [
   ["予約・在庫管理の仕組みの理解（GDS/CRS/OTA）", "そのまま強み", "予約フローや在庫連携を分かる人は限られ、トラベルテック企業で評価されやすい"],
   ["旅行商品の造成・料金設計の実務", "そのまま強み", "ダイナミックプライシングやパッケージ設計の前提知識が活きる"],
   ["多言語・決済まわりの運用知識", "差別化要素", "インバウンド向けサービスで決済・言語対応の理解が重宝される"],
-  ["モダンWeb開発（React/Next.js等）", "埋めるギャップ", "OTA・予約プロダクトはWebアプリ中心。フロント/バックの実装力を補強したい"],
+  ["モダンWeb開発（React/Next.js等）", "埋めるギャップ", "OTA・予約プロダクトはWebアプリ中心です。フロント/バックの実装力を補強したい"],
   ["API連携・外部システム接続", "埋めるギャップ", "GDS/OTA間や決済・地図など外部API連携の経験が問われやすい"],
   ["データ分析・ML基礎", "伸ばすと有利", "需要予測・価格最適化に関わるなら集計基盤やモデルの理解が役立つ"],
 ];
 
 const jobTypes = [
-  ["予約プロダクト・OTA開発", "OTA、メタサーチ、予約プラットフォーマー", "予約・検索体験の開発。予約・在庫の業務知識が直接活きる"],
-  ["価格最適化・需要予測", "OTA、宿泊・交通系プラットフォーム", "ダイナミックプライシング。料金設計の理解＋データ素養が求められる"],
-  ["データ分析・収益最適化", "旅行プラットフォーム全般", "顧客行動分析・収益管理。商流の理解が分析の質を高める"],
-  ["インバウンド／多言語・決済", "インバウンド向けサービス、決済連携", "多言語対応・キャッシュレス連携。運用知識が強みになる"],
+  ["予約プロダクト・OTA開発", "OTA、メタサーチ、予約プラットフォーマー", "予約・検索体験の開発です。予約・在庫の業務知識が直接活きる"],
+  ["価格最適化・需要予測", "OTA、宿泊・交通系プラットフォーム", "ダイナミックプライシングです。料金設計の理解＋データ素養が求められる"],
+  ["データ分析・収益最適化", "旅行プラットフォーム全般", "顧客行動分析・収益管理です。商流の理解が分析の質を高める"],
+  ["インバウンド／多言語・決済", "インバウンド向けサービス、決済連携", "多言語対応・キャッシュレス連携です。運用知識が強みになる"],
 ];
 
 const faqs = [
@@ -92,7 +92,7 @@ export default function TravelPage() {
 
   return (
     <>
-      <ArticleJsonLd title="旅行業界からトラベルテック転職【30代40代ガイド】" description="旅行業界のエンジニアがトラベルテック（TravelTech）領域へ転職する道筋を解説。予約・在庫・価格の業務知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。" url="/industry/travel/" />
+      <ArticleJsonLd title="旅行業界からトラベルテック転職【30代40代ガイド】" description="旅行業界のエンジニアがトラベルテック（TravelTech）領域へ転職する道筋を解説します。予約・在庫・価格の業務知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。" url="/industry/travel/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "業界別ガイド" }, { name: "旅行業界からトラベルテック転職" }]} />
 
@@ -118,9 +118,9 @@ export default function TravelPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">予約・在庫・料金設計の業務知識を持つ旅行業界エンジニアにとって、トラベルテック領域への転職は十分に狙えるルートです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・予約フローや在庫連携、料金設計を分かる人は限られ、業務知識がそのまま差別化になりやすい。</li>
-              <li>・求人の多くはモダンWeb開発やAPI連携の経験を求める。ここが主なギャップ。</li>
-              <li>・30代・40代は業務知識の厚みが強み。実装面の不足は在職中の準備で補える。</li>
+              <li>・予約フローや在庫連携、料金設計を分かる人は限られ、業務知識がそのまま差別化になりやすいです。</li>
+              <li>・求人の多くはモダンWeb開発やAPI連携の経験を求めます。ここが主なギャップです。</li>
+              <li>・30代・40代は業務知識の厚みが強みです。実装面の不足は在職中の準備で補えます。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">市場規模など断定できない数値は本記事では扱いません。年収・需給の話は公的・公表データに基づく目安として後述します。</p>
@@ -190,8 +190,8 @@ export default function TravelPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">個別ポジションの提示額は企業・等級・役割で大きく変わるため、ここでは公表データを目安として示します。実際のレンジは求人ごとに確認してください。</p>
           <ul className="space-y-3 text-sm text-slate-700 mb-4">
-            <li className="bg-white border border-slate-200 rounded-lg p-4">レバテックが公表する正社員SEの年代別平均年収（2025年）は、20代約378万円／30代約499万円／40代約618万円／50代約685万円。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。</li>
-            <li className="bg-white border border-slate-200 rounded-lg p-4">doda（パーソルキャリア）「決定年収レポート」（2025年5月公表）では、IT・通信の平均決定年収が2023年度469万円→2024年度486万円。転職者の約6割が年収アップという結果が示されています。</li>
+            <li className="bg-white border border-slate-200 rounded-lg p-4">レバテックが公表する正社員SEの年代別平均年収（2025年）は、20代約378万円／30代約499万円／40代約618万円／50代約685万円です。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。</li>
+            <li className="bg-white border border-slate-200 rounded-lg p-4">doda（パーソルキャリア）「決定年収レポート」（2025年5月公表）では、IT・通信の平均決定年収が2023年度469万円→2024年度486万円です。転職者の約6割が年収アップという結果が示されています。</li>
             <li className="bg-white border border-slate-200 rounded-lg p-4">厚生労働省 job tag では、システムエンジニア（受託開発）の平均年収578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）と示されています。</li>
           </ul>
           <p className="text-slate-500 text-xs leading-relaxed">上記は職種・媒体横断の平均値であり、トラベルテック領域に限った数値ではありません。自分の現年収と応募先の提示レンジを並べて判断するのが基本です。</p>
@@ -202,9 +202,9 @@ export default function TravelPage() {
           <p className="text-slate-600 leading-relaxed mb-4">トラベルテック領域の受け皿は、おおまかに次のタイプに分かれます。どこが自分の経験を活かせるかで応募戦略を決めます。</p>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              ["OTA・メタサーチ", "予約・検索プロダクト。予約・在庫の業務知識が直接活きる"],
-              ["宿泊・交通系プラットフォーム", "在庫・料金管理。料金設計の理解が評価されやすい"],
-              ["トラベルテック系スタートアップ", "新しいプロダクト開発。裁量が大きくモダンスタックが多い"],
+              ["OTA・メタサーチ", "予約・検索プロダクトです。予約・在庫の業務知識が直接活きる"],
+              ["宿泊・交通系プラットフォーム", "在庫・料金管理です。料金設計の理解が評価されやすい"],
+              ["トラベルテック系スタートアップ", "新しいプロダクト開発です。裁量が大きくモダンスタックが多い"],
               ["インバウンド／決済連携サービス", "多言語・決済まわり。運用知識が強みになる"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -220,10 +220,10 @@ export default function TravelPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "経験の棚卸し（業務知識＋技術）", desc: "予約システム、在庫管理、料金設計、CRM、旅行商品の造成など関わった領域を整理。予約数やコンバージョン改善など、数値で語れる実績を抽出する。" },
-              { step: "2", title: "ギャップの特定と学習", desc: "応募したい求人の必須要件を読み、不足するスタック（モダンWeb開発、API連携など）を把握。在職中に小さく作って学習履歴を残す。" },
-              { step: "3", title: "エージェント登録で市場感を確認", desc: "Geekly、レバテックキャリアなどIT特化型に登録し、提案される求人の傾向と提示レンジを把握する。" },
-              { step: "4", title: "職務経歴書で業務知識を翻訳", desc: "「予約・在庫・料金の実務知識」を、トラベルテック側の言葉（OTA、ダイナミックプライシング、API連携）に翻訳して伝える。必須要件への充足度を明示する。" },
+              { step: "1", title: "経験の棚卸し（業務知識＋技術）", desc: "予約システム、在庫管理、料金設計、CRM、旅行商品の造成など関わった領域を整理します。予約数やコンバージョン改善など、数値で語れる実績を抽出します。" },
+              { step: "2", title: "ギャップの特定と学習", desc: "応募したい求人の必須要件を読み、不足するスタック（モダンWeb開発、API連携など）を把握します。在職中に小さく作って学習履歴を残します。" },
+              { step: "3", title: "エージェント登録で市場感を確認", desc: "Geekly、レバテックキャリアなどIT特化型に登録し、提案される求人の傾向と提示レンジを把握します。" },
+              { step: "4", title: "職務経歴書で業務知識を翻訳", desc: "「予約・在庫・料金の実務知識」を、トラベルテック側の言葉（OTA、ダイナミックプライシング、API連携）に翻訳して伝えます。必須要件への充足度を明示します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -259,7 +259,7 @@ export default function TravelPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">旅行の知識をトラベルテックで活かそう</h2>
-          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、あなたの経験が市場でどう評価されるかを確認しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の経験が市場でどう評価されるかを確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

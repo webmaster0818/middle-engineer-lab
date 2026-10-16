@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/age/" },
   title: "年齢別エンジニア転職ガイド一覧【30代・40代・50代】",
   description:
-    "30代・40代・50代の年齢別にITエンジニアの転職市場の現実をまとめた一覧。各年齢で問われる強み・求人傾向・年収の考え方を、33歳〜48歳のピンポイント年齢まで公的データの出典付きで解説します。",
+    "30代・40代・50代の年齢別にITエンジニアの転職市場の現実をまとめた一覧です。各年齢で問われる強み・求人傾向・年収の考え方を、33歳〜48歳のピンポイント年齢まで公的データの出典付きで解説します。",
 };
 
 const groups = [
   {
     label: "30代",
-    intro: "ポテンシャルと即戦力の両取りが効く層。年齢が上がるほど『軸の明確さ』と実務の証明が問われます。",
+    intro: "ポテンシャルと即戦力の両取りが効く層です。年齢が上がるほど『軸の明確さ』と実務の証明が問われます。",
     items: [
       { slug: "30s", name: "30代のエンジニア転職" },
       { slug: "33", name: "33歳のエンジニア転職" },
@@ -25,7 +25,7 @@ const groups = [
   },
   {
     label: "40代",
-    intro: "即戦力・マネジメント・専門性が前提になる層。実務経験を役割に変えられるかが鍵です。",
+    intro: "即戦力・マネジメント・専門性が前提になる層です。実務経験を役割に変えられるかが鍵です。",
     items: [
       { slug: "40s", name: "40代のエンジニア転職" },
       { slug: "42", name: "42歳のエンジニア転職" },
@@ -35,7 +35,7 @@ const groups = [
   },
   {
     label: "50代",
-    intro: "管理職・高度専門・人脈が武器になる層。求人は絞られるため戦略の精度が重要です。",
+    intro: "管理職・高度専門・人脈が強みになる層です。求人は絞られるため戦略の精度が重要です。",
     items: [
       { slug: "50s", name: "50代のエンジニア転職" },
     ],
@@ -49,7 +49,7 @@ export default function AgeIndexPage() {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "年齢別エンジニア転職ガイド一覧",
-    description: "30代・40代・50代の年齢別にエンジニア転職の現実をまとめた一覧ページ。",
+    description: "30代・40代・50代の年齢別にエンジニア転職の現実をまとめた一覧ページです。",
     url: "https://middle-engineer.com/age/",
     mainEntity: {
       "@type": "ItemList",
@@ -67,7 +67,7 @@ export default function AgeIndexPage() {
     <>
       <ArticleJsonLd
         title="年齢別エンジニア転職ガイド一覧【30代・40代・50代】"
-        description="30代・40代・50代の年齢別にエンジニア転職の現実をまとめた一覧ページ。"
+        description="30代・40代・50代の年齢別にエンジニア転職の現実をまとめた一覧ページです。"
         url="/age/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />

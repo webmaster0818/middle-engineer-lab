@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "ITサービスマネージャは転職に効くか｜運用管理の専門証明と年収【2026年】";
 const PAGE_DESC =
-  "IPAの高度国家試験・ITサービスマネージャ試験（SM）を、ITサービス運用・保守マネジメントの専門性証明という観点から30代・40代向けに解説。合格率、午前Ⅰ免除制度、年収の考え方（出典明記）まで限界も含めて整理します。";
+  "IPAの高度国家試験・ITサービスマネージャ試験（SM）を、ITサービス運用・保守マネジメントの専門性証明という観点から30代・40代向けに解説します。合格率、午前Ⅰ免除制度、年収の考え方（出典明記）まで留意点も含めて整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/it-service-manager/" },
@@ -100,7 +100,7 @@ export default function ITServiceManagerCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          ITサービスマネージャ試験（SM）は、IPAが主催する情報処理技術者試験の中でも<strong>最高ランク（スキルレベル4）の高度試験</strong>で、ITサービスの安定運用・保守・インシデント対応のマネジメントスキルを国家資格として証明する試験です。本記事は「SMを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『運用経験者のマネジメント証明』</strong>という性格を軸に、午前Ⅰ免除制度を含め、公開データと公式情報をもとに整理します。資格単体では年収は跳ねないという限界も正直にお伝えします。
+          ITサービスマネージャ試験（SM）は、IPAが主催する情報処理技術者試験の中でも<strong>最高ランク（スキルレベル4）の高度試験</strong>で、ITサービスの安定運用・保守・インシデント対応のマネジメントスキルを国家資格として証明する試験です。本記事は「SMを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『運用経験者のマネジメント証明』</strong>という性格を軸に、午前Ⅰ免除制度を含め、公開データと公式情報をもとに整理します。資格単体では年収は跳ねないという留意点もご説明します。
         </p>
 
         <DataNote
@@ -108,7 +108,7 @@ export default function ITServiceManagerCertPage() {
           sources={[
             "IPA 公式（ipa.go.jp／合格発表・試験区分ページ）",
             "国税庁 民間給与実態統計調査（令和6年分）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -134,9 +134,9 @@ export default function ITServiceManagerCertPage() {
               ITサービスマネージャは<strong>「運用経験者のマネジメント証明」</strong>です。基本情報やCCNAのような未経験入口資格とは性格が異なり、すでに運用・保守やサービスマネジメントの実務経験のあるミドルが<strong>運用品質を統制し、サービスを止めない人材であることを客観的に示す</strong>のに最も効きます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>運用・保守・サービス管理経験のある30〜40代</strong>：運用統制力を国家資格で証明できる</li>
-              <li>② <strong>運用未経験のミドル</strong>：高度試験のため入口には不向き。まず応用情報や実務で土台を作るべき</li>
-              <li>③ <strong>運用責任者・サービスマネージャ志望</strong>：管理職への移行の裏づけになる</li>
+              <li>① <strong>運用・保守・サービス管理経験のある30〜40代</strong>：運用統制力を国家資格で証明できます</li>
+              <li>② <strong>運用未経験のミドル</strong>：高度試験のため入口には不向きです。まず応用情報や実務で土台を作るべき</li>
+              <li>③ <strong>運用責任者・サービスマネージャ志望</strong>：管理職への移行の裏づけになります</li>
             </ul>
           </div>
         </section>
@@ -157,7 +157,7 @@ export default function ITServiceManagerCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: IPA 公式（ipa.go.jp、調査時点2026年6月）。合格率は令和7年度春期14.7%（IPA「令和7年度春期 合格発表」）。受験料は全試験区分共通で7,500円（消費税込）。午後Ⅱの論述（小論文）が最大の関門です。なお令和8年度（2026年度）からCBT方式への移行が予定されています。有効期限はなく、合格すれば資格は生涯有効です。
+            出典: IPA 公式（ipa.go.jp、調査時点2026年6月）。合格率は令和7年度春期14.7%です（IPA「令和7年度春期 合格発表」）。受験料は全試験区分共通で7,500円です（消費税込）。午後Ⅱの論述（小論文）が最大の関門です。なお令和8年度（2026年度）からCBT方式への移行が予定されています。有効期限はなく、合格すれば資格は生涯有効です。
           </p>
         </section>
 
@@ -169,8 +169,8 @@ export default function ITServiceManagerCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・<strong>応用情報技術者試験</strong>に合格した（合格日から2年以内）</li>
-              <li>・いずれかの<strong>高度試験・情報処理安全確保支援士試験</strong>に合格した（同2年以内）</li>
+              <li>・<strong>応用情報技術者試験</strong>に合格しました（合格日から2年以内）</li>
+              <li>・いずれかの<strong>高度試験・情報処理安全確保支援士試験</strong>に合格しました（同2年以内）</li>
               <li>・高度試験・支援士試験の<strong>午前Ⅰで基準点以上</strong>を取った（同2年以内）</li>
             </ul>
           </div>
@@ -187,8 +187,8 @@ export default function ITServiceManagerCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・年収は<strong>運用・保守・サービス管理の実務経験と役割</strong>で決まる</li>
-              <li>・SMは<strong>運用マネジメント力を補強する材料</strong>であり、単体で年収を保証するものではない</li>
+              <li>・年収は<strong>運用・保守・サービス管理の実務経験と役割</strong>で決まります</li>
+              <li>・SMは<strong>運用マネジメント力を補強する材料</strong>であり、単体で年収を保証するものではありません</li>
               <li>・公的な水準感の参考：給与所得者平均 約461万円（国税庁・令和6年分）</li>
             </ul>
           </div>
@@ -202,10 +202,10 @@ export default function ITServiceManagerCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "運用責任者・サービスマネージャ職への応募", d: "サービスを止めない統制力を国家資格で示せるため、運用管理ポジションの選考で加点される。" },
-              { t: "運用品質・インシデント対応力の客観証明", d: "難関の論述試験を突破した事実が、現場の課題に体系的に対処できる力を裏づける。" },
-              { t: "SRE・運用設計への展開", d: "可用性・SLA・継続的改善の知見が、運用設計やSRE領域への移行で評価される。" },
-              { t: "資格手当・評価制度の対象", d: "高度試験を資格手当・報奨金の対象に設定する企業があり、社内評価の根拠になりやすい。" },
+              { t: "運用責任者・サービスマネージャ職への応募", d: "サービスを止めない統制力を国家資格で示せるため、運用管理ポジションの選考で加点されます。" },
+              { t: "運用品質・インシデント対応力の客観証明", d: "難関の論述試験を突破した事実が、現場の課題に体系的に対処できる力を裏づけます。" },
+              { t: "SRE・運用設計への展開", d: "可用性・SLA・継続的改善の知見が、運用設計やSRE領域への移行で評価されます。" },
+              { t: "資格手当・評価制度の対象", d: "高度試験を資格手当・報奨金の対象に設定する企業があり、社内評価の根拠になりやすいです。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -223,9 +223,9 @@ export default function ITServiceManagerCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "ITサービスマネージャ／運用責任者", d: "サービスの可用性・品質を統制する立場。SMの体系がマネジメント判断の土台になる。" },
-              { t: "SRE・運用設計エンジニア", d: "信頼性・SLA・継続的改善を担う領域で、運用マネジメントの体系的知見が評価される。" },
-              { t: "インフラ／情シス運用リーダー", d: "運用チームを率いる立場への移行を、国家資格の信頼性が後押しする。" },
+              { t: "ITサービスマネージャ／運用責任者", d: "サービスの可用性・品質を統制する立場です。SMの体系がマネジメント判断の土台になります。" },
+              { t: "SRE・運用設計エンジニア", d: "信頼性・SLA・継続的改善を担う領域で、運用マネジメントの体系的知見が評価されます。" },
+              { t: "インフラ／情シス運用リーダー", d: "運用チームを率いる立場への移行を、国家資格の信頼性が後押しします。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -270,10 +270,10 @@ export default function ITServiceManagerCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用の軸は3つです。第一に<strong>運用統制力の客観証明</strong>。SMは「サービスを止めずに改善し続ける力」を問う試験で、運用品質を語れる人材であることを国家資格で裏づけられます。第二に<strong>運用責任者・SREへの足がかり</strong>。可用性・SLA・継続的改善の素養を示す加点材料になります。第三に<strong>社内評価・資格手当</strong>。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
+            活用の軸は3つです。第一に<strong>運用統制力の客観証明です</strong>。SMは「サービスを止めずに改善し続ける力」を問う試験で、運用品質を語れる人材であることを国家資格で裏づけられます。第二に<strong>運用責任者・SREへの足がかり</strong>。可用性・SLA・継続的改善の素養を示す加点材料になります。第三に<strong>社内評価・資格手当です</strong>。高度試験を評価対象とする企業では、昇給・評価の根拠になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。SMは合格率15%前後の難関で、特に午後Ⅱの論述には<strong>自分の運用経験を論理的に書く訓練が不可欠</strong>です。また取得しても単体で年収が跳ねる資格ではなく、効果が出るのは「運用マネジメントの実務 × 資格」の掛け算が成立したときです。逆に言えば、すでに運用現場の経験があり管理職を目指す30〜40代にとっては、投資する価値が明確な資格です。土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。
+            注意すべきデメリットも押さえておきましょう。SMは合格率15%前後の難関で、特に午後Ⅱの論述には<strong>自分の運用経験を論理的に書く訓練が不可欠</strong>です。また取得しても単体で年収が跳ねる資格ではなく、効果が出るのは「運用マネジメントの実務 × 資格」の掛け算が成立したときです。逆に言えば、すでに運用現場の経験があり管理職を目指す30〜40代にとっては、投資する価値が明確な資格です。土台が不安なら、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>を経由するのが堅実です。
           </p>
         </section>
 
@@ -285,7 +285,7 @@ export default function ITServiceManagerCertPage() {
               SMは、基本情報・CCNA・LPICといった<strong>未経験の入口資格とは立ち位置が逆</strong>です。これらが「IT職に入るための入口」なのに対し、SMは<strong>「すでに運用現場にいる経験者が、サービスを統制できる人材であることを国家資格で示すための証明装置」</strong>として最も効きます。運用・保守の経験がある30〜40代にとって、これは時間を投資する価値のある資格です。
             </p>
             <p>
-              一方で過度な期待は禁物です。SMを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「運用マネジメントの実務経験 × 資格」の掛け算</strong>のとき。インシデント対応や継続的改善の経験と組み合わせて初めて、運用責任者やSREという形で結実します。さらに、応用情報の午前Ⅰ免除を使えば、高度試験への挑戦の負担を抑えられます。
+              一方で過度な期待は禁物です。SMを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「運用マネジメントの実務経験 × 資格」の掛け算</strong>のときです。インシデント対応や継続的改善の経験と組み合わせて初めて、運用責任者やSREという形で結実します。さらに、応用情報の午前Ⅰ免除を使えば、高度試験への挑戦の負担を抑えられます。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -298,9 +298,9 @@ export default function ITServiceManagerCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う方向</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "午前Ⅰ免除を確保", d: "応用情報合格などで午前Ⅰの2年間免除を取り、午後Ⅰ・午後Ⅱに学習を集中させる。" },
-              { n: "STEP 2", t: "午後Ⅱの論述対策が本丸", d: "自分の運用経験を題材に、課題・対応・改善を論理的に書く論述パターンを反復する。" },
-              { n: "STEP 3", t: "合格→運用責任者・SREへ展開", d: "国家資格の裏づけを職務経歴書・面接で活かし、運用管理・SRE職への移行につなげる。" },
+              { n: "STEP 1", t: "午前Ⅰ免除を確保", d: "応用情報合格などで午前Ⅰの2年間免除を取り、午後Ⅰ・午後Ⅱに学習を集中させます。" },
+              { n: "STEP 2", t: "午後Ⅱの論述対策が本丸", d: "自分の運用経験を題材に、課題・対応・改善を論理的に書く論述パターンを反復します。" },
+              { n: "STEP 3", t: "合格→運用責任者・SREへ展開", d: "国家資格の裏づけを職務経歴書・面接で活かし、運用管理・SRE職への移行につなげます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -336,7 +336,7 @@ export default function ITServiceManagerCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">運用管理・SRE職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            SMを活かせる運用マネジメント・SRE・インフラ運用求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            SMを活かせる運用マネジメント・SRE・インフラ運用求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

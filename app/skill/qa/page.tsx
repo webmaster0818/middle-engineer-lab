@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const PAGE_TITLE = "QAエンジニアの転職完全ガイド｜年収・資格・自動化の攻め方【2026年】";
+const PAGE_TITLE = "QAエンジニアの転職ガイド｜年収・資格・自動化の進め方【2026年】";
 const PAGE_DESC =
-  "QAエンジニアの転職市場を2026年最新の公表データで解説。テストエンジニアとの違い、経験段階別の年収目安、JSTQB等の資格、テスト自動化が年収を分ける理由、開発職への転向ルートを30代・40代向けにまとめました。";
+  "QAエンジニアの転職市場を2026年最新の公表データで解説します。テストエンジニアとの違い、経験段階別の年収目安、JSTQB等の資格、テスト自動化が年収を分ける理由、開発職への転向ルートを30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/qa/" },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "diff", label: "まず：QAエンジニアとテストエンジニアの違い" },
-  { id: "conclusion", label: "結論：QA転職市場の攻め方" },
+  { id: "conclusion", label: "結論：QA転職市場での進め方" },
   { id: "market", label: "市場・年収データ（経験段階別）" },
   { id: "auto", label: "テスト自動化が年収の分岐点" },
   { id: "cert", label: "資格（JSTQB / QC検定 / IVEC）" },
@@ -30,7 +30,7 @@ const toc = [
 const faqs = [
   {
     q: "QAエンジニアとテストエンジニアの違いは何ですか？",
-    a: "ざっくり言うと、QAエンジニアは「品質をどう担保するか」を上流から設計する役割、テストエンジニアは「決められたテストを実行・記録する」役割が中心です。実際には企業によって呼称や境界が曖昧で、テスト実行から入ってQA設計へ広げるキャリアが一般的です。QAは品質保証プロセス・テスト戦略・自動化方針の策定まで踏み込むため、年収レンジも上に伸びやすい傾向があります。",
+    a: "概要としては、QAエンジニアは「品質をどう担保するか」を上流から設計する役割、テストエンジニアは「決められたテストを実行・記録する」役割が中心です。実際には企業によって呼称や境界が曖昧で、テスト実行から入ってQA設計へ広げるキャリアが一般的です。QAは品質保証プロセス・テスト戦略・自動化方針の策定まで踏み込むため、年収レンジも上に伸びやすい傾向があります。",
   },
   {
     q: "QAエンジニアの年収はどのくらいですか？",
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "未経験からQAエンジニアになれますか？",
-    a: "比較的入りやすい領域とされ、未経験歓迎の求人も一定数あります。まずテスト実行・テスト設計から入り、自動化・QA設計へ広げるのが王道です。ただし「入りやすい＝低年収で頭打ち」になりやすい面もあるため、早期に自動化スキルや開発知識を身につけ、上流や開発職へ抜ける設計をしておくことをおすすめします。",
+    a: "比較的入りやすい領域とされ、未経験歓迎の求人も一定数あります。まずテスト実行・テスト設計から入り、自動化・QA設計へ広げるのが一般的です。ただし「入りやすい＝低年収で頭打ち」になりやすい面もあるため、早期に自動化スキルや開発知識を身につけ、上流や開発職へ抜ける設計をしておくことをおすすめします。",
   },
   {
     q: "QAから開発エンジニアへ転向できますか？",
@@ -65,8 +65,8 @@ const salaryByStage = [
 ];
 
 const certTable = [
-  ["JSTQB Foundation Level", "ソフトウェアテスト技術者資格", "テスト設計の共通言語。書類で基礎を示せる入口"],
-  ["JSTQB Advanced Level", "テストマネージャー / テストアナリスト等", "上流・専門性を示す。リード以上で評価されやすい"],
+  ["JSTQB Foundation Level", "ソフトウェアテスト技術者資格", "テスト設計の共通言語です。書類で基礎を示せる入口"],
+  ["JSTQB Advanced Level", "テストマネージャー / テストアナリスト等", "上流・専門性を示します。リード以上で評価されやすい"],
   ["QC検定（品質管理検定）", "品質管理の知識を体系的に証明", "製造・品質管理寄りのQAで親和性が高い"],
   ["IVEC", "IT検証技術者認定試験", "ソフトウェアテスト・検証の実務スキルを段階評価"],
 ];
@@ -99,7 +99,7 @@ export default function QaSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          QAエンジニアの転職完全ガイド｜年収・資格・自動化の攻め方【2026年】
+          QAエンジニアの転職ガイド｜年収・資格・自動化の進め方【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | QAスキルを活かした転職を30代・40代エンジニア向けに解説
@@ -115,7 +115,7 @@ export default function QaSkillPage() {
             "リクルートエージェント 職種別想定年収（2026年6月時点・参考値）",
             "レバテック「QAエンジニアとは」解説",
             "JSTQB / QC検定 / IVEC 各公式",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -141,8 +141,8 @@ export default function QaSkillPage() {
               「QAエンジニア」と「テストエンジニア」は混同されがちですが、市場価値の設計上、最初に押さえておきたい違いがあります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li><strong>QAエンジニア</strong>＝品質をどう担保するかを<strong>上流から設計</strong>する。テスト戦略・品質保証プロセス・自動化方針の策定まで踏み込む。</li>
-              <li><strong>テストエンジニア</strong>＝定義されたテストケースを<strong>実行・記録</strong>するのが中心。テスト実行の品質を担保する。</li>
+              <li><strong>QAエンジニア</strong>＝品質をどう担保するかを<strong>上流から設計</strong>します。テスト戦略・品質保証プロセス・自動化方針の策定まで踏み込みます。</li>
+              <li><strong>テストエンジニア</strong>＝定義されたテストケースを<strong>実行・記録</strong>するのが中心です。テスト実行の品質を担保します。</li>
             </ul>
             <p className="text-slate-700 leading-relaxed mt-3 text-sm">
               実務では境界が曖昧で、テスト実行から入りQA設計へ広げるキャリアが一般的です。本記事はQAを軸にしつつ、テスト実行からのステップアップにも触れます。なお、ここからさらに「開発エンジニアへ抜ける」進路に関心がある方は、<Link href="/career/tester-to-developer/" className="text-petrol hover:underline">テスターから開発者への転向ガイド</Link>が直接の続きになります。
@@ -152,15 +152,15 @@ export default function QaSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：QA転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：QA転職市場での進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              QAエンジニアの転職は、<strong>「手動テスト実行」から「品質設計＋自動化」へ役割を上げて見せられるか</strong>で年収が大きく変わります。攻め方は次の3点です。
+              QAエンジニアの転職は、<strong>「手動テスト実行」から「品質設計＋自動化」へ役割を上げて見せられるか</strong>で年収が大きく変わります。進め方は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>テスト自動化</strong>（Selenium/Playwright＋Python/Java）を年収の分岐点と捉える</li>
-              <li>② <strong>JSTQB</strong>で設計の共通言語を示し、上流（テスト戦略）の経験を言語化する</li>
-              <li>③ 将来の伸びしろとして<strong>SDET・開発職への接続</strong>を視野に入れておく</li>
+              <li>① <strong>テスト自動化</strong>（Selenium/Playwright＋Python/Java）を年収の分岐点と捉えます</li>
+              <li>② <strong>JSTQB</strong>で設計の共通言語を示し、上流（テスト戦略）の経験を言語化します</li>
+              <li>③ 将来の伸びしろとして<strong>SDET・開発職への接続</strong>を視野に入れておきます</li>
             </ul>
           </div>
         </section>
@@ -192,7 +192,7 @@ export default function QaSkillPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: 段階別の年収目安は各社が公表する求人・市場情報に基づく推定で、幅があります（各社推定）。職種全体の想定年収はリクルートエージェント（2026年6月時点・参考値）。レバテックの「QAエンジニアとは」解説も一次的な解説情報として広く参照されています。市場全体では、経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しており、品質保証人材の需給も逼迫傾向が続く前提で語られます。
+            出典: 段階別の年収目安は各社が公表する求人・市場情報に基づく推定で、幅があります（各社推定）。職種全体の想定年収はリクルートエージェントです（2026年6月時点・参考値）。レバテックの「QAエンジニアとは」解説も一次的な解説情報として広く参照されています。市場全体では、経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しており、品質保証人材の需給も逼迫傾向が続く前提で語られます。
           </p>
         </section>
 
@@ -204,10 +204,10 @@ export default function QaSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "テスト自動化ツール", d: "Selenium（Web UI自動化の定番）、Playwright（モダンなE2E自動化）。Cypress等も含め、どれか一つは実務レベルで使えると強い。" },
-              { t: "プログラミング言語", d: "Python・JavaScript/TypeScript・Javaのいずれか。自動テストの記述・保守に必須。言語の選択は対象システムに合わせる。" },
-              { t: "CI/CDへの組み込み", d: "GitHub Actions等で自動テストを継続実行する経験。リグレッション工数を削減した実績は面接で効く。" },
-              { t: "SDETへの接続", d: "開発と品質保証を横断するSDET（Software Development Engineer in Test）は高年収帯。自動化＋開発知識が前提になる。" },
+              { t: "テスト自動化ツール", d: "Selenium（Web UI自動化の定番）、Playwrightです（モダンなE2E自動化）。Cypress等も含め、どれか一つは実務レベルで使えると強いです。" },
+              { t: "プログラミング言語", d: "Python・JavaScript/TypeScript・Javaのいずれか。自動テストの記述・保守に必須です。言語の選択は対象システムに合わせます。" },
+              { t: "CI/CDへの組み込み", d: "GitHub Actions等で自動テストを継続実行する経験です。リグレッション工数を削減した実績は面接で効きます。" },
+              { t: "SDETへの接続", d: "開発と品質保証を横断するSDET（Software Development Engineer in Test）は高年収帯です。自動化＋開発知識が前提になります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -259,19 +259,19 @@ export default function QaSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">QAマネージャー / テストマネージャー路線</h3>
               <p className="text-sm text-petrol-deep">
-                品質保証プロセス全体を設計し、チームと品質指標を管理する方向。テスト戦略・プロセス改善・マネジメント経験が武器になり、ミドル層の強みを活かしやすい進路です。
+                品質保証プロセス全体を設計し、チームと品質指標を管理する方向です。テスト戦略・プロセス改善・マネジメント経験が強みになり、ミドル層の強みを活かしやすい進路です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">SDET / 自動化エンジニア路線</h3>
               <p className="text-sm text-petrol-deep">
-                テスト自動化基盤を開発・保守する開発寄りのQA。コードを書く比重が高く、高年収帯に届きやすい一方、継続的な技術学習が前提になります。
+                テスト自動化基盤を開発・保守する開発寄りのQAです。コードを書く比重が高く、高年収帯に届きやすい一方、継続的な技術学習が前提になります。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">開発エンジニアへの転向路線</h3>
               <p className="text-sm text-petrol-deep">
-                自動化でコードを書くうちに開発力が育ち、品質視点を持った開発者として転向する道。
+                自動化でコードを書くうちに開発力が育ち、品質視点を持った開発者として転向する道です。
                 <Link href="/career/tester-to-developer/" className="text-petrol-deep underline ml-1">テスターから開発者への転向ガイド</Link>で具体ステップを解説しています。
               </p>
             </div>
@@ -287,17 +287,17 @@ export default function QaSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化。QA・SDET・自動化求人を技術に明るいアドバイザー経由で探せます。高年収求人比率が高いとされます。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化です。QA・SDET・自動化求人を技術に明るいアドバイザー経由で探せます。高年収求人比率が高いとされます。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
-              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数。手動テストから自動化、QAマネージャーまで幅広く比較したい場合の併用先です。</p>
+              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数です。手動テストから自動化、QAマネージャーまで幅広く比較したい場合の併用先です。</p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-slate-600 mb-2">ハイクラス（年収750万円以上が一つの目安）・スカウト型。QAマネージャー/SDET層を狙う場合に有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">ハイクラス（年収750万円以上が一つの目安）・スカウト型です。QAマネージャー/SDET層を狙う場合に有効です。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -310,13 +310,13 @@ export default function QaSkillPage() {
         <section id="entry" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">未経験・働きやすさの実情</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            QAは未経験歓迎の求人が一定数あり、比較的入りやすい領域とされます。一方で、入口の手動テスト中心の働き方は年収が頭打ちになりやすい点も正直にお伝えします。
+            QAは未経験歓迎の求人が一定数あり、比較的入りやすい領域とされます。一方で、入口の手動テスト中心の働き方は年収が頭打ちになりやすい点もご説明します。
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "テスト実行・設計から入る", d: "未経験歓迎求人でテスト実行に入り、テストケース設計まで担えるようにする。JSTQB Foundationの取得もこの時期に。" },
-              { n: "STEP 2", t: "自動化スキルを足す", d: "Selenium/Playwright＋いずれかの言語でテストコードを書き、小さな自動化実績を作る。これが年収の分岐点。" },
-              { n: "STEP 3", t: "上流 or 開発へ抜ける", d: "テスト戦略・プロセス改善でQAマネージャーへ、あるいは開発知識を伸ばして開発職・SDETへ。早期に方向を決める。" },
+              { n: "STEP 1", t: "テスト実行・設計から入る", d: "未経験歓迎求人でテスト実行に入り、テストケース設計まで担えるようにします。JSTQB Foundationの取得もこの時期に。" },
+              { n: "STEP 2", t: "自動化スキルを足す", d: "Selenium/Playwright＋いずれかの言語でテストコードを書き、小さな自動化実績を作ります。これが年収の分岐点です。" },
+              { n: "STEP 3", t: "上流 or 開発へ抜ける", d: "テスト戦略・プロセス改善でQAマネージャーへ、あるいは開発知識を伸ばして開発職・SDETへ。早期に方向を決めます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -368,7 +368,7 @@ export default function QaSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">QAスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            QA・自動化・SDET求人に強いIT特化型エージェントで、あなたの品質保証スキルの市場価値を確認しましょう。
+            QA・自動化・SDET求人に強いIT特化型エージェントで、ご自身の品質保証スキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

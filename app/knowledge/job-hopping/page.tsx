@@ -8,15 +8,15 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/job-hopping/" },
   title: "転職回数が多いエンジニアの見せ方【職務経歴書の例文集】",
   description:
-    "転職回数が多いエンジニア向けに、職務経歴書での見せ方と一貫性の語り方を例文つきで解説。キャリアサマリーのBefore/After、面接での離職理由の伝え方、回数別の対策を実践的にまとめました。",
+    "転職回数が多いエンジニア向けに、職務経歴書での見せ方と一貫性の語り方を例文を交えて解説します。キャリアサマリーのBefore/After、面接での離職理由の伝え方、回数別の対策を実践的にまとめました。",
 };
 
 const TITLE = "転職回数が多いエンジニアの見せ方【職務経歴書の例文集】";
 const DESC =
-  "転職回数が多いエンジニア向けに、職務経歴書での見せ方と一貫性の語り方を例文つきで解説。キャリアサマリーのBefore/After、面接での離職理由の伝え方、回数別の対策を実践的にまとめました。";
+  "転職回数が多いエンジニア向けに、職務経歴書での見せ方と一貫性の語り方を例文を交えて解説します。キャリアサマリーのBefore/After、面接での離職理由の伝え方、回数別の対策を実践的にまとめました。";
 
 const toc = [
-  { id: "conclusion", label: "結論：回数より『一貫性』で勝負する" },
+  { id: "conclusion", label: "結論：回数より『一貫性』を強みにする" },
   { id: "honne", label: "企業が本当に見ているポイント" },
   { id: "summary", label: "キャリアサマリーのBefore/After" },
   { id: "thread", label: "一貫性の語り方（3つの軸）" },
@@ -89,7 +89,7 @@ export default function JobHoppingPage() {
         <p className="text-slate-500 text-sm mb-4">最終更新: 2026年6月 | 転職回数が多い場合の職務経歴書と面接対策</p>
 
         <p className="text-slate-600 leading-relaxed mb-2">
-          転職回数が多いことを不安に感じるエンジニアは少なくありません。しかしIT業界では、回数そのものよりも「何を経験し、何ができるようになったか」「キャリアに一貫性があるか」が重視されます。本記事では、転職回数が多くても評価される職務経歴書の見せ方と、一貫性の語り方を、Before/Afterの例文つきで具体的に解説します。
+          転職回数が多いことを不安に感じるエンジニアは少なくありません。しかしIT業界では、回数そのものよりも「何を経験し、何ができるようになったか」「キャリアに一貫性があるか」が重視されます。本記事では、転職回数が多くても評価される職務経歴書の見せ方と、一貫性の語り方を、Before/Afterの例文を交えて具体的に解説します。
         </p>
 
         <DataNote
@@ -114,21 +114,21 @@ export default function JobHoppingPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職回数が多いと転職で不利になる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: IT業界では回数そのものより「1社あたりの在籍期間」と「キャリアの一貫性」が重視されるため、一貫したテーマを示せれば回数は不利になりにくいです。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・企業が見るのは回数より「1社の在籍期間」と「キャリアの一貫性」</li><li>・職務経歴書の冒頭のキャリアサマリーで一貫したテーマを先に示す</li><li>・離職理由は事実ベースで前向きに言い換える（嘘はつかない）</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・企業が見るのは回数より「1社の在籍期間」と「キャリアの一貫性」</li><li>・職務経歴書の冒頭のキャリアサマリーで一貫したテーマを先に示します</li><li>・離職理由は事実ベースで前向きに言い換えます（嘘はつかない）</li></ul>
           </div>
         </section>
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <div className="border-l-4 border-petrol bg-petrol-soft rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：回数より『一貫性』で勝負する</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：回数より『一貫性』を強みにする</h2>
             <p className="text-slate-700 leading-relaxed mb-3">
               転職回数が多い場合の正攻法は、「回数を隠す」ことではなく「<strong>各社の経験を貫く一貫したテーマを示し、転職を成長のストーリーに変える</strong>」ことです。職務経歴書の冒頭で一貫性を宣言し、各社の成果を数値で裏づければ、回数の印象は大きく変わります。
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
               <li>・企業が見るのは『回数』より『1社の在籍期間』と『キャリアの一貫性』</li>
-              <li>・冒頭のキャリアサマリーで一貫したテーマを先に示す</li>
-              <li>・離職理由は事実ベースで前向きに言い換える（嘘はつかない）</li>
+              <li>・冒頭のキャリアサマリーで一貫したテーマを先に示します</li>
+              <li>・離職理由は事実ベースで前向きに言い換えます（嘘はつかない）</li>
             </ul>
           </div>
         </section>
@@ -141,9 +141,9 @@ export default function JobHoppingPage() {
           </p>
           <div className="space-y-4">
             {[
-              { t: "1社あたりの在籍期間", d: "2〜3年以上の在籍が複数あれば安心材料になる。逆に全社1年未満だと『すぐ辞める人』と見られやすい。直近に長めの在籍があると印象が変わる。" },
-              { t: "転職理由の一貫性", d: "『技術を深めるため』『より大規模な開発に携わるため』など方向性が一貫していれば、回数はむしろ成長意欲の表れと受け取られる。場当たり的に見えないことが重要。" },
-              { t: "スキルの積み上がり", d: "転職のたびに担当範囲・責任・技術レベルが上がっていれば、回数は『成長の証』になる。各社での成果を数値で示せると説得力が増す。" },
+              { t: "1社あたりの在籍期間", d: "2〜3年以上の在籍が複数あれば安心材料になります。逆に全社1年未満だと『すぐ辞める人』と見られやすいです。直近に長めの在籍があると印象が変わります。" },
+              { t: "転職理由の一貫性", d: "『技術を深めるため』『より大規模な開発に携わるため』など方向性が一貫していれば、回数はむしろ成長意欲の表れと受け取られます。場当たり的に見えないことが重要です。" },
+              { t: "スキルの積み上がり", d: "転職のたびに担当範囲・責任・技術レベルが上がっていれば、回数は『成長の証』になります。各社での成果を数値で示せると説得力が増します。" },
             ].map((x, i) => (
               <div key={i} className="bg-petrol-soft rounded-lg p-5">
                 <h3 className="font-bold text-blue-800 mb-1.5">{x.t}</h3>
@@ -175,7 +175,7 @@ export default function JobHoppingPage() {
           </div>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-5">
             <p className="text-sm text-slate-600 leading-relaxed">
-              ポイントは、各社を「点」で並べず「一本の線」でつなぐこと。冒頭で線を見せておくと、読み手はその後の個別の職歴を『場当たり』ではなく『計画的なステップ』として読みます。
+              ポイントは、各社を「点」で並べず「一本の線」でつなぐことです。冒頭で線を見せておくと、読み手はその後の個別の職歴を『場当たり』ではなく『計画的なステップ』として読みます。
             </p>
           </div>
         </section>
@@ -189,15 +189,15 @@ export default function JobHoppingPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1.5">軸①：技術の深化</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">「同じ領域（例：バックエンド）を、より難しい課題・大きな規模で扱えるように深めてきた」という軸。言い換え例：「Java→Goと言語を変えながら、一貫して高負荷システムの設計に取り組んできました」。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">「同じ領域（例：バックエンド）を、より難しい課題・大きな規模で扱えるように深めてきた」という軸です。言い換え例：「Java→Goと言語を変えながら、一貫して高負荷システムの設計に取り組んできました」。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1.5">軸②：領域の拡張</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">「フロント→バック→インフラと領域を広げ、全体を見られるエンジニアになってきた」という軸。言い換え例：「プロダクトを一気通貫で見られる人材になるため、意図的に担当領域を広げてきました」。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">「フロント→バック→インフラと領域を広げ、全体を見られるエンジニアになってきた」という軸です。言い換え例：「プロダクトを一気通貫で見られる人材になるため、意図的に担当領域を広げてきました」。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1.5">軸③：役割の発展</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">「メンバー→リード→マネジメントと、技術に加えてチームへの責任を広げてきた」という軸。言い換え例：「個人の成果だけでなくチームの成果に責任を持つ役割へと、段階的にステップアップしてきました」。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">「メンバー→リード→マネジメントと、技術に加えてチームへの責任を広げてきた」という軸です。言い換え例：「個人の成果だけでなくチームの成果に責任を持つ役割へと、段階的にステップアップしてきました」。</p>
             </div>
           </div>
         </section>
@@ -244,10 +244,10 @@ export default function JobHoppingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">職務経歴書の構成テクニック</h2>
           <div className="space-y-4">
             {[
-              { t: "冒頭にキャリアサマリーを置く", d: "時系列の職歴の前に、3〜5行で全体像と一貫したテーマを宣言する。読み手の第一印象を『一貫性』で固定できる。" },
-              { t: "直近を厚く、古い職歴は圧縮する", d: "5年以上前や短期在籍は概要のみ。直近2〜3社を詳細に書く。古い経歴を長々と書くと現在のスキルが伝わりにくい。" },
-              { t: "成果を数値で示す", d: "『レスポンスタイム50%改善』『テストカバレッジ80%達成』など、各社の成果を数値化。転職のたびに成長している証拠になる。" },
-              { t: "スキル要約を別枠で立てる", d: "言語・FW・クラウド・役割を一覧化した『スキル要約』を設け、複数社で積み上げた技術を一目で見せる。" },
+              { t: "冒頭にキャリアサマリーを置く", d: "時系列の職歴の前に、3〜5行で全体像と一貫したテーマを宣言します。読み手の第一印象を『一貫性』で固定できます。" },
+              { t: "直近を厚く、古い職歴は圧縮する", d: "5年以上前や短期在籍は概要のみです。直近2〜3社を詳細に書きます。古い経歴を長々と書くと現在のスキルが伝わりにくいです。" },
+              { t: "成果を数値で示す", d: "『レスポンスタイム50%改善』『テストカバレッジ80%達成』など、各社の成果を数値化します。転職のたびに成長している証拠になります。" },
+              { t: "スキル要約を別枠で立てる", d: "言語・FW・クラウド・役割を一覧化した『スキル要約』を設け、複数社で積み上げた技術を一目で見せます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1.5">{x.t}</h3>
@@ -265,9 +265,9 @@ export default function JobHoppingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">回数別の面接対策</h2>
           <div className="space-y-4">
             {[
-              { count: "3回", advice: "IT業界では一般的な回数。特別な対策は不要だが、各社での成長ストーリーを整理しておくと安心。一貫性を語れれば十分プラス。" },
-              { count: "4〜5回", advice: "30代後半〜40代なら違和感のない範囲。一貫したテーマ（技術深化・領域拡張・役割発展のいずれか）を明確に説明できるよう準備する。" },
-              { count: "6回以上", advice: "直近の在籍が2年以上あること、今後のビジョンが明確であることが鍵。『次の転職を最後にしたい』理由を、その会社の環境と結びつけて語る。" },
+              { count: "3回", advice: "IT業界では一般的な回数です。特別な対策は不要だが、各社での成長ストーリーを整理しておくと安心です。一貫性を語れれば十分プラスです。" },
+              { count: "4〜5回", advice: "30代後半〜40代なら違和感のない範囲です。一貫したテーマ（技術深化・領域拡張・役割発展のいずれか）を明確に説明できるよう準備します。" },
+              { count: "6回以上", advice: "直近の在籍が2年以上あること、今後のビジョンが明確であることが鍵です。『次の転職を最後にしたい』理由を、その会社の環境と結びつけて語ります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center min-w-[60px] h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.count}</span>
@@ -284,13 +284,13 @@ export default function JobHoppingPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">30代：回数より『伸び』を見せる</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                30代は転職のたびにスキルと年収が伸びているかが問われます。回数があっても右肩上がりのストーリーを描ければ、むしろ成長意欲として評価されます。年収の伸びは<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収相場</Link>も参考に。
+                30代は転職のたびにスキルと年収が伸びているかが問われます。回数があっても右肩上がりのストーリーを描ければ、むしろ成長意欲として評価されます。年収の伸びは<Link href="/knowledge/salary-30s/" className="text-petrol hover:underline">30代エンジニアの年収相場</Link>もご参照ください。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">40代：『腰を据えられるか』が焦点</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                40代は回数が多いと『また辞めるのでは』という定着懸念が強まりがちです。直近の在籍を長めにし、応募先で長く貢献する具体的な理由を語ることが重要。40代の動き方は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>で深掘りしています。
+                40代は回数が多いと『また辞めるのでは』という定着懸念が強まりがちです。直近の在籍を長めにし、応募先で長く貢献する具体的な理由を語ることが重要です。40代の動き方は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職のリアル</Link>で深掘りしています。
               </p>
             </div>
           </div>

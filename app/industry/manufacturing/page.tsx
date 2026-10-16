@@ -6,16 +6,16 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "製造業からIT転職はできる？未経験からの進め方と組み込み経験の活かし方【2026年】";
 const DESCRIPTION =
-  "製造業からIT転職はできます。製造業エンジニア・組み込みエンジニアがIT業界へ移る進め方を徹底解説。製造DX・IoT・組み込み経験の活かし方、活かせるスキルと埋めるべきギャップ、年収の考え方、おすすめエージェントをガイドします。";
+  "製造業からIT転職はできます。製造業エンジニア・組み込みエンジニアがIT業界へ移る進め方を解説します。製造DX・IoT・組み込み経験の活かし方、活かせるスキルと埋めるべきギャップ、年収の考え方、おすすめエージェントをガイドします。";
 
 const toc = [
-  { id: "conclusion", label: "結論：製造業・組み込み経験はIT転職で武器になる" },
+  { id: "conclusion", label: "結論：製造業・組み込み経験はIT転職で強みになる" },
   { id: "trend", label: "製造業のIT化・採用動向" },
   { id: "gap", label: "活かせるスキル / 埋めるべきギャップ" },
   { id: "embedded", label: "組み込みエンジニアの強みの活かし方" },
   { id: "patterns", label: "転職パターン（職種×企業タイプ）" },
   { id: "salary", label: "年収の考え方（公表データ）" },
-  { id: "company-salary", label: "製造業経験が活きる主要企業の平均年収（有報実額）" },
+  { id: "company-salary", label: "製造業経験が活きる主要企業の平均年収（有価証券報告書の実額）" },
   { id: "company-types", label: "主な企業タイプと具体例" },
   { id: "steps", label: "転職の進め方" },
   { id: "middle", label: "30代・40代の視点" },
@@ -26,14 +26,14 @@ const toc = [
 const activeRows: [string, string][] = [
   ["生産管理・品質管理の業務知識", "製造業向けSaaSやDX推進で、現場課題を理解した提案・設計ができる希少人材になる"],
   ["組み込み・制御の実装経験", "C/C++・RTOS・ハードウェア理解は、IoTやエッジ、車載・FA領域でそのまま活きる"],
-  ["設備保全・工程改善の経験", "予知保全・スマートファクトリーの要件定義で現場目線が武器になる"],
+  ["設備保全・工程改善の経験", "予知保全・スマートファクトリーの要件定義で現場目線が強みになる"],
   ["品質・安全への高い意識", "ミスが許されない環境で培った検証・テストの徹底は、信頼性の高い開発で評価される"],
   ["データに基づく改善（QC的思考）", "生産データの分析・改善サイクルは、データ活用やDXの素地として通用する"],
 ];
 
 const fillRows: [string, string][] = [
   ["Web・クラウドの基礎", "AWS/Azure/GCPの基礎、Webアプリやネットワークの仕組みを理解する"],
-  ["モダンな言語・開発環境", "PythonやSQL、Git/GitHubの実務運用に慣れる。組み込み経験者はC系の素地が活きる"],
+  ["モダンな言語・開発環境", "PythonやSQL、Git/GitHubの実務運用に慣れます。組み込み経験者はC系の素地が活きる"],
   ["アジャイル・チーム開発", "ウォーターフォール中心の現場が多いため、反復的な開発文化への適応が必要"],
   ["IoT/クラウド連携の知識", "センサーデータの収集・蓄積・可視化までのデータパイプラインを理解する"],
   ["公開できる成果物", "個人開発やデータ分析の成果をGitHub等で示せると、IT適性の証明になる"],
@@ -42,7 +42,7 @@ const fillRows: [string, string][] = [
 const companyTypes: { title: string; desc: string; links: { name: string; href: string }[] }[] = [
   {
     title: "総合電機・大手メーカーのDX/IT部門",
-    desc: "製造業のドメインを持つ大手で、社内DXや制御・組み込みからソフトウェアへ軸足を移す道。これまでの業界知識を最大限に活かせる。",
+    desc: "製造業のドメインを持つ大手で、社内DXや制御・組み込みからソフトウェアへ軸足を移す道です。これまでの業界知識を最大限に活かせます。",
     links: [
       { name: "日立製作所", href: "/company/hitachi/" },
       { name: "パナソニック", href: "/company/panasonic/" },
@@ -51,7 +51,7 @@ const companyTypes: { title: string; desc: string; links: { name: string; href: 
   },
   {
     title: "SIer・大手ITベンダー",
-    desc: "製造業向けの基幹システムやDX案件を多く扱う。業界知識を持つエンジニアは、要件定義やプリセールスで重宝される。",
+    desc: "製造業向けの基幹システムやDX案件を多く扱います。業界知識を持つエンジニアは、要件定義やプリセールスで重宝されます。",
     links: [
       { name: "富士通", href: "/company/fujitsu/" },
       { name: "NTTデータ", href: "/company/ntt-data/" },
@@ -60,7 +60,7 @@ const companyTypes: { title: string; desc: string; links: { name: string; href: 
   },
   {
     title: "製造業向けSaaS・スタートアップ",
-    desc: "生産管理・品質管理・サプライチェーン最適化などのプロダクトを提供する企業。現場を知るエンジニアの採用に積極的。",
+    desc: "生産管理・品質管理・サプライチェーン最適化などのプロダクトを提供する企業です。現場を知るエンジニアの採用に積極的です。",
     links: [
       { name: "組み込みエンジニアの転職", href: "/skill/embedded/" },
       { name: "Python転職ガイド", href: "/skill/python/" },
@@ -136,13 +136,13 @@ export default function ManufacturingPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           製造業からIT転職する方法｜組み込み経験を活かす戦略
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 製造業・組み込みの知識を武器にIT業界で活躍する方法</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 製造業・組み込みの知識を強みにIT業界で活躍する方法</p>
 
         <p className="text-slate-600 leading-relaxed mb-2">
           製造業のDXが進む中で、生産管理・品質管理・設備保全といった現場の業務知識や、組み込み・制御の実装経験を持つエンジニアの価値が高まっています。これらは純粋なIT人材にはない希少な強みであり、IT業界で十分に通用します。
         </p>
         <p className="text-slate-600 leading-relaxed mb-6">
-          本記事では、製造業エンジニア・組み込みエンジニアがIT業界へ転職するための現実的な進め方、活かせるスキルと埋めるべきギャップ、狙い目の職種までを解説します。
+          本記事では、製造業エンジニア・組み込みエンジニアがIT業界へ転職するための現実的な進め方、活かせるスキルと埋めるべきギャップ、有力な選択肢の職種までを解説します。
         </p>
 
         <DataNote
@@ -170,15 +170,15 @@ export default function ManufacturingPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：製造業・組み込み経験はIT転職で武器になる</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：製造業・組み込み経験はIT転職で強みになる</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               製造業からのIT転職は現実的です。鍵は「現場の業務知識」と「低レイヤーの実装経験」を、IT側の文脈に翻訳して示せるかどうかにあります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 狙い目は製造DX・IoT・組み込み（車載/FA/エッジ）・製造業向けSaaSなど、業界知識が直接活きる領域。</li>
-              <li>② Web/クラウドの基礎は学習で補える。組み込み経験者はC系の素地が強み。</li>
-              <li>③ 年代が上がるほど「未経験Web職」より「業界知識×IT」のポジションが現実的。</li>
+              <li>① 有力な選択肢は製造DX・IoT・組み込み（車載/FA/エッジ）・製造業向けSaaSなど、業界知識が直接活きる領域です。</li>
+              <li>② Web/クラウドの基礎は学習で補えます。組み込み経験者はC系の素地が強みです。</li>
+              <li>③ 年代が上がるほど「未経験Web職」より「業界知識×IT」のポジションが現実的です。</li>
             </ul>
           </div>
         </section>
@@ -198,7 +198,7 @@ export default function ManufacturingPage() {
         <section id="gap" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">活かせるスキル / 埋めるべきギャップ</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            自分の経験のどこが武器になり、どこを補えばよいかを整理しましょう。製造業・組み込みの経験は「捨てる」のではなく「翻訳して活かす」のが基本戦略です。
+            自分の経験のどこが強みになり、どこを補えばよいかを整理しましょう。製造業・組み込みの経験は「捨てる」のではなく「翻訳して活かす」のが基本戦略です。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5">
@@ -237,11 +237,11 @@ export default function ManufacturingPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">方向①：専門性を深める（車載・FA・IoT・エッジ）</h3>
-              <p className="text-sm text-petrol-deep">C/C++、RTOS、ハードウェア制御の経験をそのまま活かし、車載ソフトウェア、ファクトリーオートメーション、IoT/エッジ機器の開発へ。低レイヤーを扱える人材は慢性的に不足しており、専門性で勝負できる。</p>
+              <p className="text-sm text-petrol-deep">C/C++、RTOS、ハードウェア制御の経験をそのまま活かし、車載ソフトウェア、ファクトリーオートメーション、IoT/エッジ機器の開発へ。低レイヤーを扱える人材は慢性的に不足しており、専門性で勝負できます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">方向②：上位レイヤーへ広げる（クラウド・データ）</h3>
-              <p className="text-sm text-petrol-deep">デバイスから上がってくるデータを収集・蓄積・可視化するクラウド側へ。組み込みで培ったハードウェア理解は、IoTシステム全体の設計やパフォーマンス最適化で強みになる。PythonやクラウドのキャッチアップでWeb/データ領域にも広げられる。</p>
+              <p className="text-sm text-petrol-deep">デバイスから上がってくるデータを収集・蓄積・可視化するクラウド側へ。組み込みで培ったハードウェア理解は、IoTシステム全体の設計やパフォーマンス最適化で強みになります。PythonやクラウドのキャッチアップでWeb/データ領域にも広げられます。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
@@ -321,7 +321,7 @@ export default function ManufacturingPage() {
         </section>
 
         <section id="company-salary" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">製造業経験が活きる主要企業の平均年収（有報実額）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">製造業経験が活きる主要企業の平均年収（有価証券報告書の実額）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             製造業からの転職先候補になりやすい企業の平均年収を、各社の有価証券報告書の実額で並べました。いずれも当サイトの企業別ガイドで選考情報・口コミ傾向まで解説しています。
           </p>
@@ -349,7 +349,7 @@ export default function ManufacturingPage() {
               ],
             },
             {
-              group: "SIer・ITベンダー（製造業DX案件で業務知識が武器）",
+              group: "SIer・ITベンダー（製造業DX案件で業務知識が強み）",
               rows: [
                 { name: "野村総合研究所（NRI）", href: "/company/nri/", salary: "1,333万円", note: "2026年3月期" },
                 { name: "富士通", href: "/company/fujitsu/", salary: "1,012万円", note: "2026年3月期" },
@@ -411,10 +411,10 @@ export default function ManufacturingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "ITの基礎知識を身につける", desc: "Python・SQL・クラウド（AWS/Azure）の基礎を学ぶ。Git/GitHubの操作にも慣れる。組み込み経験者はC系の素地を活かして低レイヤー系へ進む選択肢もある。" },
-              { step: "2", title: "製造業・組み込みの経験を棚卸しする", desc: "生産管理・品質管理・設備保全・制御開発の経験を具体的に整理。可能なら数値で成果を表現する。" },
-              { step: "3", title: "製造DX・IoTのトレンドをキャッチアップ", desc: "スマートファクトリー、予知保全、IoT/エッジ、デジタルツインなどを把握し、自分の経験を「製造業×IT」の文脈で語れるようにする。" },
-              { step: "4", title: "転職エージェントに登録", desc: "異業種転職に対応するワークポート、求人数が多いdoda（IT特化）などに登録。組み込み・制御系は専門に強いエージェントを併用し、市場価値を確認する。" },
+              { step: "1", title: "ITの基礎知識を身につける", desc: "Python・SQL・クラウド（AWS/Azure）の基礎を学びます。Git/GitHubの操作にも慣れます。組み込み経験者はC系の素地を活かして低レイヤー系へ進む選択肢もあります。" },
+              { step: "2", title: "製造業・組み込みの経験を棚卸しする", desc: "生産管理・品質管理・設備保全・制御開発の経験を具体的に整理します。可能なら数値で成果を表現します。" },
+              { step: "3", title: "製造DX・IoTのトレンドをキャッチアップ", desc: "スマートファクトリー、予知保全、IoT/エッジ、デジタルツインなどを把握し、自分の経験を「製造業×IT」の文脈で語れるようにします。" },
+              { step: "4", title: "転職エージェントに登録", desc: "異業種転職に対応するワークポート、求人数が多いdoda（IT特化）などに登録します。組み込み・制御系は専門に強いエージェントを併用し、市場価値を確認します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -436,11 +436,11 @@ export default function ManufacturingPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：専門性×ITで選択肢を広げる</h3>
-              <p className="text-sm text-petrol-deep">組み込み・制御の専門性を深める道と、製造DX・IoTでIT側に広げる道の両方が現実的。基礎学習を前倒しすれば、ポテンシャルと専門性の両面で評価されやすい。</p>
+              <p className="text-sm text-petrol-deep">組み込み・制御の専門性を深める道と、製造DX・IoTでIT側に広げる道の両方が現実的です。基礎学習を前倒しすれば、ポテンシャルと専門性の両面で評価されやすいです。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：業界知識とリーダー経験で勝負</h3>
-              <p className="text-sm text-petrol-deep">DX推進・要件定義・プリセールス・PMなど、現場理解とマネジメントが活きる領域が中心。求人は絞られるため、非公開求人を持つエージェントの活用が鍵になる。</p>
+              <p className="text-sm text-petrol-deep">DX推進・要件定義・プリセールス・PMなど、現場理解とマネジメントが活きる領域が中心です。求人は絞られるため、非公開求人を持つエージェントの活用が鍵になります。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
@@ -471,7 +471,7 @@ export default function ManufacturingPage() {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">製造業・組み込みの経験をIT業界で活かそう</h2>
-          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、あなたの市場価値と狙える求人を確認しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の市場価値と狙える求人を確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>

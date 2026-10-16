@@ -28,7 +28,7 @@ const gapRows = [
   {
     skill: "低レイヤ・ハードウェア理解",
     emb: "◎ メモリ・割込み・リアルタイム制御に精通",
-    web: "△ 直接は使わないが、性能設計で土台として活きる",
+    web: "△ 直接は使わないが、性能設計で土台として活きます",
   },
   {
     skill: "Web開発言語・フレームワーク",
@@ -42,18 +42,18 @@ const gapRows = [
   },
   {
     skill: "開発プロセス・ツール",
-    emb: "○ Git導入は現場差。ウォーターフォール寄りも多い",
+    emb: "○ Git導入は現場差です。ウォーターフォール寄りも多い",
     web: "◎ Git/PRレビュー・CI/CD・アジャイルが標準",
   },
   {
     skill: "品質・テストへの厳密さ",
     emb: "◎ 安全性要求が高くテスト・検証文化が強い",
-    web: "○ 強みとして活きる。テスト設計力は評価される",
+    web: "○ 強みとして活きます。テスト設計力は評価されます",
   },
   {
     skill: "パフォーマンス・最適化思考",
     emb: "◎ リソース制約下での最適化に習熟",
-    web: "○ バックエンド・基盤の性能改善で武器になる",
+    web: "○ バックエンド・基盤の性能改善で強みになります",
   },
 ];
 
@@ -76,7 +76,7 @@ const buildSteps = [
   },
   {
     title: "組込みの強みをWeb系に翻訳する",
-    desc: "リソース制約下での最適化、厳密なテスト・検証文化、リアルタイム性への感覚は、Web系のバックエンド・基盤・性能改善で武器になります。この強みを言語化し、単なる『未経験のWeb志望者』ではない立ち位置を作ります。",
+    desc: "リソース制約下での最適化、厳密なテスト・検証文化、リアルタイム性への感覚は、Web系のバックエンド・基盤・性能改善で強みになります。この強みを言語化し、単なる『未経験のWeb志望者』ではない立ち位置を作ります。",
   },
 ];
 
@@ -114,7 +114,7 @@ const faqs = [
   },
   {
     q: "組込みの経験はWeb系で評価される？",
-    a: "評価される要素があります。リソース制約下での最適化思考、リアルタイム性への感覚、安全性要求が高い現場で培った厳密なテスト文化は、Web系のバックエンドや基盤・性能改善で武器になります。低レイヤを理解している人は、内部挙動の理解が速いという強みもあります。",
+    a: "評価される要素があります。リソース制約下での最適化思考、リアルタイム性への感覚、安全性要求が高い現場で培った厳密なテスト文化は、Web系のバックエンドや基盤・性能改善で強みになります。低レイヤを理解している人は、内部挙動の理解が速いという強みもあります。",
   },
   {
     q: "なぜ組込みからWeb系に移りたい人がいる？",
@@ -182,7 +182,7 @@ export default function EmbeddedToWebPage() {
           組込みエンジニア→Web系エンジニアへの転職ガイド
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 | 低レイヤの基礎力と品質文化をWeb系の武器に変える
+          最終更新: 2026年6月 | 低レイヤの基礎力と品質文化をWeb系の強みに変える
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -216,12 +216,12 @@ export default function EmbeddedToWebPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>組込みからWeb系への転職は可能ですが、言語・クラウド・開発文化の差を埋める学習が前提になります。</strong>
-              鍵になるのは、低レイヤの基礎力と品質文化をWeb系の武器に翻訳できるかどうかです。
+              鍵になるのは、低レイヤの基礎力と品質文化をWeb系の強みに翻訳できるかどうかです。
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
               <li>① ギャップになりやすいのは<strong>Web系言語・フレームワーク・クラウド・モダンな開発フロー</strong></li>
-              <li>② 一方で<strong>型・メモリ・性能の感覚と厳密なテスト文化</strong>は、バックエンドや基盤で強みになる</li>
-              <li>③ 個人開発のWebアプリをGitHubで公開し、Web系でも自走できる根拠を示すことが成否を分ける</li>
+              <li>② 一方で<strong>型・メモリ・性能の感覚と厳密なテスト文化</strong>は、バックエンドや基盤で強みになります</li>
+              <li>③ 個人開発のWebアプリをGitHubで公開し、Web系でも自走できる根拠を示すことが成否を分けます</li>
             </ul>
           </div>
         </section>
@@ -314,21 +314,21 @@ export default function EmbeddedToWebPage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（組込み用語の羅列になっている例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                車載機器のファームウェア開発をC言語で担当。RTOS上での割込み処理、ドライバ実装、単体テストを行った。
+                車載機器のファームウェア開発をC言語で担当します。RTOS上での割込み処理、ドライバ実装、単体テストを行った。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（Web系の価値に翻訳した例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                車載機器のファームウェアをC言語で開発。限られたメモリ・CPU制約下で処理を最適化し、応答時間を◯%改善。安全性要求の高い現場で、テスト設計と検証を徹底する品質文化を経験。直近は個人開発でTypeScript＋Next.jsのWebアプリを構築し、AWSへのデプロイ・CI/CDまで自走で実装（GitHubで公開）。低レイヤの理解と品質志向を、バックエンド・基盤の性能改善に活かすことを志向。
+                車載機器のファームウェアをC言語で開発します。限られたメモリ・CPU制約下で処理を最適化し、応答時間を◯%改善です。安全性要求の高い現場で、テスト設計と検証を徹底する品質文化を経験します。直近は個人開発でTypeScript＋Next.jsのWebアプリを構築し、AWSへのデプロイ・CI/CDまで自走で実装します（GitHubで公開）。低レイヤの理解と品質志向を、バックエンド・基盤の性能改善に活かすことを志向します。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
               <p className="font-bold text-slate-700 mb-2">改善のポイント</p>
               <ul className="space-y-1">
-                <li>・組込み固有の用語を、Web系で評価される「最適化・品質・性能設計」の言葉に翻訳する</li>
-                <li>・個人開発のWebアプリで、Web系でも自走できる根拠を示す</li>
-                <li>・処理時間の改善など、出せる範囲で定量を添える（数値は実績に合わせて記載）</li>
+                <li>・組込み固有の用語を、Web系で評価される「最適化・品質・性能設計」の言葉に翻訳します</li>
+                <li>・個人開発のWebアプリで、Web系でも自走できる根拠を示します</li>
+                <li>・処理時間の改善など、出せる範囲で定量を添えます（数値は実績に合わせて記載）</li>
               </ul>
             </div>
           </div>
@@ -362,17 +362,17 @@ export default function EmbeddedToWebPage() {
               {
                 name: "レバテックキャリア",
                 point:
-                  "IT/Web特化で技術に詳しいアドバイザーが在籍。Web系・モダン技術の求人に強みがあり、異領域からの移行相談がしやすいサービスです。",
+                  "IT/Web特化で技術に詳しいアドバイザーが在籍しています。Web系・モダン技術の求人に強みがあり、異領域からの移行相談がしやすいサービスです。",
               },
               {
                 name: "Green",
                 point:
-                  "成功報酬型の転職サイトで、IT/Webベンチャー・自社開発企業に強み。カジュアル面談から始められるため、在職中の情報収集に向きます。",
+                  "成功報酬型の転職サイトで、IT/Webベンチャー・自社開発企業に強みがあります。カジュアル面談から始められるため、在職中の情報収集に向きます。",
               },
               {
                 name: "doda ITエンジニア",
                 point:
-                  "国内最大級の求人数で、検索・エージェント・スカウトのハイブリッド型。幅広いWeb系企業を比較検討したい場合に有効です。",
+                  "国内最大級の求人数で、検索・エージェント・スカウトのハイブリッド型です。幅広いWeb系企業を比較検討したい場合に有効です。",
               },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -420,7 +420,7 @@ export default function EmbeddedToWebPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Web系転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントが、あなたの組込み経験を活かせるWeb系企業を提案します。
+            IT特化型エージェントが、ご自身の組込み経験を活かせるWeb系企業を提案します。
           </p>
           <Link
             href="/#ranking"

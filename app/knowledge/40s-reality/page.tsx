@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/40s-reality/" },
   title: "40代エンジニア転職のリアル【現実と対策を深掘り】",
   description:
-    "40代エンジニア転職の現実を年収・市場データで定量的に解説。30代との違い、書類が通らない原因、年収を落とさない交渉、応募から内定までの動き方を実践的にまとめました。",
+    "40代エンジニア転職の現実を年収・市場データで定量的に解説します。30代との違い、書類が通らない原因、年収を落とさない交渉、応募から内定までの動き方を実践的にまとめました。",
 };
 
 const TITLE = "40代エンジニア転職のリアル【現実と対策を深掘り】";
 const DESC =
-  "40代エンジニア転職の現実を年収・市場データで定量的に解説。30代との違い、書類が通らない原因、年収を落とさない交渉、応募から内定までの動き方を実践的にまとめました。";
+  "40代エンジニア転職の現実を年収・市場データで定量的に解説します。30代との違い、書類が通らない原因、年収を落とさない交渉、応募から内定までの動き方を実践的にまとめました。";
 
 const toc = [
   { id: "conclusion", label: "結論：40代転職のリアルを一言で" },
@@ -101,7 +101,7 @@ export default function FortyRealityPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】40代エンジニアの転職は本当に厳しい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 求人の「数」は確実に絞られますが、1件あたりの年収水準は高く、専門性・マネジメント・直近のキャッチアップの3点が揃えば年収アップも十分狙えます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・40代の正社員SE平均年収は約618万円（レバテック公表値・2025年）で、30代の約499万円を上回る</li><li>・落ちる原因の多くは「年齢」そのものより、即戦力性を言語化できていないこと</li><li>・在職中の活動・複数エージェント併用・専門性の明確化が3本柱</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・40代の正社員SE平均年収は約618万円（レバテック公表値・2025年）で、30代の約499万円を上回ります</li><li>・落ちる原因の多くは「年齢」そのものより、即戦力性を言語化できていないこと</li><li>・在職中の活動・複数エージェント併用・専門性の明確化が3本柱</li></ul>
           </div>
         </section>
 
@@ -138,9 +138,9 @@ export default function FortyRealityPage() {
               40代エンジニアの転職は「求人の<strong>数</strong>は確実に絞られるが、<strong>1件あたりの年収水準は高く</strong>、専門性・マネジメント・直近のキャッチアップの3点が揃えば年収アップも十分狙える」のが現実です。
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
-              <li>・年代別平均年収は40代で約618万円（レバテック公表値・2025年）と、30代の約499万円を上回る</li>
+              <li>・年代別平均年収は40代で約618万円（レバテック公表値・2025年）と、30代の約499万円を上回ります</li>
               <li>・落ちる原因の多くは「年齢」そのものより「即戦力性を言語化できていない」こと</li>
-              <li>・量より質。在職中・複数エージェント併用・専門性の明確化が3本柱</li>
+              <li>・量より質です。在職中・複数エージェント併用・専門性の明確化が3本柱</li>
             </ul>
           </div>
         </section>
@@ -172,7 +172,7 @@ export default function FortyRealityPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mb-6">
-            出典：レバテック公表の年代別平均年収（2025年）。年収1,000万円以上の割合は30代8.01%・40代12.67%。「—」は公表値が確認できない項目。
+            出典：レバテック公表の年代別平均年収（2025年）。年収1,000万円以上の割合は30代8.01%・40代12.67%です。「—」は公表値が確認できない項目です。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <p className="text-sm text-slate-600 leading-relaxed mb-3">
@@ -188,7 +188,7 @@ export default function FortyRealityPage() {
         <section id="gap-30s" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代と何が変わるのか</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            30代と40代では、企業が見るポイントが質的に変わります。30代は「伸びしろ＋現在のスキル」で評価されますが、40代は「即戦力性＋組織への波及効果」で評価されます。違いを整理すると次の通りです。
+            30代と40代では、企業が見るポイントが質的に変わります。30代は「伸びしろ＋現在のスキル」で評価されますが、40代は「即戦力性＋組織への波及効果」で評価されます。違いを整理すると次のとおりです。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
@@ -218,7 +218,7 @@ export default function FortyRealityPage() {
                 <tr className="bg-slate-50">
                   <td className="border border-slate-200 px-4 py-3 text-slate-700 font-medium">年収交渉</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">アップを狙いやすい</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">維持〜アップ。根拠提示が鍵</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">維持〜アップです。根拠提示が鍵</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-200 px-4 py-3 text-slate-700 font-medium">懸念されやすい点</td>
@@ -241,11 +241,11 @@ export default function FortyRealityPage() {
           </p>
           <div className="space-y-4">
             {[
-              { t: "即戦力性が伝わらない", d: "「何ができるか」が役割名（リーダー・PL等）止まりで、再現可能なスキルとして書かれていない。40代は『入って3か月で何を任せられるか』が見えないと通りにくい。" },
-              { t: "技術が古いまま更新されていない", d: "直近の経歴がレガシー中心で、クラウド・モダン開発の接点が見えない。陳腐化への懸念を払拭する直近の一手（個人開発・資格・キャッチアップ）が欠けている。" },
-              { t: "年収の希望が市場とずれている", d: "現職年収を根拠なく上回る額を希望し、エージェント段階で見送られる。レンジと根拠（実績・専門性）をセットで提示できていない。" },
-              { t: "応募の母数が足りない", d: "40代は求人の絶対数が減るため、30代と同じ応募数では通過数が出ない。1社のエージェントだけに頼ると機会損失になる。" },
-              { t: "柔軟性・年下上司への懸念", d: "面接で過去の役職・やり方に固執する姿勢が出ると敬遠される。『学ぶ姿勢』『フラットに動ける』ことを具体例で示せていない。" },
+              { t: "即戦力性が伝わらない", d: "「何ができるか」が役割名（リーダー・PL等）止まりで、再現可能なスキルとして書かれていません。40代は『入って3か月で何を任せられるか』が見えないと通りにくいです。" },
+              { t: "技術が古いまま更新されていない", d: "直近の経歴がレガシー中心で、クラウド・モダン開発の接点が見えません。陳腐化への懸念を払拭する直近の一手（個人開発・資格・キャッチアップ）が欠けています。" },
+              { t: "年収の希望が市場とずれている", d: "現職年収を根拠なく上回る額を希望し、エージェント段階で見送られます。レンジと根拠（実績・専門性）をセットで提示できていない状態です。" },
+              { t: "応募の母数が足りない", d: "40代は求人の絶対数が減るため、30代と同じ応募数では通過数が出ないです。1社のエージェントだけに頼ると機会損失になります。" },
+              { t: "柔軟性・年下上司への懸念", d: "面接で過去の役職・やり方に固執する姿勢が出ると敬遠されます。『学ぶ姿勢』『フラットに動ける』ことを具体例で示せていません。" },
             ].map((x, i) => (
               <div key={i} className="bg-red-50 rounded-lg p-5">
                 <h3 className="font-bold text-red-800 mb-1.5">{x.t}</h3>
@@ -260,10 +260,10 @@ export default function FortyRealityPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">40代で通用する4つの勝ちパターン</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "スペシャリスト型（IC）", desc: "セキュリティ・SRE・DB・クラウド基盤など特定領域の深い実績で勝負。マネジメント経験が薄くても、技術力で評価する企業が増えている。年収レンジは専門性次第で高め。" },
-              { num: "2", title: "テックリード／EM型", desc: "5名以上のチームマネジメントや技術選定の主導経験があれば、リード・EMポジションが射程に入る。『組織への波及効果』を数値で語れると強い。" },
-              { num: "3", title: "社内SE／DX推進型", desc: "非IT企業のDX・基幹刷新リーダー。前職や担当業界のドメイン知識×技術力の掛け算が効く。腰を据えて働きたい40代と相性が良い。" },
-              { num: "4", title: "フリーランス併走型", desc: "正社員にこだわらず高単価案件で年収を確保する道。安定性は下がるが、専門性が高い40代には現実的な選択肢。詳細は関連記事を参照。" },
+              { num: "1", title: "スペシャリスト型（IC）", desc: "セキュリティ・SRE・DB・クラウド基盤など特定領域の深い実績で勝負です。マネジメント経験が薄くても、技術力で評価する企業が増えています。年収レンジは専門性次第で高めです。" },
+              { num: "2", title: "テックリード／EM型", desc: "5名以上のチームマネジメントや技術選定の主導経験があれば、リード・EMポジションが射程に入ります。『組織への波及効果』を数値で語れると強いです。" },
+              { num: "3", title: "社内SE／DX推進型", desc: "非IT企業のDX・基幹刷新リーダーです。前職や担当業界のドメイン知識×技術力の掛け算が効きます。腰を据えて働きたい40代と相性が良いです。" },
+              { num: "4", title: "フリーランス併走型", desc: "正社員にこだわらず高単価案件で年収を確保する道です。安定性は下がるが、専門性が高い40代には現実的な選択肢です。詳細は関連記事をご参照ください。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -302,10 +302,10 @@ export default function FortyRealityPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-5">
             <p className="text-sm font-bold text-slate-700 mb-2">書き換えの4原則</p>
             <ul className="text-sm text-slate-600 space-y-1.5">
-              <li>① 冒頭3〜5行のキャリアサマリーで一貫したテーマを宣言する</li>
-              <li>② 成果は必ず数値（◯%削減・◯倍・◯名）で示す</li>
-              <li>③ 直近2〜3社を厚く、古い経歴は概要のみに圧縮する</li>
-              <li>④ モダン技術への接点（直近の一手）を1文入れて陳腐化懸念を消す</li>
+              <li>① 冒頭3〜5行のキャリアサマリーで一貫したテーマを宣言します</li>
+              <li>② 成果は必ず数値（◯%削減・◯倍・◯名）で示します</li>
+              <li>③ 直近2〜3社を厚く、古い経歴は概要のみに圧縮します</li>
+              <li>④ モダン技術への接点（直近の一手）を1文入れて陳腐化懸念を消します</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm mt-4">
@@ -371,13 +371,13 @@ export default function FortyRealityPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">40代前半：30代の延長戦が効く</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                40代前半はまだ「即戦力スペシャリスト」「テックリード」として30代と近い戦い方ができます。求人母数の減少を、専門性の明確化と応募数の確保でカバーするのが基本。年収アップも十分狙えるレンジです。
+                40代前半はまだ「即戦力スペシャリスト」「テックリード」として30代と近い進め方ができます。求人母数の減少を、専門性の明確化と応募数の確保でカバーするのが基本です。年収アップも十分狙えるレンジです。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">40代後半：定着と役割の明確さが鍵</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                40代後半は「腰を据えて長く働けるか」「組織にどう効くか」を企業がより重視します。社内SE・DX推進・EMなど役割が明確なポジション、または高単価フリーランスとの併用が現実的。年収維持を軸に、無理に大幅アップを狙わず実質条件で選ぶのが堅実です。
+                40代後半は「腰を据えて長く働けるか」「組織にどう効くか」を企業がより重視します。社内SE・DX推進・EMなど役割が明確なポジション、または高単価フリーランスとの併用が現実的です。年収維持を軸に、無理に大幅アップを狙わず実質条件で選ぶのが堅実です。
               </p>
             </div>
           </div>

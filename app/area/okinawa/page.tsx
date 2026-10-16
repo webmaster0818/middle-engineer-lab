@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/okinawa/" },
   title: "沖縄・那覇のIT転職事情【2026年】IT誘致×リモート移住の現実",
   description:
-    "沖縄・那覇のITエンジニア転職を30代・40代向けに正直に解説。IT・コールセンター誘致やリゾートワークの実情、地元IT求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。",
+    "沖縄・那覇のITエンジニア転職を30代・40代向けに解説します。IT・コールセンター誘致やリゾートワークの実情、地元IT求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。",
 };
 
 const toc = [
   { id: "conclusion", label: "結論：沖縄・那覇のIT転職市場の特徴" },
   { id: "market", label: "沖縄のIT・産業集積と誘致政策" },
-  { id: "reality", label: "求人の実情（正直な市場記述）" },
+  { id: "reality", label: "求人の実情（市場の実情）" },
   { id: "workstyle", label: "働き方の選択肢（地元×リモート×リゾートワーク）" },
   { id: "iju", label: "UIターン移住支援・公的制度" },
   { id: "salary", label: "年収の考え方（年代別データ）" },
@@ -26,10 +26,10 @@ const toc = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手。ポテンシャル採用も見られる層。" },
-  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層。" },
-  { age: "40代", salary: "約618万円", note: "マネジメント・高度専門で年収が伸びやすい層。" },
-  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も見られる層です。" },
+  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
+  { age: "40代", salary: "約618万円", note: "マネジメント・高度専門で年収が伸びやすい層です。" },
+  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
 ];
 
 const agents = [
@@ -37,25 +37,25 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人を介して沖縄在住のまま都市部水準の案件を狙う使い方と相性が良い。高年収求人比率の高さも特徴とされる。",
+      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、首都圏のフルリモート求人を介して沖縄在住のまま都市部水準の案件を狙う使い方と相性が良いです。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型。地方在住からの相談に向き、未経験歓迎求人も比較的多い。沖縄の地元求人と首都圏求人の双方に当たりやすい。",
+      "全国47都道府県57拠点を構える総合型です。地方在住からの相談に向き、未経験歓迎求人も比較的多いです。沖縄の地元求人と首都圏求人の双方に当たりやすいです。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型。検索・エージェント・スカウトのハイブリッド型で、求人母数の多さが強み。地元求人が限られる地方では、母数の大きいサービスで取りこぼしを防ぐ意味が大きい。",
+      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、求人母数の多さが強みです。地元求人が限られる地方では、母数の大きいサービスで取りこぼしを防ぐ意味が大きいです。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     point:
-      "ハイクラス・スカウト型。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、沖縄在住のまま探したい人向け。市場価値を客観的に把握しやすい。",
+      "ハイクラス・スカウト型です。年収750万円以上の求人やフルリモート対応のシニア・管理職ポジションを、沖縄在住のまま探したい人向けです。市場価値を客観的に把握しやすいです。",
   },
 ];
 
@@ -114,7 +114,7 @@ export default function OkinawaAreaPage() {
     <>
       <ArticleJsonLd
         title="沖縄・那覇のIT転職事情【2026年】IT誘致×リモート移住の現実"
-        description="沖縄・那覇のITエンジニア転職を30代・40代向けに正直に解説。IT・コールセンター誘致やリゾートワークの実情、地元IT求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。"
+        description="沖縄・那覇のITエンジニア転職を30代・40代向けに解説します。IT・コールセンター誘致やリゾートワークの実情、地元IT求人の現実、首都圏フルリモート併用、UIターン移住支援、年収の考え方をまとめました。"
         url="/area/okinawa/"
       />
       <script
@@ -139,7 +139,7 @@ export default function OkinawaAreaPage() {
 
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
-            沖縄県は、情報通信関連産業の誘致を県の重点政策として進めてきた経緯があり、コールセンター・BPO・ソフトウェア開発などの拠点が立地してきたことが知られています。一方で、最先端のWeb自社開発に絞ると地元IT求人の母数は首都圏より限られるのが正直なところです。本記事では、創作データを使わず、公開情報をもとに沖縄のIT転職市場の現実、誘致政策やリゾートワークの実情、首都圏フルリモートの併用、UIターン移住支援、年代別の年収の考え方を、30代・40代のミドルエンジニア向けに整理します。
+            沖縄県は、情報通信関連産業の誘致を県の重点政策として進めてきた経緯があり、コールセンター・BPO・ソフトウェア開発などの拠点が立地してきたことが知られています。一方で、最先端のWeb自社開発に絞ると地元IT求人の母数は首都圏より限られるのが実際のところです。本記事では、創作データを使わず、公開情報をもとに沖縄のIT転職市場の現実、誘致政策やリゾートワークの実情、首都圏フルリモートの併用、UIターン移住支援、年代別の年収の考え方を、30代・40代のミドルエンジニア向けに整理します。
           </p>
         </section>
 
@@ -161,9 +161,9 @@ export default function OkinawaAreaPage() {
               沖縄のIT転職は「暮らし方と働き方を一体で考えたいエンジニア」と相性の良い市場です。地元はIT誘致でコールセンター・BPO・開発拠点が一定数ある一方、最先端のWeb自社開発は母数が限られます。首都圏フルリモート求人を併用して母数と年収の選択肢を広げるのが現実的な進め方です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・地元はIT誘致でコールセンター・BPO・開発拠点が立地。一方Web自社開発の母数は限られる</li>
-              <li>・リゾート地特性を活かしたワーケーション・リモートワークと相性が良い</li>
-              <li>・地元求人は額面が抑えめになりやすい。首都圏フルリモート併用で年収の選択肢を広げられる</li>
+              <li>・地元はIT誘致でコールセンター・BPO・開発拠点が立地です。一方Web自社開発の母数は限られます</li>
+              <li>・リゾート地特性を活かしたワーケーション・リモートワークと相性が良いです</li>
+              <li>・地元求人は額面が抑えめになりやすいです。首都圏フルリモート併用で年収の選択肢を広げられます</li>
             </ul>
           </div>
         </section>
@@ -215,9 +215,9 @@ export default function OkinawaAreaPage() {
 
         {/* 求人の実情 */}
         <section id="reality" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の実情（正直な市場記述）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">求人の実情（市場の実情）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            正直にお伝えすると、沖縄の地元IT求人は首都圏や福岡と比べて母数が限られ、職種の偏りもあります。コールセンター・BPO・サポート系の比重が相対的に大きく、モダンなWeb/SaaSの自社開発を志向する人には選択肢が狭く感じられることがあります。これは沖縄の市場特性として正直に踏まえておくべき点です。
+            ご説明すると、沖縄の地元IT求人は首都圏や福岡と比べて母数が限られ、職種の偏りもあります。コールセンター・BPO・サポート系の比重が相対的に大きく、モダンなWeb/SaaSの自社開発を志向する人には選択肢が狭く感じられることがあります。これは沖縄の市場特性として踏まえておくべき点です。
           </p>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3">
             <p className="text-sm text-slate-700 leading-relaxed">
@@ -242,13 +242,13 @@ export default function OkinawaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元の誘致企業・拠点に出社・ハイブリッドで勤務:</strong> 那覇市中心の開発拠点・BPO・サポート系で働く。地域に根ざしたキャリアや、まずは沖縄で就業基盤を作りたい人向けです。
+                <strong>地元の誘致企業・拠点に出社・ハイブリッドで勤務:</strong> 那覇市中心の開発拠点・BPO・サポート系で働きます。地域に根ざしたキャリアや、まずは沖縄で就業基盤を作りたい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>沖縄在住×首都圏企業のフルリモート:</strong> 沖縄の暮らしを保ちつつ首都圏水準の年収・案件を狙う選択肢。地元求人の母数・額面の制約を回避できるのが最大の利点です。
+                <strong>沖縄在住×首都圏企業のフルリモート:</strong> 沖縄の暮らしを保ちつつ首都圏水準の年収・案件を狙う選択肢です。地元求人の母数・額面の制約を回避できるのが最大の利点です。
                 <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート可の求人</Link>
                 や
                 <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
@@ -258,7 +258,7 @@ export default function OkinawaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>ワーケーション・移住で生活拠点を沖縄に:</strong> 短期のワーケーションで暮らしを体験し、相性を確かめてから移住＋フルリモート転職に進む形。生活と働き方を一体で設計したい人向けです。
+                <strong>ワーケーション・移住で生活拠点を沖縄に:</strong> 短期のワーケーションで暮らしを体験し、相性を確かめてから移住＋フルリモート転職に進む形です。生活と働き方を一体で設計したい人向けです。
               </p>
             </div>
           </div>
@@ -376,7 +376,7 @@ export default function OkinawaAreaPage() {
               <ul className="space-y-2 text-sm text-slate-700">
                 <li className="flex gap-2"><span className="shrink-0">−</span><span>最先端のWeb/SaaS自社開発の選択肢を地元で最大化したい（母数は首都圏が圧倒的）</span></li>
                 <li className="flex gap-2"><span className="shrink-0">−</span><span>地元求人の額面だけで大幅な年収アップを狙いたい（賃金水準・フルリモート併用が論点）</span></li>
-                <li className="flex gap-2"><span className="shrink-0">−</span><span>頻繁な本州出張・対面前提の働き方を負担に感じる（フルリモート求人で軽減可能）</span></li>
+                <li className="flex gap-2"><span className="shrink-0">−</span><span>頻繁な本州出張・対面前提の働き方を負担に感じます（フルリモート求人で軽減可能）</span></li>
               </ul>
             </div>
           </div>
@@ -395,14 +395,14 @@ export default function OkinawaAreaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">30代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                技術の市場価値を高めつつ、フルリモートで首都圏案件を経験するか、地元拠点で運用・開発の経験を積むかを意識的に選ぶフェーズ。暮らし方を整えながらキャリアの幅を広げやすい時期です。
+                技術の市場価値を高めつつ、フルリモートで首都圏案件を経験するか、地元拠点で運用・開発の経験を積むかを意識的に選ぶフェーズです。暮らし方を整えながらキャリアの幅を広げやすい時期です。
                 <Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link>
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">40代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                マネジメントや高度専門など役割で評価される段階。地元求人は絞られますが、ハイクラスのリモート求人で年収を維持しつつ移住によるQOL向上を両立できる形を選ぶのが現実的です。
+                マネジメントや高度専門など役割で評価される段階です。地元求人は絞られますが、ハイクラスのリモート求人で年収を維持しつつ移住によるQOL向上を両立できる形を選ぶのが現実的です。
                 <Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link>
               </p>
             </div>

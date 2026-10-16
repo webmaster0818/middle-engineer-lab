@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/career/sre/" },
   title: "SRE転職ガイド｜インフラ・バックエンドからの移行ステップと職務経歴書",
   description:
-    "インフラ／バックエンドエンジニアからSRE（Site Reliability Engineer）へ転職する方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文つきで解説します。",
+    "インフラ／バックエンドエンジニアからSRE（Site Reliability Engineer）へ転職する方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文を交えて解説します。",
 };
 
 const toc = [
@@ -124,7 +124,7 @@ const faqs = [
   },
   {
     q: "インフラエンジニアからSREへの転職は可能？",
-    a: "インフラ運用の経験があれば有力な出発点です。不足しがちなのはプログラミングとIaC、SLO設計の経験なので、在職中に手作業を自動化した実績を作り、Go/Pythonでのツール開発をポートフォリオ化すると移行しやすくなります。",
+    a: "インフラ運用の経験があれば有力な出発点です。不足しがちなのはプログラミングとIaC、SLO設計の経験であるため、在職中に手作業を自動化した実績を作り、Go/Pythonでのツール開発をポートフォリオ化すると移行しやすくなります。",
   },
   {
     q: "SRE未経験・完全異職種からでも狙える？",
@@ -172,7 +172,7 @@ export default function SrePage() {
     <>
       <ArticleJsonLd
         title="SRE転職ガイド｜インフラ・バックエンドからの移行ステップと職務経歴書"
-        description="インフラ／バックエンドエンジニアからSRE（Site Reliability Engineer）へ転職する方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文つきで解説します。"
+        description="インフラ／バックエンドエンジニアからSRE（Site Reliability Engineer）へ転職する方法を、スキルギャップ比較・在職中の移行ステップ・職務経歴書のBefore/After例文を交えて解説します。"
         url="/career/sre/"
       />
       <script
@@ -229,9 +229,9 @@ export default function SrePage() {
               鍵になるのは、運用経験を「信頼性をどう改善したか」という言葉に翻訳できるかどうかです。
             </p>
             <ul className="space-y-2 text-slate-700 text-sm">
-              <li>① インフラ出身なら<strong>プログラミングとIaC</strong>、バックエンド出身なら<strong>運用・監視設計</strong>がギャップになりやすい</li>
-              <li>② 在職中に「手作業の自動化（トイル削減）」を1つ実現し、コードを公開できる形にする</li>
-              <li>③ クラウドとコーディングを両方扱える人材は需要が高く、ミドル層の運用知見も評価されやすい</li>
+              <li>① インフラ出身なら<strong>プログラミングとIaC</strong>、バックエンド出身なら<strong>運用・監視設計</strong>がギャップになりやすいです</li>
+              <li>② 在職中に「手作業の自動化（トイル削減）」を1つ実現し、コードを公開できる形にします</li>
+              <li>③ クラウドとコーディングを両方扱える人材は需要が高く、ミドル層の運用知見も評価されやすいです</li>
             </ul>
           </div>
         </section>
@@ -317,13 +317,13 @@ export default function SrePage() {
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-700 text-sm mb-2">Before（運用作業の羅列になっている例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                AWS上のWebシステムの運用保守を担当。サーバーの監視、障害発生時の対応、定期的なバックアップ作業、ミドルウェアのバージョンアップを実施。手順書に沿ってメンテナンス作業を行った。
+                AWS上のWebシステムの運用保守を担当します。サーバーの監視、障害発生時の対応、定期的なバックアップ作業、ミドルウェアのバージョンアップを実施します。手順書に沿ってメンテナンス作業を行った。
               </p>
             </div>
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（信頼性改善と自動化を主語にした例）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                AWS上のWebシステム（月間ピーク〇〇万リクエスト）の信頼性向上を担当。頻発していた手動のデプロイ・バックアップ作業をTerraformとシェル／Pythonでコード化し、定常作業の工数を削減。主要APIにSLI/SLOを定義してダッシュボードを整備し、アラートの優先度を見直したことで、夜間の不要アラートと対応負荷を低減。障害対応では原因分析と再発防止策の自動化までを担当した。
+                AWS上のWebシステム（月間ピーク〇〇万リクエスト）の信頼性向上を担当します。頻発していた手動のデプロイ・バックアップ作業をTerraformとシェル／Pythonでコード化し、定常作業の工数を削減します。主要APIにSLI/SLOを定義してダッシュボードを整備し、アラートの優先度を見直したことで、夜間の不要アラートと対応負荷を低減します。障害対応では原因分析と再発防止策の自動化までを担当しました。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
@@ -331,7 +331,7 @@ export default function SrePage() {
               <ul className="space-y-1">
                 <li>・「監視した／対応した」→「SLI/SLOを定義し改善した」と信頼性の言葉に変換</li>
                 <li>・手作業を「コード化して削減した（トイル削減）」とSREの中核価値で表現</li>
-                <li>・規模感や工数・アラート件数など、出せる範囲で定量を添える（数値は実績に合わせて記載）</li>
+                <li>・規模感や工数・アラート件数など、出せる範囲で定量を添えます（数値は実績に合わせて記載）</li>
               </ul>
             </div>
           </div>
@@ -360,17 +360,17 @@ export default function SrePage() {
               {
                 name: "レバテックキャリア",
                 point:
-                  "IT/Web特化で技術に詳しいアドバイザーが在籍。利用者の約8割が20〜30代で、高年収求人の比率が高いと公表されており、SRE系ポジションの相談に向きます。",
+                  "IT/Web特化で技術に詳しいアドバイザーが在籍しています。利用者の約8割が20〜30代で、高年収求人の比率が高いと公表されており、SRE系ポジションの相談に向きます。",
               },
               {
                 name: "ビズリーチ",
                 point:
-                  "ハイクラス・スカウト型。年収750万円以上の定義でハイレンジ求人が中心。経験を登録するとSRE求人のスカウトで市場価値を客観的に把握できます。",
+                  "ハイクラス・スカウト型です。年収750万円以上の定義でハイレンジ求人が中心です。経験を登録するとSRE求人のスカウトで市場価値を客観的に把握できます。",
               },
               {
                 name: "doda ITエンジニア",
                 point:
-                  "国内最大級の求人数で、検索・エージェント・スカウトのハイブリッド型。幅広い企業のSRE/インフラ求人を比較検討したい場合に有効です。",
+                  "国内最大級の求人数で、検索・エージェント・スカウトのハイブリッド型です。幅広い企業のSRE/インフラ求人を比較検討したい場合に有効です。",
               },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -418,7 +418,7 @@ export default function SrePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">SRE転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            SREポジションに強いIT特化型エージェントが、あなたの運用経験に合う求人を提案します。
+            SREポジションに強いIT特化型エージェントが、ご自身の運用経験に合う求人を提案します。
           </p>
           <Link
             href="/#ranking"

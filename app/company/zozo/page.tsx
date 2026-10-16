@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/zozo/" },
   title: "ZOZOの年収は平均856万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "ZOZOへのエンジニア転職を実データで解説。有価証券報告書の平均年収856万円（2026年3月期・全社員平均）、Go/Kubernetes等の技術スタック、コーディングテストなしの選考フロー、30代40代の現実までまとめました。",
+    "ZOZOへのエンジニア転職を実データで解説します。有価証券報告書の平均年収856万円（2026年3月期・全社員平均）、Go/Kubernetes等の技術スタック、コーディングテストなしの選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -91,7 +91,7 @@ export default function ZozoCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="ZOZO エンジニア転職ガイド" description="ZOZOへのエンジニア転職を実データで解説。有価証券報告書の平均年収856万円（2026年3月期・全社員平均）、Go/Kubernetes等の技術スタック、コーディングテストなしの選考フロー、30代40代の現実までまとめました。" url="/company/zozo/" />
+      <ArticleJsonLd title="ZOZO エンジニア転職ガイド" description="ZOZOへのエンジニア転職を実データで解説します。有価証券報告書の平均年収856万円（2026年3月期・全社員平均）、Go/Kubernetes等の技術スタック、コーディングテストなしの選考フロー、30代40代の現実までまとめました。" url="/company/zozo/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Kotlinの転職ガイド", href: "/skill/kotlin/" }, { name: "App Storeにアプリを公開するの転職ガイド", href: "/skill/swift/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ZOZO" }]} />
 
@@ -103,7 +103,7 @@ export default function ZozoCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ZOZOの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ZOZOの平均年間給与は856万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢34.7歳）。前期656万円から200万円の大幅増です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 856万円（2026年3月期 有報）。販売・物流など全職種を含む全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2024年3月期692万円→2025年3月期656万円→2026年3月期856万円と、直近期に200万円の大幅増（各期 有報）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表。提示額はポジション・グレードで幅があるため、求人・エージェントで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 856万円です（2026年3月期 有価証券報告書）。販売・物流など全職種を含む全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2024年3月期692万円→2025年3月期656万円→2026年3月期856万円と、直近期に200万円の大幅増です（各期 有価証券報告書）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表です。提示額はポジション・グレードで幅があるため、求人・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -124,7 +124,7 @@ export default function ZozoCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              ZOZOは<strong>大規模ファッションECをGoベースのマイクロサービスへ刷新中の、技術投資に積極的なテック企業</strong>です。コーディングテストはなく、現場エンジニアとの面接で技術力と相性を見極める選考が特徴。働き方は比較的柔軟という口コミ傾向です。
+              ZOZOは<strong>大規模ファッションECをGoベースのマイクロサービスへ刷新中の、技術投資に積極的なテック企業</strong>です。コーディングテストはなく、現場エンジニアとの面接で技術力と相性を見極める選考が特徴です。働き方は比較的柔軟という口コミ傾向です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：大規模EC・マイクロサービス・Go/Kubernetes等の経験があり、対話で技術を語れるエンジニア</li>
@@ -159,7 +159,7 @@ export default function ZozoCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく全社員平均値。技術スタックは公式技術ブログ等の公開情報。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく全社員平均値。技術スタックは公式技術ブログ等の公開情報です。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -187,9 +187,9 @@ export default function ZozoCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：ZOZOTOWNのマイクロサービス移行でGoを採用。軽量・起動速度・並行処理の強みを評価した技術選定が公開されています。</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：AWS上のEKS（マネージドKubernetes）でコンテナ基盤を運用。IaC/CI/CDやセキュリティ標準（govulncheck・ECRイメージスキャン等）の事例が公開されています。</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>アプリ・フロント</strong>：Kotlin / Swift（モバイル）、TypeScript（Web）など。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：ZOZOTOWNのマイクロサービス移行でGoを採用します。軽量・起動速度・並行処理の強みを評価した技術選定が公開されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：AWS上のEKS（マネージドKubernetes）でコンテナ基盤を運用します。IaC/CI/CDやセキュリティ標準（govulncheck・ECRイメージスキャン等）の事例が公開されています。</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>アプリ・フロント</strong>：Kotlin / Swift（モバイル）、TypeScript（Web）などです。</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>その他</strong>：Java、Python なども領域により使用されています。</span></li>
             </ul>
           </div>
@@ -228,7 +228,7 @@ export default function ZozoCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式・公開情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            ZOZOの中途採用は、コーディングテストを実施せず、現場エンジニアとの面接で技術力を見極めるのが特徴です。公開情報をもとにした一般的な流れは以下の通りです。最新の選考内容は<a href="https://corp.zozo.com/recruit/mid-career/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式中途採用ページ</a>でご確認ください。
+            ZOZOの中途採用は、コーディングテストを実施せず、現場エンジニアとの面接で技術力を見極めるのが特徴です。公開情報をもとにした一般的な流れは以下のとおりです。最新の選考内容は<a href="https://corp.zozo.com/recruit/mid-career/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式中途採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>エントリー（公式採用ページ／エージェント経由）</li>
@@ -272,9 +272,9 @@ export default function ZozoCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ZOZO転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。EC系・メガベンチャー求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。EC系企業への提案実績が豊富で提案スピードが速い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイト。カジュアル面談で社風を把握しやすい。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。EC系・メガベンチャー求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。EC系企業への提案実績が豊富で提案スピードが速いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談で社風を把握しやすいです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/ricoh/" },
   title: "リコーの年収は平均906万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "リコーへのエンジニア転職を実データで解説。有価証券報告書の平均年収906万円（2026年3月期・全社員平均）、複合機からデジタルサービスへの転換に伴うソフトウェア・クラウド・AIの募集職種、選考フロー、30代40代の現実までまとめました。",
+    "リコーへのエンジニア転職を実データで解説します。有価証券報告書の平均年収906万円（2026年3月期・全社員平均）、複合機からデジタルサービスへの転換に伴うソフトウェア・クラウド・AIの募集職種、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -84,7 +84,7 @@ export default function RicohCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="リコー エンジニア転職ガイド" description="リコーへのエンジニア転職を実データで解説。有価証券報告書の平均年収906万円（2026年3月期・全社員平均）、複合機からデジタルサービスへの転換に伴うソフトウェア・クラウド・AIの募集職種、選考フロー、30代40代の現実までまとめました。" url="/company/ricoh/" />
+      <ArticleJsonLd title="リコー エンジニア転職ガイド" description="リコーへのエンジニア転職を実データで解説します。有価証券報告書の平均年収906万円（2026年3月期・全社員平均）、複合機からデジタルサービスへの転換に伴うソフトウェア・クラウド・AIの募集職種、選考フロー、30代40代の現実までまとめました。" url="/company/ricoh/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "組込みの転職ガイド", href: "/skill/embedded/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "リコー" }]} />
 
@@ -96,7 +96,7 @@ export default function RicohCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】リコーの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社リコー（提出会社単体）の平均年間給与は906万円です（2026年3月期 有価証券報告書・平均年齢45.4歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 906万円（2026年3月期 有報・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2023年3月期838万円→2024年3月期860万円→2026年3月期906万円と上昇（各期 有報）。</li><li>・エンジニア職に限定した公式な提示レンジは非公開。提示額は等級・役割により幅があるため、個別求人・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 906万円です（2026年3月期 有価証券報告書・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2023年3月期838万円→2024年3月期860万円→2026年3月期906万円と上昇しています（各期 有価証券報告書）。</li><li>・エンジニア職に限定した公式な提示レンジは非公開です。提示額は等級・役割により幅があるため、個別求人・面談で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -152,7 +152,7 @@ export default function RicohCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく提出会社（株式会社リコー単体）の全社員平均値。技術領域は公式採用情報（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく提出会社（株式会社リコー単体）の全社員平均値。技術領域は公式採用情報です（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -176,7 +176,7 @@ export default function RicohCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術領域・募集職種（公式採用情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            リコーは公式採用情報（職種紹介・キャリア採用ページ、2026年6月時点）で、デジタルサービスを支える技術職を募集しています。主な領域は以下の通りです。具体的な使用技術は配属プロダクト・募集ポジションにより異なります。
+            リコーは公式採用情報（職種紹介・キャリア採用ページ、2026年6月時点）で、デジタルサービスを支える技術職を募集しています。主な領域は以下のとおりです。具体的な使用技術は配属プロダクト・募集ポジションにより異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -268,9 +268,9 @@ export default function RicohCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">リコー転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。大手メーカーのデジタル職求人にも対応し、非公開求人も豊富。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、メーカーの管理職・専門職求人に対応。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。大手メーカーのデジタル職求人にも対応し、非公開求人も豊富です。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、メーカーの管理職・専門職求人に対応しています。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

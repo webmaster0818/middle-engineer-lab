@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/career/backend-to-fullstack/" },
-  title: "バックエンド→フルスタックへの転身完全ガイド【2026年版】",
+  title: "バックエンド→フルスタックへの転身ガイド【2026年版】",
   description:
     "バックエンドエンジニアからフルスタックへ転身するための現実性、スキルギャップ比較、在職中の準備、職務経歴書のBefore/After例文を公表データに基づき解説します。",
 };
@@ -27,7 +27,7 @@ const toc = [
 const gapRows = [
   {
     area: "フロントエンド",
-    back: "APIを返す側。画面実装はフロント担当に委譲",
+    back: "APIを返す側です。画面実装はフロント担当に委譲",
     full: "React/Next.js等でUIを自分で実装できる",
     action: "TypeScript→Reactの順で個人開発で実装",
   },
@@ -39,19 +39,19 @@ const gapRows = [
   },
   {
     area: "UI/UX設計",
-    back: "画面仕様は受け取る側。デザインは範囲外",
+    back: "画面仕様は受け取る側です。デザインは範囲外",
     full: "レスポンシブ・状態管理・基本的なUX判断",
-    action: "Tailwind CSSとコンポーネント設計を学ぶ",
+    action: "Tailwind CSSとコンポーネント設計を学びます",
   },
   {
     area: "インフラ/DevOps",
-    back: "アプリ実装中心。基盤は別チームの現場も",
+    back: "アプリ実装中心です。基盤は別チームの現場も",
     full: "Docker・CI/CD・クラウドを自分で扱う",
-    action: "自作アプリをCI/CDでデプロイする経験を作る",
+    action: "自作アプリをCI/CDでデプロイする経験を作ります",
   },
   {
     area: "全体設計",
-    back: "サーバー側のドメイン設計に強い",
+    back: "サーバー側のドメイン設計に強いです",
     full: "フロントからインフラまで一気通貫で設計",
     action: "個人開発でフロント〜インフラを横断構築",
   },
@@ -119,19 +119,19 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。Web系・モダン技術の求人に強く、フルスタックを求める自社開発企業の案件も扱います。技術背景を理解したアドバイザーが在籍するとされます（出典：レバテック公式ガイド、転職メディア集計）。",
+      "IT/Web特化型です。Web系・モダン技術の求人に強く、フルスタックを求める自社開発企業の案件も扱います。技術背景を理解したアドバイザーが在籍するとされます（出典：レバテック公式ガイド、転職メディア集計）。",
   },
   {
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     point:
-      "ハイクラス・スカウト型。年収750万円以上をハイクラスと定義し、年収1,000万円以上求人が全体の約4割との二次情報もあります。フルスタックの市場価値を客観把握する用途に向きます。",
+      "ハイクラス・スカウト型です。年収750万円以上をハイクラスと定義し、年収1,000万円以上求人が全体の約4割との二次情報もあります。フルスタックの市場価値を客観把握する用途に向きます。",
   },
   {
     name: "Green",
     href: "/review/green/",
     point:
-      "成功報酬型の転職サイトで、IT/Webベンチャー・スタートアップに強み。技術選定から関わるフルスタック志向のポジションに出会いやすく、カジュアル面談で社風を確認できます。",
+      "成功報酬型の転職サイトで、IT/Webベンチャー・スタートアップに強みがあります。技術選定から関わるフルスタック志向のポジションに出会いやすく、カジュアル面談で社風を確認できます。",
   },
 ];
 
@@ -150,7 +150,7 @@ const faqs = [
   },
   {
     q: "フロントエンドの学習は何から始めるべき？",
-    a: "まずTypeScriptを学び、次にReactの基礎、続いてNext.jsという順序が王道です。バックエンドの型思考が活きるため、型から入ると理解が早まります。CSSはTailwind CSSで実践的に身につけるのが効率的です。",
+    a: "まずTypeScriptを学び、次にReactの基礎、続いてNext.jsという順序が代表的な方法です。バックエンドの型思考が活きるため、型から入ると理解が早まります。CSSはTailwind CSSで実践的に身につけるのが効率的です。",
   },
   {
     q: "フルスタック人材の需要は今後も続く？",
@@ -180,7 +180,7 @@ export default function BackendToFullstackPage() {
   return (
     <>
       <ArticleJsonLd
-        title="バックエンド→フルスタックへの転身完全ガイド【2026年版】"
+        title="バックエンド→フルスタックへの転身ガイド【2026年版】"
         description="バックエンドエンジニアからフルスタックへ転身するための現実性、スキルギャップ比較、在職中の準備、職務経歴書のBefore/After例文を公表データに基づき解説します。"
         url="/career/backend-to-fullstack/"
       />
@@ -198,7 +198,7 @@ export default function BackendToFullstackPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          バックエンド→フルスタックへの転身完全ガイド【2026年版】
+          バックエンド→フルスタックへの転身ガイド【2026年版】
         </h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月</p>
 
@@ -239,12 +239,12 @@ export default function BackendToFullstackPage() {
               バックエンドからのフルスタック転身は、再現性の高いキャリア戦略です。理由は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 既にAPI設計・DB設計・型思考の土台があり、TypeScript経由でフロントへ自然に展開できる。</li>
-              <li>② インフラ/DevOpsはバックエンド経験者が習得しやすく、一気通貫の構築力に直結する。</li>
-              <li>③ 守備範囲の広さは、特に少人数の自社開発・スタートアップで強く評価される。</li>
+              <li>① 既にAPI設計・DB設計・型思考の土台があり、TypeScript経由でフロントへ自然に展開できます。</li>
+              <li>② インフラ/DevOpsはバックエンド経験者が習得しやすく、一気通貫の構築力に直結します。</li>
+              <li>③ 守備範囲の広さは、特に少人数の自社開発・スタートアップで強く評価されます。</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
-              鍵は「フロントを業務または個人開発で実際に実装した実績」を持つこと。学習しただけでなく、動くものを作った事実が評価を左右します。
+              鍵は「フロントを業務または個人開発で実際に実装した実績」を持つことです。学習しただけでなく、動くものを作った事実が評価を左右します。
             </p>
           </div>
         </section>
@@ -361,10 +361,10 @@ export default function BackendToFullstackPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-5">
             <p className="font-bold text-slate-700 text-sm mb-2">翻訳のポイント</p>
             <ul className="space-y-1.5 text-sm text-slate-600">
-              <li>・バックエンドの設計・改善実績を「数値成果」とセットで核に据える（数値は実績の範囲で）</li>
-              <li>・フロント・インフラの関与を1行ずつでも明記し、守備範囲の広さを示す</li>
-              <li>・「一気通貫で構築した個人開発」を入れると、フルスタックの説得力が増す</li>
-              <li>・誇張せず、検証可能な事実ベースで書く</li>
+              <li>・バックエンドの設計・改善実績を「数値成果」とセットで核に据えます（数値は実績の範囲で）</li>
+              <li>・フロント・インフラの関与を1行ずつでも明記し、守備範囲の広さを示します</li>
+              <li>・「一気通貫で構築した個人開発」を入れると、フルスタックの説得力が増します</li>
+              <li>・誇張せず、検証可能な事実ベースで書きます</li>
             </ul>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
@@ -382,13 +382,13 @@ export default function BackendToFullstackPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
             <li>
-              ・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円</strong>・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）。
+              ・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円</strong>・平均年齢37.1歳です（令和7年賃金構造基本統計調査ベース）。
             </li>
             <li>
-              ・dodaの2024年度決定年収レポート（2025年5月公表）では、転職者の約6割が年収アップ。IT・通信の平均決定年収は2024年度<strong>486万円</strong>。
+              ・dodaの2024年度決定年収レポート（2025年5月公表）では、転職者の約6割が年収アップです。IT・通信の平均決定年収は2024年度<strong>486万円です</strong>。
             </li>
             <li>
-              ・レバテック公表の年代別平均年収（2025年）では、正社員SEで30代約<strong>499万円</strong>、40代約<strong>618万円</strong>。年収1,000万円以上の割合は30代8.01%・40代12.67%。
+              ・レバテック公表の年代別平均年収（2025年）では、正社員SEで30代約<strong>499万円</strong>、40代約<strong>618万円です</strong>。年収1,000万円以上の割合は30代8.01%・40代12.67%です。
             </li>
           </ul>
           <p className="text-slate-600 text-sm leading-relaxed">

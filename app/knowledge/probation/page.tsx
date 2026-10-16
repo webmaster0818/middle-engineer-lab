@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/probation/" },
   title: "試用期間とは【制度の仕組み・注意点・期間中の転職】",
   description:
-    "試用期間の一般的な制度の仕組み、期間中の解雇・退職の考え方、注意点を解説。30代・40代エンジニアが試用期間中に転職を検討する際のポイントも紹介します。",
+    "試用期間の一般的な制度の仕組み、期間中の解雇・退職の考え方、注意点を解説します。30代・40代エンジニアが試用期間中に転職を検討する際のポイントも紹介します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：試用期間も通常の労働契約。過度に怖がらない" },
+  { id: "conclusion", label: "結論：試用期間も通常の労働契約です。過度に怖がらない" },
   { id: "what", label: "試用期間とは（制度の一般論）" },
   { id: "points", label: "試用期間でよくある誤解と注意点" },
   { id: "leave", label: "試用期間中に辞めるべきか判断する基準" },
@@ -37,7 +37,7 @@ const checklist = [
   "退職理由を前向きな表現に整理しておく",
   "短期離職の経緯を一貫したストーリーで説明できるようにする",
   "前々職までの実績をアピール材料の中心に据える",
-  "エージェントに試用期間中であることを正直に共有する",
+  "エージェントに試用期間中であることを率直に共有する",
   "就業規則の退職手続き・通知期間を確認する",
 ];
 
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "試用期間中の転職をエージェントに相談できますか？",
-    a: "できます。エージェントは試用期間中・短期離職の事例も扱っており、退職理由の整理や面接での見せ方をサポートしてくれます。試用期間中であることを隠す必要はなく、むしろ正直に共有したほうが、状況に合った求人や対策を提案してもらいやすくなります。在職中に活動して次を決めてから動く、という進め方も相談できます。",
+    a: "できます。エージェントは試用期間中・短期離職の事例も扱っており、退職理由の整理や面接での見せ方をサポートしてくれます。試用期間中であることを隠す必要はなく、むしろ率直に共有したほうが、状況に合った求人や対策を提案してもらいやすくなります。在職中に活動して次を決めてから動く、という進め方も相談できます。",
   },
   {
     q: "試用期間が終わると何が変わりますか？",
@@ -91,7 +91,7 @@ export default function ProbationPage() {
     <>
       <ArticleJsonLd
         title="試用期間とは【制度の仕組み・注意点・期間中の転職】"
-        description="試用期間の一般的な制度の仕組み、期間中の解雇・退職の考え方、注意点を解説。30代・40代エンジニアが試用期間中に転職を検討する際のポイントも紹介します。"
+        description="試用期間の一般的な制度の仕組み、期間中の解雇・退職の考え方、注意点を解説します。30代・40代エンジニアが試用期間中に転職を検討する際のポイントも紹介します。"
         url="/knowledge/probation/"
       />
       <script
@@ -119,7 +119,7 @@ export default function ProbationPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】試用期間中でも解雇や退職はどうなる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 試用期間も通常の労働契約で、労働者としての基本的な保護は適用されます。過度に怖がる必要はありません。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・「試用期間だから自由に解雇できる」は誤解。解雇には合理的な理由が求められると解される</li><li>・期間中の退職も可能だが、就業規則を確認し在職中に次を決めてから動くのが安全</li><li>・個別の法的判断は専門家に相談すること（本記事は一般論の整理）</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・「試用期間だから自由に解雇できる」は誤解です。解雇には合理的な理由が求められると解されます</li><li>・期間中の退職も可能だが、就業規則を確認し在職中に次を決めてから動くのが安全</li><li>・個別の法的判断は専門家に相談すること（本記事は一般論の整理）</li></ul>
           </div>
         </section>
 
@@ -146,12 +146,12 @@ export default function ProbationPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：試用期間も通常の労働契約。過度に怖がらない</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：試用期間も通常の労働契約です。過度に怖がらない</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・試用期間中でも<strong>労働者としての基本的な保護は適用される</strong>のが一般的な考え方。</li>
-              <li>・「試用期間だから自由に解雇できる」は<strong>誤解</strong>。解雇には合理的な理由が求められると解される。</li>
-              <li>・期間中の退職も可能だが、就業規則を確認し<strong>在職中に次を決めてから</strong>動くのが安全。</li>
-              <li>・<strong>個別の法的判断は専門家に相談</strong>すること。本記事は一般論の整理です。</li>
+              <li>・試用期間中でも<strong>労働者としての基本的な保護は適用される</strong>のが一般的な考え方です。</li>
+              <li>・「試用期間だから自由に解雇できる」は<strong>誤解です</strong>。解雇には合理的な理由が求められると解されます。</li>
+              <li>・期間中の退職も可能だが、就業規則を確認し<strong>在職中に次を決めてから</strong>動くのが安全です。</li>
+              <li>・<strong>個別の法的判断は専門家に相談</strong>することが重要です。本記事は一般論の整理です。</li>
             </ul>
           </div>
         </section>
@@ -165,9 +165,9 @@ export default function ProbationPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <h3 className="font-bold text-slate-800 mb-3 text-sm">押さえておきたい一般的なポイント</h3>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li>・試用期間中も労働契約は成立しており、賃金・労働時間などの基本的なルールは適用される。</li>
-              <li>・本採用に向けて、企業側に解約権が留保されていると説明されることがある（その分、本採用後より解約が認められやすいと解される場面もある）。</li>
-              <li>・期間の長さ・延長の可否・本採用の判断基準は、就業規則や契約書で確認できる。</li>
+              <li>・試用期間中も労働契約は成立しており、賃金・労働時間などの基本的なルールは適用されます。</li>
+              <li>・本採用に向けて、企業側に解約権が留保されていると説明されることがあります（その分、本採用後より解約が認められやすいと解される場面もある）。</li>
+              <li>・期間の長さ・延長の可否・本採用の判断基準は、就業規則や契約書で確認できます。</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -268,7 +268,7 @@ export default function ProbationPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">実績の重心を「前々職まで」に置く</h3>
-              <p className="text-sm text-slate-600">直近の短期在籍は経緯を簡潔に説明し、アピールの中心は積み上げてきたキャリア全体に置きます。これまでの成果を整理する方法は<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析の進め方</Link>を参考に。</p>
+              <p className="text-sm text-slate-600">直近の短期在籍は経緯を簡潔に説明し、アピールの中心は積み上げてきたキャリア全体に置きます。これまでの成果を整理する方法は<Link href="/knowledge/self-analysis/" className="text-petrol hover:underline">自己分析の進め方</Link>をご参照ください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">次こそミスマッチを防ぐ「確認力」を示す</h3>
@@ -301,7 +301,7 @@ export default function ProbationPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">試用期間中でも相談できます</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントは試用期間中・短期離職の相談にも対応。退職理由の整理や求人紹介をサポートします。
+            IT特化型エージェントは試用期間中・短期離職の相談にも対応しています。退職理由の整理や求人紹介をサポートします。
           </p>
           <Link
             href="/#ranking"

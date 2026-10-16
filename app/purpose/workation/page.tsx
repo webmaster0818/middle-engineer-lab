@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/workation/" },
   title: "ワーケーションができる企業へ転職【制度の見極め方2026】",
   description:
-    "ワーケーションの定義と種類を公的情報ベースで解説。求人での見極め方、労働時間・労災・費用負担の注意点、該当しやすい企業タイプ、30-40代の活用法まで。",
+    "ワーケーションの定義と種類を公的情報ベースで解説します。求人での見極め方、労働時間・労災・費用負担の注意点、該当しやすい企業タイプ、30-40代の活用法まで。",
 };
 
 const faqs = [
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "求人でワーケーション制度の何を確認すべきですか？",
-    a: "（1）フルリモートが前提か：居住地以外・旅行先でも働けるか。（2）勤務可能な場所の範囲：国内のみか、海外（タイムゾーン・税務の論点あり）も可か。（3）日数・申請ルール：年に何日まで、事前申請が必要か。（4）費用負担：交通費・宿泊費・通信費は自己負担か補助があるか。（5）実際の利用実績。制度として明文化している企業はまだ限られるため、面接で運用実態を確認するのが確実です。",
+    a: "（1）フルリモートが前提か：居住地以外・旅行先でも働けるか。（2）勤務可能な場所の範囲：国内のみか、海外（タイムゾーン・税務の論点あり）も可か。（3）日数・申請ルール：年に何日まで、事前申請が必要か。（4）費用負担：交通費・宿泊費・通信費は自己負担か補助があるか。（5）実際の利用実績です。制度として明文化している企業はまだ限られるため、面接で運用実態を確認するのが確実です。",
   },
   {
     q: "海外でワーケーションはできますか？",
@@ -53,7 +53,7 @@ export default function WorkationPage() {
     <>
       <ArticleJsonLd
         title="ワーケーションができる企業へ転職【制度の見極め方2026】"
-        description="ワーケーションの定義と種類を公的情報ベースで解説。求人での見極め方、労働時間・労災・費用負担の注意点、該当しやすい企業タイプまで。"
+        description="ワーケーションの定義と種類を公的情報ベースで解説します。求人での見極め方、労働時間・労災・費用負担の注意点、該当しやすい企業タイプまで。"
         url="/purpose/workation/"
       />
       <script
@@ -72,7 +72,7 @@ export default function WorkationPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           ワーケーションができる企業へ転職
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | フルリモートを前提に「制度の実態」で選ぶ完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | フルリモートを前提に「制度の実態」で選ぶガイド</p>
 
         <DataNote
           surveyedAt="2026年6月"
@@ -88,7 +88,7 @@ export default function WorkationPage() {
             ワーケーションは、リゾート地や地方など非日常の場所で休暇を兼ねて働く働き方です。しかしこれは<strong>フルリモートが認められ、かつ居住地以外でも働ける</strong>会社でなければ実質的に成立しません。求人で「ワーケーション可」とあっても、勤務場所の範囲・日数・費用負担・労働時間管理のルールは企業によって大きく異なります。本記事では、ワーケーションの定義と種類を公的情報で整理し、求人での見極め方を労務・税務のリスクと30-40代の活用法の観点で解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 旅行・帰省を兼ねて働ける柔軟な環境へ転職したい30-40代</li>
               <li>- 「ワーケーション可」求人の実態（場所・日数・費用）を見抜きたい</li>
@@ -122,9 +122,9 @@ export default function WorkationPage() {
               </thead>
               <tbody>
                 {[
-                  { type: "休暇型", desc: "有給休暇等を利用し、滞在先で一部仕事も行う", note: "休暇が主。労働時間の切り分けが重要" },
-                  { type: "業務型（サテライト）", desc: "地方拠点・サテライトオフィスで勤務", note: "業務が主。会社の拠点・規程に依存" },
-                  { type: "業務型（地域課題・出張）", desc: "地域での活動や出張先での勤務を兼ねる", note: "目的が明確。経費・労務管理のルールあり" },
+                  { type: "休暇型", desc: "有給休暇等を利用し、滞在先で一部仕事も行います", note: "休暇が主です。労働時間の切り分けが重要" },
+                  { type: "業務型（サテライト）", desc: "地方拠点・サテライトオフィスで勤務", note: "業務が主です。会社の拠点・規程に依存" },
+                  { type: "業務型（地域課題・出張）", desc: "地域での活動や出張先での勤務を兼ねます", note: "目的が明確です。経費・労務管理のルールあり" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -148,7 +148,7 @@ export default function WorkationPage() {
               { num: "2", title: "勤務可能な場所の範囲を確認する", desc: "国内全域か、特定エリアか、海外も可か。海外はビザ・税務の論点があり、認める会社でも対象国・日数が限定されることが多いです。" },
               { num: "3", title: "日数・申請ルールを確認する", desc: "年に何日まで利用できるか、事前申請・上長承認が必要かを確認します。無制限の会社は少なく、上限付きが一般的です。" },
               { num: "4", title: "費用負担を確認する", desc: "交通費・宿泊費・通信費が自己負担か、会社補助があるか。自己負担前提の制度なら、実質的なコストも踏まえて活用判断を。" },
-              { num: "5", title: "労働時間管理とセキュリティ規程を確認する", desc: "勤務時間の管理方法、外部ネットワーク利用時のセキュリティルールが整備されているかで、運用の本気度がわかります。" },
+              { num: "5", title: "労働時間管理とセキュリティ規程を確認する", desc: "勤務時間の管理方法、外部ネットワーク利用時のセキュリティルールが整備されているかで、運用の本気度が分かります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -170,10 +170,10 @@ export default function WorkationPage() {
           </p>
           <div className="space-y-3">
             {[
-              { type: "フルリモート前提のWeb系・SaaS企業", point: "勤務場所を問わない設計が多く、ワーケーションも実態として可能なことが多い。" },
-              { type: "地方創生・地域連携に取り組む企業", point: "サテライトオフィスや地方拠点を活用した業務型ワーケーションを制度化している例がある。" },
-              { type: "柔軟な働き方を打ち出すスタートアップ", point: "採用力強化のため場所自由を掲げる企業も。実態は規程と利用実績で確認を。" },
-              { type: "常駐・出社前提のSIer・受託", point: "クライアント先常駐が多いとワーケーションは実質困難。配属形態を要確認。" },
+              { type: "フルリモート前提のWeb系・SaaS企業", point: "勤務場所を問わない設計が多く、ワーケーションも実態として可能なことが多いです。" },
+              { type: "地方創生・地域連携に取り組む企業", point: "サテライトオフィスや地方拠点を活用した業務型ワーケーションを制度化している例があります。" },
+              { type: "柔軟な働き方を打ち出すスタートアップ", point: "採用力強化のため場所自由を掲げる企業も。実態は規程と利用実績でご確認ください。" },
+              { type: "常駐・出社前提のSIer・受託", point: "クライアント先常駐が多いとワーケーションは実質困難です。配属形態を要確認です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>
@@ -220,7 +220,7 @@ export default function WorkationPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">場所に縛られない企業を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">リモート・ワーケーションの実態まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">リモート・ワーケーションの実態まで把握したIT特化型エージェントが、ご自身の条件に合う企業を提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -233,7 +233,7 @@ export default function WorkationPage() {
               { name: "リモートワークのリアル", href: "/knowledge/remote-work/" },
               { name: "ワークライフバランス重視の転職", href: "/purpose/wlb/" },
               { name: "福利厚生が充実した企業へ転職", href: "/purpose/benefits/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

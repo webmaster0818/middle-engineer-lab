@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/ubie/" },
   title: "Ubieの年収・給与とエンジニア転職【2026年】技術スタック・選考",
   description:
-    "Ubie（ユビー）のエンジニア中途採用を公式採用ページ・技術発信の一次情報で解説。非上場のため全社平均年収はなく、職種別レンジ・Go/Node.js/GCPの技術スタック・30代40代の転職可否を中立にまとめました。",
+    "Ubie（ユビー）のエンジニア中途採用を公式採用ページ・技術発信の一次情報で解説します。非上場のため全社平均年収はなく、職種別レンジ・Go/Node.js/GCPの技術スタック・30代40代の転職可否を中立にまとめました。",
 };
 
 const toc = [
@@ -33,7 +33,7 @@ const basicData: [string, string][] = [
   ["事業内容", "症状検索エンジン「ユビー」など、生活者・医療機関向けヘルステックSaaSの開発・提供"],
   ["平均年収", "非上場のため有価証券報告書による全社員平均は存在しない（公式の職種別レンジは「年収データ」章を参照）"],
   ["技術スタック", "Go／Node.js（全社で標準化）／TypeScript・Next.js（フロント）／gRPC（サービス間）／GraphQL（外向け）／GCP"],
-  ["特徴", "年齢不問・要件主義の採用方針。医療ドメイン×SaaSの社会性の高い領域"],
+  ["特徴", "年齢不問・要件主義の採用方針です。医療ドメイン×SaaSの社会性の高い領域"],
 ];
 
 const salaryRows: [string, string][] = [
@@ -57,7 +57,7 @@ export default function UbieCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="Ubie（ユビー）エンジニア転職ガイド" description="Ubieへのエンジニア転職を公式採用ページ・技術発信の一次情報で解説。非上場のため全社平均はなく、職種別レンジ・Go/Node.js/GCPの技術スタック・選考の考え方をまとめました。" url="/company/ubie/" />
+      <ArticleJsonLd title="Ubie（ユビー）エンジニア転職ガイド" description="Ubieへのエンジニア転職を公式採用ページ・技術発信の一次情報で解説します。非上場のため全社平均はなく、職種別レンジ・Go/Node.js/GCPの技術スタック・選考の考え方をまとめました。" url="/company/ubie/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "Ubie" }]} />
 
@@ -72,7 +72,7 @@ export default function UbieCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Ubieの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: Ubieは非上場のため公式の全社員平均年収は公表されていません。公式採用ページ提示の職種別レンジが最も信頼できる一次情報です（例: プロダクトマネージャー 800〜1,200万円）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収は非公表（非上場・有価証券報告書なし）。集計サイトの数値は公式値ではない参考値です。</li><li>・公式採用ページの職種別レンジ例: プロダクトマネージャー 800〜1,200万円、QA・事業開発など 600〜1,200万円。</li><li>・エンジニア職の等級別レンジは時期により変動。具体的な提示額は応募・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・全社員平均年収は非公表です（非上場・有価証券報告書なし）。集計サイトの数値は公式値ではない参考値です。</li><li>・公式採用ページの職種別レンジ例: プロダクトマネージャー 800〜1,200万円、QA・事業開発など 600〜1,200万円です。</li><li>・エンジニア職の等級別レンジは時期により変動しています。具体的な提示額は応募・面談で確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["Ubie 公式採用サイト（職種別年収レンジ）", "Ubie 技術発信（Zenn等のEngineering記事）", "OpenWork（口コミ傾向）"]} />
@@ -82,9 +82,9 @@ export default function UbieCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高め（要件主義・即戦力志向のスタートアップ）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・全社で<strong>Go・Node.js に技術を標準化</strong>。GoまたはNode.js／TypeScriptでのバックエンド・フロント実務経験を持つエンジニアに向く。</li>
-              <li>・<strong>年齢不問・要件主義</strong>を明示。年齢ではなく「求める要件を満たすか」で判断されるため、30代・40代でも要件が合えば十分対象になる。</li>
-              <li>・医療ドメイン×SaaSという<strong>社会性の高い領域</strong>。プロダクトの社会的インパクトに共感できる人に合う。</li>
+              <li>・全社で<strong>Go・Node.js に技術を標準化します</strong>。GoまたはNode.js／TypeScriptでのバックエンド・フロント実務経験を持つエンジニアに向きます。</li>
+              <li>・<strong>年齢不問・要件主義</strong>を明示します。年齢ではなく「求める要件を満たすか」で判断されるため、30代・40代でも要件が合えば十分対象になります。</li>
+              <li>・医療ドメイン×SaaSという<strong>社会性の高い領域です</strong>。プロダクトの社会的インパクトに共感できる人に合います。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">非上場のため全社平均年収の公式値はありません。公式採用ページの職種別レンジ（例：PdM 800〜1,200万円）が最も信頼できる目安です。逆に、確立された大企業の安定や明確な等級制度を最優先する人にはスタートアップ特有の変化の速さがミスマッチになり得ます。</p>
           </div>
@@ -123,7 +123,7 @@ export default function UbieCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下はUbieの公式採用ページ・技術発信（Zenn等のEngineering記事）で公開されている範囲の情報です。組織・プロダクトの拡大に伴い構成は変化するため、最新は公式発信・募集要項でご確認ください。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go / Node.js</strong>：全社で標準化されたバックエンドの主力。以前はKotlin等も使われていたが移行を進めた</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go / Node.js</strong>：全社で標準化されたバックエンドの主力です。以前はKotlin等も使われていたが移行を進めました</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>TypeScript / Next.js</strong>：フロントエンド開発の中心</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>gRPC</strong>：マイクロサービス間の通信に利用</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>GraphQL</strong>：外部・クライアント向けのAPIに利用</span></li>
@@ -174,7 +174,7 @@ export default function UbieCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、Ubieについて<strong>「事業の社会的意義への共感が高い」「裁量が大きく自律的に働ける」</strong>といった声が見られる一方、<strong>「スタートアップ特有の変化の速さや、組織・プロセスが整備途上の部分がある」</strong>といった指摘も見られます。プロダクトのミッションに共感できるかが定着の鍵になる傾向がうかがえます。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -193,8 +193,8 @@ export default function UbieCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>Go／Node.js／TypeScriptでのSaaS開発経験を持つミドルエンジニア</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>医療・ヘルスケアの社会的意義に共感できる</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>年齢ではなくスキルで評価される環境を求めている</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>医療・ヘルスケアの社会的意義に共感できます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>年齢ではなくスキルで評価される環境を求めています</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>変化の速い環境で自律的に動くのが得意</li>
               </ul>
             </div>
@@ -204,7 +204,7 @@ export default function UbieCompanyPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>確立された大企業の安定・明確な等級制度を最優先したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>使用技術を自由に選びたい（全社標準化との相性）</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>整備された制度・手厚い既存ドキュメントを前提に働きたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>年収の絶対額の最大化のみを判断軸にしている</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>年収の絶対額の最大化のみを判断軸にしています</li>
               </ul>
             </div>
           </div>
@@ -215,16 +215,16 @@ export default function UbieCompanyPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。医療×ITは規制・専門性が高く参入障壁がある一方、社会課題の大きさから成長が期待される領域で、Ubieはその代表的なスタートアップの一つです。</p>
             <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均であり、Ubieの公式職種別レンジ（例：PdM 800〜1,200万円）は職種によってこれを上回り得ますが、レンジには幅がある点に留意が必要です。</p>
-            <p>SIerやSESから自社プロダクト開発へ移りたいミドルにとって、Ubieのような技術標準化の進んだヘルステックは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWEB系への転職</Link>も参考になります。</p>
+            <p>SIerやSESから自社プロダクト開発へ移りたいミドルにとって、Ubieのような技術標準化の進んだヘルステックは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>も参考になります。</p>
           </div>
         </section>
 
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">Ubie転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強いです。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすいです。ミドル層の選択肢を広げやすいです。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強いです。カジュアル面談につながりやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">

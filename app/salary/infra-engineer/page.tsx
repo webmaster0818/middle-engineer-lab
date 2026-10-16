@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description: PAGE_DESC,
 };
 
-// 統計比較表（全て2026-07-07検証済み・出典付き）
+// 統計比較表（すべて2026-07-07検証済み・出典付き）
 const statRows = [
   { src: "賃金構造基本統計調査（令和7年）", seg: "その他の情報処理・通信技術者（運用・保守等を含む区分）", val: "609.8万円", def: "在職者の実支給額（月給×12＋賞与）", note: "インフラ運用・保守の実像に最も近い公的値" },
   { src: "賃金構造基本統計調査（令和7年）", seg: "システムコンサルタント・設計者（上流設計中心）", val: "889.0万円", def: "同上", note: "基盤設計など上流に進んだ場合の水準" },
@@ -104,7 +104,7 @@ export default function InfraEngineerSalaryPage() {
         {/* 直答 */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <p className="text-sm leading-7 text-slate-700 mb-2">
-            <strong>【直答】在職者の実像に最も近い公的値は609.8万円</strong>（令和7年賃金構造基本統計・運用/保守を含む区分・月給×12＋賞与）。求人サイトの「443万〜477万円」は求人票の提示額、「889万円」は基盤設計など上流区分の平均です。<strong>どの数字も嘘ではなく、測っている母集団が違うだけ</strong>——本記事でその構造を一次データで分解します。
+            <strong>【直答】在職者の実像に最も近い公的値は609.8万円です</strong>（令和7年賃金構造基本統計・運用/保守を含む区分・月給×12＋賞与）。求人サイトの「443万〜477万円」は求人票の提示額、「889万円」は基盤設計など上流区分の平均です。<strong>どの数字も嘘ではなく、測っている母集団が違うだけ</strong>——本記事でその構造を一次データで分解します。
           </p>
           <p className="text-xs text-slate-400">数値はすべて2026年7月7日に一次資料（e-Stat・厚労省job tag・各社公表ページ）で検証済み。</p>
         </div>
@@ -179,7 +179,7 @@ export default function InfraEngineerSalaryPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: 令和7年賃金構造基本統計調査 職種別第5表（男女計・企業規模計・一般労働者）。年収換算＝きまって支給する現金給与額×12＋年間賞与その他特別給与額。2026年7月7日にe-Stat原本から算出。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: 令和7年賃金構造基本統計調査 職種別第5表（男女計・企業規模計・一般労働者）。年収換算＝きまって支給する現金給与額×12＋年間賞与その他特別給与額です。2026年7月7日にe-Stat原本から算出します。</p>
           <p className="text-sm leading-7 text-slate-600 mt-4">
             この表が示すミドル世代の分水嶺は明確です。<strong>40代前半で、運用・保守中心なら680.5万円、基盤の上流設計に進んでいれば1,189.0万円</strong>——同じ「インフラ出身」でも役割で500万円以上の差がつきます。実務でこの境界を越える定番ルートがクラウド設計（AWS/Azure）・IaC・SREへの越境です（<Link href="/salary/tech-stack-salary/" className="text-petrol-deep underline">技術スタック別年収</Link>・<Link href="/salary/skill-ranking/" className="text-petrol-deep underline">スキル別ランキング</Link>）。
           </p>
@@ -189,13 +189,13 @@ export default function InfraEngineerSalaryPage() {
         <section className="mb-12">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルレベル別の分布（厚労省 job tag掲載・ITSSレベル別）</h2>
           <p className="text-sm leading-7 text-slate-600 mb-3">
-            job tag（基盤システム）にはITSSレベル別の年収分布（第1〜第3四分位）も掲載されています: レベル1〜2で420万〜620万円、レベル3で450万〜700万円、レベル4で500万〜780万円、レベル5以上で600万〜950万円（厚労省2023年度委託調査・2026年7月7日確認）。<strong>レベル4（高度専門）以上に到達できるかが600万円台後半の壁を越える条件</strong>です。ハローワーク統計では有効求人倍率2.28倍（令和6年度）と、売り手市場が続いています。
+            job tag（基盤システム）にはITSSレベル別の年収分布（第1〜第3四分位）も掲載されています: レベル1〜2で420万〜620万円、レベル3で450万〜700万円、レベル4で500万〜780万円、レベル5以上で600万〜950万円です（厚労省2023年度委託調査・2026年7月7日確認）。<strong>レベル4（高度専門）以上に到達できるかが600万円台後半の壁を越える条件</strong>です。ハローワーク統計では有効求人倍率2.28倍（令和6年度）と、売り手市場が続いています。
           </p>
         </section>
 
         <TechgoCta
           heading="「運用から上流へ」の市場価値、いま何万円か確認しませんか"
-          note="テックゴーは年収アップ平均144万円（2026年3月の内定承諾者平均・公式公表）・年収アップ成功率86%（2026年3月の内定承諾者・公式公表）のIT特化エージェント。インフラ→クラウド設計・SREのキャリア相談も無料です。"
+          note="テックゴーは年収アップ平均144万円（2026年3月の内定承諾者平均・公式公表）・年収アップ成功率86%（2026年3月の内定承諾者・公式公表）のIT特化エージェントです。インフラ→クラウド設計・SREのキャリア相談も無料です。"
           buttonText="無料キャリア面談で市場価値を確認する（公式）"
         />
 
@@ -221,7 +221,7 @@ export default function InfraEngineerSalaryPage() {
           <div className="grid sm:grid-cols-2 gap-3">
             {[
               { href: "/salary/project-manager/", label: "プロジェクトマネージャーの年収（891.5万円の正体）" },
-              { href: "/salary/it-consultant/", label: "ITコンサルタントの年収（有報6社の実額）" },
+              { href: "/salary/it-consultant/", label: "ITコンサルタントの年収（有価証券報告書6社の実額）" },
               { href: "/salary/job-type-salary/", label: "IT職種別 年収ランキング（公表値準拠）" },
               { href: "/salary/age-salary/", label: "年代別エンジニア年収・転職難易度 早見表" },
               { href: "/salary/tech-stack-salary/", label: "技術スタック別 年収データ" },

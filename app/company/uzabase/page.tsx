@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/uzabase/" },
   title: "ユーザベース（UZABASE）エンジニア転職ガイド【2026年版】年収・技術・選考",
   description:
-    "ユーザベース（旧3991→3966）へのエンジニア転職を実データで解説。上場最終期付近の有価証券報告書の平均年収約760万円（全社員平均）、SPEEDA/NewsPicksの技術スタック（Elixir/Go/Next.js等）、選考、30代40代の現実までまとめました。",
+    "ユーザベース（旧3991→3966）へのエンジニア転職を実データで解説します。上場最終期付近の有価証券報告書の平均年収約760万円（全社員平均）、SPEEDA/NewsPicksの技術スタック（Elixir/Go/Next.js等）、選考、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -86,7 +86,7 @@ export default function UzabaseCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="ユーザベース エンジニア転職ガイド" description="ユーザベースへのエンジニア転職を実データで解説。上場最終期付近の有価証券報告書の平均年収約760万円（全社員平均）、SPEEDA/NewsPicksの技術スタック（Elixir/Go/Next.js等）、選考、30代40代の現実までまとめました。" url="/company/uzabase/" />
+      <ArticleJsonLd title="ユーザベース エンジニア転職ガイド" description="ユーザベースへのエンジニア転職を実データで解説します。上場最終期付近の有価証券報告書の平均年収約760万円（全社員平均）、SPEEDA/NewsPicksの技術スタック（Elixir/Go/Next.js等）、選考、30代40代の現実までまとめました。" url="/company/uzabase/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "Next.jsの転職ガイド", href: "/skill/nextjs/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ユーザベース" }]} />
 
@@ -98,7 +98,7 @@ export default function UzabaseCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ユーザベースの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ユーザベースの平均年間給与は約760万円です（2021年12月期 有価証券報告書・全社員平均、平均年齢33.0歳／上場最終期付近）。2023年2月の非公開化以降は同種数値の公開が限定されます。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約760万円（2021年12月期 有報）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2018年12月期の約670万円から上昇し、2020年12月期約797万円・2021年12月期約760万円（各期 有報）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表。提示額はスキル評価で個別決定されるため、個別求人・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 約760万円です（2021年12月期 有価証券報告書）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・推移は2018年12月期の約670万円から上昇し、2020年12月期約797万円・2021年12月期約760万円です（各期 有価証券報告書）。</li><li>・エンジニア職の公式な提示レンジは一次情報が乏しく非公表です。提示額はスキル評価で個別決定されるため、個別求人・面談で確認が必要です。</li></ul>
         </div>
 
         <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-sm text-amber-900 mb-6">
@@ -123,7 +123,7 @@ export default function UzabaseCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              ユーザベースは<strong>ElixirやGo、Next.jsなどモダンな技術で経済情報プラットフォームを開発する企業</strong>です。Web/SaaS開発の実務経験が前提で、難易度は中〜やや高。上場最終期付近の全社員平均年収は約760万円（2021年12月期 有報）でWeb系の中でも高めの水準でした。2023年のTOBで非公開化され、再上場を目指した改革フェーズにあります。
+              ユーザベースは<strong>ElixirやGo、Next.jsなどモダンな技術で経済情報プラットフォームを開発する企業</strong>です。Web/SaaS開発の実務経験が前提で、難易度は中〜やや高。上場最終期付近の全社員平均年収は約760万円（2021年12月期 有価証券報告書）でWeb系の中でも高めの水準でした。2023年のTOBで非公開化され、再上場を目指した改革フェーズにあります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Elixir/Go/TypeScript等での実務経験があり、経済・データ情報のプラットフォームに関心があるエンジニア</li>
@@ -158,7 +158,7 @@ export default function UzabaseCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2021年12月期 有価証券報告書（上場最終期付近）に基づく値（単体）。技術スタックはUzabase for Engineers等の公開情報（2026年6月時点で確認できる範囲）。非公開化以降の最新数値は公開が限定されます。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2021年12月期 有価証券報告書（上場最終期付近）に基づく値（単体）。技術スタックはUzabase for Engineers等の公開情報です（2026年6月時点で確認できる範囲）。非公開化以降の最新数値は公開が限定されます。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -192,7 +192,7 @@ export default function UzabaseCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>インフラ</strong>：GCP、AWS、Docker、Kubernetes 等のコンテナ技術</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: Uzabase for Engineers（tech.uzabase.com）等の公開記事。2026年6月時点で確認できる範囲。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: Uzabase for Engineers（tech.uzabase.com）等の公開記事。2026年6月時点で確認できる範囲です。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -272,9 +272,9 @@ export default function UzabaseCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ユーザベース転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。SaaS・スタートアップの求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。SaaS・スタートアップの求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

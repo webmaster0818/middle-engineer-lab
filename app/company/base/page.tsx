@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/base/" },
   title: "BASEの年収は平均700万円【2026年・有報】エンジニア転職・技術スタック",
   description:
-    "BASE（ベイス）のエンジニア中途採用を有価証券報告書・公式技術発信の一次情報で解説。平均年収700万円(2024年12月期)、PHP+Go・決済ドメイン、30代40代の現実を中立にまとめました。",
+    "BASE（ベイス）のエンジニア中途採用を有価証券報告書・公式技術発信の一次情報で解説します。平均年収700万円(2024年12月期)、PHP+Go・決済ドメイン、30代40代の現実を中立にまとめました。",
 };
 
 const toc = [
@@ -38,7 +38,7 @@ const salaryRows: [string, string][] = [
   ["平均年収（提出会社単体・全従業員）", "700万円"],
   ["対象年度", "2024年12月期（有価証券報告書）"],
   ["集計範囲", "エンジニア以外も含む全従業員平均"],
-  ["留意点", "転職集計サイトでは約758万円とする値もあるが、当ガイドは有報の数値を優先"],
+  ["留意点", "転職集計サイトでは約758万円とする値もあるが、当ガイドは有価証券報告書の数値を優先"],
 ];
 
 const faqs = [
@@ -57,7 +57,7 @@ export default function BaseCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="BASE エンジニア転職ガイド" description="BASEへのエンジニア転職を有価証券報告書・公式技術発信の一次情報で解説。平均年収700万円(2024年12月期)、PHP+Go・決済ドメイン、技術スタックをまとめました。" url="/company/base/" />
+      <ArticleJsonLd title="BASE エンジニア転職ガイド" description="BASEへのエンジニア転職を有価証券報告書・公式技術発信の一次情報で解説します。平均年収700万円(2024年12月期)、PHP+Go・決済ドメイン、技術スタックをまとめました。" url="/company/base/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "BASE" }]} />
 
@@ -72,7 +72,7 @@ export default function BaseCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】BASE（ベイス）の年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: BASE株式会社の平均年間給与は700万円です（2024年12月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 700万円（2024年12月期 有報・単体全従業員平均）。エンジニア以外も含む平均で、職種別・等級別の内訳は非開示です。</li><li>・転職集計サイトでは約758万円とする値もありますが、当ガイドは一次情報である有報の700万円を優先しています。</li><li>・職種別の年収レンジは公式に常時開示されていないため、提示は自分の経験レンジに対し個別交渉・確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年収 700万円です（2024年12月期 有価証券報告書・単体全従業員平均）。エンジニア以外も含む平均で、職種別・等級別の内訳は非開示です。</li><li>・転職集計サイトでは約758万円とする値もありますが、当ガイドは一次情報である有価証券報告書の700万円を優先しています。</li><li>・職種別の年収レンジは公式に常時開示されていないため、提示は自分の経験レンジに対し個別交渉・確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["BASE 有価証券報告書（2024年12月期）", "BASE 公式採用サイト・技術ブログ", "IRBANK", "OpenWork（口コミ傾向）"]} />
@@ -82,9 +82,9 @@ export default function BaseCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（PHP/Goの経験者・決済ドメイン志向に向く）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・主力サービスは<strong>PHP（CakePHP由来）</strong>、新規・決済領域は<strong>Go＋Next.js</strong>。既存資産の保守とモダン化の両方に関われる過渡期フェーズ。</li>
-              <li>・EC×決済×金融の<strong>決済ドメイン</strong>を複数プロダクトで持つ。可用性・セキュリティへの理解が活きる。</li>
-              <li>・有報の平均年収は<strong>700万円（2024年12月期・単体・全従業員平均）</strong>。グロース上場企業として事業フェーズに応じた評価。</li>
+              <li>・主力サービスは<strong>PHP（CakePHP由来）</strong>、新規・決済領域は<strong>Go＋Next.jsです</strong>。既存資産の保守とモダン化の両方に関われる過渡期フェーズです。</li>
+              <li>・EC×決済×金融の<strong>決済ドメイン</strong>を複数プロダクトで持ちます。可用性・セキュリティへの理解が活きます。</li>
+              <li>・有価証券報告書の平均年収は<strong>700万円です（2024年12月期・単体・全従業員平均）</strong>。グロース上場企業として事業フェーズに応じた評価です。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">逆に、レガシーに一切触れず最新スタックのみで開発したい人や、決済特有の厳格な品質要求を負担に感じる人は相性を見極める必要があります。</p>
           </div>
@@ -154,9 +154,9 @@ export default function BaseCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">BASEは選考フローの詳細な回数・内容を公式に網羅的には公開していません。創作した固定フローは掲載せず、一般的なWeb企業の中途採用で想定される大枠のみを示します。</p>
           <ol className="space-y-3">
             {[
-              ["STEP 1", "書類選考", "公式採用ページまたはエージェント経由で応募。職務経歴・実績を確認。"],
-              ["STEP 2", "面接（複数回）", "技術面接・カルチャーフィット面接を含む複数回が想定される。回数・形式は職種・時期で変動。"],
-              ["STEP 3", "内定", "条件提示。具体的な選考期間は公式に明示されていない。"],
+              ["STEP 1", "書類選考", "公式採用ページまたはエージェント経由で応募します。職務経歴・実績を確認します。"],
+              ["STEP 2", "面接（複数回）", "技術面接・カルチャーフィット面接を含む複数回が想定されます。回数・形式は職種・時期で変動しています。"],
+              ["STEP 3", "内定", "条件提示です。具体的な選考期間は公式に明示されていません。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -183,7 +183,7 @@ export default function BaseCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、BASEについて<strong>「決済・ECというドメインの面白さ」「フラットで自律的な開発文化」「技術選択に前向きな雰囲気」</strong>といった声が見られる一方、<strong>「グロース企業として事業フェーズの変化に伴う業務量の波がある」「既存サービスの技術的負債と向き合う場面がある」</strong>といった指摘も見られます。事業の成長性とレガシー対応の両面を踏まえた見極めが必要です。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
         </section>
 
         <section id="middle" className="mb-10">
@@ -202,16 +202,16 @@ export default function BaseCompanyPage() {
               <p className="font-bold text-green-800 text-sm mb-3">向いている人</p>
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>PHPまたはGoでのWebサービス開発経験者</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>既存資産の保守とモダン化の両立にやりがいを感じる</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>決済・金融・ECのドメインに興味がある</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>フラットで自律的な開発文化を好む</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>既存資産の保守とモダン化の両立にやりがいを感じます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>決済・金融・ECのドメインに興味があります</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>フラットで自律的な開発文化を好みます</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>レガシーに一切触れず最新スタックのみで開発したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>決済特有の厳格な品質要求を負担に感じる</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>決済特有の厳格な品質要求を負担に感じます</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>事業フェーズの変化や業務量の波を避けたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>大企業の安定した分業体制を最優先したい</li>
               </ul>
@@ -222,9 +222,9 @@ export default function BaseCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">BASE転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強い。技術面接対策のサポートが受けられる。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富。スタートアップ・グロース企業に強み。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けスカウト型。決済・フィンテックの上位ポジションに出会いやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で高年収・Web系求人に強いです。技術面接対策のサポートが受けられます。" }, { name: "Green", href: "/review/green/", desc: "Web系・自社開発企業の求人が豊富です。スタートアップ・グロース企業に強みがあります。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス向けスカウト型です。決済・フィンテックの上位ポジションに出会いやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">

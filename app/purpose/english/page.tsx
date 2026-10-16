@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/english/" },
   title: "英語を活かすエンジニア転職【外資・グローバル企業の年収】",
   description:
-    "英語力を活かせるエンジニア転職先を解説。外資系IT、グローバル企業、海外リモートの年収相場、必要な英語力レベル、転職成功事例を紹介します。",
+    "英語力を活かせるエンジニア転職先を解説します。外資系IT、グローバル企業、海外リモートの年収相場、必要な英語力レベル、転職成功事例を紹介します。",
 };
 
 const faqs = [
@@ -50,7 +50,7 @@ export default function EnglishPage() {
 
   return (
     <>
-      <ArticleJsonLd title="英語を活かすエンジニア転職【外資・グローバル企業の年収】" description="英語力を活かせるエンジニア転職先を解説。外資系IT、グローバル企業、海外リモートの年収相場、必要な英語力レベル、転職成功事例を紹介します。" url="/purpose/english/" />
+      <ArticleJsonLd title="英語を活かすエンジニア転職【外資・グローバル企業の年収】" description="英語力を活かせるエンジニア転職先を解説します。外資系IT、グローバル企業、海外リモートの年収相場、必要な英語力レベル、転職成功事例を紹介します。" url="/purpose/english/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "目的別ガイド", href: "/purpose/" }, { name: "英語を活かすエンジニア転職" }]} />
 
@@ -59,7 +59,7 @@ export default function EnglishPage() {
         <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | 英語力×エンジニアスキルで年収を最大化</p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- TOEIC 700点以上で英語力を活かしたい</li>
@@ -79,7 +79,7 @@ export default function EnglishPage() {
                   <th className="text-left px-4 py-3 font-medium text-slate-700">英語力レベル</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">年収レンジ</th>
                   <th className="text-left px-4 py-3 font-medium text-slate-700">応募可能企業</th>
-                  <th className="text-left px-4 py-3 font-medium text-slate-700">年収UP幅</th>
+                  <th className="text-left px-4 py-3 font-medium text-slate-700">年収アップ幅</th>
                 </tr>
               </thead>
               <tbody>
@@ -126,9 +126,9 @@ export default function EnglishPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "ロバート・ウォルターズ", point: "外資系IT専門。英語面接対策も充実。バイリンガルのアドバイザーが在籍。" },
-              { name: "エンワールド・ジャパン", point: "外資系・グローバル企業に特化。年収交渉力が高い。" },
-              { name: "ビズリーチ", point: "外資系からの直接スカウトが届く。ハイクラス求人が豊富。" },
+              { name: "ロバート・ウォルターズ", point: "外資系IT専門です。英語面接対策も充実しています。バイリンガルのアドバイザーが在籍しています。" },
+              { name: "エンワールド・ジャパン", point: "外資系・グローバル企業に特化しています。年収交渉力が高いです。" },
+              { name: "ビズリーチ", point: "外資系からの直接スカウトが届きます。ハイクラス求人が豊富です。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -164,9 +164,9 @@ export default function EnglishPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "日系→外資系IT転職ガイド", href: "/career/domestic-to-foreign/" },
-              { name: "年収UPしたいエンジニアの戦略", href: "/purpose/salary-up/" },
+              { name: "年収アップしたいエンジニアの戦略", href: "/purpose/salary-up/" },
               { name: "フルリモート勤務ガイド", href: "/purpose/remote-full/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

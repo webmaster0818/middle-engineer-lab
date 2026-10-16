@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/findy-vs-levtech/" },
   title: "Findyとレバテックの比較｜どっちがおすすめ？【2026年8月】",
   description:
-    "Findy（GitHub連携スカウト型）とレバテックキャリア（IT特化エージェント型）を評価軸・年収・サポート・対象層で比較。スカウトで待つか伴走してもらうか、30代40代エンジニアの選び方と併用術を解説します。",
+    "Findy（GitHub連携スカウト型）とレバテックキャリア（IT特化エージェント型）を評価軸・年収・サポート・対象層で比較します。スカウトで待つか伴走してもらうか、30代40代エンジニアの選び方と併用術を解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どっちがおすすめか" },
+  { id: "conclusion", label: "結論：どちらがおすすめか" },
   { id: "naming", label: "用語整理：この記事の「レバテック」とは" },
   { id: "basic", label: "基本データ比較表（2026年6月時点）" },
   { id: "type", label: "項目別比較①：仕組みの違い（スカウト型 vs エージェント型）" },
@@ -32,10 +32,10 @@ const comparison = [
   { item: "サービス名", a: "Findy", b: "レバテックキャリア（正社員転職エージェント）" },
   { item: "運営会社", a: "ファインディ株式会社（2016年創業）", b: "レバテック株式会社（レバレジーズグループ）" },
   { item: "サービス形態", a: "スカウト型（GitHub連携のスキル偏差値でマッチング）", b: "IT/Web特化の紹介型エージェント（専任アドバイザーが伴走）" },
-  { item: "動き方", a: "プロフィール・GitHubを整えてスカウトを待つ", b: "アドバイザーに希望を伝え、求人提案を受ける" },
-  { item: "求人・規模", a: "掲載企業800社以上を厳選（公式・2024年7月時点）。求人数は非明示", b: "公開求人 約5万件超（2026年5〜6月時点・複数転職メディア集計）" },
+  { item: "動き方", a: "プロフィール・GitHubを整えてスカウトを待ちます", b: "アドバイザーに希望を伝え、求人提案を受ける" },
+  { item: "求人・規模", a: "掲載企業800社以上を厳選します（公式・2024年7月時点）。求人数は非明示", b: "公開求人 約5万件超（2026年5〜6月時点・複数転職メディア集計）" },
   { item: "年収の傾向", a: "モダン言語の即戦力・Web自社開発の高年収帯", b: "公開求人の約8割が年収600万円以上（二次情報）" },
-  { item: "サポート", a: "USスタイルの壁打ち等。基本は自走", b: "IT業界に精通した専任アドバイザーが書類添削・面接対策・年収交渉まで伴走" },
+  { item: "サポート", a: "USスタイルの壁打ち等です。基本は自走", b: "IT業界に精通した専任アドバイザーが書類添削・面接対策・年収交渉まで伴走" },
   { item: "料金", a: "求職者は完全無料", b: "求職者は完全無料" },
 ];
 
@@ -45,7 +45,7 @@ const faqs = [
   { q: "年収アップを狙うならどちらがおすすめですか？", a: "レバテックキャリアは、内定承諾者のうち応募時年収との差が70万円以上だった人が『3人に2人』（2023年1月〜2024年3月実績の公式系数値）と公表し、公開求人の約8割が年収600万円以上（二次情報）です。年収交渉を任せたいならレバテックキャリアが堅実です。FindyはGitHub偏差値で高年収の自社開発企業からスカウトが届く可能性がありますが、交渉は自走が基本です。" },
   { q: "サポートを受けたいのですが、Findyでも相談できますか？", a: "Findyはエージェント型の伴走支援ではなく、USスタイルの自己アピールの壁打ち等が中心で、基本は自走です。書類添削・面接対策・年収交渉までしっかり任せたいならレバテックキャリアが向いています。スカウトの客観評価はFindy、選考の伴走はレバテックキャリア、と役割を分けて併用するのがおすすめです。" },
   { q: "GitHubの活動が少ないのですが、Findyでも使えますか？", a: "FindyはGitHubの公開活動を解析してスキル偏差値を出すため、活動が少ないとスカウトが届きにくい傾向があります。その場合は、求人提案を受けられるレバテックキャリアの方が動きやすいでしょう。公開リポジトリを整えるか、レバテックキャリアを主軸にする選択が現実的です。" },
-  { q: "30代・40代のエンジニアにはどちらが向いていますか？", a: "どちらも有効です。現役でコードを書く30〜40代はFindyのGitHub偏差値が武器になり、年齢より技術で評価されます。一方、書類添削や年収交渉をプロに任せたい、現場志向のキャリア相談をしたい場合はレバテックキャリアが向きます。レバテックキャリアは利用者の約80%が20〜30代（二次情報）とされ、30代と特に相性が良い設計です。" },
+  { q: "30代・40代のエンジニアにはどちらが向いていますか？", a: "どちらも有効です。現役でコードを書く30〜40代はFindyのGitHub偏差値が強みになり、年齢より技術で評価されます。一方、書類添削や年収交渉をプロに任せたい、現場志向のキャリア相談をしたい場合はレバテックキャリアが向きます。レバテックキャリアは利用者の約80%が20〜30代（二次情報）とされ、30代と特に相性が良い設計です。" },
   { q: "レバテックキャリアとレバテックフリーランスはどう違いますか？", a: "レバテックキャリアは正社員としての転職を支援するエージェントです。レバテックフリーランスは業務委託（フリーランス）案件を紹介するサービスで、対象も契約形態も異なります。本記事はFindy（スカウト型）と『レバテックキャリア（正社員エージェント）』の比較です。フリーランス志向の方は、フリーランス向けサービスの比較記事をご覧ください。" },
 ];
 
@@ -69,12 +69,12 @@ export default function FindyVsLevtechPage() {
 
   return (
     <>
-      <ArticleJsonLd title="Findyとレバテックの比較｜どっちがおすすめか" description="Findy（GitHub連携スカウト型）とレバテックキャリア（IT特化エージェント型）を評価軸・年収・サポート・対象層で比較。30代40代エンジニアの選び方を解説します。" url="/compare/findy-vs-levtech/" />
+      <ArticleJsonLd title="Findyとレバテックの比較｜どっちがおすすめか" description="Findy（GitHub連携スカウト型）とレバテックキャリア（IT特化エージェント型）を評価軸・年収・サポート・対象層で比較します。30代40代エンジニアの選び方を解説します。" url="/compare/findy-vs-levtech/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "Findy vs レバテックキャリア" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">Findyとレバテックを徹底比較｜どっちがおすすめ？</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">Findyとレバテックを比較｜どっちがおすすめ？</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ GitHub連携スカウト型 と IT特化エージェント型 を比較</p>
 
         <p className="text-slate-600 leading-relaxed mb-4">「Findy レバテック 比較」で検索する方の多くは、GitHub実績でスカウトを待つべきか、専任アドバイザーに伴走してもらうべきかで迷っています。本記事は30代・40代のITエンジニア向けに、両サービスを「仕組み」「年収・求人の質」「サポート」「対象層」で比較し、口コミ傾向と併用術まで整理しました。どちらも求職者は完全無料です。</p>
@@ -91,13 +91,13 @@ export default function FindyVsLevtechPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・GitHubの実績でスカウトを待ちたいなら「Findy」</strong>。スキル偏差値で実力を可視化し、企業から直接声がかかります。</li>
               <li><strong>・書類添削や年収交渉をプロに任せたいなら「レバテックキャリア」</strong>。IT特化の専任アドバイザーが伴走します。</li>
-              <li><strong>・迷うなら両方登録</strong>。Findyで市場価値を測り、レバテックキャリアで選考を伴走してもらう「受動×能動」が、30代・40代には合理的です。どちらも完全無料です。</li>
+              <li><strong>・迷うなら両方登録です</strong>。Findyで市場価値を測り、レバテックキャリアで選考を伴走してもらう「受動×能動」が、30代・40代には合理的です。どちらも完全無料です。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">なお本記事の「レバテック」は正社員転職の『レバテックキャリア』を指します。詳しくは次の用語整理をご覧ください。</p>
@@ -108,9 +108,9 @@ export default function FindyVsLevtechPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 text-sm text-slate-700">
             <p className="mb-2"><strong>レバテックには複数のサービスがあり、混同に注意が必要です。</strong></p>
             <ul className="space-y-2 list-disc pl-5">
-              <li><strong>レバテックキャリア</strong>＝正社員としての転職を支援するエージェント。<u>本記事で比較しているのはこれ</u>です。</li>
-              <li><strong>レバテックフリーランス</strong>＝業務委託（フリーランス）案件を紹介するサービス。契約形態が異なります。</li>
-              <li><strong>レバテックダイレクト</strong>＝企業から直接スカウトが届くスカウト型サービス（一般に未掲載求人を含む）。Findyと同じスカウト型ですが、本記事の比較対象はあくまで伴走型の『レバテックキャリア』です。</li>
+              <li><strong>レバテックキャリア</strong>＝正社員としての転職を支援するエージェントです。<u>本記事で比較しているのはこれ</u>です。</li>
+              <li><strong>レバテックフリーランス</strong>＝業務委託（フリーランス）案件を紹介するサービスです。契約形態が異なります。</li>
+              <li><strong>レバテックダイレクト</strong>＝企業から直接スカウトが届くスカウト型サービスです（一般に未掲載求人を含む）。Findyと同じスカウト型ですが、本記事の比較対象はあくまで伴走型の『レバテックキャリア』です。</li>
             </ul>
           </div>
         </section>
@@ -131,7 +131,7 @@ export default function FindyVsLevtechPage() {
           <p className="text-slate-600 leading-relaxed mb-4">FindyとレバテックキャリアはともにIT/Webエンジニアを対象としますが、転職の進み方が根本的に違います。Findyはスカウト型です。GitHubアカウントを連携し、公開リポジトリの活動を解析した「スキル偏差値」をもとに、企業から直接スカウトが届きます。プロフィールとコードを整えて待つスタイルで、コードで実力を示せる人ほど有利です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアはエージェント型です。IT業界に精通した専任アドバイザーに希望を伝えると、求人を提案してもらえます。書類添削・面接対策・年収交渉まで一貫して伴走してくれるため、自分で動くのが苦手な人や、選考対策をプロに任せたい人に向きます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>コードで実力を示して「待つ」ならFindy、プロに「伴走してもらう」ならレバテックキャリア。スカウト型全体の位置づけは<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービスのタイプ別マップ</Link>を、GitHub軸の比較は<Link href="/compare/findy-vs-forkwell/" className="text-petrol hover:underline">Findy vs Forkwell</Link>も参考にしてください。</p>
+            <p className="mb-2"><strong>まとめ：</strong>コードで実力を示して「待つ」ならFindy、プロに「伴走してもらう」ならレバテックキャリアです。スカウト型全体の位置づけは<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービスのタイプ別マップ</Link>を、GitHub軸の比較は<Link href="/compare/findy-vs-forkwell/" className="text-petrol hover:underline">Findy vs Forkwell</Link>も参考にしてください。</p>
           </div>
         </section>
 
@@ -154,7 +154,7 @@ export default function FindyVsLevtechPage() {
               <p className="text-sm text-slate-600 leading-relaxed">IT業界に精通した専任アドバイザーが書類添削・面接対策・年収交渉まで伴走します。LINEで連絡が完結する手軽さや、丁寧な選考対策が評価される一方、初回面談後の連絡が遅い場合があるという声も見られます（Qiita等）。</p>
             </div>
           </div>
-          <p className="text-slate-600 leading-relaxed text-sm">自走できるならFindy、伴走重視ならレバテックキャリア。<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">エージェントとの初回面談の進め方</Link>も参考にしてください。</p>
+          <p className="text-slate-600 leading-relaxed text-sm">自走できるならFindy、伴走重視ならレバテックキャリアです。<Link href="/knowledge/agent-first-meeting/" className="text-petrol hover:underline">エージェントとの初回面談の進め方</Link>も参考にしてください。</p>
         </section>
 
         <section id="target" className="mb-12 scroll-mt-20">
@@ -170,9 +170,9 @@ export default function FindyVsLevtechPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Findyの口コミ傾向</h3>
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>GitHub実績で客観評価される</li><li>掲載企業の質が高い</li><li>自己アピールの壁打ちができる</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>GitHub実績で客観評価されます</li><li>掲載企業の質が高い</li><li>自己アピールの壁打ちができる</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>GitHub活動が少ないとスカウトが来ない</li><li>地方求人が少ない</li><li>伴走サポートは薄め</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>GitHub活動が少ないとスカウトが来ないです</li><li>地方求人が少ない</li><li>伴走サポートは薄め</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：Qiita／みん評／各転職メディア集計</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -180,7 +180,7 @@ export default function FindyVsLevtechPage() {
               <p className="text-xs font-medium text-green-700 mb-1">良い評判</p>
               <ul className="text-sm text-slate-600 space-y-1 mb-3 list-disc pl-5"><li>書類添削・面接対策が丁寧</li><li>LINEで連絡が完結して手軽</li><li>高年収求人が多い</li></ul>
               <p className="text-xs font-medium text-rose-700 mb-1">気になる評判</p>
-              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>未経験者は紹介されにくい</li><li>初回面談後の連絡が遅い場合がある</li><li>首都圏中心</li></ul>
+              <ul className="text-sm text-slate-600 space-y-1 list-disc pl-5"><li>未経験者は紹介されにくいです</li><li>初回面談後の連絡が遅い場合があります</li><li>首都圏中心</li></ul>
               <p className="text-[11px] text-slate-400 mt-2">出典：OUTSIDEMAGAZINE／Qiita／イーデス等</p>
             </div>
           </div>
@@ -205,9 +205,9 @@ export default function FindyVsLevtechPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-4">
               {[
-                { num: "1", title: "Findyが向くケース", desc: "現役でコードを書き、GitHubに公開活動がある場合。スキル偏差値で市場価値を測り、届いたスカウトの質で立ち位置を確認します。" },
-                { num: "2", title: "レバテックキャリアが向くケース", desc: "書類添削や年収交渉をプロに任せたい、GitHub活動が少なく求人提案を受けたい場合。専任アドバイザーに伴走してもらいます。" },
-                { num: "3", title: "併用パターン（推奨）", desc: "Findyでスカウトを受けて市場価値を把握しつつ、レバテックキャリアで選考を伴走してもらう。客観評価と伴走支援を組み合わせ、最も有利な条件で意思決定します。" },
+                { num: "1", title: "Findyが向くケース", desc: "現役でコードを書き、GitHubに公開活動がある場合です。スキル偏差値で市場価値を測り、届いたスカウトの質で立ち位置を確認します。" },
+                { num: "2", title: "レバテックキャリアが向くケース", desc: "書類添削や年収交渉をプロに任せたい、GitHub活動が少なく求人提案を受けたい場合です。専任アドバイザーに伴走してもらいます。" },
+                { num: "3", title: "併用パターン（推奨）", desc: "Findyでスカウトを受けて市場価値を把握しつつ、レバテックキャリアで選考を伴走してもらいます。客観評価と伴走支援を組み合わせ、最も有利な条件で意思決定です。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -222,7 +222,7 @@ export default function FindyVsLevtechPage() {
         <section id="middle" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。経験を積んだ30代・40代エンジニアの市場価値は高く、Findyとレバテックキャリアはその価値を活かす手段として性格が異なります。</p>
-          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>現役でコードを書いているなら、FindyのGitHub偏差値が強い武器になります。同時に、レバテックキャリアは利用者の約80%が20〜30代（二次情報）で、技術スタックを理解したアドバイザーが現場志向のキャリア相談に乗ってくれます。市場価値の確認をFindy、選考対策をレバテックキャリア、と二段構えにすると視野が広がります。レバテック公表の年代別平均年収（2025年）では30代のSEは約499万円が一つの目安です。</p>
+          <p className="text-slate-600 leading-relaxed mb-4"><strong>30代エンジニアの場合：</strong>現役でコードを書いているなら、FindyのGitHub偏差値が強い強みになります。同時に、レバテックキャリアは利用者の約80%が20〜30代（二次情報）で、技術スタックを理解したアドバイザーが現場志向のキャリア相談に乗ってくれます。市場価値の確認をFindy、選考対策をレバテックキャリア、と二段構えにすると視野が広がります。レバテック公表の年代別平均年収（2025年）では30代のSEは約499万円が一つの目安です。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>40代エンジニアの場合：</strong>40代でもGitHubが活発であれば、Findyは年齢より技術で評価してくれます。一方、書類段階で年齢を理由に苦戦することもあるため、推薦状を書いて伴走してくれるレバテックキャリアのアドバイザー支援を併せて確保しておくと安心です。年収1,000万円以上の割合は40代で12.67%（レバテック公表・2025年）とされ、上限を狙える層でもあります。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>もあわせてご覧ください。</p>
         </section>
 
@@ -242,7 +242,7 @@ export default function FindyVsLevtechPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">「スカウト×伴走」の両輪でIT転職を有利に</h2>
-          <p className="text-blue-100 text-sm mb-4">Findyで市場価値を測り、レバテックキャリアで選考を伴走してもらう。30代・40代エンジニアの年収アップに合理的なルートです。どちらも無料です。</p>
+          <p className="text-blue-100 text-sm mb-4">Findyで市場価値を測り、レバテックキャリアで選考を伴走してもらいます。30代・40代エンジニアの年収アップに合理的なルートです。どちらも無料です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 
@@ -254,7 +254,7 @@ export default function FindyVsLevtechPage() {
               { name: "Forkwell vs レバテック 比較", href: "/compare/forkwell-vs-levtech/" },
               { name: "Findy vs Forkwell 比較", href: "/compare/findy-vs-forkwell/" },
               { name: "レバテックキャリア vs Geekly比較", href: "/compare/levtech-vs-geekly/" },
-              { name: "スカウト型サービス徹底比較", href: "/compare/scout-agents/" },
+              { name: "スカウト型サービス比較", href: "/compare/scout-agents/" },
               { name: "レバテック vs doda 比較", href: "/compare/levtech-vs-doda/" },
               { name: "ビズリーチ vs レバテック 比較", href: "/compare/bizreach-vs-levtech/" },
               { name: "IT転職エージェント10社比較", href: "/compare/agents/" },

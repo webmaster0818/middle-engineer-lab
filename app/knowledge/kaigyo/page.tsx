@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "開業届の出し方【フリーランスエンジニア転向】";
 const DESCRIPTION =
-  "会社員エンジニアからフリーランスへ転向する際の開業届の出し方を、提出期限・提出先・青色申告承認申請との同時提出・必要書類まで国税庁の公式情報に基づいて解説。30代・40代が独立初期につまずかないための実務ガイドです。";
+  "会社員エンジニアからフリーランスへ転向する際の開業届の出し方を、提出期限・提出先・青色申告承認申請との同時提出・必要書類まで国税庁の公式情報に基づいて解説します。30代・40代が独立初期につまずかないための実務ガイドです。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/kaigyo/" },
@@ -109,7 +109,7 @@ export default function KaigyoPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】開業届はどう出せばいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 開業届（個人事業の開業・廃業等届出書）は事業開始から1か月以内に、納税地を所轄する税務署へ提出します。提出は無料で、「所得税の青色申告承認申請書」を同時に出すのが得策です（国税庁）。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・提出はe-Tax・郵送・税務署窓口のいずれでも可能で、手数料はかからない</li><li>・青色申告なら最大65万円の特別控除や赤字の繰越しが使える</li><li>・青色申告承認申請の期限は原則その年の3月15日、1月16日以後の開業はその日から2か月以内</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・提出はe-Tax・郵送・税務署窓口のいずれでも可能で、手数料はかかりません</li><li>・青色申告なら最大65万円の特別控除や赤字の繰越しが使えます</li><li>・青色申告承認申請の期限は原則その年の3月15日、1月16日以後の開業はその日から2か月以内</li></ul>
           </div>
         </section>
 
@@ -147,7 +147,7 @@ export default function KaigyoPage() {
               開業届（個人事業の開業・廃業等届出書）は、<strong>事業開始から1か月以内に、納税地を所轄する税務署へ提出</strong>します（国税庁）。提出自体は無料で、e-Tax・郵送・窓口のいずれでも可能です。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              ポイントは、<strong>「所得税の青色申告承認申請書」を同時に提出すること</strong>。青色申告なら最大65万円の特別控除や赤字の繰越しが使えます。承認申請には期限（原則その年の3月15日、1月16日以後の開業はその日から2か月以内）があるため、独立したらまとめて手続きするのが得策です。
+              ポイントは、<strong>「所得税の青色申告承認申請書」を同時に提出することが重要です</strong>。青色申告なら最大65万円の特別控除や赤字の繰越しが使えます。承認申請には期限（原則その年の3月15日、1月16日以後の開業はその日から2か月以内）があるため、独立したらまとめて手続きするのが得策です。
             </p>
           </div>
         </section>

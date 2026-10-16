@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/freelance-vs-fulltime/" },
   title: "フリーランスvs正社員｜エンジニアの税・保険・信用の違いと判断軸",
   description:
-    "エンジニアのフリーランスと正社員を比較。税金・社会保険・社会的信用の違い、年収データ、判断フレームワークを30代・40代向けに解説。後悔しない働き方選びの軸を整理します。",
+    "エンジニアのフリーランスと正社員を比較します。税金・社会保険・社会的信用の違い、年収データ、判断フレームワークを30代・40代向けに解説します。後悔しない働き方選びの軸を整理します。",
 };
 
 const faqs = [
@@ -47,9 +47,9 @@ const faqs = [
 ];
 
 const compareRows = [
-  { item: "報酬の決まり方", free: "案件単価×稼働。スキル・実績で変動", full: "給与テーブル・等級で安定" },
-  { item: "社会保険", free: "国民年金・国保が基本。全額自己負担", full: "厚生年金・健保。会社が半額負担" },
-  { item: "税金", free: "確定申告が必要。経費計上が可能", full: "源泉徴収・年末調整が基本" },
+  { item: "報酬の決まり方", free: "案件単価×稼働です。スキル・実績で変動", full: "給与テーブル・等級で安定" },
+  { item: "社会保険", free: "国民年金・国保が基本です。全額自己負担", full: "厚生年金・健保です。会社が半額負担" },
+  { item: "税金", free: "確定申告が必要です。経費計上が可能", full: "源泉徴収・年末調整が基本" },
   { item: "退職金・賞与", free: "なし（共済等で自助）", full: "あり（企業による）" },
   { item: "有給・休暇", free: "休み=収入減になりやすい", full: "有給制度あり" },
   { item: "社会的信用", free: "ローン・賃貸審査で実績年数を要する傾向", full: "比較的通りやすい" },
@@ -59,9 +59,9 @@ const compareRows = [
 ];
 
 const taxPoints = [
-  { title: "社会保険（厚生年金・健保 vs 国民年金・国保）", desc: "正社員は厚生年金・健康保険で保険料を労使折半。フリーランスは国民年金・国民健康保険が基本で全額自己負担。将来の年金額や傷病時の保障にも差が出るため、iDeCo・付加年金・国民年金基金などで補う検討が必要。" },
-  { title: "税金（年末調整 vs 確定申告）", desc: "正社員は会社が源泉徴収・年末調整を行う。フリーランスは自分で確定申告し、経費を計上できる一方、帳簿付け・納税の管理は自己責任。税の取り扱いは状況で異なるため、税理士・税務署への確認が安全。" },
-  { title: "信用（ローン・賃貸・カード）", desc: "フリーランスは収入の安定性の証明が難しく、住宅ローンでは開業後の実績年数を求められる傾向。住宅購入・引っ越し・大型ローンの予定がある場合は、正社員のうちに済ませる選択も。" },
+  { title: "社会保険（厚生年金・健保 vs 国民年金・国保）", desc: "正社員は厚生年金・健康保険で保険料を労使折半です。フリーランスは国民年金・国民健康保険が基本で全額自己負担です。将来の年金額や傷病時の保障にも差が出るため、iDeCo・付加年金・国民年金基金などで補う検討が必要です。" },
+  { title: "税金（年末調整 vs 確定申告）", desc: "正社員は会社が源泉徴収・年末調整を行います。フリーランスは自分で確定申告し、経費を計上できる一方、帳簿付け・納税の管理は自己責任です。税の取り扱いは状況で異なるため、税理士・税務署への確認が安全です。" },
+  { title: "信用（ローン・賃貸・カード）", desc: "フリーランスは収入の安定性の証明が難しく、住宅ローンでは開業後の実績年数を求められる傾向です。住宅購入・引っ越し・大型ローンの予定がある場合は、正社員のうちに済ませる選択も。" },
 ];
 
 export default function FreelanceVsFulltimePage() {
@@ -79,7 +79,7 @@ export default function FreelanceVsFulltimePage() {
     <>
       <ArticleJsonLd
         title="フリーランスvs正社員｜エンジニアの税・保険・信用の違いと判断軸"
-        description="エンジニアのフリーランスと正社員を比較。税金・社会保険・社会的信用の違い、年収データ、判断フレームワークを30代・40代向けに解説します。"
+        description="エンジニアのフリーランスと正社員を比較します。税金・社会保険・社会的信用の違い、年収データ、判断フレームワークを30代・40代向けに解説します。"
         url="/knowledge/freelance-vs-fulltime/"
       />
       <script
@@ -115,7 +115,7 @@ export default function FreelanceVsFulltimePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】エンジニアはフリーランスと正社員のどちらを選ぶべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 額面の単価だけで比べず、「手取り・保障・信用」の合計で比較するのが後悔しない判断の近道です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・フリーランスは社会保険料・税金・経費が自己負担で、退職金や有給もない</li><li>・正社員は社会保険の会社負担や福利厚生など、額面に表れない価値がある</li><li>・レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円</li><li>・まず正社員としての市場価値を把握し、フリーランスの想定単価と手取り・保障・信用の差を並べて比較する</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・フリーランスは社会保険料・税金・経費が自己負担で、退職金や有給もない</li><li>・正社員は社会保険の会社負担や福利厚生など、額面に表れない価値があります</li><li>・レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円</li><li>・まず正社員としての市場価値を把握し、フリーランスの想定単価と手取り・保障・信用の差を並べて比較します</li></ul>
           </div>
         </section>
 
@@ -127,7 +127,7 @@ export default function FreelanceVsFulltimePage() {
               フリーランスと正社員は、<strong>額面の単価だけで比べると判断を誤ります</strong>。フリーランスは社会保険料・税金・経費が自己負担で、退職金や有給もありません。正社員は社会保険の会社負担や福利厚生など、額面に表れない価値があります。
             </p>
             <p className="text-sm text-blue-900 leading-relaxed">
-              レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円。<strong>まずは正社員としての市場価値を把握し、フリーランスの想定単価と手取り・保障・信用の差を並べて比較</strong>するのが、後悔しない判断の近道です。
+              レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円です。<strong>まずは正社員としての市場価値を把握し、フリーランスの想定単価と手取り・保障・信用の差を並べて比較</strong>するのが、後悔しない判断の近道です。
             </p>
           </div>
         </section>
@@ -224,11 +224,11 @@ export default function FreelanceVsFulltimePage() {
           </p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "正社員としての市場価値を把握する", desc: "転職エージェントに登録し、現在のスキルで提示される年収レンジを確認する。これが比較の基準になる。" },
-              { num: "2", title: "フリーランスの想定手取りを試算する", desc: "想定単価から社会保険料・税・経費・稼働できない期間を差し引いた『実質手取り』を見積もる。額面ではなく手取りで比べる。" },
-              { num: "3", title: "ライフイベントの予定を確認する", desc: "住宅購入・ローン・引っ越し・教育費など、社会的信用や安定収入が必要なイベントの予定を洗い出す。" },
-              { num: "4", title: "リスク許容度を整理する", desc: "案件が途切れた場合に何か月持ちこたえられるか、貯蓄・家族構成から逆算する。" },
-              { num: "5", title: "戻れる前提を確保する", desc: "正社員に戻る選択肢を残すなら、実績の言語化とスキルの陳腐化対策をしておく。" },
+              { num: "1", title: "正社員としての市場価値を把握する", desc: "転職エージェントに登録し、現在のスキルで提示される年収レンジを確認します。これが比較の基準になります。" },
+              { num: "2", title: "フリーランスの想定手取りを試算する", desc: "想定単価から社会保険料・税・経費・稼働できない期間を差し引いた『実質手取り』を見積もる。額面ではなく手取りで比べます。" },
+              { num: "3", title: "ライフイベントの予定を確認する", desc: "住宅購入・ローン・引っ越し・教育費など、社会的信用や安定収入が必要なイベントの予定を洗い出します。" },
+              { num: "4", title: "リスク許容度を整理する", desc: "案件が途切れた場合に何か月持ちこたえられるか、貯蓄・家族構成から逆算します。" },
+              { num: "5", title: "戻れる前提を確保する", desc: "正社員に戻る選択肢を残すなら、実績の言語化とスキルの陳腐化対策をしておきます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -253,10 +253,10 @@ export default function FreelanceVsFulltimePage() {
             <div className="border border-[var(--line)] rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-3">フリーランス向き</h3>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li className="flex gap-2"><span className="text-petrol">✓</span>特定技術に深い専門性がある</li>
-                <li className="flex gap-2"><span className="text-petrol">✓</span>自己管理・自己投資ができる</li>
-                <li className="flex gap-2"><span className="text-petrol">✓</span>住宅ローン等は既に組み終えている</li>
-                <li className="flex gap-2"><span className="text-petrol">✓</span>収入変動に耐える貯蓄・余裕がある</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>特定技術に深い専門性があります</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>自己管理・自己投資ができます</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>住宅ローン等は既に組み終えています</li>
+                <li className="flex gap-2"><span className="text-petrol">✓</span>収入変動に耐える貯蓄・余裕があります</li>
                 <li className="flex gap-2"><span className="text-petrol">✓</span>技術に集中したい・社内政治を避けたい</li>
               </ul>
             </div>
@@ -264,10 +264,10 @@ export default function FreelanceVsFulltimePage() {
               <h3 className="font-bold text-green-800 mb-3">正社員向き</h3>
               <ul className="space-y-2 text-sm text-slate-600">
                 <li className="flex gap-2"><span className="text-green-600">✓</span>安定収入が必要な家族構成</li>
-                <li className="flex gap-2"><span className="text-green-600">✓</span>住宅ローン・大型ローンの予定がある</li>
+                <li className="flex gap-2"><span className="text-green-600">✓</span>住宅ローン・大型ローンの予定があります</li>
                 <li className="flex gap-2"><span className="text-green-600">✓</span>マネジメント・組織づくりに携わりたい</li>
-                <li className="flex gap-2"><span className="text-green-600">✓</span>福利厚生・保障を重視する</li>
-                <li className="flex gap-2"><span className="text-green-600">✓</span>CTO/VPoEなど社内キャリアを目指す</li>
+                <li className="flex gap-2"><span className="text-green-600">✓</span>福利厚生・保障を重視します</li>
+                <li className="flex gap-2"><span className="text-green-600">✓</span>CTO/VPoEなど社内キャリアを目指します</li>
               </ul>
             </div>
           </div>
@@ -279,15 +279,15 @@ export default function FreelanceVsFulltimePage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：ライフイベントとの兼ね合いを最優先に</h3>
-              <p className="text-sm text-petrol-deep">結婚・出産・住宅購入が重なりやすい時期。社会的信用が必要なイベントの予定があるなら、正社員のうちに済ませてからフリーランスを検討する人が多い。需要面では経産省が2019年に公表した試算で2030年に最大約79万人のIT人材不足とされ、転向の選択肢自体は取りやすい環境。</p>
+              <p className="text-sm text-petrol-deep">結婚・出産・住宅購入が重なりやすい時期です。社会的信用が必要なイベントの予定があるなら、正社員のうちに済ませてからフリーランスを検討する人が多いです。需要面では経産省が2019年に公表した試算で2030年に最大約79万人のIT人材不足とされ、転向の選択肢自体は取りやすい環境です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：経験の市場性とリスク許容度の見極め</h3>
-              <p className="text-sm text-petrol-deep">設計・テックリード・大規模改修などシニアの経験が評価されやすい一方、案件の波や契約途切れのリスクへの備えも重要。複数エージェントへの登録と、早めの次案件探しで安定性を補える。正社員に戻る道も残しておくと安心。</p>
+              <p className="text-sm text-petrol-deep">設計・テックリード・大規模改修などシニアの経験が評価されやすい一方、案件の波や契約途切れのリスクへの備えも重要です。複数エージェントへの登録と、早めの次案件探しで安定性を補えます。正社員に戻る道も残しておくと安心です。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年金・保障の長期設計</h3>
-              <p className="text-sm text-petrol-deep">フリーランスは厚生年金がなく将来の年金額に差が出やすい。iDeCo・国民年金基金・小規模企業共済などで長期の保障を自分で設計する視点が、30代・40代では特に重要になる。</p>
+              <p className="text-sm text-petrol-deep">フリーランスは厚生年金がなく将来の年金額に差が出やすいです。iDeCo・国民年金基金・小規模企業共済などで長期の保障を自分で設計する視点が、30代・40代では特に重要になります。</p>
             </div>
           </div>
         </section>

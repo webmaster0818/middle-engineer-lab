@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "エンジニアの燃え尽き症候群と転職判断｜休職と転職の見極め方";
 const DESCRIPTION =
-  "エンジニアの燃え尽き症候群（バーンアウト）のサインをセルフチェック。休職と転職の判断基準、「逃げの転職」の考え方を30代・40代向けに解説します。専門医・産業医への相談前提でまとめました。";
+  "エンジニアの燃え尽き症候群（バーンアウト）のサインをセルフチェックです。休職と転職の判断基準、「逃げの転職」の考え方を30代・40代向けに解説します。専門医・産業医への相談前提でまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/burnout/" },
@@ -26,12 +26,12 @@ const toc = [
 ];
 
 const signs = [
-  { num: "1", title: "慢性的な疲労感", desc: "十分に睡眠を取っても疲れが取れない。週末も回復できず、月曜日がつらい状態が数週間続く。" },
-  { num: "2", title: "仕事への無関心・冷笑", desc: "以前は興味があった技術やプロダクトに関心が持てない。「どうせ変わらない」という諦めが強くなる。" },
-  { num: "3", title: "達成感の低下", desc: "何を成し遂げても満たされない。自分の仕事に意味を感じられず、有能感が下がる。" },
-  { num: "4", title: "集中力・判断力の低下", desc: "以前なら半日で終わるタスクに丸一日かかる。ケアレスミスが増える。" },
-  { num: "5", title: "身体のサイン", desc: "頭痛、胃腸の不調、不眠、動悸、肩こりなど身体に変化が出る。これは受診を検討すべき重要なサインです。" },
-  { num: "6", title: "プライベートへの影響", desc: "趣味を楽しめない、家族との時間に集中できない、休日も仕事のことが頭から離れない。" },
+  { num: "1", title: "慢性的な疲労感", desc: "十分に睡眠を取っても疲れが取れません。週末も回復できず、月曜日がつらい状態が数週間続きます。" },
+  { num: "2", title: "仕事への無関心・冷笑", desc: "以前は興味があった技術やプロダクトに関心が持てません。「どうせ変わらない」という諦めが強くなります。" },
+  { num: "3", title: "達成感の低下", desc: "何を成し遂げても満たされません。自分の仕事に意味を感じられず、有能感が下がります。" },
+  { num: "4", title: "集中力・判断力の低下", desc: "以前なら半日で終わるタスクに丸一日かかります。ケアレスミスが増えます。" },
+  { num: "5", title: "身体のサイン", desc: "頭痛、胃腸の不調、不眠、動悸、肩こりなど身体に変化が出ます。これは受診を検討すべき重要なサインです。" },
+  { num: "6", title: "プライベートへの影響", desc: "趣味を楽しめない、家族との時間に集中できない、休日も仕事のことが頭から離れません。" },
 ];
 
 const causes = [
@@ -119,7 +119,7 @@ export default function BurnoutPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】燃え尽きたら、休職と転職どちらを選ぶべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: まず休息・受診を最優先し、原因が「環境」にあって半年以上改善しないなら転職を検討する、という順番が安全です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・不眠・頭痛・動悸などの身体症状があるなら、転職より先に専門医・産業医の受診を優先する</li><li>・原因が「一時的」か「環境」かを切り分け、環境要因で半年以上改善しないなら転職が現実的な選択肢</li><li>・疲弊した状態での即決は避け、「逃げたい」を「次に向かいたい方向」に翻訳してから動く</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・不眠・頭痛・動悸などの身体症状があるなら、転職より先に専門医・産業医の受診を優先します</li><li>・原因が「一時的」か「環境」かを切り分け、環境要因で半年以上改善しないなら転職が現実的な選択肢</li><li>・疲弊した状態での即決は避け、「逃げたい」を「次に向かいたい方向」に翻訳してから動きます</li></ul>
           </div>
         </section>
 
@@ -165,7 +165,7 @@ export default function BurnoutPage() {
               <strong>(3)環境が原因で半年以上改善しないなら転職を検討</strong>、という流れが安全です。
             </p>
             <p className="text-sm text-blue-800 leading-relaxed">
-              疲弊した状態での即決は後悔の元。「逃げたい」を「次に向かいたい方向」に翻訳できてから動くことで、同じ失敗を繰り返さずに済みます。判断に迷う段階では、医療は専門医・産業医、キャリアはエージェントと、相談先を分けて使うのがおすすめです。
+              疲弊した状態での即決は後悔の元です。「逃げたい」を「次に向かいたい方向」に翻訳できてから動くことで、同じ失敗を繰り返さずに済みます。判断に迷う段階では、医療は専門医・産業医、キャリアはエージェントと、相談先を分けて使うのがおすすめです。
             </p>
           </div>
         </section>
@@ -250,19 +250,19 @@ export default function BurnoutPage() {
           <div className="space-y-4">
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">STEP 1. 身体症状があるか</h3>
-              <p className="text-sm text-slate-600">不眠・頭痛・動悸・強い気分の落ち込みなどがある場合は、転職を考える前に<strong>専門医・産業医を受診</strong>。必要に応じて休養や休職の判断は医師に委ねます。</p>
+              <p className="text-sm text-slate-600">不眠・頭痛・動悸・強い気分の落ち込みなどがある場合は、転職を考える前に<strong>専門医・産業医を受診します</strong>。必要に応じて休養や休職の判断は医師に委ねます。</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">STEP 2. 原因は「一時的」か「環境」か</h3>
-              <p className="text-sm text-slate-600">繁忙期や特定プロジェクト由来の一時的なものなら、休養・配置調整で回復する可能性が高い。長時間労働・評価制度・人間関係など<strong>構造的な要因</strong>なら、環境を変える方が根本解決に近づきます。</p>
+              <p className="text-sm text-slate-600">繁忙期や特定プロジェクト由来の一時的なものなら、休養・配置調整で回復する可能性が高いです。長時間労働・評価制度・人間関係など<strong>構造的な要因</strong>なら、環境を変える方が根本解決に近づきます。</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">STEP 3. 社内で改善を試みたか</h3>
-              <p className="text-sm text-slate-600">上司への相談、業務量の調整、部署異動の打診などを試す。これらを<strong>半年程度試しても改善しない</strong>なら、転職が現実的な選択肢になります。</p>
+              <p className="text-sm text-slate-600">上司への相談、業務量の調整、部署異動の打診などを試します。これらを<strong>半年程度試しても改善しない</strong>なら、転職が現実的な選択肢になります。</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">STEP 4. 回復してから転職活動を本格化</h3>
-              <p className="text-sm text-slate-600">心身が落ち着いてから、または負荷の低い「登録だけ」の状態で情報収集を始める。疲弊したままの即決は避けます。</p>
+              <p className="text-sm text-slate-600">心身が落ち着いてから、または負荷の低い「登録だけ」の状態で情報収集を始めます。疲弊したままの即決は避けます。</p>
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-300 rounded-lg p-4 mt-4">
@@ -276,7 +276,7 @@ export default function BurnoutPage() {
         <section id="escape" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">「逃げの転職」をどう考えるか</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            「逃げの転職は良くない」とよく言われますが、つらい環境から離れること自体は正当な自己防衛です。問題は、<strong>「逃げたい」だけで決めると、同じ不満を別の会社で繰り返しやすい</strong>こと。下のように「逃げたい理由」を「向かいたい方向」に翻訳できれば、それは前向きな転職になります。
+            「逃げの転職は良くない」とよく言われますが、つらい環境から離れること自体は正当な自己防衛です。問題は、<strong>「逃げたい」だけで決めると、同じ不満を別の会社で繰り返しやすい</strong>ことです。下のように「逃げたい理由」を「向かいたい方向」に翻訳できれば、それは前向きな転職になります。
           </p>
           <div className="space-y-4 mb-6">
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
@@ -313,7 +313,7 @@ export default function BurnoutPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 裁量とコントロール感を確認する</h3>
-              <p className="text-sm text-petrol-deep">バーンアウトの一因は「自分で決められない」こと。意思決定にどこまで関われるか、設計や進め方の裁量があるかを確認しましょう。</p>
+              <p className="text-sm text-petrol-deep">バーンアウトの一因は「自分で決められない」ことです。意思決定にどこまで関われるか、設計や進め方の裁量があるかを確認しましょう。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. マネジメントと心理的安全性を見る</h3>
@@ -321,7 +321,7 @@ export default function BurnoutPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 第三者の客観情報を併用する</h3>
-              <p className="text-sm text-petrol-deep">口コミサイトの傾向やエージェントが持つ内部情報を、自分の印象と突き合わせる。<Link href="/knowledge/regret/" className="text-petrol hover:underline">入社前チェックリスト</Link>も活用しましょう。</p>
+              <p className="text-sm text-petrol-deep">口コミサイトの傾向やエージェントが持つ内部情報を、自分の印象と突き合わせます。<Link href="/knowledge/regret/" className="text-petrol hover:underline">入社前チェックリスト</Link>も活用しましょう。</p>
             </div>
           </div>
         </section>

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "情報処理安全確保支援士は転職に有利？年収・合格率・維持費【2026年】";
 const PAGE_DESC =
-  "情報処理安全確保支援士（登録セキスペ）は30代・40代の転職で有利か。IPAの合格率、経産省データの年収、登録維持費まで正直に解説。『実務×国家資格』でセキュリティ人材としての信頼性を高める活かし方をまとめました。";
+  "情報処理安全確保支援士（登録セキスペ）は30代・40代の転職で有利か。IPAの合格率、経産省データの年収、登録維持費まで解説します。『実務×国家資格』でセキュリティ人材としての信頼性を高める活かし方をまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/security-specialist/" },
@@ -17,20 +17,20 @@ export const metadata: Metadata = {
 const toc = [
   { id: "conclusion", label: "結論：実務がある経験者に効く国家資格" },
   { id: "overview", label: "試験概要・合格率" },
-  { id: "cost", label: "登録維持費（正直に）" },
+  { id: "cost", label: "登録維持費" },
   { id: "salary", label: "保有者の年収相場" },
   { id: "scene", label: "転職で評価される場面" },
   { id: "jobs", label: "求人で求められる要件" },
   { id: "kakezan", label: "30-40代の価値＝実務×国家資格" },
   { id: "steps", label: "取得3ステップ・併取得資格" },
-  { id: "demerit", label: "デメリット・限界" },
+  { id: "demerit", label: "デメリット・留意点" },
   { id: "faq", label: "よくある質問" },
 ];
 
 const faqs = [
   {
     q: "情報処理安全確保支援士は30代・40代の転職で有利ですか？",
-    a: "セキュリティの実務（運用・監査・脆弱性対応など）がある経験者には有利に働きやすい資格です。サイバー攻撃の増加で需要が拡大しており、経済産業省管轄のIPAが認定する国家資格として信頼性の裏づけになります。経済産業省は『2030年までに登録者5万人』を目標に掲げています。ただし、未経験者が資格だけで転職するのは難しく、運用・設計などの実務とセットで初めて評価される点は正直にお伝えします。",
+    a: "セキュリティの実務（運用・監査・脆弱性対応など）がある経験者には有利に働きやすい資格です。サイバー攻撃の増加で需要が拡大しており、経済産業省管轄のIPAが認定する国家資格として信頼性の裏づけになります。経済産業省は『2030年までに登録者5万人』を目標に掲げています。ただし、未経験者が資格だけで転職するのは難しく、運用・設計などの実務とセットで初めて評価される点はご説明します。",
   },
   {
     q: "合格率はどのくらいですか？難しいですか？",
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "登録の維持費はどのくらいかかりますか？",
-    a: "正直にお伝えすると、合格後に『登録セキスペ』として名乗るには登録と継続的な維持費が必要です。初回登録に約20,000円、加えて3年間で最低でも約11.5万円〜の費用がかかるのが目安です（毎年のオンライン講習が約2万円×3回＋3年に1回の実践講習／特定講習が5〜16万円）。試験合格だけなら維持費は不要ですが、『登録セキスペ』を名乗るには維持費が前提になります。金額は変更され得るため最新はIPAでご確認ください。",
+    a: "ご説明すると、合格後に『登録セキスペ』として名乗るには登録と継続的な維持費が必要です。初回登録に約20,000円、加えて3年間で最低でも約11.5万円〜の費用がかかるのが目安です（毎年のオンライン講習が約2万円×3回＋3年に1回の実践講習／特定講習が5〜16万円）。試験合格だけなら維持費は不要ですが、『登録セキスペ』を名乗るには維持費が前提になります。金額は変更され得るため最新はIPAでご確認ください。",
   },
   {
     q: "資格を取ると独占業務はできますか？",
@@ -85,7 +85,7 @@ export default function CertSecuritySpecialistPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          情報処理安全確保支援士（通称・登録セキスペ）は、経済産業省管轄のIPA（情報処理推進機構）が認定する、サイバーセキュリティ分野で唯一の国家資格です。本記事は「30代・40代の転職でこの資格は効くのか」という情報意図に絞り、<strong>合格率・年収・登録維持費</strong>を一次データで示し、「実務×国家資格」での活かし方を、維持費というデメリットも正直に含めて解説します。
+          情報処理安全確保支援士（通称・登録セキスペ）は、経済産業省管轄のIPA（情報処理推進機構）が認定する、サイバーセキュリティ分野で唯一の国家資格です。本記事は「30代・40代の転職でこの資格は効くのか」という情報意図に絞り、<strong>合格率・年収・登録維持費</strong>を一次データで示し、「実務×国家資格」での活かし方を、維持費というデメリットも含めて解説します。
         </p>
 
         <DataNote
@@ -94,7 +94,7 @@ export default function CertSecuritySpecialistPage() {
             "IPA 情報処理技術者試験／支援士試験 令和7年度実施結果【公的データ】",
             "経済産業省 IT関連産業の給与等に関する実態調査【公的データ】",
             "IPA 登録セキスペ 登録・更新制度（維持費）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -115,12 +115,12 @@ export default function CertSecuritySpecialistPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：実務がある経験者に効く国家資格</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              情報処理安全確保支援士は当サイトの分類で<strong>「経験者加点資格」</strong>です。サイバー攻撃の増加でセキュリティ人材の需要は拡大しており、<strong>運用・監査などの実務に国家資格を掛け合わせることで信頼性が一段上がります</strong>。一方、未経験者が資格単体で転職するのは難しく、維持費もかかる点は正直にお伝えします。
+              情報処理安全確保支援士は当サイトの分類で<strong>「経験者加点資格」</strong>です。サイバー攻撃の増加でセキュリティ人材の需要は拡大しており、<strong>運用・監査などの実務に国家資格を掛け合わせることで信頼性が一段上がります</strong>。一方、未経験者が資格単体で転職するのは難しく、維持費もかかる点はご説明します。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 経産省管轄IPAの国家資格＝<strong>信頼性の裏づけ</strong>になる</li>
+              <li>① 経産省管轄IPAの国家資格＝<strong>信頼性の裏づけ</strong>になります</li>
               <li>② 経産省は<strong>「2030年までに登録者5万人」</strong>を目標に掲げ需要は政策面でも後押し</li>
-              <li>③ ただし<strong>登録維持費（3年で約11.5万円〜）</strong>がかかり、独占業務はまだ無い</li>
+              <li>③ ただし<strong>登録維持費（3年で約11.5万円〜）</strong>がかかり、独占業務はまだありません</li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
@@ -160,7 +160,7 @@ export default function CertSecuritySpecialistPage() {
 
         {/* 維持費 */}
         <section id="cost" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">登録維持費（正直に）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">登録維持費</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 text-sm text-slate-700 space-y-3">
             <p>
               この資格を語るうえで欠かせないのが<strong>登録維持費</strong>です。試験に合格しただけでは「登録セキスペ」を名乗れず、登録と継続的な講習が必要になります。
@@ -218,10 +218,10 @@ export default function CertSecuritySpecialistPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "セキュリティ運用・監視（SOC/CSIRT）", d: "インシデント対応・脆弱性管理の実務に、国家資格で体系知識を裏づけられる。" },
-              { t: "セキュリティ監査・コンサル", d: "監査・アセスメント業務で、第三者への信頼性の説明材料として効く。" },
-              { t: "公共・金融など信頼性重視の業界", d: "提案・調達要件で有資格者が評価される場面があり、組織側の信頼確保にもつながる。" },
-              { t: "社内セキュリティ責任者（情報システム部門）", d: "事業会社の情報システム・セキュリティ統括ポジションで、知識の網羅性を示せる。" },
+              { t: "セキュリティ運用・監視（SOC/CSIRT）", d: "インシデント対応・脆弱性管理の実務に、国家資格で体系知識を裏づけられます。" },
+              { t: "セキュリティ監査・コンサル", d: "監査・アセスメント業務で、第三者への信頼性の説明材料として効きます。" },
+              { t: "公共・金融など信頼性重視の業界", d: "提案・調達要件で有資格者が評価される場面があり、組織側の信頼確保にもつながります。" },
+              { t: "社内セキュリティ責任者（情報システム部門）", d: "事業会社の情報システム・セキュリティ統括ポジションで、知識の網羅性を示せます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -239,9 +239,9 @@ export default function CertSecuritySpecialistPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "セキュリティ運用層", d: "ログ監視・インシデント一次対応・脆弱性スキャン運用。支援士が歓迎要件になりやすい。" },
-              { t: "セキュリティ設計・監査層", d: "セキュリティ設計、リスクアセスメント、監査対応。支援士＋実務が応募要件になることがある。" },
-              { t: "CISO/セキュリティ統括層", d: "全社のセキュリティ戦略・ガバナンス。資格より経営層との折衝・実績が中心。" },
+              { t: "セキュリティ運用層", d: "ログ監視・インシデント一次対応・脆弱性スキャン運用です。支援士が歓迎要件になりやすいです。" },
+              { t: "セキュリティ設計・監査層", d: "セキュリティ設計、リスクアセスメント、監査対応です。支援士＋実務が応募要件になることがあります。" },
+              { t: "CISO/セキュリティ統括層", d: "全社のセキュリティ戦略・ガバナンスです。資格より経営層との折衝・実績が中心です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -265,7 +265,7 @@ export default function CertSecuritySpecialistPage() {
               逆に、セキュリティ実務がほぼない状態で資格だけ取っても、ミドルの中途採用では即戦力性が見えにくく評価が限定的です。<strong>資格は実務の信頼性を底上げする道具</strong>と捉えるのがミドルの正解です。
             </p>
             <p>
-              ミドルならではの強みとして、「複数の現場を見てきた経験の幅」があります。インフラ・ネットワーク・アプリ開発など複数領域を渡ってきた人は、セキュリティを「点」ではなく「システム全体の中の一要素」として捉えられます。攻撃者は最も弱いところを突くため、全体を俯瞰できる視点は若手にはない武器です。<strong>その俯瞰力に支援士の体系知識を重ねると、運用担当を超えて設計・監査・統括ポジションへ進む道筋が見えてきます</strong>。
+              ミドルならではの強みとして、「複数の現場を見てきた経験の幅」があります。インフラ・ネットワーク・アプリ開発など複数領域を渡ってきた人は、セキュリティを「点」ではなく「システム全体の中の一要素」として捉えられます。攻撃者は最も弱いところを突くため、全体を俯瞰できる視点は若手にはない強みです。<strong>その俯瞰力に支援士の体系知識を重ねると、運用担当を超えて設計・監査・統括ポジションへ進む道筋が見えてきます</strong>。
             </p>
             <p>
               職種側の市場感は<Link href="/skill/security/" className="text-petrol hover:underline">セキュリティエンジニア転職ガイド</Link>、隣接領域は<Link href="/skill/network/" className="text-petrol hover:underline">ネットワークエンジニア転職ガイド</Link>・<Link href="/career/devsecops/" className="text-petrol hover:underline">DevSecOpsキャリア</Link>も参考になります。
@@ -278,9 +278,9 @@ export default function CertSecuritySpecialistPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ・併取得資格</h2>
           <div className="space-y-3 mb-4">
             {[
-              { n: "STEP 1", t: "応用情報で土台＋午前Ⅰ免除", d: "高度試験が初めてなら応用情報技術者に合格し、午前Ⅰの2年免除を確保する。" },
-              { n: "STEP 2", t: "午後記述の対策", d: "支援士の山場は午後の記述式。実務に近い事例問題を繰り返し、設計・対応の言語化を鍛える。" },
-              { n: "STEP 3", t: "合格後の登録判断", d: "『登録セキスペ』を名乗るかは維持費（3年約11.5万円〜）と継続意思を踏まえて判断する。" },
+              { n: "STEP 1", t: "応用情報で土台＋午前Ⅰ免除", d: "高度試験が初めてなら応用情報技術者に合格し、午前Ⅰの2年免除を確保します。" },
+              { n: "STEP 2", t: "午後記述の対策", d: "支援士の山場は午後の記述式です。実務に近い事例問題を繰り返し、設計・対応の言語化を鍛えます。" },
+              { n: "STEP 3", t: "合格後の登録判断", d: "『登録セキスペ』を名乗るかは維持費（3年約11.5万円〜）と継続意思を踏まえて判断します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -298,12 +298,12 @@ export default function CertSecuritySpecialistPage() {
 
         {/* デメリット */}
         <section id="demerit" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">デメリット・限界</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">デメリット・留意点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
-            <p>① <strong>登録維持費が継続的にかかる。</strong>「登録セキスペ」を名乗るには3年で約11.5万円〜の費用負担があります。</p>
-            <p>② <strong>独占業務がまだ無い。</strong>名称独占にとどまり、資格者しかできない法定業務はありません。</p>
-            <p>③ <strong>難易度が高い。</strong>午後の記述式が壁で、合格率は2割前後（IPA令和7年度）の難関です。</p>
-            <p>④ <strong>実務なしでは評価が限定的。</strong>ミドルの転職では、資格より運用・設計・監査の実務経験が見られます。</p>
+            <p>① <strong>登録維持費が継続的にかかります。</strong>「登録セキスペ」を名乗るには3年で約11.5万円〜の費用負担があります。</p>
+            <p>② <strong>独占業務はまだありません。</strong>名称独占にとどまり、資格者しかできない法定業務はありません。</p>
+            <p>③ <strong>難易度が高いです。</strong>午後の記述式が壁で、合格率は2割前後（IPA令和7年度）の難関です。</p>
+            <p>④ <strong>実務なしでは評価が限定的です。</strong>ミドルの転職では、資格より運用・設計・監査の実務経験が見られます。</p>
           </div>
         </section>
 
@@ -327,7 +327,7 @@ export default function CertSecuritySpecialistPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">セキュリティ×国家資格を活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            あなたの実務と資格がどう評価されるか、IT特化型エージェントで確認しましょう。
+            ご自身の実務と資格がどう評価されるか、IT特化型エージェントで確認しましょう。
           </p>
           <Link
             href="/#ranking"

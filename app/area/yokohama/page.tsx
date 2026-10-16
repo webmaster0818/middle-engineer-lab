@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/yokohama/" },
   title: "横浜・神奈川のIT・エンジニア転職【2026年】求人動向・年収・エージェント",
   description:
-    "横浜・神奈川のITエンジニア転職を30代・40代向けに解説。みなとみらい・新横浜などのIT企業集積、東京通勤圏×リモート併用の働き方、年代別年収の考え方、対応エージェントの選び方をまとめました。",
+    "横浜・神奈川のITエンジニア転職を30代・40代向けに解説します。みなとみらい・新横浜などのIT企業集積、東京通勤圏×リモート併用の働き方、年代別年収の考え方、対応エージェントの選び方をまとめました。",
 };
 
 const toc = [
@@ -48,7 +48,7 @@ const areas = [
     name: "横浜駅周辺エリア",
     type: "通信・SaaS・カスタマー系",
     feature:
-      "ターミナルとしての利便性が高く、各方面からの通勤がしやすいエリア。通信系やカスタマーサクセス系のIT企業の拠点が見られます。",
+      "ターミナルとしての利便性が高く、各方面からの通勤がしやすいエリアです。通信系やカスタマーサクセス系のIT企業の拠点が見られます。",
   },
   {
     name: "川崎エリア（神奈川）",
@@ -117,7 +117,7 @@ export default function YokohamaAreaPage() {
     <>
       <ArticleJsonLd
         title="横浜・神奈川のIT転職事情【2026年】エリア特徴と年収"
-        description="横浜・神奈川のITエンジニア転職を30代・40代向けに解説。IT企業集積、東京通勤圏×リモート併用の働き方、年代別年収の考え方、対応エージェントの選び方をまとめました。"
+        description="横浜・神奈川のITエンジニア転職を30代・40代向けに解説します。IT企業集積、東京通勤圏×リモート併用の働き方、年代別年収の考え方、対応エージェントの選び方をまとめました。"
         url="/area/yokohama/"
       />
       <script
@@ -161,9 +161,9 @@ export default function YokohamaAreaPage() {
               結論：横浜・神奈川のIT転職市場の特徴
             </h2>
             <ul className="space-y-2 text-sm text-blue-900 leading-relaxed">
-              <li>・<strong>東京通勤圏×県内拠点の二刀流</strong>。みなとみらいなど横浜内のIT拠点と、東京企業へのリモート／通勤を組み合わせて選べる。</li>
-              <li>・<strong>製造×ITの領域に強み</strong>。自動車・電機など製造業の拠点が多く、組込み・制御・データ活用の求人を探しやすい。</li>
-              <li>・<strong>職住近接とQOLを重視する層に向く</strong>。都心の通勤ラッシュを避けつつ、首都圏の求人にアクセスできる。</li>
+              <li>・<strong>東京通勤圏×県内拠点の二刀流です</strong>。みなとみらいなど横浜内のIT拠点と、東京企業へのリモート／通勤を組み合わせて選べます。</li>
+              <li>・<strong>製造×ITの領域に強み</strong>。自動車・電機など製造業の拠点が多く、組込み・制御・データ活用の求人を探しやすいです。</li>
+              <li>・<strong>職住近接とQOLを重視する層に向きます</strong>。都心の通勤ラッシュを避けつつ、首都圏の求人にアクセスできます。</li>
             </ul>
           </div>
         </section>
@@ -208,15 +208,15 @@ export default function YokohamaAreaPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-3">
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
-              <p className="text-sm text-slate-600"><strong>県内オフィス勤務:</strong> みなとみらい・新横浜・川崎などの拠点に通勤。職住近接を実現しやすく、製造系・組込み系では出社が前提になりやすい。</p>
+              <p className="text-sm text-slate-600"><strong>県内オフィス勤務:</strong> みなとみらい・新横浜・川崎などの拠点に通勤です。職住近接を実現しやすく、製造系・組込み系では出社が前提になりやすいです。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
-              <p className="text-sm text-slate-600"><strong>東京企業へハイブリッド:</strong> 神奈川在住で、週数日だけ東京都心に出社する形。通勤時間と出社頻度のバランスを取りやすい。</p>
+              <p className="text-sm text-slate-600"><strong>東京企業へハイブリッド:</strong> 神奈川在住で、週数日だけ東京都心に出社する形です。通勤時間と出社頻度のバランスを取りやすいです。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-              <p className="text-sm text-slate-600"><strong>フルリモート:</strong> Web系・SaaS企業を中心に、神奈川に住んだまま東京や全国の企業で働ける求人が存在する。</p>
+              <p className="text-sm text-slate-600"><strong>フルリモート:</strong> Web系・SaaS企業を中心に、神奈川に住んだまま東京や全国の企業で働ける求人が存在します。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
@@ -239,7 +239,7 @@ export default function YokohamaAreaPage() {
               <ul className="space-y-2 text-sm text-slate-700">
                 <li>✓ 神奈川に生活基盤があり、東京の求人もあわせて狙いたい</li>
                 <li>✓ 都心の通勤ラッシュを避けつつ職住近接を実現したい</li>
-                <li>✓ 製造・自動車・電機など製造×ITの領域に関心がある</li>
+                <li>✓ 製造・自動車・電機など製造×ITの領域に関心があります</li>
                 <li>✓ みなとみらいなどの大手・拠点系で腰を据えて働きたい</li>
                 <li>✓ 東京企業のリモート求人と県内求人を両天秤にかけたい</li>
               </ul>
@@ -301,28 +301,28 @@ export default function YokohamaAreaPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">レバテックキャリア（IT/Web特化）</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                IT/Web特化で首都圏中心。高年収求人の比率が高いとされ、書類添削・面接対策の丁寧さが評価されます。一方で未経験者には紹介されにくいという声もあります。
+                IT/Web特化で首都圏中心です。高年収求人の比率が高いとされ、書類添削・面接対策の丁寧さが評価されます。一方で未経験者には紹介されにくいという声もあります。
                 <Link href="/review/levtech/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Geekly（IT/Web/ゲーム特化）</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                IT/Web/ゲーム特化で提案スピードが強みとされます。年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）。連絡頻度や担当者の質のばらつきを指摘する声もあります。
+                IT/Web/ゲーム特化で提案スピードが強みとされます。年収アップ率約81%・平均上昇額約76万円です（2025年9月時点・二次情報）。連絡頻度や担当者の質のばらつきを指摘する声もあります。
                 <Link href="/review/geekly/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">doda ITエンジニア（全国・総合型）</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                対応エリアは全国で、国内最大級の求人数を持つハイブリッド型。製造業DXを含む幅広い業界の求人を扱い、神奈川の大手・メーカー系の求人も探しやすいとされます。求人・連絡が多すぎるという声もあります。
+                対応エリアは全国で、国内最大級の求人数を持つハイブリッド型です。製造業DXを含む幅広い業界の求人を扱い、神奈川の大手・メーカー系の求人も探しやすいとされます。求人・連絡が多すぎるという声もあります。
                 <Link href="/review/doda-it/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ワークポート（全国・総合型）</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                全国47都道府県57拠点を持つ総合型で、IT・ゲームに強み。未経験歓迎求人も豊富とされ、経験浅めの併用先として有効です。レスポンスの速さが評価される一方、連絡量を指摘する声もあります。
+                全国47都道府県57拠点を持つ総合型で、IT・ゲームに強みがあります。未経験歓迎求人も豊富とされ、経験浅めの併用先として有効です。レスポンスの速さが評価される一方、連絡量を指摘する声もあります。
                 <Link href="/review/workport/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
@@ -373,7 +373,7 @@ export default function YokohamaAreaPage() {
           <ol className="space-y-3">
             {[
               { t: "希望条件の整理（県内 or 東京リモート）", d: "神奈川県内勤務に絞るか、東京企業のリモート／通勤も含めるかで紹介求人が変わります。最初に方針を決めておくと効率的です。" },
-              { t: "職務経歴書の準備", d: "プロジェクト規模・役割・技術スタック・成果を具体化。製造×IT領域はドメイン知識も明記すると差別化になります。" },
+              { t: "職務経歴書の準備", d: "プロジェクト規模・役割・技術スタック・成果を具体化します。製造×IT領域はドメイン知識も明記すると差別化になります。" },
               { t: "エージェント2〜3社に登録", d: "IT特化型＋総合型の組み合わせで、求人の幅と専門性のバランスを取ります。" },
               { t: "求人比較と応募", d: "出社頻度・リモート運用を面談で確認しつつ、複数を比較できるよう応募時期をそろえます。" },
               { t: "選考・条件交渉", d: "年収・勤務地・働き方の交渉はエージェント経由で進めやすくなります。" },
@@ -396,8 +396,8 @@ export default function YokohamaAreaPage() {
               横浜・神奈川はミドル層にとって、生活基盤を維持しながら首都圏の求人にアクセスできるバランスの良いエリアです。経産省が2019年に公表した試算では2030年に最大約79万人のIT人材不足が見込まれ、経験者需要は底堅いと考えられます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価される時期。県内拠点でのリードポジションや、東京企業へのリモート転職で年収を伸ばしやすい。<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link></li>
-              <li>・<strong>40代</strong>：マネジメントや特定ドメインの専門性が武器。製造×ITの経験は神奈川で活きやすい。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link></li>
+              <li>・<strong>30代</strong>：技術力と現場経験のバランスが評価される時期です。県内拠点でのリードポジションや、東京企業へのリモート転職で年収を伸ばしやすいです。<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職ガイド</Link></li>
+              <li>・<strong>40代</strong>：マネジメントや特定ドメインの専門性が強みです。製造×ITの経験は神奈川で活きやすいです。<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職ガイド</Link></li>
               <li>・家族の生活拠点を変えずに転職したい層にとって、通勤圏×リモートの選択肢は大きなメリットになります。</li>
             </ul>
           </div>
@@ -421,7 +421,7 @@ export default function YokohamaAreaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">横浜・神奈川のIT転職を始める</h2>
           <p className="text-blue-100 text-sm mb-4">
-            県内拠点も東京リモートも選べる横浜・神奈川。IT特化型エージェントに登録して市場価値を確認しましょう。
+            県内拠点も東京リモートも選べる横浜・神奈川です。IT特化型エージェントに登録して市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

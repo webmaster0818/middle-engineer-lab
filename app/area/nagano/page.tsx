@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/nagano/" },
   title: "長野のIT転職事情【2026年】精密・IoTとリモート移住の選択肢",
   description:
-    "長野県のITエンジニア転職を30代・40代向けに解説。精密機器・組込み・IoTの産業集積、軽井沢などのリモート移住、首都圏フルリモート併用、UIターン移住支援、年収の現実を公開情報をもとに正直に整理します。",
+    "長野県のITエンジニア転職を30代・40代向けに解説します。精密機器・組込み・IoTの産業集積、軽井沢などのリモート移住、首都圏フルリモート併用、UIターン移住支援、年収の現実を公開情報をもとに整理します。",
 };
 
 const toc = [
@@ -39,10 +39,10 @@ const fitNo = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手。ポテンシャル採用も見られる層。" },
-  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層。" },
-  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層。" },
-  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も見られる層です。" },
+  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
+  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層です。" },
+  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
 ];
 
 const agents = [
@@ -50,32 +50,32 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して長野在住のまま首都圏企業を狙う転職と相性が良い。高年収求人比率の高さも特徴とされる。",
+      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して長野在住のまま首都圏企業を狙う転職と相性が良いです。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型。IT・ゲーム領域に強く、地方在住からの相談に向く。レスポンスの速さに定評があり、未経験歓迎求人も比較的多い。",
+      "全国47都道府県57拠点を構える総合型です。IT・ゲーム領域に強く、地方在住からの相談に向きます。レスポンスの速さに定評があり、未経験歓迎求人も比較的多いです。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型。検索・エージェント・スカウトのハイブリッド型で、長野の地元求人から首都圏フルリモート求人まで幅広く当たりやすい。求人量の多さが強み。",
+      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、長野の地元求人から首都圏フルリモート求人まで幅広く当たりやすいです。求人量の多さが強みです。",
   },
   {
     name: "リクルートエージェントIT",
     href: "/review/recruit-it/",
     point:
-      "国内最大級の求人数で、非公開求人が豊富。全国対応のため長野を含む地方拠点の求人にもアクセスしやすく、製造業のIT部門や首都圏フルリモートまで網羅している。",
+      "国内最大級の求人数で、非公開求人が豊富です。全国対応のため長野を含む地方拠点の求人にもアクセスしやすく、製造業のIT部門や首都圏フルリモートまで網羅しています。",
   },
 ];
 
 const faqs = [
   {
     q: "長野県にITエンジニアの求人は多いですか？",
-    a: "正直に言えば、長野県内のIT・Web求人の母数は首都圏に比べると限られます。一方で、長野は精密機器・電子部品・組込み・IoTなど製造業が強い地域として知られ、メーカーのIT部門や組込み・制御系、生産システムの開発・保守といった求人が一定の層を形成します。求人数を断定できる公的データは限られるため、最新の件数はエージェントで確認するのが確実です。地元求人にこだわらず、首都圏企業のフルリモート求人を組み合わせると選択肢が大きく広がります。",
+    a: "実際には、長野県内のIT・Web求人の母数は首都圏に比べると限られます。一方で、長野は精密機器・電子部品・組込み・IoTなど製造業が強い地域として知られ、メーカーのIT部門や組込み・制御系、生産システムの開発・保守といった求人が一定の層を形成します。求人数を断定できる公的データは限られるため、最新の件数はエージェントで確認するのが確実です。地元求人にこだわらず、首都圏企業のフルリモート求人を組み合わせると選択肢が大きく広がります。",
   },
   {
     q: "長野のITエンジニアの平均年収はいくらですか？",
@@ -127,7 +127,7 @@ export default function NaganoAreaPage() {
     <>
       <ArticleJsonLd
         title="長野のIT転職事情【2026年】精密・IoTとリモート移住の選択肢"
-        description="長野県のITエンジニア転職を30代・40代向けに解説。精密・組込み・IoTの産業集積、軽井沢などのリモート移住、首都圏フルリモート併用、UIターン移住支援、年収の現実を整理します。"
+        description="長野県のITエンジニア転職を30代・40代向けに解説します。精密・組込み・IoTの産業集積、軽井沢などのリモート移住、首都圏フルリモート併用、UIターン移住支援、年収の現実を整理します。"
         url="/area/nagano/"
       />
       <script
@@ -152,7 +152,7 @@ export default function NaganoAreaPage() {
 
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
-            長野県は、精密機器・電子部品・組込み・IoTなど「ものづくり」が強い地域として知られています。一方で、Web/SaaS自社開発のようなIT求人の母数は首都圏に比べると限られるのが現実です。本記事では、その現実を正直に踏まえたうえで、地元の製造業IT求人、首都圏企業のフルリモート求人の活用、軽井沢・佐久・上田などを軸にしたUIターン移住という、長野ならではの価値ある選択肢を公開情報をもとに整理します。
+            長野県は、精密機器・電子部品・組込み・IoTなど「ものづくり」が強い地域として知られています。一方で、Web/SaaS自社開発のようなIT求人の母数は首都圏に比べると限られるのが現実です。本記事では、その現実を踏まえたうえで、地元の製造業IT求人、首都圏企業のフルリモート求人の活用、軽井沢・佐久・上田などを軸にしたUIターン移住という、長野ならではの価値ある選択肢を公開情報をもとに整理します。
           </p>
         </section>
 
@@ -174,8 +174,8 @@ export default function NaganoAreaPage() {
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>・精密機器・電子部品・組込み・IoTなど、ものづくり寄りの技術領域に強み</li>
-              <li>・首都圏フルリモート求人を併用すれば、長野在住のまま年収水準の選択肢が広がる</li>
-              <li>・軽井沢・佐久・上田は新幹線で首都圏アクセス良好。移住支援金の対象でもある</li>
+              <li>・首都圏フルリモート求人を併用すれば、長野在住のまま年収水準の選択肢が広がります</li>
+              <li>・軽井沢・佐久・上田は新幹線で首都圏アクセス良好です。移住支援金の対象でもあります</li>
             </ul>
           </div>
         </section>
@@ -235,19 +235,19 @@ export default function NaganoAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元の製造業IT・SIerに出社/ハイブリッド:</strong> 精密・組込み・生産システムなど、長野の産業特性を活かせる領域。地域に根ざしたキャリアを重視する人向けです。
+                <strong>地元の製造業IT・SIerに出社/ハイブリッド:</strong> 精密・組込み・生産システムなど、長野の産業特性を活かせる領域です。地域に根ざしたキャリアを重視する人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>軽井沢・佐久・上田で新幹線ハイブリッド:</strong> 首都圏企業に在籍しつつ、月数回の出社を新幹線でこなす働き方。自然環境と首都圏アクセスを両立したい人向けです。
+                <strong>軽井沢・佐久・上田で新幹線ハイブリッド:</strong> 首都圏企業に在籍しつつ、月数回の出社を新幹線でこなす働き方です。自然環境と首都圏アクセスを両立したい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>長野在住×首都圏企業のフルリモート:</strong> 長野の生活コストを保ちつつ首都圏水準の年収を狙う選択肢。
+                <strong>長野在住×首都圏企業のフルリモート:</strong> 長野の生活コストを保ちつつ首都圏水準の年収を狙う選択肢です。
                 <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート求人の探し方</Link>
                 や
                 <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
@@ -342,7 +342,7 @@ export default function NaganoAreaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職・移住の進め方</h2>
           <div className="space-y-3">
             {[
-              { step: "1", title: "軸を決める", desc: "「地元の製造業IT」「新幹線ハイブリッド」「首都圏フルリモート」のどれを中心に据えるかを先に決める。提案される求人の質が変わります。" },
+              { step: "1", title: "軸を決める", desc: "「地元の製造業IT」「新幹線ハイブリッド」「首都圏フルリモート」のどれを中心に据えるかを先に決めます。提案される求人の質が変わります。" },
               { step: "2", title: "エージェントを2〜3社登録", desc: "フルリモートに強いIT特化型と、全国対応の総合型を組み合わせて提案傾向を比較します。地元求人が限られる前提で母数を確保しましょう。" },
               { step: "3", title: "移住支援制度を確認", desc: "移住を伴う場合は、移住先市町村の移住支援金・住宅補助などの最新条件を公式サイトで確認します。テレワーク移住が対象かも要チェックです。" },
               { step: "4", title: "出社要件・アクセスを確認", desc: "求人ごとの出社頻度を確認し、新幹線通勤や月数回出社の負担、住居費を試算します。" },
@@ -404,13 +404,13 @@ export default function NaganoAreaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">30代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                技術の市場価値を高めながら、組込み・IoTで専門性を深めるか、首都圏フルリモートで経験の幅を広げるかを意識的に選ぶフェーズ。移住を見据えて生活基盤を整えやすい時期でもあります。
+                技術の市場価値を高めながら、組込み・IoTで専門性を深めるか、首都圏フルリモートで経験の幅を広げるかを意識的に選ぶフェーズです。移住を見据えて生活基盤を整えやすい時期でもあります。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">40代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                マネジメントや高度専門など役割で評価される段階。地元求人が限られる前提で、フルリモート併用により選択肢を確保しつつ、生活設計と両立する形を選ぶのが現実的です。
+                マネジメントや高度専門など役割で評価される段階です。地元求人が限られる前提で、フルリモート併用により選択肢を確保しつつ、生活設計と両立する形を選ぶのが現実的です。
               </p>
             </div>
           </div>

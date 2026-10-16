@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/employment/contract-employee/" },
   title: "契約社員エンジニアと無期転換5年ルール｜『無期転換≠正社員』の注意点",
   description:
-    "契約社員エンジニアの制度を正確に解説。通算5年超で使える無期転換ルール（5年ルール）の仕組みと、見落とされがちな『無期転換＝正社員ではない』という最重要ポイント、契約期間の上限まで厚労省ベースで整理します。",
+    "契約社員エンジニアの制度を正確に解説します。通算5年超で使える無期転換ルール（5年ルール）の仕組みと、見落とされがちな『無期転換＝正社員ではない』という最重要ポイント、契約期間の上限まで厚労省ベースで整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：『無期転換』を正しく理解することが勝ち筋" },
+  { id: "conclusion", label: "結論：『無期転換』を正しく理解することが有効な方法" },
   { id: "what", label: "契約社員とは（有期労働契約の基礎）" },
   { id: "rule5", label: "無期転換ルール（5年ルール）の正確な仕組み" },
   { id: "trap", label: "最重要：『無期転換＝正社員』ではない" },
@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     q: "契約社員から転職して正社員になる方が早いですか？",
-    a: "ケースによります。現職での正社員登用が見込みづらい、または無期転換しても待遇が変わらない場合は、エンジニアとしての実務経験を武器に正社員求人へ転職する方が、待遇改善の近道になることがあります。まず転職エージェントで正社員としての市場価値（提示年収レンジ）を把握し、現職に残る場合と比較して判断するのが現実的です。",
+    a: "ケースによります。現職での正社員登用が見込みづらい、または無期転換しても待遇が変わらない場合は、エンジニアとしての実務経験を強みに正社員求人へ転職する方が、待遇改善の近道になることがあります。まず転職エージェントで正社員としての市場価値（提示年収レンジ）を把握し、現職に残る場合と比較して判断するのが現実的です。",
   },
   {
     q: "無期転換の申込権が発生しても申し込まないとどうなりますか？",
@@ -90,7 +90,7 @@ export default function ContractEmployeePage() {
     <>
       <ArticleJsonLd
         title="契約社員エンジニアと無期転換5年ルール｜『無期転換≠正社員』の注意点"
-        description="契約社員エンジニアの制度を正確に解説。無期転換ルール（5年ルール）の仕組みと、『無期転換＝正社員ではない』という最重要ポイント、契約期間の上限まで厚労省ベースで整理。"
+        description="契約社員エンジニアの制度を正確に解説します。無期転換ルール（5年ルール）の仕組みと、『無期転換＝正社員ではない』という最重要ポイント、契約期間の上限まで厚労省ベースで整理します。"
         url="/employment/contract-employee/"
       />
       <script
@@ -133,9 +133,9 @@ export default function ContractEmployeePage() {
               通算5年を超えた有期契約は、労働者の申込みで無期労働契約に転換できます。しかし<strong>無期転換で変わるのは「期間の定めがなくなる」ことだけ</strong>で、給与・賞与・退職金などの待遇は原則そのまま据え置かれます。「無期転換＝正社員」と誤解すると、待遇改善を期待して肩透かしを食らいます。安定だけなら無期転換、待遇改善まで望むなら正社員登用または転職を狙うのが正しい整理です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>通算5年超＋労働者の申込み＝無期転換（使用者は断れない／出典：厚労省）。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>無期転換≠正社員。待遇は据え置きが一般的で、「無期契約社員」という別区分になることも。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>待遇改善を望むなら、正社員登用または正社員転職を別途狙う必要がある。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>通算5年超＋労働者の申込み＝無期転換です（使用者は断れない／出典：厚労省）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>無期転換≠正社員です。待遇は据え置きが一般的で、「無期契約社員」という別区分になることがあります。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>待遇改善を望むなら、正社員登用または正社員転職を別途狙う必要があります。</li>
             </ul>
           </div>
         </section>
@@ -204,7 +204,7 @@ export default function ContractEmployeePage() {
               <h3 className="font-bold text-slate-700 mb-2">無期転換で得られるもの</h3>
               <ul className="space-y-1.5 text-sm text-slate-600">
                 <li className="flex gap-2"><span className="text-green-600">✓</span>雇止めの不安からの解放（期間の定めがなくなる）</li>
-                <li className="flex gap-2"><span className="text-green-600">✓</span>長期就業の見通しが立つ</li>
+                <li className="flex gap-2"><span className="text-green-600">✓</span>長期就業の見通しが立ちます</li>
               </ul>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
@@ -224,7 +224,7 @@ export default function ContractEmployeePage() {
             有期労働契約の1回あたりの契約期間は、<strong>原則として上限3年</strong>です。ただし、高度な専門的知識等を有する人や満60歳以上の人など、一定の場合は上限が5年になります（出典：厚生労働省）。
           </p>
           <p className="text-slate-600 leading-relaxed mb-4">
-            この期間内で更新を繰り返し、通算5年を超えた時点で無期転換の申込権が発生する、という関係です。「1回の契約期間の上限（原則3年）」と「無期転換に必要な通算期間（5年超）」は別の概念なので、混同しないよう注意しましょう。
+            この期間内で更新を繰り返し、通算5年を超えた時点で無期転換の申込権が発生する、という関係です。「1回の契約期間の上限（原則3年）」と「無期転換に必要な通算期間（5年超）」は別の概念であるため、混同しないよう注意しましょう。
           </p>
           <p className="text-slate-600 leading-relaxed">
             たとえば「1年契約を毎年更新」している場合、6回目の更新で通算が5年を超えるため、その契約期間中に無期転換の申込権が生じます。「3年契約を1回更新」した場合は、2回目の契約期間中（通算3年超〜6年）に5年を超える時点で申込権が発生します。契約の刻み方によって申込権が生まれるタイミングが変わるため、自分の契約がいつ5年を超えるのかを把握しておくことが大切です。
@@ -276,8 +276,8 @@ export default function ContractEmployeePage() {
               <p className="text-sm text-slate-600 leading-relaxed">無期転換で雇用の安定を得たうえで、より良い条件の正社員求人を探す方法です。安定を背景に焦らず活動できます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">③ 実務経験を武器に正社員へ転職</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">契約社員として積んだ開発経験は実務経験として評価されます。待遇改善が現職で見込めないなら、転職が最短ルートになることも。まずは転職エージェントで正社員としての市場価値を把握しましょう。</p>
+              <h3 className="font-bold text-slate-800 mb-2">③ 実務経験を強みに正社員へ転職</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">契約社員として積んだ開発経験は実務経験として評価されます。待遇改善が現職で見込めないなら、転職が最短ルートになることがあります。まずは転職エージェントで正社員としての市場価値を把握しましょう。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
@@ -295,7 +295,7 @@ export default function ContractEmployeePage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：安定だけでなく待遇改善の道を残す</h3>
-              <p className="text-sm text-petrol-deep">40代で無期転換を迎える場合、「雇用は安定したが待遇は据え置き」という状態に陥りやすい点に注意が必要です。40代の実務経験は転職市場で評価されるため、現職での正社員化が見込みづらいなら、経験を武器に正社員求人へ動く選択肢を早めに検討しておくと、後悔の少ない判断ができます。</p>
+              <p className="text-sm text-petrol-deep">40代で無期転換を迎える場合、「雇用は安定したが待遇は据え置き」という状態に陥りやすい点に注意が必要です。40代の実務経験は転職市場で評価されるため、現職での正社員化が見込みづらいなら、経験を強みに正社員求人へ動く選択肢を早めに検討しておくと、後悔の少ない判断ができます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ライフイベントと社会的信用</h3>

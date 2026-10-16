@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/industry/agriculture/" },
   title: "農業からアグリテック（AgriTech）転職【30代40代エンジニアガイド】",
   description:
-    "農業・農業関連のエンジニアがアグリテック（AgriTech）領域へ転職する道筋を解説。現場知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。",
+    "農業・農業関連のエンジニアがアグリテック（AgriTech）領域へ転職する道筋を解説します。現場知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。",
 };
 
 const skillTable = [
@@ -21,10 +21,10 @@ const skillTable = [
 ];
 
 const jobTypes = [
-  ["スマート農業プラットフォーム開発", "AgriTechベンダー、農業系スタートアップ", "圃場データの収集・可視化・管理。現場知識が直接活きる"],
-  ["農業データ分析・予測", "AgriTech、研究開発寄りの企業", "生育・収量・気象データの分析。ドメイン知識＋データ素養が求められる"],
-  ["ドローン／ロボティクス", "農機・ロボティクス系企業", "防除・収穫の自動化。制御・画像認識の素養が問われる"],
-  ["トレーサビリティ・流通テック", "フードテック、流通・物流寄り企業", "出荷・流通の可視化。業務知識が強みになる"],
+  ["スマート農業プラットフォーム開発", "AgriTechベンダー、農業系スタートアップ", "圃場データの収集・可視化・管理です。現場知識が直接活きる"],
+  ["農業データ分析・予測", "AgriTech、研究開発寄りの企業", "生育・収量・気象データの分析です。ドメイン知識＋データ素養が求められる"],
+  ["ドローン／ロボティクス", "農機・ロボティクス系企業", "防除・収穫の自動化です。制御・画像認識の素養が問われる"],
+  ["トレーサビリティ・流通テック", "フードテック、流通・物流寄り企業", "出荷・流通の可視化です。業務知識が強みになる"],
 ];
 
 const faqs = [
@@ -92,7 +92,7 @@ export default function AgriculturePage() {
 
   return (
     <>
-      <ArticleJsonLd title="農業からアグリテック（AgriTech）転職【30代40代エンジニアガイド】" description="農業・農業関連のエンジニアがアグリテック（AgriTech）領域へ転職する道筋を解説。現場知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。" url="/industry/agriculture/" />
+      <ArticleJsonLd title="農業からアグリテック（AgriTech）転職【30代40代エンジニアガイド】" description="農業・農業関連のエンジニアがアグリテック（AgriTech）領域へ転職する道筋を解説します。現場知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。" url="/industry/agriculture/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "業界別ガイド" }, { name: "農業からアグリテック転職" }]} />
 
@@ -106,7 +106,7 @@ export default function AgriculturePage() {
           <p className="text-sm leading-7 text-slate-700 mb-2"><strong>結論: 農業現場・ドメインデータの知識を持つ人は、IoT（センサー収集）やデータ分析（Python/SQL）を補強すれば現実的に狙えます。</strong>現場を理解した上で技術を設計できる人材はAgriTech企業側に少なく、30代・40代の経験の厚さはむしろ強みになります。</p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1">
             <li>・主な職種は4系統: スマート農業プラットフォーム開発／農業データ分析・予測／ドローン・ロボティクス／トレーサビリティ・流通テック</li>
-            <li>・年収目安は正社員SE平均で30代約499万円・40代約618万円（レバテック公表2025年）。スタートアップ中心のため企業ステージで差が大きい</li>
+            <li>・年収目安は正社員SE平均で30代約499万円・40代約618万円です（レバテック公表2025年）。スタートアップ中心のため企業ステージで差が大きいです</li>
             <li>・準備の第一歩は「農業ドメイン知識」と「実装できる技術」を職務経歴書で分けて示すこと（詳細は本文）</li>
           </ul>
         </div>
@@ -129,9 +129,9 @@ export default function AgriculturePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">農業現場・ドメインの知識を持つエンジニアにとって、アグリテック領域への転職は十分に狙えるルートです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・現場の課題を分かる人は技術側に少なく、ドメイン知識がそのまま差別化になりやすい。</li>
-              <li>・求人の多くはIoTやデータ分析の実装経験を求める。ここが主なギャップ。</li>
-              <li>・AgriTechはスタートアップが多く、給与水準は企業の規模・ステージで差が出やすい点に注意。</li>
+              <li>・現場の課題を分かる人は技術側に少なく、ドメイン知識がそのまま差別化になりやすいです。</li>
+              <li>・求人の多くはIoTやデータ分析の実装経験を求めます。ここが主なギャップです。</li>
+              <li>・AgriTechはスタートアップが多く、給与水準は企業の規模・ステージで差が出やすい点に注意が必要です。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">市場規模・成長率など断定できない数値は本記事では扱いません。年収・需給の話は公的・公表データに基づく目安として後述します。</p>
@@ -201,8 +201,8 @@ export default function AgriculturePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">個別ポジションの提示額は企業・等級・役割で大きく変わるため、ここでは公表データを目安として示します。実際のレンジは求人ごとに確認してください。</p>
           <ul className="space-y-3 text-sm text-slate-700 mb-4">
-            <li className="bg-white border border-slate-200 rounded-lg p-4">レバテックが公表する正社員SEの年代別平均年収（2025年）は、20代約378万円／30代約499万円／40代約618万円／50代約685万円。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。</li>
-            <li className="bg-white border border-slate-200 rounded-lg p-4">doda（パーソルキャリア）「決定年収レポート」（2025年5月公表）では、IT・通信の平均決定年収が2023年度469万円→2024年度486万円。転職者の約6割が年収アップという結果が示されています。</li>
+            <li className="bg-white border border-slate-200 rounded-lg p-4">レバテックが公表する正社員SEの年代別平均年収（2025年）は、20代約378万円／30代約499万円／40代約618万円／50代約685万円です。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。</li>
+            <li className="bg-white border border-slate-200 rounded-lg p-4">doda（パーソルキャリア）「決定年収レポート」（2025年5月公表）では、IT・通信の平均決定年収が2023年度469万円→2024年度486万円です。転職者の約6割が年収アップという結果が示されています。</li>
             <li className="bg-white border border-slate-200 rounded-lg p-4">厚生労働省 job tag では、システムエンジニア（受託開発）の平均年収578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）と示されています。</li>
           </ul>
           <p className="text-slate-500 text-xs leading-relaxed">上記は職種・媒体横断の平均値であり、アグリテック領域に限った数値ではありません。AgriTechはスタートアップが多く、ストックオプションなど現金以外の条件も含めて評価するとよいでしょう。</p>
@@ -213,10 +213,10 @@ export default function AgriculturePage() {
           <p className="text-slate-600 leading-relaxed mb-4">アグリテック領域の受け皿は、おおまかに次のタイプに分かれます。どこが自分の経験を活かせるかで応募戦略を決めます。</p>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              ["AgriTech系スタートアップ", "圃場データ・営農支援プロダクト。現場知識が直接活きる"],
-              ["農機・ロボティクス系企業", "ドローン・自動化機器。制御・画像の素養が求められる"],
-              ["フードテック・流通テック", "トレーサビリティ・出荷管理。業務知識が評価されやすい"],
-              ["研究開発・データ寄りの企業", "生育・収量予測などの分析。ドメインデータ知識が活きる"],
+              ["AgriTech系スタートアップ", "圃場データ・営農支援プロダクトです。現場知識が直接活きる"],
+              ["農機・ロボティクス系企業", "ドローン・自動化機器です。制御・画像の素養が求められる"],
+              ["フードテック・流通テック", "トレーサビリティ・出荷管理です。業務知識が評価されやすい"],
+              ["研究開発・データ寄りの企業", "生育・収量予測などの分析です。ドメインデータ知識が活きる"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <p className="font-bold text-slate-800 text-sm mb-1">{t}</p>
@@ -231,10 +231,10 @@ export default function AgriculturePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "経験の棚卸し（業務知識＋技術）", desc: "栽培管理、農機連携、出荷管理、JA連携など関わった領域を整理。収量改善やコスト削減など、数値で語れる実績を抽出する。" },
-              { step: "2", title: "ギャップの特定と学習", desc: "応募したい求人の必須要件を読み、不足するスタック（IoT、データ分析など）を把握。Python/SQLを在職中に学び、小さくてもデータを扱う成果物を作る。" },
-              { step: "3", title: "エージェント登録で市場感を確認", desc: "Geekly、レバテックキャリアなどIT特化型に登録し、提案される求人の傾向と提示レンジを把握する。" },
-              { step: "4", title: "職務経歴書で現場知識を翻訳", desc: "「農業現場・ドメインの実務知識」を、AgriTech側の言葉（営農支援、データ駆動型農業、トレーサビリティ）に翻訳して伝える。必須要件への充足度を明示する。" },
+              { step: "1", title: "経験の棚卸し（業務知識＋技術）", desc: "栽培管理、農機連携、出荷管理、JA連携など関わった領域を整理します。収量改善やコスト削減など、数値で語れる実績を抽出します。" },
+              { step: "2", title: "ギャップの特定と学習", desc: "応募したい求人の必須要件を読み、不足するスタック（IoT、データ分析など）を把握します。Python/SQLを在職中に学び、小さくてもデータを扱う成果物を作ります。" },
+              { step: "3", title: "エージェント登録で市場感を確認", desc: "Geekly、レバテックキャリアなどIT特化型に登録し、提案される求人の傾向と提示レンジを把握します。" },
+              { step: "4", title: "職務経歴書で現場知識を翻訳", desc: "「農業現場・ドメインの実務知識」を、AgriTech側の言葉（営農支援、データ駆動型農業、トレーサビリティ）に翻訳して伝えます。必須要件への充足度を明示します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -270,7 +270,7 @@ export default function AgriculturePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">農業の知識をアグリテックで活かそう</h2>
-          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、あなたの経験が市場でどう評価されるかを確認しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の経験が市場でどう評価されるかを確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

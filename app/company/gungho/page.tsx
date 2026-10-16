@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/gungho/" },
   title: "ガンホーの年収は平均750万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "ガンホー（パズドラ運営）へのエンジニア転職を実データで解説。有価証券報告書の平均年収750万円（2024年12月期・単体全社員平均）、Unity/C#・サーバーサイドの技術スタック、選考フロー、30代40代の現実までまとめました。",
+    "ガンホー（パズドラ運営）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収750万円（2024年12月期・単体全社員平均）、Unity/C#・サーバーサイドの技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -87,7 +87,7 @@ export default function GungHoCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="ガンホー エンジニア転職ガイド" description="ガンホー（パズドラ運営）へのエンジニア転職を実データで解説。有価証券報告書の平均年収750万円（2024年12月期・単体全社員平均）、Unity/C#・サーバーサイドの技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/gungho/" />
+      <ArticleJsonLd title="ガンホー エンジニア転職ガイド" description="ガンホー（パズドラ運営）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収750万円（2024年12月期・単体全社員平均）、Unity/C#・サーバーサイドの技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/gungho/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ガンホー" }]} />
 
@@ -99,7 +99,7 @@ export default function GungHoCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ガンホーの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: ガンホーの平均年間給与は750万円です（2024年12月期 有価証券報告書・提出会社=単体全社員平均、平均年齢41.7歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 750万円（2024年12月期 有報）。技術職に限らない全社員平均で、ガンホーは12月決算です。</li><li>・推移は2020年12月期の645万円から緩やかに上昇し、2022年12月期・2024年12月期はともに750万円（各期 有報）。</li><li>・職種・等級別の公式な年収表は非公表。エンジニア個人の提示額は募集ポジション・等級により異なるため、求人票・エージェントで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 750万円です（2024年12月期 有価証券報告書）。技術職に限らない全社員平均で、ガンホーは12月決算です。</li><li>・推移は2020年12月期の645万円から緩やかに上昇し、2022年12月期・2024年12月期はともに750万円です（各期 有価証券報告書）。</li><li>・職種・等級別の公式な年収表は非公表です。エンジニア個人の提示額は募集ポジション・等級により異なるため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -118,12 +118,12 @@ export default function GungHoCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              ガンホーは<strong>パズドラ等の長期運用タイトルを、Unity/C#のモバイル開発と大規模サーバーサイドで支える企業</strong>です。新規開発だけでなく運用・負荷対策の比重が高いのが特徴です。有報の平均年収は単体全社員平均で750万円（2024年12月期）と、コンシューマ大手と比べると中位の水準です。
+              ガンホーは<strong>パズドラ等の長期運用タイトルを、Unity/C#のモバイル開発と大規模サーバーサイドで支える企業</strong>です。新規開発だけでなく運用・負荷対策の比重が高いのが特徴です。有価証券報告書の平均年収は単体全社員平均で750万円（2024年12月期）と、コンシューマ大手と比べると中位の水準です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Unity/C#のモバイル開発、または大規模サービスのサーバーサイド運用に強みのあるエンジニア</li>
               <li>● <strong>向いていない人</strong>：完全新規・短サイクルの受託開発を強く志向する人</li>
-              <li>● <strong>30代・40代</strong>：長期運用・負荷対策・サーバー設計の専門性があれば年齢はハンデになりにくい</li>
+              <li>● <strong>30代・40代</strong>：長期運用・負荷対策・サーバー設計の専門性があれば年齢はハンデになりにくいです</li>
             </ul>
           </div>
         </section>
@@ -153,7 +153,7 @@ export default function GungHoCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2024年12月期 有価証券報告書に基づく提出会社（単体）の全社員平均値。ガンホーは12月決算です。技術スタックは公式採用ページ（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2024年12月期 有価証券報告書に基づく提出会社（単体）の全社員平均値。ガンホーは12月決算です。技術スタックは公式採用ページです（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -216,7 +216,7 @@ export default function GungHoCompanyPage() {
           </div>
           <p className="text-xs text-slate-400 mb-4">出典: ガンホー・オンライン・エンターテイメント 有価証券報告書（各年12月期）。いずれも技術職に限らない<strong>提出会社（単体）の全社員平均</strong>の平均年間給与です。ガンホーは12月決算です。エンジニア個人の年収は等級・ポジションにより異なります。</p>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-sm text-amber-900">
-            <p className="leading-relaxed">表の金額は技術職に限らない全社員平均で、運営・管理部門も含みます。エンジニア職の提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。ガンホーは持株会社を介さず上場会社自身が開発・運営を行うため、有報の数字が現場像に比較的近いのが特徴です。</p>
+            <p className="leading-relaxed">表の金額は技術職に限らない全社員平均で、運営・管理部門も含みます。エンジニア職の提示額は募集ポジション・等級により幅があるため、個別求人ごとに確認するのが確実です。ガンホーは持株会社を介さず上場会社自身が開発・運営を行うため、有価証券報告書の数字が現場像に比較的近いのが特徴です。</p>
           </div>
         </section>
 
@@ -267,9 +267,9 @@ export default function GungHoCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ガンホー転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。ゲーム企業の求人も扱い、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。ゲーム業界の実務経験者への提案に強い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。ゲーム企業の求人も扱い、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。ゲーム業界の実務経験者への提案に強いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

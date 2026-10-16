@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/no-overtime/" },
   title: "残業少なめIT企業の見極め方【月20時間以下の企業を見つける】",
   description:
-    "残業が少ないIT企業の見極め方を解説。口コミの読み方、面接での確認方法、残業が少ない企業の特徴、おすすめ企業タイプを紹介します。",
+    "残業が少ないIT企業の見極め方を解説します。口コミの読み方、面接での確認方法、残業が少ない企業の特徴、おすすめ企業タイプを紹介します。",
 };
 
 const faqs = [
@@ -52,7 +52,7 @@ export default function NoOvertimePage() {
     <>
       <ArticleJsonLd
         title="残業少なめIT企業の見極め方【月20時間以下の企業を見つける】"
-        description="残業が少ないIT企業の見極め方を解説。口コミの読み方、面接での確認方法、残業が少ない企業の特徴、おすすめ企業タイプを紹介します。"
+        description="残業が少ないIT企業の見極め方を解説します。口コミの読み方、面接での確認方法、残業が少ない企業の特徴、おすすめ企業タイプを紹介します。"
         url="/purpose/no-overtime/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -63,13 +63,13 @@ export default function NoOvertimePage() {
         <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | 月20時間以下の企業を見つける方法</p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 現職の残業が月40時間以上で改善したい</li>
               <li>- 残業が少ない環境でプライベートを充実させたい</li>
               <li>- 定時退社して自己学習や副業の時間を確保したい</li>
-              <li>- 健康面で長時間労働を続けられない</li>
+              <li>- 健康面で長時間労働を続けられません</li>
             </ul>
           </div>
         </section>
@@ -110,10 +110,10 @@ export default function NoOvertimePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">残業少なめ企業の見極めポイント</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "口コミサイトで部署別残業を確認", desc: "OpenWork、Lighthouseで部署別・職種別の残業時間を確認。全社平均ではなく配属予定チームの情報を探しましょう。" },
+              { num: "1", title: "口コミサイトで部署別残業を確認", desc: "OpenWork、Lighthouseで部署別・職種別の残業時間を確認します。全社平均ではなく配属予定チームの情報を探しましょう。" },
               { num: "2", title: "面接で具体的な数字を質問", desc: "「直近3ヶ月のチーム平均残業時間は？」「繁忙期はいつで、その時の残業時間は？」と聞きましょう。" },
-              { num: "3", title: "みなし残業時間を確認", desc: "みなし残業45時間の企業は実際に残業が多い可能性大。みなし20時間以下の企業が目安です。" },
-              { num: "4", title: "開発プロセスを確認", desc: "アジャイル開発でスプリント管理されている企業は残業が少ない傾向。ウォーターフォール+タイトな納期は要注意。" },
+              { num: "3", title: "みなし残業時間を確認", desc: "みなし残業45時間の企業は実際に残業が多い可能性大です。みなし20時間以下の企業が目安です。" },
+              { num: "4", title: "開発プロセスを確認", desc: "アジャイル開発でスプリント管理されている企業は残業が少ない傾向です。ウォーターフォール+タイトな納期は要注意です。" },
               { num: "5", title: "エージェントに内部情報を確認", desc: "エージェントは企業の内部情報を持っています。残業の実態や離職率など、求人票に載らない情報を聞きましょう。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -131,9 +131,9 @@ export default function NoOvertimePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "マイナビITエージェント", point: "残業少なめの求人を条件指定で検索可能。企業の内部情報にも詳しい。" },
-              { name: "レバテックキャリア", point: "自社サービス企業の求人が豊富。働き方に関する情報提供も手厚い。" },
-              { name: "doda ITエージェント", point: "大手企業・安定企業の求人が多い。残業月20h以下の条件で絞り込み可能。" },
+              { name: "マイナビITエージェント", point: "残業少なめの求人を条件指定で検索可能です。企業の内部情報にも詳しいです。" },
+              { name: "レバテックキャリア", point: "自社サービス企業の求人が豊富です。働き方に関する情報提供も手厚いです。" },
+              { name: "doda ITエージェント", point: "大手企業・安定企業の求人が多いです。残業月20h以下の条件で絞り込み可能です。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -171,7 +171,7 @@ export default function NoOvertimePage() {
               { name: "ワークライフバランス重視の転職", href: "/purpose/wlb/" },
               { name: "フルリモート勤務ガイド", href: "/purpose/remote-full/" },
               { name: "安定重視のエンジニア転職", href: "/purpose/stable/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

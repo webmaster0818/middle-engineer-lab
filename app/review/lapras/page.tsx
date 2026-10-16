@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "LAPRASの評判・口コミ｜30代40代エンジニアの本音と使い方";
 const DESCRIPTION =
-  "LAPRASはGitHubやQiita・X・connpassなどWeb全体の発信をAIが解析するスカウト型。30代40代目線で評判・口コミ、スコアの仕組み、発信がない時の対処、Findyとの違いを出典付きで解説します。";
+  "LAPRASはGitHubやQiita・X・connpassなどWeb全体の発信をAIが解析するスカウト型です。30代40代目線で評判・口コミ、スコアの仕組み、発信がない時の対処、Findyとの違いを出典付きで解説します。";
 const URL = "/review/lapras/";
 
 export const metadata: Metadata = {
@@ -43,33 +43,33 @@ const basicData: [string, string][] = [
 const goodReviews = [
   {
     title: "発信が自動でポートフォリオ化される",
-    body: "X（旧Twitter）やエンジニアブログ等では、GitHubだけでなくQiitaやnote、登壇（connpass）などWeb上の発信をAIが自動でクロールしてポートフォリオ化してくれるため、手間をかけずに実績がまとまったという傾向の声が見られる。自分で職務経歴を整理する負担が軽いという感想がある。",
+    body: "X（旧Twitter）やエンジニアブログ等では、GitHubだけでなくQiitaやnote、登壇（connpass）などWeb上の発信をAIが自動でクロールしてポートフォリオ化してくれるため、手間をかけずに実績がまとまったという傾向の声が見られます。自分で職務経歴を整理する負担が軽いという感想があります。",
   },
   {
     title: "マッチ精度が高いと感じる",
-    body: "はてなブックマーク等では、Web全体の発信内容を踏まえたスカウトが届くため、技術領域や興味関心に合った企業からの打診が多くミスマッチが少なかったという傾向の感想が確認できる。",
+    body: "はてなブックマーク等では、Web全体の発信内容を踏まえたスカウトが届くため、技術領域や興味関心に合った企業からの打診が多くミスマッチが少なかったという傾向の感想が確認できます。",
   },
   {
-    title: "スコアで自分の立ち位置がわかる",
-    body: "技術・ビジネス・影響力などをスコア化する仕組みがあり、自分の市場での立ち位置を客観的に把握できたという傾向の声がある（平均3.0・上位約4%が3.5以上とされる二次情報）。すぐ転職しなくても定点観測に使えるという感想がある。",
+    title: "スコアで自分の立ち位置が分かる",
+    body: "技術・ビジネス・影響力などをスコア化する仕組みがあり、自分の市場での立ち位置を客観的に把握できたという傾向の声があります（平均3.0・上位約4%が3.5以上とされる二次情報）。すぐ転職しなくても定点観測に使えるという感想があります。",
   },
 ];
 
 const badReviews = [
   {
     title: "発信が少ないとスコアが伸びない",
-    body: "LAPRASはWeb上の発信を解析する性質のため、GitHub活動・技術記事・登壇などのアウトプットが少ない人はスコアが伸びず、スカウトも届きにくかったという傾向の声がX等で見られる。",
-    cope: "QiitaやnoteでのアウトプットやOSS活動、connpassでの登壇など、公開できる発信を少しずつ蓄積する。発信の時間が取れない場合は、担当が提案するエージェント型のレバテックキャリアを併用するのが現実的。",
+    body: "LAPRASはWeb上の発信を解析する性質のため、GitHub活動・技術記事・登壇などのアウトプットが少ない人はスコアが伸びず、スカウトも届きにくかったという傾向の声がX等で見られます。",
+    cope: "QiitaやnoteでのアウトプットやOSS活動、connpassでの登壇など、公開できる発信を少しずつ蓄積します。発信の時間が取れない場合は、担当が提案するエージェント型のレバテックキャリアを併用するのが現実的です。",
   },
   {
     title: "地方・非Web系の求人が少ない",
-    body: "導入企業は首都圏のWeb自社開発が中心の傾向で、地方在住者やSIer・組み込みなど非Web志向の人には選択肢が少なかったという傾向の声がある。",
-    cope: "フルリモート可の求人に絞るか、地方・SIer求人も扱う総合型エージェントを併用する。LAPRASはモダン技術・発信重視の枠と割り切る。",
+    body: "導入企業は首都圏のWeb自社開発が中心の傾向で、地方在住者やSIer・組み込みなど非Web志向の人には選択肢が少なかったという傾向の声があります。",
+    cope: "フルリモート可の求人に絞るか、地方・SIer求人も扱う総合型エージェントを併用します。LAPRASはモダン技術・発信重視の枠と割り切ります。",
   },
   {
     title: "自動クロールの内容にズレを感じることがある",
-    body: "自動でWeb上の情報を集める仕組み上、意図と異なるアカウントや古い情報が反映されたと感じたという傾向の声が一部見られる。",
-    cope: "プロフィール上で連携する情報や公開範囲を確認・調整し、最新の実績が反映されるよう手動で補足する。誤った紐付けがあれば設定から修正するとよい。",
+    body: "自動でWeb上の情報を集める仕組み上、意図と異なるアカウントや古い情報が反映されたと感じたという傾向の声が一部見られます。",
+    cope: "プロフィール上で連携する情報や公開範囲を確認・調整し、最新の実績が反映されるよう手動で補足します。誤った紐付けがあれば設定から修正するとよいでしょう。",
   },
 ];
 
@@ -92,27 +92,27 @@ const flow = [
   {
     step: "STEP1",
     title: "無料登録・各サービス連携",
-    body: "公式サイトから登録し、GitHub・Qiita・note・X・connpass等を連携。AIがWeb上の発信を自動でクロールしてポートフォリオを生成する。",
+    body: "公式サイトから登録し、GitHub・Qiita・note・X・connpass等を連携します。AIがWeb上の発信を自動でクロールしてポートフォリオを生成します。",
   },
   {
     step: "STEP2",
     title: "ポートフォリオ・スコアの確認",
-    body: "自動生成されたポートフォリオとスコア（技術・影響力など）を確認。内容にズレがあれば公開範囲や連携を調整する。",
+    body: "自動生成されたポートフォリオとスコア（技術・影響力など）を確認します。内容にズレがあれば公開範囲や連携を調整します。",
   },
   {
     step: "STEP3",
     title: "企業からのスカウト受信",
-    body: "発信内容を踏まえた企業からスカウトが届く。Web全体の活動を反映するため、技術領域や関心に合った打診が来やすい傾向がある。",
+    body: "発信内容を踏まえた企業からスカウトが届きます。Web全体の活動を反映するため、技術領域や関心に合った打診が来やすい傾向があります。",
   },
   {
     step: "STEP4",
     title: "カジュアル面談・選考",
-    body: "興味のあるスカウトはカジュアル面談で社風・技術スタックを確認してから選考へ。発信内容が会話のきっかけになりやすい。",
+    body: "興味のあるスカウトはカジュアル面談で社風・技術スタックを確認してから選考に進みます。発信内容が会話のきっかけになりやすいです。",
   },
   {
     step: "STEP5",
     title: "内定・条件確認・入社",
-    body: "内定後は条件を確認して入社。年収交渉は自分主導になりやすいため、相場を把握しておくとよい。",
+    body: "内定後は条件を確認して入社します。年収交渉は自分主導になりやすいため、相場を把握しておくとよいでしょう。",
   },
 ];
 
@@ -201,14 +201,14 @@ export default function LaprasReview() {
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：このような方におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
-              <span className="font-bold">総合評価：技術記事・OSS・登壇など『発信』が多い人の実力可視化に強い</span>。一言でいえば「Web全体にアウトプットがあり、GitHubだけでなく発信全体で評価されたいエンジニア」向けのスカウト型サービスです。
+              <span className="font-bold">総合評価：技術記事・OSS・登壇など『発信』が多い人の実力可視化に強いです</span>。要約すると「Web全体にアウトプットがあり、GitHubだけでなく発信全体で評価されたいエンジニア」向けのスカウト型サービスです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・GitHub・Qiita・note・X・connpassをAIが解析し、ポートフォリオを自動生成。</li>
-              <li>・FindyがGitHub中心なのに対し、LAPRASはWeb全体の発信を評価する点が差別化。</li>
-              <li>・発信が少ない人・地方非Web志向には不向き。Findy併用が有効。</li>
+              <li>・GitHub・Qiita・note・X・connpassをAIが解析し、ポートフォリオを自動生成します。</li>
+              <li>・FindyがGitHub中心なのに対し、LAPRASはWeb全体の発信を評価する点が差別化します。</li>
+              <li>・発信が少ない人・地方非Web志向には不向きです。Findy併用が有効です。</li>
             </ul>
           </div>
         </section>
@@ -234,7 +234,7 @@ export default function LaprasReview() {
           </h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              LAPRASは、担当アドバイザーが求人を提案するエージェント型ではなく、AIが解析したあなたの発信を見た企業からスカウトが届くスカウト型です。担当が提案する
+              LAPRASは、担当アドバイザーが求人を提案するエージェント型ではなく、AIが解析したご自身の発信を見た企業からスカウトが届くスカウト型です。担当が提案する
               <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
               のようなエージェント型とは、求人にたどり着く経路が根本的に異なります。
             </p>
@@ -389,7 +389,7 @@ export default function LaprasReview() {
               <span className="font-bold text-slate-700">40代の場合：</span>
               長年のアウトプット（技術ブログ・登壇・OSS）が蓄積している人ほど、年齢より発信内容で評価されやすいのが利点です。書類選考での年齢ハンデを、発信の実績で補えるのは40代にとって心強い面です。一方、求人が首都圏のWeb自社開発に偏るため、求人の幅は
               <Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向けエージェント</Link>
-              で補完するのが堅実。マネジメント軸で上を狙うなら
+              で補完するのが堅実です。マネジメント軸で上を狙うなら
               <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けサービス</Link>
               も検討してください。
             </p>
@@ -490,7 +490,7 @@ export default function LaprasReview() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">LAPRASであなたの発信を可視化する</h2>
+          <h2 className="text-xl font-bold mb-3">LAPRASでご自身の発信を可視化する</h2>
           <p className="text-blue-100 text-sm mb-4">
             これまでの発信が自動でポートフォリオに。市場での立ち位置を確かめてみませんか？
           </p>

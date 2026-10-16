@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/casual-dress/" },
   title: "服装自由のエンジニア求人の読み解き方【2026年版】",
   description:
-    "「服装自由」を企業カルチャーの代理指標として読み解くガイド。私服OKと私服でお越しの違い、自社開発とSES客先常駐の差、30-40代が見るべき社風シグナルまで解説。",
+    "「服装自由」を企業カルチャーの代理指標として読み解くガイドです。私服OKと私服でお越しの違い、自社開発とSES客先常駐の差、30-40代が見るべき社風シグナルまで解説します。",
 };
 
 const faqs = [
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "30-40代が服装自由の会社で気をつけることは？",
-    a: "服装自由はカルチャーの読み取りに使える一方、世代ギャップで“自分だけ浮く”可能性も正直に意識しておきましょう。若手中心のラフな職場に、これまでスーツ文化で過ごしてきたミドルが入ると、服装だけでなくコミュニケーションのトーンや意思決定スタイルにも適応が必要です。服装の自由さは『その会社の文化に自分がフィットするか』を見極める材料の一つと捉えるのが、ミドルにとって有益な読み方です。",
+    a: "服装自由はカルチャーの読み取りに使える一方、世代ギャップで“自分だけ浮く”可能性も意識しておきましょう。若手中心のラフな職場に、これまでスーツ文化で過ごしてきたミドルが入ると、服装だけでなくコミュニケーションのトーンや意思決定スタイルにも適応が必要です。服装の自由さは『その会社の文化に自分がフィットするか』を見極める材料の一つと捉えるのが、ミドルにとって有益な読み方です。",
   },
   {
     q: "服装自由の求人はどのくらいある？",
@@ -53,7 +53,7 @@ export default function CasualDressPage() {
     <>
       <ArticleJsonLd
         title="服装自由のエンジニア求人の読み解き方【2026年版】"
-        description="「服装自由」を企業カルチャーの代理指標として読み解くガイド。私服OKと私服でお越しの違い、自社開発とSESの差、30-40代が見るべき社風シグナルまで解説。"
+        description="「服装自由」を企業カルチャーの代理指標として読み解くガイドです。私服OKと私服でお越しの違い、自社開発とSESの差、30-40代が見るべき社風シグナルまで解説します。"
         url="/purpose/casual-dress/"
       />
       <script
@@ -85,7 +85,7 @@ export default function CasualDressPage() {
             「服装自由」を単なる服装の話で終わらせると、本質を見落とします。30-40代のミドルにとって重要なのは、服装そのものではなく<strong>その裏にある企業カルチャー</strong>です。ドレスコードの自由度は、年功序列か成果主義か、形式重視かフラットか——そうした社風を推測する<strong>代理指標</strong>として機能します。本記事は、服装自由の言葉に潜む罠（私服OK／私服でお越し／実態オフィスカジュアル）を整理し、服装を入口に社風を読み解く方法を解説します。単なる服装記事ではなく、企業選びの判断材料として服装自由を活用するのがねらいです。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- スーツ文化の堅い職場から、フラットな社風へ移りたい</li>
               <li>- 服装の自由さから会社のカルチャーを見抜きたい</li>
@@ -118,10 +118,10 @@ export default function CasualDressPage() {
               </thead>
               <tbody>
                 {[
-                  { type: "服装自由", desc: "入社後も私服可。多くはビジネスカジュアル想定。極端にラフだと浮くことも" },
-                  { type: "私服でお越しください", desc: "主に面接案内。“スーツ回避”の指示で、入社後の服装まで自由とは限らない" },
-                  { type: "オフィスカジュアル", desc: "ジャケット不要だが襟付き・きれいめが基本。完全な自由ではない" },
-                  { type: "ビジネスカジュアル可", desc: "スーツでなくてよいが、ジャケット着用が無難とされる場面もある" },
+                  { type: "服装自由", desc: "入社後も私服可です。多くはビジネスカジュアル想定です。極端にラフだと浮くことも" },
+                  { type: "私服でお越しください", desc: "主に面接案内です。“スーツ回避”の指示で、入社後の服装まで自由とは限りません" },
+                  { type: "オフィスカジュアル", desc: "ジャケット不要だが襟付き・きれいめが基本です。完全な自由ではありません" },
+                  { type: "ビジネスカジュアル可", desc: "スーツでなくてよいが、ジャケット着用が無難とされる場面もあります" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -190,7 +190,7 @@ export default function CasualDressPage() {
             長くスーツ文化の職場で過ごしてきたミドルにとって、服装自由の職場は「自分にフィットするか」を見極める格好の材料です。服装が自由ということは、年齢や肩書きより成果・実力で評価される傾向が強いことが多く、これはミドルにとって追い風にもなります。
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
-            一方で正直に言えば、若手中心のラフな職場に入ると、服装だけでなくコミュニケーションのトーンや意思決定のスピードにも適応が必要で、最初は“自分だけ浮く”感覚を持つこともあります。だからこそ、服装自由を入口にしつつ、自分がその文化に馴染めるかを冷静に見極めることが大切です。社風そのものを軸に企業を選ぶなら、
+            一方で実際には、若手中心のラフな職場に入ると、服装だけでなくコミュニケーションのトーンや意思決定のスピードにも適応が必要で、最初は“自分だけ浮く”感覚を持つこともあります。だからこそ、服装自由を入口にしつつ、自分がその文化に馴染めるかを冷静に見極めることが大切です。社風そのものを軸に企業を選ぶなら、
             <Link href="/purpose/growth/" className="text-petrol hover:underline">成長企業の見極め方</Link>
             や
             <Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大企業の比較</Link>
@@ -228,7 +228,7 @@ export default function CasualDressPage() {
               { name: "SIer・受託からWeb系への転職", href: "/industry/sier-to-web/" },
               { name: "ワークライフバランス重視の転職", href: "/purpose/wlb/" },
               { name: "副業OK求人の見極め方", href: "/purpose/side-job-ok/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

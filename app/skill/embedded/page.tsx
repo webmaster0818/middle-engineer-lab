@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/embedded/" },
   title: "組込みエンジニアの転職市場ガイド｜年収・求人の探し方",
   description:
-    "組込みエンジニアの転職市場を30代・40代視点で解説。経産省・レバテックの年収データ、求められる経験レベル、自動車・IoT・エッジAIのキャリアパス、求人の探し方、学習戦略、FAQを網羅します。",
+    "組込みエンジニアの転職市場を30代・40代視点で解説します。経産省・レバテックの年収データ、求められる経験レベル、自動車・IoT・エッジAIのキャリアパス、求人の探し方、学習戦略、FAQを網羅します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：組込み転職の攻め方" },
+  { id: "conclusion", label: "結論：組込み転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
@@ -29,22 +29,22 @@ const toc = [
 const careerPaths = [
   {
     role: "自動車ソフトウェアエンジニア",
-    note: "ADAS/自動運転/車載OS/制御。SDV化で需要拡大。AUTOSAR・機能安全の知識が効く。",
+    note: "ADAS/自動運転/車載OS/制御です。SDV化で需要拡大です。AUTOSAR・機能安全の知識が効きます。",
     demand: "高",
   },
   {
     role: "IoT/エッジエンジニア",
-    note: "IoTデバイス設計、省電力、通信、クラウド連携。Web/クラウドとの融合領域。",
+    note: "IoTデバイス設計、省電力、通信、クラウド連携です。Web/クラウドとの融合領域です。",
     demand: "中〜高",
   },
   {
     role: "エッジAIエンジニア",
-    note: "デバイス上でのAI推論（TinyML・組込み画像認識）。希少で市場価値が高い。",
+    note: "デバイス上でのAI推論です（TinyML・組込み画像認識）。希少で市場価値が高いです。",
     demand: "中（希少性高）",
   },
   {
     role: "半導体/FA・産業機器",
-    note: "半導体ファーム、産業用ロボット・FA機器の制御。実務経験がそのまま価値になる。",
+    note: "半導体ファーム、産業用ロボット・FA機器の制御です。実務経験がそのまま価値になります。",
     demand: "中",
   },
 ];
@@ -95,7 +95,7 @@ export default function EmbeddedSkillPage() {
     <>
       <ArticleJsonLd
         title="組込みエンジニアの転職市場ガイド｜年収・求人の探し方"
-        description="組込みエンジニアの転職市場を30代・40代視点で解説。経産省・レバテックの年収データ、キャリアパス、求人の探し方、学習戦略、FAQを網羅します。"
+        description="組込みエンジニアの転職市場を30代・40代視点で解説します。経産省・レバテックの年収データ、キャリアパス、求人の探し方、学習戦略、FAQを網羅します。"
         url="/skill/embedded/"
       />
       <script
@@ -118,7 +118,7 @@ export default function EmbeddedSkillPage() {
           最終更新: 2026年6月 | 組込みエンジニアの転職市場を30代・40代視点で分析
         </p>
         <p className="text-slate-600 leading-relaxed mb-4">
-          組込みエンジニアは、自動車・IoTデバイス・家電・産業用ロボットなどに搭載されるソフトウェアを開発する専門職です。自動車のSDV化やIoT/エッジAIの広がりで重要性が増しています。本記事では求人DBサイトと同じ土俵で勝負するのではなく、ミドル層が「どの領域を狙い、どう年収を伸ばすか」という情報意図に絞って解説します。
+          組込みエンジニアは、自動車・IoTデバイス・家電・産業用ロボットなどに搭載されるソフトウェアを開発する専門職です。自動車のSDV化やIoT/エッジAIの広がりで重要性が増しています。本記事では求人DBサイトと同じ土俵を強みにするのではなく、ミドル層が「どの領域を狙い、どう年収を伸ばすか」という情報意図に絞って解説します。
         </p>
         <DataNote
           surveyedAt="2026年6月"
@@ -146,15 +146,15 @@ export default function EmbeddedSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：組込み転職の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：組込み転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
               組込みは「枯れたスキル」ではなく、自動車SDV化とエッジAIで再び需要が伸びている領域です。30代・40代は<strong>既存の制御/低レイヤー経験×伸びる領域（自動車・IoT・エッジAI）</strong>で年収を伸ばせます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 平均年収は約603.9万円（経産省調査）／約580万円（レバテック集計・2024年11月時点）とIT職の中でも高め。</li>
-              <li>② 自動車（AUTOSAR・機能安全）やエッジAIなど専門性で上振れ。汎用C/C++だけでは差がつきにくい。</li>
-              <li>③ 求人は地方拠点も多い。IT特化エージェント＋総合型を併用し、製造業の求人を取りこぼさないのがコツ。</li>
+              <li>① 平均年収は約603.9万円（経産省調査）／約580万円（レバテック集計・2024年11月時点）とIT職の中でも高めです。</li>
+              <li>② 自動車（AUTOSAR・機能安全）やエッジAIなど専門性で上振れ。汎用C/C++だけでは差がつきにくいです。</li>
+              <li>③ 求人は地方拠点も多いです。IT特化エージェント＋総合型を併用し、製造業の求人を取りこぼさないのがコツです。</li>
             </ul>
           </div>
         </section>
@@ -185,7 +185,7 @@ export default function EmbeddedSkillPage() {
             </table>
           </div>
           <p className="text-slate-600 leading-relaxed mb-4">
-            ITエンジニア全体の年代別水準と比べると、組込みの平均（約580〜604万円）は同年代平均の中でも高めです。レバテックが公表する正社員SEの年代別平均年収は、20代約378万円／30代約499万円／40代約618万円／50代約685万円（2025年）。組込みの平均は30代SE平均を上回り、40代SE平均に迫る水準で、専門性が年収に反映されやすい職種だとわかります。
+            ITエンジニア全体の年代別水準と比べると、組込みの平均（約580〜604万円）は同年代平均の中でも高めです。レバテックが公表する正社員SEの年代別平均年収は、20代約378万円／30代約499万円／40代約618万円／50代約685万円です（2025年）。組込みの平均は30代SE平均を上回り、40代SE平均に迫る水準で、専門性が年収に反映されやすい職種だと分かります。
           </p>
           <p className="text-slate-600 leading-relaxed">
             背景には構造的な人材不足があります。経済産業省「IT人材需給に関する調査」（2019年公表）では2030年に最大約79万人のIT人材不足が試算されており、とくに自動車のソフトウェア開発は人材の取り合いが続いています。なお「自動車ソフト求人の前年比＋◯%」「求人倍率◯倍」といった数値は確かな一次出典を確認できなかったため、本記事では断定しません。
@@ -196,13 +196,13 @@ export default function EmbeddedSkillPage() {
         <section id="level" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            組込み求人は「C/C++が書ける」だけでなく、対象ハード・規格・安全要件の理解で評価が分かれます。求人票で頻出する要件は次の通りです。
+            組込み求人は「C/C++が書ける」だけでなく、対象ハード・規格・安全要件の理解で評価が分かれます。求人票で頻出する要件は次のとおりです。
           </p>
           <div className="space-y-3">
             {[
-              { lv: "歓迎されやすい人", body: "C/C++の実務経験、マイコン（ARM Cortex-M等）やRTOSでの開発経験、CAN/SPI/I2C等の通信、ハードに近いデバッグ経験。" },
-              { lv: "ミドル〜シニア要件", body: "アーキテクチャ設計、リアルタイム性/省電力の最適化、チームリード、品質プロセス（レビュー・テスト設計）の主導。" },
-              { lv: "領域別の上乗せ要件", body: "自動車ならAUTOSAR・ISO 26262（機能安全）、エッジAIならTinyML/推論最適化、IoTならMQTT/BLE/クラウド連携、半導体ならファーム/ドライバ。" },
+              { lv: "歓迎されやすい人", body: "C/C++の実務経験、マイコン（ARM Cortex-M等）やRTOSでの開発経験、CAN/SPI/I2C等の通信、ハードに近いデバッグ経験です。" },
+              { lv: "ミドル〜シニア要件", body: "アーキテクチャ設計、リアルタイム性/省電力の最適化、チームリード、品質プロセス（レビュー・テスト設計）の主導です。" },
+              { lv: "領域別の上乗せ要件", body: "自動車ならAUTOSAR・ISO 26262（機能安全）、エッジAIならTinyML/推論最適化、IoTならMQTT/BLE/クラウド連携、半導体ならファーム/ドライバです。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.lv}</h3>
@@ -216,7 +216,7 @@ export default function EmbeddedSkillPage() {
         <section id="career" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスの選択肢</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            同じ組込みでも、狙う領域で年収と働き方が変わります。代表的な方向性と求人の出やすさの目安は次の通りです。
+            同じ組込みでも、狙う領域で年収と働き方が変わります。代表的な方向性と求人の出やすさの目安は次のとおりです。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl overflow-hidden">
             <table className="w-full text-sm">
@@ -250,21 +250,21 @@ export default function EmbeddedSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT全般＋組込み案件・高年収帯）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT/Web全般に強く高年収求人比率が高い特化型。組込・制御エンジニアの求人も扱い、年収レンジの目安を相談しやすい窓口です。
+                IT/Web全般に強く高年収求人比率が高い特化型です。組込・制御エンジニアの求人も扱い、年収レンジの目安を相談しやすい窓口です。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（自動車・半導体のハイクラス／スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                年収750万円以上をハイクラスと定義するスカウト型。自動車・半導体の高年収ポジションや管理職求人に出会いやすく、専門性のある組込みエンジニアと相性が良い窓口です。
+                年収750万円以上をハイクラスと定義するスカウト型です。自動車・半導体の高年収ポジションや管理職求人に出会いやすく、専門性のある組込みエンジニアと相性が良い窓口です。
               </p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（求人量・地方求人）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                国内最大級の求人数を持ち全国対応。製造業の地方拠点求人も含めて網羅できるため、地域を問わず探したい人の「取りこぼし防止」枠として有効です。
+                国内最大級の求人数を持ち全国対応です。製造業の地方拠点求人も含めて網羅できるため、地域を問わず探したい人の「取りこぼし防止」枠として有効です。
               </p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
@@ -282,8 +282,8 @@ export default function EmbeddedSkillPage() {
           </p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "ハードに近い経験を組込みに接続する", desc: "電気電子・制御・FA出身なら、ハードの理解は強い武器。C/C++とマイコン開発を補えば、ハードを知らないソフト出身者との差別化になります。" },
-              { num: "2", title: "個人でマイコン開発の成果物を作る", desc: "ARM系マイコンやRaspberry Pi/ESP32等でセンサー制御・通信の小作品を作り、回路とコードをセットで公開。実機を動かした証拠が効きます。" },
+              { num: "1", title: "ハードに近い経験を組込みに接続する", desc: "電気電子・制御・FA出身なら、ハードの理解は強い強みです。C/C++とマイコン開発を補えば、ハードを知らないソフト出身者との差別化になります。" },
+              { num: "2", title: "個人でマイコン開発の成果物を作る", desc: "ARM系マイコンやRaspberry Pi/ESP32等でセンサー制御・通信の小作品を作り、回路とコードをセットで公開しています。実機を動かした証拠が効きます。" },
               { num: "3", title: "SES/受託から事業会社の内製チームへ", desc: "まずSES/受託で組込み実務の年数を積み、その後に自動車OEMやメーカーの内製チームへ。段階を踏むことで未経験ハードルを下げられます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
@@ -310,7 +310,7 @@ export default function EmbeddedSkillPage() {
           </p>
           <div className="space-y-3">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">専門規格の知識が長期の武器になる</h3>
+              <h3 className="font-bold text-blue-800 mb-2">専門規格の知識が長期の強みになる</h3>
               <p className="text-sm text-petrol-deep">
                 AUTOSARや機能安全（ISO 26262）は習得に時間がかかる分、一度身につければ陳腐化しにくく、40代以降も評価され続けます。
               </p>
@@ -340,11 +340,11 @@ export default function EmbeddedSkillPage() {
             組込みは実機での経験が最も評価されます。座学だけでなく、動くものを作って語れる状態を目指しましょう。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>ARM系マイコンやESP32等で、センサー制御・通信の小作品を実機で動かす</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>RTOS（FreeRTOS/Zephyr）でのタスク設計・割り込み処理を一通り体験する</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>狙う領域（自動車/IoT/エッジAI）の規格・要素技術を1つ深掘りする</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>Rust（組込み）やPython（テスト自動化）など評価が上がりつつある言語に触れる</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>不具合解析・品質プロセスの経験を職務経歴書で言語化する</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>ARM系マイコンやESP32等で、センサー制御・通信の小作品を実機で動かします</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>RTOS（FreeRTOS/Zephyr）でのタスク設計・割り込み処理を一通り体験します</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>狙う領域（自動車/IoT/エッジAI）の規格・要素技術を1つ深掘りします</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>Rust（組込み）やPython（テスト自動化）など評価が上がりつつある言語に触れます</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>不具合解析・品質プロセスの経験を職務経歴書で言語化します</li>
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
             学習継続は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">働きながら学び続ける方法</Link>、Rust併用なら<Link href="/skill/rust/" className="text-petrol hover:underline">Rustエンジニアの転職市場ガイド</Link>も参考にしてください。
@@ -361,8 +361,8 @@ export default function EmbeddedSkillPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3 text-sm">組込み転職が向いている人</h3>
               <ul className="space-y-2 text-sm text-green-800">
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>C/C++やマイコン/RTOSでの開発経験がある</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>電気電子・制御・FAなどハードに近い経験を持つ</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>C/C++やマイコン/RTOSでの開発経験があります</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>電気電子・制御・FAなどハードに近い経験を持ちます</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>自動車（AUTOSAR/機能安全）やエッジAIで専門性を深めたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>地方拠点も含めて腰を据えて働きたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>長く陳腐化しにくい専門スキルを積み上げたい</li>
@@ -371,11 +371,11 @@ export default function EmbeddedSkillPage() {
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 mb-3 text-sm">向いていない可能性が高い人</h3>
               <ul className="space-y-2 text-sm text-amber-800">
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>Web/クラウドの最新トレンドを主戦場にしたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>ハード/実機に触れる開発に関心が持てない</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>短いリリースサイクルの開発スタイルを好む</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>厳格な品質プロセス/規格対応を負担に感じる</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>都市部のWeb系求人だけを希望する</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>Web/クラウドの最新トレンドを中心に活躍したい</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>ハード/実機に触れる開発に関心が持てません</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>短いリリースサイクルの開発スタイルを好みます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>厳格な品質プロセス/規格対応を負担に感じます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>都市部のWeb系求人だけを希望します</li>
               </ul>
             </div>
           </div>
@@ -406,7 +406,7 @@ export default function EmbeddedSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">リクルートエージェントITに見られる傾向</h3>
               <p className="text-sm text-slate-600">
-                Qiita Job Change等の口コミでは「圧倒的な求人数」「非公開求人が充実」という声がある一方、「対応が事務的」「連絡頻度が高い」という指摘も。地方の製造業求人まで網羅したい人の取りこぼし防止に向くと語られます。
+                Qiita Job Change等の口コミでは「圧倒的な求人数」「非公開求人が充実」という声がある一方、「対応が事務的」「連絡頻度が高い」という指摘もあります。地方の製造業求人まで網羅したい人の取りこぼし防止に向くと語られます。
               </p>
             </div>
           </div>

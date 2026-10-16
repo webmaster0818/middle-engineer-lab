@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/family/" },
   title: "家族持ちエンジニアの転職【相談・年収・転居の判断】",
   description:
-    "家族を持つ30代・40代エンジニアの転職を解説。家族への相談タイミングと伝え方の例文、年収ダウンを許容する考え方、転居を伴う場合の判断チェックリストを紹介します。",
+    "家族を持つ30代・40代エンジニアの転職を解説します。家族への相談タイミングと伝え方の例文、年収ダウンを許容する考え方、転居を伴う場合の判断チェックリストを紹介します。",
 };
 
 const toc = [
@@ -23,9 +23,9 @@ const toc = [
 ];
 
 const consultSteps = [
-  { phase: "①検討段階（応募前）", timing: "転職を「考え始めた」時点で共有する", why: "事後報告は不信感のもと。方向性のすり合わせを先にする" },
-  { phase: "②活動本格化（応募〜面接）", timing: "面接が入り始めた段階で進捗を共有", why: "面接日程・有給取得など家族の協力が必要になる" },
-  { phase: "③内定・意思決定", timing: "オファー条件が出た段階で最終合意", why: "年収・勤務地・入社日など生活に直結する条件を一緒に判断する" },
+  { phase: "①検討段階（応募前）", timing: "転職を「考え始めた」時点で共有する", why: "事後報告は不信感のもと。方向性のすり合わせを先にします" },
+  { phase: "②活動本格化（応募〜面接）", timing: "面接が入り始めた段階で進捗を共有", why: "面接日程・有給取得など家族の協力が必要になります" },
+  { phase: "③内定・意思決定", timing: "オファー条件が出た段階で最終合意", why: "年収・勤務地・入社日など生活に直結する条件を一緒に判断します" },
 ];
 
 const salaryAllowCases = [
@@ -57,7 +57,7 @@ export default function FamilyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="家族持ちエンジニアの転職【相談・年収・転居の判断】" description="家族を持つ30代・40代エンジニアの転職を解説。家族への相談タイミングと伝え方の例文、年収ダウンを許容する考え方、転居を伴う場合の判断チェックリストを紹介します。" url="/knowledge/family/" />
+      <ArticleJsonLd title="家族持ちエンジニアの転職【相談・年収・転居の判断】" description="家族を持つ30代・40代エンジニアの転職を解説します。家族への相談タイミングと伝え方の例文、年収ダウンを許容する考え方、転居を伴う場合の判断チェックリストを紹介します。" url="/knowledge/family/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "転職ガイド" }, { name: "家族持ちの転職戦略" }]} />
 
@@ -70,7 +70,7 @@ export default function FamilyPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】家族持ちの転職で最初に決めるべきことは？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 活動を始める前に「家族の合意」と「最低年収ライン」を固め、在職中に動くことが失敗を避ける鍵です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・検討段階から配偶者を巻き込み、方向性をすり合わせる（事後報告は不信のもと）</li><li>・固定支出から逆算した「下回れない最低年収ライン」を明確にする</li><li>・収入を維持したまま在職中に内定を取り、焦りによる妥協を避ける</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・検討段階から配偶者を巻き込み、方向性をすり合わせます（事後報告は不信のもと）</li><li>・固定支出から逆算した「下回れない最低年収ライン」を明確にします</li><li>・収入を維持したまま在職中に内定を取り、焦りによる妥協を避けます</li></ul>
           </div>
         </section>
 
@@ -92,9 +92,9 @@ export default function FamilyPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <p className="text-slate-700 leading-relaxed mb-3">家族持ちの転職で失敗を避ける鍵は、活動を始める前に次の3点を固めることです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>1. <strong>家族の合意</strong>：検討段階から配偶者を巻き込み、方向性をすり合わせる</li>
-              <li>2. <strong>最低年収ライン</strong>：固定支出から逆算した「下回れない金額」を明確にする</li>
-              <li>3. <strong>在職中に動く</strong>：収入を維持したまま内定を取り、焦りによる妥協を避ける</li>
+              <li>1. <strong>家族の合意</strong>：検討段階から配偶者を巻き込み、方向性をすり合わせます</li>
+              <li>2. <strong>最低年収ライン</strong>：固定支出から逆算した「下回れない金額」を明確にします</li>
+              <li>3. <strong>在職中に動く</strong>：収入を維持したまま内定を取り、焦りによる妥協を避けます</li>
             </ul>
           </div>
         </section>

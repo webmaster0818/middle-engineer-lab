@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Oracle認定Javaプログラマ Goldは転職に効くか｜中級Java実装力の証明【2026年】";
 const PAGE_DESC =
-  "Oracle認定JavaプログラマGold（OCJP Gold SE）を、30代・40代向けに解説。受験料・試験形式・Silver前提・有効期限なし、中級以上のJava実装力の証明としての価値、年収の考え方を公式情報をもとに限界も含めて整理します。";
+  "Oracle認定JavaプログラマGold（OCJP Gold SE）を、30代・40代向けに解説します。受験料・試験形式・Silver前提・有効期限なし、中級以上のJava実装力の証明としての価値、年収の考え方を公式情報をもとに留意点も含めて整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/oracle-java-gold/" },
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "Java Goldを受けるのに前提資格は必要ですか？",
-    a: "必要です。Goldの認定を得るには、前提としてOracle認定Javaプログラマ Silver（Silver SE 11／SE 8／SE 7のいずれか）の認定が求められます。つまり基礎（Silver）を押さえたうえで、中級以上（Gold）に進む二段構えです。Silver→Goldの順で取得するのが王道です（Oracle、2026年6月時点）。",
+    a: "必要です。Goldの認定を得るには、前提としてOracle認定Javaプログラマ Silver（Silver SE 11／SE 8／SE 7のいずれか）の認定が求められます。つまり基礎（Silver）を押さえたうえで、中級以上（Gold）に進む二段構えです。Silver→Goldの順で取得するのが一般的です（Oracle、2026年6月時点）。",
   },
   {
     q: "Java Goldの受験料と試験形式を教えてください。",
@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "Java Goldの合格率はどのくらいですか？",
-    a: "Oracleは合格率を公表していません。当サイトでは創作した数値を載せず、非公表である事実をそのままお伝えします。合格ラインは63%と公開されており、Silverより応用領域が広く難度が高い試験です。実務経験者でも相応の対策が必要とされます（Oracle、2026年6月時点）。",
+    a: "Oracleは合格率を公表していません。当サイトでは創作した数値は掲載せず、非公表である事実をそのままお伝えします。合格ラインは63%と公開されており、Silverより応用領域が広く難度が高い試験です。実務経験者でも相応の対策が必要とされます（Oracle、2026年6月時点）。",
   },
   {
     q: "SilverとGoldはどちらを取るべきですか？",
@@ -102,14 +102,14 @@ export default function OracleJavaGoldCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          Oracle認定Javaプログラマ Gold（OCJP Gold SE）は、<strong>設計者の意図を理解して独力で機能を実装できる中上級者向けの資格</strong>です。本記事は「Java Goldを取れば転職で有利になるか」という疑問に対し、<strong>基礎（Silver）を超えた中級以上の実装力を示す</strong>という観点から、実務での評価、Silver前提・有効期限なしという特徴を公式情報とともに整理します。資格単体では年収は跳ねないという限界も正直にお伝えします。
+          Oracle認定Javaプログラマ Gold（OCJP Gold SE）は、<strong>設計者の意図を理解して独力で機能を実装できる中上級者向けの資格</strong>です。本記事は「Java Goldを取れば転職で有利になるか」という疑問に対し、<strong>基礎（Silver）を超えた中級以上の実装力を示す</strong>という観点から、実務での評価、Silver前提・有効期限なしという特徴を公式情報とともに整理します。資格単体では年収は跳ねないという留意点もご説明します。
         </p>
 
         <DataNote
           surveyedAt="2026年6月"
           sources={[
             "Oracle University 公式（oracle.com/jp/education/certification）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -135,9 +135,9 @@ export default function OracleJavaGoldCertPage() {
               Java Goldは<strong>「中級以上のJava実装力の証明」</strong>です。基礎を示すSilverの一段上で、すでにJavaで開発してきた経験者が<strong>応用領域まで含めて独力で実装できることを客観証明</strong>する用途で効きます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>Java開発経験のある30〜40代</strong>：中級以上の実装力を客観証明し、選考で加点される</li>
-              <li>② <strong>Java基礎だけのミドル</strong>：難度が高くSilver前提のため、まずSilverで土台を固める</li>
-              <li>③ <strong>Java主力の現場で上を目指す人</strong>：応用領域の理解の証明として効きやすい</li>
+              <li>① <strong>Java開発経験のある30〜40代</strong>：中級以上の実装力を客観証明し、選考で加点されます</li>
+              <li>② <strong>Java基礎だけのミドル</strong>：難度が高くSilver前提のため、まずSilverで土台を固めます</li>
+              <li>③ <strong>Java主力の現場で上を目指す人</strong>：応用領域の理解の証明として効きやすいです</li>
             </ul>
           </div>
         </section>
@@ -158,7 +158,7 @@ export default function OracleJavaGoldCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: Oracle University 公式（oracle.com/jp/education/certification、2026年6月時点）。表の試験形式はJava SE 11 Gold（1Z0-816-JPN・80問・180分・合格ライン63%）の値です。受験料は2024年9月の改定後で41,773円（税込）。GoldはSilverの認定が前提です。現在はJava SE 17が最新シリーズで、SE 11も受験可能な状況が続いています。合格率はOracleが公表しておらず、当サイトでは創作しません。有効期限はなく、一度取得すれば失効しません。最新の試験番号・料金はOracle公式とPearson VUEで必ずご確認ください。
+            出典: Oracle University 公式（oracle.com/jp/education/certification、2026年6月時点）。表の試験形式はJava SE 11 Gold（1Z0-816-JPN・80問・180分・合格ライン63%）の値です。受験料は2024年9月の改定後で41,773円です（税込）。GoldはSilverの認定が前提です。現在はJava SE 17が最新シリーズで、SE 11も受験可能な状況が続いています。合格率はOracleが公表しておらず、当サイトでは創作しません。有効期限はなく、一度取得すれば失効しません。最新の試験番号・料金はOracle公式とPearson VUEで必ずご確認ください。
           </p>
         </section>
 
@@ -172,7 +172,7 @@ export default function OracleJavaGoldCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Javaは国内で需要の大きい主要言語（<strong>実務・役割が年収の主因</strong>）</li>
               <li>・Goldは<strong>中級以上の実装力の証明</strong>として書類・面接で効く加点材</li>
-              <li>・実態：<strong>年収はJava実務経験 × 資格の掛け算</strong>で決まる</li>
+              <li>・実態：<strong>年収はJava実務経験 × 資格の掛け算</strong>で決まります</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -185,10 +185,10 @@ export default function OracleJavaGoldCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "中級以上のJava実装力の証明", d: "ジェネリクス・関数型・並行処理・モジュールなど応用領域まで理解していることを客観的に示せる。" },
-              { t: "Java主力の開発・受託案件", d: "難度の高い実装を任される現場で、独力での機能実装力の裏づけとして効く。" },
-              { t: "リーダー・設計寄りへの足がかり", d: "設計者の意図を理解して実装できる中上級者の素養が、上のポジションへの移行を後押しする。" },
-              { t: "Silver保有者の上積み", d: "Silverで基礎を示した人が、その上にGoldを重ねて実装力の一段の証明にできる。" },
+              { t: "中級以上のJava実装力の証明", d: "ジェネリクス・関数型・並行処理・モジュールなど応用領域まで理解していることを客観的に示せます。" },
+              { t: "Java主力の開発・受託案件", d: "難度の高い実装を任される現場で、独力での機能実装力の裏づけとして効きます。" },
+              { t: "リーダー・設計寄りへの足がかり", d: "設計者の意図を理解して実装できる中上級者の素養が、上のポジションへの移行を後押しします。" },
+              { t: "Silver保有者の上積み", d: "Silverで基礎を示した人が、その上にGoldを重ねて実装力の一段の証明にできます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -206,9 +206,9 @@ export default function OracleJavaGoldCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "Javaアプリケーションエンジニア（中級〜）", d: "業務システム・基幹系の中核実装を担う役割。Goldが中級以上の実装力の裏づけになる。" },
-              { t: "Javaテックリード候補", d: "設計者の意図を理解して実装できる中上級者として、チームの技術リードへの足がかりになる。" },
-              { t: "難度の高い受託・自社開発", d: "応用領域を含むJava実装が求められる現場で、実装力の証明として書類・面接で効く。" },
+              { t: "Javaアプリケーションエンジニア（中級〜）", d: "業務システム・基幹系の中核実装を担う役割です。Goldが中級以上の実装力の裏づけになります。" },
+              { t: "Javaテックリード候補", d: "設計者の意図を理解して実装できる中上級者として、チームの技術リードへの足がかりになります。" },
+              { t: "難度の高い受託・自社開発", d: "応用領域を含むJava実装が求められる現場で、実装力の証明として書類・面接で効きます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -254,10 +254,10 @@ export default function OracleJavaGoldCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>中級以上の実装力の証明</strong>。応用領域まで含めた理解を客観的に示し、難度の高い案件への適性をアピールできます。第二に<strong>リーダー・設計寄りへの足がかり</strong>。設計者の意図を理解して実装できる中上級者の素養を示せます。第三に<strong>Silverからの上積み</strong>。Silverで基礎、Goldで実装力という一貫したキャリアストーリーを作れます。
+            活用戦略は3つに整理できます。第一に<strong>中級以上の実装力の証明です</strong>。応用領域まで含めた理解を客観的に示し、難度の高い案件への適性をアピールできます。第二に<strong>リーダー・設計寄りへの足がかり</strong>。設計者の意図を理解して実装できる中上級者の素養を示せます。第三に<strong>Silverからの上積み</strong>。Silverで基礎、Goldで実装力という一貫したキャリアストーリーを作れます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。Goldは<strong>Silver前提で難度が高く、学習コストが大きい</strong>資格です。効果が出るのは「Java実務 × 資格」が成立したときで、実務がないと取得後も活かしきれません。また受験料が約4万円（税込）と高めです。逆に言えば、Javaで開発してきた30〜40代が中級以上の実装力を客観的に示したい場合には、明確な裏づけになる資格です。基礎が不安なら、まず<Link href="/cert/oracle-java-silver/" className="text-petrol hover:underline">Silver</Link>から進みましょう。
+            注意すべきデメリットも押さえておきましょう。Goldは<strong>Silver前提で難度が高く、学習コストが大きい</strong>資格です。効果が出るのは「Java実務 × 資格」が成立したときで、実務がないと取得後も活かしきれません。また受験料が約4万円（税込）と高めです。逆に言えば、Javaで開発してきた30〜40代が中級以上の実装力を客観的に示したい場合には、明確な裏づけになる資格です。基礎が不安なら、まず<Link href="/cert/oracle-java-silver/" className="text-petrol hover:underline">Silver</Link>から進みましょう。
           </p>
         </section>
 
@@ -269,7 +269,7 @@ export default function OracleJavaGoldCertPage() {
               Java Goldは、30〜40代の経験者にとって<strong>「Javaで開発してきた実装力を、中級以上として客観的に裏づける装置」</strong>として効きます。基礎を示すSilverの一段上で、ジェネリクス・並行処理・モジュールなど応用領域まで理解していることを示せます。設計者の意図を理解して独力で実装できる中上級者という位置づけは、難度の高い案件やリーダー候補で評価されやすい強みです。
             </p>
             <p>
-              一方で過度な期待は禁物です。Goldを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。Javaの開発実績と組み合わせて初めて、実装力の信頼性という形で結実します。難度が高くSilverが前提のため、Silver→Goldの順で計画的に進むのが現実的です。
+              一方で過度な期待は禁物です。Goldを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。Javaの開発実績と組み合わせて初めて、実装力の信頼性という形で結実します。難度が高くSilverが前提のため、Silver→Goldの順で計画的に進むのが現実的です。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -282,9 +282,9 @@ export default function OracleJavaGoldCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "前提のSilverを取得する", d: "GoldはSilverの認定が前提条件。まずSilverで基礎の体系的理解を固める。" },
-              { n: "STEP 2", t: "応用領域を深掘りする", d: "ジェネリクス・関数型・並行処理・モジュール・例外設計など、Goldで広がる応用領域を重点的に学ぶ。" },
-              { n: "STEP 3", t: "合格→実務とフレームワークへ", d: "合格後はJava実務に活かしつつ、SpringなどフレームワークやSQL・設計力へ守備範囲を広げる。" },
+              { n: "STEP 1", t: "前提のSilverを取得する", d: "GoldはSilverの認定が前提条件です。まずSilverで基礎の体系的理解を固めます。" },
+              { n: "STEP 2", t: "応用領域を深掘りする", d: "ジェネリクス・関数型・並行処理・モジュール・例外設計など、Goldで広がる応用領域を重点的に学びます。" },
+              { n: "STEP 3", t: "合格→実務とフレームワークへ", d: "合格後はJava実務に活かしつつ、SpringなどフレームワークやSQL・設計力へ守備範囲を広げます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -320,7 +320,7 @@ export default function OracleJavaGoldCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Java案件への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Java Goldを活かせる中級以上の開発求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            Java Goldを活かせる中級以上の開発求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

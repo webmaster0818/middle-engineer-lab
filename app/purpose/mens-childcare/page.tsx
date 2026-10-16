@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/mens-childcare/" },
   title: "男性育休が取りやすい企業へ転職【取得率の見極め方2026】",
   description:
-    "男性の育児休業の法定ルール（産後パパ育休・育休制度）と、求人での取りやすさの見極め方を公的情報ベースで解説。取得率の確認方法、該当しやすい企業タイプまで。",
+    "男性の育児休業の法定ルール（産後パパ育休・育休制度）と、求人での取りやすさの見極め方を公的情報ベースで解説します。取得率の確認方法、該当しやすい企業タイプまで。",
 };
 
 const faqs = [
@@ -53,7 +53,7 @@ export default function MensChildcarePage() {
     <>
       <ArticleJsonLd
         title="男性育休が取りやすい企業へ転職【取得率の見極め方2026】"
-        description="男性の育児休業の法定ルールと、求人での取りやすさの見極め方を公的情報ベースで解説。取得率の確認方法、該当しやすい企業タイプまで。"
+        description="男性の育児休業の法定ルールと、求人での取りやすさの見極め方を公的情報ベースで解説します。取得率の確認方法、該当しやすい企業タイプまで。"
         url="/purpose/mens-childcare/"
       />
       <script
@@ -72,7 +72,7 @@ export default function MensChildcarePage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           男性育休が取りやすい企業へ転職
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 制度ではなく「取得実績」で見極める完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 制度ではなく「取得実績」で見極めるガイド</p>
 
         <DataNote
           surveyedAt="2026年6月"
@@ -84,12 +84,12 @@ export default function MensChildcarePage() {
         />
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：制度は法定で整っている。差は「取得実績」に出る</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：制度は法定で整っています。差は「取得実績」に出る</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
             男性の育児休業は、育児・介護休業法によって権利として保障されており、2022年10月施行の<strong>産後パパ育休（出生時育児休業）</strong>で取得の柔軟性も高まりました。つまり「制度があるか」は多くの企業で差がつきません。本当に重要なのは<strong>実際に男性が取得できているか（取得率・取得実績）</strong>です。本記事では、男性育休の法定ルールを公的情報で整理し、求人で「取りやすい会社」を見極める方法を、30-40代の家庭とキャリアの両立の観点から解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 出産・育児を控え、実際に育休を取れる会社へ転職したい30-40代</li>
               <li>- 制度の有無ではなく「取得実績」で会社を見極めたい</li>
@@ -123,9 +123,9 @@ export default function MensChildcarePage() {
               </thead>
               <tbody>
                 {[
-                  { type: "産後パパ育休", desc: "出生後8週以内に最大4週間（28日）", note: "2回に分割可。労使協定で休業中の一定就業も可（2022年10月施行）" },
-                  { type: "育児休業", desc: "原則 子が1歳（最長2歳）まで", note: "男女問わず取得可。2回まで分割取得が可能" },
-                  { type: "育児休業給付", desc: "雇用保険から給付", note: "180日目まで67%、以降50%（要件あり）。休業中の社会保険料免除制度も" },
+                  { type: "産後パパ育休", desc: "出生後8週以内に最大4週間（28日）", note: "2回に分割可です。労使協定で休業中の一定就業も可（2022年10月施行）" },
+                  { type: "育児休業", desc: "原則 子が1歳（最長2歳）まで", note: "男女問わず取得可です。2回まで分割取得が可能" },
+                  { type: "育児休業給付", desc: "雇用保険から給付", note: "180日目まで67%、以降50%です（要件あり）。休業中の社会保険料免除制度も" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -171,10 +171,10 @@ export default function MensChildcarePage() {
           </p>
           <div className="space-y-3">
             {[
-              { type: "両立支援に積極的なWeb系・SaaS企業", point: "柔軟な働き方を制度化している企業が多く、男性育休も実例が出やすい傾向。" },
-              { type: "くるみん認定の大手・上場企業", point: "次世代育成支援の取り組みを公表・認定取得しており、取得実績の確認がしやすい。" },
-              { type: "公表義務のある大企業（1,000人超）", point: "男性育休取得率を開示しているため、入社前に数値で比較できる。" },
-              { type: "人手の薄い小規模・受託現場", point: "制度はあっても代替要員の確保が難しく、実際の取得ハードルが高い場合がある。要確認。" },
+              { type: "両立支援に積極的なWeb系・SaaS企業", point: "柔軟な働き方を制度化している企業が多く、男性育休も実例が出やすい傾向です。" },
+              { type: "くるみん認定の大手・上場企業", point: "次世代育成支援の取り組みを公表・認定取得しており、取得実績の確認がしやすいです。" },
+              { type: "公表義務のある大企業（1,000人超）", point: "男性育休取得率を開示しているため、入社前に数値で比較できます。" },
+              { type: "人手の薄い小規模・受託現場", point: "制度はあっても代替要員の確保が難しく、実際の取得ハードルが高い場合があります。要確認です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{item.type}</h3>
@@ -223,7 +223,7 @@ export default function MensChildcarePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">育休実績のある企業を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">両立支援の実態まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">両立支援の実態まで把握したIT特化型エージェントが、ご自身の条件に合う企業を提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -236,7 +236,7 @@ export default function MensChildcarePage() {
               { name: "ワークライフバランス重視の転職", href: "/purpose/wlb/" },
               { name: "家庭とエンジニアキャリアの両立", href: "/knowledge/family/" },
               { name: "福利厚生が充実した企業へ転職", href: "/purpose/benefits/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

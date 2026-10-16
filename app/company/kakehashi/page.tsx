@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/kakehashi/" },
   title: "カケハシの年収・給与とエンジニア転職【2026年】技術・選考",
   description:
-    "カケハシ（薬局DX・非上場）のエンジニア中途採用を公式採用・技術発信の一次情報で解説。TypeScript一貫のサーバーレス技術スタック、公式の選考フロー、年収の考え方、30代40代の転職可否を中立にまとめました。",
+    "カケハシ（薬局DX・非上場）のエンジニア中途採用を公式採用・技術発信の一次情報で解説します。TypeScript一貫のサーバーレス技術スタック、公式の選考フロー、年収の考え方、30代40代の転職可否を中立にまとめました。",
 };
 
 const toc = [
@@ -44,11 +44,11 @@ const salaryRows: [string, string, string][] = [
 ];
 
 const flowSteps: [string, string, string][] = [
-  ["STEP 1", "書類選考", "公式採用ページから応募。職務経歴・スキルをもとに選考。"],
-  ["STEP 2", "カジュアル面談", "相互理解を目的とした面談。事業・チーム・働き方の擦り合わせ。"],
-  ["STEP 3", "一次面接（開発ディレクター）", "開発ディレクターによる面接。経験・志向の確認。"],
-  ["STEP 4", "二次面接（エンジニア）", "現場エンジニアによる技術面接。実務スキル・設計観点の確認。"],
-  ["STEP 5", "最終面接（CTO／PdM）", "CTOまたはPdMによる最終面接。カルチャーフィット・プロダクト志向の確認。"],
+  ["STEP 1", "書類選考", "公式採用ページから応募します。職務経歴・スキルをもとに選考します。"],
+  ["STEP 2", "カジュアル面談", "相互理解を目的とした面談です。事業・チーム・働き方の擦り合わせ。"],
+  ["STEP 3", "一次面接（開発ディレクター）", "開発ディレクターによる面接です。経験・志向の確認です。"],
+  ["STEP 4", "二次面接（エンジニア）", "現場エンジニアによる技術面接です。実務スキル・設計観点の確認です。"],
+  ["STEP 5", "最終面接（CTO／PdM）", "CTOまたはPdMによる最終面接です。カルチャーフィット・プロダクト志向の確認です。"],
 ];
 
 const faqs = [
@@ -67,7 +67,7 @@ export default function KakehashiCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="カケハシ エンジニア転職ガイド" description="カケハシ（薬局DX・非上場）へのエンジニア転職を公式採用・技術発信の一次情報で解説。TypeScript一貫のサーバーレス技術、公式の選考フロー、年収の考え方をまとめました。" url="/company/kakehashi/" />
+      <ArticleJsonLd title="カケハシ エンジニア転職ガイド" description="カケハシ（薬局DX・非上場）へのエンジニア転職を公式採用・技術発信の一次情報で解説します。TypeScript一貫のサーバーレス技術、公式の選考フロー、年収の考え方をまとめました。" url="/company/kakehashi/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "カケハシ" }]} />
 
@@ -82,7 +82,7 @@ export default function KakehashiCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】カケハシの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: カケハシは非上場のため、有価証券報告書による公式の全社員平均年収は非公表です。集計サイトの参考値は年代別で30代約770万円・40代約830万円ですが、いずれも公式値ではありません。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場企業のため、上場企業のような有報ベースの全社員平均年収は存在しません。</li><li>・集計サイトの参考値は全体で456〜1,000万円程度、年代別で20代約550万円・30代約770万円・40代約830万円（いずれも公式値ではない参考値・2026年6月時点）。</li><li>・等級別の細かい年収表は公式に開示されていないため創作していません。正確な提示額は職種・等級・スキルにより幅があり、応募・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・非上場企業のため、上場企業のような有価証券報告書ベースの全社員平均年収は存在しません。</li><li>・集計サイトの参考値は全体で456〜1,000万円程度、年代別で20代約550万円・30代約770万円・40代約830万円です（いずれも公式値ではない参考値・2026年6月時点）。</li><li>・等級別の細かい年収表は公式に開示されていないため創作していません。正確な提示額は職種・等級・スキルにより幅があり、応募・面談で確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["カケハシ 公式採用サイト（選考フロー・技術情報）", "カケハシ 技術発信（Engineering）", "集計サイトの年収参考値（公式値ではない）", "OpenWork（口コミ傾向）"]} />
@@ -92,9 +92,9 @@ export default function KakehashiCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：高め（TypeScript一貫・サーバーレスの即戦力志向）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・フロント<strong>React＋TypeScript</strong>、バック<strong>Node.js＋TypeScript・AWSサーバーレス</strong>。TypeScriptで一気通貫の開発経験を持つエンジニアに向く。</li>
-              <li>・<strong>選考フローが公式に公開</strong>されており、書類→カジュアル面談→一次（開発ディレクター）→二次（エンジニア）→最終（CTO／PdM）と各ステップの担当が明確。</li>
-              <li>・薬局DXという<strong>医療×社会課題</strong>のドメイン。プロダクトの社会的意義に共感できる人に合う。</li>
+              <li>・フロント<strong>React＋TypeScript</strong>、バック<strong>Node.js＋TypeScript・AWSサーバーレスです</strong>。TypeScriptで一気通貫の開発経験を持つエンジニアに向きます。</li>
+              <li>・<strong>選考フローが公式に公開</strong>されており、書類→カジュアル面談→一次（開発ディレクター）→二次（エンジニア）→最終（CTO／PdM）と各ステップの担当が明確です。</li>
+              <li>・薬局DXという<strong>医療×社会課題</strong>のドメインです。プロダクトの社会的意義に共感できる人に合います。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">非上場のため全社平均年収の公式値はありません。集計サイトの年代別参考値（30代約770万円・40代約830万円など）は公式値ではない目安です。逆に、複数言語を自由に選びたい人や、確立された大企業の安定を最優先する人にはミスマッチが起こり得ます。</p>
           </div>
@@ -136,7 +136,7 @@ export default function KakehashiCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>フロントエンド</strong>：React＋TypeScript（Amplifyを活用）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>バックエンド</strong>：Node.js＋TypeScript・サーバーレス（Lambda／API Gateway／DynamoDB／Step Functions／CDK）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>モバイル・横断</strong>：Swift／Dart／Python／Kotlin を用途に応じて横断利用</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：AWS が中心。サーバーレス・IaC（CDK）で運用</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：AWS が中心です。サーバーレス・IaC（CDK）で運用</span></li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：カケハシ 公式採用情報・技術発信。各言語の市場動向は<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript</Link>・<Link href="/skill/nodejs/" className="text-petrol hover:underline">Node.js</Link>・<Link href="/skill/react/" className="text-petrol hover:underline">React</Link>・<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link>の各ガイドも参照してください。</p>
@@ -189,14 +189,14 @@ export default function KakehashiCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、カケハシについて<strong>「事業の社会的意義への共感が高い」「モダンな技術環境で開発できる」</strong>といった声が見られる一方、<strong>「成長スタートアップ特有の変化の速さや、組織・プロセスが整備途上の部分がある」</strong>といった指摘も見られます。プロダクトのミッションへの共感が定着の鍵になる傾向がうかがえます。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により大きく異なります。</p>
         </section>
 
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たカケハシ</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>カケハシは<strong>TypeScript一貫・AWSサーバーレス</strong>というモダンかつ習得対象が明確な技術構成のため、React／Node.js／TypeScriptでのSaaS開発経験を持つミドル層にとって、これまでの経験を活かしやすい環境です。集計参考値でも30代約770万円・40代約830万円といった年代別の目安が示されており、ミドルの採用が一定数行われていることがうかがえます（いずれも公式値ではない参考値）。</p>
-            <p>選考フローが公式に公開されているのも、30代・40代にとっては大きな利点です。各ステップで誰が何を見るのかが事前にわかるため、準備の精度を上げやすく、転職活動のストレスを下げられます。一方で、成長スタートアップ特有の変化の速さ・制度の整備途上は、安定した大企業からの転職では事前に許容度を確認しておきたい部分です。非上場のため将来のIPOやストックオプションの扱いは公式の確定情報がなく、年収は提示額ベースで判断するのが現実的です。</p>
+            <p>選考フローが公式に公開されているのも、30代・40代にとっては大きな利点です。各ステップで誰が何を見るのかが事前に分かるため、準備の精度を上げやすく、転職活動のストレスを下げられます。一方で、成長スタートアップ特有の変化の速さ・制度の整備途上は、安定した大企業からの転職では事前に許容度を確認しておきたい部分です。非上場のため将来のIPOやストックオプションの扱いは公式の確定情報がなく、年収は提示額ベースで判断するのが現実的です。</p>
             <p>医療ドメインに関心がある方は<Link href="/industry/healthcare/" className="text-petrol hover:underline">ヘルステック転職の全体像</Link>もあわせて確認すると業界の立ち位置が掴みやすくなります。年収交渉やキャリア整理の観点では<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>も参考にしてください。</p>
           </div>
         </section>
@@ -209,8 +209,8 @@ export default function KakehashiCompanyPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>TypeScript（React／Node.js）一貫でのSaaS開発経験を持つミドル</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>AWSサーバーレスの設計・運用が得意</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>薬局DX・医療の社会的意義に共感できる</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>選考の見通しが立つ透明なプロセスを重視する</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>薬局DX・医療の社会的意義に共感できます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>選考の見通しが立つ透明なプロセスを重視します</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
@@ -219,7 +219,7 @@ export default function KakehashiCompanyPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>使用言語・技術を自由に選びたい（TypeScript中心との相性）</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>確立された大企業の安定・明確な等級制度を最優先したい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>整備された制度・手厚い既存ドキュメントを前提に働きたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>年収の絶対額の最大化のみを判断軸にしている</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>年収の絶対額の最大化のみを判断軸にしています</li>
               </ul>
             </div>
           </div>
@@ -230,16 +230,16 @@ export default function KakehashiCompanyPage() {
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>経済産業省「IT人材需給に関する調査」（2019年公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。薬局・調剤を含む医療領域はDXの余地が大きく、カケハシはその中でも先行する薬局DXのスタートアップです。</p>
             <p>年代別の年収水準の目安として、レバテックが公表する正社員SEの平均年収（2025年）は30代約499万円・40代約618万円とされています。これはIT職全般の平均で、カケハシの集計参考値（30代約770万円・40代約830万円）はこれを上回りますが、後者は公式値ではない参考値である点に留意が必要です。</p>
-            <p>SIerやSESから自社プロダクト開発へ移りたいミドルにとって、TypeScript一貫のカケハシは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWEB系への転職</Link>も参考になります。</p>
+            <p>SIerやSESから自社プロダクト開発へ移りたいミドルにとって、TypeScript一貫のカケハシは選択肢になり得ます。背景知識として<Link href="/industry/sier-to-web/" className="text-petrol hover:underline">SIerからWeb系への転職</Link>も参考になります。</p>
           </div>
         </section>
 
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">カケハシ転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強い。技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすい。ミドル層の選択肢を広げやすい。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強い。カジュアル面談につながりやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化で自社開発・SaaS求人に強いです。技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スタートアップのスカウトが届きやすいです。ミドル層の選択肢を広げやすいです。" }, { name: "Green", href: "/review/green/", desc: "IT/Web・スタートアップ求人に強いです。カジュアル面談につながりやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">

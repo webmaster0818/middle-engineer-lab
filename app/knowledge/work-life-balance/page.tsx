@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/work-life-balance/" },
   title: "ワークライフバランス重視のIT転職｜見極め方と残業実態の調べ方",
   description:
-    "ワークライフバランス重視のIT転職を解説。WLBが良い企業の見極め方、面接での質問例、口コミサイトを使った残業実態の調べ方を30代・40代エンジニア向けに紹介します。",
+    "ワークライフバランス重視のIT転職を解説します。WLBが良い企業の見極め方、面接での質問例、口コミサイトを使った残業実態の調べ方を30代・40代エンジニア向けに紹介します。",
 };
 
 const faqs = [
@@ -43,17 +43,17 @@ const faqs = [
 ];
 
 const checkPoints = [
-  { num: "1", title: "残業時間の実態", desc: "求人票の残業時間は全社平均や目安。配属予定チームの残業状況を、面接やエージェント経由で確認しましょう。固定残業（みなし残業）の時間数と超過分の扱いも要チェックです。" },
+  { num: "1", title: "残業時間の実態", desc: "求人票の残業時間は全社平均や目安です。配属予定チームの残業状況を、面接やエージェント経由で確認しましょう。固定残業（みなし残業）の時間数と超過分の扱いも要チェックです。" },
   { num: "2", title: "リモートワークの運用実態", desc: "「リモート可」でも実際の利用頻度はさまざま。制度の有無ではなく「現に使われているか」「配属チームの実出社頻度」を確認します。" },
-  { num: "3", title: "フレックスタイムの中身", desc: "コアタイムの時間帯、スーパーフレックス（コアタイムなし）の有無を確認。育児・介護と両立する場合は特に重要です。" },
-  { num: "4", title: "有給・休暇の取得しやすさ", desc: "制度として有給があっても、取得しやすい雰囲気かは別問題。口コミサイトの「休みの取りやすさ」に関する声を確認しましょう。" },
+  { num: "3", title: "フレックスタイムの中身", desc: "コアタイムの時間帯、スーパーフレックス（コアタイムなし）の有無を確認します。育児・介護と両立する場合は特に重要です。" },
+  { num: "4", title: "有給・休暇の取得しやすさ", desc: "制度として有給があっても、取得しやすい雰囲気かは別問題です。口コミサイトの「休みの取りやすさ」に関する声を確認しましょう。" },
   { num: "5", title: "オンコール・休日対応", desc: "SRE・インフラ職はオンコール（障害対応の待機）の頻度・時間帯・手当が生活に直結します。ローテーションの実態を確認しましょう。" },
 ];
 
 const reviewSites = [
-  { name: "OpenWork（オープンワーク）", point: "現職・元社員のクチコミが多く、残業時間や有給取得のスコアが見やすい。回答数が多い企業ほど信頼度が高まる。" },
-  { name: "ライトハウス（旧カイシャの評判）", point: "残業・休日出勤、ワークライフバランスのカテゴリ別評価が見られる。en転職と連携した口コミが豊富。" },
-  { name: "転職会議", point: "職種別の年収・残業に関する投稿が多い。エンジニア職に絞った声を探しやすい。" },
+  { name: "OpenWork（オープンワーク）", point: "現職・元社員の口コミが多く、残業時間や有給取得のスコアが見やすいです。回答数が多い企業ほど信頼度が高まります。" },
+  { name: "ライトハウス（旧カイシャの評判）", point: "残業・休日出勤、ワークライフバランスのカテゴリ別評価が見られます。en転職と連携した口コミが豊富です。" },
+  { name: "転職会議", point: "職種別の年収・残業に関する投稿が多いです。エンジニア職に絞った声を探しやすいです。" },
 ];
 
 const interviewQuestions = [
@@ -123,8 +123,8 @@ export default function WorkLifeBalancePage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】WLB重視で働ける企業はどう見極める？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 求人票の残業時間を鵜呑みにせず、口コミサイトの傾向・面接での具体質問・エージェントの内部情報の3点で実態を照合するのが失敗しないコツです。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・求人票の残業時間は全社平均や目安であることが多く、配属チームによって体感は大きく変わる</li><li>・口コミ・面接・エージェントの3つを突き合わせ、1つの情報源に依存しない</li><li>・「楽さ」だけを基準にせず、WLBと技術的成長の両立という視点で企業を選ぶ</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 求人票の残業時間を鵜呑みにせず、口コミサイトの傾向・面接での具体質問・エージェントの内部情報の3点で実態を照合するのが重要なポイントです。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・求人票の残業時間は全社平均や目安であることが多く、配属チームによって体感は大きく変わります</li><li>・口コミ・面接・エージェントの3つを突き合わせ、1つの情報源に依存しない</li><li>・「楽さ」だけを基準にせず、WLBと技術的成長の両立という視点で企業を選びます</li></ul>
           </div>
         </section>
 
@@ -138,7 +138,7 @@ export default function WorkLifeBalancePage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：求人票の残業時間を鵜呑みにせず、口コミ・面接・エージェントの3点で裏取りする</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-2">
-              WLB重視の転職で失敗しないコツは、<strong>求人票の「残業月20時間」を信じきらず、口コミサイトの傾向・面接での具体質問・エージェントの内部情報の3つで実態を照合すること</strong>です。求人票の数字は全社平均や目安であることが多く、配属チームによって体感は大きく変わります。
+              WLB重視の転職で重要なポイントは、<strong>求人票の「残業月20時間」を信じきらず、口コミサイトの傾向・面接での具体質問・エージェントの内部情報の3つで実態を照合すること</strong>です。求人票の数字は全社平均や目安であることが多く、配属チームによって体感は大きく変わります。
             </p>
             <p className="text-sm text-blue-900 leading-relaxed">
               また「楽さ」だけを基準にすると技術的な成長が止まるリスクがあるため、WLBと成長の両立という視点で企業を選びましょう。
@@ -188,10 +188,10 @@ export default function WorkLifeBalancePage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">
             <ol className="space-y-3 text-sm text-slate-700 list-decimal pl-5">
-              <li><strong>口コミサイト</strong>：残業・休日出勤に関する社員の声の傾向を確認する</li>
-              <li><strong>求人票の固定残業</strong>：みなし残業の時間数を確認する（時間数が大きいほど残業前提の可能性）</li>
-              <li><strong>面接での質問</strong>：配属予定チームの繁忙期や直近の残業状況を具体的に聞く</li>
-              <li><strong>エージェントの内部情報</strong>：求人票に載らない部署単位の実態を確認する</li>
+              <li><strong>口コミサイト</strong>：残業・休日出勤に関する社員の声の傾向を確認します</li>
+              <li><strong>求人票の固定残業</strong>：みなし残業の時間数を確認します（時間数が大きいほど残業前提の可能性）</li>
+              <li><strong>面接での質問</strong>：配属予定チームの繁忙期や直近の残業状況を具体的に聞きます</li>
+              <li><strong>エージェントの内部情報</strong>：求人票に載らない部署単位の実態を確認します</li>
             </ol>
           </div>
           <h3 className="font-bold text-slate-800 mb-3">主な口コミサイトと使い方</h3>
@@ -206,10 +206,10 @@ export default function WorkLifeBalancePage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
             <h3 className="font-bold text-amber-900 mb-2">口コミサイトを読むときの注意点</h3>
             <ul className="space-y-2 text-sm text-amber-900">
-              <li>- 投稿時期を確認する。古い口コミは制度・体制が変わっている可能性がある</li>
-              <li>- 退職者は不満を書きやすい傾向があるため、極端な評価は割り引いて読む</li>
-              <li>- 投稿数が少ない企業はサンプルが偏るため、傾向として参考程度に留める</li>
-              <li>- 「全社平均」と「自分が入る部署」は別物。最終的には面接・エージェントで裏取りする</li>
+              <li>- 投稿時期を確認します。古い口コミは制度・体制が変わっている可能性があります</li>
+              <li>- 退職者は不満を書きやすい傾向があるため、極端な評価は割り引いて読みます</li>
+              <li>- 投稿数が少ない企業はサンプルが偏るため、傾向として参考程度に留めます</li>
+              <li>- 「全社平均」と「自分が入る部署」は別物です。最終的には面接・エージェントで裏取りします</li>
             </ul>
           </div>
         </section>
@@ -241,11 +241,11 @@ export default function WorkLifeBalancePage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">1. 「楽な環境」と「効率的な環境」を区別する</h3>
-              <p className="text-sm text-petrol-deep">WLBが良い ≠ 仕事が楽。開発プロセスが整い効率的に働ける環境なら、労働時間を抑えつつ成果を出せます。</p>
+              <p className="text-sm text-petrol-deep">WLBが良い ≠ 仕事が楽です。開発プロセスが整い効率的に働ける環境なら、労働時間を抑えつつ成果を出せます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 浮いた時間を自己投資に回す</h3>
-              <p className="text-sm text-petrol-deep">残業が減った分を技術学習や副業に充てれば、市場価値を維持・向上できます。副業との両立は<Link href="/knowledge/side-project/" className="text-petrol hover:underline">副業しながら転職活動</Link>を参照。</p>
+              <p className="text-sm text-petrol-deep">残業が減った分を技術学習や副業に充てれば、市場価値を維持・向上できます。副業との両立は<Link href="/knowledge/side-project/" className="text-petrol hover:underline">副業しながら転職活動</Link>をご参照ください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. モダンな技術スタックの環境を選ぶ</h3>
@@ -264,15 +264,15 @@ export default function WorkLifeBalancePage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：育児期と成長期が重なる時期</h3>
-              <p className="text-sm text-petrol-deep">保育園の送迎や急な発熱対応など、時間の融通が必要になる世代。フレックス・リモートの「実利用率」を重視しつつ、技術的な成長機会も確保できる企業を選ぶと、長期的に後悔が少なくなります。</p>
+              <p className="text-sm text-petrol-deep">保育園の送迎や急な発熱対応など、時間の融通が必要になる世代です。フレックス・リモートの「実利用率」を重視しつつ、技術的な成長機会も確保できる企業を選ぶと、長期的に後悔が少なくなります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：健康・介護・マネジメント負荷への配慮</h3>
-              <p className="text-sm text-petrol-deep">体力面や親の介護、チームマネジメントの負荷が重なりやすい世代。オンコールや休日対応の頻度、マネジメント職の労働実態を具体的に確認したい。年収とWLBの優先順位を明確にしておくと判断がぶれません。</p>
+              <p className="text-sm text-petrol-deep">体力面や親の介護、チームマネジメントの負荷が重なりやすい世代です。オンコールや休日対応の頻度、マネジメント職の労働実態を具体的に確認したいです。年収とWLBの優先順位を明確にしておくと判断がぶれません。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">年収とのバランス</h3>
-              <p className="text-sm text-petrol-deep">レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円。WLBを取りつつこの水準を維持できる企業も存在します。「WLBか年収か」の二者択一ではなく、両者の優先順位を決めて比較しましょう。</p>
+              <p className="text-sm text-petrol-deep">レバテック公表の2025年データでは正社員SEの平均年収は30代約499万円・40代約618万円です。WLBを取りつつこの水準を維持できる企業も存在します。「WLBか年収か」の二者択一ではなく、両者の優先順位を決めて比較しましょう。</p>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">出典: レバテック公表の年代別平均年収（2025年・正社員SE）。数値は時点により変動します。</p>

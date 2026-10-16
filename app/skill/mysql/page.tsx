@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "MySQLスキルで転職｜年収・求人・将来性【2026年】";
 const PAGE_DESC =
-  "MySQLスキルを軸にした転職市場を出典付きで解説。MySQLは単体スキルではなくDB設計・運用やバックエンド開発の実務基盤として評価される点を整理。求人ボックス公表のデータベースエンジニア年収、求人傾向、30代・40代の戦い方をミドルエンジニア向けにまとめます。";
+  "MySQLスキルを軸にした転職市場を出典付きで解説。MySQLは単体スキルではなくDB設計・運用やバックエンド開発の実務基盤として評価される点を整理します。求人ボックス公表のデータベースエンジニア年収、求人傾向、30代・40代の進め方をミドルエンジニア向けにまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/mysql/" },
@@ -143,9 +143,9 @@ export default function MysqlSkillPage() {
               <strong>MySQLは「これ単体で転職する」スキルではなく、DB設計・運用やバックエンド職の市場価値を底上げする実務基盤です。</strong>求人母数が大きい分、RDBの設計・チューニングを掛け合わせることで応募の幅が広がります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・MySQL単体の職種別年収は公表が乏しく、<strong>データベースエンジニア約453万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握する</li>
-              <li>・求人では「RDBの設計・運用」「SQLチューニング」「DB設計を伴うバックエンド開発」の文脈で問われる</li>
-              <li>・MySQL＋アプリ開発、＋大規模運用（レプリケーション等）の掛け合わせで年収レンジが上がる</li>
+              <li>・MySQL単体の職種別年収は公表が乏しく、<strong>データベースエンジニア約453万円</strong>（求人ボックス2026年5月）など近接職種で代替して把握します</li>
+              <li>・求人では「RDBの設計・運用」「SQLチューニング」「DB設計を伴うバックエンド開発」の文脈で問われます</li>
+              <li>・MySQL＋アプリ開発、＋大規模運用（レプリケーション等）の掛け合わせで年収レンジが上がります</li>
             </ul>
           </div>
         </section>
@@ -183,7 +183,7 @@ export default function MysqlSkillPage() {
         <section id="level" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            MySQLに関する要件は「アプリからSQLを書ける」レベルから「大規模サービスのDBを設計・運用できる」レベルまで幅があります。求人票によく登場する要件を傾向としてまとめると次の通りです。
+            MySQLに関する要件は「アプリからSQLを書ける」レベルから「大規模サービスのDBを設計・運用できる」レベルまで幅があります。求人票によく登場する要件を傾向としてまとめると次のとおりです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -210,8 +210,8 @@ export default function MysqlSkillPage() {
             {[
               { role: "バックエンドエンジニア（DB設計込み）", note: "Webアプリ開発＋テーブル・SQL設計を一気通貫で担当" },
               { role: "データベースエンジニア／DBA", note: "RDBの設計・運用・チューニング・可用性設計が中心" },
-              { role: "データ基盤エンジニア", note: "MySQLを起点にデータ分析基盤・ETLへ広げる" },
-              { role: "SRE（DB信頼性）", note: "大規模DBのパフォーマンス・可用性をソフトウェア工学で支える" },
+              { role: "データ基盤エンジニア", note: "MySQLを起点にデータ分析基盤・ETLへ広げます" },
+              { role: "SRE（DB信頼性）", note: "大規模DBのパフォーマンス・可用性をソフトウェア工学で支えます" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -234,7 +234,7 @@ export default function MysqlSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。DB設計・データ基盤系の専門求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍しています。DB設計・データ基盤系の専門求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
@@ -248,7 +248,7 @@ export default function MysqlSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で、提案スピードが強み。MySQLを採用するWeb系・ゲーム企業の求人を探したい場合の選択肢です。
+                IT・Web・ゲーム業界専門で、提案スピードが強みです。MySQLを採用するWeb系・ゲーム企業の求人を探したい場合の選択肢です。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -263,7 +263,7 @@ export default function MysqlSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">経験浅めからDB実務に入るルート</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "既存の開発／他RDB経験を土台にする", desc: "Webアプリ開発やPostgreSQL・Oracle等の経験があれば、それを土台に「MySQLでもRDBの設計・運用ができる」ことを示せます。RDBの基礎は共通なので、製品差分のキャッチアップで応募余地が生まれます。" },
+              { num: "1", title: "既存の開発／他RDB経験を土台にする", desc: "Webアプリ開発やPostgreSQL・Oracle等の経験があれば、それを土台に「MySQLでもRDBの設計・運用ができる」ことを示せます。RDBの基礎は共通であるため、製品差分のキャッチアップで応募余地が生まれます。" },
               { num: "2", title: "個人開発でMySQLを設計から触る", desc: "テーブル設計・インデックス設計・EXPLAINでの実行計画確認・スロークエリの改善までを個人開発で経験し、その判断を語れる状態にしておきます。設計の意図が伝わると評価につながります。" },
               { num: "3", title: "DB設計を伴うバックエンド求人を狙う", desc: "MySQLは求人母数が大きく、DB設計込みのバックエンド求人が豊富です。エージェントに「DB設計・チューニングを伸ばしたい」と伝え、そうした要素を含む求人を紹介してもらうのが近道です。" },
             ].map((item, i) => (
@@ -285,13 +285,13 @@ export default function MysqlSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>DB設計は経験がものを言う領域。</strong>テーブル設計やパフォーマンス改善は、実プロジェクトでの試行錯誤の蓄積が効きます。30代・40代でMySQLの実務を積んでいるなら、その設計判断の引き出しの多さが、若手にはない武器になります。
+              <strong>DB設計は経験がものを言う領域です。</strong>テーブル設計やパフォーマンス改善は、実プロジェクトでの試行錯誤の蓄積が効きます。30代・40代でMySQLの実務を積んでいるなら、その設計判断の引き出しの多さが、若手にはない強みになります。
             </p>
             <p>
-              <strong>大規模運用の経験は希少。</strong>レプリケーション、スロークエリ対応、データ移行、無停止メンテナンスといった大規模サービスの運用経験は、求人市場で高く評価されます。修羅場をくぐった具体的なエピソードを用意しておきましょう。
+              <strong>大規模運用の経験は希少です。</strong>レプリケーション、スロークエリ対応、データ移行、無停止メンテナンスといった大規模サービスの運用経験は、求人市場で高く評価されます。修羅場をくぐった具体的なエピソードを用意しておきましょう。
             </p>
             <p>
-              <strong>掛け算で差別化する。</strong>MySQL単体より「MySQL＋アプリ開発」「MySQL＋ドメイン知識」の掛け合わせが強みです。40代でリード経験があれば、それを技術力とセットで提示しましょう。
+              <strong>掛け算で差別化します。</strong>MySQL単体より「MySQL＋アプリ開発」「MySQL＋ドメイン知識」の掛け合わせが強みです。40代でリード経験があれば、それを技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -304,13 +304,13 @@ export default function MysqlSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① RDBの基礎を製品横断で固める。</strong>正規化、インデックス、トランザクション、実行計画といった基礎は<Link href="/skill/sql/" className="text-petrol hover:underline">SQL／データベース</Link>の共通言語です。ここを固めると、MySQL固有の挙動（InnoDB等）の理解も速くなります。
+              <strong>① RDBの基礎を製品横断で固めます。</strong>正規化、インデックス、トランザクション、実行計画といった基礎は<Link href="/skill/sql/" className="text-petrol hover:underline">SQL／データベース</Link>の共通言語です。ここを固めると、MySQL固有の挙動（InnoDB等）の理解も速くなります。
             </p>
             <p>
-              <strong>② 実行計画とインデックスを掘り下げる。</strong>EXPLAINでスロークエリの原因を特定し、インデックス設計やクエリ書き換えで改善する経験を積みます。N+1問題やロック競合の解消は、面接で語りやすい実務スキルです。
+              <strong>② 実行計画とインデックスを掘り下げます。</strong>EXPLAINでスロークエリの原因を特定し、インデックス設計やクエリ書き換えで改善する経験を積みます。N+1問題やロック競合の解消は、面接で語りやすい実務スキルです。
             </p>
             <p>
-              <strong>③ 周辺領域へ広げる。</strong>コンテナでのDB運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドDB（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link> RDS/Aurora等）まで広げると、運用・基盤側の求人にも手が届きます。資格では<Link href="/cert/database-specialist/" className="text-petrol hover:underline">データベーススペシャリスト</Link>が指針になります。
+              <strong>③ 周辺領域へ広げます。</strong>コンテナでのDB運用（<Link href="/skill/docker/" className="text-petrol hover:underline">Docker</Link>）、クラウドのマネージドDB（<Link href="/skill/aws/" className="text-petrol hover:underline">AWS</Link> RDS/Aurora等）まで広げると、運用・基盤側の求人にも手が届きます。資格では<Link href="/cert/database-specialist/" className="text-petrol hover:underline">データベーススペシャリスト</Link>が指針になります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -357,7 +357,7 @@ export default function MysqlSkillPage() {
               { name: "Redisスキルの転職ガイド", href: "/skill/redis/" },
               { name: "インフラエンジニアの転職ガイド", href: "/skill/infrastructure/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

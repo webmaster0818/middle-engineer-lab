@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/age/50s/" },
   title: "50代エンジニアの転職｜需給ギャップと役職別年収の分散を読む",
   description:
-    "50代エンジニアの転職を、doda年代別平均年収やJAC登録者の役職別年収、経産省のIT人材需給ギャップ試算で読み解く。50代は「下がりやすい」のか、それとも役職・企業で分散が大きいのか。50代固有の戦い方を解説します。",
+    "50代エンジニアの転職を、doda年代別平均年収やJAC登録者の役職別年収、経産省のIT人材需給ギャップ試算で読み解きます。50代は「下がりやすい」のか、それとも役職・企業で分散が大きいのか。50代固有の進め方を解説します。",
 };
 
 const toc = [
@@ -54,8 +54,8 @@ const faqs = [
     a: "実務力に加えて、マネジメント力と経営視点の掛け算が求められます。具体的には、ERP・基幹システムの刷新を主導する力、プロジェクト全体を統括する力、若手への技術伝承・育成、そして技術を経営課題と結びつける視点です。単なる手を動かすプレイヤーではなく、組織の成果と次世代の育成に責任を持てる人材として評価されます。",
   },
   {
-    q: "50代と40代で、転職の戦い方はどう違いますか？",
-    a: "40代は「経験が活きるポジションを狙う」ことが軸でしたが、50代はそれに加えて『役職・企業による分散の大きさ』を前提に、どのポジションに自分を位置づけるかをより戦略的に選ぶ必要があります。課長未満と本部長以上で年収が数百万円変わる世界なので、自分の経験がどの役職レンジで評価されるかを見極めることが重要です。40代の基本戦略は40代エンジニアの転職ガイドを参照してください。",
+    q: "50代と40代で、転職の進め方はどう違いますか？",
+    a: "40代は「経験が活きるポジションを狙う」ことが軸でしたが、50代はそれに加えて『役職・企業による分散の大きさ』を前提に、どのポジションに自分を位置づけるかをより戦略的に選ぶ必要があります。課長未満と本部長以上で年収が数百万円変わる世界であるため、自分の経験がどの役職レンジで評価されるかを見極めることが重要です。40代の基本戦略は40代エンジニアの転職ガイドを参照してください。",
   },
   {
     q: "50代で年齢を理由に不採用にされるのは違法ですか？",
@@ -82,7 +82,7 @@ export default function Age50sPage() {
     <>
       <ArticleJsonLd
         title="50代エンジニアの転職｜需給ギャップと役職別年収の分散を読む"
-        description="50代エンジニアの転職を、doda年代別平均年収やJAC登録者の役職別年収、経産省のIT人材需給ギャップ試算で読み解く。50代固有の戦い方を解説します。"
+        description="50代エンジニアの転職を、doda年代別平均年収やJAC登録者の役職別年収、経産省のIT人材需給ギャップ試算で読み解きます。50代固有の進め方を解説します。"
         url="/age/50s/"
       />
       <script
@@ -106,7 +106,7 @@ export default function Age50sPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          50代エンジニアの転職には、「年収が下がる」「求人が少ない」といった悲観論がつきまといます。しかし実際のデータを見ると、その印象は単純すぎます。50代の実像は「一律に下がる」のではなく、<strong>役職・企業によって年収の分散が極めて大きい</strong>という点にあります。本記事では、doda・JAC・経済産業省のデータをもとに、50代固有の戦い方を読み解きます。
+          50代エンジニアの転職には、「年収が下がる」「求人が少ない」といった悲観論がつきまといます。しかし実際のデータを見ると、その印象は単純すぎます。50代の実像は「一律に下がる」のではなく、<strong>役職・企業によって年収の分散が極めて大きい</strong>という点にあります。本記事では、doda・JAC・経済産業省のデータをもとに、50代固有の進め方を読み解きます。
         </p>
 
         <DataNote
@@ -124,12 +124,12 @@ export default function Age50sPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：50代は「下がる」のではなく「分散が大きい」</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
-              dodaの集計では50代以上IT通信エンジニアの平均年収は711万円で、40代の652万円より高い結果です。「50代は下がる」という言説は定性的な印象に過ぎず、実態は<strong>役職・企業による分散が非常に大きい</strong>こと。JAC登録者では課長未満971万円に対し本部長以上は1,372.1万円と、ポジションで数百万円の差が生じます。50代の戦略は「下がるのを恐れる」のではなく「分散の上側に自分を位置づける」ことにあります。
+              dodaの集計では50代以上IT通信エンジニアの平均年収は711万円で、40代の652万円より高い結果です。「50代は下がる」という言説は定性的な印象に過ぎず、実態は<strong>役職・企業による分散が非常に大きい</strong>ことです。JAC登録者では課長未満971万円に対し本部長以上は1,372.1万円と、ポジションで数百万円の差が生じます。50代の戦略は「下がるのを恐れる」のではなく「分散の上側に自分を位置づける」ことにあります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>50代以上IT通信エンジニア平均711万円（doda）。40代652万円より高い。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>役職で大きく分散：JAC登録者で課長未満971万〜本部長以上1,372.1万（実績値）。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2030年に先端IT人材 約55万人不足の試算（経産省）で、経験者需要は根強い。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>50代以上IT通信エンジニア平均711万円です（doda）。40代652万円より高いです。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>役職で大きく分散：JAC登録者で課長未満971万〜本部長以上1,372.1万です（実績値）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2030年に先端IT人材 約55万人不足の試算（経産省）で、経験者需要は根強いです。</li>
             </ul>
           </div>
         </section>
@@ -176,7 +176,7 @@ export default function Age50sPage() {
         <section id="dispersion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">役職・企業による年収の大きな分散</h2>
           <p className="text-slate-600 leading-relaxed mb-5">
-            50代の年収を理解する鍵は「平均」ではなく「分散」です。JAC登録者（ハイクラス層の実績値）の内訳を見ると、役職と企業区分によって年収が大きく開いていることがわかります。
+            50代の年収を理解する鍵は「平均」ではなく「分散」です。JAC登録者（ハイクラス層の実績値）の内訳を見ると、役職と企業区分によって年収が大きく開いていることが分かります。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -237,7 +237,7 @@ export default function Age50sPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">実務 × マネジメント × 経営視点</h3>
-              <p className="text-sm text-petrol-deep">手を動かす実務力、チーム・プロジェクトを統括するマネジメント力、技術を経営課題に結びつける視点。この3つの掛け算が、50代の市場価値を決めます。</p>
+              <p className="text-sm text-petrol-deep">手を動かす実務力、チーム・プロジェクトを統括するマネジメント力、技術を経営課題に結びつける視点です。この3つの掛け算が、50代の市場価値を決めます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ERP・基幹システム刷新の主導</h3>
@@ -245,7 +245,7 @@ export default function Age50sPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">若手育成・技術伝承</h3>
-              <p className="text-sm text-petrol-deep">次世代エンジニアの育成と、組織への技術伝承。これは50代に強く期待される役割で、組織の持続性に直結する価値として評価されます。</p>
+              <p className="text-sm text-petrol-deep">次世代エンジニアの育成と、組織への技術伝承です。これは50代に強く期待される役割で、組織の持続性に直結する価値として評価されます。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-5 text-sm">
@@ -314,7 +314,7 @@ export default function Age50sPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">50代は「分散の上側」を狙おう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            役職・企業で年収が数百万円変わる50代。あなたの経験を高く評価する企業を見つけるには、ハイクラス・IT特化のエージェント活用が近道です。
+            役職・企業で年収が数百万円変わる50代です。ご自身の経験を高く評価する企業を見つけるには、ハイクラス・IT特化のエージェント活用が近道です。
           </p>
           <Link href="/compare/highclass/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             ハイクラス向けエージェント比較を見る

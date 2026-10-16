@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/hitachi/" },
   title: "日立製作所の年収は平均961万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "日立製作所のエンジニア転職を実データで解説。有報の平均年収961万円(2025年3月期)、Lumada・GlobalLogic・ジョブ型採用、選考フロー、口コミ傾向、30代40代視点まで網羅。",
+    "日立製作所のエンジニア転職を実データで解説します。有価証券報告書の平均年収961万円(2025年3月期)、Lumada・GlobalLogic・ジョブ型採用、選考フロー、口コミ傾向、30代40代視点まで網羅しています。",
 };
 
 const toc = [
@@ -29,7 +29,7 @@ const basicData: [string, string][] = [
   ["企業名", "株式会社日立製作所"],
   ["業種", "総合電機・IT・社会インフラ"],
   ["セクター構成", "デジタルシステム&サービス / グリーンエナジー&モビリティ / コネクティブインダストリーズ"],
-  ["従業員数", "連結 約28万人規模（公式IR・有報ベース。年度で変動）"],
+  ["従業員数", "連結 約28万人規模（公式IR・有価証券報告書ベース。年度で変動）"],
   ["提出会社の平均年間給与", "961万円（2025年3月期 有価証券報告書・全社員平均）"],
   ["平均年齢 / 勤続年数", "42.6歳 / 18.7年（同 有価証券報告書）"],
   ["本社所在地", "東京都千代田区"],
@@ -66,7 +66,7 @@ const faqs = [
     a: "OpenWorkなどの口コミプラットフォームでは「部署によって働き方が大きく異なる」という声が目立ち、月の残業時間も10時間程度から40時間程度までと部署差が大きいと報告されています。ジョブ型移行に伴いテレワークやフレックスも整備されていますが、配属先による差が大きい点に留意が必要です（出典：OpenWork 社員クチコミ傾向）。",
   },
   {
-    q: "未出典の等級別年収表はなぜ載せていないのですか？",
+    q: "未出典の等級別年収表はなぜ掲載していないのですか？",
     a: "当サイトは確認できた一次情報・出典付き情報のみを掲載する方針です。日立製作所はエンジニア職の等級別年収を公式に公表していないため、推測による等級別レンジ表は掲載していません。年収の交渉は転職エージェント経由で行うのが現実的です。",
   },
 ];
@@ -84,7 +84,7 @@ export default function HitachiCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="日立製作所 エンジニア転職ガイド" description="日立製作所へのエンジニア転職を実データで解説。有報の平均年収961万円、Lumada・GlobalLogic・ジョブ型採用、選考フロー、口コミ傾向、30代40代視点まで網羅。" url="/company/hitachi/" />
+      <ArticleJsonLd title="日立製作所 エンジニア転職ガイド" description="日立製作所へのエンジニア転職を実データで解説します。有価証券報告書の平均年収961万円、Lumada・GlobalLogic・ジョブ型採用、選考フロー、口コミ傾向、30代40代視点まで網羅しています。" url="/company/hitachi/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "日立製作所" }]} />
 
@@ -96,7 +96,7 @@ export default function HitachiCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】日立製作所の年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 日立製作所の平均年間給与は961万円です（2025年3月期 有価証券報告書・提出会社単体の全社員平均、平均年齢42.6歳・平均勤続18.7年）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 961万円（2025年3月期 有報）。株式会社日立製作所単体の全従業員平均で、特定職種の数値ではありません。</li><li>・エンジニア職に限定した公式の年収レンジは公表されていません。日本経済新聞の企業年収データなど二次情報も同水準（約961万円）を報じています。</li><li>・具体的な提示年収は募集職種・経験・現年収により変動するため、求人票かエージェント経由で確認するのが確実です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 961万円です（2025年3月期 有価証券報告書）。株式会社日立製作所単体の全従業員平均で、特定職種の数値ではありません。</li><li>・エンジニア職に限定した公式の年収レンジは公表されていません。日本経済新聞の企業年収データなど二次情報も同水準（約961万円）を報じています。</li><li>・具体的な提示年収は募集職種・経験・現年収により変動するため、求人票かエージェント経由で確認するのが確実です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -117,10 +117,10 @@ export default function HitachiCompanyPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：日立転職の難易度と向くエンジニア</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 text-sm text-blue-900 leading-relaxed space-y-2">
-            <p><strong>難易度は高め。ただしジョブ型・職種別の通年採用のため、専門性が募集要件に合えば30代・40代でもチャンスは十分。</strong></p>
-            <p>・<strong>向く人</strong>：Lumada／クラウド（AWS・Azure・GCP）／生成AI／データ基盤の実務経験者、電力・鉄道・製造などの社会インフラ×ITに関心がある人、OT×ITの融合領域に魅力を感じる人。</p>
-            <p>・<strong>向きにくい人</strong>：少人数・スピード最優先のプロダクト開発のみを志向する人、配属部署による文化差を許容しにくい人。</p>
-            <p>・<strong>年収の目安</strong>：全社員平均は961万円（2025年3月期有報）。エンジニア職の公式レンジは非公表のため、具体額はエージェント経由で確認するのが現実的です。</p>
+            <p><strong>難易度は高めです。ただしジョブ型・職種別の通年採用のため、専門性が募集要件に合えば30代・40代でもチャンスは十分です。</strong></p>
+            <p>・<strong>向く人</strong>：Lumada／クラウド（AWS・Azure・GCP）／生成AI／データ基盤の実務経験者、電力・鉄道・製造などの社会インフラ×ITに関心がある人、OT×ITの融合領域に魅力を感じる人です。</p>
+            <p>・<strong>向きにくい人</strong>：少人数・スピード最優先のプロダクト開発のみを志向する人、配属部署による文化差を許容しにくい人です。</p>
+            <p>・<strong>年収の目安</strong>：全社員平均は961万円です（2025年3月期有価証券報告書）。エンジニア職の公式レンジは非公表のため、具体額はエージェント経由で確認するのが現実的です。</p>
           </div>
         </section>
 
@@ -166,7 +166,7 @@ export default function HitachiCompanyPage() {
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Lumada</strong>：IoT/AI/データ分析を活用したDXソリューション基盤。生成AIサービスとの統合を強化</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Lumada</strong>：IoT/AI/データ分析を活用したDXソリューション基盤です。生成AIサービスとの統合を強化</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>クラウド</strong>：AWS / Azure / GCP を中心としたソリューション開発（公式募集職種に明記）</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>生成AI</strong>：Lumada Solution Hub における生成AI関連ソリューション・サービス開発</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>OT×IT</strong>：電力・鉄道・製造など社会インフラの制御技術とITの融合領域</span></li>
@@ -181,7 +181,7 @@ export default function HitachiCompanyPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-4">
             <p className="text-sm text-amber-900 leading-relaxed">
               <strong>有価証券報告書（2025年3月期）の全社員平均年収：961万円</strong><br />
-              平均年齢42.6歳／平均勤続年数18.7年（提出会社＝株式会社日立製作所単体の値）。これは特定職種ではなく全従業員の平均で、エンジニア職に限定した公式レンジは公表されていません。日本経済新聞の企業年収データなど複数の二次情報も同水準（約961万円）を報じています。
+              平均年齢42.6歳／平均勤続年数18.7年です（提出会社＝株式会社日立製作所単体の値）。これは特定職種ではなく全従業員の平均で、エンジニア職に限定した公式レンジは公表されていません。日本経済新聞の企業年収データなど複数の二次情報も同水準（約961万円）を報じています。
             </p>
           </div>
           <p className="text-slate-700 text-sm leading-relaxed">
@@ -191,13 +191,13 @@ export default function HitachiCompanyPage() {
 
         <section id="flow" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー</h2>
-          <p className="text-slate-700 text-sm leading-relaxed mb-4">公式採用ページ・キャリア採用ポータルに基づく一般的な流れは以下の通りです（職種により回数・内容は異なります）。</p>
+          <p className="text-slate-700 text-sm leading-relaxed mb-4">公式採用ページ・キャリア採用ポータルに基づく一般的な流れは以下のとおりです（職種により回数・内容は異なります）。</p>
           <ol className="space-y-3">
             {[
-              ["応募（公式採用ページ／エージェント経由）", "職種別の募集に対し、職務経歴書・レジュメを提出。"],
-              ["書類選考", "担当業務の規模・役割・成果・再現性が見られる。募集要件との合致が重要。"],
-              ["面接（複数回）", "ジョブ型・職種別のため、専門面接が行われる。事業理解と経験の接続が問われる。"],
-              ["内定・条件提示", "採用条件（待遇含む）の提示を経て決定。"],
+              ["応募（公式採用ページ／エージェント経由）", "職種別の募集に対し、職務経歴書・レジュメを提出します。"],
+              ["書類選考", "担当業務の規模・役割・成果・再現性が見られます。募集要件との合致が重要です。"],
+              ["面接（複数回）", "ジョブ型・職種別のため、専門面接が行われます。事業理解と経験の接続が問われます。"],
+              ["内定・条件提示", "採用条件（待遇含む）の提示を経て決定します。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -219,14 +219,14 @@ export default function HitachiCompanyPage() {
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>応募する募集職種（Lumada・クラウド・生成AI等）の<strong>専門要件との合致</strong></li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>社会インフラ・OT×IT領域への関心と、長期的に取り組む姿勢</li>
           </ul>
-          <p className="text-xs text-slate-400 mt-2">出典：日立製作所 公式採用情報＋転職メディアの傾向要約。具体的な面接質問の内容は選考・時期により異なります。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>を参照。</p>
+          <p className="text-xs text-slate-400 mt-2">出典：日立製作所 公式採用情報＋転職メディアの傾向要約。具体的な面接質問の内容は選考・時期により異なります。技術面接対策は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の準備</Link>をご参照ください。</p>
         </section>
 
         <section id="mid-career" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見た日立転職</h2>
           <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>日立はジョブ型・職種別採用へ移行しているため、<strong>30代・40代の実務経験者</strong>が即戦力ポジションで応募しやすい構造になっています。Lumada・クラウド・生成AIなど特定領域の深い経験は、ミドル層の強みとして評価されやすい一方、募集要件との合致が前提です。</p>
-            <p>製造業・社会インフラの現場経験を持つエンジニアにとっては、OT×ITの融合領域が活きる場面が多くあります。<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業からのIT転職ガイド</Link>で、現場知識を武器に変える考え方を整理しておくと、日立のような社会インフラ×IT企業への志望動機が説得力を増します。</p>
+            <p>製造業・社会インフラの現場経験を持つエンジニアにとっては、OT×ITの融合領域が活きる場面が多くあります。<Link href="/industry/manufacturing/" className="text-petrol hover:underline">製造業からのIT転職ガイド</Link>で、現場知識を強みに変える考え方を整理しておくと、日立のような社会インフラ×IT企業への志望動機が説得力を増します。</p>
             <p>一方、口コミでは「部署による文化差が大きい」との声が目立ちます。30代・40代は配属先のミスマッチが転職後の満足度を大きく左右するため、面接段階で配属予定部署の業務・働き方を具体的に確認することが重要です。40代特有の留意点は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>も参考にしてください。</p>
           </div>
         </section>
@@ -235,9 +235,9 @@ export default function HitachiCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">日立製作所転職におすすめの転職エージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量。大手メーカー・日立グループ系の求人を幅広く保有。検索とエージェントを併用できる。" },
-              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚い。大手企業への転職支援に強みがあり、ジョブ型採用の準備をサポート。" },
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。日立の管理職・スペシャリスト求人や非公開ポジションに出会いやすい。" },
+              { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人量です。大手メーカー・日立グループ系の求人を幅広く保有しています。検索とエージェントを併用できます。" },
+              { name: "マイナビIT AGENT", href: "/review/mynavi-it/", desc: "書類添削・面接対策が手厚いです。大手企業への転職支援に強みがあり、ジョブ型採用の準備をサポートします。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。日立の管理職・スペシャリスト求人や非公開ポジションに出会いやすいです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

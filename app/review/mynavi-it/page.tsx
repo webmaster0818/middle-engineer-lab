@@ -6,17 +6,17 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/review/mynavi-it/" },
-  title: "マイナビIT AGENTの評判・口コミ｜30代40代エンジニア徹底レビュー",
+  title: "マイナビIT AGENTの評判・口コミ｜30代40代エンジニアレビュー",
   description:
-    "マイナビIT AGENTの評判を30代・40代エンジニア目線で徹底解説。手厚いサポート、IT業界に詳しい担当者という強みと、ハイクラス・地方求人が手薄なデメリットを口コミ傾向と実データで検証します。",
+    "マイナビIT AGENTの評判を30代・40代エンジニア目線で解説します。手厚いサポート、IT業界に詳しい担当者という強みと、ハイクラス・地方求人が手薄なデメリットを口コミ傾向と実データで検証します。",
 };
 
-const PAGE_TITLE = "マイナビIT AGENTの評判・口コミ｜30代40代エンジニア徹底レビュー";
+const PAGE_TITLE = "マイナビIT AGENTの評判・口コミ｜30代40代エンジニアレビュー";
 const PAGE_DESC =
-  "マイナビIT AGENTの評判を30代・40代エンジニア目線で徹底解説。手厚いサポート、IT業界に詳しい担当者という強みと、ハイクラス・地方求人が手薄なデメリットを口コミ傾向と実データで検証します。";
+  "マイナビIT AGENTの評判を30代・40代エンジニア目線で解説します。手厚いサポート、IT業界に詳しい担当者という強みと、ハイクラス・地方求人が手薄なデメリットを口コミ傾向と実データで検証します。";
 
 const toc = [
-  { id: "summary", label: "結論：マイナビIT AGENTはこんな人向け" },
+  { id: "summary", label: "結論：マイナビIT AGENTはこのような方向け" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strengths", label: "特徴・強み" },
   { id: "good", label: "良い評判の傾向" },
@@ -160,7 +160,7 @@ export default function MynaviItReview() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          マイナビIT AGENTの評判・口コミ【30代・40代エンジニア向け徹底レビュー】
+          マイナビIT AGENTの評判・口コミ【30代・40代エンジニア向けレビュー】
         </h1>
         <p className="text-slate-500 text-sm mb-2">最終更新: 2026年6月 | 手厚いサポートと若手層への強みを実データで検証</p>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
@@ -174,15 +174,15 @@ export default function MynaviItReview() {
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：マイナビIT AGENTはこんな人向け</h2>
+            <h2 className="text-xl font-bold text-blue-900 mb-3">結論：マイナビIT AGENTはこのような方向け</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
               総合評価は <span className="font-bold">★★★★☆（4.0 / 5.0・当サイト編集部の総合判断）</span>。
               <span className="font-bold">「20代後半〜30代で、丁寧な伴走サポートを受けながら初めて／久しぶりの転職をしたいエンジニア」</span>に向いています。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・書類添削・面接対策の手厚さが強み。初めての転職でも準備を整えやすい</li>
+              <li>・書類添削・面接対策の手厚さが強みです。初めての転職でも準備を整えやすいです</li>
               <li>・担当者がIT業界に詳しく、職種理解のうえで提案してくれる傾向</li>
-              <li>・一方でハイクラス求人・地方求人は手薄。40代や年収800万円超狙いは他社併用が前提</li>
+              <li>・一方でハイクラス求人・地方求人は手薄です。40代や年収800万円超狙いは他社併用が前提</li>
             </ul>
           </div>
         </section>
@@ -319,14 +319,14 @@ export default function MynaviItReview() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの活用戦略（当サイト独自視点）</h2>
           <div className="prose-sm text-sm text-slate-600 leading-relaxed space-y-4">
             <p>
-              当サイト「ミドルエンジニア転職ラボ」は30代・40代エンジニアの読者を想定しています。その視点でマイナビIT AGENTの位置づけを整理します。
+              当サイトは30代・40代エンジニアの読者を想定しています。その視点でマイナビIT AGENTの位置づけを整理します。
             </p>
             <p>
-              <span className="font-bold text-slate-800">30代前半は「主軸」として有力。</span>
+              <span className="font-bold text-slate-800">30代前半は「主軸」として有力です。</span>
               この層はマイナビの最も得意とするゾーンで、書類添削・面接対策の手厚さがそのまま選考通過率に効きます。客先常駐(SES)から自社開発・社内SEへ移りたいケースとも相性が良いでしょう。レバテックの公表値（2025年）では正社員SEの30代平均年収は約499万円とされ、現年収がこれを下回るなら年収アップの余地を相談する価値があります。
             </p>
             <p>
-              <span className="font-bold text-slate-800">30代後半〜40代は「併用前提」が現実的。</span>
+              <span className="font-bold text-slate-800">30代後半〜40代は「併用前提」が現実的です。</span>
               口コミでもハイクラス・地方求人の手薄さが指摘されており、この層が単独で使うと選択肢が物足りなくなる可能性があります。同公表値では40代の正社員SE平均年収は約618万円、年収1,000万円以上の割合は40代で12.67%とされ、ハイクラス帯を狙うなら
               <Link href="/review/bizreach-it/" className="text-petrol hover:underline">ビズリーチ</Link>
               や求人数の多い

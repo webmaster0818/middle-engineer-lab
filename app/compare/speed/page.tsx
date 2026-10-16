@@ -40,37 +40,37 @@ const agents: Agent[] = [
     name: "Geekly",
     company: "株式会社Geekly（2011年設立・渋谷区）",
     speedPoint: "「レスポンスが早い」「選考までスムーズ」という声（出典: 2b-connect・転職アンテナ等）",
-    field: "IT/Web/ゲーム業界専門。提案スピードが強み",
+    field: "IT/Web/ゲーム業界専門です。提案スピードが強み",
     fee: "求職者無料",
     href: "/review/geekly/",
-    caution: "口コミでは「連絡がしつこい」「担当者の質にばらつき」という指摘もある",
+    caution: "口コミでは「連絡がしつこい」「担当者の質にばらつき」という指摘もあります",
   },
   {
     rank: 2,
     name: "ワークポート",
     company: "株式会社ワークポート（2003年設立）",
     speedPoint: "「レスポンスが早い」「紹介求人の量が多い」という声（出典: Qiita Job Change・morejob等）",
-    field: "総合型でIT・ゲームが最も強い。スピード重視・全国47都道府県57拠点",
+    field: "総合型でIT・ゲームが最も強いです。スピード重視・全国47都道府県57拠点",
     fee: "求職者完全無料",
     href: "/review/workport/",
-    caution: "口コミでは「連絡が多すぎる」「希望と異なる求人紹介」という指摘もある",
+    caution: "口コミでは「連絡が多すぎる」「希望と異なる求人紹介」という指摘もあります",
   },
   {
     rank: 3,
     name: "レバテックキャリア",
     company: "レバテック株式会社（レバレジーズグループ）",
     speedPoint: "「LINEで連絡が完結」しやり取りが速いという声（出典: OUTSIDEMAGAZINE・イーデス等）",
-    field: "IT/Web特化。高年収求人比率が高い",
+    field: "IT/Web特化です。高年収求人比率が高い",
     fee: "求職者無料",
     href: "/review/levtech/",
-    caution: "「初回面談後の連絡が遅い場合がある」という指摘もあり、担当により差が出る",
+    caution: "「初回面談後の連絡が遅い場合がある」という指摘もあり、担当により差が出ます",
   },
   {
     rank: 4,
     name: "doda（ITエンジニア）",
     company: "パーソルキャリア株式会社（1989年設立）",
     speedPoint: "求人母数が大きく、自分でも検索しながら並行して動けるため着手が速い",
-    field: "国内最大級。検索＋エージェント＋スカウトのハイブリッド型",
+    field: "国内最大級です。検索＋エージェント＋スカウトのハイブリッド型",
     fee: "求職者無料",
     href: "/review/doda-it/",
     caution: "「求人・連絡が多すぎる」という声があり、情報の取捨選択が必要",
@@ -80,7 +80,7 @@ const agents: Agent[] = [
     name: "Green",
     company: "株式会社アトラエ（東証プライム）",
     speedPoint: "企業と直接やり取りでき「速い」という声（出典: みん評等）",
-    field: "IT/Webベンチャー・スタートアップ。直接応募・カジュアル面談中心",
+    field: "IT/Webベンチャー・スタートアップです。直接応募・カジュアル面談中心",
     fee: "求職者無料",
     href: "/review/green/",
     caution: "エージェントの個別仲介サポートはなく、自分で進める前提",
@@ -166,8 +166,8 @@ export default function SpeedPage() {
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">提案スピードを重視するなら、IT特化で「提案スピードが強み」とされる<strong>Geekly</strong>と、「スピード重視」「レスポンスが早い」と評される<strong>ワークポート</strong>の併用が現実的です。</p>
             <ul className="space-y-2 text-sm text-slate-600">
               <li>① Geekly：IT/Web/ゲーム特化で提案が速く、選考までスムーズという声（2b-connect・転職アンテナ等）</li>
-              <li>② ワークポート：スピード重視で「レスポンスが早い」という声（Qiita Job Change・morejob等）。全国対応</li>
-              <li>③ いずれも口コミに「連絡が多い」という指摘があるため、連絡頻度の希望を最初に伝える</li>
+              <li>② ワークポート：スピード重視で「レスポンスが早い」という声です（Qiita Job Change・morejob等）。全国対応</li>
+              <li>③ いずれも口コミに「連絡が多い」という指摘があるため、連絡頻度の希望を最初に伝えます</li>
             </ul>
           </div>
         </section>
@@ -240,19 +240,19 @@ export default function SpeedPage() {
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
-                <p className="text-sm text-slate-600"><strong>事前準備を徹底する:</strong> 職務経歴書・ポートフォリオを先に完成させ、登録後すぐ応募できる状態にしておく。準備不足はスピードを一番落とす要因。</p>
+                <p className="text-sm text-slate-600"><strong>事前準備を徹底する:</strong> 職務経歴書・ポートフォリオを先に完成させ、登録後すぐ応募できる状態にしておきます。準備不足はスピードを一番落とす要因です。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
-                <p className="text-sm text-slate-600"><strong>2〜3社に同時登録する:</strong> スピードに強いGeekly・ワークポートを軸に並行して提案を受ける。最初の1〜2週間で多くの求人に触れる。</p>
+                <p className="text-sm text-slate-600"><strong>2〜3社に同時登録する:</strong> スピードに強いGeekly・ワークポートを軸に並行して提案を受けます。最初の1〜2週間で多くの求人に触れます。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-                <p className="text-sm text-slate-600"><strong>面接日程を集中させる:</strong> 候補日をまとめて提示し、複数企業の結果を同時期に出すと、比較検討と年収交渉がしやすくなる。</p>
+                <p className="text-sm text-slate-600"><strong>面接日程を集中させる:</strong> 候補日をまとめて提示し、複数企業の結果を同時期に出すと、比較検討と年収交渉がしやすくなります。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">4</span>
-                <p className="text-sm text-slate-600"><strong>連絡ルールを最初に決める:</strong> 「勝手に応募しない」「連絡はメール中心」など希望を先に共有し、スピードの副作用を抑える。</p>
+                <p className="text-sm text-slate-600"><strong>連絡ルールを最初に決める:</strong> 「勝手に応募しない」「連絡はメール中心」など希望を先に共有し、スピードの副作用を抑えます。</p>
               </div>
             </div>
           </div>

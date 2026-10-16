@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/kyoto/" },
   title: "京都のITエンジニア転職事情【2026年】特徴と進め方",
   description:
-    "京都のIT・Webエンジニア転職市場を解説。任天堂をはじめとする企業集積、研究機関連携、働き方の選択肢、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。",
+    "京都のIT・Webエンジニア転職市場を解説します。任天堂をはじめとする企業集積、研究機関連携、働き方の選択肢、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。",
 };
 
 const toc = [
@@ -63,19 +63,19 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化で全国の求人を扱う。技術理解に基づく提案と年収交渉が強み。内定承諾者のうち応募時年収との差が70万円以上＝3人に2人（2023年1月〜2024年3月実績）。京都・大阪を含む関西の求人を相談しやすい。",
+      "IT/Web特化で全国の求人を扱います。技術理解に基づく提案と年収交渉が強みです。内定承諾者のうち応募時年収との差が70万円以上＝3人に2人です（2023年1月〜2024年3月実績）。京都・大阪を含む関西の求人を相談しやすいです。",
   },
   {
     name: "Geekly（ギークリー）",
     href: "/review/geekly/",
     point:
-      "IT/Web/ゲーム業界に専門特化。提案スピードが強みで、年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報）。ゲーム領域に関心がある人に向く。求人は首都圏中心のため京都求人の有無は要確認。",
+      "IT/Web/ゲーム業界に専門特化します。提案スピードが強みで、年収アップ率約81%・平均上昇額約76万円です（2025年9月時点・二次情報）。ゲーム領域に関心がある人に向きます。求人は首都圏中心のため京都求人の有無は要確認です。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の国内最大級。IT・通信エンジニア求人は5万件超（2026年2月時点・二次経由）。メーカー・大手のDX求人を含め幅広くカバーし、京都・大阪の求人を同時に探しやすい。",
+      "全国対応の国内最大級です。IT・通信エンジニア求人は5万件超です（2026年2月時点・二次経由）。メーカー・大手のDX求人を含め幅広くカバーし、京都・大阪の求人を同時に探しやすいです。",
   },
 ];
 
@@ -94,7 +94,7 @@ export default function KyotoAreaPage() {
     <>
       <ArticleJsonLd
         title="京都のITエンジニア転職事情【2026年】特徴と進め方"
-        description="京都のIT・Webエンジニア転職市場を解説。任天堂などの企業集積、研究機関連携、働き方、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。"
+        description="京都のIT・Webエンジニア転職市場を解説します。任天堂などの企業集積、研究機関連携、働き方、年代別年収の考え方、対応エージェント、30代・40代の進め方まで網羅します。"
         url="/area/kyoto/"
       />
       <script
@@ -134,9 +134,9 @@ export default function KyotoAreaPage() {
               京都はゲーム・エンタメ、メーカー、大学・研究機関といった特色ある企業が集まる一方、求人の絶対数は大阪より少ないエリアです。京都に住みながら大阪の企業へ通勤・リモート勤務するスタイルも一般的で、京都・大阪を合わせて探すのが現実的です。任天堂株式会社の本社が京都にあることは公知の事実で、ゲーム領域に関心がある人には象徴的な土地でもあります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1 list-disc list-inside">
-              <li>ゲーム・メーカー・研究機関など特色ある求人があり、専門性を活かしやすい</li>
+              <li>ゲーム・メーカー・研究機関など特色ある求人があり、専門性を活かしやすいです</li>
               <li>求人数は大阪に劣るため、大阪求人やフルリモート求人との併用が前提</li>
-              <li>生活環境・QOLを重視するUターン・Iターン層の受け皿になりやすい</li>
+              <li>生活環境・QOLを重視するUターン・Iターン層の受け皿になりやすいです</li>
             </ul>
           </div>
         </section>
@@ -209,15 +209,15 @@ export default function KyotoAreaPage() {
           <div className="space-y-3">
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
-              <p className="text-sm text-slate-600"><strong>京都の企業に勤める：</strong> ゲーム・メーカー・研究機関系は出社中心の傾向。専門性を深めたい人に向く。</p>
+              <p className="text-sm text-slate-600"><strong>京都の企業に勤める：</strong> ゲーム・メーカー・研究機関系は出社中心の傾向です。専門性を深めたい人に向きます。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
-              <p className="text-sm text-slate-600"><strong>大阪の企業に通勤／リモート：</strong> 京都〜大阪は通勤圏内。京都のQOLを保ちながら大阪の求人にアクセスできる。</p>
+              <p className="text-sm text-slate-600"><strong>大阪の企業に通勤／リモート：</strong> 京都〜大阪は通勤圏内です。京都のQOLを保ちながら大阪の求人にアクセスできます。</p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-              <p className="text-sm text-slate-600"><strong>東京企業にフルリモート：</strong> 居住地は京都のまま首都圏水準の年収を狙える。全国採用のフルリモート求人が対象。</p>
+              <p className="text-sm text-slate-600"><strong>東京企業にフルリモート：</strong> 居住地は京都のまま首都圏水準の年収を狙えます。全国採用のフルリモート求人が対象です。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
@@ -236,7 +236,7 @@ export default function KyotoAreaPage() {
         <section id="salary" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方（年代別）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            エリア単独の正確な平均年収データは公的に整備されていないため、ここでは全国の年代別データを基準に考え方を整理します。レバテックが公表した正社員SEの年代別平均年収（2025年）は次の通りです。
+            エリア単独の正確な平均年収データは公的に整備されていないため、ここでは全国の年代別データを基準に考え方を整理します。レバテックが公表した正社員SEの年代別平均年収（2025年）は次のとおりです。
           </p>
           <div className="overflow-x-auto mb-3">
             <table className="w-full text-sm border-collapse min-w-[480px]">
@@ -331,7 +331,7 @@ export default function KyotoAreaPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1 text-sm">3. 専門領域を職務経歴書で言語化</h3>
-              <p className="text-sm text-slate-600">ゲーム・組込み・AIなど専門性を活かすなら実績を具体的に。<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>を参考に。</p>
+              <p className="text-sm text-slate-600">ゲーム・組込み・AIなど専門性を活かすなら実績を具体的に示します。<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方</Link>をご参照ください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1 text-sm">4. 出社頻度・通勤負担を面談で確認</h3>
@@ -345,7 +345,7 @@ export default function KyotoAreaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <p className="text-sm text-slate-600 leading-relaxed mb-3">
-              30代・40代が京都で転職する場合、求人数で勝負するより、専門性やマネジメント経験を評価する企業を狙うのが現実的です。京都のメーカー・研究機関・ゲーム系は、特定領域に深い経験を持つ人材を求める傾向があります。
+              30代・40代が京都で転職する場合、求人数を強みにするより、専門性やマネジメント経験を評価する企業を狙うのが現実的です。京都のメーカー・研究機関・ゲーム系は、特定領域に深い経験を持つ人材を求める傾向があります。
             </p>
             <p className="text-sm text-slate-600 leading-relaxed mb-3">
               経済産業省が2019年に公表した試算では2030年に最大約79万人のIT人材が不足するとされており、経験者の需要は底堅い状況です。年齢よりも、これまで積み上げた専門性とリード経験をどう言語化できるかが鍵になります。
@@ -363,9 +363,9 @@ export default function KyotoAreaPage() {
               <ul className="space-y-2 text-sm text-slate-600">
                 <li>✓ ゲーム・組込み・AIなど専門領域を深めたい</li>
                 <li>✓ 京都に住みながら大阪求人も視野に入れたい</li>
-                <li>✓ 学術都市ならではの研究寄り企業に関心がある</li>
-                <li>✓ 生活環境・QOLを重視している</li>
-                <li>✓ 直接応募とエージェントを併用できる</li>
+                <li>✓ 学術都市ならではの研究寄り企業に関心があります</li>
+                <li>✓ 生活環境・QOLを重視しています</li>
+                <li>✓ 直接応募とエージェントを併用できます</li>
               </ul>
             </div>
             <div className="border border-slate-200 rounded-xl p-5">

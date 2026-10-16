@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/laravel/" },
   title: "Laravelエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Laravel（PHP）エンジニアの転職市場を出典付きで解説。レバテック・求人ボックスの公表値をもとに、PHP Web開発フレームワークの市場価値、求人傾向、未経験からの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",
+    "Laravel（PHP）エンジニアの転職市場を出典付きで解説。レバテック・求人ボックスの公表値をもとに、PHP Web開発フレームワークの市場価値、求人傾向、未経験からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Laravelエンジニアの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：Laravelエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Laravelの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Laravelエンジニアのキャリアパス" },
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "LaravelはPHPが使えれば転職できますか？",
-    a: "LaravelはPHPのフレームワークなので、PHPの実務経験がそのまま土台になります。ただし求人で評価されるのは「Laravel単体」ではなく、PHPの言語力に加え、Eloquent ORM、MVC設計、認証、テスト、DB設計、API開発までを含む実務力です。PHPでのWeb開発経験があれば、Laravel特有の作法をキャッチアップする形で十分参入できます。",
+    a: "LaravelはPHPのフレームワークであるため、PHPの実務経験がそのまま土台になります。ただし求人で評価されるのは「Laravel単体」ではなく、PHPの言語力に加え、Eloquent ORM、MVC設計、認証、テスト、DB設計、API開発までを含む実務力です。PHPでのWeb開発経験があれば、Laravel特有の作法をキャッチアップする形で十分参入できます。",
   },
   {
     q: "Laravelの求人はどんな企業に多いですか？",
@@ -73,7 +73,7 @@ export default function LaravelSkillPage() {
     <>
       <ArticleJsonLd
         title="Laravelエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Laravel（PHP）エンジニアの転職市場を出典付きで解説。PHP Web開発フレームワークの市場価値、求人傾向、未経験からの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。"
+        description="Laravel（PHP）エンジニアの転職市場を出典付きで解説。PHP Web開発フレームワークの市場価値、求人傾向、未経験からの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/laravel/"
       />
       <script
@@ -101,7 +101,7 @@ export default function LaravelSkillPage() {
             LaravelはPHPの主流Webアプリケーションフレームワークで、MVC設計・Eloquent ORM・認証・ルーティングなどを標準で備え、Webサービスやシステムを効率的に開発できます。PHPは国内のWeb開発で長年使われてきた実績があり、Laravelは現在のPHP開発の中心的な選択肢です。求人母数が多く、スタートアップから中小・中堅企業まで採用層が広いのが特徴です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、Laravelエンジニア転職の「攻め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。フレームワーク単体ではなく「PHPの言語力＋Web開発の実務」で評価される点も誠実にお伝えします。
+            本記事では、Laravelエンジニア転職の「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。フレームワーク単体ではなく「PHPの言語力＋Web開発の実務」で評価される点も誠実にお伝えします。
           </p>
         </section>
 
@@ -130,15 +130,15 @@ export default function LaravelSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Laravelエンジニアの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Laravelエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Laravelは「求人母数が多く、案件が安定している実用スキル」です。</strong>希少性より安定性が強みなので、母数の多さを活かして条件のよい求人を比較しつつ、PHPの言語力と設計力で年収を伸ばすのが転職成功の軸になります。
+              <strong>Laravelは「求人母数が多く、案件が安定している実用スキル」です。</strong>希少性より安定性が強みなため、母数の多さを活かして条件のよい求人を比較しつつ、PHPの言語力と設計力で年収を伸ばすのが転職成功の軸になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Laravelエンジニアの平均年収は<strong>500万円・中央値550万円</strong>（レバテック公表・2025年）。Webエンジニア平均（約462万円）より高め</li>
-              <li>・PHPや他のWebフレームワークの経験があれば、Laravel未経験でもポテンシャル採用に乗りやすい</li>
-              <li>・Laravelは<strong>フロント・インフラ・設計</strong>との掛け合わせで年収レンジが上がる</li>
+              <li>・Laravelエンジニアの平均年収は<strong>500万円・中央値550万円です</strong>（レバテック公表・2025年）。Webエンジニア平均（約462万円）より高め</li>
+              <li>・PHPや他のWebフレームワークの経験があれば、Laravel未経験でもポテンシャル採用に乗りやすいです</li>
+              <li>・Laravelは<strong>フロント・インフラ・設計</strong>との掛け合わせで年収レンジが上がります</li>
             </ul>
           </div>
         </section>
@@ -182,7 +182,7 @@ export default function LaravelSkillPage() {
         <section id="level" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Laravel求人は「Laravel実務そのもの」を必須にするものと、「PHP/Web開発実務＋Laravelは入社後キャッチアップ可」とするものに分かれます。求人票によく登場する要件を傾向としてまとめると次の通りです。
+            Laravel求人は「Laravel実務そのもの」を必須にするものと、「PHP/Web開発実務＋Laravelは入社後キャッチアップ可」とするものに分かれます。求人票によく登場する要件を傾向としてまとめると次のとおりです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -207,10 +207,10 @@ export default function LaravelSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "Webバックエンドエンジニア", note: "LaravelでのWebアプリ・API開発が中心。求人の最も多いゾーン" },
-              { role: "フルスタックエンジニア", note: "Laravel＋フロント（React/Vue）まで担当。スタートアップで需要" },
+              { role: "Webバックエンドエンジニア", note: "LaravelでのWebアプリ・API開発が中心です。求人の最も多いゾーン" },
+              { role: "フルスタックエンジニア", note: "Laravel＋フロント（React/Vue）まで担当します。スタートアップで需要" },
               { role: "テックリード／アーキテクト", note: "Laravel基盤のシステム設計＋技術選定＋チームリード" },
-              { role: "フリーランス（Laravel案件）", note: "Webサービス・受託開発案件。求人母数が多く案件が見つかりやすい" },
+              { role: "フリーランス（Laravel案件）", note: "Webサービス・受託開発案件です。求人母数が多く案件が見つかりやすいです" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -233,21 +233,21 @@ export default function LaravelSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。Laravel/PHPのWeb求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍しています。Laravel/PHPのWeb求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                年収750万円以上を中心としたハイクラス・スカウト型。Laravel基盤のテックリードやアーキテクト級の求人・スカウトに出会いやすいのが特徴です。
+                年収750万円以上を中心としたハイクラス・スカウト型です。Laravel基盤のテックリードやアーキテクト級の求人・スカウトに出会いやすいのが特徴です。
               </p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で、提案スピードが強み。Laravelを採用するWeb系・スタートアップの求人を探したい場合の選択肢になります。
+                IT・Web・ゲーム業界専門で、提案スピードが強みです。Laravelを採用するWeb系・スタートアップの求人を探したい場合の選択肢になります。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -284,13 +284,13 @@ export default function LaravelSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>求人母数の多さは年齢のハードルを下げる。</strong>Laravelは求人が多いぶん、年齢や経歴の条件が幅広い案件が存在します。30代・40代でPHP/Web開発の実務を積んでいるなら、即戦力として受け入れられる求人を見つけやすいのが強みです。
+              <strong>求人母数の多さは年齢のハードルを下げます。</strong>Laravelは求人が多いぶん、年齢や経歴の条件が幅広い案件が存在します。30代・40代でPHP/Web開発の実務を積んでいるなら、即戦力として受け入れられる求人を見つけやすいのが強みです。
             </p>
             <p>
-              <strong>掛け算で年収を伸ばす。</strong>Laravel単体では年収の上限が見えやすいため、「Laravel＋フロント（React/Vue）」「Laravel＋インフラ・設計」「Laravel＋過去のドメイン知識（EC・業務系など）」の掛け合わせがミドル層の強みになります。年齢を重ねた分の業務知識を実装力と結びつけて語りましょう。
+              <strong>掛け算で年収を伸ばします。</strong>Laravel単体では年収の上限が見えやすいため、「Laravel＋フロント（React/Vue）」「Laravel＋インフラ・設計」「Laravel＋過去のドメイン知識（EC・業務系など）」の掛け合わせがミドル層の強みになります。年齢を重ねた分の業務知識を実装力と結びつけて語りましょう。
             </p>
             <p>
-              <strong>マネジメント経験も資産になる。</strong>テックリードやアーキテクトのLaravel求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのLaravel求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -303,13 +303,13 @@ export default function LaravelSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 公式ドキュメントとPHPの基礎を固める。</strong>Laravelは公式ドキュメントが充実しています。まずPHPの言語仕様を固めたうえで、ルーティング・Eloquent・認証・バリデーションといったLaravelの中核機能を公式で押さえると、フレームワークの作法を体系的に理解できます。
+              <strong>① 公式ドキュメントとPHPの基礎を固めます。</strong>Laravelは公式ドキュメントが充実しています。まずPHPの言語仕様を固めたうえで、ルーティング・Eloquent・認証・バリデーションといったLaravelの中核機能を公式で押さえると、フレームワークの作法を体系的に理解できます。
             </p>
             <p>
-              <strong>② テストとDB設計を実務水準で経験する。</strong>即戦力ゾーンの求人ではテストコードとDB設計が重視されます。マイグレーション、リレーション設計、自動テストを実プロジェクトで使うと、面接で語れる経験になります。
+              <strong>② テストとDB設計を実務水準で経験します。</strong>即戦力ゾーンの求人ではテストコードとDB設計が重視されます。マイグレーション、リレーション設計、自動テストを実プロジェクトで使うと、面接で語れる経験になります。
             </p>
             <p>
-              <strong>③ フロント・インフラを掛け合わせる。</strong>年収を伸ばすには、Laravelに加えてReact/Vueなどフロント、Docker・クラウドなどインフラの経験を積むのが効果的です。フルスタックに動ける人材は、ミドル以上の求人で差がつきます。
+              <strong>③ フロント・インフラを掛け合わせます。</strong>年収を伸ばすには、Laravelに加えてReact/Vueなどフロント、Docker・クラウドなどインフラの経験を積むのが効果的です。フルスタックに動ける人材は、ミドル以上の求人で差がつきます。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -356,7 +356,7 @@ export default function LaravelSkillPage() {
               { name: "Node.jsエンジニアの転職ガイド", href: "/skill/nodejs/" },
               { name: "SQLエンジニアの転職ガイド", href: "/skill/sql/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

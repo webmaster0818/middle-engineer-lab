@@ -6,10 +6,10 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "C#/.NETエンジニア転職ガイド｜年収・資格・求人の探し方";
 const PAGE_DESC =
-  "C#/.NETエンジニアの転職を年収データ・Azure認定資格・求人の探し方まで解説。求人ボックスやフリーランスボードの公表年収、レバテック年代別データを出典付きで掲載。30代・40代の参入ルートとおすすめエージェントも紹介します。";
+  "C#/.NETエンジニアの転職を年収データ・Azure認定資格・求人の探し方まで解説します。求人ボックスやフリーランスボードの公表年収、レバテック年代別データを出典付きで掲載。30代・40代の参入ルートとおすすめエージェントも紹介します。";
 
 const toc = [
-  { id: "conclusion", label: "結論：C#/.NET転職の攻め方" },
+  { id: "conclusion", label: "結論：C#/.NET転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
@@ -24,22 +24,22 @@ const toc = [
 const careerPaths = [
   {
     role: "業務系アプリエンジニア",
-    note: "ASP.NET Core・Entity Framework CoreでのWebアプリ・基幹業務システム開発。C#の最も安定した需要領域。",
+    note: "ASP.NET Core・Entity Framework CoreでのWebアプリ・基幹業務システム開発です。C#の最も安定した需要領域です。",
     cert: "—（実務経験重視）",
   },
   {
     role: "Azureクラウドエンジニア",
-    note: "C#＋Azureでのクラウドネイティブ設計、Azure Functions等のサーバーレス開発。",
+    note: "C#＋Azureでのクラウドネイティブ設計、Azure Functions等のサーバーレス開発です。",
     cert: "AZ-204（Azure Developer Associate）",
   },
   {
     role: "Unityエンジニア",
-    note: "ゲーム開発に加え、XR・メタバース・産業用ビジュアライゼーションまで。C#がUnityの標準言語。",
+    note: "ゲーム開発に加え、XR・メタバース・産業用ビジュアライゼーションまで。C#がUnityの標準言語です。",
     cert: "—（ポートフォリオ重視）",
   },
   {
     role: "テックリード／アーキテクト",
-    note: ".NET基盤のシステム設計・技術選定・チームリード。クラウド設計資格があると強い。",
+    note: ".NET基盤のシステム設計・技術選定・チームリードです。クラウド設計資格があると強いです。",
     cert: "AZ-305（Solutions Architect）等",
   },
 ];
@@ -112,7 +112,7 @@ export default function CsharpSkillPage() {
           C#/.NETエンジニア転職ガイド｜年収・資格・求人の探し方
         </h1>
         <p className="text-slate-500 text-sm mb-4">
-          最終更新: 2026年6月 | C#/.NETスキルを軸にした転職市場の攻め方を解説
+          最終更新: 2026年6月 | C#/.NETスキルを軸にした転職市場での進め方を解説
         </p>
         <p className="text-slate-600 leading-relaxed mb-2">
           C#はMicrosoftが開発した言語で、業務系システム・Webアプリ（ASP.NET）・ゲーム（Unity）・クラウド（Azure）と幅広い領域で使われています。本記事は求人数を競うのではなく、「年収相場の捉え方」「Azure認定資格の活かし方」「求人の探し方」という転職判断に必要な情報に絞って整理します。
@@ -144,15 +144,15 @@ export default function CsharpSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：C#/.NET転職の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：C#/.NET転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               C#/.NET転職は<strong>「モダン.NET＋専門ドメイン（業務系・クラウド・ゲーム）の組み合わせで売り込む」</strong>のが基本戦略です。安定したエンタープライズ需要を土台に、Azureを足すと年収帯が上がりやすいのが特徴です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① レガシー.NET Frameworkではなく、ASP.NET Core等のモダン.NETを学ぶ</li>
-              <li>② 業務系・クラウド・ゲームのどのドメインで勝負するか軸を決める</li>
-              <li>③ Azure認定（AZ-204等）でクラウドスキルを可視化し、年収帯を上げる</li>
+              <li>① レガシー.NET Frameworkではなく、ASP.NET Core等のモダン.NETを学びます</li>
+              <li>② 業務系・クラウド・ゲームのどのドメインを強みにするか軸を決めます</li>
+              <li>③ Azure認定（AZ-204等）でクラウドスキルを可視化し、年収帯を上げます</li>
             </ul>
           </div>
         </section>
@@ -210,15 +210,15 @@ export default function CsharpSkillPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ジュニア（実務〜2年程度）</h3>
-              <p className="text-sm text-slate-600">C#の基本文法、簡単なWebアプリやツールの開発経験。SIerの開発メンバー枠など。</p>
+              <p className="text-sm text-slate-600">C#の基本文法、簡単なWebアプリやツールの開発経験です。SIerの開発メンバー枠などです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ミドル（実務3〜7年）</h3>
-              <p className="text-sm text-slate-600">ASP.NET Coreでの設計・実装、DB設計、Azureまたはオンプレ運用の経験。30代の中心レンジ。</p>
+              <p className="text-sm text-slate-600">ASP.NET Coreでの設計・実装、DB設計、Azureまたはオンプレ運用の経験です。30代の中心レンジです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">シニア／リード</h3>
-              <p className="text-sm text-slate-600">アーキテクチャ設計、クラウドネイティブ設計、技術選定・チームリード。Azure資格があると強い。</p>
+              <p className="text-sm text-slate-600">アーキテクチャ設計、クラウドネイティブ設計、技術選定・チームリードです。Azure資格があると強いです。</p>
             </div>
           </div>
         </section>
@@ -251,19 +251,19 @@ export default function CsharpSkillPage() {
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/levtech/" className="text-petrol-deep hover:underline">レバテックキャリア</Link>
               </h3>
-              <p className="text-sm text-slate-600">IT/Web特化。業務系・クラウド寄りのC#求人を探しやすく、高年収求人の比率が高いとされる（同社ガイド記事）。</p>
+              <p className="text-sm text-slate-600">IT/Web特化です。業務系・クラウド寄りのC#求人を探しやすく、高年収求人の比率が高いとされます（同社ガイド記事）。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/mynavi-it/" className="text-petrol-deep hover:underline">マイナビIT AGENT</Link>
               </h3>
-              <p className="text-sm text-slate-600">20〜30代若手に強く、書類添削・面接対策が手厚いとされる。SIer系の業務系C#求人と相性が良い。</p>
+              <p className="text-sm text-slate-600">20〜30代若手に強く、書類添削・面接対策が手厚いとされます。SIer系の業務系C#求人と相性が良いです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">
                 <Link href="/review/geekly/" className="text-petrol-deep hover:underline">Geekly（ギークリー）</Link>
               </h3>
-              <p className="text-sm text-slate-600">IT/Web/ゲーム特化で提案スピードに定評。Unity/ゲーム系のC#求人を探すならまず候補に。</p>
+              <p className="text-sm text-slate-600">IT/Web/ゲーム特化で提案スピードに定評があります。Unity/ゲーム系のC#求人を探すならまず候補に。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
@@ -279,10 +279,10 @@ export default function CsharpSkillPage() {
           </p>
           <ol className="space-y-3">
             {[
-              { t: "モダン.NETで小さく作る", d: "ASP.NET Core＋Entity Framework CoreでWeb APIやCRUDアプリを作り、GitHubに公開する。" },
-              { t: "ドメインを一つ決める", d: "業務系・クラウド・ゲームのいずれかに絞り、関連知識を深めて訴求の軸にする。" },
-              { t: "Azure認定で差別化する", d: "AZ-204等のクラウド資格は、同年代・同経験の中で差をつけやすい。" },
-              { t: "SIer・パートナー企業の開発枠を狙う", d: "業務系C#は研修体制が整った企業が多く、実務経験を積む入口になりやすい。" },
+              { t: "モダン.NETで小さく作る", d: "ASP.NET Core＋Entity Framework CoreでWeb APIやCRUDアプリを作り、GitHubに公開します。" },
+              { t: "ドメインを一つ決める", d: "業務系・クラウド・ゲームのいずれかに絞り、関連知識を深めて訴求の軸にします。" },
+              { t: "Azure認定で差別化する", d: "AZ-204等のクラウド資格は、同年代・同経験の中で差をつけやすいです。" },
+              { t: "SIer・パートナー企業の開発枠を狙う", d: "業務系C#は研修体制が整った企業が多く、実務経験を積む入口になりやすいです。" },
             ].map((s, i) => (
               <li key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{i + 1}</span>
@@ -303,12 +303,12 @@ export default function CsharpSkillPage() {
               C#/.NETは、30代・40代のミドル層と相性が良いスキルです。<strong>業務系・基幹システムの安定需要</strong>があり、金融・製造などのドメイン知識を持つ人ほど評価されます。長年Windows業務系で培った経験を、モダン.NETやAzureへの移行スキルと接続できれば、年収アップの余地が生まれます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・レガシー.NET Frameworkの経験は「移行を語れる」資産として活かす</li>
-              <li>・Azure資格でクラウド対応力を示し、年収帯を一段上げる</li>
-              <li>・レバテック公表値で40代SE平均は約618万円（2025年）。ドメイン×クラウドで上振れを狙う</li>
+              <li>・レガシー.NET Frameworkの経験は「移行を語れる」資産として活かします</li>
+              <li>・Azure資格でクラウド対応力を示し、年収帯を一段上げます</li>
+              <li>・レバテック公表値で40代SE平均は約618万円です（2025年）。ドメイン×クラウドで上振れを狙います</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
-              年代別の相場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>もあわせてどうぞ。
+              年代別の相場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職事情</Link>、市場価値の整理は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -321,9 +321,9 @@ export default function CsharpSkillPage() {
           </p>
           <ul className="space-y-3 mb-4">
             {[
-              { t: "モダン.NETを押さえる", d: "ASP.NET Core、Minimal API、Blazor、Entity Framework Core、.NET 8/9の新機能を学び、レガシーとの違いを説明できるようにする。" },
-              { t: "Azure認定を取得する", d: "AZ-204（Developer Associate）でクラウド開発スキルを証明。アーキテクト志向ならAZ-305も視野に。" },
-              { t: "テスト・CI/CDの実践", d: "テスト自動化やコンテナ化の実務経験は、設計力の裏付けとして評価されやすい。" },
+              { t: "モダン.NETを押さえる", d: "ASP.NET Core、Minimal API、Blazor、Entity Framework Core、.NET 8/9の新機能を学び、レガシーとの違いを説明できるようにします。" },
+              { t: "Azure認定を取得する", d: "AZ-204（Developer Associate）でクラウド開発スキルを証明します。アーキテクト志向ならAZ-305も視野に。" },
+              { t: "テスト・CI/CDの実践", d: "テスト自動化やコンテナ化の実務経験は、設計力の裏付けとして評価されやすいです。" },
             ].map((c, i) => (
               <li key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{c.t}</h3>
@@ -332,7 +332,7 @@ export default function CsharpSkillPage() {
             ))}
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
-            AZ-204はMicrosoft Learnの認定制度に基づく資格で、Azure上のアプリ開発スキルを検証します。継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>、成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>も参考にどうぞ。
+            AZ-204はMicrosoft Learnの認定制度に基づく資格で、Azure上のアプリ開発スキルを検証します。継続学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの学習を続けるコツ</Link>、成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もご参照ください。
           </p>
         </section>
 
@@ -375,7 +375,7 @@ export default function CsharpSkillPage() {
               { name: "レバテックキャリアの評判", href: "/review/levtech/" },
               { name: "ポートフォリオの作り方", href: "/knowledge/portfolio/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

@@ -8,16 +8,16 @@ export const metadata: Metadata = {
   alternates: { canonical: "/career/engineer-to-consultant/" },
   title: "エンジニアからITコンサルへの転職｜進め方とスキルギャップ",
   description:
-    "エンジニアからITコンサルタントへの転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説。30代40代の現実的なルートも紹介します。",
+    "エンジニアからITコンサルタントへの転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説します。30代40代の現実的なルートも紹介します。",
 };
 
 const TITLE = "エンジニアからITコンサルへの転職｜進め方とスキルギャップ";
 const DESC =
-  "エンジニアからITコンサルタントへの転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説。30代40代の現実的なルートも紹介します。";
+  "エンジニアからITコンサルタントへの転職活動の進め方を、スキルギャップ比較表・移行ステップ・職務経歴書のBefore/After例文付きで解説します。30代40代の現実的なルートも紹介します。";
 const URL = "/career/engineer-to-consultant/";
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と攻め方" },
+  { id: "conclusion", label: "結論：現実性と進め方" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -113,19 +113,19 @@ const migrationSteps = [
 const agents = [
   {
     name: "アクシスコンサルティング",
-    point: "コンサル業界特化のエージェント。ファームごとの選考傾向やケース面接対策の情報を得やすく、未経験からのコンサル転職の相談先として定番です。",
+    point: "コンサル業界特化のエージェントです。ファームごとの選考傾向やケース面接対策の情報を得やすく、未経験からのコンサル転職の相談先として定番です。",
     href: null,
   },
   {
     name: "ビズリーチ",
     point:
-      "ハイクラス・スカウト型。年収750万円以上をハイクラスと位置づけ、コンサルファームからのスカウトが届きやすい。市場価値の客観把握にも使えます（2025年4月時点・二次情報で登録者282万人規模）。",
+      "ハイクラス・スカウト型です。年収750万円以上をハイクラスと位置づけ、コンサルファームからのスカウトが届きやすいです。市場価値の客観把握にも使えます（2025年4月時点・二次情報で登録者282万人規模）。",
     href: "/review/bizreach-it/",
   },
   {
     name: "レバテックキャリア",
     point:
-      "IT/Web特化。テクニカルコンサル・DXコンサルなど技術力を評価する求人に強く、エンジニア経歴をそのまま武器にしたい場合の併用先として有力です。",
+      "IT/Web特化です。テクニカルコンサル・DXコンサルなど技術力を評価する求人に強く、エンジニア経歴をそのまま強みにしたい場合の併用先として有力です。",
     href: "/review/levtech/",
   },
 ];
@@ -140,7 +140,7 @@ const faqs = [
     a: "テクニカルコンサルやDX領域では強みになります。技術的な実現可能性を正確に判断できる人材は希少で、クライアントの構想を地に足のついた計画に落とす役割で評価されます。",
   },
   {
-    q: "資料作成やケース面接が不安。どこから対策する？",
+    q: "資料作成やケース面接が不安です。どこから対策する？",
     a: "まず『結論→根拠→打ち手』で1枚にまとめる練習から始め、テクノロジー系ファーム中心ならこれで足ります。総合・戦略系を狙う場合はケース問題集で構造化と定量化の型を3〜6ヶ月かけて訓練します。",
   },
   {
@@ -237,12 +237,12 @@ export default function EngineerToConsultantPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">
-              結論：上流・要件定義の経験があれば現実的。テクノロジー系から狙う
+              結論：上流・要件定義の経験があれば現実的です。テクノロジー系から狙う
             </h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・要件定義や上流設計の経験があるエンジニアは、テクニカル／DX系ファームで即戦力評価されやすい。</li>
-              <li>・ギャップが大きいのは「評価される軸」と「対話相手」。実装力よりも課題定義と合意形成の見せ方が鍵。</li>
-              <li>・在職中に資料化スキルと論点分解を訓練し、職務経歴書を『成果と示唆』中心に書き換えるのが王道。</li>
+              <li>・要件定義や上流設計の経験があるエンジニアは、テクニカル／DX系ファームで即戦力評価されやすいです。</li>
+              <li>・ギャップが大きいのは「評価される軸」と「対話相手」。実装力よりも課題定義と合意形成の見せ方が鍵です。</li>
+              <li>・在職中に資料化スキルと論点分解を訓練し、職務経歴書を『成果と示唆』中心に書き換えるのが一般的です。</li>
             </ul>
           </div>
         </section>
@@ -314,24 +314,24 @@ export default function EngineerToConsultantPage() {
         <section id="resume" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">職務経歴書での見せ方（Before/After例文）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            エンジニアの職務経歴書は「作ったもの」を列挙しがちですが、コンサル選考では「課題・打ち手・ビジネスへの効果」を語る形が刺さります。実装中心の記述を、課題解決ストーリーへ書き換えた例を示します。
+            エンジニアの職務経歴書は「作ったもの」を列挙しがちですが、コンサル選考では「課題・打ち手・ビジネスへの効果」を語る形が評価されます。実装中心の記述を、課題解決ストーリーへ書き換えた例を示します。
           </p>
           <div className="space-y-4">
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（実装の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                ECサイトのバックエンドをJava/Spring Bootで開発。AWS上にAPIを構築し、データベース設計とバッチ処理を担当。運用保守も実施。
+                ECサイトのバックエンドをJava/Spring Bootで開発します。AWS上にAPIを構築し、データベース設計とバッチ処理を担当します。運用保守も実施します。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（課題→打ち手→効果＋技術的示唆）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                受注処理の遅延でカート離脱が課題化していたEC事業に対し、ボトルネックを分析のうえ非同期バッチへ再設計を提案・主導。レスポンス改善により事業部のKPI改善に貢献。技術的実現性の観点から、事業部門と要件の優先順位付けを合意形成した点が役割の中心。
+                受注処理の遅延でカート離脱が課題化していたEC事業に対し、ボトルネックを分析のうえ非同期バッチへ再設計を提案・主導です。レスポンス改善により事業部のKPI改善に貢献します。技術的実現性の観点から、事業部門と要件の優先順位付けを合意形成した点が役割の中心です。
               </p>
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※数値はご自身の実績に置き換えてください。書き方の型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>も参照。
+            ※数値はご自身の実績に置き換えてください。書き方の型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>も参照します。
           </p>
         </section>
 

@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/dart/" },
   title: "Dartエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Dart（Flutter）エンジニアの転職市場を出典付きで解説。モバイルアプリ開発でのFlutter需要、求人ボックスやレバテックの公表年収、Web・ネイティブからの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",
+    "Dart（Flutter）エンジニアの転職市場を出典付きで解説。モバイルアプリ開発でのFlutter需要、求人ボックスやレバテックの公表年収、Web・ネイティブからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Dartエンジニアの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：Dartエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Dart/Flutterの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Dartエンジニアのキャリアパス" },
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "Dart/Flutterエンジニアにおすすめの転職エージェントは？",
-    a: "IT・Web・ゲームに特化し提案スピードが速いGeekly、IT・Web特化で求人の質が高いレバテックキャリア、自社サービス企業と直接やり取りできる成功報酬型サイトのGreenが選択肢です。Flutterはスタートアップ・自社開発の求人が中心なので、ダイレクト型と仲介型を併用すると間口が広がります。",
+    a: "IT・Web・ゲームに特化し提案スピードが速いGeekly、IT・Web特化で求人の質が高いレバテックキャリア、自社サービス企業と直接やり取りできる成功報酬型サイトのGreenが選択肢です。Flutterはスタートアップ・自社開発の求人が中心であるため、ダイレクト型と仲介型を併用すると間口が広がります。",
   },
   {
     q: "Flutter/Dartは将来性がありますか？",
@@ -69,7 +69,7 @@ export default function DartSkillPage() {
     <>
       <ArticleJsonLd
         title="Dartエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Dart（Flutter）エンジニアの転職市場を出典付きで解説。モバイルアプリ開発でのFlutter需要、求人ボックスやレバテックの公表年収、Web・ネイティブからの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。"
+        description="Dart（Flutter）エンジニアの転職市場を出典付きで解説。モバイルアプリ開発でのFlutter需要、求人ボックスやレバテックの公表年収、Web・ネイティブからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/dart/"
       />
       <script
@@ -97,7 +97,7 @@ export default function DartSkillPage() {
             DartはGoogleが開発したプログラミング言語で、クロスプラットフォームUIフレームワーク<strong>Flutter</strong>の記述言語として使われます。実務上、Dartエンジニアの求人はほぼ「Flutterエンジニア」として募集され、iOS／Androidを1つのコードベースで開発できるコスト効率からモバイルアプリ開発で採用が広がっています。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、Dart/Flutterエンジニア転職の「攻め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・他分野からの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
+            本記事では、Dart/Flutterエンジニア転職の「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・他分野からの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
           </p>
         </section>
 
@@ -124,14 +124,14 @@ export default function DartSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Dartエンジニアの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Dartエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>Dartは実質「Flutterエンジニア」として戦う言語です。</strong>言語単独で探すより、Flutterによるモバイルアプリ開発の求人に的を絞るのが効率的です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Dart/Flutter特化の公的年収は乏しいため、<strong>年代別・職種別データで代替</strong>するのが現実的（求人ボックス ソフトウェアエンジニア約511万円ほか）</li>
-              <li>・TypeScript／Swift／Kotlinなどアプリ開発経験があれば、Flutter未経験でもポテンシャル採用の余地がある</li>
+              <li>・TypeScript／Swift／Kotlinなどアプリ開発経験があれば、Flutter未経験でもポテンシャル採用の余地があります</li>
               <li>・Flutterは<strong>1ソースで両OS対応できるコスト効率</strong>から、スタートアップ・受託のモバイル開発で需要が安定</li>
             </ul>
           </div>
@@ -174,7 +174,7 @@ export default function DartSkillPage() {
         <section id="level" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Flutter求人は「Flutter経験そのもの」を必須にするものと、「モバイル／フロント経験＋Flutterは入社後キャッチアップ可」とするものに分かれます。求人票によく登場する要件を傾向としてまとめると次の通りです。
+            Flutter求人は「Flutter経験そのもの」を必須にするものと、「モバイル／フロント経験＋Flutterは入社後キャッチアップ可」とするものに分かれます。求人票によく登場する要件を傾向としてまとめると次のとおりです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -198,10 +198,10 @@ export default function DartSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "モバイルアプリエンジニア", note: "FlutterでのiOS／Androidアプリ開発が中心。求人の最も多いゾーン" },
-              { role: "テックリード／モバイル基盤", note: "状態管理・CI/CD・大規模化を担う。設計力が問われる" },
+              { role: "モバイルアプリエンジニア", note: "FlutterでのiOS／Androidアプリ開発が中心です。求人の最も多いゾーン" },
+              { role: "テックリード／モバイル基盤", note: "状態管理・CI/CD・大規模化を担います。設計力が問われます" },
               { role: "フルスタック（モバイル＋API）", note: "Flutter＋バックエンドで、アプリを一気通貫で開発" },
-              { role: "フリーランス（Flutter案件）", note: "受託・スタートアップのアプリ開発案件。クロス開発の効率が評価される" },
+              { role: "フリーランス（Flutter案件）", note: "受託・スタートアップのアプリ開発案件です。クロス開発の効率が評価されます" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -223,21 +223,21 @@ export default function DartSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で提案スピードが強み。Flutterを採用するスタートアップ・受託のアプリ開発求人を探したい場合の選択肢になります。
+                IT・Web・ゲーム業界専門で提案スピードが強みです。Flutterを採用するスタートアップ・受託のアプリ開発求人を探したい場合の選択肢になります。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で求人の質が高く、技術に踏み込んで話せるアドバイザーが在籍。Flutterのようなモバイル専門求人の提案に向きます。
+                IT・Web特化で求人の質が高く、技術に踏み込んで話せるアドバイザーが在籍しています。Flutterのようなモバイル専門求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Green（ダイレクト型・自社開発）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                自社サービス企業と直接やり取りできる成功報酬型サイト。Flutterを採用する自社開発企業の求人に応募したい場合の選択肢です。
+                自社サービス企業と直接やり取りできる成功報酬型サイトです。Flutterを採用する自社開発企業の求人に応募したい場合の選択肢です。
               </p>
               <Link href="/review/green/" className="text-sm text-petrol hover:underline">Greenの詳細レビュー →</Link>
             </div>
@@ -272,13 +272,13 @@ export default function DartSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>アプリ開発経験の横展開がしやすい。</strong>FlutterはWeb・ネイティブの知見をそのまま活かせる領域です。30代・40代でアプリ開発の実務を積んでいるなら、その設計経験を土台にFlutterへ寄せることで、年齢の不利を補えます。
+              <strong>アプリ開発経験の横展開がしやすいです。</strong>FlutterはWeb・ネイティブの知見をそのまま活かせる領域です。30代・40代でアプリ開発の実務を積んでいるなら、その設計経験を土台にFlutterへ寄せることで、年齢の不利を補えます。
             </p>
             <p>
-              <strong>掛け算で差別化する。</strong>Flutter単体より「Flutter＋バックエンド」「Flutter＋特定業界のアプリ知見（金融・医療・小売など）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識をアプリという実装手段と結びつけて語れると説得力が増します。
+              <strong>掛け算で差別化します。</strong>Flutter単体より「Flutter＋バックエンド」「Flutter＋特定業界のアプリ知見（金融・医療・小売など）」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識をアプリという実装手段と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>マネジメント経験も資産になる。</strong>テックリードやモバイル基盤のFlutter求人では、実装力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやモバイル基盤のFlutter求人では、実装力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -290,13 +290,13 @@ export default function DartSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 公式ドキュメントとWidgetの理解から始める。</strong>Flutterは公式ドキュメントが充実しています。宣言的UIとWidgetツリーの考え方を最初に押さえると、その後の学習がスムーズです。Dartの言語仕様もあわせて学びましょう。
+              <strong>① 公式ドキュメントとWidgetの理解から始めます。</strong>Flutterは公式ドキュメントが充実しています。宣言的UIとWidgetツリーの考え方を最初に押さえると、その後の学習がスムーズです。Dartの言語仕様もあわせて学びましょう。
             </p>
             <p>
-              <strong>② 状態管理を実プロジェクトで使う。</strong>Riverpod／Blocなどの状態管理はFlutterの実務で必ず問われます。API連携を伴う実用的なアプリを作り、状態管理の設計を経験として語れる状態にしましょう。
+              <strong>② 状態管理を実プロジェクトで使います。</strong>Riverpod／Blocなどの状態管理はFlutterの実務で必ず問われます。API連携を伴う実用的なアプリを作り、状態管理の設計を経験として語れる状態にしましょう。
             </p>
             <p>
-              <strong>③ ストアリリースとCI/CDを経験する。</strong>アプリをストアに公開し、可能ならCI/CDで配信を自動化すると、実務に近い開発フローを示せます。クロスプラットフォームの強みを実証できる題材を選びましょう。
+              <strong>③ ストアリリースとCI/CDを経験します。</strong>アプリをストアに公開し、可能ならCI/CDで配信を自動化すると、実務に近い開発フローを示せます。クロスプラットフォームの強みを実証できる題材を選びましょう。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -322,7 +322,7 @@ export default function DartSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Dart/Flutterのスキルを活かした転職を無料で相談</h2>
           <p className="text-blue-100 text-sm mb-4">
-            Flutter求人はスタートアップ・自社開発が中心。ダイレクト型とIT特化型エージェントを併用して保有求人を横断比較するのが近道です。
+            Flutter求人はスタートアップ・自社開発が中心です。ダイレクト型とIT特化型エージェントを併用して保有求人を横断比較するのが近道です。
           </p>
           <Link
             href="/#ranking"
@@ -341,7 +341,7 @@ export default function DartSkillPage() {
               { name: "Reactエンジニアの転職ガイド", href: "/skill/react/" },
               { name: "Unityエンジニアの転職ガイド", href: "/skill/unity/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

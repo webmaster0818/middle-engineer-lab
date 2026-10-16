@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/smooth-resignation/" },
   title: "円満退職の交渉術【切り出す順序・引き止め返し・難航打開】",
   description:
-    "エンジニアの円満退職を実現する交渉術を例文付きで解説。直属上司への切り出し順序、カウンターオファーの返し方、後任不在や損害賠償の脅しへの打開策を30代・40代向けに整理しました。",
+    "エンジニアの円満退職を実現する交渉術を例文付きで解説します。直属上司への切り出し順序、カウンターオファーの返し方、後任不在や損害賠償の脅しへの打開策を30代・40代向けに整理しました。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：相談ではなく報告。順序と前向きな理由で決める" },
+  { id: "conclusion", label: "結論：相談ではなく報告します。順序と前向きな理由で決める" },
   { id: "law", label: "退職の法的な前提（民法627条・一般論）" },
   { id: "frame", label: "「相談」ではなく「報告」というフレーム" },
   { id: "order", label: "切り出す順序：直属上司が最初" },
@@ -82,15 +82,15 @@ const hardCases = [
 ];
 
 const order = [
-  { step: "1", title: "直属の上司", desc: "最初に伝えるのは必ず直属の上司。先に同僚・人事・他部署へ漏れると、上司の心証を損ね交渉が難しくなります。" },
+  { step: "1", title: "直属の上司", desc: "最初に伝えるのは必ず直属の上司です。先に同僚・人事・他部署へ漏れると、上司の心証を損ね交渉が難しくなります。" },
   { step: "2", title: "上司との合意・調整", desc: "退職日と引き継ぎ方針を上司とすり合わせ。ここで時系列の大枠を握っておくと後がスムーズです。" },
   { step: "3", title: "人事・正式手続き", desc: "上司の了承後に人事へ。退職届の提出、社会保険・貸与品の手続き案内を受けます。" },
-  { step: "4", title: "チーム・関係者への共有", desc: "上司と相談のうえ、共有のタイミングと範囲を決定。後任やステークホルダーへ引き継ぎを開始します。" },
+  { step: "4", title: "チーム・関係者への共有", desc: "上司と相談のうえ、共有のタイミングと範囲を決定します。後任やステークホルダーへ引き継ぎを開始します。" },
 ];
 
 const timeline = [
-  { period: "2ヶ月前", title: "直属上司へ報告", desc: "1対1の場で口頭。退職先の社名は伝えなくてよい。法定2週間とは別に、実務目安として希望日の1.5〜2ヶ月前に切り出す人が多いとされます。" },
-  { period: "6週間前", title: "退職日・引き継ぎ方針の合意", desc: "上司と最終出社日・有給消化の見通し・引き継ぎ範囲を合意。難航しそうなら早めに人事を巻き込みます。" },
+  { period: "2ヶ月前", title: "直属上司へ報告", desc: "1対1の場で口頭です。退職先の社名は伝えなくてよいです。法定2週間とは別に、実務目安として希望日の1.5〜2ヶ月前に切り出す人が多いとされます。" },
+  { period: "6週間前", title: "退職日・引き継ぎ方針の合意", desc: "上司と最終出社日・有給消化の見通し・引き継ぎ範囲を合意します。難航しそうなら早めに人事を巻き込みます。" },
   { period: "4〜5週間前", title: "引き継ぎ実施・退職届提出", desc: "ドキュメント整備とレクチャーを進めつつ、所定書式で退職届を提出します。" },
   { period: "最終週", title: "有給消化・最終出社", desc: "引き継ぎ完了後に有給消化へ。PC・カード返却、アカウント整理を済ませます。" },
 ];
@@ -117,7 +117,7 @@ const faqs = [
     a: "退職そのものを理由として労働者へ損害賠償を負わせることは、一般に容易ではないとされています。脅し文句に動揺して退職を撤回する必要は通常ありません。ただし、実際に書面での請求や強い圧力を受けた場合、また競業避止や秘密保持に関わる事情がある場合は、状況により取り扱いが異なります。個別の事案は必ず弁護士などの専門家に相談してください。",
   },
   {
-    q: "退職理由は正直に伝えるべきですか？",
+    q: "退職理由は率直に伝えるべきですか？",
     a: "不満をそのままぶつける必要はありません。『新しい技術領域に挑戦したい』『キャリアの方向性を変えたい』など、前向きで個人的な事情に整理して伝えるのが円満退職のコツです。会社批判は事実であっても引き止めの口実を与え、業界内の評判にも影響しかねません。具体的な転職先名を伝える義務もありません。",
   },
 ];
@@ -137,7 +137,7 @@ export default function SmoothResignationPage() {
     <>
       <ArticleJsonLd
         title="円満退職の交渉術【切り出す順序・引き止め返し・難航打開】"
-        description="エンジニアの円満退職を実現する交渉術を例文付きで解説。直属上司への切り出し順序、カウンターオファーの返し方、後任不在や損害賠償の脅しへの打開策を30代・40代向けに整理しました。"
+        description="エンジニアの円満退職を実現する交渉術を例文付きで解説します。直属上司への切り出し順序、カウンターオファーの返し方、後任不在や損害賠償の脅しへの打開策を30代・40代向けに整理しました。"
         url="/knowledge/smooth-resignation/"
       />
       <script
@@ -165,7 +165,7 @@ export default function SmoothResignationPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】円満退職の交渉、どう進めれば引き止めに揺らがない？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 意思が固いなら「相談」ではなく「報告」として、直属上司から順に伝え、前向きな個人的理由で決めるのが基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・切り出す順序は直属上司が最初。同僚や他部署へ先に漏らさない</li><li>・カウンターオファーは感謝のうえで断る。「次の会社と入社日を合意済み」が最も効く</li><li>・損害賠償の脅しに動揺しない。書面請求など個別の事案は弁護士など専門家に相談する</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・切り出す順序は直属上司が最初です。同僚や他部署へ先に漏らしません</li><li>・カウンターオファーは感謝のうえで断ります。「次の会社と入社日を合意済み」が最も効きます</li><li>・損害賠償の脅しに動揺しません。書面請求など個別の事案は弁護士など専門家に相談します</li></ul>
           </div>
         </section>
 
@@ -194,12 +194,12 @@ export default function SmoothResignationPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：相談ではなく報告。順序と前向きな理由で決める</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：相談ではなく報告します。順序と前向きな理由で決める</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・意思が固いなら「相談」でなく<strong>「報告」</strong>として伝える。翻意の余地を見せない。</li>
-              <li>・切り出す順序は<strong>直属上司が最初</strong>。先に同僚・人事へ漏らさない。</li>
-              <li>・引き止めには<strong>「入社日を合意済み」</strong>という事実が最も効く。</li>
-              <li>・後任不在・繁忙期・賠償の脅しは、<strong>退職の意思と切り離し引き継ぎ協力</strong>で打開する。</li>
+              <li>・意思が固いなら「相談」でなく<strong>「報告」</strong>として伝えます。翻意の余地を見せません。</li>
+              <li>・切り出す順序は<strong>直属上司が最初です</strong>。先に同僚・人事へ漏らしません。</li>
+              <li>・引き止めには<strong>「入社日を合意済み」</strong>という事実が最も効きます。</li>
+              <li>・後任不在・繁忙期・賠償の脅しは、<strong>退職の意思と切り離し引き継ぎ協力</strong>で打開します。</li>
             </ul>
           </div>
         </section>
@@ -242,13 +242,13 @@ export default function SmoothResignationPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
               <h3 className="font-bold text-red-800 mb-2">NG：相談フレーム</h3>
-              <p className="text-sm text-slate-600">「実はキャリアについて少し悩んでいて、ご相談したくて……」</p>
-              <p className="text-xs text-slate-500 mt-2">→ 翻意の余地ありと受け取られ、引き止め交渉が長引く。</p>
+              <p className="text-sm text-slate-600">「キャリアについて少し悩んでいて、ご相談したくて……」</p>
+              <p className="text-xs text-slate-500 mt-2">→ 翻意の余地ありと受け取られ、引き止め交渉が長引きます。</p>
             </div>
             <div className="bg-green-50 border border-green-200 rounded-xl p-5">
               <h3 className="font-bold text-green-800 mb-2">OK：報告フレーム</h3>
               <p className="text-sm text-slate-600">「◯月末をもって退職させていただきたく、ご報告に参りました。」</p>
-              <p className="text-xs text-slate-500 mt-2">→ 結論を先に置くことで、議論が引き継ぎへ向かう。</p>
+              <p className="text-xs text-slate-500 mt-2">→ 結論を先に置くことで、議論が引き継ぎへ向かいます。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
@@ -298,7 +298,7 @@ export default function SmoothResignationPage() {
           <p className="text-slate-600 leading-relaxed mb-4">
             条件提示で残留するかどうかを本気で検討する場合の判断軸は、
             <Link href="/knowledge/counter-offer/" className="text-petrol hover:underline">カウンターオファーへの対応</Link>
-            にまとめています。ここでは「断る」と決めた前提での返し方を例文化します。
+            にまとめています。ここでは「断る」と決めた前提での返し方を例文化です。
           </p>
           <div className="space-y-4">
             {counters.map((item, i) => (
@@ -338,20 +338,20 @@ export default function SmoothResignationPage() {
             退職理由は、引き止めの口実を与えないために「会社が解決できない、前向きで個人的な事情」に整理するのが鉄則です。改善提案で潰せる不満を語ると、それがそのままカウンターオファーの材料になります。
           </p>
           <div className="space-y-3">
-            <div className="bg-slate-50 rounded p-3 text-sm text-slate-600"><strong>NG：</strong>「評価制度に納得できない」「レガシーな環境に限界を感じる」→ 制度改定や異動を提案され、断りにくくなる。</div>
-            <div className="bg-slate-50 rounded p-3 text-sm text-slate-600"><strong>OK：</strong>「今後は◯◯領域に深く関わりたい」「家庭の事情で働き方を変えたい」→ 会社側で解決しにくく、引き止めの口実になりにくい。</div>
+            <div className="bg-slate-50 rounded p-3 text-sm text-slate-600"><strong>NG：</strong>「評価制度に納得できない」「レガシーな環境に限界を感じる」→ 制度改定や異動を提案され、断りにくくなります。</div>
+            <div className="bg-slate-50 rounded p-3 text-sm text-slate-600"><strong>OK：</strong>「今後は◯◯領域に深く関わりたい」「家庭の事情で働き方を変えたい」→ 会社側で解決しにくく、引き止めの口実になりにくいです。</div>
           </div>
         </section>
 
         <section id="engineer" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エンジニア特有：仕掛中開発と属人化</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            エンジニアの退職交渉が難航しやすい最大の理由は、仕掛中の開発と属人化です。「あなたにしか分からない」状態が残っていると、それ自体が引き止めの強力な材料になります。逆に言えば、属人化を解いておくことが最良の交渉カードになります。
+            エンジニアの退職交渉が難航しやすい最大の理由は、仕掛中の開発と属人化です。「ご自身にしか分からない」状態が残っていると、それ自体が引き止めの強力な材料になります。逆に言えば、属人化を解いておくことが最良の交渉カードになります。
           </p>
           <ul className="space-y-3 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>仕掛中のタスクは状態（着手済/レビュー待ち/未着手）を早めに可視化し、いつでも他者が引き取れる形にしておく。</span></li>
-            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>属人化したコード・インフラ設定・運用手順を文書化し、「私がいないと回らない」を解消する。</span></li>
-            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>リリースや障害対応の山場を避けて切り出すと、引き止めの正当性が下がる。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>仕掛中のタスクは状態（着手済/レビュー待ち/未着手）を早めに可視化し、いつでも他者が引き取れる形にしておきます。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>属人化したコード・インフラ設定・運用手順を文書化し、「私がいないと回らない」を解消します。</span></li>
+            <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>リリースや障害対応の山場を避けて切り出すと、引き止めの正当性が下がります。</span></li>
           </ul>
           <p className="text-slate-600 leading-relaxed mt-4 text-sm">
             引き継ぎドキュメントの具体的な構成とテンプレートは
@@ -373,7 +373,7 @@ export default function SmoothResignationPage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-2">※ 週数は一例です。就業規則の通知期間や担当業務に合わせて調整してください。全体の活動計画は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照。</p>
+          <p className="text-xs text-slate-500 mt-2">※ 週数は一例です。就業規則の通知期間や担当業務に合わせて調整してください。全体の活動計画は<Link href="/knowledge/timeline/" className="text-petrol hover:underline">転職スケジュール</Link>も参照します。</p>
         </section>
 
         <section id="middle" className="mb-10 scroll-mt-20">
@@ -388,7 +388,7 @@ export default function SmoothResignationPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">「立つ鳥跡を濁さず」が後で効く</h3>
-              <p className="text-sm text-slate-600">IT業界は転職で再会する機会が多く、元上司や元同僚が次の取引先・リファラル元になることも珍しくありません。交渉で関係を壊さないことが、将来の選択肢を守ります。年収条件の交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉テクニック</Link>も参考に。</p>
+              <p className="text-sm text-slate-600">IT業界は転職で再会する機会が多く、元上司や元同僚が次の取引先・リファラル元になることも珍しくありません。交渉で関係を壊さないことが、将来の選択肢を守ります。年収条件の交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉テクニック</Link>もご参照ください。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">家庭の事情を「引けない理由」に変える</h3>

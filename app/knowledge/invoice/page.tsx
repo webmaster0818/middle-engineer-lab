@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "インボイス制度とフリーランスエンジニア【免税・2割特例】";
 const DESCRIPTION =
-  "インボイス制度がフリーランスエンジニアに与える影響を、免税事業者と課税事業者の選択、2割特例、経過措置、登録手続きまで国税庁の公式情報をもとに解説。会社員から独立する30代・40代が判断を誤らないための実務ガイドです。";
+  "インボイス制度がフリーランスエンジニアに与える影響を、免税事業者と課税事業者の選択、2割特例、経過措置、登録手続きまで国税庁の公式情報をもとに解説します。会社員から独立する30代・40代が判断を誤らないための実務ガイドです。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/invoice/" },
@@ -27,7 +27,7 @@ const toc = [
 const impacts = [
   {
     title: "取引先が課税事業者の場合",
-    desc: "取引先（クライアント企業やエージェント）が課税事業者の場合、あなたがインボイス（適格請求書）を発行できないと、取引先は支払った消費税分の仕入税額控除を原則受けられなくなります。これが報酬や取引継続の交渉材料にされるケースがあります。",
+    desc: "取引先（クライアント企業やエージェント）が課税事業者の場合、ご自身がインボイス（適格請求書）を発行できないと、取引先は支払った消費税分の仕入税額控除を原則受けられなくなります。これが報酬や取引継続の交渉材料にされるケースがあります。",
   },
   {
     title: "報酬の実質的な目減りの懸念",
@@ -122,7 +122,7 @@ export default function InvoicePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】フリーランスエンジニアはインボイス登録すべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 登録は任意で、「自分の取引先が課税事業者かどうか」を起点に、免税事業者のままでいるか課税事業者として登録するかを判断します。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・取引先が課税事業者でインボイスを求める場合、未登録が値引き交渉や取引見直しの材料にされることがある</li><li>・取引先が免税事業者・一般消費者中心なら影響は限定的で、登録しない選択も合理的</li><li>・登録して課税事業者になる場合も、2割特例（国税庁）を使えば納税負担と計算の手間を抑えられる</li><li>・最終的な判断は国税庁の最新情報や税務署・税理士への相談で確定させる</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・取引先が課税事業者でインボイスを求める場合、未登録が値引き交渉や取引見直しの材料にされることがあります</li><li>・取引先が免税事業者・一般消費者中心なら影響は限定的で、登録しない選択も合理的</li><li>・登録して課税事業者になる場合も、2割特例（国税庁）を使えば納税負担と計算の手間を抑えられます</li><li>・最終的な判断は国税庁の最新情報や税務署・税理士への相談で確定させます</li></ul>
           </div>
         </section>
 
@@ -179,7 +179,7 @@ export default function InvoicePage() {
         <section id="impact" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">フリーランスエンジニアへの影響</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            影響の大きさは、あなたの取引先がどんな事業者かによって変わります。まずは主要な取引先の区分を確認しましょう。
+            影響の大きさは、ご自身の取引先がどんな事業者かによって変わります。まずは主要な取引先の区分を確認しましょう。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {impacts.map((r, i) => (

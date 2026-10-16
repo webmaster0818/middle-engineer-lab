@@ -6,13 +6,13 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/ai-ml/" },
-  title: "AI・機械学習エンジニア転職の攻め方｜年収・求人の探し方【2026年】",
+  title: "AI・機械学習エンジニア転職の進め方｜年収・求人の探し方【2026年】",
   description:
-    "AI・機械学習エンジニアの転職市場を2026年6月時点の公的データで整理。job tag・レバテック年代別年収、求められる経験レベル、求人の探し方、30代・40代の参入ルートまで実務目線で解説します。",
+    "AI・機械学習エンジニアの転職市場を2026年6月時点の公的データで整理します。job tag・レバテック年代別年収、求められる経験レベル、求人の探し方、30代・40代の参入ルートまで実務目線で解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：AI・MLエンジニア転職の攻め方" },
+  { id: "conclusion", label: "結論：AI・MLエンジニア転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
@@ -75,8 +75,8 @@ export default function AiMlSkillPage() {
   return (
     <>
       <ArticleJsonLd
-        title="AI・機械学習エンジニア転職の攻め方｜年収・求人の探し方【2026年】"
-        description="AI・機械学習エンジニアの転職市場を2026年6月時点の公的データで整理。job tag・レバテック年代別年収、求められる経験レベル、求人の探し方、30代・40代の参入ルートまで実務目線で解説します。"
+        title="AI・機械学習エンジニア転職の進め方｜年収・求人の探し方【2026年】"
+        description="AI・機械学習エンジニアの転職市場を2026年6月時点の公的データで整理します。job tag・レバテック年代別年収、求められる経験レベル、求人の探し方、30代・40代の参入ルートまで実務目線で解説します。"
         url="/skill/ai-ml/"
       />
       <script
@@ -93,7 +93,7 @@ export default function AiMlSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          AI・機械学習エンジニア転職の攻め方｜年収・求人の探し方【2026年】
+          AI・機械学習エンジニア転職の進め方｜年収・求人の探し方【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年7月 | AI・機械学習エンジニアの転職市場を公的データと年代別データで整理
@@ -102,12 +102,12 @@ export default function AiMlSkillPage() {
         {/* 直答box (柱3/skill転職意図) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】AI・機械学習エンジニアへの転職は難しい？未経験・年代別のリアル</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 需要は伸びていますが専門性が要る領域です。厚労省 job tag「AIエンジニア」区分は平均約609.8万円（令和7年賃金構造基本統計調査を加工）。統計＋分析ライブラリ＋本番運用（MLOps）まで語れると差別化できます。</strong></p>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 需要は伸びていますが専門性が要る領域です。厚労省 job tag「AIエンジニア」区分は平均約609.8万円です（令和7年賃金構造基本統計調査を加工）。統計＋分析ライブラリ＋本番運用（MLOps）まで語れると差別化できます。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
-            <li>・<strong>難易度</strong>：モデル構築だけでなくデータ基盤・本番運用まで担える人材が不足＝経験者は有利。</li>
-            <li>・<strong>未経験／転向</strong>：Web系Python等の実務を土台に、NumPy/Pandas/scikit-learn＋統計で成果物を1つ作るのが現実的なルート。</li>
-            <li>・<strong>年代別</strong>：レバテック公表の正社員SE年収（2025）で30代約499万円・40代約618万円が目安。AI評価企業では上振れも。</li>
-            <li>・<strong>進め方</strong>：AI・データ領域に強い転職エージェントで、job tag等の公的相場と求人票レンジを照合。</li>
+            <li>・<strong>難易度</strong>：モデル構築だけでなくデータ基盤・本番運用まで担える人材が不足＝経験者は有利です。</li>
+            <li>・<strong>未経験／転向</strong>：Web系Python等の実務を土台に、NumPy/Pandas/scikit-learn＋統計で成果物を1つ作るのが現実的なルートです。</li>
+            <li>・<strong>年代別</strong>：レバテック公表の正社員SE年収（2025）で30代約499万円・40代約618万円が目安です。AI評価企業では上振れも。</li>
+            <li>・<strong>進め方</strong>：AI・データ領域に強い転職エージェントで、job tag等の公的相場と求人票レンジを照合します。</li>
           </ul>
         </div>
 
@@ -136,18 +136,18 @@ export default function AiMlSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AI・MLエンジニア転職の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AI・MLエンジニア転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-5 mb-4">
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              AI・機械学習領域は「求人DBに大量の検索結果が並ぶ職種」ではなく、<strong>企業ごとに求める実装フェーズが大きく異なる職種</strong>です。だからこそ、求人サイトを眺めるより「自分の実装範囲（試作なのか本番運用なのか）を言語化し、それに合う企業へ狙い撃ちする」ほうが成功率が上がります。攻め方は次の3点です。
+              AI・機械学習領域は「求人DBに大量の検索結果が並ぶ職種」ではなく、<strong>企業ごとに求める実装フェーズが大きく異なる職種</strong>です。だからこそ、求人サイトを眺めるより「自分の実装範囲（試作なのか本番運用なのか）を言語化し、それに合う企業へ狙い撃ちする」ほうが成功率が上がります。進め方は次の3点です。
             </p>
             <ul className="text-sm text-blue-900 space-y-2">
-              <li>① <strong>「モデルを作れる」だけでなく「本番で動かし、改善した」実績</strong>を中心に経歴を組む（MLOps・データ基盤の経験が差別化になる）。</li>
-              <li>② LLM活用（RAG・エージェント・評価設計）の<strong>具体的な実装経験</strong>を1つは持っておく。2026年現在、求人要件に最も入りやすいテーマ。</li>
-              <li>③ IT特化エージェント（レバテックキャリア等）とハイクラススカウト（ビズリーチ）を<strong>併用</strong>し、非公開のAI専任ポジションを拾う。</li>
+              <li>① <strong>「モデルを作れる」だけでなく「本番で動かし、改善した」実績</strong>を中心に経歴を組みます（MLOps・データ基盤の経験が差別化になる）。</li>
+              <li>② LLM活用（RAG・エージェント・評価設計）の<strong>具体的な実装経験</strong>を1つは持っておきます。2026年現在、求人要件に最も入りやすいテーマです。</li>
+              <li>③ IT特化エージェント（レバテックキャリア等）とハイクラススカウト（ビズリーチ）を<strong>併用</strong>し、非公開のAI専任ポジションを拾います。</li>
             </ul>
           </div>
-                  <p className="text-sm mt-3 text-slate-600">言語別の年収比較は<Link href="/salary/skill-ranking/" className="text-petrol underline font-semibold">プログラミング言語別 年収ランキング</Link>、企業別の有報年収は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング</Link>をご覧ください。</p>
+                  <p className="text-sm mt-3 text-slate-600">言語別の年収比較は<Link href="/salary/skill-ranking/" className="text-petrol underline font-semibold">プログラミング言語別 年収ランキング</Link>、企業別の有価証券報告書年収は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング</Link>をご覧ください。</p>
         </section>
 
         {/* 市場・年収データ */}
@@ -192,9 +192,9 @@ export default function AiMlSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "土台として求められやすい", d: "Pythonでのデータ処理（pandas/NumPy）、SQL、Git・CI/CD、クラウド（AWS/GCP/Azureいずれか）の基本。既存のバックエンド/インフラ経験はそのまま評価対象になります。" },
-              { t: "AI・MLの中核として見られる", d: "教師あり学習の一連の流れ（前処理→特徴量設計→学習→評価）を一人称で回せること。scikit-learn・PyTorch/TensorFlowのいずれかでの実装経験。" },
-              { t: "差別化になる", d: "MLOps（MLflow・SageMaker・Kubeflow等での運用自動化）、データ基盤（BigQuery/Snowflake・dbt・Airflow）、LLM活用（RAG・評価・コスト最適化）の実装実績。" },
+              { t: "土台として求められやすい", d: "Pythonでのデータ処理（pandas/NumPy）、SQL、Git・CI/CD、クラウド（AWS/GCP/Azureいずれか）の基本です。既存のバックエンド/インフラ経験はそのまま評価対象になります。" },
+              { t: "AI・MLの中核として見られる", d: "教師あり学習の一連の流れ（前処理→特徴量設計→学習→評価）を一人称で回せることが重要です。scikit-learn・PyTorch/TensorFlowのいずれかでの実装経験です。" },
+              { t: "差別化になる", d: "MLOps（MLflow・SageMaker・Kubeflow等での運用自動化）、データ基盤（BigQuery/Snowflake・dbt・Airflow）、LLM活用（RAG・評価・コスト最適化）の実装実績です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.t}</h3>
@@ -211,13 +211,13 @@ export default function AiMlSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">MLエンジニア / MLOps路線</h3>
               <p className="text-sm text-petrol-deep">
-                機械学習モデルを本番で安定稼働させる基盤を作る役割。モデルのデプロイ・監視・再学習パイプライン構築が中心で、ソフトウェアエンジニアリングの経験が強く活きます。バックエンド/インフラ出身者が最も入りやすいルートです。
+                機械学習モデルを本番で安定稼働させる基盤を作る役割です。モデルのデプロイ・監視・再学習パイプライン構築が中心で、ソフトウェアエンジニアリングの経験が強く活きます。バックエンド/インフラ出身者が最も入りやすいルートです。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">LLMアプリケーション開発路線</h3>
               <p className="text-sm text-petrol-deep">
-                生成AIを組み込んだ機能・プロダクトを設計・実装する役割。RAG構成、プロンプト・評価設計、コストとレイテンシの最適化が求められます。2026年現在、未経験職種からの参入余地が比較的大きいテーマです。
+                生成AIを組み込んだ機能・プロダクトを設計・実装する役割です。RAG構成、プロンプト・評価設計、コストとレイテンシの最適化が求められます。2026年現在、未経験職種からの参入余地が比較的大きいテーマです。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -233,22 +233,22 @@ export default function AiMlSkillPage() {
         <section id="find" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方（どのサービスが強いか）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            AI・ML求人は専門性が高く、非公開で動くことも多いため、特化型エージェントとスカウト型を組み合わせるのが定石です。
+            AI・ML求人は専門性が高く、非公開で動くことも多いため、特化型エージェントとスカウト型を組み合わせるのが基本です。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT特化エージェント）</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化で高年収求人比率が高く（600万円以上が公開求人の約8割との二次情報）、AI/MLやMLOpsの専門ポジションを扱う。技術理解のあるアドバイザーに相談しやすいのが利点です。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化で高年収求人比率が高く（600万円以上が公開求人の約8割との二次情報）、AI/MLやMLOpsの専門ポジションを扱います。技術理解のあるアドバイザーに相談しやすいのが利点です。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
-              <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、外資系テックやAIスタートアップのスカウトが届きやすい。市場価値を客観的に測る用途でも有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">年収750万円以上のハイクラス帯に強く、外資系テックやAIスタートアップのスカウトが届きやすいです。市場価値を客観的に測る用途でも有効です。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（IT/Web/ゲーム特化）</h3>
-              <p className="text-sm text-slate-600 mb-2">提案スピードが速く、SaaS・メガベンチャーのAI活用ポジションに強い。実務経験者への提案数が多いとの評判が見られます。</p>
+              <p className="text-sm text-slate-600 mb-2">提案スピードが速く、SaaS・メガベンチャーのAI活用ポジションに強いです。実務経験者への提案数が多いとの評判が見られます。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
           </div>
@@ -265,9 +265,9 @@ export default function AiMlSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "1", t: "現職にAI要素を持ち込む", d: "既存業務でデータ前処理の自動化、推論APIの組み込み、LLMを使った社内ツール作成など、小さくても実務でAIに触れた実績を作る。これが職務経歴書の核になります。" },
-              { n: "2", t: "隣接職種を踏み台にする", d: "データエンジニア／MLOps／LLMアプリ開発など、既存スキルの延長で入れる職種から入り、社内でモデル側へ寄せていく。データアナリスト→DSという段階移行も現実的です。" },
-              { n: "3", t: "成果物を外に出す", d: "Kaggle参加、GitHubでの公開、技術ブログでの再現実装など、第三者が検証できる形でアウトプットする。30代以降は『学習中』より『作った』を見せるのが効きます。" },
+              { n: "1", t: "現職にAI要素を持ち込む", d: "既存業務でデータ前処理の自動化、推論APIの組み込み、LLMを使った社内ツール作成など、小さくても実務でAIに触れた実績を作ります。これが職務経歴書の核になります。" },
+              { n: "2", t: "隣接職種を踏み台にする", d: "データエンジニア／MLOps／LLMアプリ開発など、既存スキルの延長で入れる職種から入り、社内でモデル側へ寄せていきます。データアナリスト→DSという段階移行も現実的です。" },
+              { n: "3", t: "成果物を外に出す", d: "Kaggle参加、GitHubでの公開、技術ブログでの再現実装など、第三者が検証できる形でアウトプットします。30代以降は『学習中』より『作った』を見せるのが効きます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.n}</span>
@@ -285,13 +285,13 @@ export default function AiMlSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
             <p className="text-sm text-slate-700 leading-relaxed mb-4">
-              30代・40代がAI・ML領域を狙うときの最大の武器は、若手にはない<strong>「課題定義」と「本番運用」の経験</strong>です。最新モデルの実装速度では若手に分があっても、ビジネス課題をAIで解ける形に落とし込み、運用に乗せて改善し続けられる人は希少です。レバテック公表（2025年）でも年収は年代とともに上がる傾向（30代約499万円→40代約618万円）で、経験の積み上げが評価される領域といえます。
+              30代・40代がAI・ML領域を狙うときの最大の強みは、若手にはない<strong>「課題定義」と「本番運用」の経験</strong>です。最新モデルの実装速度では若手に分があっても、ビジネス課題をAIで解ける形に落とし込み、運用に乗せて改善し続けられる人は希少です。レバテック公表（2025年）でも年収は年代とともに上がる傾向（30代約499万円→40代約618万円）で、経験の積み上げが評価される領域といえます。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed mb-4">
               一方で注意したいのは、「研究色の濃いリサーチサイエンティスト職」を未経験から狙うと、専門特化の若手・修士博士層と正面衝突しやすい点です。30代・40代は<strong>MLOps・データ基盤・LLMアプリ開発・AIプロジェクトのリード</strong>といった、既存経験が複利で効くポジションに照準を合わせると勝率が上がります。
             </p>
             <p className="text-sm text-slate-700 leading-relaxed">
-              年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>もあわせてどうぞ。
+              年代別の市場感は<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職事情</Link>、年収交渉は<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉のコツ</Link>もあわせてご覧ください。
             </p>
           </div>
         </section>
@@ -301,10 +301,10 @@ export default function AiMlSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3">
             {[
-              { t: "土台：Python＋数理＋クラウド", d: "Pythonでのデータ処理を手に馴染ませ、統計・線形代数の基礎を最小限押さえる。クラウド（AWS/GCP/Azure）のどれか一つで学習〜推論を回せるようにしておくと求人の幅が広がります。" },
-              { t: "実装：再現できる成果物を1〜2本", d: "公開データセットで前処理から評価まで通したプロジェクトをGitHubに置く。『何の課題を、どんな手法で、どこまで改善したか』をREADMEで説明できる状態が理想です。" },
-              { t: "旬：LLM活用を1テーマ深掘り", d: "RAGの構築、評価指標の設計、コスト/レイテンシ最適化など、2026年の求人で求められやすいテーマを一つ実装まで持っていく。面接での具体例に直結します。" },
-              { t: "証明：資格は学習のペースメーカーに", d: "G検定・E資格（JDLA）、統計検定、クラウドのML認定は学習の体系化に有効。ただし採用判断の主役は成果物。資格は補助線と割り切るのが現実的です。" },
+              { t: "土台：Python＋数理＋クラウド", d: "Pythonでのデータ処理を手に馴染ませ、統計・線形代数の基礎を最小限押さえます。クラウド（AWS/GCP/Azure）のどれか一つで学習〜推論を回せるようにしておくと求人の幅が広がります。" },
+              { t: "実装：再現できる成果物を1〜2本", d: "公開データセットで前処理から評価まで通したプロジェクトをGitHubに置きます。『何の課題を、どんな手法で、どこまで改善したか』をREADMEで説明できる状態が理想です。" },
+              { t: "旬：LLM活用を1テーマ深掘り", d: "RAGの構築、評価指標の設計、コスト/レイテンシ最適化など、2026年の求人で求められやすいテーマを一つ実装まで持っていきます。面接での具体例に直結します。" },
+              { t: "証明：資格は学習のペースメーカーに", d: "G検定・E資格（JDLA）、統計検定、クラウドのML認定は学習の体系化に有効です。ただし採用判断の主役は成果物です。資格は補助線と割り切るのが現実的です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.t}</h3>

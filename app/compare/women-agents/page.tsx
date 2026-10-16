@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/women-agents/" },
   title: "女性エンジニアの転職エージェントおすすめ｜選び方【2026年8月】",
   description:
-    "女性エンジニアの転職に役立つエージェントを、当サイトに実在するサービスから根拠付きで厳選。IT特化のレバテックキャリア、総合大手のdoda、サポート手厚いマイナビIT AGENT、首都圏特化のtype転職エージェントまで、30代40代の両立・働き方の見極め方とあわせて選び方を整理します。",
+    "女性エンジニアの転職に役立つエージェントを、当サイトに実在するサービスから根拠付きで厳選です。IT特化のレバテックキャリア、総合大手のdoda、サポート手厚いマイナビIT AGENT、首都圏特化のtype転職エージェントまで、30代40代の両立・働き方の見極め方とあわせて選び方を整理します。",
 };
 
 const toc = [
@@ -28,7 +28,7 @@ const services = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     tag: "IT/Web特化・高年収・リモート求人",
-    reason: "IT・Web系全般を扱う大手の正社員転職エージェント。約5万件超（2026年6月時点・複数転職メディア集計）の求人数で、リモート可・フレックスなど働き方を考慮した求人も探しやすい。IT特化のため技術的な文脈を理解した提案を受けやすく、書類添削・面接対策・年収交渉のサポートも充実。利用者の約80%が20〜30代（公式ガイド記事）。",
+    reason: "IT・Web系全般を扱う大手の正社員転職エージェントです。約5万件超（2026年6月時点・複数転職メディア集計）の求人数で、リモート可・フレックスなど働き方を考慮した求人も探しやすいです。IT特化のため技術的な文脈を理解した提案を受けやすく、書類添削・面接対策・年収交渉のサポートも充実しています。利用者の約80%が20〜30代です（公式ガイド記事）。",
     fit: "技術を活かしつつ、働き方と年収のバランスを取りたい女性エンジニア",
   },
   {
@@ -36,7 +36,7 @@ const services = [
     name: "doda（IT）",
     href: "/review/doda-it/",
     tag: "検索＋エージェント＋スカウト・全国",
-    reason: "総合型でIT・通信エンジニア求人5万件超（2026年2月時点・二次経由）。自分で条件検索しつつエージェント提案・スカウトも受けられるハイブリッド型で全国対応。勤務地・リモート・時短など条件を自分で絞り込めるため、両立を重視した求人探しがしやすい。転職者の約6割が年収アップ。",
+    reason: "総合型でIT・通信エンジニア求人5万件超です（2026年2月時点・二次経由）。自分で条件検索しつつエージェント提案・スカウトも受けられるハイブリッド型で全国対応です。勤務地・リモート・時短など条件を自分で絞り込めるため、両立を重視した求人探しがしやすいです。転職者の約6割が年収アップです。",
     fit: "勤務地・働き方の条件を自分で絞り込みつつ提案も受けたい人",
   },
   {
@@ -44,7 +44,7 @@ const services = [
     name: "マイナビ IT AGENT",
     href: "/review/mynavi-it/",
     tag: "20〜30代・サポートの手厚さ",
-    reason: "20〜30代若手層に強く、書類添削・面接対策の手厚さが特徴。IT専門のキャリアアドバイザーによる個別支援で、転職後定着率97.5%・年収アップ率73.7%（転職メディア集計値・二次情報）。初めての転職や、丁寧に伴走してほしい人に向く。全国（首都圏・関西・名古屋・福岡が中心）。",
+    reason: "20〜30代若手層に強く、書類添削・面接対策の手厚さが特徴です。IT専門のキャリアアドバイザーによる個別支援で、転職後定着率97.5%・年収アップ率73.7%です（転職メディア集計値・二次情報）。初めての転職や、丁寧に伴走してほしい人に向きます。全国です（首都圏・関西・名古屋・福岡が中心）。",
     fit: "丁寧なサポートを受けながら腰を据えて転職を進めたい人",
   },
   {
@@ -52,7 +52,7 @@ const services = [
     name: "type転職エージェント",
     href: "/review/type-agent/",
     tag: "首都圏IT/Web・年収交渉",
-    reason: "首都圏（一都三県）中心のIT/Web業界に強く、年収交渉・面接対策に注力。年収アップ希望者の約71%が増収・平均増額92万円／ITエンジニアは124万円（2021年10月〜2022年9月の自社調査）、定着率97.4%（自社公表値）。運営のキャリアデザインセンターは女性向け転職メディアも展開しており、首都圏で条件を上げたい人に向く。",
+    reason: "首都圏（一都三県）中心のIT/Web業界に強く、年収交渉・面接対策に注力しています。年収アップ希望者の約71%が増収・平均増額92万円／ITエンジニアは124万円（2021年10月〜2022年9月の自社調査）、定着率97.4%です（自社公表値）。運営のキャリアデザインセンターは女性向け転職メディアも展開しており、首都圏で条件を上げたい人に向きます。",
     fit: "首都圏で年収・条件をしっかり交渉したい女性エンジニア",
   },
 ];
@@ -103,11 +103,11 @@ export default function WomenAgentsPage() {
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：女性エンジニアはどう選ぶか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li><strong>・本命は「レバテックキャリア」</strong>。IT特化で求人数・高年収に強く、リモート等の働き方も相談しやすい。</li>
-              <li><strong>・条件検索は「doda」、サポートは「マイナビ IT AGENT」</strong>。勤務地・働き方を絞り込み、丁寧に伴走してもらえる。</li>
-              <li><strong>・首都圏で交渉するなら「type転職エージェント」</strong>。年収交渉に注力し、ITエンジニアの平均増額124万円（自社調査）。</li>
+              <li><strong>・本命は「レバテックキャリア」</strong>。IT特化で求人数・高年収に強く、リモート等の働き方も相談しやすいです。</li>
+              <li><strong>・条件検索は「doda」、サポートは「マイナビ IT AGENT」</strong>。勤務地・働き方を絞り込み、丁寧に伴走してもらえます。</li>
+              <li><strong>・首都圏で交渉するなら「type転職エージェント」</strong>。年収交渉に注力し、ITエンジニアの平均増額124万円です（自社調査）。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">いずれも無料です。「女性専用」という看板より、IT/Webに強く働き方の希望を理解してくれるかを基準に、複数併用で技術・働き方・年収を両取りするのが効率的です。</p>
@@ -154,8 +154,8 @@ export default function WomenAgentsPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700">
             <ul className="space-y-1.5 list-disc pl-5">
               <li><strong>リモートの頻度：</strong>フルリモートか週何日出社か、入社後も維持されるか。</li>
-              <li><strong>コアタイム・時短：</strong>フレックスのコアタイム、時短勤務制度の有無と実績。</li>
-              <li><strong>残業実態：</strong>制度上の残業時間ではなく、現場の実態。</li>
+              <li><strong>コアタイム・時短：</strong>フレックスのコアタイム、時短勤務制度の有無と実績です。</li>
+              <li><strong>残業実態：</strong>制度上の残業時間ではなく、現場の実態です。</li>
               <li><strong>復帰・両立の前例：</strong>育休・時短からの復帰や、両立しているメンバーの実例があるか。</li>
             </ul>
             <p className="mt-3">これらは求人票では見えにくいため、エージェント経由で確認するのが安全です。働き方と企業の見極め方は<Link href="/knowledge/woman-engineer/" className="text-petrol hover:underline">女性エンジニアの転職【両立と企業の見極め方】</Link>で詳しく扱っています。</p>
@@ -167,9 +167,9 @@ export default function WomenAgentsPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-4">
               {[
-                { num: "1", title: "レバテックキャリアを軸に据える", desc: "IT特化で技術文脈を理解した提案を受け、リモート等の働き方と高年収帯を確保する。" },
-                { num: "2", title: "dodaで条件を絞り込む", desc: "勤務地・リモート・時短などの条件を自分で検索しつつ、エージェント提案も受けて母数を広げる。" },
-                { num: "3", title: "サポートと交渉を補う", desc: "丁寧に伴走してほしいならマイナビ IT AGENT、首都圏で年収・条件を交渉したいならtype転職エージェントを足す。" },
+                { num: "1", title: "レバテックキャリアを軸に据える", desc: "IT特化で技術文脈を理解した提案を受け、リモート等の働き方と高年収帯を確保します。" },
+                { num: "2", title: "dodaで条件を絞り込む", desc: "勤務地・リモート・時短などの条件を自分で検索しつつ、エージェント提案も受けて母数を広げます。" },
+                { num: "3", title: "サポートと交渉を補う", desc: "丁寧に伴走してほしいならマイナビ IT AGENT、首都圏で年収・条件を交渉したいならtype転職エージェントを足します。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -184,7 +184,7 @@ export default function WomenAgentsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代女性エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">30代・40代の女性エンジニアは、結婚・育児・介護などライフイベントと、これまで積んだ専門性・実績の両方を踏まえて転職先を選ぶ必要があります。重要なのは「働き方を変える＝年収を下げる」と決めつけないことです。専門性があれば、両立しやすい環境で年収を維持・向上させることは十分に狙えます。</p>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>30代の場合：</strong>スキルが市場で評価され、働き方と年収のバランスを取りやすい年代です。レバテックキャリアを軸にリモート求人を探し、年収はtype転職エージェント等で交渉しましょう。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安です。</p>
-          <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>40代の場合：</strong>専門性・マネジメント経験を武器に、両立できる環境で上位ポジションを狙えます。求人が絞られやすい分、希望する働き方と強みを明確に言語化し、複数社で母数を確保することが重要です。経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では2030年に最大約79万人のIT人材不足が見込まれ、経験あるエンジニアの需要は構造的に存在します。両立と企業の見極めは<Link href="/knowledge/woman-engineer/" className="text-petrol hover:underline">女性エンジニアの転職記事</Link>もあわせてご覧ください。</p>
+          <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>40代の場合：</strong>専門性・マネジメント経験を強みに、両立できる環境で上位ポジションを狙えます。求人が絞られやすい分、希望する働き方と強みを明確に言語化し、複数社で母数を確保することが重要です。経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では2030年に最大約79万人のIT人材不足が見込まれ、経験あるエンジニアの需要は構造的に存在します。両立と企業の見極めは<Link href="/knowledge/woman-engineer/" className="text-petrol hover:underline">女性エンジニアの転職記事</Link>もあわせてご覧ください。</p>
         </section>
 
         <section id="faq" className="mb-12 scroll-mt-20">
@@ -201,7 +201,7 @@ export default function WomenAgentsPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">女性エンジニアは「IT特化×働き方×交渉力」で選ぶ</h2>
-          <p className="text-blue-100 text-sm mb-4">レバテックキャリアを軸に、dodaで条件検索、マイナビIT AGENTでサポート、type転職エージェントで交渉。いずれも無料です。</p>
+          <p className="text-blue-100 text-sm mb-4">レバテックキャリアを軸に、dodaで条件検索、マイナビIT AGENTでサポート、type転職エージェントで交渉します。いずれも無料です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

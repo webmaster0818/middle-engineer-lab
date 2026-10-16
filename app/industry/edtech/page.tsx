@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/industry/edtech/" },
   title: "教育業界からEdTech転職【30代40代エンジニアガイド】",
   description:
-    "教育業界エンジニアからEdTech領域への転職方法を解説。活かせるスキルと埋めるギャップ、転職パターン、年収の考え方、進め方を30代40代視点で紹介します。",
+    "教育業界エンジニアからEdTech領域への転職方法を解説します。活かせるスキルと埋めるギャップ、転職パターン、年収の考え方、進め方を30代40代視点で紹介します。",
 };
 
 const TITLE = "教育業界からEdTech転職【30代40代エンジニアガイド】";
 const DESC =
-  "教育業界エンジニアからEdTech領域への転職方法を解説。活かせるスキルと埋めるギャップ、転職パターン、年収の考え方、進め方を30代40代視点で紹介します。";
+  "教育業界エンジニアからEdTech領域への転職方法を解説します。活かせるスキルと埋めるギャップ、転職パターン、年収の考え方、進め方を30代40代視点で紹介します。";
 
 const toc = [
   { id: "conclusion", label: "結論：教育ドメイン×ITは差別化しやすい" },
@@ -147,7 +147,7 @@ export default function EdtechPage() {
               教育の業務知識を持つエンジニアのEdTech転職は、<strong>十分に現実的</strong>です。EdTechでは「どんな学習が成果につながるか」「教育現場で何が運用上の壁になるか」を理解していることが価値になり、これは後から参入する純粋なIT人材が短期間で身につけにくい領域だからです。
             </p>
             <ul className="text-sm text-slate-700 space-y-1.5">
-              <li>・<strong>強み</strong>：LMS・カリキュラム設計・学習評価の理解はそのまま活きる</li>
+              <li>・<strong>強み</strong>：LMS・カリキュラム設計・学習評価の理解はそのまま活きます</li>
               <li>・<strong>埋めるべきギャップ</strong>：Web開発とデータ分析、（AI志望なら）機械学習の基礎</li>
               <li>・<strong>進め方</strong>：経験の棚卸し → スキル補強 → IT特化エージェントで求人レンジ確認</li>
             </ul>
@@ -245,7 +245,7 @@ export default function EdtechPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人／向いていない人</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="border border-emerald-200 bg-emerald-50 rounded-xl p-5">
-              <h3 className="font-bold text-emerald-800 mb-3 text-sm">こんな人は向いている</h3>
+              <h3 className="font-bold text-emerald-800 mb-3 text-sm">このような方に向いています</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
                   "LMS運用・教材制作など教育現場の実務経験がある",
@@ -262,7 +262,7 @@ export default function EdtechPage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">慎重に検討したい人</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
-                  "教育ドメインの経験がなく、技術力だけで勝負したい",
+                  "教育ドメインの経験がなく、技術力だけを強みにしたい",
                   "学習設計や現場運用に関心が薄い",
                   "学習に時間を割けず、即戦力の技術力も足りない",
                   "短期間での大幅な年収アップだけを目的にしている",
@@ -285,12 +285,12 @@ export default function EdtechPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg overflow-hidden">
               <div className="bg-slate-100 px-4 py-2 text-xs font-bold text-slate-500">Before（伝わりにくい例）</div>
-              <p className="px-4 py-3 text-sm text-slate-600">学習管理システムの導入・運用を担当。教材のデジタル化を進めた。</p>
+              <p className="px-4 py-3 text-sm text-slate-600">学習管理システムの導入・運用を担当します。教材のデジタル化を進めました。</p>
             </div>
             <div className="border border-[var(--line)] rounded-lg overflow-hidden">
               <div className="bg-petrol-soft px-4 py-2 text-xs font-bold text-petrol-deep">After（教育×ITが伝わる例）</div>
               <p className="px-4 py-3 text-sm text-slate-700">
-                LMSの導入・運用を担当し、教員の運用負荷と学習者のつまずき箇所を踏まえた教材配信フローを設計。学習ログを分析して理解度の低い単元を可視化し、復習コンテンツの追加を提案。カリキュラム設計と学習データ活用の両面を理解している点を強みとする。
+                LMSの導入・運用を担当し、教員の運用負荷と学習者のつまずき箇所を踏まえた教材配信フローを設計します。学習ログを分析して理解度の低い単元を可視化し、復習コンテンツの追加を提案します。カリキュラム設計と学習データ活用の両面を理解している点を強みとします。
               </p>
             </div>
           </div>
@@ -309,10 +309,10 @@ export default function EdtechPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-4">
             <ul className="text-sm text-slate-700 space-y-2 leading-relaxed">
               <li>
-                ・<strong>正社員SEの年代別平均年収（レバテック公表・2025年）</strong>：20代 約378万円／30代 約499万円／40代 約618万円／50代 約685万円。年収1,000万円以上の割合は30代8.01%・40代12.67%。
+                ・<strong>正社員SEの年代別平均年収（レバテック公表・2025年）</strong>：20代 約378万円／30代 約499万円／40代 約618万円／50代 約685万円です。年収1,000万円以上の割合は30代8.01%・40代12.67%です。
               </li>
               <li>
-                ・<strong>IT・通信の平均決定年収（doda／パーソルキャリア「決定年収レポート」2025年5月公表）</strong>：2023年度469万円→2024年度486万円。doda公表では転職者の約6割が年収アップとされています。
+                ・<strong>IT・通信の平均決定年収（doda／パーソルキャリア「決定年収レポート」2025年5月公表）</strong>：2023年度469万円→2024年度486万円です。doda公表では転職者の約6割が年収アップとされています。
               </li>
             </ul>
           </div>
@@ -329,15 +329,15 @@ export default function EdtechPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">学校向けEdTech・LMSベンダー</h3>
-              <p className="text-sm text-slate-600">学校や教育機関に学習管理システムや教材配信基盤を提供する企業。LMS運用やカリキュラム設計の知見が活きやすい。</p>
+              <p className="text-sm text-slate-600">学校や教育機関に学習管理システムや教材配信基盤を提供する企業です。LMS運用やカリキュラム設計の知見が活きやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">社会人向けオンライン学習プラットフォーム</h3>
-              <p className="text-sm text-slate-600">リスキリング・スキルアップ向けの動画・実践型学習サービス。学習体験の設計力が評価される。</p>
+              <p className="text-sm text-slate-600">リスキリング・スキルアップ向けの動画・実践型学習サービスです。学習体験の設計力が評価されます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">学習データ分析・AIチューター</h3>
-              <p className="text-sm text-slate-600">学習ログ分析や生成AIを使った個別最適化を手がける企業。データ分析・ML＋学習設計の理解が差別化要素になる。</p>
+              <p className="text-sm text-slate-600">学習ログ分析や生成AIを使った個別最適化を手がける企業です。データ分析・ML＋学習設計の理解が差別化要素になります。</p>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -349,10 +349,10 @@ export default function EdtechPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "教育業界の経験を棚卸しする", desc: "LMS導入・運用、教材デジタル化、学習データ分析など携わった案件を整理。学習成果の改善率など定量的な実績を準備する。" },
-              { step: "2", title: "Web開発・データ分析を補強する", desc: "Python・JavaScript（React/Next.js）・SQLの基礎を学ぶ。LMS関連ならLTI規格やSCORMの知識も有効。" },
-              { step: "3", title: "EdTech領域をリサーチする", desc: "アダプティブラーニング、マイクロラーニング、AIチューターなどのうち、自分の教育知見が最も活きる領域を見極める。" },
-              { step: "4", title: "IT特化エージェントで求人レンジを確認", desc: "Geekly・ワークポート・レバテックキャリアなどに登録し、実際のEdTech求人と提示年収レンジを比較する。" },
+              { step: "1", title: "教育業界の経験を棚卸しする", desc: "LMS導入・運用、教材デジタル化、学習データ分析など携わった案件を整理します。学習成果の改善率など定量的な実績を準備します。" },
+              { step: "2", title: "Web開発・データ分析を補強する", desc: "Python・JavaScript（React/Next.js）・SQLの基礎を学びます。LMS関連ならLTI規格やSCORMの知識も有効です。" },
+              { step: "3", title: "EdTech領域をリサーチする", desc: "アダプティブラーニング、マイクロラーニング、AIチューターなどのうち、自分の教育知見が最も活きる領域を見極めます。" },
+              { step: "4", title: "IT特化エージェントで求人レンジを確認", desc: "Geekly・ワークポート・レバテックキャリアなどに登録し、実際のEdTech求人と提示年収レンジを比較します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -375,15 +375,15 @@ export default function EdtechPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートA：教育知見を軸にPdM・コンテンツ企画へ</h3>
-              <p className="text-sm text-slate-600">学習設計やカリキュラムの理解を武器に、EdTechのPdM・コンテンツ企画から入り、技術理解を業務の中で深める。</p>
+              <p className="text-sm text-slate-600">学習設計やカリキュラムの理解を強みに、EdTechのPdM・コンテンツ企画から入り、技術理解を業務の中で深めます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートB：既存の開発スキルにモダンスタックを足す</h3>
-              <p className="text-sm text-slate-600">開発経験者がReact・Python・SQLを補強してEdTechのエンジニア職へ。学習成果を小さな制作物で示すと伝わりやすい。</p>
+              <p className="text-sm text-slate-600">開発経験者がReact・Python・SQLを補強してEdTechのエンジニア職へ。学習成果を小さな制作物で示すと伝わりやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートC：学習データ分析へ寄せる</h3>
-              <p className="text-sm text-slate-600">学習評価やデータに強みがあるなら、SQL・Pythonを軸に学習データアナリストや個別最適化の周辺ポジションを狙う。</p>
+              <p className="text-sm text-slate-600">学習評価やデータに強みがあるなら、SQL・Pythonを軸に学習データアナリストや個別最適化の周辺ポジションを狙います。</p>
             </div>
           </div>
         </section>
@@ -392,10 +392,10 @@ export default function EdtechPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくあるつまずきと対策</h2>
           <div className="space-y-3">
             {[
-              { p: "「LMS導入の経験」だけを書いて教育知見が伝わらない", s: "学習者・教員の課題と、それをどう解決し成果が変わったかを職務経歴書に具体的に書く。" },
-              { p: "求人が見つからず1社のエージェントで止まってしまう", s: "IT特化と総合型を2社以上併用し、提案されるEdTech求人の傾向を比較する。" },
-              { p: "最新技術力で若手と比較され不利になる", s: "技術の最先端で勝負するより、教育ドメイン×ITの掛け合わせで応募ポジションを選ぶ。" },
-              { p: "学習が手段化して目的を見失う", s: "志望職種の求人要件から逆算し、必要な技術だけに絞って学習する。" },
+              { p: "「LMS導入の経験」だけを書いて教育知見が伝わりません", s: "学習者・教員の課題と、それをどう解決し成果が変わったかを職務経歴書に具体的に書きます。" },
+              { p: "求人が見つからず1社のエージェントで止まってしまいます", s: "IT特化と総合型を2社以上併用し、提案されるEdTech求人の傾向を比較します。" },
+              { p: "最新技術力で若手と比較され不利になります", s: "技術の最先端を強みにするより、教育ドメイン×ITの掛け合わせで応募ポジションを選びます。" },
+              { p: "学習が手段化して目的を見失います", s: "志望職種の求人要件から逆算し、必要な技術だけに絞って学習します。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <p className="text-sm font-bold text-slate-800 mb-1">つまずき：{item.p}</p>
@@ -409,7 +409,7 @@ export default function EdtechPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              ミドル層の教育系エンジニアにとって、EdTech転職は「最新技術力で若手と競う」より「教育ドメインの蓄積で勝負する」戦い方ができる点が利点です。30代・40代は教育現場での運用経験や、学習者・教員・保護者など複数の立場を踏まえた調整経験が豊富で、プロダクトの要件定義や現場導入の推進で評価されやすくなります。
+              ミドル層の教育系エンジニアにとって、EdTech転職は「最新技術力で若手と競う」より「教育ドメインの蓄積を強みにする」進め方ができる点が利点です。30代・40代は教育現場での運用経験や、学習者・教員・保護者など複数の立場を踏まえた調整経験が豊富で、プロダクトの要件定義や現場導入の推進で評価されやすくなります。
             </p>
             <p className="text-slate-700 leading-relaxed mb-3">
               一方、コーディング比重の高いポジションだけに絞ると20代と競合しがちです。学習設計・PdM・コンテンツ企画など、教育の知見と調整力が強みに転じる職種を視野に入れると選択肢が広がります。

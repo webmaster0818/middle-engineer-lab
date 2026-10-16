@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/sakura-internet/" },
   title: "さくらインターネット エンジニア転職ガイド【2026年版】年収・技術・選考の実態",
   description:
-    "さくらインターネットへのエンジニア転職を実データで解説。有価証券報告書の平均年収（2026年3月期）、データセンター・クラウド・GPUインフラの技術、選考フロー、30代40代の現実までまとめました。",
+    "さくらインターネットへのエンジニア転職を実データで解説します。有価証券報告書の平均年収（2026年3月期）、データセンター・クラウド・GPUインフラの技術、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -85,7 +85,7 @@ export default function SakuraInternetCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="さくらインターネット エンジニア転職ガイド" description="さくらインターネットへのエンジニア転職を実データで解説。有価証券報告書の平均年収、データセンター・クラウド・GPUインフラの技術、選考フロー、30代40代の現実までまとめました。" url="/company/sakura-internet/" />
+      <ArticleJsonLd title="さくらインターネット エンジニア転職ガイド" description="さくらインターネットへのエンジニア転職を実データで解説します。有価証券報告書の平均年収、データセンター・クラウド・GPUインフラの技術、選考フロー、30代40代の現実までまとめました。" url="/company/sakura-internet/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "さくらインターネット" }]} />
 
@@ -97,7 +97,7 @@ export default function SakuraInternetCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】さくらインターネットの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: さくらインターネット株式会社の全社員平均年収は741万円です（2026年3月期 有価証券報告書・平均年齢40.3歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 741万円（2026年3月期 有報）。技術職に限らない全社員平均です。</li><li>・推移は2024年3月期614万円→2025年3月期700万円→2026年3月期741万円と2年で120万円超の上昇（各期 有報）。</li><li>・専門性の高いインフラ・SREポジションでは全社平均と異なる水準が提示される場合があり、実額は個別求人・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 741万円です（2026年3月期 有価証券報告書）。技術職に限らない全社員平均です。</li><li>・推移は2024年3月期614万円→2025年3月期700万円→2026年3月期741万円と2年で120万円超の上昇しています（各期 有価証券報告書）。</li><li>・専門性の高いインフラ・SREポジションでは全社平均と異なる水準が提示される場合があり、実額は個別求人・面談で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -123,7 +123,7 @@ export default function SakuraInternetCompanyPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Linux・仮想化・ネットワーク・大規模クラウド基盤に強く、低レイヤーの理解を深めたいインフラ／SREエンジニア</li>
               <li>● <strong>向いていない人</strong>：toC向けアプリのフロント開発に専念したい人、インフラに関心が薄い人</li>
-              <li>● <strong>30代・40代</strong>：インフラ・クラウド・ネットワークの専門性があれば年齢はハンデになりにくい</li>
+              <li>● <strong>30代・40代</strong>：インフラ・クラウド・ネットワークの専門性があれば年齢はハンデになりにくいです</li>
             </ul>
           </div>
         </section>
@@ -153,7 +153,7 @@ export default function SakuraInternetCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく全社員平均値。技術スタックは公式採用情報・技術ブログ（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく全社員平均値。技術スタックは公式採用情報・技術ブログです（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -177,7 +177,7 @@ export default function SakuraInternetCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            さくらインターネットは公式技術ブログ・採用情報（2026年6月時点）で採用技術を公開しています。主な要素は以下の通りです。自社クラウド基盤を開発・運用する性質上、低レイヤーからIaCまで幅広い技術が用いられます。
+            さくらインターネットは公式技術ブログ・採用情報（2026年6月時点）で採用技術を公開しています。主な要素は以下のとおりです。自社クラウド基盤を開発・運用する性質上、低レイヤーからIaCまで幅広い技術が用いられます。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -268,9 +268,9 @@ export default function SakuraInternetCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">さくらインターネット転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。インフラ・SRE・クラウド求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。インフラ実務経験者への提案数が多い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャー・事業会社に強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。インフラ・SRE・クラウド求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。インフラ実務経験者への提案数が多いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャー・事業会社に強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

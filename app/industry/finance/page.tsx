@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "金融業界からフィンテック転職ガイド｜30代40代SEの戦略";
 const DESC =
-  "金融SE・銀行系SEからフィンテック・決済・暗号資産領域へ転職する現実的な方法を解説。活かせるスキルと埋めるギャップ、年収の考え方、30代40代の進め方を公的データで整理します。";
+  "金融SE・銀行系SEからフィンテック・決済・暗号資産領域へ転職する現実的な方法を解説します。活かせるスキルと埋めるギャップ、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industry/finance/" },
@@ -36,17 +36,17 @@ const skillGap = [
 ];
 
 const patterns = [
-  ["フィンテックエンジニア", "決済・融資・資産運用SaaS", "金融業務知識＋Web開発。ドメイン理解を武器に未経験技術を補う王道ルート"],
-  ["金融データ・リスク分析エンジニア", "銀行・証券・フィンテック", "SQL・Pythonでの与信/不正検知モデル。アナリスト経験者に向く"],
-  ["金融DX推進・社内SE", "メガバンク・地銀・生損保", "レガシー刷新やクラウド移行のPM。大規模PJ経験が活きる"],
+  ["フィンテックエンジニア", "決済・融資・資産運用SaaS", "金融業務知識＋Web開発です。ドメイン理解を強みに未経験技術を補う代表的なルート"],
+  ["金融データ・リスク分析エンジニア", "銀行・証券・フィンテック", "SQL・Pythonでの与信/不正検知モデルです。アナリスト経験者に向く"],
+  ["金融DX推進・社内SE", "メガバンク・地銀・生損保", "レガシー刷新やクラウド移行のPMです。大規模PJ経験が活きる"],
   ["コンサル（金融DX）", "ファーム・SIer上流", "規制対応とシステム両面を語れる人材は上流支援で重宝される"],
 ];
 
 const companyTypes = [
-  ["フィンテックスタートアップ", "決済・BNPL・家計簿・資産運用などの自社プロダクト。モダンな技術と裁量が魅力", "スピード感・少人数開発に適応できる人"],
-  ["メガバンク・地銀のDX部門／IT子会社", "勘定系刷新、API基盤、クラウド移行。安定基盤で大規模案件に関われる", "大規模PJのマネジメントを志向する人"],
-  ["証券・資産運用×IT", "トレーディング、ロボアドバイザー、データ基盤。金融工学やデータ分析が近い", "数理・データ寄りの志向がある人"],
-  ["金融特化SIer・コンサル", "金融機関向けの上流支援。規制対応とプロジェクト推進力が問われる", "顧客折衝・上流志向の人"],
+  ["フィンテックスタートアップ", "決済・BNPL・家計簿・資産運用などの自社プロダクトです。モダンな技術と裁量が魅力", "スピード感・少人数開発に適応できる人"],
+  ["メガバンク・地銀のDX部門／IT子会社", "勘定系刷新、API基盤、クラウド移行です。安定基盤で大規模案件に関われる", "大規模PJのマネジメントを志向する人"],
+  ["証券・資産運用×IT", "トレーディング、ロボアドバイザー、データ基盤です。金融工学やデータ分析が近い", "数理・データ寄りの志向がある人"],
+  ["金融特化SIer・コンサル", "金融機関向けの上流支援です。規制対応とプロジェクト推進力が問われる", "顧客折衝・上流志向の人"],
 ];
 
 const faqs = [
@@ -72,11 +72,11 @@ const faqs = [
   },
   {
     q: "30代・40代でも金融からフィンテックに転職できますか？",
-    a: "ドメイン知識が武器になりやすい領域のため、年齢だけが理由で不利になるとは限りません。30代はモダン技術の習得、40代はマネジメントや規制対応など「組み合わせの価値」を打ち出すと、ミドル層ならではの強みを示しやすくなります。",
+    a: "ドメイン知識が強みになりやすい領域のため、年齢だけが理由で不利になるとは限りません。30代はモダン技術の習得、40代はマネジメントや規制対応など「組み合わせの価値」を打ち出すと、ミドル層ならではの強みを示しやすくなります。",
   },
   {
     q: "金融からフィンテック転職に強いエージェントは？",
-    a: "IT特化のレバテックキャリアは技術的なマッチングに強みがあり、ハイクラス志向ならスカウト型のビズリーチも選択肢です。1社に絞らず複数登録して求人と担当者を比較するのが定石です。",
+    a: "IT特化のレバテックキャリアは技術的なマッチングに強みがあり、ハイクラス志向ならスカウト型のビズリーチも選択肢です。1社に絞らず複数登録して求人と担当者を比較するのが基本です。",
   },
   {
     q: "未出典の市場規模や成長率は記載していますか？",
@@ -162,9 +162,9 @@ export default function FinancePage() {
               ただし「金融知識があれば技術は不問」ではなく、モダン開発スキルとの掛け合わせが鍵になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・規制・リスク・コンプライアンスの理解はフィンテックで希少価値が高い</li>
-              <li>・一方でクラウド・API・アジャイルの実務経験は多くの求人で問われる</li>
-              <li>・30代は技術習得、40代はマネジメント＋規制対応の組み合わせで勝負しやすい</li>
+              <li>・規制・リスク・コンプライアンスの理解はフィンテックで希少価値が高いです</li>
+              <li>・一方でクラウド・API・アジャイルの実務経験は多くの求人で問われます</li>
+              <li>・30代は技術習得、40代はマネジメント＋規制対応の組み合わせを強みにしやすいです</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -314,10 +314,10 @@ export default function FinancePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "金融経験を棚卸しする", desc: "携わった金融システムの領域（決済・融資・勘定系など）、規制要件、移行・効率化の実績を具体的に整理する。数値化できる成果は必ず洗い出す。" },
-              { step: "2", title: "不足スキルを補う計画を立てる", desc: "クラウド（AWS/GCP）・API設計・アジャイルなど、求人で問われやすい技術を3〜6ヶ月で学習。小さくても動くものを作ると説得力が増す。" },
-              { step: "3", title: "活きる領域を見極める", desc: "決済・融資・資産運用・保険のうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定する。" },
-              { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録。求人と担当者を比較し、市場価値を客観的に把握する。" },
+              { step: "1", title: "金融経験を棚卸しする", desc: "携わった金融システムの領域（決済・融資・勘定系など）、規制要件、移行・効率化の実績を具体的に整理します。数値化できる成果は必ず洗い出します。" },
+              { step: "2", title: "不足スキルを補う計画を立てる", desc: "クラウド（AWS/GCP）・API設計・アジャイルなど、求人で問われやすい技術を3〜6ヶ月で学習します。小さくても動くものを作ると説得力が増します。" },
+              { step: "3", title: "活きる領域を見極める", desc: "決済・融資・資産運用・保険のうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定します。" },
+              { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録します。求人と担当者を比較し、市場価値を客観的に把握します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -343,13 +343,13 @@ export default function FinancePage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：規制対応とマネジメントを軸に</h3>
               <p className="text-sm text-petrol-deep">
-                大規模PJのマネジメントや規制対応の実績は、フィンテック企業や金融DX支援で評価されやすい強みです。実装だけで勝負するより、組み合わせの価値を打ち出すのが現実的です。
+                大規模PJのマネジメントや規制対応の実績は、フィンテック企業や金融DX支援で評価されやすい強みです。実装だけを強みにするより、組み合わせの価値を打ち出すのが現実的です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
               <p className="text-sm text-petrol-deep">
-                若手と同じ土俵で最新技術だけを競うのではなく、金融×ITという希少性で差別化するのがミドル層の定石です。
+                若手と同じ土俵で最新技術だけを競うのではなく、金融×ITという希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
@@ -361,13 +361,13 @@ export default function FinancePage() {
         <section id="agents" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">相談先エージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            金融×ITの転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが定石です。
+            金融×ITの転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが基本です。
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強み。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたい。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型。年収750万円以上の求人や管理職ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数。金融DXから事業会社まで幅広く比較したい場合に有効。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や管理職ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。金融DXから事業会社まで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -397,7 +397,7 @@ export default function FinancePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">金融の専門知識をフィンテックで活かそう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。
+            まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

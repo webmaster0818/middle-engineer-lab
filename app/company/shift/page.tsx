@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/shift/" },
   title: "SHIFTの年収は平均684万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "株式会社SHIFT（3697）へのエンジニア転職を実データで解説。有価証券報告書の平均年収684万円（2025年8月期・全社員平均）、ソフトウェアテスト/品質保証(QA)中心の事業、未経験からの育成、選考フロー、30代40代の現実までまとめました。",
+    "株式会社SHIFT（3697）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収684万円（2025年8月期・全社員平均）、ソフトウェアテスト/品質保証(QA)中心の事業、未経験からの育成、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -88,7 +88,7 @@ export default function ShiftCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="SHIFT エンジニア転職ガイド" description="株式会社SHIFTへのエンジニア転職を実データで解説。有価証券報告書の平均年収684万円（2025年8月期・全社員平均）、ソフトウェアテスト/品質保証(QA)中心の事業、選考フロー、30代40代の現実までまとめました。" url="/company/shift/" />
+      <ArticleJsonLd title="SHIFT エンジニア転職ガイド" description="株式会社SHIFTへのエンジニア転職を実データで解説します。有価証券報告書の平均年収684万円（2025年8月期・全社員平均）、ソフトウェアテスト/品質保証(QA)中心の事業、選考フロー、30代40代の現実までまとめました。" url="/company/shift/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "IT企業平均年収ランキング【有報準拠】", href: "/salary/company-ranking/" }, { name: "業界別 年収ランキング", href: "/salary/industry-salary/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "SHIFT" }]} />
 
@@ -100,11 +100,11 @@ export default function ShiftCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】SHIFTの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: SHIFT（提出会社単体）の平均年間給与は684万円です（2025年8月期 有価証券報告書・全社員平均、平均年齢38.0歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 684万円（2025年8月期 有報・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2021年8月期591万円から2025年8月期684万円へ毎期上昇傾向（各期 有報）。</li><li>・QA職・開発職など職種別の公式年収レンジは非公表。成果に応じた評価制度で、提示額は職務・等級・評価により個別決定です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 684万円です（2025年8月期 有価証券報告書・提出会社単体）。技術職に限らない全社員平均です。</li><li>・推移は2021年8月期591万円から2025年8月期684万円へ毎期上昇傾向です（各期 有価証券報告書）。</li><li>・QA職・開発職など職種別の公式年収レンジは非公表です。成果に応じた評価制度で、提示額は職務・等級・評価により個別決定です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          株式会社SHIFTは、ソフトウェアの品質保証（QA）・ソフトウェアテストを中核に、ソフトウェア開発やITコンサルティングまで手がける東証プライム上場（証券コード3697）企業です。独自のテスト方法論と「開発とテストの分業化」を武器に急成長し、エンジニア・QA人材を大規模に採用してきました。本ページでは、有価証券報告書・公式採用情報・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
+          株式会社SHIFTは、ソフトウェアの品質保証（QA）・ソフトウェアテストを中核に、ソフトウェア開発やITコンサルティングまで手がける東証プライム上場（証券コード3697）企業です。独自のテスト方法論と「開発とテストの分業化」を強みに急成長し、エンジニア・QA人材を大規模に採用してきました。本ページでは、有価証券報告書・公式採用情報・口コミプラットフォームの公開情報をもとに、エンジニア転職の実態を整理します。
         </p>
 
         <DataNote
@@ -126,7 +126,7 @@ export default function ShiftCompanyPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：品質保証・テスト・プロジェクト管理に関心があり、論理的思考と几帳面さで品質に向き合えるエンジニア</li>
               <li>● <strong>向いていない人</strong>：自社プロダクトを一から作り込む開発に専念したい人、安定・低変動な環境を最優先する人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢38.0歳。ドメイン知識・管理経験があれば上流・リーダー職で評価されやすい</li>
+              <li>● <strong>30代・40代</strong>：平均年齢38.0歳です。ドメイン知識・管理経験があれば上流・リーダー職で評価されやすいです</li>
             </ul>
           </div>
         </section>
@@ -156,7 +156,7 @@ export default function ShiftCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・平均勤続年数・従業員数は2025年8月期 有価証券報告書に基づく提出会社（株式会社SHIFT単体）の値。技術領域は公式採用情報（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・平均勤続年数・従業員数は2025年8月期 有価証券報告書に基づく提出会社（株式会社SHIFT単体）の値。技術領域は公式採用情報です（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -180,7 +180,7 @@ export default function ShiftCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術領域・募集職種（公式採用情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            SHIFTは公式キャリア採用ページ（2026年6月時点）で、品質保証を中心とした幅広い職種を募集しています。主な領域は以下の通りです。具体的な使用技術・必須スキルは募集ポジションにより異なります。
+            SHIFTは公式キャリア採用ページ（2026年6月時点）で、品質保証を中心とした幅広い職種を募集しています。主な領域は以下のとおりです。具体的な使用技術・必須スキルは募集ポジションにより異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -270,9 +270,9 @@ export default function ShiftCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">SHIFT転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。QA・テスト・開発系の求人にも対応し、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、上流コンサル・リーダー職の求人に対応。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。QA・テスト・開発系の求人にも対応し、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "ハイクラス・管理職に強く、上流コンサル・リーダー職の求人に対応しています。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

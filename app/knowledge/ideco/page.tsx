@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "iDeCo・企業型DCと転職【資産の移換手続き】";
 const DESCRIPTION =
-  "転職時のiDeCo・企業型DC（確定拠出年金）の移換手続きを、6か月放置による自動移換のリスク、企業型DCからiDeCoへの移換、転職先に制度がある場合の対応まで解説。30代・40代が老後資産を守るための実務ガイドです。";
+  "転職時のiDeCo・企業型DC（確定拠出年金）の移換手続きを、6か月放置による自動移換のリスク、企業型DCからiDeCoへの移換、転職先に制度がある場合の対応まで解説します。30代・40代が老後資産を守るための実務ガイドです。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/ideco/" },
@@ -137,7 +137,7 @@ export default function IdecoPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職したらiDeCo・企業型DCはどうすればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 企業型DCに加入していた人は、資格喪失日の属する月の翌月から6か月以内に資産の移換手続きを行うのが鉄則です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・6か月以内に移換しないと、資産が国民年金基金連合会へ自動移換され、運用が止まり手数料も差し引かれる。</li><li>・転職先に企業型DCがあればそこへ、なければiDeCoへ移換する。フリーランスになる場合もiDeCoが基本。</li><li>・手続きは申込みから完了まで1〜2か月程度かかることがあるため、退職後すぐに着手する。</li><li>・すでに自動移換された資産も、iDeCoや企業型DCへ移換する手続きは可能。</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・6か月以内に移換しないと、資産が国民年金基金連合会へ自動移換され、運用が止まり手数料も差し引かれます。</li><li>・転職先に企業型DCがあればそこへ、なければiDeCoへ移換します。フリーランスになる場合もiDeCoが基本です。</li><li>・手続きは申込みから完了まで1〜2か月程度かかることがあるため、退職後すぐに着手します。</li><li>・すでに自動移換された資産も、iDeCoや企業型DCへ移換する手続きは可能です。</li></ul>
           </div>
         </section>
 
@@ -296,7 +296,7 @@ export default function IdecoPage() {
         <section>
       <TechgoCta
         heading="DC・iDeCoの移換とあわせて「年収の見直し」も"
-        note="運用資産を守る次の一手は年収アップ。テックゴーは年収アップ平均144万円（2026年3月の内定承諾者平均・公式公表）のIT特化エージェントです。"
+        note="運用資産を守る次の一手は年収アップです。テックゴーは年収アップ平均144万円（2026年3月の内定承諾者平均・公式公表）のIT特化エージェントです。"
         buttonText="無料キャリア面談を予約する（公式）"
       />
 

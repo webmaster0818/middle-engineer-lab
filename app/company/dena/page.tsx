@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/dena/" },
   title: "DeNAへのエンジニア転職｜年収・技術スタック・選考フロー【2026年版】",
   description:
-    "DeNAのエンジニア中途採用を有価証券報告書・公式採用ページ・技術ブログの一次情報で解説。提出会社平均年収1,117.9万円(2026年3月期)、コーディングテスト、Go/AWS等の技術を中立にまとめました。",
+    "DeNAのエンジニア中途採用を有価証券報告書・公式採用ページ・技術ブログの一次情報で解説します。提出会社平均年収1,117.9万円(2026年3月期)、コーディングテスト、Go/AWS等の技術を中立にまとめました。",
 };
 
 const toc = [
@@ -58,7 +58,7 @@ export default function DenaCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="DeNA エンジニア転職ガイド" description="DeNAへのエンジニア転職を有価証券報告書・公式採用ページ・技術ブログの一次情報で解説。提出会社平均年収1,117.9万円(2026年3月期)、コーディングテスト、Go/AWS等の技術をまとめました。" url="/company/dena/" />
+      <ArticleJsonLd title="DeNA エンジニア転職ガイド" description="DeNAへのエンジニア転職を有価証券報告書・公式採用ページ・技術ブログの一次情報で解説します。提出会社平均年収1,117.9万円(2026年3月期)、コーディングテスト、Go/AWS等の技術をまとめました。" url="/company/dena/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "DeNA" }]} />
 
@@ -73,7 +73,7 @@ export default function DenaCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】DeNAの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: DeNAの有価証券報告書（2026年3月期・提出会社単体）の平均年間給与は1,117.9万円、平均年齢は38.6歳です（エンジニア以外も含む全従業員平均）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与1,117.9万円（2026年3月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。前期882.9万円から大幅増</li><li>・平均年齢38.6歳と比較的若い組織（従業員数は単体1,400名）</li><li>・職種別・等級別の年収は公式非開示。エンジニア職の提示レンジは個別確認が必要</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与1,117.9万円です（2026年3月期 有価証券報告書・提出会社単体／全従業員平均・賞与含む）。前期882.9万円から大幅増</li><li>・平均年齢38.6歳と比較的若い組織（従業員数は単体1,400名）</li><li>・職種別・等級別の年収は公式非開示です。エンジニア職の提示レンジは個別確認が必要</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年8月" sources={["DeNA 有価証券報告書（2026年3月期）", "DeNA 公式採用サイト", "DeNA Engineering（技術ブログ）", "OpenWork・受験記（口コミ／選考傾向）"]} />
@@ -83,9 +83,9 @@ export default function DenaCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：やや高い〜高い（コーディングテスト＋技術面接）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・選考で<strong>コーディングテスト（アルゴリズム）</strong>があり、Web系の基礎力が問われる。難易度は中程度とされ、対策すれば対応可能。</li>
-              <li>・<strong>Go・AWS・Kubernetes</strong>を軸にしたモダンな開発環境。サーバーサイド／SRE／ML／ゲームと事業が広く、Web系・大規模サービス経験者に向く。</li>
-              <li>・提出会社単体の平均年収は<strong>1,117.9万円（2026年3月期・有報）</strong>、平均年齢38.6歳と比較的若い組織。</li>
+              <li>・選考で<strong>コーディングテスト（アルゴリズム）</strong>があり、Web系の基礎力が問われます。難易度は中程度とされ、対策すれば対応可能です。</li>
+              <li>・<strong>Go・AWS・Kubernetes</strong>を軸にしたモダンな開発環境です。サーバーサイド／SRE／ML／ゲームと事業が広く、Web系・大規模サービス経験者に向きます。</li>
+              <li>・提出会社単体の平均年収は<strong>1,117.9万円（2026年3月期・有価証券報告書）</strong>、平均年齢38.6歳と比較的若い組織です。</li>
             </ul>
           </div>
         </section>
@@ -121,8 +121,8 @@ export default function DenaCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-4">以下は公式技術ブログ「DeNA Engineering」で公開されている記事タグ・内容に基づく代表的な技術です。事業・チームにより使用技術は異なります。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go（Golang）</strong>：サーバーサイド開発の主力。新卒研修でもGoでサーバーサイドを学ぶ記事が公開されている</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AWS</strong>：CloudWatch、EKS など。インフラ／SREチームによる記事が多数</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Go（Golang）</strong>：サーバーサイド開発の主力です。新卒研修でもGoでサーバーサイドを学ぶ記事が公開されています</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>AWS</strong>：CloudWatch、EKS などです。インフラ／SREチームによる記事が多数</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Kubernetes（EKS）／ GitOps・ArgoCD</strong>：コンテナ基盤・継続的デリバリの実践記事</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>TypeScript ／ Python</strong>：フロントエンド・データ／ML領域で使用</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>Unity</strong>：ゲーム事業のクライアント開発</span></li>
@@ -149,10 +149,10 @@ export default function DenaCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公開情報ベース）</h2>
           <ol className="space-y-3">
             {[
-              ["STEP 1", "応募・書類選考", "公式採用サイトまたはエージェント経由で応募。職務経歴書で経験を確認。"],
-              ["STEP 2", "コーディングテスト", "オンラインで自宅受験（所要約2時間とされる）。アルゴリズム・データ構造・数学的思考を評価。"],
-              ["STEP 3", "技術面接（複数回）", "技術面接（1回あたり約1時間とされる）。実務経験・設計力を深掘り。"],
-              ["STEP 4", "カルチャーフィット・内定", "価値観・カルチャーのフィットを確認のうえ条件提示。"],
+              ["STEP 1", "応募・書類選考", "公式採用サイトまたはエージェント経由で応募します。職務経歴書で経験を確認します。"],
+              ["STEP 2", "コーディングテスト", "オンラインで自宅受験です（所要約2時間とされる）。アルゴリズム・データ構造・数学的思考を評価します。"],
+              ["STEP 3", "技術面接（複数回）", "技術面接です（1回あたり約1時間とされる）。実務経験・設計力を深掘り。"],
+              ["STEP 4", "カルチャーフィット・内定", "価値観・カルチャーのフィットを確認のうえ条件提示です。"],
             ].map(([step, title, desc], i) => (
               <li key={i} className="flex gap-4 border border-slate-200 rounded-lg p-4">
                 <span className="shrink-0 text-xs font-bold text-petrol-deep bg-petrol-soft rounded px-2 py-1 h-fit">{step}</span>
@@ -179,13 +179,13 @@ export default function DenaCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、DeNAについて<strong>「優秀なエンジニアが多い」「若手の成長環境が整っている」「働き方の自由度が高い」</strong>といった肯定的な声が見られます。エンジニアの労働条件については「以前より残業時間が減り改善傾向にある」という趣旨の言及もあります。一方で<strong>「評価は厳しく、高いパフォーマンス期待がある」「部署により労働環境に差がある」</strong>という指摘も見られ、実力主義の側面が強い傾向がうかがえます。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により異なります。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。評価は部署・時期・職種により異なります。</p>
         </section>
 
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たDeNA</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>提出会社単体の<strong>平均年齢は38.6歳</strong>（2026年3月期・有報）で、メガベンチャーらしく比較的若い組織です。とはいえ事業領域が広く、大規模サービスの設計・SRE・MLなど高度な専門性を要するポジションが多いため、<strong>30代・40代の経験豊富なエンジニアが技術リードやスペシャリストとして活躍できる余地</strong>があります。</p>
+            <p>提出会社単体の<strong>平均年齢は38.6歳</strong>（2026年3月期・有価証券報告書）で、メガベンチャーらしく比較的若い組織です。とはいえ事業領域が広く、大規模サービスの設計・SRE・MLなど高度な専門性を要するポジションが多いため、<strong>30代・40代の経験豊富なエンジニアが技術リードやスペシャリストとして活躍できる余地</strong>があります。</p>
             <p>注意したいのは選考のコーディングテストです。実務から離れてアルゴリズムに触れていないミドル層は、AtCoderの基本問題などで事前に感覚を取り戻しておくと安心です。年収は提出会社平均1,117.9万円（2026年3月期）が基準で、実力主義の評価ゆえにパフォーマンス次第で処遇が動く点も踏まえ、入社後の評価制度を面接で確認しておくとよいでしょう。Web系・モダン技術志向のミドルエンジニアにとっては、技術的にも事業的にも刺激の多い選択肢です。</p>
             <p>選考準備として、<Link href="/knowledge/coding-test/" className="text-petrol hover:underline">コーディングテスト対策</Link>と<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の進め方</Link>もあわせて確認してください。</p>
           </div>
@@ -194,7 +194,7 @@ export default function DenaCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">DeNA転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でメガベンチャー求人に強い。技術面接対策のサポートあり。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界特化。Web系・ゲーム系企業への提案が豊富。" }, { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型サイト。カジュアル面談で社風を把握しやすい。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT特化でメガベンチャー求人に強いです。技術面接対策のサポートがあります。" }, { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム業界特化です。Web系・ゲーム系企業への提案が豊富です。" }, { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型サイトです。カジュアル面談で社風を把握しやすいです。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
           <p className="text-xs text-slate-500 mt-3">求人保有状況は時期により変動します。<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>もあわせて参照してください。</p>
         </section>

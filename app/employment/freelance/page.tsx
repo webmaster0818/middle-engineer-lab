@@ -107,7 +107,7 @@ export default function FreelancePage() {
     <>
       <ArticleJsonLd
         title="フリーランスエンジニアの実態｜年収傾向・案件確保・メリットデメリット"
-        description="フリーランスエンジニアの定義・単価年収傾向・案件確保・社会保険・二軸メリットデメリットを出典付きで解説。業務委託との違いや30代40代の選び方も整理。"
+        description="フリーランスエンジニアの定義・単価年収傾向・案件確保・社会保険・二軸メリットデメリットを出典付きで解説。業務委託との違いや30代40代の選び方も整理します。"
         url="/employment/freelance/"
       />
       <script
@@ -151,9 +151,9 @@ export default function FreelancePage() {
               フリーランスは、単価と働き方の自由で正社員を上回ることがあります。しかし案件の確保、社会保険・税の自己負担、保障の欠如をすべて自分で引き受ける働き方です。額面の単価だけで判断せず、稼働できない期間・社会保険・信用面まで含めて設計し、複数の案件確保ルートと生活防衛資金を整えてから選ぶのが安全です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>「フリーランス＝独立した働き方」「業務委託＝契約形態」で、指す対象が異なる。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>単価目安：SE約71万／PG約68万（月額・週5・レバテックフリーランス2024年1月）。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>登録者平均年収約881万円は「高稼働者中心の実績値」で全体平均ではない。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>「フリーランス＝独立した働き方」「業務委託＝契約形態」で、指す対象が異なります。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>単価目安：SE約71万／PG約68万です（月額・週5・レバテックフリーランス2024年1月）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>登録者平均年収約881万円は「高稼働者中心の実績値」で全体平均ではありません。</li>
             </ul>
           </div>
         </section>
@@ -224,19 +224,19 @@ export default function FreelancePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">フリーランス専門エージェント</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">案件紹介・単価交渉・契約事務を代行してくれる経路。安定確保の中心になりやすい一方、マージンが単価から差し引かれます。複数登録で選択肢を広げるのが定石です。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">案件紹介・単価交渉・契約事務を代行してくれる経路です。安定確保の中心になりやすい一方、マージンが単価から差し引かれます。複数登録で選択肢を広げるのが基本です。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">直契約（直請け）</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">過去の取引先・知人から直接受注する経路。マージンがない分単価は高くなりやすいですが、営業・契約・請求を自分で担う必要があります。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">過去の取引先・知人から直接受注する経路です。マージンがない分単価は高くなりやすいですが、営業・契約・請求を自分で担う必要があります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">クラウドソーシング</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">小規模案件や実績作りに向く経路。単価は抑えめのことが多く、主軸というより補助的に使われることが多いです。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">小規模案件や実績作りに向く経路です。単価は抑えめのことが多く、主軸というより補助的に使われることが多いです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">自己発信・人脈</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">技術ブログ・SNS・登壇・OSSなどから案件につなげる経路。時間はかかりますが、単価と裁量の高い直契約につながりやすくなります。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">技術ブログ・SNS・登壇・OSSなどから案件につなげる経路です。時間はかかりますが、単価と裁量の高い直契約につながりやすくなります。</p>
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -376,7 +376,7 @@ export default function FreelancePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">独立の前に「正社員としての市場価値」を確認</h2>
           <p className="text-blue-100 text-sm mb-4">
-            フリーランスの単価と、正社員としての提示年収・保障を並べて比較してから判断するのが安全です。まずは市場価値の把握から。
+            フリーランスの単価と、正社員としての提示年収・保障を並べて比較してから判断するのが安全です。まずは市場価値の把握から始めます。
           </p>
           <Link href="/compare/freelance-agents/" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             フリーランス向けエージェント比較を見る

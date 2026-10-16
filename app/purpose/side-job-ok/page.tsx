@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/side-job-ok/" },
   title: "副業OKのエンジニア求人の見極め方【2026年版】",
   description:
-    "副業OKのエンジニア求人を「許可制・届出制・完全自由」の3段階で解説。就業規則の落とし穴、知財・労働時間通算の注意点、30-40代の現実的な副業設計まで。",
+    "副業OKのエンジニア求人を「許可制・届出制・完全自由」の3段階で解説します。就業規則の落とし穴、知財・労働時間通算の注意点、30-40代の現実的な副業設計まで。",
 };
 
 const faqs = [
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "エンジニアの副業で特に注意すべき点は？",
-    a: "（1）競業避止：本業と競合する受託開発は契約違反になり得ます。（2）知的財産の帰属：本業の業務時間・設備・ノウハウを使って作ったものの権利が会社に帰属する可能性。個人開発のコードの権利関係は事前に確認を。（3）労働時間の通算：本業と副業の労働時間は通算され、長時間労働による健康リスク・割増賃金の論点が生じます。（4）秘密保持義務：本業で得た非公開情報を副業先で使うことは厳禁です。",
+    a: "（1）競業避止：本業と競合する受託開発は契約違反になり得ます。（2）知的財産の帰属：本業の業務時間・設備・ノウハウを使って作ったものの権利が会社に帰属する可能性です。個人開発のコードの権利関係は事前にご確認ください。（3）労働時間の通算：本業と副業の労働時間は通算され、長時間労働による健康リスク・割増賃金の論点が生じます。（4）秘密保持義務：本業で得た非公開情報を副業先で使うことは厳禁です。",
   },
   {
     q: "副業で現実的にどのくらい稼げる？",
@@ -53,7 +53,7 @@ export default function SideJobOkPage() {
     <>
       <ArticleJsonLd
         title="副業OKのエンジニア求人の見極め方【2026年版】"
-        description="副業OKのエンジニア求人を3段階で解説。就業規則の落とし穴、知財・労働時間通算の注意点、30-40代の現実的な副業設計まで。"
+        description="副業OKのエンジニア求人を3段階で解説します。就業規則の落とし穴、知財・労働時間通算の注意点、30-40代の現実的な副業設計まで。"
         url="/purpose/side-job-ok/"
       />
       <script
@@ -72,7 +72,7 @@ export default function SideJobOkPage() {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
           副業OKのエンジニア求人の見極め方
         </h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 「副業OK」の3段階を理解して選ぶ完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 | 「副業OK」の3段階を理解して選ぶガイド</p>
 
         <DataNote
           surveyedAt="2026年6月"
@@ -86,10 +86,10 @@ export default function SideJobOkPage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：「副業OK」は3段階に分けて読む</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-4">
-            転職サイトで「副業OK」と書かれていても、その中身は企業によって大きく異なります。多くの比較サイトは「副業OK求人◯件」と件数を並べるだけですが、実際に副業を始められるかどうかは<strong>許可のレベル</strong>で決まります。本記事は「許可制・届出制・完全自由」の3段階で求人を読み解き、入社後に「実は実質できなかった」を防ぐための見極め方を、30-40代エンジニアの現実に即して解説します。
+            転職サイトで「副業OK」と書かれていても、その中身は企業によって大きく異なります。多くの比較サイトは「副業OK求人◯件」と件数を並べるだけですが、実際に副業を始められるかどうかは<strong>許可のレベル</strong>で決まります。本記事は「許可制・届出制・完全自由」の3段階で求人を読み解き、入社後に「実質できなかった」を防ぐための見極め方を、30-40代エンジニアの現実に即して解説します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 本業を持ちながら個人開発や受託で収入の柱を増やしたい</li>
               <li>- 将来の独立を見据えて副業から実績を積みたい30-40代</li>
@@ -124,9 +124,9 @@ export default function SideJobOkPage() {
               </thead>
               <tbody>
                 {[
-                  { type: "許可制", desc: "事前に申請し、会社の承認を得て初めて副業可能", note: "競業・利益相反でないか審査される。承認されないこともあり「OK」表記でも実質ハードルあり" },
-                  { type: "届出制", desc: "始める際に届け出れば原則可。会社は内容を把握", note: "労働時間通算・健康管理のための把握が目的。許可制より柔軟" },
-                  { type: "完全自由", desc: "申請・届出不要で自由に副業できる", note: "ベンチャー・自社開発に多い。ただし秘密保持・競業避止の一般義務は残る" },
+                  { type: "許可制", desc: "事前に申請し、会社の承認を得て初めて副業可能", note: "競業・利益相反でないか審査されます。承認されないこともあり「OK」表記でも実質ハードルあり" },
+                  { type: "届出制", desc: "始める際に届け出れば原則可です。会社は内容を把握", note: "労働時間通算・健康管理のための把握が目的です。許可制より柔軟" },
+                  { type: "完全自由", desc: "申請・届出不要で自由に副業できます", note: "ベンチャー・自社開発に多いです。ただし秘密保持・競業避止の一般義務は残ります" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -195,7 +195,7 @@ export default function SideJobOkPage() {
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            個人開発を将来の独立や転職の武器にする具体的な進め方は、当サイトの
+            個人開発を将来の独立や転職の強みにする具体的な進め方は、当サイトの
             <Link href="/knowledge/side-project/" className="text-petrol hover:underline">個人開発・サイドプロジェクトの活かし方</Link>
             で詳しく解説しています。
           </p>
@@ -207,9 +207,9 @@ export default function SideJobOkPage() {
             20代と違い、30-40代は家庭・育児・住宅ローンなど守るべきものが増える一方で、可処分時間は限られます。だからこそ副業は「稼ぐこと」だけを目的にすると消耗しがちです。現実的なのは、次の3つの目的のいずれかに絞ることです。
           </p>
           <ul className="space-y-2 text-sm text-slate-700 mb-3">
-            <li>① <strong>スキルの幅出し：</strong>本業で使わない技術・領域に副業で触れ、市場価値を上げる</li>
-            <li>② <strong>独立の助走：</strong>業務委託の実績・人脈を作り、将来のフリーランス転身に備える</li>
-            <li>③ <strong>収入の分散：</strong>本業一本のリスクを下げ、リストラ・転職時の心理的余裕を作る</li>
+            <li>① <strong>スキルの幅出し：</strong>本業で使わない技術・領域に副業で触れ、市場価値を上げます</li>
+            <li>② <strong>独立の助走：</strong>業務委託の実績・人脈を作り、将来のフリーランス転身に備えます</li>
+            <li>③ <strong>収入の分散：</strong>本業一本のリスクを下げ、リストラ・転職時の心理的余裕を作ります</li>
           </ul>
           <p className="text-sm text-slate-700 leading-relaxed">
             いずれの場合も、労働時間の通算と健康管理を最優先にし、家庭の合意を取った上で「平日夜2時間・週末半日まで」など上限を決めるのが長続きのコツです。副業から雇用形態を変えていく選択肢を検討するなら、
@@ -235,7 +235,7 @@ export default function SideJobOkPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">副業OKの優良企業を無料で紹介</h2>
-          <p className="text-blue-100 text-sm mb-4">副業制度の実態まで把握したIT特化型エージェントが、あなたの条件に合う企業を提案します。</p>
+          <p className="text-blue-100 text-sm mb-4">副業制度の実態まで把握したIT特化型エージェントが、ご自身の条件に合う企業を提案します。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 
@@ -248,7 +248,7 @@ export default function SideJobOkPage() {
               { name: "フリーランスと正社員の比較", href: "/knowledge/freelance-vs-fulltime/" },
               { name: "ワークライフバランス重視の転職", href: "/purpose/wlb/" },
               { name: "フレックスタイム求人の見極め方", href: "/purpose/flextime/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

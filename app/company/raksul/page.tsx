@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/raksul/" },
   title: "ラクスル（RAKSUL）の年収は平均742万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "ラクスル（4384・東証プライム）へのエンジニア転職を実データで解説。有価証券報告書の平均年収742万円（2025年7月期・全社員平均）、Ruby on Rails/TypeScriptの技術スタック、選考フロー、30代40代の現実までまとめました。",
+    "ラクスル（4384・東証プライム）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収742万円（2025年7月期・全社員平均）、Ruby on Rails/TypeScriptの技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -87,7 +87,7 @@ export default function RaksulCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="ラクスル エンジニア転職ガイド" description="ラクスル（4384・東証プライム）へのエンジニア転職を実データで解説。有価証券報告書の平均年収742万円（2025年7月期・全社員平均）、Ruby on Rails/TypeScriptの技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/raksul/" />
+      <ArticleJsonLd title="ラクスル エンジニア転職ガイド" description="ラクスル（4384・東証プライム）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収742万円（2025年7月期・全社員平均）、Ruby on Rails/TypeScriptの技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/raksul/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "Vue.jsの転職ガイド", href: "/skill/vue/" }, { name: "Nuxtの転職ガイド", href: "/skill/nuxt/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "ラクスル" }]} />
 
@@ -99,7 +99,7 @@ export default function RaksulCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ラクスルの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: ラクスル株式会社の全社員平均年収は742万円です（2025年7月期 有価証券報告書・平均年齢35.9歳・単体）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 742万円（2025年7月期 有報）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年7月期631万円から上昇傾向で、2025年7月期は742万円（各期 有報）。</li><li>・職種・等級別の公式な提示レンジは非公開。実際の提示額は求人票・エージェントで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 742万円です（2025年7月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年7月期631万円から上昇傾向で、2025年7月期は742万円です（各期 有価証券報告書）。</li><li>・職種・等級別の公式な提示レンジは非公開です。実際の提示額は求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -120,12 +120,12 @@ export default function RaksulCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              ラクスルは<strong>Ruby on Rails中心のモダンな開発で、レガシー産業のデジタル化に挑むプラットフォーム企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収742万円（2025年7月期 有報）はWeb系の中でも高めの水準です。
+              ラクスルは<strong>Ruby on Rails中心のモダンな開発で、レガシー産業のデジタル化に挑むプラットフォーム企業</strong>です。Webアプリ開発の実務経験が前提で、難易度は中〜やや高。全社員平均年収742万円（2025年7月期 有価証券報告書）はWeb系の中でも高めの水準です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Rubyでの実務経験があり、産業構造や業務フローを理解してプロダクト化することに関心があるエンジニア</li>
               <li>● <strong>向いていない人</strong>：toC娯楽サービス中心の開発を強く志向する人、ドメイン理解より純粋な技術追求を優先したい人</li>
-              <li>● <strong>30代・40代</strong>：平均年齢35.9歳と年齢層に幅があり、設計・ドメイン課題解決の実績があればハンデになりにくい</li>
+              <li>● <strong>30代・40代</strong>：平均年齢35.9歳と年齢層に幅があり、設計・ドメイン課題解決の実績があればハンデになりにくいです</li>
             </ul>
           </div>
         </section>
@@ -155,7 +155,7 @@ export default function RaksulCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2025年7月期 有価証券報告書に基づく値（平均給与・年齢は単体）。技術スタックはRAKSUL TechBlog・採用ページの公開情報（2026年6月時点で確認できる範囲）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・従業員数は2025年7月期 有価証券報告書に基づく値（平均給与・年齢は単体）。技術スタックはRAKSUL TechBlog・採用ページの公開情報です（2026年6月時点で確認できる範囲）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -189,7 +189,7 @@ export default function RaksulCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>開発ツール</strong>：Git／GitHub、CI/CD（CodeBuild・CodePipeline 等）</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: RAKSUL TechBlog（techblog.raksul.com）・採用ページ等の公開記事。2026年6月時点で確認できる範囲。</p>
+          <p className="text-xs text-slate-400 mt-2">出典: RAKSUL TechBlog（techblog.raksul.com）・採用ページ等の公開記事。2026年6月時点で確認できる範囲です。</p>
         </section>
 
         <section id="salary" className="mb-10">
@@ -269,9 +269,9 @@ export default function RaksulCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ラクスル転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。SaaS・Web系の求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。SaaS・Web系の求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

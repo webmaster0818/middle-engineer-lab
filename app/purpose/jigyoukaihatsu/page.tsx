@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/jigyoukaihatsu/" },
   title: "自社開発企業への転職ガイド【受託から自社サービスへ】",
   description:
-    "受託開発から自社サービス開発企業への転職方法を解説。自社開発のメリット・デメリット、年収、必要スキル、企業の見分け方を紹介します。",
+    "受託開発から自社サービス開発企業への転職方法を解説します。自社開発のメリット・デメリット、年収、必要スキル、企業の見分け方を紹介します。",
 };
 
 const faqs = [
@@ -50,16 +50,16 @@ export default function JigyouKaihatsuPage() {
 
   return (
     <>
-      <ArticleJsonLd title="自社開発企業への転職ガイド【受託から自社サービスへ】" description="受託開発から自社サービス開発企業への転職方法を解説。自社開発のメリット・デメリット、年収、必要スキル、企業の見分け方を紹介します。" url="/purpose/jigyoukaihatsu/" />
+      <ArticleJsonLd title="自社開発企業への転職ガイド【受託から自社サービスへ】" description="受託開発から自社サービス開発企業への転職方法を解説します。自社開発のメリット・デメリット、年収、必要スキル、企業の見分け方を紹介します。" url="/purpose/jigyoukaihatsu/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "目的別ガイド", href: "/purpose/" }, { name: "自社開発企業への転職ガイド" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">自社開発企業への転職ガイド</h1>
-        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | 受託から自社サービスへの転職完全ガイド</p>
+        <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | 受託から自社サービスへの転職ガイド</p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 受託開発の納期プレッシャーから解放されたい</li>
@@ -127,9 +127,9 @@ export default function JigyouKaihatsuPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", point: "自社サービス企業の求人が豊富。技術力マッチングの精度が高い。" },
-              { name: "Green", point: "自社開発企業が多く集まるプラットフォーム。カジュアル面談でミスマッチを防げる。" },
-              { name: "Wantedly", point: "企業のビジョンや開発文化を詳しく知れる。自社開発スタートアップの求人が充実。" },
+              { name: "レバテックキャリア", point: "自社サービス企業の求人が豊富です。技術力マッチングの精度が高いです。" },
+              { name: "Green", point: "自社開発企業が多く集まるプラットフォームです。カジュアル面談でミスマッチを防げます。" },
+              { name: "Wantedly", point: "企業のビジョンや開発文化を詳しく知れます。自社開発スタートアップの求人が充実しています。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -167,7 +167,7 @@ export default function JigyouKaihatsuPage() {
               { name: "SE→Web系エンジニア転職", href: "/career/se-to-web/" },
               { name: "技術力を伸ばせる企業の選び方", href: "/purpose/growth/" },
               { name: "大企業→スタートアップ転職", href: "/career/corporate-to-startup/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

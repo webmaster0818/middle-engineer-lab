@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/green-vs-wantedly/" },
   title: "GreenとWantedly比較｜ベンチャー転職はどっちがおすすめ【2026年8月】",
   description:
-    "GreenとWantedlyをどっちがおすすめか即答。ダイレクトリクルーティング型2社を、給与表示・求人数・使い方・対象層で時点付き実データで徹底比較。30代40代エンジニアのベンチャー・スタートアップ転職の選び方を解説します。",
+    "GreenとWantedlyをどちらがおすすめかをご説明します。ダイレクトリクルーティング型2社を、給与表示・求人数・使い方・対象層で時点付き実データで比較します。30代40代エンジニアのベンチャー・スタートアップ転職の選び方を解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どっちがおすすめか" },
+  { id: "conclusion", label: "結論：どちらがおすすめか" },
   { id: "basic", label: "基本データ比較表（2026年6月時点）" },
   { id: "salary", label: "給与・条件表示で比較（最大の違い）" },
   { id: "jobs", label: "求人数・企業数で比較" },
@@ -28,7 +28,7 @@ const toc = [
 
 const comparison = [
   { item: "運営会社", green: "株式会社アトラエ（東証プライム上場・2003年10月設立／二次情報）", wantedly: "ウォンテッドリー株式会社（東証グロース上場）" },
-  { item: "サービス形態", green: "成功報酬型の転職サイト（ダイレクトリクルーティング）。エージェントの仲介サポートはなし", wantedly: "共感軸の直接応募／ビジネスSNS（カジュアル面談前提）" },
+  { item: "サービス形態", green: "成功報酬型の転職サイトです（ダイレクトリクルーティング）。エージェントの仲介サポートはなし", wantedly: "共感軸の直接応募／ビジネスSNS（カジュアル面談前提）" },
   { item: "給与・条件表示", green: "求人に給与・条件が記載される（通常の転職サイト型）", wantedly: "原則非記載（最大の特徴であり注意点）" },
   { item: "規模", green: "掲載企業9,000社以上／求人15,000件以上（媒体により30,000件以上とも・幅あり）", wantedly: "ユーザー400万人以上／利用企業4万社以上（二次情報）" },
   { item: "登録者", green: "120万人超（二次情報・幅あり）", wantedly: "400万人以上（二次情報）" },
@@ -39,12 +39,12 @@ const comparison = [
 ];
 
 const faqs = [
-  { q: "GreenとWantedlyはどっちがおすすめ？", a: "給与・条件を見ながらベンチャー求人に直接応募・スカウトで進めたいならGreen、まずカジュアル面談で社風やビジョンへの共感から入りたいならWantedlyがおすすめです。どちらも求職者無料の直接型サービスのため、両方登録して気になる企業にアプローチするのが効率的です。" },
+  { q: "GreenとWantedlyはどちらがおすすめ？", a: "給与・条件を見ながらベンチャー求人に直接応募・スカウトで進めたいならGreen、まずカジュアル面談で社風やビジョンへの共感から入りたいならWantedlyがおすすめです。どちらも求職者無料の直接型サービスのため、両方登録して気になる企業にアプローチするのが効率的です。" },
   { q: "給与が見られないって本当？", a: "Wantedlyは給与・待遇が原則非記載で、これが最大の特徴であり注意点です。共感軸でカジュアル面談に進み、条件は面談で確認する設計になっています。Greenは通常の転職サイトと同様に求人へ給与・条件が記載されるため、条件を見て検討したい人はGreenが向きます。" },
   { q: "どちらもエージェントが付く？", a: "いずれもダイレクトリクルーティング型で、担当アドバイザーによる仲介サポートはありません。求人探し・企業とのやり取り・条件交渉は自分で行います。担当者の伴走が欲しい場合は、レバテックキャリアなどのエージェント型を併用するとよいでしょう。" },
-  { q: "求人数・企業数が多いのはどっち？", a: "Greenは掲載企業9,000社以上・求人15,000件以上（媒体により30,000件以上とも・幅あり）。Wantedlyは利用企業4万社以上・ユーザー400万人以上（二次情報）です。集計基準が異なるため単純比較はできませんが、いずれもIT/Webベンチャー・スタートアップの母数が豊富です。" },
-  { q: "30代エンジニアにはどっち？", a: "条件を見て効率的に応募したい30代はGreen、社風・ビジョンへの共感を重視してじっくり入りたい30代はWantedlyが向きます。どちらもベンチャー・スタートアップ志向と相性が良く、両方登録して気になる企業の温度感を比較するのが現実的です。" },
-  { q: "40代エンジニアにはどっち？", a: "両社ともベンチャー・スタートアップ中心のため、40代はマネジメント・技術リードなどの専門性を打ち出せると有利です。給与・条件を見て選びたい40代はGreenを軸に、共感重視で社風を確かめたいならWantedlyを併用する形が現実的です。" },
+  { q: "求人数・企業数が多いのはどちらですか？", a: "Greenは掲載企業9,000社以上・求人15,000件以上です（媒体により30,000件以上とも・幅あり）。Wantedlyは利用企業4万社以上・ユーザー400万人以上（二次情報）です。集計基準が異なるため単純比較はできませんが、いずれもIT/Webベンチャー・スタートアップの母数が豊富です。" },
+  { q: "30代エンジニアにはどちらが適していますか？", a: "条件を見て効率的に応募したい30代はGreen、社風・ビジョンへの共感を重視してじっくり入りたい30代はWantedlyが向きます。どちらもベンチャー・スタートアップ志向と相性が良く、両方登録して気になる企業の温度感を比較するのが現実的です。" },
+  { q: "40代エンジニアにはどちらが適していますか？", a: "両社ともベンチャー・スタートアップ中心のため、40代はマネジメント・技術リードなどの専門性を打ち出せると有利です。給与・条件を見て選びたい40代はGreenを軸に、共感重視で社風を確かめたいならWantedlyを併用する形が現実的です。" },
   { q: "カジュアル面談とは？", a: "選考とは別に、企業と気軽に話して相互理解を深める面談です。Wantedlyはこのカジュアル面談を前提とした設計で、いきなり選考ではなく「まず話してみる」から入れます。Greenでも「気になる」機能から企業と直接やり取りでき、温度感を確かめてから応募に進めます。" },
   { q: "両方登録しても大丈夫？", a: "問題なく、むしろベンチャー求人の母数と企業との接点が広がるため推奨されます。両方無料です。条件重視ならGreen、共感重視ならWantedly、と入口を使い分けるのが効果的です。" },
 ];
@@ -83,7 +83,7 @@ export default function GreenVsWantedlyPage() {
     <>
       <ArticleJsonLd
         title="GreenとWantedly比較｜ベンチャー転職はどっちがおすすめ【2026年8月】"
-        description="GreenとWantedlyをどっちがおすすめか即答。給与表示・求人数・使い方・対象層を時点付き実データで徹底比較します。"
+        description="GreenとWantedlyをどちらがおすすめかをご説明します。給与表示・求人数・使い方・対象層を時点付き実データで比較します。"
         url="/compare/green-vs-wantedly/"
       />
       <script
@@ -100,14 +100,14 @@ export default function GreenVsWantedlyPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          GreenとWantedly比較｜ベンチャー転職はどっちがおすすめ？
+          GreenとWantedly比較｜ベンチャー転職はどちらがおすすめ？
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ ダイレクトリクルーティング型2社を実データで徹底比較
+          最終更新: 2026年6月 ｜ ダイレクトリクルーティング型2社を実データで比較
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-2">
-          IT/Webベンチャー・スタートアップ転職の定番、GreenとWantedly。どちらも担当エージェントが付かない直接型のサービスですが、「給与・条件を見て応募する」Greenと「共感軸でカジュアル面談から入る」Wantedlyでは、アプローチの設計が大きく異なります。本記事では公開されている実データと口コミ傾向をもとに、30代・40代エンジニア視点で「どっちを選ぶべきか」を整理します。
+          IT/Webベンチャー・スタートアップ転職の定番、GreenとWantedlyです。どちらも担当エージェントが付かない直接型のサービスですが、「給与・条件を見て応募する」Greenと「共感軸でカジュアル面談から入る」Wantedlyでは、アプローチの設計が大きく異なります。本記事では公開されている実データと口コミ傾向をもとに、30代・40代エンジニア視点で「どちらを選ぶべきか」を整理します。
         </p>
 
         <DataNote
@@ -131,15 +131,15 @@ export default function GreenVsWantedlyPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3">
               給与・条件を見てベンチャー求人に直接応募するなら「Green」、共感軸でカジュアル面談から入るなら「Wantedly」。
             </p>
             <ul className="space-y-2 text-sm text-blue-800">
-              <li>① GreenはIT/Webベンチャーに強い成功報酬型の転職サイト。求人に給与・条件が記載され、「気になる」機能で企業と直接やり取りできる。</li>
-              <li>② Wantedlyは共感軸のビジネスSNS。給与は原則非記載で、カジュアル面談で社風・ビジョンを知ってから検討する設計。利用企業4万社以上（二次情報）。</li>
-              <li>③ どちらも担当エージェントが付かない直接型のため、条件重視ならGreen・共感重視ならWantedlyと入口を使い分け、両方無料で併用するのが最も損のない選び方。</li>
+              <li>① GreenはIT/Webベンチャーに強い成功報酬型の転職サイトです。求人に給与・条件が記載され、「気になる」機能で企業と直接やり取りできます。</li>
+              <li>② Wantedlyは共感軸のビジネスSNSです。給与は原則非記載で、カジュアル面談で社風・ビジョンを知ってから検討する設計です。利用企業4万社以上です（二次情報）。</li>
+              <li>③ どちらも担当エージェントが付かない直接型のため、条件重視ならGreen・共感重視ならWantedlyと入口を使い分け、両方無料で併用するのが最も損のない選び方です。</li>
             </ul>
           </div>
         </section>
@@ -198,13 +198,13 @@ export default function GreenVsWantedlyPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Green</h3>
               <p className="text-sm text-petrol-deep">
-                掲載企業9,000社以上・求人15,000件以上（媒体により30,000件以上とも・幅あり）。登録者は120万人超（二次情報・幅あり）。IT/Webベンチャー・スタートアップ・メガベンチャーの求人が豊富です。
+                掲載企業9,000社以上・求人15,000件以上です（媒体により30,000件以上とも・幅あり）。登録者は120万人超です（二次情報・幅あり）。IT/Webベンチャー・スタートアップ・メガベンチャーの求人が豊富です。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Wantedly</h3>
               <p className="text-sm text-slate-600">
-                ユーザー400万人以上・利用企業4万社以上（二次情報）。ビジネスSNSとしての規模が大きく、スタートアップ・ベンチャーとの接点が多いのが特徴です。
+                ユーザー400万人以上・利用企業4万社以上です（二次情報）。ビジネスSNSとしての規模が大きく、スタートアップ・ベンチャーとの接点が多いのが特徴です。
               </p>
             </div>
           </div>
@@ -233,7 +233,7 @@ export default function GreenVsWantedlyPage() {
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-petrol-soft text-petrol-deep">{tag}</span>
                 ))}
               </div>
-              <p className="text-xs text-slate-500 mt-3">※ 成功報酬型の転職サイト。条件を見て直接応募・スカウトで進められる。</p>
+              <p className="text-xs text-slate-500 mt-3">※ 成功報酬型の転職サイト。条件を見て直接応募・スカウトで進められます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-3">Wantedlyが強い領域</h3>
@@ -242,7 +242,7 @@ export default function GreenVsWantedlyPage() {
                   <span key={i} className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-700">{tag}</span>
                 ))}
               </div>
-              <p className="text-xs text-slate-500 mt-3">※ 共感軸の直接応募。給与は原則非記載で、面談で確認する設計。</p>
+              <p className="text-xs text-slate-500 mt-3">※ 共感軸の直接応募。給与は原則非記載で、面談で確認する設計です。</p>
             </div>
           </div>
         </section>
@@ -289,18 +289,18 @@ export default function GreenVsWantedlyPage() {
                 <li>✓ 給与・条件を見て応募先を絞りたい</li>
                 <li>✓ IT/Webベンチャーに転職したい</li>
                 <li>✓ 企業と直接やり取りして進めたい</li>
-                <li>✓ 自分のペースで能動的に動ける</li>
+                <li>✓ 自分のペースで能動的に動けます</li>
                 <li>✓ ミスマッチを条件面から避けたい</li>
               </ul>
             </div>
             <div className="bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3">Wantedlyが向く人</h3>
               <ul className="space-y-2 text-sm text-green-700">
-                <li>✓ 社風・ビジョンへの共感を重視する</li>
+                <li>✓ 社風・ビジョンへの共感を重視します</li>
                 <li>✓ カジュアル面談から気軽に入りたい</li>
                 <li>✓ スタートアップとの接点を増やしたい</li>
                 <li>✓ まず話してから選考を判断したい</li>
-                <li>✓ 条件は面談で確認できる</li>
+                <li>✓ 条件は面談で確認できます</li>
               </ul>
             </div>
           </div>
@@ -368,7 +368,7 @@ export default function GreenVsWantedlyPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">迷ったら両方登録がおすすめ</h2>
           <p className="text-blue-100 text-sm mb-4">
-            GreenとWantedlyは両方無料。条件重視ならGreen・共感重視ならWantedlyと入口を使い分け、ベンチャー求人の接点を最大化しましょう。
+            GreenとWantedlyは両方無料です。条件重視ならGreen・共感重視ならWantedlyと入口を使い分け、ベンチャー求人の接点を最大化しましょう。
           </p>
           <Link
             href="/#ranking"

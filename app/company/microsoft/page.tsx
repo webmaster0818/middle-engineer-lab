@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/microsoft/" },
   title: "日本マイクロソフト エンジニア転職ガイド｜年収・選考【2026年版】",
   description:
-    "日本マイクロソフトへのエンジニア転職を、公式キャリア情報とlevels.fyi・OpenWork集計値で解説。Growth Mindset文化、Azure中心の技術、年収レンジ、選考、30代40代の現実までまとめました。",
+    "日本マイクロソフトへのエンジニア転職を、公式キャリア情報とlevels.fyi・OpenWork集計値で解説します。Growth Mindset文化、Azure中心の技術、年収レンジ、選考、30代40代の現実までまとめました。",
 };
 
 const toc = [
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "エンジニアの年収はどのくらい？",
-    a: "日本マイクロソフトは有価証券報告書を公表しておらず公式平均年収はありません。levels.fyi（2026年10月15日時点・日本拠点ソフトウェアエンジニア集計）では総報酬の中央値が約1,882万円、レベル別中央値はLv61 約1,271万円〜Lv64 約2,618万円。RSU（株式報酬・複数年ベスティング）とボーナスを含む値で、変動が大きい点に注意してください。",
+    a: "日本マイクロソフトは有価証券報告書を公表しておらず公式平均年収はありません。levels.fyi（2026年10月15日時点・日本拠点ソフトウェアエンジニア集計）では総報酬の中央値が約1,882万円、レベル別中央値はLv61 約1,271万円〜Lv64 約2,618万円です。RSU（株式報酬・複数年ベスティング）とボーナスを含む値で、変動が大きい点に注意してください。",
   },
   {
     q: "Growth Mindset とは何ですか？",
@@ -99,7 +99,7 @@ export default function MicrosoftCompanyPage() {
     <>
       <ArticleJsonLd
         title="日本マイクロソフト エンジニア転職ガイド【2026年版】"
-        description="日本マイクロソフトへのエンジニア転職を、公式キャリア情報とlevels.fyi・OpenWork集計値で解説。Growth Mindset文化・Azure中心の技術・年収レンジ・選考・30代40代の現実までまとめました。"
+        description="日本マイクロソフトへのエンジニア転職を、公式キャリア情報とlevels.fyi・OpenWork集計値で解説します。Growth Mindset文化・Azure中心の技術・年収レンジ・選考・30代40代の現実までまとめました。"
         url="/company/microsoft/"
       />
       <script
@@ -161,8 +161,8 @@ export default function MicrosoftCompanyPage() {
               30代・40代の中途人材にとって門戸が比較的現実的な企業です。次の3点が揃う人に向きます。
             </p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>① <strong>クラウド（Azure／AWS等）や分散システム</strong>の設計・開発経験がある</li>
-              <li>② <strong>学び続ける姿勢（Growth Mindset）</strong>を実績で示せる</li>
+              <li>① <strong>クラウド（Azure／AWS等）や分散システム</strong>の設計・開発経験があります</li>
+              <li>② <strong>学び続ける姿勢（Growth Mindset）</strong>を実績で示せます</li>
               <li>③ コーディング・設計面接の基礎と、必要に応じた英語コミュニケーション</li>
             </ul>
             <p className="text-blue-900 text-sm leading-relaxed mt-3">
@@ -170,7 +170,7 @@ export default function MicrosoftCompanyPage() {
               <Link href="/knowledge/coding-test/" className="text-petrol-deep underline font-medium">コーディングテスト対策</Link>
               と
               <Link href="/knowledge/tech-interview/" className="text-petrol-deep underline font-medium">技術面接の進め方</Link>
-              から着手するのが王道です。
+              から着手するのが一般的です。
             </p>
           </div>
         </section>
@@ -210,7 +210,7 @@ export default function MicrosoftCompanyPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">Growth Mindset 重視の文化</h3>
               <p className="text-sm text-petrol-deep">
-                公式に「可能性を育み、変化を受け入れ、学び続けることの価値を信じている」と明記。技術力だけでなく、学習姿勢・変化への適応・協働が評価される文化が知られています。
+                公式に「可能性を育み、変化を受け入れ、学び続けることの価値を信じている」と明記します。技術力だけでなく、学習姿勢・変化への適応・協働が評価される文化が知られています。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -232,7 +232,7 @@ export default function MicrosoftCompanyPage() {
           <ul className="space-y-2 text-sm text-slate-600 border border-slate-200 rounded-lg p-5">
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Azure（クラウド）を軸にしたサービス開発・運用</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>.NET・TypeScript・VS CodeなどOSSへの積極的な貢献を公開</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><Link href="/skill/csharp/" className="text-petrol hover:underline">C#</Link>・<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript</Link>・<Link href="/skill/python/" className="text-petrol hover:underline">Python</Link>の実務経験が活きる</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><Link href="/skill/csharp/" className="text-petrol hover:underline">C#</Link>・<Link href="/skill/typescript/" className="text-petrol hover:underline">TypeScript</Link>・<Link href="/skill/python/" className="text-petrol hover:underline">Python</Link>の実務経験が活きます</li>
             <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>AI領域はCopilot等の拡大で関連スキルの評価が高まる傾向</li>
           </ul>
         </section>
@@ -246,7 +246,7 @@ export default function MicrosoftCompanyPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-700 mb-5">
             <li>
-              ・<strong>levels.fyi（2026年10月15日時点・日本拠点ソフトウェアエンジニア集計）</strong>：総報酬の中央値 約1,882万円、レベル別中央値はLv61 約1,271万円〜Lv64 約2,618万円。基本給＋RSU＋ボーナス換算。
+              ・<strong>levels.fyi（2026年10月15日時点・日本拠点ソフトウェアエンジニア集計）</strong>：総報酬の中央値 約1,882万円、レベル別中央値はLv61 約1,271万円〜Lv64 約2,618万円です。基本給＋RSU＋ボーナス換算です。
             </li>
             <li>
               ・<strong>RSUの特徴</strong>：複数年（おおむね4〜5年）でベスティングされる株式報酬が含まれ、株価・付与額・入社時期で実受取額が変動します。
@@ -290,10 +290,10 @@ export default function MicrosoftCompanyPage() {
           </p>
           <ol className="space-y-3 text-sm text-slate-700">
             {[
-              ["応募 / リクルーター面談", "公式キャリアサイト・LinkedIn・リファラル経由で応募。経歴と志向を確認します。"],
+              ["応募 / リクルーター面談", "公式キャリアサイト・LinkedIn・リファラル経由で応募します。経歴と志向を確認します。"],
               ["技術面接（複数回）", "コーディング、設計、行動面接がバランスよく問われる傾向があります。"],
               ["最終面接", "上位の面接官との面接で、技術・カルチャーフィットを総合的に確認します。"],
-              ["オファー", "条件提示。内容はポジション・等級で異なります。"],
+              ["オファー", "条件提示です。内容はポジション・等級で異なります。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white font-bold flex items-center justify-center text-xs">{i + 1}</span>
@@ -333,7 +333,7 @@ export default function MicrosoftCompanyPage() {
             <div className="border border-emerald-200 bg-emerald-50 rounded-lg p-5">
               <h3 className="font-bold text-emerald-800 text-sm mb-2">良い評判の傾向</h3>
               <ul className="space-y-1 text-sm text-emerald-900">
-                <li>・在宅・フレックスなど柔軟な働き方が整っている</li>
+                <li>・在宅・フレックスなど柔軟な働き方が整っています</li>
                 <li>・有休消化率が業界平均より高め（集計値で約72%）</li>
                 <li>・高い給与水準と評価の透明性を評価する声</li>
               </ul>
@@ -341,7 +341,7 @@ export default function MicrosoftCompanyPage() {
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 text-sm mb-2">気になる点の傾向</h3>
               <ul className="space-y-1 text-sm text-amber-900">
-                <li>・月間平均残業は約28時間と、部署により負荷差がある</li>
+                <li>・月間平均残業は約28時間と、部署により負荷差があります</li>
                 <li>・繁忙期は忙しくなるという声</li>
                 <li>・働き方が個人の裁量に委ねられ自己管理が必要</li>
               </ul>
@@ -379,9 +379,9 @@ export default function MicrosoftCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">日本マイクロソフト転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型。外資ITを扱うヘッドハンターと接点を作りやすい。" },
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化。技術職の選考対策・キャリアの棚卸しに強い。" },
-              { name: "doda ITエンジニア", href: "/review/doda-it/", desc: "国内最大級の総合型。外資・大手の選択肢を幅広く比較したい人向け。" },
+              { name: "ビズリーチ", href: "/review/bizreach-it/", desc: "ハイクラス・スカウト型です。外資ITを扱うヘッドハンターと接点を作りやすいです。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化です。技術職の選考対策・キャリアの棚卸しに強いです。" },
+              { name: "doda ITエンジニア", href: "/review/doda-it/", desc: "国内最大級の総合型です。外資・大手の選択肢を幅広く比較したい人向けです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

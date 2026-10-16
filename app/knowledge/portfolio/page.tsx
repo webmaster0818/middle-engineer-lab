@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/portfolio/" },
   title: "30-40代エンジニアのポートフォリオの見せ方【GitHub・登壇】",
   description:
-    "実務経験のある30代・40代エンジニア向けに、GitHub・技術ブログ・登壇・OSSの見せ方を解説。即席アプリより実務の裏づけを示す構成、プロフィールREADMEの作り方、NG例まで実用テンプレで紹介します。",
+    "実務経験のある30代・40代エンジニア向けに、GitHub・技術ブログ・登壇・OSSの見せ方を解説します。即席アプリより実務の裏づけを示す構成、プロフィールREADMEの作り方、NG例まで実用テンプレで紹介します。",
 };
 
 const toc = [
@@ -29,7 +29,7 @@ const faqs = [
     a: "必須ではありませんが、あると技術力の裏づけになります。特にSIerからWeb系への転職や、新しい技術領域への挑戦では『実際にコードが書ける』ことの証明になります。ただしミドル層は、即席のチュートリアル系アプリより『実務知見の延長』や『技術ブログ・登壇』の方が評価につながりやすい点に注意しましょう。",
   },
   {
-    q: "業務で作ったコードはポートフォリオに載せていいですか？",
+    q: "業務で作ったコードはポートフォリオに掲載してもよいですか？",
     a: "業務コードをそのまま公開するのは守秘義務違反になるため絶対に避けてください。ただし、業務で培った知見を活かして『類似の仕組み』を個人で作り直し、公開するのは問題ありません。社内ツールの汎用版を作る、というのがよくあるパターンです。",
   },
   {
@@ -65,7 +65,7 @@ export default function PortfolioPage() {
     <>
       <ArticleJsonLd
         title="30-40代エンジニアのポートフォリオの見せ方【GitHub・登壇】"
-        description="実務経験のある30代・40代エンジニア向けに、GitHub・技術ブログ・登壇・OSSの見せ方を解説。即席アプリより実務の裏づけを示す構成、プロフィールREADMEの作り方、NG例まで実用テンプレで紹介します。"
+        description="実務経験のある30代・40代エンジニア向けに、GitHub・技術ブログ・登壇・OSSの見せ方を解説します。即席アプリより実務の裏づけを示す構成、プロフィールREADMEの作り方、NG例まで実用テンプレで紹介します。"
         url="/knowledge/portfolio/"
       />
       <script
@@ -92,8 +92,8 @@ export default function PortfolioPage() {
         <section className="max-w-3xl mx-auto px-4 pt-2 pb-4">
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】30〜40代エンジニアのポートフォリオはどう見せればいい？</h2>
-            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「コードが書ける証明」ではなく「どんな技術判断ができ、どんな問題を解いてきたか」を示すこと。見せ方を変えるだけで評価は大きく変わります。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・チュートリアルの即席アプリを量産するより、①整ったGitHub ②設計やトラブル対応の技術ブログ ③登壇・OSSの方が費用対効果が高い。</li><li>・GitHubはプロフィールREADME・ピン留めの厳選・技術選定の理由をREADMEに書くことで、コードを全部読ませなくても実務力が伝わる。</li><li>・業務コードはそのまま公開せず、守秘義務を守って知見を汎用化して見せる（社名・内部数値は出さない）。</li></ul>
+            <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 「コードが書ける証明」ではなく「どんな技術判断ができ、どんな問題を解いてきたか」を示すことです。見せ方を変えるだけで評価は大きく変わります。</strong></p>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・チュートリアルの即席アプリを量産するより、①整ったGitHub ②設計やトラブル対応の技術ブログ ③登壇・OSSの方が費用対効果が高いです。</li><li>・GitHubはプロフィールREADME・ピン留めの厳選・技術選定の理由をREADMEに書くことで、コードを全部読ませなくても実務力が伝わります。</li><li>・業務コードはそのまま公開せず、守秘義務を守って知見を汎用化して見せます（社名・内部数値は出さない）。</li></ul>
           </div>
         </section>
 
@@ -128,9 +128,9 @@ export default function PortfolioPage() {
           </p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "技術判断の根拠を語れること", desc: "「なぜその技術／設計を選んだか」を説明できる成果物。技術選定の理由をREADMEに書くだけで実務力が伝わる。" },
-              { num: "2", title: "運用・品質まで踏み込んでいること", desc: "テスト、CI/CD、エラーハンドリング、監視など『作って終わり』でない工夫を見せる。" },
-              { num: "3", title: "実務知見の延長であること", desc: "業務で得た課題感を個人開発・ブログ・登壇に昇華する。守秘義務を守りつつ汎用化するのがコツ。" },
+              { num: "1", title: "技術判断の根拠を語れること", desc: "「なぜその技術／設計を選んだか」を説明できる成果物です。技術選定の理由をREADMEに書くだけで実務力が伝わります。" },
+              { num: "2", title: "運用・品質まで踏み込んでいること", desc: "テスト、CI/CD、エラーハンドリング、監視など『作って終わり』でない工夫を見せます。" },
+              { num: "3", title: "実務知見の延長であること", desc: "業務で得た課題感を個人開発・ブログ・登壇に昇華します。守秘義務を守りつつ汎用化するのがコツです。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -154,7 +154,7 @@ export default function PortfolioPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">プロフィールREADMEで第一印象を作る</h3>
-              <p className="text-sm text-petrol-deep">プロフィールトップに表示されるREADMEに、得意技術・経験領域・代表的な成果物・連絡先をまとめます。採用担当が最初に見る『顔』なので、整っているだけで印象が変わります。</p>
+              <p className="text-sm text-petrol-deep">プロフィールトップに表示されるREADMEに、得意技術・経験領域・代表的な成果物・連絡先をまとめます。採用担当が最初に見る『顔』なため、整っているだけで印象が変わります。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ピン留めは『見てほしい順』に厳選する</h3>
@@ -174,10 +174,10 @@ export default function PortfolioPage() {
         {/* 3. README テンプレ */}
         <section id="readme" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">3. プロフィールREADMEテンプレート</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">そのまま使えるプロフィールREADMEの雛形です。技術スタックは習熟度つきで書くのがポイントです。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">そのまま使えるプロフィールREADMEの雛形です。技術スタックは習熟度を添えて書くのがポイントです。</p>
           <pre className="bg-slate-900 text-slate-100 text-xs rounded-xl p-5 overflow-x-auto leading-relaxed">{`# こんにちは、〇〇です
 
-バックエンドを軸に8年。直近5年はGo/TypeScriptでWebサービスの
+バックエンドを軸に8年です。直近5年はGo/TypeScriptでWebサービスの
 設計・運用をリードしています。SREやチームの開発体験改善にも関心があります。
 
 ## 得意領域
@@ -202,7 +202,7 @@ export default function PortfolioPage() {
         <section id="blog" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">4. 技術ブログの見せ方（Zenn / Qiita / 個人）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            ミドル層の技術ブログは『流行りの入門記事』より『実務で詰まった話・設計判断の話』の方が刺さります。次のテーマは反応も評価も得やすいパターンです。
+            ミドル層の技術ブログは『流行りの入門記事』より『実務で詰まった話・設計判断の話』の方が評価されます。次のテーマは反応も評価も得やすいパターンです。
           </p>
           <ul className="space-y-2 mb-4">
             {[
@@ -236,7 +236,7 @@ export default function PortfolioPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">コミュニティ運営</h3>
-              <p className="text-sm text-slate-600">勉強会の主催・運営は、影響力やリーダーシップの証明になります。EM・テックリード志向のミドル層には特に効果的です。関連: <Link href="/knowledge/management/" className="text-petrol underline">マネジメントキャリア</Link>。</p>
+              <p className="text-sm text-slate-600">勉強会の主催・運営は、影響力やリーダーシップの証明になります。EM・テックリード志向のミドル層には特に効果的です。関連: <Link href="/knowledge/management/" className="text-petrol underline">マネジメントキャリアです</Link>。</p>
             </div>
           </div>
         </section>
@@ -286,11 +286,11 @@ export default function PortfolioPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の幅と設計判断を見せる</h3>
-              <p className="text-sm text-petrol-deep">手を動かせることに加え、技術選定やリファクタの判断ができることを成果物とブログで示すと効果的です。Web系・新領域への挑戦時はポートフォリオの効果が大きくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">手を動かせることに加え、技術選定やリファクタの判断ができることを成果物とブログで示すと効果的です。Web系・新領域への挑戦時はポートフォリオの効果が大きくなります。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職です</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：技術の証明＋影響力を見せる</h3>
-              <p className="text-sm text-petrol-deep">40代は『手を動かせること』を疑われがちなので、現役性を示すGitHub・ブログが有効です。同時に登壇・OSS・コミュニティ運営など影響力の裏づけを添えると、マネジメント・テックリード採用で強みになります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">40代は『手を動かせること』を疑われがちなため、現役性を示すGitHub・ブログが有効です。同時に登壇・OSS・コミュニティ運営など影響力の裏づけを添えると、マネジメント・テックリード採用で強みになります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職です</Link>。</p>
             </div>
           </div>
         </section>
@@ -314,7 +314,7 @@ export default function PortfolioPage() {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">成果物の見せ方をプロに相談しよう</h2>
-          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、応募先に刺さるポートフォリオ・成果物の見せ方を具体的にアドバイスしてくれます。</p>
+          <p className="text-blue-100 text-sm mb-4">IT特化型エージェントなら、応募先に評価されるポートフォリオ・成果物の見せ方を具体的にアドバイスしてくれます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る
           </Link>

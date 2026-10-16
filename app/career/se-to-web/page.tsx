@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/career/se-to-web/" },
-  title: "SIer SE→Web系開発者への転職完全ガイド【2026年版】",
+  title: "SIer SE→Web系開発者への転職ガイド【2026年版】",
   description:
     "SIerのSEからWeb系開発者へ転職するための現実性、スキルギャップ比較、在職中の準備ステップ、職務経歴書のBefore/After例文を公的データに基づき解説します。",
 };
@@ -34,31 +34,31 @@ const gapRows = [
   {
     area: "バージョン管理",
     sier: "SVN中心、または共有フォルダ運用の現場も",
-    web: "Git / GitHub前提。PR・コードレビュー文化",
-    action: "Gitのブランチ運用とPRの作法に慣れる",
+    web: "Git / GitHub前提です。PR・コードレビュー文化",
+    action: "Gitのブランチ運用とPRの作法に慣れます",
   },
   {
     area: "開発プロセス",
     sier: "ウォーターフォール、工程分業（設計/実装/テスト）",
     web: "アジャイル／スクラム、機能単位で一気通貫",
-    action: "スクラムの基本用語と進め方を学ぶ",
+    action: "スクラムの基本用語と進め方を学びます",
   },
   {
     area: "インフラ",
     sier: "オンプレ中心、構築は基盤チーム担当が多い",
     web: "クラウド（AWS/GCP）前提、開発者が自分でデプロイ",
-    action: "Docker・クラウドの基本サービスでデプロイ経験を作る",
+    action: "Docker・クラウドの基本サービスでデプロイ経験を作ります",
   },
   {
     area: "プロダクト関与",
-    sier: "顧客要件の実現が中心。仕様は与えられる側",
+    sier: "顧客要件の実現が中心です。仕様は与えられる側",
     web: "事業KPIを意識し仕様にも関与",
     action: "なぜ作るかを意識した個人開発・ブログ発信",
   },
   {
     area: "強み（活かせる）",
     sier: "要件定義・設計・大規模PJ管理・ドキュメント力",
-    web: "同左は希少。設計力のある開発者は重宝される",
+    web: "同左は希少です。設計力のある開発者は重宝されます",
     action: "設計経験を具体的成果として言語化",
   },
 ];
@@ -119,7 +119,7 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。利用者の約8割が20〜30代で、Web系・モダン技術の求人に強み。技術背景を理解したアドバイザーが在籍するとされます（出典：レバテック公式ガイド、転職メディア集計）。",
+      "IT/Web特化型です。利用者の約8割が20〜30代で、Web系・モダン技術の求人に強みがあります。技術背景を理解したアドバイザーが在籍するとされます（出典：レバテック公式ガイド、転職メディア集計）。",
   },
   {
     name: "マイナビIT AGENT",
@@ -131,7 +131,7 @@ const agents = [
     name: "Green",
     href: "/review/green/",
     point:
-      "成功報酬型の転職サイトで、IT/Webベンチャー・スタートアップに強み。カジュアル面談から始められるため、在職中の情報収集に向きます。",
+      "成功報酬型の転職サイトで、IT/Webベンチャー・スタートアップに強みがあります。カジュアル面談から始められるため、在職中の情報収集に向きます。",
   },
 ];
 
@@ -180,7 +180,7 @@ export default function SeToWebPage() {
   return (
     <>
       <ArticleJsonLd
-        title="SIer SE→Web系開発者への転職完全ガイド【2026年版】"
+        title="SIer SE→Web系開発者への転職ガイド【2026年版】"
         description="SIerのSEからWeb系開発者へ転職するための現実性、スキルギャップ比較、在職中の準備ステップ、職務経歴書のBefore/After例文を公的データに基づき解説します。"
         url="/career/se-to-web/"
       />
@@ -198,7 +198,7 @@ export default function SeToWebPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          SIer SE→Web系開発者への転職完全ガイド【2026年版】
+          SIer SE→Web系開発者への転職ガイド【2026年版】
         </h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月</p>
 
@@ -239,9 +239,9 @@ export default function SeToWebPage() {
               SIer SEからWeb系開発者への転職は、30代でも現実的です。理由は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 設計・要件定義・大規模PJ管理の経験はWeb系で希少価値があり、ミドル層の強みになる。</li>
-              <li>② 埋めるべきギャップ（Git・モダン言語・クラウド・アジャイル）は学習領域が明確で、独学で到達可能。</li>
-              <li>③ IT人材は構造的な不足が続く見通しで（経産省2019年公表試算では2030年に最大約79万人不足）、経験者の受け皿は広い。</li>
+              <li>① 設計・要件定義・大規模PJ管理の経験はWeb系で希少価値があり、ミドル層の強みになります。</li>
+              <li>② 埋めるべきギャップ（Git・モダン言語・クラウド・アジャイル）は学習領域が明確で、独学で到達可能です。</li>
+              <li>③ IT人材は構造的な不足が続く見通しで（経産省2019年公表試算では2030年に最大約79万人不足）、経験者の受け皿は広いです。</li>
             </ul>
             <p className="text-slate-600 text-sm mt-3">
               一方で、レガシー言語のみの経験だとモダン技術の実装力を別途示す必要があります。在職中に個人開発でポートフォリオを用意することが成否を分けます。
@@ -361,10 +361,10 @@ export default function SeToWebPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-5">
             <p className="font-bold text-slate-700 text-sm mb-2">翻訳のポイント</p>
             <ul className="space-y-1.5 text-sm text-slate-600">
-              <li>・「担当した」→「何を改善し、どんな数値成果が出たか」を必ず添える（数値は実績に基づく範囲で）</li>
-              <li>・与えられた工程だけでなく、上流（要件定義・設計）への関与を明記する</li>
-              <li>・モダン技術の実務／個人開発を1行でも入れ、学習姿勢と自走力を示す</li>
-              <li>・誇張は禁物。事実ベースで、検証できる形で書く</li>
+              <li>・「担当した」→「何を改善し、どんな数値成果が出たか」を必ず添えます（数値は実績に基づく範囲で）</li>
+              <li>・与えられた工程だけでなく、上流（要件定義・設計）への関与を明記します</li>
+              <li>・モダン技術の実務／個人開発を1行でも入れ、学習姿勢と自走力を示します</li>
+              <li>・誇張は禁物です。事実ベースで、検証できる形で書きます</li>
             </ul>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed mt-4">
@@ -382,13 +382,13 @@ export default function SeToWebPage() {
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
             <li>
-              ・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円</strong>・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）。
+              ・厚生労働省 job tagの「システムエンジニア（受託開発）」は平均年収<strong>578.5万円</strong>・平均年齢37.1歳です（令和7年賃金構造基本統計調査ベース）。
             </li>
             <li>
-              ・dodaの2024年度決定年収レポート（2025年5月公表）では、転職者の約6割が年収アップ。IT・通信の平均決定年収は2023年度469万円→2024年度<strong>486万円</strong>。
+              ・dodaの2024年度決定年収レポート（2025年5月公表）では、転職者の約6割が年収アップです。IT・通信の平均決定年収は2023年度469万円→2024年度<strong>486万円です</strong>。
             </li>
             <li>
-              ・レバテック公表の年代別平均年収（2025年）では、正社員SEで30代約<strong>499万円</strong>、40代約<strong>618万円</strong>。年収1,000万円以上の割合は30代8.01%・40代12.67%。
+              ・レバテック公表の年代別平均年収（2025年）では、正社員SEで30代約<strong>499万円</strong>、40代約<strong>618万円です</strong>。年収1,000万円以上の割合は30代8.01%・40代12.67%です。
             </li>
           </ul>
           <p className="text-slate-600 text-sm leading-relaxed">
@@ -459,7 +459,7 @@ export default function SeToWebPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Web系転職のプロに無料で相談しよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントが、あなたのSE経験を最大限に活かせるWeb系企業を提案します。
+            IT特化型エージェントが、ご自身のSE経験を最大限に活かせるWeb系企業を提案します。
           </p>
           <Link
             href="/#ranking"

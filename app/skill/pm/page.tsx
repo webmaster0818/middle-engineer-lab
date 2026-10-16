@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/pm/" },
   title: "PMの転職市場ガイド｜年収・求人の探し方【30代40代】",
   description:
-    "プロジェクトマネージャー(PM)ポジションへの転職市場を30代・40代視点で解説。doda・レバテックの年収データ、求められる経験レベル、求人の探し方、PdM/PMOへの選択肢、FAQを網羅します。",
+    "プロジェクトマネージャー(PM)ポジションへの転職市場を30代・40代視点で解説します。doda・レバテックの年収データ、求められる経験レベル、求人の探し方、PdM/PMOへの選択肢、FAQを網羅します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：PM転職市場の攻め方" },
+  { id: "conclusion", label: "結論：PM転職市場での進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "PMポジションの種類と選択肢" },
@@ -29,22 +29,22 @@ const toc = [
 const positions = [
   {
     role: "プロジェクトマネージャー（PM）",
-    note: "QCD（品質・コスト・納期）管理が中心。求人母数が最も多い王道ポジション。",
+    note: "QCD（品質・コスト・納期）管理が中心です。求人母数が最も多い代表的な方法ポジションです。",
     demand: "高",
   },
   {
     role: "プロダクトマネージャー（PdM）",
-    note: "プロダクト戦略・ロードマップ・KPI設計。SaaS/メガベンチャーで需要。年収帯が高め。",
+    note: "プロダクト戦略・ロードマップ・KPI設計です。SaaS/メガベンチャーで需要です。年収帯が高めです。",
     demand: "中〜高",
   },
   {
     role: "PMO",
-    note: "複数プロジェクトの横断管理・標準化・ガバナンス。大手SIer/事業会社に多い。",
+    note: "複数プロジェクトの横断管理・標準化・ガバナンスです。大手SIer/事業会社に多いです。",
     demand: "中",
   },
   {
     role: "DX推進PM/コンサル型PM",
-    note: "事業会社のDX推進やコンサルでの変革リード。業界知識×PM力が問われる。",
+    note: "事業会社のDX推進やコンサルでの変革リードです。業界知識×PM力が問われます。",
     demand: "中〜高",
   },
 ];
@@ -95,7 +95,7 @@ export default function PmSkillPage() {
     <>
       <ArticleJsonLd
         title="PMの転職市場ガイド｜年収・求人の探し方【30代40代】"
-        description="プロジェクトマネージャー(PM)ポジションへの転職市場を30代・40代視点で解説。doda・レバテックの年収データ、求人の探し方、PdM/PMOへの選択肢、FAQを網羅します。"
+        description="プロジェクトマネージャー(PM)ポジションへの転職市場を30代・40代視点で解説します。doda・レバテックの年収データ、求人の探し方、PdM/PMOへの選択肢、FAQを網羅します。"
         url="/skill/pm/"
       />
       <script
@@ -120,7 +120,7 @@ export default function PmSkillPage() {
         <p className="text-slate-600 leading-relaxed mb-4">
           本記事は「すでにPMの経験・素地がある人が、PMポジションへ転職する市場」に特化して解説します。エンジニアからマネジメントへ転身する方法そのものは
           <Link href="/knowledge/management/" className="text-petrol hover:underline">EM・PMへのマネジメント転身ガイド</Link>
-          で扱っているため、ここでは「どの窓口で・どんな求人を・どう狙うか」という転職市場の攻め方に絞ります。
+          で扱っているため、ここでは「どの窓口で・どんな求人を・どう狙うか」という転職市場での進め方に絞ります。
         </p>
         <DataNote
           surveyedAt="2026年6月"
@@ -148,15 +148,15 @@ export default function PmSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PM転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PM転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
-              PMは年齢の不利が小さく、ミドルの実績がそのまま武器になる数少ないポジションです。攻め方は<strong>「実績の定量化」×「ハイクラス・スカウト型の活用」</strong>。求人母数の多さに任せて数を撃つより、合うポジションへ確実に届けるのが要です。
+              PMは年齢の不利が小さく、ミドルの実績がそのまま強みになる数少ないポジションです。進め方は<strong>「実績の定量化」×「ハイクラス・スカウト型の活用」</strong>。求人母数の多さに任せて数を撃つより、合うポジションへ確実に届けるのが要です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① PMの年収は出典で幅があり、doda 707万円／レバテック568万円／doda X 891.5万円（いずれも近年）。IT職の中で高めの水準。</li>
-              <li>② 評価軸は「規模・成果の定量実績」。職務経歴書で予算・人数・改善率を数字で示せるかで通過率が変わる。</li>
-              <li>③ 年収帯が高いためスカウト型（ビズリーチ）と相性が良い。求人量の総合型・IT特化と併用するのが定石。</li>
+              <li>① PMの年収は出典で幅があり、doda 707万円／レバテック568万円／doda X 891.5万円（いずれも近年）。IT職の中で高めの水準です。</li>
+              <li>② 評価軸は「規模・成果の定量実績」。職務経歴書で予算・人数・改善率を数字で示せるかで通過率が変わります。</li>
+              <li>③ 年収帯が高いためスカウト型（ビズリーチ）と相性が良いです。求人量の総合型・IT特化と併用するのが基本です。</li>
             </ul>
           </div>
         </section>
@@ -187,7 +187,7 @@ export default function PmSkillPage() {
             </table>
           </div>
           <p className="text-slate-600 leading-relaxed mb-4">
-            参考として、レバテックが公表する正社員SEの年代別平均年収は、20代約378万円／30代約499万円／40代約618万円／50代約685万円（2025年）です。PMの各出典値はいずれもこの40代SE平均（約618万円）前後〜上を指しており、プレイヤー（SE）からPMへ役割を広げることが、ミドルの年収を一段引き上げる現実的な手段であることがわかります。
+            参考として、レバテックが公表する正社員SEの年代別平均年収は、20代約378万円／30代約499万円／40代約618万円／50代約685万円（2025年）です。PMの各出典値はいずれもこの40代SE平均（約618万円）前後〜上を指しており、プレイヤー（SE）からPMへ役割を広げることが、ミドルの年収を一段引き上げる現実的な手段であることが分かります。
           </p>
           <p className="text-slate-600 leading-relaxed">
             背景として、経済産業省「IT人材需給に関する調査」（2019年公表）では2030年に最大約79万人のIT人材不足が試算されています。プロジェクトを完遂に導けるマネジメント人材は特に希少で、需給面でPM経験者に有利な状況が続くと考えられます。なお「求人の◯割がリモート可」「DX求人前年比＋◯%」といった数値は確かな一次出典を確認できなかったため、本記事では断定しません。
@@ -198,13 +198,13 @@ export default function PmSkillPage() {
         <section id="level" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            PM求人は「肩書きがPMかどうか」より「どの規模を・どう完遂させたか」を見ます。求人票で頻出する要件は次の通りです。
+            PM求人は「肩書きがPMかどうか」より「どの規模を・どう完遂させたか」を見ます。求人票で頻出する要件は次のとおりです。
           </p>
           <div className="space-y-3">
             {[
-              { lv: "PL〜若手PMで歓迎されやすい人", body: "数名規模のチーム/小〜中規模PJのリード経験、スケジュール・課題・品質管理の実務、開発現場との橋渡し経験。" },
-              { lv: "ミドル〜シニアPM要件", body: "中〜大規模PJの統括、予算・人員管理、ステークホルダー/経営層との折衝、リスク管理、炎上案件のリカバリ実績。" },
-              { lv: "ハイクラス/PMO要件", body: "複数PJ横断のガバナンス、標準化推進、部門マネジメント、事業/経営視点でのPJポートフォリオ管理。" },
+              { lv: "PL〜若手PMで歓迎されやすい人", body: "数名規模のチーム/小〜中規模PJのリード経験、スケジュール・課題・品質管理の実務、開発現場との橋渡し経験します。" },
+              { lv: "ミドル〜シニアPM要件", body: "中〜大規模PJの統括、予算・人員管理、ステークホルダー/経営層との折衝、リスク管理、炎上案件のリカバリ実績です。" },
+              { lv: "ハイクラス/PMO要件", body: "複数PJ横断のガバナンス、標準化推進、部門マネジメント、事業/経営視点でのPJポートフォリオ管理です。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.lv}</h3>
@@ -255,21 +255,21 @@ export default function PmSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                年収750万円以上をハイクラスと定義するスカウト型サービス。PM/PdMの高年収ポジションに出会いやすく、職務経歴を登録しておくと企業・ヘッドハンターから声がかかります。PMの年収帯と特に相性が良い窓口です。
+                年収750万円以上をハイクラスと定義するスカウト型サービスです。PM/PdMの高年収ポジションに出会いやすく、職務経歴を登録しておくと企業・ヘッドハンターから声がかかります。PMの年収帯と特に相性が良い窓口です。
               </p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT（求人量・実績）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                国内最大級の求人数で全国対応。大手企業・コンサル・事業会社のPM求人が幅広く、母数の多さから自分の経歴に合うポジションを探しやすい窓口です。
+                国内最大級の求人数で全国対応です。大手企業・コンサル・事業会社のPM求人が幅広く、母数の多さから自分の経歴に合うポジションを探しやすい窓口です。
               </p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT/Web/SaaSのPM・PdM）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT/Webに特化し高年収求人比率が高い窓口。SaaS/Web系のPM・PdMポジションに強く、開発出身でプロダクト寄りのPMを目指す人に向きます。
+                IT/Webに特化し高年収求人比率が高い窓口です。SaaS/Web系のPM・PdMポジションに強く、開発出身でプロダクト寄りのPMを目指す人に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
@@ -309,7 +309,7 @@ export default function PmSkillPage() {
 
         {/* 30代・40代視点 */}
         <section id="middle" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点：PMはミドルの主戦場</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代視点：PMはミドル層の中心的なキャリア</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
             純粋な開発職は年齢で見られる場面がありますが、PMは「経験の厚み」がそのまま評価される稀なポジションです。40代でも、というより40代だからこそ任される領域があります。
           </p>
@@ -366,10 +366,10 @@ export default function PmSkillPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3 text-sm">PM転職が向いている人</h3>
               <ul className="space-y-2 text-sm text-green-800">
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>PJの規模・成果を数字で語れる実績がある</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ステークホルダー調整・リスク管理の経験がある</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>炎上案件のリカバリなど再現性のある経験を持つ</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>技術判断ができる（開発出身の強みを活かせる）</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>PJの規模・成果を数字で語れる実績があります</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>ステークホルダー調整・リスク管理の経験があります</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>炎上案件のリカバリなど再現性のある経験を持ちます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>技術判断ができます（開発出身の強みを活かせる）</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>年収交渉を実績ベースで進めたい</li>
               </ul>
             </div>
@@ -378,9 +378,9 @@ export default function PmSkillPage() {
               <ul className="space-y-2 text-sm text-amber-800">
                 <li className="flex items-start gap-2"><span className="shrink-0">!</span>マネジメントより手を動かす開発を続けたい</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">!</span>調整・折衝・対人ストレスを強く避けたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>実績を定量化できる材料が乏しい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>進行管理やリーダー経験がまったくない</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>responsibility（責任範囲）が広がるのを望まない</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>実績を定量化できる材料が乏しいです</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>進行管理やリーダー経験がまったくありません</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>responsibility（責任範囲）が広がるのを望みません</li>
               </ul>
             </div>
           </div>
@@ -405,13 +405,13 @@ export default function PmSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">リクルートエージェントITに見られる傾向</h3>
               <p className="text-sm text-slate-600">
-                Qiita Job Change等の口コミでは「圧倒的な求人数」「非公開求人が充実」「書類添削・面接対策が丁寧」という声がある一方、「対応が事務的」「サポート期間が短め」という指摘も。PM求人の母数を確保したい人に向くと語られます。
+                Qiita Job Change等の口コミでは「圧倒的な求人数」「非公開求人が充実」「書類添削・面接対策が丁寧」という声がある一方、「対応が事務的」「サポート期間が短め」という指摘もあります。PM求人の母数を確保したい人に向くと語られます。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2 text-sm">レバテックキャリアに見られる傾向</h3>
               <p className="text-sm text-slate-600">
-                OUTSIDEMAGAZINE・Qiita Job Change等の口コミでは「書類添削・面接対策が丁寧」「高年収求人が多い」という声がある一方、「未経験者は紹介されにくい」という指摘も。SaaS/Web系のPM・PdMを狙う開発出身者と相性が良いと語られます。
+                OUTSIDEMAGAZINE・Qiita Job Change等の口コミでは「書類添削・面接対策が丁寧」「高年収求人が多い」という声がある一方、「未経験者は紹介されにくい」という指摘もあります。SaaS/Web系のPM・PdMを狙う開発出身者と相性が良いと語られます。
               </p>
             </div>
           </div>
@@ -437,7 +437,7 @@ export default function PmSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">PMの市場価値を確認する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            あなたのマネジメント実績が今の市場でどう評価されるか、ハイクラス求人に強いエージェントに相談してみましょう。
+            ご自身のマネジメント実績が今の市場でどう評価されるか、ハイクラス求人に強いエージェントに相談してみましょう。
           </p>
           <Link
             href="/#ranking"

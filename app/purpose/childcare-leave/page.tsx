@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/purpose/childcare-leave/" },
   title: "育休取得実績が豊富な企業へ転職【くるみん認定の見極め】",
   description:
-    "育休取得実績が豊富なIT企業への転職を解説。くるみん認定など公的な指標の読み方、男性育休取得率の見極め方、制度と実態の差、注意点を30-40代エンジニア向けに整理します。",
+    "育休取得実績が豊富なIT企業への転職を解説します。くるみん認定など公的な指標の読み方、男性育休取得率の見極め方、制度と実態の差、注意点を30-40代エンジニア向けに整理します。",
 };
 
 const faqs = [
@@ -53,7 +53,7 @@ export default function ChildcareLeavePage() {
     <>
       <ArticleJsonLd
         title="育休取得実績が豊富な企業へ転職【くるみん認定の見極め】"
-        description="育休取得実績が豊富なIT企業への転職を解説。くるみん認定など公的な指標の読み方、男性育休取得率の見極め方、制度と実態の差、注意点を30-40代エンジニア向けに整理します。"
+        description="育休取得実績が豊富なIT企業への転職を解説します。くるみん認定など公的な指標の読み方、男性育休取得率の見極め方、制度と実態の差、注意点を30-40代エンジニア向けに整理します。"
         url="/purpose/childcare-leave/"
       />
       <script
@@ -88,10 +88,10 @@ export default function ChildcareLeavePage() {
             育休は法律で定められた制度のため、ほとんどの企業に「育休制度あり」と書かれています。<strong>しかし重要なのは制度の有無ではなく、実際に取得されているかどうか</strong>です。見極めの軸になるのが、厚生労働省の「くるみん認定」など公的な裏付けのある指標と、企業が公表する男性を含む育休取得率の数値です。くるみん認定は子育て支援に取り組む企業の客観的な証であり、取得率の数値は制度の実効性を測る具体的な手がかりになります。本記事では、これらの公的指標の読み方と、制度と実態の差を見抜く方法を整理します。
           </p>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
-            <p className="text-sm font-medium text-slate-700 mb-2">こんな人におすすめ</p>
+            <p className="text-sm font-medium text-slate-700 mb-2">このような方におすすめ</p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>- 育休を取りやすい職場に転職したい</li>
-              <li>- 男性でも育休を取得できる企業を探している</li>
+              <li>- 男性でも育休を取得できる企業を探しています</li>
               <li>- 「制度あり」と実態の差を見極めたい</li>
               <li>- 子育てと両立しながら長く働きたい</li>
             </ul>
@@ -122,10 +122,10 @@ export default function ChildcareLeavePage() {
               </thead>
               <tbody>
                 {[
-                  { type: "くるみん認定", desc: "次世代育成支援対策推進法に基づく厚生労働大臣の認定。子育て支援の一定基準を満たした企業の証" },
-                  { type: "プラチナくるみん認定", desc: "くるみんより高い水準の取り組みを継続している企業向けの認定。実績がさらに手厚い目安" },
-                  { type: "トモニン", desc: "仕事と不妊治療の両立支援に取り組む企業のシンボルマーク。両立支援の姿勢を示す" },
-                  { type: "えるぼし認定", desc: "女性活躍推進法に基づく認定。女性の働きやすさの参考指標として併せて見ると有効" },
+                  { type: "くるみん認定", desc: "次世代育成支援対策推進法に基づく厚生労働大臣の認定です。子育て支援の一定基準を満たした企業の証" },
+                  { type: "プラチナくるみん認定", desc: "くるみんより高い水準の取り組みを継続している企業向けの認定です。実績がさらに手厚い目安" },
+                  { type: "トモニン", desc: "仕事と不妊治療の両立支援に取り組む企業のシンボルマークです。両立支援の姿勢を示します" },
+                  { type: "えるぼし認定", desc: "女性活躍推進法に基づく認定です。女性の働きやすさの参考指標として併せて見ると有効" },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-slate-200">
                     <td className="px-4 py-3 font-medium text-slate-800">{row.type}</td>
@@ -153,9 +153,9 @@ export default function ChildcareLeavePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">3. 制度と実態の差を見抜く（正直な話）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">3. 制度と実態の差を見抜く（実情）</h2>
           <p className="text-sm text-slate-700 leading-relaxed mb-3">
-            正直に言えば、<strong>「育休制度あり」と「育休が取りやすい」はまったく別物</strong>です。育休は法定の制度なので、ほぼすべての企業に制度自体は存在します。問題は、制度が実際に使われているか、取得後に不利益な扱いを受けないか、復帰後も働き続けられるかです。認定や数値が整っていても、配属される部署や上司次第で取得しやすさに差が出るのが現実です。
+            実際には、<strong>「育休制度あり」と「育休が取りやすい」はまったく別物</strong>です。育休は法定の制度であるため、ほぼすべての企業に制度自体は存在します。問題は、制度が実際に使われているか、取得後に不利益な扱いを受けないか、復帰後も働き続けられるかです。認定や数値が整っていても、配属される部署や上司次第で取得しやすさに差が出るのが現実です。
           </p>
           <p className="text-sm text-slate-700 leading-relaxed">
             だからこそ、<strong>「制度の存在」ではなく「使われている実績」に注目する</strong>のが見極めの本質です。取得率の数値、直近の取得事例、復帰後の時短・リモートの選択肢——この3つが揃っている企業は信頼度が高いといえます。家庭との両立全般は
@@ -170,7 +170,7 @@ export default function ChildcareLeavePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">4. 見極めチェックリスト</h2>
           <div className="space-y-4">
             {[
-              { num: "1", title: "くるみん・プラチナくるみん認定の有無を確認", desc: "公的認定は子育て支援への取り組みの客観的な証。一次フィルターとして使います。" },
+              { num: "1", title: "くるみん・プラチナくるみん認定の有無を確認", desc: "公的認定は子育て支援への取り組みの客観的な証です。一次フィルターとして使います。" },
               { num: "2", title: "男性を含む育休取得率の数値を確認", desc: "301人以上の企業は公表義務があります。数値が高ければ実効性が高い目安になります。" },
               { num: "3", title: "直近の取得事例を確認", desc: "面接で『直近で育休を取った社員はいるか』を聞きます。具体的な事例が出るかが実態を映します。" },
               { num: "4", title: "復帰後の働き方の選択肢を確認", desc: "時短勤務・リモート・段階的復帰など、復帰後も続けられる制度があるかを確認します。" },
@@ -233,7 +233,7 @@ export default function ChildcareLeavePage() {
               { name: "ワークライフバランス重視の転職", href: "/purpose/wlb/" },
               { name: "フレックスタイム制の企業", href: "/purpose/flextime/" },
               { name: "目的別ガイド一覧", href: "/purpose/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

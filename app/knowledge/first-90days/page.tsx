@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/first-90days/" },
   title: "入社後90日の過ごし方【30/60/90日プランと信頼構築】",
   description:
-    "転職後の最初の90日間で信頼を構築し早期に成果を出すための30/60/90日プランを解説。30代・40代エンジニアが新しい職場で立ち上がるロードマップを紹介します。",
+    "転職後の最初の90日間で信頼を構築し早期に成果を出すための30/60/90日プランを解説します。30代・40代エンジニアが新しい職場で立ち上がるロードマップを紹介します。",
 };
 
 const toc = [
@@ -32,14 +32,14 @@ const roadmap = [
 
 const trust = [
   { title: "期待値を先にすり合わせる", body: "入社初週に上司と1on1を持ち、「30日後・60日後・90日後に何ができていれば良いか」を言語化して合意します。期待値が曖昧なまま走ると、頑張りが評価につながりません。" },
-  { title: "約束を小さく守り続ける", body: "「明日までに調べます」を確実に守る。小さな約束の積み重ねが『この人は任せられる』という信頼に直結します。大きな成果より先に、信頼の土台を作ります。" },
-  { title: "わからないことを早く聞く", body: "中途入社は遠慮して抱え込みがちですが、序盤の質問は歓迎されます。『◯◯まで調べた上で、△△が分かりません』と調査の跡を見せて聞くと印象が良くなります。" },
-  { title: "チームの「なぜ」を尊重する", body: "現状の非効率に見える部分も、背景や制約があることが多いもの。批判の前に『なぜこうなっているか』を理解する姿勢が、受け入れられる近道です。" },
+  { title: "約束を小さく守り続ける", body: "「明日までに調べます」を確実に守ります。小さな約束の積み重ねが『この人は任せられる』という信頼に直結します。大きな成果より先に、信頼の土台を作ります。" },
+  { title: "分からないことを早く聞く", body: "中途入社は遠慮して抱え込みがちですが、序盤の質問は歓迎されます。『◯◯まで調べた上で、△△が分かりません』と調査の跡を見せて聞くと印象が良くなります。" },
+  { title: "チームの「なぜ」を尊重する", body: "現状の非効率に見える部分も、背景や制約があることが多いものです。批判の前に『なぜこうなっているか』を理解する姿勢が、受け入れられる近道です。" },
 ];
 
 const ngActions = [
   { title: "前職の話ばかりする", body: "「前の会社では〜」を連発すると距離を置かれます。比較するなら学びの形で。基本は聞かれたときだけ答えます。" },
-  { title: "いきなり大きな変革を提案する", body: "問題点が見えても、まず背景を理解する。改善提案は小さく始め、信頼が貯まってから大きなものへ。" },
+  { title: "いきなり大きな変革を提案する", body: "問題点が見えても、まず背景を理解します。改善提案は小さく始め、信頼が貯まってから大きなものへ。" },
   { title: "一人で抱え込む", body: "質問せず悩むとチームとの距離が広がります。詰まったら早めに共有し、巻き込む姿勢を見せましょう。" },
   { title: "最初から完璧を目指す", body: "最初のPRは完璧でなくて構いません。フィードバックを受けて素早く直す姿勢が評価されます。" },
   { title: "関係構築の機会を避ける", body: "ランチや雑談、チームイベントは人間関係の近道です。最初の90日が最も効果的な時期です。" },
@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "早期に成果を出すにはどうすればよいですか？",
-    a: "大きな機能より、確実に終わる『クイックウィン』から着手するのが定石です。ドキュメントの不備の修正、小さなバグ修正、開発環境の改善、オンボーディング手順の整備などは、短期間で完了でき、周囲にも価値が伝わりやすい領域です。小さな成果を早めに積み重ねて存在感を示してから、徐々に大きなタスクへ広げていくと、信頼構築と成果の両立がしやすくなります。",
+    a: "大きな機能より、確実に終わる『クイックウィン』から着手するのが基本です。ドキュメントの不備の修正、小さなバグ修正、開発環境の改善、オンボーディング手順の整備などは、短期間で完了でき、周囲にも価値が伝わりやすい領域です。小さな成果を早めに積み重ねて存在感を示してから、徐々に大きなタスクへ広げていくと、信頼構築と成果の両立がしやすくなります。",
   },
   {
     q: "前職と文化が違いすぎて戸惑います。どうすればよいですか？",
@@ -95,7 +95,7 @@ export default function First90DaysPage() {
     <>
       <ArticleJsonLd
         title="入社後90日の過ごし方【30/60/90日プランと信頼構築】"
-        description="転職後の最初の90日間で信頼を構築し早期に成果を出すための30/60/90日プランを解説。30代・40代エンジニアが新しい職場で立ち上がるロードマップを紹介します。"
+        description="転職後の最初の90日間で信頼を構築し早期に成果を出すための30/60/90日プランを解説します。30代・40代エンジニアが新しい職場で立ち上がるロードマップを紹介します。"
         url="/knowledge/first-90days/"
       />
       <script
@@ -124,9 +124,9 @@ export default function First90DaysPage() {
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職後の最初の90日で何をすべき？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 大きな成果を焦るより、「信頼の貯金」を作ることを最優先にします。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
-              <li>・30日＝理解、60日＝貢献、90日＝自走のリズムで段階的に立ち上がる。</li>
-              <li>・期待値のすり合わせと小さな約束を守ること、成果はクイックウィンから重ねる。</li>
-              <li>・前職比較・いきなりの大改革・抱え込みはNG行動。まず背景理解を先に。</li>
+              <li>・30日＝理解、60日＝貢献、90日＝自走のリズムで段階的に立ち上がります。</li>
+              <li>・期待値のすり合わせと小さな約束を守ること、成果はクイックウィンから重ねます。</li>
+              <li>・前職比較・いきなりの大改革・抱え込みはNG行動です。まず背景理解を先に。</li>
             </ul>
           </div>
         </section>
@@ -156,10 +156,10 @@ export default function First90DaysPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：最初の90日は「信頼の貯金」を作る期間</h2>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・大きな成果を焦るより、<strong>期待値のすり合わせと小さな約束を守る</strong>ことを優先する。</li>
-              <li>・<strong>30日＝理解、60日＝貢献、90日＝自走</strong>のリズムで段階的に立ち上がる。</li>
-              <li>・成果は<strong>クイックウィン</strong>から。短期で終わる改善を早めに重ねて存在感を出す。</li>
-              <li>・前職比較・いきなりの大改革・抱え込みは<strong>NG行動</strong>。背景理解を先に。</li>
+              <li>・大きな成果を焦るより、<strong>期待値のすり合わせと小さな約束を守る</strong>ことを優先します。</li>
+              <li>・<strong>30日＝理解、60日＝貢献、90日＝自走</strong>のリズムで段階的に立ち上がります。</li>
+              <li>・成果は<strong>クイックウィン</strong>から。短期で終わる改善を早めに重ねて存在感を出します。</li>
+              <li>・前職比較・いきなりの大改革・抱え込みは<strong>NG行動です</strong>。背景理解を先に。</li>
             </ul>
           </div>
         </section>
@@ -168,7 +168,7 @@ export default function First90DaysPage() {
         <section id="why" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">なぜ最初の90日が重要なのか</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            入社直後は、周囲があなたの仕事ぶりを最も注意深く観察している時期です。ここで「信頼できる人」という第一印象を作れると、その後の仕事の任され方やコミュニケーションが格段にスムーズになります。逆に序盤で躓くと、印象を覆すのに何倍もの時間と労力がかかります。だからこそ、最初の90日は短距離走ではなく、信頼という資産を積み立てる期間と捉えるのが得策です。
+            入社直後は、周囲がご自身の仕事ぶりを最も注意深く観察している時期です。ここで「信頼できる人」という第一印象を作れると、その後の仕事の任され方やコミュニケーションが格段にスムーズになります。逆に序盤で躓くと、印象を覆すのに何倍もの時間と労力がかかります。だからこそ、最初の90日は短距離走ではなく、信頼という資産を積み立てる期間と捉えるのが得策です。
           </p>
           <p className="text-slate-600 leading-relaxed">
             なお、入社後の早期適応は、受け入れ側のオンボーディングの質にも左右されます。会社の受け入れ体制を活かしつつ、自分からも動く姿勢が大切です。受け入れ側の視点は
@@ -214,9 +214,9 @@ export default function First90DaysPage() {
               <ul className="text-sm text-green-700 space-y-2">
                 <li>・主要メンバーと1on1を実施</li>
                 <li>・開発環境を完全にセットアップ</li>
-                <li>・アーキテクチャを自分で図にしてみる</li>
-                <li>・気づいた改善点をメモに残す</li>
-                <li>・小さくても最初のPRを出す</li>
+                <li>・アーキテクチャを自分で図にしてみます</li>
+                <li>・気づいた改善点をメモに残します</li>
+                <li>・小さくても最初のPRを出します</li>
               </ul>
             </div>
             <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-5">
@@ -225,7 +225,7 @@ export default function First90DaysPage() {
                 <li>・小〜中規模の機能開発を完了</li>
                 <li>・コードレビューで建設的に関与</li>
                 <li>・ドキュメント整備に貢献</li>
-                <li>・改善提案を1つ以上行う</li>
+                <li>・改善提案を1つ以上行います</li>
                 <li>・上司と中間振り返りを実施</li>
               </ul>
             </div>
@@ -259,19 +259,19 @@ export default function First90DaysPage() {
         <section id="win" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">早期の成果（クイックウィン）の出し方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            早期に成果を出すには、大きな機能に挑む前に「短期間で確実に終わり、価値が伝わりやすい」タスクを選ぶのが定石です。次のような領域は、入社直後でも貢献しやすいクイックウィンです。
+            早期に成果を出すには、大きな機能に挑む前に「短期間で確実に終わり、価値が伝わりやすい」タスクを選ぶのが基本です。次のような領域は、入社直後でも貢献しやすいクイックウィンです。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-3 text-sm text-slate-600">
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>READMEやセットアップ手順の不備を修正し、次の入社者が困らない状態にする</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>放置されていた小さなバグや警告を1〜2件解消する</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>READMEやセットアップ手順の不備を修正し、次の入社者が困らない状態にします</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>放置されていた小さなバグや警告を1〜2件解消します</span></li>
               <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>ローカル開発環境やCIの軽微な改善（ビルド時間短縮など）</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>暗黙知になっている運用手順をドキュメント化する</span></li>
-              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>コードレビューで丁寧なフィードバックを返し、チームに貢献する</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>暗黙知になっている運用手順をドキュメント化します</span></li>
+              <li className="flex items-start gap-2"><span className="text-petrol font-bold mt-0.5">✓</span><span>コードレビューで丁寧なフィードバックを返し、チームに貢献します</span></li>
             </ul>
           </div>
           <p className="text-sm text-slate-600 mt-4">
-            ポイントは、成果を「自分のため」ではなく「チームのため」の形で出すこと。周囲の負担を減らす貢献は、信頼構築と相性が良く、早期の評価につながります。
+            ポイントは、成果を「自分のため」ではなく「チームのため」の形で出すことです。周囲の負担を減らす貢献は、信頼構築と相性が良く、早期の評価につながります。
           </p>
         </section>
 
@@ -309,7 +309,7 @@ export default function First90DaysPage() {
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">合わないと感じても90日は様子を見る</h3>
-              <p className="text-sm text-slate-600">序盤の違和感は環境への不慣れが原因のことも多いものです。短期離職はミドルほど影響が大きいため、まず上司に相談しつつ様子を見ます。それでも難しい場合の判断は<Link href="/knowledge/probation/" className="text-petrol hover:underline">試用期間の記事</Link>を参考に。</p>
+              <p className="text-sm text-slate-600">序盤の違和感は環境への不慣れが原因のことも多いものです。短期離職はミドルほど影響が大きいため、まず上司に相談しつつ様子を見ます。それでも難しい場合の判断は<Link href="/knowledge/probation/" className="text-petrol hover:underline">試用期間の記事</Link>をご参照ください。</p>
             </div>
           </div>
         </section>
@@ -334,7 +334,7 @@ export default function First90DaysPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">入社後の悩みも相談できます</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントは入社後のフォローも充実。立ち上がりの不安があれば気軽に相談できます。
+            IT特化型エージェントは入社後のフォローも充実しています。立ち上がりの不安があれば気軽に相談できます。
           </p>
           <Link
             href="/#ranking"

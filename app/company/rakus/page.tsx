@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/rakus/" },
   title: "ラクスの年収は平均664万円【2026年・有報】エンジニア転職・技術スタック解説",
   description:
-    "ラクス（3923／楽楽精算・メールディーラー等）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収664万円(2026年3月期・全社員平均)、Java/PHP中心の技術スタック、選考フロー、口コミ傾向、30代40代の戦い方まで。ラクスル(4384)とは別会社です。",
+    "ラクス（3923／楽楽精算・メールディーラー等）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収664万円(2026年3月期・全社員平均)、Java/PHP中心の技術スタック、選考フロー、口コミ傾向、30代40代の進め方まで。ラクスル(4384)とは別会社です。",
 };
 
 const salaryTrend: [string, string, string][] = [
@@ -35,7 +35,7 @@ const toc = [
   { id: "basic", label: "基本データ（企業概要・出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
-  { id: "salary", label: "年収データ（有報・公式求人）" },
+  { id: "salary", label: "年収データ（有価証券報告書・公式求人）" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
   { id: "review", label: "口コミ・評判の傾向" },
@@ -91,7 +91,7 @@ export default function RakusCompanyPage() {
     <>
       <ArticleJsonLd
         title="ラクス エンジニア転職ガイド"
-        description="ラクス（楽楽精算等）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収664万円(2026年3月期)、Java/PHP中心の技術スタック、選考フロー、口コミ傾向まで。"
+        description="ラクス（楽楽精算等）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収664万円(2026年3月期)、Java/PHP中心の技術スタック、選考フロー、口コミ傾向まで。"
         url="/company/rakus/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -105,7 +105,7 @@ export default function RakusCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】ラクスの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社ラクスの全社員平均年収は664万円です（2026年3月期 有価証券報告書・平均年齢32.7歳）。印刷のラクスル（4384）とは別会社です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 664万円（2026年3月期 有報）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年3月期619万円から緩やかに上昇し、2026年3月期は664万円（各期 有報）。平均年齢32.7歳と若めの組織での水準です。</li><li>・職種・等級別の公式な年収表は非公開。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 664万円です（2026年3月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・推移は2022年3月期619万円から緩やかに上昇し、2026年3月期は664万円です（各期 有価証券報告書）。平均年齢32.7歳と若めの組織での水準です。</li><li>・職種・等級別の公式な年収表は非公開です。提示額はスキル評価で個別決定されるため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -138,11 +138,11 @@ export default function RakusCompanyPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：Java/PHPのWebアプリ開発経験があり、安定したSaaSをじっくり育てたいエンジニア向き。難易度は中。</p>
+            <p className="font-bold text-blue-900 mb-3">結論：Java/PHPのWebアプリ開発経験があり、安定したSaaSをじっくり育てたいエンジニア向きです。難易度は中。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li className="flex gap-2"><span className="shrink-0">1.</span>Java・PHP中心のWeb開発経験が活き、複数プロダクトを継続的に成長させる安定したSaaS開発に関われる。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は664万円（2026年3月期 有報）。平均年齢32.7歳と若めの組織でこの水準で、緩やかに上昇傾向。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>チームが主体的に技術を選定する文化。派手な急成長より、堅実にプロダクトを磨きたいエンジニアと相性が良い。</li>
+              <li className="flex gap-2"><span className="shrink-0">1.</span>Java・PHP中心のWeb開発経験が活き、複数プロダクトを継続的に成長させる安定したSaaS開発に関われます。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は664万円です（2026年3月期 有価証券報告書）。平均年齢32.7歳と若めの組織でこの水準で、緩やかに上昇傾向です。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>チームが主体的に技術を選定する文化です。派手な急成長より、堅実にプロダクトを磨きたいエンジニアと相性が良いです。</li>
             </ul>
           </div>
         </section>
@@ -209,10 +209,10 @@ export default function RakusCompanyPage() {
         </section>
 
         <section id="salary" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有報・公式求人）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有価証券報告書・公式求人）</h2>
           <p className="text-slate-700 text-sm leading-relaxed mb-4">
             ラクスは上場企業のため、有価証券報告書に全社員の平均年間給与が記載されています。<strong>これは全社員平均であり、エンジニア職に限った数値ではありません。</strong>
-            職種・等級別の公式な年収表は公開されていないため、ここでは有報の推移のみを掲載します。
+            職種・等級別の公式な年収表は公開されていないため、ここでは有価証券報告書の推移のみを掲載します。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -248,10 +248,10 @@ export default function RakusCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["カジュアル面談（任意）", "選考前にエンジニアや採用担当と話し、仕事内容や開発文化を知れる機会。"],
-              ["エントリー（書類選考）", "募集ポジションから応募し書類を提出。職務経歴・技術スタックが確認される。"],
-              ["面接（複数回）", "現場エンジニア・マネージャー等との面接。技術的な経験やチーム開発の進め方が確認される。"],
-              ["内定（オファー）", "条件・制度の説明。配属やミッションのすり合わせが行われる。"],
+              ["カジュアル面談（任意）", "選考前にエンジニアや採用担当と話し、仕事内容や開発文化を知れる機会です。"],
+              ["エントリー（書類選考）", "募集ポジションから応募し書類を提出します。職務経歴・技術スタックが確認されます。"],
+              ["面接（複数回）", "現場エンジニア・マネージャー等との面接です。技術的な経験やチーム開発の進め方が確認されます。"],
+              ["内定（オファー）", "条件・制度の説明です。配属やミッションのすり合わせが行われます。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -298,8 +298,8 @@ export default function RakusCompanyPage() {
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 mb-2 text-sm">ネガティブ・注意したい傾向</h3>
               <ul className="space-y-1.5 text-sm text-amber-900">
-                <li>既存プロダクトの改善・運用が中心で、最先端技術の比重を期待する人には物足りない場合がある</li>
-                <li>組織拡大に伴う制度・体制の変化への適応が求められる</li>
+                <li>既存プロダクトの改善・運用が中心で、最先端技術の比重を期待する人には物足りない場合があります</li>
+                <li>組織拡大に伴う制度・体制の変化への適応が求められます</li>
                 <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
               </ul>
             </div>
@@ -317,7 +317,7 @@ export default function RakusCompanyPage() {
               平均年齢が32.7歳（2026年3月期）と若めのため、40代は相対的にシニア寄りの立ち位置になります。設計・技術選定をリードした経験、チームを牽引した経験、長期運用・保守を見据えた開発の経験などは、年齢に見合った価値として評価されやすいでしょう。逆に「最先端技術を追い続けたい」志向だと、堅実な開発スタイルとはギャップを感じる場合があります。
             </p>
             <p>
-              年収面では、現職が頭打ちになっている30代・40代にとって、ラクスの全社員平均664万円（有報）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
+              年収面では、現職が頭打ちになっている30代・40代にとって、ラクスの全社員平均664万円（有価証券報告書）は一つの目安になります。ただし提示額はスキル評価で個別決定されるため、現年収・市場価値の把握が重要です。<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>や<Link href="/knowledge/salary-negotiation/" className="text-petrol hover:underline">年収交渉の進め方</Link>もあわせて確認してください。
             </p>
             <p>
               同じバックオフィス・業務系SaaSでは<Link href="/company/freee/" className="text-petrol hover:underline">freee</Link>・<Link href="/company/moneyforward/" className="text-petrol hover:underline">マネーフォワード</Link>との比較もおすすめです。年代別の転職実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>も参考になります。
@@ -329,9 +329,9 @@ export default function RakusCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ラクス転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高い。SaaS企業の非公開求人を扱うことも。書類添削・面接対策に定評。" },
-              { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイト。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすい。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが強みで、SaaS系企業への転職実績が豊富。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。SaaS企業の非公開求人を扱うことがあります。書類添削・面接対策に定評があります。" },
+              { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイトです。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすいです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、SaaS系企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

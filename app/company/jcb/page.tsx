@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/jcb/" },
   title: "JCB（ジェーシービー）エンジニア転職ガイド【2026年版】技術・選考の実態",
   description:
-    "JCB（株式会社ジェーシービー）へのエンジニア転職を実データで解説。非上場のため平均年収は公式非開示。Go/Java/Python・GCP・Kubernetes等の決済システム技術スタック、アプリ/SysPO/QA等の募集職種、選考、30代40代の現実までまとめました。",
+    "JCB（株式会社ジェーシービー）へのエンジニア転職を実データで解説します。非上場のため平均年収は公式非開示です。Go/Java/Python・GCP・Kubernetes等の決済システム技術スタック、アプリ/SysPO/QA等の募集職種、選考、30代40代の現実までまとめました。",
 };
 
 const basicData: [string, string][] = [
   ["企業名", "株式会社ジェーシービー（JCB）"],
   ["上場区分", "非上場（有価証券報告書なし＝平均年収等は公式非開示）"],
-  ["事業領域", "クレジットカード事業（カード発行・加盟店業務）、決済関連サービス、ファイナンス、ギフトカード等。日本発の国際カードブランド「JCB」を運営"],
+  ["事業領域", "クレジットカード事業（カード発行・加盟店業務）、決済関連サービス、ファイナンス、ギフトカード等です。日本発の国際カードブランド「JCB」を運営"],
   ["平均年間給与", "公式非開示（非上場のため有価証券報告書での開示なし。本ページでは創作せず記載しません）"],
   ["設立", "1961年1月25日（公式 会社概要）"],
   ["資本金", "106億円（2025年6月時点・公式 会社概要）"],
@@ -81,7 +81,7 @@ export default function JcbCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="JCB（ジェーシービー）エンジニア転職ガイド" description="JCB（株式会社ジェーシービー）へのエンジニア転職を実データで解説。非上場のため平均年収は公式非開示。Go/Java/Python・GCP・Kubernetes等の決済システム技術スタック、募集職種、選考、30代40代の現実までまとめました。" url="/company/jcb/" />
+      <ArticleJsonLd title="JCB（ジェーシービー）エンジニア転職ガイド" description="JCB（株式会社ジェーシービー）へのエンジニア転職を実データで解説します。非上場のため平均年収は公式非開示です。Go/Java/Python・GCP・Kubernetes等の決済システム技術スタック、募集職種、選考、30代40代の現実までまとめました。" url="/company/jcb/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Javaの転職ガイド", href: "/skill/java/" }, { name: "Dockerの転職ガイド", href: "/skill/docker/" }, { name: "Kubernetesの転職ガイド", href: "/skill/kubernetes/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "JCB（ジェーシービー）" }]} />
 
@@ -149,7 +149,7 @@ export default function JcbCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※会社概要は公式サイト（global.jcb / jcb.co.jp）に基づきます（資本金は2025年6月時点、従業員数は2026年3月時点）。技術スタックは公式キャリア採用情報（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※会社概要は公式サイト（global.jcb / jcb.co.jp）に基づきます（資本金は2025年6月時点、従業員数は2026年3月時点）。技術スタックは公式キャリア採用情報です（2026年6月時点）。</p>
         </section>
 
         <section id="salary-note" className="mb-10">
@@ -185,7 +185,7 @@ export default function JcbCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック・募集職種（公式採用情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            JCBは公式キャリア採用ページ（システム本部・IT/デジタル領域、2026年6月時点）で技術職を募集しています。主な技術・職種は以下の通りです。具体的な使用技術・必須スキルは募集ポジションにより異なります。
+            JCBは公式キャリア採用ページ（システム本部・IT/デジタル領域、2026年6月時点）で技術職を募集しています。主な技術・職種は以下のとおりです。具体的な使用技術・必須スキルは募集ポジションにより異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -246,9 +246,9 @@ export default function JcbCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">JCB転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。金融・決済系のシステム求人にも対応し、非公開求人も豊富。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・金融・ハイクラスに強く、専門職・管理職求人や想定年収の確認に対応。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。金融・決済系のシステム求人にも対応し、非公開求人も豊富です。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・金融・ハイクラスに強く、専門職・管理職求人や想定年収の確認に対応しています。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

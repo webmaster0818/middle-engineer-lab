@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/startup-agents/" },
   title: "スタートアップ転職に強いエージェント・サービスおすすめ｜選び方【2026年8月】",
   description:
-    "スタートアップ・ベンチャー転職に強い転職サービスを、当サイトに実在するサービスから根拠付きで厳選。直接やり取りのGreen、共感軸のWantedly、GitHub評価のFindy、IT特化のレバテックキャリアまで、30代40代エンジニア向けに選び方とリスクの見極めを整理します。",
+    "スタートアップ・ベンチャー転職に強い転職サービスを、当サイトに実在するサービスから根拠付きで厳選です。直接やり取りのGreen、共感軸のWantedly、GitHub評価のFindy、IT特化のレバテックキャリアまで、30代40代エンジニア向けに選び方とリスクの見極めを整理します。",
 };
 
 const toc = [
@@ -28,7 +28,7 @@ const services = [
     name: "Green",
     href: "/review/green/",
     tag: "直接やり取り・ベンチャー",
-    reason: "エージェントを介さず企業と直接やり取りする成功報酬型の転職サイト。IT/Webベンチャー・スタートアップ・メガベンチャーを得意領域とし、掲載企業9,000社以上・求人15,000件以上（媒体により幅あり）。「気になる」機能やカジュアル面談で、企業の温度感をダイレクトに把握できる。仲介サポートは付かないため自分で進める前提。",
+    reason: "エージェントを介さず企業と直接やり取りする成功報酬型の転職サイトです。IT/Webベンチャー・スタートアップ・メガベンチャーを得意領域とし、掲載企業9,000社以上・求人15,000件以上です（媒体により幅あり）。「気になる」機能やカジュアル面談で、企業の温度感をダイレクトに把握できます。仲介サポートは付かないため自分で進める前提です。",
     fit: "スタートアップと直接カジュアルにやり取りし、自分のペースで進めたい人",
   },
   {
@@ -36,7 +36,7 @@ const services = [
     name: "Wantedly",
     href: "/review/wantedly/",
     tag: "カジュアル面談・社風重視",
-    reason: "共感軸の直接応募／ビジネスSNS。スタートアップ・ベンチャーに強く、ユーザー400万人以上・利用企業4万社以上（二次情報）。カジュアル面談で社風・ビジョン・事業フェーズを知ってから検討できる。給与・待遇は原則非記載が最大の特徴であり注意点で、年収条件は別途確認が必要。",
+    reason: "共感軸の直接応募／ビジネスSNSです。スタートアップ・ベンチャーに強く、ユーザー400万人以上・利用企業4万社以上です（二次情報）。カジュアル面談で社風・ビジョン・事業フェーズを知ってから検討できます。給与・待遇は原則非記載が最大の特徴であり注意点で、年収条件は別途確認が必要です。",
     fit: "スタートアップのビジョン・カルチャーに共感して入りたい人",
   },
   {
@@ -44,7 +44,7 @@ const services = [
     name: "Findy",
     href: "/review/findy/",
     tag: "GitHubスキル偏差値・自社開発",
-    reason: "GitHub連携でスキル偏差値を算出するスカウト型。掲載企業は厳選800社以上（公式・2024年7月時点）で、モダン技術（Go／TypeScript／Python／Ruby等）のWeb自社開発企業が中心。スタートアップ・ベンチャーのモダン開発組織と、コードで評価されてマッチしたい人に向く。",
+    reason: "GitHub連携でスキル偏差値を算出するスカウト型です。掲載企業は厳選800社以上（公式・2024年7月時点）で、モダン技術（Go／TypeScript／Python／Ruby等）のWeb自社開発企業が中心です。スタートアップ・ベンチャーのモダン開発組織と、コードで評価されてマッチしたい人に向きます。",
     fit: "モダン技術の現役で、コードで評価されてスタートアップに行きたい人",
   },
   {
@@ -52,14 +52,14 @@ const services = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     tag: "IT/Web全般・高年収",
-    reason: "IT・Web系全般を扱う大手の正社員転職エージェント。約5万件超（2026年6月時点・複数転職メディア集計）の求人数で、スタートアップからメガベンチャー、大手まで母数が大きい。書類添削・面接対策・年収交渉のサポートがあり、直接応募型で不足しがちな選考支援を補える。",
+    reason: "IT・Web系全般を扱う大手の正社員転職エージェントです。約5万件超（2026年6月時点・複数転職メディア集計）の求人数で、スタートアップからメガベンチャー、大手まで母数が大きいです。書類添削・面接対策・年収交渉のサポートがあり、直接応募型で不足しがちな選考支援を補えます。",
     fit: "選考サポートを受けつつ、スタートアップも含め母数広く比較したい人",
   },
 ];
 
 const faqs = [
   { q: "スタートアップ転職に強いサービスはどれですか？", a: "当サイトに実在するサービスでは、企業と直接やり取りできるGreen、共感軸でカジュアル面談から始められるWantedlyが、スタートアップ・ベンチャーを明確に得意領域としています。モダン技術の開発組織にコードで評価されて入りたいならFindy、選考サポートを受けつつ母数を広げたいならレバテックキャリアを組み合わせると、直接応募と仲介支援の両面からスタートアップ求人を比較できます。" },
-  { q: "なぜGreenとWantedlyを上位にしているのですか？", a: "両社とも公式にIT/Webベンチャー・スタートアップを得意領域としており、企業と直接・カジュアルにやり取りできる点がスタートアップ転職と噛み合うためです。Greenは掲載企業9,000社以上・求人15,000件以上（媒体により幅あり）、Wantedlyはユーザー400万人以上・利用企業4万社以上（二次情報）。スタートアップは社風・事業フェーズの見極めが重要で、カジュアル面談前提の両社はその確認に適しています。" },
+  { q: "なぜGreenとWantedlyを上位にしているのですか？", a: "両社とも公式にIT/Webベンチャー・スタートアップを得意領域としており、企業と直接・カジュアルにやり取りできる点がスタートアップ転職と噛み合うためです。Greenは掲載企業9,000社以上・求人15,000件以上（媒体により幅あり）、Wantedlyはユーザー400万人以上・利用企業4万社以上です（二次情報）。スタートアップは社風・事業フェーズの見極めが重要で、カジュアル面談前提の両社はその確認に適しています。" },
   { q: "Wantedlyは年収が分からないと聞きました。", a: "はい。Wantedlyは給与・待遇が原則非記載という特徴があり、これは共感軸でまず社風・ビジョンを知ってもらう設計のためです。年収条件はカジュアル面談や選考の中で別途確認する必要があります。年収を最初に把握したい場合は、求人に条件が記載されるGreenや、選考サポートで条件交渉まで支援するレバテックキャリアを併用すると安心です。" },
   { q: "モダン技術の開発組織に行きたいです。", a: "Go／TypeScript／Python／Ruby等のモダン技術でスタートアップの開発組織を狙うなら、GitHub連携でスキル偏差値を算出するFindyが向きます。厳選800社以上（公式・2024年7月時点）のモダン自社開発企業が中心で、コードで評価されてマッチしやすい設計です。GitHubの公開活動が少ない場合はスカウトが届きにくいため、Green等の直接応募と併用してください。" },
   { q: "メガベンチャーも視野に入れています。", a: "Greenやレバテックキャリアはメガベンチャーからスタートアップまで幅広くカバーします。メガベンチャーに特化した比較は当サイトのメガベンチャー向けエージェント比較で整理しています。スタートアップとメガベンチャーは安定性・裁量・年収のバランスが異なるため、両方の求人を見比べて判断するのが現実的です。" },
@@ -106,11 +106,11 @@ export default function StartupAgentsPage() {
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：スタートアップはどう選ぶか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li><strong>・軸は直接応募の「Green」「Wantedly」</strong>。企業と直接やり取りし、社風・事業フェーズを見極められる。</li>
-              <li><strong>・モダン開発組織は「Findy」</strong>。GitHubのスキル偏差値で、コードで評価されてマッチできる。</li>
-              <li><strong>・選考サポートは「レバテックキャリア」</strong>。書類添削・面接対策・年収交渉で直接応募の弱点を補える。</li>
+              <li><strong>・軸は直接応募の「Green」「Wantedly」</strong>。企業と直接やり取りし、社風・事業フェーズを見極められます。</li>
+              <li><strong>・モダン開発組織は「Findy」</strong>。GitHubのスキル偏差値で、コードで評価されてマッチできます。</li>
+              <li><strong>・選考サポートは「レバテックキャリア」</strong>。書類添削・面接対策・年収交渉で直接応募の弱点を補えます。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">いずれも無料です。スタートアップは「合うか」の見極めが最重要のため、まず直接応募で温度感を確かめ、必要に応じて技術評価・選考サポートを足すのが効率的です。</p>
@@ -120,9 +120,9 @@ export default function StartupAgentsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">選定のポイント</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { t: "社風・事業フェーズを確認できるか", d: "スタートアップは合うかの見極めが命。カジュアル面談で文化やフェーズを確かめられるか。" },
-              { t: "ベンチャーを得意領域とするか", d: "公式にIT/Webベンチャー・スタートアップを得意領域として掲げているか。Green・Wantedlyが該当。" },
-              { t: "選考・条件交渉を補えるか", d: "直接応募は選考対策や年収交渉を自分で担う。必要なら選考サポート型で補えるか。" },
+              { t: "社風・事業フェーズを確認できるか", d: "スタートアップは合うかの見極めが命です。カジュアル面談で文化やフェーズを確かめられるか。" },
+              { t: "ベンチャーを得意領域とするか", d: "公式にIT/Webベンチャー・スタートアップを得意領域として掲げているか。Green・Wantedlyが該当しています。" },
+              { t: "選考・条件交渉を補えるか", d: "直接応募は選考対策や年収交渉を自分で担います。必要なら選考サポート型で補えるか。" },
             ].map((c, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2 text-sm">{c.t}</h3>
@@ -156,9 +156,9 @@ export default function StartupAgentsPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700">
             <p className="mb-2">スタートアップは裁量・成長機会が大きい一方、事業フェーズによっては不安定さもあります。30代・40代は次の点を面談で確認してください。</p>
             <ul className="space-y-1.5 list-disc pl-5">
-              <li><strong>事業フェーズと資金状況：</strong>どのラウンドか、ランウェイ（資金の持ち期間）はどうか。Wantedly/Greenのカジュアル面談で確認する。</li>
-              <li><strong>求められる役割と裁量：</strong>即戦力・自走前提が多い。自分の強みと求められる役割が一致するか。</li>
-              <li><strong>年収・待遇：</strong>Wantedlyは給与非記載のため、年収・ストックオプションの条件は必ず別途確認する。</li>
+              <li><strong>事業フェーズと資金状況：</strong>どのラウンドか、ランウェイ（資金の持ち期間）はどうか。Wantedly/Greenのカジュアル面談で確認します。</li>
+              <li><strong>求められる役割と裁量：</strong>即戦力・自走前提が多いです。自分の強みと求められる役割が一致するか。</li>
+              <li><strong>年収・待遇：</strong>Wantedlyは給与非記載のため、年収・ストックオプションの条件は必ず別途確認です。</li>
             </ul>
             <p className="mt-3">「スタートアップ＝善」と単純化せず、安定・年収・裁量のどれを優先するかで判断するのが大切です。考え方は<Link href="/knowledge/startup-vs-enterprise/" className="text-petrol hover:underline">スタートアップと大企業どちらを選ぶか</Link>で整理しています。</p>
           </div>
@@ -169,9 +169,9 @@ export default function StartupAgentsPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-4">
               {[
-                { num: "1", title: "Green／Wantedlyで温度感を確かめる", desc: "直接・カジュアルにやり取りし、社風・事業フェーズ・求められる役割を見極める。" },
-                { num: "2", title: "モダン開発組織はFindyを足す", desc: "GitHub活動があるなら、コードで評価されてモダンな自社開発スタートアップとマッチする。" },
-                { num: "3", title: "選考・条件交渉はレバテックキャリア", desc: "書類添削・面接対策・年収交渉で、直接応募型では不足しがちな選考支援を補う。" },
+                { num: "1", title: "Green／Wantedlyで温度感を確かめる", desc: "直接・カジュアルにやり取りし、社風・事業フェーズ・求められる役割を見極めます。" },
+                { num: "2", title: "モダン開発組織はFindyを足す", desc: "GitHub活動があるなら、コードで評価されてモダンな自社開発スタートアップとマッチします。" },
+                { num: "3", title: "選考・条件交渉はレバテックキャリア", desc: "書類添削・面接対策・年収交渉で、直接応募型では不足しがちな選考支援を補います。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -187,7 +187,7 @@ export default function StartupAgentsPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">スタートアップ転職は、20代の「成長機会重視」とは異なり、30代・40代では「これまでの専門性・リード経験をどう事業に貢献させるか」が問われます。即戦力・自走が前提の環境が多いため、自分の強みと求められる役割の一致を、カジュアル面談でしっかり確認することが成功の鍵です。</p>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>30代の場合：</strong>裁量と成長機会を取りに行ける年代です。Green/Wantedlyで温度感を確かめ、モダン技術ならFindyでコード評価を受けるのが効果的です。年収はWantedlyだと見えにくいため、Greenや選考サポート型で条件を確認しましょう。</p>
-          <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>40代の場合：</strong>深い専門性・マネジメント経験を武器にできますが、事業の安定性とのバランスが重要です。事業フェーズ・資金状況・求められる役割を面談で見極め、安定とチャレンジのどちらを優先するかを明確にしてください。背景として、経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では2030年に最大約79万人のIT人材不足が見込まれ、経験あるエンジニアの需要は構造的に存在します。</p>
+          <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>40代の場合：</strong>深い専門性・マネジメント経験を強みにできますが、事業の安定性とのバランスが重要です。事業フェーズ・資金状況・求められる役割を面談で見極め、安定とチャレンジのどちらを優先するかを明確にしてください。背景として、経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では2030年に最大約79万人のIT人材不足が見込まれ、経験あるエンジニアの需要は構造的に存在します。</p>
         </section>
 
         <section id="faq" className="mb-12 scroll-mt-20">
@@ -204,7 +204,7 @@ export default function StartupAgentsPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">スタートアップは「直接応募×技術評価×選考サポート」で選ぶ</h2>
-          <p className="text-blue-100 text-sm mb-4">Green/Wantedlyで温度感を確かめ、Findyでコード評価、レバテックキャリアで選考サポート。いずれも無料です。</p>
+          <p className="text-blue-100 text-sm mb-4">Green/Wantedlyで温度感を確かめ、Findyでコード評価、レバテックキャリアで選考サポートです。いずれも無料です。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

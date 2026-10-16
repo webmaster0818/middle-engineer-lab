@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "AWS認定ソリューションアーキテクト アソシエイト(SAA)は転職に効くか【2026年】";
 const PAGE_DESC =
-  "AWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）を、経験者の加点資格という観点から30代・40代向けに解説。受験料・試験形式・合格スコア・有効期限・出題範囲を公式情報で整理し、クラウド移行需要のなかで実務とセットで効く理由と限界をまとめます。";
+  "AWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）を、経験者の加点資格という観点から30代・40代向けに解説します。受験料・試験形式・合格スコア・有効期限・出題範囲を公式情報で整理し、クラウド移行需要のなかで実務とセットで効く理由と限界をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/aws-saa/" },
@@ -98,14 +98,14 @@ export default function CertAwsSaaPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          AWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）は、AWS上でコスト効率と安全性、復元力を備えたシステムを設計する力を問う、アソシエイトレベルの認定です。本記事は「SAAを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の加点資格』</strong>という性格を軸に、公式情報（受験料・形式・合格基準・有効期限・出題範囲）をもとに整理します。資格単体では年収が跳ねないという限界も正直にお伝えします。
+          AWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）は、AWS上でコスト効率と安全性、復元力を備えたシステムを設計する力を問う、アソシエイトレベルの認定です。本記事は「SAAを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の加点資格』</strong>という性格を軸に、公式情報（受験料・形式・合格基準・有効期限・出題範囲）をもとに整理します。資格単体では年収が跳ねないという留意点もご説明します。
         </p>
 
         <DataNote
           surveyedAt="2026年6月"
           sources={[
             "AWS Certification 公式（aws.amazon.com/jp・SAA-C03 試験概要）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -131,9 +131,9 @@ export default function CertAwsSaaPage() {
               SAAは<strong>「経験者の加点資格」</strong>です。クラウド移行需要が続くなか、最も効くのは<strong>「オンプレ・インフラの実務 × AWS設計の証明」</strong>という掛け算で、実務2〜3年とセットで価値が出ます。資格単体で年収が上がる発想は禁物です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>オンプレ／インフラ経験のある30〜40代</strong>：クラウド移行案件で設計の担い手として加点される</li>
-              <li>② <strong>完全未経験のミドル</strong>：資格だけで実務未経験は埋めにくい。手を動かした成果物とセットが必要</li>
-              <li>③ <strong>有効期限3年</strong>：再認定が必要で、取りっぱなしにはできない</li>
+              <li>① <strong>オンプレ／インフラ経験のある30〜40代</strong>：クラウド移行案件で設計の担い手として加点されます</li>
+              <li>② <strong>完全未経験のミドル</strong>：資格だけで実務未経験は埋めにくいです。手を動かした成果物とセットが必要</li>
+              <li>③ <strong>有効期限3年</strong>：再認定が必要で、取りっぱなしにはできません</li>
             </ul>
           </div>
         </section>
@@ -154,7 +154,7 @@ export default function CertAwsSaaPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: AWS Certification 公式（aws.amazon.com/jp、2026年6月時点）。受験料150 USD（日本20,000円）、65問・130分、合格はスケールスコア720以上、有効期限3年。AWSは合格率を公表していません。料金・条件は改定されることがあるため、最新は必ずAWS公式でご確認ください。
+            出典: AWS Certification 公式（aws.amazon.com/jp、2026年6月時点）。受験料150 USD（日本20,000円）、65問・130分、合格はスケールスコア720以上、有効期限3年です。AWSは合格率を公表していません。料金・条件は改定されることがあるため、最新は必ずAWS公式でご確認ください。
           </p>
         </section>
 
@@ -166,10 +166,10 @@ export default function CertAwsSaaPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "セキュアなアーキテクチャの設計", d: "認証・認可、ネットワーク・データの保護など、安全性を担保する設計判断。" },
-              { t: "弾力性に優れた（復元力のある）アーキテクチャの設計", d: "可用性・耐障害性を確保し、障害時にも継続できる構成の設計。" },
-              { t: "高パフォーマンスなアーキテクチャの設計", d: "スケーラブルで高性能なコンピューティング・ストレージ・ネットワークの選定。" },
-              { t: "コストを最適化したアーキテクチャの設計", d: "要件を満たしつつコストを抑える、サービス選定とサイジングの最適化。" },
+              { t: "セキュアなアーキテクチャの設計", d: "認証・認可、ネットワーク・データの保護など、安全性を担保する設計判断です。" },
+              { t: "弾力性に優れた（復元力のある）アーキテクチャの設計", d: "可用性・耐障害性を確保し、障害時にも継続できる構成の設計です。" },
+              { t: "高パフォーマンスなアーキテクチャの設計", d: "スケーラブルで高性能なコンピューティング・ストレージ・ネットワークの選定です。" },
+              { t: "コストを最適化したアーキテクチャの設計", d: "要件を満たしつつコストを抑える、サービス選定とサイジングの最適化です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -190,7 +190,7 @@ export default function CertAwsSaaPage() {
               企業のクラウド移行は今も続いており、AWS設計を担える人材の需要は高止まりしています。SAAはその文脈で、<strong>オンプレやインフラ、ネットワーク、Linuxで積み上げてきた経験を「クラウド設計の言語」に翻訳して示す道具</strong>になります。オンプレの事情を理解したうえで移行を設計できる人材は、クラウドしか知らない若手にはない強みを持ちます。
             </p>
             <p>
-              一方で過度な期待は禁物です。SAAは<strong>『クラウドの基礎を体系的に理解している』ことの証明</strong>であって、現場での即戦力性そのものを保証するものではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。設計・運用経験と組み合わせて初めて、クラウド移行案件や設計ポジションという形で結実します。
+              一方で過度な期待は禁物です。SAAは<strong>『クラウドの基礎を体系的に理解している』ことの証明</strong>であって、現場での即戦力性そのものを保証するものではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。設計・運用経験と組み合わせて初めて、クラウド移行案件や設計ポジションという形で結実します。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>も合わせてご覧ください。
@@ -203,10 +203,10 @@ export default function CertAwsSaaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "オンプレ→クラウド移行案件への配置", d: "移行の設計フェーズで、オンプレ事情を理解した設計者として加点される。" },
-              { t: "クラウド設計スキルの客観証明", d: "AWS設計の基礎を体系的に理解していることを、応募時に客観的に示せる。" },
-              { t: "資格手当・評価制度の対象", d: "AWS認定を手当・評価の対象とする企業が多く、社内評価の根拠になりやすい。" },
-              { t: "上位資格・専門領域への布石", d: "SAAを土台に、プロフェッショナルや専門分野の認定へ進む足がかりになる。" },
+              { t: "オンプレ→クラウド移行案件への配置", d: "移行の設計フェーズで、オンプレ事情を理解した設計者として加点されます。" },
+              { t: "クラウド設計スキルの客観証明", d: "AWS設計の基礎を体系的に理解していることを、応募時に客観的に示せます。" },
+              { t: "資格手当・評価制度の対象", d: "AWS認定を手当・評価の対象とする企業が多く、社内評価の根拠になりやすいです。" },
+              { t: "上位資格・専門領域への布石", d: "SAAを土台に、プロフェッショナルや専門分野の認定へ進む足がかりになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -224,9 +224,9 @@ export default function CertAwsSaaPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "クラウドインフラエンジニア", d: "AWS上の基盤設計・構築を担う。SAAの設計知識が要件定義から構成設計までの土台になる。" },
-              { t: "クラウド移行担当（SE）", d: "オンプレからの移行を設計・推進。現行環境の理解とAWS設計の両輪が評価される。" },
-              { t: "ソリューションアーキテクト候補", d: "顧客要件をAWS構成へ落とし込む役割。SAAは入口の証明で、実務で深掘りしていく。" },
+              { t: "クラウドインフラエンジニア", d: "AWS上の基盤設計・構築を担います。SAAの設計知識が要件定義から構成設計までの土台になります。" },
+              { t: "クラウド移行担当（SE）", d: "オンプレからの移行を設計・推進です。現行環境の理解とAWS設計の両輪が評価されます。" },
+              { t: "ソリューションアーキテクト候補", d: "顧客要件をAWS構成へ落とし込む役割です。SAAは入口の証明で、実務で深掘りしていきます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -244,9 +244,9 @@ export default function CertAwsSaaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "公式試験ガイドで範囲を把握", d: "4分野（安全性・復元力・高パフォーマンス・コスト最適化）の対象サービスを公式ガイドで確認する。" },
-              { n: "STEP 2", t: "無料利用枠でハンズオン", d: "VPC・EC2・S3・IAMなど主要サービスを実際に触り、設計判断を手を動かして理解する。" },
-              { n: "STEP 3", t: "合格→実務／上位資格へ", d: "合格後はクラウド移行・設計の実務で深め、プロフェッショナル（SAP）など上位へ進む。" },
+              { n: "STEP 1", t: "公式試験ガイドで範囲を把握", d: "4分野（安全性・復元力・高パフォーマンス・コスト最適化）の対象サービスを公式ガイドで確認します。" },
+              { n: "STEP 2", t: "無料利用枠でハンズオン", d: "VPC・EC2・S3・IAMなど主要サービスを実際に触り、設計判断を手を動かして理解します。" },
+              { n: "STEP 3", t: "合格→実務／上位資格へ", d: "合格後はクラウド移行・設計の実務で深め、プロフェッショナル（SAP）など上位へ進みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -258,7 +258,7 @@ export default function CertAwsSaaPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            次の一手は上位の<Link href="/cert/aws-sap/" className="text-petrol hover:underline">AWS認定SAP（プロフェッショナル）</Link>、開発寄りなら<Link href="/cert/aws-dva/" className="text-petrol hover:underline">AWS認定DVA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-petrol hover:underline">AWS認定SOA</Link>。Linuxの土台が不安なら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>との組み合わせも有効です。
+            次の一手は上位の<Link href="/cert/aws-sap/" className="text-petrol hover:underline">AWS認定SAP（プロフェッショナル）</Link>、開発寄りなら<Link href="/cert/aws-dva/" className="text-petrol hover:underline">AWS認定DVA</Link>、運用寄りなら<Link href="/cert/aws-soa/" className="text-petrol hover:underline">AWS認定SOAです</Link>。Linuxの土台が不安なら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC／LinuC</Link>との組み合わせも有効です。
           </p>
         </section>
 
@@ -282,7 +282,7 @@ export default function CertAwsSaaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">クラウド設計・移行案件への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            SAAを活かせるクラウド移行・設計求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            SAAを活かせるクラウド移行・設計求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

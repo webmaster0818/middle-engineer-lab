@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/kddi/" },
   title: "KDDIの転職難易度と年収は？平均1051万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "KDDIへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,051万円・平均年齢42.3歳（2026年3月期・全社員平均）、5G・クラウド（AWS/GCP/Azure/KCPS）・データ・AIの募集職種、ジョブ型人事、選考フロー、30代40代の現実までまとめました。",
+    "KDDIへのエンジニア転職を実データで解説します。有価証券報告書の平均年収1,051万円・平均年齢42.3歳（2026年3月期・全社員平均）、5G・クラウド（AWS/GCP/Azure/KCPS）・データ・AIの募集職種、ジョブ型人事、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -87,7 +87,7 @@ export default function KddiCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="KDDI エンジニア転職ガイド" description="KDDIへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,051万円（2026年3月期・全社員平均）、5G・クラウド・データ・AIの募集職種、ジョブ型人事、選考フロー、30代40代の現実までまとめました。" url="/company/kddi/" />
+      <ArticleJsonLd title="KDDI エンジニア転職ガイド" description="KDDIへのエンジニア転職を実データで解説します。有価証券報告書の平均年収1,051万円（2026年3月期・全社員平均）、5G・クラウド・データ・AIの募集職種、ジョブ型人事、選考フロー、30代40代の現実までまとめました。" url="/company/kddi/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "Azureの転職ガイド", href: "/skill/azure/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "KDDI" }]} />
 
@@ -99,7 +99,7 @@ export default function KddiCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】KDDIの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: KDDIの平均年間給与は1,051万円です（2026年3月期 有価証券報告書・提出会社の全社員平均、平均年齢42.3歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,051万円（2026年3月期 有報・提出会社単体の全社員平均）。近年は954万円（2021年3月期）から上昇傾向。</li><li>・参考：レバテック公表の正社員SE年代別平均は30代 約499万円・40代 約618万円（2025年）。KDDIの全社平均はこれを上回るが管理職・上位等級を含む値。</li><li>・エンジニア職限定の公式レンジは一次情報が乏しく非公表。ジョブ型のため提示額は職務・等級で幅があり、個別求人での確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,051万円です（2026年3月期 有価証券報告書・提出会社単体の全社員平均）。近年は954万円（2021年3月期）から上昇傾向です。</li><li>・参考：レバテック公表の正社員SE年代別平均は30代 約499万円・40代 約618万円（2025年）。KDDIの全社平均はこれを上回るが管理職・上位等級を含む値です。</li><li>・エンジニア職限定の公式レンジは一次情報が乏しく非公表です。ジョブ型のため提示額は職務・等級で幅があり、個別求人での確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -155,7 +155,7 @@ export default function KddiCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく提出会社（KDDI株式会社単体）の全社員平均値。技術領域は公式採用情報（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2026年3月期 有価証券報告書に基づく提出会社（KDDI株式会社単体）の全社員平均値。技術領域は公式採用情報です（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -179,7 +179,7 @@ export default function KddiCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術領域・募集職種（公式採用情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            KDDIは公式キャリア採用ページ（2026年6月時点）で、通信×ITを支える技術職を募集しています。主な領域は以下の通りです。具体的な使用技術・必須スキルは募集ポジションにより異なります。
+            KDDIは公式キャリア採用ページ（2026年6月時点）で、通信×ITを支える技術職を募集しています。主な領域は以下のとおりです。具体的な使用技術・必須スキルは募集ポジションにより異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -269,9 +269,9 @@ export default function KddiCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">KDDI転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。クラウド・データ・通信系の求人にも対応し、非公開求人も豊富。" },
-              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、通信大手の専門職・管理職求人に対応。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。クラウド・データ・通信系の求人にも対応し、非公開求人も豊富です。" },
+              { name: "JACリクルートメント", href: "/review/jac-recruitment/", desc: "大手・外資・ハイクラスに強く、通信大手の専門職・管理職求人に対応しています。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

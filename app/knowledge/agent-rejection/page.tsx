@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "転職エージェントに断られた時の対処法｜理由と代替手段";
 const PAGE_DESC =
-  "転職エージェントに断られた・登録を断られた時の理由と代替手段を解説。30代・40代エンジニアが別ルートで転職を成功させる具体策とチェックリストを紹介します。";
+  "転職エージェントに断られた・登録を断られた時の理由と代替手段を解説します。30代・40代エンジニアが別ルートで転職を成功させる具体策とチェックリストを紹介します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/agent-rejection/" },
@@ -30,7 +30,7 @@ const reasons = [
   { num: "1", title: "そのエージェントの得意分野と合っていない", desc: "総合型のなかにはIT職の評価が手薄なサービスもあります。エンジニアの市場価値を正しく評価できず「紹介できる求人がない」となるケースです。IT特化型に切り替えると対応されることが多くあります。" },
   { num: "2", title: "実務経験が浅い／未経験寄り", desc: "サービスにより未経験者の扱いは大きく異なります。レバテックキャリアは「未経験者は紹介されにくい」との口コミ傾向があります（Qiita Job Change等）。経験が浅い場合は間口の広い総合型から始めるのが無難です。" },
   { num: "3", title: "希望条件が市場とかけ離れている", desc: "「年収大幅アップ＋フルリモート＋残業ゼロ」など条件が厳しすぎると、紹介できる求人が極端に減ります。条件に優先順位をつけ、譲れる点を明確にしましょう。" },
-  { num: "4", title: "短期離職の繰り返しなど経歴上の懸念", desc: "在職期間が短い転職を繰り返していると慎重に判断される場合があります。一貫したキャリアテーマがあれば説明可能なので、経歴の意味づけを準備しましょう。" },
+  { num: "4", title: "短期離職の繰り返しなど経歴上の懸念", desc: "在職期間が短い転職を繰り返していると慎重に判断される場合があります。一貫したキャリアテーマがあれば説明可能であるため、経歴の意味づけを準備しましょう。" },
   { num: "5", title: "登録者が多くサポート枠が埋まっている", desc: "人気サービスは時期により新規受付を制限することがあります。タイミングを変えて再登録すると対応されることもあります。" },
 ];
 
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "エージェントなしでも転職できる？",
-    a: "できます。スカウト型（ビズリーチ・paiza転職）、ダイレクトリクルーティング（Green）、企業の採用ページからの直接応募、リファラル（社員紹介）など選択肢は多数あります。paizaはスキルチェックのランクで評価されるため、経歴より実力で勝負したい人に向きます。",
+    a: "できます。スカウト型（ビズリーチ・paiza転職）、ダイレクトリクルーティング（Green）、企業の採用ページからの直接応募、リファラル（社員紹介）など選択肢は多数あります。paizaはスキルチェックのランクで評価されるため、経歴より実力を強みにしたい人に向きます。",
   },
   {
     q: "スキルを上げてから再登録してもいい？",
@@ -109,7 +109,7 @@ export default function AgentRejectionPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          転職エージェントに登録したのに「現在ご紹介できる求人がございません」と断られた——ショックを受けるかもしれませんが、これは珍しいことではありません。多くの場合、あなたの市場価値の問題ではなく「そのエージェントとの相性」の問題です。本記事では、断られる理由をサービスの特性から整理し、別ルートで転職を成功させる具体的な手段とチェックリストを解説します。
+          転職エージェントに登録したのに「現在ご紹介できる求人がございません」と断られた——ショックを受けるかもしれませんが、これは珍しいことではありません。多くの場合、ご自身の市場価値の問題ではなく「そのエージェントとの相性」の問題です。本記事では、断られる理由をサービスの特性から整理し、別ルートで転職を成功させる具体的な手段とチェックリストを解説します。
         </p>
 
         <DataNote
@@ -136,7 +136,7 @@ export default function AgentRejectionPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】転職エージェントに登録を断られたらどうすればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 1社に断られても転職はできます。多くは市場価値ではなく「そのエージェントとの相性」の問題です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総合型で断られたら、エンジニアの技術を正しく評価するIT特化型へ登録し直す</li><li>・スカウト型や企業への直接応募を併用し、仲介の合否判断を経ないルートも使う</li><li>・希望条件に優先順位をつけ、職務経歴書で技術スタックと実績を数値化してから再挑戦する</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総合型で断られたら、エンジニアの技術を正しく評価するIT特化型へ登録し直します</li><li>・スカウト型や企業への直接応募を併用し、仲介の合否判断を経ないルートも使います</li><li>・希望条件に優先順位をつけ、職務経歴書で技術スタックと実績を数値化してから再挑戦します</li></ul>
           </div>
         </section>
 
@@ -145,12 +145,12 @@ export default function AgentRejectionPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：断られても転職はできる</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              1社に断られても、それは「あなたが転職できない」ことを意味しません。エージェントごとに得意分野が違うため、<strong>IT特化型へ登録し直す＋スカウト型や直接応募を併用する</strong>のが基本の立て直し方です。
+              1社に断られても、それは「ご自身が転職できない」ことを意味しません。エージェントごとに得意分野が違うため、<strong>IT特化型へ登録し直す＋スカウト型や直接応募を併用する</strong>のが基本の立て直し方です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>・総合型で断られたら<Link href="/review/levtech/" className="font-semibold underline">レバテックキャリア</Link>等のIT特化型へ</li>
               <li>・未経験寄りなら間口の広い<Link href="/review/workport/" className="font-semibold underline">ワークポート</Link>を検討</li>
-              <li>・経歴より実力で勝負したいなら<Link href="/review/paiza/" className="font-semibold underline">paiza転職</Link>のスカウト</li>
+              <li>・経歴より実力を強みにしたいなら<Link href="/review/paiza/" className="font-semibold underline">paiza転職</Link>のスカウト</li>
             </ul>
           </div>
         </section>
@@ -193,35 +193,35 @@ export default function AgentRejectionPage() {
                   <td className="px-4 py-3 border border-slate-200 font-medium">
                     <Link href="/review/levtech/" className="text-petrol hover:underline">レバテックキャリア</Link>
                   </td>
-                  <td className="px-4 py-3 border border-slate-200">IT特化。利用者の約80%が20〜30代（公式ガイド）。未経験者は紹介されにくいとの口コミ傾向（Qiita Job Change等）。</td>
+                  <td className="px-4 py-3 border border-slate-200">IT特化です。利用者の約80%が20〜30代です（公式ガイド）。未経験者は紹介されにくいとの口コミ傾向です（Qiita Job Change等）。</td>
                   <td className="px-4 py-3 border border-slate-200">実務経験のある30代</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
                     <Link href="/review/workport/" className="text-petrol hover:underline">ワークポート</Link>
                   </td>
-                  <td className="px-4 py-3 border border-slate-200">全国47都道府県57拠点。未経験歓迎求人も豊富（公式/二次）。求職者完全無料。</td>
+                  <td className="px-4 py-3 border border-slate-200">全国47都道府県57拠点です。未経験歓迎求人も豊富です（公式/二次）。求職者完全無料です。</td>
                   <td className="px-4 py-3 border border-slate-200">未経験寄り・地方在住</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
                     <Link href="/review/bizreach-it/" className="text-petrol hover:underline">ビズリーチ</Link>
                   </td>
-                  <td className="px-4 py-3 border border-slate-200">ハイクラス・スカウト型。年収1,000万円以上求人が全体の約4割（二次）。経歴次第でスカウトが来ない場合も（二次）。</td>
+                  <td className="px-4 py-3 border border-slate-200">ハイクラス・スカウト型です。年収1,000万円以上求人が全体の約4割です（二次）。経歴次第でスカウトが来ない場合も（二次）。</td>
                   <td className="px-4 py-3 border border-slate-200">経験豊富な40代</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
                     <Link href="/review/paiza/" className="text-petrol hover:underline">paiza転職</Link>
                   </td>
-                  <td className="px-4 py-3 border border-slate-200">スキルチェックのランクで実力評価→スカウト。書類選考免除あり。ランクB以上でないと届きにくいとの声（二次）。</td>
+                  <td className="px-4 py-3 border border-slate-200">スキルチェックのランクで実力評価→スカウトです。書類選考免除があります。ランクB以上でないと届きにくいとの声です（二次）。</td>
                   <td className="px-4 py-3 border border-slate-200">コードで評価されたい人</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-medium">
                     <Link href="/review/green/" className="text-petrol hover:underline">Green</Link>
                   </td>
-                  <td className="px-4 py-3 border border-slate-200">エージェントではなくダイレクトリクルーティング。直接応募・カジュアル面談中心で仲介の合否判断がない。</td>
+                  <td className="px-4 py-3 border border-slate-200">エージェントではなくダイレクトリクルーティングです。直接応募・カジュアル面談中心で仲介の合否判断がありません。</td>
                   <td className="px-4 py-3 border border-slate-200">自分で動けるベンチャー志望</td>
                 </tr>
               </tbody>
@@ -285,15 +285,15 @@ export default function AgentRejectionPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. ダイレクトリクルーティング・直接応募</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">Greenや企業の採用ページから直接応募する方法。仲介の合否判断を経ずに応募できます。<Link href="/knowledge/direct-apply/" className="underline">直接応募とエージェントの使い分け</Link>もご覧ください。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">Greenや企業の採用ページから直接応募する方法です。仲介の合否判断を経ずに応募できます。<Link href="/knowledge/direct-apply/" className="underline">直接応募とエージェントの使い分け</Link>もご覧ください。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. リファラル（社員紹介）</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">知人の紹介で応募する方法。内部情報を事前に得やすいのが利点です。<Link href="/knowledge/referral/" className="underline">リファラル転職のメリット・デメリット</Link>で詳しく解説しています。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">知人の紹介で応募する方法です。内部情報を事前に得やすいのが利点です。<Link href="/knowledge/referral/" className="underline">リファラル転職のメリット・デメリット</Link>で詳しく解説します。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. LinkedIn・技術コミュニティ経由</h3>
-              <p className="text-sm text-petrol-deep leading-relaxed">プロフィールを充実させると採用担当やリクルーターからスカウトが届きます。勉強会・OSS活動・技術ブログが目に留まることもあります。<Link href="/knowledge/linkedin/" className="underline">LinkedInを使った転職術</Link>を参照。</p>
+              <p className="text-sm text-petrol-deep leading-relaxed">プロフィールを充実させると採用担当やリクルーターからスカウトが届きます。勉強会・OSS活動・技術ブログが目に留まることもあります。<Link href="/knowledge/linkedin/" className="underline">LinkedInを使った転職術</Link>をご参照ください。</p>
             </div>
           </div>
         </section>

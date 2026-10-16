@@ -51,11 +51,11 @@ const faqs = [
   },
   {
     q: "1200万円はどんな人が到達していますか？",
-    a: "外資系IT企業のシニアエンジニア・マネージャー、上場メガベンチャーの上級ポジション、開発組織を統括するエンジニアリングマネージャー／VPoE、アーキテクト・AI・セキュリティなどのトップスペシャリスト、ITコンサルのマネージャー層などです。共通するのは『報酬テーブルの高い環境』に『代替の利かない実力』で入っている点で、誰でも到達できる帯ではない点は正直にお伝えします。",
+    a: "外資系IT企業のシニアエンジニア・マネージャー、上場メガベンチャーの上級ポジション、開発組織を統括するエンジニアリングマネージャー／VPoE、アーキテクト・AI・セキュリティなどのトップスペシャリスト、ITコンサルのマネージャー層などです。共通するのは『報酬テーブルの高い環境』に『代替の利かない実力』で入っている点で、誰でも到達できる帯ではない点はご説明します。",
   },
   {
     q: "国内の一般的なSIerやSESでも1200万円は狙えますか？",
-    a: "可能性はゼロではありませんが、一般的な国内SIer・SESの給与テーブルでは、1200万円は管理職や限られた上位ポジションに偏り、容易ではありません。多くのケースでは、外資・上場メガベンチャー・ハイクラス転職など、報酬水準の高い環境への移動が現実的な前提になります。環境を変えずに到達するのは難しいと正直に捉えるべき帯です。",
+    a: "可能性はゼロではありませんが、一般的な国内SIer・SESの給与テーブルでは、1200万円は管理職や限られた上位ポジションに偏り、容易ではありません。多くのケースでは、外資・上場メガベンチャー・ハイクラス転職など、報酬水準の高い環境への移動が現実的な前提になります。環境を変えずに到達するのは難しいと冷静に捉えるべき帯です。",
   },
   {
     q: "1200万円求人ではどんな要件が求められますか？",
@@ -135,7 +135,7 @@ export default function Salary1200Page() {
               年収1200万円は、経済産業省のITSSスキル標準レベルでみると<strong>L6・7（1,129.9万円）</strong>に相当する最上位帯です。L6・7は社内のみならず市場でも認知される最高レベルの専門家・統括者層にあたり、1200万円は<strong>最上位の実力者</strong>の年収帯です。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              到達者は、外資系IT・上場メガベンチャー・VPoE/EM・アーキテクト/AI/セキュリティのトップスペシャリストなどに限られます。重要なのは、実力に加えて<strong>「報酬テーブルの高い環境を選ぶこと」</strong>。一般的な国内SIer・SESの給与テーブルのままでは届きにくく、環境を変えずに到達するのは容易ではないと正直に捉えるべき帯です。
+              到達者は、外資系IT・上場メガベンチャー・VPoE/EM・アーキテクト/AI/セキュリティのトップスペシャリストなどに限られます。重要なのは、実力に加えて<strong>「報酬テーブルの高い環境を選ぶこと」</strong>。一般的な国内SIer・SESの給与テーブルのままでは届きにくく、環境を変えずに到達するのは容易ではないと冷静に捉えるべき帯です。
             </p>
           </div>
         </section>
@@ -159,17 +159,17 @@ export default function Salary1200Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L4</td>
                   <td className="px-4 py-3 border border-slate-200">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門。700万円帯。手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門です。700万円帯です。手前</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L5</td>
                   <td className="px-4 py-3 border border-slate-200">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層。900万円帯。手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層です。900万円帯です。手前</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L6・7</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">1,129.9万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">最上位。1200万円が含まれる帯</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">最上位です。1200万円が含まれる帯</td>
                 </tr>
               </tbody>
             </table>
@@ -201,19 +201,19 @@ export default function Salary1200Page() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">外資系ITのシニアエンジニア／マネージャー</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">報酬水準が高く、実力次第で1200万円超に届きやすい環境。英語力と高い技術力が前提になります。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">報酬水準が高く、実力次第で1200万円超に届きやすい環境です。英語力と高い技術力が前提になります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">VPoE・エンジニアリングマネージャー</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">開発組織全体を統括する役割。人・技術・事業の責任を負うポジションで、上場企業では1200万円帯に接続します。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">開発組織全体を統括する役割です。人・技術・事業の責任を負うポジションで、上場企業では1200万円帯に接続します。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">トップアーキテクト・AI/MLスペシャリスト</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">市場で取り合いになる希少なトップ専門職。代替の利かない専門性が、マネジメントを経ずとも高年収に直結します。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">市場で取り合いになる希少なトップ専門職です。代替の利かない専門性が、マネジメントを経ずとも高年収に直結します。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ITコンサルのマネージャー層</h3>
-              <p className="text-sm text-slate-600 leading-relaxed">大規模案件を統括し、顧客の事業課題を解くマネージャー。コンサルファームの報酬体系で1200万円帯に届きます。</p>
+              <p className="text-sm text-slate-600 leading-relaxed">大規模案件を統括し、顧客の事業課題を解くマネージャーです。コンサルファームの報酬体系で1200万円帯に届きます。</p>
             </div>
           </div>
         </section>
@@ -226,7 +226,7 @@ export default function Salary1200Page() {
               1200万円帯の求人は、<strong>外資・上場メガベンチャー・コンサル・希少スペシャリスト</strong>に集中します。多くはヘッドハンティングやスカウト型で動き、一般公募に出ないことも珍しくありません。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              正直に言えば、この帯は<strong>限られた層の水準</strong>です。実力があっても、報酬テーブルの低い環境にいれば届きにくく、逆に環境を選べば同じ実力で大きく変わります。「到達は容易ではない」「環境選択が決定的に効く」という二点を誠実に理解したうえで、長期の設計として狙う帯です。
+              実際には、この帯は<strong>限られた層の水準</strong>です。実力があっても、報酬テーブルの低い環境にいれば届きにくく、逆に環境を選べば同じ実力で大きく変わります。「到達は容易ではない」「環境選択が決定的に効く」という二点を誠実に理解したうえで、長期の設計として狙う帯です。
             </p>
           </div>
         </section>
@@ -267,7 +267,7 @@ export default function Salary1200Page() {
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            年代別の相場や汎用的な年収UP戦略は、
+            年代別の相場や汎用的な年収アップ戦略は、
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
             ・
             <Link href="/purpose/salary-up/" className="text-petrol hover:underline">年収アップを目指す転職ガイド</Link>
@@ -297,7 +297,7 @@ export default function Salary1200Page() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">1200万円帯の求人があるか、無料で診断</h2>
           <p className="text-blue-100 text-sm mb-4">
-            ハイクラス・スカウト型エージェントに登録して、あなたの市場価値と1200万円求人を確認しましょう。
+            ハイクラス・スカウト型エージェントに登録して、ご自身の市場価値と1200万円求人を確認しましょう。
           </p>
           <Link
             href="/#ranking"

@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/ruby/" },
   title: "Rubyエンジニアの転職ガイド｜言語の年収・求人・将来性【2026年】",
   description:
-    "プログラミング言語Rubyエンジニアの転職市場を出典付きで解説。paiza調査で提示年収3位のRubyの市場価値、スタートアップ・自社開発での需要、求人の探し方、30代・40代の戦い方を整理します。フレームワークの詳細はRuby on Railsガイドも参照。",
+    "プログラミング言語Rubyエンジニアの転職市場を出典付きで解説。paiza調査で提示年収3位のRubyの市場価値、スタートアップ・自社開発での需要、求人の探し方、30代・40代の進め方を整理します。フレームワークの詳細はRuby on Railsガイドも参照します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Railsエンジニアの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：Railsエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Rubyの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Railsエンジニアのキャリアパス" },
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "Railsエンジニアにおすすめの転職エージェントは？",
-    a: "スタートアップ・Web系のRails求人に強いGeekly、IT・Web特化で求人の質が高いレバテックキャリア、自社サービス企業と直接やり取りできる成功報酬型サイトのGreenが選択肢です。Railsはスタートアップ求人が中心なので、ダイレクト型と仲介型を併用すると間口が広がります。",
+    a: "スタートアップ・Web系のRails求人に強いGeekly、IT・Web特化で求人の質が高いレバテックキャリア、自社サービス企業と直接やり取りできる成功報酬型サイトのGreenが選択肢です。Railsはスタートアップ求人が中心であるため、ダイレクト型と仲介型を併用すると間口が広がります。",
   },
   {
     q: "Railsエンジニアの求人は減っていますか？",
@@ -69,7 +69,7 @@ export default function RubySkillPage() {
     <>
       <ArticleJsonLd
         title="Ruby on Railsエンジニアの転職ガイド｜年収・求人・将来性"
-        description="Ruby on Railsエンジニアの転職市場を出典付きで解説。paiza調査で提示年収3位のRubyの市場価値、スタートアップ・自社開発での需要、求人の探し方、30代・40代の戦い方を整理します。"
+        description="Ruby on Railsエンジニアの転職市場を出典付きで解説。paiza調査で提示年収3位のRubyの市場価値、スタートアップ・自社開発での需要、求人の探し方、30代・40代の進め方を整理します。"
         url="/skill/ruby/"
       />
       <script
@@ -94,7 +94,7 @@ export default function RubySkillPage() {
 
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
-            Ruby on Railsは「設定より規約」の思想で高速なWebアプリ開発を可能にするフレームワークとして、スタートアップや自社サービス企業で広く採用されています。求人の主戦場はスタートアップ・自社開発であり、提示年収の水準は公表データ上も高めです。
+            Ruby on Railsは「設定より規約」の思想で高速なWebアプリ開発を可能にするフレームワークとして、スタートアップや自社サービス企業で広く採用されています。求人の中心的な活躍領域はスタートアップ・自社開発であり、提示年収の水準は公表データ上も高めです。
           </p>
           <p className="text-slate-600 leading-relaxed">
             本記事では、<strong>公表年収データ・求められる経験レベル・求人の探し方・他フレームワークからの参入ルート</strong>を、30代・40代の視点を交えて整理します。
@@ -125,15 +125,15 @@ export default function RubySkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Railsエンジニアの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Railsエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Railsは提示年収が高水準で、スタートアップ・自社開発が主戦場です。</strong>大手求人DBで数を当たるより、スタートアップに強いエージェントとダイレクト型サイトを併用し、フロントや設計力を掛け合わせて勝負するのが攻め方です。
+              <strong>Railsは提示年収が高水準で、スタートアップ・自社開発が中心的な活躍領域です。</strong>大手求人DBで数を当たるより、スタートアップに強いエージェントとダイレクト型サイトを併用し、フロントや設計力を掛け合わせて勝負するのが進め方です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・paiza 2025年調査で提示年収<strong>3位（平均689万円）</strong>。GoやTypeScriptに次ぐ高水準</li>
-              <li>・求人の中心は<strong>スタートアップ・自社サービス企業</strong>。ダイレクト型サイトの併用が有効</li>
-              <li>・Rails＋フロント（React/Vue・Hotwire）の<strong>フルスタック</strong>で市場価値が上がる</li>
+              <li>・paiza 2025年調査で提示年収<strong>3位です（平均689万円）</strong>。GoやTypeScriptに次ぐ高水準</li>
+              <li>・求人の中心は<strong>スタートアップ・自社サービス企業です</strong>。ダイレクト型サイトの併用が有効</li>
+              <li>・Rails＋フロント（React/Vue・Hotwire）の<strong>フルスタック</strong>で市場価値が上がります</li>
             </ul>
           </div>
         </section>
@@ -181,7 +181,7 @@ export default function RubySkillPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { tier: "ミドル（実装中心）", req: "Rails実務2〜4年／Active Record・RSpec／API設計／Git・チーム開発", note: "求人の中心ゾーン" },
-              { tier: "フルスタック", req: "Rails＋React/Vue/Hotwire／パフォーマンス改善／設計提案", note: "スタートアップで重宝される" },
+              { tier: "フルスタック", req: "Rails＋React/Vue/Hotwire／パフォーマンス改善／設計提案", note: "スタートアップで重宝されます" },
               { tier: "リード／CTO候補", req: "技術選定・アーキテクチャ／採用・育成／プロダクト視点", note: "少人数組織の中核を担う層" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
@@ -220,17 +220,17 @@ export default function RubySkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
-              <p className="text-sm text-slate-600 mb-2">IT・Web・ゲーム業界専門で提案スピードが強み。スタートアップのRails求人を探したい場合の主力候補です。</p>
+              <p className="text-sm text-slate-600 mb-2">IT・Web・ゲーム業界専門で提案スピードが強みです。スタートアップのRails求人を探したい場合の主力候補です。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
-              <p className="text-sm text-slate-600 mb-2">IT・Web特化で求人の質が高く、技術に踏み込んで話せるアドバイザーが在籍。自社開発のRails求人に向きます。</p>
+              <p className="text-sm text-slate-600 mb-2">IT・Web特化で求人の質が高く、技術に踏み込んで話せるアドバイザーが在籍しています。自社開発のRails求人に向きます。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Green（ダイレクト型・自社サービス中心）</h3>
-              <p className="text-sm text-slate-600 mb-2">エージェントを介さず企業と直接やり取りできる成功報酬型サイト。カジュアル面談で社風を把握しやすく、ベンチャー求人が豊富です。</p>
+              <p className="text-sm text-slate-600 mb-2">エージェントを介さず企業と直接やり取りできる成功報酬型サイトです。カジュアル面談で社風を把握しやすく、ベンチャー求人が豊富です。</p>
               <Link href="/review/green/" className="text-sm text-petrol hover:underline">Greenの詳細レビュー →</Link>
             </div>
           </div>
@@ -246,7 +246,7 @@ export default function RubySkillPage() {
             {[
               { num: "1", title: "Web系の実務経験を土台にする", desc: "PHP（Laravel）やPython（Django）でのWeb開発経験は、Railsへの橋渡しになります。MVC・ORM・ルーティングといった共通概念を持っていれば、Rails特有の規約を学ぶだけで実戦に近づけます。" },
               { num: "2", title: "RailsアプリをHeroku/Renderにデプロイする", desc: "認証・CRUD・API連携を含むRailsアプリを作り、実際にデプロイします。RSpecでテストを書き、CI/CDも構築すると、自走できるエンジニアとして評価されます。" },
-              { num: "3", title: "“Railsらしさ”を理解していると示す", desc: "Convention over Configuration、Active Recordの使い方、Fat Modelの回避など、Rails流の設計判断を語れると差別化できます。スタートアップは即戦力性を重視するため、規約への理解は強い武器です。" },
+              { num: "3", title: "“Railsらしさ”を理解していると示す", desc: "Convention over Configuration、Active Recordの使い方、Fat Modelの回避など、Rails流の設計判断を語れると差別化できます。スタートアップは即戦力性を重視するため、規約への理解は強い強みです。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -266,13 +266,13 @@ export default function RubySkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>スタートアップは「即戦力＋幅広さ」を求める。</strong>Railsの主戦場であるスタートアップは少人数のため、コードを書く力に加えて設計判断やフロント対応まで幅広く担える人を求めます。30代・40代でフルスタックの経験があるなら、それがそのまま強みになります。
+              <strong>スタートアップは「即戦力＋幅広さ」を求めます。</strong>Railsの中心的な活躍領域であるスタートアップは少人数のため、コードを書く力に加えて設計判断やフロント対応まで幅広く担える人を求めます。30代・40代でフルスタックの経験があるなら、それがそのまま強みになります。
             </p>
             <p>
-              <strong>CTO／リード候補としての需要がある。</strong>技術選定・採用・チームビルディングを担えるシニアは、スタートアップで重宝されます。マネジメントやプロダクト視点の経験があるなら、Railsの実装力とセットで打ち出しましょう。
+              <strong>CTO／リード候補としての需要があります。</strong>技術選定・採用・チームビルディングを担えるシニアは、スタートアップで重宝されます。マネジメントやプロダクト視点の経験があるなら、Railsの実装力とセットで打ち出しましょう。
             </p>
             <p>
-              <strong>カルチャーフィットの確認を怠らない。</strong>スタートアップは事業フェーズや働き方の幅が大きいため、年齢を重ねた分だけ条件・カルチャーの見極めが重要です。Greenのカジュアル面談などを活用し、入社前に社風を確認しておきましょう。
+              <strong>カルチャーフィットの確認を怠りません。</strong>スタートアップは事業フェーズや働き方の幅が大きいため、年齢を重ねた分だけ条件・カルチャーの見極めが重要です。Greenのカジュアル面談などを活用し、入社前に社風を確認しておきましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -285,13 +285,13 @@ export default function RubySkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① パフォーマンスチューニングを理解する。</strong>N+1問題の解決、クエリ最適化、キャッシュ戦略、Sidekiqによる非同期処理など、Railsアプリのパフォーマンス改善は面接で高く評価されます。
+              <strong>① パフォーマンスチューニングを理解します。</strong>N+1問題の解決、クエリ最適化、キャッシュ戦略、Sidekiqによる非同期処理など、Railsアプリのパフォーマンス改善は面接で高く評価されます。
             </p>
             <p>
-              <strong>② フロント技術を掛け合わせる。</strong>Rails＋Hotwire/Turboによるモダンなフロント、またはRails API＋React/Vueのフルスタック構成を経験すると、市場価値が上がります。
+              <strong>② フロント技術を掛け合わせます。</strong>Rails＋Hotwire/Turboによるモダンなフロント、またはRails API＋React/Vueのフルスタック構成を経験すると、市場価値が上がります。
             </p>
             <p>
-              <strong>③ Go・TypeScriptで選択肢を広げる。</strong>Rails単体に依存せず、GoやTypeScriptを掛け合わせると、新規開発の主流言語にも対応でき、キャリアの幅が広がります。
+              <strong>③ Go・TypeScriptで選択肢を広げます。</strong>Rails単体に依存せず、GoやTypeScriptを掛け合わせると、新規開発の主流言語にも対応でき、キャリアの幅が広がります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -338,7 +338,7 @@ export default function RubySkillPage() {
               { name: "Goエンジニアの転職ガイド", href: "/skill/go/" },
               { name: "スタートアップvs大手企業の選び方", href: "/knowledge/startup-vs-enterprise/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

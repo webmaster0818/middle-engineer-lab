@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/moneyforward/" },
   title: "マネーフォワードの年収は平均723万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "マネーフォワード（3994）へのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収723万円(2025年11月期)、Ruby/Go/Kotlinの技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",
+    "マネーフォワード（3994）へのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収723万円(2025年11月期)、Ruby/Go/Kotlinの技術スタック、選考フロー、口コミ傾向、30代40代視点まで。",
 };
 
 const toc = [
@@ -16,7 +16,7 @@ const toc = [
   { id: "basic", label: "基本データ（企業概要・出典付き）" },
   { id: "features", label: "エンジニア採用の特徴" },
   { id: "stack", label: "技術スタック（公開情報）" },
-  { id: "salary", label: "年収データ（有報）" },
+  { id: "salary", label: "年収データ（有価証券報告書）" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
   { id: "review", label: "口コミ・評判の傾向" },
@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     q: "マネーフォワードの技術スタックは？",
-    a: "公式技術ブログ等の公開情報によると、歴史的経緯からRuby on Railsで開発されたサービスが多く、近年はマイクロサービス化に伴いGo（gRPC等）やサーバーサイドKotlinを環境に応じて採用しています。フロントエンドはReact/TypeScript。「この技術スタックを必ず使う」という制約はかけず、チームが技術選定できる方針が公表されています。",
+    a: "公式技術ブログ等の公開情報によると、歴史的経緯からRuby on Railsで開発されたサービスが多く、近年はマイクロサービス化に伴いGo（gRPC等）やサーバーサイドKotlinを環境に応じて採用します。フロントエンドはReact/TypeScriptです。「この技術スタックを必ず使う」という制約はかけず、チームが技術選定できる方針が公表されています。",
   },
   {
     q: "マネーフォワードの選考フローは？",
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "マネーフォワードのワークライフバランスは？",
-    a: "フレックス・リモートワークに対応しており、OpenWorkのクチコミではエンジニア職は有給取得率が高い傾向が見られます。一方で部署によっては繁忙期に残業が増えるという声もあり、職種・時期で差があります。最新の勤務条件は各求人で確認してください。",
+    a: "フレックス・リモートワークに対応しており、OpenWorkの口コミではエンジニア職は有給取得率が高い傾向が見られます。一方で部署によっては繁忙期に残業が増えるという声もあり、職種・時期で差があります。最新の勤務条件は各求人で確認してください。",
   },
   {
     q: "マネーフォワードへの転職で有利な経験は？",
@@ -95,7 +95,7 @@ export default function MoneyforwardCompanyPage() {
     <>
       <ArticleJsonLd
         title="マネーフォワード エンジニア転職ガイド"
-        description="マネーフォワードへのエンジニア転職を有報・公式採用ページの一次情報で解説。平均年収723万円(2025年11月期)、技術スタック、選考フロー、口コミ傾向まで。"
+        description="マネーフォワードへのエンジニア転職を有価証券報告書・公式採用ページの一次情報で解説します。平均年収723万円(2025年11月期)、技術スタック、選考フロー、口コミ傾向まで。"
         url="/company/moneyforward/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -109,7 +109,7 @@ export default function MoneyforwardCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】マネーフォワードの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社マネーフォワードの平均年間給与は723万円です（2025年11月期 有価証券報告書・全社員平均、平均年齢34.3歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 723万円（2025年11月期 有報）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・直近5年で648万円から723万円へ上昇傾向（各期 有報）。</li><li>・職種・等級別の公式な年収表は非公表。提示額はスキル評価で個別決定されるため求人票・エージェントで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 723万円です（2025年11月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・直近5年で648万円から723万円へ上昇傾向です（各期 有価証券報告書）。</li><li>・職種・等級別の公式な年収表は非公表です。提示額はスキル評価で個別決定されるため求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -142,11 +142,11 @@ export default function MoneyforwardCompanyPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：転職難易度とどんなエンジニア向きか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <p className="font-bold text-blue-900 mb-3">結論：Rails/Goの実務経験があり、ユーザーファーストとアウトプットを楽しめるエンジニア向き。難易度は中〜やや高。</p>
+            <p className="font-bold text-blue-900 mb-3">結論：Rails/Goの実務経験があり、ユーザーファーストとアウトプットを楽しめるエンジニア向きです。難易度は中〜やや高。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li className="flex gap-2"><span className="shrink-0">1.</span>Rails中心の歴史的資産とGo/Kotlinによるマイクロサービス化が並走し、レガシー改善から新規設計まで幅広い経験を積める。</li>
-              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は723万円（2025年11月期 有報）で直近5年は上昇傾向。SaaS業界では上位の水準。</li>
-              <li className="flex gap-2"><span className="shrink-0">3.</span>登壇・ブログ・OSSなど技術的アウトプットを評価・奨励する文化。発信を続けてきたミドルエンジニアと相性が良い。</li>
+              <li className="flex gap-2"><span className="shrink-0">1.</span>Rails中心の歴史的資産とGo/Kotlinによるマイクロサービス化が並走し、レガシー改善から新規設計まで幅広い経験を積めます。</li>
+              <li className="flex gap-2"><span className="shrink-0">2.</span>全社員平均年収は723万円（2025年11月期 有価証券報告書）で直近5年は上昇傾向です。SaaS業界では上位の水準です。</li>
+              <li className="flex gap-2"><span className="shrink-0">3.</span>登壇・ブログ・OSSなど技術的アウトプットを評価・奨励する文化です。発信を続けてきたミドルエンジニアと相性が良いです。</li>
             </ul>
           </div>
         </section>
@@ -175,7 +175,7 @@ export default function MoneyforwardCompanyPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">個人・法人にまたがるフィンテックの二本柱</h3>
-              <p className="text-sm text-petrol-deep">家計簿アプリ「マネーフォワード ME」やクラウド会計「マネーフォワード クラウド」など、個人・法人双方に向けたフィンテックサービスを展開。金融データの取り扱いに関する高度な技術力と、セキュリティ・データ保護への高い意識が求められます。</p>
+              <p className="text-sm text-petrol-deep">家計簿アプリ「マネーフォワード ME」やクラウド会計「マネーフォワード クラウド」など、個人・法人双方に向けたフィンテックサービスを展開しています。金融データの取り扱いに関する高度な技術力と、セキュリティ・データ保護への高い意識が求められます。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">マイクロサービスへの移行とモダナイゼーション</h3>
@@ -214,10 +214,10 @@ export default function MoneyforwardCompanyPage() {
         </section>
 
         <section id="salary" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有報）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ（有価証券報告書）</h2>
           <p className="text-slate-700 text-sm leading-relaxed mb-4">
             マネーフォワードは上場企業のため、有価証券報告書に全社員の平均年間給与が記載されています。<strong>これは全社員平均であり、エンジニア職に限った数値ではありません。</strong>
-            職種・等級別の公式な年収表は公開されていないため、ここでは有報の推移のみを掲載します。
+            職種・等級別の公式な年収表は公開されていないため、ここでは有価証券報告書の推移のみを掲載します。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
             <table className="w-full text-sm">
@@ -239,7 +239,7 @@ export default function MoneyforwardCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mb-4">出典: 株式会社マネーフォワード 有価証券報告書（各期）。直近5年で648万円→723万円へ上昇傾向。</p>
+          <p className="text-xs text-slate-400 mb-4">出典: 株式会社マネーフォワード 有価証券報告書（各期）。直近5年で648万円→723万円へ上昇傾向です。</p>
           <p className="text-slate-700 text-sm leading-relaxed">
             参考として、IT・通信業界の転職者の平均決定年収は486万円（パーソルキャリア「decision年収レポート」2024年度・2025年5月公表）であり、マネーフォワードの全社員平均はこれを大きく上回ります。
             個別のエンジニア求人の提示額はスキル評価で個別決定されるため、本ページでは確認できる出典のない等級別レンジは掲載していません。実際の提示額は求人票またはエージェント経由でご確認ください。
@@ -253,10 +253,10 @@ export default function MoneyforwardCompanyPage() {
           </p>
           <ol className="space-y-3">
             {[
-              ["カジュアル面談（任意）", "選考前に現場や採用担当と話せる場。事業や働き方を確認できる。"],
-              ["応募・書類選考", "業務経験に加え、GitHubやブログなど対外的な情報発信（アウトプット）が見られるとされる。"],
-              ["面接（複数回）", "現場メンバー・マネージャー等との面接。ミッション・ビジョン・行動方針への共感、ユーザーファーストの姿勢、技術的な議論が中心。"],
-              ["内定・オファー面談", "条件・制度の説明。"],
+              ["カジュアル面談（任意）", "選考前に現場や採用担当と話せる場です。事業や働き方を確認できます。"],
+              ["応募・書類選考", "業務経験に加え、GitHubやブログなど対外的な情報発信（アウトプット）が見られるとされます。"],
+              ["面接（複数回）", "現場メンバー・マネージャー等との面接です。ミッション・ビジョン・行動方針への共感、ユーザーファーストの姿勢、技術的な議論が中心です。"],
+              ["内定・オファー面談", "条件・制度の説明です。"],
             ].map(([title, desc], i) => (
               <li key={i} className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 rounded-full bg-petrol text-white text-sm font-bold flex items-center justify-center">{i + 1}</span>
@@ -276,10 +276,10 @@ export default function MoneyforwardCompanyPage() {
             公式採用ページ・採用担当インタビュー（レバテックキャリア掲載）などの公開情報から読み取れる傾向です。質問文の再現や断定は避け、評価観点として整理します。
           </p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>徹底したユーザー志向（User Focus）。ユーザーに何を提供したいかを語れるか。</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ミッション・ビジョン・行動方針への共感とマッチ。</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術的なアウトプット（登壇・ブログ・GitHub・OSS）の有無と姿勢。</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Rails/Goでの設計・実装力、マイクロサービスや分散システムへの理解。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>徹底したユーザー志向です（User Focus）。ユーザーに何を提供したいかを語れるか。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ミッション・ビジョン・行動方針への共感とマッチします。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>技術的なアウトプット（登壇・ブログ・GitHub・OSS）の有無と姿勢です。</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>Rails/Goでの設計・実装力、マイクロサービスや分散システムへの理解です。</li>
           </ul>
           <p className="text-sm text-slate-600 mt-4">
             面接全般の準備は<Link href="/knowledge/tech-interview/" className="text-petrol hover:underline">技術面接の対策ガイド</Link>、設計面接は<Link href="/knowledge/system-design/" className="text-petrol hover:underline">システム設計面接の対策</Link>を参考にしてください。
@@ -316,7 +316,7 @@ export default function MoneyforwardCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見たマネーフォワード</h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              マネーフォワードは東証プライム上場のフィンテックSaaSで、全社員平均年収は723万円（2025年11月期 有報）と直近5年で上昇傾向にあります。30代・40代にとっては、上場企業の事業基盤と、Rails資産のモダナイゼーション・マイクロサービス化という「やりがいのある技術課題」を両立できるのが魅力です。
+              マネーフォワードは東証プライム上場のフィンテックSaaSで、全社員平均年収は723万円（2025年11月期 有価証券報告書）と直近5年で上昇傾向にあります。30代・40代にとっては、上場企業の事業基盤と、Rails資産のモダナイゼーション・マイクロサービス化という「やりがいのある技術課題」を両立できるのが魅力です。
             </p>
             <p>
               平均年齢34.3歳・平均勤続年数2.9年と、若く流動性の高い組織です。40代はシニア寄りの立ち位置になるため、レガシー改善の経験、分散システム・大規模データの設計経験、テックリードやマネジメントの実績が年齢に見合う価値として評価されやすいでしょう。登壇やブログなど発信を続けてきた人は、採用でアウトプットが見られる文化とも相性が良いです。
@@ -334,9 +334,9 @@ export default function MoneyforwardCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高い。フィンテック・SaaS企業の求人に強く、書類添削・面接対策に定評。" },
-              { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイト。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすい。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。提案スピードが強みで、フィンテック系企業への転職実績が豊富。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT/Web特化で高年収求人比率が高いです。フィンテック・SaaS企業の求人に強く、書類添削・面接対策に定評があります。" },
+              { name: "Green", href: "/review/green/", desc: "成功報酬型の転職サイトです。IT/Webベンチャーに強く、カジュアル面談で社風を把握しやすいです。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。提案スピードが強みで、フィンテック系企業への転職実績が豊富です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

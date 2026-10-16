@@ -6,13 +6,13 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "バックエンドからフロントエンドへの転職｜移行ステップとスキルギャップ";
 const DESC =
-  "バックエンドエンジニアからフロントエンドエンジニアへ移行する進め方を、スキルギャップ比較表・在職中の学習ステップ・職務経歴書のBefore/After例文付きで解説。30代40代の現実も正直に紹介します。";
+  "バックエンドエンジニアからフロントエンドエンジニアへ移行する進め方を、スキルギャップ比較表・在職中の学習ステップ・職務経歴書のBefore/After例文付きで解説します。30代40代の現実も紹介します。";
 const URL = "/career/backend-to-frontend/";
 
 export const metadata: Metadata = { alternates: { canonical: "/career/backend-to-frontend/" }, title: TITLE, description: DESC };
 
 const toc = [
-  { id: "conclusion", label: "結論：現実性と攻め方" },
+  { id: "conclusion", label: "結論：現実性と進め方" },
   { id: "gap", label: "スキルギャップ比較表" },
   { id: "build", label: "必要スキルの身につけ方" },
   { id: "steps", label: "移行ステップ（在職中の準備）" },
@@ -27,8 +27,8 @@ const toc = [
 const gapRows = [
   { axis: "プログラミング基礎", back: "◎ 設計・テスト・レビューの習慣", front: "○ 言語が異なっても基礎は流用できる", gap: "活用" },
   { axis: "モダンフレームワーク（React等）", back: "△ 触れる機会が限定的", front: "◎ React/Next.js等のSPA開発が中核", gap: "大" },
-  { axis: "UI/UX・ブラウザ理解", back: "△ サーバー側中心で経験が薄い", front: "◎ レンダリング・アクセシビリティ・レスポンシブ", gap: "大" },
-  { axis: "状態管理・非同期UI", back: "○ 非同期処理自体には慣れている", front: "◎ クライアント状態管理とUI更新の設計", gap: "中" },
+  { axis: "UI/UX・ブラウザ理解", back: "△ サーバー側中心で経験が薄いです", front: "◎ レンダリング・アクセシビリティ・レスポンシブ", gap: "大" },
+  { axis: "状態管理・非同期UI", back: "○ 非同期処理自体には慣れています", front: "◎ クライアント状態管理とUI更新の設計", gap: "中" },
   { axis: "API連携設計", back: "◎ API提供側として設計してきた", front: "○ 利用側として最適なデータ取得設計", gap: "活用" },
   { axis: "パフォーマンス最適化", back: "○ クエリ・サーバー側の最適化経験", front: "◎ バンドルサイズ・描画・Core Web Vitals", gap: "中" },
 ];
@@ -48,15 +48,15 @@ const migrationSteps = [
 ];
 
 const agents = [
-  { name: "レバテックキャリア", point: "IT/Web特化で技術理解のあるアドバイザーが在籍。バックエンド経験を活かしたフロント／フルスタック求人を相談しやすい。", href: "/review/levtech/" },
-  { name: "ビズリーチ", point: "ハイクラス・スカウト型。フロント求人のスカウトを通じて、自分の技術スタックの市場評価を客観的に把握できます。", href: "/review/bizreach-it/" },
-  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数。Web系の求人が豊富で、職種転換を含む転職でも選択肢を確保しやすい。", href: "/review/recruit-it/" },
+  { name: "レバテックキャリア", point: "IT/Web特化で技術理解のあるアドバイザーが在籍しています。バックエンド経験を活かしたフロント／フルスタック求人を相談しやすいです。", href: "/review/levtech/" },
+  { name: "ビズリーチ", point: "ハイクラス・スカウト型です。フロント求人のスカウトを通じて、自分の技術スタックの市場評価を客観的に把握できます。", href: "/review/bizreach-it/" },
+  { name: "リクルートエージェント（IT）", point: "国内最大級の求人数です。Web系の求人が豊富で、職種転換を含む転職でも選択肢を確保しやすいです。", href: "/review/recruit-it/" },
 ];
 
 const faqs = [
-  { q: "バックエンドからフロントエンドへの転職は難しい？", a: "同じ開発職内の移行なので、未経験職種への転換に比べれば難度は高くありません。プログラミング基礎と設計力が流用できるため、React等のモダンフレームワークとUI/UXの理解を埋めれば現実的に移行できます。" },
+  { q: "バックエンドからフロントエンドへの転職は難しい？", a: "同じ開発職内の移行であるため、未経験職種への転換に比べれば難度は高くありません。プログラミング基礎と設計力が流用できるため、React等のモダンフレームワークとUI/UXの理解を埋めれば現実的に移行できます。" },
   { q: "なぜバックエンドからフロントに移るの？", a: "ユーザーに近い領域で成果を体感したい、プロダクトのUXに踏み込みたい、需要の高いReact系スキルを身につけたいといった動機があります。フルスタック志向で対応範囲を広げる目的の人も多いです。" },
-  { q: "CSSやデザインのセンスは必須？", a: "フロントエンドエンジニアはデザイナーとは別職種で、デザインを一から作る必要はありません。ただしレイアウト・レスポンシブ・アクセシビリティの実装力は必要なので、CSS（Flexbox/Grid）の基礎は押さえます。" },
+  { q: "CSSやデザインのセンスは必須？", a: "フロントエンドエンジニアはデザイナーとは別職種で、デザインを一から作る必要はありません。ただしレイアウト・レスポンシブ・アクセシビリティの実装力は必要であるため、CSS（Flexbox/Grid）の基礎は押さえます。" },
   { q: "バックエンド経験はフロントで評価される？", a: "評価されます。API設計を理解しているためデータ取得の設計が的確で、テスト・型・パフォーマンスの観点も持ち込めます。フルスタック寄りのチームでは特に重宝されます。" },
   { q: "年収は下がる？", a: "断定はできません。同じ開発職内の移行のため大きく下がるケースは少ないですが、フロント専任のジュニア相当で入ると一時的に下がる可能性もあります。フルスタック起点なら維持しやすく、提示額は書面で確認しましょう。" },
   { q: "30代・40代でも移行できる？", a: "可能です。バックエンドの実務経験という土台があるため未経験参入より有利です。ただし学習時間が限られやすいので、在職中にReact＋UIの成果物を1つ作っておくことが重要です。" },
@@ -129,11 +129,11 @@ export default function BackendToFrontendPage() {
 
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：設計力は流用できる。鍵はReactとUI/UX</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：設計力は流用できます。鍵はReactとUI/UX</h2>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・プログラミング基礎と設計の習慣は流用できる。未経験職種への転換より難度は低い。</li>
+              <li>・プログラミング基礎と設計の習慣は流用できます。未経験職種への転換より難度は低いです。</li>
               <li>・ギャップが大きいのは「モダンフレームワーク（React）」と「UI/UX・ブラウザ理解」。</li>
-              <li>・職務経歴書は『APIを作った』から『ユーザー体験をどう設計したか』へ書き換える。</li>
+              <li>・職務経歴書は『APIを作った』から『ユーザー体験をどう設計したか』へ書き換えます。</li>
             </ul>
           </div>
         </section>
@@ -203,24 +203,24 @@ export default function BackendToFrontendPage() {
         <section id="resume" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">職務経歴書での見せ方（Before/After例文）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            バックエンドの職務経歴書は「API・処理・DB」が中心になりがちですが、フロント選考では「ユーザー体験をどう設計し、どんなUI課題を解いたか」を語る形が刺さります。書き換え例を示します。
+            バックエンドの職務経歴書は「API・処理・DB」が中心になりがちですが、フロント選考では「ユーザー体験をどう設計し、どんなUI課題を解いたか」を語る形が評価されます。書き換え例を示します。
           </p>
           <div className="space-y-4">
             <div className="border border-red-200 rounded-lg p-5 bg-red-50/40">
               <p className="font-bold text-red-700 text-sm mb-2">Before（サーバー処理の羅列）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                業務システムのバックエンド開発を担当。REST APIの実装、DB設計、バッチ処理の作成を行った。パフォーマンス改善のためクエリの最適化を実施した。
+                業務システムのバックエンド開発を担当します。REST APIの実装、DB設計、バッチ処理の作成を行った。パフォーマンス改善のためクエリの最適化を実施しました。
               </p>
             </div>
             <div className="border border-emerald-200 rounded-lg p-5 bg-emerald-50/40">
               <p className="font-bold text-emerald-700 text-sm mb-2">After（ユーザー体験と実装を主語に）</p>
               <p className="text-sm text-slate-700 leading-relaxed">
-                個人開発でReact/Next.jsを用いたSPAを構築し、API設計の知見を活かして無駄のないデータ取得とローディングUIを設計。アクセシビリティ（WAI-ARIA）とレスポンシブに配慮し、画像最適化とコード分割でLCPを改善。バックエンド経験を活かしBFF層も自作した。GitHubでコードを公開。
+                個人開発でReact/Next.jsを用いたSPAを構築し、API設計の知見を活かして無駄のないデータ取得とローディングUIを設計します。アクセシビリティ（WAI-ARIA）とレスポンシブに配慮し、画像最適化とコード分割でLCPを改善します。バックエンド経験を活かしBFF層も自作しました。GitHubでコードを公開しています。
               </p>
             </div>
           </div>
           <p className="text-slate-500 text-xs mt-3">
-            ※技術・数値は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>を参照。
+            ※技術・数値は実績に置き換えてください。型は<Link href="/knowledge/resume/" className="text-petrol hover:underline">職務経歴書の書き方ガイド</Link>と<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>をご参照ください。
           </p>
         </section>
 

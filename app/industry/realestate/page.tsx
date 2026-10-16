@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "不動産業界から不動産テック転職ガイド｜30代40代";
 const DESC =
-  "不動産系SE・不動産業界エンジニアから不動産テック（PropTech）領域へ転職する現実的な方法を解説。活かせる不動産ドメイン知識と埋めるギャップ、年収の考え方、30代40代の進め方を公的データで整理します。";
+  "不動産系SE・不動産業界エンジニアから不動産テック（PropTech）領域へ転職する現実的な方法を解説します。活かせる不動産ドメイン知識と埋めるギャップ、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industry/realestate/" },
@@ -36,17 +36,17 @@ const skillGap = [
 ];
 
 const patterns = [
-  ["不動産テックプロダクトエンジニア", "物件ポータル・不動産SaaS", "不動産業務知識＋Web開発。ドメイン理解を武器に未経験技術を補う王道ルート"],
-  ["不動産データ・査定分析エンジニア", "不動産会社・不動産テック", "SQL・Pythonでの価格/賃料予測。データ志向の人に向く"],
-  ["不動産DX推進・社内SE", "デベロッパー・仲介・管理会社", "基幹刷新や電子契約導入のPM。大規模PJ経験が活きる"],
-  ["不動産テックPM・ブリッジ役", "スタートアップ・SaaS", "業務とエンジニアをつなぐ。現場理解と要件定義力が問われる"],
+  ["不動産テックプロダクトエンジニア", "物件ポータル・不動産SaaS", "不動産業務知識＋Web開発です。ドメイン理解を強みに未経験技術を補う代表的なルート"],
+  ["不動産データ・査定分析エンジニア", "不動産会社・不動産テック", "SQL・Pythonでの価格/賃料予測です。データ志向の人に向く"],
+  ["不動産DX推進・社内SE", "デベロッパー・仲介・管理会社", "基幹刷新や電子契約導入のPMです。大規模PJ経験が活きる"],
+  ["不動産テックPM・ブリッジ役", "スタートアップ・SaaS", "業務とエンジニアをつなぎます。現場理解と要件定義力が問われる"],
 ];
 
 const companyTypes = [
-  ["不動産テックスタートアップ", "物件ポータル・賃貸DX・不動産投資・クラウドファンディングなどの自社プロダクト。モダンな技術と裁量が魅力", "スピード感・少人数開発に適応できる人"],
-  ["デベロッパー・大手不動産のDX部門／IT子会社", "基幹刷新、電子契約、データ基盤。安定基盤で大規模案件に関われる", "大規模PJのマネジメントを志向する人"],
-  ["AI査定・データ×不動産", "価格・賃料予測、投資分析。データ分析やGISが近い", "データ・分析寄りの志向がある人"],
-  ["不動産特化SIer・コンサル", "不動産会社向けの上流支援。業務理解とプロジェクト推進力が問われる", "顧客折衝・上流志向の人"],
+  ["不動産テックスタートアップ", "物件ポータル・賃貸DX・不動産投資・クラウドファンディングなどの自社プロダクトです。モダンな技術と裁量が魅力", "スピード感・少人数開発に適応できる人"],
+  ["デベロッパー・大手不動産のDX部門／IT子会社", "基幹刷新、電子契約、データ基盤です。安定基盤で大規模案件に関われる", "大規模PJのマネジメントを志向する人"],
+  ["AI査定・データ×不動産", "価格・賃料予測、投資分析です。データ分析やGISが近い", "データ・分析寄りの志向がある人"],
+  ["不動産特化SIer・コンサル", "不動産会社向けの上流支援です。業務理解とプロジェクト推進力が問われる", "顧客折衝・上流志向の人"],
 ];
 
 const faqs = [
@@ -72,11 +72,11 @@ const faqs = [
   },
   {
     q: "30代・40代でも不動産から不動産テックに転職できますか？",
-    a: "不動産ドメイン知識が武器になりやすい領域のため、年齢だけが理由で不利になるとは限りません。30代はWeb開発・データ分析の習得、40代は業務理解とマネジメントの組み合わせで強みを示すと、ミドル層ならではの価値を打ち出しやすくなります。",
+    a: "不動産ドメイン知識が強みになりやすい領域のため、年齢だけが理由で不利になるとは限りません。30代はWeb開発・データ分析の習得、40代は業務理解とマネジメントの組み合わせで強みを示すと、ミドル層ならではの価値を打ち出しやすくなります。",
   },
   {
     q: "不動産から不動産テック転職に強いエージェントは？",
-    a: "IT/Webベンチャーに強いとされるGeekly、IT特化のレバテックキャリア、異業種からの転職支援を扱うワークポートなどが候補です。1社に絞らず複数登録して、求人と担当者を比較するのが定石です。",
+    a: "IT/Webベンチャーに強いとされるGeekly、IT特化のレバテックキャリア、異業種からの転職支援を扱うワークポートなどが候補です。1社に絞らず複数登録して、求人と担当者を比較するのが基本です。",
   },
   {
     q: "未出典の市場規模や成長率は記載していますか？",
@@ -147,9 +147,9 @@ export default function RealestatePage() {
               ただし不動産知識だけで完結するわけではなく、Web開発やデータ分析スキルとの掛け合わせが鍵になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・取引・契約・物件管理の業務理解は不動産テックで希少価値が高い</li>
-              <li>・一方でWeb開発・データ分析・AI/GIS等の実務経験は多くの求人で問われる</li>
-              <li>・30代は技術習得、40代は業務理解＋マネジメントで勝負しやすい</li>
+              <li>・取引・契約・物件管理の業務理解は不動産テックで希少価値が高いです</li>
+              <li>・一方でWeb開発・データ分析・AI/GIS等の実務経験は多くの求人で問われます</li>
+              <li>・30代は技術習得、40代は業務理解＋マネジメントを強みにしやすいです</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -293,10 +293,10 @@ export default function RealestatePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "不動産経験を棚卸しする", desc: "携わった不動産システムの領域（基幹・物件管理・契約・顧客管理など）、業務知識、効率化の実績を具体的に整理する。数値化できる成果は必ず洗い出す。" },
-              { step: "2", title: "不足スキルを補う計画を立てる", desc: "Web開発（React/Next.js）、バックエンド、データ分析（SQL/Python）など、求人で問われやすい技術を3〜6ヶ月で学習。小さくても動くものを作ると説得力が増す。" },
-              { step: "3", title: "活きる領域を見極める", desc: "仲介・賃貸・売買・投資・管理のうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定する。" },
-              { step: "4", title: "エージェント2社以上に登録する", desc: "IT/Webに強いGeeklyやIT特化のレバテックキャリアなどに登録。求人と担当者を比較し、市場価値を客観的に把握する。" },
+              { step: "1", title: "不動産経験を棚卸しする", desc: "携わった不動産システムの領域（基幹・物件管理・契約・顧客管理など）、業務知識、効率化の実績を具体的に整理します。数値化できる成果は必ず洗い出します。" },
+              { step: "2", title: "不足スキルを補う計画を立てる", desc: "Web開発（React/Next.js）、バックエンド、データ分析（SQL/Python）など、求人で問われやすい技術を3〜6ヶ月で学習します。小さくても動くものを作ると説得力が増します。" },
+              { step: "3", title: "活きる領域を見極める", desc: "仲介・賃貸・売買・投資・管理のうち、自分の経験が最も活きる領域に絞ってターゲット企業を選定します。" },
+              { step: "4", title: "エージェント2社以上に登録する", desc: "IT/Webに強いGeeklyやIT特化のレバテックキャリアなどに登録します。求人と担当者を比較し、市場価値を客観的に把握します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -321,13 +321,13 @@ export default function RealestatePage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：業務理解とマネジメントを軸に</h3>
               <p className="text-sm text-petrol-deep">
-                取引・契約・管理の深い業務理解や大規模PJのマネジメントは、不動産テック企業や不動産DX支援で評価されやすい強みです。実装だけで勝負するより、組み合わせの価値を打ち出すのが現実的です。
+                取引・契約・管理の深い業務理解や大規模PJのマネジメントは、不動産テック企業や不動産DX支援で評価されやすい強みです。実装だけを強みにするより、組み合わせの価値を打ち出すのが現実的です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
               <p className="text-sm text-petrol-deep">
-                若手と同じ土俵で最新技術だけを競うのではなく、不動産×ITという希少性で差別化するのがミドル層の定石です。
+                若手と同じ土俵で最新技術だけを競うのではなく、不動産×ITという希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
@@ -338,13 +338,13 @@ export default function RealestatePage() {
         <section id="agents" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">相談先エージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            不動産×ITの転職では、IT/Webに強いエージェントを複数併用するのが定石です。
+            不動産×ITの転職では、IT/Webに強いエージェントを複数併用するのが基本です。
           </p>
           <div className="space-y-3">
             {[
-              { name: "Geekly", desc: "IT/Web/ゲーム業界に特化し、提案スピードが強みとされる。Webベンチャーの求人を見たい場合の選択肢。", href: "/review/geekly/" },
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強み。ミドルは経歴を丁寧に伝えたい。", href: "/review/levtech/" },
-              { name: "ワークポート", desc: "総合型だがIT・ゲームに強く、異業種からの転職支援も扱う。幅広く比較したい場合の併用候補。", href: "/review/workport/" },
+              { name: "Geekly", desc: "IT/Web/ゲーム業界に特化し、提案スピードが強みとされます。Webベンチャーの求人を見たい場合の選択肢です。", href: "/review/geekly/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
+              { name: "ワークポート", desc: "総合型だがIT・ゲームに強く、異業種からの転職支援も扱います。幅広く比較したい場合の併用候補です。", href: "/review/workport/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -371,7 +371,7 @@ export default function RealestatePage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">不動産の知識を不動産テックで活かそう</h2>
-          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

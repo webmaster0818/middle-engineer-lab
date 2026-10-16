@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/php/" },
   title: "PHPエンジニアの転職ガイド｜Laravel・年収・将来性【2026年】",
   description:
-    "PHPエンジニアの転職市場を出典付きで解説。求人数で上位を占めるPHPの市場価値、Laravelでの差別化、WordPress案件からの脱却、求人の探し方、30代・40代の戦い方を整理します。",
+    "PHPエンジニアの転職市場を出典付きで解説。求人数で上位を占めるPHPの市場価値、Laravelでの差別化、WordPress案件からの脱却、求人の探し方、30代・40代の進め方を整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：PHPエンジニアの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：PHPエンジニアの転職市場での進め方" },
   { id: "market", label: "2. PHPの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. PHPエンジニアのキャリアパス" },
@@ -69,7 +69,7 @@ export default function PhpSkillPage() {
     <>
       <ArticleJsonLd
         title="PHPエンジニアの転職ガイド｜Laravel・年収・将来性【2026年】"
-        description="PHPエンジニアの転職市場を出典付きで解説。求人数で上位を占めるPHPの市場価値、Laravelでの差別化、WordPress案件からの脱却、求人の探し方、30代・40代の戦い方を整理します。"
+        description="PHPエンジニアの転職市場を出典付きで解説。求人数で上位を占めるPHPの市場価値、Laravelでの差別化、WordPress案件からの脱却、求人の探し方、30代・40代の進め方を整理します。"
         url="/skill/php/"
       />
       <script
@@ -94,7 +94,7 @@ export default function PhpSkillPage() {
 
         <section className="mb-6">
           <p className="text-slate-600 leading-relaxed mb-4">
-            PHPはWebの基盤として圧倒的なシェアを持ち、求人数でも上位を占める「機会の多い」言語です。一方で案件の幅が広く、WordPress制作中心かLaravelのアプリ開発かで年収レンジが大きく変わります。どの領域で勝負するかの設計が、転職成否を分けます。
+            PHPはWebの基盤として圧倒的なシェアを持ち、求人数でも上位を占める「機会の多い」言語です。一方で案件の幅が広く、WordPress制作中心かLaravelのアプリ開発かで年収レンジが大きく変わります。どの領域を強みにするかの設計が、転職成否を分けます。
           </p>
           <p className="text-slate-600 leading-relaxed">
             本記事では、<strong>公表データ・求められる経験レベル・求人の探し方・レガシー／WordPress中心からの脱却ルート</strong>を、30代・40代の視点を交えて整理します。
@@ -127,14 +127,14 @@ export default function PhpSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PHPエンジニアの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：PHPエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>PHPは求人数が多い分、「どの案件で戦うか」で年収が決まります。</strong>WordPress制作で止まらず、Laravelのアプリ開発やフロント・他言語の掛け合わせで、レンジの広いポジションへ移るのが攻め方です。
+              <strong>PHPは求人数が多い分、「どの案件で戦うか」で年収が決まります。</strong>WordPress制作で止まらず、Laravelのアプリ開発やフロント・他言語の掛け合わせで、レンジの広いポジションへ移るのが進め方です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・paiza 2025年調査で企業ニーズ（求人数比率）<strong>3位（11.0%）</strong>。転職機会を得やすい</li>
-              <li>・W3Techs集計（2026年6月時点）でWebの<strong>約71.8%がPHP</strong>。需要の土台が大きい</li>
+              <li>・paiza 2025年調査で企業ニーズ（求人数比率）<strong>3位です（11.0%）</strong>。転職機会を得やすいです</li>
+              <li>・W3Techs集計（2026年6月時点）でWebの<strong>約71.8%がPHPです</strong>。需要の土台が大きいです</li>
               <li>・<strong>Laravel＋フロント／他言語</strong>の掛け合わせが年収アップの分岐点</li>
             </ul>
           </div>
@@ -223,17 +223,17 @@ export default function PhpSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
-              <p className="text-sm text-slate-600 mb-2">PHP求人が豊富で、技術に精通したアドバイザーが在籍。Laravel・自社開発の提案に向きます。</p>
+              <p className="text-sm text-slate-600 mb-2">PHP求人が豊富で、技術に精通したアドバイザーが在籍しています。Laravel・自社開発の提案に向きます。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ワークポート（Web系・未経験歓迎も豊富）</h3>
-              <p className="text-sm text-slate-600 mb-2">IT・Webに強い総合型で、未経験歓迎求人も多くレスポンスが速いのが特徴。幅広いPHP求人を当たりたい場合に向きます。</p>
+              <p className="text-sm text-slate-600 mb-2">IT・Webに強い総合型で、未経験歓迎求人も多くレスポンスが速いのが特徴です。幅広いPHP求人を当たりたい場合に向きます。</p>
               <Link href="/review/workport/" className="text-sm text-petrol hover:underline">ワークポートの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
-              <p className="text-sm text-slate-600 mb-2">IT・Web・ゲーム業界専門で提案スピードが強み。スタートアップのLaravel案件を探したい場合の選択肢です。</p>
+              <p className="text-sm text-slate-600 mb-2">IT・Web・ゲーム業界専門で提案スピードが強みです。スタートアップのLaravel案件を探したい場合の選択肢です。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
           </div>
@@ -269,13 +269,13 @@ export default function PhpSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>求人母数の多さは年齢のリスクヘッジになる。</strong>PHPは求人数が多く、年齢で間口が極端に狭まりにくい言語です。30代・40代でも応募先を確保しやすいのは、需要の土台が大きいPHPならではの強みです。
+              <strong>求人母数の多さは年齢のリスクヘッジになります。</strong>PHPは求人数が多く、年齢で間口が極端に狭まりにくい言語です。30代・40代でも応募先を確保しやすいのは、需要の土台が大きいPHPならではの強みです。
             </p>
             <p>
-              <strong>「制作止まり」を脱して年収レンジを上げる。</strong>WordPress制作中心のキャリアだと年収が頭打ちになりやすいため、Laravelのアプリ開発やPHP 8系のモダン機能を一つでも持つことが分岐点です。レガシーとモダンの両方が分かる人材は、モダナイゼーション案件で重宝されます。
+              <strong>「制作止まり」を脱して年収レンジを上げます。</strong>WordPress制作中心のキャリアだと年収が頭打ちになりやすいため、Laravelのアプリ開発やPHP 8系のモダン機能を一つでも持つことが分岐点です。レガシーとモダンの両方が分かる人材は、モダナイゼーション案件で重宝されます。
             </p>
             <p>
-              <strong>受託・業務知識を武器にする。</strong>受託開発で培った要件定義・顧客折衝の経験や、ECなどのドメイン知識は、若手では代替しにくい資産です。技術力とセットで提示すれば、40代でも設計・リードのポジションで戦えます。
+              <strong>受託・業務知識を強みにします。</strong>受託開発で培った要件定義・顧客折衝の経験や、ECなどのドメイン知識は、若手では代替しにくい資産です。技術力とセットで提示すれば、40代でも設計・リードのポジションで戦えます。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -288,13 +288,13 @@ export default function PhpSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① Laravelで一気通貫の成果物を作る。</strong>認証・CRUD・API・テストを含むアプリをLaravelで作り、デプロイまで通します。モダンPHPを実務レベルで扱える証拠になります。
+              <strong>① Laravelで一気通貫の成果物を作ります。</strong>認証・CRUD・API・テストを含むアプリをLaravelで作り、デプロイまで通します。モダンPHPを実務レベルで扱える証拠になります。
             </p>
             <p>
-              <strong>② テストと設計の質を高める。</strong>PHPUnitやPestでのテスト、サービス層の分離など、保守性を意識した設計を学ぶと、レガシー脱却・モダナイゼーション案件で評価されます。
+              <strong>② テストと設計の質を高めます。</strong>PHPUnitやPestでのテスト、サービス層の分離など、保守性を意識した設計を学ぶと、レガシー脱却・モダナイゼーション案件で評価されます。
             </p>
             <p>
-              <strong>③ フロント・他言語で選択肢を広げる。</strong>TypeScript（Next.js）やGoを掛け合わせると、フルスタック・新規開発の求人にも対応でき、キャリアの幅が広がります。
+              <strong>③ フロント・他言語で選択肢を広げます。</strong>TypeScript（Next.js）やGoを掛け合わせると、フルスタック・新規開発の求人にも対応でき、キャリアの幅が広がります。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -341,7 +341,7 @@ export default function PhpSkillPage() {
               { name: "フロントエンドエンジニアの転職ガイド", href: "/skill/frontend/" },
               { name: "Web系への転職（SIerから）", href: "/industry/sier-to-web/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

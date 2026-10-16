@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/bigquery/" },
   title: "BigQueryエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "BigQueryスキルを持つエンジニアの転職市場を出典付きで解説。データウェアハウスでの用途、データエンジニア・アナリスト職種としての年収相場、求人の探し方、30代・40代の戦い方をミドルエンジニア向けに整理します。",
+    "BigQueryスキルを持つエンジニアの転職市場を出典付きで解説。データウェアハウスでの用途、データエンジニア・アナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：BigQueryスキルの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：BigQueryスキルの転職市場での進め方" },
   { id: "market", label: "2. 年収・市場データ（出典付き）" },
   { id: "use", label: "3. BigQueryの用途と求人傾向" },
   { id: "level", label: "4. 求められる経験レベルと求人要件" },
@@ -70,7 +70,7 @@ export default function BigQuerySkillPage() {
     <>
       <ArticleJsonLd
         title="BigQueryエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="BigQueryスキルを持つエンジニアの転職市場を出典付きで解説。データウェアハウスでの用途、データエンジニア・アナリスト職種としての年収相場、求人の探し方、30代・40代の戦い方をミドルエンジニア向けに整理します。"
+        description="BigQueryスキルを持つエンジニアの転職市場を出典付きで解説。データウェアハウスでの用途、データエンジニア・アナリスト職種としての年収相場、求人の探し方、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/bigquery/"
       />
       <script
@@ -98,7 +98,7 @@ export default function BigQuerySkillPage() {
             BigQueryは、Google Cloudのフルマネージドなデータウェアハウスです。サーバー管理が不要で、標準SQLによって大量データを高速に集計・分析できます。分析基盤・ダッシュボードのデータソース・マーケティングデータの統合などで広く使われ、求人ではデータエンジニア・データアナリストといった職種の文脈で評価されるのが特徴です。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、BigQueryスキルを軸にした転職の「攻め方」を、<strong>公表年収データ・用途と求人傾向・求められる経験レベル・関連技術・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
+            本記事では、BigQueryスキルを軸にした転職の「進め方」を、<strong>公表年収データ・用途と求人傾向・求められる経験レベル・関連技術・経験浅めからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
           </p>
         </section>
 
@@ -127,15 +127,15 @@ export default function BigQuerySkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：BigQueryスキルの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：BigQueryスキルの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
               <strong>BigQueryは「SQLが書ければ入口に立てる」一方、差別化は基盤を回す力で決まります。</strong>操作の手軽さゆえ、コスト最適化・データモデリング・パイプライン設計の経験が評価の分かれ目です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・BigQuery単体の公表年収は乏しいため、<strong>データエンジニア／データアナリスト等の職種年収で代替</strong>して捉えるのが実態</li>
-              <li>・SQLでの分析経験があれば、BigQuery未経験でもポテンシャル採用の余地がある（移行ハードルは低め）</li>
-              <li>・<strong>Google Cloud・dbt・BIツール</strong>との掛け合わせで市場価値が上がる</li>
+              <li>・SQLでの分析経験があれば、BigQuery未経験でもポテンシャル採用の余地があります（移行ハードルは低め）</li>
+              <li>・<strong>Google Cloud・dbt・BIツール</strong>との掛け合わせで市場価値が上がります</li>
             </ul>
           </div>
         </section>
@@ -183,9 +183,9 @@ export default function BigQuerySkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { use: "データウェアハウス・分析基盤", note: "大量データの集計・分析。標準SQLでスケールする中核基盤" },
-              { use: "BIダッシュボードのデータソース", note: "Looker Studio・Tableau・Power BIの裏側。可視化と連携" },
-              { use: "マーケティングデータ統合", note: "GA4・広告データの統合分析。Web系・広告領域で頻出" },
+              { use: "データウェアハウス・分析基盤", note: "大量データの集計・分析です。標準SQLでスケールする中核基盤" },
+              { use: "BIダッシュボードのデータソース", note: "Looker Studio・Tableau・Power BIの裏側です。可視化と連携" },
+              { use: "マーケティングデータ統合", note: "GA4・広告データの統合分析です。Web系・広告領域で頻出" },
               { use: "BigQuery ML・準リアルタイム分析", note: "SQLでの機械学習、ストリーミング挿入による分析" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -222,9 +222,9 @@ export default function BigQuerySkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "データエンジニア", note: "DWH・パイプラインの設計運用。Google Cloud・Airflow・dbtとの掛け合わせ" },
-              { role: "アナリティクスエンジニア", note: "dbtでのデータモデリング。BIチームとデータ基盤の橋渡し" },
-              { role: "データアナリスト", note: "BigQuery×BIツールでの分析・可視化。意思決定支援" },
+              { role: "データエンジニア", note: "DWH・パイプラインの設計運用です。Google Cloud・Airflow・dbtとの掛け合わせ" },
+              { role: "アナリティクスエンジニア", note: "dbtでのデータモデリングです。BIチームとデータ基盤の橋渡し" },
+              { role: "データアナリスト", note: "BigQuery×BIツールでの分析・可視化です。意思決定支援" },
               { role: "データプラットフォームエンジニア", note: "分析基盤のアーキテクチャ設計とコストガバナンス" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
@@ -248,21 +248,21 @@ export default function BigQuerySkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。データ基盤・分析職の専門求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍しています。データ基盤・分析職の専門求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                年収750万円以上を中心としたハイクラス・スカウト型。データ基盤・アナリティクスエンジニア級の求人やスカウトに出会いやすいのが特徴です。
+                年収750万円以上を中心としたハイクラス・スカウト型です。データ基盤・アナリティクスエンジニア級の求人やスカウトに出会いやすいのが特徴です。
               </p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で、提案スピードが強み。BigQueryを採用するWeb系・広告・データ活用企業の求人を探したい場合の選択肢になります。
+                IT・Web・ゲーム業界専門で、提案スピードが強みです。BigQueryを採用するWeb系・広告・データ活用企業の求人を探したい場合の選択肢になります。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -299,13 +299,13 @@ export default function BigQuerySkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>「基盤を回す力」が年齢の不利を相殺する。</strong>BigQueryはSQLで操作できる手軽さゆえ、入口は広い一方、コスト最適化・データモデリング・運用設計の知見は経験に依存します。30代・40代で分析基盤を運用してきたなら、それが武器になります。
+              <strong>「基盤を回す力」が年齢の不利を相殺します。</strong>BigQueryはSQLで操作できる手軽さゆえ、入口は広い一方、コスト最適化・データモデリング・運用設計の知見は経験に依存します。30代・40代で分析基盤を運用してきたなら、それが強みになります。
             </p>
             <p>
-              <strong>掛け算で差別化する。</strong>「BigQuery＋Google Cloud」「BigQuery＋過去のドメイン知識（小売・広告など）」の掛け合わせがミドル層の強みです。データ分析を業務知識と結びつけて語れると説得力が増します。
+              <strong>掛け算で差別化します。</strong>「BigQuery＋Google Cloud」「BigQuery＋過去のドメイン知識（小売・広告など）」の掛け合わせがミドル層の強みです。データ分析を業務知識と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>データ活用の推進経験も資産になる。</strong>分析基盤を整備し、組織のデータドリブンな意思決定を後押しした経験は、ハイクラス求人で評価されます。データ活用推進やチーム育成の実績があれば、技術力とセットで提示しましょう。
+              <strong>データ活用の推進経験も資産になります。</strong>分析基盤を整備し、組織のデータドリブンな意思決定を後押しした経験は、ハイクラス求人で評価されます。データ活用推進やチーム育成の実績があれば、技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -318,13 +318,13 @@ export default function BigQuerySkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 標準SQLとコスト構造から学ぶ。</strong>BigQueryは標準SQLで操作しますが、課金はスキャンしたデータ量で決まります。パーティション・クラスタリング・必要な列だけ取得するといったコスト意識を、無料枠で手を動かしながら身につけるのが近道です。
+              <strong>① 標準SQLとコスト構造から学びます。</strong>BigQueryは標準SQLで操作しますが、課金はスキャンしたデータ量で決まります。パーティション・クラスタリング・必要な列だけ取得するといったコスト意識を、無料枠で手を動かしながら身につけるのが近道です。
             </p>
             <p>
-              <strong>② パイプラインとデータモデリングを学ぶ。</strong>BigQuery単体ではなく、Airflow（Cloud Composer）でのスケジューリング、dbtでのデータモデリングまで触ると、データエンジニア／アナリティクスエンジニアとして語れる経験になります。
+              <strong>② パイプラインとデータモデリングを学びます。</strong>BigQuery単体ではなく、Airflow（Cloud Composer）でのスケジューリング、dbtでのデータモデリングまで触ると、データエンジニア／アナリティクスエンジニアとして語れる経験になります。
             </p>
             <p>
-              <strong>③ Google Cloudとガバナンスを掛け合わせる。</strong>GCS・Pub/Sub・IAMなどGoogle Cloud全般や、コストガバナンス・アクセス制御まで理解すると、データプラットフォーム領域の求人に手が届きます。
+              <strong>③ Google Cloudとガバナンスを掛け合わせます。</strong>GCS・Pub/Sub・IAMなどGoogle Cloud全般や、コストガバナンス・アクセス制御まで理解すると、データプラットフォーム領域の求人に手が届きます。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -371,7 +371,7 @@ export default function BigQuerySkillPage() {
               { name: "データエンジニア／データアナリストの転職ガイド", href: "/skill/data-analyst/" },
               { name: "Tableauエンジニアの転職ガイド", href: "/skill/tableau/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

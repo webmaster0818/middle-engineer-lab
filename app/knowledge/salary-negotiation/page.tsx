@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "エンジニア転職の年収交渉ガイド【タイミング・例文】";
 const DESCRIPTION =
-  "エンジニア転職の年収交渉を、ベストなタイミング・伝え方の例文・エージェント経由の交渉・NG行動まで実践的に解説。30代・40代が市場相場と実績を根拠に損せず交渉するための手順をまとめます。";
+  "エンジニア転職の年収交渉を、ベストなタイミング・伝え方の例文・エージェント経由の交渉・NG行動まで実践的に解説します。30代・40代が市場相場と実績を根拠に損せず交渉するための手順をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/salary-negotiation/" },
@@ -36,7 +36,7 @@ const reasons = [
   },
   {
     title: "他社のオファー",
-    desc: "他社からの提示額は最も強い材料です。ただし嘘は厳禁。実際のオファーがある場合に限り、誠実に提示します。",
+    desc: "他社からの提示額は最も強い材料です。ただし嘘は厳禁です。実際のオファーがある場合に限り、誠実に提示します。",
   },
 ];
 
@@ -105,7 +105,7 @@ const faqs = [
   },
   {
     q: "前職の年収を聞かれたらどう答えるべきですか？",
-    a: "正直に答えましょう。嘘は源泉徴収票の提出時にバレるリスクがあります。前職年収が低い場合は、『前職では○○の事情で抑えられていましたが、市場相場では○○万円が妥当と考えています』のように、市場相場へ話を展開するのがポイントです。",
+    a: "率直に答えましょう。嘘は源泉徴収票の提出時にバレるリスクがあります。前職年収が低い場合は、『前職では○○の事情で抑えられていましたが、市場相場では○○万円が妥当と考えています』のように、市場相場へ話を展開するのがポイントです。",
   },
   {
     q: "年収以外に交渉できることはありますか？",
@@ -148,7 +148,7 @@ export default function SalaryNegotiationPage() {
           エンジニア転職の年収交渉ガイド【タイミング・例文】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 | 損しないための実践的な交渉手順
+          最終更新: 2026年6月 | 適正な条件を得るための交渉手順
         </p>
 
         {/* 直答box (P6-C2) */}
@@ -156,12 +156,12 @@ export default function SalaryNegotiationPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】年収交渉はいつ・どう切り出せばいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 最終面接後〜内定提示の前後に、「市場相場・スキルの希少性・他社オファー」を根拠にレンジで伝えるのが基本です。エージェント経由なら交渉をプロに任せます。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ベストタイミングは企業が採用を決めた最終面接後〜内定提示前後。一次面接など早い段階は避ける</li><li>・有効な根拠は「市場相場」「スキルの希少性」「他社オファー」の3つ。個人的事情や前職年収だけを根拠にしない</li><li>・dodaの2024年度「決定年収レポート」（2025年5月公表）では転職者の約6割が年収アップを実現</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ベストタイミングは企業が採用を決めた最終面接後〜内定提示前後です。一次面接など早い段階は避けます</li><li>・有効な根拠は「市場相場」「スキルの希少性」「他社オファー」の3つ。個人的事情や前職年収だけを根拠にしません</li><li>・dodaの2024年度「決定年収レポート」（2025年5月公表）では転職者の約6割が年収アップを実現</li></ul>
           </div>
         </section>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          エンジニア転職で年収交渉をしないのは、もったいない選択です。とはいえ「どう切り出せばいいか分からない」「印象を損ねたくない」と感じる人も多いはず。本記事では、交渉のベストタイミング、根拠の作り方、そのまま使える例文、エージェント経由の進め方、避けるべきNG行動まで、実践的に解説します。
+          エンジニア転職で年収交渉をしないのは、機会損失につながる選択です。とはいえ「どう切り出せばいいか分からない」「印象を損ねたくない」と感じる人も多いはずです。本記事では、交渉のベストタイミング、根拠の作り方、そのまま使える例文、エージェント経由の進め方、避けるべきNG行動まで、実践的に解説します。
         </p>
 
         <DataNote
@@ -191,7 +191,7 @@ export default function SalaryNegotiationPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：年収交渉の基本方針</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              年収交渉の基本は、<strong>「内定提示前後のタイミング」で「市場相場・スキルの希少性・他社オファー」を根拠に「レンジで」伝える</strong>こと。そして、エージェント経由なら交渉をプロに任せるのが効率的です。
+              年収交渉の基本は、<strong>「内定提示前後のタイミング」で「市場相場・スキルの希少性・他社オファー」を根拠に「レンジで」伝える</strong>ことです。そして、エージェント経由なら交渉をプロに任せるのが効率的です。
             </p>
             <p className="text-slate-700 leading-relaxed">
               参考として、dodaの2024年度「決定年収レポート」（2025年5月公表）では転職者の約6割が年収アップを実現しています。適切な準備をすれば、年収アップは決して特別なことではありません。個人的な事情や前職年収だけを根拠にせず、客観的なデータと実績で交渉に臨みましょう。
@@ -205,7 +205,7 @@ export default function SalaryNegotiationPage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">○ ベスト：最終面接後〜内定提示の前後</h3>
-              <p className="text-sm text-slate-600">企業が『採用したい』と判断した段階。交渉が最も通りやすく、印象も損ねにくいタイミングです。</p>
+              <p className="text-sm text-slate-600">企業が『採用したい』と判断した段階です。交渉が最も通りやすく、印象も損ねにくいタイミングです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">△ 注意：オファー面談での確認</h3>
@@ -259,13 +259,13 @@ export default function SalaryNegotiationPage() {
         <section id="agent" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント経由の交渉の進め方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            エージェント経由の転職では、交渉をプロに任せるのが効果的です。進め方の流れは次の通りです。
+            エージェント経由の転職では、交渉をプロに任せるのが効果的です。進め方の流れは次のとおりです。
           </p>
           <div className="space-y-4">
             {[
               { num: "1", title: "希望年収と下限ラインを共有する", desc: "「希望は○○万円、最低でも○○万円」と、希望額と譲れない下限をエージェントに事前に伝えます。" },
               { num: "2", title: "根拠となる実績・スキルを渡す", desc: "数値で語れる成果や保有スキルを整理して共有すると、エージェントが企業に説明しやすくなります。" },
-              { num: "3", title: "他社の選考状況を正直に伝える", desc: "他社オファーや選考状況は重要な交渉材料です。エージェントが全体を見て交渉のタイミングを計ってくれます。" },
+              { num: "3", title: "他社の選考状況を率直に伝える", desc: "他社オファーや選考状況は重要な交渉材料です。エージェントが全体を見て交渉のタイミングを計ってくれます。" },
               { num: "4", title: "交渉は基本的にエージェントに任せる", desc: "候補者が直接言いにくい金額の話も、エージェントが企業との関係を保ちながら進めてくれます。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">

@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const PAGE_TITLE = "AWSエンジニアの転職完全ガイド｜年収・資格・求人の攻め方【2026年】";
+const PAGE_TITLE = "AWSエンジニアの転職ガイド｜年収・資格・求人の進め方【2026年】";
 const PAGE_DESC =
-  "AWSエンジニアの転職市場を2026年最新の公表データで解説。レバテック公表の平均年収、AWS認定資格の活かし方、求人の探し方、経験浅めからの参入ルートを30代・40代エンジニア向けにまとめました。";
+  "AWSエンジニアの転職市場を2026年最新の公表データで解説します。レバテック公表の平均年収、AWS認定資格の活かし方、求人の探し方、経験浅めからの参入ルートを30代・40代エンジニア向けにまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/aws/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：AWS転職市場の攻め方" },
+  { id: "conclusion", label: "結論：AWS転職市場での進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "cert", label: "AWS認定資格の活かし方" },
   { id: "level", label: "求められる経験レベル" },
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "オンプレミスからAWSへキャリアチェンジできますか？",
-    a: "可能です。ネットワーク・OS・セキュリティの基礎はクラウドでもそのまま活きます。SAAなどのアソシエイト資格取得と、VPC/EC2/S3/IAMを使った小規模構成のハンズオンから始めるのが王道です。前職のオンプレ運用経験は「移行プロジェクトで活きる経験」として語れます。",
+    a: "可能です。ネットワーク・OS・セキュリティの基礎はクラウドでもそのまま活きます。SAAなどのアソシエイト資格取得と、VPC/EC2/S3/IAMを使った小規模構成のハンズオンから始めるのが一般的です。前職のオンプレ運用経験は「移行プロジェクトで活きる経験」として語れます。",
   },
   {
     q: "40代でもAWSエンジニアへ転職できますか？",
@@ -66,9 +66,9 @@ const salaryByAge = [
 ];
 
 const certTable = [
-  ["基礎（Foundational）", "Cloud Practitioner（CLF）", "クラウド全体像の理解。学習の入口"],
-  ["アソシエイト（Associate）", "Solutions Architect Associate（SAA）など", "実務1年程度を想定。転職でまず狙う層"],
-  ["プロフェッショナル（Professional）", "Solutions Architect Professional / DevOps Engineer Professional", "AWS公式は2年以上の経験を推奨。上流案件で評価"],
+  ["基礎（Foundational）", "Cloud Practitioner（CLF）", "クラウド全体像の理解です。学習の入口"],
+  ["アソシエイト（Associate）", "Solutions Architect Associate（SAA）など", "実務1年程度を想定します。転職でまず狙う層"],
+  ["プロフェッショナル（Professional）", "Solutions Architect Professional / DevOps Engineer Professional", "AWS公式は2年以上の経験を推奨します。上流案件で評価"],
   ["専門知識（Specialty）", "Security / Advanced Networking など", "特定領域の深い専門性を示す"],
 ];
 
@@ -100,7 +100,7 @@ export default function AwsSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          AWSエンジニアの転職完全ガイド｜年収・資格・求人の攻め方【2026年】
+          AWSエンジニアの転職ガイド｜年収・資格・求人の進め方【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | AWSスキルを活かした転職を30代・40代エンジニア向けに解説
@@ -116,7 +116,7 @@ export default function AwsSkillPage() {
             "レバテックキャリア 職種別平均年収統計（2025年1月時点）",
             "レバテック公表 年代別平均年収（2025年）",
             "AWS Certification 公式",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -136,18 +136,18 @@ export default function AwsSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AWS転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：AWS転職市場での進め方</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              AWSエンジニアの転職は、<strong>「単なる構築・運用」から「設計・自動化・信頼性」へ役割を上げて見せられるか</strong>で年収が大きく変わります。攻め方は次の3点です。
+              AWSエンジニアの転職は、<strong>「単なる構築・運用」から「設計・自動化・信頼性」へ役割を上げて見せられるか</strong>で年収が大きく変わります。進め方は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① 求人DBの数比較より、<strong>SRE・アーキテクト等の上流役割の実績</strong>を言語化する</li>
-              <li>② AWS認定（SAA→Professional）は<strong>学習で得た設計知識を実務に紐づけて</strong>語る</li>
-              <li>③ IaC（Terraform/CDK）・コンテナ・CI/CDを<strong>掛け合わせて</strong>市場価値を上げる</li>
+              <li>① 求人DBの数比較より、<strong>SRE・アーキテクト等の上流役割の実績</strong>を言語化します</li>
+              <li>② AWS認定（SAA→Professional）は<strong>学習で得た設計知識を実務に紐づけて</strong>語ります</li>
+              <li>③ IaC（Terraform/CDK）・コンテナ・CI/CDを<strong>掛け合わせて</strong>市場価値を上げます</li>
             </ul>
           </div>
-                  <p className="text-sm mt-3 text-slate-600">言語別の年収比較は<Link href="/salary/skill-ranking/" className="text-petrol underline font-semibold">プログラミング言語別 年収ランキング</Link>、企業別の有報年収は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング</Link>をご覧ください。</p>
+                  <p className="text-sm mt-3 text-slate-600">言語別の年収比較は<Link href="/salary/skill-ranking/" className="text-petrol underline font-semibold">プログラミング言語別 年収ランキング</Link>、企業別の有価証券報告書年収は<Link href="/salary/company-ranking/" className="text-petrol underline font-semibold">IT企業年収ランキング</Link>をご覧ください。</p>
         </section>
 
         {/* 市場・年収データ */}
@@ -180,7 +180,7 @@ export default function AwsSkillPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: レバテック公表の年代別平均年収（2025年）。年収1,000万円以上の割合は30代で8.01%、40代で12.67%（同）。職種・統計により数値は異なるため目安としてご覧ください。市場全体の中長期トレンドは、経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しており、クラウド人材の需給逼迫が続く前提として参照されています。
+            出典: レバテック公表の年代別平均年収（2025年）。年収1,000万円以上の割合は30代で8.01%、40代で12.67%です（同）。職種・統計により数値は異なるため目安としてご覧ください。市場全体の中長期トレンドは、経済産業省「IT人材需給に関する調査」（2019年3月公表）が2030年に最大約79万人のIT人材不足を試算しており、クラウド人材の需給逼迫が続く前提として参照されています。
           </p>
         </section>
 
@@ -224,9 +224,9 @@ export default function AwsSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "実務1〜3年層（構築・運用）", d: "EC2/VPC/S3/IAMの基本構成、CloudWatchでの監視、簡単な障害対応。SAA保有が歓迎要件になりやすい。" },
-              { t: "実務3〜6年層（設計・自動化）", d: "マルチアカウント設計、IaC（Terraform/CDK）、CI/CD、コンテナ（ECS/EKS）。年収帯が一段上がる中核ゾーン。" },
-              { t: "実務6年以上層（アーキテクト・SRE）", d: "全体アーキテクチャ設計、SLI/SLO、コスト最適化（FinOps）、セキュリティガバナンス。Professional認定が後押しになる。" },
+              { t: "実務1〜3年層（構築・運用）", d: "EC2/VPC/S3/IAMの基本構成、CloudWatchでの監視、簡単な障害対応です。SAA保有が歓迎要件になりやすいです。" },
+              { t: "実務3〜6年層（設計・自動化）", d: "マルチアカウント設計、IaC（Terraform/CDK）、CI/CD、コンテナです（ECS/EKS）。年収帯が一段上がる中核ゾーンです。" },
+              { t: "実務6年以上層（アーキテクト・SRE）", d: "全体アーキテクチャ設計、SLI/SLO、コスト最適化（FinOps）、セキュリティガバナンスです。Professional認定が後押しになります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -243,20 +243,20 @@ export default function AwsSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">クラウドアーキテクト路線</h3>
               <p className="text-sm text-petrol-deep">
-                AWS上のシステム全体設計を担う方向。マルチアカウント戦略、セキュリティ設計、コスト最適化など上流の設計力が問われます。Professional認定と大規模設計経験が武器になります。
+                AWS上のシステム全体設計を担う方向です。マルチアカウント戦略、セキュリティ設計、コスト最適化など上流の設計力が問われます。Professional認定と大規模設計経験が強みになります。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">SRE / プラットフォームエンジニア路線</h3>
               <p className="text-sm text-petrol-deep">
-                サービスの信頼性とスケーラビリティを担保する方向。Kubernetes運用、オブザーバビリティ、SLI/SLO設計などモダンな運用スキルが身につきます。
+                サービスの信頼性とスケーラビリティを担保する方向です。Kubernetes運用、オブザーバビリティ、SLI/SLO設計などモダンな運用スキルが身につきます。
                 <Link href="/career/sre/" className="text-petrol-deep underline ml-1">SREへの転向ガイド</Link>も参考になります。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">セキュリティ・ガバナンス特化路線</h3>
               <p className="text-sm text-petrol-deep">
-                クラウドセキュリティのスペシャリスト方向。IAM設計、コンプライアンス対応などを担い、金融・ヘルスケア業界で特に需要があります。
+                クラウドセキュリティのスペシャリスト方向です。IAM設計、コンプライアンス対応などを担い、金融・ヘルスケア業界で特に需要があります。
                 <Link href="/career/devsecops/" className="text-petrol-deep underline ml-1">DevSecOpsキャリア</Link>も関連します。
               </p>
             </div>
@@ -272,17 +272,17 @@ export default function AwsSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化。利用者の約8割が20〜30代で、高年収求人比率が高いとされます。クラウド・SRE求人を技術に明るいアドバイザー経由で探せます。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化です。利用者の約8割が20〜30代で、高年収求人比率が高いとされます。クラウド・SRE求人を技術に明るいアドバイザー経由で探せます。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ</h3>
-              <p className="text-sm text-slate-600 mb-2">ハイクラス（年収750万円以上が一つの目安）・スカウト型。クラウドアーキテクト/SREマネージャー層を狙う場合に有効です。</p>
+              <p className="text-sm text-slate-600 mb-2">ハイクラス（年収750万円以上が一つの目安）・スカウト型です。クラウドアーキテクト/SREマネージャー層を狙う場合に有効です。</p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">リクルートエージェントIT</h3>
-              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数（IT公開求人110,840件・2026年5月22日時点・二次集計）。大手のクラウド移行案件まで幅広く見たい場合の併用先です。</p>
+              <p className="text-sm text-slate-600 mb-2">国内最大級の求人数です（IT公開求人110,840件・2026年5月22日時点・二次集計）。大手のクラウド移行案件まで幅広く見たい場合の併用先です。</p>
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
@@ -299,10 +299,10 @@ export default function AwsSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "土台の棚卸し", d: "ネットワーク・Linux・OSの基礎経験を整理。これらはクラウドでもそのまま価値になる。" },
-              { n: "STEP 2", t: "SAA取得＋ハンズオン", d: "Solutions Architect Associateを取得し、無料利用枠でVPC/EC2/S3/IAMの小構成を自作する。" },
-              { n: "STEP 3", t: "IaC化で成果物にする", d: "作った構成をTerraform/CDKでコード化し、GitHubに公開。設計意図をREADMEで説明できる状態にする。" },
-              { n: "STEP 4", t: "移行ストーリーで応募", d: "前職のオンプレ運用経験を『移行プロジェクトで活きる経験』として職務経歴書に落とし込む。" },
+              { n: "STEP 1", t: "土台の棚卸し", d: "ネットワーク・Linux・OSの基礎経験を整理します。これらはクラウドでもそのまま価値になります。" },
+              { n: "STEP 2", t: "SAA取得＋ハンズオン", d: "Solutions Architect Associateを取得し、無料利用枠でVPC/EC2/S3/IAMの小構成を自作します。" },
+              { n: "STEP 3", t: "IaC化で成果物にする", d: "作った構成をTerraform/CDKでコード化し、GitHubに公開しています。設計意図をREADMEで説明できる状態にします。" },
+              { n: "STEP 4", t: "移行ストーリーで応募", d: "前職のオンプレ運用経験を『移行プロジェクトで活きる経験』として職務経歴書に落とし込みます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -314,7 +314,7 @@ export default function AwsSkillPage() {
             ))}
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方</Link>。
+            関連: <Link href="/career/support-to-infra/" className="text-petrol hover:underline">運用保守からインフラ・クラウドへの転向</Link>、<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">エンジニアのポートフォリオの作り方です</Link>。
           </p>
         </section>
 
@@ -338,11 +338,11 @@ export default function AwsSkillPage() {
         <section id="learn" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <ul className="space-y-2 text-sm text-slate-700">
-            <li>✓ <strong>SAA → 実務 → Professional</strong> の順で、資格と実務を交互に積む</li>
-            <li>✓ IaC（Terraform/CDK）を早期に習得し、手作業からコード管理へ移行する</li>
-            <li>✓ コンテナ（ECS/EKS）とCI/CDを一通り触り、SRE/プラットフォーム領域に接続する</li>
-            <li>✓ オブザーバビリティ（メトリクス・ログ・トレース）とコスト最適化（FinOps）を意識する</li>
-            <li>✓ 学んだことは小さな成果物（個人プロジェクト）にして可視化する</li>
+            <li>✓ <strong>SAA → 実務 → Professional</strong> の順で、資格と実務を交互に積みます</li>
+            <li>✓ IaC（Terraform/CDK）を早期に習得し、手作業からコード管理へ移行します</li>
+            <li>✓ コンテナ（ECS/EKS）とCI/CDを一通り触り、SRE/プラットフォーム領域に接続します</li>
+            <li>✓ オブザーバビリティ（メトリクス・ログ・トレース）とコスト最適化（FinOps）を意識します</li>
+            <li>✓ 学んだことは小さな成果物（個人プロジェクト）にして可視化します</li>
           </ul>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             学習の習慣化は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">エンジニアの継続的な学習</Link>、市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">自分の市場価値の調べ方</Link>が参考になります。
@@ -369,7 +369,7 @@ export default function AwsSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">AWSスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            クラウド・SRE求人に強いIT特化型エージェントで、あなたのAWSスキルの市場価値を確認しましょう。
+            クラウド・SRE求人に強いIT特化型エージェントで、ご自身のAWSスキルの市場価値を確認しましょう。
           </p>
           <Link
             href="/#ranking"

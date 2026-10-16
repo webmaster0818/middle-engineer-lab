@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/employment/contractor/" },
   title: "業務委託エンジニアの実態｜単価相場・手取り・メリットデメリット",
   description:
-    "業務委託（フリーランス）エンジニアの単価相場、社会保険・税を差し引いた手取りの考え方、エンジニア側・企業側の二軸メリットデメリットを解説。2024年11月の労災特別加入によるデメリット緩和まで実データで整理します。",
+    "業務委託（フリーランス）エンジニアの単価相場、社会保険・税を差し引いた手取りの考え方、エンジニア側・企業側の二軸メリットデメリットを解説します。2024年11月の労災特別加入によるデメリット緩和まで実データで整理します。",
 };
 
 const toc = [
@@ -127,7 +127,7 @@ export default function ContractorPage() {
     <>
       <ArticleJsonLd
         title="業務委託エンジニアの実態｜単価相場・手取り・メリットデメリット"
-        description="業務委託（フリーランス）エンジニアの単価相場、社会保険・税を差し引いた手取りの考え方、メリットデメリットを実データで解説。2024年11月の労災特別加入まで整理。"
+        description="業務委託（フリーランス）エンジニアの単価相場、社会保険・税を差し引いた手取りの考え方、メリットデメリットを実データで解説します。2024年11月の労災特別加入まで整理します。"
         url="/employment/contractor/"
       />
       <script
@@ -165,14 +165,14 @@ export default function ContractorPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：単価は高い。ただし「事業主としての設計」が前提</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：単価は高いです。ただし「事業主としての設計」が前提</h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               業務委託は週5稼働でSE月71万円前後（レバテックフリーランス公表・2024年1月時点）など、正社員より高い額面が期待できます。しかし社会保険・税・労災・案件途切れリスクを自分で引き受けるため、手取りは額面ほど増えません。「高い単価＝会社が負担していたコストを自分が引き受ける対価」と理解し、事業主としての設計を整えてから選ぶのが安全です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>単価目安：PG約68万／SE約71万／インフラ約67万（月額・週5・レバテックフリーランス2024年1月）。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>登録者平均年収約881万円は「高稼働者中心の実績値」で、全体平均ではない。</li>
-              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2024年11月の労災特別加入で、最大の弱点だった「労災なし」が一部緩和された。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">1.</span>単価目安：PG約68万／SE約71万／インフラ約67万です（月額・週5・レバテックフリーランス2024年1月）。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">2.</span>登録者平均年収約881万円は「高稼働者中心の実績値」で、全体平均ではありません。</li>
+              <li className="flex gap-2"><span className="text-petrol font-bold shrink-0">3.</span>2024年11月の労災特別加入で、最大の弱点だった「労災なし」が一部緩和されました。</li>
             </ul>
           </div>
         </section>
@@ -250,9 +250,9 @@ export default function ContractorPage() {
               <span className="font-mono bg-white border border-slate-200 rounded px-2 py-1 text-xs">単価 − エージェントマージン − 社会保険料（国保・国民年金 全額） − 所得税・住民税 − 経費 −（稼働できない月の損失）</span>
             </p>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>エージェント経由の場合、マージンが単価から差し引かれる（または上乗せされた商流で提示される）</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険・年金は会社が半額負担してくれないため、正社員時代の約2倍の負担感になり得る</li>
-              <li className="flex gap-2"><span className="text-slate-400">▸</span>案件の空白期間・病気・長期休暇は、そのまま収入ゼロにつながる</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>エージェント経由の場合、マージンが単価から差し引かれます（または上乗せされた商流で提示される）</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>健康保険・年金は会社が半額負担してくれないため、正社員時代の約2倍の負担感になり得ます</li>
+              <li className="flex gap-2"><span className="text-slate-400">▸</span>案件の空白期間・病気・長期休暇は、そのまま収入ゼロにつながります</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">

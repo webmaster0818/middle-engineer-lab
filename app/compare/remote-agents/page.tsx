@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/remote-agents/" },
   title: "リモートワークに強いエンジニア転職エージェント【2026年8月】",
   description:
-    "フルリモート・ハイブリッド求人の探し方を、Green・Geekly・dodaなどの特徴から解説。リモート求人は変動が大きいため件数の断定を避け、確実に絞り込む方法を30代・40代視点で紹介します。",
+    "フルリモート・ハイブリッド求人の探し方を、Green・Geekly・dodaなどの特徴から解説します。リモート求人は変動が大きいため件数の断定を避け、確実に絞り込む方法を30代・40代視点で紹介します。",
 };
 
 const toc = [
@@ -47,7 +47,7 @@ const services: Service[] = [
     name: "Geekly",
     type: "IT特化型転職エージェント",
     company: "株式会社Geekly（2011年設立・渋谷区）",
-    field: "IT/Web/ゲーム業界専門。提案スピードが強み",
+    field: "IT/Web/ゲーム業界専門です。提案スピードが強み",
     remote: "Web系企業の案件に強く、希望条件にリモートを含めて提案を受けやすい",
     fee: "求職者無料",
     href: "/review/geekly/",
@@ -56,7 +56,7 @@ const services: Service[] = [
     name: "レバテックキャリア",
     type: "IT特化型転職エージェント",
     company: "レバテック株式会社（レバレジーズグループ）",
-    field: "IT/Web特化。高年収求人比率が高い",
+    field: "IT/Web特化です。高年収求人比率が高い",
     remote: "首都圏中心だが、リモート前提で首都圏企業に応募する地方在住パターンに対応しやすい",
     fee: "求職者無料",
     href: "/review/levtech/",
@@ -65,7 +65,7 @@ const services: Service[] = [
     name: "doda（ITエンジニア）",
     type: "総合型（検索＋エージェント＋スカウト）",
     company: "パーソルキャリア株式会社（1989年設立）",
-    field: "国内最大級の求人数。全国対応",
+    field: "国内最大級の求人数です。全国対応",
     remote: "求人母数が大きく、自分で勤務形態を検索しながらリモート求人を探せる",
     fee: "求職者無料",
     href: "/review/doda-it/",
@@ -74,7 +74,7 @@ const services: Service[] = [
     name: "ビズリーチ",
     type: "ハイクラス・スカウト型",
     company: "株式会社ビズリーチ（ビジョナル株式会社グループ・東証プライム）",
-    field: "年収750万円以上のハイクラス。外資・管理職に強い",
+    field: "年収750万円以上のハイクラスです。外資・管理職に強い",
     remote: "高年収帯でリモート可のポジションをスカウト型で受け取りやすい",
     fee: "無料会員あり（有料プランは別）",
     href: "/review/bizreach-it/",
@@ -160,9 +160,9 @@ export default function RemoteAgentsPage() {
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">リモート求人は、自分で勤務形態を絞り込める<strong>Green</strong>のような直接応募型と、提案力のある<strong>Geekly</strong>・母数の大きい<strong>doda</strong>などのエージェントを併用すると探しやすくなります。</p>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li>① Green：勤務形態で絞り込みやすく、カジュアル面談でリモートの実態を確認できる（仲介サポートはなし）</li>
-              <li>② Geekly：IT/Web特化で提案が速く、希望にリモートを含めて求人を出してもらいやすい</li>
-              <li>③ リモート求人は変動が大きいため、件数では選ばず「条件で絞れるか」「実態を確認できるか」で選ぶ</li>
+              <li>① Green：勤務形態で絞り込みやすく、カジュアル面談でリモートの実態を確認できます（仲介サポートはなし）</li>
+              <li>② Geekly：IT/Web特化で提案が速く、希望にリモートを含めて求人を出してもらいやすいです</li>
+              <li>③ リモート求人は変動が大きいため、件数では選ばず「条件で絞れるか」「実態を確認できるか」で選びます</li>
             </ul>
           </div>
         </section>
@@ -204,19 +204,19 @@ export default function RemoteAgentsPage() {
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">1</span>
-                <p className="text-sm text-slate-600"><strong>勤務形態を最初に明言する:</strong> 「フルリモート希望」「週◯日まで出社可」など許容範囲をエージェントに伝え、条件に合う求人だけを提案してもらう。</p>
+                <p className="text-sm text-slate-600"><strong>勤務形態を最初に明言する:</strong> 「フルリモート希望」「週◯日まで出社可」など許容範囲をエージェントに伝え、条件に合う求人だけを提案してもらいます。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">2</span>
-                <p className="text-sm text-slate-600"><strong>直接応募型で自分でも検索する:</strong> Greenのような媒体で勤務形態を絞り込み、エージェント提案と二重に探すと取りこぼしが減る。</p>
+                <p className="text-sm text-slate-600"><strong>直接応募型で自分でも検索する:</strong> Greenのような媒体で勤務形態を絞り込み、エージェント提案と二重に探すと取りこぼしが減ります。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">3</span>
-                <p className="text-sm text-slate-600"><strong>カジュアル面談で実態を確認する:</strong> 求人票が「リモート可」でも、実際の出社頻度やチーム文化は企業差が大きい。面談で運用実態を聞く。</p>
+                <p className="text-sm text-slate-600"><strong>カジュアル面談で実態を確認する:</strong> 求人票が「リモート可」でも、実際の出社頻度やチーム文化は企業差が大きいです。面談で運用実態を聞きます。</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex items-center justify-center w-6 h-6 rounded-full bg-petrol text-white text-xs font-bold shrink-0">4</span>
-                <p className="text-sm text-slate-600"><strong>応募直前に勤務形態を再確認する:</strong> リモート条件は変動するため、応募前に最新の求人票・担当者情報で条件を再チェックする。</p>
+                <p className="text-sm text-slate-600"><strong>応募直前に勤務形態を再確認する:</strong> リモート条件は変動するため、応募前に最新の求人票・担当者情報で条件を再チェックです。</p>
               </div>
             </div>
           </div>

@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/rust/" },
   title: "Rustエンジニアの転職市場ガイド｜年収・求人の探し方",
   description:
-    "Rustエンジニアの転職市場を30代・40代視点で解説。求人提示年収のレンジ、求められる経験レベル、求人の探し方、C/C++・Goからの参入ルート、学習戦略、FAQまで実用情報を網羅します。",
+    "Rustエンジニアの転職市場を30代・40代視点で解説します。求人提示年収のレンジ、求められる経験レベル、求人の探し方、C/C++・Goからの参入ルート、学習戦略、FAQまで実用情報を網羅します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：Rust転職の攻め方" },
+  { id: "conclusion", label: "結論：Rust転職の進め方" },
   { id: "market", label: "市場・年収データ" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
@@ -29,22 +29,22 @@ const toc = [
 const careerPaths = [
   {
     role: "システムプログラマー",
-    note: "OS・ミドルウェア・ランタイム・CLIツールなど低レイヤー開発。C/C++からの置き換え案件が中心。",
+    note: "OS・ミドルウェア・ランタイム・CLIツールなど低レイヤー開発です。C/C++からの置き換え案件が中心です。",
     demand: "高",
   },
   {
     role: "インフラ/クラウド基盤エンジニア",
-    note: "プロキシ・ネットワークデーモン・クラウドネイティブツール（CNCFプロジェクト等）の開発。",
+    note: "プロキシ・ネットワークデーモン・クラウドネイティブツール（CNCFプロジェクト等）の開発です。",
     demand: "高",
   },
   {
     role: "ブロックチェーン/Web3エンジニア",
-    note: "Solana・Polkadot・NEAR等のプロトコル／スマートコントラクト開発。母数は少ないが高単価。",
+    note: "Solana・Polkadot・NEAR等のプロトコル／スマートコントラクト開発です。母数は少ないが高単価です。",
     demand: "中（景況に左右）",
   },
   {
     role: "バックエンドエンジニア（Rust採用企業）",
-    note: "actix-web・axum等を使ったAPIサーバー。Goの代替としてRustを選ぶ企業で募集。",
+    note: "actix-web・axum等を使ったAPIサーバーです。Goの代替としてRustを選ぶ企業で募集します。",
     demand: "中",
   },
 ];
@@ -95,7 +95,7 @@ export default function RustSkillPage() {
     <>
       <ArticleJsonLd
         title="Rustエンジニアの転職市場ガイド｜年収・求人の探し方"
-        description="Rustエンジニアの転職市場を30代・40代視点で解説。求人提示年収のレンジ、求められる経験レベル、求人の探し方、参入ルート、学習戦略、FAQまでを網羅します。"
+        description="Rustエンジニアの転職市場を30代・40代視点で解説します。求人提示年収のレンジ、求められる経験レベル、求人の探し方、参入ルート、学習戦略、FAQまでを網羅します。"
         url="/skill/rust/"
       />
       <script
@@ -146,15 +146,15 @@ export default function RustSkillPage() {
 
         {/* 結論 */}
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Rust転職の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Rust転職の進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">
-              Rust「単独」で求人を探すと選択肢が一気に狭まります。30代・40代が成果を出す攻め方は、<strong>近接スキル（C/C++・Go・低レイヤー・インフラ）×Rust</strong>の掛け算で「希少人材」として見せること。これに尽きます。
+              Rust「単独」で求人を探すと選択肢が一気に狭まります。30代・40代が成果を出す進め方は、<strong>近接スキル（C/C++・Go・低レイヤー・インフラ）×Rust</strong>の掛け算で「希少人材」として見せることが重要です。これに尽きます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① Rust求人は母数が少ないニッチ市場（Forkwell JobsのRust求人73件・2026年6月時点）。だからこそ近接領域の実務経験が武器になる。</li>
-              <li>② 提示年収のレンジは広く、上限が高い案件もある一方で企業差が大きい。「Rust=高年収」と決めつけず案件ごとに見る。</li>
-              <li>③ 探し方は「Rust特化媒体（Forkwell等）＋IT特化エージェント数社」の併用が最短。1社だけだと候補が枯れる。</li>
+              <li>① Rust求人は母数が少ないニッチ市場です（Forkwell JobsのRust求人73件・2026年6月時点）。だからこそ近接領域の実務経験が強みになります。</li>
+              <li>② 提示年収のレンジは広く、上限が高い案件もある一方で企業差が大きいです。「Rust=高年収」と決めつけず案件ごとに見ます。</li>
+              <li>③ 探し方は「Rust特化媒体（Forkwell等）＋IT特化エージェント数社」の併用が最短です。1社だけだと候補が枯れます。</li>
             </ul>
           </div>
         </section>
@@ -169,7 +169,7 @@ export default function RustSkillPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ["Rust求人の母数", "Forkwell JobsのRustタグ求人73件（2026年6月時点）。主要言語より1〜2桁少ないニッチ市場"],
+                  ["Rust求人の母数", "Forkwell JobsのRustタグ求人73件です（2026年6月時点）。主要言語より1〜2桁少ないニッチ市場"],
                   ["求人提示年収レンジ", "400万〜800万円台から1,200万〜1,800万円台まで幅広く、上限2,000万円超の案件も（Forkwell Jobs・2026年6月時点）"],
                   ["参考：市場記事の年収観", "「2024年の調査では平均700万〜1,000万円」とする解説記事もあるが、調査主体・時点の明示がないため参考値（Offers Magazine）"],
                   ["分布する領域", "クラウド基盤・ネットワーク・セキュリティ・ブロックチェーン・一部ゲーム/高頻度処理系"],
@@ -196,13 +196,13 @@ export default function RustSkillPage() {
         <section id="level" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            Rust求人の要件は、Web系言語の求人と比べて「言語そのもの」より「対象ドメインの設計経験」を重視する傾向があります。求人票で頻出する要件を整理すると次の通りです。
+            Rust求人の要件は、Web系言語の求人と比べて「言語そのもの」より「対象ドメインの設計経験」を重視する傾向があります。求人票で頻出する要件を整理すると次のとおりです。
           </p>
           <div className="space-y-3">
             {[
-              { lv: "歓迎されやすい人", body: "C/C++・Goなど低レイヤー/システム系言語の実務経験。マルチスレッド・非同期処理・メモリ管理の理解。Linux環境での開発経験。" },
-              { lv: "ミドル〜シニア要件", body: "所有権・ライフタイムを踏まえた設計、unsafeの適切な扱い、トレイト設計、パフォーマンスチューニング。OSSコントリビューションがあると強い。" },
-              { lv: "ドメイン別の上乗せ要件", body: "インフラ系ならネットワーク/分散システム、ブロックチェーン系なら暗号・コンセンサスの知識、組込み系ならno_std環境の経験など。" },
+              { lv: "歓迎されやすい人", body: "C/C++・Goなど低レイヤー/システム系言語の実務経験です。マルチスレッド・非同期処理・メモリ管理の理解です。Linux環境での開発経験です。" },
+              { lv: "ミドル〜シニア要件", body: "所有権・ライフタイムを踏まえた設計、unsafeの適切な扱い、トレイト設計、パフォーマンスチューニングです。OSSコントリビューションがあると強いです。" },
+              { lv: "ドメイン別の上乗せ要件", body: "インフラ系ならネットワーク/分散システム、ブロックチェーン系なら暗号・コンセンサスの知識、組込み系ならno_std環境の経験などです。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{item.lv}</h3>
@@ -216,7 +216,7 @@ export default function RustSkillPage() {
         <section id="career" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">キャリアパスの選択肢</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            Rustは「言語」であって「職種」ではありません。どのドメインでRustを使うかでキャリアの方向性が変わります。代表的な選択肢と、市場での求人の出やすさの目安は次の通りです（年収は前述の求人レンジの幅が大きいため、ここでは需要感のみ記載）。
+            Rustは「言語」であって「職種」ではありません。どのドメインでRustを使うかでキャリアの方向性が変わります。代表的な選択肢と、市場での求人の出やすさの目安は次のとおりです（年収は前述の求人レンジの幅が大きいため、ここでは需要感のみ記載）。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl overflow-hidden">
             <table className="w-full text-sm">
@@ -244,7 +244,7 @@ export default function RustSkillPage() {
         <section id="find" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求人の探し方（どの窓口が強いか）</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            Rustは母数が少ないため、1つの窓口だけでは候補がすぐ枯れます。性質の異なる窓口を3つ前後組み合わせるのが定石です。
+            Rustは母数が少ないため、1つの窓口だけでは候補がすぐ枯れます。性質の異なる窓口を3つ前後組み合わせるのが基本です。
           </p>
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
@@ -257,14 +257,14 @@ export default function RustSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                年収750万円以上をハイクラスと定義するスカウト型サービス。Rustのような希少スキルは、職務経歴を登録しておくと企業側から声がかかる「待ち」のチャネルとして機能します。
+                年収750万円以上をハイクラスと定義するスカウト型サービスです。Rustのような希少スキルは、職務経歴を登録しておくと企業側から声がかかる「待ち」のチャネルとして機能します。
               </p>
               <Link href="/review/bizreach-it/" className="text-sm text-petrol hover:underline">ビズリーチの詳細レビュー →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（IT/Web/ゲーム特化・スピード重視）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT/Web/ゲーム業界に特化し提案スピードが強み。スタートアップやゲーム/高頻度処理系でRustを採用する企業の求人に出会いやすい窓口です。
+                IT/Web/ゲーム業界に特化し提案スピードが強みです。スタートアップやゲーム/高頻度処理系でRustを採用する企業の求人に出会いやすい窓口です。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -288,9 +288,9 @@ export default function RustSkillPage() {
           </p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "現職の近接領域からRustのOSS実績をつくる", desc: "C/C++・Goの実務がある人は、まず個人でCLIツールやライブラリをRustで書きcrates.ioやGitHubに公開。所有権を理解している証拠を可視化すると、ポテンシャル採用の土俵に乗れます。" },
+              { num: "1", title: "現職の近接領域からRustのOSS実績をつくる", desc: "C/C++・Goの実務がある人は、まず個人でCLIツールやライブラリをRustで書きcrates.ioやGitHubに公開しています。所有権を理解している証拠を可視化すると、ポテンシャル採用の土俵に乗れます。" },
               { num: "2", title: "Rustを一部採用している企業に入り社内で広げる", desc: "全面Rustの求人は少なくても、既存システムにRustを部分導入している企業は増えています。主言語の実務で入り、社内のRust比率が高い領域へ異動するルートは現実的です。" },
-              { num: "3", title: "ドメイン専門性を先に固める", desc: "ブロックチェーン・インフラ・セキュリティなど、Rustが使われる領域の知識を先に固めると「Rustは後から覚えられる人」として評価されます。言語より先にドメインで勝負する発想です。" },
+              { num: "3", title: "ドメイン専門性を先に固める", desc: "ブロックチェーン・インフラ・セキュリティなど、Rustが使われる領域の知識を先に固めると「Rustは後から覚えられる人」として評価されます。言語より先にドメインを強みにする発想です。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -321,7 +321,7 @@ export default function RustSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">求人母数の少なさはエージェント併用で補う</h3>
               <p className="text-sm text-petrol-deep">
-                ミドルの転職は「数撃つ」より「合う企業に確実に届ける」ことが重要。母数が薄いRustでは、特化媒体とエージェント複数社で網を広げる戦略がそのまま効きます。
+                ミドルの転職は「数撃つ」より「合う企業に確実に届ける」ことが重要です。母数が薄いRustでは、特化媒体とエージェント複数社で網を広げる戦略がそのまま効きます。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -343,11 +343,11 @@ export default function RustSkillPage() {
             転職で評価されるのは「Rustを学んだ」ことではなく「Rustで何を作り、どんな問題を解いたか」です。アウトプット前提の学習が近道です。
           </p>
           <ul className="space-y-2 text-sm text-slate-600 mb-4">
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>公式ドキュメント「The Rust Programming Language」で所有権・借用・ライフタイムを体系的に押さえる</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>小さなCLIツールやWeb API（axum等）を1本完成させ、GitHubで公開する</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>既存OSSのIssueに小さなPRを送り、コードレビューを通す経験を積む</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>自分のドメイン（インフラ/セキュリティ等）の課題をRustで解いて差別化する</li>
-            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>unsafeや非同期ランタイムの挙動を説明できるようにし、面接の深掘りに備える</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>公式ドキュメント「The Rust Programming Language」で所有権・借用・ライフタイムを体系的に押さえます</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>小さなCLIツールやWeb API（axum等）を1本完成させ、GitHubで公開します</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>既存OSSのIssueに小さなPRを送り、コードレビューを通す経験を積みます</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>自分のドメイン（インフラ/セキュリティ等）の課題をRustで解いて差別化します</li>
+            <li className="flex items-start gap-2"><span className="text-petrol shrink-0">✓</span>unsafeや非同期ランタイムの挙動を説明できるようにし、面接の深掘りに備えます</li>
           </ul>
           <p className="text-slate-600 leading-relaxed text-sm">
             学習を継続する仕組みづくりは<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">働きながら学び続ける方法</Link>、成果物の見せ方は<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>を参考にしてください。
@@ -364,21 +364,21 @@ export default function RustSkillPage() {
             <div className="border border-green-200 bg-green-50 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-3 text-sm">Rust転職が向いている人</h3>
               <ul className="space-y-2 text-sm text-green-800">
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>C/C++・Go等の低レイヤー/システム系の実務経験がある</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>インフラ・セキュリティ・ブロックチェーンなど明確なドメインを持つ</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>OSSへの貢献や個人開発でアウトプットを出せる</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>母数の少なさを許容し、複数窓口で根気よく探せる</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>技術の深掘り面接で言語仕様を語れる</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>C/C++・Go等の低レイヤー/システム系の実務経験があります</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>インフラ・セキュリティ・ブロックチェーンなど明確なドメインを持ちます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>OSSへの貢献や個人開発でアウトプットを出せます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>母数の少なさを許容し、複数窓口で根気よく探せます</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>技術の深掘り面接で言語仕様を語れます</li>
               </ul>
             </div>
             <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
               <h3 className="font-bold text-amber-800 mb-3 text-sm">向いていない可能性が高い人</h3>
               <ul className="space-y-2 text-sm text-amber-800">
                 <li className="flex items-start gap-2"><span className="shrink-0">!</span>「Rustだけ」を条件に短期で多数の求人に応募したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>近接スキルもドメイン専門性も特にない</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>近接スキルもドメイン専門性も特にません</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">!</span>地方で求人量を最優先したい（母数が都市部に偏りがち）</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>言語学習のアウトプットを残す時間が取れない</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">!</span>年収より求人の選択肢の多さを重視する</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>言語学習のアウトプットを残す時間が取れません</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">!</span>年収より求人の選択肢の多さを重視します</li>
               </ul>
             </div>
           </div>

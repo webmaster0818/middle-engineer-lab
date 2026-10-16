@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/industry/energy/" },
   title: "エネルギー業界からエネテック転職【30代40代ガイド】",
   description:
-    "電力・エネルギー業界のエンジニアがエネテック（CleanTech/GreenTech）領域へ転職する道筋を解説。系統・制御の知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。",
+    "電力・エネルギー業界のエンジニアがエネテック（CleanTech/GreenTech）領域へ転職する道筋を解説します。系統・制御の知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。",
 };
 
 const skillTable = [
@@ -21,10 +21,10 @@ const skillTable = [
 ];
 
 const jobTypes = [
-  ["EMS／エネルギー管理プロダクト開発", "エネテックベンダー、電力系スタートアップ", "需給の可視化・制御。系統・設備の業務知識が直接活きる"],
-  ["スマートグリッド・需給最適化", "電力・系統寄りの企業", "系統制御・最適化。制御知識＋データ／アルゴリズム素養が求められる"],
-  ["EV充電インフラ・V2G", "充電インフラ・モビリティ系企業", "充電制御・スマートチャージング。電力制御の理解が活きる"],
-  ["カーボン／排出量管理", "カーボンテック、サステナ系企業", "排出量算定・クレジット管理。制度・業務知識が強みになる"],
+  ["EMS／エネルギー管理プロダクト開発", "エネテックベンダー、電力系スタートアップ", "需給の可視化・制御です。系統・設備の業務知識が直接活きる"],
+  ["スマートグリッド・需給最適化", "電力・系統寄りの企業", "系統制御・最適化です。制御知識＋データ／アルゴリズム素養が求められる"],
+  ["EV充電インフラ・V2G", "充電インフラ・モビリティ系企業", "充電制御・スマートチャージングです。電力制御の理解が活きる"],
+  ["カーボン／排出量管理", "カーボンテック、サステナ系企業", "排出量算定・クレジット管理です。制度・業務知識が強みになる"],
 ];
 
 const faqs = [
@@ -92,7 +92,7 @@ export default function EnergyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="エネルギー業界からエネテック転職【30代40代ガイド】" description="電力・エネルギー業界のエンジニアがエネテック（CleanTech/GreenTech）領域へ転職する道筋を解説。系統・制御の知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。" url="/industry/energy/" />
+      <ArticleJsonLd title="エネルギー業界からエネテック転職【30代40代ガイド】" description="電力・エネルギー業界のエンジニアがエネテック（CleanTech/GreenTech）領域へ転職する道筋を解説します。系統・制御の知識を活かす方法、埋めるギャップ、職種×企業タイプ、年収の考え方を30代40代視点で整理します。" url="/industry/energy/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "業界別ガイド" }, { name: "エネルギー業界からエネテック転職" }]} />
 
@@ -118,9 +118,9 @@ export default function EnergyPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">系統・制御・設備の知識を持つエネルギー業界エンジニアにとって、エネテック領域への転職は十分に狙えるルートです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・電力系統やSCADA、EMSを分かる人は技術側に少なく、業務知識がそのまま差別化になりやすい。</li>
-              <li>・求人の多くはIoTや時系列データ処理の実装経験を求める。ここが主なギャップ。</li>
-              <li>・受け皿は大手の新規事業からスタートアップまで幅広く、給与・働き方の差が出やすい点に注意。</li>
+              <li>・電力系統やSCADA、EMSを分かる人は技術側に少なく、業務知識がそのまま差別化になりやすいです。</li>
+              <li>・求人の多くはIoTや時系列データ処理の実装経験を求めます。ここが主なギャップです。</li>
+              <li>・受け皿は大手の新規事業からスタートアップまで幅広く、給与・働き方の差が出やすい点に注意が必要です。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">市場規模・需要の増減など断定できない数値は本記事では扱いません。年収・需給の話は公的・公表データに基づく目安として後述します。</p>
@@ -190,8 +190,8 @@ export default function EnergyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">個別ポジションの提示額は企業・等級・役割で大きく変わるため、ここでは公表データを目安として示します。実際のレンジは求人ごとに確認してください。</p>
           <ul className="space-y-3 text-sm text-slate-700 mb-4">
-            <li className="bg-white border border-slate-200 rounded-lg p-4">レバテックが公表する正社員SEの年代別平均年収（2025年）は、20代約378万円／30代約499万円／40代約618万円／50代約685万円。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。</li>
-            <li className="bg-white border border-slate-200 rounded-lg p-4">doda（パーソルキャリア）「決定年収レポート」（2025年5月公表）では、IT・通信の平均決定年収が2023年度469万円→2024年度486万円。転職者の約6割が年収アップという結果が示されています。</li>
+            <li className="bg-white border border-slate-200 rounded-lg p-4">レバテックが公表する正社員SEの年代別平均年収（2025年）は、20代約378万円／30代約499万円／40代約618万円／50代約685万円です。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。</li>
+            <li className="bg-white border border-slate-200 rounded-lg p-4">doda（パーソルキャリア）「決定年収レポート」（2025年5月公表）では、IT・通信の平均決定年収が2023年度469万円→2024年度486万円です。転職者の約6割が年収アップという結果が示されています。</li>
             <li className="bg-white border border-slate-200 rounded-lg p-4">厚生労働省 job tag では、システムエンジニア（受託開発）の平均年収578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）と示されています。</li>
           </ul>
           <p className="text-slate-500 text-xs leading-relaxed">上記は職種・媒体横断の平均値であり、エネテック領域に限った数値ではありません。受け皿は大手の新規事業からスタートアップまで幅広いため、提示レンジと働き方を合わせて判断するのが基本です。</p>
@@ -202,10 +202,10 @@ export default function EnergyPage() {
           <p className="text-slate-600 leading-relaxed mb-4">エネテック領域の受け皿は、おおまかに次のタイプに分かれます。どこが自分の経験を活かせるかで応募戦略を決めます。</p>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              ["電力・エネルギー大手の新規事業／IT部門", "既存事業のデジタル化。系統・制御の知識との親和性が高い"],
-              ["エネテック系スタートアップ", "需給管理・EMSなどのプロダクト開発。裁量が大きい"],
-              ["EV充電・モビリティ系企業", "充電制御・インフラ管理。電力制御の理解が活きる"],
-              ["カーボンテック・サステナ系企業", "排出量算定・クレジット管理。制度・業務知識が評価されやすい"],
+              ["電力・エネルギー大手の新規事業／IT部門", "既存事業のデジタル化です。系統・制御の知識との親和性が高い"],
+              ["エネテック系スタートアップ", "需給管理・EMSなどのプロダクト開発です。裁量が大きい"],
+              ["EV充電・モビリティ系企業", "充電制御・インフラ管理です。電力制御の理解が活きる"],
+              ["カーボンテック・サステナ系企業", "排出量算定・クレジット管理です。制度・業務知識が評価されやすい"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <p className="font-bold text-slate-800 text-sm mb-1">{t}</p>
@@ -220,10 +220,10 @@ export default function EnergyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "経験の棚卸し（業務知識＋技術）", desc: "SCADA運用、電力系統管理、再エネ設備の監視制御、EMSなど関わった領域を整理。効率改善やコスト削減など、数値で語れる実績を抽出する。" },
-              { step: "2", title: "ギャップの特定と学習", desc: "応募したい求人の必須要件を読み、不足するスタック（IoT、時系列データ処理など）を把握。Python/SQLや時系列分析を在職中に学び、成果物を作る。" },
-              { step: "3", title: "エージェント登録で市場感を確認", desc: "レバテックキャリア、ビズリーチ、GeeklyなどIT特化型・ハイクラス型に登録し、提案される求人の傾向と提示レンジを把握する。" },
-              { step: "4", title: "職務経歴書で業務知識を翻訳", desc: "「系統・制御・設備の実務知識」を、エネテック側の言葉（EMS、需給最適化、充電制御、排出量管理）に翻訳して伝える。必須要件への充足度を明示する。" },
+              { step: "1", title: "経験の棚卸し（業務知識＋技術）", desc: "SCADA運用、電力系統管理、再エネ設備の監視制御、EMSなど関わった領域を整理します。効率改善やコスト削減など、数値で語れる実績を抽出します。" },
+              { step: "2", title: "ギャップの特定と学習", desc: "応募したい求人の必須要件を読み、不足するスタック（IoT、時系列データ処理など）を把握します。Python/SQLや時系列分析を在職中に学び、成果物を作ります。" },
+              { step: "3", title: "エージェント登録で市場感を確認", desc: "レバテックキャリア、ビズリーチ、GeeklyなどIT特化型・ハイクラス型に登録し、提案される求人の傾向と提示レンジを把握します。" },
+              { step: "4", title: "職務経歴書で業務知識を翻訳", desc: "「系統・制御・設備の実務知識」を、エネテック側の言葉（EMS、需給最適化、充電制御、排出量管理）に翻訳して伝えます。必須要件への充足度を明示します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -259,7 +259,7 @@ export default function EnergyPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">エネルギーの知識をエネテックで活かそう</h2>
-          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、あなたの経験が市場でどう評価されるかを確認しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の経験が市場でどう評価されるかを確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "SaaS業界へのエンジニア転職ガイド｜30代40代の戦略";
 const DESC =
-  "BtoB SaaS・バーティカルSaaS企業へエンジニア転職する方法を解説。活かせるスキルと埋めるギャップ、マルチテナント設計、年収の考え方、30代40代の進め方を公的データで整理します。";
+  "BtoB SaaS・バーティカルSaaS企業へエンジニア転職する方法を解説します。活かせるスキルと埋めるギャップ、マルチテナント設計、年収の考え方、30代40代の進め方を公的データで整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industry/saas-industry/" },
@@ -36,17 +36,17 @@ const skillGap = [
 ];
 
 const patterns = [
-  ["プロダクトエンジニア", "BtoB SaaS全般", "Web開発＋プロダクト志向。機能開発と改善を主体的に担う王道ルート"],
-  ["バックエンドエンジニア", "SaaS基盤・課金・API", "マルチテナント設計やAPI公開を担う。基盤系の経験者に向く"],
-  ["バーティカルSaaSのドメインエンジニア", "建設・医療・物流など特化型SaaS", "業界知識＋開発。現場を理解した人材が希少で評価されやすい"],
-  ["SRE・プラットフォームエンジニア", "成長期のSaaS企業", "可用性・スケーラビリティを支える。インフラ・クラウド経験者に需要"],
+  ["プロダクトエンジニア", "BtoB SaaS全般", "Web開発＋プロダクト志向です。機能開発と改善を主体的に担う代表的なルート"],
+  ["バックエンドエンジニア", "SaaS基盤・課金・API", "マルチテナント設計やAPI公開を担います。基盤系の経験者に向く"],
+  ["バーティカルSaaSのドメインエンジニア", "建設・医療・物流など特化型SaaS", "業界知識＋開発です。現場を理解した人材が希少で評価されやすい"],
+  ["SRE・プラットフォームエンジニア", "成長期のSaaS企業", "可用性・スケーラビリティを支えます。インフラ・クラウド経験者に需要"],
 ];
 
 const companyTypes = [
-  ["ホリゾンタルSaaS", "業種を問わず使える汎用SaaS（人事・会計・営業支援など）。利用社数が多く基盤の堅牢性が問われる", "汎用的なプロダクトをスケールさせたい人"],
-  ["バーティカルSaaS", "特定業界に特化したSaaS（建設・医療・小売など）。業界知識が武器になる", "特定業界のドメインに強みを持ちたい人"],
-  ["コンパウンド・マルチプロダクトSaaS", "複数プロダクトを連携させて提供。基盤やデータ統合の設計が重要", "プロダクト横断の設計に関心がある人"],
-  ["成長期スタートアップ", "プロダクトマーケットフィットを追う段階。裁量が大きく成長機会が多い", "スピード感と裁量を求める人"],
+  ["ホリゾンタルSaaS", "業種を問わず使える汎用SaaSです（人事・会計・営業支援など）。利用社数が多く基盤の堅牢性が問われる", "汎用的なプロダクトをスケールさせたい人"],
+  ["バーティカルSaaS", "特定業界に特化したSaaSです（建設・医療・小売など）。業界知識が強みになる", "特定業界のドメインに強みを持ちたい人"],
+  ["コンパウンド・マルチプロダクトSaaS", "複数プロダクトを連携させて提供しています。基盤やデータ統合の設計が重要", "プロダクト横断の設計に関心がある人"],
+  ["成長期スタートアップ", "プロダクトマーケットフィットを追う段階です。裁量が大きく成長機会が多い", "スピード感と裁量を求める人"],
 ];
 
 const faqs = [
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: "バーティカルSaaSとホリゾンタルSaaSはどちらが転職しやすいですか？",
-    a: "一概には言えません。特定業界の実務経験がある人はバーティカルSaaSで業界知識が武器になります。汎用的な技術力やスケーラビリティの経験がある人はホリゾンタルSaaSで活きやすいです。自分の経験がどちらに近いかで選ぶのが現実的です。",
+    a: "一概には言えません。特定業界の実務経験がある人はバーティカルSaaSで業界知識が強みになります。汎用的な技術力やスケーラビリティの経験がある人はホリゾンタルSaaSで活きやすいです。自分の経験がどちらに近いかで選ぶのが現実的です。",
   },
   {
     q: "SaaS転職で年収はどう変わりますか？",
@@ -76,7 +76,7 @@ const faqs = [
   },
   {
     q: "30代・40代でもSaaSに転職できますか？",
-    a: "Web開発経験やドメイン知識が武器になりやすい領域のため、年齢だけが理由で不利になるとは限りません。30代はモダン技術とプロダクト志向の習得、40代はマネジメントや業界知識など「組み合わせの価値」を打ち出すと、ミドル層ならではの強みを示しやすくなります。",
+    a: "Web開発経験やドメイン知識が強みになりやすい領域のため、年齢だけが理由で不利になるとは限りません。30代はモダン技術とプロダクト志向の習得、40代はマネジメントや業界知識など「組み合わせの価値」を打ち出すと、ミドル層ならではの強みを示しやすくなります。",
   },
 ];
 
@@ -158,9 +158,9 @@ export default function SaasIndustryPage() {
               ただし「Web開発ができれば十分」ではなく、SaaS特有の設計とプロダクト志向との掛け合わせが鍵になります。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・Web開発と特定業界のドメイン知識はSaaSで価値が高い</li>
-              <li>・一方でマルチテナント設計やプロダクト改善の進め方は多くの求人で問われる</li>
-              <li>・30代は技術＋プロダクト志向、40代はマネジメント＋業界知識で勝負しやすい</li>
+              <li>・Web開発と特定業界のドメイン知識はSaaSで価値が高いです</li>
+              <li>・一方でマルチテナント設計やプロダクト改善の進め方は多くの求人で問われます</li>
+              <li>・30代は技術＋プロダクト志向、40代はマネジメント＋業界知識を強みにしやすいです</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">
@@ -325,10 +325,10 @@ export default function SaasIndustryPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "経験を棚卸しする", desc: "携わったサービスの種類（Webアプリ・業務システムなど）、扱った業界・業務、改善や性能向上の実績を具体的に整理する。数値化できる成果は必ず洗い出す。" },
-              { step: "2", title: "不足スキルを補う計画を立てる", desc: "マルチテナント設計・API設計・クラウド（AWS/GCP）など、求人で問われやすい技術を3〜6ヶ月で学習。小さくても動くプロダクトを作ると説得力が増す。" },
-              { step: "3", title: "活きる領域を見極める", desc: "ホリゾンタル（汎用）かバーティカル（業界特化）か、自分の経験が最も活きる方向に絞ってターゲット企業を選定する。" },
-              { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録。求人と担当者を比較し、市場価値を客観的に把握する。" },
+              { step: "1", title: "経験を棚卸しする", desc: "携わったサービスの種類（Webアプリ・業務システムなど）、扱った業界・業務、改善や性能向上の実績を具体的に整理します。数値化できる成果は必ず洗い出します。" },
+              { step: "2", title: "不足スキルを補う計画を立てる", desc: "マルチテナント設計・API設計・クラウド（AWS/GCP）など、求人で問われやすい技術を3〜6ヶ月で学習します。小さくても動くプロダクトを作ると説得力が増します。" },
+              { step: "3", title: "活きる領域を見極める", desc: "ホリゾンタル（汎用）かバーティカル（業界特化）か、自分の経験が最も活きる方向に絞ってターゲット企業を選定します。" },
+              { step: "4", title: "エージェント2社以上に登録する", desc: "IT特化のレバテックキャリアと、ハイクラス志向ならビズリーチなどに登録します。求人と担当者を比較し、市場価値を客観的に把握します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -354,13 +354,13 @@ export default function SaasIndustryPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：マネジメントと業界知識を軸に</h3>
               <p className="text-sm text-petrol-deep">
-                開発チームのマネジメント経験や、特定業界の深い理解は、SaaS企業（とくにバーティカルSaaS）で評価されやすい強みです。実装だけで勝負するより、組み合わせの価値を打ち出すのが現実的です。
+                開発チームのマネジメント経験や、特定業界の深い理解は、SaaS企業（とくにバーティカルSaaS）で評価されやすい強みです。実装だけを強みにするより、組み合わせの価値を打ち出すのが現実的です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ミドル層こそ「希少性」で戦う</h3>
               <p className="text-sm text-petrol-deep">
-                若手と同じ土俵で最新技術だけを競うのではなく、業界知識やマネジメントという希少性で差別化するのがミドル層の定石です。
+                若手と同じ土俵で最新技術だけを競うのではなく、業界知識やマネジメントという希少性で差別化するのがミドル層の基本的な進め方です。
                 <Link href="/knowledge/market-value/" className="text-petrol-deep underline">自分の市場価値の測り方</Link>
                 も参考にしてください。
               </p>
@@ -372,13 +372,13 @@ export default function SaasIndustryPage() {
         <section id="agents" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">相談先エージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm">
-            SaaS業界の転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが定石です。
+            SaaS業界の転職では、IT専門性の高いエージェントと、ハイクラス求人に強いサービスを併用するのが基本です。
           </p>
           <div className="space-y-3">
             {[
-              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強み。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたい。", href: "/review/levtech/" },
-              { name: "ビズリーチ", desc: "ハイクラス・スカウト型。年収750万円以上の求人や管理職ポジションを狙う際の選択肢。", href: "/review/bizreach-it/" },
-              { name: "リクルートエージェントIT", desc: "国内最大級の求人数。汎用SaaSから業界特化SaaSまで幅広く比較したい場合に有効。", href: "/review/recruit-it/" },
+              { name: "レバテックキャリア", desc: "IT/Web特化で技術的なマッチングに強みがあります。利用者の多くが20〜30代という公表もあり、ミドルは経歴を丁寧に伝えたいです。", href: "/review/levtech/" },
+              { name: "ビズリーチ", desc: "ハイクラス・スカウト型です。年収750万円以上の求人や管理職ポジションを狙う際の選択肢です。", href: "/review/bizreach-it/" },
+              { name: "リクルートエージェントIT", desc: "国内最大級の求人数です。汎用SaaSから業界特化SaaSまで幅広く比較したい場合に有効です。", href: "/review/recruit-it/" },
             ].map((a, i) => (
               <Link key={i} href={a.href} className="block border border-slate-200 rounded-lg p-5 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 mb-1">{a.name} →</h3>
@@ -408,7 +408,7 @@ export default function SaasIndustryPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">Web開発とドメイン知識をSaaSで活かそう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            まずはIT特化型エージェントに相談して、あなたの市場価値を客観的に確認しましょう。
+            まずはIT特化型エージェントに相談して、ご自身の市場価値を客観的に確認しましょう。
           </p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             おすすめエージェントランキングを見る

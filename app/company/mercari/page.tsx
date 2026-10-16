@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/mercari/" },
   title: "メルカリの年収は平均1176万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "メルカリへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,176万円（2025年6月期・全社員平均）、Go/GCP等の公式技術スタック、英語要件、選考フロー、30代40代の現実までまとめました。",
+    "メルカリへのエンジニア転職を実データで解説します。有価証券報告書の平均年収1,176万円（2025年6月期・全社員平均）、Go/GCP等の公式技術スタック、英語要件、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -90,7 +90,7 @@ export default function MercariCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="メルカリ エンジニア転職ガイド" description="メルカリへのエンジニア転職を実データで解説。有価証券報告書の平均年収1,176万円（2025年6月期・全社員平均）、Go/GCP等の公式技術スタック、英語要件、選考フロー、30代40代の現実までまとめました。" url="/company/mercari/" />
+      <ArticleJsonLd title="メルカリ エンジニア転職ガイド" description="メルカリへのエンジニア転職を実データで解説します。有価証券報告書の平均年収1,176万円（2025年6月期・全社員平均）、Go/GCP等の公式技術スタック、英語要件、選考フロー、30代40代の現実までまとめました。" url="/company/mercari/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "Vue.jsの転職ガイド", href: "/skill/vue/" }, { name: "Next.jsの転職ガイド", href: "/skill/nextjs/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "メルカリ" }]} />
 
@@ -102,7 +102,7 @@ export default function MercariCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】メルカリの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社メルカリの平均年間給与は1,176万円です（2025年6月期 有価証券報告書・全社員平均、平均年齢36.3歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,176万円（2025年6月期 有報）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・上場以降一貫した上昇傾向で、2024年6月期1,166万円から2025年6月期1,176万円（各期 有報）。</li><li>・報酬は年齢でなくグレード（職務等級）基準とされ、提示額はポジション・グレードで変動します。個別求人・面談での確認が確実です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,176万円です（2025年6月期 有価証券報告書）。全社員平均でエンジニア職限定の数値ではありません。</li><li>・上場以降一貫した上昇傾向で、2024年6月期1,166万円から2025年6月期1,176万円です（各期 有価証券報告書）。</li><li>・報酬は年齢でなくグレード（職務等級）基準とされ、提示額はポジション・グレードで変動します。個別求人・面談での確認が確実です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -128,7 +128,7 @@ export default function MercariCompanyPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：Go等での実務経験があり、マイクロサービス・英語での協働に前向きなエンジニア</li>
               <li>● <strong>向いていない人</strong>：日本語のみで完結する環境を強く希望する人、明確な役割分担を好む人</li>
-              <li>● <strong>30代・40代</strong>：グレードに見合う専門性・実績があれば年齢はハンデになりにくい</li>
+              <li>● <strong>30代・40代</strong>：グレードに見合う専門性・実績があれば年齢はハンデになりにくいです</li>
             </ul>
           </div>
         </section>
@@ -158,7 +158,7 @@ export default function MercariCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年6月期 有価証券報告書に基づく全社員平均値。技術スタックは公式技術スタックページ（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢は2025年6月期 有価証券報告書に基づく全社員平均値。技術スタックは公式技術スタックページです（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -182,7 +182,7 @@ export default function MercariCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            メルカリは公式の技術スタックページ（2026年6月時点）で採用技術を公開しています。主な要素は以下の通りです。サービスごとに最適な技術を選ぶ方針のため、配属プロダクトにより使用技術は異なります。
+            メルカリは公式の技術スタックページ（2026年6月時点）で採用技術を公開しています。主な要素は以下のとおりです。サービスごとに最適な技術を選ぶ方針のため、配属プロダクトにより使用技術は異なります。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -274,9 +274,9 @@ export default function MercariCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">メルカリ転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。メガベンチャー求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。メガベンチャー求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

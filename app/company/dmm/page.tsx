@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/dmm/" },
   title: "DMM.com エンジニア転職ガイド【2026年版】技術・選考の実態と年収の考え方",
   description:
-    "DMM.com（合同会社DMM.com）へのエンジニア転職を実データで解説。非上場のため平均年収は公式非開示である点を明記し、Go/PHP/TypeScript等の技術スタック、50以上の事業領域、選考フロー、30代40代の現実までまとめました。",
+    "DMM.com（合同会社DMM.com）へのエンジニア転職を実データで解説します。非上場のため平均年収は公式非開示である点を明記し、Go/PHP/TypeScript等の技術スタック、50以上の事業領域、選考フロー、30代40代の現実までまとめました。",
 };
 
 const basicData: [string, string][] = [
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: "なぜDMMの年収データが載っていないのですか？",
-    a: "上場企業は有価証券報告書で平均年間給与を開示しますが、DMM.comは非上場の合同会社のため、この開示義務がありません。出典のない年収額を掲載することは正確性・信頼性の観点で適切でないと判断し、本ページでは「非開示」と正直に明記しています。",
+    a: "上場企業は有価証券報告書で平均年間給与を開示しますが、DMM.comは非上場の合同会社のため、この開示義務がありません。出典のない年収額を掲載することは正確性・信頼性の観点で適切でないと判断し、本ページでは「非開示」と明記しています。",
   },
   {
     q: "DMM.comのエンジニア選考フローは？",
@@ -79,7 +79,7 @@ export default function DmmCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="DMM.com エンジニア転職ガイド" description="DMM.com（合同会社DMM.com）へのエンジニア転職を実データで解説。非上場のため平均年収は公式非開示である点を明記し、Go/PHP/TypeScript等の技術スタック、50以上の事業領域、選考フロー、30代40代の現実までまとめました。" url="/company/dmm/" />
+      <ArticleJsonLd title="DMM.com エンジニア転職ガイド" description="DMM.com（合同会社DMM.com）へのエンジニア転職を実データで解説します。非上場のため平均年収は公式非開示である点を明記し、Go/PHP/TypeScript等の技術スタック、50以上の事業領域、選考フロー、30代40代の現実までまとめました。" url="/company/dmm/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "GCPの転職ガイド", href: "/skill/gcp/" }, { name: "フロントエンドスペシャリスト路線の転職ガイド", href: "/skill/react/" }, { name: "Vue.jsの転職ガイド", href: "/skill/vue/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "DMM.com" }]} />
 
@@ -91,7 +91,7 @@ export default function DmmCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】DMM.comの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: DMM.com（合同会社DMM.com）の公式平均年収は非公表です（非上場の合同会社で有価証券報告書の提出義務がないため）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与・平均年齢とも公式には非公表。本ページでは出典のない年収額の創作は行っていません。</li><li>・口コミサイトの参考値はサンプル数・母集団が不明で、有報ベースの公式データとは性質が異なります。</li><li>・実際の提示額は募集ポジション・等級・スキルで決定されるため、公式求人票・エージェント経由での確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与・平均年齢とも公式には非公表です。本ページでは出典のない年収額の創作は行っていません。</li><li>・口コミサイトの参考値はサンプル数・母集団が不明で、有価証券報告書ベースの公式データとは性質が異なります。</li><li>・実際の提示額は募集ポジション・等級・スキルで決定されるため、公式求人票・エージェント経由での確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -116,7 +116,7 @@ export default function DmmCompanyPage() {
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：特定領域での実務経験（即戦力）があり、幅広い事業の中で挑戦したいエンジニア</li>
               <li>● <strong>向いていない人</strong>：開示された年収データを重視して応募先を決めたい人（DMMは非開示）</li>
-              <li>● <strong>30代・40代</strong>：専門性・実績があれば即戦力として評価されやすい</li>
+              <li>● <strong>30代・40代</strong>：専門性・実績があれば即戦力として評価されやすいです</li>
             </ul>
           </div>
         </section>
@@ -146,7 +146,7 @@ export default function DmmCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※DMM.comは非上場の合同会社のため、有価証券報告書による平均年収・平均年齢の公式開示はありません。技術スタック・事業領域は公式採用情報・技術ブログ等の公開情報ベース（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※DMM.comは非上場の合同会社のため、有価証券報告書による平均年収・平均年齢の公式開示はありません。技術スタック・事業領域は公式採用情報・技術ブログ等の公開情報ベースです（2026年6月時点）。</p>
         </section>
 
         <section id="salary-note" className="mb-10">
@@ -185,7 +185,7 @@ export default function DmmCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            DMMは事業・チームにより技術スタックが大きく異なります。公開されている技術ブログ・採用情報で確認できる主な技術は以下の通りです。応募先の求人で実際の構成を確認してください。
+            DMMは事業・チームにより技術スタックが大きく異なります。公開されている技術ブログ・採用情報で確認できる主な技術は以下のとおりです。応募先の求人で実際の構成を確認してください。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -246,9 +246,9 @@ export default function DmmCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">DMM転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。メガベンチャー求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。メガベンチャー求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/fujifilm/" },
   title: "富士フイルムの年収は平均1124万円【2026年・有報】エンジニア転職とAI開発",
   description:
-    "富士フイルムのエンジニア中途採用を有価証券報告書の一次情報で解説。平均年収1124万円(2025年3月期・HD単体全従業員平均)は全社員平均でエンジニア単独ではありません。医療画像AI・ヘルスケア、IT機能のHD一元化、30代40代の現実を中立にまとめました。",
+    "富士フイルムのエンジニア中途採用を有価証券報告書の一次情報で解説します。平均年収1124万円(2025年3月期・HD単体全従業員平均)は全社員平均でエンジニア単独ではありません。医療画像AI・ヘルスケア、IT機能のHD一元化、30代40代の現実を中立にまとめました。",
 };
 
 const toc = [
@@ -51,7 +51,7 @@ export default function FujifilmCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="富士フイルム エンジニア転職ガイド" description="富士フイルムへのエンジニア転職を有価証券報告書の一次情報で解説。平均年収1124万円(2025年3月期)はHD単体の全社員平均でエンジニア単独ではありません。医療画像AI・ヘルスケア、IT機能のHD一元化、30代40代の現実をまとめました。" url="/company/fujifilm/" />
+      <ArticleJsonLd title="富士フイルム エンジニア転職ガイド" description="富士フイルムへのエンジニア転職を有価証券報告書の一次情報で解説します。平均年収1124万円(2025年3月期)はHD単体の全社員平均でエンジニア単独ではありません。医療画像AI・ヘルスケア、IT機能のHD一元化、30代40代の現実をまとめました。" url="/company/fujifilm/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "富士フイルム" }]} />
 
@@ -66,7 +66,7 @@ export default function FujifilmCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】富士フイルムの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 富士フイルムホールディングス（持株会社）単体の全従業員平均給与は約1,124万円です（2025年3月期 有価証券報告書、平均年齢43.5歳・賞与を含む全社員平均）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・約1,124万円は持株会社HD単体の全職種・全社員平均（2025年3月期 有報）。エンジニア職単独の平均ではありません。</li><li>・持株会社は本社機能・管理部門が中心のため平均が高めに出やすく、事業会社の従業員はこの平均に直接含まれません。</li><li>・職種別・等級別・事業会社別の年収レンジは非開示。応募する事業会社・職種の提示条件は求人票・エージェントで確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・約1,124万円は持株会社HD単体の全職種・全社員平均です（2025年3月期 有価証券報告書）。エンジニア職単独の平均ではありません。</li><li>・持株会社は本社機能・管理部門が中心のため平均が高めに出やすく、事業会社の従業員はこの平均に直接含まれません。</li><li>・職種別・等級別・事業会社別の年収レンジは非開示です。応募する事業会社・職種の提示条件は求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <DataNote surveyedAt="2026年6月" sources={["富士フイルムホールディングス 有価証券報告書（2025年3月期）", "富士フイルム 公式採用情報", "IRBANK", "OpenWork（口コミ傾向）"]} />
@@ -76,9 +76,9 @@ export default function FujifilmCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-sm text-blue-900 font-bold mb-3">転職難易度：中〜高（ディープテック領域の専門性重視）</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li>・中核は<strong>医療画像AI・ヘルスケア・マテリアルズ</strong>。写真技術を医療・ライフサイエンスに展開するディープテック企業。</li>
-              <li>・年収は<strong>HD単体の全従業員平均で約1,124万円（2025年3月期・有報）</strong>。これは<strong>エンジニア単独でなく全社員平均</strong>。</li>
-              <li>・2025年に<strong>グループのIT機能をHDへ一元化</strong>し、グループ横断のデジタル人材ニーズが拡大。</li>
+              <li>・中核は<strong>医療画像AI・ヘルスケア・マテリアルズです</strong>。写真技術を医療・ライフサイエンスに展開するディープテック企業です。</li>
+              <li>・年収は<strong>HD単体の全従業員平均で約1,124万円です（2025年3月期・有価証券報告書）</strong>。これは<strong>エンジニア単独でなく全社員平均です</strong>。</li>
+              <li>・2025年に<strong>グループのIT機能をHDへ一元化</strong>し、グループ横断のデジタル人材ニーズが拡大しています。</li>
             </ul>
             <p className="text-xs text-blue-800 mt-3">「高年収」の看板だけで判断せず、自分の専門（画像処理/機械学習/医療ドメイン等）がどの事業とマッチするかを最優先に見極めることが重要です。</p>
           </div>
@@ -114,8 +114,8 @@ export default function FujifilmCompanyPage() {
             </p>
           </div>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
-            <p>富士フイルムグループは持株会社制を採用しており、有報の提出会社はHD（持株会社）単体です。事業会社（富士フイルム株式会社など）の従業員はこの平均には直接含まれない点にも留意が必要です。職種別・等級別・事業会社別の年収レンジは公式に開示されていません。</p>
-            <p>そのため当ガイドでは、<strong>出典のない等級別年収表は掲載していません</strong>。求職者として確認すべきは、有報の平均値ではなく、自分が応募する事業会社・職種における具体的な提示条件です。</p>
+            <p>富士フイルムグループは持株会社制を採用しており、有価証券報告書の提出会社はHD（持株会社）単体です。事業会社（富士フイルム株式会社など）の従業員はこの平均には直接含まれない点にも留意が必要です。職種別・等級別・事業会社別の年収レンジは公式に開示されていません。</p>
+            <p>そのため当ガイドでは、<strong>出典のない等級別年収表は掲載していません</strong>。求職者として確認すべきは、有価証券報告書の平均値ではなく、自分が応募する事業会社・職種における具体的な提示条件です。</p>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：富士フイルムホールディングス「有価証券報告書」2025年3月期、IRBANK集計。</p>
         </section>
@@ -131,7 +131,7 @@ export default function FujifilmCompanyPage() {
 
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術領域（公開情報の範囲）</h2>
-          <p className="text-sm text-slate-600 leading-relaxed mb-4">富士フイルムは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成しません</strong>（推測での創作を避けるため）。公開情報から確認できる技術領域は以下の通りです。</p>
+          <p className="text-sm text-slate-600 leading-relaxed mb-4">富士フイルムは社外向けに統一された技術スタック一覧を体系公開していないため、当ガイドでは<strong>具体的な使用言語・フレームワークの一覧表は作成しません</strong>（推測での創作を避けるため）。公開情報から確認できる技術領域は以下のとおりです。</p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span><strong>医療画像AI</strong>：画像診断支援などの画像処理・機械学習領域</span></li>
@@ -140,7 +140,7 @@ export default function FujifilmCompanyPage() {
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span><span>医療画像系では一般にC++やPythonなどが想定されますが、<strong>公式の統一情報がないため断定はしません</strong>。具体的言語は各募集要項で確認してください。</span></li>
             </ul>
           </div>
-          <p className="text-xs text-slate-500 mt-2">出典：富士フイルム公式の事業・採用情報から確認できる技術領域に基づく記述。具体的な開発言語・内製ツールの統一一覧は公開されていないため、推測の言語表は掲載していません。</p>
+          <p className="text-xs text-slate-500 mt-2">出典：富士フイルム公式の事業・採用情報から確認できる技術領域に基づく記述です。具体的な開発言語・内製ツールの統一一覧は公開されていないため、推測の言語表は掲載していません。</p>
         </section>
 
         <section id="flow" className="mb-10">
@@ -156,13 +156,13 @@ export default function FujifilmCompanyPage() {
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
             OpenWork等の口コミプラットフォームでは、富士フイルムについて<strong>「大手としての安定性・福利厚生への評価が高い」「研究開発・技術への投資が手厚い」</strong>といった傾向の声が見られます。一方で、<strong>「大企業ゆえの意思決定の速度感」「事業・部署により文化や働き方に差がある」</strong>といった指摘も見られます。評価は事業会社・部署・職種・時期により大きく異なります。
           </p>
-          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約（個別スコア・原文の転載はしていません）。</p>
+          <p className="text-xs text-slate-500">出典：OpenWork掲載の社員クチコミの傾向を要約しています（個別スコア・原文の転載はしていません）。</p>
         </section>
 
         <section id="middle" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代から見た富士フイルム</h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
-            <p>HD単体の<strong>平均年齢は43.5歳、平均勤続年数17.5年</strong>（2025年3月期・有報）。ミドル〜シニア層が中核を占める落ち着いた組織で、30代・40代で中途入社しても年齢構成的に浮きにくい環境といえます。中途では即戦力としての専門性が問われる一方、R&D志向で腰を据えたキャリア形成がしやすい点が特徴です。</p>
+            <p>HD単体の<strong>平均年齢は43.5歳、平均勤続年数17.5年です</strong>（2025年3月期・有価証券報告書）。ミドル〜シニア層が中核を占める落ち着いた組織で、30代・40代で中途入社しても年齢構成的に浮きにくい環境といえます。中途では即戦力としての専門性が問われる一方、R&D志向で腰を据えたキャリア形成がしやすい点が特徴です。</p>
             <p>30代・40代の画像処理・機械学習・医療ドメイン経験者にとって、富士フイルムは「<strong>医療画像AIというディープテックR&Dに長期で関われる</strong>」希少なフィールドです。ヘルスケアは社会的な需要が拡大する領域であり、専門性が長く活きる可能性があります。一方、看板の1,124万円はあくまでHD単体の全社員平均であり、配属される事業会社・職種での実際の提示条件を冷静に確認することが大切です。Webサービス中心のキャリアからの転身は、医療・素材ドメインの習得が前提になる点にも留意してください。</p>
             <p>転職活動では、ミドル層の年収交渉・市場価値の整理も押さえておきたいところです。<Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>や<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の把握</Link>、医療領域を志向するなら<Link href="/industry/healthcare/" className="text-petrol hover:underline">ヘルスケア業界の転職</Link>もあわせて確認してください。</p>
           </div>
@@ -176,17 +176,17 @@ export default function FujifilmCompanyPage() {
               <ul className="space-y-2 text-sm text-green-900">
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>画像処理・機械学習・医療ドメインの専門性を持つ即戦力</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>医療画像AI・ヘルスケアのディープテックR&Dに長期で関わりたい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>大手の安定性・研究開発投資の手厚さを重視する</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">✓</span>大手の安定性・研究開発投資の手厚さを重視します</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">✓</span>グループ横断のDX・デジタル基盤づくりに挑戦したい</li>
               </ul>
             </div>
             <div className="border border-rose-200 bg-rose-50 rounded-lg p-5">
               <p className="font-bold text-rose-800 text-sm mb-3">向いていない人</p>
               <ul className="space-y-2 text-sm text-rose-900">
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>「平均1,124万円」を自分のエンジニア年収と捉えている</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>医療・素材などのディープなドメイン習得に関心が持てない</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>「平均1,124万円」を自分のエンジニア年収と捉えています</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>医療・素材などのディープなドメイン習得に関心が持てません</li>
                 <li className="flex items-start gap-2"><span className="shrink-0">×</span>スタートアップ的な意思決定スピードを最優先したい</li>
-                <li className="flex items-start gap-2"><span className="shrink-0">×</span>専門の実務経験がなく未経験参入を狙う</li>
+                <li className="flex items-start gap-2"><span className="shrink-0">×</span>専門の実務経験がなく未経験参入を狙います</li>
               </ul>
             </div>
           </div>
@@ -195,9 +195,9 @@ export default function FujifilmCompanyPage() {
         <section id="agent" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">富士フイルム転職におすすめのエージェント3社</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・AI・画像処理領域に強く、技術面接対策のサポートも受けられる。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化。大手・R&D系の専門職・高年収ポジションのスカウトが届きやすい。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数。メーカー・ヘルスケアの求人を幅広くカバー。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
+            {[{ name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・AI・画像処理領域に強く、技術面接対策のサポートも受けられます。" }, { name: "ビズリーチ（IT）", href: "/review/bizreach-it/", desc: "ハイクラス特化です。大手・R&D系の専門職・高年収ポジションのスカウトが届きやすいです。" }, { name: "doda（IT）", href: "/review/doda-it/", desc: "国内最大級の求人数です。メーカー・ヘルスケアの求人を幅広くカバーします。" }].map((agent, i) => (<Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors"><h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3><p className="text-xs text-slate-500">{agent.desc}</p></Link>))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが定石です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
+          <p className="text-xs text-slate-500 mt-3">特定企業の求人保有状況は時期により変動します。複数社の併用で求人の取りこぼしを防ぐのが基本です。詳しくは<Link href="/compare/agents/" className="text-petrol hover:underline">エージェント比較</Link>を参照してください。</p>
         </section>
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">

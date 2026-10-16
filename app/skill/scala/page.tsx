@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/skill/scala/" },
   title: "Scalaエンジニアの転職ガイド｜年収・求人・将来性【2026年】",
   description:
-    "Scalaエンジニアの転職市場を出典付きで解説。求人ボックス集計で言語別年収トップ級のScalaの市場価値、関数型・データ基盤での需要、Javaからの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。",
+    "Scalaエンジニアの転職市場を出典付きで解説。求人ボックス集計で言語別年収トップ級のScalaの市場価値、関数型・データ基盤での需要、Javaからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "1. 結論：Scalaエンジニアの転職市場の攻め方" },
+  { id: "conclusion", label: "1. 結論：Scalaエンジニアの転職市場での進め方" },
   { id: "market", label: "2. Scalaの市場・年収データ（出典付き）" },
   { id: "level", label: "3. 求められる経験レベルと求人要件の傾向" },
   { id: "career", label: "4. Scalaエンジニアのキャリアパス" },
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "Scalaはなぜ年収が高いと言われるのですか？",
-    a: "Scalaは関数型とオブジェクト指向を併せ持つJVM言語で、Sparkなどのビッグデータ基盤や金融系のミッションクリティカルな領域で採用されます。扱えるエンジニアの母数が少ない一方、データ基盤・大規模分散処理という付加価値の高い領域で使われるため、求人提示額が高めに出やすいのが特徴です。求人数自体は多くないため、希少性を年収に変える戦い方が向いています。",
+    a: "Scalaは関数型とオブジェクト指向を併せ持つJVM言語で、Sparkなどのビッグデータ基盤や金融系のミッションクリティカルな領域で採用されます。扱えるエンジニアの母数が少ない一方、データ基盤・大規模分散処理という付加価値の高い領域で使われるため、求人提示額が高めに出やすいのが特徴です。求人数自体は多くないため、希少性を年収に変える進め方が向いています。",
   },
   {
     q: "JavaからScalaへ転向するのは難しいですか？",
@@ -69,7 +69,7 @@ export default function ScalaSkillPage() {
     <>
       <ArticleJsonLd
         title="Scalaエンジニアの転職ガイド｜年収・求人・将来性【2026年】"
-        description="Scalaエンジニアの転職市場を出典付きで解説。求人ボックス集計で言語別年収トップ級のScalaの市場価値、関数型・データ基盤での需要、Javaからの参入ルート、30代・40代の戦い方をミドルエンジニア向けに整理します。"
+        description="Scalaエンジニアの転職市場を出典付きで解説。求人ボックス集計で言語別年収トップ級のScalaの市場価値、関数型・データ基盤での需要、Javaからの参入ルート、30代・40代の進め方をミドルエンジニア向けに整理します。"
         url="/skill/scala/"
       />
       <script
@@ -97,7 +97,7 @@ export default function ScalaSkillPage() {
             Scalaは関数型とオブジェクト指向を併せ持つJVM言語で、Apache Sparkを中心としたビッグデータ基盤や、金融系のミッションクリティカルなバックエンドで採用されています。求人の絶対数は多くないものの、扱えるエンジニアが少ない希少スキルとして、公表データ上では言語別年収のトップ級に位置します。
           </p>
           <p className="text-slate-600 leading-relaxed">
-            本記事では、求人数では計れないScalaエンジニア転職の「攻め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・Javaなどからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
+            本記事では、求人数では計れないScalaエンジニア転職の「進め方」を、<strong>公表年収データ・求められる経験レベル・求人の探し方・Javaなどからの参入ルート</strong>に分けて、30代・40代の視点を交えて整理します。
           </p>
         </section>
 
@@ -124,15 +124,15 @@ export default function ScalaSkillPage() {
         </nav>
 
         <section id="conclusion" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Scalaエンジニアの転職市場の攻め方</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：Scalaエンジニアの転職市場での進め方</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              <strong>Scalaは「求人数は少ないが年収水準は高い」希少スキル型の言語です。</strong>数で勝負するのではなく、Scalaを採用しているデータ基盤・金融系の企業に的を絞り、希少性を年収に変える戦い方が向いています。
+              <strong>Scalaは「求人数は少ないが年収水準は高い」希少スキル型の言語です。</strong>数を強みにするのではなく、Scalaを採用しているデータ基盤・金融系の企業に的を絞り、希少性を年収に変える進め方が向いています。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・求人ボックス系の言語別集計（2025年1月公表）で<strong>平均約1,101万円・調査20言語中トップ</strong>。一方で求人母数は限られる</li>
-              <li>・Java／Kotlinなど静的型付け言語の経験があれば、Scala未経験でもポテンシャル採用の余地がある</li>
-              <li>・Scalaは<strong>Spark・データ基盤の知識との掛け合わせ</strong>で市場価値が跳ね上がる（データプラットフォーム領域）</li>
+              <li>・求人ボックス系の言語別集計（2025年1月公表）で<strong>平均約1,101万円・調査20言語中トップです</strong>。一方で求人母数は限られます</li>
+              <li>・Java／Kotlinなど静的型付け言語の経験があれば、Scala未経験でもポテンシャル採用の余地があります</li>
+              <li>・Scalaは<strong>Spark・データ基盤の知識との掛け合わせ</strong>で市場価値が跳ね上がります（データプラットフォーム領域）</li>
             </ul>
           </div>
         </section>
@@ -174,7 +174,7 @@ export default function ScalaSkillPage() {
         <section id="level" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベルと求人要件の傾向</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            Scala求人は「Scala経験そのもの」を必須にするものと、「JVM言語の経験＋Scalaは入社後キャッチアップ可」とするものに分かれます。求人票によく登場する要件を傾向としてまとめると次の通りです。
+            Scala求人は「Scala経験そのもの」を必須にするものと、「JVM言語の経験＋Scalaは入社後キャッチアップ可」とするものに分かれます。求人票によく登場する要件を傾向としてまとめると次のとおりです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
@@ -198,10 +198,10 @@ export default function ScalaSkillPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { role: "バックエンドエンジニア", note: "ScalaでのAPI・バッチ開発。Web系・金融系で需要" },
-              { role: "データエンジニア／基盤", note: "Spark＋Scalaで大規模データ処理基盤を構築。最も希少性が高いゾーン" },
+              { role: "バックエンドエンジニア", note: "ScalaでのAPI・バッチ開発です。Web系・金融系で需要" },
+              { role: "データエンジニア／基盤", note: "Spark＋Scalaで大規模データ処理基盤を構築します。最も希少性が高いゾーン" },
               { role: "テックリード／アーキテクト", note: "Scala基盤の設計＋技術選定＋チームリード" },
-              { role: "フリーランス（Scala案件）", note: "データ基盤・金融系案件。希少性から単価が高い傾向" },
+              { role: "フリーランス（Scala案件）", note: "データ基盤・金融系案件です。希少性から単価が高い傾向" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{item.role}</h3>
@@ -223,7 +223,7 @@ export default function ScalaSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア（IT・Web特化）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍。Scalaのような専門求人の提案に向きます。
+                IT・Web特化で高年収求人の比率が高く、技術に踏み込んで話せるアドバイザーが在籍しています。Scalaのような専門求人の提案に向きます。
               </p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">レバテックキャリアの詳細レビュー →</Link>
             </div>
@@ -237,7 +237,7 @@ export default function ScalaSkillPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly（Web系・スタートアップに強い）</h3>
               <p className="text-sm text-slate-600 mb-2">
-                IT・Web・ゲーム業界専門で提案スピードが強み。Scalaを採用するWeb系・データ系スタートアップの求人を探したい場合の選択肢になります。
+                IT・Web・ゲーム業界専門で提案スピードが強みです。Scalaを採用するWeb系・データ系スタートアップの求人を探したい場合の選択肢になります。
               </p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">Geeklyの詳細レビュー →</Link>
             </div>
@@ -272,13 +272,13 @@ export default function ScalaSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700 leading-relaxed">
             <p>
-              <strong>希少スキルは年齢の不利を相殺しやすい。</strong>Scalaのように扱える人が少ない言語では、「若くて安い人材」ではなく「すぐ戦力になる希少人材」が求められます。30代・40代でJavaなどの設計経験を積んでいるなら、その経験こそが武器になります。
+              <strong>希少スキルは年齢の不利を相殺しやすいです。</strong>Scalaのように扱える人が少ない言語では、「若くて安い人材」ではなく「すぐ戦力になる希少人材」が求められます。30代・40代でJavaなどの設計経験を積んでいるなら、その経験こそが強みになります。
             </p>
             <p>
-              <strong>掛け算で差別化する。</strong>Scala単体より「Scala＋データ基盤」「Scala＋金融・広告などのドメイン知識」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、Scalaという実装手段と結びつけて語れると説得力が増します。
+              <strong>掛け算で差別化します。</strong>Scala単体より「Scala＋データ基盤」「Scala＋金融・広告などのドメイン知識」の掛け合わせが、ミドル層の強みです。年齢を重ねた分の業務知識を、Scalaという実装手段と結びつけて語れると説得力が増します。
             </p>
             <p>
-              <strong>マネジメント経験も資産になる。</strong>テックリードやアーキテクトのScala求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
+              <strong>マネジメント経験も資産になります。</strong>テックリードやアーキテクトのScala求人では、コードを書く力に加えてチームの技術選定・育成の経験が評価されます。40代でPL／PM経験があるなら、それを技術力とセットで提示しましょう。
             </p>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -290,13 +290,13 @@ export default function ScalaSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="space-y-3 text-sm text-slate-600 leading-relaxed">
             <p>
-              <strong>① 関数型の基礎を固める。</strong>immutableなデータ、高階関数、パターンマッチ、Option／Eitherによるエラー表現など、Scalaの核心は関数型の発想です。小さな題材から関数型スタイルで書く習慣をつけると、設計力として面接で語れます。
+              <strong>① 関数型の基礎を固めます。</strong>immutableなデータ、高階関数、パターンマッチ、Option／Eitherによるエラー表現など、Scalaの核心は関数型の発想です。小さな題材から関数型スタイルで書く習慣をつけると、設計力として面接で語れます。
             </p>
             <p>
-              <strong>② Sparkで実データを扱う。</strong>Scalaの強みが最も出るのは大規模データ処理です。公開データセットを使ったSpark集計バッチを作ると、データエンジニアリングの実績として希少性の高い領域に踏み込めます。
+              <strong>② Sparkで実データを扱います。</strong>Scalaの強みが最も出るのは大規模データ処理です。公開データセットを使ったSpark集計バッチを作ると、データエンジニアリングの実績として希少性の高い領域に踏み込めます。
             </p>
             <p>
-              <strong>③ Javaの資産を活かす。</strong>ScalaはJVM上でJavaライブラリを利用できます。これまでのJava経験を捨てるのではなく、Scalaの上に積み増す形で学ぶと習得が速く、移行のリスクも下げられます。
+              <strong>③ Javaの資産を活かします。</strong>ScalaはJVM上でJavaライブラリを利用できます。これまでのJava経験を捨てるのではなく、Scalaの上に積み増す形で学ぶと習得が速く、移行のリスクも下げられます。
             </p>
             <p>
               学習と転職活動の進め方は<Link href="/knowledge/continuous-learning/" className="text-petrol hover:underline">継続的な学習の習慣化</Link>・<Link href="/knowledge/portfolio/" className="text-petrol hover:underline">ポートフォリオの作り方</Link>もあわせてご覧ください。
@@ -341,7 +341,7 @@ export default function ScalaSkillPage() {
               { name: "Pythonエンジニアの転職ガイド", href: "/skill/python/" },
               { name: "データサイエンティストの転職ガイド", href: "/skill/data-scientist/" },
               { name: "スキル別転職ガイド一覧", href: "/skill/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link
                 key={i}

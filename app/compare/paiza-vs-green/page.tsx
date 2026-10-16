@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/paiza-vs-green/" },
   title: "paiza転職とGreenの比較｜どっちがおすすめ？【2026年9月】",
   description:
-    "paiza転職(コーディングテスト型・書類選考免除)とGreen(IT/Web特化の成功報酬型転職サイト)を、応募の仕組み・評価軸・求人規模・使い方で比較。テストで実力を示したい人とカジュアルに接点を増やしたい人の分岐点、30代40代エンジニアの選び方を解説します。",
+    "paiza転職(コーディングテスト型・書類選考免除)とGreen(IT/Web特化の成功報酬型転職サイト)を、応募の仕組み・評価軸・求人規模・使い方で比較します。テストで実力を示したい人とカジュアルに接点を増やしたい人の分岐点、30代40代エンジニアの選び方を解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どっちがおすすめか" },
+  { id: "conclusion", label: "結論：どちらがおすすめか" },
   { id: "basic", label: "基本データ比較表" },
   { id: "system", label: "項目別比較①：応募の仕組み（テストランク vs 気になる・スカウト）" },
   { id: "axis", label: "項目別比較②：評価のされ方" },
@@ -27,7 +27,7 @@ const toc = [
 
 const comparison = [
   { item: "運営会社", a: "paiza株式会社（2013年設立・二次情報）", b: "株式会社アトラエ（東証プライム上場・2003年10月設立／二次情報）" },
-  { item: "サービス形態", a: "コーディングテスト型（スキルチェックのランクで応募・書類選考免除）", b: "成功報酬型の転職サイト（ダイレクトリクルーティング）。エージェントの仲介サポートはなし" },
+  { item: "サービス形態", a: "コーディングテスト型（スキルチェックのランクで応募・書類選考免除）", b: "成功報酬型の転職サイトです（ダイレクトリクルーティング）。エージェントの仲介サポートはなし" },
   { item: "評価のものさし", a: "プログラミングスキルチェック（S〜Eランク）", b: "職務経歴プロフィール（企業が直接閲覧しスカウト）" },
   { item: "規模感", a: "求人約5,100件（2026年4月更新・二次情報）／掲載1,600社以上", b: "掲載企業9,000社以上／求人15,000件以上（媒体により30,000件以上とも・幅あり）" },
   { item: "使い方", a: "スキルチェック受験→ランクで応募（Bランク以上で選択肢拡大の傾向）", b: "「気になる」機能・スカウト・企業と直接やり取り" },
@@ -37,7 +37,7 @@ const comparison = [
 ];
 
 const faqs = [
-  { q: "paiza転職とGreenの最大の違いは何ですか？", a: "実力の示し方が違います。paizaはコーディングテスト（スキルチェック）のS〜Eランクがそのまま評価になり、ランクに応じて書類選考免除で応募できるのが最大の特徴です。Greenはテストがなく、職務経歴プロフィールを企業が直接見てスカウトする成功報酬型の転職サイトです。テストで語るならpaiza、経歴と接点の数で勝負するならGreenです。" },
+  { q: "paiza転職とGreenの最大の違いは何ですか？", a: "実力の示し方が違います。paizaはコーディングテスト（スキルチェック）のS〜Eランクがそのまま評価になり、ランクに応じて書類選考免除で応募できるのが最大の特徴です。Greenはテストがなく、職務経歴プロフィールを企業が直接見てスカウトする成功報酬型の転職サイトです。テストで語るならpaiza、経歴と接点の数を強みにするならGreenです。" },
   { q: "求人数はどちらが多いですか？", a: "公開情報の範囲ではGreenが上回ります（掲載企業9,000社以上・求人15,000件以上、媒体により30,000件以上とも）。paizaは約5,100件（2026年4月更新・二次情報）ですが、応募時にランクで書類選考が免除される分、1件あたりの選考到達率で補う設計です。数を広く見たいならGreen、少数でも選考を確実に進めたいならpaizaという整理になります。" },
   { q: "paizaのスキルチェックはどのくらいのランクが必要ですか？", a: "求人ごとに応募可能ランクが設定されており、一般にBランク以上で選択肢が広がる傾向です（求人の要求ランクは時期・企業により変わるため、最新はpaiza内の求人詳細でご確認ください）。ランクは何度でも上げられるので、まず現在地を測る目的で受験する使い方も有効です。" },
   { q: "Greenにはエージェントのサポートはありますか？", a: "ありません。Greenは成功報酬型の転職サイトで、書類添削や面接対策・年収交渉の代行といったエージェント機能は提供されず、企業と直接やり取りします。サポートが欲しい場合は、IT特化エージェント（レバテックキャリア・Geekly等）を併用するのが定番の組み合わせです。" },
@@ -48,7 +48,7 @@ const faqs = [
 const goodA = [
   "コーディングテストで実力を客観的に示したい",
   "書類選考をスキップして選考を確実に進めたい",
-  "学歴・職歴より現在のコーディング力で勝負したい",
+  "学歴・職歴より現在のコーディング力を強みにしたい",
   "Web系・自社開発・スタートアップのプログラミング職志向",
   "自分の市場価値(ランク)をまず測ってみたい",
 ];
@@ -65,12 +65,12 @@ export default function PaizaVsGreenPage() {
 
   return (
     <>
-      <ArticleJsonLd title="paiza転職とGreenの比較｜どっちがおすすめか" description="paiza(テストランク型)とGreen(成功報酬型転職サイト)を応募の仕組み・評価軸・求人規模で比較。30代40代エンジニアの選び方を解説します。" url="/compare/paiza-vs-green/" />
+      <ArticleJsonLd title="paiza転職とGreenの比較｜どっちがおすすめか" description="paiza(テストランク型)とGreen(成功報酬型転職サイト)を応募の仕組み・評価軸・求人規模で比較します。30代40代エンジニアの選び方を解説します。" url="/compare/paiza-vs-green/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "paiza vs Green" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">paiza転職とGreenを徹底比較｜どっちがおすすめ？</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">paiza転職とGreenを比較｜どっちがおすすめ？</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年9月 ｜ コーディングテスト型 と 成功報酬型転職サイト を比較</p>
 
         <p className="text-slate-600 leading-relaxed mb-4">paiza転職とGreenはどちらもIT/Web系に強い自走型サービスですが、実力の示し方がまったく違います。paizaはスキルチェック(コーディングテスト)のランクで応募し書類選考が免除される仕組み、Greenはテストなしで職務経歴プロフィールを企業が直接見てスカウトする成功報酬型サイトです。本記事は30代・40代のITエンジニア向けに、応募の仕組み・評価軸・求人規模・得意領域で両者を比較します。どちらも求職者は完全無料です。</p>
@@ -87,13 +87,13 @@ export default function PaizaVsGreenPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li><strong>・テストで実力を証明したいなら「paiza転職」</strong>。スキルチェックのランクで応募でき、書類選考免除が最大の武器です。</li>
+              <li><strong>・テストで実力を証明したいなら「paiza転職」</strong>。スキルチェックのランクで応募でき、書類選考免除が最大の強みです。</li>
               <li><strong>・接点の数を増やしたいなら「Green」</strong>。掲載9,000社以上(二次情報)の規模と「気になる」機能で、テストなしにカジュアルへ動けます。</li>
-              <li><strong>・迷うなら併用</strong>。テスト評価(paiza)とプロフィール評価(Green)は重ならないため、両輪で市場にアプローチできます。</li>
+              <li><strong>・迷うなら併用です</strong>。テスト評価(paiza)とプロフィール評価(Green)は重ならないため、両輪で市場にアプローチできます。</li>
             </ul>
           </div>
         </section>
@@ -131,14 +131,14 @@ export default function PaizaVsGreenPage() {
 
         <section id="axis" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較②：評価のされ方</h2>
-          <p className="text-slate-600 leading-relaxed mb-3">paizaの評価は「いま解けるか」です。ランクは現在のコーディング力の証明であり、ブランクや経歴の凸凹を打ち消してくれます。逆にアルゴリズム系のテストが苦手な方や、マネジメント・上流が主戦場の方には実力が反映されにくい設計です。</p>
+          <p className="text-slate-600 leading-relaxed mb-3">paizaの評価は「いま解けるか」です。ランクは現在のコーディング力の証明であり、ブランクや経歴の凸凹を打ち消してくれます。逆にアルゴリズム系のテストが苦手な方や、マネジメント・上流が中心的な活躍領域の方には実力が反映されにくい設計です。</p>
           <p className="text-slate-600 leading-relaxed mb-3">Greenの評価は職務経歴プロフィールそのものです。何をどの規模でやってきたかを具体的に書くほどスカウトの質が上がります。テストがない分、プロフィールの作り込みがそのまま成果に直結します。</p>
         </section>
 
         <section id="volume" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">項目別比較③：求人規模と得意領域</h2>
           <p className="text-slate-600 leading-relaxed mb-3">規模はGreenが上です（掲載企業9,000社以上／求人15,000件以上・媒体により30,000件以上とも）。IT/Webベンチャーからメガベンチャーまでの直接採用が中心で、東京圏の選択肢が厚めです。paizaは約5,100件（2026年4月更新・二次情報）とコンパクトですが、Web系・自社開発・スタートアップのプログラミング職に絞った濃い構成です。</p>
-          <p className="text-slate-600 leading-relaxed mb-3">どちらもエージェントの仲介がない自走型なので、書類添削や年収交渉の支援が欲しい場合は紹介型エージェントの併用が前提になります。</p>
+          <p className="text-slate-600 leading-relaxed mb-3">どちらもエージェントの仲介がない自走型であるため、書類添削や年収交渉の支援が欲しい場合は紹介型エージェントの併用が前提になります。</p>
         </section>
 
         <BusySeasonNote />
@@ -163,7 +163,7 @@ export default function PaizaVsGreenPage() {
 
         <section id="heiyo" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">併用のすすめ</h2>
-          <p className="text-slate-600 leading-relaxed mb-3">paizaのランクは「客観的な実力証明」、Greenの接点は「機会の分母」。評価軸が重ならないため、併用しても活動が二重になりません。paizaでBランク以上を取ってからGreenのプロフィールに実績として書く、という掛け合わせも実務的です。どちらも無料なので、まず両方に登録して反応の差を見るのが早道です。</p>
+          <p className="text-slate-600 leading-relaxed mb-3">paizaのランクは「客観的な実力証明」、Greenの接点は「機会の分母」。評価軸が重ならないため、併用しても活動が二重になりません。paizaでBランク以上を取ってからGreenのプロフィールに実績として書く、という掛け合わせも実務的です。どちらも無料であるため、まず両方に登録して反応の差を見るのが早道です。</p>
         </section>
 
         <section id="middle" className="mb-12 scroll-mt-20">
@@ -185,7 +185,7 @@ export default function PaizaVsGreenPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">テストの証明と接点の分母、両方持とう</h2>
-          <p className="text-blue-100 text-sm mb-4">paizaでランクを取り、Greenで接点を広げる。評価軸が重ならない2つを無料で併用して、反応の差から自分の勝ち筋を見つけましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">paizaでランクを取り、Greenで接点を広げます。評価軸が重ならない2つを無料で併用して、反応の差から自分に有効な方法を見つけましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 
@@ -198,7 +198,7 @@ export default function PaizaVsGreenPage() {
               { name: "paiza vs Findy 比較", href: "/compare/paiza-vs-findy/" },
               { name: "Green vs Wantedly 比較", href: "/compare/green-vs-wantedly/" },
               { name: "Findy vs Green 比較", href: "/compare/findy-vs-green/" },
-              { name: "スカウト型サービス徹底比較", href: "/compare/scout-agents/" },
+              { name: "スカウト型サービス比較", href: "/compare/scout-agents/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

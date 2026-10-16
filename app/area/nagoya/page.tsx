@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/nagoya/" },
   title: "名古屋のIT転職事情【2026年】製造業DXとエンジニアの選択肢",
   description:
-    "名古屋・愛知のIT・Webエンジニア転職を解説。自動車産業を核とした製造DXの集積、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを30代・40代向けに整理します。",
+    "名古屋・愛知のIT・Webエンジニア転職を解説します。自動車産業を核とした製造DXの集積、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを30代・40代向けに整理します。",
 };
 
 const toc = [
@@ -37,10 +37,10 @@ const fitNo = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手。ポテンシャル採用も多い層。" },
-  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層。" },
-  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層。" },
-  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も多い層です。" },
+  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
+  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層です。" },
+  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
 ];
 
 const agents = [
@@ -48,25 +48,25 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。利用者の多くが20〜30代で、技術理解の高いアドバイザーが特徴。首都圏中心とされるが、フルリモート求人を介して名古屋在住でも選択肢を広げやすい。",
+      "IT/Web特化型です。利用者の多くが20〜30代で、技術理解の高いアドバイザーが特徴です。首都圏中心とされるが、フルリモート求人を介して名古屋在住でも選択肢を広げやすいです。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "パーソルキャリアが運営する全国対応の総合型。検索・エージェント・スカウトのハイブリッド型で、地方の製造業系IT求人にも当たりやすい。求人量の多さが強み。",
+      "パーソルキャリアが運営する全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、地方の製造業系IT求人にも当たりやすいです。求人量の多さが強みです。",
   },
   {
     name: "リクルートエージェントIT",
     href: "/review/recruit-it/",
     point:
-      "国内最大級の求人数。非公開求人が豊富で、大手からスタートアップまで網羅。全国対応のため、名古屋を含む地方拠点の求人にもアクセスしやすい。",
+      "国内最大級の求人数です。非公開求人が豊富で、大手からスタートアップまで網羅しています。全国対応のため、名古屋を含む地方拠点の求人にもアクセスしやすいです。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型。IT・ゲーム領域に強く、レスポンスの速さに定評。地方在住からの転職相談にも対応しやすい体制。",
+      "全国47都道府県57拠点を構える総合型です。IT・ゲーム領域に強く、レスポンスの速さに定評があります。地方在住からの転職相談にも対応しやすい体制です。",
   },
 ];
 
@@ -80,7 +80,7 @@ const faqs = [
     a: "一般に名古屋駅周辺（名駅エリア）に大手SIerやITベンダーの拠点が集まり、伏見・栄エリアにはWeb系企業が見られます。愛知県内では豊田市・刈谷市・安城市など、自動車関連メーカーの集積地に組み込み・車載ソフトウェア開発の拠点が多い傾向です。具体的な企業数・求人数は媒体や時点で変動するため、各エージェントで最新状況を確認するのが確実です。",
   },
   {
-    q: "トヨタは愛知の企業ですよね。関連の開発に携われますか？",
+    q: "トヨタ関連の開発に携わることはできますか？",
     a: "トヨタ自動車は愛知県に本社を置くことで広く知られています。グループ各社や周辺のサプライヤーを含め、車載ソフトウェア・コネクテッド・製造ラインのDXなど幅広い開発領域があります。採用方針や具体的な職種・年収は時期により変わるため、企業個別の情報は公式採用ページや、当サイトの企業解説（トヨタの転職難易度・採用の特徴）も参考にしてください。",
   },
   {
@@ -116,7 +116,7 @@ export default function NagoyaAreaPage() {
     <>
       <ArticleJsonLd
         title="名古屋のIT転職事情【2026年】製造業DXとエンジニアの選択肢"
-        description="名古屋・愛知のIT・Webエンジニア転職を解説。自動車産業を核とした製造DXの集積、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを紹介します。"
+        description="名古屋・愛知のIT・Webエンジニア転職を解説します。自動車産業を核とした製造DXの集積、働き方の選択肢、年代別年収の考え方、エリア対応エージェントを紹介します。"
         url="/area/nagoya/"
       />
       <script
@@ -162,9 +162,9 @@ export default function NagoyaAreaPage() {
               名古屋・愛知のIT転職は「製造業の業務ドメイン × ITスキル」の掛け合わせが評価されやすいのが最大の特徴です。組み込み・車載・製造ラインのDXなど、ものづくりに近い領域の求人が他エリアより厚い傾向があります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・自動車産業を核とした製造DX領域に独自の求人層がある</li>
+              <li>・自動車産業を核とした製造DX領域に独自の求人層があります</li>
               <li>・Web/SaaS領域に絞るなら、首都圏のフルリモート求人も有力な選択肢</li>
-              <li>・全国対応エージェント＋IT特化エージェントの併用で選択肢を最大化できる</li>
+              <li>・全国対応エージェント＋IT特化エージェントの併用で選択肢を最大化できます</li>
             </ul>
           </div>
         </section>
@@ -226,19 +226,19 @@ export default function NagoyaAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 製造業系や地元SIerは出社中心の職場も多い一方、通勤負担が首都圏より軽いのが利点。地域に根ざした働き方を重視する人に向きます。
+                <strong>地元企業に出社・ハイブリッドで勤務:</strong> 製造業系や地元SIerは出社中心の職場も多い一方、通勤負担が首都圏より軽いのが利点です。地域に根ざした働き方を重視する人に向きます。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>名古屋拠点のWeb/SaaS企業でハイブリッド:</strong> 自社開発やWebサービス系では、週数回出社のハイブリッドが広がっています。地元での人的ネットワークを保ちつつ、開発寄りのキャリアを積みたい人向け。
+                <strong>名古屋拠点のWeb/SaaS企業でハイブリッド:</strong> 自社開発やWebサービス系では、週数回出社のハイブリッドが広がっています。地元での人的ネットワークを保ちつつ、開発寄りのキャリアを積みたい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>名古屋在住×首都圏企業のフルリモート:</strong> 居住地を変えずに首都圏水準の年収・案件を狙える選択肢。
+                <strong>名古屋在住×首都圏企業のフルリモート:</strong> 居住地を変えずに首都圏水準の年収・案件を狙える選択肢です。
                 <Link href="/area/remote/" className="text-petrol hover:underline">フルリモートIT転職ガイド</Link>
                 もあわせて検討する価値があります。
               </p>
@@ -315,9 +315,9 @@ export default function NagoyaAreaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職活動の進め方</h2>
           <div className="space-y-3">
             {[
-              { step: "1", title: "軸を決める", desc: "「製造DX寄り」「Web/SaaS寄り」「リモート前提」のどれを中心に据えるかを最初に決める。これで紹介される求人の質が変わります。" },
-              { step: "2", title: "エージェントを2〜3社登録", desc: "IT特化型と全国対応の総合型を組み合わせ、提案傾向を比較する。地方在住なら拠点網の広いサービスを1社入れておくと安心です。" },
-              { step: "3", title: "出社要件を早期に確認", desc: "求人ごとの出社頻度・勤務地を面談初期で確認。移住・通勤の可否を生活設計と照らし合わせます。" },
+              { step: "1", title: "軸を決める", desc: "「製造DX寄り」「Web/SaaS寄り」「リモート前提」のどれを中心に据えるかを最初に決めます。これで紹介される求人の質が変わります。" },
+              { step: "2", title: "エージェントを2〜3社登録", desc: "IT特化型と全国対応の総合型を組み合わせ、提案傾向を比較します。地方在住なら拠点網の広いサービスを1社入れておくと安心です。" },
+              { step: "3", title: "出社要件を早期に確認", desc: "求人ごとの出社頻度・勤務地を面談初期で確認します。移住・通勤の可否を生活設計と照らし合わせます。" },
               { step: "4", title: "職務経歴書で強みを言語化", desc: "製造ドメイン知識やリーダー経験など、名古屋市場で評価されやすい要素を具体的なエピソードで示します。" },
               { step: "5", title: "比較して意思決定", desc: "複数の内定・提案を比べ、額面だけでなく働き方・生活コストを含めて総合判断します。" },
             ].map((s, i) => (
@@ -377,13 +377,13 @@ export default function NagoyaAreaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">30代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                技術の幅を広げつつ、リーダー・設計の経験を積み上げるフェーズ。製造DX領域でドメイン知識を深めるか、Web/SaaSで技術の市場価値を高めるか、方向性を意識して選ぶと年収も伸ばしやすくなります。
+                技術の幅を広げつつ、リーダー・設計の経験を積み上げるフェーズです。製造DX領域でドメイン知識を深めるか、Web/SaaSで技術の市場価値を高めるか、方向性を意識して選ぶと年収も伸ばしやすくなります。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">40代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                マネジメントや高度専門、業務とITの橋渡し役など、役割で評価される段階。地元企業の安定性と、リモートでの選択肢拡大の両方を天秤にかけ、生活設計と両立する形を選ぶのが現実的です。
+                マネジメントや高度専門、業務とITの橋渡し役など、役割で評価される段階です。地元企業の安定性と、リモートでの選択肢拡大の両方を天秤にかけ、生活設計と両立する形を選ぶのが現実的です。
               </p>
             </div>
           </div>

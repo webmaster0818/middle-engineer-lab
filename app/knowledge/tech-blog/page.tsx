@@ -14,10 +14,10 @@ export const metadata: Metadata = {
 const toc = [
   { id: "conclusion", label: "1. 結論：技術ブログは『第二の職務経歴書』" },
   { id: "platforms", label: "2. プラットフォーム比較（Qiita/Zenn/note/個人）" },
-  { id: "choose", label: "3. 目的別・あなたが選ぶべきプラットフォーム" },
+  { id: "choose", label: "3. 目的別・ご自身が選ぶべきプラットフォーム" },
   { id: "evaluated", label: "4. 採用担当に評価される記事の型" },
-  { id: "themes", label: "5. ミドルが書くと刺さるテーマ" },
-  { id: "show", label: "6. 職務経歴書への載せ方・提示方法" },
+  { id: "themes", label: "5. ミドルが書くと評価されやすいテーマ" },
+  { id: "show", label: "6. 職務経歴書への記載方法・提示方法" },
   { id: "risk", label: "7. 炎上・守秘リスクの避け方" },
   { id: "age", label: "8. 30代・40代の発信戦略の違い" },
   { id: "faq", label: "9. よくある質問" },
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "ブログとGitHub、どちらを優先すべきですか？",
-    a: "どちらも成果物の見せ方の一手段で、優先度はあなたの強みによります。コードで魅せたいならGitHub、思考や設計判断を言語化して魅せたいならブログが向きます。両者の使い分けと全体像は",
+    a: "どちらも成果物の見せ方の一手段で、優先度はご自身の強みによります。コードで魅せたいならGitHub、思考や設計判断を言語化して魅せたいならブログが向きます。両者の使い分けと全体像は",
     aLink: { text: "ポートフォリオの見せ方", href: "/knowledge/portfolio/" },
     aAfter: "を、GitHub単体の運用は別記事を参照してください。",
   },
@@ -99,9 +99,9 @@ export default function TechBlogPage() {
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】技術ブログは転職で本当に評価される？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 採用担当・面接官は応募者の名前で検索するため、技術ブログは「第二の職務経歴書」として機能します。</strong></p>
             <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
-              <li>・コードを読まずとも、技術理解度・言語化能力・継続性が記事から伝わる。</li>
-              <li>・30-40代は入門記事の量産より、設計判断・トラブル対応・技術選定を深く掘った1本が刺さる。</li>
-              <li>・まずQiitaかZennのどちらか1つに絞って続けるのが最適。炎上・不正確な記事はマイナスになり得るため注意。</li>
+              <li>・コードを読まずとも、技術理解度・言語化能力・継続性が記事から伝わります。</li>
+              <li>・30-40代は入門記事の量産より、設計判断・トラブル対応・技術選定を深く掘った1本が評価されます。</li>
+              <li>・まずQiitaかZennのどちらか1つに絞って続けるのが最適です。炎上・不正確な記事はマイナスになり得るため注意します。</li>
             </ul>
           </div>
         </section>
@@ -136,7 +136,7 @@ export default function TechBlogPage() {
           </p>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
             <p className="text-sm text-amber-800">
-              <strong>ミドルの結論：</strong>30-40代は流行りの入門記事を量産するより、<strong>設計判断・トラブル対応・技術選定を深く掘った1本</strong>の方が刺さります。「車輪の再発明」的な記事ではなく、自分が実際に詰まり、試行錯誤して解いた過程を書きましょう。学習の継続そのものについては<Link href="/knowledge/continuous-learning/" className="text-amber-900 underline">継続的な学習の進め方</Link>も参考になります。
+              <strong>ミドルの結論：</strong>30-40代は流行りの入門記事を量産するより、<strong>設計判断・トラブル対応・技術選定を深く掘った1本</strong>の方が評価されます。「車輪の再発明」的な記事ではなく、自分が実際に詰まり、試行錯誤して解いた過程を書きましょう。学習の継続そのものについては<Link href="/knowledge/continuous-learning/" className="text-amber-900 underline">継続的な学習の進め方</Link>も参考になります。
             </p>
           </div>
         </section>
@@ -181,13 +181,13 @@ export default function TechBlogPage() {
 
         {/* 3. 目的別 */}
         <section id="choose" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">3. 目的別・あなたが選ぶべきプラットフォーム</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">3. 目的別・ご自身が選ぶべきプラットフォーム</h2>
           <div className="space-y-4">
             {[
-              { t: "とにかく広く読まれて実績を作りたい", d: "Qiita。読者母数とSEOが強く、検索流入で名前が露出しやすい。まず継続して書く第一歩に向く。" },
-              { t: "エンジニア読者に質で評価されたい", d: "Zenn。執筆体験が良くGitHub連携も可能。質の高い記事が評価されやすく、採用担当への印象も作りやすい。" },
-              { t: "キャリア・組織・働き方を発信したい", d: "note。コードより文章主体のテーマに向く。マネジメント志向のミドルの発信に。" },
-              { t: "長期的に資産化・収益化したい", d: "個人ブログ。自由度と資産性が最大。ただし立ち上げに手間がかかるため、QiitaやZennで実績を作ってからの併用が現実的。" },
+              { t: "とにかく広く読まれて実績を作りたい", d: "Qiitaです。読者母数とSEOが強く、検索流入で名前が露出しやすいです。まず継続して書く第一歩に向きます。" },
+              { t: "エンジニア読者に質で評価されたい", d: "Zennです。執筆体験が良くGitHub連携も可能です。質の高い記事が評価されやすく、採用担当への印象も作りやすいです。" },
+              { t: "キャリア・組織・働き方を発信したい", d: "noteです。コードより文章主体のテーマに向きます。マネジメント志向のミドルの発信に。" },
+              { t: "長期的に資産化・収益化したい", d: "個人ブログです。自由度と資産性が最大。ただし立ち上げに手間がかかるため、QiitaやZennで実績を作ってからの併用が現実的です。" },
             ].map((n, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{n.t}</h3>
@@ -208,10 +208,10 @@ export default function TechBlogPage() {
           </p>
           <div className="space-y-4">
             {[
-              { num: "1", title: "課題（なぜ取り組んだか）", desc: "実務や個人開発で実際に直面した問題から始める。背景があると説得力が出る。" },
-              { num: "2", title: "試行錯誤（何を試し、何が外れたか）", desc: "うまくいかなかった選択肢も書く。失敗の記録こそ再現性とE-E-A-Tの証拠になる。" },
-              { num: "3", title: "解決（なぜそれで解けたか）", desc: "最終解だけでなく、なぜそれが効いたかの理由を言語化する。" },
-              { num: "4", title: "学び・残課題", desc: "得た教訓と、残っている課題を正直に書く。誠実さが信頼につながる。" },
+              { num: "1", title: "課題（なぜ取り組んだか）", desc: "実務や個人開発で実際に直面した問題から始めます。背景があると説得力が出ます。" },
+              { num: "2", title: "試行錯誤（何を試し、何が外れたか）", desc: "うまくいかなかった選択肢も書きます。失敗の記録こそ再現性とE-E-A-Tの証拠になります。" },
+              { num: "3", title: "解決（なぜそれで解けたか）", desc: "最終解だけでなく、なぜそれが効いたかの理由を言語化します。" },
+              { num: "4", title: "学び・残課題", desc: "得た教訓と、残っている課題を記載します。誠実さが信頼につながります。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -226,7 +226,7 @@ export default function TechBlogPage() {
 
         {/* 5. テーマ */}
         <section id="themes" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">5. ミドルが書くと刺さるテーマ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">5. ミドルが書くと評価されやすいテーマ</h2>
           <p className="text-slate-600 leading-relaxed mb-4">経験のある30-40代だからこそ書けるテーマは、入門記事より差別化が効きます。次のパターンは反応も評価も得やすい傾向です。</p>
           <ul className="space-y-2">
             {[
@@ -246,7 +246,7 @@ export default function TechBlogPage() {
 
         {/* 6. 提示方法 */}
         <section id="show" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">6. 職務経歴書への載せ方・提示方法</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">6. 職務経歴書への記載方法・提示方法</h2>
           <p className="text-slate-600 leading-relaxed mb-4">せっかく書いた記事も、採用担当に届かなければ評価されません。提示方法のチェックリストです。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <ul className="space-y-2">
@@ -271,10 +271,10 @@ export default function TechBlogPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">7. 炎上・守秘リスクの避け方</h2>
           <div className="space-y-4">
             {[
-              { t: "守秘義務を守る", d: "社名・固有のビジネス数値・内部構成・顧客情報は書かない。再現可能な技術的学びだけを切り出し、固有情報は一般化する。" },
-              { t: "不正確な断定を避ける", d: "誤った情報は検索でヒットし続け、信頼を損なう。検証していない内容は『未検証』と明記するか、書かない。" },
-              { t: "他者・他技術を過度に貶めない", d: "比較は事実ベースで。特定の技術や人を断定的に貶める記事は炎上リスクが高く、採用でも印象を悪くする。" },
-              { t: "在職中の発信は会社の規定を確認", d: "副業・発信に関する就業規則がある場合がある。トラブルを避けるため事前に確認する。" },
+              { t: "守秘義務を守る", d: "社名・固有のビジネス数値・内部構成・顧客情報は書きません。再現可能な技術的学びだけを切り出し、固有情報は一般化します。" },
+              { t: "不正確な断定を避ける", d: "誤った情報は検索でヒットし続け、信頼を損ないます。検証していない内容は『未検証』と明記するか、書きません。" },
+              { t: "他者・他技術を過度に貶めない", d: "比較は事実ベースで。特定の技術や人を断定的に貶める記事は炎上リスクが高く、採用でも印象を悪くします。" },
+              { t: "在職中の発信は会社の規定を確認", d: "副業・発信に関する就業規則がある場合があります。トラブルを避けるため事前に確認します。" },
             ].map((n, i) => (
               <div key={i} className="bg-red-50 border border-red-200 rounded-lg p-5">
                 <h3 className="font-bold text-red-700 mb-1">{n.t}</h3>
@@ -290,11 +290,11 @@ export default function TechBlogPage() {
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">30代：技術の深さと幅を見せる</h3>
-              <p className="text-sm text-petrol-deep">技術選定・設計・トラブル対応の記事で、手が動くことと判断できることの両方を示すと効果的です。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職</Link>。</p>
+              <p className="text-sm text-petrol-deep">技術選定・設計・トラブル対応の記事で、手が動くことと判断できることの両方を示すと効果的です。関連: <Link href="/age/30s/" className="text-petrol-deep underline">30代の転職です</Link>。</p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">40代：現役性＋知見の還元を見せる</h3>
-              <p className="text-sm text-petrol-deep">「現役で技術を追えている」ことを最新テーマの記事で示しつつ、チーム・組織への知見還元の記事を添えると、テックリード・EM採用で強みになります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>、<Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリア</Link>。</p>
+              <p className="text-sm text-petrol-deep">「現役で技術を追えている」ことを最新テーマの記事で示しつつ、チーム・組織への知見還元の記事を添えると、テックリード・EM採用で強みになります。関連: <Link href="/age/40s/" className="text-petrol-deep underline">40代の転職</Link>、<Link href="/knowledge/management/" className="text-petrol-deep underline">マネジメントキャリアです</Link>。</p>
             </div>
           </div>
         </section>

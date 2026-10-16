@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "LinuC（Linux技術者認定）は転職に効くか｜国内Linux実務の証明【2026年】";
 const PAGE_DESC =
-  "LPI-JapanのLinux技術者認定LinuCを、30代・40代向けに解説。受験料16,500円・試験形式・有効期限5年、国内インフラ／サーバ職での評価、年収の考え方を公式情報をもとに限界も含めて整理します。";
+  "LPI-JapanのLinux技術者認定LinuCを、30代・40代向けに解説します。受験料16,500円・試験形式・有効期限5年、国内インフラ／サーバ職での評価、年収の考え方を公式情報をもとに留意点も含めて整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/linuc/" },
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "LinuCの合格率や合格ラインはどのくらいですか？",
-    a: "LPI-JapanはLinuCの合格率・合格ライン（合格点）を公表していません。当サイトでは創作した数値を載せず、非公表である事実をそのままお伝えします。レベル1は101・102の各90分の試験で、コマンドや設定を問う設問が中心です（LPI-Japan、2026年6月時点）。",
+    a: "LPI-JapanはLinuCの合格率・合格ライン（合格点）を公表していません。当サイトでは創作した数値は掲載せず、非公表である事実をそのままお伝えします。レベル1は101・102の各90分の試験で、コマンドや設定を問う設問が中心です（LPI-Japan、2026年6月時点）。",
   },
   {
     q: "LinuCとLPICはどちらを取るべきですか？",
@@ -101,14 +101,14 @@ export default function LinuCCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          LinuC（リナック）は、LPI-Japanが運営する<strong>国内向けのLinux技術者認定で、コマンド操作・システム管理・ネットワークといったLinux実務スキルを体系的に証明</strong>する資格です。本記事は「LinuCを取れば転職で有利になるか」という疑問に対し、<strong>国内インフラ・サーバ職でのLinux実務の証明</strong>という観点から、評価される場面や有効期限の仕組みを公式情報とともに整理します。資格単体では年収は跳ねないという限界も正直にお伝えします。
+          LinuC（リナック）は、LPI-Japanが運営する<strong>国内向けのLinux技術者認定で、コマンド操作・システム管理・ネットワークといったLinux実務スキルを体系的に証明</strong>する資格です。本記事は「LinuCを取れば転職で有利になるか」という疑問に対し、<strong>国内インフラ・サーバ職でのLinux実務の証明</strong>という観点から、評価される場面や有効期限の仕組みを公式情報とともに整理します。資格単体では年収は跳ねないという留意点もご説明します。
         </p>
 
         <DataNote
           surveyedAt="2026年6月"
           sources={[
             "LPI-Japan 公式（linuc.org）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -134,9 +134,9 @@ export default function LinuCCertPage() {
               LinuCは<strong>「国内Linux実務の体系証明」</strong>です。レベル1は入口寄りで、インフラ・サーバ運用の経験者が<strong>我流のLinuxスキルを体系的に扱える証明</strong>として、また未経験〜若手がインフラ職の入口として使えます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>インフラ・サーバ実務のある30〜40代</strong>：Linuxスキルの抜けを補い、体系的理解の証明として加点される</li>
-              <li>② <strong>インフラ未経験〜若手</strong>：Linux基礎を押さえた入口資格として書類段階で効く</li>
-              <li>③ <strong>クラウド・コンテナへ進む人</strong>：Linuxは土台。基礎の証明として相性がよい</li>
+              <li>① <strong>インフラ・サーバ実務のある30〜40代</strong>：Linuxスキルの抜けを補い、体系的理解の証明として加点されます</li>
+              <li>② <strong>インフラ未経験〜若手</strong>：Linux基礎を押さえた入口資格として書類段階で効きます</li>
+              <li>③ <strong>クラウド・コンテナへ進む人</strong>：Linuxは土台です。基礎の証明として相性がよいです</li>
             </ul>
           </div>
         </section>
@@ -157,7 +157,7 @@ export default function LinuCCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: LPI-Japan 公式（linuc.org、2026年6月時点）。レベル1の受験料は1試験あたり16,500円（税込）で、101・102の2試験合格（合計33,000円）で認定されます。試験時間は全試験90分共通。合格率・合格ラインはLPI-Japanが公表しておらず、当サイトでは創作しません。有効期限は各試験5年で、再認定により維持できます。
+            出典: LPI-Japan 公式（linuc.org、2026年6月時点）。レベル1の受験料は1試験あたり16,500円（税込）で、101・102の2試験合格（合計33,000円）で認定されます。試験時間は全試験90分共通です。合格率・合格ラインはLPI-Japanが公表しておらず、当サイトでは創作しません。有効期限は各試験5年で、再認定により維持できます。
           </p>
         </section>
 
@@ -171,7 +171,7 @@ export default function LinuCCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・Linuxはサーバ・クラウドの土台技術（<strong>実務・役割が年収の主因</strong>）</li>
               <li>・LinuCは<strong>Linux実務の体系的な証明</strong>として書類通過に効く加点材</li>
-              <li>・実態：<strong>年収はインフラ実務経験 × 資格の掛け算</strong>で決まる</li>
+              <li>・実態：<strong>年収はインフラ実務経験 × 資格の掛け算</strong>で決まります</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -184,10 +184,10 @@ export default function LinuCCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "Linux実務スキルの体系的な証明", d: "現場で覚えた我流のコマンド・運用知識に抜けがないこと、体系的に扱えることを客観的に示せる。" },
-              { t: "インフラ・サーバ運用案件への応募", d: "Linuxサーバを扱う運用・構築の現場で、基礎スキルの裏づけとして書類段階で効く。" },
-              { t: "インフラ未経験〜若手の入口", d: "異業種や開発からインフラへ移る際に、Linux基礎を押さえた入口資格として機能する。" },
-              { t: "クラウド・コンテナへの布石", d: "クラウドのサーバOSやコンテナ基盤の多くはLinux。その土台を押さえている証明になる。" },
+              { t: "Linux実務スキルの体系的な証明", d: "現場で覚えた我流のコマンド・運用知識に抜けがないこと、体系的に扱えることを客観的に示せます。" },
+              { t: "インフラ・サーバ運用案件への応募", d: "Linuxサーバを扱う運用・構築の現場で、基礎スキルの裏づけとして書類段階で効きます。" },
+              { t: "インフラ未経験〜若手の入口", d: "異業種や開発からインフラへ移る際に、Linux基礎を押さえた入口資格として機能します。" },
+              { t: "クラウド・コンテナへの布石", d: "クラウドのサーバOSやコンテナ基盤の多くはLinuxです。その土台を押さえている証明になります。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -205,9 +205,9 @@ export default function LinuCCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "インフラエンジニア（サーバ・運用）", d: "Linuxサーバの構築・運用を担う役割。LinuCが基礎スキルの裏づけになる。" },
-              { t: "サーバ・ネットワーク運用", d: "Linuxを扱う運用現場で、コマンド・管理スキルを体系的に押さえている証明として効く。" },
-              { t: "クラウド・SREへのステップ", d: "Linuxの土台を起点に、クラウド・コンテナ・自動化へ守備範囲を広げる進路に使える。" },
+              { t: "インフラエンジニア（サーバ・運用）", d: "Linuxサーバの構築・運用を担う役割です。LinuCが基礎スキルの裏づけになります。" },
+              { t: "サーバ・ネットワーク運用", d: "Linuxを扱う運用現場で、コマンド・管理スキルを体系的に押さえている証明として効きます。" },
+              { t: "クラウド・SREへのステップ", d: "Linuxの土台を起点に、クラウド・コンテナ・自動化へ守備範囲を広げる進路に使えます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -253,10 +253,10 @@ export default function LinuCCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>Linux実務の体系化</strong>。現場で覚えた我流のスキルの抜けを試験対策で埋め、体系的に整理できます。第二に<strong>インフラ職の入口・書類段階の裏づけ</strong>。Linuxを扱える基礎スキルの客観証明として、選考の通過に寄与します。第三に<strong>クラウド・コンテナへの土台</strong>。LinuCで固めたLinux基礎は、クラウドやKubernetesへ進む際の前提になります。
+            活用戦略は3つに整理できます。第一に<strong>Linux実務の体系化です</strong>。現場で覚えた我流のスキルの抜けを試験対策で埋め、体系的に整理できます。第二に<strong>インフラ職の入口・書類段階の裏づけ</strong>。Linuxを扱える基礎スキルの客観証明として、選考の通過に寄与します。第三に<strong>クラウド・コンテナへの土台です</strong>。LinuCで固めたLinux基礎は、クラウドやKubernetesへ進む際の前提になります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。LinuCレベル1は<strong>入口寄りの位置づけのため、これ単体で上流・高度なインフラ力まで保証する資格ではありません</strong>。効果が出るのは「インフラ実務 × 資格」が成立したときです。また有効期限が5年あり、再認定を怠ると失効します。逆に言えば、Linuxスキルを体系化したい経験者や、インフラへ進みたいミドルにとっては、費用対効果の高い土台資格です。上位を示すならレベル2以上、国際案件を視野に入れるなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC</Link>も検討しましょう。
+            注意すべきデメリットも押さえておきましょう。LinuCレベル1は<strong>入口寄りの位置づけのため、これ単体で上流・高度なインフラ力まで保証する資格ではありません</strong>。効果が出るのは「インフラ実務 × 資格」が成立したときです。また有効期限が5年あり、再認定を怠ると失効します。逆に言えば、Linuxスキルを体系化したい経験者や、インフラへ進みたいミドルにとっては、費用対効果の高い土台資格です。上位を示すならレベル2以上、国際案件を視野に入れるなら<Link href="/cert/lpic/" className="text-petrol hover:underline">LPIC</Link>も検討しましょう。
           </p>
         </section>
 
@@ -268,7 +268,7 @@ export default function LinuCCertPage() {
               LinuCは、30〜40代の経験者にとって<strong>「現場で覚えた我流のLinuxを、体系的なスキルとして整え、客観的に証明する装置」</strong>として効きます。運用現場では使う範囲しか触れないため知識に偏りが生まれがちですが、LinuCの学習でコマンド・システム管理・ネットワークを一通り押さえ直すことで、基礎の抜けを補えます。国内企業での認知が高い点も、転職での実利につながります。
             </p>
             <p>
-              一方で過度な期待は禁物です。LinuC（レベル1）を取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。インフラ・サーバ運用の実績と組み合わせて初めて、基礎の信頼性という形で評価されます。上流や高度なインフラ力まで示したい場合は、レベル2以上やクラウド資格との組み合わせが有効です。
+              一方で過度な期待は禁物です。LinuC（レベル1）を取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。インフラ・サーバ運用の実績と組み合わせて初めて、基礎の信頼性という形で評価されます。上流や高度なインフラ力まで示したい場合は、レベル2以上やクラウド資格との組み合わせが有効です。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -281,9 +281,9 @@ export default function LinuCCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "101試験でコマンド・管理を固める", d: "コマンドライン操作・パッケージ管理・ファイルシステムなど、Linux基礎を網羅的に学ぶ。" },
-              { n: "STEP 2", t: "102試験でシステム・ネットワークへ", d: "シェルスクリプト・ネットワーク設定・セキュリティなど、運用に必要な範囲を固める。5年以内に2試験合格で認定。" },
-              { n: "STEP 3", t: "レベル2・クラウドへ広げる", d: "認定後は実務に活かしつつ、上位のレベル2や、クラウド・コンテナ（Kubernetes）へ守備範囲を広げる。" },
+              { n: "STEP 1", t: "101試験でコマンド・管理を固める", d: "コマンドライン操作・パッケージ管理・ファイルシステムなど、Linux基礎を網羅的に学びます。" },
+              { n: "STEP 2", t: "102試験でシステム・ネットワークへ", d: "シェルスクリプト・ネットワーク設定・セキュリティなど、運用に必要な範囲を固めます。5年以内に2試験合格で認定です。" },
+              { n: "STEP 3", t: "レベル2・クラウドへ広げる", d: "認定後は実務に活かしつつ、上位のレベル2や、クラウド・コンテナ（Kubernetes）へ守備範囲を広げます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -319,7 +319,7 @@ export default function LinuCCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">インフラ・サーバ案件への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            LinuCを活かせるインフラ・サーバ運用求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            LinuCを活かせるインフラ・サーバ運用求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

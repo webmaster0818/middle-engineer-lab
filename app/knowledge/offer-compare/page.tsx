@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "複数内定オファーの比較方法【比較表・辞退例文付き】";
 const DESCRIPTION =
-  "複数内定を後悔なく比較する方法を解説。年収以外の比較軸（ストックオプション・リモート・評価制度）、そのまま使える比較表テンプレート、内定辞退の伝え方例文まで、30代・40代向けに実践的にまとめます。";
+  "複数内定を後悔なく比較する方法を解説します。年収以外の比較軸（ストックオプション・リモート・評価制度）、そのまま使える比較表テンプレート、内定辞退の伝え方例文まで、30代・40代向けに実践的にまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/offer-compare/" },
@@ -44,7 +44,7 @@ const axes = [
   },
   {
     title: "労働時間・ワークライフバランス",
-    desc: "残業の実態、オンコール有無、繁忙期の働き方など。年収が高くても持続できなければ意味がありません。口コミやエージェント経由で実態を確認しましょう。",
+    desc: "残業の実態、オンコール有無、繁忙期の働き方などです。年収が高くても持続できなければ意味がありません。口コミやエージェント経由で実態を確認しましょう。",
   },
   {
     title: "事業の安定性・将来性",
@@ -70,7 +70,7 @@ const declineExamples = [
 const faqs = [
   {
     q: "複数内定が出た場合、いつまでに回答すべきですか？",
-    a: "一般的に内定の回答期限は1〜2週間程度です。他社の選考状況を正直に伝えれば、期限の延長を相談できる場合もあります。エージェント経由なら、期限の調整を代行してもらえます。焦って即答せず、比較に必要な時間を確保しましょう。",
+    a: "一般的に内定の回答期限は1〜2週間程度です。他社の選考状況を率直に伝えれば、期限の延長を相談できる場合もあります。エージェント経由なら、期限の調整を代行してもらえます。焦って即答せず、比較に必要な時間を確保しましょう。",
   },
   {
     q: "年収だけで判断して良いですか？",
@@ -163,7 +163,7 @@ export default function OfferComparePage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】複数内定はどうやって比較・決定すればいい？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 年収の額面だけで決めず、比較軸を表に整理し、重要度で重みづけしてスコアリングで定量比較するのが後悔しない基本です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・年収以外にストックオプション・リモート・評価制度・技術スタック・労働時間・事業の安定性を含めて総合比較する</li><li>・比較軸を縦・企業を横に並べた表に重要度（★）を付け、「重み×点数」で総合スコアを出す</li><li>・辞退は早く丁寧に。回答期限は一般に1〜2週間で、延長も相談できる</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・年収以外にストックオプション・リモート・評価制度・技術スタック・労働時間・事業の安定性を含めて総合比較します</li><li>・比較軸を縦・企業を横に並べた表に重要度（★）を付け、「重み×点数」で総合スコアを出します</li><li>・辞退は早く丁寧に。回答期限は一般に1〜2週間で、延長も相談できます</li></ul>
           </div>
         </section>
 
@@ -175,7 +175,7 @@ export default function OfferComparePage() {
               オファー比較は、<strong>年収だけで決めず、比較軸を表に整理してスコアリングで定量比較する</strong>のが基本です。年収以外では、ストックオプション・リモートワーク・評価制度・技術スタック・労働時間・事業の安定性が重要な軸になります。
             </p>
             <p className="text-slate-700 leading-relaxed">
-              年収は重要な指標ですが、入社後の満足度を決めるのはそれだけではありません。参考として、dodaの2024年度「決定年収レポート」（2025年5月公表）ではIT・通信の平均決定年収は486万円。額面の数十万円の差より、評価制度や働き方が中長期の年収カーブと満足度を左右することも多くあります。辞退する企業には、早めに丁寧に連絡しましょう。
+              年収は重要な指標ですが、入社後の満足度を決めるのはそれだけではありません。参考として、dodaの2024年度「決定年収レポート」（2025年5月公表）ではIT・通信の平均決定年収は486万円です。額面の数十万円の差より、評価制度や働き方が中長期の年収カーブと満足度を左右することも多くあります。辞退する企業には、早めに丁寧に連絡しましょう。
             </p>
           </div>
         </section>
@@ -286,7 +286,7 @@ export default function OfferComparePage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">回答期限は調整を相談できる</h3>
-              <p className="text-sm text-slate-600">回答期限は一般的に1〜2週間。他社の選考状況を正直に伝えれば、延長を相談できる場合があります。エージェント経由なら調整を代行してもらえます。</p>
+              <p className="text-sm text-slate-600">回答期限は一般的に1〜2週間です。他社の選考状況を率直に伝えれば、延長を相談できる場合があります。エージェント経由なら調整を代行してもらえます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">入社日は退職手続きを見込んで提案する</h3>
@@ -341,7 +341,7 @@ export default function OfferComparePage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">オファー交渉をプロに任せよう</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントなら、年収交渉や入社日調整、辞退の連絡まで代行。最適な条件で入社できるようサポートします。
+            IT特化型エージェントなら、年収交渉や入社日調整、辞退の連絡まで代行します。最適な条件で入社できるようサポートします。
           </p>
           <Link
             href="/#ranking"

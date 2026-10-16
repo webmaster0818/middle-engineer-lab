@@ -36,15 +36,15 @@ const rarityData = [
 const routes = [
   {
     title: "ルート①：ハイクラス転職",
-    desc: "外資IT、自社プロダクト企業、ITコンサル（DX領域）などへの転職。給与テーブルそのものが高い企業に移ることで、技術力を最も素直に年収へ反映できるルートです。",
+    desc: "外資IT、自社プロダクト企業、ITコンサル（DX領域）などへの転職です。給与テーブルそのものが高い企業に移ることで、技術力を最も素直に年収へ反映できるルートです。",
   },
   {
     title: "ルート②：マネジメント",
-    desc: "プライムSIerのPM（プロジェクトマネージャー）やEM（エンジニアリングマネージャー）など。人と事業を動かす責任が報酬に反映される、伝統的かつ堅実なルートです。",
+    desc: "プライムSIerのPM（プロジェクトマネージャー）やEM（エンジニアリングマネージャー）などです。人と事業を動かす責任が報酬に反映される、伝統的かつ堅実なルートです。",
   },
   {
     title: "ルート③：スペシャリスト",
-    desc: "SaaSのバックエンド、クラウド、機械学習、データサイエンティスト、アーキテクトなど。マネジメントに進まなくても、希少な高度専門性で1000万円帯に届くルートです。",
+    desc: "SaaSのバックエンド、クラウド、機械学習、データサイエンティスト、アーキテクトなどです。マネジメントに進まなくても、希少な高度専門性で1000万円帯に届くルートです。",
   },
 ];
 
@@ -202,17 +202,17 @@ export default function Salary1000Page() {
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L4</td>
                   <td className="px-4 py-3 border border-slate-200">726.1万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門。800万円帯</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">高度専門です。800万円帯</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-slate-500">L5</td>
                   <td className="px-4 py-3 border border-slate-200">937.8万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層。1000万円の一歩手前</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-600">指導者層です。1000万円の一歩手前</td>
                 </tr>
                 <tr className="bg-petrol-soft">
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">L6・7</td>
                   <td className="px-4 py-3 border border-slate-200 font-bold text-petrol">1,129.9万円</td>
-                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">1000万円帯。国内で著名なレベル</td>
+                  <td className="px-4 py-3 border border-slate-200 text-slate-700 font-medium">1000万円帯です。国内で著名なレベル</td>
                 </tr>
               </tbody>
             </table>
@@ -281,7 +281,7 @@ export default function Salary1000Page() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
             <p className="text-sm text-slate-700 leading-relaxed">
-              NRI（野村総合研究所）、キーエンス、アクセンチュア、シスコ、Google など。プライムSIer・外資IT・コンサル・グローバルテック企業など、商流の上位や高い給与テーブルを持つ企業がこのクラスにあたります。
+              NRI（野村総合研究所）、キーエンス、アクセンチュア、シスコ、Google などです。プライムSIer・外資IT・コンサル・グローバルテック企業など、商流の上位や高い給与テーブルを持つ企業がこのクラスにあたります。
             </p>
           </div>
         </section>
@@ -293,7 +293,7 @@ export default function Salary1000Page() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">「技術を上げる」より「場所を変える」が効く年代</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                30〜40代で技術力を一段上げるのは時間がかかります。一方、商流の上位・給与テーブルの高い企業へ移ることは、これまでの実績を武器に短期で実現しうる打ち手です。1000万円帯ほど「場所選び」の影響が大きくなります。
+                30〜40代で技術力を一段上げるのは時間がかかります。一方、商流の上位・給与テーブルの高い企業へ移ることは、これまでの実績を強みに短期で実現しうる打ち手です。1000万円帯ほど「場所選び」の影響が大きくなります。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -304,7 +304,7 @@ export default function Salary1000Page() {
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
-            年代別の相場や汎用的な年収UP戦略は、
+            年代別の相場や汎用的な年収アップ戦略は、
             <Link href="/knowledge/salary-40s/" className="text-petrol hover:underline">40代の年収相場</Link>
             ・
             <Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>

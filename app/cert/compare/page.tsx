@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "IT資格 比較一覧【2026年・32資格】受験料・合格率・難易度を公式データで横断比較";
 const PAGE_DESC =
-  "IPA国家試験からAWS・Azure・GCP・Cisco・LPIC・CISSPまで、IT系32資格の受験料と合格率（公式公表値）を一覧で横断比較。エンジニア転職で資格を選ぶときに、難易度とコストを一目で比べられる独自データです。";
+  "IPA国家試験からAWS・Azure・GCP・Cisco・LPIC・CISSPまで、IT系32資格の受験料と合格率（公式公表値）を一覧で横断比較です。エンジニア転職で資格を選ぶときに、難易度とコストを一目で比べられる独自データです。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/compare/" },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: PAGE_DESC,
 };
 
-// 各資格ページの公式データ（受験料・合格率）を集約。合格率非公表の資格は「非公表」と明記し創作しない。2026年6月時点。
+// 各資格ページの公式データ（受験料・合格率）を集約します。合格率非公表の資格は「非公表」と明記し創作しません。2026年6月時点です。
 type Cert = { name: string; slug: string; cat: string; fee: string; rate: string };
 const certs: Cert[] = [
   { name: "ITパスポート", slug: "it-passport", cat: "国家(IPA)", fee: "7,500円", rate: "令和7年度 48.6%" },
@@ -72,7 +72,7 @@ export default function CertComparePage() {
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">IT資格 比較一覧【受験料・合格率・難易度】32資格</h1>
         <p className="text-slate-600 leading-relaxed mb-4">
-          IPAの国家試験から、AWS・Azure・GCPのクラウド、Cisco・LPIC・Oracle・CISSPまで、IT系32資格の<strong>受験料</strong>と<strong>合格率</strong>を公式データで横断比較しました。エンジニア転職で資格を選ぶとき、「難易度（合格率）」と「コスト（受験料）」を一目で比べられます。合格率を公表していない資格は<strong>「非公表」</strong>と明記し、推測値は載せていません。
+          IPAの国家試験から、AWS・Azure・GCPのクラウド、Cisco・LPIC・Oracle・CISSPまで、IT系32資格の<strong>受験料</strong>と<strong>合格率</strong>を公式データで横断比較しました。エンジニア転職で資格を選ぶとき、「難易度（合格率）」と「コスト（受験料）」を一目で比べられます。合格率を公表していない資格は<strong>「非公表」</strong>と明記し、推測値は掲載していません。
         </p>
         <DataNote surveyedAt="2026年6月" sources={["IPA 各試験の合格発表（合格率）", "各認定団体（AWS/Microsoft/Google/Cisco/LPI/Oracle/ISC2/JDLA等）公式の受験料"]} />
         <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月｜USD建て資格の円換算は為替で変動します。受験料・合格率は改定されるため、申込前に各公式で最新をご確認ください。</p>
@@ -107,9 +107,9 @@ export default function CertComparePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">資格選びのポイント（30・40代の転職視点）</h2>
           <ul className="space-y-3 text-slate-600 leading-relaxed list-disc pl-5">
             <li><strong>合格率＝難易度の目安</strong>：IPA高度試験（PM・支援士・各スペシャリスト）は合格率14〜18%と難関で、経験者の専門性証明に向きます。基本情報・ITパスポートは40〜48%で、異業種からの入口に。</li>
-            <li><strong>受験料はIPA国家試験が割安</strong>：IPAはどれも7,500円と低コスト。一方クラウド・外資ベンダー（CISSP 749USD、CKA 445USD、Oracle Java 約41,773円）は高めで、合格率も非公表が多いです。</li>
+            <li><strong>受験料はIPA国家試験が割安</strong>：IPAはどれも7,500円と低コストです。一方クラウド・外資ベンダー（CISSP 749USD、CKA 445USD、Oracle Java 約41,773円）は高めで、合格率も非公表が多いです。</li>
             <li><strong>「非公表」は実力試験</strong>：AWS・Azure・GCP・Cisco上位などは合格率非公表ですが、実務に直結し転職市場での評価が高い資格群です。合格率の数字がない＝難易度不明ではなく、スコア型で実力が問われると捉えましょう。</li>
-            <li><strong>年代別の選び方</strong>：30・40代は「今の実務に直結し、即戦力を裏づける資格」（クラウド系・高度試験）が費用対効果大。未経験分野への参入は基本情報・CCNA・LPICが入口になります。各資格の詳細ページで年収傾向・活かし方を確認してください。</li>
+            <li><strong>年代別の選び方</strong>：30・40代は「今の実務に直結し、即戦力を裏づける資格」（クラウド系・高度試験）が費用対効果大です。未経験分野への参入は基本情報・CCNA・LPICが入口になります。各資格の詳細ページで年収傾向・活かし方を確認してください。</li>
           </ul>
         </section>
 

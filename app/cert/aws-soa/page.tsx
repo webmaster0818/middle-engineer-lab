@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "AWS認定SysOpsアドミニストレーター アソシエイト(SOA)は転職に効くか【2026年】";
 const PAGE_DESC =
-  "AWS認定SysOpsアドミニストレーター – アソシエイト（SOA）を、運用者の加点資格という観点から30代・40代向けに解説。受験料・試験形式・合格スコア・有効期限・出題範囲を公式情報で整理。2025年9月にCloudOps Engineer（SOA-C03）へ名称・内容が更新された経緯も含めてまとめます。";
+  "AWS認定SysOpsアドミニストレーター – アソシエイト（SOA）を、運用者の加点資格という観点から30代・40代向けに解説します。受験料・試験形式・合格スコア・有効期限・出題範囲を公式情報で整理し、2025年9月にCloudOps Engineer（SOA-C03）へ名称・内容が更新された経緯も含めてまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/aws-soa/" },
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "SOAの受験料はいくらですか？",
-    a: "AWS公式（aws.amazon.com/jp）の表示では150 USD（日本での受験料は20,000円。いずれも税別、2026年6月時点）です。アソシエイトレベルの料金で、SAA・DVAと同水準。為替や改定で変動するため、最新は必ずAWS公式でご確認ください。",
+    a: "AWS公式（aws.amazon.com/jp）の表示では150 USD（日本での受験料は20,000円。いずれも税別、2026年6月時点）です。アソシエイトレベルの料金で、SAA・DVAと同水準です。為替や改定で変動するため、最新は必ずAWS公式でご確認ください。",
   },
   {
     q: "SOAの試験形式と合格スコアを教えてください。",
@@ -98,7 +98,7 @@ export default function CertAwsSoaPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          AWS認定SysOpsアドミニストレーター – アソシエイト（SOA）は、AWS上のシステムを運用・監視・自動化する力を問う、アソシエイトレベルの認定です。本記事は「SOAを取れば転職で有利になるか」という疑問に対し、<strong>『運用者の加点資格』</strong>という性格を軸に、公式情報（受験料・形式・合格基準・有効期限・出題範囲）と、<strong>2025年9月のCloudOps Engineerへの更新</strong>を踏まえて整理します。資格単体では年収が跳ねないという限界も正直にお伝えします。
+          AWS認定SysOpsアドミニストレーター – アソシエイト（SOA）は、AWS上のシステムを運用・監視・自動化する力を問う、アソシエイトレベルの認定です。本記事は「SOAを取れば転職で有利になるか」という疑問に対し、<strong>『運用者の加点資格』</strong>という性格を軸に、公式情報（受験料・形式・合格基準・有効期限・出題範囲）と、<strong>2025年9月のCloudOps Engineerへの更新</strong>を踏まえて整理します。資格単体では年収が跳ねないという留意点もご説明します。
         </p>
 
         <DataNote
@@ -106,7 +106,7 @@ export default function CertAwsSoaPage() {
           sources={[
             "AWS Certification 公式（aws.amazon.com/jp・SOA-C02／CloudOps SOA-C03）",
             "AWS Training and Certification Blog（試験更新・名称変更の告知）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -132,9 +132,9 @@ export default function CertAwsSoaPage() {
               SOAは<strong>「運用者の加点資格」</strong>です。最も効くのは<strong>「オンプレ運用・監視・障害対応の実務 × AWS運用の証明」</strong>という掛け算で、SRE・運用・基盤保守の立場で価値が出ます。資格単体で年収が上がる発想は禁物です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>運用・監視の実務がある30〜40代</strong>：クラウド運用の作法を証明し、SRE・運用職で加点される</li>
-              <li>② <strong>運用未経験のミドル</strong>：資格だけで運用実務は埋めにくい。手を動かした経験とセットが必要</li>
-              <li>③ <strong>有効期限3年</strong>：再認定が必要で、取りっぱなしにはできない</li>
+              <li>① <strong>運用・監視の実務がある30〜40代</strong>：クラウド運用の作法を証明し、SRE・運用職で加点されます</li>
+              <li>② <strong>運用未経験のミドル</strong>：資格だけで運用実務は埋めにくいです。手を動かした経験とセットが必要</li>
+              <li>③ <strong>有効期限3年</strong>：再認定が必要で、取りっぱなしにはできません</li>
             </ul>
           </div>
         </section>
@@ -171,7 +171,7 @@ export default function CertAwsSoaPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: AWS Certification 公式（aws.amazon.com/jp、2026年6月時点）。受験料150 USD（日本20,000円）、アソシエイトレベルで65問・130分、合格はスケールスコア720以上、有効期限3年。AWSは合格率を公表していません。後継のCloudOps（SOA-C03）の最新の形式・範囲は公式試験ガイドでご確認ください。
+            出典: AWS Certification 公式（aws.amazon.com/jp、2026年6月時点）。受験料150 USD（日本20,000円）、アソシエイトレベルで65問・130分、合格はスケールスコア720以上、有効期限3年です。AWSは合格率を公表していません。後継のCloudOps（SOA-C03）の最新の形式・範囲は公式試験ガイドでご確認ください。
           </p>
         </section>
 
@@ -183,10 +183,10 @@ export default function CertAwsSoaPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "モニタリング・ロギング・修復", d: "CloudWatch等による監視・ログ分析と、検知から自動修復までの運用設計。" },
-              { t: "信頼性とビジネス継続性", d: "可用性確保、バックアップ・復旧、スケーリングによるサービス継続。" },
-              { t: "デプロイ・プロビジョニング・自動化", d: "IaCやデプロイ自動化による、再現性のあるリソース構築と運用。" },
-              { t: "セキュリティとコンプライアンス／ネットワークとコンテンツ配信", d: "アクセス制御・暗号化・ネットワーク運用、コスト・性能の最適化。" },
+              { t: "モニタリング・ロギング・修復", d: "CloudWatch等による監視・ログ分析と、検知から自動修復までの運用設計です。" },
+              { t: "信頼性とビジネス継続性", d: "可用性確保、バックアップ・復旧、スケーリングによるサービス継続です。" },
+              { t: "デプロイ・プロビジョニング・自動化", d: "IaCやデプロイ自動化による、再現性のあるリソース構築と運用します。" },
+              { t: "セキュリティとコンプライアンス／ネットワークとコンテンツ配信", d: "アクセス制御・暗号化・ネットワーク運用、コスト・性能の最適化です。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -207,7 +207,7 @@ export default function CertAwsSoaPage() {
               クラウド運用の自動化・監視はSRE文化の広がりとともに重要度を増しており、運用を任せられる人材の需要は高止まりしています。SOA／CloudOpsは、<strong>オンプレで培った運用・監視・障害対応の経験を「クラウド運用の言語」に翻訳して示す</strong>道具になります。障害を未然に防ぎ、復旧を設計できる視点は、運用経験のある30〜40代の強みです。
             </p>
             <p>
-              一方で過度な期待は禁物です。SOAは<strong>『AWS運用の基礎を体系的に理解している』ことの証明</strong>であって、現場での即戦力性そのものを保証するものではありません。価値が出るのは<strong>「運用実務 × 資格」の掛け算</strong>のとき。実際に監視・自動化・障害対応を回した経験と組み合わせて初めて、運用・SREポジションで結実します。
+              一方で過度な期待は禁物です。SOAは<strong>『AWS運用の基礎を体系的に理解している』ことの証明</strong>であって、現場での即戦力性そのものを保証するものではありません。価値が出るのは<strong>「運用実務 × 資格」の掛け算</strong>のときです。実際に監視・自動化・障害対応を回した経験と組み合わせて初めて、運用・SREポジションで結実します。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職種としての全体像は<Link href="/skill/aws/" className="text-petrol hover:underline">AWSエンジニア転職ガイド</Link>も合わせてご覧ください。
@@ -220,10 +220,10 @@ export default function CertAwsSoaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "クラウド運用・SREへの配置", d: "監視・自動修復・障害対応の知識を示し、運用を任せられる人材として加点される。" },
-              { t: "AWS運用スキルの客観証明", d: "CloudWatch・自動化・IaCの運用知識を、応募時に客観的に示せる。" },
-              { t: "資格手当・評価制度の対象", d: "AWS認定を手当・評価の対象とする企業が多く、社内評価の根拠になりやすい。" },
-              { t: "DevOps・上位資格への布石", d: "運用自動化の知識を土台に、DevOpsや専門分野の認定へ広げやすい。" },
+              { t: "クラウド運用・SREへの配置", d: "監視・自動修復・障害対応の知識を示し、運用を任せられる人材として加点されます。" },
+              { t: "AWS運用スキルの客観証明", d: "CloudWatch・自動化・IaCの運用知識を、応募時に客観的に示せます。" },
+              { t: "資格手当・評価制度の対象", d: "AWS認定を手当・評価の対象とする企業が多く、社内評価の根拠になりやすいです。" },
+              { t: "DevOps・上位資格への布石", d: "運用自動化の知識を土台に、DevOpsや専門分野の認定へ広げやすいです。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -241,9 +241,9 @@ export default function CertAwsSoaPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "クラウド運用エンジニア", d: "AWS上のシステムの監視・運用・障害対応を担う。運用設計の知識が直接活きる。" },
-              { t: "SRE（サイトリライアビリティエンジニア）候補", d: "信頼性・自動化の視点が、SRE文化のチームで評価される土台になる。" },
-              { t: "インフラ／プラットフォームエンジニア", d: "IaC・デプロイ自動化の知識を入口に、基盤運用の領域を広げていける。" },
+              { t: "クラウド運用エンジニア", d: "AWS上のシステムの監視・運用・障害対応を担います。運用設計の知識が直接活きます。" },
+              { t: "SRE（サイトリライアビリティエンジニア）候補", d: "信頼性・自動化の視点が、SRE文化のチームで評価される土台になります。" },
+              { t: "インフラ／プラットフォームエンジニア", d: "IaC・デプロイ自動化の知識を入口に、基盤運用の領域を広げていけます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -276,7 +276,7 @@ export default function CertAwsSoaPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">クラウド運用・SRE職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            SOA／CloudOpsを活かせる運用・SRE求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            SOA／CloudOpsを活かせる運用・SRE求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

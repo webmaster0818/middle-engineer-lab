@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/area/gifu/" },
   title: "岐阜のIT転職事情【2026年】製造業・名古屋通勤圏とリモート",
   description:
-    "岐阜県のITエンジニア転職を30代・40代向けに解説。製造業の産業集積、名古屋通勤圏という立地、首都圏フルリモート併用、UIターン移住支援（出典付き）、年収の現実を公開情報をもとに正直に整理します。",
+    "岐阜県のITエンジニア転職を30代・40代向けに解説します。製造業の産業集積、名古屋通勤圏という立地、首都圏フルリモート併用、UIターン移住支援（出典付き）、年収の現実を公開情報をもとに整理します。",
 };
 
 const toc = [
@@ -39,10 +39,10 @@ const fitNo = [
 ];
 
 const salaryByAge = [
-  { age: "20代", salary: "約378万円", note: "第二新卒〜若手。ポテンシャル採用も見られる層。" },
-  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層。" },
-  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層。" },
-  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層。" },
+  { age: "20代", salary: "約378万円", note: "第二新卒〜若手です。ポテンシャル採用も見られる層です。" },
+  { age: "30代", salary: "約499万円", note: "実務リーダー・専門性で評価される中核層です。" },
+  { age: "40代", salary: "約618万円", note: "マネジメントや高度専門で年収が伸びやすい層です。" },
+  { age: "50代", salary: "約685万円", note: "管理職・技術顧問など役割で差が大きい層です。" },
 ];
 
 const agents = [
@@ -50,32 +50,32 @@ const agents = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     point:
-      "IT/Web特化型。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して岐阜在住のまま首都圏企業を狙う転職と相性が良い。高年収求人比率の高さも特徴とされる。",
+      "IT/Web特化型です。技術理解の高いアドバイザーが特徴で、フルリモート求人を介して岐阜在住のまま首都圏企業を狙う転職と相性が良いです。高年収求人比率の高さも特徴とされます。",
   },
   {
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型。IT・ゲーム領域に強く、地方在住からの相談に向く。レスポンスの速さに定評があり、未経験歓迎求人も比較的多い。",
+      "全国47都道府県57拠点を構える総合型です。IT・ゲーム領域に強く、地方在住からの相談に向きます。レスポンスの速さに定評があり、未経験歓迎求人も比較的多いです。",
   },
   {
     name: "doda ITエンジニア",
     href: "/review/doda-it/",
     point:
-      "全国対応の総合型。検索・エージェント・スカウトのハイブリッド型で、岐阜・名古屋の地元求人から首都圏フルリモート求人まで幅広く当たりやすい。求人量の多さが強み。",
+      "全国対応の総合型です。検索・エージェント・スカウトのハイブリッド型で、岐阜・名古屋の地元求人から首都圏フルリモート求人まで幅広く当たりやすいです。求人量の多さが強みです。",
   },
   {
     name: "リクルートエージェントIT",
     href: "/review/recruit-it/",
     point:
-      "国内最大級の求人数で、非公開求人が豊富。全国対応のため岐阜・東海エリアの求人にもアクセスしやすく、製造業のIT部門や首都圏フルリモートまで網羅している。",
+      "国内最大級の求人数で、非公開求人が豊富です。全国対応のため岐阜・東海エリアの求人にもアクセスしやすく、製造業のIT部門や首都圏フルリモートまで網羅しています。",
   },
 ];
 
 const faqs = [
   {
     q: "岐阜県にITエンジニアの求人は多いですか？",
-    a: "正直に言えば、岐阜県内のIT・Web求人の母数は名古屋や首都圏に比べると限られます。一方で、岐阜は航空宇宙・自動車部品・刃物・陶磁器など多様な製造業が集積する地域で、製造業のIT部門・社内SE、生産システムや組込み・制御系の求人が一定の層を形成します。加えて名古屋に通勤できる立地のため、名古屋圏の豊富なIT求人を視野に入れられるのが岐阜の強みです。求人数を断定できる公的データは限られるため、最新の件数はエージェントで確認するのが確実です。",
+    a: "実際には、岐阜県内のIT・Web求人の母数は名古屋や首都圏に比べると限られます。一方で、岐阜は航空宇宙・自動車部品・刃物・陶磁器など多様な製造業が集積する地域で、製造業のIT部門・社内SE、生産システムや組込み・制御系の求人が一定の層を形成します。加えて名古屋に通勤できる立地のため、名古屋圏の豊富なIT求人を視野に入れられるのが岐阜の強みです。求人数を断定できる公的データは限られるため、最新の件数はエージェントで確認するのが確実です。",
   },
   {
     q: "岐阜のITエンジニアの平均年収はいくらですか？",
@@ -127,7 +127,7 @@ export default function GifuAreaPage() {
     <>
       <ArticleJsonLd
         title="岐阜のIT転職事情【2026年】製造業・名古屋通勤圏とリモート"
-        description="岐阜県のITエンジニア転職を30代・40代向けに解説。製造業の産業集積、名古屋通勤圏という立地、首都圏フルリモート併用、UIターン移住支援、年収の現実を整理します。"
+        description="岐阜県のITエンジニア転職を30代・40代向けに解説します。製造業の産業集積、名古屋通勤圏という立地、首都圏フルリモート併用、UIターン移住支援、年収の現実を整理します。"
         url="/area/gifu/"
       />
       <script
@@ -152,7 +152,7 @@ export default function GifuAreaPage() {
 
         <section className="mb-8">
           <p className="text-slate-600 leading-relaxed">
-            岐阜県は、航空宇宙・自動車部品・刃物・陶磁器など多様な製造業が集積する地域です。県内のWeb/SaaS自社開発のIT求人の母数は限られるのが現実ですが、岐阜には「名古屋に通勤できる立地」という大きな強みがあります。本記事では、その現実を正直に踏まえたうえで、地元の製造業IT求人、名古屋圏の求人活用、首都圏企業のフルリモート、UIターン移住という、岐阜ならではの価値ある選択肢を公開情報をもとに整理します。
+            岐阜県は、航空宇宙・自動車部品・刃物・陶磁器など多様な製造業が集積する地域です。県内のWeb/SaaS自社開発のIT求人の母数は限られるのが現実ですが、岐阜には「名古屋に通勤できる立地」という大きな強みがあります。本記事では、その現実を踏まえたうえで、地元の製造業IT求人、名古屋圏の求人活用、首都圏企業のフルリモート、UIターン移住という、岐阜ならではの価値ある選択肢を公開情報をもとに整理します。
           </p>
         </section>
 
@@ -173,9 +173,9 @@ export default function GifuAreaPage() {
               岐阜のIT求人は、県内の母数こそ限られますが、製造業のIT・DX需要、名古屋圏の豊富な求人へのアクセス、首都圏フルリモートの併用という三本柱で価値を出せる市場です。「岐阜に住みながら名古屋・首都圏の求人を狙う」という発想が、選択肢を大きく広げる鍵になります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・航空宇宙・自動車部品など製造業のIT・DX・生産システム領域に需要がある</li>
-              <li>・名古屋までJRで20分程度。住みやすさと名古屋圏の求人量を両立できる</li>
-              <li>・首都圏フルリモート求人の併用で、岐阜在住のまま年収水準の選択肢が広がる</li>
+              <li>・航空宇宙・自動車部品など製造業のIT・DX・生産システム領域に需要があります</li>
+              <li>・名古屋までJRで20分程度です。住みやすさと名古屋圏の求人量を両立できます</li>
+              <li>・首都圏フルリモート求人の併用で、岐阜在住のまま年収水準の選択肢が広がります</li>
             </ul>
           </div>
         </section>
@@ -210,7 +210,7 @@ export default function GifuAreaPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">名古屋通勤圏という立地</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                岐阜市から名古屋まではJRで20分程度。名古屋は自動車関連を中心にIT・組込みの需要が大きく、岐阜に住みながら名古屋圏の求人で働く選択肢が広く取れます。住みやすさと求人量を両立できる点が、他の地方エリアにはない岐阜の強みです。
+                岐阜市から名古屋まではJRで20分程度です。名古屋は自動車関連を中心にIT・組込みの需要が大きく、岐阜に住みながら名古屋圏の求人で働く選択肢が広く取れます。住みやすさと求人量を両立できる点が、他の地方エリアにはない岐阜の強みです。
               </p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
@@ -235,19 +235,19 @@ export default function GifuAreaPage() {
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">A</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>地元の製造業IT・社内SEに出社/ハイブリッド:</strong> 生産システムやDXなど、岐阜の産業特性を活かせる領域。地域に根ざしたキャリアを重視する人向けです。
+                <strong>地元の製造業IT・社内SEに出社/ハイブリッド:</strong> 生産システムやDXなど、岐阜の産業特性を活かせる領域です。地域に根ざしたキャリアを重視する人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">B</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>岐阜在住×名古屋圏に通勤:</strong> 岐阜の住みやすさを保ちつつ、JRで名古屋圏のIT・組込み求人に通う働き方。求人量を確保したい人向けです。
+                <strong>岐阜在住×名古屋圏に通勤:</strong> 岐阜の住みやすさを保ちつつ、JRで名古屋圏のIT・組込み求人に通う働き方です。求人量を確保したい人向けです。
               </p>
             </div>
             <div className="flex items-start gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-petrol text-white text-xs font-bold shrink-0">C</span>
               <p className="text-sm text-slate-600 leading-relaxed">
-                <strong>岐阜在住×首都圏企業のフルリモート:</strong> 岐阜の生活コストを保ちつつ首都圏水準の年収を狙う選択肢。
+                <strong>岐阜在住×首都圏企業のフルリモート:</strong> 岐阜の生活コストを保ちつつ首都圏水準の年収を狙う選択肢です。
                 <Link href="/purpose/remote-full/" className="text-petrol hover:underline">フルリモート求人の探し方</Link>
                 や
                 <Link href="/area/iiju/" className="text-petrol hover:underline">地方移住×IT転職ガイド</Link>
@@ -342,7 +342,7 @@ export default function GifuAreaPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職・移住の進め方</h2>
           <div className="space-y-3">
             {[
-              { step: "1", title: "軸を決める", desc: "「地元の製造業IT」「名古屋圏に通勤」「首都圏フルリモート」のどれを中心に据えるかを先に決める。提案される求人の質が変わります。" },
+              { step: "1", title: "軸を決める", desc: "「地元の製造業IT」「名古屋圏に通勤」「首都圏フルリモート」のどれを中心に据えるかを先に決めます。提案される求人の質が変わります。" },
               { step: "2", title: "エージェントを2〜3社登録", desc: "フルリモートに強いIT特化型と、名古屋圏・全国に強い総合型を組み合わせて提案傾向を比較します。県内求人が限られる前提で母数を確保しましょう。" },
               { step: "3", title: "移住支援制度を確認", desc: "移住・UIターンを伴う場合は、移住先市町村の移住支援金・住宅補助などの最新条件を公式サイトで確認します。テレワーク移住が対象かも要チェックです。" },
               { step: "4", title: "出社要件・通勤を確認", desc: "求人ごとの出社頻度やオフィス所在地を確認し、名古屋通勤の負担や住居費を試算します。" },
@@ -404,13 +404,13 @@ export default function GifuAreaPage() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">30代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                技術の市場価値を高めながら、名古屋圏のIT・組込みで経験を積むか、首都圏フルリモートで幅を広げるかを意識的に選ぶフェーズ。住みやすい岐阜で生活基盤を整えやすい時期でもあります。
+                技術の市場価値を高めながら、名古屋圏のIT・組込みで経験を積むか、首都圏フルリモートで幅を広げるかを意識的に選ぶフェーズです。住みやすい岐阜で生活基盤を整えやすい時期でもあります。
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 text-sm mb-2">40代の進め方</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                マネジメントや高度専門など役割で評価される段階。県内求人が限られる前提で、名古屋通勤やフルリモート併用により選択肢を確保しつつ、生活設計と両立する形を選ぶのが現実的です。
+                マネジメントや高度専門など役割で評価される段階です。県内求人が限られる前提で、名古屋通勤やフルリモート併用により選択肢を確保しつつ、生活設計と両立する形を選ぶのが現実的です。
               </p>
             </div>
           </div>

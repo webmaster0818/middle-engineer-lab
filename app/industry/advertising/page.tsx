@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/industry/advertising/" },
   title: "広告業界からアドテック転職【30代40代エンジニアガイド】",
   description:
-    "広告業界のエンジニアがアドテック（AdTech）領域へ転職する道筋を解説。活かせるスキル、埋めるギャップ、職種×企業タイプ、年収の考え方、進め方を30代40代視点で整理します。",
+    "広告業界のエンジニアがアドテック（AdTech）領域へ転職する道筋を解説します。活かせるスキル、埋めるギャップ、職種×企業タイプ、年収の考え方、進め方を30代40代視点で整理します。",
 };
 
 const skillTable = [
@@ -21,10 +21,10 @@ const skillTable = [
 ];
 
 const jobTypes = [
-  ["アドテック開発（DSP/SSP/DMP）", "アドテックベンダー、プラットフォーマー", "配信・入札基盤の開発。広告商流の理解が直接活きる"],
-  ["データエンジニア（広告データ基盤）", "アドテック、マーケテック企業", "広告ログのパイプライン・DWH構築。計測の実務知識が強み"],
-  ["MLエンジニア（最適化・予測）", "アドテック、プラットフォーマー", "CTR予測・入札最適化。データ＋MLの素養が求められる"],
-  ["プライバシー／計測領域", "アドテック、マーケテック", "Cookie代替・同意管理・クリーンルーム。新しいテーマで需要が見られる"],
+  ["アドテック開発（DSP/SSP/DMP）", "アドテックベンダー、プラットフォーマー", "配信・入札基盤の開発です。広告商流の理解が直接活きる"],
+  ["データエンジニア（広告データ基盤）", "アドテック、マーケテック企業", "広告ログのパイプライン・DWH構築です。計測の実務知識が強み"],
+  ["MLエンジニア（最適化・予測）", "アドテック、プラットフォーマー", "CTR予測・入札最適化です。データ＋MLの素養が求められる"],
+  ["プライバシー／計測領域", "アドテック、マーケテック", "Cookie代替・同意管理・クリーンルームです。新しいテーマで需要が見られる"],
 ];
 
 const faqs = [
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: "サードパーティCookie規制でアドテックの将来は大丈夫ですか？",
-    a: "サードパーティCookieを取り巻く環境は変化していますが、アドテック領域そのものがなくなるとは言えません。ファーストパーティデータの活用、コンテキストターゲティング、同意管理、クリーンルームなど、計測・配信を成り立たせる新しい技術テーマが生まれており、むしろエンジニアの取り組むべき課題が増えている側面があります。最新の規制・仕様は流動的なので、応募先がどの方向に投資しているかを面談で確認するとよいでしょう。",
+    a: "サードパーティCookieを取り巻く環境は変化していますが、アドテック領域そのものがなくなるとは言えません。ファーストパーティデータの活用、コンテキストターゲティング、同意管理、クリーンルームなど、計測・配信を成り立たせる新しい技術テーマが生まれており、むしろエンジニアの取り組むべき課題が増えている側面があります。最新の規制・仕様は流動的であるため、応募先がどの方向に投資しているかを面談で確認するとよいでしょう。",
   },
   {
     q: "30代・40代で広告からアドテックに転職するのは遅いですか？",
@@ -92,7 +92,7 @@ export default function AdvertisingPage() {
 
   return (
     <>
-      <ArticleJsonLd title="広告業界からアドテック転職【30代40代エンジニアガイド】" description="広告業界のエンジニアがアドテック（AdTech）領域へ転職する道筋を解説。活かせるスキル、埋めるギャップ、職種×企業タイプ、年収の考え方、進め方を30代40代視点で整理します。" url="/industry/advertising/" />
+      <ArticleJsonLd title="広告業界からアドテック転職【30代40代エンジニアガイド】" description="広告業界のエンジニアがアドテック（AdTech）領域へ転職する道筋を解説します。活かせるスキル、埋めるギャップ、職種×企業タイプ、年収の考え方、進め方を30代40代視点で整理します。" url="/industry/advertising/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "業界別ガイド" }, { name: "広告業界からアドテック転職" }]} />
 
@@ -118,9 +118,9 @@ export default function AdvertisingPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">広告配信の仕組みと計測の実務知識を持つエンジニアにとって、アドテック領域への転職は十分に狙えるルートです。</p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・DSP/SSP/DMPや効果測定の理解は、アドテック企業で「分かる人」が限られるため差別化になりやすい。</li>
-              <li>・求人の多くは大規模データ処理・リアルタイム処理の経験を求める。ここが主なギャップ。</li>
-              <li>・30代・40代は業務知識の厚みが強み。データ基盤面の不足は在職中の学習で補える。</li>
+              <li>・DSP/SSP/DMPや効果測定の理解は、アドテック企業で「分かる人」が限られるため差別化になりやすいです。</li>
+              <li>・求人の多くは大規模データ処理・リアルタイム処理の経験を求めます。ここが主なギャップです。</li>
+              <li>・30代・40代は業務知識の厚みが強みです。データ基盤面の不足は在職中の学習で補えます。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">市場規模など断定できない数値は本記事では扱いません。年収・需給の話は公的・公表データに基づく目安として後述します。</p>
@@ -190,8 +190,8 @@ export default function AdvertisingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収の考え方</h2>
           <p className="text-slate-600 leading-relaxed mb-4">個別ポジションの提示額は企業・等級・役割で大きく変わるため、ここでは公表データを目安として示します。実際のレンジは求人ごとに確認してください。</p>
           <ul className="space-y-3 text-sm text-slate-700 mb-4">
-            <li className="bg-white border border-slate-200 rounded-lg p-4">レバテックが公表する正社員SEの年代別平均年収（2025年）は、20代約378万円／30代約499万円／40代約618万円／50代約685万円。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。</li>
-            <li className="bg-white border border-slate-200 rounded-lg p-4">doda（パーソルキャリア）「決定年収レポート」（2025年5月公表）では、IT・通信の平均決定年収が2023年度469万円→2024年度486万円。転職者の約6割が年収アップという結果が示されています。</li>
+            <li className="bg-white border border-slate-200 rounded-lg p-4">レバテックが公表する正社員SEの年代別平均年収（2025年）は、20代約378万円／30代約499万円／40代約618万円／50代約685万円です。年収1,000万円以上の割合は30代8.01%・40代12.67%とされています。</li>
+            <li className="bg-white border border-slate-200 rounded-lg p-4">doda（パーソルキャリア）「決定年収レポート」（2025年5月公表）では、IT・通信の平均決定年収が2023年度469万円→2024年度486万円です。転職者の約6割が年収アップという結果が示されています。</li>
             <li className="bg-white border border-slate-200 rounded-lg p-4">厚生労働省 job tag では、システムエンジニア（受託開発）の平均年収578.5万円・平均年齢37.1歳（令和7年賃金構造基本統計調査ベース）と示されています。</li>
           </ul>
           <p className="text-slate-500 text-xs leading-relaxed">上記は職種・媒体横断の平均値であり、アドテック領域に限った数値ではありません。自分の現年収と応募先の提示レンジを並べて判断するのが基本です。</p>
@@ -202,10 +202,10 @@ export default function AdvertisingPage() {
           <p className="text-slate-600 leading-relaxed mb-4">アドテック領域の受け皿は、おおまかに次のタイプに分かれます。どこが自分の経験を活かせるかで応募戦略を決めます。</p>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              ["アドテックベンダー／プラットフォーマー", "DSP/SSP/DMPなど配信基盤。広告商流の理解が直接活きる"],
-              ["マーケテック企業", "MA・CDP・計測。データ活用とプロダクト開発の両面"],
-              ["事業会社のマーケ／データ部門", "自社サービスの広告・データ活用。業務理解が評価されやすい"],
-              ["リテールメディア／新しい配信面", "小売・配信事業の広告基盤。成長余地のある領域"],
+              ["アドテックベンダー／プラットフォーマー", "DSP/SSP/DMPなど配信基盤です。広告商流の理解が直接活きる"],
+              ["マーケテック企業", "MA・CDP・計測です。データ活用とプロダクト開発の両面"],
+              ["事業会社のマーケ／データ部門", "自社サービスの広告・データ活用です。業務理解が評価されやすい"],
+              ["リテールメディア／新しい配信面", "小売・配信事業の広告基盤です。成長余地のある領域"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <p className="font-bold text-slate-800 text-sm mb-1">{t}</p>
@@ -220,10 +220,10 @@ export default function AdvertisingPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "経験の棚卸し（業務知識＋技術）", desc: "広告配信システム、計測・トラッキング、レポーティングなど関わった領域を整理。CPA改善やインプレッション規模など、数値で語れる実績を抽出する。" },
-              { step: "2", title: "ギャップの特定と学習", desc: "応募したい求人の必須要件を読み、不足するスタック（大規模データ処理、リアルタイム処理など）を把握。SQLや分散処理を在職中に学び、扱えるデータ規模を広げる。" },
-              { step: "3", title: "エージェント登録で市場感を確認", desc: "Geekly、レバテックキャリアなどIT特化型に登録し、提案される求人の傾向と提示レンジを把握する。" },
-              { step: "4", title: "職務経歴書で業務知識を翻訳", desc: "「広告商流の実務知識」を、アドテック側の言葉（DSP/SSP、データパイプライン、最適化）に翻訳して伝える。必須要件への充足度を明示する。" },
+              { step: "1", title: "経験の棚卸し（業務知識＋技術）", desc: "広告配信システム、計測・トラッキング、レポーティングなど関わった領域を整理します。CPA改善やインプレッション規模など、数値で語れる実績を抽出します。" },
+              { step: "2", title: "ギャップの特定と学習", desc: "応募したい求人の必須要件を読み、不足するスタック（大規模データ処理、リアルタイム処理など）を把握します。SQLや分散処理を在職中に学び、扱えるデータ規模を広げます。" },
+              { step: "3", title: "エージェント登録で市場感を確認", desc: "Geekly、レバテックキャリアなどIT特化型に登録し、提案される求人の傾向と提示レンジを把握します。" },
+              { step: "4", title: "職務経歴書で業務知識を翻訳", desc: "「広告商流の実務知識」を、アドテック側の言葉（DSP/SSP、データパイプライン、最適化）に翻訳して伝えます。必須要件への充足度を明示します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.step}</span>
@@ -259,7 +259,7 @@ export default function AdvertisingPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">広告の知識をアドテックで活かそう</h2>
-          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、あなたの経験が市場でどう評価されるかを確認しましょう。</p>
+          <p className="text-blue-100 text-sm mb-4">まずはIT特化型エージェントに相談して、ご自身の経験が市場でどう評価されるかを確認しましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめエージェントランキングを見る</Link>
         </section>
 

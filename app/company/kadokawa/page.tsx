@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/kadokawa/" },
   title: "KADOKAWAの年収は平均885万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "KADOKAWA（ドワンゴ・ニコニコ含む）へのエンジニア転職を実データで解説。有価証券報告書の平均年収885万円（2025年3月期・単体）、Scala/TypeScript/Kotlin等の技術スタック、選考フロー、30代40代の現実までまとめました。",
+    "KADOKAWA（ドワンゴ・ニコニコ含む）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収885万円（2025年3月期・単体）、Scala/TypeScript/Kotlin等の技術スタック、選考フロー、30代40代の現実までまとめました。",
 };
 
 const salaryTrend: [string, string][] = [
@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     q: "KADOKAWAとドワンゴの関係は？エンジニア採用はどちら？",
-    a: "ドワンゴはKADOKAWAグループの中核事業会社で、ニコニコ動画やN高（角川ドワンゴ学園）等のWebサービスを運営しています。エンジニアの多くはドワンゴ等の事業会社に所属します。上場会社・有報の数値は株式会社KADOKAWA（証券コード9468）のものです。",
+    a: "ドワンゴはKADOKAWAグループの中核事業会社で、ニコニコ動画やN高（角川ドワンゴ学園）等のWebサービスを運営しています。エンジニアの多くはドワンゴ等の事業会社に所属します。上場会社・有価証券報告書の数値は株式会社KADOKAWA（証券コード9468）のものです。",
   },
   {
     q: "KADOKAWA（ドワンゴ）の技術スタックは？",
@@ -86,7 +86,7 @@ export default function KadokawaCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="KADOKAWA エンジニア転職ガイド" description="KADOKAWA（ドワンゴ・ニコニコ含む）へのエンジニア転職を実データで解説。有価証券報告書の平均年収885万円（2025年3月期・単体）、Scala/TypeScript/Kotlin等の技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/kadokawa/" />
+      <ArticleJsonLd title="KADOKAWA エンジニア転職ガイド" description="KADOKAWA（ドワンゴ・ニコニコ含む）へのエンジニア転職を実データで解説します。有価証券報告書の平均年収885万円（2025年3月期・単体）、Scala/TypeScript/Kotlin等の技術スタック、選考フロー、30代40代の現実までまとめました。" url="/company/kadokawa/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "AWSの転職ガイド", href: "/skill/aws/" }, { name: "フルスタックの転職ガイド", href: "/skill/typescript/" }, { name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Rubyの転職ガイド", href: "/skill/ruby/" }, { name: "PHPの転職ガイド", href: "/skill/php/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "KADOKAWA" }]} />
 
@@ -98,7 +98,7 @@ export default function KadokawaCompanyPage() {
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】KADOKAWAの年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 株式会社KADOKAWAの平均年間給与は885万円です（2025年3月期 有価証券報告書・提出会社単体、平均年齢41.3歳）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 885万円（2025年3月期 有報）。株式会社KADOKAWA単体（約2,343名）の全社員平均で、出版・IP職を含みます。</li><li>・推移は2023年3月期857万円→2024年・2025年3月期は885万円（各期 有報）。エンジニアが多く所属するドワンゴ等の水準とは分けて読む必要があります。</li><li>・エンジニア職の提示額は応募する会社（ドワンゴ等）・ポジション・等級により幅があるため、個別求人・面談で確認が必要です。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 885万円です（2025年3月期 有価証券報告書）。株式会社KADOKAWA単体（約2,343名）の全社員平均で、出版・IP職を含みます。</li><li>・推移は2023年3月期857万円→2024年・2025年3月期は885万円です（各期 有価証券報告書）。エンジニアが多く所属するドワンゴ等の水準とは分けて読む必要があります。</li><li>・エンジニア職の提示額は応募する会社（ドワンゴ等）・ポジション・等級により幅があるため、個別求人・面談で確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-600 leading-relaxed mb-4">
@@ -110,7 +110,7 @@ export default function KadokawaCompanyPage() {
           sources={[
             "KADOKAWA 有価証券報告書（2025年3月期）",
             "ドワンゴ公式 採用ページ／技術情報",
-            "IRBANK（有報ベース推移データ）",
+            "IRBANK（有価証券報告書ベース推移データ）",
             "口コミプラットフォーム（傾向）",
           ]}
         />
@@ -119,12 +119,12 @@ export default function KadokawaCompanyPage() {
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <h2 className="text-lg font-bold text-blue-900 mb-3">結論：難易度と向いているエンジニア</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              KADOKAWAは<strong>出版・IPの強みと、ニコニコ（ドワンゴ）の大規模Webサービス開発を併せ持つメディアミックス企業</strong>です。エンジニアの主戦場はドワンゴ等で、ScalaとTypeScriptを軸とした開発が特徴です。有報の単体平均年収885万円（2025年3月期）は出版を含む全社員平均で、エンジニア職の水準とは分けて読む必要があります。
+              KADOKAWAは<strong>出版・IPの強みと、ニコニコ（ドワンゴ）の大規模Webサービス開発を併せ持つメディアミックス企業</strong>です。エンジニアの中心的な活躍領域はドワンゴ等で、ScalaとTypeScriptを軸とした開発が特徴です。有価証券報告書の単体平均年収885万円（2025年3月期）は出版を含む全社員平均で、エンジニア職の水準とは分けて読む必要があります。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
               <li>● <strong>向いている人</strong>：大規模Webサービス（ニコニコ等）の開発・運用に関心があり、Scala/TypeScript等の経験を活かしたいエンジニア</li>
               <li>● <strong>向いていない人</strong>：コンテンツ・メディア領域への関心が薄く、業務系一辺倒を志向する人</li>
-              <li>● <strong>30代・40代</strong>：大規模サービス運用やメディア領域の経験があれば年齢層の高めな組織で活きやすい</li>
+              <li>● <strong>30代・40代</strong>：大規模サービス運用やメディア領域の経験があれば年齢層の高めな組織で活きやすいです</li>
             </ul>
           </div>
         </section>
@@ -154,7 +154,7 @@ export default function KadokawaCompanyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・単体従業員数は2025年3月期 有価証券報告書の提出会社（株式会社KADOKAWA単体）数値で、出版・IPを含む全社員平均です。エンジニアが多く所属するドワンゴ等の数値とは異なります。技術スタックは公開情報ベース（2026年6月時点）。</p>
+          <p className="text-xs text-slate-400 mt-2">※平均年間給与・平均年齢・単体従業員数は2025年3月期 有価証券報告書の提出会社（株式会社KADOKAWA単体）数値で、出版・IPを含む全社員平均です。エンジニアが多く所属するドワンゴ等の数値とは異なります。技術スタックは公開情報ベースです（2026年6月時点）。</p>
         </section>
 
         <section id="features" className="mb-10">
@@ -178,7 +178,7 @@ export default function KadokawaCompanyPage() {
         <section id="stack" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">技術スタック（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            KADOKAWAグループのエンジニア開発は主にドワンゴ等で行われ、サービスにより使用技術が異なります。公開情報で確認できる主な技術は以下の通りです（ニコニコ等のWebサービス中心）。
+            KADOKAWAグループのエンジニア開発は主にドワンゴ等で行われ、サービスにより使用技術が異なります。公開情報で確認できる主な技術は以下のとおりです（ニコニコ等のWebサービス中心）。
           </p>
           <div className="border border-slate-200 rounded-lg p-5">
             <ul className="space-y-2 text-sm text-slate-600">
@@ -269,9 +269,9 @@ export default function KadokawaCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">KADOKAWA転職におすすめのエージェント</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化。メガベンチャー・メディア系求人に強く、非公開求人も豊富。" },
-              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化。実務経験者への提案数が多く提案スピードが速い。" },
-              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイト。カジュアル面談中心。" },
+              { name: "レバテックキャリア", href: "/review/levtech/", desc: "IT・Web特化です。メガベンチャー・メディア系求人に強く、非公開求人も豊富です。" },
+              { name: "Geekly", href: "/review/geekly/", desc: "IT/Web/ゲーム特化です。実務経験者への提案数が多く提案スピードが速いです。" },
+              { name: "Green", href: "/review/green/", desc: "IT/Webベンチャーに強い成功報酬型転職サイトです。カジュアル面談中心です。" },
             ].map((agent, i) => (
               <Link key={i} href={agent.href} className="block border border-slate-200 rounded-lg p-4 hover:bg-slate-50 hover:border-petrol transition-colors">
                 <h3 className="font-bold text-slate-800 text-sm mb-1">{agent.name}</h3>

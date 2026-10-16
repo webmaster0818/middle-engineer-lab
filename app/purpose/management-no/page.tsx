@@ -5,9 +5,9 @@ import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/purpose/management-no/" },
-  title: "マネジメントしたくないエンジニアの転職【IC キャリア完全ガイド】",
+  title: "マネジメントしたくないエンジニアの転職【IC キャリアガイド】",
   description:
-    "マネジメントをせずに技術で勝負したいエンジニア向けのキャリアパスを解説。ICトラック、スタッフエンジニア、年収、おすすめ企業を紹介します。",
+    "マネジメントをせずに技術を強みにしたいエンジニア向けのキャリアパスを解説します。ICトラック、スタッフエンジニア、年収、おすすめ企業を紹介します。",
 };
 
 const faqs = [
@@ -50,7 +50,7 @@ export default function ManagementNoPage() {
 
   return (
     <>
-      <ArticleJsonLd title="マネジメントしたくないエンジニアの転職【ICキャリア完全ガイド】" description="マネジメントをせずに技術で勝負したいエンジニア向けのキャリアパスを解説。ICトラック、スタッフエンジニア、年収、おすすめ企業を紹介します。" url="/purpose/management-no/" />
+      <ArticleJsonLd title="マネジメントしたくないエンジニアの転職【ICキャリアガイド】" description="マネジメントをせずに技術を強みにしたいエンジニア向けのキャリアパスを解説します。ICトラック、スタッフエンジニア、年収、おすすめ企業を紹介します。" url="/purpose/management-no/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "目的別ガイド", href: "/purpose/" }, { name: "マネジメントしたくないエンジニアの転職" }]} />
 
@@ -59,12 +59,12 @@ export default function ManagementNoPage() {
         <p className="text-slate-500 text-sm mb-8">最終更新: 2026年6月 | ICキャリアで技術を極める方法</p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">こんな人におすすめ</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">このような方におすすめ</h2>
           <div className="bg-petrol-soft border border-slate-200 rounded-lg p-6">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>- コードを書き続けたい。管理業務は避けたい</li>
+              <li>- コードを書き続けたいです。管理業務は避けたい</li>
               <li>- 技術力で年収を上げたい</li>
-              <li>- 「30代以降はマネジメント」という風潮に疑問がある</li>
+              <li>- 「30代以降はマネジメント」という風潮に疑問があります</li>
               <li>- スタッフエンジニアやプリンシパルエンジニアを目指したい</li>
             </ul>
           </div>
@@ -127,9 +127,9 @@ export default function ManagementNoPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">エージェント活用法</h2>
           <div className="space-y-3">
             {[
-              { name: "Findy", point: "スキル偏差値でマッチング。IC向けのハイクラス求人が多い。" },
-              { name: "レバテックキャリア", point: "技術力を正しく評価してくれる企業の紹介に強い。" },
-              { name: "転職ドラフト", point: "年収付きで指名が届く。ICとしての市場価値を確認できる。" },
+              { name: "Findy", point: "スキル偏差値でマッチングです。IC向けのハイクラス求人が多いです。" },
+              { name: "レバテックキャリア", point: "技術力を正しく評価してくれる企業の紹介に強いです。" },
+              { name: "転職ドラフト", point: "年収付きで指名が届きます。ICとしての市場価値を確認できます。" },
             ].map((agent, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1">{agent.name}</h3>
@@ -165,9 +165,9 @@ export default function ManagementNoPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { name: "テックリードキャリアガイド", href: "/career/tech-lead/" },
-              { name: "年収UPしたいエンジニアの戦略", href: "/purpose/salary-up/" },
+              { name: "年収アップしたいエンジニアの戦略", href: "/purpose/salary-up/" },
               { name: "技術力を伸ばせる企業の選び方", href: "/purpose/growth/" },
-              { name: "ミドルエンジニア転職ラボTOP", href: "/" },
+              { name: "CareeHUB for Mid Engineer トップ", href: "/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

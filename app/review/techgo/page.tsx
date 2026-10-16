@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "テックゴーの評判・口コミは？評判記事10本を集計し公式実績と照合【2026年10月】";
 const DESCRIPTION =
-  "テックゴー（TechGo）の評判・口コミを、評判記事10本の集計で検証。面接対策・年収アップは10本すべてで高評価、未経験は対象外も10本すべてが指摘。記事で出回る「成功率100%」と公式の現行値86%の違い、30代40代の向き不向きまで出典付きで解説。";
+  "テックゴー（TechGo）の評判・口コミを、評判記事10本の集計で検証します。面接対策・年収アップは10本すべてで高評価、未経験は対象外も10本すべてが指摘です。記事で出回る「成功率100%」と公式の現行値86%の違い、30代40代の向き不向きまで出典付きで解説。";
 const URL = "/review/techgo/";
 const OFFICIAL_URL = "https://tech-go.jp/";
 
@@ -55,11 +55,11 @@ const basicData: [string, string][] = [
   ],
   [
     "求人",
-    "1万件以上（公式）。非公開求人・独占選考ルート・面接確約求人あり（メガベンチャー・大手事業会社・ITコンサル等）",
+    "1万件以上です（公式）。非公開求人・独占選考ルート・面接確約求人あり（メガベンチャー・大手事業会社・ITコンサル等）",
   ],
   [
     "面談",
-    "オンライン中心（Zoom・Google Meet等）。平日夜間・土曜も実施（公式FAQ）",
+    "オンライン中心です（Zoom・Google Meet等）。平日夜間・土曜も実施（公式FAQ）",
   ],
   ["料金", "完全無料（登録〜面談〜選考対策〜入社後フォローまで。公式FAQ明記）"],
 ];
@@ -67,33 +67,33 @@ const basicData: [string, string][] = [
 const goodReviews = [
   {
     title: "面談・選考対策が手厚い",
-    body: "公式は選考対策として「模擬面接を何度も実施」すると明記しており、各転職メディアでも面談の丁寧さ・回数の多さが一貫して強みとして紹介されている。面接に不安がある人ほど恩恵が大きいという文脈で評価される傾向がある。",
+    body: "公式は選考対策として「模擬面接を何度も実施」すると明記しており、各転職メディアでも面談の丁寧さ・回数の多さが一貫して強みとして紹介されています。面接に不安がある人ほど恩恵が大きいという文脈で評価される傾向があります。",
   },
   {
     title: "平日夜間・土曜も面談でき、在職中でも動きやすい",
-    body: "公式FAQに「平日夜間や土曜日も面談を実施」と明記。面談はオンライン（Zoom・Google Meet等）中心のため、在職中のエンジニアが業務後や週末に進めやすいという評価が複数メディアで見られる。",
+    body: "公式FAQに「平日夜間や土曜日も面談を実施」と明記します。面談はオンライン（Zoom・Google Meet等）中心のため、在職中のエンジニアが業務後や週末に進めやすいという評価が複数メディアで見られます。",
   },
   {
     title: "年収アップの公表実績が具体的",
-    body: "公式サイトは年収アップ金額平均144万円（2026年3月に内定承諾し年収アップを実現した人の平均）、年収アップ成功率86%（同期間の内定承諾者のうち年収アップを実現した割合）と、条件付きながら具体的な数値を公表している。数値の読み方は次項の注記解説を参照。",
+    body: "公式サイトは年収アップ金額平均144万円（2026年3月に内定承諾し年収アップを実現した人の平均）、年収アップ成功率86%（同期間の内定承諾者のうち年収アップを実現した割合）と、条件付きながら具体的な数値を公表しています。数値の読み方は次項の注記解説をご参照ください。",
   },
 ];
 
 const badReviews = [
   {
     title: "2025年開始の新しいサービスで、口コミの蓄積が少ない",
-    body: "テックゴーは運営会社の採用情報によれば2025年立ち上げ。独立系口コミプラットフォーム上の利用者の声は、レバテックキャリアなど運営歴の長い大手と比べるとまだ限定的。",
-    cope: "判断材料が少ないぶん、無料キャリア面談で紹介求人の傾向・担当者の業界理解を直接確かめるのが確実。IT特化大手（レバテックキャリアなど）と併用して提案内容を比較すると判断しやすい。",
+    body: "テックゴーは運営会社の採用情報によれば2025年立ち上げ。独立系口コミプラットフォーム上の利用者の声は、レバテックキャリアなど運営歴の長い大手と比べるとまだ限定的です。",
+    cope: "判断材料が少ないぶん、無料キャリア面談で紹介求人の傾向・担当者の業界理解を直接確かめるのが確実です。IT特化大手（レバテックキャリアなど）と併用して提案内容を比較すると判断しやすいです。",
   },
   {
     title: "経験者向けの訴求が中心で、未経験からの利用は要確認",
-    body: "公式サイトは「これまでのエンジニア経験がきっと活きる企業へ」と経験者向けの訴求が中心。運営会社の発信では未経験層への言及もあるが、本体サイトに未経験可の明記はない。",
-    cope: "実務未経験・経験が浅い場合は、面談前に支援可否を問い合わせるか、未経験対応を明記するサービス（ワークポートなど）を併用するとミスマッチを防げる。",
+    body: "公式サイトは「これまでのエンジニア経験がきっと活きる企業へ」と経験者向けの訴求が中心です。運営会社の発信では未経験層への言及もあるが、本体サイトに未経験可の明記はありません。",
+    cope: "実務未経験・経験が浅い場合は、面談前に支援可否を問い合わせるか、未経験対応を明記するサービス（ワークポートなど）を併用するとミスマッチを防げます。",
   },
   {
     title: "日曜面談・対面面談の可否は公式に明言がない",
-    body: "公式FAQが明言しているのは「平日夜間・土曜の実施」と「オンライン中心」まで。日曜の面談や対面での面談を希望する場合の可否は記載がない。",
-    cope: "日曜・対面を希望する場合は、申し込み時の日程調整でその旨を伝えて対応可否を確認するとよい。オンライン面談なら自宅から参加でき、地方在住でも利用しやすい。",
+    body: "公式FAQが明言しているのは「平日夜間・土曜の実施」と「オンライン中心」まで。日曜の面談や対面での面談を希望する場合の可否は記載がありません。",
+    cope: "日曜・対面を希望する場合は、申し込み時の日程調整でその旨を伝えて対応可否を確認するとよいでしょう。オンライン面談なら自宅から参加でき、地方在住でも利用しやすいです。",
   },
 ];
 
@@ -115,27 +115,27 @@ const flow = [
   {
     step: "STEP1",
     title: "無料キャリア相談（面談）",
-    body: "公式サイトから登録し、キャリアアドバイザーと面談。経歴・希望条件・転職希望時期をすり合わせる。転職意向が固まっていない段階の相談も可能と公式FAQに明記されている。",
+    body: "公式サイトから登録し、キャリアアドバイザーと面談します。経歴・希望条件・転職希望時期をすり合わせます。転職意向が固まっていない段階の相談も可能と公式FAQに明記されています。",
   },
   {
     step: "STEP2",
     title: "求人紹介・応募先選定",
-    body: "非公開求人を含む求人の紹介を受け、応募先を選定。応募手続きはエージェントが代行する。",
+    body: "非公開求人を含む求人の紹介を受け、応募先を選定します。応募手続きはエージェントが代行します。",
   },
   {
     step: "STEP3",
     title: "選考対策",
-    body: "書類・面接の対策。公式は「模擬面接を何度も実施」と明記しており、応募先に合わせた対策を受けられる。",
+    body: "書類・面接の対策です。公式は「模擬面接を何度も実施」と明記しており、応募先に合わせた対策を受けられます。",
   },
   {
     step: "STEP4",
     title: "内定獲得・条件交渉",
-    body: "内定後はオファー年収の交渉をエージェントが代行。公式が公表している成功率は交渉単体ではなく「年収アップ成功率86%」（2026年3月の内定承諾者）。",
+    body: "内定後はオファー年収の交渉をエージェントが代行します。公式が公表している成功率は交渉単体ではなく「年収アップ成功率86%」（2026年3月の内定承諾者）。",
   },
   {
     step: "STEP5",
     title: "入社・入社後フォロー",
-    body: "入社日調整などのサポートを受けて入社。公式は入社後の長期キャリア支援もうたっている。転職期間の目安は平均1〜3ヶ月（公式FAQ）。",
+    body: "入社日調整などのサポートを受けて入社します。公式は入社後の長期キャリア支援もうたっています。転職期間の目安は平均1〜3ヶ月です（公式FAQ）。",
   },
 ];
 
@@ -180,7 +180,7 @@ const faqs = [
 
 const related = [
   {
-    name: "テックゴーの無料キャリア面談を徹底解説",
+    name: "テックゴーの無料キャリア面談を解説",
     href: "/review/techgo-consultation/",
   },
   { name: "レバテックキャリアの評判（IT特化大手）", href: "/review/levtech/" },
@@ -238,20 +238,20 @@ export default function TechgoReview() {
         {/* 結論サマリ */}
         <section id="summary" className="mb-10 scroll-mt-20">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：こんな人におすすめ</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：このような方におすすめ</h2>
             <p className="text-sm text-blue-900 mb-3">
               <span className="font-bold">
                 総合評価：経験を年収に変えたい20〜30代中心のITエンジニア向け
               </span>
-              。一言でいえば「模擬面接まで含めた手厚い伴走と年収交渉を、平日夜間・土曜のオンライン面談で受けたい人」向けのエージェントです。
+              。要約すると「模擬面接まで含めた手厚い伴走と年収交渉を、平日夜間・土曜のオンライン面談で受けたい人」向けのエージェントです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
               <li>
-                ・公式公表の年収アップは平均144万円（2026年3月の内定承諾者平均）、30代は平均+160万円。
+                ・公式公表の年収アップは平均144万円（2026年3月の内定承諾者平均）、30代は平均+160万円です。
               </li>
-              <li>・登録から入社後フォローまで完全無料（公式FAQ明記）。面談はオンライン中心。</li>
+              <li>・登録から入社後フォローまで完全無料です（公式FAQ明記）。面談はオンライン中心です。</li>
               <li>
-                ・一方で2025年開始の新しいサービスのため口コミ蓄積は少ない。大手IT特化との併用が前提。
+                ・一方で2025年開始の新しいサービスのため口コミ蓄積は少ないです。大手IT特化との併用が前提です。
               </li>
             </ul>
           </div>
@@ -312,7 +312,7 @@ export default function TechgoReview() {
                 2. 模擬面接を何度も実施する手厚い選考対策
               </h3>
               <p className="text-sm text-petrol-deep">
-                公式は選考対策ステップで「模擬面接を何度も実施」と明記。応募手続きの代行、内定後のオファー年収交渉（公表の年収アップ成功率86%・2026年3月の内定承諾者）まで一気通貫で伴走する設計です。
+                公式は選考対策ステップで「模擬面接を何度も実施」と明記します。応募手続きの代行、内定後のオファー年収交渉（公表の年収アップ成功率86%・2026年3月の内定承諾者）まで一気通貫で伴走する設計です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -320,7 +320,7 @@ export default function TechgoReview() {
                 3. 求人1万件以上・独占選考ルート・面接確約求人
               </h3>
               <p className="text-sm text-petrol-deep">
-                公式によれば求人は1万件以上で、メガベンチャー・大手事業会社・ITコンサルなどをカバー。非公開求人に加え、独占選考ルートや面接確約求人があると公表されています。
+                公式によれば求人は1万件以上で、メガベンチャー・大手事業会社・ITコンサルなどをカバーします。非公開求人に加え、独占選考ルートや面接確約求人があると公表されています。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -328,9 +328,9 @@ export default function TechgoReview() {
                 4. 平日夜間・土曜対応のオンライン無料キャリア面談
               </h3>
               <p className="text-sm text-petrol-deep">
-                面談はZoom・Google Meetなどのオンラインが中心で、平日夜間・土曜も実施（公式FAQ）。転職意向が固まっていない段階の相談も可能と明記されており、在職中でも動きやすいのが特徴です。面談の流れ・準備は
+                面談はZoom・Google Meetなどのオンラインが中心で、平日夜間・土曜も実施します（公式FAQ）。転職意向が固まっていない段階の相談も可能と明記されており、在職中でも動きやすいのが特徴です。面談の流れ・準備は
                 <Link href="/review/techgo-consultation/" className="underline hover:no-underline">
-                  無料キャリア面談の徹底解説
+                  無料キャリア面談の解説
                 </Link>
                 にまとめました。
               </p>
@@ -344,7 +344,7 @@ export default function TechgoReview() {
             実績数値の正確な読み方（注記条件まで確認）
           </h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            紹介記事では数値だけが独り歩きしがちなので、公式サイトの注記条件まで含めて正確に整理します（2026年10月14日時点の公式サイト記載。7月時点の「平均138万円・年収交渉成功率100%」から更新されています）。
+            紹介記事では数値だけが独り歩きしがちなため、公式サイトの注記条件まで含めて正確に整理します（2026年10月14日時点の公式サイト記載。7月時点の「平均138万円・年収交渉成功率100%」から更新されています）。
           </p>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
             <table className="w-full text-sm">
@@ -364,7 +364,7 @@ export default function TechgoReview() {
                     年収アップ金額 平均144万円
                   </td>
                   <td className="px-4 py-3 text-slate-600 border-b border-slate-200">
-                    「2026年3月に内定承諾をし、年収アップを実現された方の平均実績」＝特定の1ヶ月間の、かつ年収が上がった人に限った平均。全利用者平均ではない。同期間の内定承諾者のうち年収が上がったのは86%（公式）で、残り14%は上がっていない。
+                    「2026年3月に内定承諾をし、年収アップを実現された方の平均実績」＝特定の1ヶ月間の、かつ年収が上がった人に限った平均です。全利用者平均ではありません。同期間の内定承諾者のうち年収が上がったのは86%（公式）で、残り14%は上がっていません。
                   </td>
                 </tr>
                 <tr className="bg-slate-50">
@@ -372,7 +372,7 @@ export default function TechgoReview() {
                     年収交渉成功率 100%
                   </td>
                   <td className="px-4 py-3 text-slate-600 border-b border-slate-200">
-                    「2025年9月時点実績」。交渉した案件での成功率であり、時点が明記された数値。
+                    「2025年9月時点実績」。交渉した案件での成功率であり、時点が明記された数値です。
                   </td>
                 </tr>
                 <tr className="bg-white">
@@ -380,7 +380,7 @@ export default function TechgoReview() {
                     20代平均+120万円／30代平均+160万円
                   </td>
                   <td className="px-4 py-3 text-slate-600 border-b border-slate-200">
-                    公式サイトに記載があるが、集計期間などの個別注記は付されていない。
+                    公式サイトに記載があるが、集計期間などの個別注記は付されていません。
                   </td>
                 </tr>
                 <tr className="bg-slate-50">
@@ -388,7 +388,7 @@ export default function TechgoReview() {
                     求人1万件以上
                   </td>
                   <td className="px-4 py-3 text-slate-600 border-b border-slate-200">
-                    公式サイト記載（時点注記なし）。非公開求人・独占選考ルート・面接確約求人を含むとされる。
+                    公式サイト記載します（時点注記なし）。非公開求人・独占選考ルート・面接確約求人を含むとされます。
                   </td>
                 </tr>
               </tbody>
@@ -458,11 +458,11 @@ export default function TechgoReview() {
             <ul className="list-disc pl-5 space-y-2">
               <li>
                 <span className="font-bold text-slate-700">エンジニアとして技術キャリアを続ける</span>
-                （開発・インフラ・データ/AI・PM等）→ テックゴー。SE・PG・社内SE・Web系・インフラ・データ/AI・PM/PL・QAといった職種を対象としています。
+                （開発・インフラ・データ/AI・PM等）→ テックゴーです。SE・PG・社内SE・Web系・インフラ・データ/AI・PM/PL・QAといった職種を対象としています。
               </li>
               <li>
                 <span className="font-bold text-slate-700">エンジニアからITコンサルタントへ転身したい</span>
-                → 本体のMyVisionが専門領域。コンサルファームの選考（ケース面接など）に特化した対策が受けられます。
+                → 本体のMyVisionが専門領域です。コンサルファームの選考（ケース面接など）に特化した対策が受けられます。
               </li>
               <li>
                 <span className="font-bold text-slate-700">どちらか迷っている</span>
@@ -502,7 +502,7 @@ export default function TechgoReview() {
                 </tr>
                 <tr className="bg-slate-50">
                   <th className="px-4 py-3 text-left font-medium text-slate-700 border-b border-slate-200 align-top">立ち位置</th>
-                  <td className="px-4 py-3 text-slate-600 border-b border-slate-200">2025年開始の新興。コンサル転職大手MyVisionグループ</td>
+                  <td className="px-4 py-3 text-slate-600 border-b border-slate-200">2025年開始の新興です。コンサル転職大手MyVisionグループ</td>
                   <td className="px-4 py-3 text-slate-600 border-b border-slate-200">IT特化の最大手クラスで運営歴が長い</td>
                   <td className="px-4 py-3 text-slate-600 border-b border-slate-200">提案スピードに定評のある老舗特化型</td>
                 </tr>
@@ -522,7 +522,7 @@ export default function TechgoReview() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            使い分けの目安：口コミの蓄積・求人量の実績を重視するならレバテックキャリアが軸。そのうえで、模擬面接の回数や年収交渉の伴走を重視する人、ITコンサルへの転身も視野に入れる人は、テックゴーを併用して提案を比較する形が相性のよい組み合わせです。一般に転職エージェントは2〜3社の併用が推奨されており、担当者との相性を比較できること自体に価値があります。
+            使い分けの目安：口コミの蓄積・求人量の実績を重視するならレバテックキャリアが軸です。そのうえで、模擬面接の回数や年収交渉の伴走を重視する人、ITコンサルへの転身も視野に入れる人は、テックゴーを併用して提案を比較する形が相性のよい組み合わせです。一般に転職エージェントは2〜3社の併用が推奨されており、担当者との相性を比較できること自体に価値があります。
           </p>
         </section>
 
@@ -567,7 +567,7 @@ export default function TechgoReview() {
         <section id="tally" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">評判記事10本では何が挙がっている？（2026年10月15日 集計）</h2>
           <p className="text-sm text-slate-600 mb-4">
-            「テックゴー 評判」で上位に出る評判記事10本を当サイトが読み、良い評価・悪い評価が何本の記事で挙がっているかを数えました。口コミの出所は記事によって異なり、Googleマップ（BLITZキャリア・あなたの転職エージェント）、クラウドソーシングのアンケートと担当者取材（キャリアアップステージ）、自社アンケート（トレオンメディア）のほかは出所の記載がありません。
+            「テックゴー 評判」で上位に出る評判記事10本を当サイトが読み、良い評価・悪い評価が何本の記事で挙がっているかを数えました。口コミの出所は記事によって異なり、Googleマップ（BLITZキャリア・ご自身の転職エージェント）、クラウドソーシングのアンケートと担当者取材（キャリアアップステージ）、自社アンケート（トレオンメディア）のほかは出所の記載がありません。
           </p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-slate-200">
@@ -597,7 +597,7 @@ export default function TechgoReview() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4">
             <p className="text-sm font-bold text-amber-900 mb-2">記事で出回っている数字と、公式の現行表記（2026年10月15日 tech-go.jp で確認）</p>
             <ul className="text-sm text-amber-900 space-y-1 leading-relaxed">
-              <li>・<strong>年収アップ金額</strong>：公式は平均144万円（2026年3月に内定承諾し年収アップした人の平均）。記事では138万・145万・156万円など、時期や集計範囲の違う数字が混在しています（156万円は運営会社MyVision全体の数字と注記した記事あり）</li>
+              <li>・<strong>年収アップ金額</strong>：公式は平均144万円です（2026年3月に内定承諾し年収アップした人の平均）。記事では138万・145万・156万円など、時期や集計範囲の違う数字が混在しています（156万円は運営会社MyVision全体の数字と注記した記事あり）</li>
               <li>・<strong>「年収交渉成功率100%」</strong>：4本の記事が記載していますが、公式トップの現行表記は<strong>「年収アップ成功率86%」</strong>（同期間の内定承諾者のうち年収アップした人の割合）で、100%の表記はありません</li>
               <li>・<strong>「年収アップ率95%」</strong>：3本の記事が記載していますが、公式の表記には見当たりません</li>
               <li>・<strong>求人数</strong>：公式は「ITエンジニア向け求人が10,000件以上」。記事では約5,800件・6,354件など別の数字もあります</li>
@@ -611,7 +611,7 @@ export default function TechgoReview() {
             <a href="https://tleon.co.jp/media/techgo-review/" target="_blank" rel="nofollow noopener" className="underline">トレオンメディア</a>・
             <a href="https://cb-tokyo.co.jp/career/1559" target="_blank" rel="nofollow noopener" className="underline">キャリア・ブレーン</a>・
             <a href="https://sakufuri.jp/media/tech-go/" target="_blank" rel="nofollow noopener" className="underline">サクフリ</a>・
-            <a href="https://your-tenshoku.com/article/tech-go/" target="_blank" rel="nofollow noopener" className="underline">あなたの転職エージェント</a>・
+            <a href="https://your-tenshoku.com/article/tech-go/" target="_blank" rel="nofollow noopener" className="underline">ご自身の転職エージェント</a>・
             <a href="https://talentsquare.co.jp/career/techgo-reputation/" target="_blank" rel="nofollow noopener" className="underline">タレントスクエア</a>・
             <a href="https://freedash.jp/tech-go/" target="_blank" rel="nofollow noopener" className="underline">フリーダッシュ</a>・
             <a href="https://yield-marketing.co.jp/blog/tech-go/" target="_blank" rel="nofollow noopener" className="underline">イールドマーケティング</a>
@@ -690,7 +690,7 @@ export default function TechgoReview() {
           <p className="text-sm text-slate-600 leading-relaxed mt-4">
             最初の関門であるSTEP1の面談については、所要時間の目安・事前準備・断り方まで含めて
             <Link href="/review/techgo-consultation/" className="text-petrol-deep underline hover:no-underline">
-              テックゴーの無料キャリア面談 徹底解説
+              テックゴーの無料キャリア面談 解説
             </Link>
             で詳しく扱っています。
           </p>
@@ -716,7 +716,7 @@ export default function TechgoReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">テックゴーに無料キャリア相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            登録から入社後フォローまで完全無料。平日夜間・土曜のオンライン面談で、まずは市場価値と選択肢を確認してみませんか？
+            登録から入社後フォローまで完全無料です。平日夜間・土曜のオンライン面談で、まずは市場価値と選択肢を確認してみませんか？
           </p>
           <a
             href={OFFICIAL_URL}

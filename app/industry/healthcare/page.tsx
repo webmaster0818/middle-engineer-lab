@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/industry/healthcare/" },
   title: "医療・製薬業界からヘルステック転職【30代40代ガイド】",
   description:
-    "医療系SE・製薬エンジニアからヘルステック・医療AI・遠隔医療への転職方法を解説。活かせるスキルと埋めるギャップ、年収の考え方、進め方を30代40代視点で紹介。",
+    "医療系SE・製薬エンジニアからヘルステック・医療AI・遠隔医療への転職方法を解説します。活かせるスキルと埋めるギャップ、年収の考え方、進め方を30代40代視点で紹介します。",
 };
 
 const TITLE = "医療・製薬業界からヘルステック転職【30代40代ガイド】";
 const DESC =
-  "医療系SE・製薬エンジニアからヘルステック・医療AI・遠隔医療への転職方法を解説。活かせるスキルと埋めるギャップ、年収の考え方、進め方を30代40代視点で紹介。";
+  "医療系SE・製薬エンジニアからヘルステック・医療AI・遠隔医療への転職方法を解説します。活かせるスキルと埋めるギャップ、年収の考え方、進め方を30代40代視点で紹介します。";
 
 const toc = [
   { id: "conclusion", label: "結論：医療×ITは転職市場で希少" },
@@ -115,7 +115,7 @@ export default function HealthcarePage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          医療DXの推進、遠隔医療の普及、医療AIの実用化が進むなかで、医療業界の業務知識とITスキルの両方を持つ人材への関心が高まっています。電子カルテ、医事会計、臨床データの知識は、ヘルステック領域では純粋なIT人材が持ちにくい武器になります。本記事では、医療系SE・製薬業界エンジニアがヘルステック・医療AI領域へ転職するための考え方と進め方を、30代・40代のミドルエンジニア視点で整理します。
+          医療DXの推進、遠隔医療の普及、医療AIの実用化が進むなかで、医療業界の業務知識とITスキルの両方を持つ人材への関心が高まっています。電子カルテ、医事会計、臨床データの知識は、ヘルステック領域では純粋なIT人材が持ちにくい強みになります。本記事では、医療系SE・製薬業界エンジニアがヘルステック・医療AI領域へ転職するための考え方と進め方を、30代・40代のミドルエンジニア視点で整理します。
         </p>
 
         <DataNote
@@ -251,7 +251,7 @@ export default function HealthcarePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">向いている人／向いていない人</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="border border-emerald-200 bg-emerald-50 rounded-xl p-5">
-              <h3 className="font-bold text-emerald-800 mb-3 text-sm">こんな人は向いている</h3>
+              <h3 className="font-bold text-emerald-800 mb-3 text-sm">このような方に向いています</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
                   "電子カルテ・医事会計など医療システムの実務経験がある",
@@ -268,7 +268,7 @@ export default function HealthcarePage() {
               <h3 className="font-bold text-slate-700 mb-3 text-sm">慎重に検討したい人</h3>
               <ul className="text-sm text-slate-700 space-y-2">
                 {[
-                  "医療ドメインの経験がなく、技術力だけで勝負したい",
+                  "医療ドメインの経験がなく、技術力だけを強みにしたい",
                   "規制や医療現場の制約に向き合う仕事を避けたい",
                   "学習に時間を割けず、即戦力の技術力も足りない",
                   "短期間での大幅な年収アップだけを目的にしている",
@@ -292,12 +292,12 @@ export default function HealthcarePage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg overflow-hidden">
               <div className="bg-slate-100 px-4 py-2 text-xs font-bold text-slate-500">Before（伝わりにくい例）</div>
-              <p className="px-4 py-3 text-sm text-slate-600">電子カルテシステムの保守・運用を担当。要件定義から携わった。</p>
+              <p className="px-4 py-3 text-sm text-slate-600">電子カルテシステムの保守・運用を担当します。要件定義から携わった。</p>
             </div>
             <div className="border border-[var(--line)] rounded-lg overflow-hidden">
               <div className="bg-petrol-soft px-4 py-2 text-xs font-bold text-petrol-deep">After（医療×ITが伝わる例）</div>
               <p className="px-4 py-3 text-sm text-slate-700">
-                病院向け電子カルテの導入・運用を担当。HL7に基づく外部システム連携の要件定義を主導し、医師・看護師の運用負荷を踏まえた画面設計を提案。個人情報保護・医療法の制約を満たす運用フローを整備し、現場の入力工数削減に貢献。医療標準規格と現場ワークフローの両面を理解している点を強みとする。
+                病院向け電子カルテの導入・運用を担当します。HL7に基づく外部システム連携の要件定義を主導し、医師・看護師の運用負荷を踏まえた画面設計を提案します。個人情報保護・医療法の制約を満たす運用フローを整備し、現場の入力工数削減に貢献します。医療標準規格と現場ワークフローの両面を理解している点を強みとします。
               </p>
             </div>
           </div>
@@ -317,10 +317,10 @@ export default function HealthcarePage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-4">
             <ul className="text-sm text-slate-700 space-y-2 leading-relaxed">
               <li>
-                ・<strong>正社員SEの年代別平均年収（レバテック公表・2025年）</strong>：20代 約378万円／30代 約499万円／40代 約618万円／50代 約685万円。年収1,000万円以上の割合は30代8.01%・40代12.67%。
+                ・<strong>正社員SEの年代別平均年収（レバテック公表・2025年）</strong>：20代 約378万円／30代 約499万円／40代 約618万円／50代 約685万円です。年収1,000万円以上の割合は30代8.01%・40代12.67%です。
               </li>
               <li>
-                ・<strong>IT・通信の平均決定年収（doda／パーソルキャリア「決定年収レポート」2025年5月公表）</strong>：2023年度469万円→2024年度486万円。doda公表では転職者の約6割が年収アップとされています。
+                ・<strong>IT・通信の平均決定年収（doda／パーソルキャリア「決定年収レポート」2025年5月公表）</strong>：2023年度469万円→2024年度486万円です。doda公表では転職者の約6割が年収アップとされています。
               </li>
             </ul>
           </div>
@@ -338,15 +338,15 @@ export default function HealthcarePage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">クラウド型電子カルテ・医療SaaS</h3>
-              <p className="text-sm text-slate-600">医療機関向けの基幹システムをクラウドで提供する企業。電子カルテ・医事会計の業務知識がそのまま活きやすい。</p>
+              <p className="text-sm text-slate-600">医療機関向けの基幹システムをクラウドで提供する企業です。電子カルテ・医事会計の業務知識がそのまま活きやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">遠隔医療・オンライン診療プラットフォーム</h3>
-              <p className="text-sm text-slate-600">予約・問診・決済・服薬指導までをオンラインでつなぐサービス。現場運用の理解が要件定義で評価される。</p>
+              <p className="text-sm text-slate-600">予約・問診・決済・服薬指導までをオンラインでつなぐサービスです。現場運用の理解が要件定義で評価されます。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">医療AI・医療データ分析</h3>
-              <p className="text-sm text-slate-600">画像診断支援や臨床データ解析を手がける企業。Python・MLに加え、規制や臨床現場の理解が差別化要素になる。</p>
+              <p className="text-sm text-slate-600">画像診断支援や臨床データ解析を手がける企業です。Python・MLに加え、規制や臨床現場の理解が差別化要素になります。</p>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
@@ -359,10 +359,10 @@ export default function HealthcarePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職の進め方</h2>
           <div className="space-y-4">
             {[
-              { step: "1", title: "医療業界の経験を棚卸しする", desc: "電子カルテ導入、医事会計開発、院内ネットワーク構築など携わった案件と成果を具体的に整理。HL7・DICOM・医療法対応の経験も明記する。" },
-              { step: "2", title: "モダン開発スキルを補強する", desc: "Python・TypeScript・クラウド（AWS/GCP）の基礎を学ぶ。医療AI志望ならscikit-learnやTensorFlowなど機械学習ライブラリにも触れておく。" },
-              { step: "3", title: "ヘルステック領域をリサーチする", desc: "遠隔医療・医療AI・PHR・デジタル治療（DTx）などのうち、自分の医療知識が最も活きる領域を見極める。" },
-              { step: "4", title: "IT特化エージェントで求人レンジを確認", desc: "レバテックキャリア・doda ITエンジニアなどに登録し、実際の医療IT求人と提示年収レンジを比較する。" },
+              { step: "1", title: "医療業界の経験を棚卸しする", desc: "電子カルテ導入、医事会計開発、院内ネットワーク構築など携わった案件と成果を具体的に整理します。HL7・DICOM・医療法対応の経験も明記します。" },
+              { step: "2", title: "モダン開発スキルを補強する", desc: "Python・TypeScript・クラウド（AWS/GCP）の基礎を学びます。医療AI志望ならscikit-learnやTensorFlowなど機械学習ライブラリにも触れておきます。" },
+              { step: "3", title: "ヘルステック領域をリサーチする", desc: "遠隔医療・医療AI・PHR・デジタル治療（DTx）などのうち、自分の医療知識が最も活きる領域を見極めます。" },
+              { step: "4", title: "IT特化エージェントで求人レンジを確認", desc: "レバテックキャリア・doda ITエンジニアなどに登録し、実際の医療IT求人と提示年収レンジを比較します。" },
             ].map((item, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">
@@ -386,15 +386,15 @@ export default function HealthcarePage() {
           <div className="space-y-3">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートA：医療業務知識を軸にPdM・DX推進へ</h3>
-              <p className="text-sm text-slate-600">コードを書く比重が低めの医療SaaSのPdMや医療DX推進から入り、技術理解を業務の中で深める。医療ドメインの厚みが武器になる。</p>
+              <p className="text-sm text-slate-600">コードを書く比重が低めの医療SaaSのPdMや医療DX推進から入り、技術理解を業務の中で深めます。医療ドメインの厚みが強みになります。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートB：既存の開発スキルにモダンスタックを足す</h3>
-              <p className="text-sm text-slate-600">医療システム開発の経験者が、Python・TypeScript・クラウドを補強してヘルステックのエンジニア職へ。学習成果を小さな制作物で示すと伝わりやすい。</p>
+              <p className="text-sm text-slate-600">医療システム開発の経験者が、Python・TypeScript・クラウドを補強してヘルステックのエンジニア職へ。学習成果を小さな制作物で示すと伝わりやすいです。</p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-1">ルートC：データ・AI領域へ寄せる</h3>
-              <p className="text-sm text-slate-600">臨床データや医事データの扱いに強みがあるなら、SQL・Pythonを軸に医療データ分析・医療AIの周辺ポジションを狙う。</p>
+              <p className="text-sm text-slate-600">臨床データや医事データの扱いに強みがあるなら、SQL・Pythonを軸に医療データ分析・医療AIの周辺ポジションを狙います。</p>
             </div>
           </div>
         </section>
@@ -404,10 +404,10 @@ export default function HealthcarePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">よくあるつまずきと対策</h2>
           <div className="space-y-3">
             {[
-              { p: "「医療システムの経験」だけを書いて医療知識が伝わらない", s: "現場の制約・規制対応・ワークフロー理解を職務経歴書に具体的に書き、ドメインの厚みを言語化する。" },
-              { p: "求人が見つからず1社のエージェントで止まってしまう", s: "IT特化と総合型を2社以上併用し、提案される医療IT求人の傾向を比較する。求人が少ない時期は条件を緩めて市場感をつかむ。" },
-              { p: "最新技術力で若手と比較され不利になる", s: "技術の最先端で勝負するより、医療ドメイン×ITの掛け合わせで応募ポジションを選ぶ。" },
-              { p: "学習が手段化して目的を見失う", s: "志望職種の求人要件から逆算し、必要な技術だけに絞って学習する。" },
+              { p: "「医療システムの経験」だけを書いて医療知識が伝わりません", s: "現場の制約・規制対応・ワークフロー理解を職務経歴書に具体的に書き、ドメインの厚みを言語化します。" },
+              { p: "求人が見つからず1社のエージェントで止まってしまいます", s: "IT特化と総合型を2社以上併用し、提案される医療IT求人の傾向を比較します。求人が少ない時期は条件を緩めて市場感をつかみます。" },
+              { p: "最新技術力で若手と比較され不利になります", s: "技術の最先端を強みにするより、医療ドメイン×ITの掛け合わせで応募ポジションを選びます。" },
+              { p: "学習が手段化して目的を見失います", s: "志望職種の求人要件から逆算し、必要な技術だけに絞って学習します。" },
             ].map((item, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <p className="text-sm font-bold text-slate-800 mb-1">つまずき：{item.p}</p>
@@ -422,7 +422,7 @@ export default function HealthcarePage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              ミドル層の医療系エンジニアにとって、ヘルステック転職は「未経験の若手と競う」のではなく「医療ドメインの蓄積で勝負する」戦い方ができる点が大きな利点です。30代・40代は現場での失敗・調整経験が豊富で、医療現場の制約を踏まえた要件定義や、多職種をまたぐプロジェクト推進で評価されやすくなります。
+              ミドル層の医療系エンジニアにとって、ヘルステック転職は「未経験の若手と競う」のではなく「医療ドメインの蓄積を強みにする」進め方ができる点が大きな利点です。30代・40代は現場での失敗・調整経験が豊富で、医療現場の制約を踏まえた要件定義や、多職種をまたぐプロジェクト推進で評価されやすくなります。
             </p>
             <p className="text-slate-700 leading-relaxed mb-3">
               一方で、純粋な最新技術力だけで20代と競うと不利になりがちです。コーディング比重の高いポジションに固執するより、医療知識を軸にしたPdM・医療DX推進・規制対応など、年齢が強みに転じる職種を視野に入れると選択肢が広がります。

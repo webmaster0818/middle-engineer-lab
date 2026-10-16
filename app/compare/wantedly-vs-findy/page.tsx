@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/wantedly-vs-findy/" },
   title: "WantedlyとFindyの比較｜どっちがおすすめ？【2026年9月】",
   description:
-    "Wantedly(共感軸・カジュアル面談・給与非記載)とFindy(GitHub偏差値のスカウト型)を、評価軸・給与情報の透明性・使い方・対象層で比較。社風から入りたい人と技術評価で条件から入りたい人の分岐点、30代40代エンジニアの選び方を解説します。",
+    "Wantedly(共感軸・カジュアル面談・給与非記載)とFindy(GitHub偏差値のスカウト型)を、評価軸・給与情報の透明性・使い方・対象層で比較します。社風から入りたい人と技術評価で条件から入りたい人の分岐点、30代40代エンジニアの選び方を解説します。",
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：どっちがおすすめか" },
+  { id: "conclusion", label: "結論：どちらがおすすめか" },
   { id: "basic", label: "基本データ比較表" },
   { id: "axis", label: "項目別比較①：評価軸（共感・ビジョン vs GitHub偏差値）" },
   { id: "salary", label: "項目別比較②：給与情報の透明性" },
@@ -30,7 +30,7 @@ const comparison = [
   { item: "サービス形態", a: "共感軸の直接応募／ビジネスSNS（カジュアル面談前提）", b: "スカウト型（GitHub連携のスキル偏差値でマッチング）" },
   { item: "評価のものさし", a: "プロフィール・ストーリーへの共感（ビジョン・社風とのフィット）", b: "GitHubの活動を解析した「スキル偏差値」" },
   { item: "給与・条件表示", a: "原則非記載（最大の特徴であり注意点）", b: "求人・スカウトの過程で条件を確認（GitHub実績ベースの高年収帯が中心）" },
-  { item: "規模感", a: "ユーザー400万人以上／利用企業4万社以上（二次情報）", b: "掲載企業800社以上を厳選（公式・2024年7月時点）。求人数は非明示" },
+  { item: "規模感", a: "ユーザー400万人以上／利用企業4万社以上（二次情報）", b: "掲載企業800社以上を厳選します（公式・2024年7月時点）。求人数は非明示" },
   { item: "得意領域", a: "スタートアップ・ベンチャー、専門職（エンジニア含む）", b: "モダン言語（Go/TypeScript/Python/Ruby等）のWeb自社開発" },
   { item: "対応エリア", a: "全国（東京中心）", b: "首都圏中心（地方求人は少なめ）" },
   { item: "料金", a: "求職者無料", b: "求職者は完全無料" },
@@ -65,15 +65,15 @@ export default function WantedlyVsFindyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="WantedlyとFindyの比較｜どっちがおすすめか" description="Wantedly(共感軸・給与非記載)とFindy(GitHub偏差値スカウト)を評価軸・透明性・使い方で比較。30代40代エンジニアの選び方を解説します。" url="/compare/wantedly-vs-findy/" />
+      <ArticleJsonLd title="WantedlyとFindyの比較｜どっちがおすすめか" description="Wantedly(共感軸・給与非記載)とFindy(GitHub偏差値スカウト)を評価軸・透明性・使い方で比較します。30代40代エンジニアの選び方を解説します。" url="/compare/wantedly-vs-findy/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "比較" }, { name: "Wantedly vs Findy" }]} />
 
       <article className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">WantedlyとFindyを徹底比較｜どっちがおすすめ？</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">WantedlyとFindyを比較｜どっちがおすすめ？</h1>
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年9月 ｜ 共感軸のビジネスSNS と GitHub偏差値スカウト を比較</p>
 
-        <p className="text-slate-600 leading-relaxed mb-4">WantedlyとFindyはどちらもエンジニアの利用者が多い自走型サービスですが、マッチングの思想が対照的です。Wantedlyは企業のストーリーへの「共感」から入り、給与は原則非記載でカジュアル面談が中心。Findyは「GitHub偏差値」という技術評価から入り、実力の可視化がスカウトに直結します。本記事は30代・40代のITエンジニア向けに、評価軸・給与情報の透明性・使い方・対象層で両者を比較します。どちらも求職者は無料です。</p>
+        <p className="text-slate-600 leading-relaxed mb-4">WantedlyとFindyはどちらもエンジニアの利用者が多い自走型サービスですが、マッチングの思想が対照的です。Wantedlyは企業のストーリーへの「共感」から入り、給与は原則非記載でカジュアル面談が中心です。Findyは「GitHub偏差値」という技術評価から入り、実力の可視化がスカウトに直結します。本記事は30代・40代のITエンジニア向けに、評価軸・給与情報の透明性・使い方・対象層で両者を比較します。どちらも求職者は無料です。</p>
 
         <DataNote surveyedAt="2026年9月8日" sources={["Wantedly公式", "Findy公式（掲載企業数・2024年7月）", "各転職メディアの集計値（ユーザー数等は二次情報と明記）"]} />
 
@@ -87,13 +87,13 @@ export default function WantedlyVsFindyPage() {
         </nav>
 
         <section id="conclusion" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どっちがおすすめか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">結論：どちらがおすすめか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
               <li><strong>・社風・ビジョンから入りたいなら「Wantedly」</strong>。カジュアル面談で応募前に空気を確かめられます。ただし給与は原則非記載です。</li>
               <li><strong>・技術評価から入りたいなら「Findy」</strong>。GitHub実績がスキル偏差値として可視化され、厳選されたWeb自社開発企業とマッチします。</li>
-              <li><strong>・迷うなら併用</strong>。「カルチャーフィット(Wantedly)」と「技術の市場価値(Findy)」を同時に確かめられます。どちらも無料です。</li>
+              <li><strong>・迷うなら併用です</strong>。「カルチャーフィット(Wantedly)」と「技術の市場価値(Findy)」を同時に確かめられます。どちらも無料です。</li>
             </ul>
           </div>
         </section>
@@ -185,7 +185,7 @@ export default function WantedlyVsFindyPage() {
 
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">カルチャーと市場価値、両方確かめよう</h2>
-          <p className="text-blue-100 text-sm mb-4">FindyでGitHub実績を可視化し、Wantedlyで会社の空気を確かめる。共感軸と技術軸の併用が、後悔しない意思決定への最短ルートです。</p>
+          <p className="text-blue-100 text-sm mb-4">FindyでGitHub実績を可視化し、Wantedlyで会社の空気を確かめます。共感軸と技術軸の併用が、後悔しない意思決定への最短ルートです。</p>
           <Link href="/#ranking" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">おすすめサービスランキングを見る</Link>
         </section>
 
@@ -198,7 +198,7 @@ export default function WantedlyVsFindyPage() {
               { name: "Green vs Wantedly 比較", href: "/compare/green-vs-wantedly/" },
               { name: "Findy vs Forkwell 比較", href: "/compare/findy-vs-forkwell/" },
               { name: "paiza vs Findy 比較", href: "/compare/paiza-vs-findy/" },
-              { name: "スカウト型サービス徹底比較", href: "/compare/scout-agents/" },
+              { name: "スカウト型サービス比較", href: "/compare/scout-agents/" },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="block border border-slate-200 rounded-lg px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:border-petrol transition-colors">{item.name} →</Link>
             ))}

@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "CISSPは転職に効くか｜セキュリティ管理職の加点資格と年収【2026年】";
 const PAGE_DESC =
-  "ISC2のCISSP（Certified Information Systems Security Professional）を、セキュリティ経験者・管理職志望者の加点資格という観点から30代・40代向けに解説。";
+  "ISC2のCISSP（Certified Information Systems Security Professional）を、セキュリティ経験者・管理職志望者の加点資格という観点から30代・40代向けに解説します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/cissp/" },
@@ -100,14 +100,14 @@ export default function CisspCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          CISSP（Certified Information Systems Security Professional）は、ISC2が認定する<strong>情報セキュリティの代表的な上位資格</strong>です。本記事は「CISSPを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『セキュリティ管理職・上位職への加点資格』</strong>という性格を軸に、高年収帯での評価・5年実務要件・更新コストを含め、公式情報をもとに整理します。資格単体では効かないという限界も正直にお伝えします。
+          CISSP（Certified Information Systems Security Professional）は、ISC2が認定する<strong>情報セキュリティの代表的な上位資格</strong>です。本記事は「CISSPを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『セキュリティ管理職・上位職への加点資格』</strong>という性格を軸に、高年収帯での評価・5年実務要件・更新コストを含め、公式情報をもとに整理します。資格単体では効かないという留意点もご説明します。
         </p>
 
         <DataNote
           surveyedAt="2026年6月"
           sources={[
             "ISC2 公式（isc2.org）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -133,9 +133,9 @@ export default function CisspCertPage() {
               CISSPは<strong>「セキュリティ経験者・管理職志望者の加点資格」</strong>です。入口資格とは性格が異なり、すでにセキュリティ実務経験のあるミドルが<strong>管理職・上位職・高年収帯へ役割を広げる土台</strong>として最も効きます。5年の実務要件があること自体が、経験者向け資格であることを物語っています。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>セキュリティ実務経験のある30〜40代</strong>：管理職・CISO候補への土台・専門性の証明として加点される</li>
-              <li>② <strong>未経験のミドル</strong>：実務要件を満たせず入口には不向き。まず実務と基礎資格を固めるべき</li>
-              <li>③ <strong>高年収・上位職志望</strong>：マネジメント・コンサル領域で国際的に通用する権威性を持つ</li>
+              <li>① <strong>セキュリティ実務経験のある30〜40代</strong>：管理職・CISO候補への土台・専門性の証明として加点されます</li>
+              <li>② <strong>未経験のミドル</strong>：実務要件を満たせず入口には不向きです。まず実務と基礎資格を固めるべき</li>
+              <li>③ <strong>高年収・上位職志望</strong>：マネジメント・コンサル領域で国際的に通用する権威性を持ちます</li>
             </ul>
           </div>
         </section>
@@ -156,7 +156,7 @@ export default function CisspCertPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
-            出典: ISC2 公式（isc2.org、2026年6月時点）。試験登録料は749 USD（標準価格）で、別途認定維持の年会費（AMF）がかかります。試験はCAT（適応型）方式で最小100問〜最大150問、最大3時間。8ドメインの広範な知識が問われます。認定維持には3年ごとに120 CPEクレジットの取得が必要です。合格率はISC2が公表していないため、当サイトでは数値を創作していません。
+            出典: ISC2 公式（isc2.org、2026年6月時点）。試験登録料は749 USD（標準価格）で、別途認定維持の年会費（AMF）がかかります。試験はCAT（適応型）方式で最小100問〜最大150問、最大3時間です。8ドメインの広範な知識が問われます。認定維持には3年ごとに120 CPEクレジットの取得が必要です。合格率はISC2が公表していないため、当サイトでは数値を創作していません。
           </p>
         </section>
 
@@ -170,7 +170,7 @@ export default function CisspCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・<strong>実務経験</strong>：8ドメイン中2つ以上で累計5年の有給・常勤実務（学位・特定認定で1年免除可）</li>
               <li>・<strong>Endorsement</strong>：合格後、ISC2正会員による推薦が必要（推薦自体に追加料金はなし）</li>
-              <li>・<strong>実務不足時</strong>：先に合格して「Associate of ISC2」になり、最大6年以内に要件を満たす</li>
+              <li>・<strong>実務不足時</strong>：先に合格して「Associate of ISC2」になり、最大6年以内に要件を満たします</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -186,7 +186,7 @@ export default function CisspCertPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-3">
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>・CISSP保有者限定の国内公的年収統計は<strong>存在しない（創作しない）</strong></li>
+              <li>・CISSP保有者限定の国内公的年収統計は<strong>存在しません（当サイトでは推計値を作成していません）</strong></li>
               <li>・評価される領域：<strong>セキュリティ管理職・CISO候補・コンサルなど高年収帯</strong></li>
               <li>・実態：<strong>年収は実務経験・役割で決まり、CISSPは権威性の補強材</strong></li>
             </ul>
@@ -201,10 +201,10 @@ export default function CisspCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "セキュリティ管理職・CISO候補への登用", d: "8ドメインを横断する体系知識が、組織のセキュリティを統括するマネジメント層への適性を裏付ける。" },
-              { t: "国際的な権威性の客観証明", d: "CISSPは世界的に認知された上位資格で、外資・グローバル案件でも通用する専門性の証明になる。" },
-              { t: "セキュリティコンサル・監査領域", d: "リスクマネジメント・ガバナンスの知識が、コンサルティングや監査ポジションで評価される。" },
-              { t: "資格手当・評価制度の対象", d: "CISSPを資格手当・昇格要件に設定する企業があり、社内評価の根拠になりやすい。" },
+              { t: "セキュリティ管理職・CISO候補への登用", d: "8ドメインを横断する体系知識が、組織のセキュリティを統括するマネジメント層への適性を裏付けます。" },
+              { t: "国際的な権威性の客観証明", d: "CISSPは世界的に認知された上位資格で、外資・グローバル案件でも通用する専門性の証明になります。" },
+              { t: "セキュリティコンサル・監査領域", d: "リスクマネジメント・ガバナンスの知識が、コンサルティングや監査ポジションで評価されます。" },
+              { t: "資格手当・評価制度の対象", d: "CISSPを資格手当・昇格要件に設定する企業があり、社内評価の根拠になりやすいです。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -222,9 +222,9 @@ export default function CisspCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "セキュリティマネージャー／CISO候補", d: "組織のセキュリティ戦略・体制を統括する立場。8ドメインの体系知識が意思決定の土台になる。" },
-              { t: "セキュリティコンサルタント", d: "リスク評価・ガバナンス・コンプライアンスを助言する立場。国際資格の信頼性が提案力を高める。" },
-              { t: "セキュリティアーキテクト／上級SE", d: "セキュアな基盤設計を担う立場。設計判断の根拠として上位資格が評価される。" },
+              { t: "セキュリティマネージャー／CISO候補", d: "組織のセキュリティ戦略・体制を統括する立場です。8ドメインの体系知識が意思決定の土台になります。" },
+              { t: "セキュリティコンサルタント", d: "リスク評価・ガバナンス・コンプライアンスを助言する立場です。国際資格の信頼性が提案力を高めます。" },
+              { t: "セキュリティアーキテクト／上級SE", d: "セキュアな基盤設計を担う立場です。設計判断の根拠として上位資格が評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -269,10 +269,10 @@ export default function CisspCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>管理職・上位職への足がかり</strong>。8ドメインを横断する体系知識で、組織のセキュリティを統括する適性を示せます。第二に<strong>国際的な権威性</strong>。CISSPは世界的に認知され、外資・グローバル案件でも通用します。第三に<strong>高年収帯での差別化</strong>。セキュリティ管理職・コンサルの求人で、専門性の客観的な裏付けになります。
+            活用戦略は3つに整理できます。第一に<strong>管理職・上位職への足がかり</strong>。8ドメインを横断する体系知識で、組織のセキュリティを統括する適性を示せます。第二に<strong>国際的な権威性です</strong>。CISSPは世界的に認知され、外資・グローバル案件でも通用します。第三に<strong>高年収帯での差別化です</strong>。セキュリティ管理職・コンサルの求人で、専門性の客観的な裏付けになります。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。CISSPは<strong>受験料が749 USDと高額で、実務5年要件と3年ごと120CPE・年会費という維持コストがかかります</strong>。効果が出るのは「セキュリティ実務 × 資格」の掛け算が成立したときで、未経験者がいきなり狙う資格ではありません。逆に言えば、すでにセキュリティ現場経験があり管理職・上位職を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>や<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>で土台を固めてから臨むのが堅実です。
+            注意すべきデメリットも押さえておきましょう。CISSPは<strong>受験料が749 USDと高額で、実務5年要件と3年ごと120CPE・年会費という維持コストがかかります</strong>。効果が出るのは「セキュリティ実務 × 資格」の掛け算が成立したときで、未経験者がいきなり狙う資格ではありません。逆に言えば、すでにセキュリティ現場経験があり管理職・上位職を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安な場合は、まず<Link href="/cert/applied-info/" className="text-petrol hover:underline">応用情報技術者</Link>や<Link href="/cert/security-specialist/" className="text-petrol hover:underline">情報処理安全確保支援士</Link>で土台を固めてから臨むのが堅実です。
           </p>
         </section>
 
@@ -284,7 +284,7 @@ export default function CisspCertPage() {
               CISSPは、入口資格とは<strong>立ち位置が逆</strong>です。入口資格が「セキュリティ職に入るための入口」なのに対し、CISSPは<strong>「すでに現場にいる経験者が、管理職・上位職へ役割を上げるための加点装置」</strong>として最も効きます。5年の実務要件がある以上、経験豊富な30〜40代こそ価値を出しやすい資格です。
             </p>
             <p>
-              一方で過度な期待は禁物です。CISSPを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「セキュリティ実務 × 資格」の掛け算</strong>のとき。インシデント対応・設計・ガバナンスなどの実務と組み合わせて初めて、管理職ポジションや高年収帯という形で結実します。さらに受験料・年会費・CPE取得という継続コストも、長期的に維持する前提で計画する必要があります。
+              一方で過度な期待は禁物です。CISSPを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「セキュリティ実務 × 資格」の掛け算</strong>のときです。インシデント対応・設計・ガバナンスなどの実務と組み合わせて初めて、管理職ポジションや高年収帯という形で結実します。さらに受験料・年会費・CPE取得という継続コストも、長期的に維持する前提で計画する必要があります。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -297,9 +297,9 @@ export default function CisspCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "8ドメインを体系的に学習", d: "リスク管理・資産・アーキテクチャ・ネットワーク・IAM・運用など8ドメインを公式ガイドで網羅する。" },
-              { n: "STEP 2", t: "CAT形式に対応し合格", d: "適応型試験は実務的な判断を問う。模試で出題傾向に慣れ、最大3時間の集中力も準備する。" },
-              { n: "STEP 3", t: "Endorsement→更新計画", d: "合格後、5年実務とEndorsementで正式認定。3年ごと120CPE・年会費の維持計画を立てる。" },
+              { n: "STEP 1", t: "8ドメインを体系的に学習", d: "リスク管理・資産・アーキテクチャ・ネットワーク・IAM・運用など8ドメインを公式ガイドで網羅します。" },
+              { n: "STEP 2", t: "CAT形式に対応し合格", d: "適応型試験は実務的な判断を問います。模試で出題傾向に慣れ、最大3時間の集中力も準備します。" },
+              { n: "STEP 3", t: "Endorsement→更新計画", d: "合格後、5年実務とEndorsementで正式認定です。3年ごと120CPE・年会費の維持計画を立てます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -335,7 +335,7 @@ export default function CisspCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">セキュリティ管理職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            CISSPを活かせる管理職・上位セキュリティ求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            CISSPを活かせる管理職・上位セキュリティ求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

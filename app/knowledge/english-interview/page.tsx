@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "英語面接の準備【エンジニア転職／フレーズ例・想定問答】";
 const DESCRIPTION =
-  "エンジニア転職の英語面接を、準備の手順・自己紹介の型・頻出質問の回答フレーズ・コーディング面接で使う英語・聞き返し表現まで実践的に解説。30代40代が英語に自信がなくても乗り切るための準備をまとめます。";
+  "エンジニア転職の英語面接を、準備の手順・自己紹介の型・頻出質問の回答フレーズ・コーディング面接で使う英語・聞き返し表現まで実践的に解説します。30代40代が英語に自信がなくても乗り切るための準備をまとめます。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/english-interview/" },
@@ -83,7 +83,7 @@ const faqs = [
   },
   {
     q: "技術面接も英語の場合、どう準備すればいいですか？",
-    a: "普段カタカナで使う技術用語の英語での読み方・言い回しに慣れておくことが重要です。コーディング面接では、前提確認・方針説明・計算量の説明などを英語で言えるよう、定型フレーズを準備します。考える過程を声に出す（think aloud）文化なので、黙り込まず英語で実況できると評価されます。",
+    a: "普段カタカナで使う技術用語の英語での読み方・言い回しに慣れておくことが重要です。コーディング面接では、前提確認・方針説明・計算量の説明などを英語で言えるよう、定型フレーズを準備します。考える過程を声に出す（think aloud）文化であるため、黙り込まず英語で実況できると評価されます。",
   },
   {
     q: "質問が聞き取れなかったらどうすればいいですか？",
@@ -142,7 +142,7 @@ export default function EnglishInterviewPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】英語に自信がなくても英語面接は乗り切れる？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>結論: 評価されるのは完璧な英語ではなく「技術と経験が論理的に伝わるか」。頻出質問をキーフレーズで準備し、声に出して反復練習するのが最も効果的です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・丸暗記より要点を自分の言葉で話せる状態を目指し、聞き返し・言い直しの表現も用意する</li><li>・技術面接では考える過程を英語で実況（think aloud）できると評価される</li><li>・ミドル層は技術力と実績が土台。英語は「伝われば十分」と割り切って臨む</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・丸暗記より要点を自分の言葉で話せる状態を目指し、聞き返し・言い直しの表現も用意します</li><li>・技術面接では考える過程を英語で実況（think aloud）できると評価されます</li><li>・ミドル層は技術力と実績が土台です。英語は「伝われば十分」と割り切って臨みます</li></ul>
           </div>
         </section>
 

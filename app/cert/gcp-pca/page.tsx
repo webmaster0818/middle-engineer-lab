@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const PAGE_TITLE = "Google Cloud Professional Cloud Architect（PCA）は転職に効くか｜GCP上流設計の証明【2026年】";
 const PAGE_DESC =
-  "Google CloudのProfessional Cloud Architect（PCA）を、30代・40代の経験者向けに解説。受験料200 USD・ケーススタディ形式・有効期限2年、上流設計／基盤アーキ職での評価、年収の考え方を公式情報をもとに限界も含めて整理します。";
+  "Google CloudのProfessional Cloud Architect（PCA）を、30代・40代の経験者向けに解説します。受験料200 USD・ケーススタディ形式・有効期限2年、上流設計／基盤アーキ職での評価、年収の考え方を公式情報をもとに留意点も含めて整理します。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cert/gcp-pca/" },
@@ -41,11 +41,11 @@ const faqs = [
   },
   {
     q: "PCAの合格率はどのくらいですか？",
-    a: "Google Cloudは合格率を公表していません。当サイトでは創作した数値を載せず、非公表である事実をそのままお伝えします。ケーススタディを含む設計判断が問われる難度の高い試験で、対策は実機演習とケース読解が中心になります（Google Cloud、2026年6月時点）。",
+    a: "Google Cloudは合格率を公表していません。当サイトでは創作した数値は掲載せず、非公表である事実をそのままお伝えします。ケーススタディを含む設計判断が問われる難度の高い試験で、対策は実機演習とケース読解が中心になります（Google Cloud、2026年6月時点）。",
   },
   {
     q: "ACEとPCAはどちらを取るべきですか？",
-    a: "現在地と目的で決めます。GCPの実務がこれからの人はACE（アソシエイト）から。すでに設計・基盤の経験があり上流アーキテクトを目指す人はPCA（プロフェッショナル）が適しています。ACEで土台を作りPCAへ進むのが王道のステップアップです。ACE側は当サイトのACEガイドも参照してください。",
+    a: "現在地と目的で決めます。GCPの実務がこれからの人はACE（アソシエイト）から。すでに設計・基盤の経験があり上流アーキテクトを目指す人はPCA（プロフェッショナル）が適しています。ACEで土台を作りPCAへ進むのが一般的なステップアップです。ACE側は当サイトのACEガイドも参照してください。",
   },
   {
     q: "AWSやAzureのアーキ資格とどう使い分けますか？",
@@ -101,14 +101,14 @@ export default function GcpPcaCertPage() {
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          Professional Cloud Architect（PCA）は、Google Cloudの<strong>プロフェッショナル認定で、ビジネス要件をGCPのアーキテクチャへ落とし込む上流設計力を証明</strong>する試験です。本記事は「PCAを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の上位資格』</strong>という観点から、上流・基盤アーキ職での評価、有効期限や更新の仕組みを公式情報とともに整理します。資格単体では年収は跳ねないという限界も正直にお伝えします。
+          Professional Cloud Architect（PCA）は、Google Cloudの<strong>プロフェッショナル認定で、ビジネス要件をGCPのアーキテクチャへ落とし込む上流設計力を証明</strong>する試験です。本記事は「PCAを取れば転職で有利になるか」という疑問に対し、<strong>未経験の入口資格ではなく『経験者の上位資格』</strong>という観点から、上流・基盤アーキ職での評価、有効期限や更新の仕組みを公式情報とともに整理します。資格単体では年収は跳ねないという留意点もご説明します。
         </p>
 
         <DataNote
           surveyedAt="2026年6月"
           sources={[
             "Google Cloud 公式（cloud.google.com/learn/certification）",
-            "本サイト データシート（2026年6月）",
+            "当サイト データシート（2026年6月）",
           ]}
         />
 
@@ -134,9 +134,9 @@ export default function GcpPcaCertPage() {
               PCAは<strong>「クラウド設計経験者の上位資格」</strong>です。入口資格とは性格が異なり、すでに基盤・移行・設計の実務があるミドルが<strong>上流（GCPアーキテクチャ設計）の実力を客観証明</strong>する手段として最も効きます。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>GCP・基盤設計の実務がある30〜40代</strong>：設計力を客観証明し、上流職で加点される</li>
-              <li>② <strong>クラウド未経験のミドル</strong>：難度が高く入口には不向き。まずACEなど基礎から</li>
-              <li>③ <strong>データ基盤・Web系・AI/ML現場志望</strong>：GCP採用が多く、設計力の証明が効きやすい</li>
+              <li>① <strong>GCP・基盤設計の実務がある30〜40代</strong>：設計力を客観証明し、上流職で加点されます</li>
+              <li>② <strong>クラウド未経験のミドル</strong>：難度が高く入口には不向きです。まずACEなど基礎から</li>
+              <li>③ <strong>データ基盤・Web系・AI/ML現場志望</strong>：GCP採用が多く、設計力の証明が効きやすいです</li>
             </ul>
           </div>
         </section>
@@ -171,7 +171,7 @@ export default function GcpPcaCertPage() {
             <ul className="space-y-2 text-sm text-slate-700">
               <li>・クラウドアーキテクト職は高単価傾向（<strong>実務・役割が主因</strong>）</li>
               <li>・PCAは<strong>GCP設計力の客観的な裏づけ</strong>として機能する上位資格</li>
-              <li>・実態：<strong>年収はGCPプロジェクト経験 × 資格の掛け算</strong>で決まる</li>
+              <li>・実態：<strong>年収はGCPプロジェクト経験 × 資格の掛け算</strong>で決まります</li>
             </ul>
           </div>
           <p className="text-xs text-slate-500 leading-relaxed">
@@ -184,10 +184,10 @@ export default function GcpPcaCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">転職で評価される具体場面</h2>
           <div className="space-y-3">
             {[
-              { t: "GCPでのアーキテクチャ設計案件", d: "ビジネス要件をGCP構成へ翻訳する上流設計の素養を、プロフェッショナル認定が客観的に裏づける。" },
-              { t: "クラウド移行・基盤刷新の上流", d: "移行設計やマルチサービス構成の判断力を、ケーススタディ合格という形で示せる。" },
-              { t: "データ基盤・AI/ML案件", d: "GCPが強みを持つデータ分析・機械学習基盤の設計で、GCP設計力の証明として効く。" },
-              { t: "提案・要件定義フェーズの担当", d: "ステークホルダーの要件を技術設計へ落とし込む、上流の役割への適性を示す。" },
+              { t: "GCPでのアーキテクチャ設計案件", d: "ビジネス要件をGCP構成へ翻訳する上流設計の素養を、プロフェッショナル認定が客観的に裏づけます。" },
+              { t: "クラウド移行・基盤刷新の上流", d: "移行設計やマルチサービス構成の判断力を、ケーススタディ合格という形で示せます。" },
+              { t: "データ基盤・AI/ML案件", d: "GCPが強みを持つデータ分析・機械学習基盤の設計で、GCP設計力の証明として効きます。" },
+              { t: "提案・要件定義フェーズの担当", d: "ステークホルダーの要件を技術設計へ落とし込む、上流の役割への適性を示します。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -205,9 +205,9 @@ export default function GcpPcaCertPage() {
           </p>
           <div className="space-y-3">
             {[
-              { t: "クラウドアーキテクト（GCP）", d: "GCP上のアーキテクチャ設計を担う上流職。PCAがそのまま職務に直結する。" },
-              { t: "データ基盤エンジニア／アーキテクト", d: "BigQueryなどGCPのデータ基盤設計に関わる職種で、設計力の裏づけになる。" },
-              { t: "プリセールス・ITコンサル寄り", d: "要件をGCP設計へ翻訳する力が、提案・コンサル領域で評価される。" },
+              { t: "クラウドアーキテクト（GCP）", d: "GCP上のアーキテクチャ設計を担う上流職です。PCAがそのまま職務に直結します。" },
+              { t: "データ基盤エンジニア／アーキテクト", d: "BigQueryなどGCPのデータ基盤設計に関わる職種で、設計力の裏づけになります。" },
+              { t: "プリセールス・ITコンサル寄り", d: "要件をGCP設計へ翻訳する力が、提案・コンサル領域で評価されます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -253,10 +253,10 @@ export default function GcpPcaCertPage() {
             </table>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed mb-3">
-            活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>。運用・構築の経験者が、設計・アーキテクトへ役割を広げたい局面で説得力を持ちます。第二に<strong>GCP強み領域での差別化</strong>。データ分析・AI/MLなどGCPが強い領域の設計案件で、専門性の裏づけになります。第三に<strong>マルチクラウド設計力の証明</strong>。AWSのSAPやAzureのAZ-305と並べることで、複数クラウドの設計力をアピールできます。
+            活用戦略は3つに整理できます。第一に<strong>上流への足がかり</strong>。運用・構築の経験者が、設計・アーキテクトへ役割を広げたい局面で説得力を持ちます。第二に<strong>GCP強み領域での差別化です</strong>。データ分析・AI/MLなどGCPが強い領域の設計案件で、専門性の裏づけになります。第三に<strong>マルチクラウド設計力の証明です</strong>。AWSのSAPやAzureのAZ-305と並べることで、複数クラウドの設計力をアピールできます。
           </p>
           <p className="text-sm text-slate-600 leading-relaxed">
-            正直なデメリットも押さえておきましょう。PCAはケーススタディを含む<strong>難度の高い試験で、実務がないと取得後も活かしきれません</strong>。効果が出るのは「GCPプロジェクト経験 × 資格」が成立したときです。また有効期限が2年と短めで、更新を怠ると失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/cert/gcp-ace/" className="text-petrol hover:underline">Associate Cloud Engineer</Link>から段階的に進むのが堅実です。
+            注意すべきデメリットも押さえておきましょう。PCAはケーススタディを含む<strong>難度の高い試験で、実務がないと取得後も活かしきれません</strong>。効果が出るのは「GCPプロジェクト経験 × 資格」が成立したときです。また有効期限が2年と短めで、更新を怠ると失効します。逆に言えば、すでにクラウド・基盤の現場経験があり上流を目指す30〜40代にとっては、投資する価値が明確な資格です。基礎が不安なら、まず<Link href="/cert/gcp-ace/" className="text-petrol hover:underline">Associate Cloud Engineer</Link>から段階的に進むのが堅実です。
           </p>
         </section>
 
@@ -268,7 +268,7 @@ export default function GcpPcaCertPage() {
               PCAは、入口資格とは立ち位置が逆です。入口資格が「クラウドに入るための入口」なのに対し、PCAは<strong>「すでに現場にいる経験者が、上流の設計へ役割を上げるための加点装置」</strong>として最も効きます。基盤・移行・設計の実務がある30〜40代にとって、これは時間を投資する価値のある資格です。
             </p>
             <p>
-              一方で過度な期待は禁物です。PCAを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のとき。GCPでの設計・移行の実績と組み合わせて初めて、アーキテクト職や高単価案件という形で結実します。難度の高い試験のため、ACEで土台を作ってから挑むのが現実的です。
+              一方で過度な期待は禁物です。PCAを取っても、それ単体で年収が跳ねるわけではありません。価値が出るのは<strong>「実務経験 × 資格」の掛け算</strong>のときです。GCPでの設計・移行の実績と組み合わせて初めて、アーキテクト職や高単価案件という形で結実します。難度の高い試験のため、ACEで土台を作ってから挑むのが現実的です。
             </p>
             <p>
               年代別の市場感は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>、職務経歴書の作り方は<Link href="/knowledge/resume/" className="text-petrol hover:underline">エンジニアの職務経歴書</Link>も合わせてご覧ください。
@@ -281,9 +281,9 @@ export default function GcpPcaCertPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">取得3ステップ／次に狙う資格</h2>
           <div className="space-y-3 mb-6">
             {[
-              { n: "STEP 1", t: "ACEまたは実務で土台を作る", d: "Associate Cloud Engineerや実プロジェクトで、GCP主要サービスと運用の感覚を固める。" },
-              { n: "STEP 2", t: "設計領域とケーススタディ対策", d: "ビジネス要件→アーキテクチャの落とし込みを、公式のケーススタディと実機演習で繰り返す。" },
-              { n: "STEP 3", t: "合格→実務で設計に関与し更新", d: "合格後は実プロジェクトで設計に関与し、有効期限（2年）前に更新試験で資格を維持する。" },
+              { n: "STEP 1", t: "ACEまたは実務で土台を作る", d: "Associate Cloud Engineerや実プロジェクトで、GCP主要サービスと運用の感覚を固めます。" },
+              { n: "STEP 2", t: "設計領域とケーススタディ対策", d: "ビジネス要件→アーキテクチャの落とし込みを、公式のケーススタディと実機演習で繰り返します。" },
+              { n: "STEP 3", t: "合格→実務で設計に関与し更新", d: "合格後は実プロジェクトで設計に関与し、有効期限（2年）前に更新試験で資格を維持します。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -319,7 +319,7 @@ export default function GcpPcaCertPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">クラウド上流・設計職への転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            PCAを活かせるGCPアーキテクト・基盤設計求人を、IT特化型エージェントであなたの市場価値とともに確認しましょう。
+            PCAを活かせるGCPアーキテクト・基盤設計求人を、IT特化型エージェントでご自身の市場価値とともに確認しましょう。
           </p>
           <Link
             href="/#ranking"

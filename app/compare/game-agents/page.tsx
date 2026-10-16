@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/game-agents/" },
   title: "ゲーム業界に強い転職エージェントおすすめ｜選び方【2026年8月】",
   description:
-    "ゲーム業界に強い転職エージェントを、当サイトに実在するサービスから根拠付きで厳選。ゲーム特化のGeekly、IT/Web全般のレバテックキャリア、ベンチャー直応募のGreen、Unityなど職種別の探し方まで、30代40代エンジニア向けに選び方を整理します。",
+    "ゲーム業界に強い転職エージェントを、当サイトに実在するサービスから根拠付きで厳選です。ゲーム特化のGeekly、IT/Web全般のレバテックキャリア、ベンチャー直応募のGreen、Unityなど職種別の探し方まで、30代40代エンジニア向けに選び方を整理します。",
 };
 
 const toc = [
@@ -29,7 +29,7 @@ const services = [
     name: "Geekly（ギークリー）",
     href: "/review/geekly/",
     tag: "ゲーム特化・提案スピード",
-    reason: "IT・Web・ゲーム業界に専門特化するエージェント。ゲーム業界をはっきりと得意領域に掲げている数少ないサービスで、提案スピードが強み。年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報の公表値）、希望職種への定着率97%（二次）を公表。求人は首都圏中心でフルリモート求人もあり。",
+    reason: "IT・Web・ゲーム業界に専門特化するエージェントです。ゲーム業界をはっきりと得意領域に掲げている数少ないサービスで、提案スピードが強みです。年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報の公表値）、希望職種への定着率97%（二次）を公表します。求人は首都圏中心でフルリモート求人もあります。",
     fit: "ゲーム業界に絞ってスピード感を持って転職したい経験者",
   },
   {
@@ -37,7 +37,7 @@ const services = [
     name: "レバテックキャリア",
     href: "/review/levtech/",
     tag: "IT/Web全般・高年収",
-    reason: "IT・Web系全般を扱う大手の正社員転職エージェント。約5万件超（2026年6月時点・複数転職メディア集計）の求人数で母数が大きく、ゲーム関連の開発職も幅広く拾える。高年収求人に強く、利用者の約80%が20〜30代（公式ガイド記事）。ゲーム特化のGeeklyと並べて母数を確保する用途に向く。",
+    reason: "IT・Web系全般を扱う大手の正社員転職エージェントです。約5万件超（2026年6月時点・複数転職メディア集計）の求人数で母数が大きく、ゲーム関連の開発職も幅広く拾えます。高年収求人に強く、利用者の約80%が20〜30代です（公式ガイド記事）。ゲーム特化のGeeklyと並べて母数を確保する用途に向きます。",
     fit: "ゲームに限定せず開発職全般の母数を広げて比較したい人",
   },
   {
@@ -45,7 +45,7 @@ const services = [
     name: "Green",
     href: "/review/green/",
     tag: "ベンチャー・直接やり取り",
-    reason: "エージェントを介さず企業と直接やり取りする成功報酬型の転職サイト。IT/Webベンチャー・スタートアップ・メガベンチャーが得意領域で、ゲーム系スタートアップやベンチャーの開発職を自分のペースで探せる。掲載企業9,000社以上・求人15,000件以上（媒体により幅あり）。仲介サポートは付かないため自分で進める前提。",
+    reason: "エージェントを介さず企業と直接やり取りする成功報酬型の転職サイトです。IT/Webベンチャー・スタートアップ・メガベンチャーが得意領域で、ゲーム系スタートアップやベンチャーの開発職を自分のペースで探せます。掲載企業9,000社以上・求人15,000件以上です（媒体により幅あり）。仲介サポートは付かないため自分で進める前提です。",
     fit: "ゲーム系ベンチャーと直接カジュアルにやり取りしたい人",
   },
   {
@@ -53,7 +53,7 @@ const services = [
     name: "Wantedly",
     href: "/review/wantedly/",
     tag: "カジュアル面談・社風重視",
-    reason: "共感軸の直接応募／ビジネスSNS。スタートアップ・ベンチャーに強く、カジュアル面談で社風・ビジョンを知ってから検討できる。ゲーム系インディー・スタートアップのカルチャーフィットを確かめたいときに有効。ただし給与・待遇は原則非記載のため、年収条件は別途確認が必要。",
+    reason: "共感軸の直接応募／ビジネスSNSです。スタートアップ・ベンチャーに強く、カジュアル面談で社風・ビジョンを知ってから検討できます。ゲーム系インディー・スタートアップのカルチャーフィットを確かめたいときに有効です。ただし給与・待遇は原則非記載のため、年収条件は別途確認が必要です。",
     fit: "ゲーム系スタートアップの文化やビジョンに共感して入りたい人",
   },
 ];
@@ -106,11 +106,11 @@ export default function GameAgentsPage() {
         <section id="conclusion" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：ゲーム業界はどう選ぶか</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6 mb-4">
-            <p className="font-bold text-blue-900 mb-3">先に結論をお伝えします。</p>
+            <p className="font-bold text-blue-900 mb-3">要点は以下のとおりです。</p>
             <ul className="space-y-2 text-sm text-blue-900">
-              <li><strong>・本命は「Geekly」</strong>。IT・Web・ゲーム業界に専門特化し、ゲーム業界を明確に得意領域とする数少ないエージェント。</li>
-              <li><strong>・母数は「レバテックキャリア」で補う</strong>。IT/Web全般を網羅し、開発職全般の求人を幅広く拾える。</li>
-              <li><strong>・ベンチャー・スタートアップは「Green」「Wantedly」</strong>で直接やり取り。文化やビジョンを確かめてから動ける。</li>
+              <li><strong>・本命は「Geekly」</strong>。IT・Web・ゲーム業界に専門特化し、ゲーム業界を明確に得意領域とする数少ないエージェントです。</li>
+              <li><strong>・母数は「レバテックキャリア」で補います</strong>。IT/Web全般を網羅し、開発職全般の求人を幅広く拾えます。</li>
+              <li><strong>・ベンチャー・スタートアップは「Green」「Wantedly」</strong>で直接やり取り。文化やビジョンを確かめてから動けます。</li>
             </ul>
           </div>
           <p className="text-slate-600 leading-relaxed text-sm">いずれも無料です。特化×網羅×直応募を組み合わせ、ゲーム関連求人の母数と質を両取りするのが、限られた時間で動くミドルにとって効率的です。</p>
@@ -122,7 +122,7 @@ export default function GameAgentsPage() {
             {[
               { t: "ゲームを得意領域に掲げているか", d: "「IT全般」ではなく、公式にゲーム業界を得意領域として明示しているかどうか。Geeklyが該当します。" },
               { t: "求人の母数を確保できるか", d: "ゲーム特化だけでは母数が限られる場合があるため、IT/Web全般を網羅する大手で補えるか。" },
-              { t: "ベンチャー・スタートアップに届くか", d: "ゲーム系スタートアップは直接応募型の方が拾いやすい。直接やり取りできるサービスがあるか。" },
+              { t: "ベンチャー・スタートアップに届くか", d: "ゲーム系スタートアップは直接応募型の方が拾いやすいです。直接やり取りできるサービスがあるか。" },
             ].map((c, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-2 text-sm">{c.t}</h3>
@@ -167,9 +167,9 @@ export default function GameAgentsPage() {
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <div className="space-y-4">
               {[
-                { num: "1", title: "Geeklyを軸に据える", desc: "ゲーム業界を得意領域とするGeeklyをメインに、ゲーム関連求人と提案スピードを確保する。" },
-                { num: "2", title: "レバテックキャリアで母数を補う", desc: "ゲーム特化だけでは限られる母数を、IT/Web全般の大手で広げる。開発職全般を比較できる。" },
-                { num: "3", title: "ベンチャーはGreen／Wantedly", desc: "ゲーム系スタートアップは直接応募の方が拾いやすい。文化・ビジョンを確かめてから検討できる。" },
+                { num: "1", title: "Geeklyを軸に据える", desc: "ゲーム業界を得意領域とするGeeklyをメインに、ゲーム関連求人と提案スピードを確保します。" },
+                { num: "2", title: "レバテックキャリアで母数を補う", desc: "ゲーム特化だけでは限られる母数を、IT/Web全般の大手で広げます。開発職全般を比較できます。" },
+                { num: "3", title: "ベンチャーはGreen／Wantedly", desc: "ゲーム系スタートアップは直接応募の方が拾いやすいです。文化・ビジョンを確かめてから検討できます。" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 items-start">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-petrol text-white font-bold text-sm shrink-0">{item.num}</span>
@@ -182,7 +182,7 @@ export default function GameAgentsPage() {
 
         <section id="middle" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
-          <p className="text-slate-600 leading-relaxed mb-4 text-sm">ゲーム業界は技術トレンドの移り変わりが速く、特定エンジン・ジャンルの実務経験が評価されやすい領域です。30代・40代は、これまで積んだ開発経験やリード経験を武器に、得意ジャンルへ移る戦略が現実的です。在職中で時間が限られるミドルにとって、提案スピードが強みのGeeklyは相性が良いと言えます。</p>
+          <p className="text-slate-600 leading-relaxed mb-4 text-sm">ゲーム業界は技術トレンドの移り変わりが速く、特定エンジン・ジャンルの実務経験が評価されやすい領域です。30代・40代は、これまで積んだ開発経験やリード経験を強みに、得意ジャンルへ移る戦略が現実的です。在職中で時間が限られるミドルにとって、提案スピードが強みのGeeklyは相性が良いと言えます。</p>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>30代の場合：</strong>Web/アプリ開発の経験をゲーム関連に活かしやすい年代です。Geeklyを軸に、Unity等のエンジン経験があれば前面に出し、母数はレバテックキャリアで広げましょう。レバテック公表（2025年）では正社員SEで30代約499万円が一つの目安です。</p>
           <p className="text-slate-600 leading-relaxed mb-4 text-sm"><strong>40代の場合：</strong>求人が絞られやすいため、特定ジャンルの開発・マネジメント実績を明確に言語化することが重要です。Geeklyで特化求人、レバテックキャリアで開発職全般、Greenでベンチャーと、複数ルートで母数を確保してください。背景として、経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では2030年に最大約79万人のIT人材不足が見込まれ、経験あるエンジニアの需要は構造的に存在します。</p>
         </section>

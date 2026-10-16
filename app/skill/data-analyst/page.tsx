@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const PAGE_TITLE = "データアナリストの転職完全ガイド｜年収・スキル・データサイエンティストとの違い";
+const PAGE_TITLE = "データアナリストの転職ガイド｜年収・スキル・データサイエンティストとの違い";
 const PAGE_DESC =
-  "データアナリストの転職を2026年最新データで解説。データサイエンティストとの違い（SQL/BIで示唆を出す職 vs モデル構築・研究の職）、必須スキル（SQL・統計・BI）、30代未経験の可否と難易度、ポートフォリオ、キャリアパスを30代・40代向けにまとめました。";
+  "データアナリストの転職を2026年最新データで解説します。データサイエンティストとの違い（SQL/BIで示唆を出す職 vs モデル構築・研究の職）、必須スキル（SQL・統計・BI）、30代未経験の可否と難易度、ポートフォリオ、キャリアパスを30代・40代向けにまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/data-analyst/" },
@@ -29,7 +29,7 @@ const toc = [
 const faqs = [
   {
     q: "データアナリストとデータサイエンティストの違いは何ですか？",
-    a: "ここが最も重要な違いです。データアナリストは、SQLやBIツールを使って既存データから『示唆（インサイト）』を出し、ビジネスの意思決定を支える職です。一方データサイエンティストは、機械学習モデルの構築や統計的な研究・予測に踏み込む、より高度で参入ハードルの高い職です。ざっくり言えば、アナリストは『データから何が言えるかを示す人』、サイエンティストは『モデルを作って予測する人』です。アナリストの方が参入しやすく、未経験からのキャリアチェンジでも現実的な選択肢になります。モデル構築側を目指すなら",
+    a: "ここが最も重要な違いです。データアナリストは、SQLやBIツールを使って既存データから『示唆（インサイト）』を出し、ビジネスの意思決定を支える職です。一方データサイエンティストは、機械学習モデルの構築や統計的な研究・予測に踏み込む、より高度で参入ハードルの高い職です。概要としては、アナリストは『データから何が言えるかを示す人』、サイエンティストは『モデルを作って予測する人』です。アナリストの方が参入しやすく、未経験からのキャリアチェンジでも現実的な選択肢になります。モデル構築側を目指すなら",
     aLink: { href: "/skill/data-scientist/", label: "データサイエンティスト転職ガイド" },
     aTail: "をご覧ください。",
   },
@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     q: "30代・未経験からデータアナリストになれますか？",
-    a: "正直に言うと、ハードルはあります。データアナリスト求人の多くは『即戦力』を求めており、30代未経験者にとってはこの即戦力要求が最大の壁です。ただしdodaやムービンなどには未経験歓迎の特集もあり、前職の業務知識（営業・マーケ・経理など）×データ分析という掛け算なら、若手にはない強みになります。SQLとBIの基礎を固め、自分でデータを分析した成果物を見せられる状態を作るのが現実的な入口です。",
+    a: "実際には、ハードルはあります。データアナリスト求人の多くは『即戦力』を求めており、30代未経験者にとってはこの即戦力要求が最大の壁です。ただしdodaやムービンなどには未経験歓迎の特集もあり、前職の業務知識（営業・マーケ・経理など）×データ分析という掛け算なら、若手にはない強みになります。SQLとBIの基礎を固め、自分でデータを分析した成果物を見せられる状態を作るのが現実的な入口です。",
   },
   {
     q: "データアナリストにSQLは必須ですか？",
@@ -55,15 +55,15 @@ const faqs = [
   },
   {
     q: "40代でもデータアナリストへ転職できますか？",
-    a: "前職の業務ドメイン経験を活かせれば可能性があります。データアナリストは『データから示唆を出してビジネスを動かす』職なので、特定業界の深い理解はむしろ武器になります。レバテック公表の正社員SE年代別平均は40代約618万円で、ミドルでも高年収帯が一定数あります。ただし即戦力要求が強い領域なので、SQL/BIの実務レベルのスキルと分析の成果物をセットで示すことが前提です。",
+    a: "前職の業務ドメイン経験を活かせれば可能性があります。データアナリストは『データから示唆を出してビジネスを動かす』職であるため、特定業界の深い理解はむしろ強みになります。レバテック公表の正社員SE年代別平均は40代約618万円で、ミドルでも高年収帯が一定数あります。ただし即戦力要求が強い領域であるため、SQL/BIの実務レベルのスキルと分析の成果物をセットで示すことが前提です。",
   },
 ];
 
 const skills = [
-  { t: "SQL（必須）", d: "データの抽出・集計の中核。JOINや集計関数、ウィンドウ関数まで使えると実務で困らない。" },
-  { t: "統計の基礎", d: "平均・分散・相関・基本的な検定など。数字を正しく解釈し、誤った断定を避けるために不可欠。" },
-  { t: "BIツール（Tableau / Looker など）", d: "分析結果をダッシュボードで可視化し、関係者に伝える。意思決定を動かす『見せ方』のスキル。" },
-  { t: "ビジネス理解", d: "数字を施策・改善につなげる力。アナリストとサイエンティストを分ける、最も評価される要素。" },
+  { t: "SQL（必須）", d: "データの抽出・集計の中核です。JOINや集計関数、ウィンドウ関数まで使えると実務で困りません。" },
+  { t: "統計の基礎", d: "平均・分散・相関・基本的な検定などです。数字を正しく解釈し、誤った断定を避けるために不可欠です。" },
+  { t: "BIツール（Tableau / Looker など）", d: "分析結果をダッシュボードで可視化し、関係者に伝えます。意思決定を動かす『見せ方』のスキルです。" },
+  { t: "ビジネス理解", d: "数字を施策・改善につなげる力です。アナリストとサイエンティストを分ける、最も評価される要素です。" },
 ];
 
 export default function DataAnalystSkillPage() {
@@ -97,14 +97,14 @@ export default function DataAnalystSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          データアナリストの転職完全ガイド｜年収・スキル・データサイエンティストとの違い
+          データアナリストの転職ガイド｜年収・スキル・データサイエンティストとの違い
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | データアナリストへの転職を30代・40代向けに解説
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          データアナリストへの転職を考えるとき、最初に押さえるべきは<strong>「データサイエンティストとの違い」</strong>です。一言でいえば、データアナリストは<strong>SQLとBIで既存データから示唆を出す職</strong>、データサイエンティストは<strong>機械学習モデルを構築・研究する職</strong>です。アナリストの方が参入しやすく、未経験からのキャリアチェンジでも現実的な選択肢になります。本記事は、すでに公開している
+          データアナリストへの転職を考えるとき、最初に押さえるべきは<strong>「データサイエンティストとの違い」</strong>です。要約すると、データアナリストは<strong>SQLとBIで既存データから示唆を出す職</strong>、データサイエンティストは<strong>機械学習モデルを構築・研究する職</strong>です。アナリストの方が参入しやすく、未経験からのキャリアチェンジでも現実的な選択肢になります。本記事は、すでに公開している
           <Link href="/skill/data-scientist/" className="text-petrol hover:underline">データサイエンティスト転職ガイド</Link>
           と検索意図を明確に分け、「<strong>示唆を出すデータアナリスト</strong>」に焦点を当てて整理します。
         </p>
@@ -136,12 +136,12 @@ export default function DataAnalystSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">結論：データサイエンティストとの違い</h2>
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
             <p className="text-slate-700 leading-relaxed mb-3">
-              先に結論です。データアナリスト転職の核心は、<strong>「モデルを作る競争」ではなく「データから示唆を出してビジネスを動かす力」で勝つこと</strong>です。攻め方は次の3点です。
+              データアナリスト転職の核心は、<strong>「モデルを作る競争」ではなく「データから示唆を出してビジネスを動かす力」で勝つこと</strong>です。進め方は次の3点です。
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
-              <li>① <strong>SQL＋BI（Tableau/Looker）</strong>を実務レベルにし、参入しやすい強みを活かす</li>
-              <li>② <strong>前職の業務ドメイン知識</strong>を掛け合わせ、未経験でも差別化する</li>
-              <li>③ 即戦力要求の壁を、<strong>自分で分析した成果物（ポートフォリオ）</strong>で越える</li>
+              <li>① <strong>SQL＋BI（Tableau/Looker）</strong>を実務レベルにし、参入しやすい強みを活かします</li>
+              <li>② <strong>前職の業務ドメイン知識</strong>を掛け合わせ、未経験でも差別化します</li>
+              <li>③ 即戦力要求の壁を、<strong>自分で分析した成果物（ポートフォリオ）</strong>で越えます</li>
             </ul>
             <p className="text-xs text-slate-600 mt-3">
               モデル構築・研究に踏み込みたい方は
@@ -169,7 +169,7 @@ export default function DataAnalystSkillPage() {
         <section id="skill" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">必須スキル（SQL・統計・BI）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            データアナリストの土台は、SQL・統計・BIツール・ビジネス理解の4つです。特にSQLは必須で、これが入口の壁にも武器にもなります。
+            データアナリストの土台は、SQL・統計・BIツール・ビジネス理解の4つです。特にSQLは必須で、これが入口の壁にも強みにもなります。
           </p>
           <div className="space-y-3">
             {skills.map((x, i) => (
@@ -192,13 +192,13 @@ export default function DataAnalystSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代未経験の可否と難易度</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              正直にお伝えします。<strong>データアナリスト求人の多くは即戦力を求めており、30代未経験者にとってはこの即戦力要求が最大の壁</strong>です。「SQLが書ける」だけでなく「データを使って実際に意思決定を動かした経験」が問われる求人が中心です。
+              ご説明します。<strong>データアナリスト求人の多くは即戦力を求めており、30代未経験者にとってはこの即戦力要求が最大の壁</strong>です。「SQLが書ける」だけでなく「データを使って実際に意思決定を動かした経験」が問われる求人が中心です。
             </p>
             <p>
               一方で、dodaやムービンなどには未経験歓迎の特集もあり、道が閉ざされているわけではありません（2026年6月時点・媒体特集）。鍵は<strong>前職の業務ドメイン知識との掛け算</strong>です。営業・マーケ・経理・製造など、特定業界の数字を理解している人は、データ分析のスキルを足すことで若手にはない価値を出せます。
             </p>
             <p>
-              現実的な進め方は、SQL/BIの基礎を固め、公開データを使って自分で分析した成果物を作ること。未経験からの転職全般は
+              現実的な進め方は、SQL/BIの基礎を固め、公開データを使って自分で分析した成果物を作ることが重要です。未経験からの転職全般は
               <Link href="/knowledge/inexperienced-30s/" className="text-petrol hover:underline">30代未経験からのエンジニア転職</Link>
               も合わせてご覧ください。
             </p>
@@ -212,10 +212,10 @@ export default function DataAnalystSkillPage() {
           </p>
           <div className="space-y-3">
             {[
-              { n: "STEP 1", t: "公開データを選ぶ", d: "政府統計（e-Stat）やKaggleなどの公開データから、自分が興味を持てるテーマを選ぶ。" },
-              { n: "STEP 2", t: "SQL/BIで分析", d: "データを集計・加工し、Tableau/Looker StudioなどのBIで可視化する。" },
-              { n: "STEP 3", t: "示唆を言語化", d: "『このデータから何が言えるか』『どんな施策につながるか』を文章で説明する。ここが最重要。" },
-              { n: "STEP 4", t: "成果物として公開", d: "ダッシュボードと考察をまとめ、誰でも見られる形で公開する。職務経歴書に紐づける。" },
+              { n: "STEP 1", t: "公開データを選ぶ", d: "政府統計（e-Stat）やKaggleなどの公開データから、自分が興味を持てるテーマを選びます。" },
+              { n: "STEP 2", t: "SQL/BIで分析", d: "データを集計・加工し、Tableau/Looker StudioなどのBIで可視化します。" },
+              { n: "STEP 3", t: "示唆を言語化", d: "『このデータから何が言えるか』『どんな施策につながるか』を文章で説明します。ここが最重要です。" },
+              { n: "STEP 4", t: "成果物として公開", d: "ダッシュボードと考察をまとめ、誰でも見られる形で公開します。職務経歴書に紐づけます。" },
             ].map((x, i) => (
               <div key={i} className="flex gap-4 items-start border border-slate-200 rounded-lg p-5">
                 <span className="text-xs font-bold text-petrol shrink-0 w-14 pt-1">{x.n}</span>
@@ -237,9 +237,9 @@ export default function DataAnalystSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル</h2>
           <div className="space-y-3">
             {[
-              { t: "入口層（集計・レポーティング）", d: "SQLでのデータ抽出・集計、BIでの定型レポート作成。基礎が問われるゾーン。" },
-              { t: "中核層（分析・示唆出し）", d: "仮説を立て、データで検証し、施策提案まで行う。ビジネス理解が評価される中核ゾーン。" },
-              { t: "上級層（データ戦略・組織化）", d: "データ活用の仕組みづくり、KPI設計、チームのデータリテラシー向上。マネジメント要素も問われる。" },
+              { t: "入口層（集計・レポーティング）", d: "SQLでのデータ抽出・集計、BIでの定型レポート作成です。基礎が問われるゾーンです。" },
+              { t: "中核層（分析・示唆出し）", d: "仮説を立て、データで検証し、施策提案まで行います。ビジネス理解が評価される中核ゾーンです。" },
+              { t: "上級層（データ戦略・組織化）", d: "データ活用の仕組みづくり、KPI設計、チームのデータリテラシー向上です。マネジメント要素も問われます。" },
             ].map((x, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{x.t}</h3>
@@ -255,7 +255,7 @@ export default function DataAnalystSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データサイエンティスト路線</h3>
               <p className="text-sm text-petrol-deep">
-                Python・機械学習を足し、モデル構築・予測へ踏み込む方向。
+                Python・機械学習を足し、モデル構築・予測へ踏み込む方向です。
                 <Link href="/skill/data-scientist/" className="text-petrol-deep underline ml-1">データサイエンティスト転職ガイド</Link>
                 が次の目標になります。
               </p>
@@ -263,13 +263,13 @@ export default function DataAnalystSkillPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データ基盤エンジニア路線</h3>
               <p className="text-sm text-petrol-deep">
-                分析だけでなくデータ基盤の構築・運用へ広げる方向。SQLとクラウドの知識が活きます。
+                分析だけでなくデータ基盤の構築・運用へ広げる方向です。SQLとクラウドの知識が活きます。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">データ戦略・マネージャー路線</h3>
               <p className="text-sm text-petrol-deep">
-                組織のデータ活用を牽引する方向。ビジネス理解とマネジメント経験のあるミドルに向きます。
+                組織のデータ活用を牽引する方向です。ビジネス理解とマネジメント経験のあるミドルに向きます。
               </p>
             </div>
           </div>
@@ -279,10 +279,10 @@ export default function DataAnalystSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代の視点とデメリット</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 space-y-3 text-sm text-slate-700">
             <p>
-              ミドル層がデータアナリストを目指す最大の武器は、<strong>業務ドメインの深い理解</strong>です。「この数字が現場で何を意味するか」を肌でわかっている人は、技術だけの若手より説得力のある示唆を出せます。これはアナリストという『ビジネスとデータの橋渡し』職で特に効きます。
+              ミドル層がデータアナリストを目指す最大の強みは、<strong>業務ドメインの深い理解</strong>です。「この数字が現場で何を意味するか」を肌で分かっている人は、技術だけの若手より説得力のある示唆を出せます。これはアナリストという『ビジネスとデータの橋渡し』職で特に効きます。
             </p>
             <p>
-              <strong>デメリット・注意点も正直に書きます。</strong>第一に、即戦力要求が強く、30代未経験は壁が高いこと。第二に、年収が媒体間で大きくぶれ、高い数値（約725万円）を鵜呑みにすると期待値を誤ること。第三に、アナリスト止まりだと年収の伸びに限界を感じる場面があり、データサイエンティストやデータ戦略へのステップアップを視野に入れる必要があることです。
+              <strong>デメリット・注意点も記載します。</strong>第一に、即戦力要求が強く、30代未経験は壁が高いことです。第二に、年収が媒体間で大きくぶれ、高い数値（約725万円）を鵜呑みにすると期待値を誤ることが重要です。第三に、アナリスト止まりだと年収の伸びに限界を感じる場面があり、データサイエンティストやデータ戦略へのステップアップを視野に入れる必要があることです。
             </p>
             <p>
               年代別の市場感は
@@ -321,7 +321,7 @@ export default function DataAnalystSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">データアナリストへの転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            データ分析職に強いIT特化型エージェントで、あなたの強みの活かし方を確認しましょう。
+            データ分析職に強いIT特化型エージェントで、ご自身の強みの活かし方を確認しましょう。
           </p>
           <Link
             href="/#ranking"

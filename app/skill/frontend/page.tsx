@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "フロントエンドエンジニア転職完全ガイド【2026年】年収・求人の探し方";
+const TITLE = "フロントエンドエンジニア転職ガイド【2026年】年収・求人の探し方";
 const DESCRIPTION =
-  "フロントエンドエンジニアの転職市場を公表データで解説。求人ボックス・レバテックの年収傾向、React/Vueの求人状況、30代・40代の市場価値、おすすめエージェントを実用的にまとめました。";
+  "フロントエンドエンジニアの転職市場を公表データで解説します。求人ボックス・レバテックの年収傾向、React/Vueの求人状況、30代・40代の市場価値、おすすめエージェントを実用的にまとめました。";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/skill/frontend/" },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "conclusion", label: "結論：フロントエンド転職の攻め方" },
+  { id: "conclusion", label: "結論：フロントエンド転職の進め方" },
   { id: "market", label: "市場・年収データ（公表値）" },
   { id: "level", label: "求められる経験レベル" },
   { id: "career", label: "キャリアパスの選択肢" },
@@ -38,15 +38,15 @@ const salaryRows = [
 const careerPaths = [
   {
     title: "フロントエンドアーキテクト",
-    body: "デザインシステム設計、フロントアーキテクチャ策定、パフォーマンス最適化を担当。大規模SPAの設計経験、アクセシビリティ、テスト戦略の知識が求められ、技術的意思決定を主導する役割です。",
+    body: "デザインシステム設計、フロントアーキテクチャ策定、パフォーマンス最適化を担当します。大規模SPAの設計経験、アクセシビリティ、テスト戦略の知識が求められ、技術的意思決定を主導する役割です。",
   },
   {
     title: "フルスタックエンジニア",
-    body: "Next.js/Nuxtを軸にフロントとバックエンドの両方をカバー。API設計・DB設計・インフラまで一貫して対応できるスキルセットが、特にスタートアップで重宝されます。",
+    body: "Next.js/Nuxtを軸にフロントとバックエンドの両方をカバーします。API設計・DB設計・インフラまで一貫して対応できるスキルセットが、特にスタートアップで重宝されます。",
   },
   {
     title: "フリーランス独立",
-    body: "React/Next.jsのフリーランス案件は単価が高めの傾向（フリーランスボード調査ではフロントエンド案件の月単価約78.8万円・2025年12月）。収入は上がりやすい一方、案件の安定性や福利厚生は自己管理が必要です。",
+    body: "React/Next.jsのフリーランス案件は単価が高めの傾向です（フリーランスボード調査ではフロントエンド案件の月単価約78.8万円・2025年12月）。収入は上がりやすい一方、案件の安定性や福利厚生は自己管理が必要です。",
   },
 ];
 
@@ -109,7 +109,7 @@ export default function FrontendSkillPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">
-          フロントエンドエンジニア転職完全ガイド【2026年】年収・求人の探し方
+          フロントエンドエンジニア転職ガイド【2026年】年収・求人の探し方
         </h1>
         <p className="text-slate-500 text-sm mb-6">
           最終更新: 2026年6月 | React/Vue/Next.js時代のフロントエンド転職を30代・40代向けに解説
@@ -127,14 +127,14 @@ export default function FrontendSkillPage() {
         {/* 結論 */}
         <section id="conclusion" className="mb-10">
           <div className="bg-petrol-soft border border-[var(--line)] rounded-xl p-6">
-            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：フロントエンド転職の攻め方</h2>
+            <h2 className="text-lg font-bold text-blue-900 mb-3">結論：フロントエンド転職の進め方</h2>
             <p className="text-sm text-blue-900 leading-relaxed mb-3">
-              フロントエンドは求人数が多い一方で年収の幅も広い領域です（求人ボックス2025年で平均約549万円・幅326〜997万円）。<strong>「React/Next.js × TypeScript × テスト・設計」を軸に、どの年収帯・どの企業タイプを狙うかを先に決める</strong>のが攻略の前提。求人サイトの件数だけで判断せず、IT特化エージェントで企業の技術文化まで確認するのが効率的です。
+              フロントエンドは求人数が多い一方で年収の幅も広い領域です（求人ボックス2025年で平均約549万円・幅326〜997万円）。<strong>「React/Next.js × TypeScript × テスト・設計」を軸に、どの年収帯・どの企業タイプを狙うかを先に決める</strong>のが攻略の前提です。求人サイトの件数だけで判断せず、IT特化エージェントで企業の技術文化まで確認するのが効率的です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・年収重視なら自社開発・メガベンチャー、裁量重視ならスタートアップ。</li>
+              <li>・年収重視なら自社開発・メガベンチャー、裁量重視ならスタートアップです。</li>
               <li>・30代・40代は「スペシャリスト or フルスタック/リード」の軸を明確に。</li>
-              <li>・エージェントはレバテックキャリア／Green／Geeklyの併用が定番。</li>
+              <li>・エージェントはレバテックキャリア／Green／Geeklyの併用が定番です。</li>
             </ul>
           </div>
         </section>
@@ -189,9 +189,9 @@ export default function FrontendSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">求められる経験レベル（求人要件の傾向）</h2>
           <div className="space-y-3">
             {[
-              ["ジュニア〜ミドル（実務2〜4年）", "HTML/CSS/JS基礎、React/Vueでのコンポーネント実装、API連携。Web制作会社や中小自社開発のモダン化案件で募集が見られる層。"],
-              ["ミドル〜シニア（実務4〜8年）", "TypeScript、状態管理、テスト、パフォーマンス最適化。設計レビューや若手育成も担う、求人母数が最も多い層。"],
-              ["シニア・リード（実務8年〜）", "デザインシステム設計、フロントアーキテクチャ策定、技術選定。アーキテクト・テックリード求人の中心。"],
+              ["ジュニア〜ミドル（実務2〜4年）", "HTML/CSS/JS基礎、React/Vueでのコンポーネント実装、API連携です。Web制作会社や中小自社開発のモダン化案件で募集が見られる層です。"],
+              ["ミドル〜シニア（実務4〜8年）", "TypeScript、状態管理、テスト、パフォーマンス最適化です。設計レビューや若手育成も担う、求人母数が最も多い層です。"],
+              ["シニア・リード（実務8年〜）", "デザインシステム設計、フロントアーキテクチャ策定、技術選定です。アーキテクト・テックリード求人の中心です。"],
             ].map(([level, body], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-800 mb-1 text-sm">{level}</h3>
@@ -226,22 +226,22 @@ export default function FrontendSkillPage() {
           <div className="space-y-4">
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">レバテックキャリア</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web特化でReact/Vue求人が豊富。技術トレンドに詳しいアドバイザーが在籍し、高年収帯のマッチングに強み。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web特化でReact/Vue求人が豊富です。技術トレンドに詳しいアドバイザーが在籍し、高年収帯のマッチングに強みがあります。</p>
               <Link href="/review/levtech/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Green</h3>
-              <p className="text-sm text-slate-600 mb-2">成功報酬型の転職サイト。Web系スタートアップのフロント求人が多く、カジュアル面談で技術文化を事前に確認できる。</p>
+              <p className="text-sm text-slate-600 mb-2">成功報酬型の転職サイトです。Web系スタートアップのフロント求人が多く、カジュアル面談で技術文化を事前に確認できます。</p>
               <Link href="/review/green/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-bold text-slate-800 mb-2">Geekly</h3>
-              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化。メガベンチャーの非公開求人にもアクセスでき、提案スピードが強み。</p>
+              <p className="text-sm text-slate-600 mb-2">IT/Web/ゲーム業界特化です。メガベンチャーの非公開求人にもアクセスでき、提案スピードが強みです。</p>
               <Link href="/review/geekly/" className="text-sm text-petrol hover:underline">詳細レビューを見る →</Link>
             </div>
           </div>
           <p className="text-xs text-slate-500 mt-3">
-            求人母数を最大化したい場合は<Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルートエージェントIT</Link>や<Link href="/review/doda-it/" className="text-petrol hover:underline">doda ITエンジニア</Link>も併用候補。比較は<Link href="/compare/levtech-vs-geekly/" className="text-petrol hover:underline">レバテック vs Geekly</Link>を参照してください。
+            求人母数を最大化したい場合は<Link href="/review/recruit-it/" className="text-petrol hover:underline">リクルートエージェントIT</Link>や<Link href="/review/doda-it/" className="text-petrol hover:underline">doda ITエンジニア</Link>も併用候補です。比較は<Link href="/compare/levtech-vs-geekly/" className="text-petrol hover:underline">レバテック vs Geekly</Link>を参照してください。
           </p>
         </section>
 
@@ -250,10 +250,10 @@ export default function FrontendSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">他職種からの参入ルート</h2>
           <ul className="space-y-2 text-sm text-slate-600">
             {[
-              "バックエンド経験者はTypeScript・API設計の強みを活かし、フルスタック前提で参入する。",
-              "Web制作・コーダー出身者は、React/Vueと状態管理・テストを足してアプリ開発側へ移行する。",
-              "公開ポートフォリオ（Next.js/Nuxt）で、設計・パフォーマンス・アクセシビリティ配慮を見せる。",
-              "いきなり大規模を狙わず、モダン化フェーズの中小プロダクトで実務年数を積む。",
+              "バックエンド経験者はTypeScript・API設計の強みを活かし、フルスタック前提で参入します。",
+              "Web制作・コーダー出身者は、React/Vueと状態管理・テストを足してアプリ開発側へ移行します。",
+              "公開ポートフォリオ（Next.js/Nuxt）で、設計・パフォーマンス・アクセシビリティ配慮を見せます。",
+              "いきなり大規模を狙わず、モダン化フェーズの中小プロダクトで実務年数を積みます。",
             ].map((t, i) => (
               <li key={i} className="flex gap-2">
                 <span className="text-petrol font-bold shrink-0">✓</span>
@@ -282,10 +282,10 @@ export default function FrontendSkillPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">スキルアップ・学習戦略</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
             {[
-              ["コア技術を深める", "React/Vueの内部挙動、レンダリング最適化、状態管理の設計判断を語れるレベルを目指す。"],
-              ["TypeScriptを前提に", "型安全なコンポーネント設計はモダンフロントの標準。型の引き出しを増やす。"],
-              ["品質と速度で差をつける", "テスト（Playwright等）、Core Web Vitals改善、アクセシビリティ対応は具体的な強みになる。"],
-              ["アウトプットを残す", "UIライブラリ公開、技術記事、設計の意思決定ログなど、思考が見える成果物を蓄積する。"],
+              ["コア技術を深める", "React/Vueの内部挙動、レンダリング最適化、状態管理の設計判断を語れるレベルを目指します。"],
+              ["TypeScriptを前提に", "型安全なコンポーネント設計はモダンフロントの標準です。型の引き出しを増やします。"],
+              ["品質と速度で差をつける", "テスト（Playwright等）、Core Web Vitals改善、アクセシビリティ対応は具体的な強みになります。"],
+              ["アウトプットを残す", "UIライブラリ公開、技術記事、設計の意思決定ログなど、思考が見える成果物を蓄積します。"],
             ].map(([t, d], i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-4">
                 <h3 className="font-bold text-slate-800 mb-1">{t}</h3>
@@ -320,7 +320,7 @@ export default function FrontendSkillPage() {
               <ul className="space-y-2 text-sm text-slate-600">
                 {[
                   "技術トレンドの移り変わりの速さが負担に感じる",
-                  "UIより、データ基盤・インフラを主戦場にしたい",
+                  "UIより、データ基盤・インフラを中心に活躍したい",
                   "デザインやブラウザ差異の細かい調整が苦手",
                   "学習時間が取れず、現スタックから動く気がない",
                 ].map((t, i) => (
@@ -359,7 +359,7 @@ export default function FrontendSkillPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">フロントエンドのスキルを活かした転職を相談する</h2>
           <p className="text-blue-100 text-sm mb-4">
-            IT特化型エージェントに登録して、あなたのスキルの市場価値と非公開求人を確認しましょう。
+            IT特化型エージェントに登録して、ご自身のスキルの市場価値と非公開求人を確認しましょう。
           </p>
           <Link
             href="/#ranking"

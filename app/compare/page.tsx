@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/" },
   title: "転職エージェント比較ガイド一覧【目的別・2社比較】",
   description:
-    "ITエンジニア向け転職エージェントの比較記事を一覧化。30代40代向け・ハイクラス・フリーランス・ゲーム/インフラ/AI特化などの目的別おすすめと、レバテックvsリクルートなどの2社直接比較を、出典付きで整理しています。",
+    "ITエンジニア向け転職エージェントの比較記事を一覧化します。30代40代向け・ハイクラス・フリーランス・ゲーム/インフラ/AI特化などの目的別おすすめと、レバテックvsリクルートなどの2社直接比較を、出典付きで整理しています。",
 };
 
 const groups = [
   {
     label: "目的・属性別のおすすめ比較",
-    intro: "「自分の状況」から選ぶための比較。年代・年収帯・働き方・経験で最適なエージェントが変わります。",
+    intro: "「自分の状況」から選ぶための比較です。年代・年収帯・働き方・経験で最適なエージェントが変わります。",
     items: [
       { slug: "agents", name: "総合おすすめエージェント比較" },
       { slug: "30s-agents", name: "30代向けエージェント比較" },
@@ -28,7 +28,7 @@ const groups = [
   },
   {
     label: "領域・タイプ別のおすすめ比較",
-    intro: "「狙う領域・働き方」から選ぶための比較。専門特化のエージェントは領域知識で差が出ます。",
+    intro: "「狙う領域・働き方」から選ぶための比較です。専門特化のエージェントは領域知識で差が出ます。",
     items: [
       { slug: "scout-agents", name: "スカウト型サービス比較" },
       { slug: "freelance-agents", name: "フリーランスエージェント比較" },
@@ -44,7 +44,7 @@ const groups = [
   },
   {
     label: "エージェント2社の直接比較",
-    intro: "候補を2社に絞ったときの「どっちがおすすめ」を、強み・弱み・向き不向きで即答します。",
+    intro: "候補を2社に絞ったときの「どちらがおすすめ」を、強み・弱み・向き不向きで即答します。",
     items: [
       { slug: "levtech-vs-recruit", name: "レバテックキャリア vs リクルートIT" },
       { slug: "levtech-vs-geekly", name: "レバテックキャリア vs Geekly" },
@@ -87,7 +87,7 @@ export default function CompareIndexPage() {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "転職エージェント比較ガイド一覧",
-    description: "目的別おすすめと2社直接比較を分類した一覧ページ。",
+    description: "目的別おすすめと2社直接比較を分類した一覧ページです。",
     url: "https://middle-engineer.com/compare/",
     mainEntity: {
       "@type": "ItemList",
@@ -105,7 +105,7 @@ export default function CompareIndexPage() {
     <>
       <ArticleJsonLd
         title="転職エージェント比較ガイド一覧【目的別・2社比較】"
-        description="目的別おすすめと2社直接比較を分類した一覧ページ。"
+        description="目的別おすすめと2社直接比較を分類した一覧ページです。"
         url="/compare/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />
