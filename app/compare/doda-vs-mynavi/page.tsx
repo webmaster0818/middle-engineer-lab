@@ -119,7 +119,7 @@ export default function DodaVsMynaviPage() {
           <p className="text-slate-600 leading-relaxed mb-4">dodaは総合型ならではの求人量が強みで、IT・通信エンジニア求人5万件超（2026年2月時点・二次経由）を保有します。検索＋エージェント＋スカウトのハイブリッド型で、自分で求人を探すこともアドバイザーに提案してもらうこともできます。好条件求人が多いという評判があり、ハイクラスや地方の求人まで幅広くカバーします。</p>
           <p className="text-slate-600 leading-relaxed mb-4">マイナビIT AGENTは総数の公式値が確認できないため断定は避けますが、IT特化型として20〜30代の若手層向け求人に強みがあります。Web系・SIer・社内SEなどの求人を、IT業界に詳しい担当が選定して提案する設計です。求人の「量」より「マッチングの精度」を強みにするタイプといえます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p><strong>まとめ：</strong>選択肢の広さならdoda、特化した提案の精度ならマイナビIT AGENTが適しています。ハイクラスや地方求人も視野に入れるなら、求人量の多いdodaを軸に据えるのが安全です。<Link href="/compare/agents/" className="text-petrol hover:underline">10社比較</Link>もあわせてご確認ください。</p>
+            <p>選択肢の広さならdoda、特化した提案の精度ならマイナビIT AGENTが適しています。ハイクラスや地方求人も視野に入れるなら、求人量の多いdodaを軸に据えるのが安全です。<Link href="/compare/agents/" className="text-petrol hover:underline">10社比較</Link>もあわせてご確認ください。</p>
           </div>
         </section>
 

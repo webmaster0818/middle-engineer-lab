@@ -17,7 +17,7 @@ const DESCRIPTION =
 
 // H2見出しの目次（アンカー）
 const toc = [
-  { id: "summary", label: "要点：どんな人向けか" },
+  { id: "summary", label: "どんな人に向いているか" },
   { id: "basic", label: "基本データ（2026年6月時点）" },
   { id: "strength", label: "type転職エージェントITの特徴・強み" },
   { id: "results", label: "実績データの読み方（計測期間2021-2022）" },
@@ -194,7 +194,7 @@ export default function TypeAgentReview() {
 
         {/* 要点 */}
         <section id="summary" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">要点：どんな人向けか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">どんな人に向いているか</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3 text-lg">
               「首都圏でIT転職する実務経験者」に向く、丁寧支援型エージェント
@@ -400,7 +400,7 @@ export default function TypeAgentReview() {
               </p>
             </div>
             <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-800 mb-2">市場全体の動向を踏まえる</h3>
+              <h3 className="font-bold text-slate-800 mb-2">市場全体の動向</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 経済産業省「IT人材需給に関する調査」（2019年3月公表の試算）では、2030年に最大約79万人のIT人材不足が見込まれています。
                 首都圏のIT求人需要は底堅く、年収交渉に強いtype転職エージェントITはこの需要を交渉に活かしやすいサービスです。

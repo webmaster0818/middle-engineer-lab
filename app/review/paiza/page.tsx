@@ -17,7 +17,7 @@ const DESCRIPTION =
 
 // H2見出しの目次（アンカー）
 const toc = [
-  { id: "summary", label: "要点：どんな人向けか" },
+  { id: "summary", label: "どんな人に向いているか" },
   { id: "basic", label: "基本データ（2026年6月時点）" },
   { id: "mechanism", label: "スキルチェックとランク制度の仕組み" },
   { id: "strength", label: "paiza転職の特徴・強み" },
@@ -200,7 +200,7 @@ export default function PaizaReview() {
 
         {/* 要点 */}
         <section id="summary" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">要点：どんな人向けか</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">どんな人に向いているか</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="font-bold text-blue-900 mb-3 text-lg">
               「コードで実力を証明したいエンジニア」に向くスカウト型サービス

@@ -131,7 +131,7 @@ export default function FindyVsLevtechPage() {
           <p className="text-slate-600 leading-relaxed mb-4">FindyとレバテックキャリアはともにIT/Webエンジニアを対象としますが、転職の進み方が根本的に違います。Findyはスカウト型です。GitHubアカウントを連携し、公開リポジトリの活動を解析した「スキル偏差値」をもとに、企業から直接スカウトが届きます。プロフィールとコードを整えて待つスタイルで、コードで実力を示せる人ほど有利です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアはエージェント型です。IT業界に精通した専任アドバイザーに希望を伝えると、求人を提案してもらえます。書類添削・面接対策・年収交渉まで一貫して伴走してくれるため、自分で動くのが苦手な人や、選考対策をプロに任せたい人に向きます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>コードで実力を示して「待つ」ならFindy、プロに「伴走してもらう」ならレバテックキャリアが適しています。スカウト型全体の位置づけは<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービスのタイプ別マップ</Link>を、GitHub軸の比較は<Link href="/compare/findy-vs-forkwell/" className="text-petrol hover:underline">Findy vs Forkwell</Link>も参考にしてください。</p>
+            <p className="mb-2">コードで実力を示して「待つ」ならFindy、プロに「伴走してもらう」ならレバテックキャリアが適しています。スカウト型全体の位置づけは<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービスのタイプ別マップ</Link>を、GitHub軸の比較は<Link href="/compare/findy-vs-forkwell/" className="text-petrol hover:underline">Findy vs Forkwell</Link>も参考にしてください。</p>
           </div>
         </section>
 

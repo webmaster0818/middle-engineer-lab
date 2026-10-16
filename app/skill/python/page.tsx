@@ -94,7 +94,7 @@ export default function PythonSkillPage() {
 
         {/* 直答box (柱3/skill転職意図) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
-          <h2 className="text-lg font-bold text-slate-900 mb-2">【要点】Pythonエンジニアへの転職とAI・データ分析での進め方</h2>
+          <h2 className="text-lg font-bold text-slate-900 mb-2">Pythonエンジニアへの転職とAI・データ分析での進め方</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>PythonはWeb（Django/FastAPI）からAI・データ分析まで応用範囲が広く、転職の入り口が多い言語です。年収を伸ばす鍵はAI/ML・データ基盤への展開です。</strong></p>
           <ul className="text-sm leading-7 text-slate-700 space-y-1.5">
             <li>・<strong>難易度</strong>：Web系Pythonの実務経験があれば転職機会は多い傾向にあります。AI/ML領域は専門性で差がつきます。</li>

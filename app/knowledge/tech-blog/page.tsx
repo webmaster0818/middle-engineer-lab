@@ -136,7 +136,7 @@ export default function TechBlogPage() {
           </p>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
             <p className="text-sm text-amber-800">
-              <strong>ミドル層にとっての要点：</strong>30-40代は流行りの入門記事を量産するより、<strong>設計判断・トラブル対応・技術選定を深く掘った1本</strong>の方が評価されます。「車輪の再発明」的な記事ではなく、自分が実際に詰まり、試行錯誤して解いた過程を書きましょう。学習の継続そのものについては<Link href="/knowledge/continuous-learning/" className="text-amber-900 underline">継続的な学習の進め方</Link>も参考になります。
+              30-40代は流行りの入門記事を量産するより、<strong>設計判断・トラブル対応・技術選定を深く掘った1本</strong>の方が評価されます。「車輪の再発明」的な記事ではなく、自分が実際に詰まり、試行錯誤して解いた過程を書きましょう。学習の継続そのものについては<Link href="/knowledge/continuous-learning/" className="text-amber-900 underline">継続的な学習の進め方</Link>も参考になります。
             </p>
           </div>
         </section>

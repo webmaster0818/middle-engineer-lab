@@ -157,7 +157,7 @@ export default function LevtechFreelanceVsFindyFreelancePage() {
           <p className="text-slate-600 leading-relaxed mb-4">手取りに直結する支払いとマージンです。<strong>Findy Freelanceは、企業との直接契約でありながらFindyが請求書発行・報酬回収を代行し、翌月末に支払う</strong>仕組みが公式に案内されています。事務負担を抑えつつ、支払いタイミングが明確な点は独立初期の資金繰りで安心材料になります。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>マージン率は、レバテックフリーランス・Findy Freelanceとも公式に記載がなく非公開です。</strong>そのため、どちらの手取りが多いかを額面で比較することはできません。よく言われる業界相場もあくまで推定であり、確認できません。手取りを最優先するなら、契約前に提示単価と手取りの内訳を必ず確認してください。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p><strong>まとめ：</strong>マージン率は両社とも非公開で、確定値での比較はできません。支払い構造はFindy Freelanceが直接契約＋請求代行（翌月末支払い・公式）と明確です。手取りの多寡は個別案件の提示条件で確認するのが確実です。</p>
+            <p>マージン率は両社とも非公開で、確定値での比較はできません。支払い構造はFindy Freelanceが直接契約＋請求代行（翌月末支払い・公式）と明確です。手取りの多寡は個別案件の提示条件で確認するのが確実です。</p>
           </div>
         </section>
 

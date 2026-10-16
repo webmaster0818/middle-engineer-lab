@@ -137,7 +137,7 @@ export default function LevtechFreelanceVsMidworksPage() {
           <p className="text-slate-600 leading-relaxed mb-4">手取りを左右するマージンは、フリーランスエージェント選びの核心です。<strong>レバテックフリーランスはマージン非公表</strong>で、よく言われる業界相場10〜15%もあくまで推定であり確認できません。透明性という点では物足りなさが残ります。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>Midworksは媒体で約20%という指摘</strong>があり、フリーランスエージェントとしては高めとされます。ただし福利厚生・報酬保障・各種補助といった付帯価値を含めて「実質10〜15%相当」と評価する媒体の見方も併記されており、数字の額面だけでは判断しにくいのが実情です。手取りの最大化を最優先するならマージンの低さ・透明性を重視し、保障の価値を金額換算してどう見るかで判断が変わります。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p><strong>まとめ：</strong>マージンは両社とも「確定額」ではありません。レバテックフリーランスは非公表、Midworksは約20%という媒体指摘＋付帯価値の評価で見方が分かれます。契約前に提示単価と手取りの内訳を必ず確認してください。</p>
+            <p>マージンは両社とも「確定額」ではありません。レバテックフリーランスは非公表、Midworksは約20%という媒体指摘＋付帯価値の評価で見方が分かれます。契約前に提示単価と手取りの内訳を必ず確認してください。</p>
           </div>
         </section>
 

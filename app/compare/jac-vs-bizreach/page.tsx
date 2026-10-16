@@ -131,7 +131,7 @@ export default function JacVsBizreachPage() {
           <p className="text-slate-600 leading-relaxed mb-4">最大の違いは動き方です。ビズリーチは<strong>スカウト型プラットフォーム</strong>で、職務経歴を登録して企業やヘッドハンターからのスカウトを待ちます。自分から探すというより、整えたプロフィールにオファーが集まる構造です。市場価値を客観的に把握しやすい一方、能動的に動かないと進みにくい面があります。</p>
           <p className="text-slate-600 leading-relaxed mb-4">JACリクルートメントは<strong>両面型エージェント</strong>です。1人のコンサルタントが企業側と求職者側の双方を担当するため、企業の採用背景や求める人物像を踏まえた精度の高い提案ができ、推薦から年収交渉まで代行してくれます。「受動型」のビズリーチに対して、JACは「能動型」のサービスといえます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>受け身で市場価値を測るならビズリーチ、能動的に提案と交渉を任せるならJACが適しています。この役割の違いこそが、両者を競合でなく補完にしている理由です。スカウト型の選び方は<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラスIT転職エージェント比較</Link>もあわせてご覧ください。</p>
+            <p className="mb-2">受け身で市場価値を測るならビズリーチ、能動的に提案と交渉を任せるならJACが適しています。この役割の違いこそが、両者を競合でなく補完にしている理由です。スカウト型の選び方は<Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラスIT転職エージェント比較</Link>もあわせてご覧ください。</p>
           </div>
         </section>
 
@@ -140,7 +140,7 @@ export default function JacVsBizreachPage() {
           <p className="text-slate-600 leading-relaxed mb-4">求人数は、二次情報で約21,000件（JAC）対約140,000件（ビズリーチ）という値（いずれも2024年11月時点・二次）があり、母数ではビズリーチが大きく上回ります。幅広い業種を広く見たい段階ではビズリーチの量が有利です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">ただしJACは<strong>「数より質」と非公開求人</strong>に強みがあります。上場企業・外資・管理職といったハイクラス求人の精度が高く、表に出ていない非公開ポジションをコンサル経由で紹介してもらえる点が価値です。求人数の少なさは、裏を返せば絞り込みの精度ともいえます。求人数自体は媒体により割れて確認しづらいため、数値は参考程度に捉えるのが安全です。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>母数の広さならビズリーチ、絞り込んだ質と非公開求人ならJACが適しています。年収帯ごとの相場は<Link href="/compare/salary-ranking/" className="text-petrol hover:underline">年収ランキング</Link>もあわせてご確認ください。</p>
+            <p className="mb-2">母数の広さならビズリーチ、絞り込んだ質と非公開求人ならJACが適しています。年収帯ごとの相場は<Link href="/compare/salary-ranking/" className="text-petrol hover:underline">年収ランキング</Link>もあわせてご確認ください。</p>
           </div>
         </section>
 

@@ -119,7 +119,7 @@ export default function RecruitVsDodaPage() {
           <p className="text-slate-600 leading-relaxed mb-4">リクルートエージェントは国内最大級の求人数が最大の強みです。IT公開求人110,840件に加え、非公開求人101,680件（いずれも2026年5月22日時点・二次集計）を保有し、大手からスタートアップまで網羅します。非公開求人が豊富なため、エージェント経由でしか出会えない案件にアクセスできる点も特徴です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">dodaはIT・通信エンジニア求人5万件超（2026年2月時点・二次経由）を保有し、検索＋エージェント＋スカウトのハイブリッド型である点が特徴です。自分で求人を検索して直接応募することも、アドバイザーに提案してもらうことも、スカウトを待つこともできます。求人量と「探しやすさ」を両立したい人に向きます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p><strong>まとめ：</strong>非公開求人を含む総量の多さならリクルート、自分でも探せる柔軟さならdodaが適しています。なお、いずれも総合型のためIT専門性は<Link href="/compare/levtech-vs-doda/" className="text-petrol hover:underline">IT特化型エージェント</Link>に一歩譲る場面があり、併用が前提になります。</p>
+            <p>非公開求人を含む総量の多さならリクルート、自分でも探せる柔軟さならdodaが適しています。なお、いずれも総合型のためIT専門性は<Link href="/compare/levtech-vs-doda/" className="text-petrol hover:underline">IT特化型エージェント</Link>に一歩譲る場面があり、併用が前提になります。</p>
           </div>
         </section>
 

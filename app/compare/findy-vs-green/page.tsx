@@ -131,7 +131,7 @@ export default function FindyVsGreenPage() {
           <p className="text-slate-600 leading-relaxed mb-4">FindyとGreenは、転職の進み方が根本的に違います。Findyはスカウト型です。GitHubアカウントを連携し、公開リポジトリの活動を解析した「スキル偏差値」と想定年収予測をもとに、独自のAIマッチングで企業からスカウトが届きます。プロフィールとコードを整えて待つスタイルで、コードで実力を示せる人ほど有利です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">Greenは求人サイト型です。IT・IT関連の求人が国内最大級（公式）に掲載され、求職者は気になる求人に自分から直接応募できます。加えて、企業からの直接メッセージやスカウト、興味を伝える「気になる」機能もあり、能動と受動の両方で動けます。自分のペースで幅広く探したい人に向きます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>技術力を示して「待つ」ならFindy、条件の広さから「自分で応募する」ならGreenが適しています。スカウト型全体の位置づけは<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービスのタイプ別マップ</Link>を、GitHub軸の比較は<Link href="/compare/findy-vs-forkwell/" className="text-petrol hover:underline">Findy vs Forkwell</Link>も参考にしてください。</p>
+            <p className="mb-2">技術力を示して「待つ」ならFindy、条件の広さから「自分で応募する」ならGreenが適しています。スカウト型全体の位置づけは<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービスのタイプ別マップ</Link>を、GitHub軸の比較は<Link href="/compare/findy-vs-forkwell/" className="text-petrol hover:underline">Findy vs Forkwell</Link>も参考にしてください。</p>
           </div>
         </section>
 

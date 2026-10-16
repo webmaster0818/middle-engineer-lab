@@ -119,7 +119,7 @@ export default function FindyVsForkwellPage() {
           <p className="text-slate-600 leading-relaxed mb-4">FindyとForkwellの本質的な違いは、「何を見て実力を判断するか」にあります。Findyは登録時にGitHubアカウントを連携し、公開リポジトリの言語・コミット・スター等の活動を解析して「スキル偏差値」を算出します。つまり、日々書いているコードがそのまま評価のものさしになります。普段からGitHubで手を動かしている人ほど有利です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">Forkwellはポートフォリオの作り込みと技術発信、そしてコミュニティ（勉強会200本超）での活動を軸に評価します。GitHubの数値だけでなく、何を考えてどう作ったかという文脈や、技術への向き合い方が伝わりやすい設計です。コードの量より、ポートフォリオで示せる設計力や発信の質を強みにしたい人に向きます。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>GitHubの活動量・コードで評価されたいならFindy、ポートフォリオと発信・学習姿勢で評価されたいならForkwellが適しています。なお、Web全体の発信（Qiita・note・X・connpass）まで含めてAI解析するLAPRASや、コーディングテストで評価する<Link href="/review/paiza/" className="text-petrol hover:underline">paiza</Link>とも評価軸が異なります。<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービスのタイプ別マップ</Link>で全体像を確認すると選びやすくなります。</p>
+            <p className="mb-2">GitHubの活動量・コードで評価されたいならFindy、ポートフォリオと発信・学習姿勢で評価されたいならForkwellが適しています。なお、Web全体の発信（Qiita・note・X・connpass）まで含めてAI解析するLAPRASや、コーディングテストで評価する<Link href="/review/paiza/" className="text-petrol hover:underline">paiza</Link>とも評価軸が異なります。<Link href="/compare/scout-agents/" className="text-petrol hover:underline">スカウト型サービスのタイプ別マップ</Link>で全体像を確認すると選びやすくなります。</p>
           </div>
         </section>
 

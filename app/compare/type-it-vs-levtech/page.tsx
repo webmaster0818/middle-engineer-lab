@@ -130,7 +130,7 @@ export default function TypeItVsLevtechPage() {
           <p className="text-slate-600 leading-relaxed mb-4">type転職エージェントITは、首都圏の成長企業とIT/Web分野に強みを持つとされます。運営は求人メディア「type」等を手がける株式会社キャリアデザインセンターで、首都圏の企業とのつながりを活かした提案が特徴です。一方で地方求人は少なめとされる点（二次情報）は、勤務地の希望次第で確認しておきたいところです。</p>
           <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアはIT・Web領域により特化しているとされ、首都圏中心とされます（いずれも二次情報）。技術スタックを軸に求人を提案してもらいやすく、IT/Webの専門性を重視する人に向くと紹介されています。公開求人は約57,300件（2026年6月時点・二次集計）とされますが、この数値は公式で一次確認できていないため参考値として扱ってください。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>首都圏の成長企業を広く見るならtype、IT/Web特化の専門性で選ぶならレバテックキャリアです。総合的な比較の位置づけは<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント総合比較</Link>、レバテックと他社の比較は<Link href="/compare/levtech-vs-doda/" className="text-petrol hover:underline">レバテック vs doda</Link>も参考にしてください。</p>
+            <p className="mb-2">首都圏の成長企業を広く見るならtype、IT/Web特化の専門性で選ぶならレバテックキャリアです。総合的な比較の位置づけは<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント総合比較</Link>、レバテックと他社の比較は<Link href="/compare/levtech-vs-doda/" className="text-petrol hover:underline">レバテック vs doda</Link>も参考にしてください。</p>
           </div>
         </section>
 

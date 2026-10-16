@@ -129,7 +129,7 @@ export default function ItproVsLevtechFreelancePage() {
           <p className="text-slate-600 leading-relaxed mb-4">この比較で最も重要な軸は稼働日数です。<strong>ITプロパートナーズは週2〜3日・リモートの案件が業界トップクラス</strong>で、少日数案件が3〜4割（2024年7月時点・二次）とされます。本業や自分の事業と並行しやすく、フルコミットではない働き方を作れるのが最大の強みです。</p>
           <p className="text-slate-600 leading-relaxed mb-4"><strong>レバテックフリーランスは週5常駐の高単価案件が中心</strong>で、少日数案件は相対的に少なめです。フルに稼働して収入を最大化する設計のため、すでに独立して稼働を切らさず回せる経験者に向きます。なお「公開案件の約6割が週3日以下」といった割合は媒体によって示され方が異なり、時点や集計でばらつくため、本記事では断定しません。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p><strong>まとめ：</strong>週2〜3日で柔軟に働くならITプロパートナーズ、週5でフルに稼ぐならレバテックフリーランスが適しています。リモート希望なら<Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモート求人に強いエージェント比較</Link>もあわせてご覧ください。</p>
+            <p>週2〜3日で柔軟に働くならITプロパートナーズ、週5でフルに稼ぐならレバテックフリーランスが適しています。リモート希望なら<Link href="/compare/remote-agents/" className="text-petrol hover:underline">リモート求人に強いエージェント比較</Link>もあわせてご覧ください。</p>
           </div>
         </section>
 

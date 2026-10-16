@@ -120,7 +120,7 @@ export default function BizreachVsLevtechPage() {
           <p className="text-slate-600 leading-relaxed mb-4">ビズリーチは累計の導入企業数41,800社以上、登録ヘッドハンター9,700人以上（2025年4月時点・二次集計）という規模で、全業種のハイクラス求人を扱います。年収1,000万円以上の求人が全体の約4割（二次）とされ、求人の「上限の高さ」が際立ちます。求人を探すというより、登録したプロフィールに対してスカウトが集まる構造です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">レバテックキャリアは公開求人約5万件超（2026年5〜6月時点・複数転職メディア集計）をIT/Webに特化して保有し、公開求人の約8割が年収600万円以上（二次情報）と、ボリュームゾーンが高めです。技術職に絞った求人の「密度」が強みで、首都圏中心（二次情報）という地域特性があります。</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 text-sm text-slate-700">
-            <p className="mb-2"><strong>まとめ：</strong>上限の高い求人・幅広い業種ならビズリーチ、IT特化の求人密度ならレバテックキャリアが適しています。地方在住の場合はレバテックが首都圏中心である点に注意し、<Link href="/compare/agents/" className="text-petrol hover:underline">総合型エージェント</Link>の併用も検討しましょう。</p>
+            <p className="mb-2">上限の高い求人・幅広い業種ならビズリーチ、IT特化の求人密度ならレバテックキャリアが適しています。地方在住の場合はレバテックが首都圏中心である点に注意し、<Link href="/compare/agents/" className="text-petrol hover:underline">総合型エージェント</Link>の併用も検討しましょう。</p>
           </div>
         </section>
 

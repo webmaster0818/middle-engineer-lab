@@ -277,7 +277,7 @@ export default function GenerativeAiEraPage() {
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mt-5">
-            <p className="text-sm text-amber-800"><strong>進め方の要点：</strong>30-40代は「若手とAIツールの操作習熟を競う」のではなく、「自分の経験 × AI」で<strong>判断と課題設定の領域を強みにする</strong>のが一般的です。AIを取り入れる柔軟さと、これまでの経験の組み合わせが、最も再現性のある戦略になります。</p>
+            <p className="text-sm text-amber-800">30-40代は「若手とAIツールの操作習熟を競う」のではなく、「自分の経験 × AI」で<strong>判断と課題設定の領域を強みにする</strong>のが一般的です。AIを取り入れる柔軟さと、これまでの経験の組み合わせが、最も再現性のある戦略になります。</p>
           </div>
         </section>
 
