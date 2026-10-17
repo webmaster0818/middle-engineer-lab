@@ -205,6 +205,7 @@ function Footer() {
               <li><a href="/review/mynavi-it/" className="hover:text-petrol transition-colors">マイナビIT AGENT</a></li>
               <li><a href="/review/workport/" className="hover:text-petrol transition-colors">ワークポート</a></li>
               <li><a href="/review/doda-it/" className="hover:text-petrol transition-colors">doda(IT特化)</a></li>
+              <li><a href="/review/techgo/" className="hover:text-petrol transition-colors">テックゴーの評判</a></li>
             </ul>
           </div>
           <div>
