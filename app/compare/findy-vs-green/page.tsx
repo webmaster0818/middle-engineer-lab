@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/findy-vs-green/" },
-  title: "FindyとGreenの比較｜違いとどっちがおすすめ？【2026年8月】",
+  title: "FindyとGreenの比較｜違いとどっちがおすすめ？",
   description:
     "Findy（GitHub技術力評価型のスカウト）とGreen（国内最大級のIT求人×多職種の直接応募/スカウト）を、サービス形態・評価軸・対象・マッチ方式で比較します。技術力で評価されたいか、職種の広さから直接応募したいか、選び方と併用術を出典を明記して解説します。",
 };

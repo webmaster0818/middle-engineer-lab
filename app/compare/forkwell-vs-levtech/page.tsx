@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/forkwell-vs-levtech/" },
-  title: "Forkwellとレバテックキャリアの比較｜どっちがおすすめ？【2026年9月】",
+  title: "Forkwellとレバテックキャリアの比較｜どっちがおすすめ？",
   description:
     "Forkwell(ポートフォリオ×コミュニティのスカウト型)とレバテックキャリア(IT特化の紹介型エージェント)を、動き方・評価軸・求人規模・サポートで比較します。自走で評価されたい人と伴走してほしい人の分岐点、30代40代エンジニアの選び方を解説します。",
 };

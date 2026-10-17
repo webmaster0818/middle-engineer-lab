@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/bizreach-vs-doda-x/" },
-  title: "ビズリーチとdoda X比較｜ハイクラスはどっちがおすすめ【2026年8月】",
+  title: "ビズリーチとdoda X比較｜ハイクラスはどっちがおすすめ",
   description:
     "ビズリーチとdoda X（旧iX転職）のどちらがおすすめかをご説明します。ハイクラススカウト型2社を、料金・求人数・年収レンジ・スカウトの質で時点付き実データで比較します。30代40代エンジニアのハイクラス転職の選び方を解説します。",
 };
@@ -80,7 +80,7 @@ export default function BizreachVsDodaXPage() {
   return (
     <>
       <ArticleJsonLd
-        title="ビズリーチとdoda X比較｜ハイクラスはどっちがおすすめ【2026年8月】"
+        title="ビズリーチとdoda X比較｜ハイクラスはどっちがおすすめ"
         description="ビズリーチとdoda Xのどちらがおすすめかをご説明します。料金・求人数・年収レンジ・スカウトの質を時点付き実データで比較します。"
         url="/compare/bizreach-vs-doda-x/"
       />

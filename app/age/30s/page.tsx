@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/age/30s/" },
-  title: "30代エンジニア転職のガイド｜年収相場と進め方【2026年6月】",
+  title: "30代エンジニア転職のガイド｜年収相場と進め方",
   description:
     "30代エンジニアの転職市場を、レバテック公表の30代平均年収約499万円や経産省のIT人材不足試算などの実データにもとづいて解説します。前半・後半別の戦略、おすすめエージェント、進め方、FAQもまとめています。",
 };
@@ -138,7 +138,7 @@ export default function Age30sPage() {
   return (
     <>
       <ArticleJsonLd
-        title="30代エンジニア転職のガイド｜年収相場と進め方【2026年6月】"
+        title="30代エンジニア転職のガイド｜年収相場と進め方"
         description="30代エンジニアの転職事情を公的統計とエージェント公表値に基づいて解説します。年収相場・市場・前半後半別の戦略・おすすめエージェント・進め方を網羅しています。"
         url="/age/30s/"
       />

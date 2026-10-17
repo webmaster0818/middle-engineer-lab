@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/itpro-vs-levtech-freelance/" },
-  title: "ITプロパートナーズとレバテックフリーランス比較｜副業か常駐か【2026年8月】",
+  title: "ITプロパートナーズとレバテックフリーランス比較｜副業か常駐か",
   description:
     "ITプロパートナーズとレバテックフリーランスを稼働日数・単価・案件量で比較します。週2〜3日の副業・独立準備か、週5常駐の高単価かで選ぶ判断軸、口コミ傾向まで30代40代エンジニア向けに解説します。",
 };

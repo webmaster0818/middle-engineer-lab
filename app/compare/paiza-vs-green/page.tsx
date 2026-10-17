@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/paiza-vs-green/" },
-  title: "paiza転職とGreenの比較｜どっちがおすすめ？【2026年9月】",
+  title: "paiza転職とGreenの比較｜どっちがおすすめ？",
   description:
     "paiza転職(コーディングテスト型・書類選考免除)とGreen(IT/Web特化の成功報酬型転職サイト)を、応募の仕組み・評価軸・求人規模・使い方で比較します。テストで実力を示したい人とカジュアルに接点を増やしたい人の分岐点、30代40代エンジニアの選び方を解説します。",
 };

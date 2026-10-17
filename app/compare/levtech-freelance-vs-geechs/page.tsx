@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/levtech-freelance-vs-geechs/" },
-  title: "レバテックフリーランスとギークスジョブ比較｜どっちがおすすめ【2026年8月】",
+  title: "レバテックフリーランスとギークスジョブ比較｜どっちがおすすめ",
   description:
     "レバテックフリーランスとギークスジョブのどちらがおすすめかをご説明します。ITフリーランス案件エージェント2社を、単価・案件数・リモート比率・福利厚生・マージンについて、時点を明記した実データで比較します。30代40代エンジニアの独立・案件探しの選び方を解説します。",
 };
@@ -81,7 +81,7 @@ export default function LevtechFreelanceVsGeechsPage() {
   return (
     <>
       <ArticleJsonLd
-        title="レバテックフリーランスとギークスジョブ比較｜どっちがおすすめ【2026年8月】"
+        title="レバテックフリーランスとギークスジョブ比較｜どっちがおすすめ"
         description="レバテックフリーランスとギークスジョブのどちらがおすすめかをご説明します。単価・案件数・リモート比率・福利厚生・マージンを、時点を明記した実データで比較します。"
         url="/compare/levtech-freelance-vs-geechs/"
       />

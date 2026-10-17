@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/age/35/" },
-  title: "35歳エンジニア転職は限界？データで検証する突破法【2026年6月】",
+  title: "35歳エンジニア転職は限界？データで検証する突破法",
   description:
     "「35歳エンジニア限界説」は本当なのでしょうか。厚労省SE平均年齢37.1歳や経産省のIT人材不足試算などの実データで検証し、35歳で変わること・変わらないこと、転職戦略、おすすめエージェント、FAQまで解説します。",
 };
@@ -139,7 +139,7 @@ export default function Age35Page() {
   return (
     <>
       <ArticleJsonLd
-        title="35歳エンジニア転職は限界？データで検証する突破法【2026年6月】"
+        title="35歳エンジニア転職は限界？データで検証する突破法"
         description="35歳限界説を公的統計とエージェント公表値で検証します。35歳で変わること・変わらないこと、転職戦略、おすすめエージェント、進め方を解説します。"
         url="/age/35/"
       />

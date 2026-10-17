@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/type-vs-mynavi/" },
-  title: "type転職エージェントITとマイナビIT AGENT比較｜どっちがおすすめ【2026年8月】",
+  title: "type転職エージェントITとマイナビIT AGENT比較｜どっちがおすすめ",
   description:
     "type転職エージェントITとマイナビIT AGENTのどちらがおすすめかをご説明します。年収交渉に強いtypeと若手サポートが手厚いマイナビを、実績・対象層・サポートについて、時点を明記した実データで比較します。30代40代エンジニアの選び方を解説します。",
 };
@@ -80,7 +80,7 @@ export default function TypeVsMynaviPage() {
   return (
     <>
       <ArticleJsonLd
-        title="type転職エージェントITとマイナビIT AGENT比較｜どっちがおすすめ【2026年8月】"
+        title="type転職エージェントITとマイナビIT AGENT比較｜どっちがおすすめ"
         description="type転職エージェントITとマイナビIT AGENTのどちらがおすすめかをご説明します。年収アップ実績・サポート・対応エリア・対象層を、時点を明記した実データで比較します。"
         url="/compare/type-vs-mynavi/"
       />

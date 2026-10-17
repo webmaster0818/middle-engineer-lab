@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/jac-vs-recruit-direct-scout/" },
-  title: "JACリクルートメントとリクルートダイレクトスカウト比較｜どっちがおすすめ【2026年8月】",
+  title: "JACリクルートメントとリクルートダイレクトスカウト比較｜どっちがおすすめ",
   description:
     "JACリクルートメントとリクルートダイレクトスカウトのどちらがおすすめかをご説明します。両面型エージェントとハイクラススカウト型を、仕組み・求人数・年収レンジ・対象層で時点付き実データで比較します。30代40代エンジニアのハイクラス転職の選び方を解説します。",
 };
@@ -80,7 +80,7 @@ export default function JacVsRecruitDirectScoutPage() {
   return (
     <>
       <ArticleJsonLd
-        title="JACリクルートメントとリクルートダイレクトスカウト比較｜どっちがおすすめ【2026年8月】"
+        title="JACリクルートメントとリクルートダイレクトスカウト比較｜どっちがおすすめ"
         description="JACリクルートメントとリクルートダイレクトスカウトのどちらがおすすめかをご説明します。仕組み・求人数・年収レンジ・対象層を時点付き実データで比較します。"
         url="/compare/jac-vs-recruit-direct-scout/"
       />

@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/wantedly-vs-findy/" },
-  title: "WantedlyとFindyの比較｜どっちがおすすめ？【2026年9月】",
+  title: "WantedlyとFindyの比較｜どっちがおすすめ？",
   description:
     "Wantedly(共感軸・カジュアル面談・給与非記載)とFindy(GitHub偏差値のスカウト型)を、評価軸・給与情報の透明性・使い方・対象層で比較します。社風から入りたい人と技術評価で条件から入りたい人の分岐点、30代40代エンジニアの選び方を解説します。",
 };

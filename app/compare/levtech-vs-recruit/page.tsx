@@ -7,7 +7,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/compare/levtech-vs-recruit/" },
-  title: "レバテックキャリアとリクルートエージェントIT比較｜どっちがおすすめ【2026年8月】",
+  title: "レバテックキャリアとリクルートエージェントIT比較｜どっちがおすすめ",
   description:
     "レバテックキャリアとリクルートエージェントITのどちらがおすすめかをご説明します。IT特化型と国内最大級の総合型を、求人数・専門性・サポート・対象層について、時点を明記した実データで比較し、30代40代エンジニアの選び方を解説します。",
 };
@@ -83,7 +83,7 @@ export default function LevtechVsRecruitPage() {
   return (
     <>
       <ArticleJsonLd
-        title="レバテックキャリアとリクルートエージェントIT比較｜どっちがおすすめ【2026年8月】"
+        title="レバテックキャリアとリクルートエージェントIT比較｜どっちがおすすめ"
         description="レバテックキャリアとリクルートエージェントITのどちらがおすすめかをご説明します。求人数・専門性・サポート・対象層を、時点を明記した実データで比較します。"
         url="/compare/levtech-vs-recruit/"
       />

@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import DataNote from "@/components/DataNote";
 
-const TITLE = "カソーク（Kasooku）の評判・口コミは？怪しくない？【2026年7月】副業から転職の仕組みを検証";
+const TITLE = "カソーク（Kasooku）の評判・口コミは？怪しくない？副業から転職の仕組みを検証";
 const DESCRIPTION =
   "カソーク（Kasooku）の評判・口コミと「怪しいのでは」という疑問についてお答えします。上場ユナイテッドグループ運営という実態、副業・複業から相性を見て転職につなげる仕組み、エンジニア案件の有無、料金無料の理由、口コミが少ない点の客観的な評価まで、出典を明記して解説します（2026年7月確認）。";
 const URL = "/review/kasooku/";
