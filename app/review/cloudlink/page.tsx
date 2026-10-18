@@ -487,13 +487,10 @@ export default function CloudLinkReview() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">クラウドリンク（現AIdea Career）に無料相談する</h2>
-          <p className="text-blue-100 text-sm mb-4">
-            まずは無料カウンセリングで、自社内開発への転換が可能か確認してみませんか？
+          <h2 className="text-xl font-bold mb-3">クラウドリンク（現AIdea Career）への相談をご検討の方へ</h2>
+          <p className="text-blue-100 text-sm">
+            旧サイト（cloud-link.co.jp）は2026年10月18日時点で表示できなくなっています。社名変更に伴い公式サイトのURLが変わっているため、「AIdea Career」で検索し、運営会社の公式サイトから無料カウンセリングをお申し込みください。
           </p>
-          <a href="https://cloud-link.co.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
-            無料カウンセリングを予約する
-          </a>
         </section>
 
         {/* 関連記事 */}
