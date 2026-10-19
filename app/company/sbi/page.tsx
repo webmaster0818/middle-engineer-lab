@@ -225,7 +225,7 @@ export default function SbiCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            SBIグループ各社の採用ページで案内されている一般的な流れです。最新の内容は<a href="https://www.sbigroup.co.jp/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">SBIグループ採用ページ</a>でご確認ください。
+            SBIグループ各社の採用ページで案内されている一般的な流れです。最新の内容は<a href="https://www.sbigroup.co.jp/company/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">SBIグループ採用ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考</li>

@@ -484,9 +484,7 @@ export default function TenshokuDraftReview() {
           </p>
           <ul className="text-sm space-y-2 text-slate-600 list-disc pl-5">
             <li>
-              <a href="https://job-draft.jp/articles/191" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
-                転職ドラフトReport（運営リブセンスによる提示年収データ分析記事）
-              </a>
+              転職ドラフトReport（運営リブセンスによる提示年収データ分析記事。2026年10月19日時点で記事が削除されており、リンクを外しています）
             </li>
             <li>
               <a href="https://note.com/uroshi/n/n301ba8f9fa00" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">

@@ -488,13 +488,10 @@ export default function KasookuReview() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
-          <h2 className="text-xl font-bold mb-3">カソークに無料登録する</h2>
-          <p className="text-blue-100 text-sm mb-4">
-            まずは無料登録で、副業・複業から関われるエンジニア案件を確認してみませんか？
+          <h2 className="text-xl font-bold mb-3">カソークの公式サイトについて</h2>
+          <p className="text-blue-100 text-sm">
+            2026年10月18日・19日に当サイトで確認したところ、カソークの公式サイト（kasooku.jp）に接続できませんでした（ドメイン名を解決できない状態です）。サービスの提供状況は運営会社の発表をご確認ください。当サイトでは、接続を確認できるまで登録リンクの掲載を控えています。
           </p>
-          <a href="https://kasooku.jp/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
-            無料で登録する
-          </a>
         </section>
 
         {/* 関連記事 */}

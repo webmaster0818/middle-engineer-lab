@@ -227,7 +227,7 @@ export default function CyberagentCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式採用ページベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            中途採用の選考は、公式採用ページまたは転職エージェント経由での応募からスタートします。公開情報をもとにした一般的な流れは以下のとおりです。最新の選考内容は<a href="https://www.cyberagent.co.jp/careers/midcareer/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式中途採用ページ</a>でご確認ください。
+            中途採用の選考は、公式採用ページまたは転職エージェント経由での応募からスタートします。公開情報をもとにした一般的な流れは以下のとおりです。最新の選考内容は<a href="https://www.cyberagent.co.jp/careers/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式採用情報ページ</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>エントリー（公式採用ページ／エージェント経由）</li>

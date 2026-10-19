@@ -244,7 +244,7 @@ export default function DtsCompanyPage() {
         <section id="flow" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー</h2>
           <p className="text-slate-700 text-sm leading-relaxed mb-4">
-            DTS公式キャリア採用サイトに基づく標準的な流れです。最新の内容は<a href="https://www.dts.co.jp/recruit/career/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式キャリア採用サイト</a>でご確認ください。
+            DTS公式キャリア採用サイトに基づく標準的な流れです。最新の内容は<a href="https://www.dts.co.jp/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式採用情報ページ</a>でご確認ください。
           </p>
           <ol className="space-y-3">
             {[

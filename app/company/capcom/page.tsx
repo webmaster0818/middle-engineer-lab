@@ -223,7 +223,7 @@ export default function CapcomCompanyPage() {
         <section id="flow" className="mb-10">
           <h2 className="text-xl font-bold text-slate-800 mb-4">選考フロー（公式情報ベース）</h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-4">
-            一般的な経験者採用の流れをまとめます。最新かつ職種別の詳細は<a href="https://www.capcom.co.jp/recruit/mid-career/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式経験者採用ページ</a>でご確認ください。
+            一般的な経験者採用の流れをまとめます。最新かつ職種別の詳細は<a href="https://www.capcom.co.jp/recruit/" className="text-petrol hover:underline" target="_blank" rel="noopener noreferrer">公式採用サイト</a>でご確認ください。
           </p>
           <ol className="space-y-2 text-sm text-slate-600 list-decimal list-inside border border-slate-200 rounded-lg p-5">
             <li>書類選考（職務経歴書・ポートフォリオ等）</li>
