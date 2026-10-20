@@ -524,7 +524,7 @@ export default function DodaXReview() {
           </p>
           <ul className="space-y-2 text-sm text-slate-600">
             <li>
-              <a href="https://www.a-tm.co.jp/top/job-change/best-job-change-site/ix-tenshoku/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">イーデス（doda X／旧iX転職の評判・口コミページ）</a>
+              <a href="https://career.a-tm.co.jp/top/job-change/best-job-change-site/ix-tenshoku/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">イーデス（doda X／旧iX転職の評判・口コミページ）</a>
             </li>
             <li>
               <a href="https://minhyo.jp/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">みん評（口コミプラットフォーム・トップ）</a>

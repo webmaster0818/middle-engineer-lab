@@ -488,7 +488,7 @@ export default function WantedlyReview() {
           </p>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="https://www.a-tm.co.jp/top/job-change/best-job-change-site/wantedly/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">イーデス</a>
+              <a href="https://career.a-tm.co.jp/top/job-change/best-job-change-site/wantedly/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">イーデス</a>
               <span className="text-slate-500"> ：Wantedly（ウォンテッドリー）の評判・口コミレビュー</span>
             </li>
             <li>

@@ -344,7 +344,7 @@ export default function LevtechReview() {
           </p>
           <ul className="border border-slate-200 rounded-lg divide-y divide-slate-200 overflow-hidden">
             <li className="px-4 py-3 text-sm">
-              <a href="https://www.a-tm.co.jp/top/job-change/levtech/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+              <a href="https://career.a-tm.co.jp/top/job-change/career-change-it/levtech/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
                 イーデス｜レバテックキャリアの評判・口コミ
               </a>
             </li>

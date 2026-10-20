@@ -504,7 +504,7 @@ export default function PeBankReview() {
                 </a>
               </li>
               <li>
-                <a href="https://www.a-tm.co.jp/top/job-change/career-change-it/pe-bank/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
+                <a href="https://career.a-tm.co.jp/top/job-change/career-change-it/pe-bank/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
                   イーデス転職：PE-BANKの評判・口コミ
                 </a>
               </li>

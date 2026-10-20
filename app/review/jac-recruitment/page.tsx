@@ -356,7 +356,7 @@ export default function JacRecruitmentReview() {
           </p>
           <ul className="border border-slate-200 rounded-lg divide-y divide-slate-200 overflow-hidden">
             <li className="px-4 py-3 text-sm">
-              <a href="https://www.a-tm.co.jp/top/job-change/tenshoku-agent/jac-reviews/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
+              <a href="https://career.a-tm.co.jp/top/job-change/tenshoku-agent/jac-reviews/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
                 イーデス｜JACリクルートメントの評判・口コミ
               </a>
             </li>
