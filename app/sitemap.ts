@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import fs from "node:fs";
 import path from "node:path";
+import pageDates from "@/components/page-dates.json";
 
 const BASE_URL = "https://middle-engineer.com";
 
@@ -21,7 +22,9 @@ function meta(slug: string): { priority: number; changeFrequency: MetadataRoute.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   const appDir = path.join(process.cwd(), "app");
-  const lastModified = new Date();
+  // lastmod はページごとの最終編集日（scripts/gen-page-dates.mjs が git 履歴から生成）。無いものはビルド日
+  const dates = pageDates as Record<string, string>;
+  const buildDate = new Date();
   const slugs = new Set<string>();
 
   function walk(dir: string, prefix: string) {
@@ -48,9 +51,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .sort()
     .map((slug) => {
       const { priority, changeFrequency } = meta(slug);
+      const route = slug ? `/${slug}/` : "/";
       return {
-        url: slug ? `${BASE_URL}/${slug}/` : `${BASE_URL}/`,
-        lastModified,
+        url: `${BASE_URL}${route}`,
+        lastModified: dates[route] ?? buildDate,
         changeFrequency,
         priority,
       };
