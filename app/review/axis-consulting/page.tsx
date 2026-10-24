@@ -43,34 +43,16 @@ const basicData: [string, string][] = [
 
 const goodReviews = [
   {
-    title: "コンサル業界特化の知識と選考対策",
-    body: "イーデスやみん評等の口コミプラットフォームでは、コンサルファーム特有のケース面接やフェルミ推定など、業界に特化した選考対策が具体的で役立ったという傾向の声が見られます。一般的な総合エージェントでは得にくい、ファームごとの傾向に踏み込んだ支援が評価されています。",
-  },
-  {
     title: "サポートが手厚い",
     body: "OpenWork等では、面談から選考、内定後までのサポートが丁寧で、コンサル未経験からの挑戦でも伴走してもらえたという傾向の声が見られます。キャリアチェンジに不安のある層との相性が良いという感想が確認できます。",
-  },
-  {
-    title: "非公開のハイクラス求人に出会える",
-    body: "イーデス等では、非公開求人比率が高く（約77%）、CxO層ネットワークを通じて表に出ないポジションを紹介してもらえたという傾向の声が見られます。コンサル業界・ポストコンサルの選択肢を広げたい層に向いています。",
   },
 ];
 
 const badReviews = [
   {
-    title: "コンサル以外の求人には不向き",
-    body: "コンサル業界に特化しているため、純粋な開発職や事業会社の一般的なエンジニア求人を探す場合は紹介が乏しいと感じたという傾向の声がみん評等で見られます。これは特化型ゆえの構造的な側面です。",
-    cope: "純開発志向ならIT特化エージェント（レバテックキャリア等）が本筋です。アクシスは『コンサル／DX人材へキャリアチェンジしたい』場合に限って使うのが適切です。方向性に迷うなら、まず当サイトの『エンジニアからコンサルへ』の記事で適性を確認することをおすすめします。",
-  },
-  {
     title: "東京中心で地方は選択肢が限られる",
     body: "コンサルファームの求人が東京に集中する性質上、地方在住・地方勤務希望では選択肢が限られると感じたという傾向の声がOpenWork等で見られます。",
     cope: "リモート前提のコンサルポジションを面談で確認するか、地方の事業会社も視野に入れるなら総合型・IT特化型を併用します。",
-  },
-  {
-    title: "経歴次第で断られることがある",
-    body: "コンサル業界はポテンシャルと論理的思考力が問われるため、経歴や年齢、志望動機の整合性次第では紹介が難しいと感じたという傾向の声がイーデス等で見られます。",
-    cope: "なぜコンサル／DXに進みたいのかを、これまでのエンジニア経験と結びつけて言語化しておくことが重要です。面談前に『技術者としての強みをどうコンサルで活かすか』を整理しておくと通過率が上がります。",
   },
 ];
 
@@ -198,9 +180,7 @@ export default function AxisConsultingReview() {
           surveyedAt="2026年6月"
           sources={[
             "アクシスコンサルティング（AXIS Agent）公式",
-            "イーデス",
             "OpenWork",
-            "みん評",
             "厚生労働省 job tag",
             "複数転職メディア集計値",
           ]}
@@ -492,15 +472,9 @@ export default function AxisConsultingReview() {
         <section id="sources" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
           <p className="text-sm text-slate-600 mb-4 leading-relaxed">
-            本記事の「良い評判／悪い評判の傾向」は、以下の口コミ・評判メディアで公開されているアクシスコンサルティング（AXIS Agent）の情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各リンクは2026年7月17日時点で実在を確認しています。
+            本記事の「良い評判／悪い評判の傾向」は、以下のクチコミサイトで公開されているアクシスコンサルティング（AXIS Agent）の情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各リンクは2026年7月17日時点で実在を確認しています。
           </p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li>
-              <a href="https://www.a-tm.co.jp/top/job-change/tenshoku-agent/axis-consulting/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">イーデス（アクシスコンサルティングの評判・口コミページ）</a>
-            </li>
-            <li>
-              <a href="https://minhyo.jp/" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">みん評（口コミプラットフォーム・トップ）</a>
-            </li>
             <li>
               <a href="https://www.openwork.jp/company.php?m_id=a0C30000003CJ1M" target="_blank" rel="nofollow noopener" className="text-petrol-deep underline hover:text-petrol">OpenWork（アクシスコンサルティングの社員クチコミページ）</a>
             </li>

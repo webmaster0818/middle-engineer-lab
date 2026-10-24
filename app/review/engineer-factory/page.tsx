@@ -51,10 +51,6 @@ const goodReviews = [
     title: "幅広い年代・経験に対応してくれる",
     body: "二次情報では、経験の浅い20代から経験豊富な50代まで幅広く対応可能とされ、年代を問わず相談しやすかったという傾向の声があります。取引1,700社以上という案件基盤も選択肢の広さにつながっています。",
   },
-  {
-    title: "提案・サポートが丁寧という声",
-    body: "イーデス等の口コミ系では、希望条件のヒアリングや案件提案が丁寧だったという傾向の声が見られます。エンド直中心ゆえに条件交渉の相談にも乗ってもらえたという感想があります。",
-  },
 ];
 
 const badReviews = [
@@ -200,7 +196,6 @@ export default function EngineerFactoryReview() {
             "エンジニアファクトリー公式（アイムファクトリー株式会社）",
             "サクフリ",
             "ノマド家",
-            "イーデス転職",
             "複数フリーランス系メディア集計値",
           ]}
         />
@@ -466,12 +461,6 @@ export default function EngineerFactoryReview() {
             本記事が傾向としてまとめた口コミ・評判は、以下のメディアの該当ページを参照しています（原文・スコアの転載は行っていません）。詳細は各リンク先をご確認ください。
           </p>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li>
-              ・
-              <a href="https://www.a-tm.co.jp/top/job-change/engineer-factory/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">
-                イーデス｜エンジニアファクトリーの評判・口コミ
-              </a>
-            </li>
             <li>
               ・
               <a href="https://sakufuri.jp/media/engineer-factory/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline">

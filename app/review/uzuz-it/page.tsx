@@ -47,8 +47,8 @@ const goodReviews = [
     body: "talentsquareやキャリア協会等の口コミ系では、1人あたりのサポート時間が一般的な転職エージェントより大幅に長く、面接対策も企業ごとに複数回受けられたという傾向の声が見られます。未経験・社会人経験が浅い20代でも安心して進められたという感想が確認できます。",
   },
   {
-    title: "未経験からのIT就職に強く定着率が高い",
-    body: "イーデス等の口コミ系では、IT基礎の学習コンテンツが用意され、未経験からエンジニア就職を目指せる点が評価されています。入社後定着率97%・内定率86%以上という二次情報もあり、ブラック企業を排除する姿勢も挙げられています。",
+    title: "IT学習コンテンツと合わせて就職を目指せる",
+    body: "イーデスのIT転職ランキング（2026年10月確認）では、ウズキャリが第二新卒・既卒・フリーター向けの就職・転職支援に特化したエージェントとして紹介され、IT学習の「ウズウズカレッジ」もあわせて掲載されています（口コミではなくサービス紹介です）。",
   },
   {
     title: "相談しやすい・近い距離感",
@@ -474,8 +474,8 @@ export default function UzuzItReview() {
               <span className="text-slate-500"> ：ウズキャリ（UZUZ）利用者の口コミ・レビュー</span>
             </li>
             <li>
-              <a href="https://www.a-tm.co.jp/top/other/best-programming-school/uzuz-college/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">イーデス</a>
-              <span className="text-slate-500"> ：ウズウズカレッジ（IT学習コンテンツ）の評判解説</span>
+              <a href="https://career.a-tm.co.jp/top/job-change/career-change-it/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">イーデス</a>
+              <span className="text-slate-500"> ：IT転職ランキング（ウズキャリ・ウズウズカレッジの紹介・2026年10月確認）</span>
             </li>
           </ul>
           <p className="text-xs text-slate-400 mt-3">※外部サイトの内容・URLは変更される場合があります（最終確認：2026年7月）。数値は各サイトの記載時点のものです。</p>
