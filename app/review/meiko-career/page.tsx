@@ -183,7 +183,7 @@ export default function MeikoCareerReview() {
           最終更新: 2026年10月26日 ｜ 明光義塾グループの転職支援サービスを公式一次情報と二次情報で検証
         </p>
         <div className="border border-amber-300 bg-amber-50 rounded-lg p-4 mb-6 text-sm text-slate-700 leading-relaxed">
-          <p className="font-bold mb-1">【お知らせ・2026年10月26日確認】公式サイトは一時停止中です</p>
+          <p className="font-bold mb-1">【お知らせ・2026年10月27日確認】公式サイトは一時停止中です</p>
           <p>
             明光キャリアパートナーズの公式サイトは、2026年10月22日付の告知で「PHPの脆弱性対応に伴うサイト一時停止」としており、全ページの閲覧とお問い合わせ・各種お申し込みフォームが停止しています。再開時期は公式サイトで案内される予定です。
             本記事の内容は停止前（2026年7月）に確認した情報です。お申し込みの際は、公式サイトの再開をご確認ください。
