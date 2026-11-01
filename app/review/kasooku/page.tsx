@@ -490,7 +490,7 @@ export default function KasookuReview() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 mb-10 text-center">
           <h2 className="text-xl font-bold mb-3">カソークの公式サイトについて</h2>
           <p className="text-blue-100 text-sm">
-            2026年10月18日・19日に当サイトで確認したところ、カソークの公式サイト（kasooku.jp）に接続できませんでした（ドメイン名を解決できない状態です）。サービスの提供状況は運営会社の発表をご確認ください。当サイトでは、接続を確認できるまで登録リンクの掲載を控えています。
+            2026年10月18日・19日と11月1日に当サイトで確認したところ、カソークの公式サイト（kasooku.jp）に接続できませんでした（ドメイン名を解決できない状態です。ドメインの登録自体は11月1日時点で有効です）。サービスの提供状況は運営会社の発表をご確認ください。当サイトでは、接続を確認できるまで登録リンクの掲載を控えています。
           </p>
         </section>
 
