@@ -120,7 +120,7 @@ const flow = [
 const faqs = [
   {
     q: "TechReachの運営会社はどこですか？",
-    a: "IT・WEB業界専門で15年以上の実績がある株式会社アールストーンが運営しています。親会社のOrchestra Holdings（オーケストラホールディングス）は東証プライム上場企業です。",
+    a: "株式会社アールストーンが運営しています。同社は2007年10月設立で、IT・WEB・ゲーム業界の転職支援（人材紹介）も行っています。東証プライム上場のOrchestra Holdings（オーケストラホールディングス）のグループ会社です（出典：アールストーン公式「会社概要」https://www.rstone-jp.com/company/ 、2026年11月4日確認）。",
   },
   {
     q: "支払いサイトはどれくらいですか？",
@@ -279,7 +279,7 @@ export default function TechReachReview() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">4. 上場グループの安定基盤</h3>
               <p className="text-sm text-petrol-deep">
-                運営の株式会社アールストーンはIT・WEB業界専門で15年以上の実績があり、親会社のOrchestra Holdingsは東証プライム上場です。大手・メガベンチャーとのパイプが案件の質につながっています。
+                運営の株式会社アールストーンは2007年10月設立で、IT・WEB・ゲーム業界の転職支援も行う人材紹介会社です。東証プライム上場のOrchestra Holdingsのグループ会社です（出典：<a href="https://www.rstone-jp.com/company/" target="_blank" rel="nofollow noopener" className="text-petrol underline hover:no-underline">アールストーン公式「会社概要」</a>、2026年11月4日確認）。公式サイトでは、案件の多くを大手企業やメガベンチャーから直接受注していると案内されています（<a href="https://tech-reach.jp/" target="_blank" rel="nofollow noopener" className="text-petrol underline hover:no-underline">TechReach公式</a>、2026年11月4日確認）。
               </p>
             </div>
           </div>
