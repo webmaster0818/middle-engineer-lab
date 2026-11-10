@@ -256,6 +256,12 @@ export default function PythonSkillPage() {
               <Link href="/review/recruit-it/" className="text-sm text-petrol hover:underline">リクルートエージェントITの詳細レビュー →</Link>
             </div>
           </div>
+          <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-6">
+            <h3 className="font-bold text-slate-800 mb-2">エージェント以外の探し方：Offers（オファーズ）</h3>
+            <p className="text-sm text-slate-600 leading-relaxed mb-2">Offers（オファーズ）は、株式会社overflowが運営するエンジニア・PdM向けの転職プラットフォームです。登録者は40,000人、導入企業数は累計1,000社以上です。スキルや志向性に合ったスカウト・求人の紹介を受けられ、カジュアル面談から転職活動を始められます。職務経歴の整理にはAIを活用した機能も用意されています。</p>
+            <p className="text-sm mb-2"><a href="https://offers.jp/" target="_blank" rel="noopener noreferrer" className="text-petrol hover:underline">Offers 公式サイト →</a></p>
+            <p className="text-xs text-slate-500">出典：Offers 公式サイト（2026年11月10日確認）</p>
+          </div>
           <p className="text-xs text-slate-500 mt-3">
             エージェント各社の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">転職エージェント比較</Link>も参照してください。
           </p>
