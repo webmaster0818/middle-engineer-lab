@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/company/google/" },
-  title: "Google（グーグル）の年収とエンジニア転職【2026年】レベル別給与・選考・技術を解説",
+  title: "Googleエンジニアの年収とレベル｜L3 約1,571万〜L6 約4,105万円（levels.fyi）・転職の選考【2026年】",
   description:
     "Google合同会社（日本法人）へのエンジニア転職を、公式採用情報とlevels.fyi・OpenWork等の集計値をもとに解説します。年収レンジ・選考フロー・面接の特徴・30代40代の現実までまとめました。",
 };
@@ -118,14 +118,14 @@ export default function GoogleCompanyPage() {
           Google Japan（Google合同会社）エンジニア転職ガイド【2026年版】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年10月 ｜ 公式採用情報＋levels.fyi・OpenWork集計値で読み解く外資ITトップ企業
+          最終更新: 2026年11月11日 ｜ 公式採用情報＋levels.fyi・OpenWork集計値で読み解く外資ITトップ企業
         </p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】Google（グーグル）日本法人の年収は？</h2>
           <p className="text-sm leading-7 text-slate-700 mb-3"><strong>Google日本法人は有価証券報告書を公表しておらず公式の平均年収は非公表です。levels.fyi（2026年10月15日時点）のソフトウェアエンジニア総報酬は中央値 約2,560万円が目安です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総報酬の中央値 約2,560万円です（levels.fyi・2026年10月15日時点、日本拠点SWE集計・レベル別52件）。L3 約1,571万円、L6 約4,105万円です。</li><li>・会社全体の平均年収 約1,719万円、開発職 約2,151万円です（OpenWork・社員クチコミ集計）。</li><li>・いずれもユーザー投稿ベースの集計値です。RSU（株式報酬）比率が高く、株価・付与額・入社時期で実受取額は大きく変動します。</li></ul>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・総報酬の中央値 約2,560万円です（levels.fyi・2026年10月15日時点、日本拠点SWE集計・レベル別52件）。L3 約1,571万円、L4 約2,266万円、L5 約3,040万円、L6 約4,105万円です。</li><li>・会社全体の平均年収 約1,719万円、開発職 約2,151万円です（OpenWork・社員クチコミ集計）。</li><li>・いずれもユーザー投稿ベースの集計値です。RSU（株式報酬）比率が高く、株価・付与額・入社時期で実受取額は大きく変動します。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
@@ -252,7 +252,7 @@ export default function GoogleCompanyPage() {
               ・<strong>levels.fyi（2026年10月15日時点・日本拠点のソフトウェアエンジニア集計）</strong>：総報酬の中央値 約2,560万円、L3 約1,571万円、L6 約4,105万円です。基本給＋RSU＋ボーナスの合計値です。
             </li>
             <li>
-              ・<strong>OpenWork（グーグル合同会社・社員クチコミ集計）</strong>：会社全体の平均年収 約1,719万円、開発職 約2,151万円という集計値が公開されています。
+              ・<strong>OpenWork（旧Vorkers・グーグル合同会社の社員クチコミ集計）</strong>：会社全体の平均年収 約1,719万円、開発職 約2,151万円という集計値が公開されています。
             </li>
           </ul>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
