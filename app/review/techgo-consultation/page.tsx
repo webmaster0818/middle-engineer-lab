@@ -54,7 +54,7 @@ const flowSteps = [
   {
     step: "STEP2",
     title: "日程調整の連絡",
-    body: "登録後、日程調整の連絡が来ます。在職中の場合はこの段階で平日夜間・土曜など希望の時間帯を伝えてください。日曜や対面を希望する場合の可否もここで確認できます。",
+    body: "登録後、キャリアアドバイザーから電話またはメールで日程調整の連絡が来ます（公式のよくある質問）。在職中の場合はこの段階で平日夜間・土曜など希望の時間帯を伝えてください。日曜や対面を希望する場合の可否もここで確認できます。",
   },
   {
     step: "STEP3",
@@ -166,13 +166,13 @@ export default function TechgoConsultation() {
           テックゴーの無料キャリア面談とは？流れ・準備・断り方【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年7月 ｜ 公式FAQ・サービスページの記載をもとに面談の実務を解説
+          最終更新: 2026年11月13日 ｜ 公式サービスページの「よくある質問」等の記載をもとに面談の実務を解説
         </p>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
           テックゴー（TechGo・株式会社MyVision運営）のキャリア面談は無料なのか、申し込むと何が起きるのか——。本記事では、テックゴーの無料キャリア面談について「本当に無料である根拠」「申し込みから面談までの流れ」「事前準備」「転職を決めていない場合の利用可否」「断り方」まで、公式サイトの記載を出典として実務目線で解説します。公式に記載のない事項は「明記なし」と区別します。
         </p>
         <DataNote
-          surveyedAt="2026年7月"
+          surveyedAt="2026年11月13日"
           sources={[
             "テックゴー公式サイト（サービス概要・FAQ・利用の流れ）",
             "株式会社MyVision 会社情報",
@@ -222,7 +222,7 @@ export default function TechgoConsultation() {
         {/* 基本データ */}
         <section id="basic" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">
-            テックゴー無料キャリア面談の基本データ（2026年7月時点）
+            テックゴー無料キャリア面談の基本データ（2026年11月13日確認）
           </h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
@@ -239,7 +239,7 @@ export default function TechgoConsultation() {
             </table>
           </div>
           <p className="text-xs text-slate-400 mt-2">
-            ※「公式FAQ」等の注記がある項目はテックゴー公式サイトの記載（2026年7月2日確認）に基づきます。所要時間・服装など公式に明記のない項目は一般的な目安として記載しています。最新情報は公式サイトをご確認ください。
+            ※「公式FAQ」等の注記がある項目はテックゴー公式サイトの記載（サービスページ tech-go.jp/service のよくある質問・会社概要、2026年11月13日確認）に基づきます。所要時間・服装など公式に明記のない項目は一般的な目安として記載しています。最新情報は公式サイトをご確認ください。
           </p>
         </section>
 
