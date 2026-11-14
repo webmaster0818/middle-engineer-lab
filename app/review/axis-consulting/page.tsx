@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "アクシスコンサルティングの評判｜エンジニアのコンサル転職";
 const DESCRIPTION =
-  "アクシスコンサルティング（AXIS Agent）の評判・口コミを30代40代エンジニア目線で検証します。コンサル業界特化の強み、非公開求人約77%、ITコンサル・PM・DXへのキャリアチェンジ用途、純開発志向には不向きな点までデータと出典を明記して解説します。";
+  "アクシスコンサルティング（AXIS Agent）の評判・口コミを30代40代エンジニア目線で検証します。コンサル業界特化の強み、非公開求人約78%、ITコンサル・PM・DXへのキャリアチェンジ用途、純開発志向には不向きな点までデータと出典を明記して解説します。";
 const URL = "/review/axis-consulting/";
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const toc = [
   { id: "summary", label: "要点（どんな人向けか）" },
-  { id: "basic", label: "基本データ表（2026年6月時点）" },
+  { id: "basic", label: "基本データ表（2026年11月14日確認）" },
   { id: "scope", label: "コンサル特化＝純開発志向には不向き" },
   { id: "strength", label: "特徴・強み" },
   { id: "good", label: "良い評判の傾向" },
@@ -34,7 +34,8 @@ const basicData: [string, string][] = [
   ["運営会社", "アクシスコンサルティング株式会社（2002年設立・2023年東証グロース上場）"],
   ["サービス名", "AXIS Agent（旧称：アクシスコンサルティング）"],
   ["サービス類型", "コンサル業界特化の転職エージェント（CxO層ネットワーク）"],
-  ["非公開求人比率", "約77%（公開総数は確認不可）"],
+  ["非公開求人比率", "約78%（公式トップ・2026年11月14日確認／公開求人の総数は記載なし）"],
+  ["支援実績（公式）", "創業から20年間で現役コンサルタント10,000人以上・転職志望者約100,000名を支援／BIG4コンサルタントの3人に1人が登録（2026年5月時点）"],
   ["対象", "コンサルファーム転職／ポストコンサル／IT・DXコンサル／CxO"],
   ["得意領域", "コンサル業界の知識・選考対策、非公開ハイクラス求人"],
   ["対応エリア", "東京中心（二次情報）"],
@@ -85,7 +86,7 @@ const flow = [
   {
     step: "STEP3",
     title: "求人紹介・応募",
-    body: "非公開求人（比率約77%）を含むコンサル・ポストコンサル求人の紹介を受け、応募先を決定します。ファームごとの特徴の説明を受けてから選べます。",
+    body: "非公開求人（比率約78%）を含むコンサル・ポストコンサル求人の紹介を受け、応募先を決定します。ファームごとの特徴の説明を受けてから選べます。",
   },
   {
     step: "STEP4",
@@ -114,7 +115,7 @@ const faqs = [
   },
   {
     q: "非公開求人はどのくらいありますか？",
-    a: "非公開求人の比率は約77%とされています（公開求人の総数は確認不可）。CxO層ネットワークを通じて、表に出ないコンサル・ポストコンサルのハイクラス求人を扱う点が特徴です。",
+    a: "非公開求人の比率は約78%とされています（公開求人の総数は確認不可）。CxO層ネットワークを通じて、表に出ないコンサル・ポストコンサルのハイクラス求人を扱う点が特徴です。",
   },
   {
     q: "地方在住でも使えますか？",
@@ -171,13 +172,13 @@ export default function AxisConsultingReview() {
           アクシスコンサルティング（AXIS Agent）の評判・口コミ【エンジニアのコンサル転職】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ コンサル業界特化エージェントの実力を口コミの傾向と公開データで検証
+          最終更新: 2026年11月14日 ｜ コンサル業界特化エージェントの実力を口コミの傾向と公開データで検証
         </p>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
           アクシスコンサルティング（サービス名：AXIS Agent）は、コンサル業界に特化した転職エージェントです。CxO層ネットワークを背景に、コンサルファーム転職・ポストコンサル・IT／DXコンサル・CxOポジションを扱います。本記事では「評判・口コミ」を口コミプラットフォームの傾向と公開データに基づき、コンサルへのキャリアチェンジを考える30代・40代エンジニア視点で整理します。架空の体験談は掲載せず、出典のある情報のみを扱います。
         </p>
         <DataNote
-          surveyedAt="2026年6月"
+          surveyedAt="2026年11月14日"
           sources={[
             "アクシスコンサルティング（AXIS Agent）公式",
             "OpenWork",
@@ -194,7 +195,7 @@ export default function AxisConsultingReview() {
               <span className="font-bold">総合評価：エンジニアから「ITコンサル・PM・DX人材」へキャリアチェンジしたい30〜40代に有効です</span>。要約すると「技術力を土台に、上流・経営に近い立場へ進みたい」人向けのエージェントです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・コンサル業界特化の選考対策（ケース面接等）とCxO層ネットワークが強みです。非公開求人比率は約77%です。</li>
+              <li>・コンサル業界特化の選考対策（ケース面接等）とCxO層ネットワークが強みです。非公開求人比率は約78%です。</li>
               <li>・年収を一段上げる手段としてのコンサル転身と相性が良いといえます。サポートが手厚い点が特徴です。</li>
               <li>・<span className="font-bold">純粋な開発職にこだわる人には不向き</span>。コンサル以外・地方中心・経歴次第で断られる点に注意が必要です。</li>
             </ul>
@@ -218,7 +219,7 @@ export default function AxisConsultingReview() {
         {/* 基本データ */}
         <section id="basic" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">
-            基本データ表（2026年6月時点）
+            基本データ表（2026年11月14日確認）
           </h2>
           <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
             <table className="w-full text-sm">
@@ -237,7 +238,7 @@ export default function AxisConsultingReview() {
             </table>
           </div>
           <p className="text-xs text-slate-400 mt-2">
-            ※非公開求人比率約77%は二次情報で、公開求人の総数は確認不可です。対応エリアの東京中心も二次情報です。社名・サービス名（アクシスコンサルティング／AXIS Agent）は併記しています。
+            ※非公開求人比率約78%と支援実績は公式トップの記載です（2026年11月14日確認）。公開求人の総数は公式に記載がありません。設立（2002年）・上場（2023年3月28日 東証グロース）は日本取引所グループの上場資料によります。対応エリアの東京中心も二次情報です。社名・サービス名（アクシスコンサルティング／AXIS Agent）は併記しています。
           </p>
         </section>
 
@@ -274,7 +275,7 @@ export default function AxisConsultingReview() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. CxO層ネットワークと非公開求人</h3>
               <p className="text-sm text-petrol-deep">
-                CxO層とのネットワークを背景に、非公開求人比率は約77%です。表に出ないコンサル・ポストコンサルのハイクラスポジションを扱い、選択肢を広げられます。
+                CxO層とのネットワークを背景に、非公開求人比率は約78%です。表に出ないコンサル・ポストコンサルのハイクラスポジションを扱い、選択肢を広げられます。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
