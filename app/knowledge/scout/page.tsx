@@ -31,7 +31,7 @@ const mechanisms = [
     name: "ビズリーチ",
     href: "/review/bizreach-it/",
     body:
-      "登録者の職務経歴を見たヘッドハンターや企業から直接スカウトが届く、ハイクラス・スカウト型です。登録ヘッドハンターは9,700人以上、登録者は282万人とされています（2025年4月時点・二次）。年収1,000万円以上の求人が全体の約4割を占めます（二次）。無料会員でもスカウトは受け取れますが、一部機能は有料プラン（Web決済5,478円/月・2022年11月改定・二次）が前提です。通常スカウトに加え、企業の本気度が高い「プラチナスカウト」があります。",
+      "登録者の職務経歴を見たヘッドハンターや企業から直接スカウトが届く、ハイクラス・スカウト型です。登録ヘッドハンターは9,500人以上です（2026年7月末時点・公式）。年収1,000万円以上の求人が5割以上を占めます（2026年1月末時点・公式）。無料会員でもスカウトは受け取れますが、一部機能は有料プラン（Web決済5,478円/月・2022年11月改定・二次）が前提です。通常スカウトに加え、企業の本気度が高い「プラチナスカウト」があります。",
   },
   {
     name: "Green",
@@ -92,7 +92,7 @@ const faqs = [
   },
   {
     q: "どのスカウト型サービスに登録すべき？",
-    a: "経験豊富でハイクラス志向なら年収1,000万円以上求人が全体の約4割（二次）のビズリーチ、ベンチャー・直接やり取り志向ならGreen、コードの実力で評価されたいならpaiza転職が向きます。特性が異なるため、複数併用して反応を見るのがおすすめです。",
+    a: "経験豊富でハイクラス志向なら年収1,000万円以上の求人が5割以上（2026年1月末時点・公式）のビズリーチ、ベンチャー・直接やり取り志向ならGreen、コードの実力で評価されたいならpaiza転職が向きます。特性が異なるため、複数併用して反応を見るのがおすすめです。",
   },
   {
     q: "スカウトとエージェントは併用すべき？",
@@ -143,7 +143,7 @@ export default function ScoutPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】スカウト型サービスはどう使い分ける？</h2>
             <p className="text-sm leading-7 text-slate-700 mb-3"><strong>プロフィールを技術名と数値で作り込み、届いたスカウトを見極めて返信することで価値が出ます。サービスごとに仕組みが違うため、使い分けが鍵です。</strong></p>
-            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ハイクラス志向はビズリーチ（年収1,000万円以上求人が全体の約4割・二次）</li><li>・ベンチャー・直接やり取り志向はGreen（カジュアル面談中心）</li><li>・実力で評価されたいならpaiza転職（スキルチェックのランク）</li></ul>
+            <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・ハイクラス志向はビズリーチ（年収1,000万円以上の求人が5割以上・2026年1月末時点・公式）</li><li>・ベンチャー・直接やり取り志向はGreen（カジュアル面談中心）</li><li>・実力で評価されたいならpaiza転職（スキルチェックのランク）</li></ul>
           </div>
         </section>
 
@@ -178,7 +178,7 @@ export default function ScoutPage() {
               スカウトは「届くのを待つ」だけでなく、<strong>プロフィールを技術名と数値で作り込み、届いたスカウトを見極めて返信する</strong>ことで価値が出ます。サービスごとに仕組みが違うので使い分けが鍵です。
             </p>
             <ul className="text-sm text-blue-900 space-y-1.5">
-              <li>・ハイクラス志向：<Link href="/review/bizreach-it/" className="font-semibold underline">ビズリーチ</Link>（年収1,000万以上求人が約4割・二次）</li>
+              <li>・ハイクラス志向：<Link href="/review/bizreach-it/" className="font-semibold underline">ビズリーチ</Link>（年収1,000万円以上の求人が5割以上・2026年1月末時点・公式）</li>
               <li>・ベンチャー・直接やり取り：<Link href="/review/green/" className="font-semibold underline">Green</Link>（カジュアル面談中心）</li>
               <li>・実力で評価されたい：<Link href="/review/paiza/" className="font-semibold underline">paiza転職</Link>（スキルチェックのランク）</li>
             </ul>
@@ -219,7 +219,7 @@ export default function ScoutPage() {
                     <Link href="/review/bizreach-it/" className="text-petrol hover:underline">ビズリーチ</Link>
                   </td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">ハイクラス・スカウト型</td>
-                  <td className="border border-slate-200 px-4 py-3 text-slate-600">年収1,000万円以上求人が全体の約4割（二次）。一部機能は有料プラン前提（5,478円/月・二次）</td>
+                  <td className="border border-slate-200 px-4 py-3 text-slate-600">年収1,000万円以上の求人が5割以上（2026年1月末時点・公式）。一部機能は有料プラン前提（5,478円/月・二次）</td>
                   <td className="border border-slate-200 px-4 py-3 text-slate-600">経験豊富な40代</td>
                 </tr>
                 <tr className="bg-slate-50">
@@ -315,7 +315,7 @@ export default function ScoutPage() {
               30代・40代は在職中の活動が多く、自分から大量応募する時間が取りにくいため、スカウト型は相性が良い手段です。プロフィールを作り込んでおけば、本業をこなしながら市場の反応を受け取れます。
             </p>
             <p>
-              40代はマネジメント経験や専門領域が評価軸になります。ビズリーチは年収1,000万円以上求人が全体の約4割（二次）で、レバテック公表値では正社員SE 40代の平均年収は約618万円・年収1,000万円以上の割合は12.67%（2025年・ガイド記事）です。スカウトで複数の打診を受けておくと、年収交渉の材料にもなります。なお経歴次第ではスカウトが来ない場合もある（二次）ため、エージェントと併用して情報の偏りを補うのが安全です。
+              40代はマネジメント経験や専門領域が評価軸になります。ビズリーチは年収1,000万円以上の求人が5割以上（2026年1月末時点・公式）で、レバテック公表値では正社員SE 40代の平均年収は約618万円・年収1,000万円以上の割合は12.67%（2025年・ガイド記事）です。スカウトで複数の打診を受けておくと、年収交渉の材料にもなります。なお経歴次第ではスカウトが来ない場合もある（二次）ため、エージェントと併用して情報の偏りを補うのが安全です。
             </p>
             <p>
               年代別の実態は<Link href="/age/30s/" className="text-petrol hover:underline">30代の転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代の転職</Link>も参考にしてください。

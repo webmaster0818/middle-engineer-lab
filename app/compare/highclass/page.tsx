@@ -18,8 +18,8 @@ const agents = [
     href: "/review/bizreach-it/",
     type: "ハイクラス",
     company: "株式会社ビズリーチ（ビジョナルグループ・東証プライム上場）",
-    scale: "登録者282万人・ヘッドハンター9,700人以上・導入企業41,800社以上（累計・2025年4月時点・二次）",
-    salary: "ハイクラス定義は年収750万円以上（二次）／年収1,000万円以上求人が全体の約4割（二次）",
+    scale: "ヘッドハンター9,500人以上・導入企業45,800社以上（累計・2026年7月末時点・公式）",
+    salary: "ハイクラス定義は年収750万円以上（二次）／年収1,000万円以上の求人が5割以上（2026年1月末時点・公式）",
     area: "全国",
     point:
       "ハイクラス転職の中心となるスカウト型です。CTO/VPoE/EM・外資系・管理職に強く、経歴を登録しておくとヘッドハンターや企業から直接スカウトが届きます。市場価値を客観的に測る用途にも適します。",
@@ -212,7 +212,7 @@ export default function HighclassPage() {
           <div className="bg-petrol-soft border-l-4 border-petrol rounded-r-lg p-5">
             <h2 className="text-lg font-bold text-blue-900 mb-2 not-prose">ハイクラスはビズリーチ中心＋レバテック/リクルートITの併用</h2>
             <ul className="text-sm text-blue-900 leading-relaxed space-y-1 list-disc pl-5">
-              <li>軸は<strong>ビズリーチ</strong>です。ハイクラスの定義は年収750万円以上で、年収1,000万円以上の求人が全体の約4割とされています（二次）。経歴を登録して直接スカウトを受けます。</li>
+              <li>軸は<strong>ビズリーチ</strong>です。ハイクラスの定義は年収750万円以上で、年収1,000万円以上の求人が5割以上と公式に記載されています（2026年1月末時点）。経歴を登録して直接スカウトを受けます。</li>
               <li>能動的に探す軸として<strong>レバテックキャリア</strong>（高年収求人比率が高い）、求人量補完に<strong>リクルートエージェントIT</strong>を併用します。</li>
               <li>スカウトの数と質は職務経歴書で決まります。年収・成果の数値化、意思決定の実績、技術キーワード、定期更新が重要です。</li>
             </ul>
@@ -296,7 +296,7 @@ export default function HighclassPage() {
         <section id="definition" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">ITハイクラス転職とは（年収750万円以上の定義）</h2>
           <p className="text-slate-600 leading-relaxed mb-3">
-            「ハイクラス転職」に厳密な公的定義はありませんが、目安として広く使われるのが年収750万円以上のラインです。ビズリーチはハイクラスを年収750万円以上と位置づけており（二次情報）、同サービスでは年収1,000万円以上の求人が全体の約4割を占めるとされます（二次情報）。
+            「ハイクラス転職」に厳密な公的定義はありませんが、目安として広く使われるのが年収750万円以上のラインです。ビズリーチはハイクラスを年収750万円以上と位置づけており（二次情報）、同サービスでは年収1,000万円以上の求人が5割以上と公式に記載されています（2026年1月末時点）。
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mb-4">
             <h3 className="font-bold text-slate-700 mb-2 text-sm">年代別の到達率（レバテック公表・2025年）</h3>

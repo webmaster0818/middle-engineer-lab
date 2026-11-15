@@ -393,7 +393,7 @@ export default function TokyoAreaPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">ビズリーチ（ハイクラス・スカウト型）</h3>
               <p className="text-sm text-petrol-deep leading-relaxed">
-                年収750万円以上をハイクラスと位置づけるスカウト型サービスです。年収1,000万円以上の求人が全体の約4割（二次情報）とされ、外資・管理職に強いとされます。CTOやVPoEなど上位ポジションを狙う層に適しています。
+                年収750万円以上をハイクラスと位置づけるスカウト型サービスです。年収1,000万円以上の求人が5割以上（2026年1月末時点・公式）とされ、外資・管理職に強いとされます。CTOやVPoEなど上位ポジションを狙う層に適しています。
                 <Link href="/review/bizreach-it/" className="underline ml-1">詳細レビュー</Link>
               </p>
             </div>
