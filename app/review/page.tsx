@@ -22,7 +22,7 @@ const categories = [
       { slug: "recruit-it", name: "リクルートエージェントIT", desc: "国内最大級の求人量と非公開求人" },
       { slug: "workport", name: "ワークポート", desc: "全国対応で未経験歓迎求人も多い総合型" },
       { slug: "type-agent", name: "type転職エージェントIT", desc: "首都圏のIT/Web求人と年収交渉に注力" },
-      { slug: "cloudlink", name: "クラウドリンク（現AIdea Career）", desc: "自社内開発求人100%、SES脱出に特化" },
+      { slug: "cloudlink", name: "クラウドリンク（現AIdea Career）", desc: "AI・IT/機電エンジニア専門、審査を通過した求人のみ紹介" },
       { slug: "willof-tech", name: "ウィルオブテック", desc: "上場ウィルグループ運営。専属2名体制で年収アップを支援する経験者向けサービス" },
       { slug: "techclips", name: "TechClips", desc: "自社開発企業100%・年収500万円以上に特化。首都圏向け" },
       { slug: "unison-career", name: "ユニゾンキャリア", desc: "IT/Web業界専門。未経験〜経験者まで幅広く対応" },
