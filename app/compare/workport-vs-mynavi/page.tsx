@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "ワークポートとマイナビIT AGENTの最大の違いは何ですか？",
-    a: "求人の幅・全国対応か、サポートの手厚さかという軸の違いです。ワークポートは総合型で全国47都道府県57拠点、未経験歓迎を含む求人量が強みです。マイナビIT AGENTは20〜30代若手層に強く、書類添削・面接対策が手厚い点が特徴です。量と全国網を重視するならワークポート、丁寧なサポートを重視するならマイナビIT AGENTが適しています。",
+    a: "求人の幅・全国対応か、サポートの手厚さかという軸の違いです。ワークポートは総合型で全国47都道府県56拠点、未経験歓迎を含む求人量が強みです。マイナビIT AGENTは20〜30代若手層に強く、書類添削・面接対策が手厚い点が特徴です。量と全国網を重視するならワークポート、丁寧なサポートを重視するならマイナビIT AGENTが適しています。",
   },
   {
     q: "未経験からIT転職するならどちらですか？",
@@ -48,13 +48,13 @@ const faqs = [
 
 const comparison = [
   { item: "サービス形態", a: "総合型エージェント（IT・ゲームに最も強み）", b: "IT特化型エージェント（マイナビIT AGENT）" },
-  { item: "運営会社", a: "株式会社ワークポート（2003年3月設立・従業員1,335名）", b: "株式会社マイナビ" },
+  { item: "運営会社", a: "株式会社ワークポート（2003年3月設立・資本金4,200万円）", b: "株式会社マイナビ" },
   { item: "公開求人数", a: "11万件以上（うちIT関連3万件以上・公式LP/二次）", b: "総数の公式値は確認不可" },
   { item: "実績", a: "統一された公表値は確認不可", b: "転職後定着率97.5%・年収アップ率73.7%（二次情報・転職メディア集計）" },
   { item: "得意領域", a: "IT全般＋未経験歓迎。幅広い職種", b: "Web系・SIer・社内SE。20〜30代若手に強み" },
   { item: "サポート", a: "スピード・求人量重視", b: "書類添削・面接対策が手厚い" },
   { item: "未経験対応", a: "未経験歓迎求人が豊富", b: "未経験者への丁寧なサポート" },
-  { item: "対応エリア", a: "全国47都道府県57拠点", b: "全国（主要都市に拠点）。地方は手薄との声" },
+  { item: "対応エリア", a: "全国47都道府県56拠点", b: "全国（主要都市に拠点）。地方は手薄との声" },
   { item: "対象年代", a: "20代〜30代（幅広い）", b: "20代〜30代前半中心" },
   { item: "料金", a: "求職者完全無料（公式）", b: "求職者無料" },
 ];
@@ -121,7 +121,7 @@ export default function WorkportVsMynaviPage() {
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ 総合型のワークポート vs IT特化のマイナビIT AGENTを比較</p>
 
         <section className="mb-6">
-          <p className="text-slate-600 leading-relaxed mb-4">「ワークポート マイナビIT 比較」で迷う人の判断軸は、<strong>求人の量・全国対応を取るか、サポートの手厚さを取るか</strong>です。ワークポートは総合型で全国47都道府県57拠点、未経験歓迎を含む豊富な求人量が強みです。マイナビIT AGENTはIT特化で20〜30代若手層に強く、書類添削・面接対策が手厚いのが特徴です。本記事では求人数・サポート・スピード・対象層を実データで整理します。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">「ワークポート マイナビIT 比較」で迷う人の判断軸は、<strong>求人の量・全国対応を取るか、サポートの手厚さを取るか</strong>です。ワークポートは総合型で全国47都道府県56拠点、未経験歓迎を含む豊富な求人量が強みです。マイナビIT AGENTはIT特化で20〜30代若手層に強く、書類添削・面接対策が手厚いのが特徴です。本記事では求人数・サポート・スピード・対象層を実データで整理します。</p>
         </section>
 
         <DataNote surveyedAt="2026年6月" sources={["株式会社ワークポート 公式", "マイナビIT AGENT（株式会社マイナビ）関連情報", "Qiita Job Change", "OUTSIDEMAGAZINE", "axxis", "イーデス"]} />
@@ -138,7 +138,7 @@ export default function WorkportVsMynaviPage() {
         <section id="conclusion" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">どちらがおすすめか</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6 mb-4">
-            <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-blue-800">求人量と全国対応、スピードを重視するならワークポートが適しています。</strong>公開11万件以上（うちIT関連3万件以上）の総量と全国57拠点で、未経験歓迎を含め幅広く当たれます。地方在住者にも現実的です。</p>
+            <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-blue-800">求人量と全国対応、スピードを重視するならワークポートが適しています。</strong>公開11万件以上（うちIT関連3万件以上）の総量と全国56拠点で、未経験歓迎を含め幅広く当たれます。地方在住者にも現実的です。</p>
             <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-emerald-800">手厚い書類添削・面接対策を受けたいならマイナビIT AGENTが適しています。</strong>20〜30代若手層に強く、転職後定着率97.5%・年収アップ率73.7%（二次情報・転職メディア集計）という数値も参考になります。初めての転職に向いています。</p>
             <p className="text-slate-700 leading-relaxed"><strong>量とサポートを両立させたいなら、併用をおすすめします。</strong>ワークポートで選択肢を確保し、マイナビの手厚い対策で内定の質を高める——両方無料なので合わせて使う価値があります。</p>
           </div>
@@ -171,7 +171,7 @@ export default function WorkportVsMynaviPage() {
           <p className="text-slate-600 leading-relaxed mb-4">ワークポートは口コミでレスポンスの速さが評価され、初動が速い傾向があります。マイナビIT AGENTは丁寧なヒアリングを重視するため時間をかける場合があります。「早く動きたい」ならワークポート、「準備を整えてから」ならマイナビが適しています。</p>
 
           <h3 className="text-lg font-bold text-slate-800 mb-2 mt-6">対象層・エリア</h3>
-          <p className="text-slate-600 leading-relaxed">マイナビIT AGENTは20〜30代の若手層に強く、ハイクラス・地方求人は手薄との声があります。ワークポートは全国47都道府県57拠点で地方にも対応するため、地方在住者や幅広い年代には現実的です。エリアと年代の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>もあわせてご確認ください。</p>
+          <p className="text-slate-600 leading-relaxed">マイナビIT AGENTは20〜30代の若手層に強く、ハイクラス・地方求人は手薄との声があります。ワークポートは全国47都道府県56拠点で地方にも対応するため、地方在住者や幅広い年代には現実的です。エリアと年代の比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>もあわせてご確認ください。</p>
         </section>
 
         <section id="reviews" className="mb-10 scroll-mt-20">

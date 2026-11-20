@@ -319,7 +319,7 @@ export default function ChibaAreaPage() {
             </div>
           </div>
           <p className="text-slate-600 leading-relaxed mt-4">
-            経験浅めなら、全国47都道府県57拠点を持ち未経験歓迎求人も扱うワークポートの併用も選択肢です（
+            経験浅めなら、全国47都道府県56拠点を持ち未経験歓迎求人も扱うワークポートの併用も選択肢です（
             <Link href="/review/workport/" className="text-petrol hover:underline">ワークポートのレビュー</Link>
             ）。各社の横並び比較は
             <Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>

@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "未経験寄りだと断られやすい？",
-    a: "サービスにより差があります。レバテックキャリアは未経験者が紹介されにくいとの口コミ傾向があります（Qiita Job Change等）。一方ワークポートは未経験歓迎求人も豊富とされ（公式/二次）、全国47都道府県57拠点を持ちます。経験が浅い場合は間口の広い総合型から始めるのが無難です。",
+    a: "サービスにより差があります。レバテックキャリアは未経験者が紹介されにくいとの口コミ傾向があります（Qiita Job Change等）。一方ワークポートは未経験歓迎求人も豊富とされ（公式/二次）、全国47都道府県56拠点を持ちます。経験が浅い場合は間口の広い総合型から始めるのが無難です。",
   },
   {
     q: "40代だと年齢で断られやすい？",
@@ -200,7 +200,7 @@ export default function AgentRejectionPage() {
                   <td className="px-4 py-3 border border-slate-200 font-medium">
                     <Link href="/review/workport/" className="text-petrol hover:underline">ワークポート</Link>
                   </td>
-                  <td className="px-4 py-3 border border-slate-200">全国47都道府県に57拠点があり、未経験歓迎求人も豊富とされています（公式/二次）。求職者は完全無料で利用できます。</td>
+                  <td className="px-4 py-3 border border-slate-200">全国47都道府県に56拠点があり、未経験歓迎求人も豊富とされています（公式/二次）。求職者は完全無料で利用できます。</td>
                   <td className="px-4 py-3 border border-slate-200">未経験寄り・地方在住</td>
                 </tr>
                 <tr className="hover:bg-slate-50">

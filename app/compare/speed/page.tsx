@@ -50,7 +50,7 @@ const agents: Agent[] = [
     name: "ワークポート",
     company: "株式会社ワークポート（2003年設立）",
     speedPoint: "「レスポンスが早い」「紹介求人の量が多い」という声（出典: Qiita Job Change・morejob等）",
-    field: "総合型でIT・ゲームに最も強み。スピード重視・全国47都道府県57拠点",
+    field: "総合型でIT・ゲームに最も強み。スピード重視・全国47都道府県56拠点",
     fee: "求職者完全無料",
     href: "/review/workport/",
     caution: "口コミでは「連絡が多すぎる」「希望と異なる求人紹介」という指摘もあります",

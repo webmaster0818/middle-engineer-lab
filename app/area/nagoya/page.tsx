@@ -66,7 +66,7 @@ const agents = [
     name: "ワークポート",
     href: "/review/workport/",
     point:
-      "全国47都道府県57拠点を構える総合型のエージェントです。IT・ゲーム領域に強みを持ち、レスポンスの速さに定評があります。地方在住からの転職相談にも対応しやすい体制です。",
+      "全国47都道府県56拠点を構える総合型のエージェントです。IT・ゲーム領域に強みを持ち、レスポンスの速さに定評があります。地方在住からの転職相談にも対応しやすい体制です。",
   },
 ];
 
@@ -288,7 +288,7 @@ export default function NagoyaAreaPage() {
         <section id="agents" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">名古屋エリアに対応するエージェント</h2>
           <p className="text-slate-600 leading-relaxed mb-4">
-            名古屋での転職では、全国対応の総合型と、技術理解の高いIT特化型を組み合わせるのが基本戦略です。とくにワークポートは全国47都道府県57拠点を構えており、地方在住からの相談に向いています。
+            名古屋での転職では、全国対応の総合型と、技術理解の高いIT特化型を組み合わせるのが基本戦略です。とくにワークポートは全国47都道府県56拠点を構えており、地方在住からの相談に向いています。
           </p>
           <div className="space-y-4">
             {agents.map((a, i) => (

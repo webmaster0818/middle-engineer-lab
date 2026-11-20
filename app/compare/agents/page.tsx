@@ -166,9 +166,9 @@ const agents: Agent[] = [
     slug: "workport",
     name: "ワークポート",
     type: "総合型",
-    company: "株式会社ワークポート（2003年3月設立・従業員1,335名・2025年4月現在）",
+    company: "株式会社ワークポート（2003年3月設立・資本金4,200万円）",
     jobs: "11万件以上（うちIT関連3万件以上）（公式LP・二次）",
-    area: "全国47都道府県57拠点",
+    area: "全国47都道府県56拠点",
     field: "総合型ながらIT・ゲームに最も強み。未経験歓迎求人も豊富。スピード重視",
     result: "年収アップ実績の公表値は確認不可（断定なし）",
     goodReviews: "紹介求人の多さ／レスポンスの早さ／未経験歓迎求人が豊富",
@@ -471,7 +471,7 @@ export default function CompareAgentsPage() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">地方・全国で探したい</h3>
               <p className="text-sm text-petrol-deep">
-                全国対応のリクルートエージェントIT・doda ITエンジニア・ワークポート（全国47都道府県57拠点）を軸にすることをおすすめします。IT特化型は首都圏中心の社が多いため、地方では総合型で母数を確保するのが現実的です。
+                全国対応のリクルートエージェントIT・doda ITエンジニア・ワークポート（全国47都道府県56拠点）を軸にすることをおすすめします。IT特化型は首都圏中心の社が多いため、地方では総合型で母数を確保するのが現実的です。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">

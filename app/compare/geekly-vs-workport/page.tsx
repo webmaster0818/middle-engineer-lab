@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Geeklyとワークポートの最大の違いは何ですか？",
-    a: "得意領域と対応エリアの違いです。GeeklyはIT/Web/ゲーム業界に特化し提案スピードに強みがある専門特化型エージェントです。ワークポートは総合型ですがIT・ゲームが最も強く、全国47都道府県57拠点で未経験歓迎求人も含め幅広くカバーします。専門領域を深く探すならGeekly、幅広く全国で探すならワークポートが適しています。",
+    a: "得意領域と対応エリアの違いです。GeeklyはIT/Web/ゲーム業界に特化し提案スピードに強みがある専門特化型エージェントです。ワークポートは総合型ですがIT・ゲームが最も強く、全国47都道府県56拠点で未経験歓迎求人も含め幅広くカバーします。専門領域を深く探すならGeekly、幅広く全国で探すならワークポートが適しています。",
   },
   {
     q: "未経験からIT転職するならどちらが向いていますか？",
@@ -48,12 +48,12 @@ const faqs = [
 
 const comparison = [
   { item: "サービス形態", a: "IT/Web/ゲーム特化型エージェント", b: "総合型エージェント（IT・ゲームが最も強い）" },
-  { item: "運営会社", a: "株式会社Geekly（2011年8月設立・渋谷区）", b: "株式会社ワークポート（2003年3月設立・従業員1,335名）" },
+  { item: "運営会社", a: "株式会社Geekly（2011年8月設立・渋谷区）", b: "株式会社ワークポート（2003年3月設立・資本金4,200万円）" },
   { item: "公開求人数", a: "IT・WEB求人45,400件以上（2026年10月時点・公式）", b: "11万件以上（うちIT関連3万件以上・公式LP/二次）" },
   { item: "年収アップ実績", a: "年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報の公表値）", b: "統一された公表値は確認不可" },
   { item: "得意領域", a: "IT/Web/ゲーム業界。提案スピード", b: "IT全般＋未経験歓迎。幅広い職種をカバー" },
   { item: "未経験対応", a: "実務経験者向けの提案が中心", b: "未経験歓迎求人も豊富" },
-  { item: "対応エリア", a: "首都圏中心（二次情報）", b: "全国47都道府県57拠点" },
+  { item: "対応エリア", a: "首都圏中心（二次情報）", b: "全国47都道府県56拠点" },
   { item: "対象年代", a: "20〜30代の経験者中心", b: "20代〜30代（幅広い)" },
   { item: "料金", a: "求職者無料", b: "求職者完全無料（公式）" },
 ];
@@ -120,7 +120,7 @@ export default function GeeklyVsWorkportPage() {
         <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月 ｜ IT/Web/ゲーム特化 vs 全国対応の総合型を比較</p>
 
         <section className="mb-6">
-          <p className="text-slate-600 leading-relaxed mb-4">「Geekly ワークポート 比較」を調べる人の関心は、<strong>専門特化と幅広さのどちらを取るか</strong>に集約されます。GeeklyはIT/Web/ゲーム業界に絞った特化型エージェントで提案スピードと精度が強みです。ワークポートは総合型ながらIT・ゲームが最も強く、全国47都道府県57拠点で未経験歓迎求人まで幅広くカバーします。本記事では求人数・年収・サポート・スピード・対象層を実データで整理し、ご自身に合う使い方を示します。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">「Geekly ワークポート 比較」を調べる人の関心は、<strong>専門特化と幅広さのどちらを取るか</strong>に集約されます。GeeklyはIT/Web/ゲーム業界に絞った特化型エージェントで提案スピードと精度が強みです。ワークポートは総合型ながらIT・ゲームが最も強く、全国47都道府県56拠点で未経験歓迎求人まで幅広くカバーします。本記事では求人数・年収・サポート・スピード・対象層を実データで整理し、ご自身に合う使い方を示します。</p>
         </section>
 
         <DataNote surveyedAt="2026年6月" sources={["株式会社Geekly 公式会社概要", "株式会社ワークポート 公式", "Qiita Job Change", "morejob", "axxis", "イーデス"]} />
@@ -138,7 +138,7 @@ export default function GeeklyVsWorkportPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">どちらがおすすめか</h2>
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6 mb-4">
             <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-blue-800">IT/Web/ゲーム領域で経験を活かし、年収交渉まで任せたいならGeeklyです。</strong>特化型ゆえに提案の精度が高く、年収アップ率約81%・平均上昇額約76万円（2025年9月時点・二次情報の公表値）という実績を掲げています。</p>
-            <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-green-800">未経験を含めて幅広く、全国で求人量を見たいならワークポートです。</strong>公開11万件以上（うちIT関連3万件以上）の総量と、全国57拠点の対応力が強みです。</p>
+            <p className="text-slate-700 leading-relaxed mb-3"><strong className="text-green-800">未経験を含めて幅広く、全国で求人量を見たいならワークポートです。</strong>公開11万件以上（うちIT関連3万件以上）の総量と、全国56拠点の対応力が強みです。</p>
             <p className="text-slate-700 leading-relaxed"><strong>専門性と幅を両立したい場合は併用をおすすめします。</strong>Geeklyで精度の高い提案を受けつつ、ワークポートで選択肢の量を確保する——非公開求人の重複が少なく、両方無料なので合わせて登録する価値があります。</p>
           </div>
         </section>
@@ -170,7 +170,7 @@ export default function GeeklyVsWorkportPage() {
           <p className="text-slate-600 leading-relaxed mb-4">Geeklyは提案スピードが強み、ワークポートもレスポンスの速さが口コミで評価されています。どちらも初動は速い部類で、差は「IT/Web特化の精度（Geekly）か、量とエリアの広さ（ワークポート）か」に表れます。</p>
 
           <h3 className="text-lg font-bold text-slate-800 mb-2 mt-6">対象層・エリア</h3>
-          <p className="text-slate-600 leading-relaxed">Geeklyは首都圏中心、ワークポートは全国47都道府県57拠点で地方にも対応します。地方在住者や、首都圏外でのIT転職を考えるミドル層にはワークポートの拠点網が有利です。エリアを軸にした比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>もあわせてご確認ください。</p>
+          <p className="text-slate-600 leading-relaxed">Geeklyは首都圏中心、ワークポートは全国47都道府県56拠点で地方にも対応します。地方在住者や、首都圏外でのIT転職を考えるミドル層にはワークポートの拠点網が有利です。エリアを軸にした比較は<Link href="/compare/agents/" className="text-petrol hover:underline">IT転職エージェント10社比較</Link>もあわせてご確認ください。</p>
         </section>
 
         <section id="reviews" className="mb-10 scroll-mt-20">
@@ -237,7 +237,7 @@ export default function GeeklyVsWorkportPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点：このペアをどう使い分けるか</h2>
           <p className="text-slate-600 leading-relaxed mb-4">30代・40代のミドルエンジニアが「Geekly ワークポート 比較」を考えるとき、ポイントは<strong>「自分のキャリアが専門特化型に乗るか、幅広い総合型に乗るか」</strong>です。</p>
           <p className="text-slate-600 leading-relaxed mb-4">Web系やゲーム業界で実務を積んできたミドルなら、Geeklyの特化型提案が評価されやすく、年収交渉の代行も効果的です。レバテック公表の年代別平均年収（2025年）では正社員SEは30代約499万円・40代約618万円とされ、ミドルは交渉レンジが大きいため、アップ実績を掲げるGeeklyの価値が相対的に高まります。</p>
-          <p className="text-slate-600 leading-relaxed mb-4">一方、SIerやインフラ、社内SEなど領域が幅広い人、あるいは地方在住のミドルには、全国57拠点・求人量11万件以上のワークポートが現実的です。40代になると首都圏一極の特化型だけでは選択肢が少なくなる場合があり、エリアと職種の幅を確保できる総合型が選択肢を補う役割を果たします。</p>
+          <p className="text-slate-600 leading-relaxed mb-4">一方、SIerやインフラ、社内SEなど領域が幅広い人、あるいは地方在住のミドルには、全国56拠点・求人量11万件以上のワークポートが現実的です。40代になると首都圏一極の特化型だけでは選択肢が少なくなる場合があり、エリアと職種の幅を確保できる総合型が選択肢を補う役割を果たします。</p>
           <p className="text-slate-600 leading-relaxed mb-4">市場環境としては、経産省「IT人材需給に関する調査」（2019年公表の試算）で2030年に最大約79万人のIT人材不足が見込まれており、実務経験の厚いミドルの需要は底堅い見通しです。だからこそ、年代が上がるほど「特化型で深さ（Geekly）」と「総合型で幅・地方対応（ワークポート）」を併用し、求人の取りこぼしを防ぐのが合理的です。</p>
           <p className="text-slate-600 leading-relaxed">年代別の戦略は<Link href="/age/30s/" className="text-petrol hover:underline">30代エンジニアの転職</Link>・<Link href="/age/40s/" className="text-petrol hover:underline">40代エンジニアの転職</Link>もあわせてご覧ください。</p>
         </section>

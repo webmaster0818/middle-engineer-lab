@@ -43,7 +43,7 @@ const agents: Agent[] = [
     name: "ワークポート",
     company: "株式会社ワークポート（2003年設立）",
     jobs: "公開11万件以上・うちIT関連3万件以上（公式LP/二次・2026年6月時点）",
-    area: "全国47都道府県57拠点",
+    area: "全国47都道府県56拠点",
     field: "総合型でIT・ゲームに最も強み／未経験歓迎求人が豊富",
     result: "個別の年収アップ率は公表値なし（断定回避）",
     support: "レスポンスが速くスピード重視。専任の転職コンシェルジュ",
@@ -187,7 +187,7 @@ export default function InexperiencedPage() {
           <div className="bg-petrol-soft border-l-4 border-blue-500 rounded-r-lg p-6">
             <p className="text-slate-700 leading-relaxed mb-3 font-medium">未経験からのIT転職なら、未経験歓迎求人が豊富な<strong>ワークポート</strong>と、求人母数が大きい<strong>doda</strong>を軸に登録するのが現実的です。</p>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li>① ワークポート：未経験歓迎求人が豊富で、全国47都道府県57拠点・提案スピードの速さが特徴です（公式）</li>
+              <li>① ワークポート：未経験歓迎求人が豊富で、全国47都道府県56拠点・提案スピードの速さが特徴です（公式）</li>
               <li>② doda：IT・通信求人5万件超（二次・2026年2月時点）で、自分でも検索しながら相談できます</li>
               <li>③ レバテック等の経験者特化型は、未経験では紹介されにくい・断られる場合があるため軸にはしません</li>
             </ul>
