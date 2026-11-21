@@ -6,7 +6,7 @@ import DataNote from "@/components/DataNote";
 
 const TITLE = "ウズキャリITの評判・口コミ｜30代40代エンジニア向けに解説";
 const DESCRIPTION =
-  "ウズキャリIT（UZUZ IT）の評判・口コミを検証します。20代・第二新卒/既卒に特化したIT就職支援で、手厚いサポートや定着率97%が強みです。一方で主対象は19〜29歳のため、30代・40代には合致しにくい点を解説し、代替サービスも案内します。";
+  "ウズキャリIT（UZUZ IT）の評判・口コミを、口コミサイト等の掲載状況と公式サイト掲載の卒業生インタビュー51件の内訳で整理します。20代中心のIT就職支援で、30代・40代には合致しにくい点と代替サービスも案内します。";
 const URL = "/review/uzuz-it/";
 
 export const metadata: Metadata = {
@@ -20,8 +20,8 @@ const toc = [
   { id: "age", label: "【重要】主対象は20代で、30-40代は主な対象外です" },
   { id: "basic", label: "基本データ表（2026年時点）" },
   { id: "strength", label: "特徴・強み" },
-  { id: "good", label: "良い評判の傾向" },
-  { id: "bad", label: "悪い評判の傾向と対処法" },
+  { id: "reviews", label: "口コミ・評判の掲載状況（2026年11月21日確認）" },
+  { id: "voices", label: "公式サイト掲載の利用者の声51件の内訳" },
   { id: "middle", label: "30代・40代が検討する場合の現実的な判断" },
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "登録から内定までの5ステップ" },
@@ -31,54 +31,20 @@ const toc = [
 
 const basicData: [string, string][] = [
   ["運営会社", "株式会社UZUZ（ウズウズ）"],
-  ["サービス種別", "20代（第二新卒・既卒・フリーター）特化のIT就職／転職エージェント"],
-  ["主対象年代", "20代中心（公式表記は19〜29歳）。利用者平均年齢24.5歳・22〜27歳が85.7%（二次情報）"],
-  ["対応エリア", "首都圏／大阪／福岡／名古屋中心（地方案件はほぼなし）"],
-  ["未経験対応", "あり（IT基礎学習コンテンツを提供。未経験からのIT就職に強い）"],
-  ["内定率", "86%以上（二次情報）"],
-  ["定着率", "入社後定着率97%（二次情報）"],
-  ["サポート", "1人あたりの時間が一般の数倍と手厚い（カウンセラーの多くが既卒・第二新卒出身）"],
+  ["サービスの構成", "UZUZ COLLEGEの学習支援＋株式会社UZUZの就職支援（UZUZ COLLEGE公式FAQの説明）"],
+  ["主対象年代", "UZUZの就業サポートは「20代の新卒、第二新卒、既卒、フリーター向け」。UZUZ COLLEGEの無料コース「ウズカレIT」は30歳以下が対象"],
+  ["拠点", "東京（新宿）・大阪・旭川のオフィス（UZUZ会社概要）。ウズウズカレッジは完全オンライン（UZUZ COLLEGE公式FAQ）"],
+  ["未経験対応", "あり（IT学習の教材を提供し、未経験からのIT就職を支援）"],
+  ["定着率", "入社3ヶ月後の定着率96%（UZUZ公式・2024年5月までの実績）"],
+  ["内定率", "公式サイトに数値の記載なし（「高い就職内定率」との表現のみ）"],
   ["料金", "求職者無料"],
-];
-
-const goodReviews = [
-  {
-    title: "1人あたりのサポートが手厚い",
-    body: "talentsquareやキャリア協会等の口コミ系では、1人あたりのサポート時間が一般的な転職エージェントより大幅に長く、面接対策も企業ごとに複数回受けられたという傾向の声が見られます。未経験・社会人経験が浅い20代でも安心して進められたという感想が確認できます。",
-  },
-  {
-    title: "IT学習コンテンツと合わせて就職を目指せる",
-    body: "イーデスのIT転職ランキング（2026年10月確認）では、ウズキャリが第二新卒・既卒・フリーター向けの就職・転職支援に特化したエージェントとして紹介され、IT学習の「ウズウズカレッジ」もあわせて掲載されています（口コミではなくサービス紹介です）。",
-  },
-  {
-    title: "相談しやすい・近い距離感",
-    body: "在籍カウンセラーの多くが既卒・第二新卒出身で年齢も近く、相談しやすいという傾向の声が見られます。社会人経験やキャリアに不安のある20代にとって、心理的なハードルが低い点が支持されています。",
-  },
-];
-
-const badReviews = [
-  {
-    title: "30代以上は対象になりにくい",
-    body: "公式が主対象を「19〜29歳」と明記しており、利用者の85.7%が22〜27歳（二次情報）という構成です。複数の口コミ系メディアでも、30代以上は登録申請を断られる可能性が高い・案件が合いにくいという指摘が見られます。これは欠点というより、サービスの対象設計の問題です。",
-    cope: "30代・40代のエンジニアは、本サービスではなくミドル層を主対象とした転職エージェントを使うのが現実的です。当サイトの30-40代向け比較やIT特化エージェントのレビューを参照してください。",
-  },
-  {
-    title: "対応エリアが都市部中心",
-    body: "首都圏・大阪・福岡・名古屋が中心で、地方の案件はほぼないという傾向の声が見られます。地方在住者には選択肢が限られます。",
-    cope: "地方在住の場合は、全国対応かつリモート求人を扱うエージェントの併用を検討します。リモート前提なら都市部の求人にも応募できる場合があります。",
-  },
-  {
-    title: "経験者のハイクラス転職には不向き",
-    body: "第二新卒・既卒・未経験のIT就職に強い反面、実務経験を積んだエンジニアの年収アップ・ハイクラス転職には案件が合いにくいという傾向の声が見られます。",
-    cope: "実務経験のある30代・40代は、年収アップや専門性を活かせる経験者向けエージェント（レバテックキャリア、ウィルオブテック、ビズリーチ等）を使うのが適切です。",
-  },
 ];
 
 const fitYes = [
   "20代（第二新卒・既卒・フリーター）でIT就職を目指す人",
   "未経験からエンジニアになりたい20代",
   "手厚いサポートを受けながら進めたい",
-  "首都圏・大阪・福岡・名古屋エリアで働きたい",
+  "オンラインで学習と就職活動を進めたい",
   "近い距離感で相談できる環境を求める若手",
 ];
 
@@ -103,28 +69,28 @@ const flow = [
   {
     step: "STEP3",
     title: "求人紹介",
-    body: "IT企業を中心に求人を紹介します。ブラック企業を排除する姿勢で、未経験歓迎の求人も含めて提案を受けます。",
+    body: "IT企業を中心に求人を紹介します。UZUZ COLLEGEは、過去の紹介実績で定着率が低かった企業を紹介リストから除外していると公式に記載しています。",
   },
   {
     step: "STEP4",
     title: "選考対策・面接",
-    body: "企業ごとに複数回の面接対策を受けて選考に進みます。1人あたりの時間が長く、手厚いフィードバックが特徴です。",
+    body: "応募企業ごとに面接対策を受けて選考に進みます。ウズカレITの公式ページには「納得いくまで何度も面接対策（平均5回）」と記載されています。",
   },
   {
     step: "STEP5",
     title: "内定・入社・定着フォロー",
-    body: "内定後は条件確認や入社準備をサポートします。入社後の定着率97%（二次情報）という数値に表れる定着フォローも受けられます。",
+    body: "内定後は条件確認や入社準備をサポートします。UZUZは入社3ヶ月後の定着率96%（2024年5月までの実績）を公表しており、入社後のキャリア相談も継続できるとしています。",
   },
 ];
 
 const faqs = [
   {
     q: "ウズキャリITは30代・40代でも使えますか？",
-    a: "実際には、ウズキャリITの主対象は20代（公式表記は19〜29歳）で、利用者の85.7%が22〜27歳（二次情報）です。30代以上は登録申請を断られる可能性が高く、当サイトの中心読者である30代・40代の実務経験者には合致しにくいサービスです。経験のある30代・40代は、ミドル層やIT経験者を主対象とした転職エージェントを使うことをおすすめします。",
+    a: "株式会社UZUZの就業サポートは公式に「20代の新卒、第二新卒、既卒、フリーター向け」とされ、UZUZ COLLEGEの無料コース「ウズカレIT」は対象年齢を30歳以下としています。当サイトの中心読者である30代・40代の実務経験者には合致しにくいサービスです。経験のある30代・40代は、ミドル層やIT経験者を主対象とした転職エージェントを使うことをおすすめします。",
   },
   {
     q: "未経験からエンジニアになれますか？",
-    a: "20代であれば、未経験からのIT就職に強いのが特徴です。IT基礎の学習コンテンツが用意され、内定率86%以上・定着率97%（いずれも二次情報）という実績があります。ただしこれはあくまで20代・第二新卒・既卒向けの話です。",
+    a: "20代であれば、未経験からのIT就職を目指せる設計です。IT学習の教材が用意され、UZUZは入社3ヶ月後の定着率96%（2024年5月までの実績）を公表しています。内定率の数値は公式サイトに記載がありません。公式サイトに掲載された卒業生インタビュー51件も、未経験からIT職に就いた事例が中心です。ただしこれはあくまで20代・第二新卒・既卒向けの話です。",
   },
   {
     q: "どんな会社が運営していますか？",
@@ -132,15 +98,15 @@ const faqs = [
   },
   {
     q: "サポートが手厚いとは具体的にどういうことですか？",
-    a: "1人あたりのサポート時間が一般的な転職エージェントの数倍とされ、面接対策を企業ごとに複数回実施するなど、丁寧な伴走が特徴です。カウンセラーの多くが既卒・第二新卒出身で、年齢の近い距離感で相談しやすい点も挙げられます。",
+    a: "UZUZは、一人ひとりの適性や希望に合わせた「オーダーメイド型」の就業サポートを掲げ、応募企業に合わせて面接対策を行うとしています（ウズカレITの公式ページでは面接対策は平均5回）。キャリアアドバイザーは就活での挫折や短期離職を経験した人であると公式に説明されています。",
   },
   {
     q: "地方在住でも使えますか？",
-    a: "対応エリアは首都圏・大阪・福岡・名古屋が中心で、地方の案件はほぼないとされています。地方在住の場合は、全国対応やリモート求人を扱うエージェントの併用を検討してください。",
+    a: "UZUZのオフィスは東京（新宿）・大阪・旭川にあり、ウズウズカレッジは完全オンラインで受講できると公式FAQに記載されています。紹介される求人の勤務地は、面談時に希望エリアの求人があるかを確認してください。地方での就職を希望する場合は、全国対応やリモート求人を扱うエージェントの併用も検討してください。",
   },
   {
     q: "経験者の年収アップ転職には向きますか？",
-    a: "向きません。ウズキャリITは未経験・第二新卒・既卒のIT就職に強いサービスで、実務経験を積んだエンジニアの年収アップ・ハイクラス転職には案件が合いにくい傾向です。経験者の年収アップは、レバテックキャリアやウィルオブテック、ビズリーチなどが適しています。",
+    a: "向きません。ウズキャリITは20代の未経験・第二新卒・既卒のIT就職を支援するサービスで、公式サイトの卒業生インタビュー51件も未経験からの就職・転職事例が中心です。実務経験を積んだエンジニアの年収アップには、レバテックキャリアやウィルオブテック、ビズリーチなど経験者向けのサービスが適しています。",
   },
   {
     q: "登録は無料ですか？",
@@ -188,19 +154,17 @@ export default function UzuzItReview() {
           ウズキャリITの評判・口コミ【30代・40代向けに解説】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ 20代特化のIT就職支援を、当サイト読者（30-40代）向けに検証
+          最終更新: 2026年11月21日（口コミ・評判の掲載状況と公式の実績値を再確認） ｜ 20代特化のIT就職支援を、当サイト読者（30-40代）向けに検証
         </p>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
-          ウズキャリIT（UZUZ IT）は、株式会社UZUZが運営する<span className="font-bold">20代（第二新卒・既卒・フリーター）特化のIT就職／転職エージェント</span>です。手厚いサポートと未経験からのIT就職に強みがあります。ただし、当サイトの中心読者である30代・40代の実務経験者にとっては<span className="font-bold">主対象から外れる</span>サービスです。本記事ではその点を最初に説明したうえで、評判・口コミを出典を明記して整理し、30-40代向けの代替も案内します。架空の体験談は掲載しません。
+          ウズキャリIT（UZUZ IT）は、株式会社UZUZが運営する<span className="font-bold">20代（第二新卒・既卒・フリーター）特化のIT就職／転職エージェント</span>です。手厚いサポートと未経験からのIT就職に強みがあります。ただし、当サイトの中心読者である30代・40代の実務経験者にとっては<span className="font-bold">主対象から外れる</span>サービスです。本記事ではその点を最初に説明したうえで、口コミサイト等で評点・件数を確認できたかどうかと、公式サイトに掲載された利用者の声の内訳を出典つきで整理し、30-40代向けの代替も案内します。架空の体験談は掲載しません。
         </p>
         <DataNote
-          surveyedAt="2026年6月"
+          surveyedAt="2026年11月21日"
           sources={[
-            "ウズキャリIT／UZUZ公式サイト",
-            "talentsquare",
-            "イーデス転職",
-            "キャリア協会",
-            "二次集計値",
+            "株式会社UZUZ公式サイト（就業サポート・会社概要）",
+            "UZUZ COLLEGE公式サイト（ウズカレIT・よくあるご質問・卒業生インタビュー）",
+            "App Store検索API",
           ]}
         />
 
@@ -212,9 +176,10 @@ export default function UzuzItReview() {
               <span className="font-bold">総合評価：20代・未経験のIT就職に向いたサービスです。30-40代の経験者は主な対象から外れます</span>。要約すると「20代の第二新卒・既卒・未経験から、手厚いサポートでITエンジニアを目指す人」向けのサービスです。
             </p>
             <ul className="text-sm text-blue-900 space-y-1">
-              <li>・主対象は20代（公式表記19〜29歳）で、利用者の85.7%が22〜27歳とされています（二次情報）。</li>
-              <li>・サポートが手厚く、未経験からのIT就職に強みがあります。内定率86%以上・定着率97%とされています（二次情報）。</li>
-              <li>・実務経験のある30代・40代には案件が合いにくい傾向があります。代替サービスを後半で案内します。</li>
+              <li>・UZUZの就業サポートは公式に「20代向け」、UZUZ COLLEGEの無料コース「ウズカレIT」は30歳以下が対象です。</li>
+              <li>・口コミサイト・アプリストアで、評点と件数を確認できる掲載は見つかりませんでした（2026年11月21日確認）。</li>
+              <li>・公式サイト掲載の卒業生インタビュー51件は、未経験からIT職に就いた事例が中心です。運営会社が選んで掲載している声です。</li>
+              <li>・入社3ヶ月後の定着率96%（2024年5月までの実績）は公式の数値です。内定率の数値は公式に記載がありません。</li>
             </ul>
           </div>
         </section>
@@ -226,7 +191,7 @@ export default function UzuzItReview() {
           </h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-4">
             <p className="text-sm text-amber-900 leading-relaxed">
-              ウズキャリITの主対象は<span className="font-bold">20代（公式表記は19〜29歳）</span>です。利用者の平均年齢は24.5歳、22〜27歳が85.7%を占めるという二次情報があり、30代以上は<span className="font-bold">登録申請を断られる可能性が高い</span>とされています。当サイトが扱う30代・40代の実務経験のあるエンジニアにとっては、年代の面でミスマッチが起きやすいサービスです。
+              就職支援を担う株式会社UZUZは、就業サポートを<span className="font-bold">「20代の新卒、第二新卒、既卒、フリーター向け」</span>と公式に記載しています。学習支援を担うUZUZ COLLEGEも、無料コース「ウズカレIT」の対象年齢を<span className="font-bold">30歳以下</span>としています。当サイトが扱う30代・40代の実務経験のあるエンジニアにとっては、年代の面でミスマッチが起きやすいサービスです。
             </p>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
@@ -252,7 +217,7 @@ export default function UzuzItReview() {
             </table>
           </div>
           <p className="text-xs text-slate-400 mt-2">
-            ※運営会社・主対象年代・未経験対応は公式情報、平均年齢・内定率・定着率・年齢構成は二次集計値です。求人数・実績は時期により変動します。
+            ※いずれも2026年11月21日に株式会社UZUZ公式サイト（uzuz.jp）とUZUZ COLLEGE公式サイト（uzuz-college.jp）で確認した内容です。以前掲載していた利用者の平均年齢・年齢構成・内定率は公式サイトで確認できなかったため削除し、定着率は公式の数値（96%）に改めました。実績は時期により変動します。
           </p>
         </section>
 
@@ -261,21 +226,21 @@ export default function UzuzItReview() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">ウズキャリITの特徴・強み（主に20代向け）</h2>
           <div className="space-y-4">
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">1. 1人あたりのサポートが手厚い</h3>
+              <h3 className="font-bold text-blue-800 mb-2">1. 個別に合わせた就業サポート</h3>
               <p className="text-sm text-petrol-deep">
-                1人あたりのサポート時間が一般的な転職エージェントの数倍とされ、面接対策を企業ごとに複数回実施するなど、丁寧な伴走が特徴です。社会人経験が浅い20代でも安心して進めやすい設計です。
+                UZUZは一人ひとりの適性や希望に合わせた「オーダーメイド型」の就業サポートを掲げ、応募企業ごとに面接対策を行うとしています。ウズカレITの公式ページでは、面接対策は平均5回と記載されています。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 未経験からのIT就職に強い</h3>
               <p className="text-sm text-petrol-deep">
-                IT基礎の学習コンテンツが用意され、未経験からエンジニア就職を目指せます。内定率86%以上・入社後定着率97%（いずれも二次情報）という実績があり、ブラック企業を排除する姿勢も掲げています。
+                IT学習の教材が用意され、未経験からエンジニア就職を目指せます。UZUZは入社3ヶ月後の定着率96%（2024年5月までの実績）を公表しており、UZUZ COLLEGEは定着率が低かった企業を紹介リストから除外していると説明しています。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">3. 近い距離感で相談しやすい</h3>
+              <h3 className="font-bold text-blue-800 mb-2">3. 挫折や短期離職を経験したアドバイザー</h3>
               <p className="text-sm text-petrol-deep">
-                在籍カウンセラーの多くが既卒・第二新卒出身で年齢も近く、キャリアに不安のある20代でも相談しやすい点が支持されています。
+                UZUZは、キャリアアドバイザーが就活での挫折や短期離職を経験した人であると公式に説明しています。社会人経験やキャリアに不安のある20代が相談しやすいよう設計されたサービスです。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -287,42 +252,65 @@ export default function UzuzItReview() {
           </div>
         </section>
 
-        {/* 良い評判 */}
-        <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
-          <p className="text-sm text-slate-600 mb-4">
-            以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載ではありません）。主に20代利用者の評価である点に留意してください。
+        {/* 口コミ・評判の掲載状況 */}
+        <section id="reviews" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ・評判の掲載状況（2026年11月21日確認）</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-4">
+            ウズキャリITの利用者による評価を、評点と件数を確認できる形で探しました。結果は次のとおりです。評点・件数を確認できた第三者の掲載はなく、利用者の評価を数値で示すことは現時点ではできません。
           </p>
-          <div className="space-y-4">
-            {goodReviews.map((r, i) => (
-              <div key={i} className="border border-green-200 rounded-lg p-5">
-                <h3 className="font-bold text-green-700 mb-2 text-sm">◎ {r.title}</h3>
-                <p className="text-sm text-slate-600 leading-relaxed">{r.body}</p>
-              </div>
-            ))}
+          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
+            <table className="w-full text-sm">
+              <tbody>
+                {([
+                  ["確認先", "結果（2026年11月21日）"],
+                  ["みん評（minhyo.jp）", "アクセス時の自動確認画面により、当サイトの取得方法では内容を表示できませんでした。評点・件数は未確認です。"],
+                  ["App Store・Google Play", "「UZUZ」「ウズキャリ」「ウズカレ」等で検索しましたが、株式会社UZUZ・UZUZ COLLEGEが提供するアプリは見つかりませんでした（App Storeは検索APIで確認）。"],
+                  ["OpenWork・転職会議など", "企業の社員による口コミのサイトで、サービス利用者の口コミではないため使用していません。"],
+                  ["Googleマップ", "当サイトでは評点と件数を確認できなかったため掲載していません。"],
+                ] as string[][]).map((row, i) => (
+                  <tr key={i} className={i === 0 ? "bg-slate-100" : i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <td className="px-3 py-3 border-b border-slate-200 font-medium text-slate-700 align-top w-1/3">{row[0]}</td>
+                    <td className="px-3 py-3 border-b border-slate-200 text-slate-600">{row[1]}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
+          <p className="text-sm text-slate-600 leading-relaxed">
+            以前の版では、口コミを紹介する解説記事の論調を「良い評判の傾向」「悪い評判の傾向」として要約していましたが、件数や評点の裏付けがないため削除しました。代わりに、次の節で公式サイトに掲載されている利用者の声を数えて内訳を示します。
+          </p>
         </section>
 
-        {/* 悪い評判と対処法 */}
-        <section id="bad" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">悪い評判の傾向と対処法</h2>
-          <p className="text-sm text-slate-600 mb-4">
-            公平性のため、ネガティブな傾向の声と、それぞれへの現実的な対処法もまとめます。特に年代に関する点は当サイト読者に直結します。
+        {/* 公式サイト掲載の利用者の声 */}
+        <section id="voices" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">公式サイト掲載の利用者の声51件の内訳（2026年11月21日 当サイト集計）</h2>
+          <p className="text-sm text-slate-600 leading-relaxed mb-4">
+            UZUZ COLLEGE公式サイトの「卒業生インタビュー」一覧（uzuz-college.jp/interview/）に掲載されている51件を数えました。<span className="font-bold">運営会社が選んで掲載している声であり、利用者全体の評価を示すものではありません。</span>また、UZUZ COLLEGEの説明では、ウズキャリITは就職支援を株式会社UZUZが担い、ウズカレITは学習から就職までUZUZ COLLEGEが担う点が異なります。下記はウズカレIT・資格取得コースの卒業生の声で、ウズキャリITの就職支援を受けた人に限ったものではありません。
           </p>
-          <div className="space-y-4">
-            {badReviews.map((r, i) => (
-              <div key={i} className="border border-slate-200 rounded-lg p-5">
-                <h3 className="font-bold text-red-600 mb-2 text-sm">△ {r.title}</h3>
-                <p className="text-sm text-slate-600 leading-relaxed mb-3">{r.body}</p>
-                <div className="bg-amber-50 border border-amber-200 rounded p-3">
-                  <p className="text-xs text-amber-800 leading-relaxed">
-                    <span className="font-bold">対処法：</span>
-                    {r.cope}
-                  </p>
-                </div>
-              </div>
-            ))}
+          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-4">
+            <table className="w-full text-sm">
+              <tbody>
+                {([
+                  ["項目", "内訳"],
+                  ["コース別", "ウズカレIT 24件、資格取得コース26件（CCNA 22件・LinuC 3件・Java 1件）、コース表示なし1件"],
+                  ["掲載年", "2024年 39件、2025年 7件、2026年 5件"],
+                  ["題名に年齢・年代の記載があるもの", "21歳・23歳・26歳・28歳（2件）・30代（2件）の計7件。その他の44件は題名に年齢の記載なし"],
+                  ["内容（題名から判断できる範囲）", "ウズカレITの24件は、看護師・臨床検査技師・柔道整復師・美容師・書店員・アルバイトなどIT以外の仕事や、就業経験の浅い状態から、開発・インフラ系エンジニアに就職・転職した事例が中心です"],
+                ] as string[][]).map((row, i) => (
+                  <tr key={i} className={i === 0 ? "bg-slate-100" : i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <td className="px-3 py-3 border-b border-slate-200 font-medium text-slate-700 align-top w-1/3">{row[0]}</td>
+                    <td className="px-3 py-3 border-b border-slate-200 text-slate-600">{row[1]}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
+          <p className="text-sm text-slate-600 leading-relaxed mb-3">
+            このほか、株式会社UZUZの就業サポートのページ（uzuz.jp/service/career-support/）には求職者の声が3件掲載されています（22歳・新卒、25歳・第二新卒、23歳・既卒）。いずれもIT職ではなく、メーカー・営業・経営企画アシスタントへの就職事例です。
+          </p>
+          <p className="text-sm text-slate-600 leading-relaxed">
+            30代・40代の読者にとっての読み方としては、題名に年齢の記載がある事例は21〜28歳と30代で、内容は未経験からの就職・転職に集中しています。題名を見る限り、IT実務経験者が年収アップを目指した転職事例は見当たらない点が判断材料になります。
+          </p>
         </section>
 
         {/* 30代40代視点 */}
@@ -332,11 +320,11 @@ export default function UzuzItReview() {
           </h2>
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
-              当サイトはミドルエンジニアのキャリアを扱う立場から、判断の目安を整理します。ウズキャリITは20代・未経験のIT就職に最適化されたサービスであり、<span className="font-bold">実務経験のある30代・40代が登録しても、年代・案件の両面で合致しにくい</span>のが実情です。公式が主対象を19〜29歳と明記している以上、ミドル層が無理に使うメリットは小さいと考えます。
+              当サイトはミドルエンジニアのキャリアを扱う立場から、判断の目安を整理します。ウズキャリITは20代・未経験のIT就職に最適化されたサービスであり、<span className="font-bold">実務経験のある30代・40代が登録しても、年代・案件の両面で合致しにくい</span>のが実情です。公式が就業サポートを20代向け、ウズカレITを30歳以下対象としている以上、ミドル層が無理に使うメリットは小さいと考えます。
             </p>
             <p>
               <span className="font-bold text-slate-700">数少ない例外として検討の余地があるケース：</span>
-              30代前半で、IT実務経験がほぼなく、未経験からエンジニアへ転身したい——という場合は、年齢条件が合えば相談する価値があるかもしれません。ただしこの場合も、30代以上は申請を断られる可能性があるため、まずは年齢制限のない未経験対応エージェントを優先するのが現実的です。
+              30代前半で、IT実務経験がほぼなく、未経験からエンジニアへ転身したい——という場合は、年齢条件が合えば相談する価値があるかもしれません。ただしこの場合も、対象年齢（ウズカレITは30歳以下）に当てはまるかを事前に確認し、あわせて年齢制限のない未経験対応エージェントも検討するのが現実的です。
             </p>
             <p>
               <span className="font-bold text-slate-700">実務経験のある30代・40代の場合：</span>
@@ -458,27 +446,26 @@ export default function UzuzItReview() {
           </div>
         </section>
 
-        {/* 評判・口コミの参照元 */}
+        {/* 出典 */}
         <section id="sources" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">出典</h2>
           <p className="text-sm text-slate-600 mb-4 leading-relaxed">
-            本記事の「良い評判／悪い評判」の傾向は、以下の口コミ・評判メディアで公開されている情報を参照し、傾向として要約したものです（原文・スコアの転載ではありません）。各ページは2026年7月に確認しています。
+            本記事の数値・件数は、以下の公式ページで2026年11月21日に確認したものです。
           </p>
           <ul className="space-y-2 text-sm">
-            <li>
-              <a href="https://talentsquare.co.jp/career/uzuz-reputation/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">talentsquare（タレントスクエア）</a>
-              <span className="text-slate-500"> ：UZUZ（ウズキャリ）の評判・口コミ解説</span>
-            </li>
-            <li>
-              <a href="https://job.or.jp/uzuz-hyoban/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">一般社団法人キャリア協会</a>
-              <span className="text-slate-500"> ：ウズキャリ（UZUZ）利用者の口コミ・レビュー</span>
-            </li>
-            <li>
-              <a href="https://career.a-tm.co.jp/top/job-change/career-change-it/" rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">イーデス</a>
-              <span className="text-slate-500"> ：IT転職ランキング（ウズキャリ・ウズウズカレッジの紹介・2026年10月確認）</span>
-            </li>
+            {([
+              ["https://uzuz.jp/service/career-support/", "株式会社UZUZ 就業サポート（対象・定着率96%・求職者の声3件）"],
+              ["https://uzuz.jp/company/", "株式会社UZUZ 会社概要（所在地）"],
+              ["https://uzuz-college.jp/faq/", "UZUZ COLLEGE よくあるご質問（ウズキャリITとウズカレITの違い・年齢・オンライン受講）"],
+              ["https://uzuz-college.jp/it-shushoku/", "UZUZ COLLEGE ウズカレIT（30歳以下対象・面接対策平均5回・紹介先企業の選定）"],
+              ["https://uzuz-college.jp/interview/", "UZUZ COLLEGE 卒業生インタビュー一覧（51件）"],
+            ] as string[][]).map(([href, label], i) => (
+              <li key={i}>
+                <a href={href} rel="nofollow noopener" target="_blank" className="text-petrol hover:underline font-medium">{label}</a>
+              </li>
+            ))}
           </ul>
-          <p className="text-xs text-slate-400 mt-3">※外部サイトの内容・URLは変更される場合があります（最終確認：2026年7月）。数値は各サイトの記載時点のものです。</p>
+          <p className="text-xs text-slate-400 mt-3">※外部サイトの内容・URLは変更される場合があります（最終確認：2026年11月21日）。</p>
         </section>
 
         {/* CTA（20代向けと明記） */}
