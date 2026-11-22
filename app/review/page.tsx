@@ -63,7 +63,7 @@ const categories = [
       { slug: "midworks", name: "Midworks", desc: "正社員並みの保障がある、安定重視のフリーランス向け" },
       { slug: "itpropartners", name: "ITプロパートナーズ", desc: "週2〜3日・副業/独立準備向けの案件" },
       { slug: "geechs", name: "ギークスジョブ", desc: "リモート8割超と福利厚生フリノベ。上場企業が運営" },
-      { slug: "pe-bank", name: "PE-BANK", desc: "マージン完全公開（8〜12%）、共済会、全国12拠点" },
+      { slug: "pe-bank", name: "PE-BANK", desc: "分配率を公開（15%→最低10%）、PE共済会、全国13拠点" },
       { slug: "techreach", name: "TechReach", desc: "エンド直の高単価案件と翌月15日支払い。フルリモート案件も多数" },
       { slug: "engineer-factory", name: "エンジニアファクトリー", desc: "低マージン・エンド直の高単価案件。東京・大阪圏が中心" },
       { slug: "relance", name: "Relance（リランス）", desc: "スリーシェイク運営。自社開発・プライム中心の高単価・フルリモート案件" },
