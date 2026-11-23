@@ -142,6 +142,17 @@ const knowledgeCategories = [
       { name: "副業の確定申告", href: "/knowledge/side-job-tax/", desc: "20万円ルールの正しい意味・所得区分・住民税申告を解説します。" },
     ],
   },
+  {
+    category: "IT用語・業界の基礎",
+    intro: "求人票や面接で使われるIT用語・業界用語を、公的資料・公式情報にもとづいて解説します。",
+    items: [
+      { name: "DXとは", href: "/knowledge/dx/", desc: "経産省の定義、IPA調査の取組率と人材不足、DX認定事業者の集計を整理します。" },
+      { name: "RPAとは", href: "/knowledge/rpa/", desc: "総務省の定義、主要3ツールの公式情報、自治体の導入状況を整理します。" },
+      { name: "IoTとは", href: "/knowledge/iot/", desc: "法律上の定義と、情報通信白書の分野別デバイス数を構成比で整理します。" },
+      { name: "PMOとは", href: "/knowledge/pmo/", desc: "PMBOKの定義、PMとの違い、IPA試験とPMPの要件を比較します。" },
+      { name: "SIerとは", href: "/knowledge/sier/", desc: "受託開発の規模、元請・下請の構成、職種別の賃金を統計で整理します。" },
+    ],
+  },
 ];
 
 const allKnowledge = knowledgeCategories.flatMap((c) => c.items);
