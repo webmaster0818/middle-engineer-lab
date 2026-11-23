@@ -20,8 +20,8 @@ const toc = [
   { id: "summary", label: "要点（どんな人向けか）" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strength", label: "特徴・強み" },
-  { id: "good", label: "良い評判の傾向" },
-  { id: "bad", label: "気になる評判の傾向と対処法" },
+  { id: "reputation", label: "口コミ・評判の掲載状況" },
+  { id: "caution", label: "注意点と対処法" },
   { id: "middle", label: "30代・40代エンジニアの活用視点" },
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "利用の流れ" },
@@ -40,36 +40,30 @@ const basicData: [string, string][] = [
   ["料金", "相談・登録は無料（費用は採用企業側が負担）"],
 ];
 
-const goodReviews = [
-  {
-    title: "IT/Web専門ゆえに業界理解のある相談ができる",
-    body: "公式および各転職メディアの紹介では、IT/Web業界に特化している点が一貫して強みとして挙げられています。業界・職種の事情を踏まえた相談がしやすいという文脈で評価される傾向があります。",
-  },
-  {
-    title: "未経験層も含めて相談しやすい",
-    body: "公式は未経験から経験者まで幅広く対応すると明記しています。IT/Web業界へのキャリア相談の入口として案内されることが多い、という紹介が複数の転職メディアで見られます。",
-  },
-  {
-    title: "転職・就活の両方に対応",
-    body: "公式によれば転職支援と就活支援の双方を提供しており、キャリア初期から経験者まで対象が広い点が紹介されています。",
-  },
+const interviewTally: [string, string][] = [
+  ["掲載件数（転職の成功者インタビュー）", "21件（4ページ）"],
+  ["公式のタグ「年収アップ」", "17件"],
+  ["公式のタグ「キャリアアップ」", "2件"],
+  ["公式のタグ「キャリアチェンジ」", "2件"],
+  ["タイトルに30代・31歳と明記", "2件（Salesforce運用からの転職／31歳で転職4社目）"],
+  ["「不満」「失敗」を扱う回", "0件（すべて転職成功の事例）"],
 ];
 
-const badReviews = [
-  {
-    title: "口コミの絶対量がまだ多くない",
-    body: "2021年設立と比較的新しい運営会社のため、独立系の口コミプラットフォーム上の声の蓄積は大手と比べると限定的という傾向があります。",
-    cope: "判断材料が少ない場合は、面談時に実績や得意領域・紹介求人の傾向を直接確認するとよいでしょう。大手IT特化のレバテックキャリアなどと併用して比較する前提で使うと判断しやすくなります。",
-  },
+const cautions = [
   {
     title: "ミドル・ハイクラス特化ではない",
-    body: "未経験層まで広く対応するサービス設計のため、30代後半〜40代のハイクラス求人に特化したサービスではない点に注意が必要です。",
+    body: "公式は「エンジニア経験者・未経験者どちらも支援可能」と案内しており、30代後半〜40代のハイクラス求人に特化したサービスではありません。公式の成功者インタビュー21件のうち、タイトルで30代以上と分かる回は2件です。",
     cope: "管理職・高年収レンジを狙う場合は、ハイクラス向けのビズリーチやJACリクルートメントを軸に据え、ユニゾンキャリアは選択肢を広げる併用先として使うのが現実的です。",
   },
   {
     title: "対応エリアが公式に明記されていない",
     body: "公式サイト上で具体的な対応エリアの明示は確認できませんでした（運営所在地は東京）。地方在住者は対応可否の確認が必要です。",
     cope: "面談前に居住地・希望勤務地（リモート希望含む）を伝え、紹介可能な求人があるか確認しておくと行き違いを防げます。",
+  },
+  {
+    title: "公式の実績値は自社集計",
+    body: "公式トップの実績の注記は「Googleとコエテコキャリアの口コミ数と評価をもとに算出」（2025年11月18日時点・自社調べ）、年収アップ率は「2025年1月〜2025年8月の内定承諾者」（エンジニア実務経験者のみ）、定着率は「2025年1月〜8月の間に入社した方の3ヶ月以上継続率」です。いずれも運営会社による集計です。",
+    cope: "数値は対象期間・対象者を確認したうえで参考にし、面談で自分の経験年数に近い事例を具体的に聞くと判断しやすくなります。",
   },
 ];
 
@@ -82,7 +76,7 @@ const fitYes = [
 
 const fitNo = [
   "40代の管理職・高年収求人だけに絞りたい",
-  "豊富な口コミ実績の蓄積を重視したい",
+  "第三者サイトの評点・件数を見比べてから決めたい",
   "IT以外の職種を探している",
   "対面の地方サポートを最優先したい（対応エリア要確認）",
 ];
@@ -173,17 +167,17 @@ export default function UnisonCareerReview() {
           ユニゾンキャリアの評判・口コミは？特徴・料金・対応【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ IT/Web専門エージェントの実力を公式情報と二次情報で検証
+          最終更新: 2026年11月23日 ｜ IT/Web専門エージェントを公式情報で検証
         </p>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
-          ユニゾンキャリアは、株式会社ユニゾン・テクノロジーが運営するIT/Web業界専門の転職エージェントです。本記事では公式情報と各転職メディアの紹介をもとに、30代・40代ミドルエンジニアの視点で特徴・料金・向き不向きを整理します。架空の体験談や星評価は掲載せず、出典のある情報のみを扱います。
+          ユニゾンキャリアは、株式会社ユニゾン・テクノロジーが運営するIT/Web業界専門の転職エージェントです。本記事では公式情報をもとに、30代・40代ミドルエンジニアの視点で特徴・料金・向き不向きを整理します。架空の体験談や星評価は掲載せず、出典のある情報のみを扱います。
         </p>
         <DataNote
           surveyedAt="2026年6月"
           sources={[
             "ユニゾンキャリア公式サイト",
             "株式会社ユニゾン・テクノロジー 会社情報",
-            "複数転職メディアの紹介記事",
+            "公式 転職成功者インタビュー（2026年11月23日確認）",
           ]}
         />
 
@@ -263,30 +257,43 @@ export default function UnisonCareerReview() {
           </div>
         </section>
 
-        {/* 良い評判 */}
-        <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
-          <p className="text-sm text-slate-600 mb-4">
-            以下は公式情報および各転職メディアの紹介を傾向としてまとめたものです（原文転載ではありません）。
-          </p>
-          <div className="space-y-4">
-            {goodReviews.map((r, i) => (
-              <div key={i} className="border border-green-200 rounded-lg p-5">
-                <h3 className="font-bold text-green-700 mb-2 text-sm">◎ {r.title}</h3>
-                <p className="text-sm text-slate-600 leading-relaxed">{r.body}</p>
-              </div>
-            ))}
+        {/* 口コミ・評判の掲載状況 */}
+        <section id="reputation" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ユニゾンキャリアの口コミ・評判の掲載状況（2026年11月23日確認）</h2>
+          <div className="space-y-3 text-sm text-slate-600 leading-relaxed mb-4">
+            <p>
+              <span className="font-bold text-slate-700">第三者サイトの評点：</span>
+              当サイトで評点と件数を確認できた第三者サイトはありません（2026年11月23日時点）。App Store にユニゾンキャリアのアプリはありません（App Store 検索で0件）。公式トップは実績の算出に「Googleとコエテコキャリアの口コミ数と評価」を使ったと注記していますが、コエテコキャリアの掲載ページは当サイトの取得環境からアクセスが遮断され、評点・件数を確認できなかったため掲載していません。
+            </p>
+            <p>
+              <span className="font-bold text-slate-700">公式に掲載された利用者の声：</span>
+              公式サイトの「転職 成功者インタビュー」には21件が掲載されています。運営会社が選んで掲載している事例であり、利用者全体の評価を表すものではありません。当サイトでタイトルと公式のタグを数えた内訳は次のとおりです。
+            </p>
           </div>
+          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
+            <table className="w-full text-sm">
+              <tbody>
+                {interviewTally.map(([label, value], i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/2 border-b border-slate-200 align-top">{label}</th>
+                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-400">
+            出典：
+            <a href="https://unison-career.jp/job-change/interview/" rel="nofollow noopener" target="_blank" className="underline">ユニゾンキャリア公式「転職成功者インタビュー」</a>
+            （2026年11月23日に1〜4ページを確認・集計は当サイト）。口コミの本文は転載していません。
+          </p>
         </section>
 
-        {/* 気になる評判 */}
-        <section id="bad" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">気になる評判の傾向と対処法</h2>
-          <p className="text-sm text-slate-600 mb-4">
-            公平性のため、留意点と現実的な対処法もまとめます。
-          </p>
+        {/* 注意点 */}
+        <section id="caution" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">注意点と対処法</h2>
           <div className="space-y-4">
-            {badReviews.map((r, i) => (
+            {cautions.map((r, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-red-600 mb-2 text-sm">△ {r.title}</h3>
                 <p className="text-sm text-slate-600 leading-relaxed mb-3">{r.body}</p>
@@ -404,12 +411,17 @@ export default function UnisonCareerReview() {
         <section className="mb-10">
           <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
           <p className="text-xs text-slate-500 leading-relaxed mb-3">
-            ユニゾンキャリアは2021年設立の運営会社による比較的新しいサービスで、独立系口コミプラットフォーム上の声は本文のとおり蓄積が限定的なため、本記事は個別スコアを引用していません。評判の傾向は、公式サイトの公表情報（サービス概要・会社情報）と各転職メディアの紹介記事を参照し、傾向として要約したものです。一次情報の出典は以下のとおりです。最終確認日：2026年7月17日。
+            第三者サイトの評点は、2026年11月23日時点で当サイトが確認できたものがないため掲載していません。利用者の声は公式の成功者インタビュー（運営会社が選んだ事例）の件数とタグの内訳のみを掲載し、本文は転載していません。最終確認日：2026年11月23日。
           </p>
           <ul className="text-sm space-y-2 text-slate-600 list-disc pl-5">
             <li>
               <a href="https://unison-career.jp/" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
-                ユニゾンキャリア公式サイト（サービス概要・会社情報）
+                ユニゾンキャリア公式サイト（サービス概要・実績の注記）
+              </a>
+            </li>
+            <li>
+              <a href="https://unison-career.jp/job-change/interview/" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                ユニゾンキャリア公式「転職成功者インタビュー」（21件）
               </a>
             </li>
           </ul>

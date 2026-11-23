@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/layerx/" },
   title: "LayerXの評判・年収は？エンジニア転職ガイド【2026】｜技術スタック・選考",
   description:
-    "LayerXの評判・口コミの傾向とエンジニア中途採用を、公式採用ページ・技術ブログ・口コミの一次情報から解説します。バクラク／AI事業の技術スタック、トライアル入社、年収レンジ、30代40代の転職可否までまとめました。",
+    "LayerXの評判（口コミサイトの掲載状況）とエンジニア中途採用を、公式採用ページ・技術ブログと出典つきの口コミ件数から解説します。バクラク／AI事業の技術スタック、トライアル入社、年収レンジ、30代40代の転職可否までまとめました。",
 };
 
 const tableRows: [string, string][] = [
@@ -23,7 +23,7 @@ const tableRows: [string, string][] = [
 const sources = [
   "LayerX 採用情報（jobs.layerx.co.jp）",
   "PLAID/各社 技術ブログ・採用ページの公開情報",
-  "OpenWork・転職会議 等の口コミ傾向",
+  "ワンキャリア転職・就活会議の社員クチコミ（2026年11月23日確認）",
   "doda「決定年収レポート」2025年5月公表",
 ];
 
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "LayerXのエンジニア年収はどのくらい？",
-    a: "LayerXは非上場のため有価証券報告書の平均年収は公表されていません。口コミ・年収調査サイト（OpenWork、各種年収調査サイト、2026年時点）では全社平均でおおむね650〜850万円台、レンジ600〜1,500万円程度との集計が見られますが、これらは二次集計値です。正確な提示額は公式求人と面談で確認してください。",
+    a: "LayerXは非上場のため有価証券報告書の平均年収は公表されていません。当サイトでは、出典と件数を確認できる年収の集計値を見つけられなかったため、金額は掲載していません。提示額は公式求人と面談で確認してください。",
   },
   {
     q: "LayerXの技術スタックは？",
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "LayerXは残業が多い？働き方は？",
-    a: "OpenWork等の口コミでは、フルリモート・フレックスを採用し、残業代も実態に応じて支払われる「ホワイト寄り」との評価傾向が見られます（出典: OpenWork等の口コミ集計、2026年時点）。ただし成長フェーズゆえ繁忙の波がある点は他のSaaSと同様で、部署・時期による差は前提に考えるのが現実的です。",
+    a: "第三者サイトの社員クチコミは件数が少なく、働き方の傾向は言えません（ワンキャリア転職は回答者1名・2023年9月回答で「時短勤務やフレックスタイムの制度は整っている」との記載、就活会議はワークライフの評点3.3・回答1件。2026年11月23日確認）。残業時間・リモートの可否は、応募するポジションの募集要項と面談で確認してください。",
   },
   {
     q: "LayerXへの転職で有利な経験は？",
@@ -88,7 +88,7 @@ const toc = [
   { id: "salary", label: "年収データ" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
-  { id: "review", label: "評判・口コミの傾向" },
+  { id: "review", label: "口コミ・評判の掲載状況" },
   { id: "middle", label: "30代・40代の視点" },
   { id: "fit", label: "向いている人・向いていない人" },
   { id: "agents", label: "おすすめエージェント" },
@@ -119,13 +119,13 @@ export default function LayerxCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】LayerXの年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>LayerXは非上場のため、有価証券報告書による公式の平均年収は非公表です。口コミ・年収調査サイトの二次集計では全社平均でおおむね650〜850万円台とされます（2026年時点）。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・公式平均は非公表です（非上場のため有価証券報告書開示なし）。</li><li>・二次集計値は全社平均650〜850万円台、レンジ600〜1,500万円程度です（OpenWork等・2026年時点、変動大）。</li><li>・公開求人はシニア・専門職中心です。正確な提示額は公式求人・面談での確認が前提です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>LayerXは非上場のため、有価証券報告書による公式の平均年収は非公表です。出典と件数を確認できる年収の集計値も見つからなかったため、当サイトでは金額を掲載していません。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・公式平均は非公表です（非上場のため有価証券報告書開示なし）。</li><li>・公開求人はシニア・専門職中心です。正確な提示額は公式求人・面談での確認が前提です。</li></ul>
         </div>
 
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
           LayerX（株式会社LayerX）は法人支出管理SaaS「バクラク」を主力に、Ai Workforce・Fintech・Securityの各事業を展開する非上場のテック企業です。
-          本ガイドでは、公式採用ページ・公開されている技術情報・口コミサイトの傾向という一次／公開情報のみをもとに、エンジニア転職の実像を整理します。
+          本ガイドでは、公式採用ページ・公開されている技術情報と、出典・件数を確認できた口コミサイトの掲載状況をもとに、エンジニア転職の実像を整理します。
           確認できない等級別の年収表や面接質問の断定は掲載していません。
         </p>
 
@@ -228,8 +228,7 @@ export default function LayerxCompanyPage() {
               当ガイドでは出典のない等級別年収表は掲載していません。
             </p>
             <p>
-              口コミ・年収調査サイト（OpenWork、各種年収調査サイト・2026年時点）の二次集計では、全社平均でおおむね650〜850万円台、
-              レンジは600〜1,500万円程度との数値が見られます。ただしこれらは二次集計値であり、職種・グレード・成果により大きく変動します。正確な提示額は公式求人と面談で確認してください。
+              口コミ・年収調査サイトの集計値は、出典と件数を確認できるものが見つからなかったため掲載していません（2026年11月23日時点。ワンキャリア転職の年収・給与のクチコミは1件のみ）。提示額は公式求人と面談で確認してください。
             </p>
             <p>
               市場感の参考として、doda「決定年収レポート」（2025年5月公表）ではIT・通信の平均決定年収が2024年度で486万円です。
@@ -255,9 +254,9 @@ export default function LayerxCompanyPage() {
         </section>
 
         <section id="interview" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・口コミ傾向）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報）</h2>
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
-            <p className="mb-3">転職会議等の口コミでは、LayerXは選考でカルチャーフィットを重視し、価値観や思考のスタイルを問う傾向があるとされています（出典: 転職会議・OpenWork等の口コミ集計、2026年時点）。技術面では、自身の設計判断や課題解決のプロセスを言語化できるかが見られやすいポイントです。</p>
+            <p className="mb-3">公式採用ページは、インターン選考やトライアル入社で相互理解を図る方針を示しています。以下は公式の選考方針と募集要件から当サイトが整理した観点です（口コミの集計ではありません）。</p>
             <ul className="space-y-1.5">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>ミッション・バリューへの共感とカルチャーフィット</li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>設計・技術選定の意思決定プロセスの言語化</li>
@@ -268,11 +267,22 @@ export default function LayerxCompanyPage() {
         </section>
 
         <section id="review" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">LayerXの評判・口コミの傾向（出典名を明記した要約）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">LayerXの口コミ・評判の掲載状況（2026年11月23日確認）</h2>
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-3">
-            <p><strong>良い評価の傾向：</strong>OpenWork・転職会議等の口コミプラットフォームでは、(1)フルリモート・フレックスで働き方の自由度が高い、(2)残業代が実態に応じて支払われる「ホワイト寄り」、(3)技術レベルが高く刺激的な環境、といった声が見られます（2026年時点）。</p>
-            <p><strong>気をつけたい点の傾向：</strong>同サイトでは、(1)急成長フェーズゆえ繁忙の波がある、(2)裁量が大きい分、自走力・キャッチアップの速さが求められる、(3)成果主義で評価のメリハリが大きい、といった指摘も見られます。</p>
-            <p className="text-xs text-slate-400">口コミは個人の主観であり、部署・時期・職種により実態は異なります。原文転載ではなく傾向の要約として記載しています。</p>
+            <p>第三者サイトの社員クチコミを確認した結果、件数がごく少なく、評判の傾向を言える状態ではありません。当サイトで確認できた評点と件数は次のとおりです。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-slate-200">
+                <thead className="bg-slate-50">
+                  <tr><th className="px-3 py-2 text-left">サイト</th><th className="px-3 py-2 text-left">評点</th><th className="px-3 py-2 text-left">件数・回答者</th></tr>
+                </thead>
+                <tbody>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://plus.onecareer.jp/companies/90026/company_evaluations" rel="nofollow noopener" target="_blank" className="text-petrol underline">ワンキャリア転職（社員クチコミ）</a></td><td className="px-3 py-2">総合満足度 4.0 / 5.0</td><td className="px-3 py-2">クチコミ6件（すべて同じ回答者1名・事業企画・30代前半・中途入社・回答日2023年9月17日）</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://syukatsu-kaigi.jp/companies/169971" rel="nofollow noopener" target="_blank" className="text-petrol underline">就活会議（社員・元社員の評価）</a></td><td className="px-3 py-2">総合評価 3.3</td><td className="px-3 py-2">口コミ回答数1件（転職会議からの転載と表記）</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>OpenWork は、当サイトの取得環境から評点と件数を確認できなかったため掲載していません。</p>
+            <p className="text-xs text-slate-400">出典：上記2サイト（2026年11月23日確認）。評点は投稿者個人の主観で、回答者が1名のため会社全体の評価を表すものではありません。口コミの本文は転載していません。</p>
           </div>
         </section>
 
@@ -280,7 +290,7 @@ export default function LayerxCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">30代・40代エンジニアの視点</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 text-sm text-slate-700 leading-relaxed space-y-3">
             <p>LayerXの公開求人はシニア／専門領域が中心のため、<strong>30代・40代でアーキテクチャ設計・ドメイン専門性・AI実装の経験を持つ層はむしろマッチしやすい</strong>傾向があります。年齢そのものより、シニア要件を満たす実務実績が重視される設計です。</p>
-            <p>一方で、未経験領域（例: 機械学習未経験からのML職）への挑戦としては難度が上がります。家庭との両立という観点では、フルリモート・フレックスは利点となりますが、成長フェーズの繁忙の波は前提に置き、面談で実態を確認しておくのが現実的です。</p>
+            <p>一方で、未経験領域（例: 機械学習未経験からのML職）への挑戦としては難度が上がります。家庭との両立という観点では、リモートの可否・フレックスの運用・繁忙期の働き方をポジションごとに面談で確認しておくのが現実的です。</p>
             <p>40代での意思決定の進め方は<Link href="/knowledge/40s-reality/" className="text-petrol hover:underline">40代エンジニア転職の現実</Link>、自身の市場価値の測り方は<Link href="/knowledge/market-value/" className="text-petrol hover:underline">市場価値の調べ方</Link>も参考になります。</p>
           </div>
         </section>

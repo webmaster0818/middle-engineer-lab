@@ -10,6 +10,21 @@ export const metadata: Metadata = {
     "30代・40代ITエンジニア向けに、転職エージェント・ハイクラススカウト・スキル可視化スカウト・フリーランスエージェントの評判と使い分けをタイプ別に整理します。各サービスの強み・向き不向きを比較できます。",
 };
 
+const ratingRows: { name: string; slug: string; source: string; url: string; score: string; count: string }[] = [
+  { name: "doda", slug: "doda-it", source: "App Store「転職 doda」（PERSOL CAREER）", url: "https://apps.apple.com/jp/app/id1459350082", score: "4.4", count: "90,815件" },
+  { name: "ビズリーチ", slug: "bizreach-it", source: "App Store「転職 ビズリーチ」（BizReach）", url: "https://apps.apple.com/jp/app/id972002786", score: "4.6", count: "65,544件" },
+  { name: "Wantedly", slug: "wantedly", source: "App Store「Wantedly」（WANTEDLY）", url: "https://apps.apple.com/jp/app/id804727886", score: "4.6", count: "15,540件" },
+  { name: "リクルートエージェント", slug: "recruit-it", source: "App Store「転職 リクルートエージェント」（INDEED RECRUIT PARTNERS）", url: "https://apps.apple.com/jp/app/id6499424428", score: "4.4", count: "3,349件" },
+  { name: "リクルートダイレクトスカウト", slug: "recruit-direct-scout", source: "App Store（INDEED RECRUIT PARTNERS）", url: "https://apps.apple.com/jp/app/id6479983775", score: "4.4", count: "1,228件" },
+  { name: "Green", slug: "green", source: "App Store「Green」（Atrae）", url: "https://apps.apple.com/jp/app/id1444728748", score: "4.4", count: "1,210件" },
+  { name: "type転職エージェント", slug: "type-agent", source: "App Store「type転職エージェント」（Career Design Center）", url: "https://apps.apple.com/jp/app/id1511106786", score: "4.6", count: "514件" },
+  { name: "マイナビIT AGENT", slug: "mynavi-it", source: "App Store「マイナビ転職エージェント」（Mynavi）", url: "https://apps.apple.com/jp/app/id1672526773", score: "3.6", count: "314件" },
+  { name: "doda X", slug: "doda-x", source: "App Store「doda X」（PERSOL CAREER）", url: "https://apps.apple.com/jp/app/id6744312646", score: "3.5", count: "33件（少数）" },
+  { name: "PE-BANK", slug: "pe-bank", source: "フリーランススタート（2026年11月21日確認）", url: "https://freelance-start.com/agents/40/review", score: "3.8", count: "32件（少数）" },
+  { name: "LAPRAS", slug: "lapras", source: "App Store「LAPRAS」（LAPRAS）", url: "https://apps.apple.com/jp/app/id6756289434", score: "4.9", count: "9件（少数）" },
+  { name: "レバテックキャリア", slug: "levtech", source: "App Store「レバテックキャリア」（leverages）", url: "https://apps.apple.com/jp/app/id6795057883", score: "5.0", count: "4件（少数）" },
+];
+
 const categories = [
   {
     name: "IT特化・総合エージェント（担当が求人を提案）",
@@ -123,9 +138,9 @@ export default function ReviewIndexPage() {
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
           30代・40代のITエンジニア向けに、転職エージェント／ハイクラススカウト／スキル可視化スカウト／フリーランスエージェントなど計{allItems.length}サービスの評判と使い分けをタイプ別に整理しました。サービスは「型」で性質が大きく異なります。まず自分に合う型を選び、各サービスの詳細評判を確認してください。
         </p>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年6月</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年11月23日</p>
 
-        <DataNote surveyedAt="2026年6月" sources={["各サービス公式サイト", "口コミプラットフォーム（OpenWork・みん評等）の傾向"]} />
+        <DataNote surveyedAt="2026年11月" sources={["各サービス公式サイト", "App Store 評価・フリーランススタート（2026年11月23日確認）"]} />
 
         <nav aria-label="目次" className="mb-10 bg-slate-50 border border-slate-200 rounded-xl p-5">
           <p className="font-bold text-slate-700 text-sm mb-3">サービスのタイプ</p>
@@ -156,6 +171,34 @@ export default function ReviewIndexPage() {
             </div>
           </section>
         ))}
+
+        <section id="ratings" className="mb-10">
+          <h2 className="text-xl font-bold text-slate-800 mb-2">口コミ・評判の掲載状況（第三者の評点・2026年11月23日確認）</h2>
+          <p className="text-sm text-slate-600 mb-4">各サービスの公式アプリの App Store 評価と、第三者の口コミサイトの評点のうち、当サイトで件数まで確認できたものです。アプリの評価は「アプリの使い勝手」を含む点数で、エージェントの支援そのものの評価とは一致しない場合があります。件数が100件未満のものは参考値です。</p>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-slate-200">
+              <thead className="bg-slate-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">サービス</th>
+                  <th className="px-3 py-2 text-left">評点（5点満点）</th>
+                  <th className="px-3 py-2 text-left">件数</th>
+                  <th className="px-3 py-2 text-left">出典</th>
+                </tr>
+              </thead>
+              <tbody>
+                {ratingRows.map((r) => (
+                  <tr key={r.slug} className="border-t border-slate-200">
+                    <td className="px-3 py-2"><Link href={`/review/${r.slug}/`} className="text-petrol hover:underline">{r.name}</Link></td>
+                    <td className="px-3 py-2">{r.score}</td>
+                    <td className="px-3 py-2">{r.count}</td>
+                    <td className="px-3 py-2 text-xs"><a href={r.url} rel="nofollow noopener" target="_blank" className="underline">{r.source}</a></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-400">App Store の値は2026年11月23日に Apple の検索API（日本のストア）で取得し、開発元が運営会社と一致するアプリだけを載せています。この表に無いサービス（Geekly・JACリクルートメント・転職ドラフト・Findy・Forkwell・paiza・ユニゾンキャリアなど）は、公式アプリが見つからないか、件数を確認できる第三者の評点が無かったものです。口コミの本文は転載していません。</p>
+        </section>
 
         <section className="mb-4">
           <h2 className="text-lg font-bold text-slate-800 mb-4">関連ガイド</h2>
