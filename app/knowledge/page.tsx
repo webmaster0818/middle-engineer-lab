@@ -156,6 +156,10 @@ const knowledgeCategories = [
       { name: "アジャイル開発とは", href: "/knowledge/agile/", desc: "アジャイル宣言の4つの価値、スクラムの時間枠、IPAモデル契約の考え方を整理します。" },
       { name: "OSSとは", href: "/knowledge/oss/", desc: "OSIのオープンソースの定義10項目と、ライセンス一覧126件の分類を整理します。" },
       { name: "Society 5.0とは", href: "/knowledge/society5/", desc: "内閣府の定義、第5期〜第7期基本計画での位置づけと研究開発投資の目標・実績を整理します。" },
+      { name: "ITコンサルタントとは", href: "/knowledge/it-consultant/", desc: "IPAの人材像と役割、ITストラテジスト試験の合格率の推移、職種別の賃金を整理します。" },
+      { name: "SREとは", href: "/knowledge/sre/", desc: "Googleの定義、SLI・SLO・SLAの違い、可用性目標ごとの許容停止時間を整理します。" },
+      { name: "DevOpsとは", href: "/knowledge/devops/", desc: "AWSの定義、DORAの5つの指標、SREとの関係を整理します。" },
+      { name: "JavaとJavaScriptの違い", href: "/knowledge/java-javascript/", desc: "言語仕様にもとづく型と実行の違い、Javaのサポート期限、ECMAScriptの版、利用率を比較します。" },
     ],
   },
 ];
