@@ -160,6 +160,10 @@ const knowledgeCategories = [
       { name: "SREとは", href: "/knowledge/sre/", desc: "Googleの定義、SLI・SLO・SLAの違い、可用性目標ごとの許容停止時間を整理します。" },
       { name: "DevOpsとは", href: "/knowledge/devops/", desc: "AWSの定義、DORAの5つの指標、SREとの関係を整理します。" },
       { name: "JavaとJavaScriptの違い", href: "/knowledge/java-javascript/", desc: "言語仕様にもとづく型と実行の違い、Javaのサポート期限、ECMAScriptの版、利用率を比較します。" },
+      { name: "求人票の見方", href: "/knowledge/job-posting/", desc: "法令で決まった明示事項11項目、2024年4月の追加項目、労働条件通知書との違いを整理します。" },
+      { name: "フロントエンドとバックエンドの違い", href: "/knowledge/frontend-backend/", desc: "役割と技術の違い、開発者調査の職種構成とWebフレームワークの利用率を比較します。" },
+      { name: "社内SEとは", href: "/knowledge/shanai-se/", desc: "IT人材の所属の日米比較、内製化の状況、IT部門の人員見通しを調査で整理します。" },
+      { name: "ブロックチェーンの仕組み", href: "/knowledge/blockchain/", desc: "NISTの定義、ビットコインとイーサリアムの数値、日本の暗号資産の定義を整理します。" },
     ],
   },
 ];
