@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/sansan/" },
   title: "Sansanの年収は平均780万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "Sansan（4443）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収780万円(2025年5月期)、Bill Oneの技術スタック、選考フロー、口コミ傾向、30代40代視点までを解説します。",
+    "Sansan（4443）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収780万円(2025年5月期)、Bill Oneの技術スタック、選考フロー、口コミサイトの評点、30代40代視点までを解説します。",
 };
 
 const toc = [
@@ -19,7 +19,7 @@ const toc = [
   { id: "salary", label: "年収データ（有価証券報告書）" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
-  { id: "review", label: "口コミ・評判の傾向" },
+  { id: "review", label: "口コミ・評判の掲載状況" },
   { id: "middle", label: "30代・40代から見たSansan" },
   { id: "agents", label: "Sansan転職におすすめのエージェント" },
   { id: "faq", label: "よくある質問" },
@@ -76,7 +76,7 @@ const faqs = [
   },
   {
     q: "Sansanは体育会系の文化と聞きましたが？",
-    a: "OpenWorkの口コミでは、営業組織は数字志向で体育会系的な雰囲気があるという声がある一方、エンジニア組織はフラットでメンバーの提案も取り込まれやすいという評価が見られます。組織・職種によって雰囲気は異なるため、カジュアル面談で実態を確認するとよいでしょう。",
+    a: "社員クチコミサイトの評点は、OpenWork 4.14（回答者307人）、就活会議 4.3（口コミ回答数287件）です（2026年11月24日確認・全職種の集計）。組織・職種によって雰囲気は異なるため、カジュアル面談で実態を確認するとよいでしょう。",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function SansanCompanyPage() {
     <>
       <ArticleJsonLd
         title="Sansan エンジニア転職ガイド"
-        description="Sansanへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収780万円(2025年5月期)、技術スタック、選考フロー、口コミ傾向までを解説します。"
+        description="Sansanへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収780万円(2025年5月期)、技術スタック、選考フロー、口コミサイトの評点までを解説します。"
         url="/company/sansan/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -114,7 +114,7 @@ export default function SansanCompanyPage() {
 
         <p className="text-slate-700 leading-relaxed mb-6">
           Sansan株式会社（証券コード4443・東証プライム）は、法人向け名刺管理「Sansan」や請求書受領「Bill One」などを展開するBtoB SaaSの代表的企業です。
-          このページでは、有価証券報告書・公式採用ページ・公式技術ブログといった一次情報をもとに、Sansanへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミ傾向を、
+          このページでは、有価証券報告書・公式採用ページ・公式技術ブログといった一次情報をもとに、Sansanへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミサイトの評点を、
           30代・40代のミドルエンジニア視点で整理します。確認できない数値は記載せず、出典を明示しています。
         </p>
 
@@ -124,7 +124,7 @@ export default function SansanCompanyPage() {
             "Sansan株式会社 有価証券報告書（2025年5月期）",
             "Sansan 採用情報（jp.corp-sansan.com）",
             "Sansan 技術本部 採用情報・Sansan Tech Blog",
-            "OpenWork（Sansan 社員クチコミ）",
+            "OpenWork・就活会議・ワンキャリア転職（評点・件数のみ・2026年11月24日確認）",
           ]}
         />
 
@@ -289,29 +289,23 @@ export default function SansanCompanyPage() {
         </section>
 
         <section id="review" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ・評判の傾向</h2>
-          <p className="text-slate-700 text-sm leading-relaxed mb-4">
-            OpenWork等の口コミプラットフォームに投稿された傾向を、出典を挙げて要約します（原文転載はしていません）。
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="border border-green-200 bg-green-50 rounded-lg p-5">
-              <h3 className="font-bold text-green-800 mb-2 text-sm">ポジティブな傾向</h3>
-              <ul className="space-y-1.5 text-sm text-green-900">
-                <li>エンジニアが優秀で、プロダクトの進化・アップデートが速いという評価（OpenWork）</li>
-                <li>フラットな組織で、メンバーの提案も組織として取り込まれるという声（OpenWork）</li>
-                <li>名刺管理で高い市場シェアを持ち、事業基盤が安定しているという評価（OpenWork）</li>
-              </ul>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">Sansanの口コミ・評判の掲載状況（2026年11月24日確認）</h2>
+          <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-3">
+            <p>第三者の社員クチコミサイトで、当サイトが確認できた評点と件数は次のとおりです。口コミの本文は転載・要約していません。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-slate-200">
+                <thead className="bg-slate-50">
+                  <tr><th className="px-3 py-2 text-left">サイト</th><th className="px-3 py-2 text-left">評点</th><th className="px-3 py-2 text-left">件数・回答者</th></tr>
+                </thead>
+                <tbody>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://www.openwork.jp/company.php?m_id=a0C1000000qckQU" rel="nofollow noopener" target="_blank" className="text-petrol underline">OpenWork（Sansan株式会社）</a></td><td className="px-3 py-2">社員による会社評価スコア 4.14</td><td className="px-3 py-2">回答者307人・社員クチコミ1,324件。同ページの集計値は月間残業時間23.7時間・有給休暇消化率77.8%</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://syukatsu-kaigi.jp/companies/125736" rel="nofollow noopener" target="_blank" className="text-petrol underline">就活会議（Sansan株式会社）</a></td><td className="px-3 py-2">総合評価 4.3</td><td className="px-3 py-2">口コミ回答数287件（転職会議からの転載と表記）</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://plus.onecareer.jp/companies/382/company_evaluations" rel="nofollow noopener" target="_blank" className="text-petrol underline">ワンキャリア転職（社員クチコミ）</a></td><td className="px-3 py-2">企業全体の評点は画面に表示されていません</td><td className="px-3 py-2">クチコミ225件</td></tr>
+                </tbody>
+              </table>
             </div>
-            <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
-              <h3 className="font-bold text-amber-800 mb-2 text-sm">ネガティブ・注意したい傾向</h3>
-              <ul className="space-y-1.5 text-sm text-amber-900">
-                <li>営業組織は数字志向で体育会系的な雰囲気があり、合う・合わないが分かれるという声（OpenWork）</li>
-                <li>独特の価値観・組織文化への適合が重要という指摘（OpenWork）</li>
-                <li>口コミは個人の主観であり、部署・職種・時期で実態は異なる点に注意</li>
-              </ul>
-            </div>
+            <p className="text-xs text-slate-400">出典：上記3サイト（2026年11月24日確認）。評点は投稿者個人の主観の集計で、部署・職種・時期によって実態は異なります。エンジニア職に限った値ではありません。</p>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: OpenWork（Sansan 社員クチコミ）。傾向の要約であり、評価は時期・部署により変動します。</p>
         </section>
 
         <section id="middle" className="mb-10 scroll-mt-20">

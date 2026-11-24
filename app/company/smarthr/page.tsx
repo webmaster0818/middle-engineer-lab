@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/smarthr/" },
   title: "SmartHR エンジニア転職ガイド｜年収・技術スタック・選考【2026年版】",
   description:
-    "SmartHRへのエンジニア転職について、公式採用ページ・技術ブログの一次情報をもとに解説します。非上場のため有価証券報告書はなく、公式求人の想定年収レンジ、Rails/React技術スタック、選考フロー、口コミ傾向、30代40代視点までをまとめました。",
+    "SmartHRへのエンジニア転職について、公式採用ページ・技術ブログの一次情報をもとに解説します。非上場のため有価証券報告書はなく、公式求人の想定年収レンジ、Rails/React技術スタック、選考フロー、口コミサイトの評点、30代40代視点までをまとめました。",
 };
 
 const toc = [
@@ -19,7 +19,7 @@ const toc = [
   { id: "salary", label: "年収データ（公式求人の提示レンジ）" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
-  { id: "review", label: "口コミ・評判の傾向" },
+  { id: "review", label: "口コミ・評判の掲載状況" },
   { id: "middle", label: "30代・40代から見たSmartHR" },
   { id: "agents", label: "SmartHR転職におすすめのエージェント" },
   { id: "faq", label: "よくある質問" },
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     q: "SmartHRはフルリモートで働ける？",
-    a: "SmartHRはフルフレックス・基本リモートの体制で、地方在住のエンジニアも在籍しています。ただしOpenWorkの口コミによると部署・職種によって出社頻度は異なり、ビジネス職など一部はハイブリッド形態の場合があります。最新の勤務条件は各求人で確認してください。",
+    a: "SmartHRはフルフレックス・基本リモートの体制で、地方在住のエンジニアも在籍しています。部署・職種によって勤務形態が異なる場合があります。最新の勤務条件は各求人で確認してください。",
   },
   {
     q: "SmartHRの開発文化の特徴は？",
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     q: "成果主義と聞きましたが年収は下がることもある？",
-    a: "OpenWorkの口コミでは、成果主義のため継続的に成果を出せないと年収が変動しうるという指摘が見られます。グロース期SaaSとして変化と成長のスピードが速い分、その環境を前向きに捉えられるかが定着のポイントになります。",
+    a: "評価制度と年収の決まり方は、公式の採用情報と面談で確認してください。グロース期SaaSとして変化と成長のスピードが速い分、その環境を前向きに捉えられるかが定着のポイントになります。",
   },
 ];
 
@@ -86,7 +86,7 @@ export default function SmarthrCompanyPage() {
     <>
       <ArticleJsonLd
         title="SmartHR エンジニア転職ガイド"
-        description="SmartHRへのエンジニア転職について、公式採用ページ・技術ブログの一次情報をもとに公式求人の想定年収レンジ、技術スタック、選考フロー、口コミ傾向までを解説します。"
+        description="SmartHRへのエンジニア転職について、公式採用ページ・技術ブログの一次情報をもとに公式求人の想定年収レンジ、技術スタック、選考フロー、口コミサイトの評点までを解説します。"
         url="/company/smarthr/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -105,7 +105,7 @@ export default function SmarthrCompanyPage() {
 
         <p className="text-slate-700 leading-relaxed mb-6">
           株式会社SmartHRは、人事・労務クラウド「SmartHR」を中心にHR領域のSaaSを展開する企業です。
-          このページでは、公式採用ページ・公式技術ブログ（SmartHR Tech Blog）・公開求人といった一次情報をもとに、SmartHRへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミ傾向を、
+          このページでは、公式採用ページ・公式技術ブログ（SmartHR Tech Blog）・公開求人といった一次情報をもとに、SmartHRへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミサイトの評点を、
           30代・40代のミドルエンジニア視点で整理します。<strong>SmartHRは非上場のため有価証券報告書による全社員平均年収は存在せず</strong>、年収は公式求人で提示された想定レンジのみを掲載します。
         </p>
 
@@ -116,7 +116,7 @@ export default function SmarthrCompanyPage() {
             "SmartHR エンジニア採用（hello-world.smarthr.co.jp）",
             "SmartHR Tech Blog",
             "doda 株式会社SmartHR 求人情報",
-            "OpenWork（SmartHR 社員クチコミ）",
+            "OpenWork・就活会議・ワンキャリア転職（評点・件数のみ・2026年11月24日確認）",
           ]}
         />
 
@@ -175,7 +175,7 @@ export default function SmarthrCompanyPage() {
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">オープンで透明性の高い情報共有文化</h3>
-              <p className="text-sm text-petrol-deep">エンジニア採用にあたりエージェント向け説明会の内容を技術ブログで公開するなど、選考情報の透明性が高いのが特徴です。社員クチコミでも「Slackで全部オープン、社内会話の透明性が高い」という声が見られます。フルフレックス・基本リモートで自律的に働けます。</p>
+              <p className="text-sm text-petrol-deep">エンジニア採用にあたりエージェント向け説明会の内容を技術ブログで公開するなど、選考情報の透明性が高いのが特徴です。フルフレックス・基本リモートで自律的に働けます。</p>
             </div>
           </div>
         </section>
@@ -281,29 +281,23 @@ export default function SmarthrCompanyPage() {
         </section>
 
         <section id="review" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ・評判の傾向</h2>
-          <p className="text-slate-700 text-sm leading-relaxed mb-4">
-            OpenWork等の口コミプラットフォームに投稿された傾向を、出典を挙げて要約します（原文転載はしていません）。
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="border border-green-200 bg-green-50 rounded-lg p-5">
-              <h3 className="font-bold text-green-800 mb-2 text-sm">ポジティブな傾向</h3>
-              <ul className="space-y-1.5 text-sm text-green-900">
-                <li>フルフレックス・基本リモートで働きやすいという声（OpenWork）</li>
-                <li>Slackで情報がオープンに共有され、透明性が高いというエンジニアの評価（OpenWork）</li>
-                <li>成果を出せば評価されやすい実力主義の環境という声（OpenWork）</li>
-              </ul>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">SmartHRの口コミ・評判の掲載状況（2026年11月24日確認）</h2>
+          <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-3">
+            <p>第三者の社員クチコミサイトで、当サイトが確認できた評点と件数は次のとおりです。口コミの本文は転載・要約していません。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-slate-200">
+                <thead className="bg-slate-50">
+                  <tr><th className="px-3 py-2 text-left">サイト</th><th className="px-3 py-2 text-left">評点</th><th className="px-3 py-2 text-left">件数・回答者</th></tr>
+                </thead>
+                <tbody>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://www.openwork.jp/company.php?m_id=a0C10000017Qi17" rel="nofollow noopener" target="_blank" className="text-petrol underline">OpenWork（株式会社SmartHR）</a></td><td className="px-3 py-2">社員による会社評価スコア 4.08</td><td className="px-3 py-2">回答者95人・社員クチコミ405件。同ページの集計値は月間残業時間26.9時間・有給休暇消化率74.7%</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://syukatsu-kaigi.jp/companies/170994" rel="nofollow noopener" target="_blank" className="text-petrol underline">就活会議（株式会社SmartHR）</a></td><td className="px-3 py-2">総合評価 4.3</td><td className="px-3 py-2">口コミ回答数35件（転職会議からの転載と表記）</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://plus.onecareer.jp/companies/89636/company_evaluations" rel="nofollow noopener" target="_blank" className="text-petrol underline">ワンキャリア転職（社員クチコミ）</a></td><td className="px-3 py-2">企業全体の評点は画面に表示されていません</td><td className="px-3 py-2">クチコミ67件</td></tr>
+                </tbody>
+              </table>
             </div>
-            <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
-              <h3 className="font-bold text-amber-800 mb-2 text-sm">ネガティブ・注意したい傾向</h3>
-              <ul className="space-y-1.5 text-sm text-amber-900">
-                <li>成果主義のため継続的に成果を出せないと年収が変動しうるという指摘（OpenWork）</li>
-                <li>変化・成長のスピードが速く、ついていく負荷を感じる人もいるという声（OpenWork）</li>
-                <li>部署・職種によるリモート可否の差（一部はハイブリッド勤務）</li>
-              </ul>
-            </div>
+            <p className="text-xs text-slate-400">出典：上記3サイト（2026年11月24日確認）。評点は投稿者個人の主観の集計で、部署・職種・時期によって実態は異なります。エンジニア職に限った値ではありません。</p>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: OpenWork（SmartHR 社員クチコミ）。傾向の要約であり、評価は時期・部署により変動します。</p>
         </section>
 
         <section id="middle" className="mb-10 scroll-mt-20">

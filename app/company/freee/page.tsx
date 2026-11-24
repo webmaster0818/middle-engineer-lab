@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/freee/" },
   title: "freeeの年収は平均688万円【2026年・有報】エンジニア転職・技術スタック解説",
   description:
-    "freee（4478）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収688万円(2025年6月期)、技術スタック、選考フロー、口コミ傾向、30代40代の進め方までを解説します。",
+    "freee（4478）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収688万円(2025年6月期)、技術スタック、選考フロー、口コミサイトの評点、30代40代の進め方までを解説します。",
 };
 
 const toc = [
@@ -19,7 +19,7 @@ const toc = [
   { id: "salary", label: "年収データ（有価証券報告書・公式求人）" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
-  { id: "review", label: "口コミ・評判の傾向" },
+  { id: "review", label: "口コミ・評判の掲載状況" },
   { id: "middle", label: "30代・40代から見たfreee" },
   { id: "agents", label: "freee転職におすすめのエージェント" },
   { id: "faq", label: "よくある質問" },
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "freeeはリモートワークできますか？残業は多いですか？",
-    a: "freeeはフレックスタイム制とリモートワークを併用できる体制を採っています。OpenWorkの社員クチコミでは、エンジニア職は比較的残業が少ないという声が見られますが、職種・時期によって変動します。最新の勤務条件は応募時に各求人で確認してください。",
+    a: "freeeはフレックスタイム制とリモートワークを併用できる体制を採っています。OpenWork の集計値（2026年11月24日確認・回答者285人）では、月間残業時間23.4時間、有給休暇消化率81.1%です（全職種の集計）。職種・時期によって変動します。最新の勤務条件は応募時に各求人で確認してください。",
   },
   {
     q: "freeeへの転職で有利になる経験を教えてください。",
@@ -95,7 +95,7 @@ export default function FreeeCompanyPage() {
     <>
       <ArticleJsonLd
         title="freee エンジニア転職ガイド"
-        description="freeeへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収688万円(2025年6月期)、技術スタック、選考フロー、口コミ傾向までを解説します。"
+        description="freeeへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収688万円(2025年6月期)、技術スタック、選考フロー、口コミサイトの評点までを解説します。"
         url="/company/freee/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -114,7 +114,7 @@ export default function FreeeCompanyPage() {
 
         <p className="text-slate-700 leading-relaxed mb-6">
           freee株式会社（証券コード4478・東証グロース）は、クラウド会計「freee会計」やクラウド人事労務などを展開する統合型バックオフィスSaaSの代表的企業です。
-          このページでは、有価証券報告書・公式採用ページ・公式技術ブログといった一次情報をもとに、freeeへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミ傾向を、
+          このページでは、有価証券報告書・公式採用ページ・公式技術ブログといった一次情報をもとに、freeeへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミサイトの評点を、
           30代・40代のミドルエンジニア視点で整理します。確認できない数値は記載せず、出典を明示しています。
         </p>
 
@@ -124,7 +124,7 @@ export default function FreeeCompanyPage() {
             "freee株式会社 有価証券報告書（2025年6月期）",
             "freee 採用情報（jobs.freee.co.jp）",
             "freee Developers Hub",
-            "OpenWork（フリー 社員クチコミ）",
+            "OpenWork・就活会議・ワンキャリア転職（評点・件数のみ・2026年11月24日確認）",
           ]}
         />
 
@@ -287,29 +287,23 @@ export default function FreeeCompanyPage() {
         </section>
 
         <section id="review" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ・評判の傾向</h2>
-          <p className="text-slate-700 text-sm leading-relaxed mb-4">
-            OpenWork等の口コミプラットフォームに投稿された傾向を、出典を挙げて要約します（原文転載はしていません）。
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="border border-green-200 bg-green-50 rounded-lg p-5">
-              <h3 className="font-bold text-green-800 mb-2 text-sm">ポジティブな傾向</h3>
-              <ul className="space-y-1.5 text-sm text-green-900">
-                <li>「やりたい仕事を任せてもらえる」「マルチプロダクト開発に関われる」という働きがいの声（OpenWork）</li>
-                <li>ビジネスモデルと事業内容の一貫性、働きやすい環境を入社理由に挙げる声（OpenWork）</li>
-                <li>エンジニア職は残業が比較的少ないという投稿（OpenWork）</li>
-              </ul>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">freeeの口コミ・評判の掲載状況（2026年11月24日確認）</h2>
+          <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-3">
+            <p>第三者の社員クチコミサイトで、当サイトが確認できた評点と件数は次のとおりです。口コミの本文は転載・要約していません。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-slate-200">
+                <thead className="bg-slate-50">
+                  <tr><th className="px-3 py-2 text-left">サイト</th><th className="px-3 py-2 text-left">評点</th><th className="px-3 py-2 text-left">件数・回答者</th></tr>
+                </thead>
+                <tbody>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://www.openwork.jp/company.php?m_id=a0C1000000sgO4l" rel="nofollow noopener" target="_blank" className="text-petrol underline">OpenWork（フリー株式会社）</a></td><td className="px-3 py-2">社員による会社評価スコア 3.95</td><td className="px-3 py-2">回答者285人・社員クチコミ1,330件。同ページの集計値は月間残業時間23.4時間・有給休暇消化率81.1%</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://syukatsu-kaigi.jp/companies/165737" rel="nofollow noopener" target="_blank" className="text-petrol underline">就活会議（フリー株式会社）</a></td><td className="px-3 py-2">総合評価 4.0</td><td className="px-3 py-2">口コミ回答数214件（転職会議からの転載と表記）</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://plus.onecareer.jp/companies/383/company_evaluations" rel="nofollow noopener" target="_blank" className="text-petrol underline">ワンキャリア転職（社員クチコミ）</a></td><td className="px-3 py-2">企業全体の評点は画面に表示されていません</td><td className="px-3 py-2">クチコミ88件</td></tr>
+                </tbody>
+              </table>
             </div>
-            <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
-              <h3 className="font-bold text-amber-800 mb-2 text-sm">ネガティブ・注意したい傾向</h3>
-              <ul className="space-y-1.5 text-sm text-amber-900">
-                <li>成果主義のため評価により昇給・賞与の幅が大きく、安定的な昇給を期待する人には合わない場合があります（OpenWork）</li>
-                <li>事業環境の変化が速く、プロダクトや組織の変化への適応が求められます</li>
-                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意が必要です</li>
-              </ul>
-            </div>
+            <p className="text-xs text-slate-400">出典：上記3サイト（2026年11月24日確認）。評点は投稿者個人の主観の集計で、部署・職種・時期によって実態は異なります。エンジニア職に限った値ではありません。</p>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: OpenWork（フリー 社員クチコミ）。傾向の要約であり、評価は時期・部署により変動します。</p>
         </section>
 
         <section id="middle" className="mb-10 scroll-mt-20">

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/moneyforward/" },
   title: "マネーフォワードの年収は平均723万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "マネーフォワード（3994）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収723万円(2025年11月期)、Ruby/Go/Kotlinの技術スタック、選考フロー、口コミ傾向、30代40代視点までを解説します。",
+    "マネーフォワード（3994）へのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収723万円(2025年11月期)、Ruby/Go/Kotlinの技術スタック、選考フロー、口コミサイトの評点、30代40代視点までを解説します。",
 };
 
 const toc = [
@@ -19,7 +19,7 @@ const toc = [
   { id: "salary", label: "年収データ（有価証券報告書）" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
-  { id: "review", label: "口コミ・評判の傾向" },
+  { id: "review", label: "口コミ・評判の掲載状況" },
   { id: "middle", label: "30代・40代から見たマネーフォワード" },
   { id: "agents", label: "転職におすすめのエージェント" },
   { id: "faq", label: "よくある質問" },
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "マネーフォワードのワークライフバランスは？",
-    a: "フレックス・リモートワークに対応しており、OpenWorkの口コミではエンジニア職は有給取得率が高い傾向が見られます。一方で部署によっては繁忙期に残業が増えるという声もあり、職種・時期で差があります。最新の勤務条件は各求人で確認してください。",
+    a: "フレックス・リモートワークに対応しており、OpenWork の集計値（2026年11月24日確認・回答者218人）では、月間残業時間23.2時間、有給休暇消化率74.2%です（全職種の集計）。職種・時期で差があります。最新の勤務条件は各求人で確認してください。",
   },
   {
     q: "マネーフォワードへの転職で有利な経験は？",
@@ -95,7 +95,7 @@ export default function MoneyforwardCompanyPage() {
     <>
       <ArticleJsonLd
         title="マネーフォワード エンジニア転職ガイド"
-        description="マネーフォワードへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収723万円(2025年11月期)、技術スタック、選考フロー、口コミ傾向までを解説します。"
+        description="マネーフォワードへのエンジニア転職について、有価証券報告書・公式採用ページの一次情報をもとに平均年収723万円(2025年11月期)、技術スタック、選考フロー、口コミサイトの評点までを解説します。"
         url="/company/moneyforward/"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -114,7 +114,7 @@ export default function MoneyforwardCompanyPage() {
 
         <p className="text-slate-700 leading-relaxed mb-6">
           株式会社マネーフォワード（証券コード3994・東証プライム）は、個人向け家計簿アプリ「マネーフォワード ME」や法人向けクラウドサービス「マネーフォワード クラウド」などを展開するフィンテックSaaSの代表的企業です。
-          このページでは、有価証券報告書・公式採用ページ・公式技術ブログといった一次情報をもとに、マネーフォワードへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミ傾向を、
+          このページでは、有価証券報告書・公式採用ページ・公式技術ブログといった一次情報をもとに、マネーフォワードへのエンジニア転職の難易度・年収・技術スタック・選考フロー・口コミサイトの評点を、
           30代・40代のミドルエンジニア視点で整理します。確認できない数値は記載せず、出典を明示しています。
         </p>
 
@@ -124,7 +124,7 @@ export default function MoneyforwardCompanyPage() {
             "株式会社マネーフォワード 有価証券報告書（2025年11月期）",
             "マネーフォワード 採用情報（recruit.moneyforward.com）",
             "マネーフォワード 公式技術ブログ",
-            "OpenWork（マネーフォワード 社員クチコミ）",
+            "OpenWork・就活会議・ワンキャリア転職（評点・件数のみ・2026年11月24日確認）",
           ]}
         />
 
@@ -287,29 +287,23 @@ export default function MoneyforwardCompanyPage() {
         </section>
 
         <section id="review" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミ・評判の傾向</h2>
-          <p className="text-slate-700 text-sm leading-relaxed mb-4">
-            OpenWork等の口コミプラットフォームに投稿された傾向を、出典を挙げて要約します（原文転載はしていません）。
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="border border-green-200 bg-green-50 rounded-lg p-5">
-              <h3 className="font-bold text-green-800 mb-2 text-sm">ポジティブな傾向</h3>
-              <ul className="space-y-1.5 text-sm text-green-900">
-                <li>事業成長が速く、テレワーク・フレックスなど柔軟な働き方が整っているという声（OpenWork）</li>
-                <li>フラットで風通しが良いという評価が複数（OpenWork）</li>
-                <li>高い技術力と、成果を出せば昇進が早いという働きがいの声（OpenWork）</li>
-              </ul>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">マネーフォワードの口コミ・評判の掲載状況（2026年11月24日確認）</h2>
+          <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-3">
+            <p>第三者の社員クチコミサイトで、当サイトが確認できた評点と件数は次のとおりです。口コミの本文は転載・要約していません。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-slate-200">
+                <thead className="bg-slate-50">
+                  <tr><th className="px-3 py-2 text-left">サイト</th><th className="px-3 py-2 text-left">評点</th><th className="px-3 py-2 text-left">件数・回答者</th></tr>
+                </thead>
+                <tbody>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://www.openwork.jp/company.php?m_id=a0C1000000sgO47" rel="nofollow noopener" target="_blank" className="text-petrol underline">OpenWork（株式会社マネーフォワード）</a></td><td className="px-3 py-2">社員による会社評価スコア 4.04</td><td className="px-3 py-2">回答者218人・社員クチコミ977件。同ページの集計値は月間残業時間23.2時間・有給休暇消化率74.2%</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://syukatsu-kaigi.jp/companies/146331" rel="nofollow noopener" target="_blank" className="text-petrol underline">就活会議（株式会社マネーフォワード）</a></td><td className="px-3 py-2">総合評価 4.0</td><td className="px-3 py-2">口コミ回答数193件（転職会議からの転載と表記）</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://plus.onecareer.jp/companies/6822/company_evaluations" rel="nofollow noopener" target="_blank" className="text-petrol underline">ワンキャリア転職（社員クチコミ）</a></td><td className="px-3 py-2">企業全体の評点は画面に表示されていません</td><td className="px-3 py-2">クチコミ227件</td></tr>
+                </tbody>
+              </table>
             </div>
-            <div className="border border-amber-200 bg-amber-50 rounded-lg p-5">
-              <h3 className="font-bold text-amber-800 mb-2 text-sm">ネガティブ・注意したい傾向</h3>
-              <ul className="space-y-1.5 text-sm text-amber-900">
-                <li>スピードについていけず苦しく感じる人もいるという指摘（OpenWork）</li>
-                <li>部署によっては繁忙期に残業が増えるという声（OpenWork）</li>
-                <li>口コミは個人の主観であり、部署・時期で実態は異なる点に注意</li>
-              </ul>
-            </div>
+            <p className="text-xs text-slate-400">出典：上記3サイト（2026年11月24日確認）。評点は投稿者個人の主観の集計で、部署・職種・時期によって実態は異なります。エンジニア職に限った値ではありません。</p>
           </div>
-          <p className="text-xs text-slate-400 mt-2">出典: OpenWork（マネーフォワード 社員クチコミ）。傾向の要約であり、評価は時期・部署により変動します。</p>
         </section>
 
         <section id="middle" className="mb-10 scroll-mt-20">

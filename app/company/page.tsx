@@ -36,7 +36,7 @@ const categories = [
       { slug: "dena", name: "DeNA", salary: "600〜1,100万円", tech: "Go / Python / AWS / Unity", desc: "ゲーム・ヘルスケア・モビリティと多角的に事業を展開しています。" },
       { slug: "recruit", name: "リクルート", salary: "650〜1,100万円", tech: "Java / React / GCP / Python", desc: "事業ドメインが広く、データ活用に積極的です。" },
       { slug: "zozo", name: "ZOZO", salary: "600〜1,000万円", tech: "Go / Kotlin / AWS / Microservices", desc: "ファッションECの技術刷新を進めており、研究組織も有しています。" },
-      { slug: "visional", name: "Visional（ビズリーチ）", salary: "600〜1,000万円", tech: "Scala / TypeScript / AWS / Kubernetes", desc: "HR Tech領域で事業を展開し、プロダクト志向のエンジニア組織を持ちます。" },
+      { slug: "visional", name: "Visional（ビズリーチ）", salary: "全社平均861万円(2025/7)", tech: "Scala / TypeScript / AWS / Kubernetes", desc: "HR Tech領域で事業を展開し、プロダクト志向のエンジニア組織を持ちます。" },
       { slug: "softbank", name: "ソフトバンク", salary: "600〜1,000万円", tech: "Java / Python / AWS / AI/ML", desc: "通信×AIを軸に、大規模インフラと新規事業の両面で事業を進めています。" },
       { slug: "smartnews", name: "SmartNews", salary: "公式平均は非公開", tech: "Java / Scala / Spark / AWS", desc: "大規模配信×機械学習を少数精鋭で支えるメディアテックです。" },
       { slug: "gmo-internet", name: "GMOインターネットグループ", salary: "持株693万円(2024/12)", tech: "Go / PHP / Java / TypeScript / AWS", desc: "ドメイン・クラウド・決済・金融の基盤を支える持株会社です。" },
@@ -47,12 +47,12 @@ const categories = [
     name: "SaaS・フィンテック",
     intro: "プロダクト改善とドメイン知識が両立する成長企業群です。年収は高めの水準が中心です。",
     companies: [
-      { slug: "freee", name: "freee", salary: "600〜1,000万円", tech: "Ruby / React / GCP / Kubernetes", desc: "会計SaaSの先駆けで、開発文化の発信に積極的です。" },
-      { slug: "smarthr", name: "SmartHR", salary: "600〜1,000万円", tech: "Ruby / React / AWS / GraphQL", desc: "労務SaaSで急成長した企業で、アクセシビリティを重視した開発を行っています。" },
-      { slug: "moneyforward", name: "マネーフォワード", salary: "600〜950万円", tech: "Ruby / Go / React / AWS", desc: "家計・バックオフィスSaaSを多数展開しています。" },
-      { slug: "sansan", name: "Sansan", salary: "600〜950万円", tech: "Kotlin / TypeScript / AWS / ML", desc: "名刺・契約管理SaaSです。データ活用に強みがあります。" },
-      { slug: "plaid", name: "プレイド", salary: "600〜1,000万円", tech: "Go / TypeScript / GCP / BigQuery", desc: "CX領域のデータ処理基盤に技術的な先進性があります。" },
-      { slug: "layerx", name: "LayerX", salary: "600〜1,000万円", tech: "Go / TypeScript / AWS / Blockchain", desc: "業務効率化SaaSとフィンテックを推進しています。" },
+      { slug: "freee", name: "freee", salary: "全社平均688万円(2025/6)", tech: "Ruby / React / GCP / Kubernetes", desc: "会計SaaSの先駆けで、開発文化の発信に積極的です。" },
+      { slug: "smarthr", name: "SmartHR", salary: "非開示(非上場)", tech: "Ruby / React / AWS / GraphQL", desc: "労務SaaSで急成長した企業で、アクセシビリティを重視した開発を行っています。" },
+      { slug: "moneyforward", name: "マネーフォワード", salary: "全社平均723万円(2025/11)", tech: "Ruby / Go / React / AWS", desc: "家計・バックオフィスSaaSを多数展開しています。" },
+      { slug: "sansan", name: "Sansan", salary: "全社平均780万円(2025/5)", tech: "Kotlin / TypeScript / AWS / ML", desc: "名刺・契約管理SaaSです。データ活用に強みがあります。" },
+      { slug: "plaid", name: "プレイド", salary: "全社平均939万円(2025/9)", tech: "Go / TypeScript / GCP / BigQuery", desc: "CX領域のデータ処理基盤に技術的な先進性があります。" },
+      { slug: "layerx", name: "LayerX", salary: "非開示(非上場)", tech: "Go / TypeScript / AWS / Blockchain", desc: "業務効率化SaaSとフィンテックを推進しています。" },
       { slug: "paypay", name: "PayPay", salary: "公式平均は非公開", tech: "Java / Spring Boot / Kubernetes / AWS", desc: "国内最大級の決済基盤を運営し、英語を使う多国籍な開発組織を持ちます。" },
       { slug: "ubie", name: "Ubie（ユビー）", salary: "職種別レンジ（公式）", tech: "Go / Node.js / TypeScript / GCP", desc: "医師とエンジニアが創業したヘルステック企業で、採用は年齢不問・要件主義です。" },
       { slug: "kakehashi", name: "カケハシ", salary: "参考値（非公式集計）", tech: "TypeScript / React / Node.js / AWS", desc: "薬局DXを手がけ、TypeScriptで一貫したサーバーレス構成を採用しています。選考フローも公開しています。" },
@@ -217,7 +217,7 @@ export default function CompanyIndexPage() {
         />
 
         <p className="text-slate-500 text-sm mb-8">
-          最終更新: 2026年6月｜年収レンジは公式求人の提示レンジや口コミサイト集計値の傾向であり、職種・等級により変動します。
+          最終更新: 2026年11月24日｜「全社平均」と書いた年収は有価証券報告書の全従業員平均（決算期を併記）で、エンジニア職に限った値ではありません。幅で示した年収は公式求人の提示レンジや口コミサイト集計値の傾向で、当サイトで出典の確認を順に進めています。職種・等級により変動します。
         </p>
 
         {/* 目次 */}

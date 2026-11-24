@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/plaid/" },
   title: "プレイドの年収は平均939万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "プレイド（東証グロース・4165）のエンジニア中途採用を一次情報で解説します。有価証券報告書の平均年収、KARTEの技術スタック、選考フロー、口コミ傾向、30代40代の転職可否までまとめました。",
+    "プレイド（東証グロース・4165）のエンジニア中途採用を一次情報で解説します。有価証券報告書の平均年収、KARTEの技術スタック、選考フロー、口コミサイトの評点、30代40代の転職可否までまとめました。",
 };
 
 const tableRows: [string, string][] = [
@@ -24,7 +24,7 @@ const sources = [
   "プレイド 有価証券報告書（2025年9月期、IRBANK集計）",
   "PLAID 採用情報（recruit.plaid.co.jp）",
   "PLAID Engineer Blog（tech.plaid.co.jp）",
-  "OpenWork・転職会議 等の口コミ傾向",
+  "OpenWork・就活会議・ワンキャリア転職（評点・件数のみ・2026年11月24日確認）",
 ];
 
 const salaryHistory: [string, string, string][] = [
@@ -47,11 +47,11 @@ const techStack = [
 const faqs = [
   {
     q: "プレイドのエンジニア転職難易度は高い？",
-    a: "KARTEは毎秒大量のイベントをリアルタイム処理する技術的難度の高いプロダクトで、設計力・データ処理経験が問われるため難易度は高めです。一方で公開選考体験談ではポテンシャルも見られる傾向があり、TypeScript／Node.jsやデータ基盤の実務経験があるミドル層にも十分に機会があります。",
+    a: "KARTEは毎秒大量のイベントをリアルタイム処理する技術的難度の高いプロダクトで、設計力・データ処理経験が問われるため難易度は高めです。TypeScript／Node.js やデータ基盤の実務経験は、公式の募集要項で求められる経験と照らし合わせてご確認ください。",
   },
   {
     q: "プレイドのエンジニア年収はどのくらい？",
-    a: "有価証券報告書（2025年9月期）の全社員平均年収は939万円（平均年齢35.2歳）です。これは全社員平均であり、職種・グレードにより差があります。OpenWork等の口コミではエンジニア職の体感レンジに幅があるとの声もあるため、正確な提示額は公式求人・面談で確認してください。",
+    a: "有価証券報告書（2025年9月期）の全社員平均年収は939万円（平均年齢35.2歳）です。これは全社員平均であり、職種・グレードにより差があります。正確な提示額は公式求人・面談で確認してください。",
   },
   {
     q: "KARTEとはどんなプロダクト？",
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     q: "プレイドは残業が多い？働き方は？",
-    a: "OpenWorkの集計（2026年時点）では月平均残業はおおむね26時間前後、有休消化率は約72%とインターネット業界平均並みとされ、フレックスを活用しやすいとの声があります。一方で繁忙の波があるとの指摘もあり、部署・時期による差は前提に考えるのが現実的です。",
+    a: "OpenWork の集計値（2026年11月24日確認・回答者24人）では、月間残業時間22.9時間、有給休暇消化率79.9%です。全職種の回答者の集計でエンジニア職に限った値ではないため、部署・時期による差は面談で確認するのが現実的です。",
   },
   {
     q: "プレイドへの転職で有利な経験は？",
@@ -87,7 +87,7 @@ const toc = [
   { id: "salary", label: "年収データ" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
-  { id: "review", label: "口コミの傾向" },
+  { id: "review", label: "口コミ・評判の掲載状況" },
   { id: "middle", label: "30代・40代の視点" },
   { id: "fit", label: "向いている人・向いていない人" },
   { id: "agents", label: "おすすめエージェント" },
@@ -124,7 +124,7 @@ export default function PlaidCompanyPage() {
 
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
           株式会社プレイド（証券コード4165）は、Webサイト・アプリの訪問者をリアルタイム解析するCXプラットフォーム「KARTE」を提供する上場テック企業です。
-          本ガイドでは、有価証券報告書・公式採用ページ・技術ブログ・口コミサイトの傾向という一次／公開情報のみをもとに、エンジニア転職の実像を整理します。
+          本ガイドでは、有価証券報告書・公式採用ページ・技術ブログと、出典・件数を確認できた口コミサイトの評点をもとに、エンジニア転職の実像を整理します。
           確認できない等級別の年収表や面接質問の断定は掲載していません。
         </p>
 
@@ -253,9 +253,9 @@ export default function PlaidCompanyPage() {
         </section>
 
         <section id="interview" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・口コミ傾向）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報）</h2>
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
-            <p className="mb-3">公開情報・口コミの傾向からは、リアルタイム処理という事業特性に直結する技術的な思考力と、裁量の大きい環境で自走できるかが見られやすいポイントです。</p>
+            <p className="mb-3">公式の採用情報で示されている事業特性（リアルタイム処理）からは、次の点が確認されやすいと考えられます（当サイトの整理）。</p>
             <ul className="space-y-1.5">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>システム設計・データ処理に関する技術的な議論</li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>裁量の大きい環境での自走力・課題解決の進め方</li>
@@ -266,11 +266,22 @@ export default function PlaidCompanyPage() {
         </section>
 
         <section id="review" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミの傾向（出典名を明記した要約）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">プレイドの口コミ・評判の掲載状況（2026年11月24日確認）</h2>
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-3">
-            <p><strong>良い評価の傾向：</strong>OpenWork・転職会議等の口コミプラットフォームでは、(1)個人が持てる裁量が大きい、(2)職場の人間関係・チームワークが良い、(3)フレックスで働き方を調整しやすい、といった声が見られます（2026年時点）。</p>
-            <p><strong>気をつけたい点の傾向：</strong>同サイトでは、(1)激務の波があり安定した稼働を保ちにくい時期がある、(2)トップダウンで物事が決まる側面がある、といった指摘も見られます。月平均残業はおおむね26時間前後、有休消化率は約72%との集計です。</p>
-            <p className="text-xs text-slate-400">口コミは個人の主観であり、部署・時期・職種により実態は異なります。原文転載ではなく傾向の要約として記載しています。</p>
+            <p>第三者の社員クチコミサイトで、当サイトが確認できた評点と件数は次のとおりです。口コミの本文は転載・要約していません。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-slate-200">
+                <thead className="bg-slate-50">
+                  <tr><th className="px-3 py-2 text-left">サイト</th><th className="px-3 py-2 text-left">評点</th><th className="px-3 py-2 text-left">件数・回答者</th></tr>
+                </thead>
+                <tbody>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://www.openwork.jp/company.php?m_id=a0C1000000vBG8S" rel="nofollow noopener" target="_blank" className="text-petrol underline">OpenWork（株式会社プレイド）</a></td><td className="px-3 py-2">社員による会社評価スコア 3.35</td><td className="px-3 py-2">回答者24人・社員クチコミ107件。同ページの集計値は月間残業時間22.9時間・有給休暇消化率79.9%</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://syukatsu-kaigi.jp/companies/167131" rel="nofollow noopener" target="_blank" className="text-petrol underline">就活会議（株式会社プレイド）</a></td><td className="px-3 py-2">総合評価 3.7</td><td className="px-3 py-2">口コミ回答数8件（転職会議からの転載と表記）</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://plus.onecareer.jp/companies/89627/company_evaluations" rel="nofollow noopener" target="_blank" className="text-petrol underline">ワンキャリア転職（社員クチコミ）</a></td><td className="px-3 py-2">企業全体の評点は画面に表示されていません</td><td className="px-3 py-2">クチコミ19件</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-slate-400">出典：上記3サイト（2026年11月24日確認）。評点は投稿者個人の主観の集計で、部署・職種・時期によって実態は異なります。エンジニア職に限った値ではありません。</p>
           </div>
         </section>
 

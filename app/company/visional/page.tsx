@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/visional/" },
   title: "ビジョナル/ビズリーチの年収は平均861万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "ビジョナル（東証プライム・4194／ビズリーチ運営）のエンジニア中途採用を一次情報で解説します。有価証券報告書の平均年収、Scala中心の技術スタック、選考フロー、口コミ傾向、30代40代の転職可否までまとめました。",
+    "ビジョナル（東証プライム・4194／ビズリーチ運営）のエンジニア中途採用を一次情報で解説します。有価証券報告書の平均年収、Scala中心の技術スタック、選考フロー、口コミサイトの評点、30代40代の転職可否までまとめました。",
 };
 
 const tableRows: [string, string][] = [
@@ -25,7 +25,7 @@ const sources = [
   "Visional キャリア採用情報（visional.inc）",
   "Visional Engineering Blog（engineering.visional.inc）",
   "ビズリーチ サービスデータ（datasheet 2026年6月）",
-  "OpenWork・就活会議 等の口コミ傾向",
+  "OpenWork・就活会議・ワンキャリア転職（評点・件数のみ・2026年11月24日確認）",
 ];
 
 const salaryHistory: [string, string, string][] = [
@@ -52,7 +52,7 @@ const positions = [
 const faqs = [
   {
     q: "ビジョナル（ビズリーチ）のエンジニア転職難易度は？",
-    a: "サーバーサイドはScala中心で関数型プログラミングを実践しており、設計力が問われるため難易度は中〜高めです。ただし公開選考体験談ではコーディングテストの難度は比較的標準的で、現状スキルよりポテンシャルも見られる傾向があるとされ、Java／Scala経験のあるミドル層にも機会があります。",
+    a: "サーバーサイドはScala中心で関数型プログラミングを実践しており、設計力が問われるため難易度は中〜高めです。Java／Scala の実務経験は、公式の募集要項で求められる経験と照らし合わせてご確認ください。",
   },
   {
     q: "ビジョナルのエンジニア年収はどのくらい？",
@@ -93,7 +93,7 @@ const toc = [
   { id: "salary", label: "年収データ" },
   { id: "flow", label: "選考フロー" },
   { id: "interview", label: "面接で重視される点" },
-  { id: "review", label: "口コミの傾向" },
+  { id: "review", label: "口コミ・評判の掲載状況" },
   { id: "middle", label: "30代・40代の視点" },
   { id: "agents", label: "おすすめエージェント" },
   { id: "faq", label: "よくある質問" },
@@ -129,7 +129,7 @@ export default function VisionalCompanyPage() {
 
         <p className="text-slate-600 text-sm leading-relaxed mb-2">
           ビジョナル株式会社（証券コード4194）は、ハイクラス転職サービス「ビズリーチ」やHRMOS等を展開する東証プライム上場のHRテック企業です。
-          本ガイドでは、有価証券報告書・公式採用ページ・技術ブログ・口コミサイトの傾向という一次／公開情報のみをもとに、エンジニア転職の実像を整理します。
+          本ガイドでは、有価証券報告書・公式採用ページ・技術ブログと、出典・件数を確認できた口コミサイトの評点をもとに、エンジニア転職の実像を整理します。
           確認できない等級別の年収表や面接質問の断定は掲載していません。
         </p>
 
@@ -268,10 +268,9 @@ export default function VisionalCompanyPage() {
         </section>
 
         <section id="interview" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報・口コミ傾向）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">面接で重視される点（公開情報）</h2>
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed">
-            <p className="mb-3">公開選考体験談では、コーディングテストは現状スキルよりポテンシャルも見られる傾向があるとされ、技術知識と組織へのカルチャーフィットの双方が評価されるとされています。</p>
-            <ul className="space-y-1.5">
+                        <ul className="space-y-1.5">
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>基礎的なアルゴリズム・設計の理解</li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>「ビジョナル・ウェイ」等の価値観へのフィット</li>
               <li className="flex items-start gap-2"><span className="text-petrol shrink-0">●</span>プロダクト・ユーザー価値に向き合う姿勢</li>
@@ -281,11 +280,23 @@ export default function VisionalCompanyPage() {
         </section>
 
         <section id="review" className="mb-10">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">口コミの傾向（出典名を明記した要約）</h2>
+          <h2 className="text-xl font-bold text-slate-800 mb-4">ビジョナルの口コミ・評判の掲載状況（2026年11月24日確認）</h2>
           <div className="border border-slate-200 rounded-lg p-5 text-sm text-slate-600 leading-relaxed space-y-3">
-            <p><strong>良い評価の傾向：</strong>OpenWork・就活会議・エン カイシャの評判等の口コミプラットフォームでは、(1)新卒研修やメンター制度など成長環境が充実、(2)若手でも早期にマネージャー登用される事例がある、(3)プロダクト志向で裁量が大きい、といった声が見られます（2026年時点）。</p>
-            <p><strong>気をつけたい点の傾向：</strong>同サイトでは、(1)成長スピードへの期待が高く負荷を感じる時期がある、(2)プロダクト・部署により文化や進め方に差がある、といった指摘も見られます。</p>
-            <p className="text-xs text-slate-400">口コミは個人の主観であり、部署・時期・職種により実態は異なります。原文転載ではなく傾向の要約として記載しています。</p>
+            <p>第三者の社員クチコミサイトで、当サイトが確認できた評点と件数は次のとおりです。口コミの本文は転載・要約していません。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-slate-200">
+                <thead className="bg-slate-50">
+                  <tr><th className="px-3 py-2 text-left">サイト</th><th className="px-3 py-2 text-left">評点</th><th className="px-3 py-2 text-left">件数・回答者</th></tr>
+                </thead>
+                <tbody>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://www.openwork.jp/company.php?m_id=a0C2x00000055gq" rel="nofollow noopener" target="_blank" className="text-petrol underline">OpenWork（ビジョナル株式会社）</a></td><td className="px-3 py-2">社員による会社評価スコア 3.82</td><td className="px-3 py-2">回答者14人・社員クチコミ61件。同ページの集計値は月間残業時間24.8時間・有給休暇消化率78.1%</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://syukatsu-kaigi.jp/companies/165366" rel="nofollow noopener" target="_blank" className="text-petrol underline">就活会議（ビジョナル株式会社）</a></td><td className="px-3 py-2">総合評価の表示なし（--）</td><td className="px-3 py-2">口コミ回答数0件（転職会議からの転載と表記）</td></tr>
+                  <tr className="border-t border-slate-200"><td className="px-3 py-2"><a href="https://plus.onecareer.jp/companies/378/company_evaluations" rel="nofollow noopener" target="_blank" className="text-petrol underline">ワンキャリア転職（社員クチコミ）</a></td><td className="px-3 py-2">企業全体の評点は画面に表示されていません</td><td className="px-3 py-2">クチコミ186件</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>子会社の株式会社ビズリーチは別の企業ページで、OpenWork 4.15（回答者611人・社員クチコミ2,863件）、就活会議 4.2（口コミ回答数533件）です（同日確認）。ビズリーチの社員の評価は、持株会社のビジョナルの評価とは分けて表示されています。</p>
+            <p className="text-xs text-slate-400">出典：上記3サイト（2026年11月24日確認）。評点は投稿者個人の主観の集計で、部署・職種・時期によって実態は異なります。エンジニア職に限った値ではありません。</p>
           </div>
         </section>
 
