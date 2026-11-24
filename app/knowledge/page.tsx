@@ -151,6 +151,11 @@ const knowledgeCategories = [
       { name: "IoTとは", href: "/knowledge/iot/", desc: "法律上の定義と、情報通信白書の分野別デバイス数を構成比で整理します。" },
       { name: "PMOとは", href: "/knowledge/pmo/", desc: "PMBOKの定義、PMとの違い、IPA試験とPMPの要件を比較します。" },
       { name: "SIerとは", href: "/knowledge/sier/", desc: "受託開発の規模、元請・下請の構成、職種別の賃金を統計で整理します。" },
+      { name: "Pythonとは", href: "/knowledge/python/", desc: "公式の定義と特徴、3.9〜3.15の初回リリース日とサポート期限を一覧にします。" },
+      { name: "Swiftとは", href: "/knowledge/swift/", desc: "公式の定義、対応プラットフォーム、5.7〜6.4のリリース履歴を整理します。" },
+      { name: "アジャイル開発とは", href: "/knowledge/agile/", desc: "アジャイル宣言の4つの価値、スクラムの時間枠、IPAモデル契約の考え方を整理します。" },
+      { name: "OSSとは", href: "/knowledge/oss/", desc: "OSIのオープンソースの定義10項目と、ライセンス一覧126件の分類を整理します。" },
+      { name: "Society 5.0とは", href: "/knowledge/society5/", desc: "内閣府の定義、第5期〜第7期基本計画での位置づけと研究開発投資の目標・実績を整理します。" },
     ],
   },
 ];
