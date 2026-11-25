@@ -169,6 +169,11 @@ const knowledgeCategories = [
       { name: "SE（システムエンジニア）の仕事内容", href: "/knowledge/se/", desc: "職業分類での定義、工程ごとの作業と工数の比率、職種別の賃金を公的資料で整理します。" },
       { name: "上流工程とは", href: "/knowledge/upstream/", desc: "共通フレーム2013の範囲、工程別の工数と工期の比率、要件定義の責任の考え方を整理します。" },
       { name: "Webサイトの作り方", href: "/knowledge/website-howto/", desc: "公開までの5ステップと、無料ホスティング4社の制限・商用利用の可否を比較します。" },
+      { name: "ITエンジニアの種類一覧", href: "/knowledge/it-engineer-types/", desc: "職業分類の11職種の仕事内容、職種別の賃金、対応するIPA試験を整理します。" },
+      { name: "インフラエンジニアの仕事内容", href: "/knowledge/infra-engineer/", desc: "構築と運用の違い、ネットワークスペシャリスト試験の応募者の推移と業務別の内訳を整理します。" },
+      { name: "Perlとは", href: "/knowledge/perl/", desc: "公式の定義と特徴、主なリリースとサポート期限、当サイトで動かしたサンプルを掲載します。" },
+      { name: "C言語とは", href: "/knowledge/c-language/", desc: "成り立ち、規格の版（C89〜C23）、コンパイラの既定の版の違いを整理します。" },
+      { name: "SQLの基礎", href: "/knowledge/sql-basics/", desc: "基本の4命令と集計を実行結果つきで解説し、データベースの利用率をまとめます。" },
     ],
   },
 ];
