@@ -29,15 +29,15 @@ const categories = [
     name: "メガベンチャー",
     intro: "Web系自社開発の中核です。技術的裁量と成長環境を求めるエンジニアに人気の選択肢です。",
     companies: [
-      { slug: "mercari", name: "メルカリ", salary: "700〜1,200万円", tech: "Go / Kubernetes / GCP / Microservices", desc: "マイクロサービス基盤と多国籍チームが特徴です。" },
-      { slug: "line-yahoo", name: "LINEヤフー", salary: "600〜1,100万円", tech: "Java / Kotlin / Spring / Kubernetes", desc: "国内最大級のトラフィックを扱う大規模開発が特徴です。" },
-      { slug: "cyberagent", name: "サイバーエージェント", salary: "600〜1,000万円", tech: "Go / React / AWS / MLOps", desc: "広告・メディア・ゲームと幅広い事業領域を持ちます。" },
-      { slug: "rakuten", name: "楽天グループ", salary: "600〜1,000万円", tech: "Java / Spring / AWS / React", desc: "社内公用語を英語とし、EC〜フィンテックまで事業を横断しています。" },
-      { slug: "dena", name: "DeNA", salary: "600〜1,100万円", tech: "Go / Python / AWS / Unity", desc: "ゲーム・ヘルスケア・モビリティと多角的に事業を展開しています。" },
-      { slug: "recruit", name: "リクルート", salary: "650〜1,100万円", tech: "Java / React / GCP / Python", desc: "事業ドメインが広く、データ活用に積極的です。" },
-      { slug: "zozo", name: "ZOZO", salary: "600〜1,000万円", tech: "Go / Kotlin / AWS / Microservices", desc: "ファッションECの技術刷新を進めており、研究組織も有しています。" },
+      { slug: "mercari", name: "メルカリ", salary: "全社平均1,176万円(2025/6)", tech: "Go / Kubernetes / GCP / Microservices", desc: "マイクロサービス基盤と多国籍チームが特徴です。" },
+      { slug: "line-yahoo", name: "LINEヤフー", salary: "全社平均902万円(2026/3)", tech: "Java / Kotlin / Spring / Kubernetes", desc: "国内最大級のトラフィックを扱う大規模開発が特徴です。" },
+      { slug: "cyberagent", name: "サイバーエージェント", salary: "全社平均913.8万円(2025/9)", tech: "Go / React / AWS / MLOps", desc: "広告・メディア・ゲームと幅広い事業領域を持ちます。" },
+      { slug: "rakuten", name: "楽天グループ", salary: "全社平均820万円(2024/12)", tech: "Java / Spring / AWS / React", desc: "社内公用語を英語とし、EC〜フィンテックまで事業を横断しています。" },
+      { slug: "dena", name: "DeNA", salary: "提出会社平均1,117.9万円(2026/3)", tech: "Go / Python / AWS / Unity", desc: "ゲーム・ヘルスケア・モビリティと多角的に事業を展開しています。" },
+      { slug: "recruit", name: "リクルート", salary: "持株会社平均1,145万円(2025/3)", tech: "Java / React / GCP / Python", desc: "事業ドメインが広く、データ活用に積極的です。" },
+      { slug: "zozo", name: "ZOZO", salary: "全社平均856万円(2026/3)", tech: "Go / Kotlin / AWS / Microservices", desc: "ファッションECの技術刷新を進めており、研究組織も有しています。" },
       { slug: "visional", name: "Visional（ビズリーチ）", salary: "全社平均861万円(2025/7)", tech: "Scala / TypeScript / AWS / Kubernetes", desc: "HR Tech領域で事業を展開し、プロダクト志向のエンジニア組織を持ちます。" },
-      { slug: "softbank", name: "ソフトバンク", salary: "600〜1,000万円", tech: "Java / Python / AWS / AI/ML", desc: "通信×AIを軸に、大規模インフラと新規事業の両面で事業を進めています。" },
+      { slug: "softbank", name: "ソフトバンク", salary: "全社平均849万円(2025/3)", tech: "Java / Python / AWS / AI/ML", desc: "通信×AIを軸に、大規模インフラと新規事業の両面で事業を進めています。" },
       { slug: "smartnews", name: "SmartNews", salary: "公式平均は非公開", tech: "Java / Scala / Spark / AWS", desc: "大規模配信×機械学習を少数精鋭で支えるメディアテックです。" },
       { slug: "gmo-internet", name: "GMOインターネットグループ", salary: "持株693万円(2024/12)", tech: "Go / PHP / Java / TypeScript / AWS", desc: "ドメイン・クラウド・決済・金融の基盤を支える持株会社です。" },
       { slug: "dmm", name: "DMM.com", salary: "非開示(非上場)", tech: "Go / PHP / TypeScript / React / Vue", desc: "50以上の事業を展開する非上場メガベンチャーです。" },
@@ -80,8 +80,8 @@ const categories = [
     intro: "大規模案件と上流工程が中心です。安定基盤と高めの待遇を両立しやすい領域です。",
     companies: [
       { slug: "accenture", name: "アクセンチュア", salary: "600〜1,200万円", tech: "Java / SAP / AWS / Azure", desc: "戦略〜実装まで担う総合コンサルです。育成体制が手厚い点が特徴です。" },
-      { slug: "nri", name: "野村総合研究所（NRI）", salary: "700〜1,200万円", tech: "Java / AWS / Salesforce / SAP", desc: "金融系に強みを持つ国内大手で、コンサルティングとSIの両面を手がけています。" },
-      { slug: "ntt-data", name: "NTTデータ", salary: "550〜950万円", tech: "Java / AWS / Azure / Spring", desc: "官公庁・金融の大規模システムで多数の実績があります。" },
+      { slug: "nri", name: "野村総合研究所（NRI）", salary: "全社平均1,333万円(2026/3)", tech: "Java / AWS / Salesforce / SAP", desc: "金融系に強みを持つ国内大手で、コンサルティングとSIの両面を手がけています。" },
+      { slug: "ntt-data", name: "NTTデータ", salary: "全社平均923万円(2025/3)", tech: "Java / AWS / Azure / Spring", desc: "官公庁・金融の大規模システムで多数の実績があります。" },
       { slug: "ibm", name: "日本IBM", salary: "公式平均は非公開", tech: "OpenShift / IBM Cloud / watsonx / Java", desc: "バンド制を採用する外資系企業で、コンサル・アーキテクト志向のミドル層に適しています。" },
       { slug: "scsk", name: "SCSK", salary: "全社平均796万円(2026/3)", tech: "Java / Python / AWS / Azure / クラウドネイティブ", desc: "住友商事系のフルラインナップ大手SIerです。働き方改革に積極的です。" },
       { slug: "shift", name: "SHIFT", salary: "全社平均684万円(2025/8)", tech: "ソフトウェアテスト / 品質保証(QA) / テスト自動化", desc: "ソフトウェア品質保証(QA)を軸に急成長する東証プライム企業です。" },
@@ -217,7 +217,7 @@ export default function CompanyIndexPage() {
         />
 
         <p className="text-slate-500 text-sm mb-8">
-          最終更新: 2026年11月24日｜「全社平均」と書いた年収は有価証券報告書の全従業員平均（決算期を併記）で、エンジニア職に限った値ではありません。幅で示した年収は公式求人の提示レンジや口コミサイト集計値の傾向で、当サイトで出典の確認を順に進めています。職種・等級により変動します。
+          最終更新: 2026年11月25日｜「全社平均」「提出会社平均」「持株会社平均」と書いた年収は有価証券報告書の従業員の平均年間給与（決算期を併記・各社の個別ページに出典）で、エンジニア職に限った値ではありません。幅で示した年収は公式求人の提示レンジや口コミサイト集計値の傾向で、当サイトで出典の確認を順に進めています。職種・等級により変動します。
         </p>
 
         {/* 目次 */}

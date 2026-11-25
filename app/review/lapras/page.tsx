@@ -20,8 +20,8 @@ const toc = [
   { id: "type", label: "LAPRASの仕組みと他サービスとの違い" },
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "strength", label: "特徴・強み" },
-  { id: "good", label: "良い評判の傾向" },
-  { id: "bad", label: "悪い評判の傾向と対処法" },
+  { id: "reputation", label: "口コミ・評判の掲載状況" },
+  { id: "caution", label: "注意点と対処法" },
   { id: "middle", label: "30代・40代エンジニアの活用戦略" },
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "登録からスカウト・内定までの流れ" },
@@ -40,36 +40,57 @@ const basicData: [string, string][] = [
   ["料金", "求職者無料"],
 ];
 
-const goodReviews = [
+const ratingRows: { source: string; detail: string; result: string; url: string }[] = [
   {
-    title: "発信が自動でポートフォリオ化される",
-    body: "X（旧Twitter）やエンジニアブログ等では、GitHubだけでなくQiitaやnote、登壇（connpass）などWeb上の発信をAIが自動でクロールしてポートフォリオ化してくれるため、手間をかけずに実績がまとまったという傾向の声が見られます。自分で職務経歴を整理する負担が軽いという感想があります。",
+    source: "App Store（日本）",
+    detail: "アプリ「LAPRAS」／開発元 LAPRAS株式会社（2026年1月14日公開）",
+    result: "4.9（9件）※件数が少ないため参考値",
+    url: "https://apps.apple.com/jp/app/lapras/id6756289434",
   },
   {
-    title: "マッチ精度が高いと感じる",
-    body: "はてなブックマーク等では、Web全体の発信内容を踏まえたスカウトが届くため、技術領域や興味関心に合った企業からの打診が多くミスマッチが少なかったという傾向の感想が確認できます。",
+    source: "Google Play（日本）",
+    detail: "アプリ「LAPRAS」／提供元 LAPRAS Inc.",
+    result: "評点・件数の表示なし（ダウンロード数は「100+」と表示）",
+    url: "https://play.google.com/store/apps/details?id=com.lapras.user&hl=ja&gl=JP",
   },
   {
-    title: "スコアで自分の立ち位置が分かる",
-    body: "技術・ビジネス・影響力などをスコア化する仕組みがあり、自分の市場での立ち位置を客観的に把握できたという傾向の声があります（平均3.0・上位約4%が3.5以上とされる二次情報）。すぐ転職しなくても定点観測に使えるという感想があります。",
+    source: "みん評",
+    detail: "LAPRASの掲載ページ",
+    result: "確認できず（当サイトの取得環境からのアクセスが403で遮断）",
+    url: "https://minhyo.jp/lapras",
+  },
+  {
+    source: "Qiita Job Change",
+    detail: "転職サービスの口コミ（Qiita会員アンケート）を掲載するメディア",
+    result: "LAPRASの口コミページなし（サイトマップに該当URLなし）",
+    url: "https://jobs.qiita.com/",
   },
 ];
 
-const badReviews = [
+const interviewTally: [string, string][] = [
+  ["公式トップの「ユーザーインタビュー」掲載件数", "9件（いずれもLAPRAS NOTEの記事へリンク）"],
+  ["うち「LAPRASポートフォリオの活用について」", "3件"],
+  ["うち「LAPRASポートフォリオを活用してアウトプットされているユーザー」", "3件"],
+  ["うち「LAPRASでの転職・副業事例」", "3件"],
+  ["インタビューとは別に掲載された短い利用者の声", "3件（氏名・出典の記載なし）"],
+  ["不満・改善要望を主題とする回", "0件（いずれも活用事例）"],
+];
+
+const cautions = [
   {
-    title: "発信が少ないとスコアが伸びない",
-    body: "LAPRASはWeb上の発信を解析する性質のため、GitHub活動・技術記事・登壇などのアウトプットが少ない人はスコアが伸びず、スカウトも届きにくかったという傾向の声がX等で見られます。",
-    cope: "QiitaやnoteでのアウトプットやOSS活動、connpassでの登壇など、公開できる発信を少しずつ蓄積します。発信の時間が取れない場合は、担当が提案するエージェント型のレバテックキャリアを併用するのが現実的です。",
+    title: "技術力スコアは公開されているアウトプットで算出される",
+    body: "公式は、技術力スコアを「インターネット上で公開されているアウトプットに基づいて」算出し、GitHub・技術記事・技術イベント・スキルタグの4項目で評価すると説明しています。公開の発信が少ない場合、スコアに反映される材料も少なくなります。",
+    cope: "職歴や経験技術を入力すると算出される「市場価値スコア」も用意されているため、まずは職歴を入力します。そのうえでQiita・Zenn・noteでの記事やOSS活動、connpassでのイベント参加など、公開できる発信を少しずつ蓄積します。発信の時間が取れない場合は、担当が求人を提案するエージェント型のレバテックキャリアを併用するのが現実的です。",
   },
   {
-    title: "地方・非Web系の求人が少ない",
-    body: "導入企業は首都圏のWeb自社開発が中心の傾向で、地方在住者やSIer・組み込みなど非Web志向の人には選択肢が少なかったという傾向の声があります。",
-    cope: "フルリモート可の求人に絞るか、地方・SIer求人も扱う総合型エージェントを併用します。LAPRASはモダン技術・発信重視の枠と割り切ります。",
+    title: "連携したサービスから自動で情報が集められる",
+    body: "公式は、GitHub・X・Qiita・note・teratail・connpass・Speaker Deck・Doorkeeper・Zennを連携すると活動を自動収集すると案内しています。古いアカウントや意図しない情報が反映される可能性があるため、公開内容の確認が必要です。",
+    cope: "登録後にプロフィールの連携先と公開範囲を確認し、最新の実績が反映されるよう手動で補足します。公式サイトには「オプトアウト申請」の窓口も設けられています。",
   },
   {
-    title: "自動クロールの内容にズレを感じることがある",
-    body: "自動でWeb上の情報を集める仕組み上、意図と異なるアカウントや古い情報が反映されたと感じたという傾向の声が一部見られます。",
-    cope: "プロフィール上で連携する情報や公開範囲を確認・調整し、最新の実績が反映されるよう手動で補足します。誤った紐付けがあれば設定から修正するとよいでしょう。",
+    title: "公式に例示された求人は事業会社が中心",
+    body: "2026年11月25日時点で公式トップに例示されていた求人7件は、SmartHR・ウェルスナビ・朝日新聞社・LINE Digital Frontier（2件）・カウシェ・アスエネで、いずれも事業会社です。SIer・受託開発・組み込み系の求人を探す場合は、選択肢が限られる可能性があります。",
+    cope: "地方・SIer・組み込みの求人も扱う総合型エージェントを併用し、LAPRASはモダン技術・発信重視の企業との接点として使い分けます。",
   },
 ];
 
@@ -102,12 +123,12 @@ const flow = [
   {
     step: "STEP3",
     title: "企業からのスカウト受信",
-    body: "発信内容を踏まえた企業からスカウトが届きます。Web全体の活動を反映するため、技術領域や関心に合った打診が来やすい傾向があります。",
+    body: "職務経歴やアウトプットに関心を持った企業から、転職や副業のスカウトが直接届きます（公式）。企業が興味を持ったことを知らせる「興味通知」や、ポートフォリオを閲覧した企業名を確認できる「足跡機能」も用意されています。",
   },
   {
     step: "STEP4",
     title: "カジュアル面談・選考",
-    body: "興味のあるスカウトはカジュアル面談で社風・技術スタックを確認してから選考に進みます。発信内容が会話のきっかけになりやすい傾向があります。",
+    body: "興味のあるスカウトはカジュアル面談で社風・技術スタックを確認してから選考に進みます。公開している記事や登壇内容を、面談で話題にすることもできます。",
   },
   {
     step: "STEP5",
@@ -123,7 +144,7 @@ const faqs = [
   },
   {
     q: "発信をしていなくても使えますか？",
-    a: "Web上の発信を解析する仕組みのため、アウトプットが少ないとスコアが伸びにくくスカウトも届きにくくなります。発信を少しずつ蓄積するか、発信に依存しないエージェント型（レバテックキャリアなど）の併用を検討してください。",
+    a: "登録は可能です。公式によると、職歴や経験技術を入力すると算出される「市場価値スコア」があり、企業は職務経歴も見てスカウトを送ります。一方、技術力スコアはGitHub・技術記事・技術イベント・スキルタグの公開アウトプットで算出されるため、発信が少ないとこのスコアに反映される材料は少なくなります。発信を少しずつ蓄積するか、発信に依存しないエージェント型（レバテックキャリアなど）の併用を検討してください。",
   },
   {
     q: "スコアはどのくらいが目安ですか？",
@@ -131,7 +152,7 @@ const faqs = [
   },
   {
     q: "40代でもスカウトは来ますか？",
-    a: "技術記事・OSS・登壇などの実績がある方であれば、年齢より発信内容が評価されやすい傾向があります。一方で求人が首都圏のWeb自社開発に偏るため、求人の幅を確保するには総合型エージェントの併用が堅実です。",
+    a: "公式が示す技術力スコアの評価項目はGitHub・技術記事・技術イベント・スキルタグの4つで、年齢は項目に挙げられていません。ただし、スカウトを送るかどうかは企業の判断であり、年代別のスカウト件数は公表されていないため、届く件数は保証できません。公式トップに例示された求人は事業会社が中心のため、求人の幅を確保するには総合型エージェントの併用が堅実です。",
   },
   {
     q: "登録は無料ですか？",
@@ -139,7 +160,7 @@ const faqs = [
   },
   {
     q: "導入企業数や求人数はどのくらいですか？",
-    a: "導入企業は700社以上とされますが二次情報です。求人数は公式LPで非明示のため確認できませんでした。数値より、自分の発信領域に合った企業からスカウトが届くかどうかで判断するのが適しています。",
+    a: "導入企業は700社以上とされますが二次情報です。求人数は公式LPで非明示のため確認できませんでした。なお、公式トップは登録ユーザーを「約4万人」と記載しています（2026年11月25日確認）。数値より、自分の発信領域に合った企業からスカウトが届くかどうかで判断するのが適しています。",
   },
 ];
 
@@ -165,7 +186,7 @@ export default function LaprasReview() {
 
   return (
     <>
-      <ArticleJsonLd title={TITLE} description={DESCRIPTION} url={URL} />
+      <ArticleJsonLd title={TITLE} description={DESCRIPTION} url={URL} dateModified="2026-11-25" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
@@ -183,18 +204,17 @@ export default function LaprasReview() {
           LAPRASの評判・口コミ【30代・40代エンジニア向け】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ Web全体の発信をAI解析するスカウト型サービスの実力を口コミの傾向と公開データで検証
+          最終更新: 2026年11月25日 ｜ Web全体の発信をAI解析するスカウト型サービスを公式情報と第三者の評点の掲載状況で検証
         </p>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
-          LAPRAS（ラプラス）は、LAPRAS株式会社が運営する、GitHub・Qiita・note・X（旧Twitter）・connpassなどWeb上の発信をAIが自動でクロール・解析し、ポートフォリオを自動生成するスカウト型のサービスです。本記事では「評判・口コミ」を実際の口コミプラットフォームの傾向と公開データに基づいて、30代・40代エンジニアの視点で整理します。架空の体験談やスコアの転載は行わず、出典のある情報のみを扱います。
+          LAPRAS（ラプラス）は、LAPRAS株式会社が運営する、GitHub・Qiita・note・X（旧Twitter）・connpassなどWeb上の発信をAIが自動でクロール・解析し、ポートフォリオを自動生成するスカウト型のサービスです。本記事では「評判・口コミ」について、当サイトが評点と件数を確認できた第三者の情報（App Store など）と公式情報に基づき、30代・40代エンジニアの視点で整理します。架空の体験談や出典のない評点は掲載せず、出典のある情報のみを扱います。
         </p>
         <DataNote
           surveyedAt="2026年6月"
           sources={[
-            "LAPRAS公式サイト",
-            "X（旧Twitter）等のエンジニア投稿",
-            "はてなブックマーク／エンジニアブログ",
-            "複数転職メディア集計値",
+            "LAPRAS公式サイト（2026年11月25日確認）",
+            "App Store・Google Play（2026年11月25日確認）",
+            "複数転職メディア集計値（導入企業数・スコアの目安）",
           ]}
         />
 
@@ -293,9 +313,9 @@ export default function LaprasReview() {
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
-              <h3 className="font-bold text-blue-800 mb-2">3. マッチ精度と立ち位置の可視化</h3>
+              <h3 className="font-bold text-blue-800 mb-2">3. アウトプットを見たスカウトと立ち位置の可視化</h3>
               <p className="text-sm text-petrol-deep">
-                発信内容を踏まえたスカウトが届くため、技術領域や関心に合った打診が来やすい傾向があります。スコア（平均3.0・上位約4%が3.5以上とされる二次情報）で市場での立ち位置を把握でき、定点観測にも使えます。
+                企業は職務経歴に加えて普段のアウトプットやスキルを見てスカウトを送る仕組みです（公式）。ポートフォリオを閲覧した企業名を確認できる足跡機能もあります。スコア（平均3.0・上位約4%が3.5以上とされる二次情報）で市場での立ち位置を把握でき、定点観測にも使えます。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
@@ -307,30 +327,77 @@ export default function LaprasReview() {
           </div>
         </section>
 
-        {/* 良い評判 */}
-        <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
-          <p className="text-sm text-slate-600 mb-4">
-            以下は口コミプラットフォーム上の声を傾向としてまとめたものです（原文転載・スコア転載ではありません）。
-          </p>
-          <div className="space-y-4">
-            {goodReviews.map((r, i) => (
-              <div key={i} className="border border-green-200 rounded-lg p-5">
-                <h3 className="font-bold text-green-700 mb-2 text-sm">◎ {r.title}</h3>
-                <p className="text-sm text-slate-600 leading-relaxed">{r.body}</p>
-              </div>
-            ))}
+        {/* 口コミ・評判の掲載状況 */}
+        <section id="reputation" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">LAPRASの口コミ・評判の掲載状況（2026年11月25日確認）</h2>
+          <div className="space-y-3 text-sm text-slate-600 leading-relaxed mb-4">
+            <p>
+              <span className="font-bold text-slate-700">第三者の評点：</span>
+              当サイトで評点と件数を確認できたのは、App Store の公式アプリ（開発元 LAPRAS株式会社）の4.9（9件）のみです。件数が9件と少ないため参考値として扱ってください。また、アプリの評価は使い勝手を含む点数であり、スカウトサービスとしての評価とは一致しない場合があります。Google Play の公式アプリには評点・件数が表示されていませんでした。口コミサイトのみん評は当サイトの取得環境からのアクセスが遮断され、確認できませんでした。
+            </p>
           </div>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-slate-200">
+              <thead className="bg-slate-50">
+                <tr>
+                  <th className="px-3 py-2 text-left font-medium text-slate-700 border-b border-slate-200">確認先</th>
+                  <th className="px-3 py-2 text-left font-medium text-slate-700 border-b border-slate-200">対象</th>
+                  <th className="px-3 py-2 text-left font-medium text-slate-700 border-b border-slate-200">結果（2026年11月25日）</th>
+                </tr>
+              </thead>
+              <tbody>
+                {ratingRows.map((r, i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <td className="px-3 py-2 text-slate-700 border-b border-slate-200 align-top">
+                      <a href={r.url} rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                        {r.source}
+                      </a>
+                    </td>
+                    <td className="px-3 py-2 text-slate-600 border-b border-slate-200 align-top">{r.detail}</td>
+                    <td className="px-3 py-2 text-slate-600 border-b border-slate-200 align-top">{r.result}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-400 mb-6">
+            App Store の値は2026年11月25日に Apple の検索API（日本のストア）で取得し、開発元が運営会社（LAPRAS株式会社）と一致するアプリであることを確認しています。Google Play は同日に公式アプリのページを確認しました。口コミの本文は転載していません。
+          </p>
+          <div className="space-y-3 text-sm text-slate-600 leading-relaxed mb-4">
+            <p>
+              <span className="font-bold text-slate-700">運営会社が掲載した声：</span>
+              公式サイトのトップには「ユーザーインタビュー」として9件の記事が掲載されています。運営会社が選んで掲載している事例であり、利用者全体の評価を表すものではありません。当サイトで見出しごとに数えた内訳は次のとおりです。
+            </p>
+          </div>
+          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
+            <table className="w-full text-sm">
+              <tbody>
+                {interviewTally.map(([label, value], i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/2 border-b border-slate-200 align-top">{label}</th>
+                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-400">
+            出典：
+            <a href="https://lapras.com/" rel="nofollow noopener" target="_blank" className="underline">LAPRAS公式サイト トップ「ユーザーインタビュー」</a>
+            （2026年11月25日確認・集計は当サイト）。各記事は
+            <a href="https://note.lapras.com/" rel="nofollow noopener" target="_blank" className="underline">LAPRAS NOTE</a>
+            に掲載されています。
+          </p>
         </section>
 
-        {/* 悪い評判と対処法 */}
-        <section id="bad" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">悪い評判の傾向と対処法</h2>
+        {/* 注意点 */}
+        <section id="caution" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">注意点と対処法</h2>
           <p className="text-sm text-slate-600 mb-4">
-            公平性のため、ネガティブな傾向の声と、それぞれへの現実的な対処法もまとめます。
+            公式の説明から分かるサービスの仕組みをもとに、利用前に確認しておきたい点と対処法をまとめます。
           </p>
           <div className="space-y-4">
-            {badReviews.map((r, i) => (
+            {cautions.map((r, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-red-600 mb-2 text-sm">△ {r.title}</h3>
                 <p className="text-sm text-slate-600 leading-relaxed mb-3">{r.body}</p>
@@ -345,31 +412,6 @@ export default function LaprasReview() {
           </div>
         </section>
 
-        {/* 評判・口コミの参照元 */}
-        <section id="sources" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
-          <p className="text-sm text-slate-600 mb-4">
-            LAPRASの口コミは、特定の口コミ専用ページではなく、X（旧Twitter）やはてなブックマーク等のエンジニア個人発信を横断的に参照し、傾向として要約したものです（原文転載・スコア転載は行っていません）。参照した主なプラットフォームと公式情報は以下のとおりです。最終確認日：2026年7月。
-          </p>
-          <ul className="border border-slate-200 rounded-lg divide-y divide-slate-200 overflow-hidden">
-            <li className="px-4 py-3 text-sm">
-              <a href="https://lapras.com/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
-                LAPRAS 公式サイト
-              </a>
-            </li>
-            <li className="px-4 py-3 text-sm">
-              <a href="https://b.hatena.ne.jp/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
-                はてなブックマーク（エンジニアの発信・ブックマーク）
-              </a>
-            </li>
-            <li className="px-4 py-3 text-sm">
-              <a href="https://x.com/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
-                X（旧Twitter）（エンジニアの個人発信）
-              </a>
-            </li>
-          </ul>
-        </section>
-
         {/* 30代40代視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">
@@ -381,13 +423,13 @@ export default function LaprasReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              技術記事や個人開発、登壇を続けている人なら、発信がそのままポートフォリオ化され、関心領域に合った企業から声がかかりやすい年代です。GitHub中心の
+              技術記事や個人開発、登壇を続けている人なら、発信がそのままポートフォリオ化され、企業がスカウトを検討する際の材料になります。GitHub中心の
               <Link href="/review/findy/" className="text-petrol hover:underline">Findy</Link>
               と併用すると、評価軸を広げられます。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
-              長年のアウトプット（技術ブログ・登壇・OSS）が蓄積している人ほど、年齢より発信内容で評価されやすいのが利点です。書類選考での年齢ハンデを、発信の実績で補えるのは40代にとって有利な点です。一方、求人が首都圏のWeb自社開発に偏るため、求人の幅は
+              公式が示す技術力スコアの評価項目はGitHub・技術記事・技術イベント・スキルタグの4つで、年齢は項目に挙げられていません。長年のアウトプット（技術ブログ・登壇・OSS）が蓄積している人ほど、スコアに反映される材料が多くなります。一方、公式トップに例示された求人は事業会社が中心のため、求人の幅は
               <Link href="/compare/40s-agents/" className="text-petrol hover:underline">40代向けエージェント</Link>
               で補完するのが堅実です。マネジメント軸で上を狙うなら
               <Link href="/compare/highclass/" className="text-petrol hover:underline">ハイクラス向けサービス</Link>
@@ -497,6 +539,31 @@ export default function LaprasReview() {
           <a href="https://lapras.com/" target="_blank" rel="nofollow noopener" className="inline-block bg-white text-petrol-deep font-bold py-3 px-8 rounded-lg hover:bg-petrol-soft transition-colors">
             無料で登録する
           </a>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
+          <p className="text-xs text-slate-500 leading-relaxed mb-3">
+            第三者の評点は、2026年11月25日時点で当サイトが評点と件数を確認できたもの（App Store）のみを掲載しています。利用者の声は公式トップの「ユーザーインタビュー」（運営会社が選んだ事例）の件数と内訳のみを掲載し、本文は転載していません。最終確認日：2026年11月25日。
+          </p>
+          <ul className="text-sm space-y-2 text-slate-600 list-disc pl-5">
+            <li>
+              <a href="https://lapras.com/" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                LAPRAS公式サイト（サービス概要・スコアの評価項目・ユーザーインタビュー・例示求人）
+              </a>
+            </li>
+            <li>
+              <a href="https://apps.apple.com/jp/app/lapras/id6756289434" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                App Store「LAPRAS」（開発元 LAPRAS株式会社・4.9／9件）
+              </a>
+            </li>
+            <li>
+              <a href="https://play.google.com/store/apps/details?id=com.lapras.user&hl=ja&gl=JP" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                Google Play「LAPRAS」（提供元 LAPRAS Inc.・評点の表示なし）
+              </a>
+            </li>
+          </ul>
         </section>
 
         {/* 関連記事 */}

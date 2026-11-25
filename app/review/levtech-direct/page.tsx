@@ -21,8 +21,8 @@ const toc = [
   { id: "basic", label: "基本データ表（2026年6月時点）" },
   { id: "diff", label: "レバテックキャリア（エージェント型）との違い" },
   { id: "strength", label: "特徴・強み" },
-  { id: "good", label: "良い評判の傾向" },
-  { id: "bad", label: "気になる評判の傾向と対処法" },
+  { id: "reputation", label: "口コミ・評判の掲載状況" },
+  { id: "caution", label: "注意点と対処法" },
   { id: "middle", label: "30代・40代エンジニアの活用視点" },
   { id: "fit", label: "向いている人／向いていない人" },
   { id: "flow", label: "利用の流れ" },
@@ -34,43 +34,77 @@ const basicData: [string, string][] = [
   ["運営会社", "レバテック株式会社（レバレジーズグループ）"],
   ["サービス種別", "IT/Web特化のスカウト型転職サービス（登録して待つタイプ）"],
   ["得意領域", "IT/Webエンジニア・Webデザイナー等のIT専門職"],
-  ["対象者", "実務経験のあるエンジニア向け（実務1〜2年以上が目安・二次情報）"],
+  ["対象者", "公式アプリの説明では「未経験からハイクラスの方まで」。スカウトは企業がプロフィールを見て送るため、届く件数は経歴により異なります"],
   ["対応エリア", "要確認（レバテック系は首都圏中心の傾向。リモート求人あり）"],
   ["仕組み", "登録後、企業から直接スカウトが届きます。マイページで企業と直接やり取り（二次情報）"],
   ["サポート", "スカウト受信・直接応募。エージェント型の書類添削等は限定的（二次情報）"],
   ["料金", "求職者は無料（費用は採用企業側が負担）"],
 ];
 
-const goodReviews = [
+const ratingRows: { source: string; detail: string; result: string; url: string }[] = [
   {
-    title: "自分から応募しなくても活動が進む",
-    body: "各転職メディアでは、登録後に企業から直接スカウトが届くため、自分で大量に応募しなくても効率的に活動を進められるという傾向の声が見られます。在職中でも進めやすくなります。",
+    source: "App Store（日本）",
+    detail: "アプリ「IT転職なら レバテックダイレクト エンジニアの転職アプリ」／開発元 Leverages Co., Ltd.（2024年1月9日公開）",
+    result: "4.0（77件）※件数が100件未満のため参考値",
+    url: "https://apps.apple.com/jp/app/id6462660917",
   },
   {
-    title: "選考がスピーディーに進みやすい",
-    body: "スカウト型ゆえに、企業側の関心が前提でやり取りが始まるため、選考がスピーディーに進みやすいという傾向の声が各転職メディアで紹介されています。面接確約型のスカウトに言及する二次情報もあります（条件・割合は時期により変動）。",
+    source: "Google Play（日本）",
+    detail: "同名アプリ／提供元 レバテック株式会社",
+    result: "2.7（25件）※件数が少ないため参考値。ダウンロード数は「5,000+」と表示",
+    url: "https://play.google.com/store/apps/details?id=jp.levtech.direct.mobile&hl=ja&gl=JP",
   },
   {
-    title: "IT/Web特化で幅広い企業のスカウトが届く",
-    body: "レバテックブランドのIT/Web特化の企業ネットワークを背景に、幅広い企業からのスカウトが届くという傾向の声が見られます。",
+    source: "Qiita Job Change",
+    detail: "口コミ欄（Qiita会員アンケート・2025年12月回答）",
+    result: "口コミ10件。属性と項目別評点が同じ投稿を同一回答者とみなすと6名分で、総合評点は4点が3名・3点が2名・2点が1名（平均3.3）",
+    url: "https://jobs.qiita.com/levtech-direct/",
+  },
+  {
+    source: "OUTSIDEMAGAZINE",
+    detail: "利用者アンケート記事（調査期間2024年10月30日〜2025年10月31日）",
+    result: "回答者数の記載がなく、記事内の点数（5.0）はおすすめランキングの点数で、利用者評点の平均との説明がないため評点として扱っていません",
+    url: "https://outside.no-limit.careers/levtechdirect-reputation/",
+  },
+  {
+    source: "みん評",
+    detail: "レバテックダイレクトの掲載ページ",
+    result: "確認できず（当サイトの取得環境からのアクセスが403で遮断）",
+    url: "https://minhyo.jp/levtech-direct",
   },
 ];
 
-const badReviews = [
+const qiitaTopics: [string, string][] = [
+  ["希望に合わないスカウト・SES企業からのスカウトが多いという指摘", "4件"],
+  ["登録後は待つだけで効率よく活動が進むという評価", "2件"],
+  ["企業と直接やり取りでき、選考が早く進むという評価", "2件"],
+  ["幅広い業種の求人を閲覧できたという評価", "1件"],
+  ["書類添削や経歴の取り込み機能が欲しいという要望", "1件"],
+];
+
+const officialCases: [string, string][] = [
+  ["掲載件数（公式トップ「転職成功事例」）", "6件（CASE 01〜06）"],
+  ["職種", "テストエンジニア／プロジェクトリーダー／ネットワークエンジニア／プロジェクトマネージャー／インフラエンジニア／フロントエンドエンジニア"],
+  ["経験年数", "2年が2件・3年が3件・10年が1件"],
+  ["転職前後の年収差（公式記載の値から当サイトが計算）", "＋80万円〜＋270万円（6件すべて年収増）"],
+  ["年収が下がった事例・不満を扱う事例", "0件（すべて年収アップの事例）"],
+];
+
+const cautions = [
   {
     title: "希望に合わないスカウトも届く",
-    body: "各転職メディアでは、希望条件に合わないスカウトや、SES企業からのスカウトが目立つことがあるという傾向の声が見られます。スカウト型に共通する留意点です。",
-    cope: "プロフィールに希望条件・NG条件を具体的に書き込むとミスマッチが減ります。気になるスカウトのみ返信し、合わないものには返信しなくても問題ありません。",
+    body: "Qiita Job Change の口コミ10件のうち4件が、希望に合わないスカウトやSES企業からのスカウトが多いことを指摘しています。公式アプリの説明も、スカウトは「企業やエージェント」から届くと案内しています。",
+    cope: "プロフィールに希望条件・NG条件を具体的に書き込むとミスマッチを減らせます。気になるスカウトのみ返信し、合わないものには返信しなくても問題ありません。",
   },
   {
     title: "エージェント型ほどの伴走サポートはない",
-    body: "スカウト型のため、応募書類の添削や面接対策といった手厚い伴走サポートは限定的という指摘が各転職メディアで見られます。",
+    body: "スカウト型のため、企業とはマイページで直接やり取りします。Qiita Job Change の口コミにも、履歴書・職務経歴書の添削機能を望む声が1件あります。",
     cope: "手厚いサポートが欲しい場合は、エージェント型のレバテックキャリアを併用します。スカウトで市場の反応を見つつ、選考対策はエージェントで補うと効率的です。",
   },
   {
-    title: "実務経験が前提になりやすい",
-    body: "実務経験のあるエンジニア向けの設計のため、未経験・経験が浅い段階ではスカウトが届きにくい傾向があります（二次情報）。",
-    cope: "経験が浅い場合は、伴走型で未経験歓迎求人も扱うサービスを併用します。経験を積んでからスカウト型を本格活用する選択肢もあります。",
+    title: "公式の実績値は運営会社の集計",
+    body: "公式トップは「全スカウトメールの95%が面接/面談確約の情熱スカウト」（2026年1月〜3月実績）と記載し、App Store のアプリ説明では「約93%」と記載しています。いずれも運営会社による集計で、時期により数値が異なります。転職成功事例6件も運営会社が選んだ事例です。",
+    cope: "数値は対象期間を確認したうえで参考にし、実際に届くスカウトの内容（企業の業態・面接確約の有無・提示年収）で判断するのが確実です。",
   },
 ];
 
@@ -83,7 +117,7 @@ const fitYes = [
 
 const fitNo = [
   "書類添削・面接対策など手厚い伴走を最優先したい",
-  "IT実務未経験・経験が浅い",
+  "IT実務未経験で、スカウトを待つより伴走支援を受けたい",
   "対面の地方サポートを最優先したい（対応エリア要確認）",
   "ヘッドハンター経由の高年収スカウトだけを狙いたい（その場合はビズリーチ等）",
 ];
@@ -102,7 +136,7 @@ const flow = [
   {
     step: "STEP3",
     title: "企業と直接やり取り・面接",
-    body: "マイページ上で企業と直接やり取りし、面接・面談に進みます。スカウト経由のためスピーディーに進みやすくなります。自分から直接応募することも可能です。",
+    body: "マイページ上で企業と直接やり取りし、面接・面談に進みます。公式は全スカウトメールの95%が面接/面談確約（2026年1月〜3月実績）と案内しています。自分から直接応募することも可能です。",
   },
   {
     step: "STEP4",
@@ -122,11 +156,11 @@ const faqs = [
   },
   {
     q: "未経験でも利用できますか？",
-    a: "実務経験のあるエンジニア向けのサービスで、未経験・経験が浅い段階ではスカウトが届きにくい傾向があります（二次情報）。経験が浅い場合は伴走型のサービスを併用するのが現実的です。",
+    a: "公式アプリの説明は「未経験からハイクラスの方まで」理想条件に近い求人に出会えるとしています。ただし、スカウトは企業がプロフィールを見て送るため、届く件数は経歴によって異なり、保証されるものではありません。経験が浅い場合は、書類添削や面接対策を受けられる伴走型のサービスを併用するのが現実的です。",
   },
   {
     q: "希望に合わないスカウトが多いと聞きますが？",
-    a: "スカウト型に共通する留意点で、希望に合わないスカウトやSES企業からのスカウトが目立つことがあるという声があります。プロフィールに希望条件・NG条件を具体的に書くとミスマッチが減ります。合わないスカウトには返信しなくても問題ありません。",
+    a: "Qiita Job Change の口コミ10件（2025年12月のQiita会員アンケート回答）のうち4件が、希望に合わないスカウトやSES企業からのスカウトが多いことを指摘しています（2026年11月25日確認）。件数が少ないため全体の傾向とは言い切れませんが、プロフィールに希望条件・NG条件を具体的に書くとミスマッチを減らせます。合わないスカウトには返信しなくても問題ありません。",
   },
   {
     q: "対応エリアはどこですか？地方でも使えますか？",
@@ -160,7 +194,7 @@ export default function LevtechDirectReview() {
 
   return (
     <>
-      <ArticleJsonLd title={TITLE} description={DESCRIPTION} url={URL} />
+      <ArticleJsonLd title={TITLE} description={DESCRIPTION} url={URL} dateModified="2026-11-25" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
@@ -178,20 +212,20 @@ export default function LevtechDirectReview() {
           レバテックダイレクトの評判・口コミは？特徴・料金・対応【2026年】
         </h1>
         <p className="text-slate-500 text-sm mb-6">
-          最終更新: 2026年6月 ｜ IT/Web特化スカウト型サービスの実力を公式情報と二次情報で検証
+          最終更新: 2026年11月25日 ｜ IT/Web特化スカウト型サービスを公式情報と第三者の評点で検証
         </p>
         <p className="text-slate-600 text-sm leading-relaxed mb-4">
           レバテックダイレクトは、レバレジーズグループが運営するIT/Web特化のスカウト型転職サービスです。同じレバテックブランドでもエージェント型の
           <Link href="/review/levtech/" className="text-blue-600 hover:underline">レバテックキャリア</Link>
-          とは別商品で、登録後に企業から直接スカウトが届く「受動型」のタイプです。本記事では公式情報と各転職メディアの傾向をもとに、30代・40代ミドルエンジニアの視点で違い・特徴・向き不向きを整理します。架空の体験談や星評価は掲載せず、出典のある情報のみを扱います。
+          とは別商品で、登録後に企業から直接スカウトが届く「受動型」のタイプです。本記事では公式情報と、当サイトが評点と件数を確認できた第三者の情報（App Store・Google Play・Qiita Job Change）をもとに、30代・40代ミドルエンジニアの視点で違い・特徴・向き不向きを整理します。架空の体験談や星評価は掲載せず、出典のある情報のみを扱います。
         </p>
         <DataNote
           surveyedAt="2026年6月"
           sources={[
-            "レバテックダイレクト公式サイト",
-            "Qiita Job Change",
-            "OUTSIDEMAGAZINE",
-            "複数転職メディアの紹介記事",
+            "レバテックダイレクト公式サイト（2026年11月25日確認）",
+            "App Store・Google Play（2026年11月25日確認）",
+            "Qiita Job Change 口コミ欄（2026年11月25日確認）",
+            "複数転職メディアの紹介記事（サービスの仕組み）",
           ]}
         />
 
@@ -242,7 +276,7 @@ export default function LevtechDirectReview() {
             </table>
           </div>
           <p className="text-xs text-slate-400 mt-2">
-            ※サービス種別・運営会社は公式に基づきます。対象者の目安や対応エリア、スカウトの仕組みの詳細は二次情報・時期により変動するため「要確認」としています。最新情報は公式サイトをご確認ください。
+            ※サービス種別・運営会社・対象者は公式（公式サイト・公式アプリの説明）に基づきます。対応エリアやスカウトの仕組みの詳細は二次情報・時期により変動するため「要確認」としています。最新情報は公式サイトをご確認ください。
           </p>
         </section>
 
@@ -300,42 +334,110 @@ export default function LevtechDirectReview() {
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">2. 企業と直接やり取りでスピーディー</h3>
               <p className="text-sm text-petrol-deep">
-                企業側の関心が前提でやり取りが始まるため、選考がスピーディーに進みやすい傾向があります。マイページ上で企業と直接コミュニケーションを取れます。
+                企業側の関心が前提でやり取りが始まり、マイページ上で企業と直接コミュニケーションを取れます。公式は全スカウトメールの95%が面接/面談確約の「情熱スカウト」（2026年1月〜3月実績）と案内しています。
               </p>
             </div>
             <div className="bg-petrol-soft rounded-lg p-5">
               <h3 className="font-bold text-blue-800 mb-2">3. レバテックのIT/Web特化ネットワーク</h3>
               <p className="text-sm text-petrol-deep">
-                レバテックブランドのIT/Web特化の企業ネットワークを背景に、幅広い企業からのスカウトが届きやすい点が強みです。エージェント型のレバテックキャリアやフリーランス向けのレバテックフリーランスと使い分けられます。
+                レバテックブランドのIT/Web特化の企業ネットワークを背景にしたサービスです。公式は約60の職種・90のスキルで求人を検索できると案内しています。エージェント型のレバテックキャリアやフリーランス向けのレバテックフリーランスと使い分けられます。
               </p>
             </div>
           </div>
         </section>
 
-        {/* 良い評判 */}
-        <section id="good" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">良い評判の傾向（出典明記）</h2>
-          <p className="text-sm text-slate-600 mb-4">
-            以下は公式情報および口コミプラットフォーム・各転職メディアの傾向をまとめたものです（原文転載ではありません）。
-          </p>
-          <div className="space-y-4">
-            {goodReviews.map((r, i) => (
-              <div key={i} className="border border-green-200 rounded-lg p-5">
-                <h3 className="font-bold text-green-700 mb-2 text-sm">◎ {r.title}</h3>
-                <p className="text-sm text-slate-600 leading-relaxed">{r.body}</p>
-              </div>
-            ))}
+        {/* 口コミ・評判の掲載状況 */}
+        <section id="reputation" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">レバテックダイレクトの口コミ・評判の掲載状況（2026年11月25日確認）</h2>
+          <div className="space-y-3 text-sm text-slate-600 leading-relaxed mb-4">
+            <p>
+              <span className="font-bold text-slate-700">第三者の評点：</span>
+              当サイトで評点と件数を確認できたのは、公式アプリの App Store 評価4.0（77件）と Google Play 評価2.7（25件）、Qiita Job Change の口コミ欄（6名分・平均3.3）です。いずれも件数が100件未満のため参考値として扱ってください。アプリの評価は使い勝手を含む点数であり、スカウトサービスとしての評価とは一致しない場合があります。同じアプリでもストアによって評点に1.3点の差があります。
+            </p>
           </div>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-slate-200">
+              <thead className="bg-slate-50">
+                <tr>
+                  <th className="px-3 py-2 text-left font-medium text-slate-700 border-b border-slate-200">確認先</th>
+                  <th className="px-3 py-2 text-left font-medium text-slate-700 border-b border-slate-200">対象</th>
+                  <th className="px-3 py-2 text-left font-medium text-slate-700 border-b border-slate-200">結果（2026年11月25日）</th>
+                </tr>
+              </thead>
+              <tbody>
+                {ratingRows.map((r, i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <td className="px-3 py-2 text-slate-700 border-b border-slate-200 align-top">
+                      <a href={r.url} rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                        {r.source}
+                      </a>
+                    </td>
+                    <td className="px-3 py-2 text-slate-600 border-b border-slate-200 align-top">{r.detail}</td>
+                    <td className="px-3 py-2 text-slate-600 border-b border-slate-200 align-top">{r.result}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-400 mb-6">
+            App Store の値は2026年11月25日に Apple の検索API（日本のストア）で取得し、開発元がレバレジーズグループ（Leverages Co., Ltd.）で、アプリの公式サイトURLが levtech-direct.jp であることを確認しています。Google Play は同日に公式アプリのページ（提供元 レバテック株式会社）を確認しました。口コミの本文は転載していません。
+          </p>
+
+          <h3 className="font-bold text-slate-800 mb-2 text-base">Qiita Job Change の口コミ10件の内容（当サイトで分類）</h3>
+          <p className="text-sm text-slate-600 leading-relaxed mb-3">
+            Qiita Job Change の口コミ欄は、Qiita会員へのアンケート（2025年12月回答）です。投稿者の年代は25〜29歳が2名、30〜34歳が2名、35〜39歳が1名、45〜49歳が1名です（6名分）。10件のコメントを主な内容で分類すると次のとおりです。
+          </p>
+          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
+            <table className="w-full text-sm">
+              <tbody>
+                {qiitaTopics.map(([label, value], i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <th className="px-4 py-3 text-left font-medium text-slate-700 w-2/3 border-b border-slate-200 align-top">{label}</th>
+                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-400 mb-6">
+            出典：
+            <a href="https://jobs.qiita.com/levtech-direct/" rel="nofollow noopener" target="_blank" className="underline">Qiita Job Change「レバテックダイレクトの評判・口コミ」</a>
+            （ページの更新日 2026年11月19日・2026年11月25日確認・分類は当サイト）。回答者は6名分と少数のため、利用者全体の傾向を示すものではありません。
+          </p>
+
+          <div className="space-y-3 text-sm text-slate-600 leading-relaxed mb-4">
+            <p>
+              <span className="font-bold text-slate-700">運営会社が掲載した声：</span>
+              公式サイトのトップには「転職成功事例」として6件が掲載されています。運営会社が選んで掲載している事例であり、利用者全体の結果を表すものではありません。当サイトで数えた内訳は次のとおりです。
+            </p>
+          </div>
+          <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden mb-3">
+            <table className="w-full text-sm">
+              <tbody>
+                {officialCases.map(([label, value], i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                    <th className="px-4 py-3 text-left font-medium text-slate-700 w-1/3 border-b border-slate-200 align-top">{label}</th>
+                    <td className="px-4 py-3 text-slate-600 border-b border-slate-200">{value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-400">
+            出典：
+            <a href="https://levtech-direct.jp/" rel="nofollow noopener" target="_blank" className="underline">レバテックダイレクト公式サイト トップ「転職成功事例」</a>
+            （2026年11月25日確認・集計は当サイト）。
+          </p>
         </section>
 
-        {/* 気になる評判 */}
-        <section id="bad" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">気になる評判の傾向と対処法</h2>
+        {/* 注意点 */}
+        <section id="caution" className="mb-10 scroll-mt-20">
+          <h2 className="text-xl font-bold text-slate-800 mb-4">注意点と対処法</h2>
           <p className="text-sm text-slate-600 mb-4">
-            公平性のため、留意点と現実的な対処法もまとめます。
+            上記の口コミと公式の説明をもとに、利用前に確認しておきたい点と対処法をまとめます。
           </p>
           <div className="space-y-4">
-            {badReviews.map((r, i) => (
+            {cautions.map((r, i) => (
               <div key={i} className="border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-red-600 mb-2 text-sm">△ {r.title}</h3>
                 <p className="text-sm text-slate-600 leading-relaxed mb-3">{r.body}</p>
@@ -350,26 +452,6 @@ export default function LevtechDirectReview() {
           </div>
         </section>
 
-        {/* 評判・口コミの参照元 */}
-        <section id="sources" className="mb-10 scroll-mt-20">
-          <h2 className="text-xl font-bold text-slate-800 mb-4">評判・口コミの参照元</h2>
-          <p className="text-sm text-slate-600 mb-4">
-            本記事で「傾向」として紹介した評判・口コミは、以下の外部メディアのレバテックダイレクト該当ページを参照しています（原文転載ではなく傾向の要約です）。リンク先の最終確認日：2026年7月。
-          </p>
-          <ul className="border border-slate-200 rounded-lg divide-y divide-slate-200 overflow-hidden">
-            <li className="px-4 py-3 text-sm">
-              <a href="https://jobs.qiita.com/levtech-direct/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
-                Qiita Job Change｜レバテックダイレクトの評判・口コミ
-              </a>
-            </li>
-            <li className="px-4 py-3 text-sm">
-              <a href="https://outside.no-limit.careers/levtechdirect-reputation/" rel="nofollow noopener" target="_blank" className="text-petrol font-medium hover:underline">
-                OUTSIDEMAGAZINE｜レバテックダイレクトの評判・口コミ
-              </a>
-            </li>
-          </ul>
-        </section>
-
         {/* ミドル視点 */}
         <section id="middle" className="mb-10 scroll-mt-20">
           <h2 className="text-xl font-bold text-slate-800 mb-4">
@@ -381,7 +463,7 @@ export default function LevtechDirectReview() {
             </p>
             <p>
               <span className="font-bold text-slate-700">30代の場合：</span>
-              実務経験を強みにスカウトを受けやすい年代です。ダイレクトで反応を見つつ、選考対策や年収交渉はエージェント型のレバテックキャリアで補う併用が効率的です。
+              使用技術・担当工程・成果などの実務経験をプロフィールに具体的に書くことで、企業がスカウトを判断する材料を増やせます。ダイレクトで反応を見つつ、選考対策や年収交渉はエージェント型のレバテックキャリアで補う併用が効率的です。
             </p>
             <p>
               <span className="font-bold text-slate-700">40代の場合：</span>
@@ -467,6 +549,36 @@ export default function LevtechDirectReview() {
           >
             公式サイトで無料登録する
           </a>
+        </section>
+
+        {/* 評判・口コミの参照元 */}
+        <section id="sources" className="mb-10 scroll-mt-20">
+          <h2 className="text-lg font-bold text-slate-800 mb-3">評判・口コミの参照元</h2>
+          <p className="text-xs text-slate-500 leading-relaxed mb-3">
+            第三者の評点は、2026年11月25日時点で当サイトが評点と件数を確認できたもののみを掲載しています。口コミは件数と内容の分類のみを掲載し、本文は転載していません。最終確認日：2026年11月25日。
+          </p>
+          <ul className="text-sm space-y-2 text-slate-600 list-disc pl-5">
+            <li>
+              <a href={OFFICIAL_URL} rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                レバテックダイレクト公式サイト（サービスの特徴・面接/面談確約の実績・転職成功事例）
+              </a>
+            </li>
+            <li>
+              <a href="https://apps.apple.com/jp/app/id6462660917" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                App Store「IT転職なら レバテックダイレクト」（開発元 Leverages Co., Ltd.・4.0／77件）
+              </a>
+            </li>
+            <li>
+              <a href="https://play.google.com/store/apps/details?id=jp.levtech.direct.mobile&hl=ja&gl=JP" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                Google Play「IT転職なら レバテックダイレクト」（提供元 レバテック株式会社・2.7／25件）
+              </a>
+            </li>
+            <li>
+              <a href="https://jobs.qiita.com/levtech-direct/" rel="nofollow noopener" target="_blank" className="text-petrol underline hover:no-underline">
+                Qiita Job Change｜レバテックダイレクトの評判・口コミ（口コミ10件・2025年12月アンケート回答）
+              </a>
+            </li>
+          </ul>
         </section>
 
         {/* 関連記事 */}
