@@ -68,6 +68,7 @@ const knowledgeCategories = [
       { name: "スカウトサービスの使い方", href: "/knowledge/scout/", desc: "スカウト型で効率的に求人を集めます。" },
       { name: "直接応募という選択肢", href: "/knowledge/direct-apply/", desc: "エージェントを使わない応募の是非です。" },
       { name: "リファラル採用の活かし方", href: "/knowledge/referral/", desc: "知人経由の転職のメリットと注意点です。" },
+      { name: "企業分析のやり方", href: "/knowledge/company-research/", desc: "有価証券報告書の読む場所と、EDINET・しょくばらぼなど公的データベース5つの使い分けです。" },
     ],
   },
   {
@@ -164,6 +165,10 @@ const knowledgeCategories = [
       { name: "フロントエンドとバックエンドの違い", href: "/knowledge/frontend-backend/", desc: "役割と技術の違い、開発者調査の職種構成とWebフレームワークの利用率を比較します。" },
       { name: "社内SEとは", href: "/knowledge/shanai-se/", desc: "IT人材の所属の日米比較、内製化の状況、IT部門の人員見通しを調査で整理します。" },
       { name: "ブロックチェーンの仕組み", href: "/knowledge/blockchain/", desc: "NISTの定義、ビットコインとイーサリアムの数値、日本の暗号資産の定義を整理します。" },
+      { name: "TypeScriptとJavaScriptの違い", href: "/knowledge/typescript-javascript/", desc: "型の検査と実行のしかたの違い、5.6〜7.1のリリース履歴、Node.jsの型除去への対応を整理します。" },
+      { name: "SE（システムエンジニア）の仕事内容", href: "/knowledge/se/", desc: "職業分類での定義、工程ごとの作業と工数の比率、職種別の賃金を公的資料で整理します。" },
+      { name: "上流工程とは", href: "/knowledge/upstream/", desc: "共通フレーム2013の範囲、工程別の工数と工期の比率、要件定義の責任の考え方を整理します。" },
+      { name: "Webサイトの作り方", href: "/knowledge/website-howto/", desc: "公開までの5ステップと、無料ホスティング4社の制限・商用利用の可否を比較します。" },
     ],
   },
 ];
