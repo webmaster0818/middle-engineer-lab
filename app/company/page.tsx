@@ -97,11 +97,11 @@ const categories = [
     name: "メーカー・製造業大手",
     intro: "組込み・IoT・社内DXが中心です。製造業出身のミドル層が業務知識を活かしやすい選択肢です。",
     companies: [
-      { slug: "toyota", name: "トヨタ自動車", salary: "600〜950万円", tech: "C++ / Python / ROS / AWS", desc: "自動運転・モビリティのソフトウェア投資を強化しています。" },
-      { slug: "sony", name: "ソニーグループ", salary: "650〜1,100万円", tech: "Python / C++ / AWS / AI/ML", desc: "ハード×AIの研究開発から事業化まで幅広く手がけています。" },
-      { slug: "hitachi", name: "日立製作所", salary: "600〜950万円", tech: "Java / Python / Azure / IoT", desc: "社会インフラ×ITのLumadaを軸にDXを推進しています。" },
-      { slug: "panasonic", name: "パナソニック", salary: "550〜900万円", tech: "C++ / Python / AWS / Embedded", desc: "家電〜車載まで組込みソフトの裾野が広い点が特徴です。" },
-      { slug: "fujitsu", name: "富士通", salary: "550〜900万円", tech: "Java / Python / Azure / Cloud", desc: "ジョブ型の人事制度へ移行し、クラウド・DX人材の募集を強化しています。" },
+      { slug: "toyota", name: "トヨタ自動車", salary: "全社平均983万円(2025/3)", tech: "C++ / Python / ROS / AWS", desc: "自動運転・モビリティのソフトウェア投資を強化しています。" },
+      { slug: "sony", name: "ソニーグループ", salary: "持株会社単体の平均1,155万円(2026/3)", tech: "Python / C++ / AWS / AI/ML", desc: "ハード×AIの研究開発から事業化まで幅広く手がけています。" },
+      { slug: "hitachi", name: "日立製作所", salary: "全社平均961万円(2025/3)", tech: "Java / Python / Azure / IoT", desc: "社会インフラ×ITのLumadaを軸にDXを推進しています。" },
+      { slug: "panasonic", name: "パナソニック", salary: "持株会社(HD)単体の平均956万円(2025/3)", tech: "C++ / Python / AWS / Embedded", desc: "家電〜車載まで組込みソフトの裾野が広い点が特徴です。" },
+      { slug: "fujitsu", name: "富士通", salary: "全社平均1,012万円(2026/3)", tech: "Java / Python / Azure / Cloud", desc: "ジョブ型の人事制度へ移行し、クラウド・DX人材の募集を強化しています。" },
       { slug: "nec", name: "NEC（日本電気）", salary: "963万円(全従業員平均)", tech: "AI / 社会インフラ / クラウド / セキュリティ", desc: "生体認証AI・社会インフラを手がけ、ジョブ型への移行によりミドル層の経験が評価されやすくなっています。" },
       { slug: "keyence", name: "キーエンス", salary: "2,039万円(全従業員平均)", tech: "組込 / 画像処理 / 計測制御", desc: "高利益率のFAメーカーで、営業職を含む全社員平均の年収が突出して高い水準です。" },
       { slug: "denso", name: "デンソー", salary: "863万円(全従業員平均)", tech: "車載ソフト / SOA / 組込 / AI", desc: "自動車Tier1です。SDV/車載ソフト人材を積極登用しています。" },
@@ -121,8 +121,8 @@ const categories = [
     name: "ゲーム・エンタメ",
     intro: "ゲーム開発に関心のあるエンジニアが経験を活かせる領域です。C++/C#やゲームエンジンの経験が評価されます。",
     companies: [
-      { slug: "nintendo", name: "任天堂", salary: "600〜950万円", tech: "C++ / C# / Unity / 自社エンジン", desc: "ハードと一体となった開発体制で、独自エンジンの知見が中心となります。" },
-      { slug: "bandai-namco", name: "バンダイナムコ", salary: "550〜900万円", tech: "C++ / C# / Unreal Engine / Unity", desc: "IPを活かしたゲームの大規模開発を行い、多様な職種を擁しています。" },
+      { slug: "nintendo", name: "任天堂", salary: "全社平均966万円(2025/3)", tech: "C++ / C# / Unity / 自社エンジン", desc: "ハードと一体となった開発体制で、独自エンジンの知見が中心となります。" },
+      { slug: "bandai-namco", name: "バンダイナムコ", salary: "持株会社単体の平均984万円(2026/3)", tech: "C++ / C# / Unreal Engine / Unity", desc: "IPを活かしたゲームの大規模開発を行い、多様な職種を擁しています。" },
       { slug: "square-enix", name: "スクウェア・エニックス", salary: "持株1,427万円(実態乖離注意)", tech: "C++ / C# / Java / 自社エンジン", desc: "FF・ドラクエを擁する大手で、中途採用では専門性を重視しています。" },
       { slug: "capcom", name: "カプコン", salary: "985万円(2026/3単体)", tech: "C++ / 内製RE ENGINE", desc: "モンハン・スト6を手がけ、内製エンジンを中心に開発しています。" },
       { slug: "konami", name: "コナミ", salary: "持株850万円(開発はコナミデジタル)", tech: "C / C++ / C#", desc: "eFootball・遊戯王・桃鉄の総合エンタメです。" },
@@ -217,7 +217,7 @@ export default function CompanyIndexPage() {
         />
 
         <p className="text-slate-500 text-sm mb-8">
-          最終更新: 2026年11月25日｜「全社平均」「提出会社平均」「持株会社平均」と書いた年収は有価証券報告書の従業員の平均年間給与（決算期を併記・各社の個別ページに出典）で、エンジニア職に限った値ではありません。幅で示した年収は公式求人の提示レンジや口コミサイト集計値の傾向で、当サイトで出典の確認を順に進めています。職種・等級により変動します。
+          最終更新: 2026年11月26日｜「全社平均」「提出会社平均」「持株会社平均」と書いた年収は有価証券報告書の従業員の平均年間給与（決算期を併記・各社の個別ページに出典）で、エンジニア職に限った値ではありません。幅で示した年収は公式求人の提示レンジや口コミサイト集計値の傾向で、当サイトで出典の確認を順に進めています。職種・等級により変動します。
         </p>
 
         {/* 目次 */}
