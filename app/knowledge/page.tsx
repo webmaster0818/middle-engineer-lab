@@ -179,6 +179,11 @@ const knowledgeCategories = [
       { name: "PHPの基礎", href: "/knowledge/php-basics/", desc: "基本の書き方5つとstrict_types、8.2〜8.6のサポート期限とWebサイトでの利用割合を整理します。" },
       { name: "GitHub入門", href: "/knowledge/github-intro/", desc: "GitとGitHubの違い、最初のコミットの実行例、pushの認証、Freeプランの無料枠を整理します。" },
       { name: "データサイエンティストとは", href: "/knowledge/data-scientist/", desc: "協会の定義とスキル845項目、デジタルスキル標準のロール、人材不足の日米独比較を整理します。" },
+      { name: "Webアプリの開発言語", href: "/knowledge/webapp-languages/", desc: "サーバー側7言語の利用率・公式の最新版・主なフレームワークを1つの表で比較します。" },
+      { name: "プロジェクトマネージャーとは", href: "/knowledge/project-manager/", desc: "職業分類の定義とIPAの業務と役割、PL・SE・PMOとの違い、PM試験とPMP資格者数の推移を整理します。" },
+      { name: "フィンテックとは", href: "/knowledge/fintech/", desc: "FSBの定義、分野別の根拠となる法律、金融庁の登録業者数（当サイト集計）を整理します。" },
+      { name: "プログラミング言語の人気ランキング", href: "/knowledge/popular-languages/", desc: "3つの公開ランキングの順位を横断比較し、上位10位に入った回数を集計します。" },
+      { name: "AIエンジニアとは", href: "/knowledge/ai-engineer/", desc: "職業分類での位置づけ、AI事業者ガイドラインの3主体、G検定・E資格の受験者の推移を整理します。" },
     ],
   },
 ];
