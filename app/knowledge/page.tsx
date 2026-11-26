@@ -174,6 +174,11 @@ const knowledgeCategories = [
       { name: "Perlとは", href: "/knowledge/perl/", desc: "公式の定義と特徴、主なリリースとサポート期限、当サイトで動かしたサンプルを掲載します。" },
       { name: "C言語とは", href: "/knowledge/c-language/", desc: "成り立ち、規格の版（C89〜C23）、コンパイラの既定の版の違いを整理します。" },
       { name: "SQLの基礎", href: "/knowledge/sql-basics/", desc: "基本の4命令と集計を実行結果つきで解説し、データベースの利用率をまとめます。" },
+      { name: "Macアプリ開発の始め方", href: "/knowledge/mac-app-dev/", desc: "Xcodeの動作要件、SwiftUI・AppKit・Mac Catalystの違い、3つの配布方法を整理します。" },
+      { name: "iPhoneアプリの作り方", href: "/knowledge/iphone-app/", desc: "公開までの5ステップ、無料でできる範囲、TestFlightの上限と2026年の提出要件を整理します。" },
+      { name: "PHPの基礎", href: "/knowledge/php-basics/", desc: "基本の書き方5つとstrict_types、8.2〜8.6のサポート期限とWebサイトでの利用割合を整理します。" },
+      { name: "GitHub入門", href: "/knowledge/github-intro/", desc: "GitとGitHubの違い、最初のコミットの実行例、pushの認証、Freeプランの無料枠を整理します。" },
+      { name: "データサイエンティストとは", href: "/knowledge/data-scientist/", desc: "協会の定義とスキル845項目、デジタルスキル標準のロール、人材不足の日米独比較を整理します。" },
     ],
   },
 ];
