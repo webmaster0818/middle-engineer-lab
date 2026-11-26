@@ -31,7 +31,7 @@ const sources = [
   "AWS 採用プロセスのサポート（公式）",
   "Amazon Our Leadership Principles（公式）",
   "levels.fyi（2026年10月15日時点・日本拠点Amazon SDE集計。AWS部門を含むAmazon全体の値で、AWS単独の分計は公表されていません）",
-  "OpenWork アマゾンジャパン／AWSジャパン（社員クチコミ集計）",
+  "OpenWork アマゾン ウェブ サービス ジャパン合同会社（2026年11月26日確認・社員による会社評価スコア・回答者数・クチコミ件数）",
 ];
 
 const faqs = [
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: "AWSジャパンの評判・働きやすさについて教えてください。",
-    a: "OpenWorkの口コミでは「裁量が大きい」「有給消化率が高い」といった声がある一方、職種・チーム・繁忙期によって負荷が変わるという指摘もあります。ドキュメント文化が強く、文章で論理的に説明する力が求められます。配属チームの実態は面接の逆質問で確認するのがおすすめです。",
+    a: "OpenWork（2026年11月26日確認）では、社員による会社評価スコア4.46（回答者366人・社員クチコミ1,733件）、同ページの集計値は月間残業時間20.1時間・有給休暇消化率77.6%です。評価項目別では「法令順守意識」4.8・「待遇面の満足度」4.7が高く、「人材の長期育成」3.1が最も低い値です。いずれも投稿者の主観にもとづく集計で、職種・チームによる違いは数値からは分かりません。配属チームの働き方は面接の逆質問で確認することをおすすめします。",
   },
   {
     q: "英語は必須ですか？",
@@ -75,7 +75,7 @@ export default function AwsJapanCompanyPage() {
 
       <article className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4">AWSジャパンへの転職・年収・評判【2026年】クラウドエンジニア/SA</h1>
-        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年10月 ｜ 年収・評判・選考（OLP）をクラウド職種の視点で解説</p>
+        <p className="text-slate-500 text-sm mb-6">最終更新: 2026年11月26日 ｜ 年収・評判・選考（OLP）をクラウド職種の視点で解説</p>
 
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
@@ -144,6 +144,41 @@ export default function AwsJapanCompanyPage() {
             </table>
           </div>
           <p className="text-xs text-slate-500 mt-2">出典：levels.fyi（2026年10月15日時点・ユーザー投稿集計・1ドル=158.493円換算）。為替・個人の交渉・RSUの株価で変動します。AWSジャパンは有価証券報告書を公表していません。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-bold text-slate-800 mb-3">口コミ・評判の掲載状況</h2>
+          <p className="text-slate-600 text-sm mb-4">社員クチコミサイトに表示されている評点と件数を、2026年11月26日に当サイトで確認して転記しました。口コミの本文は転載していません。</p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-slate-100 text-left">
+                  <th className="p-2 border-b-2 border-slate-300">出典</th>
+                  <th className="p-2 border-b-2 border-slate-300">評点</th>
+                  <th className="p-2 border-b-2 border-slate-300">件数・集計値</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-slate-200"><td className="p-2"><a href="https://www.openwork.jp/company.php?m_id=a0C1000000uLHuX" rel="nofollow noopener" target="_blank" className="text-petrol underline">OpenWork（アマゾン ウェブ サービス ジャパン合同会社）</a></td><td className="p-2">社員による会社評価スコア 4.46</td><td className="p-2">回答者366人・社員クチコミ1,733件。同ページの集計値は月間残業時間20.1時間・有給休暇消化率77.6%</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="overflow-x-auto mt-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-slate-100 text-left">
+                  <th className="p-2 border-b-2 border-slate-300">OpenWork の評価項目</th>
+                  <th className="p-2 border-b-2 border-slate-300">評点（5点満点）</th>
+                </tr>
+              </thead>
+              <tbody>
+                {([["待遇面の満足度","4.7"],["社員の士気","4.5"],["風通しの良さ","4.4"],["社員の相互尊重","3.9"],["20代成長環境","4.1"],["人材の長期育成","3.1"],["法令順守意識","4.8"],["人事評価の適正感","4.4"]] as [string,string][]).map(([k,v]) => (
+                  <tr key={k} className="border-b border-slate-200"><td className="p-2">{k}</td><td className="p-2">{v}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-500 mt-2">出典：OpenWork（2026年11月26日確認）。評点は投稿者個人の主観にもとづく集計で、職種・チーム・在籍時期によって働き方は異なります。同ページの「回答者の平均年収 1,375万円（正社員296人）」も投稿の集計値で、会社が公表した平均年収ではありません。</p>
         </section>
 
         <section className="mb-12">
