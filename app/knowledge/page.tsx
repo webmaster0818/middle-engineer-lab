@@ -184,6 +184,11 @@ const knowledgeCategories = [
       { name: "フィンテックとは", href: "/knowledge/fintech/", desc: "FSBの定義、分野別の根拠となる法律、金融庁の登録業者数（当サイト集計）を整理します。" },
       { name: "プログラミング言語の人気ランキング", href: "/knowledge/popular-languages/", desc: "3つの公開ランキングの順位を横断比較し、上位10位に入った回数を集計します。" },
       { name: "AIエンジニアとは", href: "/knowledge/ai-engineer/", desc: "職業分類での位置づけ、AI事業者ガイドラインの3主体、G検定・E資格の受験者の推移を整理します。" },
+      { name: "プログラマーとは", href: "/knowledge/programmer/", desc: "2つの公的な職業分類での定義、SEとの境目、企業規模別の賃金と基本情報技術者試験の推移を整理します。" },
+      { name: "ビッグデータとは", href: "/knowledge/big-data/", desc: "NISTの定義と4つのV、情報通信白書の4分類、企業のIoT・AI導入率と処理時間の実測を整理します。" },
+      { name: "クラウドエンジニアとは", href: "/knowledge/cloud-engineer/", desc: "NISTのクラウドの定義、責任共有モデルとIaC、企業のクラウド利用率、3社の認定資格数を整理します。" },
+      { name: "プロダクトマネージャーとは", href: "/knowledge/product-manager/", desc: "IPAデジタルスキル標準の定義、プロダクトオーナー・PMとの違い、必要スキルの集計を整理します。" },
+      { name: "UNIXの歴史", href: "/knowledge/unix-history/", desc: "開発者の論文にもとづく年表、BSD・Linuxの系譜、UNIX認証製品の集計とmacOSでの確認結果を整理します。" },
     ],
   },
 ];
