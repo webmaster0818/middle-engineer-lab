@@ -194,6 +194,11 @@ const knowledgeCategories = [
       { name: "データアナリストとは", href: "/knowledge/data-analyst/", desc: "公的資料での扱い、欧州ESCOのスキル照合、データサイエンティストとの違いを整理します。" },
       { name: "フルスタックエンジニアとは", href: "/knowledge/fullstack-engineer/", desc: "公的分類での扱い、開発者調査の割合の推移、使う技術と担う業務の集計を整理します。" },
       { name: "Webエンジニアとは", href: "/knowledge/web-engineer/", desc: "職業分類での位置、IPAのロール、扱うWeb標準13件の一覧とHTTP通信の確認結果を整理します。" },
+      { name: "カスタマーエンジニアとは", href: "/knowledge/customer-engineer/", desc: "職業分類での位置と例示28職業の内訳、ITSSカスタマサービスの3専門分野とスキル項目、賃金の参考値を整理します。" },
+      { name: "セールスエンジニアとは", href: "/knowledge/sales-engineer/", desc: "日本と欧米の職業分類での位置、ESCO・O*NETの職務の照合、関連職種の賃金を整理します。" },
+      { name: "組み込みエンジニアの仕事内容", href: "/knowledge/embedded-engineer/", desc: "職業分類の定義、開発工程、ESCOのスキル照合とES試験応募者の業務別内訳を整理します。" },
+      { name: "プラントエンジニアとは", href: "/knowledge/plant-engineer/", desc: "職業分類での位置と仕事の段階、欧州ESCOのスキル照合、技術士の関連科目の合格者数を整理します。" },
+      { name: "データベースエンジニアとは", href: "/knowledge/database-engineer/", desc: "国際標準職業分類の定義、設計から運用までの工程、DBAとの違い、ESCOのスキル照合を整理します。" },
     ],
   },
 ];
