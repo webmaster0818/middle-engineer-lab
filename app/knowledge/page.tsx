@@ -189,6 +189,11 @@ const knowledgeCategories = [
       { name: "クラウドエンジニアとは", href: "/knowledge/cloud-engineer/", desc: "NISTのクラウドの定義、責任共有モデルとIaC、企業のクラウド利用率、3社の認定資格数を整理します。" },
       { name: "プロダクトマネージャーとは", href: "/knowledge/product-manager/", desc: "IPAデジタルスキル標準の定義、プロダクトオーナー・PMとの違い、必要スキルの集計を整理します。" },
       { name: "UNIXの歴史", href: "/knowledge/unix-history/", desc: "開発者の論文にもとづく年表、BSD・Linuxの系譜、UNIX認証製品の集計とmacOSでの確認結果を整理します。" },
+      { name: "プログラミングの無料学習サイト9選", href: "/knowledge/free-learning-sites/", desc: "9サービスの無料で使える範囲と有料プランの税込価格を公式ページで確認し、年間費用を比較します。" },
+      { name: "Webディレクターとは", href: "/knowledge/web-director/", desc: "職業分類での位置づけと仕事内容、Webプロデューサー・デザイナーとの違い、Web関連職業名の分類を整理します。" },
+      { name: "データアナリストとは", href: "/knowledge/data-analyst/", desc: "公的資料での扱い、欧州ESCOのスキル照合、データサイエンティストとの違いを整理します。" },
+      { name: "フルスタックエンジニアとは", href: "/knowledge/fullstack-engineer/", desc: "公的分類での扱い、開発者調査の割合の推移、使う技術と担う業務の集計を整理します。" },
+      { name: "Webエンジニアとは", href: "/knowledge/web-engineer/", desc: "職業分類での位置、IPAのロール、扱うWeb標準13件の一覧とHTTP通信の確認結果を整理します。" },
     ],
   },
 ];
