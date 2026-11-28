@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/company/toyota/" },
   title: "トヨタ自動車の年収は平均983万円【2026年・有報】エンジニア転職・選考ガイド",
   description:
-    "トヨタ自動車のエンジニア転職を実データで解説します。有価証券報告書の平均年収983万円(2025年3月期)、ソフトウェアファースト、Woven by Toyotaの選考・報酬、口コミ傾向、30代40代視点まで網羅しています。",
+    "トヨタ自動車のエンジニア転職を実データで解説します。有価証券報告書の平均年間給与1,006万円(2026年3月期)、ソフトウェアファースト、Woven by Toyotaの選考・報酬、口コミ傾向、30代40代視点まで網羅しています。",
 };
 
 const toc = [
@@ -30,8 +30,8 @@ const basicData: [string, string][] = [
   ["業種", "自動車・モビリティ"],
   ["ソフトウェア開発子会社", "Woven by Toyota株式会社（自動運転・ソフトウェア基盤を担う）"],
   ["従業員数", "連結 約38万人規模（公式IR・有価証券報告書ベース。年度で変動）"],
-  ["提出会社の平均年間給与", "983万円（2025年3月期 有価証券報告書・全社員平均）"],
-  ["平均年齢 / 勤続年数", "40.7歳 / 15.6年（同 有価証券報告書）"],
+  ["提出会社の平均年間給与", "1,006万円（2026年3月期 有価証券報告書・全社員平均。前期983万円）"],
+  ["平均年齢 / 勤続年数", "40.5歳 / 15.1年（同 有価証券報告書）"],
   ["本社所在地", "愛知県豊田市（Woven by Toyotaは東京）"],
   ["公開されている主な技術領域", "車載ソフトウェア基盤「Arene」、自動運転、Woven City、クラウド、組み込み"],
 ];
@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     q: "トヨタ自動車の平均年収はいくらですか？",
-    a: "2025年3月期の有価証券報告書によると、トヨタ自動車（提出会社）の従業員の平均年間給与は983万円、平均年齢40.7歳、平均勤続年数15.6年です。これは全従業員の平均であり、エンジニア職に限定した公式レンジではありません。前年から大きく上昇した点が複数の二次情報で報じられています。",
+    a: "2026年3月期の有価証券報告書によると、トヨタ自動車（提出会社）の従業員の平均年間給与は10,060,464円（約1,006万円・対前事業年度2.4%増）、平均年齢40.5歳、平均勤続年数15.1年です。これは全従業員の平均であり、エンジニア職に限定した公式レンジではありません。前期（2025年3月期）は983万円でした。",
   },
   {
     q: "Woven by Toyotaとトヨタ本体は何が違いますか？",
@@ -84,7 +84,7 @@ export default function ToyotaCompanyPage() {
 
   return (
     <>
-      <ArticleJsonLd title="トヨタ自動車 エンジニア転職ガイド" description="トヨタ自動車へのエンジニア転職を実データで解説します。有価証券報告書の平均年収983万円、ソフトウェアファースト、Woven by Toyotaの選考・報酬、口コミ傾向、30代40代視点まで網羅しています。" url="/company/toyota/" />
+      <ArticleJsonLd title="トヨタ自動車 エンジニア転職ガイド" description="トヨタ自動車へのエンジニア転職を実データで解説します。有価証券報告書の平均年間給与1,006万円（2026年3月期）、ソフトウェアファースト、Woven by Toyotaの選考・報酬、口コミ傾向、30代40代視点まで網羅しています。" url="/company/toyota/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "Pythonの転職ガイド", href: "/skill/python/" }, { name: "Rustの転職ガイド", href: "/skill/rust/" }, { name: "C++の転職ガイド", href: "/skill/cpp/" }, { name: "組込みの転職ガイド", href: "/skill/embedded/" }, { name: "IT企業平均年収ランキング43社【有報準拠】", href: "/salary/company-ranking/" }, { name: "ホーム", href: "/" }, { name: "企業別ガイド", href: "/company/" }, { name: "トヨタ自動車" }]} />
 
@@ -95,15 +95,15 @@ export default function ToyotaCompanyPage() {
         {/* 直答box (P0/company年収) */}
         <div className="bg-petrol-soft border-l-4 border-petrol-deep rounded-r-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-slate-900 mb-2">【直答】トヨタ自動車の年収は？</h2>
-          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>トヨタ自動車（提出会社単体）の平均年間給与は983万円です（2025年3月期 有価証券報告書・全社員平均、平均年齢40.7歳）。ソフトウェア子会社Woven by Toyotaのエンジニア報酬は別水準です。</strong></p>
-          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 983万円です（2025年3月期 有価証券報告書・提出会社単体、平均勤続15.6年）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・Woven by Toyotaのソフトウェアエンジニア報酬は年1,000万円台〜2,000万円超（中央値1,400万円台。Levels.fyi・2026年6月確認の二次集計で、個人報告に基づく目安です）。</li><li>・トヨタ本体・Woven by Toyotaとも等級別年収は非公表です。提示額は経験・ポジションで変動するため、求人票・エージェントで確認が必要です。</li></ul>
+          <p className="text-sm leading-7 text-slate-700 mb-3"><strong>トヨタ自動車（提出会社単体）の平均年間給与は1,006万円です（2026年3月期 有価証券報告書・全社員平均、平均年齢40.5歳）。ソフトウェア子会社Woven by Toyotaのエンジニア報酬は別水準です。</strong></p>
+          <ul className="text-sm leading-7 text-slate-700 space-y-1.5"><li>・平均年間給与 1,006万円です（2026年3月期 有価証券報告書・提出会社単体、平均勤続15.1年）。全社員平均でエンジニア職に限った数値ではありません。</li><li>・Woven by Toyotaのソフトウェアエンジニア報酬は年1,000万円台〜2,000万円超（中央値1,400万円台。Levels.fyi・2026年6月確認の二次集計で、個人報告に基づく目安です）。</li><li>・トヨタ本体・Woven by Toyotaとも等級別年収は非公表です。提示額は経験・ポジションで変動するため、求人票・エージェントで確認が必要です。</li></ul>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
           トヨタ自動車は「ソフトウェアファースト」「SDV（Software Defined Vehicle）」を掲げ、自動車そのものをソフトウェアで進化させる方向へ舵を切っています。その中核を担うのが、自動運転・車載ソフトウェア基盤を開発するグループ会社<strong>Woven by Toyota</strong>です。本ガイドでは、有価証券報告書・公式採用ページ・市場データなど<strong>出典が確認できる情報のみ</strong>を使い、エンジニア転職の実態を整理します。製造業の現場知識を持つミドルエンジニアにとっても接点の多い企業です。
         </p>
 
-        <DataNote surveyedAt="2026年6月" sources={["トヨタ自動車 2025年3月期 有価証券報告書", "Woven by Toyota 公式採用ページ", "Levels.fyi（報酬集計・二次情報）", "OpenWork（社員クチコミ傾向）"]} />
+        <DataNote surveyedAt="2026年6月" sources={["トヨタ自動車 2026年3月期 有価証券報告書（EDINET S100Y8NY・2026年11月28日確認）", "Woven by Toyota 公式採用ページ", "Levels.fyi（報酬集計・二次情報）", "OpenWork（社員クチコミ傾向）"]} />
 
         <nav aria-label="目次" className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-slate-700 mb-3 text-sm">目次</p>
@@ -120,7 +120,7 @@ export default function ToyotaCompanyPage() {
             <p><strong>難易度は高めです。特にWoven by Toyotaは外資テック型の選考で、英語・コーディング・行動面接の準備が必須です。</strong></p>
             <p>・<strong>向いている人</strong>：自動運転・組み込み・車載ソフトウェア・クラウド基盤の実務経験者、英語での開発に抵抗がない人、社会インフラ規模の開発に関心がある人です。</p>
             <p>・<strong>向いていない人</strong>：英語の選考・業務を避けたい人（→トヨタ本体の日本語ポジションを検討）、短サイクルのWebプロダクトのみを志向する人です。</p>
-            <p>・<strong>年収の目安</strong>：トヨタ本体の全社員平均は983万円です（2025年3月期有価証券報告書）。Woven by Toyotaのソフトウェアエンジニア報酬は二次集計で1,000万円台〜2,000万円超です（Levels.fyi、目安）。</p>
+            <p>・<strong>年収の目安</strong>：トヨタ本体の全社員平均は1,006万円です（2026年3月期有価証券報告書）。Woven by Toyotaのソフトウェアエンジニア報酬は二次集計で1,000万円台〜2,000万円超です（Levels.fyi、目安）。</p>
           </div>
         </section>
 
@@ -180,8 +180,8 @@ export default function ToyotaCompanyPage() {
           <h2 className="text-xl font-bold text-slate-800 mb-4">年収データ</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-4">
             <p className="text-sm text-amber-900 leading-relaxed">
-              <strong>有価証券報告書（2025年3月期）の全社員平均年収：983万円</strong><br />
-              平均年齢40.7歳／平均勤続年数15.6年です（提出会社＝トヨタ自動車株式会社単体の値）。全従業員の平均であり、エンジニア職に限定した公式レンジではありません。<br className="hidden md:block" />
+              <strong>有価証券報告書（2026年3月期）の全社員平均年間給与：1,006万円</strong><br />
+              平均年齢40.5歳／平均勤続年数15.1年です（提出会社＝トヨタ自動車株式会社単体の値・2026年3月31日現在。出典：<a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y8NY.pdf" target="_blank" rel="noopener noreferrer" className="text-petrol hover:underline">有価証券報告書 第122期</a>「従業員の状況」）。前期は983万円・40.7歳・15.6年でした。全従業員の平均であり、エンジニア職に限定した公式レンジではありません。<br className="hidden md:block" />
               <strong className="block mt-2">Woven by Toyota（ソフトウェアエンジニア）の参考レンジ：年1,000万円台〜2,000万円超</strong>
               市場データサイトLevels.fyiの集計です（中央値1,400万円台、2026年6月確認の二次情報）。個人報告に基づく集計のため、あくまで目安です。
             </p>

@@ -27,7 +27,7 @@ const companies: Row[] = [
   { rank: 7, slug: "sony", name: "ソニーグループ", salary: 1118, period: "2025年3月期", tech: "Python / C++ / AWS / AI/ML" },
   { rank: 8, slug: "ntt", name: "NTT（日本電信電話）", salary: 1069, period: "2025年3月期", tech: "IOWN / AI / クラウド / ソフトウェア工学" },
   { rank: 9, slug: "kddi", name: "KDDI", salary: 1018, period: "2025年3月期・全社員平均", tech: "5G / クラウド / データ・AI" },
-  { rank: 10, slug: "toyota", name: "トヨタ自動車", salary: 983, period: "2025年3月期", tech: "C++ / Python / ROS / AWS" },
+  { rank: 10, slug: "toyota", name: "トヨタ自動車", salary: 1006, period: "2026年3月期", tech: "C++ / Python / ROS / AWS" },
   { rank: 11, slug: "nintendo", name: "任天堂", salary: 966, period: "2025年3月期", tech: "C++ / C# / Unity / 自社エンジン" },
   { rank: 12, slug: "nec", name: "NEC", salary: 963, period: "2025年3月期・単体全従業員", tech: "AI / 社会インフラ / クラウド / セキュリティ" },
   { rank: 13, slug: "hitachi", name: "日立製作所", salary: 961, period: "2025年3月期", tech: "Java / Python / Azure / IoT" },

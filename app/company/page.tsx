@@ -97,7 +97,7 @@ const categories = [
     name: "メーカー・製造業大手",
     intro: "組込み・IoT・社内DXが中心です。製造業出身のミドル層が業務知識を活かしやすい選択肢です。",
     companies: [
-      { slug: "toyota", name: "トヨタ自動車", salary: "全社平均983万円(2025/3)", tech: "C++ / Python / ROS / AWS", desc: "自動運転・モビリティのソフトウェア投資を強化しています。" },
+      { slug: "toyota", name: "トヨタ自動車", salary: "全社平均1,006万円(2026/3)", tech: "C++ / Python / ROS / AWS", desc: "自動運転・モビリティのソフトウェア投資を強化しています。" },
       { slug: "sony", name: "ソニーグループ", salary: "持株会社単体の平均1,155万円(2026/3)", tech: "Python / C++ / AWS / AI/ML", desc: "ハード×AIの研究開発から事業化まで幅広く手がけています。" },
       { slug: "hitachi", name: "日立製作所", salary: "全社平均961万円(2025/3)", tech: "Java / Python / Azure / IoT", desc: "社会インフラ×ITのLumadaを軸にDXを推進しています。" },
       { slug: "panasonic", name: "パナソニック", salary: "持株会社(HD)単体の平均956万円(2025/3)", tech: "C++ / Python / AWS / Embedded", desc: "家電〜車載まで組込みソフトの裾野が広い点が特徴です。" },

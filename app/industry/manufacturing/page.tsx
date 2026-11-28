@@ -331,7 +331,7 @@ export default function ManufacturingPage() {
               rows: [
                 { name: "ソニーグループ", href: "/company/sony/", salary: "1,155万円", note: "2026年3月期" },
                 { name: "富士フイルムHD", href: "/company/fujifilm/", salary: "1,124万円", note: "2025年3月期・HD単体" },
-                { name: "トヨタ自動車", href: "/company/toyota/", salary: "983万円", note: "2025年3月期" },
+                { name: "トヨタ自動車", href: "/company/toyota/", salary: "1,006万円", note: "2026年3月期" },
                 { name: "日立製作所", href: "/company/hitachi/", salary: "961万円", note: "2025年3月期" },
                 { name: "パナソニックHD", href: "/company/panasonic/", salary: "956万円", note: "2025年3月期・HD" },
                 { name: "デンソー", href: "/company/denso/", salary: "863万円", note: "2025年3月期" },
