@@ -17,6 +17,7 @@ const knowledgeCategories = [
     intro: "選考突破の起点となる書類づくりについて、経歴の棚卸しから見せ方までを解説します。",
     items: [
       { name: "自己PRの書き方・例文", href: "/knowledge/self-pr/", desc: "Before/Afterと職種別例文で、評価される自己PRの作り方を解説します。" },
+      { name: "志望動機の作り方", href: "/knowledge/motivation-letter/", desc: "企業が転職者を採用する理由の公的調査と、情報通信業の転職者が勤め先を選んだ理由（当サイト集計）、組み立ての手順を整理します。" },
       { name: "スキルシートの書き方", href: "/knowledge/skill-sheet/", desc: "職務経歴書との違いと記入例を、SES・フリーランス向けに解説します。" },
       { name: "経歴の空白期間の説明方法", href: "/knowledge/career-gap/", desc: "ブランクを不利にしない理由別の説明の型と例文です。" },
       { name: "転職回数が多い場合の対策", href: "/knowledge/job-change-count/", desc: "一貫性の軸の作り方で回数の多さをカバーします。" },
@@ -77,6 +78,7 @@ const knowledgeCategories = [
     items: [
       { name: "退職理由の伝え方", href: "/knowledge/resignation-reason/", desc: "本音から建前への言い換えと例文で、円満退職を目指します。" },
       { name: "内定承諾の期限と延長", href: "/knowledge/offer-deadline/", desc: "承諾期限の目安と延長の頼み方をメール例文付きで解説します。" },
+      { name: "オファー面談で聞くこと", href: "/knowledge/offer-meeting/", desc: "労基則第5条の明示事項14項目に対応させた確認表で、内定後・承諾前に確かめる条件を整理します。" },
       { name: "内定辞退の伝え方", href: "/knowledge/offer-decline/", desc: "メール例文と電話トークで、角を立てずに辞退する方法を解説します。" },
       { name: "リファレンスチェックの対策", href: "/knowledge/reference-check/", desc: "仕組み・同意原則・推薦者選びと準備リストです。" },
       { name: "入社前の準備チェックリスト", href: "/knowledge/pre-onboarding/", desc: "提出書類・年金や保険の手続き・初日準備を網羅しています。" },
@@ -97,6 +99,7 @@ const knowledgeCategories = [
       { name: "フリーランスvs正社員", href: "/knowledge/freelance-vs-fulltime/", desc: "ミドルはどちらが得かを比較します。" },
       { name: "リモートワーク転職", href: "/knowledge/remote-work/", desc: "フルリモート求人の探し方と現実です。" },
       { name: "ワークライフバランス", href: "/knowledge/work-life-balance/", desc: "働き方を軸にした転職先の選び方です。" },
+      { name: "IT業界はブラックか", href: "/knowledge/it-industry-working-conditions/", desc: "情報通信業の労働時間・残業・離職率・有給取得率を厚労省の統計で16産業と比べ、白書の調査結果と見分け方を整理します。" },
       { name: "スタートアップvs大企業", href: "/knowledge/startup-vs-enterprise/", desc: "規模で変わる働き方とリスクです。" },
       { name: "マネジメントへの道", href: "/knowledge/management/", desc: "プレイヤーから管理職への移行の進め方です。" },
       { name: "継続的な学習戦略", href: "/knowledge/continuous-learning/", desc: "働きながらスキルを伸ばす方法です。" },
@@ -199,6 +202,8 @@ const knowledgeCategories = [
       { name: "組み込みエンジニアの仕事内容", href: "/knowledge/embedded-engineer/", desc: "職業分類の定義、開発工程、ESCOのスキル照合とES試験応募者の業務別内訳を整理します。" },
       { name: "プラントエンジニアとは", href: "/knowledge/plant-engineer/", desc: "職業分類での位置と仕事の段階、欧州ESCOのスキル照合、技術士の関連科目の合格者数を整理します。" },
       { name: "データベースエンジニアとは", href: "/knowledge/database-engineer/", desc: "国際標準職業分類の定義、設計から運用までの工程、DBAとの違い、ESCOのスキル照合を整理します。" },
+      { name: "Webデザイナーとは", href: "/knowledge/web-designer/", desc: "職業分類での定義と仕事の工程、なるための道筋（学校・公的職業訓練・技能検定）、検定の等級別合格率を整理します。" },
+      { name: "ロジカルシンキングとは", href: "/knowledge/logical-thinking/", desc: "社会人基礎力・デジタルスキル標準・試験シラバス・DS協会での扱いを横断集計し、エンジニア業務での使い方を整理します。" },
     ],
   },
 ];
